@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 680d5ed929a396bfb2d3c7f05351ab6c93d29256c825c618cb166aac444aa5d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726898"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920524"
 ---
 # <a name="product-dimensions"></a>Afurðarvíddir
 
@@ -78,7 +78,7 @@ Fyrirtæki selur denim-gallabuxur. Varan, *gallabuxur*, notar lit og stærð afu
 
 ## <a name="the-version-product-dimension"></a>Afurðarvídd útgáfunnar
 
-Útgáfa er afurðarvídd sem er ætluð til að vinna með og rekja margar útgáfur af afurð í gegnum aðfangakeðjuna. Útgáfurakning er nauðsynleg fyrir velgengni framleiðenda sem starfa í heimi stöðugt minnkandi líftíma afurða, aukinna gæða og kröfur um áreiðanleika og aukinnar áherslu á öryggi afurða.
+Útgáfa er afurðarvídd sem er ætluð til að vinna með og rekja margar útgáfur af afurð í gegnum aðfangakeðjuna. Útgáfumæling er nauðsynleg fyrir velgengni framleiðenda sem starfa í heimi stöðugt minnkandi lífsferils vara, aukinna gæða- og áreiðanleikakrafna og aukinnar áherslu á vöruöryggi.
 
 Sem stöðluð afurðarvídd, mun útgáfa hegða sér á svipaðan hátt og núverandi afurðarvíddir (stærð, stíll, litur og afbrigði). Þess vegna er hægt að nota hana í öðrum tilgangi en að rekja útgáfur afurða.
 

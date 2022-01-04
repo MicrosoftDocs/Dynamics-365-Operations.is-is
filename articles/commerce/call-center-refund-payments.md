@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 93eff7a54f9d3851c59b83a28d3aa61a8de7bc41f2a845be21c8bf4d1c6401d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
+ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731032"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7944714"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Úrvinnsla endurgreiðslu í símaverum
 
@@ -33,11 +33,14 @@ Regla símavers ákvarðar greiðslumáta fyrir endurgreiðslulínuna út frá g
 
 Símaverið notar greiðslumáta upprunalegrar pöntunar til að ákvarða greiðslumáta sem á að nota fyrir skilapöntun. Svona virkar þetta ferli fyrir eftirfarandi upprunalega greiðslumáta:
 
-- **Venjulegur** (reiðufé) eða **Ávísun** – Þegar skilapöntun sem er stofnuð vísar í upprunalega pöntun sem var greidd með því að nota venjulega greiðslugerð (reiðufé) eða ávísun, vísar forrit símaversins í skilgreiningar á síðunni **Endurgreiðslumátar símavers**. Þessi síða gerir fyrirtækjum kleift að skilgreina, eftir gjaldmiðli pöntunar, hvernig á að endurgreiða viðskiptavinum fyrir pantanir sem voru upprunalega greiddar með því að nota venjulegu greiðslugerðina eða ávísun. Síðan **Endurgreiðslumátar símavers** gerir fyrirtækjum líka kleift að velja hvort kerfismynduð endurgreiðsluávísun er send til viðskiptavinarins eða hvort inneign á viðskiptavinareikning er búin til á móti innri reikningsstöðu viðskiptavinar. Í þessum aðstæðum vísar regla símavers í gjaldmiðil skilapöntunar og notar síðan gildið **Greiðslumáti fyrir smásölu** fyrir þann gjaldmiðil til að búa til endurgreiðslulínu á skilasölupöntuninni. Síðar meir er greiðslubók viðskiptakrafna viðskiptavinar sem notar varpaðan greiðslumáta viðskiptakrafna tengdur við gjaldmiðilinn.
+- **Venjulegur** (reiðufé) eða **Ávísun** – Þegar skilapöntun sem er stofnuð vísar í upprunalega pöntun sem var greidd með því að nota venjulega greiðslugerð (reiðufé) eða ávísun, vísar forrit símaversins í skilgreiningar á síðunni **Endurgreiðslumátar símavers**. Þessi síða gerir fyrirtækjum kleift að skilgreina, eftir gjaldmiðli pöntunar, hvernig á að endurgreiða viðskiptavinum fyrir pantanir sem voru upprunalega greiddar með því að nota venjulegu greiðslugerðina eða ávísun. The **Endurgreiðsluaðferðir símavera** síða gerir fyrirtækjum einnig kleift að velja hvort kerfisbundin endurgreiðsluávísun eigi að senda til viðskiptavinarins. Í þessum aðstæðum vísar regla símavers í gjaldmiðil skilapöntunar og notar síðan gildið **Greiðslumáti fyrir smásölu** fyrir þann gjaldmiðil til að búa til endurgreiðslulínu á skilasölupöntuninni. Síðar meir er greiðslubók viðskiptakrafna viðskiptavinar sem notar varpaðan greiðslumáta viðskiptakrafna tengdur við gjaldmiðilinn.
 
     Eftirfarandi mynd sýnir skilgreininguna fyrir aðstæður þar sem viðskiptavinur skilar afurðum úr sölupöntun sem er tengd við Bandaríkjadal og sem var upphaflega greidd með því að nota venjulegu greiðslugerðina eða ávísun. Í þessum aðstæðum fær viðskiptavinur endurgreitt í gegnum kerfismyndaða endurgreiðsluávísun. Greiðslumátinn **REF-CHK** fyrir viðskiptakröfur hefur verið skilgreindur sem greiðslugerð endurgreiðsluávísunar.
 
     ![Skilgreining endurgreiðslumáta símavers fyrir upprunalegar greiðslur sem voru venjulegar eða með ávísun.](media/callcenterrefundmethods.png)
+
+    > [!NOTE]
+    > Viðskiptavinareikningur er ekki studdur endurgreiðsluaðferð fyrir reiðufé eða tékkagreiðslur.
 
 - **Kreditkort** – Þegar skilapöntun sem er stofnuð vísar í upprunalega pöntun sem var greidd með kreditkorti, notar regla símavers um endurgreiðslur sama upprunalega kreditkortið á skilapöntunina.
 - **Vildarkort** – Þegar skilapöntun sem er stofnuð vísar í upprunalega pöntun sem var greidd með vildarkorti viðskiptavinar, notar regla símavers um endurgreiðslur sama vildarkortið fyrir endurgreiðsluna.

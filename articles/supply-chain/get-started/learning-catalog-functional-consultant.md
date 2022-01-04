@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7271436bd155918dfdac792486c89966e7adb18c
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
-ms.translationtype: HT
+ms.openlocfilehash: a028de4bd37b965d55783dad4b39378d6400bf4b
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402643"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920749"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Námslisti fyrir hagnýta ráðgjafa Dynamics 365 Supply Chain Management
 
@@ -113,7 +113,7 @@ Fyrir starfhæfa ráðgjafa sýndu rannsóknir okkar á verkefnavinnu að allir 
 | [Stilla eignastýringu fyrir Dynamics 365 Supply Chain Management](/learn/paths/configure-asset-management-dyn365-supply-chain-mgmt/) | Eignastýring er viðbót fyrir Dynamics 365 Supply Chain Management sem er notuð til að hafa umsjón með eignum sem eru notaðar í daglegum rekstri fyrirtækisins. Nokkur dæmi um þessar tegundir eigna eru vélar, framleiðslutæki og gaffallyftarar. | Ókeypis, sjálfstýr skref á námsleið | 7 klst. |
 | [Vinna með eignastýringu fyrir Dynamics 365 Supply Chain Management](/learn/paths/work-asset-management-dyn365-supply-chain-mgmt/) | Eignastýring er viðbót við Dynamics 365 Supply Chain Management sem er notuð til að hafa umsjón með eignum sem eru notaðar í daglegum rekstri fyrirtækisins. Nokkur dæmi um þessar tegundir eigna eru vélar, framleiðslutæki og gaffallyftarar. | Ókeypis, sjálfstýr skref á námsleið | 12.5 klst. |
 | [Stjórna upplýsingum um útgáfu afurðar í Dynamics 365 Supply Chain Management](/learn/paths/manage-product-version-engineering-change-management/) | Innbót fyrir umsjón hönnunarbreytinga fyrir Dynamics 365 Supply Chain Management býður upp á skipulagt ferli til að stjórna upplýsingum um útgáfu afurðar á líftíma hönnunarafurðar. | Ókeypis, sjálfstýr skref á námsleið | 4 klst. |
-| [Setja upp stjórnun hönnunarbreytinga fyrir Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | Framleiðendur í dag krefjast öflugrar afurðagagnastjórnunar, útgáfustjórnunar og breytingastjórnun hönnunar til að ná árangri í heimi með stöðugt minnkandi líftíma, auknum kröfum um gæði og áreiðanleika og aukna áherslu á vöruöryggi. Kynntu þér hvernig á að setja upp umsjón hönnunarbreytinga í þessari námsleið. | Ókeypis, sjálfstýr skref á námsleið | 4 klst. |
+| [Setja upp stjórnun hönnunarbreytinga fyrir Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | Framleiðendur nútímans krefjast öflugrar vörugagnastjórnunar, útgáfustýringar og verkfræðilegrar breytingastjórnunar til að ná árangri í heimi stöðugt minnkandi lífsferils vöru, aukinna gæða- og áreiðanleikakrafna og aukinnar áherslu á vöruöryggi. Kynntu þér hvernig á að setja upp umsjón hönnunarbreytinga í þessari námsleið. | Ókeypis, sjálfstýr skref á námsleið | 4 klst. |
 | [Microsoft vottað: Dynamics 365 for Finance and Operations, Framleiðslu hagnýtur ráðgjafi Supply Chain Management](https://www.microsoft.com/learning/d365-functional-consultant-supply-chain-management.aspx) | Microsoft vottað: Dynamics 365 for Finance and Operations, Supply Chain Management Virkir ráðgjafar hagræða kostnaðarbókhaldi, birgðastjórnun, skipulagningu skipulagningar og vöruhúsastjórnun fyrir viðskiptavini sína. | Vottorð, kostnaður er breytilegur eftir svæðum | |
 
 ## <a name="exams"></a>Próf<a name="exams"></a>

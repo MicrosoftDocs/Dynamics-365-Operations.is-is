@@ -2,7 +2,7 @@
 title: Færibreytuuppsetning kreditstjórnunar
 description: Þetta efni lýsir valkostunum sem þú getur notað til að stilla lánastjórnun til að uppfylla kröfur fyrirtækisins.
 author: JodiChristiansen
-ms.date: 08/03/2020
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 768fb5121ae6be513c4a533a20027cf784640b2a
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 745a51617f8c87c0f757aee0304ec3efb55d0f98
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753466"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921216"
 ---
 # <a name="credit-management-parameters-setup"></a>Færibreytuuppsetning kreditstjórnunar
 
@@ -31,7 +31,7 @@ ms.locfileid: "7753466"
 
 ### <a name="credit-holds"></a>Lán í biðstöðu
 
-- Stillið valkostinn **Leyfa breytingu á virði sölupantana þegar biðstaða pöntunar er losuð** á **Nei** til að krefjast þess að bókunarreglur verði aftur athugaðar ef gildi sölupöntunar (heildarverðs) hefur hækkað frá því að sölupöntunin var losuð úr biðlistanum. .
+- Stillið valkostinn **Leyfa breytingu á virði sölupantana þegar biðstaða pöntunar er losuð** á **Nei** til að krefjast þess að bókunarreglur verði aftur athugaðar ef gildi sölupöntunar (heildarverðs) hefur hækkað frá því að sölupöntunin var losuð úr biðlistanum.
 - Í reitnum **Ástæður niðurfelldra pantana** velurðu losunarástæðuna sem verður sjálfkrafa notuð þegar sölupöntun sem var í lánastýringarbið er felld niður.
 - Stilltu valkostinn **Athuga lánamörk viðskiptavinahópa** á **Já** til að athuga lánamörk viðskiptavinahóps þegar viðskiptavinurinn í sölupöntun tilheyrir lánshópi viðskiptavina. Lánamörk hópsins verða athuguð og síðan, ef það er nægjanlegt, verður lánsfjárhæðin fyrir viðskiptavininn athuguð.
 - Stilltu valkostinn **Athuga lánamörk þegar greiðsluskilmálar eru hækkaðir** á **Já** til að kanna röðun á greiðsluskilmálum til að ákvarða hvort greiðsluskilmálar í sölupöntuninni eru frábrugðnir sjálfgefnum greiðsluskilmálum fyrir viðskiptavininn. Ef nýju greiðsluskilmálarnir eru hærri en upphaflegir greiðsluskilmálar, þá er pöntunin sett á kreditstjórnunarbið.
@@ -72,6 +72,10 @@ Nokkrar tölfræði um lánastjórnun er að finna í upplýsingareitnum **Tölf
 
 - Í lánastjórnun er lánsheimild viðskiptavinarins sýnd í gjaldmiðli viðskiptavinarins. Þú verður að skilgreina gerð gengis fyrir lánamörk í gjaldmiðli viðskiptavinarins. Í reitnum **Gerð lánsfjárhámarks** velurðu þá gerð gengis sem ætti að nota til að umbreyta aðal lánsfjárhámarki í lánamörk viðskiptavinarins.
 - Stilltu valkostinn **Leyfa handvirka klippingu á lánamörkum** á **Nei** til að koma í veg fyrir að notendur geti breytt kreditmörkum á síðunni **Viðskiptavinur**. Ef þessi valkostur er stilltur á **Nei** er aðeins hægt að gera breytingar á lánamörkum viðskiptavinar með því að birta leiðréttingarfærslur lánamarka.
+- Stilltu **Framhjá birgðapöntunum** valmöguleika til **Já** að virða að vettugi birgðafyrirvara þegar hakað er við reglur um útlánastjórnun. Í þessu tilviki athugar kerfið heilt línumagn og gerir eftirlitstíma frest, óháð birgðapöntunarmagni.
+- Þegar lánastýring er virkjuð mun stillingin á **Skilaboð þegar farið er yfir lánamörk** reiturinn er notaður til að vinna aðeins reikninga með frjálsum texta. Þrátt fyrir að skilaboðum sé enn bætt við sölupantanir þegar viðskiptavinir hafa farið yfir lánsheimildir, hindrar tilvist þessara skilaboða ekki staðfestingu, prentun á tínslulistum og fylgiseðlum eða bókun reikninga.
+
+    Lánastjórnun er sjálfgefið virkjuð en þú getur slökkt á henni. Ef það er virkt, notar þú lokunarreglur og eftirlitsstöðvar útlánastjórnunar til að bera kennsl á hvenær viðskiptavinir hafa farið yfir lánahámarkið sitt. Ef það er óvirkt munu skilaboðin sem er bætt við sölupantanir á grundvelli stillingar á **Skilaboð þegar farið er yfir lánamörk** reitinn getur hjálpað þér að bera kennsl á hvenær viðskiptavinir hafa farið yfir lánsheimildir sínar.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Númeraraðir og samnýttar færibreytur númeraraða
 

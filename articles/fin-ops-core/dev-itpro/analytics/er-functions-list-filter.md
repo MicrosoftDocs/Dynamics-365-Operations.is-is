@@ -2,7 +2,7 @@
 title: FILTER ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin FILTER í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 12/14/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c601babd3ea7122bc9ddf7bf101751d4c032016fb33c3d4101f588789491e817
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e857306574dda7bad5dd25fc7708514997d8e86f
+ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760027"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922424"
 ---
 # <a name="filter-er-function"></a>FILTER ER-aðgerð
 
@@ -49,11 +49,17 @@ Gild skilyrt tjáning sem er notuð til að sía skrár yfir tiltekinn lista.
 
 Sá listi yfir skrár sem er búinn til.
 
-## <a name="usage-notes"></a>Notkunarbréf
+## <a name="usage-notes"></a><a name="usage-notes"></a>Notkunarbréf
 
 Þessi aðgerð er frábrugðin [WHERE](er-functions-list-where.md) aðgerðinni, vegna þess að tilgreint skilyrði er beitt á hvaða gagnagjafa rafrænnar skýrslugerðar (ER) af gerðinni *Töflufærslur* á gagnagrunnsstigi. Listinn og forsendurnar er hægt að skilgreina með því að nota töflur og samskipti.
 
 Ef ein eða báðar frumbreyturnar sem eru stilltar fyrir þessa aðgerð (`list` og `condition`) leyfa ekki að þýða þessa beiðni yfir í beint SQL-kall er gerð undantekning á hönnunartíma. Þessi undantekning upplýsir notandann um að ekki sé hægt að nota annaðhvort `list` eða `condition` til að spyrjast fyrir um gagnagrunninn.
+
+> [!NOTE]
+> The`FILTER` fall hegðar sér öðruvísi en`WHERE` virka þegar [`VALUEIN`](er-functions-logical-valuein.md) fall er notað til að tilgreina valviðmið.
+> 
+> - Ef`VALUEIN` fall er notað í umfangi`WHERE` fall, og önnur rökin af`VALUEIN` vísar til gagnagjafa sem skilar engum færslum, Boolean *[Rangt](er-formula-supported-data-types-primitive.md#boolean)* metur það`VALUEIN` ávöxtun kemur til greina. Því tjáningin`WHERE(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` skilar engum söluaðilaskrám ef **VendGroups** gagnagjafi skilar engum færslum lánardrottinshóps.
+> - Ef`VALUEIN` fall er notað í umfangi`FILTER` fall, og önnur rökin af`VALUEIN` vísar til gagnagjafa sem skilar engum færslum, Boolean *[Rangt](er-formula-supported-data-types-primitive.md#boolean)* metur það`VALUEIN` ávöxtun er hunsuð. Því tjáningin`FILTER(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` skilar öllum færslum söluaðila um **Söluaðilar** gagnaveitu, jafnvel þó að **VendGroups** gagnagjafi skilar engum færslum lánardrottinshóps.
 
 ## <a name="example-1"></a>Dæmi 1
 

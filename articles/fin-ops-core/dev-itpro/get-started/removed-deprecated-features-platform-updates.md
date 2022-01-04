@@ -2,7 +2,7 @@
 title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
 author: sericks007
-ms.date: 10/28/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
-ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
+ms.openlocfilehash: 4ac68cfdd8f8b2c65993fbd91587e52cce56a437
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7725050"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927480"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -74,7 +74,7 @@ ms.locfileid: "7725050"
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Engin stýring er til að framvkæma þetta tilvik. |
-| **Skipt út fyrir aðra eiginleika?**   | Já, færa núverandi aðferðir áskriftar af hálfu tilviksins **OnDBSynchronzie** yfir í stækkaða klasann SysSetup. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, færa núverandi aðferðir sem eru áskrifendur að **OnDBSynchronize** viðburður í SysSetup aukinn bekk. |
 | **Afurðasvæði sem haft er áhrif á**         | Gagnagrunnssamstilling |
 | **Dreifingarvalkostur**              | Öll |
 | **Staða**                         | Úrelt. Fyrirhugaður lokadagur er í október 2022. |

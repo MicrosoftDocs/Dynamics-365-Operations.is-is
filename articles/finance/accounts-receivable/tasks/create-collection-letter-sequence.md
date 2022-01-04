@@ -1,8 +1,8 @@
 ---
 title: Stofna innheimtubréfaröð
 description: Notið þetta ferli fyrir verk til að stofna innheimtubréfaröð.
-author: abruer
-ms.date: 07/22/2019
+author: JodiChristiansen
+ms.date: 12/07/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfc5bd0b1228ef28631da8746b2eb60e4cf488c1
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
+ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753587"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921200"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Stofna innheimtubréfaröð
 
@@ -31,10 +31,10 @@ Notið þetta ferli fyrir verk til að stofna innheimtubréfaröð. Þetta verke
 3. Í reitnum **Röð innheimtubréfa** skal færa inn kenni raðar sem mun standa fyrir röðina. Það verður notuð þegar þú setur upp bókunarreglu.
 4. Í reitinn **Lýsing** skal slá inn gildi.  Greiðsluskilmálar eru valfrjálsar. Ef fært er inn hér gildi, reikningur þóknunar innheimtubréfs nota þessar greiðsluskilmála í stað greiðsluskilmálar geymd með viðskiptavini.  
 5. Í reitnum **Kóði innheimtubréfas** skal velja kóða fyrir fyrsta innheimtubréfið sem á að senda. Fyrsta innheimtubréf er stofna samkvæmt gjalddagi á reikningur, gildi sem þú færa inn fyrir biðtími í svæði dagar á þessari línu, og aðrar upplýsingar sem þú færa inn á þessari línu.  
-6. Í reitinn **Lýsing** skal slá inn gildi. Gjaldmiðill fyrir fyrir þóknun fær sjálfgildi í gjaldmiðli viðskiptavinar. Þessi gjaldmiðilskóði getur verið annað en gjaldmiðli reikningsins.  
-7. Smelltu á **Bæta við** til að bæta við næsta innheimtubréf sem verður sent í röðinni. Í mörgum tilvikum fyrsta innheimtubréfið er bara viðvörun. Hægt er að bæta þóknun ef þörf krefur.  
-8. Í svæðinu kóði innheimtubréfs , veljið næsta innheimtubréf sem verða sendar í röðinni.
-9. Í reitinn **Lýsing** skal slá inn gildi.
+6. Í reitinn **Lýsing** skal slá inn gildi. 
+7. Sjálfgefinn gjaldmiðill fyrir gjaldið er gjaldmiðill lögaðilans. Þessi gjaldmiðilskóði getur verið annað en gjaldmiðli reikningsins.   
+8. Smelltu á **Bæta við** til að bæta við næsta innheimtubréf sem verður sent í röðinni. Í mörgum tilvikum fyrsta innheimtubréfið er bara viðvörun. Hægt er að bæta þóknun ef þörf krefur.  
+9. Í reitnum **Kóði innheimtubréfs** velurðu næsta innheimtubréf sem verður sent í röðinni.
 10. Í reitnum **Aðallykill** velurðu tekjureikninginn sem verður notaður fyrir þóknanir.
 11. Færið inn gjöld sem verður krafinn þegar þessu innheimtubréfi er bókuð.
 12. Í reitnum **VSK-flokkur vöru** skal smella á fellilistahnappinn til að opna leitina. Veljið vsk-flokkur vöru ef þarf að reikna út vsk á þóknunina.  

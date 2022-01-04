@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 25507a482b2db7c01f56679bf3e8454249de3a6b9965f9c359a2ebe2cc8445ce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ec5e0ac8dd097e5ebf016683fc5c17df7ecb2305
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711688"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920399"
 ---
 # <a name="quantity-that-youre-trying-to-update-exceeds-the-receiveddelivered-quantity"></a>Magnið sem reynt er að uppfæra er meira en móttekið/afhent magn
 
@@ -62,8 +62,8 @@ Notið eftirfarandi ferli til að stilla magn farmlínu.
 
 1. Farðu í **Vöruhúsakerfi \> Hleðslur \> Allar hleðslur**.
 1. Veljið hleðsluna sem ekki er hægt að mynda fylgiseðilinn fyrir.
-1. Á aðgerðasvæðinu, í flipanum  **Senda og móttaka**, í flokknum  **Bakfæra**, skal velja  **Bakfæra staðfestingu sendingar**.
-1. Í flipanum  **Hleðslulínur** skal velja hleðslulínu fyrir vöruna þar sem vandamál kemur upp.
+1. Á aðgerðarrúðunni, á **Senda og taka á móti** flipa, í **Öfugt** hópur, veldu **Staðfesting á öfugri sendingu**.
+1. Á **Hleðslulínur** flipanum, veldu hleðslulínuna fyrir hlutinn sem veldur vandamálum.
 1. Veljið **Minnka tiltektarmagn** til að laga tiltektarmagnið.
 1. Stillið reitinn **Minnka hleðslulínu** til að endurspegla leiðréttingar á hleðslulínunni.
 
@@ -75,5 +75,5 @@ Notið eftirfarandi ferli til að bakfæra skráningu tiltektar.
 
 1. Farið í **Viðskiptakröfur \> Pantanir \> Allar pantanir**.
 1. Veljið sölupöntunina þar sem ekki er hægt að bóka fylgiseðil fyrir hleðsluna.
-1. Í flipanum  **Sölupöntunarlínur** skal velja sölupöntunarlínuna sem skráning tiltektar var gerð fyrir.
+1. Á **Sölupöntunarlínur** flipanum, veldu sölupöntunarlínuna sem tínsluskráning var gerð fyrir.
 1. Veljið **Uppfæra línu \> Tiltekt** til að afturkalla tiltekt á vörunum.

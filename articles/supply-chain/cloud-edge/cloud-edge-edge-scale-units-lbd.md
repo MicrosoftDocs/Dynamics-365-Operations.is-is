@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8913debd614827ef66ded88e0da61663ca9c6b3d
-ms.sourcegitcommit: 29d34f2fd509e2bb27d8572cd57c397d014a8e38
-ms.translationtype: HT
+ms.openlocfilehash: 2407d4e3c6adaf5df2e8f5440ee8336f86012caf
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7894719"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920674"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Nota jaðareiningakvarða í sérsniðnum vélbúnaði með LBD
 
@@ -82,7 +82,7 @@ Hér er yfirlit uppsetningarferlisins.
     Initialize-Database.ps1 forskriftin framkvæmir eftirfarandi aðgerðir:
 
     1. Búðu til tóman gagnagrunn sem heitir **ScaleUnitAlmDb**.
-    2. Settu notendur á gagnagrunnshlutverk, byggt á eftirfarandi töflu.
+    2. Settu notendur í gagnagrunnshlutverk, byggt á eftirfarandi töflu.
 
         | Notandi            | Gerð | Gagnagrunnshlutverk |
         |-----------------|------|---------------|
@@ -107,9 +107,9 @@ Hér er yfirlit uppsetningarferlisins.
                                        -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
         ```
 
-1. Haltu áfram að fylgja leiðbeiningunum í [Settu upp og settu upp umhverfi á staðnum (Platform update 41 og síðar)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Þegar þú verður að slá inn stillingar fyrir staðbundinn umboðsmann skaltu ganga úr skugga um að þú virkjar Edge Scale Unit Features og gefur upp allar nauðsynlegar færibreytur.
+1. Haltu áfram að fylgja leiðbeiningunum í [Settu upp og settu upp umhverfi á staðnum (Platform update 41 og síðar)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Þegar þú verður að slá inn stillingu fyrir staðbundinn umboðsmann skaltu ganga úr skugga um að þú virkjar Edge Scale Unit Features og gefur upp allar nauðsynlegar færibreytur.
 
-    ![Virkja Edge Scale Unit eiginleika.](media/EnableEdgeScaleUnitFeatures.png "Virkja Edge Scale Unit eiginleika.")
+    ![Virkja eiginleika Edge Scale Unit.](media/EnableEdgeScaleUnitFeatures.png "Virkja eiginleika Edge Scale Unit.")
 
 1. Áður en þú setur upp umhverfið þitt frá LCS skaltu setja upp fordreifingarforskriftina. Frekari upplýsingar er að finna í [Forskriftir fyrir og eftir uppsetningu umboðsmanns á staðnum](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
 
@@ -142,7 +142,7 @@ Hér er yfirlit uppsetningarferlisins.
     1. Keyrðu eftirfarandi SQL skipanir á viðskiptagagnagrunninum þínum (AXDB).
 
         ```sql
-        ALTER TABLE dbo.NUMBERSEQUENCETABLE ENABLE CHANGE_TRACKING WITH (TRACK_COLUMNS_UPDATED = ON)
+        ALTER TABLE dbo.NUMBERSEQUENCETABLE ENABLE CHANGE_TRACKING WITH (TRACK_COLUMNS_UPDATED = ON)
         delete from NumberSequenceTable
         delete from NumberSequenceReference
         delete from NumberSequenceScope
@@ -182,7 +182,7 @@ Hér er yfirlit uppsetningarferlisins.
 
 ## <a name="set-up-an-azure-key-vault-and-an-azure-ad-application-to-enable-communication-between-scale-units"></a><a name="set-up-keyvault"></a> Settu upp Azure lykilhólf og Azure AD forrit til að gera samskipti milli mælieininga kleift
 
-1. Eftir að umhverfi þitt hefur verið notað skaltu búa til viðbótar Azure AD forrit til að virkja traust samskipti milli miðstöðvarinnar og mælieiningarinnar.
+1. Eftir að umhverfið þitt hefur verið notað skaltu búa til viðbótar Azure AD forrit til að virkja traust samskipti milli miðstöðvarinnar og mælieiningarinnar.
 
     ```powershell
     .\Create-SpokeToHubAADApplication.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `

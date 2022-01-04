@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fd874f3c6c1f4d25b3257d6465686dcb8e95b933
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 541e6c42ae1fa7d803b5becc1b52e34860777594
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576017"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920599"
 ---
 # <a name="wave-allocation"></a>Bylgjuúthlutun
 
@@ -77,7 +77,7 @@ Samhliða úthlutunarferli krefst þess að bylgjuvinnsla keyri í runu. Þess v
 
 Ef þörf krefur er hægt að afturkalla hverja sjálfgefna stillingu fyrir sig þegar eiginleikinn *Samhliða bylgja fyrir úthlutunaraðferð bylgju* er sjálfkrafa virkjaður fyrir tilvikið. Til að gera þetta:
 
-- Farðu í **Vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsakerfis**. Í flipanum **Bylgjuvinnsla** skal nota æskileg gildi fyrir **Vinna bylgjur í runu** og **Bíða eftir læsingu (ms)**.
+- Farðu í **vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsakerfis**. Í flipanum **Bylgjuvinnsla** skal nota æskileg gildi fyrir **Vinna bylgjur í runu** og **Bíða eftir læsingu (ms)**.
 - Farið í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Vinnsluaðferðir bylgju**. Veljið `allocateWave` aðferðina. Á aðgerðasvæðinu skal velja **Skilgreining verks** til að opna síðu sem sýnir hvert vöruhús þar sem aðferðin er stillt á að keyra í hliðstæðri vinnslu. Breytið eða eyðið fjölda runuverka og úthlutuðum runuflokki fyrir hvert birt vöruhús eftir þörfum.
 
 ## <a name="troubleshooting"></a>Úrræðaleit

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3abe82bb888b7501b00af44b48bfb40fbe8e2ee3
-ms.sourcegitcommit: 6ef4906621fbb4e3afaf2b0d6697536288365bb1
-ms.translationtype: HT
+ms.openlocfilehash: 4f53171361b655ab4ae05894d098203df0af8d60
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7868638"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920774"
 ---
 # <a name="demand-forecasting-setup"></a>Uppsetning eftirspurnarspár
 
@@ -112,7 +112,7 @@ Hægt er að hnekkja spámyndunaraðferðinni fyrir einn eða fleiri tiltekna v�
 
 #### <a name="override-default-forecast-algorithm-parameters-globally"></a>Hneka sjálfgefna reiknirit spár á heimsvísu
 
-Sjálfgefna reiknirit spár færibreytur og gildi eru úthlutað á **Eftirspurnarspábreytur** síða (**Aðalskipulag \> Uppsetning \> Eftirspurnarspá \> Eftirspurnarspábreytur**). Hins vegar geturðu hnekkt þeim á heimsvísu með því að nota **Færibreytur spá reiknirit** Flýtiflipi á **Almennt** flipi á **Eftirspurnarspábreytur** síðu. (Þú getur líka hnekið þeim fyrir sérstaka úthlutunarlykla með því að nota **Úthlutunarlyklar vöru** flipann á **Eftirspurnarspábreytur** síðu.)
+Sjálfgefna reiknirit spár færibreytur og gildi eru úthlutað á **Eftirspurnarspábreytur** síða (**Aðalskipulag \> Uppsetning \> Eftirspurnarspá \> Eftirspurnarspábreytur**). Hins vegar geturðu hnekkt þeim á heimsvísu með því að nota **Færibreytur spár reiknirit** Flýtiflipi á **Almennt** flipi á **Eftirspurnarspábreytur** síðu. (Þú getur líka hnekið þeim fyrir sérstaka úthlutunarlykla með því að nota **Úthlutunarlyklar vöru** flipann á **Eftirspurnarspábreytur** síðu.)
 
 Nota **Bæta við** og **Fjarlægja** hnappa á tækjastikunni til að koma á nauðsynlegu safni af hnekkingum á færibreytum. Fyrir hverja færibreytu á listanum skaltu velja gildi í **Nafn** reitnum og sláðu síðan inn viðeigandi gildi í **Gildi** sviði. Allar færibreytur sem eru ekki taldar upp hér munu taka gildi þeirra úr stillingunum á **Eftirspurnarspábreytur** síðu. Fyrir frekari upplýsingar um hvernig á að nota staðlað færibreytusett og velja gildi fyrir þær, sjáðu [Sjálfgefnar færibreytur og gildi fyrir eftirspurnarspárlíkön](#model-parameters) kafla.
 
@@ -128,7 +128,7 @@ Ekki virka allir hlutir á sama hátt frá sjónarhóli eftirspurnarspár. Þess
 
 1. Á **Eftirspurnarspábreytur** síðu, á **Úthlutunarlyklar vöru** flipanum, notaðu hnappastikuna til að bæta úthlutunarlyklum hluta við hnitanetið vinstra megin, eða fjarlægja þá, eins og þú vilt. Veldu síðan úthlutunarlykilinn sem þú vilt setja upp hnekkingar fyrir.
 1. Á **Tegundir viðskipta** Flýtiflipi, virkjaðu þær tegundir færslu sem þú vilt nota til að búa til tölfræðilega grunnspá fyrir vörur sem tilheyra völdum úthlutunarlykli. Stillingarnar virka alveg eins og þær virka á **Almennt** flipa, en þeir eiga aðeins við um valinn vöruúthlutunarlykil. Allar stillingar hér (bæði *Já* gildi og *Nei* gildi) hnekkja öllum **Tegundir viðskipta** stillingar á **Almennt** flipa.
-1. Á **Færibreytur spá reiknirit** Flýtiflipi, veldu spáframleiðslustefnu og hnekkingar færibreytu spár reiknirit fyrir vörur sem tilheyra völdum úthlutunarlykli. Þessar stillingar virka alveg eins og þær virka á **Almennt** flipa, en þeir eiga aðeins við um valinn vöruúthlutunarlykil. Nota **Bæta við** og **Fjarlægja** hnappa á tækjastikunni til að skilgreina nauðsynlegt safn af hnekkingum á færibreytum. Fyrir hverja færibreytu á listanum skaltu velja gildi í **Nafn** reitnum og sláðu síðan inn viðeigandi gildi í **Gildi** sviði. Fyrir frekari upplýsingar um hvernig á að nota staðlað færibreytusett og velja gildi fyrir þær, sjáðu [Sjálfgefnar færibreytur og gildi fyrir eftirspurnarspárlíkön](#model-parameters) kafla.
+1. Á **Færibreytur spár reiknirit** Flýtiflipi, veldu spáframleiðslustefnu og hnekkingar færibreytu spár reiknirit fyrir vörur sem tilheyra völdum úthlutunarlykli. Þessar stillingar virka alveg eins og þær virka á **Almennt** flipa, en þeir eiga aðeins við um valinn vöruúthlutunarlykil. Nota **Bæta við** og **Fjarlægja** hnappa á tækjastikunni til að skilgreina nauðsynlegt safn af hnekkingum á færibreytum. Fyrir hverja færibreytu á listanum skaltu velja gildi í **Nafn** reitnum og sláðu síðan inn viðeigandi gildi í **Gildi** sviði. Fyrir frekari upplýsingar um hvernig á að nota staðlað færibreytusett og velja gildi fyrir þær, sjáðu [Sjálfgefnar færibreytur og gildi fyrir eftirspurnarspárlíkön](#model-parameters) kafla.
 
 ### <a name="set-up-the-connection-to-the-azure-machine-learning-service"></a>Settu upp tenginguna við Azure Machine Learning Service
 
@@ -190,14 +190,11 @@ Eftirfarandi færibreytur eru sjálfgefnar. (Ef þú verður einhvern tíma að 
 - Nota **Úthlutunarlyklar vöru** flipa til að hnekkja færibreytum fyrir tiltekna vöruúthlutunarlykla. Færibreytur sem er hnekkt fyrir tiltekinn vöruúthlutunarlykil hafa aðeins áhrif á spá um vörur sem tengjast þeim vöruúthlutunarlykli.
 
 > [!NOTE]
-> Á **Spá reiknirit færibreytur** síðu geturðu notað hnappana á aðgerðarrúðunni til að bæta breytum við listann eða fjarlægja færibreytur af listanum. Hins vegar ættir þú venjulega ekki að nota þessa nálgun nema þú hafir sérsniðið tilraunina í Azure Machine Learning.
+> Á **Færibreytur spár reiknirit** síðu geturðu notað hnappana á aðgerðarrúðunni til að bæta breytum við listann eða fjarlægja færibreytur af listanum. Hins vegar ættir þú venjulega ekki að nota þessa nálgun nema þú hafir sérsniðið tilraunina í Azure Machine Learning.
 
 ## <a name="set-up-the-azure-machine-learning-service"></a><a name="setup-amls"></a> Settu upp Azure Machine Learning Service
 
 Supply Chain Management reiknar út eftirspurnarspár með því að nota Azure Machine Learning Service, sem þú verður að setja upp og keyra á þinni eigin Azure áskrift. Þessi hluti lýsir því hvernig á að setja upp Azure Machine Learning Service í Azure og tengja hana síðan við Supply Chain Management umhverfið þitt.
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: Preview until 10.0.23 GA -->
 
 ### <a name="enable-the-azure-machine-learning-service-in-feature-management"></a>Virkjaðu Azure Machine Learning Service í eiginleikastjórnun
 
@@ -231,7 +228,7 @@ Til að gera Azure kleift að nota vélanám til að vinna úr spám þínum ver
 1. Í Azure Machine Learning Studio, veldu **Minnisbækur** í stýrikerfinu.
 1. Finndu eftirfarandi staðsetningu í **Skrár** uppbygging: **Notendur/\[ núverandi notandi\] /src**.
 1. Hladdu upp hinum fjórum skrám sem þú halaðir niður í skrefi 1 á staðinn sem þú fannst í fyrra skrefi.
-1. Veldu **api_trigger.py** skrá sem þú hlóðst upp og keyrðu hana. Það mun búa til leiðslu sem hægt er að kveikja í gegnum API.
+1. Veldu **api_trigger.py** skrá sem þú hlóðst upp og keyrðu hana. Það mun búa til leiðslu sem hægt er að kveikja á í gegnum API.
 1. Vinnusvæðið þitt er nú sett upp. Hoppaðu á undan til [Settu upp tengingarfæribreytur Azure Machine Learning Service í Supply Chain Management](#demand-forecast-parameters) kafla.
 
 #### <a name="option-2-manually-set-up-your-machine-learning-workspace"></a><a name="ml-workspace-manual"></a> Valkostur 2: Settu upp vinnusvæðið fyrir vélanám handvirkt
@@ -298,7 +295,7 @@ Leiðslur bjóða upp á leið til að byrja að spá forskriftir frá Supply Ch
 1. Finndu eftirfarandi staðsetningu í **Skrár** uppbygging: **Notendur/\[ núverandi notandi\] /src**.
 1. Hladdu upp fjórum skrám sem þú hleður niður í skrefi 1 á staðinn sem þú fannst í fyrra skrefi.
 1. Í Azure, opnaðu og skoðaðu **parameters.py** skrá sem þú hlóðst upp. Gakktu úr skugga um að`nodes_count` gildi er einu minna en gildið sem þú stilltir fyrir tölvuklasann í [Skref 4: Stilltu tölvuauðlindir](#config-compute-resources) kafla. Ef`nodes_count` gildi er stærra en eða jafnt og fjölda hnúta í tölvuklasanum, gæti leiðslukeyrslan byrjað. Hins vegar mun það þá hætta að svara á meðan það bíður eftir nauðsynlegum úrræðum. Fyrir frekari upplýsingar um fjölda hnúta, sjáðu [Skref 4: Stilltu tölvuauðlindir](#config-compute-resources) kafla.
-1. Veldu **api_trigger.py** skrá sem þú hlóðst upp og keyrðu hana. Það mun búa til leiðslu sem hægt er að kveikja í gegnum API.
+1. Veldu **api_trigger.py** skrá sem þú hlóðst upp og keyrðu hana. Það mun búa til leiðslu sem hægt er að kveikja á í gegnum API.
 
 ### <a name="set-up-a-new-active-directory-application"></a><a name="aad-app"></a> Settu upp nýtt Active Directory forrit
 
@@ -309,7 +306,7 @@ Active Directory forrit er nauðsynlegt til að auðkenna með tilföngum sem er
 1. Fylgdu leiðbeiningunum á skjánum þegar þú klárar töframanninn. Notaðu sjálfgefnar stillingar.
 1. Gefðu nýja Active Directory forritinu þínu aðgang að eftirfarandi tilföngum sem þú bjóst til í [Settu upp vélanám í Azure](#ml-workspace) kafla. Fyrir leiðbeiningar, sjá [Úthlutaðu Azure hlutverkum með því að nota Azure gáttina](/azure/role-based-access-control/role-assignments-portal?tabs=current). Þetta skref mun gera kerfinu kleift að flytja inn og flytja út spágögn og kveikja á vélanámsleiðslum frá Supply Chain Management.
 
-    - Framlagshlutverk í vinnusvæði vélanáms
+    - Hlutverk þátttakenda í vinnusvæðinu fyrir vélanám
     - Hlutverk tiltekna geymslureikningsins
     - Storage Blob Data Contributor hlutverk á sérstaka geymslureikninginn
 

@@ -1,22 +1,22 @@
 ---
 title: Tímasetja prentun bylgjumerkis í bylgju
 description: Í þessu efnisatriði er því lýst hvernig á að setja upp og nota virknina fyrir verktengda prentun á bylgjumerki.
-author: MSFTGarm
+author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-obaranov
+ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 4883f8a548645436e17b933d87d4ee6330570d48
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777866"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920150"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Tímasetja prentun bylgjumerkis í bylgju
 
@@ -40,7 +40,7 @@ Til að nota eiginleikana sem lýst er í þessu efnisatriði verður að kveikj
 
 Fyrst þarf að stofna nýja aðferð bylgjuskrefs og virkja hana fyrir samhliða, ósamstillta verkvinnslu.
 
-1. Farið í  **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Vinnsluaðferðir bylgju**.
+1. Farið í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Vinnsluaðferðir bylgju**.
 1. Veldu **Endurgera aðferð** á aðgerðasvæðinu. Takið eftir að *waveLabelPrinting* er bætt við lista yfir aðferðir bylgjuvinnslu sem hægt er að nota í bylgjusniðmátum sendingar.
 1. Veljið færsluna þar sem reiturinn **Heiti aðferðar** er stilltur á *waveLabelPrinting* og veljið síðan á aðgerðasvæðinu **Skilgreining verks**.
 1. Á aðgerðasvæðinu skal velja **Ný** til að bæta línu við hnitanetið. Stillið svo eftirfarandi reiti fyrir nýju línuna:
@@ -51,7 +51,7 @@ Fyrst þarf að stofna nýja aðferð bylgjuskrefs og virkja hana fyrir samhlið
 
 Nú er hægt að uppfæra fyrirliggjandi bylgjusniðmát þannig að það noti bylgjuvinnsluaðferðina *Prentun bylgjumerkis*. Einnig er hægt að stofna nýtt bylgjusniðmát sem notar hana.
 
-1. Fara í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Bylgjusniðmát**.
+1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Bylgjusniðmát**.
 1. Á aðgerðarúðunni skal velja **Breyta**.
 1. Í listaglugganum skal velja bylgjusniðmát sem á að uppfæra. (Ef notuð eru sýnigögn til prófunar er hægt að velja vöruhús *24 Sjálfgefin sending*.)
 1. Í flýtiflipanum **Aðferðir**, í dálknum **Aðferðir sem eftir standa**, skal velja línuna þar sem reiturinn **Heiti** er stilltur á *waveLabelPrinting*.

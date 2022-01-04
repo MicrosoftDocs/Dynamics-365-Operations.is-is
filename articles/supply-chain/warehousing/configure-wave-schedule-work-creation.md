@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e9dc9b7cf33f9393f408d8f8a458e9b0ea47639
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 5b1e798ac0558e7c5b0bbe4b6a732cbdcf5729a1
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778378"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920114"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Áætla stofnun vinnu í bylgju
 
@@ -54,7 +54,7 @@ Fyrirliggjandi skilgreiningum verks og bylgjuúrvinnslu verður einnig haldið f
 Ef þörf er á er hægt að snúa við öllum stillingum sem voru gerðar sjálfkrafa þegar eiginleikinn *Bylgjuaðferðin „Áætla stofnun vinnu“ fyrir allt fyrirtækið* var virkjaður með því að gera eftirfarandi:
 
 - Fyrir bylgjusniðmát skal fara í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Bylgjusniðmát**. Skipta út aðferðinni *Áætla stofnun vinnu* fyrir *Stofna vinnu*.
-- Fyrir færibreytur vöruhúss skal fara í **Vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsakerfis**. Í flipanum **Bylgjuvinnsla** skal nota æskileg gildi fyrir **Vinna bylgjur í runu** og **Bíða eftir læsingu (ms)**.
+- Fyrir vöruhúsafæribreytur, farðu í **Vöruhússtjórnun \> Uppsetning \> Vöruhússtjórnunarfæribreytur**. Í flipanum **Bylgjuvinnsla** skal nota æskileg gildi fyrir **Vinna bylgjur í runu** og **Bíða eftir læsingu (ms)**.
 - Fyrir bylgjuaðferðir skal fara í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Vinnsluaðferðir bylgju**. Veljið `WHSScheduleWorkCreationWaveStepMethod` og á aðgerðasvæðinu velja **Skilgreining verks**. Breytið eða eyðið fjölda runuverka og úthlutuðum runuflokki fyrir hvert birt vöruhús eftir þörfum.
 
 ## <a name="manually-configure-scheduled-work-creation"></a>Skilgreina handvirkt áætlaða vinnustofnun
@@ -65,7 +65,7 @@ Ef eiginleikinn [*Bylgjuaðferðin „Áætla stofnun vinnu“ fyrir allt fyrirt
 
 Til að nýta sér samhliða ósamstillta aðferð til að stofna vöruhúsavinnu verður bylgjuferlið að vera keyrt í runu. Til að setja þetta upp:
 
-1. Farðu í  **Vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsakerfis**.
+1. Farðu í **vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsakerfis**.
 1. Í flipanum **Almennt** skal stilla **Vinna bylgjur í runu** á *Já*. Einnig er hægt að velja sérstakan **Runuflokk bylgjuvinnslu** til að koma í veg fyrir að úrvinnsla runubiðraðar verði keyrð á sama tíma og önnur ferli.
 1. Stillið **Biðtími læsingar (ms)** sem verður notaður þegar kerfið vinnur úr nokkrum bylgjum samtímis. Fyrir flest stærri bylgjuferli er mælt með gildinu *60000*.
 
@@ -73,8 +73,8 @@ Til að nýta sér samhliða ósamstillta aðferð til að stofna vöruhúsavinn
 
 Byrjið á því að stofna nýja bylgjuskrefsaðferð og virkið hana fyrir ósamstillta verkvinnslu.
 
-1. Farið í  **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Vinnsluaðferðir bylgju**.
-1. Veljið  **Endurgera aðferð** og athugið að *WHSScheduleWorkCreationWaveStepMethod* hefur verið bætt við listann yfir aðferðir bylgjuferlis sem hægt er að nota í bylgjusniðmátum sendingar.
+1. Farið í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Vinnsluaðferðir bylgju**.
+1. Veldu **Endurnýjunaraðferð** og athugaðu það *WHSScheduleWorkCreationWaveStepMethod* hefur verið bætt við listann yfir bylgjuferlisaðferðir sem þú getur notað í sendingarbylgjusniðmátunum þínum.
 1. Veljið færsluna með **Heiti aðferðar** *WHSScheduleWorkCreationWaveStepMethod* og veljið **Verkskilgreiningu**.
 1. Til að bæta nýrri línu við hnitanetið skal velja **Ný** á aðgerðasvæðinu og nota eftirfarandi stillingar:
 
@@ -84,7 +84,7 @@ Byrjið á því að stofna nýja bylgjuskrefsaðferð og virkið hana fyrir ós
 
 Nú er hægt að uppfæra fyrirliggjandi bylgjusniðmát (eða búa til nýtt) til að nota bylgjuvinnsluaðferðina *Áætla stofnun vinnu*.
 
-1. Fara í  **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Bylgjusniðmát**.
+1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Bylgjusniðmát**.
 1. Á aðgerðarúðunni skal velja **Breyta**.
 1. Á listasvæðinu skal velja bylgjusniðmátið sem á að uppfæra (ef verið er að prófa með sýnigögnum, þá er hægt að nota *24 Sjálfgefin sending*).
 1. Stækkið flýtiflipann **Aðferðir** og veljið línuna með **Heitinu** *Áætla stofnun vinnu* í hnitanetinu **Eftirstandandi aðferðir**.

@@ -2,19 +2,19 @@
 title: Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif
 description: Þetta efnisatriði lýsir því hvernig á að breyta fjölda aukastafa sem tvöföld skrif styðja fyrir gjaldmiðil.
 author: RamaKrishnamoorthy
-ms.date: 04/06/2020
+ms.date: 12/08/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: eaf0cd931e763f31faa334d5353ae6950ed7ee4f
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: bce58631ecd54bb90993bd552d529d3b379de1b1
+ms.sourcegitcommit: 6762a674a552353d9f53587923c9acba9b43cb56
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782808"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "7917731"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif
 
@@ -83,9 +83,20 @@ Ef nákvæmni gjaldmiðils fyrir tiltekinn gjaldmiðil þarf að vera önnur en 
 
 ![Stillingar gjaldmiðils fyrir ákveðinn stað.](media/specific-currency.png)
 
-### <a name="tables-currency-column"></a>töflur: Gjaldmiðilsdálkur
+### <a name="tables-currency-column"></a>Töflur: Gjaldmiðilsdálkur
 
 Fjöldi aukastafa sem hægt er að stilla fyrir tiltekna gjaldmiðilsdálka takmarkast við fjóra.
 
+### <a name="default-currency-decimal-precision"></a>Sjálfgefin tuganákvæmni gjaldmiðils
+Fyrir væntanlega hegðun fyrir sjálfgefna gjaldmiðils aukastafsnákvæmni við flutnings- og óflutningssviðsmyndir, vísa til eftirfarandi töflu. 
+
+| Stofndagsetning  | Gjaldmiðill tugabrotsreitur    | Núverandi stofnun (gjaldmiðilsreitur ekki fluttur) | Núverandi stofnun (gjaldmiðilsreitur fluttur) | Ný stofnun búin til eftir byggingu 9.2.21062.00134 |
+|---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
+| Gjaldeyrisreitur búinn til fyrir smíði 9.2.21111.00146  |     |  |       |
+|    | Hámarks nákvæmni sýnileg í notendaviðmóti   | 4 tölustafir    | 10 tölustafir    | Á ekki við    |
+| | Hámarks nákvæmni sýnileg í notendaviðmóti gagnagrunns og DB fyrirspurnarniðurstaðna         | 4 tölustafir   | 10 tölustafir   | Á ekki við    |
+| Gjaldeyrisreitur búinn til eftir smíði 9.2.21111.00146 |    |  |     |   |
+|   | Hámarks nákvæmni tugabrota sýnileg í notendaviðmóti     | 4 tölustafir   | 10 tölustafir   | 10 tölustafir     |
+|          | Hámarks nákvæmni aukastafa sýnileg í notendaviðmóti gagnagrunns og DB fyrirspurnarniðurstaðna | 10 tölustafir. Hins vegar eru aðeins 4 marktækar með öll núll fyrir utan 4 aukastafina. Þetta gerir einfaldari og hraðari flutning á stofnuninni, ef þörf krefur. | 10 tölustafir      | 10 tölustafir     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

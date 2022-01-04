@@ -2,7 +2,7 @@
 title: Stilla sýnileika birgða
 description: Þetta efnisatriði lýsir hvernig á að skilgreina birgðasýnileika.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 12/09/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
+ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678472"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920299"
 ---
 # <a name="configure-inventory-visibility"></a>Stilla sýnileika birgða
 
@@ -61,7 +61,7 @@ Ef þú veist ekki rétta endastöð fyrir þjónustu birgðasýnileika skaltu o
 Hver gagnagjafi táknar kerfi sem gögnin þín koma úr. Sem dæmi um gagnagjafaheiti má nefna `fno` (sem stendur fyrir „Dynamics 365 Finance and Operations-forrit“) og `pos` (sem stendur fyrir „sölustaður“). Supply Chain Management er sjálfgefið sett upp sem sjálfgefinn gagnagjafi (`fno`) í birgðasýnileika.
 
 > [!NOTE]
-> Gagnagjafinn `fno` er frátekinn fyrir Dynamics 365 Supply Chain Management.
+> The`fno` gagnauppspretta er frátekin fyrir Supply Chain Management. Ef birgðasýnileikaviðbótin þín er samþætt við Supply Chain Management umhverfi mælum við með að þú eyðir ekki stillingum sem tengjast`fno` í gagnaveitunni.
 
 Til að bæta við gagnagjafa skal fylgja þessum skrefum.
 
@@ -273,17 +273,17 @@ Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Skilgreining þáttunar
 
-Skilgreining þáttunar samanstendur af samsetningu grunnvídda. Hún skilgreinir dreifimynstur gagna. Gagnaaðgerðir í sömu þáttun styðja mikil afköst og kosta ekki svo mikið. Því geta góð þáttunarmynstur gefið umtalsverðan ávinning.
-
-Birgðasýnileiki býður upp á eftirfarandi sjálfgefna skilgreiningu þáttunar.
+Sem stendur samanstendur skiptingin af tveimur grunnvíddum (`SiteId` og`LocationId`) sem gefa til kynna hvernig gögnunum er dreift. Aðgerðir undir sama skipting geta skilað meiri afköstum með lægri kostnaði. Eftirfarandi tafla sýnir sjálfgefna skiptingastillingu sem Inventory Visibility Add-in veitir.
 
 | Grunnvídd | Stigveldi |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-> [!NOTE]
-> Sjálfgefin skilgreining þáttunar er aðeins til tilvísunar. Þú þarft ekki að skilgreina hana í birgðasýnileika. Sem stendur er uppfærsla á skilgreiningu þáttunar ekki studd.
+Lausnin inniheldur þessa skiptingastillingu sjálfgefið. Þess vegna, *þú þarft ekki að skilgreina það sjálfur*.
+
+> [!IMPORTANT]
+> Ekki sérsníða sjálfgefna skiptinguna. Ef þú eyðir því eða breytir því er líklegt að þú valdi óvæntri villu.
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Skilgreining á stigveldi atriðaskráar
 

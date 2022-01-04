@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ec4265f0433fbbce1e00eda206c297b54f9b8df8
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: a709528b04e82c32f644073f79513b7ef11bb6bf
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778522"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920724"
 ---
 # <a name="firm-planned-orders"></a>Staðfesta áætlaðar pantanir
 
@@ -31,7 +31,7 @@ ms.locfileid: "7778522"
 
 Í þessu efnisatriði er hverri aðferð lýst nákvæmlega.
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a> Virkja eiginleikana sem er lýst í þessu efnisatriði
+## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>Virkja eiginleikana sem er lýst í þessu efnisatriði
 
 Flestir eiginleikar áætlaðra pantana eru í boði í öllum hefðbundnum uppsetningum Microsoft Dynamics 365 Supply Chain Management sem notar fínstillingu áætlanagerðar. Hins vegar þarf að kveikja á nokkrum af þeim eiginleikum sem lýst er í þessu efnisatriði í eiginleikastjórnun áður en hægt er að nota þá.
 
@@ -80,6 +80,9 @@ Til að staðfesta áætlaðar pantanir handvirkt skal finna og velja áætlaða
     - **Flokka eftir innkaupasamningi** – Stilltu þennan valkost á *Já* til að flokka áætlaðar innkaupapantanir sem eru með sama lánardrottin og fyrirliggjandi innkaupasamningar og stofna eina innkaupapöntun fyrir hvern innkaupasamning. Þessi valkostur er sjálfkrafa virkur þegar **Flokka eftir lánardrottnum** er virkur. Til að nota **Flokka eftir innkaupasamningi** verður að stilla **Finna innkaupasamning** á *Já* á síðunni **Færibreytur aðaláætlanagerðar**.
     - **Flokka eftir tímabili** (í hlutanum **Innkaupapantanir**) – Velja tímabilið sem flokka á áætlaðar innkaupapantanir eftir. Til að nota þennan valkost verður einnig að velja valkostinn **Flokka eftir lánardrottnum**.
     - **Flokka eftir tímabili** (í hlutanum **Flutningar**) – Veljið tímabilið sem flokka á áætlaðar flutningspantanir eftir. Pantanirnar verða flokkaðar samkvæmt gildunum **Frá vöruhúsi** og **Til vöruhúss**.
+
+    > [!NOTE]
+    > Hver og einn valmöguleikar „Flokka eftir“ veldur því að kerfið umbreytir hverri fyrirhugaðri pöntun í línu í einni innkaupapöntun sem verður til úr flokkuninni.
 
     ![Flýtiflipi færibreyta í svarglugga staðfestingar.](./media/manual-firming.png "Flýtiflipi færibreyta í svarglugga staðfestingar")
 

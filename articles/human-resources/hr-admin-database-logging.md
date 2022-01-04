@@ -1,8 +1,8 @@
 ---
 title: Skilgreina og stjórna gagnagrunnsskráningu
 description: Hægt er að rekja breytingar til taflna og reita í Dynamics 365 Human Resources með gagnagrunnsskráningu.
-author: andreabichsel
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fd0f69df4a141e509c8c250f767cbbc3a20ef4ab7ac3dcec2bc6faa15eababb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 10591abee7890d54d721c9324101a4b4bd0a74d2
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781658"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924821"
 ---
 # <a name="configure-and-manage-database-logging"></a>Skilgreina og stjórna gagnagrunnsskráningu
 
@@ -93,14 +93,14 @@ Hægt er að eyða öllum eða hluta af gagnagrunnsklöddunum með því að not
 Til að setja upp hreinsun gagnagrunnskladda skal fylgja þessum skrefum: 
 
 1. Farið í **Kerfisstjórnun > Tenglar > Gagnagrunnur > Gagnagrunnskladdi**. Veljið **Hreinsa kladda**.
-
-2. Veljið aðferð við að velja kladda sem á að eyða með því að færa inn einn af eftirfarandi valmöguleikum:
+2. Undir **Skrár til að hafa með** haus, veldu **Sía**.
+3. Veldu aðferðina sem verður notuð til að velja annála til að eyða. Sláðu inn einn af eftirfarandi valkostum:
 
    - Töflu-ID
    - Gerð kladda
    - Tími og dagsetning stofnunar
 
-3. Notið flipann **Hreinsun gagnagrunnskladda** til að ákveða hvenær keyra á hreinsunarverk kladdans. Gagnagrunnskladdar eru í boði í 30 daga að sjálfgefnu.
+4. Notið flipann **Hreinsun gagnagrunnskladda** til að ákveða hvenær keyra á hreinsunarverk kladdans. Gagnagrunnskladdar eru í boði í 30 daga að sjálfgefnu.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

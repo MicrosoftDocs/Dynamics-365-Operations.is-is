@@ -2,7 +2,7 @@
 title: Staða reiðufjár
 description: Þetta efnisatriði lýsir því hvernig eiginleikinn fyrir sjóðstreymisspá spáir fyrir um reiðufjárstöðu fyrirtækis á tilteknum tímum. Efnisatriðið lýsir einnig valkostunum sem eru í boði til að sýna spár fyrir mismunandi tímabil.
 author: ShivamPandey-msft
-ms.date: 11/03/2021
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: bf99ce5c9de00061cba2f49d00cc9dbc728753a8
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 6bb99084a2ffef067dd0d7158ecb5e57d6d97d75
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752881"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945802"
 ---
 # <a name="cash-position"></a>Staða reiðufjár
 
@@ -45,5 +45,17 @@ Neðri hluti á flipanum **Staða reiðufjár** sýnir upplýsingar um stöðu, 
 - **Bankareikningur** hnitanetið sýnir áhrif áætlaðs sjóðsinnstreymis og ráðstöfun handbærs fjár á stöðu í banka.
 
 Til að vista og breyta sjóðsstöðu skal búa til skyndimynd. Frekari upplýsingar um hvernig á að vinna með skyndimyndir eru í [Yfirlit yfir skyndimyndir](payment-snapshots.md).
+
+## <a name="details-of-the-cash-position-capability"></a>Upplýsingar um getu reiðufjárstöðu 
+
+Eiginleiki reiðufjárstaða felur í sér eftirfarandi virkni. 
+
+- Eiginleiki reiðufjárstaða sýnir sjóðstreymi byggt á fyrirliggjandi skjölum í kerfinu og innstreymi og útflæðislínum sjóðs sem fluttar eru inn frá ytri kerfum.
+- Auðveldar samþættingu sjóðsstreymisgagna úr ytri kerfum í Dynamics 365 Finance. Handbært fé getur einnig notað innflutnings- og útflutningsramma gagna. Þessi rammi auðveldar samþættingu við Excel OData. Þú getur líka sameinað gögn frá mörgum aðilum til að búa til alhliða lausn á reiðufé.
+- Kynnir til sögunnar snjalla reiðufjárstöðu. Reiðufé er búið til út frá greiðsluhegðun viðskiptavina til að spá fyrir um hvenær fyrirtæki getur búist við því að reiðufé berist á reikninga þeirra.
+- Fyrir pantanir og reikninga viðskiptavina er gervigreindarvirkni greiðsluspá viðskiptavinar notuð til að ákvarða sögulega greiðsluhegðun viðskiptavina þegar pöntun eða reikningur verður greiddur.
+- Fyrir pantanir og reikninga lánardrottins notum við meðaltíma milli sendingar og reiknings og greiðslu reiknings á hvern seljanda til að ákvarða hvenær pöntun eða reikningur frá lánardrottni verður greiddur og gerir útflæði reiðufé nákvæmara.
+
+Þetta skapar nákvæmari sýn á sjóðstreymi byggt á sögulegri greiðsluhegðun fyrir gjaldkera. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

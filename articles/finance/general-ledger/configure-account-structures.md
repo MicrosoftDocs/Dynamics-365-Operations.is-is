@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3632f115b1ef4cd3a41a483270fb5f6bb6c73526ce9322f16a6533265302937c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: cc9219009991cce3f4df9c6f7e04903f5625dd80
+ms.sourcegitcommit: b2fe67e2fe6a99a35decb04c8d62efd1e94fe1b8
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719717"
+ms.lasthandoff: 12/22/2021
+ms.locfileid: "7945542"
 ---
 # <a name="configure-account-structures"></a>Skilgreina lykilskipulög
 
@@ -79,7 +79,7 @@ Hér er dæmi um **Skipulag rekstrarreiknings**.
 
 ## <a name="more-than-7-criteria-needed"></a>Fleiri en 7 skilyrði þarf
 
-Ef þú hefur fleiri en 7 skilyrði sem þarf, getur þú haldið áfram að bæta þeim við í næstu línu. Þú munt taka eftir því þegar að þú vinnur í hlutanum **Upplýsingar um leyfð gildi** að skilyrðið **+bæta við nýju** er ekki lengur virkt eftir að sjöunda skilyrðið er slegið inn. Þetta stafar af mörgum þáttum eins og: 
+Ef þú hefur fleiri en 7 skilyrði sem þarf, getur þú haldið áfram að bæta þeim við í næstu línu. Þú munt taka eftir því þegar þú vinnur í **Leyfðar upplýsingar um gildi** kafla sem **+Bæta við nýjum** skilyrði er ekki lengur virk eftir að sjöunda viðmiðið er slegið inn. Þetta stafar af mörgum þáttum eins og: 
  - Dálkbreidd 
  - Hvernig gögnin eru geymd 
  - Frammistaða á stýringunni **Upplýsingar um leyfð gildi**
@@ -101,7 +101,7 @@ Til að halda áfram að bæta við fleiri skilyrðum skaltu smella á **Afrita 
 - Ekki bara setja stjörnu fyrir hvern hluta í lykilskipulaginu og síðan eingöngu að treysta á ítarlegu reglurnar. Þetta getur verið erfitt að stjórna og leiðir oft til notandavillna á meðan á viðhaldi stendur sem getur gert það að verkum að kerfið getur ekki bókað.
 
 ## <a name="account-structure-activation"></a>Virkjun lykilskipulags
-Þegar þú ert ánægð(ur) með nýju uppsetninguna eða breytingu á lykilskipulagi, verður þú að virkja það. Ef lykilskipulagi er úthlutað á fjárhag, getur þessi virkjun verið ferli sem tekur langan tíma að keyra, þar sem allar óbókaðar færslur í kerfinu verða að vera samstilltar við nýja skipulagið. Bókaðar færslur verða ekki fyrir áhrifum af völdum breytinga á lykilskipulag.
+Þegar þú ert ánægður með nýju uppsetninguna þína eða breytingu á reikningsskipulagi verður þú að virkja hana. Ef lykilskipulagi er úthlutað á fjárhag, getur þessi virkjun verið ferli sem tekur langan tíma að keyra, þar sem allar óbókaðar færslur í kerfinu verða að vera samstilltar við nýja skipulagið. Bókaðar færslur verða ekki fyrir áhrifum af völdum breytinga á lykilskipulag.
 
 Nánari upplýsingar er að finna í [Skipuleggðu bókhaldslykilinn þinn](plan-chart-of-accounts.md), [Fjárhagsvíddir](financial-dimensions.md) og [Sláðu inn lykil og víddarsamsetningum (hlutuð færslustýring)](enter-account-dimension-combinations-segmented-entry-control.md).
 

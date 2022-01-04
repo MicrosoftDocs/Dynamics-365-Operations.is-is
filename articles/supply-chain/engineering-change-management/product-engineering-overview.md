@@ -1,5 +1,5 @@
 ---
-title: Yfirlit yfir umsjón hönnunarbreytinga
+title: Yfirlit yfir verkfræðibreytingastjórnun (inniheldur myndband)
 description: Í þessu efnisatriði er að finna yfirlit yfir umsjón hönnunarbreytinga, sem hjálpar til við að skipuleggja og vinna með afurðarútgáfum, og stjórna lífferlum og hönnunarbreytingum.
 author: t-benebo
 ms.date: 08/26/2021
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 89a3eb584275e52910726ca5a9ed53f744f10b8d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: e9dc692061cec830f487e01a79075eda835bac23
+ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574690"
+ms.lasthandoff: 12/18/2021
+ms.locfileid: "7937661"
 ---
 # <a name="engineering-change-management-overview"></a>Yfirlit yfir umsjón hönnunarbreytinga
 
@@ -26,9 +26,9 @@ ms.locfileid: "7574690"
 
 ## <a name="feature-summary"></a>Samantekt eiginleika
 
-Framleiðendur í dag krefjast öflugrar afurðagagnastjórnunar, útgáfustjórnunar og umsjón hönnunarbreytinga til að ná árangri í heimi með stöðugt minnkandi líftíma, auknum kröfum um gæði og áreiðanleika og aukna áherslu á vöruöryggi.
+Framleiðendur nútímans krefjast öflugrar vörugagnastjórnunar, útgáfustýringar og verkfræðilegrar breytingastjórnunar til að ná árangri í heimi sífellt minnkandi vörulífs, aukinna gæða- og áreiðanleikakrafna og aukinnar áherslu á vöruöryggi.
 
-Umsjón hönnunarbreytinga færir skipulag og aga í ferli vörugagnastjórnunar og gerir skilgreiningu, losun og endurskoðun vara mögulegan á stjórnanlegan hátt sem er studdur af verkflæði.Í gegnum afurðarútgáfu og breytingastjórnun hönnunar er hægt að skrá, meta áhrif og nota breytingar á hönnun í gegnum allt líftímakerfi afurðar.
+Verkfræðileg breytingastjórnun færir uppbyggingu og aga inn í vörugagnastjórnunarferlið og gerir kleift að skilgreina, gefa út og endurskoða vörur á stýrðan hátt sem er studd af verkflæði. Með vöruútgáfum og verkfræðilegri breytingastjórnun geturðu skjalfest, metið áhrif og beitt verkfræðilegum breytingum í gegnum allan líftíma vöru.
 
 Umsjón hönnunarbreytinga sem hjálpar til við að skipuleggja og vinna með afurðarútgáfur, og stjórna lífferlum og hönnunarbreytingum. Hér er listi yfir helstu eiginleikana:
 
