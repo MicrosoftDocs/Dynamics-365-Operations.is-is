@@ -1,81 +1,119 @@
 ---
-title: Samræmisprófun smásölufærslna
-description: Þetta efnisatriði lýsir virkni samræmisprófunar færslna í Dynamics 365 Commerce.
-author: josaw1
-ms.date: 10/07/2020
+title: Villuleita í færslum verslunar fyrir útreikning uppgjörs
+description: Þetta efnisatriði lýsir virkni til að villuleita færslur verslunar í Microsoft Dynamics 365 Commerce.
+author: analpert
+ms.date: 12/15/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: v-chgriffin
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: josaw
+ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c8ba0f99743984860119deb96c889f5d62e1728c8772b9e6786d371690b61489
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 008368ae32aa92682d578b75b148e0587fcc94e0
+ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741733"
+ms.lasthandoff: 12/16/2021
+ms.locfileid: "7924772"
 ---
-# <a name="retail-transaction-consistency-checker"></a>Samræmisprófun smásölufærslna
+# <a name="validate-store-transactions-for-statement-calculation"></a>Villuleita í færslum verslunar fyrir útreikning uppgjörs
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir virkni samræmisprófunar færslna í Microsoft Dynamics 365 Commerce. Í samræmisprófuninni eru færslur með ósamræmi greindar og einangraðar áður en þær eru teknar inn í bókunarferlið.
+Þetta efnisatriði lýsir virkni til að villuleita færslur verslunar í Microsoft Dynamics 365 Commerce. Villuleitarferlið auðkennir og merkir færslur sem munu valda villum við bókun, áður en þær eru teknar inn í bókunarferli uppgjörsins.
 
-Þegar uppgjör er bókað getur bókun mistekist vegna ósamræmis í gögnum í færslutöflum viðskiptanna. Gagnavillan getur orðið vegna ófyrirséðra vandamála í forritinu á sölustað (POS) eða vegna villu í flutningi á færslum úr sölustaðarkerfi þriðja aðila. Dæmi um þessi ósamræmi eru meðal annars: 
+Þegar reynt er að bóka uppgjör getur villuleitarferlið mistekist vegna ósamræmis í gögnum í færslutöflum viðskiptanna. Hér eru nokkur dæmi um þætti sem geta valdið þessu ósamræmi:
 
 - Heildarfærsla í haustöflu er ekki í samræmi við heildarfærslu í línunum.
-- Línufjöldi í haustöflu er ekki í samræmi við fjölda lína í færslutöflunni.
+- Vörufjöldinn sem tilgreindur er í haustöflunni samsvarar ekki vörufjöldanum í færslutöflunni.
 - Skattar í haustöflu eru ekki í samræmi við skattupphæð í línunum. 
 
-Þegar færslur með ósamræmi eru teknar inn í bókunarferlið verða til sölureikningar og greiðslubækur með ósamræmi og villa kemur upp í öllu bókunarferlinu. Í því tilfelli þarf flóknar gagnaleiðréttingar í mörgum færslutöflum til að endurheimta færslurnar. Samræmisprófun færslna kemur í veg fyrir slík vandamál.
+Ef færslur með ósamræmi eru teknar inn í bókunarferli uppgjörsins geta sölureikningar og greiðslubækur sem búin eru til valdið því að bókun uppgjörs mistakist. Ferlið **Villuleita í færslum verslunar** kemur í veg fyrir þessi vandamál með því að tryggja að aðeins færslur sem standast villuleitarreglur færslu séu færðar yfir í útreikningsferli færsluuppgjörs.
 
-Eftirfarandi tafla sýnir bókunarferli með samræmisprófun smásölufærslna.
+Eftirfarandi skýringarmynd sýnir endurtekin dagferli fyrir upphleðslu færslna, villuleit færslna og útreikning og bókun færsluuppgjöra og ferli við dagslok fyrir útreikning og bókun fjárhagsskýrslna.
 
-![Bókunarferli uppgjörs með samræmisprófun færslu.](./media/validchecker.png "Bókunarferli uppgjörs með samræmisprófun smásölufærslna")
+![Skýringarmynd sem sýnir endurtekin dagferli fyrir upphleðslu færslna, villuleit færslna og útreikning og bókun færsluuppgjöra og ferli við dagslok fyrir útreikning og bókun fjárhagsskýrslna](./media/valid-checker-statement-posting-flow.png)
 
-Með runuvinnslunni **Villuleita í færslum verslunar** er samræmi viðskiptafærslutaflna athugað við eftirfarandi aðstæður.
+## <a name="store-transaction-validation-rules"></a>Villuleitarreglur fyrir færslur verslunar
 
-- **Viðskiptamannalykill** – Staðfestir að viðskiptamannalykillinn í færslutöflunum sé til staðar í HQ-aðalgögnum viðskiptamanns.
-- **Línufjöldi** – Staðfestir að línufjöldi, samkvæmt haustöflu færslna, sé í samræmi við fjölda lína í sölufærslutöflunum.
-- **Verð er með skatti** – Staðfestir að færibreytan **Verð er með skatti** er í samræmi við allar færslulínur og að verðið á sölulínunni er í samræmi við skilgreiningu Verð er með skatti og skattundanþágu.
-- **Greiðsluupphæð** – Staðfestir að greiðslufærsla samsvari greiðsluupphæð í haus og tekur einnig með í reikninginn skilgreiningu aurasléttunar í fjárhagi.
-- **Brúttóupphæð** – Staðfestir að brúttóupphæð í hausnum er summa nettóupphæða í línunum ásamt skattupphæðinni og tekur einnig með í reikninginn skilgreiningu aurasléttunar í fjárhagi.
-- **Nettóupphæð** – Staðfestir að nettóupphæð í hausnum er summa nettóupphæða í línunum og tekur einnig með í reikninginn skilgreiningu aurasléttunar í fjárhagi.
-- **Vangreiðsla/ofgreiðsla** – Staðfestir að mismunur milli brúttóupphæðar í hausnum og greiðsluupphæðar fer ekki umfram skilgreiningu á hámarki fyrir vangreiðslu/ofgreiðslu og tekur einnig með í reikninginn skilgreiningu aurasléttunar í fjárhagi.
-- **Afsláttarupphæð** – Staðfestir að samræmi er á afsláttarupphæð í afsláttartöflum og afsláttarupphæð í færslulínutöflum, að afsláttarupphæð í hausnum er summa afsláttarupphæða í línunum og tekur einnig með í reikninginn skilgreiningu aurasléttunar í fjárhagi.
-- **Línuafsláttur** – Staðfestir að línuafsláttur í færslulínunni er summa allra línanna í afsláttartöflunni sem eru í samræmi við færslulínuna.
-- **Gjafakortsvara** – Commerce styður ekki skil á gjafakortsvörum. Hins vegar er hægt að leysa út stöðu á gjafakorti í reiðufé. Gjafakortsvara sem er meðhöndluð sem skilalína í stað línu reiðufjárúttektar kemst ekki í gegnum bókunarferli uppgjörs. Staðfestingarferlið fyrir gjafakortsvörur hjálpar til við að tryggja að skilalínur gjafakortsvara í færslutöflunum séu eingöngu línur reiðufjárúttektar fyrir gjafakort.
-- **Neikvætt verð** – Staðfestir að engar færslulínur með neikvæðu verði eru til staðar.
-- **Vara og afbrigði** – sannprófar að vörur og afbrigði í færslulínum eru til staðar í grunnskjali fyrir vöru og afbrigði.
-- **Skattupphæð** – sannprófar að skattafærslur passi við skattupphæðir í línunum.
-- **Raðnúmer** – sannprófar að raðnúmer sé til staðar í færslulínum fyrir vörur sem er stjórnað af raðnúmeri.
-- **Tákn** – sannprófar að tákn fyrir magn og nettóupphæð sé hið sama í öllum færslulínum.
-- **Viðskiptadagur** – Staðfestir að fjárhagstímabil fyrir alla viðskiptadaga færslnanna séu opin.
-- **Gjöld** – Staðfestir að hausinn og upphæð greiðslu í línu sé í samræmi við verð, þ.m.t. skilgreiningu á skatti og skattundanþágu.
-
-## <a name="set-up-the-consistency-checker"></a>Setja upp samræmisprófun
-
-Skilgreina skal runuvinnsluna „Villuleita í færslum verslunar“ í **Retail og Commerce \> Upplýsingatækni Retail og Commerce \> Sölustaðarbókun** til að keyra vinnsluna reglulega. Hægt er að skipuleggja runuvinnsluna á grundvelli stigveldis fyrirtækisins, svipað því hvernig ferlin „Reikna uppgjör í runu“ og „Bóka uppgjör í runu“ eru sett upp. Við mælum með að þú stillir runuvinnsluna þannig að hún sé keyrð oft á dag og að loknu hverju P-verki.
-
-## <a name="results-of-validation-process"></a>Niðurstöður villuleitar
-
-Niðurstöðum villuleitar er bætt við viðkomandi færslu. Svæðið **Staða villuleitar** í viðkomandi færslu er ýmist stillt á **Lokið** eða **Villa** og dagsetning síðustu villuleitar birtist á svæðinu **Tími síðustu villuleitar**.
-
-Til að sjá nákvæmari villuboðatexta sem tengist villu í villuleit skal velja viðkomandi færsluskrá verslunar og smella á hnappinn **Villur við villuleit**.
-
-Færslur sem standast ekki villuleit og færslur sem enn á eftir að villuleita í eru ekki teknar inn í uppgjör. Í ferlinu „Reikna uppgjör“ fá notendur tilkynningu um færslur sem eru ekki með í uppgjörinu en hefðu getað verið það.
-
-Ef villa finnst við villuleit er einungis hægt að lagfæra hana með því að hafa samband við notendaþjónustu Microsoft. Í síðari útgáfu munu notendur geta lagfært skrár með villum í notendaviðmótinu. Einnig bætast við endurskoðunar- og skráningareiginleikar til að rekja breytingarsöguna.
+Runuvinnslan **Villuleita í færslum verslunar** athugar samræmi viðskiptafærslutaflna út frá eftirfarandi villuleitarreglum.
 
 > [!NOTE]
-> Frekari villuleitarreglum til að styðja við fleiri aðstæður verður bætt við í síðari útgáfu.
+> Villuleitarreglum verður áfram bætt við síðari útgáfur.
 
+### <a name="transaction-header-validation-rules"></a>Villuleitarreglur í færsluhaus
+
+Eftirfarandi tafla telur upp villuleitarreglur í færsluhaus sem bornar eru saman við hausa smásölufærslna áður en þessar færslur eru sendar í bókun uppgjörs.
+
+| Titill | Lýsing |
+|-------|-------------|
+| Viðskiptadagur | Þessi regla staðfestir að viðskiptadagur færslu sé tengdur við opið fjárhagstímabil í fjárhagnum. |
+| Sléttun gjaldmiðils | Þessi regla staðfestir að færsluupphæðirnar eru sléttaðar samkvæmt sléttunarreglu gjaldmiðils. |
+| Viðskiptavinalykill | Þessi regla staðfestir að viðskiptavinurinn sem notaður er í færslunni sé til í gagnagrunninum. |
+| Afsláttarupphæð | Þessi regla staðfestir að afsláttarupphæð í hausnum jafngildi samtölu afsláttarupphæða í línunum. |
+| Bókunarstaða fjárhagsskjals (Brasilía) | Þessi regla staðfestir að hægt sé að bóka fjárhagsskjalið. |
+| Brúttóupphæð | Þessi regla staðfestir að brúttóupphæð í færsluhaus samsvari nettóupphæð með sköttum í færslulínunum ásamt gjöldum. |
+| Nettó | Þessi regla staðfestir að nettóupphæð í færsluhaus samsvari nettóupphæð án skatta í færslulínunum ásamt gjöldum. |
+| Nettó + skattur | Þessi regla staðfestir að brúttóupphæð í færsluhaus samsvari nettóupphæð án skatta í færslulínunum ásamt öllum sköttum og gjöldum. |
+| Vörufjöldi | Þessi regla staðfestir að vörufjöldi sem tilgreindur er í færsluhaus samsvari heildarmagni í færslulínunum. |
+| Greiðsluupphæð | Þessi regla staðfestir að greiðsluupphæð í færsluhaus samsvari samtölu allra greiðslufærslna. |
+| Útreikningur skattundanþágu | Þessi regla staðfestir að summa reiknaðrar upphæðar og undanþeginnar skattupphæðar gjaldalínu jafngildir upprunalegri reiknaðri upphæð. |
+| Verðlagning með sköttum | Þessi regla staðfestir að flaggið **Skattur er innifalinn í verði** sé í samræmi við færsluhaus og skattfærslur. |
+| Færsla ekki tóm | Þessi regla staðfestir að færslan innihaldi línur og að minnsta kosti ein lína er ekki ógild. |
+| Van-/ofgreiðsla | Þessi regla staðfestir að mismunur milli brúttóupphæðar og greiðsluupphæðar fari ekki umfram skilgreiningu á hámarki fyrir vangreiðslu/ofgreiðslu. |
+
+### <a name="transaction-line-validation-rules"></a>Villuleitarreglur færslulínu
+
+Eftirfarandi tafla telur upp villuleitarreglur færslulínu sem bornar eru saman við línuupplýsingar smásölufærslna áður en þessar færslur eru sendar í bókun uppgjörs.
+
+| Titill | Lýsing |
+|-------|-------------|
+| Strikamerki | Þessi regla staðfestir að öll strikamerki fyrir vörur sem notuð eru í færslulínunum séu til í gagnagrunninum. |
+| Gjaldalínur | Þessi regla staðfestir að summa reiknaðrar upphæðar og undanþeginnar skattupphæðar gjaldalínu jafngildir upprunalegri reiknaðri upphæð. |
+| Skil á gjafakortum | Þessi regla staðfestir að engin skil á gjafakortum séu í færslunni. |
+| Vöruafbrigði | Þessi regla staðfestir að allar vörur og öll afbrigði sem notuð eru í færslulínunum séu til í gagnagrunninum. |
+| Línuafsláttur | Þessi regla staðfestir að upphæð línuafsláttar samsvari samtölu afsláttarfærslna. |
+| Línuskattur | Þessi regla staðfestir að skattupphæð línu samsvari samtölu skattafærslna. |
+| Neikvætt verð | Þessi regla staðfestir að engin neikvæð verð séu notuð í færslulínum. |
+| Stýrt af raðnúmeri | Þessi regla staðfestir að raðnúmer sé til staðar í færslulínunni fyrir vörur sem stýrt er af raðnúmeri. |
+| Raðnúmeravídd | Þessi regla staðfestir að ekkert raðnúmer er gefið upp ef raðnúmeravídd vörunnar er óvirk. |
+| Mótsögn merkis | Þessi regla staðfestir að merki fyrir magn og merki fyrir nettóupphæð sé það sama í öllum færslulínunum. |
+| Skattaundanþága | Þessi regla staðfestir að samtala línuvöru og upphæðar undanþegins skatts er jöfn upprunalegu verði. |
+| Skattflokksúthlutun | Þessi regla staðfestir að samsetning VSK-flokks og skattflokks vöru leiði til gilds skattasniðmengis. |
+| Umreikningur mælieininga | Þessi regla staðfestir að mælieiningar í öllum línum séu með gilda umreikninga yfir í mælieiningu birgða. |
+
+## <a name="enable-the-store-transaction-validation-process"></a>Virkja villuleitarferli fyrir færslur verslunar
+
+Skilgreina skal runuvinnsluna **Villuleita í færslum verslunar** fyrir reglulega keyrslu í Commerce Headquarters (**Retail og Commerce \> Upplýsingatækni Retail og Commerce \> Sölustaðarbókun**). Runuvinnslan er tímasett út frá stigveldi verslunarinnar. Við mælum með því að þessi runuvinnsla sé skilgreind á að vera keyrð eins oft og **P-vinnslan** og runuvinnslur af gerðinni **Útreikningur færsluuppgjörs**.
+
+## <a name="results-of-the-validation-process"></a>Niðurstöður villuleitarferlis
+
+Hægt er að skoða niðurstöður runuvinnslunnar **Villuleita í færslum verslunar** í færslu hverrar smásöluverslunar. Svæðið **Staða villuleitar** í viðkomandi færslu er stillt á **Lokið**, **Villa** eða **Ekkert**. Svæðið **Tími síðustu villuleitar** sýnir dagsetningu síðustu villuleitar.
+
+Eftirfarandi tafla lýsir hverri stöðu villuleitar.
+
+| Staða prófunar | Lýsing |
+|-------------------|-------------|
+| Tókst | Allar virkar villuleitarreglur stóðust skoðun. |
+| Villa | Virk villuleitarregla fann villu. Hægt er að sjá frekari upplýsingar um villuna með því að velja **Villur við villuleit** á aðgerðasvæðinu. |
+| Ekkert | Færslugerðin gerir ekki kröfu um að villuleitarreglur séu notaðar. |
+
+![Síðan fyrir færslur verslunar sýnir svæðið fyrir stöðu villuleitar og hnappinn fyrir villur við villuleit.](./media/valid-checker-validation-status-errors.png)
+
+Aðeins færslur með villuleitarstöðuna **Lokið** verða teknar með í færsluuppgjörunum. Til að skoða færslur sem hafa stöðuna **Villa** skal yfirfara reitinn **Villuleitarbilun við staðgreiðslu** á vinnusvæðinu **Fjármál verslunar**.
+
+![Reitir á vinnusvæðinu „Fjármál verslunar“.](./media/valid-checker-cash-carry-validation-failures.png)
+
+Frekari upplýsingar um hvernig hægt er að lagfæra villuleitarbilanir við staðgreiðslu er að finna í [Breyta og endurskoða færslur staðgreiðslu við afhendingu og stjórnun reiðufjár](edit-cash-trans.md).
+
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+[Breyta og endurskoða færslur staðgreiðslu við afhendingu og stjórnun reiðufjár](edit-cash-trans.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
