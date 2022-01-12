@@ -4,6 +4,34 @@
       items:
         - name: Dynamics 365 Supply Chain Management upphafssíða
           href: index.md
+        - name: Nýjungar eða breytingar
+          items:
+            - name: Nýjungar eða breytingar í Finance and Operations-forritum
+              href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Nýjungar eða breytingar í Supply Chain Management
+              items:
+                - name: Nýjungar eða breytingar á heimasíðu Supply Chain Management
+                  href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.24 (febrúar 2022)
+                  href: get-started/whats-new-scm-10-0-24.md
+                - name: Supply Chain Management 10.0.23 (janúar 2022)
+                  href: get-started/whats-new-scm-10-0-23.md
+                - name: Supply Chain Management 10.0.22 (nóvember 2021)
+                  href: get-started/whats-new-scm-10-0-22.md
+                - name: Supply Chain Management 10.0.21 (október 2021)
+                  href: get-started/whats-new-scm-10-0-21.md
+            - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
+              items:
+                - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
+                  href: get-started/removed-deprecated-features-scm-updates.md
+                - name: Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+            - name: AX 2012 eiginleikar sem var frestað
+              href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Lok venjulegs stuðnings fyrir Microsoft Dynamics AX 2009 og 2012
+              href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
         - name: Hefjast handa
           items:
             - name: Þjónustulýsing
@@ -62,34 +90,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Grunnstilla vöruhús fyrir uppsetningu á staðnum
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Nýjungar eða breytingar
-              items:
-                - name: Nýjungar eða breytingar í Finance and Operations-forritum
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Nýjungar eða breytingar í Supply Chain Management
-                  items:
-                    - name: Nýjungar eða breytingar á heimasíðu Supply Chain Management
-                      href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.24 (febrúar 2022)
-                      href: get-started/whats-new-scm-10-0-24.md
-                    - name: Supply Chain Management 10.0.23 (janúar 2022)
-                      href: get-started/whats-new-scm-10-0-23.md
-                    - name: Supply Chain Management 10.0.22 (nóvember 2021)
-                      href: get-started/whats-new-scm-10-0-22.md
-                    - name: Supply Chain Management 10.0.21 (október 2021)
-                      href: get-started/whats-new-scm-10-0-21.md
-                - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
-                  items:
-                    - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
-                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
-                      href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
-                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
-                - name: AX 2012 eiginleikar sem var frestað
-                  href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Lok venjulegs stuðnings fyrir Microsoft Dynamics AX 2009 og 2012
-                  href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Skjalatilföng
               items:
                 - name: Hjálparkerfi
@@ -1617,6 +1617,8 @@
                   href: inventory/inventory-visibility-reservations.md
                 - name: Opin API fyrir sýnileika birgða
                   href: inventory/inventory-visibility-api.md
+                - name: Ábendingar fyrir sýnileika birgða
+                  href: inventory/inventory-visibility-tips.md
         - name: IoT gervigreind
           items:
             - name: IoT gervigreind – heimasíða
@@ -2827,7 +2829,7 @@
               href: sales-marketing/trade-allowance.md
             - name: Stofna nýjan verðsamning
               href: sales-marketing/tasks/create-new-trade-agreement.md
-            - name: Endurbætur á afköstum hreinsunar á söluferli
+            - name: Afkastaendurbætur á hreinsun söluferils
               href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Þjónustustjórnun
           items:
@@ -3573,6 +3575,8 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Aðaláætlanagerð
               items:
+                - name: Kerfið finnur ekki áætlaða pöntun þegar unnið er með margar pantanir
+                  href: troubleshooting/planning/planned-order-not-exist.md
                 - name: Niðurbrot uppskriftar hagar sér öðruvísi fyrir staðfestar og áætlaðar framleiðslupantanir
                   href: troubleshooting/planning/bom-explosion-works-differently.md
                 - name: Seinkunargildið er ekki uppfært þegar þú enduráætlar áætlaða pöntun

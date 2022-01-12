@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (nóvember 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
-                    - name: Commerce 10.0.21 (október 2021)
-                      href: get-started/whats-new-commerce-10-0-21.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -842,7 +840,7 @@
           items:
             - name: Yfirlit yfir uppgjör
               href: retail-statements.md
-            - name: Samræmisprófun færslu
+            - name: Villuleita í færslum verslunar fyrir útreikning uppgjörs
               href: valid-checker.md
             - name: Gera reglur óvirkar í samræmisprófun smásölufærslna
               href: disable-consistency-check-rule.md
@@ -1286,6 +1284,8 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Setja upp fjármálasamþættingu fyrir Commerce-rás
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Setja upp sölukeðju smíðar fyrir dæmi um fjárhagssamþættingu
+              href: localizations/fiscal-integration-sample-build-pipeline.md
             - name: Notandaskilgreint vottorðssnið fyrir smásöluverslanir
               href: localizations/certificate-profiles-for-retail-stores.md
             - name: Regulatory configuration service (RCS)
@@ -1322,6 +1322,8 @@
               items:
                 - name: Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Austurríki
                   href: localizations/emea-aut-fi-sample.md
+                - name: Leiðbeiningar um uppsetningu dæmis um fjárhagssamþættingu fyrir Austurríki (eldra)
+                  href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brasilía
               items:
                 - name: Staðfæring Commerce fyrir Brasilíu
@@ -1358,12 +1360,16 @@
                   items:
                     - name: Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Tékkland
                       href: localizations/emea-cze-fi-sample.md
+                    - name: Leiðbeiningar um uppsetningu dæmis um fjárhagssamþættingu fyrir Tékkland (eldra)
+                      href: localizations/emea-cze-fi-sample-sdk.md
                 - name: Pólland
                   items:
                     - name: Dæmi um samþættingu strimlaprentara fyrir Pólland
                       href: localizations/emea-pol-fpi-sample.md
                     - name: Upplýsingastjórnun viðskiptavinar fyrir Pólland
                       href: localizations/emea-pol-customer-information.md
+                    - name: Leiðbeiningar um uppsetningu dæmis um fjárhagssamþættingu fyrir Pólland (eldra)
+                      href: localizations/emea-pol-fpi-sample-sdk.md
             - name: Frakkland
               items:
                 - name: Afgreiðslukassavirkni
@@ -1380,6 +1386,8 @@
               items:
                 - name: Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Þýskaland
                   href: localizations/emea-deu-fi-sample.md
+                - name: Leiðbeiningar um uppsetningu dæmis um fjárhagssamþættingu fyrir Þýskaland (eldra)
+                  href: localizations/emea-deu-fi-sample-sdk.md
             - name: Indland
               items:
                 - name: Samþætting vöru- og þjónustuskatts (VÞS) fyrir afgreiðslukassa
@@ -1398,6 +1406,8 @@
                   href: localizations/emea-ita-fpi-sample.md
                 - name: Upplýsingastjórnun viðskiptavinar fyrir Ítalíu
                   href: localizations/emea-ita-customer-information.md
+                - name: Leiðbeiningar um uppsetningu dæmis um fjárhagssamþættingu fyrir Ítalíu (eldra)
+                  href: localizations/emea-ita-fpi-sample-sdk.md
             - name: Mexíkó
               items:
                 - name: Rafrænir CFDI-reikningar fyrir Mexíkó
@@ -1407,6 +1417,8 @@
                 - name: Afgreiðslukassavirkni
                   href: localizations/emea-nor-cash-registers.md
                 - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
+                  href: localizations/emea-nor-fi-deployment.md
+                - name: Leiðbeiningar um uppsetningu á afgreiðslukössum (eldri)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Rússland
               items:
@@ -1432,6 +1444,8 @@
                   href: localizations/emea-swe-cash-registers.md
                 - name: Dæmi um samþættingu stjórntækja fyrir Svíþjóð
                   href: localizations/emea-swe-fi-sample.md
+                - name: Leiðbeiningar um uppsetningu dæmis um samþættingu stjórntækja fyrir Svíþjóð (eldra)
+                  href: localizations/emea-swe-fi-sample-sdk.md
                 - name: Dæmi um Retail POS-samþættingu fyrir stjórntæki (eldra efni)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Skýrslugerð og samþættingar Power BI
@@ -2466,6 +2480,8 @@
                       href: e-commerce-extensibility/set-up-key-vault.md
                     - name: Stofna beiðni um viðbót fyrir sölukeðju
                       href: e-commerce-extensibility/request-pipeline-hook.md
+                    - name: Myndþáttur
+                      href: e-commerce-extensibility/image-component.md
                 - name: Þróa gagnaaðgerðir
                   items:
                     - name: Yfirlit yfir gagnaaðgerðir
@@ -2574,6 +2590,8 @@
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
                 - name: Hlaða niður dæmum og pökkum af GitHub og NuGet
                   href: dev-itpro/retail-sdk/sdk-github.md
+                - name: Setja upp Visual Studio 2017 fulltrúa smíðar til að byggja Modern POS
+                  href: dev-itpro/retail-sdk/mpos-build-agent.md
                 - name: Algengar spurningar fyrir Retail SDK
                   href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Stækkunarhæfni sölustaðar

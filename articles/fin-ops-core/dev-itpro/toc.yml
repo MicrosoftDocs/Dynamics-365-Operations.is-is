@@ -232,9 +232,9 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Flytja út í yfirlit fyrir Azure Data Lake
+            - name: Yfirlit fyrir „Flytja út í Azure Data Lake“
               href: data-entities/Azure-Data-Lake-GA-version-overview.md
-            - name: Grunnstilla útflutning í Azure Data Lake
+            - name: Setja upp innbótina „Flytja út í Azure Data Lake“
               href: data-entities/configure-export-data-lake.md
             - name: Finance and Operations-forrit í Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
@@ -1012,6 +1012,8 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Skrár þýðingaminnis
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: Azure DevOps-viðbót (opin forútgáfa)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: Samþætting Microsoft Power Platform
           items:
             - name: Yfirlit
@@ -1602,6 +1604,8 @@
                   href: sysadmin/retryable-batch.md
                 - name: Afrita runuvinnslu
                   href: sysadmin/copy-batch-job.md
+                - name: Forgangsbyggð runuáætlun
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Virk runutímabil
                   href: sysadmin/activeperiod.md
                 - name: Sumartímastuðningur fyrir virk runutímabil
