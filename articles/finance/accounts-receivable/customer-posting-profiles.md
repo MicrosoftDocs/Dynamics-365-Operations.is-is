@@ -1,8 +1,8 @@
 ---
 title: Bókunarreglur viðskiptavina
-description: Bókunarreglur viðskiptavina stýra bókun á viðskiptavinafærslum í fjárhag.
-author: ShivamPandey-msft
-ms.date: 08/22/2017
+description: Þetta efnisatriði lýsir bókunarsniðum viðskiptavina, sem stjórna bókun viðskiptavinafærslur í fjárhag.
+author: JodiChristiansen
+ms.date: 12/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,124 +12,125 @@ ms.reviewer: roschlom
 ms.custom: 24651
 ms.assetid: cb82245e-8c02-429c-b36e-8db0e3e6f7e5
 ms.search.region: Global
-ms.author: shpandey
+ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a42e26464a35ef72b416aaff7a410f2318602aea38767dbe5e06b4f032dc08be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 91432a401a8f8a499e9f5e2bbe7157408faac822
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769012"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952572"
 ---
 # <a name="customer-posting-profiles"></a>Bókunarreglur viðskiptavina
 
 [!include [banner](../includes/banner.md)]
 
-Bókunarreglur viðskiptavina stýra bókun á viðskiptavinafærslum í fjárhag.
+Þetta efnisatriði lýsir bókunarsniðum viðskiptavina, sem stjórna bókun viðskiptavinafærslur í fjárhag.
 
 ## <a name="customer-posting-profiles"></a>Bókunarreglur viðskiptavina
 
-Bókunarreglur viðskiptavina gera það mögulegt að úthluta fjárhagslykla og skjalastillingar fyrir alla viðskiptavini, hóp af viðskiptavinum eða einn viðskiptavin. Þessar stillingar verður notuð þegar stofnaðar eru sölupantanir, reikningur með frjálsum texta, staðgreiðslur, innheimtubréf og vaxtanótur. Fyrir sumar færslur geturðu valið bókunarreglu sem er frábrugðin og sem hefur forgang fram yfir bókunarregluna sem er sett upp fyrir færslur í þessar skjámynd. 
+Bókunarsnið viðskiptavina gerir þér kleift að úthluta fjárhagsreikningum og skjalastillingum til allra viðskiptavina, hóps viðskiptavina eða eins viðskiptamanns. Þessar stillingar verða notaðar þegar þú býrð til sölupöntunarreikninga, frítextareikninga, verkreikninga, greiðslubækur, innheimtubréf og vaxtanótur. 
 
-Sjálfgefin bókunarregla er skilgreint í flýtiflipanum Fjárhagur og Virðisaukaskattir á síðunni Færibreytur viðskiptaskulda. Sjálfgefin bókunarregla er síðan tekin með sjálfkrafa í haus nýrra skjala þar sem hægt er að breyta henni í aðra bókunarreglu ef þörf krefur.
+Sjálfgefið póstsnið er skilgreint á **Fjárhagsbók og söluskattur** flipi á **Færibreytur viðskiptakrafna** síðu. Það er síðan sjálfkrafa innifalið í haus nýrra skjala. Þú getur breytt því þar ef annað færslusnið er krafist. 
 
-Einnig er hægt að tengja bókunarskilgreiningar við færslubókunargerð í síðu skilgreining færslubókunar. Bókunarskilgreiningar stýra bókun á viðskiptavinafærslum í fjárhag í stað bókunarskilgreininga.
+Fyrirtæki sem samþykkja fyrirframgreiðslur frá viðskiptavinum stilla oft annað bókunarsnið fyrir fyrirframgreiðslur og tengja það í færibreytunum sem sjálfgefið bókunarsnið fyrir fyrirframgreiðslur. Fyrir frekari upplýsingar, sjá [Fyrirframgreiðslur viðskiptavina](customer-prepayments.md).
+
+Einnig er hægt að tengja bókunarskilgreiningar við færslubókunargerð á síðunni **Skilgreiningar færslubókana**. Bókunarskilgreiningar eru notaðar í stað bókunarsniða til að stjórna bókun viðskiptavinafærslur í fjárhag. Frekari upplýsingar eru í [Bókunarskilgreiningar](../general-ledger/posting-definitions.md).
 
 ## <a name="creating-a-posting-profile"></a>Stofnun Bókunarregla
 Tilgreinið fjárhagslyklana sem eru notaðir við bókun færsla sem nota valda bókunarreglunni. Veljið reikningskóða og þegar hægt er reiknings- eða flokkanúmer fyrir valda bókunarfærslu. Við bókunarferli er sú bókunarregla sem er mest viðeigandi fyrir hverja færslu fundin með því að leita að afmörkuðustu reikningskóða-, reikningsnúmera- eða flokkanúmerasamsetningu í eftirfarandi forgangi:
 
-| **Lykilkóði** svæðisgildið | **Númer lykils/Flokks** svæðisgildið            | Forgangsröðun leitar |
-|------------------------------|-------------------------------------------------|-----------------|
-| **Tafla**                    | Tiltekinn viðskiptavinareikningur.                       | 1               |
-| **Flokkur**                    | Viðskiptavinarflokkur sem er úthlutað á viðskiptavininn | 2               |
-| **Allt**                      | Autt                                           | 3               |
+| Lykilkóði svæðisgildið | Númer lykils/Flokks svæðisgildið                | Forgangsröðun leitar |
+|--------------------------|-------------------------------------------------|-----------------|
+| Tafla                    | Tiltekinn viðskiptavinareikningur.                       | 1               |
+| Hópur                    | Viðskiptavinarflokkur sem er úthlutað á viðskiptavininn | 2               |
+| Öll                      | Autt                                           | 3               |
 
-Ef óskað er eftir að allar færsla viðskiptavinar hafi sömu bókunarregluna setjið þá einungis upp eina bókunarreglu með gildinu Allt í svæðið lykilkóði. Tilgreina eftirfarandi gildum til að setja upp bókunarreglunni :
+Ef þú vilt að allar færslur viðskiptavina séu með sama bókunarprófíl skaltu aðeins setja upp eitt bókunarsnið, hvar **Allt** er fært inn í **Reikningskóði** sviði. Tilgreindu eftirfarandi gildi til að setja upp bókunarregluna.
 
 <table>
 <thead>
-<tr class="header">
-<th>Reitur</th>
+<tr>
+<th>Svæði</th>
 <th>Lýsing</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td><strong>Bókunarregla</strong></td>
+<tr>
+<td>Bókunarregla</td>
 <td>Færið inn kóða fyrir bókunarreglu. T.d. væri hægt að útbúa tvær bókunarreglur til að fá einn lykil fyrir viðskiptavinastöður í landsgjaldmiðlinum og annan fyrir viðskiptavinastöður í erlendum gjaldmiðli. Hægt væri að kalla annan lykilinn „Lands“ og hinn „Erlendur“.</td>
 </tr>
-<tr class="even">
-<td><strong>Lýsing</strong></td>
+<tr>
+<td>Lýsing</td>
 <td>Færa skal inn lýsingu á bókunarregla. Þetta er einungis notað til að auðkenna betur bókunarregla þegar það er skoða í þessa síðu.</td>
 </tr>
-<tr class="odd">
-<td><strong>Kóði lykils</strong></td>
+<tr>
+<td>Kóði lykils</td>
 <td>Tilgreinið hvort bókunarreglan eigi við um einstakan viðskiptavin, flokk af viðskiptavinum eða alla viðskiptavini:
 <ul>
-<li><strong>Taflan</strong> – bókunarregla á við einn viðskiptamaður. Veljið viðskiptavinalykil í númerareit lykils/flokks.</li>
-<li><strong>Taflan</strong> – bókunarregla á við einn viðskiptavinaflokk. Veljið viðskiptavinaflokk í númerareit lykils/flokks.</li>
-<li><strong>Allt</strong> – bókunarregla á við alla viðskiptavini. Látið Númer lykils/Flokks svæðisgildið vera autt.</li>
-</ul></td>
+<li><b>Taflan</b> – bókunarregla á við einn viðskiptamaður. Veldu viðskiptamannareikninginn í<b>Reikningur/hópnúmer</b> sviði.</li>
+<li><b>Taflan</b> – bókunarregla á við einn viðskiptavinaflokk. Veldu viðskiptavinahópinn í<b>Reikningur/hópnúmer</b> sviði.</li>
+<li><b>Allt</b> – bókunarregla á við alla viðskiptavini. Látið reitinn <b>Númer lykils/flokks</b> vera autt.</li>
+</ul>
+</td>
 </tr>
-<tr class="even">
-<td><strong>Númer lykils/flokks</strong></td>
-<td>Ef tafla er valin í svæðinu lykilkóði veljið þá lykilnúmer viðskiptavinar sem er tengdur við bókunarregluna. Ef valinn er Flokkur, veljið þá flokk viðskiptavina. Ef allt er valið skal skilja þetta svæði eftir autt.</td>
+<tr>
+<td>Númer lykils/flokks</td>
+<td>Ef<b>Tafla</b> er valið í<b>Reikningskóði</b> reit, veldu reikningsnúmer viðskiptavinarins sem er tengdur við bókunarsniðið. Ef<b>Hópur</b> er valinn skaltu velja viðskiptavinahópinn. Ef <b>Allt</b> er valið skal skilja þenan reit eftir auðan.</td>
 </tr>
-<tr class="odd">
-<td><strong>Safnlykill</strong></td>
-<td>Veljið fjárhagslykilinn sem nota á sem safnlykil viðskiptavina fyrir viðskiptavini sem bókunarreglan er úthlutuð á.</td>
+<tr>
+<td>Safnlykill</td>
+<td>Veldu aðalreikninginn sem verður notaður sem viðskiptareikningur viðskiptakrafna fyrir viðskiptavinina sem eru tengdir við bókunarsniðið. Þessi reikningur er reikningurinn fyrir<b>Jafnvægi viðskiptavina</b> tegund færslu.</td>
 </tr>
-<tr class="even">
-<td><strong>Jafna lykil</strong></td>
-<td>Veldu fjárhagslykill greiðslugetu sem er notaður fyrir sjóðsstreymisspá. Þetta svæði birtast aðeins ef sjóðstreymisspár eru virkjuð.</td>
+<tr>
+<td>Greiðslugeta lykils fyrir greiðslur</td>
+<td>Veldu fjárhagslykill greiðslugetu sem er notaður fyrir sjóðsstreymisspá. Þessi reitur mun aðeins birtast ef sjóðstreymisspár eru virkjaðar.</td>
 </tr>
-<tr class="odd">
-<td><strong>Fyrirframgreiðslur virðisaukaskatts</strong></td>
-<td>Færið inn lykil fyrir virðisaukaskatt fyrir fyrirframgreiðslur.
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Athugið" alt="Note" id="alert_note" class="cl_IC101471" /><strong>Athugið</strong></th>
+<tr>
+<td>Fyrirframgreiðslur virðisauka</td>
+<td><p>Færið inn lykil fyrir virðisaukaskatt fyrir fyrirframgreiðslur.</p>
+<p><strong>Athugið:</strong> Nota<b>Færibreytur viðskiptakrafna</b> síðu til að tilgreina færslusniðið sem er notað þegar greiðsla er merkt sem fyrirframgreiðsla.</p>
+</td>
 </tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Síðunni færibreytur viðskiptakrafna er notuð til að tilgreina bókunarreglu sem nota á þegar greiðsla er merkt sem fyrirframgreiðsla.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
-</tr>
-<tr class="even">
-<td><strong>Skuldbindingar vegna afsláttarlykils</strong></td>
+<tr>
+<td>Skuldbindingar vegna afsláttarlykils</td>
 <td>Veljið Fjárhagslyklar fyrir afsláttarskuldbindingar.</td>
 </tr>
-<tr class="odd">
-<td><strong>Innheimtubréfaröð</strong></td>
+<tr>
+<td>Innheimtubréfaröð</td>
 <td>Veljið kennimerki innheimtubréfaraðar fyrir viðskiptavini sem bókunarreglan tengist.</td>
 </tr>
-<tr class="even">
-<td><strong>Vaxtakóði</strong></td>
+<tr>
+<td>Vaxtakóði</td>
 <td>Veljið vaxtakóði til að nota fyrir útreikninga vaxta fyrir viðskiptavini sem bókunarreglan tengist.</td>
 </tr>
 </tbody>
 </table>
 
+## <a name="posting-examples"></a>Setja inn dæmi
 
-### <a name="table-restrictions"></a>**Töfluskorður**
+Eftirfarandi tafla sýnir dæmi um sjálfgefnar bókunargerðir með sýnishorn af aðalreikningum og lýsingum. The **Debet/kredit** dálkurinn gefur til kynna hvort færslan er venjulega debet eða inneign eða getur í sumum tilfellum bókað annað hvort. The **Hreinsunarreikningur** dálkurinn gefur til kynna að bókunartegundin sé jöfnunarreikningur. Þetta þýðir að upphæðin sem er bókuð á þessum reikningi er sjálfkrafa bakfærð þegar síðari færsla er bókuð. 
+
+| Bókunargerð | Dæmi um aðalreikning | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit | Millireikningur | Lýsing |
+|--------------|----------------------|---------------------------|--------------|--------------|------------------|-------------|
+| Staða viðskiptavinar | 130100 | Viðskiptakröfur | Eign | Hvort tveggja | Nei | Tilgreindu reikninginn í **Yfirlitsreikningur** sviði.|
+| Ekkert | 110110 | Bankareikningur | Eign | Hvort tveggja | Nei | Tilgreindu aðalreikninginn í **Lausafjárreikningur fyrir greiðslur** sviði. Þessi reikningur er ekki notaður til að birta. Það er aðeins notað til að spá fyrir um sjóðstreymi. |
+| Fyrirframgreiðslur virðisauka | 202900 | Afgreiðsla söluskatts | Skuld | Hvort tveggja | Já | Færið inn lykil fyrir virðisaukaskatt fyrir fyrirframgreiðslur. |
+| Skuldbindingar vegna afsláttarlykils | 250600 | Frestað tekjur og afslættir | Skuld | Hvort tveggja | Já | Veljið fjárhagsreikning fyrir skuldir afslætti.|     
+
+### <a name="table-restrictions"></a>Töflutakmarkanir
 
 Tilgreinið fyrir færslurnar með völdu bókunarreglunni hvort færslur verða jafnaðar sjálfkrafa, vexti reikna út og innheimtubréf gefin út. Þú getur einnig valið reikning sem notaður er þegar færslur með valdri bókunarreglu er lokað.
 
 Tilgreina eftirfarandi gildum til að setja upp bókunarreglunni :
 
-| Reitur                 | Lýsing                                                                                                                                                                                                                                        |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Uppgjör**        | Veljið þessa víxlun til að virkja sjálfvirka jöfnun fyrir færslur sem eru með þessari bókunarreglu. Ef þessi víxlun er tóm þarftu að jafna færslur handvirkt með því að nota Jafna opnar færslur síðuna eða síðuna færa inn greiðsla viðskiptavinar. |
-| **Áhugasvið**          | Veldu þessa víxlun eigi að reikna vexti á útistandandi skuldum fyrir viðskiptavinalykill með þessum forstillingum. Ef víxlunin er hreinsaður, munu vextir ekki vera reiknaðir fyrir þessa viðskiptavini.                                           |
-| **Innheimtubréf** | Veldu þessa víxlun eigi innheimtubréf að vera myndað fyrir viðskiptavinalykill með þessum forstillingum. Ef víxlunin er hreinsaður, munu innheimtubréf ekki vera mynduð fyrir þessa viðskiptavini.                                                 |
-| **Loka**             | Tilgreinið bókunarreglu sem óskað er eftir að verði breytt yfir í þegar færslur með þessari bókunarreglu eru lokaðar. Litið er á færslu sem lokaða þegar hún hefur verið jöfnuð að fullu.                                                                           |
+| Reitur                 | Lýsing                                           |
+|-----------------------|-------------------------------------------------------|
+| Jöfnun        | Veljið þessa víxlun til að virkja sjálfvirka jöfnun fyrir færslur sem eru með þessari bókunarreglu. Ef þessi rofi er hreinsaður verður þú að jafna færslur handvirkt með því að nota **Gerðu upp opin viðskipti** síðu eða **Sláðu inn greiðslur viðskiptavina** síðu. |
+| Áhugasvið          | Veldu þessa víxlun eigi að reikna vexti á útistandandi skuldum fyrir viðskiptavinalykill með þessum forstillingum. Ef víxlunin er hreinsaður, munu vextir ekki vera reiknaðir fyrir þessa viðskiptavini.                                           |
+| Innheimtubréf | Veldu þessa víxlun eigi innheimtubréf að vera myndað fyrir viðskiptavinalykill með þessum forstillingum. Ef víxlunin er hreinsaður, munu innheimtubréf ekki vera mynduð fyrir þessa viðskiptavini.                                                 |
+| Loka             | Tilgreinið bókunarreglu sem óskað er eftir að verði breytt yfir í þegar færslur með þessari bókunarreglu eru lokaðar. Litið er á færslu sem lokaða þegar hún hefur verið jöfnuð að fullu.             |
 
 
 

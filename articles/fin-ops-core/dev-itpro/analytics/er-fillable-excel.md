@@ -2,7 +2,7 @@
 title: Hanna skilgreiningu fyrir myndun skjala á Excel-sniði
 description: Í þessu efni er útskýrt hvernig á að hanna snið rafrænnar skýrslugerðar til að fylla út Excel-sniðmát og síðan mynda skjöl á Excel-sniði á útleið.
 author: NickSelin
-ms.date: 12/15/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 87d5929557e5120a5339ee46eac655fd399679d1
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: 9b1c83894d93789a270ed4521ba7f80da70285ac
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943613"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952653"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Hanna skilgreiningu fyrir myndun skjala á Excel-sniði
 
@@ -119,7 +119,7 @@ Frekari upplýsingar um lárétta eftirlíkingu er að hægt að nálgast með �
 
 ### <a name="resizing"></a>Breyta stærð
 
-Þú getur stillt Excel sniðmátið þitt til að nota frumur til að kynna textagögn. Til að tryggja að allur textinn í reit sé sýnilegur í mynduðu skjali, getur þú stillt þann reit þannig að textinn vefji sjálfkrafa inn í það. Þú getur líka stillt línuna sem inniheldur þann reit þannig að hún stilli sjálfkrafa hæð hans ef vafinn texti er ekki að fullu sýnilegur. Nánari upplýsingar er að finna í hlutanum „Vefja texta í reit“ í [Lagaðu gögn sem eru skorin af í frumum](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e).
+Þú getur stillt Excel sniðmátið þitt til að nota frumur til að kynna textagögn. Til að tryggja að allur textinn í reit sé sýnilegur í mynduðu skjali, getur þú stillt þann reit þannig að textinn vefji sjálfkrafa inn í það. Þú getur líka stillt línuna sem inniheldur þann reit til að stilla sjálfkrafa hæð hans ef vafinn texti er ekki að fullu sýnilegur. Nánari upplýsingar er að finna í hlutanum „Vefja texta í reit“ í [Lagaðu gögn sem eru skorin af í frumum](https://support.microsoft.com/office/fix-data-that-is-cut-off-in-cells-e996e213-6514-49d8-b82a-2721cef6144e).
 
 > [!NOTE]
 > Vegna þekkts [Excel takmörkun](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353), jafnvel þótt þú stillir hólf til að vefja texta og þú stillir línurnar sem innihalda þær hólf þannig að þær stilli sjálfkrafa hæð þeirra þannig að þær passi umvafinn textann, gætirðu ekki notað **AutoFit** og **Vefja texta** Excel eiginleikar fyrir sameinaðar frumur og línurnar sem innihalda þær. 
@@ -333,7 +333,7 @@ Til að fá frekari upplýsingar um þennan eiginleika skal fylgja skrefunum í 
 
 ## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a> Dæmi 2: Lagað EPPlus vandamálið með sameinuðum frumum
 
-Þú getur keyrt ER snið til að búa til skjal á útleið á Excel vinnubókarsniði. Þegar **Virkjaðu notkun EPPlus bókasafns í rafrænum skýrslugerð** eiginleiki er virkjaður í **Eiginleikastjórnun** vinnurými, the [EPPlus bókasafn](https://www.nuget.org/packages/epplus/4.5.2.1) er notað til að búa til Excel úttak. Hins vegar vegna þekktra [Excel hegðun](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) og takmörkun á EPPlus bókasafninu, gætirðu lent í eftirfarandi undantekningu: "Get ekki eytt/skrifað yfir sameinuð hólf. Svið er að hluta sameinað hinu sameinaða sviðinu.“ Til að læra hvers konar Excel sniðmát gætu valdið þessari undantekningu og hvernig þú getur lagað vandamálið skaltu klára eftirfarandi dæmi.
+Þú getur keyrt ER snið til að búa til skjal á útleið á Excel vinnubókarsniði. Þegar **Virkjaðu notkun EPPlus bókasafns í rafrænum skýrslugerð** eiginleiki er virkur í **Eiginleikastjórnun** vinnurými, the [EPPlus bókasafn](https://www.nuget.org/packages/epplus/4.5.2.1) er notað til að búa til Excel úttak. Hins vegar vegna þekktra [Excel hegðun](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) og takmörkun á EPPlus bókasafninu, gætirðu lent í eftirfarandi undantekningu: "Get ekki eytt/skrifað yfir sameinuð hólf. Svið er að hluta sameinað hinu sameinaða sviðinu.“ Til að læra hvers konar Excel sniðmát gætu valdið þessari undantekningu og hvernig þú getur lagað vandamálið skaltu klára eftirfarandi dæmi.
 
 1. Í Excel skjáborðsforritinu skaltu búa til nýja Excel vinnubók.
 2. Á vinnublaði **Blað 1**, bætið við **Titill skýrslu** heiti á frumu **A2**.
@@ -373,13 +373,13 @@ Til að fá frekari upplýsingar um þennan eiginleika skal fylgja skrefunum í 
 
 Ef eitt af sniðmátunum þínum inniheldur PivotTable sem er byggð á a PowerPivot líkan sem vísar til [ytri gagnagjafa](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b), og **Virkjaðu notkun EPPlus bókasafns í rafrænum skýrslugerð** eiginleiki er virkjaður færðu eftirfarandi villuskilaboð þegar þú keyrir ER snið sem notar það sniðmát til að búa til skjal á útleið á Excel sniði: "Skiminnisuppspretta er ekki vinnublað." Til að laga þetta vandamál hefurðu eftirfarandi valkosti:
 
-- **Mælt með:** Endurhannað Excel lausnina sem þú ert að nota:
+- **Mælt með:** Endurhanna Excel lausnina sem þú ert að nota:
 
     1. Einangraðu hlutann sem inniheldur pivots í sérstakri Excel vinnubók (vinnubók A). 
     2. Notaðu ER til að búa til aðra Excel vinnubók (vinnubók B) frá Finance sem hefur nauðsynlegar upplýsingar. 
     3. Skoðaðu vinnubók B í vinnubók A um leið og vinnubók B er búin til.
 
-- Notaðu annan valkost en EPPlus til að slökkva á eiginleikanum. 
+- Slökktu á eiginleikanum, **Virkjaðu notkun EPPlus bókasafns í rafrænum skýrslugerð** að nota annan valmöguleika en EPPlus. 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

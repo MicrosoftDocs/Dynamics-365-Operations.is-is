@@ -1212,6 +1212,8 @@
                   href: finance-insights/enable-cust-paymnt-prediction.md
                 - name: Virkja sjóðstreymisspá
                   href: finance-insights/enable-cash-flow-forecasting.md
+                - name: Ytri gögn í sjóðsstreymisspám
+                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Virkja drög að fjárhagsáætlun
                   href: finance-insights/enable-budget-proposal.md
                 - name: Stofna verk til að setja upp samþættingu gagna
@@ -1226,16 +1228,14 @@
                       href: finance-insights/improve-model.md
                     - name: Stuðningstími fyrir stjórnun líkans
                       href: finance-insights/model-manage-lifecycle.md
-            - name: Nota Finance Insights
+            - name: Nota Finance insights
               items:
                 - name: Drög að fjárhagsáætlunum
                   href: finance-insights/budget-proposals.md
                 - name: Staða reiðufjár
                   href: finance-insights/cash-position.md
-                - name: Sjóðstreymisspá
+                - name: Reiðufjárspá
                   href: finance-insights/cash-flow-forecast-intro.md
-                - name: Nota ytri gögn við sjóðsstreymisspár
-                  href: finance-insights/external-data-in-cash-flow.md
                 - name: Greiðsluspár viðskiptavinar
                   href: finance-insights/payment-insights-overview.md
                 - name: Nota greiðsluspár viðskiptavinar
@@ -1432,6 +1432,8 @@
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Hafist handa með rafrænar reikningsfærslur fyrir Sádi-Arabíu
                           href: localizations/e-invoicing-sa-get-started.md
+                        - name: Setja upp beina samþættingu á ítölsku FatturaPA við SDI
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: Nota rafræna reikningsfærsluþjónustu til að flytja inn reikninga lánardrottins
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Setja upp rafrænar reikningsfærslur
@@ -1512,6 +1514,10 @@
                           items:
                             - name: VSK-skýrsla
                               href: localizations/emea-gbr-vat-declaration.md
+                        - name: Skýrslugjöf í Noregi
+                          items:
+                            - name: VSK-skýrsla
+                              href: localizations/emea-nor-vat-declaration.md
                     - name: Virkja skattaútreikning fyrir flutningspöntun
                       items:
                         - name: Skattaeiginleikaþjónusta fyrir flutningspantanir
@@ -1557,7 +1563,7 @@
                 - name: VSK-yfirlit
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Skýrsla um þjónustu á milli landa
-                  href: localizations/emea-aut-vat-statement-details.md
+                  href: localizations/emea-aut-cross-border-services-report.md
                 - name: Austurrískt Intrastat
                   href: localizations/emea-aut-intrastat.md
                 - name: Innkaupagjöld
@@ -1824,7 +1830,7 @@
                   href: localizations/tasks/golden-tax-integration-export-setup.md
                 - name: Afskriftaaðferðir eigna
                   href: localizations/apac-chn-depreciation-methods-fixed-assets.md
-                - name: Innflutningur gagnaeiningar fyrir kínverskan Golden tax-skatt
+                - name: Innflutningur skráa fyrir kínverskan Golden tax-skatt
                   href: localizations/apac-chn-import-golden-tax-data-entity.md
                 - name: Líkan fyrir mánaðarlegan meðalkostnað
                   href: localizations/apac-chn-monthly-average-cost-model.md
@@ -2088,6 +2094,8 @@
                   href: localizations/finland.md
                 - name: VSK-greiðsluskýrsla fyrir Finnland
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
+                - name: Finnskt Intrastat
+                  href: localizations/emea-fin-intrastat.md
             - name: Frakkland
               items:
                 - name: Yfirlit yfir Frakkland
@@ -2610,6 +2618,8 @@
                   href: localizations/apac-idn-invoicing.md
                 - name: VSK-skýrsla fyrir Indónesíu
                   href: localizations/apac-idn-ppn-declaration.md
+                - name: Staðgreiðsluskattskýrsla fyrir Indónesíu
+                  href: localizations/apac-idn-wht-declaration.md
             - name: Ítalía
               items:
                 - name: Yfirlit yfir Ítalíu

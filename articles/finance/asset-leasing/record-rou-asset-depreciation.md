@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: a766247e5482677429706a324c09cc9be4386c0b
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345371"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947316"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Skrá afskriftir afnotaréttar af eign (forskoðun)
 
@@ -35,7 +35,7 @@ Fyrir leigur sem eru viðurkenndar á efnahagsreikningi fyrirtækis er afnotaré
 1. Á síðunni **Samantekt leigu** skal velja leigusamning. Veljið síðan **Bækur \> Afskriftaráætlun eignar** til að opna síðuna **Afskriftaráætlun eignar**.
 
     Bókarfærsla afskriftarkostnaðar afnotaréttar af eign er byggð á upphæðinni í dálknum **Afskriftarkostnaður**. Dæmi um leiðbeiningar um reglufylgni við bókunarstaðla er að finna í [útreikningur á afskriftarkostnaði afnotaréttar á eign fyrir fjármögnunarleigusamninga](#calculation-of-rou-asset-amortization-expense-for-finance-leases) hluta síðar í þessu efnisatriði.
-
+    
 2. Veljið afskriftartímabil og síðan **Stofna færslubók**. Þú færð skilaboð sem segir til um að færslubókin sem verður notuð til að skrá afskriftir hafi verið stofnuð.
 3. Veljið **Færslubækur \> Eignarleigufærslubækur** til að opna **Eignaleigufærslubók** , þar sem hægt er að skoða færslubókarfærsluna fyrir afskriftakostnað sem var stofnaður.
 
@@ -70,6 +70,8 @@ Eins og áður var getið er línulega leigukostnaður reiknaður sem samtala al
 
 > [!NOTE]
 > Samkvæmt ASC 842 er afskrift afnotaréttar af eign fyrir rekstrarleigusamning flokkuð sem leigukostnaður á rekstrarreikning. Fyrir sýnileika lýsir Eignarleiga færslunni sem afskrift á afnotarétti að eign. Hins vegar ætti að úthluta debetfærslunni á kostnaðarlykil fyrir rekstrarleigusamning og kreditfærslunni skal úthlutað beint á afnotaréttur af eign fyrir rekstrarleigusamning. Engu að síður, í færibreytum leigusamnings, er hægt að tilgreina að kreditfærslur eigi að vera gerðar á uppsöfnuðum afskriftarreikningi fyrir afnotaréttur af eign í rekstri.
+
+Ef leigan er flokkuð sem rekstrarleiga eru mánaðarlegar afskriftir eftir virðisrýrnun reiknaðar með línulegum afskriftum.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-finance-leases"></a>Útreikningur á afskriftarkostnaði afnotaréttar af eign fyrir fjármögnunarleigusamninga
 

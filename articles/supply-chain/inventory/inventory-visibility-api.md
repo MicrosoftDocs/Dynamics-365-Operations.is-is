@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: d676191f921d74a5a0ced934f3692dacbe7cd7b4
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 92c427d3063c34f263d5bc449be6fac695b5912d
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920101"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952628"
 ---
 # <a name="inventory-visibility-public-apis"></a>Opin API fyrir sýnileika birgða
 
@@ -48,6 +48,8 @@ Microsoft hefur útvegað tilbúið beiðnasafn *Postman*. Þú getur flutt þet
 
 > [!NOTE]
 > {environmentId} hluti slóðarinnar er umhverfiskennið í Microsoft Dynamics Lifecycle Services (LCS).
+> 
+> Magn API getur skilað að hámarki 512 færslum fyrir hverja beiðni.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Finna endastöðin samkvæmt umhverfi Lifecycle Services
 
@@ -249,7 +251,7 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls án `dimensionDataSource
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Stofna mörg tilvik breytinga
 
-Þetta API getur búið til margar færslur samtímis. Eini munurinn á þessu API og [API fyrir eitt tilvik](#create-one-onhand-change-event) eru gildin `Path` og `Body`. Fyrir þetta API gefur `Body` upp fylki af færslum.
+Þetta API getur búið til margar færslur samtímis. Eini munurinn á þessu API og [API fyrir eitt tilvik](#create-one-onhand-change-event) eru gildin `Path` og `Body`. Fyrir þetta API gefur `Body` upp fylki af færslum. Hámarksfjöldi færslur er 512, sem þýðir að magnbreytinga-forritaskil við höndina geta stutt allt að 512 breytingartilvik í einu.
 
 ```txt
 Path:
@@ -476,7 +478,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Fyrirspurn um lagerbirgðir
 
-Nota _Fyrirspurn við höndina_ API til að sækja núverandi birgðagögn fyrir vörur þínar. API styður sem stendur fyrirspurnir um allt að 100 einstök atriði eftir`ProductID` gildi. Margfeldi`SiteID` og`LocationID` Einnig er hægt að tilgreina gildi í hverri fyrirspurn. Hámarksmörkin eru skilgreind sem `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+Nota _Fyrirspurn við höndina_ API til að sækja núverandi birgðagögn fyrir vörur þínar. API styður sem stendur fyrirspurnir um allt að 100 einstök atriði eftir`ProductID` gildi. Margfeldi`SiteID` og`LocationID` Einnig er hægt að tilgreina gildi í hverri fyrirspurn. Hámarksmörk eru skilgreind sem `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Senda fyrirspurn með bókunaraðferðinni
 

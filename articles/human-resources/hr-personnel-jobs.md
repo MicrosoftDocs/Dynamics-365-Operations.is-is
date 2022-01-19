@@ -15,18 +15,18 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b3d56b3d19bd671d0015e87eefdf8ae62f4cee0
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: a4aa7369c84836154b8217a5b70267021f4028b1
+ms.sourcegitcommit: 4f84540e6121ca3d5ae52ee07e414116d423cefa
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731541"
+ms.lasthandoff: 01/03/2022
+ms.locfileid: "7948476"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Setja upp íhluti verks
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þessi grein lýsir þeim hugtakaþáttum sem vinnsla getur haft með og gefur dæmi um hvernig hægt er að nota þessa þætti í fyrirtækinu. 
+Þetta efnisatriði lýsir þeim hugtakaþáttum sem vinnsla getur haft með og gefur dæmi um hvernig hægt er að nota þessa þætti í fyrirtækinu. 
 
 Áður en hægt er að stofna vinnslur verður þú að setja upp tilvísunarupplýsingar. Hægt er að stofna vinnslu sem hefur aðeins heiti. Hins vegar með því að hafa frekari upplýsingar með, t.d. titil vinnslu, veitirðu sjálfgildi fyrir þær stöður sem er úthlutað til vinnslu. Þar að auki er hægt að nota sumar þeirra upplýsinga sem voru færðar inn til að afmarka launafyrirkomulag við tilgreindar vinnslur. Ef ætlunin er að setja upp hæfni sem hægt er nota til að afmarka launafyrirkomulag við tilgreindar vinnslur ætti að setja upp starfshlutverk og vinnslugerð áður en vinnslur eru setter upp. Með því að hafa þessi sjálfgildi tiltæk spararðu tíma þegar stöðum er bætt við starfið. 
 

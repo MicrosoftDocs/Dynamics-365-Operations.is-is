@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
-ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
-ms.translationtype: HT
+ms.openlocfilehash: 26f8820fe707b8a2dff0dcc1a24884ef02e5616f
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "7581866"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952497"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Setja upp sýnileika birgða
 
@@ -71,6 +71,9 @@ Eftir að þú hefur skráð forrit og bætt leyniorði biðlara við Azure AD s
 1. Samþykktu skilmálana með því að velja gátreitinn **Skilmálar**.
 1. Velja **Setja upp**. Staða innbótar er sýnd sem **Í uppsetningu**. Þegar uppsetningunni er lokið skaltu endurhlaða síðuna. Staðan ætti að breytast í **Uppsett**.
 1. Í Dataverse skal velja hlutann **Forrit** í vinstra yfirlitinu og staðfesta að **Birgðasýnileiki** Power Apps sé uppsettur. Ef hlutinn **Forrit** er ekki til skal hafa samband við afurðateymi birgðasýnileika í [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
+
+> [!TIP]
+> Við mælum með því að þú skráir þig í Inventory Visibility Add-in notendahópinn, þar sem þú getur fundið gagnlegar leiðbeiningar, fengið nýjustu uppfærslurnar okkar og sent inn allar spurningar sem þú gætir haft um notkun Birgðasýnileika. Til að taka þátt, vinsamlegast sendu tölvupóst til vöruteymisins Birgðasýnileika á [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) og láttu fylgja með auðkenni þitt fyrir framboðsstjórnunarumhverfi.
 
 > [!IMPORTANT]
 > Ef þú ert með fleiri en eitt LCS-umhverfi skaltu búa til annað Azure AD forrit fyrir hvert umhverfi. Ef þú notar sama forritskennið og leigjandakennið til að setja upp innbót birgðasýnileika fyrir mismunandi umhverfi mun koma upp vandamál varðandi lykla fyrir eldri umhverfi. Aðeins það síðasta sem var sett upp verður tekið gilt.

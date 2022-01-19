@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88dea2724f574383298c5deac9b76b4cd1d802b5427c8ec2a59a9d1ab0de4e0c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ab125f963b8f2e00c8d937c6eea091970feaef65
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741585"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952547"
 ---
 # <a name="cost-accounting-home-page"></a>Heimasíða kostnaðarbókhalds
 
@@ -38,7 +38,7 @@ Eftirfarandi kennslukort sýnir helstu hugtök og verkefni sem eru í ramma eini
 
 | &nbsp; | &nbsp;  |
 |------|---|
-|  [Grunnstilla grunneiningar (eLearning)](https://mbspartner.microsoft.com/Home) (krefst CustomerSource-reiknings)  |[Víddir kostnaðareiningar](cost-elements.md)  |
+|  [Byrjaðu með kostnaðarbókhald (læra)](https://docs.microsoft.com/learn/modules/get-started-cost-accounting-dyn365-finance/)  |[Víddir kostnaðareiningar](cost-elements.md)  |
 |  [Víddarstigveldi](dimension-hierarchy.md)  |[Skilgreina kostnaðarstýringareiningar](./tasks/define-cost-control-units.md)| 
 | [Úthlutunargrunnar](allocation-bases.md)|[Stofna og úthluta kostnaðarúthlutunarreglu fyrir kostnaðarstýringareiningu](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [Stjórna gagnagjafa fyrir fjárhag kostnaðarbókhalds](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Vinna úr og rekja upprunagögn](./tasks/process-trace-source-data.md)     | 

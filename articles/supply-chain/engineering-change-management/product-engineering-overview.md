@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e9dc692061cec830f487e01a79075eda835bac23
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
-ms.translationtype: MT
+ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937661"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952599"
 ---
 # <a name="engineering-change-management-overview"></a>Yfirlit yfir umsjón hönnunarbreytinga
 
@@ -71,6 +71,7 @@ Næst skal kveikja á skilgreiningarlyklunum með því að fylgja þessum skref
 
 1. Ef einnig á að nota vídd útgáfunnar skal velja gátreitinn **Afurðarvídd - Útgáfa**. (Þessi gátreitur er neðar á listanum, ekki faldaður undir hnútnum **Stjórnun hönnunarbreytinga**.)
 1. Slökkvið á viðhaldsstillingu eins og lýst er í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Keyrðu gagnagrunnssamstillingu til að tryggja að stillingarlyklarnir séu rétt virkir.
 
 > [!IMPORTANT]
 > Frá og með apríl 2022 verða leyfislyklarnir fyrir bæði **Stjórnun hönnunarbreytinga** og **Afurðarvídd - Útgáfa** virkjaðir að sjálfgefnu fyrir allar nýja uppsetningar, en þú munt enn geta slökkt á þeim ef á þarf að halda.

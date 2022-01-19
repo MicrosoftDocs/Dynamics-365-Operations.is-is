@@ -2,7 +2,7 @@
 title: Úthluta Human Resources
 description: Þetta efnisatriði útskýrir úthlutunarferli fyrir nýtt vinnsluumhverfi fyrir Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/11/2021
+ms.date: 01/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
-ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
-ms.translationtype: HT
+ms.openlocfilehash: b5ea27c6650df0b94284902eb37e2169ea36261a
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7644528"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952703"
 ---
 # <a name="provision-human-resources"></a>Úthluta Human Resources
 
@@ -44,7 +44,7 @@ ms.locfileid: "7644528"
 
 Prófunarumhverfi bjóða upp á möguleikann á að leggja mat á virkni Human Resources fyrir einstaklinga sem eru ekki þegar með aðgang að umhverfi Human Resources. Ef þú úthlutar prófunarumhverfi og sannvottaður notandi er þegar með aðgang að einu eða fleiri umhverfum Human Resources, verður notandi sendur í fyrirliggjandi umhverfi eða lista yfir umhverfi.
 
-Prófunarumhverfi eru ætluð til þess að nota sem vinnsluumhverfi. Þau takmarkast við 60 daga reynslutíma. Þegar reynslutíminn rennur út er umhverfinu og öllum gögnum sem eru í því eytt og ekki er hægt að endurheimta þau. Ekki er hægt að umbreyta umhverfinu í sandkassa- eða vinnsluumhverfi. Þú getur skráð þig fyrir nýju prófunarumhverfi eftir að núverandi umhverfi rennur út.
+Prófunarumhverfi eru ætluð til þess að nota sem vinnsluumhverfi. Þau takmarkast við 30 daga reynslutíma. Þegar reynslutíminn rennur út er umhverfinu og öllum gögnum sem eru í því eytt og ekki er hægt að endurheimta þau. Ekki er hægt að umbreyta umhverfinu í sandkassa- eða vinnsluumhverfi. Þú getur skráð þig fyrir nýju prófunarumhverfi eftir að núverandi umhverfi rennur út.
 
 Þegar prófunarumhverfi Human Resources er búið til er Power Apps prófunarumhverfi einnig búið til í leigjandanum og tengt við umhverfi Human Resources. Power Apps umhverfið, sem nefnt er „TestDrive“, hefur sama reynslutíma og umhverfi Human Resources.
 

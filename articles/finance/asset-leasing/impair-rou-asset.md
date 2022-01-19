@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fd79880dc8aa77eea8c16f350c0853013c6ad17b
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b104cec399a368ada64a73688c42476e6fbd9e52
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890831"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947341"
 ---
 # <a name="impair-right-of-use-assets"></a>Draga úr afnotarétti af eignum
 
@@ -44,6 +44,8 @@ Eftirstöðvar afnotaréttar af eign verða afskrifaðar á samkvæmt línulegri
 
     > [!NOTE]
     > Eftir að virðisrýrnunarfærslan er bókuð er ný bókaútgáfa búin til.
+
+    > Ef leigan er flokkuð sem rekstrarleiga eru mánaðarlegar afskriftir eftir virðisrýrnun reiknaðar með línulegum afskriftum.
 
 9. Til að skoða afskriftaáætlun um virðisrýrnun eigna, opnaðu afskriftaáætlun eigna fyrir leigubókina. Eignin verður nú afskrifuð samkvæmt línulegri aðferð á mánaðarfjöld sem þú slóst inn í svæðið **Tímabil sem eru eftir**.
 10. Til að skoða bókarfærslu kostnaðar virðisrýrnunar skal velja **Færslubók eignarleigu** á aðgerðasvæðinu í leigubók virðisrýrnunarinnar. Kerfið stofnar bókarfærslu sem debetfærir bókunarlykil virðisrýrnunarkostnaðar og kreditfærir bókunarlykil leigueignarinnar. 
@@ -100,6 +102,7 @@ Eftirfarandi töflur sýna gildin sem eru stillt á flipunum **Almennt** og **Gr
     | Loka bók             | Nei       |
 
 6. Bókarfærsla virðisrýrnunar hefur verið stofnuð og bókuð. Til að skoða hana skal opna leigubók eignarinnar í leigubókinni. Athugaðu að upphæð virðisrýrnunarinnar var debetfærð á bókunarlykil fyrir virðisrýrnun kostnaðar og kreditfærð á bókunarlykil afnotaréttar af eign.
+
 7. Hægt er að skoða heildaráhrif virðisrýrnunarinnar í töflum skulda og eignafærslna. Taktu eftir að kostnaður virðisrýrnunar hefur lækkað fyrir afnotaréttinn af eign en bókfært virði leiguskuldbindingarinnar hefur ekki breyst.
 
 Virðisrýrnunin hefur ein áhrif til viðbótar sem þú ættir að hafa í huga. Vegna þess að upphæð afnotaréttar af eign er nú mun lægri en leiguskuldbindingin verður að afskrifa upphæðina á annan hátt en áður. Nánar tiltekið, nú er eignin afskrifuð með línulegri aðferð í eftirstandandi 84 mánuði leigutímans, sem hefst á færsludagsetningunni.

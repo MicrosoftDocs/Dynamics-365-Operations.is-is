@@ -512,6 +512,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Búa til Lifecycle Services (LCS) tengingu í Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Uppfæra sannvottunarverk LCS-tengingar í MSAL í Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection-update.md
                 - name: Uppfæra hýsta Azure Pipeline fyrir nýja NuGet pakka
                   href: dev-tools/pipeline-nuget-split.md
                 - name: Uppfæra eldri sölukeðju í Azure Pipelines
@@ -1484,6 +1486,8 @@
               href: perf-test/rsat/rsat-best-practices.md
             - name: Prófun óháð gögnum með Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: Keyra Regression Suite Automation Tool (RSAT) með samhliða keyrslu
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: Úrræðaleit
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Gefa út lausnir með Lifecycle Services

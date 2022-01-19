@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 43814023474d44b8c95bae087c7b6a4d52d21471
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: ea39a1fc9092aaa4622c7193f7538acc85aa0f46
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891927"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952678"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Samþætta við kerfi þriðju aðila fyrir framkvæmd framleiðslu
 
@@ -37,10 +37,17 @@ Eftirfarandi mynd sýnir dæmigert safn viðskiptaviðburða, ferla og skilaboð
 
 ## <a name="turn-on-the-mes-integration-feature"></a>Kveiktu á MES samþættingareiginleikanum
 
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Áður en þú getur notað þennan eiginleika verður stjórnandi að kveikja á honum í kerfinu þínu eins og lýst er í eftirfarandi ferli.
 
-- **Eining:** *Framleiðslustýring*
-- **Eiginleikaheiti:** *Samþætting framleiðslukerfis*
+1. Opnið **Kerfisstjórnun \> Setja upp \> Skilgreining leyfis**.
+1. Gakktu úr skugga um að **Tími og mæting** leyfislykill er virkur (sýnir hak). Þessi leyfislykill er nauðsynlegur vegna þess að hann stjórnar virkni og gögnum framleiðslukerfisins. Ef það er ekki virkt skaltu gera eftirfarandi skref:
+    1. Setjið kerfið í viðhaldsstillingu eins og lýst er í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+    1. Á **Leyfisstillingar** síðu, veldu **Tími og mæting** gátreit.
+    1. Slökktu á viðhaldsstillingu eins og lýst er í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
+1. Farðu í **Kerfisstjórnun \> Vinnurými \> Eiginleikastjórnun**.
+1. Kveiktu á eiginleikanum sem er skráður á eftirfarandi hátt (sjá einnig [Yfirlit yfir eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
+    - **Eining:** *Framleiðslustýring*
+    - **Eiginleikaheiti:** *Samþætting framleiðslukerfis*
 
 ## <a name="processes-available-for-mes-integration"></a>Ferlar í boði fyrir MES samþættingu
 
@@ -230,7 +237,7 @@ Fyrir *enda framleiðslupöntun* skilaboð, the`_messageType` gildi er `ProdProd
 
 Eftir að MES hefur sent skilaboð til Supply Chain Management gæti verið viðeigandi fyrir Supply Chain Management að skila endurgjöf um stöðu skilaboðanna. Hér eru nokkur dæmi um tilvik þar sem þessi hegðun gæti átt við:
 
-- Það er enginn aðili sem ber ábyrgð á stöðugu eftirliti með MES samþættingu.
+- Það er enginn aðili sem ber ábyrgð á því að hafa stöðugt eftirlit með MES samþættingu.
 - Sá sem ber ábyrgð á eftirliti með MES samþættingu vill fá tilkynningu í tölvupósti þegar skilaboð mistekst, svo hann viti að hann þurfi að grípa til aðgerða.
 - MES verður að sýna villuboð til að tilkynna rekstraraðila verkstæðisgólfs eða einhvern úr upplýsingatæknideild að þeir verði að grípa til aðgerða.
 - MES verður að endurreikna pöntunaráætlunina eftir að hann fær bilunarskilaboð (til dæmis vegna þess að framleiðslupöntun tókst ekki að hefjast).

@@ -1,8 +1,8 @@
 ---
 title: Algengar spurningar um verkþætti árslokunar
-description: Þetta efnisatriði hefur verið sett saman til að aðstoða við verkþætti árslokalokunar.
-author: kweekley
-ms.date: 01/25/2021
+description: Þetta efnisatriði inniheldur spurningar sem geta komið upp við lokun árs, sem og svör sem kunna að koma að gagni við verkþætti lokunar í árslok.
+author: moaamer
+ms.date: 12/21/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,30 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1b7606314b9cf7050a565822b5b9e23beb0cb4978b20e88596c5002d918cfcd9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0560024d87ad72c7ab77eaff52a305a4ab5a089
+ms.sourcegitcommit: cd0ba5f0ac7c44d36559a3e6e0fffb6ed18f9a20
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725075"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947263"
 ---
 # <a name="year-end-activities-faq"></a>Algengar spurningar um verkþætti árslokunar 
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði hefur verið sett saman til að aðstoða við verkþætti árslokalokunar. Upplýsingarnar í þessu efnisatriði einblína fyrst og fremst á spurningar sem varða verkþætti árslokalokunar fyrir fjárhag og viðskiptaskuldir.
+Þetta efnisatriði inniheldur spurningar sem geta komið upp við lokun árs, sem og svör sem kunna að koma að gagni við verkþætti lokunar í árslok. Upplýsingarnar í þessu efnisatriði eru fyrst og fremst tengdar spurningum sem varða verkþætti lokunar í árslok fyrir fjárhag og viðskiptaskuldir.
+
+## <a name="general-ledger-year-end-enhancements"></a>Viðbætur fjárhags í árslok 
+Útgáfu 10.0.20 fylgdu endurbætur fyrir lokun í árslok, sem eru sjálfgefið virkar frá og með útgáfu 10.0.25. Ef fyrirtækið notar eldri útgáfu en 10.0.25 er mælt með að þessi eiginleiki sé virkjaður áður en lokun í árslok hefst. Kveikja þarf á þessum eiginleika í kerfinu til að hægt sé að nota hann. Stjórnendur geta notað vinnusvæðið „Eiginleikastjórnun“ til að skoða stöðu eiginleikans og kveikja á honum ef þess er krafist. Þar er eiginleikinn skráður á eftirfarandi hátt:
+
+ - Eining: Fjárhagur
+ - Heiti eiginleika: Endurbætur fyrir fjárhag í árslok
+
+Uppsetning sniðmáta fyrir lokun í árslok hefur verið færð á nýja uppsetningarsíðu, **Uppsetning sniðmáts árslokalokunar**. Núverandi síða lokunar í árslok mun breytast, á svipaðan hátt og endurmat á erlendum gjaldmiðli fjárhags, þar sem listi birtist í hvert skipti sem árslokalokun er keyrð eða bakfærð. Aðalbókari getur hafið lokun í árslok á nýju síðunni. 
+
+Til að bakfæra lokun í árslok skal velja nýjasta fjárhagsárið fyrir viðeigandi lögaðila og velja hnappinn **Bakfæra árslokalokun**. Bakfærslan mun eyða bókhaldsfærslum fyrir síðustu lokun í árslok og mun ekki aftur keyra lokun í árslok sjálfkrafa. 
+
+Hægt er að keyra lokun í árslok aftur með því að hefja endurræsa ferlið fyrir fjárhagsárið og lögaðilann. Ferlið heldur áfram að nota færibreytustillingu fjárhags til að skera úr um hvort endurkeyrsla árslokalokunar muni einungis taka til greina nýjar eða breyttar færslur, eða bakfæra að fullu fyrri lokun og endurkeyra ferlið fyrir allar færslur.  
 
 ## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>Fjárhagur: Hvernig veit ég að við erum að keyra árslokalokun en ekki að afturkalla árslokalokun?
 Við höfum séð fyrirtæki reyna að keyra lokun í árslok en voru í staðinn að afturkalla árslokalokun. Ef árslokalokun gengur mjög hratt fyrir sig eða hún býr ekki til opnunarstöður skal villuleita stillinguna **Afturkalla fyrri lokun** í **Lokun í árslok** (**Fjárhagur > Tímabil lokunar > Lokun í árslok > Keyra fjárhagslokun**). 
@@ -67,43 +79,72 @@ Sniðmát árslokalokunar gerir fyrirtækjum kleift að velja fjárhagsvíddarst
 
 Mælt er með að þú metir kröfur fyrirtækisins og, ef mögulegt, loka eins mörgum víddum og hægt er með valkostinum **Loka einni** fyrir árslok til að bæta afköst. Með því að loka í einu víddargildi (sem má einnig vera autt gildi) reiknar kerfið út færri atriði þegar stöður eru ákvarðaðar fyrir lykilfærslur óráðstafaðs eigin fjár.
 
-### <a name="10013-update-or-later"></a>10.0.13 uppfærsla eða nýrri
-Ef búið er að uppfæra í útgáfu 10.0.13 eða nýrri frá síðasta skipti sem fyrirtækið keyrði lokun í árslok, gæti lokunarferli ársloka tekið lengri tíma sökum [Innleiðingar HashV2-eiginleika](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog/posts/verify-hash-function-changes-after-update-to-dynamics-365-finance-2020-release-wave-2). (Hugtakið *tætigildi (hash)* vísar í svæði sem er reiknað út frá öðrum strengjasvæðum. API til að reikna út GUID-gildi tætigildis var uppfært til að auka öryggið.) Til að flýta fyrir lokunarferli ársloka er mælt með að endurbyggja stöður víddasamstæðna áður en lokun í árslok er keyrð. Ef þú hefur þegar endurbyggt stöður víddasamstæðna eftir uppfærslu í 10.0.13, er ekki nauðsynlegt að keyra aftur ferli endurbyggingar.
- 
-## <a name="general-ledger--what-does-the-period-close--year-end-close-do"></a>Fjárhagur – Hvað gerir Tímabil lokunar – Lokun í árslok?
+## <a name="degenerate-dimensions"></a>Blindvíddir
+
+Blindvídd er lítið sem ekkert hægt að endurnýta, hvort sem er stök eða með öðrum víddum. Tvær gerðir blindvídda er til. Fyrri gerðin er vídd sem er blindvídd þegar hún stendur stök. Yfirleitt birtist slík blindvídd aðeins í einni færslu eða þá mjög fáum. Hin gerðin er vídd sem verður blindvídd í tengslum við eina eða fleiri víddir til viðbótar sem sýna sömu eiginleika, samkvæmt þeim umröðunum sem hægt er að mynda. Blindvídd getur haft veruleg áhrif á vinnslu lokunar í árslok. Til að lágmarka möguleika á mögulegum vandamálum við vinnslu skal skilgreina allar blindvíddir sem **Loka einni** í uppsetningu lokunar í árslok eins og lýst er í hlutanum hér á undan.
+
+## <a name="general-ledger-what-does-the-period-close-year-end-close-do"></a>Fjárhagur: Hvað gerir lokun tímabils, lokun í árslok?
  
 [![Tímabil lokunar, árslokalokun.](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
 
-### <a name="performance-improvements-for-rebuilding-financial-dimension-sets-new-feature"></a>Afkastaendurbætur fyrir endurbyggingu fjárhagsvíddarsamstæða (nýr eiginleiki)
-Nýjum eiginleika sem var bætt við í útgáfu 10.0.16 bætir afköst við lokun í árslok og samstæðuferli. Eiginleikinn er með heiti, Afkastaendurbætur fyrir endurbyggingu fjárhagsvíddarsamstæða Þessi eiginleiki breytir því hvernig víddasamstæður eru endurbyggðar þannig að þær verða aðeins endurbyggðar fyrir viðeigandi tímaramma. Í fyrri útgáfum voru víddasamstæður endurbyggðar fyrir allar dagsetningar. Ef þú ert til dæmis að loka árinu 2020 mun kerfið aðeins endurbyggja stöðuna fyrir færslur innan fjárhagsársins 2020. Ef verið er að keyra sameiningu fyrir tímabilið frá 1. nóvember 2020 til 30. nóvember 2020 mun kerfið aðeins endurbyggja stöðurnar fyrir það tímabil.
+### <a name="performance-improvements-for-rebuilding-financial-dimension-sets"></a>Afkastaendurbætur fyrir endurbyggingu fjárhagsvíddarsamstæða
+Nýr eiginleiki sem var bætt við í útgáfu 10.0.16 bætir afköst við lokun í árslok og samstæðuferli. Eiginleikinn er með heiti, Afkastaendurbætur fyrir endurbyggingu fjárhagsvíddarsamstæða Þessi eiginleiki breytir því hvernig víddasamstæður eru endurbyggðar þannig að þær verða aðeins endurbyggðar fyrir viðeigandi tímaramma. Í fyrri útgáfum voru víddasamstæður endurbyggðar fyrir allar dagsetningar. Ef þú ert til dæmis að loka árinu 2020 mun kerfið aðeins endurbyggja stöðuna fyrir færslur innan fjárhagsársins 2020. Ef verið er að keyra sameiningu fyrir tímabilið frá 1. nóvember 2020 til 30. nóvember 2020 mun kerfið aðeins endurbyggja stöðurnar fyrir það tímabil.
 
-Þar sem litið er á þennan eiginleika sem breytingu sem getur valdið bilun þarf að virkja hann með því að nota vinnusvæðið **Eiginleikastjórnun**.
+Kveikja þarf á þessum eiginleika í kerfinu til að hægt sé að nota hann. Stjórnendur geta notað vinnusvæðið „Eiginleikastjórnun“ til að skoða stöðu eiginleikans og kveikja á honum ef þess er krafist. Þar er eiginleikinn skráður á eftirfarandi hátt:
  
-[![Árslokalokun.](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
+- Eining: Fjárhagur
+- Heiti eiginleika: Afkastaendurbætur fyrir endurbyggingu fjárhagsvíddarsamstæða
 
-## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2020"></a>Viðskiptaskuldir: Hvaða breytingar hafa verið gerðar til að styðja 1099-árslokaskýrslugerð fyrir 2020?
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Viðskiptaskuldir: Hvaða breytingar hafa verið gerðar til að styðja 1099-árslokaskýrslugerð fyrir 2021?
 
-Tveimur nýjum eftirlitseiginleikum var bætt við fyrir 1099-árslokabreytingar á árinu 2020. Fyrri eiginleikinn, **Láta breytingar taka gildi fyrir eyðublöð 1099-NEC og 1099-MISC fyrir 2020**, var gefinn út um mitt árið sem áskilinn eiginleiki. Tilgangur hans er að tryggja að hægt sé að rekja 1099-færslugögn á árinu 2020 fyrir nýja eyðublaðið 1099-NEC. Þessi eiginleiki bætti við 1099-reitum sem þarf til að styðja við nýja 1099-NEC og uppfærði 1099-MISC-reitina. Þessi uppfærsla uppfærir einnig gögn lánardrottinsfærslu í 1099-hólfi lánardrottins. 
+DIV-, NEC- og MISC-eyðublöðunum var breytt lítillega árið 2021 og einhverjum reitum var bætt við.
 
-Seinni eftirlitseiginleikinn, **1099-uppgjör uppfærð samkvæmt skattalögum 2020**, inniheldur eftirfarandi breytingar.
+#### <a name="div-new-box2e-2f"></a>DIV: nýr reitur 2e, 2f
+ 
+- Reitur 2e. Sýnir í reit 1a þann hluta upphæðarinnar sem skal gefa upp sem ágóða í hluta 897 vegna sölu bandarískra fasteigna (USRPI).  
+- Reitur 2f. Sýnir í reit 2a þann hluta upphæðarinnar sem skal gefa upp sem ágóða í hluta 897 vegna sölu USRPI (sölu bandarískra fasteigna). Athugið að reitir 2e og 2f eiga aðeins við um erlenda einstaklinga og lögaðila sem hafa tekjur sem breytast ekki þegar þær fara í gegnum, eða er dreift til, beinna eða óbeinna erlendra eigenda eða viðtakenda. Það er almennt túlkað sem tengt viðskiptum eða rekstri innan Bandaríkjanna. Skoðaðu leiðbeiningarnar fyrir skattframtalið. 
+ 
+#### <a name="nec-new-box-2"></a>NEC: nýr reitur 2 
+ 
+Ef hakað er við reit 2 skal gefa upp neytendavörur sem kosta 5000 Bandaríkjadali eða meira og sem voru seldar viðkomandi til endursölu, í kaupsölu, með innborgun eða á öðrum grundvelli. Almennt séð skal gefa upp tekjur af sölu þessara vara á þessum vörum í skrá C (eyðublað 1040). 
+ 
+Á meðan hefur stærð eyðublaðs fyrir NEC breyst. Við prentun eru þrjú eyðublöð á síðu. 
+ 
+#### <a name="misc-new-box-11"></a>MISC: nýr reitur 11 
+ 
+Reitur 11 sýnir upphæðina sem greidd er fyrir kaup á fiski til endursölu frá öllum aðilum sem stunda viðskipti með eða rekstur tengdan fiski. Skoðaðu leiðbeiningarnar fyrir skattframtalið til að gefa upp þessar tekjur. 
+ 
+#### <a name="electronic-filing"></a>Rafræn skattskil 
+Upplýsingar um rafræn skattskil er að finna í [efni um kröfur fyrir rafræn skattskil](https://www.irs.gov/pub/irs-pdf/p1220.pdf).
 
-- 1099-OID - Skattstofan hefur breytt eyðublaðinu í samfellda notkun.
-   - Fylla verður út þriðja og fjórða tölustaf skýrslugerðarársins þegar það er prentað. Nota skal þriðja og fjórða tölustaf **Skýrslugerðarárs** í **Prentunarvalkostir 1099-skatteyðublaðs**. 
-
-- 1099-NEC – Nýtt eyðublað fyrir 2020. Þetta skráir laun sem ekki snerta starfsmenn. 
-
--   1099-MISC – Vegna þess að eyðublað 1099-NEC var búið til, hefur skattstofan endurskoðað eyðublað 1099-MISC og endurraðað reitarnúmerum til að tilkynna tilteknar tekjur.
-Breytingar á tekjuskráningu og reitarnúmerum eyðublaðs eru taldar upp hér að neðan.
-   - Greiðandi gerði beinar sölur fyrir 5000 Bandaríkjadali eða meira (gátreitur) í reit 7.
-   - Hagnaður uppskerutryggingar er tilkynntur í reit 9.
-   - Heildarandvirði til lögfræðings er tilkynnt í reit 10.
-   - Frestanir samkvæmt grein 409A eru tilkynntar í reit 12.
-   - Óviðurkenndar frestaðar tekjur eru tilkynntar í reit 14.
-   - Í reitum 15, 16 og 17 eru staðgreiðsluskattar ríkis gefnir, auðkennisnúmer ríkis og upphæð tekna í ríkinu, í þessari röð.
-
-- Engar breytingar á 1099-DIV eða 1099-INT árið 2020.
-
-- Rafræn skattskil – Sniðið hefur breyst til að koma til móts við nýja NEC-eyðublaðið og breytingar á MISC-reitum sem lýst er hér að ofan. Fyrir ákveðnar upplýsingar um kröfur rafrænna skattskila skal skoða [IRS Publication 1220](https://www.irs.gov/pub/irs-pdf/p1220.pdf).
+Uppfæra sniðlýsingar og uppsetningu skráa fyrir rafræn skýrslu árið 2021 
+- Hluti 2, „A“-færsla útgefanda. 
+- Upphæðarkóðar – hærri staða svæðis 28–45, lengt í 18. 
+ 
+#### <a name="sec-2-issuer-a-record-for-reporting-payments-on-form-1099-div"></a>Hluti 2, „A“-færsla útgefanda, fyrir skráningu greiðslna á eyðublað 1099-DIV: 
+- Gerð upphæðar – hluta 897, hefðbundnar arðgreiðslur, og upphæðarkóða H bætt við. 
+- Gerð upphæðar – hluta 897, söluhagnaður, og upphæðarkóða J bætt við. 
+ 
+#### <a name="sec-3-payee-b-record"></a>Hluti 3, „B“-færsla móttakanda greiðslu 
+- Almennar upplýsingafærslur – þriðja atriði uppfært úr 16 í 18 greiðsluupphæðasvæði. 
+- Heiti svæðis greiðslu H – staða svæðis 247–258, heiti svæðis, lengd og almenn lýsing svæðis. 
+- Heiti svæðis greiðslu J – staða svæðis 259–270, heiti svæðis, lengd og almenn lýsing svæðis. 
+- Autt svæði uppfært svæðisstöðu 271–286. 
+- Vísir fyrir erlent ríki uppfært í svæðisstöðu 287. 
+- Svæði fyrstu nafnalínu móttakanda greiðslu uppfært í svæðisstöðu 288–327. 
+- Svæði annarrar nafnalínu móttakanda greiðslu uppfært í svæðisstöðu 328–367. 
+- Færslustaðsetningar, eyðublað 1099-MISC – svæðisstöðu 548 og vísi fyrir svæðisheiti FATCA-skilakrafna eytt. 
+- Færslustaðsetningar, eyðublað 1099-NEC – 545-546 uppfærð í autt, svæði 547 uppfært í vísi fyrir beina sölu, lengd og lýsing og athugasemdir svæðis 548–722 uppfært í autt. 
+ 
+#### <a name="sec-4-end-of-issuer-c-record"></a>Hluti 4, lok „C“-færslu útgefanda 
+- Heiti svæðis greiðslu H – staða svæðis 304–321, heiti svæðis, lengd og almenn lýsing svæðis. 
+- Heiti svæðis greiðslu J – staða svæðis 322–339, heiti svæðis, lengd og almenn lýsing svæðis. 
+- Heiti svæði 340–499 – lengd uppfærð í 160. 
+ 
+#### <a name="sec-5-state-totals-k-record"></a>Hluti 5, gefa upp samtölu „K“-færslu 
+- Heiti svæðis greiðslu H – staða svæðis 304–321, heiti svæðis, lengd og almenn lýsing svæðis. 
+- Heiti svæðis greiðslu J – staða svæðis 322–339, heiti svæðis, lengd og almenn lýsing svæðis. 
+- Heiti svæði 340–499 – lengd uppfærð í 160.  
 
 ## <a name="accounts-payable-1099--how-do-i-change-the-1099-box-and-values-for-a-vendor-that-wasnt-tracking-1099-information-throughout-the-year"></a>Viðskiptaskuldir: 1099 – Hvernig breyti ég 1099-reitnum og -gildum fyrir lánardrottin sem var ekki að rekja 1099-upplýsingar yfir árið?
 Notaðu aðgerðina „Uppfæra 1099“ (**Viðskiptaskuldir > Lánardrottnar > Allir lánardrottnar > Velja lánardrottin > Lánardrottnaflipi í borða > Uppfæra 1099**) til að fara í gegnum áður greiddar reikningsfærslur til að endurúthluta 1099-gögnum á réttan hátt samkvæmt stillingunum í flipanum **1099-skatteyðublað** á síðunni **Lánardrottinn**.
@@ -111,7 +152,7 @@ Notaðu aðgerðina „Uppfæra 1099“ (**Viðskiptaskuldir > Lánardrottnar > 
 ## <a name="can-i-run-the-update-1099-for-all-my-vendors-at-once"></a>Get ég keyrt Uppfærslu 1099 fyrir alla lánardrottna mína í einu?
 Nr. Reglubundin 1099-uppfærsla er gerð fyrir einn lánardrottin í einu. Ef þörf er á þessari kröfu í fyrirtækinu skal kjósa með hugmyndinni sem ber heitið [Runuvinnsla fyrir uppfærslu 1099-gagna lánardrottins](https://experience.dynamics.com/ideas/idea/?ideaid=5493d608-350e-eb11-b5d9-0003ff68ded8).
 
-## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-vs-update-all-in-the-update-1099-utility"></a>Viðskiptaskuldir: 1099 – „Endurreikna núverandi 1099-upphæðir“ gagnvart „Uppfæra allt“ í 1099-uppfærsluforritinu.
+## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-versus-update-all-in-the-update-1099-utility"></a>Viðskiptaskuldir: 1099 – „Endurreikna núverandi 1099-upphæðir“ gagnvart „Uppfæra allt“ í 1099-uppfærsluforritinu
 Gátreiturinn **Endurreikna núverandi 1099-upphæðir** endurstillir 1099-upphæðina í samtals greidd gildi þegar hann er notaður í tengslum við gátreitinn **Uppfæra allt**. 
 
 [![Færslur 1099-skatteyðublaðs: Áður en reglubundin uppfærsla er keyrð.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)

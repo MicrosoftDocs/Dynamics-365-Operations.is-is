@@ -2,19 +2,19 @@
 title: Lýsing á þjónustu fyrir Finance and Operations-forrit
 description: Þetta efnisatriði inniheldur þjónustulýsingu fyrir Finance and Operations-forrit.
 author: tomhig
-ms.date: 12/07/2021
+ms.date: 01/05/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: f7ce73018fda79156cc7ef3d4e1faa3fedf966f8
-ms.sourcegitcommit: b101c21f972fdad2667431f712222e040cd69d43
+ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "7898390"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952367"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Lýsing á þjónustu fyrir Finance and Operations-forrit
 
@@ -117,7 +117,7 @@ Finance and Operations forrit eru veitt frá nokkrum Azure svæðum um allan hei
 ### <a name="countryregion-specific-considerations"></a>Atriði sem varða tiltekið land/svæði
 
 - Viðskiptavinir í eftirlitsskyldum iðnaði eða viðskiptafélögum sem eiga viðskipti við aðila í Frakklandi sem gera kröfu um búsetu á staðnum ættu að fara yfir gögn [Finance and Operations í Frakklandi](../../dev-itpro/deployment/france-local-deployment.md).
-- Viðskiptavinir með starfsemi í Kína ættu að yfirfara [Finance and Operations sem er rekið af 21Vianet í Kína](../../dev-itpro/deployment/china-local-deployment.md).
+- Viðskiptavinir sem eru með starfsemi í Kína ættu að skoða [Azure China Playbook](/azure/china/) og [Finance and Operations rekið af 21Vianet í Kína](../../dev-itpro/deployment/china-local-deployment.md).
 - Viðskiptavinir sem eru með starfsemi í Rússlandi ættu að fara yfir [rússnesk lög um staðfærslu persónuupplýsinga](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Almenna persónuverndarreglugerðin (GDPR)
@@ -356,6 +356,7 @@ Microsoft ábyrgist notkunartíma þjónustu upp á 99,9 prósent á mánuði. E
 - **[Leyfishandbók](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)** – Notaðu þessa handbók til að fá frekari upplýsingar um leyfi fyrir Dynamics 365.
 - **[Þjónustuver](https://dynamics.microsoft.com/support/)** – Fáðu stuðning besta mögulega stuðning fyrir Dynamics 365 forritin þín.
 - **[Dynamics Lifecycle Services](https://lcs.dynamics.com/)** – Stjórna líftíma forrits og velja fyrirsjáanlegar, endurteknar hágæða innleiðingar.
+- **[Dynamics 365 Innleiðingarhandbók](https://aka.ms/D365ImplementationGuideFlip)** - Dynamics 365 Implementation Guide skjölin tímaprófuð Success by Design meginreglur og veitir fyrirskipandi leiðbeiningar til að smíða, smíða, prófa og innleiða Dynamics 365 lausnir.
 
 ## <a name="definitions"></a>Skilgreiningar
 
@@ -428,6 +429,10 @@ Allar grunnþjónustur sem eru innifaldar í Finance and Operations-forritum.
 ### <a name="service-update"></a>Þjónustuuppfærsla
 
 Microsoft þjónustar Finance and Operations umhverfi í gegnum þjónustuuppfærslur. Viðskiptavinir setja upp eigið þjónustuuppfærsludagatal eftir þörfum fyrirtækisins. Nánari upplýsingar má finna í [Uppfærsluþjónusta One Version](../../dev-itpro/lifecycle-services/oneversion-overview.md).
+
+### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
+
+Ramminn sem stýrir innleiðingu kerfisbundið í gegnum röð mats á mikilvægum stigum til að tryggja hámarks arkitektúr, öryggi, frammistöðu og notendaupplifun fyrir Dynamics 365 lausn.
 
 ### <a name="user"></a>Notandi
 

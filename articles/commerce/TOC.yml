@@ -2478,8 +2478,6 @@
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Setja upp Azure-lyklageymslu fyrir örugga lyklastjórnun
                       href: e-commerce-extensibility/set-up-key-vault.md
-                    - name: Stofna beiðni um viðbót fyrir sölukeðju
-                      href: e-commerce-extensibility/request-pipeline-hook.md
                     - name: Myndþáttur
                       href: e-commerce-extensibility/image-component.md
                 - name: Þróa gagnaaðgerðir

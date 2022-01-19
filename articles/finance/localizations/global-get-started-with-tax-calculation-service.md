@@ -2,7 +2,7 @@
 title: Hafist handa með skattaútreikning
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp skattaútreikning.
 author: wangchen
-ms.date: 10/15/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,31 +15,74 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647435"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952522"
 ---
 # <a name="get-started-with-tax-calculation"></a>Hafist handa með skattaútreikning
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um hvernig hafist er handa við skattaútreikning. Það leiðir þig í gegnum grunnstillingarskrefin í Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS) Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Það fer síðan yfir almennu leiðina til að nota möguleika skattaútreiknings í færslum Finance og Supply Chain Management.
+Þetta efnisatriði veitir upplýsingar um hvernig hafist er handa við skattaútreikning. Hlutarnir í þessu efni leiða þig í gegnum hönnunar- og uppsetningarþrepin á háu stigi í Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS),Dynamics 365 Finance, og Dynamics 365 Supply Chain Management. 
 
-Þessi uppsetning samanstendur af fjórum meginskrefum:
+Uppsetningin samanstendur af þremur meginskrefum.
 
 1. Í LCS skal setja upp innbót skattaútreiknings.
 2. Í RCS skal setja upp eiginleika skattaútreiknings. Þessi uppsetning á ekki við um neinn sérstakan lögaðila. Hægt er að nota hana í öllum lögaðilum í Finance og Supply Chain Management.
 3. Í Finance og Supply Chain Management skal setja upp færibreytur skattaútreiknings eftir lögaðila.
-4. Í Finance og Supply Chain Management skal stofna færslur á borð við sölupantanir og nota skattaútreikning til að ákvarða og reikna skatta.
+
+## <a name="high-level-design"></a>Hönnun á háu stigi
+
+### <a name="runtime-design"></a>Runtime hönnun
+
+Eftirfarandi mynd sýnir háþróaða keyrslutímahönnun skattaútreiknings. Vegna þess að hægt er að samþætta Skattaútreikning með mörgum Dynamics 365 forritum, notar myndin samþættinguna við Finance sem dæmi.
+
+1. Færsla, eins og sölupöntun eða innkaupapöntun, er stofnuð í Finance.
+2. Fjármál notar sjálfkrafa sjálfgefið gildi virðisaukaskattsflokks og vöruskattsflokks.
+3. Þegar **Söluskattur** hnappur er valinn á færslunni er skattútreikningur ræstur. Fjármál senda síðan farminn til Skattreikningsþjónustunnar.
+4. Skattútreikningsþjónustan passar farminn við fyrirfram skilgreindar reglur í skatteiginleikanum til að finna nákvæmari vsk-flokk og vörusöluskattsflokk samtímis.
+
+    - Ef hægt er að passa farminn við **Gildistími skattahóps** fylki, hnekkir það gildi virðisaukaskattshóps með samsvarandi gildi skattahóps í gildisreglunni. Annars heldur það áfram að nota virðisaukaskattshópinn frá Finance.
+    - Ef hægt er að passa farminn við **Gildistími vöruskattshóps** fylki, hnekkir það vöruvirðisaukaskattsflokksvirði með samsvarandi vöruskattflokksgildi í gildisreglunni. Annars heldur það áfram að nota vöruskattflokksvirði frá Finance.
+
+5. Skattútreikningsþjónustan ákvarðar endanlega skattkóða með því að nota skurðpunkta vsk-flokks og vöruvsk-flokks.
+6. Skattútreikningsþjónustan reiknar skatt út frá endanlegum skattkóðum sem hún ákvað.
+7. Skattútreikningsþjónustan skilar niðurstöðu skattútreiknings til Fjármálaeftirlitsins.
+
+![Hönnun skattaútreiknings.](media/tax-calculation-runtime-logic.png)
+
+### <a name="high-level-configuration"></a>Uppsetning á háu stigi
+
+Eftirfarandi skref veita yfirlit á háu stigi yfir stillingarferlið fyrir skattútreikningsþjónustuna.
+
+1. Í LCS skaltu setja upp **Skattútreikningur** viðbót í LCS verkefninu þínu.
+2. Í RCS, búðu til **Skattútreikningur** eiginleiki.
+3. Í RCS skaltu setja upp **Skattútreikningur** eiginleiki:
+
+    1. Veldu útgáfu skattastillingar.
+    2. Búðu til skattakóða.
+    3. Búðu til skattahóp.
+    4. Stofna vöruskattflokk.
+    5. Valfrjálst: Stofna nothæfi skattaflokks ef þú vilt hnekkja sjálfgefnum söluskattsflokki sem færður er inn úr aðalgögnum viðskiptavinar eða lánardrottins.
+    6. Valfrjálst: Stofna nothæfni vöruflokks ef þú vilt hnekkja sjálfgefnum vörusöluskattsflokki sem færður er inn úr stofngögnum vöru.
+
+4. Í RCS, fylltu út og birtu **Skattútreikningur** eiginleiki.
+5. Í Finance, veldu útgefið **Skattútreikningur** eiginleiki.
+
+Eftir að þú hefur lokið þessum skrefum eru eftirfarandi uppsetningar sjálfkrafa samstilltar frá RCS við Finance.
+
+- VSK-kóðar
+- VSK-flokkar
+- VSK-flokkar vöru
+
+Hlutarnir sem eftir eru í þessu efni veita ítarlegri stillingarskref.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en hægt er að klára ferlin í þessu efnisatriði þurfa eftirfarandi skilyrði að vera til staðar fyrir hverja gerð umhverfis.
-
-Uppfylla þarf eftirfarandi skilyrði:
+Áður en þú getur klárað þær aðferðir sem eftir eru í þessu efni verða eftirfarandi forsendur að vera uppfylltar:<!--TO HERE-->
 
 - Þú verður að hafa aðgang að LCS-reikningnum þínum og þú verður að hafa virkjað LCS-verk með umhverfi í lagi 2 (eða ofar) sem keyrir Dynamics 365 útgáfu 10.0.21 eða nýrri.
 - Þú verður að búa til RCS umhverfi fyrir fyrirtækið og þú verður að hafa aðgang að reikningnum þínum. Nánari upplýsingar um hvernig á að stofna RCS-umhverfi er að finna í [Yfirlit Regulatory configuration service](rcs-overview.md).
@@ -72,15 +115,7 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
 5. Í reitnum **Gerð** skal velja **Altæk**.
 6. Veljið **Opna**.
 7. Opnið **Gagnalíkan skatts**, stækkið skráartréð, og veljið síðan **Skattaskilgreining**.
-8. Veldu rétta útgáfu skattaskilgreiningar samkvæmt útgáfu þinni af Finance og veldu svo **Flytja inn**.
-
-    | Losunarútgáfa | Skattafbrigði                       |
-    | --------------- | --------------------------------------- |
-    | 10.0.18         | Skattstillingar - Evrópa 30.12.82     |
-    | 10.0.19         | Skattaútreikningsstilling 36.38.193 |
-    | 10.0.20         | Skattaútreikningsstilling 40.43.208 |
-    | 10.0.21         | Skattaútreikningsstilling 40.48.215 |
-
+8. Veldu rétta [skattstillingarútgáfa](global-tax-calcuation-service-overview.md#versions), byggt á fjármálaútgáfu þinni og veldu síðan **Flytja inn**.
 9. Á vinnusvæðinu **Altækir eiginleikar** skal velja **Eiginleikar**, velja reitinn **Skattaútreikningur** og veljið því næst **Bæta við**.
 10. Velja eina af eftirfarandi gerðum eiginleika:
 
@@ -209,42 +244,3 @@ Lögaðili sér um uppsetningu í þessum hluta. Þú verður að skilgreina han
 
 5. Í flipanum **Margar VSK-skráningar** er hægt að kveikja á Vsk-skýrslu, ESB-sölulista og Intrastat aðskilið til að vinna við margar aðstæður VSK-skráningar. Frekari upplýsingar um skattskýrslugerð fyrir margar VSK-skráningar er að finna í [Skýrslugerð fyrir margar VSK-skráningar](emea-reporting-for-multiple-vat-registrations.md).
 6. Vistaðu uppsetninguna og endurtaktu fyrri skref fyrir hvern lögaðila sem bætist við. Þegar ný útgáfa er gefin út og þú vilt að hún verði notuð sklatu stilla reitinn **Uppsetning eiginleika** í flipanum **Almennt** á síðunni **Færibreytur skattaútreiknings** (sjá skref 2).
-
-## <a name="transaction-processing"></a>Úrvinnsla á færslu
-
-Þegar öllum uppsetningarferlum er lokið er hægt að nota skattaútreikning til að ákveða og reikna út skatt í Finance. Skrefin til að vinna úr færslum eru þau sömu. Eftirfarandi færslur eru studdar í Finance útgáfu 10.0.21:
-
-- Söluferli
-
-    - Sölutilboð
-    - Sölupöntun
-    - Staðfesting
-    - Tiltektarlisti
-    - Fylgiseðill
-    - Sölureikningur
-    - Kreditnóta
-    - Skila pöntun
-    - Gjald hauss
-    - Línugjald
-
-- Innkaupaferli
-
-    - Innkaupapöntun
-    - Staðfesting
-    - Komulisti
-    - Innhreyfingarskjal afurða
-    - Innkaupareikningur
-    - Gjald hauss
-    - Línugjald
-    - Kreditnóta
-    - Skila pöntun
-    - Innkaupabeiðni
-    - Gjald innkaupabeiðnilínu
-    - Beiðni um tilboð
-    - Síðuhaus gjald við beiðnum um tilboð
-    - Lína gjald í beiðni um tilboð
-
-- Birgðavinnsla
-
-    - Flutningspantanir - senda
-    - Móttaka flutningspöntunar
