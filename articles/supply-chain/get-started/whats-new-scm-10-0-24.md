@@ -1,5 +1,5 @@
 ---
-title: Forskoðun Dynamics 365 Supply Chain Management 10.0.24 (febrúar 2022)
+title: Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.24. (febrúar 2022)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Supply Chain Management 10.0.24.
 author: kamaybac
 ms.date: 12/03/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f6402d7f9f433ca621c475bd62553529943dbe62
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: d7dd3bbb0d1aa701757ad7fa525aba04fe9419c9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920549"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986304"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10024-february-2022"></a>Forskoðun Dynamics 365 Supply Chain Management 10.0.24 (febrúar 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.24. (febrúar 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management forútgáfu af útgáfu 10.0.24. Þessi útgáfa er með byggingarnúmer 10.0.1084 og er fáanlegt á eftirfarandi hátt:
+Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfu 10.0.24. Þessi útgáfa er með byggingarnúmer 10.0.1084 og er fáanlegt á eftirfarandi hátt:
 
 - **Forskoðun á útgáfu:** desember 2021
 - **Almennt framboð losunar (sjálfvirk uppfærsla):** Janúar 2022
@@ -46,8 +45,8 @@ Ef þú vilt kveikja eða slökkva á einhverjum af þessum eiginleikum verður 
 | Kerfiseining | Eiginleikaheiti í eiginleikastjórnun | Meiri upplýsingar |
 |---|---|---|
 | Framleiðslustýring | Athugun á efnisframboði eftirspurnar fyrir framleiðslupantanir | Þessi eiginleiki gerir það hraðari að opna **Framleiðslupantanir til að gefa út** síðu, sem er aðgengileg frá **Stjórnun framleiðslugólfs** vinnurými. Án þessa eiginleika athugar kerfið sjálfkrafa hvort efni sé tiltækt fyrir allar skráðar framleiðslupantanir um leið og þú opnar síðuna, sem getur tekið töluverðan tíma ef þú ert með mikinn fjölda pantana. Þegar þessi eiginleiki er virkur býður kerfið í staðinn upp tækjastikuhnapp, sem þú getur notað til að hefja efnisskoðun aðeins fyrir valdar pantanir og þegar þörf krefur. |
-| Framleiðslustýring | (Forútgáfa) Skrá efnisnotkun í keyrsluviðmóti framleiðslugólfs (ekki vöruhúsakerfi) | Þessi eiginleiki gerir starfsmönnum kleift að nota framkvæmdarviðmót framleiðslugólfs til að skrá efnisnotkun, lotunúmer og raðnúmer. Þessi eiginleiki styður aðeins hluti sem eru ekki virkjaðir til að nota háþróaða vöruhúsaferla (WMS). Stuðningur við WMS-virka hluti er áætlaður í framtíðarútgáfu.<p>Sumir framleiðendur, sérstaklega þeir sem eru innan vinnsluiðnaðarins, þurfa að skrá sérstaklega magn efnis sem neytt er fyrir hverja lotu eða framleiðslupöntun. Til dæmis gætu starfsmenn notað vog til að vega magn efnis sem neytt er á meðan þeir vinna. Til að tryggja fullan rekjanleika efnis þurfa þessar stofnanir einnig að skrá hvaða lotunúmer voru notuð við framleiðslu hverrar vöru. |
-| Framleiðslustýring | Tilkynntu sem lokið um vinnuálag vöruhúsastjórnunar fyrir skýja- og brúnkvarðaeininguna | Þessi eiginleiki gerir starfsmönnum kleift að nota Vöruhússtjórnun farsímaforritið til að tilkynna framleiðslu- eða lotupöntun eins og hún er lokið þegar appið er í gangi gegn vöruhúsastjórnunarvinnuálagi á skýja- eða brúnkvarðaeiningu. Fyrir frekari upplýsingar, sjá [Tilkynntu sem lokið og settu í burtu á mælikvarðaeiningu](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
+| Framleiðslustýring | (Forútgáfa) Skrá efnisnotkun í keyrsluviðmóti framleiðslugólfs (ekki vöruhúsakerfi) | Þessi eiginleiki gerir starfsmönnum kleift að nota framkvæmdarviðmót framleiðslugólfs til að skrá efnisnotkun, lotunúmer og raðnúmer. Þessi eiginleiki styður aðeins hluti sem eru ekki virkjaðir til að nota háþróaða vöruhúsaferla (WMS). Stuðningur við WMS-virkja hluti er áætlaður í framtíðarútgáfu.<p>Sumir framleiðendur, sérstaklega þeir sem eru innan vinnsluiðnaðarins, þurfa að skrá sérstaklega magn efnis sem neytt er fyrir hverja lotu eða framleiðslupöntun. Til dæmis gætu starfsmenn notað vog til að vega magn efnis sem neytt er á meðan þeir vinna. Til að tryggja fullan rekjanleika efnis þurfa þessar stofnanir einnig að skrá hvaða lotunúmer voru notuð við framleiðslu hverrar vöru. |
+| Framleiðslustýring | Skrá sem tilbúið vinnuálag vöruhúsakerfis fyrir skýið og jaðareiningarkvarða | Þessi eiginleiki gerir starfsmönnum kleift að nota Vöruhússtjórnun farsímaforritið til að tilkynna framleiðslu- eða lotupöntun eins og hún er lokið þegar appið er í gangi gegn vöruhúsastjórnunarvinnuálagi á skýja- eða brúnkvarðaeiningu. Fyrir frekari upplýsingar, sjá [Tilkynntu sem lokið og settu í burtu á mælikvarðaeiningu](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
 | Framleiðslustýring | Hefja framleiðslupöntun á vinnuálagi vöruhúsastjórnunar fyrir skýja- og jaðarkvarðaeininguna | Þessi eiginleiki gerir starfsmönnum kleift að nota Vöruhússtjórnun farsímaforritið til að hefja framleiðslu eða lotupöntun þegar appið er í gangi gegn vöruhúsastjórnunarvinnuálagi á skýja- eða jaðarkvarðaeiningu. |
 | Vöruhúsakerfi | Nýjar síður á vinnubekknum áætlanagerð | Virkjar tvær nýjar vinnubekkssíður fyrir áætlanagerð: **Vinnubekkur fyrir skipulagningu álags á innleið** og **Áætlunarbekkur á útleið**. |
 
@@ -69,9 +68,9 @@ Nýlega hefur eftirfarandi hjálparatriðum verið bætt við eða þau uppfær�
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir forrit Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir Finance and Operations öpp
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.24 inniheldur verkvangsuppfærslur. Frekari upplýsingar má finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.24 í Finance and Operations-forritum (nóvember 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.24 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Palluppfærslur fyrir útgáfu 10.0.24 af Finance and Operations forritum (nóvember 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 

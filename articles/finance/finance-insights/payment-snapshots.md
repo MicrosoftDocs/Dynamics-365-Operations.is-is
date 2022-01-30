@@ -3,7 +3,7 @@ title: Yfirlit yfir skyndimyndir
 description: Þetta efnisatriði lýsir skyndimyndeiginleikanum sem gerir notanda kleift að vista sjóðsstreymisspá fyrir greiningu eða samanburð við rauntölur síðar. Þegar búið er að mynda sjóðsstreymisspá er hægt að vista þá spá sem „skyndimynd“. Síðan er hægt að nota skjámyndirnar til að breyta lyklunum sem voru teknir með í spánni eða bera spá í skyndimynd saman við rauntölur.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a91300ac17b36d890840e6c0c3104fad5fce68f0
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: f9b6d44b7381817a40b86c17ee4eaf3dbfc46b67
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752758"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983518"
 ---
 # <a name="snapshots-overview"></a>Yfirlit yfir skyndimyndir
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Skyndimyndir leyfa fyrirtækjum að breyta og vista upplýsingar um reiðufjárstöðu sína og reiðufjárspár á tilteknum tímapunkti. Hægt er að bera skyndimynd saman við raunverulegar fjárhagstölur, skoða frávik og nota upplýsingarnar til að bæta sjóðsstreymisspá þegar fram í sækir. Hægt er að nota skyndimyndir á eftirfarandi vegu:
 

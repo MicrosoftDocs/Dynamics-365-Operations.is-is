@@ -1,14 +1,14 @@
-- name: Þróun og stjórnun fyrir Finance and Operations forrit
+- name: Þróun og stjórnun fyrir fjármála-og rekstrarforrit
   items:
-    - name: Þróun og stjórnun fyrir Finance and Operations forrit
+    - name: Þróun og stjórnun fyrir fjármála- og rekstrarforrit
       items:
-        - name: Finance and Operations fylgiskjöl hugbúnaðar
+        - name: Fylgiskjöl fyrir forritið Finance and Operations
           href: ../fin-ops/index.md
-        - name: Þróun og stjórnun fyrir Finance and Operations forrit
+        - name: Þróun og stjórnun fyrir fjármála- og rekstrarforrit
           href: index.md
         - name: Nýjungar eða breytingar
           items:
-            - name: Nýjungar eða breytingar í Finance and Operations-forritum
+            - name: Nýjungar eða breytingar í fjármála-og rekstrarforritum
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nýjungar eða breytingar í uppfærslum á verkvangi
               items:
@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-24.md
                 - name: Verkvangsuppfærslur fyrir útgáfu 10.0.23 (janúar 2022)
                   href: get-started/whats-new-platform-updates-10-0-23.md
-                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.22 (nóvember 2021)
-                  href: get-started/whats-new-platform-updates-10-0-22.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -48,7 +46,7 @@
               href: dev-tools/version-models-build.md
         - name: Samþætting gagna
           items:
-            - name: Samþætting milli Finance and Operations forrita og þjónustu þriðju aðila
+            - name: Samþætting milli fjármála- og rekstrarforrita og þjónustu þriðju aðila
               href: data-entities/integration-overview.md
             - name: Takmörkun byggð á forgangi
               hreF: data-entities/priority-based-throttling.md
@@ -72,7 +70,7 @@
                   href: data-entities/recurring-integrations.md
                 - name: Prófa þjónustu með hjálparforriti þriðju aðila
                   href: data-entities/third-party-service-test.md
-            - name: Finance and Operations Tengill
+            - name: Tengill Finance and Operations
               href: data-entities/fin-ops-connector.md
             - name: Þróun fyrir samþættingu
               items:
@@ -102,7 +100,7 @@
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
                         - name: Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Finance and Operations
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                        - name: Samstilla hausa og línur sölutilboðs beint úr Sales í Finance and Operations
+                        - name: Samstilla hausa og línur sölutilboðs beint úr Sales við Finance and Operations
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
                         - name: Samstilling sölupantana beint milli Sales og Finance and Operations
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
@@ -124,9 +122,9 @@
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
                         - name: Samstilla afurðir með birgðaeiningu úr Finance and Operations við Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                        - name: Samstilla verklista úr Finance and Operations í Field Service
+                        - name: Samstilla verklista úr Finance and Operations við Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                        - name: Samstilla vöruhús úr Finance and Operations í Field Service
+                        - name: Samstilla vöruhús úr Finance and Operations við Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
                         - name: Samstilla vinnupantanir við verk úr Field Service í Finance and Operations
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
@@ -190,7 +188,7 @@
                   href: data-entities/data-synchronize-date-and-time.md
                 - name: Innflutningur fylgiskjala með almennri færslubókareiningu
                   href: data-entities/tips-tricks-import-general-journal-entity.md
-                - name: Fínstilla gagnaflutning fyrir Finance and Operations forrit
+                - name: Fínstilla gagnaflutning fyrir fjármála- og rekstrarforrit
                   href: sysadmin/optimize-data-migration.md
             - name: Þróun fyrir gagnaeiningar
               items:
@@ -236,7 +234,7 @@
               href: data-entities/Azure-Data-Lake-GA-version-overview.md
             - name: Setja upp innbótina „Flytja út í Azure Data Lake“
               href: data-entities/configure-export-data-lake.md
-            - name: Finance and Operations-forrit í Azure Data Lake
+            - name: Fjármála- og rekstrarforrit í Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: Gera einingaverslun tiltæka sem Data Lake
               href: data-entities/entity-store-data-lake.md
@@ -336,7 +334,7 @@
                   href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute og Finance and Operations
                   href: deployment/expressroute.md
-                - name: Finance and Operations skipulag
+                - name: Skipulag Finance and Operations
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Nota uppfærslur á skýjaumhverfi
                   href: deployment/apply-deployable-package-system.md
@@ -360,7 +358,7 @@
                       href: deployment/on-premises-overview.md
                     - name: Áætlun og undirbúningur fyrir uppsetningu á staðnum
                       href: deployment/plan-onprem-deployment.md
-                    - name: Hugbúnaður sem styður við Microsoft Dynamics 365 Finance + Operations (on-premises)
+                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) studdur hugbúnaður
                       href: deployment/onprem-compatibility.md
                     - name: Kröfur um vélbúnaðarþörf
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
@@ -406,7 +404,7 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Nota sama AD FS tilvik aftur fyrir mörg umhverfi
                       href: deployment/onprem-reuseadfs.md
-                    - name: Uppfæra tilvik SQL Server í Microsoft Dynamics 365 Finance + Operations (on-premises)
+                    - name: Uppfæra SQL Server-tilvik í Microsoft í Microsoft Dynamics 365 Finance + Operations (on-premises) umhverfi
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Umboðsmaður á staðnum
                   items:
@@ -468,7 +466,7 @@
                   href: deployment/us-gcc-deployment.md
                 - name: Finance og Supply Chain Management rekið af 21Vianet í Kína
                   href: deployment/china-local-deployment.md
-                - name: Finance and Operations-forrit í Frakklandi
+                - name: Fjármála- og rekstrarforrit í Frakklandi
                   href: deployment/france-local-deployment.md
         - name: Þróa og sérstilla
           items:
@@ -560,7 +558,7 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: Líkön og pakkar
                   href: dev-tools/models.md
-                - name: Finance and Operations verkgerð
+                - name: Gerð verks í Finance and Operations
                   href: dev-tools/projects.md
                 - name: Verkfærainnbætur fyrir Visual Studio
                   href: dev-tools/developer-tools-add-ins.md
@@ -1044,9 +1042,9 @@
                       href: data-entities/dual-write/sync-limits.md
                     - name: Uppsetning tvöfaldra skrifa úr Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
-                    - name: Kveikja á tvöföldum skrifum fyrir fyrirliggjandi Finance and Operations-forrit
+                    - name: Kveikja á tvöfaldri skráningu fyrir fyrirliggjandi fjármála- og rekstrarforrit
                       items:
-                        - name: Kveikja á tvöföldum skrifum fyrir fyrirliggjandi Finance and Operations-forrit
+                        - name: Kveikja á tvöfaldri skráningu fyrir fyrirliggjandi fjármála- og rekstrarforrit
                           href: data-entities/dual-write/enable-dual-write.md
                         - name: Kerfiskröfur og forsendur
                           href: data-entities/dual-write/requirements-and-prerequisites.md
@@ -1054,6 +1052,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Kveikja á vörpun eininga fyrir tvöföld skrif
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Sérstakur pakki fyrir tvöfalda skráningu forrita
+                      href: data-entities/dual-write/separated-solutions.md
                     - name: Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif
                       href: data-entities/dual-write/currrency-decimal-places.md
                     - name: Setja upp vörpun fyrir stöðureit sölupöntunar
@@ -1156,15 +1156,15 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
                         - name: Leysa úr vandamálum við samstillingu í beinni
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                        - name: Úrræðaleit vegna vandamála tvöfaldrar skráningar í Finance and Operations forritum
+                        - name: Úrræðaleit fyrir vandamál vegna tvöfaldrar skráningar í fjármála- og rekstrarforritum
                           href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Úrræðaleit fyrir einstaklings- og altæka aðsetursbók
                           href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: Leysa úr vandamálum tengdum lausnavitund
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                        - name: Úrræðaleit vandamála vegna uppfærslna Finance and Operations forrita
+                        - name: Úrræðaleit vandamála vegna uppfærslna fjármála- og rekstrarforrita
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Staðfesta stillingu tvöfaldrar skráningar í Finance and Operations forritum og Dataverse
+                        - name: Staðfesta stillingu tvöfaldrar skráningar í fjármála- og rekstrarforritum og Dataverse
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                         - name: Villukóðar fyrir ástandsskoðun töflukorts
                           href: data-entities/dual-write/table-map-health-check.md
@@ -1182,7 +1182,7 @@
                   href: power-platform/admin-reference.md
                 - name: Kveikja á sýndareiningum Dataverse
                   href: power-platform/enable-virtual-entities.md
-                - name: Power Apps gáttir með Finance and Operations
+                - name: Power Apps-gáttir með Finance and Operations
                   href: power-platform/power-portal-reference.md
                 - name: Algengar spurningar um sýndareiningar Finance and Operations
                   href: power-platform/faq.md
@@ -1526,15 +1526,15 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Stuðningur
           items:
-            - name: Fá aðstoð fyrir Finance and Operations og Lifecycle Services
+            - name: Fá stuðning fyrir Finance and Operations og Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: Yfirlit yfir þjónustu við Dynamics 365
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: Fá aðstoð fyrir Finance and Operations sem er rekið af 21Vianet í Kína
+            - name: Fá stuðning fyrir Finance and Operations sem er rekið af 21Vianet í Kína
               href: lifecycle-services/21vianet-support.md
-            - name: Setja upp tæknilegan stuðning fyrir Finance and Operations-forrit
+            - name: Setja upp tæknilegan stuðning fyrir fjármála- og rekstrarforrit
               href: lifecycle-services/support-experience.md
-            - name: Stjórna upplifun stuðnings fyrir Finance and Operations-forrit
+            - name: Stjórna notendaþjónustu fyrir fjármála- og rekstrarforrit
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: Framleiðslustuðningur og eftirlit
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
@@ -1562,7 +1562,7 @@
                   href: sysadmin/role-based-security.md
                 - name: Öryggisskipulag
                   href: sysadmin/security-architecture.md
-                - name: Dulritun í Finance and Operations-forritum
+                - name: Dulritun í fjármála- og rekstrarforritum
                   href: sysadmin/encryption.md
                 - name: Stilla hvenær lotutími rennur út vegna aðgerðaleysis
                   href: sysadmin/session-idle-timeout.md
@@ -1648,7 +1648,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: Uppfæra úr AX 2012
               items:
-                - name: Uppfæra úr AX 2012 í Finance and Operations
+                - name: Uppfærsla úr AX 2012 í Finance and Operations
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: AX 2012 uppfærsla - Nota uppfærslugreiningarverkfæri til áætlunar
                   href: migration-upgrade/upgrade-analyzer-tool.md

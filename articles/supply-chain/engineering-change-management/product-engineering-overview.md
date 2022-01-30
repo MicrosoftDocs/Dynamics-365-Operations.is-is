@@ -2,23 +2,22 @@
 title: Yfirlit yfir verkfræðibreytingastjórnun (inniheldur myndband)
 description: Í þessu efnisatriði er að finna yfirlit yfir umsjón hönnunarbreytinga, sem hjálpar til við að skipuleggja og vinna með afurðarútgáfum, og stjórna lífferlum og hönnunarbreytingum.
 author: t-benebo
-ms.date: 08/26/2021
-ms.topic: article
+ms.date: 01/11/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d667aef827addcf7c34075b08afffffe3fd71935
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: HT
+ms.openlocfilehash: 8c200796d587d77c0f4d2344524a890ba964ab39
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952599"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985213"
 ---
 # <a name="engineering-change-management-overview"></a>Yfirlit yfir umsjón hönnunarbreytinga
 
@@ -39,9 +38,9 @@ Umsjón hönnunarbreytinga sem hjálpar til við að skipuleggja og vinna með a
 - Breytingarbeiðnir hönnunar sem eru studdar af verkflæði
 - Breytingarpantanir hönnunar sem eru studdar af verkflæði
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4HE6B]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-Fyrra myndskeið ([Eiginleikar breytingastjórnunar í Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) er tekin með í [Finance and Operations spilunarlista](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er í boði á YouTube.
+Fyrra myndbandið ([Breyta stjórnunargetu í Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) er innifalið í [Spilunarlisti fyrir fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) í boði á YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Kveikja á eiginleikum fyrir umsjón hönnunarbreytinga fyrir kerfið
 
@@ -71,7 +70,9 @@ Næst skal kveikja á skilgreiningarlyklunum með því að fylgja þessum skref
 
 1. Ef einnig á að nota vídd útgáfunnar skal velja gátreitinn **Afurðarvídd - Útgáfa**. (Þessi gátreitur er neðar á listanum, ekki faldaður undir hnútnum **Stjórnun hönnunarbreytinga**.)
 1. Slökkvið á viðhaldsstillingu eins og lýst er í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Keyrðu gagnagrunnssamstillingu til að tryggja að stillingarlyklarnir séu rétt virkir.
+1. Gagnagrunnurinn verður að vera samstilltur til að tryggja að stillingarlyklarnir séu rétt virkir. Gerðu eitt af eftirfarandi skrefum, eftir því hvers konar umhverfi þú ert að vinna við:
+    - **Fyrir Tier 1 (þróunar) umhverfi** : Opnaðu verkefnið þitt í Microsoft Visual Studio og veldu síðan **Dynamics 365 \> Samstilla gagnagrunn \> Samstilla**.
+    - **Fyrir Tier 2 (og hærra) umhverfi** : Gagnagrunnurinn samstillist sjálfkrafa eftir að þú setur umhverfið í og úr viðhaldsham, svo þú getur sleppt þessu skrefi.
 
 > [!IMPORTANT]
 > Frá og með apríl 2022 verða leyfislyklarnir fyrir bæði **Stjórnun hönnunarbreytinga** og **Afurðarvídd - Útgáfa** virkjaðir að sjálfgefnu fyrir allar nýja uppsetningar, en þú munt enn geta slökkt á þeim ef á þarf að halda.

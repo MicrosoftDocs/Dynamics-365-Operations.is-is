@@ -1,27 +1,26 @@
 ---
 title: Eiginleikastjórnunaryfirlit
-description: Þetta efnisatriði lýsir eiginleika eiginleikastjórnunar og hvernig hægt er að nota hann.
+description: Þetta efni lýsir eiginleikastjórnun og hvernig þú getur notað hana.
 author: Peakerbl
-ms.date: 09/13/2021
-ms.topic: article
+ms.date: 01/10/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: IT Pro, Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 1318093d66cfc30a04815311cce332df010d4b69
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
-ms.translationtype: HT
+ms.openlocfilehash: 6605fe68576ce80726438b60c1f1fbf3782d0934
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488179"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984460"
 ---
 # <a name="feature-management-overview"></a>Eiginleikastjórnunaryfirlit
 
@@ -75,9 +74,9 @@ Sjálfgefið er kveikt á eiginleikum sem eru uppfærðir í **Sjálfgefið kvei
 > [!NOTE]
 > Þar sem þessir eiginleikar verða sjálfkrafa virkir er mikilvægt að þú ákveðir hvort fyrirtækið þitt sé tilbúið að taka upp þessa eiginleika, eða hvort þurfti meiri tíma. Ef þörf er á lengri tíma kann að reynast nauðsynlegt að slökkva tímabundið á þessum eiginleikum. Athugaðu að flutningur á eiginleika í **Sjálfgefið kveikt** er yfirleitt gerður í stórri útgáfu áður en stefnt er að því að gera eiginleikann **Áskilinn**. Á þeim tímapunkti verður ekki hægt að slökkva á eiginleikanum. 
 
-### <a name="released-features-mandatory"></a>Útgefnir eiginleikar (áskilið)
+### <a name="mandatory"></a>Skylda
 
-**Útgefið** er endanlegt ástand fyrir eiginleika. Það gefur til kynna að kveikt sé á eiginleikunum og að þú getir ekki slökkt á þeim án þess að hafa samband við Microsoft. Ætla má að valfrjálsir eiginleikar verði áskildir eftir tvær stórar útgáfur. Mikilvægir eiginleikar geta með undantekningu verið kynntir sem áskildir.
+**Skylt** er væntanleg lokastaða fyrir eiginleika. Það gefur til kynna að kveikt sé á eiginleikunum og að þú getir ekki slökkt á þeim án þess að hafa samband við Microsoft. Ætla má að valfrjálsir eiginleikar verði áskildir eftir tvær stórar útgáfur. Mikilvægir eiginleikar geta með undantekningu verið kynntir sem áskildir.
 
 ## <a name="example-of-expected-feature-lifecycles"></a>Dæmi um væntanlegan stuðningstíma eiginleika
 

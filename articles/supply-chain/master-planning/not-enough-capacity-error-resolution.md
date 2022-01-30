@@ -1,5 +1,5 @@
 ---
-title: 'Laga villu röðunarvélar: „Nægileg afköst fundust ekki“'
+title: Lagaðu „Ekki nóg af afkastagetu fannst“ í tímasetningarvélarvillu og endanlegri getu
 description: Í þessu efnisatriði er að finna upplýsingar um ástæður og úrlausnir fyrir „Ekki var hægt að tímasetja framleiðslupöntun %1. Nægileg afköst fundust ekki“ - Villa röðunarvélar.
 author: ChristianRytt
 ms.date: 7/29/2021
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 16626a7ee74e89bd129d8435a17d16b41a5e0387
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: becd537d37a8ba8931f2598dccbae8554a4d168e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565760"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985031"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Laga villu röðunarvélar: „Nægileg afköst fundust ekki“
 
@@ -105,5 +105,11 @@ Til að fara yfir tiltæka afkastagetu í tilfangaflokknum skal fylgja þessum s
 
 1. Farðu í **Fyrirtækisstjórnun \> Tilföng \> Tilfangaflokkar** og veldu tilfangaflokk sem á við um pöntunina sem er ekki hægt að áætla.
 1. Á aðgerðasvæðinu, í flipanum **Tilfangaflokkur**, í flokknum **Yfirlit**, skal velja **Álag** eða **Álag, myndrænt** og ganga úr skugga um að tiltæk afkastageta sé fyrir hendi.
+
+## <a name="master-planning-books-a-resource-when-the-resource-calendar-is-closed"></a>Aðalskipulag bókar tilfang þegar tilfangadagatalinu er lokað
+
+Þegar aðgerðaáætlun er notuð mun aðaláætlanagerð skipuleggja afkastagetu í samræmi við dagatal aðaltilfangahópsins. Það bókar aukaaðgerðina á sama tíma og aðalaðgerðina og tekur ekki tillit til dagatala eða getu aukaaðgerðarinnar. Þetta getur leitt til þess að framleiðslupöntunin sé tímasett í lokuðu dagatali eða á þeim tíma þegar aukaaðgerðin er ekki tiltæk (dagatalið lokað, engin afkastageta).
+
+Þegar verkáætlun er notuð mun aðalskipulag taka mið af afkastagetu og dagatali bæði aðal- og aukaaðgerðarinnar við tímasetningu pöntunarinnar. Til að hægt sé að skipuleggja pöntunina verða dagatöl fyrir tilföng beggja aðgerða að vera opin og hafa tiltæka getu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

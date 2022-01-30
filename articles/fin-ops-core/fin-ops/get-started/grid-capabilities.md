@@ -13,18 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ba3640cf13fecc54f4cc58cd8996e434cd16cf60
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 37484ce022085dfac66edba31b7adf9af4095df8
+ms.sourcegitcommit: bbe8ab054ad7cc00a63c63e02dc90bfa8ede15bb
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890870"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974382"
 ---
 # <a name="grid-capabilities"></a>Eiginleikar hnitanets
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 Nýja netstýringin veitir fjölda gagnlegra og öflugra eiginleika sem hægt er að nota til að auka framleiðni notenda, smíða áhugaverðari sýn á gögnin þín og fá þroskandi innsýn í gögnin þín. Þessi grein mun fjalla um eftirfarandi getu: 
 
@@ -37,10 +35,10 @@ Nýja netstýringin veitir fjölda gagnlegra og öflugra eiginleika sem hægt er
 -  Teygjanlegir dálkar
 
 ## <a name="calculating-totals"></a>Reiknar samtölur
-Í forritum Finance and Operations geta notendur séð heildartölur neðst í töludálkum í hnitanetum. Neðanmálshluti neðst í hnitanetinu sýnir þessar samtölur. 
+Í Finance and Operations forritum hafa notendur möguleika á að sjá heildartölur neðst í tölulegum dálkum í ristum. Neðanmálshluti neðst í hnitanetinu sýnir þessar samtölur. 
 
 ### <a name="showing-the-grid-footer"></a>Sýni síðufót hnitanetsins
-Það er neðanmálssvæði neðst í hverju töflukerfi í forritum Finance and Operations. Neðanmálið getur sýnt mikilvægar upplýsingar sem tengjast gögnum sem birtast í reitunum. Hér eru nokkur dæmi um þessar upplýsingar:
+Það er fótsvæði neðst á hverju töfluneti í Finance and Operations forritum. Neðanmálið getur sýnt mikilvægar upplýsingar sem tengjast gögnum sem birtast í reitunum. Hér eru nokkur dæmi um þessar upplýsingar:
 
 - Fjöldi valdra lína í töflunni (þegar fleiri en ein skrá er valin)
 - Stórt heildartölur neðst í samstilltu töludálkunum
@@ -85,7 +83,7 @@ Til að styðja við þessa nýju hegðun hefur nýjum dálki fyrir línustöðu
 Þegar notendur eru að slá inn gögn á undan þeim stað þar sem netþjónninn er að vinna, mega þeir búist við afkastaminnkun við gagnaskráninguna, t.d. færri uppflettingar, staðfestingar eftirlitsstigs og færslna á sjálfgefnum gildum. Notendur sem þurfa fellilista til að finna gildi eru hvattir til að bíða eftir að þjónninn vinni sig að núverandi línu. Staðfesting eftirlitsstigs og færsla sjálfgefinna gilda gerast einnig netþjónninn vinnur úr þeirri línu.   
 
 ### <a name="pasting-from-excel"></a>Líma úr Excel
-Notendur hafa alltaf getað flutt gögn úr hnitanetum í Finance and Operations forritum í Microsoft Excel með því að nota aðferðina **Flytja inn í Excel**. Getan til að slá inn gögn á undan kerfinu gerir hinsvegar nýja hnitanetinu kleift að styðja afritun á töflum úr Excel og líma þær beint í hnitanet í Finance and Operations forritum. Hólfið í hnitanetinu þar sem límingaraðgerðin hefst ákvarðar hvar líming á afritaðri töflu hefst. Efni afrituðu töflunnar skrifar yfir efni hnitanetsins, fyrir utan tvö tilfelli:
+Notendur hafa alltaf getað flutt gögn úr netum í Finance and Operations öppum til Microsoft Excel með því að nota **Flytja út í Excel** vélbúnaður. Hins vegar, möguleikinn á að slá inn gögn á undan kerfinu gerir nýja töfluna kleift að styðja við að afrita töflur úr Excel og líma þær beint inn í töflur í Finance and Operations öppum. Hólfið í hnitanetinu þar sem límingaraðgerðin hefst ákvarðar hvar líming á afritaðri töflu hefst. Efni afrituðu töflunnar skrifar yfir efni hnitanetsins, fyrir utan tvö tilfelli:
 
 - Ef fjöldi dálka í afrituðu töflunni er meiri en fjöldi dálka sem eru eftir í hnitanetinu, þar sem staðsetning límingar hefst, er notandanum tilkynnt að aukadálkarnir hafi verið hunsaðir. 
 - Ef fjöldi lína í afrituðu töflunni er meiri en fjöldi lína í hnitanetinu, þar sem staðsetning límingar hefst, skrifar límda efnið yfir núverandi hólf, og allar aukalínur í afrituðu töflunni eru settar inn sem nýjar línur neðst í hnitanetinu. 
@@ -96,7 +94,7 @@ Sem framleiðniörvun geta notendur slegið inn stærðfræðiformúlur í tölu
 Til að gera kerfið að viðurkenna gildi sem tjáningu, byrjaðu gildið með jöfnu merki (**=**). Nánari upplýsingar um rekstraraðila sem studd er og setningafræði, sjá [Studd stærðfræðitákn](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Flokkun töflugagna
-Notendur fyrirtækja þurfa oft að framkvæma sértækar greiningar á gögnum. Þó að hægt sé að framkvæma þetta með því að flytja út gögn á Microsoft Excel og nota Pivot-töflur gerir **flokkun í hnitaneti** eiginleikinn, sem er háður nýjum eiginleika hnitastýringar, notendum kleift að skipuleggja töflugögn á áhugaverðan hátt innan Finance and Operations-forrita. Vegna þess að þessi eiginleiki víkkar eiginleikann **Samtölur**, gerir **Flokkun** þér kleift að fá auðskiljanlegri innsýn í gögnin með því að gefa upp millisamtölur á hópstigi.
+Notendur fyrirtækja þurfa oft að framkvæma sértækar greiningar á gögnum. Þó að þetta sé hægt að gera með því að flytja út gögn til Microsoft Excel og með því að nota pivot töflur, the **Flokkun í rist** eiginleiki, sem er háður nýju netstýringareiginleikanum, gerir notendum kleift að skipuleggja töflugögn sín á áhugaverðan hátt innan fjármála- og rekstrarappa. Vegna þess að þessi eiginleiki víkkar eiginleikann **Samtölur**, gerir **Flokkun** þér kleift að fá auðskiljanlegri innsýn í gögnin með því að gefa upp millisamtölur á hópstigi.
 
 Til að nota þennan eiginleika skal hægrismella á dálkinn sem á að flokka eftir, og velja **Flokka eftir þessum dálki**. Þessi aðgerð mun raða gögnum eftir völdum dálki, bæta við nýjum **Flokki eftir** dálki við upphaf hnitanetsins og setja inn „hauslínur“ í upphafi hvers hóps. Þessar hausraðir veita eftirfarandi upplýsingar um hvern hóp: 
 -  Gagnagildi fyrir hópinn 

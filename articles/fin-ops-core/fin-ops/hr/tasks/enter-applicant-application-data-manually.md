@@ -1,8 +1,8 @@
 ---
 title: Færa inn umsækjanda og umsóknargögn handvirkt
 description: Þessi verklýsing sýnir hvernig á að viðhalda handvirkt upplýsingum um umsækjendur og umsóknina.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,52 +13,61 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 52805c56ed5be13c9e940cf887ece55487060539c0cae97ae5a1bcecd491fbcb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 5305ded440dce0cf057e5fbe4df72635ce0e7b6b
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712510"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964707"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Færa inn umsækjanda og umsóknargögn handvirkt
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi verklýsing sýnir hvernig á að viðhalda handvirkt upplýsingum um umsækjendur og umsóknina.   Hægt er að færa inn og viðhalda persónulegum upplýsingum, viðtal dagsetningar og tilvísanir, hæfni og beiðnir um aðlögun fyrir umsækjendur. Einnig er hægt að uppfæra stöðu starfsumsókna umsækjanda og stofna bréf eða tölvupóst til að eiga samskipti við umsækjendur. Þegar færsla umsækjanda er stofnuð, tengiliðafærslu fyrir umsækjanda er stofnuð í altæku aðsetursbókinni.       Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
-
+Þessi verklýsing sýnir hvernig á að viðhalda handvirkt upplýsingum um umsækjendur og umsóknina. Hægt er að færa inn og viðhalda persónulegum upplýsingum, viðtal dagsetningar og tilvísanir, hæfni og beiðnir um aðlögun fyrir umsækjendur. Þú getur líka uppfært stöðu umsókna umsækjenda um ráðningu og búið til bréf eða tölvupóst til að hafa samskipti við umsækjendur. Þegar færsla umsækjanda er stofnuð, tengiliðafærslu fyrir umsækjanda er stofnuð í altæku aðsetursbókinni. The **USMF** kynningargagnafyrirtæki var notað til að búa til þessa aðferð.
 
 ## <a name="create-a-new-applicant-record"></a>Stofna nýja færslu umsækjanda
-1. Farið í Mannauður > Ráðningar > Umsækjendur > Umsækjendur.
-2. Smellið á „Nýtt“.
-3. Í reitinn Eiginnafn skal slá inn gildi.
-4. Í reitinn eftirnafn skal slá inn gildi.
-    * Hægt er að færa inn viðbótar upplýsingar um umsækjanda ef hún er tiltæk. Til dæmis upplýsingar geta verið hæsta gráða umsækjanda, gildandi starfsheiti eða fyrri vinnuveitanda.  
-5. Víxla útvíkkun á liðnum tengslaupplýsingar.
-6. Smelltu á Bæta við.
-7. Færðu inn 'Samskiptum tölvupósti' í svæðinu Lýsingu.
-8. Veljið valkost í svæðinu tegund.
-9. Færa inn gildi í svæðið númer/aðsetur Tengiliðar.
-    * Þetta tölvupóstfang verður notuð til að mynda tölvupósti samskiptum við umsækjanda.  
-10. Smelltu á Bæta við.
-11. Sláið inn gildi í reitnum „Lýsing“.
-12. Færa inn gildi í svæðið númer/aðsetur Tengiliðar.
-    * Persónulegar upplýsingar um umsækjanda.  
-    * Hægt er að færa inn viðbótar persónuupplýsingar umsækjandans, ef þörf krefur. Til dæmis, þetta getur falið í sér fæðingardagur þjóðernisuppruna, kyn eða hjúskaparstöðu.  
-13. Í aðgerðasvæðinu er smellt á hæfni.
-    * Hægt er að færa inn hæfniforstillingu umsækjandans , þar á meðal þeirra hæfni, faglega reynslu, menntun, prófanir eða skírteini.  
-    * Hægt er að nota þessar upplýsingar til að halda utan um hæfni umsækjandans sem tengist vinnslur sem eru skilgreindar í gögnin fyrirtækisins.   
+
+1. Fara til **Mannauður \> Ráðningar \> Umsækjendur \> Umsækjendur**.
+2. Veljið **Nýtt**.
+3. Í **Fyrsta nafn** reit, sláðu inn gildi.
+4. Í **Eftirnafn** reit, sláðu inn gildi.
+
+    Hægt er að færa inn viðbótar upplýsingar um umsækjanda ef hún er tiltæk. Til dæmis geta þessar upplýsingar innihaldið hæstu gráðu umsækjanda, núverandi starfsheiti eða fyrri vinnuveitanda.
+
+5. Útvíkkaðu kaflann **Tengslaupplýsingar**.
+6. Veljið **Bæta við**.
+7. Í **Lýsing** reit, slá inn **Samskiptapóstur**.
+8. Í reitnum **Tegund** skal velja valkost.
+9. Í **Tengiliðsnúmer/heimilisfang** reit, sláðu inn gildi.
+
+    Þetta tölvupóstfang verður notuð til að mynda tölvupósti samskiptum við umsækjanda.
+
+10. Veljið **Bæta við**.
+11. Sláið inn gildi í reitnum **Lýsing**.
+12. Í **Tengiliðsnúmer/heimilisfang** reit, sláðu inn gildi.
+
+    Notaðu þennan reit til að slá inn frekari persónulegar upplýsingar um umsækjanda, eftir þörfum. Til dæmis geta þessar upplýsingar innihaldið fæðingardag umsækjanda, þjóðernisuppruna, kyn eða hjúskaparstöðu.
+
+13. Á aðgerðarrúðunni velurðu **Hæfni**.
+
+    Hægt er að færa inn hæfniforstillingu umsækjandans , þar á meðal þeirra hæfni, faglega reynslu, menntun, prófanir eða skírteini. Þessar upplýsingar er hægt að nota til að kortleggja færni umsækjanda að þeirri færni sem tengist þeim störfum sem eru skilgreind í gögnum fyrirtækisins þíns.
 
 ## <a name="create-an-application-for-the-applicant"></a>Stofna umsókn fyrir umsækjanda
-1. Smellt er á Umsóknir.
-2. Smellið á „Nýtt“.
-3. Í reitnum ráðningarverk skal smella á fellilistahnappinn til að opna leitina.
-    * Með því að velja ráðningarverk, umsækjanda mun tengjast við tiltekna opnun sem er innifalin í því ráðningarverk.  
+
+1. Veldu **Umsóknir**.
+2. Veljið **Nýtt**.
+3. Í **Ráðningarverkefni** reit, veldu felliörina til að opna leitina.
+
+    Með því að velja ráðningarverkefni tryggir þú að umsækjandi verði tengdur ákveðnu opnu sem er innifalið í því ráðningarverkefni.
+
 4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-5. Í listanum skal smella á tengilinn í valinni línu.
-    * Að sjálfgefnu er vinnsla og deild byggð á völdu ráðningarverki.  
-6. Smellið á „Vista“.
-    * eftir vistun umsóknar, Hægt er að tengja skjöl við það, þar á meðal umsækjandans reynslu, umbun og kynningarbréfi.  
+5. Í listanum skal velja tengilinn í valinni línu.
 
+    Að sjálfgefnu er vinnsla og deild byggð á völdu ráðningarverki.
 
+6. Veldu **Vista**.
+
+    Eftir að þú hefur vistað forritið geturðu hengt skjöl við það. Þessi skjöl gætu innihaldið reynslu umsækjanda, verðlaun og fylgibréf.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

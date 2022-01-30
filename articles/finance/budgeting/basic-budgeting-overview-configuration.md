@@ -1,9 +1,9 @@
 ---
 title: Yfirlit fjárhagsáætlunar
-description: Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 Finance munu geta stofnað skýrslur með áætlun á móti raunvirði. Þessi grein útskýrir lágmarksskilgreiningu sem er krafist til að stofna áætlanir í Finance and Operations eða hlaða þeim inn úr forriti óháðs aðila.
+description: Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 Finance munu geta stofnað skýrslur með áætlun á móti raunvirði. Í þessari grein er farið yfir nauðsynlegar lágmarksstillingar til að hægt sé að stofna áætlanir í Finance and Operations eða hlaða þeim úr forriti óháðs aðila.
 author: panolte
 ms.date: 04/29/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetParameters
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 849b1202ea2c0080f5fc5bacba1f95180fc4008a
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: 8e881a878265062dc5ce8cec68a45237711f385d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343657"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986511"
 ---
-# <a name="budgeting-overview"></a>Yfirlit fjárhagsáætlunar 
+# <a name="budgeting-overview"></a>Yfirlit fjárhagsáætlunar
 
 [!include [banner](../includes/banner.md)]
 
-Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 Finance munu geta stofnað skýrslur með áætlun á móti raunvirði. Þessi grein útskýrir lágmarksskilgreiningu sem er krafist til að stofna áætlanir í Finance and Operations eða hlaða þeim inn úr forriti óháðs aðila.
+Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 Finance munu geta stofnað skýrslur með áætlun á móti raunvirði. Í þessari grein er farið yfir nauðsynlegar lágmarksstillingar til að hægt sé að stofna áætlanir í Finance and Operations eða hlaða þeim úr forriti óháðs aðila.
 
 ## <a name="overview"></a>Yfirlit
 

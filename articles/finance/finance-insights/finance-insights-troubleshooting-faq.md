@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 68115d484abcdc3c37357ae441e9f9ccb5212659
-ms.sourcegitcommit: 6a9f068b59b62c95a507d1cc18b23f9fd80a859b
+ms.openlocfilehash: c1bbdbec2bc0273a73ffc13a4cce024543af5a13
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "7827054"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968837"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Úrræðaleit fyrir vandamál varðandi uppsetningu fjármálainnsýnar
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Í þessu efnisatriði eru talin upp vandamál sem geta komið upp þegar möguleikar fjármálainnsýnar eru notaðir. Þar er einnig útskýrt hvernig á að laga þessi vandamál.
 
@@ -55,11 +54,11 @@ Fylgdu eftirfarandi skrefum í [Power Platform stjórnendamiðstöð](https://ad
 1. Ef þú ert að nota forútgáfu fjármálainnsýnar skaltu fjarlægja DI-verkið sem er tengt við sniðmátið **Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops)**.
 2. Fylgdu skrefunum í [Stofna gagnasamþættingarverk](create-data-integrate-project.md). Notaðu sniðmátið **Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops 10.0.17 og síðar)**.
 
-## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Einkenni: Þegar ég reyni að opna AI Builder með því að nota tenglana á uppsetningarsíðunni fyrir greiðsluspá viðskiptavina, hvers vegna fæ ég eftirfarandi villuboð: „Því miður, það hefur verið sambandsleysi“?
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Einkenni: Þegar ég reyni að opna AI Builder með því að nota tenglana á uppsetningarsíðunni fyrir greiðsluspá viðskiptavina, hvers vegna fæ ég eftirfarandi villuboð: "Því miður, það hefur verið sambandsleysi"?
 
 ### <a name="resolution"></a>Upplausn
 
-Dynamics 365 Finance notendur verða að hafa a Microsoft Power Apps notandareikningur fyrir umhverfið, og sá notendareikningur verður að hafa hlutverk sérsniðnar kerfis. The Microsoft Power Apps kerfisstjóri getur búið til notendareikninginn og úthlutað hlutverkinu. Þú getur þá farið á<https://make.preview.powerapps.com/>, skráðu þig inn með því að nota þann notandareikning og reyndu aftur tenglana.
+Dynamics 365 Finance notendur verða að hafa a Microsoft Power Apps notendareikningur fyrir umhverfið, og sá notendareikningur verður að hafa hlutverk sérsníðakerfis. The Microsoft Power Apps kerfisstjóri getur búið til notendareikninginn og úthlutað hlutverkinu. Þú getur þá farið á<https://make.preview.powerapps.com/>, skráðu þig inn með því að nota þann notandareikning og reyndu aftur tenglana.
 
 ## <a name="symptom-why-doesnt-the-cash-forecast-tab-in-the-cash-flow-forecast-workspace-show-any-data"></a>Einkenni: Hvers vegna sýnir flipi reiðufjárspár á vinnusvæði sjóðsstreymisspáar ekki nein gögn?
 
@@ -86,7 +85,7 @@ Ef réttu öryggishlutverki verkefnisins er úthlutað þér gætirðu þurft a�
 Eftirfarandi skref ætti að hafa verið lokið.
 
 - Staðfestu að þú hafir **Kerfisstjóri** og **Kerfisaðlögun** aðgang í Power Portal stjórnunarmiðstöðinni.
-- Staðfestu að a Dynamics 365 Finance eða samsvarandi leyfi er beitt fyrir notandann sem er að setja upp viðbótina.
+- Staðfestu að a Dynamics 365 Finance eða sambærilegt leyfi er beitt fyrir notandann sem er að setja upp viðbótina.
 - Staðfestu að eftirfarandi Azure AD app er skráð í Azure AD: 
 
   | Forrit                  | Auðkenni forrits           |

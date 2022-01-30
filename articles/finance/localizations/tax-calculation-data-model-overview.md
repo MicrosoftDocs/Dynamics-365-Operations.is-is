@@ -3,7 +3,7 @@ title: Gagnalíkan skattaútreiknings
 description: Þetta efnisatriði veitir upplýsingar um skattagagnalíkanið og hvernig reitargildi hvers gagnalíkans ákvarðast af samhengi skattaútreikningsfærslna.
 author: kailiang
 ms.date: 10/15/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4b9b3e28b9435e9614b06d4fa2855b31d0e38b41
-ms.sourcegitcommit: 93cc9823016c9f2fd568ada0b670a52c8c3bfa33
+ms.openlocfilehash: 2773efaed9ee30ccb27b35f5aa00515ebba1c84a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7864261"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985967"
 ---
 # <a name="tax-calculation-data-model"></a>Gagnalíkan skattaútreiknings
 
 Þetta efnisatriði veitir upplýsingar um hvernig reitargildi hvers gagnalíkans ákvarðast í skattaútreikningsfærslum.
 
-*Skattagagnalíkanið* samanstendur af reitum sem eru nauðsynlegir fyrir útreikninga á skatti. Microsoft býður upp á *skattaútreikningsgagnalíkan* sem inniheldur hausreiti og línureiti færsluskjala í Finance and Operations forritum. Reitirnir sem eru skilgreindir í skattaútreikningsgagnalíkaninu eru tiltækir dálkar í töflunum fyrir reglur um nothæfi í uppsetningu eiginleikastillingarinnar fyrir skattaútreikning.
+*Skattagagnalíkanið* samanstendur af reitum sem eru nauðsynlegir fyrir útreikninga á skatti. Microsoft veitir *skattreikningsgagnalíkan*, sem inniheldur hausreit og línureit færsluskjala í Finance and Operations forritum. Reitirnir sem eru skilgreindir í skattaútreikningsgagnalíkaninu eru tiltækir dálkar í töflunum fyrir reglur um nothæfi í uppsetningu eiginleikastillingarinnar fyrir skattaútreikning.
 
 > [!NOTE] 
 > Sumir hnútar sem eru skilgreindir í gagnalíkaninu, svo sem **Auðkenni færslu** og **Auðkenni töflu**, eru notaðir í tæknilegum tilgangi. Þetta eru ekki tiltækir dálkar í stillingum skattaútreikningseiginleika.
@@ -55,7 +55,7 @@ Einnig er hægt að skoða skattaútreikningsgagnalíka og dálkana sem eru tilt
 
     [![Stjórna dálkum.](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-Gagnalíkan skattaútreiknings er samþætt við Finance and Operations forrit. Við hverja færslu sem tengist skattaútreikningi eru gildi þeirra reita sem skilgreindir eru í töflunum fyrir reglur um gildissvið innheimt og send skattaútreikningsþjónustunni til útreiknings. Í útgáfu 40.46 eru 57 fyrirframskilgreind gagnalíkön tiltæk fyrir eftirfarandi færslur: innkaupapantanir, sölupantanir, millifærslupantanir, innkaupabeiðnir, beiðnir um verðtilboð og sölutilboð.
+Skattareikningsgagnalíkanið er samþætt við Finance and Operations öpp. Við hverja færslu sem tengist skattaútreikningi eru gildi þeirra reita sem skilgreindir eru í töflunum fyrir reglur um gildissvið innheimt og send skattaútreikningsþjónustunni til útreiknings. Í útgáfu 40.46 eru 57 fyrirframskilgreind gagnalíkön tiltæk fyrir eftirfarandi færslur: innkaupapantanir, sölupantanir, millifærslupantanir, innkaupabeiðnir, beiðnir um verðtilboð og sölutilboð.
 
 Þrjátíu og eitt gagnalíkan getur fylgt með sem reitir í haus færslu. Hins vegar eiga ekki allir reitir við um allar færslugerðir. Eftirfarandi tafla sýnir hvaða hausareitir eru tiltækir fyrir tilteknar færslutegundir. Í sumum tilvikum þarf að ákvarða reitavörpun með fyrirframskilgreindum rökum. Þar sem það á við eru rökin til staðar.
 

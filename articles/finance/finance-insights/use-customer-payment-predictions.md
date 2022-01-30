@@ -15,31 +15,30 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 0606118007c01fc21c2c61d2128a7ec014617fcc
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752785"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968913"
 ---
 # <a name="use-customer-payment-predictions"></a>Nota greiðsluspár viðskiptavinar
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði útskýrir hverni gá að nota greiðsluspár viðskiptavinar. Gakktu úr skugga um að ljúka við uppsetningarskrefin áður en þú notar þennan eiginleika. Nánari upplýsingar eru í [Virkja greiðsluspár viðskiptavinar](enable-cust-paymnt-prediction.md).
 
-Þú getur skoðað greiðsluspár viðskiptavina í **Stjórna inneign viðskiptavina og innheimtum** vinnusvæði og á tveimur nýjum listasíðum: **Spár um greiðslur viðskipta** og **Greiðsluspá viðskiptavina**.
+Þú getur skoðað greiðsluspár viðskiptavina í **Stjórna inneign viðskiptavina og innheimtu** vinnusvæði og á tveimur nýjum listasíðum: **Spár um greiðslur viðskipta** og **Greiðsluspá viðskiptavina**.
 
 ### <a name="manage-customer-credit-and-collections-workspace"></a>Stjórna vinnusvæði skulda og innheimtu viðskiptavinar
 
 The **Stjórna inneign viðskiptavina og innheimtum** vinnurými inniheldur tvær nýjar flísar: **Spár um greiðslur viðskipta** og **Greiðsluspá viðskiptavina**.
 
-### <a name="transaction-payment-predictions-list-page"></a>Listasíða fyrir spár um greiðslugreiðslur
+### <a name="transaction-payment-predictions-list-page"></a>Listasíða fyrir greiðsluspá fyrir færslur
 
 Á **Spár um greiðslur viðskipta** listasíðu er hægt að skoða greiðslulíkur fyrir opin viðskipti í **Tímanlega**, **·**, og **Mjög seint** fötum. Fyrir hverja færslu á hnitanetinu sýnir dálkurinn **Líkur á réttum tíma** líkurnar á því að reikningurinn verði greiddur á eða fyrir gjalddaga. Þegar líkurnar á greiðslu á réttum tíma eru minni en 50 prósent birtist rauður hringur við hliðina á prósentuhlutfallinu í dálkinum **Líkur á réttum tíma** til að tilgreina hættuna á greiðsludrætti.
 
-[![ Síða greiðsluspár fyrir hverja færslu.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
+[![Síða greiðsluspár fyrir hverja færslu.](./media/payment-predictions-per-transaction.png)](./media/payment-predictions-per-transaction.png)
 
 Í glugganum **Tengdar upplýsingar** hægra megin á síðunni birtast frekari upplýsingar um spárnar:
 
@@ -49,13 +48,13 @@ The **Stjórna inneign viðskiptavina og innheimtum** vinnurými inniheldur tvæ
 
 Gögnin í hlutanum **Helstu þættir** og á flýtiflipunum **Innsýn í viðskiptavini** og **Ferill viðskiptavinar** hjálpa til við að útskýra greiðsluspárnar. Slíkt getur aukið traust þitt á áreiðanleika slíkra spáa.
 
-[![ Myndrænir vísar fyrir greiðsluspár í glugganum tengdar upplýsingar.](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
+[![Myndrænir vísar fyrir greiðsluspár í glugganum tengdar upplýsingar.](./media/payment-prediction-gauges.png)](./media/payment-prediction-gauges.png)
 
 ### <a name="customer-payment-predictions-list-page"></a>Listasíða fyrir greiðsluspá viðskiptavina
 
 The **Greiðsluspá viðskiptavina** listasíða sýnir heildarstöðuna og upphæðina sem spáð er að verði greidd í **Tímanlega**, **·**, og **Mjög seint** fötum.
 
-[![ Síða greiðsluspár fyrir hvern viðskiptavin.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
+[![Síða greiðsluspár fyrir hvern viðskiptavin.](./media/payment-predictions-per-transaction-02.png)](./media/payment-predictions-per-transaction-02.png)
 
 Greiðsluupphæðin í hverjum ramma er reiknuð út sem summa af vegnu meðaltali færsluupphæðarinnar. Þessi upphæð er reiknuð út miðað við greiðslulíkur fyrir hvern ramma fyrir sig.
 
@@ -87,10 +86,10 @@ Gögnin um **Innsýn viðskiptavina** og **Saga viðskiptavina** Hraðflipar hj�
 
 Þú getur skoðað nákvæmni greiðsluspáa með því að opna **Skuldir og innheimta \> Uppsetning \> Fjármálainnsýn \> Færibreytur fjármálainnsýnar**. Á flipanum **Innsýn í greiðslu viðskiptavinar** sýnir hlutinn **Spálíkan** nákvæmni spálíkansins sem prósentuhlutfall.
 
-[![ Nákvæmni greiðsluspáa.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
+[![Nákvæmni greiðsluspáa.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
 
-Ef nákvæmnin telst ekki vera fullnægjandi skaltu velja tengilinn **Auka nákvæmni líkans** til að opna upplifun AI Builder-viðbótarinnar. Í upplifun AI Builder-viðbótarinnar getur þú valið að hætta við val á svæðum þar til þú hefur valið reitina sem þú telur vera mikilvægasta til að spá fyrir um greiðslulíkur á nákvæman hátt. Þegar því er lokið getur þú auðveldlega endurþjálfað spálíkanið og birt breytingarnar þínar. Nýþjálfaða spálíkanið verður sjálfkrafa valið fyrir spár í Dynamics 365 Finance.
+Ef þú ert ekki ánægður með nákvæmnina skaltu velja **Bættu nákvæmni líkans** hlekkur til að opna AI Builder framlengingarreynsla. Í AI Builder framlengingarupplifun geturðu valið eða hætt við val á reitum þar til þú hefur valið þá reiti sem þú telur mikilvægastir til að spá nákvæmlega fyrir um greiðslulíkur. Þegar því er lokið getur þú auðveldlega endurþjálfað spálíkanið og birt breytingarnar þínar. Nýþjálfaða spálíkanið verður sjálfkrafa valið fyrir spár í Dynamics 365 Finance.
 
-[![ Upplifun AI Builder-viðbótar.](./media/ai-builder.png)](./media/ai-builder.png)
+[![AI Builder framlengingarreynsla.](./media/ai-builder.png)](./media/ai-builder.png)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

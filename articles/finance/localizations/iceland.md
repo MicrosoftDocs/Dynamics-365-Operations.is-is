@@ -3,22 +3,21 @@ title: Yfirlit yfir Ísland
 description: Í þessu efnisatriði eru tenglar á skjöl Microsoft Dynamics 365 Finance fyrir Ísland.
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: Iceland
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 61f6e7c68a82212da9b9658f2986a528b3d10ff0ece62b4353fdbfa88c0d4917
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 3fa5ca7d96a1d5ef3209cb0f85a6c66f342f5cff
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753464"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982164"
 ---
 # <a name="iceland-overview"></a>Yfirlit yfir Ísland
 

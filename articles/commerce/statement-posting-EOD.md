@@ -13,17 +13,16 @@ ms.search.industry: retail
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e7e88511ac3d0044c7e590f43f4486929f691ce9
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 9a5a7d6394a87eccde8e1c364caaaabdb0297fd2
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891444"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982204"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Endurbætur á virkni yfirlitsbókunar
 
 [!include [banner](includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði lýsir fyrsta safni endurbóta sem hafa verið gerðar á bókun uppgjörs eiginleikanum. Þessar endurbætur eru í boði í Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
@@ -125,7 +124,7 @@ Ef yfirlit er ekki að fullu bókað er hægt að skoða samanlagðar færslur �
 
 Fyrir bókaðar yfirlit er hægt að skoða samanlagðar færslur á **Settar yfirlýsingar** síðu. Á aðgerðarrúðunni velurðu **Fyrirspurnir**, og veldu síðan **Samanlögð viðskipti**.
 
-![Skipun um samansafnaðar færslur fyrir bókaðar yfirlit.](media/aggregated-transactions-posted-statements.png)
+![Skipun um samansafn færslur fyrir bókaðar yfirlit.](media/aggregated-transactions-posted-statements.png)
 
 The **Upplýsingar um sölupöntun** Flýtiflipi uppsafnaðrar færslu sýnir eftirfarandi upplýsingar:
 
@@ -153,7 +152,7 @@ The **Upplýsingar um viðskipti** Flýtiflipi uppsafnaðrar færslu sýnir alla
 
 ![Hnappurinn Flytja út samansafn gagna á síðunni Samanlögð færslur.](media/aggregated-transactions-export.png)
 
-Ef þú getur ekki lagað villuna með því að leiðrétta gögn á sölupöntuninni eða gögnum sem styðja sölupöntunina, **Eyða pöntun viðskiptavina** hnappur er tiltækur. Til að eyða pöntun velurðu samansafnaða færsluna sem mistókst og velur síðan **Eyða pöntun viðskiptavina**. Bæði samanlagðri færslu og samsvarandi sölupöntun verður eytt. Þú getur nú skoðað færslurnar með því að nota breytinga- og endurskoðunaraðgerðina. Að öðrum kosti er hægt að endurvinna þau með nýrri yfirlýsingu. Eftir að allar bilanir hafa verið lagaðar er hægt að halda áfram færslu yfirlits með því að keyra post statement fallið fyrir viðkomandi yfirlit.
+Ef þú getur ekki lagað villuna með því að leiðrétta gögn á sölupöntun eða gögn sem styðja sölupöntunina, **Eyða pöntun viðskiptavina** hnappur er tiltækur. Til að eyða pöntun velurðu samansafnaða færsluna sem mistókst og velur síðan **Eyða pöntun viðskiptavina**. Bæði samanlagðri færslu og samsvarandi sölupöntun verður eytt. Þú getur nú skoðað færslurnar með því að nota breytinga- og endurskoðunaraðgerðina. Að öðrum kosti er hægt að endurvinna þau með nýrri yfirlýsingu. Eftir að allar bilanir hafa verið lagaðar er hægt að halda áfram færslu yfirlits með því að keyra post statement fallið fyrir viðkomandi yfirlit.
 
 ![Eyða pöntun viðskiptavinar hnappur í uppsafnaðar færsluskjánum.](media/aggregated-transactions-delete-cust-order.png)
 

@@ -2,7 +2,7 @@
 title: Stofnun hlutastraumspöntunar fyrir færslur smásöluverslunar
 description: Þetta efnisatriði lýsir stofnun hlutastraumspöntunar fyrir færslur verslunar í Microsoft Dynamics 365 Commerce.
 author: analpert
-ms.date: 12/14/2021
+ms.date: 01/11/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a7fd8698d7123403cf9092a4a4bf810595d795b
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921246"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964630"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Stofnun hlutastraumspöntunar fyrir færslur smásöluverslunar
 
 [!include [banner](includes/banner.md)]
 
-Í Microsoft Dynamics 365 Commerce útgáfu 10.0.5 og síðar er ráðlagt að flytja öll bókunarferli uppgjöra yfir í bókunarferli uppgjöra með hlutastraum. Verulegur ávinningur fyrir afkomu og viðskipti fylgir því að nota hlutastraumsvirknina. Unnið er úr sölufærslum yfir daginn. Unnið er úr greiðslumáta- og reiðufjárstjórnunarfærslum á fjárhagsskýrslunni í lok dags. Hlutastraumsvirkni býður upp á stöðuga úrvinnslu sölupantana, reikninga og greiðslna. Af þeim sökum er hægt að uppfæra og greina birgðir, tekjur og greiðslur nánast í rauntíma.
+Í Microsoft Dynamics 365 Commerce útgáfu 10.0.5 og síðar er ráðlagt að flytja öll bókunarferli uppgjöra yfir í bókunarferli uppgjöra með hlutastraum. Verulegur ávinningur fyrir afkomu og viðskipti fylgir því að nota hlutastraumsvirknina. Unnið er úr sölufærslum yfir daginn. Unnið er úr greiðslumáta- og reiðufjárstjórnunarfærslum á fjárhagsskýrslunni í lok dags. Hlutastraumsvirkni býður upp á stöðuga úrvinnslu sölupantana, reikninga og greiðslna. Af þeim sökum eru birgðir, tekjur og greiðslur uppfærðar nánast í rauntíma.
 
 ## <a name="use-trickle-feed-based-posting"></a>Nota bókun með hlutastraum
 
@@ -47,6 +47,10 @@ Tímasetja eftirfarandi vinnslur á að keyra mjög reglulega:
 ### <a name="financial-statements"></a>Fjárhagsskýrslur
 
 Vinnsla fjárhagsskýrslna á að fara fram í lok dags. Þessi gerð uppgjörsferlis styður aðeins lokunaraðgerðina **Vakt** og mun aðeins telja með lokaðar vaktir. Skýrslur takmarkast við fjárhagslega afstemmingu. Þær munu eingöngu búa til færslubækur fyrir upphæðamismun á milli talinnar upphæðar og færsluupphæðar fyrir greiðslumáta ásamt færslubókum fyrir aðrar reiðufjárstjórnunarfærslur.
+
+Fjárhagsskýrslur gera notanda líka kleift að fara yfir eftirtaldar færslur: talningu skiptimyntar, greiðslufærslur, greiðslufærslur á vörslureikningi og greiðslufærslur í öryggisskáp. Upplýsingasíðan um greiðslumáta er aðeins sýnileg þegar fjárhagsskýrsla er valin.
+
+![Mynd sem sýnir hlutann með upplýsingum um greiðslumáta á bókuðum yfirlitum aðeins þegar fjárhagsskýrsla er valin.](./media/Trickle-feed-posted-statements-transaction-view.png)
 
 Tímasetja upphafs- og lokatíma eftirfarandi vinnsla við fjárhagsskýrslugerð miðað við áætluð dagslok:
 

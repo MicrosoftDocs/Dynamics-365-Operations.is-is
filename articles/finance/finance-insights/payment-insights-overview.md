@@ -3,7 +3,7 @@ title: Greiðsluspár viðskiptavinar
 description: Þetta efnisatriði lýsir getu greiðsluspár sem geta hjálpað notendum við að skilja betur dæmigerðar greiðsluvenjur viðskiptavinar. Þessi eiginleiki getur einnig komið í veg fyrir aðstæður þar sem innheimtuferli er hafið fyrr en annars væri byrjað á því.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 300c835c835a5c653b75b9e151462337dfbe49a5
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 04897e3a7765264ab2e664422caa928c49b9cc61
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752738"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982040"
 ---
 # <a name="customer-payment-predictions"></a>Greiðsluspár viðskiptavinar
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði lýsir getu greiðsluspár sem geta hjálpað notendum við að skilja betur dæmigerðar greiðsluvenjur viðskiptavinar. Þessi eiginleiki getur einnig komið í veg fyrir aðstæður þar sem innheimtuferli er hafið fyrr en annars væri byrjað á því.
 
@@ -39,7 +38,7 @@ Fyrirtækjum finnst oft krefjandi að spá fyrir um hvenær viðskiptavinir grei
 - Innheimtuferli sem byrja of seint
 - Pantanir sem eru losaðar til viðskiptavinna sem kunna að greiða ekki
 
-Greiðsluspá viðskiptavinar (forskoðun) hjálpar fyrirtækjum að spá fyrir um hvenær reikningur viðskiptavinar verður greiddur. Þess vegna er hægt að búa til innheimtuáætlanir sem þar sem líkurnar á greisðlu á réttum tíma eru auknar.
+Greiðsluspár viðskiptavina hjálpa fyrirtækjum að spá fyrir um hvenær reikningur viðskiptavinar verður greiddur. Þess vegna er hægt að búa til innheimtuáætlanir sem þar sem líkurnar á greisðlu á réttum tíma eru auknar.
 
 ## <a name="predictions"></a>Spár
 
@@ -55,11 +54,11 @@ Aðgerðin úthlutar þremur greiðslulíkum fyrir hvern opinn reikning:
 
 Þessi eiginleiki veitir einnig samandregið yfirlit yfir áætlaðar greiðslur.
 
-[![ Samanlögð sýn á spá um greiðslur.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Samanlögð sýn á spá um greiðslur.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Hverjum reikningi er úthlutað líkum á greiðslum á réttum tíma. Reikningar þar sem líkur á greiðslu á réttum tíma eru undir 50 prósent hafa rauðan hring til að gefa til kynna að innheimtufulltrúi ætti að líta á þá.
 
-[![ Listi yfir greiðslulíkur.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Listi yfir greiðslulíkur.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Greiðsluspá viðskiptavinar eiginleikinn veitir einnig samhengisupplýsingar til að útskýra spár. Þessar upplýsingar innihalda helstu þætti sem höfðu áhrif á spárnar, núverandi stöðu viðskipta við viðskiptavininn og upplýsingar um sögulega greiðsluhegðun viðskiptavinarins.
 
@@ -67,6 +66,6 @@ Greiðsluspá viðskiptavinar eiginleikinn veitir einnig samhengisupplýsingar t
 
 ## <a name="methodology"></a>Aðferð
 
-Það hefur yfirleitt reynst erfitt að þróa og nota gervigreindarlausn (AI). Þær hafa kallað á gagnavísindaVinnslan hefur krafist teymis sem inniheldur gögn vísindamanna, efnisorð (SMEs) og verkfræðinga, sem vinna með tíma til að móta, þróa, nota og viðhalda nothæfri AI-lausn. Greiðsluspá viðskiptavinar auðveldar uppsetningu og notkun á AI lausn í Microsoft Dynamics 365 Finance. Microsoft er með innifaldar AI-lausnir sem eru byggðar ofan á Microsoft AI Builder. Af þeim sökum geta notendur virkjað AI-lausnina með einum músarsmelli til að nýta kosti hugvitsamlegra spáa. Ef notandi er ekki ánægður með nákvæmni spáa getur yfirnotandi (aftur með einum smelli) farið inn í viðbótina AI Builder og síðan valið eða afvalið reitina sem notaðir eru til að mynda spár. Þegar þú ert tilbúinn getur þú „þjálfað“ líkanið og birt breytingarnar. Nýþjálfaða líkanið verður sjálfkrafa valið til að mynda spár í Dynamics 365 Finance.
+Það hefur yfirleitt reynst erfitt að þróa og nota gervigreindarlausn (AI). Þær hafa kallað á gagnavísindaVinnslan hefur krafist teymis sem inniheldur gögn vísindamanna, efnisorð (SMEs) og verkfræðinga, sem vinna með tíma til að móta, þróa, nota og viðhalda nothæfri AI-lausn. Greiðsluspá viðskiptavinar auðveldar uppsetningu og notkun á AI lausn í Microsoft Dynamics 365 Finance. Microsoft er að forpakka gervigreindarlausnir sem eru byggðar ofan á Microsoft AI Builder. Af þeim sökum geta notendur virkjað AI-lausnina með einum músarsmelli til að nýta kosti hugvitsamlegra spáa. Ef þú ert ekki ánægður með nákvæmni spár getur stórnotandi (aftur með einum músarsmelli) slegið inn AI Builder framlengingarupplifun, og veldu síðan eða hreinsaðu reitina sem eru notaðir til að búa til spár. Þegar þú ert tilbúinn getur þú „þjálfað“ líkanið og birt breytingarnar. Nýþjálfaða líkanið verður sjálfkrafa valið til að mynda spár í Dynamics 365 Finance.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

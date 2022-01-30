@@ -2,7 +2,7 @@
 title: WEEKNUM ER aðgerð
 description: Þetta efnisatriði veitir upplýsingar um hvernig WEEKNUM rafræn skýrslugerð (ER) aðgerðin er notuð.
 author: NickSelin
-ms.date: 12/03/2021
+ms.date: 01/15/2022
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: fe36d4142b6e4922e2cbca09bb0ca9f68f6680a0
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 37e62b32896e2030b3322a89ac4acdd6c18d5e3c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891367"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982178"
 ---
 # <a name="weeknum-er-function"></a>WEEKNUM ER aðgerð
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 The`WEEKNUM` fall skilar an *[Heiltala](er-formula-supported-data-types-primitive.md#integer)* gildi sem táknar viku ársins sem inniheldur tiltekið *[Dagsetning](er-formula-supported-data-types-primitive.md#date)* gildi. Útreikningurinn byggir á menningarháðum reglum sem skilgreina almanaksviku og fyrsta dag vikunnar.
 
@@ -42,7 +41,7 @@ Dagsetningargildi sem táknar dagsetninguna sem á að nota til að reikna út v
 
 `culture`:*[Strengur](er-formula-supported-data-types-primitive.md#string)*
 
-Menningin til að nota við útreikninginn. Þú getur notað menningarkóða sem eru studdir í samræmi við .NET [staðla](/dotnet/api/system.globalization.cultureinfo.getcultures?view=net-5.0).
+Menningin sem á að nota við útreikninginn. Þú getur notað menningarkóða sem eru studdir í samræmi við .NET [staðla](/dotnet/api/system.globalization.cultureinfo.getcultures?view=net-5.0).
 
 ## <a name="return-values"></a>Skilagildi
 
@@ -54,7 +53,7 @@ Tölugildið sem verður til.
 
 Vika ársins er reiknuð út frá [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) staðall, ef þessi staðall hefur verið samþykktur af landi eða svæði sem staðsetningin er tilgreind fyrir á keyrslutíma. Að öðrum kosti er útreikningurinn byggður á lands-/svæðissértækum landsstöðlum.
 
-Ef óstudd [menningu](#arguments) kóðinn er gefinn upp sem rök fyrir`WEEKNUM` virka á keyrslutíma, undantekning er hent. Ef auði strengurinn er gefinn upp sem menningarkóði er enska landshlutlausa dagatalið notað til að reikna út vikunúmerið.
+Ef óstudd [menningu](#arguments) kóðinn er gefinn upp sem rök fyrir`WEEKNUM` virka á keyrslutíma, undantekning er hent. Ef auði strengurinn er gefinn upp sem menningarkóði er enska landhlutlausa dagatalið notað til að reikna út vikunúmerið.
 
 ## <a name="examples"></a>Dæmi
 

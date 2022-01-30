@@ -3,7 +3,7 @@ title: Yfirlit rafrænna reikninga
 description: Í þessu efnisatriði er að finna upplýsingar um rafræna reikningsfærslu í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 03/29/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 815e3f15f97c7f7083c4044b9f61bd05a33624cc
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 6983abeb4d0fdd1a595a53ea0fd9cd840b24030b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778185"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983854"
 ---
 # <a name="electronic-invoicing-overview"></a>Yfirlit rafrænna reikninga
 
@@ -44,7 +44,7 @@ Rafræn reikningsfærsla getur auðveldað þér að ná eftirfarandi markmiðum
 
 Til að nota rafrænna reikningsfærslu þarf að setja hana upp í verkinu þínu í Microsoft Dynamics Lifecycle Services (LCS). Næst skal fylgja uppsetningarferlinu til að kveikja á samþættingu við Finance and Supply Chain Management. Frekari upplýsingar eru í [Hafist handa með rafrænar reikningsfærslur](e-invoicing-get-started.md).
 
-## <a name="service-availability"></a><a name="availability"></a> Framboð þjónustu
+## <a name="service-availability"></a><a name="availability"></a>Framboð þjónustu
 
 Sem stendur er rafræn reikningsfærsla tiltæk fyrir viðskiptavini í gegnum forskoðunarforritið og í næsta áfanga verður þjónustan almennt tiltæk. Vegna þess að virkni sem tengist lands-/svæðisbundnum kröfum kann að vera takmörkuð á mismunandi stigum útgáfunnar, ætti alltaf að athuga nýjustu fylgigögnin sem fjalla um umfang lausna sem eru háðar löndum/svæðum.
 
@@ -68,7 +68,7 @@ Hægt er að nota rafræna reikningsfærslu í aðstæðum þar sem stofna þarf
 - Samræmd notendaupplifun fyrir skilgreiningu og eftirlit á ferli rafrænna reikninga fyrir öll lönd og svæði
 - Hraðari, auðveldari og ódýrari aðlögun á rafrænni reikningsfærsluviðbót í nýjum löndum og svæðum
 - Skilgreining þjónustunnar í gegnum Regulatory Configuration Service (RCS) og uppsetningu altækra eiginleika
-- Viðskiptagögnum breytt í margs konar snið rafrænna reikninga (XML, JavaScript Object Notation \[ JSON\], TXT og gildi aðskilin með kommu \[ CSV\]) með því að nota stillingar sem eru skilgreindar í RCS:
+- Viðskiptagögnum breytt í margs konar snið rafrænna reikninga (XML, JavaScript Object Notation \[JSON\], TXT og gildi aðskilin með kommu \[CSV\]) með því að nota stillingar sem eru skilgreindar í RCS:
 
     - Snið rafrænnar skýrslugerðar sem eru í boði fyrir lönd og svæði þar sem stillanleiki fyrir breytingu á rafrænum reikningi er ekki í boði
 

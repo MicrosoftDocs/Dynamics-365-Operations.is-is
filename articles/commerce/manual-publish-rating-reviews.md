@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 25ae7074fcf39bf4408ea1fa0acfc334281bb254
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 443ebaa13d7ac29df66ffe77a2ed938e44a0c488
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675050"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968204"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Virkja handvirka birtingu einkunna og umsagna hjá stjórnanda
 
@@ -68,3 +68,17 @@ Eftirfarandi mynd sýnir dæmi þar sem þrjár óbirtar einkunnir og umsagnir e
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir einkunnir og umsagnir](ratings-reviews-overview.md)
+
+[Velja að nota einkunnir og umsagnir](opt-in-ratings-reviews.md)
+
+[Stjórna einkunnum og umsögnum](manage-reviews.md)
+
+[Skilgreina einkunnir og umsagnir](configure-ratings-reviews.md)
+
+[Samstilla afurðaeinkunnagjöf](sync-product-ratings.md)
+
+[Inn- og útflutnings einkunnir og umsagnir](import-export-reviews.md)
+
+[Stilla þjónustu-til-þjónustu auðkenningu](service-to-service-auth.md)
+
+[Algengar spurningar um einkunnir og umsagnir](ratings-reviews-faq.md)

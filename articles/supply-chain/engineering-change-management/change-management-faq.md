@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ba489358ef2d74e816186f29956aea5538a2432825c7d949e7c9cc23d947b997
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: dee16f9d6f8ea583f221a7f6eb466675c8c622d0
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714379"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007608"
 ---
 # <a name="engineering-change-management-faq"></a>Algengar spurningar um flipa umsjónar hönnunarbreytinga
 
@@ -63,6 +63,11 @@ Eftirfarandi töflur sýna svæðin sem eru afrituð meðan á ferlunum stendur.
 | **Afurðarafbrigði** | Allir reitir í hlutanum **Sjálfgefið afurðarafbrigði** | Sömu reitir og eru afritaðir fyrir hönnunarfyrirtækið |
 
 Auk reitanna sem sýndir eru í fyrri töflunni eru allar sjálfgefnar pöntunarstillingar afritaðar úr útgefnu vörusniðmáti, bæði þegar afurðin er búin til í hönnunarfyrirtækinu og þegar hún er gefin út í fyrirtæki í rekstri. (Til að skoða sjálfgefnar pöntunarstillingar fyrir útgefið vörusniðmát skal opna viðeigandi síðuna **Upplýsingar um útgefnar afurðir** og því næst, á aðgerðasvæðinu, í flipanum **Stjórna birgðum**, skal velja **Sjálfgefnar pöntunarstillingar**.)
+
+> [!NOTE]
+>
+> - Einingin er sjálfgefið frá sniðmátinu.
+> - Fyrir smásala sem nota Dynamics 365 Commerce virkni, þegar smásöluflokki er úthlutað á vöru, notar smásöluflokkurinn sjálfgefna gildi fyrir marga reitina fyrir útgefið vörustig. Þessar sjálfgefnar skrifa yfir sjálfgefin gildi sem kunna að hafa þegar verið stillt af sniðmátinu eða afrituð úr verkfræði.
 
 ## <a name="should-i-create-a-separate-legal-entity-for-engineering-products-or-use-an-existing-legal-entity"></a>Á ég að stofna sérstakan lögaðila fyrir hönnunarafurðir eða nota fyrirliggjandi lögaðila?
 

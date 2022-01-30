@@ -3,24 +3,23 @@ title: Yfirlit yfir stjórnun viðskiptaskjala
 description: Þetta efni veitir upplýsingar um hvernig á að nota viðskiptaskjalastjórnunaraðgerð ER-ramma.
 author: NickSelin
 ms.date: 04/23/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b59f535e01de2ae30e6bbeb6d5ab97a415df6043233694d4feb1c48140a110f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753077"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986252"
 ---
 # <a name="business-document-management-overview"></a>Yfirlit yfir stjórnun viðskiptaskjala
 
@@ -28,7 +27,7 @@ ms.locfileid: "6753077"
 
 Fyrirtækjanotendur nota ramma [Rafrænnar skýrslugerðar (ER)](general-electronic-reporting.md) til að skilgreina snið fyrir skjöl á útleið í samræmi við lagaskilyrði mismunandi landa/svæða. Notendur geta einnig skilgreint gagnaflæðið til að tilgreina hvaða forritsgögn eru sett í skjöl sem eru búin til. ER-ramminn býr til skjöl á útleið í Microsoft Office-sniðum (Excel-vinnubækur eða Word-skjöl) með því að nota fyrirframskilgreind sniðmát. Sniðmátin eru fyllt út með tilskildum gögnum í samræmi við stillanlegt gagnaflæði meðan nauðsynleg skjöl eru búin til. Hægt er að birta hvert skilgreint snið sem hluta af ER lausn til að búa til sérstök skjöl á útleið. Þetta er táknað með ER sniði sem getur innihaldið sniðmát sem þú getur notað til að búa til mismunandi skjöl á útleið. Fyrirtækjanotendur geta notað þennan ramma til að stjórna nauðsynlegum viðskiptaskjölum.
 
-**Stjórnun viðskiptaskjala** er smíðað ofan á ramma rafrænnar skýrslugerðar og gerir fyrirtækjanotendum kleift að breyta sniðmátum viðskiptaskjala með því að nota þjónustu Microsoft 365 eða viðeigandi Microsoft Office-skjáborðsforrit. Breytingar á skjölunum gætu falist í því að breyta hönnun viðskiptaskjala og bæta við staðgenglum fyrir viðbótargögn án breytinga á frumkóða og nýjum uppsetningum. Engin vitneskja um ramma ER er nauðsynleg til að uppfæra sniðmát viðskiptaskjala.
+**Stjórnun viðskiptaskjala** er byggt ofan á ER ramma og gerir fyrirtækjanotendum kleift að breyta sniðmátum viðskiptaskjala með því að nota Microsoft 365 þjónustu eða viðeigandi Microsoft Office skjáborðsforrit. Breytingar á skjölunum gætu falist í því að breyta hönnun viðskiptaskjala og bæta við staðgenglum fyrir viðbótargögn án breytinga á frumkóða og nýjum uppsetningum. Engin vitneskja um ramma ER er nauðsynleg til að uppfæra sniðmát viðskiptaskjala.
 
 > [!NOTE]
 > Hafðu í huga að stjórnun viðskiptaskjala gerir þér kleift að breyta sniðmátum sem eru notuð til að framleiða viðskiptaskjöl eins og pantanir, reikninga osfrv. Þó að sniðmáti hafi verið breytt og ný útgáfa af því hafi verið gefin út er þessi útgáfa notuð til að búa til nauðsynleg viðskiptaskjöl. Ekki er hægt að nota stjórnun viðskiptaskjala til að breyta þegar mynduðum viðskiptaskjölum.
@@ -41,7 +40,7 @@ Sem stendur er viðskiptaskjalastjórnunaraðgerðin aðeins útfærð fyrir sk�
 
 Til að nota viðskiptaskjalastjórnun til að breyta sniðmátum á Excel- eða Word-sniði með því að nota Microsoft Office-skjáborðsforrit verður þú að vera með Microsoft Office 2010 eða nýrra sett upp. Þetta er stutt í uppsetningum í skýi og á staðnum.
 
-Til að nota viðskiptaskjalastjórnun fyrir breytingar á sniðmátum á Excel- eða Word-sniði með því að nota forrit Microsoft 365, þarf að vera með Microsoft 365 Office fyrir vefáskriftina. Þetta er stutt í skýjauppsetningu.
+Til að nota viðskiptaskjalastjórnun til að breyta sniðmátum í Excel eða Word sniði með því að nota Microsoft 365 umsóknir, þú verður að hafa Microsoft 365 Skrifstofa fyrir vefáskrift. Þetta er stutt í skýjauppsetningu.
 
 ## <a name="business-document-availability"></a>Framboð á viðskiptaskjölum
 
@@ -159,7 +158,7 @@ Notaðu eftirfarandi ferli til að setja upp grunnfæribreytur fyrir alla löga�
 Valin skjalategund er fyrirtækjasértæk og verður notuð þegar notandinn er að vinna með viðskiptaskjalastjórnun í fyrirtækinu sem valin skjalategund er skilgreind fyrir. Þegar notandinn er að vinna með viðskiptaskjalastjórnun í öðru fyrirtæki, verður sama valda skjalategund notuð ef skjalategund hefur ekki verið skilgreind fyrir fyrirtækið. Þegar gerð skjals hefur verið skilreind verður hún notuð í stað þeirrar sem var valin í reitnum **SharePoint-skjalagerð**.
 
 > [!NOTE]
-> Færibreytan **SharePoint-skjalagerðar** skilgreinir SharePoint-möppu sem tímabundna geymslu fyrir sniðmát sem hægt er að breyta með annaðhvort Microsoft Excel eða Word. Þú verður að setja þessa færibreytu upp ef þú ætlar að nota þessi Office skrifborðsforrit til að breyta sniðmátum. Fyrir frekari upplýsingar, sjá [Breyta sniðmáti í Office skrifborðsforritinu](#EditInOfficeDesktopApp). Hægt er að hafa þessa færibreytu auða ef ætlunin er að breyta sniðmátinu með því að nota aðeins virknina í Microsoft 365. Frekari upplýsingar er að finna í [Breyta sniðmáti í Microsoft 365](#EditInOffice365).
+> Færibreytan **SharePoint-skjalagerðar** skilgreinir SharePoint-möppu sem tímabundna geymslu fyrir sniðmát sem hægt er að breyta með annaðhvort Microsoft Excel eða Word. Þú verður að setja þessa færibreytu upp ef þú ætlar að nota þessi Office skrifborðsforrit til að breyta sniðmátum. Fyrir frekari upplýsingar, sjá [Breyta sniðmáti í Office skrifborðsforritinu](#EditInOfficeDesktopApp). Þú getur haft þessa færibreytu auða ef þú ætlar að breyta sniðmátinu með því að nota aðeins virknina í Microsoft 365. Nánari upplýsingar er að finna í [Breyta sniðmáti í Microsoft 365](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Skilgreina aðgangsheimildir
 
@@ -300,13 +299,13 @@ Valkosturinn **Nýtt skjal** er alltaf í boði fyrir sniðmát með skilgreinin
 
 4. Veldu **Í lagi** til að staðfesta upphaf breytingarferilsins.
 
-Síðan **BDM-sniðmátsritill** mun opnast. Valið sniðmát verður í boði fyrir breytingar á netinu með Microsoft 365.
+Síðan **BDM-sniðmátsritill** mun opnast. Valið sniðmát verður tiltækt til breytinga á netinu með því að nota Microsoft 365.
 
 ![Síða sniðmátsritils viðskiptaskjalastjórnunar.](./media/BDM-Overview-EditingLayout1.png)
 
 ### <a name="edit-a-template-in-microsoft-365"></a><a name="EditInOffice365"></a>Breyta sniðmáti í Microsoft 365
 
-Hægt er að breyta sniðmátinu með Microsoft 365. Til dæmis, í Office á netinu skal breyta leturgerð reitakvaðninganna í sniðmáthausnum úr **Venjulegt** í **Feitletrað**. Þessar breytingar eru sjálfkrafa geymdar fyrir það breytanlega sniðmát sem er geymt í geymslu aðalsniðmátsins (sjálfgefið að það sé Azure blob-geymsla). Þetta er stillt fyrir ER ramma.
+Ekki er hægt að breyta sniðmáti með Microsoft 365. Til dæmis, í Office á netinu skal breyta leturgerð reitakvaðninganna í sniðmáthausnum úr **Venjulegt** í **Feitletrað**. Þessar breytingar eru sjálfkrafa geymdar fyrir það breytanlega sniðmát sem er geymt í geymslu aðalsniðmátsins (sjálfgefið að það sé Azure blob-geymsla). Þetta er stillt fyrir ER ramma.
 
 ![Leturgerð breytt í feitletraða í sniðmátshausnum á síðu sniðmátsritils viðskiptaskjalastjórnunar.](./media/BDM-Overview-EditingLayout2.png)
 
@@ -404,11 +403,11 @@ Breytta sniðmátið er notað til að mynda skýrslu reiknings með frjálsum t
 
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 
-### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>Ég valdi Breyta skjali, en í stað þess að fara á síðu BDM-sniðmátsritils í Finance var mér vísað á vefsíðu Microsoft 365.
+### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>Ég valdi Edit skjal, en í stað þess að fara á BDM sniðmáts ritstjórasíðuna í Finance, var ég sendur á Microsoft 365 Vefsíða.
 
-Þetta vandamál er þekkt vandamál sem hefur með framsendingu Microsoft 365 að gera. Það kemur upp þegar þú skráir þig inn í Microsoft 365 í fyrsta skipti. Til að vinna í kringum þetta vandamál skal velja **Til baka** í vafranum til að fara aftur á fyrri síðu.
+Þetta mál er þekkt mál sem felur í sér Microsoft 365 tilvísun. Það gerist þegar þú skráir þig á Microsoft 365 í fyrsta skipti. Til að vinna í kringum þetta vandamál skal velja **Til baka** í vafranum til að fara aftur á fyrri síðu.
 
-### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Ég skil hvernig á að breyta sniðmáti með Microsoft 365 í fyrstu hugbúnaðarlotunni og hvernig nota á sniðmátið í seinni forritalotunni sem leiðréttir sniðmátið til að sjá hvernig breytingarnar mínar hafa áhrif á myndað viðskiptaskjal. Er hægt að nota Office-skjáborðsforritið á sama hátt?
+### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-and-adjust-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-use-the-office-desktop-application-in-the-same-way"></a>Ég skil hvernig á að breyta sniðmáti með því að nota Microsoft 365 í fyrstu umsóknarlotunni og hvernig á að nota sniðmátið í seinni umsóknarlotunni og stilla sniðmátið til að sjá hvernig breytingarnar mínar hafa áhrif á útbúið viðskiptaskjal. Er hægt að nota Office-skjáborðsforritið á sama hátt?
 
 Já, það er hægt. Veldu í fyrstu forritslotunni **Opna í skjáborðsforriti**. Sniðmátið þitt verður geymt í tímabundinni skráageymslu og opnað í Office-skjáborðsforritinu. Næst skaltu ljúka eftirfarandi skrefum til að forskoða sniðmátsbreytingarnar í mynduðu viðskiptaskjali:
 

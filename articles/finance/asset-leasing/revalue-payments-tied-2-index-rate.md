@@ -2,25 +2,25 @@
 title: Endurmeta leigugreiðslur sem eru tengdar vaxtavísitölu
 description: Þetta efnisatriði lýsir leiðréttingunni sem er gerð á leigusamningnum fyrir afnotarétt af eign þegar breytilegar leigugreiðslur breytast vegna breytinga í vaxtavísitölu.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseIndexRevaluation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1b3eed28ba6fc5af02c1bbf430cc9779426084f0eaf4e027141bbdd18a70dde4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734587"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968053"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Endurmeta leigugreiðslur sem eru tengdar vaxtavísitölu
 
@@ -43,7 +43,7 @@ Fylgdu eftirfarandi skrefum til að endurmeta leigugreiðslur sem eru tengdar vi
 4. Veldu síurnar til að velja leigusamninga sem skal taka með í bakgrunnsvinnslunni og smelltu síðan á **Í lagi**.
 
     Svarglugginn **Forskoðun endurmats á vaxtavísitölu** opnast og sýnir leigusamningana sem verða endurmetnir. Einnig birtist eignin og skuldaleiðréttingar eða leiðréttingar á breytilegu greiðslunni.
-    
+
 5. Til að koma í veg fyrir að leigusamningar séu endurmetnar skal velja leigusamningana **ætti** að endurmeta. Allir leigusamningar verða endurmetnir ef þú velur enga leigusamninga. Þegar þú hefur lokið þessu skal velja **Í lagi** til að endurmeta leigusamningana.
 6. Til að skoða færslunar sem voru stofnaðar fyrir tiltekið endurmatsferli á vísitölu skal velja auðkenni vinnslunnar og síðan velja **Færslur**.
 
@@ -54,7 +54,7 @@ Fylgdu eftirfarandi skrefum til að endurmeta leigugreiðslur sem eru tengdar vi
 
 ## <a name="asc-842-leases--index-revaluation"></a>ASC 842-leigusamningar - Endurmat á vísitölu
 
-Til að skoða áhrif endurmatsferli leigusamningsins á ASC 842-leigusamninga skal opna greiðsluáætlun leigusamnings. Síðan sýnir aðeins breytilegar greiðslur sem inntar hafa verið af hendi á eða eftir að endurmatsdagsetningu var breytt vegna endurmats á vísitölu. Afskriftirnar og afskriftaráætlanir haldast óbreyttar. Þegar þú býrð til reikning með breytilegri greiðslu, er breytilega greiðslan debetfærð á bókunarlykil breytilegrar greiðslu. Einnig er upphæð breytilegu greiðslunnar bætt við kreditfærsluna sem er bókuð beint á lánardrottinn, eða bókuð í bókunarlykil Glósur, miðað við uppsetningu leigubókarinnar.
+Til að skoða áhrif endurmatsferli leigusamningsins á ASC 842-leigusamninga skal opna greiðsluáætlun leigusamnings. Síðan sýnir aðeins breytilegar greiðslur sem inntar hafa verið af hendi á eða eftir að endurmatsdagsetningu var breytt vegna endurmats á vísitölu. Afskriftirnar og afskriftaráætlanir haldast óbreyttar. Þegar þú býrð til reikning með breytilegri greiðslu, er breytilega greiðslan debetfærð á bókunarlykil breytilegrar greiðslu. Einnig er breytilegri greiðsluupphæð bætt við kreditfærsluna sem er bókuð beint til lánardrottins eða bókuð á Skýringarreikning, allt eftir uppsetningu leigubókar.
 
 Greiðsluáætlunarlínur á upplýsingasíðu leigusamningsins eru uppfærðar sjálfkrafa með nýrri línu sem tilgreinir nýju vaxtavísitöluna. Þar að auki sýnir dálkur hvort línan var búin til handvirkt eða með endurmatsferli vísitölunnar.
 
@@ -66,5 +66,7 @@ Til að skoða áhrif endurmatsferlis leigusamnings á IFRS 16-leigusamninga, sk
 
 Bókarfærslan hefur sjálfkrafa bókað færslu leiðréttingabókarinnar í lykilinn fyrir breytinguna í leigugreiðslum sem tengjast endurmati vísitölunnar.
 
+> [!NOTE]
+> Ef **Greiðsluupphæð sundurliðunar** valkosturinn er virkur á **Almennt** Flýtiflipi á **Upplýsingar um leigusamning** síðu, og tengd bók er IFRS 16, mun endurmatsferlið vísitölu sjálfkrafa bæta við skrá í **Greiðsluupphæð sundurliðuð** valmynd. Upphæðin mun endurspegla þá breytingu sem gerð var á greiðslunni vegna endurmats vísitölu. Skráin verður merkt sem **Notað fyrir endurmat IRFS 16 vísitölu**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

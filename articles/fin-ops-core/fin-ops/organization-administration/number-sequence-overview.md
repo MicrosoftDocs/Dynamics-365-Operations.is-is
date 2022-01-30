@@ -3,7 +3,7 @@ title: Yfirlit númeraraða
 description: Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kennimerki fyrir skýrslur aðalgagna og færslur sem krefjast kennimerkja.
 author: SunilGarg
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceConfiguration
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d65eb3824cfa158e6b382ee7bae2c86aab9396b
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 48e395cc3e3ccd0f93ab9523add455ef16f612ba
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778330"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985682"
 ---
 # <a name="number-sequences-overview"></a>Yfirlit númeraraða
 
@@ -30,13 +30,13 @@ ms.locfileid: "7778330"
 
 Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kennimerki fyrir skýrslur aðalgagna og færslur sem krefjast kennimerkja. færsla aðalgagna eða færsla sem krefst kennimerkis er vísað til sem *tilvísun*.
 
-Áður en hægt er að stofna nýjar færslur fyrir tilvísun verður að setja upp númeraröð og tengja hana við tilvísunina. Mælt er með því að nota síðurnar í **Fyrirtækisstjórnun** til að setja upp númeraraðir. Ef Kerfiseining stillingar eru áskilin er hægt að nota síðuna færibreytur í kerfi til að tilgreina númeraröð fyrir tilvísanir í því kerfi. Til dæmis í **viðskiptakröfur** og **viðskiptaskuldir**, er hægt að setja upp flokka númeraraða til að úthluta tilteknum númeraraðir til ákveðinna viðskiptavina eða lánardrottna.
+Áður en hægt er að stofna nýjar færslur fyrir tilvísun verður að setja upp númeraröð og tengja hana við tilvísunina. Mælt er með því að nota síðurnar í **Fyrirtækisstjórnun** til að setja upp númeraraðir. Ef Kerfiseining stillingar eru áskilin er hægt að nota síðuna færibreytur í kerfi til að tilgreina númeraröð fyrir tilvísanir í því kerfi. Til dæmis í **viðskiptakröfur** og **viðskiptaskuldir** , er hægt að setja upp flokka númeraraða til að úthluta tilteknum númeraraðir til ákveðinna viðskiptavina eða lánardrottna.
 
 Þegar sett er upp númeraröð, verður að tilgreina svið, sem skilgreinir hvaða fyrirtæki notar númeraröðina. Umfang getur verið **Samnýtt**, **Fyrirtæki**, **lögaðila**, eða **rekstrareining**. Umfang **lögaðila** og **fyrirtækja** má sameina við **tímabil fjárhagsdagatals** til að búa til enn sértækari númeraraðir.
 
 Talnarunu snið samanstanda af hluti. Númeraraðir með annað umfang en **samnýtt** geta innihaldið hluti sem samsvara umfangi. Til dæmis getur talnaröð með umfangið **lögaðili** innihaldið hluta lögaðila. Með því að hafa svið hluta í snið númeraraðar, er hægt að greina svið tiltekna færslu með því að líta á númeri þess.
 
-Auk hluta sem samsvara umfangi, geta sniðmát númeraraðar innihaldið **fasta** og **tölustafahluta** . Hlutinn **Fasti** inniheldur safn stafa, tölustafa eða tákn sem breytast ekki. **Tölustafa** Hluti inniheldur safn af bókstöfum eða tölustöfum sem hækka í hvert skipti sem tala er notuð. Nota númerstákn (\#) til að tákna hækkandi tölustafi og og-merki (&) til að tilgreina hækkandi bókstafi. Sniðið \#\#\#\#\#\_ 2017 stofnar t.d. röðina 00001\_ 2017, 00002\_ 2017 og svo framvegis.
+Auk hluta sem samsvara umfangi, geta sniðmát númeraraðar innihaldið **fasta** og **tölustafahluta** . Hlutinn **Fasti** inniheldur safn stafa, tölustafa eða tákn sem breytast ekki. **Tölustafa** Hluti inniheldur safn af bókstöfum eða tölustöfum sem hækka í hvert skipti sem tala er notuð. Nota númerstákn (\#) til að tákna hækkandi tölustafi og og-merki (&) til að tilgreina hækkandi bókstafi. Sniðið \#\#\#\#\#\_2017 stofnar t.d. röðina 00001\_2017, 00002\_2017 og svo framvegis.
 
 ## <a name="number-sequence-examples"></a>Talnarunu dæmi
 

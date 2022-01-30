@@ -9,20 +9,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "10444"
-- intro-internal
+ms.custom: intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 464092ae2fdcdfd8a0ada254e88f4418c825c1f9
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
-ms.translationtype: HT
+ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486971"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983978"
 ---
 # <a name="get-started-with-financial-reporting"></a>Hafist handa með fjárhagsskýrslugerð 
 
@@ -148,7 +146,7 @@ Hægt er að stofna ótakmarkaðan fjölda af skipuritum til að sýna gögn fyr
 
 ## <a name="update-the-financial-reporting-version-through-slipstreaming"></a>Uppfæra útgáfu fjárhagsskýrslugerðar í gegnum innlimun
 
-Finance and Operations forrit eru uppfærð í hverjum mánuði. Aftur á móti er fjárhagsskýrslugerð ekki endilega uppfærð með sömu tíðni. Auk þess hafa viðskiptavinir fleiri valkosti varðandi hvenær þeir innleiða uppfærslur fyrir Finance and Operations forrit. Uppfærslur fjárhagsskýrslugerðar eru sjálfkrafa settar upp. Fjárhagsskýrslugerð er með uppgefna útgáfu sem er notuð í umhverfi viðskiptavinar þegar þjónustuuppfærsla er innleidd, þegar niðurtími fer í gang eða þegar umhverfi viðskiptavinar er í viðhaldsham. Þetta ferli er þekkt sem *innlimun* eða *jöfnun* vegna þess að allar innleiðingar viðskiptavinar eru stilltar á sömu útgáfu af fjárhagsskýrslugerð.
+Fjármála- og rekstraröpp eru uppfærð í hverjum mánuði. Aftur á móti er fjárhagsskýrslugerð ekki endilega uppfærð með sömu tíðni. Þar að auki hafa viðskiptavinir fleiri valkosti um hvenær þeir innleiða uppfærslur fyrir Finance and Operations öpp. Uppfærslur fjárhagsskýrslugerðar eru sjálfkrafa settar upp. Fjárhagsskýrslugerð er með uppgefna útgáfu sem er notuð í umhverfi viðskiptavinar þegar þjónustuuppfærsla er innleidd, þegar niðurtími fer í gang eða þegar umhverfi viðskiptavinar er í viðhaldsham. Þetta ferli er þekkt sem *innlimun* eða *jöfnun* vegna þess að allar innleiðingar viðskiptavinar eru stilltar á sömu útgáfu af fjárhagsskýrslugerð.
 
 Breytingar sem eru gefnar út í hverri útgáfu er hægt að finna í [Nýjungar eða breytingar í Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Verkvangsuppfærslur og villuleiðréttingar er hægt að finna í hlutanum „Frekari tilföng“ neðst á síðunni fyrir hverja útgáfu.
 

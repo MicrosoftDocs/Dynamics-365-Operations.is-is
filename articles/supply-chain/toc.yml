@@ -6,7 +6,7 @@
           href: index.md
         - name: Nýjungar eða breytingar
           items:
-            - name: Nýjungar eða breytingar í Finance and Operations-forritum
+            - name: Nýjungar eða breytingar í fjármála-og rekstrarforritum
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
             - name: Nýjungar eða breytingar í Supply Chain Management
               items:
@@ -16,10 +16,6 @@
                   href: get-started/whats-new-scm-10-0-24.md
                 - name: Supply Chain Management 10.0.23 (janúar 2022)
                   href: get-started/whats-new-scm-10-0-23.md
-                - name: Supply Chain Management 10.0.22 (nóvember 2021)
-                  href: get-started/whats-new-scm-10-0-22.md
-                - name: Supply Chain Management 10.0.21 (október 2021)
-                  href: get-started/whats-new-scm-10-0-21.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -178,7 +174,7 @@
               items:
                 - name: Heimasíða stjórnunar innleiðingarferlis
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Hönnun fyrir Finance and Operations -forrit
+                - name: Hönnun fyrir forrit Finance and Operations
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Microsoft FastTrack
                   href: /dynamics365/fasttrack/
@@ -621,7 +617,7 @@
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
         - name: Altækt birgðabókhald
           items:
-            - name: Altækt birgðabókhald –heimasíða
+            - name: Altækt birgðabókhald – heimasíða
               href: global-inventory-accounting/global-inventory-accounting-home.md
             - name: Hafist handa með altækt birgðabókhald
               href: global-inventory-accounting/get-started-with-gia.md
@@ -3905,7 +3901,7 @@
                   href: troubleshooting/warehousing/work-remains-blocked.md
                 - name: Ekki er hægt að hætta við vinnu sem er skráð á notanda
                   href: troubleshooting/warehousing/you-cannot-cancel-wo.md
-    - name: Hönnun og stjórnun Finance and Operations-forrita
+    - name: Þróun og stjórnun forrita fyrir Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md

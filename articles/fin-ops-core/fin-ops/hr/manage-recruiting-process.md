@@ -1,8 +1,8 @@
 ---
-title: Haga ráðningarferlum
-description: Þessi grein lýsir hugtakinu sem ráðningaraðilar geta tekið til að rekja skref í ráðningarferlinu.
+title: Stjórna ráðningarferlum
+description: Þetta efni lýsir hugtaki sem ráðningaraðilar geta notað til að fylgjast með skrefum í ráðningarferli.
 author: andreabichsel
-ms.date: 06/20/2017
+ms.date: 01/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adf873a58900fa86d068d9ebc75f4f389e7d8359cc685d4635e083437c55ae56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: c9a5e89e700858ed9e625fbdee630fa14ebea26e
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752991"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7965065"
 ---
 # <a name="manage-recruiting-processes"></a>Stjórna ráðningarferlum
 
@@ -42,7 +42,7 @@ Ráðningarverk leyfa ráðningaraðilum að rekja framvindu gegn fyllingu einna
 - Tímamörk umsóknar
 - Áætlaður upphafsdagur
 
-Ráðningarverkið inniheldur **Starfsauglýsinguna** sem er notuð í **Sjálfsafgreiðsla starfsmanns** til að auglýsa stöðurnar. Til að birta starfsmönnum stöðurnar verður ráðningarverkið að hafa **Starfsauglýsinguna**, reitinn **Birta í sjálfsafgreiðslu starfsmanns** stilltan á Já, **Tímamörk umsóknar** verður að vera stillt á dagsetningu í framtíðinni, og ráðningarverkið verður að hafa í **staða Verks** byrjað. Í eftirfarandi töflu er listi yfir möguleg ráðningarverk verkstöðu og lýsingu þeirra.
+Ráðningarverkefnið inniheldur **Atvinnuauglýsing** gildi sem er notað á **Sjálfsafgreiðsla starfsmanna** síðu til að auglýsa opnunina. Aðeins er hægt að sýna starfsmönnum opnunina ef ráðningarverkefnið hefur a **Atvinnuauglýsing** gildi, the **Birting á sjálfsafgreiðslu starfsmanna** reiturinn er stilltur á **Já**, hinn **Umsóknarfrestur** reit er stillt á framtíðardagsetningu og ráðningarverkefnið hefur a **Staða verkefnisins** verðmæti á **Byrjað**. Í eftirfarandi töflu er listi yfir möguleg ráðningarverk verkstöðu og lýsingu þeirra.
 
 | Staða    | Gefur til kynna að...                                                                         |
 |-----------|-----------------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ Ráðningaraðilar geta einnig skráð fyrir **Miðla** sem notaðir voru til a�
 
 ## <a name="applicants"></a>Umsækjendur
 
-Umsækjandi er sá einstaklingur sem sækir um starf í fyrirtækinu. Umsækjendur eru samnýttar á milli allra lögaðila í samstæðunni, sem veitir stóran hóp af færu fólki til að leita í. Hægt er að viðhalda færni, meðmælum, og beiðnum um aðlögun og persónulegum upplýsingum fyrir umsækjendur. Þegar færsla umsækjanda er stofnuð, tengiliðafærslu fyrir umsækjanda er stofnuð í altæku aðsetursbókinni. Hægt er að nota síðuna **Umsækjandi** til að uppfæra eftirfarandi altækar aðsetursbókarupplýsingar fyrir einstaklinga sem eru umsækjendur:
+Umsækjandi er sá einstaklingur sem sækir um starf í fyrirtækinu. Umsækjendum er deilt á milli allra lögaðila í fyrirtækinu þínu. Þess vegna hefur þú stóran hóp af hæfileikum til að leita í. Hægt er að viðhalda færni, meðmælum, og beiðnum um aðlögun og persónulegum upplýsingum fyrir umsækjendur. Þegar færsla umsækjanda er stofnuð, tengiliðafærslu fyrir umsækjanda er stofnuð í altæku aðsetursbókinni. Hægt er að nota síðuna **Umsækjandi** til að uppfæra eftirfarandi altækar aðsetursbókarupplýsingar fyrir einstaklinga sem eru umsækjendur:
 
 - Upplýsingar um aðsetur
 - Tengslaupplýsingar
@@ -84,7 +84,7 @@ Staða umsóknar gefur til kynna hvar umsókn er í ráðningarferlinu. Í eftir
 
 ### <a name="correspondence-actions"></a>Samskiptaaðgerðir
 
-Samskiptaaðgerð **Umsóknar** ákvarðar sniðmát skjals eða tölvupóstsniðmát sem notað er til að eiga samskipti við umsækjandann sem sendi inn umsóknina. Hægt er að tengja **Bókamerki umsókna** við samskiptaaðgerðir til að leyfa að gildi séu notuð af síðunum Umsókn, Umsækjandi, Viðtal og Ráðningarverk í samskiptum við umsækjendur. Hægt er að stofna **Tölvupóstsniðmát umsókna** fyrir samskiptaaðgerðir til að senda skjótan tölvupóst til umsækjenda sem hafa umsókn með tiltekna samsetningu á stöðu og samskiptaaðgerð. Til dæmis gætirðu sent staðfestingartölvupóst til allra umsækjenda með **stöðuna** Móttekið **samskiptaaðgerðina** Móttekið. Þegar tölvupósturinn hefur verið sendur þarf að uppfæra sjálfkrafa stöðu umsókna.
+Samskiptaaðgerð umsóknar ákvarðar skjalið eða tölvupóstsniðmátið sem þú notar til að eiga samskipti við umsækjanda sem lagði inn umsóknina. Með því að tengja **bókamerki forrita** með samskiptaaðgerðum geturðu notað gildi úr **Umsókn**, **·**, **·**, og **Ráðningarverkefni** síður í samskiptum þínum við umsækjendur. Með því að búa til **umsóknarsniðmát fyrir tölvupóst** fyrir bréfaskiptaaðgerðirnar geturðu sent tölvupóst á fljótlegan hátt til umsækjenda þar sem umsóknir hafa ákveðna blöndu af stöðu og bréfaskiptaaðgerð. Til dæmis er hægt að senda staðfestingarpóst á öll forrit sem hafa a **Staða** verðmæti á **Tekið á móti** og a **Bréfaaðgerðir** verðmæti á **Tekið á móti**. Eftir að þú hefur sent tölvupóstinn hefurðu möguleika á að uppfæra sjálfkrafa stöðu forritanna.
 
 ## <a name="application-routing"></a>Leiðir umsókna
 
@@ -101,6 +101,5 @@ Ef nokkrir starfsmenn þurfa að skoða umsóknina er hægt að nota síðuna **
 ## <a name="hiring-applicants"></a>Ráðnir umsækjendur
 
 Nota skal **Umsóknir** síðu til að ráða umsækjanda. Þegar umsækjandi er ráðinn mun umsóknarfærslan fá stöðuna **Ráðinn** og einstaklingsfærsla umsækjandans í altækri aðsetursbók er tengd við nýja skrá starfsmanns. Breytingar á upplýsingum altækrar aðsetursbókar fyrir nýja færslu starfsmanns eru einnig birtar í færslu umsækjanda. Þetta getur minnkað gagnainnfærslu ef nýr starfsmaður sækir aldrei um annað starf innan fyrirtækisins. Til að ráða starfsmanni í nýja stöðu, smellið á **Breyta stöðu** í fellilistanum **Umsóknastaða** til að hefja flutningsferlið.
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

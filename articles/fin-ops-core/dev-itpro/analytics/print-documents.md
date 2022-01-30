@@ -3,7 +3,7 @@ title: Yfirlit skjalaprentunar
 description: Hægt er að prenta skjöl með því að nota annaðhvort staðbundinn prentara eða nettengt tæki. Þessi grein gefur yfirlit yfir hvernig skjöl eru prentuð.
 author: RichdiMSFT
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Application User
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5a0d26836043ea225b9a6d3e62980ada2dc49b0a01a6dacec739b50f28e17bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728239"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984909"
 ---
 # <a name="document-printing-overview"></a>Yfirlit skjalaprentunar
 
@@ -51,10 +51,10 @@ Eftirfarandi tafla lýsir þremur aðalprentmyndum.
 Vegna þess að lausnin er breytileg, er háð aðstæðum, veita forrit innbyggðar þjónustur og verkfæri til að hjálpa notendum að ná markmiðum sínum:
 
 - **Aðstæður 1** er studd af myndþýðingu vafrans á HTML5-biðlara.
-- **Aðstæður 2** notar biðlaraforrit og þjónustu Microsoft 365.
+- **Aðstæður 2** notar biðlaraforrit og þjónustur Microsoft 365.
 - **Aðstæður 3** krefst stuðnings frá biðlaraforritum og þjónustum sem eru hýstar í Microsoft Azure.
 
-Til viðbótar við verkvanginn sem er notaður á Azure-áskriftina, veita Finance and Operations forrit viðskiptavinum samþætt Azure-forrit frá fyrsta aðila sem auðveldar þeim að nota á lénhýst tæki til að prenta skjöl.
+Til viðbótar við verkvanginn sem er notaður á Azure-áskriftina, veita forrit Finance and Operations viðskiptavinum samþætt Azure-forrit frá fyrsta aðila sem auðveldar þeim að nota á lénhýst tæki til að prenta skjöl.
 
 ## <a name="service-overview"></a>Þjónustuyfirlit
 Á meðan skjöl sem eru búin til af hýstum forritum bíða eftir að vera prentuð á nettengdu tæki, eru þau geymd í Azure blob-geymslu. [Setja upp eftirlitsbúnað skjalasendingar til að virkja nettengda prentun](install-document-routing-agent.md) notar Azure sannvottun til að koma á öruggri rás til Azure-þjónustunnar.

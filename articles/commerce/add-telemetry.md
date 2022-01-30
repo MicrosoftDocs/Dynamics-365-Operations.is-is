@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3916b18c797222c300957fb25cabad78c4fcb9744a29d611a81b0bda3e9834d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f796a3e10345da41ff461b656d88affb3adbdf9e
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724605"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964530"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar
 
@@ -111,8 +111,6 @@ Fylgdu þessum skrefum til að bæta ytri forskrift beint við sniðmát í vefs
 [Unnið með CSS hnekkiskrám](css-override-files.md)
 
 [Bæta við táknmynd](add-favicon.md)
-
-[Bæta við opnunarkveðju](add-welcome-message.md)
 
 [Bæta við yfirlýsingu um höfundarrétt](add-copyright-notice.md)
 

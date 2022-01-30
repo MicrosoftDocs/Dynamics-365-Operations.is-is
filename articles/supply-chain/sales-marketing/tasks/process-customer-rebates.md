@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 355ca6b8a06b15b68e0fd6236999b4e64a83bf2a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573346"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969088"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Mynda og vinna úr eftirágreiddum afslætti viðskiptavina
 
@@ -69,7 +69,7 @@ ms.locfileid: "7573346"
 2. Smellt er á **Uppsafna**.
 3. Í reitnum **Viðskiptavinur** skal færa inn eða velja gildi.
 4. Í reitnum **Upphafsdagur** skaltu velja daginn í dag.
-5. Smellt er á **OK**. Þegar aðgerðin **Uppsöfnun** hefur verið keyrð er áætluð kröfuupphæð nú leiðrétt við lykil þar sem heildarsölumagn viðskiptavinar á viðkomandi tímabili er meira en þegar fyrsti eftirágreiddur afslátturinn var myndaður. Nánar, þar sem keypt magn samtals hefur náð 100 einingar, viðskiptavinur er nú hæfur fyrir 40 USD á hverja einingu (samkvæmt á samningnum um annað hlé í magni) eða 400 USD samtals upphæð eftirágreidds afsláttar. Munurinn er skráð sem í "leiðrétting" nýrrar kröfu fyrir viðbótar 800 USD. Staða krafna um eftirágreiddan afslátt sem voru hafðar með í Heildaruppfærsla eru nú stillt á Reiknuð. 
+5. Smellt er á **OK**. Þegar aðgerðin **Uppsöfnun** hefur verið keyrð er áætluð kröfuupphæð nú leiðrétt við lykil þar sem heildarsölumagn viðskiptavinar á viðkomandi tímabili er meira en þegar fyrsti eftirágreiddur afslátturinn var myndaður. Nánar, þar sem keypt magn samtals hefur náð 100 einingar, viðskiptavinur er nú hæfur fyrir 40 USD á hverja einingu (samkvæmt á samningnum um annað hlé í magni) eða 4,000 USD samtals upphæð eftirágreidds afsláttar. Munurinn er skráð sem í "leiðrétting" nýrrar kröfu fyrir viðbótar 800 USD. Staða krafna um eftirágreiddan afslátt sem voru hafðar með í Heildaruppfærsla eru nú stillt á Reiknuð. 
 6. Í listanum er merkt við allar línur.
 7. Smelltu á **Samþykkja**.
 8. Smelltu á **Vinnslu**.

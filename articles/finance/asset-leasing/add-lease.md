@@ -2,25 +2,25 @@
 title: Bæta við eða afrita leigusamninga (forskoðun)
 description: Þetta efnisatriði lýsir því hvernig á að stofna nýjan leigu með því að færa inn upplýsingar um hana í Eignarleiga eða afrita upplýsingar úr fyrirliggjandi leigu.
 author: moaamer
-ms.date: 12/06/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e6f47e7bccdfa5205209a290b2ce0d37f2e5a534
-ms.sourcegitcommit: c42d047cb866f7988f1879ac84cd45284a03abf8
+ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7931982"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7967927"
 ---
 # <a name="add-or-copy-leases-preview"></a>Bæta við eða afrita leigusamninga (forskoðun)
 
@@ -35,8 +35,19 @@ Fylgdu þessum skrefum til að búa til leigu á Eignleiga.
 1. Á síðunni **Samantekt leigu**, á aðgerðasvæðinu, skal velja **Nýr**.
 2. Færið inn leiguupplýsingar. Reitir sem eru nauðsynlegir eru með rauðan ramma.
 
-> Upphafsdagur leigugreiðslunnar má ekki vera fyrr en upphafsdagur leigusamnings. Ef þú slærð inn upphafsdagsetningu leigugreiðslunnar sem er fyrr en upphafsdagsetning leigusamningsins færðu villuboð.
-  
+Upphafsdagur leigugreiðslunnar má ekki vera fyrr en upphafsdagur leigusamnings. Ef þú slærð inn upphafsdagsetningu leigugreiðslunnar sem er fyrr en upphafsdagsetning leigusamningsins færðu villuboð.
+
+Sjálfgefið er **Greiðsluupphæð sundurliðunar** valmöguleika á **Almennt** Flýtiflipi á **Upplýsingar um leigusamning** síða er stillt á **Nei** ef **Leyfa sundurliðun greiðslu** valmöguleika á **Eignaleiga færibreytur** síða er stillt á **Já**. 
+
+Ef **Greiðsluupphæð sundurliðunar** valkostur er stilltur á **Já**, hinn **Greiðslu upphæð** sviði á **Greiðsluáætlunarlínur** Flýtiflipi er læstur. Það verður stillt á samtals greiðsluupphæða sem færðar eru síðar í **Sundurliðun greiðsluupphæðar** vörulista.
+
+Veldu **Sundurliðun greiðsluupphæðar** til að opna síðu þar sem hægt er að bæta við sundurliðuðum greiðslutegundum. The **Bættu heildartölum við greiðsluupphæð** hnappur mun færa heildartölurnar í **Greiðslu upphæð** sviði.
+
+> [!NOTE]
+> Ef þú bætir við sundurliðaðri greiðsluupphæð og velur síðan **Esc** lykli, innsláttar upphæðir verða ekki bættar við **Greiðslu upphæð** sviði á **Greiðsluáætlunarlínur** Flýtiflipi. Þess í stað verða þau geymd í **Sundurliðun greiðsluupphæðar** valmynd. Ef þú vilt að svarglugginn sýni heildarupphæðina skaltu velja **Magn** dálk, veldu og haltu inni (eða hægrismelltu) og veldu síðan **Samtals þennan dálk**. 
+
+The **Afritaðu línu** hnappur mun afrita sundurliðaða greiðslusundurliðun.
+
 ## <a name="create-a-lease-schedule"></a>Búa til leiguáætlun
 
 Þegar búið er að færa inn upplýsingar fyrir leiguna, skal fylgja þessum skrefum til að stofna leiguáætlun.
@@ -50,9 +61,9 @@ Fylgdu þessum skrefum til að búa til leigu á Eignleiga.
     Á síðunni **Upplýsingar um bók** birtist hvernig leigan er gjaldfærð fyrir bækurnar sem hefur verið úthlutað á hana. Þaðan er hægt að skoða leiguáætlanir.
 
     Greiðsluáætlun inniheldur innbætur úr **Greiðsluáætlunarlínum** á flipanum **Bæta við leigusamningi**. Enn er hægt að breyta hverri greiðsluupphæð og breytilegri greiðslu. Leiguskuldbinding er reiknuð út á grundvelli breyttrar greiðsluáætlunar.
-    
-> [!NOTE]
-> Upphafsdagur leigugreiðslu skal vera sá sami eða síðari en upphafsdagur leigusamnings. Þú færð villuboð ef upphafsdagur greiðslu er fyrr en upphafsdagsetning leigusamnings. 
+
+    > [!NOTE]
+    > Upphafsdagur leigugreiðslu skal vera sá sami eða síðari en upphafsdagur leigusamnings. Þú færð villuboð ef upphafsdagur greiðslu er fyrr en upphafsdagsetning leigusamnings. 
 
 4. Eftir að lokið er að endurskoða greiðsluáætlun skal velja **Staðfesta áætlun**. Þegar áætlunin hefur verið staðfest er ekki lengur hægt að breyta leigunni.
 

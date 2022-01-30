@@ -3,7 +3,7 @@ title: Yfirlit yfir framleiðsluferli
 description: Þetta efnisatriði veitir yfirlit yfir framleiðsluferlið. Hún lýsir mismunandi stigum framleiðslupantana, runupantana og kanbana, frá stofnun pöntunar til lokunar fjárhagstímabilsins.
 author: johanhoffmann
 ms.date: 09/13/2019
-ms.topic: article
+ms.topic: overview
 ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace, ProdParmCostEstimation, ProdParmRelease, ProdSchedule, ProdTableListPage
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a07733f7e1e830fa1c1c4c8e0cfdc5b41d10750
-ms.sourcegitcommit: efccf0838c74cf65382bb6cd852f9bc30ca69230
+ms.openlocfilehash: 8c9eac4d3f984b6fe511d7cc5ebab67e6c24c722
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7727336"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983214"
 ---
 # <a name="production-process-overview"></a>Yfirlit yfir framleiðsluferli
 
@@ -31,7 +31,7 @@ Framleiðsla á vörum, ferli sem er einnig þekkt sem líftími framleiðslu, f
 
 Kerfiseiningin **Framleiðslustýring** er tengd við aðrar kerfiseiningar, eins og **Upplýsingar um afurðastjórnun**, **Birgðastjórnun**, **Fjárhagur**, **Vöruhúsakerfi**, **Verkbókhald** og **Fyrirtækisstjórnun**. Þessi samþætting styður upplýsingaflæðið sem er krafist til að klára framleiðslu afurðar.
 
-Framleiðsluferlið verður vanalega fyrir áhrifum af kostnaðarbókhalds- og birgðamatsaðferðum sem eru valdar fyrir tiltekið framleiðsluferli. Supply Chain Management styður bæði raunkostnað (fyrst inn, fyrst út \[ FIFO\]; síðast inn, fyrst út \[ LIFO\]; hlaupandi meðaltal og reglubundið vegið meðaltal) og aðferðir staðalkostnaðar. Lean-framleiðsla er innleidd byggt á reglu bakfærslukostnaðaraðgerðarar.
+Framleiðsluferlið verður vanalega fyrir áhrifum af kostnaðarbókhalds- og birgðamatsaðferðum sem eru valdar fyrir tiltekið framleiðsluferli. Supply Chain Management styður bæði raunkostnað (fyrst inn, fyrst út \[FIFO\]; síðast inn, fyrst út \[LIFO\]; hlaupandi meðaltal og reglubundið vegið meðaltal) og aðferðir staðalkostnaðar. Lean-framleiðsla er innleidd byggt á reglu bakfærslukostnaðaraðgerðarar.
 
 Val á kostnaðarmatsaðferðunum skilgreinir einnig kröfur um skýrslugerð um efni og tilfanganotkun meðan á framleiðsluferlinu stendur. Yfirleitt krefjast raunkostnaður aðferðir nákvæmra skýrslna á vinnslustigi en reglubundnar kostnaðarútreikningsaðferðir leyfa minna grófa skýrslugerð um efni og tilföng.
 

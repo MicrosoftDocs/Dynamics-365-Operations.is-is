@@ -3,7 +3,7 @@ title: Greiðsluyfirlit omni-rásar
 description: Þetta efnisatriði veitir yfirlit yfir greiðslur omni-rásar í Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 09/17/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 0b01a5b08304b04b924da20310b6eee0c50e9d0e
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 593a647caeaf7d06aa1f2067954466db7dac6a1d
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779719"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984167"
 ---
 # <a name="omni-channel-payments-overview"></a>Greiðsluyfirlit Omni-rásar
 
@@ -139,7 +139,7 @@ Fylgdu þessum skrefum til að keyra atburðarásirnar.
 9. Veljið **Ljúka** til að færa inn flæði pöntunarloka.
 10. Flettið niður á greiðsluhlutann, veljið **Bæta við** og veljið síðan línu þar sem gerð greiðslumáta er stillt á **Kort**. 
 11. Veljið plúsmerkið (**+**) til að bæta við kortagreiðslu. 
-12. Færið inn upplýsingarnar fyrir prufunúmer kreditkorts sem fannst á [Síða fyrir prufukortanúmer Adyen](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/#description) og veljið síðan Í lagi.
+12. Færið inn upplýsingarnar fyrir prufunúmer kreditkorts sem fannst á [Síða fyrir prufukortanúmer Adyen](https://docs.adyen.com/development-resources/test-cards/test-card-numbers/#description) og veljið síðan **Í lagi**.
 
     > [!NOTE]
     > Ef kortategundin fyrir kortanúmerið sem var slegið inn er ólík þeirri tegund sem var valin þegar greiðslan var sett af stað, mun greiðslan samt fara í gegn. Hins vegar verður hún bókuð í lyklana sem er varpað í kortategundina sem var valin í skrefi 10.

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e86294b8b467367d954013764a029f7b20270b95
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: f0a8f5948d9e30eb220aa8177a4b9718223a4f9d
+ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860668"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8013835"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Virkja Power BI fyrir altækt birgðabókhald
 
@@ -51,8 +51,9 @@ Fylgið þessum skrefum til að setja upp Power BI-samþættingu.
 
     1. Farið á **Vinnusvæðið mitt**, finnið gagnasafnið fyrir altækt birgðabókhald og síðan í valmyndinni **Valkostir** skal velja **Stillingar**.
     1. Í **Stillingar fyrir altækt birgðabókhald** skal víkka út **Færibreytur** og uppfæra allar færibreytur eftir þörfum. Einkum skal gæta þess að skoða eftirfarandi stillingar:
-        1. Skrifa yfir sjálfgefin **Dataverse vefslóð** og **umhverfisauðkenni** með því að nota gildin sem finna má á **umhverfisupplýsingasíðu** í LCS (í **Power Platform samþættingarhlutanum**).
-        1. Veldu tengilinn **Breyta skilríkjum** við hliðina á **Cds**-merkinu í hlutanum **Skilríki gagnagjafa**. Skráðu þig síðan inn á Dataverse reikninginn þinn með **OAuth2** sannvottunaraðferðinni.
+        1. Skrifaðu yfir sjálfgefið **Dataverse URL** gildi með því að nota gildin sem finnast undir **Umhverfisupplýsingar um kraftpalla** í LCS (í **Power pallur samþætting** kafla).
+        1. Skrifaðu yfir sjálfgefið **Umhverfiskenni** gildi með því að nota gildin sem finnast undir **Umhverfisupplýsingar** í LCS (í **Stjórna umhverfi** kafla).
+        1. Veldu **Breyta skilríkjum** hlekkur við hliðina á **Geisladiskar** merki í **Skilríki gagnagjafa** kafla. Skráðu þig síðan inn á Dataverse reikninginn þinn með **OAuth2** sannvottunaraðferðinni.
     1. Staðfestu að Power BI skýrslurnar á **vinnusvæðinu mínu \> Skýrslur \> altækt birgðabókhald** virki nú rétt og sýni efni úr kerfinu.
 
 1. Skrá forritið eins og lýst er í [Stilla PowerBI.com samþættingu](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process).
