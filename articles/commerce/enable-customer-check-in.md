@@ -15,17 +15,16 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 320e9d73ca98bf4ed22ac9bdff2fc34ae83223ec
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: 95b4e3a1750cf072db919492f7445e87654701da
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891413"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983162"
 ---
 # <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>Virkja innskráningartilkynningar viðskiptavinar á sölustað (POS)
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Í þessu efnisatriði er lýst hvernig á að virkja tilkynningar um innskráningu viðskiptavina á Microsoft Dynamics 365 Commerce sölustað.
 
@@ -87,7 +86,7 @@ Fylgdu þessum skrefum til að prófa innritunareiginleika viðskiptavina.
 Eftir að þú hefur staðfest að innritunareiginleikinn viðskiptavina virki frá enda til enda skaltu fylgja þessum skrefum.
 
 1. Birtu innritunarsíðuna.
-1. Ef þú ert að prófa í framleiðsluumhverfi skaltu afskrifa slóðina í tölvupóstsniðmátinu „pöntun tilbúin til afhendingar“, svo að **ég er hér** hlekkur eða hnappur birtist. Hladdu síðan upp sniðmátinu aftur.
+1. Ef þú ert að prófa í framleiðsluumhverfi skaltu afskrifa slóðina í tölvupóstsniðmátinu „pöntun tilbúin til afhendingar“, þannig að **ég er hér** hlekkur eða hnappur birtist. Hladdu síðan upp sniðmátinu aftur.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

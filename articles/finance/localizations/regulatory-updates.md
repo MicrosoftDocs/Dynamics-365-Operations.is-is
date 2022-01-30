@@ -2,22 +2,22 @@
 title: Regluuppfærslur
 description: Þetta efnisatriði gefur lista yfir áætlaðar og útgefnar reglubundnar uppfærslur á Microsoft Dynamics 365 Finance.
 author: VStamberg
-ms.date: 07/15/2021
+ms.date: 01/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 16d4b9b31f213218fa5eb79c9808e5139db2dbd2239e7bb29c62af15aa372a9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f4c9d82d882771c2b7131169615504613836def9
+ms.sourcegitcommit: 68655c5673aef9892063e5913ffee6bfc3817387
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772746"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "8016101"
 ---
 # <a name="regulatory-updates"></a>Regluuppfærslur
 
@@ -25,7 +25,7 @@ ms.locfileid: "6772746"
 
 Þetta efnisatriði birtir regluuppfærslurnar sem eru fyrirhugaðar og útgefnar í Dynamics 365 Finance studdum staðfærslum. Tímalínur afhendingar geta breyst og áætluð virkni getur breyst eða ekki verið gefin út. Frekari upplýsingar er að finna í [Microsoft-reglur](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Regluuppfærslur eru eiginleikar sem eru innleiddir til að styðja nýjar eða breyttar landsbundnar reglugerðir. Nánari upplýsingar um fyrirhugaðar og útgefnar landsbundna eiginleika er að finna í [Dynamics 365 og Power Platform útgáfuáætlunum](/business-applications-release-notes/index).
+Regluuppfærslur eru eiginleikar sem eru innleiddir til að styðja nýjar eða breyttar landsbundnar reglugerðir. Fyrir frekari upplýsingar um fyrirhugaða og gefna landssértæka eiginleika, sjá [Dynamics 365 og Power Platform útgáfuáætlanir](/business-applications-release-notes/index).
 
 Microsoft reynir að innleiða nýjar kröfur um reglugerðir sem allra fyrst. Raunverulegur afhendingardagur fer eftir deginum sem lögin eru tilkynnt, tiltækileika á upplýsingum krafanna frá yfirvöldum á staðnum, framboði á sannvottunartólum og stærð og flækjustigi breytinganna.
 
@@ -71,7 +71,7 @@ Fyrir nýjustu áætlanir á uppfærslu á reglum skal skoða eftirfarandi töfl
 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
-- Finnið allar áætlaðar og útgefnar regluuppfærslur í [Lifecycle Service - vandamálaleit](https://lcs.dynamics.com/Logon/Index) (innskráning nauðsynleg).
+- Fyrir frekari upplýsingar um allar fyrirhugaðar og gefnar landssértækar reglugerðaruppfærslur, sjá [Leitaðu að landssértækum reglugerðaruppfærslum](search-for-regulatory-updates.md). (Innskráning er nauðsynleg.)
 - Fyrir lista yfir staðfærslur sem eru studdar fyrir skal sjá [Alþjóðlegt aðgengi að leiðbeiningum](https://aka.ms/dynamics_365_international_availability_deck).
 
 

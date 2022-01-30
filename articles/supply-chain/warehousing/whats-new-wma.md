@@ -2,7 +2,7 @@
 title: Nýjungar eða breytingar í farsímaforriti Warehouse Management
 description: Í þessu efnisatriði er að finna lista yfir nýja og breytta eiginleika fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 09/09/2021
+ms.date: 01/18/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,51 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9d50c1380418365f7c51d6b96051e9ea68a5f104
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 6f45cacd7f43c8caf836fd1ea24d354e4bcf5853
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901889"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007575"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er að finna nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20140"></a>Útgáfa 2.0.14.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+
+- Lagaði vandamál sem slökkti á sjálfgefna Senda hnappinum.
+
+## <a name="version-20130"></a>Útgáfa 2.0.13.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+ 
+- Bætt fletta á milli síðna með mýkri hreyfimynd.
+- Lagfærð gagnsæ viðbrögð við strjúkahreyfingum og einstaka skjálfrýsingu.
+- Endurbætt texta- og bakgrunnslitasamsetning í dökkri stillingu fyrir betri læsileika.
+- Lagaði vandamál þar sem einhver texti gæti orðið mjög lítill þegar stærð forritsgluggans var breytt.
+- Lagaði vandamál sem gæti stundum hrundið forritinu þegar strikamerki voru skannað.
+- Bætti við möguleikanum á að skipta um renna fyrir hnapp.
+- Lagaði vandamál sem gæti valdið því að appið sýndi villuboðin, "AADSTS7000215: Ógilt leyndarmál viðskiptavinar er gefið upp."
+- Lagaði vísbendingahreyfinguna sem sýnir hvernig á að loka síðu með því að strjúka niður.
+- Bætti við möguleikanum á að loka síðu með því að fletta niður.
+- Lagaði vandamál þar sem titlar fellilista voru ekki sýndir á **Notendastillingar** síðu.
+- Lagaði staðsetningarvandamál þar sem appið myndi ekki þekkja kommu (,) sem tugaskilju.
+- Bætt aðgengi.
+- Lagaði siglinguna á **Nýtt samband** síðu til að veita bætt aðgengi.
+- Lagaði vandamál þar sem mjúka (skjá) lyklaborðið birtist ekki þegar valinn var innsláttarreitur.
+- Lagaði vandamál sem gæti hrundið forritinu ef notendur breyttu stærð glugga þess fljótt.
+- Lagaði mál þar sem hröð takkaýting var stundum túlkuð sem löng ýting.
+- Lagaði vandamál þar sem útlit appsins gæti skemmst vegna sérstillinga á sviði sem gerðar voru í Supply Chain Management.
+- Lagaði vandamál þar sem staðsetningar vara voru ekki birtar á réttan hátt.
+- Lagaði vandamál sem tengist stuttri tínslu fyrir verkflæði vöruafbrigðis.
+- Fjarlægði óþarfa staðfestingu á reitum sem innihalda forstillt sjálfgefin gildi.
+- Bætt frammistaða.
+- Bætt við nýrri stillingu sem gerir notendum kleift að velja hvernig reitir eru síaðir og raðaðir á kortasíðuna.
 
 ## <a name="version-20110"></a>Útgáfa 2.0.11.0
 

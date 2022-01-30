@@ -1,5 +1,5 @@
 ---
-title: Leggja mat á upprunalega greiðsluspá viðskiptavinarins (forskoðun)
+title: Leggja mat á upprunalega greiðsluspá viðskiptavinarins
 description: Þetta efnisatriði lýsir skrefum sem má taka til að skilja greiðsluspá viðskiptavinar og meta skilvirkni hennar.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f45392d540b6696d23261a6b2197c3185f5ede2b7c646f6b751480145dcacfdc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768868"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969113"
 ---
-# <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Leggja mat á upprunalega greiðsluspá viðskiptavinarins (forskoðun)
+# <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Leggja mat á upprunalega greiðsluspá viðskiptavinarins
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,13 +34,13 @@ ms.locfileid: "6768868"
 
 [![Tengill til að auka nákvæmni líkans.](./media/prediction-model.png)](./media/prediction-model.png)
 
-Um leið og smellt er á tengilinn opnast AI Builder, þar sem hægt er að fá frekari upplýsingar um núverandi líkan og frekari skref til að bæta líkanið. Skýringarmyndin hér á eftir sýnir síðuna sem opnast.
+Þessi hlekkur leiðir þig til AI Builder, þar sem þú getur lært meira um núverandi líkan og einnig gert ráðstafanir til að bæta það. Skýringarmyndin hér á eftir sýnir síðuna sem opnast.
 
 [![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 Eftirfarandi upplýsingar birtast á síðunni sem opnast:
 
-- Í hlutanum **Frammistaða** varpar frammistöðueinkunnin ljósi á gæði líkansins. Frekari upplýsingar um þessa Einkunn er að finna í hlutanum [Frammistaða spálíkans](/ai-builder/prediction-performance) í fylgiskjölum AI Builder.
+- Í hlutanum **Frammistaða** varpar frammistöðueinkunnin ljósi á gæði líkansins. Fyrir frekari upplýsingar um þessa einkunn, sjá [Frammistaða spálíkans](/ai-builder/prediction-performance) í AI Builder skjöl.
 - Hlutinn **Áhrifamestu gögnin** sýnir hversu mikilvægar mismunandi innsláttargerðir gagna voru fyrir líkanið. Hægt er að meta þennan lista og samsvarandi prósentuhlutfall til að ákvarða hvort upplýsingarnar eru í samræmi við þekkingu þína á fyrirtækinu þínu og markaðinum.
 
     [![Hlutar frammistöðu og áhrifamestu gagna fyrir spálíkanið.](./media/models.png)](./media/models.png)
@@ -51,7 +51,7 @@ Eftirfarandi upplýsingar birtast á síðunni sem opnast:
 
 ## <a name="digging-deeper"></a>Nánari skoðun
 
-Nákvæmni er ágætis viðmið til að meta líkan í upphafi og frammistöðueinkunn veitir ágætis yfirsýn en hins vegar býður AI Builder upp á ítarlegri mæligildi til að nota við slíkt mat. Til að hlaða niður frekari upplýsingum í hlutanum **Frammistaða** skal smella á hnappinn úrfellingarhnappinn (**...**) við hliðina á hnappinum **Nota líkan** og síðan velja **Hlaða niður ítarlegri mæligildum**.
+Þó að nákvæmni sé góður upphafspunktur til að meta líkan, og árangurseinkunnin veitir yfirsýn,AI Builder veitir ítarlegri mælikvarða sem þú getur notað við mat þitt. Til að hlaða niður frekari upplýsingum í hlutanum **Frammistaða** skal smella á hnappinn úrfellingarhnappinn (**...**) við hliðina á hnappinum **Nota líkan** og síðan velja **Hlaða niður ítarlegri mæligildum**.
 
 [![Skipunin um að hlaða niður ítarlegri mæligildum.](./media/performance.png)](./media/performance.png)
 
@@ -89,7 +89,7 @@ Tala sem sýnir frammistöðu líkansins á betri hátt en nákvæmni er einkunn
 
 ## <a name="improving-the-model"></a>Endurbætur líkansins
 
-Þegar niðurstöður fyrsta líkansins hafa verið metnar, gæti verið gott að bæta líkanið við með því að bæta við eða fjarlægja eiginleikadálka eða með því að sía alla hluta gagnasafnsins sem styðja ekki nákvæmar spár. Loka skal AI Builder og nota svo tengilinn **Endurbæta líkanið** í Dynamics 365 Finance til að endurræsa ferli AI Builder. Hægt er að prófa sig áfram með ólíka eiginleika án þess að slíkt hafi áhrif á útgefna líkanið. Útgefna líkanið verður einungis fyrir áhrifum þegar smellt er á **Birta**. Hafðu í huga að stakt líkan er notað fyrir tilvikið af Dynamics 365 Finance. Því skaltu fara vandlega yfir öll ný líkön áður en þau eru birt.
+Þegar niðurstöður fyrsta líkansins hafa verið metnar, gæti verið gott að bæta líkanið við með því að bæta við eða fjarlægja eiginleikadálka eða með því að sía alla hluta gagnasafnsins sem styðja ekki nákvæmar spár. Loka AI Builder, og notaðu síðan **Bæta líkan** hlekkur inn Dynamics 365 Finance til að endurræsa AI Builder ferli. Hægt er að prófa sig áfram með ólíka eiginleika án þess að slíkt hafi áhrif á útgefna líkanið. Útgefna líkanið verður einungis fyrir áhrifum þegar smellt er á **Birta**. Hafðu í huga að stakt líkan er notað fyrir tilvikið af Dynamics 365 Finance. Því skaltu fara vandlega yfir öll ný líkön áður en þau eru birt.
 
 ## <a name="for-more-information"></a>Frekari upplýsingar
 

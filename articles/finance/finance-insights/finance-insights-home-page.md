@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: dfc4d9cb5be4d8d287122fd33bf09b0570498169
-ms.sourcegitcommit: a46f0bf9f58f559bbb2fa3d713ad86875770ed59
-ms.translationtype: MT
+ms.openlocfilehash: 8cc7b2d733cdcf1adef2885b7900ea312a10d98c
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "7813748"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968811"
 ---
 # <a name="finance-insights-home-page"></a>Heimasíða Fjármálainnsýnar
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Fjármálainnsýn veitir stillanlegar og stækkanlegar lausnir til að hjálpa þér að spá fyrir um sjóðstreymi fyrirtækis þíns á skynsamlegan hátt, spá fyrir um hvenær þú gætir fengið greiðslu fyrir útistandandi kröfur og búa til fjárhagsáætlunartillögu sem getur hjálpað þér að flýta fyrir fjárhagsáætlunargerð. Þessir eiginleikar nota snjöll vélnámssniðmát til að búa til líkön með því að nota gögn sem þú gefur upp (þar á meðal gögn frá þriðja aðila eins og neytendaskýrsluupplýsingar frá skrifstofu). Þessi greindur hæfileiki upplýsir ákvarðanatöku og hjálpar þér að grípa til aðgerða til að bregðast skilvirkt við núverandi og væntanlegum viðskiptaáskorunum. Þú berð ábyrgð á hvers kyns gögnum sem notuð eru með, eða framleiðsla úr, innsýn í fjármálum.
 
 > [!NOTE]
-> Forskoðun fjármálainnsýnar er fáanleg til dreifingar í Bandaríkjunum, Kanada, Bretlandi, Evrópu, Kyrrahafsasíu, Japan, Ástralíu og Nýja Sjálandi. Microsoft bætir smátt og smátt við stuðningi fyrir fleiri svæði.
+> Fjármálainnsýn er í boði fyrir dreifingu í Bandaríkjunum, Kanada, Bretlandi, Evrópu, Kyrrahafsasíu, Japan, Ástralíu og Nýja Sjálandi. Microsoft bætir smátt og smátt við stuðningi fyrir fleiri svæði.
 
 ## <a name="prerequisites"></a>Forkröfur
 
@@ -76,7 +75,7 @@ Til að virkja sjóðsstreymisspá verður að ljúka við nokkur skref til að 
 
 ### <a name="enable-budget-proposals"></a>Virkja drög að fjárhagsáætlun
 
-Eiginleikinn drög að fjárhagsáætlun notar vélnámslíkan ásamt eldri gögnum fyrirtækisins til að gera drög að fjárhagsáætlun. Drögin sem eru mynduð geta hjálpað til við að hefja fjárhagsáætlunarferli sem er áhrifaríkara og skilvirkara en handvirkt ferli. Frekari upplýsingar um sértæk skref til að virkja þennan eiginleika er að finna í [Virkja drög að fjárhagsáætlun](enable-budget-proposal.md). 
+Eiginleikinn drög að fjárhagsáætlun notar vélnámslíkan ásamt eldri gögnum fyrirtækisins til að gera drög að fjárhagsáætlun. Drögin sem eru mynduð geta hjálpað til við að hefja fjárhagsáætlunarferli sem er áhrifaríkara og skilvirkara en handvirkt ferli. Fyrir sérstök skref til að virkja þennan eiginleika, sjá [Virkja fjárlagatillögur](enable-budget-proposal.md). 
 
 ## <a name="using-finance-insights-features"></a>Notkun eiginleika Fjármálainnsýnar
 
@@ -91,7 +90,7 @@ Eiginleikinn drög að fjárhagsáætlun notar vélnámslíkan ásamt eldri gög
 
 Eiginleiki sjóðsstreymisspár getur aðstoðað við að gera nákvæmara mat reiðufjárstöðu. Snjöll sjóðstreymisspáin er byggð ofan á núverandi virkni sjóðstreymisspár í Dynamics 365 Finance. Opnaðu [Sjóðstreymisspár](../cash-bank-management/cash-flow-forecasting.md) til að skoða núverandi getu.
 
-- Frekari upplýsingar um nýja eiginleika sjóðsstreymisspár er að finna í [Sjóðstreymisspá](cash-flow-forecast-intro.md).
+- Til að fræðast um nýja möguleika í sjóðstreymisspám, sjá [Sjóðstreymisspá](cash-flow-forecast-intro.md).
 - Upplýsingar um innflutning ytri gagna sem skal taka með í sjóðsstreymisspá er að finna í [Nota ytri gögn við sjóðsstreymisspár](external-data-in-cash-flow.md). 
 - Upplýsingar um hvernig á að nota vélnámslíkan til að varpa sjóðsstreymi til skemmri tíma er að finna í [Reiðufjárstöðu](cash-position.md).
 - Frekari upplýsingar um hvernig sjóðsstreymisstöður og sjóðsstreymisspár eru vistaðar sem skyndimyndir og bera skyndimynd saman við raunverulega stöðu er að finna í [Yfirlit yfir skyndimyndir](payment-snapshots.md).
