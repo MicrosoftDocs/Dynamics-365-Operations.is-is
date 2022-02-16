@@ -92,6 +92,8 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.25 (apríl 2022)
+                      href: get-started/whats-new-commerce-10-0-25.md
                     - name: Commerce 10.0.24 (febrúar 2022)
                       href: get-started/whats-new-commerce-10-0-24.md
                     - name: Commerce 10.0.23 (janúar 2022)
@@ -124,8 +126,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/commerce/toc.json
                 - name: Myndbönd
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/commerce/toc.json
-                - name: Orðalisti
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/commerce/toc.json
             - name: Námskrá
               items:
                 - name: Heimasíða námsskrár
@@ -1936,6 +1936,8 @@
                   items:
                     - name: Stofna skilgreiningar til að flytja inn gögn úr ytri XML-skrá
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
+                    - name: Flytja inn gögn úr skrám sem voru valdar handvirkt í runustillingu
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina gagnainnflutning í runustillingu frá skrám á SharePoint
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
                 - name: Flytja inn skrár á XML-sniði
@@ -2166,6 +2168,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.json
                     - name: Forritsuppfærsla 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/commerce/toc.json
+                    - name: Forritsuppfærsla 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/commerce/toc.json
                 - name: Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
                   items:
                     - name: Gerast áskrifandi að tilviki til að krefjast svars frá áskriftarrekli
@@ -2384,6 +2388,8 @@
               items:
                 - name: Commerce fyrir fagfólk í upplýsingatækni og þróunaraðila
                   href: dev-itpro/dev-retail-home-page.md
+                - name: Nútímavæðing tæknistafla verslunar fyrir Commerce (hvítbók)
+                  href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: Setja upp staðbundið þróunarumhverfi
                   href: dev-itpro/setup-local-dev-env.md
             - name: Stækkunarhæfni netrásar
@@ -2820,7 +2826,7 @@
               items:
                 - name: Setja upp þróunarumhverfi fyrir rafræn viðskipti til að kemba fyrir Tier 1 Retail Server VM
                   href: troubleshoot/set-up-dev-environment-debugging.md
-    - name: Þróun og stjórnun forrita fyrir Finance and Operations
+    - name: Þróun og stjórnun fjármála- og rekstrarforrita
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md

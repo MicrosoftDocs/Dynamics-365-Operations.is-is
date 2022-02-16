@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: b88ccbbb55e4c08c3a8e6cd415f8701d5ff1e9361dc8675eef23f35d76acd528
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e235ba4ef2412c50101bc69f467836dd9a9d11e
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735753"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061960"
 ---
 > [!IMPORTANT]
-> Forritin Dynamics 365 Talent: Attract og Onboard verða bráðlega ekki lengur í boði. Frekari upplýsingar er að finna í [Forritin Dynamics 365 Talent: Attract og Onboard tekin úr notkun](https://community.dynamics.com/365/talent/b/dynamics365fortalent/posts/retiring-dynamics-365-talent-attract-and-onboard-apps).
+> Dynamics 365 Talent: Attract og Onboard-forrit verða ekki í boði frá og með 1. febrúar 2022. Frekari upplýsingar er að finna í [Dynamics 365 Talent: Attract og Onboard-forrit tekin úr notkun](../../human-resources/hr-talent-retire.md).

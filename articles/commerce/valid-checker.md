@@ -2,7 +2,7 @@
 title: Villuleita í færslum verslunar fyrir útreikning uppgjörs
 description: Þetta efnisatriði lýsir virkni til að villuleita færslur verslunar í Microsoft Dynamics 365 Commerce.
 author: analpert
-ms.date: 12/15/2021
+ms.date: 01/31/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 008368ae32aa92682d578b75b148e0587fcc94e0
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924772"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087450"
 ---
 # <a name="validate-store-transactions-for-statement-calculation"></a>Villuleita í færslum verslunar fyrir útreikning uppgjörs
 
@@ -51,7 +51,7 @@ Runuvinnslan **Villuleita í færslum verslunar** athugar samræmi viðskiptafæ
 
 Eftirfarandi tafla telur upp villuleitarreglur í færsluhaus sem bornar eru saman við hausa smásölufærslna áður en þessar færslur eru sendar í bókun uppgjörs.
 
-| Titill | Lýsing |
+| Regla | Lýsing |
 |-------|-------------|
 | Viðskiptadagur | Þessi regla staðfestir að viðskiptadagur færslu sé tengdur við opið fjárhagstímabil í fjárhagnum. |
 | Sléttun gjaldmiðils | Þessi regla staðfestir að færsluupphæðirnar eru sléttaðar samkvæmt sléttunarreglu gjaldmiðils. |
@@ -72,7 +72,7 @@ Eftirfarandi tafla telur upp villuleitarreglur í færsluhaus sem bornar eru sam
 
 Eftirfarandi tafla telur upp villuleitarreglur færslulínu sem bornar eru saman við línuupplýsingar smásölufærslna áður en þessar færslur eru sendar í bókun uppgjörs.
 
-| Titill | Lýsing |
+| Regla | Lýsing |
 |-------|-------------|
 | Strikamerki | Þessi regla staðfestir að öll strikamerki fyrir vörur sem notuð eru í færslulínunum séu til í gagnagrunninum. |
 | Gjaldalínur | Þessi regla staðfestir að summa reiknaðrar upphæðar og undanþeginnar skattupphæðar gjaldalínu jafngildir upprunalegri reiknaðri upphæð. |

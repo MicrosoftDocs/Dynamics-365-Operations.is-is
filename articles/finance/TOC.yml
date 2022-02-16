@@ -12,6 +12,8 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.25 (apríl)
+                  href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24 (febrúar)
                   href: get-started/whats-new-changed-10-0-24.md
                 - name: Finance 10.0.23 (janúar)
@@ -102,8 +104,6 @@
                   href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/finance/toc.json
                 - name: Myndbönd
                   href: ../fin-ops-core/fin-ops/get-started/videos.md?toc=/dynamics365/finance/toc.json
-                - name: Orðalisti
-                  href: ../fin-ops-core/fin-ops/get-started/glossary.md?toc=/dynamics365/finance/toc.json
             - name: Námskrá
               items:
                 - name: Heimasíða námsskrár
@@ -218,6 +218,8 @@
                   href: accounts-payable/vendor-copy.md
                 - name: Skrá reikning lánardrottins í reikningabók
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
+                - name: Jafna greiðslu við reikningabók
+                  href: accounts-payable/payment-invoice-journal.md
             - name: Endurskoða reikninga og lykilgögn í viðskiptaskuldum
               href: general-ledger/tasks/audit-invoices-key-data-ap-system.md
             - name: Stefnur þríhliða jöfnunarregla
@@ -1036,6 +1038,8 @@
                   href: general-ledger/one-voucher-faq.md
                 - name: Fjárhagsjafnanir
                   href: general-ledger/ledger-settlements.md
+                - name: Munurinn á fjárhagsjöfnun og árslokalokun
+                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
             - name: Lokun tímabils
               items:
                 - name: Lokun fjárhags við lok tímabils
@@ -1050,80 +1054,6 @@
                   href: general-ledger/tasks/mass-financial-period-close.md
                 - name: Algengar spurningar um verkþætti árslokunar
                   href: general-ledger/faq-year-end-activities.md
-            - name: Virðisaukaskattur
-              items:
-                - name: Yfirlit virðisaukaskatts
-                  href: general-ledger/indirect-taxes-overview.md
-                - name: Virðisaukaskattur byggður á jaðargrunns- og útreikningsaðferðum
-                  href: general-ledger/marginal-base-field.md
-                - name: VSK-greiðslur og sléttunarreglur
-                  href: general-ledger/round-sales-tax-payments.md
-                - name: Útreikningsaðferðir VSK í upprunareitnum
-                  href: general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða
-                  href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: VSK-útreikningur í almennum færslubókarlínum
-                  href: general-ledger/sales-tax-calculation-on-general-journal.md
-                - name: Reikna og stilla virðisaukaskatt á reikningi lánardrottins
-                  href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: Virkja frestaðan útreikning á skatti í færslubók
-                  href: general-ledger/enable-delayed-tax-calculation.md
-                - name: Stofna VSK-greiðslu
-                  href: general-ledger/tasks/create-sales-tax-payment.md
-                - name: Sléttun skattauppgjörs á grundvelli sérstilltra tugasæta gjaldmiðils
-                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
-                - name: Stofna VSK-færslur í skjölum
-                  href: general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: Setja upp bókunarflokka virðisaukaskatts
-                  href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: Setja upp yfirvöld virðisaukaskatts
-                  href: general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: Setja upp VSK-kóða
-                  href: general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: Setja upp VSK-flokka og VSK-flokka vöru
-                  href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: Setja upp skýrslugerðarkóða virðisaukaskatts
-                  href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: Stuðningur fyrir tvöfaldan gjaldmiðil fyrir virðisaukaskatt
-                  href: general-ledger/dual-currency-for-tax.md
-                - name: Skýrsla VSK-forskriftar eftir fjárhagsfærslum
-                  href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
-                - name: Setja upp VSK-uppgjörstímabil
-                  href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Skoða bókaðar VSK-færslur
-                  href: general-ledger/tasks/view-posted-sales-tax-transactions.md
-                - name: Prenta VSK-greiðslu eftir kóðaskýrslu
-                  href: general-ledger/print-sales-tax-payment-by-code-report.md
-                - name: Úrræðaleit virðisaukaskatts
-                  items:
-                    - name: Skattur er ekki reiknaður eða skattupphæð er núll
-                      href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
-                    - name: Framkvæmd skattaútreiknings hefur áhrif á færslur
-                      href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
-                    - name: Rangt reitargildi í TaxTrans
-                      href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
-                    - name: TaxTrans-færsla var ekki mynduð
-                      href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
-                    - name: Skattur er bókaður á rangan fjárhagslykil á fylgiskjalinu
-                      href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
-                    - name: Fylgiskjal var ekki myndað
-                      href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
-            - name: Staðgreiðsluskattur
-              items:
-                - name: Setja upp staðgreiðsluskatt
-                  href: general-ledger/tasks/set-up-withholding-tax.md
-                - name: Altækur staðgreiðsluskattur
-                  items:
-                    - name: Yfirlit um altækan staðgreiðsluskatt
-                      href: general-ledger/global-withholding-tax-overview.md
-                    - name: Setja upp altækan staðgreiðsluskatt
-                      href: general-ledger/set-up-global-withholding-tax.md
-                    - name: Staðgreiðsluskattur í innkaupafærslum
-                      href: general-ledger/withholding-tax-in-purchase-transactions.md
-                    - name: Staðgreiðsluskattur í sölufærslum
-                      href: general-ledger/withholding-tax-in-sales-transactions.md
-                    - name: Stofna greiðslu staðgreiðsluskatts
-                      href: general-ledger/create-a-withholding-tax-payment.md
             - name: Vinnusvæði endurskoðunar
               items:
                 - name: Reglur endurskoðunarstefnu
@@ -1538,6 +1468,82 @@
                           href: localizations/customize-tax-configurations-master-data-lookup.md
                     - name: Algengar spurningar um skattaútreikning
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
+            - name: Skattur
+              items:
+                - name: Virðisaukaskattur
+                  items:
+                    - name: Yfirlit virðisaukaskatts
+                      href: general-ledger/indirect-taxes-overview.md
+                    - name: Virðisaukaskattur byggður á jaðargrunns- og útreikningsaðferðum
+                      href: general-ledger/marginal-base-field.md
+                    - name: VSK-greiðslur og sléttunarreglur
+                      href: general-ledger/round-sales-tax-payments.md
+                    - name: Útreikningsaðferðir VSK í upprunareitnum
+                      href: general-ledger/sales-tax-calculation-methods-origin-field.md
+                    - name: Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða
+                      href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: VSK-útreikningur í almennum færslubókarlínum
+                      href: general-ledger/sales-tax-calculation-on-general-journal.md
+                    - name: Reikna og stilla virðisaukaskatt á reikningi lánardrottins
+                      href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Virkja frestaðan útreikning á skatti í færslubók
+                      href: general-ledger/enable-delayed-tax-calculation.md
+                    - name: Stofna VSK-greiðslu
+                      href: general-ledger/tasks/create-sales-tax-payment.md
+                    - name: Sléttun skattauppgjörs á grundvelli sérstilltra tugasæta gjaldmiðils
+                      href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
+                    - name: Stofna VSK-færslur í skjölum
+                      href: general-ledger/tasks/create-sales-tax-transactions-documents.md
+                    - name: Setja upp bókunarflokka virðisaukaskatts
+                      href: general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                    - name: Setja upp yfirvöld virðisaukaskatts
+                      href: general-ledger/tasks/set-up-sales-tax-authorities.md
+                    - name: Setja upp VSK-kóða
+                      href: general-ledger/tasks/set-up-sales-tax-codes.md
+                    - name: Setja upp VSK-flokka og VSK-flokka vöru
+                      href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                    - name: Setja upp skýrslugerðarkóða virðisaukaskatts
+                      href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                    - name: Stuðningur fyrir tvöfaldan gjaldmiðil fyrir virðisaukaskatt
+                      href: general-ledger/dual-currency-for-tax.md
+                    - name: Skýrsla VSK-forskriftar eftir fjárhagsfærslum
+                      href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
+                    - name: Setja upp VSK-uppgjörstímabil
+                      href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                    - name: Skoða bókaðar VSK-færslur
+                      href: general-ledger/tasks/view-posted-sales-tax-transactions.md
+                    - name: Prenta VSK-greiðslu eftir kóðaskýrslu
+                      href: general-ledger/print-sales-tax-payment-by-code-report.md
+                    - name: Úrræðaleit virðisaukaskatts
+                      items:
+                        - name: Skattur er ekki reiknaður eða skattupphæð er núll
+                          href: general-ledger/sales-tax-troubleshooting-tax-not-calculated-amount-zero.md
+                        - name: Framkvæmd skattaútreiknings hefur áhrif á færslur
+                          href: general-ledger/sales-tax-troubleshooting-tax-calculation-bad-performance.md
+                        - name: Rangt reitargildi í TaxTrans
+                          href: general-ledger/sales-tax-troubleshooting-field-value-taxtrans-incorrect.md
+                        - name: TaxTrans-færsla var ekki mynduð
+                          href: general-ledger/sales-tax-troubleshooting-taxtrans-record-not-generated.md
+                        - name: Skattur er bókaður á rangan fjárhagslykil á fylgiskjalinu
+                          href: general-ledger/sales-tax-troubleshooting-tax-posted-to-wrong-ledger-account.md
+                        - name: Fylgiskjal var ekki myndað
+                          href: general-ledger/sales-tax-troubleshooting-voucher-not-generated.md
+                - name: Staðgreiðsluskattur
+                  items:
+                    - name: Setja upp staðgreiðsluskatt
+                      href: general-ledger/tasks/set-up-withholding-tax.md
+                    - name: Altækur staðgreiðsluskattur
+                      items:
+                        - name: Yfirlit um altækan staðgreiðsluskatt
+                          href: general-ledger/global-withholding-tax-overview.md
+                        - name: Setja upp altækan staðgreiðsluskatt
+                          href: general-ledger/set-up-global-withholding-tax.md
+                        - name: Staðgreiðsluskattur í innkaupafærslum
+                          href: general-ledger/withholding-tax-in-purchase-transactions.md
+                        - name: Staðgreiðsluskattur í sölufærslum
+                          href: general-ledger/withholding-tax-in-sales-transactions.md
+                        - name: Stofna greiðslu staðgreiðsluskatts
+                          href: general-ledger/create-a-withholding-tax-payment.md
             - name: Regluuppfærslur
               href: localizations/regulatory-updates.md
             - name: Leita að uppfærslum á reglugerðum
@@ -3106,6 +3112,10 @@
                       href: localizations/rus-turnover-balance-statement-reports.md
                     - name: Skýrslur um hreyfingar á reikningi
                       href: localizations/rus-account-activity-reports.md
+                    - name: Federal Accounting Standard 27-2021
+                      href: localizations/emea-rus-federal-accounting-standard-27-2021.md
+                    - name: Gera endastöðum rafrænnar skýrslugerðar kleift að geyma rússnesk bókhaldsskjöl
+                      href: localizations/rus-enable-er-destinations-ru-accounting-documents.md
                 - name: Handhafar fyrirframgreiðslu
                   items:
                     - name: Yfirlit yfir handhafa fyrirframgreiðslu fyrir Rússland
@@ -3208,6 +3218,8 @@
                           href: localizations/rus-not-valuable-assets.md
                         - name: Bókhald vegna vinnufatnaðar / sérstaks útbúnaðar (Rússland)
                           href: localizations/rus-working-clothes-instruments-accounting.md
+                    - name: Samþætting eigna með eignastýringareiningu
+                      href: localizations/rus-integration-eam-with-fixed-asset.md
                 - name: Viðskiptaskuldir og viðskiptakröfur
                   items:
                     - name: Leiðréttingar kreditnótu (Rússland)
@@ -3242,6 +3254,8 @@
                           href: localizations/rus-purchases-on-commission.md
                         - name: Sala með þóknun
                           href: localizations/rus-sales-on-commission.md
+                    - name: Staðbundnar skýrslur og aðalskjámyndir fyrir viðskiptakröfur og viðskiptaskuldir
+                      href: localizations/rus-local-reports-primary-forms-ar-ap.md
                 - name: Birgðir
                   items:
                     - name: Vörur í flutningi frá lánardrottni
@@ -3486,170 +3500,6 @@
                   href: localizations/noam-usa-form-1099-public-sector.md
                 - name: Setja upp lánardrottna fyrir skýrsluna 1099
                   href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
-        - name: Human Resources
-          items:
-            - name: Yfirlit Human Resources
-              href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
-            - name: Tölvukerfisútgáfa 10.0.25
-              href: ../human-resources/hr-infrastructure.md?toc=/dynamics365/finance/toc.json
-            - name: Setja upp Human Resources
-              items:
-                - name: Grunnstilla færibreytur Human Resources
-                  href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: Grunnstilla samnýttar færibreytur Human Resources
-                  href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: Setja upp verkflæði Human Resources
-                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: Skilja svæði fyrir dagsetningu og tíma
-                  href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
-            - name: Stjórna starfsfólki
-              items:
-                - name: Skipuleggja starfsfólk
-                  href: ../human-resources/hr-personnel-departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
-                - name: Setja upp íhluti verks
-                  href: ../human-resources/hr-personnel-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: Skilgreina deildir
-                  href: ../human-resources/hr-personnel-define-departments.md?toc=/dynamics365/finance/toc.json
-                - name: Bæta deild við stigveldi
-                  href: ../human-resources/hr-personnel-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
-                - name: Skilgreina störf
-                  href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
-                - name: Búa til dagatal fyrir vinnutíma
-                  href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
-                - name: Algengar spurningar um aðgerðir starfsfólks
-                  href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
-                - name: Nota verkflæði til að haga starfsmannaupplýsingum
-                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: Breyta skýrslugjafarvenslum fyrir stöðu
-                  href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
-                - name: Færa inn upplýsingar um starfsmann
-                  href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
-                - name: Lána starfsfólki vörur
-                  href: ../human-resources/hr-personnel-loan-item-worker.md?toc=/dynamics365/finance/toc.json
-                - name: Stofna lánshluti
-                  href: ../human-resources/hr-personnel-create-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: Stjórna lánshlutum
-                  href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
-                - name: Þróa áætlun um röðun starfsmanna
-                  href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
-                - name: Færa inn Project Timesheets
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
-                - name: Fjöldaráðningarverk
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
-                - name: Stofna fjöldaráðningarverk
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md?toc=/dynamics365/finance/toc.json
-                - name: Setja upp stöður
-                  href: ../human-resources/hr-personnel-set-up-positions.md?toc=/dynamics365/finance/toc.json
-                - name: Uppsetning upplýsinga um meiðsl og veikindi
-                  href: ../human-resources/hr-personnel-set-up-injury-illness-information.md?toc=/dynamics365/finance/toc.json
-                - name: Vinna með upplýsingar um meiðsl og veikindi starfsmanna
-                  href: ../human-resources/hr-personnel-maintain-employee-injury-illness-information.md?toc=/dynamics365/finance/toc.json
-            - name: Ráða umsækjendur
-              items:
-                - name: Stjórna ráðningarferlum
-                  href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
-                - name: Fjöldaráðningarverk
-                  href: ../human-resources/hr-personnel-mass-hire-projects.md
-                - name: Stofna fjöldaráðningarverk
-                  href: ../human-resources/hr-personnel-create-mass-hire-project.md
-                - name: Færa inn umsækjanda og umsóknargögn handvirkt
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
-                - name: Þróa og opna tilkynningar um lausar stöður
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
-                - name: Setja upp stöður
-                  href: ../human-resources/hr-personnel-set-up-positions.md
-                - name: Ráða umsækjendur gegnum ráðningarferli
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                - name: Ráða fyrirliggjandi starfsmenn í gegnum ráðningarferli
-                  href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
-                - name: Auðkenna og beita verkfærum við val á umsækjendum
-                  href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Setja upp launafyrirkomulag
-              items:
-                - name: Yfirlit yfir launafyrirkomulag
-                  href: ../human-resources/hr-compensation-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Uppsetning launanets
-                  href: ../human-resources/hr-compensation-grids.md?toc=/dynamics365/finance/toc.json
-                - name: Þróa launaskipulag og -áætlun
-                  href: ../human-resources/hr-compensation-structure.md?toc=/dynamics365/finance/toc.json
-                - name: Stofna launafyrirkomulag fastra launa
-                  href: ../human-resources/hr-compensation-fixed-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Stofna launafyrirkomulag breytilegra launa
-                  href: ../human-resources/hr-compensation-variable-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Skrá starfsmenn í launafyrirkomulag fastra launa
-                  href: ../human-resources/hr-compensation-enroll-employees-fixed.md?toc=/dynamics365/finance/toc.json
-                - name: Skrá starfsmenn í breytilegt launafyrirkomulag
-                  href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
-                - name: Skilgreina launavinnslu og reikna niðurstöður
-                  href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
-                - name: Vinna úr launafyrirkomulagi
-                  href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
-            - name: Umsjón með fríðindum
-              items:
-                - name: Skilgreina og stjórna fríðindaáætlun
-                  href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
-                - name: Stefnur um hæfni til fríðinda
-                  href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
-                - name: Ferli tengt hæfni til fríðinda
-                  href: ../human-resources/hr-benefits-eligibility-process.md?toc=/dynamics365/finance/toc.json
-                - name: Skilgreina reglur og stefnur um hæfi til fríðinda
-                  href: ../human-resources/hr-benefits-define-eligibility-rules.md?toc=/dynamics365/finance/toc.json
-                - name: Leggja fram starfskjaraáætlun starfsmanns
-                  href: ../human-resources/hr-benefits-deliver-employee-benefits-program.md?toc=/dynamics365/finance/toc.json
-                - name: Stofna ný fríðindi
-                  href: ../human-resources/hr-benefits-create.md?toc=/dynamics365/finance/toc.json
-                - name: Skrá starfsmenn fyrir fríðindum
-                  href: ../human-resources/hr-benefits-enroll-workers.md?toc=/dynamics365/finance/toc.json
-                - name: Vinna með lokadaga fríðinda
-                  href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
-                - name: Mynda ACA-skýrslur
-                  href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Þróa starfsmenn
-              items:
-                - name: Árangursstjórnunaryfirlit
-                  href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Raða saman hæfni vinnuafls
-                  href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
-                - name: Bæta við frammistöðubókina þína
-                  href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
-                - name: Búa til markmið
-                  href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
-                - name: Stofna frammistöðumat
-                  href: ../human-resources/hr-develop-create-performance-review.md?toc=/dynamics365/finance/toc.json
-            - name: Stofna námskeið
-              items:
-                - name: Uppsetning námskeiða
-                  href: ../human-resources/hr-learning-courses.md?toc=/dynamics365/finance/toc.json
-                - name: Yfirlit yfir spurningalista
-                  href: ../human-resources/hr-learning-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Hanna spurningalista
-                  href: ../human-resources/hr-learning-design-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Dreifa og tímasetja spurningalista
-                  href: ../human-resources/hr-learning-distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Dreifa spurningalistum með áætlanagerð
-                  href: ../human-resources/hr-learning-distribute-questionnaires-scheduling.md?toc=/dynamics365/finance/toc.json
-                - name: Skoða niðurstöður spurningalista
-                  href: ../human-resources/hr-learning-evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
-                - name: Greina niðurstöður úr spurningalista
-                  href: ../human-resources/hr-learning-analyze-questionnaire-results.md?toc=/dynamics365/finance/toc.json
-                - name: Búa til opna spurningu
-                  href: ../human-resources/hr-learning-create-open-ended-question.md?toc=/dynamics365/finance/toc.json
-                - name: Búa til lokaða spurningu
-                  href: ../human-resources/hr-learning-create-closed-ended-question.md?toc=/dynamics365/finance/toc.json
-                - name: Búa til textaháða spurningu
-                  href: ../human-resources/hr-learning-depending-question.md?toc=/dynamics365/finance/toc.json
-            - name: Öryggi og reglufylgni á vinnustað (Bandaríkin)
-              items:
-                - name: Staðfesting I-9 eyðublaðs
-                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-form-i-9-verification.md
-                - name: Staðfesta gjaldgengi starfs með því að nota I-9 eyðublaðið
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/employment-verification-i9-verification.md
-                - name: Uppsetning I-9 skjalagerða
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/set-up-i9-document-types.md
-                - name: Fylgja „Americans with Disabilities“-lögunum
-                  href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
-                - name: Haga aðlögun starfskrafta
-                  href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
         - name: Skýrslugerð og samþættingar Power BI
           items:
             - name: Skýrslugerð og greiningar með Power BI
@@ -4005,6 +3855,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
                         - name: GetEnumValueByName
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
+                        - name: GetLabelText
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getlabeltext.md?toc=/dynamics365/finance/toc.json
                         - name: GuidValue
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
                         - name: JsonValue
@@ -4191,6 +4043,8 @@
                   items:
                     - name: Stofna skilgreiningar til að flytja inn gögn úr ytri XML-skrá
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/finance/toc.json
+                    - name: Flytja inn gögn úr skrám sem voru valdar handvirkt í runustillingu
+                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-batch.md?toc=/dynamics365/finance/toc.json
                 - name: Skilgreina gagnainnflutning í runustillingu frá skrám á SharePoint
                   href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/finance/toc.json
                 - name: Flytja inn skrár á XML-sniði
@@ -4271,6 +4125,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
                         - name: Keyra skýrslur
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
+                    - name: Flokka færslur og framkvæma talningu og samlagningu með því að nota GROUPBY-gagnaveitur
+                      href: ../fin-ops-core/dev-itpro/analytics/er-groupby-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Nota myndað úttak sem gagnaveitu til að framkvæma talningu og samlagningu
                       items:
                         - name: Stofna snið
@@ -4423,6 +4279,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
                     - name: Forritsuppfærsla 10.0.23
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
+                    - name: Forritsuppfærsla 10.0.25
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-25.md?toc=/dynamics365/finance/toc.json
                 - name: Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
                   items:
                     - name: Gerast áskrifandi að tilviki til að krefjast svars frá áskriftarrekli
@@ -4753,9 +4611,11 @@
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'Jafna færslur með CustTrans::settleTransaction'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
-    - name: Þróun og stjórnun forrita fyrir Finance and Operations
+    - name: Þróun og stjórnun fjármála- og rekstrarforrita
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
       href: ../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../human-resources/index.md
