@@ -1,8 +1,8 @@
 ---
-title: Opna lokið spurning
+title: Búa til opna spurningu
 description: Opnar spurningar gera svarendur kleift að veita sína eigin svar.
-author: andreabichsel
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 01/03/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,29 +13,32 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3527fa2410c4a6eb26d8575408338b4ca9a0b47af16a5f143b7a5493f2460db2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: b1feab5ec5185a5f2625620431e9d13542bfe940
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739228"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071734"
 ---
 # <a name="create-an-open-ended-question"></a>Opna lokið spurning
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-Opnar spurningar gera svarendur kleift að veita sína eigin svar. Hægt er að stjórna hvort svarið er númer, aukastafi, dagsetningu, athugasemd og svo framvegis. Þetta ferli fer í gegnum ferlið fyrir stofnun tiltekna gerð spurningu, opnar spurningar eru . Til að hefja þetta ferli, farið í Spurningalisti > Hönnun > Spurningar. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+Opnar spurningar gera svarendur kleift að veita sína eigin svar. Hægt er að stjórna hvort svarið er númer, aukastafi, dagsetningu, athugasemd og svo framvegis. Þetta ferli fer í gegnum ferlið fyrir stofnun tiltekna gerð spurningu, opnar spurningar eru . Til að hefja þessa aðferð skaltu fara á **Spurningalisti > Hönnun > Spurningar**. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
-1. Smellið á „Nýtt“.
+1. Smellt er á **Nýtt**.
 2. Veljið Gerð til að flokka spurningar sem tengjast.
 3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 4. Í listanum skal smella á tengilinn í valinni línu.
     * Inntaksgerðir Texta, heiltala, raungildi, Dagsetningu, Tíma og Athugasemd eru notaðar fyrir opnar spurningar.  
-5. Veljið valkost í svæðinu gerð Innsláttar.
+5. Veljið valkost í svæðinu gerð **Innsláttar**.
     * Inntaksgerð Texta eða Athugasemdar er notað fyrir opnar spurningar.  
-6. Færa skal spurninguna inn í textasvæði.
+6. Í **Texti** reit, sláðu inn spurninguna þína.
 
 
 

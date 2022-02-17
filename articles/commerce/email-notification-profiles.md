@@ -2,7 +2,7 @@
 title: Setja upp forstillingu tilkynningar í tölvupósti
 description: Þetta efnisatriði lýsir hvernig á að stofna forstillingu tilkynningar í tölvupósti í Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 02/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a92c21a93766e6583882f50222837366ed4c9a24c2bbfd93933763bd4ffa46bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7a7d796a173a6f9dfcd62e1f73e078cac614145e
+ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771032"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "8087868"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Setja upp forstillingu tilkynningar í tölvupósti
 
@@ -27,7 +27,7 @@ ms.locfileid: "6771032"
 
 Þetta efnisatriði lýsir hvernig á að stofna forstillingu tilkynningar í tölvupósti í Microsoft Dynamics 365 Commerce.
 
-Þegar rásir eru búnar til er hægt að setja upp forstillingu tilkynningar í tölvupósti. Á þann hátt er hægt að senda viðskiptavinum tölvupósta vegna ýmissa færslutilvika á borð við stofnun pöntunar, sendingarstöðu pöntunar og greiðsluvillu.
+Þegar rásir eru búnar til er hægt að setja upp forstillingu tilkynningar í tölvupósti. Tilkynningasniðið í tölvupósti skilgreinir atburði sölufærslu (eins og pöntun búin til, pöntun pakkað og pöntun reikningsfærð atburðir) sem þú munt senda tilkynningar til viðskiptavina þinna. 
 
 Frekari upplýsingar um hvernig á að skilgreina tölvupóst er að finna í [Stilling og sending tölvupósts](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
@@ -43,7 +43,7 @@ Fylgdu þessum skrefum til að búa til tilkynningar um tölvupóst.
 
 ### <a name="create-an-email-template"></a>Stofna sniðmát fyrir tölvupóst
 
-Áður en hægt er að virkja gerð tölvupóststilkynningar þarf að stofna tölvupóstssniðmát fyrirtækis í Commerce Headquarters. Þetta sniðmát skilgreinir viðfangsefni tölvupóstsins, sjálfgefið tungumál hans og meginmál fyrir öll tungumálin sem á að styðja við.
+Áður en hægt er að virkja tegund tölvupósttilkynninga verður þú að búa til tölvupóstsniðmát fyrir fyrirtæki í höfuðstöðvum Commerce fyrir hverja tegund tilkynninga sem þú vilt styðja. Þetta sniðmát skilgreinir efni tölvupósts, sendanda, sjálfgefið tungumál og meginmál tölvupósts fyrir hvert studd tungumál.
 
 Til að stofna tölvupóstsniðmát, skal fylgja eftirfarandi skrefum.
 
@@ -61,6 +61,8 @@ Eftirfarandi mynd sýnir nokkur dæmi um sniðmátsstillingar tölvupósts.
 
 ![Stillingar fyrir sniðmát tölvupósts.](media/email-template.png)
 
+Fyrir frekari upplýsingar um að búa til tölvupóstsniðmát, sjá [Búðu til tölvupóstsniðmát fyrir viðskiptaviðburði](email-templates-transactions.md). 
+
 ### <a name="create-an-email-event"></a>Stofna tilvik fyrir tölvupóst
 
 Til að stofna tölvupóststilvik, skal fylgja eftirfarandi skrefum.
@@ -76,10 +78,12 @@ Eftirfarandi mynd sýnir nokkur dæmi um stillingar tilkynningar tilviks.
 
 ![Tilkynningastillingar tilvika.](media/email-notification-profile.png)
 
+> [!NOTE]
+> Tilkynningagerðin sem viðskiptavinurinn hefur búið til krefst að sérsniðin sé innleidd áður en hægt er að senda tilkynningu í tölvupósti.
+
 ### <a name="next-steps"></a>Næstu skref
 
 Áður en þú getur sent tölvupóst verður þú að stilla póstþjónustu póst á útleið og setja upp runuvinnslu. Nánari upplýsingar er að finna í [Skilgreina og senda tölvupóst](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
-
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

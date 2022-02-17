@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2336cafe7e2c914c2592c91c888b1e0ae1bc608
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 4885c11f0cb508edb8ebf3aef14748e819113264
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728677"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067403"
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Dreifa spurningalistum með áætlanagerð
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -38,7 +41,7 @@ Röðun spurningalista er hægt að nota til að áætla og dreifa spurningalist
     * Stilltu áætlunina á **Nafnlaus** ef skrá ætti svör án nöfnum tengdum svarinu.  
     * Leyfa nafnlausar niðurstöður verður fyrst að setja upp í færibreytum Mannauður.  
 
-5. Í **Gerð** reit, veldu áætlanagerð.  Í þessu dæmi munum við nota **Ánægja** gerð.
+5. Í **Tegund** reit, veldu áætlanagerð.  Í þessu dæmi munum við nota **Ánægja** tegund.
 
 6. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 

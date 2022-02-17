@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 92c427d3063c34f263d5bc449be6fac695b5912d
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952628"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062112"
 ---
 # <a name="inventory-visibility-public-apis"></a>Opin API fyrir sýnileika birgða
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Þetta efnisatriði útskýrir opin API sem birgðasýnileiki býður upp á.
 
@@ -478,7 +478,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Fyrirspurn um lagerbirgðir
 
-Nota _Fyrirspurn við höndina_ API til að sækja núverandi birgðagögn fyrir vörur þínar. API styður sem stendur fyrirspurnir um allt að 100 einstök atriði eftir`ProductID` gildi. Margfeldi`SiteID` og`LocationID` Einnig er hægt að tilgreina gildi í hverri fyrirspurn. Hámarksmörk eru skilgreind sem `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+Nota _Fyrirspurn við höndina_ API til að sækja núverandi birgðagögn fyrir vörur þínar. API styður sem stendur fyrirspurnir um allt að 100 einstök atriði eftir`ProductID` gildi. Margfeldi`SiteID` og`LocationID` Einnig er hægt að tilgreina gildi í hverri fyrirspurn. Hámarksmörkin eru skilgreind sem `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Senda fyrirspurn með bókunaraðferðinni
 

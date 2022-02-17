@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e4a120dd4199b143c3103392515c85e7b887194b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4c37a91a00aa6b7896bfbf9b57567a25c30d8b35
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982721"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075125"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management
 
@@ -31,6 +31,7 @@ Til að sjá hvað er nýtt eða breytt í hverri útgáfu af Dynamics 365 Suppl
 
 | Útgáfa | Smíðarnúmer | Framboð sjálfuppfærslu | Frekari upplýsingar |
 |---|---|---|---|
+| 10.0.25 | 10.0.1149 | 2022. apríl | [Forútgáfa af Dynamics 365 Supply Chain Management 10.0.25](whats-new-scm-10-0-25.md) |
 | 10.0.24 | 10.0.1084 | 2022. febrúar | [Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.24](whats-new-scm-10-0-24.md) |
 | 10.0.23 | 10.0.1037 | 2022. janúar | [Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.23](whats-new-scm-10-0-23.md) |
 | 10.0.22 | 10.0.995 | Nóvember 2021 | [Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.22](whats-new-scm-10-0-22.md) |

@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: eaafe8d98049cb8838317396f28e9d6ca720a677
-ms.sourcegitcommit: 08dcbc85e372d4e4fb3ba64389f6d5051212c212
+ms.openlocfilehash: 579a7d19ee7196d3242c78bd9915df24ec479c31
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "8015716"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060486"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Uppfæra í altæka aðila- og aðsetursbókarlíkanið
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 The [Microsoft Azure Data Factory sniðmát](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema) hjálpa þér að uppfæra eftirfarandi fyrirliggjandi gögn í tvískrift í aðila og alþjóðlegt heimilisfangabókarlíkan: gögn í **Reikningur**, **samband**, og **Seljandi** töflur og póstföng og netföng.
 
@@ -32,7 +32,7 @@ Eftirfarandi þrjú Data Factory sniðmát eru til staðar. Þeir hjálpa til vi
 
 Í lok ferlisins eru eftirfarandi skrár með kommum aðskilin gildi (.csv) búnar til.
 
-| Skrárnafn | Notkun |
+| Skráarheiti | Notkun |
 |---|---|
 | FONewParty.csv | Þessi skrá hjálpar til við að búa til nýja **Partí** skrár í Finance and Operations appinu. |
 | ImportFONewPostalAddressLocation.csv | Þessi skrá hjálpar til við að búa til nýja **Póstfang Staðsetning** skrár í Finance and Operations appinu. |
@@ -142,7 +142,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
     | Númer | Heiti | Gerð | Gildi |
     |---|---|---|---|
-    | 1 | IsFOSource | ból | Þessi færibreyta ákvarðar hvaða aðalkerfisföngum er skipt út ef árekstrar koma upp. Ef gildið er **satt**, munu aðalheimilisföngin í Finance and Operations forritum koma í stað aðalheimilisfönganna í viðskiptavinaþátttökuforritum. Ef gildið er **rangt**, munu aðalheimilisföngin í forritum fyrir þátttöku viðskiptavina koma í stað aðalheimilisfönganna í Finance and Operations forritum. |
+    | 1 | IsFOSource | ból | Þessi færibreyta ákvarðar hvaða aðalkerfisföngum er skipt út ef árekstrar koma upp. Ef gildið er **satt**, munu aðalheimilisföngin í Finance and Operations öppum koma í stað aðalheimilisfönganna í öppum fyrir þátttöku viðskiptavina. Ef gildið er **rangt**, munu aðalheimilisföngin í forritum fyrir þátttöku viðskiptavina koma í staðinn fyrir aðalheimilisföngin í Finance and Operations forritum. |
     | 2 | ElectronicAddressIdPrefix | strengur | Þessi færibreyta bætir raðnúmeri við nýstofnuð rafræn heimilisföng sem forskeyti. Vertu viss um að gefa upp streng sem stangast ekki á við rafræn heimilisföng í Finance and Operations öppum og öppum fyrir þátttöku viðskiptavina. Til dæmis, notaðu **ADF-EAD-**. |
 
     ![IsFOSource og ElectronicAddressIdPrefix alþjóðlegar færibreytur búnar til á flipanum Stjórna.](media/ADF-4.png)
@@ -270,7 +270,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
 9. Í gagnaverksmiðjunni skaltu keyra sniðmát fyrir póstfang aðila og rafræn heimilisfang aðila, hvert á eftir öðru.
 
-    + Póstfangssniðmát aðila uppfærir allar póstfangsfærslur í forritinu fyrir þátttöku viðskiptavina og tengir þær við samsvarandi **Reikningur**, **samband**, og **Seljandi** skrár. Það býr einnig til þrjár .csv skrár: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv og ImportFONewPostalAddress.csv.
+    + Póstfangssniðmát aðila uppfærir allar póstfangsfærslur í viðskiptavinaforritinu og tengir þær við samsvarandi **Reikningur**, **samband**, og **Seljandi** skrár. Það býr einnig til þrjár .csv skrár: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv og ImportFONewPostalAddress.csv.
     + Sniðmát fyrir rafræn heimilisfang aðila setur öll rafföng í samskiptaforriti viðskiptavina upp og tengir þau við samsvarandi **Reikningur**, **samband**, og **Seljandi** skrár. Það býr einnig til eina .csv skrá: ImportFONewElectronicAddress.csv.
 
     ![Að keyra sniðmát fyrir póstfang aðila og rafræn heimilisfang aðila.](media/ADF-7.png)
@@ -372,7 +372,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 9. Skref 15-1 til 15-3 undirbúa **Hafðu samband fyrir Party** skrár fyrir **Reikningur**, **samband**, og **Seljandi** skrár.
 10. Skref 16-1 til 16-7 sækja tilvísunargögn eins og kveðjur og persónugerðir og tengja þau við **Hafðu samband fyrir Party** skrár.
 11. Skref 17 sameinar **Hafðu samband fyrir Party** skrár fyrir **Reikningur**, **samband**, og **Seljandi** skrár.
-12. Skref 18 flytur inn **Hafðu samband fyrir Party** skrár inn í forritið fyrir þátttöku viðskiptavina.
+12. Skref 18 flytur inn **Hafðu samband fyrir veislu** skrár inn í forritið fyrir þátttöku viðskiptavina.
 
 ### <a name="steps-in-the-party-postal-address-template"></a>Skref í sniðmát fyrir póstfang aðila
 
@@ -393,7 +393,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 10. Skref 9-1 til 9-2 tengja auðkenni aðila og póstfangasafns við póstföng og póstföng aðila.
 11. Skref 10-1 til 10-3 flytja heimilisföng viðskiptavina, póstföng og póstföng aðila inn í forritið fyrir þátttöku viðskiptavina.
 
-### <a name="steps-in-the-party-electronic-address-template"></a>Skref í sniðmáti fyrir rafrænt heimilisfang aðila
+### <a name="steps-in-the-party-electronic-address-template"></a>Skref í sniðmát fyrir rafræn heimilisfang aðila
 
 1. Skref 1-1 til 1-5 sækja gögn bæði úr Finance and Operations appinu og viðskiptavinaforritinu og setja þau gögn í uppfærslu.
 2. Skref 2 sameinar rafræn heimilisföng í þátttökuforriti viðskiptavina frá reiknings-, tengiliða- og söluaðilum.
@@ -403,7 +403,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
     - Búðu til ný rafræn heimilisfangsgögn fyrir Finance and Operations appið, byggt á heimilisfangi reiknings, tengiliða og söluaðila.
     - Búðu til ný rafræn heimilisfangsgögn fyrir þátttökuforrit viðskiptavina, byggt á rafrænu heimilisfangi, reikningi, tengiliðum og heimilisfangi söluaðila í Finance and Operations appinu.
 
-5. Skref 5-1 flytur inn rafræn heimilisföng í þátttökuforrit viðskiptavina.
+5. Skref 5-1 flytur inn rafræn heimilisföng í þátttökuforritið fyrir viðskiptavini.
 6. Skref 5-2 býr til .csv skrár til að uppfæra aðalnetföng fyrir reikninga og tengiliði í forritinu fyrir þátttöku viðskiptavina.
 7. Skref 6-1 til 6-2 flyttu inn reikninga og tengiliðaaðföng í þátttökuforritið fyrir viðskiptavini.
 

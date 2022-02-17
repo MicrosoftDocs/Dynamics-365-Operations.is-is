@@ -1,6 +1,6 @@
 ---
-title: Leiðbeiningar um dreifingu fyrir sjóðvélar fyrir Noreg
-description: Þetta efnisatriði veitir leiðbeiningar um hvernig á að virkja virkni sjóðvélar fyrir Microsoft Dynamics 365 Commerce staðsetning fyrir Noreg.
+title: Leiðbeiningar um uppsetningu fyrir sjóðsvélar fyrir Noreg
+description: Þetta efni veitir leiðbeiningar um hvernig á að virkja virkni sjóðvélar fyrir Microsoft Dynamics 365 Commerce staðsetning fyrir Noreg.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c7e64dbfe6a300c097b5b3711ac4310f3386df11
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: f0744b18ed59c692ae336c92e488d339ae158368
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944741"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077141"
 ---
-# <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Leiðbeiningar um dreifingu fyrir sjóðvélar fyrir Noreg
+# <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Leiðbeiningar um uppsetningu fyrir sjóðsvélar fyrir Noreg
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir leiðbeiningar um hvernig á að virkja virkni sjóðvélar fyrir Microsoft Dynamics 365 Commerce staðsetning fyrir Noreg. Staðsetningin samanstendur af nokkrum framlengingum á íhlutum. Þessar viðbætur gera þér kleift að framkvæma aðgerðir eins og að prenta sérsniðna reiti á kvittanir, skrá viðbótarendurskoðunarviðburði, sölufærslur og greiðslufærslur á sölustað (POS), undirrita sölufærslur stafrænt og prenta skýrslur á staðbundnu sniði. Fyrir frekari upplýsingar um staðsetningar fyrir Noreg, sjá [Gjaldkassavirkni fyrir Noreg](./emea-nor-cash-registers.md). Fyrir frekari upplýsingar um hvernig á að stilla Commerce fyrir Noreg, sjá [Settu upp Commerce fyrir Noreg](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
+Þetta efni veitir leiðbeiningar um hvernig á að virkja virkni sjóðvélar fyrir Microsoft Dynamics 365 Commerce staðsetning fyrir Noreg. Staðsetningin samanstendur af nokkrum framlengingum á íhlutum. Þessar viðbætur gera þér kleift að framkvæma aðgerðir eins og að prenta sérsniðna reiti á kvittanir, skrá viðbótarendurskoðunarviðburði, sölufærslur og greiðslufærslur á sölustað (POS), undirrita sölufærslur stafrænt og prenta skýrslur á staðbundnu sniði. Fyrir frekari upplýsingar um staðsetningar fyrir Noreg, sjá [Gjaldkassavirkni fyrir Noreg](./emea-nor-cash-registers.md). Fyrir frekari upplýsingar um hvernig á að stilla Commerce fyrir Noreg, sjá [Settu upp Commerce fyrir Noreg](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
 
 > [!WARNING]
 > Vegna takmarkana á [ný sjálfstæð umbúða- og framlengingarlíkan](../dev-itpro/build-pipeline.md), sem stendur er ekki hægt að nota það fyrir þessa staðsetningaraðgerð. Þú verður að nota útgáfu stafræna undirskriftarsýnishornsins fyrir Noreg í fyrri útgáfu smásöluhugbúnaðarþróunarsettsins (SDK) á sýndarvél þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar, sjá [Leiðbeiningar um dreifingu fyrir sjóðvélar fyrir Noreg (arfleifð)](./emea-nor-loc-deployment-guidelines.md).
@@ -29,20 +29,20 @@ ms.locfileid: "7944741"
 
 ## <a name="set-up-fiscal-registration-for-norway"></a>Settu upp ríkisfjármálaskráningu fyrir Noreg
 
-Úrtak ríkisfjármálaskráningar fyrir Noreg er byggt á [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md) og er hluti af Retail SDK. Sýnið er staðsett í **src\\ Fiscal Integration\\ SequentialSignatureNorway** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla (td [sýnishornið í útgáfu/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway)). Sýnið [felst í](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) af ríkisfjármálaskjalaveitu og fjárhagstengi, sem eru framlengingar á viðskiptatímanum (CRT). Fyrir frekari upplýsingar um hvernig á að nota Retail SDK, sjá [Smásölu SDK arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md) og [Settu upp smíðisleiðslu fyrir SDK fyrir sjálfstæða umbúðir](../dev-itpro/build-pipeline.md).
+Úrtak ríkisfjármálaskráningar fyrir Noreg er byggt á [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md) og er hluti af Retail SDK. Sýnið er staðsett í **src\\ Fiscal Integration\\ SequentialSignatureNorway** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla (td [sýnishornið í útgáfu/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway)). Sýnið [felst í](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) af ríkisfjármálaskjalaveitu og fjárhagstengi, sem eru framlengingar á viðskiptatímanum (CRT). Fyrir frekari upplýsingar um hvernig á að nota Retail SDK, sjá [Smásölu SDK arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md) og [Settu upp smíðisleiðslu fyrir SDK fyrir sjálfstæða umbúðir](../dev-itpro/build-pipeline.md).
 
 Ljúktu við uppsetningarskref fjárhagsskráningar sem lýst er í [Settu upp fjárhagslega samþættingu fyrir viðskiptarásir](./setting-up-fiscal-integration-for-retail-channel.md):
 
-1. [Settu upp fjárhagslega skráningarferli](./setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Gakktu úr skugga um að þú takir eftir stillingum fjárhagsskráningarferlisins sem eru [sérstaklega við Noreg](#configure-the-fiscal-registration-process).
+1. [Settu upp fjárhagslega skráningarferli](./setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Vertu viss um að skrifa niður stillingar fjárhagsskráningarferlisins sem eru [sérstaklega við Noreg](#configure-the-fiscal-registration-process).
 1. [Stilltu stillingar fyrir villumeðferð](./setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 1. [Virkja handvirka framkvæmd frestaðrar fjárhagsskráningar](./setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
 1. [Stilltu rásaríhluti](#configure-channel-components).
 
 ### <a name="configure-the-fiscal-registration-process"></a>Stilltu fjárhagsskráningarferlið
 
-Fylgdu þessum skrefum til að virkja skattaskráningarferlið fyrir Noreg í höfuðstöðvum viðskipta.
+Fylgdu þessum skrefum til að virkja skattaskráningarferlið fyrir Noreg í höfuðstöðvum Commerce.
 
-1. Hlaða niður stillingarskrám fyrir veitanda fjárhagsskjala og fjárhagstengi frá Commerce SDK:
+1. Hlaða niður stillingarskrám fyrir veitanda fjárhagsskjala og fjárhagstenginu frá Commerce SDK:
 
     1. Opnaðu [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla.
     1. Opnaðu síðasta tiltæka útgáfuútibú (til dæmis, **[útgáfa/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34)**).
@@ -55,7 +55,7 @@ Fylgdu þessum skrefum til að virkja skattaskráningarferlið fyrir Noreg í h�
 1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Veitendur ríkisfjármálaskjala**, og hlaðið inn stillingaskrá fjárhagsskjalaveitunnar sem þú hleður niður áðan.
 1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Tengi virka snið**. Búðu til nýtt virknisnið fyrir tengi og veldu skjalaveituna og tengið sem þú hleður inn áðan.
 1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Tæknisnið fyrir tengi**. Búðu til nýtt tæknisnið fyrir tengi og veldu tengið sem þú hleður inn áðan. Stilltu tengigerðina á **Innri**.
-1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Fjárhagstengingarhópar**, og búðu til nýjan fjárhagstengihóp fyrir virknisniðið tengi sem þú bjóst til áður.
+1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Fjárhagstengingarhópar**, og búðu til nýjan fjárhagstengihóp fyrir virknisniðið sem þú bjóst til áður.
 1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Skráningarferli í ríkisfjármálum**. Búðu til nýtt fjárhagsskráningarferli og fjárhagsskráningarferlisþrep og veldu fjárhagstengihópinn sem þú stofnaðir áðan.
 1. Farðu í **Retail og Commerce \> Uppsetning rásar \> Uppsetning sölustaðar \> Forstillingar sölustaðar \> Virknireglur**. Veldu virknisnið sem er tengt við verslunina þar sem skráningarferlið á að virkja. Á **Skráningarferli í ríkisfjármálum** Flýtiflipi, veldu fjárhagsskráningarferlið sem þú bjóst til áðan. Á **Þjónusta í ríkisfjármálum** Flýtiflipi, veldu tæknisniðið sem þú bjóst til áðan. 
 1. Farðu í **Retail og Commerce \> Upplýsingatækni í Retail og Commerce \> Dreifingaráætlun**. Opnaðu dreifingaráætlunina og veldu störf **1070** og **1090** að flytja gögn í rásargagnagrunninn.
@@ -135,9 +135,9 @@ Fylgdu skrefunum í [Settu upp smíðisleiðslu fyrir sýnishorn fjárhagslega s
 Til að virkja stafræna undirskrift í ótengdum ham fyrir Modern POS, verður þú að fylgja þessum skrefum eftir að þú hefur virkjað Modern POS á nýju tæki.
 
 1. Skráðu þig inn í POS.
-1. Á **Gagnagrunnstengingarstaða** síðu skaltu ganga úr skugga um að ónettengdi gagnagrunnurinn sé að fullu samstilltur. Þegar verðmæti **Niðurhal í bið** sviði er **0** (núll), gagnagrunnurinn er að fullu samstilltur.
+1. Á **Staða gagnagrunnstengingar** síðu skaltu ganga úr skugga um að ónettengdi gagnagrunnurinn sé að fullu samstilltur. Þegar verðmæti **Niðurhal í bið** sviði er **0** (núll), gagnagrunnurinn er að fullu samstilltur.
 1. Skráðu þig út af POS.
 1. Bíddu eftir að ónettengdi gagnagrunnurinn sé samstilltur að fullu.
 1. Skráðu þig inn í POS.
-1. Á **Gagnagrunnstengingarstaða** síðu skaltu ganga úr skugga um að ónettengdi gagnagrunnurinn sé að fullu samstilltur. Þegar verðmæti **Viðskipti í bið í ótengdum gagnagrunni** sviði er **0** (núll), gagnagrunnurinn er að fullu samstilltur.
+1. Á **Staða gagnagrunnstengingar** síðu skaltu ganga úr skugga um að ónettengdi gagnagrunnurinn sé að fullu samstilltur. Þegar verðmæti **Viðskipti í bið í ótengdum gagnagrunni** sviði er **0** (núll), gagnagrunnurinn er að fullu samstilltur.
 1. Opnaðu Modern POS aftur.

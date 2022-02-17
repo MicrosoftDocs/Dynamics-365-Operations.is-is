@@ -9,33 +9,33 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c9bf5d9017579b4207e09769cff38361442e3938
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 9a70de253eff2a3273be4a31ab32757bb014328f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781441"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061468"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Leysa úr vandamálum við fyrstu uppsetningu
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Þetta efni veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem kunna að koma upp við upphaflega uppsetningu á samþættingu tvöfaldra skrifa.
+
+Þetta efnisatriði veitir upplýsingar um bilanaleit fyrir tvískrifað samþættingu milli Finance and Operations forrita og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem kunna að koma upp við upphaflega uppsetningu á samþættingu tvöfaldra skrifa.
 
 > [!IMPORTANT]
 > Nokkur þeirra atriða sem þetta efni fjallar um geta krafist annað hvort kerfisstjórans eða Microsoft Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
 
-## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Þú getur ekki tengt forrit Finance and Operations við Dataverse
+## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Þú getur ekki tengt Finance and Operations app við Dataverse
 
-**Nauðsynlegt hlutverk til að setja upp tvískipt skrif:** Kerfisstjóri í Finance and Operations forritum og Dataverse.
+**Áskilið hlutverk til að setja upp tvískrift:** Kerfisstjóri í Finance and Operations öppum og Dataverse.
 
 Villur á síðunni **Setja upp tengil á Dataverse** orsakast venjulega af ólokinni uppsetningu eða heimildavandamálum. Gakktu úr skugga um að öll ástandsskoðunin standist á síðunni **Setja upp tengil á Dataverse** eins og sýnt er á eftirfarandi mynd. Þú getur ekki tengt tvískipt skrif nema öll ástandsskoðunin standist.
 
 ![Vel heppnuð ástandsskoðun.](media/health_check.png)
 
-Þú verður að hafa Azure AD leigjandastjóraskilríki til að tengja Finance and Operations og Dataverse umhverfin. Þegar búið er að tengja umhverfin geta notendur skráð sig inn með því að nota innskráningarupplýsingar sínar og uppfært fyrirliggjandi töflukort.
+Þú hlýtur að hafa Azure AD leigjanda stjórnanda skilríki til að tengja fjármál og rekstur og Dataverse umhverfi. Þegar búið er að tengja umhverfin geta notendur skráð sig inn með því að nota innskráningarupplýsingar sínar og uppfært fyrirliggjandi töflukort.
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Finnið mörkin á fjölda lagtaflna eða fyrirtækja sem hægt er að tengja við tvöfalda skráningu
 
@@ -55,7 +55,7 @@ Tvöföld skráning styður ekki marga lögaðila/fyrirtæki með sama heitinu. 
 
 Til að afblokka viðskiptavininn skal fjarlægja tvíteknar færslur úr töflunni **cdm_company** í Dataverse. Einnig, ef taflna **cdm_company** er með færslur með auðu heiti skal fjarlægja eða leiðrétta þessar færslur.
 
-## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Villa þegar síða tvöfaldrar skráningar var opnuð í Finance and Operations forritum
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Villa við að opna tvískrifa síðuna í Finance and Operations forritum
 
 Þú gætir fengið eftirfarandi villuboð þegar þú reynir að tengja Dataverse umhverfi fyrir tvöfalda skráningu:
 
@@ -70,22 +70,22 @@ Til að afblokka viðskiptavininn skal fjarlægja tvíteknar færslur úr töflu
     `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
 
 + Veldu **Samþykkja** til að veita samþykki. Þú ert að veita samþykki til að setja upp forritið (með `id=33976c19-1db5-4c02-810e-c243db79efde`) í leigjandanum þínum.
-+ Þetta forrit er nauðsynlegt fyrir Dataverse til að eiga samskipti við Finance and Operations forrit.
++ Þetta app er nauðsynlegt fyrir Dataverse til að hafa samskipti við Finance and Operations öpp.
 
     ![Úrræðaleit fyrir uppsetningu upphaflegrar samstillingar.](media/Initial-sync-setup-troubleshooting-1.png)
 
 > [!NOTE]
 > Ef þetta virkar ekki skaltu ræsa vefslóðina í einkastillingu í Microsoft Edge eða huliðsstillingu í Chrome.
 
-## <a name="finance-and-operations-environment-is-not-discoverable"></a>Ekki er hægt að finna Finance and Operations umhverfi
+## <a name="finance-and-operations-environment-is-not-discoverable"></a>Fjármála- og rekstrarumhverfi er ekki hægt að finna
 
 Þú gætir fengið eftirfarandi villuboð:
 
-*Finance and Operations forritsumhverfi \*\*\*.cloudax.dynamics.com finnst ekki.*
+*Umhverfi fjármála- og rekstrarappa\*\*\* .cloudax.dynamics.com er ekki hægt að finna.*
 
 Það er tvennt sem getur valdið vandræðum með umhverfi sem ekki er hægt að finna:
 
-+ Notandinn sem notaður er við innskráningu er ekki sami leigjandi og Finance and Operations tilvikið.
-+ Það komu upp vandamál við að finna nokkur eldri Finance and Operations tilvik sem voru hýst af Microsoft. Til að lagfæra þetta skaltu uppfæra Finance and Operations tilvikið. Hægt verður að finna umhverfið með hvaða uppfærslu sem er.
++ Notandinn sem notaður er við innskráningu er ekki í sama leigjanda og Finance and Operations tilvikið.
++ Það eru nokkur eldri Finance and Operations tilvik sem voru hýst hjá Microsoft sem áttu í vandræðum með uppgötvun. Til að laga þetta skaltu uppfæra Finance and Operations tilvikið. Hægt verður að finna umhverfið með hvaða uppfærslu sem er.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

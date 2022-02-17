@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a13f699c8c0951b32f7826e8cfe8d7dcf02a7f55
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: dbb069110b46c38a994a7be6276137360b14397a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729004"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069530"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Dreifa og tímasetja spurningalista
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -108,7 +111,7 @@ Ef notuð er áætluð svarseta tilkynna þarf að tilkynna einstaklingurinn bei
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Tilkynna svarendum um röðun
 
-Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann. Sláðu inn tölvupóststextann á **Tölvupóstur fyrir sjálfsafgreiðslu starfsmanna** flipa. Eftir að áætlunin hefur verið hafin skaltu smella **Aðgerðir** &gt; **Senda tölvupóst** að búa til og senda tölvupóstinn til svarenda. Svarendur geta síðan innskráð sig á vefsvæðið og svarað spurningalistanum. 
+Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann. Sláðu inn tölvupóststextann á **Tölvupóstur fyrir sjálfsafgreiðslu starfsmanna** flipa. Eftir að áætlun hefur verið hafin, smelltu **Aðgerðir** &gt; **Senda tölvupóst** að búa til og senda tölvupóstinn til svarenda. Svarendur geta síðan innskráð sig á vefsvæðið og svarað spurningalistanum. 
 
 > [!NOTE]
 > Áður en þú getur notað tölvupóstvirknina verður upplýsingatæknistjórinn þinn að slá inn tölvupóstsstillingarnar á **Tölvupóstfæribreytur** síðu.

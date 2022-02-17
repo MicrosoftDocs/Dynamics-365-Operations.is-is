@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 614f37236bbd0239925e37ebf29f59ac006d09cd
-ms.sourcegitcommit: 4f84540e6121ca3d5ae52ee07e414116d423cefa
+ms.openlocfilehash: 727e1eb75f807d84f088cf3dd139eb094aa76618
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/03/2022
-ms.locfileid: "7948808"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087218"
 ---
 # <a name="task-management"></a>Verkstjórnun
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 Verkefnastjórnun gerir þér kleift að búa til verkefni sem þarf að ljúka til að ráða (um borð), segja upp (fyrir utan) og flytja (skipti) starfsmenn. Verkefnastjórnun notar hugtakið gátlista. Gátlisti er yfir lista yfir verkefni um borð, brottför eða umskipti. Verkefnastjórnun notar gátlista til að flokka verkefni saman og úthluta þeim á einstaklinga eða hópa. Virkni gátlistans fyrir um borð, brottför og umskipti er svipuð.
 
@@ -62,7 +64,7 @@ The **Umskipti** flipi inniheldur **Öll verkefni** listi sem sýnir öll verkef
 - Uppfærðu gjalddaga verks.
 
 > [!NOTE]
-> Sjálfgefið er **Um borð** flipinn sýnir starfsmenn sem voru ráðnir á síðustu sjö dögum. Til að breyta þessari stillingu, á **Stærðir mannauðs** síðu, á **Almennt** flipa, í **Nýlegar ráðningar** reit, sláðu inn tímaramma. Upplýsingarnar í **Nýlegar ráðningar** Listi er hægt að sýna fyrir ákveðinn fjölda daga, mánaða eða ára. Til dæmis, til að skoða listann yfir starfsmenn sem voru ráðnir á síðustu 14 dögum, stilltu **Tímabil** sviði til **14** og **Eining** sviði til **Dagar**.
+> Sjálfgefið er **Um borð** flipinn sýnir starfsmenn sem voru ráðnir á síðustu sjö dögum. Til að breyta þessari stillingu, á **Stærðir mannauðs** síðu, á **Almennt** flipa, í **Nýlegar ráðningar** reit, sláðu inn tímaramma. Upplýsingarnar í **Nýlegar ráðningar** Listi er hægt að sýna fyrir ákveðinn fjölda daga, mánaða eða ára. Til dæmis, til að skoða lista yfir starfsmenn sem voru ráðnir á síðustu 14 dögum skaltu stilla **Tímabil** sviði til **14** og **Eining** sviði til **Dagar**.
 >
 > Á **Stærðir mannauðs** síðu geturðu einnig uppfært tímabil fyrir lista yfir starfsmenn sem hætta og hætta sem eru sýndir á **Útför** flipa.
 >
@@ -100,7 +102,7 @@ Verkatengill veitir tengil á ytri vefsíðu eða síðu í Dynamics 365 appinu.
 - **Upplýsingar um starfsmann** – Ef þú velur þennan valkost skaltu velja einn af eftirfarandi valkostum:
 
     - **Sjálfsafgreiðsluaðgerðir starfsmanna** – Þessi valkostur sýnir lista yfir síður sem eru tiltækar á **Sjálfsafgreiðsla starfsmanna**. Notaðu það ef verkefnið sem var úthlutað starfsmanni um borð þarf að vera lokið í **Sjálfsafgreiðsla starfsmanna**. Til dæmis, ef þú vilt að starfsmaðurinn slær inn persónulegar tengiliðaupplýsingar sínar skaltu velja **Sjálfsafgreiðsluaðgerðir starfsmanna**, og veldu síðan **Persónulegar upplýsingar&gt; Persónuupplýsingar**.
-    - **Aðgerðir starfsmannastjórnunar** – Þessi valkostur sýnir lista yfir síður sem tengjast skráningu starfsmanns, en eru ekki aðgengilegar starfsmanninum. Til dæmis, ef þú vilt að eigandi verkefna setji inn upplýsingar sem eru sérstakar fyrir starfsmann um borð, svo sem upplýsingar um launakjör, veldu **Aðgerðir starfsmannastjórnunar**, og veldu síðan **Bætur&gt; Fastar bætur**.
+    - **Aðgerðir starfsmannastjórnunar** – Þessi valkostur sýnir lista yfir síður sem tengjast skráningu starfsmanns, en eru ekki aðgengilegar starfsmanninum. Til dæmis, ef þú vilt að eigandi verkefna slær inn upplýsingar sem eru sérstakar fyrir starfsmann um borð, svo sem upplýsingar um launakjör, veldu **Aðgerðir starfsmannastjórnunar**, og veldu síðan **Bætur&gt; Fastar bætur**.
 
 ### <a name="assignment-types"></a>Verkefnagerðir
 
@@ -117,7 +119,7 @@ Verkatengill veitir tengil á ytri vefsíðu eða síðu í Dynamics 365 appinu.
 - **Framkvæmdastjóri** – Úthlutaðu verkefninu til yfirmanns starfsmanns sem verið er að ráða, segja upp eða flytja til.
 
     > [!IMPORTANT]
-    > Þegar gátlisti er notaður, ef engin staða er úthlutað til ráðningar, uppsagnar eða flutts starfsmanns, er ekki hægt að ákvarða yfirmanninn. Í þessu tilviki er verkefninu úthlutað eiganda gátlistans. Fyrir frekari upplýsingar, sjá [Að setja upp gátlista](#setting-up-checklists) kafla.
+    > Þegar gátlisti er notaður, ef engin staða er úthlutað starfsmanni sem ráðinn var, sagði upp eða fluttur, er ekki hægt að ákvarða yfirmanninn. Í þessu tilviki er verkefninu úthlutað eiganda gátlistans. Fyrir frekari upplýsingar, sjá [Að setja upp gátlista](#setting-up-checklists) kafla.
 
 - **Starfsmaður** – Úthluta starfsmanninum sem verið er að ráða, segja upp eða flytja til.
 
@@ -148,7 +150,7 @@ Dagatalið sem er tilgreint fyrir gátlista er notað til að reikna út gjaldda
 
 Eftir að dagatal er sett upp er það tengt við gátlistasniðmát. Þannig er gjalddagi hvers verks á gátlistanum reiknaður út á sama hátt. Þú getur sett upp mörg dagatöl, en aðeins eitt dagatal getur verið tengt hverjum gátlista.
 
-## <a name="setting-up-assignment-groups-optional"></a>Uppsetning verkefnahópa (valfrjálst)
+## <a name="setting-up-assignment-groups-optional"></a>Setja upp verkefnahópa (valfrjálst)
 
 Stundum ber hópur einstaklinga ábyrgð á verkefni. Til dæmis gæti hópur upplýsingatæknistarfsmanna verið ábyrgur fyrir því að undirbúa fartölvur fyrir nýráðningar.
 
@@ -163,11 +165,11 @@ Til að setja upp verkefnahóp skaltu fylgja þessum skrefum.
 Eftir að verkefnahópur er búinn til er hann tiltækur fyrir val þegar verkefni er búið til. Til að velja ákveðinn hóp fyrir verkefni verður þú að velja **Hópur** í **Tegund verkefnis**. Hópurinn sem þú bjóst til verður síðan tiltækur fyrir val í **Úthlutað til** sviði.
 
 > [!IMPORTANT]
-> Ef verkefni er úthlutað í hóp er verkefnið merkt sem **Lokið** þegar einn í hópnum klárar það. Verkefni eru búin til við ráðningu, uppsögn eða umskipti. Þær eru búnar til fyrir notendur sem eru úthlutaðir í stöður sem eru með í hópnum.
+> Ef verkefni er úthlutað í hóp er verkefnið merkt sem **Lokið** þegar einn aðili í hópnum klárar það. Verkefni eru búin til við ráðningu, uppsögn eða umskipti. Þær eru búnar til fyrir notendur sem eru úthlutaðir í stöður sem eru með í hópnum.
 
 ## <a name="setting-up-task-groups-optional"></a>Uppsetning verkefnahópa (valfrjálst)
 
-Um borð, brottför eða umbreytingarferli geta falið í sér mörg verkefni. Til að auðvelda þér að úthluta öllum nauðsynlegum verkefnum á gátlista geturðu búið til valfrjálsa verkefnahópa til að flokka tengd verkefni. Til dæmis verða starfsmanna-, upplýsingatækni- og launadeildir hver um sig að ljúka sérstökum verkefnum til að ráða nýjan starfsmann. Þess vegna býrðu til eftirfarandi verkefnahópa: **HR**, **·**, og **Launaskrá**. Síðan, þegar þú býrð til verkefni, geturðu tengt einn af þessum verkhópum við það.
+Um borð, brottför eða umbreytingarferli geta falið í sér mörg verkefni. Til að gera það auðveldara að úthluta öllum nauðsynlegum verkefnum á gátlista geturðu búið til valfrjálsa verkefnahópa til að flokka tengd verkefni. Til dæmis verða starfsmanna-, upplýsingatækni- og launadeildir hver um sig að ljúka sérstökum verkefnum til að ráða nýjan starfsmann. Þess vegna býrðu til eftirfarandi verkefnahópa: **HR**, **·**, og **Launaskrá**. Síðan, þegar þú býrð til verkefni, geturðu tengt einn af þessum verkhópum við það.
 
 Þegar þú vilt bæta verki við gátlista geturðu síað verkefnalistann eftir verkefnahópnum sem viðkomandi verkefni er úthlutað. Til dæmis, þegar þú býrð til gátlistasniðmát geturðu síað listann þannig að aðeins upplýsingatækniverkefnum sem eru úthlutað til **ÞAÐ** verkefnahópar eru sýndir. Þess vegna getur þú tryggt að aðeins viðkomandi upplýsingatækniverkefni séu valin.
 
@@ -179,7 +181,7 @@ Gjalddagi er úthlutað á hvert verkefni með því að bæta við eða draga f
 
 Ef þú ert að nota starfsmannaaðgerðir eru verkefnin búin til þegar **Heill** hnappur er valinn eða aðgerðin er samþykkt.
 
-Í **Verkefnastjórnun** vinnusvæði, þú getur sett gátlista á starfsmann með því að velja starfsmann á einföldu listasíðunni eða upplýsingasíðunni og velja síðan **Notaðu gátlista**. Verðmæti **Áætluð dagsetning** reiturinn verður notaður til að reikna út gjalddaga verkefna. Venjulega ætti markdagsetningin að passa við ráðningar-, uppsagnar- eða breytingadag starfsmanns.
+Í **Verkefnastjórnun** vinnusvæði, þú getur sett gátlista á starfsmann með því að velja starfsmanninn á einföldu listasíðunni eða upplýsingasíðunni og velja síðan **Notaðu gátlista**. Verðmæti **Áætluð dagsetning** reiturinn verður notaður til að reikna út gjalddaga verkefna. Venjulega ætti markdagsetningin að passa við ráðningar-, uppsagnar- eða breytingadag starfsmanns.
 
 Einnig er hægt að setja gátlista fyrir starfsmann með því að opna þeirra **Vinnumaður** síðu og velja **Gátlistar** á matseðlinum.
 

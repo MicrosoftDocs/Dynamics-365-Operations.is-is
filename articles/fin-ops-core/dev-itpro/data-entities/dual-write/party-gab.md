@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 127b4092ad3c5e8737aff43f503e0a8f36ff1ec8
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 601c49e21c3a97d2da225705ddbb386e491d4d25
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781345"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060333"
 ---
 # <a name="party-and-global-address-book"></a>Aðili og altæk aðsetursbók
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-*Aðili* og *altæk aðsetursbók* eru hugtök í forritum Finance and Operations. Aðili getur verið stofnun/fyrirtæki eða einstaklingur. Það er hentugt að vista altækt og stjórna eiginleikum aðila eins og heiti, tungumáli, tengiliðum og aðsetrum. Því næst, þegar eiginleikagildi er breytt á einum stað, sést breytingin á öllum stöðum þar sem aðilinn kemur við sögu.
+
+*Partí* og *alheims heimilisfangabók* eru hugtök í Finance and Operations forritum. Aðili getur verið stofnun/fyrirtæki eða einstaklingur. Það er hentugt að vista altækt og stjórna eiginleikum aðila eins og heiti, tungumáli, tengiliðum og aðsetrum. Því næst, þegar eiginleikagildi er breytt á einum stað, sést breytingin á öllum stöðum þar sem aðilinn kemur við sögu.
 
 ## <a name="party"></a>Aðili
 
@@ -46,7 +46,7 @@ Eftirfarandi skýringarmynd sýnir gagnalíkan fyrir aðila.
 > [!TIP]
 > Þegar reynt er að búa til nýja reikningsfærslu skal nota reitinn **Aðili** til að leita að færslunni eftir heiti. Á þennan hátt þarftu bara að velja færsluna ef þú finnur hana. Forritið fyllir þá sjálfkrafa út öll gögnin frá aðilanum. Ekki þarf að stilla alla nauðsynlega reiti handvirkt. Þessa hegðun er hægt að finna á tilbúnum síðunum **Reikningur**, **Tengiliður** og **Lánardrottinn**.
 
-Tvöföld skrif styðja ekki öll hlutverk aðila í Finance and Operations-forritum. Til að fá heildarlista yfir aðilahlutverk skal skoða [Yfirlit altækrar aðsetursbókar](../../../fin-ops/organization-administration/overview-global-address-book.md).
+Dual-write styður ekki öll flokkshlutverk Finance and Operations forrita. Til að fá heildarlista yfir aðilahlutverk skal skoða [Yfirlit altækrar aðsetursbókar](../../../fin-ops/organization-administration/overview-global-address-book.md).
 
 ### <a name="global-address-book"></a>Altæk aðsetursbók
 
@@ -75,7 +75,7 @@ Taflan **Tengiliður** getur geymt eftirfarandi gerðir af línum.
 |----------|-------------|
 | Einstaklingur sem er viðskiptavinur (til dæmis seljanlegur tengiliður eða B2C-viðskiptavinur) | Strikuð tengiliðafærsla þar sem reiturinn **Fyrirtæki** er ekki auður og reiturinn **Er viðskiptavinur** er stilltur á **Já**. |
 | Einstaklingur sem er lánardrottinn (til dæmis lánardrottinn sem er einkafyrirtæki) | Strikuð tengiliðafærsla þar sem reiturinn **Fyrirtæki** er ekki auður og reiturinn **Er lánardrottinn** er stilltur á **Já**. |
-| Einstaklingur sem er bæði viðskiptavinur og lánardrottinn. | Strikuð tengiliðafærsla þar sem reiturinn **Fyrirtæki** er ekki auður og reiturinn **Er viðskiptavinur** er stilltur á **Já** og reiturinn **Er lánardrottinn** er stilltur á **Já**. Einstaklingur getur bæði verið framleiðandi fyrir eina afurð og neytandi annarrar afurðar. Bæði Finance and Operations-forrit og tvöföld skráning styðja þessi vensl. |
+| Einstaklingur sem er bæði viðskiptavinur og lánardrottinn. | Strikuð tengiliðafærsla þar sem reiturinn **Fyrirtæki** er ekki auður og reiturinn **Er viðskiptavinur** er stilltur á **Já** og reiturinn **Er lánardrottinn** er stilltur á **Já**. Einstaklingur getur bæði verið framleiðandi fyrir eina afurð og neytandi annarrar afurðar. Bæði fjármála- og rekstrarforrit og tvískrif styðja þetta samband. |
 | Einstaklingur sem er tengiliður fyrir fyrirtæki en er ekki viðskiptavinur eða lánardrottinn | Óstrikuð tengiliðafærsla þar sem reiturinn **Fyrirtæki** er auður og reiturinn **Er viðskiptavinur** er stilltur á **Nei** og reiturinn **Er lánardrottinn** er stilltur á **Nei**. |
 
 ## <a name="contact-for-party-table"></a>Taflan tengiliður fyrir aðila
@@ -142,9 +142,9 @@ Hægt er að nota hnappinn **Nýtt rafrænt aðsetur** fyrir ofan hnitanetið ti
 Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum verða allir reitir póstfangs og rafræns aðseturs fjarlægðir úr öðrum flipum (t.d. flipunum **Samantekt** og **Upplýsingar**). Samskiptaupplýsingar sem birtast í flipanum **Upplýsingar** eru skrifvarin afrit af rafrænu aðalaðsetri eins og aðalsímanúmeri, aðalnetfangi, aðalsíma, aðalfaxnúmeri og aðalaðgangs að Twitter. Í hæfnisferlinu getur þú gefið bæði upp símanúmer á vinnustað og farsímanúmer. Símanúmer fyrirtækis telst aðalsími ef **IsMobile=Nei** og farsímanúmer telst aukasími ef **IsMobile=Já**.
 
 > [!TIP]
-> Notaðu flipana **Aðsetur** og **Rafræn aðsetur** í skjámyndunum **Reikningur** og **Tengiliður** til að stjórna gáttum og rafrænum aðsetrum. Þetta tryggir að vistfangagögn séu samstillt við Finance and Operations forrit.
+> Notaðu flipana **Aðsetur** og **Rafræn aðsetur** í skjámyndunum **Reikningur** og **Tengiliður** til að stjórna gáttum og rafrænum aðsetrum. Þetta tryggir að heimilisfangsgögn samstillast við Finance and Operations öpp.
 
-## <a name="setup"></a>Setja upp
+## <a name="setup"></a>Uppsetning
 
 1. Opna umhverfi í forriti viðskiptavinar.
 
@@ -230,7 +230,7 @@ Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum
 
 12. Keyrðu kortin í eftirfarandi röð. Ef villa kemur upp sem segir „Staðfesting verks mistókst. Vantar reit áfangastaðar...“, opnaðu þá kortið og veldu **Endurhlaða töflum**. Keyrðu svo kortið.
 
-    Finance and Operations-forritið | Forrit viðskiptavinatengsla  
+    App fyrir fjármál og rekstur | Forrit viðskiptavinatengsla  
     ----------------------------|------------------------
     [CDS-aðilar](mapping-reference.md#220) | msdyn_parties
     [Staðsetningar CDS-póstfanga](mapping-reference.md#234) | msdyn_postaladdresscollections
@@ -269,36 +269,36 @@ Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum
 
 Safn af töflukortum vinna saman fyrir samskipti aðila og altækrar aðsetursbókar eins og sýnt er í eftirfarandi töflu.
 
-| Finance and Operations-forritið | Forrit viðskiptavinatengsla | lýsing |
+| App fyrir fjármál og rekstur | Forrit viðskiptavinatengsla | Lýsing |
 |----------------------------|-------------------------|-------------|
-| [Titlar tengiliðar](mapping-reference.md#223) | msdyn\_ salescontactpersontitles |
+| [Titlar tengiliðar](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
 | [Viðskiptavinir V3](mapping-reference.md#101) | lyklar |
 | [Viðskiptavinir V3](mapping-reference.md#116) | tengiliðir |
-| [CDS-aðilar](mapping-reference.md#220) | msdyn\_ parties |
-| [Staðsetningar póstfanga CDS-aðila](mapping-reference.md#233) | msdyn\_ partypostaladdresses |
-| [CDS-póstfangsferill V2](mapping-reference.md#235) | msdyn\_ postaladdresses |
-| [Staðsetningar CDS-póstfanga](mapping-reference.md#234) | msdyn\_ postaladdresscollections |
+| [CDS-aðilar](mapping-reference.md#220) | msdyn\_parties |
+| [Staðsetningar póstfanga CDS-aðila](mapping-reference.md#233) | msdyn\_partypostaladdresses |
+| [CDS-póstfangsferill V2](mapping-reference.md#235) | msdyn\_postaladdresses |
+| [Staðsetningar CDS-póstfanga](mapping-reference.md#234) | msdyn\_postaladdresscollections |
 | [CDS-sölutilboðshaus](mapping-reference.md#215) | tilboð |
 | [Hausar CDS-sölupöntunar](mapping-reference.md#217) | salesorders |
-| [Kveðjuorð](mapping-reference.md#222) | msdyn\_ complimentaryclosings |
-| [Tengiliðir V2](mapping-reference.md#221) | msdyn\_ contactforparties |
-| [Hlutverk ákvarðanatöku](mapping-reference.md#224) | msdyn\_ decisionmakingroles |
-| [Starfshlutverk](mapping-reference.md#225) | msdyn\_ employmentjobfunctions |
-| [Stig viðskiptavildar](mapping-reference.md#226) | msdyn\_ loyaltylevels |
-| [Tengiliðir aðila V3](mapping-reference.md#236) | msdyn\_ partyelectronicaddresses |
-| [Persónubundnar manngerðir](mapping-reference.md#227) | msdyn\_ personalcharactertypes |
+| [Kveðjuorð](mapping-reference.md#222) | msdyn\_complimentaryclosings |
+| [Tengiliðir V2](mapping-reference.md#221) | msdyn\_contactforparties |
+| [Hlutverk ákvarðanatöku](mapping-reference.md#224) | msdyn\_decisionmakingroles |
+| [Starfshlutverk](mapping-reference.md#225) | msdyn\_employmentjobfunctions |
+| [Stig viðskiptavildar](mapping-reference.md#226) | msdyn\_loyaltylevels |
+| [Tengiliðir aðila V3](mapping-reference.md#236) | msdyn\_partyelectronicaddresses |
+| [Persónubundnar manngerðir](mapping-reference.md#227) | msdyn\_personalcharactertypes |
 | [Sölureikningshausar V2](mapping-reference.md#118) | reikningar |
-| [Ávörp](mapping-reference.md#228) | msdyn\_ salutations |
-| [Lánardrottnar V2](mapping-reference.md#202) | msdyn\_ vendors |
+| [Ávörp](mapping-reference.md#228) | msdyn\_salutations |
+| [Lánardrottnar V2](mapping-reference.md#202) | msdyn\_vendors |
 
 Frekari upplýsingar er að finna í [Tilvísun vörpunar á tvöfaldri skráningu](mapping-reference.md).
 
 ## <a name="known-issues-and-limitations"></a>Þekkt vandamál og takmarkanir
 
-+ Í Finance and Operations-forritum, þegar viðskiptavinur er stofnaður ásamt aðsetri og það vistað, er hugsanlegt að aðsetrið samstillist ekki við töfluna **Aðsetur**. Þetta er vegna vandamáls varðandi röðun á verkvangi tvöfaldrar skráningar. Sem hjáleið skal stofna viðskiptavininn fyrst og vista hann. Bætið síðan aðsetrinu við.
-+ Í Finance and Operations-forritum, þegar færsla viðskiptavinar er með aðalaðsetri og nýr tengiliður er stofnaður fyrir þann viðskiptavin, þá erfir tengiliðafærslan aðalaðsetur frá tengdri færslu viðskiptavinar. Þetta gerist einnig fyrir tengilið lánardrottins. Dataverse styður ekki þessa hegðun sem stendur. Ef tvöföld skráning er virkjuð eru tengiliðir viðskiptavina sem eru erfðir með aðalaðsetri úr Finance and Operations-forritinu samstilltir við Dataverse ásamt aðsetri þeirra.
++ Í Finance and Operations forritum, þegar þú býrð til viðskiptavin ásamt heimilisfangi og vistar það gæti heimilisfangið ekki samstillt við **Heimilisfang** borð. Þetta er vegna vandamáls varðandi röðun á verkvangi tvöfaldrar skráningar. Sem hjáleið skal stofna viðskiptavininn fyrst og vista hann. Bætið síðan aðsetrinu við.
++ Í Finance and Operations forritum, þegar viðskiptamannaskrá er með aðal heimilisfang og þú býrð til nýjan tengilið fyrir þann viðskiptavin, þá erfir tengiliðaskráin aðal heimilisfang frá tengdu viðskiptamannaskránni. Þetta gerist einnig fyrir tengilið lánardrottins. Dataverse styður ekki þessa hegðun sem stendur. Ef tvískrifað er virkt er tengiliður viðskiptavinar sem er arfur með aðal heimilisfangi frá Finance and Operations appinu samstilltur við Dataverse ásamt heimilisfangi þess.
 + Rafræn aðsetur sem stillt eru í flipanum rafræn aðsetur í skjámyndunum **Reikningur**, **Tengiliður** og **Lánardrottinn** koma úr `msdyn_partyelectronicaddress`-töflunni. Þessar upplýsingar renna ekki til tengdra færslna eins og sölupöntunar, tilboða og innkaupapöntunar. Við ætlum að laga þetta vandamál í stigvaxandi útgáfu. Fyrirliggjandi gögn í reitum rafræns aðseturs í færslum reiknings og tengiliðar munu halda áfram að virka í færslum eins og sölupöntun, tilboði og innkaupapöntun.
-+ Í Finance and Operations-forritum er hægt að stofna tengiliðafærslu úr skjámyndinni **Bæta við tengilið**. Þegar reynt er að stofna nýjan tengilið úr skjámyndinni **Skoða tengilið** mistekst aðgerðin. Þetta er þekkt vandamál.
++ Í Finance and Operations forritum geturðu búið til tengiliðaskrá úr **Bæta við tengilið** formi. Þegar reynt er að stofna nýjan tengilið úr skjámyndinni **Skoða tengilið** mistekst aðgerðin. Þetta er þekkt vandamál.
 
     ![Þekkt vandamál með Bæta við tengilið.](media/party-gab-contact-issue.png)
 
@@ -307,4 +307,4 @@ Frekari upplýsingar er að finna í [Tilvísun vörpunar á tvöfaldri skránin
 
     ![Þekkt vandamál með heimilisfang.](media/party-gab-address-issue.png)
 
-+ Ekki er hægt að færa inn póstfang fram í tímann með því að nota Finance and Operations-forrit með tvöfaldri skráningu vegna þess að Dataverse styður ekki dagsetningarvirkni. Ef fært er inn póstfang dagsett fram í tímann með því að nota Finance and Operations-forrit, samstillist það að fullu við Dataverse og aðsetrið mun sjást strax í notandaviðmótinu. Allar uppfærslur á þessari færslu leiða til villu þar sem hún er með framvirka dagsetningu en ekki líðandi dagsetningu í Finance and Operations-forritinu.
++ Þú getur ekki slegið inn dagsett póstfang með því að nota Finance and Operations app með tvöföldum skrifum, vegna þess að Dataverse styður ekki dagsetningarvirkni. Ef þú slærð inn framtíðardagspóstfang með því að nota Finance and Operations app, samstillast það við Dataverse að fullu og þú munt sjá heimilisfangið strax í notendaviðmótinu. Allar uppfærslur á þessari skrá munu leiða til villu þar sem hún er framtíðardagsett og ekki núverandi í Finance and Operations appinu.

@@ -10,30 +10,30 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 3fe1b7707df72927fba78ee9659502cc62471799
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924982"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063263"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Aðskilinn Dual-Write Application Orchestration pakki
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Áður var Dual-write Application Orchestration pakkinn einn pakki sem innihélt eftirfarandi lausnir:
 
 - Dynamics 365 Notes
-- Dynamics 365 Finance and Operations Sameiginlegt akkeri
-- Dynamics 365 Finance and Operations Tvöfalt skrifa einingakort
+- Dynamics 365 Finance og Operations Common Anchor
+- Dynamics 365 Finance og Operations Dual Write Entity Maps
 - Dynamics 365 eignastýringarforrit
 - Dynamics 365 eignastýring
 - HCM Common
 - Dynamics 365 birgðakeðja framlengd
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance and Operations Sameiginlegt
+- Dynamics 365 Finance og Operations Common
 - Dynamics 365 fyrirtæki
 - Gengi gjaldmiðla
 - Field Service Common
@@ -51,14 +51,14 @@ Dual-write Application Core pakkinn gerir notendum kleift að setja upp og still
 | Einstakt nafn                           | Heiti til birtingar                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | Dynamics 365 fyrirtæki                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations Sameiginlegt |
+| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance og Operations Common |
 | CurrencyExchangeRates                 | Gengi gjaldmiðla                    |
 | msdyn_DualWriteAppCoreMaps            | Dual-write forrit kjarnaeiningakort   |
 | msdyn_DualWriteAppCoreAnchor          | Dual-write forrit kjarna akkeri        |
 
 Eftirfarandi kort eru fáanleg í þessum pakka.
 
-| Finance and Operations-smáforrit     | Forrit viðskiptavinatengsla                    |
+| Forrit Finance and Operations     | Forrit viðskiptavinatengsla                    |
 |---------------------------------|---------------------------------------------|
 | Rekstrareining                  | msdyn_internalorganizations                 |
 | Stigveldi fyrirtækis          | msdyn_internalorganizationhierarchies       |
@@ -77,7 +77,7 @@ Eftirfarandi kort eru fáanleg í þessum pakka.
 
 Dual-write Application Core pakkinn er ekki háður öðrum pakka.
 
-## <a name="dual-write-human-resources"></a>Tvöfalt skrifa mannauð
+## <a name="dual-write-human-resources"></a>Mannauður með tvöföldum skrifum
 
 Dual-write mannauðspakkinn inniheldur lausnir og kort sem þarf til að samstilla mannauðsgögn. Það inniheldur eftirfarandi þrjár lausnir.
 
@@ -89,7 +89,7 @@ Dual-write mannauðspakkinn inniheldur lausnir og kort sem þarf til að samstil
 
 Eftirfarandi kort eru fáanleg í þessum pakka.
 
-| Finance and Operations-smáforrit | Forrit viðskiptavinatengsla         |
+| Forrit Finance and Operations | Forrit viðskiptavinatengsla         |
 |-----------------------------|----------------------------------|
 | Þjóðernisuppruni              | cdm_ethnicorigins                |
 | Starfshlutverk launa   | cdm_jobfunctions                 |
@@ -119,7 +119,7 @@ Dual-write Supply Chain pakkinn inniheldur lausnir og kort sem þarf til að sam
 
 Eftirfarandi kort eru fáanleg í þessum pakka.
 
-| Finance and Operations-smáforrit                 | Forrit viðskiptavinatengsla                      |
+| Forrit Finance and Operations                 | Forrit viðskiptavinatengsla                      |
 |---------------------------------------------|-----------------------------------------------|
 | Einingar                                       | uoms                                          |
 | Hausar CDS-sölupöntunar                     | salesorders                                   |
@@ -182,7 +182,7 @@ Dual-write Supply Chain pakkinn fer eftir eftirfarandi þremur pakkningum. Þess
 
 - Dual-write Application Core pakki
 - Tvískrifað fjármálapakki
-- Tvöfaldur-skrifa mannauðspakki
+- Tvöfaldur-skrifaður mannauðspakki
 
 ## <a name="dual-write-finance"></a>Tvískrifuð fjármál
 
@@ -197,11 +197,11 @@ Dual-write Finance pakkinn inniheldur lausnir og kort sem þarf til að samstill
 
 Eftirfarandi kort eru fáanleg í þessum pakka.
 
-| Finance and Operations-smáforrit             | Forrit viðskiptavinatengsla        |
+| Forrit Finance and Operations             | Forrit viðskiptavinatengsla        |
 |-----------------------------------------|---------------------------------|
 | Staðgreiðsluskattsflokkar                  | msdyn_withholdingtaxgroups      |
 | CDS Contacts V2 (viðskiptavinur)              | tengiliðir                        |
-| CDS tengiliðir V2 (seljandi)                | tengiliðir                        |
+| CDS tengiliðir V2 (sali)                | tengiliðir                        |
 | Viðskiptavinir V3                            | tengiliðir                        |
 | Staðgreiðsluskattskóðar                   | msdyn_withholdingtaxcodes       |
 | Lánardrottnar V2                              | msdyn_vendors                   |
@@ -274,7 +274,7 @@ Dual-write Asset Management pakkinn inniheldur lausnir og kort sem þarf til að
 
 Eftirfarandi kort eru fáanleg í þessum pakka.
 
-| Finance and Operations-smáforrit                           | Forrit viðskiptavinatengsla                |
+| Forrit Finance and Operations                           | Forrit viðskiptavinatengsla                |
 |-------------------------------------------------------|-----------------------------------------|
 | Ábyrgð eignastýringar                             | msdyn_warranties                        |
 | Líkön eignastýringar                               | msdyn_models                            |
@@ -297,6 +297,6 @@ Project Operations fer eftir eftirfarandi pakka. Þess vegna ættir þú að set
 
 - Dual-write Application Core pakki
 - Tvískrifað fjármálapakki
-- Tvöfaldur-skrifa framboð Keðju pakki
+- Tvískrifað framboðskeðjupakki
 - Tvöfaldur-skrifa eignastýringarpakki
-- Tvöfaldur-skrifa mannauðspakki
+- Tvöfaldur-skrifaður mannauðspakki

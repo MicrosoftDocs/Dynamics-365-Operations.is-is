@@ -1,6 +1,6 @@
 ---
 title: Flýtilyklar
-description: Þetta efnisatriði inniheldur yfirlit yfir samsetningar flýtilykla sem þú getur notað þegar þú ert að vinna með Finance and Operations forrit.
+description: Þetta efnisatriði veitir yfirlit yfir flýtilyklasamsetningarnar sem þú getur notað þegar þú ert að vinna með Finance and Operations forritum.
 author: jasongre
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e6f6faf75bb9dc2b11b3a27a886b1674cc7b339
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
-ms.translationtype: MT
+ms.openlocfilehash: 0ecf745337c15270290f02496cc6ce4ccac86861
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913519"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070984"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
 [!include [banner](../includes/banner.md)]
 
-Eftirfarandi flýtilyklar geta auðveldað að færa inn gögn á fljótlegan og skilvirkan hátt í Finance and Operations-forritum.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Eftirfarandi flýtilykla geta hjálpað þér að slá inn gögn á fljótlegan og skilvirkan hátt í Finance and Operations öppum.
 
 > [!NOTE]
 > Flýtileiðir lyklaborðs sem hér er lýst vísa til bandarísks lyklaborðs. Lyklar á öðrum lyklaborðum samsvara hugsanlega ekki nákvæmlega lyklum á bandarísku lyklaborði.

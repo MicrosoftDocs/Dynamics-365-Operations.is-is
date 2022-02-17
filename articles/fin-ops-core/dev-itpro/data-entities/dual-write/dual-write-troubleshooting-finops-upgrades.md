@@ -1,6 +1,6 @@
 ---
-title: Úrræðaleit vandamála vegna uppfærslna Finance and Operations forrita
-description: Þetta efni veitir bilanaleit sem getur hjálpað þér að laga vandamál sem tengjast uppfærslu á forritum Finance and Operations.
+title: Úrræðaleit vandamála vegna uppfærslna fjármála- og rekstrarforrita
+description: Þetta efni veitir upplýsingar um úrræðaleit sem geta hjálpað þér að laga vandamál sem tengjast uppfærslu á Finance and Operations forritum.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: db1602c2edaa2e6b6310cce04639ef7a8e43df15
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: c7c036ef44b0470c9b3f8087e7b5b1e16dde1b34
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782782"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062826"
 ---
-# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Úrræðaleit vandamála vegna uppfærslna Finance and Operations forrita
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Úrræðaleit vandamála vegna uppfærslna fjármála- og rekstrarforrita
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
-Þetta efni veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem tengjast uppfærslu á forritum Finance and Operations.
+
+Þetta efnisatriði veitir upplýsingar um bilanaleit fyrir tvískrifað samþættingu milli Finance and Operations forrita og Dataverse. Nánar tiltekið veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem tengjast uppfærslu á Finance and Operations forritum.
 
 > [!IMPORTANT]
 > Nokkur þeirra atriða sem þetta efni fjallar um geta krafist annað hvort kerfisstjórans eða Microsoft Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
@@ -33,7 +33,7 @@ ms.locfileid: "7782782"
 
 **Nauðsynlegt hlutverk til að laga vandamálið:** Kerfisstjóri
 
-Þú gætir fengið villuboð sem líkjast eftirfarandi dæmi þegar þú reynir að nota töfluna **DualWriteProjectConfiguration** til að uppfæra forrit Finance and Operations í verkvangs uppfærslu 30.
+Þú gætir fengið villuboð sem líkjast eftirfarandi dæmi þegar þú reynir að nota **DualWriteProjectConfiguration** töflu til að uppfæra Finance and Operations app í pallauppfærslu 30.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -43,7 +43,7 @@ Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw
 
 Til að laga úr vandamálið skal fylgja þessum skrefum.
 
-1. Skráðu þig inn á sýndarvélina (VM) fyrir forrit Finance and Operations.
+1. Skráðu þig inn á sýndarvélina (VM) fyrir Finance and Operations appið.
 2. Opnaðu Visual Studio sem stjórnandi og opnaðu hugbúnaðarhlutatré (AOT).
 3. Leita að **DualWriteProjectConfiguration**.
 4. I AOT hægrismellirðu á **DualWriteProjectConfiguration** og velur **Bæta við nýtt verkefni**. Veldu **Í lagi** til að búa til nýja verkið sem notar sjálfgefna valkosti.
@@ -65,10 +65,10 @@ Til að laga úr vandamálið skal fylgja þessum skrefum.
 
 Til að laga málið skaltu fyrst fylgja þessum skrefum til að ganga úr skugga um að dálkarnir séu í töflunni.
 
-1. Skráðu þig inn á VM fyrir forrit Finance and Operations.
+1. Skráðu þig inn á VM fyrir Finance and Operations appið.
 2. Opnaðu **Vinnusvæði \> Gagnastjórnun**, veldu reitinn **Færibreytur ramma** og síðan á flipanum **Töflustillingar** skaltu velja **Uppfæra töflulista** til að uppfæra töflurnar.
-3. Opnaðu **Vinnusvæði \> Gagnastjórnun**, veldu flipann **Gagnatöflur** og gakktu úr skugga um að taflan sé skráð. Ef taflan er ekki skráð skaltu skrá þig inn á VM fyrir forrit Finance and Operations og ganga úr skugga um að taflan sé tiltæk.
-4. Opnaðu síðuna **Vörpun töflu** á síðunni **Tvöföld skráning** í Finance and Operations -forritinu.
+3. Opnaðu **Vinnusvæði \> Gagnastjórnun**, veldu flipann **Gagnatöflur** og gakktu úr skugga um að taflan sé skráð. Ef taflan er ekki skráð skaltu skrá þig inn á VM fyrir Finance and Operations appið og ganga úr skugga um að taflan sé tiltæk.
+4. Opnaðu **Taflakortlagning** síðu frá **Tvöfalt skrifa** síðu í Finance and Operations appinu.
 5. Veldu **Uppfæra töflulista** til að fylla sjálfkrafa út reitina í töfluvörpunum.
 
 Ef málið er enn ekki lagað skaltu fylgja þessum skrefum.
@@ -76,10 +76,10 @@ Ef málið er enn ekki lagað skaltu fylgja þessum skrefum.
 > [!IMPORTANT]
 > Þessi skref leiðbeina þér í gegnum ferlið við að eyða töflu og bæta henni síðan við aftur. Vertu viss um að fylgja leiðbeiningunum nákvæmlega til að forðast vandamál.
 
-1. Í Finance and Operations -forritinu skal opna **Vinnusvæði \> Gagnastjórnun** og velja reitinn **Gagnatöflur**.
+1. Í Finance and Operations appinu skaltu fara á **Vinnurými \> Gagnastjórnun**, og veldu **Gagnatöflur** flísar.
 2. Finnið töfluna sem vantar eigindina. Smelltu á **Breyta markvörpun** á tækjastikunni.
 3. Á **Varpa sviðsetningu á mark** svæðinu skaltu smella á **Búa til vörpun**.
-4. Opnaðu síðuna **Vörpun töflu** á síðunni **Tvöföld skráning** í Finance and Operations -forritinu.
+4. Opnaðu **Taflakortlagning** síðu frá **Tvöfalt skrifa** síðu í Finance and Operations appinu.
 5. Ef vörpunin býr ekki sjálfkrafa til eigindina skaltu bæta henni við með því að smella á **Bæta við eigind** hnappinn og svo **Vista**. 
 6. Veldu vörpunina og smelltu á **Keyra**.
 

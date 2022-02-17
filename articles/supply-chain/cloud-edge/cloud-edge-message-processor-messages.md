@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
-ms.translationtype: HT
+ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471645"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069430"
 ---
 # <a name="message-processor-messages"></a>Skilaboð um skilaboðaúrvinnslu
 
@@ -29,7 +29,7 @@ ms.locfileid: "7471645"
 
 Skilaboð skilaboðaúrvinnslu eru notuð þegar einingakvarðar skýs og jaðra er keyrt fyrir [vinnuálag framleiðslu](cloud-edge-workload-manufacturing.md) og [vinnuálag vöruhúsakerfis](cloud-edge-workload-warehousing.md).
 
-Mikið magn gagna fer á milli uppsetningarumhverfa miðstöðvar og einingakvarða til að halda þeim samstilltum, en *skilaboðaúrvinnslan* vinnur einungis úr nokkrum þessara gagnaskipta. Hægt er að skoða skilaboðin sem skilaboðaúrvinnslan vinnur úr með því að fara í **Kerfisstjórnun > Skilaboðaúrvinnsla > Skilaboð skilaboðaúrvinnslu**.
+Miðstöð og mælieining dreifingarumhverfi skiptast á miklu magni af gögnum til að vera í samstillingu. Sum af þeim gögnum sem skipt er um mun kalla fram frekari rökfræði í *skilaboðavinnsluaðila*. Þú getur skoðað skilaboðin sem hafa verið unnin af skilaboðavinnsluaðilanum með því að fara á **Kerfisstjórnun > Skilaboðavinnsla > Skilaboð vinnsluaðila**.
 
 ## <a name="message-grid-columns-and-filters"></a>Dálkar og síur í skilaboðakerfi
 

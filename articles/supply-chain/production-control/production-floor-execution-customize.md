@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-11-08
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 414fe5d6e16ad125bc2b9bb7ed427e5db5180ec9
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: 67fb381cbef6f1673afcaa834666b4a859bdf4e6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790976"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066547"
 ---
 # <a name="customize-the-production-floor-execution-interface"></a>Sérsníða viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -32,11 +32,11 @@ Hér eru til dæmis nokkrar mögulegar lausnir ef þörf er á nýjum dálkum í
 
 ## <a name="add-a-new-button-action"></a>Bæta við nýjum hnappi (aðgerð)
 
-Til að bæta við nýjum hnappi (aðgerð) skaltu fylgja þessum skrefum til að búa til flokk sem útfærir sérsniðna aðgerðina þína.
+Til að bæta við nýjum hnappi (aðgerð) skaltu fylgja þessum skrefum til að búa til flokk sem útfærir sérsniðna aðgerð þína.
 
 1. Búðu til nýjan flokk sem heitir`<ExtensionPrefix>_JmgProductionFloorExecution<ActionName>Action`, hvar:
 
-    - `<ExtensionPrefix>` auðkennir lausnina þína einstaklega, venjulega með því að nota nafn fyrirtækis þíns.
+    - `<ExtensionPrefix>` auðkennir lausnina þína á einstakan hátt, venjulega með því að nota nafn fyrirtækis þíns.
     - `<ActionName>` er einstakt nafn fyrir bekkinn. Það auðkennir venjulega tegund aðgerða.
 
 1. Nýi flokkurinn verður að lengja`JmgProductionFloorExecutionAction` bekk.
@@ -53,7 +53,7 @@ Fyrir dæmi, skoðaðu kóðann fyrir eftirfarandi flokka:
 
 1. Búðu til nýtt eyðublað sem hefur viðeigandi þætti og virkni. Athugaðu að þetta eyðublað er nýtt eyðublað, ekki viðbót. Nefndu formið`<ExtensionPrefix>_JmgProductionFloorExecution<FormName>`, hvar:
 
-    - `<ExtensionPrefix>` auðkennir lausnina þína einstaklega, venjulega með því að nota nafn fyrirtækis þíns.
+    - `<ExtensionPrefix>` auðkennir lausnina þína á einstakan hátt, venjulega með því að nota nafn fyrirtækis þíns.
     - `<FormName>` er einstakt heiti á forminu.
 
 1. Búðu til valmyndaratriði sem er nefnt `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>`.
@@ -76,7 +76,7 @@ Fyrir dæmi, skoðaðu kóðann fyrir eftirfarandi flokka:
 
 1. Búðu til nýtt eyðublað sem hefur viðeigandi þætti og virkni. Athugaðu að þetta eyðublað er nýtt, ekki viðbót. Nefndu formið`<ExtensionPrefix>_JmgProductionFloorExecution<FormName>Detail`, hvar: 
 
-    - `<ExtensionPrefix>` auðkennir lausnina þína einstaklega, venjulega með því að nota nafn fyrirtækis þíns.
+    - `<ExtensionPrefix>` auðkennir lausnina þína á einstakan hátt, venjulega með því að nota nafn fyrirtækis þíns.
     - `<FormName>` er einstakt heiti á forminu.
 
 1. Búðu til valmyndaratriði sem er nefnt `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>Detail`.
@@ -129,7 +129,7 @@ private void setupNumpadController()
 }
 ```
 
-Eftirfarandi dæmi sýnir eina leið til að hringja í sprettigluggan talnaborðsins.
+Eftirfarandi dæmi sýnir eina leið til að hringja í sprettiglugga talnatakkaborðsins.
 
 ```xpp
 Args args = new Args();

@@ -12,17 +12,17 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 20751a25a6dedb04806068780bc2f4e381bf79bc
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937454"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062491"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Stofna og stjórna notendum fyrir viðskiptavinagátt
 
 [!include [banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Í tilbúnu innleiðingunni er engin leið fyrir notendur að skrá sig sjálfir fyrir vefsvæðum sem búin eru til með því að nota viðskiptavinagáttina. Til að skrá sig inn og nota vefsvæði verða stjórnendur að bjóða notendum. Microsoft hefur viljandi hindrað möguleika notenda á að skrá sig sjálfir.
 
@@ -33,7 +33,7 @@ ms.locfileid: "7937454"
 ## <a name="video"></a>Myndband
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-Myndbandið [Bjóða viðskiptavinum að skrá sig og nota viðskiptavinagáttina](https://youtu.be/drGUYHX9QIQ) (sýnt hér að neðan) er innifalið í [Finance and Operations spilunarlistanum](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er hægt að nálgast í YouTube.
+The [Bjóddu viðskiptavinum að skrá sig og nota viðskiptavinagáttina þína](https://youtu.be/drGUYHX9QIQ) myndbandið (sýnt hér að ofan) er innifalið í [Spilunarlisti fyrir fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) í boði á YouTube.
 
 ## <a name="prerequisite-setup"></a>Uppsetning frumskilyrða
 

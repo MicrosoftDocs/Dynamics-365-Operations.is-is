@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 08c8015e8729a4ca33f3fb3c48f654e489f32f3f
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 90dd59b605c21abd03d2e0d64a89dc787850c26e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729052"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065202"
 ---
 # <a name="create-questionnaires"></a>Búa til spurningalista
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -71,9 +74,9 @@ Sumar forsendur verða að vera til staðar áður en hægt er að stofna spurni
 
 ### <a name="question-types"></a>Gerðir spurninga
 
-**Tegundir spurninga** eru nauðsynlegar og verður að vera úthlutað þegar þú býrð til spurningu. 
+**Tegundir spurninga** eru nauðsynlegar og verður að úthluta þeim þegar þú býrð til spurningu. 
 
-Notaðu **Tegundir spurninga** að flokka spurningar til skýrslugerðar. **Tegundir spurninga** einnig auðveldara að finna spurningar, því þú getur notað tegundir sem síur á **Spurningar** síðu. Hér eru nokkur dæmi um gerðir spurninga:
+Notaðu **Tegundir spurninga** til að flokka spurningar til skýrslugerðar. **Tegundir spurninga** einnig auðveldara að finna spurningar, því þú getur notað tegundir sem síur á **Spurningar** síðu. Hér eru nokkur dæmi um gerðir spurninga:
 
 -   Starfsmannahald
 -   Fyrirtækjastjórnun
@@ -92,7 +95,7 @@ Númeraraðakóðar eru notaðir til að skipuleggja spurningar og svör. Samkv�
 ## <a name="questionnaire-components"></a>Íhlutir spurningalista
 Spurningalistar snúast um þrjú aðalatriði: svarflokka sem innihalda svör fyrir spurningar með mörgum svarmöguleikum, spurningar og spurningalistann sjálfan. Einnig er hægt að flokka spurningar í spurningalista í niðurstöðuflokk. Niðurstöðuflokkar gera kleift að flokka spurningar og veita frekari greiningu á spurningalistanum. 
 
-[![ QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Svarflokkar og svör
 

@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c0e301305fb0d99ab2f8c811f9f560bc5008e02b
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: b8d60f32d986dec6bb26d78ebdfe8cee3a6b688a
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944891"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077039"
 ---
 # <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>Leiðbeiningar um dreifingu fyrir samþættingarsýni stjórneiningar fyrir Svíþjóð (arfleifð)
 
@@ -22,7 +22,7 @@ ms.locfileid: "7944891"
 
 Þetta efnisatriði veitir leiðbeiningar um uppsetningu samþættingarsýnis stýrieininga fyrir Svíþjóð úr smásöluhugbúnaðarþróunarsettinu (SDK) á sýndarvél þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar um þetta sýnishorn af samþættingu ríkisfjármála, sjá [Samþættingarsýni stjórneiningar fyrir Svíþjóð](emea-swe-fi-sample.md). 
 
-Úrtak ríkisfjármálasamþættingar fyrir Svíþjóð er hluti af Retail SDK. Fyrir upplýsingar um hvernig á að setja upp og nota SDK, sjá [Smásöluhugbúnaðarþróunarsett (SDK) arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md). Þetta sýnishorn samanstendur af viðbótum fyrir Commerce runtime (CRT), Vélbúnaðarstöð og sölustaður (POS). Til að keyra þetta sýnishorn verður þú að breyta og byggja upp CRT, Vélbúnaðarstöð og POS verkefni. Við mælum með því að þú notir óbreytt Retail SDK til að gera þær breytingar sem lýst er í þessu efni. Við mælum líka með því að þú notir heimildastýringarkerfi eins og Azure DevOps þar sem engum skrám hefur verið breytt enn.
+Úrtak ríkisfjármálasamþættingar fyrir Svíþjóð er hluti af Retail SDK. Fyrir upplýsingar um hvernig á að setja upp og nota SDK, sjá [Smásala hugbúnaðarþróunarsett (SDK) arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md). Þetta sýnishorn samanstendur af viðbótum fyrir Commerce runtime (CRT), Vélbúnaðarstöð og sölustaður (POS). Til að keyra þetta sýnishorn verður þú að breyta og byggja upp CRT, Vélbúnaðarstöð og POS verkefni. Við mælum með því að þú notir óbreytt Retail SDK til að gera þær breytingar sem lýst er í þessu efni. Við mælum líka með því að þú notir heimildastýringarkerfi eins og Azure DevOps þar sem engum skrám hefur verið breytt ennþá.
 
 ## <a name="development-environment"></a>Þróunarumhverfi
 
@@ -67,7 +67,7 @@ The CRT framlengingaríhlutir eru innifalin í CRT sýnishorn. Til að ljúka ef
 
 ### <a name="enable-hardware-station-extensions"></a>Virkja viðbætur fyrir vélbúnaðarstöð
 
-Vélbúnaðarstöðvarframlengingarhlutirnir eru innifalin í vélbúnaðarstöðvunum. Til að ljúka eftirfarandi aðferðum skaltu opna **HardwareStationSamples.sln** lausn undir **RetailSdk\\ SampleExtensions\\ Vélbúnaðarstöð**.
+Viðbótarhlutir vélbúnaðarstöðvar eru innifaldir í sýnishornum vélbúnaðarstöðvar. Til að ljúka eftirfarandi aðferðum skaltu opna **HardwareStationSamples.sln** lausn undir **RetailSdk\\ SampleExtensions\\ Vélbúnaðarstöð**.
 
 #### <a name="cleancash-component"></a>CleanCash hluti
 
@@ -91,7 +91,7 @@ Vélbúnaðarstöðvarframlengingarhlutirnir eru innifalin í vélbúnaðarstö�
 
 ### <a name="enable-modern-pos-extension-components"></a>Virkjaðu nútíma POS viðbótaríhluti
 
-1. Opnaðu **ModernPOS.sln** lausn undir **RetailSdk\\ POS**, og vertu viss um að hægt sé að setja það saman án villna. Gakktu úr skugga um að þú getir keyrt Modern POS frá Visual Studio með því að nota **Hlaupa** skipun.
+1. Opnaðu **ModernPOS.sln** lausn undir **RetailSdk\\ POS**, og vertu viss um að hægt sé að setja hana saman án villna. Gakktu úr skugga um að þú getir keyrt Modern POS frá Visual Studio með því að nota **Hlaupa** skipun.
 
     > [!NOTE]
     > Nútíma POS má ekki aðlaga. Þú verður að virkja User Account Control (UAC) og þú verður að fjarlægja áður uppsett tilvik af Modern POS eftir þörfum.
@@ -193,13 +193,13 @@ Tilgangur framlengingarinnar sem er ríkisfjármálaskjalaveita er að búa til 
 
 The CRT framlenging er **Runtime.Extensions.DocumentProvider.CleanCashSample**.
 
-Fyrir frekari upplýsingar um hönnun fjárhagslegrar samþættingarlausnar, sjá [Fjárhagsskráningarferli og sýnishorn af samþættingu ríkisfjármála fyrir ríkisfjármálatæki](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+Fyrir frekari upplýsingar um hönnun fjárhagslegrar samþættingarlausnar, sjá [Fjárhagsskráningarferli og sýnishorn af samþættingu ríkisfjármála fyrir ríkisfjármálatæki og þjónustu](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 #### <a name="request-handler"></a>Beiðni um stjórnanda
 
 Það er einn **DocumentProviderCleanCash** beiðni um meðhöndlun fyrir skjalaveitanda. Þessi meðhöndlun er notuð til að búa til fjárhagsskjöl fyrir stjórneininguna.
 
-Þessi meðhöndlun er arfur frá **INAmedRequestHandler** viðmót. The **HandlerName** aðferð ber ábyrgð á því að skila nafni meðhöndlunar. Nafn meðhöndlunar ætti að passa við heiti tengiskjalsveitu sem er tilgreint í höfuðstöðvum Commerce.
+Þessi meðhöndlari er arfur frá **INAmedRequestHandler** viðmót. The **HandlerName** aðferð ber ábyrgð á því að skila nafni meðhöndlunar. Nafn meðhöndlunar ætti að passa við heiti tengiskjalsveitu sem er tilgreint í höfuðstöðvum Commerce.
 
 Tengið styður eftirfarandi beiðnir:
 
@@ -439,7 +439,7 @@ Flutningsferlið ætti að samanstanda af eftirfarandi skrefum.
     ```
     ---
 
-2. Virkjaðu núverandi sýnishorn vélbúnaðarstöðvarviðbótar með því að bæta eftirfarandi línu við **samsetningu** kafla í **HardwareStation.Extension.config** stillingarskrá.
+2. Virkjaðu núverandi sýnishorn af vélbúnaðarstöðvum með því að bæta eftirfarandi línu við **samsetningu** kafla í **HardwareStation.Extension.config** stillingarskrá.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />

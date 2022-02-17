@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a812887f20a8ae5ae3b677ac452a498230c244a
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: 21127c46615015c30e06465b390f67b835e746cb
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731737"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068135"
 ---
 # <a name="create-loan-items"></a>Stofna lánshluti
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,7 +44,7 @@ Lánshlutir eru færslur sem aðstoða við að rekja efnislegu vörurnar, eins 
 
 ## <a name="create-loan-items"></a>Stofna lánshluti
 1. Fara til **Mannauður** > **Verkamenn** > **Lánshlutir** > **Lánshlutir**.
-2. Smellur **Búa til lánsvörur**.
+2. Smellur **Búðu til lánsvörur**.
 3. Í **Magn.** reit, sláðu inn númer.
 4. Í reitinn **Lýsing** skal slá inn gildi.
 5. Í **Lánstegund** reit, smelltu á fellilistann til að opna leitina.

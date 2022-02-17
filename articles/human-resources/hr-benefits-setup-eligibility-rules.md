@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 034957628580c468ed00b14afeb7e49af15c45cc
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
-ms.translationtype: HT
+ms.openlocfilehash: e87bef8994fe1eac0089764c8d4f9b18289c13ea
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423472"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069631"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Grunnstilla hæfnireglur og valkosti 
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -229,7 +232,7 @@ Tímabil skilgreina hvenær fríðindi eru í gildi og hvenær starfsmenn mega s
 
 ## <a name="configure-programs"></a>Stilla forrit
 
-Forrit eru sett af fríðindaáætlunum sem deila sameiginlegu setti hæfisreglna. Þú getur skilgreint hæfisreglur fyrir allt forritið í staðinn fyrir hverja einstaka áætlun. Til dæmis Contoso FTE-áætlun Kanada eða Contoso áætlun á stjórnunarstigi í Evrópu. 
+Forrit eru sett af fríðindaáætlunum sem deila sameiginlegu setti hæfisreglna. Þú getur skilgreint hæfisreglur fyrir allt forritið í staðinn fyrir hverja einstaka áætlun. Sem dæmi má nefna FTE-áætlun Contoso Kanada eða framkvæmdarstig Contoso Europe. 
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Skipulag**, veldu **Hæfisreglur og valkostir**.
 

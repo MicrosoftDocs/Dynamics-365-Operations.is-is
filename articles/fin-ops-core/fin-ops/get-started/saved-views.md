@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: d6a7b1b21816db43a92364584e15ec04b891c611
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
-ms.translationtype: HT
+ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487842"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065707"
 ---
 # <a name="saved-views"></a>Vistuð yfirlit
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 ## <a name="introduction"></a>Inngangur
 
@@ -212,7 +215,7 @@ Listi yfir þekkt vandamál með vistuð yfirlit er að finna í [Búa til skjá
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Hvernig virkja ég vistuð yfirlit í umhverfinu mínu?
 
 > [!NOTE]
-> Eiginleikinn **Vistuð yfirlit** krefst þess að sérsniðna kerfið í Finance and Operations verði virkjað. Ef slökkt er á sérstillingu fyrir allt umhverfið verða yfirlit afvirkjuð jafnvel þótt þú fylgir skrefunum hér að neðan. 
+> The **Vistaðar skoðanir** eiginleiki krefst þess að sérstillingarkerfið í Finance and Operations sé virkt. Ef slökkt er á sérstillingu fyrir allt umhverfið verða yfirlit afvirkjuð jafnvel þótt þú fylgir skrefunum hér að neðan. 
 
 Hægt er að kveikja og slökkva á eiginleikanum **Vistuð yfirlit** í gegnum eiginleikastjórnun í hvaða umhverfi sem er. Þegar kveikt er á honum verða vistuð yfirlit virkjuð í öllum næstu notandalotum.
 

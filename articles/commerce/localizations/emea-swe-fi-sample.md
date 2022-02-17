@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: 32c2cf31d82d17d3391536e7a9f1722e1462c336
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: ace1bd5b1a06317b6753a34779ecfa96e519a63e
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944767"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077014"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>Dæmi um samþættingu stjórntækja fyrir Svíþjóð
 
@@ -35,15 +35,15 @@ Microsoft gefur ekki út vélbúnað, hugbúnað eða skjöl frá Retail Innovat
 
 Samþættingarsýni stjórneininga fyrir Svíþjóð inniheldur eftirfarandi eiginleika:
 
-- Sölu-, skila- og kvittunarafrit eru sjálfkrafa skráð í stjórneiningu sem er tengd vélbúnaðarstöðinni sem er pöruð við POS.
-- Stýrikóði og framleiðslunúmer stýrieiningarinnar fyrir skráða færslu eru teknar úr stjórneiningunni og vistaðar í færslunni. Þessi gögn eru einnig nefnd a *viðbrögð í ríkisfjármálum*. Viðbrögð ríkisfjármála má sjá á **Verslunarviðskipti** síðu.
+- Sölu-, skila- og kvittunarafrit eru sjálfkrafa skráð í stjórneiningu sem er tengd við vélbúnaðarstöðina sem er pöruð við POS.
+- Stýrikóði og framleiðslunúmer stýrieiningarinnar fyrir skráð viðskipti eru tekin úr stjórneiningunni og vistuð í viðskiptunum. Þessi gögn eru einnig nefnd a *viðbrögð í ríkisfjármálum*. Viðbrögð ríkisfjármála má sjá á **Verslunarviðskipti** síðu.
 - Hægt er að bæta sérsniðnum reitum fyrir stýrikóðann og framleiðslunúmer stýrieiningarinnar við kvittunarútlit. Þannig geturðu prentað fjárhagslegt svar fyrir færslu á kvittun.
 - Fjárhagslegt svar fyrir færslu er sýnt á **Rafræn dagbók (Svíþjóð)** skýrslu rásarinnar.
 - Nokkrir valkostir til að meðhöndla villu eru í boði. Hér eru nokkur dæmi:
 
     - Reyndu aftur fjárhagsskráningu, ef hægt er að reyna aftur. Þú getur reynt aftur fjárhagsskráningu ef, til dæmis, stjórneiningin er ekki tengd, er ekki tilbúin eða svarar ekki.
     - Fresta skattskráningu.
-    - Slepptu fjárhagslegri skráningu eða merktu færsluna sem skráða og láttu upplýsingakóða fylgja með til að fanga ástæðu bilunarinnar og viðbótarupplýsingar.
+    - Slepptu skattaskráningu eða merktu viðskiptin sem skráða og láttu upplýsingakóða fylgja með til að fanga ástæðu bilunarinnar og viðbótarupplýsingar.
     - Staðfestu framboð á stýrieiningunni áður en ný sölufærsla er opnuð eða sölufærslu er lokið.
 
 ### <a name="limitations-of-the-sample"></a>Takmarkanir úrtaksins
@@ -92,7 +92,7 @@ Fyrir frekari upplýsingar um hvernig á að vinna með kvittunarsnið, sjá [Kv
 
 ### <a name="set-up-fiscal-integration-for-sweden"></a>Settu upp ríkisfjármálasamþættingu fyrir Svíþjóð
 
-Samþættingarúrtak stjórneiningar fyrir Svíþjóð er byggt á [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md) og er hluti af Retail SDK. Sýnið er staðsett í **src\\ Fiscal Integration\\ CleanCash** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla (td [sýnishornið í útgáfu/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)). Sýnið [felst í](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) af ríkisfjármálaskjalaveitu, sem er framlenging á viðskiptatímanum (CRT), og fjárhagstengi, sem er framlenging á Commerce Hardware Station. Fyrir frekari upplýsingar um hvernig á að nota Retail SDK, sjá [Smásölu SDK arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md) og [Settu upp smíðisleiðslu fyrir SDK fyrir sjálfstæða umbúðir](../dev-itpro/build-pipeline.md).
+Samþættingarúrtak stjórneiningar fyrir Svíþjóð er byggt á [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md) og er hluti af Retail SDK. Sýnið er staðsett í **src\\ Fiscal Integration\\ CleanCash** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla (td [sýnishornið í útgáfu/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)). Sýnið [felst í](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) af ríkisfjármálaskjalaveitu, sem er framlenging á viðskiptatímanum (CRT), og fjárhagstengi, sem er framlenging á Commerce Hardware Station. Fyrir frekari upplýsingar um hvernig á að nota Retail SDK, sjá [Smásölu SDK arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md) og [Settu upp smíðisleiðslu fyrir SDK fyrir sjálfstæða umbúðir](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > Vegna takmarkana á [ný sjálfstæð umbúða- og framlengingarlíkan](../dev-itpro/build-pipeline.md), sem stendur er ekki hægt að nota það fyrir þetta fjárhagslega samþættingarúrtak. Þú verður að nota fyrri útgáfu af Retail SDK á sýndarvél þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar, sjá [Leiðbeiningar um dreifingu fyrir samþættingarsýni stjórneiningar fyrir Svíþjóð (arfleifð)](emea-swe-fi-sample-sdk.md).
@@ -113,7 +113,7 @@ Til að virkja skráningarferlið skaltu fylgja þessum skrefum til að setja up
 1. Sæktu stillingarskrár fyrir fjárhagsskjalaveituna og fjárhagstengið:
 
     1. Opnaðu [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla.
-    1. Veldu rétta útgáfuútgáfu í samræmi við SDK/forritsútgáfu þína (td, **[útgáfa/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Veldu rétta útgáfuútgáfu í samræmi við SDK/forritsútgáfu þína (til dæmis, **[útgáfa/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
     1. Opið **src \> Fiscal Integration \> CleanCash**.
     1. Sæktu stillingarskrá ríkisskjalaveitunnar á **CommerceRuntime \> DocumentProvider.CleanCashSample \> Stillingar \> DocumentProviderFiscalCleanCashSample.xml** (til dæmis, [skráin til útgáfu/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/CleanCash/CommerceRuntime/DocumentProvider.CleanCashSample/Configuration/DocumentProviderFiscalCleanCashSample.xml)).
     1. Sæktu stillingarskrá fjárhagstengis á **Vélbúnaðarstöð \> Connector.CleanCashSample \> Stillingar \> ConnectorCleanCashSample.xml** (til dæmis, [skráin til útgáfu/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/CleanCash/HardwareStation/Connector.CleanCashSample/Configuration/ConnectorCleanCashSample.xml)).
@@ -121,7 +121,7 @@ Til að virkja skráningarferlið skaltu fylgja þessum skrefum til að setja up
     > [!WARNING]
     > Vegna takmarkana á [ný sjálfstæð umbúða- og framlengingarlíkan](../dev-itpro/build-pipeline.md), sem stendur er ekki hægt að nota það fyrir þetta fjárhagslega samþættingarúrtak. Þú verður að nota fyrri útgáfu af Retail SDK á VM þróunaraðila í LCS. Stillingarskrárnar fyrir þetta fjárhagslega samþættingarsýni eru staðsettar í eftirfarandi möppum í Retail SDK á VM þróunaraðila í LCS:
     >
-    > - **Stillingarskrá fyrir ríkisfjármálaskjalaveitu:** RetailSdk\\ SampleExtensions\\ CommerceRuntime\\ Extensions.DocumentProvider.CleanCashSample\\ Stillingar\\ DocumentProviderFiscalCleanCashSample.xml
+    > - **Stillingarskrá ríkisskjalaveitu:** RetailSdk\\ SampleExtensions\\ CommerceRuntime\\ Extensions.DocumentProvider.CleanCashSample\\ Stillingar\\ DocumentProviderFiscalCleanCashSample.xml
     > - **Stillingarskrá fjárhagstengis:** RetailSdk\\ SampleExtensions\\ Vélbúnaðarstöð\\ Framlenging.CleanCashSample\\ Stillingar\\ ConnectorCleanCashSample.xml
     > 
     > Stuðningur við nýja óháða umbúða- og framlengingarlíkanið fyrir skattasamþættingarsýni er fyrirhugað fyrir síðari útgáfur.
@@ -150,7 +150,7 @@ Eftirfarandi sjálfgefna gagnavörpun er innifalin í uppsetningu fjárhagsskjal
     Hér er útskýring á þessu sniði:
 
     - *1* og *2* eru tækjasértækir VSK-kóðar.
-    - Semíkomma (;) er notað sem skil.
+    - Semíkomma (;) er notað sem skilgreinar.
     - *kóða1* og *kóða2* eru söluskattskóðar sem eru stilltir í höfuðstöðvum Commerce. Þú verður að breyta sýnishorninu í samræmi við skattkóðana sem eru stilltir í forritinu þínu.
 
     Stýrieiningar styðja allt að fjóra mismunandi VSK-kóða. Þess vegna gæti VSK kóða kortlagningin verið sett upp á eftirfarandi hátt:
@@ -203,7 +203,7 @@ Til að setja upp þróunarumhverfi til að prófa og stækka sýnishornið skal
             ModernPOS.CleanCash.Installer.exe install --verbosity 0
             ```
 
-1. Settu upp viðbætur fyrir vélbúnaðarstöð:
+1. Settu upp vélbúnaðarstöðvarviðbætur:
 
     1. Í **CleanCash\\ Vélbúnaðarstöð\\ HardwareStation.CleanCash.Installer\\ bin\\ Villuleit\\ net461** möppu, finndu **HardwareStation.CleanCash.Installer** uppsetningarforrit.
     1. Byrjaðu uppsetningarforritið frá skipanalínunni:
@@ -218,7 +218,7 @@ Fylgdu skrefunum í [Settu upp smíðisleiðslu fyrir sýnishorn fjárhagslega s
 
 ## <a name="design-of-the-extensions"></a>Hönnun viðbygginga
 
-Samþættingarúrtak stjórneiningar fyrir Svíþjóð er byggt á [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md) og er hluti af Retail SDK. Sýnið er staðsett í **src\\ Fiscal Integration\\ CleanCash** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla (td [sýnishornið í útgáfu/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)). Sýnið [felst í](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) ríkisfjármálaskjalaveitanda, sem er framlenging á CRT, og fjárhagstengi, sem er framlenging á Commerce Hardware Station. Fyrir frekari upplýsingar um hvernig á að nota Retail SDK, sjá [Smásölu SDK arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md) og [Settu upp smíðisleiðslu fyrir SDK fyrir sjálfstæða umbúðir](../dev-itpro/build-pipeline.md).
+Samþættingarúrtak stjórneiningar fyrir Svíþjóð er byggt á [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md) og er hluti af Retail SDK. Sýnið er staðsett í **src\\ Fiscal Integration\\ CleanCash** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla (td [sýnishornið í útgáfu/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/CleanCash)). Sýnið [felst í](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ríkisfjármálaskjalaveitanda, sem er framlenging á CRT, og fjárhagstengi, sem er framlenging á Commerce Hardware Station. Fyrir frekari upplýsingar um hvernig á að nota Retail SDK, sjá [Smásölu SDK arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md) og [Settu upp smíðisleiðslu fyrir SDK fyrir sjálfstæða umbúðir](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > Vegna takmarkana á [ný sjálfstæð umbúða- og framlengingarlíkan](../dev-itpro/build-pipeline.md), sem stendur er ekki hægt að nota það fyrir þetta fjárhagslega samþættingarúrtak. Þú verður að nota fyrri útgáfu af Retail SDK á VM þróunaraðila í LCS. Fyrir frekari upplýsingar, sjá [Leiðbeiningar um dreifingu fyrir samþættingarsýni stjórneiningar fyrir Svíþjóð (arfleifð)](emea-swe-fi-sample-sdk.md). Stuðningur við nýja óháða umbúða- og framlengingarlíkanið fyrir skattasamþættingarsýni er fyrirhugað fyrir síðari útgáfur.
@@ -231,7 +231,7 @@ Tilgangur framlengingarinnar sem er ríkisfjármálaskjalaveita er að búa til 
 
 Það er einn **DocumentProviderCleanCash** beiðni um meðhöndlun fyrir skjalaveitanda. Þessi meðhöndlun er notuð til að búa til fjárhagsskjöl fyrir stjórneininguna.
 
-Þessi meðhöndlun er arfur frá **INAmedRequestHandler** viðmót. The **HandlerName** aðferð ber ábyrgð á því að skila nafni meðhöndlunar. Nafn meðhöndlunar ætti að passa við heiti tengiskjalsveitu sem er tilgreint í höfuðstöðvum Commerce.
+Þessi meðhöndlari er arfur frá **INAmedRequestHandler** viðmót. The **HandlerName** aðferð ber ábyrgð á því að skila nafni meðhöndlunar. Nafn meðhöndlunar ætti að passa við heiti tengiskjalsveitu sem er tilgreint í höfuðstöðvum Commerce.
 
 Tengið styður eftirfarandi beiðnir:
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b1687b24f499f4d226406a0035f8ea70b6046167
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
-ms.translationtype: MT
+ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901990"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069380"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Setja upp og tengja farsímaforrit vöruhúsakerfis
 
@@ -143,6 +143,10 @@ Sannvottun með Azure AD býður upp á örugga leið til að tengja fartæki vi
 Hægt er að nota vottorð sem leyniorð til að sanna auðkenni forrits þegar beðið er um tákn. Almennum hluta vottorðsins er hlaðið upp í forritaskráninguna í Azure-gáttinni en setja verður fullt vottorð upp á öllum tækjum sem eru með farsímaforrit vöruhúsakerfis uppsett. Fyrirtækið er ábyrgt fyrir því að hafa umsjón með vottorðinu hvað varðar skipti og þess háttar. Hægt er að nota sjálfskráð vottorð en alltaf ætti að nota óframseljanleg vottorð.
 
 Nauðsynlegt er að gera vottorð aðgengilegt staðbundið á hverju tæki sem keyrir farsímaforrit Vöruhúsakerfis. Upplýsingar um hvernig á að stjórna vottorðum fyrir Intune-stýrð tæki, ef verið er að nota Intune, eru í [Nota vottorð fyrir sannvottun í Microsoft Intune](/mem/intune/protect/certificates-configure).
+
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Stilltu Warehouse Management farsímaforritið fyrir skýja- og brúnkvarðaeiningar
+
+Nokkur auka skref eru nauðsynleg ef þú ætlar að keyra vöruhússtjórnun farsímaforritið á móti skýja- eða brúnkvarðaeiningu. Fyrir leiðbeiningar, sjá [Stilltu Warehouse Management farsímaforritið fyrir skýja- og brúnkvarðaeiningar](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Grunnstilla forritið með því að flytja inn tengingarstillingar
 
@@ -306,5 +310,6 @@ Ef tæki týnist eða hefur orðið fyrir árás þarf að fjarlægja aðgang þ
 
 - [Notandastillingar fartækis](mobile-device-user-settings.md)
 - [Úthluta skrefatáknum og titlum fyrir Warehouse Management farsímaforritið](step-icons-titles.md)
+- [Stilltu Warehouse Management farsímaforritið fyrir skýja- og brúnkvarðaeiningar](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: d7dd3bbb0d1aa701757ad7fa525aba04fe9419c9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a254e20dd7fcc29ca520282b4bf9fcd903e4de58
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986304"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087551"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.24. (febrúar 2022)
 
@@ -34,6 +34,7 @@ ms.locfileid: "7986304"
 | Eiginleikasvæði | Eiginleiki | Meiri upplýsingar | Virkjað af   |
 |---|---|---|---|
 | Dreifð blönduð grannfræði | [Aukið álag á framkvæmd vöruhúsa á mælieiningum](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-warehouse-execution-workloads-scale-units) | [Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-warehousing.md) | Virkja að sjálfgefnu. |
+| Dreifð blönduð grannfræði | [Hefja framleiðslupöntun á vinnuálagi vöruhúsastjórnunar fyrir skýja- og jaðarkvarðaeininguna](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-manufacturing-execution-workloads-scale-units) | [Vinnuálag framleiðslukeyrslu fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-manufacturing.md) | Eiginleikastjórnun (*Hefja framleiðslupöntun á vinnuálagi vöruhúsastjórnunar fyrir skýja- og jaðarkvarðaeininguna*)  |
 | Áætlun | [Stuðningur við skipulagningu hagræðingar fyrir endurpöntunarbil og útgáfubil](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-reorder-margin-issue-margin) | [Öryggismörk](../master-planning/planning-optimization/safety-margins.md) | Virkja að sjálfgefnu. |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Eiginleikaviðbætur í þessari útgáfu
@@ -47,7 +48,6 @@ Ef þú vilt kveikja eða slökkva á einhverjum af þessum eiginleikum verður 
 | Framleiðslustýring | Athugun á efnisframboði eftirspurnar fyrir framleiðslupantanir | Þessi eiginleiki gerir það hraðari að opna **Framleiðslupantanir til að gefa út** síðu, sem er aðgengileg frá **Stjórnun framleiðslugólfs** vinnurými. Án þessa eiginleika athugar kerfið sjálfkrafa hvort efni sé tiltækt fyrir allar skráðar framleiðslupantanir um leið og þú opnar síðuna, sem getur tekið töluverðan tíma ef þú ert með mikinn fjölda pantana. Þegar þessi eiginleiki er virkur býður kerfið í staðinn upp tækjastikuhnapp, sem þú getur notað til að hefja efnisskoðun aðeins fyrir valdar pantanir og þegar þörf krefur. |
 | Framleiðslustýring | (Forútgáfa) Skrá efnisnotkun í keyrsluviðmóti framleiðslugólfs (ekki vöruhúsakerfi) | Þessi eiginleiki gerir starfsmönnum kleift að nota framkvæmdarviðmót framleiðslugólfs til að skrá efnisnotkun, lotunúmer og raðnúmer. Þessi eiginleiki styður aðeins hluti sem eru ekki virkjaðir til að nota háþróaða vöruhúsaferla (WMS). Stuðningur við WMS-virkja hluti er áætlaður í framtíðarútgáfu.<p>Sumir framleiðendur, sérstaklega þeir sem eru innan vinnsluiðnaðarins, þurfa að skrá sérstaklega magn efnis sem neytt er fyrir hverja lotu eða framleiðslupöntun. Til dæmis gætu starfsmenn notað vog til að vega magn efnis sem neytt er á meðan þeir vinna. Til að tryggja fullan rekjanleika efnis þurfa þessar stofnanir einnig að skrá hvaða lotunúmer voru notuð við framleiðslu hverrar vöru. |
 | Framleiðslustýring | Skrá sem tilbúið vinnuálag vöruhúsakerfis fyrir skýið og jaðareiningarkvarða | Þessi eiginleiki gerir starfsmönnum kleift að nota Vöruhússtjórnun farsímaforritið til að tilkynna framleiðslu- eða lotupöntun eins og hún er lokið þegar appið er í gangi gegn vöruhúsastjórnunarvinnuálagi á skýja- eða brúnkvarðaeiningu. Fyrir frekari upplýsingar, sjá [Tilkynntu sem lokið og settu í burtu á mælikvarðaeiningu](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
-| Framleiðslustýring | Hefja framleiðslupöntun á vinnuálagi vöruhúsastjórnunar fyrir skýja- og jaðarkvarðaeininguna | Þessi eiginleiki gerir starfsmönnum kleift að nota Vöruhússtjórnun farsímaforritið til að hefja framleiðslu eða lotupöntun þegar appið er í gangi gegn vöruhúsastjórnunarvinnuálagi á skýja- eða jaðarkvarðaeiningu. |
 | Vöruhúsakerfi | Nýjar síður á vinnubekknum áætlanagerð | Virkjar tvær nýjar vinnubekkssíður fyrir áætlanagerð: **Vinnubekkur fyrir skipulagningu álags á innleið** og **Áætlunarbekkur á útleið**. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Tilföng fyrir ný og uppfærð skjöl
@@ -70,7 +70,7 @@ Nýlega hefur eftirfarandi hjálparatriðum verið bætt við eða þau uppfær�
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir Finance and Operations öpp
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.24 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Palluppfærslur fyrir útgáfu 10.0.24 af Finance and Operations forritum (nóvember 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.24 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Palluppfærslur fyrir útgáfu 10.0.24 af Finance and Operations forritum (febrúar 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 

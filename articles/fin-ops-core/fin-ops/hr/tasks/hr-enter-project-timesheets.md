@@ -13,14 +13,17 @@ ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10e33b9216838313e8f294f4f0f196b07a3d5cc9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: c57ba991de366b4a0e1aa02971a107bed488f914
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964935"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070476"
 ---
 # <a name="enter-project-timesheets"></a>Færa inn vinnukort verks
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Þessi aðferð gerir þér kleift að búa til tímablað með því að nota tóma tímablaðssíðu. Nýja tímablaðið getur byggt á upplýsingum frá fyrri tímablaði, eða frá verkefnum og verkefnum á **Mín uppáhalds** síðu. Sjálfgefið er **Öll tímablöð** listasíða sýnir öll tímablöðin þín fyrir núverandi tímabil. Þú getur notað **Sýna** sviði á **Tímablöðin mín** síðu til að sía tímablaðalistann eftir tímabili eða verkefni, eða til að skoða tímablöð sem voru búin til fyrir hönd annarra starfsmanna. The **USSI** kynningargagnafyrirtæki var notað til að búa til þessa aðferð.
 

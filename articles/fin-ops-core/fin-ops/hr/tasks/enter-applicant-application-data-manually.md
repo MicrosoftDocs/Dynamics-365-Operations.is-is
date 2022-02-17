@@ -8,21 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmApplicant, LogisticsContactInfoGrid, HRMApplication,  DirPartyTable
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5305ded440dce0cf057e5fbe4df72635ce0e7b6b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 68f236ad000adea91e746309564baf84a270a0e5
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964707"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075451"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Færa inn umsækjanda og umsóknargögn handvirkt
 
-[!include [banner](../../includes/banner.md)]
+> [!IMPORTANT]
+> Virknin sem bent er á í þessu efnisatriði er eins og er í boði fyrir mannauðsviðskiptavini á fjármálainnviðum.  
+
 
 Þessi verklýsing sýnir hvernig á að viðhalda handvirkt upplýsingum um umsækjendur og umsóknina. Hægt er að færa inn og viðhalda persónulegum upplýsingum, viðtal dagsetningar og tilvísanir, hæfni og beiðnir um aðlögun fyrir umsækjendur. Þú getur líka uppfært stöðu umsókna umsækjenda um ráðningu og búið til bréf eða tölvupóst til að hafa samskipti við umsækjendur. Þegar færsla umsækjanda er stofnuð, tengiliðafærslu fyrir umsækjanda er stofnuð í altæku aðsetursbókinni. The **USMF** kynningargagnafyrirtæki var notað til að búa til þessa aðferð.
 

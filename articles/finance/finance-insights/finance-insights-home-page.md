@@ -2,7 +2,7 @@
 title: Heimasíða Fjármálainnsýnar
 description: Fjármálainnsýn býður upp á stillanleg og stækkanleg líkön til að spá fyrir um sjóðstreymi fyrirtækisins á nákvæman og auðveldan hátt, spá fyrir um hvenær greiðslur berast fyrir útistandandi viðskiptakröfur og leggja drög að fjárhagsáætlun sem getur hraðað fjárhagsáætlunarferlinu. Allir þessir eiginleikar byggjast á vélnámslíkönum.
 author: ShivamPandey-msft
-ms.date: 11/15/2021
+ms.date: 01/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8cc7b2d733cdcf1adef2885b7900ea312a10d98c
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
-ms.translationtype: HT
+ms.openlocfilehash: 05b0de8b0104238a33f006234d4a0e8ba9fcdb2a
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968811"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087294"
 ---
 # <a name="finance-insights-home-page"></a>Heimasíða Fjármálainnsýnar
 
@@ -37,10 +37,6 @@ Fjármálainnsýn veitir stillanlegar og stækkanlegar lausnir til að hjálpa �
 
 Þessi hluti fjallar um notkunarkröfur varðandi Fjármálainnsýn. Tenglar á viðbótarupplýsingar eru látnir í té þegar slíku er við komið.
 
-### <a name="legal-requirements"></a>Lagaskilyrði
-
-Fylltu út [samninginn um forskoðun Dynamics 365 Finance Fjármálainnsýnar](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUM1c0Uzc1RFpaU1RVTEwxVTNWUERPRThUSy4u) til að sækja um forskoðunaráætlunina.
-
 ### <a name="system-requirements"></a>Kerfiskröfur
 
 Tveggja laga umhverfi (margir kassar) er áskilið við forskoðun Fjármálainnsýnar. Nánari bakgrunnsupplýsingar um umhverfi, sjá [Umhverfisskipulag](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
@@ -48,6 +44,10 @@ Tveggja laga umhverfi (margir kassar) er áskilið við forskoðun Fjármálainn
 ### <a name="version-requirements"></a>Skilyrði samkvæmt útgáfu
 
 Þetta efni á við um Microsoft Dynamics 365 Finance útgáfu 10.0.21 og síðar.
+
+### <a name="license-requirements"></a>Leyfiskröfur
+
+Fjármálainnsýn notar AI Builder einingar til að búa til fjárhagsspár. Öll nauðsynleg leyfi til þess fylgja leigjandaleyfinu. Hver Dynamics 365 Finance leigjanda eru veittar 20.000 AI Builder einingar í hverjum mánuði. Ef þörf er á viðbótarinneign fyrir viðskiptaþarfir er hægt að kaupa þær beint frá AI Builder.
 
 ### <a name="historical-data-requirements"></a>Skilyrði um eldri gögn
 
@@ -75,7 +75,7 @@ Til að virkja sjóðsstreymisspá verður að ljúka við nokkur skref til að 
 
 ### <a name="enable-budget-proposals"></a>Virkja drög að fjárhagsáætlun
 
-Eiginleikinn drög að fjárhagsáætlun notar vélnámslíkan ásamt eldri gögnum fyrirtækisins til að gera drög að fjárhagsáætlun. Drögin sem eru mynduð geta hjálpað til við að hefja fjárhagsáætlunarferli sem er áhrifaríkara og skilvirkara en handvirkt ferli. Fyrir sérstök skref til að virkja þennan eiginleika, sjá [Virkja fjárlagatillögur](enable-budget-proposal.md). 
+Eiginleikinn drög að fjárhagsáætlun notar vélnámslíkan ásamt eldri gögnum fyrirtækisins til að gera drög að fjárhagsáætlun. Drögin sem eru mynduð geta hjálpað til við að hefja fjárhagsáætlunarferli sem er áhrifaríkara og skilvirkara en handvirkt ferli. Fyrir sérstök skref til að virkja þennan eiginleika, sjá [Virkja fjárlagafrumvörp](enable-budget-proposal.md). 
 
 ## <a name="using-finance-insights-features"></a>Notkun eiginleika Fjármálainnsýnar
 
@@ -88,7 +88,7 @@ Eiginleikinn drög að fjárhagsáætlun notar vélnámslíkan ásamt eldri gög
 
 ### <a name="using-cash-flow-forecasts"></a>Nota sjóðstreymisspár
 
-Eiginleiki sjóðsstreymisspár getur aðstoðað við að gera nákvæmara mat reiðufjárstöðu. Snjöll sjóðstreymisspáin er byggð ofan á núverandi virkni sjóðstreymisspár í Dynamics 365 Finance. Opnaðu [Sjóðstreymisspár](../cash-bank-management/cash-flow-forecasting.md) til að skoða núverandi getu.
+Eiginleiki sjóðsstreymisspár getur aðstoðað við að gera nákvæmara mat reiðufjárstöðu. Snjall sjóðstreymisspáin er byggð ofan á núverandi sjóðstreymisspávirkni í Dynamics 365 Finance. Opnaðu [Sjóðstreymisspár](../cash-bank-management/cash-flow-forecasting.md) til að skoða núverandi getu.
 
 - Til að fræðast um nýja möguleika í sjóðstreymisspám, sjá [Sjóðstreymisspá](cash-flow-forecast-intro.md).
 - Upplýsingar um innflutning ytri gagna sem skal taka með í sjóðsstreymisspá er að finna í [Nota ytri gögn við sjóðsstreymisspár](external-data-in-cash-flow.md). 

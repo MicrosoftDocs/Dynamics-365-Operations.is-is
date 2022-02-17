@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
-ms.translationtype: HT
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414665"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069147"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Stilla Dataverse sýndartöflur
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Human Resources er sýndargagnagjafi í Microsoft Dataverse. Hann býður upp á heildstæðar aðgerðir stofnunar, lesturs, uppfærslu og eyðingar (CRUD) úr Dataverse og Microsoft Power Platform. Gögn fyrir sýndartöflur eru ekki geymd í Dataverse, heldur í gagnagrunni forritsins.
 
@@ -119,10 +122,10 @@ Næsta skref er að skilgreina gagnagjafa sýndartöflu í Power Apps-umhverfinu
 
 4. Í **heilsulausnarmiðstöð** skal velja táknið **Ítarleg leit** efst til hægri á forritssíðunni.
 
-5. Á síðunni **Ítarleg leit**, í fellilistanum **Leita að**, skal velja **Finance and Operations Grunnstillingar sýndargagnagjafa**.
+5. Á **Ítarleg leit** síðu, í **Leitaðu að** fellilista, veldu **Fjármál og rekstur Stillingar sýndargagnagjafa**.
 
    > [!NOTE]
-   > Uppsetning sýndartöfluforritsins úr fyrra uppsetningarskrefi getur tekið nokkrar mínútur. Ef **Finance and Operations Skilgreiningar sýndargagnagjafa** eru ekki í boði í listanum skal hinkra smástund og svo uppfæra listann.
+   > Uppsetning sýndartöfluforritsins úr fyrra uppsetningarskrefi getur tekið nokkrar mínútur. Ef **Fjármál og rekstur Stillingar sýndargagnagjafa** er ekki tiltækt á listanum, bíddu í eina mínútu og endurnýjaðu listann.
 
 6. Veldu **Niðurstöður**.
 

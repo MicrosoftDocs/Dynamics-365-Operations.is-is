@@ -2,7 +2,7 @@
 title: Hanna skýrslur á mörgum tungumálum í rafrænni skýrslugerð
 description: Þetta efnisatriði útskýrir hvernig hægt er að nota merki rafrænnar skýrslugerðar til að hanna og búa til skýrslur á mörgum tungumálum.
 author: NickSelin
-ms.date: 09/03/2021
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf02e8f90fb83acd8448339f411489851742af18
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: e5c6b28dc115719922e418cb7a6156032d994d39
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674430"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074943"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Hanna skýrslur á mörgum tungumálum í rafrænni skýrslugerð
 
@@ -28,9 +28,9 @@ ms.locfileid: "7674430"
 
 ## <a name="overview"></a>Yfirlit
 
-Sem fyrirtækisnotandi getur þú notað rammann [Rafræn skýrslugerð](general-electronic-reporting.md) til að skilgreina snið fyrir skjöl á útleið sem búa þarf til í samræmi við reglugerðir ýmissa landa eða svæða. Þegar þessar reglugerðir krefjast þess að skjöl á útleið verði búin til á mismunandi tungumálum fyrir mismunandi lönd eða svæði er hægt að skilgreina eitt [snið](general-electronic-reporting.md#FormatComponentOutbound) rafrænnar skýrslugerðar sem inniheldur tungumálaháð tilföng. Þannig er hægt að endurnýta sniðið til að búa til skjöl á útleið fyrir ýmis lönd eða svæði. Þú gætir einnig viljað nota eitt snið rafrænnar skýrslugerðar til að búa til skjal á útleið á mismunandi tungumálum fyrir samsvarandi viðskiptavini, lánardrottna, dótturfélög eða aðra aðila.
+Sem fyrirtækisnotandi getur þú notað rammann [Rafræn skýrslugerð](general-electronic-reporting.md) til að skilgreina snið fyrir skjöl á útleið sem búa þarf til í samræmi við reglugerðir ýmissa landa eða svæða. Þegar þessar reglugerðir krefjast þess að skjöl á útleið verði búin til á mismunandi tungumálum fyrir mismunandi lönd eða svæði er hægt að skilgreina eitt snið rafrænnar skýrslugerðar sem inniheldur tungumálaháð tilföng. Þannig er hægt að endurnýta sniðið til að búa til skjöl á útleið fyrir ýmis lönd eða svæði. Þú gætir einnig viljað nota eitt snið rafrænnar skýrslugerðar til að búa til skjal á útleið á mismunandi tungumálum fyrir samsvarandi viðskiptavini, lánardrottna, dótturfélög eða aðra aðila.
 
-Hægt er að skilgreina gagnalíkön og gagnavarpanir rafrænnar skýrslugerðar sem gagnagjafa skilgreindra sniða rafrænnar skýrslugerðar til að skilgreina gagnaflæði sem tilgreinir hvaða forritsgögn eru sett inn í mynduð skjöl. Sem [veitandi](general-electronic-reporting.md#Provider) skilgreiningar rafrænnar skýrslugerðar geturðu [gefið út](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) skilgreind [gagnalíkön](general-electronic-reporting.md#data-model-and-model-mapping-components), [líkanavarpanir](general-electronic-reporting.md#data-model-and-model-mapping-components) og [snið](general-electronic-reporting.md#FormatComponentOutbound) sem hluta fyrir lausn rafrænnar skýrslugerðar til að búa til ákveðin skjöl á útleið. Einnig er hægt að leyfa viðskiptavinum að [hlaða upp](general-electronic-reporting-manage-configuration-lifecycle.md) útgefinni lausn rafrænnar skýrslugerðar svo hægt sé að nota hana og sérstilla. Ef gert er ráð fyrir að viðskiptavinir tali önnur tungumál er hægt að stilla hluta rafrænnar skýrslugerðar þannig að þeir innihaldi tungumálaháð tilföng. Þannig er hægt að kynna efni breytanlegs hluta rafrænnar skýrslugerðar á kjörtungumáli viðskiptavinar á hönnunartíma.
+Hægt er að skilgreina gagnalíkön og gagnavarpanir rafrænnar skýrslugerðar sem gagnagjafa skilgreindra sniða rafrænnar skýrslugerðar til að skilgreina gagnaflæði sem tilgreinir hvaða forritsgögn eru sett inn í mynduð skjöl. Sem ER stillingar [veitanda](general-electronic-reporting.md#Provider), þú getur [birta](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) stillt [gagnalíkön](general-electronic-reporting.md#data-model-and-model-mapping-components),[módelkortanir](general-electronic-reporting.md#data-model-and-model-mapping-components), og snið sem hluti af ER lausn til að búa til ákveðin skjöl á útleið. Einnig er hægt að leyfa viðskiptavinum að [hlaða upp](general-electronic-reporting-manage-configuration-lifecycle.md) útgefinni lausn rafrænnar skýrslugerðar svo hægt sé að nota hana og sérstilla. Ef gert er ráð fyrir að viðskiptavinir tali önnur tungumál er hægt að stilla hluta rafrænnar skýrslugerðar þannig að þeir innihaldi tungumálaháð tilföng. Þannig er hægt að kynna efni breytanlegs hluta rafrænnar skýrslugerðar á kjörtungumáli viðskiptavinar á hönnunartíma.
 
 Hægt er að stilla tungumálaháð tilföng sem merki rafrænnar skýrslugerðar. Þá er hægt að nota þessi merki til að stilla hluta rafrænnar skýrslugerðar af eftirfarandi ástæðu:
 
@@ -232,6 +232,19 @@ Eins og lýst hefur verið hér áður í þessu efnisatriði er hægt að tengj
 ## <a name="performance"></a><a name=performance></a>Afköst
 
 Þegar þú skilgreinir hlut rafræns skýrslugerðarsniðs til að búa til skýrslu á æskilegu [tungumáli](#language) eða til að flytja inn skjal á innleið þar sem innihaldið er þáttað eftir æskilegu tungumáli, mælum við með að þú virkir eiginleikann **Vista kjörtungumál núverandi notanda fyrir keyrslur rafrænna skýrslugerða í skyndiminni** á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops/get-started/feature-management/feature-management-overview.md). Þessi eiginleiki hjálpar til við að bæta afköst, sérstaklega fyrir þætti rafræns skýrslugerðarsniðs sem innihalda margar tilvísanir í merki í formúlum rafrænnar skýrslugerðar og bindingar og margar [villuleitarreglur](general-electronic-reporting-formula-designer.md#TestFormula) til að búa til skilaboð notanda á kjörtungumáli þínu.
+
+Þegar þú breytir stöðu ER uppsetningarútgáfu frá **Drög** til **Lokið**, ef stillingarútgáfan inniheldur ER merki eru þessi merki geymd í gagnagrunni forritsins. Geymsluskema fer eftir ástandi **Flýttu fyrir geymslu ER merkimiða** eiginleiki:
+
+- Ef eiginleikinn er ekki virkur eru öll merki geymd í **LABELXML** sviði á **ÚTLÖNSKUVERSIONTAFLA** töflu sem einn XML bút.
+- Ef aðgerðin er virkjuð er sérstök færsla búin til fyrir hvert tungumál í **ÚTLÖNSUNÚTGÁFAMERKIÐARSTÖÐUR** borð. The **INNIHALD** reit þessarar töflu geymir merki fyrir hvert tungumál sem þjappað XML bút.
+
+Við mælum með að þú kveikir á **Flýttu fyrir geymslu ER merkimiða** eiginleiki í **Eiginleikastjórnun** vinnurými. Þessi eiginleiki hjálpar til við að bæta netbandbreiddarnýtingu og heildarafköst kerfisins vegna þess að í flestum tilfellum eru ER merki á einu tungumáli notuð þegar þú vinnur með einni ER uppsetningu.
+
+Ljúktu við eftirfarandi skrefum til að nota valið geymsluskemu til að geyma merki fyrir allar ER stillingar í núverandi Finance tilviki.
+
+1. Fara til **Stjórn stofnunarinnar** > **Reglubundið** > **Notaðu valda merki sem geymir skema fyrir allar ER stillingar**.
+2. Veldu **Í lagi**.
+
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

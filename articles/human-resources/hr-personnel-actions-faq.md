@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: cfaa67e051529dac8f29a5b289d7025aee681178
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: c952bdc95b49c92fea34aef63b57c7e193b2f09a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731682"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065152"
 ---
 # <a name="personnel-actions-faq"></a>Algengar spurningar um aðgerðir starfsfólks
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -92,7 +95,7 @@ Til að lagfæra þessa villu, skal fylgja þessum skrefum:
 > 7. Lokaðu **Staða** síðu.
 > 8. Fara aftur í **Bætur** flipann á **Vinnumaður** síðu, veldu **Fastar bætur**.  Veldu **Nýtt** og sláðu inn stöðu starfsmanns í **Staða** sviði.  Sláðu inn gildi í **Áætlun** reitnum og færðu síðan laun starfsmannsins inn í **Borgunarhlutfall** sviði.
 
-## <a name="why-cant-i-change-the-effective-date-on-the-header-of-the-worker-action-page"></a>Af hverju get ég ekki breytt gildistökudegi í hausnum á aðgerðasíðu starfsmanns?
+## <a name="why-cant-i-change-the-effective-date-on-the-header-of-the-worker-action-page"></a>Af hverju get ég ekki breytt gildistökudegi í hausnum á aðgerðasíðu Starfsmanns?
 Ekki er hægt að breyta gildisdagsetningu þar sem reiturinn er fylltur út með rökréttustu dagsetninguna fyrir gerð aðgerðar.
 
 Dæmi:

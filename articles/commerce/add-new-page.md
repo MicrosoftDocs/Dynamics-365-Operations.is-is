@@ -2,7 +2,7 @@
 title: Bæta við nýrri síðu á svæði
 description: Þetta efnisatriði lýsir því hvernig á að bæta við nýrri svæðssíðu í Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b031431499eba0e109ac04dc46ec187250eba694284864bf78bb1f90265d788
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725387"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090720"
 ---
 # <a name="add-a-new-site-page"></a>Bæta við nýrri síðu á svæði
 
@@ -33,11 +33,11 @@ Eftir að þú hefur búið til sniðmát og brot fyrir síðuna þína er næst
 
 Þú getur annaðhvort notað sniðmát eða skipulag fyrir nýju síðuna þína. Frekari upplýsingar eru í [Yfirlit yfir sniðmát og skipulag](templates-layouts-overview.md).
 
-## <a name="page-name"></a>Heiti síðu
+## <a name="specify-the-page-name"></a>Tilgreindu nafn síðunnar
 
-Síðuheitið verður að vera einkvæmt fyrir síðuna. Það ætti að vera lýsandi, svo að þú getur auðveldlega fundið það og aðrir vita fyrir hvað síðan stendur. Veldu síðuheitið vandlega, því ekki er hægt að breyta því seinna.
+Heiti síðunnar verður að vera einstakt fyrir síðuna þína og ætti að vera lýsandi þannig að þú getir fundið það auðveldlega og aðrir viti fyrir hvað síðan er ætluð. Þú getur endurnefna síðuna þína síðar með því að breyta henni og velja síðan pennatáknið við hlið síðuheitisins í eignarglugganum.
 
-## <a name="page-url"></a>Vefslóð síðu
+## <a name="specify-the-page-url"></a>Tilgreindu vefslóð síðunnar
 
 Þú getur haft þann kost að slá inn slóð fyrir nýju síðuna. Þegar þú býrð til síðu geturðu slegið inn streng sem verður notaður til að mynda heila vefslóð. Þessi strengur er þekktur sem hlutfallsleg slóð eða slóðasnigill. Síðan er stofnuð heil vefslóð byggt á slóðarsniglinum og nýju síðunni er úthlutað á hana. Þú getur breytt slóðarsnigli seinna áður en þú birtir síðuna. Nánari upplýsingar sjá [Stofna vefslóð síðu](create-page-URL.md).
 

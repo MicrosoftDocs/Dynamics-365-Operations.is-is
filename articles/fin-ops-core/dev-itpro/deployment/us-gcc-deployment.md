@@ -9,24 +9,24 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 17702ada5bf75a44652e194c2555a83e76e7a36b
-ms.sourcegitcommit: 9f8da0ae3dcf3861e8ece2c2df4f693490563d5e
+ms.openlocfilehash: 0c8b88e5d190f6dc9beb9342909d1e489d4af10b
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7817468"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062287"
 ---
 # <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance og Dynamics 365 Supply Chain Management í US Government Community Cloud (GCC)
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Veldu Microsoft Dynamics 365 United States (US) Ríkisvörur eru í boði fyrir hæfa stjórnvöld og einkaaðila. Þessar einingar takmarkast við eftirfarandi gerðir:
 
 - Bandarískir alríkis-, fylkis-, staðbundnar, ættbálkar- og landstjórnarstofnanir
 - Einkaaðilar sem nota Dynamics 365 US Government til að útvega lausnir til ríkisaðila eða til hæfra meðlima skýjasamfélagsins
-- Einkaaðilar sem hafa viðskiptamannagögn sem eru háð reglum stjórnvalda og Dynamics 365 US Government er viðeigandi þjónusta til að uppfylla reglugerðarkröfur
+- Einkaaðilar sem hafa gögn um viðskiptavini sem eru háð reglum stjórnvalda og Dynamics 365 US Government er viðeigandi þjónusta til að uppfylla reglugerðarkröfur
 
 Fyrir upplýsingar, sjá [Dynamics 365 Bandarísk stjórnvöld](/power-platform/admin/microsoft-dynamics-365-government).
 
@@ -38,9 +38,9 @@ Eftir að fyrstu inngöngu um borð er lokið skaltu fylgja leiðbeiningunum í 
 
 ## <a name="environment-deployment"></a>Umhverfisdreifing
 
-Eftir að þú hefur lokið inngöngu í verkefni geturðu skoðað viðbótarmöguleika LCS sem lýst er í [Lifecycle Services (LCS) fyrir Finance and Operations viðskiptavinum apps](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Farðu síðan yfir í umhverfisdreifingu.
+Eftir að þú hefur lokið inngöngu í verkefni geturðu skoðað viðbótarmöguleika LCS sem lýst er í [Lifecycle Services (LCS) fyrir viðskiptavini fjármála- og rekstrarappa](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Farðu síðan yfir í umhverfisdreifingu.
 
-- Til að dreifa Microsoft-stýrðu umhverfi í gegnum LCS skaltu fylgja leiðbeiningunum í [Lifecycle Services (LCS) fyrir Finance and Operations viðskiptavinum apps](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
+- Til að dreifa Microsoft-stýrðu umhverfi í gegnum LCS skaltu fylgja leiðbeiningunum í [Lifecycle Services (LCS) fyrir viðskiptavini fjármála- og rekstrarappa](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
 - Fyrir skýhýst umhverfi, sjá [Dreifa og fá aðgang að þróunarumhverfi](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). Þú verður einnig að ljúka viðbúnaðarferli Resource Manager fyrir tengin þín, eins og lýst er í [Ljúktu við inngönguferli Azure Resource Manager fyrir líftímaþjónustuverkefni bandarískra stjórnvalda](arm-onbarding-us-goverment.md).
 
 > [!NOTE]
@@ -74,7 +74,7 @@ Nei, kóðauppfærslutólið er ekki fáanlegt í GCC eins og er. Hins vegar get
 
 ### <a name="can-my-partner-open-a-support-ticket-on-my-behalf"></a>Getur félagi minn opnað stuðningsmiða fyrir mína hönd?
 
-Já. Hins vegar, ef félagi þinn notar auðkenni sem ekki er GCC, verður stuðningsmiðanum vísað í opinberu stuðningsröðina. Við mælum með því að þú notir GCC réttindi viðskiptavina í LCS til að opna stuðningsmiða.
+Já. Hins vegar, ef félagi þinn notar auðkenni sem ekki er GCC, verður stuðningsmiðanum vísað í opinbera þjónusturöð. Við mælum með því að þú notir GCC réttindi viðskiptavina í LCS til að opna stuðningsmiða.
 
 ## <a name="see-also"></a>Sjá einnig
 

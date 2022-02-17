@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c351919616c8ab5cf15d14c6cc79a5097e248fc
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 06307331db4d420e99de21c0eb0b3cf1c233f0d5
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771256"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066651"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Vinna með upplýsingar um meiðsl og veikindi
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -78,6 +81,6 @@ Mælt er með að ljúka við "Uppsetningu meiðsla og veikinda' leiðarvísi fy
 32. Í **Upplýsingar um meðferð** reit, sláðu inn gildi (til dæmis, **Röntgenmynd staðfestir beinbrot, notið spelku**).
 33. Veldu **Vista**.
 
-Hægt er að uppfæra stöðu máls hvenær sem er. Ef vinnsla á meiðslum eða veikindum er í gangi skaltu stilla stöðuna á **Í ferli**. Eftir að þú lokar atvikinu geturðu aðeins bætt við eða fjarlægt kostnaði, meðferðum eða skráningum sem tengjast atvikinu. Til að breyta öðrum upplýsingum verður þú að endurupptaka málið.
+Hægt er að uppfæra stöðu máls hvenær sem er. Ef vinnsla á meiðslum eða veikindum er í gangi skaltu stilla stöðuna á **Í ferli**. Eftir að þú lokar atvikinu geturðu aðeins bætt við eða fjarlægt kostnaði, meðferðum eða skráningum sem tengjast atvikinu. Til að breyta öðrum upplýsingum verður þú að taka málið upp aftur.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

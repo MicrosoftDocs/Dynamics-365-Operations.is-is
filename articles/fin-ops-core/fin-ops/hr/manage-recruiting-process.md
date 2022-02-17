@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a5e89e700858ed9e625fbdee630fa14ebea26e
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7965065"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075476"
 ---
 # <a name="manage-recruiting-processes"></a>Stjórna ráðningarferlum
 
-[!include [banner](../includes/banner.md)]
+> [!IMPORTANT]
+> Virknin sem bent er á í þessu efnisatriði er eins og er í boði fyrir mannauðsviðskiptavini á fjármálainnviðum.  
+
 
 Þetta efnisatriðilýsir hugmyndinni sem ráðningaraðilar geta nota til að rekja skref í ráðningarferli, þar með talið viðleitni til að auglýsa opnar stöður og ráða umsækjendur, rekja upplýsingar um umsækjandann og umsóknina, taka viðtöl við umsækjendur og að velja einn eða fleiri umsækjendur að fylla opnar stöður í fyrirtækinu.
 

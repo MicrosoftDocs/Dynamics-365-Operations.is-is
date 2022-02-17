@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
-ms.translationtype: HT
+ms.openlocfilehash: e798646263b9939445f49a3866532cd229c668cd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431463"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071720"
 ---
 # <a name="edit-personal-information"></a>Breyta persónuupplýsingum
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -69,7 +72,7 @@ Færibreytur sem stilltar eru á síðunni **Færibreytur altækrar aðsetursbó
     - Til að bæta við kennitölu velurðu **Nýtt**. Fylltu út reitina eftir þörfum og veldu **Vista**.
     - Til að breyta tölu velurðu **Breyta**. Breyttu reitunum eftir þörfum og veldu **Vista**.
 
-7. Til að breyta aðferðum sem þú færð greitt með, veldu flipann **Greiðsluupplýsingar mínar**. Þessi flipi er aðeins tiltækur ef greiðslumátar eru virkir í glugganum **Færibreytur Human Resources**. HR getur gert kleift **Bankaávísun**, **Reiðufé**, **Ávísun**, **Rafræn greiðsla** eða **Annað**. HR getur einnig slökkt á rafrænni greiðsluprófun (notuð fyrir bandarísk launaskrá) og staðfestingu bankareiknings og leiðarnúmera.
+7. Til að breyta aðferðunum sem þú færð greitt með skaltu velja **Greiðsluupplýsingar mínar** flipa. Þessi flipi er aðeins í boði ef greiðslumátar eru virkjaðir í **Stærðir mannauðs** síðu. HR getur gert kleift **Bankaávísun**, **Reiðufé**, **Ávísun**, **Rafræn greiðsla** eða **Annað**. HR getur einnig slökkt á rafrænni greiðsluprófun (notuð fyrir bandarísk launaskrá) og staðfestingu bankareiknings og leiðarnúmera.
 
 8. Til að breyta myndinni sem birtist í Human Resources fyrir prófílinn þinn skaltu velja flipann **Mynd**. Það fer eftir stillingum stofnunarinnar, myndir gætu verið beint til samþykktar.
 

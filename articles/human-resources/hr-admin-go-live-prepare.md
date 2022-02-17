@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 196d843ce3ccacc203896439b8c66f168c75bdc945c9b2cd5f9bdd46a2cc3ddd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ff7d689129a4015b6085685f4b19ae61bdd549d2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744895"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066394"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Undirbúningur fyrir keyrslu á Human Resources
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 Í þessu efnisatriði er því lýst hvernig á að undirbúa keyrslu á Dynamics 365 Human Resources-verki með því að nota Microsoft Dynamics Lifecycle Services. 
 

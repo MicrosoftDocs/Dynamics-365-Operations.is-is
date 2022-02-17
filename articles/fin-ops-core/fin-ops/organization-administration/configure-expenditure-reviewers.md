@@ -9,15 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ceb0a60ccf3d1c989d8663e933faaa5e430d314695e20990c9086cd1b8325ff1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773728"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070147"
 ---
 # <a name="configure-expenditure-reviewers"></a>Skilgreina skoðunarmenn útgjalda
 [!include[banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Hægt er að setja upp gagnvirka skoðunarmenn útgjalda til að senda útgjöld til endurskoðunar samkvæmt annaðhvort notandanum sem fær verkhlutverki úthlutað eða fjárhagsvíddinni þar sem útgjöldin eru gjaldfærð. Verkflæðisferlið notar tilgreindan eiganda verkhlutverks eða fjárhagsvíddar til að ákvarða hvert á að senda útgjöldin.
 
@@ -49,7 +52,7 @@ Fjárhagsvíddum er stýrt með lykilskipulaginu í hverjum lögaðila. Fyrir hv
 
 ## <a name="example-1-expenditure-reviewers-based-on-organization-distributions"></a>Dæmi 1: Skoðunarmenn útgjalda samkvæmt dreifingum fyrirtækis
 
-Þú vinnur fyrir Contoso Appliances og fyrirtækið er með sex deildir og 10 kostnaðarstaði. Þegar ný innkaupabeiðni er send inn þarf samþykki að koma fyrst frá deildarstjóra og síðan frá framkvæmdastjóra kostnaðarstaðar.
+Þú vinnur hjá Contoso Appliances og fyrirtækið þitt hefur sex deildir og 10 kostnaðarstaði. Þegar ný innkaupabeiðni er send inn þarf samþykki að koma fyrst frá deildarstjóra og síðan frá framkvæmdastjóra kostnaðarstaðar.
 
 Í þessum dæmi verða tveir *skoðunarmenn útgjalda vegna innkaupabeiðni* skilgreindir:
 
@@ -62,7 +65,7 @@ Fjárhagsvíddum er stýrt með lykilskipulaginu í hverjum lögaðila. Fyrir hv
 
 ## <a name="example-2-expenditure-reviewers-based-on-project-distributions"></a>Dæmi 2: Skoðunarmenn útgjalda samkvæmt dreifingum verks
 
-Þú vinnur fyrir þjónustudeild Contoso Appliances. Fyrirtækið gerir kröfu um að verkefnisstjórinn fyrir hverja innkaupapöntun verði að samþykkja útgjöldin. Auk þess verður yfirmaður kostnaðarstaðar fyrir verkið að samþykkja þau. Samþykktirnar er hægt að gera samtímis. Í hvoru tilfellinu sem er, þá verða báðir notendurnir að samþykkja innkaupapöntunina áður en verkflæðið getur haldið áfram.
+Þú starfar hjá þjónustusviði Contoso Appliances. Fyrirtækið gerir kröfu um að verkefnisstjórinn fyrir hverja innkaupapöntun verði að samþykkja útgjöldin. Auk þess verður yfirmaður kostnaðarstaðar fyrir verkið að samþykkja þau. Samþykktirnar er hægt að gera samtímis. Í hvoru tilfellinu sem er, þá verða báðir notendurnir að samþykkja innkaupapöntunina áður en verkflæðið getur haldið áfram.
 
 Í þessu dæmi skal útbúa einn *skoðunarmann útgjalda vegna innkaupapöntunar* sem heitir **Verkefnastjóri og kostnaðarstaður**. Þú velur gátreitinn **Verkefnastjóri** og stillir valkostinn **Vídd kostnaðarstaðar** á **Já** í flipanum **Dreifingar verks** á síðunni **Skoðunarmaður útgjalda vegna innkaupapöntunar**. Sem hluti af uppsetningunni verður þú að tryggja að reiturinn fyrir **Verkefnastjóra** sé stilltur fyrir öll verk og að eigandi sé tilgreindur fyrir alla kostnaðarstaði á síðunni **Gildi fjárhagsvídda**.
 

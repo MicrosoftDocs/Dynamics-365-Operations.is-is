@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 06c783c1e4a2961f1445909ea03d557c0985064e
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 7c81155f0c5150af44982f224c8eca2026a78ee7
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728590"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060890"
 ---
 # <a name="understand-date-and-time-fields"></a>Skilja svæði fyrir dagsetningu og tíma
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 **Dagsetning og tími** reiti eru grundvallarhugtak í Microsoft Dynamics 365 Human Resources. Það er mikilvægt að þú skiljir hvernig á að vinna með **Dagsetning og tími** gögn á síðum, í Dataverse, og í utanaðkomandi heimildum.
 
@@ -36,13 +36,13 @@ ms.locfileid: "7728590"
 
 Þegar gögn eru sýnd í a **Dagsetning og tími** reitnum er dagsetning og tími stillt út frá tímabelti notandans sem er valið á **Notendavalkostir** síða (**Sameiginlegt \> Uppsetning \> Notendavalkostir**). Upplýsingar um dagsetningu og tíma sem þú slærð inn í reitinn eru hugsanlega ekki þær sömu og upplýsingarnar sem eru skrifaðar í gagnagrunninn.
 
-[![ Valkostasíðu notenda.](./media/Useroptionsform.png)](./media/Useroptionsform.png)
+[![Valkostasíðu notenda.](./media/Useroptionsform.png)](./media/Useroptionsform.png)
 
 ## <a name="understanding-date-and-time-fields-on-pages"></a>Skilningur á dagsetningu og tímareitum á síðum 
 
 Gögn **Dagsetningar og tíma** sem birtast á skjánum eru ekki þau sömu og gögnin sem eru geymd í gagnagrunninum ef tímabelti notanda er ekki stillt á samræmdan alþjóðlegan tíma (UTC). Gögn í reitunum **Dagsetning og tími** eru alltaf geymdir sem UTC.
 
-[![ Starfsmannasíða UTC.](./media/worker-form.png)](./media/worker-form.png)
+[![Starfsmannasíða UTC.](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>Fáðu öðlast skilning á dagsetninga- og tímareitum í gagnagrunninum 
 
@@ -52,7 +52,7 @@ Gögn **Dagsetningar og tíma** sem birtast á skjánum eru ekki þau sömu og g
 
 Í dæminu hér að neðan verður starf starfsmanns 000724 virk á sama tíma óháð tímabelti. Starfsmaðurinn verður virkur þann 04/30/2019 á GMT-tímabeltinu, sem er það sama og 05/01/2019 á GMT+12:00-tímabeltinu. Hvort tveggja vísar til sama tímapunkts og ekki til ákveðinnar dagsetningar. 
 
-[![ Starfsmannasíða GMT.](./media/worker-form2.png)](./media/worker-form2.png)
+[![Starfsmannasíða GMT.](./media/worker-form2.png)](./media/worker-form2.png)
 
 ## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Dagsetninga- og tímagögn í gagnastjórnunarramma, Excel, Dataverse og Power BI 
 
@@ -68,27 +68,27 @@ Hvenær **Dagsetning og tími** gögnum er skilað í gegnum DMF, Excel, eða Da
 
 **Human Resources með tímabelti notanda stillt á UTC**
 
-[![ Starfsmannasíða stillt á UTC.](./media/worker-form3.png)](./media/worker-form3.png)
+[![Starfsmannasíða stillt á UTC.](./media/worker-form3.png)](./media/worker-form3.png)
 
 **Human Resources með tímabelti notanda stillt á GMT +12:00** 
 
-[![ Starfsmannasíða stillt á GMT.](./media/worker-form4.png)](./media/worker-form4.png)
+[![Starfsmannasíða stillt á GMT.](./media/worker-form4.png)](./media/worker-form4.png)
 
 **Excel í gegnum OData**
 
-[![ Excel í gegnum OData.](./media/Excelviaodata.png)](./media/Excelviaodata.png)
+[![Excel í gegnum OData.](./media/Excelviaodata.png)](./media/Excelviaodata.png)
 
 **DMF-sviðsetning**
 
-[![ DMF-sviðsetning.](./media/DMFStaging.png)](./media/DMFStaging.png)
+[![DMF-sviðsetning.](./media/DMFStaging.png)](./media/DMFStaging.png)
 
 **Útflutningur á DMF**
 
-[![ Útflutningur á DMF.](./media/DMFExport.png)](./media/DMFExport.png)
+[![Útflutningur á DMF.](./media/DMFExport.png)](./media/DMFExport.png)
 
 **Excel í gegnum Dataverse**
 
-[![ Excel í gegnum Dataverse.](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![Excel í gegnum Dataverse.](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>Sjá einnig
 

@@ -2,7 +2,7 @@
 title: Setja upp B2C-leigjanda í Commerce
 description: Þetta efni lýsir því hvernig á að setja upp þitt Azure Active Directory (Azure AD) leigjendur fyrirtækja til neytenda (B2C) til að auðkenna notendasíðu í Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 01/05/2022
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8e0fa2c4f22a1854a449a14aac3552313e808cf3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: MT
+ms.openlocfilehash: dcd5c022c00070922e287a6b8750810ff76bc26f
+ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952445"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092460"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Setja upp B2C-leigjanda í Commerce
 
@@ -106,10 +106,10 @@ Til að stofna B2C forrit skal fylgja þessum skrefum.
 1. Í Azure-gáttinni skal velja **Skráning forrita** og því næst velja **Ný skráning**.
 1. Undir **Heiti** skal slá inn heiti sem gefa á þessu Azure AD B2C forriti.
 1. Undir **Studdar reikningsgerðir** skal velja **Reikningar í einhverjum kenniveitanda eða fyrirtækjaskrá (til að auðkenna notendur með notandaflæðum)**.
-1. Fyrir **Framsenda URI** skal færa inn sérstakar svarslóðir af gerðinni **Vefur**. Sjáðu [Svarslóðir](#reply-urls) hér að neðan til að fá upplýsingar um svarslóðir og hvernig eigi að forsníða þær. Sláðu inn tilvísunarvefslóð/svarslóð til að virkja áframsendingar frá Azure AD B2C aftur á síðuna þína þegar notandi staðfestir. Hægt er að bæta við svarslóðinni meðan á skráningarferlinu stendur eða hægt er að bæta við síðar með því að velja **Bættu við tilvísunar-URI** hlekkur frá **Yfirlit** valmynd í B2C forritinu **Yfirlit** kafla.
+1. Fyrir **Framsenda URI** skal færa inn sérstakar svarslóðir af gerðinni **Vefur**. Sjáðu [Svarslóðir](#reply-urls) hér að neðan til að fá upplýsingar um svarslóðir og hvernig eigi að forsníða þær. Sláðu inn tilvísunarvefslóð/svarslóð til að virkja framsendingar frá Azure AD B2C aftur á síðuna þína þegar notandi staðfestir. Hægt er að bæta við svarslóðinni meðan á skráningarferlinu stendur eða hægt er að bæta við síðar með því að velja **Bættu við tilvísunar-URI** hlekkur frá **Yfirlit** valmynd í B2C forritinu **Yfirlit** kafla.
 1. Fyrir **Heimildir** skal velja **Veita kerfisstjóra samþykki að heimildum openid og offline_access**.
 1. Veldu **Skrá**.
-1. Veldu nýstofnaða forritið og farðu að **API heimildir** matseðill. 
+1. Veldu nýlega búið til forritið og farðu að **Auðkenning** matseðill. 
 1. Ef svarslóð er slegin inn, undir **Óbeinir styrkir og blendingsflæði** veldu bæði **Aðgangstákn** og **Auðkennismerki** valkosti til að virkja þá fyrir forritið og veldu síðan **Vista**. Ef svarslóð var ekki slegin inn við skráningu er einnig hægt að bæta henni við á þessari síðu með því að velja **Bættu við vettvangi**, velja **vefur**, og sláðu síðan inn tilvísunar-URI forritsins. The **Óbeinir styrkir og blendingsflæði** kafla verður þá tiltækt til að velja bæði **Aðgangstákn** og **Auðkennismerki** valkostir.
 1. Farið í valmyndina **Yfirlit** í Azure-gáttinni og afritið **Forritskennið (biðlarakennið)**. Skrifið hjá ykkur þetta auðkenni fyrir síðari uppsetningarskref (vísað í það síðar sem **GUID biðlara**).
 
@@ -309,19 +309,15 @@ Fylgdu þessum skrefum til að fá vefslóð útgefanda kennisveitanda.
 
 Fylgdu þessum skrefum til að safna nauðsynlegum forritsupplýsingum.
 
-1. Í Azure gáttinni ferðu í **Heim \> Azure AD B2C - Forrit**.
-1. Veldu forritið þitt og veldu síðan í vinstri glugganum **Eiginleikar** til að fá upplýsingar um forritið.
-1. Úr reitnum **Kenni forrits**, safnaðu forritskenni B2C forritsins sem búið var til í B2C leigjanda þínum. Þetta verður síðar fært inn sem **GUID biðlara** í vefsvæðishönnuði.
-1. Undir **Svarslóðinni**, safnarðu svarslóðum.
-1. Farðu í **Heim \> Azure AD B2C - Notendastreymi (reglur)**, og safnaðu síðan nöfnum hverrar notendastreymisstefnu.
+1. Í Azure gáttinni, farðu til **Heim \>Azure AD B2C - App skráningar**.
+1. Veldu forritið þitt og veldu síðan í vinstri yfirlitsrúðunni **Yfirlit** til að fá upplýsingar um umsóknina.
+1. Frá **Auðkenni umsóknar (viðskiptavinar).** tilvísun, safnaðu auðkenni umsóknar B2C forritsins sem búið var til í B2C leigjanda þínum. Þetta verður síðar fært inn sem **GUID biðlara** í vefsvæðishönnuði.
+1. Veldu **Tilvísun URI** og safnaðu svarslóðinni sem sýnd er fyrir síðuna þína (svarslóðin sem færð var inn við uppsetningu).
+1. Fara til **Heim \>Azure AD B2C – Notendaflæði**, og safnaðu síðan fullum nöfnum hverrar notendaflæðisstefnu.
 
-Eftirfarandi mynd sýnir dæmi um síðuna **Azure AD B2C - Forrit**.
+Eftirfarandi mynd sýnir dæmi um **Azure AD B2C - App skráningar** yfirlitssíðu.
 
-![Farðu í B2C forritið í leigjanda þínum.](./media/B2CImage_19.png)
-
-Eftirfarandi mynd sýnir dæmi um forritasíðuna **Eiginleikar** í Azure AD B2C. 
-
-![Afritaðu auðkenni forritsins úr eiginleikum B2C forritsins.](./media/B2CImage_21.png)
+![Azure AD B2C - Yfirlitssíða forritaskráningar með auðkenni umsóknar (viðskiptavinar) auðkennt](./media/ClientGUID_Application_AzurePortal.png)
 
 Eftirfarandi mynd sýnir dæmi um reglur notendaflæðis á síðunni **Azure AD B2C - Notendastreymi (reglur)**.
 
@@ -363,7 +359,7 @@ Til að tengja B2C forritið við síðuna þína og rás skaltu fylgja þessum 
 1. Í vinstri yfirlitsglugganum velurðu **Svæðisstillingar** til að stækka hann.
 1. Undir **Vefsvæðisstillingar** velurðu **Rásir**.
 1. Í aðalglugganum undir **Rásir** velurðu rásina þína.
-1. Veldu rásina fyrir rásina til hægri, veldu nafn B2C forritsins úr fellivalmyndinni **Velja B2C forrit**.
+1. Í rásareiginleikarúðunni til hægri skaltu velja B2C forritsheitið þitt úr **Veldu B2C forrit** fellivalmynd.
 1. Veldu **Loka** og veldu síðan **Vista og birta**.
 
 ## <a name="additional-b2c-information"></a>Frekari B2C upplýsingar

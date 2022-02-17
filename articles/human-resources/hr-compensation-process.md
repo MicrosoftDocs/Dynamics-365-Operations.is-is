@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 413143afb578aed29ce0836aaa3ac98ffc0c6cc3
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
-ms.translationtype: HT
+ms.openlocfilehash: 7c72f866886f320d8a7fa22d6ccfa7e43284b5bf
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7484097"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071745"
 ---
 # <a name="process-compensation"></a>Launaútreikningur
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,10 +44,10 @@ Eftir að færibreytur vinnslutilviksins hafa verið vistaðar er hægt að smel
 
 Smelltu á hnappinn **Bæta við** í flipanum **Áætlanir** til að bæta launafyrirkomulagi við vinnslutilvikið. Dálkarnir **Nota aðra vogun**, **Vogunarhlutfall** og **Lýsing vogunar** eru aðeins notaðir fyrir breytilegar launaáætlanir og ekki er fjallað um þá í þessu efnisatriði.
 
-Vistaðu færsluna og smelltu svo á hnappinn **Bæta við** í flipanum **Aðgerðir** til að bæta við aðgerðum fastra launa fyrir valda áætlun. Notaðu valkostinn **Virkja ráðleggingu** til að slá inn upphæð sem er önnur en útreiknuð leiðbeinandi hækkun fyrir aðgerðina. Til að reikna út aðgerð sem er byggð á niðurstöðu fyrri aðgerðar til að tengja margar launaaðgerðir skal merkja valkostinn **Nota síðustu niðurstöður**. Aðgerðir fastra launa eru gerðir af launarökum sem hægt er að gefa lýsandi heiti. Ef um er að ræða launaþrep eða greiningaráætlanir getur þú aðeins bætt við aðgerðum fastra launa sem eru af eftirfarandi gerðum:
+Vistaðu færsluna og smelltu svo á hnappinn **Bæta við** í flipanum **Aðgerðir** til að bæta við aðgerðum fastra launa fyrir valda áætlun. Notaðu valkostinn **Virkja ráðleggingu** til að slá inn upphæð sem er önnur en útreiknuð leiðbeinandi hækkun fyrir aðgerðina. Til að reikna út aðgerð sem er byggð á niðurstöðu fyrri aðgerðar til að tengja margar launaaðgerðir skal merkja valkostinn **Nota síðustu niðurstöður**. Aðgerðir fastra launa eru gerðir af launarökum sem hægt er að gefa lýsandi heiti. Fyrir **Einkunn** og **Hljómsveit** áætlunum geturðu aðeins bætt við föstum bótaaðgerðum sem eru af eftirfarandi gerðum:
 
-| Aðgerðir fastra launa | Virkni                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Aðgerðir fastra launa | Virkni                  |
+|-------------------------------|-------------------------------------------------------------------------|
 | Eigið fé                        | Í launaleiðréttingaraðgerðum er launataxti starfsmanns frá og með lokadagsetningu ferlis borinn saman við lægsta viðmiðunarpunktinn fyrir það stig sem gefið er upp fyrir starf starfsmanns. Ef launataxti starfsmanns er lægri en lágmarks viðmiðunarpunkturinn er nauðsynleg hækkun til að ná starfsmanninum upp í lágmarkspunkt mengisins reiknuð út.                                                                                |
 | Verðleiki                         | Verðleikaaðgerðir reikna út hækkun út frá launataxta starfsmanns frá og með lokadagsetningu ferlis og þeirri prósentuhækkun sem er að finna í áætlun fastrar aukningar fyrir deild, verkalýðsfélag og staðsetningu starfsmannsins.                                                                                                                                                                                         |
 | Almennt                       | Í almennum aðgerðum er reiknuð út hækkun fyrir starfsmanninn, annaðhvort prósentuhækkun eða föst upphæð. Þetta er ákvarðað samkvæmt stillingunum **Föst laun** í flipanum **Almennt**.                                                                                                                                                                                                                        |
@@ -53,12 +56,12 @@ Vistaðu færsluna og smelltu svo á hnappinn **Bæta við** í flipanum **Aðge
 
 Aðeins er hægt að bæta við aðgerðunum **Föst laun** með áætlun af gerðinni Frá þrepi til þreps.
 
-| Aðgerðir fastra launa | Virkni                                                                                                                                                                                           |
-|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Aðgerðir fastra launa | Virkni                |
+|--------------------------------|------------------------------|
 | Þrep                           | Í flipanum **Almennt** skal gefa til kynna hvort þessi þrepaaðgerð eigi að færa starfsmenn fram um núll þrep, eitt þrep eða tvö þrep.                                                                                  |
 |                                | **0 þrep** - Starfsmaður fær launataxtann fyrir núverandi þrep hans.                                                                                                                      |
 |                                | **1 þrep** - Kerfið kannar hvort starfsmaðurinn sé þegar á síðasta viðmiðunarpunkti fyrir sitt stig.                                                                                             |
-|                                | **2 þrep** - Kerfið færir starfsmanninn upp um tvö þrep á núverandi stigi hans. Kerfið getur mögulega fært starfsmann um eitt eða ekkert þrep ef hann hefur þegar náð síðasta viðmiðunarpunkti fyrir sitt stig. |
+|                                | **2 skref** - Starfsmaðurinn mun fara fram á við tvö skref á núverandi stigi. Starfsmaður gæti aðeins fært eitt eða núll skref ef hann nær síðasta viðmiðunarpunkti fyrir sitt stig. |
 
 ## <a name="run-the-compensation-process"></a>Keyra Launavinnsla
 Eftir að vinnslutilvikið hefur verið sett upp með nauðsynlegum dagsetningareitum, áætlunum og aðgerðum skal smella á **Keyra vinnslu** á síðunni **Vinnslutilvik**, þetta opnar gluggann **Keyra tilvik launavinnslu**. Smelltu á valkostinn **Sýna niðurstöður vinnslu** til að sjá hvernig launaupphæðir voru reiknaðar út fyrir hvern starfsmann. Sé smellt á **Í lagi** er launavinnsla keyrð fyrir alla starfsmenn sem eru í þeirri launaáætlun sem er valin frá og með lokadagsetningu ferlis.

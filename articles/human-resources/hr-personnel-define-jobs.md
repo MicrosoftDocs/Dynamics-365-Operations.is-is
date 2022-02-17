@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 844661db4798c23b0b25d4ce7c2cc1862893a5dc
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 0029745b85927d56c7bb281b327de6bf5c8cdf18
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771367"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067303"
 ---
 # <a name="define-new-jobs"></a>Skilgreina ný störf
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -65,7 +68,7 @@ ms.locfileid: "7771367"
 20. Í **Færni** kafla, taktu eftir því að reitirnir á **Færni**, **·**, og **Skírteini** Flýtiflipar eru auðir. Eftir að þú hefur afritað upplýsingar úr starfssniðmáti verða upplýsingar færðar inn í þessa reiti í einu skrefi.
 21. Veldu **Vista**.
 22. Veldu **Afrita frá**.
-23. Veldu **Afritaðu af sniðmáti**.
+23. Veldu **Afritaðu úr sniðmáti**.
 24. Í **Starfssniðmát** reit, veldu felliörina til að opna leitina.
 25. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 26. Í listanum skal velja tengilinn í valinni línu.

@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1fd15b5d664fead10949750678a2d3eab967af22
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781393"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063673"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Uppsetning tvöfaldra skrifa úr Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Í þessu efnisatriði er útskýrt hvernig á að virkja tvöfalda skráningu úr Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -53,18 +53,18 @@ Fylgið þessum skrefum til að setja upp tvöfalda skráningu af LCS-síðunni 
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Tengill á Power Platform-umhverfið.":::
 
-8. Þegar tengingin er komin verður tengill sýndur. Notið tengilinn til að skrá ykkur inn á stjórnunarsvæði tvöfaldrar skráningar í Finance and Operations umhverfinu. Þaðan er hægt að setja upp einingavarpanir.
+8. Þegar tengingin er komin verður tengill sýndur. Notaðu hlekkinn til að skrá þig inn á tvískrifa stjórnunarsvæðið í Finance and Operations umhverfinu. Þaðan er hægt að setja upp einingavarpanir.
 
 ## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Setja upp tvöfalda skráningu fyrir fyrirliggjandi Dataverse umhverfi
 
 Til að setja upp tvöfalda skráningu fyrir fyrirliggjandi Dataverse umhverfi þarf að stofna Microsoft [þjónustubeiðni](../../lifecycle-services/lcs-support.md). Beiðnin verður að innihalda:
 
-+ Finance and Operations umhverfiskennið.
++ Auðkenni fjármála- og rekstrarumhverfis þíns.
 + Heiti umhverfis í Lifecycle Services.
 + Fyrirtækiskennið Dataverse eða umhverfiskennið Power Platform úr Power Platform stjórnendamiðstöðinni. Í beiðninni skal biðja um að kennið verði tilvikið sem notað er fyrir Power Platform samþættingu.
 
 > [!NOTE]
-> Þú getur ekki aftengt umhverfi með því að nota LCS. Til að aftengja umhverfi skaltu opna vinnusvæðið **Gagnasamþætting** í Finance and Operations umhverfi og veldu síðan **Aftengja**.
+> Þú getur ekki aftengt umhverfi með því að nota LCS. Til að aftengja umhverfi skaltu opna **Samþætting gagna** vinnusvæði í Finance and Operations umhverfinu og veldu síðan **Aftengja**.
 
 ## <a name="linking-mismatch"></a>Linking mismatch
 

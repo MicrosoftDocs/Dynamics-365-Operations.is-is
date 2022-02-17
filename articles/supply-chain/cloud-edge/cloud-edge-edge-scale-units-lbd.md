@@ -2,7 +2,7 @@
 title: Nota jaðareiningakvarða í sérsniðnum vélbúnaði með LBD
 description: Þetta efnisatriði útskýrir hvernig hægt er að úthluta kvörðunareiningu jaðars á staðnum með því að nota sérsniðinn vélbúnað og uppsetningu sem byggir á staðbundnum viðskiptagögnum (LBD).
 author: cabeln
-ms.date: 11/29/2021
+ms.date: 01/24/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2407d4e3c6adaf5df2e8f5440ee8336f86012caf
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 1204b65e76c107c29a94a61c321064a87c7571fb
+ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920674"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "8024543"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Nota jaðareiningakvarða í sérsniðnum vélbúnaði með LBD
 
@@ -26,6 +26,13 @@ Kvörðunareiningar jaðars gegna mikilvægu hlutverki í dreifingu á blandaðr
 Hægt er að setja upp kvörðunareiningar jaðars með því að búa til staðbundin viðskiptagögn (LBD) í [innanhússumhverfi](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) og stilla það svo þannig að það virki sem kvörðunareining í dreifðri blandaðri grannfræði þinni fyrir aðfangakeðjustjórnun. Þetta er gert með því að tengja LBD-umhverfið á staðnum við umhverfi Supply Chain Management í skýinu, sem hefur verið stillt þannig að það virki sem miðstöð.  
 
 Þetta efnisatriði lýsir því hvernig á að setja upp LBD-umhverfi á staðnum sem jaðarkvörðunareiningu og síðan tengja það við miðstöð.
+
+## <a name="infrastructure-considerations"></a>Innviðasjónarmið
+
+Edge mælikvarða einingar keyra á staðnum umhverfi, þannig að innviðakröfur eru nokkuð svipaðar. Hins vegar er ákveðinn munur sem ætti að hafa í huga:
+
+- Jaðarkvarðaeiningar nota ekki fjárhagsskýrslugerð, svo þær þurfa ekki fjárhagsskýrsluhnúta.
+- Vinnuálag framleiðslu og vörugeymsla er ekki tölvufrekt, svo íhugaðu að stærð reiknikraftinn þinn fyrir AOS hnúta í samræmi við það.
 
 ## <a name="deployment-overview"></a>Yfirlit uppsetningar
 
@@ -82,7 +89,7 @@ Hér er yfirlit uppsetningarferlisins.
     Initialize-Database.ps1 forskriftin framkvæmir eftirfarandi aðgerðir:
 
     1. Búðu til tóman gagnagrunn sem heitir **ScaleUnitAlmDb**.
-    2. Settu notendur í gagnagrunnshlutverk, byggt á eftirfarandi töflu.
+    2. Settu notendur á gagnagrunnshlutverk, byggt á eftirfarandi töflu.
 
         | Notandi            | Gerð | Gagnagrunnshlutverk |
         |-----------------|------|---------------|

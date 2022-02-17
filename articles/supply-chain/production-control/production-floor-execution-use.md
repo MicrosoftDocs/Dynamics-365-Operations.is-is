@@ -2,7 +2,7 @@
 title: Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
 description: Þetta efnisatriði lýsir því hvernig á að nota keyrsluviðmót framleiðslugólfsins frá sjónarhóli starfsmanns.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 01/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e872600222ad23bf3de62c0f2d6cda74942d5b55
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.dyn365.ops.version: 10.0.24
+ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920649"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075020"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -138,6 +138,65 @@ Ef runupöntun er búin til úr formúluútgáfu þar sem valkosturinn **Frávik
 Þegar starfsmaður lýkur vinnslu að fullu eða hluta til, getur hann gefið upp rýrnun með því að velja flipann **Virkar vinnslur** og síðan velja **Gefa upp rýrnun**. Síðan í svarglugganum **Gefa upp rýrnun** færir starfsmaðurinn inn magn rýrnunar með því að nota talnaborðið. Starfsmaðurinn velur einnig ástæðu (*Engin*, *Vél*, *Notandi* eða *Efni*).
 
 ![Svargluggi rýrnunarskýrslu.](media/pfei-report-scrap-dialog.png "Svargluggi rýrnunarskýrslu")
+
+## <a name="adjust-material-consumption-and-make-material-reservations"></a>Stilltu efnisnotkun og gerðu efnisfyrirvara
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+Starfsmenn geta stillt efnisnotkun fyrir hvert framleiðsluverk. Þessi virkni er notuð í atburðarásum þar sem raunverulegt magn efna sem var notað í framleiðsluvinnu var meira eða minna en áætlað magn. Þess vegna verður að aðlaga það til að halda birgðastöðunum núverandi.
+
+Starfsmenn geta einnig gert fyrirvara á lotu- og raðnúmerum efna. Þessi virkni er notuð í aðstæðum þar sem starfsmaður verður að tilgreina handvirkt hvaða efnislotu eða raðnúmer voru notuð til að uppfylla kröfur um rekjanleika efnis.
+
+Starfsmenn geta tilgreint magnið sem á að stilla með því að velja **Stilla efni**. Þessi hnappur er fáanlegur á eftirfarandi stöðum:
+
+- Í **Tilkynna rusl** valmynd
+- Í **Tilkynna framvindu** valmynd
+- Á tækjastikunni hægra megin
+
+### <a name="adjust-material-consumption-from-the-report-scrap-and-report-progress-dialog-boxes"></a>Stilltu efnisnotkun úr svargluggunum Tilkynna rusl og Tilkynna framvindu
+
+Eftir að starfsmaður slær inn magnið sem á að tilkynna í **Tilkynna framvindu** eða **Tilkynna rusl** valmynd, the **Stilla efni** hnappur verður aðgengilegur. Þegar notandi velur þennan hnapp, **Stilla efni** svarglugginn birtist. Þessi svargluggi sýnir vörurnar sem áformað er að neyta þegar vöru- eða úrgangsmagnið er tilkynnt fyrir verkið.
+
+Listinn í glugganum sýnir eftirfarandi upplýsingar:
+
+- **Vörunúmer** – Vörumeistari og vöruafbrigði.
+- **Vöruheiti** – Nafn vörunnar.
+- **Tillaga** – Áætlað magn efnis sem verður notað þegar tilkynnt er um framvindu eða úrgang fyrir tilgreint magn fyrir verkið.
+- **Neysla** – Raunverulegt magn efnis sem verður neytt þegar tilkynnt er um framvindu eða rusl fyrir tilgreint magn fyrir verkið.
+- **Frátekið** – Magn efnis sem hefur verið frátekið í birgðum.
+- **Eining** – Efnisskrá (BOM) einingin.
+
+Hægra megin í glugganum sýnir eftirfarandi upplýsingar:
+
+- **Vörunúmer** – Vörumeistari og vöruafbrigði.
+- **Áætlað** – Áætlað magn sem á að neyta.
+- **Byrjað** – Magnið sem byrjað er á framleiðsluvinnunni.
+- **Eftirstandandi magn** – Af áætluðu magni, það magn sem á eftir að neyta.
+- **Útgefið magn** - Magnið sem hefur verið neytt.
+
+Hægt er að framkvæma eftirfarandi aðgerðir:
+
+- Starfsmaðurinn getur tilgreint magnið sem á að stilla fyrir efni með því að velja **Stilla neyslu**. Eftir að magnið hefur verið staðfest er magnið í **Neysla** dálkurinn er uppfærður með leiðréttu magni.
+- Þegar starfsmaðurinn velur **Stilla efni**, færslubók framleiðslutínslulista er búin til. Þessi dagbók inniheldur sömu hluti og magn og **Stilla efni** lista.
+- Þegar starfsmaður stillir magn í **Stilla efni** valmynd, the **Tillaga** reiturinn á samsvarandi færslubókarlínu er uppfærður með sama magni. Ef starfsmaður velur **Hætta við** í **Stilla efni** valmyndinni er vallistanum eytt.
+- Ef starfsmaður velur **Allt í lagi**, vallistanum er ekki eytt. Það verður birt þegar tilkynnt er um starfið í **Tilkynna rusl** eða **Tilkynna framvindu** valmynd.
+- Ef starfsmaður velur **Hætta við** í **Tilkynna framvindu** eða **Tilkynna rusl** valmyndinni er vallistanum eytt.
+
+### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Stilltu efni frá tækjastikunni til hægri
+
+The **Stilla efni** Hægt er að stilla hnappinn þannig að hann birtist á tækjastikunni til hægri. (Fyrir frekari upplýsingar, sjá [Hannaðu framkvæmdarviðmót framleiðslugólfsins](production-floor-execution-tabs.md) .) Starfsmaður getur valið **Stilla efni** fyrir framleiðslustarf sem er í vinnslu. Í þessu tilviki er **Stilla efni** svargluggi birtist þar sem starfsmaðurinn getur gert þær breytingar sem óskað er eftir. Þegar svarglugginn er opnaður er framleiðslutínslulisti sem inniheldur línur fyrir leiðrétt magn búinn til fyrir framleiðslupöntunina. Ef starfsmaður velur **Sendu núna**, leiðréttingin er staðfest og tínslulistinn settur. Ef starfsmaður velur **Hætta við**, plokkunarlistanum er eytt og engin leiðrétting gerð.
+
+### <a name="reserve-materials"></a>Varaefni
+
+Í **Stilla efni** valmynd, getur starfsmaður gert og breytt efnispöntunum með því að velja **Varaefni**. The **Varaefni** svargluggi sem birtist sýnir efnislega tiltækar birgðir fyrir vöruna fyrir hverja geymslu- og rakningarvídd.
+
+Ef efnið er virkt fyrir háþróuð vöruhúsaferli sýnir listinn aðeins efnislega tiltækar birgðir fyrir framleiðsluinntaksstaðsetningu fyrir efnið. Staðsetning framleiðsluinntaks er skilgreind á tilfanginu þar sem framleiðsluverkið er skipulagt. Ef vörunúmerið er stjórnað með lotu- eða raðnúmeri, birtist heildarlisti yfir efnislega tiltæka lotu- og raðnúmer. Til að tilgreina magn sem á að panta getur starfsmaðurinn valið **Varaefni**. Til að fjarlægja fyrirvara getur starfsmaðurinn valið **Fjarlægja fyrirvara**.
+
+Fyrir frekari upplýsingar um hvernig á að setja upp framleiðsluinntaksstaðsetningu, sjá eftirfarandi bloggfærslu: [Uppsetning framleiðsluinntaksstaðsetningar](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
+
+> [!NOTE]
+> Fyrirvarar sem starfsmaður gerir í **Varaefni** svarglugginn verður áfram þegar starfsmaðurinn velur **Hætta við** í **Tilkynna framvindu** eða **Tilkynna rusl** valmynd.
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Vinnslu lokið og ný vinnsla hafin
 

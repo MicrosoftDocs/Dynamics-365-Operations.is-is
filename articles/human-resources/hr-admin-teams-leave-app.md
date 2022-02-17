@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9274ab345616561deddd322ebad0d6e0b834d1d4
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: ffd6967431227b578e227ee570dbe06c356fb8d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924723"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067052"
 ---
 # <a name="human-resources-app-in-teams"></a>Forritið „Human Resources“ í Teams
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -46,7 +49,7 @@ Ef notendur eiga að skoða Leyfis- og fjarvistadagatal í forritinu þarf að v
 >[!NOTE]
 > Frá og með 20. desember 2021 verður þjónusta mannauðsapps sem hýst er hjá Microsoft leigjanda tekin úr notkun. Það mun engin áhrif hafa fyrir uppfærða viðbót (útgáfa 1.1.5) sem er tiltæk til uppsetningar. Helstu áhrifin verða á gamaldags framlengingu (útgáfa 1.1.4). Spjallbotninn í þessari útgáfu mun hætta að virka. The **Frí** flipinn mun halda áfram að virka í báðum viðbótunum.
 
-Fyrir útgáfu 1.1.4 mun spjallbotninn hætta að svara öllum skilaboðum. Til dæmis, **skrá inn**, **stöður**, og **Sjá frí**. Forritið verður að uppfæra handvirkt í nýjustu útgáfuna. Fyrir frekari upplýsingar, sjá [Uppfærðu öpp í Microsoft Teams](/MicrosoftTeams/apps-update-experience).
+Fyrir útgáfu 1.1.4 mun spjallbotninn hætta að svara öllum skilaboðum. Til dæmis, **skrá inn**, **stöður**, og **Sjá frí**. Forritið verður að vera handvirkt uppfært í nýjustu útgáfuna. Fyrir frekari upplýsingar, sjá [Uppfærðu öpp í Microsoft Teams](/MicrosoftTeams/apps-update-experience).
 
 Til að uppfæra í útgáfu 1.1.5 skaltu ljúka þessum skrefum:
 1. Í Microsoft Teams, fara til **Forrit**.
@@ -136,7 +139,7 @@ Ef notandi hefur samband við þig vegna þess að hann vill skrá sig inn í fo
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Villa þegar leyfisbeiðnir eru samþykktar í forriti Human Resources í Teams
 
-Ef notandi fær villu á meðan hann er að reyna að samþykkja leyfisbeiðnir í Teams appinu skaltu prófa eftirfarandi bilanaleitarskref:
+Ef notandi fær villu á meðan hann er að reyna að samþykkja leyfisbeiðnir í Teams appinu skaltu prófa eftirfarandi úrræðaleitarskref:
 
 1. Gangið úr skugga um að Teams-reikningurinn sé sá sami og hann notar til að fá aðgang að Human Resources.
 

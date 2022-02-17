@@ -9,19 +9,23 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 49bb7bea167674eb81fd6d1144c6c302a7c29391
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 9e7343a485ae4779b075eeb48dabc39467e1a176
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964909"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074914"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Ráða fyrirliggjandi starfsmenn gegnum ráðningarferli
 
 [!include [banner](../../includes/banner.md)]
+
+> [!IMPORTANT]
+> Virknin sem bent er á í þessu efnisatriði er eins og er í boði fyrir mannauðsviðskiptavini á fjármálainnviðum.  
+
 
 Stundum geta umsækjendur sem þegar eru starfsmenn í fyrirtækinu þínu skipað opnar stöður. Þetta ferli fer í gegnum skrefin í ráðningu fyrirliggjandi starfsmanns með ráðningaferlinu. Í þessu ferli, hefur þegar verið sett upp ráðningarverk og fyrirliggjandi starfsmanns hefur þegar sent inn umsókn fyrir ráðningarverkið. The **USMF** kynningargagnafyrirtæki var notað til að búa til þessa aðferð.
 

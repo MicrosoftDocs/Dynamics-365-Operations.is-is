@@ -11,16 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8f438e18356a6c16cc75bb59153ae7353d984a5a
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
-ms.translationtype: HT
+ms.openlocfilehash: 702985ef9726690829e35e43d270477be318fc41
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500331"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075215"
 ---
 # <a name="gs1-bar-codes-and-qr-codes"></a>GS1-strikamerki og QR-kóðar
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- Preview until 10.0.25 GA -->
 
 Vöruhússtarfsmenn þurfa oft að ljúka nokkrum verkefnum þegar þeir nota skanna fyrir farsíma til að skrá hreyfingar vöru, spjalds eða geymis. Þessi verkefni geta falið í sér bæði að skanna strikamerkingar og færa inn upplýsingar handvirkt í fartækið. Strikamerkin nota tiltekið snið fyrirtækis sem þú skilgreinir og stjórnar með Microsoft Dynamics 365 Supply Chain Management.
 

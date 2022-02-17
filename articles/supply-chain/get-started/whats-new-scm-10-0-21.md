@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3b5f0c6947944ec875c30fa912f830f245b5a48e
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777938"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075300"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.21 (október 2021)
 
@@ -35,22 +35,21 @@ Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](..
 
 | Eiginleikasvæði | Eiginleiki | Meiri upplýsingar |
 |---|---|---|
-| Birgða-&nbsp; og&nbsp; vörustjórnun | [Innbót fjárhags altæks birgðabókhalds fyrir Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Altækt birgðabókhald –heimasíða](../global-inventory-accounting/global-inventory-accounting-home.md) |
-| Birgða-&nbsp; og&nbsp; vörustjórnun | [Bóka breytingar á lager með kóðum sem eru tengdir við mótlykla](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Ástæðukóðar fyrir birgðatalningu](../warehousing/reason-codes-for-counting-journals.md) |
-| Birgða-&nbsp; og&nbsp; vörustjórnun | [Regla um útflutning gagna sem sölutilboð vísar í](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Veldu hvort breytingar á gögnum sem tilboð vísa í munu valda því að þessi tilboð (eða línur) verða höfð með í næsta stigvaxandi útflutningi. Stigvaxandi útflutningur þinn mun ganga hraðar fyrir sig ef þú velur að setja ekki inn slík tilboð eða línur.<br><br>Þessi eiginleiki bætir stillingu sem heitir **Sleppa gögnum sem sölutilboð vísar í við breytingarrakningu** við síðuna **Færibreytur viðskiptakrafna**. |
-| Birgða-&nbsp; og&nbsp; vörustjórnun | [Innsiglað tilboð](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sealed-bidding) | [Lokuð tilboð fyrir tilboðsbeiðnir](../procurement/sealed-bidding.md) |
-| Birgða-&nbsp; og&nbsp; vörustjórnun | [Skanna strikamerki í vöruhúsinu með GS1-sniðsstöðlum](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1-strikamerki og QR-kóðar](../warehousing/gs1-barcodes.md) |
-| Birgða-&nbsp; og&nbsp; vörustjórnun | [Mjúk frátekning fyrir innbót birgðasýnileika](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Frátekningar sýnilegra birgða](../inventory/inventory-visibility-reservations.md) |
-| Birgða-&nbsp; og&nbsp; vörustjórnun | [Betrumbætur á frádrætti og framleiðsluþyngd fyrir stjórnun eftirágreidds afsláttar](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Stjórna frádráttum með frádráttarvinnusvæðinu](../rebate-management/deduction-workbench.md )<br><br>[Meðhöndla, yfirfara og bóka eftirágreiddan afslátt](../rebate-management/process-review-post.md)<br><br>[Tilboð fyrir stjórnun eftirágreidds afsláttar](../rebate-management/rebate-management-deals.md) |
-| Birgða-&nbsp; og&nbsp; vörustjórnun | [Leiðbeiningar fyrir skref vöruhúsaforrits](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management](../warehousing/mobile-app-titles-instructions.md) |
-| Birgða-&nbsp; og&nbsp; vörustjórnun | [Uppfærslur á vinnuhléi og rakningu fyrir heildarkostnað](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/work-breaks-tracking-updates-landed-cost) | [Uppfæra rakningu fyrir frágang](../landed-cost/update-tracking-putaway.md )<br><br>[Vinnsla á vörum í flutningi](../landed-cost/in-transit-processing.md) |
+| Birgða-&nbsp;og&nbsp;vörustjórnun | [Innbót fjárhags altæks birgðabókhalds fyrir Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Altækt birgðabókhald –heimasíða](../global-inventory-accounting/global-inventory-accounting-home.md) |
+| Birgða-&nbsp;og&nbsp;vörustjórnun | [Bóka breytingar á lager með kóðum sem eru tengdir við mótlykla](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Ástæðukóðar fyrir birgðatalningu](../warehousing/reason-codes-for-counting-journals.md) |
+| Birgða-&nbsp;og&nbsp;vörustjórnun | [Regla um útflutning gagna sem sölutilboð vísar í](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Veldu hvort breytingar á gögnum sem tilboð vísa í munu valda því að þessi tilboð (eða línur) verða höfð með í næsta stigvaxandi útflutningi. Stigvaxandi útflutningur þinn mun ganga hraðar fyrir sig ef þú velur að setja ekki inn slík tilboð eða línur.<br><br>Þessi eiginleiki bætir stillingu sem heitir **Sleppa gögnum sem sölutilboð vísar í við breytingarrakningu** við síðuna **Færibreytur viðskiptakrafna**. |
+| Birgða-&nbsp;og&nbsp;vörustjórnun | [Innsiglað tilboð](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sealed-bidding) | [Lokuð tilboð fyrir tilboðsbeiðnir](../procurement/sealed-bidding.md) |
+| Birgða-&nbsp;og&nbsp;vörustjórnun | [Mjúk frátekning fyrir innbót birgðasýnileika](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Frátekningar sýnilegra birgða](../inventory/inventory-visibility-reservations.md) |
+| Birgða-&nbsp;og&nbsp;vörustjórnun | [Betrumbætur á frádrætti og framleiðsluþyngd fyrir stjórnun eftirágreidds afsláttar](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Stjórna frádráttum með frádráttarvinnusvæðinu](../rebate-management/deduction-workbench.md )<br><br>[Meðhöndla, yfirfara og bóka eftirágreiddan afslátt](../rebate-management/process-review-post.md)<br><br>[Tilboð fyrir stjórnun eftirágreidds afsláttar](../rebate-management/rebate-management-deals.md) |
+| Birgða-&nbsp;og&nbsp;vörustjórnun | [Leiðbeiningar fyrir skref vöruhúsaforrits](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management](../warehousing/mobile-app-titles-instructions.md) |
+| Birgða-&nbsp;og&nbsp;vörustjórnun | [Uppfærslur á vinnuhléi og rakningu fyrir heildarkostnað](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/work-breaks-tracking-updates-landed-cost) | [Uppfæra rakningu fyrir frágang](../landed-cost/update-tracking-putaway.md )<br><br>[Vinnsla á vörum í flutningi](../landed-cost/in-transit-processing.md) |
 | Áætlanagerð | [Neikvæðir dagar fyrir fínstillingu skipulagningar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/negative-days-support-planning-optimization) | [Vikmörk tafar (neikvæður dagafjöldi)](../master-planning/planning-optimization/delay-tolerance.md) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Eiginleikaviðbætur í þessari útgáfu
 
 Í eftirfarandi töflu er listi yfir eiginleikaviðbætur í þessari útgáfu. Hver þeirra býður upp á stigvaxandi viðbót á fyrirliggjandi eiginleika. Þær eru aðeins viðbætur og eru því ekki skráðar í [útgáfuáætluninni](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). En til að tryggja að þessar viðbætur stangist ekki á við núverandi sérstillingar eða kjörstillingar er sjálfgefið slökkt á þeim öllum (nema annað sé tekið fram). Ef nota á einhvern þessara eiginleika þarf að virkja þá sérstaklega í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Kerfiseining | Eiginleika&nbsp; heiti&nbsp; í eiginleika&nbsp; stjórnun | Meiri upplýsingar |
+| Kerfiseining | Eiginleika&nbsp;heiti&nbsp;í eiginleika&nbsp;stjórnun | Meiri upplýsingar |
 |---|---|---|
 | Kostnaðarstýring | Ítarlegar upplýsingar um ferli birgðalokunar | Þessi forskoðunareiginleiki gerir þér kleift að skoða ferli birgðalokunar á ítarlegan hátt. |
 | Innkaup og aðföng | Koma í veg fyrir ofnotkun almennra frátekta fjárhagsáætlunar þegar margar innkaupabeiðnir eru í verkflæði | Þessi forútgáfa af eiginleikanum bætir villuleit þegar notendur senda inn og samþykkja innkaupabeiðnir sem eru umfram stöðu almennrar frátektar fjárhagsáætlunarlínu. Þetta hjálpar til við að koma í veg fyrir ofnotkun almennra frátekta fjárhagsáætlunar þegar margar innkaupabeiðnir eru í verkflæði. |
@@ -85,7 +84,7 @@ Eftirfarandi tafla sýnir eiginleika sem sjálfgefið er kveikt á í 10.0.21. H
 | Tilvísunartengli í beiðni um tilboð bætt við innkaupapöntun | 1/9/2021 | 31/8/2019 | Sjálfgefið kveikt | Innkaup og aðföng |
 | Geta til að staðfesta samþykktar innkaupapantanir úr samstarfi lánardrottna í runu | 1/9/2021 | 10/9/2019 | Sjálfgefið kveikt | Innkaup og aðföng |
 | Viðbætur cXML-innkaupa | 1/9/2021 | 11/11/2019 | Sjálfgefið kveikt | Innkaup og aðföng |
-| Sýna tengilinn &quot; Opna birtar tilboðsbeiðnir&quot; sem reit | 1/9/2021 | 30/9/2020 | Sjálfgefið kveikt | Innkaup og aðföng |
+| Sýna tengilinn &quot;Opna birtar tilboðsbeiðnir&quot; sem reit | 1/9/2021 | 30/9/2020 | Sjálfgefið kveikt | Innkaup og aðföng |
 | Spurningar og svör vegna beiðni um tilboð | 1/9/2021 | 19/2/2020 | Sjálfgefið kveikt | Innkaup og aðföng |
 | Vöruupplýsingar og afhendingarskjal vöru með hættulegum efnum | 1/9/2021 | 14/6/2020 | Sjálfgefið kveikt | Vöruupplýsingastjórnun |
 | Öflug villuleit í sjálfgefnu pöntunarmagni | 1/9/2021 | 24/6/2020 | Sjálfgefið kveikt | Vöruupplýsingastjórnun |
@@ -104,7 +103,7 @@ Eftirfarandi tafla sýnir eiginleika sem sjálfgefið er kveikt á í 10.0.21. H
 | Hreinsa uppfærsluferil sölupöntunar | 1/9/2021 | 1/9/2021 | Sjálfgefið kveikt | Sala og markaðsstarf |
 | Breyta númeraröðinni fyrir vinnu með reglulegri talningu | 1/9/2021 | 7/10/2019 | Sjálfgefið kveikt | Vöruhúsakerfi |
 | Verkmiðaðar áfyllingar bylgjueftirspurnar | 1/9/2021 | 7/10/2019 | Skylda | Vöruhúsakerfi |
-| Fela reitinn „Heildarvirði“ á síðunum &quot; Allar hleðslur&quot; og &quot; Hleðsluupplýsingar&quot; | 1/9/2021 | 7/10/2019 | Sjálfgefið kveikt | Vöruhúsakerfi |
+| Fela reitinn „Heildarvirði“ á síðunum &quot;Allar hleðslur&quot; og &quot;Hleðsluupplýsingar&quot; | 1/9/2021 | 7/10/2019 | Sjálfgefið kveikt | Vöruhúsakerfi |
 | Prentun bylgjumerkis | 1/9/2021 | 19/2/2020 | Skylda | Vöruhúsakerfi |
 | Tengja birgðafærslur innkaupapöntunar við farm | 1/9/2021 | 6/1/2020 | Skylda | Vöruhúsakerfi |
 | Aukið skipulag á númeraplötumerki | 1/9/2021 | 19/2/2020 | Sjálfgefið kveikt | Vöruhúsakerfi |
@@ -138,9 +137,9 @@ Nýlega hefur eftirfarandi hjálparatriðum verið bætt við eða þau uppfær�
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir forrit Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir Finance and Operations öpp
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.21 inniheldur verkvangsuppfærslur. Frekari upplýsingar má finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.21 á forritum Finance and Operations (október 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.21 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Palluppfærslur fyrir útgáfu 10.0.21 af Finance and Operations forritum (október 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 

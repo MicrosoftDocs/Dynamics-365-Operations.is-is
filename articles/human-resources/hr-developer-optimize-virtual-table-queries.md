@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40fc4c06c563415cd5b1a13c145b778276274fd97279dc9f56ff5e3f8954dc76
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 1857d2e35e369bcd0c8f02a059a307f31da8b3b9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732010"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067455"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Fínstilla Dataverse sýndartöflufyrirspurnir
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="issue"></a>Úthreyfing
 
@@ -47,12 +50,12 @@ Ein orsök á hægum afköstum með Dataverse sýndartöflur fyrir Human Resourc
 Dæmi þar sem þú gætir séð þessi áhrif er í fyrirspurnum gegn starfsmanninum (**mshr_hcmworkerentity**) eða einingu grunnstarfskrafts (**mshr_hcmworkerbaseentity**). Frammistöðuvandamál gætu birtst á nokkra mismunandi vegu:
 
 - **Hæg fyrirspurnarkeyrsla**: Fyrirspurn vegna sýndartöflu gæti skilað eðlilegum niðurstöðum en tekið lengri tíma en vanalega að ljúka keyrslu fyrirspurnarinnar.
-- **Fyrirspurnin rann út á tíma**: Þessi fyrirspurn gæti runnið út á tíma og skilað eftirfarandi villu: „Náð var í merki til að kalla á Finance and Operations, en Finance and Operations skilaði villu af gerðinni InternalServerError.“
+- **Tímamörk fyrirspurnar** : Fyrirspurnin gæti runnið út á tíma og skilað eftirfarandi villu: "Táknið var fengið til að hringja í Finance and Operations, en Finance and Operations skilaði villu af gerðinni InternalServerError."
 - **Óvænt villa**: Fyrirspurnin gæti skilað villu af gerðinni 400 með eftirfarandi skilaboðum: „Óvænt villa kom upp.“
 
   ![Villugerð 400 á HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **Takmörkun**: Fyrirspurnin kann að ofnota tilföng netþjóns og orðið fyrir takmörkunum. Í slíku tilfelli skilar fyrirspurnin eftirfarandi villu: „Náð var í merki til að kalla á Finance and Operations, en Finance and Operations skilaði villu af gerðinni 429.“ Frekari upplýsingar um takmörkun í Human Resources er að finna í [Algengar spurningar um takmörkun](./hr-admin-integration-throttling-faq.md).
+- **Takmörkun**: Fyrirspurnin kann að ofnota tilföng netþjóns og orðið fyrir takmörkunum. Í þessu tilviki skilar fyrirspurnin eftirfarandi villu: "Táknið var fengið til að hringja í Finance and Operations, en Finance and Operations skilaði villu af gerðinni 429." Frekari upplýsingar um takmörkun í Human Resources er að finna í [Algengar spurningar um takmörkun](./hr-admin-integration-throttling-faq.md).
 
   ![Villugerð 429 á HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
@@ -101,7 +104,7 @@ Ef þú finnur fyrir einhverjum af áðurnefndum vísbendingum um hæga keyrslu 
 4. Í skoðunarglugganum skal stækka hnútinn **Einingar**.
 5. Í leitarreitnum skal færa inn **mshr_hcmworkerbaseentity** og velja eininguna.
 6. Veldu **Umbreyta gögnum**.
-7. Í glugga Power Query-ritils skal velja **Ítarlegur ritill**.
+7. Í Power Query Ritstjóragluggi, veldu **Háþróaður ritstjóri**.
 8. Í glugganum **Ítarlegur ritill** skal uppfæra fyrirspurnina þannig að hún líti út eins og hér að neðan, bæta við eða fjarlægja dálka úr fylkinu eftir þörfum.
 
    ```
@@ -113,14 +116,14 @@ Ef þú finnur fyrir einhverjum af áðurnefndum vísbendingum um hæga keyrslu 
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![Uppfæra fyrirspurnina í ítarlegum ritli fyrir Power Query-ritil.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![Uppfærðu fyrirspurnina í Advanced Editor fyrir Power Query Ritstjóri.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. Velja **Ekkert**.
 
    > [!NOTE]
    > Ef villa kom upp áður af gerðinni 429 vegna fyrirspurnarinnar á undan uppfærslu, þarf hugsanlega að bíða eftir tímabili endurtilrauna áður en fyrirspurnin er endurhlaðin til að ljúka henni.
 
-10. Smellið á **Loka og nota** á aðgerðarborða Power Query-ritils.
+10. Smellur **Lokaðu og sóttu um** á Power Query Aðgerðarborði ritstjóra.
 
 Þá verður hægt að setja saman Power BI-skýrsluna vegna dálkanna sem valdir eru í sýndartöflunni.
 

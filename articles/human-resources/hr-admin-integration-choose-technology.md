@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 24ddd242185d736287f61ec250c631ab65e08c95
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414715"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065042"
 ---
 # <a name="choose-a-data-integration-technology"></a>Velja tækni við samþættingu gagna
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Þessi efnisatriði gefur upplýsingar fyrir samþættingu við gögn sem Dynamics 365 Human Resources stjórnar. Það lýsir mismunandi samþættingartækni til að hjálpa þér að ákveða hvaða tækni hentar þínum þörfum best.
 
@@ -68,7 +71,7 @@ Dataverse töflur og tengd API þeirra eru besti valkosturinn til að fá aðgan
 
 ### <a name="dmfdixf-entities"></a>DMF/DIXF einingar
 
-Human Resources byggist fyrst og fremst á sama verkvangi og forrit Finance and Operations og veitir [Gagnastjórnunarramma (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF er einnig þekkt sem DIXF (Data Import Export Framework). Human Resources veitir safn gagnaeininga sem þú getur notað til að flytja inn og flytja út mannauðsgögn. Meðan Dataverse töflur eru æskileg samþættingarviðmót gagna fyrir mannauð eru DMF-einingar enn gagnlegar í sumum aðstæðum, svo sem:
+Mannauður, byggður fyrst og fremst á sama vettvangi og fjármála- og rekstrarforrit, veitir a [Data Management Framework (DMF)](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json). DMF er einnig þekkt sem DIXF (Data Import Export Framework). Human Resources veitir safn gagnaeininga sem þú getur notað til að flytja inn og flytja út mannauðsgögn. Meðan Dataverse töflur eru æskileg samþættingarviðmót gagna fyrir mannauð eru DMF-einingar enn gagnlegar í sumum aðstæðum, svo sem:
 
 - Dataverse töflur eru ekki enn til staðar.
 
@@ -111,7 +114,7 @@ BYOD er viðeigandi fyrir skýrslugerð lausna, samþættingu gagna, gagnaupptö
 
 ### <a name="odata-enabled-entities"></a>Aðilar sem gera OData kleift
 
-Flestir DMF aðilar eru einnig gerðir virkir fyrir aðgang í gegnum Human Resources gagnaþjónustuna (OData). Fylgiskjöl sem veitt voru fyrir [Finance and Operations OData þjónustu](/dynamics365/unified-operations/dev-itpro/data-entities/odata) eiga við um Human Resources, nema að búa til þínar eigin einingar sem birtast í OData.
+Flestir DMF aðilar eru einnig gerðir virkir fyrir aðgang í gegnum Human Resources gagnaþjónustuna (OData). Skjölin sem veitt eru fyrir [Fjármál og rekstur OData þjónusta](/dynamics365/unified-operations/dev-itpro/data-entities/odata) á við um mannauð, nema að búa til þínar eigin OData-útsettar einingar.
 
 Meðan Dataverse og útfærslan á OData sem veitt er af Dataverse (í gegnum [Dynamics 365 Web API](/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))) er ákjósanlegra yfir gagnaþjónustuna Human Resources, upplýsingaþjónusta Human Resources hefur nú fullkomnari umfjöllun um einingar vegna gagna Human Resources.
 
@@ -129,7 +132,7 @@ Gagnasamþættingarverk henta fyrir Dataverse runusamþættingar. Þau eru fráb
 
 ### <a name="power-query"></a>Power Query
 
-Gagnasamþætting styður [Power Query](/power-query/power-query-what-is-power-query) í gegnum [eiginleikann Ítarleg fyrirspurn](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Power Query veitir öfluga, sveigjanlega gagnasíun og umbreytingu, þar með talið fjölbreytt M formúlutungumálið. Power Query verður líklega kunnugleg ef þú hefur þróað Power BI skýrslur.
+Data Integrator styður [Power Query](/power-query/power-query-what-is-power-query) í gegnum hennar [Ítarleg fyrirspurnareiginleiki](/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Power Query býður upp á öfluga, sveigjanlega gagnasíun og umbreytingu, þar á meðal hið ríka M formúlumál. Power Query mun líklega þekkjast ef þú hefur þróað Power BI skýrslur.
 
 ## <a name="deciding-on-an-integration-technology"></a>Ákveðið að samþættingu tækni
 

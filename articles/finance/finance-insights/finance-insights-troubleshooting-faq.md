@@ -2,7 +2,7 @@
 title: Úrræðaleit fyrir vandamál varðandi uppsetningu fjármálainnsýnar
 description: Í þessu efnisatriði eru talin upp vandamál sem geta komið upp þegar möguleikar fjármálainnsýnar eru notaðir. Þar er einnig útskýrt hvernig á að laga þessi vandamál.
 author: panolte
-ms.date: 11/03/2021
+ms.date: 01/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: c1bbdbec2bc0273a73ffc13a4cce024543af5a13
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
-ms.translationtype: MT
+ms.openlocfilehash: f77cddfdab22bef8af7f62d49723e330c4f13261
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968837"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8064867"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Úrræðaleit fyrir vandamál varðandi uppsetningu fjármálainnsýnar
 
@@ -54,7 +54,7 @@ Fylgdu eftirfarandi skrefum í [Power Platform stjórnendamiðstöð](https://ad
 1. Ef þú ert að nota forútgáfu fjármálainnsýnar skaltu fjarlægja DI-verkið sem er tengt við sniðmátið **Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops)**.
 2. Fylgdu skrefunum í [Stofna gagnasamþættingarverk](create-data-integrate-project.md). Notaðu sniðmátið **Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops 10.0.17 og síðar)**.
 
-## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Einkenni: Þegar ég reyni að opna AI Builder með því að nota tenglana á uppsetningarsíðunni fyrir greiðsluspá viðskiptavina, hvers vegna fæ ég eftirfarandi villuboð: "Því miður, það hefur verið sambandsleysi"?
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Einkenni: Þegar ég reyni að opna AI Builder af hverju fæ ég eftirfarandi villuboð með því að nota tenglana á uppsetningarsíðunni fyrir greiðsluspá viðskiptavinar: „Því miður, það hefur verið sambandsleysi“?
 
 ### <a name="resolution"></a>Upplausn
 
@@ -84,7 +84,7 @@ Ef réttu öryggishlutverki verkefnisins er úthlutað þér gætirðu þurft a�
 
 Eftirfarandi skref ætti að hafa verið lokið.
 
-- Staðfestu að þú hafir **Kerfisstjóri** og **Kerfisaðlögun** aðgang í Power Portal stjórnunarmiðstöðinni.
+- Staðfestu að þú hafir **Kerfisstjóri** og **Kerfisaðlögun** aðgangur í Power Portal stjórnunarmiðstöðinni.
 - Staðfestu að a Dynamics 365 Finance eða sambærilegt leyfi er beitt fyrir notandann sem er að setja upp viðbótina.
 - Staðfestu að eftirfarandi Azure AD app er skráð í Azure AD: 
 
@@ -92,3 +92,25 @@ Eftirfarandi skref ætti að hafa verið lokið.
   | ---------------------------- | ---------------- |
   | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
+## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>Einkenni: Villa, „Við fundum engin gögn fyrir valið síusvið. Vinsamlegast veldu annað síusvið og reyndu aftur." 
+
+### <a name="resolution"></a>Upplausn
+
+Athugaðu uppsetningu gagnasamþættingar til að sannreyna að hún virki eins og búist var við og bætir gögnum frá AI Builder aftur í Fjármál.  
+Fyrir frekari upplýsingar, sjá [Búðu til gagnasamþættingarverkefni](../finance-insights/create-data-integrate-project.md).
+
+## <a name="symptom-customer-payment-prediction-training-failed-and-the-ai-builder-error-states-prediction-should-have-only-2-distinct-outcome-values-to-train-the-model-map-to-two-outcomes-and-retrain-training-report-issue-isnotminrequireddistinctnonnullvalues"></a>Einkenni: Þjálfun viðskiptavina greiðsluspá mistókst og AI Builder villa segir, "Spá ætti að hafa aðeins 2 aðgreind útkomugildi til að þjálfa líkanið. Kortið að tveimur útkomum og endurmenntuð“, „Málfræði um þjálfunarskýrslu: IsNotMinRequiredDistinctNonNullValues“.
+
+### <a name="resolution"></a>Upplausn
+
+Þessi villa gefur til kynna að það séu ekki nægar sögulegar færslur á síðasta ári sem tákna hvern flokk sem lýst er í **Tímanlega**, **·**, og **Mjög seint** flokkum. Til að leysa þessa villu skaltu stilla **Mjög seint** viðskiptatímabil. Ef stillt er á **Mjög seint** viðskiptatímabil lagar ekki villuna, **Greiðsluspá viðskiptavina** er ekki besta lausnin til að nota þar sem það þarf gögn í hverjum flokki fyrir þjálfunartilgang.
+
+Fyrir frekari upplýsingar um hvernig á að stilla **Tímanlega**, **·**, og **Mjög seint** flokka, sjá [Virkjaðu greiðsluspár viðskiptavina](../finance-insights/enable-cust-paymnt-prediction.md).
+
+## <a name="symptom-model-training-failed"></a>Einkenni: Líkanþjálfun mistókst
+
+### <a name="resolution"></a>Upplausn
+
+The **Sjóðstreymisspá** líkanþjálfun krefst gagna sem spanna meira en eitt ár og innihalda meira en 100 færslur. Þessar færslur verða að hafa áhrif á lausafjárreikninga sem eru innifalin í uppsetningu sjóðstreymisspár.
+
+The **Greiðsluspá viðskiptavina** þarf að minnsta kosti 100 reikninga og greiðslufærslur viðskiptavina á síðustu sex til níu mánuðum til að búa til spár.  

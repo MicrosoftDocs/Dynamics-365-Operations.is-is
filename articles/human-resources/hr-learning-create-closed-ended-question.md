@@ -1,5 +1,5 @@
 ---
-title: Búa til afmarkaða spurningu
+title: Búa til lokaða spurningu
 description: Lokaðar spurningar gera kleift að gefa upp valkosti fyrir svarendur til að velja úr.
 author: twheeloc
 ms.date: 08/26/2021
@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8758b74f9ce7c8687b7c2925ccd04cd512602db0
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
-ms.translationtype: HT
+ms.openlocfilehash: b3b90bb2a4981f32feb10ee1192e9c4d2e604e7a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465174"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071739"
 ---
 # <a name="create-a-closed-ended-question"></a>Búa til afmarkaða spurningu
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -34,10 +37,10 @@ Lokaðar spurningar gera kleift að gefa upp valkosti fyrir svarendur til að ve
 2. Smellt er á **Nýtt**.
 3. Í reitinn **Svarsafn** skal slá inn gildi.
 4. Í reitinn **Lýsing** skal slá inn gildi.
-    * Nota aðgerðina Slembiraða eigi að raða af handahófi svörin í mismunandi röð í hvert sinn sem svarsafn er notuð við spurningu.  
+    * Nota **Slembiraðað** virkni til að staðsetja svörin af handahófi í mismunandi röð í hvert sinn sem svarhópurinn er notaður fyrir spurningu.  
 5. Smellt er á **Svar**.
 6. Smellt er á **Nýtt**.
-    * Raðnúmer stýrir röðinni sem svörin eru birt, nema Slembiröðun er valið fyrir svarsafnið.  
+    * Raðnúmer stjórnar í hvaða röð svörin birtast, nema **Slembiraðað** er valið fyrir **Svarhópur**.  
     * Stig má gefa fyrir svör til þess að nota fyrir stigagjöf spurningalista.  
 7. Í reitinn **Stig** skal slá inn númer.
     * Hægt er að merkja rétt svar til að tilgreina að valið svar er rétt. Hægt er að nota þetta til stigagjöf spurningalista .  
@@ -61,8 +64,8 @@ Lokaðar spurningar gera kleift að gefa upp valkosti fyrir svarendur til að ve
 ## <a name="create-the-question"></a>Stofna Spurning.
 1. Farðu í **Spurningalisti** > **Hönnun** > **Spurningar**.
 2. Smellt er á **Nýtt**.
-3. Gerðarsvæðið er notuð til að flokka saman spurningar sem eru tengdar.
-    * Hægt er að nota gátreit af gerðunum inntaks gerðir, aukahnappur eða samtvinnaður reitur fyrir lokaðar spurningar.  
+3. Nota **Tegund** reit til hóptengdra spurninga saman.
+    * Þú getur notað inntaksgerðir af **Gátreitur**, **·**, eða **Combo kassi** fyrir lokaðar spurningar.  
 4. Veljið valkost í svæðinu gerð **Innsláttar**.
 5. Færa inn eða veljið gildi í svæðinu **Svaraflokkur**.
 6. Í reitnum **Texti** skal slá inn gildi.

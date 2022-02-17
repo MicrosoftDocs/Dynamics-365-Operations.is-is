@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9ad7f116f979d571a5e34eee67beb7218a271522
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
+ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777622"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "8022975"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Samstarf lánardrottna með viðskiptavinum
 
@@ -78,7 +78,7 @@ Ef verið er að nota vörusendingabirgðir, geta þú notað viðmót fyrir sam
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Vinna með Beiðnir um tilboð á vinnusvæði fyrir Lánardrottnatilboð
 
-**Lánardrottnatilboð** vinnusvæðið gerir þér kleift að skoða beiðnir um tilboð sem fyrirtæki þínu hefur verið boðið að svara. Einnig er hægt að svara Beiðnum um tilboð. 
+**Lánardrottnatilboð** vinnusvæðið gerir þér kleift að skoða beiðnir um tilboð sem fyrirtæki þínu hefur verið boðið að svara. Einnig er hægt að svara Beiðnum um tilboð.
 
 Vinnusvæðið sýnir líka allar Beiðnir um tilboð sem þú hefur tapað eða unnið. Að auki, ef kerfið er grunnstillt fyrir hið opinbera, sýnir vinnusvæðið þær Beiðnir um tilboð sem eru opinber.
 
@@ -96,20 +96,28 @@ Opna vinnusvæðið **lánardrottnatilboð** til að fá aðgang að eftirfarand
 
 ### <a name="working-with-rfqs-that-are-publicly-available"></a>Vinna með opinberar tilboðsbeiðnir
 
-Fólk sem vinnur hjá hinu opinbera getur séð opnar og útrunnar Tilboðsbeiðnir sem hafa verið gerðar opinberar.
+Fólk sem starfar hjá hinu opinbera getur séð opnar og útrunnar beiðnir um tilboð sem hafa verið aðgengilegar almenningi.
 
 - Velja **Opnar opinberar tilboðsbeiðnir** hlekkur til að sjá lista yfir opnar beiðnir um tilboð sem eru opinberar. Opin tilboðsbeiðni er óútrunnin tilboðsbeiðni. Á haus tilboðsbeiðninnar er að finna dag- og tímasetningu gildisloka.
 
-    Ef þér hefur verið boðið að gera kauptilboð, geturðu fundið sömu tilboðsbeiðnina á **Boð um að gera nýtt kauptilboð** síðunni. Stundum gætirðu viljað gera kauptilboð í opna tilboðsbeiðni, en ekki hefur verið boðið að gera kauptilboð. Í slíku tilfelli er hugsanlegt að þú getir boðið sjálfum þér, að því gefnu að viðskiptamaður hafi virkjað sjálfsboð fyrir tilboðsbeiðnitilfellið.
+    Ef þér hefur verið boðið að gera kauptilboð, geturðu fundið sömu tilboðsbeiðnina á **Boð um að gera nýtt kauptilboð** síðunni. Stundum gætirðu viljað gera kauptilboð í opna tilboðsbeiðni, en ekki hefur verið boðið að gera kauptilboð. Í slíku tilfelli er hugsanlegt að þú getir boðið sjálfum þér, að því gefnu að viðskiptamaður hafi virkjað sjálfsboð fyrir tilboðsbeiðnitilfellið. 
 
-    Aukið aðgengi **Opna útgefnar tilboðsbeiðnir** tengilsins með því að kveikja á eiginleikanum **Sýna tengilinn „Opna birtar tilboðsbeiðnir“ sem reit**. Þessi eiginleiki breytir tengli í reit og flytur hann á áberandi stað, þannig að auðvelt sé að finna hann. (Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika.)
+    The **Ný tilboðsboð** síða getur veitt síu sem gerir þér kleift að skoða opnar beiðnir um tilboð og auðkenna þær sem innihalda línur sem passa við samþykkta innkaupaflokka þína. Til að gera þessa síu aðgengilega verður þú að kveikja á *Leyfðu söluaðilum að leita að tilboðum eftir innkaupaflokki* eiginleiki í kerfinu þínu. Stjórnendur geta notað **Eiginleikastjórnun** vinnusvæði til að athuga stöðu þessa eiginleika og kveikja á honum ef þess er krafist. Þar er eiginleikinn skráður á eftirfarandi hátt:
+
+    - **Eining:** *Viðskiptaskuldir*
+    - **Eiginleikaheiti:** *Leyfðu söluaðilum að leita að tilboðum eftir innkaupaflokki* <!-- KFM: I don't see this here, is this right? -->
+
+    Þú getur aukið aðgengi að **Opna birtar beiðnir um tilboð** tengilinn með því að kveikja á *Birta hlekkinn „Opna birtar beiðnir um tilboð“ sem flís* eiginleiki. Þessi eiginleiki breytir hlekknum í flís og færir hann á áberandi stað svo auðvelt sé að finna hann. Stjórnendur geta notað **Eiginleikastjórnun** vinnusvæði til að athuga stöðu þessa eiginleika og kveikja á honum ef þess er krafist. (Frá og með Supply Chain Management útgáfu 10.0.21 er kveikt á eiginleikanum sjálfgefið.) Þar er eiginleikinn skráður á eftirfarandi hátt:
+
+    - **Eining:** *Innkaup og uppruni*
+    - **Eiginleikaheiti:** *Birta "Opna birtar beiðnir um tilboð" hlekkinn sem flís*
 
 - Velja **Lokaðar opinberar tilboðsbeiðnir** hlekkur til að sjá lista yfir lokaðar beiðnir um tilboð sem eru opinberar. Lokuð tilboðsbeiðni er útrunnin tilboðsbeiðni. Á haus tilboðsbeiðninnar er að finna dag- og tímasetningu gildisloka.
 
     Lokuð tilboðsbeiðni sýnir öll kauptilboð lánardrottna niður á línustig. Upplýsingar í lokuðum tilboðsbeiðnum endurspegla það þegar kauptilboðum er úthlutað eða þeim hafnað. Öll viðhengi sem eru höfð með í kauptilboðinu eru líka tiltæk.
 
 > [!NOTE]
-> Þessi virkni er aðeins í boði ef kveikt er á grunnstillingu fyrir hið opinbera.
+> Þessi virkni er aðeins tiltæk ef kveikt er á uppsetningu hins opinbera.
 
 ### <a name="bidding"></a>Tilboð
 

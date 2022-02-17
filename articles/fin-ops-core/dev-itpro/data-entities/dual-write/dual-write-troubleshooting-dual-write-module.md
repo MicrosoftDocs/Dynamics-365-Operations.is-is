@@ -1,6 +1,6 @@
 ---
-title: Úrræðaleit vegna vandamála tvöfaldrar skráningar í Finance and Operations forritum
-description: Þetta efni veitir bilanaleit sem getur hjálpað þér að laga vandamál með tvískrifunareiningunni í forritum Finance and Operations.
+title: Úrræðaleit fyrir vandamál vegna tvöfaldrar skráningar í fjármála- og rekstrarforritum
+description: Þetta efni veitir upplýsingar um úrræðaleit sem geta hjálpað þér að laga vandamál með tvískrifaeininguna í Finance and Operations forritum.
 author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
@@ -9,25 +9,25 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 3caf3f18718fd6bee20232a0200d421b9c9ef22c
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: db49c6a4555f39800362a5b248f9757b07ee5481
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781199"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061809"
 ---
-# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Úrræðaleit vegna vandamála tvöfaldrar skráningar í Finance and Operations forritum
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Úrræðaleit fyrir vandamál vegna tvöfaldrar skráningar í fjármála- og rekstrarforritum
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Þetta efni veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál með **tvískrifunareiningunni** í forritum Finance and Operations.
+
+Þetta efnisatriði veitir upplýsingar um bilanaleit fyrir tvískrifað samþættingu milli Finance and Operations forrita og Dataverse. Nánar tiltekið veitir það upplýsingar sem geta hjálpað þér að laga vandamál með **Tvöfalt skrifa** mát í Finance and Operations öppum.
 
 > [!IMPORTANT]
 > Nokkur þeirra atriða sem þetta efni fjallar um geta krafist annað hvort kerfisstjórans eða Microsoft Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Ekki er hægt að hlaða einingu tvískiptrar skriftar í Finance and Operations-forritinu
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Þú getur ekki hlaðið tvískrifareindinni í Finance and Operations app
 
 Ef þú getur ekki opnað síðuna **Tvöfalt skrif** með því að velja reitinn **Tvöfalt skrif** á vinnusvæðinu **Gagnastjórnun** liggur gagnasamstillingarónustan líklega niðri. Búðu til stuðningseðil til að biðja um endurræsingu gagnasamstillingarþjónustunnar.
 
@@ -49,7 +49,7 @@ Til að laga málið, skráðu þig inn með því að nota InPrivate glugga í 
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>Villa þegar tengt er við umhverfi fyrir tvöfalda skráningu eða nýrri töfluvörpun er bætt við
 
-**Nauðsynlegt hlutverk til að laga vandann:** Kerfisstjóri í bæði Finance and Operations-forritum og Dataverse.
+**Áskilið hlutverk til að laga málið:** Kerfisstjóri í bæði Finance og Operations öppum og Dataverse.
 
 Þú gætir lent í eftirfarandi villu þegar þú tengir eða býrð til kort:
 
@@ -59,13 +59,13 @@ Session ID: \<your session id\>
 Root activity ID: \<your root activity\> id
 ```
 
-Þessi villa getur komið fram ef þú hefur ekki nægar heimildir til að tengja tvöfalt skrif eða búa til kort. Þessi villa getur einnig komið upp ef Dataverse-umhverfið var endurstillt án þess að aftengja tvískipt skrif. Sérhver notandi með hlutverk kerfisstjóra í bæði Finance and Operations-forritum og Dataverse getur tengt umhverfin. Eingöngu notandinn sem setti upp tengingu tvöfaldrar skráningar getur bætt við nýjum töfluvörpunum. Eftir uppsetningu getur allir notendur með hlutverk kerfisstjóra fylgst með stöðunni og breytt vörpununum.
+Þessi villa getur komið fram ef þú hefur ekki nægar heimildir til að tengja tvöfalt skrif eða búa til kort. Þessi villa getur einnig komið upp ef Dataverse-umhverfið var endurstillt án þess að aftengja tvískipt skrif. Allir notendur með hlutverk kerfisstjóra í bæði Finance og Operations forritum og Dataverse getur tengt umhverfið. Eingöngu notandinn sem setti upp tengingu tvöfaldrar skráningar getur bætt við nýjum töfluvörpunum. Eftir uppsetningu getur allir notendur með hlutverk kerfisstjóra fylgst með stöðunni og breytt vörpununum.
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>Villa þegar töfluvörpun er stöðvuð
 
 Þú gætir fengið eftirfarandi villuboð þegar þú reynir að stöðva töfluvörpunina:
 
-*\[ Forbidden\], \[{"staða":403,"uppruni":"","skilaboð":"Villa úr táknskiptum: Notanda er ekki heimild að fara í tengingu dynamicscrmonline/xxxxxx-xxxx-xxxx-xxxxxxxx"}\], The remote server returned an error: (403) Forbidden.*
+*\[Forbidden\], \[{"staða":403,"uppruni":"","skilaboð":"Villa úr táknskiptum: Notanda er ekki heimild að fara í tengingu dynamicscrmonline/xxxxxx-xxxx-xxxx-xxxxxxxx"}\], The remote server returned an error: (403) Forbidden.*
 
 Þessi villa kemur upp þegar tengt umhverfi Dataverse er ekki í boði.
 
@@ -82,7 +82,7 @@ Til að laga málið, stofnaðu miða fyrir Data Integration teymið. Festu nets
 Þegar þú reynir að stilla stöðu vörpunar á **Í gangi** gætir þú fengið þessa villu. Lagfæringin fer eftir orsök villunnar:
 
 + Ef vörpunin er með háðar varpanir skaltu ganga úr skugga um að virkja háðar varpanir fyrir þessa töfluvörpun.
-+ Hugsanlega vantar í vörpunina dálka upprunastaðar eða viðtökustaðar. Ef það vantar dálk í Finance and Operations-forritið skaltu fylgja eftirfarandi skrefum í hlutanum [Vandamál vegna töfludálka sem vantar í varpanir](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Ef dálk vantar í Dataverse skal smella á hnappinn **Uppfæra töflur** í vörpununum svo dálkarnir fyllist sjálfkrafa út í vörpuninni.
++ Hugsanlega vantar í vörpunina dálka upprunastaðar eða viðtökustaðar. Ef dálk í Finance and Operations appinu vantar skaltu fylgja skrefunum í hlutanum [Vantar töfludálka vandamál á kortum](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Ef dálk vantar í Dataverse skal smella á hnappinn **Uppfæra töflur** í vörpununum svo dálkarnir fyllist sjálfkrafa út í vörpuninni.
 
 ### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Villa vegna misræmis í útgáfu og lausnir tvöfaldrar skráningar uppfærðar
 

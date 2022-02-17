@@ -2,7 +2,7 @@
 title: Vinnusvæði fríðindastjórnunar
 description: Þetta efnisatriði lýsir Fríðindastjórnun vinnusvæðinu í Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 09/21/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6cc1432e108c74706dea124a62024272e65b6c1
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
-ms.translationtype: HT
+ms.openlocfilehash: 424f4a2098e05b4f7dc6fa84df133dda81cc59f0
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512475"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071728"
 ---
 # <a name="benefits-management-workspace"></a>Vinnusvæði fríðindastjórnunar
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [applies to](../includes/applies-to-hr.md)]
 
@@ -94,7 +97,7 @@ Til að skoða annað fríðindatímabil skal velja það úr fellilistanum **T�
 Hægt er að skoða aðgerðaatriðin með því að velja reit eða flipa. Ef flipi er valinn er hægt að skoða og velja starfsmenn á síðu vinnusvæðisins.
 Í flipanum **Opin skráning** eru lykilmælikvarðar fyrir opna skráningarferlið. 
 
-Upplýsingar um opna skráningu birtast 30 dögum fyrir **Upphafsdag skráningar**. Þetta er skilgreint í uppsetningu **Tímabila** í **Fríðindastjórnun** > **Tenglar** > **Tímabil** í reitnum **Upphafsdagur skráningar**.  Til að breyta þessari stillingu skal fara í **Samnýttar færibreytur fyrir mannauð** > **Fríðindastjórnun** > **Valkostir opinnar skráningar** og uppfæra reitinn **Fjöldi af**.  
+Upplýsingar um opna skráningu birtast 30 dögum fyrir **Upphafsdag skráningar**. Þetta er skilgreint í uppsetningu **Tímabila** í **Fríðindastjórnun** > **Tenglar** > **Tímabil** í reitnum **Upphafsdagur skráningar**.  Til að breyta þessari stillingu skaltu fara á **Mannauður sameiginlegar breytur** > **Stjórnun fríðinda** > **Opna skráningarmöguleika** og uppfærðu **Fjöldi** sviði.  
 
 Eftirfarandi upplýsingar eru tiltækar í flipanum **Opin skráning**:
  - Starfsmenn sem hafa ekki hafið opna skráningarferlið
@@ -109,11 +112,11 @@ Eftirfarandi upplýsingar eru tiltækar í flipanum **Opin skráning**:
   > [!NOTE]
   > Ef þú vilt ekki fylgjast með framgangi opinnar skráningar fyrir **Áætlunargerð** getur þú útilokað hana með því að fara í **Fríðindastjórnun** > **Tenglar** > **Færibreytur sjálfsafgreiðslu starfsmanns** > **Uppsetning reita fyrir fríðindaáætlanir** og uppfæra reitinn **Rekja framgang opinnar skráningar**.  Þú gætir til dæmis hafa búið til áætlanir þar sem er **Áætlunargerð** = **Önnur**. Þessar áætlanir gætu verið valfrjálsar áætlanir sem þú vilt ekki fylgjast með framgangi skráningar. Ef þú velur ekki þessa áætlunargerð verða áætlanir af þessari gerð hunsaðar þegar rakin er framvinda eða lok skráningar í flipanum **Opin skráning**. Þessi stilling á við um áætlunargerðina sem er valin fyrir öll tímabil og lögaðila.
 
-- **Í vinnslu** – Reiturinn **Í vinnslu** gefur upp fjölda starfsmanna sem eru með val í vinnslu. Reiturinn **Í vinnslu** er síaður listi sem sýnir aðeins starfsmenn sem eru með a.m.k. eina niðurfellda eða valda áætlun. Áskildar áætlanir eru hunsaðar og ekki hafðar með vegna þess að þær eru sjálfgefið valdar fyrir starfsmanninn. Þú getur rakið þig til baka úr þessum reit til að sjá valdar og niðurfelldar áætlanir á síðunni **Magnuppfærsla fríðindaáætlana starfskrafts**.
+- **Í vinnslu** – Reiturinn **Í vinnslu** gefur upp fjölda starfsmanna sem eru með val í vinnslu. Reiturinn **Í vinnslu** er síaður listi sem sýnir aðeins starfsmenn sem eru með a.m.k. eina niðurfellda eða valda áætlun. Áskildar áætlanir eru hunsaðar og ekki hafðar með vegna þess að þær eru sjálfgefið valdar fyrir starfsmanninn. Þú getur borað til baka frá þessari flís til að sjá valdar og fallnar áætlanir á **Heildaruppfærsla á bótaáætlunum starfsmanna** síðu.
 
 - **Skráður í fríðindi** – Reiturinn **Skráður í fríðindi** gefur upp fjölda starfsmanna sem eru að fullu skráðir í fríðindi. Reiturinn **Skráður í fríðindi** er síaður listi sem sýnir starfsmenn sem hafa annaðhvort valið eða fellt niður allar áætlanir. Fyrirspurnin mun útiloka áætlanir þar sem opin skráning er ekki rakin á síðunni **Færibreytur sjálfsafgreiðslu starfsmanns**. Þú getur rakið þig til baka úr þessum reit til að sjá lista yfir starfsmenn á síðunni **Fríðindaáætlanir starfskrafts**.
 
-- **Óstaðfest val** – Reiturinn **Óstaðfest val** sýnir fjölda starfsmanna sem eru með áætlanir sem eru valdar eða niðurfelldar og þurfa staðfestingu. Þú getur rakið þig til baka úr þessum reit til að sýna síðuna **Magnuppfærsla fríðindaáætlana starfskrafts**.
+- **Óstaðfest val** – Reiturinn **Óstaðfest val** sýnir fjölda starfsmanna sem eru með áætlanir sem eru valdar eða niðurfelldar og þurfa staðfestingu. Þú getur borað til baka frá þessum flís til að sýna **Heildaruppfærsla á bótaáætlunum starfsmanna** síðu.
 
 **Aðgerð**
 

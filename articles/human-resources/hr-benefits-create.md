@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 0d180ecd9b2f199e8bd85fb5e1e88ce550458bc0
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 222bac97d461cd0a090c3e5d99594c07724818ff
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771460"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066977"
 ---
 # <a name="create-a-new-benefit"></a>Stofna ný fríðindi
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -31,7 +34,7 @@ ms.locfileid: "7771460"
 
 1. Fara til **Mannauður \> Kostir \> Uppsetning \> Ávinningsþættir**.
 2. Veljið **Nýtt**.
-3. Í **Gerð** reit, sláðu inn nafn tegundar ávinnings sem þú ert að búa til.
+3. Í **Tegund** reit, sláðu inn nafn tegundar ávinnings sem þú ert að búa til.
 4. Sláið inn gildi í reitnum **Lýsing**.
 5. Í **Samhliða innritun** reit, veldu valkost.
 
@@ -41,7 +44,7 @@ ms.locfileid: "7771460"
 7. Á **Áætlanir** flipa, veldu **Nýtt**.
 8. Í reitinn **Fyrirkomulag** skal slá inn gildi.
 9. Sláið inn gildi í reitnum **Lýsing**.
-10. Í **Gerð** reit, sláðu inn eða veldu gildi.
+10. Í **Tegund** reit, sláðu inn eða veldu gildi.
 11. Í **Launaáhrif** reit, veldu valkost.
 12. Veldu **Vista**.
 

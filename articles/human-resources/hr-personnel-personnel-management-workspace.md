@@ -16,14 +16,17 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4332be972ab3dc81e7e4f3cc297a91cd247e721e
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 7a83dea308e3e2eec1edebd5d619f9455e1a2268
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771339"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066576"
 ---
 # <a name="personnel-management-workspace"></a>Vinnusvæði Starfsmannastjórnunar
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -65,7 +68,7 @@ Hlutinn **Umsækjendur til að ráða** á vinnusvæði er fylltur út frá mör
 Ef stjórnandinn kemur ekki fram á spjaldinu hefur ekki verið úthlutað stöðu fyrir starfsmanninn.
 
 > [!NOTE] 
-> Við mælum með því að þú úthlutar starfsmanni stöðu áður en þú notar gátlista. Stundum er inngönguverkefnum úthlutað til yfirmanns nýráðins starfsmanns. Ef engu starfi er úthlutað er hins vegar ekki hægt að ákvarða yfirmann nýja starfsmannsins. Í því tilfelli verða ráðningarverk sem yfirmenn eiga að sjá um úthlutað á eiganda gátlistans í staðinn.
+> Við mælum með því að þú úthlutar starfsmanni stöðu áður en þú notar gátlista. Stundum er umboðsverkefnum úthlutað til yfirmanns nýráðins starfsmanns. Ef engu starfi er úthlutað er hins vegar ekki hægt að ákvarða yfirmann nýja starfsmannsins. Í því tilfelli verða ráðningarverk sem yfirmenn eiga að sjá um úthlutað á eiganda gátlistans í staðinn.
 
 Þegar starfskraftar birtast í hlutanum **Byrja bráðlega** eru eftirfarandi aðgerðir í boði fyrir þá:
 
@@ -85,7 +88,7 @@ Ef stjórnandinn kemur ekki fram á spjaldinu hefur ekki verið úthlutað stö�
 Listinn sýnir sjálfgefið starfsmenn sem voru ráðnir á síðustu sjö dögum. Til að breyta þessari stillingu, á síðunni **Færibreytur Human Resources**, í flipanum **Almennt**, skal skilgreina tímaramma fyrir **Nýlegar ráðningar**. Gögnin í hlutanum **Nýlegar ráðningar** er hægt að sýna fyrir tiltekinn fjölda daga, mánaða eða ára. Til að skoða til dæmis lista yfir starfskrafta sem voru ráðnir á síðustu 14 dögum skal stilla reitinn **Tímabil** á **14** og reitinn **Eining** á **Dagar**.
 
 > [!NOTE]
-> Stillingarnar á síðunni **Færibreytur Human Resources** eru sértækar fyrirtækinu. Þess vegna getur tímaramminn sem þú skoðar fyrir nýlegar ráðningar verið mismunandi eftir fyrirtækjum. Í USMF-fyrirtækinu er til dæmis hægt að skoða allar nýjar ráðningar frá síðustu sjö dögum. Hins vegar, í USSI fyrirtækinu, gætirðu viljað skoða allar nýráðningar síðustu 14 daga. Í þessu tilviki skaltu opna **Mannauðsbreytur** síðu í hverju fyrirtæki og stilltu færibreyturnar eftir þörfum.
+> Stillingarnar á síðunni **Færibreytur Human Resources** eru sértækar fyrirtækinu. Þess vegna getur tímaramminn sem þú skoðar fyrir nýlegar ráðningar verið mismunandi eftir fyrirtækjum. Í USMF-fyrirtækinu er til dæmis hægt að skoða allar nýjar ráðningar frá síðustu sjö dögum. Hins vegar, í USSI fyrirtækinu, gætirðu viljað skoða allar nýráðningar síðustu 14 daga. Í þessu tilviki skaltu opna **Stærðir mannauðs** síðu í hverju fyrirtæki og stilltu færibreyturnar eftir þörfum.
 
 Ef stjórnandinn kemur ekki fram á spjaldinu hefur ekki verið úthlutað stöðu fyrir starfsmanninn.
 

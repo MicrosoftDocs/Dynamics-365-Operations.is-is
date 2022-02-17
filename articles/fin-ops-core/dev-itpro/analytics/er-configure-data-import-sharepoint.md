@@ -2,7 +2,7 @@
 title: Skilgreina gagnainnflutning úr SharePoint
 description: Þetta efnisatriði útskýrir hvernig á að flytja inn gögn frá Microsoft SharePoint.
 author: NickSelin
-ms.date: 11/19/2020
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6cd717c0c599d68574a5a064761c8d6777418515
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675346"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074767"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Skilgreina gagnainnflutning úr SharePoint
 
@@ -140,7 +140,7 @@ Til að geyma skrár rafrænnar skýrslu á SharePoint-staðsetningu verður að
 
 4. Vörpun líkans getur keyrt [eftirlitslaus](#limitations) í runustillingu. Í þessu tilfelli, í hvert skipti sem runa keyrir þetta ER snið, er ein skrá flutt inn frá grunnstilltur skráaruppruni.
 
-    Þegar skrá er flutt inn frá SharePoint-möppunni á fullnægjandi máta, er henni eytt úr þeirri möppu og færð í möppu fyrir skrár sem tókst að flytja inn eða í möppuna fyrir innfluttar skrár með viðvörun. Annars er hún færð í möppu fyrir mislukkaðar skrár eða er geymd í þessari möppu ef ekki er búið að setja upp möppuna fyrir mislukkaðar skrár. 
+    Þegar skrá er flutt inn frá SharePoint-möppunni á fullnægjandi máta, er henni eytt úr þeirri möppu og færð í möppu fyrir skrár sem tókst að flytja inn eða í möppuna fyrir innfluttar skrár með viðvörun. Annars er hún færð í möppu fyrir misheppnaðar skrár eða helst í þessari möppu ef mappan fyrir misheppnaðar skrár er ekki sett upp. 
 
 5. Sláðu inn kenni fylgiskjals, eins og **V-00001**, og veldu síðan **Í lagi**.
 
@@ -192,11 +192,11 @@ Til að geyma skrár rafrænnar skýrslu á SharePoint-staðsetningu verður að
 
 ## <a name=""></a><a name="limitations">Takmarkanir</a>
 
-Rammi rafrænnar skýrslugerðar býður ekki upp á getuna til að hefja nýja runuvinnslu sem framkvæmir líkanavörpun í fjarverustillingu fyrir gagnainnflutning. Til að gera þetta verður þú að þróa ný rök þannig að hægt sé að kalla á skilgreinda líkansvörpun rafrænnar skýslugerðar frá notendaviðmóti forritsins til að flytja inn gögn af skrám á innleið. Þess vegna er einhver hönnunarvinna nauðsynleg. 
+Í útgáfum af Dynamics 365 Finance fyrir útgáfu 10.0.25 býður notendaviðmót (UI) ER ramma ekki upp á möguleika á að hefja nýtt runuverk sem mun keyra líkanakortlagningu fyrir gagnainnflutning í eftirlitslausri stillingu. Þess í stað verður þú að þróa nýja rökfræði þannig að hægt sé að kalla á stillta ER líkanavörpun úr notendaviðmóti forritsins til að flytja inn gögn úr skrám á heimleið. Til að þróa þessa rökfræði þarf nokkur verkfræðivinna. 
 
-Frekari upplýsingar um API rafrænnar skýrslugerðar er að finna í hlutanum [Kóði til að keyra vörpun sniðs við gagnainnflutning](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) í efnisatriðinu [Breytingar á API fyrir ramma rafrænnar skýrslugerðar fyrir uppfærslu forrits 7.3](er-apis-app73.md).
+Fyrir frekari upplýsingar um viðkomandi ER API, sjá [Kóði til að keyra sniðkortlagningu fyrir gagnainnflutning](er-apis-app73.md#code-to-run-a-format-mapping-for-data-import) kafla í [ER framework API breytingar fyrir umsóknaruppfærslu 7.3](er-apis-app73.md). Farið yfir kóðann í `BankImport_RU` -klasanum fyrir `Application Suite` -líkan til að sjá hvernig hægt er að innleiða sérsniðnu rökin. The`BankImport_RU` bekk framlengir`RunBaseBatch` bekk. Skoðaðu sérstaklega`runER()` aðferð, þar sem`ERIModelMappingDestinationRun` hlutur er búinn til sem hlaupari ER líkanakortlagningar.
 
-Farið yfir kóðann í `BankImport_RU` -klasanum fyrir `Application Suite` -líkan til að sjá hvernig hægt er að innleiða sérsniðnu rökin. Þessi klasi víkkar `RunBaseBatch`-klasann. Skoðið sérstaklega `runER()` aðferðina þar sem `ERIModelMappingDestinationRun`-hluturinn er búinn til sem keyrsla á líkansvörpun rafrænnar skýrslugerðar.
+Í Finance útgáfu 10.0.25 og síðar býður ER rammaviðmótið upp á möguleika á að hefja nýtt runuverk sem mun keyra líkanakortlagningu fyrir gagnainnflutning í eftirlitslausum ham. Fyrir frekari upplýsingar um þetta ferli, sjá [Flytja inn gögn í lotuham úr handvirkt völdum skrám](er-configure-data-import-batch.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -205,6 +205,8 @@ Farið yfir kóðann í `BankImport_RU` -klasanum fyrir `Application Suite` -lí
 [Breytingar á API fyrir ramma rafrænnar skýrslugerðar fyrir uppfærslu forrits 7.3](er-apis-app73.md)
 
 [Breytingar á API fyrir ramma rafrænnar skýrslugerðar fyrir uppfærslu forrits 10.0.23](er-apis-app10-0-23.md)
+
+[Breytingar á API fyrir ramma rafrænnar skýrslugerðar fyrir uppfærslu forrits 10.0.25](er-apis-app10-0-25.md)
 
 
 

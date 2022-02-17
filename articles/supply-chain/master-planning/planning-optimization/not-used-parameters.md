@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 55b174b426b02e59f75d58e9a6cf32991089ca22
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
+ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7728956"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087500"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Færibreytur ekki notaðar af fínstillingu skipulagningar
 
@@ -160,6 +160,10 @@ Fínstilling skipulagningar notar ekki eftirfarandi færibreytur eða valkosti �
   - **Bæta við reiknaðri seinkun á dagsetningu þarfa** (í hlutanum **Áætlaðar framleiðslupantanir**) – Bíður stuðnings frá *Reiknaðar seinkanir*.
   - **Bæta við reiknaðri seinkun á dagsetningu þarfa** (í hlutanum **Áætlaður flutningur**) – Bíður stuðnings frá *Reiknaðar seinkanir*.
   - **Bæta við reiknaðri seinkun á dagsetningu þarfa** (í hlutanum **Áætlað kanban**) – Bíður stuðnings frá *Reiknaðar seinkanir*.
+
+- **Aðgerðarboð** flýtiflipi:
+
+  - **Uppfærðu frestað dagsetningu sem kröfudagsetningu** - Þessi færibreyta er hætt með áætlanagerð fínstillingu.
 
 - Flýtiflipinn **Röðun**:
 

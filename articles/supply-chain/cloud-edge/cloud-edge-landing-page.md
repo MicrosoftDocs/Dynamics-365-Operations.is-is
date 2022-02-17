@@ -4,18 +4,19 @@ description: Þetta efnisatriði veitir upplýsingar um einingarkvarðar fyrir s
 author: cabeln
 ms.date: 04/22/2021
 ms.topic: article
+ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3111de1f9862cbf926e763f963c86059f4121fc0
-ms.sourcegitcommit: 4b7e9d074e368a08d2f75482b722dce0c69a4bbd
-ms.translationtype: MT
+ms.openlocfilehash: 593331a3f1073edb6a50c9bfc66e0723d222832a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7733440"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065765"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Einingarkvarðar í dreifðri blandaðri grannfræði
 
@@ -51,8 +52,7 @@ Hægt er að stilla umhverfi miðstöðvar og einingarkvarða skýs fyrir valið
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Úthlutaðir möguleikar vinnuálags í vöruhúsakerfi í einingarkvarða
 
-Vinnuálag vöruhúsastjórnunar gerir þér kleift að keyra vöruhúsastjórnunarferli á einangruðu uppsetningu.
-Frekari upplýsingar eru í [Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra](cloud-edge-workload-warehousing.md).
+Vöruhússtjórnunarvinnuálagið er fyrsta dreifða vinnuálagið fyrir kvarðaeiningar sem er gefið út fyrir almennt framboð. Það gerir vöruhúsum þínum kleift að stækka og keyra í sveigjanlegu umhverfi með því að nota einangraða viðhaldsglugga. Vinnuálag vöruhúsastjórnunar styður flest vöruhúsastjórnunarferli fyrirtækjamiðstöðvar. Frekari upplýsingar eru í [Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra](cloud-edge-workload-warehousing.md).
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Úthlutað vinnuálag fyrir framkvæmd framleiðslu í einingarkvarða
 
@@ -69,7 +69,7 @@ Frekari upplýsingar eru í [Vinnuálag framleiðslukeyrslu fyrir einingakvarða
 
 Með því að virkja dreifða, blandaða grannfræði er skýjaumhverfi Supply Chain Management breytt þannig að það virki eins og miðstöð. Einnig er hægt að tengja frekari umhverfi við sem eru skilgreind sem einingarkvarðar í skýinu eða jaðrinum.
 
-### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a> Skilyrði og takmarkanir fyrir einingarkvarða
+### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a>Skilyrði og takmarkanir fyrir einingarkvarða
 
 Í núgildandi útgáfu fyrir einingarkvarða eru sumir möguleikar ekki enn tiltækir, en þeim gæti verið bætt við í væntanlegum útgáfum.
 
@@ -114,7 +114,7 @@ Stjórnunarmöguleikar sem geta hjálpað til við flutning vinnuálags eru takm
 
 Mælikvarðar og mælingar sem geta hugsanlega hjálpað til við að velja forritið fyrir einingarkvarðana eru ekki enn í boði. Starfið með tengilið ykkar hjá Microsoft eða samstarfsaðila innleiðingar til að velja gagnlegasta forritið.
 
-### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a> Gagnavinnsla við stjórnun einingarkvarða
+### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Gagnavinnsla við stjórnun einingarkvarða
 
 Þegar umhverfi Dynamics 365 er virkjað til að styðja dreifða blandaða grannfræði fyrir einingarkvarða skýs og jaðra munu sumar stýringarþjónustur eingöngu verða hýstar í Bandaríkjunum rétt eins og fyrir LCS. Þessi hegðun hefur áhrif á flutning og geymslu einhverra stjórnunar- og grunnstillingarupplýsinga sem [Stjórnandagátt einingarkvarða](https://sum.dynamics.com) notar. Hér eru nokkur dæmi:
 
@@ -200,13 +200,13 @@ Til að bæta við einum eða fleiri einingarkvörðum sem eru í boði í áskr
 
 | Vinna | Lýsing |
 |---|---|
-| Gera hlé á samskiptum mælieininga | Gera hlé á leiðsluskilaboðum milli miðstöðvarinnar og mælieininga. Þetta ferli mun stöðva samskiptin og tæma gagnaleiðsluna milli miðstöðvarinnar og mælieininga. Þú verður að keyra þetta ferli áður en þú keyrir Supply Chain Management þjónustuaðgerð á annað hvort miðstöðina eða mælikvarðaeininguna, en þú getur líka notað þetta við aðrar aðstæður. |
+| Gera hlé á samskiptum mælieininga | Gerðu hlé á leiðsluskilaboðum á milli miðstöðvarinnar og mælieininga. Þetta ferli mun stöðva samskiptin og tæma gagnaleiðsluna milli miðstöðvarinnar og mælieininga. Þú verður að keyra þetta ferli áður en þú keyrir Supply Chain Management þjónustuaðgerð á annað hvort miðstöðina eða mælikvarðaeininguna, en þú getur líka notað þetta við aðrar aðstæður. |
 | Haltu áfram samskiptum við mælieiningu | Halda áfram leiðsluskilaboðum milli miðstöðvarinnar og mælieininga. Þú gætir þurft að nota þetta ferli, til dæmis, eftir að þú hefur keyrt Supply Chain Management þjónustuaðgerð á annað hvort miðstöðina eða mælikvarðaeininguna. |
 | Uppfærðu vinnuálag | Samstilltu nýja virkni á milli vinnuálags miðstöðvarinnar og mælieiningar. Þú gætir þurft að nota þetta ferli, til dæmis þegar þjónusta hefur valdið breytingum á gagnaskiptafyrirspurnum og/eða hefur bætt nýjum töflum eða reitum við vinnuálagið. |
 | Flytja vinnuálag yfir á kvarðaeiningu | Tímasettu vinnuálag sem er í gangi á miðstöðinni til að flytja það yfir í mælieiningu. Þegar þetta ferli er keyrt mun samstilling gagna streyma og bæði miðstöðin og kvarðaeiningin verða stillt til að breyta eignarhaldi vinnuálagsins. |
-| Flyttu kvarðaeiningu yfir á miðstöðina | Tímasettu vinnuálag sem nú er í gangi á mælikvarðaeiningu til að flytja í miðstöðina. Þegar þetta ferli er keyrt mun samstilling gagna streyma og bæði miðstöðin og kvarðaeiningin verða stillt til að breyta eignarhaldi vinnuálagsins.
+| Flyttu kvarðaeiningu yfir á miðstöðina | Tímasettu vinnuálag sem er í gangi á mælikvarðaeiningu til að flytja í miðstöðina. Þegar þetta ferli er keyrt mun samstilling gagna streyma og bæði miðstöðin og kvarðaeiningin verða stillt til að breyta eignarhaldi vinnuálagsins.
 | Neyðarskipti yfir í miðstöð | <p>Flyttu núverandi vinnuálag strax yfir á miðstöðina. *Þetta ferli mun aðeins breyta eignarhaldi þeirra gagna sem eru tiltæk á miðstöðinni.*</p><p><strong>Viðvörun:</strong> Þetta ferli getur valdið gagnatapi vegna ósamstilltra gagna og bilunar í viðskiptavinnslu. Þess vegna ætti það aðeins að nota í neyðartilvikum, þar sem vinna þarf úr viðskiptaferlum á miðstöðinni vegna þess að mælieiningin hefur bilun sem ekki er hægt að draga úr innan hæfilegs tíma.</p> |
-| Dreifð svæðisfræði úr notkun | Fjarlægðu dreifingu mælieiningar og keyrðu aðeins á miðstöðinni, án vinnuálagsvinnslu. |
+| Dreifð svæðisfræði úr notkun | Fjarlægðu dreifingu mælieininga og keyrðu aðeins á miðstöðinni, án vinnuálagsvinnslu. |
 
 :::image type="content" source="media/sum-manage-workloads.png" alt-text="Stjórnun einingarkvarða og vinnuálags.":::
 

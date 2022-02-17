@@ -1,26 +1,26 @@
 ---
 title: Stofnun reiknings viðskiptavinar
-description: '**Reikningur viðskiptavinar fyrir sölupöntun** er reikningur sem tengist sölunni og sem fyrirtæki gefur viðskiptavini.'
+description: Reikningur viðskiptavinar fyrir sölupöntun er reikningur sem tengist sölunni og sem fyrirtæki gefur viðskiptavini.
 author: ShivamPandey-msft
-ms.date: 01/12/2018
+ms.date: 02/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 369f0737ee4026c32ffbae6b11b5815c5548d83d564aebf2eae4b1c246e73508
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723872"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087424"
 ---
 # <a name="create-a-customer-invoice"></a>Stofnun reiknings viðskiptavinar
 
@@ -42,6 +42,23 @@ Frekari upplýsingar er að finna á:
 
 
 **Bráðabirgðareikningur** er reikningur sem er útbúinn sem mat á raunverulegu reikningsupphæðinni áður en reikningurinn er bókaður. Hægt er að prenta út bráðabirgðareikning fyrir annað hvort sölureikning eða reikningur með frjálsum texta.
+
+## <a name="using-sales-order-customer-invoice-data-entities"></a>Notkun sölupöntunar reikningsgagnaeininga viðskiptavina
+Hægt er að nota gagnaeiningar til að flytja inn og flytja út upplýsingar um reikning viðskiptavinar fyrir sölupöntun. Það eru mismunandi einingar fyrir upplýsingarnar á sölureikningshaus og sölureikningslínum.
+
+Eftirfarandi einingar eru tiltækar fyrir upplýsingarnar á haus sölureiknings:
+
+- **Sölureikningabókarhaus** eining (SalesInvoiceJournalHeaderEntity)
+- **Sölureikningshausar V2** eining (SalesInvoiceHeaderV2Entity)
+
+Við mælum með að þú notir **Sölureikningabókarhaus** eining, vegna þess að það veitir afkastameiri upplifun fyrir inn- og útflutning söluhausa. Þessi eining inniheldur ekki **Upphæð söluskatts** (INVOICEHEADERTAXAMOUNT) dálkinn, sem táknar virðisaukaskattsvirði á sölureikningshaus. Ef viðskiptaatburðarás þín krefst þessara upplýsinga skaltu nota **Sölureikningshausar V2** aðila til að flytja inn og flytja út upplýsingar um sölureikningshaus.
+
+Eftirfarandi aðilar eru tiltækar fyrir upplýsingar um sölureikningslínur:
+
+- **Reikningslínur viðskiptavina** eining (BusinessDocumentSalesInvoiceLineItemEntity)
+- **Sölureikningslínur V3** eining (SalesInvoiceLineV3Entity)
+
+Þegar þú ert að ákveða hvaða línueiningu á að nota fyrir útflutning skaltu íhuga hvort fullur ýtingur eða stigvaxandi ýtingur verði notaður. Að auki skaltu íhuga samsetningu gagna. The **Sölureikningslínur V3** eining styður flóknari atburðarás (til dæmis vörpun á birgðareitina). Það styður einnig útflutningsatburðarás með fullri þrýstingi. Fyrir stigvaxandi ýtir mælum við með að þú notir **Reikningslínur viðskiptavina** aðila. Þessi eining inniheldur mun einfaldari gagnasamsetningu en **Sölureikningslínur V3** eining og er æskilegt, sérstaklega ef ekki er krafist samþættingar birgðasviðs. Vegna mismunar á kortlagningarstuðningi milli línueininganna, er **Reikningslínur viðskiptavina** eining hefur venjulega hraðari frammistöðu en **Sölureikningslínur V3** aðila.
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Bóka og prenta einstaka reikningur viðskiptavinar sem byggðir eru á sölupöntunum
 Notið þetta ferli til að stofna reikning sem byggist á sölupöntun. Hægt er að gera þetta ef ákveðið er að reikningsfæra viðskiptamann áður en vörurnar eða þjónustan eru afhent. 

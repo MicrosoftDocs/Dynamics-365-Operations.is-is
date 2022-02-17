@@ -14,18 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
-ms.translationtype: HT
+ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413377"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071111"
 ---
 # <a name="integration-with-finance-faq"></a>Algengar spurningar um samþættingu við Finance
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Þetta efnisatriði svarar algengum spurningum sem tengjast gögnunum sem eru samstillt þegar Dynamics 365 Human Resources er samþætt við Dynamics 365 Finance.
 
@@ -86,7 +89,7 @@ Ekki er krafist sérstakrar uppsetningar fyrir meðhöndlun frávika. Data Integ
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Get ég sett upp samþættingu í báðar áttir?
 
-Nei, samþætting er sem stendur ein leið (Human Resources til Finance and Operations). Hins vegar er sjálfgefið sniðmát í boði til að senda gögn frá Human Resources til Finance.
+Nei, samþætting er eins og er í einstefnu (mannauðs til fjármögnunar og rekstrar). Hins vegar er sjálfgefið sniðmát í boði til að senda gögn frá Human Resources til Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Get ég leyft skráareyðingu sem hluta af samþættingu minni?
 

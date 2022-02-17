@@ -2,7 +2,7 @@
 title: Vinna með sniðmát
 description: Þetta efnisatriði útskýrir hvernig á að vinna með sniðmát í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f9487ab7a6ea10c841708e41fb7085d4bafe0d224ec5eb28810ec34b35a0ebc0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ab6ccfac96249b39cb007d9a9fce10475f0c7149
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762525"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090795"
 ---
 # <a name="work-with-templates"></a>Vinna með sniðmát
 
@@ -38,7 +38,7 @@ Eins og fjallað var um í [Yfirlit yfir sniðmát og skipulag](templates-layout
 - Haltu fyrirtækjasíðum á vörumerkinu með því að skilgreina samþykkt sett af fyrirkomulagi eininga og stillingar.
 
     > [!TIP] 
-    > Árangursrík netverslunarsvæði veita viðskiptavinum kunnugleg, endurtekin og vörumerkjanotendamynstur notendaupplifunar (UX). Með því að nota sniðmát hjálpar þú til við að stjórna samræmi á vefsvæðinu þínu.
+    > Árangursríkar netviðskiptasíður veita viðskiptavinum kunnugleg, endurtekin og notendaupplifun á vörumerki (UX) hönnunarmynstur. Með því að nota sniðmát hjálpar þú til við að stjórna samræmi á vefsvæðinu þínu.
 
 - Bætið stig leitarvélabestun (SEO) með því að tryggja endurteknar og forritaðar skilgreiningar á síðu og lýsigögnum.
 
@@ -49,7 +49,7 @@ Eins og fjallað var um í [Yfirlit yfir sniðmát og skipulag](templates-layout
 
 Sniðmátum er breytt með því að nota sniðmátsritil.
 
-Fylgdu einu af þessum skrefum til að opna sniðmátstitilinn:
+Fylgdu einu af þessum skrefum til að opna sniðmátsritilinn í Commerce site builder:
 
 - Í yfirlitssvæðinu á svæðinu velurðu **Sniðmát** og síðan velurðu sniðmátið sem á að breyta.
 - Í síðuritlinum fyrir fyrirliggjandi síðu velurðu efsta hnútinn í útlínutré til vinstri. Síðan, í eiginleikaglugganum til hægri, velurðu eiginleikann **Breyta sniðmáti**.
@@ -66,7 +66,7 @@ Fylgdu einu af þessum skrefum til að opna sniðmátstitilinn:
 
 ## <a name="create-a-new-template"></a>Búa til nýtt sniðmát
 
-Fylgið eftirfarandi skrefum til að stofna nýtt sniðmát.
+Fylgdu þessum skrefum til að búa til nýtt sniðmát í Site builder.
 
 1. Í yfirlitssvæðinu á svæðinu velurðu **Sniðmát** til að opna skjá sniðmátseftirlitsaðila.
 1. Velja **Nýtt sniðmát**.
@@ -85,7 +85,7 @@ Sniðmátið er nú tæknilega gilt og það er hægt að vista, haka við og no
 
 ## <a name="add-a-header-and-a-footer"></a>Bæta við fyrirsögn og síðufæti
 
-Ef síða þín er þegar með fyrirsagnarbrot skaltu fylgja þessum skrefum til að bæta fyrirsögn og síðufæti við sniðmát.
+Ef síða þín er nú þegar með hausbrot skaltu fylgja þessum skrefum í vefsvæðisgerð til að bæta haus og fót við sniðmát.
 
 1. Í útlínutrénu stækkarðu hólfið **Meginmál** og undirsíðueiningu þess.
 1. Veldu hólfið **Fyrirsögn**.
@@ -98,7 +98,7 @@ Ef vefsvæðið þitt er ekki enn með fyrirsagnarbrot skaltu sjá [Stofna brot]
 
 ## <a name="change-the-template-theme"></a>Breyta sniðmátsþemanu
 
-Fylgdu þessum skrefum til að stilla sjálfgefið þema fyrir allar síður sem nota sniðmát.
+Til að stilla sjálfgefið þema fyrir allar síður sem nota sniðmát skaltu fylgja þessum skrefum í Site builder.
 
 1. Í útlínutré síðunnar til hægri stækkarðu hólfið **Meginmál**.
 1. Í hólfinu **Meginmál** velurðu síðugámaeininguna (til dæmis, **Sjálfgefin síða**).
@@ -110,7 +110,7 @@ Sjálfgefið er að allar nýjar síður munu nú nota valið þema. Til að kom
 
 Þú getur bætt við HTML **&lt;forskrift&gt;** þætti sem inniheldur JavaScript í sniðmátinu þínu. Á þennan hátt geturðu framkvæmt sjálfgefna forskriftarhegðun á HTML haus, upphaf meginmáls og meginmálslokahluta síðanna.
 
-Fylgið eftirfarandi skrefum til að bæta forskrift við sniðmát.
+Fylgdu þessum skrefum til að bæta handriti við sniðmát í vefsíðugerð.
 
 1. Í útlínutrénu til vinstri velurðu hólfið þar sem þú vilt bæta við þættinum **&lt;forskrift&gt;** (til dæmis, HTML haus, upphafi meginmáls eða lokum meginmáls).
 1. Veldu úrfellingarhnappinn fyrir hólfið og veldu síðan **Bæta við einingu**.
@@ -123,7 +123,7 @@ Fylgið eftirfarandi skrefum til að bæta forskrift við sniðmát.
 
 ## <a name="save-check-in-preview-and-publish-a-template"></a>Vistaðu, skráðu inn, forskoðaðu og birtu sniðmát.
 
-Til að vista sniðmát og skrá það inn skal fylgja þessum skrefum.
+Fylgdu þessum skrefum til að vista og innrita sniðmát í vefsíðugerð.
 
 1. Veldu **Vista** efst í sniðmátsritli. Vistaðar breytingar hafa ekki áhrif á forstreymissíðum fyrr en þær eru skráðar inn.
 1. Veldu **Ljúka við breytingar**. Nú er hægt að uppgötva breytingarnar fyrir forstreymisflæði.
@@ -138,6 +138,18 @@ Eftir að þú hefur forskoðað breytingarnar á sniðmátinu skaltu fylgja ein
 
 > [!WARNING]
 > Þegar sniðmát, eða eitthvað annað atriði efnisstjórnunarkerfis (CMS), er birt er það hægt að uppgötva á internetinu. Ekki birta skjöl eða eignir fyrr en þú ert tilbúin/n til að gera þau opinber. Skjalaútgáfur sem hafa verið vistaðar og skráðar inn, en sem ekki hafa verið birtar, er aðeins hægt að sjá fyrir staðfesta kerfisnotendur.
+
+## <a name="rename-a-template"></a>Endurnefna sniðmát
+
+Fylgdu þessum skrefum til að endurnefna núverandi sniðmát í vefsíðugerð.
+
+1. Í vinstri yfirlitsrúðunni, veldu **Sniðmát**.
+1. Veldu sniðmátsheiti sniðmátsins sem þú vilt endurnefna.
+1. Veldu **Breyta** til að byrja að breyta sniðmátinu. Athugaðu að þú getur ekki breytt sniðmátinu ef einhver annar er þegar að breyta sniðmátinu.
+1. Í sniðmátareiginleikarúðunni skaltu velja pennatáknið við hlið sniðmátsheitisins.
+1. Breyttu heiti sniðmátsins eftir þörfum.
+1. Veldu gátmerkið til að staðfesta nafnbreytinguna.
+1. Veldu **Ljúka við breytingar**.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

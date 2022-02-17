@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c038773dc7c1c475f5852f0f0272b59516140593
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 6238b67a35a303a03c51bbd261dd24d1b2acf041
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944664"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8077116"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Leiðbeiningar um dreifingu fyrir samþættingarsýni skattaskráningarþjónustu fyrir Austurríki (arfleifð)
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni veitir leiðbeiningar um að dreifa samþættingarsýnishorni ríkisskráningarþjónustu fyrir Austurríki frá Microsoft Dynamics 365 Commerce Smásöluhugbúnaðarþróunarsett (SDK) á sýndarvél þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar um þetta sýnishorn af samþættingu ríkisfjármála, sjá [Samþættingarsýni skattaskráningarþjónustu fyrir Austurríki](emea-aut-fi-sample.md). 
+Þetta efni veitir leiðbeiningar um útfærslu samþættingarsýnis fyrir ríkisskráningarþjónustu fyrir Austurríki frá Microsoft Dynamics 365 Commerce Smásöluhugbúnaðarþróunarsett (SDK) á sýndarvél þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar um þetta sýnishorn af samþættingu ríkisfjármála, sjá [Samþættingarsýni fyrir ríkisskattaskráningarþjónustu fyrir Austurríki](emea-aut-fi-sample.md). 
 
-Fjármálasamþættingarúrtakið fyrir Austurríki er hluti af Retail SDK. Fyrir upplýsingar um hvernig á að setja upp og nota SDK, sjá [Smásöluhugbúnaðarþróunarsett (SDK) arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md). Fjármálasamþættingarúrtakið samanstendur af framlengingum fyrir viðskiptatímann (CRT), Vélbúnaðarstöð og sölustaður (POS). Til að keyra þetta sýnishorn verður þú að breyta og byggja upp CRT, Vélbúnaðarstöð og POS verkefni. Við mælum með því að þú notir óbreytt Retail SDK til að gera þær breytingar sem lýst er í þessu efni. Við mælum líka með því að þú notir heimildastýringarkerfi eins og Azure DevOps þar sem engum skrám hefur verið breytt enn.
+Fjármálasamþættingarúrtakið fyrir Austurríki er hluti af Retail SDK. Fyrir upplýsingar um hvernig á að setja upp og nota SDK, sjá [Smásala hugbúnaðarþróunarsett (SDK) arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md). Fjármálasamþættingarúrtakið samanstendur af framlengingum fyrir viðskiptatímann (CRT), Vélbúnaðarstöð og sölustaður (POS). Til að keyra þetta sýnishorn verður þú að breyta og byggja upp CRT, Vélbúnaðarstöð og POS verkefni. Við mælum með því að þú notir óbreytt Retail SDK til að gera þær breytingar sem lýst er í þessu efni. Við mælum líka með því að þú notir heimildastýringarkerfi eins og Azure DevOps þar sem engum skrám hefur verið breytt ennþá.
 
 ## <a name="development-environment"></a>Þróunarumhverfi
 
@@ -89,7 +89,7 @@ The CRT framlengingaríhlutir eru innifalin í CRT sýnishorn. Til að ljúka ef
 
 ### <a name="enable-hardware-station-extensions"></a>Virkja viðbætur fyrir vélbúnaðarstöð
 
-Vélbúnaðarstöðvarframlengingarhlutirnir eru innifalin í vélbúnaðarstöðvunum. Til að ljúka eftirfarandi aðferðum skaltu opna **HardwareStationSamples.sln** lausn undir **RetailSdk\\ SampleExtensions\\ Vélbúnaðarstöð**.
+Viðbótarhlutir vélbúnaðarstöðvar eru innifaldir í sýnishornum vélbúnaðarstöðvar. Til að ljúka eftirfarandi aðferðum skaltu opna **HardwareStationSamples.sln** lausn undir **RetailSdk\\ SampleExtensions\\ Vélbúnaðarstöð**.
 
 #### <a name="efrsample-component"></a>EFRSample hluti
 
@@ -107,7 +107,7 @@ Vélbúnaðarstöðvarframlengingarhlutirnir eru innifalin í vélbúnaðarstö�
 4. Finndu stillingarskrá fyrir viðbótina fyrir viðbætur vélbúnaðarstöðvarinnar. Skráin er nefnd **HardwareStation.Extension.config**.
 
     - **Sameiginleg vélbúnaðarstöð:** Skráin er staðsett undir staðsetningu IIS vélbúnaðarstöðvarinnar.
-    - **Sérstök vélbúnaðarstöð á Modern POS:** Skráin er staðsett undir miðlarastað Modern POS viðskiptavinar.
+    - **Sérstök vélbúnaðarstöð á Modern POS:** Skráin er staðsett undir miðlarastaðnum Modern POS viðskiptavinar.
 
 5. Bættu eftirfarandi línu við **samsetningu** hluta stillingaskrárinnar.
 
@@ -117,7 +117,7 @@ Vélbúnaðarstöðvarframlengingarhlutirnir eru innifalin í vélbúnaðarstö�
 
 ### <a name="enable-modern-pos-extension-components"></a>Virkjaðu nútíma POS viðbótaríhluti
 
-1. Opnaðu **ModernPOS.sln** lausn undir **RetailSdk\\ POS**, og vertu viss um að hægt sé að setja það saman án villna. Gakktu úr skugga um að þú getir keyrt Modern POS frá Visual Studio með því að nota **Hlaupa** skipun.
+1. Opnaðu **ModernPOS.sln** lausn undir **RetailSdk\\ POS**, og vertu viss um að hægt sé að setja hana saman án villna. Gakktu úr skugga um að þú getir keyrt Modern POS frá Visual Studio með því að nota **Hlaupa** skipun.
 
     > [!NOTE]
     > Nútíma POS má ekki aðlaga. Þú verður að virkja User Account Control (UAC) og þú verður að fjarlægja áður uppsett tilvik af Modern POS eftir þörfum.
@@ -163,7 +163,7 @@ Vélbúnaðarstöðvarframlengingarhlutirnir eru innifalin í vélbúnaðarstö�
 
 ## <a name="production-environment"></a>Framleiðsluumhverfi
 
-Fyrri aðferðin gerir viðbætur sem eru hluti af samþættingarúrtaki fjárhagsskráningarþjónustu virkjað. Að auki verður þú að fylgja þessum skrefum til að búa til dreifanlega pakka sem innihalda Commerce íhluti og nota þá pakka í framleiðsluumhverfi.
+Fyrri aðferðin gerir viðbæturnar sem eru hluti af samþættingarúrtaki fjárhagsskráningarþjónustu virka. Að auki verður þú að fylgja þessum skrefum til að búa til dreifanlega pakka sem innihalda Commerce íhluti og nota þá pakka í framleiðsluumhverfi.
 
 1. Gerðu eftirfarandi breytingar á stillingarskrám pakkans undir **RetailSdk\\ Eignir** mappa:
 
@@ -206,7 +206,7 @@ Fyrri aðferðin gerir viðbætur sem eru hluti af samþættingarúrtaki fjárha
 
 ## <a name="design-of-extensions"></a>Hönnun viðbygginga
 
-Samþættingarúrtak ríkisskráningarþjónustu fyrir Austurríki byggist á [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md). Fyrir frekari upplýsingar um hönnun fjárhagslegrar samþættingarlausnar, sjá [yfirlit yfir sýnishönnun í ríkisfjármálum](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+Samþættingarúrtak ríkisskráningarþjónustu fyrir Austurríki byggist á [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md). Fyrir frekari upplýsingar um hönnun fjárhagslegrar samþættingarlausnar, sjá [yfirlit yfir sýnishönnun fjárhagslega samþættingar](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 ### <a name="commerce-runtime-extension-design"></a>Viðskiptatímaframlengingarhönnun
 

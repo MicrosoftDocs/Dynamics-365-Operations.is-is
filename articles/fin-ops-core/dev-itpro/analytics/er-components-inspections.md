@@ -2,7 +2,7 @@
 title: Skoða grunnstilltan hlut rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrslu
 description: Þetta efnisatriði útskýrir hvernig á að skoða grunnstillta íhluti rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrsluna sem gætu komið upp.
 author: NickSelin
-ms.date: 08/26/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
-ms.translationtype: HT
+ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488115"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074792"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Skoða grunnstilltan hlut rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrslu
 
 [!include[banner](../includes/banner.md)]
 
-Sérhvert grunnstillt [rafrænt skýrslugerðar](general-electronic-reporting.md) [snið](general-electronic-reporting.md#FormatComponentOutbound) og hlutur [líkanavörpunar](general-electronic-reporting.md#data-model-and-model-mapping-components) er hægt að [villuleita](er-fillable-excel.md#validate-an-er-format) á tíma hönnunar. Í þessari villuleit er samræmisathugun keyrð til að koma í veg fyrir vandamál varðandi keyrsluna sem getur komið upp, t.d. villur við framkvæmd og afkastaminnkun. Fyrir hvert vandamál sem finnst gefur athugunin upp slóð einingarinnar sem tengist vandanum. Í sumum vandamálum er sjálfvirk lagfæring tiltæk.
+Sérhvert grunnstillt [rafrænt skýrslugerðar](general-electronic-reporting.md) [snið](er-overview-components.md#format-components-for-outgoing-electronic-documents) og hlutur [líkanavörpunar](er-overview-components.md#model-mapping-component) er hægt að [villuleita](er-fillable-excel.md#validate-an-er-format) á tíma hönnunar. Í þessari villuleit er samræmisathugun keyrð til að koma í veg fyrir vandamál varðandi keyrsluna sem getur komið upp, t.d. villur við framkvæmd og afkastaminnkun. Fyrir hvert vandamál sem finnst gefur athugunin upp slóð einingarinnar sem tengist vandanum. Í sumum vandamálum er sjálfvirk lagfæring tiltæk.
 
 Sjálfgefið er að villuleit er sjálfkrafa notuð í eftirfarandi tilfellum fyrir grunnstillingu rafrænnar skýrslugerðar sem inniheldur fyrrnefnda hluti rafrænnar skýrslugerðar:
 
@@ -236,6 +236,15 @@ Eftirfarandi tafla veitir yfirlit yfir eftirlit sem rafræn skýrslugerð býðu
 <td>Villa</td>
 <td>Fleiri en tveir sviðshlutar eru til staðar án endurgerðar. Vinsamlegast fjarlægðu óþarfa íhluti.</td>
 </tr>
+<tr>
+<td><a href='#i18'>Rekstrarhæfni tjáningar með ORDERBY falli</a></td>
+<td>Keyranleiki</td>
+<td>Villa</td>
+<td>
+<p>Listasegðin í ORDERBY-aðgerðinni er ekki fyrirspurnarhæf.</p>
+<p><b>Runtime villa:</b> Flokkun er ekki studd. Staðfestið skilgreininguna til að fá frekari upplýsingar um þetta.</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -365,7 +374,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 8. Gefið nýja faldaða reitnum **$AccNumber** heiti og skilgreinið hann þannig að hann innihaldi segðina `TRIM(Vendor.AccountNum)`.
 9. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar** og staðfestið að hægt sé að senda `FILTER(Vendor, Vendor.AccountNum="US-101")`-segðinni í gagnagjafanum **Lánardrottinn** fyrirspurn.
 
-    ![Staðfestir að hægt sé að senda fyrirspurn á segðina á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-04.gif)
+    ![Staðfesta að hægt sé að spyrjast fyrir um tjáninguna sem hefur FILTER aðgerðina á síðunni Model mapping designer.](./media/er-components-inspections-04.gif)
 
 10. Takið eftir því að villa við villuleit kemur upp vegna þess að gagnagjafinn **Lánardrottinn** inniheldur faldaðan reit af gerðinni **Reiknaður reitur** sem leyfir ekki að þýða segð gagnagjafans **FilteredVendor** í beina SQL-strenginn.
 
@@ -671,19 +680,19 @@ Eftirfarandi mynd sýnir keyrsluvilluna sem kemur upp ef viðvörunin er hunsuð
 
 ![Keyrsluvilla sem kemur upp við keyrslu sniðsvörpunar á sniðshönnunarsíðunni.](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution&quot;></a>Sjálfvirk lausn
+### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
 Enginn valkostur til að lagfæra vandamálið sjálfkrafa er tiltækur.
 
-### <a name=&quot;manual-resolution&quot;></a>Handvirk lausn
+### <a name="manual-resolution"></a>Handvirk lausn
 
-#### <a name=&quot;option-1&quot;></a>Valkostur 1
+#### <a name="option-1"></a>Valkostur 1
 
 Fjarlægið flaggið **Skyndiminni** úr gagnagjafanum **Lánardrottinn**. Gagnagjafinn **FilteredVendor** verður þá keyrsluhæfur, en gagnagjafinn **Lánardrottinn** sem vísað er til í VendTable-töflunni verður opnaður í hvert skipti sem kallað er á gagnagjafann **FilteredVendor**.
 
-#### <a name=&quot;option-2&quot;></a>Valkostur 2
+#### <a name="option-2"></a>Valkostur 2
 
-Breytið segðinni á gagnagjafa **FilteredVendor** úr `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` í `WHERE(Vendor, Vendor.AccountNum="US-101")`. Í þessu tilviki verður gagnagjafinn **Lánardrottinn** sem vísað er til í VendTable-töflunni aðeins opnaður við fyrsta kall í gagnagjafann **Lánardrottinn**. Hins vegar fer val færslna fram í minninu. Þess vegna getur þessi nálgun valdið slökum afköstum.
+Breytið segðinni á gagnagjafa **FilteredVendor** úr `FILTER(Vendor, Vendor.AccountNum="US-101")` í `WHERE(Vendor, Vendor.AccountNum="US-101")`. Í þessu tilviki verður gagnagjafinn **Lánardrottinn** sem vísað er til í VendTable-töflunni aðeins opnaður við fyrsta kall í gagnagjafann **Lánardrottinn**. Hins vegar fer val færslna fram í minninu. Þess vegna getur þessi nálgun valdið slökum afköstum.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Bindingu vantar
 
@@ -892,6 +901,47 @@ Enginn valkostur til að lagfæra vandamálið sjálfkrafa er tiltækur.
 #### <a name="option-1"></a>Valkostur 1
 
 Breyttu stilltu sniði með því að breyta eiginleikanum **Eftirlíkingarátt** fyrir alla íhluti **Excel\\Sviðs** þar sem er ósamræmi.
+
+## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a> Rekstrarhæfni tjáningar með ORDERBY falli
+
+Hið innbyggða [RAÐA EFTIR](er-functions-list-orderby.md) ER aðgerð er notuð til að flokka skrár yfir ER gagnagjafa **[Met listi](er-formula-supported-data-types-composite.md#record-list)** gerð sem er tilgreind sem rök fallsins.
+
+Rök um`ORDERBY` virkni getur verið [tilgreint](er-functions-list-orderby.md#syntax-2) að flokka skrár yfir forritatöflur, skoðanir eða gagnaeiningar með því að hringja í eitt gagnagrunnssímtal til að fá flokkuð gögn sem lista yfir skrár. Gagnagjafi í **Met listi** gerð er notuð sem rök fyrir fallinu og tilgreinir forritsuppsprettu símtalsins.
+
+ER athugar hvort hægt sé að koma á beinni gagnagrunnsfyrirspurn til gagnagjafa sem vísað er til í`ORDERBY` virka. Ef ekki er hægt að koma á fót beinni fyrirspurn kemur upp villa við villuleit í hönnuði líkanavörpunar rafrænnar skýrslugerðar. Skilaboðin sem birtast gefa til kynna að segð rafrænnar skýrslugerðar sem inniheldur `ORDERBY`-aðgerðina sé ekki hægt að keyra við keyrslu.
+
+Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
+
+1. Byrjið að skilgreina íhlut líkanavörpunar rafrænnar skýrslugerðar.
+2. Bætið við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
+3. Heiti nýja gagnagjafans **Lánardrottinn**. Í **Tafla** reit, veldu **VendTable** til að tilgreina að þessi gagnagjafi muni biðja um **VendTable** borð.
+4. Bætið við gagnagjafa af gerðinni **Reiknaður reitur**.
+5. Nefndu nýja gagnagjafann **Pantaðir söluaðilar**, og stilltu það þannig að það innihaldi tjáninguna `ORDERBY("Query", Vendor, Vendor.AccountNum)`.
+ 
+    ![Uppsetning gagnaheimilda á hönnuður módelkortunarsíðu.](./media/er-components-inspections-18-1.png)
+
+6. Veldu **Staðfesta** til að skoða breytanlega líkanakortlagningarhlutann á **Módelkortahönnuður** síðu og staðfestið að tjáningin í **Pantaðir söluaðilar** hægt er að spyrjast fyrir um gagnagjafa.
+7. Breytið gagnagjafanum **Lánardrottinn** með því að bæta við földuðum reit af gerðinni **Reiknaður reitur** til að fá stytt númer lánardrottnalykils.
+8. Gefið nýja faldaða reitnum **$AccNumber** heiti og skilgreinið hann þannig að hann innihaldi segðina `TRIM(Vendor.AccountNum)`.
+9. Veldu **Staðfesta** til að skoða breytanlega líkanakortlagningarhlutann á **Módelkortahönnuður** síðu og staðfestið að tjáningin í **Seljandi** hægt er að spyrjast fyrir um gagnagjafa.
+
+    ![Staðfesta að hægt sé að spyrjast fyrir um tjáninguna í gagnagjafa lánardrottins á síðunni Hönnuður líkanavörpunar.](./media/er-components-inspections-18-2.png)
+
+10. Taktu eftir að staðfestingarvilla kemur upp vegna þess að **Seljandi** gagnagjafi inniheldur hreiður reit af **Reiknaður reitur** tegund sem leyfir ekki tjáningu á **Pantaðir söluaðilar** gagnauppspretta sem á að þýða yfir í beina gagnagrunnsyfirlýsingu. Sama villa kemur upp á keyrslutíma ef þú hunsar staðfestingarvilluna og velur **Hlaupa** til að keyra þessa líkanakortlagningu.
+
+### <a name="automatic-resolution"></a>Sjálfvirk lausn
+
+Enginn valkostur til að lagfæra vandamálið sjálfkrafa er tiltækur.
+
+### <a name="manual-resolution"></a>Handvirk lausn
+
+#### <a name="option-1"></a>Valkostur 1
+
+Í stað þess að bæta við hreiðri reit af **Reiknaður reitur** slá inn á **Seljandi** gagnagjafa, bættu við **$AccNumber** hreiður reit til **Filtered Vendors** gagnagjafa og stilla reitinn þannig að hann innihaldi tjáninguna `TRIM(FilteredVendor.AccountNum)`. Á þennan hátt er`ORDERBY("Query", Vendor, Vendor.AccountNum)` tjáningu er hægt að keyra á gagnagrunnsstigi og útreikning á **$AccNumber** hreiður reit er hægt að gera eftir.
+
+#### <a name="option-2"></a>Valkostur 2
+
+Breyttu tjáningu á **Filtered Vendors** gagnagjafa frá`ORDERBY("Query", Vendor, Vendor.AccountNum)` til `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Við mælum ekki með því að þú breytir tjáningu fyrir töflu sem hefur mikið magn af gögnum (viðskiptatafla), því allar færslur verða sóttar og röðun nauðsynlegra gagna verður gerð í minni. Þess vegna getur þessi nálgun valdið slökum afköstum.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

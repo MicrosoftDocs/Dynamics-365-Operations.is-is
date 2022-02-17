@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 23f720db57bf60c81182ed8ae4bdac965676741ce2a2e53bc699c2bd49325b74
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754138"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063748"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (14. maí 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Human Resources. Breytingar eiga við um byggingarnúmer 8.1.3244. Tölurnar í sviga í sumum fyrirsögnum vísa til stuðningsnúmera í Lifecycle Services (LCS) vegna tilvísunar.
 
 ## <a name="platform-changes"></a>Verkvangsbreytingar
 
-Breytingar á verkvangi eru teknar með í útgáfu þessarar viku. Frekari upplýsingar er að finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.10 af Finance and Operations -forritum (maí 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Þessi útgáfa inniheldur villuleiðréttingar og breytingar á vistuðum yfirlitum.
+Breytingar á verkvangi eru teknar með í útgáfu þessarar viku. Fyrir frekari upplýsingar, sjá [Palluppfærslur fyrir útgáfu 10.0.10 af Finance and Operations forritum (maí 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Þessi útgáfa inniheldur villuleiðréttingar og breytingar á vistuðum yfirlitum.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Tryggið að tínslulistar Dataverse séu í samræmi við fasttexta leyfa (436343)
 

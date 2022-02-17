@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fcbace2bd28a843fca8aa2f4f998c08f238c29d6
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920299"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061002"
 ---
 # <a name="configure-inventory-visibility"></a>Stilla sýnileika birgða
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Þetta efnisatriði lýsir hvernig á að skilgreina birgðasýnileika með forriti birgðasýnileika í Power Apps.
 
@@ -58,7 +58,7 @@ Ef þú veist ekki rétta endastöð fyrir þjónustu birgðasýnileika skaltu o
 
 ## <a name="data-source-configuration"></a>Skilgreining gagnagjafa
 
-Hver gagnagjafi táknar kerfi sem gögnin þín koma úr. Sem dæmi um gagnagjafaheiti má nefna `fno` (sem stendur fyrir „Dynamics 365 Finance and Operations-forrit“) og `pos` (sem stendur fyrir „sölustaður“). Supply Chain Management er sjálfgefið sett upp sem sjálfgefinn gagnagjafi (`fno`) í birgðasýnileika.
+Hver gagnagjafi táknar kerfi sem gögnin þín koma úr. Dæmi um heiti gagnagjafa innihalda`fno` (sem þýðir "Dynamics 365 Finance og rekstrarforrit") og`pos` (sem þýðir "sölustaður"). Supply Chain Management er sjálfgefið sett upp sem sjálfgefinn gagnagjafi (`fno`) í birgðasýnileika.
 
 > [!NOTE]
 > The`fno` gagnauppspretta er frátekin fyrir Supply Chain Management. Ef birgðasýnileikaviðbótin þín er samþætt við Supply Chain Management umhverfi mælum við með að þú eyðir ekki stillingum sem tengjast`fno` í gagnaveitunni.

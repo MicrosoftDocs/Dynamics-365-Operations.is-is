@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1aac3c50cbe40d65abc9bedcdd2a64a6e5a1c1ad
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
-ms.translationtype: HT
+ms.openlocfilehash: 1cf4ed8d2373a71594b9b03306c582ed998b6e39
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431185"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071724"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>Búa til sérstillta tengla í sjálfsafgreiðslu stjórnanda
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -36,11 +39,11 @@ Til að nota þennan eiginleika skal virkja **Sérstilltir tenglar í sjálfsafg
 
 1. Í **Human Resources færibreytum** skal velja **Sjálfsafgreiðslu stjórnanda**.
 
-2. Undir **Setja upp tengla fyrir stjórnendur** er hægt að bæta við, breyta eða fjarlægja tengil. Einnig er hægt að flokka tenglana saman þannig að þeir birtist í hópi í sjálfsafgreiðslu stjórnanda.
+2. Undir **Setja upp tengla fyrir stjórnendur** er hægt að bæta við, breyta eða fjarlægja tengil. Þú getur líka flokkað tenglana saman þannig að þeir birtast í hópi í **Sjálfsafgreiðslustjóri**.
 
    ![Setja upp sérstillta tengla í sjálfsafgreiðslu stjórnanda.](./media/hr-employee-manager-self-service-custom-links-setup.png)
 
-3. Til að sjá tengla skal fara á **Teymið mitt** flipann í sjálfsafgreiðslu starfsmanna.
+3. Til að sjá tenglana skaltu fara á **Liðið mitt** flipa inn **Sjálfsafgreiðsla starfsmanna**.
 
    ![Skoða sérstillta tengla í sjálfsafgreiðslu stjórnanda.](./media/hr-employee-manager-self-service-custom-links-view.png)
 

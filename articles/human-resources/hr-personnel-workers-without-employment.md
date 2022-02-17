@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d282c0fac00d6bc410717dd156aef9ffce352c6d
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: d0b8fe7dd0818fa1c3cc4224e73035849f9dadfe
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771291"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070552"
 ---
 # <a name="workers-without-employment"></a>Starfskraftar án starfs
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -42,13 +45,13 @@ Sjálfgefið er **Starfsmenn án atvinnu** síða er í boði fyrir eftirfarandi
 
 2. Á flipanum **Réttindi** síaðu listann **Réttindi** á **Viðhalda starfsmönnum**.
 
-   [![ Afmarka lista yfir réttindi.](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
+   [![Afmarka lista yfir réttindi.](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
 
 3. Í dálkinum **Tilvísanir** veldu **Birta valmyndaratriðin**.
 
 4. Í **Birta valmyndaratriði** skal velja **HcmWorkersWithoutEmployment**.
 
-   [![ Velja skjámynd.](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
+   [![Velja skjámynd.](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
 
 5. Stillið heimildina **Eyða** á **Útdeila**.
 
@@ -56,6 +59,6 @@ Sjálfgefið er **Starfsmenn án atvinnu** síða er í boði fyrir eftirfarandi
 
 7. Velja **Birta allt**.
 
-   [![ Birta breytingar.](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
+   [![Birta breytingar.](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

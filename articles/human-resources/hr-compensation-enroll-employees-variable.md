@@ -13,24 +13,27 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67b3cd95276b9e59e794583fa51ddbcec4c43b1e
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
-ms.translationtype: HT
+ms.openlocfilehash: 49a64407778fba5669ad13f239363bffd4b0c7d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431315"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071740"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Skráið starfsmann inn í breytilega greiðsluáætlun
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-stjórnandi Launa og Fríðinda skrá starfsmenn í breytilegu launafyrirkomulagi til að reikna út reiðufés og ekki reiðufés umbun fyrir starfsmenn. Þetta ferli gerir ráð fyrir að breytilega launafyrirkomulag hefur verið stofnuð með **Virkja ráðningu** svæðið stillt á Já og hæfnisreglur hafa verið stofnaðar fyrir breytilega launafyrirkomulag. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Til að hefja þetta ferli skal fara í **Human Resources** > **Starfskraftar** > **Starfsmenn** > **Laun** > **Breytileg launaskráning**.
+stjórnandi Launa og Fríðinda skrá starfsmenn í breytilegu launafyrirkomulagi til að reikna út reiðufés og ekki reiðufés umbun fyrir starfsmenn. Þessi aðferð gerir ráð fyrir að breytileg bótaáætlun hafi verið búin til með **Virkja skráningu** reit stilltur á **Já**, og að búið sé að búa til hæfisreglur fyrir þá breytilega bótaáætlun. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Til að hefja þessa aðferð skaltu fara á **Mannauður** > **Verkamenn** > **Starfsmenn** > **Bætur** > **Breytileg áætlun skráning**.
 
 1. Smellt er á **Nýtt**.
 2. Í reitnum **Áætlun** skal smella á fellilistahnappinn til að opna leitina.
     * Uppfletting áætlunar verður síuð til að sýna aðeins breytilegar áætlanir sem starfsmaðurinn á rétt á á grundvelli hæfnisreglur.  
 3. Í listanum skal smella á tengilinn í valinni línu.
-4. Víxla útvíkkun á liðnum Almennt.
+4. Skiptu um stækkun á **Almennt** kafla.
 5. Í reitnum **Gildisdagsetning** skal slá inn dagsetningu.
 6. Smelltu á **Vista**.
 7. Víxla útvíkkun á liðnum **Hnekkja**.

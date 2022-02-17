@@ -2,7 +2,7 @@
 title: Skipuleggja starfsfólk með því að nota deildir, störf og stöður
 description: Þetta efnisatriði lýsir hugmyndafræðilegum upplýsingum um deildir, störf og stöður, sem eru skipulagsþættir sem viðhaldið er innan mannauðs.
 author: twheeloc
-ms.date: 10/28/2021
+ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 51335cba0e0dce755ce36fbe13c6294fca58d797
-ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
+ms.openlocfilehash: 2b4c1efac249b315de25348a104f00a613c32df9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "7731809"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071733"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Skipuleggja starfsfólk með því að nota deildir, störf og stöður
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -48,34 +51,20 @@ Deild er rekstrareining sem stendur fyrir flokk eða virkt svið fyrirtækis sem
 
 ## <a name="jobs-and-positions"></a>Störf og stöður
 Verk er safn verkefni og ábyrgðarsviða sem eru ætlast til af einstaklings sem framkvæmir verk. Staða er sérstakt tilvik starfs. Ábyrgðarsvið, verkhlutar, starfshlutverk, hæfni, menntunarupplýsingar og skírteini sem eru nauðsynleg fyrir verk eru einnig nauðsynleg fyrir stöður sem eru tengdar við verk.
+
 ### <a name="job-tasks"></a>Verkefni starfs
+
 Þú getur stofna verkefni starfs sem lýsa grunnatriði verkefnis sem starfskraftur í staða fyrir þá vinnsla verður að ljúka. Sama verkefni starfs er hægt að bæta við mörgum störf og stöður fyrir þær vinnslur munu erfa þau verkefni. Nokkur dæmi um verkefni starfs talin upp í eftirfarandi töflu.
 
-<table>
-<thead>
-<tr class="header">
-<th>Vinnsla</th>
-<th>Verkefni starfs</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Sölustjóri</td>
-<td><ul>
-<li><span class="input">Perf yfirferð</span> – fara Yfir afköst hverja sölumanns.</li>
-<li><span class="input">Abs yfirferð</span> – Samþykkja eða hafna fjarvistabeiðnir hverja sölumanns eða skráningar.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Bókhaldari</td>
-<td><span class="input">FIN Skýrslu</span> – Birta vikulegt fjárhagsskýrslur til fjármálastjórnandi .</td>
-</tr>
-</tbody>
-</table>
+| Vinnsla           | Verkefni starfs                                                |
+|---------------|-------------------------------------------------------------|
+| Sölustjóri | Perf yfirferð – fara Yfir afköst hverja sölumanns.    |
+| Bókhaldari    | Abs yfirferð – Samþykkja eða hafna fjarvistabeiðnir hverja sölumanns eða skráningar. |
+
 
 ### <a name="job-functions"></a>Starfshlutverk
 
-Starfshlutverk eru eins og verkefni starfs. Starfshlutverk lýsir Eitt eða fleiri verkefni, skyldur og ábyrgð sem eru úthlutað á starf. Starfshlutverkum er hægt að úthluta á störf og notaðar til að setja upp og innleiða hæfnisreglur fyrir launafyrirkomulag. Nokkur dæmi um starfshlutverk eru talin upp í eftirfarandi töflu.
+Starfshlutverk eru eins og verkefni starfs. Starfsfall lýsir einu eða fleiri verkefnum, skyldum eða skyldum sem eru úthlutað til starfa. Starfshlutverkum er hægt að úthluta á störf og notaðar til að setja upp og innleiða hæfnisreglur fyrir launafyrirkomulag. Nokkur dæmi um starfshlutverk eru talin upp í eftirfarandi töflu.
 
 | Vinnsla           | Starfshlutverk                                                |
 |---------------|-------------------------------------------------------------|

@@ -1,5 +1,5 @@
 ---
-title: Skilgreining hjálparupplifunar fyrir Finance and Operations-forrit
+title: Stilltu hjálparupplifunina fyrir Finance and Operations forrit
 description: Þetta efnisatriði lýsir þáttum hjálparkerfisins fyrir sum Microsoft Dynamics 365-forrit.
 author: margoc
 ms.date: 08/11/2021
@@ -15,22 +15,25 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a6c37822e84ba08fa0720ed2b3912cbec1448e3
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
-ms.translationtype: HT
+ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594858"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071009"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Skilgreining hjálparupplifunar fyrir Finance and Operations-forrit
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Stilltu hjálparupplifunina fyrir Finance and Operations forrit
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna yfirlit yfir þætti hjálparkerfisins fyrir Finance and Operations-forrit á borð við Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce og Dynamics 365 Human Resources. Efnisatriðið útskýrir einnig hvernig á að tengja þessa þætti og býður upp á samantekt yfir ferlið til að búa til sérstillta hjálp.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Í þessu efni finnurðu yfirlit yfir íhluti hjálparkerfisins fyrir fjármála- og rekstraröpp, eins og Microsoft Dynamics 365 Finance,Dynamics 365 Supply Chain Management,Dynamics 365 Commerce, og Dynamics 365 Human Resources. Efnisatriðið útskýrir einnig hvernig á að tengja þessa þætti og býður upp á samantekt yfir ferlið til að búa til sérstillta hjálp.
 
 ## <a name="help-architecture"></a>Högun Hjálpar
 
-Finance and Operations-forrit innihalda almenn yfirlit og önnur efnisatriði sem eru birt á vefsvæðinu [Fylgiskjöl Microsoft Dynamics 365](/dynamics365/). Þetta efni er svo hægt að nálgast á **hjálparsvæði** vörunnar. Eftirfarandi skýringarmynd sýnir hluta hjálparkerfisins.
+Fjármála- og rekstrarforrit innihalda hugmyndafræðilegar yfirlit og önnur efni sem eru birt á [Microsoft Dynamics 365 skjöl](/dynamics365/) síða. Þetta efni er svo hægt að nálgast á **hjálparsvæði** vörunnar. Eftirfarandi skýringarmynd sýnir hluta hjálparkerfisins.
 
 [![Högun Hjálpar.](./media/help-architecture.png)](./media/help-architecture.png)
 
@@ -60,7 +63,7 @@ Til að skilgreina verkefnaleiðbeiningar fyrir lausn skal fylgja þessum skrefu
 2. Veljið BPM söfn (innan valins verks) til að sækja verkskráningu úr .
 3. Velja birtingarröð BPM safna. Birtingarröðin ákvarðar í hvaða röð verkskráningar úr söfnunum birtast á svæðinu **Hjálp**.
 
-Eftir að þessum skrefum hefur verið lokið, er hægt að opna rúðuna **Hjálp** og velja flipann **Verkleiðbeiningar**. Nú sérðu verkefnaleiðbeiningar sem eiga við um síðuna sem þú ert á í Finance and Operations forritum. Ef engin verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina.
+Eftir að þú hefur lokið þessum skrefum geturðu opnað **Hjálp** rúðu og veldu **Verkefnaleiðbeiningar** flipa. Þú munt nú sjá verkefnaleiðbeiningarnar sem eiga við síðuna sem þú ert á í Finance and Operations forritum. Ef engin verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina.
 
 ### <a name="showing-translated-task-guides"></a>Sýnir þýddar leiðbeiningar verkefninu
 
@@ -84,7 +87,7 @@ Fyrir samstarfsaðila, ef þú færir safn inn í fyrirtækissafn og hefur það
 
 ### <a name="connect-a-custom-help-site"></a>Tengja sérstillt hjálparsvæði
 
-Finance and Operations-forrit eru sjaldan notuð eins og þau eru afhent. Þess í stað er lausnin sérsniðin og útvíkkuð til að passa við þarfir fyrirtækisins. Einnig er hægt að sérsníða og víkka út hjálparupplifunina. Til dæmis er hægt að bæta við sérsniðinni hjálp á **hjálparsvæðið**.
+Fjármála- og rekstrarforrit eru sjaldan notuð í út-af-kassa formi. Þess í stað er lausnin sérsniðin og útvíkkuð til að passa við þarfir fyrirtækisins. Einnig er hægt að sérsníða og víkka út hjálparupplifunina. Til dæmis er hægt að bæta við sérsniðinni hjálp á **hjálparsvæðið**.
 
 Microsoft hefur gefið út verkfærasett til að auðvelda uppsetningu og teningu sérsniðinnar hjálpar á **hjálparsvæðinu**. Frekari upplýsingar um hvernig hægt er að setja upp sérsniðna hjálparlausn sem er tengd við **hjálparsvæðið** er finna í [Sérsniðið hjálparyfirlit](../../dev-itpro/help/custom-help-overview.md).
 

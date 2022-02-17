@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 883948c6e3f7b205d7e0f1f2b6adef1173616dc1
-ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
-ms.translationtype: HT
+ms.openlocfilehash: 188a87f580c274e073710601ef306139f723c797
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7431126"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071727"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Skilgreina launavinnslu og reikna niðurstöður
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -40,13 +43,13 @@ Launavinnslu eru notaðar til að ákvarða nýja upphæðir launa og umbun fyri
     * Virka dagsetningu færslu er dagsetningin sem ný launataxta ætti að taka gildi. Mörg fyrirtæki hafa nokkrar mánuðir á milli þeirra ferlisloka og tímans þegar nýja launataxta tekin í gildi. Viðbótar tími notaður til vinnslu og endurskoða nýja launa.  
 8. Í svæðinu **Virka dagsetning færslu**, færið inn dagsetningu.
     * Dagsetning á tímapunkti er notað fyrir breytilegar launafyrirkomulag sem ákvarða upphæð umbunar starfsmanns á grundvelli þeirra launataxti á þessum tímapunkti.  
-    * Föst laun á metið ráðningardagsetning er notað með launafyrirkomulagi fastra launa með ráðningarreglu í prósentum.  Starfsmenn sem ráðnir eru á milli upphafs ferlisins og á föst laun á metið ráðningardagsetning fær 100% af þeirra útreiknuðu launa aukningum, í stað hlutfallslegrar prósentu.  
+    * Föst laun hlutfallslega ráðningardagsetning er notuð með föstum bótaáætlunum með ráðningarreglu um **Prósenta**. Starfsmenn sem ráðnir eru á milli upphafs ferlisins og á föst laun á metið ráðningardagsetning fær 100% af þeirra útreiknuðu launa aukningum, í stað hlutfallslegrar prósentu.  
 9. Færa inn dagsetningu í reitnum **Ráðningardagsetning fyrir hlutfallsleg föst laun**.
     * Lokadagsetning endurskoðunar er dagsetningin sem allar niðurstöður ferlis ætti að endurskoða fyrir, svo þær er hægt að hlaða inn launafærslu starfsmanns fyrir virka dagsetningu færslunnar. Þetta svæði er einungis til upplýsingar.  
 10. Í reitinn **Endurskoða lokadagsetningu**, skal færa inn dagsetningu.
 11. Smelltu á **Vista**.
 
-## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a>Setja upp launafyrirkomulag og aðgerðir fyrir launavinnsla
+## <a name="set-up-the-compensation-plans-and-actions-for-a-compensation-process"></a>Settu upp bótaáætlanir og aðgerðir fyrir bótaferli
 1. **Smellt er á Uppsetningu.**
     * **Uppsetning** síðu er notuð til að velja hvaða áætlanir sem vinna á sem hluti af þessu launavinnsla, auk hvaða aðgerðir eigi að beita gagnvart hverja áætlun.  
 2. Í reitinn **Áætlun** slærðu inn eða velur gildi.
@@ -56,7 +59,7 @@ Launavinnslu eru notaðar til að ákvarða nýja upphæðir launa og umbun fyri
 6. Smelltu á **Bæta við**.
 7. Velja **Verðleikategund** aðgerðar í svæðinu **Aðgerð**.
     * Launaaðgerðir getur verið „hlekkjuð" saman með því að nota svæðið **Nota fyrri niðurstöðu** til að gefa til kynna hvort valin aðgerð skuli nota grunnlaunum starfsmenn eða niðurstöður síðustu aðgerðar sem upphafspunkt fyrir útreikning í þessari aðgerð.  
-8. Velja skal **Já** í svæðinu á Notkun fyrri niðurstöðu.
+8. Veldu **Já** í **Notaðu fyrri niðurstöðu** sviði.
 9. Smelltu á **Bæta við**.
 10. Velja **Almenn** gerð aðgerðarinnar í svæðinu **Aðgerð**.
     * Mismunandi launagerðir aðgerða virkja mismunandi svæðum. Fyrir almenna launagerð aðgerðar, er hægt að tilgreina hækkaða prósentu eða hækkaða upphæð.  
@@ -85,7 +88,7 @@ Launavinnslu eru notaðar til að ákvarða nýja upphæðir launa og umbun fyri
 1. Smelltu á **Niðurstöður ferlis**.
 2. Smelltu á **niðurstöður starfsmaður**.
 3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-4. Útvíkka hlutann Fastra launa.
+4. Stækkaðu **Fastar bætur** kafla.
     * Útvíkka flýtiflipar til að skoða niðurstöður ferlis. Ef **Virkja ráðleggingar** var merkt fyrir aðgerð launa, munu reitirnir **Ráðlegging** vera virkjað fyrir þá aðgerð.  
 5. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
     * Hægt er að skoða niðurstöður fyrir stakan starfsmann með því að smella á hnappinn **Skoða niðurstöður**.  
