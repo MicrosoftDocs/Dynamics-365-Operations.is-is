@@ -1,31 +1,36 @@
 ---
 title: Einkunna- og umsagnaeiningar
-description: Þetta efnisatriði fer yfir stillingu einkunna og endurskoðun einingar á upplýsingasíðum í Microsoft Dynamics 365 Commerce.
+description: Þetta efni fjallar um mat og yfirferð einingar sem notaðar eru á upplýsingasíðum afurða í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: 66ee2d4185cad45b70b19fb474c64ae77a2868e835b20d5275e21610c0150370
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 85fb1272103eed7d6e44635b7c20438471d96b34
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761563"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413260"
 ---
 # <a name="ratings-and-reviews-modules"></a>Einkunna- og umsagnaeiningar
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði nær yfir stillingu einkunna og endurskoðun einingar á upplýsingasíðum í Microsoft Dynamics 365 Commerce.
+Þetta efni fjallar um mat og yfirferð einingar sem notaðar eru á upplýsingasíðum afurða í Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Mat og umsagnir á vefsíðum um netverslun hjálpa viðskiptavinum að fræðast um vörur áður en þeir taka kaupákvörðun og eru einnig búnaður til að safna endurgjöf viðskiptavina um afurðir. 
 
@@ -42,23 +47,19 @@ Stuðlarit einkunna og afurðaumsagnir eru sýndar á upplýsingasíðum afurða
  
 Eftirfarandi mynd sýnir hvernig einkunnirnar og umsagnirnar líta út á PDP.
 
-![Einkunna- og umsagnaeiningar á PDP.](media/rnr-eCommerce-pdp-reviews-modules_design.png)
+![Einkunna- og umsagnaeiningar á PDP](media/rnr-eCommerce-pdp-reviews-modules_design.png)
 
 > [!TIP] 
 > Fyrir upplýsingar um hvernig á að fínstilla PDP sniðmát og útlit svo að þú getir deilt stillingum fyrir einingar einkunna og umsagna meðal margra PDP á netverslunarvefsvæðinu, sjá [Yfirlit yfir sniðmát og útlit](templates-layouts-overview.md).
 
 Eftirfarandi mynd sýnir hvernig glugginn **Bæta við einingu** birtir einingar einkunna og umsagna í Dynamics 365 Commerce.
-![Bæta við einingaglugga.](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
+![Bættu við einingaglugga](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
 
 ### <a name="write-review-module"></a>Skrifa umsagnareiningu
 
 Í einingunni skrifa umsögn inniheldur hnappurinn **Skrifa umsögn** sem gerir notendum kleift að skrá sig inn, úthluta mati og skrifa umsögn um vöru. Þessi eining gerir notendum einnig kleift að breyta einkunn eða umsögn sem þeir sendu inn áður. Þessi eining birtist venjulega fyrir ofan einingarnar stuðlarit einkunna og lista yfir afurðaumsagnir á PDP.
 Eftirfarandi mynd sýnir valmyndina **Skrifa umsögn** sem birtist þegar viðskiptavinur velur **Skrifa umsögn**. Viðskiptavinurinn getur notað þennan glugga til að leggja fram mat og umsögn.
-
-![Svarglugginn Skrifa umsögn.](media/rnr-eCommerce-write-review-module.png)
-
-Eftirfarandi tafla sýnir eiginleikann fyrir eininguna skrifa umsögn sem þarf að stilla í höfundatólinu.
-
+![Skrifaðu umsagnarglugga](media/rnr-eCommerce-write-review-module.png) Eftirfarandi tafla sýnir eiginleikann fyrir eininguna skrifa umsögn sem þarf að stilla í höfundatólinu.
 | Nafn eiginleika | Virði        | Lýsing á eiginleika                 |
 |---------------|--------------|--------------------------------------|
 | Nafn          | Skrifa umsögn | Heiti einingarinnar skrifa umsögn. |
@@ -67,7 +68,7 @@ Eftirfarandi tafla sýnir eiginleikann fyrir eininguna skrifa umsögn sem þarf 
 
 Stuðlaritseining einkunna sýnir stuðlarit með einkunnum. Þessi eining birtist venjulega á milli eininga skrifa umsagna og afurðaumsagnalistaeiningarinnar á PDP.
 Stuðlaritseining einkunna þarf enga skilgreiningu. Þú þarft bara að bæta einingunni við í PDP sniðmátinu. Eftirfarandi myndir sýna hvernig PDP sniðmát lítur út í Dynamics 365 Commerce þegar einkunnir og umsagnaeiningar eru stilltar til birtingar á PDP.
-![PDP sniðmát þegar einkunnir og umsagnir eru stilltar til birtingar á PDP.](media/rnr-eCommerce-pdp-reviews-modules.png)
+![PDP sniðmát þegar einkunnir og umsagnir eru stilltar til birtingar á PDP](media/rnr-eCommerce-pdp-reviews-modules.png)
 
 ### <a name="product-reviews-list-module"></a>Eining umsagnalista afurðar
 
@@ -82,7 +83,7 @@ Eftirfarandi tafla sýnir eiginleika fyrir einingu yfir umsagnalista afurða sem
 
 Einingin yfir afurðaumsagnalista inniheldur hólf þar sem þú getur bætt við stuðlaritseiningu einkunna. Eftirfarandi mynd sýnir hvernig þú getur bætt við stuðlaritseiningu einkunna fyrir afurðaumsagnalista í Dynamics 365 Commerce.
 
-![Bætir við stuðlaritseiningu einkunna í einingu afurðaumsagnalista.](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
+![Bætir við stuðlaritseiningu einkunna í einingu afurðaumsagnalista](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -99,6 +100,3 @@ Einingin yfir afurðaumsagnalista inniheldur hólf þar sem þú getur bætt vi�
 [Fyrirsagnareining](author-header-module.md)
 
 [Neðanmálseining](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

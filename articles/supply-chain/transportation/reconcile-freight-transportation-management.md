@@ -1,10 +1,12 @@
 ---
 title: Afstemming farms í flutningsstjórnun
 description: Þetta efni útskýrir ferli afstemmingar farms.
-author: Henrikan
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSFBDetailReconcile, TMSInvoiceTable,TMSInvoiceLineReconcile,TMSReconcileInvoice, TMSFreightBillDetail, TMSFreightBillTypeAssignment, TMSRejectInvoiceLine, TMSMiscellaneousCharge
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 89983
 ms.assetid: bc34a9b1-0c11-4797-b463-25409cf98ca8
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a63bfd34860c6a7c34cbc526c6a621cbc9666efc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac07155e4dde77689b1994abfb8b30f45d5a5a30
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574906"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014509"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>Afstemming farms í flutningsstjórnun
 
@@ -35,13 +37,13 @@ Afstemming farms hægt að gera handvirkt eða hægt er að setja hann upp til a
 
 Farmgjöld eru reiknaðar af taxtavél sem tengist viðkomandi farmflytjanda. Þegar farmur er staðfest farmbréfs er mynduð og farmgjöld eru fluttar í honum. Skatthlutfall farms eru skipts sem ýmis gjöld fyrir viðkomandi upprunaskjalið (innkaupapöntun, sölupöntun, og/eða flutningspöntun), eftir uppsetningu sem er notuð fyrir venjulegum reikningsferli. Ferli afstemmingar farms (sem er einnig þekkt sem samsvarandi) getur hafist þegar farmreikninginn berst frá farmflytjandanum. Hægt er að fá reikningsins rafrænt eða á pappír. Ef reikningurinn er móttekin á pappír, hægt er að mynda rafræna reikninga með því að nota farmbréfið sem sniðmát.
 
-[![Afstemmingarferli farms.](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
+[![Afstemmingarferli farms](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>handvirkur afstemmingu
 
 Ef verið er að afstemmingu farms handvirkt, verður að samsvara hverri reikningslínu með farmbréf línu eða línum fyrir farm sem verið er að reikningsfæra. Gera þetta jöfnun á **Farmbréf og reikningsjöfnun** síðu. Ef magn á reikningslínu passar ekki við upphæð farmbréf, verður að velja afstemmingarástæða fyrir mismuninn. Ef eru margar ástæður fyrir afstemmingu er hægt að skipta ójöfnuð upphæð á þeim. Ástæða afstemmingu ákvarðar hvernig mismunur upphæðirnar eru bókaðar í fjárhag. Þegar afstemmingu allt reikningsupphæð er tekið, er hún send til samþykkis og síðan bóka færslubókina. Eftirfarandi dæmi sýnir hvernig á að mynda reikning farms og framkvæma afstemmingu farms.
 
-[![Afstemmingarverk farms.](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
+[![Afstemmingarverk farms](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 
 ## <a name="automatic-reconciliation"></a>Sjálfvirka afstemmingu
 
@@ -103,6 +105,3 @@ Ein leið til að gera handvirka samsvörun í þessu dæmi er að halda áfram 
 1. Jafna Inv1 og Inv 2 við farmbréf eitt á eftir öðru. Farmbréf er að samsvarað að fullu.
 
 Eins og þetta dæmi sýnir á aðeina að samsvara farmreikninga með neikvæðum upphæðum handvirkt. Þetta tryggir að það sé alltaf hægt að samsvara farmreikninga með neikvæðum upphæðum við farmbréf sem ekki er samsvarað að fullu vegna þess að það gerir notanda kleift að hafa stjórnun á röð samsvörunar.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

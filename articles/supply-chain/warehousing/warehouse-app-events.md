@@ -2,29 +2,32 @@
 title: Viðburðir vöruhúsaforrits
 description: Þetta efnisatriði lýsir úrvinnslu á viðburðum vöruhúsaforrits sem notaðir eru til að vinna úr skilaboðum um viðburð vöruhúsaforrits sem hluti af runuvinnslu.
 author: perlynne
+manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d1e648b5db9405e749fbd24502f65f344d0549b0f13b48e98c38d1476866db01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 210008c4a1366773f465c59b38eca30f11f0b38c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729987"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430194"
 ---
 # <a name="warehouse-app-event-processing"></a>Vinnsla viðburða í vöruhúsaforriti
 
 [!include [banner](../includes/banner.md)]
 
-Runuvinnslur sem keyra í Supply Chain Management geta notað gögn úr þessari biðröð til að vinna úr viðburðum sem farsímaforrit vöruhúsakerfis gefur út til að bregðast við tilkynntum viðburðum eftir því sem þörf krefur. Þessi eiginleiki bætir viðeigandi viðburðum við biðröðina sem svar við tilteknum gerðum aðgerða sem starfsmenn sem nota forritið grípa til. Dæmi er þegar verið er að nota eiginleikann *Stofna og vinna úr flutningspöntunum úr vöruhúsaforriti*, verða haus og línur flutningspöntunar stofnaðar og uppfærðar í bakvinnslunni þegar kerfið keyrir runuvinnsluna **Vinna úr viðburðum vöruhúsaforrits**.
+Runuvinnslur sem keyra í Supply Chain Management geta notað gögn úr þessari biðröð til að vinna úr viðburðum sem vöruhúsaforritið gefur út til að bregðast við tilkynntum viðburðum eftir því sem þörf krefur. Þessi eiginleiki bætir viðeigandi viðburðum við biðröðina sem svar við tilteknum gerðum aðgerða sem starfsmenn sem nota forritið grípa til. Dæmi er þegar verið er að nota eiginleikann **Stofna og vinna úr flutningspöntunum úr vöruhúsaforriti**, verða haus og línur flutningspöntunar stofnaðar og uppfærðar í bakvinnslunni þegar kerfið keyrir runuvinnsluna **Vinna úr viðburðum vöruhúsaforrits**.
 
 ## <a name="enable-the-process-warehouse-app-events-feature"></a>Virkja eiginleikann fyrir „Vinna úr viðburðum vöruhúsaforrits“
 
@@ -48,7 +51,7 @@ Setjið upp áætlaða runuvinnslu til að vinna úr viðburðum í vöruhúsafo
 
 ## <a name="query-warehouse-app-events"></a>Fyrirspurn um viðburði vöruhúsaforrits
 
-Hægt er að skoða viðburðaröðina og viðburðaskilaboðin sem farsímaforrit vöruhúsakerfis býr til með því að fara í **Vöruhúsakerfi \> Fyrirspurnir og skýrslur \> Kladdar fartækis \> Viðburðir vöruhúsaforrits**.
+Hægt er að skoða viðburðaröðina og viðburðaskilaboðin sem vöruhúsaforritið býr til með því að fara í **Vöruhúsakerfi \> Fyrirspurnir og skýrslur \> Kladdar fartækis \> Viðburðir vöruhúsaforrits**.
 
 ## <a name="the-standard-event-queue-process"></a>Hefðbundin vinnsla á viðburðaröð
 
@@ -75,6 +78,3 @@ Til að endurstilla mislukkuð viðburðarskilaboð vöruhúsaforrits:
 1. Vinnið áfram þar til öll viðeigandi skilaboð eru endurstillt.
 
 Einnig er hægt að fjarlægja **tókst ekki** viðburðarskilaboð með því að nota **Eyða** valkostinn í tækjastikunni **Viðburðarskilaboð vöruhúsaforrits**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

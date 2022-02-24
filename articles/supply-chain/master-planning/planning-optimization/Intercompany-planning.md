@@ -2,13 +2,16 @@
 title: Áætlanagerð innan samstæðu
 description: Þetta efnisatriði lýsir áætlanagerð innan samstæðu og útskýrir hvernig á að skilgreina áætlanagerð innan samstæðu með fínstillingu skipulagningar í Microsoft Dynamics 365 Supply Chain Management.
 author: ChristianRytt
+manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2bf69a5d0d6e070374277e2d82d5fbf6eb4b8704895ffe31aa7e2d2d3546bb16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 25c80ce27498131c6eb92174ab14a592bfa9915a
+ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777912"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672190"
 ---
 # <a name="intercompany-planning"></a>Áætlanagerð innan samstæðu
 
@@ -45,8 +48,8 @@ Við aðaláætlanagerð getur áætlun í einu fyrirtæki falið í sér áætl
 
 Til að nota samstæðuáætlun verður þú að undirbúa kerfið þitt á eftirfarandi hátt:
 
-1. Losa verður viðeigandi afurðir í öllum viðeigandi fyrirtækjum. Frekari upplýsingar er að finna í [skilgreina og nota samstæðuviðskipti í Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) á Microsoft Learn.
-1. Eftirspurn fyrir neðan verður að svara með innkaupum af lánardrottinn sem er með samstæðutengsl við fyrirtækið fyrir ofan og viðeigandi sjálfgefnar birgðavíddir (svæði og vöruhús) viðskiptavinarins. Frekari upplýsingar er að finna í [skilgreina og nota samstæðuviðskipti í Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) á Microsoft Learn.
+1. Losa verður viðeigandi afurðir í öllum viðeigandi fyrirtækjum. Frekari upplýsingar er að finna í [skilgreina og nota samstæðuviðskipti í Dynamics 365 Supply Chain Management ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) á Microsoft Learn.
+1. Eftirspurn fyrir neðan verður að svara með innkaupum af lánardrottinn sem er með samstæðutengsl við fyrirtækið fyrir ofan og viðeigandi sjálfgefnar birgðavíddir (svæði og vöruhús) viðskiptavinarins. Frekari upplýsingar er að finna í [skilgreina og nota samstæðuviðskipti í Dynamics 365 Supply Chain Management ](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) á Microsoft Learn.
 1. Aðaláætlunin í fyrirtækinu fyrir ofan verður að innihalda áætlaða eftirspurn fyrir neðan og tilgreina verður viðeigandi fyrirtæki og aðaláætlun í áætlunum fyrir neðan.
 
 ## <a name="include-planned-downstream-demand"></a>Þ.m.t. áætluð eftirspurn forstreymis
@@ -76,7 +79,7 @@ Fylgdu eftirfarandi skrefum til að skoða marglaga upplýsingar um þarfaraknin
 
 Eftirfarandi mynd sýnir hvernig þetta dæmi kann að birtast á síðunni **margbrotin Þarfarakning** fyrir áætluðu framleiðslupöntunina.
 
-![Samstæðudæmi sem inniheldur tvö fyrirtæki.](media/IntercompanyPlanning1.png)
+![Samstæðudæmi sem inniheldur tvö fyrirtæki](media/IntercompanyPlanning1.png)
 
 ### <a name="intercompany-example-that-involves-three-companies"></a>Dæmi um fyrirtæki innan samstæðu sem felur í sér þrjú fyrirtæki
 
@@ -84,7 +87,4 @@ Eftirfarandi mynd sýnir hvernig þetta dæmi kann að birtast á síðunni **ma
 
 Eftirfarandi mynd sýnir hvernig þetta dæmi kann að birtast á síðunni **margbrotin Þarfarakning** fyrir áætluðu framleiðslupöntunina.
 
-![Dæmi um fyrirtæki innan samstæðu sem felur í sér þrjú fyrirtæki.](media/IntercompanyPlanning2.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Dæmi um fyrirtæki innan samstæðu sem felur í sér þrjú fyrirtæki](media/IntercompanyPlanning2.png)

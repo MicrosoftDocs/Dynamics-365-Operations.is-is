@@ -1,25 +1,29 @@
 ---
 title: Yfirlit yfir þjónustuhluti
-description: Þetta efnisatriði veitir yfirsýn yfir hvernig á að vinna með þjónustuhluti.
-author: kamaybac
+description: Þjónustuhlutir eru eignir og afurðir viðskiptavinar sem hægt er að framkvæma þjónustu við.
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad758d32c6e9de0758c6fddb57a7dea886ab73d4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 29d2cf6a496fed8d9932d5c6d49f4560d7eabbbb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986436"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430020"
 ---
 # <a name="service-objects-overview"></a>Yfirlit yfir þjónustuhluti
 
@@ -31,7 +35,7 @@ ms.locfileid: "7986436"
 
     Áþreifanlegur þjónustuhlutur getur einnig verið birgðavara sem er stofnuð í skjámyndinni Upplýsingar um losaða afurð. Eftir birgðavíddarflokkurinn sem er tengdur vörunni, hægt er að stofna þjónustuhlut upplýsingastigi sem inniheldur raðnúmer vöru. Þetta er gagnlegt ef um er að fylgjast með nákvæma vöruna sem táknar þann þjónustuhlut.
 
-    Efnislegar þjónustuhlut getur einnig verið vara sem er ekki beint tengdur framleiðsla fyrirtækis eða birgðakeðju. Til dæmis verkfæri setts sem er notað fyrir viðgerðir í þjónustupöntun getur þjónustuhlut sem er ekki í birgðum. Í þessu tilfelli er það ekki skráð sem birgðavara.
+    Efnislegar þjónustuhlut getur einnig verið vara sem er ekki beint tengdur framleiðsla fyrirtækis eða birgðakeðju. Til dæmis verkfæri setts sem er notað fyrir viðgerðir í þjónustupöntun getur þjónustuhlut sem er ekki í birgðum. Í þessu tilfelli skrárðu það ekki sem birgðavöru.
 
 -  Óáþreifanlegir hlutir eru óefnislegir hlutir, eins og reikningsflokkur eða lagalegt fylgiskjal, sem hægt er að framkvæma þjónustuverk fyrir.
 
@@ -43,6 +47,3 @@ Fyrirtæki A viðheldur fjárhagslegum færslum fyrir lítilla fyrirtækja. Einn
 
 [Stofna þjónustuhluta](create-service-objects.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,31 +1,37 @@
 ---
 title: Skilyrði fyrir rásauppsetningu
-description: Þetta efnisatriði sýnir yfirlit yfir forsendur rásauppsetningar í Microsoft Dynamics 365 Commerce.
+description: Þetta efni birtir yfirlit yfir forsendur fyrir uppsetningu rása í Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6ad8911df00fde4675d4d9b52fcdd52ff58d4983b177316a7606de277328226b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0da0457240cf12686fff2fa929c7fb510c11f242
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742465"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413118"
 ---
-# <a name="channel-setup-prerequisites"></a>Skilyrði fyrir uppsetningu rásar
+# <a name="channel-setup-prerequisites"></a>Skilyrði fyrir rásauppsetningu
+
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði sýnir yfirlit yfir forsendur rásaruppsetningar í Microsoft Dynamics 365 Commerce.
+Þetta efni birtir yfirlit yfir forsendur fyrir uppsetningu rása í Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Áður en hægt er að stofna rás í Dynamics 365 Commerce verður nokkrum nauðsynlegum verkum að vera lokið. Eftirfarandi listar með forsenduverkum eru skipulagðir eftir gerð rásar.
 
@@ -80,6 +86,3 @@ ms.locfileid: "6742465"
 [Setja upp smásölurás](channel-setup-retail.md)
     
 [Setja upp netrás](channel-setup-online.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

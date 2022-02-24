@@ -2,9 +2,11 @@
 title: Nýjar eða uppfærðar verkefnaleiðbeiningar (ágúst 2016)
 description: Þetta efni sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (ágúst 2016 -- öll tungumál) APQC, Unified Library for Microsoft Dynamics AX. Engin ný Safn hafist handa var losuð.
 author: josaw1
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: be2dbf8307baa37549e2e81ec05f067ab82bfda8e77cace6a4f4731a84f2776d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 504cd1c920e75eb6bcbcdcda668336ba74fb09f3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733078"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796557"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Nýjar eða uppfærðar verkefnaleiðbeiningar (ágúst 2016)
 
@@ -97,6 +99,3 @@ ms.locfileid: "6733078"
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (maí 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)](new-task-guides-november-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

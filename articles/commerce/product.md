@@ -2,9 +2,11 @@
 title: Bæta afurðaráðleggingum við sölustað
 description: Þetta efni lýsir notkun ráðlegginga um vöru á sölustað (POS) tæki.
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 29f502df7c158611df4eb2ddd5ac0e6bd6b4fe628113b2c544e33ba9c41cbcc7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08784385dd1fead13f538b4e856b4bac6651a560
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763741"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969927"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Bæta afurðaráðleggingum við sölustað
 
@@ -39,7 +41,7 @@ Vöruráðleggingar eru virkjaðar fyrir eftirfarandi aðstæður sölustaðar. 
 
     - Ef aðili tengdur verslun fer á síðuna **Upplýsingar um afurð** þegar hann skoðar fyrri færslur þvert á mismunandi rásir stingur þjónustan upp á fleiri vörum sem eru líklegar til að vera keyptar saman.
 
-    [![Meðmæli á upplýsingasíðu afurðar.](./media/proddetails.png)](./media/proddetails.png)
+    [![Meðmæli á upplýsingasíðu afurðar](./media/proddetails.png)](./media/proddetails.png)
 
 2. Á síðunni **Færsla**:
 
@@ -48,7 +50,7 @@ Vöruráðleggingar eru virkjaðar fyrir eftirfarandi aðstæður sölustaðar. 
     > [!NOTE]
     > Til að birta ráðleggingar á síðunni **Færsla** þarf smásöluaðilinn að uppfæra skjáútlitið í Dynamics 365 Commerce. Sleppa verður stýringunni **Ráðleggingar** á síðuna **Færsla**.
 
-    [![Meðmæli á færslusíðunni.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Meðmæli á færslusíðunni](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 ## <a name="configure-commerce-to-enable-pos-recommendations"></a>Skilgreina Commerce til að virkja ráðleggingar sölustaðar
 
@@ -89,6 +91,3 @@ Til að setja upp vöruráðleggingar skal fylgja þessum skrefum:
 [Búðu til tillögur með kynningargögnum](product-recommendations-demo-data.md)
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Flytja út gögn dótturfyrirtækis í skrár
 description: Þetta efnisatriði útskýrir hvernig á að undirbúa útflutning gagna úr Microsoft Dynamics 365 Finance og síðan flytja þau inn í sameinaðan lögaðila.
 author: jinniew
+manager: AnnBe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 02ae9945f7b67fb64be78a024910d7e1151c7446fd54b71034c5ba448c00b081
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 179a401178935b8a76d6718a7fb1f63e08344f50
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768772"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968680"
 ---
 # <a name="export-subsidiary-data-to-files"></a>Flytja út gögn dótturfyrirtækis í skrár
 
@@ -68,6 +70,3 @@ Síðan **Flytja út** (**Kerfisstjórnun \> Vinnusvæði \> Flytja inn/út**) e
 5. Veljið **Í lagi** til að keyra útflutninginn.
 
 Þegar útflutningi er lokið koma upp skilaboð sem sýna fjölda færslna sem var vistaður í hverja skrá. Síðan er hægt að flytja inn skrárnar í sameinuðu lögaðilanna.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

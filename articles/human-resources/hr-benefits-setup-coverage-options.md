@@ -1,42 +1,36 @@
 ---
 title: Stofna tryggingarvalkosti
-description: Þetta efnisatriði lýsir tryggingarvalkostum í Microsoft Dynamics 365 Human Resources fyrir kosningu þátttakanda í fríðindaáætlun eða -pakka.
-author: twheeloc
-ms.date: 08/24/2021
+description: Umfjöllunarvalkostir í Microsoft Dynamics 365 Human Resources eru umfjöllunarstig fyrir kosningu þátttakenda í bótakerfi eða áætlun.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 01eb0c56578cf6f6b070c4a05768ec5361993555
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 8690dbe00c2316ccf745f5222c3cbaa9c3379f85
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065869"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419070"
 ---
 # <a name="create-coverage-options"></a>Stofna tryggingarvalkosti
 
+Umfjöllunarvalkostir í Microsoft Dynamics 365 Human Resources eru umfjöllunarstig fyrir kosningu þátttakenda í bótakerfi eða áætlun. Til dæmis gætu umfjöllunarkostirnir falið í sér **Aðeins starfsmaður** vegna læknisáætlunar, eða **2x laun** vegna líftryggingaráætlunar. Þegar það er skilgreint geturðu notað valkosti um umfjöllun um fríðindi. Þú getur tengt valkost við eina eða fleiri áætlanir.
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+Þegar þú hefur skilgreint umfjöllunarvalkostina skaltu hengja þá við gerð bótaáætlunar. Áætlunartegundin er síðan tengd fríðindaáætlun eða áætlun. Umfjöllunarvalkostir sem tengjast áætlunartegundum eru tiltækir öllum áætlunum sem eru búnar til með þeirri áætlunartegund. 
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Tryggingarvalkostir ákvarða hverjir eiga að vera tryggðir eða hve mikil trygging er í boði í tryggingaráætlun. Fyrir sjúkraáætlun gætirðu t.d. verið með valkostinn **eingöngu starfsmaður**, valkostinn **starfsmaður + 1** og valkostinn **fjölskylda**. Fyrir líftryggingu er hægt að bjóða upp á tryggingu fyrir **1 x laun** eða **2 x laun**.
-
-Eftir að fríðindavalkostir hafa verið skilgreindir er hægt að endurnýta þá. Þú getur tengt valkost við eina eða fleiri áætlanir.
-
-> [!IMPORTANT]
-> Þegar þú hefur skilgreint tryggingarvalkosti skaltu hengja þá við gerð fríðindaáætlunar. Áætlunartegundin er síðan tengd fríðindaáætlun eða áætlun. Tryggingarvalkostir sem eru tengdir áætlunargerð eru í boði fyrir allar áætlanir af þeirri gerð sem er stofnuð.
-
-## <a name="create-coverage-options"></a>Stofna tryggingarvalkosti
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Skipulag**, veldu **Tryggingarvalkostir**.
 
 2. Veljið **Nýtt**.
@@ -47,9 +41,9 @@ Eftir að fríðindavalkostir hafa verið skilgreindir er hægt að endurnýta �
    | --- | --- |
    | **Tryggingarvalkostur** | Einkvæmt heiti tryggingarkosts. |
    | **Lýsing** | Lýsing á tryggingarvalkostinum. |
-   | **Tryggingarkóði** | Tryggingarkóðar úthluta lágmarks- og hámarksfjárhæðum fyrir hverja hæfa tegund þeirra sem fjallað er um. Tryggingarkóði gefur til kynna hverjir eru tryggðir eða umfang tryggingr sem leyfilegt er fyrir áætlunartegund. Þú getur tjáð tryggingna sem dollara eða prósentu. Dæmi:<ul><li>**Starfsm+1** – Til að vera hæfur verður starfsmaðurinn að hafa valið einn tengdan einstakling (ef fleiri en einn er valinn er hann ekki lengur gjaldgengur).</li><li>**Starfsm+fjölskylda** – Til að vera hæfur verður starfsmaðurinn að hafa valið að minnsta kosti tvo tengda einstaklinga.</li></ul> |
+   | **Tryggingarkóði** | Tryggingarkóðar úthluta lágmarks- og hámarksfjárhæðum fyrir hverja hæfa tegund þeirra sem fjallað er um. Tryggingarkóði gefur til kynna hverjir eru tryggðir eða umfang tryggingr sem leyfilegt er fyrir áætlunartegund. Þú getur tjáð tryggingna sem dollara eða prósentu. Dæmi:</br></br>- **Emp+1** - til að vera hæfur verður starfsmaðurinn að vera valinn einn háður (ef fleiri en einn eru valdir, þá fullnægir hann ekki lengur).</br></br>- **Emp+fjölskylda** - til að vera hæfur verður starfsmaður að velja að minnsta kosti tvo á framfæri. |
    | **Hámarksfjöldi** | Hámarksfjöldi skjólstæðinga. |
-   | **Staða** | Staða tryggingravalkosts. Ef staða tryggingarvalkosts er stillt á **Óvirk** verður ekki hægt að velja tryggingarvalkostinn í áætlunargerðum. |
+   | **Staða** | Staða tryggingravalkosts. Ef staða tryggingarvalkostsins er stillt á Óvirk er ekki hægt að velja tryggingarvalkostinn á áætlunartegundum. |
    | **Prósenta** | Prósentuupphæðin. Þessi reitur er aðeins virkur ef% x Laun var valið í reitnum tryggingarkóða. |
    | **Deilir** | Skiptingin sem á að nota við útreikninginn þegar þú velur tryggingarkóðann% x laun. |
    | **Lágmarksprósentuhlutfall** | Lágmarksprósentan þegar þú velur prósentu tryggingarkóða. |
@@ -61,10 +55,7 @@ Eftir að fríðindavalkostir hafa verið skilgreindir er hægt að endurnýta �
 
    | Svæði | Lýsing |
    | --- | --- |
-   | **Leyfa upphæð á framlagi starfsmanns** | Tilgreinir hvort starfsmönnum sé leyft að breyta upphæðum framlaga í sjálfsafgreiðslu fríðinda þegar þeir velja fríðindi. Þegar þessi gátreitur er valinn reiknar kerfið út færibreytur fríðindaáætlunarinnar miðað við upphæð framlagsins sem starfsmaðurinn færir inn í sjálfsafgreiðslu fríðinda. |
-   | **Leyfa tryggingarupphæð starfsmanns** | Tilgreinir hvort starfsmönnum sé leyft að breyta upphæðum trygginga í sjálfsafgreiðslu fríðinda þegar þeir velja fríðindi. Ef þú velur þennan gátreit mun kerfið reikna út breytur bótaáætlunar miðað við tryggingarupphæð sem starfsmaður leggur inn í sjálfsafgreiðslu starfsmanna. |
+   | **Leyfa upphæð á framlagi starfsmanns** | Tilgreinir hvort leyfa eigi starfsmönnum að breyta framlagsfjárhæð í sjálfsafgreiðslu bóta þegar þeir velja bætur. Ef þú velur þennan gátreit mun kerfið reikna út breytur bótaáætlunar miðað við framlagsupphæð sem starfsmaður leggur inn í sjálfsafgreiðslu bóta. |
+   | **Leyfa tryggingarupphæð starfsmanns** | Tilgreinir hvort leyfa eigi starfsmönnum að breyta tryggingarfjárhæð í sjálfsafgreiðslu bóta þegar þeir velja bætur. Ef þú velur þennan gátreit mun kerfið reikna út breytur bótaáætlunar miðað við tryggingarupphæð sem starfsmaður leggur inn í sjálfsafgreiðslu starfsmanna. |
 
 6. Veljið **Vista**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

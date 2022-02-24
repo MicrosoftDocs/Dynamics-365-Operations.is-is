@@ -1,26 +1,29 @@
 ---
 title: Setja upp afsláttarmiða fyrir smásölu
-description: Þetta efnisatriði gefur yfirlit yfir afsláttarmiða og útskýrir hvernig á að setja þá upp í Dynamics 365 Commerce.
-author: josaw1
-ms.date: 10/05/2021
+description: Þetta efnisatriði gefur yfirlit yfir afsláttarmiða og útskýrir hvernig á að setja þá upp.
+author: scott-tucker
+manager: AnnBe
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: josaw
+ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
-ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
+ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "7603124"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413088"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Setja upp afsláttarmiða fyrir smásölu
 
@@ -38,10 +41,6 @@ Til að stofna afsláttarmiða stofnarðu afsláttinn og afsláttarmiðinn í si
 
 > [!NOTE]
 > Þegar afsláttarmiði er tengdur við afslátt verða nokkrir reitir á afsláttarsíðunni í Commerce skrifvarðir vegna þess að stillingar afsláttarmiða stjórna þeim. Þessir reitir innihalda reitina fyrir stöðu og stöðluð dagsetningabil.
-> 
-> Þegar afsláttarmiðinn er notaður í rás símavers þarf að velja hnappinn **Endurreikna** **(flipann Selja > Reikna > Endurreikna)** til að afslátturinn sem tengist afsláttarmiðanum sé notaður. Þetta viðbótarskref verður fjarlægt í útgáfum í framtíðinni.
-
-Til að setja afsláttarmiða á sölufærslu á sölustað getur þú notað **afsláttarmiðakóða** eða **strikamerkjakóða afsláttarmiða**. Til að nota **afsláttarmiðakóða** verður aðgerðin **Bæta við afsláttarmiðakóða** að vera skilgreind á uppsetningu **færsluskjás** [á sölustað](pos-screen-layouts.md). Veldu **Bæta við afsláttarmiðakóða** og sláðu inn afsláttarmiðakóða. Einnig, til að nota **Strikamerkjakóði afsláttarmiða**, skannaðu strikamerki eða sláðu inn strikamerkið með því að nota talnaborðið á **færsluskjánum**.
 
 ### <a name="limited-use-coupons"></a>Afsláttarmiðar með takmarkaða notkun
 
@@ -83,6 +82,3 @@ Virkni afsláttarmiða samanstendur af mörgum ólíkum eiginleikum. Commerce-h�
 - **HQ er uppfært að hluta en Commerce Scale Unit og sölustaður eru ekki uppfærðir.** Í uppfærslu á HQ er afsláttarmiði og afsláttarsíða uppfærð og viðskiptaverðskerfið er einnig uppfært. Ef aðeins einn af þessum þáttum er uppfærður munu sumar síður í Commerce ekki passa við gögn um verðútreikninga. Þar af leiðandi gætu óvæntir útreikningar á afsláttum eða villur komið upp við útreikning á afsláttum.
 - **HQ er uppfært en Commerce Scale Unit og sölustaður eru ekki uppfærðir (N-1).** Þar sem ekki er hægt að uppfæra allar verslanir samtímis mælum við með því að þú uppfærir HQ áður en verslanir eru uppfærðar. Í atburðarás N-1 verður ný virkni sem er tengd afsláttarmiðum ekki tiltæk í verslunum sem hafa ekki verið uppfærðar. Til dæmis kynnir virkni afsláttarmiða til sögunnar „útiloka“ línur. Ef þú útilokar línur í afslætti eru þær ekki notaðar í verslun sem notast við eldri útgáfu.
 - **HQ er ekki uppfært en Commerce Scale Unit og sölustaður eru uppfærðir (N+1).** Þar sem uppfært verðkerfi í Commerce Scale Unit getur höndlað eldri afsláttarmiðakóða í verðútreikningi ætti uppfærslan ekki að hafa nein áhrif á virkni í þessu tilfelli.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

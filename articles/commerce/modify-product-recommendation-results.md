@@ -2,13 +2,16 @@
 title: Leiðrétta niðurstöður afurðartillagna sem byggjast á AI-ML
 description: Þetta efni útskýrir hvernig á að sníða niðurstöður afurðatillagna byggt á námi gervigreindarvéla (AI-ML) að fyrirtæki þínu.
 author: bebeale
+manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5374b2ce559134bd26036b06ac6d96a9f5510ab847544707fc9885506aaab547
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc6a793061a3e644599f0882ff163f5f57b2162d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748523"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413244"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Leiðrétta niðurstöður afurðartillagna sem byggjast á AI-ML
 
@@ -51,7 +54,7 @@ Afurðalistinn „Vinsælt” er með tvær færibreytur sem hægt er að breyta
 
 Afurðalistinn „Mest selt” er með eina færibreytu sem hægt er að breyta:
 
-![Dæmi um sjálfgefna færibreytu fyrir söluhæstu vörurnar.](./media/examplebestsellingparameters.PNG)
+![Dæmi um sjálfgefna færibreytu fyrir mest selt](./media/examplebestsellingparameters.PNG)
 
 1. **Láta fylgja með nýjar sölu frá síðustu X dögum** - Sölufærslur sem hafa orðið innan tiltekins fjölda daga fyrir núverandi dagsetningu má nota til að panta afurðirnar. Sjálfgefið gildi hér að ofan bendir til þess að öll innkaup, sem gerð hafa verið á vöru síðustu 30 daga, verði notuð til að ákvarða staðsetningu vörunnar í lista yfir mest seldar afurðir. 
 
@@ -65,13 +68,13 @@ Afurðalistinn „Mest selt” er með eina færibreytu sem hægt er að breyta:
 1.  Til að bæta afurðum við töfluna skaltu velja **Bæta við línu**. 
 1.  Undir vöru dálki, leitaðu að vöru eftir **Nafn** eða **Vörunúmer.**
 
-    ![Dæmi um leit að vöru á Nýja vörulistanum.](./media/examplenewlistconfiguration1.png)
+    ![Dæmi um leit að vöru á Nýja vörulistanum](./media/examplenewlistconfiguration1.png)
 
 1.  Veldu einn af tveimur valkostum undir dálknum Línugerð:
     -   **Hafa með** - þvingar afurð fremst á listanum
     -   **Útiloka** - fjarlægir afurð frá því að birtast á listanum
     
-    ![Dæmi um að taka með eða útiloka vöru frá Nýja vörulistanum.](./media/examplenewlistconfiguration2.png)
+    ![Dæmi um að taka með eða útiloka vöru frá Nýja vörulistanum](./media/examplenewlistconfiguration2.png)
 
 1.  Ef **Sýna röð** er breytt breytir það röðinni sem afurðir merktar **hafa með** birtast í á listanum.
     - Ef tvær vörur hafa sama gildi **birta röð**, þá getur endanleg röð þessara tveggja niðurstaðna verið frábrugðin bakforritinu.
@@ -87,11 +90,11 @@ Afurðalistinn „Mest selt” er með eina færibreytu sem hægt er að breyta:
 Fylgdu þessum skrefum til að bæta við eða fjarlægja niðurstöður fyrir grunnafurð handvirkt:
 1.  Velja **Grunnafurð**. 
 1.  Undir dálkinum **Afurð** leitarðu að afurð eftir **Heiti** eða **Vörunúmeri.**
-![Dæmi um leit að afurð á listanum Oft keypt saman.](./media/exampleFBTlistconfiguration1.png)
+![Dæmi um leit að afurð á listanum Oft keypt saman](./media/exampleFBTlistconfiguration1.png)
 1. Veldu einn af tveimur valkostum undir dálknum **Línugerð**:
     - **Hafa með** - þvingar afurð fremst á listanum
     - **Útiloka** - fjarlægir afurð frá því að birtast á listanum     
-![Dæmi um að hafa með eða útiloka afurð á listanum Oft keypt saman.](./media/exampleFBTlistconfiguration2.png)
+![Dæmi um að hafa með eða útiloka afurð á listanum Oft keypt saman](./media/exampleFBTlistconfiguration2.png)
 1.  Til að fjarlægja vörur af töflunni: veldu línuna sem á að fjarlægja og veldu Fjarlægja.
 
 
@@ -118,6 +121,3 @@ Fylgdu þessum skrefum til að bæta við eða fjarlægja niðurstöður fyrir g
 [Búðu til tillögur með kynningargögnum](product-recommendations-demo-data.md)
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

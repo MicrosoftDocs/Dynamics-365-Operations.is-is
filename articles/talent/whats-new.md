@@ -33,6 +33,3 @@ ms.locfileid: "4461543"
 
 Efnisyfirlitið verður áfram uppfært í hverri viku, svo farðu aftur til að finna allar nýju eiginleikana og breytingarnar á nýjustu útgáfum Talent.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

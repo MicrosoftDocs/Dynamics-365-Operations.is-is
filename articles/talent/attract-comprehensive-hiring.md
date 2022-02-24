@@ -85,6 +85,3 @@ Nánari upplýsingar um verðlagningu og leyfi er að finna í [Microsoft Dynami
 
 - Samstarfsfélagi þinn er að vinna í prufuútgáfu eða leyfi fyrir Attract með viðbóta alhliða ráðningar, á meðan þú ert að vinna í grunnútgáfu Attract.
 - Þú ert með viðbót alhliða ráðningar, þú hefur ekki fengið úthlutað réttum hlutverkum til að nota alla eiginleikana. Nánari upplýsingar er að finna í [Öryggi og hlutverkastjórnun í Attract](security-attract.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

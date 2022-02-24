@@ -1,24 +1,27 @@
 ---
 title: Stofna fjölda sölutilboða
 description: Þetta ferli sýnir hvernig stofna á hagkvæman hátt tilboð og bjóða úrval af vörum eða þjónustu sem á að senda mörg viðskiptavinum.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationTemplateGroup, SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SysQueryForm, SalesQuickQuote
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acb2b49c7cb2024aec1140d04150bd1ab9d75c14
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 227ff0dd03f8917f4551ce08067ef26c6204b059
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573370"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430133"
 ---
 # <a name="mass-create-sales-quotations"></a>Stofna fjölda sölutilboða
 
@@ -98,6 +101,3 @@ ms.locfileid: "7573370"
 11. Fara í Sölu og markaðssetningu > Sölutilboð > Öll tilboð.
     * Staðfestið að tilboð hafa verið stofnaðar fyrir alla viðskiptavini sem eru tilgreind í fjöldauppfærslu, sem byggist á völdu sniðmáti.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

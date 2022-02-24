@@ -2,12 +2,15 @@
 title: Tengja tilraun og breyta afbrigðum
 description: Þetta efnisatriði lýsir því hvernig á að tengja tilraun í þjónustu þriðja aðila við Dynamics 365 Commerce og hvernig á að breyta afbrigðum fyrir tilraunina.
 author: sushma-rao
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d3b1a099e29073e82e2118f9e43441a9068a4d10f0ea9f79123b97d2b7d5c419
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 030640ba8907ae52c198ac96ad2c243b533d8c53
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773034"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4413299"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Tengja tilraun og breyta afbrigðum
 
@@ -28,7 +31,7 @@ ms.locfileid: "6773034"
 
 Eftirfarandi skýringarmynd sýnir öll skrefin sem taka þátt í uppsetningu og vinnslu á tilraun á vefsvæði rafrænna viðskipta í Dynamics 365 Commerce. Önnur skref eru afgreidd í aðskildum efnisatriðum.
 
-[ ![Tilraunaferli notanda - Tengja og breyta.](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
+[ ![Tilraunastarfssemi notanda - Tengja og breyta](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
 
 Þegar [búið er að setja upp tilraunina](experimentation-setup.md) í þjónustu þriðja aðila skal tengja tilraunina við Dynamics 365 Commerce og breyta afbrigðum tilraunarinnar.
 
@@ -92,6 +95,3 @@ Ef þú skilgreindir umfang tilraunarinnar sem **allt** í leiðsagnarforritinu 
 
 ## <a name="next-step"></a>Næsta skref
 [Forskoða og birta tilraun](experimentation-preview-publish.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

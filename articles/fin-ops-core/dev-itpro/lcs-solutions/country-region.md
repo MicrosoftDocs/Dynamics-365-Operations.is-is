@@ -1,32 +1,34 @@
 ---
 title: Altæk tilföng
 description: Í þessu efnisatriði er að finna tilfangalista sem veitir frekari upplýsingar um sértæka virkni og framboð fyrir lönd/svæði.
-author: kfend
-ms.date: 02/19/2021
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/02/2019
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: sericks
 ms.custom: 104173
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ee422b2bdc8b94c2a465d0e48f5da983a410674
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747516"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685054"
 ---
 # <a name="globalization-resources"></a>Altæk tilföng
 
 ## <a name="local-and-regional-deployments"></a>Staðbundin og svæðisbundin uppsetning
 Ef reglugerðir stjórnvalda í þínu landi krefjast þess að gögn séu geymd eða þjónustu við þau sinnt með öðrum hætti en krafist er fyrir önnur lönd/svæði kann þess að vera krafist að þú takir tillit til ákveðinna þátta við uppsetningu. Lítið á eftirfarandi tilföng sem kunna að eiga við um viðkomandi notanda:
 
-[Finance and Operations-forrit notuð af 21Vianet í Kína](../deployment/china-local-deployment.md)
+[Finance and Operations-forrit notuð af 21Vianet í Kína](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Staðfærslu- og eftirlitseiginleikar
 
@@ -53,6 +55,7 @@ Eftirfarandi tilföng veita upplýsingar um áætlaða og nýja staðfærslueigi
 
 #### <a name="regulatory-updates"></a>Regluuppfærslur
 -   [Regluuppfærslur](../../../finance/localizations/regulatory-updates.md)
+-   [Staðfærslugátt](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (uppfært vikulega)
 -   [Vandamálaleit í Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (uppfært daglega)
 
 #### <a name="communication-and-alerts"></a>Samskipti og viðvaranir
@@ -60,7 +63,7 @@ Eftirfarandi tilföng veita upplýsingar um áætlaða og nýja staðfærslueigi
 -   [Senda inn viðvaranir um eftirlitseiginleika fyrir tiltekin lönd/svæði](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Útgáfuáætlanir Dynamics 365
-[Útgáfuáætlanir Dynamics 365](/business-applications-release-notes/) lýsa nýjum og auknum möguleikum sem eru áætlaðir fyrir Dynamics 365 viðskiptaforrit og verkvanga forrita. 
+[Útgáfuáætlanir Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) lýsa nýjum og auknum möguleikum sem eru áætlaðir fyrir Dynamics 365 viðskiptaforrit og verkvanga forrita. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations nýjungar í forritum
 [„Nýjungar eða breytingar“ á heimasíðuFinance and Operations ](../../fin-ops/get-started/whats-new-changed.md) birtir lista yfir eiginleika sem eru í tilgreindum útgáfum Finance and Operations-forrita.
@@ -130,6 +133,3 @@ Frekari upplýsingar eru í [Hjálparkerfi](../../fin-ops/get-started/help-overv
 
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

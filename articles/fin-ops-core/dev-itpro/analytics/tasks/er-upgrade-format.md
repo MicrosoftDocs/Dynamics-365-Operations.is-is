@@ -1,10 +1,12 @@
 ---
 title: Rafræn skýrslugerð Uppfærðu snið með því að taka upp nýja grunnútgáfu sniðs
-description: Í þessu efnisatriði er útskýrt hvernig á að vinna með skilgreiningu rafræns skýrslugerðarsniðs.
+description: Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur viðhaldið skilgreiningarsnið fyrir rafræna skýrslugerð (ER).
 author: NickSelin
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfcb85d964234063fd3c6a8e5ea29f7b222e966124b48e46b72b04f457c91e6c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 17fe6d772040c73959685920743225c128421951
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720809"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684261"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>Rafræn skýrslugerð Uppfærðu snið með því að taka upp nýja grunnútgáfu sniðs
 
@@ -241,6 +243,3 @@ Til að svo megi verða þarf Proseware, Inc. að breyta grunnskilgreiningarútg
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Prófa Sérsniðnar snið til að mynda greiðsluskrár
 Ljúkið skrefunum í ferlinu „Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur” í samhliða lotu Finance and Operations. Velja hið stofnaða „BACS snið (Bretland sérsniðið upphugsað)” í færibreytum rafrænnar greiðslumáta. Gangið úr skugga um að stofnaða greiðsluskráin innihaldi, nýlega kynnta af Proseware Inc., XML-hnúta sem setur fram IBAN-kóða í samræmi við svæðisbundið þarfir. Skráin ætti einnig að innihalda, nýlega kynnta af Litware, Inc., XML-hnúta sem setur fram SWIFT-kóða í samræmi við svæðisbundið þarfir.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

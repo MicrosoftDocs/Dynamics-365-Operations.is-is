@@ -1,29 +1,30 @@
 ---
 title: Yfirlit Lean manufacturing
 description: Þessi skrá veitir sem yfirlit og lýsingu á lean-framleiðslu aðgerðir í Dynamics 365 Supply Chain Management.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 06/20/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow, Kanban, KanbanQuantityOverview, KanbanAssignCard, KanbanCirculatingCards, KanbanRules, WHSKanbanWaveTableManagePickingListPool
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "19371"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0c8b5ec4d4a391773e32a61a321c28868678baa
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 63a9856035088642254fd43d14cb324a89bc19d6
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985937"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430679"
 ---
 # <a name="lean-manufacturing-overview"></a>Yfirlit yfir lean-framleiðslu
 
@@ -50,7 +51,7 @@ Til að Stofna lean-framleiðslufyrirtæki, mótaðu framleiðslu- og vörustjó
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a>Nota Kanban til að merkja eftirspurnarkröfur
 Tínslukerfi framleiðir vörur aðeins þegar vörurnar vantar. Þessi venju minnkar afhendingartíma sendinga og umframbirgðir. Hægt er að nota kanbana til að áætla, rekja og vinna þarfir sem eru byggðar á framleiðsluflæði. Til að stofna kanban ramma skal stofna kanban-reglur sem skilgreina þegar kanban eru stofnaðar og hvernig þær kröfur eru uppfylltar. Hægt er að stofna tvær tegundir kanban-regla: Reglur framleiðslu stofna kanban-vinnslur ferlis og kanban-reglur frádráttar stofna kanban-vinnslur flutnings. Hægt er að stofna eftirfarandi áfyllingaraðferðir:
--   **Fast magn** kanban-reglur eru tengdar við fastur fjöldi efnismeðhöndlunareiningar, sem þýðir að fjöldi virkra kanbana eru föst. Þegar allar afurðir úr Kanban eru notaðar og efnismeðhöndlunareiningar eru handvirkt tæmt, er stofnuð ný kanban af sömu gerð. Þegar kanban-reglur fasts magns eru stofnaðar, er hægt að reikna út ákjósanlegar kanban-magn og magn afurðar sem eru notaðar. Útreikningur tekur mið af spá, raunveruleg eftirspurn úr opnum pöntunum, afgreiðslutíma til að fylla á vörum, og söguleg kröfur.
+-   **Fast magn** kanban-reglur eru tengdar við fastur fjöldi efnismeðhöndlunareiningar, sem þýðir að fjöldi virkra kanbana eru föst. Þegar allar afurðir úr Kanban eru notaðar og efnismeðhöndlunareiningar eru handvirkt tæmt, er stofnuð ný kanban af sömu gerð. Þegar kanban-reglur fasts magns eru stofnaðar, er hægt að reikna út ákjósanlegar kanban-magn og magn afurðar sem eru notaðar. Útreikningur tekur mið af spá, raunveruleg eftirspurn úr opnum pöntunum, afgreiðslutíma til að fylla á vörum, og söguleg kröfur.
 -   **Áætlað** kanban-reglur fylla á kröfur sem eru reiknaðar við aðaláætlanagerð. Áætlanagerð myndar áætluð kanbön sem hægt er að festa við kanbana.
 -   **Tilvik** kanban-reglur fylla á kröfur sem koma úr sölupöntunarlínum, uppskriftalínum framleiðslu, kanban-línum og stillingum lágmarksbirgða. Þegar tilvikskanbana eru búin til, eru þær festar við upprunaþarfir.
 
@@ -82,6 +83,3 @@ Auk þess, Lean-framleiðsla styður innkaupa- og innheimtuferli fyrir þjónust
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

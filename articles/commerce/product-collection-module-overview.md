@@ -1,30 +1,37 @@
 ---
 title: Afurðasafnseiningar
-description: Þetta efnisatriði veitir yfirlit yfir vörusafnseiningar í Microsoft Dynamics 365 Commerce.
+description: Þetta efni veitir yfirlit yfir afurðasafnseiningar í Microsoft Dynamics 365 Commerce.
 author: v-chgri
-ms.date: 01/28/2021
-ms.topic: overview
+manager: annbe
+ms.date: 09/15/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7bc76aa8d5728005711ee8f9758532a989e3568c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984545"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413030"
 ---
 # <a name="product-collection-modules"></a>Afurðasafnseiningar
 
+
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir yfirlit yfir vörusafnseiningar í Microsoft Dynamics 365 Commerce.
+Þetta efni veitir yfirlit yfir afurðasafnseiningar í Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Vöruuppgötvun er aðalverkfærið sem smásalar nota til að eiga samskipti við viðskiptavini sína á vefsíðu netverslunar. Afurðasafnseiningar hjálpa smásöluaðilum að byggja upp sannfærandi verslunarupplifun með því að bjóða upp á leiðandi sjónviðmót sem hægt er að nota til að skrifa afurðasöfn á fljótlegan hátt.
 
@@ -39,7 +46,7 @@ Heimildir fyrir afurðasafni geta verið listar af eftirfarandi fjórum gerðum:
 
 Eftirfarandi mynd sýnir mismunandi gerðir af afurðasöfnum sem notaðar eru á netverslunarsíðu.
 
-![Dæmi um mismunandi tegundir afurðasafna á netverslunarsíðu.](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
+![Dæmi um mismunandi tegundir afurðasafna á netverslunarsíðu](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
 
 > [!NOTE]
 > Notaðu ávallt afurðasafnseiningar til að sýna hóp af afurðum af svipaðri gerð.
@@ -60,10 +67,6 @@ Eftirfarandi tafla lýsir ýmsum gerðum af afurðasafnseiningum í Dynamics 365
 | Oft keypt saman | Gervigreind/Vélanám | Þessi eining notar vélnám til að greina kaupmynstur neytenda og mæla með skyldum vörum sem eru oft keyptar ásamt tiltekinni afurð. Þessi listi getur sýnt sérsniðnar niðurstöður fyrir innritaðan notanda ef vefhöfundur velur þann valkost. |
 | Fólki líkar einnig við           | Gervigreind/Vélanám | Þessi eining notar vélnám til að greina kaupmynstur neytenda og mæla með vörum sem tengjast tiltekinni afurð. Þessi listi getur sýnt sérsniðnar niðurstöður fyrir innritaðan notanda ef vefhöfundur velur þann valkost. |
 | Tillögur fyrir þig              | Gervigreind/Vélanám | Þessi eining notar vélnám til að greina kaupmynstur innritaðs notanda og veita persónulegar ráðleggingar sem eru byggðar á þessum kaupmynstri. Fyrir gestanotanda verður þessi listi felldur saman. |
-
-## <a name="supported-modules"></a>Studdar einingar 
-
-Vörusafnseiningin styður [flýtiskoðunareininguna](quick-view-module.md), sem gerir notendum kleift að skoða afurðarupplýsingar og bæta vörum við körfuna úr síðu vörusafns.
 
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>Bæta afurðasafnseiningu við flokksíðu
 
@@ -106,8 +109,3 @@ Eftirfarandi tafla sýnir listagerðirnar sem hægt er að velja í valmyndinni 
 [Kaupgluggaeining](add-buy-box.md)
 
 [Yfirlit yfir afurðarráðleggingar](product-recommendations.md)
-
-[Flýtiskoðunareining](quick-view-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

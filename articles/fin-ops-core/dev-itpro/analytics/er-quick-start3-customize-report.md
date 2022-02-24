@@ -2,27 +2,27 @@
 title: Sérstilla skilgreiningar rafrænnar skýrslugerðar til að búa til rafrænt skjal
 description: Í þessu efnisatriði er útskýrt hvernig á að sérstilla skilgreiningar Microsoft á rafrænni skýrslugerð sem eru notaðar til að búa til sérstillt rafrænt skjal.
 author: NickSelin
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
+ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3c867af3b4d93e5a124d14e88eae60ff45987aebc639bd78806ff7a12009447
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47bb8a2a9adab4ec963a1d0b95e783299aab3819
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769997"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683017"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Sérstilla skilgreiningar rafrænnar skýrslugerðar til að búa til rafrænt skjal
 
@@ -108,7 +108,7 @@ Til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núver
 5. Í flýtiflipanum **Útgáfur** skal velja útgáfuna **11.2.2**.
 6. Veljið **Flytja inn** til að sækja valda útgáfu úr altækri geymslu.
 
-![Gagnageymslusíða skilgreiningar.](./media/er-quick-start3-import-solution1.png)
+![Síðan Skilgreiningagagnasafn](./media/er-quick-start3-import-solution1.png)
 
 > [!TIP]
 > Ef það reynist erfitt að opna [Altæka geymsla](er-download-configurations-global-repo.md) er hægt að [sækja skilgreiningar](download-electronic-reporting-configuration-lcs.md) hjá Microsoft Dynamics Lifecycle Services (LCS) í staðinn.
@@ -122,7 +122,7 @@ Til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núver
 
 Takið eftir að til viðbótar við valið rafrænt skýrslugerðarsnið **PEPPOL sölureikningur**, voru aðrar áskildar skilgreiningar rafrænnar skýrslugerðar fluttar inn. Vegna þess að nýjar útgáfur af skilgreiningum rafrænnar skýrslugerðar eru jafnt og þétt birtar í altækri geymslu og LCS til að samsvarandi lausnir fylgi eftir nýjum kröfum, voru nýjustu útgáfur af nauðsynlegri skilgreiningu [gagnalíkans](general-electronic-reporting.md#data-model-and-model-mapping-components) og skilgreiningum [líkanavörpunar](general-electronic-reporting.md#data-model-and-model-mapping-components) fluttar inn.
 
-![Skilgreiningasíða.](./media/er-quick-start3-imported-solution1a.png)
+![Skilgreiningasíða](./media/er-quick-start3-imported-solution1a.png)
 
 Til að líkja eftir stöðunni sem skilgreiningar rafrænnar skýrslugerðar í núverandi Finance-tilviki yrðu ef þú fluttir inn útgáfu **11.2.2** af rafrænu skýrslugerðarsniðinu **PEPPOL sölureikningur** áður fyrr (til dæmis 7. ágúst 2019), skal fylgja þessum skrefum.
 
@@ -136,7 +136,7 @@ Gangið síðan úr skugga um að eftirfarandi skilgreiningar séu í boði í s
     - Útgáfa 11 inniheldur útgáfu 10 af [gagnalíkansþætti](general-electronic-reporting.md#data-model-and-model-mapping-components) rafrænnar skýrslugerðar sem stendur fyrir gagnskipulag viðskiptaléns reikningsfærslunnar. Þessi skilgreining rafrænnar skýrslugerðar hefur verið flutt inn sem eldri útgáfa af rafrænu skýrslugerðarsniði **PEPPOL sölureiknings** sem var valið fyrir innflutning.
     - Útgáfa 50 inniheldur útgáfu 31 af gagnalíkansþætti rafrænnar skýrslugerðar. Þessi skilgreining rafrænnar skýrslugerðar hefur verið flutt inn sem eldri útgáfa af útgáfunni frá 7. ágúst 2019 af skilgreiningu **Líkanavörpunar reiknings** fyrir rafræn skýrslugerð.
 
-    ![Skilgreining á gagnalíkani rafrænnar skýrslugerðar fyrir reikningslíkan á skilgreiningarsíðunni.](./media/er-quick-start3-imported-solution1b1.png)
+    ![Skilgreining á gagnalíkani rafrænnar skýrslugerðar fyrir reikningslíkan á skilgreiningarsíðunni](./media/er-quick-start3-imported-solution1b1.png)
 
     > [!TIP]
     > Ef þú sérð ekki útgáfu 50 af þessu gagnalíkani skaltu opna altæku geymsluna og flytja inn útgáfu 50.19 af skilgreiningu **Líkanavörpunar reiknings** fyrir rafræna skýrslugerð.
@@ -145,7 +145,7 @@ Gangið síðan úr skugga um að eftirfarandi skilgreiningar séu í boði í s
 
     - Útgáfa 50.19 hefur verið flutt inn sem nýjasta innleiðingin af útgáfu 50 af skilgreiningu **Reikningslíkans** fyrir gagnalíkan rafrænnar skýrslugerðar. Hún inniheldur tvo þætti [líkanavörpunar](general-electronic-reporting.md#data-model-and-model-mapping-components) fyrir rafræna skýrslugerð sem lýsa því hvernig fyllt er út í gagnalíkanið með forritsgögnum á keyrslutíma.
 
-    ![Skilgreining líkanavörpunar reiknings fyrir líkanavörpun rafrænnar skýrslugerðar á skilgreiningarsíðunni.](./media/er-quick-start3-imported-solution1b2.png)
+    ![Skilgreining líkanavörpunar reiknings fyrir líkanavörpun rafrænnar skýrslugerðar á skilgreiningarsíðunni](./media/er-quick-start3-imported-solution1b2.png)
 
     > [!TIP]
     > Ef þú sérð ekki útgáfu 50.19 af þessari líkanavörpun skaltu opna altæku geymsluna og flytja inn útgáfu 50.19 af skilgreiningu **Líkanavörpunar reiknings** fyrir rafræna skýrslugerð.
@@ -158,7 +158,7 @@ Gangið síðan úr skugga um að eftirfarandi skilgreiningar séu í boði í s
 
     - Útgáfa 11.2.2 inniheldur sniðhlut og sniðsvörpunarhlut rafrænna skýrslugerðar sem voru skilgreindir til að búa til rafræna reikninga á PEPPOL-sniði.
 
-    ![Skilgreining PEPPOL-sölureiknings fyrir rafrænt skýrslugerðarsnið á skilgreiningarsíðunni.](./media/er-quick-start3-imported-solution1b3.png)
+    ![Skilgreining PEPPOL-sölureiknings fyrir rafrænt skýrslugerðarsnið á skilgreiningarsíðunni](./media/er-quick-start3-imported-solution1b3.png)
 
 ## <a name="configure-the-accounts-receivable-parameters"></a><a name="ConfigureAR1"></a>Skilgreina færibreytur viðskiptakrafna
 
@@ -166,7 +166,7 @@ Gangið síðan úr skugga um að eftirfarandi skilgreiningar séu í boði í s
 2. Í flipanum **Rafræn skjöl**, í flýtiflipanum **Rafræn skýrslugerð**, í reitnum **Sölu- og kreditreikningur með frjálsum texta**, skal velja **PEPPOL-sölureikningur**.
 3. Veljið **Vista**.
 
-![Flipi fyrir rafræn skjöl á færibreytusíðu viðskiptakrafna.](./media/er-quick-start3-configure-ar1.png)
+![Flipi fyrir rafræn skjöl á færibreytusíðu viðskiptakrafna](./media/er-quick-start3-configure-ar1.png)
 
 ## <a name="configure-the-legal-entity-parameters"></a><a name="ConfigureLE"></a>Skilgreina færibreytur lögaðila
 
@@ -216,9 +216,9 @@ Nú er hægt að nota staðlaðar skilgreiningar rafrænnar skýrslugerðar sem 
     - Í reitinn **Aðallykill** skal velja **401100**.
     - Í reitinn **Einingarverð** skal slá inn **1000**.
 
-5. Veldu **Vista**.
+5. Veljið **Vista**.
 
-![Síða reiknings með frjálsum texta.](./media/er-quick-start3-add-invoice.png)
+![Síða reiknings með frjálsum texta](./media/er-quick-start3-add-invoice.png)
 
 Nánari upplýsingar er að finna í [Stofna reikning með frjálsum texta](../../../finance/accounts-receivable/create-free-text-invoice-new.md).
 
@@ -228,14 +228,14 @@ Nánari upplýsingar er að finna í [Stofna reikning með frjálsum texta](../.
 2. Á síðunni **Reikningur með frjálsum texta**, á aðgerðasvæðinu, skal velja **Bóka**.
 3. Í gátreitinn **Bóka reikning með frjálsum texta** skal velja **Í lagi**.
 
-![Upplýsingasíða um reikninga með frjálsum texta.](./media/er-quick-start3-post-invoice.png)
+![Upplýsingasíða um reikninga með frjálsum texta](./media/er-quick-start3-post-invoice.png)
 
 ### <a name="send-a-posted-invoice"></a>Senda bókaðan reikning
 
 1. Fara í **Viðskiptakröfur** \> **Reikningar** \> **Allir reikningar með frjálsum texta**.
 2. Á síðunni **Reikningur með frjálsum texta**, á aðgerðasvæðinu, í flokknum **Skjal**, skal velja **Senda** \> **Upprunalegt**.
 
-    ![Forskoðun upprunalega reikningsins.](./media/er-quick-start3-send-invoice.png)
+    ![Forskoðun upprunalega reikningsins](./media/er-quick-start3-send-invoice.png)
 
 3. Lokið síðunni **Reikningur með frjálsum texta**.
 
@@ -245,12 +245,12 @@ Nánari upplýsingar er að finna í [Stofna reikning með frjálsum texta](../.
 2. Á síðunni **Rafræn skýrslugerðarvinnsla** skal velja upphaflegu færsluna sem með verklýsinguna **Senda XML rafræns reiknings**.
 3. Veljið **Sýna skrár** til að sjá lista yfir myndaðar skrár.
 
-    ![Síða rafrænnar skýrslugerðarvinnslu.](./media/er-quick-start3-jobs-list.png)
+    ![Upplýsingasíða yfir rafræna skýrslugerð](./media/er-quick-start3-jobs-list.png)
 
 4. Veljið **Opna** til að hlaða niður XML-skrá rafræns reiknings sem er búinn til.
 5. Greina XML-skrá rafræns reiknings. Takið eftir því að skattaskema viðskiptavinar er sem stendur sýnt með XML-eigindunum **schemeID** og **schemeAgencyID**. Takið einnig eftir því að XML-einingin **cbc:CustomizationID** inniheldur núna eftirfarandi texta: `urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0:# urn:www.peppol.eu:bis:peppol5a:ver1.0`.
 
-    ![Forskoða myndaða XML-skrá rafræns reiknings.](./media/er-quick-start3-e-invoice1.png)
+    ![Forskoða myndaða XML-skrá rafræns reiknings](./media/er-quick-start3-e-invoice1.png)
 
 ## <a name="add-a-custom-database-field"></a><a name="AddCustomField"></a>Bæta við sérstilltu gagnagrunnssvæði
 
@@ -282,7 +282,7 @@ Fylgjið þessum skrefum til að gera sérstillinguna.
 12. Í skilaboðaglugganum sem birtist skal velja **Já** til að staðfesta að þú viljir búa til nýja reitarfærslu **FederalTaxID** fyrir töfluna **Viðskiptavinir**.
 13. Veljið **Setja inn** til að <a name="insert_custom_field"></a>bæta reitnum **FederalTaxID\_Custom** við núverandi síðu.
 
-    ![Síða allra viðskiptavina.](./media/er-quick-start3-create-new-field.gif)
+    ![Síða allra viðskiptavina](./media/er-quick-start3-create-new-field.gif)
 
 14. Lokið síðunni **Allir viðskiptavinir**.
 
@@ -312,7 +312,7 @@ Sem notandi í hagnýtu ráðgjafahlutverki rafrænnar skýrslugerðar, geturðu
 
 Nú er hægt að nota gagnalíkanshönnuð rafrænnar skýrslugerðar til að breyta útgáfu 50.1 af rafrænu skýrslugerðarskilgreiningunni **Reikningslíkan (Litware)** í **Drög** [stöðuna](general-electronic-reporting.md#component-versioning).
 
-![Útgáfa 50.1 af skilgreiningu rafrænnar skýrslugerðar á skilgreiningarsíðunni.](./media/er-quick-start3-added-custom-model.png)
+![Útgáfa 50.1 af skilgreiningu rafrænnar skýrslugerðar á skilgreiningarsíðunni](./media/er-quick-start3-added-custom-model.png)
 
 #### <a name="configure-a-custom-data-model"></a>Skilgreina sérsniðið gagnalíkan
 
@@ -328,7 +328,7 @@ Nú er hægt að nota gagnalíkanshönnuð rafrænnar skýrslugerðar til að br
 8. Í reitnum **Gerð atriðis** skal samþykkja sjálfgefið gildi, **Strengur**.
 9. Veljið **Bæta við** og veljið síðan **Vista**.
 
-    ![Hönnunarsíða gagnalíkans.](./media/er-quick-start3-add-data-model-field.png)
+    ![Hönnunarsíða gagnalíkans](./media/er-quick-start3-add-data-model-field.png)
 
     > [!NOTE]
     > Reitirnir **Merki** og **Lýsing** lýsa tilgangi nýja reitsins. Hægt er að fylla út í þessa reiti á mörgum tungumálum. Frekari upplýsingar er að finna í [Hanna skýrslur á mörgum tungumálum í rafrænni skýrslugerð](er-design-multilingual-reports.md).
@@ -345,7 +345,7 @@ Nú er hægt að nota gagnalíkanshönnuð rafrænnar skýrslugerðar til að br
 
 Staða útgáfu 50.1 er breytt úr **Drög** í **Lokið** og útgáfa verður skrifvarin. Nýrri og breytanlegri útgáfu 50.2 hefur verið bætt við og er með stöðuna **Drög**. Hægt er að nota þessa útgáfu til að gera seinni tíma breytingar á sérstilltri skilgreiningu á gagnalíkani rafrænnar skýrslugerðar.
 
-![Útgáfu 50.1 lokið á skilgreiningarsíðunni.](./media/er-quick-start3-completed-custom-model1.png)
+![Útgáfu 50.1 lokið á skilgreiningarsíðunni](./media/er-quick-start3-completed-custom-model1.png)
 
 ### <a name="customize-the-model-mapping-configuration"></a>Sérstilla skilgreiningu líkanavörpunar
 
@@ -365,7 +365,7 @@ Sem notandi í hagnýtu ráðgjafahlutverki rafrænnar skýrslugerðar geturðu 
 
 7. Veljið **Stofna skilgreiningu** til að bæta við nýrri skilgreiningu rafrænnar skýrslugerðar.
 
-![Skilgreiningu á sérstilltri líkanavörpun bætt við skilgreiningarsíðuna.](./media/er-quick-start3-adding-custom-mapping.png)
+![Skilgreiningu á sérstilltri líkanavörpun bætt við skilgreiningarsíðuna](./media/er-quick-start3-adding-custom-mapping.png)
 
 #### <a name="configure-a-custom-model-mapping"></a>Skilgreina sérstillta vörpun líkans
 
@@ -376,7 +376,7 @@ Breyta þarf sérstilltri vörpun líkans og tilgreina hvernig fylla á út sér
 3. Í aðgerðarúðunni skal velja **Hönnuður**.
 4. Á síðunni **Vörpun líkans í gagnagjafa** skal velja vörpunina **Reikningur viðskiptavinar**.
 
-    ![Síðan fyrir vörpun líkans í gagnagjafa.](./media/er-quick-start3-select-customer-mapping.png)
+    ![Síðan fyrir vörpun líkans í gagnagjafa](./media/er-quick-start3-select-customer-mapping.png)
 
 5. Veljið **Hönnuður**.
 6. Á síðunni **Hönnuður líkanavörpunar**, á svæðinu **Gagnagjafar**, skal stækka gagnagjafann **CustInvoiceJour** sem stendur fyrir forritstöfluna **CustInvoiceJour**.
@@ -386,9 +386,9 @@ Breyta þarf sérstilltri vörpun líkans og tilgreina hvernig fylla á út sér
 10. Á svæðinu **Gagnalíkan** skal stækka **Upplýsingar um viðskiptavin (viðskiptavinur)** og velja gagnalíkansreitinn **FederalTaxID\_Litware**.
 11. Veldu **Binda**.
 
-    ![Hönnuðarsíða líkanavörpunar.](./media/er-quick-start3-customize-model-mapping.gif)
+    ![Hönnuðarsíðan líkanavörpun](./media/er-quick-start3-customize-model-mapping.gif)
 
-12. Veldu **Vista**.
+12. Veljið **Vista**.
 13. Lokið síðunni **Hönnuður líkanavörpunar**.
 14. Lokið síðunni **Líkanavörpun á gagnagjafa**.
 
@@ -402,7 +402,7 @@ Breyta þarf sérstilltri vörpun líkans og tilgreina hvernig fylla á út sér
 
 Staða útgáfu 50.19.1 er breytt úr **Drög** í **Lokið** og útgáfa verður skrifvarin. Nýrri og breytanlegri útgáfa 50.19.2 hefur verið bætt við og er með stöðuna **Drög**. Hægt er að nota þessa útgáfu til að gera seinni tíma breytingar á sérstilltri skilgreiningu á líkanavörpun rafrænnar skýrslugerðar.
 
-![Útgáfu 50.19.1 lokið á skilgreiningarsíðunni.](./media/er-quick-start3-completed-custom-mapping1.png)
+![Útgáfu 50.19.1 lokið á skilgreiningarsíðunni](./media/er-quick-start3-completed-custom-mapping1.png)
 
 > [!NOTE]
 > [Stuðningstími](general-electronic-reporting-manage-configuration-lifecycle.md) skilgreiningarinnar nær ekki yfir stuðningstíma gagnagrunnsbreytinganna. Ef útgáfa 50.19.1 af skilgreiningunni **Vörpun reikningslíkans (Litware)** er flutt út úr núverandi Finance-tilviki og reynt að flytja hana inn í annað tilvik sem inniheldur ekki sérstilltan reit **FederalTaxID\_Custom** í töflunni **CustTable**, kemur upp undantekning. Undantekningin útskýrir að innflutt skilgreining rafrænnar skýrslugerðar samræmist ekki lýsigögnum Finance-tilviksins.
@@ -426,11 +426,11 @@ Sem notandi í hagnýtu ráðgjafahlutverki rafrænnar skýrslugerðar, geturðu
 7. Í reitnum **Gagnalíkan** skal velja rótarskilgreininguna **InvoiceCustomer**.
 8. Veljið **Stofna skilgreiningu** til að bæta við nýrri skilgreiningu rafrænnar skýrslugerðar.
 
-![Skilgreiningu á sérstilltri sniði bætt við skilgreiningarsíðuna.](./media/er-quick-start3-adding-custom-format.png)
+![Skilgreiningu á sérstilltri sniði bætt við skilgreiningarsíðuna](./media/er-quick-start3-adding-custom-format.png)
 
 Nú er hægt að nota gagnalíkanshönnuð rafrænnar skýrslugerðar til að breyta útgáfu 11.2.2.1 af rafrænu skýrslugerðarskilgreiningunni **Peppol-sölureikningur (Litware)** í **Drög** [stöðuna](general-electronic-reporting.md#component-versioning).
 
-![Útgáfa 11.2.2.1 af skilgreiningu rafrænnar skýrslugerðar á skilgreiningarsíðunni.](./media/er-quick-start3-added-custom-format.png)
+![Útgáfa 11.2.2.1 af skilgreiningu rafrænnar skýrslugerðar á skilgreiningarsíðunni](./media/er-quick-start3-added-custom-format.png)
 
 #### <a name="configure-a-custom-format"></a>Skilgreina sérstillt snið
 
@@ -446,7 +446,7 @@ Nú er hægt að nota gagnalíkanshönnuð rafrænnar skýrslugerðar til að br
 8. Í sniðstrénu sundir **XMLHeader** \> **Reikningur** \> **cac:AccountingCustomerParty** \> **cac:Party** \> **cac:PartyTaxScheme** \> **cac:TaxScheme** \> **cbc:ID** og velja **FederalTaxID**.
 9. Veldu **Færa upp**.
 
-![Ný sniðseining á sniðshönnunarsíðunni.](./media/er-quick-start3-customized-format.png)
+![Ný sniðseining á sniðshönnunarsíðunni](./media/er-quick-start3-customized-format.png)
 
 #### <a name="configure-a-custom-format-mapping"></a>Skilgreina sérstillta sniðsvörpun
 
@@ -454,7 +454,7 @@ Nú er hægt að nota gagnalíkanshönnuð rafrænnar skýrslugerðar til að br
 2. Undir **Reikningur** skal stækka **Upplýsingar um viðskiptavin (viðskiptavinur)** og velja **FederalTaxID\_Litware**.
 3. Veldu **Binda**.
 
-    ![Síða sniðshönnuðar.](./media/er-quick-start3-customized-format-mapping.png)
+    ![Síða sniðshönnuðar](./media/er-quick-start3-customized-format-mapping.png)
 
 4. Veljið gagnagjafann **Reikningur** af gerðinni **Líkan** og veljið síðan **Breyta**.
 5. Í reitnum **Útgáfa** skal velja útgáfu **1** af sérstillta gagnalíkaninu og velja síðan **Í lagi**.
@@ -471,7 +471,7 @@ Nú er hægt að nota gagnalíkanshönnuð rafrænnar skýrslugerðar til að br
 
 Staða útgáfu 11.2.2.1 er breytt úr **Drög** í **Lokið** og útgáfa verður skrifvarin. Nýrri og breytanlegri útgáfa 11.2.2.2 hefur verið bætt við og er með stöðuna **Drög**. Hægt er að nota þessa útgáfu til að gera seinni tíma breytingar á sérstilltri skilgreiningu á sniði rafrænnar skýrslugerðar.
 
-![Útgáfu 11.2.2.1 lokið á skilgreiningarsíðunni.](./media/er-quick-start3-completed-custom-format1.png)
+![Útgáfu 11.2.2.1 lokið á skilgreiningarsíðunni](./media/er-quick-start3-completed-custom-format1.png)
 
 ## <a name="configure-the-accounts-receivable-parameters-to-start-to-use-custom-er-configurations"></a><a name="ConfigureAR2"></a>Skilgreina færibreytur viðskiptakrafna til að byrja að nota sérstilltar skilgreiningar rafrænnar skýrslugerðar
 
@@ -479,16 +479,16 @@ Staða útgáfu 11.2.2.1 er breytt úr **Drög** í **Lokið** og útgáfa verð
 2. Í flipanum **Rafræn skjöl**, í flýtiflipanum **Rafræn skýrslugerð**, í reitnum **Sölu- og kreditreikningur með frjálsum texta**, skal velja **PEPPOL-sölureikningur (Litware)**.
 3. Veljið **Vista**.
 
-![Færibreytusíða viðskiptakrafna, flipi rafrænna skjala, flýtiflipi rafrænnar skýrslugerðar.](./media/er-quick-start3-configure-ar2.png)
+![Færibreytusíða viðskiptakrafna, flipi rafrænna skjala, flýtiflipi rafrænnar skýrslugerðar](./media/er-quick-start3-configure-ar2.png)
 
 ## <a name="update-a-customer-record-by-adding-a-federal-tax-identification-code"></a><a name="ConfigureCustomer2"></a>Uppfæra viðskiptavinafærslu með því að bæta við auðkenniskóði skatts
 
 1. Farið í **Viðskiptakröfur** \> **Viðskiptavinir** \> **Allir viðskiptavinir**.
 2. Á síðunni **Allir viðskiptavinir** skal velja tengil **DE-014** viðskiptavinalykils.
 3. Í flýtiflipanum **Almennt**, í reitinn **Skattnúmer** skal færa inn **LITWARE-6789**.
-4. Veldu **Vista**.
+4. Veljið **Vista**.
 
-    ![DE-014 upplýsingasíða viðskiptavinar.](./media/er-quick-start3-added-tax-id-value.png)
+    ![DE-014 upplýsingasíða viðskiptavinar](./media/er-quick-start3-added-tax-id-value.png)
 
 5. Lokið síðunni **Allir viðskiptavinir**.
 
@@ -509,7 +509,7 @@ Staða útgáfu 11.2.2.1 er breytt úr **Drög** í **Lokið** og útgáfa verð
 4. Veljið **Opna** til að hlaða niður XML-skrá rafræns reiknings sem er búinn til.
 5. Greina XML-skrá rafræns reiknings. Takið eftir því að samkvæmt sérstillingum inniheldur skattskema viðskiptavinar sérstillta **FederalTaxID** XML-eigind til viðbótar við **schemeID** og **schemeAgencyID** XML-eigindir. Gildi þessarar nýju XML-eigindar er tilgreint af skattnúmerinu **LITWARE-6789** sem fært var inn fyrir reikningsfærðan viðskiptavin.
 
-    ![Forskoða myndaða XML-skrá rafræns reiknings með sérstillingunni.](./media/er-quick-start3-e-invoice2.png)
+    ![Forskoða myndaða XML-skrá rafræns reiknings með sérstillingunni](./media/er-quick-start3-e-invoice2.png)
 
 ## <a name="import-the-latest-versions-of-standard-er-configurations"></a><a name="ImportERConfigurations2"></a>Flytja inn nýjustu útgáfur staðlaðra skilgreininga rafrænnar skýrslugerðar
 
@@ -522,7 +522,7 @@ Til að halda safni staðlaðra skilgreininga rafrænnar skýrslugerðar í Fina
 5. Í flýtiflipanum **Útgáfur** skal velja útgáfu **32.6.7** af valdri skilgreiningu á sniði rafrænnar skýrslugerðar sem hefur verið gefin út til að styðja rafræna reikninga viðskiptavinar á sniði PEPPOL BIS 3. Nánari upplýsingar eru í [KB4490320](https://support.microsoft.com/help/4490320/an-update-for-european-union-to-support-export-of-customers-electronic).
 6. Veljið **Flytja inn** til að sækja valda útgáfu úr altækri geymslu í núverandi fjármálatilvik.
 
-![Útgáfa 32.6.7 valin á síðu skilgreiningageymslu.](./media/er-quick-start3-import-solution2.png)
+![Útgáfa 32.6.7 valin á síðu skilgreiningageymslu](./media/er-quick-start3-import-solution2.png)
 
 Frekari upplýsingar um hvernig hægt er að gera þetta ferli sjálfvirkt er að finna í [Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar](er-download-updated-versions-global-repo.md).
 
@@ -543,13 +543,13 @@ Gangið úr skugga um að eftirfarandi skilgreiningar rafrænnar skýrslugerðar
 
     - Útgáfa 206 (eða nýrri) inniheldur útgáfu 24 (eða eldri) af gagnalíkansþætti rafrænnar skýrslugerðar sem stendur fyrir gagnskipulag viðskiptaléns reikningsfærslunnar. Þessi skilgreining rafrænnar skýrslugerðar hefur verið flutt inn sem eldri skilgreiningu **Líkanavörpunar reiknings** fyrir rafræna skýrslugerð.
 
-    ![Útgáfa 206 á skilgreiningarsíðunni.](./media/er-quick-start3-imported-solution2b1.png)
+    ![Útgáfa 206 á skilgreiningarsíðunni](./media/er-quick-start3-imported-solution2b1.png)
 
 - Skilgreining líkanavörpunar rafrænnar skýrslugerðar fyrir **Vörpun reikningslíkans**:
 
     - Útgáfa 206.132 (eða nýrri) hefur verið flutt inn sem nýjasta innleiðingin af útgáfu 206 af skilgreiningu **Reikningslíkans** fyrir gagnalíkan rafrænnar skýrslugerðar. Hún inniheldur nokkra þætti líkanavörpunar fyrir rafræna skýrslugerð sem lýsa því hvernig fyllt er út í gagnalíkanið með forritsgögnum á keyrslutíma.
 
-    ![Útgáfa 206.132 á skilgreiningarsíðunni.](./media/er-quick-start3-imported-solution2b2.png)
+    ![Útgáfa 206.132 á skilgreiningarsíðunni](./media/er-quick-start3-imported-solution2b2.png)
 
 - Skilgreining **UBL-sölureiknings** fyrir rafrænt skýrslugerðarsnið:
 
@@ -559,7 +559,7 @@ Gangið úr skugga um að eftirfarandi skilgreiningar rafrænnar skýrslugerðar
 
     - Útgáfa 32.6.7 inniheldur sniðshlut og sniðsvörpunarhlut rafrænna skýrslugerðar sem voru skilgreindir til að búa til rafræna reikninga á PEPPOL-sniði.
 
-    ![Útgáfa 32.6.7 á skilgreiningarsíðunni.](./media/er-quick-start3-imported-solution2b3.png)
+    ![Útgáfa 32.6.7 á skilgreiningarsíðunni](./media/er-quick-start3-imported-solution2b3.png)
 
 ## <a name="adopt-the-changes-to-the-new-standard-er-configurations-in-your-custom-er-configurations"></a><a name="RebaseCustomERConfigurations"></a>Nota breytingarnar í nýjum stöðluðum skilgreiningum rafrænnar skýrslugerðar í sérstilltum skilgreiningum rafrænnar skýrslugerðar
 
@@ -579,7 +579,7 @@ Gangið úr skugga um að eftirfarandi skilgreiningar rafrænnar skýrslugerðar
 
 Staða útgáfu 206.2 er breytt úr **Drög** í **Lokið** og útgáfa verður skrifvarin. Nýrri og breytanlegri útgáfu 206.3 hefur verið bætt við og er með stöðuna **Drög**. Hægt er að nota þessa útgáfu til að gera seinni tíma breytingar á sérstilltri skilgreiningu á gagnalíkani rafrænnar skýrslugerðar.
 
-![Útgáfu 206.2 lokið á skilgreiningarsíðunni.](./media/er-quick-start3-completed-custom-model2.png)
+![Útgáfu 206.2 lokið á skilgreiningarsíðunni](./media/er-quick-start3-completed-custom-model2.png)
 
 ### <a name="adopt-your-custom-er-model-mapping"></a>Taka upp sérstillta líkanavörpun rafrænnar skýrslugerðar
 
@@ -592,12 +592,12 @@ Staða útgáfu 206.2 er breytt úr **Drög** í **Lokið** og útgáfa verður 
 
     Takið eftir að nokkrir árekstrar við endurstillingu komu í ljós. Nú þarf að leysa handvirkt úr þessum árekstrum.
 
-    ![Skilaboð vegna áreksturs við endurstillingu á skilgreiningarsíðunni.](./media/er-quick-start3-rebase-conflicts-model-mapping1.png)
+    ![Skilaboð vegna áreksturs við endurstillingu á skilgreiningarsíðunni](./media/er-quick-start3-rebase-conflicts-model-mapping1.png)
 
 5. Á aðgerðasvæðinu skal velja **Hönnuður** og síðan í listanum yfir varpanir skal velja **Reikningur viðskiptavinar**.
 6. Fyrir hvern árekstur endurstillingar skal velja **Halda eigin gildi** vegna þess að þú þarft að halda útgáfunúmerinu á sérstilltu gagnalíkani fyrir hvern hlut sem hefur verið minnst á.
 
-    ![Árekstrar við endurreikning grunns á hönnunarsíðu líkanavörpunar.](./media/er-quick-start3-rebase-conflicts-model-mapping2.png)
+    ![Árekstrar við endurreikning grunns á hönnunarsíðu líkanavörpunar](./media/er-quick-start3-rebase-conflicts-model-mapping2.png)
 
 7. Veljið **Vista** og lokið svo síðunni **Hönnuður líkanavörpunar**.
 8. Í listanum yfir varpanir skal velja **Verkreikningur**.
@@ -611,7 +611,7 @@ Staða útgáfu 206.2 er breytt úr **Drög** í **Lokið** og útgáfa verður 
 
 Staða útgáfu 206.132.2 er breytt úr **Drög** í **Lokið** og útgáfa verður skrifvarin. Nýrri og breytanlegri útgáfa 206.132.3 hefur verið bætt við og er með stöðuna **Drög**. Hægt er að nota þessa útgáfu til að gera seinni tíma breytingar á sérstilltri skilgreiningu á líkanavörpun rafrænnar skýrslugerðar.
 
-![Útgáfu 206.132.2 lokið á skilgreiningarsíðunni.](./media/er-quick-start3-completed-custom-mapping2.png)
+![Útgáfu 206.132.2 lokið á skilgreiningarsíðunni](./media/er-quick-start3-completed-custom-mapping2.png)
 
 ### <a name="adopt-your-custom-er-format"></a>Taka upp sérstillt snið rafrænnar skýrslugerðar
 
@@ -639,7 +639,7 @@ Staða útgáfu 206.132.2 er breytt úr **Drög** í **Lokið** og útgáfa ver�
 
 Staða útgáfu 32.6.7.2 er breytt úr **Drög** í **Lokið** og útgáfa verður skrifvarin. Nýrri og breytanlegri útgáfa 32.6.7.3 hefur verið bætt við og er með stöðuna **Drög**. Hægt er að nota þessa útgáfu til að gera seinni tíma breytingar á sérstilltri skilgreiningu á sniði rafrænnar skýrslugerðar.
 
-![Útgáfu 32.6.7.2 lokið á skilgreiningarsíðunni.](./media/er-quick-start3-completed-custom-format2.png)
+![Útgáfu 32.6.7.2 lokið á skilgreiningarsíðunni](./media/er-quick-start3-completed-custom-format2.png)
 
 ## <a name="process-a-customer-invoice-by-using-new-versions-of-the-custom-er-configurations"></a><a name="ProcessInvoice3"></a>Vinna úr reikningi viðskiptavinar með því að nota nýjar útgáfur af sérstilltum skilgreiningum rafrænnar skýrslugerðar
 
@@ -662,15 +662,12 @@ Staða útgáfu 32.6.7.2 er breytt úr **Drög** í **Lokið** og útgáfa verð
 4. Veljið **Opna** til að hlaða niður XML-skrá rafræns reiknings sem er búinn til.
 5. Greina XML-skrá rafræns reiknings. Takið eftir því að samkvæmt sérstillingum inniheldur skattskema viðskiptavinar ennþá sérstillta **FederalTaxID** XML-eigind til viðbótar við **schemeID** og **schemeAgencyID** XML-eigindir. Þar að auki, vegna þess að breytingarnar í nýju útgáfunni af grunnsniðinu **UBL-sölureikningur** voru sameinaðar við sérstillingarnar þínar, hefur textinn fyrir **cbc:CustomizationID** XML-eininguna verið breytt úr `urn:www.cenbii.eu:transaction:biicoretrdm010:ver1.0:# urn:www.peppol.eu:bis:peppol5a:ver1.0` í `urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0`.
 
-    ![Forskoða myndaða XML-skrá rafræns reiknings með sérstillingum.](./media/er-quick-start3-e-invoice3.png)
+    ![Forskoða myndaða XML-skrá rafræns reiknings með sérstillingum](./media/er-quick-start3-e-invoice3.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Sækja skilgreiningar rafrænnar skýrslugerðar úr Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu](er-download-configurations-global-repo.md)
-- [Stofna textareikning](../../../finance/accounts-receivable/create-free-text-invoice-new.md)
-- [Stofna og vinna með sérstillt svæði](../../fin-ops/get-started/user-defined-fields.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+- [Stofna textareikning](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
+- [Stofna og vinna með sérstillt svæði](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)

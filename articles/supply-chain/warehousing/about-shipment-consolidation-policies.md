@@ -2,27 +2,28 @@
 title: Samstæðureglur sendingar
 description: Í þessu efnisatriði er að finna yfirlit yfir virkni sem býður upp á sveigjanlega skilgreiningu samstæðureglna sendinga.
 author: GarmMSFT
+manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 11ee4beefed02425d4650de3e896e608d3d00ef5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f895b13b2e11d4cb341f80b3cfeb40ed998ccfc4
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577961"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654221"
 ---
 # <a name="shipment-consolidation-policies"></a>Samstæðureglur sendingar
-
-[!include [banner](../includes/banner.md)]
 
 Samstæðuferli sendingar sem notar samstæðureglur sendingar leyfa sjálfvirka samstæðu sendingar við sjálfvirka og Handvirk losun í vöruhúsið. Sjálfvirka samstæðan sem var tiltæk áður en þessi eiginleiki var kynntur var með harðkóðuð svæði og var byggður á **samstæða sendingar við losun í vöruhús** reitinum sem var stillt fyrir Vöruhús.
 
@@ -134,6 +135,3 @@ Eftirfarandi tafla sýnir samantekt á því hvernig sendingarsamstæða virkar 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Skilgreina samstæðureglur sendingar](configure-shipment-consolidation-policies.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

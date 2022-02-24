@@ -1,27 +1,30 @@
 ---
 title: Setja upp og hanna kvittunarsnið
 description: Þessi grein lýsir því hvernig á að breyti útliti skjámynda til að stjórna því hvernig kvittanir, reikningar og önnur skjöl eru prentuð. Dynamics 365 Commerce inniheldur útlitshönnuður skjámyndar sem gerir notendum kleift að búa til og breyta útliti ýmissa skjámynda á auðveldan hátt.
-author: BrianShook
-ms.date: 09/16/2021
+author: rubencdelgado
+manager: AnnBe
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dac0ad75ff35367b5d6ac84c75c68e22e2cb0cb1
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: ab6b01d6833850af8c04167d94b0a60c7312075c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779402"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413263"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Setja upp og hanna kvittunarsnið
 
@@ -43,15 +46,6 @@ ms.locfileid: "7779402"
     - **Ekki prenta** - kvittunin er ekki prentuð.
     - **Kvaðning notanda** – notandinn er beðinn um að prenta kvittunina.
     - **Eftir þörfum** – Þessi valkostur er einungis notaður fyrir kvittanir gjafakorts. Þegar þessi valkostur er valinn getur notandi prentað kvittun fyrir gjöf úr á **Breytingu** síðuna, ef þörf er á kvittun fyrir gjöf.
-
-## <a name="print-images"></a>Prenta myndir
-
-Kvittanahönnuðurinn inniheldur **Lógó** breytu. Þú getur notað þessa breytu til að tilgreina mynd sem á að prenta á kvittanir. Myndir sem prentaðar eru á kvittanir með því að nota **Lógó** breytuna ættu að vera með einlita skráargerðir (.bmp). Ef punktamynd er tilgreind í hönnuði kvittunar en er ekki prentuð þegar kvittun er sent til prentarans gæti orsökin verið eitt af eftirfarandi vandamálum:
-
-- Skráin er of stór eða pixlastærðir myndarinnar eru ekki samhæfðar við prentarann. Í þessu tilviki skaltu reyna að minnka upplausn eða víddir myndskrárinnar.
-- Sumt OLE (Object Linking and Embedding) fyrir prentararekla sölustaðar innleiða ekki aðferðina **PrintMemoryBitmap** sem vélbúnaðarstöðvar nota til að prenta myndir af lógóum. Í þessu tilviki skaltu reyna að bæta eftirfarandi flaggi við skrána **HardwareStation.Extension.config** í þinni eigin eða samnýttri vélbúnaðarstöð:
-
-    `<add name="HardwareStation.UsePrintBitmapMethod" value="true"/>`
 
 ## <a name="design-a-receipt-format"></a>Hanna kvittunarsnið
 
@@ -88,6 +82,3 @@ Kvittunarforstillingar eru tengdar beint í prentara með vélbúnaðarreglu.
 
 > [!NOTE]
 > Ef tveir prentarar eru notaðir, er hægt að nota einn prentara til að prenta staðlaða 40 dálka thermal-kvittanir. Önnur prentara er yfirleitt notað til að prenta kvittun af heilsíðugerð, sem krefjast frekari upplýsingar. Þessar gerðir kvittana innifela pöntun viðskiptavinar og reikningum viðskiptavina.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

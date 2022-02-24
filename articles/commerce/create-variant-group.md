@@ -1,10 +1,12 @@
 ---
 title: Stofna afbrigðaflokk
-description: Þetta efnisatriði lýsir því hvernig á að stofna stærð, stíl eða litaafbrigðaflokk fyrir afurð í Microsoft Dynamics 365 Commerce.
+description: Þetta efni lýsir því hvernig á að búa til stærð, stíl eða litafbrigði fyrir vöru í Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailSizeGroupTable, ConfigGroupIdLookup, RetailStyleGroupTable
 audience: Application User
@@ -15,19 +17,19 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 49e6860fa22bbfba8b86a8243fa29b831e22b489d967a45310648e5debd7512b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e19d9a2549fa9957126592f3db7e468147997261
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749932"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965152"
 ---
-# <a name="create-a-variant-group"></a>Búa til afbrigðaflokk
+# <a name="create-a-variant-group"></a>Stofna afbrigðaflokk
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að stofna stærð, stíl eða litaafbrigðaflokk fyrir afurð í Microsoft Dynamics 365 Commerce.
+Þetta efni lýsir því hvernig á að búa til stærð, stíl eða litafbrigði fyrir vöru í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -61,7 +63,7 @@ Fylgið eftirfarandi skrefum til að bæta eigindum við stærðarflokk.
 
 Eftirfarandi mynd sýnir dæmi um stærðarhóp fyrir „stærðir á hversdagsskyrtum“.
 
-![Stofna stærðarflokk.](media/create-variant-group.png)
+![Stofna stærðarflokk](media/create-variant-group.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -70,6 +72,3 @@ Eftirfarandi mynd sýnir dæmi um stærðarhóp fyrir „stærðir á hversdagss
 [Setja upp smásöluafurðir](set-up-retail-products.md)
 
 [Afurðarvíddir](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

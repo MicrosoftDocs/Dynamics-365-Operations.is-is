@@ -1,32 +1,33 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Human Resources (13. apríl 2020)
 description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 13. apríl 2020.
-author: andreabichsel
-ms.date: 04/13/2020
+author: Darinkramer
+manager: AnnBe
+ms.date: 4/13/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-04-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b5af74329fa741a443932a1007a6c2ef6abd3445
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: a7ea8348cfe1c66d6d0cfa39b46c8e69111fe185
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062212"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528522"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-13-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (13. apríl 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum Dynamics 365 Human Resources. Breytingar eiga við um byggingarnúmer 8.1.3136. Tölurnar í sviga í sumum fyrirsögnum vísa til stuðningsnúmera LCS fyrir tilvísun.
 
@@ -42,9 +43,9 @@ Með þessari breytingu er reiturinn **Sléttunarnákvæmni** nú tiltækur efti
 
 Þú getur nú breytt lokadagsetningu skráningar án þess að fá villuna „Fylla verður út reitinn Grundvöllur uppsöfnunardags”.
 
-## <a name="employment-entity-doesnt-sync-to-dataverse-430834"></a>Starfseiningin samstillist ekki við Dataverse (430834)
+## <a name="employment-entity-doesnt-sync-to-common-data-service-430834"></a>Starfseiningin samstillist ekki við Common Data Service (430834)
 
-Þessi breyting leiðréttir vandamál þar sem starfsgögn samstilltust ekki við Dataverse þegar fjárhagsvíddum hefur verið bætt við. 
+Þessi breyting leiðréttir vandamál þar sem starfsgögn samstilltust ekki við Common Data Service þegar fjárhagsvíddum hefur verið bætt við. 
 
 ## <a name="remove-multi-parenting-for-work-calendar-time-interval-entity-431775"></a>Fjarlægja fjölyfireiningar fyrir eininguna Tímabil vinnudagatals (431775)
 
@@ -93,8 +94,6 @@ Ef forskoðun skjals fyrir skjöl sem eru vistuð í SharePoint virkar ekki, pr�
 ## <a name="see-also"></a>Sjá einnig
 
 [Nýjungar í Human Resources](hr-admin-whats-new.md)</br>
-[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

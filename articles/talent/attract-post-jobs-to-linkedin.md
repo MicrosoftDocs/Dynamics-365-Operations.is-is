@@ -80,6 +80,3 @@ Ef þú ert í vandræðum með að birta störf á LinkedIn skaltu sjá [Úrræ
 [Finna umsækjendur með LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 
 [Úrræðalaeit samþættingar við LinkedIn](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

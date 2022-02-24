@@ -1,10 +1,12 @@
 ---
 title: Yfirlit yfir sniðmát og útlit
-description: Þetta efnisatriði nær yfir sniðmát og útlit í Microsoft Dynamics 365 Commerce.
+description: Þetta efni fjallar um sniðmát og skipulag í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
+manager: annbe
 ms.date: 12/12/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,25 +16,25 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 888f5295dce601d4ce5d823f14169bbcdfe48d6b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 835b283ea93f761791745a41c74b6a12c11eea02
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986095"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962961"
 ---
 # <a name="templates-and-layouts-overview"></a>Yfirlit yfir sniðmát og útlit
 
 
 [!include [banner](includes/banner.md)]
 
-Sniðmát eru grunneiningar Microsoft Dynamics 365 Commerce síðulíkans. Ef markmið þitt er að hámarka skilvirkni og samræmi í vinnuferlum höfundar er mikilvægt að þú kynnir þér hvernig þú getur nýtt þér sniðmát fyrir vefsíðuna. Snemmbærar ákvarðanir um uppbyggingu sniðmáts eru mikilvægar og geta haft veruleg áhrif á kostnað og snerpu við daglegar, árstíðabundnar og vefsvæðis vörumerkisuppfærslur. Vel skipulögð sniðmát hafa líka aðra kosti. Til dæmis hjálpa þau til við að bæta stig á SEO (SEO) og lágmarka fjölda galla.
+Sniðmát er grunnþáttur Microsoft Dynamics 365 Commerce síðulíkani. Ef markmið þitt er að hámarka skilvirkni og samræmi í vinnuferlum höfundar er mikilvægt að þú kynnir þér hvernig þú getur nýtt þér sniðmát fyrir vefsíðuna. Snemmbærar ákvarðanir um uppbyggingu sniðmáts eru mikilvægar og geta haft veruleg áhrif á kostnað og snerpu við daglegar, árstíðabundnar og vefsvæðis vörumerkisuppfærslur. Vel skipulögð sniðmát hafa líka aðra kosti. Til dæmis hjálpa þau til við að bæta stig á SEO (SEO) og lágmarka fjölda galla.
 
 Góð leið til að byrja að vinna með sniðmát er að skilja virkan ávinning sniðmáta og skipulags, muninn þar á milli og stigveldi.
 
 Eftirfarandi mynd sýnir stilgveldi síðulíkans á bak við útgefna vefsíðu.
 
-![Skýringarmynd síðulíkans.](../commerce/media/page-model-diagram.png)
+![Skýringarmynd síðulíkans](../commerce/media/page-model-diagram.png)
 
 | Eining        | Grunnaðgerð |
 |---------------|----------------|
@@ -98,7 +100,7 @@ Forstillta skipulag og sérsniðnar skipulag er breytt í mismunandi hlutum höf
 
 Eftirfarandi myndir sýna atburðarás fyrir forstillt og sérsniðið skipulag.
 
-![Forstilltar og sérsniðnar skipulagsaðstæður.](../commerce/media/template-figure1.png)
+![Forstilltar og sérsniðnar skipulagsaðstæður](../commerce/media/template-figure1.png)
 
 Til að byrja að nota forstilltar skipulag, sjá [Vinna með forstillt skipulag](work-with-layouts.md).
 
@@ -109,6 +111,3 @@ Til að byrja að nota forstilltar skipulag, sjá [Vinna með forstillt skipulag
 [Vinna með forstillt útlit](work-with-layouts.md)
 
 [Unnið með birta hópa](publish-groups.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

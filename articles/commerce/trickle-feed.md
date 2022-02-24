@@ -1,13 +1,16 @@
 ---
 title: Stofnun hlutastraumspöntunar fyrir færslur smásöluverslunar
 description: Þetta efnisatriði lýsir stofnun hlutastraumspöntunar fyrir færslur verslunar í Microsoft Dynamics 365 Commerce.
-author: analpert
-ms.date: 01/11/2021
+author: josaw1
+manager: AnnBe
+ms.date: 09/04/2020
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -15,53 +18,40 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 67b66cd4bf2a77f3ab7f33f691156e38cc13770a
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 79f99b9b401de3e3bcca6ec5a13a3b4f7bad6f8c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964630"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459261"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Stofnun hlutastraumspöntunar fyrir færslur smásöluverslunar
 
 [!include [banner](includes/banner.md)]
 
-Í Microsoft Dynamics 365 Commerce útgáfu 10.0.5 og síðar er ráðlagt að flytja öll bókunarferli uppgjöra yfir í bókunarferli uppgjöra með hlutastraum. Verulegur ávinningur fyrir afkomu og viðskipti fylgir því að nota hlutastraumsvirknina. Unnið er úr sölufærslum yfir daginn. Unnið er úr greiðslumáta- og reiðufjárstjórnunarfærslum á fjárhagsskýrslunni í lok dags. Hlutastraumsvirkni býður upp á stöðuga úrvinnslu sölupantana, reikninga og greiðslna. Af þeim sökum eru birgðir, tekjur og greiðslur uppfærðar nánast í rauntíma.
+Í Dynamics 365 Retail, útgáfu 10.0.4 og eldri útgáfum, er uppgjör bókað í lok dags og allar færslur eru bókfærðar í lok dags. Vinna verður úr háum færslum innan takmarkaðs tímaramma sem leiðir stundum til álags, læsingar og vandamála við bókun á uppgjöri. Einnig kemur það í veg fyrir að söluaðilar geti skráð tekjur og greiðslur í bókhaldið yfir daginn.
 
-## <a name="use-trickle-feed-based-posting"></a>Nota bókun með hlutastraum
+Með stofnun hlutastraumspöntunar sem er hluti af Retail, útgáfu 10.0.5, er hægt að vinna úr færslum yfir daginn og eiga einungis eftir að vinna úr fjárhagslegri afstemmingu greiðslumáta og öðrum reiðufjárstjórnunarfærslum í lok dags. Þessi eiginleiki jafnar álagið af því að búa til sölupantanir, reikninga og framkvæma greiðslur yfir daginn. Þetta veitir betri skilning á afkomu og gefur kost á að skrá tekjur og greiðslur í bókhald nánast í rauntíma. 
 
-> [!IMPORTANT]
-> Áður en bókun með hlutastraum er virkjuð verður að tryggja að ekki séu til staðar reiknuð og óbókuð uppgjör. Bóka skal öll uppgjör áður en eiginleikinn er virkjaður. Hægt er að leita að opnum uppgjörum á vinnusvæðinu **Fjármál verslunar**.
 
-Til að virkja bókun smásölufærslna með hlutastraum skal virkja eiginleikann **Smásöluuppgjör – hlutastraumur** á vinnusvæðinu **Eiginleikastjórnun**. Uppgjörum verður skipt upp í tvær gerðir: færsluuppgjör og fjárhagsskýrslur.
+## <a name="how-to-use-trickle-feed-based-posting"></a>Hvernig á að nota bókun með hlutastraum
+  
+1. Til að virkja hlutastraumsbókun smásölufærslna skal gera eiginleikann með heitinu **Smásöluuppgjör – hlutastraumur** virkan með Eiginleikastjórnun.
 
-### <a name="transactional-statements"></a>Færsluuppgjör
+    > [!IMPORTANT]
+    > Áður en eiginleikinn er virkjaður skal ganga úr skugga um að engin uppgjör bíði þess að vera bókuð.
 
-Vinnsla færsluuppgjöra á að vera keyrð mjög reglulega í gegnum daginn svo fylgiskjöl séu búin til þegar færslum er hlaðið upp í Commerce Headquarters. Færslum er hlaðið úr verslununum í Commerce Headquarters þegar **P-vinnslan** er keyrð. Einnig þarf að keyra vinnsluna **Villuleita í færslum verslunar** til að villuleita færslur svo að færsluuppgjörið telji þær með.
+2. Núverandi uppgjörsskjali verður skipt upp í tvær gerðir: færsluuppgjör og fjárhagsskýrslu.
 
-Tímasetja eftirfarandi vinnslur á að keyra mjög reglulega:
+      - Færsluuppgjörið mun taka til allra óbókaðra og villuleitaðra færslna og stofna sölupantanir, sölureikninga, færslubækur fyrir greiðslur og afslætti og tekju-/útgjaldafærslur með þeim takti sem er grunnstilltur. Grunnstilla ætti ferlið til að keyra á hárri tíðni svo fylgiskjöl séu búin til þegar færslunum er hlaðið upp í höfuðstöðvum í gegnum P-verkið. Með færsluuppgjöri sem býr sjálft til sölupantanir og sölureikninga er engin þörf á að grunnstilla runuvinnsluna **Bóka birgðir**. Hins vegar er enn hægt að nota hana til að uppfylla tilteknar viðskiptaþarfir sem notandinn kann að hafa.  
+      
+     - Fjárhagsskýrslan er stillt á þann hátt að hún er búin til í lok dags og styður aðeins lokunaraðferðina **Vakt**. Þessi skýrsla takmarkast við fjárhagslega afstemmingu og býr eingöngu til færslubækur fyrir upphæðamismun á milli talinnar upphæðar og færsluupphæðar fyrir mismunandi greiðslumáta ásamt færslubókum fyrir aðrar reiðufjárstjórnunarfærslur.   
 
-- Til að reikna út færsluuppgjör skal keyra vinnsluna **Reikna færsluuppgjör í runu** (**Retail og Commerce \> Upplýsingatækni Retail og Commerce \> Sölustaðarbókun \> Reikna færsluuppgjör í runu**). Þessi vinnsla mun sækja allar óbókaðar og villuleitaðar færslur og bæta þeim við nýtt færsluuppgjör.
-- Til að bóka færsluuppgjör í runu skal keyra vinnsluna **Bóka færsluuppgjör í runu** (**Retail og Commerce \> Upplýsingatækni Retail og Commerce \> Sölustaðarbókun \> Bóka færsluuppgjör í runu**). Þessi vinnsla mun keyra bókunarferlið og búa til sölupantanir, sölureikninga, greiðslubækur, afsláttarbækur og tekju-/kostnaðarfærslur fyrir óbókuð uppgjör sem innihalda engar villur. 
+3. Til að reikna út færsluuppgjörið skal opna **Retail og Commerce > Upplýsingatækni Retail og Commerce > Sölustaðarbókun > Reikna færsluuppgjör í runu**. Til að bóka færsluuppgjörið í runu skal opna **Retail og Commerce > Upplýsingatækni Retail og Commerce > Sölustaðarbókun > Bóka færsluuppgjör í runu**.
 
-### <a name="financial-statements"></a>Fjárhagsskýrslur
+4. Til að reikna út fjárhagsskýrsluna skal opna **Retail og Commerce > Upplýsingatækni Retail og Commerce > Sölustaðarbókun > Reikna fjárhagsskýrslur í runu**. Til að bóka fjárhagsskýrslurnar í runu skal opna **Retail og Commerce > Upplýsingatækni Retail og Commerce > Sölustaðarbókun > Bóka fjárhagsskýrslur í runu**.
 
-Vinnsla fjárhagsskýrslna á að fara fram í lok dags. Þessi gerð uppgjörsferlis styður aðeins lokunaraðgerðina **Vakt** og mun aðeins telja með lokaðar vaktir. Skýrslur takmarkast við fjárhagslega afstemmingu. Þær munu eingöngu búa til færslubækur fyrir upphæðamismun á milli talinnar upphæðar og færsluupphæðar fyrir greiðslumáta ásamt færslubókum fyrir aðrar reiðufjárstjórnunarfærslur.
+> [!NOTE]
+> Valmyndaratriðin **Smásala og viðskipti > Upplýsingatækni smásölu og viðskipta > Sölustaðarbókun > Reikna uppgjör í runu** og **Smásala og viðskipti > Upplýsingatækni smásölu og viðskipta > Sölustaðarbókun > Bóka uppgjör í runu** verða fjarlægð með tilkomu þessa nýja eiginleika.
 
-Fjárhagsskýrslur gera notanda líka kleift að fara yfir eftirtaldar færslur: talningu skiptimyntar, greiðslufærslur, greiðslufærslur á vörslureikningi og greiðslufærslur í öryggisskáp. Upplýsingasíðan um greiðslumáta er aðeins sýnileg þegar fjárhagsskýrsla er valin.
-
-![Mynd sem sýnir hlutann með upplýsingum um greiðslumáta á bókuðum yfirlitum aðeins þegar fjárhagsskýrsla er valin.](./media/Trickle-feed-posted-statements-transaction-view.png)
-
-Tímasetja upphafs- og lokatíma eftirfarandi vinnsla við fjárhagsskýrslugerð miðað við áætluð dagslok:
-
-- Til að reikna út fjárhagsskýrslu skal keyra vinnsluna **Reikna fjárhagsskýrslur í runu** (**Retail og Commerce \> Upplýsingatækni Retail og Commerce \> Sölustaðarbókun \> Reikna fjárhagsskýrslur í runu**). Þessi vinnsla mun safna saman öllum óbókuðum fjárhagsfærslum og bæta þeim við nýja fjárhagsskýrslu.
-- Til að bóka fjárhagsskýrslur í runu skal keyra vinnsluna **Bóka fjárhagsskýrslur í runu** (**Retail og Commerce \> Upplýsingatækni Retail og Commerce \> Sölustaðarbókun \> Bóka fjárhagsskýrslur í runu**).
-
-### <a name="manually-create-statements"></a>Stofna skýrslur handvirkt
-
-Einnig er hægt að búa til gerðir af færsluuppgjörum og fjárhagsskýrslum handvirkt. 
-
-1. Opnið **Retail og Commerce \> Rásir \> Verslanir** og veljið **Uppgjör**. 
-2. Veljið **Nýtt** og síðan þá gerð uppgjörs sem stofna á. Svæðin á síðunni **Uppgjör** munu sýna gögn sem eiga við valda gerð uppgjörs og aðgerðir í **Uppgjörsflokkur** munu birta viðeigandi aðgerðir.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Einnig er hægt að búa til gerðir af færsluuppgjörum og fjárhagsskýrslum handvirkt. Opnið **Smásala og viðskipti > Rásir > Verslanir** og smellið á **Uppgjör**. Smella skal á **Nýtt** og velja svo þá gerð uppgjörs sem stofna á. Svæðin á síðunni **Uppgjör** og aðgerðir í hlutanum **Uppgjörsflokkur** á síðunni birta gögn og aðgerðir í samræmi við valda gerð uppgjörs.

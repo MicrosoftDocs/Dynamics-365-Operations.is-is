@@ -1,33 +1,34 @@
 ---
 title: Samstilling sölupantana beint á milli Sales og Supply Chain Management
 description: Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem notuð eru til að keyra samstillingu sölupantana beint á milli Dynamics 365 Sales og Dynamics 365 Supply Chain Management.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: eb41a21395a5d115b779e6b1ef71e9eb1176e28e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061519"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430527"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Samstilling sölupantana beint á milli Sales og Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
-
-
 
 Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem notuð eru til að keyra samstillingu sölupantana beint á milli Dynamics 365 Sales og Dynamics 365 Supply Chain Management.
 
@@ -35,7 +36,7 @@ ms.locfileid: "8061519"
 
 Prospect to lausnin notar gagnasamþættingu til að samstilla gögn yfir tilvik Supply Chain Management og Sales. Prospect to cash sniðmát sem eru í boði með gagnasamþættingu leyfir flæði gagna fyrir reikninga, tengiliði, vörur, sölutilboða, sölutilboð, sölupantana og sölureikningagagna milli Supply Chain Management og Sales. Eftirfarandi mynd sýnir hvernig gögnin eru samstillt milli Supply Chain Management og Sales.
 
-[![Gagnaflæði í Prospect to cash.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Gagnaflæði í Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Sniðmát og verkefni
 
@@ -63,8 +64,8 @@ Eftirfarandi samstillingarverkefni eru nauðsynleg áður en samstillingar sölu
 
 | Birgðakeðjustjórnun  | Sala             |
 |-------------------------|-------------------|
-| Dataverse hausar sölupöntunar | SalesOrders       |
-| Dataverse sölupöntunarlínur   | SalesOrderDetails |
+| Hausar CDS-sölupöntunar | SalesOrders       |
+| CDS sölupöntunarlínur   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>Einingaflæði
 
@@ -74,7 +75,7 @@ Ekki þarf að stofna pantanir í Sales. Hægt er að stofna nýjar sölupantani
 
 Í Supply Chain Management hjálpa síur í sniðmáti að aðeins viðeigandi sölupantanir séu innifaldar í samstillingu:
 
-- Á sölupöntun þarf bæði viðskiptavinurinn sem pantar og sá sem reikningsfært að eiga uppruna sinn í Sales til að vera teknir með í samstillingu. Í Supply Chain Management er dálkarnir **OrderingCustomerIsExternallyMaintained** og **InvoiceCustomerIsExternallyMaintained** notaðir til að sía sölupantanir úr gagnaeiningum.
+- Á sölupöntun þarf bæði viðskiptavinurinn sem pantar og sá sem reikningsfært að eiga uppruna sinn í Sales til að vera teknir með í samstillingu. Í Supply Chain Management er reitirnir **OrderingCustomerIsExternallyMaintained** og **InvoiceCustomerIsExternallyMaintained** notaðir til að sía sölupantanir úr gagnaeiningum.
 - Sölupöntun í Supply Chain Management verður að vera staðfest. Aðeins staðfestar sölupantanir eða sölupantanir með hærri vinnslustöðu, til dæmis, **Sent** eða **Reikningsfært**, eru samstilltar við Sales.
 - Eftir að sölupöntun er búin til eða henni breytt verður að keyra runuvinnsluna **Reikna heildarsölu** í Supply Chain Management. Aðeins sölurekningar þar sem sölutölur eru reiknaðar verður samstilltir við Sales.
 
@@ -102,10 +103,10 @@ Sales styður ekki skatt á hausstiginu vegna þess að skattur er vistaður á 
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Prospect to cash lausn fyrir Sales
 
-Nýjum dálkum hefur verið bætt við töfluna **Pöntun** og birtast á síðunni:
+Nýjum reitum hefur verið bætt við eininguna **Pöntun** og birtist á síðunni:
 
 - **Er viðhaldið utanfrá** - Stillið á **Já** þegar pöntunin er úr Supply Chain Management.
-- **Vinnslustaða** - Þessi dálkur sýnir vinnslustöðu pantanar í Supply Chain Management. Eftirtalin gildi eru tiltæk:
+- **Vinnslustaða** - Þessi reitur sýnir vinnslustöðu pantanar í sniðmát. Eftirtalin gildi eru tiltæk:
 
     - **Drög** - upphafleg staða þegar pöntun er stofnuð í Sales. Í Sales má aðeins breyta pöntunum með þessari vinnslustöðu.
     - **Virk** - Staða eftir að pöntun er virkjuð í Sales með því að nota hnappinn **Virkja**.
@@ -140,7 +141,7 @@ Staða sölupöntunar verður áfram **Virk** til að tryggja að gjöld úr Sup
 - Farið í **Stillingar** &gt; **Stjórnun** &gt; **Kerfisstillingar** &gt; **Sala** og gangið úr skugga um að eftirfarandi stillingar séu notaðar:
 
     - **Nota reikningskerfi verðs** valkosturinn er stilltur á **Já**.
-    - **Reikningsaðferð reikningsafslátta** dálkurinn er stilltur á **Línuatriði**.
+    - **Reikningsaðferð reikningsafslátta** reiturinn er stilltur á **Línuatriði**.
 
 ### <a name="setup-in-supply-chain-management"></a>Uppsetning í Supply Chain Management
 
@@ -150,10 +151,10 @@ Ef samþætting vinnupöntunar er einnig notuð er nauðsynlegt að setja upp s�
 
 1. Farðu í **Sala og markaðssetning** \> **Uppsetning** \> **Sölupantanir** \> **Söluuppruni**.
 2. Veldu **Nýr** til að búa til nýjan söluuppruna.
-3. Í dálkinn **Söluuppruni** skal slá inn heiti söluuppruna, t.d. **SalesOrder**.
-4. Í dálkinum **Lýsing** skal færa inn lýsingu, t.d. **Sölupöntun úr Sales**.
+3. Í reitinn **Söluuppruni** skal slá inn heiti söluuppruna, t.d. **SalesOrder**.
+4. Í reitnum **Lýsing** skal færa inn lýsingu, t.d. **Sölupöntun úr Sales**.
 5. Veldu gátreitinn **Úthlutun upprunagerðar**.
-6. Stillið dálkinn **Upprunagerð sölu** á **Samþætting sölupöntunar**.
+6. Stilltu reitinn **Upprunagerð sölu** á **Samþætting sölupöntunar**.
 7. Veljið **Vista**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>Uppsetning í sölupöntunum (Sales við Supply Chain Management) - Beint Gagnasamþættingarverk
@@ -180,32 +181,29 @@ Ef samþætting vinnupöntunar er einnig notuð er nauðsynlegt að setja upp s�
 ## <a name="template-mapping-in-data-integration"></a>Sniðmátsvörpun í Gagnasamþættingu
 
 > [!NOTE]
-> **Greiðsluskilmálar**, **Farmskilmálar**, **Afhendingarskilmálar**, **Sendingaraðferð** og **Afhendingarmáti** eru ekki hluti af sjálfgefinni vörpun. Til að varpa þessum dálkum, verður að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem taflan er samstillt á milli.
+> Reitirnir **Greiðsluskilmálar**, **Flutningsskilmálar**, **Afhendingarskilmálar**, **Sendingaraðferð** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum reitum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem einingin er samstillt á milli.
 
 Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþættingu.
 
 > [!NOTE]
-> Vörpunin sýnir hvaða dálkupplýsingar verða samstilltar úr Sales í Supply Chain Management eða úr Supply Chain Management í Sales.
+> Vörpunin sýnir hvaða reitaupplýsingar verða samstilltar úr Sales í Supply Chain Management eða úr Supply Chain Management í Sales.
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Sölupantanir (Supply Chain Management til Sales) - Beint: OrderHeader
 
-[![Sniðmátsvörpun í gagnasamþættingu, sölupantanir (Supply Chain Management til Sales) - Beint: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
+[![Sniðmátsvörpun í Gagnasamþættingu](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Sölupantanir (Supply Chain Management til Sales) - Beint: OrderLine
 
-[![Sniðmátsvörpun í gagnasamþættingu, sölupantanir (Supply Chain Management til Sales) - Beint: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
+[![Sniðmátsvörpun í Gagnasamþættingu](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Sölupantanir (Sales til Supply Chain Management) - Beint: OrderHeader
 
-[![Sniðmátsvörpun í gagnasamþættingu, sölupantanir (Sales til Supply Chain Management) - Beint: OrderHeader.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
+[![Sniðmátsvörpun í Gagnasamþættingu](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Sölupantanir (Sales til Supply Chain Management) - Beint: OrderLine
 
-[![Sniðmátsvörpun í gagnasamþættingu, sölupantanir (Sales til Supply Chain Management) - Beint: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
+[![Sniðmátsvörpun í Gagnasamþættingu](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
 ## <a name="related-topics"></a>Tengd efnisatriði
 
-[Viðfang til sjóðstreymis](prospect-to-cash.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Prospect to cash](prospect-to-cash.md)

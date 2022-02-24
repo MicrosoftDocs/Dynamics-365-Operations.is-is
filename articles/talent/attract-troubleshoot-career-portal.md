@@ -72,5 +72,3 @@ Attract-notendur geta ekki sótt um störf á starfagátt. Þegar þeir reyna a�
 
    1. Skráðu þig inn í starfagátt úr nýjum vafraglugga.
    2. Sækja um starfið í starfagátt. 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

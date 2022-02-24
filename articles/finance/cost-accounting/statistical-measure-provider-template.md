@@ -2,9 +2,11 @@
 title: Sniðmát veitu fyrir meðlimi tölfræðivídda og tölfræðiveita
 description: Þetta efnisatriði veitir upplýsingar um meðlimi tölfræðivíddar og talnagagna mæling þjónustuveita sniðmát. Meðlimi víddar vinnslu geta verið notaðir sem úthlutun grunneining í reglum eins og kostnaðar dreifingu og kostnaðarúthlutun. Þær einnig má nota til að skrá notkun peningalegt-ekki kostnað.
 author: AndersGirke
+manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 79e8bf0714871ffd342bb6053153e6e4d0f5c668
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767648"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969454"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Sniðmát veitu fyrir meðlimi tölfræðivídda og tölfræðiveita
 
@@ -160,7 +162,7 @@ Farið **kostnaðarbókhald fjárhags** \> **Raunútgáfu** \> **Stýra** \> **T
 
 **Tölfræðilegar færslur**
 
-| Kostnaðarhlutur |  lýsing  | Dagsetning reikningsskila | Tölfræðilegt víddarstak |  lýsing        | Mæligildi |
+| Kostnaðarhlutur |    | Dagsetning reikningsskila | Tölfræðilegt víddarstak |  lýsing        | Mæligildi |
 |-------------|----|-----------------|------------------------------|---------------------|-----------|
 | CC001       | Mannauður | 31-01-2017      | Starfsmanna í fullu Starfi                         | Starfsmenn í fullu starfi | 1,00      |
 | CC002       | FI | 31-01-2017      | Starfsmanna í fullu Starfi                         | Starfsmenn í fullu starfi | 2.00      |
@@ -322,11 +324,11 @@ Farið **kostnaðarbókhald fjárhags** \> **Raunútgáfu** \> **Stýra** \> **T
 |-----------------|------------|--------------|-------------------------|-------------|
 | 31-01-2017      | 2,450.00   | Rafmagn  | Notkun electricity | CC001       |
 | 31-01-2017      | 4,100.00   | Rafmagn  | Notkun electricity | CC002       |
-| 31-01-2017      | 15,000.00  | Rafmagn  | Rafmagnsnotkun | CC003       |
+| 31-01-2017      | 15,000.00  | Rafmagn  | Notkun electricity | CC003       |
 
 **Tölfræðilegar færslur**
 
-| Kostnaðarhlutur | lýsing | Dagsetning reikningsskila | Tölfræðilegt víddarstak |      lýsing                   | Mæligildi  |
+| Kostnaðarhlutur |    | Dagsetning reikningsskila | Tölfræðilegt víddarstak |      lýsing                   | Mæligildi  |
 |-------------|----|-----------------|------------------------------|-------------------------|------------|
 | CC001       | Mannauður | 31-01-2017      | Rafmagn                  | Notkun electricity | 2,450.00   |
 | CC002       | FI | 31-01-2017      | Rafmagn                  | Notkun electricity | 4,100.00   |
@@ -334,15 +336,12 @@ Farið **kostnaðarbókhald fjárhags** \> **Raunútgáfu** \> **Stýra** \> **T
 
 Ef Electricity fyrirfram vídd stak úthlutunargrunn er úthlutað sem grunnur við úthlutun í regla dreifingu kostnaður símtalalistamarkanna með því að nota eftirfarandi stuðull úthlutun.
 
-| Kostnaðarhlutur | lýsing   | Mæligildi | Úthlutunarþáttur          |
-|-------------|---------------|-----------|----------------------------|
-| CC001       | Mannauður            | 2,450.00  | (2.450 ÷ 21.550) × upphæð  |
-| CC002       | FI            | 4,100.00  | (4.100 ÷ 21.550) × upphæð  |
-| CC003       | Upplýsingatækni            | 15,000.00 | (15.000 ÷ 21.550) × upphæð |
+| Kostnaðarhlutur |    | Mæligildi | Úthlutunarþáttur          |
+|-------------|----|-----------|----------------------------|
+| CC001       | Mannauður | 2,450.00  | (2.450 ÷ 21.550) × upphæð  |
+| CC002       | FI | 4,100.00  | (4.100 ÷ 21.550) × upphæð  |
+| CC003       | Upplýsingatækni | 15,000.00 | (15.000 ÷ 21.550) × upphæð |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Úthlutunargrunnar](allocation-bases.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

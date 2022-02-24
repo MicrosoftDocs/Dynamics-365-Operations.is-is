@@ -1,32 +1,31 @@
 ---
 title: Yfirlit yfir leyfi og fjarvistir
-description: Í Dynamics 365 Human Resources býður vinnusvæði leyfis og fjarvista upp á sveigjanlegan ramma til að búa til nýjar leyfisáætlanir.
-author: twheeloc
-ms.date: 10/28/2021
-ms.topic: overview
+description: Í Dynamics 365 Human Resources býður vinnusvæði leyfis og fjarvista upp á sveigjanlegan ramma til að búa til nýjar leyfisáætlanir. Það býður einnig upp á verkflæði til að stjórna beiðnum og snjallar sjálfsafgreiðslusíður fyrir starfsmenn til að biðja um frí.
+author: andreabichsel
+manager: AnnBe
+ms.date: 06/01/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
+ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 344b4bba144a311530ce7be3b4bc230ce9cf8d1a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069022"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419080"
 ---
 # <a name="leave-and-absence-overview"></a>Yfirlit yfir leyfi og fjarvistir
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources hjálpar þér að veita starfsmönnum þínum mikinn orlof. Vinnusvæðið **Leyfi og fjarvistir** býður upp á sveigjanlegan ramma til að búa til nýjar leyfisáætlanir. Það býður einnig upp á verkflæði til að stjórna beiðnum og snjallar sjálfsafgreiðslusíður fyrir starfsmenn til að biðja um frí. Greining hjálpar fyrirtækinu þínu að mæla og fylgjast með orlofshlutfalli og notkun vegna orlofssókna.
 
@@ -37,7 +36,6 @@ Dynamics 365 Human Resources hjálpar þér að veita starfsmönnum þínum miki
 - [Grunnstilla færibreytur leyfis og fjarvista](hr-leave-and-absence-parameters.md)
 - [Búa til dagatal fyrir vinnutíma](hr-leave-and-absence-working-time-calendar.md)
 - [Stofna verkflæði fyrir beiðni um leyfi](hr-leave-and-absence-workflow.md)
-- [Sérstilla hlutverk fjarvistastjórnanda](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>Stofnun og umsjón með orlofsáætlunum
 
@@ -53,10 +51,6 @@ Dynamics 365 Human Resources hjálpar þér að veita starfsmönnum þínum miki
 
 Starfsmenn þínir geta sent inn beiðnir um frí og þú getur stjórnað þeim í **Sjálfsafgreiðsla starfsmanna** vinnusvæði.
 
-- [Biðja um frí](hr-employee-self-service-request-time-off.md)
-- [Vinna með beiðnir um leyfi og fjarvistir](hr-employee-self-service-manage-requests.md)
-- [Skilgreina hlutverk fjarvistastjórnanda](hr-configure-absence-manager.md)
+[Biðja um frí](hr-employee-self-service-request-time-off.md)
+[Vinna með beiðnir um leyfi og fjarvistir](hr-employee-self-service-manage-requests.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

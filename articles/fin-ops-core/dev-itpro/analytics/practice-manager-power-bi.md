@@ -1,10 +1,12 @@
 ---
 title: Power BI-efni aðferðastjórnunar
-description: Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni aðferðastjórnunar.
-author: kfend
+description: Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni aðferðastjórnunar. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru í efnispakkanum og veitir upplýsingar um gagnalíkan og einingar sem eru notaðar til að búa til efnið.
+author: KimANelson
+manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
@@ -14,18 +16,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4acef3c595f25fa0be16945a9f41611832cfcea9
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500222"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685706"
 ---
 # <a name="practice-manager-power-bi-content"></a>Power BI-efni aðferðastjórnunar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvað er innifalið í **Aðferðarstjóri** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
+Þetta efnisatriði lýsir því hvað er innifalið í **Aðferðastjórnun** Microsoft Power BI-efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -115,6 +117,3 @@ Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í **aðferðast
 | Lykiluppsafnaðar mælingar       | Svæði               | lýsing |
 |---------------------------------|---------------------|-------------|
 | Áætlaður kostnaður lokinna aðgerða | Samtala (TotalCostPrice) | Áætlað heildarkostnaðarverð fyrir allar færslugerðir þar sem verkum er lokið. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

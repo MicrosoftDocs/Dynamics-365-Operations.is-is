@@ -2,33 +2,30 @@
 title: Yfirlit yfir verkflæðiskerfi
 description: Þetta efnisatriði lýsir verkflæðiskerfinu.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom:
-- "56381"
-- intro-internal
+ms.custom: 56381
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70776ba0a0461998d2c1f62ba05b55cd4307a0f7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 660e01618eea66bc611dd51818694d36993ba9ea
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067934"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796997"
 ---
 # <a name="workflow-system-overview"></a>Yfirlit yfir verkflæðiskerfi
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Þetta efnisatriði lýsir verkflæðiskerfinu.
 
@@ -44,7 +41,7 @@ Workflow er kerfi sem keyrir á Application Object Server (AOS). Verkflæðisker
 
 Verkflæði endurspeglar viðskiptaferli. Það skilgreinir hvernig skjal flæðir eða hreyfist gegnum kerfið með því að sýna hver verður að ljúka verki, taka ákvörðun eða samþykkja skjal. Til dæmis sýnir eftirfarandi teikning verkflæði fyrir kostnaðarskýrslur.
 
-![Verkflæði með einingum sem hefur verið úthlutað til notenda.](./media/workflow_user.gif)
+![Verkflæði með einingum sem hefur verið úthlutað til notenda](./media/workflow_user.gif)
 
 Til að skilja þetta verkflæði betur er gert ráð fyrir að Sam sendi kostnaðarskýrslu fyrir 7,000 USD. Í þessari lýsingu þarf Ivan að endurskoða kvittanirnar sem Sam sendi til hans. Síðan verða Frank og Sue að samþykkja kostnaðarskýrsluna. Gerum nú ráð fyrir að Sam sendi kostnaðarskýrslu fyrir 11.000. Í þessari lýsingu verður Ivan að endurskoða kvittanirnar og Frank, Sue og Ann að samþykkja kostnaðarskýrsluna.
 
@@ -74,6 +71,3 @@ Nokkrir kostir eru við að nota verkflæðiskerfi í fyrirtækinu:
 + [Skilgreina samhliða greinar í verkflæði](configure-parallel-branch-workflow.md)
 + [Skilgreina verkflæði línuatriða](configure-line-item-workflow.md)
 + [Algengar spurningar um verkflæði](workflow-FAQ.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

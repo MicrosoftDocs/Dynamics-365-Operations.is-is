@@ -2,9 +2,11 @@
 title: (ER) Flytja inn skilgreiningar úr RCS
 description: Þetta efni gefur upplýsingar um hvernig notandi getur flutt inn nýja útgáfu af ER-skilgreiningum úr RCS.
 author: NickSelin
+manager: AnnBe
 ms.date: 07/03/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f5674c418baaac7817c27780e2f0137ce6e7137eb3f1665f768ad843cc5b3114
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b591df3d384e8dc59646ebb9d0205001db040a55
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720785"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684188"
 ---
 # <a name="er-import-configurations-from-rcs"></a>(ER) Flytja inn skilgreiningar úr RCS
 
@@ -53,6 +55,3 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 5. Veljið **Loka**. 
 6. Veljið æskilega útgáfu af skilgreiningu rafrænnar skýrslugerðar og veljið **Flytja inn** til að færa hana inn í núverandi tilvik.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

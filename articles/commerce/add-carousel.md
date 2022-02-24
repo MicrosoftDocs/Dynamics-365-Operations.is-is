@@ -1,13 +1,16 @@
 ---
 title: Myndaræmueining
-description: Þetta efni fjallar um myndræmueiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
+description: Þetta efni fjallar um myndaræmueiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfbe254d225366f89779ffeef410bb0b1a29056e51a4719106e9bc495b898161
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721056"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413086"
 ---
 # <a name="carousel-module"></a>Myndaræmueining
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni fjallar um myndræmueiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
+Þetta efni fjallar um myndaræmueiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Myndaræmueining er notuð til að setja margar kynningarvörur (þar með talið rtf-myndir) í myndaræmuborða sem snýst og viðskiptavinir geta skoðað. Til dæmis getur smásali notað myndræmueiningu á heimasíðu til að sýna margar nýjar vörur eða kynningar.
 
@@ -40,7 +45,7 @@ Myndaræmueining er notuð til að setja margar kynningarvörur (þar með tali�
 
 Eftirfarandi mynd sýnir dæmi um myndaræmueiningu sem er notuð á heimasíðu. Þessi myndaræmueining inniheldur mörg efnissvæði.
 
-![Dæmi um myndaræmueiningu.](./media/Hero.PNG)
+![Dæmi um myndaræmueiningu](./media/Hero.PNG)
 
 ## <a name="carousel-module-properties"></a>Eiginleikar myndaræmueiningar
 
@@ -81,6 +86,3 @@ Fylgdu þessum skrefum til að bæta myndaræmueiningu við nýja síðu og stil
 [Eining fyrir bálk með efni](add-hero-module.md)
 
 [Myndspilaraeining](add-video-player.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

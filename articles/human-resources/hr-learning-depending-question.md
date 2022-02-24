@@ -1,31 +1,29 @@
 ---
 title: Búa til spurningu sem er háð svari við fyrri spurningu
 description: Skilyrtar spurningar gera kleift að tilgreina hvaða eftirfylgni spurninguar eru boðnar svarendum, byggt á svarinu í fyrri spurningu.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f28f75a902121f23c92a919b539517dbdb191447
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 4295b49336ec7ac3cff4deba675bc63511be48de
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066726"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419093"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Búa til spurningu sem er háð svari við fyrri spurningu
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -33,31 +31,28 @@ Skilyrtar spurningar gera kleift að tilgreina hvaða eftirfylgni spurninguar er
 
 
 ## <a name="find-the-existing-questionnaire"></a>Finna fyrirliggjandi spurningalista
-1. Fara til **Spurningalisti** > **Hönnun** > **Spurningalistar**.
+1. Fara í Spurningalisti > Hönnun > Spurningalistar.
 2. Velja spurningalistann WorkFH á listanum.
 
 ## <a name="add-all-questions-and-sub-questions-to-the-questionnaire"></a>Bæta við spurningum og undirspurningar við Spurningalista
-1. Smellur **Spurningar**.
-2. Smellt er á **Nýtt**.
-3. Í **Spurning** reit, veldu spurningu númer 00016.
+1. Smellt er á Spurningar.
+2. Smellið á „Nýtt“.
+3. Veljið númer spurningu 00016 í svæðinu Spurningu.
 4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 5. Í listanum skal smella á tengilinn í valinni línu.
-6. Smelltu á **Vista**.
+6. Smellið á „Vista“.
 7. Lokið síðunni.
 
 ## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a>Stilla Röð Spurningalista á Skilyrt og gera spurninguna háða viðeigandi spurningu
-1. Smellið á **Breyta**.
-2. Útvíkkaðu kaflann **Uppsetning**.
-3. Í **Spurninga röð** reit, veldu 'skilyrt'.
-4. Smellur **Skilyrt** spurningu.
+1. Smellið á „Breyta“.
+2. Víkka út hlutann Uppsetning.
+3. Veljið 'Skilyrt' í svæðinu röðun Spurninga.
+4. Smellt er á Skilyrðisbundin spurning
 5. Veljið ‚Spurningar\útskýra hvers vegna þú svaraðir fyrri spurningu eins og þú gerðir?', í trénu.
-6. Í **Aðalspurning** reit, veldu spurningu 00009.
+6. Velja spurninguna 00009 í svæðinu aðalspurning
 7. Í listanum skal smella á tengilinn í valinni línu.
-8. Í **Svaraðu** reit, sláðu inn auðkenni svarraðar svarmöguleikans sem þú vilt gera spurninguna háða. Settu Til dæmis inn 1 fyrir fyrsta svarvalkost.
-9. Smelltu á **Vista**.
+8. Í svarreitnum, Færa inn Kenni svarraðar fyrir svarvalkost sem gera á spurningu háða. Settu Til dæmis inn 1 fyrir fyrsta svarvalkost.
+9. Smelltu á Vista.
 10. Í trénu, velja ‚Spurningar\ Ég fæ sanngjörn laun fyrir mína vinnu.'.
     * Athugið að spurningatréð var uppfært til að sýna háðar kringumstæður.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

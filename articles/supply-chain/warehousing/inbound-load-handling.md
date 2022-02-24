@@ -1,38 +1,39 @@
 ---
 title: Vöruhúsafgreiðsla á farmi á innleið fyrir innkaupapantanir
 description: Þetta efni lýsir afgreiðsluferli vöruhúss fyrir farma á innleið fyrir innkaupapantanir.
-author: Mirzaab
+author: omulvad
+manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
-ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c2d7f140c0199b4b81a7b42220d5800d427be680
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.10
+ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577841"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430659"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Vöruhúsafgreiðsla á farmi á innleið fyrir innkaupapantanir
 
-[!include [banner](../includes/banner.md)]
-
 Þetta efni lýsir afgreiðsluferli vöruhúss fyrir farma á innleið fyrir innkaupapantanir.
 
-Fyrir hvern farm á innleið ætti kerfið þitt nú þegar að innihalda tengda sölupöntun og hún gæti einnig innihaldið tengda forskrift og/eða flutningsáætlun farms. Nánari upplýsingar um hvernig á að stofna og stjórna farmi á innleið, sjá [Viðskiptaferli: Áætlun flutningsstjórnunar fyrir farma á innleið](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
+Fyrir hvern farm á innleið ætti kerfið þitt nú þegar að innihalda tengda sölupöntun og hún gæti einnig innihaldið tengda forskrift og/eða flutningsáætlun farms. Nánari upplýsingar um hvernig á að stofna og stjórna farmi á innleið, sjá [Viðskiptaferli: Áætlun flutningsstjórnunar fyrir farma á innleið](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Yfirlit: Hvernig farmar á innleið er stofnaðir, skráðir og mótteknir
 
 Eftirfarandi mynd sýnir dæmigert flæði til að meðhöndla farma á innleið sem er með innkaupapöntunarmagn þegar þeir berast í vöruhúsið.
 
-![Meðhöndlunarferli farms á innleið.](media/inbound-process.png "Ferlið við meðhöndlun farms á innleið")
+![Ferlið við meðhöndlun farms á innleið](media/inbound-process.png "Ferlið við meðhöndlun farms á innleið")
 
 1. **Lánardrottinn staðfestir innkaupapöntunina.**
 
@@ -40,11 +41,11 @@ Eftirfarandi mynd sýnir dæmigert flæði til að meðhöndla farma á innleið
 
 1. **Farmskrá á innleið er stofnuð til að áætla komuna og innihald hennar.**
 
-    Farmskrá á innleið táknar sendingu lánardrottins á einni eða fleiri innkaupapöntunum. Búist er við að farmurinn berist til vöruhússins sem ein efnisleg flutningseining (eins og flutningabíll). Farmskrá á innleið er notuð í skipulagsskyni og gerir samræmingaraðila flutninga kleift að fylgjast með framvindu farmsins frá lánardrottni. Hann er einnig notaður til að skrá magn pöntunarlínum og stjórna framvindu með aðgerðum vöruhúss, svo sem komu- og frágangsvinnu. Hægt er að búa til farm annaðhvort sjálfkrafa eða handvirkt og þeir geta verið byggðar á annaðhvort innkaupapöntun eða ítarlegri tilkynningu um sendingu (ASN) frá lánardrottni. Fyrir frekari upplýsingar, sjá [Stofna eða breyta farmi á innleið](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
+    Farmskrá á innleið táknar sendingu lánardrottins á einni eða fleiri innkaupapöntunum. Búist er við að farmurinn berist til vöruhússins sem ein efnisleg flutningseining (eins og flutningabíll). Farmskrá á innleið er notuð í skipulagsskyni og gerir samræmingaraðila flutninga kleift að fylgjast með framvindu farmsins frá lánardrottni. Hann er einnig notaður til að skrá magn pöntunarlínum og stjórna framvindu með aðgerðum vöruhúss, svo sem komu- og frágangsvinnu. Hægt er að búa til farm annaðhvort sjálfkrafa eða handvirkt og þeir geta verið byggðar á annaðhvort innkaupapöntun eða ítarlegri tilkynningu um sendingu (ASN) frá lánardrottni. Fyrir frekari upplýsingar, sjá [Stofna eða breyta farmi á innleið](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
 
 1. **Lánardrottinn staðfestir sendingu farms.**
 
-    Þegar lánardrottinn sendir farminn staðfestir flutningsstjórinn í móttöku vöruhússins sendingu farmsins. Ef móttökufyrirtækið notar eininguna **Flutningsstjórnun** mun staðfesting á sendingu á innleið kalla fram önnur ferli við stjórnun álags sem eru tengd farmi á innleið. Fyrir frekari upplýsingar, sjá [Staðfesta farm fyrir sendingu](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Þegar lánardrottinn sendir farminn staðfestir flutningsstjórinn í móttöku vöruhússins sendingu farmsins. Ef móttökufyrirtækið notar eininguna **Flutningsstjórnun** mun staðfesting á sendingu á innleið kalla fram önnur ferli við stjórnun álags sem eru tengd farmi á innleið. Fyrir frekari upplýsingar, sjá [Staðfesta farm fyrir sendingu](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **Farmurinn berst í vöruhús og starfsmenn skrá magn.**
 
@@ -66,7 +67,7 @@ Microsoft Dynamics 365 Supply Chain Management styður nokkrar rekstraraðferði
 
 - **Valmynd fartækis sem er stillt til að styðja við móttöku farms**
 
-    [Farsímaforrit vöruhúsakerfis](../warehousing/install-configure-warehouse-management-app.md) fyrir fartæki styður eftirfarandi stofnun verka:
+    [Vöruhúsaforritið](install-configure-warehousing-app.md) fyrir fartæki styður eftirfarandi stofnun verka:
 
     - Móttaka farmvöru
     - Móttaka og frágangur farmvöru
@@ -129,7 +130,7 @@ Eftirfarandi tafla útskýrir valkosti sem eru tiltækir fyrir reitinn **Ofmótt
 | Virði | lýsing |
 |---|---|
 | Leyfa | Starfsmenn geta skráð móttöku magns sem fer yfir það óskráða magn sem eftir er fyrir valinn farm, en aðeins ef samtals skráður magn er ekki meira en magn innkaupapöntunarlínunnar sem er tengt farminum (eftir leiðréttingu fyrir prósentu ofafhendingar) . |
-| Útiloka | <p>Starfsmenn geta ekki skráð móttöku magns sem er meira en eftirstandandi óskráð magn fyrir valinn farm (eftir leiðréttingu fyrir hlutfall ofafhendingar). Starfsmaður sem reynir að skrá kvittanirnar fær villu og getur ekki haldið áfram fyrr en hann hefur skráð magn sem jafngildir eða er lægra en eftirstöðvar óskráðs hleðslumagns.</p><p>Sjálfgefið er að gildi ofafhendingarhlutfalls á farmlínu sé afritað úr tengdri innkaupapöntunarlínu. Þegar reiturinn <b>Ofmóttaka farms</b> er stilltur á <i>Loka fyrir</i> notar kerfið prósentugildi ofafhendingar til að reikna út heildarmagn sem hægt er að skrá fyrir farmlínu. Samt sem áður er hægt að skrifa yfir það gildi fyrir einstaka farma eftir þörfum. Þessi hegðun verður viðeigandi við móttöku flæðis þar sem sumu eða öllu umframmagninu sem táknar hlutfall ofarhendingar pöntunarlínunnar er dreift óhóflega á marga farma. Eftirfarandi er dæmi um aðstæður:</p><ul><li>Það er margir farmar fyrir eina innkaupapöntunarlínu.</li><li>Innkaupapöntunarlínan er með ofafhendingarhlutfall sem er hærra en 0 (núll).</li><li>Magn hefur þegar verið skráð á móti einum eða fleiri farmi án þess að taka tillit til hlutfalls ofafhendingar.</li><li>Magnið ofafhendingar berst í síðasta farminum.</li></ul><p>Í þessari atburðarás er aðeins hægt að nota fartæki til að skrá umframmagn fyrir síðasta farm ef umsjónarmaður vöruhúss eykur hlutfall ofafhendingar fyrir viðkomandi farmlínu úr sjálfgefnu gildi í gildi sem er nógu stórt til að full ofafhending geti vera skráð með endanlegum farmi.</p> |
+| Útiloka | <p>Starfsmenn geta ekki skráð móttöku magns sem er meira en eftirstandandi óskráð magn fyrir valinn farm (eftir leiðréttingu fyrir hlutfall ofafhendingar). Starfsmaður sem reynir að skrá móotökurnar mun fá villu og getur ekki haldið áfram fyrr en viðkomandi skráir magn sem er jafnt eða minna en það sem eftir er af óskráðu álagsmagni.</p><p>Sjálfgefið er að gildi ofafhendingarhlutfalls á farmlínu sé afritað úr tengdri innkaupapöntunarlínu. Þegar reiturinn <b>Ofmóttaka farms</b> er stilltur á <i>Loka fyrir</i> notar kerfið prósentugildi ofafhendingar til að reikna út heildarmagn sem hægt er að skrá fyrir farmlínu. Samt sem áður er hægt að skrifa yfir það gildi fyrir einstaka farma eftir þörfum. Þessi hegðun verður viðeigandi við móttöku flæðis þar sem sumu eða öllu umframmagninu sem táknar hlutfall ofarhendingar pöntunarlínunnar er dreift óhóflega á marga farma. Eftirfarandi er dæmi um aðstæður:</p><ul><li>Það er margir farmar fyrir eina innkaupapöntunarlínu.</li><li>Innkaupapöntunarlínan er með ofafhendingarhlutfall sem er hærra en 0 (núll).</li><li>Magn hefur þegar verið skráð á móti einum eða fleiri farmi án þess að taka tillit til hlutfalls ofafhendingar.</li><li>Magnið ofafhendingar berst í síðasta farminum.</li></ul><p>Í þessari atburðarás er aðeins hægt að nota fartæki til að skrá umframmagn fyrir síðasta farm ef umsjónarmaður vöruhúss eykur hlutfall ofafhendingar fyrir viðkomandi farmlínu úr sjálfgefnu gildi í gildi sem er nógu stórt til að full ofafhending geti vera skráð með endanlegum farmi.</p> |
 | Eingöngu útiloka fyrir lokaðar hleðslur | Starfsmenn geta ofmóttekið magn úr farmlínum fyrir opna farma, en ekki fyrir farma sem hafa stöðuna _Móttekið_. |
 
 > [!NOTE]
@@ -205,7 +206,7 @@ Eftirfarandi tafla dregur saman áhrif af stillingunni **Leyfa mörg innhreyfing
 | Leyfa mörg innhreyfingarskjöl á farm | Magn farms | Hleðslustaða | Nóta |
 |---|---|---|---|
 | Þegar þessi reitur er ekki til (útgáfur fyrir 10.0.10) | <p>Farmmagnið er stillt þannig að það jafngildir skráðu magni.</p><p>Ef farmmagnið er uppfært í 0 (núll), sem þýðir að engin skráning hefur verið gerð, er farmlínunni eytt.</p><p>Ef engar farmlínur eru í farminum er farminum eytt.</p> | _Móttekið_ | Ef margir farmar eru til staðar fyrir skráð magn pöntunarlínunnar er aðeins staða farmsins sem innhreyfinarskjali var bókað úr uppfærð í _Móttekið_. |
-| Nei | <p>Farmmagnið er stillt þannig að það jafngildir skráðu magni sem er tengt við farmkennið.</p><p>Ef ekkert farmkenni er skráð fyrir birgðafærslu passar hegðunin við hegðun í útgáfum á undan 10.0.10.</p> | _Móttekið_ | |
+| Ekkert | <p>Farmmagnið er stillt þannig að það jafngildir skráðu magni sem er tengt við farmkennið.</p><p>Ef ekkert farmkenni er skráð fyrir birgðafærslu passar hegðunin við hegðun í útgáfum á undan 10.0.10.</p> | _Móttekið_ | |
 | Já | Engar uppfærslur | _Móttekið_, ef heildarmagn farmmagns er jafnt eða meira en farmmagnið | |
 | Já | Engar uppfærslur | _Sent_ eða _Í vinnslu_, ef heildarmagn farmmagns er minna en farmmagnið | |
 
@@ -218,7 +219,7 @@ Til að bóka innhreyfingarskjal afurða á viðbótar skráðu farmmagni á mó
 
 ### <a name="post-registered-quantities-from-the-purchase-order-page"></a>Settu skráð magn af síðunni Innkaupapöntun
 
-Til að bóka skráð magn vegna innhreyfingarskjals afurðar á síðunni **Innkaupapöntun**, lýkur notandi við eftirfarandi verk áður en hann velur aðgerðina **Innhreyfingarskjal afurðar**:
+Til að bóka innhreyfingarskjal afurða á skráðu magni af síðunni **Innkaupapöntun** lýkur notandanum eftirfarandi verkum áður en viðkomandi velur aðgerðina **Innhreyfingarskjal afurða**:
 
 - Stilltu reitinn **Magn** í kaflanum **Færibreytur** á flipanum **Stillingar** á _Skráð magn_.
 - Í reitinn **Innhreyfingarskjal afurðar** slærðu inn þau númer innkaupapantana sem eru innifalin í bókuninni.
@@ -285,7 +286,7 @@ Til að vinna í gegnum þessar atburðarásir með því að nota tilgreind sý
 
 Áður en starfsmaður vöruhúss getur notað fartæki til að skrá birgðir á innleið sem eru tengdar við álag verður þú að búa til valmyndaratriði fartækis í þeim tilgangi.
 
-Í þessum hluta muntu búa til valmyndaratriði fartækis og bæta því við núverandi valmynd. Starfskraftur í vöruhúsi getur síðan valið valmyndaratriði í farsímaforriti vöruhúsakerfis.
+Í þessum hluta muntu búa til valmyndaratriði fartækis og bæta því við núverandi valmynd. Starfskraftur í vöruhúsi getur síðan valið valmyndaratriði í vöruhúsaforritinu.
 
 1. Farðu í **Vöruhúsastjórnun \> Uppsetning \> Fartæki \> Valmyndaratriði fartækis** og gakktu úr skugga um að valmynd fartækisins innihaldi valmyndaratriði sem hefur eftirfarandi stillingar:
 
@@ -295,7 +296,7 @@ Til að vinna í gegnum þessar atburðarásir með því að nota tilgreind sý
 
     Þú getur haft allar aðrar stillingar sem sjálfgefin gildi.
 
-    ![Stillingar á valmyndaratriði fartækis.](media/inbound-mobile-menu-items.png "Stillingar valmyndaratriðis fartækis")
+    ![Stillingar valmyndaratriðis fartækis](media/inbound-mobile-menu-items.png "Stillingar valmyndaratriðis fartækis")
 
     Nánari upplýsingar um hvernig skuli setja upp valmyndaratriði fartækja, sjá [Uppsetning fartækja fyrir vöruhúsavinnu](configure-mobile-devices-warehouse.md).
 
@@ -330,7 +331,7 @@ Til að vinna í gegnum þessar atburðarásir með því að nota tilgreind sý
     - Á flýtiflipanum **Farmur** er reiturinn **Farmstaða** stilltur á _Opið_.
     - Í hlutanum **Farmlínur** er ein lína þar sem reiturinn **Magn** er stilltur á _10_ og reiturinn **Magn vinnusköpunar** er stilltur á _0_ (núll).
 
-    ![Upplýsingar um hleðslu.](media/inbound-load-details.png "Upplýsingar um hleðslu")
+    ![Upplýsingar um hleðslu](media/inbound-load-details.png "Upplýsingar um hleðslu")
 
 1. Í aðgerðaglugganum, á flipanum **Senda og móttaka**, velurðu **Staðfesta \> Sending á innleið**. Taktu eftir að **Farmstaða** hefur breyst í _Sent_.
 1. Skrifaðu hjá þér gildið **Kenni farms**, svo að þú getir notað það í næsta ferli.
@@ -349,7 +350,7 @@ Til að vinna í gegnum þessar atburðarásir með því að nota tilgreind sý
 
 1. Haltu áfram að fara í gegnum verkflæðið, láttu alla aðra reiti vera auða eða stilltu á sjálfgefin gildi, þar til tækið þitt upplýsir þig um að verkinu sé lokið.
 
-Móttökuverki hleðslu er nú lokið og starfsmaður móttöku getur farið í næsta verk. Samt sem áður munu móttökustarfsmenn vöruhúsa endurskoða farmskrána og geta séð að móttekið magn var minna en áætlað magn. Þeir munu síðan ljúka eftirfarandi ferli með því að nota vefþjóninn.
+Farmmóttökuverkinu er nú lokið og móttökustarfsmaður getur haldið áfram í næsta verkefni sitt. Samt sem áður munu móttökustarfsmenn vöruhúsa endurskoða farmskrána og geta séð að móttekið magn var minna en áætlað magn. Þeir munu síðan ljúka eftirfarandi ferli með því að nota vefþjóninn.
 
 1. Farðu í **Vöruhúsakerfi \> Hleðslur \> Allar hleðslur**.
 1. Finndu álagið sem þú hefur nýlega fengið á listanum. (Þú gætir þurft að velja gátreitinn **Sýning lokuð** til að fela farma á innleið sem hafa farmstöðuna _Sent_ .) Veldu síðan tengilinn í dálkinum **Kenni farms** til að opna farminn.
@@ -477,6 +478,3 @@ Fyrir þessa atburðarás mun móttökustarfsmaður skrá magn á innleið sem e
     - **Magn** - Sláðu inn _7_, sem er eftirstandandi magn sem lánardrottinn hefur leyfi til að afhenda sem hluta af heildarinnkaupapöntunarmagni 12 (þar sem 10 er upphaflegt pöntunarmagn og 2 er leyfilegt magn ofafhendingar upp á 20 prósent). Mundu að 5 stk hafa þegar verið skráð gegn fyrsta farmi.
 
 Annar farmurinn hefur nú verið uppfærður með magninu 7 og er hægt að fá uppfæra eftir innhreyfingarskjali afurða miðað við þetta magn.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

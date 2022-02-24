@@ -2,9 +2,11 @@
 title: Skilgreina eigindir rásar
 description: Bættu í rásina með því að bæta við rás og afurðaeigindir.
 author: jashanno
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailInternalOrganization, EcoResAttributeGroup, EcoResAttributeGroupAttribute, RetailAddChannelItems, RetailCatalogProductAttributeValue, RetailMedia
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e99c59eba133427dad6d6a27a96b64f06621c932924293e3978d7f540e86153e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f50e925689f11f67285c956aec1a7ece235cdb74
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726408"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964696"
 ---
 # <a name="define-channel-attributes"></a>Skilgreina eigindir rásar
 
@@ -30,8 +32,8 @@ Bættu í rásina með því að bæta við rás og afurðaeigindir. Bæta verð
 
 ## <a name="define-channel-product-attribute"></a>Skilgreina Afurðareigindir rásar
 1. Fara í Retail og Commerce > Rás uppsetning > Tegundir rása og afurðaeigindir.
-2. Í trénu skal velja 'Contoso Retail\Fashion\Houston'.
-3. Smella á Breyta.
+2. Veljið "Contoso Retail\Fashion\Houston", í trénu.
+3. Smellið á „Breyta“.
 4. Færa inn eða veljið gildi í svæðinu tegundastigveldi.
     * Stigveldi flettinga verður notað fyrir að fletta í afurðina innan fyrirtækisins rásir.  
 5. Útvíkka hlutann eigindaflokkur.
@@ -69,6 +71,3 @@ Bættu í rásina með því að bæta við rás og afurðaeigindir. Bæta verð
 33. Smellið á „Í lagi“.
 34. Smellið á „Vista“.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

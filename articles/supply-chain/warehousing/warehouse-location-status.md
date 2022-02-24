@@ -2,25 +2,28 @@
 title: Staðsetningarstaða vöruhúss
 description: Þetta efnisatriði veitir yfirlit yfir eiginleikann staðsetningastaða vöruhúss.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSLocation
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 1b5e1eb651d882e7fbf38f2f2cf8804c28f2154fcb299dbc5caabbecdfab560b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31216c24f54f22ec928eb143d4a913aabcd50cf8
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733277"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430714"
 ---
 # <a name="warehouse-location-status"></a>Staðsetningarstaða vöruhúss
 
@@ -51,7 +54,7 @@ Eftirfarandi fjögur svæði á síðunni **Staðsetningar** rekja upplýsingar 
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-example-scenario"></a>Undirbúið áskilin lýsigögn fyrir sýniaðstæðurnar
 
-Áður en byrjað er að vinna í gegnum aðstæðurnar verður þú að virkja sýnigögn og setja upp eiginleikann eins og lýst er í þessum kafla. Til að klára sýniaðstæðurnar verðurðu að nota annað hvort farsímaforrit vöruhúsakerfis eða hermiforritið í vafranum. Í skrefunum hér á eftir er notast við farsímaforrit vöruhúsakerfis. Skrefin fyrir hermiforritið í vafranum eru svipuð.
+Áður en byrjað er að vinna í gegnum aðstæðurnar verður þú að virkja sýnigögn og setja upp eiginleikann eins og lýst er í þessum kafla. Til að klára sýniaðstæðurnar verðurðu að nota annað hvort vöruhúsaforritið eða hermiforritið í vafranum. Í skrefunum hér á eftir er notast við vöruhúsaforritið. Skrefin fyrir hermiforritið í vafranum eru svipuð.
 
 #### <a name="use-the-usmf-legal-entity"></a>Nota USMF-lögaðilann
 
@@ -166,6 +169,3 @@ Sýniaðstæðurnar krefjast þess að þú búir til tvær staðsetningarforsti
 
 > [!NOTE]
 > Staðsetningarreitirnir eru aðeins uppfærðir með vöruhúsafærslum. Svæðin uppfærast ekki ef þú notar færslubók eða aðra ferla sem eru ekki vöruhúsakerfi til að færa birgðir.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

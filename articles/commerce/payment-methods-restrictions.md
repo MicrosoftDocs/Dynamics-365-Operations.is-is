@@ -2,13 +2,16 @@
 title: Takmarka greiðslumáta fyrir skil án kvittunar
 description: Þetta efnisatriði lýsir því hvernig hægt er að takmarka ákveðnar greiðslugerðir ef endurgreiðslurnar er gerðar án kvittunar.
 author: rapraj
+manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: 716b3a924da14d94061966d0d671003a6e2b90f88a3c0c4064191b47d8930f93
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dfc49e3c3132fe2687ea71e5da75fe31753d57f9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773839"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413152"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Takmarka greiðslumáta fyrir skil án kvittunar
 
@@ -38,7 +41,7 @@ Til að setja upp greiðslumáta verður eftirfarandi verkefnum að vera lokið.
 3. Setja upp greiðsluhætti verslunar. Tengið greiðslumáta við hverja verslun og færið síðan inn stillingar fyrir einstakar verslanir fyrir hvern greiðslumáta verslunar.
 4. Setja upp kortagreiðsluhætti fyrir verslanir. Ljúkið kortauppsetningu fyrir alla greiðsluhætti korts sem verslunin tekur á móti.
 
-![Uppsetning verslunar.](media/NoReceiptReturns1.png "Uppsetning smásöluverslunar") 
+![Uppsetning verslunar](media/NoReceiptReturns1.png "Uppsetning smásöluverslunar") 
 
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Takmarka greiðslumáta fyrir skil án kvittunar
@@ -49,15 +52,12 @@ Sjálfgefið gildi á valkostinum er **Nei**, sem tryggir að greiðslumátinn s
 
 Þegar **Takmarka endurgreiðslur án kvittunar** er stillt á **Já** verður valinn greiðslumáti ekki leyfður fyrir endurgreiðslur. 
 
-![Greiðslumáti í verslun.](media/NoReceiptReturns3.png "Greiðslumáti viðskiptakrafna") 
+![Greiðslumáti í verslun](media/NoReceiptReturns3.png "Greiðslumáti viðskiptakrafna") 
 
 > [!NOTE]
 > Þegar gjaldkeri velur greiðslumáta sem takmarkar endurgreiðslu án kvittunar birtist skilaboð til að staðfesta viðeigandi greiðslumáta.
 
-![Viðunandi greiðslumátar.](media/NoReceiptReturns4.png "Viðunandi greiðslumátar") 
+![Viðunandi greiðslumátar](media/NoReceiptReturns4.png "Viðunandi greiðslumátar") 
 
 Ef færsla er bæði með endurgreiðslu með kvittun og án kvittunar, verður ekki farið eftir skilmálum takmörkunar vegna þess að færslan verður verkflæði endurgreiðslu með kvittun. 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

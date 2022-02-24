@@ -2,9 +2,11 @@
 title: Grunnstilla afhendingarmáta og gjöld í símaveri
 description: Þetta efni lýsir því hvernig á að setja upp afhendingarmáta og gjöld fyrir símaverspöntun í Dynamics 365 Commerce.
 author: josaw1
+manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748572"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963111"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Grunnstilla afhendingarmáta og gjöld í símaveri
 
@@ -65,11 +67,11 @@ Hægt er að grunnstilla gjöld þannig að þau eru sett á tiltekinn afhending
 
 Fyrirtæki grunnstilla oft stigskipt gjöld. Í því tilviki er sú upphæð sem viðskiptavinir greiða fyrir afhendingu byggð á pöntunarvirði. Til að grunnstilla stigskipt gjöld skal slá inn gildi í **Frá upphæð** og **Til upphæðar** reitina auk þess að ákvarða gjaldið sjálft í **Virði gjalda** reitnum. Til dæmis, fyrir pantanir sem hafa minna virði en 50 USD, rukkar smásöluaðili 5,95 USD fyrir flutninga á jörðu niðri. Fyrir pantanir sem hafa virði sem er jafnt og eða meira en 50 USD, en minna en 100 USD, rukkar smásöluaðili 7,95 USD. Að lokum, fyrir pantanir sem hafa virði sem er jafnt og eða meira en 100 USD, rukkar smásöluaðili engin flutningsgjöld. Eftirfarandi mynd sýnir grunnstillingu þessara gjalda.
 
-![Dæmi um föst stigskipt gjöld.](media/fixedtieredcharges.png)
+![Föst stigskipt gjöld dæmi](media/fixedtieredcharges.png)
 
 Þú getur notað blöndu af flokkum fyrir gjöld, allt eftir þörfum fyrirtækisins. Til dæmis, fyrir allar pantanir sem hafa virði sem er minna en 100 USD, er fast flutningsgjald upp á 9,95 USD. Þá, fyrir pantanir sem hafa virði sem er jafnt og eða meira en 100 USD, eru afhendingargjöld reiknuð með 5% hlutfalli af pöntunarvirði. Eftirfarandi mynd sýnir grunnstillingu þessara gjalda.
 
-![Dæmi um blönduð stigskipt gjöld.](media/mixedtieredcharges.png)
+![Blönduð stigskipt gjöld dæmi](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Virkja afhendingarmáta meðan á pöntunarfærslu stendur í símaveri
 
@@ -92,6 +94,3 @@ Ef þú vilt geturðu tengt flýtikóðann við hvaða afhendingarmáta sem þú
 Til dæmis, fyrir pantanir sem verða fluttar með flugi næsta dag, verður að tiltekt að eiga sér stað í vörugeymslunni fyrir klukkan 13:00 á hverjum degi. Í þessu tilfelli er hægt að búa til flýtikóða og þessi kóða er hægt að tengja við allar gerðir afhendingarmáta fyrir næsta dag, sem eru grunnstilltar í kerfinu. Þegar vörugeymsla býr til tiltektarbylgju má nota viðeigandi flýtikóða í **Flýta** reitnum sem afmörkun, þannig að tiltekt er aðeins keyrð fyrir pantanir sem hafa afhendingarmáta sem tengist þeim kóða.
 
 Að auki, þegar símaverspöntun er færð inn, er hægt að beita flýtikóðanum handvirkt annaðhvort í sölupöntunarhaus eða í einstaka sölupöntunarlínu. Líkt og áður, hægt er að nota kóðann til flokkunar eða skýrslugerðar. Stundum þarf að meðhöndla pöntun gætilega vegna vandamáls í þjónustudeild. Í þessu tilviki er hægt að beita tilteknum flýtikóða á pöntunarhausinn eða línurnar til að hjálpa til við að auðkenna og forgangsraða pöntuninni á meðan uppfyllingarferlinu stendur.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

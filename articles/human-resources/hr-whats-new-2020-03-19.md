@@ -1,32 +1,33 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Human Resources (19. mars 2020)
 description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 19. mars 2020.
-author: andreabichsel
+author: Darinkramer
+manager: AnnBe
 ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0bea115ed111d1309e19631c1cc08fdbab0dca3f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 902539a5abecba6ad99718afbb37613838450032
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062035"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4526864"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (19. mars 2020)
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum Dynamics 365 Human Resources. Breytingar eiga við um byggingarnúmer 8.1.3014. Tölurnar í sviga í sumum fyrirsögnum vísa til stuðningsnúmera í Lifecycle Services (LCS) vegna tilvísunar.
 
@@ -52,7 +53,7 @@ Nú geturðu leiðrétt stöður fyrir orlofsáætlanir sem voru búnar til með
 
 Fyrir starfsmenn sem sagt er upp störfum er aðalstaðan sem var virk við uppsögn birt í einingunni. Fyrir samþættingar verður ekki lengur búið til afritaskrá fyrir stöðuúthlutun starfsmanns. 
 
-## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Dataverse lausn er nú fáanleg með eftirfarandi breytingum:
+## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Common Data Service lausn er nú fáanleg með eftirfarandi breytingum:
 
 | lýsing | Skiptimynt |
 | --- | --- |
@@ -64,12 +65,12 @@ Fyrir starfsmenn sem sagt er upp störfum er aðalstaðan sem var virk við upps
 | Nýir uppsetningaraðilar breytilegra bóta | <ul><li>**Fyrirkomulagsgerð breytilegra uppbóta**</li><li>**Fyrirkomulag breytilegra uppbóta**</li><li>**Veitireglur**</li><li>**Fyrirkomulagsstig breytilegra uppbóta**</li></ul> |
 | Nýtt **Starfsmaður dagatal atvinnu** eining | <ul><li>**Vinnudagatalseining** bætt við</li></ul> |
 | Ný eining **Upplýsinga um launastöðu** | <ul><li>**Upplýsingar um launastöðu** bætt við</li></ul> |
-| Einingin nýr **Titill** | <ul><li>**Titli** bætt við</li></ul>Nýja einingin **Titill** er innifalin í Dataverse en er ekki tilvísuð úr einigunum **Staða starfs** eða **Starf** á þessum tíma. |
+| Einingin nýr **Titill** | <ul><li>**Titli** bætt við</li></ul>Nýja einingin **Titill** er innifalin í Common Data Service en er ekki tilvísuð úr einigunum **Staða starfs** eða **Starf** á þessum tíma. |
 
 > [!NOTE]
-> Fjárhagsvíddir fyrir bæði störf og atvinnu veita einnar áttar samþættingu fyrir uppfærslur úr Human Resources í Dataverse. Uppfærslur fjárhagsvídda samstillast ekki eins og stendur úr Dataverse í Human Resources.
+> Fjárhagsvíddir fyrir bæði störf og atvinnu veita einnar áttar samþættingu fyrir uppfærslur úr Human Resources í Common Data Service. Uppfærslur fjárhagsvídda samstillast ekki eins og stendur úr Common Data Service í Human Resources.
 
-Á næstu vikum verða þessar einingarbreytingar tiltækar í öllu umhverfi. Til að setja upp það nýjasta handvirkt Dataverse lausn fyrir Human Resources:
+Á næstu vikum verða þessar einingarbreytingar tiltækar í öllu umhverfi. Til að setja upp það nýjasta handvirkt Common Data Service lausn fyrir Human Resources:
 
 1.  Farðu í [Power Platform Stjórnendamiðstöð](https://admin.powerplatform.microsoft.com).
 
@@ -126,8 +127,6 @@ Eftirfarandi forskoðunaraðgerðir eru í boði 3. febrúar 2020:
 ## <a name="see-also"></a>Sjá einnig
 
 [Nýjungar í Human Resources](hr-admin-whats-new.md)</br>
-[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

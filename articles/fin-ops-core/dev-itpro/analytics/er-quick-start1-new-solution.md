@@ -2,27 +2,27 @@
 title: Hanna nýja lausn rafrænnar skýrslugerðar til að prenta sérsniðna skýrslu
 description: Þetta efnisatriði útskýrir hvernig á að hanna lausn rafrænnar skýrslugerðar til að prenta sérsniðna skýrslu.
 author: NickSelin
+manager: AnnBe
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
+ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af610ae86e751ec4425f4c555cdf59c042fabcdb46e6a3a018b0d94a8926d92e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770069"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680243"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Hanna nýja lausn rafrænnar skýrslugerðar til að prenta sérsniðna skýrslu
 
@@ -121,19 +121,19 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra, hönnu�
 
 - [Frekari upplýsingar](#References)
 
-Í þessu dæmi er stofnuð ný lausn rafrænnar skýrslugerðar fyrir eininguna [Spurningalisti](../../../human-resources/hr-learning-questionnaires.md). Þessi nýja lausn rafrænnar skýrslugerðar gerir þér kleift að hanna skýrslu með því að nota Microsoft Excel-vinnublað sem sniðmát. Síðan er hægt að búa til skýrsluna **Spurningalisti** á Excel- eða PDF-sniði ásamt því að mynda fyrirliggjandi skýrslu SQL Server Reporting Services (SSRS). Einnig er hægt að breyta nýju skýrslunni seinna, ef um það er beðið. Ekki er þörf á neinni kóðun.
+Í þessu dæmi er stofnuð ný lausn rafrænnar skýrslugerðar fyrir eininguna [Spurningalisti](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires). Þessi nýja lausn rafrænnar skýrslugerðar gerir þér kleift að hanna skýrslu með því að nota Microsoft Excel-vinnublað sem sniðmát. Síðan er hægt að búa til skýrsluna **Spurningalisti** á Excel- eða PDF-sniði ásamt því að mynda fyrirliggjandi skýrslu SQL Server Reporting Services (SSRS). Einnig er hægt að breyta nýju skýrslunni seinna, ef um það er beðið. Ekki er þörf á neinni kóðun.
 
 1. Til að keyra fyrirliggjandi skýrslu skal farið í **Spurningalisti** \> **Hanna** \> **Spurningalistaskýrsla**.
 
-    ![Að velja valmyndaratriði spurningalistaskýrslunnar í spurningalistaeiningunni til að keyra fyrirliggjandi SSRS-skýrslu.](./media/er-quick-start1-application-menu-origin.png)
+    ![Að velja valmyndaratriði spurningalistaskýrslunnar í spurningalistaeiningunni til að keyra fyrirliggjandi SSRS-skýrslu](./media/er-quick-start1-application-menu-origin.png)
 
 2. Í svarglugganum **Spurningalistaskýrsla** skal tilgreina valskilyrði. Notið síu þannig að skýrslan feli aðeins í sér spurningalistann **SBCCrsExam**.
 
-    ![Tilgreina valskilyrði í svarglugga spurningalistaskýrslu.](./media/er-quick-start1-ssrs-report-dialog.png)
+    ![Tilgreina valskilyrði í svarglugga spurningalistaskýrslu](./media/er-quick-start1-ssrs-report-dialog.png)
 
 Eftirfarandi mynd sýnir útbúna útgáfu SSRS-skýrslunnar fyrir spurningalistann **SBCCrsExam**.
 
-![Mynduð SSRS-skýrsla.](./media/er-quick-start1-ssrs-report.png)
+![Mynduð SSRS-skýrsla](./media/er-quick-start1-ssrs-report.png)
 
 ## <a name="configure-the-er-framework"></a><a name="ConfigureFramework"></a>Skilgreina ramma rafrænnar skýrslugerðar
 
@@ -187,7 +187,7 @@ Með því að ljúka skrefunum í hlutanum [Flytja inn nýja skilgreiningu gagn
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Flytja inn nýja skilgreiningu gagnalíkans
 
-1. Sæktu skrána [Spurningalistar model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) og vistaðu hana á staðbundinni tölvu.
+1. Sæktu skrána [Spurningalistar model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) og vistaðu hana á staðbundinni tölvu.
 2. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 3. Á vinnusvæðinu **Rafræn skýrslugerð** skal velja **Skilgreiningar skýrslugerðar**.
 4. Í aðgerðarúðunni skal velja **Skipta út** \> **Hlaða úr XML-skrá**.
@@ -273,7 +273,7 @@ Til að halda áfram skal sleppa næsta ferli, [Stofna nýjan skilgreiningu gagn
 
     Eftirfarandi mynd sýnir breytanlegt gagnalíkan sem er lokið á síðunni **Hönnuður gagnalíkans**.
 
-    ![Skilgreint gagnalíkan í gagnalíkanahönnuði rafrænnar skýrslugerðar.](./media/er-quick-start1-model2.png)
+    ![Skilgreint gagnalíkan í gagnalíkanahönnuði rafrænnar skýrslugerðar](./media/er-quick-start1-model2.png)
 
 7. Vista breytingarnar.
 8. Lokið síðunni **Hönnuður gagnalíkans**.
@@ -287,7 +287,7 @@ Til að halda áfram skal sleppa næsta ferli, [Stofna nýjan skilgreiningu gagn
 
 Staða á útgáfu 1 fyrir þessa skilgreiningu er breytt úr **Drög** í **Lokið**. Ekki er lengur hægt að breyta útgáfu 1. Þessi útgáfa inniheldur skilgreinda gagnalíkanið og er hægt að nota sem grunninn fyrir aðrar skilgreiningar rafrænnar skýrslugerðar. Útgáfa 2 af þessari skilgreiningu er stofnuð og er með stöðuna **Drög**. Hægt er að breyta þessari útgáfu til að leiðrétta gagnalíkanið **Spurningalisti**.
 
-![Útgáfur breytanlegrar skilgreiningar á skilgreiningarsíðunni.](./media/er-quick-start1-model-configuration.png)
+![Útgáfur breytanlegra skilgreininga rafrænnar skýrslugerðar á skilgreiningarsíðunni](./media/er-quick-start1-model-configuration.png)
 
 Frekari upplýsingar um útgáfustjórnun fyrir skilgreiningar rafrænnar skýrslugerðar er að finna í [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md#component-versioning).
 
@@ -302,7 +302,7 @@ Með því að ljúka skrefunum í hlutanum [Flytja inn nýja skilgreiningu gagn
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Flytja inn nýja skilgreiningu líkanavörpunar
 
-1. Sækið skrána [Spurningalistar mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) og vistið hana á staðbundinni tölvu.
+1. Sækið skrána [Spurningalistar mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) og vistið hana á staðbundinni tölvu.
 2. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 3. Á vinnusvæðinu **Rafræn skýrslugerð** skal velja **Skilgreiningar skýrslugerðar**.
 4. Í aðgerðarúðunni skal velja **Skipta út** \> **Hlaða úr XML-skrá**.
@@ -368,7 +368,7 @@ Skilgreina þarf gagnagjafa til að fá aðgang að forritstöflum sem innihalda
     2. Veljið **Bæta við**.
     3. Í glugganum, í reitinn **Heiti**, skal slá inn **\$ResultGroup**.
     4. Veljið **Breyta formúlu**.
-    5. Í [Formúluritill rafrænnar skýrslugerðar](general-electronic-reporting-formula-designer.md), í reitinn **Formúla**, skal færa inn **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** til að nota [slóðina](er-formula-language.md#Paths) á tengslin „frá einu í margt“ milli taflanna KMCollection og KMQuestionResultGroup.
+    5. Í [Formúluritill rafrænnar skýrslugerðar](general-electronic-reporting-formula-designer.md), í reitinn **Formúla**, skal færa inn **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** til að nota [slóðina](er-formula-language.md#paths) á tengslin „frá einu í margt“ milli taflanna KMCollection og KMQuestionResultGroup.
     6. Veljið **Vista** og lokið formúluritlinum.
     7. Veljið **Í lagi** til að bæta við nýja reiknaða reitnum.
 
@@ -441,7 +441,7 @@ Hægt er að bæta við merkum rafrænnar skýrslugerðar til að skilgreina sum
 5. Lokið svarglugganum **Textaþýðing**.
 6. Veldu **Hætta við**.
 
-![Að bæta við merkjum rafrænnar skýrslugerðar fyrir breytanlega líkanavörpun.](./media/er-quick-start1-adding-labels.png)
+![Að bæta við merkjum rafrænnar skýrslugerðar fyrir breytanlega líkanavörpun](./media/er-quick-start1-adding-labels.png)
 
 Aðeins er búið að færa inn merki fyrir sjálfgefna tungumálið. Frekari upplýsingar um hvernig hægt er að þýða merki rafrænnar skýrslugerðar á önnur tungumál er að finna í [Hanna skýrslur á mörgum tungumálum](er-design-multilingual-reports.md).
 
@@ -475,7 +475,7 @@ Fyrst að nauðsynlegt er að umbreyta niðurstöðum samanburðarins milli uppt
     8. Veljið **Vista** og lokið formúluritlinum.
     9. Veljið **Í lagi** til að bæta við nýja gagnagjafanum.
 
-![Skilgreind líkanavörpun í hönnuði líkanavörpunar rafrænnar skýrslugerðar.](./media/er-quick-start1-added-data-sources.png)
+![Skilgreind líkanavörpun í hönnuði líkanavörpunar rafrænnar skýrslugerðar](./media/er-quick-start1-added-data-sources.png)
 
 #### <a name="bind-data-sources-to-data-model-fields"></a><a name="AddMmBindings1"></a>Tengja gagnagjafa við reiti gagnalíkans
 
@@ -526,7 +526,7 @@ Nauðsynlegt er að tengja skilgreinda gagnagjafa við reiti gagnalíkansins til
 
     Eftirfarandi mynd sýnir lokastöðu skilgreindrar líkanavörpunar á síðunni **Hönnuður líkanavörpunar**.
 
-    ![Fullskilgreind líkanavörpun í hönnuði líkanavörpunar rafrænnar skýrslugerðar.](./media/er-quick-start1-mapping2.png)
+    ![Fullskilgreind líkanavörpun í hönnuði líkanavörpunar rafrænnar skýrslugerðar](./media/er-quick-start1-mapping2.png)
 
 7. Vista breytingarnar.
 8. Lokið síðunni **Hönnuður líkanavörpunar**.
@@ -540,7 +540,7 @@ Nauðsynlegt er að tengja skilgreinda gagnagjafa við reiti gagnalíkansins til
 
 Staða á útgáfu 1.1 fyrir þessa skilgreiningu er breytt úr **Drög** í **Lokið**. Ekki er lengur hægt að breyta útgáfu 1.1. Þessi útgáfa inniheldur skilgreindu líkanavörpunina og er hægt að nota sem grunninn fyrir aðrar skilgreiningar rafrænnar skýrslugerðar. Útgáfa 1.2 af þessari skilgreiningu er stofnuð og er með stöðuna **Drög**. Hægt er að breyta þessari útgáfu til að leiðrétta skilgreininguna **Vörpun spurningalista**.
 
-![Útgáfur breytanlegra skilgreininga rafrænnar skýrslugerðar á skilgreiningarsíðunni.](./media/er-quick-start1-mapping-configuration.png)
+![Útgáfur breytanlegra skilgreininga rafrænnar skýrslugerðar á skilgreiningarsíðunni](./media/er-quick-start1-mapping-configuration.png)
 
 > [!NOTE]
 > Skilgreinda líkanavörpunin er Finance-innleiðing á óhlutbundna gagnalíkaninu sem stendur fyrir fyrirtækislénið **Spurningalisti**.
@@ -549,22 +549,22 @@ Staða á útgáfu 1.1 fyrir þessa skilgreiningu er breytt úr **Drög** í **L
 
 Rammi rafrænnar skýrslugerðar notar fyrirframskilgreind sniðmát til að búa til skýrslur á Microsoft Office-sniði (Excel-vinnubækur eða Word-skjöl). Á meðan nauðsynleg skýrsla er búin til, er sniðmát fyllt út með nauðsynlegum gögnum samkvæmt skilgreindu gagnaflæði. Þess vegna þarf fyrst að hanna sniðmát fyrir sérsniðnu skýrsluna. Þetta sniðmát verður að vera hannað sem Excel-vinnubók, skipulag þess sem stendur fyrir útlit sérsniðinnar skýrslu. Gefa þarf öllum Excel-atriðum heiti sem ætlunin er að fylla út í með nauðsynlegum gögnum.
 
-1. Sækið skrána [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) og vistið hana á staðbundinni tölvu.
+1. Sækið skrána [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) og vistið hana á staðbundinni tölvu.
 2. Opnið skrána í Excel og farið yfir skipulag vinnubókarinnar.
 
 Eins og eftirfarandi mynd sýnir hefur sótt sniðmát verið hannað til að prenta tilgreinda spurningalista sem birta spurningar spurningalistans ásamt viðeigandi svörum.
 
-![Excel-sniðmát til að prenta tilgreinda spurningalista.](./media/er-quick-start1-template-layout.png)
+![Excel-sniðmát til að prenta tilgreinda spurningalista](./media/er-quick-start1-template-layout.png)
 
 Excel-heitum hefur verið bætt við þetta sniðmát til að fylla út í upplýsingar um spurningalista. Hægt er að nota stjórnun heitis til að yfirfara Excel-heitin.
 
-![Nota stjórnun heitis til að yfirfara Excel-heiti í uppgefnu Excel-sniðmáti.](./media/er-quick-start1-template-names.png)
+![Nota stjórnun heitis til að yfirfara Excel-heiti í uppgefnu Excel-sniðmáti](./media/er-quick-start1-template-names.png)
 
 Skýrslumerkjum hefur verið bætt við sem föstum texta á ensku. Hægt er að skipta út skýrslumerkjunum með nýjum Excel-heitum sem fylla út í merkin með tungumálaháðum texta með því að nota [merki](#AddMmLabels) fyrir snið rafrænnar skýrslugerðar, eins og gert var fyrir tungumálaháðar segðir í skilgreindu líkanavörpuninni. Í þessu tilviki verður að bæta við merkjum rafrænnar skýrslugerðar í breytanlegu sniði rafrænnar skýrslugerðar.
 
 Eins og eftirfarandi mynd sýnir, hefur haus sérsniðinnar skýrslu verið tilgreindur til að gera síðuvíxl möguleg í Excel.
 
-![Haus sérsniðinnar skýrslu í uppgefnu Excel-sniðmáti.](./media/er-quick-start1-template-header.png)
+![Haus sérsniðinnar skýrslu í uppgefnu Excel-sniðmáti](./media/er-quick-start1-template-header.png)
 
 ## <a name="design-a-format"></a><a name="DesignFormat"></a>Setja upp snið
 
@@ -574,7 +574,7 @@ Með því að ljúka skrefunum í hlutanum [Flytja inn hannaða skilgreiningu s
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Flytja inn hannaða skilgreiningu sniðs
 
-1. Sækið skrána [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) og vistið hana á staðbundinni tölvu.
+1. Sækið skrána [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) og vistið hana á staðbundinni tölvu.
 2. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 3. Á vinnusvæðinu **Rafræn skýrslugerð** skal velja **Skilgreiningar skýrslugerðar**.
 4. Í aðgerðarúðunni skal velja **Skipta út** \> **Hlaða úr XML-skrá**.
@@ -614,11 +614,11 @@ Til að halda áfram skal sleppa næsta ferli, [Stofna nýja skilgreiningu snið
     2. Finnið og veljið staðbundið vistuðu skrána **Questionnaires report template.xslx** og veljið síðan **Opna**.
     3. Veljið **Í lagi** til að flytja inn sniðmátið.
 
-    ![Flytja inn skýrslusniðmát.](./media/er-quick-start1-template-import.png)
+    ![Flytja inn skýrslusniðmát](./media/er-quick-start1-template-import.png)
 
 Sniðseiningin **Excel\\File** er sjálfkrafa bætt við breytanlega sniðið sem rótareining. Þar að auki er annaðhvort sniðseiningin **Excel\\Range** eða sniðseiningin **Excel\\Cell** sjálfkrafa bætt við fyrir hvert viðurkennt Excel-heiti á innfluttu sniðmáti. Sniðið **Excel\\Header** sem er með földuðu eininguna **Strengur** er sjálfkrafa bætt við til að endurspegla hausstillingar á innfluttu sniðmáti.
 
-![Sniðsskipulag sem inniheldur sjálfkrafa viðbættum einingum í aðgerðarhönnuði rafrænnar skýrslugerðar.](./media/er-quick-start1-template-import2.png)
+![Sniðsskipulag sem inniheldur sjálfkrafa viðbættum einingum í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-quick-start1-template-import2.png)
 
 #### <a name="configure-a-format"></a><a name="ConfigureFormat"></a>Skilgreina snið
 
@@ -629,14 +629,14 @@ Sniðseiningin **Excel\\File** er sjálfkrafa bætt við breytanlega sniðið se
 
     Frekari upplýsingar um hvernig á að tilgreina samhengi tungumáls og menningar fyrir ferli rafrænnar skýrslugerðar er að finna í [Hanna skýrslur á mörgum tungumálum](er-design-multilingual-reports.md).
 
-    ![Stillingar tungumáls og menningar fyrir hannaða skýrslu í aðgerðarhönnuði rafrænnar skýrslugerðar.](./media/er-quick-start1-template-format-structure1.png)
+    ![Stillingar tungumáls og menningar fyrir hannaða skýrslu í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-quick-start1-template-format-structure1.png)
 
 5. Í sniðstrénu skal útvíkka rótarhnútinn og velja ´siðan **ResultsGroup**.
 6. Í flipanum **Snið**, í reitnum **Stefna eftirlíkingar**, skal velja **Engin eftirlíking** því að þú býst ekki við því að fá marga niðurstöðuflokka fyrir einn spurningalista.
 
-    ![Skilgreining á stefnu eftirlíkingar fyrir sniðseininguna Svið í aðgerðarhönnuði rafrænnar skýrslugerðar.](./media/er-quick-start1-template-format-structure2.png)
+    ![Skilgreining á stefnu eftirlíkingar fyrir sniðseininguna Svið í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-quick-start1-template-format-structure2.png)
 
-7. Veldu **Vista**.
+7. Veljið **Vista**.
 
 #### <a name="define-the-data-binding-for-a-report-title"></a><a name="DefineFormatBindings"></a>Skilgreina gagnatengslin fyrir titil skýrslu
 
@@ -654,7 +654,7 @@ Tilgreina verður gagnatengsl fyrir sniðseiningu sem er notuð til að fylla ú
 
 5. Lokið formúluritlinum.
 
-    ![Skilgreining tengingar til að fylla út í titilinn á myndaðri skýrslu.](./media/er-quick-start1-add-report-title-label.png)
+    ![Skilgreining tengingar til að fylla út í titilinn á myndaðri skýrslu](./media/er-quick-start1-add-report-title-label.png)
 
 Hægt er að nota þessa tækni til að gera öll önnur merki núverandi sniðmáts tungumálaháð. Frekar upplýsingar um hvernig hægt er að þýða viðbætt merki á einni skilgreiningu rafrænnar skýrslugerðar yfir á öll studd tungumál er að finna í [Hanna skýrslur á mörgum tungumálum](er-design-multilingual-reports.md).
 
@@ -664,7 +664,7 @@ Hægt er að nota þessa tækni til að gera öll önnur merki núverandi sniðm
 2. Veljið **Breyta**.
 3. Yfirfara upplýsingarnar í svarglugganum **Eiginleikar gagnagjafa**. Þessi gagnagjafi stendur fyrir útgáfu 1 af gagnalíkanshlutanum **Spurningalistar** sem er að finna í **Líkan spurningalista** fyrir skilgreiningu rafrænnar skýrslugerðar.
 
-![Eiginleikar gagnagjafa líkansins í aðgerðarhönnuði rafrænnar skýrslugerðar.](./media/er-quick-start1-model-data-source.png)
+![Eiginleikar gagnagjafa líkansins í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-quick-start1-model-data-source.png)
 
 #### <a name="bind-format-elements-to-data-source-fields"></a><a name="BindFormatElements"></a>Tengja sniðseiningar við reiti gagnagjafa
 
@@ -680,11 +680,11 @@ Til að tilgreina hvernig sniðmát er fyllt út við keyrslu verður að tengja
 
     Sviðssniðseiningin **Spurningalisti** er skilgreind sem endurtekin lóðrétt. Þegar hún er tengd við gagnagjafa af gerðinni **Færslulisti** er viðeigandi sviðið **Spurningalisti** af Excel-sniðmátinu endurtekið fyrir allar skrár tengda gagnagjafans.
  
-    ![Að tengja sviðssniðseiningu spurningalistans við viðeigandi gagnagjafa færslulista í aðgerðarhönnuði rafrænnar skýrslugerðar.](./media/er-quick-start1-bindings1.png)
+    ![Að tengja sviðssniðseiningu spurningalistans við viðeigandi gagnagjafa færslulista í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-quick-start1-bindings1.png)
 
     Þar sem sviðið **Spurningalisti** í Excel-sniðmátinu er skilgreint milli línu 5 og 14, eru þessar líknur endurteknar fyrir hvern uppgefinn spurningalista.
 
-    ![Línur í Excel-sniðmátinu sem verða endurteknar í myndaðri skýrslu fyrir hverja færslu í gagnagjafa færslulistans.](./media/er-quick-start1-template-questionnaire-range.png)
+    ![Línur í Excel-sniðmátinu sem verða endurteknar í myndaðri skýrslu fyrir hverja færslu í gagnagjafa færslulistans](./media/er-quick-start1-template-questionnaire-range.png)
 
 8. Skilgreinið svipaðar tengingar fyrir eftirstandandi sniðseiningar, eins og lýst er í eftirfarandi töflu.
 
@@ -720,7 +720,7 @@ Til að tilgreina hvernig sniðmát er fyllt út við keyrslu verður að tengja
 
 Eftirfarandi mynd sýnir lokastöðu skilgreindra gagnatengsla á síðunni **Sniðshönnuður**.
 
-![Skilgreind gagnatengsl í aðgerðarhönnuði rafrænnar skýrslugerðar.](./media/er-quick-start1-bindings2.png)
+![Skilgreind gagnatengsl í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-quick-start1-bindings2.png)
 
 > [!IMPORTANT]
 > Allt safn tilgreindra gagnagjafa og tengsla stendur fyrir sniðsvörpunaríhlut fyrir skilgreinda sniðið. Kallað er á þessa sniðsvörpun þegar skilgreint snið fyrir skýrslumyndun er keyrt.
@@ -740,9 +740,9 @@ Nú er hægt að keyra hannað snið í prófunartilgangi af síðunni **Skilgre
 
 Mynduð skýrsla er [sjálfgefið](electronic-reporting-destinations.md#default-behavior) afhent sem Excel-skrá sem hægt er að sækja. Eftirfarandi myndir sýna tvær síður af myndaðri skýrslu á Excel-sniði.
 
-![Dæmi um myndaða skýrslu á Excel-sniði, síða 1.](./media/er-quick-start1-report1a.png)
+![Dæmi um myndaða skýrslu á Excel-sniði, síða 1](./media/er-quick-start1-report1a.png)
 
-![Dæmi um myndaða skýrslu á Excel-sniði, síða 2.](./media/er-quick-start1-report1b.png)
+![Dæmi um myndaða skýrslu á Excel-sniði, síða 2](./media/er-quick-start1-report1b.png)
 
 ## <a name="tune-a-designed-format"></a><a name="TuneFormat"></a>Stilla hannað snið
 
@@ -763,7 +763,7 @@ Spurningunum er ekki rétt raðað í myndaðri skýrslu. Hægt er að breyta r�
 1. Á síðunni **Sniðshönnuður** skal velja rótaratriðið **Skýrsla**.
 2. Í flipanum **Vörpun**, í sniðstrénu, skal útvíkka **Report\\Questionnaire\\Question**.
 
-    ![Sniðseining spurningar af sviðsgerðinni í aðgerðarhönnuði rafrænnar skýrslugerðar.](./media/er-quick-start1-bindings3.png)
+    ![Sniðseining spurningar af sviðsgerðinni í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-quick-start1-bindings3.png)
 
 3. Í flipanum **Vörpun** skal velja **model.Questionnaire**.
 4. Veljið **Bæta við** \> **Functions\\Calculated field** og því næst, í reitinn **Heiti**, skal færa inn **OrderedQuestions**.
@@ -776,7 +776,7 @@ Spurningunum er ekki rétt raðað í myndaðri skýrslu. Hægt er að breyta r�
 11. Veljið **Tengja** og staðfestið síðan að núverandi slóðinni **model.Questionnaire.Questions** sé skipt út fyrir nýju slóðina **model.Questionnaire.OrderedQuestions** í öllum tengslum faldaðra eininga.
 12. Veljið **Vista**.
 
-![Tengja sniðseiningu spurningar við skilgreinda gagnagjafann OrderedQuestions í aðgerðarhönnuði rafrænnar skýrslugerðar.](./media/er-quick-start1-bindings4.png)
+![Tengja sniðseiningu spurningar við skilgreinda gagnagjafann OrderedQuestions í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-quick-start1-bindings4.png)
 
 ### <a name="run-a-modified-format-from-er"></a><a name="RunFormatFromER2"></a>Keyra breytt snið úr rafrænni skýrslugerð
 
@@ -790,7 +790,7 @@ Nú er hægt að keyra breytt snið í prófunartilgangi í ramma rafrænnar sk�
 
 Eftirfarandi mynd sýnir myndaða skýrslu á Excel-sniði þar sem spurningunum er rétt raðað.
 
-![Mynduð skýrsla á Excel-sniði sem er með rétt röðuðum spurningum.](./media/er-quick-start1-report2.png)
+![Mynduð skýrsla á Excel-sniði sem er með rétt röðuðum spurningum](./media/er-quick-start1-report2.png)
 
 ### <a name="complete-the-format-design"></a><a name="CompleteFormat"></a>Ljúka sniðshönnun
 
@@ -801,7 +801,7 @@ Eftirfarandi mynd sýnir myndaða skýrslu á Excel-sniði þar sem spurningunum
 
 Staða á útgáfu 1.1 fyrir þessa skilgreiningu er breytt úr **Drög** í **Lokið**. Ekki er lengur hægt að breyta útgáfu 1.1. Þessi útgáfa inniheldur skilgreinda sniðið og er hægt að nota til að prenta sérsniðnu skýrsluna. Útgáfa 1.2 af þessari skilgreiningu er stofnuð og er með stöðuna **Drög**. Hægt er að breyta þessari útgáfu til að leiðrétta snið skýrslunnar **Spurningalisti**.
 
-![Breytanleg skilgreining rafrænnar skýrslugerðar á skilgreiningarsíðunni.](./media/er-quick-start1-format-configuration.png)
+![Útgáfur breytanlegra skilgreininga rafrænnar skýrslugerðar á skilgreiningarsíðunni](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > Skilgreinda sniðið er hönnunin þín á skýrslunni **Spurningalisti** og hefur engin tengsl við sérstaka Finance-gervinga.
@@ -1051,7 +1051,7 @@ Smíðið verkið til að búa til nýtt valmyndaratriði sem verður í boði f
 
 1. Farið í **Spurningalisti** \> **Hönnun** \> **Skýrsla spurningalista (knúin af rafrænni skýrslugerð)**.
 
-    ![Að velja valmyndaratriði spurningalistaskýrslunnar (knúin af rafrænni skýrslugerð) í spurningalistaeiningunni til að keyra skilgreint snið rafrænnar skýrslugerðar.](./media/er-quick-start1-application-menu-modified.png)
+    ![Að velja valmyndaratriði spurningalistaskýrslunnar (knúin af rafrænni skýrslugerð) í spurningalistaeiningunni til að keyra skilgreint snið rafrænnar skýrslugerðar](./media/er-quick-start1-application-menu-modified.png)
 
 2. Í svarglugganum, í reitnum **Sniðsvörpun**, skal velja **Spurningalistaskýrsla**.
 3. Veljið **Í lagi**.
@@ -1059,7 +1059,7 @@ Smíðið verkið til að búa til nýtt valmyndaratriði sem verður í boði f
 5. Veljið **Í lagi** til að staðfesta síunarvalkostinn.
 6. Veljið **Í lagi** til að keyra skýrsla.
 
-    ![Að tilgreina valskilyrðin í svarglugga rafrænnar skýrslugerðar.](./media/er-quick-start1-report-run-dialog-page.png)
+    ![Að tilgreina valskilyrðin í svarglugga rafrænnar skýrslugerðar](./media/er-quick-start1-report-run-dialog-page.png)
 
 7. Farið yfir myndaða skýrslu.
 
@@ -1084,7 +1084,7 @@ Hægt er að breyta skilgreindri lausn rafrænnar skýrslugerðar þannig að h�
 
 Viðbættur gagnagjafi veitir upplýsingar um færslukenni á sniðsvörpun rafrænnar skýrslugerðar sem er í gangi.
 
-![Viðbættur gagnagjafi í hönnuði sniðsvörpunar rafrænnar skýrslugerðar.](./media/er-quick-start1-mapping3.png)
+![Viðbættur gagnagjafi í hönnuði sniðsvörpunar rafrænnar skýrslugerðar](./media/er-quick-start1-mapping3.png)
 
 #### <a name="add-a-data-source-to-access-er-format-mapping-records"></a><a name="AddDataSource2"></a>Bæta við gagnagjafa til að fá aðgang að sniðsvörpunarfærslum rafrænnar skýrslugerðar
 
@@ -1119,7 +1119,7 @@ Haldið áfram að breyta valdri líkanavörpun þannig að heiti á snið rafr�
 
 Þar sem reiturinn **FormatName** var notaður, sýnir skilgreind líkanavörpun nú heitið á snið rafrænnar skýrslugerðar sem kallar á þessa líkanavörpun í keyrslunni.
 
-![Að tengja reit gagnalíkansins við aðferð viðbætta gagnagjafans í hönnuði sniðsvörpunar rafrænnar skýrslugerðar.](./media/er-quick-start1-mapping4.png)
+![Að tengja reit gagnalíkansins við aðferð viðbætta gagnagjafans í hönnuði sniðsvörpunar rafrænnar skýrslugerðar](./media/er-quick-start1-mapping4.png)
 
 #### <a name="complete-the-design-of-the-model-mapping"></a><a name="CompleteModelMapping2"></a>Ljúka hönnun líkanavörpunar
 
@@ -1156,7 +1156,7 @@ Hægt er að breyta skilgreindu sniði rafrænnar skýrslugerðar þannig að he
 
 Skilgreinda sniðinu hefur nú verið breytt þannig að heiti þess verður fært inn í síðufótinn á myndaðri skýrslu með því að nota eininguna **Footer\\String**.
 
-![Að bæta sniðseiningu síðufóts við skilgreint snið í aðgerðarhönnuði rafrænnar skýrslugerðar.](./media/er-quick-start1-template-format-structure3.png)
+![Að bæta sniðseiningu síðufóts við skilgreint snið í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-quick-start1-template-format-structure3.png)
 
 #### <a name="complete-the-format-design"></a><a name="CompleteFormat2"></a>Ljúka sniðshönnun
 
@@ -1178,7 +1178,7 @@ Staða á útgáfu 1.2 fyrir þessa skilgreiningu er breytt úr **Drög** í **L
 
 Takið eftir að síðufótur myndaðrar skýrslu inniheldur heiti á sniði rafrænnar skýrslugerðar sem var notað til að mynda hana.
 
-![Mynduð skýrsla á Excel-sniði.](./media/er-quick-start1-report4.png)
+![Mynduð skýrsla á Excel-sniði](./media/er-quick-start1-report4.png)
 
 ### <a name="run-a-format-from-er"></a><a name="RunFormatFromER3"></a>Keyra snið úr rafrænni skýrslugerð
 
@@ -1199,7 +1199,7 @@ Takið eftir því að síðufótur myndaðrar skýrslu inniheldur ekki heitið 
 3. Í flýtiflipanum **Viðtökustaður skráar** skal setja upp **Skjá** [Viðtökustaðar](er-destination-type-screen.md) fyrir sniðsíhlutinn **Skýrsla** sem hefur verið [bætt við](#AddFormatRootElement) sem rótareiningu skilgreindrar **Skýrslu spurningalista** fyrir snið rafrænnar skýrslugerðar.
 4. Í flýtiflipanum **Umbreytingarstillingar PDF-skjals** skal skilgreina viðtökustaðinn til að umbreyta skýrslu í [PDF-snið](electronic-reporting-destinations.md#OutputConversionToPDF) sem notar síðuuppsetninguna **Langsnið**.
 
-![Að skilgreina sérsniðinn viðtökustað skjás fyrir snið rafrænnar skýrslugerðar á viðtökusíðu rafrænnar skýrslugerðar.](./media/er-quick-start1-destination.png)
+![Að skilgreina sérsniðinn viðtökustað skjás fyrir snið rafrænnar skýrslugerðar á viðtökusíðu rafrænnar skýrslugerðar](./media/er-quick-start1-destination.png)
 
 ### <a name="run-a-format-from-the-application-to-preview-it-as-a-pdf-document"></a><a name="RunFormatFromApp3"></a>Keyra snið úr forritinu til að forskoða það sem PDF-skjal
 
@@ -1211,12 +1211,12 @@ Takið eftir því að síðufótur myndaðrar skýrslu inniheldur ekki heitið 
 
     Takið eftir að í flýtiflipanum **Viðtökustaðir** er reiturinn **Úttak** stilltur á **Skjár**. Ef ætlunin er að breyta skilgreindum viðtökustað skal velja **Breyta**.
 
-    ![Svargluggi keyrslu fyrir skýrslu rafrænnar skýrslugerðar þar sem hægt er að breyta skilgreindum viðtökustað.](./media/er-quick-start1-run-settings.png)
+    ![Svargluggi keyrslu fyrir skýrslu rafrænnar skýrslugerðar þar sem hægt er að breyta skilgreindum viðtökustað](./media/er-quick-start1-run-settings.png)
 
 6. Veljið **Í lagi** til að keyra skýrsla.
 7. Farið yfir myndaða skýrslu á PDF-sniði.
 
-    ![Forskoðun myndaðrar skýrslu á PDF-sniði.](./media/er-quick-start1-preview-PDF.png)
+    ![Forskoðun myndaðrar skýrslu á PDF-sniði](./media/er-quick-start1-preview-PDF.png)
 
 ## <a name="additional-resources"></a><a name="References"></a>Frekari upplýsingar
 
@@ -1233,6 +1233,3 @@ Takið eftir því að síðufótur myndaðrar skýrslu inniheldur ekki heitið 
 - [IF-aðgerð](er-functions-logical-if.md)
 - [ORDERBY-aðgerð](er-functions-list-orderby.md)
 - [SESSIONNOW-aðgerð](er-functions-datetime-sessionnow.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

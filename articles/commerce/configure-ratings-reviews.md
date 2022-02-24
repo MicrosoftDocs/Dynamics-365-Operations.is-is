@@ -1,31 +1,36 @@
 ---
 title: Skilgreina einkunnir og umsagnir
-description: Þetta efnisatriði lýsir því hvernig á að grunnstilla svæði fyrir rafræn viðskipti til að sýna einkunnir og umsagnir viðskiptavina í Microsoft Dynamics 365 Commerce.
+description: Þetta efni lýsir því hvernig á að stilla netverslunarsíðuna þína til að sýna viðskiptavini mat og umsagnir í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
-ms.translationtype: MT
+ms.openlocfilehash: edd2082b5d2cafcb955f8e3c7762bcba523ac479
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968103"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413061"
 ---
 # <a name="configure-ratings-and-reviews"></a>Skilgreina einkunnir og umsagnir
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að grunnstilla svæði fyrir rafræn viðskipti til að sýna einkunnir og umsagnir viðskiptavina í Microsoft Dynamics 365 Commerce.
+Þetta efni lýsir því hvernig á að stilla netverslunarsíðuna þína til að sýna viðskiptavini mat og umsagnir í Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Mat og umsagnir á vefsíðum um netverslun hjálpa viðskiptavinum að fræðast um vörur áður en þeir taka kaupákvörðun með því að sýna þeim hvað öðrum viðskiptavinum finnst um þessar vörur. Fyrir vefsíður í netverslun eru einkunnir og umsagnir einnig búnaður til að safna endurgjöf viðskiptavina um vörur. 
 
@@ -44,7 +49,7 @@ Fylgdu þessum skrefum til að stilla vefsíðu til að sýna einkunnir og umsag
 
 Eftirfarandi skýringarmynd sýnir hvernig þessi skilgreining lítur út í Dynamics 365 Commerce.
 
-![Skilgreining svæðis til að sýna einkunnir og umsagnir.](media/rnr-eCommerce-site-appsettings.png)
+![Skilgreining svæðis til að sýna einkunnir og umsagnir](media/rnr-eCommerce-site-appsettings.png)
 
 ## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a>Tengja vörueinkunn við umsagnarhlutann í PDP
 
@@ -58,7 +63,7 @@ Til að tengja vörueinkunn við hlutann **Umsagnir** í PDP fylgirðu þessum s
 
 Eftirfarandi skýringarmynd sýnir hvernig þessi skilgreining lítur út í Dynamics 365 Commerce.
 
-![Tenging afurðaeinkunnar við umsagnarhlutann í PDP.](media/rnr-eCommerce-buy-box-rating-summary.png)
+![Tenging afurðaeinkunnar við umsagnarhlutann í PDP](media/rnr-eCommerce-buy-box-rating-summary.png)
 
 ## <a name="configure-the-link-for-the-privacy-and-policy-page"></a>Stilltu hlekkinn fyrir persónuverndar- og stefnusíðuna
 
@@ -73,7 +78,7 @@ Til að stilla hlekkinn fyrir persónuverndar- og stefnusíðuna skaltu fylgja �
 
 Eftirfarandi skýringarmynd sýnir hvernig þessi skilgreining lítur út í Dynamics 365 Commerce.
 
-![Stilling tengils fyrir persónuverndar- og stefnusíðuna.](media/rnr-eCommerce-rnr-privacy-policy-link.png)
+![Stilling tengils fyrir persónuverndar- og stefnusíðuna](media/rnr-eCommerce-rnr-privacy-policy-link.png)
 
 ## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a>Stilla einkunnir og endurskoða einingar á upplýsingasíðum
 
@@ -87,17 +92,6 @@ Sjá upplýsingar um stillingar á einkunna- og umsagnaeiningum á upplýsingas�
 
 [Stjórna einkunnum og umsögnum](manage-reviews.md)
 
+[Stilla einkunnir og endurskoða einingar á upplýsingasíðum](ratings-reviews-modules.md)
+
 [Samstilla afurðaeinkunnir í Dynamics 365 Retail](sync-product-ratings.md)
-
-[Virkja handvirka birtingu einkunna og umsagna hjá stjórnanda](manual-publish-rating-reviews.md)
-
-[Inn- og útflutnings einkunnir og umsagnir](import-export-reviews.md)
-
-[Stilla þjónustu-til-þjónustu auðkenningu](service-to-service-auth.md)
-
-[Algengar spurningar um einkunnir og umsagnir](ratings-reviews-faq.md)
-
-[Einkunna- og umsagnaeiningar](ratings-reviews-modules.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

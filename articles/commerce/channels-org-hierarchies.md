@@ -1,31 +1,37 @@
 ---
 title: Setja upp stigveldi fyrirtækis
-description: Þetta efnisatriði lýsir hvernig á að setja upp stigveldi fyrirtækis í Microsoft Dynamics 365 Commerce.
+description: Þetta efni lýsir því hvernig á að setja upp stigveldi fyrirtækis í Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ce0732f32a9a80fc5b0ede7ae9f1c1ab9a68a89b2fb0b1821cb5df123ca5ca4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 29d4b686cbb66715196fca06e4642fbb8a337ace
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746017"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413120"
 ---
 # <a name="set-up-organization-hierarchies"></a>Setja upp stigveldi fyrirtækis
 
+
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig á að setja upp stigveldi fyrirtækis í Microsoft Dynamics 365 Commerce.
+Þetta efni lýsir því hvernig á að setja upp stigveldi fyrirtækis í Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Áður en þú býrð til rásir þarftu að tryggja að stigveldi fyrirtækis hafi verið sett upp.
 
@@ -54,7 +60,7 @@ Til að stofna stigveldi fyrirtækis skaltu fylgja þessum skrefum.
 
 Eftirfarandi mynd sýnir dæmi um skipulag stigveldis sem er búið til fyrir upphugsaðar verslanir „Adventure Works“.
 
-![Dæmi um stigveldi fyrirtækis.](media/organizational-hierarchies.png)
+![Dæmi um stigveldi fyrirtækis](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>Bæta við fyrirtækjum í stigveldi
 
@@ -67,7 +73,7 @@ Til að bæta fyrirtækjum við í stigveldi skaltu fylgja þessum skrefum.
 
 Eftirfarandi mynd sýnir lögaðila sem er bætt við stigveldisrótina með fjórum kostnaðarmiðstöðvum bætt við fyrir „verslunarmiðstöð“, „sölustöð“, „net“ og „símaþjónustuver“. Síðan er hægt að bæta við ýmsum smásölu-, síma- og netrásum.
 
-![Dæmi um hönnuð stigveldis.](media/hierarchy-designer.png)
+![Dæmi um hönnuð stigveldis](media/hierarchy-designer.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -82,6 +88,3 @@ Eftirfarandi mynd sýnir lögaðila sem er bætt við stigveldisrótina með fj�
 [Yfirlit yfir rásir](channels-overview.md)
 
 [Skilyrði fyrir rásauppsetningu](channels-prerequisites.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

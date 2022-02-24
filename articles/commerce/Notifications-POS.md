@@ -2,66 +2,61 @@
 title: Sýna pöntunartilkynningar á sölustað (POS)
 description: Þetta efnisatriði lýsir því hvernig hægt er að virkja pöntunartilkynningar á sölustað og tilkynningarammann.
 author: ShalabhjainMSFT
-ms.date: 03/12/2021
+manager: AnnBe
+ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations, RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7166afdb43c7e835170c5768a0767f2943222b19c00c7d0aaf067263845651f8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e663a5dca76d570217b7e02444689a2e2d312c41
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714139"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413068"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Sýna pöntunartilkynningar á sölustað (POS)
 
 [!include [banner](includes/banner.md)]
 
-Starfsmönnum verslunar kann að vera úthlutað ýmsum verkum í versluninni, t.d. uppfyllingu pantana eða framkvæmd birgðamóttöku eða birgðatalningu. Biðlari sölustaðarins (POS) býður upp á eitt forrit þar sem hægt er að láta starfsmenn vita af verkum. Tilkynningaramminn á sölustað leyfir smásölum að stilla hlutverkatengdar tilkynningar. Frá og með Dynamics 365 Retail með forritsuppfærslu 5, geta þessar tilkynningar aðeins verið stilltar fyrir aðgerðir á sölustað.
+Í nútíma smásöluumhverfi eru verslunarstarfsmönnum úthlutað ýmsum verkum, svo sem að aðstoða viðskiptavini, færa inn færslur, framkvæma birgðatalningu og taka á móti pöntunum í verslun. Biðlari sölustaðarins (POS) gerir starfsmönnum kleift að framkvæma öll þessi verk og mörg önnur í einu forriti. Þar sem þarf að framkvæma ýmis verk yfir daginn, gætu starfsmenn þurft að fá tilkynningu þegar eitthvað krefst athygli þeirra. Tilkynningaramminn á sölustað leyfir smásölum að stilla hlutverkatengdar tilkynningar. Með Dynamics 365 for Retail með forritsuppfærslu 5, geta þessar tilkynningar aðeins verið stilltar fyrir aðgerðir á sölustað.
 
-Kerfið getur sýnt tilkynningar um *uppfyllingaraðgerð pöntunar* og frá og með Commerce-útgáfu 10.0.18 verður einnig hægt að sýna tilkynningar fyrir *afturköllunaraðgerð pöntunar*. En vegna þess að ramminn er hannaður til að vera teygjanlegur munu þróunaraðilar geta [skrifað tilkynningarekil](dev-itpro/extend-pos-notification.md) fyrir hvaða aðgerð sem er og birt tilkynningarnar fyrir þessa aðgerð á sölustað.
 
-## <a name="enable-notifications-for-order-fulfillment-or-recall-order-operations"></a>Virkja tilkynningar fyrir uppfyllingaraðgerð pöntunar eða afturköllunaraðgerð pöntunar
+Eins og er getur kerfið aðeins sýnt tilkynningar fyrir pöntunaruppfyllingaraðgerðir. En vegna þess að ramminn er hannaður til að vera teygjanlegur munu þróunaraðilar á endanum geta skrifað tilkynningarekil fyrir hvaða aðgerð sem er og birt tilkynningarnar fyrir þessa aðgerð á sölustað.
 
-Til að virkja tilkynningar fyrir uppfyllingaraðgerð pöntunar eða afturköllunaraðgerð pöntunar skal fylgja þessum skrefum.
+## <a name="enable-notifications-for-order-fulfillment-operations"></a>Virkja tilkynningar fyrir pöntunaruppfyllingaraðgerðir
 
-1. Farðu í **Retail og Commerce \> Uppsetningu rásar \> Uppsetning POS \> POS \> Aðgerðir**.
-1. Leitið annaðhvort að aðgerðinni **Uppfylling pöntunar** eða aðgerðinni **Endurköllun pöntunar** og veljið síðan **Virkja tilkynningar** fyrir aðgerðina til að gefa til kynna að tilkynningaramminn eigi að hluta á rekilinn fyrir þessa aðgerð. Ef rekillinn er innleiddur verða tilkynningar fyrir þessa aðgerð sýndar á sölustaðnum.
-1. Farðu í **Retail og Commerce \> Starfsmenn \> Starfsfólk**.
-1. Veljið flipann **Commerce**, veljið starfsmannalínu og veljið því næst **Heimildir sölustaðar**. Veljið flýtiflipann **Tilkynningar** til að stækka hann og bætið síðan við aðgerðunum sem búið er að virkja tilkynningar fyrir. Ef á að stilla eina tilkynningu fyrir starfsmann skal ganga úr skugga um að gildið **Sýna röð** sé stillt á **1**. Ef fleiri en ein aðgerð er stillt skal stilla gildið **Sýna röð** til að gefa til kynna röðina sem sýna á tilkynningarnar í. 
+Til að virkja tilkynningar fyrir pöntunaruppfyllingaraðgerðir skal fylgja þessum skrefum.
 
-      Tilkynningar eru aðeins sýndar fyrir aðgerðir sem er bætt við flýtiflipann **Tilkynningar**. Aðeins er hægt að bæta við aðgerðum þar ef gátreiturinn **Virkja tilkynningar** fyrir þessar aðgerðir hefur verið valinn á síðunni **Aðgerðir sölustaðar**. Að auki eru tilkynningar um aðgerð aðeins sýndar starfsfólki ef aðgerðinni er bætt við heimildir sölustaðar fyrir þetta starfsfólk.
+1. Farðu í **Retail og Commerce** &gt; **Uppsetningu rásar** &gt; **Uppsetning POS** &gt; **POS** &gt; **Aðgerðir**.
+2. Leitið að aðgerðinni **Pöntunaruppfylling** og veljið gátreitinn **Virkja tilkynningar** svo tilkynningaramminn hlusti á rekilinn fyrir þessa aðgerð. Ef rekillinn er innleiddur verða tilkynningar fyrir þessa aðgerð sýndar á sölustaðnum.
+3. Farið í **Retail og Commerce** &gt; **Starfsmenn** &gt; **Starfsfólk** &gt;, undir Commerce-flipanum, opnið heimildir sölustaðar sem tengjast starfsmanninum. Stækkið flýtiflipann **Tilkynningar**, bætið við aðgerðinni **Pöntunaruppfylling** og stillið reitinn **Birtingarröð** á **1**. Ef fleiri en ein tilkynning er skilgreind er þessi reitur notaður til að raða tilkynningunum. Tilkynningar sem hafa lægra gildi á **Birtingarröð** birtast fyrir ofan tilkynningar sem hafa hærra gildi. Tilkynningar sem hafa gildi **Birtingarraðar** á **1** eru efst.
+
+    Tilkynningar eru aðeins sýndar fyrir aðgerðir sem er bætt við á flýtiflipanum **Tilkynningar** og aðeins er hægt að bæta við aðgerðum þar ef gátreiturinn **Virkja tilkynningar** fyrir þessar aðgerðir hefur verið valinn á síðunni **Aðgerðir sölustaðar**. Að auki eru tilkynningar um aðgerð aðeins sýndar starfsfólki ef aðgerðinni er bætt við heimildir sölustaðar fyrir þetta starfsfólk.
 
     > [!NOTE]
-    > Tilkynningum er hægt að hnekkja á notandastigi. Til að gera þetta skal opna færslu starfsmanns, velja **Heimildir sölustaðar** og síðan breyta tilkynningaáskrift notandans.
+    > Tilkynningum er hægt að hnekkja á notandastigi. Opnið færslur starfsmanns, veljið **Heimildir sölustaðar** og breytið síðan tilkynningaáskrift notandans.
 
-1. Farðu í **Retail og Commerce \> Uppsetning rásar \> Uppsetning sölustaðar \> Forstillingar sölustaðar \> Virknireglur**. Í reitnum **Tilkynningamillibil** skal tilgreina hversu oft á að kalla fram tilkynningar. Fyrir sumar tilkynningar þarf sölustaður að hafa samband við bakvinnsluforritið í rauntíma. Þessi samskipti taka yfir reikningsgetu bakvinnsluforritsins. Þegar tilkynningamillibilið er stillt ætti því að huga að bæði viðskiptakröfum og áhrifunum af samskiptum við bakvinnsluforritið í rauntíma. Gildið **0** (núll) slekkur á tilkynningum.
-1. Farðu í **Retail og Commerce \> Upplýsingatækni í Retail og Commerce \> Dreifingaráætlun**. Veljið áætlunina **1060** (**Starfsmenn**) til að samstilla tilkynningaáskriftir og smellið síðan á **Keyra núna**. Veljið næst áætlunina **1070** (**Stilling rásar**) til að samstilla heimildarmillibil og veljið síðan **Keyra núna**.
+4. Fara í **Retail og Commerce** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Virknireglur**. Í reitnum **Tilkynningamillibil** skal tilgreina hversu oft á að kalla fram tilkynningar. Fyrir sumar tilkynningar þarf sölustaður að hafa samband við bakvinnsluforritið í rauntíma. Þessi samskipti taka yfir reikningsgetu bakvinnsluforritsins. Þegar tilkynningamillibilið er stillt ætti því að huga að bæði viðskiptakröfum og áhrifunum af samskiptum við bakvinnsluforritið í rauntíma. Gildið **0** (núll) slekkur á tilkynningum.
+5. Farðu í **Retail og Commerce** &gt; **Upplýsingatækni í Retail og Commerce** &gt; **Dreifingaráætlun**. Veljið áætlunina **1060** (**Starfsmenn**) til að samstilla tilkynningaáskriftir og smellið síðan á **Keyra núna**. Veljið næst áætlunina **1070** (**Stilling rásar**) til að samstilla heimildarmillibil og veljið síðan **Keyra núna**.
 
 ## <a name="view-notifications-in-the-pos"></a>Skoða tilkynningar á sölustaðnum
 
-Eftir að þú hefur lokið ofangreindum skrefum munu starfsmenn geta skoðað tilkynningarnar á sölustaðnum. Til að skoða tilkynningar skal velja tilkynningatáknið efst í hægra horni sölustaðar. Tilkynningasvæði birtist og sýnir tilkynningar fyrir aðgerðirnar sem stilltar eru fyrir starfsmanninn. 
+Eftir að þú hefur lokið ofangreindum skrefum munu starfsmenn geta skoðað tilkynningarnar á sölustaðnum. Til að skoða tilkynningar skal smella á tilkynningatáknið efst í hægra horni sölustaðar. Við það birtist tilkynningamiðstöð með tilkynningum fyrir pöntunaruppfyllingaraðgerðina. Tilkynningamiðstöðin ætti að birta eftirfarandi hópa innan pöntunaruppfyllingaraðgerðarinnar:
 
-Fyrir **uppfyllingaraðgerð pöntunar** mun tilkynningasvæðið sýna eftirfarandi flokka:
+- **Afhending í verslun** - Þessi hópur sýnir fjölda pantana sem hafa afhendingarstillinguna **Afhending** og afhendingin er áætlaðu frá núverandi verslun. Hægt er að smella á númerið á hópnum til að opna síðuna **Pöntunaruppfylling**. Í þessu tilfelli verður síðan síuð þannig að hún sýnir aðeins virku pantanirnar sem eru settar upp fyrir afhendingu frá núverandi verslun.
+- **Senda frá verslun** - Þessi hópur sýnir fjölda pantana sem hafa afhendingarstillinguna **Sending** og sendingin er áætluð frá núverandi verslun. Hægt er að smella á númerið á hópnum til að opna síðuna **Pöntunaruppfylling**. Í þessu tilviki verður síðan síuð þannig að hún sýnir aðeins virku pantanirnar sem eru settar upp fyrir sendingu frá núverandi verslun.
 
-- **Afhending í verslun** - Þessi flokkur sýnir fjölda stakra pöntunarlína sem áætlað er að verði sóttar úr núverandi verslun. Hægt er að velja númerið á flokknum til að opna aðgerðina **Uppfylling pöntunar** með síu þannig að hún sýni aðeins virkar pöntunarlínur sem eru settar upp að verða sóttar úr núverandi verslun.
-- **Senda úr verslun** – Þessi flokkur sýnir talningu stakra pöntunarlína sem hafa verið skilgreindar til senda frá núverandi verslun notandans. Hægt er að velja númerið á flokknum til að opna aðgerðina **Uppfylling pöntunar** með síuðu yfirliti þannig að það sýni aðeins virkar pöntunarlínur sem eru settar upp að verða sendar úr núverandi verslun.
-
-Fyrir **endurköllunaraðgerð pöntunar** mun tilkynningasvæðið sýna eftirfarandi flokka:
-
-- **Pantanir sem á að uppfylla** – Þessi flokkur sýnir talningu pantana sem eru skilgreindar annaðhvort til að vera sóttar eða sendar fyrir núverandi verslun notanda. Hægt er að velja númerið á flokknum til að opna aðgerðina **Endurköllun pöntunar** með síuðu yfirliti sem sýnir aðeins opnu pantanirnar sem núverandi verslun notanda þarf að uppfylla fyrir annaðhvort að verða sótt úr verslun eða sent úr verslun.
-- **Pantanir sem þarf að sækja** - Þessi flokkur sýnir fjölda pantana sem áætlað er að verði sóttar úr núverandi verslun. Hægt er að velja númerið á flokknum til að opna aðgerðina **Endurköllun pöntunar** með síuðu yfirliti sem sýnir aðeins opnar pantanir sem núverandi verslun notanda þarf að uppfylla fyrir annaðhvort að verða sótt úr verslun eða sent úr verslun.
-- **Pantanir sem þarf að senda** – Þessi hópur sýnir fjölda pantana sem á að senda úr núverandi verslun notanda. Hægt er að velja númerið á flokknum til að opna aðgerðina **Endurköllun pöntunar** með síuðu yfirliti sem sýnir aðeins opnar pantanir sem núverandi verslun notanda þarf að uppfylla sendingu fyrir.
-
-Fyrir bæði tilkynningar um uppfyllingu pöntunar og endurköllun pöntunar, þar sem nýjar pantanir eru sóttar af ferlinu, breytist tilkynningatáknið til að gefa til kynna að nýjar tilkynningar og talning fyrir viðeigandi flokka sé uppfært. Þótt flokkarnir séu uppfærðir með reglulegu millibili, geta notendur sölustaðar uppfært flokkana handvirkt hvenær sem er með því að velja **Uppfæra** við hliðina á flokknum. Að lokum, ef hópur hefur nýtt atriði, sem núverandi starfsmaður hefur ekki skoðað, þá sýnir hópurinn sprengitákn sem gefur til kynna nýtt efni.
+Þegar nýjum pöntunum er úthlutað í búðina til uppfyllingar þá breytist tilkynningartáknið til að gefa til kynna nýjar tilkynningar og fjöldi viðeigandi hópa verður uppfærður. Þótt hóparnir séu uppfærðir með reglulegu millibili, geta notendur sölustaðar uppfært hópana handvirkt hvenær sem er með því að velja hnappinn **Uppfæra** við hliðina á hópnum. Að lokum, ef hópur hefur nýtt atriði, sem núverandi starfsmaður hefur ekki skoðað, þá sýnir hópurinn sprengitákn sem gefur til kynna nýtt efni.
 
 ## <a name="enable-live-content-on-pos-buttons"></a>Virkja beint efni á hnöppum sölustaðar
 
@@ -72,14 +67,13 @@ Hnappar sölustaðar geta nú sýnt fjölda til að auðvelda starfsmönnum að 
 
 Eftirfarandi skýringarmynd sýnir stillingar á beinu efni í hnappahniti hönnuðar.
 
-![Stillingar fyrir lifandi efni í hönnuður hnappatafla.](./media/ButtonGridDesigner.png "Stillingar fyrir lifandi efni í hönnuður hnappatafla")
+![Stillingar fyrir lifandi efni í hönnuður hnappatafla](./media/ButtonGridDesigner.png "Stillingar fyrir lifandi efni í hönnuður hnappatafla")
 
 Til að sýna talningu tilkynningar á hnappi þarf að tryggja að verið sé að uppfæra rétt skjáútlit. Til að ákvarða skjáútlitið sem sölustaður er að nota skal velja táknið **Stillingar** efst í hægra horninu og taka niður **Auðkenni skjáútlits** og **Upplausn útlits**. Nú skaltu nota Edge-vafra, opna síðuna **Skjáútlit**, finna **Auðkenni skjáútlits** og **Upplausn útlits** sem er tilgreint efst og velja gátreitinn **Gera lifandi efni virkt**. Farið í **Retail og Commerce \> Upplýsingatækni Retail og Commerce \> Dreifingaráætlun** og keyrið 1090 (afgreiðslukassar) verk til að samstilla breytingar á útliti.
 
-![Finndu skjáinn sem POS notar.](./media/Choose_screen_layout.png "Finndu skjáútlitið")
+
+![Finndu skjáinn sem POS notar](./media/Choose_screen_layout.png "Finndu skjáútlitið")
 
 Eftirfarandi skýringarmynd sýnir áhrif þess að velja **Efst til hægri** á móti **Miðju** í reitnum **Jöfnun efnis** fyrir hnappa af ýmsum stærðum.
 
-![Beint efni á hnöppum sölustaðar.](./media/ButtonsWithLiveContent.png "Beint efni á hnöppum sölustaðar")
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Beint efni á hnöppum sölustaðar](./media/ButtonsWithLiveContent.png "Beint efni á hnöppum sölustaðar")

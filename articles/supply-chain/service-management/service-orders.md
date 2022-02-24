@@ -1,30 +1,34 @@
 ---
 title: Þjónustupantanir
-description: Þetta efnisatriði veitir yfirsýn yfir hvernig á að vinna með þjónustupantanir.
-author: kamaybac
+description: Þjónustupöntun táknar heimsókn sem þjónustutæknimaður fer í til viðskiptavinar á tilteknum degi.
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8dc88d445e1331e1532cb3b7385cda39c4f22e80
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3b049b166edf2b5a318a4b1af85e7f74cfe433f2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566120"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430018"
 ---
-# <a name="service-orders"></a>Þjónustupantanir
+# <a name="service-orders"></a>Þjónustupantanir   
 
 [!include [banner](../includes/banner.md)]
+
 
 Þjónustupöntun táknar heimsókn sem þjónustutæknimaður fer í til viðskiptavinar á tilteknum degi. Hver þjónustupöntun samanstendur af einni eða fleiri þjónustupöntunarlínum. Þjónustupöntunarlínur tákna fjölda vinnustunda sem þjónustutæknar þurfa að inna af hendi, og tengda hluti, gjöld og þóknanir.
 
@@ -38,19 +42,19 @@ ms.locfileid: "7566120"
 
 
 > [!NOTE]
-> Til að búa til þjónustubeiðnir sem ekki tengjast þjónustusamningi þarftu að velja gátreitinn **Leyfa án þjónustusamnings** í síðunni **Færibreytur þjónustustjórnunar**.
+> <P>Til að búa til þjónustubeiðnir sem ekki tengjast þjónustusamningi þarftu að velja gátreitinn <STRONG>Leyfa án þjónustusamnings</STRONG> í skjámyndinni <STRONG>Færibreytur þjónustustjórnunar</STRONG>.</P>
 
-### <a name="scenario"></a>Aðstæður
+**Aðstæður**
 
 Eftirfarandi atburðarás lýsir öðrum aðstæðum þar sem það er gagnlegt að stofna þjónustupöntun sem ekki er tengd þjónustusamningi.
 
-Fyrirtækissendandinn fær símtal þar sem beðið er um neyðarþjónustu í lyftu. Það er ekki tími til að setja upp þjónustusamning og verkefni fyrir þjónustuna. Þess vegna stofnar afgreiðslustjórinn þjónustupöntun beint á síðunni **Þjónustupantanir**, tengir þjónustupöntunina við verkefni sem er til staðar og stofnar þjónustupöntunarlínur. Sendandinn stofnar einnig verkefni eða hlutatengsl við þjónustupöntun sem er til staðar, til að skrá vinnu sem ekki tengist þjónustusamningnum. Nánari upplýsingar er að finna í: [Stofna þjónustupantanir handvirkt](create-service-orders-manually.md) og [Stofna tengsl þjónustuverks](create-service-task-relations.md).
+Fyrirtækissendandinn fær símtal þar sem beðið er um neyðarþjónustu í lyftu. Það er ekki tími til að setja upp þjónustusamning og verkefni fyrir þjónustuna. Þess vegna stofnar sendandinn þjónustupöntun beint í skjámyndinni **Þjónustupantanir**, tengir þjónustupöntunina við verkefni sem er til staðar og stofnar þjónustupöntunarlínur. Sendandinn stofnar einnig verkefni eða hlutatengsl við þjónustupöntun sem er til staðar, til að skrá vinnu sem ekki tengist þjónustusamningnum. Nánari upplýsingar er að finna í: [Stofna þjónustupantanir handvirkt](create-service-orders-manually.md) og [Stofna tengsl þjónustuverks](create-service-task-relations.md).
 
 ## <a name="monitor-the-progress-of-service-orders"></a>Fylgjast með framvindu þjónustupantana
 
 Til að fylgjast með framvindu þjónustupantana í gegnum mismunandi hópa og vinnuferla, er hægt að setja upp kerfi sem byggist á stigum og ástæðukóðum fyrir þjónustupantanir. Fyrir hvert stig er hægt að tilgreina aðgerðir sem eru leyfðar. Nánari upplýsingar er að finna í [Stofna ástæðukóða](create-reason-codes.md).
 
-### <a name="example"></a>Dæmi
+**Dæmi**
 
 Þjónustupöntun er samþykkt af sendanda. Sendandinn uppfærir stig þjónustupöntunar og tilgreinir ástæðukóða sem gefur til kynna að þjónustupöntunin hafi verið gefin út til þjónustutæknimanns. Tæknimaðurinn fer til viðskiptavinar og sinnir þjónustunni.
 
@@ -58,7 +62,7 @@ Til að fylgjast með framvindu þjónustupantana í gegnum mismunandi hópa og 
 
 Þú getur tilgreint birgðavörurnar sem eru nauðsynlegar fyrir þjónustupöntunina. Hins vegar verður þjónustan að tengjast verkefni. Liður kröfur um þjónustu pantanir eru unnin í gegnum verkefni. 
 
-### <a name="example"></a>Dæmi
+**Dæmi**
 
 Þjónustupantanir sem eru stofnaðar af þjónustusamningi eru unnar af sendanda. Fyrir fyrstu þjónustupöntunina áttar sendandinn sig á því að þjónustutæknimaðurinn þarfnast mikilvægs varahlutar sem er ekki til á lager. Af þeim sökum stofnar sendandinn vöruþörf fyrir varahlutinn beint frá þjónustupöntuninni.
 
@@ -72,7 +76,7 @@ Ein af hinum þjónustupöntununum sem voru búnar til fyrir janúarmánuð ver�
 
 ## <a name="post-from-projects"></a>Bóka frá verkefnum
 
-Í lok hverrar viku vill sendandinn bóka allar þjónustupantanir sem tengjast ákveðnu verkefni. Afgreiðslustjórinn finnur þess vegna viðeigandi verkefni á síðunni **Verkefni** og bókar þjónustupantanir sem er lokið. Nánari upplýsingar er að finna í [Bóka þjónustupantanir (klasaskjámynd)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
+Í lok hverrar viku vill sendandinn bóka allar þjónustupantanir sem tengjast ákveðnu verkefni. Afgreiðslustjórinn finnur þess vegna viðeigandi verkefni í skjámyndinni **Verkefni** og bókar þjónustupantanir sem er lokið. Nánari upplýsingar er að finna í [Bóka þjónustupantanir (klasaskjámynd)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
 
 ## <a name="delete-service-orders"></a>Eyða þjónustupöntunum
 
@@ -85,6 +89,3 @@ Ein af hinum þjónustupöntununum sem voru búnar til fyrir janúarmánuð ver�
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

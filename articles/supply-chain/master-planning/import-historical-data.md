@@ -1,26 +1,29 @@
 ---
 title: Gögn flutt út fyrir eftirspurnarspár
 description: Til að fá nákvæmar spár um eftirspurn þarf að hafa söguleg eftirspurnargögn fyrir hverja vöru eða vöruúthlutunarlykil. Þetta efnisatriði útskýrir hvernig á að nota gagnaeiningar til að flytja inn söguleg eftirspurnargögn úr hvaða kerfi sem er þannig að notandi hafi lengri sögu yfir eftirspurnargögn.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 05/10/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.assetid: 59c0d269-9db0-48e7-b8c7-9a388781a9ca
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6dba31279541c20949dd1e86236103045c48b701
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c66481b1dd8650960cad2947425c1e6c7450afcb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579665"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430574"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Gögn flutt út fyrir eftirspurnarspár
 
@@ -31,14 +34,28 @@ Til að tryggja aukna nákvæmni spár um eftirspurn þarf að hafa eins mikið 
 Á vinnusvæðinu **Gagnastjórnun** er hægt að sjá yfirlit yfir alla reiti í einingunni.
 
 1. Opnaðu vinnusvæðið **Gagnastjórnun**.
-2. Veljið reitinn **Gagnaeiningar**.
+2. Smellið á reitinn **Gagnaeiningar**.
 3. Leitið í einingalistanum fyrir **Söguleg ytri eftirspurn**.
-4. Veljið **Markreitir**. Eftirfarandi einingareitir eru áskildir: vefsvæði (**DeliveringSiteId**), dagsetning (**DemandDate**), magn (**DemandQuantity**) og annað hvort vörunúmer (**ItemNumber**) eða úthlutunarlykill vöru (**ProductAllocationKeyId**).
+4. Smellið á **Markreitir**. Eftirfarandi einingareitir eru áskildir: vefsvæði (**DeliveringSiteId**), dagsetning (**DemandDate**), magn (**DemandQuantity**) og annað hvort vörunúmer (**ItemNumber**) eða úthlutunarlykill vöru (**ProductAllocationKeyId**).
 
 Til að nota gagnaeininguna verður að hafa annað hvort Microsoft Excel-skrá eða skrá með gildum aðgreindum með kommum (CSV) sem inniheldur sögulegu eftirspurnargögnin. Eftirfarandi dæmi sýnir hvernig á að flytja gögn úr CSV-skrá.
 
-Frekari upplýsingar um hvernig á að flytja inn gögn, þar á meðal hvernig á að hreinsa gögn eftir innflutning, má finna í [Yfirlit yfir inn- og útflutningsvinnslu gagna](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) og tengd efnisatriði.
+## <a name="example"></a>Dæmi
 
-Sjá einnig [Myndun tölfræðilegrar grunnlínuspár](generate-statistical-baseline-forecast.md).
+Hægt er að nota eftirfarandi skrá sem dæmi. Sæktu [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast). Þessi skrá inniheldur gögn sögulegar eftirspurnar vöru D0001. Hún inniheldur aðeins fyrir eftirfarandi skyldusvæði: svæði, magn og dagsetningu eftirspurnar.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+1. Velja fyrirtæki til að flytja söguleg eftirspurnargögn inn í.
+2. Opnaðu vinnusvæðið **Gagnastjórnun**.
+3. Smellið á reitinn **Flytja inn**.
+4. Færið inn heiti fyrir innflutningsverkið, t.d. **Flytja inn sögulega eftirspurn fyrir vöruna D0001**.
+5. Í reitinn **Snið upprunagagna** skal velja skráarsnið skráarinnar sem þú ert að flytja inn. Til þess að flytja inn skrána HistoricalDemandData í þessu dæmi skal velja **CSV**.
+6. Í reitinn **Heiti Einingar** skal velja **Söguleg ytri eftirspurn**.
+7. Vistaðu skrána í tölvunni og hladdu henni svo upp.
+8. Smelltu á **Flytja inn**.
+9. Síðan **Samantekt framkvæmdar** opnast sjálfkrafa. Sannprófaðu innfluttu gögnin á síðunni.
+
+Eftir að söguleg eftirspurnargögn hafa verið flutt inn er hægt að mynda eftirspurnarspá.
+
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+[Myndun tölfræðilegrar grunnlínuspár](generate-statistical-baseline-forecast.md)

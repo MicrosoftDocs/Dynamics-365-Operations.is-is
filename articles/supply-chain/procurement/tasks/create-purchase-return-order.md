@@ -1,24 +1,26 @@
 ---
 title: Stofna innkaupaskilapöntun
 description: Þessi verklýsing sýnir hvernig á að stofna vöruskilapöntun innkaupa, með því að nota aðgerðina kreditnótu til að afrita línur úr reikningsskjal lánardrottins í nýja Innkaupapöntun.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea0d227966b69063993acf14e68cd069681357f1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 10b3e695ffcd44909be4781eac5d4eaeef199b03
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569410"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017060"
 ---
 # <a name="create-a-purchase-return-order"></a>Stofna innkaupaskilapöntun
 
@@ -65,6 +67,3 @@ ms.locfileid: "7569410"
 4. Í reitinn **Innhreyfingarskjal afurða** skal slá inn gildi. Þetta svæði er notað til að færa inn tilvísun sem verður notað sem fylgiskjal fyrir færslubók innhreyfingarskjala afurða.  
 5. Smellt er á **OK**. Vörurnar hafa nú verið skráð sem sendar á vöruskilapöntun innkaupa, og búið er að stofna færslubók fyrir innhreyfingarskjal afurða. Hægt er að nota aðgerðina innhreyfing afurðar til að fara yfir færslubækur sem stofnaðar eru með innkaupapöntuninni og sjá hvað var móttekið eða skilað, og hvenær.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

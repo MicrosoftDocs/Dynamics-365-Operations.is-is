@@ -2,9 +2,11 @@
 title: Bættu nýjum reit við sniðmát viðskiptaskjala í Microsoft Excel
 description: Þetta efni veitir upplýsingar um hvernig bæta má nýjum reitum við sniðmát viðskiptaskjala í Microsoft Excel með því að nota viðskiptaskjalastjórnunaraðgerð.
 author: NickSelin
+manager: AnnBe
 ms.date: 11/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 57eebdc38fb3f74690b92c03fa60e10c7610db1fe413320a6d167f05b0658bf1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fcfbcb021b192cef75d59b0db1796e994f3dc27d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767243"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681377"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Bættu nýjum reit við sniðmát viðskiptaskjala í Microsoft Excel
 
@@ -50,14 +52,14 @@ Skilgreining ER-sniðs **Ókeypis textareikningur (Excel)** þessarar lausnar in
 
 Nánari upplýsingar um hvernig eigi að flytja inn ER-skilgreininga er að finna í [Stjórna líftíma ER-stillinga](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![Síðan LCS samnýtt eignasafn.](./media/BDM-AddFldExcel-LCS.png)
+![Síðan LCS samnýtt eignasafn](./media/BDM-AddFldExcel-LCS.png)
 
 ### <a name="edit-the-er-solution-template"></a>Breyta sniðmát fyrir ER lausn
 
 1.  Skráðu þig inn sem notandi sem hefur aðgang að vinnusvæðinu **Stjórnun viðskiptaskjala**.
 2.  Opnaðu vinnusvæðið **Stjórnun viðskiptaskjala**.
 
-    ![Vinnusvæðið Yfirlit yfir stjórnun viðskiptaskjala.](./media/BDM-AddFldExcel-Workspace.png)
+    ![Vinnusvæðið Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM-AddFldExcel-Workspace.png)
 
 3.  Í tölfunni velurðu sniðmátið **Ókeypis textareikningur (Excel)**.
 4.  Í hægri glugganum velurðu **Nýtt sniðmát** til að búa til nýtt sniðmát sem byggist á völdu sniðmáti.
@@ -66,20 +68,20 @@ Nánari upplýsingar um hvernig eigi að flytja inn ER-skilgreininga er að finn
 
 Síðan BDM-sniðmátsritill birtist. Hægt er að nota Microsoft 365 til að breyta völdu sniðmáti á netinu í innbyggðu stýringunni.
 
-![BDM ritilssíða.](./media/BDM-AddFldExcel-EditableTemplate.png)
+![BDM ritilssíða](./media/BDM-AddFldExcel-EditableTemplate.png)
 
 ### <a name="add-the-label-for-a-new-field-to-the-template"></a>Bættu merkimiðanum fyrir nýjan reit við sniðmátið
 
 1.  Á ritstjórasíðu BDM sniðmáts, á Excel borði, á flipanum **Útsýni**, velurðu gátreitina **Fyrirsagnir og hnitanet** fyrir breytilegt Excel sniðmát.
 
-    ![Gátreitirnir Fyrirsagnir og hnitanet valdir.](./media/BDM-AddFldExcel-EditableTemplate2.png)
+    ![Gátreitirnir Fyrirsagnir og hnitanet valdir](./media/BDM-AddFldExcel-EditableTemplate2.png)
 
 2.  Veldu hólf **E8:F8**.
 3.  Á Excel-borðanum, á flipanum **Heim**, velurðu **Sameina og miðja** til að sameina valda reiti í nýjan sameinaðan reit **E8:F8**.
 4.  Í sameinaða reitnum **E8:F8** slærðu inn **Vefslóð**.
 5.  Veldu sameinaðan reit **E7:F7**, veldu **Sniðmálari** og veldu síðan sameinaðan reit **E8:F8** til að forsníða hann á sama hátt og sameinaða reitinn **E7:F7**.
 
-    ![Nýjum reitamerkimiða bætt við sniðmátið.](./media/BDM-AddFldExcel-EditableTemplate3.png)
+    ![Nýjum reitamerkimiða bætt við sniðmátið](./media/BDM-AddFldExcel-EditableTemplate3.png)
 
 ### <a name="format-the-template-to-reserve-space-for-a-new-field"></a>Sníddu sniðmátið til að taka frá pláss fyrir nýjan reit
 
@@ -87,13 +89,13 @@ Síðan BDM-sniðmátsritill birtist. Hægt er að nota Microsoft 365 til að br
 2.  Á Excel-borðanum, á flipanum **Heim**, velurðu **Sameina og miðja** til að sameina valda reiti í nýjan sameinaðan reit **G8:H8**.
 3.  Veldu sameinaðan reit **G7:H7**, veldu **Sniðmálari** og veldu síðan sameinaðan reit **G8:H8** til að forsníða hann á sama hátt og sameinaða reitinn **G7:H7**.
 
-    ![Rými frátekið fyrir nýja reitinn.](./media/BDM-AddFldExcel-EditableTemplate4.png)
+    ![Rými frátekið fyrir nýja reitinn](./media/BDM-AddFldExcel-EditableTemplate4.png)
 
 4.  Í reitinn **Heiti** velurðu **CompanyInfo**.
 
     Svið **CompanyInfo** núverandi Excel sniðmáts geymir alla reitina sem eru notaðir til að fylla haus á myndaða skýrslu með upplýsingum um núverandi fyrirtæki sem seljanda.
 
-    ![CompanyInfo svið valið.](./media/BDM-AddFldExcel-SelectCompanyInfoRange.png)
+    ![CompanyInfo svið valið](./media/BDM-AddFldExcel-SelectCompanyInfoRange.png)
 
 ### <a name="add-a-new-field-to-the-template"></a>Bæta nýjum reit við sniðmátið
 
@@ -103,7 +105,7 @@ Síðan BDM-sniðmátsritill birtist. Hægt er að nota Microsoft 365 til að br
     > [!NOTE]
     > Þú verður að aðlaga hluta sniðmátsins sem þú vilt nota sem nýjan reit. Þú hefur þegar gert þessa leiðréttingu með því að forsníða sameinaða reitinn **G8:H8**.
 
-    ![Nýjum reit bætt við sniðmátið.](./media/BDM-AddFldExcel-AddCell.png)
+    ![Nýjum reit bætt við sniðmátið](./media/BDM-AddFldExcel-AddCell.png)
 
 3.  Veldu **Excel\Cell** til að bæta við nýjum reit sem reit í sniðmátinu.
 
@@ -112,13 +114,13 @@ Síðan BDM-sniðmátsritill birtist. Hægt er að nota Microsoft 365 til að br
     Taktu eftir að sniðmátshlutinn **CompanyInfo** er sjálfkrafa valinn í glugganum **Uppbygging sniðmáts** vegna þess að það er heppilegasti foreldrahlutinn í núverandi sniðmátbyggingu fyrir reitinn sem þú ert að bæta við.
     
 4.  Í reitinn **Excel-svið** reit slærðu inn **CompanyURL_Value**.
-5.  Veldu **Í lagi**.
+5.  Veljið **Í lagi**.
 
-    ![CompanyURL_Value sviði bætt við sniðmátaskipan.](./media/BDM-AddFldExcel-EditableTemplate5.png)
+    ![CompanyURL_Value sviði bætt við sniðmátaskipan](./media/BDM-AddFldExcel-EditableTemplate5.png)
 
 6.  Í glugganum **Uppbygging sniðmáts** velurðu úrfellingarhnappinn (...) og velur síðan **Sýna bindingar**.
 
-    ![Sýna valdar bindingar.](./media/BDM-AddFldExcel-ShowBindings.png)
+    ![Sýna valdar bindingar](./media/BDM-AddFldExcel-ShowBindings.png)
 
     Glugginn **Uppbygging sniðmáts** sýnir nú gagnagjafana sem eru fáanlegir á undirliggjandi ER sniði.
 
@@ -126,21 +128,21 @@ Síðan BDM-sniðmátsritill birtist. Hægt er að nota Microsoft 365 til að br
 8.  Í hlutanum **Gagnagjafar** í glugganum **Uppbygging sniðmáts** stækkarðu **Model \> InvoiceBase \> CompanyInfo**.
 9.  Undir **CompanyInfo** velurðu liðinn **WebsiteURI**.
 
-    ![Liðurinn WebsiteURI valið.](./media/BDM-AddFldExcel-BindURL.png)
+    ![Liðurinn WebsiteURI valið](./media/BDM-AddFldExcel-BindURL.png)
 
 10. Veldu **Binda**.
 11. Í glugganum **Uppbygging sniðmáts** velurðu **Vista** og lokar síðan ritilssíðu BDM sniðmáts.
 
 Á vinnusvæðinu **Stjórnun viðskiptaskjala** sýnir flipinn **Sniðmát** í hægri glugganum uppfærða sniðmátið. Í netinu skaltu taka eftir því að reitnum **Staða** fyrir breytt sniðmát hefur verið breytt í **Drög** og að reiturinn **Endurskoðun** er ekki lengur auður. Þessar breytingar benda til þess að ferlið við að breyta þessu sniðmáti er hafið.
 
-![Breytt sniðmát í vinnusvæðinu Stjórnun viðskiptaskjala.](./media/BDM-AddFldExcel-Workspace2.png)
+![Breytt sniðmát í vinnusvæðinu Stjórnun viðskiptaskjala](./media/BDM-AddFldExcel-Workspace2.png)
 
 ## <a name="review-company-settings"></a>Yfirfara fyrirtækjastillingar
 
 1.  Farðu í **Fyrirtækisstjórnun \> Fyrirtæki \> Lögaðilar**.
 2.  Á flýtiflipanum **Upplýsingar um tengiliði** staðfestirðu að vefslóð fyrirtækisins sé slegin inn.
 
-![Vefslóð fyrirtækisins slegin inn á síðu Lögaðila.](./media/BDM-AddFldExcel-CompanyInfo.png)
+![Vefslóð fyrirtækisins slegin inn á síðu Lögaðila](./media/BDM-AddFldExcel-CompanyInfo.png)
 
 ## <a name="generate-business-documents-to-test-the-updated-template"></a>Búðu til viðskiptaskjöl til að prófa uppfærða sniðmátið
 
@@ -150,13 +152,13 @@ Síðan BDM-sniðmátsritill birtist. Hægt er að nota Microsoft 365 til að br
 4.  Undir **Textareikningur** velurðu **Upprunalegt skjal** til að tilgreina umfang reikninga til vinnslu.
 5.  Í hægri glugganum, í reitnum **Skýrslusnið**, velurðu sniðmátið **Textareikningur (Excel) Contoso** fyrir tilgreint skjalastig.
 
-    ![Sniðmátið Textareikningur (Excel) Contoso valið.](./media/BDM-AddFldExcel-PrintMngtSetting.png)
+    ![Sniðmátið Textareikningur (Excel) Contoso valið](./media/BDM-AddFldExcel-PrintMngtSetting.png)
 
 6.  Ýttu á **Esc** til að loka núverandi síðu.
 7.  Veldu **Prenta \> Valið**.
 8.  Sæktu skjalið sem myndað var og opnaðu það í Excel.
 
-    ![Textareikningur í Excel.](./media/BDM-AddFldExcel-PreviewReport.png)
+    ![Textareikningur í Excel](./media/BDM-AddFldExcel-PreviewReport.png)
 
 Breytta sniðmátið er notað til að mynda skýrslu reiknings með frjálsum texta fyrir valinn hlut. Til að greina hvernig þessi skýrsla hefur áhrif á breytingarnar sem eru gerðar á sniðmátinu skaltu keyra þessa skýrslu í einni forritslotu strax eftir að þú breytir sniðmátinu í annarri forritslotu.
 
@@ -167,6 +169,3 @@ Breytta sniðmátið er notað til að mynda skýrslu reiknings með frjálsum t
 [Yfirlit yfir stjórnun viðskiptaskjala](er-business-document-management.md)
 
 [Hanna skilgreiningu til að mynda skýrslur á OPENXML-sniði](tasks/er-design-reports-openxml-2016-11.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

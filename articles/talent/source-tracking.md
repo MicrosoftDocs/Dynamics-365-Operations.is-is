@@ -102,6 +102,3 @@ Til að forðast að hafa neikvæð áhrif á notandaviðmótið skaltu ekki bre
 - **Annað**
 
 Í staðinn geturðu stækkað fasttextann **TalentSource** til að bæta við öðrum gerðum uppruna.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

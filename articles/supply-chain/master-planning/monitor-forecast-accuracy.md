@@ -1,27 +1,30 @@
 ---
 title: Eftirlit með nákvæmni spár
 description: Þetta efni lýsir gerðum nákvæmnispáa sem Dynamics 365 Supply Chain Management reiknar, og útskýrir hvernig hægt er að skoða nákvæmnigildin.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanForecastDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 72863
 ms.assetid: 810a0d63-f4c6-4167-b2b3-a178b74ead89
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4246a277aa5d88193c18336cb1de69916ec2a3c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 60e5425e54f9e0093888f355a51064e7f0057976
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565784"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430562"
 ---
 # <a name="monitor-forecast-accuracy"></a>Eftirlit með nákvæmni spár
 
@@ -38,7 +41,8 @@ Supply Chain Management reiknar eftirfarandi gerðir af nákvæmnispám:
 > Ef þú notar eftirspurnarspár Microsoft Azure Machine Learning byggist útreikningur á nákvæmni innri líkans á prófunargagnasafni. Til að tilgreina stærð prófunargagnasafns er stillt á **TEST\_SET\_SIZE\_PERCENT** færibreyta á **Færibreytur eftirspurnarspár síðu**. Til dæmis, ef virðið er stillt á **20**, munu síðustu 20°prósent sögulegra gagna verða notuð til að reikna út nákvæmni innra líkans.
 
 
-## <a name="additional-resources"></a>Frekari upplýsingar
+<a name="additional-resources"></a>Frekari upplýsingar
+--------
 
 [Leiðrétt spá heimiluð](authorize-adjusted-forecast.md)
 
@@ -46,6 +50,3 @@ Supply Chain Management reiknar eftirfarandi gerðir af nákvæmnispám:
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

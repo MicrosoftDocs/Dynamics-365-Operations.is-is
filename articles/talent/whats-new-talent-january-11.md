@@ -67,6 +67,3 @@ Breyting hefur verið gerð til að skýra hvað vandamálið er þegar starfsma
 
 ### <a name="termination-reason-code-updates-position-assignment-record"></a>Ástæðukóði uppsagnar uppfærir skrá stöðuverkefnis
 Ástæðukóði uppsagnar uppfærir nú stöðuverkefnið þegar starfsmanni er sagt upp störfum og stöðunni er lokað. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,25 +2,28 @@
 title: Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið
 description: Þetta efnisatriði lýsir ferlinu við að dreifa efni frá dreifingarstöð sem er skráð sem fullunnið úr framleiðslulínu til flutningsúthliðs.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockOpportunityPolicy, WHSReservationHierarchy, WHSInventTableReservationHierarchy, WHSItemGroupLoadTemplate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee91fa28943a27474bff5fb7a7fc368142dabcdd6c9c9772d38134af0257ef6e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 948db1f7308896209e195613d50b1d66b807b1bf
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715747"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430681"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið
 
@@ -28,7 +31,8 @@ ms.locfileid: "6715747"
 
 Þetta efnisatriði lýsir ferlinu við að dreifa efni frá dreifingarstöð sem er skráð sem fullunnið úr framleiðslulínu til flutningsúthliðs.
 
-## <a name="introduction"></a>Inngangur
+<a name="introduction"></a>Inngangur
+------------
 
 Dreifing frá dreifingarstöð úr framleiðslu í úthliðsstaðsetningu á við um framleiðendur sem framleiða mikið magn og vilja helst senda lokaafurð um leið og hún er skráð sem fullunnin úr framleiðslulínum. Tilgangurinn er að senda afurðir til dreifingarstöðva sem eru staðsettar eftir óskum viðskiptavinar, frekar en að safna upp birgðum á framleiðslustöð.
 
@@ -36,13 +40,13 @@ Sé ekki tafarlaus eftirspurn eftir afurð, verður að setja hana í vöruhúsa
 
 Eftirfarandi dæmi sýnir þrjú afbrigði af flæði sem byrjar í lok framleiðslulínu (2).
 
-Afurð er tilkynnt sem lokið hjá staðsetningu framleiðslufrálags (3) og starfsmaður á lyftara mun sækja brettið á þessum stað (3).
+ Afurð er tilkynnt sem lokið hjá staðsetningu framleiðslufrálags (3) og starfsmaður á lyftara mun sækja brettið á þessum stað (3).
 
 -   Ef fyrirhuguð virkni er til staðar (6) til að flytja afurðina frá framleiðslu (1) til dreifingarstöðvar (7), þá mun kerfið segja vörubílstjóranum að setja brettið við útskotsstaðsetningu (4).
 -   Ef eftirvagni hefur þegar verið úthlutuð staðsetningin, þá verður vörubílstjóranum sagt að hlaða afurðinni beint á eftirvagninn.
 -   Ef ekki er fyrirhuguð aðgerð til að flytja afurðina verður starfsmaður lyftarans sagt að koma afurðinni fyrir á staðsetningu í innra vöruhúsi (5).
 
-[![tækifærisdreifing frá dreifingarstöð.](./media/scenario1.png)](./media/scenario1.png)
+[![tækifærisdreifing frá dreifingarstöð](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>Skilgreining dreifingar frá dreifingarstöð
 Dreifing frá dreifingarstöð er skilgreind í **vinnureglum**. Vinnuregla inniheldur verkbeiðnigerð, staðsetningu og afurð. Í eftirfarandi dæmi er dreifing frá dreifingarstöð skilgreind fyrir afurð X og staðsetningu Y.
@@ -123,6 +127,3 @@ Eftir að afurð hefur verið tilkynnt sem lokið við framleiðslulínuna er h�
 -   Dæmið um dreifingu úr dreifingarstöð er stutt fyrir rað- og runuvinnslu, þar sem bæði víddir fyrir runu- og raðnúmer eru skilgreindar með staðsetningum fyrir ofan og neðan í frátektarstigveldi. 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

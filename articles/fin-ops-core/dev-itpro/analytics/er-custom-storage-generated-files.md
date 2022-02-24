@@ -2,9 +2,11 @@
 title: Tilgreina sérsniðinn geymslustað fyrir mynduð skjöl
 description: Þetta efnisatriði útskýrir hvernig á að stækka listann yfir geymslustaði fyrir skjöl sem snið rafrænnar skýrslugerðar myndar.
 author: NickSelin
+manager: AnnBe
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 362ac7f10cc61e26be89dfbae0e84745d42588a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594910"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680759"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Tilgreina sérsniðinn geymslustað fyrir mynduð skjöl
 
@@ -27,7 +29,7 @@ Forritunarviðmót forritsins (API) fyrir ramma rafrænnar skýrslugerðar gerir
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Setja upp grannfræði sem styður samfellda smíði. Nánari upplýsingar er að finna [Setja upp grannfræði sem styður samfellda smíði og sjálfvirkni prófunar](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Það þarf að hafa aðgang að þessari grannfræði fyrir eitt af eftirfarandi hlutverkum:
+Setja upp grannfræði sem styður samfellda smíði. Nánari upplýsingar er að finna [Setja upp grannfræði sem styður samfellda smíði og sjálfvirkni prófunar](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Það þarf að hafa aðgang að þessari grannfræði fyrir eitt af eftirfarandi hlutverkum:
 
 - Þróunaraðili rafrænnar skýrslulausnar
 - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
@@ -41,7 +43,7 @@ Hægt er að ljúka verkunum í þessu efnisatriði í fyrirtækinu **USMF**.
 
 Til að mynda skjölin sem ætlunin er að bæta sérstilltum geymslustað við, skal [flytja inn](er-download-configurations-global-repo.md) skilgreininguna **Framlenging eigna** fyrir rafrænt skýrslugerðarsnið í núverandi grannfræði.
 
-![Gagnageymslusíða skilgreiningar.](./media/er-custom-storage-generated-files-import-format.png)
+![Síðan Skilgreiningagagnasafn](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Keyra skýrsla fyrir framlengingu eigna
 
@@ -50,9 +52,9 @@ Til að mynda skjölin sem ætlunin er að bæta sérstilltum geymslustað við,
 3. Í reitinn **Til dagsetningar** skal slá inn **31/1/2017** (31. janúar 2017).
 4. Í **Gjaldmiðilsreitnum** skal velja **Bókhaldsgjaldmiðil**.
 5. Í reitnum **Sniðsvörpun** skal velja **Framlenging eigna**.
-6. Veldu **Í lagi**.
+6. Veljið **Í lagi**.
 
-![Keyrslugluggi fyrir skýrslu um framlengingu eigna.](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Keyrslugluggi fyrir skýrslu um framlengingu eigna](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 Í Microsoft Excel skal fara yfir skjal á útleið sem er myndað og tilbúið til niðurhals. Þessi hegðun er [sjálfgefin hegðun](electronic-reporting-destinations.md#default-behavior) fyrir snið rafrænnar skýrslugerðar þar sem engir [viðtökustaðir](electronic-reporting-destinations.md) eru skilgreindir og er keyrt í gagnvirkri stillingu.
 
@@ -255,7 +257,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Breytið fyrirliggjandi `AssetRollForwardService`-klasa og skrifið kóða til að setja upp sérstillta verksmiðjustaðsetningu fyrir keyrslu skýrslunnar. Takið eftir því að þegar sérstillt verksmiðjustaðsetning er búin til, er forritsstýrða færibreytan sem tilgreinir möppu viðtökustaðar keyrð í gegn. Á þennan hátt er þessi mappa viðtökustaðar notuð til að geyma myndaðar skrár.
 
     > [!NOTE] 
-    > Ganga skal úr skugga um að tilgreinda mappan (**C:\\0** í þessu dæmi) sé til staðar í staðbundnu skráakerfi netþjónsins sem keyrir AOS-þjónustuna. Annars verður undantekningin [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) notuð við keyrslu.
+    > Ganga skal úr skugga um að tilgreinda mappan (**C:\\0** í þessu dæmi) sé til staðar í staðbundnu skráakerfi netþjónsins sem keyrir AOS-þjónustuna. Annars verður undantekningin [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) notuð við keyrslu.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;
@@ -339,6 +341,3 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 - [Áfangastaðir fyrir rafræna skýrslugerð](electronic-reporting-destinations.md)
 - [Heimasíða stækkunarhæfni](../extensibility/extensibility-home-page.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

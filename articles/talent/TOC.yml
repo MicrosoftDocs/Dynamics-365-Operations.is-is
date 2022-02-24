@@ -1,9 +1,7 @@
-- name: Dynamics 365 Talent tekið úr notkun
-  href: ../human-resources/hr-talent-retire.md?toc=/dynamics365/talent/toc.json
+- name: Dynamics 365 for Talent
+  href: talent-welcome.md
   items:
-    - name: Dynamics 365 Talent upphafssíða
-      href: ./index.md
-    - name: Hafist handa
+    - name: Hefjast handa
       items:
         - name: Hafist handa með Talent
           href: talent-get-started.md
@@ -153,7 +151,7 @@
         - name: Flytja út gögn úr Attract og Onboard
           href: attract-onboard-export-data.md
         - name: Innfelld vinnuforrit frá Power Apps
-          href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Fá aðstoð fyrir Talent
           href: talent-support.md
     - name: Mönnun fyrirtækis með Attract

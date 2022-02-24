@@ -1,24 +1,27 @@
 ---
 title: Áætla framleiðslupöntun með rekstrar- og vinnuröðun
 description: Þetta efni leggur áherslu á röðun á framleiðslupöntun með aðgerðaröðun og vinnsluröðun.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdSchedule, ProdTable, ProdRouteJob
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc91fe5aa398cd94e38beea017d6d60ecb44f17e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 7a69339bc678de8343dbf2646a4d6fe0ace9964c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574378"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430292"
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>Áætla framleiðslupöntun með rekstrar- og vinnuröðun
 
@@ -53,6 +56,3 @@ ms.locfileid: "7574378"
 6. Á aðgerðasvæðinu skal velja **Framleiðslupöntun**.
 7. Veldu **Allar vinnslur**. Athugið samkvæmt virk leið 5 störf eru stofnuð með vinnsluröðun.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

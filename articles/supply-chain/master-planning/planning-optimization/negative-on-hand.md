@@ -2,13 +2,16 @@
 title: Áætlunargerð með neikvætt lagermagn
 description: Þetta efni útskýrir hvernig neikvæður lager er meðhöndlaður þegar þú notar fínstillingu áætlunargerðar.
 author: ChristianRytt
-ms.date: 07/22/2021
+manager: tfehr
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 97688e09aae9706dd85e7965aa08c7ea873a44d81391c39406e2e6367660e0d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72367927a11879adffe68d7242d88f5cfab73e22
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758545"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430304"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Áætlunargerð með neikvætt lagermagn
 
@@ -73,29 +76,14 @@ Lægsta stig umfjöllunar er *vöruhús* og eftirfarandi lagermagn er skráð á
 
 Niðurstaðan er áætluð röð 25 stk. (= 25 stk. &minus; 0 stk.) til að fylla á vöruhús 13 frá 0 stk. í 25 stk.
 
-## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Skipulagning þegar gerð er frátekning á neikvæðum lagerbirgðum
-
-Ef þú breytir birgðum meðan efnislegar frátekningar eru til geturðu búið til aðstæður þar sem pöntun er efnislega frátekin í neikvæðri birgðastöðu. Í þessu tilviki, vegna þess að efnisleg frátekning er til staðar, gerir fínstilling skipulagningar ráð fyrir að lagerbirgðir styðji við hana jafnvel þótt innhreyfing lagerbirgða er ekki enn skráð í kerfið. Því er gert ráð fyrir að ekki þurfi áfyllingu og ekki er stofnuð áætluð pöntun til að fylla á pöntunarmagnið.
-
-Eftirfarandi dæmi lýsir þessum aðstæðum.
-
-### <a name="example"></a>Dæmi
-
-Kerfið er stillt með eftirfarandi hætti:
-
-- Vara *FG* er til og er með *10* stk. í lagerbirgðum.
-- Afurðarafbrigðið býður upp á neikvæða efnislega birgðastöðu.
-- Sölupöntun er til fyrir magn upp á *10* stk. vöru *FG*.
-- Sölupöntunarmagnið er tekið frá úr fyrirliggjandi birgðum.
-
-Þú stillir síðan magn vörunnar *FG* þannig að lagerbirgðirnar verði 0 (núll). Vegna þess að lagerbirgðir vöru eru núll er sölupöntunarmagnið nú frátekið í neikvæðum birgðum. Ef aðaláætlanagerð er hins vegar keyrð núna verður engin áætluð pöntun stofnuð til að mæta eftirspurn sölupöntunarinnar vegna þess að fínstilling skipulagningar gerir ráð fyrir að nauðsynlegar lagerbirgðir séu til staðar til að mæta eftirspurn efnislegrar frátekningar.
-
 ## <a name="related-resources"></a>Tengd tilföng
 
-- [Yfirlit yfir fínstillingu áætlanagerðar](planning-optimization-overview.md)
-- [Hafist handa með fínstillingu áætlanagerðar](get-started.md)
-- [Greining á samsvörun áætlunarfínstillingar](planning-optimization-fit-analysis.md)
-- [Skoða áætlunarsögu og skipulagsskrár](plan-history-logs.md)
-- [Hætta við áætlunarvinnslu](cancel-planning-job.md)
+[Yfirlit yfir fínstillingu áætlanagerðar](planning-optimization-overview.md)
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[Hafist handa með fínstillingu áætlanagerðar](get-started.md)
+
+[Greining á samsvörun áætlunarfínstillingar](planning-optimization-fit-analysis.md)
+
+[Skoða áætlunarsögu og skipulagsskrár](plan-history-logs.md)
+
+[Hætta við áætlunarvinnslu](cancel-planning-job.md)

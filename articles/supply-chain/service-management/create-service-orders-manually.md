@@ -1,26 +1,29 @@
 ---
 title: Stofna þjónustupantanir handvirkt
 description: Þú getur búið til þjónustupantanir handvirkt með því að nota þjónustusamning eða með því að nota **þjónustupantanir** skjámyndina.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1fad4abcf39021f94db50c07a39803af31f85c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 51cfdb94a368df9e7082af3c768c79df44000342
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578849"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430360"
 ---
 # <a name="create-service-orders-manually"></a>Stofna þjónustupantanir handvirkt    
 
@@ -34,17 +37,17 @@ ms.locfileid: "7578849"
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Búðu til þjónustupöntun handvirkt út frá þjónustusamningi
 
-1.  Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustusamningar** \> **þjónustusamningar**.
+1.  Smellið á **Þjónustustjórnun** \> **Almennt** \> **Þjónustusamningar** \> **þjónustusamningar**.
 
 2.  Veljið þjónustusamning eða stofnið nýjan þjónustusamning.
 
-3.  Veljið **Afhenda** flipann og í **Stofna** hópnum skal velja **Skipulögð þjónustupantanir** til að opna skjámyndina **Stofna þjónustupantanir**.
+3.  Smelltu á flipann **Afhenda** og í **Stofna** hópnum skal smella á **Skipulögð þjónustupantanir** til að opna **Stofna þjónustupantanir** skjámynd.
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>Stofna þjónustupöntun handvirkt í skjámyndinni Þjónustupantanir
 
-1.  Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+1.  Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 
-2.  Veljið **Nýtt** til að stofna nýja þjónustupöntun.
+2.  Styðjið á CTRL+N til að stofna nýja þjónustupöntun.
 
 3.  Stofnið þjónustupöntunarlínur fyrir þjónustupöntunina.
 
@@ -53,9 +56,9 @@ ms.locfileid: "7578849"
 
 ## <a name="create-a-service-order-from-a-project"></a>Búðu til þjónustupöntun frá verkefni
 
-1.  Opnið **Verkefnastjórnun og bókhald** \> **Almennt** \> **Verk** \> **Öll verk**.
+1.  Smelltu á **Verkefnastjórnun og bókhald** \> **Almenn** \> **Verkefni** \> **Öll verkefni**.
 
-2.  Í **Verkefni** skjámynd, á **Aðgerðasvæði** skal velja **Stjórna** flipann \> velja **Þjónusta** \> **Þjónustupantanir**.
+2.  Í **Verkefni** skjámynd, á **Aðgerðasvæði**, smelltu á **Stjórna** flipann \> smella **Þjónusta** \> **Þjónustupantanir**.
 
 3.  Fylgja fyrri aðferð til að búa til þjónustupöntun handvirkt í **þjónustupantanir** skjámynd. **Auðkenni verkefnis** reitinn sýnir verkefni tilvísun.
 
@@ -66,19 +69,19 @@ ms.locfileid: "7578849"
 
 Þú getur búið til þjónustupöntun út frá **Sölupantanir** skjámynd með því að nota **Stofna nýjan þjónustupöntun sem byggist á sölupöntunar** hjálpinni.
 
-1.  Farðu í **Sala og markaðssetning** \> **Almennt** \> **Sölupantanir** \> **Allar sölupantanir**.
+1.  Smellið á **Sala og markaðssetning** \> **Almennt** \> **Sölupantanir** \> **Allar sölupantanir**.
 
 2.  Viðeigandi sölupöntun er opnuð.
 
-3.  Á **Sölupöntun** flipanum skal velja **Þjónustupöntun** til að hefja **Stofna nýjan þjónustupöntun sem byggist á sölupöntun** hjálpinni.
+3.  Á **Sölupöntun** flipanum smelltu á **Þjónustupöntun** til að hefja **Stofna nýjan þjónustupöntun sem byggist á sölupöntun** hjálpinni.
 
-4.  Veljið **Næsta \>**, og ljúkið svo eftirfarandi skrefum á **Veldu samkomulag um þjónustupöntun** síðunni:
+4.  Smelltu á **Næsta \>**, og svo ljúka eftirfarandi skrefum á **Veldu samkomulag um þjónustupöntun** síðunni:
     
       - Notaðu **þjónustusamningur** reitinn til að velja þjónustusamninginn sem ætti að tengja nýja þjónustupöntunina við.
     
       - Valfrjálst: Notaðu **Auðkenni verkefnis** reitinn til að tengja þessa þjónustupöntun við tiltekið verkefni.
 
-5.  Veljið **Næsta \>**, og ljúkið svo eftirfarandi skrefum á **Stofna þjónustupöntun** síðunni:
+5.  Smelltu á **Næsta \>** , og svo ljúka eftirfarandi skrefum á **Stofna þjónustupöntun** síðunni:
     
       - Sláðu inn dagsetningu og tíma fyrir þjónustusímtalið í reitnum **Valinn þjónustutími** reitinn.
     
@@ -88,7 +91,7 @@ ms.locfileid: "7578849"
     
       - Í **Kenni tengiliðar** reitinn, velja einstakling í fyrirtæki viðskiptavinarins sem ætti að hafa samband við varðandi þessa þjónustupöntun.
 
-6.  Veljið **Næsta \>** og svo **Ljúka**.
+6.  Smella á **Næsta \>** og smella síðan á **Ljúka**.
 
 
 ## <a name="see-also"></a>Sjá einnig
@@ -99,6 +102,3 @@ ms.locfileid: "7578849"
 
 [Stofna þjónustupantanir (klasaskjámynd)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

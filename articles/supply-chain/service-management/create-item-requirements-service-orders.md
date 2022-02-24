@@ -1,30 +1,34 @@
 ---
 title: Stofna vöruþörf fyrir þjónustupantanir
-description: Þetta efnisatriði lýsir því hvernig á að stofna vöruþörf fyrir þjónustupantanir.
-author: kamaybac
+description: Ef nauðsynlegt er að taka til ákveðnar vörur fyrir þjónustupöntunina, hægt er að stofna birgðavöruþörf fyrir hana.
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 75a05147883f1592b3a09e02e238661f6c20cf27
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 18484b637723cef43cad288c08ddfe53cddf9e03
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575292"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430457"
 ---
-# <a name="create-item-requirements-for-service-orders"></a>Stofna vöruþörf fyrir þjónustupantanir
+# <a name="create-item-requirements-for-service-orders"></a>Stofna vöruþörf fyrir þjónustupantanir 
 
 [!include [banner](../includes/banner.md)]
+
 
 Þú getur búið til þjónustupöntun til að fylgjast með og stjórna þjónustu sem þú veitir viðskiptavinum þínum. Ef nauðsynlegt er að taka til ákveðnar vörur fyrir þjónustupöntunina, hægt er að stofna birgðavöruþörf fyrir hana. Hægt er að neyta vörukröfu strax úr birgðum, eða hún getur hafið framleiðslupöntun fyrir vöruna.
 
@@ -34,24 +38,37 @@ Liður kröfur um þjónustu pantanir eru unnin í gegnum verkefni. Til að stof
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>Stofna vöruþörf fyrir þjónustupöntun
 
-1. Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
-1. Valin þjónustupöntunin sem útbúa á vöruþörf fyrir.
-1. Á **Aðgerðasvæðinu**, í flipanum **Senda**, skal velja **Vöruþörf**.
-1. Í **Vörukröfur** skjámynd, sláðu inn upplýsingar um vöruna sem krafist er. Fyrir frekari upplýsingar um tiltekna reiti, sjá [Vörukröfur (skjámynd)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
+1.  Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+
+2.  Valin þjónustupöntunin sem útbúa á vöruþörf fyrir.
+
+3.  Á **Aðgerðarúða**, á flipanum **Afgreiða**, skal smella á **Vörukrafa**.
+
+4.  Í **Vörukröfur** skjámynd, sláðu inn upplýsingar um vöruna sem krafist er. Fyrir frekari upplýsingar um tiltekna reiti, sjá [Vörukröfur (skjámynd)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Stofna vöruþörf fyrir þjónustusamning
 
-1. Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustusamningar** \> **þjónustusamningar**.
-1. Opnaðu þjónustusamninginn sem stofna á vörukröfu fyrir.
-1. Í flýtiflipanum **Línur** skal velja **Bæta við** til að búa til nýja línu.
-1. Í **Færslugerð** reitnum skaltu velja **Vara**.
-1. Í **Uppsetning vöru** reitnum, veldu **Vörukrafa**.
-1. Í **vörunúmer** reitnum, velja vöruna sem þjónustusamningurinn krefst.
-1. Á **Upplýsingar um línu** flýtiflipanum á flipanum **Afurðavídd** í reitnum **Svæði** skaltu velja birgðasvæði fyrir vöruna.
-1. Til að búa til þjónustupöntun frá samningslínunni skaltu velja **Línur** Flýtiflipi, **Búa til þjónustupantanir** og sláðu síðan inn viðeigandi upplýsingar í **Búa til þjónustupantanir** skjámynd.
+1.  Smellið á **Þjónustustjórnun** \> **Almennt** \> **Þjónustusamningar** \> **þjónustusamningar**.
+
+2.  Opnaðu þjónustusamninginn sem stofna á vörukröfu fyrir.
+
+3.  Á **Línur** Flýtiflipanum skaltu smella á **Bæta við** til að búa til nýja línu.
+
+4.  Í **Færslugerð** reitnum skaltu velja **Vara**.
+
+5.  Í **Uppsetning vöru** reitnum, veldu **Vörukrafa**.
+
+6.  Í **vörunúmer** reitnum, velja vöruna sem þjónustusamningurinn krefst.
+
+7.  Á **Upplýsingar um línu** flýtiflipanum á flipanum **Afurðavídd** í reitnum **Svæði** skaltu velja birgðasvæði fyrir vöruna.
+
+8.  Til að búa til þjónustupöntun frá samningslínunni skaltu smella á **Línur** Flýtiflipi, **Búa til þjónustupantanir** og sláðu síðan inn viðeigandi upplýsingar í **Búa til þjónustupantanir** skjámynd. 
+
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Stofna þjónustupantanir sjálfkrafa](create-service-orders-automatically.md).
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+  
+
+

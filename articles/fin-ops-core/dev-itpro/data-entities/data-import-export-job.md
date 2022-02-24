@@ -1,30 +1,29 @@
 ---
 title: Yfirlit yfir inn- og útflutningsvinnslu gagna
 description: Notaðu vinnusvæðið Gögnastjórnun til að búa til og stjórna Inn- og útflutningsvinnslu gagna.
-author: peakerbl
-ms.date: 10/21/2021
-ms.topic: overview
+author: Sunil-Garg
+manager: AnnBe
+ms.date: 11/02/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071086"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684061"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Yfirlit yfir inn- og útflutningsvinnslu gagna
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Til að búa til og stjórna inn- og útflutningsvinnslu gagna í skaltu nota vinnusvæðið **Gagnastjórnun**. Sjálfgefið er að Inn- og útflutningsferli gagna skapi uppsetningartöflu fyrir hverja einingu í markgagnagrunninum. Millistigsvistunartöflu leyfir þér að staðfesta, hreinsa upp eða breyta gögnum áður en þú færir þau.
 
@@ -71,9 +70,6 @@ Við mælum með að þú takir tíma til að velja viðeigandi verktegund fyrir
 | XML                    | \-NA-                                      | XML-eining XML-eigind |
 | Afmarkað, föst breidd | Komma, semíkomma, flipi, lóðrétt strik, tvípunktur | \-NA-                     |
 
-> [!NOTE]
-> Mikilvægt er að velja rétt gildi fyrir **Línuskiltákn**, **Dálkaskiltákn** og **Textaskilyrði** ef valkosturinn **Skráarsnið** er stilltur á **Afmarkað**. Gakktu úr skugga um að gögnin þín innihaldi ekki stafinn sem er notaður sem skiltákn eða skilyrði, þar sem það getur valdið villum við innflutning og útflutning.
-
 ### <a name="sequence-the-entities"></a>Einingunum raðað
 Einingum má raða í gagnasniði, eða í innflutnings- og útflutningssverkum. Þegar þú keyrir verk sem inniheldur fleiri en eina gagnaeiningu verður þú að ganga úr skugga um að einingunum sé rétt raðað. Einingum er raðað til að geta leyst hugsanleg virknitengsl milli eininga. Ef einingar eru ekki með virknitengsl er hægt að tímastilla þær fyrir samhliða inn- og útflutning.
 
@@ -112,7 +108,7 @@ Ef dálknöfnin í sviðsetningartöflunni og skránni passa saman, stofnar kerf
 
 Þú getur búið til vörpun á síðunni með því að velja **Búa til upprunavörpun**. Tilbúin vörpun hegðar sér eins og sjálfvirk vörpun. Þess vegna verður þú að varpa öllum óvörpuðum reitum handvirkt.
 
-![Gagnavörpun.](./media/dixf-map.png)
+![Gagnavörpun](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>Staðfestu öryggi fyrir innflutnings- eða útflutningsstarfið
 Aðgangur að vinnusvæðinu **Gagnastjórnun** er hægt að takmarka, svo að notendur sem ekki eru stjórnandi geta aðeins fengið aðgang að tilteknum gagnastörfum. Aðgangur að gagnaverki felur í sér fullan aðgang að framkvæmdarsögu þess starfs og aðgang að sviðsetningartöflunum. Þess vegna verður þú að ganga úr skugga um að viðeigandi aðgangsstýringar séu til staðar þegar þú stofnar gagnastarf
@@ -138,7 +134,7 @@ Starf getur verið tryggt eftir hlutverkum, notendum og lögaðilum á sama tím
 ## <a name="validate-that-the-job-ran-as-expected"></a>Staðfesta að vinnslan hafi gengið eins og búist var við með því að skoða vinnsluferilinn.
 Vinnsluferillinn er tiltækur vegna villuleitar og skoðunar fyrir bæði innflutnings- og útflutningsvinnslu Sögulegar vinnslukeyrslur eru skipulögð eftir tímalengdum.
 
-![Tímalengd vinnsluferils.](./media/dixf-job-history.md.png)
+![Tímalengd vinnsluferils](./media/dixf-job-history.md.png)
 
 Fyrir hverja vinnslu sem er keyrð fást eftirfarandi upplýsingar:
 
@@ -167,7 +163,19 @@ Til að flýta fyrir innflutningi gagna er hægt að virkja samhliða vinnslu á
     - Færðu inn færslufjölda innflutningsmarka til innflutnings á svæðinu **Færslufjöldi innflutningsmarka**. Þetta ákvarðar færslufjöldann sem á að vinna úr þræði. Ef skrá er með 10K færslur þýðir færslufjöldinn 2500 með verkfjölda 4 að hver þráður vinnur úr 2500 færslum.
     - Sláðu inn fjölda innflutningsverka á svæðið **Fjöldi innflutningsverka**. Þetta má ekki fara yfir hámark runuþráða sem úthlutað er til lotuvinnslu í **Kerfisstjórnun \>Grunnstilling netþjóns**.
 
-## <a name="job-history-clean-up"></a>Hreinsun vinnsluferils 
+## <a name="clean-up-the-staging-tables"></a>Hreinsa sviðsetningartöflurnar
+Frá og með uppfærslu 29 á palli hefur þessari aðgerð verið úrelt. Þessu er skipt út fyrir nýja útgáfu af starfssöguhreinsunaraðgerðum sem lýst er hér að neðan.
+
+Þú getur hreinsað sviðsetningartöflur með því að nota eiginleikann **Hreinsun sviðsetningar** í vinnusvæðinu **Gagnastjórnun**. Þú getur notað eftirfarandi valkosti til að velja hvaða færslur skuli eytt úr hvaða sviðsetningartöflu:
+
+- **Eining**- Ef aðeins eining er gefin upp verður öllum færslum úr sviðsetningartöflu þeirrar einingar eytt. Veldu þennan möguleika til að hreinsa öll gögnin fyrir eininguna þvert á öll gögn og störf.
+- **Vinnslukenni** – Ef aðeins er valið vinnslukenni verður öllum skrám fyrir allar einingar í valinni vinnslu eytt úr viðeigandi sviðsetningartöflum.
+- **Gagnaverkefni**- Ef aðeins gagnaverkefni er valið eru allar skrár fyrir alla aðila og yfir öll störf fyrir valið gagnaverkefni eytt.
+
+Þú getur einnig sameinað valkostina til að takmarka enn frekar skráarsettið sem er eytt.
+
+## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Atvinnusaga hreinsun (fæst í uppfærslu pallsins 29 og nýrri)
+
 Nota verður starfshreinsunarreynslu í gagnastjórnun til að skipuleggja reglubundna hreinsun á framkvæmdarsögunni. Þessi aðgerð kemur í stað fyrri hreinsunaraðgerða sviðsetningarborðsins, sem nú er úrelt. Eftirfarandi töflur verða hreinsaðar upp með hreinsunarferlinu.
 
 -   Allar stigatöflur
@@ -203,10 +211,16 @@ Við tímasetningu hreinsunarferilsins verður að tilgreina eftirfarandi breytu
 > [!NOTE]
 > Ef færslur í sviðsetningatöflunum eru ekki hreinsaðar alveg upp skaltu tryggja að hreinsunarvinnslan sé áætluð til að keyra endurtekið. Eins og lýst er hér að ofan, í öllum hreinsunarframkvæmdum mun vinnslan aðeins hreinsa upp eins mörg framkvæmdakenni og hægt er innan hámarkstímanna. Til að halda áfram að hreinsa allar eftirstandandi sviðsetningarskrár verður að vinnslan að vera áætluð í reglulega keyrslu.
 
-## <a name="job-history-clean-up-and-archival"></a>Hreinsun og safnvistun vinnsluferils 
+## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Hreinsun vinnsluferils og safnskráar (í boði fyrir forskoðun í verkvangsuppfærslu 39 eða útgáfu 10.0.15)
 Hreinsun vinnsluferils og virkni safnskráar kemur í stað fyrri útgáfa af virkni hreinsunar. Þessi hluti útskýrir þessa nýju eiginleika.
 
-Ein af helstu breytingunum á virkni hreinsunar er notkun runuvinnslu kerfis til að hreinsa ferilinn. Notkun kerfislotuvinnunnar gerir Finance and Operations forritum kleift að láta hreinsunarlotuvinnuna sjálfkrafa tímasetta og keyra um leið og kerfið er tilbúið. Ekki er lengur nauðsynlegt að timasetja runuvinnsluna handvirkt. Í þessari sjálfgefnu framkvæmdarstillingu keyrir runuvinnslan hverja klukkustund og byrjar á miðnætti og heldur eftir framkvæmdarferlinum fyrir næstu 7 daga þar á undan. Hreinsaði ferillinn er safnvistaður til heimtingar seinna meir. Frá og með útgáfu 10.0.20 er þessi eiginleiki alltaf í gangi.
+Ein af helstu breytingunum á virkni hreinsunar er notkun runuvinnslu kerfis til að hreinsa ferilinn. Notkun runuvinnslu kerfis gerir Finance and Operations -forritum kleift að hreinsa runuvinnsluna samkvæmt sjálfkrafa áætlun og keyra um leið og kerfið er tilbúið. Ekki er lengur nauðsynlegt að timasetja runuvinnsluna handvirkt. Í þessari sjálfgefnu framkvæmdarstillingu keyrir runuvinnslan hverja klukkustund og byrjar 12 á miðnætti og heldur eftir framkvæmdarferlinum fyrir næstu 7 daga þar á undan. Hreinsaði ferillinn er safnvistaður til heimtingar seinna meir.
+
+> [!NOTE]
+> Þetta er forskoðun þessarar virkni og því um runuvinnsla kerfis ekki eyða framkvæmdarferli þar til slíkt er virkjað með forútgáfunni DMFEnableExecutionHistoryCleanupSystemJob. Þegar eiginleikinn er almennt tiltækur í síðari útgáfu verður forútgáfunnar ekki krafist og runuvinnsla kerfisins hefst á hreinsun og safnvistun um leið og kerfið er tilbúið samkvæmt skilgreindu áætluninni eins og lýst er hér á undan. 
+
+> [!NOTE]
+> Í síðari útgáfu verða fyrri útgáfur eiginleika hreinsunar fjarlægðar úr Finance and Operations -forritum.
 
 Önnur breytingin á hreinsunarferlinu er safnvistun á hreinsuðum framkvæmdarferli. Hreinsunarvinnslan safnvistar eyddum færslum í BLOB-geymslu sem DIXF notar fyrir reglubundnar samþættingar. Safnvistaða skráin verður á DIXF-pakkasniði og verður tiltæk í 7 daga í BLOB og verður hægt að hlaða hana niður á því tímabili. Hægt er að breyta sjálfgefinni tímalengd 7 daga fyrir safnvistuðu skrána í að hámarki 90 daga í færibreytunum.
 
@@ -229,6 +243,3 @@ Til að hlaða niður safnvistaða vinnsluferlinum skaltu fara á vinnusvæði g
 -   DMFSTAGINGLOGDETAILS
 -   DMFSTAGINGVALIDATIONLOG
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Búa til skýrslur á Office-sniði með innfelldum myndum
-description: Í þessu efnisatriði er útskýrt hvernig á að hanna skilgreiningar rafrænnar skýrslugerðar til að mynda rafræn skjöl í Excel og Word sem innihalda innfelldar myndir.
+description: Eftirfarandi skref útskýra hvernig notandi í hlutverki „Kerfisstjóra“ eða „Þróunaraðila rafrænnar skýrslulausnar“ getur hannað skilgreiningarsnið fyrir rafræna skýrslugerð (ER) til að búa til rafræn skjöl í MS office sniði (Excel og Word) sem innihalda ívafnar myndir.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ec9f3013c1e365a3ca1a4c6cabe71a22e3e8b730eac38155ef023fe68107524
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735527"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684380"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Búa til skýrslur á Office-sniði með innfelldum myndum
 
@@ -117,6 +119,3 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki „Kerfisstjóra“ e�
 23. Smellt er á Í lagi.
     * Endurskoða stofnað úttak. Úttakið hefur verið búið til sem MS Word skjal með ívafnar myndir þar sem lógó fyrirtækisins birtist, undirskrift frá viðurkenndum aðila og valinn texti vatnsmerkisins.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

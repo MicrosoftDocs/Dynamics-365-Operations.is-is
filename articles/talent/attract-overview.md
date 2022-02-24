@@ -49,6 +49,3 @@ Um leið og þeir hafa verið bættir við starf fá umsækjendur tölvupóst se
 
 ## <a name="analytic-reports"></a>Greiningarskýrslur
 Ráðningarhópar geta notað yfirlit yfir helstu mælikvarða ráðningarferlisins fyrir ákveðið starf eða samansafn af öllum störfum með [greiningarskýrslur í Attract](analytic-reports.md). Þessi aðgerð er í [forskoðun](access-preview-feature.md) fyrir viðskiptavini með [Hvaða útgáfa af Microsoft Dynamics 365 Talent - Attract](attract-comprehensive-hiring.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

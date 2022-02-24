@@ -2,22 +2,25 @@
 title: Frágangsklasar
 description: Frágangsklasar bjóða upp á leið til að tína margar númeraplötur samtímis og ganga síðan frá þeim á mörgum staðsetningum. Þeir geta verið mjög gagnlegir fyrir smásölufyrirtæki þar sem númeraplötur eru yfirleitt ekki heil bretti af birgðum.
 author: Mirzaab
+manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c3496d43fa3791f765abfb1eb25c45f1f21b972f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
+ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573010"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "4512331"
 ---
 # <a name="putaway-clusters"></a>Frágangsklasar
 
@@ -228,7 +231,7 @@ Bætið valmyndaratriðunum sem voru stofnuð við valmynd fyrir á innleið í 
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Taka við og raða birgðum í klasa
 
-1. Skráðu þig inn í farsímaforrit vöruhúsakerfis sem notandi sem er virkjaður fyrir vöruhús *61*.
+1. Skráðu þig inn í vöruhúsaforritið sem notandi sem er virkjaður fyrir vöruhús *61*.
 1. Í aðalvalmyndinni skal velja **Á innleið**.
 1. Í valmyndinni **Á innleið** skal velja **Taka á móti og raða klasa**.
 1. Í reitinn **Ponum** skal slá inn innkaupapöntunarnúmerið.
@@ -270,7 +273,7 @@ Bætið valmyndaratriðunum sem voru stofnuð við valmynd fyrir á innleið í 
 
 #### <a name="put-the-cluster-away"></a>Ganga frá klasa
 
-1. Skráðu þig inn í farsímaforrit vöruhúsakerfis sem notandi sem er virkjaður fyrir vöruhús *61*.
+1. Skráðu þig inn í vöruhúsaforritið sem notandi sem er virkjaður fyrir vöruhús *61*.
 1. Í aðalvalmyndinni skal velja **Á innleið**.
 1. Á valmyndinni **Á innleið** skal velja **Frágangur klasa**.
 1. Veljið **Klasakenni** og færið inn klasakennið sem var fært inn áður fyrir lokaða klasann.
@@ -284,7 +287,7 @@ Bætið valmyndaratriðunum sem voru stofnuð við valmynd fyrir á innleið í 
 
     Þú ert með hefðbundnu valkostina til að hunsa eða hoppa yfir þetta skref.
 
-    ![Frágangur klasa: Frágangssíða.](media/Cluster_putaway-Put.png "Frágangur klasa: setja síðu")
+    ![Frágangur klasa: Frágangssíða](media/Cluster_putaway-Put.png "Frágangur klasa: setja síðu")
 
 1. Veljið **Í lagi** til að staðfesta frágang klasans.
 
@@ -293,6 +296,3 @@ Bætið valmyndaratriðunum sem voru stofnuð við valmynd fyrir á innleið í 
 ## <a name="notes-and-tips"></a>Athugasemdir og ábendingar
 
 Í tilvikum þar sem klasakennið verður að yfireiningu númeraplötunnar fyrir faldað bretti, verður frágangsstaðurinn sjálfkrafa gefinn þegar klasakennið er skannað. Ekki þarf frekari skönnun númeraplötu, jafnvel þótt myndun númeraplötu sé stillt á handvirkt.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

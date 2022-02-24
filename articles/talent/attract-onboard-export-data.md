@@ -113,5 +113,3 @@ Niðurhalið er .zip-skrá sem inniheldur:
 ## <a name="see-also"></a>Sjá einnig
 
 [Forritin Dynamics 365 Talent: Attract og Dynamics 365 Talent: Onboard tekin úr notkun](https://community.dynamics.com/365/talent/b/dynamics365fortalent/posts/retiring-dynamics-365-talent-attract-and-onboard-apps)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

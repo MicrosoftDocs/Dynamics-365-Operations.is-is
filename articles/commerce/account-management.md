@@ -1,13 +1,16 @@
 ---
-title: Síður og einingar fyrir stjórnun reikninga
-description: Þetta efnisatriði lýsir síðum og einingum fyrir stjórnun reikninga í Microsoft Dynamics 365 Commerce.
+title: Reikningsstjórnunarsíður og -einingar
+description: Þetta efni fjallar um reikningsstjórnunarsíður og -einingar í Microsoft Dynamics 365 Commerce.
 author: v-chgri
-ms.date: 03/17/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5b26f9f83ad368a7e0fbc0ffe1263a8fec86f99b8a66ee6c4a28d5e061efbc21
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0f963bcf65ae622522fe52fd59996c6ec0ecf17
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716251"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413079"
 ---
-# <a name="account-management-pages-and-modules"></a>Síður og einingar fyrir stjórnun reikninga
+# <a name="account-management-pages-and-modules"></a>Reikningsstjórnunarsíður og -einingar
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir síðum og einingum fyrir stjórnun reikninga í Microsoft Dynamics 365 Commerce.
+Þetta efni fjallar um reikningsstjórnunarsíður og -einingar í Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Með stjórnun reikninga er átt við hóp síðna sem notaðar eru til að stjórna upplýsingum sem tengjast notendareikningi í Dynamics 365 Commerce. Reikningsstjórnunarsíður innihalda lendingasíðu reikningsstjórnunar, notandaforstillingasíðu, notendasíðu, síðu pöntunarferils, pöntunarupplýsingasíðu, vildarsíðu og óskalistasíðu.
 
@@ -39,7 +44,7 @@ Lendingasíða reikningsstjórnunar notar eftirfarandi einingar:
 - **Almennir reitir reiknings** - Þessa einingu er hægt að nota til að útvega fyrirsagnir og tengla á reikningastjórnarsíður, svo sem „Pöntunarferill“ eða „Prófíllinn minn“. Hægt er að nota almenna reitaeiningu til að stilla reit fyrir hvaða síðu sem er. Í Fabrikam er þessi eining notuð fyrir tengilinn „Pöntunarferill“ og „Prófíllinn minn“ á lendingasíðu reikningsstjórnunar.
 - **Óskalistareitur reiknings** - Þessi eining er notuð til að gefa yfirlit yfir hluti á óskalista viðskiptavinar. Til dæmis gæti hann fullyrt: „Þú ert með 10 atriði á óskalistanum þínum.“ Hún felur í sér eiginleika fyrir fyrirsögnina og tengilinn „Skoða upplýsingar“. Stilla ætti tengilinn „Skoða upplýsingar“ til að framsenda á óskalistasíðuna. 
 - **Netfangareitur reiknings** - Þessi eining er notuð til að gefa yfirlit yfir netföng notandans. Til dæmis gæti hún fullyrt: „Þú ert með 2 netföng bætt við reikninginn þinn.“ Hún felur í sér eiginleika fyrir fyrirsögnina og tengilinn „Skoða upplýsingar“. Stilla ætti tengilinn „Skoða upplýsingar“ til að framsenda á notandanetfangasíðuna.
-- **Vildarreitur reiknings** - Þessi eining er notuð til að sýna og tengjast upplýsingum um vildarkerfi. Þessi reitur er með tvær stöður: Ein staða sýnir tengla til að taka þátt í vildarkerfi ef notandinn er ekki meðlimur nú þegar. Hin staðan sýnir tengla til að skoða síðu vildarupplyýsinga þegar notandinn er þegar meðlimur. Eiginleikar fela í sér fyrirsögnina, tengilinn „Skráning“ og tengilinn „Skoða hollustu“. Stilla ætti tengilinn „Skoða vildarupplýsingar“ til að framsenda á vildarkerfissíðuna. Stilla ætti tengilinn „Innskráning“ til að framsenda á síðu þar sem notendur geta tekið þátt í vildarkerfinu. 
+- **Vildarreitur reiknings** - Þessi eining er notuð til að sýna og tengjast upplýsingum um vildarkerfi. Þessir reitir eru með tvær stöður: Ein staða sýnir tengla til að taka þátt í vildarkerfi ef notandinn er ekki meðlimur nú þegar. Hin staðan sýnir tengla til að skoða síðu vildarupplyýsinga þegar notandinn er þegar meðlimur. Eiginleikar fela í sér fyrirsögnina, tengilinn „Skráning“ og tengilinn „Skoða hollustu“. Stilla ætti tengilinn „Skoða vildarupplýsingar“ til að framsenda á vildarkerfissíðuna. Stilla ætti tengilinn „Innskráning“ til að framsenda á síðu þar sem notendur geta tekið þátt í vildarkerfinu. 
 
 ### <a name="order-history-page"></a>Pöntunarferilssíða
 
@@ -49,9 +54,9 @@ Pöntunarferilsíðan notar pöntunarferilseininguna til að sýna allar nýlega
 
 Pöntunarupplýsingasíðan veitir ítarlegar upplýsingar um hverja pöntun og má nálgast af pöntunarferilssíðunni. Það notar pöntunarupplýsingaeininguna, sem krefst sölukennis eða færslukennis til að sækja pöntunarupplýsingarnar.
 
-### <a name="my-profile-page"></a>Forstillingarsíða mín
+### <a name="user-profile-page"></a>Notandaforstillingasíða
 
-Notandasíða mín sýnir upplýsingar um notandasíðu reikningsins þíns með einingu reikningsstillingar. Síðan sýnir netfangið sem er tengt við reikning notanda, auk kjörstillingar sem eru settar upp fyrir reikninginn. Ef sérstilltir eiginleika viðskiptavinar eru settir upp birtir eigindin „Viðbótarupplýsingar“ einnig þessa eiginleika. Notendur geta breytt nafni sínu, kjörstillingum eða viðbótarupplýsingum (ef þær eru til staðar).
+Notandaforstillingasíðan sýnir upplýsingar um notandareikning, svo sem nafn notanda og netfang. Það notar upplýsingar um notandasnið og notendasnið til að breyta. Þrátt fyrir að ekki sé hægt að fjarlægja netfangið er hægt að breyta því. Notandasniðssíðan sýnir einnig óskir notenda sem gera notanda kleift að velja eða afþakka ákveðna eiginleika eins og að sérsníða meðmælalista. 
 
 ### <a name="user-address-page"></a>Netfangssíða notanda
 
@@ -84,6 +89,3 @@ Til að taka þátt í vildarkerfi er hægt að búa til markaðssíðu með vil
 [Fyrirsagnareining](author-header-module.md)
 
 [Neðanmálseining](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

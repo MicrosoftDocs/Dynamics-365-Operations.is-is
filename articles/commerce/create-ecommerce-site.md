@@ -2,9 +2,11 @@
 title: Stofna svæði fyrir rafræn viðskipti
 description: Þetta efnisatriði lýsir þeim skrefum og upplýsingum sem eru nauðsynlegar til að búa til nýtt svæði fyrir rafræn viðskipti í Dynamics 365 Commerce svæðasmið.
 author: bicyclingfool
-ms.date: 02/03/2022
+manager: AnnBe
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +18,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 01f22772fd8c8984a2f92c516972d6659325a18c
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
-ms.translationtype: MT
+ms.openlocfilehash: cf084f90d203d84c91ddf7c0d963780b895ef23d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090770"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963036"
 ---
 # <a name="create-an-e-commerce-site"></a>Stofna svæði fyrir rafræn viðskipti
 
@@ -48,15 +50,8 @@ Til að setja upp síðuna þína skaltu gera eftirfarandi.
 | Lén                              | Veldu heiti léns sem mun þjóna sem lén fyrir þessa vefverslun. Ef þú hefur ekki stillt nein lén í LCS geturðu haft þennan reit auðan. Eftir að lénið þitt er stillt í LCS verðurðu að bæta því við netverslunina þína í **Stillingar svæðis**.  |
 | Slóð                              | Þegar vefsvæðið þitt styður fleiri en eitt tungumál fyrir tiltekið lén, notaðu slóðareitinn til að búa til einstaka vefslóð fyrir það lén og tungumálasamsetningu. Ef tungumálið sem þú tilgreindir í reitnum **Sjálfgefið tungumál** er eina tungumálið sem þú munt styðja fyrir þetta lén eða heldur áfram að vera sjálfgefið tungumál eftir að þú hefur staðfært síðuna á fleiri tungumál mælum við með að þú hafir þennan reit auðan. |
 
+
 Eftir að vefsvæðið þitt er búið til geturðu staðfest að það er tengt netversluninni þinni með því að velja flipann **Afurðir**. Þú ættir að sjá úrval af vörum sem hefur verið úthlutað í netverslunina. Þú getur líka notað fellivalmyndina efst til vinstri á síðunni til að fá aðgang að úthlutuðum afurðum eftir flokkum.
-
-## <a name="rename-your-site"></a>Endurnefna síðuna þína
-
-Til að endurnefna síðuna þína í Site builder skaltu fylgja þessum skrefum.
-
-1. Til að opna lista yfir vefsvæði velurðu **Vefsíðuskipti** í efra hægra horninu og veldu síðan **Stjórna síðum**. 
-1. Veldu gátreitinn við hliðina á síðunni sem þú vilt endurnefna og veldu síðan **Endurnefna** á skipanastikunni.
-1. Í **Nýtt nafn síðunnar** valmynd, sláðu inn nýja nafnið á vefsvæðinu og veldu síðan **Allt í lagi**. Veflistinn mun uppfærast til að sýna nýtt nafn síðunnar.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -79,6 +74,3 @@ Til að endurnefna síðuna þína í Site builder skaltu fylgja þessum skrefum
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

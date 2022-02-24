@@ -1,29 +1,30 @@
 ---
 title: Komuyfirlit
 description: Þetta efnisatriði veitir upplýsingar um komuyfirlitseiginleikann. Komuyfirlitssíðan er hluti þessa eiginleika og sýnir yfirlit yfir allar vörur sem eru væntanlegar.
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "274363"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 1248156ba9081fe4afbffd480b45cf9326d14a6c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 30859292f8ec481f018fe0c5a5ca4ca11c246d4c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567440"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430407"
 ---
 # <a name="arrival-overview"></a>Komuyfirlit
 
@@ -36,7 +37,7 @@ Síðan **Komuyfirlit** sýnir yfirlit yfir allar væntanlegar vörur. Hún sýn
 ## <a name="business-scenario"></a>Dæmi um fyrirtæki
 Íhugið eftirfarandi dæmi fyrir ferli á innleið.
 
-[![Dæmi um fyrirtæki.](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
+[![Dæmi um fyrirtæki](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy, sem starfar í móttöku, vill fá að vita hvað muni berast viðkomandi dag. Á síðunni **Komuyfirlit** getur Sammy séð yfirlit yfir verk í gangi og gróft mati á fjölda, magni, þyngd, mismunandi gerðum o.s.frv. Síðar berast vörur á einu innhliði og Sammy fær lista yfir afhendingu. Á síðunni **Komuyfirlit** getur Sammy framkvæmt eftirfarandi verkefni:
 
@@ -68,7 +69,7 @@ Til að stofna sjálfkrafa komubækur á síðunni **Komuyfirlit** verður að s
 
 -   Velja þarf heiti færslubókar til að stofna nýja færslubók.
 
-[![Tilgreina heiti færslubókar.](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
+[![Tilgreina heiti færslubókar](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
 -   Ef gildi er tilgreint í reitunum **Vöruhús** og **Staðsetningu** eru þau notuð á færslubókarlínur. Ef gildi eru ekki tilgreind notar kerfið gildið úr víddinni sem er tilgreind á birgðafærslum.
 
@@ -120,6 +121,3 @@ Með því að velja margar línur á síðunni **Komuyfirlit** getur Sammy ræs
 
 ## <a name="summary"></a>Samantekt
 Síðan **Komuyfirlit** getur hjálpað vöruhússtjóra og starfskröftum að sjá yfirlit yfir væntanleg verk sem þarf að vinna sem hluta af vinnslu á innleið. Einnig er hægt að nota síðuna til að hefja komuferlið, til að aðstoða við að tryggja rakningu vara við fyrstu færslu í vöruhúsið.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

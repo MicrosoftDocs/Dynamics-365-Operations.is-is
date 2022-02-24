@@ -2,28 +2,30 @@
 title: Uppsetning skjalaleiðar fyrir merkimiða á númeraplötu
 description: Þetta efni lýsir því hvernig nota á sniðsaðferðir til að prenta gildi á merkimiða.
 author: perlynne
+manager: tfehr
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlateLabel, WHSLicensePlateLabelBuildConfig, WHSLicensePlateLabel, WHSDocumentRoutingLayout
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
-ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 5311c13154baafdc7225ee869b3ef524eecc0d00
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.10
+ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778354"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430670"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Uppsetning skjalaleiðar fyrir merkimiða á númeraplötu
 
 [!include [banner](../includes/banner.md)]
-
 
 Uppsetning skjalaleiðar skilgreinir uppsetningu á merkimiðum númeraplötu og gögnin sem eru prentuð á þá. Þú stillir prentunarkveikipunkta þegar þú setur upp valmyndaratriði farsíma og vinnusniðmát.
 
@@ -51,10 +53,6 @@ Til að sjá gildin sem verða prentuð ferðu á **Vöruhúsastjórnun \> Fyrir
 
 Nokkur víðtækt fáanleg verkfæri til merkjamyndunar geta hjálpað þér að forsníða textann fyrir útlit merkisins. Mörg þessara verkfæra styðja sniðið `$FieldName$`. Að auki notar Microsoft Dynamics 365 Supply Chain Management sérstaka sniðrökfræði sem hluta af reitavörpun fyrir uppsetningu skjalaleiðar.
 
-## <a name="turn-on-this-feature-for-your-system"></a>Kveikja á þessum eiginleika fyrir kerfið
-
-Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessu efnisatriði skal fara í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eiginleikanum *Aukið skipulag á númeraplötumerki*. (Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika.)
-
 ## <a name="custom-number-formats"></a>Sérsniðin tölusnið
 
 Þú getur sérsniðið snið á tölulegum reitagildum sem eru prentuð með kóða með eftirfarandi sniði.
@@ -73,7 +71,7 @@ Eftirfarandi dæmi sýna hvernig þú getur sérsniðið vinnumagnsreitinn (**Ma
 - Til að sýna alltaf fjóra tölustafi (með því að nota núll sem frátökutákn) notarðu `$Qty:0000$`. Til dæmis, ef magnið er 10 mun merkimiðinn sýna „0010”.
 - Til að sýna alltaf tvo aukastafi notarðu `$Qty:0.00$`. Til dæmis, ef magnið er 10 mun merkimiðinn sýna „10,00”.
 
-Fyrir fullan lista yfir tiltæka strengi tölusniðmáts, sjá [Sérsniðnir strengir tölusniðmáta](/dotnet/standard/base-types/custom-numeric-format-strings).
+Fyrir fullan lista yfir tiltæka strengi tölusniðmáts, sjá [Sérsniðnir strengir tölusniðmáta](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
 
 ## <a name="custom-string-formats"></a>Sérsniðin strengjasnið
 
@@ -95,7 +93,7 @@ $PrintedDate:dd-MM-yyyy$
 
 Í þessu dæmi verður dagsetningin 30. apríl 2020 prentuð sem „30-04-2020”.
 
-Fyrir fullan lista yfir tiltæka strengi dagsetningar-/tímasniðmáta, sjá [Sérsniðnir strengir dagsetningar- og tímasniðmáta](/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Fyrir fullan lista yfir tiltæka strengi dagsetningar-/tímasniðmáta, sjá [Sérsniðnir strengir dagsetningar- og tímasniðmáta](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="print-individual-lines-from-multiline-data"></a>Prentaðu einstakar línur úr samvalsgögnum
 
@@ -138,6 +136,3 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>Nánari upplýsingar um hvernig á að prenta merkingar
 
 Nánari upplýsingar um hvernig á að setja upp og prenta merkimiða, sjá [Virkja prentun merkis á númeraplötu](tasks/license-plate-label-printing.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

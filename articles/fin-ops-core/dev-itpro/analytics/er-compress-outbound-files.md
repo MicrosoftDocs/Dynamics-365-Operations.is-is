@@ -2,9 +2,11 @@
 title: Þjappa stórum skjölum sem eru mynduð í rafrænni skýrslugerð
 description: Þetta efnisatriði útskýrir hvernig á að þjappa stórum skjölum sem mynduð eru með sniði rafrænnar skýrslugerðar.
 author: NickSelin
+manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERFormatDestinationTable
 audience: Application User, IT Pro
@@ -15,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 30de55f9e55911290750c148621fd3d4531686c2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718600"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680855"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Þjappa stórum skjölum sem eru mynduð í rafrænni skýrslugerð 
 
 [!include [banner](../includes/banner.md)]
 
-Hægt er að nota [Ramma rafrænnar skýrslugerðar](general-electronic-reporting.md) til að skilgreina lausn sem sækir færslugögn til að mynda skjal á útleið. Þetta myndaða skjal gæti verið nokkuð stórt. Þegar þessi gerð skjals er mynduð er minnið [Þjónn hugbúnaðarhluta (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) notað til að halda því. Á einhverjum tímapunkti þarf að sækja skjalið úr Microsoft Dynamics 365 Finance-forritinu. Sem stendur takmarkast hámarksstærð eins skjals sem myndað er í rafrænni skýrslugerð við 2 GB. Þar að auki [takmarkar](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) Finance stærð sóttrar skráar við 1 GB sem stendur. Þess vegna þarf að skilgreina lausn rafrænnar skýrslugerðar sem dregur úr líkunum á að farið verði yfir þessar takmarkanir og að undantekningin **Streymi var of langt** eða **Yfirflæði eða undirflæði í reikniaðgerðinni** komi upp.
+Hægt er að nota [Ramma rafrænnar skýrslugerðar](general-electronic-reporting.md) til að skilgreina lausn sem sækir færslugögn til að mynda skjal á útleið. Þetta myndaða skjal gæti verið nokkuð stórt. Þegar þessi gerð skjals er mynduð er minnið [Þjónn hugbúnaðarhluta (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) notað til að halda því. Á einhverjum tímapunkti þarf að sækja skjalið úr Microsoft Dynamics 365 Finance-forritinu. Sem stendur takmarkast hámarksstærð eins skjals sem myndað er í rafrænni skýrslugerð við 2 GB. Þar að auki [takmarkar](https://fix.lcs.dynamics.com/Issue/Details?bugId=489291) Finance stærð sóttrar skráar við 1 GB sem stendur. Þess vegna þarf að skilgreina lausn rafrænnar skýrslugerðar sem dregur úr líkunum á að farið verði yfir þessar takmarkanir og að undantekningin **Streymi var of langt** eða **Yfirflæði eða undirflæði í reikniaðgerðinni** komi upp.
 
 Þegar lausn er skilgreind er hægt að stilla snið rafrænnar skýrslugerðar í aðgerðarhönnuði með því að bæta við rótareiningu af gerðinni **Mappa** til að þjappa saman efninu sem er myndað af einhverri faldaðri einingu. Þjöppunin virkar „í tæka tíð“ þannig að hægt sé að minnka hámarks minnisnotkun og stærð skráarinnar sem verður hlaðið niður.
 
@@ -55,7 +57,7 @@ Fyrir frekari upplýsingar um þessa aðferð skal ljúka dæminu í þessu efni
 1. [Keyra innflutt snið](er-defer-xml-element.md#run-the-imported-format).
 2. Takið eftir að stærð myndaða skjalsins á XML-sniði er 3 KB.
 
-    ![Forskoðun á ósamþjöppuðu skjali á útleið.](./media/er-compress-outbound-files1.png)
+    ![Forskoðun á ósamþjöppuðu skjali á útleið](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>Breyta sniðinu til að þjappa mynduðu úttaki
 
@@ -80,7 +82,7 @@ Fyrir frekari upplýsingar um þessa aðferð skal ljúka dæminu í þessu efni
     > [!NOTE] 
     > Þjöppunarhlutfall XML-skrárinnar sem þessi zip-skrá inniheldur er 87 prósent. Þjöppunarhlutfallið veltur á gögnunum sem verið er að þjappa.
 
-    ![Forskoðun á þjöppuðu skjali á útleið.](./media/er-compress-outbound-files2.png)
+    ![Forskoðun á þjöppuðu skjali á útleið](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
 > Ef [endastaður](electronic-reporting-destinations.md) rafrænnar skýrslugerðar fyrir sniðseininguna sem myndar úttak (einingin **Skýrsla** í þessu dæmi), verður þjöppun úttaksins sleppt.
@@ -92,6 +94,3 @@ Fyrir frekari upplýsingar um þessa aðferð skal ljúka dæminu í þessu efni
 [Áfangastaðir fyrir rafræna skýrslugerð](electronic-reporting-destinations.md)
 
 [Fresta keyrslu XML-eininga á sniði rafrænnar skýrslugerðar](er-defer-xml-element.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

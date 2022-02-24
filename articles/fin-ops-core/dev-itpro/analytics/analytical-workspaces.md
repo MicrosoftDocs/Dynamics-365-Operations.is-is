@@ -2,9 +2,11 @@
 title: Greiningarvinnusvæði
 description: Í þessu efnisatriði eru sýnd innfelld greiningarvinnusvæði í boði og leiðbeiningar um hvar hægt er að fá frekari upplýsingar um þau.
 author: sericks007
+manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 64a960d4658fa38aa45c08c443d12202ebe8acae1cb6fa80113d0132fa226d70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 136c3cdd391f6ff92d6760a17d89ddfeec8d45a1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772059"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683139"
 ---
 # <a name="analytical-workspaces"></a>Greiningarvinnusvæði
 [!include[banner](../includes/banner.md)]
@@ -43,6 +45,3 @@ ms.locfileid: "6772059"
 - [Vinnusvæði greiðslna lánardrottna](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [Afköst vöruhúss Power BI efni](warehouse-power-bi-content.md)
 - [Mælikvarðar vinnuafls Power BI efni](workforce-analysis-power-bi-content-pack.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

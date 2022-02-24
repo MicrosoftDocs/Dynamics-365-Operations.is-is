@@ -2,9 +2,11 @@
 title: Afritunargeymsla ER-sniðmáta
 description: Þetta efni útskýrir hvernig á að nota varabúnaðargeymslu rafrænnar skýrslugerðar (ER) til að endurheimta sniðmát.
 author: NickSelin
+manager: AnnBe
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b5de8b9dc06cf10bda1932d5f4ee4484cdae591564fdcd5dd28c5036b82abc66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 136a81e661590d7af879e816c1142de85fb72e06
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767878"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681401"
 ---
 # <a name="backup-storage-of-er-templates"></a>Afritunargeymsla ER-sniðmáta
 
@@ -65,19 +67,19 @@ Til að setja upp **Keyra sjálfkrafa aðferðina við að endurheimta skemmd sn
 > [!NOTE]
 > Þessi færibreyta er skilgreind sem notandi forrita og skráð sem fyrirtækjasértæk.
 
-![Skilgreiningarsíða ER.](./media/GER-BackupTemplates-1.png)
+![Skilgreiningarsíða í ER](./media/GER-BackupTemplates-1.png)
 
 Eftirfarandi mynd sýnir dæmi um skilaboðin sem birtast þegar færibreytan **Keyra ferlið sjálfkrafa til að endurheimta brotin sniðmát í runu** er stillt á **Kveikt**.
 
-![Greiðslubókarsíða lánardrottins.](./media/GER-BackupTemplates-2.png)
+![Greiðslubókarsíða lánardrottins](./media/GER-BackupTemplates-2.png)
 
 Eftirfarandi mynd sýnir runuvinnsluna **Endurheimta biluð sniðmát úr innri afritun gagnagrunnsins** á síðunni **Runuvinnsla**.
 
-![Síða runuvinnslu.](./media/GER-BackupTemplates-3.png)
+![Síða runuvinnslu](./media/GER-BackupTemplates-3.png)
 
 Framkvæmdaskrá yfir lokna runuvinnslu **Endurheimta biluð sniðmát úr innri afritun gagnagrunnsins** inniheldur upplýsingar um sniðmát sem hafa verið endurheimt frá varabúnaðargeymslustað yfir á aðalgeymslustað.
 
-![Síða runuvinnslusögu.](./media/GER-BackupTemplates-4.png)
+![Síða runuvinnslusögu](./media/GER-BackupTemplates-4.png)
 
 Sjálfgefið er að kveikt er á ferlinu við að búa sjálfkrafa til afrit af sniðmátum sem búa í skilgreiningum á ER-sniðmátum. Til að hætta að taka afrit af sniðmátum stillirðu valkostinn **Hætta að gera afrit af sniðmáti** á **Já** á flipanum **Viðhengi** á síðunni **Rafrænar breytur**. Hægt er að opna þessa síðu úr vinnusvæðinu **Rafræn skýrslugerð**.
 
@@ -85,7 +87,7 @@ Ef þú stillir valkostinn **Hætta að búa til afrit af sniðmátum** á **Já
 
 Ef umhverfi er uppfært í Finance and Operations útgáfa 10.0.5 (október 2019) og ætlunin er að fara í nýtt umhverfi sem inniheldur skilgreiningar fyrir snið rafrænnar skýrslugerðar sem hægt er að keyra skal velja **Fylla út geymslu öryggisafrita** á síðunni **Rafrænar skýrslugerðarfæribreytur** áður en flutningurinn á sér stað. Þessi hnappur hefur ferlið við að stofna afrit af öllum tiltækum sniðmátum svo hægt sé að geyma þau í varabúnaðargeymslu ER fyrir sniðmát.
 
-![Færibreytusíða rafrænnar skýrslugerðar.](./media/GER-BackupTemplates-5.png)
+![Síða rafrænna skýrslufæribreyta](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>Handvirk endurheimt
 
@@ -100,6 +102,3 @@ Farið í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Endurheimta
 [Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md)
 
 [Skilgreina rafrænan skýrslugerðarramma (ER)](electronic-reporting-er-configure-parameters.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

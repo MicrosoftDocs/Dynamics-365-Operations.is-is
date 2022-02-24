@@ -1,24 +1,27 @@
 ---
 title: Stofna útgáfu framleiðsluflæðis
 description: Þetta ferli sýnir hvernig ný útgáfa framleiðsluflæðis er stofnuð.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b72d6162edd0ae6ccbfdcfe3e63ecff30528454
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d513e6898827de9a3fb1ed59006b817fb9006019
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569261"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430049"
 ---
 # <a name="create-a-production-flow-version"></a>Stofna útgáfu framleiðsluflæðis
 
@@ -61,6 +64,3 @@ ms.locfileid: "7569261"
     * Færið inn fjölda daga á tímabili fyrir raunferlistíma. Tímabil fyrir raunferlistíma er sá fjöldi daga sem vinnslum er safnað saman úr raunverulega mínútu til baka til að reikna raunferlistíma. Gildinu er hægt að breyta hvenær sem er og er aðeins notað fyrir útreikning á tímum raunferlistíma.  
 13. Smellið á „Vista“.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

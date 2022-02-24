@@ -1,26 +1,29 @@
 ---
 title: Fækka dögum á áskrifarþóknunum
 description: Til þess að stytta fjölda daga í fyrirliggjandi áskriftarþóknun er hægt að stofna nýja færslu, þar sem tímabilið sem ekki á lengur að vera hluti af áskriftarþóknun er fjarlægt.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df1a27576b93c4ace4a5f17271595d259e96a51a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 141975e0a3218b18b67d22e04f6f6e8da332ed3d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573226"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430078"
 ---
 # <a name="reduce-the-days-on-subscription-fees"></a>Fækka dögum á áskrifarþóknunum 
 
@@ -52,6 +55,3 @@ Ennfremur, ef **Frá dagsetningu** á stytta tímabilinu er 21. janúar (31 mín
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Setja upp aðskilnaður á skyldum
 description: Hægt er að setja upp reglur til að aðskilja verk sem þarf að framkvæma af mismunandi notendum.
 author: peakerbl
+manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesRule
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c06ce9325d7b0894ba53d6b9782f495a48280d45e538b048d883ab86f05dabf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bcbd32131f9980a4f55e91b9d7ad48171069f72e
+ms.sourcegitcommit: 316200579dd5b04ad76f276a2ed6b0f55fa8c812
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755749"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "4826395"
 ---
 # <a name="set-up-segregation-of-duties"></a>Setja upp aðskilnaður á skyldum
 
@@ -40,6 +42,3 @@ Hægt er að setja upp reglur til að aðskilja verk sem þarf að framkvæma af
 
 > [!IMPORTANT] 
 > Fylgni við reglur fyrir aðskilnað á skyldum er ekki staðfest þegar regla er stofnuð. Hægt er að stofna reglu sem stofnar árekstra fyrir fyrirliggjandi hlutverk. Fyrirliggjandi úthlutuð notandahlutverk geta einnig stangast á við nýju regluna. Staðfesta verður samræmi eftir að regla hefur verið stofnuð eða henni breytt. Frekari upplýsingar eru í [Auðkenna og leysa úr árekstrum innan aðskilnaðar á skyldum](identify-resolve-conflicts-segregation-duties.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

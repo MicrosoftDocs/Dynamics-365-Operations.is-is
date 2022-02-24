@@ -1,24 +1,27 @@
 ---
 title: Mynda og vinna úr eftirágreiddum afslætti viðskiptavina
 description: Þetta ferli sýnir hvernig á að meðhöndla eftirágreiddan afslátt viðskiptavinar úr myndun kröfu til að senda þær sem uppsafnanir á viðskiptakröfur.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage, MCRBrokerWriteOffReason, MRCHierarchyAddCust, PdsItemRebateGroup, PdsRebate, PdsRebateProgramTMATable, PdsRebateTable, PdsRebateTableListPagePreviewPane, PdsRebateTrans, PdsRebateType_CustLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
-ms.translationtype: MT
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a8ebc281036842bdc8965e062990438e1fb466ff
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969088"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430460"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Mynda og vinna úr eftirágreiddum afslætti viðskiptavina
 
@@ -62,14 +65,14 @@ ms.locfileid: "7969088"
 
 ## <a name="process-rebate-claims"></a>Vinna úr kröfur um eftirágreiddan afslátt
 1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Sala- og markaðssetning > Eftirágreiddir afslættir > Eftirágreiddur afsláttur**.
-    - Síða eftirágreiddra afslátta þjónar sem vinnusvæði þar sem hægt er að endurskoða, samþykkja og vinna úr kröfum um eftirágreiddan afslátt. Nú muntu vinna kröfur sem voru stofnaðar þegar reikningsfært var sölupöntun fyrir viðskiptavin US-009 sem er viðfangsefni samnings um eftirágreiddan afslátt USMF-000001 .   
+    - síða Eftirágreiddir Afslættir þjónar sem vinnusvæði þar sem hægt er að endurskoða, samþykkja og vinna kröfur um eftirágreiddan afslátt. Nú muntu vinna kröfur sem voru stofnaðar þegar reikningsfært var sölupöntun fyrir viðskiptavin US-009 sem er viðfangsefni samnings um eftirágreiddan afslátt USMF-000001 .   
     - Fyrsta lína stendur fyrir kröfu um eftirágreiddan afslátt fyrir 800 USD sem er byggð á sölu 40 eininga afurðar T0020, reiknaður sem 20 USD á hverja einingu. Þetta uppfyllir skilyrði fyrir fyrsta hlé í magni í samning um eftirágreiddan afslátt.  
     - Önnur kröfu er fyrir 2,400 USD sem er byggð á sölu 60 eininga afurðar T0020 reiknaður 40 USD á hverja einingu samkvæmt seinni hlé í magni í samningnum.  
     - Báðar kröfurnar eru í stöðunni „Til útreiknings”. Þetta þýðir að þær séu tengd við samning sem rekur afköst í sölu viðskiptavinar með reglulegu millibili og að þær verða að vera reiknuð aftur á lykil fyrir sölu umfang heildarsölu innan viðkomandi tímabils.   
 2. Smellt er á **Uppsafna**.
 3. Í reitnum **Viðskiptavinur** skal færa inn eða velja gildi.
 4. Í reitnum **Upphafsdagur** skaltu velja daginn í dag.
-5. Smellt er á **OK**. Þegar aðgerðin **Uppsöfnun** hefur verið keyrð er áætluð kröfuupphæð nú leiðrétt við lykil þar sem heildarsölumagn viðskiptavinar á viðkomandi tímabili er meira en þegar fyrsti eftirágreiddur afslátturinn var myndaður. Nánar, þar sem keypt magn samtals hefur náð 100 einingar, viðskiptavinur er nú hæfur fyrir 40 USD á hverja einingu (samkvæmt á samningnum um annað hlé í magni) eða 4,000 USD samtals upphæð eftirágreidds afsláttar. Munurinn er skráð sem í "leiðrétting" nýrrar kröfu fyrir viðbótar 800 USD. Staða krafna um eftirágreiddan afslátt sem voru hafðar með í Heildaruppfærsla eru nú stillt á Reiknuð. 
+5. Smellt er á **OK**. Þegar aðgerðin **Uppsöfnun** hefur verið keyrð er áætluð kröfuupphæð nú leiðrétt við lykil þar sem heildarsölumagn viðskiptavinar á viðkomandi tímabili er meira en þegar fyrsti eftirágreiddur afslátturinn var myndaður. Nánar, þar sem keypt magn samtals hefur náð 100 einingar, viðskiptavinur er nú hæfur fyrir 40 USD á hverja einingu (samkvæmt á samningnum um annað hlé í magni) eða 400 USD samtals upphæð eftirágreidds afsláttar. Munurinn er skráð sem í "leiðrétting" nýrrar kröfu fyrir viðbótar 800 USD. Staða krafna um eftirágreiddan afslátt sem voru hafðar með í Heildaruppfærsla eru nú stillt á Reiknuð. 
 6. Í listanum er merkt við allar línur.
 7. Smelltu á **Samþykkja**.
 8. Smelltu á **Vinnslu**.
@@ -79,6 +82,3 @@ ms.locfileid: "7969088"
     - Uppsöfnunarlykill eftirágreidds afsláttar hefur verið kreditfærður til að tákna framtíðarskuldir við viðskiptavininn.
     - Kostnaðarlykill eftirágreidds afsláttar hefur verið debetfærður sem staðfesting á kostnaðinum sem stofnað var til í tengslum við sölu.   
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

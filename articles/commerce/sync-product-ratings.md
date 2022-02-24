@@ -1,13 +1,16 @@
 ---
 title: Samstilla vörueinkunnagjöf í Dynamics 365 Commerce
-description: Þetta efnisatriði lýsir hvernig eigi að samstilla afurðaeinkunnir í Microsoft Dynamics 365 Commerce.
+description: Þetta efni lýsir því hvernig á að samstilla vörueinkunnir í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
-ms.translationtype: MT
+ms.openlocfilehash: dec87b548f3a218e1f833b752305f373e893b14c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967951"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413226"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Samstilla vörueinkunnagjöf í Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig eigi að samstilla afurðaeinkunnir í Microsoft Dynamics 365 Commerce.
+Þetta efni lýsir því hvernig á að samstilla vörueinkunnir í Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Til að nota afurðaeinkunnir í alhliða rásum, svo sem á sölustað (POS) og í símaverum, verður að flytja afurðareinkunnir úr einkunna- og umsagnarþjónustunni inn í rásagagnagrunn Commerce. Þegar afurðaeinkunnir eru gerðar aðgengilegar í alhliða rásum geta þær hjálpað viðskiptavinum óbeint við samskipti sín við söluaðila.
 
@@ -57,7 +62,7 @@ Til að sannreyna að undirvinnslan **RetailProductRating** sé til fylgirðu þ
 
 Eftirfarandi mynd sýnir dæmi um undirvinnsluupplýsingar í Commerce.
 
-![Upplýsingar um undirvinnsluna RetailProductRating.](media/rnr-hq-ratings-sub-job.png)
+![Upplýsingar um undirvinnsluna RetailProductRating](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Ef þú finnur ekki undirvinnsluna **RetailProductRating** gæti verið að þú hafir þegar keyrt vinnsluna **Samstilla afurðaeinkunnir** og vinnsluna **1040 CDX** áður en þú frumstilltir Commerce-verkraðara. Í þessu tilfelli skaltu fylgja þessum skrefum til að keyra vinnsluna **Full samstilling gagna**.
@@ -81,7 +86,7 @@ Til að flytja afurðaeinkunnir inn í Commerce úr einkunna- og umsagnaþjónus
 
 Eftirfarandi mynd sýnir dæmi um stillingar runuvinnslu í Commerce.
 
-![Stilling á runuvinnslunni Samstilla afurðaeinkunnir.](media/rnr-hq-batchjob-recurrence.png)
+![Stilling á runuvinnslunni Samstilla afurðaeinkunnir](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Staðfestu að runuvinnslan fyrir samstillingu afurðaeinkunna hafi gengið
 
@@ -93,7 +98,7 @@ Til að sannreyna að runuvinnslan **Samstilla afurðaeinkunnir** hafi tekist sk
 
 Eftirfarandi mynd sýnir dæmi um upplýsingar um runuvinnsluna í Commerce þegar áætlað er að runuvinnslan gangi með tveggja tíma millibili.
 
-![Upplýsingar um runuvinnsluna Samstilla afurðaeinkunnir.](media/rnr-hq-batchjob-status-checking.png)
+![Upplýsingar um runuvinnsluna Samstilla afurðaeinkunnir](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Gerðu afurðaeinkunnir tiltækar í POS
 
@@ -111,15 +116,15 @@ Til að kveikja á afurðaeinkunnum á sölustað skal fylgja þessum skrefum.
 
 Eftirfarandi mynd sýnir dæmi um stillingu Commerce-færibreytanna til að kveikja á afurðaeinkunnum á sölustað.
 
-![Stillingar Commerce-færibreytanna fyrir afurðaeinkunnir á sölustað.](media/rnr-hq-enable-ratings-in-pos.png)
+![Stillingar Commerce-færibreytanna fyrir afurðaeinkunnir á sölustað](media/rnr-hq-enable-ratings-in-pos.png)
 
 Eftirfarandi skýringarmynd sýnir dæmi um afurðaeinkunnir á sölustað.
 
-![Afurðaeinkunnir á sölustað.](media/rnr-pos-catalog-ratings.png)
+![Afurðaeinkunnir á sölustað](media/rnr-pos-catalog-ratings.png)
 
 Eftirfarandi skýringarmynd sýnir dæmi um afurðaeinkunnir á rásum símavera.
 
-![Afurðaeinkunnir í rás símaþjónustuvers.](media/rnr-call-center-ratings.png)
+![Afurðaeinkunnir í rás símaþjónustuvers](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -130,16 +135,3 @@ Eftirfarandi skýringarmynd sýnir dæmi um afurðaeinkunnir á rásum símavera
 [Stjórna einkunnum og umsögnum](manage-reviews.md)
 
 [Skilgreina einkunnir og umsagnir](configure-ratings-reviews.md)
-
-[Samstilla afurðaeinkunnagjöf](sync-product-ratings.md)
-
-[Virkja handvirka birtingu einkunna og umsagna hjá stjórnanda](manual-publish-rating-reviews.md)
-
-[Inn- og útflutnings einkunnir og umsagnir](import-export-reviews.md)
-
-[Stilla þjónustu-til-þjónustu auðkenningu](service-to-service-auth.md)
-
-[Algengar spurningar um einkunnir og umsagnir](ratings-reviews-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

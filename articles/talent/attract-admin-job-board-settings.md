@@ -51,6 +51,3 @@ ms.locfileid: "4461579"
 
 > [!NOTE]
 > Microsoft og Attract taka engan þátt í að búa til og viðhalda þessum gildum. Það er á þína ábyrgð að halda þeim uppfærðum í Attract og vinna með Broadbean til að leysa úr öllum vandamálum sem hafa með aðgangsupplýsingarnar þínar að gera.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Útleið birgðaaðgerð í POS
 description: Þetta efni lýsir getu sölustaðar (POS) á útleið birgðaaðgerð.
 author: hhaines
+manager: annbe
 ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,19 +19,19 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581138"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413045"
 ---
-# <a name="outbound-inventory-operation-in-pos"></a>Birgðaaðgerð á útleið á sölustað
+# <a name="outbound-inventory-operation-in-pos"></a>Útleið birgðaaðgerð í POS
 
 [!include [banner](includes/banner.md)]
 
 
-Í Microsoft Dynamics 365 Commerce útgáfu 10.0.10 og nýrri er inn- og útskráningaraðgerðum á sölustað skipt út tiltektar-og móttökuaðgerð.
+Í Microsoft Dynamics 365 Commerce útgáfu 10.0.10 og síðar, koma aðgerðir á innleið og útleið á sölustað (POS) í stað tiltektar- og móttökuaðgerðar.
 
 > [!NOTE]
 > Í útgáfu 10.0.10 og nýrri verður öllum nýjum eiginleikum í POS-forritinu sem tengjast því að taka á móti birgðum verslunar gegn innkaupapöntunum og millifærslupöntunum bætt við aðgerðina Aðgerð á innleið. Ef þú ert að nota tiltektar- og móttökuaðgerðina í POS mælum við með að þú þróir stefnu til að fara frá þeirri aðgerð yfir í nýju aðgerðirnar á inn- og útleið. Þó að tiltektar- og móttökuaðgerðin verði ekki fjarlægð úr vörunni verða engar frekari fjárfestingar í henni, frá sjónarhorni virkni eða afköstum, eftir útgáfu 10.0.9.
@@ -71,7 +74,7 @@ Runuvinnslurnar sem þú býrð til verða notuð til að vinna úr skjölum sem
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Forsenda: Bættu aðgerð á útleið við POS skjámyndina
 
-Áður en fyrirtækið getur notað virknina aðgerð á útleið verður það að stilla POS-aðgerðina **Aðgerð á útleið** í einni eða fleiri af þínum [POS-skjáuppsetningum](/dynamics365/unified-operations/retail/pos-screen-layouts). Áður en þú setur nýja aðgerðina í framleiðsluumhverfi, vertu viss um að prófa hana rækilega og þjálfa notendur hennar til að nota hana.
+Áður en fyrirtækið getur notað virknina aðgerð á útleið verður það að stilla POS-aðgerðina **Aðgerð á útleið** í einni eða fleiri af þínum [POS-skjáuppsetningum](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Áður en þú setur nýja aðgerðina í framleiðsluumhverfi, vertu viss um að prófa hana rækilega og þjálfa notendur hennar til að nota hana.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -116,7 +119,7 @@ Hver skönnun á strikamerki uppfærir magnið í reitnum **Sendingar núna** um
 
 ### <a name="over-delivery-shipping-validations"></a>Staðfestingar á sendingum ofafhendingar
 
-Villuleitir eiga sér stað í uppfyllingarferlinu fyrir skjalalínurnar. Þær fela í sér staðfestingar vegna ofafhendingar. Ef notandi reynir að senda meiri birgðir en pantað var í innkaupapöntun, en annaðhvort er ofafhending ekki stillt eða magnið sem er sent fer fram úr vikmörkum ofafhendingar sem eru stilltar fyrir flutningspöntunarlínuna, fær notandinn villu og er ekki leyft að senda umframmagni.
+Villuleitir eiga sér stað í móttökuferli skjalalínanna. Þær fela í sér staðfestingar vegna ofafhendingar. Ef notandi reynir að fá meiri birgðir en pantað var í innkaupapöntun, en annaðhvort er ofafhending ekki stillt eða magnið sem er móttekið fer fram úr vikmörkum ofafhendingar sem eru stilltar fyrir innkaupapöntunarlínuna, fær notandinn villu og er ekki leyft að taka á móti umframmagni.
 
 ### <a name="underdelivery-close-lines"></a>Lokalínur vanafhendingar
 
@@ -190,6 +193,3 @@ Flutningsskipanir sem eru að fullu sendar eru fluttar á flipann **Lokið** á 
 ## <a name="related-topics"></a>Tengd efnisatriði
 
 [Innleið birgðaaðgerð í POS](pos-inbound-inventory-operation.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

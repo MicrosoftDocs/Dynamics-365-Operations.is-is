@@ -1,24 +1,27 @@
 ---
 title: Stofnað sölupantanir
 description: Þessi verklýsing sýnir hvernig á að stofna sölupöntun.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User, SalesTableDelete, SalesTableListPagePreviewPage, SalesUpdateRemain
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5746fa0ab9fd7ef3e288adc88a755324309a27c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9aa353ad771844abc0860f06d9bc22b9f4adce92
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566312"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430137"
 ---
 # <a name="create-sales-orders"></a>Stofnað sölupantanir
 
@@ -36,7 +39,7 @@ ms.locfileid: "7566312"
 
 ## <a name="enter-sales-order-line-details"></a>Færa inn upplýsingar sölupöntunarlína
     
-Afurðir sem eru seldar af fyrirtækið þínu koma hugsanlega í afbrigðum sem skilið er á milli með víddir, eins og samsetning, lit, stærð og stíll. Einnig geta afurðir verið settar upp til að nota geymsluvíddir, eins og vöruhús, og bretti og rakningarvíddir, eins og runu og raðnúmer. Þegar þessar víddir er úthlutað þarf að velja gildi fyrir þessar víddir í pöntunarlínunni. Til að auka skilvirkni pöntunarfærslu, gott gæti verið að bæta viðeigandi víddarsvæði við pöntunarhnitanetið.
+Afurðir sem eru seldar af fyrirtækið þínu koma hugsanlega í afbrigðum sem skilið er á milli með víddir, eins og samsetning, lit, stærð og stíll. Einnig geta afurðir verið settar upp til að nota geymsluvíddir, eins og vöruhús, og bretti og rekkavíddir, eins og runu og raðnúmer. Þegar þessar víddir er úthlutað þarf að velja gildi fyrir þessar víddir í pöntunarlínunni. Til að auka skilvirkni pöntunarfærslu, gott gæti verið að bæta viðeigandi víddarsvæði við pöntunarhnitanetið.
     
 1. Undir hlutanum **Sölupöntunarlínur** velurðu **Sölupöntunarlína**.
 2. Veldu **Víddir**.
@@ -65,6 +68,3 @@ Afurðir sem eru seldar af fyrirtækið þínu koma hugsanlega í afbrigðum sem
     Síðan **Samtals** birtir upplýsingar um alla pöntunina. Þar á meðal upphæð millisamtala sem er summa allra nettóupphæða línu leiðrétt fyrir hugsanlega línuafslætti, heildarreikningsupphæðin, sem er upphæð millisamtölu leiðrétt fyrir hugsanlega afslætti á stigi pöntunar, gjöld og virðisaukaskatt, lánamark viðskiptavinar og fleira. Reikningsupphæð er upphæðin sem mun birtast á reikningsskjalið viðskiptavinar.  
     
 3. Veljið **Í lagi**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

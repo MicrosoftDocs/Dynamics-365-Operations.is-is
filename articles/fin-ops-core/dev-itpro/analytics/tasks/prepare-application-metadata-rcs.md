@@ -1,10 +1,12 @@
 ---
 title: Undirbúa lýsigögn umsóknar til notkunar í RCS
-description: Í þessu efnisatriði er lýst hvernig eigi að stofna nýja skýrsluskilgreiningu sem inniheldur lýsigögn forrits.
+description: Skrefin í þessu efni útskýra hvernig notandi getur búið til nýjar skilgreiningar rafrænnar skýrslugerðar (ER) sem innihalda lýsigögn forritsins til að setja upp ER-líkanavörpunarskilgreiningar í Regulatory Configuration Service (RCS).
 author: NickSelin
+manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dbc1ca45a39f2a5c3309276f9e2f5d2b7d2ba5f7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750575"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684092"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>Undirbúa lýsigögn umsóknar til notkunar í RCS
 [!include [banner](../../includes/banner.md)]
@@ -78,6 +80,3 @@ Við bættum við lýsigögnum um Intrastat-skráatöfluna.
 3.    Smellt er á **OK**. 
     
 Uppsett ER lýsigagnaskilgreining er vistuð sem XML-skrá sem hægt er að flytja inn í RCS og notuð sem upplýsingaveita um lýsigögn fyrir viðskiptalén utanríkisviðskipta. Samkvæmt þessum upplýsingum getum við tilgreint vörpun á milli lýsigagna forritsins og ER-gagnalíkansins.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

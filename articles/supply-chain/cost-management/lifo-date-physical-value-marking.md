@@ -2,9 +2,11 @@
 title: LIFO dagsetning með efnislegt virði og merkingu
 description: Síðast inn, Fyrst út  dagsetning (lifo-Dagsetning) er birgðalíkan sem byggist á lifo-grunnreglu. Úthreyfingar úr birgðum eru jafnaðar á móti síðustu innhreyfingu í birgðir, samkvæmt dagsetningu birgðafærslunnar. Hafi ekkert verið móttekið fyrir úthreyfinguna jafnast hún, sé notuð LIFO-dagsetning, við innhreyfingar sem kunna að verða eftir úthreyfingardagsetninguna. Fleiri en eina úthreyfingu innan sama dags má jafna í þeirri röð að sú síðasta jafnist við síðustu innhreyfingu.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c2c06443532519ad5d6c36a6f4ed1f1c4d136664
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567560"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967634"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO dagsetning með efnislegt virði og merkingu
 
@@ -55,9 +57,7 @@ Eftirfarandi dæmi sýna áhrifin þess að nota LIFO dagsetningu með þremur m
 
 Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið uppfærðar fjárhagslega á 15,00 USD. 
 
-Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans Lifo-dagsetningar þegar **Taka efnislegt virði með** valkosturinn er ekki notuð. 
-
-![LIFO-dagsetning án valkostarins „Taka efnislegt virði“ með.](./media/lifodatewithoutincludephysicalvalue.gif) 
+Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans Lifo-dagsetningar þegar **Taka efnislegt virði með** valkosturinn er ekki notuð. ![LIFO dagsetning með Taka efnislegt virði með](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 
@@ -92,9 +92,7 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 
 Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið uppfærðar fjárhagslega á 20,00 USD. 
 
-Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans Lifo þegar **Taka efnislegt virði með** valkosturinn er notuð. 
-
-![LIFO-dagsetning með valkostinum „Taka efnislegt virði“ með.](./media/lifodatewithincludephysicalvalue.gif) 
+Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans Lifo þegar **Taka efnislegt virði með** valkosturinn er notuð. ![LIFO dagsetning með Taka efnislegt virði með](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 
@@ -140,7 +138,7 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 
 Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið uppfærðar fjárhagslega og efnislega á 27,50 USD. 
 
-Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans Lifo þegar merking á milli úthreyfinga og innhreyfinga er notuð. ![LIFO dagsetning með Merking.](./media/lifodatewithmarking.gif) 
+Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans Lifo þegar merking á milli úthreyfinga og innhreyfinga er notuð. ![LIFO dagsetning með Merking](./media/lifodatewithmarking.gif) 
 
 **Lykill að skýringarmynd**
 
@@ -158,6 +156,3 @@ Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans Lifo þegar merking á mi
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

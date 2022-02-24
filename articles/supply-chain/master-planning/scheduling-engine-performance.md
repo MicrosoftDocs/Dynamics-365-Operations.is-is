@@ -2,26 +2,29 @@
 title: Bæta frammistöðu röðunarvélar
 description: Í þessu efnisatriði er að finna upplýsingar um röðunarvélina og hvernig á að bæta afköst.
 author: ChristianRytt
+manager: tfehr
 ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2495339f25469af705cff841f090c5df95b4d996
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578441"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430646"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Bæta frammistöðu röðunarvélar
 
@@ -66,11 +69,11 @@ Sem dæmi skal hafa í huga leið sem birtist í eftirfarandi töflu og mynd, se
 | 10 | Auka&nbsp;1 | | | | 1 | 20 |
 | 20 | Aðal | | 3.00 | 1.00 | 3 | 0 |
 
-![Dæmi um skýringarmynd leiðar.](media/scheduling-engine-route.png "Skýringarmynd með dæmi um leið")
+![Dæmi um skýringarmynd leiðar](media/scheduling-engine-route.png "Skýringarmynd með dæmi um leið")
 
 Þegar þetta er sent til vélarinnar, er því skipt niður á átta vinnslur eins og sýnt er í eftirfarandi skýringarmynd (veljið myndina til að stækka hana).
 
-[![Verk röðunarvélar](media/scheduling-engine-jobs.png "Verk röðunarvélar.")](media/scheduling-engine-jobs-large.png)
+[![Verk röðunarvélar](media/scheduling-engine-jobs.png "Verk röðunarvélar")](media/scheduling-engine-jobs-large.png)
 
 Staðlaður tengill á milli tveggja vinnsla er `FinishStart`, sem þýðir að lokatími einnar vinnu verður að vera á undan upphafstíma annarrar vinnu. Vegna þess að uppsetningin verður að vera framkvæmd af sama tilfangi sem síðar gerir ferlið, eru `OnSameResource` takmarkanir á milli þeirra. Milli vinnsla fyrir fyrstu og aðra aðgerð fyrir 10, eru `StartStart` og `FinishFinish` tenglar, sem þýðir að vinnslurnar verða að báðar að hefjast og enda á sama tíma og það eru `NotOnSameResource` takmarkanir, sem kemur í veg fyrir sama tilfangið fyrir fyrsta og annað.
 
@@ -326,6 +329,3 @@ Gildi fyrir **Tímalokun á tilraunum hámörkunar** stjórnar því hversu marg
 
 > [!NOTE]
 > Gildin sem eru sett upp fyrir tímalokanir verða bæði notuð fyrir röðun útgefinna framleiðslupantana og áætlaðra pantana sem hluta af MRP. Þar af leiðandi gætu mjög há gildi bætt umtalsvert við keyrslutíma MRP þegar áætlun er keyrð með mörgum framleiðslupöntunum.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

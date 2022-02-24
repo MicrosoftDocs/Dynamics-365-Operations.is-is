@@ -94,6 +94,3 @@ Með þessari breytingu er borið kennsl á tvítekningar á meðan þú færir 
 Í verkvangsuppfærslu 25 fyrir Finance and Operations geta notendur stofnað viðvörunarreglur sem senda sjálkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,6 +66,3 @@ Hægt er að hlaða niður PDF skrá yfir lönd, svæði og tungumál sem Talent
 
 Ef þú ert þróunaraðili og hefur áhuga á að búa til lands- eða svæðisbundnar sérstillingar, eða að finna lausnir fyrir land eða svæði sem Microsoft styður ekki sem stendur skaltu skoða [Alþjóðavæðing](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Meta arðsemi viðskiptavinar og afurðar
 description: Þessi grein útskýrir hvernig hægt er að nota greiningar í minni og rauntíma til að nálgast, skoða og fá innsýn í arðsemi viðskiptavina og afurða úr gögnum Dynamics 365 Commerce.
 author: ashishmsft
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: SysOperationsTemplateForm, RetailStoreManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 52902
 ms.assetid: 1a77d04b-2985-4bee-9138-c216fe0483de
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d7b51ffb3613800033d817b1e911ba22cb978c0cdb21a256693ba52674ad5885
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3218a29995791ce0d9a42d5b6d898d6e548f0f1d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728316"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413136"
 ---
 # <a name="assess-customer-and-product-profitability"></a>Meta arðsemi viðskiptavinar og afurðar
 
@@ -53,6 +56,3 @@ Fyrir þetta mat, er hægt að nota „Út úr kassanum“ **Mest seldu vörurna
 - **Verslunarstjórnun** vinnusvæði &gt; **Retail og Commerce** &gt; **Rásir** &gt; **Verslunarstjórnun** &gt; **Skýrslur** &gt; **Skýrsla um mest seldu afurðirnar**
 - **Flokka- og afurðastjórnun** vinnusvæði &gt; **Retail og Commerce** &gt; **Afurðir og flokkar** &gt; **Verslunarstjórnun** &gt; **Skýrslur** &gt; **Skýrsla yfir mest seldu afurðirnar**
 - **Fyrirspurnir og skýrslur** hluti &gt; **Retail og Commerce** &gt; **Fyrirspurnir og skýrslur** &gt; **Söluskýrslur** &gt; **Skýrsla um mest seldu afurðirnar**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

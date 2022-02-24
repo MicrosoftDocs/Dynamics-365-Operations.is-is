@@ -1,35 +1,33 @@
 ---
 title: Skilgreina samþættingu við Dayforce
-description: Þetta efnisatriði lýsir nauðsynlegum stilliskrefum fyrir samþættingu milli Microsoft Dynamics 365 Human Resources og Ceridian Dayforce.
-author: twheeloc
-ms.date: 08/19/2021
+description: Samþættingin milli Microsoft Dynamics 365 Human Resources og Ceridian Dayforce er byggir á nokkrum skilgreiningarskrefum sem er fjallað um í þessari grein. Nauðsynlegt er að skilgreina samþættinguna bæði í Human Resources og Dayforce áður en hafist er handa við að afgreiða launakeyrslu.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: PersonnelIntegrationConfiguration
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7e2043e75aa647e21f3e0816247dcf651be64730
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: c66ec772ea66732e042f50081f04a6569852f211
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067077"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418947"
 ---
 # <a name="configure-integration-with-dayforce"></a>Skilgreina samþættingu við Dayforce
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Samþættingin milli Microsoft Dynamics 365 Human Resources og Ceridian Dayforce er byggir á nokkrum skilgreiningarskrefum sem er fjallað um í þessu efnisatriði. Nauðsynlegt er að skilgreina samþættinguna bæði í Human Resources og Dayforce áður en hafist er handa við að afgreiða launakeyrslu.
+Samþættingin milli Microsoft Dynamics 365 Human Resources og Ceridian Dayforce er byggir á nokkrum skilgreiningarskrefum sem er fjallað um í þessari grein. Nauðsynlegt er að skilgreina samþættinguna bæði í Human Resources og Dayforce áður en hafist er handa við að afgreiða launakeyrslu.
 
 Þegar þjónusta eins og Dayforce er notuð til að ljúka launakeyrslum verður að virkja samþættinguna í Human Resources. Samþættingin krefst tilgreindra gagna frá Human Resources. Þess vegna þarf að staðfesta að gögn sem varpað er á Dayforce séu skilgreind í Human Resources á þann hátt sem styður samþættingu. Samþættingin notar eftirfarandi víðtæka flokka gagna:
 
@@ -38,7 +36,7 @@ Samþættingin milli Microsoft Dynamics 365 Human Resources og Ceridian Dayforce
 - Launagögn, svo sem greiðsluferli, greiðslutímabil og tekjukóðar
 - Starfsmannagögn
 
-Þetta efnisatriði fjallar um skrefin sem verður að fylgja til að virkja samþættinguna og útskýrir hvers konar gagnagerðir og upplýsingar um skilgreiningu samþættingin þarfnast.
+Þessi grein fjallar um skrefin sem verður að fylgja til að virkja samþættinginu. Það útskýrir einnig gerð gagna og upplýsingar um skilgreiningar sem samþættingin krefst.
 
 ## <a name="enable-the-integration"></a>Virkja samþættingu
 
@@ -53,10 +51,10 @@ Til að kveikja á samþættingu í Human Resources skal fylgja þessum skrefum.
 
 Þegar kveikt er á samþættingunni eru gagnaútflutningspakki og skrár búnar til og tíðnin er stillt. Hægt er að breyta tíðninni eftir þörfum.
 
-Frekari upplýsingar um Azure-geymslureikninga og tengistrengi Azure-geymslu er að finna í eftirfarandi efnisatriðum Azure:
+Frekari upplýsingar um Azure-geymslureikninga og tengistrengi Azure-geymslu er að finna í eftirfarandi greinum Azure:
 
-- [Um Azure-geymslureikninga](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [Skilgreina tengistrengi Azure-geymslu](/azure/storage/common/storage-configure-connection-string)
+- [Um Azure-geymslureikninga](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [Skilgreina tengistrengi Azure-geymslu](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>Tæknilýsing þegar launasamþætting er virk
 
@@ -124,12 +122,12 @@ Dayforce býr til eftirfarandi frádrætti sem byggjast á áhrifum launaskrár 
 | Eingöngu framlag          | Frádráttur vinnuveitanda er búinn til.             |
 | Frádráttur og framlag | Frádrættir starfsmanns og vinnuveitanda eru búnir til. |
 
-Frekari upplýsingar um hvernig á að skilgreina og stjórna fríðindaáætlun er að finna í eftirfarandi efnisatriðum:
+Frekari upplýsingar um hvernig á að skilgreina og stjórna fríðindaáætlun er að finna í eftirfarandi greinum:
 
-- [Leggja fram fríðindaáætlun starfsmanns](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [Stofna ný fríðindi](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [Skilgreina reglur og stefnur um hæfi til fríðinda](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [Skrá og fjarlægja fríðindi starfsmanna](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [Leggja fram starfskjaraáætlun starfsmanns](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [Stofna ný fríðindi](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [Skilgreina reglur og stefnur um hæfi til fríðinda](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [Skrá og fjarlægja fríðindi starfsmanna](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
 #### <a name="compensation"></a>Laun 
 
@@ -137,22 +135,22 @@ Lausnastjórnun er notuð til að stýra afhendingu grunnlauna og umbunar. Föst
 
 Dayforce notar launaupplýsingar til að reikna út tíma- og árskaup starfsmanns. Krafist er umreikninga á launafyrirkomulagi fastra launa og launataxta. Starfsmenn verða að tengjast launafyrirkomulagi fastra launa.
 
-Frekari upplýsingar um launafyrirkomulag er hægt að finna í eftirfarandi efnisatriðum:
+Frekari upplýsingar um launafyrirkomulag er hægt að finna í eftirfarandi greinum:
 
-- [Launafyrirkomulag fastra launa stofnað](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [Launafyrirkomulag breytilegra launa](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [Þróa uppbyggingu launa og launafyrirkomulag](/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [Launaútreikningur](/dynamics365/unified-operations/talent/process-compensation)
-- [Skilgreina launavinnslu og reikna niðurstöður](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [Skrá starfsmann í launafyrirkomulag fastra launa](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [Skrá starfsmann í launafyrirkomulag breytilegra launa](/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [Launafyrirkomulag fastra launa stofnað](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [Launafyrirkomulag breytilegra launa](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [Þróa uppbyggingu launa og launafyrirkomulag](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [Launaútreikningur](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+- [Skilgreina launavinnslu og reikna niðurstöður](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [Skrá starfsmann í launafyrirkomulag fastra launa](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [Skrá starfsmann í launafyrirkomulag breytilegra launa](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>Störf 
 
-Verk er safn verkefna og ábyrgðarsviða sem er ætlast til af einstaklings sem framkvæmir verkið. Frekari upplýsingar er hægt að finna í eftirfarandi efni:
+Verk er safn verkefna og ábyrgðarsviða sem er ætlast til af einstaklings sem framkvæmir verkið. Frekari upplýsingar er hægt að finna í eftirfarandi greinum:
 
-- [Setja upp íhluta verks](/dynamics365/unified-operations/talent/create-job)
-- [Skilgreina ný störf](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [Setja upp íhluta verks](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
+- [Skilgreina ný störf](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>Stöður
 
@@ -174,19 +172,19 @@ Hafðu eftirfarandi gögn og skilgreiningar í huga þegar þú setur upp stöð
 
 Ef margar stöður í sömu deild eru tengdar við sama starfið eru þær sameinaðar í eina stöðu í Dayforce.
 
-Frekari upplýsingar er hægt að finna í eftirfarandi efni:
+Frekari upplýsingar er hægt að finna í eftirfarandi greinum:
 
-- [Vinnuafl skipulagt með notkun deilda, starfa og staða](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [Setja upp stöður](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [Vinnuafl skipulagt með notkun deilda, starfa og staða](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [Setja upp stöður](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>Deildir
 
 Deild er rekstrareining sem stendur fyrir flokk eða virkt svið fyrirtækis. Deoæd ber ábyrgð á tilteknu sviði innan fyrirtækisins, svo sem sölu, bókhald eða mannauði. Hægt er að nota deildir til að gefa skýrslur um virk svið. Deildir gætu haft ábyrgðarsvið fyrir hagnað og tap.
 
-Frekari upplýsingar er hægt að finna í eftirfarandi efni:
+Frekari upplýsingar er hægt að finna í eftirfarandi greinum:
 
-- [Stofnun deildar og tenging hennar við deildastigveldið](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [Skilgreina nýjar deildir](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [Stofnun deildar og tenging hennar við deildastigveldið](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [Skilgreina nýjar deildir](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>Greiðsluferli og launatímabil
 
@@ -678,6 +676,3 @@ Starfsmenn geta gefið upp vegabréfsupplýsingar. Þessar upplýsingar eru af a
 
 Starfsmenn geta gefið upp mörg auðkennisnúmer af auðkennisgerðinni **Vegabréf**. Hins vegar er aðeins núverandi virka færslan samþætt í Dayforce. Ef allar vegabréfsfærslur eru útrunnar verður vegabréfið sem síðast var gefið út samþætt í Dayforce.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

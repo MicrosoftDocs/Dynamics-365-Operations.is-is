@@ -2,9 +2,11 @@
 title: Algengar spurningar um aðsetursbækur
 description: Þetta efnisatriði veitir svör við algengum spurningum tengdum aðsetursbókum.
 author: msftbrking
-ms.date: 02/03/2021
+manager: AnnBe
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d429639f52c745a737567419b6012884ab20d43d
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463624"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796899"
 ---
 # <a name="address-books-faq"></a>Algengar spurningar um aðsetursbækur
 
@@ -65,13 +67,3 @@ Hægt er að færa inn aðilafærslur annað hvort°í altæku aðsetursbókina 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Er hægt að þýða upplýsingar um aðsetur fyrir aðilafærslur?
 
 Hægt er að setja upp þýðingar á upplýsingum um aðsetur,°þannig að upplýsingarnar birtast á tungumáli notanda (kerfistungumál) í forritinu en á öðru tungumáli í skjölum s.s. sölupöntunum. Hægt er að færa inn þýðingar fyrir heiti lands/svæðis, málefni aðseturs og nafnaraðir. Til dæmis er tungumál kerfis er danska og sölupöntun er stofnuð fyrir viðskiptavin í Frakklandi. Í þessu tilfelli er hægt að skoða færslu viðskiptavinar á dönsku í forritinu en birta upplýsingar um aðsetur á frönsku í prentuðu sölupöntuninni. Þegar settar eru upp þýðingar ætti að færa inn þýðingu fyrir hverja vöru í lista. Allar vörur sem ekki eru færðar inn þýðingar fyrir munu birtast í tungumáli kerfisins. Til dæmis þegar tungumál kerfis er danska og skjal er sent viðskiptavini á Spáni. Ef ekki hafa verið færðar inn þýðingar á spænsku (ESP) fyrir upplýsingar um aðsetur munu þær upplýsingar birtast á dönsku bæði í forritið og prentaða skjalinu.
-
-## <a name="after-i-import-addresses-why-cant-i-edit-the-records"></a>Af hverju get ég ekki breytt færslum eftir að ég hef flutt inn aðsetur?
-
-Þegar þú flytur inn aðsetur er reitur sem heitir **IsLocationOwner**. Þessi reitur gefur til kynna að aðilinn sem tengist staðsetningunni (aðsetrinu) sé eigandi aðsetursins. Ef aðilinn er eigandi aðsetursins, er hægt að breyta því þegar aðilinn er notaður í altækri aðsetursbók eða á aðalfærslusíðunni (t.d. viðskiptavini, lánardrottni eða starfsmanni). Ef aðilinn er ekki eigandi aðsetursins er ekki hægt að breyta færslunni. 
-
-Við innflutning á aðsetrum ætti að stilla reitinn **IsLocationOwner** á **Já** ef aðsetrið á að vera breytanlegt í gegnum tilheyrandi aðila. Ef þessi reitur er ekki rétt fluttur inn er hægt að uppfæra staðsetningu eigandans í altæku aðsetursbókinni.
-
-Frekari upplýsingar um hvernig á að breyta staðsetningu eiganda innflutts aðseturs er að finna í [Umsjón með staðsetningum eiganda](./global-address-book-location-owner.md).
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

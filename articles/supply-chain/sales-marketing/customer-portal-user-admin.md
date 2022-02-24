@@ -1,28 +1,30 @@
 ---
-title: Búðu til og stjórnaðu notendum viðskiptavinagáttar (inniheldur myndband)
+title: Stofna og stjórna notendum fyrir viðskiptavinagátt
 description: Þetta efnisatriði útskýrir hvernig á að stofna notendareikninga viðskiptavinagáttar og stilla heimildir þeirra.
-author: Henrikan
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: damadipa
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4615182e6c3341a376e8e55a1417480e3e3f5ea7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: e2001d5c0b17ecadf4cb42529d9beb4b3b81805a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062491"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528294"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Stofna og stjórna notendum fyrir viðskiptavinagátt
 
-[!include [banner](../includes/banner.md)]
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Í tilbúnu innleiðingunni er engin leið fyrir notendur að skrá sig sjálfir fyrir vefsvæðum sem búin eru til með því að nota viðskiptavinagáttina. Til að skrá sig inn og nota vefsvæði verða stjórnendur að bjóða notendum. Microsoft hefur viljandi hindrað möguleika notenda á að skrá sig sjálfir.
 
@@ -33,38 +35,38 @@ ms.locfileid: "8062491"
 ## <a name="video"></a>Myndband
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-The [Bjóddu viðskiptavinum að skrá sig og nota viðskiptavinagáttina þína](https://youtu.be/drGUYHX9QIQ) myndbandið (sýnt hér að ofan) er innifalið í [Spilunarlisti fyrir fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) í boði á YouTube.
+Myndbandið [Bjóða viðskiptavinum að skrá sig og nota viðskiptavinagáttina](https://youtu.be/drGUYHX9QIQ) (sýnt hér að neðan) er innifalið í [Finance and Operations spilunarlistanum](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er hægt að nálgast í YouTube.
 
 ## <a name="prerequisite-setup"></a>Uppsetning frumskilyrða
 
-Tengiliðir í Power Apps-gáttum eru vistaðir sem færslur í töflunni **Tengiliðir** í Microsoft Dataverse. Tvíritun samstillir síðan þessar færslur við Microsoft Dynamics 365 Supply Chain Management eftir þörfum.
+Tengiliðir í Power Apps-gáttum eru vistaðir sem færslur í einingunni **Tengiliðir** í Common Data Service. Tvíritun samstillir síðan þessar færslur við Microsoft Dynamics 365 Supply Chain Management eftir þörfum.
 
-![Skýringarmynd kerfis fyrir tengiliði viðskiptavinagáttar.](media/customer-portal-contacts.png "Skýringarmynd kerfis fyrir tengiliði viðskiptavinagáttar")
+![Skýringarmynd kerfis fyrir tengiliði viðskiptavinagáttar](media/customer-portal-contacts.png "Skýringarmynd kerfis fyrir tengiliði viðskiptavinagáttar")
 
-Áður en hafist er handa við að bjóða nýja viðskiptavini skal ganga úr skugga um að búið sé að virkja töfluvörpunina **Tengiliðir** í tvíritun.
+Áður en hafist er handa við að bjóða nýja viðskiptavini skal ganga úr skugga um að búið sé að virkja einingavörpunina **Tengiliðir** í tvíritun.
 
 ## <a name="the-invitation-process"></a>Boðsferlið
 
-Ef bjóða á fyrirliggjandi tengiliði í viðskiptavinagáttina skal fylgja skrefunum í [Bjóða tengiliðum í gáttirnar](/powerapps/maker/portals/configure/invite-contacts) í fylgiskjölum Power Apps-gátta.
+Ef bjóða á fyrirliggjandi tengiliði í viðskiptavinagáttina skal fylgja skrefunum í [Bjóða tengiliðum í gáttirnar](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) í fylgiskjölum Power Apps-gátta.
 
-Áður en viðskiptavini er boðið í viðskiptavinagáttina skal ganga úr skugga um að [tengiliðafærsla](/powerapps/maker/portals/configure/configure-contacts) viðskiptavinar sé til staðar og uppsett á eftirfarandi hátt:
+Áður en viðskiptavini er boðið í viðskiptavinagáttina skal ganga úr skugga um að [tengiliðafærsla](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) viðskiptavinar sé til staðar og uppsett á eftirfarandi hátt:
 
 1. Stillið reitinn **Fyrirtæki** á lögaðilann sem viðskiptavinurinn á að tilheyra í Supply Chain Management.
 2. Stillið reitinn **Lykilnúmer** á númer viðskiptavinalykilsins sem notandinn á að hafa í Supply Chain Management.
 
 Eftir að tengiliður er stofnaður ætti að vera hægt að sjá hann í Supply Chain Management.
 
-Frekari upplýsingar er að finna í [Skilgreina tengilið til að nota í gátt](/powerapps/maker/portals/configure/configure-contacts) í fylgiskjali Power Apps-gátta.
+Frekari upplýsingar er að finna í [Skilgreina tengilið til að nota í gátt](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) í fylgiskjali Power Apps-gátta.
 
-## <a name="out-of-box-web-roles-and-table-permissions"></a>Tilbúin vefhlutverk og heimildir tafla
+## <a name="out-of-box-web-roles-and-entity-permissions"></a>Tilbúin vefhlutverk og heimildir eininga
 
-Notandahlutverk í Power Apps-gáttum eru skilgreind samkvæmt [vefhlutverkum](/powerapps/maker/portals/configure/create-web-roles) og [töfluheimildum](/powerapps/maker/portals/configure/assign-entity-permissions). Nokkur hlutverk eru skilgreind fyrir tilbúnu viðskiptavinagáttina. Hægt er að búa til ný hlutverk og hægt er að breyta eða fjarlægja fyrirliggjandi hlutverk.
+Notandahlutverk í Power Apps-gáttum eru skilgreind samkvæmt [vefhlutverkum](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) og [heimildum eininga](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Nokkur hlutverk eru skilgreind fyrir tilbúnu viðskiptavinagáttina. Hægt er að búa til ný hlutverk og hægt er að breyta eða fjarlægja fyrirliggjandi hlutverk.
 
 ### <a name="out-of-box-web-roles"></a>Tilbúin vefhlutverk
 
 Þessi hluti útskýrir vefhlutverkin sem afhent eru með viðskiptavinagáttinni.
 
-Frekari upplýsingar um hvernig á að breyta tilbúnum notendahlutverkum er að finna í [Búa til vefhlutverk fyrir gáttir](/powerapps/maker/portals/configure/create-web-roles) og [Bæta við öryggi byggt á færslum með því að nota töfluheimildir fyrir gáttir](/powerapps/maker/portals/configure/assign-entity-permissions) í fylgiskjölum Power Apps-gátta.
+Frekari upplýsingar um hvernig á að breyta tilbúnum notendahlutverkum er að finna í [Búa til vefhlutverk fyrir gáttir](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) og [Bæta við öryggi byggt á færslum með því að nota heimildareiningar fyrir gáttir](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) í fylgiskjölum Power Apps-gátta.
 
 #### <a name="administrator"></a>Kerfisstjóri
 
@@ -88,12 +90,9 @@ Eftirfarandi tafla sýnir hvaða sölupantanir notendur í hverju vefhlutverki f
 
 | Sölupöntun | Kerfisstjóri | Fulltrúi viðskiptavinar fyrir viðskiptavin&nbsp;X | Heimilaður notandi: Jane | Heimilaður notandi: Sam | Ekki heimilaður notandi: May |
 |---|---|---|---|---|---|
-| Viðskiptavinur&nbsp;X Pöntunaraðili:&nbsp;Jane | Já | Já | Já | Nei | Nei |
-| Viðskiptavinur&nbsp;X Pöntunaraðili:&nbsp;Sam | Já | Já | Nei | Já | Nei |
-| Viðskiptavinur&nbsp;Y Pöntunaraðili:&nbsp;May | Já | Nei | Nei | Nei | Nei |
+| Viðskiptavinur&nbsp;X Pöntunaraðili:&nbsp;Jane | Já | Já | Já | Ekkert | Ekkert |
+| Viðskiptavinur&nbsp;X Pöntunaraðili:&nbsp;Sam | Já | Já | Ekkert | Já | Ekkert |
+| Viðskiptavinur&nbsp;Y Pöntunaraðili:&nbsp;May | Já | Ekkert | Ekkert | Ekkert | Ekkert |
 
 > [!NOTE]
 > Þótt bæði Sam og Jane séu tengiliðir sem vinna fyrir viðskiptavin X geta þau aðeins séð þær pantanir sem þau hafa gert og ekkert annað. Þótt May sé með pöntun í kerfinu, getur hún ekki séð pöntunina í viðskiptavinagáttinni því að hún er ekki með heimild. (Auk þess hlýtur hún að hafa verið lagt pöntunina inn í gegnum aðra rás en viðskiptavinagáttina.)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

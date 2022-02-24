@@ -1,10 +1,12 @@
 ---
 title: Niðurtími vegna viðhalds fyrir verkbeiðnir
 description: Þetta efnisatriði lýsir því hvernig á að stofna niðurtímaskráningar vegna viðhalds á eigninni sem er valin í verkbeiðni.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 38c47a47fdf64c1d3601f6f3f7b84bf128823ec2ceb0c50e586822f6bdb97906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53487a0173453ef7a8f5ea818672d999fe71cb65
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753373"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020912"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Niðurtími vegna viðhalds fyrir verkbeiðnir
 
@@ -45,7 +47,7 @@ ms.locfileid: "6753373"
 
 Myndin hér að neðan sýnir dæmi um síðuna **Ástæðukóðar niðurtíma vegna viðhalds**.
 
-![Mynd 1.](media/15-work-orders.png)
+![Mynd 1](media/15-work-orders.png)
 
 Þegar þú hefur búið til þá ástæðukóða niðurtíma vegna viðhalds sem þú vilt nota, getur þú búið til skráningar á niðurtími vegna viðhalds fyrir verkbeiðnir og eignir.
 
@@ -71,21 +73,18 @@ Myndin hér að neðan sýnir dæmi um síðuna **Ástæðukóðar niðurtíma v
 
 Eftirfarandi skýringarmynd hér að neðan sýnir dæmi um skráningu á niðurtíma vegna viðhalds.
 
-![Mynd 2.](media/16-work-orders.png)
+![Mynd 2](media/16-work-orders.png)
 
 Dagatalið sem notað er til að reikna út skráningu niðurtíma vegna viðhalds fer eftir vali þínu við uppsetningu eigna og færibreytur. Ef tilföng eru valin á eign í reitnum **Tilföng** á flýtiflipanum **Föst eign** á síðunni **Allar eignir** er datalið sem sett var upp fyrir tengdan tilfangahóp notað, eins og sýnt er á myndinni hér á eftir.
 
-![Mynd 3.](media/17-work-orders.png)
+![Mynd 3](media/17-work-orders.png)
 
 Ef engin tilföng eru valin á eigninni er staðlað dagatal sem valið er á síðunni **Færibreytum eignastýringar** notað, eins og sýnt er á eftirfarandi skýringarmynd.
 
-![Mynd 4.](media/18-work-orders.png)
+![Mynd 4](media/18-work-orders.png)
 
 Til að sjá yfirlit yfir allar skráningar á niðurtíma vegna viðhalds smellirðu á **Eignastjórnun fyrirtækja** > **Fyrirspurnir** > **Niðurtími vegna viðhalds**.
 
 >[!NOTE]
 >Öll dagatöl sem eru notuð í einingunni **Eignastjórnun** eru sett upp í **Fyrirtækisstjórnun** > **Uppsetning** > **Dagatöl** > **Dagatöl**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

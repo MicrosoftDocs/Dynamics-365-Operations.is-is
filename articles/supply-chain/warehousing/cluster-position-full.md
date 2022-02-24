@@ -2,23 +2,26 @@
 title: Staðsetning klasa er full
 description: Þetta efnisatriði veitir upplýsingar um eiginleikann fyrir fulla staðsetningu klasa. Þessi eiginleiki býður upp á aðra leið í stað ósveigjanlegar framkvæmdar á reglum um vinnuskiptingu þegar klasatiltekt er notuð, því að leyfð skekkjumörk rúmmálsins eru víðari fyrir gáma eða farm.
 author: Mirzaab
+manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a23168b550bfa2bb6a51c8df5d0a558431c23ebb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574258"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430693"
 ---
 # <a name="cluster-position-full"></a>Staðsetning klasa er full
 
@@ -211,7 +214,7 @@ Tvö vinnukenni ættu að hafa verið stofnuð, hvert þeirra með tveimur tilte
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>Framkvæmd flæðis í fartæki - Uppsetning verkstaðfestingar fyrir afurðina
 
-1. Skráðu þig inn í farsímaforrit vöruhúsakerfis sem notandi í vöruhúsi *61*.
+1. Skráðu þig inn í vöruhúsaforritið sem notandi í vöruhúsi *61*.
 1. Farið í **Á útleið \> stofnun klasatiltektar**.
 
     Síðan **VERK: Úthluta vinnu á klasa** birtist.
@@ -273,6 +276,3 @@ Hvenær sem er í eftirfarandi skrefum er hægt að velja flipann **Upplýsingar
     Skilaboðin „Klasa er lokið“ birtast.
 
 Nú er hægt að nota valmyndaratriðið **Tiltekt sölu** til að tína eftirstandandi magn. Síðan er hægt að nota valmyndaratriðið **Hleðsla sölu** til að færa vörurnar úr geymslustaðsetningu yfir á dreifingarstað.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

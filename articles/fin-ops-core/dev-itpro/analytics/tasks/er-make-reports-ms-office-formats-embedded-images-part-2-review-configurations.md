@@ -1,10 +1,12 @@
 ---
 title: Yfirfara skilgreiningar til að búa til skýrslur á Office-sniði með innfelldum myndum
-description: Í þessu efnisatriði er útskýrt hvernig á að hanna skilgreiningar skýrslugerðar til að mynda rafræn skjöl sem innihalda innfelldar myndir. (Hluti 1 – Setja upp færibreytur).
+description: 'Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar „Rafræn skýrslugerð í MS Office sniði með ívafnar myndir (Hluti 1: Setja upp færibreytur)“.'
 author: NickSelin
+manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f209fcbac310dffb654f7830a4d4b12fa95d7a461b681864b8c9b547f4a4986c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c41ff1ba99411b97ea2b5d9f31bdee7c7701315
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717571"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684356"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Yfirfara skilgreiningar til að búa til skýrslur á Office-sniði með innfelldum myndum
 
@@ -89,6 +91,3 @@ Ferlið sýnir hvernig skal hanna Rafræna skýrslugerð (ER) grunnstillingar þ
     * Sumir merkimiðar sem birtast í forprentuðu ávísanaforminu verða með í skýrslunni þegar hún er stofnuð til prófunar. Þessir merkimiðar verða samt sem áður ekki prentaðir þegar raunprentun fer fram, vegna þess að forprentaða formið inniheldur þá nú þegar.  
 15. Lokið síðunni.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -56,6 +56,3 @@ Breytingarnar í þessari viku leiðrétta mál þar sem ekki var hægt að búa
 ### <a name="current-balance-report-in-leave-pbi-doubles-employee-balance-385581"></a>Skýrsla yfir gildandi stöðu í leyfi PBI tvöfaldar stöðu starfsmanna (385581)
 
 Þessi breyting leiðréttir gildandi stöðuskýrslu í þessari atburðarás.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

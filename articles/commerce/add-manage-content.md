@@ -1,31 +1,36 @@
 ---
 title: Leiðir til að bæta við efni
-description: Í þessu efnisatriði er að finna yfirlit og tengla á það hvar og hvernig á að hefja efnisstjórnun með Microsoft Dynamics 365 Commerce verkfærasafni síðusmiðs.
+description: Þetta efni veitir yfirlit og velur tengla fyrir hvar og hvernig skuli hefja umsjón með efni með Microsoft Dynamics 365 Commerce höfundatóli fyrir byggingu vefsvæða.
 author: phinneyridge
+manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8a2dbb7bc7659e2e23b0ba6e2b5645dbe508ef9c9bda10df3bad8d04a6cfb32
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 802a41b8c55e65eee58d26137c2f160b69847010
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727679"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413106"
 ---
 # <a name="ways-to-add-content"></a>Leiðir til að bæta við efni
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna yfirlit og tengla í fylgigögn um hvernig á að stjórna efni með Microsoft Dynamics 365 Commerce verkfærasafni vefsmiðs.
+Þetta efni veitir yfirlit og tengla á fylgiskjöl um hvernig skuli hafa umsjón með efni með Microsoft Dynamics 365 Commerce höfundatóli fyrir byggingu vefsvæða.
+
+## <a name="overview"></a>Yfirlit
 
 Það eru margar leiðir til að breyta útliti og innihaldi vefsvæðisins. Aðrir en forritarar geta útfært margar þessara breytinga í vefhöfundatólið fyrir byggingu vefsvæða sem fylgir með Dynamics 365 Commerce, eftir því hvaða stig sérsniðs vantar. Vefsvæðistólið gerir þér kleift að smíða sniðmát, velja þemu og velja og stilla einingar án þess að skrifa neinn kóða. Aftur á móti þarf forritunarhæfileika til að búa til nýtt þema eða einingu, vegna þess að nota verður hugbúnaðarþróunarbúnað rafrænna viðskipta (SDK) og Microsoft Dynamics virkjunarverkflæði fyrir Lifecycle Services (LCS).
 
@@ -52,6 +57,3 @@ Veldu eitt af eftirfarandi efnisatriðum til að byrja.
 [Staða og líftími skjala](document-states-overview.md)
 
 [Virkja og nota deilingu milli rása](cross-channel-sharing.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

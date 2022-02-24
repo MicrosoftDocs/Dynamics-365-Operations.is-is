@@ -2,9 +2,11 @@
 title: Bóka tímabilsbækur
 description: Tímabilsbækur eru stundum kallaðir endurteknar færslubækur þar sem upphæð, texti og aðrar upplýsingar eru endurteknar í hvert sinn sem er sótt í tímabilsbók.
 author: aprilolson
+manager: AnnBe
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransPeriodic, LedgerJournalTransDaily
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 214a7618bbec1d30212f7c53b7086ee0d5da4e6b5de40d11d3bf16399b812597
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99d157e82f8451e2c8f0bc7946ba30ca48e99add
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763119"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968505"
 ---
 # <a name="post-periodic-journals"></a>Bóka tímabilsbækur
 
@@ -55,6 +57,3 @@ Tímabilsbækur eru stundum kallaðir endurteknar færslubækur þar sem upphæ�
 27. Í reitnum **Tímabilsbækur** skal slá inn eða velja gildi.
 28. Í listanum skal smella á tengilinn í valinni línu.
 29. Smellt er á **OK**. Nú er hægt að endurskoða, samþykkja eða bóka tímabilsbók eftir þörf og uppsetningu.   
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

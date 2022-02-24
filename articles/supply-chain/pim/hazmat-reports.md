@@ -1,27 +1,31 @@
 ---
 title: Fyrirspurnir og skýrslur um hættuleg efni
 description: Þetta efnisatriði útskýrir hvernig á að vinna með ýmsar skýrslur sem tengjast hættulegum efnum. Margar þessara skýrslna eru nauðsynlegar svo að þú fylgir ýmsum reglugerðum varðandi hættuleg efni við sendingu og geymslu.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 188c339ddf5f5c2488133924e9a0288f218f495c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568544"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430369"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Fyrirspurnir og skýrslur um hættuleg efni
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management býður upp á ýmsar skýrslur sem tengjast hættulegum efnum. Margar þessara skýrslna eru nauðsynlegar svo að þú fylgir ýmsum reglugerðum varðandi hættuleg efni við sendingu og geymslu.
 
@@ -29,7 +33,7 @@ Allar þessar skýrslur, nema skýrslan **Fjölþættur hættulegur varningur**,
 
 Eftirfarandi mynd sýnir röð verkþátta sem eiga sér stað þegar kerfið myndar skýrslur fyrir hættuleg efni.
 
-![Röð verkþátta fyrir skýrslur fyrir hættuleg efni.](media/hazmat-report-sequence.png "Röð verkþátta fyrir skýrslur fyrir hættuleg efni")
+![Röð verkþátta fyrir skýrslur fyrir hættuleg efni](media/hazmat-report-sequence.png "Röð verkþátta fyrir skýrslur fyrir hættuleg efni")
 
 ## <a name="set-up-hazardous-materials-reporting"></a><a name="set-up"></a>Setja upp skýrslur fyrir hættuleg efni
 
@@ -106,6 +110,3 @@ Til að mynda og prenta þessa skýrslu skal fara í **Vöruhúsastjórnun \> Se
 ## <a name="packing-list-report"></a>Skýrsla pökkunarskráar
 
 Þegar kveikt er á eiginleikann fyrir hættuleg efni í kerfinu er inniheldur pökkunarlistinn viðbótarupplýsingar sem tengjast prenttexta sendingar fyrir vöru. Þessi skýrsla er í boði á síðunni **Allar hleðslur**, eins og venjulega.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

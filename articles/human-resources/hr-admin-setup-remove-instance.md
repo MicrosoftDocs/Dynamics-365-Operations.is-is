@@ -1,32 +1,33 @@
 ---
 title: Fjarlægja tilvik
-description: Þetta efnisatriði fer með þig í gegnum ferlið við að fjarlægja prufukeyrslu eða framleiðsluumhverfi fyrir Microsoft Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 08/11/2021
+description: Þessi grein fer með þig í gegnum ferlið við að fjarlægja prufukeyrslu eða framleiðsluumhverfi fyrir Microsoft Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e32058280d0cb1eab436bc25bd29bc3e39fabc92
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393498"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419059"
 ---
 # <a name="remove-an-instance"></a>Fjarlægja tilvik
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Þetta efnisatriði lýsir hvernig á að fjarlægja prufukeyrslu eða framleiðsluumhverfi fyrir Microsoft Dynamics 365 Human Resources.
+Þessi grein fer með þig í gegnum ferlið við að fjarlægja prufukeyrslu eða framleiðsluumhverfi fyrir Microsoft Dynamics 365 Human Resources.
 
 ## <a name="remove-a-test-drive-environment"></a>Fjarlægja prufukeyrsluumhverfi
 
@@ -41,7 +42,7 @@ Núverandi umhverfi prufukeyrslu verður fjarlægt. Þegar það er fjarlægt ge
 
 ## <a name="remove-a-production-environment"></a>Fjarlægja framleiðsluumhverfi
 
-Þetta efnisatriði gerir ráð fyrir að þú hafir keypt Human Resources í gegnum Cloud Solution Provider (CSP) eða samkomulag um skipulag fyrirtækis (EA). 
+Þeessi grein gerir ráð fyrir að þú hafir keypt Human Resources í gegnum Cloud Solution Provider (CSP) eða Enterprise Architecture (EA). 
 
 Vegna þess að eitt Human Resources umhverfi er innifalið í einu Power Apps umhverfi, eru tveir valkostir sem þarf að hafa í huga. Fyrsti valkosturinn felur í sér að fjarlægja allt Power Apps umhverfið; annar valkosturinn felur í sér að fjarlægja aðeins Human Resources. Fyrsti kosturinn er valinn þegar þú hefur búið til Power Apps umhverfi sérstaklega með það fyrir augum að ráðstafa Human Resources, og þú hefur nýverið hafið framkvæmd eða þú hefur ekki sett af stað neinar samþættingar. Annar kosturinn er viðeigandi þegar þú hefur komið fyrir Power Apps umhverfi sem er útfyllt af ríkulegum gögnum sem eru fengin úr Power Apps og Power Automate.
 
@@ -80,10 +81,7 @@ Til að endurheimta umhverfið:
 
 1. Fylgið leiðbeiningunum í [Endurheimta Power Apps-umhverfið](/power-platform/admin/recover-environment.md).
 
-2. Hafa skal samband við notendaþjónustu til að endurheimta umhverfi Human Resources. Frekari upplýsingar er að finna í [Fá stuðning](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+2. Hafa skal samband við notendaþjónustu til að endurheimta umhverfi Human Resources. Frekari upplýsingar er að finna í [Fá stuðning](hr-admin-troubleshooting-support.md).
 
 > [!Warning]
 > Power Apps-umhverfi eru aðeins vistuð í sjö daga frá eyðingu. Nauðsynlegt er að endurheimta umhverfið innan þessara sjö daga.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

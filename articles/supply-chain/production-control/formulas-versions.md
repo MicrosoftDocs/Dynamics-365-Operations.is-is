@@ -1,27 +1,30 @@
 ---
 title: Formúlur og formúluútgáfar
 description: Þetta efnisatriði veitir upplýsingar um formúlur og formúluútgáfur. Formúla skilgreinir efni, innihaldsefni og niðurstöður tiltekins ferils í framleiðsluferli. Formúlur eru notaðar til að skipuleggja og framleiða vörur í framleiðsluferli.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 09/12/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca7111811d14aaf0f6c8b814877897884e4cd76f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c7fb37483412fdd09fe3734ddb148b050ec02951
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570274"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430267"
 ---
 # <a name="formulas-and-formula-versions"></a>Formúlur og formúluútgáfar
 
@@ -68,6 +71,3 @@ Aðeins er hægt að nota kvörðunareiginleikann ef allir íhlutir vörunnar í
 
 ## <a name="use-step-consumption"></a>Nota skrefanotkun
 Með skrefaneyslu þarf ekki að slá inn magn á flipann **Formúlulína** fyrir innihaldsefni. Í staðinn er skrefaneysla stillt þannig að það hefur gildi **Frá-röð** og **Magn**. Upplýsingarnar úr skrefaneyslu eftir skrefafærslu sem passar við magnið á runupöntuninni eru þess í stað valdar. Skrefanotkun er gagnleg þegar neysluhlutfallið er ekki línulegt við runupöntunarstærð og eykur aðeins kröfur þegar tilteknum magnþröskuldi er náð. Til að virkja þennan eiginleika fyrir nýja formúlu skal, undir **Útreikningur notkunar**, breyta formúlustillingu fyrir viðeigandi innihaldsefni úr **Venjulegt** í **Skref**. Þessi neysluaðferð er tilgreind á flipanum **Uppsetning** á síðunni **Formúlulína**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

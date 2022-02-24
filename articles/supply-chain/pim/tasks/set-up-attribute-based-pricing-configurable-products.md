@@ -1,24 +1,27 @@
 ---
 title: Setja upp verð sem byggir á eigindum fyrir skilgreinanlegar afurðir
 description: Þetta efni útskýrir hvernig á að setja upp eigindabyggða úthlutun.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCPriceModelList, PCPriceModel, PCConstraintEditor
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c4acd7b423396124dd1059602f5aa6460ec5e259
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3a75f3afcf4761ac6a9575eae9a620a1e9f01c8e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578153"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430182"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Setja upp verð sem byggir á eigindum fyrir skilgreinanlegar afurðir
 
@@ -28,18 +31,17 @@ ms.locfileid: "7578153"
 
 
 ## <a name="create-a-new-price-model"></a>Búa til nýtt verðlíkan
-
-1. Farið í **Afurðarupplýsingastjórnun \> Afurðir \> Afbrigðalíkön afurða**.
-1. Á listanum velurðu línuna fyrir **Hágæða hátalara** en velur ekki tengilinn fyrir heitið.
-1. Í aðgerðarúðunni skal velja **Tegund**.
-1. Veldu **Verðlíkön**.
-1. Veljið **Nýtt**.
-1. Í reitinn **Verðlíkan** skal rita gildi. Notið nafn sem gerir auðvelt að bera kennsl á líkan.  
-1. Í reitinn **Lýsing** skal slá inn gildi.
-1. Veljið **Vista**.
+1. Veldu **Skilgreining afurðarafbrigðislíkans** á heimasíðunni.
+2. Veldu **Afbrigðalíka afurðar** í kaflanum **Tenglar**.
+3. Á listanum velurðu línuna fyrir **Hágæða hátalara** en velur ekki tengilinn fyrir heitið.
+4. Í aðgerðarúðunni skal velja **Tegund**.
+5. Veldu **Verðlíkön**.
+6. Veljið **Nýtt**.
+7. Í reitinn **Verðlíkan** skal rita gildi. Notið nafn sem gerir auðvelt að bera kennsl á líkan.  
+8. Í reitinn **Lýsing** skal slá inn gildi.
+9. Veljið **Vista**.
 
 ## <a name="add-price-elements"></a>Bæta við verðeiningum
-
 1. Veljið **Breyta**. Hver íhlutur í framleiðslulíkani getur haft grunnverð einingu og fjölda verðsegðarreglna. Einnig er hægt að bæta verði í mismunandi gjaldmiðlum.  
 2. Í reitinn **Grunnverðssegð** skal slá inn gildi. Til dæmis, skrifið 100. Grunnverðssegð getur verið tölugildi eða það getur verið samsett af útreikningi sem felur í sér eina eða fleiri eigindir.  
 3. Veljið **Bæta við**.
@@ -50,6 +52,3 @@ ms.locfileid: "7578153"
 8. Í reitinn **Segð** skal slá inn gildi. Til dæmis, slá inn `50`. 
 9. Lokið síðunni.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

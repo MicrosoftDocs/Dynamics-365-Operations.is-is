@@ -1,25 +1,28 @@
 ---
 title: Leiðrétta birgðarakningarupplýsingar
 description: Þetta ferli fer í gegnum ferlið fyrir stofnun og bókun á birgðaflutningabók til að leiðrétta rakningarupplýsingar birgða.
-author: yufeihuang
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventBatchIdLookup, InventLocationIdLookup, InventDimTracking, InventTrans
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69921651ecd0969e9cdd3cdd3740db212a1953e1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a8a488d4c30923445b3ebc2626a79b8fa45012c7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573802"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430601"
 ---
 # <a name="correct-inventory-tracking-information"></a>Leiðrétta birgðarakningarupplýsingar
 
@@ -61,6 +64,3 @@ ms.locfileid: "7573802"
 2. Smella á Færslur.
     * Hér er hægt að sjá færslurnar sem voru stofnaðar þegar þitt færslubók var bókuð.   
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

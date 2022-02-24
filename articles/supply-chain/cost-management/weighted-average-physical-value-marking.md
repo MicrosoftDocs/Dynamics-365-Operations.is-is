@@ -2,26 +2,29 @@
 title: Vegið meðaltal með efnislegt virði og merkingu
 description: Vegið meðaltal er birgðalíkan sem byggist á reglunni um vegið meðaltal, þar sem úthreyfingar úr birgðum eru metnar á meðalgildi varanna sem tekið er á móti inn í birgðirnar á birgðalokunartímabilinu, auk allra lagerbirgða úr fyrra tímabili.
 author: AndersGirke
+manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
 ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: aevengir
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d94e61384ad2d0880a6d62b963e9a99518a41db1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 225379df8bb86522d5817add570d614d09a1a92d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572002"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430173"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Vegið meðaltal með efnislegt virði og merkingu
 
@@ -65,7 +68,7 @@ Reglan um beina jöfnun er sú sama og notuð er fyrir vegið meðaltal í fyrri
 
 Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af því að velja birgðalíkan vegins meðaltals og regluna um beina jöfnun án valkostarins taka með efnislegt virði. 
 
-![Vegið meðaltal beinnar jöfnunar án Taka efnislegt virði með.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![Vegið meðaltal beinnar jöfnunar án Taka efnislegt virði með](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
@@ -99,7 +102,7 @@ Eftirfarandi færslur eru sýndar í myndrænt fyrir neðan:
 
 Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af því að velja birgðalíkan vegins meðaltals og regluna um samantekna beina jöfnun án valkostarins taka með efnislegt virði. 
 
-![Vegið meðaltal samantekinnar jöfnunar án Taka efnislegt virði með.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Vegið meðaltal samantekinnar jöfnunar án Taka efnislegt virði með    ](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
@@ -128,7 +131,7 @@ Eftirfarandi færslur birtast á myndinni hér fyrir neðan:
 
 Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af því að velja birgðalíkan vegins meðaltals og regluna um beina jöfnun með valkosti Hafa með efnislegt virði. 
 
-![Vegið meðaltal beinnar jöfnunar með Taka efnislegt virði með.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![Vegið meðaltal beinnar jöfnunar með Taka efnislegt virði með    ](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
@@ -161,7 +164,7 @@ Eftirfarandi færslur eru sýndar í myndrænt fyrir neðan:
 
 Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af því að velja birgðalíkan vegins meðaltals og regluna um beina jöfnun án valkostarins taka með efnislegt virði. 
 
-![Vegið meðaltal samantekinnar jöfnunar með Taka efnislegt virði með.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![Vegið meðaltal samantekinnar jöfnunar með Taka efnislegt virði með    ](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
@@ -209,7 +212,7 @@ Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið
 
 Eftirfarandi skýringarmynd sýnir þessar raðir af færslum og áhrifum þess að merkja við birgðalíkan vegins meðaltals. 
 
-![Vegið meðaltal með Merkingu.](./media/weightedaveragewithmarking.gif) 
+![Vegið meðaltal með Merking](./media/weightedaveragewithmarking.gif) 
 
 **Lykill að skýringarmynd**
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
@@ -227,6 +230,3 @@ Eftirfarandi skýringarmynd sýnir þessar raðir af færslum og áhrifum þess 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

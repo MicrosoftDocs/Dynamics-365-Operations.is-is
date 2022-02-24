@@ -1,23 +1,26 @@
 ---
 title: Sjálfvirk úthlutun gjalda
 description: Eiginleiki gjalda í Microsoft Dynamics 365 Supply Chain Management auðveldar þér að úthluta gjöldum sjálfkrafa á innkaupapantanir eða sölupantanir.
-author: Henrikan
-ms.date: 09/30/2021
+author: dasani-madipalli
+manager: tfehr
+ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: damadipa
 ms.search.validFrom: 2020-10-01
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6032539e57961998e7130e9cb6578248aaa2843e
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
+ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592541"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430633"
 ---
 # <a name="automatic-allocation-of-charges"></a>Sjálfvirk úthlutun gjalda
 
@@ -26,16 +29,6 @@ ms.locfileid: "7592541"
 Hægt er að nota tiltekin viðbótargjöld út frá viðskiptavininum sem þú ert að vinna með eða vörunni sem þú ert að selja. Eiginleiki *gjalda* í Microsoft Dynamics 365 Supply Chain Management auðveldar þér að úthluta gjöldum sjálfkrafa á innkaupapantanir eða sölupantanir.
 
 Sjálfvirk gjöld eru sjálfkrafa notuð þegar búin er til sölupöntun eða innkaupapöntun. Hægt er að skilgreina sjálfvirk gjöld fyrir tiltekna lánardrottna, viðskiptavini, lánardrottnaflokka eða vörur. Einnig er hægt að skilgreina sjálfvirk gjöld sem eiga við alla lánardrottna, viðskiptavini eða vöru.
-
-## <a name="set-up-parameters"></a>Setja upp færibreytur
-
-Síðan **Færibreytur innkaupa og aðfanga** er með nokkrar stillingar sem eiga sérstaklega við þegar ætlunin er að úthluta gjöldum sjálfkrafa. Fylgið eftirfarandi skrefum til að ljúka þessari uppsetningu.
-
-1. Opnið **Innkaup og aðföng \> Uppsetning \> Færibreytur innkaupa og aðfanga**.
-1. Opnaðu flipann **Verð**.
-1. Í flipanum **Verð** skal stilla eftirfarandi:
-    - **Finna sjálfvirk gjöld fyrir haus** – Tilgreinir hvort sjálfkrafa eigi að úthluta gjöldum fyrir hausa innkaupapantana. Stilltu þetta á *Já* til að nota sjálfvirka úthlutun gjalda.
-    - **Finna sjálfvirk gjöld fyrir línu** – Tilgreinir hvort sjálfkrafa eigi að úthluta gjöldum fyrir línur innkaupapantana. Stilltu þetta á *Já* til að nota sjálfvirka úthlutun gjalda.
 
 ## <a name="set-up-charges-codes"></a>Setja upp gjaldakóða
 
@@ -154,7 +147,7 @@ Eftir að gjaldakóðar eru settir upp skal fylgja þessum skrefum til að skilg
     - **Svæði** og **Vöruhús** – Tilgreinið svæði og vöruhús ef aðeins á að nota gjöld fyrir tiltekið svæði og vörhús.
     - **Halda** - Veljið þennan gátreit til að halda færslugjöldunum eftir að reikningsfærslu er lokið, svo að gjaldið verið notað í hvert skipti sem nýr reikningur er stofnaður fyrir valinn viðskiptavinalykil.
 
-1. **Aðeins fyrir sölupantanir:** Ef á að reikna út stigskipt gjöld skal skoða [Stigskipt gjöld í sölupöntunum](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) til að fá upplýsingar.
+1. **Aðeins fyrir sölupantanir:** Ef á að reikna út stigskipt gjöld skal skoða [Stigskipt gjöld í sölupöntunum](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) til að fá upplýsingar.
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>Úthluta gjöldum úr hausnum í línu
 
@@ -184,6 +177,3 @@ Eftirfarandi ferli sýnir hvernig á að úthluta gjöldum hausastigs á línu. 
         > Þegar unnið er með hnitanetið **Velja línur sem á að sleppa úr úthlutun** skal ganga úr skugga um að skilja hnitanetið eftir opið þar til **Úthluta** er valið. Ef hnitanetinu er lokað áður en valið er **Úthluta** tapast stillingarnar í hnitanetinu. Gjöldum verður þar af leiðandi úthlutað samkvæmt skilyrðinu sem var skilgreint hér áður.
 
 1. Vejið **Úthluta** til að nota stillingarnar og loka gátreitnum.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

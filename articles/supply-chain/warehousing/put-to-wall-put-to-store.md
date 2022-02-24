@@ -2,23 +2,26 @@
 title: Setja á vegg - setja í verslun
 description: Þetta efnisatriði veitir upplýsingar um aðgerðina Setja á vegg - setja í verslun. Þessi virkni gerir þér kleift að takast á við atburðarásir þar sem þú verður að sameina vöru á biðsvæði forpökkunar, byggt á stillanlegu skilyrði. Hún hjálpar til við að draga úr tiltektartímanum vegna þess að hún gerir kleift að tína á eina marknúmeraplötu og getur notað fleiri frágangsstaðsetningar en klasatiltektir.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 372bb556ec1207096a8ff3c7df8bac9b7011b5c4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 12501b90e4b31ec11e3c59784ace9fd9a8b7d934
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574138"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430668"
 ---
 # <a name="put-to-wall---put-to-store"></a>Setja á vegg - setja í verslun
 
@@ -522,7 +525,7 @@ Nú þegar búið er að koma öllum birgðum fyrir í röðunarstaðsetningunni
 
 Ef loka á röðunarstaðsetningum handvirkt, verður valkosturinn **Loka sjálfkrafa röðun staðsetningar** fyrir flokkunarsniðmát á útleið að vera stillt á *Nei* og lokun verður að gera áður en hægt er að færa birgðir yfir á útskotssvæðið. Hægt er að loka stöðum á ýmsa vegu:
 
-- Í farsímaforriti vöruhúsakerfis:
+- Um vöruhúsaforrit:
 
     - Notandinn getur skannað eina vöruna sem er þegar í staðsetningunni og síðan valið **Loka** til að loka henni.
     - Ef notandi skannar gám sem þegar hefur verið raðað á gám, birtast villuboð. Notandinn getur samt haldið áfram að loka staðnum.
@@ -538,6 +541,3 @@ Ef loka á röðunarstaðsetningum handvirkt, verður valkosturinn **Loka sjálf
 
 > [!IMPORTANT]
 > Þegar vinna birgðahreyfingar hefur verið búin til í röðunarstaðsetningu, má ekki hætta við vinnuna. Annars verður staðnum og gámum hans eytt úr kerfinu og ekki tiltækir fyrir frekari úrvinnslu. Birgðir verða einnig fjarlægðar.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

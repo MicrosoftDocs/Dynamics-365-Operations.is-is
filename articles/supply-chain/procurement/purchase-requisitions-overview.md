@@ -1,28 +1,28 @@
 ---
 title: Yfirlit yfir „Innkaupabeiðni“
 description: Þetta efnisatriði lýsir verkflæði innkaupabeiðna og þeim mismunandi stöðum sem innkaupabeiðni getur verið með.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 11/02/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2174"
-- intro-internal
+ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: acd0deebe79e29bd1beb32ea21cd179f5bf12c43
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 189debe46ea28808cf3081a7d8f49686298e8c8e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982903"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020080"
 ---
 # <a name="purchase-requisition-overview"></a>Yfirlit yfir „Innkaupabeiðni“
 
@@ -49,7 +49,7 @@ Hægt er að skilgreina verkflæðisferli innkaupabeiðni til að beina innkaupa
 
 Eftirfarandi skýringarmynd sýnir stöðurnar sem eru úthlutaðar á innkaupabeiðni og innkaupabeiðnilínu þar sem þau fara gegnum ferlið verkflæði.  
 
-[![Haus og línustöður innkaupabeiðni.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Haus og línustöður innkaupabeiðni](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Vensl hauss og línustöðu innkaupabeiðni
 
@@ -181,7 +181,7 @@ Til að stofna innkaupabeiðnilínur sem eru ekki hæfar fyrir sameiningu eftirs
 
 Ferlið við sameiningu eftirspurnar hefst á tímapunkti þegar innkaupabeiðni hefur verið samþykkt í verkflæði og frátektir fjárhagsáætlunar og verið er að skrá áætlaðar fjárúthlutanir ef fjárhagsáætlunarstýring er skilgreint fyrir þitt fyrirtæki. Eftirfarandi skýringarmynd sýnir vinnsluflæði fyrir sameiningu eftirspurnar.  
 
-[![Flæði ferla fyrir sameiningu eftirspurnar.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Flæði ferla fyrir sameining eftirspurnar](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Til að sameina samþykktar innkaupabeiðnilínur, skal fylgja þessum skrefum:
 
@@ -192,7 +192,8 @@ Til að sameina samþykktar innkaupabeiðnilínur, skal fylgja þessum skrefum:
 5.  Stofna innkaupapantanir fyrir sameinaðar innkaupabeiðnilínur eða innkaup innkaupabeiðnilínur í sameiningu tækifæri.
 
 
-## <a name="additional-resources"></a>Frekari upplýsingar
+<a name="additional-resources"></a>Frekari upplýsingar
+--------
 
 [Stofna beiðni um notkun](tasks/create-requisition-consumption.md)
 
@@ -200,6 +201,3 @@ Til að sameina samþykktar innkaupabeiðnilínur, skal fylgja þessum skrefum:
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

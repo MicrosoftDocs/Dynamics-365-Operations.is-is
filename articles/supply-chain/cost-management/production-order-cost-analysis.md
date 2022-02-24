@@ -2,9 +2,11 @@
 title: Kostnaðargreining framleiðslupöntunar
 description: Þessi skrá veitir upplýsingar um kostnaðargreiningar sem er hægt að gera fyrir loknar og gildandi framleiðslupantanir. Hægt er að greina áætlaðan kostnað og raunkostnað með því að nota síðuna Útreikningur á verði eða skýrsluna Kostnaðarmat og kostnaðarútreikningur. Hægt er að skoða upplýsingar um áætlaðan kostnað og raunkostnað (og magn) fyrir hverja íhlutavöru, leiðaraðgerð og óbeinan kostnað.
 author: AndersGirke
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage, ProdSetupHistoricalCost
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b0690a683cdefaeb5e441d3e2ea467a680a8fc1dd0905b6a94fd72bcbf36e1e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0858e0e9ed0f09a47954274a05f6da1a2537c4a3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734260"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967284"
 ---
 # <a name="production-order-cost-analysis"></a>Kostnaðargreining framleiðslupöntunar
 
@@ -41,7 +43,7 @@ Frávikin endurspegla samanburð á skráðum verkþáttum framleiðslu og útre
 
 Eftirfarandi skýringarmynd sýnir fjögur frávik sem útskýra mismuninn á milli raunkostnaðar framleiðslupöntunar og útreiknaðs kostnaðar innan kostnaðarfærslu vörunnar þegar lokið var við framleiðslupöntunina. 
 
-![Frávik sem útskýra mismun í lokinni framleiðslupöntun.](./media/control.jpg) 
+![Frávik sem útskýra mismun í lokinni framleiðslupöntun](./media/control.jpg) 
 
 Hægt er að greina framleiðslufrávik með því að nota síðuna **Frávik** eða skýrsluna **Framleiðslufrávik**. Notið valkosti um birtingu til að skoða einstök frávik eftir vöru og rekstrartilföngum, eða eftir kostnaðarflokki. Reglur um niðurbrot kostnaðar innan birgðafæribreyta ákvarðar hvort að frávikin verða rakin eftir kostnaðarflokki. Einnig er hægt að nota sýnimöguleikana **ein**, **margar**, og **samtals** til að skoða samantekt frávika. Nákvæmar upplýsingar um frávik hjálpa við að skilja orsakir hvers fráviks. Til þess að sjá fyrir frávik áður en lokið er við framleiðslupöntun, greinið hinar nákvæmu upplýsingar sem eru gefnar í skýrslunni **Kostnaðaráætlun og kostnaðarútreikningur**.
 
@@ -55,12 +57,10 @@ Aðskildar skýrslur veita upplýsingar fyrir hverja færslugerð. Notið þessa
 -   **Afurðir í vinnslu**− Skýrslan telur upp núverandi framleiðslupantanir og færslurnar sem skráðar eru sem lokið frá og með tiltekinni færsludagsetningu.
 
 
-## <a name="additional-resources"></a>Frekari upplýsingar
+<a name="additional-resources"></a>Frekari upplýsingar
+--------
 
 [Algengur uppruni framleiðslufrávika](common-sources-of-production-variances.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

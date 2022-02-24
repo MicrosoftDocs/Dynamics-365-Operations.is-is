@@ -209,6 +209,3 @@ Tilboðspakkar eru tilboðsgervingar sem eru deilt með umsækjanda og samanstan
 
 
 Til að læra meira um stofnunarferli tilboðs, sjá [Stofna, samþykkja og undirrita tilboð](./creating-offers.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

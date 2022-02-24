@@ -2,23 +2,26 @@
 title: Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu
 description: Þetta efnisatriði útskýrir hvernig á að nota fyrst inn, fyrst út (FIFO) og síðast inn , fyrst út (LIFO) aðferðir staðsetningarleiðbeiningarinnar við tiltekt.
 author: mirzaab
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 83f73052d1d9d8a29a80ce3cf1035a259cd92c17
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578585"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430654"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu
 
@@ -137,6 +140,3 @@ FIFO-aðferðin finnur staðsetningu sem inniheldur nýjustu aldursdagsetninguna
 1. Takið eftir að línan þar sem gildið **Vinnugerð** er *Tiltekt* sýnir gildi fyrir **Staðsetningu** á *FL-001*. Þessi staðsetning inniheldur númeraplötuna sem er með nýjasta aldursdagsetninguna (LIFO).
 
 Í þessum aðstæðum hefurðu séð hvernig aðferð aldursgreiningar staðsetningar stýrir vinnu á birgðastaðsetninguna sem er annaðhvort með elstu birgðirnar eða þær nýjustu, fer eftir því hvor aðferðin er valin.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

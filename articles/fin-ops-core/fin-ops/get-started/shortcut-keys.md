@@ -1,10 +1,12 @@
 ---
 title: Flýtilyklar
-description: Þetta efnisatriði veitir yfirlit yfir flýtilyklasamsetningarnar sem þú getur notað þegar þú ert að vinna með Finance and Operations forritum.
+description: Þetta efnisatriði inniheldur yfirlit yfir samsetningar flýtilykla sem þú getur notað þegar þú ert að vinna með Finance and Operations forrit.
 author: jasongre
-ms.date: 12/10/2021
+manager: AnnBe
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,21 +16,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ecf745337c15270290f02496cc6ce4ccac86861
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d2dee0b1eb911764ea68f9b6df5516bf2cb81d07
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070984"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798227"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
-Eftirfarandi flýtilykla geta hjálpað þér að slá inn gögn á fljótlegan og skilvirkan hátt í Finance and Operations öppum.
+Eftirfarandi flýtilyklar geta auðveldað að færa inn gögn á fljótlegan og skilvirkan hátt í Finance and Operations-forritum.
 
 > [!NOTE]
 > Flýtileiðir lyklaborðs sem hér er lýst vísa til bandarísks lyklaborðs. Lyklar á öðrum lyklaborðum samsvara hugsanlega ekki nákvæmlega lyklum á bandarísku lyklaborði.
@@ -130,10 +129,8 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 
 ## <a name="grid-shortcuts"></a>Flýtileiðir hnitanets
 
-| Til að gera þetta                                                                                                             | Ýta á                            |
+| Til að gera þetta                                                                                                             | Styðjið á                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Lóðrétt skrunun                                                                                                     | Músarhjól                     |
-| Lárétt skrunun                                                                                                   | Shift + Músarhjól             |
 | Flytja í næsta/fyrri dálk                                                                                       | Tab / Shift+Tab                 |
 | Flytja í næstu/fyrri línu                                                                                          | Niður ör / upp ör           |
 | Fara á næstu/fyrri línu án vals<blockquote>[!NOTE] Þessi flýtivísun er aðeins notuð á aðstæður með mörgum valkostum.</blockquote> | Ctrl+Uppör / Ctrl+Niðurör |
@@ -145,24 +142,22 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Fara í fyrstu færslu                                                                                               | Ctrl+Home                       |
 | Fara í síðustu færslu                                                                                                | Ctrl+End                        |
 | Velja eða hreinsa allar línur                                                                                               | Ctrl+Shift+M                    |
-| Fara í fyrstu merktu línu                                                                                           | Alt+Shift+M, F                  |
-| Fara í næstu merktu línu                                                                                            | Alt+Shift+M, L                  |
-| Fara í fyrri merkta línu                                                                                        | Alt+Shift+M, P                  |
-| Fært í síðustu merktu línu                                                                                           | Alt+Shift+M, N                  |
+| Fara í fyrstu merktu línu                                                                                           | Alt+Shift+M, F                    |
+| Fara í næstu merktu línu                                                                                            | Alt+Shift+M, L                    |
+| Fara í fyrri merkta línu                                                                                        | Alt+Shift+M, P                    |
+| Fært í síðustu merktu línu                                                                                           | Alt+Shift+M, N                    |
 | Framkvæma sjálfgefna aðgerð í rúðu<blockquote>[!NOTE] Þessi flýtileið er virk þegar áherslan er á reit sem inniheldur tengil og allir reitir í þeim dálki eru með tengla.</blockquote> | Færa inn                           |
 | Víxla fókus á milli valinnar raðar og raðar síðuhauss                                                               | Alt+Shift+H                     |
 | Gerðu núverandi dálk stærri/minni (með fókus á röð síðuhauss)                                                  | Hægri ör / vinstri ör        |
-| Færa núverandi dálk í næstu/fyrri stöðu (með fókus í hauslínunni)                                   | Ctrl+Shift+Hægri ör / Ctrl+Shift+Vinstri ör |
 | Opna síun hnitanets fyrir gildandi dálk (með fókus á röð síðuhauss)                                              | Færa inn                           |
-| Breyta stærð núverandi dálks til að efnið passi í hann (með fókus á röð síðuhauss)                                           | A (eða tvísmelltu á dálkstærðarhandfangið) |
 
 ## <a name="input-control-shortcuts"></a>Flýtivísanir inntaksstýringar
 
-| Til að gera þetta                                                                   | Ýta á                          |
+| Til að gera þetta                                                                   | Styðjið á                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Opna tengilinn                                                           | Ctrl+Enter                    |
-| Færa inn núverandi dagsetningu í dagsetningarreitinn.                                       | G                             |
-| Færa inn núverandi dagsetningu í dagsetningarreitinn.                                       | T                             |
+| Færa inn núverandi dagsetningu í dagsetningarreitinn.                                       | G                         |
+| Færa inn núverandi dagsetningu í dagsetningarreitinn.                                       | T                         |
 | Opna uppflettingu, samsettan glugga, dagsetningarval, felliglugga                         | Alt+Niðurör                |
 | Loka uppflettingu, samsettum glugga, dagsetningarvali, felliglugga                        | Esc                           |
 | Færa áherslu í uppflettingu (ef uppfletting er þegar opin)                   | Alt+Niðurör                |
@@ -209,8 +204,8 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Nota færslutól (í sérstillingu)                                                                       | M                                   |
 | Velja valda stýringu til að færa (þegar færslutólið er notað og engin stýring hefur verið valin til flutnings)  | Bil eða Enter                      |
 | Hreinsa stýringu til að færa (þegar þú notar færslutólið)                                                                   | Esc                                 |
-| Færa valda stýringu á næstu staðsetningu (þegar þú notar færslutólið)                                              | Flipi eða hægriör eða niðurör    |
-| Færa valda stýringu á fyrri staðsetningu (þegar þú notar færslutólið)                                          | Shift + Tab eða vinstri ör eða uppör |
+| Fara á næsta stað fyrir valda stýringu (þegar þú notar færslutólið)                                          | Flipi eða hægriör eða niðurör    |
+| Fara á fyrri stað fyrir valda stýringu (þegar þú notar færslutólið)                                      | Shift + Tab eða vinstri ör eða uppör |
 | Nota felutólið (í sérstillingu)                                                                       | H                                   |
 | Skipta um hvort núverandi stýring sé sýnileg eða falin (þegar þú notar felutólið)                                     | Bil eða Enter                      |
 | Nota sleppitólið (í sérstillingu)                                                                       | K                                   |
@@ -260,6 +255,3 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 
 [Flýtilyklar fyrir greiningu á reikningum sem vantar](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

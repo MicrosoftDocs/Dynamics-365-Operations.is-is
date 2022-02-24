@@ -1,10 +1,12 @@
 ---
 title: Tímasetja viðhaldsáætlanir
 description: Þetta efni skýrir tímasetningu viðhaldsáætlana í eignastýringu.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd5192f727c83c017148405fb1b3ee587c118542450d46b5822d86cd1676d8fd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9c215417eacb8a0e1ec0a8324fe35fc053089afb
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731320"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016907"
 ---
 # <a name="schedule-maintenance-plans"></a>Tímasetja viðhaldsáætlanir
 
@@ -52,14 +54,14 @@ Skipulagning forvirks viðhalds býr til dagatalsfærslur á eignum, byggt á vi
 
 5. Smelltu á **Í lagi** til að hefja myndun á viðhaldsskemafærslum á eignum. Myndaðar færslur verða sýndar á listasíðunni **Öll viðhaldsskemu**. Eftirfarandi mynd sýnir dæmi um gluggann **Tímasetja viðhaldsáætlanir**.
 
-![Mynd 1.](media/09-preventive-maintenance.png)
+![Mynd 1](media/09-preventive-maintenance.png)
 
 - Í glugganum **Skipuleggja viðhaldsáætlanir** er hægt að setja upp runuvinnslur á flýtiflipanum **Keyra í bakgrunni** til að mynda sjálfkrafa dagatalsfærslur með reglulegu millibili.  
 - Þegar þú áætlar fyrirbyggjandi viðhald verða viðhaldsskemalínur með áætluðum upphafsdegi og tíma sem er á undan dagsetningu og tíma kerfisins ekki búin til.  
 
 Myndin hér að neðan gefur myndræna mynd af tímabyggðum útreikningi á viðhaldsáætlun.  
 
-![Mynd 2.](media/10-preventive-maintenance.jpg)
+![Mynd 2](media/10-preventive-maintenance.jpg)
 
 Varðandi teljarabyggðar viðhaldsáætlanir: Á myndunum hér að neðan eru sýndar tvær mismunandi teljaraskráningarlotur. Þær eru byggðar á viðhaldsáætlun sem sett var upp fyrir eignina „V0001“ og búist við að eignin (bíll) gangi u.þ.b. 2.000 km í hverjum mánuði.
 
@@ -69,10 +71,7 @@ Varðandi teljarabyggðar viðhaldsáætlanir: Á myndunum hér að neðan eru s
 
 Dæmin sem lýst er hér sýna að allar gagnaskráningar sem gerðar hafa verið á eign sýna þróun sem lýsir sliti á eigninni. Sú þróun er notuð sem útreikningsgrundvöllur þegar áætlun um viðhaldsáætlun er gerð.
 
-![Mynd 3.](media/11-preventive-maintenance.png)
+![Mynd 3](media/11-preventive-maintenance.png)
 
-![Mynd 4.](media/12-preventive-maintenance.png)
+![Mynd 4](media/12-preventive-maintenance.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

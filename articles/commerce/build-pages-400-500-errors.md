@@ -1,31 +1,37 @@
 ---
 title: Búa til sérstilltar svarsíður fyrir 4xx/5xx stöðukóðunarvillur
-description: Þetta efnisatriði lýsir því hvernig á að búa til sérstilltar svarsíður fyrir 4xx og 5xx stöðukóðavillur með því að nota höfundarverkfæri í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að búa til sérsniðnar svarsíður fyrir villur í 4xx og 5xx stöðukóða með því að nota höfundatólin í Microsoft Dynamics 365 Commerce.
 author: v-chgri
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 16cd6c3dab5502826119b6a517414d23e168e79708e306897b04c7ba8c80404b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741142"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413128"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Búa til sérstilltar svarsíður fyrir 4xx/5xx stöðukóðunarvillur
 
+
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að búa til sérstilltar svarsíður fyrir 4xx og 5xx stöðukóðavillur með því að nota höfundarverkfæri í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir því hvernig á að búa til sérsniðnar svarsíður fyrir villur í 4xx og 5xx stöðukóða með því að nota höfundatólin í Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Ef beiðni tekst ekki, gefur þjónninn út svör við HTTP stöðukóða. 404 stöðukóðinn er sóttur og skilað ef síðu er ekki að finna og 500 stöðukóðinn er sóttur og honum skilað ef villu á netþjóni kemur upp. Í Dynamics 365 Commerce geta notendur forrita smíðað sérsniðnar villusvarsíður stöðukóða sem eru sýndar notendum vegna þessara villusvörunar við stöðukóða.
 
@@ -77,6 +83,3 @@ Fylgdu þessum skrefum til að setja upp framsendingu fyrir villusvörunarsíðu
 [Bæta við nýrri síðu á svæði](add-new-page.md)
 
 [Búa til síðuvefslóð](create-page-url.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

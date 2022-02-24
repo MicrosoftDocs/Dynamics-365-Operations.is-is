@@ -2,36 +2,45 @@
 title: Úrræðaleit vandamála við fyrstu samstillingu
 description: Þetta efni veitir bilanaleit sem getur hjálpað þér að laga vandamál sem kunna að koma upp við upphaflega samstillingu.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
-ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 030e565ffff561f6c1efbdd0de9928f70c7c46c0
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-03-16
+ms.openlocfilehash: a2f0e0cbf0f8710dc020a48506775fa28df9c2d2
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063059"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744638"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Úrræðaleit vandamála við fyrstu samstillingu
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-Þetta efnisatriði veitir upplýsingar um bilanaleit fyrir tvískrifað samþættingu milli Finance and Operations forrita og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem kunna að koma upp við upphaflega samstillingu.
+Þetta efni veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem kunna að koma upp við upphaflega samstillingu.
 
 > [!IMPORTANT]
 > Nokkur þeirra atriða sem þetta efni fjallar um geta krafist annað hvort kerfisstjórans eða Microsoft Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
 
-## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Athugaðu hvort fyrstu samstillingarvillur séu í Finance and Operations app
+## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Athugaðu hvort fyrstu samstillingarvillur eru í forriti Finance and Operations
 
 Eftir að þú hefur gert kortlagningarsniðmát virkt ætti staða korta að vera **Í keyrslu**. Ef staðan er **Ekki í gangi** geta villur komið upp við fyrstu samstillingu. Til að skoða villurnar velurðu flipann **Upphaflegar samstillingarupplýsingar** á síðunni **Tvöfalt skrif**.
 
-![Villa í flipa upphaflegra samstillingarupplýsinga.](media/initial_sync_status.png)
+![Villa í flipa upphaflegra samstillingarupplýsinga](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>Þú getur ekki lokið fyrstu samstillingu: 400 Bad Request
 
@@ -39,7 +48,7 @@ Eftir að þú hefur gert kortlagningarsniðmát virkt ætti staða korta að ve
 
 Þú gætir fengið eftirfarandi villuboð þegar þú reynir að keyra vörpun og upphafssamstillingu:
 
-*(\[Villa í beiðni\], fjartengdur þjónn skilaði villu: (400) Villa í beiðni.), villa kom upp í AX útflutningi.*
+*(\[Villa í beiðni\], fjartengdur þjónn skilaði villu: (400) Villa í beiðni.), villa kom upp í AX útflutningi*
 
 Hér er dæmi um full villuboð.
 
@@ -63,7 +72,7 @@ at Microsoft.D365.ServicePlatform.Context.ServiceContext.Activity.\<ExecuteAsync
 
 Ef þessi villa kemur stöðugt fram og þú getur ekki klárað fyrstu samstillingu, fylgdu þessum skrefum til að laga málið.
 
-1. Skráðu þig inn á sýndarvélina (VM) fyrir Finance and Operations appið.
+1. Skráðu þig inn á sýndarvélina (VM) fyrir forrit Finance and Operations.
 2. Opnaðu stjórnborð Microsoft.
 3. Í glugganum **Þjónusta** skaltu ganga úr skugga um að Microsoft Dynamics 365 rammaþjónusta gagnainnflutnings-útflutnings er í gangi. Endurræstu það ef það hefur verið stöðvað, vegna þess að fyrsta samstillinga krefst þess.
 
@@ -75,10 +84,10 @@ Ef þessi villa kemur stöðugt fram og þú getur ekki klárað fyrstu samstill
 
 Til að laga úr vandamálið skal fylgja þessum skrefum.
 
-1. Skráðu þig inn á Finance and Operations appið.
+1. Innskráning í forritið Finance and Operations.
 2. Á síðunni **Azure Active Directory forrit** eyðirðu **DtAppID** biðlaranum og bætir honum síðan við aftur.
 
-![DtAppID-biðlari á lista yfir Azure AD-forrit.](media/aad_applications.png)
+![DtAppID-biðlari á lista yfir Azure AD-forrit](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>Villur sjálfstilvísunar eða hringtilvísunar við fyrstu samstillingu
 
@@ -102,17 +111,17 @@ Hér eru nokkur dæmi:
 
 Ef einhverjar línur í töflu lánardrottins eru með gildi í dálkunum **PrimaryContactPersonId** og **InvoiceVendorAccountNumber** skal fylgja þessum skrefum til að ljúka upphaflegu samstillingunni.
 
-1. Í Finance and Operations appinu skaltu eyða **Auðkenni aðaltengiliðs** og **InvoiceVendor AccountNumber** dálka úr kortlagningunni og vistaðu síðan kortlagninguna.
+1. Í Finance and Operations-forritinu skal eyða dálkunum **PrimaryContactPersonId** og **InvoiceVendorAccountNumber** úr vörpuninni og vista síðan vörpunina.
 
-    1. Á dual-write kortlagningarsíðunni fyrir **Seljendur V2 (msdyn\_ söluaðilar)**, á **Taflakortlagningar** flipa, í vinstri síu, veldu **Fjármála- og rekstrarforrit. Seljendur V2**. Í hægri síunni skal velja **Sales.Vendor**.
+    1. Á vörpunarsíðu tvöfaldra skrifa fyrir **Lánardrottnar V2 (msdyn\_lánardrottnar)**, í flipanum **Töfluvarpanir**, í vinstri síunni, skal velja **Finance and Operations apps.Vendors V2**. Í hægri síunni skal velja **Sales.Vendor**.
     2. Leitið að **primarycontactperson** til að finna upprunadálkinn **PrimaryContactPersonId**.
     3. Veljið **Aðgerðir** og veljið svo **Eyða**.
 
-        ![Eyða dálkinum PrimaryContactPersonId.](media/vend_selfref3.png)
+        ![Eyða dálkinum PrimaryContactPersonId](media/vend_selfref3.png)
 
     4. Endurtakið þessi skref til að eyða dálkinum **InvoiceVendorAccountNumber**.
 
-        ![Eyða dálkinum InvoiceVendorAccountNumber.](media/vend-selfref4.png)
+        ![Eyða dálkinum InvoiceVendorAccountNumber](media/vend-selfref4.png)
 
     5. Vistið breytingarnar í vörpunina.
 
@@ -122,11 +131,11 @@ Ef einhverjar línur í töflu lánardrottins eru með gildi í dálkunum **Prim
     2. Veljið töfluna **Lánardrottnar V2**.
     3. Á aðgerðasvæðinu skal velja **Valkostir** og síðan velja **Breytingarakning**.
 
-        ![Valkostur breytingarakningar valinn.](media/selfref_options.png)
+        ![Valkostur breytingarakningar valinn](media/selfref_options.png)
 
     4. Veljið **Gera breytingarakningu óvirka**.
 
-        ![Gera breytingarakningu óvirka valið.](media/selfref_tracking.png)
+        ![Gera breytingarakningu óvirka valið](media/selfref_tracking.png)
 
 3. Keyrið upphaflega samstillingu fyrir vörpunina **Lánardrottnar V2 (msdyn\_lánardrottnar)**. Upphafleg samstilling ætti að keyra með góðum árangri án nokkurra villna.
 4. Keyrið upphaflega samstillingu fyrir vörpunina **CDS tengiliðir V2 (tengiliðir)**. Samstilla verður þessa vörpun ef á að samstilla dálk aðaltengiliða í töflu lánardrottins, því einnig þarf að gera upphaflega samstillingu fyrir tengiliðalínurnar.
@@ -149,17 +158,17 @@ Hér eru nokkur dæmi:
 
 Ef einhverjar línur í töflu viðskiptavinar eru með gildi í dálkunum **ContactPersonID** og **InvoiceAccount** skal fylgja þessum skrefum til að ljúka upphaflegu samstillingunni. Hægt er að nota þessa nálgun fyrir allar tilbúnar töflur á borð við **Lyklar** og **Tengiliðir**.
 
-1. Í Finance and Operations appinu skaltu eyða **ContactPersonID** og **InvoiceAccount** dálkar frá **Viðskiptavinir V3 (reikningar)** kortlagningu og vistaðu síðan kortlagninguna.
+1. Í Finance and Operations-forritinu skal eyða dálkunum **ContactPersonID** og **InvoiceAccount** úr vörpuninni **Viðskiptavinir V3 (lyklar)** og síðan vista hana.
 
-    1. Á dual-write kortlagningarsíðunni fyrir **Viðskiptavinir V3 (reikningar)**, á **Taflakortlagningar** flipa, í vinstri síu, veldu **Fjármála- og rekstrarapp. Viðskiptavinir V3**. Í hægri síunni skal velja **Dataverse.Account**.
+    1. Á vörpunarsíðu tvöfaldra skrifa fyrir **Viðskiptavinir V3 (lyklar)**, á flipanum **Töfluvarpanir**, á vinstri síunni, skal velja **Finance and Operations apps.Customers V3**. Í hægri síunni skal velja **Dataverse.Account**.
     2. Leitið að **contactperson** til að finna upprunadálkinn **ContactPersonID**.
     3. Veljið **Aðgerðir** og veljið svo **Eyða**.
 
-        ![Dálkinum ContactPersonID eytt.](media/cust_selfref3.png)
+        ![Dálkinum ContactPersonID eytt](media/cust_selfref3.png)
 
     4. Endurtakið þessi skref til að eyða dálkinum **InvoiceAccount**.
 
-        ![Dálkinum InvoiceAccount eytt.](media/cust_selfref4.png)
+        ![Dálkinum InvoiceAccount eytt](media/cust_selfref4.png)
 
     5. Vistið breytingarnar í vörpunina.
 
@@ -169,11 +178,11 @@ Ef einhverjar línur í töflu viðskiptavinar eru með gildi í dálkunum **Con
     2. Veljið töfluna **Viðskiptavinir V3**.
     3. Á aðgerðasvæðinu skal velja **Valkostir** og síðan velja **Breytingarakning**.
 
-        ![Valkostur breytingarakningar valinn.](media/selfref_options.png)
+        ![Valkostur breytingarakningar valinn](media/selfref_options.png)
 
     4. Veljið **Gera breytingarakningu óvirka**.
 
-        ![Gera breytingarakningu óvirka valið.](media/selfref_tracking.png)
+        ![Gera breytingarakningu óvirka valið](media/selfref_tracking.png)
 
 3. Keyrið upphaflega samstillingu fyrir vörpunina **Viðskiptavinir V3 (Lyklar)**. Upphafleg samstilling ætti að keyra með góðum árangri án nokkurra villna.
 4. Keyrið upphaflega samstillingu fyrir vörpunina **CDS tengiliðir V2 (tengiliðir)**.
@@ -182,57 +191,23 @@ Ef einhverjar línur í töflu viðskiptavinar eru með gildi í dálkunum **Con
     > Tvær varpanir eru með sama heitið. Verið viss um að velja þá vörpun sem er með eftirfarandi lýsingu í flipanum **Upplýsingar**: **Sniðmát tvöfaldra skrifa fyrir samstillingu milli FO.CDS Tengiliður lánardrottins V2 og CDS.Contacts. Þarfnast nýs pakka \[Dynamics365SupplyChainExtended\].**
 
 5. Bætið dálkunum **InvoiceAccount** og **ContactPersonID** aftur við vörpunina **Viðskiptavinir V3 (Lyklar)** og vistið hana síðan. Nú eru báðir dálkarnir **InvoiceAccount** og **ContactPersonId** aftur orðnir hluti af samstillingarsniði í beinni. Í næsta skrefi verður gerð upphafleg samstilling fyrir þessa dálka.
-6. Keyrið aftur upphaflega samstillingu fyrir vörpunina **Viðskiptavinir V3 (Lyklar)**. Vegna þess að slökkt er á breytingarakningu eru gögnin fyrir **InvoiceAccount** og **ContactPersonId** verður samstillt úr Finance and Operations appinu til Dataverse.
-7. Til að samstilla gögnin fyrir **InvoiceAccount** og **ContactPersonId** frá Dataverse í Finance and Operations appið verður þú að nota gagnasamþættingarverkefni.
+6. Keyrið aftur upphaflega samstillingu fyrir vörpunina **Viðskiptavinir V3 (Lyklar)**. Vegna þess að slökkt er á breytingarakningu, verða gögnin fyrir **InvoiceAccount** og **ContactPersonId** samstillt úr Finance and Operations-forritinu við Dataverse.
+7. Til að samstilla gögnin fyrir **InvoiceAccount** og **ContactPersonId** úr Dataverse við forritið Finance and Operations þarf að nota gagnasamþættingarverk.
 
-    1. Í Power Apps, búa til gagnasamþættingarverkefni á milli **Sölureikningur** og **Fjármála- og rekstrarforrit. Viðskiptavinir V3** borðum. Gagnaáttin verður að vera frá Dataverse í Finance and Operations appið. Þar sem **InvoiceAccount** er ný eigind í tvöföldum skrifum gætirðu viljað sleppa upphaflegri samstillingu fyrir hana. Nánari upplýsingar er að finna í [Sameina gögn í Dataverse](/power-platform/admin/data-integrator).
+    1. Í Power Apps skal stofna gagnasamþættingarverk á milli **Sales.Account** og **Finance and Operations apps.Customers V3**. Gagnastefnan verður að vera frá Dataverse til Finance and Operations forritsins. Þar sem **InvoiceAccount** er ný eigind í tvöföldum skrifum gætirðu viljað sleppa upphaflegri samstillingu fyrir hana. Nánari upplýsingar er að finna í [Sameina gögn í Dataverse](https://docs.microsoft.com/power-platform/admin/data-integrator).
 
         Eftirfarandi skýringarmynd sýnir verk sem uppfærir **CustomerAccount** og **ContactPersonId**.
 
-        ![Gagnasamþættingarver til að uppfæra CustomerAccount og ContactPersonId.](media/cust_selfref6.png)
+        ![Gagnasamþættingarver til að uppfæra CustomerAccount og ContactPersonId](media/cust_selfref6.png)
 
-    2. Bættu við fyrirtækjaviðmiðunum í síuna á Dataverse hlið, þannig að aðeins línur sem passa við síuskilyrðin verða uppfærðar í Finance and Operations appinu. Til að bæta við síu skal velja síuhnappinn. Því næst, í svarglugganum **Breyta fyrirspurn** er hægt að bæta við síufyrirspurn á borð við **\_msdyn\_fyrirtæki\_gildi jafngildir „\<guid\>“**.
+    2. Bætið skilyrði fyrirtækis við síuna Dataverse megin þannig að einungis línur sem passa við síuskilyrði verða uppfærðar í Finance and Operations-forritinu. Til að bæta við síu skal velja síuhnappinn. Því næst, í svarglugganum **Breyta fyrirspurn** er hægt að bæta við síufyrirspurn á borð við **\_msdyn\_fyrirtæki\_gildi jafngildir „\<guid\>“**. 
 
         > [ATHUGASEMD] Ef síuhnappurinn er ekki til staðar skal stofna þjónustubeiðni til að biðja gagnasamþættingarteymið um að virkja síugetu leigjandans.
 
         Ef ekki er slegin inn síufyrirspurn fyrir **\_msdyn\_fyrirtæki\_gildi** verða allar línurnar samstilltar.
 
-        ![Síufyrirspurn bætt við.](media/cust_selfref7.png)
+        ![Síufyrirspurn bætt við](media/cust_selfref7.png)
 
     Upphaflegri samstillingu línanna er nú lokið.
 
-8. Í Finance and Operations appinu skaltu kveikja aftur á breytingarakningu fyrir **Viðskiptavinir V3** borð.
-
-## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>Upphafleg mistök við samstillingu á tengingum með fleiri en 10 uppsláttarreitum
-
-Þú gætir fengið eftirfarandi villuboð þegar þú reynir að keyra fyrstu samstillingu bilana í vörpunum **Viðskiptavinir V3 -  Lyklar**, **Sölupantanir** eða einhverri vörpun með fleiri en 10 uppflettireiti:
-
-*CRMExport: Framkvæmd pakka lokið. Villa í lýsingu 5 Tilraunir til að sækja gögn úr https://xxxxx//datasets/yyyyy/tables/accounts/items?$select=accountnumber, address2_city, address2_country, ... (msdyn_company/cdm_companyid eq 'id')&$ orderby=accountnumber asc mistókst.*
-
-Vegna takmörkunar á uppflettingu fyrirspurnarinnar mistekst upphafleg samstilling þegar vörpun einingarinnar inniheldur fleiri en 10 uppflettingar. Nánari upplýsingar er að finna í [Sækja tengdar töflufærslur með fyrirspurn](/powerapps/developer/common-data-service/webapi/retrieve-related-entities-query).
-
-Til að laga þetta vandamál skal fylgja þessum skrefum:
-
-1. Fjarlægðu valfrjálsa uppflettireiti úr vörpunareiningu tvöfaldrar skráningar þannig að fjöldi uppflettinga sé 10 eða færri.
-2. Vistaðu vörpunina og gerðu fyrstu samstillinguna.
-3. Þegar upphafleg samstilling fyrir fyrsta skrefið hefur tekist skaltu bæta við eftirstandandi uppflettireitum og fjarlægja uppflettireiti sem þú samstilltir í fyrsta skrefinu. Gakktu úr skugga um að fjöldi uppflettisvæða sé 10 eða færri. Vistaðu vörpunina og keyrðu fyrstu samstillinguna.
-4. Endurtaktu skrefin þar til allir uppflettireitir hafa verið samstilltir.
-5. Bættu öllum uppflettireitunum aftur við vörpunina, vistaðu hana og keyrðu hana með **Sleppa upphaflegri samstillingu**.
-
-Þetta ferli virkjar vörpun fyrir samstillingu í rauntíma.
-
-## <a name="known-issue-during-initial-sync-of-party-postal-addresses-and-party-electronic-addresses"></a>Þekkt vandamál við fyrstu samstillingu á póstföngum aðila og rafrænum aðsetrum aðila
-
-Þú gætir fengið eftirfarandi villuboð þegar þú reynir að keyra upphaflega vörpun á póstföngum aðila og rafrænum aðsetrum aðila:
-
-*Númer aðila fannst ekki í Dataverse.*
-
-Það er svið stillt á **DirPartyCDSEntity** í Finance and Operations öppum sem síar aðila af gerðinni **Persóna** og **Skipulag**. Þar af leiðandi mun upphafleg samstilling vörpunarinnar **CDS-aðilar – msdyn_parties** ekki samstilla aðila af annarri gerð, þ.m.t. **Lögaðili** og **Rekstrareining**. Þegar upphafleg samstilling er keyrð fyrir **Póstföng CDS-aðila (msdyn_partypostaladdresses)** eða **Tengiliðir aðila V3 (msdyn_partyelectronicaddresses)** gæti komið upp villa.
-
-Við erum að vinna að lagfæringu til að fjarlægja flokkategundasviðið á Finance and Operations einingunni svo að aðilar af öllum gerðum geti samstillt við Dataverse með góðum árangri.
-
-## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>Eru einhver vandamál varðandi frammistöðu við keyrslu á upphaflegri samstillingu fyrir gögn viðskiptavinar eða tengiliðar?
-
-Ef þú hefur keyrt upphaflega samstillingu fyrir gögn **Viðskiptavinar** og hefur varpanir **Viðskiptavinar** í gangi og keyrir síðan upphaflega samstillingu fyrir gögn **Tengiliðar** gætu komið upp vandamál við innsetningar og uppfærslur á töflunum **LogisticsPostalAddress** og **LogisticsElectronicAddress** fyrir aðsetur **Tengiliðar**. Sömu altæku töflur póstfangs og rafræns aðseturs eru raktar fyrir **CustCustomerV3Entity** og **VendVendorV2Entity** og tvöföld skráning reynir að búa til fleiri fyrirspurnir til að skrifa gögn á hina hliðina. Ef þú hefur þegar keyrt upphaflega samstillingu fyrir **Viðskiptavin** skaltu stöðva samsvarandi vörpun á meðan þú keyrir upphaflega samstillingu fyrir gögn **Tengiliðar**. Gerðu það sama fyrir gögn **Lánardrottins**. Þegar upphaflegri samstillingu er lokið er hægt að keyra allar varpanir með því að sleppa upphaflegu samstillingunni.
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+8. Í forritinu Finance and Operations skal kveikja aftur á rakningu breytinga fyrir töfluna **Viðskiptavinir V3**.

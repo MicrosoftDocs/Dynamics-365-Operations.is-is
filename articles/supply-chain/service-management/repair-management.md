@@ -1,26 +1,29 @@
 ---
 title: Viðgerðarstjórnun
 description: Flokkaðu vandamál á kerfisbundinn hátt til auðvelda tillögur að lausnum sem hafa gengið vel áður.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAConditionTable, SMASymptomArea, SMADiagnosisArea, SMAResolutionTable, SMARepairStage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1456c65f28d2a1d06497ddde81c9e68cc078c061
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4d45732ff35069a64b37b6c53d9e22adf9a9a46d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567920"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430075"
 ---
 # <a name="repair-management"></a>Viðgerðarstjórnun       
 
@@ -35,11 +38,15 @@ Fyrir viðgerðarstjórnun geturðu flokkað vandamál kerfisbundið. Þetta er 
 
 Notaðu eftirfarandi skjámyndir uppsetningar til að slá inn upplýsingar sem nota skal til að tilgreina einkenni, greiningu og úrlausn viðgerðar.
 
-- Veljið **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Skilyrði**.
-- Veljið **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Einkennasvæði**.
--  Veljið **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Greiningarsvæði**.
-- Veljið **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Úrlausnir**.
-- Veljið **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Viðgerðarstig**.
+1.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Skilyrði**.
+
+2.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Einkennasvæði**.
+
+3.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Greiningarsvæði**.
+
+4.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Úrlausnir**.
+
+5.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Viðgerð** \> **Viðgerðarstig**.
 
 ## <a name="symptoms-and-conditions"></a>Einkenni og skilyrði
 
@@ -75,19 +82,19 @@ Hægt er að stofna viðhaldslínur fyrir hvert skref í viðgerðarferlinu.
 
 ## <a name="create-a-repair-line-on-a-service-order"></a>Stofna viðgerðarlínu í þjónustupöntun.
 
-1.  Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+1.  Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 
 2.  Veljið þjónustupöntunina með þjónustuhlutnum sem þarfnast viðgerðar.
 
-3.  Veljið **Viðgerð** \> **Viðgerðarlínur** til að opna skjámyndina **Viðgerðarlínur**.
+3.  Smelltu á **Viðgerð** \> **Viðgerðarlínur** til að opna skjámyndina **Viðgerðarlínur**.
 
-4.  Veljið **Nýtt** til að stofna nýja línu.
+4.  Stutt á CTRL+N til að stofna nýja línu.
 
 5.  Velja þjónustuhlut. Hægt er að velja hvaða þjónustuhlut sem settur hefur verið upp með hlutatengslum í þjónustupöntuninni.
 
-6.  Veldu eitthvað af forstilltum einkennum, greiningum og framkvæmdargildi sem eru viðeigandi í viðgerðarlínunni og veldu síðan flipann **Athuga** til að búa til minnismiða á viðgerðarlínunni, ef þörf krefur.
+6.  Veldu eitthvað af forstilltum einkennum, greiningum og framkvæmdargildi sem eru viðeigandi í viðgerðarlínunni og smelltu síðan á flipann **Athuga** til að búa til minnismiða á viðgerðarlínunni, ef þörf krefur.
 
-7.  Veljið **Vista** til að vista nýju viðgerðarlínuna. Reiturinn **Stofna dagsetningu og tíma** á flipanum **Almennt** í skjámyndinni **Viðgerðarlínur** er uppfærður þegar vistun á sér stað.
+7.  Styðjið á CTRL+S til þess að vista nýju viðgerðarlínuna. Reiturinn **Stofna dagsetningu og tíma** á flipanum **Almennt** í skjámyndinni **Viðgerðarlínur** er uppfærður þegar vistun á sér stað.
 
 ## <a name="tracking-progress-and-resolving-a-repair-issue"></a>Að fylgjast með framvindu og finna úrlausn á viðgerðarverkefni
 
@@ -106,6 +113,3 @@ Hægt er að stilla viðgerðarstig viðgerðarlínu til að fylgjast með framv
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

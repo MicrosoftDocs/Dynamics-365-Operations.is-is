@@ -2,30 +2,35 @@
 title: Körfueining
 description: Þetta efni fjallar um körfueiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 12/15/2020
+manager: annbe
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f2db61cf23c217365274297c6e9878a4eb5679f8d9502cb70484372ae43f6b18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716885"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4413316"
 ---
 # <a name="cart-module"></a>Körfueining
 
 [!include [banner](includes/banner.md)]
 
 Þetta efni fjallar um körfueiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Körfueining sýnir hluti sem hafa verið settir í körfuna áður en viðskiptavinurinn heldur áfram að kassa. Einingin sýnir einnig samantekt á pöntun og gerir viðskiptavininum kleift að beita eða fjarlægja kynningarkóða.
 
@@ -35,11 +40,11 @@ Körfueiningin styður innskráð greiðsluferli og greiðslu sem gestur. Hún s
 
 Eftirfarandi mynd sýnir dæmi um körfusíðu á Fabrikam-svæðinu.
 
-![Dæmi um körfueiningu á Fabrikam-síðu.](./media/cart2.PNG)
+![Dæmi um körfueiningu á Fabrikam-síðu](./media/cart2.PNG)
 
 Eftirfarandi mynd sýnir dæmi um körfusíðu á Fabrikam-svæðinu. Í þessu dæmi er afgreiðslugjald fyrir línuatriði.
 
-![Dæmi um körfueiningu með umsýslugjaldi fyrir línuatriði.](./media/ecommerce-handling-fee.png)
+![Dæmi um körfueiningu með umsýslugjaldi fyrir línuatriði](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Eiginleikar og hólf körfueininga
 
@@ -48,7 +53,6 @@ Eftirfarandi mynd sýnir dæmi um körfusíðu á Fabrikam-svæðinu. Í þessu 
 | Fyrirsögn | Fyrirsagnartexti og merki fyrirsagnar (**H1**, **H2**, **H3**, **H4**, **H5** eða **H6**) | Fyrirsögn fyrir körfuna, t.d. „Innkaupakarfa“ eða „Vörur í körfunni þinni“. |
 | Sýna villuboðin Ekki til á lager | **Satt** eða **Ósatt** | Ef þessi eiginleiki er stilltur á **Sat** sýnir körfusíðan villur sem tengjast birgðum. Mælt er með því að þessi eiginleiki sé stilltur á **Satt** ef birgðaathuganir eru notaðar á svæðinu. |
 | Sýna sendingargjöld fyrir línuatriði | **Satt** eða **Ósatt** | Ef þessi eiginleiki er stilltur á **Satt** sýna línuatriði körfu sendingargjöld, ef þessar upplýsingar eru í boði. Þessi eiginleiki er ekki studdur í Fabrikam-skemanu því að notendur velja sendingu eingöngu í greiðsluferlinu. Hins vegar er hægt að kveikja á þessum eiginleika í öðrum verkflæðum ef það á við. |
-| Sýna tiltæk kynningartilboð| **Satt** eða **Ósatt** | Ef þessi eiginleiki er stilltur á **Satt** " sýnir karfan tiltæk kynningartilboð, byggt á vörum í körfunni. Þessi eiginleiki er í boði í Dynamics 365 Commerce útgáfu 10.0.16. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Einingar sem hægt er að nota í körfueiningu
 
@@ -113,6 +117,3 @@ Fylgdu þessum skrefum til að bæta körfueiningu við nýja síðu og stilla n
 [Reikna tiltækar birgðir fyrir smásölurásir](calculated-inventory-retail-channels.md)
 
 [Búa til virkniforstillingu á netinu](online-functionality-profile.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

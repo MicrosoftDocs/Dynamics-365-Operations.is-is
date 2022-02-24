@@ -2,9 +2,11 @@
 title: Úthlutun tíma á vinnslur í vinnslubúnti
 description: Í Framkvæmd framleiðslu er hægt að sameina vinnslur. Þá er hægt að hefja margar vinnslur á sama tíma á listasíðunni Vinnslur.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb0236f9f39afc67cb5c8cedecee5278a6555d03deefb859fc134a4a4160285b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 382cf8d12d9695c80c3b13497886d20f29f3680c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766608"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966581"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Úthlutun tíma á vinnslur í vinnslubúnti
 
@@ -80,7 +82,7 @@ Eftirfarandi tafla sýnir formúluna til að reikna út úthlutaðan tíma. Hér
 ## <a name="net-time-allocation-key"></a>Úthlutunarlykillinn Nettó-tími
 Eftirfarandi tafla sýnir formúluna til að reikna út úthlutaðan tíma. Hér er formúlan: Tími á hverja skýrslu = Búnt-tími samtals ÷ Fjöldi vinnsla
 
-| Dæmi                       | 09:00–10:00 (1 klst.) | 10:00–11:00 (1 klst.) | 11:00–13:00 (2 klst.) | 13:00–15:00 (2 klst.) | Úthlutaður tími |
+|                              | 09:00–10:00 (1 klst.) | 10:00–11:00 (1 klst.) | 11:00–13:00 (2 klst.) | 13:00–15:00 (2 klst.) | Úthlutaður tími |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
 | Fjöldi vinnsla í búntinu. | 1                    | 3                    | 2                     | 1                     | Ekki tiltækt |
 | Vinnsla 1                        | 1 ÷ 1 = 1 klst.       | 1 ÷ 3 = 0,33 klst.    | Ekki tiltækt        | Ekki tiltækt        | 1,33 klukkustundir     |
@@ -108,6 +110,3 @@ Leiðréttur kostnaður á klukkustund og vinnslutíminn eru bókaðir í framle
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

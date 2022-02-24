@@ -1,27 +1,28 @@
 ---
 title: Söluverð sem byggir á eigind fyrir afurðarafbrigði með skorðum
 description: Þetta efnisatriði lýsir því hvernig á að búa til söluverðlíkan með söluverðum sem byggja á íhlutum og eigindum frekar en á efnislegri uppskriftinni og leiðinni.
-author: t-benebo
+author: sorenva
+manager: tfehr
 ms.date: 10/2/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: sorenand
 ms.search.validFrom: 2020-08-17
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e50b2d1e9ccf03a58e0ddf6d4ecfb34c6c504161
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: c0f9c1bb94b4dcc3c3c1e7656868ef6e6bd903db
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577457"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4429998"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Söluverð sem byggir á eigind fyrir afurðarafbrigði með skorðum
-
-[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að búa til söluverðlíkan með söluverðum sem byggja á íhlutum og eigindum frekar en á efnislegri uppskriftinni og leiðinni. Hægt er að búa til mörg söluverðlíkön fyrir hvert afbrigðalíkan afurðar.
 
@@ -35,7 +36,7 @@ Sjálfgefinn gjaldmiðill valinn:
 1. Opnið flipann **Líkön afurðarafbrigða sem byggja á skorðum**.
 1. Opnið fellilistann **Sjálfgefinn gjaldmiðill** og veljið gjaldmiðilinn.
 
-    ![Veljið sjálfgefinn gjaldmiðil fyrir afurðarafbrigði sem byggir á skorðum.](media/prod-config-currency.png "Stilla sjálfgefinn gjaldmiðil fyrir afurðarafbrigði sem byggir á skorðum")
+    ![Veljið sjálfgefinn gjaldmiðil fyrir afurðarafbrigði sem byggir á skorðum](media/prod-config-currency.png "Stilla sjálfgefinn gjaldmiðil fyrir afurðarafbrigði sem byggir á skorðum")
 
 1. Ef á að hengja við Excel-skrá með sundurliðun á verði fyrir allar pöntunar- og tilboðslínur, skal í hlutanum **Verðlíkan** stilla **Hengja við** á *Já*.
 
@@ -62,7 +63,7 @@ Eftirfarandi dæmi sýnir grunnverð á fastri tölu sem nemur 899,95 EUR, sem h
 - Fyrir rósaviðaráferð á skáp skal bæta við 119,95 EUR.
 - Bætið við 12,95 EUR fyrir hverja einingu af hæð hátalara.
 
-![Dæmi um verðlíkan.](media/prod-config-rules-example.png "Dæmi um verðlíkan")
+![Dæmi um verðlíkan](media/prod-config-rules-example.png "Dæmi um verðlíkan")
 
 ## <a name="add-support-for-multiple-currencies"></a>Bæta við stuðningi fyrir marga gjaldmiðla
 
@@ -83,7 +84,7 @@ Sérstöku verði bætt við viðbótargjaldmiðil:
 
 Í dæminu hér að neðan er _EUR_ sjálfgefni gjaldmiðillinn og _USD_ hefur verið bætt við sem viðbótargjaldmiðill.
 
-![Dæmi um líkan með mörgum gjaldmiðlum.](media/prod-config-rules-currency-example.png "Dæmi um líkan með mörgum gjaldmiðlum")
+![Dæmi um líkan með mörgum gjaldmiðlum](media/prod-config-rules-currency-example.png "Dæmi um líkan með mörgum gjaldmiðlum")
 
 > [!NOTE]
 > Ekki er hægt að bæta við segðarreglum sem eru einkvæmar fyrir gjaldmiðil sem ekki er sjálfgefinn. Til að stofna segðarreglur sem ættu aðeins að eiga við um gjaldmiðil annan en sjálfgefna gjaldmiðilinn, skal setja verð segðar fyrir sjálfgefna gjaldmiðilinn á núll. Setjið síðan á viðeigandi segð fyrir gjaldmiðilinn sem ekki er sjálfgefinn.
@@ -95,11 +96,11 @@ Til að prófa hvernig söluverðin virka í skilgreiningarlotu skal opna breyti
 - Notið skilgreiningarstillingarnar sem boðið er upp á hér til að velja valkosti afurðar og skoðið svo áhrifin sem þeir hafa á gildið sem sýnt fyrir **Verð og sendingardagsetning**.
 - Veljið **Skoða verðsundurliðun** til að hlaða niður Excel-skjali sem sýnir ítarlegar upplýsingar um hvernig verðið var reiknað út.
 
-![Vörulíkanið prófað.](media/prod-config-test.png "Vörulíkanið prófað")
+![Afurðarlíkanið prófað](media/prod-config-test.png "Vörulíkanið prófað")
 
 Sóttur töflureiknir sýnir bæði heildargildið og framlagið sem prósentu fyrir hverja virka verðeiningu. Ef búið er að stilla valkostinn **Hengja við** fyrir verðlíkanið á síðunni **Færibreytur vöruupplýsingastjórnunar**, verður þetta Excel-skjal hengt við pöntunina eða tilboðslínuna.
 
-![Excel-töflureiknir sem sýnir sundurliðun verðs.](media/prod-config-excel-example.png "Excel-töflureiknir sem sýnir sundurliðun verðs")
+![Excel-töflureiknir sem sýnir sundurliðun verðs](media/prod-config-excel-example.png "Excel-töflureiknir sem sýnir sundurliðun verðs")
 
 ## <a name="set-up-selection-criteria-for-price-models"></a>Setja upp valskilyrði fyrir verðlíkön
 
@@ -118,7 +119,7 @@ Valskilyrði fyrir verðlíkön sett upp:
     - **Gildir frá** - Tilgreinið fyrsta daginn þegar fyrirspurnin tekur gildi.
     - **Gildir til** - Tilgreinið síðasta daginn sem fyrirspurnin gildir.
 
-    ![Skilyrði verðlíkans.](media/prod-config-price-model-criteria.png "Skilyrði verðlíkans")
+    ![Skilyrði verðlíkans](media/prod-config-price-model-criteria.png "Skilyrði verðlíkans")
 
 1. Veljið línuna fyrir fyrirspurnina sem á að skilgreina og veljið síðan **Breyta** á **Aðgerðarsvæðinu**. Svargluggi fyrirspurnarhönnuðar opnast. Hann virkar eins og flestir fyrirspurnarhönnuðir í Supply Chain Management. Notið hann til að skilgreina skilyrðin þar sem verðlíkanið fyrir línuna sem var valin á að gilda um.
 
@@ -139,7 +140,4 @@ Lokaskrefið er að tilgreina söluverð sem byggir á eigind fyrir útgáfu afu
 1. Veljið afbrigðalíkan afurðar sem við á.
 1. Á aðgerðasvæðinu skal opna flipann **Líkan** og í flokknum **Upplýsingar um vörulíkan** skal velja **Útgáfur**.
 1. Síðan **Útgáfur** opnast. Gangið úr skugga um að **Verðlagningaraðferð** sé stillt á **Byggir á eigind**.
-    ![Stilla aðferð verðlagningar svo hún byggi á eigind.](media/prod-config-versions.png "Stilla aðferð verðlagningar svo hún byggi á eigind")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+    ![Stilla aðferð verðlagningar svo hún byggi á eigind](media/prod-config-versions.png "Stilla aðferð verðlagningar svo hún byggi á eigind")

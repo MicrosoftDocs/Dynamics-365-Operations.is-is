@@ -1,28 +1,29 @@
 ---
 title: Yfirlit yfir flutningsstjórnun
 description: Í þessu Umfjöllunarefni er að finna yfirlit yfir Flutningar Stjórnun virkni í Supply Chain Management.
-author: Henrikan
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "30251"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 30251
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68082a736fd45c6701324a1492087c1b16bf0566
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 4affc5846ee329a4571d6fb3e0c42873387241ad
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985446"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430701"
 ---
 # <a name="transportation-management-overview"></a>Yfirlit flutningsstjórnunar
 
@@ -69,23 +70,20 @@ Flutningsstjórnun leyfir þér að nota flutninga innan fyrirtækis þíns, og 
 ## <a name="planning-transportation-in-supply-chain-management"></a>Skipulagning á flutningi í Supply Chain Management
 Í flutningsstjórnun, er hægt að byggja flutningsáætlun annað hvort á pöntunum eða á sendingunum sem eru stofnaðar samkvæmt þeim pöntunum. Sendingar eru alltaf til á einhverjum tímapunkti en þeirra er ekki þörf í flutningsáætlunum. Flutningspantanir eru hluti af aðstæðum á útleið og hægt er að áætla þær með sölupöntunum. 
 
-![Sækja teikningu.](./media/Load-drawing1-1024x477.jpg)
+![Sækja teikningu](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Flutningur á innleið
 Þegar vörur eru pantaðar frá lánardrottni og afhenda verður vörurnar til vöruhúsins, kann notandi að vilja raða flutningi varanna sjálfur. Hægt er að nota Supply Chain Management til að áætla flutning og móttöku hleðslu á innleið. Eftirfarandi skýringarmynd sýnir flæði viðskiptaferlis fyrir flutning á innleið farms fyrir áætlun. 
 
-![Flæði viðskiptaferlis fyrir flutning farms á innleið.](./media/Businessprocessflowforinboundloadtransportation.jpg)
+![Flæði viðskiptaferlis fyrir flutning farms á innleið](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Flutningur á útleið
 Hægt er að áætla og vinna farm á útleið til að senda tilteknar vörur úr vöruhúsi fyrirtækis til viðskiptavinar. Hægt er að nota Supply Chain Management til að áætla flutning og sendingu á farmi á útleið. Eftirfarandi skýringarmynd sýnir flæði viðskiptaferlis fyrir áætlanagerð og vinnslu á útleið farma fyrir sendingu. 
 
-![Áætlun og vinnsla hleðslu á útleið.](./media/Planningandprocessingoutboundloads.jpg)
+![Áætlun og vinnsla hleðslu á útleið](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Hleðsluáætlun
 Supply Chain Management býður upp á hleðsluáætlun sem nefnist hleðsluáætlun byggð á rúmmáli. Þessi aðferð gerir kleift að nota hámarks gildi sem eru tilgreind fyrir hæð og þyngd í hleðslusniðmátinu eða hnekkja stillingum með því að færa inn ný gildi. Til að nota þessa aðferð skal velja hana í reitnum **Hleðsluáætlun** á flýtiflipanum **Uppsetning** í skjámyndinni **Hlaða sniðmáti hleðslu**. Þar að auki, er hægt að bæta við eigin hleðsluáætlun með því að stofna nýjan klasa í Hugbúnaðarhlutatrénu (AOT).
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

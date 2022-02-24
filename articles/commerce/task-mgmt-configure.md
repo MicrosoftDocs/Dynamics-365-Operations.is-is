@@ -1,30 +1,35 @@
 ---
 title: Skilgreina verkstýringu
-description: Þetta efnisatriði lýsir hvernig á að grunnstilla eiginleika verkefnastjórnunar í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að stilla verkefnisstjórnunaraðgerðir í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0ae0f3bd58db587d9024beceedd790cc3d3e4ee990a2f4c727dfda96b2f0785c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a4775c2dba2b9aa8e671ab6c246000303b3a37e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730804"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413224"
 ---
-# <a name="configure-task-management"></a>Skilgreina verkstjórnun
+# <a name="configure-task-management"></a>Skilgreina verkstýringu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig á að grunnstilla eiginleika verkefnastjórnunar í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir því hvernig á að stilla verkefnisstjórnunaraðgerðir í Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Áður en Dynamics 365 Commerce stjórnendur og starfsmenn geta notað verkstjórnunaraðgerðir í verslun verður að stilla verkstjórnun. Stillingarþrepin fela í sér að veita stjórnendum og starfsmönnum leyfi, dreifa heimildum til viðskiptavina á sölustað (POS), setja upp POS tilkynningar og stilla reitina **Verk** á heimasíðu POS forrita.
 
@@ -44,7 +49,7 @@ Fylgdu þessum skrefum til að stilla verkefnastjórnunarheimildir fyrir verslun
 
 Eftirfarandi skýringarmynd sýnir hvernig á að stilla verkefnastjórnunarheimildir fyrir verslunarstjóra.
 
-![Stilling verkefnastjórnunarheimilda fyrir verslunarstjóra.](media/HQ-POS-Tasks-Notifications-User-Permission.png)
+![Stilling verkefnastjórnunarheimilda fyrir verslunarstjóra](media/HQ-POS-Tasks-Notifications-User-Permission.png)
 
 ## <a name="configure-permissions-for-employees"></a>Stilla heimildir fyrir starfsmenn
 
@@ -78,7 +83,7 @@ Til að skilgreina POS-tilkynningar fyrir verk skal fylgja þessum skrefum.
 
 Eftirfarandi mynd sýnir aðgerðina **Verkefnisstjórn** á síðunni **POS aðgerðir**.
 
-![Aðgerð verkstjórnunar á aðgerðasíðu sölustaðar.](media/HQ-POS-Tasks-Notifications.png)
+![Aðgerðastjórnunaraðgerð á POS aðgerðarsíðunni](media/HQ-POS-Tasks-Notifications.png)
 
 Nánari upplýsingar um hvernig á að stilla POS tilkynningar, sjá [Sýna pöntunartilkynningar í sölustað (POS)](notifications-pos.md).
 
@@ -95,17 +100,14 @@ Til að stilla reitinn **Verk** á heimasíðu POS forrita fylgirðu þessum skr
 
 Eftirfarandi mynd sýnir dæmi um reitinn **Verk** á heimasíðu POS.
 
-![Verkreitur á heimasíðu sölustaðar.](media/POS-home-screen-tasks-button-image.png)
+![Verkreitur á POS heimasíðu](media/POS-home-screen-tasks-button-image.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit verkstjórnunar](task-mgmt-overview.md)
+[Yfirlit verkefnastjórnunar](task-mgmt-overview.md)
 
 [Búa til verkefnalista og bæta við verkum](task-mgmt-create-lists.md)
 
 [Úthluta verkefnalistum til verslana eða starfsmanna](task-mgmt-assign-lists.md)
 
 [Verkstjórnun á sölustað](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

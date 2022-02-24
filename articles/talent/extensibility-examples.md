@@ -79,6 +79,3 @@ Til að sækja **forritið Referral** ferðu í [Dynamics 365 Talent viðbótarl
 
 [Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
 [Flytja forrit á milli leigjenda og umhverfa](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

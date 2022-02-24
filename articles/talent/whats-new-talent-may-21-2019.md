@@ -63,6 +63,3 @@ Fyrirtæki gætu krafist ástæðukóða fyrir ákveðna leyfisgerðir þegar st
 ### <a name="provide-a-leave-and-absence-transaction-list-for-hr"></a>Bjóða upp á færslulista leyfa og fjarvista fyrir mannauðsstjóra
 
 Möguleikinn til að fylgjast með frítíma starfsmanns og skilja hvernig frítími er reiknaður hjálpar ekki aðeins mannauðsstjóra við að svara spurningum starfsmanns heldur tryggir einnig nákvæma frítímainneign starfsmanna. Mannauðsstjóri er nú með nýja sýn á færslunum (styrkir, uppsafnanir, leiðréttingar og beiðnir), svo að starfsmenn mannauðs geta skoðað ástæðurnar á bak við frítímastöðu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Skilgreining verkflæðiseiginleika
 description: Þetta efnisatriði útskýrir hvernig skilgreina á mismunandi eiginleika verkflæðis.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,19 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81f73f187f75e40297f1f8462e9fff58a309f7f0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 8bd3c9bea010099f83d16dad70261bc2d46a1dac
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069249"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693283"
 ---
 # <a name="configure-workflow-properties"></a>Skilgreining verkflæðiseiginleika
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Þetta efnisatriði útskýrir hvernig skilgreina á mismunandi eiginleika verkflæðis.
 
@@ -74,9 +73,6 @@ Hægt er að veita þeim notendum leiðbeiningar sem senda skjöl til vinnslu og
     4. Í svæðið **þýddur texti** skal færa inn textann.
     5. Hægt er að sérsníða texta með því að færa inn staðgengla. Sjá skref 3 til að fá leiðbeiningar um hvernig á að færa inn staðgengill.
     6. Smellið á **Loka**.
-
-> [!NOTE]
-> Ekki er hægt að bæta við staðgenglum með því að nota afritun og líma þar sem markupplýsingarnar eru ekki límdar á réttan hátt. Nota viðmótið til að bæta við staðgenglum.
 
 ## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Tilgreindu hvenær þetta verkflæði er notað í gegnum virkjunarskilyrði
 
@@ -183,6 +179,3 @@ Til að færa inn athugasemdir um þær breytingar sem þú hefur gert á verkfl
 2. Í svæðinu **færa Inn athugasemdir um verkflæðið** , færið inn athugasemdir.
 3. Farðu aftur yfir Athugasemdir þitt. Þegar búið er að bæta við athugasemd er ekki hægt að breyta henni.
 4. Smellið á **Bæta við** til að bæta athugasemdir við **ferill Athugasemda** svæði.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

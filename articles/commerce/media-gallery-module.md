@@ -2,30 +2,35 @@
 title: Eining efnissafns
 description: Þetta efnisatriði fjallar um einingar efnissafns og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 08/02/2021
+manager: annbe
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 647387bafe8866cb1bee8c57675629af796f33e6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733198"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413255"
 ---
 # <a name="media-gallery-module"></a>Eining efnissafns
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði fjallar um einingar efnissafns og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Einingar efnissafns sýna eina eða fleiri myndir í yfirliti efnissafns. Einingar efnissafns styðja smámyndir, sem hægt er að raða annaðhvort lárétt (sem röð fyrir neðan myndina) eða lóðrétt (sem dálk við hliðina á myndinni). Einingar efnissafns bjóða einnig upp á möguleika sem leyfa aðdrátt á myndum (stækka þær) eða skoða þær á heilum skjá. Til að mynd sjáist í einingu efnissafns, verður mynd að vera til staðar í miðlasafni Commerce-vefssmiðsins. Sem stendur styðja einingar efnissafns eingöngu myndir.
 
@@ -41,7 +46,7 @@ Hér eru nokkur dæmi um notkun á einingum efnissafns:
 
 Í dæminu á eftirfarandi skýringarmynd, kaupgluggi á upplýsingasíðu afurðar hýsir afurðarmyndir með því að nota einingu efnissafns.
 
-![Dæmi um kaupglugga á upplýsingasíðu afurðar sem hýsir afurðarmyndir með því að nota einingu efnissafns.](./media/ecommerce-pdp-buybox.PNG)
+![Dæmi um kaupglugga á upplýsingasíðu afurðar sem hýsir afurðarmyndir með því að nota einingu efnissafns](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="media-gallery-properties"></a>Eiginleikar efnissafns
 
@@ -49,25 +54,19 @@ Hér eru nokkur dæmi um notkun á einingum efnissafns:
 |---------------|--------|-------------|
 | Uppruni myndar | **Síðuinnihald** eða **Afurðarkenni** | Sjálfgefið gildi er **Síðuinnihald**. Ef **Síðuinnihald** er notað, gerir einingin ráð fyrir því að síðan útvegi upplýsingar um afurðarkennið. Ef **Afurðarkenni** er valið, verður að útvega afurðarkennið fyrir mynd sem gildið á eiginleikanum **Afurðarkenni**. Þessi möguleiki er í boði í Commerce, útgáfu 10.0.12. |
 | Afurðarauðkenni | Auðkenni afurðar | Þessi eiginleiki á aðeins við ef gildið á eiginleikanum **Uppruni myndar** er **Afurðarkenni**. |
-| Myndaaðdráttur | **Innfellt** eða **Hólf** | Þessi eiginleiki gerir notanda kleift að stækka myndir í einingu efnissafns. Hægt er að stækka myndir annaðhvort innan myndar eða í aðskildu hólfi við hliðina á myndinni. Þessi möguleiki er í boði í 10.0.12. |
-| Aðdráttarstuðull | Tugatala | Þessi eiginleiki tilgreinir kvarðahlutfallið fyrir aðdrátt mynda. Til dæmis ef gildið er stillt á **2,5** eru myndir stækkaðar 2,5 sinnum. |
-| Allur skjárinn | **Satt** eða **Ósatt** | Þessi eiginleiki tilgreinir hvort hægt er að skoða myndir á heilum skjá. Í heilskjásstillingu er einnig hægt að stækka myndir enn frekar ef kveikt er á aðdrættinum. Þessi möguleiki er í boði í Commerce-útgáfu 10.0.13. |
-| Gæði mynda með aðdrætti | Tala frá 1 til 100 sem táknar prósentuhlutfall og sem er valið með því að nota stýringu sleðastiku | Þessi eiginleiki skilgreinir myndgæði fyrir myndir í aðdrætti. Hægt er að stilla hann á 100 prósent til að tryggja að stækkuð mynd noti alltaf hæstu mögulegu upplausn. Þessi eiginleiki á ekki við um PNG-skrár vegna þess að þær nota taplaust snið. Þessi möguleiki er í boði í Commerce-útgáfu 10.0.19. |
+| Myndaaðdráttur | **Innfellt** eða **Hólf** | Þessi eiginleiki gerir notanda kleift að stækka myndir í einingu efnissafns. Hægt er að stækka myndir annaðhvort innan myndar eða í aðskildu hólfi við hliðina á myndinni. Þessi möguleiki er í boði í 10.0.12 |
+| Kvarði aðdráttar | Tugatala | Þessi eiginleiki tilgreinir kvarðahlutfallið fyrir aðdrátt mynda. Til dæmis ef gildið er stillt á **2,5** eru myndir stækkaðar 2,5 sinnum.|
+| Allur skjárinn | **Satt** eða **Ósatt** | Þessi eiginleiki tilgreinir hvort hægt er að skoða myndir á heilum skjá. Í heilskjásstillingu er einnig hægt að stækka myndir enn frekar ef kveikt er á aðdrættinum. Þessi möguleiki er í boði í Commerce, útgáfu 10.0.13. |
 | Myndir | Myndir sem eru valdar úr miðlasafni vefsmiðs | Auk þess að vera myndþýddar frá afurð, er hægt að velja myndir fyrir einingu efnissafns. Þessum myndum verður bætt við allar afurðarmyndir sem eru í boði. Þessi möguleiki er í boði í Commerce, útgáfu 10.0.12. |
 | Stefna smámynda | **Lóðrétt** eða **Lárétt** | Þessi eiginleiki tilgreinir hvort sýna eigi smámyndir í lóðréttri ræmu eða láréttri ræmu. |
-| Fela sniðmátsmyndir afurðar fyrir afbrigði | **Satt** eða **Ósatt** | Ef þessi eiginleiki er stilltur á **Satt**, þegar afbrigði er valið, eru myndir aðalsniðmátsins faldar nema afbrigði sé ekki með neinar myndir. Þessi eiginleiki hefur ekki áhrif á afurðir sem eru ekki með nein afbrigði. |
-| Uppfæra efni á vali fjárhagsvídda | **Satt** eða **Ósatt** | Ef þessi eign er stillt á **Satt** verða myndir í efnissafninu uppfærðar þegar einhver vídd (svo sem litur, stíll eða stærð) er valin og ef mynd er tiltæk. Þessi eiginleiki hjálpar til við að einfalda upplifun í vafra því ekki þarf að velja allar víddir vöru til að hægt sé að uppfæra samsvarandi mynd. Þessi eign er í boði á flipanum **Ítarlegt**. |
-
-> [!IMPORTANT]
-> **Uppfæra efni á vali fjárhagsvídda** eiginleikinn er í boði í Commerce-útgáfu 10.0.21. Það krefst þess að Commerce einingasafnspakki 9.31 útgáfa sé settur upp.
 
 Eftirfarandi mynd sýnir dæmi um einingu efnissafns þar sem boðið er upp á heilan skjá og aðdrátt.
 
-![Dæmi um einingu efnissafns þar sem boðið er upp á heilan skjá og aðdrátt.](./media/ecommerce-media-zoom.png)
+![Dæmi um einingu efnissafns þar sem boðið er upp á heilan skjá og aðdrátt](./media/ecommerce-media-zoom.png)
 
 Eftirfarandi skýringarmynd sýnir dæmi um einingu efnissafns sem er með sérvaldar myndir (þ.e. tilteknar myndir eru ekki háðar afurðarkenni eða síðuinnihaldi).
 
-![Dæmi um einingu efnissafns sem er með sérvaldar myndir.](./media/ecommerce-media-curated.PNG)
+![Dæmi um einingu efnissafns sem er með sérvaldar myndir](./media/ecommerce-media-curated.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Samskipti við Commerce Scale Unit
 
@@ -105,6 +104,3 @@ Til að bæta einingu efnissafns við markaðssíðu skal fylgja þessum skrefum
 [Hólfeining](add-container-module.md)
 
 [Hlaða upp myndum](dam-upload-images.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

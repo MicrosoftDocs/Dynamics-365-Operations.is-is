@@ -1,29 +1,34 @@
 ---
 title: Viðhaldsbeiðnir
 description: Þetta efni veitir yfirlit um stjórnun viðhaldsbeiðna í eignastjórnun
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6d247457b83036dba2fad8fd9f94e04c29a3aa5e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 1e0071ae745987a1217525b2841e3320933a9242
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985254"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019630"
 ---
 # <a name="maintenance-requests"></a>Viðhaldsbeiðnir
 
 [!include [banner](../../includes/banner.md)]
+
+ 
 
 Viðhaldsbeiðnir eru athugasemdir eða yfirlýsingar sem eru búnar til til að tilkynna stjórnanda eða skipuleggjanda um að eign gæti krafist viðhalds- eða viðgerðarstarfa, en án þess að búa til vinnupöntun. Ef innihald viðhaldsbeiðni er talið gilt, þá er hægt að búa til viðhaldsbeiðni út frá viðhaldsbeiðninni.
 
@@ -39,7 +44,7 @@ Hægt er að búa til viðhaldsbeiðnir fyrir hverja eign í eignastýringu. Hæ
 
 Veldu til að skoða viðhaldsbeiðnir **Eignastýring** \> **Sameiginlegt** \> **Viðhaldsbeiðnir** \> **Allar viðhaldsbeiðnir**, **Virkar viðhaldsbeiðnir**, eða **Beiðnir mínar um viðhald á staðsetningu minni**. Hver listasíða sýnir nokkrar upplýsingar sem tengjast viðhaldsbeiðni.
 
-![Skoða viðhaldsbeiðnir.](media/01-manage-maintenance-requests.png)
+![Skoða viðhaldsbeiðnir](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Notaðu listasíðuna **Beiðnir mínar um viðhald á staðsetningu minni** til að skoða lista yfir viðhaldsbeiðnir sem innihalda annaðhvort virka staði sem þú ert skyldur sem starfsmaður eða eignir sem eru settar upp á starfrænum stöðum sem þú ert skyldur sem starfsmaður. (Sjá upplýsingar um hvernig á að setja upp starfshætti á viðhaldsstarfsmönnum [Viðhaldsstarfsmenn og starfsmannahópar](../setup-for-objects/workers-and-worker-groups.md) .)
@@ -48,7 +53,7 @@ Veldu til að skoða viðhaldsbeiðnir **Eignastýring** \> **Sameiginlegt** \> 
 
 Til að opna smáatriðið yfir plötuna á listasíðunni **Allar viðhaldsbeiðnir** velurðu tengil í hnitalínuyfirlitinu í dálkinum **Viðhaldsbeiðni**.
 
-![Skoða upplýsingar um viðhaldsbeiðni.](media/02-manage-maintenance-requests.png)
+![Skoða upplýsingar um viðhaldsbeiðni](media/02-manage-maintenance-requests.png)
 
 Hnapparnir á aðgerðarglugganum eru skipulagðir á flipa. Eftirfarandi tafla lýsir stuttlega hnöppunum sem tengjast eignastýringu.
 
@@ -67,6 +72,3 @@ Hnapparnir á aðgerðarglugganum eru skipulagðir á flipa. Eftirfarandi tafla 
 | Senda lánseign                  | Veldu lánaeign sem ætti að koma tímabundið í staðinn fyrir þá eign sem er valin á valinni viðhaldsbeiðni. |
 | Skila lánseign                | Skráðu lánaeignina sem að henni hafi verið skilað. |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

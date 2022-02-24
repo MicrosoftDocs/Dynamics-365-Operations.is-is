@@ -2,9 +2,11 @@
 title: Leit að vöru og leit að viðskiptavinum í sölustað (POS)
 description: Þetta efnisatriði gefur yfirlit yfir úrbætur sem hafa verið gerðar á vöru og viðskiptahugbúnaði í Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 10/26/2021
+manager: AnnBe
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
-ms.translationtype: MT
+ms.openlocfilehash: 1de8373471ff8187bd476305c9ed0b26beaa52d5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700090"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965279"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Leit að vöru og leit að viðskiptavinum í sölustað (POS)
 
@@ -36,7 +38,7 @@ Sjálfgefið er að vöruleitir séu gerðar á vöruúrvali verslunar. Þessi t
 
 Á síðunni **Breyta verslun** geta starfsmenn auðveldlega valið hvaða verslun sem er, eða þeir geta leitað að vörum í öllum verslunum.
 
-![Vörulistanum breytt.](./media/Changecatalog.png "Vörulistanum breytt")
+![Vörulistanum breytt](./media/Changecatalog.png "Vörulistanum breytt")
 
 Staðbundin vöruleit leitar í eftirfarandi vörueiginleikum:
 
@@ -47,21 +49,22 @@ Staðbundin vöruleit leitar í eftirfarandi vörueiginleikum:
 - Strikamerki
 - Leita að nafni
 
-### <a name="additional-local-product-search-capabilities-conventional-sql-full-text-search"></a>Frekari leitareiginleikar staðbundinnar afurðar (hefðbundin SQL-leit með heildartexta) 
+### <a name="enhancements-to-local-product-searches"></a>Viðbætur við staðbundna vöruleit
 
+Reynslan af staðbundinni vöruleit er nú notendavænni. Eftirfarandi endurbætur hafa verið gerðar:
+
+- Fellivalmyndum fyrir vöru og viðskiptavini hefrui verið bætt við leitarreitinn svo starfsmenn geti valið annaðhvort **Vara** eða **Viðskiptavinur** áður en þeir gera leitina. Sjálfgefið er **Afurð** valin, eins og sýnt er á myndinni sem hér á eftir.
 - Til að leita að mörg lykilorð í leit (það er fyrir leitir sem nota leitarorð) geta smásalar stillt hvort leitarniðurstöður innihaldi niðurstöður sem passa við *eitthvert* leitarorð eða aðeins niðurstöður sem passa við *öll* leitarorð. Stillingarnar fyrir þessa virkni er að finna í POS-virknisniðinu, undir nýjum hóp sem heitir **Afurðaleit**. Sjálfgefna stillingin er **Samsvara hvaða leitarorði sem er**. Þetta er einnig ráðlögðstilling. Þegar stillingin **Samsvara hvaða leitarorð sem er** er notuð, er öllum vörum sem passa að fullu eða hluta til við eitt eða fleiri leitarorð skilað sem niðurstöður. Þessar niðurstöður eru sjálfkrafa flokkaðar í hækkandi röð af vörum sem hafa mestu samsvörun við leitarorðin (að fullu eða að hluta).
 
     Stillingin **Samsvara hvaða leitarorði sem er** skilar aðeins vörum sem passa við öll leitarorð (að fullu eða hluta). Þessi stilling er gagnleg þegar vörunöfnin eru löng og starfsmenn vilja sjá aðeins takmarkaðar vörur í leitarniðurstöðum. Hins vegar er þessi leit með tveimur takmörkunum:
 
     - Leitin er gerð í einstökum vörueiginleikum. Til dæmis birtast aðeins vörur sem eru með öll leitarorð í að minnsta kosti einum eiginleika voru.
     - Ekki er leitað í víddum.
-> [!NOTE]
-> Eftirfarandi stillingar á **Samsvara hvaða leitarorði sem er**/**Samsvara öllum leitarorðum** í POS-virknireglum eiga aðeins við fyrir **staðbundnar** upplifanir afurðarleitar (hefðbundin SQL-leit með heildartexta). Þessi stilling hefur engin áhrif á skýjavæddar leitarupplifanir. Nýja leitarvélin er með eigið háþróað reiknirit sem knýr leitarsamsvörun fyrir leitarniðurstöður afurðar. 
 
-- Smásöluaðilar geta skilgreint vöruleit til að sýna leitartillögur þegar notendur slá inn vöruheiti. Ný stilling fyrir þessa virkni er að finna í POS-virknisniðinu, undir hópi sem heitir **Vöruleit**. Stillingin heitir **Sýna leitaruppástungur meðan þú skrifa**. Þessi virkni getur hjálpað starfsmönnum að finna fljótt vöruna sem þeir leita að, vegna þess að þeir þurfa ekki að slá inn heitið handvirkt.
+- Söluaðilar geta nú skilgreint vöruleit til að sýna leitarniðurstöður sem vöruheiti fyrir gerðir notenda. Ný stilling fyrir þessa virkni er að finna í POS-virknisniðinu, undir hópi sem heitir **Vöruleit**. Stillingin heitir **Sýna leitaruppástungur meðan þú skrifa**. Þessi virkni getur hjálpað starfsmönnum að finna fljótt vöruna sem þeir leita að, vegna þess að þeir þurfa ekki að slá inn heitið handvirkt.
 - Vöruleit reikniritin leitar nú einnig að leitarorðum í eiginleikanum **Leita í heiti** fyrir vöruna.
 
-![Afurðatillögur.](./media/Productsuggestions.png "Afurðatillögur")
+![Afurðatillögur](./media/Productsuggestions.png "Afurðatillögur")
 
 ## <a name="customer-search"></a>Viðskiptavinaleit
 
@@ -83,24 +86,24 @@ Til að leita altækt geta starfsmenn valið hnappinn **Sía niðurstöður** ne
 > [!NOTE]
 > Færa þarf inn minnst fjóra stafi til að leit að fjartengdum viðskiptavinum skili niðurstöðum.
 
-Kenni viðskiptavinar er ekki sýnt fyrir viðskiptavini sem aðrir lögaðilar spyrjast fyrir um vegna þess að ekkert kenni viðskiptavinar hefur verið stofnað fyrir þá aðila í núverandi fyrirtæki. Hins vegar, ef starfsmaður opnar síðuna með viðskiptavinarupplýsingum, býr kerfið sjálfkrafa til viðskiptavinarkenni fyrir aðila og tengir einnig aðsetursbækur viðskiptavina verslunar við viðskiptavininn. Þess vegna verður viðskiptavinurinn sýnilegur í staðbundnum leitum sem eru gerðar síðar.
+Í Fjartengd viðskiptavinarleit er kenni viðskiptavinar ekki sýnt viðskiptavinum frá öðrum lögaðilum aþr sem ekkert kenni viðskiptavinar hefur verið stofnað fyrir þá aðila í núverandi fyrirtæki. Hins vegar, ef starfsmaður opnar síðuna með viðskiptavinarupplýsingum, býr kerfið sjálfkrafa til viðskiptavinarkenni fyrir aðila og tengir einnig aðsetursbækur viðskiptavina verslunar við viðskiptavininn. Þess vegna verður viðskiptavinurinn sýnilegur í staðbundnum leitum sem eru gerðar síðar.
 
-![Altæk viðskiptavinaleit.](./media/Globalcustomersearch.png "Altæk viðskiptavinaleit")
+![Altæk viðskiptavinaleit](./media/Globalcustomersearch.png "Altæk viðskiptavinaleit")
 
-### <a name="additional-local-customer-search-capabilities"></a>Frekari leitareiginleikar staðbundins viðskiptavinar
+### <a name="enhancements-to-local-customer-search"></a>Viðbætur við staðbundna leit að viðskiptavinum
 
-Þegar notendur leita að símanúmeri hunsar kerfið sérstafi (t.d. bil, bandstrik og sviga) sem kann að hafa verið bætt við þegar viðskiptavinurinn var búinn til. Þess vegna þurfa gjaldkerar ekki að hafa áhyggjur af símanúmersniðinu þegar þeir leita. Til dæmis, ef símanúmer viðskiptavinar var slegið inn sem **123-456-7890**, getur gjaldkeri leitað að viðskiptavinum með því að slá inn **1234567890** eða með því að slá inn fyrstu tölur símanúmersins.
+Leitir sem eru byggðar á símanúmerinu hafa verið einfaldaðar. Þessar leitir hunsa nú sérstafi, t.d. bilum, bandstrikum og svigum, sem kunna að hafa verið bætt við þegar viðskiptavinurinn var búinn til. Þess vegna þurfa gjaldkerar ekki að hafa áhyggjur af símanúmersniðinu þegar þeir leita. Til dæmis, ef símanúmer viðskiptavinar var slegið inn sem **123-456-7890**, getur gjaldkeri leitað að viðskiptavinum með því að slá inn **1234567890** eða með því að slá inn fyrstu tölur símanúmersins.
 
 > [!NOTE]
 > Viðskiptavinur getur haft mörg símanúmer og netföng. Reiknirit viðskiptavinaleitar leitar einnig í gegnum þessi aukalegu netföng og símanúmer, en síðan með leitarniðurstöðum um viðskiptavin sýnir aðeins aðalnetfang og aðalsímanúmer. Þetta getur valdið ruglingi því að niðurstöður um viðskiptavin sýna ekki netfangið eða símanúmerið sem leitað var að. Í síðari útgáfu er ætlunin að bæta skjámyndina fyrir leitarniðurstöður um viðskiptavin þannig að hún sýni þessar upplýsingar.
 
-Hefðbundna viðskiptaleitin getur verið tímafrek vegna þess að hún leitar yfir mörg svæði. Þess í stað geta gjaldkerar leitað í einum eiginleika viðskiptavinar, eins og nafni, netfangi eða símanúmeri. Eiginleikarnir sem reiknirit viðskiptavinaleitar notar eru sameiginlega þekktir sem *leitarskilyrði viðskiptavinar*. Kerfisstjórinn getur auðveldlega stillt eitt eða fleiri skilyrði sem flýtileiðir sem birtast í POS. Vegna þess að leitin er takmörkuð við eitt skilyrði, eru aðeins viðeigandi leitarniðurstöður sýndar og afköstin er mun betri en afköst staðlaðrar viðskiptavinaleitar. Eftirfarandi skýringarmynd sýnir flýtileiðir viðskiptavinaleitar í POS.
+Hefðbundna viðskiptaleitin getur verið tímafrek vegna þess að hún leitar yfir mörg svæði. Þess í stað geta gjaldkerar nú leitað í einum eiginleika viðskiptamanns, eins og nafni, netfangi eða símanúmeri. Eiginleikarnir sem reiknirit viðskiptavinaleitar notar eru sameiginlega þekktir sem *leitarskilyrði viðskiptavinar*. Kerfisstjórinn getur auðveldlega stillt eitt eða fleiri skilyrði sem flýtileiðir sem birtast í POS. Vegna þess að leitin er takmörkuð við eitt skilyrði, eru aðeins viðeigandi leitarniðurstöður sýndar og afköstin er mun betri en afköst staðlaðrar viðskiptavinaleitar. Eftirfarandi skýringarmynd sýnir flýtileiðir viðskiptavinaleitar í POS.
 
-![Flýtileiðir viðskiptavinaleitar.](./media/SearchShortcutsPOS.png "Flýtileiðir viðskiptavinaleitar")
+![Flýtileiðir viðskiptavinaleitar](./media/SearchShortcutsPOS.png "Flýtileiðir viðskiptavinaleitar")
 
 Til að stilla leitarskilyrði sem flýtileiðir verður stjórnandinn að opna síðuna **Færibreytur Commerce** í Commerce og síðan á flipanum **POS leitarskilyrði** eru öll skilyrði valin sem eiga að birtast sem flýtileiðir.
 
-![Skilgreina flýtileiðir leitar.](./media/ConfigureShortcutsAX.png "Skilgreina flýtileiðir leitar")
+![Skilgreina flýtileiðir leitar](./media/ConfigureShortcutsAX.png "Skilgreina flýtileiðir leitar")
 
 > [!NOTE]
 > Ef þú bætir við of mörgum flýtileiðum verður fellivalmyndin á leitarstikunni í POS ofhlaðin og það getur haft áhrif á reynslu starfsmanns af leitinni. Við mælum með að þú bætir aðeins við eins mörgum flýtileiðum og nauðsynlegt er.
@@ -110,44 +113,7 @@ Reiturinn **Birta röð** ákvarðar röðina sem flýtileiðir eru sýndar í P
 > [!NOTE]
 > Sérsniðnum eiginleika sem er bætt við fasttextann hefur ekki áhrif á staðlað reiknirit viðskiptavinaleitar. Með öðrum orðum mun reiknirit viðskiptavinaleitar ekki leita í sérsniðnum eiginleikum. Notendur geta aðeins notað sérsniðna eiginleika fyrir leitir ef þessum sérsniðna eiginleika er bætt við sem flýtileið eða ef sjálfgefnu reikniriti leitar er hnekkt.
 
-Smásöluaðilar geta einnig stillt sjálfgefna leitarstillingu viðskiptavinar á sölustað á **Leita í öllum verslunum**. Þessar skilgreiningar geta verið gagnlegar í aðstæðum þar sem leita verður strax í viðskiptavinum sem voru stofnaðir utan POS (til dæmis, jafnvel áður en dreifingarvinnslan er keyrð). Til að gera það þarf smásöluaðili að kveikja á valkostinum **Sjálfgefið leitarsnið viðskiptavinar** í virknireglu sölustaðar. Þegar hann er stilltur á **Já** munu allar leitartilraunir að viðskiptavini senda rauntímakall til höfuðstöðva.
+Í komandi útgáfu af Commerce munu smásalar geta stillt sjálfgefnar leitarstillingar viðskiptavina leitarmöguleika í POS á **Leita í öllum verslunum**. Þessar skilgreiningar geta verið gagnlegar í aðstæðum þar sem leita verður strax í viðskiptavinum sem voru stofnaðir utan POS (til dæmis, jafnvel áður en dreifingarvinnslan er keyrð). Ný valkostur **Sjálfgefnar leitarstillingar viðskiptavina** verður í boði í POS-virkniprófílnum. Stilltu hann á **Á** til að stilla sjálfgefnar leitarstillingar á **Leita í öllum verslunum**. Sérhver tilraun til viðskiptavinaleitar mun síðan gera rauntímakall í höfuðstöðvarnar.
 
 Til að koma í veg fyrir óvænt afkastavandamál eru þessar stillingar faldar á bak við tilraunaútgáfuflagg sem heitir **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Þess vegna, til að sýna stillinguna **Sjálfgefnar leitarstillingar viðskiptavina** í notandaviðmótinu (UI) ætti smásalinn að stofna stuðningsmiða fyrir samþykkisprófun notanda (UAT) og framleiðsluumhverfi. Þegar miðinn hefur verið móttekinn munu tæknimennirnir vinna með söluaðila til að ganga úr skugga um að smásalinn framkvæmi prófanir í umhverfi utan framleiðslu til að meta árangur og framkvæma allar fínstillingar sem krafist er.
 
-## <a name="cloud-powered-customer-search"></a>Viðskiptavinaleit í skýinu
-
-Opin forútgáfa af leitareiginleika viðskiptavinar með þjónustu Azure Cognitive Search hefur verið gefin út sem hluti af Commerce-útgáfu 10.0.18. Auk endurbóta á afköstum njóta notendur þjónustunnar góðs af mörgum lagfæringum og endurbótum tengdra möguleika. Afkastaendurbæturnar koma berlega í ljós þegar altækur leitareiginleiki („Leita í öllum verslunum“) sölustaðar er notaður. Það er vegna þess að leitarniðurstöður eru sóttar úr leitaratriðaskrá Azure í staðinn fyrir að vera fengnar úr gögnum í Commerce Headquarters. 
-
-### <a name="enable-the-cloud-powered-search-feature"></a>Virkja leitareiginleika í skýinu
-
-> [!NOTE]
-> Þess er krafist að bæði Commerce Headquarters og Commerce Scale Unit séu uppfærð í útgáfu 10.0.18. Ekki er nauðsynlegt að uppfæra sölustaðinn.
-
-Til að virkja leitareiginleika í skýinu í Commerce Headquarters skal fylgja þessum skrefum.
-
-1. Opna skal **Kerfisstjórnun \> Vinnusvæði \> Eiginleikastjórnun**.
-1. Leitið að og veljið eiginleikann **(Forútgáfa) Viðskiptavinaleit í skýinu** og veljið síðan **Virkja núna**.
-1. Farið í **Smásala og viðskipti > Uppsetning höfuðstöðva > Viðskiptaverkraðari > Frumstilla verkraðara viðskipta** og veljið **Í lagi** til að sýna nýju vinnsluna **1010_CustomerSearch** á sniðinu **Dreifingaráætlun**.
-1. Farið í **Smásala og viðskipti > Upplýsingatækni smásölu og viðskipta > Dreifingaráætlun**.
-1. Keyrið vinnsluna **1010_CustomerSearch**. Þessi vinnsla gefur upp dagsetningu leitaratriðaskráar Azure. Þegar atriðaskráin hefur verið birt verður staða vinnslunnar stillt á **Notuð**.
-1. Þegar vinnslustaðan **1010_CustomerSearch** er stillt á **Notuð** skal keyra vinnsluna **1110 - Global configuration** til að uppfæra rásir sölustaðar á nýlega virkjaða eiginleikanum í **Eiginleikastjórnun**.
-1. Síðan skal keyra vinnsluna **1010_CustomerSearch** með reglulegu millibili til að senda uppfærslur viðskiptavina til leitaratriðaskráarinnar.
-
-> [!NOTE]
-> Fyrir fyrstu birtingu atriðaskráar gæti vinnslan **1010_CustomerSearch** tekið nokkrar klukkustundir því hún þarf að senda allar viðskiptavinafærslur til leitaratriðaskráar Azure. Næstu uppfærslur ættu að taka nokkrar mínútur. Á tímabilinu þegar leitareiginleikinn í skýinu er virkjaður en birtingu atriðaskráar er ekki lokið mun viðskiptavinaleitin úr sölustað fara sjálfgefið í fyrirliggjandi SQL-leit. Þetta tryggir að aðgerðir verslunar verði ekki fyrir truflunum.
-
-### <a name="functional-differences-from-the-existing-search"></a>Munir á virkni miðað við núverandi leit
-
-Eftirfarandi listi sýnir hvernig virkni viðskiptavinaleitar í skýinu er frábrugðin núverandi leitarvirkni. 
-
-- Viðskiptavinir sem eru stofnaðir og breytt í Commerce Headquarters eru sendir í leitaratriðaskrá Azure þegar vinnslan **1010_CustomerSearch** er keyrð. Þessar uppfærslur taka að lágmarki 15 til 20 mínútur til að uppfæra atriðaskrána. Notendur sölustaðar geta leitað að nýjum viðskiptavinum (eða leitað út frá uppfærðum upplýsingum) um 15 til 20 mínútum eftir að uppfærslurnar eiga sér stað í Commerce Headquarters. Ef viðskiptaferlið krefst þess að strax verði hægt að leita á sölustað að viðskiptavinum sem stofnaðir eru í Commerce Headquarters, þá er þetta mögulega ekki rétta þjónustan fyrir þig.
-- Nýir viðskiptavinir sem stofnaðir eru á sölustað eru sendir í leitaratriðaskrá Azure úr Commerce Scale Unit og verður hægt að leita að þeim strax í öllum verslunum. Ef hins vegar er kveikt á eiginleika fyrir stofnun ósamstillts viðskiptavinar verða nýjar færslur viðskiptavinar ekki sendar til leitaratriðaskráar Azure úr Commerce Scale Unit og verður ekki hægt að leita að þeim úr sölustað fyrr en upplýsingar um viðskiptavin eru samstilltar við Commerce Headquarters og kenni viðskiptavina eru búin til fyrir ósamstillta viðskiptavini. Vinnslan **1010_CustomerSearch** mun þá geta sent færslur ósamstilltra viðskiptavina til leitaratriðaskráar Azure. Það tekur að meðaltali um 30 mínútur áður en hægt verður að leita að nýlega stofnuðum, ósamstilltum viðskiptavinum á sölustað. Þetta mat gerir ráð fyrir að vinnslurnar **1010_CustomerSearch**, **P-vinnsla** og **Samstilla viðskiptavini og viðskiptafélaga úr async-stillingu** verði keyrðar á 15 mínútna fresti.
-- Leit í skýinu leitar einnig að aukalegum netföngum og símanúmerum viðskiptavina, en sem stendur sýna niðurstöður viðskiptavinaleitar aðeins aðalsímanúmer og aðalnetfang viðskiptavina. Við fyrstu sýn kann að virðast að óviðkomandi leitarniðurstöðum hafi verið skilað, en athugun á aukalegu netfangi og símanúmeri viðskiptavinar í leitarniðurstöðum getur gengið úr skugga um hvort leitarorðin hafi skilað samsvörun viðskiptavinar. Til að forðast slíkan rugling eru uppi áform um að bæta síðu leitarniðurstaðna til að gera notendum auðveldara um vik að skilja hvers vegna leitarniðurstöðu var skilað.
-- Krafan um að leita með því að nota a.m.k. 4 stafi í altækri leit („Leita í öllum verslunum“) á ekki við um þessa þjónustu.
-
-> [!NOTE]
-> Eiginleiki viðskiptavinaleitar sem notar þjónustu Azure Cognitive Search er tiltæk í forútgáfu á takmörkuðum svæðum. Eiginleiki viðskiptavinaleitar er *ekki* fyrir hendi í eftirfarandi löndum:
-> - Brasilía
-> - Indland
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

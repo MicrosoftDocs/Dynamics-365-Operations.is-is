@@ -2,22 +2,24 @@
 title: Myndræn framsetning vinnuálags á útleið
 description: Þetta efnisatriði veitir upplýsingar um myndræn framsetningu á útleið. Þessi virkni gerir stjórnendum vöruhúsa og yfirmönnum kleift að búa til sérsniðin vinnuálagsgröf sem má nota til að fylgjast með framvindu núverandi vinnu og hversu mikið er eftir af vinnunni. Vöruhúsastjórnendur geta búið til mörg yfirlit og sett upp sjálfvirka endurnýjun að vild.
 author: Mirzaab
+manager: tfehr
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8416d43fe2b8b08e4d66434a1d95daa4b01a0fa4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576161"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965553"
 ---
 # <a name="outbound-workload-visualization"></a>Myndræn framsetning vinnuálags á útleið
 
@@ -60,7 +62,7 @@ Til að setja upp myndræna framsetningu vinnuálags á útleið skal fylgja þe
     - **Dagsetningar sem taka á með** – Sláðu inn dagafjöldann aftur í tíma sem mynda á graf fyrir.
     - **Gerð verkbeiðni** – Veldu gerðir verkbeiðna á útleið sem á að sía.
 
-    ![Stillingasíða sía.](media/work-viz-filters-1.png "Stillingasíða sía")
+    ![Stillingasíða sía](media/work-viz-filters-1.png "Stillingasíða sía")
 
 1. Lokaðu síðunni **Skilgreina síur** til að fara aftur á síðuna **Myndræn framsetning vinnuálags á útleið**.
 
@@ -70,11 +72,11 @@ Til að setja upp myndræna framsetningu vinnuálags á útleið skal fylgja þe
     - **Síðast endurnýjað** – Þetta svæði sýnir dagsetninguna og tímann þegar upplýsingarnar í grafinu voru síðast uppfærðar.
     - **Áætlaður tími/rauntími** – Þegar vinnustaðlar eru settir upp í kerfinu skal stilla þennan valkost á *Já* til að sýna uppsafnaða áætlaðan tiltektartíma efst í hverjum dálki grafsins. Þessi valkostur er ekki tiltækur þegar vinnustaðlar eru ekki notaðir.
 
-    ![Myndræn útfærsla dæma.](media/work-viz-chart.png "Myndræn útfærsla dæma")
+    ![Myndræn framsetning](media/work-viz-chart.png "Myndræn útfærsla dæma")
 
 1. Velja skal hvaða stiku sem er í grafinu til að skoða tengdar upplýsingar vinnulínu.
 
-    ![Upplýsingar um vinnulínu.](media/work-viz-work-details.png "Upplýsingar um vinnulínu")
+    ![Upplýsingar um vinnulínu](media/work-viz-work-details.png "Upplýsingar um vinnulínu")
 
 ## <a name="example-outbound-workload-visualization-for-zones"></a>Dæmi: Myndræn framsetning vinnuálags á útleið
 
@@ -92,9 +94,6 @@ Til að setja upp myndræna framsetningu vinnuálags á útleið skal fylgja þe
 
 Eftirfarandi skýringarmynd sýnir dæmi um graf.
 
-![Myndræn framsetning svæða miðað við stöðu vinnu.](media/work-viz-chart.png "Myndræn framsetning svæða miðað við stöðu vinnu")
+![Myndræn framsetning svæða miðað við stöðu vinnu](media/work-viz-chart.png "Myndræn framsetning svæða miðað við stöðu vinnu")
 
 Þetta graf sýnir tvö svæði sem kallast **GÓLF** og **MAGN**, auk svæðis sem kallast **Autt**. Svæðið **Autt** táknar allar vinnulínur sem eru ekki hluti af svæðum. Grafið sýnir alltaf ótengd síuð gögn sem **Auð** til að veita eins mikinn sýnileika og hægt er. Á svæðinu **Gólf** sýnir grafið þrjár lokaðar línur og fjórar opnar línur. Á svæðinu **MAGN** sýnir grafið fjórar lokaðar línur, eina opna línu og 24 línur sem var hætt við. Grafið sýnir að endingu átta lokaðar línur sem eru ekki hluti af svæði og eru því flokkaðar sem **Auðar**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

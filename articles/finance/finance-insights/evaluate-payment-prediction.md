@@ -1,30 +1,34 @@
 ---
-title: Leggja mat á upprunalega greiðsluspá viðskiptavinarins
+title: Leggja mat á upprunalega greiðsluspá viðskiptavinarins (forskoðun)
 description: Þetta efnisatriði lýsir skrefum sem má taka til að skilja greiðsluspá viðskiptavinar og meta skilvirkni hennar.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+manager: AnnBe
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
-ms.translationtype: MT
+ms.openlocfilehash: d761e31c4e4169b09711e351948390d2d40f3739
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969113"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644970"
 ---
-# <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Leggja mat á upprunalega greiðsluspá viðskiptavinarins
+# <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Leggja mat á upprunalega greiðsluspá viðskiptavinarins (forskoðun)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði útskýrir hvernig á að meta spálíkan eftir að þú kveikir á Fjármálainnsýn og hefur myndað og þjálfað fyrsta líkanið. Þetta efnisatriði fjallar um líkan til að spá fyrir um greiðslur viðskiptavinar. Efnisatriðið lýsir skrefum sem hægt er að nota til að skilja greiðsluspá viðskiptavinar og meta skilvirkni hennar.
 
@@ -32,32 +36,32 @@ ms.locfileid: "7969113"
 
 Á síðunni **Færibreytur Fjármálainnsýnar** í Microsoft Dynamics 365 Finance, birtist tengillinn **Auka nákvæmni líkans** við hlið nákvæmniseinkunnarinnar.
 
-[![Tengill til að auka nákvæmni líkans.](./media/prediction-model.png)](./media/prediction-model.png)
+[![Tengill til að auka nákvæmni líkans](./media/prediction-model.png)](./media/prediction-model.png)
 
-Þessi hlekkur leiðir þig til AI Builder, þar sem þú getur lært meira um núverandi líkan og einnig gert ráðstafanir til að bæta það. Skýringarmyndin hér á eftir sýnir síðuna sem opnast.
+Um leið og smellt er á tengilinn opnast AI Builder, þar sem hægt er að fá frekari upplýsingar um núverandi líkan og frekari skref til að bæta líkanið. Skýringarmyndin hér á eftir sýnir síðuna sem opnast.
 
-[![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 Eftirfarandi upplýsingar birtast á síðunni sem opnast:
 
-- Í hlutanum **Frammistaða** varpar frammistöðueinkunnin ljósi á gæði líkansins. Fyrir frekari upplýsingar um þessa einkunn, sjá [Frammistaða spálíkans](/ai-builder/prediction-performance) í AI Builder skjöl.
+- Í hlutanum **Frammistaða** varpar frammistöðueinkunnin ljósi á gæði líkansins. Frekari upplýsingar um þessa Einkunn er að finna í hlutanum [Frammistaða spálíkans](https://docs.microsoft.com/ai-builder/prediction-performance) í fylgiskjölum AI Builder.
 - Hlutinn **Áhrifamestu gögnin** sýnir hversu mikilvægar mismunandi innsláttargerðir gagna voru fyrir líkanið. Hægt er að meta þennan lista og samsvarandi prósentuhlutfall til að ákvarða hvort upplýsingarnar eru í samræmi við þekkingu þína á fyrirtækinu þínu og markaðinum.
 
-    [![Hlutar frammistöðu og áhrifamestu gagna fyrir spálíkanið.](./media/models.png)](./media/models.png)
+    [![Hlutar frammistöðu og áhrifamestu gagna fyrir spálíkanið](./media/models.png)](./media/models.png)
 
 - Í hlutanum **Frammistaða** skal velja **Skoða frekari upplýsingar** til að fá frekari upplýsingar um einkunnina önnur atriði. Frekari upplýsingar á eftirfarandi skýringarmynd sýna að líkanið notar minni upplýsingar en ráðlagt er. Þar af leiðir sendi kerfið frá sér viðvörunarboð.
 
-    [![Viðvaranir um frammistöðu líkansins.](./media/details.png)](./media/details.png)
+    [![Viðvaranir um frammistöðu líkansins](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>Nánari skoðun
 
-Þó að nákvæmni sé góður upphafspunktur til að meta líkan, og árangurseinkunnin veitir yfirsýn,AI Builder veitir ítarlegri mælikvarða sem þú getur notað við mat þitt. Til að hlaða niður frekari upplýsingum í hlutanum **Frammistaða** skal smella á hnappinn úrfellingarhnappinn (**...**) við hliðina á hnappinum **Nota líkan** og síðan velja **Hlaða niður ítarlegri mæligildum**.
+Nákvæmni er ágætis viðmið til að meta líkan í upphafi og frammistöðueinkunn veitir ágætis yfirsýn en hins vegar býður AI Builder upp á ítarlegri mæligildi til að nota við slíkt mat. Til að hlaða niður frekari upplýsingum í hlutanum **Frammistaða** skal smella á hnappinn úrfellingarhnappinn (**...**) við hliðina á hnappinum **Nota líkan** og síðan velja **Hlaða niður ítarlegri mæligildum**.
 
-[![Skipunin um að hlaða niður ítarlegri mæligildum.](./media/performance.png)](./media/performance.png)
+[![Skipunin um að hlaða niður ítarlegri mæligildum](./media/performance.png)](./media/performance.png)
 
 Eftirfarandi skýringarmynd sýnir sniðið sem hægt er að hlaða niður gögnunum í.
 
-[![Snið gagna sem hlaðið er niður.](./media/data-format.png)](./media/data-format.png)
+[![Snið gagna sem hlaðið er niður](./media/data-format.png)](./media/data-format.png)
 
 Þegar greina á niðurstöðurnar frekar er skoðun á „ruglingsfylkinu“ ágætis byrjunarreitur. Hér eru til dæmis gögnin sem eru sýnd fyrir þetta mæligildi í skýringarmyndinni hér á undan.
 
@@ -65,7 +69,7 @@ Eftirfarandi skýringarmynd sýnir sniðið sem hægt er að hlaða niður gögn
 
 Hægt er að víkka þessi gögn á eftirfarandi hátt.
 
-| &nbsp;                   | Spáð í tíma | Spáð seint | Spáð mjög seint |
+|                          | Spáð í tíma | Spáð seint | Spáð mjög seint |
 |--------------------------|-------------------|----------------|---------------------|
 | Raunveruleg greiðsla sem barst á tíma   | **71**            | 0              | 21                  |
 | Raunveruleg greiðsla sem barst seint      | 5                 | **0**          | 27                  |
@@ -89,10 +93,11 @@ Tala sem sýnir frammistöðu líkansins á betri hátt en nákvæmni er einkunn
 
 ## <a name="improving-the-model"></a>Endurbætur líkansins
 
-Þegar niðurstöður fyrsta líkansins hafa verið metnar, gæti verið gott að bæta líkanið við með því að bæta við eða fjarlægja eiginleikadálka eða með því að sía alla hluta gagnasafnsins sem styðja ekki nákvæmar spár. Loka AI Builder, og notaðu síðan **Bæta líkan** hlekkur inn Dynamics 365 Finance til að endurræsa AI Builder ferli. Hægt er að prófa sig áfram með ólíka eiginleika án þess að slíkt hafi áhrif á útgefna líkanið. Útgefna líkanið verður einungis fyrir áhrifum þegar smellt er á **Birta**. Hafðu í huga að stakt líkan er notað fyrir tilvikið af Dynamics 365 Finance. Því skaltu fara vandlega yfir öll ný líkön áður en þau eru birt.
+Þegar niðurstöður fyrsta líkansins hafa verið metnar, gæti verið gott að bæta líkanið við með því að bæta við eða fjarlægja eiginleikadálka eða með því að sía alla hluta gagnasafnsins sem styðja ekki nákvæmar spár. Loka skal AI Builder og nota svo tengilinn **Endurbæta líkanið** í Dynamics 365 Finance til að endurræsa ferli AI Builder. Hægt er að prófa sig áfram með ólíka eiginleika án þess að slíkt hafi áhrif á útgefna líkanið. Útgefna líkanið verður einungis fyrir áhrifum þegar smellt er á **Birta**. Hafðu í huga að stakt líkan er notað fyrir tilvikið af Dynamics 365 Finance. Því skaltu fara vandlega yfir öll ný líkön áður en þau eru birt.
 
 ## <a name="for-more-information"></a>Frekari upplýsingar
 
 Frekari upplýsingar um hvernig skal meta spálíkön er að finna í [Niðurstöður vélnámslíkana](/confusion-matrix.md)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+#### <a name="privacy-notice"></a>Tilkynning um persónuvernd
+Forútgáfur (1) kunna að nota minni persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 Finance and Operations, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.

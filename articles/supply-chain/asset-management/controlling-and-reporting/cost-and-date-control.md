@@ -1,10 +1,12 @@
 ---
 title: Kostnaðar- og dagsetningarstýring
 description: Þetta efni skýrir kostnaðar- og dagsetningastýringu í eignastýringu.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetBICostControlWorkspace, EntAssetWorkOrderDateControl, EntAssetWorkOrderForecastCostInfoPart, EntAssetMaintenanceCostTrans, EntAssetWorkOrderDateControlCalcDialog, EntAssetCostControl, EntAssetCostObjectCalendar, EntAssetWorkOrderCostInfoPart
 audience: Application User
@@ -12,21 +14,23 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 826e0aab8c717bb951d80aff61b2d72dad802189706f720c48e72c8a1c393ead
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1de12233ff296f77ba9984fa8d957d4c2bc90b3f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731914"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019076"
 ---
 # <a name="cost-and-date-control"></a>Kostnaðar- og dagsetningarstýring
 
 [!include [banner](../../includes/banner.md)]
 
-Í eignastýringu er hægt að reikna út kostnað til að fá yfirlit yfir raunkostnað miðað við kostnað fjárhagsáætlunar á eignum, virkum staðsetningum og verkbeiðnum. Raunkostnaður byggist á bókfærðum færslum.
+ 
+
+Í eignastýringu er hægt að reikna út kostnað til að fá yfirlit yfir raunkostnað miðað við kostnað fjárhagsáætlunar á eignum, virkum staðsetningum og verkbeiðnum. Raunkostnaður byggist á bókfærðum færslum. 
 
 Þú getur líka gert útreikning á dagsetningum ef þú vilt bera saman áætlaðar upphafs- og lokadagsetningar við raunverulegar upphafs- og lokadagsetningar á verkbeiðnum.
 
@@ -44,8 +48,8 @@ ms.locfileid: "6731914"
 
 5. Þú getur notað reitinn **Stig** til að gefa til kynna hversu ítarlegar þú vilt að kostnaðarstýringarlínur séu varðandi virkar staðsetningar. 
 
-    Til dæmis, ef þú setur inn töluna "1" í reitinn, og þú ert með fjölþrepa skipulag virkrar staðsetningar, verða allar kostnaðarstýringarlínur fyrir virka staðsetningu sýndar á efsta stigi og því er hægt að leggja saman klukkustundirnar á línu frá virkum staðsetningum á lægra stigi.
-
+    Til dæmis, ef þú setur inn töluna "1" í reitinn, og þú ert með fjölþrepa skipulag virkrar staðsetningar, verða allar kostnaðarstýringarlínur fyrir virka staðsetningu sýndar á efsta stigi og því er hægt að leggja saman klukkustundirnar á línu frá virkum staðsetningum á lægra stigi. 
+    
     Ef þú setur töluna „0“ inn í reitinn **Stig** muntu sjá ítarlega niðurstöður sem sýna allar kostnaðarstýringarlínur á öllum virkum staðsetningarstigum sem þær tengjast.
 
 6. Veldu „Já“ á skiptihnappnum **Sýna opinn ráðstafaðan kostnað** ef þú vilt láta dálkinn fylgja með í útreikningnum.
@@ -58,11 +62,11 @@ ms.locfileid: "6731914"
 
     Myndin hér að neðan sýnir dæmi um gluggann **Stýring eignakostnaðar**.
 
-    ![Svargluggi fyrir kostnaðarstýringu eignar.](media/01-controlling-and-reporting.png)
+    ![Valmyndin Stýring eignakostnaðar](media/01-controlling-and-reporting.png)
 
 10. Á síðunni **Stýring eignakostnaðar** smellirðu á hnappana **Flokka eftir** til að sýna áskilið upplýsingastig útreikningsins. Valdir hnappar **Flokka eftir** eru auðkenndir. Smelltu á hnappinn til að virkjaðu eða afvirkjaðu hann.
 
-## <a name="example-of-calculation-results-in-asset-cost-control"></a>Dæmi um niðurstöður útreiknings í kostnaðarstýringu eignar
+## <a name="example"></a>Dæmi
 
 Skjáskotið hér að neðan sýnir dæmi um niðurstöður útreiknings í **Stýringu eignakostnaðar**.
 
@@ -71,9 +75,10 @@ Skjáskotið hér að neðan sýnir dæmi um niðurstöður útreiknings í **St
 - Reiturinn **Opinn ráðstafaður kostnaður** sýnir skuldbindingar um greiðslu fyrir vörur, tíma og þjónustu sem þú hefur pantað eða fengið en hefur ekki enn borgað fyrir. 
 - Reiturinn **Raunkostnaður** sýnir tengdan kostnað eftir að allar notkunarskráningar hafa verið bókaðar.
 
-![Dæmi um niðurstöður útreiknings í kostnaðarstýringu eignar.](media/02-controlling-and-reporting.png)
+![Dæmi um niðurstöður útreikninga í Stýringu eignakostnaðar](media/02-controlling-and-reporting.png)
 
 Önnur leið til að gera kostnaðarútreikning er að velja margar eignir í **Allar eignir** eða **Virkar eignir**. Smelltu síðan á hnappinn **Kostnaðarstýring** á flipnanum **Almennt**. Í glugganum **Stýring eignakostnaðar** eru valdar eignir sjálfkrafa settar inn í reitinn **Eignir** á flýtiflipanum **Færslur til að hafa með**. Smelltu á **Í lagi** og kostnaðarútreikningur fyrir valdar eignir er sýndur. Sama ferli er hægt að gera fyrir virkar staðsetningar í **Allar virkar staðsetningar** eða **Virkar virkar staðsetningar**, og vegna verkbeiðna í **Allar verkbeiðnir** eða **Virkar vinnupantanir**.
+
 
 ## <a name="work-order-date-control"></a>Dagsetningastjórnun verkbeiðni
 
@@ -91,7 +96,7 @@ Notaðu þessa síðu til að fá yfirlit yfir væntanlegar upphafs- og lokadags
 
 6. Smelltu á hnappana **Flokka eftir** til að sýna nauðsynleg smáatriði við útreikninginn. Valdir hnappar **Flokka eftir** eru auðkenndir. Smelltu á hnappinn til að virkjaðu eða afvirkjaðu hann.
 
-## <a name="example-of-calculation-results-in-work-order-date-control"></a>Dæmi um niðurstöður útreiknings í dagsetningarstýringu verkbeiðni
+## <a name="example"></a>Dæmi
 
 Skjáskotið hér að neðan sýnir dæmi um niðurstöður útreiknings í **Dagsetningastýringu verkbeiðni**.
 
@@ -99,9 +104,6 @@ Skjáskotið hér að neðan sýnir dæmi um niðurstöður útreiknings í **Da
 - Reiturinn **Meðalseinkun loka** sýnir mismuninn í dögum milli áætlaðs lokadags fyrir verkbeiðni miðað við raunverulegan lokadag. Ef til dæmis raunlokadagsetningin var þremur dögum eftir áætlaðan lokadag birtist „-3“ í þessum reit.  
 - Reitirnir **Tilvik** sýna fjölda skipta sem frávik eiga sér stað í tengslum við áætlaða og raunverulega upphafsdagsetningu og áætlaða og raunverulega lokadagsetningu í verkbeiðninni.
 
-![Dæmi um niðurstöður útreiknings í dagsetningarstýringu verkbeiðni.](media/03-controlling-and-reporting.png)
+![Dæmi um niðurstöður útreikninga í Dagsetningastjórnun verkbeiðni](media/03-controlling-and-reporting.png)
 
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

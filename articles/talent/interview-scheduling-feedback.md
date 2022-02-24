@@ -102,6 +102,3 @@ Ef reiturinn **Erfa þátttakendur sem gefa ábendingar frá ráðningarhópi** 
 Viðtalsaðgerðin er valfrjáls aðgerð sem inniheldur þrjá þætti: **Beiðni um tímaupplýsingar umsækjanda**, **Áætlun** og **Endurgjöf**. Notaðu viðtalsaðgerðina í starfssniðmátinu ef þú vilt hafa allar beiðnir um tímaupplýsingar umsækjanda, áætlun og endurgjöf sem hluti af ferlinu í staðinn fyrir að nota það hvert fyrir sig.
 
 Til að bæta við eða takmarka umsækjendur sem á að taka viðtal við skal velja gildi í reitnum **Hvern ertu að taka viðtal við**. Tiltækir valmöguleikar eru **Allir umsækjendur**, **Umsækjendur utan fyrirtækis** og **Umsækjendur innan fyrirtækis**. Til dæmis ef þú vilt sleppa umsækjendum innan fyrirtækis í fyrstu lotu viðtala skal stilla **Hverja ertu að taka viðtal við** á **Umsækjendur utan fyrirtækis**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

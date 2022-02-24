@@ -2,9 +2,11 @@
 title: Breyta sniðum með því að endurnýta Excel-sniðmát
 description: Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið, Rafræn skýrslugerð - Hanna grunnstillingu til að mynda skýrslur í OPENXML-sniði.
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e66a2e24d3b1e77d5c790d2f3b7cfdce98fc4cca6e3734ad8b87ac7714192853
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c5b1bc5f227a0944c513dee2c12a5042decde872
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749657"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684236"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Breyta sniðum með því að endurnýta Excel-sniðmát
 
@@ -81,6 +83,3 @@ Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið, 
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Nota breytt drög að sniði Rafræn skýrslugerð fyrir greiðslubókarvinnslu
 
 Fara yfir stofnaðar vinnublað, þar á meðal nýjar upplýsingar um greiðslulínur – greiðsludagsetningu.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

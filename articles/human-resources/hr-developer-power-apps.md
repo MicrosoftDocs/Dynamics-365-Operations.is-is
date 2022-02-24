@@ -2,34 +2,32 @@
 title: Stækka Talent með Power Apps og Power Automate
 description: Þessi grein lýsir sumum dæmum um atburðarás stækkunarhæfni fyrir Microsoft Dynamics 365 Human Resources sem notar Microsoft Power Apps og Microsoft Power Automate.
 author: negudava
+manager: Annbe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core;Experience Apps;Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fedf9b35e5dc8372fd82c6308ec5b1452eab7e8f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 2e89347829ccd6569d568db42c79b5fea2316ba3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070301"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527027"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Stækka með Power Apps og Power Automate
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Þessi grein lýsir sumum dæmum um atburðarás stækkunarhæfni fyrir Microsoft Dynamics 365 Human Resources sem notar Microsoft Power Apps og Microsoft Power Automate. Hægt er að flytja lausnapakkann sem tengist hverju dæmi inn í Power Apps-umhverfið. Síðan er hægt að nota pakkana annaðhvort sem leiðarvísi eða sem upphafspunkta til að innleiða atburðarásir sem eiga við um fyrirtækið þitt.
 
@@ -47,13 +45,13 @@ Forritið **Samþætting við Microsoft 365** er hægt að nota til að draga ú
 
 Þú getur lengt þetta forrit fyrir aðrar aðstæður. Til dæmis er hægt að nota það til að sýna upplýsingar um frí hóps, viðburði dagatals og alla viðburði sem tengjast hópnum.
 
-Til að hlaða niður forritnu **Samþætting við Microsoft 365, Power Automate** skal fara í [Samþætting við Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2081787) í Microsoft Download Center.
+Til að hlaða niður forritinu **Samþætting við Microsoft 365 Power Automate** skaltu fara í [Samþætting við Microsoft 365 ](https://go.microsoft.com/fwlink/?linkid=2081787) í Microsoft Download Center.
 
 ## <a name="power-automate--sql-connect-and-execute"></a>Power Automate - SQL Connect og framkvæmd
 
 Sniðmátið **Power Automate - SQL Connect og framkvæmd** tengist við Microsoft SQL Server og virkjar keyrslu á SQL-fyrirspurnum.
 
-Þrátt fyrir að þetta sniðmát lesi og uppfærir SQL töflur, geturðu lengt það og notað það fyrir aðrar sviðsmyndir. Til dæmis er hægt að nota það til að fylla út millistigsvistunartöflu í Dataverse með skrám úr SQL-þjóni, og til að gera reglubundna samstillingu á millistigsvistunartöflu með því að nota stigvaxandi færslu úr SQL-þjóni.
+Þrátt fyrir að þetta sniðmát lesi og uppfærir SQL töflur, geturðu lengt það og notað það fyrir aðrar sviðsmyndir. Til dæmis er hægt að nota það til að fylla út millistigsvistunartöflu í Common Data Service með skrám úr SQL-þjóni, og til að gera reglubundna samstillingu á millistigsvistunartöflu með því að nota stigvaxandi færslu úr SQL-þjóni.
 
 Háþróaður fyrirspurn er samþætt með flæði til að gera gagnaflutning og stigvaxandi ýtingu möguleg.
 
@@ -61,6 +59,4 @@ Til að hlaða niður sniðmátinu **Power Automate - SQL Connect og framkvæmd*
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Microsoft Power Platform](/power-platform/admin/admin-documentation)</br>
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>

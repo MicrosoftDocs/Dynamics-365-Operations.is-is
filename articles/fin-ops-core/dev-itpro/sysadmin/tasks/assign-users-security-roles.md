@@ -2,9 +2,11 @@
 title: Úthluta notendum á öryggishlutverk
 description: Til að fá aðgang að forritum Finance and Operations, þarf að úthluta notendum á öryggishlutverk.
 author: Peakerbl
+manager: AnnBe
 ms.date: 05/06/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6d65c4dafda63b7a54dd343652b0f4b498e064f4aee0fba43c34d40d73ac5062
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f78c24e8c2ffe5418ce119e19b7c0193f01f64b8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748337"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679865"
 ---
 # <a name="assign-users-to-security-roles"></a>Úthluta notendum á öryggishlutverk
 
@@ -55,6 +57,3 @@ Stjórnandi þarf einnig að fjarlægja notendur sem er úthlutað handvirkt á 
 2. Í trénu skal velja hlutverk og í valmyndinni **Notendur sem úthlutað er á hlutverk** skal velja **Úthluta / útiloka notendum handvirkt**.
 4. Í **Úthluta eða útiloka notendum frá hlutverki** eru notendur sem hafa ekki fengið hlutverkið birtir þar sem **Úthlutunarstillingu** er stillt á **Ekkert**. Velja einn eða fleiri notendur sem á að úthluta hlutverkinu.
 5. Á **Aðgerðarsvæði** skal velja **Úthluta hlutverki**. **Úthlutunarstilling** er uppfærð í **Handvirkt** og notendur hafa nú nýtt hlutverk.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

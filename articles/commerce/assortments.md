@@ -2,22 +2,25 @@
 title: Stjórnun vöruúrvals
 description: Í þessu efnisatriði er fjallað um grundvallarhugtök stjórnunar á vöruúrvali í Dynamics 365 Commerce og hugleiðingar um framkvæmd verka.
 author: jblucher
+manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 1ff4929e8789748433f4e9386397431e174a85f81518d2e0a1d8f9ea68211fa6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717772"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413085"
 ---
 # <a name="assortment-management"></a>Stjórn vöruúrvals
 
@@ -35,27 +38,27 @@ Heildarsamsetning afurða í rás er ákvörðuð af útgefnu vöruúrvali sem e
 
 Í eftirfarandi dæmi er einkvæmt vöruúrval skilgreint fyrir hverja verslun. Í þessu tilviki er aðeins afurð 1 í boði í verslun 1 og aðeins afurð 2 er í boði í verslun 2.
 
-![Hver vara er í boði í einni verslun.](./media/Managing-assortments-figure1.png)
+![Hver vara er í boði í einni verslun](./media/Managing-assortments-figure1.png)
 
 Til að bjóða upp á afurð 2 í verslun 1 geturðu bætt afurðinni við vöruúrval 1.
 
-![Vöru 2 bætt við vöruúrval 1.](./media/Managing-assortments-figure2.png)
+![Vara 2 bætt við vöruúrval 1](./media/Managing-assortments-figure2.png)
 
 Að öðrum kosti er hægt að bæta verslun 1 við vöruúrval 2.
 
-![Verslun 1 bætt við vöruúrval 2.](./media/Managing-assortments-figure3.png)
+![Verslun 1 bætt við vöruúrval 2](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Stigveldi fyrirtækis
 
 Í tilfellum þar sem margar rásir deila sama vöruúrvalinu er hægt að skilgreina vöruúrvalið með því að nota stigveldi fyrirtækis fyrir Commerce úrval. Þegar hnútum frá þessu stigveldi er bætt við verða allar rásir í þessum hnút og undirhnútum innifaldar.
 
-![Stigveldi fyrirtækis.](./media/Managing-assortments-figure4.png)
+![Stigveldi fyrirtækis](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Afurðartegundir
 
 Á svipaðan hátt er hægt að bæta við afurðaflokkum með því að nota stigveldi afurðartegunda á afurðasíðunni. Þú getur skilgreint vöruúrval með því bæta við einum eða fleiri hnútum tegundastigveldis. Í þessu tilfelli mun vöruúrvalið innihalda allar afurðir í þessum tegundarhnút og undirhnútum hans.
 
-![Afurðartegundir.](./media/Managing-assortments-figure5.png)
+![Afurðartegundir](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Útilokaðar afurðir eða tegundir
 
@@ -64,7 +67,7 @@ Til viðbótar við að innihalda afurðir og tegundir í vöruúrvali er hægt 
 > [!NOTE]
 > Ef afurð er bæði innifalinn og útilokuð í einu eða fleiri gerðum vöruúrvals samkvæmt skilgreiningu, verður afurðin alltaf talin útilokuð.
 
-![Útilokuð vara.](./media/Managing-assortments-figure6.png)
+![Útilokuð vara](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Alþjóðlegar og útgefnar afurðir
 
@@ -104,6 +107,3 @@ Fyrst þarf að vinna úr vöruúrvali sem er skilgreint í Commerce áður en �
 - **Sölur og skil utan vöruúrvals** – Þessi möguleiki hjálpar smásölum að stjórna vöruúrvali sínu á árangursríkan hátt með því að leyfa þeim að takmarka fjölda tiltækra afurða til afurða sem tilheyra undirstöðuafurðum samsetningarinnar fyrir verslunina. Þessi möguleiki hjálpar einnig smásölum að takast á við aðstæður þar sem afurð var ranglega sleppt úr vöruúrvali eða þar sem afurð var skilað utan virkra dagsetninga fyrir vöruúrvalið.
 
 Ef afurðargögn eru ekki til í gagnagrunni rásar mun sölustaðurinn hafa samskipti í rauntíma við höfuðstöðvar til að sækja nauðsynlegar upplýsingar svo hægt sé að selja, skila eða setja afurðina á pöntun viðskiptavinar. Afurðarupplýsingar sem eru sóttar með þessum hætti eru aðeins tiltækar á meðan á þessari færslu stendur. Afurðinni er ekki bætt við skilgreiningu vöruúrvalsins. Þess vegna verða næstu samskipti í rauntíma gerð eftir þörfum.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

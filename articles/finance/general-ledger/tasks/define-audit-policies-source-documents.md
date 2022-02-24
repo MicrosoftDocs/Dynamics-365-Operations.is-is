@@ -2,9 +2,11 @@
 title: Skilgreina endurskoðunarstefnur fyrir upprunaskjöl
 description: Þetta efni útskýrir hvernig á að setja upp og keyra reglur endurskoðunarstefnu.
 author: panolte
+manager: AnnBe
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0779589a3583909984e35014a2ec0e86455cd30a3833110556f095241e7172ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e020a9e82ff18055e40e3e0ddc7bbed1068c886c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722672"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021430"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Skilgreina endurskoðunarstefnur fyrir upprunaskjöl
 
@@ -39,9 +41,9 @@ ms.locfileid: "6722672"
 11. Veljið **Nýtt**.
 12. Í reitinn **Heiti** skal slá inn gildi.
 13. Útvíkkaðu kaflann **Fyrirtækjaregla**.
-14. Í trénu skal velja **Contoso Entertainment System USA** og svo **Bæta við**.
-15. Í trénu skal velja **Contoso Consulting USA** og síðan **Bæta við**“.
-16. Í trénu skal velja **Contoso Retail USA** og síðan **Bæta við**“.
+14. Veljið **Contoso Entertainment System USA** í trénu og síðan **Bæta við**.
+15. Veljið **Contoso Consulting USA** í trénu og síðan **Bæta við**.
+16. Veljið **Contoso Retail USA** í trénu og síðan **Bæta við**.
 17. Minnkaðu hlutann **Fyrirtækjaregla**.
 18. Útvíkkaðu hlutann **Stefnuregla**.
 19. Finna og velja síðan Stefnuregluna sem var stofnuð áður, á listanum.
@@ -85,6 +87,3 @@ ms.locfileid: "6722672"
 57. Útvíkkaður hlutann **Tengingar**.
 58. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

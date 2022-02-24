@@ -118,6 +118,3 @@ Til að leyfa ráðningaraðilum að finna störf í gegnum LinkedIn Recruiter v
 [Búa til, samþykkja og birta störf í Attract](./creating-jobs-attract.md)
 
 [Úrræðaleit samþættingar við LinkedIn og Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

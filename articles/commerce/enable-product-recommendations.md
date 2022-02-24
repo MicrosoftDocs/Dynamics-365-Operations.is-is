@@ -1,14 +1,17 @@
 ---
 title: Virkja ráðleggingar um afurðir
-description: Þetta efnisatriði útskýrir hvernig á að gera afurðatillögur sem byggja á vélnám gervigreindar (AI-ML) í boði fyrir Microsoft Dynamics 365 Commerce viðskiptavini.
+description: Þetta efni útskýrir hvernig hægt er að gera tillögur um vörur sem byggjast á námi gervigreindarvélar (AI-ML) í boði fyrir viðskiptavini Microsoft Dynamics 365 Commerce.
 author: bebeale
-ms.date: 08/31/2021
+manager: AnnBe
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,43 +19,47 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a7be82b3a40aba621693f080ff41767fdaea474
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
+ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466317"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413042"
 ---
 # <a name="enable-product-recommendations"></a>Virkja ráðleggingar um afurðir
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að gera afurðatillögur sem byggja á vélnám gervigreindar (AI-ML) í boði fyrir Microsoft Dynamics 365 Commerce viðskiptavini. Nánari upplýsingar um afurðatillögur er að finna í [yfirliti yfir afurðatillögur í POS-skjölum](product-recommendations.md).
+Þetta efni útskýrir hvernig hægt er að gera tillögur um vörur sem byggjast á námi gervigreindarvélar (AI-ML) í boði fyrir viðskiptavini Microsoft Dynamics 365 Commerce. Nánari upplýsingar um afurðatillögur er að finna í [yfirliti yfir afurðatillögur í POS-skjölum](product-recommendations.md).
 
 ## <a name="recommendations-pre-check"></a>Ráðleggingar fyrir skoðun
 
-1. Gakktu úr skugga um að þú sért með gilt leyfi fyrir Dynamics 365 Commerce tillögur.
-1. Gakktu úr skugga um að einingaverslunin sé tengd við Azure Data Lake Storage Gen2 reikning í eigu viðskiptavinar. Frekari upplýsingar er að finna í [Gakktu úr skugga um að Azure Data Lake Storage hafi verið keypt og staðfest í umhverfinu](enable-ADLS-environment.md).
-1. Staðfestu að Azure AD auðkennisstilling innihaldi færslu fyrir tillögur. Nánari upplýsingar um framkvæmd þessarar aðgerðar eru hér að neðan.
-1. Gakktu úr skugga um að dagleg uppfærsla einingaverslunar í Azure Data Lake Storage Gen2 hafi verið tímasett. Fyrir frekari upplýsingar, sjá [Ganga úr skugga um að endurnýjun einingaverslunarinnar hafi verið sjálfvirk](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
-1. Virkja mælingar RetailSale fyrir einingaverslun. Frekari upplýsingar um uppsetningu þessa ferlis er að finna í [Vinna með mælingar](/dynamics365/ai/customer-insights/pm-measures).
+Áður en er virkjað skal hafa í huga að afurðartillögur eru aðeins studdar fyrir Commerce-viðskiptavini sem hafa flutt geymsluna sína til að nota Azure Data Lake Storage. 
 
-Að loknum ofangreindum skrefum er allt til reiðu til að virkja tillögur.
+Eftirfarandi stillingar verða að vera gerðar virkar í bakvinnslunni áður en ráðleggingar eru virkjaðar:
+
+1. Gakktu úr skugga um að Azure Data Lake Storage hafi verið keypt og staðfest í umhverfinu. Frekari upplýsingar er að finna í [Gakktu úr skugga um að Azure Data Lake Storage hafi verið keypt og staðfest í umhverfinu](enable-ADLS-environment.md).
+2. Ganga úr skugga um að endurnýjun einingaverslunarinnar hafi verið gerð sjálfvirk. Fyrir frekari upplýsingar, sjá [Ganga úr skugga um að endurnýjun einingaverslunarinnar hafi verið sjálfvirk](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+3. Staðfestu að Azure AD auðkennisstilling innihaldi færslu fyrir tillögur. Nánari upplýsingar um framkvæmd þessarar aðgerðar eru hér að neðan.
+
+Að auki skal tryggja að RetailSale mælingar hafi verið gerðar virkar. Til að læra meira um þetta uppsetningarferli, sjá [Vinna með mælingar](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
 
 ## <a name="azure-ad-identity-configuration"></a>Azure AD auðkennisskilgreining
 
-Þetta skref er aðeins nauðsynlegt fyrir viðskiptavini sem reka skilgreiningu grunnvirkisþjónustu (IaaS-þjónustu). Azure AD auðkennisskilgreining er sjálfvirk fyrir viðskiptavini sem keyra í Azure Service Fabric en mælt er með því að þú gangir úr skugga um að stillingin sé skilgreind eins og vænta má.
+Þetta skref er nauðsynlegt fyrir alla viðskiptavini sem reka innra skipulag sem þjónustustillingu (IaaS). Fyrir viðskiptavini sem keyra á Service Fabric (SF) ætti þetta skref að vera sjálfvirkt og við mælum með að staðfesta að stillingin sé stillt eins og vænst er.
 
-### <a name="setup"></a>Uppsetning
+### <a name="setup"></a>Setja upp
 
-1. Í Commerce Headquarters skal leita að síðunni **Azure Active Directory forrit**.
-1. Athugaðu hvort færsla sé fyrir hendi fyrir **RecommendationSystemApplication-1**. Ef færsla er ekki til skaltu búa til eina með því að nota eftirfarandi upplýsingar:
+1. Úr bakvinnslunni leitarðu að síðunni **Azure Active Directory forrit**.
+2. Staðfestu hvort færsla sé fyrir hendi fyrir „RecommendationSystemApplication-1“.
 
-    - **Auðkenni biðlara**: d37b07e8-dd1c-4514-835d-8b918e6f9727
-    - **Heiti**: RecommendationSystemApplication-1
-    - **Notandakenni**: RetailServiceAccount
+Ef færslan er ekki til skaltu bæta við nýrri færslu með eftirfarandi upplýsingum:
 
-1. Vistið og lokið síðunni. 
+- **Biðlarakenni** - d37b07e8-dd1c-4514-835d-8b918e6f9727
+- **Heiti** - RecommendationSystemApplication-1
+- **Notandakenni** - RetailServiceAccount
+
+Vistið og lokið síðunni. 
 
 ## <a name="turn-on-recommendations"></a>Kveikja á tillögum
 
@@ -64,23 +71,18 @@ Til að kveikja á afurðatillögum skal fylgja þessum skrefum.
 1. Veljið eiginleikann **Afurðaráðleggingar**.
 1. Á eiginleikasvæðinu **Afurðaráðleggingar** skal velja **Virkja núna**.
 
-![Kveikt á tillögum.](./media/FeatureManagement_Recommendations.PNG)
+![Kveikt á tillögum](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
-> - Ferlið að ofan byrjar ferlið við að mynda afurðatillögulista. Það getur tekið nokkrar klukkustundir áður en listarnir verða tiltækir og sjást á sölustað (POS) eða í Dynamics 365 Commerce.
-> - Þessi stilling virkjar ekki alla eiginleika tillagna. Ítarlegri eiginleikum eins og sérsniðnum tillögum, „versla svipað útlit“ og „versla svipaða lýsingu“ er stjórnað af sérstökum færslum eiginleikastjórnunar. Upplýsingar um að hvernig á að virkja þessa eiginleika í Commerce Headquarters er að finna í [Virkja sérsniðnar tillögur](personalized-recommendations.md), [Virkja tillögur um „versla svipaða lýsingu](shop-similar-looks.md) og [Virkja tillögur um „versla svipaða lýsingu“](shop-similar-description.md).
+> Þetta ferli hefur ferlið við að mynda afurðatillögulista. Það getur tekið nokkrar klukkustundir áður en listarnir verða tiltækir og sjást á sölustað (POS) eða í Dynamics 365 Commerce.
 
 ## <a name="configure-recommendation-list-parameters"></a>Stilla færibreytur tillögulista
 
 Sjálfgefið er að AI-ML-byggðir afurðatillögulistar veiti leiðbeinandi gildi. Þú getur breytt sjálfgefnum gildum svo að þau henti flæði fyrirtækisins. Til að læra meira um hvernig eigi að breyta sjálfgefnum færibreytum skaltu fara í [Stjórna AI-ML-byggðum niðurstöðum afurðatillagna](modify-product-recommendation-results.md).
 
-## <a name="include-recommendations-in-e-commerce-experiences"></a>Hafa tillögur með í upplifun rafrænna viðskipta
-
-Eftir að hafa virkjað tillögur í Commerce Headquarters sýndu Commerce-einingar venjulega niðurstöður tillagna fyrir upplifun rafrænna viðskipta sem voru tilbúnar til að vera skilgreindar. Frekari upplýsingar er að finna í [Einingar afurðasafns](product-collection-module-overview.md).
-
 ## <a name="show-recommendations-on-pos-devices"></a>Sýna tillögur um POS tæki
 
-Eftir að hafa gert tillögur í Commerce-höfuðstöðvar virkar verður að bæta tillöguglugganum við á POS skjánum með skipulagstólinu. Til að fræðast um þetta ferli, sjá [Bættu ráðleggingastjórnun við viðskiptaskjáinn á POS tækjum](add-recommendations-control-pos-screen.md). 
+Eftir að hafa gert tillögur í bakvinnslu Commerce virkar verður að bæta tillöguglugganum við á POS skjánum með skipulagstólinu. Til að fræðast um þetta ferli, sjá [Bættu ráðleggingastjórnun við viðskiptaskjáinn á POS tækjum](add-recommendations-control-pos-screen.md). 
 
 ## <a name="enable-personalized-recommendations"></a>Kveikja á sérsniðnum tillögum
 
@@ -112,6 +114,3 @@ Til að læra meira um persónulegar ráðleggingar, sjá [Virkja persónulegar 
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

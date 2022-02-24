@@ -1,10 +1,12 @@
 ---
 title: Þjónustustig og lýsing
 description: Þetta efni skýrir þjónustustig og lýsingu í eignastýringu.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectServiceLevel, EntAssetWorkOrderStandardDescription, EntAssetWorkOrderServiceLevel, EntAssetServiceLevelLookup
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 32e6dd6ba7291e8ea1cb78eeed2d8e2fcec0f6dd3cbd039336be0169730101ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8bb56e5103bd9e18e88c164cd308e55d48e64823
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758689"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019380"
 ---
 # <a name="service-level-and-description"></a>Þjónustustig og lýsing
 
@@ -43,9 +45,9 @@ ms.locfileid: "6758689"
 6. Til að stilla upphafstíma fyrir verkbeiðnina, auk upphafsdagsetningar, skaltu stilla valkostinn **Stilla upphafstíma** á **Já**. Sláðu síðan upphafstímann inn í reitinn **Upphafstími**. Ef þú stillir möguleikann á **Nei** er núverandi tími dags notaður.
 7. Í reitinn **Lokadagur** slærðu inn fjölda daga til að skilgreina tímabilið þegar verkbeiðni skal ljúka. Fjöldi daga er reiknaður úr upphafsdagsetningu verkbeiðninnar. Til dæmis, ef verkbeiðnin skal ljúka innan viku frá upphafsdegi hennar, sláðu þá inn **7**.
 8. Til að stilla lokatíma fyrir verkbeiðnina, auk lokadagsetningar, skaltu stilla valkostinn **Stilla lokatíma** á **Já**. Sláðu síðan lokastímann inn í reitinn **Lokatími**. Ef þú stillir möguleikann á **Nei** er núverandi tími dags notaður.
-9. Veldu **Vista**.
+9. Veljið **Vista**.
 
-![Þjónustustigsíða verkbeiðni.](media/19-setup-for-work-orders.png)
+![Síðan Þjónustustig verkbeiðna](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Stofna lýsingu
 
@@ -53,6 +55,3 @@ ms.locfileid: "6758689"
 2. Veljið **Nýtt**.
 3. Í reitnum **Lýsing** skal færa inn lýsinguna.
 4. Veljið **Vista**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

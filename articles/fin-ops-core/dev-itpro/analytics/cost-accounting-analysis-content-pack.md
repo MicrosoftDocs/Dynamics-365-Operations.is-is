@@ -1,10 +1,12 @@
 ---
 title: Kostnaðarbókhaldsgreining Power BI efni
-description: Þetta efnisatriði lýsir því hvað er innifalið í Kostnaðarbókhaldsgreiningu á Power BI efni.
+description: Þetta efnisatriði lýsir því hvað er innifalið í Kostnaðarbókhaldsgreiningu á Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 author: AndersGirke
+manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -14,14 +16,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747370"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683872"
 ---
-# <a name="cost-accounting-analysis-power-bi-content"></a>Greining á Power BI-efni kostnaðarbókhalds
+# <a name="cost-accounting-analysis-power-bi-content"></a>Kostnaðarbókhaldsgreining á Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,7 +42,7 @@ ms.locfileid: "6747370"
 Með því að skilgreina öryggi á aðgangsstigi í Kostnaðarbókhaldi og sameina það við öryggi á línustigi í Power BI, er hægt að veita öllum eigendum kostnaðarhluta aðgang í **Kostnaðarbókhald greining** Power BI efni. Öll gögn í myndbirtingar verða síðan afmörkuð á grunni þess aðgangsstig sem er stjórnað í Kostnaðarbókhald. Frekari upplýsingar um öryggi á aðgangsstigi og öryggi á línustigi er að finna í [Öryggi sett upp fyrir greiningu á kostnaðarbókhaldi Power BI efni](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
-Hægt er að finna **Greining kostnaðarbókhalds** Power BI efnið í safninu Samnýttar eignir í Microsoft Dynamics Lifecycle Services (LCS). Upplýsingar um hvernig á að sækja efnið og tengja það við gögn fyrirtækisins er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
+Hægt er að finna **Greining kostnaðarbókhalds** Power BI efnið í safninu Samnýttar eignir í Microsoft Dynamics Lifecycle Services (LCS). Upplýsingar um hvernig á að sækja efnið og tengja það við gögn fyrirtækisins er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 
 Vertu viss um að hlaða niður efninu **Kostnaðarbókhaldsgreining** sem á við um útgáfuna af Microsoft Dynamics 365 sem verið er að nota.
 
@@ -121,6 +123,3 @@ Eftirfarandi lykilvíddir eru notaðar sem síur til að sneiða uppsafnaðar m�
 | Fjárhagsdagatöl                   | Almanak, lýsing almanaks                                                                                       |
 | Fjárhagsár                       | Almanaksár                                                                                                        |
 | Fjárhagstímabil                     | Tímabil almanaksárs                                                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

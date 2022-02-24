@@ -74,6 +74,3 @@ Sjá [Prenta árangursumsagnir](https://docs.microsoft.com/dynamics365-release-p
 Eiginleikum er bætt við og þeir uppfærðir í hverri útgáfu. Upplifun eiginleikastjórnunar veitir vinnusvæði þar sem hægt er að skoða lista yfir eiginleika sem hafa verið gefnir út í hverri útgáfu. Sjálfgefið er að slökkt sé á nýjum eiginleikum. Hægt er að nota vinnusvæðið til að kveikja á þeim og skoða fylgiskjölin fyrir þá.
 
 Til að læra meira um breytingarnar sem fylgja eiginleikastjórnun, sjá [Eiginleikastjórnunaryfirlit](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

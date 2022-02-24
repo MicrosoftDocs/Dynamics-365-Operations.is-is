@@ -2,13 +2,16 @@
 title: Stjórnun tíma og viðveru í Retail
 description: Þessi efnisþáttur lýsir aðstæðum sem styður stjórnun á tíma og mætingu í Dynamics 365 Commerce.
 author: aamirallaqaband
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: JMGParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 62813
 ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 68aafc9f397333d88644bb1870bb4e65da32c265decb10e6ac420be99c1e2c4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cca5e3232450e75f931a621b278c134129fc745c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762669"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413277"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Stjórnun tíma og viðveru í Retail
 
@@ -38,9 +41,9 @@ ms.locfileid: "6762669"
 
 ### <a name="plan-worker-schedules"></a>Áætla áætlanir starfsmanns
 
-- Nota forstillingar með vinnuáætlun Nánari upplýsingar er að finna í [Nota forstillingar með vinnuáætlun](/dynamicsax-2012/appuser-itpro/apply-profiles-using-work-planner).
+- Nota forstillingar með vinnuáætlun Nánari upplýsingar er að finna í [Nota forstillingar með vinnuáætlun](https://technet.microsoft.com/library/aa551234.aspx).
 
-Nánari upplýsingar um skilgreiningarskref er að finna í [Uppsetning á tíma og viðveru](/dynamicsax-2012/appuser-itpro/setting-up-time-and-attendance).
+Nánari upplýsingar um skilgreiningarskref er að finna í [Uppsetning á tíma og viðveru](https://technet.microsoft.com/library/aa496971.aspx).
 
 ### <a name="commerce-specific-configuration"></a>Commerce-sértæk skilgreining
 
@@ -97,7 +100,7 @@ Nánari upplýsingar um skilgreiningarskref er að finna í [Uppsetning á tíma
         </tbody>
         </table>
 
-        [![Stöður stimpilklukku.](./media/timeclockstates.png)](./media/timeclockstates.png)
+        [![Stöður stimpilklukku](./media/timeclockstates.png)](./media/timeclockstates.png)
 
 - Skoða staðfestingarskilaboðin og votta að núverandi tími verkþáttar sé réttur.
 - Færslubók:
@@ -135,7 +138,4 @@ Notandi Commerce fylgist með verkflæðið til að reikna, samþykkja og flytja
 - Fjöldaútstimplun
 - Skrá Fjarvist
 
-Nánari upplýsingar um hvernig skal vinna með skráningu tíma og viðveru er að finna í [Vinna með skráningu tíma og viðveru](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Nánari upplýsingar um hvernig skal vinna með skráningu tíma og viðveru er að finna í [Vinna með skráningu tíma og viðveru](https://technet.microsoft.com/library/aa573180.aspx).

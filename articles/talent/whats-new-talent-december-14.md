@@ -151,6 +151,3 @@ Uppfærðu varpanirnar ættu að líta út eins og eftirfarandi myndir.
 ![Starfskraftar til starfskrafts verk](./media/WorkerMapping.png)
 
 ![Umbreyting á svæði kyns](./media/WorkerTransform.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

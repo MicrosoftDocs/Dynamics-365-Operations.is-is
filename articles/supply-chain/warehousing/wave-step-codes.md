@@ -1,26 +1,29 @@
 ---
 title: Kóðar bylgjuskrefs
 description: Þetta efni veitir yfirlit yfir bylgjuskrefakóða og hvernig þeir eru notaðir.
-author: Mirzaab
+author: josaw1
+manager: tfehr
 ms.date: 09/06/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTableListPage, WHSWaveStepCode, WHSReplenishmentTemplates, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c32e795fcb12be02d9c9324051101fa378935303
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9332e45f7213ed815e4417969b617256778598db
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572242"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430742"
 ---
 # <a name="wave-step-codes"></a>Kóðar bylgjuskrefs
 
@@ -90,6 +93,3 @@ Eftirfarandi aðferð hjálpar til við að tryggja að endurnýjunarsniðmáti�
 6. Í reitnum **Bylgjuskrefakóði** velurðu bylgjuskrefakóðann sem þú valdir í áfyllingarsniðinu.
 
 Þú framkvæmir þessi skref fyrir hvern lögaðila.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

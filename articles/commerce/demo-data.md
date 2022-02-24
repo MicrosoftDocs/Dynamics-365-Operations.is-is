@@ -2,13 +2,16 @@
 title: Skjáútlit sýnigagna í Modern POS (MPOS) og Cloud POS
 description: Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás sem er innifalið í sýnigagnasafninu fyrir sölustað (POS) upplifunina í Dynamics 365 Commerce.
 author: josaw1
+manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761663"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4413315"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Skjáútlit sýnigagna í Modern POS (MPOS) og Cloud POS
 
@@ -33,13 +36,13 @@ ms.locfileid: "6761663"
 
 Sýnishorn af útliti skjás sem fylgja með sýnigögnum Commerce bjóða upp á efni sem er fínstillt fyrir ýmsa smásöluhluta, hlutverk verslunarstarfsmanns og tæki. Ein gerð útlits getur innihaldið nokkrar útlitsstærðir og samsetningar hnappahnita til að tryggja dekkun þar sem verslunarstarfsmenn fara á milli búnaðar og stöðva. Í þessu efnisatriði er lögð áhersla á muninn á þessum útlitsgerðum, aðgerðunum sem þær bjóða upp á og heildarupplifunin sem þær skila.
 
-![Útlit sýnigagna á milli tækja.](../commerce/media/demo-screen-layouts-fig-1-1.png)
+![Útlit sýnigagna á milli tækja](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Grunnskipulag kennis skjáútlits
 
 Til að finna útlitsgerðir skjás skal fara í **Retail og Commerce** \> **Uppsetningu rásar** \> **Uppsetning POS** \> **POS** \> **Skjáútlit**.
 
-![Síða skjáútlits.](../commerce/media/demo-screen-layouts-fig-2-1.png)
+![Síðan Skjáútlit](../commerce/media/demo-screen-layouts-fig-2-1.png)
 
 Kenni skjáútlits getur haft allt að 10 stafi. Kennið er strengur sem samanstendur af þremur upplýsingahlutum, í þessari röð:
 
@@ -47,13 +50,13 @@ Kenni skjáútlits getur haft allt að 10 stafi. Kennið er strengur sem samanst
 2. Útlitsgerð
 3. Einstaklingur
 
-### <a name="company"></a>Fyrirt.  
+### <a name="company"></a>Fyrirt.
 
-| Stafur | Fyrirt.           |
+| Stafur | Fyrirt.         |
 |--------|-----------------|
 | A      | Adventure Works |
 | F      | Fabrikam        |
-| K      | Contoso         |
+| F      | Contoso         |
 
 ### <a name="layout-version"></a>Útlitsgerð
 
@@ -79,7 +82,7 @@ F4MGR
 
 Eftirfarandi skýringarmynd sýnir dæmi um Velkomin(n) skjáinn sem birtist Fabrikam verslunarstjóranum.
 
-![Upphafsskjár fyrir verslunarstjóra Fabrikam.](../commerce/media/demo-screen-layouts-fig-2-2.png)
+![Velkomin(n) skjár fyrir Fabrikam verslunarstjórann](../commerce/media/demo-screen-layouts-fig-2-2.png)
 
 ## <a name="layout-sizes"></a>Útlitsstærðir
 
@@ -108,7 +111,7 @@ Eftirfarandi tafla sýnir þær útlitsstærðir sem eru í boði fyrir hefðbun
 > [!TIP]
 > POS velur sjálfkrafa útlitsstærðir, byggt á nærtækustu stærð sem er tiltæk fyrir skjáupplausn núverandi skjámyndar forrits. Til að finna skjákenni útlits og upplausn útlits sem eru í notkun núna, skal opna Modern POS (MPOS) eða Retail Cloud POS (CPOS) **Stillingar** síðuna og leita í **Lotuupplýsingar** hlutanum. Þú getur einnig séð raunupplausn glugga fyrir forrit eða vafraramma sem verið er að nota núna. Eftir að þú hefur fengið þessar upplýsingar er hægt að finna uppsprettu útlitsefnis með því að fara í **Uppsetning rásar** \> **Uppsetning POS** \> **POS** \> **Skjáútlit**.
 
-![Útlit skjáa og útlitsupplausnir/stærðir í Commerce og POS.](../commerce/media/demo-screen-layouts-fig-3-1.png)
+![Útlit skjáa og útlitsupplausnir/stærðir í Commerce og POS](../commerce/media/demo-screen-layouts-fig-3-1.png)
 
 ## <a name="companies-and-brands"></a>Fyrirtæki og vörumerki
 
@@ -129,19 +132,19 @@ Eftirfarandi myndir sýna dæmi um velkomin(n) síðu og viðskiptasíðu fyrir 
 
 ### <a name="adventure-works"></a>Adventure Works
 
-![Sýnigögn velkomin(n) síðu fyrir Adventure Works.](../commerce/media/demo-screen-layouts-fig-4-1a.png)
+![Sýnigögn velkomin(n) síðu fyrir Adventure Works](../commerce/media/demo-screen-layouts-fig-4-1a.png)
 
-![Sýnigögn viðskiptasíðu fyrir Adventure Works.](../commerce/media/demo-screen-layouts-fig-4-1b.png)
+![Sýnigögn viðskiptasíðu fyrir Adventure Works](../commerce/media/demo-screen-layouts-fig-4-1b.png)
 
 ### <a name="fabrikam"></a>Fabrikam
 
-![Sýnigögn velkomin(n) síðu fyrir Fabrikam.](../commerce/media/demo-screen-layouts-fig-4-2a.png)
+![Sýnigögn velkomin(n) síðu fyrir Fabrikam](../commerce/media/demo-screen-layouts-fig-4-2a.png)
 
-![Sýnigögn viðskiptasíðu fyrir Fabrikam.](../commerce/media/demo-screen-layouts-fig-4-2b.png)
+![Sýnigögn viðskiptasíðu fyrir Fabrikam](../commerce/media/demo-screen-layouts-fig-4-2b.png)
 
 ### <a name="contoso"></a>Contoso
 
-![Sýnigögn útlits fyrir Contoso.](../commerce/media/demo-screen-layouts-fig-4-3.png)
+![Sýnigögn útlits fyrir Contoso](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>Notandaskráning í fylki
 
@@ -168,11 +171,8 @@ Náð hefur verið í notendur fyrir mismunandi skjáútlit. Með því að nota
 
 <!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail and Commerce \> Channel setup \> POS setup \> POS \> Images**. -->
 
-<!-- ![Images in Dynamics 365 Commerce.](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
+<!-- ![Images in Dynamics 365 Commerce](../commerce/media/demo-screen-layouts-fig-5-1.png) -->
 
 <!-- Use the [POS Icon and Image Mapping](../commerce/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,25 +1,28 @@
 ---
 title: Stofna valmyndaratriði fartækis fyrir samstæðu númeraplatna
 description: Þessi verklýsing sýnir hvernig á að stofna valmyndaratriði fartækis fyrir vinnu við samstæðu númeraplötu.
-author: Mirzaab
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92c971bef440d9f5ba0949b7ba93c1614e998d39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 7dc52284473f3e3275675b608386641c8570218b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574090"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430196"
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a>Stofna valmyndaratriði fartækis fyrir samstæðu númeraplatna
 
@@ -34,6 +37,3 @@ ms.locfileid: "7574090"
 5. Í reitnum Stilling velurðu „óbeint“.
 6. Velja 'Sameina númeraplötur' í reitnum verkþáttakóði
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

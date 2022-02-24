@@ -71,6 +71,3 @@ Fylgdu þessum skrefum til að búa til sniðmát fyrir ráðningarferli.
     - Til að fjarlægja aðgerð skaltu stækka aðgerðina og velja síðan ruslakörfuhnappinn á verkþáttarhausnum.
 
 8. Veldu **Vista**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

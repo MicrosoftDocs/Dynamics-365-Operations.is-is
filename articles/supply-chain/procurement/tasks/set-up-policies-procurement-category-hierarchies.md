@@ -1,24 +1,26 @@
 ---
 title: Setja upp reglur fyrir stigveldi innkaupategunda
 description: Notið þetta ferli til að setja upp reglur til þess að panta afurðir í tegund.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee056d7c2a8bdc9bcd2f5a0f4b96a7bf69c8c862
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3fc01793ee83444e5c7097021c19aeda80a132e6
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577097"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017096"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Setja upp reglur fyrir stigveldi innkaupategunda
 
@@ -49,6 +51,3 @@ Notið þetta ferli til að setja upp reglur til þess að panta afurðir í teg
 6. Í reitnum **Velja lánardrottinn** skal velja valkost. Velja reglu til að stjórna hvers konar lánardrottna má velja fyrir flokkinn þegar beiðnir eru stofnaðar.  
 7. Smellið á **Loka**. Þær stefnureglur sem skilgreindar hafa verið hafaverið fyrir beiðnir af gerðinni notkun. Ef óskað er að skilgreina reglur fyrir beiðnir af gerðinni Áfylling, myndirðu stofna regla fyrir stefnureglugerð sem kallast „Stefnuregla tegundaraðgangs fyrir áfyllingu”.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

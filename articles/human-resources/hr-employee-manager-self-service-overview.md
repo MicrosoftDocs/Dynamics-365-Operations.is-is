@@ -1,37 +1,33 @@
 ---
-title: Yfirlit yfir sjálfsafgreiðslu starfsmanns og stjórnanda
-description: Í þessari grein er að finna yfirlit yfir vinnusvæði fyrir sjálfsafgreiðslu starfsmanns og stjórnanda.
-author: twheeloc
-ms.date: 08/26/2021
-ms.topic: overview
+title: Yfirsýn yfir sjálfsafgreiðslu starfsmanna og stjórnanda
+description: Þessi grein veitir yfirlit yfir vinnusvæði starfsmanna og stjórnenda.
+author: andreabichsel
+manager: tfehr
+ms.date: 10/20/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.search.scope: Human Resources
-ms.custom:
-- "51941"
-- intro-internal
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
+ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28bf4ff4e456505efda3777a4f820c54f270c74b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
+ms.sourcegitcommit: 1fdca917e01470fbd5d3051adb85fd63e8624b47
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068945"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4419104"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Yfirlit yfir sjálfsafgreiðslu starfsmanns og stjórnanda
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Í þessari grein er að finna yfirlit yfir vinnusvæði fyrir sjálfsafgreiðslu starfsmanns og stjórnanda.
+Þessi grein veitir yfirlit yfir vinnusvæði starfsmanna og stjórnenda.
 
 ## <a name="edit-personal-details"></a>Breyta persónuupplýsingum
 
@@ -43,7 +39,7 @@ Ef þú hefur ekki tengt notandann þinn við skrá **Starfsmanna** á síðunni
 
 **Notandakenni notanda er ekki tengt starfsmannsfærslu í kerfinu. Ekki er hægt að skoðað eða uppfæra viðkomandi upplýsingar fyrr en það er gert. Leita skal aðstoðar hjá yfirmanni eða stuðningshópi.**
 
-Til að tengja notanda við skrá **Starfsmanna** skal fara í **Notendur** og velja notandann. Velja skal **Breyta**, bæta við samsvarandi starfsmanni í reitnum **Einstaklingur** í síðunni og velja **Vista**. Nú ættir þú að hafa aðgang að **sjálfsafgreiðslu starfsmanns**.
+Til að tengja notanda við skrá **Starfsmanna** skal fara í **Notendur** og velja notandann. Velja skal **Breyta**, bæta við samsvarandi starfsmanni í reitnum **Einstaklingur** í skjámyndinni og velja **Vista**. Nú ættir þú að hafa aðgang að sjálfsafgreiðslu starfsmanns.
 
 ## <a name="security-requirements-for-employee-and-manager-self-service"></a>Öryggiskröfur fyrir sjálfsafgreiðslu starfsmanns og stjórnanda
 
@@ -58,7 +54,7 @@ Sjálfsafgreiðsla starfsmanns og stjórnanda krefst tveggja öryggishlutverka:
 
 ## <a name="employee-self-service"></a>Sjálfsafgreiðsla starfsmanns
 
-Í flipanum **Mínar upplýsingar** eru eftirfarandi upplýsingar sýndar fyrir **Sjálfsafgreiðsla starfsmanns**.  
+Flipinn **Mínar upplýsingar** sýnir eftirfarandi upplýsingar fyrir sjálfsafgreiðslu starfsmanna.  
 
 ### <a name="summary"></a>Samantekt
 
@@ -72,33 +68,33 @@ Sjálfsafgreiðsla starfsmanns og stjórnanda krefst tveggja öryggishlutverka:
 
 ### <a name="my-career-information"></a>Ferilsupplýsingar notanda
 
-Í hlutanum **Starfsferilsupplýsingar mínar** í **Sjálfsafgreiðslu starfsmanns** eru sýndir reitir sem tengjast leyfum og fjarvistum, afkastastjórnun, hæfni, fríðindum, verkum og viðhengjum.
+Hlutinn **Mínar ferilsupplýsingar** í sjálfsafgreiðslu starfsmanna inniheldur kort sem tengjast leyfi og fjarveru, árangursstjórnun, hæfni, fríðindum, verkefni og viðhengi.
 
-Reiturinn **Staða frítíma** sýnir stöður fyrir allar skráðar áætlanir. Þessi reitur spáir fyrir um stöðuna þína út frá uppsöfnunaraðferðinni þinni. Hægt er að slá inn og senda inn beiðnir um frí sem fara síðan í gegnum samþykktarverkflæði. Frekari upplýsingar um Leyfi og fjarvistir er að finna í [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md).
+Kortið **Frítímastöður** sýnir stöður fyrir allar skráðar áætlanir. Þetta kort spáir fyrir um stöðu þína miðað við uppsöfnunaraðferð þína. Þú getur slegið inn og sent inn beiðnir um frí, sem síðan fara í gegnum verkflæðisferli samþykkis. Frekari upplýsingar um Leyfi og fjarvistir er að finna í [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md).
 
-Reiturinn **Verk** sýna verk sem er úthlutað þér og gerir þér kleift að skoða og stjórna þeim.
+Kortið **Verk** sýnir verk sem þér er úthlutað og gerir þér kleift að skoða og hafa umsjón með þeim.
 
-**Næsta skráða námskeið** sýnir næsta námskeið sem þú ert skráð(ur) í. Hægt er að skoða og skrá sig í öll opin námskeið. Öll námskeið sem eru opin fyrir nýskráningu hafa stöðuna **Hafið** og leyfa öllum starfsmönnum að skrá sig sjálfir. Veltur á stillingum stofnunarinnar, skráning námskeiðsins gæti farið í gegnum samþykkisferli.
+Kortið **Næsta skráða námskeið** sýnir næsta námskeið sem þú ert skráð/ur í. Hægt er að skoða og skrá sig í öll opin námskeið. Öll námskeið sem eru opin fyrir skráningu hafa stöðuna **Byrjað** og leyfa starfsmönnum að skrá sjálfa sig birtast á þessu korti. Veltur á stillingum stofnunarinnar, skráning námskeiðsins gæti farið í gegnum samþykkisferli.
 
-Reiturinn **Vottorð** sýnir vottorðið og lokadagsetningu vottorðsins sem rennur út næst núverandi degi. Þú getur uppfært, bætt við eða fjarlægt skírteini. Það veltur á stillingum fyrirtækisins, en uppfærslur á skírteinum gætu farið í gegnum samþykkisferli.
+Kortið **Skírteini** sýnir skírteinið og lokadag þess skírteinis sem rennur út næst núverandi dagsetningu. Þú getur uppfært, bætt við eða fjarlægt skírteini. Það veltur á stillingum fyrirtækisins, en uppfærslur á skírteinum gætu farið í gegnum samþykkisferli.
 
-**Næsta áætlaða yfirferð** sýnir næsta frammistöðumat. Þú getur byrjað á nýrri yfirferð úr þessum reiti. Yfirmaður þinn eða HR-fulltrúi getur einnig hafið umsagnir. Það fer eftir stillingum fyrirtækisins hvort þú getir einnig skoðað, uppfærð og sent inn yfirferðir á starfslokum.
+Kortið **Næsta áætlaða umsögn** sýnir næstu frammistöðumat þitt. Þú getur byrjað á nýrri umsögn af þessu korti. Yfirmaður þinn eða HR-fulltrúi getur einnig hafið umsagnir. Það fer eftir stillingum fyrirtækisins, en þú gætir líka verið fær um að skoða, uppfæra og senda inn umsagnir um útgönguleið frá þessu korti.
 
-Hægt er að stjórna markmiðum sínum með **Markmið frammistöðu**. Þessi reitur sýnir fjölda markmiða sem þú ert með í hverri stöðu (**Ekki hafið**, **Á áætlun** og **Þarfnast endurbóta**). Þú getur búið til, uppfært og fjarlægt markmið, allt eftir úthlutuðu hlutverkaöryggi þínu. Ef þú vilt geturðu bætt við nýjum markmiðum úr hópum eða sniðmátum. Stjórnendur og HR geta einnig búið til markmið fyrir hönd starfsmanna og ákvarðað hversu ítarlegt hvert markmið verður. Stjórnendur og starfsmenn geta unnið saman að markmiðum og uppfært aðgerðir, mælingar og stöðu. Þú getur líka haft viðhengi.
+Þú getur stjórnað markmiðum þínum með kortinu **Frammistöðumarkmið**. Þetta kort sýnir fjölda markmiða sem þú hefur í hverri stöðu (**Ekki byrjað**, **Á réttri leið** og **Þarfnast betrumbóta**). Þú getur búið til, uppfært og fjarlægt markmið, allt eftir úthlutuðu hlutverkaöryggi þínu. Ef þú vilt geturðu bætt við nýjum markmiðum úr hópum eða sniðmátum. Stjórnendur og HR geta einnig búið til markmið fyrir hönd starfsmanna og ákvarðað hversu ítarlegt hvert markmið verður. Stjórnendur og starfsmenn geta unnið saman að markmiðum og uppfært aðgerðir, mælingar og stöðu. Þú getur líka haft viðhengi.
 
-Þú getur skoðað núverandi hæfni í reitnum **Öll hæfni**. Þú getur uppfært hæfni, bætt við nýrri eða fjarlægt það sem ekki er lengur viðeigandi. Það veltur á stillingum stofnunarinnar, en breytingar á hæfni þinni kann að fara í gegnum samþykkisferli.
+Þú getur skoðað núverandi hæfni þína á kortinu **Hæfni**. Þú getur uppfært hæfni, bætt við nýrri eða fjarlægt það sem ekki er lengur viðeigandi. Það veltur á stillingum stofnunarinnar, en breytingar á hæfni þinni kann að fara í gegnum samþykkisferli.
 
-Þú getur skoðað núverandi laun í **Laun**. Veldu **Sýna** til að skoða árslaun þín og síðustu hækkunarupphæð. Ef þú starfar í fleiri en einu fyrirtæki verður hver árleg upphæð sýnd. Til að skoða ítarlega launasögu þína skaltu velja upphæðina **Árslaun** til að opna síðuna **Saga fastra og breytilegra launa**. Laun í framtíðinni sjást ekki á þessari síðu. Ef þú ert með fleiri en eitt starf getur þú skipt á milli fyrirtækja innan þessarar síðu til að skoða launasögu þína án þess að skrá þig inn í hvert fyrirtæki.
+Þú getur skoðað núverandi bætur þínar í gegnum kortið **Bætur**. Veldu **Sýna** til að skoða árslaun þín og síðustu hækkunarupphæð. Ef þú ert starfandi í fleiri en einu fyrirtæki birtist hver árleg upphæð á kortinu. Til að skoða ítarlega bótasögu þína skaltu velja árslaunafjárhæðina til að opna gluggann **Launa- og breytileg uppbótasaga**. Framtíðarbætur birtast ekki í þessum glugga. Ef þú ert með fleiri en eitt starf geturðu skipt á milli fyrirtækja á þessu formi til að skoða bótasögu þína án þess að skrá þig inn á hvert fyrirtæki.
 
-Skoðaðu og stjórnaðu skjöl með reitnum **Viðhengi**. Þú getur stjórnað öllum **Ytri** viðhengjum. Bæði Human Resources og starfsmenn geta bætt viðhengjum við í gegnum síðuna **Sjálfsafgreiðsla starfsmanns** og **Starfsmaður**. Sjálfgefið er að viðhengi eru stillt á **Ytri**.
+Skoða og hafa umsjón með skjölum með kortið **Viðhengi**. Þú getur stjórnað öllum **Ytri** viðhengjum. Bæði HR og starfsmenn geta bætt viðhengjum í gegnum sjálfsafgreiðslu starfsmanna eða gluggann **Starfskraftur**. Sjálfgefið er að viðhengi eru stillt á **Ytri**.
 
 ### <a name="additional-information"></a>Frekari upplýsingar
 
-Í þessum hluta eru tenglar á önnur svæði **Sjálfsafgreiðslu starfsmanns** sem líkjast hlutanum **Upplýsingar um starfsferilinn minn**.
+Þessi hluti veitir tengla við önnur sjálfsafgreiðslusvæði starfsmanna, svipað og hlutann **Mínar ferilsupplýsingar**.
 
-Skráðu þig fyrir bætur í gegnum tengilinn **Fríðindi**. Nánari upplýsingar um fríðindastjórnun er að finna í [Yfirlit um kosti](hr-benefits-management-overview.md).
+Skráðu þig fyrir bætur í gegnum tengilinn **Fríðindi**. Nánari upplýsingar um fríðindastjórnun er að finna í [Fríðindayfirlit](hr-benefits-management-overview.md).
 
-Undir **Frammistaða** geturðu valið **Frammistöðubók** til að búa til færslur frammistöðubókar til að nota bæði markmið og yfirferðir á frammistöðu. Þú getur valið **Senda svörun** til að veita endurgjöf fyrir aðra starfsmenn innan fyrirtækisins. Það fer eftir stillingum fyrirtækisins, en tölvupóstur gæti verið sendur til viðtakanda, sendanda og stjórnenda. Þú getur sent athugasemdir til allra starfsmanna innan fyrirtækisins. Sending á svörun takmarkast ekki við fyrirtækið.
+Undir **Frammistaða** geturðu valið **Frammistöðubækur** til að stofna færslur frammistöðubókar til að nota á bæði árangursmarkmið og endurskoðanir. Þú getur valið **Senda svörun** til að veita endurgjöf fyrir aðra starfsmenn innan fyrirtækisins. Það fer eftir stillingum fyrirtækisins, en tölvupóstur gæti verið sendur til viðtakanda, sendanda og stjórnenda. Þú getur sent athugasemdir til allra starfsmanna innan fyrirtækisins. Sending á svörun takmarkast ekki við fyrirtækið.
 
 Undir **Hæfni** geturðu gert breytingar á **Námskeiðum**, **Menntun**, **Ábyrgðarstöðum** og **Starfsreynslu**. Það veltur á stillingum fyrirtækisins, en uppfærslur á þessari hæfni gæti farið í gegnum samþykkisferli.
 
@@ -106,13 +102,13 @@ Undir **Hæfni** geturðu gert breytingar á **Námskeiðum**, **Menntun**, **Á
 
 Undir **Spurningalisti** geturðu séð útfyllta spurningalista. Þú getur líka séð spurningalista yfir fyrirtæki sem ekki hefur verið lokið. Þú getur valið að fylla út spurningalista hvenær sem er. Höfundur spurningalistans getur ákvarðað tímaramma og fyrir hvern spurningalistinn á við.
 
-Þú getur stillt notandaskilgreinda tengla í **Færibreytum mannauðs**. Til dæmis er hægt að skilgreina tengla á launayfirlit, skjöl í árslok eða ytri lausnir. Þessir tenglar birtast neðst í þessum kafla, en þú getur fært þá með því að nota sérstillingu.
+Þú getur stillt notendaskilgreindan tengil í **Færibreytur Human Resources**. Til dæmis er hægt að skilgreina tengla á launayfirlit, skjöl í árslok eða ytri lausnir. Þessir tenglar birtast neðst í þessum kafla, en þú getur fært þá með því að nota sérstillingu.
 
-Einnig er hægt að búa til fleiri flipa með því að fella Power Apps inn í vinnusvæðið **Sjálfsafgreiðsla starfsmanns**. Notaðu valmyndina **Stillingar** til að sérsníða síðuna með einhverju Power Apps. Í valmyndinni **Stillingar** geturðu valið að bæta við Power App, fylla út smáatriðin og setja forritið inn. Sjálfgefið er að Power Apps birtist sem fyrsti flipinn í röðinni. Þú getur breytt röðinni með því að nota venjulega sérstillingu.
+Þú getur líka búið til viðbótarflipa með því að fella inn Power Apps innan vinnusvæðis sjálfsafgreiðslu starfsmanna. Notaðu valmyndina **Stillingar** til að sérsníða síðuna með einhverju Power Apps. Í valmyndinni **Stillingar** geturðu valið að bæta við Power App, fylla út smáatriðin og setja forritið inn. Sjálfgefið er að Power Apps birtist sem fyrsti flipinn í röðinni. Þú getur breytt röðinni með því að nota venjulega sérstillingu.
 
 ## <a name="my-team"></a>Liðið mitt
 
-Í flipanum **Teymið mitt** eru eftirfarandi upplýsingar sýndar fyrir **Sjálfsafgreiðslu stjórnanda**. Aðeins stjórnendur geta fengið aðgang að flipanum **Hópurinn minn**.
+Flipinn **Hópurinn minn** sýnir eftirfarandi upplýsingar fyrir sjálfsafgreiðslu stjórnanda. Aðeins stjórnendur geta fengið aðgang að flipanum **Hópurinn minn**.
 
 ### <a name="personnel-actions"></a>Aðgerðir starfsmanna
 
@@ -135,7 +131,7 @@ Kveikir á **Stöðuaðgerðir** virkjar eftirfarandi valkosti:
 
 ### <a name="summary"></a>Samantekt
 
-Upplýsingar í hlutanum **Samantekt** fara eftir valkostum sem Human Resources hefur valið í **Færibreytur mannauðs**. Í flipanum **Sjálfsafgreiðsla stjórnanda** á síðunni **Færibreytur mannauðs** er hægt að skilgreina valkosti til að sýna færslur sem eru að renna út og opnar stöður. Virkjun þessara valkosta ákvarðar hvað stjórnendur geta séð í hlutanum **Samantekt**.
+Upplýsingar í hlutanum **Samantekt** fer eftir valkostunum sem HR hefur valið í **Færibreytur Human Resources**. Á flipanum **Sjálfsafgreiðsla stjórnenda** á síðunni **Færibreytur Human Resources** er hægt að stilla valkosti til að birta gildandi skrár og opnar stöður. Virkjun þessara valkosta ákvarðar hvað stjórnendur geta séð í hlutanum **Samantekt**.
 
 Þú getur stillt eftirfarandi reiti fyrir stjórnendur:
 
@@ -163,11 +159,11 @@ Upplýsingar í hlutanum **Samantekt** fara eftir valkostum sem Human Resources 
 
 ### <a name="my-team-information"></a>Hópaupplýsingar notanda
 
-**Teymið mitt** gerir stjórnendum kleift að skoða og uppfæra beina og óbeina undirmenn. Til að fá aðgang að óbeinum undirmönnum skal velja starfsmanninn sem stjórnar og velja svo **Skoða teymi** í reitnum. Allir sömu valkostirnir eiga við um langar skýrslur og beinar skýrslur. 
+Upplýsingar um hópinn minn gera stjórnendum kleift að skoða og uppfæra beinar og útbreiddar skýrslur. Til að fá aðgang að útvíkkuðum skýrslum skaltu velja starfsmanninn sem hefur leiðbeiningar og síðan velja **Skoða hóp** á kortinu. Allir sömu valkostirnir eiga við um langar skýrslur og beinar skýrslur. 
 
 #### <a name="summary-tab"></a>Flipinn Samantekt
 
-Flipinn **Samantekt** veitir skjótt yfirlit yfir beinar skýrslur. Ef bein skýrsla hefur einnig starfsmenn sem tilkynna til þeirra sýnir kortið fjölda beinna skýrslna í efri hlutanum ásamt hnappnum **Skoða hóp**. Valkostir fyrir ofan hvern reit gilda um valinn starfsmann. Ef þú vilt til dæmis færa inn leyfisbeiðni fyrir hönd starfsmanns velur þú hann og velur svo **Óska eftir fríi**. 
+Flipinn **Samantekt** veitir skjótt yfirlit yfir beinar skýrslur. Ef bein skýrsla hefur einnig starfsmenn sem tilkynna til þeirra sýnir kortið fjölda beinna skýrslna í efri hlutanum ásamt hnappnum **Skoða hóp**. Valkostir fyrir ofan hvert kort gilda um valinn starfsmann. Til dæmis, ef þú vilt slá inn leyfisbeiðni fyrir hönd starfsmanns, velurðu starfsmanninn og velur síðan **Biðja um frí** fyrir ofan kortin. 
 
 Ef þú velur hnappinn **Upplýsingar** eftir val á starfsmanni birtast eftirfarandi valkostir:
 
@@ -186,26 +182,26 @@ Ef þú velur hnappinn **Upplýsingar** eftir val á starfsmanni birtast eftirfa
 
 #### <a name="position-tab"></a>Flipinn Staða
 
-Flipinn **Staða** býður upp á yfirlit starfsmanna í aðalstöðu þeirra. Heiti, reitur og deild birtist í fyrirsagnarsvæði hvers reits. Þessi reitur felur í sér:
+Flipinn **Stöður** gefur yfirlit yfir starfsmenn í aðalstöðu þeirra. Nafn, reitur og deild birtist á fyrirsagnarsvæði hvers korts. Þetta kort inniheldur:
 
-- **Dagsetning starfsaldurs** - Birt úr hluta starfsmannasamantektar á síðunni **Starfskraftur**.
-- **Fjöldi ára í starfi** - Reiknað út samkvæmt upphafsdagsetningu á ráðningu starfsmanns.
-- **Fjöldi fyrri staða** - Byggt á ferli stöðu, ef þessi tala er valin opnast ítarlegt yfirlit yfir allar stöður sem starfsmaður hefur verið í.
-- **Fæðingardagur** - Mánuður og dagur fæðingardags starfsmanns.
+- **Starfsaldur** - Sýnt frá samantektarhluta starfsmannaformsins
+- **Starfslengd** - Reiknað út frá upphafsdegi starfsmanns
+- **Fjöldi fyrri starfa** - Miðað við stöðu sögu, með því að velja þetta númer, opnast nákvæmar yfirsýn yfir allar stöður sem áður hafa verið haldnar
+- **Fæðingardagur** - Mánuður og dagur fæðingardags starfsmanns
 
 Þú getur skoðað staðsetningargögn bæði fyrir beinar og langar skýrslur.
 
 #### <a name="compensation-tab"></a>Flipinn Laun
 
-Flipionn **Laun** sýnir árslaun starfsmanns. Auðkenni fyrirtækis birtist undir launafjárhæðinni. Ef starfsmaður er með fleiri en eina ráðningu og fær greitt frá mörgum lögaðilum, mun starfsmaðurinn fá margar launaáætlanir. Að sjá allar launaáætlanir þvert á lögaðila án þess að skipta fyrirtæki þarf að virkja yfirlaun undir **Human Resources > Samnýttar færibreytur > ítarlegur aðgangur > Virkja launayfirlit þvert á fyrirtæki**.
+Flipionn **Laun** sýnir árslaun starfsmanns. Auðkenni fyrirtækis birtist undir launafjárhæðinni. Ef starfsmaður er með fleiri en eina ráðningu og fær greitt frá mörgum lögaðilum, mun starfsmaðurinn fá margar launaáætlanir. að sjá allar launaáætlanir þvert á lögaðila án þess að skipta fyrirtæki þarf að virkja yfirlaun undir **Human Resources > Samnýttar færibreytur > ítarlegur aðgangur > Virkja launayfirlit þvert á fyrirtæki**.
 
-Til að skoða launasögu skal velja **Launaupphæð** til að opna síðuna **Upplýsingar**. Aðeins núverandi og eldri fastar og breytilegar launafærslur sjást á síðunni **Laun**. Ef starfsmaður er með fleiri en eina ráðningu er hægt að skipta á milli fyrirtækja til að skoða launaferil í hverju fyrirtæki eða virkja færibreytur milli fyrirtækja í **samnýttum færibreytum Human Resources** til að skoða allar launaáætlanir.
+Til að skoða bótasögu skaltu velja launamagn til að opna gluggann **Upplýsingar**. Aðeins núverandi og sögulegar fastar og breytilegar jafningaskrár birtast í glugganum **Bætur**. Ef starfsmaður er með fleiri en eina ráðningu er hægt að skipta á milli fyrirtækja til að skoða launaferil í hverju fyrirtæki eða virkja færibreytur milli fyrirtækja í samnýttum færibreytum Human Resources til að skoða allar launaáætlanir.
 
 Þú getur skoðað bætur bæði fyrir beinar og langar skýrslur.
 
 #### <a name="leave-and-absence-tab"></a>Flipinn Leyfi og fjarvera
 
-Flipinn **Leyfi og fjarvera** sýnir helstu stöðu fyrir starfsmenn sem hafa virkni. Til að grípa til aðgerða eða skoða lista yfir aðgerðir velurðu **Upplýsingar** og veldu síðan **Frí**. Á síðunni **Frí** er hægt að skoða stöður, beiðnir, samþykkt frí og spástöður til að auðvelda starfsmönnum að hafa betri umsjón með tíma sínum. Þú getur einnig beðið um frí vegna beinna og aukinna skýrslna, allt eftir stillingum stofnunarinnar.
+Flipinn **Leyfi og fjarvera** sýnir helstu stöðu fyrir starfsmenn sem hafa virkni. Til að grípa til aðgerða eða skoða lista yfir aðgerðir velurðu **Upplýsingar** og veldu síðan **Frí**. Í glugganum **Frí** geturðu skoðað stöður, beiðnir, samþykktan frí og spástöður til að hjálpa starfsmönnum að stjórna tíma betur. Þú getur einnig beðið um frí vegna beinna og aukinna skýrslna, allt eftir stillingum stofnunarinnar.
 
 #### <a name="performance-goals-tab"></a>Flipinn frammistöðumarkmið
 
@@ -218,5 +214,3 @@ Stjórnendur geta séð öll markmið fyrir lið sitt í gegnum reitinn **Frammi
 Flipinn **Umsagnir** dregur saman umsagnir sem starfsmaðurinn hefur í hverri stöðu: **Í vinnslu**, **Tilbúið til skoðunar** og **Lokaumsögn**. Til að fá aðgang að umsögn starfsmanns skaltu velja **Upplýsingar** og veldu síðan umsagnir til að vinna saman. Byggt á því hvar endurskoðun er innan verkflæðisferilsins geturðu séð hvort endurskoðunin er tiltæk til uppfærslu. 
 
 Þú getur séð allar umsagnir fyrir hópinn þinn í gegnum reitinn **Umsagnir um frammistöðu hóps** í hlutann **Samantekt** í **Hópurinn minn**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

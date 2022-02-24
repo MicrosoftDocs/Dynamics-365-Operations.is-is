@@ -1,10 +1,12 @@
 ---
 title: Setja upp ytri vörulista fyrir PunchOut e-procurement
 description: Í þessu efnisatriði er lýst notkun á ytri vörulista eða PunchOut-vörulista til að safna upplýsingum um tilboð frá lánardrottni og bæta þeim við beiðni.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f1065c68723baa395bc06be6313e45a44661ea3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1f6e551f9d3d181674595e945bf1fb4c62a70ed5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566913"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016378"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Setja upp ytri vörulista fyrir PunchOut e-procurement
 
@@ -40,7 +42,7 @@ Ytri vörulista ætti að gera starfsmanns sem fer á innkaupabeiðni til að ve
 
 1. Setja upp tegundastigveldi innkaupa Sjá [Uppsetningarstefnur fyrir stigveldi innkaupaflokkunar](tasks/set-up-policies-procurement-category-hierarchies.md) fyrir frekari upplýsingar um hvernig setja á upp stigveldi innkaupategundar.
 2. Skráðu lánardrottinn í Supply Chain Management. Áður en hægt er að setja upp skilgreiningu til að fá aðgang að ytri vörulista lánardrottins, verður að setja lánardrottin upp og tengilið lánardrottins í Microsoft Dynamics 365. Einnig þarf að bæta ytri vörulista lánardrottins við valda innkaupategund. Nánari upplýsingar um hvernig á að skrá lánardrottna er að finna í [Stjórna notendum fyrir samstarf lánardrottna](manage-vendor-collaboration-users.md). Sjá upplýsingar um hvernig á að úthluta á innkaupaflokknum lánardrottins [Samþykkja lánardrottnar fyrir tiltekið innkaupaflokkana](tasks/approve-vendors-specific-procurement-categories.md).
-3. Gangið úr skugga um að eininga mælieiningin og gjaldmiðilinn sem lánardrottinn notar eru settir. Til að fá upplýsingar hvernig eigi að stofna mælieiningu, sjá [Stjórnun mælieininga](../pim/tasks/manage-unit-measure.md).
+3. Gangið úr skugga um að eininga mælieiningin og gjaldmiðilinn sem lánardrottinn notar eru settir. Til að fá upplýsingar hvernig eigi að stofna mælieiningu, sjá [Stjórnun mælieiningar](../pim/tasks/manage-unit-measure.md).
 4. Skilgreinið ytri vörulista lánardrottins með því að nota kröfurnar fyrir ytra vörulistasvæði lánardrottins. Frekari upplýsingar um þetta verk er að finna í [Grunnstilla ytri vörulista lánardrottins](#configure-the-external-vendor-catalog).
 5. Prófið ytri vörulista lánardrottins til að staðfesta að stillingarnar séu gildar og að hægt sé að fá aðgang að ytri vörulista lánardrottins. Notið aðgerðina **Villuleita stillingar** til að villuleita skilaboð um beiðni um uppsetningu sem hefur verið skilgreind. Þessi skilaboð ættu að valda því að ytra vörulistasvæði lánardrottna verði opnað í vafraglugga. Við villuleit er ekki hægt að panta vörur og þjónustur frá lánardrottni. Til að panta vörur og þjónustu verður þú að fá aðgang að vörulista lánardrottins úr innkaupabeiðni.
 6. Virkjaðu ytri vörulista með því að nota hnappinn **Virkja vörulista** á síðunni **Ytri vörulistar**. Virkja verður ytri vörulista áður en starfsmenn geta notað hann. Hægt er að gera ytri vörulista hvenær sem er.
@@ -110,5 +112,3 @@ Ef vöru úr vörulista ytri lánardrottinn hefur verið beðið um, ekki er hæ
 
 - [Viðbætur cXML-innkaupa](purchasing-cxml-enhancements.md)
 - [Nota ytri vörulista fyrir PunchOut e-procurement](use-external-catalogs-for-punchout.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Takmarkanir á kostnaðarútgáfum fyrir staðalkostnað
 description: Þetta efnisatriði fjallar um þær takmarkanir sem gilda um kostnaðarútgáfu fyrir staðalkostnað.
 author: AndersGirke
+manager: tfehr
 ms.date: 01/17/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
@@ -16,12 +18,12 @@ ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2028cdabde3d01de16050b38893ec9e42353ae542be7a0cd7362cf62e9315170
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5339c3c4a62b94a06cbffc200ed1e9b227d6b6af
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748788"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963789"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Takmarkanir á kostnaðarútgáfum fyrir staðalkostnað
 
@@ -39,7 +41,8 @@ Eftirfarandi takmarkanir stuðla að því að reglum um staðalkostnað sé fyl
 
 Hægt er að afrita kostnaðargögn vöru fyrir staðlaðan kostnað í aðra kostnaðarútgáfu sem inniheldur staðlaðan kostnað eða áætlaðan kostnað. Hins vegar er ekki hægt að afrita kostnaðargögn vöru yfir í kostnaðarútgáfu sem inniheldur staðalkostnað, þar sem takmarkanirnar sem er lýst fyrr í þessu efnisatriði eiga ekki við áætlaðan kostnað.
 
-## <a name="related-topics"></a>Tengd efnisatriði
+<a name="related-topics"></a>Tengd efnisatriði
+--------
 
 [Yfirlit kostnaðarútgáfa](costing-versions.md)
 
@@ -47,6 +50,3 @@ Hægt er að afrita kostnaðargögn vöru fyrir staðlaðan kostnað í aðra ko
 
 [Undirbúa viðhald staðalkostnaðar fyrir framleiddar vörur](update-standard-costs-manufacturing-environment.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

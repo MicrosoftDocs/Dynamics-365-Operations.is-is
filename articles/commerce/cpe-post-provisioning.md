@@ -1,31 +1,36 @@
 ---
-title: Skilgreina Dynamics 365 Commerce matsumhverfi
+title: Stilla Dynamics 365 Commerce matsumhverfi
 description: Þetta efnisatriði útskýrir hvernig á að grunnstilla Microsoft Dynamics 365 Commerce matsumhverfi eftir úthlutun þess.
 author: psimolin
-ms.date: 12/10/2021
+manager: annbe
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
-ms.translationtype: MT
+ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913728"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413052"
 ---
-# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Skilgreina Dynamics 365 Commerce matsumhverfi
+# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Stilla Dynamics 365 Commerce matsumhverfi
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig á að grunnstilla Microsoft Dynamics 365 Commerce matsumhverfi eftir úthlutun þess.
+
+## <a name="overview"></a>Yfirlit
 
 Ljúktu aðeins við aðgerðirnar í þessu efnisatriði eftir að forskoðunarumhverfi fyrir Commerce hefur verið úthlutað. Frekari upplýsingar um hvernig á að úthluta matsumhverfinu í Commerce er að finna í [Úthlutun Commerce-matsumhverfis](provisioning-guide.md).
 
@@ -39,7 +44,6 @@ Eftir að Commerce-umhverfismatinu hefur verið úthlutað í heild sinni, þarf
 1. Veldu umhverfið á listanum.
 1. Í upplýsingum um umhverfið hægra megin skal velja **Skrá inn í umhverfi**. Þér verður beint á Commerce Headquarters.
 1. Gakktu úr skugga um að lögaðilinn **USRT** sé valinn efst í hægra horninu.
-2. Fara til **Viðskiptafæribreytur > Stillingarfæribreytur** og vertu viss um að það sé færsla fyrir **ProductSearch.UseAzureSearch** stillt á **satt**. Ef þessa færslu vantar geturðu bætt þessari færslu við og keyrt **Rásargagnagrunnur > Full samstilling** fyrir Commerce Scale eininguna sem tengist eCommerce vefsíðunni þinni.
 
 Við úthlutun verkþátta eftir á í Commerce Headquarters skal ganga úr skugga um að **USRT** lögaðilinn sé alltaf valinn.
 
@@ -107,12 +111,6 @@ Til að virkja vinnslur í Commerce skal fylgja þessum skrefum.
     1. Í aðgerðaglugganum á flipanum **Runuvinnsla** velurðu **Breyta stöðu**.
     1. Velja skal **Hætta við** og svo **Í lagi**.
 
-1. Ef staða starfsins er **Haldið eftir**, fylgdu þessum skrefum:
-
-    1. Veldu skrána.
-    1. Í aðgerðaglugganum á flipanum **Runuvinnsla** velurðu **Breyta stöðu**.
-    1. Veldu **Bíður** og síðan **Í lagi**.
-
 Einnig er hægt að stilla endurtekningartímabil á eina (1) mínútu fyrir eftirfarandi störf:
 
 * Vinna úr vinnslu vegna tilkynningar á smásölupöntun í tölvupósti
@@ -135,7 +133,7 @@ Til að keyra heildarsamstillingu gagna í Commerce skal fylgja þessum skrefum 
 Til að framkvæma prófunarviðskipti á vefnum geturðu notað eftirfarandi prufukreditkortaupplýsingar:
 
 - **Kortanúmer:** 4111-1111-1111-1111
-- **Gildistími:** 10/30
+- **Gildistími:** 10/20
 - **Sannprófunargildi korts (CVV)-kóði:** 737
 
 > [!IMPORTANT]
@@ -146,9 +144,6 @@ Til að framkvæma prófunarviðskipti á vefnum geturðu notað eftirfarandi pr
 Þegar úthlutunar- og grunnstillingarskrefum er lokið er hægt að byrja að nota matsumhverfið. Notið vefslóð Commerce-vefsmiðins til að fara í höfundarviðmótið. Notið vefslóð Commerce-vefsvæðis til að fara á vefviðmót viðskiptavinar smásölu.
 
 Til að grunnstilla valfrjálsa eiginleika fyrir Commerce-matsumhverfið skal skoða [Grunnstilla valfrjálsa eiginleika fyrir Commerce-matsumhverfið](cpe-optional-features.md).
-
-> [!NOTE]
-> Matsumhverfi Commerce koma með forhlöðnum Azure Active Directory (Azure AD) B2C-leigjanda fyrir sýnikennslu. Ekki er krafist þess að skilgreina eigin Azure AD B2C-leigjanda fyrir matsumhverfi. Ef þú ert hinsvegar að skilgreina matsumhverfið til að nota þinn eigin Azure AD B2C-leigjanda skaltu ganga úr skugga um að bæta við ``https://login.commerce.dynamics.com/_msdyn365/authresp`` sem svörunarvefslóð í Azure AD B2C-forritinu gegnum Azure -gáttina.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -162,15 +157,10 @@ Til að grunnstilla valfrjálsa eiginleika fyrir Commerce-matsumhverfið skal sk
 
 [algengar spurningar um Dynamics 365 Commerce matsumhverfi](cpe-faq.md)
 
-[Microsoft Dynamics Lifecycle Services (LSC)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Dynamics Lifecycle Services (LSC)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure-gátt](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce vefsvæði](https://aka.ms/Dynamics365CommerceWebsite)
-
-[Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

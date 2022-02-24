@@ -2,9 +2,11 @@
 title: Aðgengiseiginleikar
 description: Þetta efnisatriði lýsir virkni sem er hönnuð til að hjálpa notendum sem hafa ýmsa fötlun.
 author: TLeforMicrosoft
+manager: AnnBe
 ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071059"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798696"
 ---
 # <a name="accessibility-features"></a>Aðgengiseiginleikar
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Þetta efnisatriði lýsir virkni sem er hönnuð til að hjálpa notendum sem hafa ýmsa fötlun nota þetta forrit. Til dæmis eru eiginleikar fyrir fólk sem notar tækni til að sjá betur, svo sem Microsoft Windows Narrator.
 
@@ -61,7 +60,7 @@ Einn valmöguleiki er að notað lyklaborðið. Ýttu á Ctrl+F6 til að færa f
 
 Einnig hægt að keyra aðgerðina meira beint. Hvaðan sem er á síðunni, styddu á Ctrl+Úrfellingarmerki (') til að sýna leitarreitinn fyrir aðgerðir.
 
-![Leitarreitur fyrir aðgerðir.](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Leitarreitur fyrir aðgerðir")
+![Leitarreitur fyrir aðgerðir](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "Leitarreitur fyrir aðgerðir")
 
 Í leitarreitinn skal rita orð sem lýsa aðgerðinni. Aðgerðin er gerð tiltæk og þú getur keyrt hana beint. Til dæmis, með því að slá inn **tölvupóstur**, **tilkynn** (hluti úr orði) eða **skrá**, getur þú „hoppað" í Skrá tilkynninga í tölvupósti virknina.
 
@@ -98,6 +97,3 @@ Varan er hönnuð til að virka á ýmsum tækjum og skjámyndaþáttum, frá mi
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Leiðbeiningar til að hjálpa þróunaraðilum og viðskiptavinum að innleiða aðgengilega hugsun þegar kemur að sérstillingum.
 
 Til að læra meira um bestu aðferðir Microsoft til að auðvelda aðgengileika, sjá [Aðgengileiki í skjámyndum, afurðum og stýringum](../../dev-itpro/user-interface/enable-accessibility.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

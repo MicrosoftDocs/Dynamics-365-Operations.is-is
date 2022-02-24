@@ -1,24 +1,27 @@
 ---
 title: Stofna afbrigðalíkan afurðar
 description: Þessi verklýsing sýnir hvernig á að stofna afbrigðalíkan afurðar og færa inn grunnupplýsingar eins og eigindir og undiríhlutir.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCCreateProductConfigurationModel, PCProductConfigurationModelDetails, PCBOMLineDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca99c0346a3f982164076167c3429587aac18be6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9c81b3af7460c636245dcc16affcb05b724fbc70
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568425"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430332"
 ---
 # <a name="create-a-product-configuration-model"></a>Stofna afbrigðalíkan afurðar
 
@@ -28,60 +31,55 @@ ms.locfileid: "7568425"
 
 
 ## <a name="create-a-product-model"></a>Stofna framleiðslulíkan
-
-1. Farið í **Afurðarupplýsingastjórnun \> Afurðir \> Afbrigðalíkön afurða**.
-1. Veljið **Nýtt**.
-1. Í reitinn **Heiti** skal slá inn gildi.
-1. Í reitinn **Lýsing** skal slá inn gildi.
-1. Í reitnum **Stefna leysis** skal velja valkost.
+1. Smellið á Skilgreining afurðarafbrigðislíkans
+2. Smella á Afbrigðalíkan afurðar
+3. Smellt er á Nýtt.
+4. Í reitinn Heiti skal slá inn gildi.
+5. Sláið inn gildi í reitnum „Lýsing“.
+6. Í reitnum Stefna leysis skal velja valkost.
     * Leysisstefnu ákvarðar hvernig skorður í afbrigðalíkani afurðar sem byggir á skorðum eru unnar. Þetta val getur haft áhrif á afköst afbrigðalíkan afurðar.  
-1. Í reitinn **Heiti** skal slá inn gildi.
+7. Í reitinn Heiti skal slá inn gildi.
     * Rótaríhlutur stendur fyrir afbrigðalíkan afurðar, en einnig er hægt að nota það í öðrum vörulíkan.  
-1. Veljið **Í lagi**.
-1. Veljið valkost í svæðinu **Endurnota skilgreiningar**.
+8. Smellið á „Í lagi“.
+9. Veljið valkost í svæðinu skilgreiningar Endurnýtingu .
     * Ef færibreytan endurnýtingu skilgreiningar er stillt á Já, mun kerfið leita að eins skilgreiningar eftir hverja stillingarlotu og nota aftur ef nákvæm samsvörun finnst.  
 
 ## <a name="add-attributes"></a>Bæta við eigindum
-
-1. Stækka hlutann **Eigindir**.
-2. Veljið **Bæta við**.
+1. Útvíkka hlutann eigindir.
+2. Smelltu á Bæta við.
 3. Í listanum skal merkja valda línu.
-4. Í reitinn **Heiti** skal slá inn gildi.
-5. Í reitinn **Heiti leysis** skal slá inn gildi.
+4. Í reitinn Heiti skal slá inn gildi.
+5. Í reitinn Heiti leysis skal slá inn gildi.
     * Heiti Leysara er notaður af skorðu leysara afurðaafbrigðastillis. Hún má ekki innihalda bil eða sérstafir nema _ (undirstriki).  
-6. Í reitinn **Lýsing** skal slá inn gildi.
+6. Sláið inn gildi í reitnum „Lýsing“.
     * Texti lýsingar birtist notandanum skilgreiningu og þar af leiðandi getur þjónað sem hjálp í að velja rétt gildi eigindar.  
-7. Færa inn eða veljið gildi í svæðinu **Gerð eigindar**.
+7. Færa inn eða veljið gildi í svæðinu gerð eigindar.
     * Gerð eigindar ákvarðar hvaða gildi eru tiltæk fyrir eigindina.  
-8. Veljið gátreitinn **Taka í endurnýtingu**.
+8. Velja skal gátreit Taka í endurnýtingu .
     * Þessi valkostur er aðeins tiltækur þegar valkosturinn Endurnýtingu skilgreininga er valin. Að hafa eigind með í gátreit Endurnýta þýðir að þessi eigind verður athuguð þegar kerfið leitar að nákvæm samsvörun.  
 
 ## <a name="add-subcomponents"></a>Bæta við undiríhlutir
-
-1. Stækkaðu hlutann **Undiríhlutir**.
-2. Veljið **Bæta við**.
+1. Stækkaðu hlutann undiríhlutir.
+2. Smelltu á Bæta við.
 3. Í listanum skal merkja valda línu.
-4. Í reitinn **Heiti** skal slá inn gildi.
-5. Í reitinn **Heiti leysis** skal slá inn gildi.
-6. Í reitinn **Lýsing** skal slá inn gildi.
-7. Færa inn eða veljið gildi í svæðinu **Íhlutur**.
+4. Í reitinn Heiti skal slá inn gildi.
+5. Í reitinn Heiti leysis skal slá inn gildi.
+6. Sláið inn gildi í reitnum „Lýsing“.
+7. Færa inn eða veljið gildi í svæðinu íhlutur.
     * Hver undirþáttagerð verður að vísa í íhlutarskilgreiningu. Þessi hönnun styður endurnýtanlegu íhluti og tryggir að þegar íhlutur hefur verið skilgreint er hægt að nota í mörg framleiðslulíkön.  
-8. Veljið **Vista**.
-9. Veljið **Upplýsingar um uppskriftarlínu**.
+8. Smellið á „Vista“.
+9. Smellt er á uppskriftarlínuupplýsingar.
     * Upplýsingar um uppskriftalínuskjámyndina gera notandanum kleift að velja viðeigandi eiginleika fyrir undiríhlutina. Hægt er að gefa hverjum eiginleika fast gildi eða varpa honum á eigind. Að varpa á eigind leiðir til að Uppskrift línueiginleika fær mismunandi gildi eftir því hvað var valið í skilgreiningarhlutanum.  
-10. Í reitinn **Vörunúmer** skal slá inn eða velja gildi.
+10. Í reitinn Vörunúmer skal slá inn eða veldu gildi.
     * Hver undirþáttagerð táknar skilgreinanleg afurðarsniðmát með skorðuskilgreiningartækni. Tilvísun er gerð með vörunúmeri.  
-11. Veljið gátreitinn **Stilla**.
-12. Velja skal **Já** í reitnum **Útreikningur**.
+11. Veljið gátreitinn stilla.
+12. Velja skal Já í Útreiknings reitnum.
     * Stilla valkost útreiknings tryggir að afurðin verða teknar með við útreikning kostnaðar fyrir afurðina.  
-13. Veljið flipann **Uppsetning**.
-14. Veljið gátreitinn **Stilla**.
-15. Í reitnum **Magn** slærðu inn tölu.
+13. Smellið á flipann „Setja upp“.
+14. Veljið gátreitinn stilla.
+15. Færið inn númer í reitnum „Magn“.
     * Magn svæðið ákvarðar hversu mikið þessarar afurðar verður að nota í skilgreindu vörunni.  
-16. Veljið gátreitinn **Stilla**.
-17. Í reitinn **Á raðir** skal slá inn númer.
-18. Veljið **Í lagi**.
+16. Veljið gátreitinn stilla.
+17. Í reitinn Á röð skal slá inn númer.
+18. Smellið á „Í lagi“.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

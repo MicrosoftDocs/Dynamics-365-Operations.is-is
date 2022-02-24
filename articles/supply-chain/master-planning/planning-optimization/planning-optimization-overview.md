@@ -2,25 +2,29 @@
 title: Yfirlit yfir fínstillingu skipulagningar
 description: Þessi grein veitir yfirlit yfir virkni fínstillingar áætlunargerðar.
 author: ChristianRytt
+manager: tfehr
 ms.date: 10/31/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 49da88be9faff8f327f8079245b3c07db79308e6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 110045d4c7e4f32c29b73096dd4df3a09b5434ac
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983443"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430114"
 ---
 # <a name="planning-optimization-overview"></a>Yfirlit yfir fínstillingu skipulagningar
 
@@ -32,7 +36,7 @@ Til að nota fínstillingu skipulags verður þú að setja upp viðbótina fín
 
 Eftirfarandi mynd sýnir kostinn við að keyra fínstillingu skipulags á skrifstofutíma.
 
-![Ávinningur af því að keyra fínstillingu skipulagningar á vinnutíma.](media/PlanningOptimization1.png)
+![Kostur þess að keyra fínstillingu skipulags á skrifstofutíma](media/PlanningOptimization1.png)
 
 ## <a name="improved-performance"></a>Bætt afköst
 
@@ -61,11 +65,11 @@ Ef viðbótin fínstilling skipulagningar er fjarlægð eru öll tengd gögn í 
 
 Eftirfarandi skýringarmynd sýnir gagnaflæðið.
 
-![Gagnaflæði fyrir keyrslur endurmyndunar.](media/PlanningOptimization2.png)
+![Gagnaflæði fyrir endurmyndunarkeyrslur](media/PlanningOptimization2.png)
 
 ## <a name="related-resources"></a>Tengd tilföng
 
-[Hafist handa með fínstillingu áætlanagerðar](get-started.md)
+[Byrjaðu með hagræðingu skipulags](get-started.md)
 
 [Greining á samsvörun áætlunarfínstillingar](planning-optimization-fit-analysis.md)
 
@@ -74,6 +78,3 @@ Eftirfarandi skýringarmynd sýnir gagnaflæðið.
 [Nota síur á áætlun](plan-filters.md)
 
 [Hætta við áætlunarvinnslu](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

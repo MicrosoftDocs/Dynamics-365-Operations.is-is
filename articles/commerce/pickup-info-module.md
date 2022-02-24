@@ -2,24 +2,27 @@
 title: Eining fyrir afhendingarupplýsingar
 description: Þetta efnisatriði fjallar um einingu afhendingarupplýsinga og útskýrir hvernig á að bæta henni við greiðslusíður á vefsvæði Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 61b97d72b6a397737c10476cd6c02764e60f10b1
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764562"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665349"
 ---
 # <a name="pickup-information-module"></a>Eining fyrir afhendingarupplýsingar
 
@@ -40,7 +43,7 @@ Skilgreina verður tímahólf sóttra pantana fyrir viðeigandi verslanir í Com
 
 Eftirfarandi skýringarmynd sýnir dæmi um val á tímahólfi á einingu afhendingarupplýsinga á greiðsluferlissíðu.
 
-![Dæmi um einingu afhendingarvalkosts á greiðsluferlissíðu.](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Dæmi um einingu afhendingarvalkosts á greiðsluferlissíðu](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>Eiginleikar einingar
 
@@ -56,7 +59,7 @@ Leiðbeiningar um hvernig bæta skuli einingu afhendingarupplýsinga við greið
 
 Eftirfarandi mynd sýnir dæmi um útskráningarsíðu e-Commerce sem inniheldur tímahólf fyrir línuvörur afhendingar.
 
-![Dæmi um greiðsluferlissíðu e-Commerce sem inniheldur tímahólf fyrir línuatriði.](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Dæmi um greiðsluferlissíðu e-Commerce sem inniheldur tímahólf fyrir línuatriði](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -67,6 +70,3 @@ Eftirfarandi mynd sýnir dæmi um útskráningarsíðu e-Commerce sem inniheldur
 [Eining pöntunarstaðfestingar](order-confirmation-module.md)
 
 [Pöntunarupplýsingaeining](account-management.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

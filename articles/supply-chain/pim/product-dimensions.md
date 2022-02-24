@@ -2,13 +2,16 @@
 title: Afurðarvíddir
 description: Það eru fimm afurðarvíddir - litur, skilgreining, stærð, stíll og útgáfa. Afurðavíddir eru sameinaðar í víddaflokka og víddaflokkum er úthlutað á afurðarsniðmát. Samsetning afurðavídda ræður til um það hvernig afurðarafbrigði eru skilgreind.
 author: t-benebo
+manager: tfehr
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
 ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
-ms.translationtype: MT
+ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920524"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430106"
 ---
 # <a name="product-dimensions"></a>Afurðarvíddir
 
@@ -78,7 +81,7 @@ Fyrirtæki selur denim-gallabuxur. Varan, *gallabuxur*, notar lit og stærð afu
 
 ## <a name="the-version-product-dimension"></a>Afurðarvídd útgáfunnar
 
-Útgáfa er afurðarvídd sem er ætluð til að vinna með og rekja margar útgáfur af afurð í gegnum aðfangakeðjuna. Útgáfumæling er nauðsynleg fyrir velgengni framleiðenda sem starfa í heimi stöðugt minnkandi lífsferils vara, aukinna gæða- og áreiðanleikakrafna og aukinnar áherslu á vöruöryggi.
+Útgáfa er afurðarvídd sem er ætluð til að vinna með og rekja margar útgáfur af afurð í gegnum aðfangakeðjuna. Útgáfurakning er nauðsynleg fyrir velgengni framleiðenda sem starfa í heimi stöðugt minnkandi líftíma afurða, aukinna gæða og kröfur um áreiðanleika og aukinnar áherslu á öryggi afurða.
 
 Sem stöðluð afurðarvídd, mun útgáfa hegða sér á svipaðan hátt og núverandi afurðarvíddir (stærð, stíll, litur og afbrigði). Þess vegna er hægt að nota hana í öðrum tilgangi en að rekja útgáfur afurða.
 
@@ -119,7 +122,7 @@ Sem stöðluð afurðarvídd, mun útgáfa hegða sér á svipaðan hátt og nú
 
 ### <a name="areas-where-the-version-dimension-isnt-supported"></a>Svæði þar sem útgáfuvíddin er ekki studd
 
-Eftirfarandi svæði styðja ekki útgáfuvíddina (áfram er hægt að nota þessi svæði en ekki er hægt að bæta við afurðum með útgáfum (afurðum þar sem útgáfuvíddin er notuð) á þau). Til dæmis er ekki hægt að bæta við vöru með útgáfu á vörulista lánardrottins. Þetta er vegna þess að ef afurðum með útgáfuvíddina væri bætt við þessi svæði myndi það valda breytingum vegna skiptinga.
+Eftirfarandi svæði styðja ekki útgáfuvíddina vegna þess að kynning á þessari vídd gæti valdið breytingum sem leiða til bilunar:
 
 - Mánaðarlegt yfirlit kostnaðarhluta
 - Skyndiminni yfirlits kostnaðarhlutar
@@ -143,6 +146,3 @@ Að auki styðja eiginleikar fyrir stofnun pöntunar og pöntunarúrvinnslu í C
 
 > [!IMPORTANT]
 > Ef kveikt er á útgáfuvíddinni og hún notuð, gætu sumar lausnir sem vísa í birgðavíddirnar hætt að virka eins og til er ætlast. Til að staðfesta og laga þessi vandamál skal hafa samband við óháða hugbúnaðarsalann fyrir lausnirnar sem um ræðir. Frekari upplýsingar er að finna í [Virkja útgáfuvíddina](#enable-version-dim).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

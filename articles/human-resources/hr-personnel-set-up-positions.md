@@ -1,85 +1,69 @@
 ---
 title: Setja upp stöður
-description: Þetta efnisatriði lýsir því hvernig stöður eru mikilvægur þáttur í neðra þrepi skipulagsstigveldis.
-author: twheeloc
-ms.date: 10/28/2021
+description: Stöður eru mikilvæg einingu í lægri stig í stigveldi fyrirtækis.
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmWorkforceWorkspace, HcmWorkerActivityChart, HcmAllWorkersListPart, HcmPosition, HcmPositionNewPosition, HcmJobLookup, HcmPositionReportsToDialog, HcmPositionLookup, FinancialDimensionDefaultTemplatesLookup, DimensionLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67682b6ea949183c2697b658bb77925a791e7da1
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 6c078060984169d14a0fb64cf54fc134e8f26ccb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071750"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419033"
 ---
 # <a name="set-up-positions"></a>Setja upp stöður
 
 
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+Stöður eru mikilvæg einingu í lægri stig í stigveldi fyrirtækis. Staða er sérstakt tilvik starfs. Til dæmis eru staðan „Sölustjóri (Austur-),“ einungis eitt af stöðum sem tengjast verkinu „Sölustjóri.“ Staða er til í deild og hugsanlega er aðeins einn starfsmaður sem tengist stöðunni. Í þessu verki verður farið í gegnum skrefin sem þarf til að stofna stöðu. Þetta er ferli er ætlað fyrir Sérfræðing mannauðs.
 
+1. Smella á Stjórnun starfshóps.
+2. Smella á Opna stöðu.
+3. Smellt er á Nýtt til að opna felligluggann.
+4. Sláið inn eða veldu gildi í reitnum Verk.
+    * Þessi starfslýsing, titill og jafngildi starfsráðningarstuðuls fulls starfs er afrituð sjálfkrafa úr valda starfinu yfir í stöðuna.  
+5. Leysa breytir verki.
+6. Smellt er á Stofna staða.
+7. Sláið inn eða veldu gildi í reitnum deild.
+8. Færa inn eða veljið gildi í svæðinu gerð stöðu.
+9. Slá inn eða velja gildi í reitnum launasvæði.
+    * Reiturinn launasvæði ákvarðar hæfireglur og fastar hækkunaráætlanir um sem eiga við starfsmann í þá stöðu.  
+10. Í reitinn tiltækur í verkefni skal færa inn dagsetningu og tíma.
+11. Víkka þáttuinn tímalengd stöðu
+    * Tímalengd stöðu er færð inn sjálfvirkt samkvæmt virkjunar- og starfsloka dagsetningum sem áður voru færðar inn.  
+12. Útvíkka Skýrslurnar í hlutanum stöðu.
+    * Þegar starfsmanni er úthlutað á stöðu sem veitir skýrslur í aðra stöðu, þú stofna beint skýrslugerðarsambandi milli starfsmanna sem úthlutað er á þessar tveimur stöður.  
+13. Smellt er á Nýtt til að opna felligluggann.
+14. Sláið inn eða veldu gildi í reitnum veita skýrslu til.
+15. Smellið á Stofna.
+16. Víkka þáttinn verkefni starfsmanns
+17. Stækka Vensl hluti.
+    * Ef fyrirtækið notar fylkisstigveldi eða annað sérsniðna stigveldi, geturðu setja upp stigveldisgerðir staða og bæta síðan skýrslugerðarvensl við stöður fyrir hverja gerð stigveldis sem er sett upp.  
+18. Smelltu á Bæta við.
+19. Í listanum skal merkja valda línu.
+20. Sláið inn eða veldu gildi í reitnum heiti stigveldis.
+21. Færa inn eða velja gildi í svæðis veitir Skýrslum til stöðu .
+22. Víkkið út hlutann laun.
+23. Sláið inn eða veldu gildi í reitnum greiðsluferli.
+24. Sláið inn eða veldu gildi í reitnum Greitt með.
+25. Í reitinn reglulegar vinnustundir á ári skal slá inn númer.
+    * Þetta er fjöldi reglulega greiddar stundir sem starfsmaðurinn í þessari stöðu er áætlað að hann vinni ár hvert .  
+26. Víkka út hlutann „Stéttarfélög“.
+27. Draga saman út hlutann „Stéttarfélög“.
+28. Útvíkka hlutann fjárhagsvíddir.
+29. Sláið inn eða veldu gildi í reitnum dreifingarsniðmát.
+30. Sláið inn eða veldu gildi í reitnum deild.
+31. Smellið á „Vista“.
 
-
-Stöður eru mikilvæg einingu í lægri stig í stigveldi fyrirtækis. Staða er sérstakt tilvik starfs. Til dæmis er staðan „Sölustjóri (Austur)“ ein af stöðunum sem tengjast starfinu „Sölustjóri“. Staða er til í deild og hugsanlega er aðeins einn starfsmaður sem tengist stöðunni. Í þessu verki verður farið í gegnum skrefin sem þarf til að stofna stöðu. Þetta er ferli er ætlað fyrir Sérfræðing mannauðs.
-
-1. Veldu **Starfsmannastjórnun**.
-2. Veldu **Opnar stöður**.
-3. Veldu **Nýtt** til að opna fellivalmyndina.
-4. Í **Job** reit, sláðu inn eða veldu gildi.
-
-    The **Starfslýsing**, **·**, og **Stöðugildi atvinnuþáttur** reitir eru sjálfkrafa afritaðir úr völdu starfi í stöðuna.
-
-5. Veldu **Búðu til stöðu**.
-6. Í **deild** reit, sláðu inn eða veldu gildi.
-7. Í **Gerð stöðu** reit, sláðu inn eða veldu gildi.
-8. Í **Skaðabótasvæði** reit, sláðu inn eða veldu gildi.
-
-    The **Skaðabótasvæði** reit ákvarðar bótahæfisreglur og fastar hækkanir sem gilda um starfsmann í þeirri stöðu.
-
-9. Í **Laus til úthlutunar** reit, sláðu inn dagsetningu og tíma.
-10. Stækkaðu **Lengd stöðu** kafla.
-
-    Stöðutíminn er sjálfgefið færður inn, byggt á virkjunar- og starfslokadögum sem voru færðir inn fyrr.
-
-11. Stækkaðu **Tilkynnir um stöðu** kafla.
-
-    Þegar starfsmanni er úthlutað á stöðu sem veitir skýrslur í aðra stöðu, þú stofna beint skýrslugerðarsambandi milli starfsmanna sem úthlutað er á þessar tveimur stöður.
-
-12. Veldu **Nýtt í** opnaðu fellivalmyndina.
-13. Í **Skýrslur til** reit, sláðu inn eða veldu gildi.
-14. Velja **Stofna**.
-15. Stækkaðu **Starfsmannaverkefni** kafla.
-16. Stækkaðu **Sambönd** kafla.
-
-    Ef fyrirtækið notar fylkisstigveldi eða annað sérsniðna stigveldi, geturðu setja upp stigveldisgerðir staða og bæta síðan skýrslugerðarvensl við stöður fyrir hverja gerð stigveldis sem er sett upp.
-
-17. Veljið **Bæta við**.
-18. Í listanum skal merkja valda línu.
-19. Í **Nafn stigveldis** reit, sláðu inn eða veldu gildi.
-20. Í **Tilkynnir um stöðu** reit, sláðu inn eða veldu gildi.
-21. Stækkaðu **Launaskrá** kafla.
-22. Í **Launalota** reit, sláðu inn eða veldu gildi.
-23. Í **Greitt eftir sviðum**, sláðu inn eða veldu gildi.
-24. Í **Árlegur reglulegur vinnutími** reit, sláðu inn númer.
-
-    Gildið sem þú slærð inn er fjöldi reglulega greiddra klukkustunda sem áætlað er að starfsmaður í þessari stöðu vinni á hverju ári.
-
-25. Stækkaðu **Verkalýðsfélag** kafla.
-26. Dragðu saman **Verkalýðsfélag** kafla.
-27. Stækkaðu **Fjárhagsstærðir** kafla.
-28. Í **Dreifingarsniðmát** reit, sláðu inn eða veldu gildi.
-29. Í **deild** reit, sláðu inn eða veldu gildi.
-30. Veldu **Vista**.
-
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

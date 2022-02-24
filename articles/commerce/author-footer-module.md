@@ -2,36 +2,41 @@
 title: Neðanmálseining
 description: Þetta efni fjallar um neðanmálseiningar og hvernig á að stofna þær í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fdf183afe0df71e43a05b65fba06126f75f85b981b78afc4a543fb9310c6906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42a71ea9498461febca80952acc3158517918332
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719987"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413139"
 ---
 # <a name="footer-module"></a>Neðanmálseining  
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni fjallar um síðufótseiningar og lýsir hvernig á að stofna þær í Microsoft Dynamics 365 Commerce.
+Þetta efni fjallar um neðanmálseiningar og lýsir því hvernig á að stofna þær í Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Neðanmálseiningin er sérstakur gámur sem er notaður til að hýsa einingarnar sem birtast í síðufætinum. Til dæmis getur hún innihaldið tengla á ýmsar síður á vefsvæðinu, eins og síðurnar **Hafa samband** og **Stefna verslunar**.
 
 Eftirfarandi mynd sýnir dæmi um neðanmálseiningu á síðu svæðis.
 
-![Dæmi um neðanmálseiningu.](./media/ecommerce-footer.PNG)
+![Dæmi um neðanmálseiningu](./media/ecommerce-footer.PNG)
 
 ## <a name="footer-module-properties"></a>Eiginleikar neðanmálseiningar 
 
@@ -82,6 +87,3 @@ Með því að bæta broti við síðusniðmát hjálpar þú til við að trygg
 [Fyrirsagnareining](author-header-module.md)
 
 [Neðanmálseining](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

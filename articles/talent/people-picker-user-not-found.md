@@ -60,6 +60,3 @@ Taktu eftir eiginleikanum **UserType** fyrir notandann. Ef **UserType** er autt,
 ```
 PS C:\>Set-AzureADUser -ObjectId "testUpn@tenant.com" -UserType Member
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,12 +2,15 @@
 title: Samþætta við LinkedIn Talent Hub
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp samþættingu milli Microsoft Dynamics 365 Human Resources og LinkedIn Talent Hub.
 author: jaredha
+manager: tfehr
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,19 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fb75c391809f1ce5c7d48728a735f347ef1784ed
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441266"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527886"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Samþætta við LinkedIn Talent Hub
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+[!include [banner](includes/preview-feature.md)]
 
-> [!IMPORTANT]
-> Samþætting milli Dynamics 365 Human Resources og LinkedIn Talent Hub sem lýst er í þessu efnisatriði verður hætt 31. desember 2021. Samþættingarþjónustan verður ekki lengur í boði eftir þessa dagsetningu. Fyrirtæki sem ekki nota nú þegar samþættingarþjónustuna munu ekki geta innleitt þjónustuna áður en hún verður tekin úr notkun.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) er verkvangur rakningakerfis umsækjenda (ATS). Það gerir þér kleift að finna, hafa umsjón með og ráða starfsmenn, allt á einum stað. Með því að samþætta Microsoft Dynamics 365 Human Resources við LinkedIn Talent Hub er auðveldlega hægt að stofna starfsmannafærslur í Human Resources fyrir umsækjendur sem hafa verið ráðnir í stöðu.
 
@@ -47,7 +49,7 @@ Kerfisstjóri þarf að ljúka uppsetningarverkum til að virkja samþættingu v
 
 5. Á **Dynamics 365 Human Resources** síðunni skal velja umhverfið sem á að tengja LinkedIn Talent Hub við og síðan velja **Tengill**.
 
-    ![Innleiðing LinkedIn Talent Hub.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![Innleiðing LinkedIn Talent Hub](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > Aðeins er hægt að tengja við umhverfi þar sem notandareikningurinn er með stjórendaaðgang að bæði umhverfi Human Resources og tengdu Power Apps-umhverfi. Ef engin umhverfi eru skráð á síðu Human Resources skal ganga úr skugga um að þú sért með heimiluð umhverfi Human Resources í leigjandanum og að notandinn sem þú skráðir inn á tengda síðu sé með stjórnendaheimildir fyrir bæði umhverfi Human Resources og Power Apps-umhverfi.
@@ -90,7 +92,7 @@ Notandi forritsins verður að vera stofnaður fyrir breyti LinkedIn Talent Hub 
 
 6. Notið fellivalmyndina fyrir ofan listann til að breyta yfirlitinu úr sjálfgefnu yfirliti **Virkjaðir notendur** í **Forritsnotendur**.
 
-    ![Yfirlit forritsnotenda.](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Yfirlit forritsnotenda](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. Á tækjastikunni skal velja **Nýr**.
 
@@ -125,14 +127,14 @@ Notandi forritsins verður að vera stofnaður fyrir breyti LinkedIn Talent Hub 
     - **Heiti**: Sláðu inn heiti á Power Apps öryggishlutverkinu sem þú stofnaður hér á undan, t.d. **Samþætting LinkedIn Talent Hub HRIS**.
     - **Notandakenni**: Velja skal notanda sem er með heimildir til að skrifa gögn inn í starfsmannastjórnun.
 
-### <a name="create-the-table-in-dataverse"></a>Búa til töfluna í Dataverse
+### <a name="create-the-entity-in-common-data-service"></a>Búa til eininguna í Common Data Service
 
 > [!IMPORTANT]
-> Samþættingin við LinkedIn Talent Hub veltur á sýndartöflum í Dataverse fyrir Human Resources. Sem skilyrði fyrir þessu skrefi í uppsetningunni, verður þú að skilgreina sýndartölfur. Upplýsingar um hvernig á að skilgreina sýndartöflur er að finna í [Skilgreina Dataverse sýndartöflur](./hr-admin-integration-common-data-service-virtual-entities.md).
+> Samþættingin við LinkedIn Talent Hub veltur á sýndareiningum í Common Data Service fyrir Human Resources. Sem skilyrði fyrir þessu skrefi í uppsetningunni, verður þú að skilgreina sýndareiningar. Upplýsingar um hvernig á að skilgreina sýndareiningar er að finna í [Skilgreina Common Data Service sýndareiningar](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
 
-1. Í Human Resources skal opna síðuna **Dataverse-samþætting**.
+1. Í Human Resources skal opna síðuna **Common Data Service (CDS)-samþætting**.
 
-2. Veljið flipann **Sýndartöflur**.
+2. Veldu flipann **Sýndareiningar**.
 
 3. Síaðu einingalistann eftir einingarmerki til að finna **Útfluttan umsækjanda LinkedIn**.
 
@@ -140,7 +142,7 @@ Notandi forritsins verður að vera stofnaður fyrir breyti LinkedIn Talent Hub 
 
 ## <a name="exporting-candidate-records"></a>Skrár umsækjanda fluttar út
 
-Þegar uppsetningu er lokið geta ráðningaraðilar og starfsfólk mannauðs notað virknina **Flytja út HRIS** í LinkedIn Talent Hub til að flytja út færslur ráðinna umsækjenda úr LinkedIn Talent Hub í Human Resources.
+Þegar uppsetningu er lokið geta ráðningaraðilar og starfsfólk Human Resources notað virknina **Flytja út HRIS** í LinkedIn Talent Hub til að flytja út færslur ráðinna umsækjenda úr LinkedIn Talent Hub í Human Resources.
 
 ### <a name="export-records-from-linkedin-talent-hub"></a>Flytja út færslur úr LinkedIn Talent Hub
 
@@ -162,7 +164,7 @@ Notandi forritsins verður að vera stofnaður fyrir breyti LinkedIn Talent Hub 
     - Í reitinn **Staðsetning** skal færa inn staðsetninguna þar sem starfsmaðurinn verður.
     - Færðu inn eða staðfestu netfang starfsmannsins.
 
-![Flytja yfir á HRIS-svæðið í LinkedIn Talent Hub.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![Flytja yfir á HRIS-svæðið í LinkedIn Talent Hub](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Ljúka við innleiðingu í Human Resources
 
@@ -186,8 +188,5 @@ Eftirfarandi upplýsingar eru fluttar inn og teknar með í nýju starfsmannafæ
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Skilgreina Dataverse-sýndartöflur](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Hvað er Microsoft Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Skilgreina Common Data Service sýndareiningar](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Hvað er Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)

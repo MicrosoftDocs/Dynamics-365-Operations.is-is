@@ -2,23 +2,26 @@
 title: Breyta vinnuhópi á vinnu
 description: Þetta efnisatriði útskýrir hvernig hægt er að nota hnappinn „Breyta vinnuhópi“ fyrir vinnuliði til að breyta vinnuhópi fyrirliggjandi vinnu.
 author: mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPool,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 066655b58d4676bafb6e8ed8d80a95636c047444
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 344918b77334f9aca11f799f8c031047ad229ee0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566024"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430371"
 ---
 # <a name="change-work-pool-on-work"></a>Breyta vinnuhópi á vinnu
 
@@ -146,6 +149,3 @@ Hægt er að nota síðuna **Upplýsingar um vinnu** til að skoða vinnuna sem 
 > Þegar svarglugginn **Breyta vinnuhópi** birtist, gæti reiturinn **Auðkenni vinnuhóps** verið sjálfgefið auður. Ef reiturinn er auður þegar valið er **Í lagi** til að koma breytingum á, verður vinnuhópurinn fjarlægður að fullu úr vinnunni.
 >
 > Ásamt því að skipta um vinnuhópa, er hægt að nota þetta ferli til að bæta vinnuhópi við hvaða vinnulið sem er sem er ekki með slíkan, eða til að fjarlægja vinnuhóp úr vinnulið sem er með einn slíkan.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

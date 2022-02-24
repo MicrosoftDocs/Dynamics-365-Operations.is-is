@@ -2,9 +2,11 @@
 title: Stofna runuvinnslu
 description: Runuvinnsla er flokkur verka sem er sendur til AOS-tilviksins (hugbúnaðarhlutarþjónstilviks) í sjálfvirka vinnslu.
 author: maertenm
-ms.date: 11/22/2021
+manager: AnnBe
+ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BatchJob, SysRecurrence, BatchAlerts
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 76c6c68f7effad0c40282b22ea2a6bf991862cf5
-ms.sourcegitcommit: d7d997ad84623ad952672411c0eb6740972ae0b1
-ms.translationtype: MT
+ms.openlocfilehash: e4360cd7068658a170f5b44c2ce7c71c39c44fa8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/24/2021
-ms.locfileid: "7864174"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679889"
 ---
 # <a name="create-a-batch-job"></a>Stofna runuvinnslu
 
@@ -29,53 +31,26 @@ Runuvinnsla er flokkur verka sem er sendur til AOS-tilviksins (hugbúnaðarhluta
 
 ## <a name="create-the-batch-job"></a>Stofna runuvinnslu
 1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Kerfisstjórnun > Fyrirspurnir > Runuvinnslur**.
-2. Veljið **Nýtt**.
-3. Í **Starfslýsing** reit, sláðu inn lýsingu á runuvinnunni.
-4. Í **Áætlaður upphafsdagur/tími** reit, sláðu inn dagsetningu og tíma þegar runuvinnan á að keyra.
-5. Veldu **Vista**.
+2. Smellt er á **Nýtt**.
+3. Færðu inn gildi í reitnum **Starfslýsing**.
+4. Í reitinn **Áætluð upphafsdags./-tími** skráirðu dags. og tíma.
+5. Smellt er á **Vista**.
 
 ## <a name="create-a-recurrence"></a>Stofna endurtekningu
-1. Á aðgerðarrúðunni velurðu **Lotuvinna**.
-2. Veljið **Endurtekning**. Notið þessa valkosti til að færa inn afmörkun og mynstur fyrir endurtekninguna.  
-3. Veldu **Í lagi**.
+1. Í aðgerðasvæðinu er smellt á **Runuvinnsla**.
+2. Smelltu á **Endurtekning**. Notið þessa valkosti til að færa inn afmörkun og mynstur fyrir endurtekninguna.  
+3. Smellt er á **OK**.
 
 ## <a name="add-alerts"></a>Bæta við viðvaranir
-1. Á aðgerðarrúðunni velurðu **Lotuvinna**.
-2. Veldu **Viðvaranir**. Tilgreina hvort óskað sé eftir að viðvörunarboðin birtist þegar runuvinnsla lýkur, villa er til staðar eða hætt er við. Tilgreinið síðan ef óskað er eftir að viðvaranir birtist sem sprettigluggar.   
-3. Veldu **Í lagi**.
-
-## <a name="add-a-task-to-a-batch-job"></a>Bættu verkefni við runuvinnu
-1.  Á **Lotustörf** síðu, veldu **Skoða verkefni**.
-2.  Veldu **Ctrl+N** að búa til verkefni.
-3.  Færið inn lýsingu á lotuverkefninu.
-4.  Í **Reikningar fyrirtækja** reit, veldu fyrirtækjagagnagrunninn sem verkefnið á að keyra í.
-5.  Í **Nafn bekkjar** reit, veldu ferlið sem verkefnið á að keyra. 
-6.  Eftir því sem við á skaltu velja runuhóp fyrir verkefnið.
-
-    Verkefni viðskiptavina verða að vera úthlutað til runuhóps. Þeim er sjálfkrafa úthlutað í sjálfgefna runuhópinn (einnig þekktur sem tómur runuhópurinn).
-
-7.  Veldu **Ctrl+S** til að vista verkefnið.
-8.  Til að gera valið verkefni háð öðru verki í verkinu skaltu velja **Hefur skilyrði** rist, og fylgdu síðan þessum skrefum fyrir hvert skilyrði sem þú vilt skilgreina:
-
-    1. Veldu **Ctrl+N** að skapa skilyrði.
-    2. Veldu verkefnakenni móðurverkefnisins.
-    3. Veldu stöðuna sem yfirverkið verður að ná áður en háða verkið getur keyrt.
-    4. Veldu **Ctrl+S** til að bjarga ástandinu.
-
-    Ef þú skilgreinir fleiri en eitt skilyrði, og ef *allt* skilyrðin verða að vera uppfyllt áður en háða verkefnið getur keyrt, veldu skilyrðistegund af **Allt**. Ef háð verkefni getur keyrt á eftir *Einhver* af skilyrðunum hefur verið uppfyllt skaltu velja skilyrðistegund af **Einhver**.
-
-9.  Veldu hvernig verkefnabilanir á að meðhöndla. Til að hunsa bilun í tilteknu verkefni, á **Almennt** flipann, veldu **Hunsa verkefnabilun** valmöguleika fyrir það verkefni. Ef þessi valkostur er valinn mun bilun í verkinu ekki valda því að verkið mistekst. Þú getur líka notað **Hámarkstilraunir** reit til að tilgreina fjölda skipta sem endurtaka ætti verkefni áður en það er talið hafa mistekist. Sem besta starfsvenjan mælum við með að þú stillir ekki **Hámarkstilraunir** reit að gildi sem er meira en **5**.
-
-    Fyrir frekari upplýsingar um endurtilraunir hópa, sjá [Virkja endurtilraunir hópa](../retryable-batch.md).
+1. Í aðgerðasvæðinu er smellt á **Runuvinnsla**.
+2. Smelltu á **Viðvaranir**. Tilgreina hvort óskað sé eftir að viðvörunarboðin birtist þegar runuvinnsla lýkur, villa er til staðar eða hætt er við. Tilgreinið síðan ef óskað er eftir að viðvaranir birtist sem sprettigluggar.   
+3. Smellt er á **OK**.
 
 ## <a name="adjust-batch-job-status"></a>Stilla stöðu runuvinnslu
 1. Farðu í **Kerfisstjórnun > Fyrirspurnir> Runuvinnslur**.
 2. Veldu viðeigandi runuvinnslu.
-3. Á aðgerðarrúðunni velurðu **Lotuvinna > Aðgerðir > Breyta stöðu**.
+3. Í aðgerðasvæðinu smellirðu á **Runuvinnsla > Aðgerðir > Breyta stöðu**.
 4. Veldu viðeigandi stöðu:
     - **Halda eftir**: Stilla runuvinnsluna sem **halda eftir** svo að henni er haldið eftir í verkraðara runuvinnslu. Jafngildir *stöðva*.
     - **Bið**: Stilla runuvinnsluna sem **bið** svo að hún bíður þess að verkraðari runuvinnslu taki hana til. Jafngildir *ræsa*.
-5. Veldu **Í lagi**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+5. Smellt er á **OK**.

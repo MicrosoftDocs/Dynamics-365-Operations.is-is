@@ -1,10 +1,12 @@
 ---
 title: Stofna nýja afurð í Commerce
-description: Í þessu efnisatriði er lýst hvernig eigi að stofna nýja vöru í Microsoft Dynamics 365 Commerce.
+description: Þetta efni lýsir því hvernig á að stofna nýja afurð í Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -14,19 +16,19 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 73911d9d8e3fdc6d72eadb8d071382e15dd5375eae8274f88d88b1078e7720f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b578c1bdfe1c6b4bf66cc85cc09ed906fb812a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753723"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965314"
 ---
 # <a name="create-a-new-product-in-commerce"></a>Stofna nýja afurð í Commerce
 
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er lýst hvernig eigi að stofna nýja vöru í Microsoft Dynamics 365 Commerce.
+Þetta efni lýsir því hvernig á að stofna nýja afurð í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -49,13 +51,13 @@ Afurð er fyrst og fremst skilgreind af afurðarnúmeri, heiti og lýsingu. Hins
 
 Eftirfarandi mynd sýnir dæmi um afurð sem er bætt við.
 
-![Stofna afurð.](media/create-new-product.png)
+![Stofna afurð](media/create-new-product.png)
 
 Þegar afurð er bætt við er hægt að stilla viðbótargögn fyrir hana, svo sem **Afurðarlýsing**, **Afbrigðaflokkar**, **Víddarflokkar**, **Afurðaeigindir** og **Skyldar afurðir**.
 
 Eftirfarandi mynd sýnir viðbótarupplýsingar afurðar.
 
-![Upplýsingar um afurð.](media/create-new-product-2.png)
+![Upplýsingar um afurð](media/create-new-product-2.png)
 
 ### <a name="create-product-variants"></a>Stofna afurðarafbrigði
 
@@ -74,23 +76,23 @@ Til að selja afurð verður hún fyrst að verða gefin út til lögaðila.
 
 1. Af afurðasíðunni velurðu **Losa afurðir**.
 
-    ![Losa afurð.](media/create-new-product-3.png)
+    ![Losa afurð](media/create-new-product-3.png)
 
 1. Veldu afurðina til að losa og veldu síðan **Næst**.
 
-    ![Veldu afurð til að losa.](media/create-new-product-4.png)
+    ![Veldu afurð til að losa](media/create-new-product-4.png)
 
 1. Veldu flokk afurðarafbrigða til að losa og veldu síðan **Næst**.
 
-    ![Veldu afbrigði til að losa.](media/create-new-product-5.png)
+    ![Veldu afbrigði til að losa](media/create-new-product-5.png)
 
 1. Veldu lögaðilann og veldu síðan **Næst**.
 
-    ![Veldu lögaðila.](media/create-new-product-6.png)
+    ![Velja lögaðila](media/create-new-product-6.png)
 
 1. Veljið **Ljúka**.
 
-    ![Ljúktu losun afurðar.](media/create-new-product-7.png)
+    ![Ljúktu losun afurðar](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>Samskipaðu losaða afurð
 
@@ -105,13 +107,10 @@ Til að selja afurð verður hún fyrst að verða gefin út til lögaðila.
 
 Eftirfarandi mynd sýnir dæmi um stillingu á losaðri afurð.
 
-![Skilgreina losaða afurð.](media/create-new-product-8.png)
+![Samskipaðu losaða afurð](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Stofna lögaðila](channels-legal-entities.md)
 
-[Búa til afbrigðaflokk](create-variant-group.md) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Stofna afbrigðaflokk](create-variant-group.md) 

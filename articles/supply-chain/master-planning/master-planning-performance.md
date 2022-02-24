@@ -1,14 +1,17 @@
 ---
 title: Bæta frammistöðu aðaláætlunargerðar
 description: Þetta efni útskýrir hinar ýmsu valkosti sem geta hjálpað þér að bæta árangur aðaláætlunargerðar eða úrræðaleita vandamál.
-author: ChristianRytt
+author: t-benebo
+manager: tfehr
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fa8426c3a1f19f8607f45e9ac4d57300abddb161
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570922"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430551"
 ---
 # <a name="improve-master-planning-performance"></a>Bæta frammistöðu aðaláætlunargerðar
 
@@ -79,14 +82,14 @@ Færibreytan **Notkun skyndiminnis** gerir þér kleift að breyta röðunarferl
 
 ### <a name="number-of-orders-in-firming-bundle"></a>Fjöldi pantana í staðfestingarbúnti
 
-Færibreyta **Fjöldi pantana í staðfestingarbúnti** tilgreinir heildarfjölda pantana sem verða unnar í einu af hverjum þræði/runu. Slíkt veldur samhliða vinnslu í ferli sjálkrafa staðfestingar.
+Færibreyta **Fjöldi pantana í staðfestingarbúnti** tilgreinir heildarfjölda pantana sem verða unnar í einu af hverjum þræði/runu. Hún veldur samhliðun ferlis sjálfvirkar staðfestingar.
 
-Þú getur stillt færibreytuna **Fjöldi pantana í staðfestingarbúnti** í hlutanum **Frammistaða** á flipanum **Almennt** á síðunni **Færibreytur aðaláætlanagerðar** (**Aðaláætlanagerð \> Uppsetning \> Færibreytur aðaláætlanagerðar**). Samhliða vinnsla í ferli sjálkrafa staðfestingar byggir á pöntunum sem þarf að vinna úr saman. Til dæmis, ef þessi færibreyta er stillt á **50** mun hver þráður eða runuverk tína til 50 pantanir í einu og vinna þær saman. Við mælum með að þú notir happa- og glappaferlið til að finna besta gildið. Hins vegar getur þú notað eftirfarandi formúlu til að reikna út upphafsgildi:
+Þú getur stillt færibreytuna **Fjöldi pantana í staðfestingarbúnti** í hlutanum **Frammistaða** á flipanum **Almennt** á síðunni **Færibreytur aðaláætlanagerðar** (**Aðaláætlanagerð \> Uppsetning \> Færibreytur aðaláætlanagerðar**). Samhliðun ferlis sjálfvirkrar staðfestingar er byggð á pöntunum sem verður að vinna saman. Til dæmis, ef þessi færibreyta er stillt á **50** mun hver þráður eða runuverk tína til 50 pantanir í einu og vinna þær saman. Við mælum með að þú notir happa- og glappaferlið til að finna besta gildið. Hins vegar getur þú notað eftirfarandi formúlu til að reikna út upphafsgildi:
 
 (Fjöldi pantana á búnt) = (Fjöldi eftirspurnarþátta ÷ Fjöldi þráða)
 
 > [!NOTE]
-> Ef þú stilltir færibreytuna **Fjöldi pantana í staðfestingarbúnti** á **0** (núll) munu engar samhliða vinnslur á ferli sjálfkrafa staðfsetingar eiga sér stað. Allt ferlið mun keyra á einu runuverki og hafa uppsafnaðan keyrslutíma. Þess vegna mun keyrslutími aðaláætlanagerðar aukast. Af þessum sökum mælum við með því að þú stillir þessa færibreytu á gildi sem er hærra en **0** (núll).
+> Ef þú stillir færibreytuna **Fjöldi pantana í staðfestingarbúnti** á **0** (núll) mun engin samhliðun verða á ferli sjálfvirkrar staðfestingar. Allt ferlið mun keyra á einu runuverki og hafa uppsafnaðan keyrslutíma. Þess vegna mun keyrslutími aðaláætlanagerðar aukast. Af þessum sökum mælum við með því að þú stillir þessa færibreytu á gildi sem er hærra en **0** (núll).
 
 ### <a name="time-fences"></a>Tímamörk
 
@@ -159,6 +162,3 @@ Valkosturinn **Eftirvinnsla: Sía sjálfkrafa eftir atriðum með beinni eftirsp
 - **Ein þung rútína í einu** – Keyrðu ekki aðaláætlanagerð ásamt öðrum þungum rútínum.
 - **Yfirfara lotukladda**.
 - **Afmörkun á vörum** – Notaðu líftímastöðuna til að útiloka vörur frá aðaláætlanagerð. (Ekki nota vörunúmerin.)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

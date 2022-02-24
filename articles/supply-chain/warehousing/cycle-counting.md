@@ -1,26 +1,29 @@
 ---
 title: Regluleg talning
 description: Þessi grein lýsir hvernig nota má reglulega talningu með vöruhúsalausn sem er tiltæk í vöruhúsakerfi. Þessi grein á ekki við um vöruhúsalausn sem er tiltæk í birgðastjórnun.
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage, SalesShipmentDeviation, WHSRFMenuItemCycleCount, WHSWorkLineCycleCount
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 50671
 ms.assetid: 49f5c431-b043-4170-aa24-b7d5d1ee063e
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adaed1d5a4f1ac62df35bcc1497610ce0f44043c
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
-ms.translationtype: MT
+ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902222"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430672"
 ---
 # <a name="cycle-counting"></a>Regluleg talning
 
@@ -34,7 +37,7 @@ Reglulega talningu er vöruhúsið ferli sem hægt er að nota til að endursko�
 2.  **Ferli reglulegrar talningar** ─ Eftir að hafa stofnað vinnu reglulegrar talningar er framkvæmd vinna reglulegrar talningar með því að telja vörur á staðsetningu vöruhúss og færa inn niðurstöðu í Dynamics 365 Supply Chain Management með fartæki. Að öðrum kosti er hægt að telja vörur í vöruhús án þess að stofna reglulega talningu á vinnu. Þetta ferli kallast *finna reglulega talningu*.
 3.  **Leysa mismun í talningargildi** - Eftir reglulega talningu, munu allar vörur sem hafa mismunandi talningargildi hafa stöðuna **Bíður yfirferðar** í skjámyndinni **Allt**. Hægt er að leysa úr þessum mismun á síðunni **Vinna reglulegrar talningar bíður yfirferðar**.
 
-Eftirfarandi mynd sýnir hvernig á að framkvæma reglulega talningu. ![Vinna flæði fyrir reglulega talningu.](./media/performcyclecountinginawarehouselocation.jpg)
+Eftirfarandi mynd sýnir hvernig á að framkvæma reglulega talningu. ![Vinnsluflæði fyrir reglulega talningu](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>Skilyrði fyrir reglulega talningu
 Eftirfarandi tafla sýnir skilyrði sem verða að vera til staðar áður en byrjað er á reglulegri talningu.
@@ -137,6 +140,3 @@ Hægt er að leiðrétta mismun talningargilda og samþykkja talið gildið á s
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

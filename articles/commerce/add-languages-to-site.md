@@ -1,31 +1,37 @@
 ---
 title: Bæta tungumálum við síðuna
-description: Þetta efnisatriði útskýrir hvernig á að bæta stuðningi við önnur tungumál við Microsoft Dynamics 365 Commerce svæði.
+description: Þetta efni útskýrir hvernig á að bæta stuðningi við fleiri tungumál við Microsoft Dynamics 365 Commerce síðu.
 author: bicyclingfool
+manager: annbe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
-ms.translationtype: MT
+ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964555"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413098"
 ---
 # <a name="add-languages-to-your-site"></a>Bæta tungumálum við síðuna
 
+
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að bæta stuðningi við önnur tungumál við Microsoft Dynamics 365 Commerce svæði.
+Þetta efni útskýrir hvernig á að bæta stuðningi við fleiri tungumál við Microsoft Dynamics 365 Commerce síðu.
+
+## <a name="overview"></a>Yfirlit
 
 Þú getur staðbundið vefsíðuna á hvaða tungumál sem Commerce styður. (Listinn yfir studd tungumál birtist síðar í þessu efni.) Til að bæta við tungumáli á vefsíðuna verðurðu fyrst að bæta því við netverslun sem er bundin við vefsvæðið.
 
@@ -165,9 +171,8 @@ Tungumálið sem þú bætir við verður nú tiltækt þannig að þú getur st
 
 [Bæta við táknmynd](add-favicon.md)
 
+[Bæta við opnunarkveðju](add-welcome-message.md)
+
 [Bæta við yfirlýsingu um höfundarrétt](add-copyright-notice.md)
 
 [Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar](add-telemetry.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

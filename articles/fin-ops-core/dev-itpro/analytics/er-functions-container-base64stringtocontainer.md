@@ -2,8 +2,11 @@
 title: Aðgerð Base64StringToContainer í rafrænni skýrslugerð
 description: Þetta efnisatriði inniheldur upplýsingar um hvernig aðgerðin Base64StringToContainer í rafrænni skýrslugerð er notuð.
 author: NickSelin
+manager: kfend
 ms.date: 12/14/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3e813c628bfe783fb8e93fc5d7e8b275405245c42710f9ea691d4c06afff0d84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0e92ae41a3e0f03cb14d4791ab768f096f2a0523
+ms.sourcegitcommit: e8a46e127d70986539c138b27a641bff6f6874d0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772033"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4739086"
 ---
 # <a name="base64stringtocontainer-er-function"></a>Aðgerð Base64StringToContainer í rafrænni skýrslugerð
 
 [!include [banner](../includes/banner.md)]
 
-`BASE64STRINGTOCONTAINER` [aðgerðin](er-formula-language.md#Functions) umbreytir tilteknum innslætti af gerðinni *Strengur* í gagnaatriði af gerðinni *[Gámur](er-functions-category-container.md)*.
+`BASE64STRINGTOCONTAINER` [aðgerðin](er-formula-language.md#functions) umbreytir tilteknum innslætti af gerðinni *Strengur* í gagnaatriði af gerðinni *[Gámur](er-functions-category-container.md)*.
 
 ## <a name="syntax"></a>Málskipun
 
@@ -76,7 +79,4 @@ Undantekningin „Færibreyta er ekki gild“ er notuð ef inntaksstrengurinn ke
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Gámaaðgerðir](er-functions-category-container.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[Hólfaaðgerðir](er-functions-category-container.md)

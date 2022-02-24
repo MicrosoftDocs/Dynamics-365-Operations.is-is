@@ -1,27 +1,30 @@
 ---
 title: Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði
 description: Sjálfgefið pöntunarstillingar skilgreina svæði og vöruhús þar sem afurðir verða upprunnin frá eða geymdar, í lágmarks, hámarks, margar og staðlaðs magns sem verða notuð fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg, og aðferðina pöntun lofað.
-author: johanhoffmann
+author: t-benebo
+manager: tfehr
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 419e2b3b6bc5636aa75cf3ecc26e32ad22260a7e
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
-ms.translationtype: MT
+ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778108"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430626"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði
 
@@ -115,9 +118,9 @@ Hægt er að tilgreina sjálfgefnar pantanastillingar sem eiga við allar virkar
 
 Íhugið eftirfarandi dæmi um vöru:
 
-| vara                                                | Virði                                   |
+|                                                     |                                         |
 |-----------------------------------------------------|-----------------------------------------|
-| **Afurðarnafn**                                    | Ljósnemi                    |
+| **Afurðarheiti**                                    | Ljósnemi                    |
 | **Vörunúmer**                                     | XW56                                    |
 | **Skilgreining** (notað til að sníða til gerð ljóss) | C1 Sýnilegt rautt ljós, C2 innrautt ljós |
 | **Útgáfa** | V1, V2, V3                              |
@@ -188,7 +191,7 @@ Hægt er að velja hversu ítarlegt kerfið á að vera þegar það staðfestir
 
 ### <a name="enable-the-strict-validation-option"></a>Kveikja á valkosti ítarlegrar staðfestingar
 
-Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta notað [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) síðu til að athuga stöðu eiginleika og virkja eða slökkva á honum ef þörf krefur. Hérna er eiginleikinn skráður sem:
+Áður en hægt er að nota þennan ítarlega valkost, þarf að virkja hann í kerfinu. Stjórnendur geta notað síðuna [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og virkjað hann ef þörf krefur. Hérna er eiginleikinn skráður sem:
 
 - **Eining** - *Afurðaupplýsingastjórnun*
 - **Heiti eiginleika** - *Ítarleg staðfesting á sjálfgefnu pöntunarmagni*
@@ -201,6 +204,3 @@ Til að stilla staðfestingarvalkostinn:
 1. Í flipanum **Almennt** skal stilla **Staðfesting á sjálfgefnu pöntunarmagni** á eitt af eftirfarandi gildum:
     - **Ítarlegt** - Veljið þennan valkost til að tryggja að öll gildin fyrir **Staðlað magn í pöntun** verði margfeldi af gildinu **Margfeldi** fyrir hvern flýtiflipa (**Innkaupapöntun**, **Birgðir** og **Sölupöntun**).
     - **Staðlað** - Veljið þennan valkost til að nota staðlaða staðfestingu (sem virkar á sama hátt og þegar þessi eiginleiki er ekki virkur).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

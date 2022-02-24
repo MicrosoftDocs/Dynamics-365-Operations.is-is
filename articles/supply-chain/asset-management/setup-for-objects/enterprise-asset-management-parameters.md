@@ -1,10 +1,12 @@
 ---
 title: Færibreytur eignastýringar
 description: Í eignastýringu verður að setja upp almennar breytur sem varða eignir, verkbeiðnir og tímasetningu vinnutilboða.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1deef00f01d83bc809a004265c386ba9d300df5fa4a1be245812ed5632059f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751962"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020654"
 ---
 # <a name="asset-management-parameters"></a>Færibreytur eignastýringar
 
@@ -99,11 +101,8 @@ Reitirnir sem lýst er í eftirfarandi lista tengjast allir reiknuðum matseinku
 
 ## <a name="the-document-types-tab"></a>Flipi skjalagerðar
 
-Veldu skjalategundirnar sem eiga að vera tiltækar til að prenta viðhengi sem tengjast vinnuskýrslu. Þetta er gert með því að velja skjalagerðina í hlutanum **Laus** og velja hnappinn ![áfram ör.](media/15-setup-for-objects.png). Ef þú vilt fjarlægja valda skjalategund skaltu velja skjalagerðina í hlutanum **Valið** og velja ![aftur ör](media/16-setup-for-objects.png).
+Veldu skjalategundirnar sem eiga að vera tiltækar til að prenta viðhengi sem tengjast vinnuskýrslu. Þetta er gert með því að velja skjalagerðina í hlutanum **Laus** og velja hnappinn ![áfram ör](media/15-setup-for-objects.png). Ef þú vilt fjarlægja valda skjalategund skaltu velja skjalagerðina í hlutanum **Valið** og velja ![aftur ör](media/16-setup-for-objects.png).
 
 ## <a name="the-number-sequences-tab"></a>Flipinn Númeraraðir
 
 Veldu nauðsynlegar töluraðir í þessum kafla. Það eru tvær töluraðir fyrir eignir: ein fyrir handvirkt stofnaðar eignir og ein fyrir eignir búnar til með eignum í bið.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

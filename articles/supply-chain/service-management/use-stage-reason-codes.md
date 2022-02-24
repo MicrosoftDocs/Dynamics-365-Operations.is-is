@@ -1,10 +1,12 @@
 ---
 title: Nota ástæðukóða stigs
 description: Notaður er ástæðukóði til þess að gefa til kynna hvers vegna hætt hefur verið við þjónustustigssamning (SLA) eða hvers vegna þjónustupöntun hefur farið hefur verið framúr tímamörkum sem voru tilgreind í SLA.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAParameters
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac825fe96ee69491953bd50c758dde42744cea85
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4acba8f723ceb3d629671833db59c97a900c9f01
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573154"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965706"
 ---
 # <a name="use-stage-reason-codes"></a>Nota ástæðukóða stigs 
 
@@ -70,6 +72,3 @@ Ef búið er að tilgreina að ástæðukóða sé krafist, verður að færa in
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

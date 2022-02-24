@@ -2,13 +2,16 @@
 title: Vörulistar símavers
 description: Þetta efnisatriði lýsir sértækri virkni símavera fyrir vörulista í Dynamics 365 Commerce.
 author: josaw1
+manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9abe493746719d2e229ef09c2eb5f436b91b2171
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742513"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4413306"
 ---
 # <a name="call-center-catalogs"></a>Vörulistar símavers
 
@@ -39,7 +42,7 @@ Markaðsfyrirtæki sem selja beint til neytenda eru mjög upptekin af því að 
 
 Farðu í **Retail og Commerce** \> **Vörulistar og vöruúrval** \> **Allir vörulistar** til að grunnstilla vörulistann þinn.
 
-Þegar þú býrð til nýjan vörulista þarftu fyrst að tengja vörulistann við einn eða fleiri sölurásir. Þetta er gert í **Commerce rásir** flýtiflipanum á **Uppsetning vörulista** skjámyndinni. Smella á **Bæta við** og velja einn eða fleiri sölurásir. Aðeins er hægt að nota vörur sem tengjast [vöruúrval](/dynamics365/unified-operations/retail/assortments) völdu rásarinnar þinnar þegar þú býrð til vörulistann.
+Þegar þú býrð til nýjan vörulista þarftu fyrst að tengja vörulistann við einn eða fleiri sölurásir. Þetta er gert í **Commerce rásir** flýtiflipanum á **Uppsetning vörulista** skjámyndinni. Smella á **Bæta við** og velja einn eða fleiri sölurásir. Aðeins er hægt að nota vörur sem tengjast [vöruúrval](https://docs.microsoft.com/dynamics365/unified-operations/retail/assortments) völdu rásarinnar þinnar þegar þú býrð til vörulistann.
 
 Til að bæta vöru við vörulista þarf yfirlitsstigveldi að vera valið. Yfirlitsstigveldið mun styðja við skipan flokkanna fyrir vörulistann. Þú verður að velja úr einu af yfirlitsstigveldunum sem tengjast smásölurásunum sem eru valdar á flýtiflipanum **Commerce-sölurás** á síðunni **Vörulisti**. Ef yfirlitsrás var ekki tengd við rás áður skal fara í **Retail og Commerce** \> **Rásaruppsetning** \> **Rásarflokkar og afurðareigindir** til að tengja sjálfgildi yfirlitsstigveldis við sérhverja sölurás þína.
 
@@ -98,6 +101,3 @@ Söluviðauki/viðbótarsöluvörur geta einnig nýtt sér forskriftareiginleika
 ## <a name="additional-notes"></a>Viðbótarathugasemdir
 
 Eins og er, þegar frumkóðakenni er beitt á sölupöntun í símaveri, er það notað til að keyra verð, kynningartilboð, forskriftir og söluviðauki/viðbótarsala sem eru sértæk fyrir vörulista. Kerfið mun ekki banna eða koma í veg fyrir að vara sem er ekki í vörulistanum sé pantað í sölupöntuninni. Ef hlutur er pantaður, sem er ekki hluti af vörulistanum, notar kerfið fyrst **Verðflokkur** sem er skilgreindur á símaversrásinni (**Retail og Commerce** \> **Rásir** \> **Símaver** \> **Öll símaver**) fyrir vöruverð eða kynningartilboð. Ef ekkert tiltekið rásarverð finnst verður grunnsöluverð vörunnar notað.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss
 description: Þetta efnisatriði útskýrir hvernig skal setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss.
-author: yufeihuang
+author: perlynne
+manager: tfehr
 ms.date: 11/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
@@ -13,21 +15,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6698d615826a1555426824bb76db654fde539360
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d533eed984c188c5b6520232f2b875bddd1f57bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571090"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967131"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig skal setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss. Til eru nokkrar forskilgreind skilgreiningarsniðmát sem hægt er að nota. Fyrir upplýsingar um hvernig á að nota þessi sniðmát, sjá [Sniðmát fyrir skilgreiningargögn](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
+Þetta efnisatriði útskýrir hvernig skal setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss. Til eru nokkrar forskilgreind skilgreiningarsniðmát sem hægt er að nota. Fyrir upplýsingar um hvernig á að nota þessi sniðmát, sjá [Sniðmát fyrir skilgreiningargögn](../../dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Atburðarás þar sem skilgreiningarsniðmát geta reynst hjálpleg
 
@@ -88,13 +90,10 @@ Fyrir þessa atburðarás eru skilgreining á uppsetningu fyrir vöruhús og sum
 4. Veldu **+ Bæta við skrá** og hlaða upp zip-skránni fyrir gagnapakkann.
 5. Velja **Innflutningur**. Í **Aukið** yfirlit geturðu notað **Sía** valkost til að fá snögglega yfirlit yfir vandamál sem kunna að eiga sér stað við innflutning.
 
-**Yfirlit aðgerða** skráin veitir nákvæmar upplýsingar um hverja gagnaeiningu sem er flutt inn. Þú getur notað sviðsetningargögn yfirlitið til að komast á skömmum tíma að markgögnunum. Þannig geturðu séð hvernig innfluttu gögnin líta út á tengdum síðum í forritinu. Þegar þú notar sjálfgefin gagnasniðmát, virkar innflutningsröðin fyrir hverja gagnaeiningu á fyrirfram ákveðinni hátt, til að tryggja að öll háð gögn séu flutt inn fyrst. Ef sérsniðin gagnaeiningar eru hluti af verkinu, verður þú að ganga úr skugga um að rétta röðin sé skilgreind. Nánari upplýsingar, sjá [Gagnasniðmát skilgreiningar](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
+**Yfirlit aðgerða** skráin veitir nákvæmar upplýsingar um hverja gagnaeiningu sem er flutt inn. Þú getur notað sviðsetningargögn yfirlitið til að komast á skömmum tíma að markgögnunum. Þannig geturðu séð hvernig innfluttu gögnin líta út á tengdum síðum í forritinu. Þegar þú notar sjálfgefin gagnasniðmát, virkar innflutningsröðin fyrir hverja gagnaeiningu á fyrirfram ákveðinni hátt, til að tryggja að öll háð gögn séu flutt inn fyrst. Ef sérsniðin gagnaeiningar eru hluti af verkinu, verður þú að ganga úr skugga um að rétta röðin sé skilgreind. Nánari upplýsingar, sjá [Gagnasniðmát skilgreiningar](../../dev-itpro/data-entities/configuration-data-templates.md).
 
 Til að fræðast betur um hvernig á að nota sniðmát vöruhúss til að afrita skilgreiningar vöruhúss frá einu fyrirtæki til nýs fyrirtækis innan sama tilviks er hægt að horfa á þetta þriggja mínútna myndband á YouTube um [hvernig nota skuli vöruhúsasniðmát til að afrita skilgreininguna fyrir Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Tengt efni
 
-[Sniðmát skilgreiningargagna](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Sniðmát skilgreiningargagna](../../dev-itpro/data-entities/configuration-data-templates.md)

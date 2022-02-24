@@ -1,32 +1,35 @@
 ---
 title: Stofna yfirlitsstigveldi rásar
-description: Þetta efnisatriði lýsir hvernig á að stofna yfirlitsstigveldi rásar í Microsoft Dynamics 365 Commerce.
+description: Þetta efni lýsir því hvernig á að stofna yfirlitsstigveldi rásar í Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 04/27/2021
+manager: annbe
+ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d522838bdddf6cda6d7e451b27183f733e3de53df865d49cdadf846cf99cc953
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e83860667f142adcc85cd8542d521e18f16dbc2c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749956"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413055"
 ---
-# <a name="create-a-channel-navigation-hierarchy"></a>Búa til skoðunarstigveldi rásar
+# <a name="create-a-channel-navigation-hierarchy"></a>Stofna yfirlitsstigveldi rásar
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig á að stofna yfirlitsstigveldi rásar í Microsoft Dynamics 365 Commerce.
+Þetta efni lýsir því hvernig á að stofna yfirlitsstigveldi rásar í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -49,7 +52,7 @@ Fylgdu þessum skrefum til að stofna yfirlitsstigveldi rásar.
 
 Eftirfarandi mynd sýnir dæmi um rótarhnút.
 
-![Dæmi um rótarhnút.](media/create-channel-hierarchy-1.png)
+![Dæmi um rótarhnút](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Stofnun yfirlitsflokkahnúta
 
@@ -65,7 +68,7 @@ Fylgdu þessum skrefum til að búa til fleiri yfirlitsflokkahnúta til að ták
 
 Eftirfarandi mynd sýnir dæmi um yfirlitsstigveldi rásar sem er lokið.
 
-![Dæmi um rásarstigveldi.](media/create-channel-hierarchy-2.png)
+![Dæmi um rásarstigveldi](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Bæta afurðum við flokkshnúta
 
@@ -77,11 +80,11 @@ Fylgdu þessum skrefum til að bæta afurðum við flokkahnúta.
 1. Í aðgerðaglugganum velurðu **Vista.**
 
 > [!NOTE]
-> Að bæta afurðum við hnút inni í stigveldi rásarinnar dugar ekki til þess að afurðirnar birtist á valinni rás, einnig verður að tengja afurðirnar við rás. Frekari upplýsingar um vöruúrval er að finna í [Stjórnun vöruúrvals](assortments.md).
+> Að bæta afurðum við hnút inni í stigveldi rásarinnar dugar ekki til þess að afurðirnar birtist á valinni rás, einnig verður að tengja afurðirnar við afurð.
 
 Eftirfarandi mynd sýnir dæmi um hnút með afurðum sem er bætt við.
 
-![Afurðum bætt við flokkshnút.](media/create-channel-hierarchy-3.png)
+![Afurðum bætt við flokkshnút](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Bættu afurðareigindahópum við flokkshnúta
 
@@ -97,13 +100,10 @@ Til að bæta afurð og eigindahóp við flokkshnút skaltu fylgja þessum skref
 
 Eftirfarandi mynd sýnir dæmi um hnút með afurðareigindir sem er bætt við.
 
-![Eigindaflokkar afurðar á hnút.](media/create-channel-hierarchy-4.png)
+![Eigindaflokkar afurðar á hnút](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Setja upp úrval](set-up-assortments.md)
 
 [Stjórna eigindum og eigindahópum](attribute-attributegroups-lifecycle.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

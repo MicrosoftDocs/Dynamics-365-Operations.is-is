@@ -84,6 +84,3 @@ Með þessum breytingum skaltu láta upplýsingar um beiðni sem eru uppfærðar
 ### <a name="print-performance-reviews"></a>Prenta árangursumsagnir
 
 Starfsmenn, stjórnendur og sérfræðingar HR munu geta prentað út afkastarýni starfsmanns.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Flutningur yfir í fínstillingu skipulagningar fyrir aðaláætlanagerð
 description: Í þessu efnisatriði er að finna upplýsingar um nýja aðaláætlunarvélina, fínstillingu skipulagningar og um yfirfærslu úr fyrirliggjandi vél.
 author: ChristianRytt
+manager: tfehr
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d3edeefca2e2194a8d5484afbfabf2091da4a1c1538d238351a5d389177ccfd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 94e5668da45c524ed9ab9eef10b40d0fb5336a65
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728580"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645997"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Flutningur yfir í fínstillingu skipulagningar fyrir aðaláætlanagerð
 
@@ -63,12 +66,8 @@ Hægt er að biðja um undantekningu ef nauðsynlegt er að halda þarf áfram a
 
 Um leið og áskildir eiginleikar verða tiltækir veitir Microsoft reynslutíma þar til undantekningin rennur út. Stjórnandi umhverfisins fær upplýsingar um hvenær áskildir eiginleikar eru tiltækir og þegar reynslutíminn hefst.
 
-Eftirfarandi flæðirit tekur saman upplýsingarnar sem veittar eru í þessu efnisatriði þannig að hægt sé að finna út á fljótlegan hátt hvort þurfi að biðja um undanþágu. Ef óska þarf eftir undanþágu skal fylla út og senda inn [Fínstilling áætlanagerðar, yfirfærsla og spurningalisti undantekningar](https://go.microsoft.com/fwlink/?linkid=2144962).
-
-![Flæðirit undantekningar.](media/exception-diagram.png "Flæðirit undantekningar")
-
 > [!NOTE]
-> Einungis er hægt að óska eftir undanþágu fyrir leigjendur sem eru með eða munu vera með vinnsluumhverfi, ekki fyrir leigjendur með eingöngu sandkassaumhverfi. Þegar þörf er á að slökkva á undantekningarvillu fínstillingar skipulagningar í innviðum sem þjónusta (IaaS) í sandkassaumhverfi skal keyra SQL-fyrirspurnina sem er til staðar í [Sandkassaumhverfum](#faq-sandbox).
+> Aðeins er hægt að biðja um undantekningu fyrir vinnsluumhverfi, ekki fyrir sandkassaumhverfi. Þegar þörf er á að slökkva á undantekningarvillu fínstillingar skipulagningar í innviðum sem þjónusta (IaaS) í sandkassaumhverfi skal keyra SQL-fyrirspurnina sem er til staðar í [Sandkassaumhverfum](#faq-sandbox).
 
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 
@@ -117,6 +116,3 @@ Stjórnandi umhverfis okkar fékk tölvupóst frá Microsoft. Í tölvupóstinum
 > Ljúktu við eftirfarandi spurningalista til að hefjast handa og, ef svo á við, biddu um undantekningu frá yfirfærslu í fínstillingu skipulagningar.
 
 **Svar:** Nei, Aðaláætlanagerð er ekki læst. Keyrslu aðaláætlanagerðarinnar lauk á réttan hátt og þú getur notað niðurstöðurnar á hefðbundinn hátt. Hins vegar, til að forðast að fá þessi villuboð við síðari aðaláætlunarkeyrslur, verður að flytja yfir í fínstillingu áætlanagerðar strax eða biðja um undantekningu með því að nota tengilinn í villuboðunum.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

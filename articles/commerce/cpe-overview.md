@@ -1,26 +1,30 @@
 ---
-title: Dynamics 365 Commerce yfirlit yfir matsumhverfi
+title: Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi
 description: Í þessu Umfjöllunarefni er að finna yfirlit yfir Microsoft Dynamics 365 Commerce matsumhverfi.
 author: v-chgri
+manager: annbe
 ms.date: 07/16/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
-ms.reviewer: josaw
+ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: josaw
+ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35cd06070ff73af1c97706bb1cdb67045715d458
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982640"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413053"
 ---
-# <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Dynamics 365 Commerce yfirlit yfir matsumhverfi
+# <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi
 
 [!include [banner](includes/banner.md)]
 
@@ -28,6 +32,8 @@ ms.locfileid: "7982640"
 
 > [!NOTE]
 > Commerce matsumhverfi er almennt ekki í boði og er veitt af samstarfsaðilum og viðskiptavinum á grundvelli beiðna. Þú ættir að hafa samband við Microsoft samstarfsaðila þinn til að fá aðstoð ef þig vantar frekari upplýsingar.
+
+## <a name="overview"></a>Yfirlit
 
 Commerce matsumhverfi er valfrjálst og tekur til alls ferilsins Dynamics 365 Commerce sem gerir samstarfsaðilum og hugsanlegum viðskiptavinum kleift að prófa Commerce-vöruna.
 
@@ -58,6 +64,3 @@ Til að ráðstafa viðskiptaumhverfinu í Commerce, sjá [Úthlutun Commerce ma
 [Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce matsumhverfi](cpe-optional-features.md)
 
 [algengar spurningar um Dynamics 365 Commerce matsumhverfi](cpe-faq.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

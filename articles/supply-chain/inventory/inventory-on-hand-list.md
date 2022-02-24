@@ -1,24 +1,27 @@
 ---
 title: Listi yfir birgðir á lager
 description: Þetta efnisatriði lýsir því hvernig á að nota listasíðu lagerbirgða til að skoða upplýsingar um lagerbirgðir. Það sýnir nokkrar af þeim leiðum þar sem ýmsir síunar- og flokkunarvalkostir vinna saman og hvernig þessir valkostir geta stundum leitt til óvæntra niðurstaðna þegar þeir eru sameinaðir.
-author: yufeihuang
+author: sherry-zheng
+manager: tfehr
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: yufeihuang
+ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 9464240123ec2248e1b66f32dd3c9a2f974512b6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573922"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430749"
 ---
 # <a name="inventory-on-hand-list"></a>Listi yfir birgðir á lager
 
@@ -143,6 +146,3 @@ Hér er útkoman.
 | IA0001 | 1 | 2 | 2 |
 
 Athugið að stillingarnar á svæðinu **Síur** eiga við um ítarlegu (ekki uppsafnaða) birgðatöfluna sem er sýnd í upphafi þessa hluta. Þar af leiðandi finnur skilyrðið **Efnislega tiltækt** \| **minna en eða jafnt og** \| _1_ tvær línur úr þeirri töflu (fyrstu og þriðju línu, sem hvor um sig sýnir gildi fyrir **Efnislega tiltækt** upp á _1_). Hins vegar, í þessu dæmi, er síðan **Lagerlisti** ekki sett upp til að sýna víddina **Vöruhús**. Þar af leiðandi leggur það upprunalegu línurnar tvær saman í eina línu því að báðar línurnar eru með sama gildið í öllum víddunum sem sýndar eru. Þessi lína virðist ekki fara eftir síuskilyrðinu vegna þess að gildið **Efnislega tiltækt** er sýnt sem _2_. Niðurstaðan er hinsvegar rétt vegna þess að stillingarnar á svæðinu **Síur** eiga við um upprunatöfluna, ekki samanlögðu töfluna sem er sýnd á síðunni **Lagerlisti**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

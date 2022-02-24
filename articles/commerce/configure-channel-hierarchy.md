@@ -1,32 +1,35 @@
 ---
 title: Grunnstilla rás til að nota skoðunarstigveldi rásar
-description: Þetta efnisatriði lýsir hvernig á að grunnstilla rás til að nota skoðunarstigveldi rásar í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir hvernig á að stilla rás til að nota stigveldi rásar í Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3cf29bd423a2475b77e9076024b4da6864a31065da81de49f1b9a0f639243f1d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b5041d35d310125c314ab2cb77d3cc40cdb7113
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713993"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413063"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Grunnstilla rás til að nota skoðunarstigveldi rásar
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig á að grunnstilla rás til að nota skoðunarstigveldi rásar í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir hvernig á að stilla rás til að nota stigveldi rásar í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -45,7 +48,7 @@ Fylgdu þessum skrefum til að stilla rásina til að nota stigveldi rásarinnar
 
 Eftirfarandi myndi sýnir hvernig stilla skuli rás til að nota stigveldi rásarinnar.
 
-![Dæmi um rásaskilgreiningu.](media/configure-channel-hierarchy-1.png)
+![Dæmi um rásaskilgreiningu](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>Stilla eigind lýsigagna
 
@@ -61,7 +64,7 @@ Til að stilla lýsigögn eigindar skal fylgja þessum skrefum.
 
 Eftirfarandi mynd sýnir dæmi um eiginleika rásafurða sem eru stilltir á hnút rásaflokks.
 
-![Rásareigindir á hnút rásaflokks.](media/configure-channel-hierarchy-2.png)
+![Rásareigindir á hnút rásaflokks](media/configure-channel-hierarchy-2.png)
 
 ## <a name="publish-changes"></a>Birta breytingar
 
@@ -74,13 +77,10 @@ Til að birta breytingar skal fylgja þessum skrefum.
 
 Eftirfarandi mynd sýnir hvernig á að birta uppfærslur á rásum.
 
-![Birta uppfærslur rásar.](media/configure-channel-hierarchy-3.png)
+![Birta uppfærslur rásar](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Búa til skoðunarstigveldi rásar](create-channel-hierarchy.md)
+[Stofna yfirlitsstigveldi rásar](create-channel-hierarchy.md)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Úthluta Dynamics 365 Commerce matsumhverfi
 description: Þetta efnisatriði útskýrir hvernig á að setja upp að aðgang Microsoft Dynamics 365 Commerce matsumhverfi.
 author: psimolin
+manager: annbe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c8241c31e82d124398189666c3a1709d25884b8acd9c8f3b1068529cbd216684
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777501"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969902"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Úthluta Dynamics 365 Commerce matsumhverfi
 
@@ -32,6 +34,8 @@ ms.locfileid: "6777501"
 
 > [!NOTE]
 > Commerce matsumhverfi er almennt ekki í boði og er veitt af samstarfsaðilum og viðskiptavinum á grundvelli beiðna. Þú ættir að hafa samband við Microsoft samstarfsaðila þinn til að fá aðstoð ef þig vantar frekari upplýsingar.
+
+## <a name="overview"></a>Yfirlit
 
 Til að hægt sé að úthluta Commerce-matsumhverfi þarf að stofna verk sem er með ákveðið afurðarheiti og gerð. Umhverfið og Commerce Scale Unit (CSU) eru einnig með nokkrar ákveðnar færibreytur sem verður að nota þegar áætlun rafræna viðskipta er úthlutað. Leiðbeiningarnar í þessu efnisatriði lýsa öllum skrefunum sem eru nauðsynleg til að ljúka úthlutun og færibreyturnar sem þarf að nota.
 
@@ -76,7 +80,7 @@ Til að stofna nýtt verk í LSC skal fylgja þessum skrefum.
 
 ### <a name="add-the-azure-connector"></a>Bættu Azure-tengingunni við
 
-Til að bæta Azure-tengingunni við LCS-verk skal fylgja skrefunum í [Ljúka innleiðingarferli Azure Resource Manager](../fin-ops-core/dev-itpro/deployment/arm-onboarding.md).
+Til að bæta Azure-tengingunni við LCS-verk skal fylgja skrefunum í [Ljúka innleiðingarferli Azure Resource Manager](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/arm-onboarding).
 
 ### <a name="deploy-the-environment"></a>Virkjaðu umhverfið
 
@@ -90,16 +94,16 @@ Til að virkja umhverfið skaltu fylgja þessum skrefum.
 1. Í reitnum **Útgáfa forrits**, veldu nýjustu útgáfuna. Ef þú hefur sérstaka þörf fyrir að velja aðra forritsútgáfu en nýjustu útgáfuna skaltu ekki velja útgáfu áður **10.0.14**.
 1. Í reitnum **Útgáfa verkvangs**, notarðu verkvangsútgáfuna sem er sjálfkrafa valin fyrir forritsútgáfuna sem þú valdir. 
 
-    ![Val á forrita- og verkvangsútgáfum.](./media/project1.png)
+    ![Val á forrita- og verkvangsútgáfum](./media/project1.png)
 
 1. Veljið **Næst**.
 1. Veldu **Kynning** grannfræði umhverfis.
 
-    ![Val á grannfræði umhverfis 1.](./media/project2.png)
+    ![Val á grannfræði umhverfis 1](./media/project2.png)
 
 1. Á síðunni **Setja upp umhverfi** slærðu inn umhverfisheiti. Hafðu ítarlegar stillingar óbreyttar.
 
-    ![Setja upp umhverfissíðu.](./media/project4.png)
+    ![Setja upp umhverfissíðu](./media/project4.png)
 
 1. Stilltu VM stærð eftir þörfum. (Við mælum með VM birgðaeiningunni \[SKU\] **D13 v2**.)
 1. Skoðaðu verðlagningu og leyfisskilmála og veldu síðan gátreitinn til að gefa til kynna að þú samþykki þá.
@@ -180,13 +184,10 @@ Til að halda áfram að úthluta og grunnstilla Commerce-matsumhverfið skal sk
 
 [algengar spurningar um Dynamics 365 Commerce matsumhverfi](cpe-faq.md)
 
-[Microsoft Dynamics Lifecycle Services (LSC)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Dynamics Lifecycle Services (LSC)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Commerce Scale Unit (ský)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit (ský)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure-gátt](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce vefsvæði](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

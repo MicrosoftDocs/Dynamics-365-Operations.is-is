@@ -2,13 +2,16 @@
 title: Gantt-rit fyrir vinnsluröðun
 description: Framleiðendur geta stjórnað og hámarkað framleiðsluáætlanir með Gantt-ritum.
 author: johanhoffmann
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 180fb7b31ea826c546aa8472a7ef4025a3b8865a783a5b662ed30b69f98acf92
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730203"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430433"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Gantt-rit fyrir vinnsluröðun
 
@@ -45,10 +48,10 @@ Hægt er að opna Gantt-línuritið á tveimur skjám **Pantanayfirlit** og **Fo
 
 ## <a name="order-view"></a>Pantanayfirlit
 
-[![Pantanayfirlit.](./media/orderview.png)](./media/orderview.png)
+[![Pantanayfirlit](./media/orderview.png)](./media/orderview.png)
 
 ## <a name="resource-view"></a>Forðayfirlit
-[![Forðayfirlit.](./media/resview.png)](./media/resview.png)
+[![Forðayfirlit](./media/resview.png)](./media/resview.png)
 
 ## <a name="activities"></a>Verkþættir
 Verkþættir birtast sem súlur og er raðað upp í tímakvarðalínurit með áætlaðan upphafs- og lokatíma, sme gerir lengd á súlum hlutfallslega við þann tíma sem þarf að ljúka verkþættinum. Aðgerðir eru sýndar samkvæmt tímakvarða. Hægt er að leiðrétta tímakvarðann á valmyndinni þar sem valin er upphafs- og lokadagsetning og tímaeining, til dæmis klukkustundir eða dagar. Með því að aðlaga tímakvarðann má stilla áherslu á tímabil þar sem á að stjórna verkþætti. 
@@ -102,25 +105,25 @@ Ekki er mögulegt að áætla vinnslu utan tilgreinds tímabils Gantt-línuritsi
 
 Í neti verkþátta, eins og vinnslum sem tilheyra sömu framleiðslupöntun, er hægt að nota aðgerðina **Raða fyrri vinnslum** til að raða fyrri vinnslum hlutfallslega við valda vinnslu í netinu. Í eftirfarandi dæmi er auðkenndur verkþáttur valin vinnsla. Skýringarmyndin birtist áður en fyrri vinnsla er áætluð og eftir að síðari vinnsla er áætluð. 
 
-[![Raða fyrri vinnslu.](./media/schprevjob3.png)](./media/schprevjob3.png)
+[![Raða fyrri vinnslu](./media/schprevjob3.png)](./media/schprevjob3.png)
 
 ### <a name="schedule-next-jobs"></a>Raða næstu vinnslum
 
 Hægt er að nota aðgerðina **Raða næstu vinnslum** til að raða næstu vinnslum hlutfallslega við valda vinnslu í neti verkþátta. Í eftirfarandi dæmi er auðkenndur verkþáttur valin vinnsla. Skýringarmyndin birtist áður en næsta vinnsla er áætluð og eftir að næsta vinnsla er áætluð. 
 
-[![Raða næstu vinnslu.](./media/schnxtjob.png)](./media/schnxtjob.png)
+[![Raða næstu vinnslu](./media/schnxtjob.png)](./media/schnxtjob.png)
 
 ### <a name="schedule-around-job"></a>Raða kringum starf
 
 Hægt er að nota aðgerðina **Raða með vinnslu** til að raða næstu vinnslu og fyrri vinnslu hlutfallslega við valda vinnslu í neti verkþátta. Í eftirfarandi dæmi er auðkenndur verkþáttur valin vinnsla. Skýringarmyndin birtist áður en vinnsla er áætluð og eftir að vinnsla er áætluð. 
 
-[![Raða kringum vinnslu.](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![Raða kringum starf](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>Raða störfum
 
 Hægt er að nota aðgerðina **Raða** til að hagræða völdum verkþætti á sama tilfang. Þessar aðgerðir geta verið innan sama nets verkþátta, en geta einnig tilheyrt mismunandi netum. Þegar röðunaraðgerðin er notuð er tímaeyðum á milli valinna verkþátta sleppt. Hægt er að nota þessa aðgerð til að bæta nýtingu afkastaveitu tilfanga. Skýringarmyndin birtist áður en vinnsla er áætluð og eftir að vinnsla er áætluð. 
 
-[![Raða vinnslu.](./media/arrangejobs1.png)](./media/arrangejobs1.png)
+[![Raða vinnslu](./media/arrangejobs1.png)](./media/arrangejobs1.png)
 
 ### <a name="reassign-activities-from-one-resource-to-another"></a>Endurúthluta verkþáttum úr einum tilföngum í önnur
 
@@ -155,8 +158,5 @@ Hægt er að opna gantt-línurit úr eftirfarandi síðum.
 ## <a name="additional-resources"></a>Frekari upplýsingar  
 [Sjónrænar áætlanir með Gantt-línuritum fyrir framleiðslu og runupantanir (myndskeið)](https://youtu.be/BtbuShkGj4I)
 
-[Sjónræn áætlun fyrir framleiðslu (sýniútgáfa)](/dynamics/s-e/)
+[Sjónræn áætlun fyrir framleiðslu (sýniútgáfa)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

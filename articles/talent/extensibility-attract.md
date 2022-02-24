@@ -91,6 +91,3 @@ Vefefni (iframe) virkni gerir þér kleift að fella inn sérsniðna veflausn se
 
 > [!NOTE]
 > Vefefnisaðgerðin er aðeins í boði með Viðbót við alhliða ráðningar.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

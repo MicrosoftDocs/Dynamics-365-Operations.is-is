@@ -78,6 +78,3 @@ Ný valkostur mun gera stjórnendum kleift að skoða árangur af bæði beinum 
 Okkur er ánægja að tilkynna að svæðin Kanada og Suðaustur-Asíu verða tiltæk fyrir Talent þann 1. ágúst 2019. Með þessari breytingu geturðu búið til umhverfi á kanadískum og asískum svæðum og öllum gögnum í Talent verður einungis viðhaldið innan þessara staða. Þú getur búið til umhverfi á þessum nýju svæðum með því að velja staðsetningu í glugganum Nýtt umhverfi og nota það umhverfi til að útvega Talent í LCS eins og lýst er hér [Úthluta Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 Gagnaflutningur fyrirliggjandi verkefna af öðrum svæðum til svæða Kanada og Asíu er ekki studdur. Aðeins er hægt að úthluta nýjum verkum til þessara nýstuddu svæða.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

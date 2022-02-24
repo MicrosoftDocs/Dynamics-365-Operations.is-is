@@ -53,6 +53,3 @@ Með þessari breytingu hefur reitunum **Reynslutímabil** og **Dagatal** verið
 
 ### <a name="platform-update-23-for-finance-and-operations"></a>Uppfærsla 23 fyrir verkvang fyrir Finance and Operations
 Minniháttar lagfærslur á villum eru innifaldar í verkvangi uppfærslu 23 fyrir Finance and Operations. Frekari upplýsingar er að finna í [Nýjungar eða breytingar í Dynamics 365 Finance and Operations verkvangi uppfærsla 23 (janúar 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

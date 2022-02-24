@@ -2,9 +2,11 @@
 title: Búa til skjöl sem eru með forritsgögnum
 description: 'Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið, „Rafræn skýrslugerð Búa til skjöl með gagnauppfærslum fyrir forrit (Hluti 4: Breyta sniði)“.'
 author: NickSelin
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0166e0afb542baea063f2d563e1eaeb0cdbfd6f62d77898fd9916afbeca90e48
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2643c85e64373e30aab16be686c50cd224490fe
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726238"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684476"
 ---
 # <a name="generate-documents-that-have-application-data"></a>Búa til skjöl sem eru með forritsgögn
 
@@ -76,6 +78,3 @@ Yfirfara myndaða XML-skrá
 6. Lokið síðunni.
 7. Lokið síðunni.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

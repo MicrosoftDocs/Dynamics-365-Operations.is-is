@@ -2,12 +2,15 @@
 title: Rekja þóknanir í sölustað (POS) með notkun söluflokka
 description: Það er algengur háttur smásölu til að rekja sölu eftir samstarfsmanni sem vann með viðskiptavininum — veitti aðstoð, setti upp söluviðauka, krosssölu og vann færsluna.
 author: jblucher
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
@@ -15,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ca77ad5564cc93e9fcf335b5a49548f91c7c13face41fd73477ae4083f78be57
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: afbf69c072ae205e973203d97a5fbca7504ae04f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770910"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413044"
 ---
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Rekja þóknanir í sölustað (POS) með notkun söluflokka
 
@@ -69,7 +72,7 @@ Rakning sölu eftir sölufulltrúa er mæling á söluhæfni starfsmannsins, á 
 
 ## <a name="displaying-the-sales-representative-information-on-the-pos-transactions-screen"></a>Birting upplýsinga sölufulltrúa á færsluskjá POS
 
-Útlit og efni færsluskjás POS er skilgreinanlegr með því að nota á skjá útlit hönnuðar og úthlutuðum útlit afgreiðsluskjás á verslanir, afgreiðslukassar eða starfsmenn. Hægt er að bæta við svæðinu **Sölufulltrúi** á flipanum Línur í kvittunarrúðunni.  Þetta mun birta Kenni tilgreinds söluflokks fyrir hverja línu á færsluskjánum.
+Útlit og efni færsluskjás POS er skilgreinanlegr með því að nota á skjá útlit hönnuðar og úthlutuðum útlit afgreiðsluskjás á verslanir, afgreiðslukassar eða starfsmenn. Hægt er að bæta við svæðinu  **Sölufulltrúi** á flipanum Línur í kvittunarrúðunni.  Þetta mun birta kenni tilgreinds söluflokks fyrir hverja línu á færsluskjánum.
 
 ## <a name="adding-sales-representative-operations-to-pos-button-grids"></a>Bæta við Sölu sölufulltrúa aðgerðir á Sölustað hnappinn hnitanet
 
@@ -77,14 +80,11 @@ POS gerir notendum kleift að skilgreina hnappahnit sem eru höfð með í útli
 
 | Aðgerð                                 | lýsing |
 |-------------------------------------------|-------------|
-| Stilla sölufulltrúa í línu          | Þessi aðgerð POS birtir lista yfir hæfa söluflokka (Kenni: Heiti) fyrir verslunina. Val á söluflokki af listanum mun stilla gildið í núgildandi færslulínu. |
+| Stilla sölufulltrúa í línu          | Þessi aðgerð POS birtir lista yfir hæfa söluflokka (Kenni: Heiti) fyrir verslunina. Val á söluflokki af listanum mun stilla gildið í núgildandi færslulínu. |
 | Hreinsa sölufulltrúa í línu        | Þessi aðgerð POS fjarlægir núgildandi gildi söluflokks úr núgildandi færslulínu. |
-| Stilla sölufulltrúa í færslu   | Þessi aðgerð POS birtir lista yfir hæfa söluflokka (Kenni: Heiti) fyrir verslunina. Val á söluflokki af listanum mun stilla sjálfgildið í núgildandi færslu. Öllum fyrirliggjandi línum án söluflokks verður úthlutað, ásamt öllum línum sem síðar hefur verið bætt við. |
+| Stilla sölufulltrúa í færslu   | Þessi aðgerð POS birtir lista yfir hæfa söluflokka (Kenni: Heiti) fyrir verslunina. Val á söluflokki af listanum mun stilla sjálfgildið í núgildandi færslu. Öllum fyrirliggjandi línum án söluflokks verður úthlutað, ásamt öllum línum sem síðar hefur verið bætt við. |
 | Hreinsa sölufulltrúa í færslu | Þessi aðgerð POS fjarlægir núgildandi sjálfgildi söluflokks úr núgildandi færslu. Það ekki áhrif á þær línur sem þegar eru til í færslunni. |
 
 ## <a name="calculating-commissions"></a>Útreikningur á þóknun
 
-Þóknun er reiknuð fyrir starfsmenn í tilgreindum söluflokkum við bókun uppgjörs eða bókun sölupöntunar. Upphæð þóknunar er ákvörðuð samkvæmt þóknunarhluta starfsmanns, eins og skilgreint er í söluflokki og stillingum útreikninga fyrir tengda þóknun fyrir viðskiptavin og/eða afurðir í færslunni.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Þóknun er reiknuð fyrir starfsmenn í tilgreindum söluflokkum við bókun uppgjörs eða bókun sölupöntunar. Upphæð þóknunar er ákvörðuð samkvæmt þóknunarhluta starfsmanns, eins og skilgreint er í söluflokki og stillingum útreikninga fyrir tengda þóknun fyrir viðskiptavin og/eða afurðir í færslunni.

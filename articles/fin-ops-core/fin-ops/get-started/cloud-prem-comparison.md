@@ -2,9 +2,11 @@
 title: Samanburður á skýi og eiginleikum á staðnum
 description: Efnisatriðið sýnir hvaða eiginleikar eru studdir í skýi og staðbundið.
 author: sericks007
+manager: AnnBe
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 68082ad0ae264b76a852d8d12412af8c4ad917703441c41e67743d1b499a8d73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 309131f0d7390288a46f84b1375bd87922407159
+ms.sourcegitcommit: a017fc0583a894382b959e22511231dd07d4254a
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736223"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959895"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Samanburður á skýi og eiginleikum á staðnum
 
@@ -41,119 +43,119 @@ Upplýsingar um [þróun og stjórnunaraðgerðir](cloud-prem-comparison.md#deve
 | **Svæði**             | **Eiginleiki**                | **Ský** | **Innanhúss** |
 |---------------------|-----------------------------|-----------|-----------------|
 | Samræmi og Vottun        |                                                                                           | Já       | Já             |
-|                                      | SOC 1 gerð 1 vottun                                                                | Já       | Nei              |
-| Gagnastjórnun og samþætting      |                                                                                           | Já       | Já             |
+|                                      | SOC 1 gerð 1 vottun                                                                | Já       | Nr              |
+| Gagnastjórnun og samþætting      |                                                                                           | Já       | Já             
 |                                      | Flytja út gögn í eigin gagnavöruhús                                                    | Já       | Já             |
-|                                      | Virkja útflutning á stigvaxandi uppfærslum á gagnaeiningu                                 | Já       | Já             |
+|                                      | Virkja útflutning á stigvaxandi uppfærslum á gagnaeiningu                                 | Já       | Já              |
 |                                      | Gagnasamþættingar                                                                         | Já       | Já             |
 | Skjalastjórnun                  |                                                                                           | Já       | Já             |
 | Fjármálastjórnun                 |                                                                                           | Já       | Já             |
-| Hjálp                                 |                                                                                           | Já       | Nei              |
+| Hjálp                                 |                                                                                           | Já       | Númer              |
 | Mannauður                      |                                                                                           | Já       | Já             |
 | Greind                         |                                                                                           | Já       | Já             |
 |                                      | Rafræn skýrslugerð (ER)                                                                 | Já       | Já             |
 |                                      | Rafræn skýrslugerð: Samþætting við LCS                                                                  | Já       | Nei              |
 |                                      | Rafræn skýrslugerð: Samþætting við SharePoint                                                           | Já       | Nei              |
 |                                      | Rafræn skýrslugerð: Regluskilgreiningarþjónusta (RCS)                              | Já       | Nei              |
-|                                      | Rafræn skýrslugerð: Notar staðbundið skráarkerfi sem geymslu á skilgreiningum rafrænnar skýrslugerðar sem er aðgengileg í gegnum gagnasafn rafrænnar skýrslugerðar | Nei        | Já             |
-|                                      | Sameining með PowerBI.com                                                              | Já       | Nei              |
-|                                      | Samþætting við PowerBI Desktop                                                          | Nei        | Já             |
-|                                      | Greiningarvinnusvæði                                                                     | Já       | Nei              |
-|                                      | Snjallrekstrarferlar: Ráðleggingar´                                             | Já       | Nei              |
-|                                      | Skrifa Power BI skýrslur með OData með því að nota Power BI skjáborð eða Excel PowerQuery verkfæri    | Já       | Nei              |
-|                                      | SQL Server Reporting Services (SSRS) styður kvörðun út                                 | Já       | Já             |
-|                                      | Telemetry er flutt í skýið                                                   | Já       | Nei              |
+|                                      | Rafræn skýrslugerð: Notar staðbundið skráarkerfi sem geymslu á skilgreiningum rafrænnar skýrslugerðar sem er aðgengileg í gegnum gagnasafn rafrænnar skýrslugerðar | Ekkert        | Já             |
+|                                      | Sameining með PowerBI.com                                                              | Já       | Ekkert              |
+|                                      | Samþætting við PowerBI Desktop                                                          | Ekkert        | Já             |
+|                                      | Greiningarvinnusvæði                                                                     | Já       | Ekkert              |
+|                                      | Snjallrekstrarferlar: Ráðleggingar´                                             | Já       | Ekkert              |
+|                                      | Skrifa Power BI skýrslur með OData með því að nota Power BI skjáborð eða Excel PowerQuery verkfæri    | Já       | Ekkert              |
+|                                      | SQL Server Reporting Services (SSRS) styður kvörðun út                                 | Já       | Nr              |
+|                                      | Telemetry er flutt í skýið                                                   | Já       | Nr              |
 | Lifecycle Services                   |                                                                                           | Já       | Já             |
-|                                      | Skilgreinanlegir rekstrarferlar                                                           | Já       | Nei              |
+|                                      | Skilgreinanlegir rekstrarferlar                                                           | Já       | Nr              |
 | Staðfæringar                        |                                                                                           | Já       | Já             |
 | Fartækjaforrit, vinnusvæði og kerfi |                                                                                           | Já       | Já             |
 | Office-samþætting                   |                                                                                           | Já       | Já             |
 | Fyrirtækisstjórnun          |                                                                                           | Já       | Já             |
 | Laun                              |                                                                                           | Já       | Já             |
-|                                      | Beingreiðsla                                                                            | Já       | Nei              |
+|                                      | Beingreiðsla                                                                            | Já       | Nr              |
 | Verkefnastjórnun og bókhald    |                                                                                           | Já       | Já             |
 | Öryggi                             |                                                                                           | Já       | Já             |
 | Þjónustustjórnun                   |                                                                                           | Já       | Já             |
 | Vefbiðlari                           |                                                                                           | Já       | Já             |
-|                                      | Verkskráning - Vista eða sækja verkskráningar úr BPM-safni                         | Já       | Nei              |
+|                                      | Verkskráning - Vista eða sækja verkskráningar úr BPM-safni                         | Já       | Númer              |
 | Stuðningur                              |                                                                                           | Já       | Já             |
-|                                      | Aðgangur að stuðningi gegnum valmynd fyrir Hjálp og stuðning                                             | Já       | Nei              |
+|                                      | Aðgangur að stuðningi gegnum valmynd fyrir Hjálp og stuðning                                             | Já       | Nr              |
 |                                      | Viðskiptatilvik                                                                           | Já       | Já (annaðhvort er internetsamband áskilið eða sérsniðnar endastöðvar verða að vera innleiddar til að senda/taka á móti viðskiptatilvikum á innra neti)              |
 
 ## <a name="dynamics-365-supply-chain-management"></a>Dynamics 365 Supply Chain Management 
 
 | **Svæði**                | **Eiginleiki**             | **Ský** | **Innanhúss** |
 |-------------------------|-------------------|-----------|-----------------|
-| Eignastýring                     |                                                                                           | Já       | Já             |
+| Eignastýring                     |                                                                                           | Já       | Ekkert |
 | Samræmi og Vottun        |                                                                                           | Já       | Já             |
-|                                      | SOC 1 gerð 1 vottun                                                                | Já       | Nei              |
+|                                      | SOC 1 gerð 1 vottun                                                                | Já       | Ekkert              |
 | Kostnaðarbókhald                      |                                                                                           | Já       | Já             |
-|                                      | Efnispakki fyrir kostnaðarbókhald fyrir Power BI                                                 | Já       | Nei              |
-|                                      | Vinnusvæði kostnaðarbókhalds fyrir fartækjaforrit                                                  | Já       | Nei              |
+|                                      | Efnispakki fyrir kostnaðarbókhald fyrir Power BI                                                 | Já       | Ekkert              |
+|                                      | Vinnusvæði kostnaðarbókhalds fyrir fartækjaforrit                                                  | Já       | Ekkert              |
 | Kostnaðarstýring                      |                                                                                           | Já       | Já             |
-|                                      | Kostnaðarstjórnunar-efnispakki fyrir Power BI                                                 | Já       | Nei              |
+|                                      | Kostnaðarstjórnunar-efnispakki fyrir Power BI                                                 | Já       | Ekkert              |
 | Gagnastjórnun og samþætting      |                                                                                           | Já       | Já             |
-|                                      | Skilgreiningastýrð viðbót                                                            | Já       | Nei              |
+|                                      | Skilgreiningastýrð viðbót                                                            | Já       | Númer              |
 |                                      | Flytja út gögn í eigin gagnavöruhús                                                    | Já       | Já             |
-|                                      | Virkja útflutning á stigvaxandi uppfærslum á gagnaeiningu                                 | Já       | Já             |
+|                                      | Virkja útflutning á stigvaxandi uppfærslum á gagnaeiningu                                 | Já       | Já              |
 |                                      | Gagnasamþættingar                                                                         | Já       | Já             |
 | Skjalastjórnun                  |                                                                                           | Já       | Já             |
-| Hjálp                                 |                                                                                           | Já       | Nei              |
+| Hjálp                                 |                                                                                           | Já       | Nr              |
 | Greind                         |                                                                                           | Já       | Já             |
 |                                      | Rafræn skýrslugerð (ER)                                                                 | Já       | Já             |
 |                                      | Rafræn skýrslugerð: Samþætting við LCS                                                                  | Já       | Nei              |
 |                                      | Rafræn skýrslugerð: Samþætting við SharePoint                                                           | Já       | Nei              |
 |                                      | Rafræn skýrslugerð: Regluskilgreiningarþjónusta (RCS)                              | Já       | Nei              |
-|                                      | Rafræn skýrslugerð: Notar staðbundið skráarkerfi sem geymslu á skilgreiningum rafrænnar skýrslugerðar sem er aðgengileg í gegnum gagnasafn rafrænnar skýrslugerðar | Nei        | Já             |
-|                                      | Sameining með PowerBI.com                                                              | Já       | Nei              |
-|                                      | Samþætting við PowerBI Desktop                                                          | Nei        | Já             |
-|                                      | Greiningarvinnusvæði                                                                     | Já       | Nei              |
-|                                      | Snjallrekstrarferlar: Ráðleggingar´                                             | Já       | Nei              |
-|                                      | Skrifa Power BI skýrslur með OData með því að nota Power BI skjáborð eða Excel PowerQuery verkfæri    | Já       | Nei              |
-|                                      | SQL Server Reporting Services (SSRS) styður kvörðun út                                 | Já       | Já             |
-|                                      | Telemetry er flutt í skýið                                                   | Já       | Nei              |
+|                                      | Rafræn skýrslugerð: Notar staðbundið skráarkerfi sem geymslu á skilgreiningum rafrænnar skýrslugerðar sem er aðgengileg í gegnum gagnasafn rafrænnar skýrslugerðar | Ekkert        | Já             |
+|                                      | Sameining með PowerBI.com                                                              | Já       | Ekkert              |
+|                                      | Samþætting við PowerBI Desktop                                                          | Ekkert        | Já             |
+|                                      | Greiningarvinnusvæði                                                                     | Já       | Ekkert              |
+|                                      | Snjallrekstrarferlar: Ráðleggingar´                                             | Já       | Ekkert              |
+|                                      | Skrifa Power BI skýrslur með OData með því að nota Power BI skjáborð eða Excel PowerQuery verkfæri    | Já       | Ekkert              |
+|                                      | SQL Server Reporting Services (SSRS) styður kvörðun út                                 | Já       | Númer              |
+|                                      | Telemetry er flutt í skýið                                                   | Já       | Númer              |
 | Birgðir                 |                                                                                           | Já       | Já             |
 | Lifecycle Services                   |                                                                                           | Já       | Já             |
-|                                      | Skilgreinanlegir rekstrarferlar                                                           | Já       | Nei              |
+|                                      | Skilgreinanlegir rekstrarferlar                                                           | Já       | Númer              |
 | Staðfæringar                        |                                                                                           | Já       | Já             |
 | Framleiðsla                        |                                                                                           | Já       | Já             |
 | Aðaláætlanagerð og spár      |                                                                                           | Já       | Já             |
-| Fínstilling áætlanagerðar                |                                                                                           | Já       | Nei              |
+| Fínstilling áætlanagerðar                |                                                                                           | Já       | Ekkert              |
 | Fartækjaforrit, vinnusvæði og kerfi |                                                                                           | Já       | Já             |
 | Office-samþætting                   |                                                                                           | Já       | Já             |
 | Fyrirtækisstjórnun          |                                                                                           | Já       | Já             |
 | Innkaup og aðföng             |                                                                                           | Já       | Já             |
-|                                      | Aðgangur að ytri vörulista úr innkaupabeiðni                                   | Já       | Nei              |
-|                                      | Eyðslugreining innkaupa Power BI skýrslur                                                  | Já       | Nei              |
+|                                      | Aðgangur að ytri vörulista úr innkaupabeiðni                                   | Já       | Ekkert              |
+|                                      | Eyðslugreining innkaupa Power BI skýrslur                                                  | Já       | Ekkert              |
 | Vöruupplýsingastjórnun       |                                                                                           | Já       | Já             |
 | Afurðarsniðmát                  |                                                                                           | Já       | Já             |
 | Framleiðsla                           |                                                                                           | Já       | Já             |
-|                                      | Framleiðsluafköst Power BI skýrslur                                                   | Já       | Nei              |
+|                                      | Framleiðsluafköst Power BI skýrslur                                                   | Já       | Ekkert              |
 | Verkefnastjórnun og bókhald    |                                                                                           | Já       | Já             |
 | Sala                                |                                                                                           | Já       | Já             |
-|                                      | Sölu- og arðsemisframmistaða Power BI skýrslur                                      | Já       | Nei              |
+|                                      | Sölu- og arðsemisframmistaða Power BI skýrslur                                      | Já       | Ekkert              |
 | Öryggi                             |                                                                                           | Já       | Já             |
 | Þjónustustjórnun                   |                                                                                           | Já       | Já             |
 | Stjórnun aðfangakeðju              |                                                                                           | Já       | Já             |
 | Flutningsstjórnun            |                                                                                           | Já       | Já             |
-| Samstarf lánardrottna                 |                                                                                           | Já       | Nei              |
+| Samstarf lánardrottna                 |                                                                                           | Já       | Númer              |
 | Vöruhúsakerfi                 |                                                                                           | Já       | Já             |
 |                                      | Fartækjaforrit fyrir vöruhús                                                                      | Já       | Já             |
-|                                      | Vörhús Power BI skýrslur                                                              | Já       | Nei              |
+|                                      | Vörhús Power BI skýrslur                                                              | Já       | Ekkert              |
 | Vefbiðlari                           |                                                                                           | Já       | Já             |
-|                                      | Verkskráning - Vista eða sækja verkskráningar úr BPM-safni                         | Já       | Nei              |
+|                                      | Verkskráning - Vista eða sækja verkskráningar úr BPM-safni                         | Já       | Númer              |
 | Stuðningur                              |                                                                                           | Já       | Já             |
-|                                      | Aðgangur að stuðningi gegnum valmynd fyrir Hjálp og stuðning                                             | Já       | Nei              |
+|                                      | Aðgangur að stuðningi gegnum valmynd fyrir Hjálp og stuðning                                             | Já       | Nr              |
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Til að sjá lista yfir eiginleika sem eru tiltækir í uppsetningu á staðnum skal skoða [Commerce-eiginleikar sem eru í boði í uppsetningu á staðnum](../../../commerce/retail-onprem.md).
+Til að sjá lista yfir eiginleika sem eru tiltækir í uppsetningu á staðnum skal skoða [Commerce-eiginleikar sem eru í boði í uppsetningu á staðnum](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 
 | **Svæði**         | **Eiginleiki**         | **Ský** | **Innanhúss** |
 |------------------|---------------------|-----------|-----------------|
-| Öll svæði Mannauðs | Allir eiginleikar Mannauðs | Já       | Nei              |
+| Öll svæði Mannauðs | Allir eiginleikar Mannauðs | Já       | Nr              |
 
 ## <a name="development-and-administration-features"></a>Þróunar- og stjórnunareiginleikar
 
@@ -164,16 +166,13 @@ Til að sjá lista yfir eiginleika sem eru tiltækir í uppsetningu á staðnum 
 | Eftirlit og fjarmælingar   |                                           | Já       | Já             |
 | Samhæfi kerfa     |                                           | Já       | Já             |
 | Þjónusta                  |                                           | Já       | Já             |
-|                            | Þjónustuumhverfi                    | Já       | Nei              |
+|                            | Þjónustuumhverfi                    | Já       | Ekkert              |
 | Rakningarþáttari               |                                           | Já       | Já             |
 | PerfTimer                  |                                           | Já       | Já\*           |
 | Uppfæra                    |                                           | Já       | Já             |
-|                            | Uppfæra                                   | Já       | Nei              |
-|                            | Uppfærsla og stuðningur fyrir fyrri útgáfur | Já       | Nei              |
+|                            | Uppfæra                                   | Já       | Ekkert              |
+|                            | Uppfærsla og stuðningur fyrir fyrri útgáfur | Já       | Ekkert              |
 | Visual Studio þróun  |                                           | Já       | Já             |
 
 \* Í umhverfi á staðnum sýnir PerfTimer aðeins niðurstöður fyrir biðlarann.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

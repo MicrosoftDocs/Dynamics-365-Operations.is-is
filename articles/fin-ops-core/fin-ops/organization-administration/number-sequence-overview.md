@@ -1,28 +1,28 @@
 ---
 title: Yfirlit númeraraða
 description: Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kennimerki fyrir skýrslur aðalgagna og færslur sem krefjast kennimerkja.
-author: SunilGarg
+author: MargoC
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceConfiguration
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom:
-- "15461"
-- intro-internal
+ms.custom: 15461
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
-ms.author: sunilg
+ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48e395cc3e3ccd0f93ab9523add455ef16f612ba
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 41a3beca0fb373ba985a2d01dd15cdc5a60e2919
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985682"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797071"
 ---
 # <a name="number-sequences-overview"></a>Yfirlit númeraraða
 
@@ -115,6 +115,3 @@ Ef ekki eru fyrirliggjandi lagaskilyrði um að notaðar séu samfelldar númera
 Ef rafmagnsleysi kemur upp, villa forrits eða önnur óvænt óhöpp getur kerfið ekki endurunnið númer sjálfkrafa fyrir samfelldri númeraröð. Hægt er að keyra tiltekt handvirkt eða sjálfvirkt til að endurheimta týnd númer.
 
 Íhugaðu vandlega notkun þjóns þegar hreinsunarferli er áætlað. Mælt er með því að tiltektin sé keyrð sem runuvinnsla utan háannatíma.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

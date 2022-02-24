@@ -80,6 +80,3 @@ Frestur til að uppfæra í Common Data Service rennur brátt út. Skráðu þig
 
 ###  <a name="platform-update-24-for-finance-and-operations"></a>Uppfærsla 24 fyrir verkvang fyrir Finance and Operations
 Frekari upplýsingar um verkvangsuppfærslu 24 fyrir Finance and Operations er að finna í [Hvað er nýtt og hvað hefur breyst í Finance and Operations verkvangsuppfærslu 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

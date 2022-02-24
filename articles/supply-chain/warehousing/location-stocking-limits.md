@@ -2,23 +2,26 @@
 title: Birgðamörk staðsetningar
 description: Þetta efnisatriði lýsir virkni fyrir birgðamörk staðsetningar.
 author: perlynne
+manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 239b9fa8d8e34a92d453d3387881cff7b0a11f28a3c3b1e19891ea3bd78c3d7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 208662f38b06b1f230bdde5247946a9fefd57cea
+ms.sourcegitcommit: d2dea9ce480f35d0c0b10615c18862695e107d55
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714163"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "4607280"
 ---
 # <a name="location-stocking-limits"></a>Birgðamörk staðsetningar
 
@@ -81,7 +84,7 @@ Mismunandi mælieiningar afurðarafbrigða eru settar upp fyrir afurðirnar. Þe
 
 Þú munt fyrst fá magn af *4* af einingu *PL* í stærðinni *S*, og yfirfara staðsetningarlínur fyrir vinnuna sem er stofnuð. Þú munt síðan fá magn af *4* af einingu *PL* í stærðinni *L* og yfirfara staðsetningarlínustaðsetningar fyrir vinnuna sem er stofnuð.
 
-1. Í farsímaforrit vöruhúsakerfis skal skrá sig inn með því að nota *24* sem notandakenni og *1* sem aðgangsorð.
+1. Í vöruhúsaforritinu skal skrá sig inn með því að nota *24* sem notandakenni og *1* sem aðgangsorð.
 1. Veljið **Innleið** \> **Móttaka innkaupa**.
 1. Taka á móti *4* *stk* af vörunúmeri *D0013* í stærðinni *L*.
 1. Yfirfara vinnu frágangsvinnu sem var stofnuð. Þú ættir að sjá eftirfarandi niðurstöður:
@@ -101,6 +104,3 @@ Til að útskýra þessa bilun þarf að skilja valskilyrðin fyrir birgðamörk
 
 > [!NOTE]
 > Ekki er hægt að nota birgðatakmarkanir staðsetningar til að hafa stjórnun, til dæmis, áfyllingu á vörum sem hafa annað magn á sama stað. Í þessu tilvikum skal nota *áfyllingarsniðmát*.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

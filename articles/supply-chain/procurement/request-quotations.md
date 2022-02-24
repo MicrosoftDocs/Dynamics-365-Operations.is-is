@@ -1,28 +1,28 @@
 ---
 title: Yfirlit yfir beiðnir um tilboð
 description: Í þessu efnisatriði er að finna yfirlit yfir beiðnir um tilboð (BUT). Fyrirtæki gefa út beiðni um tilboð (BUT) þegar þau vilja taka á móti tilboðum frá mörgum lánardrottnum fyrir þær vörur eða þá þjónustu sem þau þurfa að kaupa inn.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 10/05/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "2154"
-- intro-internal
+ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7338897feb2c3a28350d366f26eecc56f8eeb3fb
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983393"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016932"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Yfirlit yfir beiðnir um tilboð
 
@@ -39,13 +39,13 @@ BUT ferlið samanstendur af eftirfarandi verkefnum:
 
 Eftirfarandi skýringarmynd veitir yfirlit yfir BUT ferlið.
 
-[![BUT-ferli.](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
+[![RFQ-ferli](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
 Hægt er að stofna BUT-verk úr áætluðum pöntunum, úr innkaupabeiðni eða úr handvirkri færslu. BUT tilfellið er grunnskjalið sem er notað til að gefa út BUT á hvern lánardrottin.
 
 Eftir að búið er að útbúa BUT-verk og bæta við lánardrottnum skal velja **Senda** (**Senda og birta** fyrir hið opinbera) á BUT-verkinu. BUT færslubók er mynduð fyrir hvern lánardrottinn sem BUT er send til. Hægt er að skilgreina prentvalkost fyrir Senda aðgerðina þannig að hún annað hvort prentar skýrslu fyrir hvern lánardrottin í safn eða sendir skýrslu á tölvupóstfang hvers lánardrottins. Þar að auki er hægt að nota BUT færslubók fyrir hvern lánardrottinn til að mynda skýrslu sem hægt er að senda eða endursenda seinna til lánardrottins. Einnig er hægt að skilgreina aðgerðina Senda til að mynda svarblað sem lánardrottinn getur fyllt út.
 
-Þetta efni fjallar um ferlið við meðhöndlun BUT þegar lánardrottinn samstarf er ekki notað. Ef kerfið þitt er uppsett fyrir samstarf lánardrottna, geta lánardrottnar fært kauptilboð beint inn í Supply Chain Management. Nánari upplýsingar er að finna í [Samstarf lánardrottna við viðskiptavini](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) og [Samstarf lánardrottna við ytri lánardrottna](vendor-collaboration-work-external-vendors.md).
+Þetta efni fjallar um ferlið við meðhöndlun BUT þegar lánardrottinn samstarf er ekki notað. Ef kerfið þitt er uppsett fyrir samstarf lánardrottna, geta lánardrottnar fært kauptilboð beint inn í Supply Chain Management. Nánari upplýsingar er að finna í [Samstarf lánardrottna við viðskiptavini](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) og [Samstarf lánardrottna við ytri lánardrottna](vendor-collaboration-work-external-vendors.md).
 
 Ef þarf að lagfæra BUT þegar búið er að senda hana, er hægt að endursenda BUT til lánardrottna þegar því hefur verið lokið með því að nota tvær lagfæringaraðgerðir: Stofna og Fullvinna.
 
@@ -80,21 +80,21 @@ Velja sniðmát fyrir tilkynningu í tölvupósti sem er sent til lánardrottna 
 - %Ástæða fyrir ógildingu tilboðs%
 - %Ástæða breytinga%
 - %Breytingar gerðar af%
-- %Company%
+- %Fyrirtæki%
 - %BUT mál heiti%
 - %Lokadagur Tími%
-- %Date%
+- % Dagsetning%
 
-%Ástæða skila kauptilboðs% og %Ástæða fyrir breytingum% tákn er skipt út fyrir texta sem innkaupastjóri getur fært inn þegar hann lýkur við breytingar í **Breytingar** leiðsagnarforritinu. Gildi fyrir %Breytingar gerðar af% og %Company% tákn eru sjálfkrafa tekin úr tilboðsbeiðni. %Date% tákninu er skipt út fyrir núgildandi dagsetningu.
+% Ástæða skila kauptilboðs % og % Ástæða fyrir breytingum % tákn er skipt út fyrir texta sem innkaupastjóri getur fært inn þegar hann eða hún lýkur við breytingar í **Breytingar** leiðsagnarforritinu. Gildi fyrir % Breytingar gerðar af % og % Fyrirtækis % tákn eru sjálfkrafa tekin úr BUT. %Date% tákninu er skipt út fyrir núgildandi dagsetningu.
 
 Ef á að hætta í BUT eftir að það hefur verið sent, er hægt að gera það frá RFQ-verkinu. Fyrir afturköllun á sniðmáti fyrir tölvupóst er þess krafist að senda tilkynningu afturköllunar til tengiliðs lánardrottins. Sniðmátið verður að vera valið á síðunni **Færibreytur innkaupa og aðfanga**. Þegar sniðmát er stofnað getur það innihaldið eftirfarandi endurnýjunartákn:
 
 - %Ástæða afturköllunar%
 - %BUT mál%
 - %BUT afturkallað af%
-- %Company%
+- %Fyrirtæki%
 - %BUT mál heiti%
-- %Date%
+- % Dagsetning%
 
 %Ástæða afturköllunar kauptilboðs% tákn er skipt út fyrir texta sem innkaupastjóri getur fært inn í **Afturköllun** leiðsagnarforritinu. %Date% tákninu er skipt út fyrir núgildandi dagsetningu.
 
@@ -167,7 +167,7 @@ Ef notað er meira takmarkandi lagfæringarferli þarf að smella á **Stofna** 
 
 Ef grunnstilling þín felur í sér minna takmarkandi lagfæringarferli þarf ekki að velja **Stofna** áður en hægt er að breyta reitum BUT-máls sem hefur þegar verið send. Hins vegar þarf að bæta athugasemd um lagfæringu handvirkt við BUT og senda málið aftur. Hafðu í huga að þessi nálgun er aðeins hægt að nota ef ekkert svaranna (tilboðin) hefur verið breytt. Ef þú hefur slegið inn svar og það er í **Móttekið** ástandi er **Senda** hnappurinn ekki tiltækur. Í þessu tilfelli verður þú að velja **Búa til** og síðan **Fullvinna**, eins og þú verður að gera í meira takmarkandi ferli. Svarið er síðan endurstillt til að endurspegla breytingar á BUT-málinu.
 
-Ef lánardrottnar nota lánardrottna samstarfsviðmótið til að slá inn tilboð verður þú alltaf að nota lagfæringarferlið til að tilkynna lánardrottnum um breytingar á BUT-málinu. Þetta ferli hjálpar til við að koma í veg fyrir aðstæður þar sem lánardrottnar bjóða í úrelt BUT-verk á meðan tilboð þeirra er í vinnslu. Nánari upplýsingar um samstarf lánardrottna er að finna í [Samstarf lánardrottna við utanaðkomandi lánardrottna](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Ef lánardrottnar nota lánardrottna samstarfsviðmótið til að slá inn tilboð verður þú alltaf að nota lagfæringarferlið til að tilkynna lánardrottnum um breytingar á BUT-málinu. Þetta ferli hjálpar til við að koma í veg fyrir aðstæður þar sem lánardrottnar bjóða í úrelt BUT-verk á meðan tilboð þeirra er í vinnslu. Nánari upplýsingar um samstarf lánardrottna er að finna í [Samstarf lánardrottna við utanaðkomandi lánardrottna](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Ef þú vilt bjóða fleiri lánardrottnum að bjóða, og engar breytingar hafa verið gerðar á BUT-málinu, getur þú notað **Senda** hnappinn. Söluaðilarnir sem þú bættir við munu birtast á síðunni **Senda** og fá tölvupóstboðið.
 
@@ -246,6 +246,3 @@ Eftirfarandi tafla sýnir stöðubreytingar BUT eftir því sem kauptilboð eru 
 | Samþykkja eitt af tilboðunum. (eða að minnsta kosti ein lína) |                          Móttekið                           |                           Samþ.                           |                    Móttekið                    |                    Samþ.                     |                   Móttekið                   |                   Samþ.                    |
 |           Hafna öllum öðrum kauptilboðum.           |                          Hafnað                           |                           Samþ.                           |                    Hafnað                    |                    Samþ.                     |                   Hafnað                   |                   Samþ.                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

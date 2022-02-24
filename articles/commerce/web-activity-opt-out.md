@@ -2,29 +2,34 @@
 title: Afþakka söfnun aðgerðatilvika á vef
 description: Þetta efnisatriði útskýrir hvernig hægt er að leyfa gestum á vefsvæði notanda afþakka söfnun vefnotkunar í Microsoft Dynamics 365 Commerce.
 author: aamiral
+manager: AnnBe
 ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: sericks
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d71a184b541f243ccc23914ac2e7c663e5ba61be0a27cf8d41e368fe6a384b9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4b0e48307527a8fea729d8dfdcdbc6337be0faf1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729831"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413178"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>Afþakka söfnun aðgerðatilvika á vef
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig hægt er að leyfa viðskiptavinum afþakka söfnun vefnotkunar í Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Dynamics 365 Commerce gerir stjórnendum vefsvæða kleift að greina vefnotkun notenda þeirra á vefsvæðum rafrænna viðskipta. Á þann hátt er hægt að skilja hvernig vefsvæði þeirra eru notuð og þeir geta fínstillt vefsvæðin til að veita bætta notendaupplifun og uppfylla markmið fyrirtækis.
 
@@ -40,7 +45,7 @@ Stjórnendur hafa þrjár leiðir til að innleiða afþökkunarupplifun.
 1. Í HQ-biðlaranum, á síðunni **Allir viðskiptavinir**, skal leita að og velja viðskiptavin.
 1. Á upplýsingasíðu viðskiptavinar, á **Retail** flýtiflipa, í **Persónuvernd**-hluta skal stilla **Ekki rekja vefnotkun** á **Já**.
 
-    ![Persónuverndarstillingar.](media/Disablepersonalizationpart2.png)
+    ![Öryggisstillingar](media/Disablepersonalizationpart2.png)
 
 1. Veljið **Vista** og lokið síðan skjámyndinni.
 
@@ -51,6 +56,3 @@ Stjórnendur geta leyft sannvottuðum notendum að afþakka söfnun vefnotkunar 
 ### <a name="custom-extensions"></a>Sérsniðnar viðbætur
 
 Stjórnendur geta búið til sínar eigin viðbætur til að stjórna afþökkunarupplifuninni fyrir notendur. Fyrir frekari upplýsingar, sjá [Hringdu í smáforritaskil smásölumiðlara](e-commerce-extensibility/call-retail-server-apis.md) og [Stækkanleiki á netinu](e-commerce-extensibility/overview.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

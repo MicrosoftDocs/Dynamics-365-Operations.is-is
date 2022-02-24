@@ -1,33 +1,37 @@
 ---
 title: Yfirlit hættulegra efna
 description: Í þessu efnisatriði er að finna yfirlit yfir eiginleika sem tengjast meðhöndlun og skráningu hættulegra efna við afurðarupplýsingastjórnun og vöruhúsastjórnun.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 06/10/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.11
+ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986277"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430086"
 ---
 # <a name="hazardous-materials-overview"></a>Yfirlit hættulegra efna
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Til að fylgja eftir reglum um sendingar og flutninga verða fyrirtæki sem senda efni sem flokkast sem hættulegur varningur að vera með aukalega pappírsvinnu með sendingum sínum. Eiginleiki hættulegra efna gerir viðskiptavinum kleift að geyma upplýsingar sem tengjast losuðum vörum. Þessar upplýsingar er síðan hægt að nota til að undirbúa flutningsgögn. Fyrirtæki sem sendir hættulegan varning verður að hafa eigin ferla og verklagsreglur til að stjórna sendingarferlinu. Microsoft Dynamics 365 Supply Chain Management er bara verkfæri sem getur hjálpað til við að búa til nauðsynleg skjöl.
 
 Eftirfarandi skýringarmynd sýnir skrefin sem þarf til að setja upp og nota eiginleika hættulegra efna.
 
-![Uppsetning og notkun á eiginleika hættulegra efna.](media/hazmat-overview.png "Uppsetning og notkun á eiginleika hættulegra efna")
+![Uppsetning og notkun á eiginleika hættulegra efna](media/hazmat-overview.png "Uppsetning og notkun á eiginleika hættulegra efna")
 
 Eiginleiki hættulegra efna er settur upp í afurðaupplýsingastjórnun og býður upp á skjöl sem hægt er að prenta í gegnum vöruhúsakerfi. Almennt séð eru þessi svæði þar af leiðandi tvö helstu svæðin þar sem þú ferð yfir, setur upp og notar þessa virkni eiginleikans:
 
@@ -58,6 +62,3 @@ Frekari upplýsingar um hvernig setja á upp reglugerðir og gildi fyrir hættul
 ## <a name="warehouse-management"></a>Vöruhúsakerfi
 
 Þegar sending er undirbúin í vöruhúsakerfinu er hægt að prenta út margar nýjar skýrslur sem nota upplýsingarnar sem eru settar upp í afurðaupplýsingastjórnun. Frekari upplýsingar um tiltækar skýrslur og hvernig á að nota þær er að finna í [Fyrirspurnir og skýrslur um hættuleg efni](hazmat-reports.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

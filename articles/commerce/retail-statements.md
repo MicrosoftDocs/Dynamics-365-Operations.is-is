@@ -2,13 +2,16 @@
 title: Smásöluuppgjör
 description: Þetta efnisatriði lýsir því hvernig uppgjör eru búin til og bókuð.
 author: ashishmsft
+manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 85183
 ms.assetid: df9c62a2-6f13-4a08-bdca-07d041172c1b
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 64b6fbda9f0396eb4ee6e2e248941f1429d4485278180d5c70dac6dd837a4537
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4409811d2ef60174a316db10307dc7af4697398c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738697"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413278"
 ---
 # <a name="retail-statements"></a>Smásöluuppgjör
 
@@ -31,7 +34,7 @@ ms.locfileid: "6738697"
 
 Eftirfarandi skýringarmynd sýnir uppgjörsbókunarferlið. Í þessu ferli eru færslur sem eru skráðar á sölustað sendar til biðlara með því að nota verkraðara Commerce. Eftir að biðlari tekur við færslunum, er hægt að stofna, reikna og bóka færsluuppgjör fyrir verslunina.
 
-[![Uppgjörsbókunarferli.](./media/retail-statements.png)](./media/retail-statements.png)
+[![Uppgjörsbókunarferli](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>Stofna og bóka uppgjör
 
@@ -85,6 +88,3 @@ Ef gátreiturinn **Bóka sem viðskiptadag** er hreinsaður fyrir sömu verslun,
 - Sala þar sem viðskiptavinur var bætt við færslu í POS mynda sérstaka sölupantanir og reikninga, einn fyrir hvert einkvæmt kenni viðskiptavinar.
 
 Greiðslubækur eru sjálfkrafa stofnaðar fyrir greiðslur í uppgjörinu og á birgðirnar eru uppfærðar fyrir verslun á sölustaður.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

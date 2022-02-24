@@ -1,136 +1,131 @@
 ---
 title: Dreifa spurningalistum með áætlanagerð
 description: Röðun spurningalista er hægt að nota til að áætla og dreifa spurningalistum á marga svarendur.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMKnowledgeCollectorPlanningTable, KMKnowledgeCollectorPlanningMulti, SysQueryForm, HcmPersonLookup, KMKnowledgeCollectorPlanning, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4885c11f0cb508edb8ebf3aef14748e819113264
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: d233938fe553dbd7da7fcc5477097fd885665102
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067403"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419086"
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Dreifa spurningalistum með áætlanagerð
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Röðun spurningalista er hægt að nota til að áætla og dreifa spurningalistum á marga svarendur. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
 ## <a name="create-a-questionnaire-schedule"></a>Stofna áætlun spurningalista
 
-1. Fara til **Spurningalisti** > **Dreifa** > **Áætlanir spurningalista**.
+1. Fara í Spurningalista > Dreifa > Áætlanir Spurningalista.
 
-2. Smellt er á **Nýtt**.
+2. Smellið á „Nýtt“.
 
-3. Í **Tímasetningar** reit, sláðu inn gildi.
+3. Í reitinn Áætlun skal slá inn gildi.
 
-4. Í reitinn **Lýsing** skal slá inn gildi.
-    * Stilltu áætlunina á **Nafnlaus** ef skrá ætti svör án nöfnum tengdum svarinu.  
+4. Sláið inn gildi í reitnum „Lýsing“.
+    * Stilla áætlun á Nafnlaus ef það á að skrá svörin án þess að tengja þau nafni.  
     * Leyfa nafnlausar niðurstöður verður fyrst að setja upp í færibreytum Mannauður.  
 
-5. Í **Tegund** reit, veldu áætlanagerð.  Í þessu dæmi munum við nota **Ánægja** tegund.
+5. Í reitnum Tegund er gerð áætlunar valin.  Í þessu dæmi munum við nota Ánægju-gerð.
 
 6. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 
 7. Í listanum skal smella á tengilinn í valinni línu.
 
-8. í retinum **Dagsetning** ritarðu dagsetningu.
+8. Dagsetning er rituð í reitinn Dagetning.
 
-9. Stækkaðu **Tölvupóstur fyrir sjálfsafgreiðslu starfsmanna** kafla.
+9. Stækka hlutann Tölvupóstur fyrir sjálfsafgreiðslu starfsmanna.
 
-10. Í reitinn **Efni** skal slá inn gildi.
+10. Í reitinn Efni skal slá inn gildi.
 
     * Dæmi: Tiltæka Spurningalista  
 
-11. Í **Texti** reit, sláðu inn meginmál tölvupóstskeytisins. Athugið að hægt er að neyta breytuna til að skipta út gildum í kerfinu.
+11. Meginmál tölvupóstskilaboða skal slá inn í svæðið Texti. Athugið að hægt er að neyta breytuna til að skipta út gildum í kerfinu.
 
-    * Dæmi: Hæ %P%, Vinsamlegast skráðu þig inn í Sjálfsafgreiðsla Starfsmanns til að ljúka spurningalistanum heilbrigði Vinnuafls.  Contoso  
+    * Dæmi: Kæri/kæra %P%, vinsamlegast skráðu þig inn í Sjálfsafgreiðsla Starfsmanns til að ljúka spurningalistanum heilbrigði Vinnuafls.  Contoso  
 
-12. Smelltu á **Vista**.
+12. Smellið á „Vista“.
 
 ## <a name="use-the-setup-details-to-select-the-questionnaires-to-be-answered-as-well-as-any-queries-to-use-to-select-respondents"></a>Nota upplýsingar um Uppsetningu til að velja spurningalista sem á að svara auk hvaða fyrirspurnir á að nota til að velja svarendur.
 
-1. Smellur **Upplýsingar um uppsetningu**.
+1. Smellið á Upplýsingar um uppsetningu.
 
 2. Í listanum skal finna spurningalista til að nota til að finna svarendur fyrir spurningalistann.
 
     * Dæmi: Starfsmenn  
 
-3. Smellur **Skoða eða breyta fyrirspurn** til að velja tiltekið fólk eða stilla fyrirspurnina til að finna fólk sem passar við ákveðin skilyrði.
+3. Smellið á Skoða eða breyta fyrirspurn til að velja ákveðna einstaklinga eða lagfæra fyrirspurnina til að finna einstaklinga sem passa við sérstök skilyrði.
 
     * Athugið að allir svarendur verður einnig að vera notendur kerfisins.  
 
-4. Í listanum, merktu línuna fyrir Persónu.
+4. Í listanum skal merkja línu fyrir einstakling
 
-5. Í reitinn **Skilyrði** skal slá inn eða velja gildi.
+5. Í reitinn Skilyrði skal slá inn eða veldu gildi.
 
     * Velja Julia Funderburk  
 
 6. Veldu Julia Funderburk í listanum.
 
-7. Smellt er á **OK**.
+7. Smellið á „Í lagi“.
 
-8. Smelltu á **Spurningalistar** flipa.
+8. Smellið á flipann Spurningalisti.
 
-9. Í trénu skaltu stækka hnútinn fyrir gerð spurningalista **Ánægjukönnun**.
+9. Í trénu, útvíkkið hnútinn fyrir gerð spurningalista af gerðini ánægjukönnun.
 
 10. Í trénu skal mekja við "heilbrigðisskoðun vinnuafls".
 
-11. Smellt er á **OK**.
+11. Smellið á „Í lagi“.
 
-12. Smellur **Fyrirhugaður svarfundur**.
+12. Smellið á Áætluð svarseta.
 
-    * Athugið að **Fyrirhugaðir svartímar** hafa verið búnar til fyrir hvern valinn/fyrirspurður notanda.  
+    * Athugið að Áætlaðar svarsetur hafa verið stofnaðar fyrir hvern notanda sem hefur verið valinn eða fengið fyrirspurn.  
 
 13. Lokið síðunni.
 
 ## <a name="start-the-questionnaire-schedule-in-order-to-make-the-questionnaire-available-for-respondents-to-complete"></a>Hefja áætlun spurningalista til að gera spurningalista tiltæka fyrir svarendur til að ljúka.
 
-1. Smelltu á **Aðgerðir**.
+1. Smellið á Aðgerðir.
 
-2. Smellt er á **Byrja**.
+2. Smellið á „Byrja“.
 
-3. Smellt er á **OK**.
+3. Smellið á „Í lagi“.
 
 ## <a name="send-the-email-to-inform-respondents-of-the-available-questionnaire"></a>Senda tölvupóst til að tilkynna svarendum um tiltæka spurningalista.
 
-1. Smelltu á **Aðgerðir**.
+1. Smellið á Aðgerðir.
 
-2. Smellur **Senda tölvupóst**.
+2. Smellið á Senda tölvupóst.
 
-3. Smelltu á **Hætta við**.
+3. Smellið á Hætta við.
 
 ## <a name="use-planned-answer-sessions-to-monitor-who-needs-to-complete-the-questionnaire"></a>Notið Áætlaðar svarsetur til að fylgjast með hver þarf að ljúka spurningalistanum.
 
-1. Smellur **Fyrirhugaður svarfundur**.
+1. Smellið á Áætluð svarseta.
 
     * Eyðið öllum eftirstandandi áætluðum svarsetum þegar er verið að ljúka áætlaðri svarsetu.  
 
-2. Smellið á **Eyða**.
+2. Smellið á Eyða.
 
-3. Smellið á **Já**.
+3. Smella á Já.
 
 4. Lokið síðunni.
 
 ## <a name="end-the-schedule-when-all-respondents-have-completed-the-questionnaire-andor-all-remaining-planned-answer-sessions-have-been-deleted"></a>Þegar tekið hefur verið á móti öllum svörunum er hægt að ljúka áætlun og/eða þegar búið er að eyða öllum eftirstandandi svarsetum.
 
-1. Smelltu á **Aðgerðir**.
-2. Smellur **Enda**.
-3. Smellt er á **OK**.
+1. Smellið á Aðgerðir.
+2. Smellt er á Ljúka.
+3. Smellið á „Í lagi“.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

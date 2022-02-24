@@ -1,50 +1,47 @@
 ---
-title: Hjálparkerfi (inniheldur myndband)
-description: Þetta efni veitir yfirlit yfir hjálparkerfið fyrir Finance and Operations forrit.
+title: Hjálparkerfi
+description: Í þessu efnisatriði er að finna yfirlit yfir hjálparkerfið fyrir Finance and Operations-forrit.
 author: edupont04
-ms.date: 07/20/2021
-ms.topic: overview
+manager: AnnBe
+ms.date: 05/11/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.custom:
-- "16381"
-- intro-internal
+ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070502"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695140"
 ---
 # <a name="help-system"></a>Hjálparkerfi
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 Notendur eftirfarandi forrita geta fengið aðgang að samhengishjálp og öðru efni sem byggist á sama hjálparkerfi:
 
-- Dynamics 365 Commerce
+- Microsoft Dynamics 365 Commerce
 - Dynamics 365 Finance
 - Dynamics 365 Human Resources
 - Dynamics 365 Supply Chain Management
 
 Í öllum þessum forritum er hægt að fá aðgang að hjálp fyrir tiltekna vöru af svæðinu **Hjálp**.
 
-![Hjálparsvæði.](./media/help-pane-ops-help.png)
+![Hjálparsvæði](./media/help-pane-ops-help.png)
 
 ## <a name="help-on-docsmicrosoftcom"></a>Hjálp á docs.microsoft.com
 
-Svæðið docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) er sjálfgefinn uppruni fyrir fylgiskjöl fyrir áður skráð forrit. Þetta vefsvæði býður upp á eftirfarandi eiginleika:
+Svæðið docs.microsoft.com ([docs.microsoft.com/dynamics365](https://docs.microsoft.com/dynamics365/)) er sjálfgefinn uppruni fyrir fylgiskjöl fyrir áður skráð forrit. Þetta vefsvæði býður upp á eftirfarandi eiginleika:
 
 - **Aðgangur að nýjasta efninu** – svæðið gefur Microsoft hraðar og sveigjanlegri leið til að stofna, afhenda og uppfæra fylgiskjal vöru. Þess vegna er auðvelt að fá aðgang að nýjustu tækniupplýsingum.
 - **Efni sem er skrifað af sérfræðingum** – Aðilar samfélagsins, hvort sem þeir starfa hjá Microsoft eða ekki, geta lagt fram efni á vefsvæðið.
@@ -53,20 +50,9 @@ Hægt er að finna efni á docs.microsoft.com með því að nota hvaða leitarv
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Fá tilkynningu um breytingar með RSS-straumi
 
-Til að gerast áskrifandi að RSS straumi fyrir allar uppfærslur sem gerðar eru á efninu á docs.microsoft.com í Finance and Operations forritunum, notaðu eftirfarandi tengil:
+Til að gerast áskrifandi að RSS-straum (Really Simple Syndication) allra uppfærslna efnisins á docs.microsoft.com skaltu nota eftirfarandi tengil:
 
-[RSS-straumur](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
-
-> [!NOTE]
-> RSS-straumurinn skilar lista yfir 100 nýjustu uppfærslur á efnisatriðum. Listanum er ekki raðað eftir dagsetningu.  
-
-Einnig er hægt að gerast áskrifandi að RSS-straumi með forriti:
-
-- [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
-- [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
-- [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
-- [Aðfangakeðja](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
-- [Mannauður](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+[RSS-straumur](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="leave-us-feedback"></a>Skildu eftir ábendingu
 
@@ -76,7 +62,7 @@ Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu lá
 
 2. Byrjið að færa inn athugasemdir og smellið síðan á **Senda inn ábendingu**.
 
-    ![Setja inn ummæli.](./media/feedback.png)
+    ![Setja inn ummæli](./media/feedback.png)
 
 > [!NOTE]
 > Ef senda á inn athugasemdir um fylgiskjöl þarf að skrá sig inn með GitHub-reikningi. Frekari upplýsingar er að finna í [Uppsetning og stjórnun GitHub-forstillingar](https://help.github.com/github/setting-up-and-managing-your-github-profile).
@@ -89,7 +75,7 @@ Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu lá
 
 Myndbandið [Hvernig á að leggja sitt af mörkum til skjala Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (sýnt hér að ofan) er innifalið í rás Microsoft Dynamics 365 á YouTube.
 
-Frekari upplýsingar er að finna á [Leiðbeiningar fyrir Docs-þátttakanda](/contribute), sem er birt af teyminu sem bjó til docs.microsoft.com vefsvæðið.
+Frekari upplýsingar er að finna á [Leiðbeiningar fyrir Docs-þátttakanda](https://docs.microsoft.com/contribute), sem er birt af teyminu sem bjó til docs.microsoft.com vefsvæðið.
 
 > [!NOTE]
 > Við samþykkjum aðeins framlög á ensku efni okkar eins og stendur.
@@ -100,11 +86,11 @@ Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirka reynslu sem fer með �
 
 Microsoft gaf út verkleiðbeiningar fyrir afurðarútgáfur í desemberútgáfu 2017 Dynamics 365 for Finance and Operations. Hlutinn [Fara í verkefnaleiðbeiningar úr hjálparsvæði](#accessing-task-guides-from-the-help-pane) í þessu efnisatriði lýsir því hvernig á að finna réttar verkefnaleiðbeiningar fyrir vöruna þína.
 
-![Lesgluggi verkefnaleiðbeininga.](./media/task-guide-ops.png)
+![Lesgluggi verkefnaleiðbeininga](./media/task-guide-ops.png)
 
 Til að byrja gagnvirka leiðsögn skal velja **Opna verkefnaleiðbeiningar** neðst á rúðunni **Hjálp**. Svartur bendill sýnir hvar á að fara fyrst. Fylgja skal leiðbeiningunum sem birtast í notendaviðmótinu og færa inn gögn samkvæmt leiðbeiningum.
 
-![Fyrirmæli um skref í verkefnaleiðbeiningum.](./media/task-guide-step-1-ops.png)
+![Fyrirmæli um skref í verkefnaleiðbeiningum](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT]
 > Gögn sem þú færir inn þegar verkefnaleiðbeiningar eru spilaðar eru raunveruleg. Ef unnið er í vinnsluumhverfi, verða gögn færð inn í fyrirtækinu sem verið er að nota þá stundina.
@@ -117,7 +103,7 @@ Hægt er að nota verkskráningu til að stofna eigin sérsniðnar verkefnaleið
 
 Velja skal hnappinn **Hjálp** (**?**) og síðan velja **Hjálp**. Einnig er hægt að ýta á **Ctrl+Shift+?**. Í báðum tilvikum opnast **Hjálparsvæði**. Í **Hjálp** er hægt að opna efnisatriði eða verkleiðbeiningar sem eiga við um reiti afurðarinnar sem notandi er staddur í.
 
-![Hjálparsvæði.](./media/help-pane-ops-help.png)
+![Hjálparsvæði](./media/help-pane-ops-help.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Opna hjálparefni af hjálparsvæðinu
 
@@ -134,13 +120,13 @@ Velja skal hnappinn **Hjálp** (**?**) og síðan velja **Hjálp**. Einnig er h�
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
 > - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![System Parameters form with Help settings.](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
 
 On the **System parameters** page, follow these steps:
 
 1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Connect to LCS.](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
 
 2. Select the Lifecycle Services project to connect to.
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
@@ -148,7 +134,7 @@ On the **System parameters** page, follow these steps:
 
 Eftir að kerfisstjóri hefur lokið við þessi skref, er hægt að opna **hjálparsvæðið** og velja flipann **Verkefnaleiðbeiningar**. Nú sérðu verkefnaleiðbeiningar sem eiga við um síðuna sem þú ert á. Ef engin verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina. Eftir að smellt er á verkleiðbeiningar á svæðinu **Hjálp** sýnir **hjálparsvæðið** skref fyrir skref leiðbeiningar og hægt er að spila verkefnaleiðbeiningar.
 
-![Lesgluggi verkefnaleiðbeininga.](./media/task-guide-ops.png)
+![Lesgluggi verkefnaleiðbeininga](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Hvar eru þýddu verkefnaleiðbeiningarnar fyrir Microsoft-söfn?
 
@@ -171,14 +157,10 @@ Hægt er að stofna hjálp fyrir notendur með því að stofna sérsniðnar ver
 | Svæði | lýsing |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | Þetta vefsvæði hýsir eða tengir í fylgiskjöl afurðar fyrir Dynamics 365. |
-| [Microsoft Learn](/learn/) | Þetta vefsvæði er ókeypis Microsoft netnámskeiðssvæði. |
+| [Microsoft Learn](https://docs.microsoft.com/learn/) | Þetta vefsvæði er ókeypis Microsoft netnámskeiðssvæði. |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Þetta vefsvæði veitir sameiginlegt vinnusvæði í skýi sem viðskiptaaðilar og viðskiptavinir geta notað til að stjórna verkum úr aðgerðum forsölu og framkvæmdar. Þetta er gagnlegt í öllum áföngum framkvæmdar. |
 | [Stuðningsblogg](https://aka.ms/AXSupportBlog) | Þetta vefsvæði veitir ábendingar og tækni sem eru skrifaðar inn af þjónustuveri. |
 | [Docs.microsoft.com/fyrri útgáfur](/previous-versions/dynamics/) | Þetta vefsvæði hýsir efni frá fyrri útgáfum. |
 | [Samfélag Dynamics](https://community.dynamics.com/) | Þetta vefsvæði hýsir umræðuþræði, blogg og myndskeið. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Þetta vefsvæði veitir upplýsingar um mat og sölu. |
-
-
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Þetta svæði hýsir þjálfunarefni, skýrslur sem er hægt að hlaða niður og hvítblöð og er aðalstuðningssíða fyrir áskrifendur að þjónustuáætlunum. Notendur kunna að þurfa að vera með þjónustuáætlun til að fá aðgang að einhverjum tilföngum á þessu svæði. |

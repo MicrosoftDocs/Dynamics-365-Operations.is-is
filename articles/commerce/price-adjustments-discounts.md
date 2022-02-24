@@ -2,13 +2,16 @@
 title: Verðleiðréttingar og afslættir
 description: Þessi grein gefur upplýsingar um verðleiðréttingar og afslætti í Dynamics 365 Commerce.
 author: scott-tucker
-ms.date: 06/11/2021
+manager: AnnBe
+ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 15891
 ms.assetid: bab5adf3-ddf0-4c22-a2eb-b4d25b88de99
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 96a695df250cda514b7bd8b9716c0f03fb2bfd28d3af4daedaf1335c3099fbb6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0c2adaa5cd935d5b593bfbb3215d3466fcafab7b
+ms.sourcegitcommit: 1d74636bf9db5fb33e998322899504b709b4f89f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748499"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "4584316"
 ---
 # <a name="price-adjustments-and-discounts"></a>Verðleiðréttingar og afslættir
 
@@ -48,13 +51,3 @@ Hægt er að nota verðleiðréttingar og afslátt á vörur, vöruvíddasamsetn
 - **Sendingarafsláttur** – Afsláttur sem er notaður þegar heildarfærsla er hærri en tilgreind upphæð og tiltekinn afhendingarmáti (til dæmis tveggja daga sending eða sending yfir nótt) er notað á pöntuninni.
 
 Hægt er að tengja bæði verðleiðréttingar og afslátt við sérstaka verðflokka. Síðan er hægt að tengja verðflokka við rásir, vörulista, tengsl og vildarkerfi.
-
-> [!NOTE]
-> Afsláttur blandaðs tilboðs og þröskuldsafsláttur eru með eiginleika sem heita „Telja vörur sem ekki er veittur afsláttur af“ og „Telja vörur sem ekki er veittur afsláttur af fram að þröskuldi“. Ef þessir eiginleikar eru virkjaðir getur vara sem ekki er veittur afsláttur á samt hjálpað til við að færsla fái afslátt, en ekki verður gefinn afsláttur af þeirri vöru. 
-> 
-> Ef til dæmis búinn er til afsláttur blandaðs tilboðs með tveimur línum, A og B, þar sem viðskiptavinur á að fá 10% afslátt af báðum vörum, en vara A er með hakað í skilgreininguna „Koma í veg fyrir alla afslætti“, þá mun þetta yfirleitt stöðva vöru A frá því að vera með í afslættinum. En ef eiginleikinn „Telja vörur sem ekki er veittur afsláttur af“ er virkjaður, þá er hægt að nota vöru A í afslætti blandaðs tilboðs, en 10% afslátturinn verður aðeins notaður á vöru B. Svipuð rök eiga við um þröskuldsafslátt. 
->
-> Eiginleikinn „Telja vörur sem ekki er veittur afsláttur af fram að þröskuldi“ er með viðbótarmöguleika í samanburði við eiginleikann „Telja vörur sem ekki er veittur afsláttur af“ í afsláttum blandaðs tilboðs. Ef þröskuldsafslátturinn er virkur og ef það er vara til með núverandi afslætti sem kæmi í veg fyrir að varan fengi aðra afslætti, þá myndi verðið sem greitt er fyrir þessa vöru uppfylla skilyrði varðandi að ná þröskuldinum, en þessi vara fengi ekki viðbótarafsláttinn.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

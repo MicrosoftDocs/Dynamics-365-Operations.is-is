@@ -2,13 +2,16 @@
 title: Áætlanagerð með innkaupaverðsamningum
 description: Þetta efnisatriði lýsir því hvernig fínstilling áætlanagerðar getur fundið lánardrottin og/eða afhendingartíma fyrir áætlaða pöntun samkvæmt besta verðinu eða afhendingartíma sem er að finna í innkaupasamningum.
 author: ChristianRytt
+manager: tfehr
 ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 10b4f9f45899b808bd0baa73974a173cf120aa6c3fd33e10d0d79a59614f1f70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: b302c5ace34a11a53a98c733b59633a11a463bfa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757759"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430111"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Áætlanagerð með innkaupaverðsamningum
 
@@ -67,26 +70,23 @@ Eftir að kerfið er undirbúið eins og lýst er í hlutanum á undan, ætti a�
 1. Endurtakið þetta ferli fyrir hverja viðeigandi afurð.
 
 > [!NOTE]
-> Fínstilling áætlanagerðar styður innkaupasamninga með mörgum gjaldmiðlum. Þegar leitað er að viðskiptasamningi með valkostinum **Lægsta einingaverð** mun kerfið taka til greina línur innkaupasamnings með mismunandi gjaldmiðlum svo lengi sem að gengi hafi verið skilgreint á milli gjaldmiðils viðskiptasamningslínu og bókhaldsgjaldmiðils lögaðilans. Annars verður litið framhjá viðskiptasamningslínunni og villa kemur fram við aðaláætlanagerð. Því mun aðaláætlanagerð innihalda upplýsingar frá öllum viðeigandi línum innkaupasamnings þar sem hægt verður að umreikna verðin í bókhaldsgjaldmiðilinn. Mikilvægt er að athuga að rúnareglur verða ekki teknar með við viðskiptasamninginn og línuverðsbreytingar.
+> Gjaldmiðill í innkaupasamningslínunni verður að passa við gjaldmiðil valins lánardrottins. Í aðaláætlanagerðinni verða aðeins upplýsingar úr innkaupasamningslínum þar sem gjaldmiðillinn passar við gjaldmiðil lánardrottins.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Dæmi um hvernig fínstilling áætlanagerðar finnur lánardrottin og afhendingartíma
 
-Eftirfarandi tafla inniheldur dæmi sem sýna hvernig ýmsar stillingar fyrir útgefna afurð og tengda innkaupasamninga hafa áhrif á gildin sem finnast fyrir innkaupatillöguna sem verður til. **Feitletruðu** gildin dálkunum tveimur lengst til hægri eru gildin sem valin eru af fínstillingu áætlanagerðar. **_Feitleitruðu og skáletruðu_** gildin í hinum dálkunum eru stillingarnar sem leiddu til þessara gilda fyrir hverja línu.
+Eftirfarandi tafla inniheldur dæmi sem sýna hvernig ýmsar stillingar fyrir útgefna afurð og tengda innkaupasamninga hafa áhrif á gildin sem finnast fyrir innkaupatillöguna sem verður til. **Feitletruðu** gildin dálkunum tveimur lengst til hægri eru gildin sem valin eru af fínstillingu áætlanagerðar. ***Feitleitruðu og skáletruðu*** gildin í hinum dálkunum eru stillingarnar sem leiddu til þessara gilda fyrir hverja línu.
 
 | Útgefin afurð: Lánardrottinn | Sjálfgefnar pöntunarstillingar: Afhendingartími | Vöruþekja: Hnekking lánardrottins | Vöruþekja: Hnekking afhendingartíma | Verðsamningur: Lánardrottinn | Verðsamningur: Afhendingartími | Verðsamningur: Hunsa afhendingartíma | Lánardrottinn sem verður til | Afhendingartíma sem verður til |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001** _ | _*_1_*_ | Nei | Nei | US003 | 3 | Nei | _ *US001** | **1** |
-| US001 | 1 | ***Já: US002** _ | _*_Já: 2_*_ | US003 | 3 | Nei | _ *US002** | **2** |
-| *(Autt)* | 1 | Nei | Nei | ***US003** _ | _*_3_*_ | Nei | _ *US003** | **3** |
-| *(Autt)* | ***1** _ | Nei | Nei | _*_US003_*_ | 3 | Já | _ *US003** | **1** |
-| *(Autt)* | ***1** _ | _*_Já: US002_*_ | Nei | US003 | 3 | Nei | _ *US002** | **1** |
-| *(Autt)* | ***1** _ | _*_Já: US002_*_ | Nei | US003 | 3 | Nei | _ *US002** | **1** |
-| *(Autt)* | 1 | Nei | Já: 2 | ***US003** _ | _*_3_*_ | Nei | _ *US003** | **3** |
-| *(Autt)* | 1 | Nei | ***Já: 2** _ | _*_US003_*_ | 3 | Já | _ *US003** | **2** |
+| ***US001*** | ***1*** | Ekkert | Ekkert | US003 | 3 | Ekkert | **US001** | **1** |
+| US001 | 1 | ***Já: US002*** | ***Já: 2*** | US003 | 3 | Ekkert | **US002** | **2** |
+| *(Autt)* | 1 | Ekkert | Ekkert | ***US003*** | ***3*** | Ekkert | **US003** | **3** |
+| *(Autt)* | ***1*** | Ekkert | Ekkert | ***US003*** | 3 | Já | **US003** | **1** |
+| *(Autt)* | ***1*** | ***Já: US002*** | Ekkert | US003 | 3 | Ekkert | **US002** | **1** |
+| *(Autt)* | ***1*** | ***Já: US002*** | Ekkert | US003 | 3 | Ekkert | **US002** | **1** |
+| *(Autt)* | 1 | Ekkert | Já: 2 | ***US003*** | ***3*** | Ekkert | **US003** | **3** |
+| *(Autt)* | 1 | Ekkert | ***Já: 2*** | ***US003*** | 3 | Já | **US003** | **2** |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Innkaupasamningar](../../procurement/purchase-agreements.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,27 +1,28 @@
 ---
 title: Heimasíða Innkaupa og aðfanga
 description: Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng sem eru tiltæk fyrir „Innkaup og aðföng“.
-author: Henrikan
+author: mkirknel
+manager: tfehr
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "50651"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: henrikan
+ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54ddaee1fd820435c245f3946ae1cc91209b12d4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565496"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430615"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Heimasíða Innkaupa og aðfanga
 
@@ -76,20 +77,21 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 -   [Stofna endurtekna innkaupapöntun](tasks/create-repeat-purchase-order.md)
 -   [Stofna innkaupapöntun úr sölupöntun](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [Innkaupapöntun fyrir eins skiptis birgi](tasks/create-purchase-order-one-time-supplier.md)
--   [Stofna innkaupapöntun með afhendingaráætlun](tasks/create-purchase-order-delivery-schedule.md)
--   [Stofna innkaupaskilapöntun](tasks/create-purchase-return-order.md)
--   [Nota innkaupasamning þegar innkaupapöntun er stofnuð](tasks/create-purchase-release-order-purchase-agreement.md)
+-   [Stofna innkaupapöntun með afhendingaráætlun.](tasks/create-purchase-order-delivery-schedule.md)
+-   [Stofnun innkaupaskilapöntunar](tasks/create-purchase-return-order.md)
+-   [Stofna úttektarpöntun innkaupa úr innkaupasamningi](tasks/create-purchase-release-order-purchase-agreement.md)
+-   [Stofna úttektarpöntun innkaupa þegar innkaupapöntun er búin til](tasks/create-purchase-release-order-creating-purchase-order.md)
 -   [Stofna áfyllingarpöntun vörusendingar](../inventory/tasks/create-consignment-replenishment-order.md)
 
-## <a name="prices-and-discounts"></a>Verð og afsláttur
+## <a name="prices-and-discounts"></a>Verð og afslættir
 -   [Innkaupasamningar](purchase-agreements.md)
 -   [Stofna innkaupasamning](tasks/create-purchase-agreement.md)
--   [Eftirágreiddur afsláttur lánardrottins](/dynamics/s-e/) (hvítbók)
+-   [Eftirágreiddur afsláttur lánardrottins](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/Vendor_rebates) (hvítbók)
 
 ## <a name="product-receipt-and-invoicing"></a>Innhreyfingarskjal afurða og reikningur.
 -   [innhreyfingarskjal afurða gagnvart innkaupapantanir](product-receipt-against-purchase-orders.md)
--   [Yfirlit yfir lánardrottnareikninga](../../finance/accounts-payable/vendor-invoices-overview.md)
--   [Bókunarreglur lánardrottins](../../finance/accounts-payable/vendor-posting-profiles.md)
+-   [Yfirlit yfir lánardrottnareikninga](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [Bókunarreglur lánardrottins](../../financials/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Verkflæði innkaupa og aðfanga
 -   [Yfirlit yfir innkaup og aðföng](procurement-sourcing-overview.md)
@@ -102,6 +104,3 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

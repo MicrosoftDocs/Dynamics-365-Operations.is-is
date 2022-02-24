@@ -2,9 +2,11 @@
 title: Haga sniðmáti fyrir tölvupóst
 description: Í þessu efnisatriði er útskýrt hvernig á að stjórna tölvupóstsniðmátum.
 author: andreabichsel
+manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplicationWordBookmark, HRMApplicationEmailTemplate
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 69d215bd5332555f0df31faa9ea019a819db6565dd6a7c8d68b22bbe46d31898
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b9bd15e73535f1d07b664ed659f9f15b3b0b7594
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723008"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797464"
 ---
 # <a name="manage-email-templates"></a>Haga sniðmáti fyrir tölvupóst
 
@@ -45,6 +47,3 @@ Hægt er að flytja upplýsingar úr gagnagrunninum fyrirtækisins í bókamerki
 8. Halda áfram að því að skrifa tölvupósti og settu inn bókamerkið í svæði þar sem þú vilt.
 9. Veljið **Vista**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

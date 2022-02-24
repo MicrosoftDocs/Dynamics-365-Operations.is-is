@@ -1,10 +1,12 @@
 ---
 title: Áætla verkbeiðnir
 description: Þetta efni útskýrir hvernig á að raða verkbeiðnum í eignastýringu.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderSchdulePreviewPart, EntAssetWorkOrderScheduleExclusively, EntAssetWorkOrderSchduleInfoPart, EntAssetWorkOrderScheduleListPage, EntAssetWorkOrderSchedule, EntAssetWorkOrderScheduleDelete
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: becd06c46afd92bf07d9a69147b7768e780aefa57f9045c11698c04154d6ddb8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e7751e3e2f216abf46f02ee0644909c6894c5b2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718060"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020230"
 ---
 # <a name="schedule-work-orders"></a>Áætla verkbeiðnir
 
@@ -56,7 +58,7 @@ Aðeins er hægt að skipuleggja verkbeiðnir með líftímastöðu verkbeiðni 
 
 *Dæmi:* Á myndinni hér að neðan mun formúlan sem sett er inn í reitnum **Vænt upphaf** mynda tímasetningar verkbeiðna fyrir allar verkbeiðnir með áætlaðan upphafsdag eftir viku héðan í frá og síðar. Þessi formúla kann að vera gagnleg þegar þú keyrir tímasetningu verkbeiðni en þú vilt ganga úr skugga um að verkbeiðnum sem áætlaðar eru næstu 5-6 daga sé ekki endurraðað.
 
-![Mynd 1.](media/03-work-order-scheduling.png)
+![Mynd 1](media/03-work-order-scheduling.png)
 
 Gerð verkbeiðni sem tengist verkbeiðnunum getur sett upp tímasetningu fyrir einn viðhaldsstarfsmann (skiptihnappurinn **Eignastjórnun** > **Uppsetning** > **Verkbeiðnir** > **Gerðir verkbeiðna** > **Einn viðhaldsstarfsmaður** stilltur á „Já“). Þetta þýðir að ef tegund verkbeiðni er notuð í verkbeiðni er skiptihnappurinn **Einn viðhaldsstarfsmaður** sjálfkrafa stilltur á „Já“ á upplýsingasíðunni **Allar verkbeiðnir** > sýninni **Haus** > flýtiflipanum **Tímasetja**. Meðan á verkbeiðniröðun stendur verða öllum verkbeiðniverkum sem eru stofnuð í verkbeiðninni raðað á sama viðhaldsstarfsmann. Ef þess er þörf geturðu breytt valinu á skiptihnappnum **Einn viðhaldsstarfsmaður** í **Öllum verkbeiðnum** til að leyfa tímasetningu nokkurra starfsmanna eða eins starfsmanns í verkbeiðniverkunum.
 
@@ -135,6 +137,3 @@ Til að skoða og vinna með gantt-grafið:
     - Til að enduráætla sýnda vinnupöntun skal velja hana og sleppa á nýja dagsetningu og tíma.
 
 1. Ef þú gerðir einhverjar breytingar skaltu velja **Vista** á aðgerðasvæðinu til að vista þær.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

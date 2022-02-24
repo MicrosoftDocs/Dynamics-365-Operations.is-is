@@ -2,9 +2,11 @@
 title: Stofna og vinna með sérstillt svæði
 description: Þetta efnisatriði sýnir hvernig á að stofna sérsniðna reiti með notandaviðmóti til að laga forritið að sínum viðskiptum.
 author: jasongre
-ms.date: 05/24/2021
+manager: AnnBe
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
@@ -13,23 +15,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 2ab1c402d99c1d9b7d7dc06e64c93fe43c5a1e9f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: eee5b072f999aab7d4a5e72888abad3915e03d5b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071186"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798119"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Stofna og vinna með sérstillt svæði
 
 [!include [banner](../includes/banner.md)]
 
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
-
 Þótt það sé víðtækt úrval reita út fyrir kassann til að stjórna fjölmörgum viðskiptaferlum, er stundum þörf fyrir fyrirtæki til að fylgjast með viðbótarupplýsingum í kerfinu. Þó að hægt sé að nota forritara til að bæta við þessum reitum sem viðbætum í verkfærum framkvæmdaraðila, þá gerir eiginleiki sérsniðinna reita kleift að bæta við reitum beint úr notendaviðmóti og leyfa þér þannig að sérsníða forritið að viðskiptum þínum með vafranum þínum.
 
-*Aðeins notendur með sérstakar heimildir hafa aðgang að þessum eiginleika.*
+Möguleikinn til að bæta við sérstilltum svæðum er í boði í verkvangsuppfærslu 13 og síðar. Aðeins notendur með sérstakar heimildir hafa aðgang að þessum eiginleika.
 
 Þetta myndband sýnir hversu auðvelt það er að bæta við sérsniðnum reit á síðu: [Bæta við sérsniðnum reitum í](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -49,9 +48,8 @@ Eftirfarandi skref lýsa ferlinu við stofnun á sérstilltu svæði og koma þe
     Ef þú sérð ekki **Búa til nýtt svæði** hnappinn hefur þú ekki nauðsynlegar heimildir til að nota þennan eiginleika.
 
 7. Sláðu inn eftirfarandi upplýsingar í svargluggann **Búa til nýtt svæði**.
-   
-    1. Veldu gagnasafnstöflu þar sem bæta skal við þessari töflu. Athugaðu að aðeins töflur sem styðja sérstillt svæði birtast í fellilistanum. Sjá kaflann hér að neðan til að fá tæknilegar upplýsingar um studdar töflur.
 
+    1. Veldu gagnasafnstöflu þar sem bæta skal við þessari töflu. Athugaðu að aðeins töflur sem styðja sérstillt svæði birtast í fellilistanum. Sjá kaflann hér að neðan til að fá tæknilegar upplýsingar um studdar töflur.
     2. Veldu gagnagerðina fyrir nýja svæðið. Tiltækar gagnagerðir eru gátreitur, dagsetning, dagsetningartími, númer, tínslulisti og texti.
 
         - Ef þú velur gagngerðina texti getur þú einnig tilgreint hámarkslengd textans sem hægt er að slá inn í þetta svæði.
@@ -64,15 +62,11 @@ Eftirfarandi skref lýsa ferlinu við stofnun á sérstilltu svæði og koma þe
 10. Smelltu á **Setja inn** til að setja inn merktu reitina í valda svæðið á forminu.
 11. **Valfrjálst:** Virkjaðu **Færa** stillinguna frá tækjastiku sérstillinga til að færa nýju reitina á viðkomandi stað á valda svæðinu. Sjá [Sérsníða notandaupplifun](personalize-user-experience.md) til að fá frekari upplýsingar um hvernig á að nota hinar ýmsu sérstillingar til að hagræða formi til persónulegrar notkunar.
 
-> [!WARNING]
-> Möguleikinn á að slá inn gildi í sérstilltan reit sem bætt er við síðu er háður því hvort taflan sem tengist sérstillta reitnum er breytanleg eða skrifvarin. Þegar tengd tafla er skrifvarin verða allir reitir sem tengjast þeirri töflu, þ.m.t. sérsniðnir reitir, einnig skrifvarnir.
-
-
 ## <a name="sharing-custom-fields-with-other-users"></a>Deiling sérsniðinna reita með öðrum notendum
 
-Eftir að þú hefur búið til sérsniðinn reit og birt hann á síðu gætirðu viljað veita þennan uppfæra síðuskjá sem inniheldur nýja reitinn fyrir aðra notendur í kerfinu. Þetta er hægt að framkvæma á tvenns konar hátt með því að nota sérstillingarvalkosti vörunnar:
+Eftir að þú hefur búið til sérsniðinn reit og birt hann á sniði gætirðu viljað veita þennan uppfæra síðuskjá sem inniheldur nýja reitinn fyrir aðra notendur í kerfinu. Þetta er hægt að framkvæma á tvenns konar hátt með því að nota sérstillingarvalkosti vörunnar:
 
-- Ráðlögð leið er að **birta [vistað yfirlit](saved-views.md)** með sérstillta reitnum bætt við síðuna fyrir viðeigandi hóp notenda. Ef eiginleiki vistaðra yfirlita er ekki virkjaður getur kerfisstjórinn bætt sérstillingunni við notendur sem í hlut eiga úr sérstillingarskjámyndinni. Nánari upplýsingar, sjá [Sérstilling notendaupplifunar](personalize-user-experience.md).
+- Ráðlögð leið er í gegnum kerfisstjóra, sem getur ýtt sérsniðum til allra notenda eða undirhóps notenda. Sjá [Sérsníða notandaupplifun](personalize-user-experience.md) til að fá frekari upplýsingar.
 - Einnig er hægt að flytja út breytingarnar þínar (kallast *sérstillingar*), senda þær á einn eða fleiri notendur og láta hvern notanda flytja inn breytingarnar. **Stjórna** valkosturinn á tækjastiku sérstillinga gerir þér kleift að flytja út og flytja inn sérstillingar.
 
 ## <a name="managing-custom-fields"></a>Stjórna sérstilltum svæðum
@@ -143,10 +137,6 @@ Eftirfarandi skref lýsa þýðingaferlinu á sérstilltum svæðum á öðrum t
 
 ## <a name="appendix"></a>Viðauki
 
-### <a name="why-cant-i-enter-a-value-in-my-custom-field"></a>Hvers vegna get ég ekki slegið inn gildi í sérstillt reitinn minn? 
-
-Ef þú getur ekki slegið gildi inn í sérstilla reitinn þegar síðan er í breytingastillingu gæti það verið vegna þess að töflunni sem var bætt við er skrifvarin sem stendur. Allir reitir í töflu verða aðeins lesnir ef stuðningstaflan er stillt sem skrifvarin á síðunni.   
-
 ### <a name="who-can-create-custom-fields"></a>Hver getur búið til sérstillt svæði?
 
 Til að vernda kerfið, getur aðeins kerfisstjóri stofnað sérstillt svæði. Hins vegar geta þessi kraftnotendur, sem fyrirtækið telur nauðsynlega, fengið réttindi til að stofna sérstillt svæði í gegnum kerfisstjóra með því að nota öryggishlutverkið **Sérstillingar keyrslutíma fyrir kraftnotendur**. Notendur án þessa öryggishlutverks geta ekki stofnað sérstillt svæði, en munu samt geta séð og átt við sérstillt svæði sem aðrir notendur í kerfinu hafa bætt við.
@@ -172,6 +162,3 @@ Til að vernda kerfið, getur aðeins kerfisstjóri stofnað sérstillt svæði.
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Get ég vísað til sérsniðinna reita úr forritunartólunum?  
 
 Aðeins er hægt að stjórna sérsniðnum reitum í gegnum notendaviðmótið og ekki er hægt að vísa í þá með kóða. 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

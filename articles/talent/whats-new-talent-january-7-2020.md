@@ -53,6 +53,3 @@ Breytingum sem lýst er í þessum kafla gilda um byggingarnúmer 8.1.2697. Töl
 5. Stilltu **Eyða** leyfi til að veita.
 6. Veldu flipann **Óbirtir hlutir**.
 7. Velja **Birta allt**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,24 +1,26 @@
 ---
 title: Færa inn og bera saman tilboð vegna tilboðsbeiðna og gera samninga
 description: Þetta efni útskýrir hvernig á að færa inn svör við Tilboðsbeiðni, gefa stig og bera saman tilboð, og veita síðan einum lánardrottninum samning.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8378a491e528c1e1166f0688e29f923a25f23eed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3f14b95a71397bf5879c97654620e1d4c22a1149
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579473"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016679"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Færa inn og bera saman tilboð vegna tilboðsbeiðna og gera samninga
 
@@ -32,7 +34,7 @@ Hægt er að færa inn tilboðið sem annaðhvort lánardrottin eða innkaupastj
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Færa inn svar sem lánardrottin
 
-1. Farið í **Samstarf lánardrottna \> Vinnusvæði \> Tilboð lánardrottins**.
+1. Í yfirlitinu skal velja **Tilboð lánardrottins**.
 2. Í listanum **Nýtt boð um kauptilboð** skal finna tilboðsbeiðni sem var send rétt í þessu. Velja skal tilboðsbeiðnina til að fara yfir það sem óskað eftir.
 3. Velja skal **Viðhengi tilboðsbeiðni** til að yfirfara öll viðhengi sem var bætt við.
 4. Velja skal **Tilboð** til að gera reitina breytanlega. Takið eftir að reiturinn **Framvinda tilboðs** er stilltur á **Lánardrottinn er að uppfæra**.
@@ -104,6 +106,3 @@ Hægt er að færa inn tilboðið sem annaðhvort lánardrottin eða innkaupastj
 ## <a name="view-the-purchase-order-that-is-generated"></a>Skoða innkaupapöntun sem er búin til
 
 Í aðgerðarúðunni, í flipanum **Almennt**, skal velja **Innkaupapöntun**. Síðan sem birtist sýnir innkaupapöntunina sem var búin til þegar tilboðið var samþykkt.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

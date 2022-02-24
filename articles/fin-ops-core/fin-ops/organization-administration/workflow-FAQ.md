@@ -2,9 +2,11 @@
 title: Algengar spurningar um verkflæði
 description: Þetta efnisatriði svarar algengum spurningum um verkflæðiskerfið.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -12,19 +14,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe11942ca41dd8c0ca23d94006569c50a4501a52
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065581"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797392"
 ---
 # <a name="workflow-faq"></a>Algengar spurningar um verkflæði
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Þetta efnisatriði svarar algengum spurningum um verkflæðiskerfið.
 
@@ -48,9 +47,9 @@ Hér eru nokkrur lykilatriði til að hafa í huga varðandi viðbót viðvarana
     - Í framtíðaruppfærslu munum við bæta við skilaboðum aðgerðarmiðstöðvar þannig að notanda sé úthlutað verkflæði. 
 - Tilkynningum bætt við verkflæði
     - Skilaboð aðgerðarmiðstöðvar geta verið stofnuð fyrir tiltekna notendur, eins og silkaboð stofnuð í verkflæði í X ++.
-    - [Verkflæði hafa viðskiptatilvik](../../dev-itpro/business-events/business-events-workflow.md) sem viðskiptavinurinn gæti notað til að kveikja á flæði, hafa þær tilkynningar sem þeir leita að.   
+    - [Verkflæði hafa viðskiptatilvik](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) sem viðskiptavinurinn gæti notað til að kveikja á flæði, hafa þær tilkynningar sem þeir leita að.   
 
-Tekið saman, ef notandi fær ekki rétta tilkynningu frá Aðgerðamiðstöð þegar þeim er úthlutað vinnulið verkflæðis, skal nota [Viðskiptatilvik verkflæðis](../../dev-itpro/business-events/business-events-workflow.md) með Microsoft Power Automate til að veita frekari eða aðrar tilkynningar.
+Í stuttu máli, ef notandi fær ekki rétta tilkynningu frá aðgerðamiðstöðinni þegar honum er úthlutað verkflæðisliður, þá notar hann [Viðskiptatilvik verkflæðis](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) með Microsoft Power Automate til að veita viðbótar eða mismunandi tilkynningar.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Af hverju er ritstjórinn á verkflæðinu ekki fær um að byrja undir AD FS?
 Þegar keyrt er undir Active Directory Federation Services (AD FS) í uppfærðu umhverfi, getur ritstjórinn á verkflæðinu átt í vandræðum með að byrja. Ef það gerist skaltu passa að slóðinni „https://dynamicsaxworkfloweditor/" hafi verið bætt við eiginleikann **Microsoft Dynamics 365 for Operations Innanhúss - Vinnuflæði - Native forrit** í ADFS-stillingum.
@@ -60,6 +59,3 @@ Sjálfgefna reitgildið fyrir **Fjöldi verkflæðisatriða á runu** á síðun
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Hvað er eiginleiki Aukinnar villu í verkflæði?
 Eiginleikinn Aukin villa í verkflæði í útgáfu 10.0.13 bætir við villukóðum til að aðgreina mismunandi klasa af verkflæðissvillum. Villuboðin sem gefin voru upp verða að mestu leyti svipuð með minniháttar frávikum til að gera þau skýrari.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

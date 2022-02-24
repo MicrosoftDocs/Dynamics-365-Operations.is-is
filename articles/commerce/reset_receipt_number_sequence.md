@@ -2,13 +2,16 @@
 title: Endurstilla númer kvittunar
 description: Þetta efni lýsir því hvernig á að núllstilla innhreyfingatölurnar sem eru notuð við ýmsar aðgerðir á tilteknum degi (til dæmis reikningsársins eða almanaksársins).
 author: ShalabhjainMSFT
+manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 855c39f15db6de8fac1f0cd4667eec485c70542b9aebde0d7085e2703f4609bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733870"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413091"
 ---
 # <a name="reset-receipt-numbers"></a>Endurstilla númer kvittunar 
 
@@ -30,7 +33,7 @@ ms.locfileid: "6733870"
 > [!NOTE]
 > Við krefjumst þess að notandi velji eiginleikann **Sjálfstæð röð** fyrir allar kvittanategundir í virknireglunni áður en eiginleikinn er notaður. Einnig ætti tímabelti kerfisins, þar sem sölustaðurinn er notaður, að passa við samsvarandi tímabelti verslunarinnar. Vegna þessara takmarkana er mælt með því að nota ekki þennan eiginleika í framleiðslu á meðan unnið er að því að leysa þessi vandamál í framtíðarútgáfu. 
 
-Söluaðilar búa til innhreyfingartölur fyrir ýmsar aðgerðir í versluninni, svo sem staðgreiddar færslur, skilafærslur, pantanir viðskiptavina, tilboð og greiðslur. Þrátt fyrir að smásalar skilgreini eigin innhreyfingarsnið, hafa sum lönd eða svæði reglur sem setja takmarkanir á þessi innhreyfingarsnið. Til dæmis gætu þessar reglugerðir takmarkað fjölda stafa í kvittuninni, krafist röð kvittunarnúmera, takmarkað einhverja sérstaka stafi eða krafist endurstillingar kvittunúmera í byrjun árs. Microsoft Dynamics 365 Commerce gerir stjórnunarferlið fyrir kvittunarnúmer sveigjanlegra, til að hjálpa smásölum að uppfylla kröfur vegna reglugerða. Þetta efni útskýrir hvernig á að nota virkni til að núllstilla kvittunarnúmer.
+Söluaðilar búa til innhreyfingartölur fyrir ýmsar aðgerðir í versluninni, svo sem staðgreiddar færslur, skilafærslur, pantanir viðskiptavina, tilboð og greiðslur. Þrátt fyrir að smásalar skilgreini eigin innhreyfingarsnið, hafa sum lönd eða svæði reglur sem setja takmarkanir á þessi innhreyfingarsnið. Til dæmis gætu þessar reglugerðir takmarkað fjölda stafa í kvittuninni, krafist röð kvittunarnúmera, takmarkað einhverja sérstaka stafi eða krafist endurstillingar kvittunúmera í byrjun árs. Microsoft Dynamics 365 Commerce gerir ferlið við að stjórna kvittunarnúmerum mjög sveigjanlegt, til að hjálpa smásöluaðilum að uppfylla lagakröfur. Þetta efni útskýrir hvernig á að nota virkni til að núllstilla kvittunarnúmer.
 
 Í viðskiptum geta kvittunarsnið verið bókstafleg. Þú getur sett bæði fast efni og kvikt efni í það. Fast efni inniheldur stafrófsröð, tölur og sértákn. Kvikt efni inniheldur einn eða fleiri stafi sem tákna upplýsingar, svo sem verslunarnúmer, afgreiðslukassanúmer, dagsetningu, mánuð, ár og númeraröð sem hækkar sjálfkrafa. Sniðin eru skilgreind í **Númer kvittunar** hluti af virknireglunni. Eftirfarandi tafla lýsir stöfum sem tákna kvikt efni.
 
@@ -53,9 +56,9 @@ Fylgdu þessum skrefum til að kveikja á endurstillingu.
 1. Á flýtiflipanum **Númer kvittunar**, veldu **Endurstilla endurstillingardag númers**.
 1. Í fellivalmyndinni, í reitnum **Endurstilla dagsetningu**, veldu framtíðardagsetningu þegar núllstillingin ætti að eiga sér stað.
 1. Í reitnum **Endurstilla tegund kvittunar**, veldu **Aðeins einu sinni** eða **Árlega**.
-1. Veldu **Í lagi**.
+1. Veljið **Í lagi**.
 
-![Val á endurstillingu dagsetningar kvittunar.](media/Enable_receipt_reset.png "Val á endurstillingu dagsetningar kvittunar")
+![Val á endurstillingu dagsetningar kvittunar](media/Enable_receipt_reset.png "Val á endurstillingu dagsetningar kvittunar")
 
 Þegar þú hefur valið dagsetningu birtist hún í dálknum **Næsti endurstillingardagur kvittunarnúmera**. Endurstillingardagsetningin gildir fyrir allar gerðir kvittunarfærslna. Þess vegna verður kvittunarnúmeraröðin endurstillt fyrir allar gerðir kvittunar.
 
@@ -65,6 +68,3 @@ Fylgdu þessum skrefum til að kveikja á endurstillingu.
 
 > [!NOTE]
 > Það fer eftir endurstillingardagsetningu sem þú velur og kvittunarsnið, þú gætir haft afrit kvittunarnúmera. Þrátt fyrir að sölustaðurinn (POS) kerfið geti sinnt þessum aðstæðum, eykur það tímann sem þarf til að vinna úr ávöxtun, því söluaðilar verða að velja meðal afritskvittana. Önnur flækjustig sem tengjast gagnahreinsun geta komið fram ef afritskvittanirnar voru ekki fyrirhugaðar afleiðingar. Þess vegna mælum við með því að þú notir kvika dagsetningarstafi (til dæmis, **ddd**, **MM**, **DD** og **JÁ**) til að koma í veg fyrir afritunarkvittunúmer eftir endurstillingu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

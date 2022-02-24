@@ -2,24 +2,27 @@
 title: Yfirlit heimasíðu
 description: Þetta efnisatriði veitir yfirlit yfir heimasíðuna í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4c65d040696a72a42c89934533bad6a69c5923f5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984495"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413266"
 ---
 # <a name="home-page-overview"></a>Yfirlit heimasíðu
 
@@ -27,11 +30,13 @@ ms.locfileid: "7984495"
 
 Þetta efnisatriði veitir yfirlit yfir heimasíðuna í Microsoft Dynamics 365 Commerce.
 
+## <a name="overview"></a>Yfirlit
+
 Heimasíðan er sjálfgefna vefsíðan sem kaupendur fara á þegar þeir heimsækja netverslunarsíðu. Venjulega sýnir þessi síða vörur og kynningar með því að nota blöndu af markaðsseiningum. Heimasíðan ætti að vera rík af myndum og texta til að halda athygli kaupenda.
 
 Eftirfarandi mynd sýnir dæmi um heimasíðu sem var byggð með einingarsafninu og „Fabrikam“ þema.
 
-![Dæmi um heimasíðu.](./media/Homepage2.PNG)
+![Dæmi um heimasíðu](./media/Homepage2.PNG)
 
 Efst á heimasíðunni er haus sem sýnir alla vöruflokka og aðrar síður sem smásalinn vill að viðskiptavinir skoði. Neðst á heimasíðunni er síðufótur sem inniheldur fljótlega tengla á ýmis efni sem kaupendur gætu haft áhuga á.
 
@@ -41,13 +46,13 @@ Aðalhluti heimasíðunnar getur bent á vörur, flokka eða kynningar með þv�
 
     Eftirfarandi mynd sýnir dæmi um heimasíðu þar sem fyrsta atriðið í aðalhlutanum er hetjuuppsetning á innihaldsbálkseiningu sem er nefnd „Nýkomið”.
 
-    ![Dæmi um hetjueiningu.](./media/Hero.PNG)
+    ![Dæmi um hetjueiningu](./media/Hero.PNG)
 
 - **Eiginleiki** – Eiginleikauppsetning innihaldsbálkseiningar er notuð til að markaðssetja vörur eða kynningar með blöndu af myndum og texta. Hægt er að nota eiginleikauppsetningar sjálfstætt eða hýsa þær í hringekjueiningu.
 
     Eftirfarandi skýringarmynd sýnir dæmi um eiginleikauppsetningu á innihaldsbálkseiningu á heimasíðu.
 
-    ![Dæmi um eiginleikaeiningar.](./media/Feature.PNG)
+    ![Dæmi um eiginleikaeiningar](./media/Feature.PNG)
 
 - **Reitur** - Reitauppsetning á innihaldsbálkseiningu er notuð til að sýna margar vörur eða vöruflokk með því að nota blöndu af myndum og texta í margdálka útliti. Í myndskreytingu heimasíðunnar sem birtist fyrr í þessu efni er reitauppsetning notuð fyrir þriggja dálka útlit varanna í **Versla konur**, **Versla karlmenn** og **Versla aukabúnað**.
 - **Myndspilari** – Hægt er að nota myndspilarann til að sýna myndefni á heimasíðunni. Myndskreytingin á heimasíðu sem birtist fyrr í þessu efni inniheldur myndspilaraeiningu.
@@ -56,7 +61,7 @@ Aðalhluti heimasíðunnar getur bent á vörur, flokka eða kynningar með þv�
 
     Eftirfarandi mynd sýnir dæmi um afurðatillögueiningar á heimasíðu.
 
-    ![Dæmi um afurðatillögueiningar.](./media/Recommendations.PNG)
+    ![Dæmi um afurðatillögueiningar](./media/Recommendations.PNG)
 
 > [!NOTE]
 > Hægt er að nota allar einingarnar sem eru taldar upp hér á hvaða síðu sem er. Hins vegar er staðsetning þeirra á heimasíðunni mikilvæg vegna þess að sú síða er þar sem viðskiptavinir hafa samskipti við síðuna þína fyrst.
@@ -68,6 +73,3 @@ Aðalhluti heimasíðunnar getur bent á vörur, flokka eða kynningar með þv�
 [Yfirlit yfir síður körfu og greiðsluferlis](quick-tour-cart-checkout.md)
 
 [Yfirlit yfir síður fyrir stjórnun reikninga](quick-tour-account-management.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

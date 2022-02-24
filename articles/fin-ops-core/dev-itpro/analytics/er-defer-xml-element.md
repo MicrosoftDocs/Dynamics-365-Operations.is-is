@@ -2,9 +2,11 @@
 title: Frestaðu framkvæmd XML-þátta á ER sniði
 description: Þetta efni útskýrir hvernig á að fresta framkvæmd XML frumefnis á rafrænni skýrslugerð (ER) sniði.
 author: NickSelin
-ms.date: 04/23/2021
+manager: kfend
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: afe0f9945d86c0c7da88b427f582483ed38a54db837818c3e63c5ae2cc60cfbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6dce3768c886403f789063d516e0e696fc829f81
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718382"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680711"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Frestaðu framkvæmd XML-þátta á ER sniði
 
@@ -44,7 +46,7 @@ Valkosturinn **Frestuð framkvæmd** er ekki studdur fyrir XML þætti sem búa 
 
 ## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>Dæmi: Frestaðu framkvæmd XML-þáttar á ER-sniði
 
-Eftirfarandi skref útskýra hvernig notandi í kerfisstjóra eða rafrænni skýrslugerð virkur ráðgjafi [hlutverk](../sysadmin/tasks/assign-users-security-roles.md) getur stillt ER snið sem inniheldur XML-þátt þar sem framkvæmd röð er frábrugðin röðinni í snið stigveldisins.
+Eftirfarandi skref útskýra hvernig notandi í kerfisstjóra eða rafrænni skýrslugerð virkur ráðgjafi [hlutverk](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) getur stillt ER snið sem inniheldur XML-þátt þar sem framkvæmd röð er frábrugðin röðinni í snið stigveldisins.
 
 Hægt er að framkvæma þessum skrefum í **USMF** fyrirtæki í Microsoft Dynamics 365 Finance.
 
@@ -59,14 +61,14 @@ Ef þú hefur ekki enn lokið dæminu í [Frestaðu framkvæmd raðarþátta á 
 
 | Lýsing á efni            | Skrárnafn |
 |--------------------------------|-----------|
-| Skilgreining á gagnalíkani í ER    | [Líkan til að læra frestaða elements.version.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
-| Stilling vörpunar ER-líkans | [Vörpun til að læra frestaða elements.version.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
+| Skilgreining á gagnalíkani í ER    | [Líkan til að læra frestaða elements.version.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Stilling vörpunar ER-líkans | [Vörpun til að læra frestaða elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 Áður en þú byrjar verður þú einnig að hlaða niður og vista eftirfarandi stillingar á sýnishornum ER lausnarinnar á tölvuna þína.
 
 | Lýsing á efni     | Skrárnafn |
 |-------------------------|-----------|
-| ER Sníða skilgreiningu | [Sniðmát til að læra frestaða XML elements.version.1.1.xml](https://download.microsoft.com/download/4/7/8/478fa846-22e9-4fa0-89b1-d3aeae660067/FormattolearndeferredXMLelements.version.1.1.xml) |
+| ER Sníða skilgreiningu | [Sniðmát til að læra frestaða XML elements.version.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 ### <a name="import-the-sample-er-configurations"></a>Flytja inn sýnishorn af ER-stillingum
 
@@ -90,14 +92,14 @@ Ef þú hefur ekki enn lokið dæminu í [Frestaðu framkvæmd raðarþátta á 
 6. Stækkaðu í stillingartrénu **Líkan til að læra frestaða þætti**.
 7. Skoðaðu listann yfir innfluttar ER stillingar í stillingartrénu.
 
-    ![Innfluttar ER grunnstillingar á skilgreiningasíðunni.](./media/ER-DeferredXml-Configurations.png)
+    ![Innfluttar ER stillingar á stillingum síðu](./media/ER-DeferredXml-Configurations.png)
 
 ### <a name="activate-a-configuration-provider"></a>Kveikja á stillingaveitu
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 2. Á síðunni **Skilgreiningar staðsetningar**, í hlutanum **Skilgreiningaveitur**, skaltu passa að [skilgreiningaveitan](general-electronic-reporting.md#Provider) fyrir sýnifyrirtækið Litware, Inc. (`http://www.litware.com`) sé skráð og að hún sé merkt sem virk. Ef þessi stillingarþjónusta er ekki á listanum, eða ef hún er ekki merkt sem virk, fylgirðu skrefunum í efninu [Stofna skilgreiningaveitu og merkja hana sem virka](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-    ![Litware, Inc. sýnifyrirtæki á skilgreiningasíðu staðfæringar.](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
+    ![Litware, Inc. sýnishornafyrirtæki á staðsetningarstillingasíðunni](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
 
 ### <a name="review-the-imported-model-mapping"></a>Yfirfara innflutta líkanavörpun
 
@@ -119,7 +121,7 @@ Skoðaðu stillingar kortagerðarhlutans fyrir ER-gerðina sem er stilltur til a
     - Gagnagjafinn **Hópað** af gerðinni *Hópa eftir* er stillt til að flokka síaðar skattafærslur í gagnagjafanum **Síað**.
     - Uppsöfnunarreiturinn **TotalSum** í gagnagjafanum **Hópað** er stilltur til að draga saman gildi í reitnum **\$TaxAmount** í gagnagjafanum **Síað** fyrir allar síaðar skattafærslur þess gagnagjafa.
 
-        ![Uppsöfnunarreiturinn TotalSum á færibreytusíðunni Breyta „GroupBy“.](./media/ER-DeferredXml-GroupByParameters.png)
+        ![Uppsöfnunarreiturinn TotalSum á Edit 'GroupBy' breytusíðunni](./media/ER-DeferredXml-GroupByParameters.png)
 
 9. Skoðaðu hvernig stilltir gagnagjafar eru bundnir við gagnalíkanið og hvernig þeir afhjúpa aðgangsgögn til að gera þau aðgengileg á ER sniði:
 
@@ -127,7 +129,7 @@ Skoðaðu stillingar kortagerðarhlutans fyrir ER-gerðina sem er stilltur til a
     - Reiturinn **\$TaxAmount** í gagnagjafanum **Síað** er bundinn við reitinn **Data.List.Value** í gagnalíkaninu.
     - Reiturinn **TotalSum** í gagnagjafanum **Hópað** er bundinn við reitinn **Data.Summary.Total** í gagnalíkaninu.
 
-    ![Hönnuðarsíða líkanavörpunar.](./media/ER-DeferredXml-ModelMapping.png)
+    ![Hönnuðarsíðan líkanavörpun](./media/ER-DeferredXml-ModelMapping.png)
 
 10. Lokaðu síðunum **Hönnuður líkanavörpunar** og **Líkanavarpanir**.
 
@@ -143,7 +145,7 @@ Skoðaðu stillingar kortagerðarhlutans fyrir ER-gerðina sem er stilltur til a
     - XML-þátturinn **Skýrsla \\Skilaboð\\Skrá** er stilltur til að fylla skjalið á útleið með einum skráarhnút sem sýnir upplýsingar um staka skattafærslu.
     - XML-þátturinn **Skýrsla\\Skilaboð\\Yfirlit** er stilltur til að fylla skjalið á útleið með einum yfirlitshnút sem inniheldur summan af skattagildunum úr unnum skattafærslum.
 
-    ![Senda skilaboð til XML-einingar og faldaðrar XML-einingar á sniðshönnunarsíðunni.](./media/ER-DeferredXml-Format.png)
+    ![Skilaboð XML-þátta og ívafinna XML-þátta á sniðinu hönnuður](./media/ER-DeferredXml-Format.png)
 
 5. Á flipanum **Vörðun** skoðarðu eftirfarandi upplýsingar:
 
@@ -157,14 +159,14 @@ Skoðaðu stillingar kortagerðarhlutans fyrir ER-gerðina sem er stilltur til a
     - Eigindin **TotalTaxAmount** er bundin við **model.Data.Summary.Total** til að mynda summuna af skattagildum á unnum skattafærslum.
     - Eigindin **ExecutionDateTime** myndar dagsetningu og tíma (þ.m.t. millisekúndur) þegar yfirlitshnútnum er bætt við.
 
-    ![Vörpunarflipi á sniðshönnunarsíðunni.](./media/ER-DeferredXml-Format2.png)
+    ![Vörpunarflipinn á síðunni Sniðshönnuður](./media/ER-DeferredXml-Format2.png)
 
 ### <a name="run-the-imported-format"></a>Keyrðu innflutta sniðið
 
 1. Á síðunni **Sniðshönnuður** skal velja **Keyra**.
 2. Sæktu skrána sem vefskoðarinn býður upp á og opnaðu hana til skoðunar.
 
-    ![Skrá yfir innflutt snið sótt.](./media/ER-DeferredXml-Run.png)
+    ![Sótt skrá](./media/ER-DeferredXml-Run.png)
 
 Taktu eftir að yfirlitshnúturinn sýnir summan af skattagildum fyrir unnar færslur. Vegna þess að sniðið er stillt til að nota **model.Data.Summary.Total** bindandi til að skila þessari fjárhæð, er summan reiknuð með því að kalla í uppsöfnunina **TotalSum** á gagnagjafann **Flokkað** af gerðinni *GroupBy* í líkanavörpuninni. Til að reikna þessa uppsöfnun endurtekur líkanavörpunin yfir allar færslur sem hafa verið valdar í gagnagjafanum **Síað**. Með því að bera saman framkvæmdartíma yfirlitshnútsins og síðasta skráningarhnút geturðu ákvarðað að útreikningur á summan tók 12 millisekúndur (ms). Með því að bera saman framkvæmdatíma fyrsta og síðasta skrána hnút, getur þú ákvarðað að kynslóð allra skránna hafi tekið 9 ms. Þess vegna var krafist alls 21 ms.
 
@@ -178,25 +180,25 @@ Ef magn viðskipta er miklu stærra en rúmmálið í núverandi dæmi gæti út
 4. Stilltu segðina **Heiti lykils fyrir söfnuð gögn** sem `WsColumn`.
 5. Stilltu segðina **Gildi lykils fyrir söfnuð gögn** sem `WsRow`.
 
-    ![Skrá XML-einingu á síðu sniðshönnuðar.](./media/ER-DeferredXml-Format3.png)
+    ![Skrá XML-þátt á síðunni Sniðmátshönnuður](./media/ER-DeferredXml-Format3.png)
 
 6. Veldu eigindið **Skýrsla\\Skilaboð\\Skrá\\TaxAmount**.
 7. Stilltu segðina **Heiti lykils fyrir söfnuð gögn** sem `SummingAmountKey`.
 
-    ![TaxAmount-eigind á síðu sniðshönnuðar.](./media/ER-DeferredXml-Format4.png)
+    ![Eigindin TaxAmount á síðunni Sniðmátshönnuður](./media/ER-DeferredXml-Format4.png)
 
     Þú getur íhugað þessa stillingu efndir á sýndarverkefnisblaði, þar sem verðmæti hólfs A1 er bætt við verðmæti skattafjárhæðarinnar frá hverri afgreiddri skattafærslu.
 
 8. Veldu eigindina **Skýrsla\\Skilaboð\\Skrá\\RunningTotal** og veldu síðan **Breyta formúlu**.
 9. Stilltu segðina `SUMIF(SummingAmountKey, WsColumn, WsRow)` með því að nota innbyggða [SUMIF](er-functions-datacollection-sumif.md) ER aðgerð og veldu síðan **Vista**.
 
-    ![SUMIF-segð.](./media/ER-DeferredXml-FormulaDesigner.png)
+    ![SUMIF segð](./media/ER-DeferredXml-FormulaDesigner.png)
 
 10. Lokaðu síðunni **Formúluhönnuður**.
 11. Veldu **Vista** og síðan **Keyra**.
 12. Sæktu og farðu yfir skrána sem vefskoðarinn býður upp á og opnaðu hana til skoðunar.
 
-    ![Listi búinn til yfir skattagildi með hlaupandi samtölu.](./media/ER-DeferredXml-Run1.png)
+    ![Sótt skrá](./media/ER-DeferredXml-Run1.png)
 
     Síðasti skráningarhnúturinn inniheldur hlaupandi samtölu skattagilda sem eru reiknuð fyrir öll afgreidd viðskipti með því að nota myndaða framleiðsluna sem gagnagjafa. Þessi gagnagjafi hefst á byrjun skýrslunnar og heldur áfram í gegnum síðustu skattafærslu. Yfirlitshnúturinn inniheldur summan af skattagildum fyrir allar unnar færslur sem eru reiknaðar út í líkanavörpun með því að nota gagnagjafa af gerðinni *GroupBy*. Taktu eftir að þessi gildi eru jöfn. Þess vegna er hægt að nota samlagningu sem byggir á úttaki í staðinn fyrir **GroupBy**. Með því að bera saman framkvæmdatíma fyrsta skráarhnútsins og yfirlitshnútsins, getur þú ákvarðað að myndun allra skráarhnútanna og yfirlit hafi tekið 11 ms. Þess vegna er breytta sniðið um það bil tvisvar sinnum hraðara en upprunalega sniðið varðandi myndun skráarhnúta og summan af skattagildum.
 
@@ -205,7 +207,7 @@ Ef magn viðskipta er miklu stærra en rúmmálið í núverandi dæmi gæti út
 15. Veldu **Vista** og síðan **Keyra**.
 16. Sæktu og farðu yfir skrána sem vefskoðarinn býður upp á og opnaðu hana til skoðunar.
 
-    ![Listi búinn til yfir skattagildi með breyttri formúlu.](./media/ER-DeferredXml-Run2.png)
+    ![Sótt skrá](./media/ER-DeferredXml-Run2.png)
 
     Taktu eftir því að hlaupandi samtala skattagilda í síðasta færsluhnút er nú jafnhá samtölu yfirlitshnútsins.
 
@@ -218,7 +220,7 @@ Ef þú til dæmis verður að setja summan af skattagildum í haus skýrslunnar
 3. Veldu **Vista** og síðan **Keyra**.
 4. Sæktu og farðu yfir skrána sem vefskoðarinn býður upp á og opnaðu hana til skoðunar.
 
-    ![Skrá yfir skattagildi fyrir skýrsluhaus sótt.](./media/ER-DeferredXml-Run3.png)
+    ![Sótt skrá](./media/ER-DeferredXml-Run3.png)
 
     Taktu eftir að summan af skattagildum í yfirlitshnútnum er nú jöfn 0 (núll), vegna þess að þessi summa er nú reiknuð út frá mynduðu úttaki. Þegar fyrsti hnúturinn er myndaður inniheldur myndað úttak ekki enn skráarhnúta sem hafa upplýsingar um færslur. Þú getur stillt þetta snið til að fresta framkvæmd á þættinum **Skýrsla\\Skilaboð\\Yfirlit** þar til að þátturinn **Skýrsla\\Skilaboð\\Skrá** hefur verið keyrður fyrir allar skattafærslur.
 
@@ -227,12 +229,12 @@ Ef þú til dæmis verður að setja summan af skattagildum í haus skýrslunnar
 1. Á síðunni **Sniðmátshönnuður**, á flipanum **Snið**, veldu XML-þáttinn **Skýrsla\\Skilaboð\\Yfirlit**.
 2. Stillið valkostinn **Frestuð framkvæmd** á **Já**.
 
-    ![Valkostur frestaðrar framkvæmdar á XML-einingu samantektar á síðu sniðshönnuðar.](./media/ER-DeferredXml-Format5.png)
+    ![Frestaður framkvæmdarvalkostur yfirlits yfir XML-þáttinn á síðunni Sniðimátshönnuður](./media/ER-DeferredXml-Format5.png)
 
 3. Veldu **Vista** og síðan **Keyra**.
 4. Sæktu og farðu yfir skrána sem vefskoðarinn býður upp á og opnaðu hana til skoðunar.
 
-    ![Skrá frestaðrar framkvæmdar sótt.](./media/ER-DeferredXml-Run4.png)
+    ![Sótt skrá](./media/ER-DeferredXml-Run4.png)
 
     Þátturinn **Skýrsla\\Skilaboð\\Yfirlit** er nú aðeins keyrður þegar allir aðrir hlutir sem eru ívafðir undir yfirþættinum **Skýrsla\\Skilaboð** hafa verið keyrðir. Þess vegna er hann keyrður þegar þátturinn **Skýrsla\\Skilaboð\\Skrá** hefur verið keyrður fyrir allar skattafærslur í gagnagjafanum **model.Data.List**. Framkvæmdartímar fyrstu og síðustu skráarhnútanna og um haus og yfirlitshnúta sýna þessa staðreynd.
 
@@ -241,6 +243,3 @@ Ef þú til dæmis verður að setja summan af skattagildum í haus skýrslunnar
 - [Skilgreina snið til að gera talningu og samlagningu](./tasks/er-format-counting-summing-1.md)
 - [Rekja framkvæmd á sniði rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum](trace-execution-er-troubleshoot-perf.md)
 - [Frestaðu framkvæmd raðarþátta á ER sniði](er-defer-sequence-element.md#Example)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

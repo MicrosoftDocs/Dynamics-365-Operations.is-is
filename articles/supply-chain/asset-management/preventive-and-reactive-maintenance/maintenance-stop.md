@@ -1,10 +1,12 @@
 ---
 title: Niðurtímaaðgerðir vegna viðhalds
 description: Þetta efnisatriði útskýrir hvernig niðurtími viðhalds er notaður til að fá yfirlit yfir afkastagetu sem er nauðsynleg til að framkvæma viðhaldsverk á tilteknum eignum á tilteknu tímabili.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenanceStopCopy, EntAssetMaintenanceStopObject, EntAssetObjectProductionStop, EntAssetProductionStopType, EntAssetMaintenanceStop
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0e6168033afb97c6f4f1b8466801a6f16332df82a039927ec1b45e03aa3694b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 986b2ae4cf7f7819caaf35e009fd4735f35e6928
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727919"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017955"
 ---
 # <a name="maintenance-downtime-activities"></a>Niðurtímaaðgerðir vegna viðhalds
 
@@ -40,7 +42,7 @@ Niðurtími vegna viðhalds er notaður til að fá yfirsýn yfir álag sem þar
 
 Smelltu á **Eignastýring** > **Sameiginlegt** > **Aðgerðir niðurtíma vegna viðhalds** > **Allar aðgerðir niðurtíma vegna viðhalds** til að opna lista yfir allar aðgerðir niðurtíma vegna viðhalds og sjá nokkrar þeirra upplýsinga sem tengjast aðgerðunum. Smelltu á tengil í dálkinum **Aðgerðir niðurtíma vegna viðhalds** til að opna smáatriðið. Myndin hér að neðan sýnir dæmi um listann **Niðurtímaaðgerðir vegna viðhalds**.
 
-![Mynd 1.](media/19-preventive-maintenance.png)
+![Mynd 1](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>Stofna aðgerð niðurtíma vegna viðhalds
@@ -61,7 +63,7 @@ Smelltu á **Eignastýring** > **Sameiginlegt** > **Aðgerðir niðurtíma vegna
 
 Myndin hér að neðan sýnir dæmi um ítarupplýsingarnar **Niðurtímaaðgerðir vegna viðhalds**.
 
-![Mynd 2.](media/20-preventive-maintenance.png)
+![Mynd 2](media/20-preventive-maintenance.png)
 
 >[!NOTE]
 >Viðhaldsverk verkbeiðna og viðhaldsskemalínur sem tengjast völdum eignum eru sjálfkrafa uppfærðar ef nýjar verkbeiðnar eða viðhaldsskemalínur eru búnar til eftir að þú stofnaðir niðurtíma vegna viðhalds. Til dæmis, ef þú skipuleggur viðhaldsáætlanir eða viðhaldslotur á tengdum eignum tveimur dögum eftir að aðgerð niðurtíma vegna viðhalds var stofnuð, er nýjum viðhaldsskemalínum bætt sjálfkrafa við aðgerðir niðurtíma vegna viðhalds.
@@ -72,7 +74,7 @@ Myndin hér að neðan sýnir dæmi um ítarupplýsingarnar **Niðurtímaaðger�
 
 10. Smellið á **Í lagi** til að byrja að reikna. Heildarfjöldi klukkustunda er sýndur í yfirlitinu **Álag**. Á flipanum **Álag** > **Flokka eftir...** aðgerðasvæðisflokkar, smellið á viðeigandi hnappa til að fá ítarlegra yfirlit yfir úthlutun áætlaðra vinnustunda. Myndin hér að neðan sýnir niðurstöður útreiknings á **Getuálagi**.
 
-![Mynd 3.](media/21-preventive-maintenance.png)
+![Mynd 3](media/21-preventive-maintenance.png)
 
 11. Þegar þú hefur fengið yfirlit yfir álag, ef þú vilt gera leiðréttingar á viðhaldsvinnslum verkbeiðni eða viðhaldsáætlunarlínum skaltu fara aftur í **Niðurtímaaðgerðir vegna viðhalds** og velja línurnar sem á að leiðrétta á **Verkbeiðnir viðhaldsvinnsla sem verða til** og **Áætlunarlínur viðhalds** flýtiflipanna.
 
@@ -89,11 +91,8 @@ Myndin hér að neðan sýnir dæmi um ítarupplýsingarnar **Niðurtímaaðger�
 
 16. Smellið á **Í lagi** til að byrja að reikna. Heildarfjöldi vöruspáa er sýndur í yfirlitinu **Vöruspá**. Á flipanum **Vöruspá** > **Flokka eftir...** aðgerðasvæðisflokkar, smellið á viðeigandi hnappa til að fá ítarlegra yfirlit yfir úthlutun áætlaðra vara. Skýringarmyndin hér fyrir neðan sýnir niðurstöður útreikninga úr **Vöruspá**.
 
-![Mynd 4.](media/22-preventive-maintenance.png)
+![Mynd 4](media/22-preventive-maintenance.png)
 
 - Þú getur afritað eignir frá einni aðgerð niðurtíma vegna viðhalds til annarrar. Í **Öllum aðgerðum niðurtíma vegna viðhalds** velurðu hnappinn **Afrita aðgerðir niðurtíma vegna viðhalds** og gerir val þitt í reitunum **Frá aðgerðum niðurtíma vegna viðhalds** og **Til aðgerða niðurtíma vegna viðhalds** og smelltu á **Í lagi**.
 - Í **Öllum aðgerðum niðurtíma vegna viðhalds** skaltu smella á hnappinn **Viðhaldsskemalínur** eða hnappinn **Virkar verkbeiðnir** til að opna tengda lista og skoða línurnar sem tengjast völdum aðgerðum niðurtíma vegna viðhalds.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

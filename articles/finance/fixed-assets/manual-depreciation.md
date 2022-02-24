@@ -1,10 +1,12 @@
 ---
 title: Handvirkar afskriftir
 description: Þessi grein veitir yfirlit yfir handvirka afskriftaraðferð.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 13811
 ms.assetid: b0e837c9-515a-4aed-9060-5ec94f37edeb
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5b62bbdd5d745bc9d0745cc6fa6d6e8034a61e3
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: 228e6c94042942a26793eb0bebc1186dd4767e7f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674828"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969030"
 ---
 # <a name="manual-depreciation"></a>Handvirkar afskriftir
 
@@ -30,11 +32,11 @@ ms.locfileid: "7674828"
 
 Þegar afskriftarregla fyrir eignir er sett upp og valið er **handvirkt** í svæðinu **aðferð** í síðunni **afskriftarregla** ráðast afskriftir eignasem heyra undir þá afskriftarreglu af prósentunni sem færð er inn fyrir hvert bil í almanaksárinu. Bilin sem sett eru upp sem prósentur fyrir, eru bókuð samkvæmt gildinu sem valið er í á **tímabilstíðni** reit á **Almennt** flýtiflipa í **afskriftareglur** síðu. Hér er gildin sem hægt er að velja:
 
-- Árlega
-- Mánaðarlega
-- Ársfjórðungslega
-- Tvisvar á ári
-- Daglega
+-   Árlega
+-   Mánaðarlega
+-   Ársfjórðungslega
+-   Tvisvar á ári
+-   Daglega
 
 Þegar bókunarbil eru valin, smellið á **handvirk röðun** og stillið prósentur fyrir hvert bókunarbil. Saman skilgreina handvirka röðunin og bókunarbilin afskriftarmagnið, eins og sýnt er í dæmunum hér að neðan. Handvirkar afskriftir eru alltaf reiknaðar sem prósenta af kaupverði. Handvirkar afskriftir fyrir prósentutölurnar sem færðar eru inn í bilin fyrir afskriftir þurfa ekki að vera samanlagt 100 prósent. Handvirkar afskriftir eru sveigjanlega afskriftaraðferð sem oft er notuð til að skilgreina óregluleg afskriftaregla í á **bækur** síða, eins og óreglubundnar afskriftir fyrir sérstakan tilgang (t.d. skattur).
 
@@ -73,6 +75,3 @@ Samtala fyrir prósentutölurnar fyrir öll bilin þurfa ekki að vera 100. Hins
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

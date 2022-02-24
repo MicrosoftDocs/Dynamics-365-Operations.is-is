@@ -1,27 +1,30 @@
 ---
 title: Gerð líkans af lean-fyrirtæki
 description: Þessi grein veitir upplýsingar um lykilhugtök í mótun lean-framleiðslu.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 09/24/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, KanbanFlowSelection, KanbanFlow
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 53141
 ms.assetid: 4f272f2f-ec2c-4b0d-a652-00a63b719b9e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3958d21188163fe95e36ba4b8117ae8314b0fd1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 960ba8851810ff528581144ad863772f18f9fa79
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570202"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430558"
 ---
 # <a name="modeling-a-lean-organization"></a>Gerð líkans af lean-fyrirtæki
 
@@ -51,7 +54,7 @@ Framtíðarstaða virðisstreymis getur verið sett upp sem líkan sem útgáfa 
 
 Virðisstreymið sjálft er sett upp sem rekstrareining. Þess vegna er hægt að nota virðisstraum sem fjárhagsvídd.
 
-Nánari upplýsingar um rekstrareiningar er að finna í [Stofna rekstrareiningu](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md).
+Nánari upplýsingar um rekstrareiningar er að finna í [Stofna rekstrareiningu](../../fin-and-ops/organization-administration/tasks/create-operating-unit.md).
 
 ## <a name="costing-for-lean-manufacturing-based-on-the-production-flow"></a>Kostnaðarútreikning fyrir lean framleiðslu byggt á framleiðsluflæði
 Reglubundin samlegð kostnaðar fyrir framleiðsluflæði leiðréttir tengdan vív-lykil og leyfir ákvörðun frávika fyrir afurðir sem fylgja framleiðsluflæði.
@@ -64,6 +67,3 @@ Fyrir innleiðingar Lean Framleiðslu völdum við nálgun á framleiðsluflæð
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

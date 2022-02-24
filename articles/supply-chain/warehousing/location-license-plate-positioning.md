@@ -2,23 +2,26 @@
 title: Númeraplötustaða staðsetningar
 description: Númeraplötustaða staðsetningar gerir þér kleift að sjá hvar tiltekin númeraplata er á staðsetningu með mörgum vörubrettum, eins og staðsetningu þar sem vörubrettum er raðað ofan á hvort annað.
 author: Mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlate, WHSLocationProfile, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c19f8dcdb7d84b752e0eec56afdb1a1865cfe00b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.7
+ms.openlocfilehash: 7b0ebfb965e5a8f1bfe1857a9642d998dac2faf3
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567608"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430655"
 ---
 # <a name="location-license-plate-positioning"></a>Númeraplötustaða staðsetningar
 
@@ -88,7 +91,7 @@ Kveikja verður á eiginleikanum í staðsetningarforstillingunni fyrir allar st
 1. Veldu **Númeraplötu** og veldu svo **Bæta við töflutengingu**.
 1. Í listanum yfir töflur sem birtist velur þú í dálknum **Tengsl** velur þú **Númeraplötustaða staðsetningar (númeraplata)**. Veldu síðan **Velja** til að bæta **Númeraplötustöðu staðsetningar** við töflutenginguna **Birgðavíddir**.
 
-    ![Töflutengingar.](media/LpTableJoin.png "Töflutengingar")
+    ![Töflutengingar](media/LpTableJoin.png "Töflutengingar")
 
 1. Veldu **Í lagi** til að staðfesta uppfærðar töflutengingar og loka fyrirspurnarritlinum.
 1. Í flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum** skal velja **Breyta fyrirspurn** til að opna fyrirspurnarritilinn að nýju.
@@ -100,7 +103,7 @@ Kveikja verður á eiginleikanum í staðsetningarforstillingunni fyrir allar st
     - **Svæði:** *Númeraplötustaða*
     - **Skilyrði:** *1*
 
-    ![Nýtt svið.](media/LpPositionCriteria.png "Nýtt svið")
+    ![Nýtt svið](media/LpPositionCriteria.png "Nýtt svið")
 
 1. Smelltu á **Í lagi** til að vista breytingarnar og loka fyrirspurnarritlinum.
 
@@ -275,9 +278,6 @@ Nú þegar lokið er við að setja upp eiginleikann *Númeraplötustaða staðs
 1. Á síðunni **Skanna vinnuauðkenni / kenni númeraplötu** skaltu smella á svæðið **Auðkenni** og síðan slá inn auðkenni sölulínunnar.
 1. Taktu eftir að tiltektin segir þér til að taka til vöru *A0002* úr staðsetningu *01A01R1S2B*. Þú færð þessar leiðbeiningar vegna þess að vara *A0002* er á númeraplötunni sem er í stöðu *1* á þeirri staðsetningu.
 
-    ![Staðsetning á stöðu 1.](media/LocationLicensePlatePositioning.png "Staðsetning stöðu 1")
+    ![Staðsetning stöðu 1](media/LocationLicensePlatePositioning.png "Staðsetning stöðu 1")
 
 1. Sláðu inn auðkenni númeraplötunnar sem þú bjóst til fyrir staðsetningu og fylgdu síðan leiðbeiningunum til að velja sölupöntunina.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

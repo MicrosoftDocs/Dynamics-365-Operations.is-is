@@ -1,10 +1,12 @@
 ---
 title: Bilanagreining eignar
 description: Þetta efni skýrir greiningu eignabilunar í eignastýringu.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectFaultCalculate
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 880ed35a9780185836218a5c2a7addb2a47eabd737d6bec99794ecb7a0959791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 674e10b94711b00e526af4af0e0c0afddd05e62c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779279"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022382"
 ---
 # <a name="asset-fault-analysis"></a>Bilanagreining eignar
 
@@ -60,7 +62,7 @@ ms.locfileid: "6779279"
 - Bilanaskráningar hafa verið gerðar á þremur bilunareinkennum: „Loftleka“, „Sprungið öryggi“ og „Búnaður fastur“.  
 - Í dálknum **Líkindi %** leggjast allar prósentur saman að 100%. Líkindi eru byggð á öllum skráningum **Einkenna** í þessari bilagreiningu.
 
-![Mynd 1.](media/06-controlling-and-reporting.png)
+![Mynd 1](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>Flokka eftir einkennum og tímabili
 
@@ -69,7 +71,7 @@ ms.locfileid: "6779279"
 - Bilunareinkennin eru nú sýnd sem skráningar á ári/mánuði.  
 - Í dálknum **Líkindi %**, ef þú bætir við öllum prósentum fyrir hvern mánuð, leggjast þær saman upp að 100%. Líkindi eru byggð á skráningum **Einkenna** í þessari bilagreiningu. Ef þú ert með mikinn fjölda lína á eign, en hærri prósenta stendur upp úr á línu, þá væri það vísbending um bilunareinkenni til að skoða betur til að finna leið til að takmarka fjölda skráninga fyrir það bilunareinkenni.
 
-![Mynd 2.](media/07-controlling-and-reporting.png)
+![Mynd 2](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>Flokka eftir margfeldi einkenna og eigna
 
@@ -84,7 +86,7 @@ Almennt innihalda hnapparnir í **Flokka eftir dagsetningu**, **Flokka eftir eig
 - Bilunareinkennunum er nú skipt upp í samsetningarnar **Eignir** / **Gerð eigna** / **Einkenni**.  
 - Í dálknum **Líkindi %**, ef þú leggur saman allar prósentur fyrir samsetninguna **Eign** / **Eignagerð** / **Einkenni** í þessari röð verður útkoman 100%. Líkindi eru byggð á skráningum **Einkenna** í þessari bilagreiningu. Ef þú ert með mikinn fjölda lína á eign, en hærri prósenta stendur upp úr á línu, þá væri það vísbending um bilunareinkenni til að skoða betur til að finna leið til að takmarka fjölda skráninga fyrir það bilunareinkenni.
 
-![Mynd 3.](media/08-controlling-and-reporting.png)
+![Mynd 3](media/08-controlling-and-reporting.png)
 
 **Flokka eftir tveimur einkennum, eignum og eignategundum**
 
@@ -92,7 +94,7 @@ Almennt innihalda hnapparnir í **Flokka eftir dagsetningu**, **Flokka eftir eig
 
 - Í dálknum **Líkindi %**, ef þú leggur saman allar prósentur fyrir samsetninguna **Eign** / **Eignagerð** / **Einkenni** á eign verður útkoman 100%. Líkindi eru byggð á samsetningunni **Einkenni** og **Svæði** í þessari bilagreiningu. Ef þú ert með mikinn fjölda lína á eign, en hærri prósenta stendur upp úr á línu, þá væri það vísbending um bilunarsvæði til að skoða betur til að finna leið til að takmarka fjölda skráninga fyrir það bilunarsvæði.  
 
-![Mynd 4.](media/09-controlling-and-reporting.png)
+![Mynd 4](media/09-controlling-and-reporting.png)
 
 **Flokka eftir þremur einkennum, eignum og eignategundum**
 
@@ -100,12 +102,9 @@ Almennt innihalda hnapparnir í **Flokka eftir dagsetningu**, **Flokka eftir eig
  
 - Í dálknum **Líkindi %**, ef þú leggur saman allar prósentur fyrir samsetninguna **Eign** / **Eignagerð** / **Einkenni** á eign verður útkoman 100%. Líkindi eru byggð á samsetningunni **Einkenni**, **Svæði** og **Gerð** í þessari bilagreiningu. Ef þú ert með mikinn fjölda lína á eign, en hærri prósenta stendur upp úr á línu, þá væri það vísbending um bilunargerð til að skoða betur til að finna leið til að takmarka fjölda skráninga á þeirri bilunargerð.
 
-![Mynd 5.](media/10-controlling-and-reporting.png)
+![Mynd 5](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]
 >Til að fá yfirlit yfir allar bilanaskráningar sem stofnaðar eru í verkbeiðnum og viðhaldsbeiðnum smellirðu á **Eignastýringu** > **Fyrirspurnir** > **Bilun eignar** > **Bilanir eigna**. Á síðunni **Bilanir eigna** skaltu velja eignarbilunarskráningu og stækka gluggann **Tengdar upplýsingar** til að sjá upplýsingar varðandi tengda verkbeiðni eða viðhaldsbeiðni.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

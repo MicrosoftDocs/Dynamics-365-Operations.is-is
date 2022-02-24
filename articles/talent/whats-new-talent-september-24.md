@@ -46,6 +46,3 @@ Fyrirtæki gefa frí á ólíkan hátt sem byggist á því hvenær starfsmenn b
 ## <a name="known-issue"></a>Þekkt vandamál
 
 -   **Vandamál:** Þegar nýtt viðhengi er bætt við starfsmann eru hnapparnir **Nýtt** og **Breyta** skyggðir. **Hjáleið:** Áður en þú opnar viðhengissíðu skaltu ganga úr skugga um að staðreyndareitir á síðunni **Starfsmenn** séu lokaðir. Ef staðreyndareitir eru lokaðir þegar síðan **Starfsmenn** er hlaðið inn verða hnappar viðhengja gerðir virkir. (Þetta vandamál verður lagað í næstu verkvangsuppfærslu.)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

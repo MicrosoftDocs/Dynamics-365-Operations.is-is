@@ -1,28 +1,30 @@
 ---
-title: Skilgreiningar skipurits í fjárhagsskýrslum
-description: Þessi grein lýsir skilgreiningum skipurits. Skilgreining skipurits er skýrsluíhlutur sem skilgreinir skipulag fyrirtækis.
-author: jinniew
-ms.date: 04/01/2021
+title: Skipuritsskilgreiningar í fjárhagsskýrslum
+description: Þessi skrá upplýsingar um skipuritsskilgreiningar. Skipuritsskilgreining er skýrsluhluti, eða eining, sem aðstoðar við að skilgreina byggingu og stigveldi fyrirtækisins þíns.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 92da476f64b937d339b5f0c6088b8ce722a0584938ccf2a6c6cbd39fdc15544d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ae024c2d791e1219c7383dc95283219a9300eac
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714636"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682674"
 ---
-# <a name="reporting-tree-definitions-in-financial-reports"></a>Skilgreiningar skipurits í fjárhagsskýrslum
+# <a name="reporting-tree-definitions-in-financial-reports"></a>Skipuritsskilgreiningar í fjárhagsskýrslum
 
 [!include [banner](../includes/banner.md)]
 
@@ -52,7 +54,9 @@ skipuritsskilgreining inniheldur dálkana sem lýst er í eftirfarandi töflu.
 | Lýsing einingar      | Titill skipuritseiningar kemur fram í haus eða fæti skýrslunnar ef **UnitDesc** er fært inn sem kóði í flipanum **Hausar og fætur** í skýrsluskilgreiningunni. Titillinn kemur fram í línulýsingu skýrslunnar ef **UnitDesc** er fært inn í hólfið **Lýsing** í línuskilgreiningunni. |
 | Víddir            | Eining skipurits sem sækir upplýsingar beint úr fjárhagsgögnum. Skilgreinir tölfræðilega staðsetningu og lengdir fyrir reikninginn og tengda hluta. Allar línur skipuritseiningar verða að hafa vídd í þessum dálki. Þú getur einnig sett vídd í línu samantektareiningar, (t.d. fyrir útgjöld sem eru beint tengd við þá einingu). Ef vídd er sett inn í línu samantektareiningar ættu reikningar sem notaðir eru í yfireiningum ekki að vera notaðir í undireiningum. Annars gætu upphæðir verið tvíteknir. |
 | Línuskilgreiningar       | Heiti línuskilgreiningar fyrir einingu skipurits. Sama línuskilgreining er notuð fyrir hverja einingu í skipuritinu. Þegar skýrsla er mynduð er þessi línuskilgreining notuð fyrir hverja einingu skipurits. Línuskilgreiningin getur innihaldið marga fjárhagsvíddartengla. Ef línuskilgreining er tilgreind í skipuriti er valinn gátreiturinn **Nota línuskilgreiningu úr skipuriti** í flipanum **Skýrsla** í skýrsluskilgreiningunni. |
-| Fjárhagsvíddatengill| Fjárhagsvíddatengill sem notaður er fyrir einingu skipurits. Fjárhagsvíddatenglar eru skilgreindir fyrir línuskilgreininguna til að auðkenna fjárhagsvíddirnar sem tengja á í. |
+| Línutengill              | Línutengillinn sem notaður er fyrir einingu skipurits. Línutenglar eru skilgreindir fyrir línuskilgreininguna til að auðkenna fjárhagsvíddirnar sem tengja á í. |
+| Ytri tengill         | Línutengillinn sem notaður er fyrir þessa einingu skipurits. Línutenglar eru skilgreindar fyrir línuskilgreiningu til að auðkenna skýrslu sem tengja á við. |
+| Ytri skrá         | Skráarslóð vinnublaðs reikningsskila til að sækja gögn úr. |
 | Valkostir síðu          | Þessi dálkur Stýrir hvort upplýsingar fyrir eining skipurits er falin þegar skýrslan er skoðuð eða prentuð. |
 | Samantekt %              | Hlutfall einingar skipurits sem úthluta á til yfireiningar. Hlutfallið sem fært er inn í þennan dálk á við um hverja línu í línuskilgreiningunni áður en gildinu í línunni er bætt við yfirskýrsluna. Sem dæmi má nefna að ef skipta verður undireiningu jafnt milli tveggja deilda eru fjárhæðirnar í hverri línu margfaldaðar með 50 prósentum áður en virðinu er bætt við deildarskýrsluna. Ein eining skipurits má ekki hafa tvær yfireiningar. Til að úthluta fjárhæðum úr einingu skipurits á tvær yfireiningar skal stofna aðra einingu skipurits með sömu vídd til að taka saman hin 50 prósentin. Færið inn heilar prósentutölur án tugakommu. Til dæmis **25** stendur fyrir úthlutun 25 prósenta til yfireiningarinnar. Ef aukastafur er hafður með (**.25**), er 0,25 prósent er úthlutað á yfireiningu. Til að nota prósentu sem er minni en einn prósent, skal nota **Leyfa Samantekt &lt;1%** valkost í skýrsluskilgreininguna. Þessi valkostur er í flipanum **Aukavalkostir** í svarglugganum **Skýrslustillingar**. Þú færð aðgang að þessum svarglugga úr **Annað** hnappinn á í **Stillingar** flipanum í skýrsluskilgreiningu. |
 | Einingaröryggi         | Takmarkanir fyrir notendur og hópa sem geta fengið aðgang að upplýsingar fyrir eining skipurits. |
@@ -71,7 +75,7 @@ Til að stofna skipuritsskilgreiningu, skal fylgja eftirfarandi skrefum.
     | Hafa með/Staða stafs       | Þessi hluti Birtir víddirnar sem skilgreindar eru í fjárhagsgögnunum og sýnir fjölda stafa í lengsta skilgreinda gildi fyrir hverja vídd. Veljið þennan gátreit fyrir vídd sem skal hafa með í þeirri vídd í stigveldi skipuritsins. |
     | Hlutun stigveldis og sviða     | Þessi hluti sýnir stigveldi vídda. Hægt er að færa víddir til í listanum til að breyta röð þeirra í skýrslu. Tilgreina svið gilda innan hverrar víddar í á **Úr Vídd** og **Til Vídd** reiti. Ef ekkert svið er tilgreint verða öll víddargildi sett inn á skipuritið.<blockquote>[!NOTE] Ef verið er að nota fleiri en ein vídd munu aðeins víddarsamsetningar sem hefur verið bókað á skila sér í niðurstöðum.</blockquote> |
 
-    Fyrir mynd sem sýnir dæmi um **Setja inn einingar skipurits úr víddum** svarglugganum, sjá hlutann „Dæmi um Setja inn einingar skipurits úr víddum-svarglugga“ síðar í þessari grein.
+    Fyrir skjáskot sem sýnir dæmi um **Setja inn einingar skipurits úr víddum** svarglugganum, sjá hlutann „Dæmi um Setja inn einingar skipurits úr víddum-svarglugga“ síðar í þessari grein.
 
 5. Til að stofna viðbótarhluta, (svo sem að skipta einum hluta í tvo styttri), er smellt á rétta staðsetningu í reitnum **Staða stafs** og svo smella á **Skipta hlutum**.
 6. Til að sameina tvo hluta í einn, er smellt í reit annars hlutans sem á að sameina og smella svo á **Sameina hluta**.
@@ -111,10 +115,10 @@ Hvert skipuritsskilgreining er birt í einkvæmum yfirlitum. Til er bæði yfirl
 
 Eftirfarandi gerðir eininga skipurits eru notaðar í reikningsskilum:
 
-- Upplýsingaeining tekur upplýsingar beint úr fjárhagsgögnum.
+- Upplýsingaeining tekur upplýsingar beint úr fjárhagsgögnum, úr Excel-töflureiknisskrá eða úr öðru vinnublaði reikningsskila.
 - Samantektareining tekur saman gögn úr einingum á neðri stigum.
 
-Yfireining í skipuriti er samantektareining sem safnar saman samantektarupplýsingum úr upplýsingaeiningu. samantektareining getur verið bæði upplýsingaeining og samantektareining. Þess vegna getur samantektareining tekið upplýsingar úr einingu á neðra stigi eða fjárhagsgögnum. Yfireining getur verið undireining hærra skipaðrar yfireiningar. Skýrslugerð undireiningu má upplýsingar um einingar sem sækir upplýsingar beint úr fjárhagsgögnum. Undireining í einingu skipurits getur einnig verið millisamantektareining. Með öðrum orðum, það getur verið yfireining af einingar af neðra stigi, og einnig undireining samantektareiningar á hærra stigi. Við Algengustu aðstæður fyrir einingar í skipuriti, hafa yfireiningar auð hólf í dálknum **Víddir** , og undireiningar hafa tengla í tilteknar víddarsamsetningar eða algildisvíddarsamsetningar
+Yfireining í skipuriti er samantektareining sem safnar saman samantektarupplýsingum úr upplýsingaeiningu. samantektareining getur verið bæði upplýsingaeining og samantektareining. Þess vegna getur samantektareining tekið upplýsingar úr einingu á neðra stigi, fjárhagsgögnum, eða Excel-vinnublaði. Yfireining getur verið undireining hærra skipaðrar yfireiningar. Undireining í skipuriti getur verið upplýsingaeining sem sækir upplýsingar beint úr fjárhagsgögnum eða excel-vinnublaði. Undireining í einingu skipurits getur einnig verið millisamantektareining. Með öðrum orðum, það getur verið yfireining af einingar af neðra stigi, og einnig undireining samantektareiningar á hærra stigi. Við Algengustu aðstæður fyrir einingar í skipuriti, hafa yfireiningar auð hólf í dálknum **Víddir** , og undireiningar hafa tengla í tilteknar víddarsamsetningar eða algildisvíddarsamsetningar
 
 ### <a name="organize-reporting-units"></a>Einingar skipurits skipulagðar
 
@@ -158,7 +162,20 @@ Hægt er að koma í veg fyrir að tilteknir notendur eða hópar fái aðgang a
 1. Opnið skilgreiningu skipuritsins í Skýrsluhönnun til að gera breytingar.
 2. Tvísmellið á hólfið **Einingaröryggi** fyrir línu skipuritsins sem á að fjarlægja aðganginn að.
 3. Í svarglugganum **Einingaröryggi** er heiti valið og síðan smellt á **Fjarlægja**.
-4. Smellt er á **OK**.
+4. Smelltu á **Í lagi**.
+
+### <a name="link-to-reports"></a>Tenglar í skýrslur
+
+Þegar dálkur af gerðinni **skýrsla** hefur verið stofnaður í línuskilgreiningunni og tilgreind hefur verið skýrsla sem taka á með í skýrslunni, verður að uppfæra skipuritið með tengda dálknum og skýrsluupplýsingunum. Hægt er að flytja inn skýrslu í hvaða einingu sem er í skipuritinu.
+
+### <a name="identify-the-report-in-a-reporting-tree"></a>Auðkenna skýrsluna í skipuritinu
+
+1. Opnið skilgreiningu skipuritsins í Skýrsluhönnun til að gera breytingar.
+2. Hólfin í dálkinum **Línuskilgreiningar** birta upplýsingar byggðar á upplýsingum um valda línu, vegna þess að nota verður sömu línuskilgreiningu í öllum einingum skipuritsins. Tvísmellið á hólfið **Línuskilgreiningar** og veljið línuskilgreininguna sem inniheldur upplýsingar um skýrsluna.
+3. Í hólfinu **Vinnublaðstengill** fyrir eining skipurits, skal velja heiti tengilsins sem samsvarar skýrslunni.
+4. Í hólfinu **Vinnubókar- eða skýrsluslóð** fyrir eining skipurits, er slegið inn heiti skýrslunnar eða flett til að velja skýrsluna.
+5. Til að tilgreina vinnublaðs í skýrslu, sláið inn nafn vinnublaðs í á **vinnublaðsheiti** hólf.
+6. Endurtakið skref 3 til 5 fyrir hverja eining skipurits sem á að fá gögn úr skýrslu. Til að koma í veg fyrir að röng gögn birtist í skýrslunni þarf að tryggja að rétt skýrsluheiti birtist í samsvarandi einingu í skipuritinu
 
 ## <a name="examples"></a>Dæmi
 ### <a name="reporting-unit-structure--example-1"></a>Uppbygging einingar skipurits - dæmi 1
@@ -170,23 +187,23 @@ Hér er Uppbygging einingar skipurits í eftirfarandi skipuriti:
 - Eining skipurits á læsta upplýsingastigi (Home Sales, Auto Sales, Client Services, og Operations) stendur fyrir deildir í fjárhagsgögnunum. Þessar einingar skipuritsins eru í skyggða svæðinu í skipuritinu.
 - Samantektareiningar á hærri stigum taka saman upplýsingar frá upplýsingaeiningum.
 
-[![Contoso Bygging samantektarskýrslu - Dæmi 1.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Uppbygging einingar skipurits - dæmi 2
 
 Eftirfarandi skipurit sýnir skipurit sem er með uppbyggingu fyrirtækis sem er skipt niður í viðskiptaaðgerðir.
 
-[![Contoso Bygging samantektarskýrslu - Dæmi 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Dæmi um Setja inn einingar skipurits úr víddum svarglugga
 
 Eftirfarandi mynd sýnir dæmi um **Setja inn einingar skipurits úr víddum** svarglugga. Í þessu dæmi skila niðurstöður samsetning viðskiptaeiningar, kostnaðarstaði og deildir.
 
-[![Setja inn einingar skipurits.](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 skipuritsskilgreining sem verður til er raðað eftir viðskiptaeining, og svo eftir kostnaðarstað og svo eftir deild. Vídd fyrir fimmtu eining skipurits er **Viðskiptaeining = \[001\], Kostnaðarstaður =\[\], Deild = \[022\]** og auðkennir eining skipurits fyrir lykla sem tengjast viðskiptaeiningu 001 og deild 022.
 
-[![Mynd af skýrslutrénu.](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Skipurit](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Dæmi um samantekt gagna
 
@@ -194,15 +211,12 @@ Eftirfarandi dæmi sýna mögulegar upplýsingar sem eru notaðar í skipuritssk
 
 #### <a name="example-1"></a>Dæmi 1
 
-[![Samantekt margra fyrirtækja.](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Dæmi 2
 
-[![Samantekt deilda þvert á fyrirtæki.](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

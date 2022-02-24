@@ -1,24 +1,27 @@
 ---
 title: Frestuð vinnsla vöruhúsavinnu
 description: Þetta efnisatriði lýsir virkni sem gerir frestaða vinnslu vörugeymsluaðgerða tiltæka í Dynamics 365 Supply Chain Management.
-author: Mirzaab
+author: josaw1
+manager: tfehr
 ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: cc8321c55bc867db065af0cddf356fb497a956e8
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577865"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430671"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Frestuð vinnsla vöruhúsavinnu
 
@@ -28,7 +31,7 @@ ms.locfileid: "7577865"
 
 Frestuð vinnsluvirkni gerir vöruhússtarfsmönnum kleift að halda áfram að vinna önnur verk meðan aðgerðin er unnin í bakgrunni. Frestuð vinnsla er gagnleg þegar vinna þarf margar vinnulínur og starfsmaðurinn getur látið vinna þá vinnu ósamstillta. Það er einnig gagnlegt þegar netþjónninn getur haft tilfallandi eða óáætlaða aukningu á vinnslutíma og aukinn vinnslutími getur haft áhrif á framleiðni notandans.
 
-Bakgrunnsvinnslu er náð með því að nota SysOperation ramma. Frekari upplýsingar eru í [Yfirlit yfir SysOperation-ramma](/dynamicsax-2012/developer/sysoperation-framework-overview).
+Bakgrunnsvinnslu er náð með því að nota SysOperation ramma. Frekari upplýsingar eru í [Yfirlit yfir SysOperation-ramma](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview).
 
 ## <a name="configuring-the-work-processing-policies"></a>Stilla vinnsluskilmála vinnu
 
@@ -107,9 +110,3 @@ Vinnusvæðið **Vöktun á útleið** hefur tvo reiti sem hjálpa þér að fyl
 ## <a name="deleting-completed-tasks"></a>Eyðing á loknum verkum
 
 Þú getur eytt frestuðum verkefnavinnu sem lokið hefur verið með því að velja þau og eyða þeim á síðunni.
-
-## <a name="additional-resources"></a>Frekari upplýsingar
-
-- [Frestun á úrvinnslu handvirkrar aðgerðar birgðahreyfingar](deferred-processing-manual-inventory-movement.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

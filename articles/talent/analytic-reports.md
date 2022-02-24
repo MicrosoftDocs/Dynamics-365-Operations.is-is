@@ -88,6 +88,3 @@ Einn af frábærum eiginleikum Power BI er hvernig allt myndefni á skýrslusí�
 ## <a name="export-to-excel"></a>Flytja út í Excel
 
 Til að skoða skýrslugögn í Excel er hægt að smella á valmyndina fyrir valkosti (þrír punktar) í myndefni og velja **Flytja út undirliggjandi gögn**. Útflutt gögn flytjast út sem síuð, tekur mið af heimildum notanda í Attract. Frekari upplýsingar eru í [Flytja gögn út úr myndrænum framsetningum](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

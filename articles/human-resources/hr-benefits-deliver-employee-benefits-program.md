@@ -1,33 +1,31 @@
 ---
 title: Leggja fram fríðindaáætlun starfsmanns
-description: Þetta efnisatriði sýnir hvernig á að stofna fríðindaeiningar sem verða notaðar þegar ný fríðindi eru stofnuð.
-author: twheeloc
-ms.date: 08/23/2021
+description: Þessi grein sýnir hvernig á að stofna fríðindaeiningar sem verður notaður þegar ný fríðindi eru stofnuð.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 868ddb9b372b90ec75a5f35ebf3c987f2d39bd74
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: cc02346ebccd04f2b4f6fc7029717a8793d75e0d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066069"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419050"
 ---
 # <a name="deliver-employee-benefits-program"></a>Leggja fram fríðindaáætlun starfsmanns
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Þetta efnisatriði sýnir hvernig á að stofna fríðindaeiningar sem verða notaðar þegar ný fríðindi eru stofnuð. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta verk er ætluð fyrir Launa og Fríðinda stjórnanda.
+Þessi grein sýnir hvernig á að stofna fríðindaeiningar sem verður notaður þegar ný fríðindi eru stofnuð. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta verk er ætluð fyrir Launa og Fríðinda stjórnanda.
 
 
 ## <a name="create-benefit-elements"></a>Stofna fríðindaeiningar
@@ -70,6 +68,3 @@ ms.locfileid: "8066069"
 16. Í reitnum Grunnur skal velja valkost.
 17. Færið inn tölu í reitnum Upphæð eða hlutfall.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

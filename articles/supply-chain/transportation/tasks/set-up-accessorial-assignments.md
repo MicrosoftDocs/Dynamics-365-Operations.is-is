@@ -1,25 +1,28 @@
 ---
 title: Setja upp úthlutun á aukaþjónustu
 description: Þessi verklýsing sýnir hvernig á að setja upp aukalegu úthlutun.
-author: Henrikan
+author: ShylaThompson
+manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSAccessorialAssignment
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0062428cf984a48eeddc8c838f92daac254c4c78
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8d7f48da374a0434130f2cf95bf77a126635cd63
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566048"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430705"
 ---
 # <a name="set-up-accessorial-assignments"></a>Setja upp úthlutun á aukaþjónustu
 
@@ -47,6 +50,3 @@ ms.locfileid: "7566048"
 14. Í reitinn aukagjald skal slá inn númer.
 15. Smellið á „Vista“.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

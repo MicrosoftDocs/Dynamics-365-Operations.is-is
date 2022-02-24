@@ -2,12 +2,15 @@
 title: Samfélagsmiðlaeining
 description: Þetta efnisatriði fjallar um samfélagsmiðlaeiningar og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 2e997cad97d45949c8f542764126a08fb6daa73551079eb2d400d7edfb98ca2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730948"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4413289"
 ---
 # <a name="social-share-module"></a>Samfélagsmiðlaeining
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði fjallar um samfélagsmiðlaeiningar og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Samfélagsmiðlaeiningar gera notendum kleift að miðla vefslóðum rafrænna viðskipta á samfélagsmiðla á borð við Facebook, Twitter, Pinterest og LinkedIn. Einnig er hægt að samnýta vefslóðið vefsíðna með tölvupósti. Samfélagsmiðlaeiningar eru almennt notaðar á upplýsingasíðum vöru (PDPs) til að auðvelda notendum að miðla upplýsingum um vöru.
 
@@ -36,7 +41,7 @@ Sérhver verkvangur samfélagsmiðla kann að rekja kökur og því þurfa svæ�
 
 Eftirfarandi mynd sýnir dæmi um samfélagsmiðlaeiningu sem er notuð á upplýsingasíðu afurðar.
 
-![Dæmi um samfélagsmiðlaeiningu.](./media/ecommerce-socialshare.png)
+![Dæmi um samfélagsmiðlaeiningu](./media/ecommerce-socialshare.png)
 
 ## <a name="social-share-module-properties"></a>Eiginleikar samfélagsmiðlaeiningar
 
@@ -77,6 +82,3 @@ Til að bæta við samfélagsmiðlaeiningu við kaupgluggaeiningu skal fylgja þ
 [Kaupgluggaeining](add-buy-box.md)
 
 [Reglufylgni köku](cookie-compliance.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

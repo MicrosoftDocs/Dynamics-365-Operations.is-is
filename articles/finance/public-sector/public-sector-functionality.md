@@ -1,29 +1,30 @@
 ---
 title: Hið opinbera – heimasíða
-description: Dynamics 365 Finance styður sameiginlegt viðskiptaferli fyrir opinbera geirann. Meðal þessara ferla eru verk fjárhagsáætlanagerðar, innkaupa, viðskiptaskulda og viðskiptakrafna.
-author: v-kiarnd
+description: Microsoft Dynamics 365 Finance býður upp á viðskiptaferli sem bæði opinberi geirinn og einkageirinn nota, eins og verkefni sem tengjast fjárhagsáætlunum, innkaupum, viðskiptaskuldum og viðskiptakröfum.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "20691"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 20691
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f59522ab857445d69012f4cfdfade47c40189266
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: f4a3722cf286909c83b5154137c86508929a2691
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817742"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459219"
 ---
 # <a name="public-sector-home-page"></a>Hið opinbera – heimasíða
 
@@ -59,18 +60,17 @@ Skilgreiningarlykill **hins opinbera** virkjar síður og stýringar sem styðja
 ## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a>Hvernig tengist skilgreiningarlykil hins opinbera öðrum skilgreiningarlyklum?
 Eftirfarandi tafla sýnir upplýsingar um hvernig þessi skilgreiningarlykill tengist öðrum skilgreiningarlyklum.
 
-|   **Upplýsingar**         |              **Lýsing**                                                                                                                                                                                        |
+|            |                                                                                                                                                                                                                     |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Upplýsingar** | **Lýsing**                                                                                                                                                                                                     |
 | Yfirlykill | Enginn                                                                                                                                                                                                                |
 | Undirlyklar | Skilgreiningarlykill **ítarlegrar fjárhagsfærslu** (AdvancedLedgerEntry) skilgreiningarlykill **hins opinbera 1099G** skilgreiningarlykill (Tax1099G) **hins opinbera 1099S** skilgreiningarlykill (Tax1099S) skilgreiningarlykill **franskrar löggjafar** |
 
 
-## <a name="additional-resources"></a>Frekari tilföng
+<a name="additional-resources"></a>Frekari tilföng
+--------
 
 [Áætlun fyrir virkni hins opinbera](plan-public-sector-functionality.md)
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

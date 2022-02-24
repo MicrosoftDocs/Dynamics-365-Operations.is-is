@@ -2,9 +2,11 @@
 title: Bættu frammistöðu rafrænna skýrslugerðarlausna með því að bæta við gagnagjöfum með reiknaða reiti með færibreytum
 description: Þetta efnisatriði útskýrir hvernig hægt er að auka afköst rafrænna skýrslugerðarlausna með því að bæta við gagnagjöfum reiknaðra reita með færibreytum.
 author: NickSelin
-ms.date: 04/23/2021
+manager: AnnBe
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 940b696a06fb46bcd0557f059327cd4340448137
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753671"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681281"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Bættu frammistöðu rafrænna skýrslugerðarlausna með því að bæta við gagnagjöfum með reiknaða reiti með færibreytum
 
@@ -54,9 +56,9 @@ Fyrsta skrefið er að flytja inn dæmið um rafræna skýrslugerðarlausn til a
 
     1. Í aðgerðarúðunni skal velja **Skipta út** \> **Hlaða úr XML-skrá**.
     2. Veljið **Vafra** til að velja viðeigandi skrá fyrir skilgreiningu rafrænnar skýrslugerðar á XML-sniði.
-    3. Veldu **Í lagi**.
+    3. Veljið **Í lagi**.
 
-![Skilgreiningar fluttar inn á síðunni Skilgreiningar.](./media/er-calculated-field-ds-performance-imported-configurations.png)
+![Skilgreiningar fluttar inn á síðunni Skilgreiningar](./media/er-calculated-field-ds-performance-imported-configurations.png)
 
 ## <a name="review-the-sample-er-solution"></a>Yfirfara dæmi um rafræna skýrslugerðarlausn
 
@@ -76,7 +78,7 @@ Fyrsta skrefið er að flytja inn dæmið um rafræna skýrslugerðarlausn til a
 
     Líkanavörpunin í þessari skilgreiningu innleiðir grunngagnalíkanið fyrir eitthvert snið rafrænnar skýrslugerðar sem búið var til fyrir þetta líkan og keyrt í Finance. Þess vegna er efnið í gagnagjafanum **Trans** opið fyrir rafrænum skýrslugerðarsniðum á borð við útdrátt af **líkani** gagnagjafa.
 
-    ![Trans-gagnagjafi á hönnunarsíðu líkanavörpunar.](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![Trans-gagnagjafi á hönnunarsíðu líkanavörpunar](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. Lokið síðunni **Hönnuður líkanavörpunar**.
 5. Lokið síðunni **Líkanavörpun á gagnagjafa**.
@@ -90,7 +92,7 @@ Fyrsta skrefið er að flytja inn dæmið um rafræna skýrslugerðarlausn til a
 
     Þetta snið rafrænnar skýrslugerðar er hannað til að mynda skýrslu um lánardrottnafærslur á XML-sniði.
 
-    ![Snið gagnagjafa og skilgreindar bindingar á sniðseiningum á síðu sniðshönnuðar.](media/er-calculated-field-ds-performance-format.png)
+    ![Snið gagnagjafa og skilgreindar bindingar á sniðseiningum á síðu sniðshönnuðar](media/er-calculated-field-ds-performance-format.png)
 
 5. Lokaðu síðunni **Sniðshönnuður**.
 
@@ -103,7 +105,7 @@ Fyrsta skrefið er að flytja inn dæmið um rafræna skýrslugerðarlausn til a
 1. Veldu fyrirtækið **DEMF**.
 2. Fylgdu leiðbeiningunum í [Kveikja á afkastarakningu rafrænnar skýrslugerðar](trace-execution-er-troubleshoot-perf.md#turn-on-the-er-performance-trace) til að búa til afkastarakningu á meðan snið rafrænnar skýrslugerðar er keyrt.
 
-    ![Svarglugginn Notandafæribreytur.](media/er-calculated-field-ds-performance-format-user-parameters.png)
+    ![Svarglugginn Notandafæribreytur](media/er-calculated-field-ds-performance-format-user-parameters.png)
 
 ### <a name="run-the-er-format"></a><a id="run-format"></a>Keyra snið rafrænnar skýrslugerðar
 
@@ -124,7 +126,7 @@ Nýjar upplýsingar eru nú tiltækar fyrir sum atriði gagnagjafa fyrir núvera
 - Raunverulegur tími sem fór í að ná í gögn með því að nota gagnagjafann
 - Sami tími sýndur sem prósenta af heildartímanum sem fór í að keyra alla líkanavörpunina
 
-![Upplýsingar um keyrslutíma á hönnunarsíðu líkanavörpunar.](./media/er-calculated-field-ds-performance-mapping-2.png)
+![Upplýsingar um keyrslutíma á hönnunarsíðu líkanavörpunar](./media/er-calculated-field-ds-performance-mapping-2.png)
 
 Hnitanetið **Tölfræði um afköst** sýnir að gagnagjafinn **Trans** kallar á VendTrans-töfluna einu sinni. Gildið **\[265\]\[Q:265\]** af gagnagjafanum **Trans** gefur til kynna að 265 færslur lánardrottins hafi verið sóttar úr forritstöflunni og þeim skilað í gagnalíkanið.
 
@@ -137,7 +139,7 @@ Hnitanetið **Tölfræði um afköst** sýnir einnig að núverandi líkanavörp
 
 - Kallað er á lánardrottnatöfluna fyrir hverja endurtekna lánardrottnafærslu, jafnvel þótt sóttar færslur hafi verið bókaðar fyrir aðeins fimm lánardrottna. Af 530 köllum, eru 525 tvítekin. Eftirfarandi mynd sýnir skilaboðin sem berast um tvítekin köll (gagnagrunnsbeiðnir).
 
-![Skilaboð um tvítekna gagnagrunnsbeiðni á hönnunarsíðu líkanavörpunar.](./media/er-calculated-field-ds-performance-mapping-2a.png)
+![Skilaboð um tvítekna gagnagrunnsbeiðni á hönnunarsíðu líkanavörpunar](./media/er-calculated-field-ds-performance-mapping-2a.png)
 
 Takið eftir að af heildarkeyrslutíma líkanavörpunar (u.þ.b. átta sekúndur) hefur meira en 80% (u.þ.b. sex sekúndum) verið eytt í að sækja gildi úr forritstöflunni VendTable. Sú prósenta er of há fyrir tvær eigindir af fimm lánardrottnum, í samanburði við magn upplýsinga úr forritstöflunni VendTrans.
 
@@ -170,9 +172,9 @@ Fylgið þessum skrefum til að nota vistun í skyndiminni og gagnagjafa af ger�
     1. Í rúðunni **Gerðir gagnagjafa** skal stækka **Almennt** og velja **Tómt hólf**.
     2. Veljið **Bæta við rót**.
     3. Í gluggann, í reitinn **Heiti**, skal slá inn **Kassi**.
-    3. Veldu **Í lagi**.
+    3. Veljið **Í lagi**.
 
-    ![Gagnagjafi í kassa á hönnunarsíðu líkanavörpunar.](./media/er-calculated-field-ds-performance-mapping-3.png)
+    ![Gagnagjafi í kassa á hönnunarsíðu líkanavörpunar](./media/er-calculated-field-ds-performance-mapping-3.png)
 
 6. Fylgið þessum skrefum til að bæta við færibreytustilltum gagnagjafa af gerðinni **Reiknaður reitur**:
 
@@ -206,9 +208,9 @@ Fylgið þessum skrefum til að nota vistun í skyndiminni og gagnagjafa af ger�
     4. Veljið **Vista** og lokið svo síðunni **Formúluhönnuður**.
     5. Veljið **Í lagi** til að ljúka við breytingar á völdum gagnagjafa.
 
-9. Veldu **Vista**.
+9. Veljið **Vista**.
 
-    ![Vend-gagnagjafi á hönnunarsíðu líkanavörpunar.](./media/er-calculated-field-ds-performance-mapping-4.png)
+    ![Vend-gagnagjafi á hönnunarsíðu líkanavörpunar](./media/er-calculated-field-ds-performance-mapping-4.png)
 
 10. Lokið síðunni **Hönnuður líkanavörpunar**.
 11. Lokið síðunni **Líkanavarpanir**.
@@ -232,11 +234,11 @@ Endurtakið skrefin í hlutanum [Keyra snið rafrænnar skýrslugerðar](#run-fo
 
 Takiði eftir að leiðréttingar sem voru gerðar á líkanavörpun hafa eytt tvíteknum fyrirspurnum til gagnagrunns. Fjöldi kalla í gagnagrunnstöflur og gagnagjafa fyrir þessa líkanavörpun hefur einnig verið fækkað.
 
-![Rakningarupplýsingar á hönnunarsíðu líkanavörpunar 1.](./media/er-calculated-field-ds-performance-mapping-5.png)
+![Rakningarupplýsingar á hönnunarsíðu líkanavörpunar 1](./media/er-calculated-field-ds-performance-mapping-5.png)
 
 Heildarkeyrslutími hefur verið minnkaður um 20-falt (úr u.þ.b 8 sekúndum í 400 millisekúndur). Afköst á allri lausn rafrænnar skýrslugerðar hefur þar af leiðandi verið endurbætt.
 
-![Rakningarupplýsingar á hönnunarsíðu líkanavörpunar 2.](./media/er-calculated-field-ds-performance-mapping-5a.png)
+![Rakningarupplýsingar á hönnunarsíðu líkanavörpunar 2](./media/er-calculated-field-ds-performance-mapping-5a.png)
 
 ## <a name="appendix-1-download-the-components-of-the-sample-microsoft-er-solution"></a><a name="appendix1"></a>Viðauki 1: Sækja þætti fyrir dæmið um rafræna skýrslugerðarlausn Microsoft
 
@@ -244,9 +246,9 @@ Sækja þarf eftirfarandi skrár og vista þær staðbundið.
 
 | Skrá                                        | Efni |
 |---------------------------------------------|---------|
-| Aukin afköst model.version.1     | [Sýnishorn af skilgreiningu gagnalíkans rafrænnar skýrslugerðar](https://download.microsoft.com/download/4/6/f/46f0f3fa-782b-414a-8f7b-b6c64a388661/Performance_improvement_model.version.1.xml) |
-| Aukin afköst mapping.version.1.1 | [Sýnishorn af skilgreiningu líkanavörpunar rafrænnar skýrslugerðar](https://download.microsoft.com/download/8/9/1/8913a763-afb8-4bf4-aaf1-95ad793ffc5a/Performance_improvement_mapping.version.1.1.xml) |
-| Aukin afköst format.version.1.1  | [Sýnishorn af skilgreiningu á sniði rafrænnar skýrslugerðar](https://download.microsoft.com/download/9/0/c/90c75963-bc78-4edc-9096-556bbe281f10/Performance_improvement_format.version.1.1.xml) |
+| Aukin afköst model.version.1     | [Sýnishorn af skilgreiningu gagnalíkans rafrænnar skýrslugerðar](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Aukin afköst mapping.version.1.1 | [Sýnishorn af skilgreiningu líkanavörpunar rafrænnar skýrslugerðar](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Aukin afköst format.version.1.1  | [Sýnishorn af skilgreiningu á sniði rafrænnar skýrslugerðar](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
 
 ## <a name="appendix-2-configure-the-er-framework"></a><a name="appendix2"></a>Viðauki 2: Skilgreina umgjörð rafrænnar skýrslugerðar
 
@@ -298,6 +300,3 @@ Nánari upplýsingar um skilgreiningarveitur rafrænnar skýrslugerðar er að f
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum](trace-execution-er-troubleshoot-perf.md)
 - [Stuðningur við færibreytur kallar á ER gagnagjafa af reitagerðinni Reiknað](er-calculated-field-type.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,32 +1,30 @@
 ---
-title: Vista verkefnaleiðbeiningar í LCS og spila þær aftur
-description: Þetta efnisatriði útskýrir hvernig á að vista verkefnaleiðbeiningar í Microsoft Dynamics Lifecycle Services (LCS) og spila þær síðan aftur.
-author: twheeloc
-ms.date: 08/23/2021
+title: Vista verkleiðbeiningar í LCS og spila þær aftur
+description: Þessi grein útskýrir hvernig á að vista verkefnaleiðbeiningar í Microsoft Dynamics Lifecycle Services (LCS) og spila þær síðan aftur.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 54251aed1a54f626e5cd6cbd983e3eb4589a02e8
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: b55937c0867117809471f50f1987f7bf12a4b25d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068360"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419031"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Vista verkefnaleiðbeiningar í LCS og spila þær aftur
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 **Umhverfisupplýsingar** 
 
@@ -55,7 +53,7 @@ Fylgja skal þessum skrefum til að vista verkskráningu í LCS.
 10. Búið til verkskráningu.
 11. Þegar þessu er lokið skal velja **Vista í Lifecycle Services**.
 
-    ![Vista í Lifecycle Services.](media/task-guides.png)
+    ![Vista í Lifecycle Services](media/task-guides.png)
 
 12. Veljið BPM-safnið og hnútinn þar sem vista á verkskráninguna.
 
@@ -65,6 +63,3 @@ Fylgja skal þessum skrefum til að endurspila verkefnaleiðbeiningu úr LCS.
 2. Veljið **Opna í LCS**.
 3. Veljið safnið og BPM-hnútinn sem eru með vistuðu verkefnaleiðbeininguna.
 4. Opnið verkefnaleiðbeininguna.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

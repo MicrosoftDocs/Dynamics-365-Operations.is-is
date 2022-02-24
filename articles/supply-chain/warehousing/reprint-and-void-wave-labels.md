@@ -1,22 +1,25 @@
 ---
 title: Endurprenta og ógilda bylgjumerki
 description: Þetta efnisatriði útskýrir hvernig á að ógilda og endurprenta fyrirliggjandi bylgjumerki.
-author: perlynne
+author: GarmMSFT
+manager: PJacobse
 ms.date: 07/09/2020
 ms.topic: article
+ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
-ms.reviewer: kamaybac
+ms.reviewer: PJacobse
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0efa9400a3bf29e4e0dd56d9138cf8c3825556c7
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572338"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4430776"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Endurprenta og ógilda bylgjumerki
 
@@ -215,9 +218,3 @@ Undantekningar vinnu stjórna hegðun lítillar tiltektar. Fylgið þessum skref
 1. Veljið **Stutt tiltekt**.
 1. Veljið undantekningarkóða vinnu sem búinn var til fyrir þessa atburðarás.
 1. Ef rétta undantekningin var valin ætti gátreiturinn **Ógilda og prenta aftur** að vera tiltækur. Veldu þennan reit og staðfestu. Þegar staðfest, verður röð miðarúllunnar sem reiturinn **Smíðakenni merkis** ber kennsl á endurreiknuð út frá breyttu magni vinnulínu. Hún er síðan endurprentuð á tilteknum prentara.
-
-## <a name="additional-resources"></a>Frekari upplýsingar
-
-- [Prentun bylgjumerkis](configure-wave-label-printing.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

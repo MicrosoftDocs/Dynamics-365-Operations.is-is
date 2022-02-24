@@ -2,23 +2,26 @@
 title: Gæðaskoðun
 description: Þetta efnisatriði veitir upplýsingar um eiginleika gæðastjórnunar. Þessi eiginleiki gerir starfsmönnum vöruhúss kleift að gera stuttar skoðanir á staðnum á meðan þeir taka á móti vörum á svæði innhliðs.
 author: mirzaab
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a3a565ea566dd2bf4d8c793b3340c78c9f4ed0a2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565304"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430731"
 ---
 # <a name="quality-check"></a>Gæðaskoðun
 
@@ -299,7 +302,7 @@ Skilgreinið valmyndaratriði þannig að fartæki geti framkvæmt aðgerðina *
 
 #### <a name="receive-pallet-1"></a>Móttaka vörubrettis 1
 
-1. Skráðu þig inn í farsímaforrit vöruhúsakerfis sem notandi fyrir vöruhús *51*. (Sláið inn *51* sem notandakennið og *1* sem aðgangsorðið.)
+1. Skráðu þig inn í vöruhúsaforritið sem notandi fyrir vöruhús *51*. (Sláið inn *51* sem notandakennið og *1* sem aðgangsorðið.)
 1. Farið í **Á innleið \> móttaka innkaupapöntunarlínu**.
 1. Í reitinn **PONUM** skal slá inn innkaupapöntunarnúmerið.
 1. Staðfestið innkaupapöntunarnúmerið.
@@ -310,7 +313,7 @@ Skilgreinið valmyndaratriði þannig að fartæki geti framkvæmt aðgerðina *
 
     Síðan **Gæðaskoðun** sem birtist er með enga innsláttarreiti. Hún er aðeins með staðfestingarhnappinn (gátmerki) neðst og valmyndarhnappinn (**≡**) efst. (Valmyndarhnappurinn er stundum kallaður hamborgari eða hamborgarahnappur.) Til að flýta fyrir gæðaskoðunarferlinu, þegar brettið stenst gæðaskoðun, staðfestir notandinn bara síðuna **Gæðaskoðun**.
 
-    ![Gæðaskoðunarsíða.](media/quality-check.png "Gæðaskoðunarsíða")
+    ![Gæðaskoðunarsíða](media/quality-check.png "Gæðaskoðunarsíða")
 
 1. Veljið staðfestingarhnappinn til að samþykkja gæðaskoðun fyrir bretti 1 úr línu 1.
 
@@ -394,6 +397,3 @@ Frekari upplýsingar um gæðastjórnun má finna í [Gæðastjórnunaryfirlit](
 1. Veljið valmyndarhnappinn (**≡**) efst á síðunni og síðan, í valmyndinni, skal velja **Hætta við** til að fara aftur í valmyndina.
 
 Nú má loka fartækjaforritinu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

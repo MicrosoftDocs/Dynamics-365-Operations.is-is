@@ -1,29 +1,34 @@
 ---
 title: Uppfylla þjónustusamninga yfirlit
 description: Í þessu efnisatriði má fá yfirlit yfir verkþætti til uppfyllingar þjónustusamninga.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/03/2018
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39fe65638c413f5fbc1ea6ad4922e97f6e8fb35e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 65c26c5bcea386e7cdb3a2be95da26dcb53ce44c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985887"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430555"
 ---
-# <a name="fulfill-service-agreements-overview"></a>Uppfylla þjónustusamninga yfirlit
+# <a name="fulfill-service-agreements-overview"></a>Uppfylla þjónustusamninga yfirlit 
 
 [!include [banner](../includes/banner.md)]
+
 
 Í þessu efnisatriði má fá yfirlit yfir verkþætti til uppfyllingar þjónustusamninga. Í þessu efnisatriði er einnig farið yfir skjámyndir sem tengjast hverjum hluta viðskiptaferlis og fjallað um þá verkþætti sem tengjast hverjum hluta viðskiptaferlis.
 
@@ -39,9 +44,9 @@ Eftirfarandi tafla lýsir þeim skjámyndum sem styðja Uppfyllingu þjónustusa
 
 <table>
 <colgroup>
-<col />
-<col />
-<col />
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -62,9 +67,9 @@ Eftirfarandi tafla lýsir þeim skjámyndum sem styðja Uppfyllingu þjónustusa
 <td><p>Stofna og sjá um þjónustuáskriftir.</p></td>
 </tr>
 <tr class="odd">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Fylgjast með og innleiða samning</p></td>
@@ -77,9 +82,9 @@ Eftirfarandi tafla lýsir þeim skjámyndum sem styðja Uppfyllingu þjónustusa
 <td><p>Stofna og sjá um þjónustupantanir.</p></td>
 </tr>
 <tr class="even">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Uppfæra og endurmeta samning</p></td>
@@ -102,6 +107,3 @@ Eftirfarandi tafla lýsir þeim skjámyndum sem styðja Uppfyllingu þjónustusa
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,8 +2,11 @@
 title: LISTJOIN ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin LISTJOIN í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
+manager: kfend
 ms.date: 04/01/2020
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -14,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9346afc88adb89c08098f39a5fd1c2cb82f664af2244b8cafbbe8a4d2f516c6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 28f03e5e6af0f252a994f2e54b57a5ef654f4e67
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755803"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682244"
 ---
 # <a name="listjoin-er-function"></a>LISTJOIN ER-aðgerð
 
@@ -30,7 +33,7 @@ Aðgerðin `LISTJOIN` skilar *Skráalista*-gildi sem samanstendur af nýjum same
 ## <a name="syntax"></a>Málskipun
 
 ```vb
-LISTJOIN (list 1 [, list 2, …, list N])
+LIST (list 1 [, list 2, …, list N])
 ```
 
 ## <a name="arguments"></a>Frumbreytur
@@ -65,21 +68,18 @@ Síðan slærðu inn gagnagjafann **Skrá 2** af gerðinni `Container`. Þessi g
 - **Upphæð**: Þessi reitur inniheldur segð sem skilar gildi af gerðinni `Real`.
 - **IsValid**: Þessi reitur inniheldur segð sem skilar gildi af gerðinni `Boolean`.
 
-![Hönnuðarsíða ER-líkanavörpunar.](./media/er-functions-list-listjoin-image1.gif)
+![Hönnuðarsíðan ER-líkanavörpun](./media/er-functions-list-listjoin-image1.gif)
 
 Í þessu tilfelli skilar segðin `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` nýjum lista sem inniheldur tvær skrár.
 
-![Hönnuðarsíða ER-líkanavörpunar með tveimur færslum.](./media/er-functions-list-listjoin-image2.gif)
+![ER vörpun líkans hönnuður síða með tveimur færslum](./media/er-functions-list-listjoin-image2.gif)
 
 Skipulag listans samanstendur af staka reitnum **Upphæð** af gerðinni `Real` þar sem þessi reitur er eini reiturinn sem er settur fram í öllum frumbreytum sem kalla aðgerðina.
 
-![Reit upphæðar á hönnuðarsíðu líkanavörpunar rafrænnar skýrslugerðar.](./media/er-functions-list-listjoin-image3.gif)
+![ER vörpun líkans hönnuður síða reitur upphæðar](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Listaaðgerðir](er-functions-category-list.md)
 
 [Kemba gagnagjafa af keyrðu sniði rafrænnar skýrslugerðar til að greina gagnaflæði og umbreytingu](er-debug-data-sources.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

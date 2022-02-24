@@ -1,79 +1,78 @@
 ---
 title: Skrá vörur fyrir vöru með ítarlegt vöruhúsakerfi virkt með því að nota komubók
-description: Þetta efnisatriði lýsir aðstæðum sem sýnir hvernig á að skrá vörur með komubók þegar ítarleg felri vöruhúsastjórnunar eru notuð.
-author: Mirzaab
-ms.date: 03/24/2021
+description: Þessi verklýsing sýnir hvernig á að skrá vörur með því að nota vörukomubókina þegar verið er að nota ítarleg vöruhúsakerfisferli.
+author: ShylaThompson
+manager: tfehr
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSJournalTable, WMSJournalCreate, WHSLicensePlate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mirzaab
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e753897d1e21ffebbcbfac48abab4b0549c3553f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ea8b5e03282aa21aa9dfa486b1deaced6af4601c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565256"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430481"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Skrá vörur fyrir vöru með ítarlegt vöruhúsakerfi virkt með því að nota komubók
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði lýsir aðstæðum sem sýnir hvernig á að skrá vörur með komubók þegar ítarleg felri vöruhúsastjórnunar eru notuð. Þetta væri yfirleitt gert með af móttöku starfsmaður.
+Þessi verklýsing sýnir hvernig á að skrá vörur með því að nota vörukomubókina þegar verið er að nota ítarleg vöruhúsakerfisferli. Þetta væri yfirleitt gert með af móttöku starfsmaður. 
 
-## <a name="enable-sample-data"></a>Virkja gögn sýnishorna
+Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum. Þú þarft að hafa staðfest innkaupapöntun með opna innkaupapöntunarlínu áður en byrjað er á þessari handbók. Vara í línu verður að vera í birgðum og því verður að nota afurðarafbrigði og má ekki hafa rakningarvíddir. Og varan þarf að vera tengd við vöruhúsakerfisferli með virkan geymsluvíddarflokk. Vöruhús sem er notað verður að vera virkt fyrir vöruhúsakerfisferli og staðsetning sem er notað fyrir móttöku verður að vera númeraplötustýrð. Ef verið er að nota USMF er hægt að nota reikningsskil 1001, Vöruhús 51 og vöru M9200 til að stofna Innkaupapöntun. 
 
-Til að vinna í gegnum þessar aðstæður með því að nota sýnigögnin og gildin sem eru tilgreind í þessu efnisatriði er nauðsynlegt að nota kerfi þar sem venjuleg sýnigögn eru sett upp og velja þarf lögaðilann *USMF* áður en hafist er handa.
-
-Hægt er að vinna með þessar astæður með því að skipta gildum úr eigin gögnum ef eftirfarandi gögn eru tiltæk:
-
-- Þú þarft að hafa staðfest innkaupapöntun með opna innkaupapöntunarlínu.
-- Varan á línunni verðu að vera á lager. Það má ekki nota afurðarafbrigði og má ekki hafa rakningarvíddir.
-- Varan verður að vera tengd við geymsluvíddarflokk sem er með virkt vöruhúsakerfisferli.
-- Vöruhús sem er notað verður að vera virkt fyrir vöruhúsakerfisferli og staðsetning sem er notað fyrir móttöku verður að vera númeraplötustýrð.
-
-## <a name="create-an-item-arrival-journal-header-that-uses-warehouse-management"></a>Stofna haus vörukomubókar sem notar vöruhúsakerfi
-
-Eftirfarandi aðstæður sýna hvernig á að stofna síðuhaus í komubók vöru sem notar vöruhúsakerfi:
-
-1. Gangið úr skugga um að kerfið innihaldi staðfesta innkaupapöntun sem uppfyllir kröfurnar sem lýst er í fyrri hlutanum. Þessi atburðarás notar innkaupapöntun fyrir fyrirtæki *USMF*, lánardrottnalykil *1001*, vöruhús *51* með pöntunarlínu fyrir *10 bretti* af vörunúmeri *M9200*.
-1. Skráið niður innkaupapöntunarnúmerið sem á að nota.
-1. Farið í **Birgðastjórnun \> Færslubókarfærslur \> Vörumóttaka \> Vörumóttaka**.
-1. Veljið **Nýtt** á aðgerðasvæðinu.
-1. Svarglugginn **Stofna færslubók vöruhúsakerfis** opnast. Veljið færslubókarheiti í svæðinu **Heiti**.
-    - Ef *USMF* sýnigögn eru notuð skal velja *WHS*.
-    - Ef eigin gögn eru notuð verður færslubókin sem er valin að vera með **Athuga tiltektarstaðsetningu** stillt á *Nei* og **Biðgeymslustjórnun** stillt á *Nei*.
-1. Stillið **Tilvísun** á *Innkaupapöntun*.
-1. Stillið **Reikningsnúmer** á *1001*.
-1. Stillið **Númer** á númer innkaupapöntunarinnar sem var tengd fyrir þessa æfingu.
-
-    ![Vörukomubók.](../media/item-arrival-journal-header.png "Vörukomubók")
-
-1. Veldu **Í lagi** til að búa til færslubókarhausinn.
-1. Í hlutanum **Færslubókarlínur** skal velja **Bæta við línu** og færa inn eftirfarandi gögn:
-    - **Vörunúmer** – Stillið á *M9200*. **Svæðið**, **Vöruhúsið** og **Magnið** verður stillt út frá birgðafærslugögnunum fyrir 10 bretti (1000 ea.).
-    - **Staðsetning** – stillt á  *001*. Þessi tiltekna staðsetning rekur ekki númeraplötur.
-
-    ![Lína vörukomubókar.](../media/item-arrival-journal-line.png "Lína vörukomubókar")
-
-    > [!NOTE]
-    > Reiturinn **Dagsetning** ákvarðar dagsetninguna sem verður að skrá magn á lager fyrir þessa vöru í birgðum.  
-    >
-    > **Lotukenni** er fyllt út af kerfinu ef hægt er að auðkenna það úr uppgefnum upplýsingum. Annars þarf að slá þetta inn handvirkt. áskilið svæði skyldusvæði sem tengir þessa skráningu við tiltekna upprunaskjalslínu.  
-
-1. Veljið **Villuleita** á aðgerðasvæðinu. Þetta athugar hvort færslubókin sé tilbúin til bókunar. Ef sannvottun bregst verður að lagfæra villurnar áður en hægt er að bóka færslubókina.  
-1. Svarglugginn **Villuleita færslubók** opnast. Veljið **Í lagi**.
-1. Skoða skilaboðastiku. Skilaboð ættu að birtast sem segja að aðgerðinni sé lokið.  
-1. Á aðgerðasvæðinu skal velja **Bóka**.
-1. Svarglugginn **Bóka færslubók** opnast. Veljið **Í lagi**.
-1. Skoða skilaboðastiku. Skilaboð ættu að birtast um að aðgerðinni sé lokið.
-1. Veljið **Aðgerðir > Innhreyfingarskjal afurðar** á aðgerðasvæðinu til að uppfæra innkaupapöntunarlínuna og bóka innhreyfingarskjal afurðar.
+Skráðu niður númer innkaupapöntunarinnar sem er stofnuð og athugaðu einnig vörunúmer og svæði sem voru notuð fyrir innkaupapöntunarlínuna.
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+## <a name="create-an-item-arrival-journal-header"></a>Stofna haus vörukomubókar
+1. Fara á Vörukomu.
+2. Smellið á „Nýtt“.
+3. Í reitinn Heiti skal slá inn gildi.
+    * Ef verið er að nota USMF, er hægt að færa inn vöruhúsakerfi. Ef verið er að nota önnur gögn, verður heiti færslubókar þú hefur valið að hafa eftirfarandi eiginleika: Athuga tiltektarstaðsetningu verður að vera stillt á Nei og biðgeymslustjórnun verður að vera stillt á nei.  
+4. Í reitnum Númer skal slá inn gildi.
+5. Í reitinn Svæði skal slá inn gildi.
+    * Veljið svæðið sem notað er fyrir innkaupapöntunarlínuna. Þetta virkar sem sjálfgefið gildi sem verður sjálfgefið fyrir allar línur í færslubókinni. Ef þú notaðir vöruhús 51 í USMF velurðu svæði 5.  
+6. Í reitinn vöruhús skal slá inn gildi.
+    * Velja gilt vöruhús fyrir svæðið sem var valið. Þetta virkar sem sjálfgefið gildi sem verður sjálfgefið fyrir allar línur í færslubókinni. Ef verið er að nota dæmagildi í USMF, veljið 51.  
+7. Í reitinn staðsetning skal slá inn gildi.
+    * Velja gilda staðsetningu í vöruhúsinu sem var valið. Staðsetning verður að vera tengd við forstillingu staðsetningar, sem er númeraplötustýrð. Þetta virkar sem sjálfgefið gildi sem verður sjálfgefið fyrir allar línur í færslubókinni. Ef verið er að nota gildi dæmi í USMF, veljið Bulk-008.  
+8. Hægrismellið á felliörina í reitnum Númeraplata og veldu síðan Skoða upplýsingar.
+9. Smellið á „Nýtt“.
+10. Í reitinn Númeraplata skal slá inn gildi.
+    * Skráið niður gildið.  
+11. Smellið á „Vista“.
+12. Lokið síðunni.
+13. Í reitinn Númeraplata skal slá inn gildi.
+    * Færið inn gildi í númeraplötu sem nýverið var stofnuð. Þetta virkar sem sjálfgefið gildi sem verður sjálfgefið fyrir allar línur í færslubókinni.  
+14. Smellið á „Í lagi“.
+
+## <a name="add-a-line"></a>Bæta við línu
+1. Smellið á „Bæta við línu“.
+2. Í reitnum Vörunúmer skal slá inn gildi.
+    * Færið inn vörunúmerið sem var notað í línu innkaupapöntunarinnar.  
+3. Færið inn númer í reitnum „Magn“.
+    * Færið inn magnið sem á að skrá.  
+    * Reiturinn Dagsetning ákvarðar dagsetninguna sem verður að skrá magn á lager fyrir þessa vöru í birgðum.  
+    * Lotukenni er fyllt út af kerfinu ef hægt er að auðkenna það úr uppgefnum upplýsingum. Annars verður að bæta þessu við handvirkt. Þetta er skyldusvæði sem tengir þessa skráningu við tiltekna upprunaskjalslínu.  
+
+## <a name="complete-the-registration"></a>Ljúka við skráninguna
+1. Smella á Villuleita.
+    * Þetta athugar hvort færslubókin sé tilbúin til bókunar. Ef sannvottun bregst verður að lagfæra villurnar áður en hægt er að bóka færslubókina.  
+2. Smellið á „Í lagi“.
+    * Athugaðu skilaboðin eftir að smellt er á Í lagi. Það ættu að vera skilaboð sem segja að færslubókin sé í lagi.  
+3. Smellið á „Bóka“.
+4. Smellið á „Í lagi“.
+    * Eftir að smellt hefur verið í lagi, athuga skilaboðastikunni. Það ættu að vera skilaboð sem segja að aðgerðinni sé lokið.  
+5. Lokið síðunni.
+

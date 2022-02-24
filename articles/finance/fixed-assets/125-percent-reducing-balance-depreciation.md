@@ -1,10 +1,12 @@
 ---
 title: Afskriftir fyrir 125% bókfært virði
-description: Þetta efni sýnir yfirlit yfir 125 prósent minnkandi jafnvægisaðferð við afskriftir.
-author: moaamer
+description: Þessi grein gefur yfirlit yfir afskriftaraðferðina 125 prósent bókfært virði.
+author: saraschi2
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -12,21 +14,21 @@ ms.reviewer: roschlom
 ms.custom: 13871
 ms.assetid: 3abc263e-59d6-4f1a-986d-1be388948bd3
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 605f9fd3dea02e01c2c49b8e1a6cc52310132304
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
-ms.translationtype: MT
+ms.openlocfilehash: 9511917d72a1bb45daf2ce7e4b56d94c17825daf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883519"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969229"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>Afskriftir fyrir 125% bókfært virði
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni sýnir yfirlit yfir 125 prósent minnkandi jafnvægisaðferð við afskriftir.
+Þessi grein gefur yfirlit yfir afskriftaraðferðina 125 prósent bókfært virði.
 
 Þegar afskriftaregla fyrir eignir er sett upp og valið er **125% bókfært virði** í skjámyndinni **Aðferð** á síðunni **Afskriftarreglur** eru eignir sem eru tengdar þessari afskriftareglu, afskrifaðar með sama hlutfall af hundraði á hverju afskriftatímabili. Þessi prósenta er reiknuð á grundvelli líftíma eignarinnar. Til dæmis, ef eign hefur líftímann fimm ár, er prósentan reiknuð sem 25 prósent°(125% ÷ 5).
 
@@ -64,7 +66,7 @@ Ef **reikningsár** er valið sem afskriftaár eru eftirfarandi valkostir tiltæ
 
 ## <a name="example-of-125-reducing-balance-depreciation"></a>Dæmi um afskriftir fyrir 125% bókfært virði
 
-| &nbsp;                         | &nbsp; |
+|                                |        |
 |--------------------------------|--------|
 | Kaupverð               | 11.000 |
 | Hrakvirði                  | 1.000  |
@@ -85,6 +87,3 @@ Aðferðin afskriftir fyrir 125% bókfært virði deilir 125% með líftíma í 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

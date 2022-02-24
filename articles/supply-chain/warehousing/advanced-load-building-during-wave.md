@@ -2,23 +2,26 @@
 title: Ítarleg hleðsluáætlun í bylgju
 description: Í þessu efnisatriði er að finna upplýsingar um ítarlega hleðsluáætlun bylgju, sem úthlutar sjálfkrafa sendingum á fyrirliggjandi bylgjur við bylgjukeyrslu. Þess vegna er hægt að búa til gagnlegar bylgjur sem standa fyrir flutningabíla án þess að þurfa að nota vinnusvæði hleðsluáætlunar.
 author: mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 08e44b4e37f28ec91eeb8e53930de5133607bd66
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 7f51b3d65c8dd1e11296956c37ef9dfe568e5ec2
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574738"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654199"
 ---
 # <a name="advanced-load-building-during-wave"></a>Ítarleg hleðsluáætlun í bylgju
 
@@ -247,6 +250,3 @@ Setja má upp eins mörg sniðmát hleðsluáætlana og þörf er á. En til að
 1. Í sölupöntuninni sem var nýverið stofnuð, í flýtiflipanum **Sölupöntunarlínur**, skal velja **Bæta við línu** til að bæta við annarri línu.
 1. Í nýju línunni skal stilla reitinn **Vörunúmer** á *M9200* og reitinn **Magn** á *1*.
 1. Endurtakið línur 6 til 9 til að taka línuna frá og losa hana í vöruhúsið. Líkt og áður, stofnar kerfið **nýja** sendingu fyrir línuna sem bætt var við. En vegna þess að varan er í vöruflokknum **CarAudio** **nær varan ekki að uppfylla takmarkanirnar sem settar voru upp fyrir blöndunarflokk hleðslunnar**. Þar af leiðandi er henni **bætt við nýja hleðslu**. Ef ekki hefði verið tilgreindur blöndunarflokkur farms í sniðmáti hleðsluáætlunar, hefði þessari sendingu verið bætt við fyrstu hleðsluna.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

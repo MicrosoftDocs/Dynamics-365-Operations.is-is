@@ -2,9 +2,11 @@
 title: Skilgreina færibreytur vinnusvæðis kostnaðarstýringar
 description: Nota þetta ferli til að grunnstilla Vinnusvæði kostnaðarstýringar svo stjórnendur á ýmsum stigum í fyrirtæki geti fengið innsýn inn í kostnaðarhluta þess, eins og og kostnaðarstaði og vöruflokka.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ecc775019445bbe97dd5a0e9198b9c605b1c65322006d912a95a5bb1fbdf879
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9861d6bc83d3f1d62091154a36436627eeccad4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766935"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969354"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Skilgreina færibreytur vinnusvæðis kostnaðarstýringar
 
@@ -56,6 +58,3 @@ Nota þetta ferli til að grunnstilla Vinnusvæði kostnaðarstýringar svo stj�
 27. Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.
     * Eftir að þú hefur valið Stigveldi víddar fyrir kostnaðarhluta skal útvíkka Stigveldi víddar fyrir kostnaðarhluta til að sjá það kostnaðarvirði sem þú vilt. Þú getur t.d. útvíkkað stigveldið í Framleiðslurekstrarkostnaður til að sjá virðið.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -61,6 +61,3 @@ Eftirfarandi gögn eru tiltæk með endurskoðunarferli.
 |Ferill starfsumsóknar | Starfsumsókn (msdyn_JobapplicatonId)<br></br>Staða (msdyn_status) <br></br>Ástæða stöðu (msdyn_statusreason) <br></br>Ástæða fyrir höfnun (msdyn_rejectionreason) |
 | Ferill fyrir laust starf | Laust starf (msdyn_JobopeningId) <br></br>Staða (msdyn_jobopeningstatus) <br></br>Ástæða stöðu (msdyn_jobopeningstatusreason) |
 | Ferill umsækjanda | Umsækjandi (msdyn_CandidateId) |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

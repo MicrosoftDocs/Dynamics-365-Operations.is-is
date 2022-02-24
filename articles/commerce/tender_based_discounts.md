@@ -2,9 +2,11 @@
 title: Útboðsbundin afsláttur
 description: Þetta efni veitir yfirlit yfir virkni sem við skulum láta smásala stilla afslátt fyrir ákveðnar útboðsgerðir.
 author: bebeale
+manager: AnnBe
 ms.date: 10/30/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderDiscount
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 52b9510b2c22157aec27b865115273064bb0e803443306ea20468b93a2ea3ca7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9f6747ff9d68c29612346254928e869d6d34d433
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719466"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962936"
 ---
 # <a name="tender-based-discounts"></a>Útboðsbundin afsláttur
 
@@ -32,7 +34,7 @@ ms.locfileid: "6719466"
 
 Að öðrum kosti gætu smásalar sem ekki bjóða upp á vörumerkt kreditkort viljað hvetja viðskiptavini til að greiða með því að nota aðrar útboðsgerðir, svo sem reiðufé, gjafakort eða vildarpunkta. Með þessum hætti geta þeir hjálpað til við að draga úr kostnaði við afgreiðslugjöld kreditkorta. Þess vegna gætu smásalar veitt afslátt til viðskiptavina sem nota þessar aðrar útboðsgerðir.
 
-Í Microsoft Dynamics 365 Commerce, geta smásalar grunnstillt afsláttarprósentu sem notuð er fyrir uppfylltar línur ef viðskiptavinurinn greiðir með því að nota valinn greiðslumáta. Viðskiptavinurinn getur ákveðið hvort hann greiði hlutagreiðslu eða fulla greiðslu og Commerce ákvarðar viðeigandi afsláttarfjárhæð. Athugaðu að afslátturinn er alltaf gefinn á upphæð fyrir skatta hæfra hlutanna.
+Í Microsoft Dynamics 365 Commerce geta smásalar stillt afsláttarprósentu sem er beitt á hæfar línur ef viðskiptavinurinn borgar með því að nota valda útboðsgerð. Viðskiptavinurinn getur ákveðið hvort hann greiði hlutagreiðslu eða fulla greiðslu og Commerce ákvarðar viðeigandi afsláttarfjárhæð. Athugaðu að afslátturinn er alltaf gefinn á upphæð fyrir skatta hæfra hlutanna.
 
 Útboðsbundin afsláttur keppir ekki við vöruafslátt, eins og reglubundinn eða handvirkan afslátt. Þeir eru alltaf samsettir á vöruafslætti. Þess vegna, jafnvel þótt beinn reglubundinn afsláttur sé notaður á vöru, er útboðsbundnum afslætti ennþá beitt ofan á beinan reglubundinn afslátt. Sömuleiðis, ef þröskuldarafslætti er beitt á færsluna og útboðsbundinn afsláttur lækkar samtöluna undir viðmiðunarmörk, er þröskuldafslætti enn beitt á færsluna.
 
@@ -69,6 +71,3 @@ Söluaðilar velja oft að útiloka sumar vörur, svo sem nýja hluti eða eftir
 
 > [!NOTE]
 > Þegar skilgreiningin **Koma í veg fyrir allan afslátt** er stillt á **Já** verður engum afslætti beitt á vöruna. Ekki einu sinni útboðsbundnum afslætti verður beitt.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

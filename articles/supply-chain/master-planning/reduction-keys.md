@@ -1,27 +1,30 @@
 ---
 title: Minnkunarlyklar samkvæmt spá
 description: Þetta efnisatriði veitir dæmi sem sýna hvernig á að setja upp minnkunarlykil. Hún felur í sér upplýsingar um mismunandi stillingar minnkunarlykla og niðurstöður hverrar fyrir sig. Hægt er að nota minnkunarlykil til að skilgreina hvernig á að lækka spárþarfir.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched, ReqReduceKeyDefaultDataWizard, ReqReduceKey
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19251
 ms.assetid: aa9e0dfb-6052-4a2e-9378-89507c02fdf2
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cbed77fd1abc0e4ae26e2b9ddcc01d3f4a84889f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 1fc2b63bfdec1c663027cb4e551589a705c2164e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570826"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430205"
 ---
 # <a name="forecast-reduction-keys"></a>Minnkunarlyklar samkvæmt spá
 
@@ -86,18 +89,7 @@ Fyrir þetta dæmi hefurðu með eftirfarandi eftirspurnarspá í aðaláætlun.
 
 ### <a name="transactions--reduction-key"></a>Færslur - minnkunarlykill
 
-Ef þú stillir reitinn **Aðferð notuð til að minnka þörf samkvæmt spá** á *Færslur - minnkunarlykill* er þörf samkvæmt spá minnkuð samkvæmt viðurkenndum eftirspurnarfærslum sem gerast á tímabilinu sem er skilgreint af minnkunarlyklinum.
-
-Viðurkennd eftirspurn er skilgreind af reitnum **Lækka spá eftir** á síðunni **Þekjuflokkar**. Ef þú stillir reitinn **Lækka spá eftir** á *Pantanir* eru aðeins færslur sölupöntunar teknar sem viðurkennd eftirspurn. Ef þú stilltir hann á *Allar færslur* eru allar birgðafærslur vegna úthreyfingar sem er ekki innan samstæðu teknar sem viðurkennd eftirspurn. Ef einnig á að líta á samstæðusölupantanir sem viðurkennd eftirspurn skal stilla valkostinn **Taka með samstæðupantanir** á *Já*.
-
-Lækkun spár hefst á fyrstu (elstu) færslu eftirspurnarspár á tímabili minnkunarlykils. Ef magn viðurkenndra birgðafærslna er meira en magnið í línum eftirspurnarspár á sama tímabili minnkunarlykils verður staða á magni birgðafærslna notað til að minnka magn eftirspurnarspár á fyrra tímabili (ef er ónotuð spá).
-
-Ef engin ónotuð spá er eftir á fyrra tímabili minnkunarlykils verður staðan á magni birgðafærslna notað til að minnka spármagnið í næsta mánuði (ef til er ónotuð spá).
-
-Gildið í reitnum **Prósenta** í línum minnkunarlykilsins er ekki notað þegar reiturinn **Aðferð notuð til að minnka þörf samkvæmt spá** er stilltur á *Færslur - minnkunarlykill*. Aðeins dagsetningarnar eru notaðar til að skilgreina tímabil minnkunarlykils.
-
-> [!NOTE]
-> Allar spár sem eru birtar á eða á undan deginum í dag verða hunsaðar og ekki notaðar til að stofna áætlaðar pantanir. Ef til dæmis eftirspurnarspáin þín fyrir mánuðinn er mynduð 1. janúar og þú keyrir aðaláætlanagerð sem inniheldur eftirspurnarspá þann 2. janúar mun útreikningurinn hunsa línu eftirspurnarspár sem er dagsett 1. janúar.
+Ef þú velur **Færslur – minnkunarlykill** er dregið úr spáþörfum í samræmi við færslur sem eiga sér stað á tímabilunum sem minnkunarlykillinn skilgreinir.
 
 #### <a name="example-transactions--reduction-key"></a>Dæmi: Færslur - minnkunarlykill
 
@@ -207,7 +199,7 @@ Taktu eftir að í þessari spá er ekkert greinilegt tímabil milli dagsetninga
 Minnkunarlykill samkvæmt spá er notaður í aðferðunum **Færslur - minnkunarlykill** og **Prósenta - minnkunarlykill** til að lækka þarfir samkvæmt spá. Fylgdu eftirfarandi skrefum til að búa til og setja upp minnkunarlykil.
 
 1. Fara skal í **Aðaláætlanagerð \> Uppsetning \> Þekja \> Minnkunarlyklar**.
-2. Veldu **Nýtt** til að búa til minnkunarlykil.
+2. Velja skal **Nýtt** eða ýta á **Ctrl+N** til að stofna minnkunarlykil.
 3. Í reitinn **Minnkunarlykill** skal færa inn einkvæmt kennimerki fyrir minnkunarlykil samkvæmt spá. Því næst, í reitinn **Heiti** skal færa inn heiti. 
 4. Skilgreindu tímabilin og prósentu minnkunarlykils fyrir hvert tímabil:
 
@@ -235,6 +227,3 @@ Minnkunarlykill samkvæmt spá er notaður í aðferðunum **Færslur - minnkuna
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit aðaláætlana](master-plans.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

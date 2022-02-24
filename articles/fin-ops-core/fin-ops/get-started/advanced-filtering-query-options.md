@@ -1,10 +1,12 @@
 ---
 title: Ítarleg sía og málskipan fyrirspurna
-description: Þetta efni lýsir síunar- og fyrirspurnarmöguleikum fyrir svargluggann fyrir sía/raða ítarlega eða samsvörun virknitáknið á síusvæðinu eða síur fyrir dálkhaus hnitanets.
+description: Þetta efni lýsir síunar- og fyrirspurnarmöguleikum sem eru tiltækar þegar þú notar svargluggann fyrir sía/raða ítarlega eða samsvörun virknitáknið á síusvæðinu eða síur fyrir dálkhaus hnitanets.
 author: jasongre
+manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm
 audience: Application User
@@ -15,19 +17,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 650f1c209b1797973634c788645a4659bff28f13
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070010"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798672"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Ítarleg sía og málskipan fyrirspurna
 
 [!include [banner](../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Þetta efni lýsir síunar- og fyrirspurnarmöguleikum sem eru tiltækar þegar þú notar svargluggann fyrir sía/raða ítarlega eða **samsvörunar**-virknitáknið á síusvæðinu eða síur fyrir dálkhaus hnitanets.
 
@@ -122,9 +121,9 @@ ms.locfileid: "8070010"
 <td>Tvær tvöföldar tilvitnanir í röð (<strong>""</strong>) finna línur án gildis fyrir núverandi dálk.</td>
 </tr>
 <tr>
-<td>(<span class="code">Fyrirspurn um fjármál og rekstur</span>) (Fjárhags- og rekstrarfyrirspurn milli sviga)</td>
+<td>(<span class="code">Finance and Operations fyrirspurn</span>) (Finance and Operations fyrirspurn milli sviga)</td>
 <td>Samsvarar tilgreindri fyrirspurn</td>
-<td>Sláðu inn fyrirspurn sem SQL staðhæfingu á milli sviga með því að nota Finance and Operations fyrirspurnartungumálið.</td>
+<td>Sláðu inn fyrirspurn sem SQL staðhæfingu milli sviga með því að nota Finance and Operations fyrirspurnarmál.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        Sem dæmi um málskipan fyrir síuaðstæður á reit frá gagnagrunni rótarinnar sem og reit frá öðrum gagnagrunna (fyrir síðuna Allir viðskiptavinir)</td>
 </tr>
@@ -243,6 +242,3 @@ Sjá töfluna í næsta hluta fyrir frekari upplýsingar um <strong>SysQueryRang
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,82 +1,92 @@
 ---
-title: Uppsetning tvöfaldra skrifa úr Lifecycle Services
-description: Í þessu efnisatriði er útskýrt hvernig á að setja upp tengingu tvöfaldrar skráningar úr Microsoft Dynamics Lifecycle Services (LCS).
-author: laneswenka
-ms.date: 08/03/2021
+title: Tvöfaldur skrifa uppsetning frá Lifecycle Services
+description: Þetta efni útskýrir hvernig á að setja upp tvískipt tengsl milli nýs umhverfis Finance and Operations og nýs umhverfis Dataverse úr Microsoft Dynamics Lifecycle Services (LCS).
+author: RamaKrishnamoorthy
+manager: AnnBe
+ms.date: 01/06/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 825d6a4b3462077d0f4b3f4275792ea0fe5152df
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063673"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683525"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a>Uppsetning tvöfaldra skrifa úr Lifecycle Services
+# <a name="dual-write-setup-from-lifecycle-services"></a>Tvöfaldur skrifa uppsetning frá Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [preview-banner](../../includes/preview-banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að virkja tvöfalda skráningu úr Microsoft Dynamics Lifecycle Services (LCS).
+Þetta efni útskýrir hvernig á að setja upp tvískipt tengsl milli nýs umhverfis Finance and Operations og nýs umhverfis Dataverse úr Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Ljúka verður við Power Platform samþættinguna eins og lýst er í eftirfarandi efnum:
+Þú verður að vera stjórnandi til að setja upp tvískipt tengingu.
 
-+ [Power Platform Samþætting - Virkja við uppsetningu umhverfis](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
-+ [Power Platform samþætting - Virkja eftir uppsetningu umhverfis](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
++ Þú verður að hafa aðgang að leigjandanum.
++ Þú verður að vera stjórnandi í bæði umhverfi Finance and Operations og umhverfi Dataverse.
 
-## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Setja upp tvöfalda skráningu fyrir ný Dataverse umhverfi
+## <a name="set-up-a-dual-write-connection"></a>Setja upp tvískipt tengingu
 
-Fylgið þessum skrefum til að setja upp tvöfalda skráningu af LCS-síðunni **Upplýsingar um umhverfi**:
+Fylgið eftirfarandi skrefum til að setja tvískipta tengingu.
 
-1. Á síðunni **Upplýsingar um umhverfi** skal stækka hlutann **Power Platform Samþætting**.
+1. Í LCS skaltu fara í verkið.
+2. Veldu **Stilla** til að beita nýju umhverfi.
+3. Veldu útgáfuna. 
+4. Veldu grannfræði. Ef aðeins ein grannfræði er tiltæk er hún sjálfkrafa valin.
+5. Ljúktu við fyrstu skrefin í leiðsagnarforritinu **Uppsetningarstillingar**.
+6. Á flipaum **Dataverse** fylgirðu einu af eftirfarandi skrefum:
 
-2. Veljið hnappinn **Notkun tvöfaldrar skráningar**.
+    - Ef umhverfið Dataverse er þegar veitt fyrir leigjanda þinn getur þú valið það.
 
-    ![Power Platform Samþætting.](media/powerplat_integration_step2.png)
+        1. Stillið valkostinn **Stilla Dataverse** á **Já**.
+        2. Í reitnum **Aðgengilegt umhverfi** velurðu umhverfið sem á að samþætta við Finance and Operations-gögnin þín. Listinn inniheldur öll umhverfi þar sem þú hefur stjórnunarréttindi.
+        3. Veldu gátreitinn **Samþykki** til að gefa til kynna að þú samþykkir skilmálana.
 
-3. Farið yfir skilmálana og veljið því næst **Skilgreina**.
+        ![Flipinn Dataverse þegar umhverfið Dataverse er þegar veitt fyrir leigjandann](../dual-write/media/lcs_setup_1.png)
 
-4. Veldu **Í lagi** til að halda áfram.
+    - Ef leigjandi þinn er ekki þegar með Dataverse umhverfi verður nýtt umhverfi veitt.
 
-5. Hægt er að fylgjast með framvindunni með því að endurhlaða upplýsingasíðu umhverfis með reglulegu millibili. Uppsetning tekur yfirleitt innan við 30 mínútur.  
+        1. Stillið valkostinn **Stilla Dataverse** á **Já**.
+        2. Slá inn heiti fyrir umhverfi Dataverse.
+        3. Veldu svæðið til að dreifa umhverfinu á.
+        4. Veldu sjálfgefið tungumál og gjaldmiðil fyrir umhverfið.
 
-6. Þegar uppsetningunni er lokið koma upp skilaboð þar sem látið er vita hvort ferlið hafi tekist eða ef villa kom upp. Ef uppsetningin mistókst birtast tengd villuboð. Þú verður að laga allar villur sem kunna að vera til staðar áður en þú ferð í næsta skref.
+            > [!NOTE]
+            > Þú getur ekki breytt tungumálinu og gjaldmiðlinum seinna.
 
-7. Veljið **Tengja við Power Platform umhverfi** til að búa til tengingu milli Dataverse og núverandi gagnagrunna umhverfis. Þetta tekur yfirleitt innan við 5 mínútur.
+        5. Veldu gátreitinn **Samþykki** til að gefa til kynna að þú samþykkir skilmálana.
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Tengill á Power Platform-umhverfið.":::
+        ![Dataverse flipann þegar leigjandi þinn er ekki þegar með Dataverse umhverfi](../dual-write/media/lcs_setup_2.png)
 
-8. Þegar tengingin er komin verður tengill sýndur. Notaðu hlekkinn til að skrá þig inn á tvískrifa stjórnunarsvæðið í Finance and Operations umhverfinu. Þaðan er hægt að setja upp einingavarpanir.
+7. Ljúktu við eftirstandandi skrefin í leiðsagnarforritinu **Uppsetningarstillingar**.
+8. Þegar umhverfið hefur stöðuna **Uppsett** skaltu opna síðuna umhverfisupplýsingar. Hlutinn **Dataverse upplýsingar um umhverfi** sýnir nöfn í Finance and Operations umhverfi og Dataverse umhverfi sem eru tengd.
 
-## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Setja upp tvöfalda skráningu fyrir fyrirliggjandi Dataverse umhverfi
+    ![Dataverse kafla um umhverfisupplýsingar](../dual-write/media/lcs_setup_3.png)
 
-Til að setja upp tvöfalda skráningu fyrir fyrirliggjandi Dataverse umhverfi þarf að stofna Microsoft [þjónustubeiðni](../../lifecycle-services/lcs-support.md). Beiðnin verður að innihalda:
+9. Stjórnandi í Finance and Operations umhverfi verður að skrá sig inn á LCS og velja **Hlekkur á CDS fyrir forrit** til að ljúka við tengilinn. Umhverfisupplýsingasíðan sýnir upplýsingar um tengilið stjórnanda.
 
-+ Auðkenni fjármála- og rekstrarumhverfis þíns.
-+ Heiti umhverfis í Lifecycle Services.
-+ Fyrirtækiskennið Dataverse eða umhverfiskennið Power Platform úr Power Platform stjórnendamiðstöðinni. Í beiðninni skal biðja um að kennið verði tilvikið sem notað er fyrir Power Platform samþættingu.
+    Eftir að hlekknum er lokið er staðan uppfærð til **Umhverfistengingu lokið**.
+
+10. Til að opna vinnusvæðið **Sameining gagna** í Finance and Operations umhverfi og stjórna sniðmátunum sem eru í boði, veldu **Hlekkur á CDS fyrir forrit**.
+
+    ![Hlekkur á hnappinn CDS for Apps í Dataverse kafla um umhverfisupplýsingar](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
-> Þú getur ekki aftengt umhverfi með því að nota LCS. Til að aftengja umhverfi skaltu opna **Samþætting gagna** vinnusvæði í Finance and Operations umhverfinu og veldu síðan **Aftengja**.
-
-## <a name="linking-mismatch"></a>Linking mismatch
-
-Mögulegt er að LCS-umhverfi þitt sé tengt við eitt Dataverse tilvik en umhverfi tvöfaldrar skráningar er tengt við annað Dataverse tilvik. Þetta misræmi í tengingu getur valdið óvæntri hegðun og það gæti endað með því að gögn verði send í rangt umhverfi. Það umhverfi sem mælt er með að nota fyrir tvöfalda skráningu er það sem er búið til sem hluti af Power Platform samþættingu og til lengri tíma litið verður þetta eina leiðin til að koma á tengli milli umhverfa.
-
-Ef umhverfið þitt er með misræmi í tengingu sýnir LCS viðvörun á upplýsingasíðu umhverfisins svipað og „Microsoft hefur greint að umhverfið þitt er tengt í gegnum tvöfalda skráningu við annan viðtökustað en er tilgreindur í Power Platform samþættingu, sem ekki er mælt með“:
-
-:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Power Platform misræmi í tengli samþættingar.":::
-
-Ef þessi villa kemur upp eru tvær leiðir í boði eftir því hverjar þarfir þínar eru:
-
-+ [Aftengja og endurtengja umhverfi fyrir tvöföld skrif (endurstilla eða breyta tengingu)](relink-environments.md#scenario-reset-or-change-linking) eins og tilgreint á upplýsingasíðu LCS-umhverfisins. Þetta er ákjósanlegur valkostur vegna þess að þú getur keyrt hann án notendaþjónustu Microsoft.  
-+ Ef þú vilt halda tenglinum í tvöföldum skrifum geturðu beðið notendaþjónustu Microsoft um hjálp við að breyta Power Platform samþættingu til að nota fyrirliggjandi Dataverse umhverfið eins og fjallað er um í hlutanum hér á undan.  
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+> Þú getur ekki aftengt umhverfi með því að nota LCS. Til að aftengja umhverfi skaltu opna vinnusvæðið **Gagnasamþætting** í Finance and Operations umhverfi og veldu síðan **Aftengja**.

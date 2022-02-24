@@ -2,12 +2,15 @@
 title: Auðkenna tilgátu og ákvarða mælieiningar fyrir tilraun
 description: Þetta efnisatriði lýsir því hvernig hægt er að bera kennsl á tilgátuna og árangursmælingar fyrir tilraun sem keyrð verður á vefsvæði rafrænna viðskipta í Dynamics 365 Commerce.
 author: sushma-rao
+manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -15,17 +18,17 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: a143f00eedc2ddb3b54f05f2475a616609af8d5a7b8a4d19d0bbcb021290dfd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43358264a2107fb139c00ce617054be16a74f935
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720933"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4413296"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Auðkenna tilgátu og ákvarða árangursmælingar fyrir tilraun
 Fyrsti áfangi í tilraunaferlinu felur í sér að auðkenna tilgátu tilraunarinnar og ákvarða mælieiningarnar sem fylgst verður með til að meta árangur. Eftirfarandi skýringarmynd sýnir öll skrefin sem taka þátt í [uppsetningu og vinnslu á tilraun](experimentation-overview.md) á vefsvæði rafrænna viðskipta í Dynamics 365 Commerce. Önnur skref eru afgreidd í aðskildum efnisatriðum. 
 
-[ ![Tilraunaferli notanda - Auðkenna.](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
+[ ![Tilraunastarfssemi notanda - Auðkenna](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 
 Tilgáta er yfirlýsing þar sem þú spáir fyrir um útkomu tilraunarinnar. Margir þættir koma við sögu þegar tilgáta er skilgreind, t.d. rannsóknir á hegðun notanda og gögn vefsvæðis sem safnað hefur verið saman. Með tilgátunni skilgreinir þú þá forsendu eða kenningu sem þú vilt sannprófa með tilrauninni. Dæmi um tilgátu fyrir tilraunina gæti verið að „*mynd af hvítum stuttermabol á heimasíðunni minni mun auka fjölda smella frekar en dökkblá peysa yfir sumarmánuðina vegna þess að fólk vill klæðast einhverju léttu og í ljósum litum yfir sumartímann.*“ Í slíku tilfelli býrðu til afbrigði sem innihalda hvítan stuttermabol og dökkbláa peysu og gefur bæði út á sama tíma.
 
@@ -37,6 +40,3 @@ Til að sannprófa tilgátu ætti velgengni eða mislukkun tilraunar að vera te
 
 ## <a name="next-step"></a>Næsta skref
 [Setja upp tilraun](experimentation-setup.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

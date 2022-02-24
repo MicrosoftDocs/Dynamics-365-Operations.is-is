@@ -1,42 +1,41 @@
 ---
 title: Yfirlit yfir reikninga lánardrottna
-description: Þetta efnisatriði veitir almennar upplýsingar um reikninga lánardrottins.
+description: Þetta efnisatriði veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu.
 author: abruer
-ms.date: 06/03/2021
-ms.topic: overview
+manager: AnnBe
+ms.date: 07/17/2019
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "13971"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22535f4bc320bde096214e2044cfeb00d4e9fbbc
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: d51a5ff2dca764a534ea4bf92c30bcf0bf0a5dad
+ms.sourcegitcommit: 51cd470ee885d12f7d51c66201b092aaa16dfaa6
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985338"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4701677"
 ---
 # <a name="vendor-invoices-overview"></a>Yfirlit yfir reikninga lánardrottna
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-
-Þetta efnisatriði veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þeir geta verið byggðir á innkaupapöntunum fyrir tilteknar vörur og þjónustu.
+Þetta efnisatriði veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu.
 
 ## <a name="vendor-invoices"></a>Reikningar frá lánardrottni
 
-Reikningur lánardrottins úr innkaupapöntun er búinn til þegar afurðir eða þjónustur eru mótteknar samkvæmt innkaupapöntun sem var gerð hjá lánardrottni. Reikningur lánardrottins inniheldur haus og ein eða fleiri línur fyrir vörur eða þjónustu. Reikningur lánardrottins lýkur ferlinu úr innkaupapöntun til innhreyfingarskjals afurðar til reiknings lánardrottins.
+Reikning lánardrottins úr innkaupapöntun er reikningur sem er búinn til þegar afurðir eða þjónustur eru mótteknar samkvæmt innkaupapöntun sem var gerð hjá lánardrottni. Reikningur lánardrottins inniheldur haus og ein eða fleiri línur fyrir vörur eða þjónustu. Reikningur lánardrottins lýkur ferlinu úr innkaupapöntun til innhreyfingarskjals afurðar til reiknings lánardrottins.
 
-Þó að sumir reikningar lánardrottins tengist við innkaupapöntun, getur reikninga lánardrottins líka innihaldið línur sem samsvara ekki innkaupapöntunarlínum. Hægt er að búa líka til reikninga lánardrottna sem eru ekki tengdir við neinar innkaupapantanir. Þessir reikningar lánardrottins gætu staðið fyrir yfirstandandi þjónustu eins og rafmagnsreikningi. Ekki þarf að vísa í innkaupapöntun þegar yfirstandandi þjónustu er bætt við.
+Þó að sumir reikningar lánardrottins eru tengdar við innkaupapöntun, getur reikninga lánardrottins líka innihaldið línur sem samsvara ekki innkaupapöntunarlínum. Hægt er að búa líka til reikninga lánardrottna sem eru ekki tengdir við neinar innkaupapantanir. Þessir reikningar lánardrottins gæti standa fyrir yfirstandandi þjónustu eins og rafmagnsreikningur, og þarf ekki að vísa í innkaupapöntun þegar þeim er bætt við.
 
 Það eru nokkrar leiðir til að færa inn reikning lánardrottins:
 
@@ -49,12 +48,12 @@ Eftirfarandi umræðu veita meiri upplýsingar um hvernig á að nota síðurnar
 
 ## <a name="understanding-invoice-line-quantities"></a>Skilja magn reikningslínu
 
-Þegar reikningur lánardrottins er opnaður úr tengdri innkaupapöntun stofnar kerfið reikningslínur úr innkaupapöntuninni. Kerfið tekur að sjálfgefnu magnið úr innhreyfingarskjali afurðar. Hins vegar er hægt að nota eitthvað af eftirfarandi sjálfgefinni hegðun:
+Þegar reikningur lánardrottins er opnuð úr tengdri innkaupapöntun eru reikningslínur stofnaðar úr innkaupapöntuninni. Sjálfgefið er að magn er tekið frá magn á innhreyfingarskjali afurða. Hins vegar er hægt að nota eitthvað af eftirfarandi sjálfgefinni hegðun:
 
-- **Magn sem móttaka á nú** – Nota þennan valkost fyrir hlutasendingar. Kerfið stilltir sjálfgefna gildið í **Magninu** úr magninu sem er gefið upp í reitnum **Móttekið nú** í innkaupapöntuninni.
-- **Pantað magn** – hægt er að Nota þennan valkost fyrir fullbúnar sendingar. Kerfið stilltir sjálfgefna gildið í **Magninu** úr magninu sem er gefið upp í reitnum **Pantað** í innkaupapöntuninni.
+- **Magn sem móttaka á nú** – Nota þennan valkost fyrir hlutasendingar. Sjálfgefna gildið í **Magn** reitnum er tekið úr magninu sem er gefið upp í reitnum **Móttekið nú** í innkaupapöntuninni.
+- **Pantað magn** – hægt er að Nota þennan valkost fyrir fullbúnar sendingar. Sjálfgefna gildið í **Magn** reitnum er tekið úr magninu sem er gefið upp í reitnum **Pantað** í innkaupapöntuninni.
 - **Skráð magn** – notið þennan valkost ef varan þarfnast skráningar sem tilgreind er í **vörulíkanaflokkur** síðu. Sjálfgefna gildið í svæðinu **magn** er efnislega uppfærslumagnið sem hefur verið skráð.
-- **Magn á innhreyfingarskjali afurða** – Notið þennan valkost ef innhreyfingarskjal afurða hefur þegar verið móttekinn fyrir pöntuninni. Kerfið tekur sjálfgefna gildið í reitnum **Magn** úr heildarmagni tiltækra innhreyfingarskjala afurða.
+- **Magn á innhreyfingarskjali afurða** – Notið þennan valkost ef innhreyfingarskjal afurða hefur þegar verið móttekinn fyrir pöntuninni. Sjálfgefna gildið í svæðinu **magn** er frá heildarmagni tiltækra innhreyfingarskjala afurða.
 - **Skráð magn og þjónustur** – Notið þennan valkost ef magn hefur verið skráð í komubókum fyrir vörur í birgðum eða vörur sem ekki eru í birgðum. Þessi valkostur inniheldur einnig þjónustu, án tillits til þess hvort hún sé skráð.
 
 Ef lögaðili þinn notar reikningsjöfnun, geturðu skoða niðurstöður úr jöfnun magns í **jöfnun magns fyrir Innhreyfingarskjal afurða** dálkur. Einnig er hægt að nota hnappinn **Jöfnunarupplýsingar** í **Yfirfara** flipanum í aðgerðarúðunni til að skoða niðurstöður jöfnunar magns.
@@ -65,24 +64,23 @@ Hægt er að bæta við línu sem ekki var á innkaupapöntun við reikning lán
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Sendir reikning lánardrottins til yfirferðar
 
-Fyrirtækið gæti notað verkflæði til að stjórna endurskoðunarferli fyrir lánardrottnareikninga. Hægt er að nota verkflæði yfirferðar fyrir reikningshausa, reikningslínu, eða bæði. Verkflæðisstýringin á við haus eða línu, eftir því hvað áherslan liggur áður en stýringin er valin. Í staðinn fyrir hnappinn **Bóka** sýnir **Senda inn** hnappur sendingu lánardrottnareiknings í gegnum ferli yfirferðar.
+Fyrirtækið gæti notað verkflæði til að stjórna endurskoðunarferli fyrir lánardrottnareikninga. Hægt er að nota verkflæði yfirferðar fyrir reikningshausa, reikningslínu, eða bæði. Verkflæðisstýringin á við haus eða línu, eftir því hvað áherslan liggur áður en stýringin er valin. Í stað **Bóka** hnappinn sjást í **Senda** hnappur sem hægt er að nota til að senda reikning lánardrottins í gegnum yfirferðarferlið.
 
 ### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Kemur í veg fyrir að reikningur verði sendur inn í verkflæði 
 
 Eftirfarandi eru nokkrar leiðir til að koma í veg fyrir að reikningi sé sent inn í verkflæði.
 
-- **Heildarupphæð reiknings og skráðar heildartölur stemma ekki.** Sá sem sendi inn reikninginn fær viðvörun um að samtölurnar séu ekki jafnar. Viðvörunin býður upp á tækifæri til að leiðrétta stöður áður en reikningurinn er sendur aftur í verkflæðið. Þessi eiginleiki er tiltækur ef kveikt er á færibreytunni **Banna innsendingu í verkflæði þegar heildarupphæð reiknings og skráð heildarupphæð reiknings stemma ekki** á síðunni **Eiginleikastjórnun**. 
+- **Heildarupphæð reiknings og skráðar heildartölur stemma ekki.** Sá eða sú sem sendi inn reikninginn mun fá viðvörun um að samtölurnar stemmi ekki svo viðkomandi geti leiðrétt stöðuna áður en reikningurinn er sendur aftur í verkflæði. Þessi eiginleiki er tiltækur ef kveikt er á færibreytunni **Banna innsendingu í verkflæði þegar heildarupphæð reiknings og skráð heildarupphæð reiknings stemma ekki** á síðunni **Eiginleikastjórnun**. 
+
 - **Reikningur inniheldur óúthlutuð gjöld.** Sá eða sú sem sendi inn reikninginn mun fá viðvörun um að reikningurinn sé með óúthlutuð gjöld svo viðkomandi geti leiðrétt reikninginn áður en hann er sendur aftur í verkflæði. Þessi eiginleiki er tiltækur ef kveikt er á færibreytunni **Banna innsendingu í verkflæði þegar það eru óúthlutuð gjöld á reikningi lánardrottins** á síðunni **Eiginleikastjórnun**.
-- **Reikningur inniheldur sama reikningsnúmer og annar bókaður reikningur.** Sá sem sendi inn reikninginn mun fá skilaboð um að reikningur með tvítekið númer hafi fundist. Hægt er að leiðrétta tvítekna númerið áður en reikningurinn er endursendur í vinnuflæðið. Þessi viðvörun verður birt þegar færibreytan **Athuga notað reikningsnúmer** í viðskiptaskuldum er stillt á **Hafna afriti**. Þessi eiginleiki er tiltækur ef kveikt er á færibreytuni **Banna innsendingu í verkflæði þegar reikningsnúmerið er þegar til á bókuðum reikningi og kerfið er ekki sett upp til að samþykkja tvítekin reikningsnúmer** á síðunni **Eiginleikastjórnun**.
-- **Reikningur inniheldur línu þar sem magn reiknings er minna en samsvarandi magn í innhreyfingarskjali afurðar.** Sá sem sendir inn reikninginn eða reynir að birta hann fær skilaboð um að magnið sé ekki jafnt. Skilaboðin bjóða upp á tækifæri til að leiðrétta gildi áður en reikningurinn er sendur aftur í verkflæðið. Þessi eiginleiki er í boði ef kveikt er á færibreytunni **Loka fyrir bókun og innsendingu á reikningum lánardrottna í verkflæði** á síðu **Eiginleikastjórnar** og kveikt er á breytu **Loka fyrir bókun og innsendingu í verkflæði** á síðunni **Færibreytur viðskiptaskulda**.
+
+- **Reikningur inniheldur sama reikningsnúmer og annar bókaður reikningur.** Sá eða sú sem sendi inn reikninginn mun fá viðvörun um að reikningur með tvítekið númer hafi fundist svo viðkomandi geti leiðrétt hann áður en hann er sendur aftur í verkflæði. Þessi viðvörun verður birt þegar færibreytan Viðskiptaskuldir merkt **Athuga reikningsnúmerið sem notað var** er stillt á **Hafna tvítekningu**. Þessi eiginleiki er tiltækur ef kveikt er á færibreytuni **Banna innsendingu í verkflæði þegar reikningsnúmerið er þegar til á bókuðum reikningi og kerfið er ekki sett upp til að samþykkja tvítekin reikningsnúmer** á síðunni **Eiginleikastjórnun**.  
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Jafna lánardrottnareikninga við innhreyfingarskjöl afurða
 
 Hægt er að færa inn og vista upplýsingar fyrir reikninga lánardrottins og hægt er að jafna reikningslínur við línur í innhreyfingarskjali afurðar. Einnig er hægt að jafna hlutamagn fyrir línu
 
 Hægt er að stofna reikning lánardrottins á grundvelli línuvara innhreyfingarskjals afurða sem hafa verið mótteknar fram að þessu, jafnvel þó allar vörurnar fyrir tiltekna innkaupapöntun hafa ekki verið mótteknar enn. Til dæmis er hægt að nota þennan valkost ef lánardrottinn sendir einn reikning á mánuði sem nær yfir allar afhendingar sem eru sendar þennan mánuð. Hvert innhreyfingarskjal afurða birtir hluta eða alla afhendingu varanna á innkaupapöntuninni.
-
-Þegar reikningur er í verkflæði getur samþykktaraðili uppfært reikningsmagn þannig að það samsvari gildinu í reitnum **Magn innhreyfingarskjals afurðar til jöfnunar**. Til að gera það skal velja eiginleikann **Uppfæra reikningsmagn til að samsvara magni innhreyfingarskjals afurðar í verkflæði** á vinnusvæðinu **Eiginleikastjórnun** og velja **Virkja**. Ef samþykktaraðili í verkflæðisferlinu hefur fjarlægt allar jafnanir frá öllum innhreyfingarskjölum afurða úr reikningslínunni, verður reikningslínunni eytt. Þegar þessi eiginleiki er ekki virkur verður reikningsmagn ekki uppfært fyrir reikninga í verkflæði.
 
 Þegar reikningur er bókaður er magn **reikningsafgangs** fyrir hverja vöru uppfært með samtölu móttekins magns úr völdum innhreyfingarskjal afurða. Ef bæði **Reikningsafgangur** magnið og **Eftirstöðvar afhendingar** fyrir allar og vörur á innkaupapöntun jafngildir núlli (0), breytist staða innkaupapöntunar í **Reikningsfært**. Ef magn **Reikningsafgangs** er ekki 0, er staða sölupöntunar óbreytt og hægt er að færa inn viðbótarreikninga fyrir hann.
 
@@ -119,32 +117,9 @@ Verkflæðistilvik sem hefur stöðvast út af óendurkræfri villu verður með
 Hægt er að nota síðuna **Sama verkflæðis** til að endurstilla verkflæðisstöðuna sem **Drög**. Þú getur opnað þessa síðu úr **Reikningur lánardrottins** eða úr **Algengar > Fyrirspurnir > Verkflæði** siglingar. Til að núllstilla stöðu flæðis á **Drög**, veldu **afturkalla**. Þú getur einnig endurstillt stöðu flæðis á Drög með því að velja **Afturkalla** aðgerð á **Reikningur lánardrottins** eða **Bíður reikninga lánardrottins** síðu. Eftir að verkflæðisstaðan hefur verið endurstillt í **Drög** verður hún opin fyrir breytingar á síðunni **Reikningur lánardrottnins**.
 
 ## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Skoðun heildarupphæðar reiknings á síðunni „Reikningar frá lánardrottni í bið“
-
 Hægt er að skoða heildarupphæð reiknings á síðunni **Reikningar frá lánardrottni í bið** með því að virkja færibreytuna **Birta heildarupphæð reiknings á reikningslista lánardrottins í bið** á síðunni **Færibreytur viðskiptaskulda**. 
 
-## <a name="vendor-open-transactions-report"></a>Skýrsla um opnar færslur lánardrottins
 
-Í skýrslunni **Opnar færslur lánardrottins** eru nákvæmar upplýsingar um opnar færslur fyrir hvern lánardrottin frá og með dagsetningunni sem þú gefur upp. Þessi skýrsla er oft notuð í úttektarferlinu þar sem stöður eru staðfestar milli færslna í lánardrottnabók og færslna fjárhagslykils.
-
-Fyrir hverja færslu inniheldur skýrslan eftirfarandi reiti:
-
-- Númer reiknings
-- Færsludagsetning
-- Fylgiskjalsnúmer
-- Færsluupphæð í færslugjaldmiðli og bókhaldsgjaldmiðli
-- Kreditstaða í færslugjaldmiðli og bókhaldsgjaldmiðli
-- Debetstaða í færslugjaldmiðli og bókhaldsgjaldmiðli
-- Upphæð millisamtölu í bókhaldsgjaldmiðli
-- Gjalddagi
-
-### <a name="filter-the-data-on-the-report"></a>Sía á gögnum í skýrslunni
-
-Þegar skýrslan **Opnar færslur lánardrottins** er mynduð eru eftirfarandi sjálfgefnar færibreytur tiltækar. Hægt er að nota þær til að sía gögnin sem verða í skýrslunni.
-
-- **Útiloka síðari jafnanir** – Veldu þennan gátreit til að útiloka færslur sem eru jafnaðar eftir dagsetninguna sem er færð inn í reitinn **Opnar færslur eftir**.
-- **Opnar færslur eftir** – Færðu inn dagsetningu til að hafa með færslur sem eru opnar frá og með þeirri dagsetningu. Ef dagsetning er ekki færð inn er reiturinn stilltur á hámarksdagsetningu. (Hámarksdagsetning er síðasta dagsetningin sem kerfið samþykkir: 31. desember 2154.) Næst þegar skýrslan er keyrð verður þessi reitur sjálfgefið stilltur á síðustu dagsetninguna sem var færð inn.
-
-Hægt er að nota síurnar undir reitnum **Hafa með færslu** til að takmarka enn frekar færslugögnin sem eru í skýrslunni.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -153,6 +128,3 @@ Hægt er að nota síurnar undir reitnum **Hafa með færslu** til að takmarka 
 - [Færa reikningsgögn inn í viðskiptaskuldir með færslubókarsamþykkt](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Færa reikningsgögn inn í viðskiptaskuldakerfi með reikningasafni](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [Skrá reikning lánardrottins í reikningabók](tasks/record-vendor-invoice-invoice-journal.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

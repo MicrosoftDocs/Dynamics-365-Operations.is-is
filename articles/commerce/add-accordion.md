@@ -2,12 +2,15 @@
 title: Fellingareining
 description: Þetta efnisatriði fjallar um fellingareiningar og útskýrir hvernig á að bæta þeim við síður svæða í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fa2515a0cbc5b69a1a69e15ec9e1ba2739fa2fbeffb5b0eb22b49fd8cab18e6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2bb18539f610e5af05f8d9a20a0ba9f34db5c94f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719528"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413077"
 ---
 # <a name="accordion-module"></a>Fellingareining
 
@@ -28,13 +31,15 @@ ms.locfileid: "6719528"
 
 Þetta efnisatriði fjallar um fellingareiningar og útskýrir hvernig á að bæta þeim við síður svæða í Microsoft Dynamics 365 Commerce.
 
+## <a name="overview"></a>Yfirlit
+
 Fellingareiningar líta út eins og hólfaeiningar sem eru notaðar við skipulagningu upplýsinga eða eininga á síðu með því að bjóða upp á möguleika sem lítur út eins og skúffa sem hægt er að draga út. Fellingareiningar er hægt að nota á öllu síðum.
 
 Innan hverrar fellingareiningar er hægt að bæta við einu eða fleiri fellingareiningaratriðum. Sérhvert atriði fellingareiningar felur í sér opnanlega skúffu. Innan hvers fellingareiningaratriðis er hægt að bæta við einni eða fleiri einingum. Engar takmarkanir eru á þeim gerðum eininga sem hægt er að bæta við fellingareiningaratriði.
 
 Eftirfarandi mynd sýnir dæmi um fellingareiningu sem er notuð til að halda skipulagi á upplýsingum á síðu verslunar með algengum spurningum.
 
-![Dæmi um fellingareiningu.](./media/ecommerce-accordion.PNG)
+![Dæmi um fellingareiningu](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>Eiginleikar fellingareiningar
 
@@ -82,6 +87,3 @@ Til að bæta fellingareiningu við síðu algengra spurninga og stilla eiginlei
 [Flipaeining](add-tab.md)
 
 [Textabálkseining](add-content-rich-block.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

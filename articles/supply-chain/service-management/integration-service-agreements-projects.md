@@ -1,26 +1,29 @@
 ---
 title: Samþætting fyrir þjónustusamninga og verk
 description: Þegar unnið er með þjónustusamninga og þjónustusamningslínur eru notuð gögn sem sett eru upp í svæðunum í „Verkefnastjórnun og bókhald“.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjParameters
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a43a8bab6a5e5ea527f4a062feea79b4313cb56f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 578e4b9fe5ef487e999fd0de28d7566bad21fd89
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578801"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430552"
 ---
 # <a name="integration-for-service-agreements-and-projects"></a>Samþætting fyrir þjónustusamninga og verk 
 
@@ -80,6 +83,3 @@ Einnig er hægt að virkja reitina **Upphafstími** og **Lokatími** í flipanum
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

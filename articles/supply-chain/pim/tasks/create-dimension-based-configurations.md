@@ -1,24 +1,27 @@
 ---
 title: Stofna skilgreiningar sem byggja á víddum
 description: Þessi verklýsing sýnir hvernig á að skilgreina vöru sem byggja á víddum.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, EcoResDimensionBasedConfiguration, ConfigChooseFromRoute, ConfigChooseFromGroup, ConfigChoiceApprove
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d244170d9cbde00e3fe94b291348e9b0e6040813
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c3e5cd2677480b14739f963cf4a74efaa7f2bd2a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565579"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430338"
 ---
 # <a name="create-dimension-based-configurations"></a>Stofna skilgreiningar sem byggja á víddum
 
@@ -26,30 +29,27 @@ ms.locfileid: "7565579"
 
 Þessi verklýsing sýnir hvernig á að skilgreina vöru sem byggja á víddum. Þetta er síðasta ferli af röðinni sem útskýrir hvernig á að byggja upp samsetningar fyrir víddaskilgreiningu. Framkvæmd þessa ferlis byggir á gögn sem voru stofnuð í fyrri sjö skráningar. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
-## <a name="find-the-dimension-based-product-master"></a>Finna afurðarsniðmát sem byggja á víddum
 
-1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
-1. Í listanum skal merkja valda línu.
+## <a name="find-the-dimension-based-product-master"></a>Finna afurðarsniðmát sem byggja á víddum
+1. Smellið á Viðhald útgefinnar afurðar.
+2. Smella á Útgefnar afurðir.
+3. Í listanum skal merkja valda línu.
     * Veljið sniðmát afurða sem byggja á víddum sem var stofnaður í fyrstu skráningu í þessari röð 8 skráninga.  
 
 ## <a name="create-configurations"></a>Stofna skilgreiningar
-
-1. Á aðgerðasvæðinu **Hönnun** skal velja **Viðhalda afbrigðum**.
-1. Veljið **Skilgreina**.
-1. Í listanum skal merkja valda línu.
-1. Í reitinn **Vörunúmer** skal slá inn eða velja gildi.
+1. Smellt er viðhalda skilgreiningum á tækniaðgerðarúðu.
+2. Smellt er á Skilgreina.
+3. Í listanum skal merkja valda línu.
+4. Í reitinn Vörunúmer skal slá inn eða veldu gildi.
     * Velja einhverja af vörunum í fyrsta afbrigðaflokki.  
-1. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-1. Í reitinn **Vörunúmer** skal slá inn eða velja gildi.
+5. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+6. Í reitinn Vörunúmer skal slá inn eða veldu gildi.
     * Veljið hvaða vöru sem er úr seinni skilgreiningarflokk.  
-1. Veljið **Í lagi**.
-1. Í listanum skal merkja valda línu.
-1. Í reitinn **Skilgreining** skal slá inn gildi.
+7. Smellið á „Í lagi“.
+8. Í listanum skal merkja valda línu.
+9. Í reitinn skilgreining skal slá inn gildi.
     * Færið inn heiti skilgreiningar sem gerir auðvelt að bera kennsl á skilgreiningu.  
-1. Í reitinn **Lýsing** skal slá inn gildi.
+10. Sláið inn gildi í reitnum „Lýsing“.
     * Færið inn lýsingu á skilgreiningu til að lýsa hvað hún inniheldur.  
-1. Veljið **Í lagi**.
+11. Smellið á „Í lagi“.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

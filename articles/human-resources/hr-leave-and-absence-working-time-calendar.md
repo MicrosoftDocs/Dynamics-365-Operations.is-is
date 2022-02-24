@@ -1,33 +1,31 @@
 ---
 title: Búa til dagatal fyrir vinnutíma
 description: Tilgreindu vinnutímadagatal, frídaga og vinnutíma í Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 10/28/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 54aa85acb43c1e9a474bea9996c72c7e7017c245
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 2bedbe65f146c4159c2a809de8f683815fd4a01f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068920"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419004"
 ---
 # <a name="create-a-working-time-calendar"></a>Búa til dagatal fyrir vinnutíma
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Vinnutímadagatal í Dynamics 365 Human Resources sýnir daga og tíma sem starfsmenn vinna í fyrirtækinu þínu. Þegar starfsmaður leggur fram beiðni um leikhlé þurfa þeir ekki að hafa áhyggjur af hátíðum og lokunum.
 
@@ -67,7 +65,7 @@ Settu upp að minnsta kosti eitt vinnutímadagatal sem sýnir daga og vinnutíma
 
 Þú getur bætt við eða breytt tíma án vinnu aðskildum frá dagatali fyrir vinnutíma.
 
-1. Á **Stjórn stofnunarinnar** síðu, veldu **VINNUTÍMI**.
+1. Á síðunni **Fyrirtækisstjórnun** skal velja **Tími án vinnu**.
 
 2. Veldu **Nýtt** og sláðu inn heiti og tímabil fyrir tíma án vinnu.
 
@@ -77,6 +75,3 @@ Ef þú hefur gert kleift að forskoða eiginleikann Leyfi og fjarvistir vegna o
 
 - [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)
 - [Grunnstilla gerðir leyfis og fjarvista](hr-leave-and-absence-types.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

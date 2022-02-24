@@ -2,13 +2,16 @@
 title: Setja upp smásöluafurðir
 description: Þetta efnisatriði lýsir því hvernig afurðir eru settar upp í Dynamics 365 Commerce.
 author: jblucher
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailProductAndCategoryWorkspace, EcoResProductDetails
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 14f18cb18a068983579d64fa37668be898fe0252fb0759603b7d0a14ec0e0181
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2c5a8976973203a943a2cec7658a2998c54f279
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745259"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413236"
 ---
 # <a name="set-up-retail-products"></a>Setja upp smásöluafurðir
 
@@ -37,6 +40,3 @@ ms.locfileid: "6745259"
 4. **Bæta afurðum við vöruúrvalið** Vöruúrval stendur fyrir safn afurða sem á að bjóða í rásunum. Hægt er að úthluta einu eða fleiri vöruúrvali og hverri afurð er hægt að úthluta á eitt eða fleiri vöruúrval. Til að tengja afurðir við rásir skal úthluta úrvali á þær rásir. Þegar vöruúrval er stofnað er hægt að bæta við afurðum sem hafa ekki enn verið losaðar til lögaðila. Hins vegar verðu að losa afurðirnar til lögaðila áður en hægt er að gera þessar afurðir tiltækar fyrir rásirnar.
 5. **Bæta afurðum við skoðunarstigveldi.** Áður en hægt er að skoða afurðir á netinu eða á sölustaðnum (POS), verður að flokka þær í yfirlitsstigveldi Commerce.
 6. **Bæta afurðum við vörulista.** Þótt þetta þrep sé valfrjálst fyrir POS, krefjast netverslanir að afurðir séu í að minnsta kosti einu vörulista.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

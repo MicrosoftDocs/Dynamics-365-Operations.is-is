@@ -2,9 +2,11 @@
 title: Rafræn skýrsla ítarlegur ritill fyrir formúlu
 description: Þetta efni lýsir því hvernig hægt er að nota háþróaða formúluritilinn til að stilla segðir í líkanavörpun rafrænnar skýrslugerðar (ER) og sniðhlutum.
 author: NickSelin
-ms.date: 06/17/2021
+manager: AnnBe
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERExpressionDesignerFormula
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58d7a936f94e1cd453c904ef6404e0db65083c54235c8420b9cfa561bcde1584
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 14eb8a59b64a49649768f93befdf8e6e8dcf8105
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714660"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685384"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Rafræn skýrsla ítarlegur ritill fyrir formúlu
 
@@ -45,29 +47,16 @@ Ljúktu eftirfarandi skrefum til að byrja að nota ítarlega formúluritara í 
 2.  Á síðunni **Skilgreiningar**, í aðgerðarúðunni, í flipanum **Skilgreiningar**, í flokknum **Ítarlegar stillingar**, skal velja **Færibreytur notanda**.
 3.  Í svarglugganum **Færibreytur notanda**, í hlutanum **Rakning keyrslu**, skal stilla færibreytuna **Kveikja á ítarlegum formúluritli** á **Já**.
 
-[![Svarglugginn Notandafæribreytur, Virkja færibreytu ítarlegs formúluritils auðkennt.](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
+[![Skilgreiningarsíða í ER](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 
 > [!NOTE]
 > Hafðu í huga að þessi færibreyta er notandasértæk og fyrirtækjasértæk.
-
-Frá og með Microsoft Dynamics 365 Finance útgáfu 10.0.19 er hægt að stjórna því hvaða formúluritill rafrænnar skýrslugerðar er sjálfgefið boðið upp á. Ljúkið eftirfarandi skrefum til að virkja ítarlegan formúluritil fyrir alla notendur og fyrirtæki núverandi fjármálatilviks.
-
-1.  Opnaðu vinnusvæðið **Eiginleikastjórnun**.
-2.  Finnið og veljið eiginleikann **Stilla ítarlegan formúluritil rafrænnar skýrslugerðar sem sjálfgefinn fyrir alla notendur** úr listanum og veljið síðan **Virkja núna**.
-3.  Farið í **Fyrirtækisstjórnun** > **Rafræn skýrslugerð** > **Skilgreiningar**.
-4.  Á síðunni **Skilgreiningar**, í aðgerðarúðunni, í flipanum **Skilgreiningar**, í flokknum **Ítarlegar stillingar**, skal velja **Færibreytur notanda**.
-5.  Í svarglugganum **Færibreytur notanda** skal finna færibreytuna **Slökkva á ítarlegum formúluritli** og staðfesta að hún sé stillt á **Nei**.
-
-[![Svarglugginn Notandafæribreytur, Slökkva á færibreytu ítarlegs formúluritils auðkennt.](./media/ER-AdvEditor-Activate2.png)](./media/ER-AdvEditor-Activate2.png)
-
-> [!NOTE]
-> Gildi færibreytanna **Kveikja á ítarlegum formúluritli** og **Slökkva á ítarlegum formúluritli** er haldið aðskildum fyrir hvern notanda og boðið upp á í svarglugganum **Færibreytur notanda** eftir því hver staðan er á eiginleikanum **Stilla ítarlegan formúluritil rafrænnar skýrslugerðar sem sjálfgefinn fyrir alla notendur**.
 
 ## <a name=""></a><a name="Autoformatting">Sjálfvirk snið á kóðum</a>
 
 Þegar þú skrifar flókna segð sem samanstendur af mörgum línum af kóða verður inndráttur á nýrri innfellda línu sjálfkrafa byggður á inndrætti fyrri raðar. Þú getur valið línur og breytt ídrætti þeirra með því að slá inn **Flipi** eða **Shift+Tab**.
 
-[![Gif-mynd af formúluritli rafrænnar skýrslugerðar þar sem línur eru valdar og inndrætti breytt.](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
+[![ER-formúluritill](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
 
 Sjálfvirk snið gerir þér kleift að halda allri segðinni vel sniðinni til að gera frekara viðhald auðveldara og til að einfalda skilning á stilltu rökfræði.
 
@@ -75,7 +64,7 @@ Sjálfvirk snið gerir þér kleift að halda allri segðinni vel sniðinni til 
 
 Ritillinn veitir lok orða til að hjálpa þér að skrifa segð hraðar og forðast innsláttarvillur. Þegar þú byrjar að bæta við nýjum texta býður ritillinn sjálfkrafa upp lista yfir aðgerðir studdar í ER aðgerðum sem innihalda stafi sem þú hefur slegið inn. Þú getur einnig kveikt á IntelliSense á hverjum stað sem er stillt með því að slá inn **Ctrl+Bil**.
 
-[![Gif-mynd af formúluritli rafrænnar skýrslugerðar þar sem IntelliSense er ræst.](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
+[![ER-formúluritill](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
 ## <a name=""></a><a name="CodeCompletion">Kóðalok</a>
 
@@ -85,7 +74,7 @@ Ritillinn gefur sjálfkrafa út kóðalok með:
 - Að setja annað tilvitnunartáknið inn þegar það fyrsta er slegið inn og halda bendilnum inni í tilvitnunum.
 - Að setja annað tvöfalda tilvitnunartáknið inn þegar það fyrsta er slegið inn og halda bendilnum inni í tilvitnunum.
 
-[![Gif-mynd af formúluritli rafrænnar skýrslugerðar þar sem ritill setur inn kóða sjálfkrafa.](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
+[![ER-formúluritill](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
 
 Þegar þú bendir á innsleginn sviga er seinni sviginn í parinu sjálfkrafa auðkenndur til að sýna uppbygginguna sem þeir styðja.
 
@@ -101,7 +90,7 @@ Til dæmis, til að hoppa til línu **8** gerirðu eftirfarandi:
 
 - Ýttu á **F1**, sláðu inn **G**, veldu **Fara í línu**, sláðu inn gildið **8** og ýttu síðan á **Færa inn**.
 
-[![Gif-mynd af formúluritli rafrænnar skýrslugerðar þar sem sýnt er hvernig á að hafa upp á hlutum segðar með skipanatöflu.](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
+[![ER-formúluritill](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
 ## <a name=""></a><a name="CodeStructuring">Uppbygging kóða</a>
 
@@ -123,7 +112,7 @@ Til að brjóta öll svæði sundur gerirðu eftirfarandi:
   
 - Ýttu á **F1**, sláðu inn **UN**, veldu **Brjóta allt sundur** og ýttu síðan á **Færa inn**
 
-[![Gif-mynd af formúluritli rafrænnar skýrslugerðar þar sem kóði er sýndur.](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
+[![ER-formúluritill](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
 ## <a name=""></a><a name="FindAndReplace">Finna og skrifa yfir</a>
 
@@ -151,13 +140,13 @@ Til að breyta öllum tilvikum ákveðins texta skaltu velja textann í segðinn
   
 - Ýttu á **F1**, sláðu inn **C**, og veldu síðan nauðsynlegan valkost til að breyta völdum texta. Sláðu inn annan texta.
 
-[![Gif-mynd af formúluritli rafrænnar skýrslugerðar þar sem finna og skipta út er sýnt.](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
+[![ER-formúluritill](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
 
 ## <a name=""></a><a name="DataPasting">Gagnaheimildir og aðgerðir líma</a>
 
 Þú getur valið **Bæta við gagnagjafa**, sem límir við núverandi segð gagnagjafa sem er nú valinn á vinstra spjaldinu **Gagnagjafi**. Eins geturðu valið **Bæta við aðgerð**, sem límir við núverandi segð aðgerð sem er nú valinn á hægra spjaldinu **Aðgerðir**. Ef þú notar ER formúluritilinn, verður valin aðgerð eða valinn gagnagjafi alltaf límd í lok stilltrar segðarinnar. Þegar þú notar ítarlegan ER-formúluritilinn er hægt að líma valda aðgerð eða valinn gagnagjafa við einhvern hluta stilltrar segðarinnar. Þú verður að nota bendilinn til að tilgreina hvar þú vilt líma gögnin.
 
-[![Gif-mynd af formúluritli rafrænnar skýrslugerðar þar sem gagnagjafa er bætt við og aðgerð límd.](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
+[![ER-formúluritill](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 
 ## <a name=""></a><a name="SyntaxColorization">Málskipunarlýsing</a>
 
@@ -165,7 +154,7 @@ Eins og er eru mismunandi litir notaðir til að varpa ljósi á eftirfarandi hl
 
 - Textinn í tvöföldum sviga sem getur táknað merkimiða kennis textafasta.
 
-[![ER-formúluritill.](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
+[![ER-formúluritill](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
 
 ## <a name="limitations"></a>Takmarkanir
 
@@ -182,6 +171,3 @@ Ritillinn er nú studdur í eftirfarandi vöfrum:
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)
 - [Mónakó-ritill](https://microsoft.github.io/monaco-editor)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

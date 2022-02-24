@@ -1,32 +1,30 @@
 ---
 title: Auka afköst með sjálfvirkum hreinsunarverkum
-description: Þetta efnisatriði útskýrir hvernig á að bæta frammistöðu í Microsoft Dynamics 365 Human Resources með því að hreinsa upp runuvinnsluferil.
-author: twheeloc
-ms.date: 08/21/2021
+description: Þessi grein útskýrir hvernig á að leysa nokkur árangursmál hjá Microsoft Dynamics 365 Human Resources með því að hreinsa upp sögu runuvinnslunnar.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: a293b128364b8b0b293da03495d55e46f6b01fd6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: a983fde8ba393ab25f2b330014e04a1379f0e4d0
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066094"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418970"
 ---
-# <a name="optimize-performance-with-auto-cleanup-tasks"></a>Auka afköst með sjálfvirkum hreinsunarverkum
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+# <a name="optimize-performance-with-auto-cleanup-tasks"></a>Fínstilltu árangur með sjálfvirkum hreinsunarverkum
 
 **Úthreyfing**
 
@@ -44,28 +42,25 @@ Tímasettu sjálfvirkt verkefni til að hreinsa úr sögu runuvinnslu. Við mæl
 
 2. Á slánni **Leita** slærðu inn **Hreinsun á sögu runuvinnslu**.
 
-   ![Leita að hreinsun á runuvinnsluferli.](media/talent-batch-history-cleanup-search-bar.png)
+   ![Leita að hreinsun runuvinnsluferlis](media/talent-batch-history-cleanup-search-bar.png)
 
 3. Í **Sögutakmörkun (í dögum)** skaltu færa inn **30**.
 
-   ![Setja takmörkun ferils á 30.](media/talent-batch-history-cleanup-history-limit.png)
+   ![Stilltu sögutakmörkun í 30](media/talent-batch-history-cleanup-history-limit.png)
 
 4. Veldu **Keyra í bakgrunni** og veldu síðan **Endurtekning**.
 
-   ![Stilltu endurtekningu.](media/talent-batch-history-cleanup-recurrence.png)
+   ![Stilla endurtekningu](media/talent-batch-history-cleanup-recurrence.png)
 
 5. Undir **Skilgreina endurtekningu** stillirðu **Upphafsdag** og **Upphafstíma** til að eiga sér stað utan vinnutíma eða um helgar og velur síðan **ENGIN LOKADAGS.**. 
 
-   ![Skilgreina upphafsdagsetningu og tíma endurtekningar.](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Skilgreindu upphafsdag og -tíma endurtekningar](media/talent-batch-history-cleanup-define-recurrence.png)
 
 6. Undir **ENDURTEKNINGARMYNSTUR** velurðu **Dagar** og stillir **ENDURTAKA EFTIR TILTEKIÐ BIL** á **7**.
 
-   ![Stilla hreinsun þannig að hún endurtaki sig vikulega.](media/talent-batch-history-cleanup-recurrence-pattern.png)
+   ![Stilltu hreinsun til að endurtaka vikulega](media/talent-batch-history-cleanup-recurrence-pattern.png)
 
-7. Veldu **Í lagi**.
+7. Veljið **Í lagi**.
 
 8. Breyta öðrum breytum undir **Keyra í bakgrunni** eftir þörfum og veldu síðan **Í lagi**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

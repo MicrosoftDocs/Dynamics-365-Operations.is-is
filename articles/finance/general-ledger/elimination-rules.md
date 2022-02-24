@@ -2,9 +2,11 @@
 title: Losunarreglur
 description: Þetta efnisatriði veitir upplýsingar um losunarreglur og mismunandi valkosti fyrir skýrslugerð um losanir.
 author: aprilolson
+manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c31df2526f3b852bbc2b5086ce2154310118352d43c9f8803b72d49df4a450b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a65cbd3d146abff5ceabea094fb735f8bd359f6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755643"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968830"
 ---
 # <a name="elimination-rules"></a>Losunarreglur
 
@@ -152,6 +154,3 @@ Veldu fyrirtækið sem er uppruni sameinuðu gagnanna og veldu svo regluna sem �
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

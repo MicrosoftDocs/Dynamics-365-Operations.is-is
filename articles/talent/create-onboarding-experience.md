@@ -49,6 +49,3 @@ Til að læra hvernig á að fá og nota Onboard-forritið, sjá eftirfarandi ef
 - [Nýjungar eða breytingar í Dynamics 365 Talent](./whats-new.md)
 - [Útgáfuáætlanir](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Fá aðstoð fyrir Microsoft Dynamics 365 Talent](./talent-support.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

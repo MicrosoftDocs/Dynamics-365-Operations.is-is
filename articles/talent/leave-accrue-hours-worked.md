@@ -102,6 +102,3 @@ Ein dagsetning getur aðeins haft eina af hverri gerð sem tengist henni.
 | 000337                | 8/8/2018             | Reglulegur vinnutími               | 8                    |
 | 000337                | 8/7/2018             | Reglulegur vinnutími               | 8                    |
 | 000337                | 8/9/2018             | Reglulegur vinnutími               | 8                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

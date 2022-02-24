@@ -1,10 +1,12 @@
 ---
-title: Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis
-description: Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla heiti og forgangsröð reita sem sýndir eru í farsímaforrit vöruhúsakerfis.
-author: Mirzaab
+title: Skilgreining svæðaheita í vöruhúsaforriti
+description: Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla reitaheiti og forgang í vöruhúsaforriti Dynamics 365 Supply Chain Management.
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -13,24 +15,24 @@ ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c9c1d921f68538d5b84db16b1e88e28147e6b41
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
-ms.translationtype: MT
+ms.openlocfilehash: ac31b3d2b3b1d9ca51919fe75e06f0de1cda0c63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902297"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963436"
 ---
-# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis
+# <a name="configure-app-field-names-in-the-warehouse-app"></a>Skilgreining svæðaheita í vöruhúsaforritinu
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla heiti og forgangsröð reita sem sýndir eru í farsímaforrit vöruhúsakerfis.
+Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla reitaheiti og forgang í vöruhúsaforriti Dynamics 365 Supply Chain Management. 
 
 > [!NOTE]
-> Þetta efnisatriði á við aðgerðir í vöruhúsakerfi. Það á ekki við um aðgerðir í birgðastjórnun. Farsímaforrit vöruhúsakerfis er forrit sem hægt er að nota í framkvæmd vöruhúsaverkefna. Hægt er að skilgreina og grunnstilla reitarheiti sem eru notuð í forritinu, ásamt því að grunnstilla forgang sem reitarheitum ætti að vera úthlutað eftir. Þetta efnisatriði útskýrir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang farsímaforrit vöruhúsakerfis og hvernig þau eru notuð í Warehousing.
+> Þetta efnisatriði á við aðgerðir í vöruhúsakerfi. Það á ekki við um aðgerðir í birgðastjórnun. Warehousing er forrit sem hægt er að nota í framkvæmd vöruhúsaverkefna. Hægt er að skilgreina og grunnstilla reitarheiti sem eru notuð í forritinu, ásamt því að grunnstilla forgang sem reitarheitum ætti að vera úthlutað eftir. Þetta efnisatriði útskýrir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang í vöruhúsaforriti og hvernig þau eru notuð í Warehousing. Nákvæmar upplýsingar um hvernig á að skilgreina tengingu við FWarehousing má finna í leiðsögn [Setja upp og skilgreina yfirlit vöruhúsaforrits](install-configure-warehousing-app.md).
 
 ## <a name="configure-warehouse-app-field-names"></a>Grunnstilla reitarheiti vöruhúsaforrits
 
@@ -50,7 +52,7 @@ ms.locfileid: "7902297"
 <tbody>
 <tr class="odd">
 <td>Æskilegur ílagshamur</td>
-<td>Þessi valkostur skilgreinir hvort sýna eigi skönnunarreit eða ílagsreit fyrir handvirka færslu fyrir valið heiti reitar. Þetta er gagnlegt til að aðgreina reiti eftir því hvort strikamerki eru notuð fyrir reitinn. <strong>Athugasemd:</strong> Fyrir reitarheiti með æskilega innsláttarstillingu stillta á <strong>Skönnun</strong> er hægt að færa inn upplýsingar handvirkt ef strikamerki er ólæsilegt eða skemmt.</td>
+<td>Þessi valkostur skilgreinir hvort sýna eigi skönnunarreit eða ílagsreit fyrir handvirka færslu fyrir valið heiti reitar. Þetta er gagnlegt til að auðkenna reiti eftir því hvort strikamerki eru notuð fyrir reitinn. <strong>Athugasemd:</strong> Fyrir reitarheiti með æskilegan ílagsham stilltan á <strong>Skönnun</strong> er hægt að færa inn upplýsingar handvirkt ef strikamerkið er ólæsilegt eða skemmt.</td>
 </tr>
 <tr class="even">
 <td>Inntaksgerð</td>
@@ -137,9 +139,7 @@ Til dæmis þegar starfsmaður í vöruhúsi framkvæmir verk á fartæki, ef l�
 
 Eftirstandandi lýsigögn, til dæmis, Staðsetning, verða ekki birt á verkefnasíðunni heldur verða þau birt á upplýsingasíða. Frekari upplýsingar um þetta og dæmi um notandaviðmót má sjá í bloggfærslunni [Announcing Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
-## <a name="additional-resources"></a>Frekari upplýsingar
+<a name="additional-resources"></a>Frekari upplýsingar
+--------
 
-[Setja upp og tengja farsímaforrit vöruhúsakerfis](../warehousing/install-configure-warehouse-management-app.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Setja upp og stilla yfirlit vöruhúsaforrits](install-configure-warehousing-app.md)

@@ -1,24 +1,26 @@
 ---
 title: Nýliðun lánardrottna
 description: Þetta efnisatriði lýsir ferlinu við nýliðun lánardrottna. Það útskýrir aðgerðirnar sem krafist er af ýmsum hlutverkum meðan á þessu ferli stendur.
-author: Henrikan
+author: RichardLuan
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPage, VendRequestListPage, VendRequestCompanyProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: riluan
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c2950cecfaf2c8b19ed14df748810b7d6f926c53
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 081c2e5145a9175ace946e332e299247e706b548
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566888"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019880"
 ---
 # <a name="onboard-vendors"></a>Nýliðun lánardrottna
 
@@ -33,7 +35,7 @@ Ferlið samanstendur af eftirfarandi skrefum, þar sem ýmis hlutverk framkvæma
 1. **Gagnastjórnun OData** - Eininga innflutningur - Upphafleg beiðni er beiðni væntanlegs lánardrottinn um skráningu. Venjulega, þessi beiðni kemur frá upptökum, svo sem vefþjóni sem hýstur er af viðskiptamanni, sem býður upp á nafnlausan aðgang. Söluaðilar geta skráð sig með því að veita grunnupplýsingar, svo sem nafn lánardrottins, rökstuðning, fyrirtækjanúmer og nafn og netfang tengiliðar. Beiðnirnar eru fluttar inn í gegnum Gagnastjórnun viðmót.
 2. **Listasíða fyrir skráningarbeiðni væntanlegs lánardrottins** - Byggt á upplýsingum sem gefnar eru upp í skráningarbeiðni væntanlegs lánardrottins ákveður innkaupastjóri hvort lánardrottinn skuli tekinn inn. Innkaupastjóri skoðar innsendar beiðnir á listasíðunni **Skráningarbeiðni væntanlegs lánardrottins**.
 3. **Verkflæði notandaúthlutunar** - Þegar innkaupastjóri hefur staðfest upplýsingarnar í innsendri beiðninni og hefur ákveðið að halda áfram með nýliðunarferlið, úthlutar verkflæði notandabeiðninnar nýjum notanda og sendir boðstölvupóst til að samþykkja tengiliðinn sem sannvottaðan notanda Microsoft Dynamics 365.
-4. **Leiðsagnarforrit fyrir skráningu lánardrottins** Tengiliður lánardrottins skráir sig inn með því að nota nýja notandareikninginn. Hann fylgir leiðsagnarforriti fyrir skráningu lánardrottins til að veita upplýsingar, svo sem heimilisföng, viðskiptaupplýsingar, innkaupaflokka og svör við spurningalista.
+4. **Leiðsagnarforrit fyrir skráningu lánardrottins** Tengiliður lánardrottins skráir sig inn með því að nota nýja notandareikninginn. Hann eða hún fylgir leiðsagnarforriti fyrir skráningu lánardrottins til að veita upplýsingar, svo sem heimilisföng, viðskiptaupplýsingar, innkaupaflokka og svör við spurningalista.
 5. **Vinnuflæði samþykkis** - Beiðni lánardrottins sem inniheldur skráningarupplýsingar er búið til. Þessi beiðni lánardrottins er lögð fram til vinnuflæðis og er send til skoðunar og samþykkis.
 6. **Stofnun lánadrottinssniðmáts og breyting notenda hlutverk** - Þegar lánardrottinsbeiðni er samþykkt, er búin til lánardrottnaskrá. Notandareikningur tengiliðs lánardrottins er annaðhvort veitt leyfi til samstarfs lánardrottna eða gerður óvirkt.
 
@@ -72,7 +74,7 @@ Eftir að skráningarbeiðni væntanlegs lánardrottins hefur verið flutt inn b
 
 ## <a name="submitting-a-prospective-vendor-user-request"></a>Senda inn notandabeiðni væntanlegs lánardrottins
 
-Tilgangur notandabeiðni væntanlegs lánardrottins er að veita þeim sem sendu upphaflegu beiðnina forsjá, þannig að hann geti skráð sig inn í Supply Chain Management með því að nota tölvupóstreikninginn sem er að finna í skráningarbeiðni væntanlegs lánardrottins.
+Tilgangur notandabeiðni væntanlegs lánardrottins er að veita þeim sem sendu upphaflegu beiðnina forsjá, þannig að hann eða hún geti skráð sig inn í Supply Chain Management með því að nota tölvupóstreikninginn sem er að finna í skráningarbeiðni væntanlegs lánardrottins.
 
 Notandabeiðni væntanlegs lánardrottins er unnin af verkflæði notandabeiðni. Verkflæði á samskipti í gegnum Azure AD AD B2B samvinnu. Það stofnar notanda í Supply Chain Management sem hefur viðeigandi öryggisstillingar.
 
@@ -127,7 +129,7 @@ Eftirfarandi tafla sýnir stöðurnar sem lánardrottnabeiðnir geta haft.
 |----------------------------|-------------|
 | Drög                      | Lánardrottnabeiðnin hefur ennþá ekki verið send inn. |
 | Beiðni send inn          | Lánardrottnabeiðnin hefur verið send inn og fyrsta skrefið í verkflæðinu er í ferli. |
-| Yfirferð í bið             | Ef það eru margir endurskoðendur í verkflæðisverkefni getur endurskoðandi samþykkt að endurskoða lánardrottnabeiðni og ljúka svo endurskoðuninni. Ef það er aðeins einn endurskoðandi, getur sá þátttakandi lokið við endurskoðunina með því að velja **Lokið** í verkflæðisaðgerðinni. Hann þarf ekki að samþykkja vinnuliðinn fyrst. |
+| Yfirferð í bið             | Ef það eru margir endurskoðendur í verkflæðisverkefni getur endurskoðandi samþykkt að endurskoða lánardrottnabeiðni og ljúka svo endurskoðuninni. Ef það er aðeins einn endurskoðandi, getur sá þátttakandi lokið við endurskoðunina með því að velja **Lokið** í verkflæðisaðgerðinni. Hann eða hún þarf ekki að samþykkja vinnuliðinn fyrst. |
 | Beiðni bíður samþykkis   | Lánardrottnabeiðni hefur verið send til þátttakenda til samþykktar og það er möguleiki að biðja um frekari upplýsingar. Beiðni um viðbótarupplýsingar veldur því að vinnuliðurinn er flutt aftur til sendanda. Lánardrottnabeiðni getur einnig verið samþykkt eða hafnað meðan það er í þessari stöðu. |
 | Beiðni um að breyta umsókn | Óskað hefur verið eftir viðbótarupplýsingum af samþykktaraðila, og lánardrottnabeiðnin hefur verið send til þess aðila sem innsendi lánardrottnabeiðnina. Innsendingaraðilinn getur bætt við nauðsynlegum upplýsingum og síðan endursent lánardrottnabeiðnina. Ef lánardrottnabeiðni er endurinnsend, er stöðunni breytt aftur í **Beiðni í bið eftir samþykki** staða. |
 | Beiðni samþykkt           | Þessari staða er lokastaða. |
@@ -172,6 +174,3 @@ Með því að nota **Eyða** aðgerðina á skráningarbeiðni væntanlegs lán
 |         Samþ.         |                                                                               Lánardrottnabeiðnin er samþykkt.                                                                               |                                                                                                   Skráningarbeiðni væntanlegs lánardrottins, gögnin sem voru slegin inn í leiðsagnarforrit fyrir skráningu lánardrottins og lánardrottnabeiðninni er eytt.                                                                                                    |
 |         Hafnað         |                                                                               Lánardrottnabeiðninni er hafnað.                                                                               |                                                                                                   Skráningarbeiðni væntanlegs lánardrottins, gögnin sem voru slegin inn í leiðsagnarforrit fyrir skráningu lánardrottins og lánardrottnabeiðninni er eytt.                                                                                                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

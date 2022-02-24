@@ -2,24 +2,27 @@
 title: Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi
 description: Þessi handbók sýnir hvernig á að grunnstilla uppsetningu á staðsetningu fyrir nýtt vöruhúsakerfisvirkjað vöruhús (vöruhús sem notar ítarleg vöruhúsaferli).
 author: perlynne
+manager: tfehr
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, WHSLocationFormat, WHSLocationType, WHSLocationProfile, WHSParameters, WHSZoneGroup, WHSZone, WHSLocationBuild, WHSLocation, WHSPackSizeCategory, WHSLocationLimit, WHSInventFixedLocation, WMSLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
-ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 31f016c4c8b8b08139836336ac38196fbd1fba6f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599349"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430200"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi
 
@@ -33,7 +36,7 @@ ms.locfileid: "7599349"
 2. Smellt er á **Nýtt**.
 3. Í reitinn **Vöruhús** skal slá inn gildi.
 4. Í reitinn **Heiti** skal slá inn gildi.
-5. Í reitnum **Svæði** skal velja eða slá inn fyrirliggjandi svæðisgildi.
+5. Í reitinn **Svæði** skal slá inn gildi.
 6. Víkkið út hlutann **Vöruhús**.
 7. Stilltu valkostinn **Nota ferli vöruhúsastjórnunar** á Já. Þessi stilling leyfir þér að keyra ítarleg vöruhúsaferli með því að nota vöruhúsavinnu og fartæki.
 8. Lokið síðunni.
@@ -172,6 +175,3 @@ ms.locfileid: "7599349"
 6. Í listanum skal smella á tengilinn í valinni línu.
 7. Lokið síðunni.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

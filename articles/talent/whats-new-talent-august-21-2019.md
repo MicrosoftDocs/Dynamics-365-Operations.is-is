@@ -70,6 +70,3 @@ Ný valkostur mun gera stjórnendum kleift að skoða árangur af bæði beinum 
 #### <a name="platform-update-29-for-finance-and-operations"></a>Uppfærsla 29 fyrir verkvang fyrir Finance and Operations
 
 Frekari upplýsingar um verkvangsuppfærslu 29 fyrir Finance and Operations er að finna í [Forskoðun á eiginleikum í Dynamics 365 Finance and Operations verkvangsuppfærslu 29 (október 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

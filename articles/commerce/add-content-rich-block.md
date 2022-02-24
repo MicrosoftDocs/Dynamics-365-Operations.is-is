@@ -1,31 +1,36 @@
 ---
 title: Textabálkseining
-description: Þetta efni fjallar um textabálkaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
+description: Þetta efni fjallar um textabálkseiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9068c35eaeee68f97d81d168983d7281da09491cb0afd70cb8196010ce771b0d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c6527ad00e74fa105f3873036eb56557b98b05aa
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723312"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413094"
 ---
 # <a name="text-block-module"></a>Textabálkseining
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni fjallar um textabálkaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
+Þetta efni fjallar um textabálkseiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Textabálkseining er eining sem er notuð til að bæta við textainnihaldi. Þetta efni getur verið upplýsandi eða kynningar.
 
@@ -42,7 +47,7 @@ Hægt er að nota textabálkseiningar á eftirfarandi hátt:
 
 Eftirfarandi mynd sýnir dæmi um textabálkseiningu sem er notuð á heimasíðu.
 
-![Dæmi um einingu textabálks.](./media/ecommerce-textblock.PNG)
+![Dæmi um einingu textabálks](./media/ecommerce-textblock.PNG)
 
 ## <a name="text-block-module-properties"></a>Eiginleikar textabálkseiningar
 
@@ -84,6 +89,3 @@ Fylgdu þessum skrefum til að bæta textabálkseiningu við nýja síðu og sti
 
 [Myndspilaraeining](add-video-player.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

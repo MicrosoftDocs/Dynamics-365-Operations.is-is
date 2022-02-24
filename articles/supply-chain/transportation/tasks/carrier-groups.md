@@ -2,28 +2,29 @@
 title: Flutningsaðilahópar
 description: Í þessu efnisatriði er lýst hvernig eigi að setja upp gögn fyrir flutningsaðilahópa.
 author: Henrikan
+manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSCarrierGroup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 10a30d8fae52a25b7d65b5a9cc991677df33a2a7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2570479edac9bc8cc7aa998a8b69f54ffc10cd61
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574882"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646402"
 ---
 # <a name="carrier-groups"></a>Flutningsaðilahópar
-
-[!include [banner](../../includes/banner.md)]
 
 Flutningsflokkur er safn farmflytjenda og flutningaþjónustu. Hver flutningsflokkur tilgreinir æskilega röð farmflytjanda og flutningsþjónustu sem tilheyrir honum.
 
@@ -37,6 +38,3 @@ Flutningsflokkur er safn farmflytjenda og flutningaþjónustu. Hver flutningsflo
 1. Í reitinn **Heiti** skal færa inn lýsandi heiti á hópnum.
 1. Á flipanum **Upplýsingar** skal bæta við línu og velja farmflytjanda og flutningsþjónustu fyrir hana. Endurtakið þetta skref þar til öllum nauðsynlegum flutningsaðilum fyrir flokkinn hefur verið bætt við.
 1. Lokið síðunni.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Stofna viðhaldsbeiðnir
 description: Þetta efni útskýrir hvernig á að stofna viðhaldsbeiðni í eignastjórnun.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRequestTableCreate
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4b48a0504b79d2edf7815296312c7839052092e7d6773b7ebd5d38cbb59c9428
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f45378405d9ea06ae847d93b7eacd9badf6d7e00
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714981"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019179"
 ---
 # <a name="create-maintenance-requests"></a>Stofna viðhaldsbeiðnir
 
@@ -30,7 +32,7 @@ ms.locfileid: "6714981"
 
 Hægt er að nota viðhaldsbeiðnir ef viðhaldsstarfsmenn eða framleiðsluaðilar uppgötva að búnaður þarfnast viðgerðar, en ekki er hægt að gera viðgerðirnar strax.
 
-**Dæmi:** Á meðan viðhaldsstarfskraftur sinnir viðgerðum uppgötvar hann að þjónusta þarf aðra eign á sömu staðsetningu. Viðhaldsstarfsmaðurinn hefur þó ekki tíma eða nauðsynlega varahluti til að framkvæma viðgerðarstarfið. Þeir stofna því viðhaldsbeiðni á eigninni og skrá stutta lýsingu á vandamálinu.
+**Dæmi:** Á meðan viðhaldsstarfsmaður er að gera við, uppgötvar hún að þjónusta verður aðra eign á sama stað. Viðhaldsstarfsmaðurinn hefur þó ekki tíma eða nauðsynlega varahluti til að framkvæma viðgerðarstarfið. Þess vegna býr hún til viðhaldsbeiðni um eignina og slærð inn stutta lýsingu á vandamálinu.
 
 Hlutinn **Virkar viðhaldsbeiðnir** á rúðunni **Tengdar upplýsingar** hægra megin við síðuna **Allar eignir** eða **Virkar eignir** (**Eignastýring** \> **Sameiginlegt** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**) sýnir virkar viðhaldsbeiðnir sem eru tengdar við valda eign.
 
@@ -50,9 +52,9 @@ Hlutinn **Virkar viðhaldsbeiðnir** á rúðunni **Tengdar upplýsingar** hægr
 
 10. Reiturinn **Raunverulegt upphaf** er sjálfkrafa stilltur á núverandi dagsetningu og tíma. Þó er hægt að breyta gildinu eftir þörfum.
 11. Í reitnum **Athugasemdir** slærðu inn allar viðbótar athugasemdir sem þarf.
-12. Veldu **Í lagi**.
+12. Veljið **Í lagi**.
 
-![Stofna viðhaldsbeiðni.](media/03-manage-maintenance-requests.png)
+![Stofna viðhaldsbeiðni](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Síðari afgreiðsla beiðna um viðhald
 
@@ -67,10 +69,7 @@ Eftir að viðhaldsbeiðni er stofnuð, en áður en henni er breytt í vinnupö
 - Veldu gerð viðhaldsverks og, ef þessar upplýsingar eru viðeigandi, tengt afbrigði viðhaldsverks og ði og atvinnuverslun.
 - Í reitunum **Breidd** og **Lengdargráða** slærðu inn landfræðileg hnit. Öll hnit sem er bætt við viðhaldsbeiðni eru sjálfkrafa færð yfir í tengda verkbeiðni. 
 
-![Uppfæra viðhaldsbeiðni.](media/04-manage-maintenance-requests.png)
+![Uppfæra viðhaldsbeiðni](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Ef þú velur eign þegar þú býrð til viðhaldsbeiðni geturðu bætt einni villu við eignina. Eftir að viðhaldsbeiðnin hefur verið stofnuð geturðu bætt við fleiri göllum eftir þörfum. Til að bæta við göllum velurðu **Eignavilla** á síðunni **Allar viðhaldsbeiðnir**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

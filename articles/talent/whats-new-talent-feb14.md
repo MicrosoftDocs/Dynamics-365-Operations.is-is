@@ -52,6 +52,3 @@ Breyting hefur verið gerð svo ástæðukóði starfsloka verði sjálfgefinn �
 
 ### <a name="new-entity-created-for-job-compensation-levels"></a>Ný eining búin til fyrir launastig starfs
 Ný eining fyrir gagnastjórnunarramma (DMF) var búin til. Einingin gerir kleift að búa til og uppfæra launastig, markaðsvirði og upplýsingar könnunar fyrir hvert starf sem er skilgreint í kerfinu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

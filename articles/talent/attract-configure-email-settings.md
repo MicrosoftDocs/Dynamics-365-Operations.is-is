@@ -89,6 +89,3 @@ Ef þú tengir ekki annan tölvupóstþjónustureikning munu tölvupóstar sem e
     ![Bætir tenglum við persónuverndarstefnu fyrirtækisins og notkunarskilmála fyrir síðufót í tölvupósti](./media/attract-admin-email-footer.png)
 
 4. Veldu **Vista** til að vista stillingar tölvupóstsniðmátsins.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -115,6 +115,3 @@ Eftirfarandi einingar verða virkjaðar fyrir sérsniðna reiti í Common Data S
 - **Gerð leyfis**
 - **Bankareikningur starfskrafts**
 - **Vinnudagatal**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

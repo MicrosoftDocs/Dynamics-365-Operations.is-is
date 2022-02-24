@@ -1,33 +1,31 @@
 ---
 title: Vinna með lokadaga fríðinda
-description: Þessi aðferð sýnir hvernig ávinningur getur runnið út eða verið framlengdur og hefur umsjón með skráningardögum starfskrafta.
-author: twheeloc
-ms.date: 08/23/2021
+description: Þessi verklýsing sýnir hvernig hægt er að láta renna út eða framlengja fríðindi, og stjórna skráningadagsetninga yfir starfsmenn sem eru skráðir í fríðindi.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefit, HcmMassBenefitExpiration, HcmMassBenefitExpirationResults, HcmWorker, HcmWorkerEnrollment, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 04751718e22f7339a032ce4a94e919a653876e4b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 7332a95e1cd558336dc19bcb269ef89ce3721aa9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065969"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418948"
 ---
 # <a name="manage-benefit-expiration-dates"></a>Vinna með lokadaga fríðinda
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Þessi aðferð sýnir hvernig ávinningur getur runnið út eða verið framlengdur og hefur umsjón með skráningardögum starfskrafta. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+Þessi verklýsing sýnir hvernig hægt er að láta renna út eða framlengja fríðindi, og stjórna skráningadagsetninga yfir starfsmenn sem eru skráðir í fríðindi. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
 ## <a name="benefit-expiration-dates"></a>Lokadagar fríðinda
 
@@ -48,6 +46,3 @@ ms.locfileid: "8065969"
 15. Smellt er á Fríðindum.
 16. Í listanum skal finna fríðindi og velja skrá. Athugið að lokadagur nýrrar þekju.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,28 +1,39 @@
 ---
-title: Samþættur aðallánardrottinn
+title: Samþætt vinna með lánardrottinssniðmát
 description: Þetta efni lýsir samþættingu lánardrottnagagna milli forrita Finance and Operations og Dataverse.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 07/15/2019
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7794f33aed7364b76a7d5ffd08a068342887e468
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: f2fc88ed0c0f4dbec55f8ca251cca3d071760b55
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063163"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744516"
 ---
 # <a name="integrated-vendor-master"></a>Samþætt lánardrottinssniðmát
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Hugtakið *lánardrottinn* vísar til fyrirtækis birgja eða í einkaeigu sem veitir fyrirtæki eða þjónustu vöru eða þjónustu. Þó að *lánardrottinn* sé rótgróið hugtak í Microsoft Dynamics 365 Supply Chain Management er ekkert lánadrottnahugtak til í forritum viðskiptavinar. Hins vegar er hægt að ofhlaða töfluna **Lykill/tengiliður** til að geyma lánardrottnaupplýsingar. Samþætt lánardrottnasniðmát kynnir skýrt lánardrottnahugtak í forritum viðskiptavina. Annaðhvort er hægt að nota nýju lánardrottnahönnunina eða geyma lánardrottnagögn í töflunni **Lykill/tengiliður**. Tvöföld skrifa styður báðar leiðir.
+
+Hugtakið *lánardrottinn* vísar til fyrirtækis birgja eða í einkaeigu sem veitir fyrirtæki eða þjónustu vöru eða þjónustu. Þó að *Lánardrottinn* sé rótgróið hugtak í Microsoft Dynamics 365 Supply Chain Management er ekkert lánadrottinshugtakið til í líkanadrifnum forritum í Dynamics 365. Hins vegar er hægt að ofhlaða töfluna **Lykill/tengiliður** til að geyma lánardrottnaupplýsingar. Samþætt lánardrottinssniðmát kynnir skýrt lánardrottnahugtak í líkanadrifnum forritum í Dynamics 365. Annaðhvort er hægt að nota nýju lánardrottnahönnunina eða geyma lánardrottnagögn í töflunni **Lykill/tengiliður**. Tvöföld skrifa styður báðar leiðir.
 
 Í báðum aðferðum eru gögn lánardrottins samþætt á milli gátta Dynamics 365 Supply Chain Management, Dynamics 365 Sales, Dynamics 365 Field Service og Power Apps. Í Supply Chain Management eru gögnin tiltæk fyrir verkflæði eins og innkaupabeiðnir og innkaupapantanir.
 
@@ -30,30 +41,37 @@ Hugtakið *lánardrottinn* vísar til fyrirtækis birgja eða í einkaeigu sem v
 
 Ef ekki á að geyma lánardrottnagögn í tölfunni **Lykill/tengiliður** í Dataverse geturðu notað nýju lánardrottnahönnunina.
 
-![Gagnaflæði lánardrottins.](media/dual-write-vendor-data-flow.png)
+![Gagnaflæði lánardrottins](media/dual-write-vendor-data-flow.png)
 
 Ef halda á áfram að geyma lánardrottnagögn í töflunni **Lykill/tengiliður** geturðu notað auknu lánardrottnahönnunina. Til að nota aukna lánardrottnahönnun verður þú að stilla verkflæði lánardrottins í tvískiptu lausnarpakkanum. Fyrir frekari upplýsingar, sjá [Skipta á milli lánardrottnahönnunar](vendor-switch.md).
 
-![Útvíkkað gagnaflæði lánardrottins.](media/dual-write-vendor-detail.jpg)
+![Útvíkkað gagnaflæði lánardrottins](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Ef þú ert að nota Power Apps gáttir fyrir sjálfsafgreiðsluseljendur, geta upplýsingar um söluaðila streymt beint í Finance and Operations öpp.
+> Ef þú ert að nota Power Apps-gáttir fyrir lánardrottna með sjálfsafgreiðslu geta lánardrottnaupplýsingar streymt beint í forrit Finance and Operations.
 
 ## <a name="templates"></a>Sniðmát
 
 Lánardrottnagögn innihalda allar upplýsingar um lánardrottinn, svo sem lánardrottnahópinn, heimilisföng, tengiliðaupplýsingar, greiðslusnið og reikningssnið. Safn af töflukortum vinna saman í gagnasamskiptum lánardrottins, eins og sýnt er í eftirfarandi töflu.
 
-Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla     | lýsing
+Finance and Operations-smáforrit | Önnur Dynamics 365 forrit     | lýsing
 ----------------------------|-----------------------------|------------
-[Tengiliðir fyrir skuldatryggingu V2](mapping-reference.md#115) | tengiliðir | Þetta sniðmát samstillir allar aðal-, aðrar og þriðju tengiliðaupplýsingar, bæði fyrir viðskiptavini og framleiðendur.
-[Viðskeyti nafna](mapping-reference.md#155) | msdyn_nameaffixes | Þetta sniðmát samstillir tilvísunargögn nafnaviðskeyta, bæði fyrir viðskiptavini og lánardrottna.
-[Greiðsludagalínur CDS V2](mapping-reference.md#157) | msdyn_paymentdaylines | Þetta sniðmát samstillir tilvísunargögn greiðsludagalína, bæði fyrir viðskiptavini og lánardrottna.
-[Greiðsludagar CDS](mapping-reference.md#158) | msdyn_paymentdays | Þetta sniðmát samstillir tilvísunargögn greiðsludaga, bæði fyrir viðskiptavini og lánardrottna.
-[Greiðsluáætlunarlínur](mapping-reference.md#159) | msdyn_paymentschedulelines | Samstillir tilvísunargögn greiðsluáætlunarlína, bæði fyrir viðskiptavini og lánardrottna.
-[Greiðsluáætlun](mapping-reference.md#160) | msdyn_paymentschedules | Þetta sniðmát samstillir tilvísunargögn greiðsluáætlunar, bæði fyrir viðskiptavini og lánardrottna.
-[Greiðsluskilmálar](mapping-reference.md#161) | msdyn_paymentterms | Þetta sniðmát samstillir tilvísunargögn greiðsluskilmála (skilmála greiðslu), bæði fyrir viðskiptavini og lánardrottna.
-[Lánardrottnar V2](mapping-reference.md#202) | msdyn_vendors | Fyrirtæki sem nota sérsniðna lausn fyrir lánardrottna geta nýtt sér hugtakið tilbúinn lánardrottinn sem er kynntur til sögunnar í Dataverse vegna samþættingar forrita Finance and Operations.
-[Lánardrottnaflokkar](mapping-reference.md#200) | msdyn_vendorgroups | Þetta sniðmát samstillir upplýsingar um hóp lánardrottna.
-[Greiðsluháttur lánardrottins](mapping-reference.md#201) | msdyn_vendorpaymentmethods | Þetta sniðmát samstillir upplýsingar um greiðslumáta lánardrottna.
+Lánardrottinn V2                   | Lykill                     | Fyrirtæki sem nota lyklatöfluna til að geyma upplýsingar um lánardrottna geta haldið áfram að nota hana á sama hátt. Þau geta einnig nýtt sér yfirlýsta virkni lánardrottins sem kemur vegna samþættingar forrita Finance and Operations.
+Lánardrottinn V2                   | Msdyn\_vendors              | Fyrirtæki sem nota sérsniðna lausn fyrir lánardrottna geta nýtt sér hugtakið tilbúinn lánardrottinn sem er kynntur til sögunnar í Dataverse vegna samþættingar forrita Finance and Operations. 
+Lánardrottnaflokkar               | msdyn\_vendorgroups         | Þetta sniðmát samstillir upplýsingar um hóp lánardrottna.
+Greiðsluháttur lánardrottins       | msdyn\_vendorpaymentmethods | Þetta sniðmát samstillir upplýsingar um greiðslumáta lánardrottna.
+Tengiliðir fyrir skuldatryggingu V2             | tengiliðir                    | [Tengiliða](customer-mapping.md#cds-contacts-v2-to-contacts)-sniðmátið samstillir allar aðal-, aðrar og þriðju tengiliðaupplýsingar, bæði fyrir viðskiptavini og framleiðendur.
+Greiðsluáætlunarlínur      | msdyn\_paymentschedulelines | [Greiðsluáætlunarlínu](customer-mapping.md#payment-schedule-lines-to-msdyn_paymentschedulelines)-sniðmátið samstillir tilvísunargögn greiðsluáætlunar, bæði fyrir viðskiptavini og lánardrottna.
+Greiðsluáætlun            | msdyn\_paymentschedules     | [Greiðsluáætlana](customer-mapping.md#payment-schedule-to-msdyn_paymentschedules)-sniðmátið samstillir tilvísunargögn greiðsluáætlunar, bæði fyrir viðskiptavini og lánardrottna.
+Greiðsludagalínur CDS V2    | msdyn\_paymentdaylines      | [Greiðsludagalínu](customer-mapping.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines)-sniðmátið samstillir tilvísunargögn greiðsludagalína fyrir viðskiptavini og lánardrottna.
+Greiðsludagar CDS            | msdyn\_paymentdays          | [Greiðsludagar](customer-mapping.md#payment-days-cds-to-msdyn_paymentdays)-sniðmátið samstillir tilvísunargögn greiðsludaga, bæði fyrir viðskiptavini og lánardrottna.
+Greiðsluskilmálar            | msdyn\_paymentterms         | [Greiðsluskilmála](customer-mapping.md#terms-of-payment-to-msdyn_paymentterms)-sniðmátið samstillir tilvísunargögn greiðsluskilmála (skilmála greiðslu), bæði fyrir viðskiptavini og lánardrottna.
+Viðskeyti nafna                | msdyn\_nameaffixes          | [Heitisviðskeytis](customer-mapping.md#name-affixes-to-msdyn_nameaffixes)-sniðmátið samstillir tilvísunargögn nafnaviðskeyta, bæði fyrir viðskiptavini og lánardrottna.
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [symbols](../../includes/dual-write-symbols.md)]
+
+[!include [Vendors](includes/VendorsV2-msdyn-vendors.md)]
+
+[!include [Vendor groups](includes/VendVendorGroup-msdyn-vendorgroups.md)]
+
+[!include [Vendor payment methods](includes/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]

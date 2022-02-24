@@ -2,12 +2,15 @@
 title: Flipaeining
 description: Þetta efnisatriði fjallar um flipaeiningar og útskýrir hvernig á að bæta þeim við síður svæða í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9062e584d159e0f1986c46140d535f06f5d2817af048f30e812f9049bd52d4f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9d897113442f14b95539efb9fec9482be96447a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723288"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413103"
 ---
 # <a name="tab-module"></a>Flipaeining
 
@@ -28,19 +31,21 @@ ms.locfileid: "6723288"
 
 Þetta efnisatriði fjallar um flipaeiningar og útskýrir hvernig á að bæta þeim við síður svæða í Microsoft Dynamics 365 Commerce.
 
+## <a name="overview"></a>Yfirlit
+
 Flipaeiningar líta út eins og hólfaeiningar og eru notaðar við skipulagningu upplýsinga á síðusvæði í flipum. Hægt er að nota þær á sérhverri síðu þar sem upplýsingar þurfa að koma fram í flipum.
 
 Í hverri flipaeiningu er hægt að bæta við einu eða fleiri flipaeiningaratriðum. Hvert flipaeiningaratriði stendur fyrir einn flipa. Í hverja einingu flipaatriðis er hægt að bæta við einni eða fleiri einingum. Engar takmarkanir eru á þeim gerðum eininga sem hægt er að bæta við flipaeiningaratriði.
 
 Eftirfarandi mynd sýnir dæmi um flipaeiningu á síðusvæði. Í þessu dæmi er flipinn **Sending** valinn.
 
-![Dæmi um flipaeiningu.](./media/ecommerce-tab.PNG)
+![Dæmi um flipaeiningu](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>Eiginleikar flipaeiningar
 
 | Nafn eiginleika | Gildi | lýsing |
 |---------------|--------|-------------|
-| Haus | Texti | Þessi eiginleiki sýnir valfrjálsa textafyrirsögn fyrir flipaeininguna. |
+| Yfirskrift | Texti | Þessi eiginleiki sýnir valfrjálsa textafyrirsögn fyrir flipaeininguna. |
 | Virkur flipavísir | Númer | Þessi eiginleiki sýnir flipann sem á að vera sjálfgefið virkur þegar síða er hlaðin. Ef ekkert gildi er gefið upp verður fyrsta flipaatriðið virkt að sjálfgefnu. |
 
 ## <a name="tab-item-module-properties"></a>Eiginleikar flipaeiningaratriða
@@ -79,6 +84,3 @@ Til að bæta flipaeiningu við síðu og stilla eiginleikana skal fylgja þessu
 [Fellingareining](add-accordion.md)
 
 [Textabálkseining](add-content-rich-block.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

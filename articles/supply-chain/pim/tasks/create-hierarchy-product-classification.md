@@ -1,24 +1,26 @@
 ---
 title: Stofna stigveldi afurðaflokkunar
 description: Þessi verklýsing sýnir hvernig á að stofna nýtt tegundastigveldi og tengja gerð stigveldis vörukóða.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, EcoResCategory, EcoResCategoryHierarchyRole, EcoResProductCategory, EcoResCategorySearchList, EcoResCategoryHierarchyFactbox, EcoResCategoryFriendlyName, EcoResCategoryAddProduct
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb561647efcc21a8287d8246024fb468b8a79a71
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 74be72ac5787273e13692abdb9db18be4c5ccc08
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567104"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966956"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Stofna stigveldi afurðaflokkunar
 
@@ -64,6 +66,3 @@ ms.locfileid: "7567104"
 8. Í listanum skal smella á tengilinn í valinni línu.
 9. Lokið síðunni.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

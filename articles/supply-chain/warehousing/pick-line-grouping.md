@@ -2,92 +2,77 @@
 title: Flokkun tiltektarlínu
 description: Þetta efnisatriði veitir yfirlit yfir flokkun tiltektarlínu.
 author: Mirzaab
-ms.date: 12/15/2019
+manager: tfehr
+ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 076a4dfdc49525eef616d1008073371be1dd4a248cd6f16d395b544ae70e7531
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b3497d43a500898207ed5154721ee0e3a327fb93
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757495"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430667"
 ---
 # <a name="pick-line-grouping"></a>Flokkun tiltektarlínu
 
 [!include [banner](../includes/banner.md)]
 
-Flokkun tiltektarlínu gerir kleift að sameina margar vinnulínur sem eru með sömu vöru og staðsetningu í eina tiltekt sem birtist notanda í fartæki. Starfsmenn í vöruhúsi geta þar af leiðandi fengið gagnlegustu leiðbeiningarnar, en nauðsynlegur aðskilnaður vinnulínu (fyrir mismunandi umbúðir, pantanir og svo framvegis) er enn hægt að vinna með í kerfinu.
-
-## <a name="turn-on-the-pick-line-grouping-feature"></a>Kveikja á eiginleika fyrir flokkun tiltektarlínu
-
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað vinnusvæðið [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
-
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Flokkun tiltektarlínu*
+Við flokkun tiltektarlínu er hægt að sameina margar vinnulínur sem hafa sama hlut og staðsetningu í staka tínslu sem er kynnt notandanum í fartæki. Þess vegna geta starfsmenn vörugeymslu fengið skilvirkustu fyrirmælin sem mögulegt er, en nauðsynlegum aðskilnaði vinnulína í kerfinu er einnig haldið (til dæmis fyrir mismunandi gáma og pantanir).
 
 ## <a name="set-up-pick-line-grouping"></a>Setja upp flokkun tiltektarlínu
 
 ### <a name="create-a-mobile-device-menu-item"></a>Stofna valmyndaratriði fartækis
 
-1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Valmyndaratriði fartækis**.
-1. Í aðgerðarúðunni velurðu **Nýtt**.
-1. Í reitinn **Heiti valmyndaratriðis** skal færa inn *Tiltekt söluflokkslínu*.
-1. Í reitinn **Titill** skal slá inn *Tiltekt söluflokkslínu*. Þessi titill birtist í valmynd fartækis.
-1. Í reitnum **Stilling** velurðu *Vinna*.
-1. Stilltu valkostinn **Nota fyrirliggjandi vinnu** á *Já*.
-1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
+1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Valmyndaratriði fartækja** og búðu til nýtt valmyndaratriði sem heitir **Línutiltekt söluhópa - Stýrt af notanda**.
+2. Undir **Valmyndaratriði fyrirtækis** stillirðu eftirfarandi gildi:
 
-    - Í reitnum **Stýrt af** velurðu *Stýrt af notanda*.
-    - Stilltu valkostinn **Mynda númeraplötu** á *Já*.
-    - Stilltu valkostinn **Flokkatiltekt** á *Já*.
-    - Samþykkið sjálfgefin gildi fyrir valkostina sem eftir eru.
+    - Í reitinn **Heiti valmyndaratriðis** slærðu inn **Sölutiltekt - Flokkalína**.
+    - Í reitinn **Titill** slærðu inn **Sölutiltekt - Flokkalína**.
+    - Í reitnum **Stilling** velurðu **Vinna**.
+    - Stilltu valkostinn **Nota fyrirliggjandi vinnu** á **Já**.
 
-1. Fylgið þessum skrefum til að skilgreina gilda vinnuklasa fyrir valmyndaratriði fartækis:
+3. Á flýtiflipanum **Almennt** geturðu stillt eftirfarandi gildi:
 
-    1. Í flýtiflipanum **Vinnuklasar** skal velja **Nýr**.
-    2. Í reitnum **Auðkenni vinnuklasa** er hægt að velja annaðhvort *Sala* eða *Tiltekt sölupöntunar*, en það fer eftir vöruhúsinu sem verður notað. Fyrir þessar aðstæður skal velja *Tiltekt sölupöntunar*.
+    - Í reitnum **Stýrt af** velurðu **Stýrt af notanda**.
+    - Stilltu valkostinn **Mynda númeraplötu** á **Já**.
+    - Stilltu valkostinn **Flokkatiltekt** á **Já**.
 
-        Reiturinn **Gerð verkbeiðni** er sjálfkrafa stilltur á *Sölupantanir*.
+4. Á flýtiflipanum **Vinnuklasar** skaltu fylgja þessum skrefum til að stilla gilda vinnuflokka fyrir valmyndaratriðið í fartækinu:
+
+    1. Veljið **Nýtt**.
+    2. Í reitnum **Auðkenni vinnuklasa** velurðu **Sala** eða **Tiltekt sölupöntunar**, eftir því vöruhúsi sem þú ætlar að nota.
+    3. Í reitnum **Gerð verkbeiðni** velurðu **Sölupantanir**.
 
 ### <a name="set-up-a-mobile-device-menu"></a>Setja upp valmynd fartækja
 
-Fylgið þessum skrefum til að bæta við valmyndaratriðinu sem var stofnað í valmyndinni **Á útleið**.
-
-1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Valmynd fartækis**.
-1. Á aðgerðarúðunni skal velja **Breyta**.
-1. Listasvæðið sýnir allar fyrirliggjandi valmyndir fartækis. Veljið *Á útleið* í listanum.
-1. Í listanum **Tiltækar valmyndir og valmyndaratriði** skal finna og velja valmyndaratriðið *Tiltekt söluflokkslínu* sem var stofnað.
-1. Veljið hægri örvarhnappinn til að flytja valmyndaratriðið *Tiltekt söluflokkslínu* yfir í listann **Valmyndaskipan**.
-1. Notið örvarhnappana upp og niður til að færa valmyndaratriðið á æskilegan stað í valmyndaskipanina.
-1. Í aðgerðarúðunni skal velja **Vista**.
+1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Valmynd fartækis**. 
+1. Bættu valmyndaratriðinu sem þú bjóst til við valmyndina.
 
 ### <a name="set-up-a-work-template"></a>Setja upp vinnusniðmát
 
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Vinna \> Vinnusniðmát**.
-1. Í reitnum **Gerð verkbeiðni** velurðu *Sölupantanir*.
-1. Í hnitanetinu **Yfirlit** skal finna og velja vinnusniðmátið sem á að nota með þessari aðgerð. Fyrir þessar aðstæður skal velja sniðmátið *51 Tína fyrir geymslustað*.
-1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn**.
-1. Í svarglugga fyrirspurnarritils, í flipanum **Röðun**, skal velja **Bæta við** og síðan stilla eftirfarandi gildi fyrir nýju línuna:
+1. Finndu vinnusniðmátið sem ætti að nota með þessari aðgerð. Fyrir þetta dæmi skaltu velja staðalinn **51 tiltekt á stig** Contoso-vinnusniðmát.
+1. Í valmyndinni velurðu **Breyta fyrirspurn**.
+1. Á flipanum **Röðun** velurðu **Bæta við** og stillir síðan eftirfarandi gildi:
 
-    - Í dálkinum **Tafla** skal velja *Tímabundnar vinnufærslur*.
-    - Í dálkinum **Afleidd tafla** skal velja *Tímabundnar vinnufærslur*.
-    - Í dálkinum **Reitur** skal velja *Vörunúmer*.
-    - Í dálkinum **Leitarstefna** skal velja *Hækkandi*.
+    - Í reitnum **Tafla** velurðu **Tímabundnar vinnufærslur**.
+    - Í reitnum **Afleidd tafla** velurðu **Tímabundnar vinnufærslur**.
+    - Í reitinn **Reitur** velurðu **Vörunúmer**.
+    - Í reitnum **Leitarstefna** velurðu **Hækkandi**.
 
-1. Veljið **Í lagi** til að loka svarglugganum og vista breytingarnar.
-1. Eftirfarandi skilaboð birtast: „Flokkun verður endurstillt, á að halda áfram?" Veldu **Já** til að halda áfram.
-
-> [!IMPORTANT]
+> [!NOTE]
 > Til að flokkunarvirkni tiltektarlínu virki verður að flokka vinnulínurnar eftir auðkenni hlutar. Ef línum sem eru með sömu hlutina er ekki skipt í röð hver á eftir annarri verða þær ekki flokkaðar.
 
 ## <a name="example"></a>Dæmi
@@ -97,77 +82,52 @@ Fylgið þessum skrefum til að bæta við valmyndaratriðinu sem var stofnað �
 Áður en þú getur sett upp flokkun tiltektarlína verður þú að búa til einhverja hæfa vinnu á útleið.
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
-1. Smellið á **Nýtt** til að stofna nýja sölupöntun.
-1. Í reitnum **Viðskiptavinalykill** skal velja *US-004*.
-1. Á flýtiflipanum **Almennt**, í reitnum **Vöruhús**, er valið *51*.
-1. Veljið **Í lagi**.
-1. Í flýtiflipanum **Sölupöntunarlínur** skal bæta við eftirfarandi sex línum:
+2. Smellið á **Nýtt** til að stofna nýja sölupöntun. 
+3. Í reitnum **Viðskiptavinalykill** velurðu einhvern viðskiptavin. 
+4. Á flýtiflipanum **Almennt**, í reitnum **Vöruhús**, er valið **51**. Veljið síðan **Í lagi**.
+5. Undir **Sölupöntunarlínur** skaltu bæta við eftirfarandi sex línum:
 
-    - **Lína 1:** Í reitnum **Vörunúmer** velurðu *M9200*. Í **Magn** reitinn er fært inn *3*.
-    - **Lína 2:** Í reitnum **Vörunúmer** velurðu *M9201*. Í **Magn** reitinn er fært inn *3*.
-    - **Lína 3:** Í reitnum **Vörunúmer** velurðu *M9202*. Í **Magn** reitinn er fært inn *2*.
-    - **Lína 4:** Í reitnum **Vörunúmer** velurðu *M9200*. Í **Magn** reitinn er fært inn *1*.
-    - **Lína 5:** Í reitnum **Vörunúmer** velurðu *M9200*. Í **Magn** reitinn er fært inn *3*.
-    - **Lína 6:** Í reitnum **Vörunúmer** velurðu *M9202*. Í **Magn** reitinn er fært inn *7*.
+    - **Lína 1:** Í reitnum **Vörunúmer** velurðu **M9200**. Í **Magn** reitinn er fært inn **3**.
+    - **Lína 2:** Í reitnum **Vörunúmer** velurðu **M9201**. Í **Magn** reitinn er fært inn **3**. 
+    - **Lína 3:** Í reitnum **Vörunúmer** velurðu **M9202**. Í **Magn** reitinn er fært inn **2**. 
+    - **Lína 4:** Í reitnum **Vörunúmer** velurðu **M9200**. Í **Magn** reitinn er fært inn **1**. 
+    - **Lína 5:** Í reitnum **Vörunúmer** velurðu **M9200**. Í **Magn** reitinn er fært inn **3**.
+    - **Lína 6:** Í reitnum **Vörunúmer** velurðu **M9202**. Í **Magn** reitinn er fært inn **7**. 
 
     Hér er yfirlit yfir heildarmagn fyrir hverja vöru:
 
-    - **Vara M9200:** *7* hver
-    - **Vara M9201:** *3* hver
-    - **Vara M9202:** *9* hver
+    - **Vara M9200:** 7 stykki
+    - **Vara M9201:** 3 stykki
+    - **Vara M9202:** 9 stykki
 
-1. Áður en þú losar pantanir í vöruhúsið verður þú að ganga úr skugga um að tiltektarstaðirnir séu með nægar birgðir fyrir allar vörur í öllum pöntunum. Farðu yfir stillinguna **Staðsetningartilskipun** til að ákvarða hvaða tínslustaðir eru notaðir við tínslu sölupöntunum. Ef verið er að nota umhverfi Contoso-sýnigagna fyrir vöruhús *51* skal staðfesta að til séu lausar birgðir.
+6. Áður en þú losar pantanir í vöruhúsið verður þú að ganga úr skugga um að tiltektarstaðirnir séu með nægar birgðir fyrir allar vörur í öllum pöntunum. Farðu yfir stillinguna **Staðsetningartilskipun** til að ákvarða hvaða tínslustaðir eru notaðir við tínslu sölupöntunum.
+7. Bókaðu birgðirnar og slepptu þeim í vöruhúsið. Vinnukenni sem hefur sex línur er búið til. Línunum er raðað eftir vörunúmeri.
 
-    Nú þarf að taka frá birgðirnar fyrir hverja línu.
+### <a name="run-the-mobile-device-flow"></a>Keyrðu fartækjaflæðið
 
-1. Í flýtiflipanum **Sölupöntunarlínur** skal velja eina af línunum sem þarf að taka frá.
-1. Á valmyndinni **Birgðir** fyrir ofan hnitanetið smellir þú á **Frátekning**.
-1. Á síðunni **Frátekning**, á aðgerðasvæðinu, skal velja **Frátektarlota** til að nota frátekninguna. Því næst skal loka síðunni.
-1. Endurtakið skref 8 til 10 fyrir eftirstandandi línur sem þarf að taka frá.
+1. Í fartækinu velurðu valmynd sem inniheldur nýtt valmyndaratriði fartækis.
+1. Veldu valmyndaratriðið **Sölutiltekt - Flokkalína** og hefðu tiltektina.
 
-    Nú þarf að losa sölupöntunina í vöruhúsið.
+    Eftir að þú hefur valið valmyndina og slegið inn vinnukenið sérðu tiltektarskrefið þar sem allar tiltektarlínur fyrir vöruna M9200 eru flokkaðar. Þú færð leiðbeiningar um að velja 7 stykki af vöru M9200.
 
-1. Á aðgerðasvæðinu, í flipanum **Vöruhús**, skal velja **Losa í vöruhús**.
+1. Staðfestu tiltektarskrefið. 
+1. Farðu á biðlaraskjáinn í vinnunni sem er í gangi og taktu eftir því að öllum þremur tiltektarlínum fyrir vöruna M9200 var lokað samtímis.
 
-    Skilaboð birtast sem segja að sending og bylgja hafi verið stofnuð og að bylgjan hafi verið send inn til að keyra í runu.
-
-    Þegar bylgjunni og öllum seinni verkum er lokið er vinnunkenni stofnað fyrir vinnuna sem er með sex línur. Línunum er raðað eftir vörunúmeri.
-
-1. Farið í **Vöruhúsakerfi \> Vinna \> Öll vinna** til að skoða vinnuna sem var stofnuð. Skráið hjá ykkur gildið fyrir **Vinnukennið** því það þarf að nota það í næsta skrefi.
-
-### <a name="initiate-picking-from-the-mobile-device"></a>Tiltekt hafin í fartæki
-
-1. Skráðu þig inn í fartækið sem notandi sem er settur upp fyrir í vöruhús *51*.
-1. Í fartækinu velurðu valmynd sem inniheldur nýtt valmyndaratriði fartækis. Fyrir þessar aðstæður skal velja **Á útleið**.
-1. Veljið valmyndaratriðið **Tiltekt söluflokkslínu** til að hefja tiltektina.
-1. Færið inn gildið fyrir **Vinnukenni** sem skráð var niður í skrefinu hér á undan.
-
-    Tiltektarskref ætti að sjást þar sem öllum tiltektarlínum fyrir vöru *M9200* er safnað saman og skipun um að tína *7* af vöru *M9200*.
-
-    > [!IMPORTANT]
-    > Í fartækinu hefur tiltektarvinnunni fyrir þessar þrjár tiltektarlínur verið safnað saman í eitt tiltektarskref fyrir notandann.
+    Vinnulína 4 er kynnt.
 
 1. Staðfestu tiltektarskrefið.
-1. Farið á vinnusíðu fyrir vinnunkennið og takið eftir að öllum þremur tiltektarlínunum fyrir vöru *M9200* var lokað samtímis.
-1. Farið aftur í fartækið og haldið áfram með tiltektina. Vinnulína 4 fyrir vöru *M9201* ætti að koma upp. Þar sem aðeins ein vinnulína var í pöntuninni er ekkert til að safna saman.
-1. Staðfestu tiltektarskrefið.
-1. Síðasta tiltektarstigið í fartækinu safnar saman síðustu tveimur tiltektarlínunum úr vinnupöntuninni.
-1. Ljúkið við tiltektarskrefið fyrir *9* af vöru *M9202*.
+
+    Síðasta tiltektarstigið í fartækinu safnar saman síðustu tveimur tiltektarlínunum úr vinnupöntuninni.
+
+1. Ljúktu við tiltektarskrefið fyrir 9 stykki af vöru M9202.
 1. Staðfestu frágangsskrefið og öll viðbótartiltektar-/frágangspör til að klára vinnuna.
 
-> [!IMPORTANT]
->
+> [!NOTE]
 > - Aðeins er hægt að flokka vinnu línur ef þær eru í röð.
 > - Eftirfarandi aðgerðir eru ekki studdar:
 >
->   - Vörur með framleiðsluþyngd
->
->    Ef það eru einhverjar framleiðsluþyngdir í vvinnunni færðu villuboð áður en þú byrjar tiltekt.
->
->   - Stykkjatínsla
->   - Vinnulínur sem eru með óuppgerða áfyllingarvinnu
->   - Umframtiltekt
->   - Endurúthlutun með fyrir vöru
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+>    - Vörur framleiðsluþyngdar. Ef það eru einhverjar framleiðsluþyngdir í vvinnunni færðu villuboð áður en þú byrjar tiltekt.
+>    - Einingatiltekt.
+>    - Vinnulínur sem hafa óunna endurnýjunarvinnu.
+>    - Umframtiltekt.
+>    - Endurúthlutun með fyrir vöru

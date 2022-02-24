@@ -45,6 +45,3 @@ Með þessari breytingu er nú sjálfgefið að fyrir reitinn **Upphafsmaður a�
 ### <a name="ideas-portal-updated"></a>Hugmyndagátt uppfærð
 Í forriti hafa tenglar til að senda inn hugmynd um Talent verið uppfærðir til að innihalda nýju hugmyndagáttina. Allar hugmyndir sem færðar hafa verið inn í gömlu gáttina hafa verið fluttar. Allar frábæru hugmyndirnar þínar eru enn þar og aðrir geta kosið um þær.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,6 +62,3 @@ Hægt er að hætta við starf í Attract hvenær sem er.
    > Þú getur aðeins lokað starfi sem **Ráðið í stöðu** þegar að að minnsta kosti eitt viðfang hefur lokið tilboðsstiginu. Ef atvinnuumsóknin er ekki með **Tilboð samþykkt** valið, eða ef forritið sýnir ekki stöðuna **Samþykkt** í tilboðinu birtist valkosturinn **Ráðið í stöðu** ekki í fellilistanum **Ástæða**.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

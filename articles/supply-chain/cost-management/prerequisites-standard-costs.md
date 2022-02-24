@@ -2,25 +2,28 @@
 title: Yfirlit yfir skilyrði fyrir staðalkostnað
 description: Þetta efnisatriði fjallar um grundvallarskref við notkun staðalkostnaðar.
 author: AndersGirke
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventStdCostConv, CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c25f2109522c7ba549ef7c3ea429873d0e1f06e
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 9333bda96ceae378ab74892534db13761038a06c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986329"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967359"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Yfirlit yfir skilyrði fyrir staðalkostnað
 
@@ -65,7 +68,8 @@ Notaðu síðuna **Uppsetningu kostnaðarútgáfu** til að stofna eina eða fle
 Viðskiptavinir sem vilja til að breyta núverandi vörum sínum yfir í birgðalíkan staðalkostnaðar verða að nota síðuna **Umreikningur á staðalkostnaði**.
 
 
-## <a name="related-topics"></a>Tengd efnisatriði
+<a name="related-topics"></a>Tengd efnisatriði
+--------
 
 [Yfirlit yfir umreikning staðalkostnaðar](standard-cost-conversion-overview.md)
 
@@ -75,6 +79,3 @@ Viðskiptavinir sem vilja til að breyta núverandi vörum sínum yfir í birgð
 
 - [Hvernig á að setja upp staðalkostnað fyrir beint efni í Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
 - [Beinn launakostnaður í Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

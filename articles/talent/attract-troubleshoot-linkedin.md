@@ -57,6 +57,3 @@ Ef starfið hefur ekki birst á LinkedIn eftir sólarhring skaltu prófa þessi 
 [Búa til, samþykkja og birta störf í Attract](./creating-jobs-attract.md)
 
 [Úrræðaleit samþættingar við LinkedIn og Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

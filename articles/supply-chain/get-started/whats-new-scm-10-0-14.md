@@ -2,24 +2,27 @@
 title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.14 (október 2020)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.14.
 author: kamaybac
+manager: tfehr
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fc9b8d9b6c3ef2980e7b676e6c85e3372db8cdd601f25a2b696106991ae40a59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 584ea00c64df5e31d47e40aa32d7b266ff842de6
+ms.sourcegitcommit: 4e55bd178e315dfa132ec77fe705d68c68460b44
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739084"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4430770"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.14. (nóvember 2020)
 
@@ -33,7 +36,7 @@ ms.locfileid: "6739084"
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Þessi útgáfa inniheldur uppfærðan verkvang og almennar úrbætur, en enga nýja eiginleika sem eru sértækir fyrir Aðfangakeðjustjórnun. Frekari upplýsingar um væntanlegu eiginleikana er að finna á [Útgáfuáætlun](/dynamics365/release-plans/) -svæðinu.
+Þessi útgáfa inniheldur uppfærðan verkvang og almennar úrbætur, en enga nýja eiginleika sem eru sértækir fyrir Aðfangakeðjustjórnun. Frekari upplýsingar um væntanlegu eiginleikana er að finna á [Útgáfuáætlun](https://docs.microsoft.com/dynamics365/release-plans/) -svæðinu.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -49,7 +52,7 @@ Til að fá upplýsingar um villuleiðréttingarnar sem fylgja sérhverri uppfæ
 
 Ertu að velta fyrir þér væntanlegum og nýlega útgefnum möguleikum í einhverjum af viðskiptaforritum eða verkvangi okkar?
 
-Skoðaðu [Dynamics 365: 2020 útgáfu bylgju 2 áætlun](/dynamics365-release-plan/2020wave2/index). Við höfum tekið saman öll smáatriðin í eitt skjal sem hægt er að nota við áætlanagerð.
+Skoðaðu [Dynamics 365: 2020 útgáfu bylgju 2 áætlun](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). Við höfum tekið saman öll smáatriðin í eitt skjal sem hægt er að nota við áætlanagerð.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fjarlægðir og úreltir eiginleikar Supply Chain Management
 
@@ -61,6 +64,3 @@ Efnið [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Mana
 Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um afskriftir tilkynnt í efninu [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mánuðum fyrir fjarlægingu.
 
 Til að brjóta breytingar sem hafa aðeins áhrif á samantektartíma, en eru tvöfaldar samhæfðir við sandkassa og framleiðsluumhverfi, verður afskriftartíminn innan við 12 mánuði. Venjulega eru þetta hagnýtar uppfærslur sem þarf að gera við þýðandann.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

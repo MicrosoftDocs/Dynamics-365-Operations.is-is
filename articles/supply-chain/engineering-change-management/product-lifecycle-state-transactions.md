@@ -2,23 +2,26 @@
 title: Líftímastöður afurðar og færslur
 description: Þetta efnisatriði útskýrir hvernig skal stjórna hvaða færslur eru leyfðar fyrir hverja líftímastöðu sem hönnunarafurð fer í gegnum á líftíma hennar.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 12f95feda887b5f1284624e5f072b498a78d00e1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574642"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4430785"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Líftímastöður afurðar og færslur
 
@@ -73,25 +76,3 @@ Eftirfarandi reitir eru tiltækir fyrir hvert ferli sem er skráð á flýtiflip
 | Tryggingasamningur | Veldu eitt af eftirfarandi gildum til að stjórna hvort og hvernig núverandi ferli verður heimilað fyrir afurðir með eftirfarandi líftímastöðu:<ul><li>**Virkjað** – Viðskiptaferlið er leyft.</li><li>**Lokað** – Ferlið er ekki leyft. Þegar notandi reynir að nota ferlið fyrir afurð með þessa líftímastöðu, stöðvar kerfið slíkt og birtir villu þess í stað. Þú ætlar t.d. að útiloka kaup á afurðum sem eru við lok líftíma.</li><li>**Virkjað með viðvörun** – Ferlið er leyft en viðvörun birtist. Þú vilt t.d. setja frumgerð afurðar á framleiðslupöntun sem er stofnuð af deild rannsóknar- og þróunarsviðsins. Hins vegar ættu aðrar deildir að fá að vita að þær eiga ekki að hefja framleiðslu á afurðinni strax.</li></ul> |
 
 Þegar þú bætir við fleiri reglum um líftímastöðu sem sérstillingar er hægt að skoða þessar reglur í notandaviðmótinu (UI) með því að velja **Uppfæra ferli** á efra svæðinu. Hnappurinn **Uppfæra ferli** er aðeins tiltækur fyrir stjórnendur.
-
-## <a name="lifecycle-states-for-released-products-and-product-variants"></a>Líftímastöður fyrirútgefnar afurðir og afurðarafbrigði
-
-Fyrir vöru sem hefur afbrigði (aðal og afbrigði) verður varan (aðal) með líftímastöðu og hvert afbrigði getur einnig verið með mismunandi líftímastöðu.
-
-Ef lokað er á afbrigðið eða vöruna í tilteknum ferlum verður einnig lokað á ferlið. Til að ákvarða hvort ferli sé lokað mun kerfið því framkvæma eftirfarandi athuganir:
-
-- Fyrir vélstýrðar vörur:
-  - Ef núverandi hönnunarútgáfa er lokuð skal loka ferlinu.
-  - Ef núverandi afbrigði er lokað skal loka ferlinu.
-  - Ef losuð vara er lokuð skaltu loka ferlinu.
-- Fyrir staðlaðar afurðir:
-  - Ef núverandi afbrigði er lokað skal loka ferlinu.
-  - Ef losuð vara er lokuð skaltu loka ferlinu.
-
-Gefum okkur til dæmis að aðeins eigi að selja eitt afbrigði (rautt) af tiltekinni vöru (bolur) og loka fyrir sölu á öllum öðrum afbrigðum í bili. Þú gætir útfært þetta með eftirfarandi uppsetningu:
-
-- Tilgreindu líftímastöðu vörunnar sem leyfir ferlið. Til dæmis getur þú úthlutað vörunni (bolnum) líftímastöðunni *Seljanleg* sem leyfir viðskiptaferlið *Sölupöntun*.
-- Tilgreindu líftímastöðu fyrir seljanlegt afbrigði sem leyfir ferlið. Einnig er t.d. hægt að úthluta rauða afbrigðinu líftímastpðunni *Seljanlegt*.
-- Öll önnur afbrigði verða úthlutuð í aðra líftímastöðu þar sem ferlið er lokað. Til dæmis, úthlutaðu hvíta afbrigðinu (og öllum öðrum afbrigðum) líftímastöðunni *Ekki seljanlegt*, sem lokar fyrir viðskiptaferlið *Sölupöntun*.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

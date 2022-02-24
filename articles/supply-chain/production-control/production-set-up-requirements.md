@@ -2,13 +2,16 @@
 title: Uppsetningarkröfur framleiðslu
 description: Þessi grein veitir upplýsingar um uppsetningarskilyrðu áður en hægt er að vinna með framleiðslustýringu.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 55561
 ms.assetid: 1953059f-478d-4706-b461-25b89ace5fc3
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bfde8b40927ceaa216878d58ef72c5d91e9ebe01
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
-ms.translationtype: MT
+ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968797"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430085"
 ---
 # <a name="production-setup-requirements"></a>Uppsetningarkröfur framleiðslu
 
@@ -39,7 +42,7 @@ Setja verður upp upplýsingar í öðrum einingum áður en hægt er að vinna 
 -   Skilgreina vöruflokka.
 -   Setja upp fjárhagslykla fyrir vöruflokka.
 -   Setja upp töflu fyrir birgðavörur í Birgðastjórnun.
--   Búðu til efnisyfirlit (BOMs) og BOM útgáfur í Vöruupplýsingastjórnun.
+-   Stofna uppskriftir (BOMs) og uppskriftaútgáfur í birgðastjórnun.
 
 ## <a name="required-calendar-and-resource-setup"></a>Skyldug uppsetning dagatals og tilfanga
 Áður en þú notar framleiðslustýring, opnaðu Fyrirtækisstjórnun og stofna og skilgreina dagatal og rekstrartilföng í eftirfarandi röð:
@@ -78,6 +81,3 @@ Ef unnið er með leiðir þarf að skilgreina aðgerðir fyrir hverja framleið
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

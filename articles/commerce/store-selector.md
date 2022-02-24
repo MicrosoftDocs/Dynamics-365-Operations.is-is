@@ -3,12 +3,14 @@ title: Vista valeiningu
 description: Þetta efni fjallar um verslunarvalseininguna og lýsir því hvernig á að bæta henni við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/08/2021
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,53 +18,34 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ee9d3cec9c524f73472929052d46d87f8270ba67568314eceb462b1803cf149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5400a2e743a78124dca4bf9be3ccaf7870ea8b7d
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772157"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665273"
 ---
-# <a name="store-selector-module"></a>Eining til að velja verslun
+# <a name="store-selector-module"></a>Vista valeiningu
 
 [!include [banner](includes/banner.md)]
 
 Þetta efni fjallar um verslunarvalseininguna og lýsir því hvernig á að bæta henni við vefsíður hjá Microsoft Dynamics 365 Commerce.
 
+## <a name="overview"></a>Yfirlit
+
 Viðskiptavinir geta notað valeiningu verslunar til að sækja vöru í valdri verslun eftir kaup á netinu. Í Commerce-útgáfu 10.0.13 felur valeining verslunar einnig í sér fleiri möguleika sem geta birt **Finna verslun** síðu sem sýnir nálægar verslanir.
 
 Valeining verslunar leyfir notendum að slá inn staðsetningu (borg, ríki, aðsetur og svo framvegis) til að leita að verslunum innan leitarradíuss. Þegar einingin er opnuð í fyrsta skipti, notar hún staðsetningu á vafra viðskiptavinarins til að finna verslanir (ef samþykki er veitt).
 
-## <a name="store-selector-module-usage"></a>Notkun á valeiningu verslunar
+## <a name="store-selector-module-usage-in-e-commerce"></a>Notkun verslunarvalseiningar í e-Commerce
 
 - Hægt er að nota valeiningu verslunar á upplýsingasíðu afurðar til að velja verslun til að sækja í.
 - Hægt er að nota valeiningu verslunar á körfusíðu til að velja verslun til að sækja í.
 - Hægt er að nota valeiningu verslunar á sjálfstæðri síðu sem sýnir allar tiltækar verslanir.
 
-## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>Uppsetning uppfyllingarflokks í Commerce Headquarters
-
-Til að verslunarvalið geti sýnt tiltækar verslanir þarf að setja upp uppfyllingarflokkinn í Commerce Headquarters. Frekari upplýsingar er að finna í [Setja upp uppfyllingarflokka](customer-orders-overview.md#set-up-fulfillment-groups).
-
-Í uppfyllingarflokknum þarf auk þess að skilgreina lengdar- og breiddargráðu á staðsetningu verslunar í höfuðstöðvum.
-
-Til að færa inn gildi fyrir lengdar- og breiddargráðu fyrir staðsetningu verslunar í Commerce Headquarters skal fylgja þessum skrefum.
-
-1. Farið í **Birgðastjórnun \> Uppsetning \> Sundurliðun birgða**.
-1. Veljið staðsetningu vöruhúss á svæðinu vinstra megin.
-1. Í flýtiflipanum **Aðsetur** skal velja **Ítarlegt**.
-
-    ![Dæmi um verslunarupplýsingar í höfuðstöðvum.](./media/Store-address.png)
-
-1. Á aðgerðarúðunni skal velja **Breyta**.
-1. Í flýtiflipanum **Almennt** skal færa inn gildi fyrir **Breiddargráðu** og **Lengdargráða**.
-
-    ![Dæmi um uppsetningu breiddargráðu og lengdargráðu fyrir verslun í höfuðstöðvum.](./media/Store-latitude-longitude.png)
-
-1. Í aðgerðarúðunni skal velja **Vista**. 
-
 ## <a name="bing-maps-integration"></a>Samþætting Bing-korta
 
-Valeining verslunar er samþætt við [REST forritunarviðmót Bing-korta](/bingmaps/rest-services/) til að nota landkóðun og sjálfvirkar tillögur Bing. API-lykill Bing-korta er nauðsynlegur og verður að bæta honum við samnýtta færibreytusíðu í Commerce Headquarters. API-landkóðun er notuð til að umbreyta staðsetningu í gildi breiddar- og lengdargráða. Samþætting við API fyrir sjálfvirkar tillögur er notuð til að sýna leitartillögur þegar notendur slá inn staðsetningar í leitarreitinn.
+Valeining verslunar er samþætt við [REST forritunarviðmót Bing-korta](https://docs.microsoft.com/bingmaps/rest-services/) til að nota landkóðun og sjálfvirkar tillögur Bing. API-lykill Bing-korta er nauðsynlegur og verður að bæta honum við samnýtta færibreytusíðu í Commerce Headquarters. API-landkóðun er notuð til að umbreyta staðsetningu í gildi breiddar- og lengdargráða. Samþætting við API fyrir sjálfvirkar tillögur er notuð til að sýna leitartillögur þegar notendur slá inn staðsetningar í leitarreitinn.
 
 Fyrir REST API sjálfvirkar tillögur, þarf að ganga úr skugga um að eftirfarandi vefslóðir séu leyfðar í öryggisreglum vefsvæðisins. Þessi uppsetning er gerð í Commerce-vefsmiðnum með því að bæta leyfðum vefslóðum við ýmsar öryggisleiðbeiningar fyrir vefsvæðið (t.d. **img-src**). Nánari upplýsingar er að finna í [Öryggisregla um innihald](manage-csp.md). 
 
@@ -70,21 +53,21 @@ Fyrir REST API sjálfvirkar tillögur, þarf að ganga úr skugga um að eftirfa
 - Í leiðbeininguna **img-src** skal bæta við **&#42;.virtualearth.net**.
 - Í leiðbeininguna **script-src** skal **bæta við &#42;.bing.com, &#42;.virtualearth.net**.
 - Í leiðbeininguna **script style-src** skal bæta við **&#42;.bing.com**.
-
+ 
 ## <a name="pickup-in-store-mode"></a>Sækja í verslun
 
 Valeining verslunar styður stillinguna **Sækja í verslun** sem sýnir lista yfir verslanir þar sem hægt er að sækja vöru. Hún sýnir einnig opnunartíma verslunar og birgðir fyrir hverja verslun á listanum. Valeining verslunar krefst vörusamhengis til að sýna vöruframboð og leyfa notendum að bæta vörunni við körfuna, ef afhendingarsnið vörunnar er stillt á **sækja** í valdri verslun. Frekari upplýsingar er að finna í [Birgðastillingar](inventory-settings.md). 
 
 Hægt er að bæta valeiningu verslunar við kaupgluggaeiningu á upplýsingasíðu afurðar til að sýna verslanir þar sem boðið er upp á að sækja vöruna. Það er einnig hægt að bæta við körfu mát. Í slíku tilfelli sýnir valeining verslunar valkosti til að sækja fyrir hverja vörulínu í körfunni. Einnig er hægt að bæta verslunarvaleiningunni við aðrar síður eða einingar með viðbótum og sérstillingum.
 
-Til að þessar aðstæður geti virkað, þarf að skilgreina afurðir þannig að afhendingarmátann **sækja** er notað. Annars verður einingin ekki sýnd á síðum afurða. Frekari upplýsingar um hvernig á að skilgreina afhendingarmáta er að finna í [Setja upp afhendingarmáta](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+Til að þessar aðstæður geti virkað, þarf að skilgreina afurðir þannig að afhendingarmátann **sækja** er notað. Annars verður einingin ekki sýnd á síðum afurða. Frekari upplýsingar um hvernig á að skilgreina afhendingarmáta er að finna í [Setja upp afhendingarmáta](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 Eftirfarandi mynd sýnir dæmi um verslunarvalseiningu sem er notuð á PDP.
 
-![Dæmi um verslunarvalseiningu sem notuð er á PDP.](./media/BOPIS.PNG)
+![Dæmi um verslunarvalseiningu sem notuð er á PDP](./media/BOPIS.PNG)
 
 > [!NOTE]
-> Í útgáfu 10.0.16 og nýrri er hægt að virkja nýja eiginleika sem gerir fyrirtæki kleift að skilgreina marga afhendingarmáta fyrir viðskiptavini.  Ef þessi eiginleiki er virkur er verslunarval og aðrar einingar í e-Commerce endurbættar til að leyfa kaupandanum að velja úr hugsanlega mörgum valkostum fyrir afhendingarmáta ef það er skilgreint.  Frekari upplýsingar um þennan eiginleika má finna í [þessum fylgigögnum](./multiple-pickup-modes.md). 
+> Í útgáfu 10.0.16 og nýrri er hægt að virkja nýja eiginleika sem gerir fyrirtæki kleift að skilgreina marga afhendingarmáta fyrir viðskiptavini.  Ef þessi eiginleiki er virkur er verslunarval og aðrar einingar í e-Commerce endurbættar til að leyfa kaupandanum að velja úr hugsanlega mörgum valkostum fyrir afhendingarmáta ef það er skilgreint.  Frekari upplýsingar um þennan eiginleika má finna í [þessum fylgigögnum](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
 
 ## <a name="find-stores-mode"></a>Finna verslanir
 
@@ -92,7 +75,7 @@ Verslunarvaleiningin styður einnig stillinguna **Finna verslanir**. Hægt er a�
 
 Eftirfarandi mynd sýnir dæmi um verslunarvaleiningu sem er notuð saman með kortaeiningu á staðsetningarsíðu verslunar.
 
-![Dæmi um verslunarvalseiningu og kortaeiningu á staðsetningarsíðu verslunar.](./media/ecommerce-Storelocator.PNG)
+![Dæmi um verslunarvaleiningu og kortaeiningu á staðsetningarsíðu verslunar.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Birta kort
 
@@ -110,10 +93,6 @@ Hægt er að nota verslunarvaleininguna saman með kortaeiningunni til að sýna
 | Valmöguleikar sjálfvirkrar tillögu: Hámarksfjöldi niðurstaða | Númer | Þessi eiginleiki skilgreinir hámarksfjölda af niðurstöðum sjálfvirkrar tillögu sem hægt er að sýna í gegnum API sjálfvirkrar tillögu Bing. |
 | Leitarradíus | Númer | Þessi eiginleiki skilgreinir leitarradíus fyrir verslanir, í mílum. Ef ekkert gildi er tilgreint er sjálfgefinn leitarradíus upp á 50 mílur notaður. |
 | Þjónustuskilmálar | URL |  Þessi eiginleiki tilgreinir vefslóð skilmála sem eru nauðsynlegir til að nota Bing-kortaþjónustuna. |
-
-## <a name="site-settings"></a>Stillingar svæðis
-
-Verslunarvalseining fellur undir [Stillingar fyrir Bæta vöru í körfu](add-cart-settings.md). Þegar vöru hefur verið bætt við körfuna úr verslunarvalseiningunni munu notendur vefsvæðisins sjá skilgreind verkflæði sem eiga við.
 
 ## <a name="add-a-store-selector-module-to-a-page"></a>Bæta við verslunarvalseiningu á síðu
 
@@ -160,13 +139,10 @@ Til að skilgreina verslunarvaleininguna til að sýna tiltækar verslanir fyrir
 
 [Stutt kynning á körfu og greiðsluferli](quick-tour-cart-checkout.md)
 
-[Setja upp afhendingarmáta](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Setja upp afhendingarmáta](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 [Stjórna Bing-kortum fyrir þitt fyrirtæki](dev-itpro/manage-bing-maps.md)
 
-[REST API Bing-korta](/bingmaps/rest-services/)
+[REST API Bing-korta](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [Kortaeining](map-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

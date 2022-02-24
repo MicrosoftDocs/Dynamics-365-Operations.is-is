@@ -149,6 +149,3 @@ Oft eru nokkrir góðir umsækjendur fyrir vinnu ekki valdir, en þú vilt ekki 
 1. Á umsóknarsíðunni skaltu velja **Bæta við hæfileikasafn**. Listi yfir hæfileikasöfn sem þú hefur aðgang að er sýndur.
 
 1. Veldu eða leitaðu að hæfileikasafninu og veldu síðan **Bæta við** til að bæta við frambjóðanda í þetta hæfileikasafn.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

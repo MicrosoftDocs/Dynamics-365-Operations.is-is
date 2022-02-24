@@ -142,6 +142,3 @@ Eftir að umsækjendur hafa sótt um eitt eða fleiri störf, geta þeir valið 
 ## <a name="internal-jobs"></a>Innri störf
 
 Nú birtast störf sem eru merktar sem innri störf og sett fram á Attract-svæðinu ekki á starfatorginu. Þau eru aðeins aðgengileg með því að nota vefslóðina **Sækja um** beint sem hægt er að afrita úr Attract-forritinu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

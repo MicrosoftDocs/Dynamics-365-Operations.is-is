@@ -2,19 +2,28 @@
 title: Setja upp vörpun fyrir stöðudálka sölupöntunar
 description: Þetta efnisatriði útskýrir hvernig setja á upp stöðudálka sölupöntunar fyrir tvískipt skrif.
 author: dasani-madipalli
+manager: tonyafehr
 ms.date: 06/25/2020
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: damadipa
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 53d824ca2fb1eadf34e62bf9c08b837db3efaf42
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: MT
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782285"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744300"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Setja upp vörpun fyrir stöðudálka sölupöntunar
 
@@ -93,7 +102,7 @@ Til að virkja eigindina **IsSOPIntegrationEnabled** skal fylgja þessum skrefum
 1. Í vafra skal fara á `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Skiptið út **\<test-name\>** með tengli fyrirtækisins við Sales.
 2. Á síðunni sem opnast skal finna **organizationid** og gera athugasemd um gildið.
 
-    ![Leit að organizationid.](media/sales-map-orgid.png)
+    ![Leit að organizationid](media/sales-map-orgid.png)
 
 3. Í Sales skal opna stjórnborð vafrans og keyra eftirfarandi forskrift. Notið gildið **organizationid** úr skrefi 2.
 
@@ -112,35 +121,32 @@ Til að virkja eigindina **IsSOPIntegrationEnabled** skal fylgja þessum skrefum
     );
     ```
 
-    ![JavaScript-kóði í stjórnborði vafrans.](media/sales-map-script.png)
+    ![JavaScript-kóði í stjórnborði vafrans](media/sales-map-script.png)
 
 4. Gangið úr skugga um að **IsSOPIntegrationEnabled** sé stillt á **satt**. Notið vefslóðina úr skrefi 1 til að athuga gildið.
 
-    ![IsSOPIntegrationEnabled stillt á satt.](media/sales-map-integration-enabled.png)
+    ![IsSOPIntegrationEnabled stillt á satt](media/sales-map-integration-enabled.png)
 
 Til að virkja eigindina **erIntegrationUser** skal fylgja þessum skrefum.
 
 1. Í Sales skal farið á **Stilling \> Sérstillingar \> Sérstilla kerfið**, velja **Notandatafla** og opna svo **Skjámynd \> Notandi**.
 
-    ![Skjámynd notanda opnuð.](media/sales-map-user.png)
+    ![Skjámynd notanda opnuð](media/sales-map-user.png)
 
 2. Í Field Explorer skal finna **Stilling samþættingarnotanda** og tvísmella á það til að bæta því við skjámyndina. Vistið breytingarnar.
 
-    ![Stillingadálki samþættingarnotanda bætt við skjámyndina.](media/sales-map-field-explorer.png)
+    ![Stillingadálki samþættingarnotanda bætt við skjámyndina](media/sales-map-field-explorer.png)
 
 3. Í Sales skal farið í **Stilling \> Öryggi \> Notendur** og breyta yfirlitinu úr **Virkjaðir notendur** í **Notendur forrits**.
 
-    ![Yfirlitinu breytt úr Virkjaðir notendur í Notendur forrits.](media/sales-map-enabled-users.png)
+    ![Yfirlitinu breytt úr Virkjaðir notendur í Notendur forrits](media/sales-map-enabled-users.png)
 
 4. Veljið færslurnar tvær fyrir **Samþættingarnotandi tvöfaldra skrifa**.
 
-    ![Listi yfir notendur forrits.](media/sales-map-user-mode.png)
+    ![Listi yfir notendur forrits](media/sales-map-user-mode.png)
 
 5. Breytið gildinu á dálkinum **Stilling samþættingarnotanda** í **Já**.
 
-    ![Gildinu breytt á stillingadálki samþættingarnotanda.](media/sales-map-user-mode-yes.png)
+    ![Gildinu breytt á stillingadálki samþættingarnotanda](media/sales-map-user-mode-yes.png)
 
 Sölupöntunum hefur verið varpað.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

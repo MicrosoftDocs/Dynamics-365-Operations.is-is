@@ -2,25 +2,28 @@
 title: Sala og skil á afurðum sem ekki eru hluti af úrvali verslunar
 description: Með Dynamics 365 Commerce getur þú selt og skilað afurðum út fyrir vöruúrval.
 author: pdp1207
+manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 318fa3bb4aed2b22e4db821f4e4e4762866fddc42f6cf0050a2a3c392faeb561
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 86c6ecf9ef67ca3ac4ed3c44d930acaa965112b6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713391"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413240"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Sala og skil á afurðum sem ekki eru hluti af úrvali verslunar
 
@@ -43,6 +46,3 @@ Hér eru nokkrar dæmigerðar aðstæður.
 + Taka vörur í annarri verslun eða verslunarinnar.
 + Hætta við pöntun á verslunarinnar eða annarri verslun.
 + Pöntun með eða án móttöku á núverandi verslun eða annarri verslun aftur.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

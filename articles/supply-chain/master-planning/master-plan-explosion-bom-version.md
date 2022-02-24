@@ -1,27 +1,30 @@
 ---
 title: Niðurbrot uppskriftarútgáfu
 description: Þessi grein útskýrir aðstæður aðaláætlanagerðar sem felur í sér niðurbrot uppskriftarútgáfu.
-author: ChristianRytt
+author: roxanadiaconu
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransExplosion
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19211
 ms.assetid: fe08c2e6-9cc5-4e34-bbb2-cd07843403b5
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be4dfc85ad7ab01df9a95a394896873e2d649e12
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 482c036294f525be5db1dc6efefe76a9ba5b3ce5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575100"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430570"
 ---
 # <a name="explosion-of-a-bom-version"></a>Niðurbrot uppskriftarútgáfu
 
@@ -34,9 +37,10 @@ Niðurbrot eftirspurnar í uppskriftarútgáfunni býr til eftirspurn fyrir hver
 -   Svæðisvíddin er skylda og hana þarf að færa inn í færslu eftirspurnar.
 -   Svæðisvíddin er samræmd. Þess vegna er svæðið fyrir neðra-stigs eftirspurn hið sama og svæðið í upprunalegu eftirspurnarfærslunni.
 
-Eftirfarandi mynd sýnir framvindu niðurbrots eftirspurnar í aðaláætlunargerð. ![Niðurbrot eftirspurnar með útgáfu uppskriftar.](./media/multisitedemandexplosionscenariousingbomversion.gif)
+Eftirfarandi mynd sýnir framvindu niðurbrots eftirspurnar í aðaláætlunargerð. ![Niðurbrot eftirspurnar með útgáfu uppskriftar](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
-## <a name="additional-resources"></a>Frekari upplýsingar
+<a name="additional-resources"></a>Frekari upplýsingar
+--------
 
 [Uppskriftarútgáfa ákvörðuð](master-plan-bom-version-determined.md)
 
@@ -44,6 +48,3 @@ Eftirfarandi mynd sýnir framvindu niðurbrots eftirspurnar í aðaláætlunarge
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

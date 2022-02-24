@@ -1,24 +1,27 @@
 ---
 title: Vörur tvíþætts notagildis
 description: Þetta efnisatriði útskýrir hvernig á að halda utan um vörur sem eru auðkenndar sem vörur með tvíþætt notagildi, geyma vottorðanúmer fyrir hverja viðeigandi afurð og land áfangastaðar, og prenta gild vottorðanúmer á viðeigandi reikninga, fylgiseðla og/eða sölupantanir.
-author: t-benebo
+author: dasani-madipalli
+manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: COODualUseCerts, COORules, COODualUseCountries
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: damadipa
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: 8f2b738fd87219be383b103eaf5fafeb971fc702
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570754"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430532"
 ---
 # <a name="dual-use-goods"></a>Vörur tvíþætts notagildis
 
@@ -105,6 +108,3 @@ Síðan **Vottorð fyrir tvíþætt notagildi** er notuð til að setja upp og s
     | Prenta á reikning | Veljið þennan gátreit til að prenta númer vottorðs á reikningunum sem eru stílaðir á tiltekið land innan tiltekins dagsetningabils. |
     | Prenta á fylgiseðil | Veljið þennan gátreit til að prenta númer vottorðs á fylgiseðlum sem eru stílaðir á tiltekið land innan tiltekins dagsetningabils. |
     | Prenta á sölupöntun | Veljið þennan gátreit til að prenta númer vottorðs á sölupöntunum sem eru stílaðar á tiltekið land innan tiltekins dagsetningabils. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

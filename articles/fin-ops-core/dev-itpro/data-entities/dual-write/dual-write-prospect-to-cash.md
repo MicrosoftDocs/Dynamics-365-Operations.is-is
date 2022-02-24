@@ -2,29 +2,40 @@
 title: Viðfang til sjóðstreymis í tvískiptingu
 description: Þetta efni veitir upplýsingar um viðfang til sjóðstreymis í tvískiptri skrifun.
 author: RamaKrishnamoorthy
+manager: AnnBe
 ms.date: 01/07/2021
 ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: rhaertle
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
+ms.search.industry: ''
 ms.author: ramasri
+ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: MT
+ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
+ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781792"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959602"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Viðfang til sjóðstreymis í tvískiptingu
 
 [!include [banner](../../includes/banner.md)]
 
+
+
 Mikilvægt markmið flestra fyrirtækja er að umbreyta viðföngum í viðskiptavini og halda síðan áframhaldandi viðskiptasambandi við þá viðskiptavini. Í forritum Microsoft Dynamics 365 verður ferli viðfanga til sjóðstreymis með tilboðum eða verkflæði pöntunarvinnslu og fjárhagurinn er afstemmdur og viðurkenndur. Samþætting möguleika á peningum með tvískiptri skrifun skapar verkflæði sem tekur tilvitnun og pöntun sem er upprunnin í annaðhvort Dynamics 365 Sales eða Dynamics 365 Supply Chain Management, og gerir tilboðið og pöntunina aðgengileg í báðum forritunum.
 
 Í viðmótum forritsins geturðu fengið aðgang að vinnslustöðum og reikningsupplýsingum í rauntíma. Þess vegna geturðu auðveldlega stjórnað aðgerðum eins og afurðabirgðum, meðhöndlun birgða og uppfyllingu í Supply Chain Management, án þess að þurfa að endurstofna tilboð og pantanir.
 
-![Tvískipt gagnaflæði í viðfang til sjóðstreymis.](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Tvískipt gagnaflæði í viðfang til sjóðstreymis](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Frekari upplýsingar um samþættingu viðskiptavinar og tengiliðar er að finna í [Samþætt aðalsniðmát viðskiptavinar](customer-mapping.md). Frekari upplýsingar um samþættingu afurðar er að finna í [Samræmd afurðarupplifun](product-mapping.md).
 
@@ -39,7 +50,7 @@ Frekari upplýsingar um samþættingu viðskiptavinar og tengiliðar er að finn
 
 Í Sölu ferðu í **Stillingar \> Stjórnun \> Kerfisstillingar \> Sala** og gangið úr skugga um að eftirfarandi stillingar séu notaðar:
 
-- Kerfisvalkosturinn **Nota verðútreikning kerfis** er stilltur á **Já**.
+- Kerfisvalkosturinn **Nota reikningskerfi verðs** er stilltur á **Já**.
 - **Reikningsaðferð reikningsafslátta** dálkurinn er stilltur á **Línuatriði**.
 
 ### <a name="sites-and-warehouses"></a>Svæði og vöruhús
@@ -61,7 +72,6 @@ Sölutilboð má stofna í annaðhvort Sales eða Supply Chain Management. Ef þ
 + Dálkarnir **Flutningsskilmálar**, **Afhendingarskilmálar**, **Sendingaraðferð** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum dálkum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem taflan er samstillt á milli.
 
 Ef þú notar líka Field Service-lausnina skaltu vertu viss um að virkja færibreytuna **Flýtistofnun tilboðslínu**. Með því að virkja breytuna aftur geturðu haldið áfram að búa til tilboðslínur með flýtiaðgerðinni.
-
 1. Farðu í Dynamics 365 Sales forritið.
 2. Veldu stillingartáknið efst í yfirlitsstikunni.
 3. Veljið **Ítarlegar stillingar**.
@@ -96,7 +106,7 @@ Ef þú samstillir úr Supply Chain Management í sölu færðu eftirfarandi ni�
 Nýjum dálkum hefur verið bætt við töfluna **Pöntun** og birtast á síðunni. Flestir þessir da´lkar birtast á flipanum **Samþætting** í Sales. Frekari upplýsingar um hvernig stöðudálkum er varpað er að finna í [Setja upp vörpun fyrir stöðudálka sölupantana](sales-status-map.md).
 
 + Hnapparnir **Stofna reikning** og **Hætta við pöntun** á síðunni **Sölupöntun** eru faldir í Sales.
-+ Gildið **Staða sölupöntunar** verður áfram **Virk** til að tryggja að gjöld úr Supply Chain Management geti flætt í sölupöntun í Sales. Til að stjórna þessu er sjálfgefið **Statecode \[ Status\]** stillt á **Virkt**.
++ Gildið **Staða sölupöntunar** verður áfram **Virk** til að tryggja að gjöld úr Supply Chain Management geti flætt í sölupöntun í Sales. Til að stjórna þessu er sjálfgefið **Statecode \[Status\]** stillt á **Virkt**.
 
 ## <a name="invoices"></a>Reikningar
 
@@ -113,25 +123,40 @@ Viðfang til sjóðstreymis innihalda safn af kjarnatöflukortum sem vinna saman
 
 | Finance and Operations-smáforrit | Forrit viðskiptavinatengsla | lýsing |
 |-----------------------------|-----------------------------------|-------------|
-[Allar afurðir](mapping-reference.md#138) | msdyn_globalproducts | |
-[Viðskiptavinir V3](mapping-reference.md#101) | lyklar | |
-[Viðskiptavinir V3](mapping-reference.md#116) | tengiliðir | |
-[Tengiliðir V2](mapping-reference.md#221) | msdyn_contactforparties | |
-[Hausar CDS-sölupöntunar](mapping-reference.md#217) | salesorders | |
-[CDS sölupöntunarlínur](mapping-reference.md#216) | salesorderdetails | |
-[CDS-sölutilboðshaus](mapping-reference.md#215) | tilboð | |
-[CDS-sölutilboðslínur](mapping-reference.md#214) | quotedetails | |
-[Útgefnar afurðir V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
-[Sölureikningshausar V2](mapping-reference.md#118) | reikningar | Sölureikningshausar V2 í töflu í Finance and Operations-forritinu innihalda reikninga fyrir sölupantanir og reikninga með frjálsum texta. Sía er notuð í Dataverse fyrir tvöfalda skráningu sem mun sía út öll skjöl reikninga með frjálsum texta. |
-[Sölureikningslínur V2](mapping-reference.md#117) | invoicedetails | |
-[Upprunakóðar sölupantana](mapping-reference.md#186) | msdyn_salesorderorigins | |
+| Sölureikningshausar V2    | reikningar                          | Sölureikningshausar V2 í töflu í Finance and Operations-forritinu innihalda reikninga fyrir sölupantanir og reikninga með frjálsum texta. Sía er notuð í Dataverse fyrir tvöfalda skráningu sem mun sía út öll skjöl reikninga með frjálsum texta. |
+| Sölureikningslínur V2      | invoicedetails                    |             |
+| Hausar CDS-sölupöntunar     | salesorders                       |             |
+| CDS sölupöntunarlínur       | salesorderdetails                 |             |
+| Upprunakóðar sölupantana    | msdyn\_salesorderorigins          |             |
+| CDS-sölutilboðshaus  | tilboð                            |             |
+| CDS-sölutilboðslínur   | quotedetails                      |             |
 
-Frekari upplýsingar um verðlista er að finna í [Samræmd afurðaupplifun](product-mapping.md).
+Hér eru tengd kjarnatöflukort fyrir viðfang til sjóðstreymis:
+
++ [Viðskiptavinir v3 til lykla](customer-mapping.md#customers-v3-to-accounts)
++ [Tengiliðir fyrir skuldatryggingu V2 til tengiliða](customer-mapping.md#cds-contacts-v2-to-contacts)
++ [Viðskiptavinir v3 í tengiliði](customer-mapping.md#customers-v3-to-contacts)
++ [Útgefnar afurðir V2 í msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
++ [Allar afurðir í msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
++ [Verðlisti](product-mapping.md)
 
 ## <a name="limitations"></a>Takmarkanir
-
 - Skilapantanir eru ekki studdar.
 - Kreditnótur eru ekki studdar.
-- Stilla verður fjárhagsvíddir fyrir aðalgögnin, til dæmis viðskiptavin og lánardrottin. Þegar viðskiptavini er bætt við tilboð eða sölupöntun flæða fjárhagsvíddirnar sem tengjast viðskiptavinafærslunni til pöntunarinnar sjálfkrafa. Sem stendur inniheldur tvöföld skráning ekki gögn fjárhagsvídda fyrir aðalgögn.
+- Stilla verður fjárhagsvíddir fyrir aðalgögnin, til dæmis viðskiptavin og lánardrottin. Þegar viðskiptavini er bætt við tilboð eða sölupöntun flæða fjárhagsvíddirnar sem tengjast viðskiptavinafærslunni til pöntunarinnar sjálfkrafa. Sem stendur inniheldur tvöföld skráning ekki gögn fjárhagsvídda fyrir aðalgögn. 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!include [symbols](../../includes/dual-write-symbols.md)]
+
+[!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
+
+[!include [sales invoice line](includes/SalesInvoiceLineV2Entity-invoicedetail.md)]
+
+[!include [sales order header](includes/SalesOrderHeaderCDSEntity-salesorder.md)]
+
+[!include [sales order line](includes/SalesOrderLineCDSEntity-salesorderdetails.md)]
+
+[!include [sales order origin](includes/SalesOrderOriginEntity-msdyn-salesorderorigin.md)]
+
+[!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
+
+[!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]

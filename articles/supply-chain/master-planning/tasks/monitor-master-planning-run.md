@@ -1,24 +1,27 @@
 ---
 title: Fylgjast með keyrslu áætlanagerðar
 description: Þetta efni útskýrir hvernig framleiðslustjóri getur séð hvort keyrsla aðaláætlunargerðar er í gangi.
-author: ChristianRytt
+author: josaw1
+manager: tfehr
 ms.date: 11/04/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, InventItemIdLookupSimple, ReqLog, ReqProcessTaskTrace
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: crytt
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1438ed6bcec485ff9665ffd9659c938f5cac478
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
-ms.translationtype: MT
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 045b82af6f65b22e1c683f8de47a6df282711e6a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778132"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430109"
 ---
 # <a name="monitor-a-master-planning-run"></a>Fylgjast með keyrslu áætlanagerðar
 
@@ -33,7 +36,7 @@ Af síðunni **Skoða framvindu aðaláætlunargerðar** geturðu skoðað uppl�
 Til að nota þessa virkni skal fylgja þessum skrefum.
 
 1. Á vinnusvæðinu **Stjórnun eiginleika**, á flipanum **Nýtt**, velurðu **Framvindubirting aðaláætlunargerðar** á listanum. Ef eiginleikinn birtist ekki á flipanum **Nýtt** skaltu líta á flipana **Ekki gert virkt** og **Allt**.
-1. Veldu **Virkja núna**. Að öðrum kosti velurðu **Áætlun** og velur síðan tímann þegar kveikt skal á aðgerðinni. (Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika.)
+1. Veldu **Virkja núna**. Að öðrum kosti velurðu **Áætlun** og velur síðan tímann þegar kveikt skal á aðgerðinni.
 
 Síðan **Skoða framvindu aðaláætlunargerðar** getur sýnt bæði sögulegar vinnslur áætlunargerðar og virkar vinnslur áætlunargerðar. 
 
@@ -124,6 +127,3 @@ Liturinn er aðeins sýndur á lægsta stiginu í Gantt töflunni. Veldu **Auka 
 1. Veldu línuna þar sem reiturinn **Reitur** er stilltur á **Vörunúmer**.
 1. Í reitinn **Skilyrði** skal slá inn gildi.
 1. Veljið **Í lagi**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

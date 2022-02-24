@@ -85,6 +85,3 @@ Nýtt Common Data Service lausn mun liggja fyrir fljótlega með eftirfarandi br
 | **Heimilisfang starfskrafts** eining breytist | <ul><li>**Götu** bætt við</li><li>**Heimilisfang 1**, **Heimilisfang lína 2** og **Heimilisfangslína 3** merkt fyrir afskriftir</li></ul> |
 | Nýir uppsetningaraðilar breytilegra bóta | <ul><li>**Fyrirkomulagsgerð breytilegra uppbóta**</li><li>**Fyrirkomulag breytilegra uppbóta**</li><li>**Veitireglur**</li><li>**Fyrirkomulagsstig breytilegra uppbóta**</li></ul> |
 | Nýtt **Starfsmaður dagatal atvinnu** eining | <ul><li>**Vinnudagatalseining** bætt við</li></ul> |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

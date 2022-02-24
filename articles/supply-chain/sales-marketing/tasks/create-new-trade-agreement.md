@@ -1,24 +1,27 @@
 ---
 title: Stofna nýja verðsamning
 description: Þetta ferli sýnir hvernig á að stofna viðskiptasamningur þar sem þú skráir inn nýtt söluverð afurðar sem þú hefur ákvarðað með tilteknum viðskiptavin.
-author: Henrikan
+author: omulvad
+manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TradeNonStockedConversion, TradeNonStockedConversionChangeWizard, TradeNonStockedConversionCheckWorksheet, TradeNonStockedConversionWizard, TradeNonStockedRegister
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Operations
 ms.search.region: Global
-ms.author: henrikan
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a16a39d95605900be0fa1e339b8cd0755ba85189
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 43426e77c30e46f4dd1cc117c38cf6ba5437655b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573418"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430138"
 ---
 # <a name="create-a-new-trade-agreement"></a>Stofna nýja verðsamning
 
@@ -26,8 +29,8 @@ ms.locfileid: "7573418"
 
 Þetta ferli sýnir hvernig á að stofna viðskiptasamningur þar sem þú skráir inn nýtt söluverð afurðar sem þú hefur ákvarðað með tilteknum viðskiptavin. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum. Ef þú ert að nota eigin gögn, þarftu áður en byrjað er að þessari handbók að ganga úr skugga um að heiti færslubókar fyrir Verðsamningur er til staðar þar sem Sjálfgefinn tengsl er stillt á "Verð (sala)".
 
-## <a name="create-and-post-a-new-trade-agreement-journal"></a>Stofna og bóka nýja færslubók verðsamnings
 
+## <a name="create-and-post-a-new-trade-agreement-journal"></a>Stofna og bóka nýja færslubók verðsamnings
 1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Sala og markaðsstarf > Verð og afslættir > Færslubækur verðsamninga**.
 2. Smellt er á **Nýtt**.
 3. Í reitnum **Heiti** skal smella á fellilistahnappinn til að opna leitina.
@@ -58,27 +61,15 @@ ms.locfileid: "7573418"
 20. Smellt er á **OK**.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Skoða viðskiptasamninga fyrir afurð
-
 1. Farðu í **Skoðunarrúða > Kerfiseiningar > Afurðaupplýsingastjórnun > Afurðir > Útgefnar afurðir**.
 2. Finna og velja vöru sem verð hefur nýlega verið uppfært verð, á listanum.
 3. Í **Aðgerðasvæðinu** smellirðu á **Selja**.
 4. Smelltu á **Skoða viðskiptasamninga**.
     
-    Fara yfir nákvæmar upplýsingar um verð viðskiptasamnings sem var nýverið stofnaður.
+    Fara yfir nákvæmar upplýsingar um verð viðskiptasamnings sem var nýverið stofnaður.    
 
 5. Lokið síðunni.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
-
-### <a name="whitepaper"></a>Hvítbók
-
-Frekari upplýsingar er að hlaða niður eftirfarandi hvítbók (skrifuð til að styðja AX2012, en gildir einnig fyrir Dynamics 365 Supply Chain Management)
-
-- [Viðskiptasamningar](https://download.microsoft.com/download/0/2/9/02972c8b-0159-4936-a3ef-1e64252b2d2f/TradeAgreementsInAX.pdf)
-
 ### <a name="community-blogs"></a>Samfélagsblogg
-
 - [Söluverð í Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

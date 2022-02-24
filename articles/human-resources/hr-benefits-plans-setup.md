@@ -1,35 +1,33 @@
 ---
 title: Búa til fríðindaáætlun
-description: Þetta efnisatriði sýnir hvernig á að setja upp fríðindaáætlanir í Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 08/23/2021
+description: Uppsetning fríðindaáætlana í Dynamics 365 Human Resources.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitPlanListPage, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d3163bf30af9ed0eac2c753ed4aabb15d568ff4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: bcbf4c1a7f136e5563bf1210b6c09228dad95dea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065327"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418978"
 ---
-# <a name="create-a-benefit-plan"></a>Stofna fríðindaáætlun
+# <a name="create-a-benefits-plan"></a>Búa til fríðindaáætlun
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Þetta efnisatriði sýnir hvernig á að setja upp fríðindaáætlanir í Dynamics 365 Human Resources.
+Þessi grein sýnir þér hvernig á að setja upp fríðindaáætlun í Dynamics 365 Human Resources.
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Áætlanir**, veldu **Fríðindaáætlanir**.
 
@@ -46,8 +44,9 @@ ms.locfileid: "8065327"
    | **Áætlun** | Tilgreinir forrit til að tengja áætlunina mögulega. |
    | **Búnt** | Tilgreinir búnt til að tengja áætlunina mögulega. |
    | **Næstefsta stig** | Tilgreinir hvort áætlunin sem aðaláætlunin í búntinu sem hún tilheyrir. |
+   | **Staða** | Tilgreinir gildandi stöðu á fríðindaáætlunar. Sjálfgildið er Virkt. Ef þú breytir stöðunni í Óvirk er áætlunin ekki tiltæk sem val við innritun. |
    | **Gildir frá dagsetningu og tíma** | Lokadagsetning og tími þegar áætlunin hefst. Sjálfgefið gildi er núverandi kerfisdagsetning. |
-   | **Gildir til dagsetningu og tíma** | Dagur og tími loka áætlunarinnar. Sjálfgefið gildi er 12/31/2154, sem táknar aldrei. |
+   | **Gildir til dagsetningu og tíma** | Dagsetningin og tíminn sem áætluninni lýkur (staðan er stillt á Óvirk). Sjálfgefið gildi er 12/31/2154, sem táknar aldrei. |
 
 4. Á **Stillingar** flipann, tilgreindu gildi fyrir eftirfarandi reiti, allt eftir gerð áætlunarinnar sem þú ert að búa til:
 
@@ -55,18 +54,18 @@ ms.locfileid: "8065327"
    | --- | --- | --- |
    | Medical (Medical, Dental, Vision, HMO) | COBRA-skráning | Tilgreinir hvort áætlunin sé gjaldgeng COBRA (Consolidated Omnibus Budget Reccilciliation Act). |
    | Medical (Medical, Dental, Vision, HMO) | HIPAA-skráning | Tilgreinir hvort áætlunin sé HIPAA (lögum um umgengni og ábyrgð á heilbrigðistryggingum) hæf. |
-   | Medical (Medical, Dental, Vision, HMO)<br><br>Annað (PTO, líkamsrækt)<br><br>Annað<br><br>Örorkubætur til lengri tíma<br><br>Bæta við (grunnlífi, frjálsu lífi)<br><br>Sparnaður (til dæmis 401 (k))<br><br>FSA | Hæfni fyrir skatt | Tilgreinir hvort hægt sé að leggja framlög til áætlunarinnar áður en skattar eru lagðir á. |
-   | Medical (Medical, Dental, Vision, HMO)<br><br>Annað (PTO, líkamsrækt)<br><br>Örorkubætur til lengri tíma<br><br>Bæta við (grunnlífi, frjálsu lífi)<br><br>Sparnaður (til dæmis 401 (k))<br><br>FSA | Hæfni eftir skatt | Tilgreinir hvort hægt sé að leggja framlög til áætlunarinnar eftir að skattar eru lagðir á. |
-   | Medical (Medical, Dental, Vision, HMO)<br><br>Annað (PTO, líkamsrækt)<br><br>Örorkubætur til lengri tíma<br><br>Bæta við (grunnlífi, frjálsu lífi)<br><br>Sparnaður (til dæmis 401 (k))<br><br>FSA | Framlagsveitandi | Tilgreinir hver leggur sitt af mörkum til áætlunarinnar - starfsmaður, vinnuveitandi eða báðir. |
-   | Örorkubætur til lengri tíma<br><br>Bæta við (grunnlífi, frjálsu lífi) | Trygging að lágmarki | Lágmarksfjárhæð tryggingar sem krafist er vegna áætlunarinnar. |
-   | Örorkubætur til lengri tíma<br><br>Bæta við (grunnlífi, frjálsu lífi) | Trygging að hámarki | Hámarksfjárhæð tryggingar sem krafist er vegna áætlunarinnar. |
-   | Örorkubætur til lengri tíma<br><br>Bæta við (grunnlífi, frjálsu lífi) | Nota stigvaxandi tryggingu | Tilgreinir hvort staðfesta skuli að tryggingarupphæðin passi við gilda hækkandi upphæð. |
-   | Örorkubætur til lengri tíma<br><br>Bæta við (grunnlífi, frjálsu lífi) | Stigvaxandi upphæð | Hækkandi fjárhæð tryggingar sem krafist er vegna áætlunarinnar. Til dæmis, ef stigaupphæðin er 1.000, starfsmaður getur ekki haft $200.500 af tryggingum, þá þyrftu þeir að ná saman upp að $201.000 eða niður í $200.000. |
-   | Örorkubætur til lengri tíma<br><br>Bæta við (grunnlífi, frjálsu lífi) | Stigvaxandi átt | Tilgreinir átt jöfnunar, annað hvort upp eða niður, þegar tryggingarupphæðin fullnægir ekki upphæðargildi hækkunarinnar. |
+   | <ul><li>Medical (Medical, Dental, Vision, HMO)</li><li>Annað (PTO, líkamsrækt)</li><li>Annað</li><li>Örorkubætur til lengri tíma</li><li>Bæta við (grunnlífi, frjálsu lífi)</li><li>Sparnaður (til dæmis 401 (k))</li><li>FSA</li></ul> | Hæfni fyrir skatt | Tilgreinir hvort hægt sé að leggja framlög til áætlunarinnar áður en skattar eru lagðir á. |
+   | <ul><li>Medical (Medical, Dental, Vision, HMO)</li><li>Annað (PTO, líkamsrækt)</li><li>Örorkubætur til lengri tíma</li><li>Bæta við (grunnlífi, frjálsu lífi)</li><li>Sparnaður (til dæmis 401 (k))</li><li>FSA</li></ul> | Hæfni eftir skatt | Tilgreinir hvort hægt sé að leggja framlög til áætlunarinnar eftir að skattar eru lagðir á. |
+   | <ul><li>Medical (Medical, Dental, Vision, HMO)</li><li>Annað (PTO, líkamsrækt)</li><li>Örorkubætur til lengri tíma</li><li>Bæta við (grunnlífi, frjálsu lífi)</li><li>Sparnaður (til dæmis 401 (k))</li><li>FSA</li></ul> | Framlagsveitandi | Tilgreinir hver leggur sitt af mörkum til áætlunarinnar - starfsmaður, vinnuveitandi eða báðir. |
+   | <ul><li>Örorkubætur til lengri tíma</li><li>Bæta við (grunnlífi, frjálsu lífi)</li></ul> | Trygging að lágmarki | Lágmarksfjárhæð tryggingar sem krafist er vegna áætlunarinnar. |
+   | <ul><li>Örorkubætur til lengri tíma</li><li>Bæta við (grunnlífi, frjálsu lífi)</li></ul> | Trygging að hámarki | Hámarksfjárhæð tryggingar sem krafist er vegna áætlunarinnar. |
+   | <ul><li>Örorkubætur til lengri tíma</li><li>Bæta við (grunnlífi, frjálsu lífi)</li></ul> | Nota stigvaxandi tryggingu | Tilgreinir hvort staðfesta skuli að tryggingarupphæðin passi við gilda hækkandi upphæð. |
+   | <ul><li>Örorkubætur til lengri tíma</li><li>Bæta við (grunnlífi, frjálsu lífi)</li></ul> | Stigvaxandi upphæð | Hækkandi fjárhæð tryggingar sem krafist er vegna áætlunarinnar. Til dæmis, ef stigaupphæðin er 1.000, starfsmaður getur ekki haft $200.500 af tryggingum, þá þyrftu þeir að ná saman upp að $201.000 eða niður í $200.000. |
+   | <ul><li>Örorkubætur til lengri tíma</li><li>Bæta við (grunnlífi, frjálsu lífi)</li></ul> | Stigvaxandi átt | Tilgreinir átt jöfnunar, annað hvort upp eða niður, þegar tryggingarupphæðin fullnægir ekki upphæðargildi hækkunarinnar. |
    | Bæta við (grunnlífi, frjálsu lífi) | Sönnun fyrir tryggingarhæfi | Tilgreinir hvort starfsmaður verði að leggja fram vísbendingar um tryggingarhæfni. |
    | Bæta við (grunnlífi, frjálsu lífi) | Upphæð | Upphæðin í bókhaldsgjaldmiðli. Þetta reitur er aðeins virkur ef gátreiturinn Sannanir á tryggingarhæfni er valinn. |
-   | Sparnaður (til dæmis 401 (k))<br><br>FSA | Lágmarksframlag á ári | Lágmarksfjárhæð framlags sem krafist er vegna áætlunarinnar. |
-   | Sparnaður (til dæmis 401 (k))<br><br>FSA | Hámarksframlag á ári | Hámarksfjárhæð framlags sem krafist er vegna áætlunarinnar. |
+   | <ul><li>Sparnaður (til dæmis 401 (k))</li><li>FSA</li></ul> | Lágmarksframlag á ári | Lágmarksfjárhæð framlags sem krafist er vegna áætlunarinnar. |
+   | <ul><li>Sparnaður (til dæmis 401 (k))</li><li>FSA</li></ul> | Hámarksframlag á ári | Hámarksfjárhæð framlags sem krafist er vegna áætlunarinnar. |
    | Sparnaður (til dæmis 401 (k)) | Hámarksupphæð vinnuveitanda á ári | Hámarksfjárhæð sem vinnuveitanda er heimilt að leggja til í sparnaðaráætlun starfsmanna á fríðindatímabili. Þú verður að velja gátreitinn Starfsmannajöfnun til að nota þennan reit. |
    | Sparnaður (til dæmis 401 (k)) | Samsvörun vinnuveitanda | Tilgreinir hvort starfsmaður leggur sitt af mörkum við sparnaðaráætlun starfsmanns. |
    | Sparnaður (til dæmis 401 (k)) | Samvörunarprósenta vinnuveitanda | Hlutfall framlags starfsmanns sem vinnuveitandinn mun jafna. |
@@ -121,7 +120,7 @@ Hægt er að skoða starfskrafta sem eru skráðir í valda fríðindaáætlun.
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Áætlanir**, veldu **Fríðindaáætlanir**.
 
-2. Á flipanum **Fríðindi** á yfirlitsstikunni skal velja **Skráðir starfsmenn**.
+2. Veldur **Skráða starfskrafta**.
 
 ## <a name="attach-coverage-options"></a>Hengja tryggingarvalkosti við
 
@@ -129,7 +128,7 @@ Hægt er að skoða starfskrafta sem eru skráðir í valda fríðindaáætlun.
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Áætlanir**, veldu **Fríðindaáætlanir**.
 
-2. Á flipanum **Fríðindi** á yfirlitsstikunni skal velja **Hengja tryggingarvalkosti við**.
+2. Veldu **Bættu við tryggingarvalkostum**.
 
 ## <a name="override-eligibility-rules"></a>Hnekkja hæfnireglum
 
@@ -137,7 +136,7 @@ Hægt er að skoða starfskrafta sem eru skráðir í valda fríðindaáætlun.
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Áætlanir**, veldu **Fríðindaáætlanir**.
 
-2. Á flipanum **Fríðindi** á yfirlitstikunni skal velja **Hnekking hæfnisreglu**.
+2. Veldu **Hnekkingar á hæfnireglu**.
 
 ## <a name="view-attached-periods"></a>Skoða tengd tímabil
 
@@ -145,21 +144,18 @@ Hægt er að skoða starfskrafta sem eru skráðir í valda fríðindaáætlun.
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Áætlanir**, veldu **Fríðindaáætlanir**.
 
-2. Veljið flipann **Tímabil** á yfirlitsstikunni.
+2. Veldu **Tímabil**.
 
-## <a name="view-plan-description"></a>Skoða lýsingu áætlunar
+## <a name="view-plan-information"></a>Skoða upplýsingar um áætlun
 
-Þú getur gefið lýsingu á áætluninni til að hjálpa starfsmönnum við val þeirra á fríðindum. Áætlunarlýsingin sem færð er hér inn birtist í sjálfsafgreiðslu starfsmanna þegar bendli er haldið fyrir áætluninni í lista tryggingavalkosta.
+Þú getur gefið lýsingu á áætluninni til að hjálpa starfsmönnum við val þeirra á fríðindum. Upplýsingar um áætlunina sem þú slærð inn birtast í sjálfsafgreiðslu starfsmanna þegar þú sveima á áætluninni í lista yfir valkosti yfir tryggingar.
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Áætlanir**, veldu **Fríðindaáætlanir**.
 
-2. Á flipanum **Fríðindi** á yfirlitsstikunni skal velja **Lýsing áætlunar**.
+2. Veldu **Áætlunarupplýsingar**.
 
 ## <a name="view-flex-credit-programs"></a>Skoða sveigjanlegar útgjaldaáætlanir
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Áætlanir**, veldu **Fríðindaáætlanir**.
 
-2. Á flipanum **Fríðindi** á yfirlitsstikunni skal velja **Sveigjanlegar útgjaldaáætlanir**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+2. Veldu **sveigjanlegar útgjaldaáætlanir**.

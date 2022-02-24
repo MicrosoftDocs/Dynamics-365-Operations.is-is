@@ -2,27 +2,30 @@
 title: Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
 description: Þetta efnisatriði lýsir því hvernig á að nota keyrsluviðmót framleiðslugólfsins frá sjónarhóli starfsmanns.
 author: johanhoffmann
-ms.date: 01/24/2022
+manager: tfehr
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgProductionFloorExecution
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075020"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4430643"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Keyrsluviðmót framleiðslugólfsins er fínstillt fyrir snertingaskipanir. Hönnun þess býður upp á sjónræna skerpu sem mætir kröfum um aðgengi fyrir umhverfi vinnusalar. Það býður upp á alla sömu virkni og verkspjaldstækið. Hins vegar gerir það líka kleift að hefja margar vinnslur samhliða úr vinnslulistanum. (Þessi möguleiki er einnig þekktur sem *vinnslusamtvinnun*.) Þar að auki, úr vinnslulista, geta starfsmenn opnað leiðbeiningu sem var búin til í leiðarvísi Microsoft Dynamics 365. Á þennan hátt er hægt að fá sjónrænar leiðbeiningar á HoloLens.
 
@@ -32,17 +35,17 @@ Keyrsluviðmót framleiðslugólfsins er fínstillt fyrir snertingaskipanir. Hö
 
 Eftir að tækið hefur verið undirbúið birtist innskráningarsíðan í því. Þessi síða sýnir upplýsingar um stöðu á vinnslum fyrir staðbundinn vinnuflokk. Þessar upplýsingar eru uppfærðar með reglulegu millibili. Á síðunni nota starfsmenn kortakennið til að skrá sig inn. Þótt starfsmenn séu ekki með notandareikning fyrir Supply Chain Management, verða þeir að vera með reikning *tímaskráðs starfsmanns* sem þeir geta notað þegar þeir skrá sig inn.
 
-![Innskráningarsíða fyrir keyrsluviðmót framleiðslugólfs.](media/pfei-sign-in-page.png "Innskráningarsíða fyrir keyrsluviðmót framleiðslugólfs")
+![Innskráningarsíða fyrir keyrsluviðmót framleiðslugólfs](media/pfei-sign-in-page.png "Innskráningarsíða fyrir keyrsluviðmót framleiðslugólfs")
 
 Eftirstandandi hlutar í þessu efnisatriði lýsa því hvernig starfsmenn nota viðmótið.
 
 ## <a name="all-jobs-tab"></a>Flipi allra starfa
 
-Flipinn **Allar vinnslur** sýnir vinnslulista með öllum framleiðsluverkunum sem eru með stöðuna *Ekki hafið*, *Stöðvað* eða *Hafið*. (Þetta flipaheiti er stillanlegt og gæti verið annað fyrir kerfið.)
+Flipinn **Allar vinnslur** sýnir vinnslulista með öllum framleiðsluverkunum sem eru með stöðuna *Ekki hafið*, *Stöðvað* eða *Hafið*.
 
-![Flipi allra starfa.](media/pfei-all-jobs-tab.png "Flipi allra starfa")
+![Flipi allra starfa](media/pfei-all-jobs-tab.png "Flipi allra starfa")
 
-Vinnslulistinn er með eftirfarandi dálka. Tölurnar samsvara tölunum í síðustu skýringarmynd.
+Vinnslulistinn er með eftirfarandi dálka. (Tölurnar samsvara tölunum í síðustu skýringarmynd.)
 
 1. **Valdálkur** – Dálkurinn lengst til vinstri notar gátmerki til að gefa til kynna vinnslur sem starfsmaðurinn hefur valið. Starfsmenn geta valið margar vinnslur í listanum samtímis. Til að velja allar vinnslurnar á listanum skal velja gátmerkið í dálkhausnum. Þegar ein vinnsla er valin eru upplýsingar um þessa vinnslu sýndar á neðri hluta síðunnar.
 1. **Dálkur vinnslustöðu** – Þessi dálkur notar tákn til að gefa til kynna stöðu hverrar vinnslu. Vinnslur með ekkert tákn í þessum dálki hafa stöðuna *Ekki hafið*. Grænn þríhyrningur gefur til kynna vinnslur sem eru með stöðuna *Hafin*. Tvær gular lóðréttar línur gefa til kynna vinnslur sem eru með stöðuna *Stöðvuð*.
@@ -57,11 +60,9 @@ Vinnslulistinn er með eftirfarandi dálka. Tölurnar samsvara tölunum í síð
 
 ## <a name="active-jobs-tab"></a>Flipi fyrir virkar vinnslur
 
-Fliparnir **Virkar vinnslur** sýna lista yfir allar vinnslu sem innskráður starfsmaður hefur þegar byrjað á. (Þetta flipaheiti er stillanlegt og gæti verið annað fyrir kerfið.)
+![Flipi fyrir virkar vinnslur](media/pfei-active-jobs-tab.png "Flipi fyrir virk verk")
 
-![Flipi fyrir virkar vinnslur.](media/pfei-active-jobs-tab.png "Flipi fyrir virkar vinnslur")
-
-Listinn yfir virkar vinnslur er með eftirfarandi dálkum:
+Vinnslulistinn í flipanum **Virkar vinnslur** er með eftirfarandi dálka:
 
 - **Valdálkur** – Dálkurinn lengst til vinstri notar gátmerki til að gefa til kynna vinnslur sem starfsmaðurinn hefur valið. Starfsmenn geta valið margar vinnslur í listanum samtímis. Til að velja allar vinnslurnar á listanum skal velja gátmerkið í dálkhausnum. Þegar ein vinnsla er valin eru upplýsingar um þessa vinnslu sýndar á neðri hluta síðunnar.
 - **Pöntun** - Þessi dálkur sýnir númer framleiðslupöntunar fyrir vinnslu.
@@ -72,32 +73,11 @@ Listinn yfir virkar vinnslur er með eftirfarandi dálkum:
 - **Rýrnað** -Þessi dálkur sýnir magnið sem þegar hefur verið fært til rýrnunar fyrir vinnslu.
 - **Eftirstandandi** – Þessi dálkur sýnir magnið sem á eftir að ljúka fyrir vinnslu.
 
-## <a name="my-machine-tab"></a>Flipinn fyrir vélina mína
-
-Flipinn **Vélin mín** gerir starfsmönnum kleift að velja eign sem er tengd við tilfang vélar innan síunnar sem er stillt í flipanum **Allar vinnslur**. Starfsmaðurinn getur síðan skoðað stöðu og ástand valinnar eignar með því að lesa gildi fyrir allt að fjóra valda teljara og lista yfir nýlegar viðhaldsbeiðnir og skráða niðurtíma. Starfsmaðurinn getur einnig beðið um viðhald fyrir valda eign og skráð og breytt niðurtíma vélar. (Þetta flipaheiti er stillanlegt og gæti verið annað fyrir kerfið.)
- 
-![Flipinn fyrir vélina mína.](media/pfei-my-machine-tab.png "Flipinn fyrir vélina mína")
-
-Flipinn **Vélin mín** er með eftirfarandi dálka. Tölurnar samsvara tölunum í síðustu skýringarmynd.
-
-1. **Eign vélar** – Veljið eign vélar sem á að fylgjast með. Byrjið á því að slá inn heiti til að velja úr lista yfir samsvarandi eignir, eða veljið stækkunarglerið til að velja úr lista yfir allar eignir sem tengjast tilföngunum sem eru innan síu vinnslulistans.
-
-    > [!NOTE]
-    > Notendur Supply Chain Management geta úthlutað hverri eign tilfangi eftir þörfum með því að nota síðuna **Allar eignir** (í flipanum **Eign** með því að nota fellilistann **Tilfang**). Frekari upplýsingar eru í [Stofna eign](../asset-management/objects/create-an-object.md).
-
-1. **Stillingar** – Veljið tannhjólið til að opna svarglugga þar sem hægt er að velja hvaða teljara á að skoða fyrir valda eign vélar. Gildi fyrir þessa teljara eru sýnd efst í flipanum **Eignastýring**. Valmyndin **Stillingar** (sem sýnd er í eftirfarandi skjámynd) gerir notanda kleift að virkja allt að fjóra teljara. Fyrir hvern teljara sem á að virkja skal nota uppflettireitinn efst í glugganum til að velja teljara. Uppflettireiturinn sýnir alla teljarana sem tengjast eigninni sem valin er efst á síðunni **Eignastýring**. Stillið hvern teljara til að annaðhvort fylgjast með gildinu fyrir **Uppsafnað** eða síðasta gildi fyrir **Raungildi** fyrir teljarann. Til dæmis ef teljari er settur á sem fylgist með hversu margar klukkustundir vél hefur verið í notkun, þá ætti að stilla hann á **Uppsafnað**. Ef settur er á teljari til að mæla síðasta uppfærða hitastig eða þrýsting, þá ætti að stilla hann á **Raungildi**. Veldu **Í lagi** til að vista stillingarnar þínar og loka glugganum.
-
-    ![Flipastillingar fyrir vélina mína.](media/pfei-my-machine-tab-settings.png "Flipastillingar fyrir vélina mína")
-
-1. **Biðja um viðhald** – Veljið þennan hnapp til að opna svarglugga þar sem hægt er að stofna viðhaldsbeiðni. Hægt er að skrifa lýsingu og athugasemd. Beiðnin verður send á notanda Supply Chain Management sem getur þá breytt viðhaldsbeiðninni í verkbeiðni viðhalds.
-1. **Skrá niðurtíma** – Veljið þennan hnapp til að opna svarglugga þar sem hægt er að skrá niðurtíma vélar. Hægt verður að velja ástæðukóða og slá inn dagsetningu/tímalengd niðurtímans. Skráning niðurtíma vélar er notuð til að reikna út skilvirkni á eign vélar.
-1. **Skoða eða breyta** – Veljið þennan hnapp til að opna svarglugga þar sem hægt er að breyta eða skoða fyrirliggjandi færslur niðurtíma.
-
 ## <a name="starting-and-completing-production-jobs"></a>Hefja og ljúka framleiðsluvinnslum
 
 Starfsmenn hefja framleiðsluvinnu með því að velja vinnslu í flipanum **Allar vinnslur** og velja síðan **Hefja vinnslu** til að opna svargluggann **Hefja vinnslu**.
 
-![Svargluggi fyrir upphaf vinnslu.](media/pfei-start-job-dialog.png "Svargluggi fyrir hefja verk")
+![Svargluggi fyrir upphaf vinnslu](media/pfei-start-job-dialog.png "Svargluggi fyrir hefja verk")
 
 Starfsmenn nota svargluggann **Hefja vinnslu** til að staðfesta framleiðslumagnið og hefja síðan vinnsluna. Starfsmenn geta leiðrétt magnið með því að velja reitinn **Magn** og nota síðan talnaborðið sem birtist. Starfsmenn velja síðan **Hefja** til að byrja að vinna í vinnslunni. Svarglugginn **Hefja vinnslu** er lokaður og vinnslunni er bætt við flipann **Virkar vinnslur**.
 
@@ -107,96 +87,13 @@ Starfsmenn geta hafið vinnslu sem er með einhverja stöðu. Þegar starfsmaðu
 
 Þegar starfsmaður lýkur vinnslu að fullu eða hluta til, getur hann gefið upp vörumagnið sem valin vinnsla framleiddi í flipanum **Virkar vinnslur** og síðan velja **Gefa upp framvindu**. Síðan í svarglugganum **Gefa upp framvindu** færir starfsmaðurinn inn vörumagnið með því að nota talnaborðið. Magnið er autt að sjálfgefnu. Eftir að magn er fært inn getur starfsmaðurinn uppfært stöðu vinnslunnar í *Í vinnslu*, *Stöðvað* eða *Lokið*.
 
-![Svargluggi framvinduskýrslu.](media/pfei-report-progress-dialog.png "Svargluggi framvinduskýrslu")
-
-## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Tilkynna vörumagn í runupöntunum sem eru með aukaafurðir og hliðarafurðir
-
-Starfsmenn geta notað vinnsluviðmót framleiðslugólfs til að tilkynna um framvindu runupantana. Þessi tilkynnagjöf felur í sér tilkynningu um aukaafurðum og hliðarafurðum.
-
-Sumir framleiðendur, sérstaklega í iðnaðarframleiðslu, nota runupantanir til að stjórna framleiðsluferlunum. Runupantanir eru búnar til úr formúlum og hægt er að skilgreina þessar formúlur þannig að þær hafi aukaafurðir og hliðarafurðir sem úttak. Þegar gerð er athugasemd um þessar runupantanir þarf að skrá magn úttaks í formúluvöruna og einnig í aukaafurðirnar og hliðarafurðirnar.
-
-Þegar starfsmaður lýkur í heild eða hluta til verki í runupöntun getur hann tilkynnt vöru- eða rýrnunarmagn fyrir hverja afurð sem er skilgreind sem úttak fyrir pöntunina. Afurðir sem eru skilgreindar sem úttak fyrir runupöntun geta verið af gerðinni *Formúla*, *Aukaafurð* eða *Hliðarafurð*.
-
-Til að tilkynna vörumagn afurðanna velur starfsmaður verk á flipanum **Virkar vinnslur** og velur svo **Tilkynna framvindu**.
-
-Í svarglugganum **Tilkynna framvinda** getur starfsmaðurinn síðan valið úr afurðum sem eru skilgreindar sem úttak fyrir runupöntunina sem á að tilkynna um. Starfsmaðurinn getur valið eina eða margar afurðir úr listanum og síðan valið **Tilkynna framvindu**. Fyrir hverja afurð er magnið sjálfgefið autt og starfsmaðurinn getur notað talnaðborðið til að slá inn magnið. Starfsmaðurinn getur notað hnappana **Fyrri** og **Næsta** til að fara á milli valinna afurða. Eftir að magnið er fært inn fyrir hverja afurð getur starfsmaðurinn uppfært stöðu vinnslunnar í *Í vinnslu*, *Stöðvað* eða *Lokið*.
-
-![Skýrsla um aukaafurðir og hliðarafurðir.](media/report-co-by-products.png "Skýrsla um aukaafurðir og hliðarafurðir")
-
-### <a name="reporting-on-batch-orders-for-planning-items"></a>Tilkynning um runupantanir fyrir vörur áætlunar
-
-Þegar starfsmaður lýkur verki runupöntunar fyrir áætlaða vöru mun hann aðeins tilkynna magn hliðarafurðar og aukaafurða vegna þess að áætlunarvörur innihalda ekki vöru af gerðinni *Formúla*.
-
-### <a name="reporting-co-product-variation"></a>Tilkynning um frávik aukaafurðar
-
-Ef runupöntun er búin til úr formúluútgáfu þar sem valkosturinn **Frávik aukaafurðar** er stilltur á *Já* getur starfsmaðurinn tilkynnt um aukaafurðir sem eru ekki hluti af skilgreiningunni fyrir runupantanir. Þessi virkni er notuð í aðstæðum þar sem óvænt úttak afurðar getur gerst í framleiðsluferlinu.
-
-Í því tilfelli getur starfsmaðurinn tilgreint aukaafurðina og magnið sem á að tilkynna með því að velja **Frávik aukaafurða** í svarglugga framvindutilkynningar. Starfsmaðurinn getur síðan valið á milli allra útgefinna afurða sem eru skilgreindar sem aukaafurðir.
+![Svargluggi framvinduskýrslu](media/pfei-report-progress-dialog.png "Svargluggi framvinduskýrslu")
 
 ## <a name="reporting-scrap"></a>Tilkynna rýrnun
 
 Þegar starfsmaður lýkur vinnslu að fullu eða hluta til, getur hann gefið upp rýrnun með því að velja flipann **Virkar vinnslur** og síðan velja **Gefa upp rýrnun**. Síðan í svarglugganum **Gefa upp rýrnun** færir starfsmaðurinn inn magn rýrnunar með því að nota talnaborðið. Starfsmaðurinn velur einnig ástæðu (*Engin*, *Vél*, *Notandi* eða *Efni*).
 
-![Svargluggi rýrnunarskýrslu.](media/pfei-report-scrap-dialog.png "Svargluggi rýrnunarskýrslu")
-
-## <a name="adjust-material-consumption-and-make-material-reservations"></a>Stilltu efnisnotkun og gerðu efnisfyrirvara
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
-Starfsmenn geta stillt efnisnotkun fyrir hvert framleiðsluverk. Þessi virkni er notuð í atburðarásum þar sem raunverulegt magn efna sem var notað í framleiðsluvinnu var meira eða minna en áætlað magn. Þess vegna verður að aðlaga það til að halda birgðastöðunum núverandi.
-
-Starfsmenn geta einnig gert fyrirvara á lotu- og raðnúmerum efna. Þessi virkni er notuð í aðstæðum þar sem starfsmaður verður að tilgreina handvirkt hvaða efnislotu eða raðnúmer voru notuð til að uppfylla kröfur um rekjanleika efnis.
-
-Starfsmenn geta tilgreint magnið sem á að stilla með því að velja **Stilla efni**. Þessi hnappur er fáanlegur á eftirfarandi stöðum:
-
-- Í **Tilkynna rusl** valmynd
-- Í **Tilkynna framvindu** valmynd
-- Á tækjastikunni hægra megin
-
-### <a name="adjust-material-consumption-from-the-report-scrap-and-report-progress-dialog-boxes"></a>Stilltu efnisnotkun úr svargluggunum Tilkynna rusl og Tilkynna framvindu
-
-Eftir að starfsmaður slær inn magnið sem á að tilkynna í **Tilkynna framvindu** eða **Tilkynna rusl** valmynd, the **Stilla efni** hnappur verður aðgengilegur. Þegar notandi velur þennan hnapp, **Stilla efni** svarglugginn birtist. Þessi svargluggi sýnir vörurnar sem áformað er að neyta þegar vöru- eða úrgangsmagnið er tilkynnt fyrir verkið.
-
-Listinn í glugganum sýnir eftirfarandi upplýsingar:
-
-- **Vörunúmer** – Vörumeistari og vöruafbrigði.
-- **Vöruheiti** – Nafn vörunnar.
-- **Tillaga** – Áætlað magn efnis sem verður notað þegar tilkynnt er um framvindu eða úrgang fyrir tilgreint magn fyrir verkið.
-- **Neysla** – Raunverulegt magn efnis sem verður neytt þegar tilkynnt er um framvindu eða rusl fyrir tilgreint magn fyrir verkið.
-- **Frátekið** – Magn efnis sem hefur verið frátekið í birgðum.
-- **Eining** – Efnisskrá (BOM) einingin.
-
-Hægra megin í glugganum sýnir eftirfarandi upplýsingar:
-
-- **Vörunúmer** – Vörumeistari og vöruafbrigði.
-- **Áætlað** – Áætlað magn sem á að neyta.
-- **Byrjað** – Magnið sem byrjað er á framleiðsluvinnunni.
-- **Eftirstandandi magn** – Af áætluðu magni, það magn sem á eftir að neyta.
-- **Útgefið magn** - Magnið sem hefur verið neytt.
-
-Hægt er að framkvæma eftirfarandi aðgerðir:
-
-- Starfsmaðurinn getur tilgreint magnið sem á að stilla fyrir efni með því að velja **Stilla neyslu**. Eftir að magnið hefur verið staðfest er magnið í **Neysla** dálkurinn er uppfærður með leiðréttu magni.
-- Þegar starfsmaðurinn velur **Stilla efni**, færslubók framleiðslutínslulista er búin til. Þessi dagbók inniheldur sömu hluti og magn og **Stilla efni** lista.
-- Þegar starfsmaður stillir magn í **Stilla efni** valmynd, the **Tillaga** reiturinn á samsvarandi færslubókarlínu er uppfærður með sama magni. Ef starfsmaður velur **Hætta við** í **Stilla efni** valmyndinni er vallistanum eytt.
-- Ef starfsmaður velur **Allt í lagi**, vallistanum er ekki eytt. Það verður birt þegar tilkynnt er um starfið í **Tilkynna rusl** eða **Tilkynna framvindu** valmynd.
-- Ef starfsmaður velur **Hætta við** í **Tilkynna framvindu** eða **Tilkynna rusl** valmyndinni er vallistanum eytt.
-
-### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Stilltu efni frá tækjastikunni til hægri
-
-The **Stilla efni** Hægt er að stilla hnappinn þannig að hann birtist á tækjastikunni til hægri. (Fyrir frekari upplýsingar, sjá [Hannaðu framkvæmdarviðmót framleiðslugólfsins](production-floor-execution-tabs.md) .) Starfsmaður getur valið **Stilla efni** fyrir framleiðslustarf sem er í vinnslu. Í þessu tilviki er **Stilla efni** svargluggi birtist þar sem starfsmaðurinn getur gert þær breytingar sem óskað er eftir. Þegar svarglugginn er opnaður er framleiðslutínslulisti sem inniheldur línur fyrir leiðrétt magn búinn til fyrir framleiðslupöntunina. Ef starfsmaður velur **Sendu núna**, leiðréttingin er staðfest og tínslulistinn settur. Ef starfsmaður velur **Hætta við**, plokkunarlistanum er eytt og engin leiðrétting gerð.
-
-### <a name="reserve-materials"></a>Varaefni
-
-Í **Stilla efni** valmynd, getur starfsmaður gert og breytt efnispöntunum með því að velja **Varaefni**. The **Varaefni** svargluggi sem birtist sýnir efnislega tiltækar birgðir fyrir vöruna fyrir hverja geymslu- og rakningarvídd.
-
-Ef efnið er virkt fyrir háþróuð vöruhúsaferli sýnir listinn aðeins efnislega tiltækar birgðir fyrir framleiðsluinntaksstaðsetningu fyrir efnið. Staðsetning framleiðsluinntaks er skilgreind á tilfanginu þar sem framleiðsluverkið er skipulagt. Ef vörunúmerið er stjórnað með lotu- eða raðnúmeri, birtist heildarlisti yfir efnislega tiltæka lotu- og raðnúmer. Til að tilgreina magn sem á að panta getur starfsmaðurinn valið **Varaefni**. Til að fjarlægja fyrirvara getur starfsmaðurinn valið **Fjarlægja fyrirvara**.
-
-Fyrir frekari upplýsingar um hvernig á að setja upp framleiðsluinntaksstaðsetningu, sjá eftirfarandi bloggfærslu: [Uppsetning framleiðsluinntaksstaðsetningar](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
-
-> [!NOTE]
-> Fyrirvarar sem starfsmaður gerir í **Varaefni** svarglugginn verður áfram þegar starfsmaðurinn velur **Hætta við** í **Tilkynna framvindu** eða **Tilkynna rusl** valmynd.
+![Svargluggi rýrnunarskýrslu](media/pfei-report-scrap-dialog.png "Svargluggi rýrnunarskýrslu")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Vinnslu lokið og ný vinnsla hafin
 
@@ -218,7 +115,7 @@ Starfsmaðurinn velur þriðju vinnsluna í flipanum **Allar vinnslur** og velur
 
 ## <a name="working-on-indirect-activities"></a>Unnið í óbeinum verkþáttum
 
-Óbeinir verkþættir eru verkþættir sem tengjast framleiðslupöntun ekki með beinum hætti. Hægt er að skilgreina óbeina verkþætti á sveigjanlegan hátt eins og lýst er í [Setja upp óbeina verkþætti fyrir tíma og mætingu](/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
+Óbeinir verkþættir eru verkþættir sem tengjast framleiðslupöntun ekki með beinum hætti. Hægt er að skilgreina óbeina verkþætti á sveigjanlegan hátt eins og lýst er í [Setja upp óbeina verkþætti fyrir tíma og mætingu](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
 
 Til dæmis, Shannon, starfsmaður á gólfi í Contoso, vill mæta á fund fyrirtækis og fundir eru flokkaðir sem óbeinn verkþáttur. Önnur hvor af eftirfarandi aðstæðum eiga við:
 
@@ -227,7 +124,7 @@ Til dæmis, Shannon, starfsmaður á gólfi í Contoso, vill mæta á fund fyrir
 
 Í báðum aðstæðum, eftir að Shannon staðfestir val sitt, fer hún á annaðhvort innskráningarsíðuna eða síðu sem mun bíða þess að hún staðfesti að hún hafi skilað úr óbeina verkþættinum. Síðan sem birtist fer eftir skilgreiningunni á keyrsluviðmóti framleiðslugólfsins. (Frekari upplýsingar er að finna í [Skilgreina keyrsluviðmót framleiðslugólfsins](production-floor-execution-configure.md).)
 
-## <a name="registering-breaks"></a>Skráning hléa
+## <a name="working-on-breaks"></a>Unnið í hléum
 
 Starfsmenn geta skráð hlé. Hægt er að skilgreina hlé með sveigjanlegum hætti eins og lýst er í [Laun byggð á skráningum](pay-based-on-registrations.md).
 
@@ -249,6 +146,3 @@ Starfsmenn geta opnað skjal sem er hengt við verk með því að velja **Leið
 1. Starfsmaðurinn vinnur í gegnum leiðarvísinn til að læra inn á verkið.
 
 Frekari upplýsingar um hvernig á að stofna, úthluta og nota leiðarvísa fyrir HoloLens er að finna í [Láta starfsmenn í framleiðslu fá leiðarvísa með blönduðum veruleika](instruction-guides-in-production-overview.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

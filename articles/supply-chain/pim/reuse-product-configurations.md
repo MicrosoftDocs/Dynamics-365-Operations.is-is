@@ -1,27 +1,30 @@
 ---
 title: Endurnota afurðarafbrigði
 description: Hægt er að tilgreina að sjálfkrafa eigi að nota aftur fyrirliggjandi afbrigði fyrir vöru. Síðan, þegar notandi hefur lokið skilgreinarlotu athugar kerfið hvort skilgreining sem samsvarar vali notanda er þegar til. Ef samsvarandi skilgreiningu finnst er auðkenni Skilgreiningar, samsvarandi uppskrift (BOM), og leið endurnotuð.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 201813
 ms.assetid: 4985e308-7824-41fc-83fd-fd0bdae888e3
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0898bd1832fa7007fc3aa265beee2e930f157a39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dd6d730528522f4074b6e2a3ce6059cc12ff5a0f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577409"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430102"
 ---
 # <a name="reuse-product-configurations"></a>Endurnota afurðarafbrigði
 
@@ -29,7 +32,8 @@ ms.locfileid: "7577409"
 
 Hægt er að tilgreina að sjálfkrafa eigi að nota aftur fyrirliggjandi afbrigði fyrir vöru. Síðan, þegar notandi hefur lokið skilgreinarlotu athugar kerfið hvort skilgreining sem samsvarar vali notanda er þegar til. Ef samsvarandi skilgreiningu finnst er auðkenni Skilgreiningar, samsvarandi uppskrift (BOM), og leið endurnotuð.
 
-## <a name="requirements-for-reusing-configurations"></a>Skilyrði til að geta endurnotað afbrigði
+<a name="requirements-for-reusing-configurations"></a>Skilyrði til að geta endurnotað afbrigði
+---------------------------------------
 
 Til að geta látið endurnota afurður, verður að tilgreina eftirfarandi upplýsingar um íhluti og eigindir í síðunni **upplýsingar um afbrigðalíkan afurðar** :
 
@@ -41,6 +45,3 @@ Til að geta látið endurnota afurður, verður að tilgreina eftirfarandi uppl
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,32 +1,35 @@
 ---
 title: Bæta rás við stigveldi fyrirtækis
-description: Þetta efnisatriði lýsir hvernig á að bæta rás við stigveldi fyrirtækis í Microsoft Dynamics 365 Commerce.
+description: Þetta efni lýsir því hvernig á að bæta rás við á stigveldi fyrirtækis í Microsoft Dynamics 365 Commerce.
 author: samjarawan
+manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 64d9c649212eca4dc703e5b80fdf2c3c6a57a61745fc440b0650d7796a4d06e3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 701c90e8e28b4419422cddde698e9c9862a588a2
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720984"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413122"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>Bæta rás við stigveldi fyrirtækis
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig á að bæta rás við stigveldi fyrirtækis í Microsoft Dynamics 365 Commerce.
+Þetta efni lýsir því hvernig á að bæta rás við á stigveldi fyrirtækis í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -44,7 +47,7 @@ Fylgdu þessum skrefum til að velja stigveldi.
 
 Eftirfarandi mynd sýnir upplýsingar um stigveldi fyrirtækis fyrir valið stigveldi.
 
-![Upplýsingar um stigveldi fyrirtækis fyrir valið stigveldi.](media/channel-add-to-org-hierarchy-1.png)
+![Upplýsingar um stigveldi fyrirtækis fyrir valið stigveldi](media/channel-add-to-org-hierarchy-1.png)
 
 ## <a name="add-a-channel-to-a-hierachy-node"></a>Bæta rás við stigveldishnút
 
@@ -58,17 +61,17 @@ Til að bæta rás við stigveldishnút skaltu fylgja þessum skrefum.
 
 Eftirfarandi mynd sýnir hvernig á að velja rás til að bæta við stigveldishnút.
 
-![Veldu rás til að bæta við stigveldishnút.](media/channel-add-to-org-hierarchy-2.png)
+![Veldu rás til að bæta við stigveldishnút](media/channel-add-to-org-hierarchy-2.png)
 
 Eftirfarandi mynd sýnir stigveldi með ýmsum rásum bætt við.
 
-![Stigveldi með ýmsum rásum bætt við.](media/channel-add-to-org-hierarchy-3.png)
+![Stigveldi með ýmsum rásum bætt við](media/channel-add-to-org-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit rása](channels-overview.md)
+[Yfirlit yfir rásir](channels-overview.md)
 
-[Skilyrði fyrir uppsetningu rásar](channels-prerequisites.md)
+[Skilyrði fyrir rásauppsetningu](channels-prerequisites.md)
 
 [Yfirlit yfir fyrirtæki og fyrirtækjastigveldi](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 
@@ -79,6 +82,3 @@ Eftirfarandi mynd sýnir stigveldi með ýmsum rásum bætt við.
 [Setja upp smásölurás](channel-setup-retail.md)
     
 [Setja upp netrás](channel-setup-online.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

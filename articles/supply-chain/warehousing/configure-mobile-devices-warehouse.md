@@ -1,26 +1,29 @@
 ---
 title: Uppsetning fartækja fyrir vöruhúsavinnu
 description: Þetta efnisatriði lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki.
-author: Mirzaab
+author: MarkusFogelberg
+manager: tfehr
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 29941
 ms.assetid: 6dff6313-dc6e-4f06-9c0c-dab24eefe4da
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9e0f27839d9e6330cc8a11874a5cb1786daf8dc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
-ms.translationtype: MT
+ms.openlocfilehash: 8bb256514175166621847a5d40c16b9b749b1ddc
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902180"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430698"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Uppsetning fartækja fyrir vöruhúsavinnu
 
@@ -41,7 +44,6 @@ Til að stofna valmyndaratriði fyrir verkþátt eða fyrirspurn er reiturinn **
 > Viðbótarreitir gætu verið tiltækir fyrir valmyndaratriði, eftir þeim máta sem er valinn fyrir valmyndaratriðið og hvort valmyndaratriði er notað til að framkvæma fyrirliggjandi vinnu. Sjá hlutann „Fleiri valkostir valmyndaratriðis“ sem er seinna í þessum hluta fyrir upplýsingar um valið svæði.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Skilgreina valmyndaratriði fyrir aðgerðir og fyrirspurnir
-
 Ef reiturinn **Máti** fyrir valmyndaratriði er stilltur á **Óbeint** er hægt að stofna valmyndaratriði til að framkvæma almennan verkþátt eða fyrirspurn sem stofnar ekki vinnu. Dæmi eru meðal annars endurprentun á númeraplötumerkjum og fyrirspurn um vörur á staðsetningu. Eftirfarandi tafla sýnir þá valkosti sem eru tiltækir.
 
 | Valkostur | Lýsing |
@@ -63,11 +65,12 @@ Ef reiturinn **Máti** fyrir valmyndaratriði er stilltur á **Óbeint** er hæg
 | Hreinsa númeraröð úr skyndiminni | Eyða númer raðnúmer frá í númeraröð úr skyndiminni. Þessi verkþáttur er yfirleitt framkvæmdur af kerfisstjóra til að leysa vandamál skyndiminnis þegar fartæki eru notuð. |
 | Breyta runuráðstöfun | Leyfa starfsmanni að tilgreina ráðstöfunarkóða runu fyrir vöru og runu. Þetta val uppfærir ráðstöfunarkóða sem er tilgreindur fyrir runu. |
 | Sýna opinn verkefnalista | Sýna lista yfir tiltæka vinnu til tiltekins notanda. Notandinn getur síðan valið vinnu til að framkvæma og verður beint að henni. Búist er við að þessi listi verði skoðaður á spjaldtölvum sem hafa skjástærð upp á 7 tommur eða meira. Þegar þessi valkostur er valinn verða **Breyta fyrirspurn** og **Svæðalisti** valmyndaratriðin tiltæk. Síðan **Breyta fyrirspurn** gerir kleift að setja upp skilyrði fyrir vinnu sem birtist í lista. Síðan **Reitalisti** gerir kleift að velja hvað reitir birtast í vinnulistanum. Til dæmis er hægt að draga úr fjölda reita sem birtast, svo að notandinn verði fljótari að velja mest viðeigandi vinnulið. Á flýtiflipanum **Almennt**, í reitnum **Færslur á síðu**, er einnig hægt að velja hversu margar verkfærslur á að birta á hverri síðu. Ef valkosturinn **Leyfa notendum að sía vinnu eftir færslugerð** er valinn, þá mun vinnulistinn innihalda stjórntækið **Sía vinnu** sem notandinn getur notað til að sía eftir færslugerð. Í vinnulistanum geta notendur aðeins séð vinnu sem þeir hafa heimild til að fá aðgang að. Það þarf að tryggja að notendur hafi heimild fyrir eina eða fleiri notandastýrð valmyndaratriði sem styðja tilteknar gerðir vinnuklasa sem þeir ættu að hafa aðgang að. Heimildir eru staðfestar þegar notandi reynir að framkvæma vinnu af listanum.|
-| Stofna flutningspöntun úr númeraplötum | Gerir starfsmönnum vöruhúss kleift að stofna og vinna úr flutningspöntunum beint úr farsímaforriti vöruhúsakerfis. Starfsmenn í vöruhúsi byrja á því að velja vöruhús áfangastaðar og geta síðan skannað eina eða fleiri númeraplötur með því að nota forritið. Þegar starfsmaður í vöruhúsi velur **Ljúka við pöntun**, býr runuvinnsla til nauðsynlega flutningspöntun og pöntunarlínur samkvæmt skráðum lagerbirgðum fyrir þessar númeraplötur. Frekari upplýsingar er að finna í [Stofna flutningspantanir úr vöruhúsaforriti](create-transfer-order-from-warehouse-app.md).
+| Stofna flutningspöntun úr númeraplötum | Gerir starfsmönnum vöruhúss kleift að stofna og vinna úr flutningspöntunum beint úr forriti vöruhúss. Starfsmenn í vöruhúsi byrja á því að velja vöruhús áfangastaðar og geta síðan skannað eina eða fleiri númeraplötur með því að nota forritið. Þegar starfsmaður í vöruhúsi velur **Ljúka við pöntun**, býr runuvinnsla til nauðsynlega flutningspöntun og pöntunarlínur samkvæmt skráðum lagerbirgðum fyrir þessar númeraplötur. Frekari upplýsingar er að finna í [Stofna flutningspantanir úr vöruhúsaforriti](create-transfer-order-from-warehouse-app.md).
+
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Skilgreina valmyndaratriði til að stofna vinnu fyrir annan starfsmann eða ferli
-
 Þú getur sett upp valmyndaratriði sem býr til verk fyrir annan starfsmann eftir að upphafsaðgerð er gerð á fartækinu. Til dæmis þegar einn starfsmaður notar fartæki til að taka á móti vöru, er frágangsvinna stofnuð fyrir annan starfsmann. Til að setja upp valmyndaratriði sem býr til verk, á **Valmyndaratriði fartækis** síðunni í reitnum **Máti** skal velja **Vinna**. Í eftirfarandi töflu er valkostunum í **Ferli verkstofnunar** reitnum raðað eftir gerð verkstofnunar.
+
 
 <table>
 <tbody>
@@ -232,7 +235,7 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 </tr>
 <tr class="even">
 <td>Notendaflokkun</td>
-<td>Starfsmaðurinn flokkar handvirkt vinnu. Þessi valkostur er til dæmis gagnlegur þegar starfsmaður getur tekið saman margar vörur í einu á staðsetningu. Eftir að starfskraftur hefur lokið við að velja allar vörur sem þarf getur hann gengið frá þeim vörum.</td>
+<td>Starfsmaðurinn flokkar handvirkt vinnu. Þessi valkostur er til dæmis gagnlegur þegar starfsmaður getur tekið saman margar vörur í einu á staðsetningu. Eftir að starfsmaður hefur lokið við að velja allar vörur sem þarf getur hann eða hún gengið frá þeim vörum.</td>
 </tr>
 <tr class="odd">
 <td>Kerfisflokkun</td>
@@ -386,7 +389,7 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="even">
 <td>Nota sjálfgefinn gagnagrunn</td>
-<td>Veljið þennan valkost til að virkja hnappinn <strong>Sjálfgefin gögn</strong> í aðgerðarúðunni, þar sem hægt er að velja reiti til að birta gögn sem starfskraftur þarf yfirleitt í dagleg störfum. Þessi valkostur er til dæmis gagnlegur ef starfsmaður tekur oft til vörur frá sömu staðsetningu. Hægt er að velja reitinn <strong>Frá staðsetningu</strong> til að birta staðsetninguna sjálfgefið.</td>
+<td>Veljið þennan valkost til að virkja hnappinn <strong>Sjálfgefin gögn</strong> í aðgerðarúðunni, þar sem hægt er að velja reiti til að birta gögn sem starfsmaður þarf yfirleitt í dagleg störfum. Þessi valkostur er til dæmis gagnlegur ef starfsmaður tekur oft til vörur frá sömu staðsetningu. Hægt er að velja reitinn <strong>Frá staðsetningu</strong> til að birta staðsetninguna sjálfgefið.</td>
 </tr>
 <tr class="odd">
 <td>Reit stýrt af staðfestum notanda</td>
@@ -407,7 +410,6 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Krefjast að starfsmenn staðfesti afurð, staðsetningu eða magn við tiltekt á vörum
-
 Þú getur sett upp verkstaðfestingar sem krefjast þess að starfskraftur noti fartækið til að skrá staðsetningu eða magn þegar vinna er unnin í vöruhúsi. Verkstaðfestingar hjálpa við að tryggja að starfsmaðurinn sé á réttum stað eða sé að meðhöndla rétt magn vara. Einnig er hægt að virkja Supply Chain Management til að staðfesta skráningu starfsmanns sjálfkrafa. Ef sjálfvirk staðfesting er virkjuð er ekki hægt að krefjast einnig staðfestinga fyrir staðsetningu eða magn. Verkstaðfestingar innihalda einnig afurðir og afurðarafbrigði. Þar að auki er hægt að skrá staðfestingar með því að skanna strikamerki. Til að staðfesta afurðir og afurðarafbrigði, verður að færa inn kenni fyrir afurð eða afurðarafbrigði. Þetta kenni getur verið Afurðakenni, Afurðarkenni leit, ytri Kenni, GTIN eða strikamerki. Eftir að þú slærð inn kennið eða skannar strikamerki eru stærðir fyrir afurðarafbrigði birt á farsímanum. 
 
 Eftirfarandi tafla lýsir mismunandi gerðum vinnu sem hægt er að nota verkstaðfestingar með.
@@ -427,13 +429,13 @@ Eftirfarandi tafla lýsir mismunandi gerðum vinnu sem hægt er að nota verksta
 > [!NOTE]
 > Aðeins er hægt að fara fram á staðfestingu afurðar fyrir gerðirnar tínslu og frágang.
 
-## <a name="additional-resources"></a>Frekari upplýsingar
+<a name="additional-resources"></a>Frekari upplýsingar
+--------
 
-- [Setja upp valmyndaratriði fartækis til að ljúka vinnu af gerðinni innkaupapöntun](tasks/set-up-mobile-device-menu.md)
-- [Setja upp valmyndaratriði fartækis til að skrá mótteknar vörur](tasks/set-up-mobile-device-menu-item-register-received-items.md)
-- [Birgðastöður](../inventory/inventory-statuses.md)
+[Setja upp valmyndaratriði fartækis til að ljúka vinnu af gerðinni innkaupapöntun](tasks/set-up-mobile-device-menu.md)
+
+[Setja upp valmyndaratriði fartækis til að skrá mótteknar vörur](tasks/set-up-mobile-device-menu-item-register-received-items.md)
+
+[Birgðastöður](../inventory/inventory-statuses.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,29 +1,30 @@
 ---
 title: Yfirlit yfir afurðaskilgreiningu
 description: Þörf á að skilgreina vörur í sérstökum kröfum er verði reglan frekar en undantekning í fyrirtæki til fyrirtækis og viðskiptaferli í consumer vensl.
-author: t-benebo
+author: cvocph
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, ConfigPartOf
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom:
-- "75083"
-- intro-internal
+ms.search.scope: Core, Operations
+ms.custom: 75083
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62411bff436d34e3d311b078b1bf8f886e5902d6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 8b7d1186b4141a18e1283505713e67018927672d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983368"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4429994"
 ---
 # <a name="product-configuration-overview"></a>Yfirlit yfir afurðaskilgreiningu
 
@@ -38,7 +39,6 @@ Framleiðandi sem styður aðstæður sem snúast um að grunnstilla fyrir pönt
 Til eru nokkrar líkanareglur afurðagrunnstillingar, eins og reglumiðuð, víddabyggð og skorðubyggð líkön. Kannanir sýna að aðferð sem byggir á skorðum getur dregið úr fjölda kóðalína í líkön um 50 prósent miðað við aðrar reglur líkanabreytu. Þar af leiðandi getur þessi aðferð lækkað heildarkostnað eignarhalds (TCO). Með því að færast frá reglumiðuðu líkani sem byggir á X ++ kóða yfir í líkan sem byggir á skorðum þarf ekki lengur að krefjast leyfis forritara til að vinna með vörulíkön.
 
 ## <a name="product-configuration"></a>Afurðarafbrigði
-
 Iðnvæðingartímabilið hefur leitt til mikils árangurs við framleiðslu hágæða afurða með mörgum eiginleikum, á viðráðanlegu verði. Stærðarhagkvæmni hefur gert það mögulegt fyrir flest fólk í hinum iðnvædda hluta heimsins að kaupa bíla, sjónvörp, heimilistæki og aðrar vörur sem flest okkar telja nauðsynlegan hluta af daglegu lífi okkar.  
 
 Þar sem margar afurðir hafa orðið verslunarvörur hefur komið upp þörf til að aðgreina þær. Bein svörun framleiðenda við þessari áskorun hefur verið til að skapa afbrigði af hverri vöru, svo að viðskiptavinir hafi um fleira að velja. Þessi stefna hefur leitt til aukinna spáráskorana og einnig aukningar á birgðakostnaði og óseldum afurðum sem verða úreltar.  
@@ -47,10 +47,9 @@ Með því að taka upp aðferðafræði grunnstillingar fyrir pöntun hafa fram
 
 Lykillinn að árangri hér er að greina afurðasafnið vandlega og leita að mynstrum í bæði aðgerðum og ferlum afurðar. Markmiðið er að tilgreina almenna íhluti sem hægt er að framleiða með sama búnað og notaður er í öllum afbrigðunum.  
 
-Í eiginleika Afurðar skilgreiningu inniheldur í notendaviðmótinu (UI) sem gefur yfirlit visual líkanaskipanina skilgreiningu, og einnig málskipan declarative skorðu sem hefur ekki á að þýða. Þess vegna eiga fyrirtæki sem vilja styðja skilgreiningavenju auðveldar með að hefja rekstur. Eins og eftirfarandi kaflar útskýra krefst vöruhönnuður ekki lengur stuðnings forritara til að byggja afbrigðalíkan afurðar, prófa það og losa þær sölufyrirtæki.
+Í nýja eiginleikum Afurðar skilgreiningu inniheldur í notendaviðmótinu (UI) sem gefur yfirlit visual líkanaskipanina skilgreiningu, og einnig málskipan declarative skorðu sem hefur ekki á að þýða. Þess vegna eiga fyrirtæki sem vilja styðja skilgreiningavenju auðveldar með að hefja rekstur. Eins og eftirfarandi kaflar útskýra krefst vöruhönnuður ekki lengur stuðnings forritara til að byggja afbrigðalíkan afurðar, prófa það og losa þær sölufyrirtæki.
 
 ## <a name="building-a-product-configuration-model"></a>Uppbygging afbrigðalíkans afurðar
-
 Það eru nokkrar nálganir sem notandi getur tekið til að byggja afbrigðalíkan afurðar. Einn valkostur er að fylgja raðstreymi með því að stofna fyrst öll tilvísunargögn, eins og afurðarsniðmát, einkvæmar afurðair og rekstrartilföng og hafa þau síðan með sem íhluti, uppskriftarlínur, leiðaraðgerðir og aðrar einingar afbrigðalíkans afurðar. Einnig er hægt að velja nálgun sem er endurtekin með því að stofna fyrst líkanið og bæta síðan tilvísunargögnum eftir því sem þörf krefur.
 
 ### <a name="components"></a>Íhlutir
@@ -62,7 +61,7 @@ Afbrigðalíkan afurðar samanstendur af einum eða fleiri íhlutum sem eru teng
 Hver hluti hefur eina eða fleiri eigindir sem auðkenna eiginleikum hans. Eigindir eru það sem notendur verða að velja meðan á skilgreiningu stendur. Eigindir stjórna bæði milli venslum íhluta og innan íhluta til að hafa með í skorðum eða útreikningum. Gegnum skilyrði sem eiga við uppskriftalínur er hægt að nota eigindir til að ákvarða hvaða efnislegt hlutum skilgreindu vöra samanstanda af. Þar að auki getur eigind stjórnað eiginleika uppskriftarlínu með vörpunarferli. Svipuð virkni er til fyrir leiðaraðgerðir varðandi meðtalningu og eiginleika stillingar.
 
 >[!NOTE]
-> Þegar þú býrð til eigindategundir skaltu forðast að búa til mikinn fjölda af gildum fyrir lén eigindarinnar. Það gæti valdið hægagangi í stillingum á afurð.
+> Þegar þú býrð til eigindategundir skaltu forðast að búa til mikinn fjölda af gildum fyrir lén eigindarinnar. Það gæti valdið hægagangi í stillingum á afurð. 
 
 ### <a name="expression-constraints"></a>Segðarskorður
 
@@ -99,7 +98,6 @@ Uppskriftarlínur eru hafðar með til að auðkenna framleiðslufyrirtæki Upps
 Leiðaraðgerðir hafðar með til að auðkenna framleiðsluleiðina. Leiðaaðgerð verður að vísa skilgreinda aðgerð og öllum eiginleikum aðgerð er hægt að setja að föstu gildi. Hægt er að varpa alla eiginleika nema tilfangaþarfir eigind í staðinn fyrir gildið.
 
 ## <a name="validating-and-testing-a-product-configuration-model"></a>Villuleita og prófa afbrigðalíkan afurðar
-
 Villuleit afbrigðalíkan afurðar getur átt sér stað á nokkrum stigum í líkaninu og því hægt að ná yfir mismunandi sviðum. Lægsta stig er fyrir staka segðarskorðu. Í þessu tilfelli villuleit eru yfirleitt framkvæmd af vöruhönnuður til að sannreyna málskipan segðar sé rétt.  
 
 Á svipaðan hátt, er hægt að staðfesta skilyrðið fyrir uppskriftarlínu eða inn leiðaraðgerð í skyndimyndar.  
@@ -117,7 +115,6 @@ Prófun á líkani svipar til þess að keyra raunverulega skilgreiningu setu. N
 Smellið til að fletta á milli þátta, **Næsta**, eða þáttur í vörulíkanstré skilgreiningu til að setja áherslu á því að smella á.
 
 ## <a name="finalizing-a-model-for-configuration"></a>Ljúka líkan fyrir skilgreiningu
-
 Þegar afbrigðalíkan afurðar er tilbúið til notkunar í aðstæðum skilgreina pöntun, verður að stofna útgáfu. Hins vegar eru nokkrir valkostir sem er hægt að auka upplifunina við líkanatréð.
 
 ### <a name="user-interface"></a>Notandaviðmót
@@ -137,31 +134,32 @@ Ef selja verður afurðina í mismunandi löndum/svæðum, hægt að stofna þý
 Síðasta og mikilvægustu skrefi í frágangsferlinu er að stofna útgáfu fyrir afbrigðalíkan afurðar. Útgáfa stendur fyrir vensl á milli afurðarsniðmáts sem hægt er að velja fyrir skilgreiningu á pöntun eða tilboðslínu og afbrigðalíkan afurðar. Útgáfa verður að vera samþykkt áður en hægt er að hefja hana og nota.
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>Útvíkka afbrigðalíkan afurðar gegnum API
-
 Hefur verið útfærð í sérnýttu forritið forritun viðmót (API) svo að viðskiptaaðila og önnur sem hafa leyfi forritara er að útvíkka getu afbrigðalíkans afurðar. Aðal markmið hefur verið að stofna ferli sem gerir kleift að samstarfsaðila og viðskiptavina sem nota fyrirliggjandi Vörusamsetningu flytja kóði sem er felldur inn í Vörusamsetningu líkön sem á að API. Á þennan hátt er þær hægt flytja þeirra líkön úr vörusamsetningu í afbrigði vöru. Hins vegar getur það einnig gagnast nýjum viðskiptaaðilum og viðskiptavinum að nota API til að lengja nýja afbrigðalíkönum afurðar.
+
+### <a name="pcadaptor-class"></a>PCAdaptor klasa
 
 API er virkur með því að nota safn **PCAdaptor** klasar sem sýna gögn skipan afbrigðalíkönum afurðar. Tilvik í **PCAdaptor** klasa verður stofnuð fyrir hvert virðislíkan sem verður veitt. Eftir skilgreinarlotu er lokið kerfið athugar fyrir tilvik þennan klasa og keyrir hún ef slíkt finnst.  
 
-Í eftirfarandi API-flæðirit útskýrir ferlið.  
+Í eftirfarandi skýringarmynd útskýrir ferlið.  
 
-[![Flæðisskýringarmynd.](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
+[![Flæðisskýringarmynd](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
-## <a name="configure-products"></a>Grunnstillanlegar afurðir
+API-flæðisskýringarmynd afurðarafbrigða
 
-### <a name="configure-one-or-more-products"></a>Grunnstilla eina eða fleiri afurðir
+## <a name="product-configuration"></a>Afurðarafbrigði
+Hægt er að framkvæma skilgreiningu afurðar frá eftirfarandi stöðum:
 
-Þú getur stillt vörur frá eftirfarandi stöðum:
-
-- Sölupöntunarlína
-- Sölutilboðslína
-- Innkaupapöntunarlína
-- Framleiðslupöntunarlína
-- Vöruþarfalína (verk)
+-   Sölupöntunarlína
+-   Sölutilboðslína
+-   Innkaupapöntunarlína
+-   Framleiðslupöntunarlína
+-   Vöruþarfalína (verk)
 
 Tilgangur skilgreiningarinnar er að stofna vöruvíddasamsetning einkvæmrar vöru sem uppfyllir kröfur viðskiptavinar. Einkvæmt skilgreiningarkenni er stofnað fyrir hverja nýja skilgreiningu. Þetta kenni gerir kleift að rekja í gegnum birgðir.
 
-### <a name="multiple-sites-and-intercompany-considerations"></a>Mörg svæði og samstæða
+### <a name="multiple-sites-and-intercompany"></a>Mörg svæði og innan samstæðu
 
 Ef afbrigði verður að framkvæma á svæði, eða jafnvel fyrirtæki, sem er önnur en svæði eða fyrirtækið þar sem framleiðslan mun eiga sér stað, Uppskrift og leið stofnuð fyrir og setja starfsstöð birgi supplying fyrirtæki. Afurðarafbrigðið verða losaðar fyrirtækja sem taka þátt í birgðakeðjunni.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
+

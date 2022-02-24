@@ -1,10 +1,12 @@
 ---
 title: Spár, verkbeiðnir og verk
 description: Þetta efni útskýrir spár og samþættingu verkbeiðni við verkefnastjórnun og bókhaldseininguna í eignastýringu.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjCostInfoPart
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b53dcf4e8796f808283b7bd5ea92b869ee0e59aac5359d74bcdc5de37ea7352
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f062b5463b54e9bcf32ed6f17263811c4bb24138
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770337"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021026"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Spár, verkbeiðnir og verk
 
@@ -58,13 +60,13 @@ Sumar þessara upplýsinga er hugsanlega ekki að finna í vinnupöntun. Þess v
 
 Til dæmis, á eftirfarandi mynd, vegna þess hvernig eignategundin **Vörubíll vél** er sett upp, verður hver vinnupöntunarvinna sem er búin til með eignategundinni **Vörubíll vél** að vera undirverkefni verkefnis ID 000186.
 
-![Mynd 1.](media/01-integration-to-pma.png)
+![Mynd 1](media/01-integration-to-pma.png)
 
 Tilgangurinn með auðkenni verkefnisins í vinnupöntunarstörfinu, og tilheyrandi athafnanúmeri, er að rekja kostnað sem er tengdur vinnu pöntunarstarfinu og eigninni sem er valin á það, í einingunni **Verkefnisstjórnun og bókhald**. (Til að skoða auðkenni verkefnisins og aðgerðarnúmerið, veldu **Eignastýring** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** og veldu síðan verkbeiðnina. Á flýtiflipanum **Línulýsing** sýnir reiturinn **Verkkenni** auðkenni verksins og reiturinn **Aðgerðarnúmer** sýnir númer aðgerðar.) Sjá frekari upplýsingar um kostnaðarstýringu í eignastýringu [Stjórnun kostnaðar og dagsetningar](../controlling-and-reporting/cost-and-date-control.md).
 
 Eftirfarandi mynd sýnir myndrænt yfirlit yfir verkbeiðniverk og skyldar aðgerðir verkefnis.
 
-![Mynd 2.](media/02-integration-to-pma.png)
+![Mynd 2](media/02-integration-to-pma.png)
 
 Þegar ný verkbeiðnivinnsla er mynduð í verkbeiðni er verkbeiðniverk sjálfkrafa búið til fyrir vinnsluna. Fjárhagslegar víddir eignarinnar sem tengjast vinnslu á verkbeiðni eru sjálfkrafa fluttar yfir í verkbeiðniverkið.
 
@@ -86,18 +88,15 @@ Til að tryggja að líftímastöður verkbeiðna og tengdra verkstiga á verkbe
 
 Eftirfarandi myndir sýna tengingar milli verkhópa í verkbeiðni, tengdar verkgerðir, verkstig og líftímastöður verkbeiðna.
 
-![Mynd 3.](media/03-integration-to-pma.png)
+![Mynd 3](media/03-integration-to-pma.png)
 
-![Mynd 4.](media/04-integration-to-pma.png)
+![Mynd 4](media/04-integration-to-pma.png)
 
-![Mynd 5.](media/05-integration-to-pma.png)
+![Mynd 5](media/05-integration-to-pma.png)
 
 Nánari upplýsingar um hvernig setja skal upp verk verkbeiðna er að finna í [Verkuppsetning verkbeiðni](../setup-for-work-orders/work-order-project-setup.md). Upplýsingar um hvernig skal stofna líftímastöður verkbeiðna er að finna í [Líftímastöður verkbeiðna](../setup-for-work-orders/work-order-lifecycle-states.md).
 
 Eftirfarandi mynd sýnir myndrænt yfirlit yfir hin ýmsu verkefni sem eru búin til í einingunni **Eignastýring** til að gera samþættingu við eininguna **Verkefnisstjórnun og bókhald**. Það sýnir einnig verkferla sem verkefnin tengjast.
 
-![Mynd 6.](media/06-integration-to-pma.png)
+![Mynd 6](media/06-integration-to-pma.png)
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,39 +1,37 @@
 ---
-title: Dreifa og tímasetja spurningalista
-description: Þetta efnisatriði útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær.
-author: twheeloc
-ms.date: 10/28/2021
+title: Dreifa spurningalistum á ákveðnum tímum
+description: Þessi skrá útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær.
+author: andreabichsel
+manager: AnnBe
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dbb069110b46c38a994a7be6276137360b14397a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 0329b80615eed6efcc22bb0b140970988f5c306a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069530"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419085"
 ---
-# <a name="distribute-and-schedule-questionnaires"></a>Dreifa og tímasetja spurningalista
+# <a name="distribute-and-schedule-questionnaires"></a>Dreifa spurningalistum á ákveðnum tímum
 
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-Þetta efnisatriði útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær. 
+Þessi skrá útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær. 
 
 Það eru margar leiðir til að Dreifa spurningarlista:
 
--   Merktu spurningalistann sem **Virkur**. Spurningalistanum er þá tiltækur fyrir alla starfsmenn nema flokk spurningalista er sett upp til að takmarka aðgang að honum.
+-   Merktu spurningalistann sem virkan. Spurningalistanum er þá tiltækur fyrir alla starfsmenn nema flokk spurningalista er sett upp til að takmarka aðgang að honum.
 -   Úthluta Notkunarheilmildir á flokk spurningalista. Þá er spurningalista tiltækur öllum meðlimum fyrir valinn flokk.
 -   Stofna áætlaðar svarsetur. Spurningalistinn er þá aðeins tiltækur fyrir tiltekinn einstakling.
 -   Stofna áætlun. Spurningalisti þá er tiltækt til fjölda fólks.
@@ -111,10 +109,10 @@ Ef notuð er áætluð svarseta tilkynna þarf að tilkynna einstaklingurinn bei
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Tilkynna svarendum um röðun
 
-Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann. Sláðu inn tölvupóststextann á **Tölvupóstur fyrir sjálfsafgreiðslu starfsmanna** flipa. Eftir að áætlun hefur verið hafin, smelltu **Aðgerðir** &gt; **Senda tölvupóst** að búa til og senda tölvupóstinn til svarenda. Svarendur geta síðan innskráð sig á vefsvæðið og svarað spurningalistanum. 
+Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann. Færa inn texta tölvupósts í **tölvupóstur fyrir sjálfsafgreiðslu starfsmanns** flipanum. Eftir að áætlun hefur verið ræst er smellt á **Aðgerðir** &gt; **Senda tölvupóst** til að búa til og senda í tölvupósti til svarenda. Svarendur geta síðan innskráð sig á vefsvæðið og svarað spurningalistanum. 
 
 > [!NOTE]
-> Áður en þú getur notað tölvupóstvirknina verður upplýsingatæknistjórinn þinn að slá inn tölvupóstsstillingarnar á **Tölvupóstfæribreytur** síðu.
+> Áður en hægt er að nota tölvupóstsvirkni þarf kerfisstjóri að færa inn stillingar fyrir tölvupóst á síðunni **Færibreytur tölvupósts**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Ljúka áætluðum spurningalista
 
@@ -133,6 +131,3 @@ Eftir að búið er að hannað og dreift spurningalistum, má ljúka við spurn
 Hægt er að gera spurningalista tiltæka fyrir tiltekna notendur eða notendahópa, eða fyrir allt fólk á tilteknu neti.
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

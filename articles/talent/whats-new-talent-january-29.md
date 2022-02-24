@@ -41,6 +41,3 @@ Nýjum möguleikum hefur verið bætt við leyfi og fjarvistir (færibreyturnar 
 
 ### <a name="worker-hire-actions-are-stuck-in-workflow-complete-state"></a>Aðgerðir starfsmannaráðningar eru fastar í stöðunni „Verkflæði lokið“.
 Breytingar hafa verið gerðar til að leiðrétta vandamál þar sem lítill fjöldi verkflæða kláraðist með stöðuna „Verkflæði lokið“. Ný verkflæði ætti nú að færa yfir í stöðuna „Lokið“ þegar verkflæðið klárast. Öll verkflæði með stöðuna lokið verða færð yfir í villustöðu til að leyfa uppfærslu og fjarlægingu ef þörf krefur. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,12 @@
 ---
 title: Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 2 - líkanavörpun)
-description: Þetta efni útskýrir hvernig á að skilgreina líkan rafrænnar skýrslugerðar til að nota fjárhagsvíddir sem gagnagjafa fyrir skýrslur rafrænnar skýrslugerðar. (Hluti 2)
+description: Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt líkan rafrænnar skýrslugerðar (ER) svo það noti fjárhagsvíddir sem gagnaveitu fyrir rafrænar skýrslur.
 author: NickSelin
+manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 3214ddb1e077d889fb7b785bee2554b96c3907ed
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605406"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681686"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 2 - líkanavörpun)
 
@@ -56,14 +58,14 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 21. Veljið Já í svæðinu Biðja um aðallykil.
     * Stilltu „Biðja um aðallykil” á Já til að leyfa notendum að velja aðallykilinn sem hluta af listanum yfir víddir.   Ef stillt er á Nei, verður aðallykilinn ekki teknar með á lista yfir víddir og valkosturinn „Er skylda fyrir aðallykil” er virkjaður. Ef „Er skylda fyrir aðallykil” er stillt á já skal hafa aðallykillinn með í lista yfir víddir óháð vali notanda.  
 22. Smellt er á Í lagi.
-![Útrennanlegir eiginleikar gagnagjafa fyrir upplýsingar fjárhagsvídda.](../media/er-financial-dimensions-guides-model-mapping1.png)
+![Hönnuðarsíðan ER-líkanavörpun](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. Í trénu skal velja 'Dynamics 365 for Operations\Table records'.
 24. Smella á bæta Við rót.
 25. Í svæðið Heiti, færðu inn 'LedgerJournal'.
 26. Velja skal Já í reitnum Óska eftir fyrirspurn.
 27. Í reitnum Tafla skal færa inn ‚LedgerJournalTable‘.
 28. Smellt er á Í lagi.
-![Hönnuðarsíða líkanavörpunar, gerð gagnagjafa fyrir töflufærslur.](../media/er-financial-dimensions-guides-model-mapping2.png)
+![Hönnuðarsíðan ER-líkanavörpun](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>Varpa einingum gagnalíkans við gagnaveitur sem bætt var við.
 1. Stækkið „færslubók“ í trénu.
@@ -94,7 +96,7 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 25. Í trénu skal velja „LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Main account and dimensions“.
 26. Í trénu, skal velja 'Journal\Transaction\Dimensions data'.
 27. Smelltu á Binda.
-!Hönnuðarsíða líkanavörpunar, vörpunarflipi, gagnagjafartré.](../media/er-financial-dimensions-guides-model-mapping3.png)
+![Hönnuðarsíðan ER-líkanavörpun](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Í trénu skal velja „LedgerJournal\<Relations\LedgerJournalTrans\Debit(AmountCurDebit)“.
 29. Í trénu, skal velja 'Journal\Transaction\Debit'.
 30. Smelltu á Binda.
@@ -133,7 +135,7 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 63. Í svæðinu expressionAsStringText skal færa inn 'Company.'find()'.'name()''.
     * Company.'find()'.'name()'  
 64. Smelltu á Vista.
-![Hönnuðarsíða ER-líkanavörpunar.](../media/er-financial-dimensions-guides-model-mapping4.png)
+![Hönnuðarsíðan ER-líkanavörpun](../media/er-financial-dimensions-guides-model-mapping4.png)
 65. Lokið síðunni.
 66. Smelltu á Vista.
 67. Lokið síðunni.
@@ -144,7 +146,4 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 3. Smellið á „Breyta stöðu“.
 4. Smelltu á Ljúka.
 5. Smellt er á Í lagi.
-![Síða fyrir skilgreiningu rafrænnar skýrslugerðar.](../media/er-financial-dimensions-guides-model-mapping5.png)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+![Hönnuðarsíðan ER-líkanavörpun](../media/er-financial-dimensions-guides-model-mapping5.png)

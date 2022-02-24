@@ -1,26 +1,29 @@
 ---
 title: Áætluð keyrsla
 description: Þetta efni útskýrir tímasetta framkvæmd í eignastýringu.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4ace2da2c4bc3d5cc404301fc4ecef5ceeef240dae6569a4d28f621b02637930
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 976155b685498456952f7d715779d20191712103
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779667"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430363"
 ---
 # <a name="scheduled-execution"></a>Áætluð keyrsla
 
@@ -37,9 +40,6 @@ Tímasett framkvæmdaruppsetning, sem tengist verkbeiðnum, getur verið almenn 
 3. Í reitunum **Virk staðsetning**, **Gerð verkbeiðni**, **Gerð eigna**, **Framleiðandi**, **Tegund**, **Tegundaflokkur viðhaldsverka**, **Gerð viðhaldsverks**, **Tegundaafbrigði af viðhaldsverka** og **Viðskipti** velurðu gildi eftir þörfum.
 4. Í reitnum **Þjónustustig** velurðu þjónustustig verkbeiðni. Ef þú skilur þennan reit eftir auðan, þá gerirðu almenna gerð áætlaðrar framkvæmdalínu. Fyrir dæmi um almenna línu, sjá fyrstu skrána á myndinni sem hér fylgir. Sú lína virkjar allar verkbeiðnir sem hafa ekkert þjónustustig verkbeiðni sem á að tímasetja fyrir tiltekinn dag og tíma.
 5. Í reitnum **Áætluð framkvæmd** velurðu tímamillibilið.
-6. Veldu **Vista**.
+6. Veljið **Vista**.
 
-![Áætluð keyrsla.](media/20-setup-for-work-orders.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+![Áætluð keyrsla](media/20-setup-for-work-orders.png)

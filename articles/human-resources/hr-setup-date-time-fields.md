@@ -1,99 +1,97 @@
 ---
 title: Skilja svæði fyrir dagsetningu og tíma
-description: Þetta efnisatriði útskýrir hvers má búast við þegar þú notar reiti fyrir dagsetningu og tíma í Microsoft Dynamics 365 Human Resources.
-author: twheeloc
-ms.date: 10/28/2021
+description: Fáðu skilning á við hverju má búast við notkun á dagsetningar- og tímareitum í Microsoft Dynamics 365 Human Resources. Fáðu betri yfirsýn yfir við hverju má búast við samskipti við dagsetningar- og tímagögn í skjámynd í Human Resources, ytri uppruna, eða Common Data Service.
+author: Darinkramer
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmPersonnelManagementWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: dkrame
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c81155f0c5150af44982f224c8eca2026a78ee7
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 027e46d53fd9704f5483e90409be53c1510e8cd4
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060890"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529853"
 ---
 # <a name="understand-date-and-time-fields"></a>Skilja svæði fyrir dagsetningu og tíma
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-
-**Dagsetning og tími** reiti eru grundvallarhugtak í Microsoft Dynamics 365 Human Resources. Það er mikilvægt að þú skiljir hvernig á að vinna með **Dagsetning og tími** gögn á síðum, í Dataverse, og í utanaðkomandi heimildum.
+Reitirnir **Dagsetning og tími** eru grundvallarhugtak í Dynamics 365 Human Resources. Mikilvægt er að öðlast skilning hvernig á að vinna með gögn í **Dagsetningu og tíma** í skjámyndum Dynamics 365 Human Resources, Common Data Service og ytri uppruna.
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>Að skilja muninn á gagnagerðum dagsetningar- og tímareita
 
-**Dagsetning og tími** reitirnir innihalda upplýsingar um tímabelti, en **Dagsetning** sviðum ekki. **Dagsetning** reitir sýna sömu upplýsingar hvar sem er. Þegar þú slærð inn dagsetningu í a **Dagsetning** reit, er sama dagsetning skrifuð í gagnagrunninn.
+Reitirnir **Dagsetning og tími** innihalda upplýsingar um tímabelti en reitirnir **Dagsetning** gera það ekki. Reitirnir **Dagsetning** sýna sömu upplýsingar á hvaða stað sem er. Þegar þú slærð inn dagsetningu í reitinn **Dagsetning** skrifar Human Resources sömu dagsetninguna í gagnagrunninn.
 
-Þegar gögn eru sýnd í a **Dagsetning og tími** reitnum er dagsetning og tími stillt út frá tímabelti notandans sem er valið á **Notendavalkostir** síða (**Sameiginlegt \> Uppsetning \> Notendavalkostir**). Upplýsingar um dagsetningu og tíma sem þú slærð inn í reitinn eru hugsanlega ekki þær sömu og upplýsingarnar sem eru skrifaðar í gagnagrunninn.
+Þegar gögn eru birt í reitnum **Dagsetning og tími** aðlagar Human Resources dagsetningu og tíma út frá tímabelti notandans sem er stillt í glugganum **Notendastillingar** (**Sameiginlegt > Uppsetning > Notendastillingar**). Upplýsingar um dagsetningu og tíma sem þú slærð inn í reitinn eru ef til vill ekki þær sömu og upplýsingarnar sem skrifaðar eru í gagnagrunninn.
 
-[![Valkostasíðu notenda.](./media/Useroptionsform.png)](./media/Useroptionsform.png)
+[![Skjámyndin Notendastillingar](./media/useroptionsform.png)](./media/useroptionsform.png)
 
-## <a name="understanding-date-and-time-fields-on-pages"></a>Skilningur á dagsetningu og tímareitum á síðum 
+## <a name="understanding-date-and-time-fields-in-forms"></a>Að öðlast skilning á dagsetninga- og tímareitum 
 
-Gögn **Dagsetningar og tíma** sem birtast á skjánum eru ekki þau sömu og gögnin sem eru geymd í gagnagrunninum ef tímabelti notanda er ekki stillt á samræmdan alþjóðlegan tíma (UTC). Gögn í reitunum **Dagsetning og tími** eru alltaf geymdir sem UTC.
+Þegar gögn eru færð inn í reitinn **Dagsetning og tími** eru gögnin sem birtast á skjánum ekki þau sömu og gögnin sem eru geymd í gagnagrunninum ef tímabelti notandans er ekki stillt á samhæfðan alþjóðlegan tíma (UTC). Gögn í reitunum **Dagsetning og tími** eru alltaf geymdir sem UTC.
 
-[![Starfsmannasíða UTC.](./media/worker-form.png)](./media/worker-form.png)
+[![Skjámyndin Starfskraftur](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>Fáðu öðlast skilning á dagsetninga- og tímareitum í gagnagrunninum 
 
-Þegar a **Dagsetning og tími** gildi er skrifað í gagnagrunninn, gögnin eru geymd sem UTC. Þess vegna geta notendur séð hvaða sem er **Dagsetning og tími** gögn miðað við tímabeltið sem er skilgreint í notendavalkostum þeirra.
+Þegar Human Resources skrifar gildi **Dagsetningar og tíma** í gagnagrunninum geymir það gögnin í UTC. Þetta gerir notendum kleift að sjá öll gögn í **Dagsetningu og tíma** miðað við tímabeltið sem er skilgreint í notendastillingum þeirra.
  
-Í dæminu hér að ofan er upphafstíminn tímapunktur, ekki ákveðin dagsetning. Með því að breyta tímabelti innskráða notanda úr GMT +12:00 í GMT UTC, sýnir sama færslan 04/30/2019 12:00:00 í stað 05/01/2019 12:00:00.
+Í dæminu hér að ofan er upphafstíminn tímapunktur, ekki ákveðin dagsetning. Með því að breyta tímabelti notandans sem er skráður inn frá GMT +12: 00 í GMT UTC sýnir sama skráin og var stofnuð 04/30/2019 12:00:00 í staðinn 05/01/2019 12:00:00.
+  
+Í dæminu hér að neðan verður starf starfsmanns 000724 virkt á umleið, óháð tímabelti. Starfsmaðurinn verður virkur þann 04/30/2019 á GMT-tímabeltinu, sem er það sama og 05/01/2019 á GMT+12:00-tímabeltinu. Hvort tveggja vísar til sama tímapunkts og ekki til ákveðinnar dagsetningar. 
 
-Í dæminu hér að neðan verður starf starfsmanns 000724 virk á sama tíma óháð tímabelti. Starfsmaðurinn verður virkur þann 04/30/2019 á GMT-tímabeltinu, sem er það sama og 05/01/2019 á GMT+12:00-tímabeltinu. Hvort tveggja vísar til sama tímapunkts og ekki til ákveðinnar dagsetningar. 
+[![Skjámyndin Starfskraftur](./media/worker-form2.png)](./media/worker-form2.png)
 
-[![Starfsmannasíða GMT.](./media/worker-form2.png)](./media/worker-form2.png)
+## <a name="date-and-time-data-in-data-management-framework-excel-common-data-service-and-power-bi"></a>Dagsetninga- og tímagögn í gagnastjórnunarramma, Excel, Common Data Service og Power BI 
 
-## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Dagsetninga- og tímagögn í gagnastjórnunarramma, Excel, Dataverse og Power BI 
-
-Gagnastjórnunarrammi (DMF), Excel viðbót,Dataverse, og Power BI skýrslugerð er öll hönnuð til að hafa samskipti við gögn beint á gagnagrunnsstigi. Þar sem enginn biðlari er til staðar til að stilla gögnin fyrir **Dagsetningu og tíma** á tímabelti notandans, eru öll gildi **Dagsetningar og tíma** á UTC, sem getur valdið misskilningi þegar gögn eru slegin inn eða skoðuð.
+Gagnastjórnunarrammi, Excel-innbót, Common Data Service og Power BI skýrslugerð eru öll hönnuð til að hafa samskipti við gögn beint á gagnagrunnsstigi. Þar sem það er enginn viðskiptavinur til að aðlagast gögnunum **Dagsetning og tími** á tímabelti notandans eru öll gildi **Dagsetningar og tíma** í UTC, sem getur leitt til rangra forsendna þegar gögn eru slegin inn eða skoðuð.  
  
-Hvenær **Dagsetning og tími** gögnum er skilað í gegnum DMF, Excel, eða Dataverse, gagnagrunnurinn gerir ráð fyrir að hann sé í UTC. Hins vegar, ef notendur sem skoða gögnin eru ekki með tímabelti notanda stillt á UTC, þá er sent inn **Dagsetning og tími** gildi mun ekki birtast eins og búist var við og notendur gætu ruglast. 
+Gagnagrunnurinn gerir ráð fyrir að gögn í **Dagsetningum og tíma** sem eru lögð fram í gegnum DMF, Excel eða Common Data Service séu í UTC. Þetta getur valdið nokkrum ruglingi þegar innsent gildi í **Dagsetningu og tíma** birtist ekki eins og búist var við vegna þess að notandi sem skoðar gögnin er ekki með tímabelti notanda stillt á UTC. 
  
-Það sama getur gerst á öfugan hátt þegar gögn eru flutt út. Gögnin **Dagsetning og tími** í útfluttri DMF-einingu geta verið öðruvísi en það sem er sýnt í biðlara Dynamics. 
+Það sama getur gerst á öfugan hátt þegar gögn eru flutt út. Gögnin **Dagsetning og tími** í útfluttu DMF-einingunni geta verið önnur en það sem birtist í Dynamics biðlaranum. 
  
-Þegar ytri upprunar eins og DMF eru notaðir til að skoða eða heimila gögn skal hafa í huga að gildin **Dagsetning og tími** eru sjálfgefið stillt á UTC alveg óháð því í hvaða tímabelti tölva notandans er eða hverjar gildandi stillingar á tímabelti notandans eru. 
+Þegar þú notar utanaðkomandi heimildir eins og DMF til að skoða eða skrifa gögn er mikilvægt að hafa í huga að gildin í **Dagsetningu og tíma** teljast sjálfkrafa vera í UTC óháð tímabelti í tölvu notandans eða núverandi tímabeltisstillingum hans. 
 
 ## <a name="examples-of-the-same-record-being-displayed-in-different-product-areas"></a>Dæmi um sömu skrá sem birtist á mismunandi afurðasvæðum 
 
 **Human Resources með tímabelti notanda stillt á UTC**
 
-[![Starfsmannasíða stillt á UTC.](./media/worker-form3.png)](./media/worker-form3.png)
+[![Skjámyndin Starfskraftur](./media/worker-form3.png)](./media/worker-form3.png)
 
 **Human Resources með tímabelti notanda stillt á GMT +12:00** 
 
-[![Starfsmannasíða stillt á GMT.](./media/worker-form4.png)](./media/worker-form4.png)
+[![Skjámyndin Starfskraftur](./media/worker-form4.png)](./media/worker-form4.png)
 
 **Excel í gegnum OData**
 
-[![Excel í gegnum OData.](./media/Excelviaodata.png)](./media/Excelviaodata.png)
+[![Excel í gegnum OData](./media/Excelviaodata.png)](./media/Excelviaodata.png)
 
 **DMF-sviðsetning**
 
-[![DMF-sviðsetning.](./media/DMFStaging.png)](./media/DMFStaging.png)
+[![DMF-sviðsetning](./media/DMFStaging.png)](./media/DMFStaging.png)
 
 **Útflutningur á DMF**
 
-[![Útflutningur á DMF.](./media/DMFExport.png)](./media/DMFExport.png)
+[![DMF-sviðsetning](./media/DMFexport.png)](./media/DMFexport.png)
 
-**Excel í gegnum Dataverse**
+**Excel í gegnum Common Data Service**
 
-[![Excel í gegnum Dataverse.](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![Excel í gegnum Common Data Service](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Dagsetningar- og tímagögn](/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
-[Valin tímabelti notanda](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Dagsetningar- og tímagögn](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
+[Valin tímabelti notanda](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 

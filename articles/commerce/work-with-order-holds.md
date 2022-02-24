@@ -2,13 +2,16 @@
 title: Skilgreina og vinna með símaverspantanir í bið
 description: Þetta efnisatriði lýsir því hvernig á að vinna með biðstöðu pantana með því að nota Dynamics 365 Commerce.
 author: josaw1
+manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCRHoldCodeTable, MCRSalesTableOrderHistory, MCRHoldCodeTrans, MCROrderEventSetup, MCROrderEventTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 79132
 ms.assetid: 7c00dc35-73e5-400a-8587-22f37ddfc0e0
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f474b5936f2ae154ad54185becd91865642e8efe3cf10e7dcdbb650c6c833b21
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b11dd48ac629910a82b4d5bfdf9889809b0d829d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762597"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413175"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Skilgreina og vinna með símaverspantanir í bið
 
@@ -53,7 +56,7 @@ Eftir að biðupplýsingarnar eru færðar inn og vistaðar getur notandinn loka
 
 Ef kveikt er á **Virkja lok pöntunar** flaggi á símaversrásinni, þarf ekki að virkja greiðslu fyrir pöntun sem er sett í bið. Hins vegar fyrir sölupöntun sem ekki er settir í bið, geta notendur ekki yfirgefið síðu sölupöntunarfærslu fyrr en greiðsla er virkjuð. Auðvitað verður greiðslu krafist áður en losað er um biðstöðu pöntunarinnar.
 
-Þar að auki geta notendur símavers sett pöntun, sem eru grunsamlegar af einhverjum ástæðum, handvirkt í bið sökum svika. Pantanir geta einnig verið settar í bið sjálfkrafa þegar upp kemur samsvörun við virk svikaviðmið og reglur. Nánari upplýsingar um þessa tegund af biðstöðu pöntunar er að finna í [Uppsetning svikatilkynninga](/dynamics365/unified-operations/retail/set-up-fraud-alerts) svikatilkynninga.
+Þar að auki geta notendur símavers sett pöntun, sem eru grunsamlegar af einhverjum ástæðum, handvirkt í bið sökum svika. Pantanir geta einnig verið settar í bið sjálfkrafa þegar upp kemur samsvörun við virk svikaviðmið og reglur. Nánari upplýsingar um þessa tegund af biðstöðu pöntunar er að finna í [Uppsetning svikatilkynninga](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts) svikatilkynninga.
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Skoða og stjórna pöntunum sem eru í bið
 
@@ -100,6 +103,3 @@ Ef notendur vilja hreinsa bið en gera frekari breytingar á pöntuninni áður 
 ## <a name="reporting-options"></a>Valkostir tilkynninga
 
 Fara í **Retail og Commerce** \> **Fyrirspurnir og skýrslur** \> **Símaversskýrslur** \> **Pantanir í bið skýrslur** til að keyra skýrslu um pantanir í bið eftir tímabili, biðkóða eða öðrum tengdum viðmiðunum.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

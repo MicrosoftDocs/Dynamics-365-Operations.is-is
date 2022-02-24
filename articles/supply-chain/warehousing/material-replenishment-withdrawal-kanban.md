@@ -2,13 +2,16 @@
 title: Áfylling með afturkölluðum kanban
 description: Þetta efnisatriði lýsir því hvernig kanban-úttekt er notað fyrir áfyllingu hráefnis fyrir framleiðslu.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b90e4699c440d0dd753cd16ff17cf958507e7872138a7f2c2c84f645f713d3db
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742585"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430649"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Áfylling með afturkölluðum kanban
 
@@ -30,12 +33,13 @@ ms.locfileid: "6742585"
 Þetta efnisatriði lýsir því hvernig kanban-úttekt er notað fyrir áfyllingu hráefnis fyrir framleiðslu.
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>Verkflæði fyrir áfyllingu hráefnis sem notast við kanban-úttekt
+-------------------------------------------------------------------
 
 Nota má kanban-úttekt til að færa kanban einnar vöru á milli vöruhúsa og afurðastaðsetninga þar sem hráefnið er notað. Kanban-úttekt styður dráttarlausnir fyrir áfyllingu hráefnis, þar sem dráttarmerki er nauðsynlegt til að setja af stað framboð fyrir tiltekna eftirspurn. 
 
 Eftirfarandi dæmi sýnir dráttaráfyllingarkerfi þar sem dráttarkerfi setur af stað stofnun á kanban til áfyllingar á hráefni fyrir framleiðsluferli. 
 
-[![Togmerki ræsir stofnun á kanban til að fylla á efni fyrir framleiðsluferli.](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![Dráttarmerki setur af stað stofnun á kanban til áfyllingar á hráefni fyrir framleiðsluferli](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  Kanban úttektar
 2.  Kanban „frá“ staðsetningu og frágangsstaðsetningu fyrir vöruhúsavinnu
@@ -72,7 +76,7 @@ Ef fjarlægðin milli vöruhúsastaðsetninga og staðsetningar framleiðsluinnt
 
 Í eftirfarandi dæmi er flutningsverkþáttur kanban-úttektar skilgreindur þannig að hann flytjist milli tveggja staðsetninga í sama vöruhúsinu. Flutningsverkþáttur kanban-úttektar er settur þannig upp að honum sé lokið sjálfkrafa. 
 
-[![Flutningsverkþáttur er sjálfkrafa lokið þegar unnið er úr kanban-tiltekt.](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![Flutningsverkþætti er sjálfkrafa lokið þegar tiltektarvinna kanbans er yfirstaðin](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  Samnýtt vöruhús fyrir hráefni og framleiðslu
 2.  Vöruhúsastaðsetningar fyrir hráefni
@@ -83,6 +87,3 @@ Ef fjarlægðin milli vöruhúsastaðsetninga og staðsetningar framleiðsluinnt
 
 Eftir að kanban er notað í staðsetningu framleiðsluinntaks er kanban skráð sem autt og nýju kanban af sömu gerð er bætt við flæðið. Þegar kanban er stofnað er bylgjulínu bætt við kanban-bylgju. Þegar kanban-bylgja er yfirstaðin er vöruhúsavinna fyrir kanban-tiltekt stofnuð. Starfsmaður vöruhússins lýkur vinnu fyrir kanban-tiltekt og verkið segir honum að tína efnið fyrir kanban í vöruhúsastaðsetningu. Þegar þessi starfsmaður vöruhússins staðfestir tiltektina er kanban sjálfkrafa stofnað og starfsmanninum er sagt að setja efnið í staðsetningu framleiðsluinntaks.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

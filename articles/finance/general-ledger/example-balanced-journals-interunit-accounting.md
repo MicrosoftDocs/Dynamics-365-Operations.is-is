@@ -1,10 +1,12 @@
 ---
 title: Jafnaðar færslubækur fyrir millieiningabókhald
 description: Þessi grein sýnir hvernig færslubók er jöfnuð sjálfkrafa þegar jöfnunarfjárhagsvídd er valin á síðunni Fjárhagur.
-author: kweekley
+author: ShylaThompson
+manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 15791
 ms.assetid: 301bd80e-f8b1-4f12-8194-e6d7de736084
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f6ffccb2ee504f182250dbf6d316823efafddf5
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
-ms.translationtype: MT
+ms.openlocfilehash: f189d1ed5b0917c9975587accc2275556ceb8143
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726895"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968755"
 ---
 # <a name="balanced-journals-for-interunit-accounting"></a>Jafnaðar færslubækur fyrir millieiningabókhald
 
@@ -30,7 +32,7 @@ ms.locfileid: "7726895"
 
 Ef bókhaldsfærslur eru ekki jafnaðar á stigi fjárhagsvíddargilda, eru sjálfkrafa stofnaðar lykilfærslur til að jafna við færslubókina. Þessar lykilfærslur nota **Millieining - debet** og **Millieining - kredit** bókunargerðir á síðunni **Fjárhagslyklar fyrir sjálfvirkar færslur** til að ákvarða aðallykilinn. Til dæmis er Fyrirtækiseining, sem er anna hluti fjárhagslykils, valið sem jöfnunarfjárhagsvídd og eftirfarandi bókhaldsfærslur verða síðan stofnaðar.
 
-| &nbsp;               | &nbsp;    |
+|                      |           |
 |----------------------|-----------|
 | 6100 – MSP – OU\_256 | 100,00 DR |
 | 6100 – NY – OU\_249  | 100,00 DR |
@@ -43,7 +45,7 @@ Ef bókhaldsfærslur eru ekki jafnaðar á stigi fjárhagsvíddargilda, eru sjá
 
 Þessvegna eru°eftirfarandi bókhaldsfærslur stofnaðar sjálfkrafa til að jafna færslubókina á stigi fjárhagsvíddargilda.
 
-| &nbsp;                            | &nbsp;    |
+|                                   |           |
 |-----------------------------------|-----------|
 | (Debet millieininga) – MSP – OU\_256 | 100,00 DR |
 | (Kredit millieininga) – NY – OU\_249 | 100,00 CR |
@@ -52,6 +54,3 @@ Ef bókhaldsfærslur eru ekki jafnaðar á stigi fjárhagsvíddargilda, eru sjá
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

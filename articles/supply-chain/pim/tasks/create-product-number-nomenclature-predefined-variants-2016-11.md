@@ -1,24 +1,27 @@
 ---
 title: Stofna nafnakerfi afurðarnúmers fyrir fyrirframskilgreind afurðarafbrigði
 description: Þetta efni útskýrir hvernig á að setja inn nafnakerfi afurðarnúmers fyrir fyrirframskilgreind afurðarafbrigði og hvernig því er úthlutað á viðeigandi afurðarvíddarflokknum.
-author: t-benebo
+author: ShylaThompson
+manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductDimensionGroup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: benebotg
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5179dd54f22de11dc4c0f54113376f13b2f59c48
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6871765a450295a3f308ec7e706f1b126071585f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569578"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430329"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>Stofna nafnakerfi afurðarnúmers fyrir fyrirframskilgreind afurðarafbrigði
 
@@ -28,27 +31,26 @@ ms.locfileid: "7569578"
 
 
 ## <a name="create-a-product-number-nomenclature"></a>Stofnaðu Nafnakerfi afurðarnúmers
-
-1. Farið í **Afurðaupplýsingastjórnun \> Uppsetning \> Nafnakerfi afurðar**.
-1. Veljið **Nýtt**.
-1. Í reitnum **Heiti** er fært inn heiti nafnakerfis sem gerir auðveldara að greina viðmiðunarafurðarvíddarflokk, til dæmis `ColorSize`.
-1. Í reitinn **Lýsing** skal slá inn gildi.
-1. Veljið **Bæta við**.
-1. Veldu númer **afurðarsniðmáts**.
-1. Veljið **Bæta við**.
-1. Veldu **Textafasta**.
-1. Í reitnum **Texti** skal slá inn gildi.
-1. Veljið **Bæta við**.
-1. Veldu **Litur**.
-1. Veljið **Bæta við**.
-1. Veldu **Textafasta**.
-1. Í reitnum **Texti** skal slá inn gildi.
-1. Veljið **Bæta við**.
-1. Veldu **Stærð**.
-1. Lokið síðunni.
+1. Veldu **Skilgreining afurðarafbrigðislíkans**.
+2. Veldu **Nafnakerfi afurðar**.
+3. Veljið **Nýtt**.
+4. Í reitnum **Heiti** er fært inn heiti nafnakerfis sem gerir auðveldara að greina viðmiðunarafurðarvíddarflokk, til dæmis `ColorSize`.
+5. Í reitinn **Lýsing** skal slá inn gildi.
+6. Veljið **Bæta við**.
+7. Veldu númer **afurðarsniðmáts**.
+8. Veljið **Bæta við**.
+9. Veldu **Textafasta**.
+10. Í reitnum **Texti** skal slá inn gildi.
+11. Veljið **Bæta við**.
+12. Veldu **Litur**.
+13. Veljið **Bæta við**.
+14. Veldu **Textafasta**.
+15. Í reitnum **Texti** skal slá inn gildi.
+16. Veljið **Bæta við**.
+17. Veldu **Stærð**.
+18. Lokið síðunni.
 
 ## <a name="assign-the-nomenclature-to-a-product-master"></a>Úthluta skal nafnakerfi á afurðarsniðmát
-
 1. Veldu **Afurðavíddaflokka**.
 2. Veldu hópinn **SizeCol afurðarvídd**.
 3. Veljið **Breyta**.
@@ -56,5 +58,3 @@ ms.locfileid: "7569578"
 5. Í reitnum **Nafnakerfi afurðarafbrigðisnúmers** skal færa inn eða velja gildi.
 6. Lokið síðunni.
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

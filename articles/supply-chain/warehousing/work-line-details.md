@@ -2,23 +2,26 @@
 title: Upplýsingar um vinnulínu
 description: Í þessu efnisatriði er að finna upplýsingar um upplýsingasíðu vinnulínu sem sýnir heildstæðan, raðanlegan og síanlegan lista yfir einstakar vinnulínur í kerfinu.
 author: mirzaab
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkLocationChange, WHSWorkLineDetails
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f37d161bf3d27e15eaaf1230c05270f3769f9901
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778282"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4430711"
 ---
 # <a name="work-line-details"></a>Upplýsingar um vinnulínu
 
@@ -28,7 +31,7 @@ Síðan **Upplýsingar um vinnulínu** sýnir heildstæðan, raðanlegan og sía
 
 ## <a name="turn-on-the-work-line-details-feature"></a>Kveikja á eiginleika vinnulínuupplýsinga
 
-Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta notað [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) síðu til að athuga stöðu eiginleika og virkja eða slökkva á honum ef þörf krefur. Hérna er eiginleikinn skráður sem:
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Upplýsingar um vinnulínu*
@@ -125,6 +128,3 @@ Fylgið þessum skrefum til að búa til tiltektarvinnu.
 
 > [!IMPORTANT]
 > Ef aðeins er hætt við hluta af magninu fyrir vinnulínu þarf einnig að fjarlægja úrelt magn úr farmlínunni. Að öðrum kosti, nema undirafhending sé sett upp á réttan hátt, er ekki hægt að staðfesta sendingu á farmlínu.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

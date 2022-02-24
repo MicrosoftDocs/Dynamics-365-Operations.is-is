@@ -2,9 +2,11 @@
 title: Fartækjavinnusvæði fyrir skráasafn fyrirtækis
 description: Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæði fyrir skráasafn fyrirtækis, sem gerir notendum kleift að skoða og hafa samband við aðra starfsmenn í fyrirtækinu.
 author: jcart1106
+manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -12,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720649"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683433"
 ---
 # <a name="company-directory-mobile-workspace"></a>Fartækjavinnusvæði fyrir skráasafn fyrirtækis
 
@@ -77,7 +79,7 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
 3.  Í fyrsta sinn sem þú skráir þig inn, er beðið um notandanafn og aðgangsorð þitt. Færðu inn skilríki
 4.  Eftir að þú hefur skráð þig inn, birtast tiltæk vinnusvæði fyrir fyrirtækið. Athugið að ef kerfisstjóri gefur út nýtt vinnusvæði síðar, verður að endurræsa listann yfir fartækjavinnusvæði.
 
-[![Toga upp til að uppfæra.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Togið upp til að uppfæra](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>Skoða skráasafn fyrirtækis með því að nota fartækjavinnusvæðið
 1.  Veljið vinnusvæðið **Skráasafn fyrirtækis** í fartækjaforritinu. Listi yfir starfsfólk birtist.
@@ -87,6 +89,3 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
 1.  Veljið vinnusvæðið **Skráasafn fyrirtækis** í fartækjaforritinu.
 2.  Í reitnum **Leit** skal færa inn skírnarnafn og föðurnafn starfsmanns, titil eða deild til að hefja leit.
 3.  Velja starfsmann. Síðan **Forstilling starfsmanns** birtist. Á meðal upplýsinga á þessari síðu eru skírnarnafn og föðurnafn starfsmanns, titill og deild.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

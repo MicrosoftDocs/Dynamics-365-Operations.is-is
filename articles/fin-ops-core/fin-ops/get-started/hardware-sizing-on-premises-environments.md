@@ -2,9 +2,11 @@
 title: Kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi
 description: Þetta efnisatriði tilgreinir kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi.
 author: sericks007
-ms.date: 06/02/2021
+manager: AnnBe
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 443b80e44a90a68610fbb2bb5a5f4b6b7d545fa7ad772edb3672972fa82f8cbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9d4f2e59d4dd78d15d561ff0da47e4b9b1a2fce3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763435"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798305"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi
 
@@ -36,7 +38,7 @@ ms.locfileid: "6763435"
 
 Allir þættir sem eru sýndir í eftirfarandi skýringarmynd hafa áhrif á stærðarþörf. Því ítarlegri upplýsinga sem er safnað, þeim mun nákvæmara er hægt að ákvarða stærðarþörf. Líklegt er að vélbúnaðarþörf, án stuðningsgagna, sé röng. Algjörar lágmarkskröfur fyrir nauðsynleg gögn eru hámarks millifærslulína hleðslu á klst.
 
-[![Vélbúnaðarþörf fyrir staðbundin umhverfi.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![Vélbúnaðarþörf fyrir staðbundin umhverfi](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 Skoðað frá vinstri til hægri er fyrsti og mikilvægasti þátturinn sem þarf til að meta stærðarþörf nákvæmlega er færslusnið eða færsluframsetning. Mikilvægt er að finna alltaf hámarks færslumagn á hverja klukkustund. Ef það eru mörg hámarkstímabil þarf að skilgreina þessi tímabil nákvæmlega.
 
@@ -132,15 +134,10 @@ Fyrir AD FS stærðarþörf skal sjá [Fylgiskjöl fyrir afkastagetu þjóns AD
 
 Í almennri útgáfu er aðeins hægt að virkja einn SSRS hnút. Fylgstu með SSRS hnútnum þínum við prófun og fjölgaðu tiltækum kjörnum fyrir SSRS eftir þörfum. Gakktu úr skugga um að þú hafir fyrirframgerðan aukahnút tiltækan á sýndarhýsli sem er öðruvísi en SSRS VM. Þetta er mikilvægt ef upp kemur vandamál með sýndarvél sem hýsir SSRS eða sýndarhýsilinn. Ef þetta er tilfellið þyrfti að skipta þeim út.
 
-Frá og með útgáfu 10.0.17 er mögulegt að skilgreina frekari SSSR-hnúta til að öðlast mikinn tiltækileika. Frekari upplýsingar er að finna í [Skilgreina mikinn tiltækileika fyrir SQL Server Reporting Services (SSRS) hnúta](../../dev-itpro/deployment/onprem-ssrsha.md).
-
 ## <a name="environment-orchestrator"></a>Environment Orchestrator
 
-Orchestrator þjónustan er þjónustan sem hefur umsjón með þinni virkjun og tengdum samskiptum við LCS. Þessi þjónusta er notuð sem Service Fabric aðalþjónustua og krefst að minnsta kost þriggja VM. Þessi þjónusta er á sama stað og niðurröðunarþjónusta Service Fabric. Stærðin ætti að miðast við hámarksálag klasans. Nánari upplýsingar er að finna í [Skipuleggðu og undirbúðu virkjun á sjálfstæðum Service Fabric klasa](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+Orchestrator þjónustan er þjónustan sem hefur umsjón með þinni virkjun og tengdum samskiptum við LCS. Þessi þjónusta er notuð sem Service Fabric aðalþjónustua og krefst að minnsta kost þriggja VM. Þessi þjónusta er á sama stað og niðurröðunarþjónusta Service Fabric. Stærðin ætti að miðast við hámarksálag klasans. Nánari upplýsingar er að finna í [Skipuleggðu og undirbúðu virkjun á sjálfstæðum Service Fabric klasa](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Sýndaruppsetning og ofáskrift
 
 Mikilvæg þjónusta eins og AOS ætti að vera hýst á sýndarhýslum sem hafa sérstök tilföng til þess – kjarna, minni og disk.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

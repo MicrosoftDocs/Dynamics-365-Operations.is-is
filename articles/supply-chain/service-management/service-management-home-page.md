@@ -1,25 +1,29 @@
 ---
 title: Þjónustustjórnunaryfirlit
 description: Notið þjónustustjórnun til að koma á þjónustusamningum og þjónustuáskriftum, afgreiða þjónustupantanir og fyrirspurnir viðskiptavina og til að stjórna og greina afhendingu þjónustu til viðskiptavina.
-author: kamaybac
+author: ShylaThompson
+manager: tfehr
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9b8444c635fe08a224314d1b76de5ac8d9defbc
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 451aeebd46d60251eed940016486509c4aa3f458
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983023"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430023"
 ---
 # <a name="service-management-overview"></a>Þjónustustjórnunaryfirlit
 
@@ -46,7 +50,7 @@ Notið skýrslugerðarverkfæri til að fylgjast með þjónustupöntunar og ás
 
 Eftirfarandi skýringarmynd sýnir viðskiptaferla á háu stigi fyrir **Þjónustustjórnun** og sýnir hvar þjónustuferlar samþættast við aðrar einingar.
 
-[![Skýringarmynd á viðskiptaferli þjónustutjórnunar.](./media/sm_home_page.gif)](./media/sm_home_page.gif)
+[![Skýringarmynd á viðskiptaferli þjónustutjórnunar](./media/sm_home_page.gif)](./media/sm_home_page.gif)
 
 ## <a name="service-management-at-a-glance"></a>Þjónustustjórnun í fljótu bragði
 
@@ -63,10 +67,7 @@ Eftirfarandi skýringarmynd sýnir viðskiptaferla á háu stigi fyrir **Þjónu
 Þjónustustjórnun geta verið samþætt við eftirfarandi einingar:
 
   - [Yfirlit yfir sölu og markaðsstörf](../sales-marketing/overview-sales-marketing.md)
-  - [Mannauður](/dynamics365/unified-operations/talent/index)
+  - [Mannauður](https://docs.microsoft.com/dynamics365/unified-operations/talent/index)
 
   
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

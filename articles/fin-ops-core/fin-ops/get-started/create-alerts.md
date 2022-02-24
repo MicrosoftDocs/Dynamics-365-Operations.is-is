@@ -1,26 +1,28 @@
 ---
 title: Viðvörunarreglur stofnaðar
-description: Þetta efnisatriði veitir upplýsingar um viðvaranir og útskýrir hvernig á að búa til viðvörunarreglu.
-author: RichdiMSFT
+description: Þetta efnisatriði veitir upplýsingar um viðvaranir og útskýrir hvernig á að búa til viðvörunarreglu svo þú fáir tilkynningu um tilvik eins og dagsetningu sem kemur eða tilgreinda breytingu sem á sér stað.
+author: tjvass
+manager: AnnBe
 ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: richdi
+ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736199"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798428"
 ---
-# <a name="create-alert-rules"></a>Stofna viðvörunarreglur
+# <a name="create-alert-rules"></a>Viðvörunarreglur stofnaðar
 
 [!include [banner](../includes/banner.md)]
 
@@ -100,8 +102,3 @@ Ekki er hægt að búa til viðvaranir fyrir suma aukalega gagnagjafa á eyðubl
     ```
 2. Stofnið viðvörun úr skjámyndinni SysTableBrowser.
 
-### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>Viðvaranir vegna breytinga virka ekki fyrir breytingar á runustöðu
-Viðvaranir vegna breytinga virka ekki með breytingum á runustöðu vegna þess að slökkt er á þeim vegna frammistöðu. Þess í stað ætti að setja upp **Runuviðvörun**. Frekari upplýsingar er að finna í [Setja upp viðvaranir fyrir skjámynd runuviðbótar](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

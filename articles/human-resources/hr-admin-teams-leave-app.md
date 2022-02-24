@@ -1,13 +1,16 @@
 ---
 title: Forritið „Human Resources“ í Teams
 description: Þetta efnisatriði kynnir Microsoft Dynamics 365 Human Resources forritið í Microsoft Teams.
-author: twheeloc
-ms.date: 12/15/2021
+author: andreabichsel
+manager: AnnBe
+ms.date: 09/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: Application User
+ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -15,57 +18,37 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ffd6967431227b578e227ee570dbe06c356fb8d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: e714be06984f399235f0799ef077a92deae64d9e
+ms.sourcegitcommit: b0aa724a18ab1fbb5a62925f048c54b2c676ebf4
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067052"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4476078"
 ---
 # <a name="human-resources-app-in-teams"></a>Forritið „Human Resources“ í Teams
 
+[!include [banner](includes/preview-feature.md)]
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+Microsoft Dynamics 365 Human Resources forritið í Microsoft Teams gerir starfsmönnum kleift að biðja um frí og skoða upplýsinga um frítíma á fljótlegan hátt í Microsoft Teams. Starsmenn geta haft samband við þjarka til að óska eftir upplýsingum. Finna má ítarlegri upplýsingar á flipanum **Frí**. Að auki er hægt að senda fólki upplýsingar um væntanlegan frítíma í hópum og spjalli utan Human Resources.
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+![Human Resources Teams þjarkaforrit fyrir leyfi](./media/hr-admin-teams-leave-app-bot.png)
 
-Microsoft Dynamics 365 Human Resources app í Microsoft Teams skulum starfsmenn biðja fljótt um frí og skoða upplýsingar um frístöðu sína í Microsoft Teams. Starsmenn geta haft samband við þjarka til að óska eftir upplýsingum. Finna má ítarlegri upplýsingar á flipanum **Frí**. Að auki er hægt að senda fólki upplýsingar um væntanlegan frítíma í hópum og spjalli utan Human Resources.
+![Fríflipi fyrir fríforrit Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab.png)
 
-![Human Resources Teams þjarkaforrit fyrir leyfi.](./media/hr-teams-leave-app-bot.png)
-
-![Fríflipi fyrir frítímaforrit Human Resources Teams.](./media/hr-teams-leave-app-timeoff-tab.png)
-
-![Leyfisbeiðnispjald Human Resources.](./media/hr-teams-leave-app-chat-card.png)
+![Leyfisbeiðnispjald Human Resources](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>Setja upp
 
-Hægt er að finna Dynamics 365 Human Resources forritið í Teams versluninni. Frekari upplýsingar um uppsetningu á Teams-forritinu má finna í [Stjórna leyfisbeiðnum í Teams](hr-teams-leave-app.md).
+Hægt er að finna forritið Human Resources í Teams versluninni. Frekari upplýsingar um uppsetningu á Teams-forritinu má finna í [Stjórna leyfisbeiðnum í Teams](hr-teams-leave-app.md).
 
-Frekari upplýsingar um stjórnun forritsheimilda í Teams er að finna í [Stjórna reglum forritaheimilda í Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies).
-
-Ef notendur eiga að skoða Leyfis- og fjarvistadagatal í forritinu þarf að virkja **Leyfis- og fjarvistadagatal í Teams** í eiginleikastjórnun. Frekari upplýsingar um virkjun eiginleika er að finna í [Vinna með eiginleika](hr-admin-manage-features.md).
-
-## <a name="update-app"></a>Uppfærðu app
->[!NOTE]
-> Frá og með 20. desember 2021 verður þjónusta mannauðsapps sem hýst er hjá Microsoft leigjanda tekin úr notkun. Það mun engin áhrif hafa fyrir uppfærða viðbót (útgáfa 1.1.5) sem er tiltæk til uppsetningar. Helstu áhrifin verða á gamaldags framlengingu (útgáfa 1.1.4). Spjallbotninn í þessari útgáfu mun hætta að virka. The **Frí** flipinn mun halda áfram að virka í báðum viðbótunum.
-
-Fyrir útgáfu 1.1.4 mun spjallbotninn hætta að svara öllum skilaboðum. Til dæmis, **skrá inn**, **stöður**, og **Sjá frí**. Forritið verður að vera handvirkt uppfært í nýjustu útgáfuna. Fyrir frekari upplýsingar, sjá [Uppfærðu öpp í Microsoft Teams](/MicrosoftTeams/apps-update-experience).
-
-Til að uppfæra í útgáfu 1.1.5 skaltu ljúka þessum skrefum:
-1. Í Microsoft Teams, fara til **Forrit**.
-2. Finndu **Mannauður** app.
-3. Veldu **Uppfærsla**.
-
-Þú getur athugað útgáfuna af Human Resources appinu með því annað hvort að fara í **Um** flipann eða með því að fara í **Persónulegt app** kafla. 
-
-![Mannauður **Um** flipinn.](./media/HR-teams-about.png)
+Frekari upplýsingar um stjórnun forritsheimilda í Teams er að finna í [Stjórna reglum forritaheimilda í Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Kveikja á tilkynningum fyrir forritið „Human Resources“ í Teams
 
-Ef notendur eiga að fá tilkynningar vegna leyfisbeiðna í Teams-forritinu verður að virkja tilkynningar í Dynamics 365 Human Resources.
+Ef notendur eiga að fá tilkynningar vegna leyfisbeiðna í Teams-forritinu verður að virkja tilkynningar í Human Resources.
 
 >[!NOTE]
->Aðeins notendur sem eru skráðir inn í Teams og nota Dynamics 365 Human Resources Teams-forritið fá tilkynningar.
+>Aðeins notendur sem eru skráðir inn í Teams og nota Human Resources Teams-forritið fá tilkynningar.
 
 1. Veldu í Human Resources **Kerfisstjórnun**.
 
@@ -75,15 +58,15 @@ Ef notendur eiga að fá tilkynningar vegna leyfisbeiðna í Teams-forritinu ver
 
 4. Á flipanum **Almennt** skal stilla **Kveikja á tilkynningum fyrir Teams-forritið** á **Já**.
 
-   ![Kveikja á tilkynningum fyrir Teams-forrit í kerfisfæribreytum.](./media/hr-admin-teams-leave-app-enable-notifications.png)
+   ![Kveikja á tilkynningum fyrir Teams-forrit í kerfisfæribreytum](./media/hr-admin-teams-leave-app-enable-notifications.png)
 
 5. Til að kveikja á tilkynningum Teams fyrir alla notendur skal velja **Já** þegar spurt er um það.
 
-   ![Virkja Teams-tilkynningar fyrir alla notendur.](./media/hr-admin-teams-leave-app-notifications-all-users.png)
+   ![Virkja hóptilkynningar fyrir alla notendur](./media/hr-admin-teams-leave-app-notifications-all-users.png)
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Kveikja eða slökkva á hóptilkynningum fyrir einstaka notendur
 
-Þegar búið er að virkja tilkynningar fyrir Dynamics 365 Human Resources Teams forritið er hægt að kveikja eða slökkva á tilkynningum fyrir einstaka notendur.
+Þegar búið er að virkja tilkynningar fyrir Human Resources Teams forritið er hægt að kveikja eða slökkva á tilkynningum fyrir einstaka notendur.
 
 1. Veldu í Human Resources **Kerfisstjórnun**.
 
@@ -95,85 +78,55 @@ Ef notendur eiga að fá tilkynningar vegna leyfisbeiðna í Teams-forritinu ver
 
 5. Stillið **Kveikja á tilkynningum fyrir Teams-forritið** á **Já** til að virkja tilkynningar fyrir notandann eða **Nei** til að gera tilkynningar óvirkar fyrir notandann.
 
-   ![Kveikja á tilkynningum Teams-forrits á verkflæðisflipanum Valkostir notanda.](./media/hr-admin-teams-leave-app-notifications.png)
+   ![Kveikja á tilkynningum Teams-forrits á verkflæðisflipanum Valkostir notanda](./media/hr-admin-teams-leave-app-notifications.png)
 
-6. Veldu **Vista**.
+6. Veljið **Vista**.
 
-## <a name="supported-languages"></a>Studd tungumál
+## <a name="known-issues"></a>Þekkt vandamál
 
-Forritið Dynamics 365 Human Resources í Teams styður eftirfarandi tungumál:
-
-| Landstaðalskenni | Tungumál |
-| --- | --- |
-| de-DE | Þýska (Þýskaland) |
-| es-ES | Spænska (Spánn) |
-| es-MX | Spænska (Mexíkó) |
-| fr-CA | franska (Kanada) |
-| fr-FR | Franska (Frakkland) |
-| it-IT | Ítalska (Ítalía) |
-| nl-NL | Hollenska (Holland) |
-| pt-BR | Portúgalska (Brasilía) |
-| tr-TR | Tyrkneska (Tyrkland) |
-| zh-CN | kínverska (einfölduð) |
-
-## <a name="notes"></a>Athugasemdir
-
-Eftirfarandi vinnuliðir eru áætlaðir í síðari útgáfum:
-
-| Vinnuliður | Staða |
+| Úthreyfing | Staða |
 | --- | --- |
 | Staðan er röng þegar sendur er frítími fyrir dagsetningu í framtíðinni. | Spár eru ekki enn til staðar. Staðan birtist fyrir núverandi dagsetningu. |
 | Ekki er hægt að hætta við beiðni með stöðuna **Í yfirferð**. | Þessi eiginleiki er ekki studdur eins og er og honum verður bætt við í síðari tíma útgáfum. |
-| Upplýsingar um stöðu eru reiknaðar frá og með deginum í dag. | Kerfið sýnir ekki stöður eins og er á uppsöfnunartímabilinu, jafnvel þótt það sé stillt á **Orlofs- og fjarvistarfæribreytur** síðu. |
+| Upplýsingar um stöðu eru reiknaðar frá og með deginum í dag. | Kerfið sýnir eins og er ekki stöður frá uppsöfnunartímabilinu, jafnvel þótt það sé skilgreint í færibreytum leyfis og fjarvista. |
 
 ## <a name="troubleshooting"></a>Úrræðaleit
 
-Ef notandi á í vandræðum með að skrá sig inn í eða nota forritið Human Resources Teams skal reyna að fylgja þessum leiðbeiningum úrræðaleitar. Ef þú átt enn í vandræðum eftir úrræðaleit skaltu hafa samband við notendaþjónustu. Frekari upplýsingar er að finna í [Fá stuðning](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
-
-### <a name="ensure-the-teams-human-resources-application-is-up-to-date"></a>Gakktu úr skugga um að Teams Human Resources umsóknin sé uppfærð
-Ef þú lendir í vandræðum með Teams Human Resources appið þarftu að staðfesta að þú sért að keyra nýjustu útgáfuna. Lágmarks studd útgáfa er 1.1.5. Fyrir leiðbeiningar um hvernig á að uppfæra Teams forrit, sjá [skjöl liðanna](/MicrosoftTeams/apps-update-experience).
+Ef notandi á í vandræðum með að skrá sig inn í eða nota forritið Human Resources Teams skal reyna að fylgja þessum leiðbeiningum úrræðaleitar. Ef þú átt enn í vandræðum eftir úrræðaleit skaltu hafa samband við notendaþjónustu. Frekari upplýsingar er að finna í [Fá stuðning](hr-admin-troubleshooting-support.md).
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Ekki er hægta að skrá inn í forritið „Human Resources“ í Teams
 
-Ef notandi hefur samband við þig vegna þess að hann vill skrá sig inn í forritið, skaltu sannprófa að hann sé með tengda starfsmannafærslu í Human Resources.
+Ef notandi hefur samband við þig vegna þess að hann vill skrá sig inn í forritið, skaltu sannprófa að þessi notandi sé með tengda starfsmannafærslu í Human Resources.
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Villa þegar leyfisbeiðnir eru samþykktar í forriti Human Resources í Teams
 
-Ef notandi fær villu á meðan hann er að reyna að samþykkja leyfisbeiðnir í Teams appinu skaltu prófa eftirfarandi úrræðaleitarskref:
+Ef notandi fær villu þegar reynt er að samþykkja beiðni um leyfi í Teams-forritinu skal framkvæma eftirfarandi villuleitarskref:
 
 1. Gangið úr skugga um að Teams-reikningurinn sé sá sami og hann notar til að fá aðgang að Human Resources.
 
 2. Gangið úr skugga um að hann sé gildur samþykktaraðili fyrir beiðnina með því að athuga stillingar verkflæðis fyrir samþykkt leyfis. Frekari upplýsingar um verkflæði leyfisbeiðna er að finna í [Búa til verkflæði leyfisbeiðni](hr-leave-and-absence-workflow.md).
 
-### <a name="leave-approvers-dont-receive-teams-chat-messages-to-approve-leave-requests"></a>Samþykkisaðilar leyfis fá ekki spjallskilaboð úr Teams til að samþykkja leyfisbeiðnir
-
-1. Gangið úr skugga um að tilkynningar séu virkar fyrir umhverfið og notandann. Frekari upplýsingar er að finna í [Virkja tilkynningar fyrir Human Resources-forritið í Teams](hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) og [Kveikja eða slökkva á tilkynningum Teams fyrir einstaka notendur](hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users).
-
-2. Gangið úr skugga um að notendur séu skráði inn í flipann **Spjall** með sömu innskráningarupplýsingunum og þeir nota til að samþykkja leyfisbeiðnir. Notið skilaboðin „skrá út“ og síðan „skrá inn“ til að skrá inn með réttum innskráningarupplýsingum.
-
-3. Ef vandamálið er viðvarandi skaltu athuga stöðuna á **Viðskiptaviðburðakerfi** hópvinna sem kerfisstjóri. Ef það er í a **Að bíða** eða **Framkvæmd** stigi, athugaðu aftur eftir nokkrar mínútur. Ef staðan helst óbreytt, skráðu þig stuðningsmiða svo að teymið okkar geti hjálpað til við að laga málið.
-
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft Language Understanding Intelligent Service (LUIS)
 
-Með Dynamics 365 Human Resources bot í Microsoft Teams, eru textainntak notandans greind til að skilja undirliggjandi fyrirspurn/tilgang. Inntak notandans eins og „Search account Contoso“ er beint til einnar af vitsmunaþjónustu Microsoft sem kallast Language Understanding Intelligent Service (LUIS). Lesa meira um LUIS  [hér](https://www.luis.ai/). LUIS-þjónustan ræður úr eða skilur ásetning notanda (í þessu tilviki er ætlunin að finna upplýsingar) og markeiningu (í þessu tilviki er tilgreinda einingin reikningur sem heitir Contoso). Þessar upplýsingar eru síðan sendar til Microsoft [Azure bot ramma](https://azure.microsoft.com/services/bot-service/), sem hefur samskipti við gögn frá Dynamics 365 Human Resources og sækir þær upplýsingar sem óskað er eftir fyrir notandafyrirspurnina.
+Með Dynamics 365 Human Resources þjarkanum í Microsoft Teams er texti notanda greindur til að skilja undirliggjandi fyrirspurn/ásetning. Inntak notanda á borð við „Leita í contoso reikningi“ er flutt í eina af Cognitive Service hjá Microsoft sem kallast LUIS (Language Understanding Intelligent Service). Lesa meira um LUIS  [hér](https://www.luis.ai/). LUIS-þjónustan ræður úr eða skilur ásetning notanda (í þessu tilviki er ætlunin að finna upplýsingar) og markeiningu (í þessu tilviki er tilgreinda einingin reikningur sem heitir Contoso). Þessar upplýsingar eru svo sendar í Microsoft [Azure þjarkaramma](https://azure.microsoft.com/services/bot-service/) sem vinnur með gögn úr Dynamics 365 Human Resources og sækir æskilegar upplýsingum fyrir fyrirspurn notanda. 
 
-Með því að setja upp og leyfa aðgang að þjarkanum samþykkir þú að leyfa LUIS-þjónustunni og Azure þjarkaramma að vinna úr ásetningi á bak við fyrirspurn, sem leiðir til betri notandaupplifunar. LUIS-þjónustan og Azure þjarkaramminn kunna að hafa mismikið samræmi samanborið við Dynamics 365 Human Resources. Þó að LUIS þjónustan hafi aðeins aðgang að notendafyrirspurnum og sé ekki hönnuð til að vera tengd við notandann Dynamics 365 Human Resources gögnum eða reikningi, notandi á Dynamics 365 Human Resources láni gæti sjálfviljugur slegið inn fyrirspurn sem inniheldur viðskiptavinagögn, persónuupplýsingar eða önnur gögn og slíkt fyrirspurnarefni gæti verið sent til LUIS þjónustunnar og Azure bot ramma. 
+Með því að setja upp og leyfa aðgang að þjarkanum samþykkir þú að leyfa LUIS-þjónustunni og Azure þjarkaramma að vinna úr ásetningi á bak við fyrirspurn, sem leiðir til betri notandaupplifunar. LUIS-þjónustan og Azure þjarkaramminn kunna að hafa mismikið samræmi samanborið við Dynamics 365 Human Resources. LUIS-þjónustan hefur aðeins aðgang að fyrirspurnum notenda og er ekki hönnuð til að tengjast við Dynamics 365 Human Resources gögn eða reikning. Notandi Dynamics 365 Human Resources þjarkans gæti fært inn fyrirspurn sem inniheldur gögn viðskiptavinar, persónuleg gögn eða önnur gögn og slíkt fyrirspurnarefni gæti verið sent til LUIS-þjónustunnar og Azure þjarkarammans. 
 
-Innihald fyrirspurna og skilaboða notenda er varðveitt í LUIS kerfinu í að hámarki 30 daga, er dulkóðað í hvíld og er ekki notað til þjálfunar eða endurbóta á þjónustu. Lestu meira um Cognitive Services  [hér](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
+Innihald fyrirspurna og skilaboða notanda er vistað í LUIS-kerfi í að hámarki 30 daga, er dulkóðað þegar ekki í notkun og er ekki notað fyrir þjálfun eða endurbætur á þjónustu. Lestu meira um Cognitive Services  [hér](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 
 Til að stjórna stjórnandastillingum fyrir forrit í Microsoft Teams er farið í [Microsoft Teams stjórnendamiðstöð](https://admin.teams.microsoft.com/).
 
 ### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams, hnitanet Azure-tilviks og Azure Cosmos DB
 
-Þegar þú notar Dynamics 365 Human Resources app í Microsoft Teams, tiltekin gögn viðskiptavina gætu streymt út fyrir landfræðilega svæði þar sem starfsmannaþjónusta leigjanda þíns er notuð.
+Þegar Dynamics 365 Human Resources-forritið er notað í Microsoft Teams geta tiltekin gögn um viðskiptavini flætt út fyrir landsvæðið þar sem biðlari Human Resources þjónustunnar er notaður.
 
-Dynamics 365 Human Resources sendir leyfisbeiðni starfsmanns og upplýsingar um verkflæðisverk til Microsoft Azure Viðburðarnet og Microsoft Teams. Þessi gögn má geyma í Microsoft Azure Event Grid í allt að sólarhring og verða unnin í Bandaríkjunum, þau er dulkóðuð í flutningi og í hvíld, og eru ekki notuð af Microsoft eða meðhöndlunaraðilum fyrir þjálfun eða þjónustuúrbætur. Til að skilja hvar gögnin þín eru geymd í Teams skaltu skoða: [Staðsetning gagna í Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
+Dynamics 365 Human Resources sendir upplýsingar um leyfisbeiðni og verkflæðisverk til Microsoft Azure tilviks hnitanets og Microsoft Teams. Þessi gögn má geyma í Microsoft Azure Event Grid í allt að sólarhring og verða unnin í Bandaríkjunum, þau er dulkóðuð í flutningi og í hvíld, og eru ekki notuð af Microsoft eða meðhöndlunaraðilum fyrir þjálfun eða þjónustuúrbætur. Til að skilja hvar gögnin þín eru geymd í Teams skaltu skoða: [Staðsetning gagna í Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
 
-Í samskiptum við spjallarann í forriti Human Resources, er hægt að geyma innihald samtalsins í Azure Cosmos DB og flytja það yfir í Microsoft Teams. Þessi gögn má geyma í Azure Cosmos DB í allt að sólarhring og kunna að vera meðhöndluð utan staðsetningarinnar þar sem Human Resources-þjónusta leigjandans er uppsett, þau er dulkóðuð í flutningi og í hvíld, og eru ekki notuð af Microsoft eða meðhöndlunaraðilum fyrir þjálfun eða þjónustuúrbætur. Til að skilja hvar gögnin þín eru geymd í Teams skaltu skoða: [Staðsetning gagna í Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
+Í samskiptum við spjallarann í forriti Human Resources, er hægt að geyma innihald samtalsins í Azure Cosmos DB og flytja það yfir í Microsoft Teams. Þessi gögn má geyma í Azure Cosmos DB í allt að sólarhring og kunna að vera meðhöndluð utan staðsetningarinnar þar sem Human Resources-þjónusta leigjandans er uppsett, þau er dulkóðuð í flutningi og í hvíld, og eru ekki notuð af Microsoft eða meðhöndlunaraðilum fyrir þjálfun eða þjónustuúrbætur. Til að skilja hvar gögnin þín eru geymd í Teams skaltu skoða: [Staðsetning gagna í Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
  
-Til að takmarka aðgang að Human Resources í Microsoft Teams fyrir fyrirtækið þitt eða notendur innan fyrirtækisins skal skoða [Stjórna reglum um forritsheimildir í Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies).
+Til að takmarka aðgang að Human Resources í Microsoft Teams fyrir fyrirtækið þitt eða notendur innan fyrirtækisins skal skoða [Stjórna reglum um forritsheimildir í Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="see-also"></a>Sjá einnig 
 
@@ -181,6 +134,3 @@ Til að takmarka aðgang að Human Resources í Microsoft Teams fyrir fyrirtæki
 [Microsoft Teams hjálparmiðstöð](https://support.office.com/teams)</br>
 [Stjórna leyfisbeiðnum í Teams](hr-teams-leave-app.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

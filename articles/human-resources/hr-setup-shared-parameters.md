@@ -1,62 +1,47 @@
 ---
 title: Skilgreina sameiginlegar færibreytur
-description: Þetta efnisatriði útskýrir hvernig á að setja upp mannauðsfæribreytur þvert á lögaðila.
-author: twheeloc
-ms.date: 10/28/2021
+description: Þú þarft að setja upp sameiginlegar færibreytur fyrir skýrslur sem eru samnýttar á milli fyrirtækja, svo sem stöðufærslur. Í þessari grein er því lýst hvernig á að setja upp færibreytur Mannauðs á milli lögaðila.
+author: andreabichsel
+manager: AnnBe
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmSharedParameters, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 51891
 ms.assetid: c7d8f58c-d78a-4035-abbf-2b0ce16109fe
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 039d8e2100824921d568c013fe3e113e1b091979
-ms.sourcegitcommit: e91a1797192fd9bc4048b445bb5c1ad5d333d87d
-ms.translationtype: MT
+ms.openlocfilehash: 72742c38c3ff25d665bd1a3d0ea54f167dc0693c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "7729100"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418966"
 ---
 # <a name="configure-shared-parameters"></a>Skilgreina sameiginlegar færibreytur
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+Þú þarft að setja upp sameiginlegar færibreytur fyrir skýrslur sem eru samnýttar á milli fyrirtækja, svo sem stöðufærslur. Í þessari grein er því lýst hvernig á að setja upp færibreytur Mannauðs á milli lögaðila.
 
-Þú verður að setja upp samnýttar færibreytur fyrir færslur sem deilt er á milli fyrirtækja, svo sem **Staða** skrár. Þetta efnisatriði útskýrir hvernig á að setja upp mannauðsfæribreytur þvert á lögaðila.
-
-Sumar tegundir af skrám, svo sem **Staða** skrám, er deilt á milli fyrirtækja. Fyrir°þessar færslur þarf að setja upp samnýttar færibreytur. Til dæmis, the **Mannauður sameiginlegar breytur** síða er notuð til að setja upp mannauðsfæribreytur þvert á lögaðila. 
+Sumar gerðir af færslum, eins og stöðufærslur, eru samnýttar á milli fyrirtækja. Fyrir°þessar færslur þarf að setja upp samnýttar færibreytur. Til dæmis er síðan **Samnýttar færibreytur fyrir mannauð** til að setja upp færibreytur mannauðs á milli lögaðila. 
 
 Á síðunni **Samnýttar færibreytur fyrir mannauð** eru færibreyturnar flokkaðar í svæði,°byggt á virkni þeirra. 
 
-### <a name="settings"></a>Stillingar
-Á flipanum **Auðkenni** verður að velja auðkenningargerðir sem tákna auðkennisnúmer sem skráð°eru á síðunni. Setja verður upp gerð auðkennis áður en hægt er að færa inn auðkennisupplýsingar fyrir starfsmenn. Upplýsingar um kennitölu, þjóðkennisnúmer, auðkenni útlendinga og persónulegan auðkennikóða eru á síðunni **Gerð auðkennis**. Til að skilgreina nýja auðkenningartegund eða skoða listann yfir núverandi gerðir, farðu á **Starfsmannastjórnun** &gt; **Tenglar** &gt; **Uppsetning** &gt; **Auðkennisgerðir**. Hægt er að færa inn einfaldan kóða og lýsingu. 
+### <a name="previously-released-functionality"></a>Áður losuð virkni
+Á flipanum **Auðkenni** verður að velja auðkenningargerðir sem tákna auðkennisnúmer sem skráð°eru á síðunni. Setja verður upp gerð auðkennis áður en hægt er að færa inn auðkennisupplýsingar fyrir starfsmenn. Upplýsingar um kennitölu, þjóðkennisnúmer, auðkenni útlendinga og persónulegan auðkennikóða eru á síðunni **Gerð auðkennis**. Til að skilgreina nýja auðkennisgerð eða fara yfir lista með fyrirliggjandi gerðum skal smella á **Stjórnun starfsfólks** &gt; **Tenglaflipa** &gt; **Uppsetningu** &gt; **Gerðir auðkenna**. Hægt er að færa inn einfaldan kóða og lýsingu. 
 
-Á **Númeraraðir** flipanum geturðu valið númeraraðirnar sem eru notaðar fyrir eftirfarandi færslur: **Starfsmannanúmer**, **·**, **notandabeiðni**, **-9 skjal**, **·**, **·**, **bóta**, og **Starfsmannaaðgerðir** (ef þessi skráargerð er virkjuð). Til að viðhalda tilvísunum og kóða númeraraða skal nota listasíðuna **Númeraraðir**. Notið síðuleitar eiginleikann til að finna þessa síðu. 
+### <a name="if-youre-using-dynamics-365-human-resources"></a>Ef notað er Dynamics 365 Human Resources
+Á flipanum **Auðkenni** verður að velja auðkenningargerðir sem tákna auðkennisnúmer sem skráð°eru á síðunni. Setja verður upp gerð auðkennis áður en hægt er að færa inn auðkennisupplýsingar fyrir starfsmenn. Upplýsingar um kennitölu, þjóðkennisnúmer, auðkenni útlendinga og persónulegan auðkennikóða eru á síðunni **Gerð auðkennis**. Til að skilgreina nýja auðkennisgerð eða fara yfir lista með fyrirliggjandi gerðum, smellið á **Mannauður** &gt; **Uppsetning** &gt; **Gerð auðkennis**. Hægt er að færa inn einfaldan kóða og lýsingu. 
+
+Á flipanum **Númeraraðir** er hægt að velja númeraraðir sem eru notaðir fyrir eftirfarandi færslur: Starfsmannanúmer, Stöðu, Auðkenni notandabeiðnar, I-9 skjal, Umsækjandi, Umræða, Auðkenni fríðinda og°starfsmannaaðgerðina (ef þessi færslugerð er virkjuð). Til að viðhalda tilvísunum og kóða númeraraða skal nota listasíðuna **Númeraraðir**. Notið síðuleitar eiginleikann til að finna þessa síðu. 
 
 Á flipanum **Stöður** skal gefa til kynna hvort nýjar stöður eru tiltækar fyrir sjálfgefna úthlutun:
 
-- **Alltaf** - Hægt er að tengja starfsmenn við nýjar stöður þegar stöður eru búnar til. Þegar stöður eru stofnaðar í **Tiltækt fyrir úthlutun** eru dagsetning og tími í **Almennt** flipanum á **Stöðu** síðunni sjálfkrafa sett á stofnunardagsetningu og tíma.
-- **Aldrei** - Þú getur ekki úthlutað starfsmönnum á nýjar stöður þegar stöður eru búnar til. Ef þessi valkostur er valinn þarf að opna síðuna **Staða** fyrir hverja nýja stöðu þegar hún verður tiltæk. Síðan í flipanum **Almennt** skal færa inn dagsetninguna **Tiltækt til úthlutunar** til að virkja úthlutun starfsmanns.
-
-Í flipanum **Ítarlegri aðgangur** er hægt að takmarka aðgang að sumum upplýsingum eða tenglum:
-
-- **Takmarka aðgang að upplýsingum starfsmanna** – Veldu þennan eiginleika ef notendur ættu aðeins að geta skoðað starfsmannaupplýsingar fyrir þá lögaðila sem þeir hafa aðgang að, og fyrir starfsmenn sem hafa starf hjá þeim lögaðilum.
-
-    Eftir að þessi eiginleiki hefur verið valinn skaltu fylgja þessum skrefum til að stilla viðeigandi heimildir fyrir hvern notanda sem þarf að takmarka útsýni:
-
-    1. Á síðunni **Notendur** skal velja notanda.
-    1. Veljið hlutverk fyrir notandann. Boðið verður upp á valkostinn **Úthluta fyrirtækjum**.
-    1. Veljið **Úthluta fyrirtækjum**.
-    1. Á nýju síðunni skaltu velja **Veita ákveðnum fyrirtækjum aðgang hverju fyrir sig** og veldu síðan fyrirtækin sem notandinn á að hafa aðgang að.
-    1. Endurtaktu skref 2 til 4 fyrir hvert viðbótarhlutverk sem notandinn hefur, þar með talið kerfisnotendahlutverkið.
-
-    > [!NOTE]
-    > Fyrirtækin sem notandi hefur aðgang að verða að vera í samræmi við öll hlutverk notandans.
-
-- **Virkja launayfirlit í fyrirtækjum** – Launum starfsmanna er úthlutað á hvern lögaðila starfsins. Stundum getur starfsmaður starfað í mörgum lögaðilum samtímis. Þegar þessi eiginleiki er valinn munu bætur fyrir hvern lögaðila birtast í **Sjálfsafgreiðsla starfsmanna** og **Sjálfsafgreiðslustjóri** án þess að þú þurfir að skipta um lögaðila. 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+-   **Alltaf** - Hægt er að tengja starfsmenn við nýjar stöður þegar stöður eru búnar til. Þegar stöður eru stofnaðar í **Tiltækt fyrir úthlutun** eru dagsetning og tími í **Almennt** flipanum á **Stöðu** síðunni sjálfkrafa sett á stofnunardagsetningu og tíma.
+-   **Aldrei** - Þú getur ekki úthlutað starfsmönnum á nýjar stöður þegar stöður eru búnar til. Ef þessi valkostur er valinn þarf að opna síðuna **Staða** fyrir hverja nýja stöðu þegar hún verður tiltæk, og svo, á flipanum **Almennt** skal slá inn **Tiltækt fyrir úthlutun** dagsetninguna til að virkja úthlutun starfsmanns.

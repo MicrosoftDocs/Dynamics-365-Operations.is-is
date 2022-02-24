@@ -1,60 +1,54 @@
 ---
 title: Stofna og viðhalda á birgðalæsing
-description: Í þessu efnisatriði er lýst hvernig birgðalæsing er notuð til að koma í veg fyrir að efnislegar lagerbirgðir verði teknar frá af öðrum upprunaskjölum á útleið.
-author: yufeihuang
-ms.date: 03/23/2021
+description: Þessi verklýsing sýnir hvernig á að koma í veg fyrir að efnislegar lagerbirgðir séu frátekinn af önnur upprunaskjöl á útleið með því að nota lokun birgða.
+author: perlynne
+manager: tfehr
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBlocking, InventItemIdLookupSimple, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bad7d4e5794dc543bd750912ef0d3e4460e611b1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 12c6e047e15aaab157e6de70f4a09f500af2965f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572842"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430599"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Stofna og viðhalda á birgðalæsing
 
 [!include [banner](../../includes/banner.md)]
 
-Í þessu efnisatriði er lýst hvernig birgðalæsing er notuð til að koma í veg fyrir að efnislegar lagerbirgðir verði teknar frá af öðrum upprunaskjölum á útleið. Áður en hafist er handa við ferlin í þessu efnisatriði verður þú að vera með vöru þar sem efnislegar lagerbirgðir eru í boði.
+Þessi verklýsing sýnir hvernig á að koma í veg fyrir að efnislegar lagerbirgðir séu frátekinn af önnur upprunaskjöl á útleið með því að nota lokun birgða. Hægt er að keyra ferlið sýnigögn fyrirtækisins USMF með dæmagildum sem eru sýndar. Þú þarft að hafa vöru á lager raunbirgðum tiltækt áður en byrjað er að þetta ferli.
 
-## <a name="block-inventory"></a>Birgðum læst
 
-Fylgið eftirfarandi skrefum til að stofna birgðalokunarskrá svo birgðir séu lokaðar.
-
-1. Farið í **Birgðastjórnun \> Reglubundin verk \> Birgðalæsing**.
-1. Í aðgerðarúðunni velurðu **Nýtt**.
-1. Í haus nýju lokunarfærslunnar á að setja **Vörunúmer** reitinn á vöruna sem á að loka á og slá inn lýsingu.
-1. Í flýtiflipanum **Almennt**, í reitnum **Magn**, skal færa inn vörufjöldann sem á að læsa.
-1. Í flýtiflipanum **Birgðavíddir** skal tilgreina svæðið og vöruhúsið þar sem vörurnar sem á að læsa eru staðsettar.
-1. Í aðgerðarúðunni skal velja **Vista**.
+## <a name="create-an-inventory-blocking"></a>Stofna birgðalæsing
+1. Í **skoðunarrúðunni** ferðu í **Kerfiseiningar > Birgðastýring > Reglubundin verk > Birgðalæsing**.
+2. Smellt er á **Nýtt**.
+3. Í reitnum **Vörunúmer** skal smella á fellilistahnappinn til að opna leitina.
+4. Veljið vöruna sem á að velja af listanum. Veljið vörunúmer með efnislegar lagerbirgðir sem á að loka. Ef þú ert að nota USMF er hægt að velja vöru M9201.  
+5. Í reitnum **Magn** slærðu inn tölu. Ef þú ert að nota vöru M9201, þarf að velja minna en 200.
+6. Útvíkkaðu flýtiflipann **Birgðavíddir**.
+7. Í reitnum **Vöruhús** skal smella á fellilistahnappinn til að opna leitina.
+8. Í listanum skal finna og velja þá skráningu sem óskað er eftir. Ef þú ert að nota M9201 vöru er hægt að velja vöruhús 51.  
+9. Smellt er á **Vista**.
 
 ## <a name="update-the-conditions-of-the-inventory-blocking"></a>Uppfæra skilyrðum fyrir birgðalæsing
+1. Á flýtiflipanum **Almennt**, í reitnum **Magn** skal slá inn tölu. Uppfæra magnsvæði birgða til að endurspegla magn til að loka.  
+2. Í reitnum **Væntanleg dagsetning** skal færa inn dagsetningu. Þú vilt kannski tilgreina þegar búist er við að læstar birgðir verða tiltækar til frátektar með því að úthluta væntanleg dagsetning.. Ef Áætlað innhreyfingar valkostur er valinn fyrir við birgðalæsing, eins og hann er sjálfgefinn þegar handvirkt við er stofnuð lokun, þessi dagsetning birtist á áætlaðrar færslu.  
+3. Smellt er á **Vista**.
 
-Fylgið eftirfarandi skrefum til að uppfæra birgðalokunarfærslu.
+## <a name="remove-the-inventory-blocking"></a>Fjarlægja birgðalæsingu
+1. Í **aðgerðasvæðinu** er smellt á **Eyða**.
+2. Smellið á **Já**.
+3. Lokið síðunni.
 
-1. Farið í **Birgðastjórnun \> Reglubundin verk \> Birgðalæsing**.
-1. Á listasvæðinu skal velja lokunarfærsluna sem á við.
-1. Breyta færslunni eftir þörfum. Til dæmis væri hægt að breyta gildinu í reitnum **Væntanleg dagsetning** til að tilgreina hvenær læstar birgðir verða væntanlega aðgengilegar fyrir frátekningu. Ef valkosturinn **Áætluð innhreyfing** er valinn mun dagsetningin birtast á væntanlegri færslu. (Valkosturinn **Væntanlegar innhreyfingar** er sjálfgefið valinn þegar lokunarfærsla er stofnuð handvirkt.)
-1. Í aðgerðarúðunni skal velja **Vista**.
-
-## <a name="unblock-inventory"></a>Birgðir opnaðar
-
-Fylgja skal eftirfarandi skrefum til að fjarlægja birgðalokunarfærslu þannig að birgðir séu opnaðar.
-
-1. Farið í **Birgðastjórnun \> Reglubundin verk \> Birgðalæsing**.
-1. Á listasvæðinu skal velja lokunarfærsluna sem á við.
-1. Á aðgerðasvæðinu skal velja **Eyða**.
-1. Þú færð kvaðningu um að staðfesta aðgerðina. Veldu **Já** til að halda áfram.
-1. Lokið síðunni.
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

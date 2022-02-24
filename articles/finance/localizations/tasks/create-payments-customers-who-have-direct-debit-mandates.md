@@ -2,9 +2,11 @@
 title: Stofna greiðslur fyrir viðskiptavin sem hefur beingreiðsluumboð
 description: Þetta verk fer í gegnum hvernig á að mynda ISO20022-beingreiðsluskrá fyrir viðskiptavin sem hefur skilgreint beingreiðslu og reikning til greiðslu.
 author: mrolecki
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice, CustTableLookup, CustPostInvoiceJob, LedgerJournalTable, LedgerJournalTransCustPaym, SysQueryForm, CustPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ecc28cb11b8c34a438bb47b1cfa9a37e17297e421020b32030261af95b86a49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 934d086661dbbf1c7ba1d868f90caafe5b0bebf2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757935"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964567"
 ---
 # <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a>Stofna greiðslur fyrir viðskiptavin sem hefur beingreiðsluumboð
 
@@ -65,6 +67,3 @@ Sýnigögn fyrirtækisins til að stofna þetta ferli er DEMF.
 11. Smellt er á Í lagi.
 12. Smellt er á Í lagi.
 13. Smellt er á Stofna greiðslur.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

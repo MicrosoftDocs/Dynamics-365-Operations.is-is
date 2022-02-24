@@ -1,35 +1,39 @@
 ---
 title: Stuðningur við Kanban-flutningsbretti fyrir strikamerkjaskanna
 description: Flutningstafla kanbans styður skönnun frá smátóls (widget) strikamerkjaskanna til að Velja, Hefja, Ljúka og Tæma kanban-vinnslu.
-author: johanhoffmann
+author: ChristianRytt
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: 19391
 ms.assetid: a426f645-d59b-4c98-8d78-eba8d64a562e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b18aad4dcdbf8c2d18960ae306556c3ea679d622
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: 1bd6f1bdd847f74cee7d3594d19b72454063c0cb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566812"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430560"
 ---
-# <a name="kanban-transfer-board-support-for-bar-code-scanners"></a>Stuðningur við Kanban-flutningsbretti fyrir strikamerkjaskanna
+# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Stuðningur við Kanban-flutningsbretti fyrir strikamerkjaskanna
 
 [!include [banner](../includes/banner.md)]
 
 Flutningstafla kanbans styður skönnun frá smátóls (widget) strikamerkjaskanna til að Velja, Hefja, Ljúka og Tæma kanban-vinnslu.
 
-## <a name="registration-modes"></a>Skráningarhamar
+<a name="registration-modes"></a>Skráningarhamar
+------------------
 
 Á **skráning Skanna** flýtiflipa er hægt að velja skráningarham sem stýrir aðgerðinni þegar kanban-spjaldnúmer er skannað eða númerið slegið handvirkt inn í númerareit kanban-spjalds.
 
@@ -40,10 +44,11 @@ Flutningstafla kanbans styður skönnun frá smátóls (widget) strikamerkjaskan
 | Autt                 | Skráir efnismeðhöndlunareininguna sem kanban-kort vísar í sem tóma              |
 | Velja                | Skráir númer kanban-spjalds og velja vinnsluna sem vísað var í sjálfkrafa í kanban-lista |
 
- 
-## <a name="registration-mode-select"></a>Velja skráningarham
+ 
+Velja skráningarham
+------------------------
 
-Þegar notaður er strikamerkjaalesari til að velja vinnslu, breytist birtingarhamur kanban-spjalds. Í þessari stillingu gilda eftirfarandi skilyrði:
+Þegar notaður er strikamerkjaalesari til að velja vinnslu, breytist birtingarhamur kanban-spjalds. Í þessari stillingu gilda eftirfarandi skilyrði:
 
 -   Aðeins skannaðs kanban-vinnslu birtist.
 -   Upplýsingar um valið verk eru birtar í **upplýsingar** flýtiflipanum.
@@ -187,6 +192,3 @@ Staða valinnar vinnslu og stöðuna á öllum föstum vinnslum fyrir tilvik kan
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

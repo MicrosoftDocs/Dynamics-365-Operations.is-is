@@ -2,13 +2,16 @@
 title: Verkskráning og hjálp fyrir Retail Modern POS (MPOS) og sölukerfi í skýinu
 description: Þetta efnisatriði lýsir hvernig á að nota verkskráningu í Retail Modern POS og Cloud POS.
 author: mugunthanm
+manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aedf18ef8b3d7266f3e5c7acd676241f9ec8b900f061f5363cd8d581062e83ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0ab8456d81fbe2dca495b65b932395572242a25c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730756"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413220"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Verkskráning og hjálp fyrir Retail Modern POS (MPOS) og sölukerfi í skýinu
 
@@ -31,7 +34,7 @@ ms.locfileid: "6730756"
 
 ## <a name="overview"></a>Yfirlit
 
-Verkskráning í Retail Modern POS eða Cloud POS er ný lausn sem var þróuð með áherslu á mikla viðbragðsflýti. Hún býður upp á sveigjanleg forritaskil (API) sem eykur þenslugetu og auðveldar snurðulausa samþættingu við neytendur skráninga verkferla. Að auki hefur samþætting verkskráningar við viðskiptaferlavinnslutólið (BPM) í Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) verið þróað áfram. Notendur geta því haldið áfram að búa til efnismiklar skýringarmyndir verkferla úr skráningum til að greina og þróa forrit sín.
+Verkskráning í Retail Modern POS eða Cloud POS er ný lausn sem var þróuð með áherslu á mikla viðbragðsflýti. Hún býður upp á sveigjanleg forritaskil (API) sem eykur þenslugetu og auðveldar snurðulausa samþættingu við neytendur skráninga verkferla. Að auki hefur samþætting verkskráningar við viðskiptaferlavinnslutólið (BPM) í Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) verið þróað áfram. Notendur geta því haldið áfram að búa til efnismiklar skýringarmyndir verkferla úr skráningum til að greina og þróa forrit sín.
 
 ## <a name="architecture"></a>Högun
 
@@ -53,16 +56,16 @@ Fylgið eftirfarandi skrefum til að virkja verkskráningu á sölustað:
 Fylgið þessum skrefum til að stofna nýja skráningu með því að nota Verkskráningu.
 
 1. Ræsa Retail Modern POS eða Cloud POS, og skrá inn.
-2. Á síðunni **Stillingar** í hlutanum **Verkskráning** er smellt á **Opna verkskráningu**. Rúðan **Verkskráning** birtist. Hægt er að smella á hnappinn **Loka** (**X**) í efra hægra horni til að loka rúðunni **Verkskráning** áður en byrjað er á nýrri skráningu. Endurtakið skref 2 til að opna rúðuna aftur.
+2. Á síðunni **Stillingar** í hlutanum **Verkskráning** er smellt á **Opna verkskráningu**. Rúðan **Verkskráning** birtist. Hægt er að smella á hnappinn **Loka** (**X**) í efra hægra horni til að loka rúðunni **Verkskráning** áður en byrjað er á nýrri skráningu. Endurtakið skref 2 til að opna rúðuna aftur.
 
-    [![Verkskráningargluggi.](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
+    [![Rúðan Verkskráning birtist](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
 3. Sláið inn nafn og lýsingu fyrir skráninguna, og smellið á **Ræsa**. Skráningarlotan hefst um leið og smellt er á **Ræsa**.
 
     > [!NOTE]
     > Ef smellt er á hnappinn **Loka** (**X**) í efra hægra horni á meðan skráning er í gangi er rúðunni fyrir **Verkskráningu** lokað en skráningarlotunni er ekki hætt. Til að enduropna rúðuna fyrir verkskráningu skal smella á hnappinn **Hjálp** (spurningamerki) efst á skjánum.
     >
-    > [![Spurningarmerki.](./media/help.jpg)](./media/help.jpg)
+    > [![Spurningarmerki](./media/help.jpg)](./media/help.jpg)
 
 4. Eftir að smellt er á **Ræsa** fer Verkskráning í skráningarstillingu. Rúðan **Verkskráning** sýnir upplýsingar og stjórntakka sem tengjast skráningarferlinu.
 5. Framkvæmið aðgerðirnar sem á að framkvæma í notandaviðmóti (UI) Retail Modern POS eða Cloud POS.
@@ -72,7 +75,7 @@ Fylgið þessum skrefum til að stofna nýja skráningu með því að nota Verk
 
 Þegar búið er að ljúka lotunni birtast nokkrir valkostir birtast til að hægt sé að hala niður skráningunni.
 
-[![Valkostir niðurhals.](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
+[![Valkostir við niðurhal](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
 
 ### <a name="save-to-this-pc"></a>Vista í þessari tölvu
 
@@ -88,9 +91,9 @@ Hægt er að vista skráningu sem Microsoft Microsoft Word-skjal. Skjalið innih
 
 ## <a name="recording-controls"></a>Stýringar verkskráningar
 
-[![Stýringar skráningar.](./media/controls.jpg)](./media/controls.jpg)
+[![Stýringar verkskráningar](./media/controls.jpg)](./media/controls.jpg)
 
-### <a name="stop"></a>Stöðvun
+### <a name="stop"></a>Stöðva
 
 Smellið á **Stöðva** til að stöðva skráninguna. Athugið að hægt er að byrja aftur á lotu eftir að hún hefur verið stöðvuð. Því skal ganga úr skugga um að skráningunni sé lokið áður en henni er hætt.
 
@@ -117,17 +120,17 @@ Hægt er að tilgreina upphaf og endi mengis skrefa sem flokkuð eru saman í h�
 
 Athugasemd er viðbótartexti sem bætt er við skref í skráningu. Til dæmis er hægt að nota athugasemdir til að gefa notandanum skýrara samhengi eða leiðbeiningar. Hægt er að bæta við athugasemdir á undan or á eftir a skref.athugasemdum á undan eða á eftir þrepi. Hægt er að bæta við athugasemd í hvaða skrefi sem er með því að smella á hnappinn **Breyta** (blýantstákn) hægra megin við skrefið.
 
-[![Breytingahnappur fyrir skref.](./media/annotate.jpg)](./media/annotate.jpg)
+[![Breyta hnappi fyrir þrep](./media/annotate.jpg)](./media/annotate.jpg)
 
 ### <a name="texts-and-notes"></a>Textar og athugasemdir
 
 Hægt er að nota reitina **Textar** og **Athugasemdir** til að bæta við texta sem ætti að tengja við skref í Verkefnaleiðbeiningum.
 
-[![Texta- og athugasemdareitir.](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
+[![Reitirnir Texti og Athugasemdir](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
 
 #### <a name="text"></a>Texti
 
-Texti sem færður er inn í reitinn **Texti** birtist *fyrir ofan* texta fyrir skref í Verkefnaleiðbeiningum. Þessi staðsetning er fyrir textann sem notandinn að lesa áður en hann lýkur við skrefið.
+Texti sem færður er inn í reitinn **Texti** birtist *fyrir ofan* texta fyrir skref í Verkefnaleiðbeiningum. Þessi staðsetning er fyrir textann sem notandinn að lesa áður en hann eða hún lýkur við skrefið.
 
 #### <a name="notes"></a>Athugasemdir
 
@@ -135,14 +138,11 @@ Texti sem færður er inn reitinn **Texti** birtist *undir* texta um skref í Ve
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Hjálp í Retail Modern POS og sölukerfi í skýinu
 
-Til að sýna þínar eigin sérsniðnu verkskráningar í hjálparsvæðinu á Retail Modern POS og Cloud POS þannig að hægt er að skoða þær sem texta eða skoða texta þarf að vista verkskráninguna í eigin BPM-safni og síðan uppfæra færibreytur Hjálparkerfis til að vísa í BPM-safnið þitt. Nánari upplýsingar, sjá [Tengt við hjálparkerfið](../fin-ops-core/fin-ops/get-started/help-connect.md). Retail Modern POS og Cloud POS Help leita í LCS í rauntíma. Leitin er gerð í öllum BPM-söfnum sem valin eru í færibreytum fyrir Hjálparkerfi Commerce og leitin birtir viðeigandi niðurstöður. Til að komast í valmyndina **Hjálp** er smellt á hnappinn **Hjálp** (spurningamerki) efst á skjánum og síðan er heiti verkferlisins slegið inn í leitargluggann og smellt á hnappinn Leita.
+Til að sýna þínar eigin sérsniðnu verkskráningar í hjálparsvæðinu á Retail Modern POS og Cloud POS þannig að hægt er að skoða þær sem texta eða skoða texta þarf að vista verkskráninguna í eigin BPM-safni og síðan uppfæra færibreytur Hjálparkerfis til að vísa í BPM-safnið þitt. Nánari upplýsingar, sjá [Tengt við hjálparkerfið](../fin-and-ops/get-started/help-connect.md). Retail Modern POS og Cloud POS Help leita í LCS í rauntíma. Leitin er gerð í öllum BPM-söfnum sem valin eru í færibreytum fyrir Hjálparkerfi Commerce og leitin birtir viðeigandi niðurstöður. Til að komast í valmyndina **Hjálp** er smellt á hnappinn **Hjálp** (spurningamerki) efst á skjánum og síðan er heiti verkferlisins slegið inn í leitargluggann og smellt á hnappinn Leita.
 
-[![Hnappurinn Hjálp.](./media/help.jpg)](./media/help.jpg)
+[![Hnappurinn Hjálp](./media/help.jpg)](./media/help.jpg)
 
 Þegar smellt er á Verkefnaleiðberiningar í leitarniðurstöðum er hægt að skoða þrepin sem hjálparefni eða flytja út þrepin í Word-skjal.
 
 > [!NOTE]
 > Hjálp í Retail Modern POS og sölukerfi í skýinu mun ekki sýna verkefnaleiðbeiningar í samræmi við skjámyndina sem þú ert í eða aðgerðina sem þú ert að framkvæma. Hafa við vinnslu nafn í reitnum leit og smellið síðan á **Leit**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,13 +2,16 @@
 title: Ákvarða bestu samsetningu afsláttar sem skarast
 description: Þegar afsláttur skarast, verður að ákvarða samsetningu afsláttar sem skarast, sem mun skapa lægstu heildarupphæð færslunnar eða hæsta heildarafslátt. Þegar afsláttarupphæð er breytileg eftir verði afurða sem eru keyptar, eins og hinn algengi smásöluafsláttur „Keyptu 1, fáðu 1 X prósent afslátt“ (BOGO), snýst þetta ferli um fínstillingu á samsetningum.
 author: kfend
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 89643
 ms.assetid: 09843c9a-3e19-4e4a-a8ce-80650f2095f9
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 69475643a522a89ca4b58cf0ad1cc1f2db6325ff1d3f11830bf5f813290d6240
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 565722da65cbb711acedb5acf7de4edfbd615314
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733918"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413171"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Ákvarða bestu samsetningu afsláttar sem skarast
 
@@ -39,11 +42,11 @@ Hægt er að stofna ótakmarkaðan fjölda af afsláttum í sameiginlegu safni a
 
 Í þessu dæmi eru tvær afurðir nauðsynlegar til þess að vera hæfar fyrir hvern afslátt og ekki er hægt að sameina afslættina. Afslættir í þessu dæmi eru afslættir af **Besta verð**. Báðar afurðir eru hæfar fyrir báða afslætti. Hér eru þessir tveir afslættir.
 
-![Dæmi um tvo afslætti besta verðs.](./media/overlapping-discount-combo-01.jpg)
+![Dæmi um tvo afslætti besta verðs](./media/overlapping-discount-combo-01.jpg)
 
 Fyrir hvaða tvær afurðir sem er, fer sá betri af tveimur afsláttum eftir verðum afurðanna tveggja. Þegar verð bæði afurðir er jafnt og eða nánast það sama er betra afsláttur 1. Þegar verð einni afurð er mikil minna en verð á vöru, er betra afsláttur 2. Hér er stærðfræðileg regla fyrir mat á þessum tveimur afsláttum gagnvart hvor öðrum.
 
-![Regla um mat á afsláttum.](./media/overlapping-discount-combo-02.jpg)
+![Regla um mat á afsláttum](./media/overlapping-discount-combo-02.jpg)
 
 > [!NOTE]
 > Þegar verð afurðar 1 jafnast á við tvo þriðju hluta af verði afurðar 2, eru þessir tveir afslættir jafnir. Í þessu dæmi, er gild afsláttarprósenta fyrir afslátt 1 breytileg um nokkur prósent (þegar mikill munur er á verði afurðanna tveggja) að hámarki 25 prósent (þegar afurðnar tvær hafa sama verð). Gildi afsláttarprósentu fyrir afslátt 2 er föst. Það er alltaf 20 prósent. Þar sem gildi afsláttarprósentu fyrir afslátt 1 hefur svið sem getur verið meira en eða minna en 2 afsláttur, fer besti afslátturinn eftir verði afurðanna tveggja sem verða að hafa afslátt. Í þessu dæmi er útreikningi lokið á fljótlegan hátt, þar sem aðeins þessum tveimur afsláttum er beitt á aðeins tvær afurðir. Það eru tvær aðeins mögulegar samsetningar: ein notkun á afsláttur 1 eða ein notkun á afsláttar 2. Það er engin umröðun til að reikna. Virði hvors afsláttar er reiknað með því að nota báðar afurðir og besti afslátturinn er notaður.
@@ -57,11 +60,11 @@ Næst notum við fjórar afurðir og sama þessum tveimur afsláttum. Allar fjó
 
 Til að lesa töflurnar þarf að nota eina afurð úr línu og eina vöru úr dálki. Til dæmis í töflunni fyrir afslátt 1, þegar tvær $20 afurðir eru sameinaðar færðu $10 í afslátt. Til dæmis í töflunni fyrir afslátt 2, þegar $15 afurð og $5 afurð eru sameinaðar færðu $4 í afslátt.
 
-![Dæmi sem notar fjórar vörur fyrir sömu tvo afslættina.](./media/overlapping-discount-combo-03.jpg)
+![Dæmi sem notar fjórar vörur fyrir sömu tvo afslættina](./media/overlapping-discount-combo-03.jpg)
 
 Fyrst finnum við hæsta afsláttinn sem er í boði úr hvaða tveimur afurðum sem er með því að nota annan hvorn afsláttinn. Töflurnar tvær sýna afsláttarupphæð fyrir allar samsetningar á afurðunum tveimur. Skyggðu hlutar töflunnar tákna annaðhvort tilfelli þar sem afurð er pöruð með sjálfri sér, sem við getum ekki gert, eða er bakfærð pörun tveggja afurða sem verður að sömu afsláttarupphæð og má hunsa. Með því að líta á töflur, hægt er að sjá að afsláttur 1 fyrir tvær vörur á $20 er stærsti afsláttar sem er tiltækt fyrir annað hvort afslætti á allar fjórar afurðir. (Þessi afsláttur er upplýstur með grænu í fyrstu töflunni.) Þá eru aðeins $15 afurðin og $5 afurðin eftir. Með því að líta á tvær töflurnar aftur er hægt að sjá að fyrir þessar tvær afurðir veitir afsláttur 1 $2,50 afslátt, en afsláttur 2 veitir aftur á móti $4 afslátt. Þess vegna veljum við afslátt 2. Heildarafslátturinn er $14. Til að auðvelda að gera þessa umræðu sér í hugarlund eru hér tvær viðbótartöflur sem sýna gildi afsláttarprósentu fyrir allar mögulegar tveggja afurða samsetningar fyrir bæði afsláttur 1 og 2 afsláttar. Aðeins helmingurinn af lista með samsetningum er hafður með, því að fyrir þessa tvo afslætti skiptir ekki máli í hvaða röð í afslættinum afurðirnar tvær eru settar í. Hæsta gildi afsláttar (25%) er upplýst í grænu og lægsta gildi afsláttar (10 prósent) er upplýstur rauður.
 
-![Áhrifarík afsláttarprósenta fyrir allar samsetningar af tveimur vörur fyrir báða afslættina.](./media/overlapping-discount-combo-04.jpg)
+![Áhrifarík afsláttarprósenta fyrir allar samsetningar af tveimur vörur fyrir báða afslættina](./media/overlapping-discount-combo-04.jpg)
 
 > [!NOTE]
 > Þegar verð eru mismunandi og tveir eða fleiri afslættir keppa, er eina leiðin til að tryggja bestu samsetningu af afsláttum er að meta báða afslætti og bera þá saman.
@@ -70,7 +73,7 @@ Fyrst finnum við hæsta afsláttinn sem er í boði úr hvaða tveimur afurðum
 
 Þessi hluti heldur áfram með dæmi úr fyrri kafla. Við munum bæta við fleiri afurðum og öðrum afslætti og sjá hversu margar samsetningar er hægt að reikna út og bera saman. Eftirfarandi tafla sýnir fjölda mögulegra afsláttarsamsetninga eftir því sem afurðarmagn hækkar. Taflan sýnir hvað gerist bæði þegar það eru tveir afslættir sem skarast, eins og í fyrra dæmi, og þegar það eru þrír afslættir sem skarast. Fjöldi mögulegar afsláttarsamsetningar sem þarf að meta fljótlega fer yfir það sem jafnvel fljótvirk tölva getur reiknað út og borið saman nógu fljótt til að vera viðunandi fyrir smásölufærslur.
 
-![Fjöldi mögulegra afsláttarsamsetninga eftir því sem afurðarmagn hækkar.](./media/overlapping-discount-combo-05.jpg)
+![Fjöldi mögulegra afsláttarsamsetninga eftir því sem afurðarmagn hækkar](./media/overlapping-discount-combo-05.jpg)
 
 Þegar enn fleiri afslættir sem skarast eru notaðir, fer heildarfjöldi mögulegra afsláttasamsetninga fljótlega í milljónir, og tíminn sem þarf til að meta og velja bestu mögulegu samsetninguna verður fljótlega tilfinnanlegur. Einhver fínstilling hefur verið gert í verðsvélinni til að draga úr þeim heildarfjölda samsetninga sem þarf að meta. Hins vegar, þar sem fjöldi afslátta sem skarast og magns í færslu eru ekki takmörkuð, mun mikill fjöldi samsetninga alltaf verða að vera metinn í hvert skipti sem afslættir skarast. Þetta vandamál er vandamál sem aðferð röðunar jaðarvirðis tekur á.
 
@@ -78,9 +81,6 @@ Fyrst finnum við hæsta afsláttinn sem er í boði úr hvaða tveimur afurðum
 
 Til að leysa vandamál stigveldisvaxandi fjölda samsetninga sem þarf að meta, eru fínstillingar til staðar sem reikna virði á samnýttrar afurðar á hverja afsláttur á hóp afurða sem hægt er að nota tvær eða fleiri afslætti á. Við vísum til þessa virðis sem **jaðarvirðis** afsláttar fyrir samnýttar afurðir. Jaðarvirði er meðaltal á afurðahækkun í heildarupphæð afsláttar þegar samnýttar afurðir eru taldar með fyrir hvern afslátt. Jaðarvirði er reiknað með því að taka afsláttarupphæð samtals (DTotal), draga frá afsláttarupphæð án samnýtta afurðir (DMinus\\ Samnýttum), og deila þeim mismun með fjölda samnýtta afurða (ProductsShared).
 
-![Formúla til að reikna út jaðarvirði.](./media/overlapping-discount-combo-06.jpg)
+![Formúla til að reikna út jaðarvirði](./media/overlapping-discount-combo-06.jpg)
 
 Eftir að jaðarvirði fyrir hvern afslátt á samnýtta hópa afurða hefur verið reiknað út, er afsláttum beitt á samnýttar afurðir í tæmandi röð frá hæsta jaðarvirði til lægsta jaðarvirðis. Fyrir þessa aðferð eru allir eftirstandandi afsláttarmöguleikar ekki bornir saman í hvert skipti sem eitt tilvik afsláttar er sett á. Þess í stað eru afslættir sem skarast bornir saman einu sinni og síðan notað í röð. Enginn viðbótarsamanburður er gerður. Hægt er að skilgreina þröskuld til að skipta yfir í aðferð jaðarvirðis á flipanum **Afsláttur** á síðunni **Færibreytur Commerce**. Viðunandi tími til að reikna heildarafslátt er breytilegur milli atvinnugreina smásölu. Hins vegar er þessi tími almennt á bili tíu millisekúnda til einnar sekúndu.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

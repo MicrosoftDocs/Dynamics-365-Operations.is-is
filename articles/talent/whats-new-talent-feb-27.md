@@ -141,6 +141,3 @@ Til að uppfæra núverandi sniðmát skal fylgja eftirfarandi skrefum.
     9. Á síðunni **Vörpunarverk** skal velja nýja dálkinn sem grunn til að búa til aðra vörpun fyrir HIERARCHYTYPENAME.
 
         [![Vörpun](./media/CDS-Mapping5.png)](./media/CDS-Mapping5.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

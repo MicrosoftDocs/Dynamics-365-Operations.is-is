@@ -2,13 +2,16 @@
 title: Sjónræn röðun fyrir lean-framleiðslu
 description: Þetta efnisatriði veitir upplýsingar um Kanban-áætlunarborð, sem framleiðsluskipuleggjari getur nota' til að stýra og hámarka framleiðsluáætlunina kanban vinnslur.
 author: johanhoffmann
+manager: tfehr
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoard, KanbanJobSchedulingListPage, LeanProductionFlowVisualization, KanbanBoardUnplannedJobs
 audience: Application User
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -16,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5803793a4874ee73f943d0f059047458c37dc48b7d3276dadc8d8803599fb9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764813"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4430088"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Sjónræn röðun fyrir lean-framleiðslu
 
@@ -47,8 +50,8 @@ Aðeins er hægt að raða vinnslum af gerðinni **Keyra**. Kanban-vinnslan og e
 ## <a name="kanban-schedule-board"></a>Kanban-áætlunartafla
 Síðan **Kanban-áætlunarborð** inniheldur sjö aðalatriði, eins og sýnt er í eftirfarandi dæmi. 
 
-![Kanban-áætlunartafla.](./media/kanban-schedule-board-1024x554.png)
-1.  Aðgerðasvæði
+![Kanban-áætlunartafla](./media/kanban-schedule-board-1024x554.png)
+1.  Aðgerðarrúða
 2.  Sía svæði
 3.  Hnappur fyrir óvæntar vinnslur
 4.  Tímabilshnútur
@@ -71,7 +74,7 @@ Til að auka yfirlitið sem Kanban-áætlunarborðið veitir er hægt að nota l
 ## <a name="plan-unplanned-jobs"></a>Áætla óáætluð störf
 Raða gert ráð fyrir óvæntum kanban störf í **Áætlun gert ráð fyrir óvæntum vinnslur** svarglugga. Til að opna svargluggann, smellið á **gert ráð fyrir Óvæntum vinnslur** hnapp sem sýnir núverandi vinnslufjölda gert ráð fyrir óvæntum. Einnig er hægt að smella á **Áætla óvæntar vinnslur** á flipanum **Borð** í Aðgerðarúðu. Svarglugginn sýnir lista af óvæntum kanban-vinnsum fyrir vinnureitinn. Hægt er að nota svæðið **Síu** til að sía öll svæði í töflunni. Til dæmis er hægt að sía eftir kanban-vinnslum fyrir ákveðna vöru. Eftir að síaða lista yfir vinnslur sem á að raða getur verið valið í listanum og smellið síðan á **í lagi**. Til að nota sjálfvirka áætlun til að raða vinnslum er stillt á **Sjálfgefna áætlunargerð** valkostinn að **Já**. Í þessu tilfelli er vinnslum raðað í tímabili eftir gjalddaga þeirra. Einnig er hægt að raða vinnslum eftir tímabilum. Veldu bara tímabilslykil á svæðinu **Tímabil**. Eftirfarandi skýringarmynd sýnir dæmi um svargluggann **Áætla óvæntar vinnslur**. 
 
-![Svarglugginn Áætla óáætluð störf.](./media/plan-unplanned-jobs-1024x564.png)
+![Svarglugginn Áætla óáætluð störf](./media/plan-unplanned-jobs-1024x564.png)
 
 ## <a name="sequence-kanban-jobs-within-the-same-period"></a>Raða kanban-verk innan sama tímabils
 Hægt er að breyta röðinni á einum eða fleiri valdar vinnslur innan tímabils. Þessi afkastageta getur verið gagnleg ef vilji er til þess að forgangsraða nokkur störf á tímabili. Einnig er hægt að raða vinnslum sem hafa sömu vörueigindir, til að hámarka vinnsluframkvæmd. Hægt er að breyta röð með því að draga og sleppa aðgerð eða með því að nota í **Aftur** og **Áfram** valmyndaratriðunum á flipanum **Borð** í Aðgerðarúðu.
@@ -87,10 +90,8 @@ Hægt er að opna Kanban-áætlunarborð með valmyndaratriði á eftirfarandi s
 -   Síðan **Gera framleiðsluflæði sýnilegt**
 
 
-## <a name="additional-resources"></a>Frekari upplýsingar
+<a name="additional-resources"></a>Frekari upplýsingar
+--------
 
 [Röðun kanban-vinnslu fyrir lean-framleiðslu](lean-manufacturing-kanban-job-scheduling.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

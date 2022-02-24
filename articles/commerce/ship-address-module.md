@@ -2,30 +2,35 @@
 title: Eining sendingaraðseturs
 description: Þetta efnisatriði fjallar um einingu sendingaraðseturs og útskýrir hvernig á að skilgreina hana í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 02/11/2021
+manager: annbe
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 30baef62e03cdaa766133efc4b182c61da3dc7b67e077d80716a035f0b5e40e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aeaa410fde29b285fdbbdd6acac19b0c4e917aa5
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765195"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4413320"
 ---
-# <a name="shipping-address-module"></a>Sendingaraðseturseining
+# <a name="shipping-address-module"></a>Eining sendingaraðseturs
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir einingu sendingaraðseturs og útskýrir hvernig á að skilgreina hana í Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Einingin fyrir sendingaraðsetur gerir viðskiptavinum kleift að bæta við eða velja sendingaraðsetur fyrir pöntun meðan á greiðsluferlinu stendur. Ef viðskiptavinur er skráður inn eru öll aðsetur sem áður voru vistuð fyrir þennan viðskiptavin sýnd og viðskiptavinurinn getur valið á milli þeirra. Viðskiptavinurinn getur einnig bætt við nýju heimilisfangi. Einingin fyrir sendingaraðsetur er notuð fyrir allar vörur í pöntun sem krefjast sendingar.
 
@@ -37,16 +42,14 @@ Hægt er að skilgreina snið sendingaraðseturs í Commerce Headquarters fyrir 
 
 Eftirfarandi mynd sýnir dæmi um nýja einingu sendingaraðseturs á greiðsluferlissíðu.
 
-![Dæmi um einingu sendingaraðseturs á greiðsluferlissíðu.](./media/ecommerce-shippingaddress.PNG)
+![Dæmi um einingu sendingaraðseturs á greiðsluferlissíðu](./media/ecommerce-shippingaddress.PNG)
 
 ## <a name="module-properties"></a>Eiginleikar einingar
 
 | Nafn eiginleika | Gildi | lýsing |
 |---------------|--------|-------------|
-| Haus | Fyrirsagnartexti og merki fyrirsagnar (**H1**, **H2**, **H3**, **H4**, **H5** eða **H6**) | Valfrjáls fyrirsögn fyrir einingu sendingaraðseturs. |
+| Fyrirsögn | Fyrirsagnartexti og merki fyrirsagnar (**H1**, **H2**, **H3**, **H4**, **H5** eða **H6**) | Valfrjáls fyrirsögn fyrir einingu sendingaraðseturs. |
 | Sýna aðsetursgerð | **Satt** eða **Ósatt** | Ef þessi valfrjálsi eiginleiki er stilltur á **Satt**, verður gerð aðseturs, t.d. **Heimili** eða **Fyrirtæki** sýnt. Ef engin aðsetursgerð er tilgreind verður aðsetrið sjálfkrafa vistað sem **Gerð**=**Annað**. |
-| Kveikja á sjálfvirkum tillögum| **Satt** eða **Ósatt** | Ef þessi valfrjálsa eiginleiki er stilltur á **Satt** verða tillögur að sjálfvirkum aðsetrum veittar. Þessar tillögur eru knúnar af Bing-kortum. Frekari upplýsingar um hvernig setja á upp samþættingu Bing-korta á svæðinu er að finna í [Verslunarvalseining](store-selector.md). Þessi eiginleiki er í boði frá og með Commerce útgáfu 10.0.15.|
-|Valkostir fyrir sjálfvirkar tillögur| Númer| Ef sjálfvirkar aðseturstillögur eru virkar er hægt að tilgreina frekari valmöguleika, svo sem hámarksfjölda tillagna sem ætti að gefa upp.|
 
 ## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a>Bæta einingu sendingaraðseturs við greiðsluferlissíðu og stilla nauðsynlega eiginleika
 
@@ -69,8 +72,3 @@ Aðeins er hægt að bæta einingu sendingaraðseturs við greiðsluferliseining
 [Pöntunarupplýsingaeining](order-confirmation-module.md)
 
 [Gjafakortseining](add-giftcard.md)
-
-[Eining til að velja verslun](store-selector.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

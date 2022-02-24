@@ -2,12 +2,15 @@
 title: Svæðisvalseining
 description: Þetta efnisatriði fjallar um svæðisvalseininguna og útskýrir hvernig á að bæta henni við síður á vefsvæði Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a5f6f6e3ff459447aa4b3c0058b5526c9e8d1038a5d2629eefbed197012aebf0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b4e5f715efcac7f883df99508d282db904be0d80
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772229"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665224"
 ---
 # <a name="site-selector-module"></a>Svæðisvalseining
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði fjallar um svæðisvalseininguna og útskýrir hvernig á að bæta henni við síður á vefsvæði Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Þegar fyrirtæki er með ólík svæði á mörkuðum, svæði og staðhætti þurfa notendur svæðis að skipta á milli svæða og velja æskilegt verslunarsvæði á einfaldan hátt. Til að mæta þessari atburðarás gerir svæðarvaleiningin kleift að fletta á mörgum svæðum.
 
@@ -37,7 +42,7 @@ Grunnkerfi svæðisins verður að skilgreina með lista yfir svæði (markaði,
 
 Eftirfarandi mynd sýnir dæmi um færibreytueiningu sem er valin í haus vefsíðu.
 
-![Dæmi um val á svæðiseiningu í haus vefsíðu.](./media/ecommerce-sitepicker.PNG)
+![Dæmi um val á svæðiseiningu í haus vefsíðu](./media/ecommerce-sitepicker.PNG)
 
 ## <a name="site-selector-module-properties"></a>Eiginleikar svæðisvalseiningar
 
@@ -59,6 +64,3 @@ Hægt er að bæta við svæðisvalseiningu í [Hauseiningu](author-header-modul
 [Brauðmylsnueining](add-breadcrumb.md)
 
 [Eining yfirlitsvalmyndar](nav-menu-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

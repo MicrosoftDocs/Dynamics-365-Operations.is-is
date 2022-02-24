@@ -2,24 +2,27 @@
 title: Lén í Dynamics 365 Commerce
 description: Þetta efnisatriði lýsir því hvernig lén eru afgreidd í Microsoft Dynamics 365 Commerce.
 author: BrShoo
-ms.date: 03/17/2021
+manager: AnnBe
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733992"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517356"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Lén í Dynamics 365 Commerce
 
@@ -38,7 +41,7 @@ Lén eru vefföng sem eru notuð til að fara á Dynamics 365 Commerce-vefsvæð
 
 Eftirfarandi mynd sýnir úthlutunarskjámynd rafrænna viðskipta LCS með kassann **Studd lénsheiti** auðkenndan. 
 
-![Úthlutunarskjámynd rafrænna viðskipta LCS með kassann **Studd lénsheiti** auðkenndan.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![Úthlutunarskjámynd rafrænna viðskipta LCS með kassann **Studd lénsheiti** auðkenndan](./media/Domains_ProvisioningeCommerceScreen.png)
 
 Hægt er að stofna þjónustubeiðni til að bæta öðrum lénum við umhverfi ef úthlutun hefur þegar átt sér stað. Til að stofna þjónustubeiðni í LCS skaltu í umhverfinu þínu fara í **Stuðningur \> Vandamál varðandi stuðning** og velja **Senda inn tilvik**.
 
@@ -56,7 +59,7 @@ Einnig er hægt að nota hýsilheiti fyrir framleiðslusvæði í sandkassaumhve
 
 Eftirfarandi mynd sýnir svargluggann **Setja upp svæðið þitt** fyrir svæði sem heitir „sjálfgefið“ þegar þú ferð inn á svæðið í fyrsta skipti í vefsmiðnum.
 
-![**Setja upp svæðið þitt** svargluggi.](./media/Domains_SetupyoursiteScreen.png)
+![**Setja upp svæðið þitt** svargluggi](./media/Domains_SetupyoursiteScreen.png)
 
 Glugginn **Velja lén** gerir þér kleift að tengja eitt af studdu hýsilheitunum, sem gefin er upp fyrir svæðið þitt í LCS, við svæðið þitt í vefsmiðnum.
 
@@ -79,11 +82,11 @@ Að öðrum kosti, ef þú bættir við slóðinni „fabrikam“ við sömu upp
 
 Eftirfarandi mynd sýnir svargluggann **Ný vefslóð** í vefsmiðnum með auðkennt dæmi um vefslóð. 
 
-![**Ný vefslóð** svargluggi í vefsmið.](./media/Domains_PageSetup2a.png)
+![**Ný vefslóð** svargluggi í vefsmið](./media/Domains_PageSetup2a.png)
 
 Eftirfarandi mynd sýnir síðuna **Vefslóðir** í vefsmiðnum með auðkenndu dæmi um vefslóð í listanum.
 
-![Keyra valkost notendaflæðis í stefnuflæði.](./media/Domains_URLsInSiteBuilder2a.png)
+![Keyra valkost notendaflæðis í stefnuflæði](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Lén í vefsmiðnum
 
@@ -151,7 +154,7 @@ Tilvik Azure Front Door styður ekki apex-lén (rótarlén sem innihalda ekki un
 
   [Uppsetning á nýjum leigjanda rafrænna viðskipta](deploy-ecommerce-site.md)
 
-  [Setja upp netverslunarrás](./channel-setup-online.md)
+  [Setja upp netverslunarrás](online-stores.md)
 
   [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 
@@ -170,6 +173,3 @@ Tilvik Azure Front Door styður ekki apex-lén (rótarlén sem innihalda ekki un
   [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 
   [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

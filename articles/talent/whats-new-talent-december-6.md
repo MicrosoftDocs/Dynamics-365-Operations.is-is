@@ -143,6 +143,3 @@ Uppfærðu varpanirnar ættu að líta svona út.
 
 ![Umbreyting á svæði kyns](./media/WorkerTransform.png)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

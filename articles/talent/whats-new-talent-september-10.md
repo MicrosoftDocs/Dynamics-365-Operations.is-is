@@ -98,6 +98,3 @@ Svæði í skilyrtum yfirlýsingum og staðgenglum eru tiltæk öllum notendum s
 - Þegar verktaki er ráðinn ætti flipinn **Laun** ekki að vera tiltækur á beiðni/aðgerðasíðunni.
 - Á meðan uppsagnarbeiðni er í ferli er ekki hægt að halda áfram fyrr en allir áskildir reitir innihalda gögn.
 - Tekið hefur verið á vandamálum vegna birtingar á röðun og dagsetningu í greiningu starfsmannastjórnunar.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,44 +1,47 @@
 ---
 title: Samstilla hausa og línur sölutilboðs beint úr Sales í Supply Chain Management
 description: Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla hausa og línur sölutilboða beint úr Dynamics 365 Sales við Dynamics 365 Supply Chain Management.
-author: Henrikan
+author: ChristianRytt
+manager: tfehr
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: henrikan
+ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 362b6c290b1784d05e42ecb650911cc51aa8478a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: c7d4cacbf56243830633f4d0fd3c57071b08ab56
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061985"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527339"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Samstilla hausa og línur sölutilboðs beint úr Sales í Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla hausa og línur sölutilboða beint úr Dynamics 365 Sales við Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
-> Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Microsoft Dataverse fyrir forrit](/powerapps/administrator/data-integrator).
+> Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Common Data Service fyrir forrit](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gagnaflæði í Prospect to cash
 
 Prospect to lausnin notar gagnasamþættingu til að samstilla gögn yfir tilvik Supply Chain Management og Sales. Prospect to cash sniðmát sem eru í boði með gagnasamþættingu leyfir flæði gagna fyrir reikninga, tengiliði, vörur, sölutilboða, sölutilboð, sölupantana og sölureikningagagna milli Supply Chain Management og Sales. Eftirfarandi mynd sýnir hvernig gögnin eru samstillt milli Supply Chain Management og Sales.
 
-[![Gagnaflæði í Prospect to cash.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Gagnaflæði í Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Sniðmát og verkefni
 
@@ -60,8 +63,8 @@ Eftirfarandi samstillingarverk eru nauðsynleg áður en samstilling úr söluti
 
 | Sala        | Birgðakeðjustjórnun     |
 |--------------|----------------------------|
-| Tilvitnanir       | Dataverse sölutilboðshaus |
-| QuoteDetails | Dataverse sölutilboðslínur  |
+| Tilvitnanir       | CDS-sölutilboðshaus |
+| QuoteDetails | CDS-sölutilboðslínur  |
 
 ## <a name="entity-flow"></a>Einingaflæði
 
@@ -130,16 +133,13 @@ Eftirfarandi skýringamyndir sýna dæmi um sniðmátsvörpun í gagnasamþátta
 
 ### <a name="quoteheader"></a>QuoteHeader
 
-![Sniðmátsvörpun í Gagnasamþáttara, QuoteHeader.](./media/sales-quotation-direct-template-mapping-data-integrator-1.png)
+![Sniðmátsvörpun í gagnasamþáttara](./media/sales-quotation-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="quoteline"></a>QuoteLine
 
-![Sniðmátsvörpun í Gagnasamþáttara, QuoteLine.](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
+![Sniðmátsvörpun í gagnasamþáttara](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
 
 ## <a name="related-topics"></a>Tengd efnisatriði
 
-[Viðfang til sjóðstreymis](prospect-to-cash.md)
+[Prospect to cash](prospect-to-cash.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,5 +44,3 @@ ms.locfileid: "4461491"
 - Uppfærslur á vafraaðstoð (LinkedIn styður ekki lengur Internet Explorer 11 frá og með 1. júlí 2020)
 
 Nánari upplýsingar er að finna í [Finna umsækjendur með LinkedIn Recruiter í Attract](attract-linkedin-recruiter.md).
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

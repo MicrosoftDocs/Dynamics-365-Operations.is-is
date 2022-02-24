@@ -1,10 +1,12 @@
 ---
 title: Sjálfvirk uppfærsla á eignateljurum
 description: Þetta efni lýsir sjálfvirkri uppfærslu á eignateljurum í eignastýringu.
-author: johanhoffmann
+author: josaw1
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: johanho
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9a3814a575fbe4379b59723f269d83379a253ede71962c0c82b5f4cc55d36e6c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3e8619439545cf3ea42f84a6dd7ee6ffdf1026e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738296"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021931"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Sjálfvirk uppfærsla á eignateljurum
 
@@ -49,9 +51,9 @@ Eins og getið er hér að ofan er hægt að uppfæra sjálfvirka teljara úr fr
 
     Myndin hér að neðan sýnir dæmi um gluggann **Uppfæra eignateljara**.
 
-    ![Mynd 1.](media/12-work-orders.png)
+    ![Mynd 1](media/12-work-orders.png)
 
-5. Veldu **Í lagi**. 
+5. Veljið **Í lagi**. 
 
 Eftir að sjálfvirkri uppfærslu á eignateljurum er lokið geturðu skoðað gagnaskráningar sem tengjast eigninni á síðunni **Eignateljarar**. Veldu **Eignastýring** > **Sameiginlegt** > **Eignir** > **Allar eignir**, veldu eignina og síðan á aðgerðarrúðunni, á flipanum **Eignir**, í hópnum **Fyrirbyggjandi**, velurðu **Teljarar**.
 
@@ -59,7 +61,7 @@ Eftir að sjálfvirkri uppfærslu á eignateljurum er lokið geturðu skoðað g
 
 Myndin hér að neðan sýnir dæmi um síðuna **Samanlagt verðmæti eigna**.
 
-![Mynd 2.](media/13-work-orders.png)
+![Mynd 2](media/13-work-orders.png)
 
 Athugið eftirfarandi stig:
 
@@ -67,6 +69,3 @@ Athugið eftirfarandi stig:
 
 - Þú getur sett upp teljara sem tengjast öðrum teljara. Í þessu tilfelli, þegar teljarinn er uppfærður, eru tengdir teljarar sjálfkrafa uppfærðir um leið. Nánari upplýsingar um hvernig setja skal upp tengda eignateljara er að finna í [Teljarar](../setup-for-objects/counters.md).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

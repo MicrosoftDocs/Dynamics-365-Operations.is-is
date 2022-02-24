@@ -2,30 +2,36 @@
 title: Yfirlit einingasafns
 description: Þetta efnisatriði sýnir yfirlit yfir Microsoft Dynamics 365 Commerce einingasafnið.
 author: anupamar-ms
+manager: annbe
 ms.date: 09/15/2020
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94ff18fc34fbfbaee434db12f0d0bc8bb7042c2f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985760"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413231"
 ---
 # <a name="module-library-overview"></a>Yfirlit einingasafns
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði sýnir yfirlit yfir Microsoft Dynamics 365 Commerce einingasafnið.
+
+## <a name="overview"></a>Yfirlit
 
 Dynamics 365 Commerce einingasafnið er safn eininga sem hægt er að nota til að búa til vefsvæði í e-Commerce. Einingar eru bæði með notendaviðmótaþætti og þætti virkrar hegðunar.
 
@@ -60,6 +66,3 @@ Eftirfarandi gerðir eininga eru veittar í einingasafni:
 [Fyrirsagnareining](author-header-module.md)
 
 [Neðanmálseining](author-footer-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,12 +2,15 @@
 title: Brauðmylsnueining
 description: Þetta efnisatriði fjallar um brauðmylsnueiningar og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
+manager: annbe
 ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -15,18 +18,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ba857ef7a796336bab3709817b5ba48fd3fa845667e4b9c40596cfe450290f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720013"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517161"
 ---
 # <a name="breadcrumb-module"></a>Brauðmylsnueining
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði fjallar um brauðmylsnueiningar og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Brauðmylsnueiningar eru notaðar til að bjóða upp á aukaleiðsögn á vefsíðum. Þær eru venjulega sýndar efst á síðunni, undir hausnum. Þrátt fyrir að hægt sé að bæta brauðmylsnueiningum við hvaða síðu sem er, eru þær oftast notaðar upplýsingasíðum afurða til að sýna tegundastigveldi afurðar og bjóða upp á styttri leið til að flakka um svæði. Einnig er hægt að nota brauðmylsnueininguna til að sýna tengilinn „Aftur í niðurstöður“ þegar notendur opna upplýsingasíðu afurðar af leitar- eða listasíðu. Á þennan hátt geta notendur á fljótlegan hátt farið aftur á síuðu listasíðuna til að halda áfram að versla.
 
@@ -37,7 +42,7 @@ Brauðmylsnueiningar eru notaðar til að bjóða upp á aukaleiðsögn á vefs�
 
 Eftirfarandi mynd sýnir dæmi um brauðmylsnueiningu sem sýnir tegundastigveldi á upplýsingasíðu afurðar.
 
-![Dæmi um brauðmylsnueiningu.](./media/ecommerce-breadcrumb.PNG)
+![Dæmi um brauðmylsnueiningu](./media/ecommerce-breadcrumb.PNG)
 
 ## <a name="breadcrumb-module-settings"></a>Stillingar brauðmylsnueiningar
 
@@ -90,6 +95,3 @@ Til að bæta brauðmylsnueiningu við upplýsingasíðu afurðar og stilla nau�
 [Kaupgluggaeining](add-buy-box.md)
 
 [Uppfærslur á SDK og kjarnasafni](e-commerce-extensibility/sdk-updates.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

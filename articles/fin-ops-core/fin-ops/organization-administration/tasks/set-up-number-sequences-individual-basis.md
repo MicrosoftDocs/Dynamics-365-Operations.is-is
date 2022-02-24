@@ -1,24 +1,26 @@
 ---
 title: Uppsetning númeraraða á einstaklingsgrunni
 description: Þetta efni útskýrir hvernig setja skuli upp númeraraða á einstaklingsgrunni.
-author: SunilGarg
+author: sericks007
+manager: AnnBe
 ms.date: 08/16/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceDetails
 audience: Application User
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: sunilg
+ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b95a639c593c0f126a9aa1dd50434838d09ef746
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
-ms.translationtype: MT
+ms.openlocfilehash: 260fae39d9a98feb7bfa82188c5b05de9a533136
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777914"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796631"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Uppsetning númeraraða á einstaklingsgrunni
 
@@ -30,7 +32,7 @@ ms.locfileid: "7777914"
 2. Velja **númeraraðir**.
 3. Í reitnum **Kóði númeraraðar** skal slá inn gildi.
 4. Í reitinn **Heiti** skal slá inn gildi.
-5. Á **færibreytur umfangs** flýtiflipanum, velja svið fyrir númeraröðina og velja gildi umfangs af fellilistanum. Umfang skilgreinir hvaða fyrirtæki nota númeraröðina. Auk þess, númeraraðir sem hafa annað umfang en **samnýtt** geta haft hluta sem eiga við þeirra umfang. Til dæmis getur talnaröð með umfangið lögaðili innihaldið umfangið **lögaðila**. Frekari upplýsingar um umfang, sjá [Númeraraðar yfirlit](../number-sequence-overview.md). 
+5. Á **færibreytur umfangs** flýtiflipanum, velja svið fyrir númeraröðina og velja gildi umfangs af fellilistanum. Umfang skilgreinir hvaða fyrirtæki nota númeraröðina. Auk þess, númeraraðir sem hafa annað umfang en **samnýtt** geta haft hluta sem eiga við þeirra umfang. Til dæmis getur talnaröð með umfangið lögaðili innihaldið umfangið **lögaðila**. Frekari upplýsingar um umfang, sjá [Númeraraðar yfirlit](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview). 
 6. Stækkaðu hlutann **Hlutar**.
     - Skilgreina snið fyrir númeraröðina með því að bæta við, fjarlægja og endurraða hlutum.  
     - Númeraraðir á öllum sviðum geta innihaldið *Fasta hluta* og *bók- og tölustafi hluta*. Fasta hluta innihalda tölu- og bókstafi sem breytast ekki. Nota þessi hlutagerð til að bæta bandstriki eða öðrum skiltákn milli hlutar númeraraðar. Bók-eða tölustafir hlutar innihalda samsetningu númerstákn (#) og og-merki (&). Þessar stafir tákna tölustafi og bókstafi sem hækka í hvert sinn sem númerið úr röðin er notað. Nota númerstákn (#) til að tilgreina hækkandi tölustafi og og-merki (&) til að tilgreina hækkandi bókstafi. Sniðið `#####_2014` stofnar til dæmis röðina `00001_2014`, `00002_2014`, o.s.frv. Að minnsta kosti einn hluti bók - og tölustafa verður að vera til staðar. Sviðshlutar, eins og fyrirtæki eða lögaðili, eru ekki skylda. Hinsvegar jafnvel þó sviðshlutar eru ekki hafðir með í sniðinu, eru númer fyrir valda tilvísun samt sem áður mynduð fyrir hvert svið.  
@@ -38,6 +40,3 @@ ms.locfileid: "7777914"
 8. Víkkaðu út hlutann **Almennt**. Á almennt flýtiflipanum skal tilgreina hvort númeraröðin sé handvirk, og samfelld eða ósamfelld. Auk þess eru færðir inn lægstir og hæstir tölustafir sem hægt er að nota í númeraröðinni. Við mælum ekki með því að breyta ósamfelldri númeraröð í samfellda númeraröð. Númeraröðin verður ekki sannlega samfelld. Þessi breyting getur líka valdið broti á tvítekningarlykli í gagnagrunninum. Að auki er hafa samfelldar númeraraðir meiri áhrif á afköst.   
 9. Smellt er á **Vista**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

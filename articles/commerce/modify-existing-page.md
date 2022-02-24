@@ -1,31 +1,37 @@
 ---
 title: Breyta síðu svæðis sem þegar er til
-description: Þetta efnisatriði lýsir því hvernig á að breyta fyrirliggjandi svæðssíðu í Microsoft Dynamics 365 Commerce.
+description: Þetta efni lýsir því hvernig á að breyta fyrirliggjandi svæði í Microsoft Dynamics 365 Commerce.
 author: psimolin
+manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0039489c266840e5341f2e322fa7783216ac9bb3ebcecff840f591beec9f79c4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751544"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413239"
 ---
 # <a name="modify-an-existing-site-page"></a>Breyta síðu svæðis sem þegar er til
 
+
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að breyta fyrirliggjandi svæðssíðu í Microsoft Dynamics 365 Commerce.
+Þetta efni lýsir því hvernig á að breyta fyrirliggjandi svæði í Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Yfirlit
 
 Þegar þú verður að breyta síðu er fyrsta skrefið að opna hana í ritlinum. Farðu á svæðið sem inniheldur síðuna þína og finndu síðan síðuna sem þú vilt á lista með síðum. Ef þú finnur ekki síðuna geturðu notað ríka leitarmöguleika höfundartækisins. Annaðhvort slærðu nákvæmlega inn nafn síðunnar eða sláðu inn fyrstu stafina í því og síðan stjörnu (\*). Síaður listi yfir síður birtist. Þú getur notað þennan lista til að finna síðuna sem þú vilt. Þegar þú hefur fundið rétta síðu skaltu velja heiti síðunnar til að opna síðuna í ritlinum.
 
@@ -80,9 +86,4 @@ Eftirfarandi dæmi sýnir hvernig á að breyta heimasíðunni með því að br
 
 [Bæta lendingarsíðu flokks](enrich-category-page.md)
 
-[Staðfesta aðgengi að efni síðu](verify-accessibility.md)
-
-[Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða](create-dynamic-pages.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Staðfesta aðgengi síðuinnihalds](verify-accessibility.md)

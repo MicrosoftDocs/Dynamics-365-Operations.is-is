@@ -1,10 +1,12 @@
 ---
 title: Uppskriftir og formúlur
 description: Þetta efnisatriði veitir upplýsingar um uppskriftir (BOM) og formúlur, sem eru miðpunktur í skilgreiningu á afurðum og afurðaafbrigðum.
-author: johanhoffmann
+author: cvocph
+manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace, ProdBOM, ProdJournalTransBOM, ProdBOMCurrent, PmfBOMDesignerEditCoBy, ProdJournalPickingListLineSummary, ProdBOMOverview, PmfCoReqPlanning, EcoResProductProdTypeFormulaNoActiveFormulaFormPart, EcoResItemsMissingActiveRouteVersionFormPart, EcoResItemsProdTypeBOMExpiringBOMFormPart, BOMDesignerBOMVersion, BOMExpandPurch, BOMChangeLine, BOMExpandSales, EcoResItemsProdTypeBOMExpiringRouteFormPart, EngChgEcmBomDesigner, EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmBOMCopyDialog, EngChgEcmBomDesignerEditBom, BOMDesignerFilterDialog, BOMDesignerFilterDialog, BOMPartOf, BOMSetupReportFinish, EcoResItemsMissingActiveBOMVersionFormPart, BOMIdLookup, EcoResProductProdTypeFormulaNoActiveRouteFormPart, BOMExpandPurchRFQ, EngChgCaseRouteTablePart
 audience: Application User
@@ -13,15 +15,15 @@ ms.custom: 19331
 ms.assetid: c19b437a-2de2-4728-9477-2bcb0c2b1f5e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: johanho
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12a70720775d9903a875dd1759ea2372f1f3b122
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 01491f15405e28e63e4b83f9a9c7af90c2e4a1b5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578009"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966481"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Uppskriftir og formúlur
 
@@ -29,7 +31,8 @@ ms.locfileid: "7578009"
 
 Þetta efnisatriði veitir upplýsingar um uppskriftir (BOM) og formúlur, sem eru miðpunktur í skilgreiningu á afurðum og afurðaafbrigðum. Uppskriftir og formúlur tilgreina áskilið hráefni eða innihaldsefni fyrir tilgreinda afurð. Formúlur tilgreina einnig aukaafurðir og hliðarafurðir sem eru mótteknar í tilgreindu framleiðslusamhengi. 
 
-## <a name="bills-of-materials"></a>Uppskriftir
+<a name="bills-of-materials"></a>Uppskriftir
+------------------
 
 Uppskrift (BOM) skilgreinir þá íhluti sem þarf til að framleiða vöru. Íhluti geta verið hráefni, næstum tilbúinar afurðir eða innihaldsefni. Í sumum tilvikum, má vísað í þjónustu í Uppskrift. Hins vegar lýsa Uppskriftir yfirleitt á *efnistilföng* sem krafist er.  
 
@@ -114,6 +117,3 @@ Veljið **lánardrottinn** línugerð ef framleiðsluferlið notar undirverktaka
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

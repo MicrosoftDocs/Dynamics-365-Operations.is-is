@@ -2,26 +2,29 @@
 title: Vakta- og peningaskúffustjórnun
 description: Þetta efnisatriði útskýrir hvernig á að setja upp og nota vaktir í Commerce á sölustað (POS).
 author: jblucher
+manager: AnnBe
 ms.date: 05/10/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailHardwareProfile, RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: brshoo
+ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2ac42c92d38299c20bfcb293ac062aa9e4b1c628
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: 32b7be42509a2c857f1357eb64a6b488f9cd2269
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779745"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4413233"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Vakta- og peningaskúffustjórnun
 
@@ -45,7 +48,7 @@ Commerce býður upp á nokkra valkosti fyrir grunnstillingar og POS-aðgerðir 
 
 Á „Fljótandi skúffa“ vakt er hægt að færa vakt og peningaskúffu frá einum afgreiðslukassa til annars. Þó að afgreiðslukassi megi aðeins hafa eina virka vakt á hverja peningaskúffu, er hægt að fresta vöktum og síðan halda áfram síðar eða á öðrum afgreiðslukassa.
 
-Til dæmis hefur verslun tvo afgreiðslukassa. Hvert afgreiðslukassi er opnað í byrjun dags þegar gjaldkeri opnar nýjan vakt og gefur upp byrjunarupphæðina. Þegar einn gjaldkeri er tilbúinn til að taka hlé, frestar þessi gjaldkeri vaktinni sinni og fjarlægir skúffuna úr peningaskúffunni. Þessi afgreiðslukassi verður þá tiltækur fyrir aðra gjaldkera. Annar gjaldkeri getur skráð sig inn og opnað vaktina sína á afgreiðslukassanum. Eftir að vinnuhléi fyrsta gjaldkera er lokið, getur sá gjaldkeri haldið áfram vaktinni sinni þegar einhver af hinum afgreiðslukössunum verður tiltækur. „Fljótandi skúffa“ vaktir þurfa ekki sérstaka grunnstillingu eða heimild.
+Til dæmis hefur verslun tvo afgreiðslukassa. Hvert afgreiðslukassi er opnað í byrjun dags þegar gjaldkeri opnar nýjan vakt og gefur upp byrjunarupphæðina. Þegar einn gjaldkeri er tilbúinn til að taka hlé, frestar þessi gjaldkeri vaktinni sinni og fjarlægir skúffuna úr peningaskúffunni. Þessi afgreiðslukassi verður þá tiltækur fyrir aðra gjaldkera. Annar gjaldkeri getur skráð sig inn og opnað vaktina sína á afgreiðslukassanum. Eftir að vinnuhléi fyrsta gjaldkeri er lokið, getur sá gjaldkeri haldið áfram vaktinni sinni þegar einhver af hinum afgreiðslukassi verður tiltækur. „Fljótandi skúffa“ vaktir þurfa ekki sérstaka grunnstillingu eða heimild.
 
 ### <a name="single-user"></a>Einn notandi
 
@@ -154,7 +157,4 @@ Farðu í **Retail og Commerce \> Rásir \> Verslanir \> Allar verslanir \> Uppg
 
 Þessi uppsetning hjálpar til við að tryggja að bakvinnsluuppgjör innihaldi sömu færslur og vaktir í POS, og að gögnin séu tekin saman af þeirri vakt.
 
-Frekari upplýsingar um uppgjör og lokunaraðferðir, sjá [Grunnstillingar verslunar fyrir smásöluuppgjör](/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Frekari upplýsingar um uppgjör og lokunaraðferðir, sjá [Grunnstillingar verslunar fyrir smásöluuppgjör](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).

@@ -2,9 +2,11 @@
 title: Úthluta vinnuliðir í verkflæði
 description: Ef þú verður ekki á skrifstofunni í einhvern tíma eða munt ekki vera tiltækur til að bregðast við vinnulið getur þú úthlutað, eða endurúthlutað vinnuliðunum, til annars notanda.
 author: ChrisGarty
+manager: AnnBe
 ms.date: 07/07/2020
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserSetup, WorkflowDelegationUserListLookup
 audience: Application User
@@ -13,19 +15,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 128dce6a1b852d908e01c348cb767088031b11a5
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: 48d8fd06217d318fa8208e11ffa5624f6be25be1
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070098"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796707"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Úthluta vinnuliðum í verkflæði
 
 [!include [banner](../../includes/banner.md)]
-
-
-[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 ## <a name="manually-delegate-a-work-item"></a>Úthluta vinnulið handvirkt
 
@@ -61,6 +60,3 @@ Ef þú verður ekki á skrifstofunni í einhvern tíma eða munt ekki vera tilt
 8. Í reitnum **Lokadagsetning/-tími** skal slá inn dagsetningu og tíma.
 9. Veljið gátreitinn **Virkjað** til að gera úthlutunarregluna virka. 
 10. Í reitnum **Athugasemd** skal færa inn athugasemd og útskýra hvers vegna vinnuliðum er úthlutað.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,114 +1,64 @@
 ---
-title: Skilgreina hæfni
-description: Hægt er að rekja hæfni starfsmanns í Dynamics 365 Human Resources. Einnig er hægt að tilgreina hæfni sem krafist er fyrir tiltekna vinnslu.
-author: twheeloc
-manager: tfehr
-ms.date: 03/23/2021
+title: Jafna hæfni vinnuafls við viðskiptaþarfir
+description: Hægt er að rekja hæfni sem starfsmenn, umsækjendur eða tengiliðir hafa eða ættu að hafa til að uppfylla hlutverk sín á skilvirkan hátt. Einnig er hægt að tilgreina hæfni sem krafist er fyrir tiltekna vinnslu.
+author: andreabichsel
+manager: AnnBe
+ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.search.scope: Human Resources
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 13206bb3c961f001620e8b65a8b1bb39bf95ee49
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: MT
+ms.openlocfilehash: 7abaa99bdec5fcf20a63bfeb716ebb63dd3712df
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075072"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419032"
 ---
-# <a name="configure-skills"></a>Skilgreina hæfni
+# <a name="align-workforce-skills-with-business-needs"></a>Jafna hæfni vinnuafls við viðskiptaþarfir
 
-> [!IMPORTANT]
-> Virknin sem bent er á í þessu efnisatriði er eins og er í boði fyrir mannauðsviðskiptavini á fjármálainnviðum.  
+Hægt er að rekja hæfni sem starfsmenn, umsækjendur eða tengiliðir hafa eða ættu að hafa til að uppfylla hlutverk sín á skilvirkan hátt. Einnig er hægt að tilgreina hæfni sem krafist er fyrir tiltekna vinnslu.
+
+Dæmi um hæfni sem hægt er að rekja eru eftirfarandi:
+-   Eftirlitsyfirvald - getan til að hafa umsjón með vinnu annarra.
+-   Forysta - Geta til að leiða starfsmenn og fyriristækjasvið.
+-   Áætlunargerð - hæfni til að horfa fram á við, mynda sýn og koma þeim í framkvæmd.
+-   HTML-Möguleika á að skrifa html-kóða.
+
+Áður en hægt er að úthluta hæfni til einstaklings eða vinnslu, stofna leit að hæfnisvörpun, eða stofna hæfnisreglu, verður að færa inn upplýsingar um hæfni°á síðunni **Hæfni**. Fyrir hverja hæfni er hægt að velja gerð hæfni og einkunnalíkan.
+
+## <a name="rating-models"></a>Matslíkön
+Matslíkön hjálpa til við að meta raunverulegt stig einstaklings af hæfni, stig sem þeir eiga að vinna að ná, eða þá hæfni sem krafist er fyrir vinnslu. Færa má inn allt að 10 stig fyrir einkunnalíkan.  Hvert stig í einkunnalíkani fær úthlutað stuðli.  Stuðullinn verður notaður til að staðla einkunnir vegna hæfni sem notast við mismunandi einkunnalíkön.  Stuðullinn verður að vera númer frá 0-9 og hvert stig verður að hafa einkvæman stuðul.  Stig með hærri stuðul hafa meira vægi í einkunnalíkani.
+
+## <a name="specify-job-skills"></a>Tilgreina vinnufærni
+Þegar færðar eru inn upplýsingar um starf, er hægt að tilgreina hæfni sem einstaklingur°ætti°að hafa til að framkvæma vinnu sem er krafist fyrir starfið.  Þar að auki er hægt að tilgreina æskilegt stig fyrir hverja hæfni ásamt mikilvægi hæfninnar. Mismunandi störf geta þarfnast mismunandi stiga mikilvægis sömu hæfni.
+
+## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Færa inn hæfni fyrir starfsmenn, umsækjendur eða tengiliðir
+Hægt er að færa hæfni eða raunverulega hæfni fyrir starfsmenn, umsækjendur eða tengiliðir. Markhæfni er hæfni sem einstaklingur ætlar að ná. Raunveruleg kunnátta er kunnátta sem einstaklingur býr þegar yfir.
+
+## <a name="skill-mapping-and-skill-mapping-profiles"></a>Setja upp hæfniskráningu og forstillingar fyrir hæfniskráningu
+Hægt er að stofna hæfnisleitar til að finna starfsmann, umsækjanda eða tengilið sem er hæfur til að framkvæma sérstaka gerð verks. Hæfnisvörpun leitar yfir hæfni, menntun, skírteini, ábyrgðarstöður og verkreynslu og skilar niðurstöðum sem samsvara gefnum skilyrðum.  Til dæmis gæti verið gagnlegt að vita hvaða starfsmenn í fyrirtækinu þínu unnu fyrir sínu CPA.
+
+Hæfnisvörpun gerir kleift að finna núverandi starfsmenn eða umsækjendur með hæfni sem samsvara beint viðskiptaþörfum.  Til dæmis væri hægt að stofna forstillingu hæfnisvörpunar fyrir opna staða í þínu fyrirtæki. Með því að stofna forstillingu fyrir starf og afrita hæfni, menntun og skírteini úr því starfi í forstillingum°, °er á fljótlegan hátt hægt að leita að starfsmönnum, umsækjendum og tengiliðum sem passa við°eitt eða fleiri skilyrði sem eru færð inn í forstillingu og skoða lista yfir umsækjendur með bestu hæfnisamsvörun sem krafist er fyrir starfið.
+
+> **Athugið** Aðeins er hægt að birta starfsmenn, umsækjendur og tengiliði sem eru valdir til að vera með í hæfnisvörpunarleit í niðurstöðulista hæfnisvörpunar eða hafa þá með í hæfniforstillingum. Til að hafa starfsmann, umsækjanda eða tengilið í hæfnisvörpunarleitum er stillt á **Taka með í hæfnisvörpun** val á Já í eftirfarandi síður:
+> 
+> + Vinna
+> + Starfsmaður
+> + Umsækjandi
+> + Tengiliðir
+
+## <a name="skill-gap-analysis-and-skill-profile-analysis"></a>Hæfnibilsgreining og greining hæfniforstillingar
+Hægt er að stofna greiningu hæfniforstillingar til að skoða lista yfir hæfni fyrir starfsmann, umsækjanda eða tengilið á tilteknum degi. Hægt er að stofna hæfnibilsgreiningu til að bera hæfni einstaklings og hæfni sem krafist er fyrir tiltekna vinnslu.  
 
 
-Hægt er að rekja hæfni starfsmanns í Dynamics 365 Human Resources. Einnig er hægt að tilgreina hæfni sem krafist er fyrir tiltekna vinnslu.
-
-Dæmi um hæfni sem hægt er að rekja eru:
-
-- Eftirlitsyfirvald - getan til að hafa umsjón með vinnu annarra.
-- Forysta - Geta til að leiða starfsmenn og fyriristækjasvið.
-- Áætlanagerð – Geta til að horfa fram á við, til að búa til yfirlýst markmið og fylgja þeim eftir.
-- HTML-Möguleika á að skrifa html-kóða.
-
-Ef þú hefur ekki þegar sett upp hæfnisgerðir og matslíkön þarftu að bæta einhverjum við áður en hæfni er búin til.
-
-Eftirfarandi aðilar geta fært inn hæfni fyrir starfsmann:
-
-- Starfskraftar geta sjálfir skráð hæfni sína í sjálfsafgreiðslu starfsmanns. Þessi hæfni krefst samþykkis stjórnanda.
-- Stjórnendur geta fært inn hæfni fyrir starfsmenn sína. Hægt er að stofna vinnuflæði sem samþykkir þessa hæfni sjálfkrafa.
-
-## <a name="create-a-skill-type"></a>Stofna hæfnisgerð
-
-Hæfnisgerðir eru flokkar sem einstaka hæfni fellur undir, t.d. stjórnun eða sölu.
-
-1. Á vinnusvæðinu **Þróun starfsmanns** skal velja **Tenglar**.
-
-2. Undir **Uppsetning á hæfni** skal velja **Hæfnisgerðir**.
-
-3. Veljið **Nýtt**.
-
-4. Ljúktu við eftirfarandi reiti:
-
-   - **Hæfnisgerð**: Færið inn heiti fyrir hæfnisgerðina.
-   - **Lýsing**: Færið inn lýsingu á hæfnisgerðinni.
-
-5. Veldu **Vista**.
-
-## <a name="create-a-rating-model"></a>Búa til einkunnalíkan
-
-Matslíkön hjálpa til við að meta raunverulegt stig einstaklings af hæfni, stig sem þeir eiga að vinna að ná, eða þá hæfni sem krafist er fyrir vinnslu. Hvert stig í einkunnalíkani fær úthlutað stuðli.
-
-1. Á vinnusvæðinu **Þróun starfsmanns** skal velja **Tenglar**.
-
-2. Undir **Uppsetning á hæfni** skal velja **Matslíkön**.
-
-3. Veljið **Nýtt**.
-
-4. Ljúktu við eftirfarandi reiti:
-
-   - **Mat**: Færið inn heiti fyrir matslíkanið, t.d. **Hæfni**.
-   - **Lýsing**: Færið inn lýsingu á matslíkaninu, t.d. **Hæfnismat**.
-
-5. Í hlutanum **Stig** skal velja **Nýtt**. Fyrir hvert stig sem bæta á við þarf að ljúka eftirfarandi reitum:
-
-   - **Stig**: Færið inn heiti fyrir stigið.
-   - **Lýsing**: Færið inn lýsingu fyrir stigið.
-   - **Stuðull**: Færið inn gildi stuðuls frá 0-9. Stuðlar hjálpa til við að staðla einkunnir vegna hæfni sem notast við mismunandi matslíkön. Hvert stig verður að hafa einkvæman stuðul. Stig með hærri stuðul hafa meira vægi í einkunnalíkani.
-
-   Haldið áfram að bæta stigum við eftir þörfum. Færa má inn allt að 10 stig fyrir hvert matslíkan.
-
-6. Veldu **Vista**.
-
-## <a name="create-a-skill"></a>Stofna hæfni
-
-Áður en hægt er að úthluta hæfni eða stofna leit að hæfnisskrá eða stofna hæfnisprófíl þarf að færa inn upplýsingar um hæfni á síðunni **Hæfni**. Fyrir hverja hæfni er hægt að velja gerð hæfni og einkunnalíkan.
-
-1. Á vinnusvæðinu **Þróun starfsmanns** skal velja **Tenglar**.
-
-2. Undir **Uppsetning á hæfni** skal velja **Hæfni**.
-
-3. Veljið **Nýtt**.
-
-4. Ljúktu við eftirfarandi reiti:
-
-   - **Hæfni**: Færið inn heiti fyrir hæfnina.
-   - **Lýsin**: Færið inn lýsingu á hæfninni.
-   - **Mat**: Veljið matslíkanið sem á að nota fyrir þessa hæfni.
-   - **Hæfnisgerð**: Veljið af listanum yfir hæfnisgerðir.
-
-5. Veldu **Vista**.
-
-## <a name="see-also"></a>Sjá einnig
-
-[Slá inn hæfni](hr-develop-enter-skills.md)<br>
-[Kortleggja hæfni](hr-develop-map-skills.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
