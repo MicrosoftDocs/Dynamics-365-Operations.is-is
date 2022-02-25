@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f5c9ba7079895feeb0c171f2021479587aa13cc9
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 21dd01448fcf6c2b3ca90a5476fad061bb0f55e4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777667"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102740"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Frestun á úrvinnslu handvirkrar birgðahreyfingar
 
@@ -32,10 +32,10 @@ Bakgrunnsvinnsla er gerð með [Vinna úr viðburðum vöruhúsaforrits](warehou
 
 Til að gera þennan eiginleika tiltækan skal kveikja á eftirfarandi eiginleikum í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md): Þú verður að kveikja á þeim í þessari röð:
 
-1. Verklokun fyrir alla stofnun (Frá og með Supply Chain Management útgáfu 10.0.21 er þessi eiginleiki nauðsynlegur, þannig að það er sjálfgefið kveikt á honum og ekki er hægt að slökkva á honum aftur.)
-1. Vinna úr viðburðum vöruhúsaforrits
-1. Frestuð frágangsaðgerð
-1. Frestun á úrvinnslu handvirkrar aðgerðar birgðahreyfingar
+1. *Vinnulokun fyrir allt fyrirtækið*<br>(Frá og með Supply Chain Management útgáfu 10.0.21 er þessi eiginleiki nauðsynlegur, þannig að það er sjálfgefið kveikt á honum og ekki er hægt að slökkva á honum aftur.)
+1. *Vinna úr viðburðum vöruhúsaforrits*<br>(Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á þessum eiginleika.)
+1. *Frestuð frágangsaðgerð*
+1. *Frestun á úrvinnslu handvirkrar aðgerðar birgðahreyfingar*<br>(Frá og með Supply Chain Management útgáfu 10.0.25 er þessi eiginleiki nauðsynlegur, þannig að það er sjálfgefið kveikt á honum og ekki er hægt að slökkva á honum aftur.)
 
 ## <a name="configure-the-work-processing-policies"></a>Skilgreina stefnur vinnuferla
 

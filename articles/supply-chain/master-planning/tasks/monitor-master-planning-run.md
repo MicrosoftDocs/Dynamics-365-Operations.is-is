@@ -1,27 +1,24 @@
 ---
 title: Fylgjast með keyrslu áætlanagerðar
 description: Þetta efni útskýrir hvernig framleiðslustjóri getur séð hvort keyrsla aðaláætlunargerðar er í gangi.
-author: josaw1
-manager: tfehr
+author: ChristianRytt
 ms.date: 11/04/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, InventItemIdLookupSimple, ReqLog, ReqProcessTaskTrace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 045b82af6f65b22e1c683f8de47a6df282711e6a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4db1173b35cd196ab39fae3cac3754439fab84d0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430109"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103164"
 ---
 # <a name="monitor-a-master-planning-run"></a>Fylgjast með keyrslu áætlanagerðar
 
@@ -31,12 +28,11 @@ ms.locfileid: "4430109"
 
 Af síðunni **Skoða framvindu aðaláætlunargerðar** geturðu skoðað upplýsingar um sögulegar keyrslur aðaláætlunargerðar sem Gantt kort. Þessi virkni getur hjálpað þér að skilja tímann sem er eytt í hina ýmsu áfanga aðaláætlunargerðar. Fyrir núverandi virkt skipulagsstarf er hægt að nota síðuna **Skoða framvindu aðaláætlunargerðar** til að fylgjast með framvindu mála og skoða þann áætlaða tíma sem eftir er.
 
-### <a name="turn-on-and-use-the-master-plan-progress-visualization-feature"></a>Kveiktu á og notaðu eiginleikann Framvindubirting aðaláætlunargerðar
+### <a name="turn-the-master-plan-progress-visualization-feature-on-or-off"></a>Kveiktu eða slökktu á eiginleikum aðalskipulagsframvindu
 
-Til að nota þessa virkni skal fylgja þessum skrefum.
+Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Framfarasýn aðalskipulags* eiginleiki í [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
-1. Á vinnusvæðinu **Stjórnun eiginleika**, á flipanum **Nýtt**, velurðu **Framvindubirting aðaláætlunargerðar** á listanum. Ef eiginleikinn birtist ekki á flipanum **Nýtt** skaltu líta á flipana **Ekki gert virkt** og **Allt**.
-1. Veldu **Virkja núna**. Að öðrum kosti velurðu **Áætlun** og velur síðan tímann þegar kveikt skal á aðgerðinni.
+### <a name="use-the-master-plan-progress-visualization-feature"></a>Notaðu framvindu sjónrænnar eiginleika aðaláætlunar
 
 Síðan **Skoða framvindu aðaláætlunargerðar** getur sýnt bæði sögulegar vinnslur áætlunargerðar og virkar vinnslur áætlunargerðar. 
 
@@ -127,3 +123,6 @@ Liturinn er aðeins sýndur á lægsta stiginu í Gantt töflunni. Veldu **Auka 
 1. Veldu línuna þar sem reiturinn **Reitur** er stilltur á **Vörunúmer**.
 1. Í reitinn **Skilyrði** skal slá inn gildi.
 1. Veljið **Í lagi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

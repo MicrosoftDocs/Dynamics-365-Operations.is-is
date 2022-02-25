@@ -2,22 +2,22 @@
 title: Uppsetning á lánastýringu
 description: Þetta efni lýsir uppsetningunni sem krafist er fyrir lánamálastjórnun.
 author: JodiChristiansen
-ms.date: 09/04/2019
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9b9e756b678786d2c5a8c5bb9e890ce988090c09
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 6977789b039c3e77e6d697e32bf4cac69c35a901
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753669"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182444"
 ---
 # <a name="credit-management-setup"></a>Uppsetning á lánastýringu 
 
@@ -39,7 +39,7 @@ Fara til **Skuldir og innheimta \> Uppsetning \> Verkflæði lánaumsýslu** til
 
 Ef röðun greiðsluskilmála er virk og ef greiðsluskilmálar pöntunarinnar eru hærri en sjálfgefnir greiðsluskilmálar viðskiptavinarins verður sölupöntunin sett í bið.
 
-Til að setja röðun greiðsluskilmála ferðu á **Skuldir og innheimta \> Uppsetning \> Uppsetning lánamála \> Raða greiðsluskilmálum**  
+Til að setja upp röðun greiðsluskilmála fara til **Inneign og innheimtur \> Uppsetning \> Uppsetning lánastýringar \> Rank greiðsluskilmálar**.  
 
 ### <a name="ranking-settlement-discounts"></a>Röðun uppgjörsafsláttar
 
@@ -47,7 +47,7 @@ Til að setja röðun greiðsluskilmála ferðu á **Skuldir og innheimta \> Upp
 
 Ef röðun uppgjörsafsláttar er virk og ef staðgreiðsluafsláttur pöntunarinnar er hærri en sjálfgefnir staðgreiðsluafsláttur viðskiptavinarins verður sölupöntunin sett í bið.
 
-Til að setja röðun greiðsluskilmála ferðu á **Skuldir og innheimta \> Uppsetning \> Uppsetning lánamála \> Flokka uppgjörsafslætti**  
+Til að setja röðun greiðsluskilmála ferðu á **Skuldir og innheimta \> Uppsetning \> Uppsetning lánamála \>Flokka uppgjörsafslætti**  
 
 ## <a name="reasons"></a>Ástæður
 
@@ -86,7 +86,7 @@ Kreditstjórnunarhópurinn er úthlutaður á viðskiptavin á flýtiflipanum **
 
 ## <a name="scoring-groups"></a>Einkunnaflokkar
 
-Þú getur sett upp stigahópa til að skilgreina áhættuþætti og viðmið sem eru notuð til að mæla þá. Þegar upplýsingum um viðskiptavin er beitt á stigahóp er stig reiknað fyrir hvern áhættuþátt og notaður til að setja viðskiptavininn í áhættuhóp. Hægt er að nota áhættuhópinn til að bera kennsl á lánstraust og reikna sjálfvirk lánamörk.
+Þú getur sett upp **Stigahópar** að skilgreina áhættuþætti og þau viðmið sem notuð eru til að mæla þá. Þegar upplýsingum um viðskiptavin er beitt á stigahóp er stig reiknað fyrir hvern áhættuþátt og notaður til að setja viðskiptavininn í áhættuhóp. Hægt er að nota áhættuhópinn til að bera kennsl á lánstraust og reikna sjálfvirk lánamörk.
 
 Þú getur búið til stigahópa á síðunni **Stigahópar** (**Skuldir og innheimta \> Uppsetning \> Uppsetning á lánastýringu \> Áhætta \> Stigahópar**).
 

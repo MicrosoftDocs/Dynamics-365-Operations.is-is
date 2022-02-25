@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6b8d663fa9743fae83654ed9938b4131e0fa08b9
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902193"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103314"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Úthluta skrefatáknum og titlum fyrir Warehouse Management farsímaforritið
 
@@ -27,12 +27,9 @@ Eftirfarandi mynd sýnir hvernig skrefatákn og titlar birtast í Warehouse Mana
 
 ![Dæmi um skrefatákn og skrefatitil í farsímaforriti Warehouse Management.](media/step-icon-example.png "Dæmi um skrefatákn og skrefatitil í Warehouse Management farsímaforritinu")
 
-## <a name="turn-on-this-feature-in-your-system"></a>Kveikja á þessum eiginleika í kerfinu
+## <a name="turn-this-feature-on-or-off"></a>Kveiktu eða slökktu á þessum eiginleika
 
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
-
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Notandastillingar, tákn og titlar skrefa fyrir nýja vöruhúsaforritið*
+Til að nota virknina sem lýst er í þessu efni, er *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="standard-step-ids-classes-and-icons"></a>Stöðluð kenni, klasar og tákn skrefa
 

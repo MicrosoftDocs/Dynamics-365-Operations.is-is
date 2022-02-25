@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 98d28c39b2923afecc851299a07aa3b93ef2edce
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 27e9e977193f9ff5c8188b780e8de955742c4ebe
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867295"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323876"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Hanna nýja skilgreiningu rafrænnar skýrslugerðar til að búa til skýrslur á Word-sniði
 
@@ -28,7 +28,7 @@ Til að búa til skýrslur sem Microsoft Word-skjöl þarf að hanna sniðmát f
 
 ![Dæmi um sniðmát fyrir stjórnunarskýrsluna í skjáborðsforriti Word.](./media/er-design-configuration-word-image1.png)
 
-Til að nota Word-skjal sem sniðmát fyrir skýrslur á Word-sniði er hægt að skilgreina nýja [rafræna skýrslugerðar](general-electronic-reporting.md) [lausn](er-quick-start1-new-solution.md). Þessi lausn verður að fela í sér [skilgreiningu](general-electronic-reporting.md#Configuration) rafrænnar skýrslugerðar sem inniheldur [sniðshlut](general-electronic-reporting.md#FormatComponentOutbound) rafrænnar skýrslugerðar.
+Til að nota Word-skjal sem sniðmát fyrir skýrslur á Word-sniði er hægt að skilgreina nýja [rafræna skýrslugerðar](general-electronic-reporting.md) [lausn](er-quick-start1-new-solution.md). Þessi lausn verður að innihalda bráðamóttöku [stillingar](general-electronic-reporting.md#Configuration) sem inniheldur ER-sniðshluta.
 
 > [!NOTE]
 > Þegar ný skilgreining rafræns skýrslugerðarsniðs er búin til þannig að hún búi til skýrslur á Word-sniði þarf annaðhvort að velja **Word** sem sniðgerð í fellilistaglugganum **Stofna skilgreiningu** eða skilja reitinn **Sniðsgerð** eftir auðan.

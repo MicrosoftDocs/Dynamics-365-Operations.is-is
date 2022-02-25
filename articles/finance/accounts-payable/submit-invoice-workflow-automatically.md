@@ -2,24 +2,24 @@
 title: Senda reikninga í verkflæðiskerfi og jafna línur á innhreyfingarskjali afurða
 description: Þetta efnisatriði útskýrir hvernig á að senda reikninga lánardrottna í verkflæðiskerfið og jafna sjálfkrafa bókaðar línur innhreyfingarskjals afurðar fyrir reikninga lánardrottins.
 author: abruer
-ms.date: 09/08/2020
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fd7ec9f4f30c444fd6442c9a2f1333fcaba4246520de3997f3bb9064a8ee16e1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 0962ea2bfa28deb3e86620c364feffd209cfc38e
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736971"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109944"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Senda reikninga í verkflæðiskerfi og jafna línur á innhreyfingarskjali afurða
 
@@ -29,7 +29,7 @@ ms.locfileid: "6736971"
 
 ## <a name="submitting-imported-vendor-invoices-to-the-workflow-system-and-matching-posted-product-receipt-lines-to-pending-vendor-invoice-lines"></a>Senda inn reikninga lánardrottins í verkflæðiskerfið og jafna bókaðar innhreyfingarlínur afurða við reikningslínur lánardrottins í bið
 
-Sem hluti af snertilausu reikningsfærsluferli Viðskiptaskulda, er hægt að fá kerfið til að senda sjálfkrafa inn innfluttan reikning í verkflæðiskerfið. Hægt er að skilgreina ferlið við að senda innflutta reikninga í verkflæðiskerfið í flipanum **Sjálfvirkni reikninga lánardrottins** á síðunni **Færibreytur viðskiptaskulda** (**Viðskiptaskuldir \> Uppsetning \> Færibreytur viðskiptaskulda**). Ferlið „senda í verkflæði“ verður keyrt í bakgrunni, eins oft og gefið er upp (annaðhvort á klukkutímafresti eða daglega).
+Sem hluti af snertilausu viðskiptaskuldareikningsferli er hægt að senda innfluttan reikning sjálfkrafa í verkflæðiskerfið. Hægt er að skilgreina ferlið við að senda innflutta reikninga í verkflæðiskerfið í flipanum **Sjálfvirkni reikninga lánardrottins** á síðunni **Færibreytur viðskiptaskulda** (**Viðskiptaskuldir \> Uppsetning \> Færibreytur viðskiptaskulda**). Ferlið „senda í verkflæði“ verður keyrt í bakgrunni, eins oft og gefið er upp (annaðhvort á klukkutímafresti eða daglega).
 
 Þegar reikningar eru sendir sjálfkrafa í verkflæðiskerfið verður að byrja á innfluttum reikningi. Til að tryggja að hægt sé að vinna úr reikningnum frá upphafi til enda án afskipta notandans, þarf að hafa með sjálfvirkt bókunarverk í skilgreiningu verkflæðisins. Reikningar sem eru tengdir innkaupapöntunum og reikningar sem innihalda innkaupategund sem tengist hvorki innkaupapöntun né birgðalínum, er hægt að senda sjálfkrafa inn í verkflæðiskerfið. Reikningar sem eru færðir handvirkt inn verða að vera sendir handvirkt inn í verkflæðiskerfið.
 
@@ -37,11 +37,11 @@ Gildið **Sent inn af** í verkflæðinu er notandakennið sem fært var inn fyr
 
 ## <a name="matching-posted-product-receipts-to-invoice-lines-that-have-a-three-way-matching-policy"></a>Jöfnun innhreyfingarskjala afurða við reikningslínur sem eru með þríhliða jöfnunarreglu
 
-Sem hluti af snertilausu reikningsfærsluferli viðskiptaskulda, getur kerfið sjálfkrafa jafnað bókuð innhreyfingarskjöl afurðar við reikningslínur. Skilgreina þarf þríhliða jöfnunarreglu fyrir þetta verk. Þessi eiginleiki er í boði ef eiginleikinn **Sjálfvirkni reiknings lánardrottins** hefur verið virkjaður á síðunni **Eiginleikastjórnun**.
+Sem hluti af snertilausu innheimtuferli viðskiptaskulda er hægt að passa sjálfkrafa bókaðar vörukvittanir við reikningslínur. Skilgreina þarf þríhliða jöfnunarreglu fyrir þetta verk. Þessi eiginleiki er í boði ef eiginleikinn **Sjálfvirkni reiknings lánardrottins** hefur verið virkjaður á síðunni **Eiginleikastjórnun**.
 
 Ferlið keyrir þangað til magn jafnaðs innhreyfingarskjals afurðar jafngildir magni reiknings. Margar vöruinnhreyfingar eru hins vegar til staðar fyrir eina reikningslínu og nauðsynlegt er að keyra ferlið mörgum sinnum til að ná magnsamsvörun. Hægt er að tilgreina hámarksfjölda skipta sem kerfið á að reyna að jafna innhreyfingarskjöl afurðar við reikningslínu áður en ákveðið er að vinnslan hafi mistekist. Ferlið verður keyrt í bakgrunni, annaðhvort á klukkutíma fresti eða daglega. 
 
-Hægt er að keyra sjálfvirka jöfnunarferlið sem hluta af ferlinu við að senda reikninga í verkflæðiskerfið. Að öðrum kosti er hægt að keyra það sem sjálfstæðan ferli. Stillingar fyrir ferlið „jafna innhreyfingarskjöl afurðar við reikningslínur“ eru gerðar í flipanum **Sjálfvirkni reikninga lánardrottins** á síðunni **Færibreytur viðskiptaskulda** (**Viðskiptaskuldir \> Uppsetning \> Færibreytur viðskiptaskulda**).
+Hægt er að keyra sjálfvirka jöfnunarferlið sem hluta af ferlinu við að senda reikninga í verkflæðiskerfið. Að öðrum kosti geturðu keyrt það sem sjálfstætt ferli. Stillingar fyrir ferlið „jafna innhreyfingarskjöl afurðar við reikningslínur“ eru gerðar í flipanum **Sjálfvirkni reikninga lánardrottins** á síðunni **Færibreytur viðskiptaskulda** (**Viðskiptaskuldir \> Uppsetning \> Færibreytur viðskiptaskulda**).
 
 Reikningslínur sem eru með þríhliða jöfnunarreglu, þar sem jafnað innhreyfingarmagn er minna en magn á reikningi, verða teknar með í sjálfvirku jöfnunarferli innhreyfingarskjala.
 

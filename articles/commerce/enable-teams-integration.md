@@ -2,7 +2,7 @@
 title: Gera Dynamics 365 Commerce og Microsoft Teams samþættingu virka
 description: Þetta efnisatriði lýsir hvernig á að virkja Microsoft Dynamics 365 Commerce og Microsoft Teams samþættingu.
 author: gvrmohanreddy
-ms.date: 03/31/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9910ee48a0792c89a4e04ec8685fd02484e45575d70b06454dea56a89ee8c914
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 52b1a889a15cfe2e6e104e38b7d257f80762954f
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775339"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323431"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Gera Dynamics 365 Commerce og Microsoft Teams samþættingu virka
 
@@ -38,15 +38,23 @@ Til að úthluta Teams með upplýsingum frá Dynamics 365 Commerce og samstilla
 Til að skrá Teams-forritið með leigjandanum í Azure-gáttinni skal fylgja þessum skrefum.
 
 1. Fylgið skrefunum í [Stuttar leiðbeiningar: Skrá forrit á verkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app) til að skrá Teams-forritið með leigjandanum í Azure-gáttinni.
-1. Afritið gildið **Forritskenni (biðlarakenni)** af síðunni **Yfirlit** fyrir skráð forrit. Þetta gildi er notað til að virkja Teams samþættingu í Commerce Headquarters.
-1. Afritið gildi vottorðs sem slegið var inn þegar [vottorði var bætt við](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) í skrefi 1. Vottorðið er einnig þekkt sem almennur lykill eða forritalykill. Þetta gildi er notað til að virkja Teams samþættingu í Commerce Headquarters.
+1. Á **App Skráning** flipanum, veldu forritið sem þú bjóst til í fyrra skrefi. Síðan, á **Auðkenning** flipa, veldu **Bættu við vettvangi**.
+1. Veldu í glugganum **Vefur**. Þá, í **Tilvísunarslóðir** reit, sláðu inn vefslóð á sniðinu **\<HQUrl\> /oauth**. Skipta um **\<HQUrl\>** með slóð höfuðstöðva viðskipta (til dæmis,`https://hxennugbjtweufmdeo385f47fadb6aa9a0aos.cloudax.int.dynamics.com/oauth`).
+1. Á **Yfirlit** síðu skráða appsins, afritaðu **Auðkenni umsóknar (viðskiptavinar).** gildi. Þú verður að gefa upp þetta gildi til að virkja Teams samþættingu í höfuðstöðvum Commerce í næsta hluta.
+1. Fylgdu leiðbeiningunum í [Bættu við leyndarmáli viðskiptavinar](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret) til að bæta við leyndarmáli viðskiptavinar. Afritaðu síðan **Leynilegt gildi** gildi fyrir viðskiptavininn. Þú verður að gefa upp þetta gildi til að virkja Teams samþættingu í höfuðstöðvum Commerce í næsta hluta.
+1. Veldu **API heimildir**, og veldu síðan **Bættu við heimild**.
+1. Í **Biðja um API heimildir** valmynd, veldu **Microsoft graf**, veldu **Úthlutaðar heimildir**, stækka **Hópur**, veldu **Group.ReadWrite.All**, og veldu síðan **Bæta við heimildum**.
+1. Í **Biðja um API heimildir** valmynd, veldu **Bættu við heimild**, veldu **Microsoft graf**, veldu **Umsóknarheimildir**, stækka **Hópur**, veldu **Group.ReadWrite.All**, og veldu síðan **Bæta við heimildum**.
+1. Í **Biðja um API heimildir** valmynd, veldu **Bættu við heimild**. Á **API sem stofnunin mín notar** flipi, leitaðu að **Microsoft Teams Smásöluþjónusta**, og veldu það.
+1. Veldu **Úthlutaðar heimildir**, stækka **TaskPublishing**, veldu **TaskPublising.ReadWrite.All**, og veldu síðan **Bæta við heimildum**. Fyrir frekari upplýsingar, sjá [Stilltu biðlaraforrit til að fá aðgang að vef-API](/azure/active-directory/develop/quickstart-configure-app-access-web-apis).
 
 Fylgja skal eftirfarandi skrefum til að óvirkja Teams samþættingu í Commerce Headquarters.
 
 1. Opnið **Retail og Commerce\> Uppsetning rásar \> Microsoft Teams Samþættingarskilgreining**.
 1. Á aðgerðarúðunni skal velja **Breyta**.
 1. Stillið **Virkja Microsoft Teams-samþættingu** á **Já**.
-1. Í reitina **Forritskenni** og **Forritslykill** skal slá inn gildin sem fengin voru þegar Teams-forritið var skráð í Azure-gáttinni.
+1. Í **Auðkenni umsóknar** reit, sláðu inn **Auðkenni umsóknar (viðskiptavinar).** gildi sem þú fékkst á meðan þú skráðir Teams forritið í Azure gáttinni.
+1. Í **Umsóknarlykill** reit, sláðu inn **Leynilegt gildi** gildi sem þú fékkst á meðan þú bættir við leyndarmáli viðskiptavinar í Azure gáttinni.
 1. Í aðgerðarúðunni skal velja **Vista**.
 
 Eftirfarandi mynd sýnir dæmi um skilgreiningar Teams samþættingar í Commerce Headquarters.

@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: cfabd6f544dca6f48448da4ef9ff8383c6583f8488a718a7c971ff7b39c1f2cb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737976"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323926"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Fela Word-efnisstýringar í mynduðum skýrslum
 
 [!include [banner](../includes/banner.md)]
 
-Til að búa til skýrslur sem Microsoft Word-skjöl þarf að hanna sniðmát fyrir skýrslurnar sem Word-skjal. Þetta sniðmát verður að innihalda Word-efnisstýringar sem staðgengla fyrir gögn sem verður fyllt út í við keyrslu. Til að nota Word-skjalið sem sniðmát sem er búið til sem sniðmát fyrir skýrslurnar er hægt að [skilgreina](er-design-configuration-word.md) nýja [rafræna skýrslugerðar](general-electronic-reporting.md) [lausn](er-quick-start1-new-solution.md). Lausnin verður að fela í sér [skilgreiningu](general-electronic-reporting.md#Configuration) rafrænnar skýrslugerðar sem inniheldur [sniðshlut](general-electronic-reporting.md#FormatComponentOutbound) rafrænnar skýrslugerðar. Þetta snið rafrænnar skýrslugerðar verður að vera skilgreint til að nota hannaða sniðmátið fyrir myndun skýrslu.
+Til að búa til skýrslur sem Microsoft Word-skjöl þarf að hanna sniðmát fyrir skýrslurnar sem Word-skjal. Þetta sniðmát verður að innihalda Word-efnisstýringar sem staðgengla fyrir gögn sem verður fyllt út í við keyrslu. Til að nota Word-skjalið sem sniðmát sem er búið til sem sniðmát fyrir skýrslurnar er hægt að [skilgreina](er-design-configuration-word.md) nýja [rafræna skýrslugerðar](general-electronic-reporting.md) [lausn](er-quick-start1-new-solution.md). Lausnin verður að innihalda bráðamóttöku [uppsetningu](general-electronic-reporting.md#Configuration) sem inniheldur ER-sniðshluta. Þetta snið rafrænnar skýrslugerðar verður að vera skilgreint til að nota hannaða sniðmátið fyrir myndun skýrslu.
 
 Í útgáfu 10.0.6 og nýrri af Dynamics 365 Finance er hægt að skilgreina formúlur í snið rafrænnar skýrslugerðar til að fela sumar Word-efnisstýringar í mynduðum skjölum.
 

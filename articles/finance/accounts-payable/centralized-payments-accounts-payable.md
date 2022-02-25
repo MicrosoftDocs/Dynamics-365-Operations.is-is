@@ -1,32 +1,32 @@
 ---
 title: Miðstýrðar greiðslur fyrir viðskiptaskuldir
-description: Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu greiðslur í marga lögaðila. Þessi grein gefur dæmi sem sýna hvernig bókanir fyrir miðstýrðar greiðslur eru meðhöndlaðar í mismunandi aðstæðum.
+description: Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu greiðslur í marga lögaðila. Þetta efnisatriði gefur dæmi sem sýna hvernig bókun fyrir miðlægar greiðslur er meðhöndluð í ýmsum aðstæðum.
 author: abruer
-ms.date: 02/12/2017
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14341
 ms.assetid: 7bd02e32-2416-4ac6-8a60-85525267fdb7
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 340e276e1943129033898a3cca174f07fadbb43f45fa9fb49e0b4f8eb4772d40
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3030bc7d2501e2162758c94c0dc1a073655c9c0f
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749077"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182519"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Miðstýrðar greiðslur fyrir viðskiptaskuldir
 
 [!include [banner](../includes/banner.md)]
 
-Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu greiðslur í marga lögaðila. Þessi grein gefur dæmi sem sýna hvernig bókanir fyrir miðstýrðar greiðslur eru meðhöndlaðar í mismunandi aðstæðum.
+Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu greiðslur í marga lögaðila. Þetta efnisatriði gefur dæmi sem sýna hvernig bókun fyrir miðlægar greiðslur er meðhöndluð í ýmsum aðstæðum.
 
 Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu greiðslur í marga lögaðila. Þar að auki sparar fyrirtækið tíma þar sem greiðsluferlið er aðlagað.
 

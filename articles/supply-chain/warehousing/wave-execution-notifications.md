@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 26810f6e21f9c8ba6e92621a8e1ddee17837b6048107b961afb0e428059051af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: af3983db1a96116a88914411a26f1ac5d4857ae9
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752585"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103240"
 ---
 # <a name="wave-execution-notifications"></a>Tilkynningar bylgjukerslu
 
@@ -28,14 +28,11 @@ Eiginleikinn *Tilkynningar bylgjukeyrslu* notar viðskiptatilvik og aðgerðami�
 
 Hnappurinn **Sýna skilaboð** (bjöllutáknið) hægra megin á yfirlitsstikunn gefur til kynna hvenær skilaboð aðgerðamiðstöðvar verða tiltæk fyrir núverandi notanda. Notandinn getur valið hnappinn **Sýna skilaboð** til að opna aðgerðamiðstöðina og fara yfir skilaboðin.
 
-Viðskiptatilvik eiga sér stað þegar viðskiptaferli eru keyrð. Viðskiptaferli samanstanda af verkum. Í viðskiptaferli framkvæma notendur sem taka þátt í því viðskiptaaðgerðir til að ljúka þessum verkum. Viðskiptatilvik bjóða upp leið sem gerir ytri kerfum kleift að taka við tilkynningum frá Finance and Operations forritum. Þannig geta kerfin framkvæmt viðskiptaaðgerðir til að bregðast við viðskiptatilvikunum. Frekari upplýsingar eru í [Yfirlit viðskiptatilvika](../../fin-ops-core/dev-itpro/business-events/home-page.md).
+Viðskiptatilvik eiga sér stað þegar viðskiptaferli eru keyrð. Viðskiptaferli samanstanda af verkum. Í viðskiptaferli framkvæma notendur sem taka þátt í því viðskiptaaðgerðir til að ljúka þessum verkum. Viðskiptaviðburðir bjóða upp á kerfi sem gerir ytri kerfum kleift að fá tilkynningar frá Finance and Operations forritum. Þannig geta kerfin framkvæmt viðskiptaaðgerðir til að bregðast við viðskiptatilvikunum. Frekari upplýsingar eru í [Yfirlit viðskiptatilvika](../../fin-ops-core/dev-itpro/business-events/home-page.md).
 
-## <a name="turn-on-the-wave-execution-notifications-feature"></a>Kveikja á eiginleika fyrir tilkynningar bylgjukeyrslu
+## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>Kveiktu eða slökktu á Wave execution notifications eiginleikanum
 
-Áður en hægt er að nota eiginleikann *Tilkynningar bylgjukeyrslu* verður að vera kveikt á honum í kerfinu. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
-
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Tilkynningar bylgjukeyrslu*
+Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Tilkynningar um framkvæmd bylgju* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="scenario-send-wave-batch-execution-notifications-to-the-action-center"></a>Atburðarás: Senda tilkynningar um framkvæmd bylgjurunu til aðgerðamiðstöðvar
 

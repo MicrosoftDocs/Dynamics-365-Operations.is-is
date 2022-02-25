@@ -1,12 +1,10 @@
 ---
 title: Innkaupasamningar
 description: Þessi grein gefur upplýsingar um innkaupasamninga. Innkaupasamningur er samningur sem skuldbindur stofnun til að kaupa tiltekið magn eða upphæð með því að nota margar innkaupapantanir á tilteknum tíma. Í skiptum fyrir þessa skuldbindingu fær kaupanda sérstakt verð og afslættir.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cd3c18129724cc67560aee7bf9fc0e5dcd2ebc3
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: d8084ebed80a509d543053867bb1f4d483b3f8eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017188"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103739"
 ---
 # <a name="purchase-agreements"></a>Innkaupasamningar
 
@@ -43,10 +41,7 @@ Til að koma í veg fyrir að innkaupasamningur þinn sé notaður og staðfestu
 Þú getur borið kennsl á aðalábyrgðan starfskraft og annan ábyrgðan starfskraft í flokkun innkaupasamningsins. Þessi gildi efast með innkaupasamningi sem af því leiðir. Þú þarft ekki að bæta ábyrgum starfskröftum við innkaupasamninginn og þeim er hægt að breyta beint hverju sinni í innkaupasamningnum sjálfum. Þú getur ekki tilgreint annan ábyrgðan starfskraft án aðalábyrgs starfskrafts, jafnvel þó að þú sért ekki með annan ábyrgðan starfskraft. Þú getur ekki tilgreint sama starfskraft sem bæði aðal- og annan ábyrgan starfskraft.
 
 > [!IMPORTANT]
-> Áður en hægt er að nota eiginleika ábyrgðaraðila verður að vera kveikt á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
-> 
-> - **Eining:** *Innkaup og uppruni*
-> - **Heiti eiginleika:** *Ábyrgðaraðili innkaupasamnings*
+> Til að nota eiginleikann fyrir ábyrgðaraðila verður að vera kveikt á honum í kerfinu þínu. Frá og með Supply Chain Management 10.0.25 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Ábyrgðaraðili kaupsamnings* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="commitment-types"></a>Ráðstöfunargerðir
 Hver lína í innkaupasamningi er skuldbinding til að kaupa eitthvað. Þú getur notað línur frá mörgum innkaupapöntununum til að uppfylla skuldbindingar. Til eru fjórar tegundir skuldbindinga:
@@ -104,12 +99,13 @@ Ef þú stofnar innkaupapöntun innan samstæðu sem notar samstæðusölupöntu
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Fjárhagsvíddir á innkaupasamningum
 Hægt er að afrita fjárhagsvíddir á skjalahausa eða á einstaka línur í innkaupasamningi. Ef þú breytir víddum í haus þjónustusamnings eða samningslínu hefur breytingin ekki áhrif á neinar losaðar pantanir, en hún kemur fram á öllum nýjum pöntunum.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Stofna innkaupasamning](tasks/create-purchase-agreement.md)
-
-[Stofna úttektarpöntun innkaupa úr innkaupasamningi](tasks/create-purchase-release-order-purchase-agreement.md)
+- [Stofna innkaupasamning](tasks/create-purchase-agreement.md)
+- [Nota innkaupasamning þegar innkaupapöntun er stofnuð](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

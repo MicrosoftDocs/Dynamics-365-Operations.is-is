@@ -2,24 +2,22 @@
 title: Myndræn framsetning vinnuálags á útleið
 description: Þetta efnisatriði veitir upplýsingar um myndræn framsetningu á útleið. Þessi virkni gerir stjórnendum vöruhúsa og yfirmönnum kleift að búa til sérsniðin vinnuálagsgröf sem má nota til að fylgjast með framvindu núverandi vinnu og hversu mikið er eftir af vinnunni. Vöruhúsastjórnendur geta búið til mörg yfirlit og sett upp sjálfvirka endurnýjun að vild.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: db6ceb40279e53e9c4751a7ceb3db895e889a7c0
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965553"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102889"
 ---
 # <a name="outbound-workload-visualization"></a>Myndræn framsetning vinnuálags á útleið
 
@@ -29,12 +27,9 @@ ms.locfileid: "4965553"
 
 Hægt er að nota þessa virkni til að rekja framvindu tiltektarvinnu. Eiginleikinn er samþættur við starfsmannaumsjón og ef starfsmannaumsjón er uppsett getur myndræn framsetning vinnuálags á útleið sýnt útreikning á tímafjöldanum sem eftir er við tiltektarvinnuna sem er sýnd (síuð).
 
-## <a name="turn-on-the-outbound-workload-visualization-feature"></a>Kveikja á eiginleikanum myndræn framsetning vinnuálags á útleið
+## <a name="turn-the-outbound-workload-visualization-feature-on-or-off"></a>Kveiktu eða slökktu á myndbirtingu vinnuálags á útleið
 
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
-
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Myndræn framsetning vinnuálags á útleið*
+Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Sjónmynd af vinnuálagi á útleið* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="set-up-outbound-workload-visualizations"></a>Stilla myndræna framsetningu vinnuálags á útleið
 
@@ -62,7 +57,7 @@ Til að setja upp myndræna framsetningu vinnuálags á útleið skal fylgja þe
     - **Dagsetningar sem taka á með** – Sláðu inn dagafjöldann aftur í tíma sem mynda á graf fyrir.
     - **Gerð verkbeiðni** – Veldu gerðir verkbeiðna á útleið sem á að sía.
 
-    ![Stillingasíða sía](media/work-viz-filters-1.png "Stillingasíða sía")
+    ![Stillingasíða sía.](media/work-viz-filters-1.png "Stillingasíða sía")
 
 1. Lokaðu síðunni **Skilgreina síur** til að fara aftur á síðuna **Myndræn framsetning vinnuálags á útleið**.
 
@@ -72,11 +67,11 @@ Til að setja upp myndræna framsetningu vinnuálags á útleið skal fylgja þe
     - **Síðast endurnýjað** – Þetta svæði sýnir dagsetninguna og tímann þegar upplýsingarnar í grafinu voru síðast uppfærðar.
     - **Áætlaður tími/rauntími** – Þegar vinnustaðlar eru settir upp í kerfinu skal stilla þennan valkost á *Já* til að sýna uppsafnaða áætlaðan tiltektartíma efst í hverjum dálki grafsins. Þessi valkostur er ekki tiltækur þegar vinnustaðlar eru ekki notaðir.
 
-    ![Myndræn framsetning](media/work-viz-chart.png "Myndræn útfærsla dæma")
+    ![Myndræn útfærsla dæma.](media/work-viz-chart.png "Myndræn útfærsla dæma")
 
 1. Velja skal hvaða stiku sem er í grafinu til að skoða tengdar upplýsingar vinnulínu.
 
-    ![Upplýsingar um vinnulínu](media/work-viz-work-details.png "Upplýsingar um vinnulínu")
+    ![Upplýsingar um vinnulínu.](media/work-viz-work-details.png "Upplýsingar um vinnulínu")
 
 ## <a name="example-outbound-workload-visualization-for-zones"></a>Dæmi: Myndræn framsetning vinnuálags á útleið
 
@@ -94,6 +89,9 @@ Til að setja upp myndræna framsetningu vinnuálags á útleið skal fylgja þe
 
 Eftirfarandi skýringarmynd sýnir dæmi um graf.
 
-![Myndræn framsetning svæða miðað við stöðu vinnu](media/work-viz-chart.png "Myndræn framsetning svæða miðað við stöðu vinnu")
+![Myndræn framsetning svæða miðað við stöðu vinnu.](media/work-viz-chart.png "Myndræn framsetning svæða miðað við stöðu vinnu")
 
 Þetta graf sýnir tvö svæði sem kallast **GÓLF** og **MAGN**, auk svæðis sem kallast **Autt**. Svæðið **Autt** táknar allar vinnulínur sem eru ekki hluti af svæðum. Grafið sýnir alltaf ótengd síuð gögn sem **Auð** til að veita eins mikinn sýnileika og hægt er. Á svæðinu **Gólf** sýnir grafið þrjár lokaðar línur og fjórar opnar línur. Á svæðinu **MAGN** sýnir grafið fjórar lokaðar línur, eina opna línu og 24 línur sem var hætt við. Grafið sýnir að endingu átta lokaðar línur sem eru ekki hluti af svæði og eru því flokkaðar sem **Auðar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

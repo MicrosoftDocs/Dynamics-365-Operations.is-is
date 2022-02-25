@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 745a51617f8c87c0f757aee0304ec3efb55d0f98
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: d8bc4f0a981b75c1b65d51aa1d8fada9c2187e22
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921216"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323411"
 ---
 # <a name="credit-management-parameters-setup"></a>Færibreytuuppsetning kreditstjórnunar
 
@@ -50,7 +50,8 @@ ms.locfileid: "7921216"
 
 Ef þú tilgreinir ekki fjölda biðdaga verður kreditreglurnar athugaðar við hvert bókunarskref sem er sett upp til að keyra reglur um lánamál. Ef þú sleppir sölupöntuninni án þess að pósta og keyrir aftur sama pöntunarvinnsluskref, verður kreditreglurnar athugaðar aftur. Til dæmis er pöntun sett í bið eftir staðfestingu og þú sleppir henni annaðhvort með eða án bókunar. Í þessu tilfelli verður pöntunin sett í bið aftur ef þú staðfestir hana aftur. Notaðu biðdaga ef pöntunin ætti að fara yfir í næsta vinnsluskref án þess að fara aftur í bið.
 
-Þú getur ekki tilgreint biðdaga fyrir suma gátstaði bókunar en ekki fyrir aðra. Þú verður að setja upp alla gátstaði bókunar þannig að þeir hafi biðdaga, eða þú verður að setja þá alla upp svo þeir eigi ekki biðdaga.
+> [!Note]
+> Ef einn pósteftirlitsstöð er með gjalddaga inn, þurfa allir eftirlitsstöðvar sem eru merktar til færslu að hafa frestdaga.
 
 - Veldu gátreitinn **Bókun** til að keyra reglurnar um lánastjórnun þegar gátreitur bókunar sem er sýndur á línunni er keyrður. Ef þú velur ekki gátreitinn verða reglurnar aðeins merktar einu sinni á öllu bókunarferlinu.
 - Ef þú velur gátreitinn **Bókun** tilgreinirðu fjölda biðdaga sem ættu að líða áður en lokunarreglurnar eru merktar aftur. Þú getur ekki bætt við biðdögum ef gátreiturinn **Bókun** er hreinsaður.
@@ -73,9 +74,9 @@ Nokkrar tölfræði um lánastjórnun er að finna í upplýsingareitnum **Tölf
 - Í lánastjórnun er lánsheimild viðskiptavinarins sýnd í gjaldmiðli viðskiptavinarins. Þú verður að skilgreina gerð gengis fyrir lánamörk í gjaldmiðli viðskiptavinarins. Í reitnum **Gerð lánsfjárhámarks** velurðu þá gerð gengis sem ætti að nota til að umbreyta aðal lánsfjárhámarki í lánamörk viðskiptavinarins.
 - Stilltu valkostinn **Leyfa handvirka klippingu á lánamörkum** á **Nei** til að koma í veg fyrir að notendur geti breytt kreditmörkum á síðunni **Viðskiptavinur**. Ef þessi valkostur er stilltur á **Nei** er aðeins hægt að gera breytingar á lánamörkum viðskiptavinar með því að birta leiðréttingarfærslur lánamarka.
 - Stilltu **Framhjá birgðapöntunum** valmöguleika til **Já** að virða að vettugi birgðafyrirvara þegar hakað er við reglur um útlánastjórnun. Í þessu tilviki athugar kerfið heilt línumagn og gerir eftirlitstíma frest, óháð birgðapöntunarmagni.
-- Þegar lánastýring er virkjuð mun stillingin á **Skilaboð þegar farið er yfir lánamörk** reiturinn er notaður til að vinna aðeins reikninga með frjálsum texta. Þrátt fyrir að skilaboðum sé enn bætt við sölupantanir þegar viðskiptavinir hafa farið yfir lánsheimildir, hindrar tilvist þessara skilaboða ekki staðfestingu, prentun á tínslulistum og fylgiseðlum eða bókun reikninga.
+- Þegar lánastýring er virkjuð mun stillingin á **Skilaboð þegar farið er yfir lánamörk** reiturinn er notaður til að vinna aðeins með frjálsum textareikningum. Þrátt fyrir að skilaboðum sé enn bætt við sölupantanir þegar viðskiptavinir hafa farið yfir lánsheimildir, hindrar tilvist þessara skilaboða ekki staðfestingu, prentun á tínslulistum og fylgiseðlum eða bókun reikninga.
 
-    Lánastjórnun er sjálfgefið virkjuð en þú getur slökkt á henni. Ef það er virkt, notar þú lokunarreglur og eftirlitsstöðvar útlánastjórnunar til að bera kennsl á hvenær viðskiptavinir hafa farið yfir lánahámarkið sitt. Ef það er óvirkt munu skilaboðin sem er bætt við sölupantanir á grundvelli stillingar á **Skilaboð þegar farið er yfir lánamörk** reitinn getur hjálpað þér að bera kennsl á hvenær viðskiptavinir hafa farið yfir lánsheimildir sínar.
+    Lánastjórnun er sjálfkrafa virkjuð en þú getur slökkt á henni. Ef það er virkt, notar þú lokunarreglur og eftirlitsstöðvar útlánastjórnunar til að bera kennsl á hvenær viðskiptavinir hafa farið yfir lánahámarkið sitt. Ef það er óvirkt munu skilaboðin sem eru bætt við sölupantanir á grundvelli stillingar á **Skilaboð þegar farið er yfir lánamörk** reitinn getur hjálpað þér að bera kennsl á hvenær viðskiptavinir hafa farið yfir lánshæfismat sitt.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Númeraraðir og samnýttar færibreytur númeraraða
 

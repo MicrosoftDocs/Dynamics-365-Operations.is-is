@@ -2,11 +2,9 @@
 title: Stjórna nokkrum afleiddum vörpunum fyrir eina rót líkans
 description: Þetta efnisatriði útskýrir hvernig á að stjórna nokkrum afleiddum vörpunum sem voru skilgreindar fyrir eina rót líkans.
 author: NickSelin
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3116fe98f499637b3bc7f243ed1b5094853caa7e
-ms.sourcegitcommit: 7cfe8931dd454e811a691f5118a4ecae7ba4b478
-ms.translationtype: HT
+ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "4826110"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324113"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Stjórna nokkrum afleiddum vörpunum fyrir eina rót líkans
 
 [!include [banner](../includes/banner.md)]
 
-[Gagnalíkanshluti](general-electronic-reporting.md) [rafrænnar skýrslugerðar](general-electronic-reporting.md#data-model-and-model-mapping-components) er notaður í öllum skilgreindum hlutum [rafræns skýrslugerðarsniðs](general-electronic-reporting.md#FormatComponentOutbound) sem gagnagjafinn til að mynda skjöl á útleið. Til að lýsa einu viðskiptaléni skal skilgreina gagnalíkanshlut sem er með margar rótarskilgreiningar. 
+An [Rafræn skýrsla (ER)](general-electronic-reporting.md) gagnamódelhluti er notaður í öllum stilltum ER-sniðshlutum sem gagnagjafi til að búa til skjöl á útleið. Til að lýsa einu viðskiptaléni skal skilgreina gagnalíkanshlut sem er með margar rótarskilgreiningar. 
 
-Allar rótarskilgreiningar gera notanda kleift að tákna gögn í þessu léni sem hentar best tilteknum markmiðum skýrslugerðar. Fyrir hverja rótarskilgreiningu er hægt að skilgreina [gagnalíkanshlut](general-electronic-reporting.md#data-model-and-model-mapping-components) rafrænnar skýrslugerðar sem tiltekna samþættingu Microsoft Dynamics 365 Finance á gagnalíkaninu. Á þennan hátt er lýst hvernig gagnalíkanið verður fyllt út við keyrslu.
+Allar rótarskilgreiningar gera notanda kleift að tákna gögn í þessu léni sem hentar best tilteknum markmiðum skýrslugerðar. Fyrir hverja rótarskilgreiningu geturðu stillt ER líkanakortlagningarhluta sem Microsoft Dynamics 365 Finance -sérstök útfærsla á gagnalíkaninu þínu. Á þennan hátt er lýst hvernig gagnalíkanið verður fyllt út við keyrslu.
 
 Gagnalíkanshlutar rafrænnar skýrslugerðar geta verið í [skilgreiningum](general-electronic-reporting.md#Configuration) gagnalíkans rafrænnar skýrslugerðar og skilgreiningum gagnavörpunar rafrænnar skýrslugerðar. Ein skilgreining rafrænnar skýrslugerðar getur innihaldið vörpunarhluta sem hver fyrir sig er skilgreindur fyrir eina rótarskilgreiningu. Að öðrum kosti getur ein skilgreining rafrænnar skýrslugerðar innihaldið aðeins einn vörpunarhluta sem er skilgreindur fyrir eina rótarskilgreiningu.
 
@@ -57,7 +55,7 @@ Til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núver
 2. Á síðunni **Skilgreiningar skýrslugerðar**, í hlutanum **Skilgreiningar**, skal velja reitinn **Skilgreiningar skýrslugerðar**.
 3. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan**.
 
-    ![Innfluttar skilgreiningar yfirfarnar á skilgreiningarsíðunni](./media/er-multiple-model-mappings-image1.png)
+    ![Innfluttar skilgreiningar yfirfarnar á skilgreiningarsíðunni.](./media/er-multiple-model-mappings-image1.png)
 
 4. Farið yfir sniðið **Reikningur með frjálsum texta (Excel)**:
 
@@ -68,7 +66,7 @@ Til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núver
     
        Núverandi snið rafrænnar skýrslugerðar er skilgreint til að nota rótarskilgreiningu **InvoiceCustomer** í **Reikningslíkan**. Þegar þetta snið er keyrt og kallað er á gagnagjafann **Líkan**, er líkanavörpunin sem er skilgreind fyrir rótarskilgreininguna **InvoiceCustomer** notuð til að nálgast forritsgögn og fylla út í gagnalíkanið.
 
-        ![Gagnagjafi líkans yfirfarinn á síðu sniðshönnuðar](./media/er-multiple-model-mappings-image2.png)
+        ![Gagnagjafi líkans yfirfarinn á síðu sniðshönnuðar.](./media/er-multiple-model-mappings-image2.png)
 
     6. Lokaðu síðunni **Sniðshönnuður**.
 
@@ -81,7 +79,7 @@ Til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núver
         + Líkanavörpunin **Reikningur viðskiptavinar** er skilgreindur fyrir rótarskilgreininguna **InvoiceCustomer** í **Reikningslíkan**. Þar af leiðandi, þegar rafræna skýrslugerðarsniðið **Reikningur með frjálsum texta (Excel)** er keyrt, er hægt að velja líkanavörpunina **Reikningur viðskiptavinar** í þessari skilgreiningu rafrænnar skýrslugerðar til að nálgast forritsgögn og fylla út gagnalíkanið.
         + Líkanavörpunin **Verkreikningur** er skilgreindur fyrir rótarskilgreininguna **InvoiceProject** í **Reikningslíkan**. Þar af leiðandi, þegar rafræna skýrslugerðarsniðið **Verkreikningur (Excel)** er keyrt, er hægt að velja líkanavörpunina **Verkreikningur** í þessari skilgreiningu rafrænnar skýrslugerðar til að nálgast forritsgögn og fylla út gagnalíkanið.
 
-        ![Líkanavörpun reiknings á síðu líkanavörpunar á gagnagjafa](./media/er-multiple-model-mappings-image3.png)
+        ![Líkanavörpun reiknings á síðu líkanavörpunar á gagnagjafa.](./media/er-multiple-model-mappings-image3.png)
 
     4. Lokið síðunni **Líkanavörpun á gagnagjafa**.
     5. Í flýtiflipanum **Útgáfur** skal velja **Eyða** til að eyða öllum útgáfum þessarar skilgreiningu rafrænnar skýrslugerðar sem eru eldri en útgáfa 240.175.
@@ -92,7 +90,7 @@ Til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núver
     2. Í aðgerðarúðunni skal velja **Hönnuður**.
     3. Athugið að á síðunni **Líkanavörpun á gagnagjafa** inniheldur núverandi skilgreining á líkanavörpun rafrænnar skýrslugerðar líkanavörpunina **InvoiceProject** og að þessi líkanavörpun er skilgreind fyrir rótarskilgreininguna **InvoiceProject** í **Reikningslíkan**. Þegar rafræna skýrslugerðarsniðið **Verkreikningur (Excel)** er keyrt skal velja líkanavörpun **InvoiceProject** í þessari skilgreiningu rafrænnar skýrslugerðar til að nálgast forritsgögn og fylla út gagnalíkanið.
 
-        ![Líkanavörpun verkreiknings á síðu líkanavörpunar á gagnagjafa](./media/er-multiple-model-mappings-image4.png)
+        ![Líkanavörpun verkreiknings á síðu líkanavörpunar á gagnagjafa.](./media/er-multiple-model-mappings-image4.png)
 
     4. Lokið síðunni **Líkanavörpun á gagnagjafa**.
     5. Í flýtiflipanum **Útgáfur** skal velja **Eyða** til að eyða öllum útgáfum þessarar skilgreiningu rafrænnar skýrslugerðar sem eru eldri en útgáfa 226.35.
@@ -117,7 +115,7 @@ Til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núver
 
 7. Á aðgerðasvæðinu skal velja **Hönnuður** til að yfirfara líkanavarpanir þessarar skilgreiningar.
 
-    ![Líkanavörpun reiknings yfirfarin á síðu líkanavörpunar á gagnagjafa](./media/er-multiple-model-mappings-image5.png)
+    ![Líkanavörpun reiknings yfirfarin á síðu líkanavörpunar á gagnagjafa.](./media/er-multiple-model-mappings-image5.png)
 
     > [!TIP]
     > Nú er hægt að opna alla þætti líkanavörpunar fyrir rafræna skýrslugerð í þessari skilgreiningu rafrænnar skýrslugerðar í hönnuðinum til að skilgreina sérstillta reglu. Frekari upplýsingar er að finna í [Sérstilla skilgreiningu líkanavörpunar](er-quick-start3-customize-report.md#customize-the-model-mapping-configuration).
@@ -128,7 +126,7 @@ Nú eru komnar skilgreiningarnar **Líkanavörpun reiknings** og **Reikningslík
  
 > Fleiri en ein líkanavörpun er fyrirliggjandi fyrir gagnalíkanið \<model name\> (\<root descriptor\>) í skilgreiningunum \<configuration names separated by commas\>. Stillið eina skilgreininguna sem sjálfgefna.
 
-![Sniðið opnað til að breyta því á síðu skilgreininga](./media/er-multiple-model-mappings-image6.gif)
+![Sniðið opnað til að breyta því á síðu skilgreininga.](./media/er-multiple-model-mappings-image6.gif)
 
 ### <a name="customize-the-project-invoice-model-mapping-rdp-configuration"></a>Sérstilla skilgreiningu líkanavörpunar verkreiknings (RDP)
 
@@ -140,7 +138,7 @@ Nú eru komnar skilgreiningarnar **Líkanavörpun reiknings** og **Reikningslík
 6. Fyrir skilgreininguna **Líkanavörpun verkreiknings Litware** sem er þegar valin í skilgreiningatrénu skal stilla valkostinn **Keyra drög** á **Já**.
 7. Á aðgerðasvæðinu skal velja **Hönnuður** til að yfirfara líkanavarpanir þessarar skilgreiningar.
 
-    ![Yfirfara sérstilltar líkanavarpanir verkreikninga á síðu líkanavörpunar á gagnagjafa](./media/er-multiple-model-mappings-image7.png)
+    ![Yfirfara sérstilltar líkanavarpanir verkreikninga á síðu líkanavörpunar á gagnagjafa.](./media/er-multiple-model-mappings-image7.png)
 
 8. Lokið síðunni **Líkanavörpun á gagnagjafa**.
 
@@ -151,7 +149,7 @@ Nú eru til staðar skilgreiningarnar **Líkanavörpun reiknings**, **Líkanavö
 1. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal velja **Reikningslíkanavörpun Litware**.
 2. Stillið valkostinn **Sjálfgefið fyrir líkanavörpun** á **Já**.
 
-    ![Stilla líkanavörpun sem sjálfgefna líkanavörpun á síðu skilgreininga](./media/er-multiple-model-mappings-image8.png)
+    ![Stilla líkanavörpun sem sjálfgefna líkanavörpun á síðu skilgreininga.](./media/er-multiple-model-mappings-image8.png)
 
     Vegna þessarar stillingar er líkanavörpunin **Afrit af reikningi viðskiptavinar** notuð til að keyra **Reikningur með frjálsum texta (Excel)** eða þegar henni er breytt eða hún villuleituð. Líkanavörpunin **Reikningur viðskiptavinar** úr skilgreiningunni **Líkanavörpun reiknings** er hunsuð.
 
@@ -169,7 +167,7 @@ Nú eru til staðar skilgreiningarnar **Líkanavörpun reiknings**, **Líkanavö
 5. Á síðunni **Líkanavörpun á gagnagjafa** skal velja **Breyta** til að gera síðuna breytanlega ef þörf krefur.
 6. Veljið líkanavörpunina **Afrit af verkreikningi** og veljið síðan gátreitinn **Er eytt** fyrir hana.
 
-    ![Líkanavörpunin stillt sem sýndareyðing á síðu líkanavörpunar á gagnagjafa](./media/er-multiple-model-mappings-image9.png)
+    ![Líkanavörpunin stillt sem sýndareyðing á síðu líkanavörpunar á gagnagjafa.](./media/er-multiple-model-mappings-image9.png)
 
     Vegna þessarar stilllingar er litið á skilgreininguna **Reikningslíkanavörpun Litware** eins og hún hafi enga líkanavörpun fyrir rótarskilgreininguna **InvoiceProject**. Líkanavörpun **Afrit af InvoiceProject** er sjálfgefið birt. Skilgreiningin **Líkanavörpun verkreiknings Litware**, sem inniheldur þessa líkanavörpun, er merkt sem sjálfgefin skilgreining. Þar sem hún er merkt sem sjálfgefin, hefur hún hærri forgang en líkanavörpun **InvoiceProject** úr skilgreiningunni **Líkanavörpun verkreiknings (RDP)**.
 
@@ -182,3 +180,6 @@ Líkanavörpunin **Afrit af InvoiceProject** í skilgreiningunni **Líkanavörpu
 - [Stjórna vörpunarlíkani rafrænnar skýrslugerðar í aðskilinni skilgreiningu rafrænnar skýrslugerðar](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [Skilgreina varpanir rafrænna skýrslugerðarlíkana sem háð eru samhengi við lönd](er-country-dependent-model-mapping.md)
 - [Breytingar á API rafræns skýrslugerðarramma](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Númeraplötustaða staðsetningar
 description: Númeraplötustaða staðsetningar gerir þér kleift að sjá hvar tiltekin númeraplata er á staðsetningu með mörgum vörubrettum, eins og staðsetningu þar sem vörubrettum er raðað ofan á hvort annað.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLicensePlate, WHSLocationProfile, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 7b0ebfb965e5a8f1bfe1857a9642d998dac2faf3
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430655"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102790"
 ---
 # <a name="location-license-plate-positioning"></a>Númeraplötustaða staðsetningar
 
@@ -33,12 +30,9 @@ Eiginleikinn bætir raðnúmeri við hverja númeraplötu sem er sett á geymslu
 
 Þetta efnisatriði kynnir aðstæður sem sýna hvernig á að setja upp og nota eiginleikann.
 
-## <a name="turn-on-the-location-license-plate-positioning-feature"></a>Kveikið á eiginleikanum Númeraplötustaða staðsetningar
+## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>Kveiktu eða slökktu á staðsetningareiginleikanum fyrir númeraplötustaðsetningu
 
-Áður en hægt er að nota númeraplötustöðu staðsetningar verður að kveikja á eiginleikanum í kerfinu. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
-
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Númeraplötustaða staðsetningar*
+Til að nota virknina sem lýst er í þessu efni, er *Staðsetning númeraplötu* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Staðsetning númeraplötu* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="example-scenario"></a>Dæmi
 
@@ -91,7 +85,7 @@ Kveikja verður á eiginleikanum í staðsetningarforstillingunni fyrir allar st
 1. Veldu **Númeraplötu** og veldu svo **Bæta við töflutengingu**.
 1. Í listanum yfir töflur sem birtist velur þú í dálknum **Tengsl** velur þú **Númeraplötustaða staðsetningar (númeraplata)**. Veldu síðan **Velja** til að bæta **Númeraplötustöðu staðsetningar** við töflutenginguna **Birgðavíddir**.
 
-    ![Töflutengingar](media/LpTableJoin.png "Töflutengingar")
+    ![Töflutengingar.](media/LpTableJoin.png "Töflutengingar")
 
 1. Veldu **Í lagi** til að staðfesta uppfærðar töflutengingar og loka fyrirspurnarritlinum.
 1. Í flýtiflipanum **Aðgerðir í staðsetningarleiðbeiningum** skal velja **Breyta fyrirspurn** til að opna fyrirspurnarritilinn að nýju.
@@ -103,7 +97,7 @@ Kveikja verður á eiginleikanum í staðsetningarforstillingunni fyrir allar st
     - **Svæði:** *Númeraplötustaða*
     - **Skilyrði:** *1*
 
-    ![Nýtt svið](media/LpPositionCriteria.png "Nýtt svið")
+    ![Nýtt svið.](media/LpPositionCriteria.png "Nýtt svið")
 
 1. Smelltu á **Í lagi** til að vista breytingarnar og loka fyrirspurnarritlinum.
 
@@ -278,6 +272,9 @@ Nú þegar lokið er við að setja upp eiginleikann *Númeraplötustaða staðs
 1. Á síðunni **Skanna vinnuauðkenni / kenni númeraplötu** skaltu smella á svæðið **Auðkenni** og síðan slá inn auðkenni sölulínunnar.
 1. Taktu eftir að tiltektin segir þér til að taka til vöru *A0002* úr staðsetningu *01A01R1S2B*. Þú færð þessar leiðbeiningar vegna þess að vara *A0002* er á númeraplötunni sem er í stöðu *1* á þeirri staðsetningu.
 
-    ![Staðsetning stöðu 1](media/LocationLicensePlatePositioning.png "Staðsetning stöðu 1")
+    ![Staðsetning á stöðu 1.](media/LocationLicensePlatePositioning.png "Staðsetning stöðu 1")
 
 1. Sláðu inn auðkenni númeraplötunnar sem þú bjóst til fyrir staðsetningu og fylgdu síðan leiðbeiningunum til að velja sölupöntunina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

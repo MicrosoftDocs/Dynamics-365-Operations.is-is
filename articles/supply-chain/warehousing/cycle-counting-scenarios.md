@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 09ca57d6a3654e56e12240af73d6793002eb1794e4b41d25e182b9b1d3b66df5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ff67198980765f288b5394d91927ae1826266841
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746796"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103339"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Dæmi um aðstæður reglulegrar talningar
 
@@ -32,10 +32,7 @@ Allar aðstæður í þessu efnisatriði vísa í gildi og færslur sem eru inni
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>Kveikja á stuðningi fyrir farsímaforrit Warehouse Management
 
-Áður en hægt er að nota nýja farsímaforrit Warehouse Management þarf fyrst að bæta stuðningi við fyrir það í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
-
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Notandastillingar, tákn og titlar skrefa fyrir nýja vöruhúsaforritið*
+Til að nota Warehouse Management farsímaforritið, *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* kveikt verður á eiginleikanum í kerfinu þínu. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ### <a name="prepare-demo-data-for-the-scenarios"></a><a name= "prepare-demo-data"></a>Útbúa sýningargögn fyrir aðstæður
 

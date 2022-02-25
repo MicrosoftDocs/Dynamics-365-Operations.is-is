@@ -2,26 +2,23 @@
 title: Blöndun á afurðarvídd staðsetningar
 description: Þetta efnisatriði inniheldur upplýsingar um blöndun á afurðarvídd staðsetningar. Þessi virkni staðsetningarforstillingar hjálpar til við að bæta staðsetningarstjórnun þegar afurðarafbrigði eða afurðir með víddir eru notaðar, svo sem í tískuiðnaðinum. Það gerir þér kleift að ákveða hvort hægt sé að blanda stillingum, litum, stílum og stærðum fyrir tiltekna staðsetningarforstillingu, eða hvort hægt sé að setja eina af þessum víddum eða samsetningu þeirra á sömu staðsetninguna.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430656"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103489"
 ---
 # <a name="location-product-dimension-mixing"></a>Blöndun á afurðarvídd staðsetningar
 
@@ -29,14 +26,11 @@ ms.locfileid: "4430656"
 
 Blöndun á afurðarvídd staðsetningar er staðsetningarforstilling sem hjálpar til við að bæta staðsetningarstjórnun þegar afurðarafbrigði eða afurðir með víddir eru notaðar, svo sem í tískuiðnaðinum. Það gerir þér kleift að ákveða hvort hægt sé að blanda stillingum, litum, stílum og stærðum fyrir tiltekna staðsetningarforstillingu, eða hvort hægt sé að setja eina af þessum víddum eða samsetningu þeirra á sömu staðsetninguna.
 
-## <a name="turn-on-the-location-product-dimension-mixing-feature"></a>Kveikja á eiginleika blöndunar á afurðarvídd staðsetningar
+## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Kveiktu eða slökktu á eiginleikanum fyrir blöndun staðsetningarvöruvíddar
 
-Áður en þú getur notað blöndun á afurðarvídd staðsetningar verður að kveikja á eiginleikanum í kerfinu þínu. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
+Til að nota virknina sem lýst er í þessu efni, er *Staðsetning vöruvíddarblöndun* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Staðsetning vöruvíddarblöndun* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Blöndun á afurðarvídd staðsetningar*
-
-## <a name="setup"></a>Setja upp
+## <a name="setup"></a>Uppsetning
 
 Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu tengda sem lýsir eiginleikum staðsetningar. Þess vegna verður hægt að blanda vöruvídd allra staðsetningar sem nota sömu staðsetningarforstillingu eftir að hún hefur verið sett upp.
 
@@ -207,9 +201,9 @@ Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu teng
 
 1. Veljið **Vista**.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>Taka á móti innkaupapöntunarlínum í vöruhúsaforritinu
+### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>Taka á móti innkaupapöntunarlínum í farsímaforriti vöruhúsakerfis
 
-1. Skráðu þig inn í vöruhúsaforritið sem notandi sem er virkjaður fyrir vöruhús *24*.
+1. Skráðu þig inn í farsímaforriti vöruhúsakerfis sem notandi sem er virkjaður fyrir vöruhús *24*.
 1. Veldu valmyndina **Á innleið**.
 1. Veldu **Móttaka innkaupapöntunarlínu**.
 1. Veldu svæðið **PONUM** og sláðu síðan inn númer innkaupapöntunar.
@@ -239,3 +233,5 @@ Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu teng
 
 > [!TIP]
 > Þú getur endurtekið þessar aðstæður, en í þetta sinn skaltu stilla **Stærð** - *Nei* fyrir neðan **Leyfa blöndun á afurðarvídd** flýtiflipann á *Staðsetningarforstillingar* **Magns**, þannig að ekki sé hægt að blanda saman afurðarvíddum. Í þessu tilfelli, þegar þú færð innkaupapöntunina, verður hvert afurðarafbrigði sett á nýja staðsetningu.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

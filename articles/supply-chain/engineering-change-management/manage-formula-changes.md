@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c65f929120d2501fa3873880179a9b53ab79c60c73fd4d597fb6151b1c5bb2b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720397"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103040"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>Stjórna breytingum á formúlum og innihaldsefnum þeirra
 
@@ -27,12 +27,9 @@ Ef notaðir eru möguleikar framleiðsluferlis hjá Microsoft Dynamics 365 Suppl
 - **Aukaafurðir og hliðarafurðir:** Breyta magni og öðrum upplýsingum um aukaafurðir og hliðarafurðir í formúlu.
 - **Vörur með framleiðsluþyngd:** Hafa umsjón með breytingum á vörum með framleiðsluþyngd.
 
-## <a name="turn-on-this-feature-in-your-system"></a>Kveikja á þessum eiginleika í kerfinu
+## <a name="turn-this-feature-on-or-off"></a>Kveiktu eða slökktu á þessum eiginleika
 
-Til að nota þennan eiginleika verður að ljúka eftirfarandi verkum:
-
-1. Virkjið eiginleikann fyrir *umsjón hönnunarbreytinga* og skilgreiningarlykla hans eins og lýst er í [Yfirlit yfir umsjón hönnunarbreytinga](product-engineering-overview.md). Eins og minnst er á í þessu efnisatriði skal einnig ganga úr skugga um að virkja leyfislykilinn **Breytingastjórnun fyrir framleiðsluferli** sem er faldaður fyrir neðan leyfislykilinn **Umsjón hönnunarbreytinga**.
-1. Kveikið að *Stjórna breytingum á formúlum og innihaldsefnum þeirra* eiginleikanum í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Virknin sem lýst er í þessu efni krefst þess að bæði *Verkfræðibreytingastjórnun* og *Stjórna breytingum á formúlum og innihaldsefnum þeirra* kveikt er á eiginleikum fyrir kerfið þitt. Fyrir upplýsingar um hvernig á að kveikja eða slökkva á þessum eiginleikum, sjá [Yfirlit yfir verkfræðibreytingastjórnun](product-engineering-overview.md).
 
 ## <a name="feature-naming-conventions"></a>Eiginleiki nafngiftavenja
 

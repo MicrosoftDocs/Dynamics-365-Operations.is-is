@@ -2,25 +2,25 @@
 title: Dagsetningar reiknings lánardrottins
 description: Þetta efnisatriði lýsir dagsetningunum sem koma fram á reikningum lánardrottins. Einnig er útskýrt hvernig kerfið er sett upp þannig að það stilli sjálfkrafa bókunardagsetninguna.
 author: sunfzam
-ms.date: 08/30/2021
+ms.date: 2/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: a066f828b47f297b8ad520b9eb0f4f311d49b111
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647894"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105465"
 ---
 # <a name="vendor-invoice-dates"></a>Dagsetningar reiknings lánardrottins
 
@@ -50,6 +50,9 @@ Fylgdu þessum skrefum til að gera kerfinu kleift að breyta bókunardagsetning
     - **Alltaf breyta bókunardagsetningu í kerfisdagsetningu** – Kerfið breytir bókunardagsetningu sjálfkrafa í kerfisdagsetningu við bókun.
     - **Breyta bókunardagsetningu í kerfisdagsetningu þegar bókunardagsetningartímabil er lokað eða í bið** – Kerfið breytir bókunardagsetningu í kerfisdagsetningu við bókun, en aðeins ef samsvarandi tímabil bókunardagsetningar er með stöðuna **Lokið** eða **Í bið**.
     - **Breyta bókunardagsetningu í fyrsta dag nýs tímabils þegar bókunardagsetningartímabil er lokað eða í bið** – Kerfið breytir bókunardagsetningu í fyrsta dag nýs opins tímabils, en aðeins ef samsvarandi tímabil bókunardagsetningar er með stöðuna **Lokið** eða **Í bið**.
+
+> [!NOTE]
+> Ef nýja bókunardagsetningin sem var sjálfvirk leiðrétt er á nýju reikningsári verður bókunardagsetning reikningsins ekki uppfærð. Notandinn mun fá villuna „Fjárhagsárið hefur breyst. Vinsamlegast athugaðu og sláðu inn birtingardagsetninguna aftur." Bókunardagsetning reiknings verður að uppfæra í nýja dagsetningu reikningsárs til að geta bókað.
 
 ## <a name="impact-of-posting-date-changes"></a>Áhrif breytinga á bókunardagsetningu
 

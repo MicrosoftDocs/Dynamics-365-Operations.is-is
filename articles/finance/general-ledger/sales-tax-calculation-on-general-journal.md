@@ -2,7 +2,7 @@
 title: Útreikningur á VSK-skatti í almennum færslubókarlínum
 description: Þetta efni útskýrir hvernig VSK-skattur er reiknaður fyrir mismunandi gerðir lykla (lánardrottna, viðskiptavina, fjárhag og verkefni) á almennum dagbókarlínum.
 author: EricWangChen
-ms.date: 04/22/2021
+ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 654917705400e0aecc7240e12f68d578827f6ad2
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
-ms.translationtype: HT
+ms.openlocfilehash: 684b38a4940ff00978201334d1db0cef87b79b35
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488312"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311955"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Útreikningur á VSK-skatti í almennum færslubókarlínum
 [!include [banner](../includes/banner.md)]
@@ -77,19 +77,9 @@ Eftirfarandi skýringarmynd sýnir regluna myndrænt.
 
 ### <a name="account-type-is-customer"></a>Lykilgerðin er Viðskiptavinur
 
-Ef fylgiskjalið er með færslubókarlínu þar sem lykilgerðin er **Viðskiptavinur** beita allar færslubókarlínur í fylgiskjalinu sömu skattastefnu. Eftirfarandi atriði sýna hugsanlegar skattaleiðbeiningar fyrir viðskiptavinalykla.
+Ef fylgiskjal hefur færslubókarlínu þar sem reikningsgerðin er **Viðskiptavinur**, allar færslubókarlínur í fylgiskjalinu gilda í sömu skattstefnu. 
 
-•   Ef VSK-skattsnúmerið er undanþegið skatti, þá er VSK-skattsstefnan Innkaup án skatts.
-
-•   Ef VSK-skattsnúmerið er VSK á milli fyrirtækja, þá er VSK-skattsstefnan Innskattur.
-
-•   Ef VSK-skattsnúmerið er bakfært gjald, þá er VSK-skattsstefnan Innskattur.
-
-Annars er stefna VSK-skatts Útskattur.
-
-Eftirfarandi skýringarmynd sýnir regluna myndrænt.
-
-![Möguleikar á skattastefnu vegna viðskiptavinalykla.](media/Sales-Tax-Direction-Customer.jpg)
+Ef söluskattskóðinn er undanþeginn skatti, þá er söluskattsstefna Tax Free Sale. Annars er stefna VSK-skatts Útskattur.
 
 ### <a name="account-type-is-ledger"></a>Lykilgerðin er Fjárhagur
 

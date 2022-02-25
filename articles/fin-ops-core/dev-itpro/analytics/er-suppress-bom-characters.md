@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e5f9379877e77f2824cd2dec9a1e68390b4eee8ba502e4011f0a8838b1974e3d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: b9265578deaff4100eb5987eb6090eaa12876044
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769949"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323741"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Hanna skilgreiningar rafrænnar skýrslugerðar til að útiloka BOM-stafi í mynduðum skrám
 
 [!include [banner](../includes/banner.md)]
 
-Hægt er að hanna [Rafræna skýrslugerðar](general-electronic-reporting.md)[lausn](er-quick-start1-new-solution.md) til að mynda skjöl á útleið. Til að mynda skölin sem texta eða XML-skrá verður lausnin að fela í sér [skilgreiningu](general-electronic-reporting.md#Configuration) rafrænnar skýrslugerðar sem inniheldur [sniðshlut](general-electronic-reporting.md#FormatComponentOutbound) rafrænnar skýrslugerðar. Til að tilgreina [stafakóðun](/windows/win32/intl/character-sets) sem stendur fyrir safn stafa í mynduðum skrám, verður snið rafrænnar skýrslugerðar að innihalda sniðseininguna **Algeng\\Skrá**. Til að skilgreina sniðsþátt rafrænnar skýrslugerðar skal opna útgáfu [draga](general-electronic-reporting.md#component-versioning) fyrir skilgreiningu rafrænnar skýrslugerðar í sniðshönnuði rafrænnar skýrslugerðar og bæta við einingunni **Algeng\\Skrá**. Í reitnum **Kóðun** skal tilgreina kóðun á skjölum á útleið sem eru mynduð við keyrslu með því að nota þennan þátt.
+Hægt er að hanna [Rafræna skýrslugerðar](general-electronic-reporting.md)[lausn](er-quick-start1-new-solution.md) til að mynda skjöl á útleið. Til að búa til skjölin sem texta eða XML skrár verður lausnin að innihalda ER [stillingar](general-electronic-reporting.md#Configuration) sem inniheldur ER-sniðshluta. Til að tilgreina [stafakóðun](/windows/win32/intl/character-sets) sem stendur fyrir safn stafa í mynduðum skrám, verður snið rafrænnar skýrslugerðar að innihalda sniðseininguna **Algeng\\Skrá**. Til að skilgreina sniðsþátt rafrænnar skýrslugerðar skal opna útgáfu [draga](general-electronic-reporting.md#component-versioning) fyrir skilgreiningu rafrænnar skýrslugerðar í sniðshönnuði rafrænnar skýrslugerðar og bæta við einingunni **Algeng\\Skrá**. Í reitnum **Kóðun** skal tilgreina kóðun á skjölum á útleið sem eru mynduð við keyrslu með því að nota þennan þátt.
 
 > [!NOTE]
 > Ef sniðið inniheldur rangt kóðunarheiti kemur upp villa þegar breytingarnar eru vistaðar í stillingum sniðsins.

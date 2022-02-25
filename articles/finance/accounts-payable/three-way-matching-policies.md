@@ -2,25 +2,25 @@
 title: Stefnur þríhliða jöfnunarregla
 description: Þetta efnisatriði gefur dæmi um þríhliða jöfnun.
 author: abruer
-ms.date: 10/26/2017
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d33a8cb001f1cd2f79c2a174710af90af423b9b3abc66eb80aa4811953ea4a14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: cffdc06216ce8ab1bfb79265f265bec1aee334c5
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722840"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109994"
 ---
 # <a name="three-way-matching-policies"></a>Stefnur þríhliða jöfnunarregla
 
@@ -42,15 +42,15 @@ Reikningsjöfnunarreglur í þessu dæmi hjálpa fólki í eftirfarandi hlutverk
 
 ### <a name="prerequisites"></a>Forkröfur
 
--   Ken stillir jöfnunarreglu sem á við lögaðila stigs í þríhliða jöfnun.
--   Ken setur er Sjálfkrafa uppfærslu haus jöfnun víxla stöðu í lögaðila á Já.
--   Ken stillir reitinn Samtölur verðsamræmis fyrir lögaðilann á Prósentu og færir inn 15% sem prósentu vikmarka.
--   Ken stillir jöfnunarreglu á atriðastigi vöru 1500 – CNC Milicron Vél á þríhliða jöfnun. Þessi vara er eignaliður sem er notaður fyrir framleiðslu hjá Fabrikam. Reikningar fyrir þessa vöru eru jafnaðir við innkaupapöntunarlínur fyrir verð og við innhreyfingarskjöl afurða fyrir magn.
+-   Ken setur **Samsvörunarstefna** á lögaðilastigi til **Þríhliða samsvörun**.
+-   Ken setur **Uppfærðu sjálfkrafa stöðu samsvörunar hausa** skipta á lögaðila til **Já**.
+-   Ken setur **Samsvarandi heildarverð** reit fyrir lögaðila til **Hlutfall**, og færir 15% sem **Umburðarprósenta**.
+-   Ken setur samsvörunarstefnuna á vörustigi fyrir vöru 1500 – CNC Milicron Machine til **Þríhliða samsvörun**. Þessi vara er eignaliður sem er notaður fyrir framleiðslu hjá Fabrikam. Reikningar fyrir þessa vöru eru jafnaðir við innkaupapöntunarlínur fyrir verð og við innhreyfingarskjöl afurða fyrir magn.
 -   Tony færir innkaupabeiðni fyrir fimm CNC Milicron Vélar. Alicia, afgreiðslumaður pantana hjá Fabrikam, gefur út innkaupapöntun til lögaðila sem heitir Contoso til að afhenda vörurnar.
 
     | Vörunúmer                 | Magn | Einingarverð | Nettóupphæð | Gjaldakóði        | Gildi gjalds |
     |-----------------------------|----------|------------|------------|---------------------|---------------|
-    | 1500 – CNC Milicron vél | 5        | 8.000,00   | 40.000,00  | Sending og afgreiðsla | 3,000.00      |
+    | 1500 – CNC Milicron vél | 5        | 8.000,00   | 40.000,00  | Sending og afgreiðsla | 3.000,00      |
 
 -   Arnie, starfsmaður viðskiptakrafa hjá Contoso, fer yfir sendingar vikunnar. Arnie velur sendingarfærslur til að reikningsfæra Fabrikam fyrir afhendingu CNC Milicron Vélar. Arnie setur með gjöld fyrir sending og afgreiðslu. Fabrikam mun telja að gjöldin séu hluti af kostnaði eignarinnar.
 
@@ -65,7 +65,7 @@ Reikningsjöfnunarreglur í þessu dæmi hjálpa fólki í eftirfarandi hlutverk
 
 Pappírsreikningur frá Contoso inniheldur eftirfarandi upplýsingar.
 
-| vara                        | Magn | Einingarverð | Nettóupphæð |
+| Vara                        | Magn | Einingarverð | Nettóupphæð |
 |-----------------------------|----------|------------|------------|
 | 1500 – CNC Milicron vél | 5        | 8.100,00   | 40,500.00  |
 | Sending og afgreiðsla       |          |            | 4,000.00   |
@@ -91,11 +91,11 @@ Reikningsjöfnunarreglur í þessu dæmi hjálpa fólki í eftirfarandi hlutverk
 
 ### <a name="prerequisites"></a>Forkröfur
 
--   Ken stillir jöfnunarreglu sem á við lögaðila stigs í tvíhliða.
--   Ken stillir reitinn Samtölur verðsamræmis fyrir lögaðilann á Prósentu og færir inn 10% sem prósentu vikmarka.
+-   Ken setur **Samsvörunarstefna** á lögaðilastigi til **Tvíhliða samsvörun**.
+-   Ken setur **Samsvarandi heildarverð** reit fyrir lögaðila til **Hlutfall**, og gengur inn **10%** sem **Umburðarprósenta**.
 -   Ken stillir vikmörk einingarverðs fyrir allar vörur á 2%.
--   Cassie stillir jöfnunarregluna á samsetningarstig vöru og lánardrottins fyrir vöru PH2500 – Tölvu og lánardrottinn Contoso á þríhliða jöfnun.
--   Alicia, afgreiðslumaður pantana í útibúi Fabrikam í Malasíu, gefur út innkaupapantanir til Contoso til að afhenda vörurnar þrjár, eins og sýnt er í eftirfarandi töflu. Þegar hún stofnar innkaupapöntun, hnekkir hún jöfnunarreglu fyrir þráðlausa mús í þríhliða jöfnun í stað tvíhliða jöfnunar.
+-   Cassie setur **Samsvörunarstefna** á samsetningarstigi vöru og lánardrottins fyrir vöru PH2500 – Tölva og söluaðili Contoso til **Þríhliða samsvörun**.
+-   Alicia, afgreiðslumaður pantana í útibúi Fabrikam í Malasíu, gefur út innkaupapantanir til Contoso til að afhenda vörurnar þrjár, eins og sýnt er í eftirfarandi töflu. Þegar hún stofnar innkaupapöntunina hnekkir hún **Samsvörunarstefna** að þráðlausa músin sé þríhliða samsvörun í stað tvíhliða.
 
     | Vörunúmer           | Magn | Einingarverð | Nettóupphæð | Jöfnunarregla (sjálfgefin) | Jöfnunarregla (á innkaupapöntunarlínu) |
     |-----------------------|----------|------------|------------|---------------------------------|----------------------------------------------|
@@ -114,7 +114,7 @@ Reikningsjöfnunarreglur í þessu dæmi hjálpa fólki í eftirfarandi hlutverk
 
 Pappírsreikningur frá Contoso inniheldur eftirfarandi upplýsingar.
 
-| vara                  | Magn | Einingarverð | Nettóupphæð |
+| Vara                  | Magn | Einingarverð | Nettóupphæð |
 |-----------------------|----------|------------|------------|
 | PH2500 - Tölva     | 2        | 2.500,00   | 5.000,00   |
 | MM01 – Þráðlaus mús | 2        | 41.00      | 82.00      |
@@ -134,7 +134,7 @@ Athugið eftirfarandi vörur:
 -   Fyrir MM01 – Þráðlaus mús, dálkurinn Magnjöfnun innhreyfingarskjals afurða hefur viðvörunartákn þar sem reikningslínan er ekki jöfnuð við innhreyfingarskjal afurða. Dálkurinn Jöfnun einingarverðs hefur viðvörunartákn þar sem farið er fram úr 2% verðvikmörkum nettóeiningaverðs.
 -   Fyrir línu USB-drifs er dálkurinn Magnjöfnun innhreyfingarskjals afurða auður þar sem tvíhliða jöfnun jafnast ekki við magn reikningslínu og magn línu innhreyfingarskjals afurða.
 
-Ef samþykkis er krafist fyrir reikninga sem á að bóka með jöfnunarmisræmi verður að velja Samþykkja bókun með misræmi víxla á Reikningnum samsvarandi upplýsingasíða áður en hægt er að bóka reikning með jöfnunarvillu verðs og jöfnunarvillur magns. Ef samþykkis er krafist, úrvinnslu reikninga getur haldið áfram ef engar aðrar bókunarvillur eru til staðar.
+Ef samþykkis þarf til að reikningar séu bókaðir með misræmi í samsvörun reikninga, skal **Samþykkja færslu með samsvarandi misræmi** kveikja á **Samsvörunarupplýsingar reikninga** síðu verður að velja áður en hægt er að bóka reikninginn með verðsamsvörunarvillum og magnsamsvörunarvillum. Ef samþykkis er krafist, úrvinnslu reikninga getur haldið áfram ef engar aðrar bókunarvillur eru til staðar.
 
 
 Nánari upplýsingar er að finna í [Yfirlit yfir reikningsjöfnun viðskiptaskulda](accounts-payable-invoice-matching.md).

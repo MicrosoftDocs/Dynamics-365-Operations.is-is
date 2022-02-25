@@ -2,7 +2,7 @@
 title: Úrræðaleit fyrir vandamál varðandi uppsetningu fjármálainnsýnar
 description: Í þessu efnisatriði eru talin upp vandamál sem geta komið upp þegar möguleikar fjármálainnsýnar eru notaðir. Þar er einnig útskýrt hvernig á að laga þessi vandamál.
 author: panolte
-ms.date: 01/29/2022
+ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: f77cddfdab22bef8af7f62d49723e330c4f13261
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: HT
+ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064867"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109861"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Úrræðaleit fyrir vandamál varðandi uppsetningu fjármálainnsýnar
 
@@ -54,7 +54,7 @@ Fylgdu eftirfarandi skrefum í [Power Platform stjórnendamiðstöð](https://ad
 1. Ef þú ert að nota forútgáfu fjármálainnsýnar skaltu fjarlægja DI-verkið sem er tengt við sniðmátið **Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops)**.
 2. Fylgdu skrefunum í [Stofna gagnasamþættingarverk](create-data-integrate-project.md). Notaðu sniðmátið **Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops 10.0.17 og síðar)**.
 
-## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Einkenni: Þegar ég reyni að opna AI Builder af hverju fæ ég eftirfarandi villuboð með því að nota tenglana á uppsetningarsíðunni fyrir greiðsluspá viðskiptavinar: „Því miður, það hefur verið sambandsleysi“?
+## <a name="symptom-when-i-try-to-open-ai-builder-by-using-the-links-on-the-customer-payment-predictions-setup-page-why-do-i-receive-the-following-error-message-sorry-theres-been-a-disconnect"></a>Einkenni: Þegar ég reyni að opna AI Builder með því að nota tenglana á uppsetningarsíðunni fyrir greiðsluspá viðskiptavina, hvers vegna fæ ég eftirfarandi villuboð: "Því miður, það hefur verið sambandsleysi"?
 
 ### <a name="resolution"></a>Upplausn
 
@@ -84,7 +84,7 @@ Ef réttu öryggishlutverki verkefnisins er úthlutað þér gætirðu þurft a�
 
 Eftirfarandi skref ætti að hafa verið lokið.
 
-- Staðfestu að þú hafir **Kerfisstjóri** og **Kerfisaðlögun** aðgangur í Power Portal stjórnunarmiðstöðinni.
+- Staðfestu að þú hafir **Kerfisstjóri** og **Kerfisaðlögun** aðgang í Power Portal stjórnunarmiðstöðinni.
 - Staðfestu að a Dynamics 365 Finance eða sambærilegt leyfi er beitt fyrir notandann sem er að setja upp viðbótina.
 - Staðfestu að eftirfarandi Azure AD app er skráð í Azure AD: 
 
@@ -111,6 +111,14 @@ Fyrir frekari upplýsingar um hvernig á að stilla **Tímanlega**, **·**, og *
 
 ### <a name="resolution"></a>Upplausn
 
-The **Sjóðstreymisspá** líkanþjálfun krefst gagna sem spanna meira en eitt ár og innihalda meira en 100 færslur. Þessar færslur verða að hafa áhrif á lausafjárreikninga sem eru innifalin í uppsetningu sjóðstreymisspár.
+The **Sjóðstreymisspá** líkanþjálfun krefst gagna sem innihalda 100 eða fleiri færslur sem spanna meira en ár. Við mælum með að þú hafir að minnsta kosti tveggja ára gögn með meira en 1.000 færslum.
 
-The **Greiðsluspá viðskiptavina** þarf að minnsta kosti 100 reikninga og greiðslufærslur viðskiptavina á síðustu sex til níu mánuðum til að búa til spár.  
+The **Greiðsluspá viðskiptavina** eiginleiki krefst meira en 100 færslur á síðustu sex til níu mánuðum. Færslurnar geta falið í sér ókeypis textareikninga, sölupantanir og greiðslur viðskiptavina. Þessum gögnum verður að dreifa yfir **Tímanlega**, **·**, og **Mjög seint** stillingar sem eru skilgreindar á **Stillingar** síðu.    
+
+The **Fjárlagafrumvarp** eiginleiki krefst að minnsta kosti þriggja ára fjárhagsáætlunar eða raunverulegra gagna. Þessi lausn notar þriggja til tíu ára gögn í áætlunum. Meira en þrjú ár munu skila betri árangri. Gögnin sjálf virka best þegar breytileiki er í gildunum. Ef gögnin innihalda öll stöðug gögn, svo sem leigukostnað, gæti þjálfunin mistekist vegna þess að skortur á breytileika krefst ekki gervigreindar til að varpa fram upphæðunum.
+
+## <a name="symptom-error-message-states-that-the-table-with-name-msdyn_paypredpredictionresultentities-does-not-exist-the-remote-server-returned-an-error-404-not-found"></a>Einkenni: Villuskilaboð segja að „tafla með nafni, 'msdyn_paypredpredictionresultenities' er ekki til. Fjarþjónninn skilaði villu: (404) Fannst ekki…"
+
+### <a name="resolution"></a>Upplausn
+
+Umhverfið hefur náð hámarks töflumörkum Data Lake Services. Fyrir frekari upplýsingar um mörkin, sjáðu **Virkja næstum rauntíma gagnabreytingar** kafla efnið, [Flytja út í Azure Data Lake yfirlit](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md).

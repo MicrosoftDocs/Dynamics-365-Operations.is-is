@@ -2,25 +2,22 @@
 title: Staðfesta sendingar á útleið úr runuvinnslum
 description: Þetta efnisatriði lýsir því hvernig setja á upp runuvinnslu sem staðfestir sjálfkrafa sendingar flutningspantana á útleið fyrir farma sem eru tilbúnir fyrir afhendingu.
 author: perlynne
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 41dbfb90b7b19c964e725ee0a4c769402414fb17
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: f68dcfc0c1454ee5b095e186c52faa6c83bf8dc6
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430098"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103916"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>Staðfesta sendingar á útleið úr runuvinnslum
 
@@ -28,12 +25,9 @@ ms.locfileid: "4430098"
 
 Þetta efnisatriði lýsir því hvernig setja á upp runuvinnslu sem staðfestir sjálfkrafa sendingar flutningspantana á útleið fyrir farma sem eru tilbúnir fyrir afhendingu. Runuvinnslan sem lýst er hér gildir aðeins um sendingar flutningspantana, ekki sölupantanir.
 
-## <a name="enable-the-confirm-outbound-shipments-from-batch-jobs-feature"></a>Virkja eiginleikann Staðfesta sendingar á útleið úr runuvinnslum
+## <a name="turn-the-confirm-outbound-shipments-from-batch-jobs-feature-on-or-off"></a>Kveiktu eða slökktu á eiginleikanum Staðfesta sendingar á útleið úr runuvinnu
 
-Áður en hægt er að nota þennan eiginleika þarf að virkja hann í kerfinu. Stjórnendur geta notað síðuna [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og virkjað hann ef þörf krefur. Eiginleikinn er skráður sem:
-
-- **Eining** - *Vöruhúsakerfi*
-- **Heiti eiginleika** - *Staðfesta sendingar á útleið úr runuvinnslum*
+Til að nota virknina sem lýst er í þessu efni, er *Staðfestu sendingar á útleið frá runuvinnu* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Staðfestu sendingar á útleið frá runuvinnu* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="process-outbound-shipments"></a>Vinna úr sendingum á útleið
 
@@ -54,3 +48,6 @@ Til að setja upp áætlaða runuvinnslu til að keyra staðfestingu á sendingu
 1. Veljið **Í lagi** í svarglugganum **Staðfesta sendingu** til að bæta runuvinnslunni við runubiðröðina.
 
 Nánari upplýsingar er að finna í [Yfirlit runuvinnslu](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,30 +1,27 @@
 ---
 title: Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði
 description: Sjálfgefið pöntunarstillingar skilgreina svæði og vöruhús þar sem afurðir verða upprunnin frá eða geymdar, í lágmarks, hámarks, margar og staðlaðs magns sem verða notuð fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg, og aðferðina pöntun lofað.
-author: t-benebo
-manager: tfehr
+author: johanhoffmann
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430626"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102764"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði
 
@@ -118,9 +115,9 @@ Hægt er að tilgreina sjálfgefnar pantanastillingar sem eiga við allar virkar
 
 Íhugið eftirfarandi dæmi um vöru:
 
-|                                                     |                                         |
+| vara                                                | Virði                                   |
 |-----------------------------------------------------|-----------------------------------------|
-| **Afurðarheiti**                                    | Ljósnemi                    |
+| **Afurðarnafn**                                    | Ljósnemi                    |
 | **Vörunúmer**                                     | XW56                                    |
 | **Skilgreining** (notað til að sníða til gerð ljóss) | C1 Sýnilegt rautt ljós, C2 innrautt ljós |
 | **Útgáfa** | V1, V2, V3                              |
@@ -189,12 +186,9 @@ Hægt er að velja hversu ítarlegt kerfið á að vera þegar það staðfestir
 
 Ítarleg staðfesting nær yfir gildi **Staðlaðs magn í pöntun** sem tiltekið er í flýtiflipunum **Innkaupapöntun**, **Birgðir** og **Sölupöntun** á síðunni **Sjálfgefnar pöntunarstillingar**. Hver flýtiflipi er með eigin stillingu á **Margfeldi**, sem er notað til að staðfesta gildið **Staðlað magn í pöntun** sem tiltgreint er fyrir þann flýtiflipa.
 
-### <a name="enable-the-strict-validation-option"></a>Kveikja á valkosti ítarlegrar staðfestingar
+### <a name="turn-the-strict-validation-option-on-or-off"></a>Kveiktu eða slökktu á stranga staðfestingarvalkostinum
 
-Áður en hægt er að nota þennan ítarlega valkost, þarf að virkja hann í kerfinu. Stjórnendur geta notað síðuna [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og virkjað hann ef þörf krefur. Hérna er eiginleikinn skráður sem:
-
-- **Eining** - *Afurðaupplýsingastjórnun*
-- **Heiti eiginleika** - *Ítarleg staðfesting á sjálfgefnu pöntunarmagni*
+Til að nota stranga staðfestingu, *Strangt löggilding á sjálfgefnu pöntunarmagni* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geturðu kveikt eða slökkt á þessari virkni með því að fara á [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og að leita að *Strangt löggilding á sjálfgefnu pöntunarmagni* eiginleiki.
 
 ### <a name="set-the-validation-option"></a>Stilla valkost staðfestingar
 
@@ -204,3 +198,6 @@ Til að stilla staðfestingarvalkostinn:
 1. Í flipanum **Almennt** skal stilla **Staðfesting á sjálfgefnu pöntunarmagni** á eitt af eftirfarandi gildum:
     - **Ítarlegt** - Veljið þennan valkost til að tryggja að öll gildin fyrir **Staðlað magn í pöntun** verði margfeldi af gildinu **Margfeldi** fyrir hvern flýtiflipa (**Innkaupapöntun**, **Birgðir** og **Sölupöntun**).
     - **Staðlað** - Veljið þennan valkost til að nota staðlaða staðfestingu (sem virkar á sama hátt og þegar þessi eiginleiki er ekki virkur).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

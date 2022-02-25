@@ -2,26 +2,23 @@
 title: Staðfesta og flytja
 description: Í þessu efnisatriði er útskýrt hvernig á að nota eiginleikann „Staðfesta og flytja“, sem gerir notendum kleift að senda farma úr vöruhúsinu áður en allri vinnu er lokið sem tengist þessum förmum.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 7b487684980f60112d9af6bea02672f7e919c834
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430100"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103590"
 ---
 # <a name="confirm-and-transfer"></a>Staðfesta og flytja
 
@@ -48,20 +45,17 @@ Aðeins er hægt að skipta upp farmi sem uppfyllir öll eftirfarandi skilyrði:
 
 - Ein eða fleiri farmlínur eru með tínt magn.
 - Hleðslustaðan er minni en það sem hlaðið er.
-- Engin farmlínugögn eru til. (Þessi gögn eru stofnuð í gegnum sameiningu númeraplötu á geymslustaðsetningu og eiginleikinn *Staðfesta og flytja* styður ekki sameiningu númeraplötu.)
-- Engar birgðir bíða pökkunar á pökkunarstaðsetningu sem stendur. (Eiginleikinn *Staðfesta og flytja* styður ekki birgðir sem hafa verið tíndar yfir á pökkunarstöðina en hefur ekki verið pakkað ennþá.)
+- Engin farmlínugögn eru til. (Þessi gögn eru stofnuð í gegnum sameiningu númeraplötu á geymslustaðsetningu og eiginleikinn Staðfesta og flytja styður ekki sameiningu númeraplötu.)
+- Engar birgðir bíða pökkunar á pökkunarstaðsetningu sem stendur. (Eiginleikinn *Staðfesta og flytja* styður ekki birgðir sem hafa verið tíndar yfir á pökkunarstöðina en hefur ekki verið pakkað ennþá nema ef gámar sem hafa verið pakkaðir eru staðsettir á geymslustaðsetningum með hleðsluvinnu stofnaða.)
 
 > [!NOTE]
 > Þessi virkni er frábrugðin virkni farmflutnings, sem ætti að nota í vöruhúsum sem geta aldrei áætlað og búið til farm á undan tiltekt, en í staðinn hlaða tiltækt flutningspláss eftir að tiltekt lýkur.
 >
 > Notið eiginleikann *Staðfesta og flytja* í aðstæðum þar sem farmar eru venjulega áætlaðir og búnir til fyrir tíma, en þar sem undantekningar koma stundum fyrir þar sem farmurinn passar ekki í tiltækan flutning (t.d. í flutningabíl).
 
-## <a name="turn-on-confirm-and-transfer"></a>Kveikja á staðfesta og flytja
+## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Kveiktu eða slökktu á staðfestingar- og flutningsaðgerðinni
 
-Áður en hægt er að nota eiginleikann *Staðfesta og flytja* þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
-
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Staðfesta og flytja*
+Til að nota virknina sem lýst er í þessu efni, er *Staðfesta og flytja* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Staðfesta og flytja* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="set-up-confirm-and-transfer"></a>Setja upp staðfesta og flytja
 
@@ -230,3 +224,6 @@ Einnig er hægt að staðfesta að tengsl milli færslna hafi verið uppfærð �
 - Valkosturinn **Skipta magni á nýjan farm** virkar einnig þegar einhverjir af eftirstandandi verkhausum eru með stöðuna *Í vinnslu*. Þess vegna er enn hægt að nota virknina jafnvel þótt starfsmenn séu þegar byrjaðir að keyra tiltektarpantanirnar.
 - Ef valið er **Hætta við óuppfyllt magn** á meðan til er verk með stöðuna *Opið* eða *Í vinnslu*, birtast eftirfarandi villuboð: „Ekki er hægt að hætta við eftirstandandi magn fyrir farm. Vinna er til fyrir farm.“
 - Ef valið er **Hætta við óuppfyllt magn** þegar ekkert verk er eftir, en ólosaðar farmlínur eru til fyrir farminn, birtast eftirfarandi villuboð: „Ekki var hægt að staðfesta sendinguna fyrir farm vegna þess að magnið fyrir vöru fer yfir þá prósentu sem skilgreind er fyrir undirafhendingu.“ Til að koma í veg fyrir villuna er hægt að stilla prósentu fyrir **Undir afhendingu** í ólosaðri farmlínu á 100 prósent. Ólosaðar línur verða ekki fluttar á nýjan farm, en núverandi farmur verður staðfestur með undirafhendingu. Í þessu tilfelli verður ekki hægt að endurlosa upprunalega pöntun. Því verður að meðhöndla hana á annan hátt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

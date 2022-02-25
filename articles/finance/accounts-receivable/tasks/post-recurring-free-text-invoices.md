@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0389db98c00f8ad98a9cf919a21110c31206949199f06328782d25e9c415b315
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 3d30dd5ba29ee34784921047627642644c0c4ab2
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762164"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182480"
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Mynda og bóka endurtekna reikninga með frjálsum texta
 
@@ -30,17 +30,17 @@ Endurteknir reikningar eru notaðar til að reikningsfæra viðskiptavini reglul
 ## <a name="generate-recurring-invoices"></a>Búa til endurtekna reikninga
 
 ## <a name="post-recurring-invoices"></a>Bóka endurtekna reikninga
-1. Fara í Viðskiptakröfur > Reikningar > Endurteknir reikningar > Bóka endurtekna reikninga.
+1. Fara til **Viðskiptakröfur > Reikningar > Endurteknir reikningar > Bókaðu endurtekna reikninga**.
     * Notið þessa síðu til að skoða og prenta endurtekna reikninga sem hafa þegar verið búnir til.  
 2. Í listanum skal smella á tengilinn í valinni línu.
     * Velja flokk endurtekins reiknings.  
-3. Smellið á „Samtölur“.
+3. Smelltu á **Samtölur**.
     * Staðfesta samtölur fyrir flokkinn endurtekins reiknings.  
-4. Smellið á „Loka“.
-    * Hver lína fyrir neðan er endurtekna reikningur með frjálsum texta. Veljið línu og smellið á hnappinn "Upplýsingar" til að skoða upplýsingar um reikningur með frjálsum texta.  
-5. Smella á Villuleita.
+4. Smellið á **Loka**.
+    * Hver lína fyrir neðan er endurtekna reikningur með frjálsum texta. Þú getur valið línu og smellt **Upplýsingar** hnappinn til að skoða ókeypis textareikningsupplýsingar.  
+5. Smelltu á **Villuleita**.
     * Staðfestið að valda reikninga ekki innihalda villur, en ekki bóka reikningana.  
-6. Smellið á „Bóka“.
+6. Smelltu á **Bóka**.
     * Bóka valda reikninginn  
 
 

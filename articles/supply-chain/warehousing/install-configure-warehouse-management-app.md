@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 54962b48dee05b2cd62fd3ea8814e4c965ba7818
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: HT
+ms.openlocfilehash: 812dd30e0e444bc310fc81edd16958e0c0747885
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069380"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103414"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Setja upp og tengja farsímaforrit vöruhúsakerfis
 
@@ -39,12 +39,9 @@ Farsímaforrit vöruhúsakerfisins er í boði fyrir bæði stýrikerfi Windows 
 - Windows 10 (Universal Windows Platform \[UWP\]) október 2018 uppfærsla 1809 (smíði 10.0.17763) eða nýrri
 - Android 4.4 eða nýrra
 
-## <a name="turn-on-the-feature"></a>Kveikja á eiginleikanum
+## <a name="turn-warehouse-management-mobile-app-features-or-or-off-in-supply-chain-management"></a>Slökktu eða slökktu á eiginleikum vöruhúsastjórnunar farsímaforrits í Supply Chain Management
 
-Áður en hægt er að nota forritið verður að vera kveikt á eiginleikanum í kerfinu. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
-
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Notandastillingar, tákn og titlar skrefa fyrir nýja vöruhúsaforritið*
+Til að nota Warehouse Management farsímaforritið, *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* kveikt verður á eiginleikanum í kerfinu þínu. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Sækja farsímaforrit vöruhúsakerfis
 
@@ -144,7 +141,7 @@ Hægt er að nota vottorð sem leyniorð til að sanna auðkenni forrits þegar 
 
 Nauðsynlegt er að gera vottorð aðgengilegt staðbundið á hverju tæki sem keyrir farsímaforrit Vöruhúsakerfis. Upplýsingar um hvernig á að stjórna vottorðum fyrir Intune-stýrð tæki, ef verið er að nota Intune, eru í [Nota vottorð fyrir sannvottun í Microsoft Intune](/mem/intune/protect/certificates-configure).
 
-## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Stilltu Warehouse Management farsímaforritið fyrir skýja- og brúnkvarðaeiningar
+## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Grunnstilla farsímaforrit Warehouse Management fyrir einingakvarða skýja og jaðra
 
 Nokkur auka skref eru nauðsynleg ef þú ætlar að keyra vöruhússtjórnun farsímaforritið á móti skýja- eða brúnkvarðaeiningu. Fyrir leiðbeiningar, sjá [Stilltu Warehouse Management farsímaforritið fyrir skýja- og brúnkvarðaeiningar](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
@@ -310,6 +307,6 @@ Ef tæki týnist eða hefur orðið fyrir árás þarf að fjarlægja aðgang þ
 
 - [Notandastillingar fartækis](mobile-device-user-settings.md)
 - [Úthluta skrefatáknum og titlum fyrir Warehouse Management farsímaforritið](step-icons-titles.md)
-- [Stilltu Warehouse Management farsímaforritið fyrir skýja- og brúnkvarðaeiningar](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
+- [Grunnstilla farsímaforrit Warehouse Management fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

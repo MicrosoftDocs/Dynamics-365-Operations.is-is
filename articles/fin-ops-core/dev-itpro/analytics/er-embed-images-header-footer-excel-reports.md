@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 20bcf26e1510634c5ee7043576a480ce15889923
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344121"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323776"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Hanna snið rafrænnar skýrslugerðar til að búa til skýrslu á Excel-sniði með myndum sem eru felldar inn í síðuhausa eða -fætur
 
@@ -153,9 +153,9 @@ Til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núver
 3. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan**.
 4. Til viðbótar við valið ER-snið **Reiknings með frjálsum texta (Excel)** voru aðrar áskildar skilgreiningar rafrænnar skýrslugerðar fluttar inn. Gangið úr skugga um að eftirfarandi skilgreiningar rafrænnar skýrslugerðar séu í boði í skilgreiningartrénu:
 
-    - **Reikningslíkan** – Þessi skilgreining inniheldur hlutann [gagnalíkan](general-electronic-reporting.md#data-model-and-model-mapping-components) í rafrænni skýrslugerð sem táknar gagnaskipulag fyrir viðskiptalén reikningsfærslna.
-    - **Vörpun reikningslíkans** – Þessi skilgreining inniheldur hlutann [líkanavörpun](general-electronic-reporting.md#data-model-and-model-mapping-components) fyrir rafræna skýrslugerð sem lýsir því hvernig gagnalíkanið er fyllt út með forritsgögnum við keyrslu.
-    - **Reikningur með frjálsum texta (Excel)** – Þessi skilgreining inniheldur hlutann [snið](general-electronic-reporting.md#FormatComponentOutbound) og sniðsvörpun í rafrænni skýrslugerð. Sniðshlutinn tilgreinir útlit skýrslunnar út frá sniðmáti á Excel-sniði. Sniðsvörpunarhlutinn inniheldur gagnagjafa líkansins og tilgreinir hvernig þessi gagnagjafi er notaður til að fylla út skýrsluútlitið á keyrslutíma.
+    - **Reikningslíkan** – Þessi uppsetning inniheldur gagnalíkanið ER íhlut sem táknar gagnaskipulag reikningsviðskiptaléns.
+    - **Kortlagning reikningslíkana** – Þessi uppsetning inniheldur líkanakortlagningu ER íhlutinn sem lýsir því hvernig gagnalíkanið er fyllt út með forritsgögnum á keyrslutíma.
+    - **Ókeypis textareikningur (Excel)** – Þessi uppsetning inniheldur snið- og sniðkortlagningu ER hluti. Sniðshlutinn tilgreinir útlit skýrslunnar út frá sniðmáti á Excel-sniði. Sniðsvörpunarhlutinn inniheldur gagnagjafa líkansins og tilgreinir hvernig þessi gagnagjafi er notaður til að fylla út skýrsluútlitið á keyrslutíma.
 
 ![Innfluttar ER grunnstillingar á skilgreiningasíðunni.](./media/er-embed-images-header-footer-excel-reports-imported-solution.png)
 

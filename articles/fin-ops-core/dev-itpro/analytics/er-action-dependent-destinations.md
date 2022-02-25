@@ -2,11 +2,9 @@
 title: Skilgreina áfangastaði rafrænnar skýrslugerðar sem eru háðir aðgerð
 description: Þetta efnisatriði útskýrir hvernig á að skilgreina áfangastað sem eru háðir aðgerð fyrir snið rafrænnar skýrslugerðar sem er skilgreint til að mynda skjöl á útleið.
 author: NickSelin
-manager: AnnBe
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea7543fddef085cfd1e92edf0b1dabf6d0aac38a
-ms.sourcegitcommit: 5264aaec3723c40a219e4d2867afe1ba9cc5f2a2
-ms.translationtype: HT
+ms.openlocfilehash: e0c836d4a0be47b753d74dc9d6d40ea7d9197176
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5153640"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323980"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Skilgreina áfangastaði rafrænnar skýrslugerðar sem eru háðir aðgerð
 
 [!include [banner](../includes/banner.md)]
 
-Hægt er að skilgreina [áfangastaði](electronic-reporting-destinations.md) fyrir hvern úttakshlut (möppu eða skrá) fyrir [skilgreiningu rafræns skýrslugerðarsniðs](general-electronic-reporting.md) [sem](general-electronic-reporting.md#FormatComponentOutbound) er notað [til](general-electronic-reporting.md#Configuration) að mynda skjal á útleið. Notendur sem keyra snið rafrænnar skýrslugerðar af þessari gerð og eru með viðeigandi aðgangsréttindi geta einnig breytt stillingum skilgreinds áfangastaðar við keyrslu.
+Þú getur stillt [áfangastaði](electronic-reporting-destinations.md) fyrir hvern úttakshluta (möppu eða skrá) í [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) sniði [uppsetningu](general-electronic-reporting.md#Configuration) sem er notað til að búa til skjal á útleið. Notendur sem keyra snið rafrænnar skýrslugerðar af þessari gerð og eru með viðeigandi aðgangsréttindi geta einnig breytt stillingum skilgreinds áfangastaðar við keyrslu.
 
 Í Microsoft Dynamics 365 Finance **útgáfu 10.0.17 og nýrri** er hægt að keyra snið rafrænnar skýrslugerðar með því að [úthluta](er-apis-app10-0-17.md) aðgerðarkóða sem notandi notar með því að keyra það snið rafrænnar skýrslugerðar. Til dæmis í einingunni **Viðskiptakröfur**, í stillingum prentstýringar, er hægt að velja snið rafrænnar skýrslugerðar sem myndar ákveðið viðskiptaskjal á borð við reikning með frjálsum texta. Síðan er hægt að velja **Skoða** til að forskoða reikning eða **Prenta** til að senda hann til prentara. Ef notandaaðgerð er gerð fyrir keryslu á sniði rafrænnar skýrslugerðar við keyrslu er hægt að skilgreina mismunandi áfangastaði rafrænnar skýrslugerðar fyrir mismunandi notandaaðgerðir. Þetta efnisatriði útskýrir hvernig á að skilgreina áfangastaði rafrænnar skýrslugerðar fyrir þessa gerð rafræns skýrslugerðarsniðs.
 
@@ -62,7 +60,7 @@ Ef skjalagerðin **Hvað sem er** er valin verður **Leita sjálfkrafa** sjálfk
     - Þegar aðgerðin **Senda** er gefin upp við keyrslu verður áfangastaðurinn **Tölvupóstur** fyrir rafræna skýrslugerð notaður.
     - Þegar aðgerðin **Prenta** er gefin upp við keyrslu verður áfangastaðurinn **Prentari** fyrir rafræna skýrslugerð notaður.
 
-Til dæmis er hægt nota rafræna skýrslugerðarsniðið **Reikningur með frjálsum texta (Excel)** til að prenta [reikning með frjálsum texta](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) þegar hann er bókaður. Til að beina mynduðu skjali eitthvert þarf að skilgreina áfangastaði rafrænnar skýrslugerðar fyrir þetta snið rafrænnar skýrslugerðar. Til dæmis gæti þurft að skilgreina þessa áfangastaði rafrænnar skýrslugerðar til að framkvæma eftirfarandi fyrir myndað skjal:
+Til dæmis er hægt nota rafræna skýrslugerðarsniðið **Reikningur með frjálsum texta (Excel)** til að prenta [reikning með frjálsum texta](../../../finance/accounts-receivable/create-free-text-invoice-new.md) þegar hann er bókaður. Til að beina mynduðu skjali eitthvert þarf að skilgreina áfangastaði rafrænnar skýrslugerðar fyrir þetta snið rafrænnar skýrslugerðar. Til dæmis gæti þurft að skilgreina þessa áfangastaði rafrænnar skýrslugerðar til að framkvæma eftirfarandi fyrir myndað skjal:
 
 - Safnvista skjalinu ef snið rafrænnar skýrslugerðar er keyrt en enginn aðgerðarkóði er gefinn upp (til dæmis þegar skjalið er sent rafrænt).
 - Forskoða skjalið í vafra þegar notandi framkvæmir aðgerðina **Skoða**.
@@ -71,11 +69,11 @@ Til dæmis er hægt nota rafræna skýrslugerðarsniðið **Reikningur með frj�
 
 Eftirfarandi mynd sýnir hvernig hægt er að ná þessu fram með því að skilgreina áfangastaði rafrænnar skýrslugerðar sem safn stakra viðtökufærslna þegar hver færsla er skilgreind fyrir eina aðgerð notanda:
 
-![Viðtökusíða rafrænnar skýrslugerðar sem er með aðgerðarháðar stillingar áfangastaðar fyrir snið rafrænnar skýrslugerðar þegar hver viðtökufærsla er skilgreind fyrir eina aðgerð notanda](./media/er-destination-action-dependent-01.png)
+![Viðtökusíða rafrænnar skýrslugerðar sem er með aðgerðarháðar stillingar áfangastaðar fyrir snið rafrænnar skýrslugerðar þegar hver viðtökufærsla er skilgreind fyrir eina aðgerð notanda.](./media/er-destination-action-dependent-01.png)
 
 Eftirfarandi mynd sýnir hvernig hægt er að ná því sama fram með því að skilgreina áfangastaði rafrænnar skýrslugerðar sem safn stakra viðtökufærslna þegar hver færsla er skilgreind fyrir einn áfangastað:
 
-![Viðtökusíða rafrænnar skýrslugerðar sem er með aðgerðarháðar stillingar áfangastaðar fyrir snið rafrænnar skýrslugerðar þegar hver viðtökufærsla er skilgreind fyrir einn áfangastað](./media/er-destination-action-dependent-01a.png)
+![Viðtökusíða rafrænnar skýrslugerðar sem er með aðgerðarháðar stillingar áfangastaðar fyrir snið rafrænnar skýrslugerðar þegar hver viðtökufærsla er skilgreind fyrir einn áfangastað.](./media/er-destination-action-dependent-01a.png)
 
 > [!NOTE]
 > Ef aðgerðarkóði er gefinn upp fyrir keyrslu rafræns skýrslugerðarsniðs, en engir áfangastaðir hafa verið skilgreindir fyrir þann aðgerðarkóða, verður [sjálfgefinn](electronic-reporting-destinations.md#default-behavior) áfangastaður notaður.
@@ -84,9 +82,9 @@ Eftirfarandi mynd sýnir hvernig hægt er að ná því sama fram með því að
 
 Þegar snið rafrænnar skýrslugerðar er keyrt, ef notandaaðgerðum hefur verið úthlutað af notendum sem eru með tilheyrandi [heimildir](electronic-reporting-destinations.md#security-considerations) til að breyta skilgreindum stillingum áfangastaðar við keyrslu, birtist svargluggi sem býður upp á möguleikann á því að breyta stillingum skilgreinds áfangastaðar. Þessi svargluggi er valfrjáls og útlit hans veltur á því hvernig kallið, sem rammi rafrænnar skýrslugerðar gerir til að keyra snið rafrænnar skýrslugerðar, hefur verið innleitt. Ef þessi svargluggi birtist verða áfangastaðir rafrænnar skýrslugerðar í honum virkjaðir samkvæmt aðgerð notanda sem er gefin upp.
 
-Eftirfarandi mynd sýnir dæmi um svargluggann **Áfangastaðir rafræns skýrslugerðarsniðs** sem birtist þegar reikningur með frjálsum texta er [bókaður](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) og rafræna skýrslugerðarsniðið **Reikningur með frjálsum texta (Excel)** er keyrt til að mynda þetta skjal ef aðgerðinni **Prentari** var úthlutað og áfangastaðir rafrænnar skýrslugerðar voru skilgreindir fyrir þetta snið eins og var sýnt fyrr í þessu efnisatriði.
+Eftirfarandi mynd sýnir dæmi um svargluggann **Áfangastaðir rafræns skýrslugerðarsniðs** sem birtist þegar reikningur með frjálsum texta er [bókaður](../../../finance/accounts-receivable/create-free-text-invoice-new.md) og rafræna skýrslugerðarsniðið **Reikningur með frjálsum texta (Excel)** er keyrt til að mynda þetta skjal ef aðgerðinni **Prentari** var úthlutað og áfangastaðir rafrænnar skýrslugerðar voru skilgreindir fyrir þetta snið eins og var sýnt fyrr í þessu efnisatriði.
 
-![Svargluggi sem býður upp á valmöguleikann til að breyta upphaflega skilgreindum áfangastöðum rafrænnar skýrslugerðar fyrir keyrt snið rafrænnar skýrslugerðar](./media/er-destination-action-dependent-02.gif)
+![Svargluggi sem býður upp á valmöguleikann til að breyta upphaflega skilgreindum áfangastöðum rafrænnar skýrslugerðar fyrir keyrt snið rafrænnar skýrslugerðar.](./media/er-destination-action-dependent-02.gif)
 
 > [!NOTE]
 > Ef skilgreindir voru áfangastaðir rafrænnar skýrslugerðar fyrir marga þætti í rafræna skýrslugerðarsniðinu sem er keyrt verður boðið upp á sérstakan valkost fyrir hvern skilgreindan þátt rafræna skýrslugerðarsniðsins.
@@ -105,7 +103,7 @@ Fylgið þessum skrefum til að staðfesta aðgerðarkóða notanda sem gefinn e
 6. Á síðunni **Kembikladdar skilgreiningar** skal sía keyrslukladda rafrænnar skýrslugerðar til að finna kladdann fyrir keyrslu rafræna skýrslugerðarsniðsins.
 7. Farið yfir kladdafærslurnar sem verða að innihalda færsluna sem geymir uppgefinn aðgerðarkóða notanda ef einhver aðgerð hefur verið gefin upp fyrir keyrslu rafræna skýrslugerðarsniðsins.
 
-    ![Síða keyrslukladda rafrænnar skýrslugerðar sem inniheldur upplýsingar um aðgerðarkóða notanda sem hefur verið gefinn upp fyrir síaða keyrslu rafræns skýrslugerðarsniðs](./media/er-destination-action-dependent-03.png)
+    ![Síða keyrslukladda rafrænnar skýrslugerðar sem inniheldur upplýsingar um aðgerðarkóða notanda sem hefur verið gefinn upp fyrir síaða keyrslu rafræns skýrslugerðarsniðs.](./media/er-destination-action-dependent-03.png)
 
 ## <a name=""></a><a name="reports-list-wave1">Listi yfir viðskiptaskjöl (bylgja 1)</a>
 
@@ -117,7 +115,6 @@ Viðskiptaskjölum í eftirfarandi lista er stjórnað af eiginleikanum **Leiða
 - Innkaupafyrirspurn innkaupapöntunar
 - Staðfesting sölupöntunar
 - Athugasemd innheimtubréfs
-- Reikningsyfirlit viðskiptavinar
 - Vaxtanóta
 - Greiðslutilkynning lánardrottins
 - Beiðni um tilboð
@@ -129,3 +126,6 @@ Viðskiptaskjölum í eftirfarandi lista er stjórnað af eiginleikanum **Leiða
 [Áfangastaðir fyrir rafræna skýrslugerð](electronic-reporting-destinations.md)
 
 [Breytingar á API rafræns skýrslugerðarramma fyrir Application update 10.0.17](er-apis-app10-0-17.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

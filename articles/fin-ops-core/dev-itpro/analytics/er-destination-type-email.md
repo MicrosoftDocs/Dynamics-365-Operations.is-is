@@ -1,12 +1,10 @@
 ---
 title: Tölvupóstur ER-gerð áfangastaðar
-description: Þetta efnisatriði útskýrir hvernig á að skilgreina áfangastað tölvupósts fyrir hverja MÖPPU eða SKRÁAHLUTA rafrænnar skýrslugerðar (ER) sem er grunnstillt til að mynda skjöl á útleið.
+description: Þetta efnisatriði útskýrir hvernig á að skilgreina áfangastað tölvupósts fyrir hverja MÖPPU eða SKRÁARHLUTA rafræns skýrslugerðarsniðs.
 author: NickSelin
-manager: AnnBe
-ms.date: 12/03/2020
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
-ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
-ms.translationtype: HT
+ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4690127"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324009"
 ---
 # <a name="email-er-destination-type"></a>Tölvupóstur ER-gerð áfangastaðar
 
@@ -44,28 +42,59 @@ Einnig er hægt að [flokka](#grouping) nokkrar íhluti fyrir **Möppu** og **Sk
 
 Hægt er að skilgreina marga flokka íhluta fyrir grunnstillingu á einu ER-sniði. Á þennan hátt er hægt að skilgreina viðtökustað tölvupósts fyrir hvern hóp íhluta og viðtökustað tölvupósts fyrir hvern íhlut.
 
+## <a name="enable-an-email-destination"></a>Virkja áfangastað tölvupósts
+
+Til að senda eina eða fleiri úttaksskrár með tölvupósti skal fylgja þessum skrefum.
+
+1. Á síðunni **Viðtökustaður rafrænnar skýrslugerðar**, í flýtiflipanum **Viðtökustaður skráar**, skal velja íhlut eða flokk íhluta í hnitanetinu.
+2. Veldu **Stillingar** og því næst í svarglugganum **Stillingar viðtökustaðar** í flipanum **Netfang** skal stilla valkostinn **Virkjað** á **Já**.
+
+[![Valkostur virkjunar stilltur á Já fyrir viðtökustað tölvupósts.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
+
 ## <a name="configure-an-email-destination"></a>Skilgreina áfangastað tölvupósts
 
-Til að senda úttaksskrá eða nokkrar úttaksskrár í tölvupósti, á síðunni **Viðtökustaður rafrænnar skýrslugerðar**, í flýtiflipanum **Viðtökustaður skráar**, skal velja íhlut eða flokk íhluta í hnitanetinu og velja síðan **Stillingar**. Í svarglugganum **Stillingar viðtökustaðar** sem birtist, í flipanum **Netfang**, skal stilla valkostinn **Virkjað** á **Já**. Þá er hægt að tilgreina viðtakendur tölvupósts og breyta efni og meginmál tölvupóstsins. Annaðhvort er hægt að setja upp fastan texta fyrir efni og meginmál tölvupósts eða nota [formúlur](er-formula-language.md) rafrænnar skýrslugerðar til að stofna gagnvirkt texta tölvupósts.
+### <a name="email-content"></a>Efni tölvupósts
 
-Hægt er að grunnstilla netföng fyrir rafræn skýrslugerð á tvo vegu. Hægt er að ljúka grunnstillingunni á sama hátt og eiginleiki prentstýringar lýkur henni, eða finn út netfang með því að nota beina tilvísun í skilgreiningu rafrænnar skýrslugerðar í gegnum formúlu.
+Þú getur breytt efni og meginmáli tölvupóstskilaboðanna.
 
-[![Valkostur virkjunar stilltur á Já fyrir viðtökustað tölvupósts](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
+Í reitinn **Efni** skal færa inn efni tölvupóstsins sem á að birtast í efnisreit rafrænna skilaboða sem eru búin til við keyrslu. Í reitinn **Meginmál** skal færa inn texta fyrir meginmál tölvupóstsins sem á að birtast á svæði meginmáls rafrænna skilaboða. Hægt er að setja upp fastan texta fyrir efni og meginmál tölvupósts eða hægt er að nota [formúlur](er-formula-language.md) fyrir rafræna skýrslugerð til að gagnvirkt stofna texta tölvupósts við keyrslu. Skilgreind formúla verður að skila gildi af gerðinni [Strengur](er-formula-supported-data-types-primitive.md#string).
+
+Meginmál tölvupóstsins er skrifaður á texta- eða HTML-sniði eftir því hvert tölvupóstforritið er. Hægt er að nota allar útlit, stíl og vörumerki sem HTML og stölluð stílblöð (CSS) leyfa.
+
+> [!NOTE]
+> Tölvupóstforrit nota útlit og stíltakmarkanir sem gætu krafist leiðréttingar í HTML og CSS sem er notað fyrir meginmál skilaboðanna. Við mælum með því að notandi kynni sér bestu starfsvenjur þegar HTML er búið til sem flest tölvupóstforrit styðja.
+>
+> Notaðu rétta kóðun til að framkvæma flutning til baka eftir því hvert snið meginmálsins er. Frekari upplýsingar er að finna í skilgreiningu fyrir gagnagerðina [Strengur](er-formula-supported-data-types-primitive.md#string).
+
+### <a name="email-addresses"></a>Netföng
+
+Hægt er að tilgreina senda og viðtakendur tölvupóstsins. Tölvupóstur er sjálfgefið sendur fyrir hönd núverandi notanda. Til að tilgreina annan tölvupóstsendanda þarf að stilla reitinn **Frá**.
+
+> [!NOTE]
+> Þegar áfangastaður tölvupósts er stilltur er reiturinn **Frá** aðeins sýnilegur notendum sem er með `ERFormatDestinationSenderEmailConfigure` öryggisréttindi, **Stilla netfang sendanda fyrir áfangastað rafræns skýrslugerðarsniðs**.
+>
+> Þegar boðið er upp á að breyta áfangastaði tölvupósts á [keyrslutíma](electronic-reporting-destinations.md#security-considerations) er reiturinn **Frá** aðeins sýnilegur notendum sem eru með `ERFormatDestinationSenderEmailMaintain` öryggisréttindi, **Vinna með netfang sendanda fyrir viðtökustað rafræns skýrslugerðarsniðs**.
+>
+> Þegar reiturinn **Frá** er stilltur til að nota annað netfang en núverandi notanda þarf heimildin **Senda sem** eða **Senda fyrir hönd** að vera rétt [stillt](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group) fyrirfram. Annars er eftirfarandi undantekning notuð við keyrslu: „Ekki er hægt að senda tölvupóst sem \<from email account\> úr \<current user account\> reikningnum, athugið heimildir fyrir „Senda sem“ á \<from email account\>.“
+
+Þú getur stillt reitinn **Frá** til að skila fleiri en einu netfangi. Í þessu tilviki er fyrsta netfangið í listanum notað sem netfang sendanda.
+
+Til að tilgreina viðtakendur tölvupósts verður þú að stilla reitina **Til** og **Cc** (valfrjálst).
+
+Hægt er að grunnstilla netföng fyrir rafræn skýrslugerð á tvo vegu. Hægt er að ljúka grunnstillingunni á sama hátt og eiginleika prentstýringar, eða finn út netfang með því að nota beina tilvísun í skilgreiningu rafrænnar skýrslugerðar í gegnum formúlu.
 
 ## <a name="email-address-types"></a>Gerðir tölvupóstfanga
 
-Ef valið er **Breyta** við hliðina á reitunum **Til** eða **Cc** í svarglugganum **Stillingar viðtökustaðar**, birtist svarglugginn **Senda tölvupóst til**. Veljið **Bæta við** og svo rétta gerð tölvupóstfangs til að nota. Tvær gerðir eru í augnablikinu studdar: **Tölvupóstur vegna prentstýringar** og **Tölvupóstur grunnstillingar**.
+Ef valið er **Breyta** við hliðina á reitunum **Frá**, **Til** eða **Cc** í svarglugganum **Stillingar viðtökustaðar**, birtist viðeigandi svarglugginn **Senda tölvupóst frá**, **Senda tölvupóst til** eða **Afrit tölvupósts**. Þar er hægt að skilgreina tölvupóstsendanda og viðtakendur tölvupósts. Veljið **Bæta við** og svo rétta gerð tölvupóstfangs til að nota. Tvær gerðir eru í augnablikinu studdar: **Tölvupóstur vegna prentstýringar** og **Tölvupóstur grunnstillingar**.
 
-[![Val á gerð tölvupóstfangs](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
+[![Val á gerð tölvupóstfangs.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>Tölvupóstur vegna prentstýringar
 
-Ef valið er **Tölvupóstur vegna prentstýringar** sem tegund tölvupóstfangs, er hægt að slá inn föst tölvupóstföng í svargluggann **Senda tölvupóst til** með því að stilla eftirfarandi reiti:
+Ef valið er **Tölvupóstur vegna prentstýringar** sem tegund tölvupóstfangs, er hægt að slá inn föst tölvupóstföng í svargluggann **Senda tölvupóst frá**, **Senda tölvupóst til** eða **Afrit tölvupósts** með því að stilla eftirfarandi reiti:
 
 - Í reitnum **Uppruni tölvupósts** skal velja **Enginn**.
 - Í reitinn **Viðbótarnetföng, aðskilin með „;“** skal slá inn föst netföng.
-
-![Skilgreina fast netfang](./media/er_destinations-emailfixedaddress.png)
 
 Að öðrum kosti er hægt að fá netföng frá tengiliðaupplýsingum aðilans sem skjal á útleið er búið til fyrir. Til að nota tölvupóstföng sem eru ekki föst, skal í reitnum **Uppruni tölvupósts** velja [hlutverk](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles) aðilans fyrir viðtökustað skráar. Eftirfarandi hlutverk eru studd:
 
@@ -78,6 +107,7 @@ Að öðrum kosti er hægt að fá netföng frá tengiliðaupplýsingum aðilans
 - Umsækjandi
 - Væntanlegur lánardrottinn
 - Bannaður lánardrottinn
+- Lögaðili
 
 Til dæmis til að grunnstilla viðtökustað tölvupósts fyrir ER-snið sem er notað til að vinna úr lánardrottnagreiðslum skal velja hlutverkið **Lánardrottinn**.
 
@@ -88,11 +118,9 @@ Til dæmis til að grunnstilla viðtökustað tölvupósts fyrir ER-snið sem er
 
 Á síðunni **Formúluhönnuður**, í reitinn **Formúla**, skal slá inn skjalatilvísun í stutt hlutverk. Í stað þess að slá tilvísunina inn í svæðið **Gagnagjafi** skal finna og velja þann gagnagjafahnútinn sem stendur fyrir lykil skilgreinda hlutverksins og síðan velja **Bæta við gagnagjafa** til að uppfæra formúluna. Til dæmis ef viðtökustaður tölvupóstsins er skilgreindur fyrir skilgreininguna **ISO 20022 Kreditfærsla** sem er notuð til að vinna úr greiðslum lánardrottins, er hnúturinn sem stendur fyrir lánardrottnalykil `'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID`.
 
-![Skilgreining uppruna tölvupóstfangs](./media/er_destinations-emaildefineaddresssource.gif)
+![Skilgreining uppruna tölvupóstfangs.](./media/er_destinations-emaildefineaddresssource.gif)
 
 Ef lykilnúmer skilgreinda hlutverksins eru einkvæm fyrir allt tilvik Microsoft Dynamics 365 Finance, má reiturinn **Fyrirtæki tölvupóstsuppruna** í svarglugganum **Senda tölvupóst til** vera áfram auður.
-
-![Reitur fyrir autt fyrirtæki tölvupóstsuppruna](./media/er_destinations-emaildefineaddresssourceformula.png)
 
 Einnig gæti komið um sú staða þar sem mismunandi aðilar í [Altækri aðsetursbók](../../fin-ops/organization-administration/overview-global-address-book.md) hafi verið skráðir í mismunandi fyrirtæki ([lögaðilar](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) á þann hátt að þeir nota allir sama lykilnúmerið til að fylla út skilgreint hlutverk. Í þessu tilviki eru lykilnúmer fyrir skilgreint hlutverk ekki einkvæm fyrir allt Finance-tilvikið. Til að velja ákveðinn aðila er þess vegna ekki hægt að tilgreina aðeins lykilnúmer. Einnig þarf að tilgreina fyrirtækið sem aðilinn hefur verið skráður í til að fylla út skilgreint hlutverk. Velja skal hnappinn **Binda** (keðjutáknið) við hliðina á reitnum **Fyrirtæki tölvupóstsuppruna** í svarglugganum **Senda tölvupóst til** til að opna síðuna [Formúluhönnuður](general-electronic-reporting-formula-designer.md). Síðan er hægt að nota þessa síðu til að skilgreina formúlu sem skilar við keyrslu kóða fyrirtækisins sem æskilegur uppruni verður að finnast í.
 
@@ -110,13 +138,11 @@ Til að tilgreina gerð netfanga sem þarf að nota við keyrslu skal í svarglu
 > [!NOTE]
 > Ef tilgangur er valinn í reitnum **Tilgangur** og valkosturinn **Aðaltengiliður** er stilltur á **Já** á sama tíma, verða öll netföng sem uppfylla a.m.k. eitt skilgreint skilyrði notuð við keyrslu.
 
-![Skilgreina lykil fyrir eigindir tölvupóstsuppruna](./media/er_destinations-emaildefineaddresssourceattributes.png)
-
 ### <a name="configuration-email"></a>Skilgreiningartölvupóstur
 
-Veljið **Skilgreiningartölvupóstur** sem gerð netfangs ef skilgreiningin sem er notuð er með hnút í gagnagjöfunum sem skila annaðhvort einu netfangi eða mörgum netföngum sem eru aðgreind með semikommu (;). Hægt er að nota [gagnagjafa](general-electronic-reporting.md#FormatComponentOutbound) og [aðgerðir](er-formula-language.md#functions) í formúluhönnuðinum til að ná í rétt sniðið netfang eða rétt sniðin netföng sem eru aðgreind með semikommum. Til dæmis ef notuð er skilgreiningin **ISO 20022 Kreditfærsla**, er hnúturinn sem táknar aðalnetfang lánardrottins úr tengiliðaupplýsingum lánardrottins sem senda bréfið á er `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
+Veljið **Skilgreiningartölvupóstur** sem gerð netfangs ef skilgreiningin sem er notuð er með hnút í gagnagjöfunum sem skila annaðhvort einu netfangi eða mörgum netföngum sem eru aðgreind með semikommu (;). Þú getur notað gagnaheimildir og [aðgerðir](er-formula-language.md#Functions) í formúluhönnuðinum til að fá rétt sniðið netfang eða rétt sniðið netföng sem eru aðskilin með semíkommum. Til dæmis ef notuð er skilgreiningin **ISO 20022 Kreditfærsla**, er hnúturinn sem táknar aðalnetfang lánardrottins úr tengiliðaupplýsingum lánardrottins sem senda bréfið á er `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
-[![Skilgreining uppruna tölvupóstfangs](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
+[![Skilgreining uppruna tölvupóstfangs.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 
 ## <a name="group-format-components"></a><a id="grouping"></a>Flokka sniðshluti
 
@@ -134,14 +160,17 @@ Til að taka sniðshluti úr flokk skal í flýtiflipanum **Viðtökustaður skr
 
 Eftirfarandi mynd sýnir skipulag á sniði rafrænnar skýrslugerðar sem var skilgreint til að búa til þjappaða skrá á útleið sem inniheldur athugasemd innheimtubréfs og viðeigandi reikninga viðskiptavinar á PDF-sniði.
 
-[![Skiplag á sniði rafrænnar skýrslugerðar sem myndar skjöl á útleið](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
+[![Skiplag á sniði rafrænnar skýrslugerðar sem myndar skjöl á útleið.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
 Eftirfarandi mynd sýnir ferlið, eins og lýst er í þessu efnisatriði, um flokkun einstakra hluta og virkjun á viðtökustað **Tölvupósts** fyrir nýja flokkinn þannig að athugasemd innheimtubréfs er sent ásamt viðeigandi reikningum viðskiptavinar sem tölvupóstviðhengi.
 
-[![Flokkun einstakra hluta og virkjun á viðtökustað tölvupósts](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
+[![Flokkun einstakra hluta og virkjun á viðtökustað tölvupósts.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Áfangastaðir fyrir rafræna skýrslugerð](electronic-reporting-destinations.md)
 - [Formúluhönnuður í rafrænni skýrslugerð (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

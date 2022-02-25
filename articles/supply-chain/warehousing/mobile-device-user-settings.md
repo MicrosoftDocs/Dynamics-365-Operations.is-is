@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 13c99854224a6d220e73a43636d85ec1951f8149
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901873"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103714"
 ---
 # <a name="mobile-device-user-settings"></a>Notandastillingar fartækis
 
@@ -39,12 +39,9 @@ Með eiginleikanum *notandastillingar fartækis* er hægt að skilgreina altæka
 > [!IMPORTANT]
 > *Notandastillingar fartækis* eiginleikinn gildir aðeins fyrir nýja farsímaforrit vöruhúsakerfis. Þetta virkar ekki með eldra forriti vöruhússins.
 
-## <a name="turn-on-the-mobile-device-user-settings-feature"></a>Kveikt á eiginleika fyrir notandastillingar fartækis
+## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Kveiktu eða slökktu á notendastillingum farsímans
 
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
-
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Notandastillingar, tákn og titlar skrefa fyrir nýja vöruhúsaforritið*
+Til að nota virknina sem lýst er í þessu efni, er *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="create-and-manage-user-settings"></a>Stofna og stjórna notandastillingum
 

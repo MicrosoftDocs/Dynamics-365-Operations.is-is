@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b97b2f7091883e445b2e8474ca140217bda004b0c4d8988411b9ed4209e254
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758265"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323666"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Studdar samsettar gagnagerðir fyrir formúlur rafrænnar skýrslugerðar
 
@@ -27,7 +27,7 @@ ms.locfileid: "6758265"
 
 Gagnagerðin *klasi* vísar til opins forritsklasa. Í rafrænni skýrslugerð er hún táknuð sem [*færsla*](#record) sem inniheldur aðskilinn reit fyrir hverja almenna aðferð klasans sem vísað er í. Þegar færibreytur eru stilltar fyrir kall aðferðarinnar þarf einnig að tilgreina nauðsynlegar frumbreytur af viðeigandi gerðum í segð rafrænnar skýrslugerðar sem er stillt til að kalla á aðferðina.
 
-Í [vörpun](general-electronic-reporting.md#data-model-and-model-mapping-components) og [sniði](general-electronic-reporting.md#FormatComponentOutbound) rafrænna skýrslugerðarhluta er hægt að bæta við gagnagjafanum **Klasa** sem er gefinn upp sem gagnagjafi og skilar gildi af *klasagerðinni*. Þessi gagnagjafi gefur upp almennar aðferðir klasans sem hægt er að kalla á við keyrslu.
+Í ER kortlagningu og sniðhlutum geturðu bætt við **bekk** gagnagjafi sem er sýndur sem gagnagjafi og sem skilar gildi á *bekk* tegund. Þessi gagnagjafi gefur upp almennar aðferðir klasans sem hægt er að kalla á við keyrslu.
 
 > [!NOTE]
 > Aðeins er hægt að kalla á aðferðir úr segðum rafrænnar skýrslugerðar sem skila gildi.

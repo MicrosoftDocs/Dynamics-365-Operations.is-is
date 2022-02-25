@@ -2,23 +2,23 @@
 title: Setja upp sannprófun á Reikningsjöfnun viðskiptaskulda
 description: Þetta umræðuefni veitir upplýsingar um hvernig á að setja upp staðfestingu á reikningsjöfnun viðskiptaskulda.
 author: abruer
-ms.date: 06/26/2019
+ms.date: 02/14/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 017b0197563b9d7fd03f5fc927353be8d16586090f467cff792016431e0fafad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722864"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182556"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Setja upp sannprófun á Reikningsjöfnun viðskiptaskulda
 
@@ -54,7 +54,7 @@ Fjórar mismunandi gerðir staðfestingar á samsvörun eru tiltækar.
 12. Í reitnum **Vikmörk samtölu innkaupaverðs** skaltu slá inn upphæð í bókhaldsgjaldmiðlinum. Þessi reitur býðst þegar **Jafna samtölur verðs** er stillt á **Upphæð** eða **Prósenta og upphæð**.
 13. Í reitnum **Birta jöfnunartákn fyrir samtölu verðs** skal velja þegar tákn birtist ef ósamræmi í reikningsjöfnun fer yfir vikmörk fyrir nettó einingaverð. Hægt er að birta á tákn jákvætt misræmi fer vikmörk, eða þegar jákvæð eða neikvæð misræmi fer vikmörk.
 Til dæmis vikmörkin er 5 prósent og sem samtala innkaupapöntunar er 10,00. Þess vegna er jöfnunartákn birtist ef línu verð samtala reikningsins er yfir 10,50. Ef valið er **Ef meira en eða minna en vikmörk** birtist táknið einnig ef heildarverð línu á reikningi er lægri en 9,50.
-13. Stilla Gjöld stemma.
+13. Stilltu **Gjöld passa**.
 14. Til að jafna raunveruleg gjöld við áætlu gjöld, á grundvelli upplýsinga á innkaupapöntun, veljið gátreitinn **Jafna gjöld**.
 
 ## <a name="set-up-unit-price-tolerance-percentages"></a>Vikmarkaprósentur einingaverðs settar upp
@@ -75,7 +75,7 @@ Sjálfgefið er að neikvæð verðmisræmi eru leyfilegur. Hins vegar er hægt 
 
 ## <a name="set-up-matching-policy-override"></a>Sejt upp hnekkingu jöfnunarreglu
 
-Farðu í **Viðskiptaskuldir > Uppsetning > Uppsetning reikningsjöfnunar > Jöfnunarregla** til að skilgreina sjálfgefna færslu fyrir reitinn Jöfnunarregla fyrir línur í innkaupapöntunarsniðinu. Þetta er valfrjáls uppsetning. Notaðu þetta eyðublað til að setja upp samsetningar á tvíhliða samsvörun eða þríhliða samsvörun fyrir vörur, lánardrottna eða vörur og birgja. Þessar færslur gera þér kleift að skilgreina grófari jöfnunarreglur en jöfnunarregla lögaðila sem þú skilgreindir á síðunni **Færibreytur viðskiptaskulda**. Sjálfgefin jöfnunarregla línu lögaðila gildir um allar vörur og lánardrottna nema þau sem önnur jöfnunarregla línu er tilgreind fyrir á þessari síðu.
+Fara til **Viðskiptaskuldir > Uppsetning > Uppsetning samsvörunar reikninga > Samsvörunarstefna** til að skilgreina sjálfgefna færslu fyrir **Samsvörunarstefna** reit fyrir línur í **Pöntun** síðu. Þetta er valfrjáls uppsetning. Notaðu þessa síðu til að setja upp tvíhliða samsvörun eða þríhliða samsvörun fyrir vörur, lánardrottna eða samsetningar vöru og lánardrottna. Þessar færslur gera þér kleift að skilgreina grófari jöfnunarreglur en jöfnunarregla lögaðila sem þú skilgreindir á síðunni **Færibreytur viðskiptaskulda**. Sjálfgefin jöfnunarregla línu lögaðila gildir um allar vörur og lánardrottna nema þau sem önnur jöfnunarregla línu er tilgreind fyrir á þessari síðu.
 
 Á þessari síðu velurðu **Stig jöfnunarreglu**. Veldu stigið í stigveldi jöfnunarreglu sem stilla á jöfnunarreglur línu fyrir.
 

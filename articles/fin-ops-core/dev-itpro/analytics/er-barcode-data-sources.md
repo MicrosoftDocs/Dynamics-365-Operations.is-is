@@ -2,11 +2,9 @@
 title: Nota gagnagjafa strikamerkja til að búa til myndir af strikamerkjum
 description: Þetta efnisatriði útskýrir hvernig á að nota gagnagjafa strikamerkja til að búa til myndir af strikamerkjum.
 author: NickSelin
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: 3fb754267de1120bc3c086d49cb7c63028183bda
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681425"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323953"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Nota gagnagjafa strikamerkja til að búa til myndir af strikamerkjum
 
 [!include[banner](../includes/banner.md)]
 
-Hægt er að nota rammann [Rafræn skýrslugerð](general-electronic-reporting.md) til að hanna [Íhlutir rafrænnar skýrslugerðar](general-electronic-reporting.md#FormatComponentOutbound) sem hægt er að keyra til að búa til rafræn og prentvæn skjöl á útleið sem þörf er á. Til að búa til skjal á útleið í Microsoft Office-sniði þarf að tilgreina útlit skýrslunnar með því að nota annaðhvort Microsoft Excel-skjal eða Microsoft Word-skjal sem skýrslusniðmát. [Hönnuður rafrænnar skýrslugerðar](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) gerir notanda kleift að láta Excel- eða Word-skjal fylgja með sem sniðmát fyrir snið rafrænnar skýrslugerðar. Eftirfarandi tilgreindar einingar í viðhengdu sniðmáti tengjast einingum stillts sniðshluta:
+Þú getur notað [Rafræn skýrsla (ER)](general-electronic-reporting.md) ramma til að hanna íhluti á ER-sniði sem þú getur keyrt til að búa til rafræn og prentanleg skjöl á útleið sem þú þarfnast. Til að búa til skjal á útleið í Microsoft Office-sniði þarf að tilgreina útlit skýrslunnar með því að nota annaðhvort Microsoft Excel-skjal eða Microsoft Word-skjal sem skýrslusniðmát. [Hönnuður rafrænnar skýrslugerðar](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) gerir notanda kleift að láta Excel- eða Word-skjal fylgja með sem sniðmát fyrir snið rafrænnar skýrslugerðar. Eftirfarandi tilgreindar einingar í viðhengdu sniðmáti tengjast einingum stillts sniðshluta:
 
 - Efnisstýringar í Word
 - Tilgreind blöð, bil, hólf, form og myndir í Excel
@@ -39,7 +37,7 @@ Rafræn skýrslugerð styður nú gagnagjafa af gerðinni **Strikamerki**. Þess
 
 Nota má eftirfarandi staðgengla í skýrslusniðmátum til að færa inn strikamerkjamyndir:
 
-- Efnisstýring [Myndar](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) fyrir Word
+- Efnisstýring [Myndar](/office/client-developer/word/content-controls-in-word) fyrir Word
 - Hlutur [Myndar](https://support.office.com/article/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344) í Excel
 
 Með því að nota gagnagjafa af gerðinni **Strikamerki** er hægt að búa til strikamerki á eftirfarandi sniðum:
@@ -118,21 +116,21 @@ Ef ekki hefur enn verið lokið við dæmið í efnisatriðinu [Fella inn myndir
 
 | Lýsing á efni         | Skrárnafn                   |
 |-----------------------------|-----------------------------|
-| Skilgreining á gagnalíkani í ER | Model for cheques.xml       |
-| ER Sníða skilgreiningu     | Cheques printing format.xml |
+| Skilgreining á gagnalíkani í ER | [Model for cheques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)      |
+| ER Sníða skilgreiningu     | [Cheques printing format.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
 
 Að auki skal hlaða niður eftirfarandi Excel-skrá sem inniheldur breytt sniðmát fyrir uppgefna lausn rafrænnar skýrslugerðar.
 
 | Lýsing á efni | Skrárnafn                 |
 |---------------------|---------------------------|
-| Skýrslusniðmát     | Check template Excel.xlsx |
+| Skýrslusniðmát     | [Check template Excel.xlsx](https://download.microsoft.com/download/3/b/d/3bd3b944-da8f-43b4-8533-3c1292a4c3ef/CheckTemplateExcel.xlsx) |
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Kveikja á stillingaveitu
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 2. Á síðunni **Skilgreiningar staðfærslu**, í hlutanum **Skilgreiningaveitur**, skal ganga úr skugga um að [skilgreiningaveitan](general-electronic-reporting.md#Provider) fyrir sýnifyrirtækið **Litware, Inc.** sé skráð og merkt sem virkt. Ef það er ekki skráð, eða ef það er ekki merkt sem virkt, skal fylgja skrefunum í efnisatriðinu [Stofna skilgreiningaveitu og merkja hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-![Sýnifyrirtækið stillt sem virkt á síðunni Skilgreiningar staðfæringar](./media/er-barcode-data-source-active-provider.png)
+![Sýnifyrirtækið stillt sem virkt á síðunni Skilgreiningar staðfæringar.](./media/er-barcode-data-source-active-provider.png)
 
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>Flytja inn uppgefna lausn rafrænnar skýrslugerðar
 
@@ -162,14 +160,14 @@ Að auki skal hlaða niður eftirfarandi Excel-skrá sem inniheldur breytt snið
 7. Á aðgerðasvæðinu skal velja **Prenta sýnishorn**.
 8. Í glugganum skal stilla valkostinn **Snið fyrir framseljanlega ávísun** á **Já** og síðan velja **Í lagi**.
 
-    ![Útlit ávísunar - gluggi sýnishornaprentunar](./media/er-barcode-data-source-check-layout.png)
+    ![Útlit ávísunar - gluggi sýnishornaprentunar.](./media/er-barcode-data-source-check-layout.png)
 
 ### <a name="review-the-generated-payment-check"></a><a name="ExampleReviewGeneratedCheque"></a>Yfirfara myndaða greiðsluávísun
 
 - Opnið myndaða ávísun í Excel.
 2. Fara yfir myndaða ávísun.
 
-    ![Mynduð greiðsluávísun í Excel](./media/er-barcode-data-source-cheque1.png)
+    ![Mynduð greiðsluávísun í Excel.](./media/er-barcode-data-source-cheque1.png)
 
 ### <a name="modify-the-format-of-the-provided-er-solution"></a><a name="ExampleModifyFormat"></a>Breyta sniði á uppgefinni lausn rafrænnar skýrslugerðar
 
@@ -177,7 +175,7 @@ Að auki skal hlaða niður eftirfarandi Excel-skrá sem inniheldur breytt snið
 
 Hægt er að nota skjáborðsforrit Excel til að opna skrána **Cheque template Excel.xlsx** sem flutt var inn áður. Takið eftir að þetta sniðmát er ólíkt sniðmátinu sem notað var til að mynda greiðsluávísun í uppgefinni lausn rafrænnar skýrslugerðar. Það felur að auki í sér eininguna **AmountBarcode** fyrir mynd af strikamerkinu.
 
-![Eining AmountBarcode í Excel-sniðmátinu](./media/er-barcode-data-source-cheque2.png)
+![Eining AmountBarcode í Excel-sniðmátinu.](./media/er-barcode-data-source-cheque2.png)
 
 Nú þarf að breyta lausn rafrænnar skýrslugerðar og síðan [endurnota](modify-electronic-reporting-format-reapply-excel-template.md) breytta sniðmátið.
 
@@ -188,7 +186,7 @@ Nú þarf að breyta lausn rafrænnar skýrslugerðar og síðan [endurnota](mod
 5. Í aðgerðarhönnuði rafrænnar skýrslugerðar skal velja flipann **Vörpun** hægra megin á síðunni og síðan á svæði trjásniðs vinstra megin skal velja **Stækka/fella saman**.
 6. Takið eftir því að allar einingar hólfasniðs eru bundnar við viðeigandi gagnagjafa.
 
-    ![Binding hólfasniðseininga við gagnagjafa í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-barcode-data-source-cells-bound.png)
+    ![Binding hólfasniðseininga við gagnagjafa í aðgerðarhönnuði rafrænnar skýrslugerðar.](./media/er-barcode-data-source-cells-bound.png)
 
 7. Veljið flipann **Snið** hægra megin á síðunni.
 8. Á aðgerðasvæðinu skal velja úrfellingarmerkið (**...**) og síðan velja **Flytja inn**.
@@ -197,7 +195,7 @@ Nú þarf að breyta lausn rafrænnar skýrslugerðar og síðan [endurnota](mod
 11. Velja skal flipann **Vörpun** hægra megin á síðunni og síðan á svæði trjásniðs vinstra megin skal velja **Stækka/fella saman**.
 12. Takið eftir að hólfaeiningunni **AmountBarcode** hefur verið bætt við sniðið. Þessi eining tengist einingunni **AmountBarcode** sem hefur verið bætt við breytt Excel-sniðmát sem staðgengill fyrir strikamerkjamynd.
 
-    ![Hólfaeiningu AmountBarcode bætt við sniðið í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-barcode-data-source-cell-added.png)
+    ![Hólfaeiningu AmountBarcode bætt við sniðið í aðgerðarhönnuði rafrænnar skýrslugerðar.](./media/er-barcode-data-source-cell-added.png)
 
 #### <a name="add-a-new-barcode-data-source"></a><a name="ExampleModifyFormatAddDataSource"></a>Bæta við nýjum gagnagjafa strikamerkis
 
@@ -206,14 +204,14 @@ Næst þarf að bæta við nýjum gagnagjafa af gerðinni **Strikamerki**.
 1. Í aðgerðarhönnuði rafrænnar skýrslugerðar, í flipanum **Vörpun** hægra megin á síðunni, skal velja gagnagjafann **prenta**.
 2. Veljið **Bæta við** og síðan, í flokknum **Aðgerðir**, skal velja gagnagjafa af gerðinni **Strikamerki**.
 
-    ![Val á gagnagjafa af gerðinni strikamerki](./media/er-barcode-data-source-add.png)
+    ![Val á gagnagjafa af gerðinni strikamerki.](./media/er-barcode-data-source-add.png)
 
 3. Í glugganum, í reitnum **Heiti**, skal slá inn **strikamerki**.
 4. Í **Snið strikamerkis** skal velja **Kóði 128**.
 5. Í reitinn **Breidd** skal slá inn **500**.
-6. Veljið **Í lagi**.
+6. Veldu **Í lagi**.
 
-    ![Svargluggi fyrir eiginleika gagnagjafa](./media/er-barcode-data-source-add2.png)
+    ![Svargluggi fyrir eiginleika gagnagjafa.](./media/er-barcode-data-source-add2.png)
 
 #### <a name="bind-a-new-format-element"></a><a name="ExampleModifyFormatBindFormatElement"></a>Binda nýja sniðseiningu
 
@@ -224,7 +222,7 @@ Næst þarf að binda nýju sniðseininguna við gagnagjafann sem var verið að
 3. Á aðgerðasvæðinu skal velja **Sýna upplýsingar**.
 4. Takið eftir að sökum þess að gagnagjafinn **Strikamerki** er táknaður í bindingunni sem virkni sem inniheldur eina færibreytu, hefur heiti bundnu sniðseiningarinnar sjálfkrafa verið valið sem frumbreyta færibreytunnar.
 
-    ![Upplýsingar um gagnagjafa strikamerkis í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-barcode-data-source-bind1.png)
+    ![Upplýsingar um gagnagjafa strikamerkis í aðgerðarhönnuði rafrænnar skýrslugerðar.](./media/er-barcode-data-source-bind1.png)
 
 5. Veljið **Breyta formúlu** til að breyta bindingunni.
 
@@ -234,7 +232,7 @@ Næst þarf að binda nýju sniðseininguna við gagnagjafann sem var verið að
 7. Veljið **Vista** og lokið síðan [Aðgerðarhönnuði rafrænnar skýrslugerðar](general-electronic-reporting-formula-designer.md).
 8. Takið eftir að bindingunni hefur verið breytt.
 
-    ![Leiðrétt binding í aðgerðarhönnuði rafrænnar skýrslugerðar](./media/er-barcode-data-source-bind2.png)
+    ![Leiðrétt binding í aðgerðarhönnuði rafrænnar skýrslugerðar.](./media/er-barcode-data-source-bind2.png)
 
 9. Veljið **Vista** og lokið síðan aðgerðarhönnuði rafrænnar skýrslugerðar.
 
@@ -279,7 +277,7 @@ Staða núverandi útgáfu er breytt úr **Drög** í **Lokið** og ný útgáfa
 6. Veljið **Í lagi**.
 7. Fara yfir myndaða ávísun. Takið eftir að strikamerki hefur verið myndað til að kóða ógreidda upphæð ávísunarinnar.
 
-    ![Mynduð greiðsluávísun með strikamerki í Excel](./media/er-barcode-data-source-cheque3.png)
+    ![Mynduð greiðsluávísun með strikamerki í Excel.](./media/er-barcode-data-source-cheque3.png)
 
 > [!IMPORTANT]
 > Undantekningu er beitt ef frumbreyta gagnagjafans **Strikamerki** samræmist ekki viðeigandi kröfum sem eiga við um snið strikamerkis. Til dæmis, þegar kallað er á gagnagjafann **Strikamerki** til að mynda strikamerki [EAN-8](https://wikipedia.org/wiki/EAN-8) fyrir uppgefinn texta, er undantekningu beitt ef lengd textans fyrir yfir sjö stafi.
@@ -290,7 +288,7 @@ Eins og lýst er í efnisatriðinu [Mynda prentvæn reikningssnið með frjálsu
 
 Þegar gagnagjafinn **Strikamerki** er hins vegar notaður til að búa til strikamerki eru myndþýðingar þessara strikamerkja ekki háðar neinu letri. Þar af leiðandi er auðveldlega hægt að umbreyta skjali sem inniheldur strikamerkin yfir á PDF-snið. Eftirfarandi skýringarmynd sýnir forskoðun á myndaðri greiðsluávísun sem hefur verið [umbreytt](electronic-reporting-destinations.md#OutputConversionToPDF) í PDF, samkvæmt stillingunni á skilgreindri [staðsetningu](electronic-reporting-destinations.md) rafrænnar skýrslugerðar.
 
-![Forskoðun á PDF-skjali greiðsluávísunar](./media/er-barcode-data-source-cheque4.png)
+![Forskoðun á PDF-skjali greiðsluávísunar.](./media/er-barcode-data-source-cheque4.png)
 
 ## <a name="limitations"></a>Takmarkanir
 
@@ -303,3 +301,6 @@ Eins og lýst er í efnisatriðinu [Mynda prentvæn reikningssnið með frjálsu
 - [Viðtökustaðir rafrænnar skýrslugerðar](electronic-reporting-destinations.md)
 - [Formúlutungumál í rafrænni skýrslugerð](er-formula-language.md)
 - [Virkni NUMBERFORMAT](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
