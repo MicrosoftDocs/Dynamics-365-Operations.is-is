@@ -1,12 +1,11 @@
 ---
 title: Rafræn skýrslugerð Varpa gagnalíkani í valda gagnagjafa
-description: Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur varpað rafræna skýrslugerð (ER) gagnalíkani á valda gagnaveitur Microsoft Dynamics 365 Finance.
+description: Í þessu efnisatriði er útskýrt hvernig á að varpa gagnalíkani rafrænnr skýrslugerðar til að velja gagnagjafa Microsoft Dynamics 365 Finance.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner
 audience: Application User
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2d09370b0e08897799d40c41c20c21b58e885dc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8b6f5e3b64e7d000feb7fa1ff84edd2e20891bb7
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684308"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570663"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>Rafræn skýrslugerð Varpa gagnalíkani í valda gagnagjafa
 
@@ -146,3 +145,6 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 5. Velja lokna útgáfu af núgildandi skilgreiningu.
     * Athugið að stofnuð skilgreining er vistuð sem lokin útgáfa 1.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

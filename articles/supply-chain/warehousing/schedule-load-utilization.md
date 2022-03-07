@@ -1,28 +1,25 @@
 ---
 title: Tímasetja álagsnýtingu
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp og tímasetja álag fyrir vöruhús.
-author: MarkusFogelberg
-manager: tfehr
+author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSSpaceUtilSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87455077c69834c9ace6409f4cc611ae6e14beb4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 728cf6e0b1bce660328f970176c218f66646ec8a
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430124"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902072"
 ---
 # <a name="schedule-load-utilization"></a>Tímasetja álagsnýtingu
 
@@ -72,3 +69,6 @@ Með því að nota geymsluálagsstillinguna sem þú valdir í uppsetningu plá
 
 4. Í reitnum **Álagsgerð** skaltu velja **Rúmmál** eða **Þyngd** til að tilgreina rekstrareiningu vöruhússins fyrir áætlun á plássi.
 5. Í reitnum **Uppsetning plássnotkunar** skal velja uppsetningu plássnotkunar sem spáin á að byggjast á.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

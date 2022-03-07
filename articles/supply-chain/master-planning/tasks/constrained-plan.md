@@ -2,26 +2,23 @@
 title: Mynda áætlun með skorðum
 description: Þetta efni útskýrir hvernig á að stofna áætlun sen tekur tillit bæði til efnis- og afkastahamla.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqPlanSched
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d8b9d5712dd1b4f9958de775e1a2224b64485d05
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e36396ce12ec51d9c093fbf7c72051f7501d84900ec62d6f3ebd8f36296636e3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430354"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744107"
 ---
 # <a name="generate-a-constrained-plan"></a>Mynda áætlun með skorðum
 
@@ -53,3 +50,6 @@ Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli er �
 3. Veljið **Í lagi**.
 4. Veldu **Tillögur**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, InventItemBarcode, InventItemBarcodeLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b178701ca745a4317bf271bba726741e104f0804
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ea98002343e776851525bcba4d555a8309e85d2
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430341"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218586"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Stofna strikamerki fyrir afurð
 
@@ -43,3 +42,6 @@ ms.locfileid: "4430341"
 12. Veljið **Vista**.
 13. Lokið síðunni. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

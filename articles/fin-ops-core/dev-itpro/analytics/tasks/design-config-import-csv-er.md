@@ -1,12 +1,10 @@
 ---
 title: Hanna ER skilgreiningar til að flytja inn gögn úr ytri CSV-skrám
-description: Nota skal þetta til að hanna grunnstillingar rafrænnar skýrslugerðar til að flytja inn gögn í forritið Finance and Operations, úr ytri skrá á CSV-sniði.
+description: Nota skal þetta til að hanna grunnstillingar rafrænnar skýrslugerðar til að flytja inn gögn í Finance and Operations forrit úr ytri skrá á CSV-sniði.
 author: NickSelin
-manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b542b6250bcc72334659e050f7ab6d5bd87d3508
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: b42f0cf8c7260c85d405a5dfdcd50323ffee4d4528b982997a802b859ab8327b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682046"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747272"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Hanna ER skilgreiningar til að flytja inn gögn úr ytri CSV-skrám
 
@@ -124,3 +122,6 @@ Til að prófa skal framkvæma sniðsvörpun með því að nota 1099entriescsv.
     * Farið yfir úttak í XML-sniði, sem stendur fyrir gögn sem hafa verið innflutt úr valinni skrá og tengd við gagnalíkan. Athugaðu að allar 7 línur af innfluttu CSV-skránni voru unnar. Reitum sem innihalda titilinn í línu 1 var sleppt, 4 færslur voru þáttaðar á réttan hátt og 2 færslur voru viðurkenndar sem ógildar.
 3. Lokið síðunni.
 4. Lokið síðunni.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

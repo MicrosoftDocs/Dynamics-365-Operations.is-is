@@ -2,26 +2,23 @@
 title: Áfylling yfir staðsetningargetu
 description: Í þessu efnisatriði er að finna upplýsingar um eiginleikann fyrir áfyllingu yfir staðsetningargetu. Þessi eiginleiki gerir kleift að búa til alla áfyllingarvinnu sem krafist er fyrir daginn og stjórnar framboði þessarar áfyllingarvinnu til að tryggja að birgðir í tiltektarstaðsetningunni hvorki tæmist né fari yfir getu.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 309df56671bf258e1669ae6d5393de01e2b500f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430723"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823240"
 ---
 # <a name="replenishment-over-location-capacity"></a>Áfylling yfir staðsetningargetu
 
@@ -242,7 +239,7 @@ Kveikið á virkninni fyrir áfyllingu yfir staðsetningargetu í staðsetningar
 
 #### <a name="on-hand-inventory-license-plate-id"></a>Númeraplötukenni lagerbirgða
 
-Síðar í þessu dæmi verður vöruhúsaforritið notað (eða hermiforrit), þar sem þarf að bera kennsl á númeraplötuna til að ljúka sýnidæmunum fyrir tiltekt og áfyllingu.
+Síðar í þessu dæmi verður farsímaforrit vöruhúsakerfis notað (eða hermiforrit), þar sem þarf að bera kennsl á númeraplötuna til að ljúka sýnidæmunum fyrir tiltekt og áfyllingu.
 
 Til að finna númeraplötukennin sem þarf að nota seinna meir, skal fylgja þessum skrefum.
 
@@ -267,7 +264,7 @@ Til að finna númeraplötukennin sem þarf að nota seinna meir, skal fylgja þ
 
 #### <a name="replenishment"></a>Áfylling
 
-1. Skráðu þig inn í vöruhúsaforritið sem notandi í vöruhúsi *61*. (Sláið inn *61* sem notandakennið og *1* sem aðgangsorðið.)
+1. Skráðu þig inn í farsímaforrit vöruhúsakerfis sem notandi í vöruhúsi *61*. (Sláið inn *61* sem notandakennið og *1* sem aðgangsorðið.)
 1. Farið í **Birgðir \> Áfylling**.
 
     Beðið er um að ljúka fyrstu áfyllingarvinnunni. Vörunúmerið, magnið og staðsetningin fyrir tiltektina er sýnt.
@@ -297,7 +294,7 @@ Staðan *Í bið* var ræst vegna þess að staðsetningarforstillingin fyrir ti
 
 Áður en hægt er að ljúka við eftirstandandi áfyllingarvinnu verða birgðir tiltektarstaðsetningarinnar að minnka niður í það sem þarf til að opnað fyrir eftirstandandi áfyllingarvinnu. Með öðrum orðum, samanlagt magn lagerbirgða í staðsetningunni og áfyllingarmagn má ekki fara yfir gildið **Magn yfirflæðis**. Þegar þetta samanlagða magn er minna en magn yfirflæðis, verður opnað fyrir eftirstandandi áfyllingarvinnu.
 
-1. Skráðu þig inn í vöruhúsaforritið sem notandi í vöruhúsi *61*. (Sláið inn *61* sem notandakennið og *1* sem aðgangsorðið.)
+1. Skráðu þig inn í farsímaforrit vöruhúsakerfis sem notandi í vöruhúsi *61*. (Sláið inn *61* sem notandakennið og *1* sem aðgangsorðið.)
 1. Opnaðu **Á útleið \> Sölutiltekt**.
 1. Færið inn fyrsta vinnukennið fyrir sölupöntun 1.
 
@@ -408,3 +405,6 @@ Nú er hægt að vinna þessa áfyllingarvinnu með fartækinu.
 - Hægt er að hnekkja tiltækileika áfyllingarvinnu handvirkt fyrir hvern vinnuhaus af síðunni **Upplýsingar um vinnu** ef þess er óskað.
 - Þegar kerfið stillir tiltækileika áfyllingarvinnu, tekur það allar birgðir til greina sem eru þegar í staðsetningunni áður en vinnu er lokið
 - Hver hluti sölupöntunarvinnu er tengdur við tiltekna áfyllingarvinnu. Ekki er til nein samsvarandi virkni fyrir tiltækileika söluvinnu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

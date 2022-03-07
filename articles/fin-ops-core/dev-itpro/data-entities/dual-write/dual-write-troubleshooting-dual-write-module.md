@@ -1,12 +1,11 @@
 ---
-title: Leysa úr vandamálum við einingu fyrir tvöföld skrif í Finance and Operations-forritum
+title: Úrræðaleit vegna vandamála tvöfaldrar skráningar í Finance and Operations forritum
 description: Þetta efni veitir bilanaleit sem getur hjálpað þér að laga vandamál með tvískrifunareiningunni í forritum Finance and Operations.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,14 +17,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2241e7e6219f95115f55bc45a4d94550276e1e21
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9bff8ad0c5716648dec6eadfb21412a2b17f155e
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683624"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561227"
 ---
-# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Leysa úr vandamálum við einingu fyrir tvöföld skrif í Finance and Operations-forritum
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Úrræðaleit vegna vandamála tvöfaldrar skráningar í Finance and Operations forritum
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,7 +43,7 @@ Ef þú getur ekki opnað síðuna **Tvöfalt skrif** með því að velja reiti
 
 **Nauðsynlegar innskráningarupplýsingar til að laga vandann:** Sami notandi og setti upp tvískipt skrif.
 
-Þú gætir fengið eftirfarandi villuboð þegar þú reynir að stilla nýja einingu fyrir tvískipt skrif. Eini notandinn sem getur búið til vörpun er notandinn sem setti upp tengingu tvískiptrar skrifa.
+Þú gætir fengið eftirfarandi villuboð þegar þú reynir að stilla nýja töflu fyrir tvískipt skrif. Eini notandinn sem getur búið til vörpun er notandinn sem setti upp tengingu tvískiptrar skrifa.
 
 *Kóði svörunarstöðu bendir ekki til árangurs: 401 (Óheimilt)*
 
@@ -77,7 +76,7 @@ Til að laga málið, skráðu þig inn með því að nota InPrivate glugga í 
 
 Til að laga málið, stofnaðu miða fyrir Data Integration teymið. Festu netsporið svo að gagnasamstillingarteymið geti merkt kortin sem **Ekki í gangi** í bakvinnslunni.
 
-## <a name="error-while-trying-to-start-an-table-mapping"></a>Villa við að reyna að hefja töfluvörpun
+## <a name="error-while-trying-to-start-a-table-mapping"></a>Villa við að reyna að hefja töfluvörpun
 
 Þú gætir fengið villu eins og eftirfarandi þegar þú reynir að stilla þessa stöðu vörpunar á **Í gangi**:
 
@@ -86,4 +85,7 @@ Til að laga málið, stofnaðu miða fyrir Data Integration teymið. Festu nets
 Lagfæringin á þessari villu fer eftir orsök villunnar:
 
 + Ef vörpunin er með háðar varpanir skaltu ganga úr skugga um að virkja háðar varpanir fyrir þessa töfluvörpun.
-+ Hugsanlega vantar í vörpunina reiti upprunastaðar eða viðtökustaðar. Ef það vantar reit í Finance and Operations-forritið skaltu fylgja eftirfarandi skrefum í hlutanum [Vandamál vegna einingareiti sem vanar í varpanir](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Ef reit vantar í Dataverse skal smella á hnappinn **Uppfæra töflur** í vörpununum svo reitirnir fyllist sjálfkrafa út í vörpuninni.
++ Hugsanlega vantar í vörpunina dálka upprunastaðar eða viðtökustaðar. Ef það vantar dálk í Finance and Operations-forritið skaltu fylgja eftirfarandi skrefum í hlutanum [Vandamál vegna töfludálka sem vantar í varpanir](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Ef dálk vantar í Dataverse skal smella á hnappinn **Uppfæra töflur** í vörpununum svo dálkarnir fyllist sjálfkrafa út í vörpuninni.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

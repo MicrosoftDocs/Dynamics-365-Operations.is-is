@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: def99a34404357e28501de5ccf11c6130d53f34f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413054"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213819"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce matsumhverfi
 
@@ -103,7 +102,7 @@ Uppfæra verður tölvupóstsniðmátið fyrir hvert færslutilvik sem þú vilt
 
 Þú gætir viljað aðlaga tölvupóstsniðmátin þannig að þau noti mismunandi myndir. Eða þú gætir viljað uppfæra tengla í sniðmátunum þannig að þeir vísi í matsumhverfi. Þetta ferli útskýrir hvernig á að hala niður sjálfgefnu sniðmátunum, aðlaga þau og uppfæra sniðmátin í kerfinu.
 
-1. Í vefvafra skal sækja upp [Microsoft Dynamics 365 Commerce Evaluation sjálfgefin zip-skrá fyrir tölvupóstsniðmát](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) í staðbundnu tölvunni. Þessi skrá inniheldur eftirfarandi HTML skjöl:
+1. Í vefvafra skal sækja upp [ Microsoft Dynamics 365 Commerce Evaluation sjálfgefin zip-skrá fyrir tölvupóstsniðmát](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) í staðbundnu tölvunni. Þessi skrá inniheldur eftirfarandi HTML skjöl:
 
     - Eining pöntunarsniðmáts
     - Gefa út sniðmát gjafakorts
@@ -134,7 +133,7 @@ Uppfæra verður tölvupóstsniðmátið fyrir hvert færslutilvik sem þú vilt
 
 Eftirfarandi tákn eiga við um heildarsölupöntunina.
 
-| Heiti táknsins | Tákn |
+| Heiti táknsins | Merki |
 |-------------------|-------|
 | Pöntunarnúmer      | %salesid% |
 | Nafn viðskiptavinar   | %customername% |
@@ -146,14 +145,14 @@ Eftirfarandi tákn eiga við um heildarsölupöntunina.
 | Virðisaukaskattur         | %tax% |
 | Heildarupphæð pöntunar       | %total% |
 
-#### <a name="sales-line"></a>Sölulínur
+#### <a name="sales-line"></a>Sölulína
 
 Eftirfarandi táknum er skipt út með gildum fyrir hverja vöru í röðinni.
 
 > [!NOTE]
 > Settu táknið **Vörulisti - byrja** í byrjun HTML-bálksins sem er endurtekinn fyrir hverja vöru og settu táknið **Vörulisti - ljúka** í lok bálksins.
 
-| Heiti táknsins      | Tákn |
+| Heiti táknsins      | Merki |
 |------------------------|-------|
 | Afurðalisti - hefja   | \<!--%tablebegin.salesline% --\> |
 | Afurðalisti - lok     | \<!--%tableend.salesline%--\> |
@@ -187,3 +186,6 @@ Eftirfarandi táknum er skipt út með gildum fyrir hverja vöru í röðinni.
 [Microsoft Azure-gátt](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce vefsvæði](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

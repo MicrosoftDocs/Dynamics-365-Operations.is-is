@@ -1,17 +1,14 @@
 ---
 title: Afþakka sérsniðnar tillögur
-description: Þetta efni útskýrir hvernig þú getur látið viðskiptavini afþakka að fá persónulegar ráðleggingar í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði útskýrir hvernig hægt er að leyfa viðskiptavinum afþakka móttöku sérsniðinna tillagna í Microsoft Dynamics 365 Commerce.
 author: bebeale
-manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,20 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: f634e39fe8ca7ffecfd1952933cb82e1bfe7d5a8eec28a61e1d78d21847f95f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413131"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772938"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Afþakka sérsniðnar tillögur
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni útskýrir hvernig þú getur látið viðskiptavini afþakka að fá persónulegar ráðleggingar í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði útskýrir hvernig hægt er að leyfa viðskiptavinum afþakka móttöku sérsniðinna tillagna í Microsoft Dynamics 365 Commerce.
 
 Við stofnun reiknings eru nýir viðskiptavinir sjálfkrafa settir upp til að fá persónulega ráðleggingar. Hins vegar Dynamics 365 Commerce veitir smásöluaðilum ýmsar leiðir til að láta notendur afþakka að fá þessar ráðleggingar og takmarka vinnslu persónuupplýsinga sinna. Sannvottir notendur sem afþakka að fá persónulegar ráðleggingar hætta strax að sjá persónulega lista. Að auki verða öll persónuleg gögn sem safnað er til að sérsníða verða fjarlægð úr persónulegum ráðleggingalíkönum.
 
@@ -49,11 +44,11 @@ Smásalar hafa þrjár leiðir til að innleiða afökkunarupplifun.
 1. Leitaðu að á heimasíðu bakvinnslu **allir viðskiptavinir**.
 1. Leitaðu að og veldu viðskiptavin og veldu síðan flýtiflipann **Retail**.
 
-    ![Flýtireiturinn Retail](./media/Disablepersonalizationpart1.png)
+    ![Flýtiflipi smásölu.](./media/Disablepersonalizationpart1.png)
 
 1. Undir **Persónuvernd**, stilltu **Slökkva á sérstillingu** kostur á **Já**.
 
-    ![Öryggisstillingar](./media/Disablepersonalizationpart2.png)
+    ![Persónuverndarstillingar.](./media/Disablepersonalizationpart2.png)
 
 1. Veljið **Vista** og lokið skjámyndinni.
 
@@ -104,3 +99,6 @@ Eftirfarandi dæmi sýnir hvernig smásala getur sinnt þessu verkefni.
 [Búðu til tillögur með kynningargögnum](product-recommendations-demo-data.md)
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

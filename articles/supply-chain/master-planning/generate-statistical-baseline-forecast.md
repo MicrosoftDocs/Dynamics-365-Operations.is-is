@@ -2,16 +2,13 @@
 title: Myndun tölfræðilegrar grunnlínuspár
 description: Þetta efnisatriði veitir upplýsingar um þær færibreytur og síur sem eru notaðar við útreikning á eftirspurnarspá.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db0ac2d56db46f283716df6615e404a5354f8d3e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 780d1e1307b69ec9a31d032039970de454160d6f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430576"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189693"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Myndun tölfræðilegrar grunnlínuspár
 
@@ -70,11 +67,13 @@ Ef spá er ekki mynduð fyrir stórt safn af vörum en, til dæmis, fyrir eina v
 > [!NOTE]
 > Hugsanlega flöt spá getur verið vegna sögulegra gagna sem þurfa að vera með lengri sögulegan tímaramma (að lágmarki 3 tímabil til að hægt sé að velja mynstur, eins og 3 ár með mánaðarlegri spá). Til að fá betri niðurstöður er hægt að prófa að breyta uppskiptingu tímabilsins eða auka tímabilið.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Uppsetning eftirspurnarspár](demand-forecasting-setup.md)
 
 - [Gera handvirkar leiðréttingar á grunnlínuspánni](manual-adjustments-baseline-forecast.md)
 
 - [Leiðrétt spá heimiluð](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

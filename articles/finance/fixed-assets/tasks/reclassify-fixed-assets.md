@@ -1,12 +1,10 @@
 ---
 title: Endurflokka eignir
-description: Til að endurflokka eign verður að færa hana í nýjan eignaflokk eða að úthluta henni nýju eignanúmeri innan sama flokks.
-author: saraschi2
-manager: AnnBe
+description: Þetta efnisatriði útskýrir ferlið við endurflokkun eigna. Til að endurflokka eign verður að færa hana í nýjan eignaflokk eða að úthluta henni nýju eignanúmeri innan sama flokks.
+author: moaamer
 ms.date: 05/14/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4cfc1425aca7a62205e0c7c50237f206a179a0e7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: a5fadebe685810d6833d1cb0581ed9a4869cc124
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968855"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883647"
 ---
 # <a name="reclassify-fixed-assets"></a>Endurflokka eignir
 
@@ -29,11 +27,25 @@ Til að endurflokka eign verður að færa hana í nýjan eignaflokk eða að ú
 
 Þegar eign er endurflokkuð:
 
-* Allar bækur fyrirliggjandi eigna eru stofnaðar fyrir nýju eignina. Allar upplýsingar sem voru settar upp fyrir upprunalegu eignina eru afritaðar í nýju eignina. Staða bókanna fyrir upprunalegu eignina er Lokað. 
+- Allar bækur fyrirliggjandi eigna eru stofnaðar fyrir nýju eignina. Allar upplýsingar sem voru settar upp fyrir upprunalegu eignina eru afritaðar í nýju eignina. Staða bókanna fyrir upprunalegu eignina er Lokað. 
 
-* Nýju bækur nýju eignarinnar innihalda dagsetningu endurflokkunarinnar í reitnum **Kaupdagsetning**. Dagsetningin í svæði **Dagsetning afskriftarkeyrslu** er afrituð úr upprunalegu eignaupplýsingunum. Ef afskriftir eru þegar hafnar sýnir svæðið **Dagsetningin þegar afskriftir voru síðast keyrðar** dagsetningu endurflokkunarinnar. 
+- Nýju bækur nýju eignarinnar innihalda dagsetningu endurflokkunarinnar í reitnum **Kaupdagsetning**. Dagsetningin í svæði **Dagsetning afskriftarkeyrslu** er afrituð úr upprunalegu eignaupplýsingunum. Ef afskriftir eru þegar hafnar sýnir svæðið **Dagsetningin þegar afskriftir voru síðast keyrðar** dagsetningu endurflokkunarinnar. 
 
-* Hætt er við fyrirliggjandi eignafærslur upprunalegu eignarinnar og þær myndaðar aftur fyrir nýju eignina.
+- Hætt er við fyrirliggjandi eignafærslur upprunalegu eignarinnar og þær myndaðar aftur fyrir nýju eignina.
+
+- Þegar eign með færslu hefur verið endurflokkuð birtir kerfið skilaboð í **aðgerðamiðstöðinni** um að millifærslu hafi ekki verið lokið meðan á endurflokkunarferlinu stóð. Nauðsynlegt er að ljúka flutningsfærslu til að færa fyrirliggjandi endurflokkunarfærslu í viðeigandi fjárhagsvídd. 
+
+   Meðan á endurflokkunarferlinu stendur keyrir kerfið eftirfarandi aðgerðir til að endurflokka eignastöðuna frá upprunalegu eigninni yfir á nýju eignina. 
+   
+   - Endurflokkunarferlið afritar gögnin úr upprunalegu eignabókinni í nýju eignabókina.
+
+   - Í endurflokkunarfærslunni eru notaðar upplýsingar úr upprunalegu bókuðu kaupunum sem innihalda upplýsingar um fjárhagsvídd sem eru innifaldar í eignaflutningsfærslunni.  
+   
+   - Á sama tíma snýr endurflokkunarferlið við upphaflegu eignakaupunum og eignaflutningsfærslunni. 
+
+Eftirfarandi mynd og aðferð gefur dæmi um endurflokkunarferlið. 
+
+[![Mynd sem sýnir endurflokkunarferlið.](../media/reclassification-process-01.png)](../media/reclassification-process-01.png)
 
 Fylgið þessum skrefum til að endurflokka eign:
 
@@ -44,4 +56,7 @@ Fylgið þessum skrefum til að endurflokka eign:
     * Ef nýr eignaflokkur er festur við númeraröð er svæði **Nýtt eignanúmer** uppfærður með númer úr númeraröð nýtt eignaflokkur. Annars er svæðið **Nýtt eignanúmer** uppfært með númeri úr númeraröð sem er sett upp á síðunni **Færibreytur eigna**. Ef númeraröð er ekki sett upp á síðunni **Færibreytur eigna** skal slá inn númerið í svæðinu **Nýtt eignanúmer**.  
 5. Í svæði **Dagsetning endurflokkunar** skal slá inn dagsetning.
 6. Í reitinn **fylgiskjalaruna** skal slá inn eða velja gildi.
-7. Smellt er á **OK**.
+7. Veljið **Í lagi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

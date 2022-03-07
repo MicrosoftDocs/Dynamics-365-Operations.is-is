@@ -1,27 +1,25 @@
 ---
 title: Fartækjavinnusvæði samstarfs lánardrottna
 description: Þetta efnisatriði veitir upplýsingar um lánardrottnasamvinnu á fartækjavinnusvæði. Þessi vinnusvæði gerir lánardrottnum kleift að fylgjast með innkaupapöntunum sem hafa verið sendar til þeirra til samþykktar. Þeir geta einnig skoðað upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
-ms.author: riluan
+ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 5cd8a2b2db7147aca6bdc29ba15d99a619ddb4f8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: efbd0afb0d84f76058b75126af200a9b10197559
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020837"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577025"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Fartækjavinnusvæði samstarfs lánardrottna
 
@@ -59,7 +57,7 @@ Fartækjavinnusvæðið **Samvinna lánardrottna** gerir lánardrottni kleift a�
 Skilyrðin eru mismunandi, háð útgáfu Microsoft Dynamics 365 sem hefur verið sett upp fyrir fyrirtækið þitt.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Forkröfur ef þú notar Supply Chain Management
-Ef Supply Chain Management hefur verið innleitt í fyrirtækinu verður kerfisstjóri að birta fartækjavinnusvæðið **Samstarf lánardrottna**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Ef Supply Chain Management hefur verið innleitt í fyrirtækinu verður kerfisstjóri að birta fartækjavinnusvæðið **Samstarf lánardrottna**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Skilyrði ef þú notar Microsoft Dynamics 365 for Operations útgáfu 1611 með verkvangsuppfærslu 3 eða nýrri
 Ef Microsoft Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 3 eða síðar hefur verið sett upp fyrir fyrirtækið þitt, verður kerfisstjórinn að ljúka eftirfarandi skilyrðum. 
@@ -79,7 +77,7 @@ Ef Microsoft Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 
 <td>KB 3216943 er tvíundaruppfærsla sem er nauðsynleg ef verkvangsuppfærsla 3 er notuð.&#39; Til að setja þetta KB upp verður kerfisstjóri að fylgja eftirfarandi skrefum.
 <ol>
 <li>Sækja KB 3216943 frá Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li>Setja upp tvíundakerfisuppfærslu, sem er afhent sem dreifanlegur pakki. Sjá upplýsingar um hvernig á að nota dreifanlega pakka <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Nota dreifanlegan pakka</a>.</li>
+<li>Setja upp tvíundakerfisuppfærslu, sem er afhent sem dreifanlegur pakki. Sjá upplýsingar um hvernig á að nota dreifanlega pakka <a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Nota dreifanlegan pakka</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -87,14 +85,14 @@ Ef Microsoft Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 
 <td>Kerfisstjóri</td>
 <td>KB 4013633 er X++ uppfærsla eða lýsigagnabráðabót sem inniheldur fartækjavinnusvæðið <strong>Birgðir á lager</strong>. Til að setja upp KB 4013633 verður kerfisstjóri að fylgja eftirfarandi skrefum.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Sækja bráðabót lýsigögn úr LCS</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Setja upp bráðabót lýsigagna</a>.</li><li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Stofna virkjanlegan pakka</a> sem inniheldur <strong>SCMMobile</strong> líkanið og hlaða síðan virkjanlega pakkann í LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Notaðu virkjanlega pakkann</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Sækja bráðabót lýsigögn úr LCS</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Setja upp bráðabót lýsigagna</a>.</li><li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Stofna virkjanlegan pakka</a> sem inniheldur <strong>SCMMobile</strong> líkanið og hlaða síðan virkjanlega pakkann í LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Notaðu virkjanlega pakkann</a>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Það verður að birta fartækjavinnusvæðið <strong>Samvinna lánardrottna</strong>.</td><td>Kerfisstjóri</td>
-<td>Sjáið <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Fartækjavinnusvæði birt</a>.</td>
+<td>Sjáið <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Fartækjavinnusvæði birt</a>.</td>
 </tr>
 <tr class="even">
 <td>Notandi lánardrottins verður að hafa aðgang að vefviðmótinu Samvinnusvæði lánardrottins í vefbiðlaranum og verður að setja upp samvinnusvæði notanda lánardrottins.</td><td>Innkaupasérfræðingar og kerfisstjóri</td>
@@ -122,12 +120,12 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
 4.  Í fyrsta sinn sem þú skráir þig inn er beðið um notandanafn og aðgangsorð þitt. Færðu inn skilríki
 5.  Eftir að þú hefur skráð þig inn, birtast tiltæk vinnusvæði fyrir fyrirtækið. Athugið að ef kerfisstjóri gefur út nýtt vinnusvæði síðar, verður að endurræsa listann yfir fartækjavinnusvæði.
 
-    [![Togið upp til að uppfæra](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Togið til að uppfæra.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="use-the-vendor-collaboration-mobile-workspace"></a>Notaðu fartækjavinnusvæði samstarfs lánardrottna
 Þegar valið er vinnusvæðið **Samstarf lánardrottna** sérðu eftirfarandi valkosti.
 
-![Fartækjavinnusvæði samstarfs lánardrottna](./media/vendor-collaboration-mobile-app.png)
+![Fartækjavinnusvæði samstarfs lánardrottna.](./media/vendor-collaboration-mobile-app.png)
 
 Vinnusvæðið **Samvinna lánardrottna** felur í sér eftirfarandi síður.
 
@@ -169,3 +167,6 @@ Allar breytingar sem gerðar voru í svari raðarlínu eru sýndar. Hins vegar e
 
 ### <a name="open-confirmed-orders"></a>Opna staðfestar pantanir
 Þegar innkaupapöntun er staðfest af viðskiptavini (það er að segja, stöðu innkaupapöntunar er breytt í stöðuna **Staðfest**) birtist hún í opinni staðfestri pöntun. Hún verður áfram á listanum þar til hún er skráð sem móttekin af viðskiptavini.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

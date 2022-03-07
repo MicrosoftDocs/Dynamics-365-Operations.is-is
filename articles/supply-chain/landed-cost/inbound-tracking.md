@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 67ee22af7a73c18d4f77018fedf5a89f0777774d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 94754447b3f363716595de4902f48188c4ebbda9
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580769"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022014"
 ---
 # <a name="track-inbound-voyages-and-shipping-container-journeys"></a>Rekja ferðir á innleið og ferðir gáma
 

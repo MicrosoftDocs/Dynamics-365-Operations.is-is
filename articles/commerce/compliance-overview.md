@@ -1,35 +1,31 @@
 ---
 title: Yfirlit yfir samræmi
-description: Þetta efni er yfirlit yfir leiðbeiningar um samræmi sem fylgir Microsoft Dynamics 365 Commerce til að hjálpa þér að gera vefsvæði fyrirtækisins samhæft.
+description: Í þessu efnisatriði er að finna yfirlit yfir leiðbeiningar reglufylgni með Microsoft Dynamics 365 Commerce til að hjálpa til við reglufylgni vefsvæðis fyrirtækisins.
 author: BrianShook
-manager: annbe
 ms.date: 01/08/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 45d96317f5b6ef956647bfc511e80533e2c34bca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 3d90bbce5949468966d995710cdad69484aa90c9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413158"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983293"
 ---
-# <a name="compliance-overview"></a>Yfirlit yfir samræmi
+# <a name="compliance-overview"></a>Yfirlit yfir reglufylgni
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni er yfirlit yfir leiðbeiningar um samræmi sem fylgir Microsoft Dynamics 365 Commerce til að hjálpa þér að gera vefsvæði fyrirtækisins samhæft. Fylgni er mikilvægur þáttur fyrir öll fyrirtæki, vegna þess að það hjálpar notendagrunni þeirra að tengjast innihaldi síðunnar. Með því að vera í samræmi við það geturðu einnig verndað fyrirtæki þitt gegn dýrum réttaraðgerðum eða miklum sektum.
+Í þessu efnisatriði er að finna yfirlit yfir leiðbeiningar reglufylgni með Microsoft Dynamics 365 Commerce til að hjálpa til við reglufylgni vefsvæðis fyrirtækisins. Fylgni er mikilvægur þáttur fyrir öll fyrirtæki, vegna þess að það hjálpar notendagrunni þeirra að tengjast innihaldi síðunnar. Með því að vera í samræmi við það geturðu einnig verndað fyrirtæki þitt gegn dýrum réttaraðgerðum eða miklum sektum.
 
 Fylgiskjölin innihalda endurskoðun á svæðum sem þú ættir að hafa í huga þegar þú notar Dynamics 365 Commerce, til að hjálpa þér að uppfylla kröfur fyrirtækisins.
 
@@ -46,3 +42,6 @@ Til að læra meira um grundvallarreglurnar sem Microsoft notar skaltu fara á [
 [Bæta við persónuverndarstefnusíðu](add-privacy-page.md)
 
 [Skipta um notandakenni sem tengjast röktum efnisbreytingum](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

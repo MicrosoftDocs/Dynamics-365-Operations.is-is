@@ -1,12 +1,10 @@
 ---
-title: Yfirlit
+title: Yfirlit stjórnunar
 description: Þessi stjórnandi handbók hjálpar þér að setja upp, stjórna og leysa úrræðaleit Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8008a7e78bb1d1568a79fab436194a04d1ff683c
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 7a5f6ff75667f79894fce09b4fafeeaf31eea31e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527862"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889765"
 ---
-# <a name="overview"></a>Yfirlit
+# <a name="administration-overview"></a>Yfirlit stjórnunar
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -41,15 +41,15 @@ ms.locfileid: "4527862"
 
 - Setja upp samþættingu gagna
   - [Velja tækni við samþættingu gagna](hr-admin-integration-choose-technology.md)
-  - [Skilgreina Common Data Service-samþættingu](hr-admin-integration-common-data-service.md)
+  - [Skilgreina Dataverse-samþættingu](hr-admin-integration-common-data-service.md)
   - [Skilgreina samþættingu við Finance](hr-admin-integration-finance.md)
   - [Skilgreina samþættingu við Dayforce](hr-admin-integration-dayforce.md)
   - [Búa til útflutningsforrit fyrir endurtekin gögn](hr-admin-integration-recurring-data-export.md)
   - Samþætt við Office
-    - [Kennsla í Office-samþættingu](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Uppfæra einingagögn í Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Búa til „Opna í Excel“-upplifanir](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Nota úrræðaleit fyrir Office-samþættingu](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Kennsla í Office-samþættingu](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Uppfæra einingagögn í Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Búa til „Opna í Excel“-upplifanir](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Nota úrræðaleit fyrir Office-samþættingu](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - [Vinna með eiginleika](hr-admin-manage-features.md)
 
@@ -84,7 +84,7 @@ ms.locfileid: "4527862"
   - [Búa til fylgiskjöl eða þjálfun með verkskráningu](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Úrræðaleit fyrir mannauð
-  - [Fá aðstoð](hr-admin-troubleshooting-support.md)
+  - [Fá aðstoð](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [Auka afköst með sjálfvirkum hreinsunarverkum](hr-admin-troubleshooting-batch-history.md)
   - [Greiningarskýrslur eru ekki uppfærðar](hr-admin-troubleshooting-analytic-reports.md)
   - [Ekki er hægt að stofna umhverfi í stjórnendamiðstöð Power Apps](hr-admin-troubleshooting-power-apps.md)
@@ -102,3 +102,5 @@ ms.locfileid: "4527862"
 - [Nýjungar eða breytingar í Human Resources](hr-admin-whats-new.md)
 - [Leiðbeiningar þróunaraðila](hr-developer-overview.md)
 - [Notkunarleiðbeiningar](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

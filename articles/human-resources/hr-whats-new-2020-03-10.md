@@ -1,33 +1,32 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Human Resources (10. mars 2020)
 description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 10. mars 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 944481727f3222a10f128ac3078c117f5ae7d193
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: c6e4d93f89721bd722de523fbba7adfd2ee3f786
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526917"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061152"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (10. mars 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum Dynamics 365 Human Resources. Breytingar eiga við um byggingarnúmer 8.1.2985. Tölurnar í sviga í sumum fyrirsögnum vísa til stuðningsnúmera LCS fyrir tilvísun.
 
@@ -45,7 +44,7 @@ Viðhaldsgluggi starfskraftaverka skráir yfir öll verk fyrir starfsmann í ný
 
 Dæmi: Benjamin Martin er fríðindastjórnandi. Við nýliðun starfsmanna eru verkefni búin til fyrir Benjamin til að endurskoða fríðindaval nýrra starfsmanns. Benjamin er með fyrri verkefni sem hann hefur lokið og framtíðarverkefni sem hann þarf að klára. Benjamin ákveður að hætta hjá fyrirtækinu og því þarf annaðhvort að úthluta verkefnum hans eða fjarlægja þau. Viðhaldsgluggi verks (í aðgerðarrúðunni í glugganum **Starfskraftur**) gerir kleift að úthluta öllum verkum Benjamíns til annars starfsmanns eða fjarlægja þau.  
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Common Data Service lausn er nú fáanleg með eftirfarandi breytingum:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Dataverse lausn er nú fáanleg með eftirfarandi breytingum:
 
 | lýsing | Skiptimynt |
 | --- | --- |
@@ -57,18 +56,18 @@ Dæmi: Benjamin Martin er fríðindastjórnandi. Við nýliðun starfsmanna eru 
 | Nýir uppsetningaraðilar breytilegra bóta | <ul><li>**Fyrirkomulagsgerð breytilegra uppbóta**</li><li>**Fyrirkomulag breytilegra uppbóta**</li><li>**Veitireglur**</li><li>**Fyrirkomulagsstig breytilegra uppbóta**</li></ul> |
 | Nýtt **Starfsmaður dagatal atvinnu** eining | <ul><li>**Vinnudagatalseining** bætt við</li></ul> |
 | Ný eining **Upplýsinga um launastöðu** | <ul><li>**Upplýsingar um launastöðu** bætt við</li></ul> |
-| Einingin nýr **Titill** | <ul><li>**Titli** bætt við</li></ul> Nýja einingin **Titill** er innifalin í Common Data Service en er ekki tilvísuð úr einigunum **Staða starfs** eða **Starf** á þessum tíma. |
+| Einingin nýr **Titill** | <ul><li>**Titli** bætt við</li></ul> Nýja einingin **Titill** er innifalin í Dataverse en er ekki tilvísuð úr einigunum **Staða starfs** eða **Starf** á þessum tíma. |
 
 > [!NOTE]
-> Fjárhagsvíddir fyrir bæði störf og atvinnu veita einnar áttar samþættingu fyrir uppfærslur úr Human Resources í Common Data Service. Uppfærslur fjárhagsvídda samstillast ekki eins og stendur úr Common Data Service í Human Resources.
+> Fjárhagsvíddir fyrir bæði störf og atvinnu veita einnar áttar samþættingu fyrir uppfærslur úr Human Resources í Dataverse. Uppfærslur fjárhagsvídda samstillast ekki eins og stendur úr Dataverse í Human Resources.
 
-Á næstu vikum verða þessar einingarbreytingar tiltækar í öllu umhverfi. Til að setja upp það nýjasta handvirkt Common Data Service lausn fyrir Human Resources:
+Á næstu vikum verða þessar einingarbreytingar tiltækar í öllu umhverfi. Til að setja upp það nýjasta handvirkt Dataverse lausn fyrir Human Resources:
 
 1.  Farðu í [Power Platform Stjórnendamiðstöð](https://admin.powerplatform.microsoft.com).
 
 2.  Veldu **Umhverfi**.
 
-3.  Finndu umhverfið sem þú vilt uppfæra. Umhverfið ætti að samsvara **Heiti umhverfisins** í **Common Data Service upplýsingar** kafla í glugganum **Um** í Human Resources.
+3.  Finndu umhverfið sem þú vilt uppfæra. Umhverfið ætti að samsvara **Heiti umhverfisins** í **Dataverse upplýsingar** kafla í glugganum **Um** í Human Resources.
 
 4.  Veldu umhverfið til að skoða upplýsingar um umhverfið.
 
@@ -103,6 +102,8 @@ Eftirfarandi forskoðunaraðgerðir eru í boði 3. febrúar 2020:
 ## <a name="see-also"></a>Sjá einnig
 
 [Nýjungar í Human Resources](hr-admin-whats-new.md)</br>
-[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

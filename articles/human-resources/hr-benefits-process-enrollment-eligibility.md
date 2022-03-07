@@ -1,33 +1,35 @@
 ---
 title: Vinna úr fríðindahæfni
-description: Þessi grein útskýrir hvernig á að keyra hæfisferlið fyrir innritun.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+description: Í þessu efnisatriði er útskýrt hvernig á að keyra ferli hæfnisskráningar.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: e8997cf24bf24097e46a05acffef8b3839056c57
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418977"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067630"
 ---
 # <a name="process-enrollment-eligibility"></a>Vinna úr fríðindahæfni
 
-Þessi grein útskýrir hvernig á að keyra hæfisferlið fyrir innritun.
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Í þessu efnisatriði er útskýrt hvernig á að keyra ferli hæfnisskráningar.
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Í vinnslu**, veldu **Vinnsla hæfis fyrir innritun**.
 
@@ -50,15 +52,15 @@ ms.locfileid: "4418977"
 
    4. Veljið **Í lagi**. Ferlið keyrir með breytunum sem þú stillir.
 
-4. Veljið **Í lagi**.
+4. Veldu **Í lagi**.
 
 ## <a name="view-process-results"></a>Skoða niðurstöður vinnslu
 
-Þessi grein útskýrir hvernig á að skoða niðurstöður vinnslu.
+Þetta efnisatriði útskýrir hvernig á að skoða niðurstöður hæfnisferlis.
 
 1.  Í vinnusvæðinu **Fríðindastjórnun**, undir **Í vinnslu**, veldu **Niðurstöður vinnslu**.
 
-2.  Í forminu **Afgreiða niðurstöður** eru eftirfarandi reitir tilgreindir:
+2.  Á síðunni **Vinna úr niðurstöðum** eru eftirfarandi reitir tilgreindir:
 
    | Svæði | lýsing |
    | --- | --- |
@@ -72,3 +74,6 @@ ms.locfileid: "4418977"
    | **Niðurstöður** | Þetta verður gjaldgeng eða óhæfur. Niðurstaðan verður óhæf ef starfsmaðurinn uppfyllti ekki skilyrði fyrir hæfisreglu, ef starfsmanninn vantar nauðsynlegar upplýsingar, svo sem launatíðni eða fastar bætur, eða ef það vantar upplýsingar í bótakerfið sem kemur í veg fyrir að starfsmenn séu skráðir. |
    | **Niðurstöðuskilaboð** | Gefur til kynna hvers vegna starfsmaður er óhæfur til fríðindaáætlunar eða ef hæfisreglan var samþykkt. |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

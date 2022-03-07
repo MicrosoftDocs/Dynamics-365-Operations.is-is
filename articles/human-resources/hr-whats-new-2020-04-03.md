@@ -1,31 +1,30 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Human Resources (3. apríl 2020)
 description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 3. apríl 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8f5d7ab996e0d27f763cd4c3c51e9a2c923d909b
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: df9c0a67a0938d7f38545bba247e59ed6d1d81fdfe2bf79051c4e9c81795427d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526787"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759720"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (3. apríl 2020)
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -64,7 +63,7 @@ Eftirfarandi einingar eru nú tiltækar. Ef þú sérð þessar einingar ekki sk
  - Áætlunarskil leyfis og fjarvista V2
  - Áætlun leyfis og fjarvista V2
 
-## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>Common Data Service lausn er nú fáanleg með eftirfarandi breytingum:
+## <a name="dataverse-solution-is-now-available-with-the-following-changes"></a>Dataverse lausn er nú fáanleg með eftirfarandi breytingum:
 
 | lýsing | Skiptimynt |
 | --- | --- |
@@ -76,18 +75,18 @@ Eftirfarandi einingar eru nú tiltækar. Ef þú sérð þessar einingar ekki sk
 | Nýir uppsetningaraðilar breytilegra bóta | <ul><li>**Fyrirkomulagsgerð breytilegra uppbóta**</li><li>**Fyrirkomulag breytilegra uppbóta**</li><li>**Veitireglur**</li><li>**Fyrirkomulagsstig breytilegra uppbóta**</li></ul> |
 | Nýtt **Starfsmaður dagatal atvinnu** eining | <ul><li>**Vinnudagatalseining** bætt við</li></ul> |
 | Ný eining **Upplýsinga um launastöðu** | <ul><li>**Upplýsingar um launastöðu** bætt við</li></ul> |
-| Einingin nýr **Titill** | <ul><li>**Titli** bætt við</li></ul>Nýja einingin **Titill** er innifalin í Common Data Service en er ekki tilvísuð úr einigunum **Staða starfs** eða **Starf** á þessum tíma. |
+| Einingin nýr **Titill** | <ul><li>**Titli** bætt við</li></ul>Nýja einingin **Titill** er innifalin í Dataverse en er ekki tilvísuð úr einigunum **Staða starfs** eða **Starf** á þessum tíma. |
 
 > [!NOTE]
-> Fjárhagsvíddir fyrir bæði störf og atvinnu veita einnar áttar samþættingu fyrir uppfærslur úr Human Resources í Common Data Service. Uppfærslur fjárhagsvídda samstillast ekki eins og stendur úr Common Data Service í Human Resources.
+> Fjárhagsvíddir fyrir bæði störf og atvinnu veita einnar áttar samþættingu fyrir uppfærslur úr Human Resources í Dataverse. Uppfærslur fjárhagsvídda samstillast ekki eins og stendur úr Dataverse í Human Resources.
 
-Á næstu vikum verða þessar einingarbreytingar tiltækar í öllu umhverfi. Til að setja upp það nýjasta handvirkt Common Data Service lausn fyrir Human Resources:
+Á næstu vikum verða þessar einingarbreytingar tiltækar í öllu umhverfi. Til að setja upp það nýjasta handvirkt Dataverse lausn fyrir Human Resources:
 
 1.  Farðu í [Power Platform Stjórnendamiðstöð](https://admin.powerplatform.microsoft.com).
 
 2.  Veldu **Umhverfi**.
 
-3.  Finndu umhverfið sem þú vilt uppfæra. Umhverfið ætti að samsvara **Heiti umhverfisins** í **Common Data Service upplýsingar** kafla í glugganum **Um** í Human Resources.
+3.  Finndu umhverfið sem þú vilt uppfæra. Umhverfið ætti að samsvara **Heiti umhverfisins** í **Dataverse upplýsingar** kafla í glugganum **Um** í Human Resources.
 
 4.  Veldu umhverfið til að skoða upplýsingar um umhverfið.
 
@@ -134,6 +133,8 @@ Ef forskoðun skjals fyrir skjöl sem eru vistuð í SharePoint virkar ekki, pr�
 ## <a name="see-also"></a>Sjá einnig
 
 [Nýjungar í Human Resources](hr-admin-whats-new.md)</br>
-[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

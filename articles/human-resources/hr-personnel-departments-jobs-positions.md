@@ -2,30 +2,29 @@
 title: Skipuleggja vinnuafl með notkun deilda, starfa og staða
 description: Deildir, störf og stöður eru fyrirtækjaeiningar sem er viðhaldið innan Mannauðs. Þessi grein gefur upplýsingar um merkingu þessara hugtaka.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources, Retail
+ms.search.scope: Human Resources
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 826de9e1e5d70ba1ec088b44254c871726b5c38e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1279cd1eb0d495107515dd40f7d2e0f9dfd5e080
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419007"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058825"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Skipuleggja starfsfólk með því að nota deildir, störf og stöður
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Deildir, störf og stöður eru fyrirtækjaeiningar sem er viðhaldið innan Mannauðs. Þessi grein gefur upplýsingar um merkingu þessara hugtaka. 
 
@@ -120,7 +119,7 @@ Hvert stöðu hefur lengd tímans sem staðan er virk. Þessi tímalengd kallast
 
 Stöður eru mikilvægar einingar í lægri stig í stigveldi fyrirtækis. Í skjámyndinni Stöðu er hægt að tilgreina staða sem sú staða veitir skýrslur til. Þegar starfsmanni er úthlutað á stöðu sem veitir skýrslur í aðra stöðu, þú stofna skýrslugerðarsambandi milli starfsmanna sem úthlutað er á þessar tveimur stöður. Til dæmis stöðu "Bókari-A" veitir skýrslur til "Yfirmaður bókhalds" Kim Akers er úthlutað á stöðu "Yfirmaður bóhalds" og Sanjay Patel er úthlutað á stöðu "Bókari-A". Þetta þýðir að Sanjay Patel sendir skýrslur til Kim Akers. 
 
-Ef fyrirtækið notar fylkisstigveldi eða annað sérsniðna stigveldi, geturðu setja upp stigveldisgerðir staða og bæta síðan skýrslugerðarvensl við stöður fyrir hverja gerð stigveldis sem er sett upp. Til dæmis er Lori Penor framkvæmdarstjóri hjá Adventure Works og er úthlutað á stöðu "framkvæmdarstjóri". Lori stjórnar þróun afurðar sem er notuð til að hreinsa búnað. Lori þarf bókara hjálpa henni með fjármálum til að þróa afurðar. Því hefur hún ráðið Sanjay Patel til að vera bókari hennar.. Sanjay sendir skýrslur beint til Kim Akers, en vinnur einnig með Lori Penor á hans vinnu tengdri fjármálum til að vöru til að hreinsa búnað. 
+Ef fyrirtækið notar fylkisstigveldi eða annað sérsniðna stigveldi, geturðu setja upp stigveldisgerðir staða og bæta síðan skýrslugerðarvensl við stöður fyrir hverja gerð stigveldis sem er sett upp. Til dæmis er Lori Penor framkvæmdarstjóri hjá Adventure Works og er úthlutað á stöðu "framkvæmdarstjóri". Lori stjórnar þróun afurðar sem er notuð til að hreinsa búnað. Lori þarf bókara hjálpa með fjármál til að þróa afurðar. Því hefur hún ráðið Sanjay Patel til að vera bókarinn. Sanjay sendir skýrslur beint til Kim Akers, en vinnur einnig með Lori Penor á hans vinnu tengdri fjármálum til að vöru til að hreinsa búnað. 
 
 Fyrir fyrra dæmi, myndir þú ljúka eftirfarandi verkefnum til að stilla upp vinnutengslum milli Sanjay Patel og Lori Penor:
 1.  Búa til sérsniðnar stöðu fyrir gerð stigveldis sem heitir "Widget" til að búa til stigveldi sem felur í sér stöðu sem bera ábyrgð fyrir að vinna á vöru til að hreinsa búnað..
@@ -165,3 +164,6 @@ Hægt er að breyta þeim upplýsingum sem nefnd eru í fyrri töflu fyrir starf
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

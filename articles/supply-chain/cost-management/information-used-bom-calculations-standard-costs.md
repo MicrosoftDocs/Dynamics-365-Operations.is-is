@@ -2,29 +2,26 @@
 title: upplýsingar notaðar í uppskriftaútreikningum með staðalkostnaði
 description: Uppskriftarútreikningar (BOM) nota gögn frá nokkrum upprunum til að reikna út staðalkostnað framleiddrar vöru. Uppruninn felur í sér upplýsingar um vörur, leiðir víxla, óbeinan kostnað útreikningsformúla og útgáfu kostnaðarútreiknings.
 author: AndersGirke
-manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcGroup, BOMCalcTable, ProdParmBOMCalc
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 65571
 ms.assetid: ca17e6dd-b16a-4bbc-8682-b16345ab9906
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbc7e4105d085e2af0e8e6e574244f5083d08c15
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 56b1aa33c11f7cfbbde2a278bef25189ac697d19
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430311"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575124"
 ---
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>upplýsingar notaðar í uppskriftaútreikningum með staðalkostnaði
 
@@ -84,3 +81,6 @@ Hægt er að tilgreina nokkra uppruna upplýsinga þegar verið er að hefja upp
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

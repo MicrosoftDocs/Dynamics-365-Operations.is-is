@@ -1,6 +1,6 @@
 ---
 title: Vinna með brot
-description: Þetta efni lýsir því hvers vegna, hvenær og hvernig skuli nota brot í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvers vegna, hvenær og hvernig á að nota brot í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
 ms.date: 10/16/2020
@@ -11,24 +11,23 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
-ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
+ms.openlocfilehash: 3df2d99ef10f909cedef16167fb8d5a0024683b3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4413287"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210948"
 ---
 # <a name="work-with-fragments"></a>Vinna með brot 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvers vegna, hvenær og hvernig skuli nota brot í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir því hvers vegna, hvenær og hvernig á að nota brot í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -136,3 +135,6 @@ Til að breyta broti milli rása í vefsmið Commerce skal fylgja þessum skrefu
 [Vinna með forstillt útlit](work-with-layouts.md)
 
 [Unnið með birta hópa](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

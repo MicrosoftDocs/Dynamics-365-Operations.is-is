@@ -2,11 +2,9 @@
 title: Setja upp ráðningargerðir
 description: Setja má upp atvinnugerðir í Dynamics 365 Human Resources til að para saman starfsmenn þína.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d332f7f355c138cc058185f1b9578a67737fb1d0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5d882ac5790fde7676d9c23fa752b8b5379d5dae
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418983"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805683"
 ---
 # <a name="set-up-employment-types"></a>Setja upp ráðningargerðir
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Setja upp atvinnutegundir í Dynamics 365 Human Resources til að jafna starfsmenn þína.
 
@@ -41,3 +41,6 @@ Setja upp atvinnutegundir í Dynamics 365 Human Resources til að jafna starfsme
    | **Lýsing** | Lýsing á gerð starfs. |
 
 4. Veljið **Vista**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Undirbúa forritasértæk lýsigögn fyrir RCS og ER
 description: Þetta efni útskýrir hvernig á að undirbúa forritasértæk lýsigögn fyrir Regulatory Configuration Service (RCS) og Rafræna skýrslugerð (ER).
 author: NickSelin
-manager: AnnBe
 ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
@@ -15,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 9136bd3db2aee1447d6af3b3c47b908177cee966aba630490cc6e72072525d29
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680195"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735599"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Undirbúa forritasértæk lýsigögn fyrir RCS og ER
 
@@ -280,3 +278,6 @@ Núna hefur þú bundið þætti gagnalíkansins við atriði gagnagjafa sem er 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 Að öðrum kosti getur þú spilað verkleiðbeiningarnar **Undirbúa lýsigögn forrits sem hægt er að nota í RCS** í forritinu ásamt **Fá aðgang að lýsigögnum forrits með því að nota ER-stillingu** og **Fá aðgang að lýsigögnum forrits með því að nota tengd forrit** í RCS. Hægt er að sækja þessar verkleiðbeiningar af síðunni [Verkleiðbeiningar fyrir rafræna skýrslugerð Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

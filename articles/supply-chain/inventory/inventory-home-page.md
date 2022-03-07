@@ -2,29 +2,28 @@
 title: Birgðastjórnunaryfirlit
 description: Þetta efnisatriði veitir yfirlit yfir birgðastjórnun.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 2094
+ms.custom:
+- "2094"
+- intro-internal
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce9d22fa9a3a08b08f65943ba027ace8204d4443
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0a818173d902e846bc145b920003c73bc78b49f0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430093"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359630"
 ---
 # <a name="inventory-management-overview"></a>Birgðastjórnunaryfirlit
 
@@ -43,7 +42,7 @@ Hægt er að nota birgðastjórnun til að framkvæma eftirfarandi verkefni:
 Eftirfarandi kennslukort sýnir helstu hugtök og verkefni sem eru í ramma einingarinnar Birgðastjórnun. Smellt er á kennslukortið fyrir neðan til að stækka það. Þetta kennslukort hjálpar þér að hefjast handa.
 
 
-[![Birgðakennslukort](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)
+[![Birgðakennslukort.](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -54,7 +53,10 @@ Eftirfarandi kennslukort sýnir helstu hugtök og verkefni sem eru í ramma eini
 Frekari upplýsingar eru í [Birgðalokun](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>Blogg varðandi framleiðslu og Supply Chain Management
-Finna má skoðanir, fréttir og aðrar upplýsingar um birgðastjórnun og aðrar lausnir á [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg) and [Birgðakeðjustjórnun í Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+Finna má skoðanir, fréttir og aðrar upplýsingar um birgðastjórnun og aðrar lausnir á [Dynamics AX Manufacturing R&D Team Blog](/archive/blogs/axmfg/) and [Birgðakeðjustjórnun í Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Verkleiðbeiningar
 Frekari hjálp er tiltæk sem leiðbeiningar fyrir verkefni. Smellið á hnappinn **Hjálp** á hvaða síðu sem er til að fá aðgang að leiðbeiningum fyrir verkefni
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

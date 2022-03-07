@@ -1,21 +1,21 @@
 ---
 title: Úthluta skrefatáknum og titlum fyrir Warehouse Management farsímaforritið
 description: Í þessu efnisatriði er því lýst hvernig á að úthluta skrefatáknum og titlum fyrir ný eða sérstillt verkflæði fyrir Warehouse Management farsímaforritið.
-author: Mirzaab
+author: MarkusFogelberg
 ms.date: 05/17/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: 9523492d766669e6c38579fba7b5ddd6b3d282fc
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103314"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049365"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Úthluta skrefatáknum og titlum fyrir Warehouse Management farsímaforritið
 
@@ -25,11 +25,14 @@ ms.locfileid: "8103314"
 
 Eftirfarandi mynd sýnir hvernig skrefatákn og titlar birtast í Warehouse Management farsímaforritinu.
 
-![Dæmi um skrefatákn og skrefatitil í farsímaforriti Warehouse Management.](media/step-icon-example.png "Dæmi um skrefatákn og skrefatitil í Warehouse Management farsímaforritinu")
+![Dæmi um skrefatákn og skrefatitil í Warehouse Management farsímaforritinu](media/step-icon-example.png "Dæmi um skrefatákn og skrefatitil í Warehouse Management farsímaforritinu")
 
-## <a name="turn-this-feature-on-or-off"></a>Kveiktu eða slökktu á þessum eiginleika
+## <a name="turn-on-this-feature-in-your-system"></a>Kveikja á þessum eiginleika í kerfinu
 
-Til að nota virknina sem lýst er í þessu efni, er *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+
+- **Eining:** *Vöruhúsakerfi*
+- **Heiti eiginleika:** *Notandastillingar, tákn og titlar skrefa fyrir nýja vöruhúsaforritið*
 
 ## <a name="standard-step-ids-classes-and-icons"></a>Stöðluð kenni, klasar og tákn skrefa
 
@@ -347,13 +350,13 @@ Eftirfarandi tafla sýnir hvert staðlað skrefatákn sem er í boði sem stendu
 
 Eftirfarandi mynd sýnir þetta verkflæði.
 
-![Skýringarmynd verkflæðis.](media/step-icons-example-task-flow.png "Skýringarmynd verkflæðis")
+![Skýringarmynd verkflæðis](media/step-icons-example-task-flow.png "Skýringarmynd verkflæðis")
 
 ### <a name="create-a-step-class-for-the-container-input-page"></a>Stofna skrefaklasa fyrir innsláttarsíðu gámsins
 
 Innsláttarsíða gámsins gerir starfsmanni kleift að skanna eða færa inn gámakenni.
 
-![Innsláttarsíða gáms.](media/step-icons-example-container-input.png "Innsláttarsíða gáms")
+![Innsláttarsíða gáms](media/step-icons-example-container-input.png "Innsláttarsíða gáms")
 
 Á innsláttarsíðu gámsins er stýringarheiti færslureitsins `ContainerId`. Þar sem þetta stýringarheiti er ekki í [lista yfir skrefakenni](#step-ids-classes) verður ekki hægt að finna fyrirliggjandi skref sem byggir á því. Því þarf að stofna skrefaklasa sem stendur fyrir skrefið. Eftirfarandi er dæmi.
 
@@ -379,7 +382,7 @@ Til að úthluta skrefatákni skal stilla `defaultStepIcon` á eitt af kennum t�
 
 Innsláttarsíða þyngdar gerir starfsmanni kleift að slá inn þyngd.
 
-![Innsláttarsíða þyngdar.](media/step-icons-example-weight-input.png "Innsláttarsíða þyngdar")
+![Innsláttarsíða þyngdar](media/step-icons-example-weight-input.png "Innsláttarsíða þyngdar")
 
 Á innsláttarsíðu þyngdar er stýringarheiti færslureitsins `Weight`, sem er í [listanum yfir skrefakenni](#step-ids-classes). Þar af leiðandi þarf ekki að breyta neinu fyrir þetta skref ef tákn og titill skrefsins sem eru skilgreind í `WHSMobileAppStepWeight` klasanum reynast í lagi.
 

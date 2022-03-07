@@ -1,12 +1,10 @@
 ---
 title: Rafræn skýrslugerð Stofna nauðsynlegt grunnstillingar til að flytja inn gögn úr ytri skrá
-description: Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp grunnstillingar fyrir Rafræn skýrslugerð til að flytja inn gögn í forritið Microsft Dynamics 365 Finance úr ytri skrá.
+description: Í þessu efnisatriði er útskýrt hvernig á að hanna skilgreiningar rafrænnar skýrslugerðar til að flytja gögn inn í Microsoft Dynamics 365 Finance-forritið úr ytri skrá.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
@@ -15,18 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2194bdc918035bf3aebe9b90ddc8a30f9937bb0c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684283"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751463"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>Rafræn skýrslugerð Stofna nauðsynlegt grunnstillingar til að flytja inn gögn úr ytri skrá
 
 [!include [banner](../../includes/banner.md)]
 
-Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp grunnstillingar fyrir Rafræn skýrslugerð til að flytja inn gögn í Microsoft-forritið úr ytri skrá. Í þessu dæmi mun stofna nauðsynlega grunnstillingu Rafræn skýrslugerð fyrir dæmi um fyrirtæki, Litware, Inc. Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar „Stofna grunnstillingarveitu í Rafræna skýrslugerð og merkja hana sem virka”. Skrefin er hægt að klára með því að nota USMF gagnasafnið. Þú verður einnig að hlaða niður og vista eftirfarandi skrár á staðnum með því að nota tengla úr efnisatriðinu um rafræna skýrslugerð (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp grunnstillingar fyrir Rafræn skýrslugerð til að flytja inn gögn í Microsoft-forritið úr ytri skrá. Í þessu dæmi mun stofna nauðsynlega grunnstillingu Rafræn skýrslugerð fyrir dæmi um fyrirtæki, Litware, Inc. Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar „Stofna grunnstillingarveitu í Rafræna skýrslugerð og merkja hana sem virka”. Skrefin er hægt að klára með því að nota USMF gagnasafnið. Þú verður líka að hlaða niður og vista eftirfarandi skrár staðbundið: 
+
+| Lýsing á efni                       | Skrárnafn                                     |
+|-------------------------------------------|-----------------------------------------------|
+| Skilgreining á gagnalíkani í ER - 1099 | [1099model,xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)                  |
+| Skilgreining fyrir snið rafrænnar skýrslugerðar - 1099    | [1099format.xml](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)                  |
+| Sýnishorn af skjali á innleið á XML-sniði                          | [1099entries.xml](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)        |
+| Sýnishorn af vinnubók til að stýra gögnum skjala á innleið                          | [1099entries.xlsx](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx) |
 
 Rafræn skýrslugerð býður notendum í viðskiptum upp á að geta grunnstillt innflutningsferli á ytri gagnaskjölum í töflur, annaðhvort í .XML eða .TXT sniði. Fyrst verður að setja upp grunnstilling óhlutbundins gagnalíkans og gagnalíkan fyrir Rafræn skýrslugerð, til að standa fyrir gögnin sem flutt eru inn. Næst þarf að skilgreina uppbygging skráarinnar sem flutt er inn og aðferð sem nota til að tengja gögnin úr skránni í óhlutbundið gagnalíkan. Grunnstilling á sniði Rafræn skýrslugerðar sem varpar í uppsett gagnalíkan verður að vera stofnað fyrir þetta óhlutbundið gagnalíkan. Síðan þarf að víkka út grunnstillingu gagnalíkans með vörpun sem lýsir því hvernig innflutt gögn er haldið áfram sem óhlutbundið gögn í gagnalíkani og hvernig notað til að uppfæra töflur.  Grunnstilling gagnalíkans Rafræn skýrslugerðar verður að fylgja ný líkansvörpun sem lýsir bindingu gagnalíkans við áfangastaði forrits.  
 
@@ -254,3 +259,6 @@ Framkvæmið þessar vörpun sniðs til prófunar. Notið skrána 1099entries.xm
 27. Lokið síðunni.
 28. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

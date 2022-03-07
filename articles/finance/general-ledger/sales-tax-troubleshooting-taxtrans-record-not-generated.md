@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 82b00387e39b88e1ab2bc27d9dbc4e36aac3a7a605c04669171997ba236ae39a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74987506699834d86703702106e5abf87bfa45da
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751303"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018782"
 ---
 # <a name="taxtrans-record-isnt-generated"></a>TaxTrans færsla er ekki mynduð
 
@@ -26,7 +26,7 @@ ms.locfileid: "6751303"
 
 Ef þú velur **Bókaður virðisaukaskattur** fyrir færslu en síðan **Bókaður virðisaukaskattur** sýnir annaðhvort engar skattlínur eða vantar skattlínu gæti verið að færslan **TaxTrans** hafi ekki verið búin til.
 
-[![Síða bókaðs virðisaukaskatts sem er með engin línuatriði.](./media/taxtrans-is-not-generated-Picture1.png)](./media/taxtrans-is-not-generated-Picture1.png)
+[![Síða bókaðs virðisaukaskatts sem er með engin línuatriði](./media/taxtrans-is-not-generated-Picture1.png)](./media/taxtrans-is-not-generated-Picture1.png)
 
 Til að leysa úr vandamálinu skal fylgja skrefunum í eftirfarandi hlutum eftir þörfum.
 
@@ -34,7 +34,7 @@ Til að leysa úr vandamálinu skal fylgja skrefunum í eftirfarandi hlutum efti
 
 1. Áður en færslan er bókuð skal á síðunni **Bókun reiknings** velja **Virðisaukaskattur** til að athuga útreikninginn.
 
-    [![Hnappur virðisaukaskatts á bókunarsíðu reiknings.](./media/taxtrans-is-not-generated-Picture2.png)](./media/taxtrans-is-not-generated-Picture2.png)
+    [![Hnappur virðisaukaskatts á bókunarsíðu reiknings](./media/taxtrans-is-not-generated-Picture2.png)](./media/taxtrans-is-not-generated-Picture2.png)
 
 2. Farðu yfir niðurstöður útreikningsins á síðunni **Tímabundnar VSK-færslur**. Ef enginn skattur er reiknaður skal skoða [Skattur er ekki reiknaður eða skattupphæð er núll](sales-tax-troubleshooting-tax-not-calculated-amount-zero.md).
 
@@ -44,16 +44,16 @@ Til að leysa úr vandamálinu skal fylgja skrefunum í eftirfarandi hlutum efti
 2. Í dálkahausnum **Fylgiskjal** skal velja síumerkið til að finna færsluna **TaxTrans**.
 3. Skoðaðu dagsetninguna ef þú finnur þær söluskattsfærslur sem leitað er að. Ef dagsetningin er frábrugðin dagsetningu færslubókarhauss skal stofna þjónustubeiðni Microsoft til að fá frekari aðstoð.
 
-    [![Síðan Bókaður virðisaukaskattur.](./media/taxtrans-is-not-generated-Picture4.png)](./media/taxtrans-is-not-generated-Picture4.png)
+    [![Síðan Bókaður virðisaukaskattur](./media/taxtrans-is-not-generated-Picture4.png)](./media/taxtrans-is-not-generated-Picture4.png)
 
 ## <a name="debug-to-check-details"></a>Kemba til að athuga upplýsingar
 
 1. Frekari upplýsingar um hvernig á að kemba og ákveða hvort **TmpTaxWorkTrans** og **TaxUncommitted** séu búin til á réttan hátt er að finna í [Reitargildi í TaxTrans er ekki rétt](sales-tax-troubleshooting-field-value-taxtrans-incorrect.md).
 2. Ef **TaxTmpWorkTrans** eða **TaxUncommitted** eru búin til á réttan hátt skal bæta við rofstað á **TaxPost::SaveAndPost()** og **Tax::SaveAndPost** til að kemba ástæðuna fyrir því af hverju **TaxTrans** er ekki sett inn.
 
-    [![Rofstöðum bætt við í kóða.](./media/taxtrans-is-not-generated-Picture5.png)](./media/taxtrans-is-not-generated-Picture5.png)
+    [![Rofstöðum bætt við í kóða](./media/taxtrans-is-not-generated-Picture5.png)](./media/taxtrans-is-not-generated-Picture5.png)
 
-    [![Niðurstöður rofstaða sem bætt var við.](./media/taxtrans-is-not-generated-Picture6.png)](./media/taxtrans-is-not-generated-Picture6.png)
+    [![Niðurstöður rofstaða sem bætt var við](./media/taxtrans-is-not-generated-Picture6.png)](./media/taxtrans-is-not-generated-Picture6.png)
 
 ## <a name="determine-whether-customization-exists"></a>Ákvarða hvort sérstilling sé til staðar
 

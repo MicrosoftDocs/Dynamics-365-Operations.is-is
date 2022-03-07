@@ -2,9 +2,11 @@
 title: Vinna með breytingar á hönnunarafurðum
 description: Þetta efnisatriði gefur upplýsingar um umsjón hönnunarbreytinga. Umsjón hönnunarbreytinga býður upp á skipulagða ferla til að stjórna breytingum á hönnunarafurðum, frá því að stinga upp á, leggja fram beiðni og gera breytingar til yfirferðar og samþykktar á breytingum, leggja mat á áhrif þeirra á fyrirliggjandi færslur og fylgja þeim eftir.
 author: t-benebo
+manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEcmRequestSelection,EngChgEcmRequestProducts,EngChgEcmRequestPriorityChart,EngChgEcmRequestListPage,EngChgEcmRequestFilteredPart,EngChgEcmRequestDetails,EngChgEcmReason,EngChgEcmProjTableInformation,EngChgEcmProductRoute,EngChgEcmProductRelease,EngChgEcmProductPreview, EngChgEcmWhereUsed, EngChgEcmInventTrans,EngChgEcmHeaderSelection,EngChgEcmHeaderPreviewPart,EngChgEcmHeaderFilteredPart,EngChgEcmHeaderDetails, EngChgCaseWhereUsedAnalysis, EngChgCaseValidatorMessage
 audience: Application User
@@ -12,13 +14,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: 24892195a9f1c39e891e2dcb95482f019ba05365
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102911"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262334"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Vinna með breytingar á hönnunarafurðum
 
@@ -92,13 +94,9 @@ Flýtiflipinn **Afurðir** gerir þér kleift að sýna hverja afurð sem verðu
 
 Flýtiflipinn **Gagnagjafi** gerir kleift að rekja upprunastað breytingabeiðninnar. Hann er gagnlegur ef til dæmis á að skoða hvort breytingabeiðnin hafi verið stofnuð úr sölupöntun, hver stofnaði hana og hvaða í hvaða fyrirtæki hún var stofnuð.
 
-### <a name="evaluate-the-business-impact-of-a-change-request-and-send-notifications"></a>Mat lagt á áhrif breytingabeiðninnar á reksturinn og senda tilkynningar
+### <a name="evaluate-the-business-impact-of-a-change-request"></a>Mat lagt á áhrif breytingabeiðninnar á reksturinn
 
-Þegar beiðni um breytingu er yfirfarin er hægt að leita að tengslum. Á þennan hátt er hægt að meta áhrif umbeðinnar breytingar á opnum færslum, svo sem sölupantanir, framleiðslupantanir og lagerbirgðir. Þegar farið er yfir breytingarbeiðnir er hægt að senda tilkynningar til þeirra aðila sem bera ábyrgð á að sinna ýmsum tegundum tengdra pantana.
-
-#### <a name="review-affected-transactions-block-selected-transactions-and-send-notifications"></a>Farðu yfir viðkomandi færslur, lokaðu á valdar færslur og sendu tilkynningar
-
-Fylgið eftirfarandi skrefum til að fara yfir viðkomandi færslur, loka á valdar færslur og senda tengdar tilkynningar.
+Þegar beiðni um breytingu er yfirfarin er hægt að leita að tengslum. Á þennan hátt er hægt að meta áhrif umbeðinnar breytingar á opnum færslum, svo sem sölupantanir, framleiðslupantanir og lagerbirgðir.
 
 1. Farið í **Umsjón hönnunarbreytinga \> Almennt \> Umsjón hönnunarbreytinga \> Beiðnir um breytingu á hönnun**.
 1. Annaðhvort opnið fyrirliggjandi breytingabeiðni eða veljið **Ný** á aðgerðasvæðinu til að stofna nýja breytingabeiðni.
@@ -107,36 +105,7 @@ Fylgið eftirfarandi skrefum til að fara yfir viðkomandi færslur, loka á val
     - **Leita** - Skannar allar opnar færslur og opnar síðan svargluggann **Rekstraráhrif á opnar færslur**, sem sýnir allar færslur sem verða fyrir áhrifum vegna breytingarinnar.
     - **Skoða fyrri leit** - Opnið svargluggann **Rekstraráhrif á opnar færslur**, sem sýnir niðurstöður fyrri leitar. (Ekki er leitað að nýju.)
 
-1. Svarglugginn **Rekstraráhrif á opnar færslur** býður upp á nokkra flipa sem sýna lista yfir færslur af tiltekinni gerð sem verða fyrir áhrifum (**Sölupantanir**, **Innkaupapantanir**, **Framleiðslupantanir**, **Birgðir** o.s.frv.). Í hverjum flipa kemur einnig fram fjöldi viðkomandi færslna af þeirri gerð. Veldu flipa til að skoða viðeigandi lista.
-1. Til að vinna með færslu í listanum skal velja hana og síðan einn af eftirfarandi hnöppum á verkfærastikunni:
-
-    - **Skoða færslu** – Opna valda færslu.
-    - **Útiloka pöntun** – Þessi hnappur er aðeins á flipanum **Sölupantanir**. Veljið það til að loka fyrir valda sölupöntun.
-    - **Útiloka línu** – Þessi hnappur er aðeins á flipanum **Sölupantanir**. Veljið það til að loka fyrir valda innkaupapöntunarlínu.
-    - **Senda ábyrgðarmanni tilkynningu** – Þessi hnappur er aðeins á flipanum **Sölupantanir**. Veljið það til að senda tilkynningu um breytingar til notandans sem er settur sem ábyrgur fyrir valda sölupöntun. Frekari upplýsingar um hverjir geta séð tilkynningarnar og hvernig er að finna í [Yfirfara og vinna úr tilkynningum um breytingar á færslum](#review-notifications).
-    - **Senda pöntunaraðila tilkynningu** – Þessi hnappur er aðeins á flipanum **Sölupantanir**. Veljið það til að senda tilkynningu um breytingu til notandans sem er valinn sem pöntunaraðili fyrir valda innkaupapöntun. Frekari upplýsingar um hverjir geta séð tilkynningarnar og hvernig er að finna í [Yfirfara og vinna úr tilkynningum um breytingar á færslum](#review-notifications).
-    - **Tilkynna framleiðslu** – Þessi hnappur er aðeins á flipanum **Framleiðslupantanir**. Ólíkt sölu- og innkaupapantanum hafa framleiðslupantanir ekki einn einasta notanda sem er valinn sem ábyrgur fyrir þeim frá upphafi til enda. Í staðinn eigna ýmsir umsjónaraðilar eða skipuleggjendur sér tiltekið svæði eða tiltekinn hluta framleiðslunnar (til dæmis ákveðin tilföng eða tilfangaflokka). Þegar þú velur þennan hnapp fá fyrir vikið allir notendur sem bera ábyrgð tilföngum sem tengjast valinni framleiðslupöntun tilkynningu um breytingar. Frekari upplýsingar um hverjir geta séð tilkynningarnar og hvernig er að finna í [Yfirfara og vinna úr tilkynningum um breytingar á færslum](#review-notifications).
-    - **Senda undirbúningsaðila tilkynningu** – Þessi hnappur er aðeins á flipanum **Innkaupabeiðnir**. Veljið það til að senda tilkynningu um breytingu til notandans sem er valinn sem undirbúningsaðili fyrir valda innkaupabeiðni. Frekari upplýsingar um hverjir geta séð tilkynningarnar og hvernig er að finna í [Yfirfara og vinna úr tilkynningum um breytingar á færslum](#review-notifications).
-    - **Tilkynna ábyrgðarmanni sölu** – Þessi hnappur er aðeins á flipanum **Tilboð**. Veldu það til að senda tilkynningu um breytingu til notandans sem er valinn sem ábyrgur fyrir valið tilboð. Frekari upplýsingar um hverjir geta séð tilkynningarnar og hvernig er að finna í [Yfirfara og vinna úr tilkynningum um breytingar á færslum](#review-notifications).
-    - **Úrkast** - Þennan hnapp er aðeins hægt að nálgast á flipanum **Birgðir**. Veldu það til að rýra valdar birgðir.
-    - **Skoða feril** – Opna feril yfir aðgerðir sem gerðar hafa verið á völdu færslunni með því að nota svargluggann **Rekstraráhrif á opnar færslur**. (Ferillinn sýnir til dæmis hvort tilkynningar hafa verið sendar eða færslur hafa verið lokaðar.) 
-    - **Skoða allar færslur** – Opna heildarlista yfir allar færslur, ekki bara opnar færslur.
-
-> [!IMPORTANT]
-> The **Tilkynna framleiðslu** hnappurinn er aðeins tiltækur ef *Verkfræðitilkynningar vegna framleiðslu* kveikt er á eiginleikanum fyrir kerfið þitt. Fyrir leiðbeiningar um hvernig á að kveikja eða slökkva á þessum eiginleika og forsendum hans, sjá [Yfirlit yfir verkfræðibreytingastjórnun](product-engineering-overview.md).
-
-#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Yfirfara og vinna úr tilkynningum um breytingar á viðskiptum
-
-Þú getur lesið og unnið úr breytingartilkynningunum sem þú færð á eftirfarandi hátt:
-
-- Nema þegar um er að ræða framleiðslupantanir, tilkynningar um breytingar sem þú berð ábyrgð á birtast í aðgerðamiðstöðinni. Hnappurinn **Sýna skilaboð** (bjöllutáknið) hægra megin á yfirlitsstikunni gefur til kynna hvenær skilaboð eru tiltæk fyrir núverandi notanda í aðgerðamiðstöðinni. Veljið hnappinn **Sýna skilaboð** til að opna aðgerðamiðstöðina og fara yfir skilaboðin.
-- Til að skoða allar framleiðslupantanir þar sem tilkynning um hönnun hefur verið send skal fara í **Framleiðslupantanir \> Framleiðslupantanir \> Allar framleiðslupantanir**. Því næst skal á aðgerðasvæðinu, í flipanum **Framleiðslupöntun**, í flokknum **Beiðni um hönnunarbreytingu**, velja **Tilkynningar um hönnun** til að opna síðuna **Tilkynningar um hönnun**.
-- Fyrir framleiðslupantanir er hægt að velja að skoða aðeins tilkynningar um breytingar sem eiga við um framleiðslutilföngin sem þú hefur umsjón með. Á vinnusvæðinu **Stjórnun á framleiðslugólfi**, á aðgerðasvæðinu, skal velja **Skilgreina eigið vinnusvæði** til að sía síðuna þannig að hún sýni aðeins upplýsingar um framleiðslueiningar, flokka og/eða tilföng sem þú hefur umsjón með. Í hlutanum **Samantekt** sýnir reitur sem heitir **Framleiðslupantanir með breyttum afurðum** fjöldann af tilkynningum sem passa við síustillingarnar. Veldu þennan reit til að opna síðuna **Tilkynningar um hönnun** sem sýnir heildarlista yfir færslur sem uppfylla skilyrði síunnar.
-
-Þegar þú ert að fara yfir tilkynningar um framleiðslupantanir á síðunni **Tilkynningar um hönnun** geturðu notað tengla til að fara á tengdar breytingapantanir eða framleiðslupantanir með því að velja dálkagildi eða nota tengdar skipanir á aðgerðasvæðinu. Eftir að þú hefur lokið við að meta breytingu og eftir að þú hefur hætt við eða breytt framleiðslupöntunum eftir þörfum geturðu merkt tilkynningu sem leysta. Í aðgerðasvæðinu er síðan smellt á **Leysa úr**. Tilkynningin er fjarlægð úr öllum yfirlitum notenda.
-
-> [!IMPORTANT]
-> Getan til að senda tilkynningar um framleiðslupantanir krefst þess að *Verkfræðitilkynningar vegna framleiðslu* kveikt er á eiginleikum fyrir kerfið þitt. Fyrir leiðbeiningar um hvernig á að kveikja eða slökkva á þessum eiginleika og forsendum hans, sjá [Yfirlit yfir verkfræðibreytingastjórnun](product-engineering-overview.md).
+1. Ef vandamálið sem krefst breytinga er aðkallandi, er hægt að loka fyrir opnar færslur eða tilkynna nota sem er ábyrgur með því að nota hnappana á tækjastikunni í svarglugganum **Rekstraráhrif á opnar færslur**.
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Stofna breytingapöntun úr breytingabeiðni
 
@@ -172,14 +141,13 @@ Meðan farið er yfir beiðir um breytingu, á aðgerðasvæðinu, í flipanum *
 
 Eins og lýst er í [Hönnunarfyrirtæki og reglur um eignarétt gagna](engineering-org-data-ownership-rules.md), er mismunandi hvaða afurðargögnum hægt er að breyta, en það fer eftir gerð lögaðila sem unnið er í (hönnunarfyrirtæki eða rekstrarfyrirtæki). Reglur um eignarétt gagna eiga einnig við um hönnunarbreytingapantanir. Þess vegna fer það eftir lögaðilanum, þar sem hönnunarbreytingapöntun er stofnuð, hvers konar breytingar hægt er að gera. Hér eru nokkur dæmi:
 
-- Fyrir hönnunarbreytingapantanir í *hönnunarfyrirtæki* er hægt að gera einfaldar breytingar á hönnunargögnum. Til dæmis er hægt að búa til nýjar útgáfur af afurð, breyta skipulagi afurðar í gegnum uppskriftina og breyta eigindargildum hönnunar. Fyrir hverja afurð skal velja eitt eftirfarandi gilda í reitnum **Áhrif**:
+- Fyrir hönnunarbreytingapantanir í **hönnunarfyrirtæki** er hægt að gera einfaldar breytingar á hönnunargögnum. Til dæmis er hægt að búa til nýjar útgáfur af afurð, breyta skipulagi afurðar í gegnum uppskriftina og breyta eigindargildum hönnunar. Fyrir hverja afurð skal velja eitt eftirfarandi gilda í reitnum **Áhrif**:
 
     - **Ekkert** – Uppfæra fyrirliggjandi afurðarútgáfu (uppfærsla innan útgáfu).
     - **Ný útgáfa** – Stofna nýja útgáfu sem byggir á valinni afurðarútgáfu.
-    - **Ný afurð** – Stofna alveg nýja afurð sem byggir á valinni afurðarútgáfu.
-    - **Nýtt afbrigði** – Stofna nýtt afbrigði sem byggir á valdri afurðarútgáfu. Upplýsingar um uppskriftina og leiðina verða afritaðar.
+    - **Ný afurð** – Stofna alveg nýja afurð eða afurðarafbrigði sem byggir á valinni afurðarútgáfu.
 
-- Í hönnunarbreytingapöntunum í *rekstrarfyrirtæki* er hægt að breyta skipulagsgögnum afurðarinnar. Til dæmis er hægt að bæta við fyrirliggjandi uppskrift með stillingum fyrir innkaupum, bæta við staðbundnum leiðum eða staðbundnar uppskriftir og jafnvel bæta við uppskrift með því að bæta við nýjum uppskriftarlínum fyrir staðbundið efni umbúða, smurvökva eða leiðbeiningar á staðbundnu tungumáli. Viðbætur sem notendur gera í rekstrarfyrirtækinu verður viðhaldið þegar nýjar uppfærslur eru sendar frá hönnunarfyrirtækinu. Frekari upplýsingar er að finna í [Hönnunarfyrirtæki og reglur um eignarétt gagna](engineering-org-data-ownership-rules.md).
+- Í hönnunarbreytingapöntunum í **rekstrarfyrirtæki** er hægt að breyta skipulagsgögnum afurðarinnar. Til dæmis er hægt að bæta við fyrirliggjandi uppskrift með stillingum fyrir innkaupum, bæta við staðbundnum leiðum eða staðbundnar uppskriftir og jafnvel bæta við uppskrift með því að bæta við nýjum uppskriftarlínum fyrir staðbundið efni umbúða, smurvökva eða leiðbeiningar á staðbundnu tungumáli. Viðbætur sem notendur gera í rekstrarfyrirtækinu verður viðhaldið þegar nýjar uppfærslur eru sendar frá hönnunarfyrirtækinu. Frekari upplýsingar er að finna í [Hönnunarfyrirtæki og reglur um eignarétt gagna](engineering-org-data-ownership-rules.md).
 
     Þegar unnið er úr hönnunarbreytingapöntunum í hönnunarfyrirtækinu, eru afurðirnar aðeins búnar til og/eða uppfærðar í hönnunarfyrirtækinu. Þess vegna, ef einnig á að uppfæra aðalgögn afurðar, þarf einnig að losa afurðirnar til rekstrarfyrirtækja.
 

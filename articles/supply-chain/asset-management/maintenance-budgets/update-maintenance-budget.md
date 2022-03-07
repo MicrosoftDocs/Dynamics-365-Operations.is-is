@@ -1,12 +1,10 @@
 ---
 title: Uppfæra fjárhagsáætlanir viðhalds
 description: Þetta efni útskýrir hvernig á að uppfæra fjárhagsáætlun viðhalds í eignastjórnun.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b04549700b51f73a3629fe9cd67a3e1f6c1bafbb
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 87c054cb96d56e40e35ee44142396f59d61395263ff41232423f6c7911478b0d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021027"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724941"
 ---
 # <a name="update-maintenance-budgets"></a>Uppfæra fjárhagsáætlanir viðhalds
 
@@ -74,3 +72,6 @@ Reitirnir **Raunkostnaður** á fjárhagsáætlunarlínunum eru uppfærðir ef r
 
 - Þú veist að endurnýjun sumra eigna er sem stendur á áætlunarstig, en tengdar vinnslur hafa ekki enn verið stofnaðar í eignastýringu. Samt sem áður viltu að fjárhagsáætlunarkostnaðar fyrir þessar vinnslur verði tekin með í fjárhagsáætlun viðhalds.
 - Nýjar eignir eða eignategundir hafa verið búnar til síðan þú gerðir fjárhagsáætlun viðhalds en viðhaldsáætlanir hafa ekki enn verið settar upp fyrir þessar eignir eða eignategundir. Samt sem áður viltu að fjárhagsáætlunarkostnaður fyrir þessar eignagerðir verði tekinn með í fjárhagsáætlun viðhalds.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Viðhaldslotur
 description: Þetta efni útskýrir viðhaldslotur í eignastýringu.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetRoundTable
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a3a64593a2155d35e78b0d854c7367fa65d1c5c8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: dc0d8ec546e7455187a87ac124c5e56a93f5bafd2270bf275af950991fc4b87e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018547"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740720"
 ---
 # <a name="maintenance-rounds"></a>Viðhaldslotur
 
@@ -82,7 +80,7 @@ ms.locfileid: "5018547"
 
 Myndin hér að neðan sýnir og dæmi um viðhaldslotu sem inniheldur þrjár eignir.
 
-![Mynd 1](media/13-preventive-maintenance.png)
+![Mynd 1.](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Tímasetja viðhaldslotur
@@ -108,11 +106,14 @@ Myndin hér að neðan sýnir og dæmi um viðhaldslotu sem inniheldur þrjár e
 
 Myndirnar tvær hér að neðan sýna tímaáætlun í glugganum **Tímasetja viðhaldslotur** og viðhaldsskemalínur búnar til í **Öll viðhaldsskemu** miðað við þá áætlunarvinnslu.
 
-![Mynd 2](media/14-preventive-maintenance.png)
+![Mynd 2.](media/14-preventive-maintenance.png)
 
-![Mynd 3](media/15-preventive-maintenance.png)
+![Mynd 3.](media/15-preventive-maintenance.png)
 
 - Þegar verkbeiðnir eru búnar til handvirkt á eignum sem falla undir ábyrgð lánadrottins er sýndur gluggi til að gera notandanum grein fyrir ábyrgðinni. Þá er hægt að hætta við að búa til verkbeiðnina. Hætt er við athugun á ábyrgðartengslum vegna verkbeiðna sem eru búnar til sjálfkrafa.  
 - Þú getur sett upp runuvinnslu á flýtiflipanum **Keyra í bakgrunni** til að skipuleggja lotur með reglulegu millibili.  
 - Ef lota er innifalin í nokkrum verkbeiðnisöfnum (sjá [Verkbeiðnisöfn](../work-orders/work-order-pools.md)) er sýnd ein skrá fyrir hvert safn í **Opna viðhaldsskemasöfn**. Þetta er gert til að hámarka síunarvalkosti fyrir verkbeiðnisöfn.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

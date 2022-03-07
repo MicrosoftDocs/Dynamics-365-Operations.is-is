@@ -2,25 +2,23 @@
 title: Yfirlit yfir Evrópu
 description: Í þessu efnisatriði eru tenglar á skjöl Microsoft Dynamics 365 Finance fyrir Evrópu.
 author: ShylaThompson
-manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.custom: intro-internal
 ms.search.region: global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: 37017a082c33b83b78569b748e3d266da4f0df3bc03402ff4cf4a53e415d4f2c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512212"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750280"
 ---
 # <a name="europe-overview"></a>Yfirlit yfir Evrópu
 
@@ -41,6 +39,7 @@ ms.locfileid: "4512212"
 - [Skýrslugerð ESB-sölulista](emea-eu-sales-list.md)
 - [Gengisleiðrétting](emea-exchange-rate-adjustments.md)
 - [Skrársnið fyrir greiðsluhátt](emea-select-file-formats-for-the-method-of-payments.md)
+- [Fjárhagsleiðbeiningar (altækar) um áhrif af Brexit](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Samþætting fjárhagsþjónustu (ESR)](emea-fiscal-service-integration.md)
 - [Afskráning eigna fyrir Eistland og Litháen](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Mynda flutningsskjal fyrir innri birgðaflutning](tasks/transfer-document-internal-inventory-transfer.md)
@@ -64,7 +63,8 @@ ms.locfileid: "4512212"
 - [Tímamörk útgáfu reiknings](emea-invoice-issue-deadline.md)
 - [Úrvinnsla reikninga](emea-invoice-processing.md)
 - [Gefa út ESB-færsluvottorð](tasks/eur-00012-issue-eu-entry-certificate.md)
-- [Studdir staðlar fyrir Rafræna reikningsfærslu](emea-oioubl-standards-electronic-invoicing.md)
+- [Staðlar sem eru studdir fyrir rafræna reikningsfærslu](emea-oioubl-standards-electronic-invoicing.md)
+- [Þvinguð myndun rafrænna reikninga](emea-eur-forced-einvoices.md)
 - [Tilvísun upprunalegs reiknings (Austur-Evrópa)](tasks/ee-00004-original-invoice-reference.md)
 - [Leit að aðila með VSK-númeri](tasks/eur-00015-party-search-vat-id.md)
 - [Verkfæri fyrir myndun tilvísun greiðslu](tasks/ee-00015-payment-reference-generation-tool.md)
@@ -97,5 +97,8 @@ ms.locfileid: "4512212"
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Yfirlit yfir rafræna skýrslugerð](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Yfirlit yfir rafræna skýrslugerð](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

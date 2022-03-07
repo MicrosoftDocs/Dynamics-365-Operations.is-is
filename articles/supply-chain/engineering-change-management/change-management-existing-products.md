@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: f0fba0a9234e5b7cb055f7b97578bff72f1d06ac
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103614"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571978"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Virkja breytingastjórnun á fyrirliggjandi afurðum
 
@@ -27,9 +27,12 @@ ms.locfileid: "8103614"
 
 Þegar breytingastjórnun er virkjuð fyrir fyrirliggjandi afurð er hægt að búa til útgáfur af þeirri afurð og rekja breytingar sem gerðar eru á henni í gegnum líftíma hennar. Þar af leiðandi er hægt að rekja þær breytingar með því að nota breytingabeiðnir. Til að virkja breytingastjórnun þarf að breyta viðeigandi afurðum í *hönnunarvörur* (einnig þekkt sem hönnunarafurðir). Hönnunarafurðir eru afurðir sem úthlutað er útgáfu og stjórnað í gegnum breytingastjórnun. Leiðsagnarforrit leiðir þig í gegnum umreikningsferlið.
 
-## <a name="turn-this-feature-on-or-off"></a>Kveiktu eða slökktu á þessum eiginleika
+## <a name="turn-on-the-feature-in-your-system"></a>Kveikja á eiginleikanum í kerfinu
 
-Virknin sem lýst er í þessu efni krefst þess að bæði *Verkfræðibreytingastjórnun* og *Virkjaðu breytingastjórnun á núverandi vörum* kveikt er á eiginleikum fyrir kerfið þitt. Fyrir upplýsingar um hvernig á að kveikja eða slökkva á þessum eiginleikum, sjá [Yfirlit yfir verkfræðibreytingastjórnun](product-engineering-overview.md).
+Til að nota þennan eiginleika verður að ljúka eftirfarandi verkum:
+
+1. Virkjið eiginleikann fyrir umsjón hönnunarbreytinga og skilgreiningarlykla hans eins og lýst er í [Yfirlit yfir umsjón hönnunarbreytinga](product-engineering-overview.md).
+1. Kveikið á eiginleikanum *Virkja breytingastjórnun á fyrirliggjandi afurðum* í eiginleikastjórnun. Frekari upplýsingar er að finna í [Eiginleikastjórnunaryfirlit](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Takmarkanir
 

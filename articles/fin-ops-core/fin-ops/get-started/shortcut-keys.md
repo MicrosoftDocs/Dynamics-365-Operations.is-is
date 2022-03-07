@@ -2,7 +2,7 @@
 title: Flýtilyklar
 description: Þetta efnisatriði veitir yfirlit yfir flýtilyklasamsetningarnar sem þú getur notað þegar þú ert að vinna með Finance and Operations forritum.
 author: jasongre
-ms.date: 02/11/2022
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
-ms.translationtype: MT
+ms.openlocfilehash: 0ecf745337c15270290f02496cc6ce4ccac86861
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119553"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070984"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
@@ -28,7 +28,7 @@ ms.locfileid: "8119553"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Flýtivísar geta hjálpað þér að slá inn gögn á fljótlegan og skilvirkan hátt í Finance and Operations öppum. 
+Eftirfarandi flýtilykla geta hjálpað þér að slá inn gögn á fljótlegan og skilvirkan hátt í Finance and Operations öppum.
 
 > [!NOTE]
 > Flýtileiðir lyklaborðs sem hér er lýst vísa til bandarísks lyklaborðs. Lyklar á öðrum lyklaborðum samsvara hugsanlega ekki nákvæmlega lyklum á bandarísku lyklaborði.
@@ -37,11 +37,11 @@ Sumar flýtileiðirnar á þessari síðu eru *lyklastrengir*, sem þýðir að 
 
 ## <a name="finding-a-shortcut"></a>Að finna flýtilykil
 
-Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðmótinu. Hægrismelltu einfaldlega á stýringu og veldu **Skoða flýtileiðir**. Þetta mun opna svarglugga sem sýnir flýtivísana sem þú getur notað á grundvelli hvar þú ert á síðunni. Að öðrum kosti geturðu ýtt á Alt+Shift+K til að opna þennan glugga (og ýta á Alt+Shift+K í annað sinn til að sjá allar flýtileiðir sem eru í boði fyrir síðuna).    
+Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi tiltækar flýtileiðir beint frá notendaviðmótinu. Hægrismelltu einfaldlega á stýringu og veldu **Skoða flýtileiðir**. Þetta mun opna svarglugga sem sýnir flýtivísana sem þú getur notað á grundvelli hvar þú ert á síðunni.
 
 ## <a name="action-shortcuts"></a>Flýtileiðir
 
-| Til að gera þetta                                      | Ýta á                             |
+| Til að gera þetta                                      | Styðjið á                            |
 |-------------------------------------------------|----------------------------------|
 | Opnið aðgerðaleit                              | Ctrl+’ eða Alt+Q                  |
 | Flytja á staðlaða aðgerðarúðu                | Alt+M,A eða Ctrl+F6               |
@@ -256,14 +256,10 @@ Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðm
 | Víkka út/draga saman hreyfimynd í sprettiglugga kvaðningar (meðan verkleiðbeining er spiluð)              | Alt+R,C                    |
 | Sýna meiri/minni upplýsingar í sprettigluggi með hreyfimynd (meðan verkleiðbeining er spiluð) | Alt+R,M                    |
 
-## <a name="focus-management"></a>Fókusstjórnun 
-Fókusstjórnun lýsir því hvernig notendafókus er meðhöndlað í forriti. Fjármála- og rekstrarforrit eru með sérhæfða fókushegðun sem er ætlað að hámarka framleiðni notenda, sérstaklega fyrir gagnafærslur. Fókushegðun felur í sér eftirfarandi:  
-
--  Þegar síða er hlaðin mun fyrsta innsláttarstýringin sem hægt er að breyta á síðunni hafa fókus og getur samþykkt inntak notanda strax. Ef engin breytanleg innsláttarstýring er á síðunni, er varavalkosturinn fyrir upphafsfókus fyrsta innsláttarstýringuna á síðunni og síðan fyrsta, fókusstýringin á síðunni.   
--  Venjulega þegar hnappur er valinn er aðgerðin unnin og fókus gæti farið aftur á síðuna. Þegar þetta gerist hefur fókus tilhneigingu til að fara aftur í hnappastýringuna sem var valin. Þetta á við í fjármála- og rekstraröppum **nema** þegar hnappurinn er staðsettur í aðgerðarrúðunni eða á tækjastiku. Í þessum tilfellum, þegar aðgerðinni er lokið, fer fókusinn aftur í síðustu stjórn *úti* á aðgerðarrúðunni (eða tækjastikunni) sem hafði fókus áður en hnappurinn var valinn.
-
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Flýtilyklar fyrir greiningu á reikningum sem vantar](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
+
+
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

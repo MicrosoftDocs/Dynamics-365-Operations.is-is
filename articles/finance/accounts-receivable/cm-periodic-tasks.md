@@ -1,7 +1,7 @@
 ---
 title: Regluleg verk kreditstjórnunar
 description: Þetta efni lýsir reglubundnum verkefnum sem eru nauðsynlegur hluti af ferlinu við að stjórna lánamörkum fyrir viðskiptavini.
-author: JodiChristiansen
+author: mikefalkner
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 398fcd9d45ce0ddfb1f7189e0712f9dac2db012f
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
-ms.translationtype: MT
+ms.openlocfilehash: 5e5d1ad7b0b151d67bd96513e9ce0c82c172a601
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753508"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835293"
 ---
 # <a name="periodic-credit-management-tasks"></a>Reglubundin verk lánastýringar
 

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 94888a0ad10371a9aa449d1c7706f85cf5d9d5e8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 14032f86bcb66e9b6a1f097ffb74ab79d250ed08
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430068"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5255518"
 ---
 # <a name="activate-a-production-flow-version"></a>Virkja útgáfu framleiðsluflæðis
 
@@ -41,3 +40,6 @@ ms.locfileid: "4430068"
 5. Smellið á Virkja.
 6. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

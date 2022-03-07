@@ -1,12 +1,10 @@
 ---
 title: Um tengsl þjónustuhluta
 description: Þetta efnisatriði lýsir hvernig á að stofna tengsl þjónustuhlutar í þjónustusamningi og þjónustupöntun.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 380514b6e95292597d3eb52ce191d1e282e154ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 0a558d513ba97d7df72ee785704b84dd38a5929b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965906"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569120"
 ---
 # <a name="create-service-object-relations"></a>Um tengsl þjónustuhluta 
 
@@ -71,3 +69,6 @@ Fylgið eftirfarandi skrefum til að stofna tengsl þjónustuhlutar í þjónust
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

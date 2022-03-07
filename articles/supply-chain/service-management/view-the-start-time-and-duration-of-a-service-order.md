@@ -1,29 +1,26 @@
 ---
 title: Skoða upphafstíma og tímalengd þjónustupöntunar
 description: Hægt er að skoða hvenær vinnan í þjónustupöntuninni var hafin og þegar ljúka átti við þjónustupöntunina.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8ec7cbfea709c74b73a189c24da8978a501794d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: dd3fe5847d795dafed453294ccc1058955127450
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430491"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567752"
 ---
 # <a name="view-the-start-time-and-duration-of-a-service-order"></a>Skoða upphafstíma og tímalengd þjónustupöntunar 
 
@@ -59,3 +56,6 @@ Einnig er hægt að skoða hvenær tímaskráningin fyrir þjónustupöntunina v
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

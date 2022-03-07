@@ -2,40 +2,36 @@
 title: Samstarf lánardrottna með viðskiptavinum
 description: Í þessu efnisatriði er því lýst hvernig hægt er að nota samstarf lánardrottna til að vinna með innkaupapantanir og fylgjast með vörusendingabirgðum.
 author: TaylorVH
-manager: tfehr
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: kamaybac
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dc97b230f23056db90e654b4aea3272bb8f1ba13
-ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
-ms.translationtype: HT
+ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
+ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654341"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "8022975"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Samstarf lánardrottna með viðskiptavinum
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Þessi mál lýsir því hvernig hægt er að nota samstarf lánardrottna við viðskiptavini í Microsoft Dynamics 365 Supply Chain Management. Söluaðilar geta lokið röð viðskiptaferla úr eftirfarandi vinnusvæðum:
 
 - **Innkaupapöntunum svarað** - Fylgjast með og bregðast við innkaupapöntunum.
 - **Lánardrottinn tilboð** - Skoða beiðnir um tilboð (BUT) og svara þeim með því að færa inn tilboð.
 - **Lánardrottnaupplýsingar** - Skoða og uppfæra lánardrottinssniðmát.
-- **Invoicing** - Vinna með reikninga. Þetta efnisatriði nær ekki yfir vinnusvæðið **Invoicing**. Nánari upplýsingar um þetta vinnusvæði er að finna í [Vinnusvæði reikningsfærslur fyrir samstarf lánardrottna](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Invoicing** - Vinna með reikninga. Þetta efnisatriði nær ekki yfir vinnusvæðið **Invoicing**. Nánari upplýsingar um þetta vinnusvæði er að finna í [Vinnusvæði reikningsfærslur fyrir samstarf lánardrottna](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Lánardrottnar geta líka fylgst með upplýsingum um vörusendingarbirgðir.
 
@@ -82,7 +78,7 @@ Ef verið er að nota vörusendingabirgðir, geta þú notað viðmót fyrir sam
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Vinna með Beiðnir um tilboð á vinnusvæði fyrir Lánardrottnatilboð
 
-**Lánardrottnatilboð** vinnusvæðið gerir þér kleift að skoða beiðnir um tilboð sem fyrirtæki þínu hefur verið boðið að svara. Einnig er hægt að svara Beiðnum um tilboð. 
+**Lánardrottnatilboð** vinnusvæðið gerir þér kleift að skoða beiðnir um tilboð sem fyrirtæki þínu hefur verið boðið að svara. Einnig er hægt að svara Beiðnum um tilboð.
 
 Vinnusvæðið sýnir líka allar Beiðnir um tilboð sem þú hefur tapað eða unnið. Að auki, ef kerfið er grunnstillt fyrir hið opinbera, sýnir vinnusvæðið þær Beiðnir um tilboð sem eru opinber.
 
@@ -100,20 +96,28 @@ Opna vinnusvæðið **lánardrottnatilboð** til að fá aðgang að eftirfarand
 
 ### <a name="working-with-rfqs-that-are-publicly-available"></a>Vinna með opinberar tilboðsbeiðnir
 
-Fólk sem vinnur hjá hinu opinbera getur séð opnar og útrunnar Tilboðsbeiðnir sem hafa verið gerðar opinberar.
+Fólk sem starfar hjá hinu opinbera getur séð opnar og útrunnar beiðnir um tilboð sem hafa verið aðgengilegar almenningi.
 
 - Velja **Opnar opinberar tilboðsbeiðnir** hlekkur til að sjá lista yfir opnar beiðnir um tilboð sem eru opinberar. Opin tilboðsbeiðni er óútrunnin tilboðsbeiðni. Á haus tilboðsbeiðninnar er að finna dag- og tímasetningu gildisloka.
 
-    Ef þér hefur verið boðið að gera kauptilboð, geturðu fundið sömu tilboðsbeiðnina á **Boð um að gera nýtt kauptilboð** síðunni. Stundum gætirðu viljað gera kauptilboð í opna tilboðsbeiðni, en ekki hefur verið boðið að gera kauptilboð. Í slíku tilfelli er hugsanlegt að þú getir boðið sjálfum þér, að því gefnu að viðskiptamaður hafi virkjað sjálfsboð fyrir tilboðsbeiðnitilfellið.
+    Ef þér hefur verið boðið að gera kauptilboð, geturðu fundið sömu tilboðsbeiðnina á **Boð um að gera nýtt kauptilboð** síðunni. Stundum gætirðu viljað gera kauptilboð í opna tilboðsbeiðni, en ekki hefur verið boðið að gera kauptilboð. Í slíku tilfelli er hugsanlegt að þú getir boðið sjálfum þér, að því gefnu að viðskiptamaður hafi virkjað sjálfsboð fyrir tilboðsbeiðnitilfellið. 
 
-    Aukið aðgengi **Opna útgefnar tilboðsbeiðnir** tengilsins með því að kveikja á eiginleikanum **Sýna tengilinn „Opna birtar tilboðsbeiðnir“ sem reit**. Þessi eiginleiki breytir tengli í reit og flytur hann á áberandi stað, þannig að auðvelt sé að finna hann.
+    The **Ný tilboðsboð** síða getur veitt síu sem gerir þér kleift að skoða opnar beiðnir um tilboð og auðkenna þær sem innihalda línur sem passa við samþykkta innkaupaflokka þína. Til að gera þessa síu aðgengilega verður þú að kveikja á *Leyfðu söluaðilum að leita að tilboðum eftir innkaupaflokki* eiginleiki í kerfinu þínu. Stjórnendur geta notað **Eiginleikastjórnun** vinnusvæði til að athuga stöðu þessa eiginleika og kveikja á honum ef þess er krafist. Þar er eiginleikinn skráður á eftirfarandi hátt:
+
+    - **Eining:** *Viðskiptaskuldir*
+    - **Eiginleikaheiti:** *Leyfðu söluaðilum að leita að tilboðum eftir innkaupaflokki* <!-- KFM: I don't see this here, is this right? -->
+
+    Þú getur aukið aðgengi að **Opna birtar beiðnir um tilboð** tengilinn með því að kveikja á *Birta hlekkinn „Opna birtar beiðnir um tilboð“ sem flís* eiginleiki. Þessi eiginleiki breytir hlekknum í flís og færir hann á áberandi stað svo auðvelt sé að finna hann. Stjórnendur geta notað **Eiginleikastjórnun** vinnusvæði til að athuga stöðu þessa eiginleika og kveikja á honum ef þess er krafist. (Frá og með Supply Chain Management útgáfu 10.0.21 er kveikt á eiginleikanum sjálfgefið.) Þar er eiginleikinn skráður á eftirfarandi hátt:
+
+    - **Eining:** *Innkaup og uppruni*
+    - **Eiginleikaheiti:** *Birta "Opna birtar beiðnir um tilboð" hlekkinn sem flís*
 
 - Velja **Lokaðar opinberar tilboðsbeiðnir** hlekkur til að sjá lista yfir lokaðar beiðnir um tilboð sem eru opinberar. Lokuð tilboðsbeiðni er útrunnin tilboðsbeiðni. Á haus tilboðsbeiðninnar er að finna dag- og tímasetningu gildisloka.
 
     Lokuð tilboðsbeiðni sýnir öll kauptilboð lánardrottna niður á línustig. Upplýsingar í lokuðum tilboðsbeiðnum endurspegla það þegar kauptilboðum er úthlutað eða þeim hafnað. Öll viðhengi sem eru höfð með í kauptilboðinu eru líka tiltæk.
 
 > [!NOTE]
-> Þessi virkni er aðeins í boði ef kveikt er á grunnstillingu fyrir hið opinbera.
+> Þessi virkni er aðeins tiltæk ef kveikt er á uppsetningu hins opinbera.
 
 ### <a name="bidding"></a>Tilboð
 
@@ -147,3 +151,6 @@ Aðgengilegu upplýsingarnar eru nafn lánardrottins, aðsetur, tengslaupplýsin
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Stjórnun notenda samstarfs lánardrottna](manage-vendor-collaboration-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

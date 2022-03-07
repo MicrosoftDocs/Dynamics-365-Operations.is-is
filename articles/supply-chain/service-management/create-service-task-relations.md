@@ -2,28 +2,25 @@
 title: Stofna þjónustuverkatengsl
 description: Þú getur tengt þjónustuverk við þjónustusamningum eða þjónustupöntunum til að lýsa þjónustuverkinu sem þarf að ljúka fyrir samninginn eða pöntunina.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e50b4322c65097ab4f8aba9c36e4d5e6cc4c01b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9e0e869f22fc6f294c2dfc35b883cafe0e4205c6269e1b1fec7b223c1a9ea6c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430456"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751794"
 ---
 # <a name="create-service-task-relations"></a>Stofna þjónustuverkatengsl    
 
@@ -33,13 +30,13 @@ ms.locfileid: "4430456"
 
 ## <a name="create-a-relation-with-a-service-agreement"></a>Stofna tengsl við þjónustusamning
 
-1.  Smellið á **Þjónustustjórnun** \> **Almennt** \> **Þjónustusamningar** \> **þjónustusamningar**.
+1.  Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustusamningar** \> **þjónustusamningar**.
 
 2.  Veljið fyrirliggjandi þjónustusamning eða stofnið nýjan þjónustusamning.
 
-3.  Í aðgerðarúðunni smellirðu á **Þjónustuverk** hnappinn.
+3.  Í aðgerðarúðunni smellirðu á hnappinn **Þjónustuverk**.
 
-4.  Á **Þjónustuverk** skjámyndinni, ýttu á CTRL + N til að búa til nýjan línu og veldu síðan þjónustuverk frá **Þjónustuverk** listanum til að tengja þjónustuverkið við þjónustusamninginn.
+4.  Á **Þjónustuverk** skjámyndinni skal velja **Nýtt** til að búa til nýjan línu og veldu síðan þjónustuverk frá **Þjónustuverk** listanum til að tengja þjónustuverkið við þjónustusamninginn.
 
 5.  Á flipanum **Lýsing**, sláðu inn í reitina fyrir frjálsan texta hvaða innri eða ytri lýsingar sem er.
 
@@ -51,13 +48,13 @@ Endurtakið þetta ferli þar til búið er að stofna öll nauðsynleg þjónus
 
 ## <a name="create-a-relation-with-a-service-order"></a>Stofna tengsl við þjónustupöntun
 
-1.  Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+1.  Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 
 2.  Veljið fyrirliggjandi þjónustupöntun eða stofnið nýja þjónustupöntun.
 
-3.  Í aðgerðarúðunni smellirðu á **Þjónustuverk** hnappinn.
+3.  Í aðgerðarúðunni smellirðu á hnappinn **Þjónustuverk**.
 
-4.  Frá **Þjónustuverk** skjámynd, ýttu á CTRL + N til að búa til nýja línu og veldu síðan þjónustuverk frá **Þjónustuverk** listanum til að tengja þjónustuverkin við þjónustupöntunina.
+4.  Frá **Þjónustuverk** skjámyndinni skal velja **Nýtt** til að búa til nýja línu og veldu síðan þjónustuverk frá **Þjónustuverk** listanum til að tengja þjónustuverkin við þjónustupöntunina.
 
 5.  Á flipanum **Lýsing**, sláðu inn í reitina fyrir frjálsan texta hvaða innri eða ytri lýsingar sem er.
 
@@ -75,3 +72,6 @@ Endurtakið þetta ferli þar til búið er að stofna öll nauðsynleg þjónus
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

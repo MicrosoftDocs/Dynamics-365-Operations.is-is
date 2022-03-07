@@ -2,28 +2,25 @@
 title: Tafarlaus áfylling
 description: Þetta efnisatriði lýsir því hvernig hægt er að nota tafarlausa áfyllingu til að fylla á birgðir þegar staðsetningarleiðbeining tekst ekki úthluta birgðum.
 author: Mirzaab
-manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSReplenishmentTemplates
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c69a9c9fd595280ba4f05a11409a3e672e4b1691
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.openlocfilehash: 15a3cc4c50e49a50c354834761425cd107c23a9d79677e022cb1d339bb48c918
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430725"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741933"
 ---
 # <a name="immediate-replenishment"></a>Tafarlaus áfylling
 
@@ -57,3 +54,6 @@ Ef tafarlaus áfylling er valin fyrir línu staðsetningarleiðbeiningar, en eng
 
 - Gakktu úr skugga um að sniðmát eftirspurnaráfyllingar sem er notað sé sett upp til að nota rétt staðsetningarsniðmát og vinnusniðmát af gerðinni **Áfylling**.
 - Gakktu úr skugga um að það sé nóg af birgðum á lager á þeirri staðsetningu sem sniðmát eftirspurnaráfyllingar leitar að birgðum á lager fyrir áfyllingu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,36 +1,31 @@
 ---
 title: Kökusamræmi
-description: Þetta efni lýsir forsendum varðandi samræmi við vafrakökur og sjálfgefnar reglur sem fylgja Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir atriðum fyrir reglufylgni fyrir kökur og sjálfgefnum reglum sem teknar eru með í Microsoft Dynamics 365 Commerce.
 author: BrianShook
-manager: annbe
-ms.date: 08/31/2020
+ms.date: 07/30/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4f54b9b8130a167dbecdb13fccd7039f827f6ed0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413059"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747698"
 ---
-# <a name="cookie-compliance"></a>Kökusamræmi
+# <a name="cookie-compliance"></a>Reglufylgni köku
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir forsendum varðandi samræmi við vafrakökur og sjálfgefnar reglur sem fylgja Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði lýsir atriðum fyrir reglufylgni fyrir kökur og sjálfgefnum reglum sem teknar eru með í Microsoft Dynamics 365 Commerce.
 
 Persónuvernd er mikilvægur þáttur þegar rekja á tækni sem hefur áhrif á viðskiptavini rafrænna viðskipta. Vegna staðla um samræmi við friðhelgi einkalífs, svo sem Almennu persónuverndarreglugerðina (GDPR) í Evrópusambandinu (ESB), verður að hafa í huga rafræn viðmiðunarreglur varðandi friðhelgi einkalífs fyrir alla vefi sem eru virkir í dag. Vegna þess að mörg svæði rafrænna viðskipta eru sjálfgefið aðgengileg á heimsvísu er mikilvægt að þú hafir farið yfir staðla viðmiðunar fyrir rafræn viðskipti.
 
@@ -38,23 +33,78 @@ Til að læra meira um grundvallarreglurnar sem Microsoft notar fyrir samræmi v
 
 Eftirfarandi tafla sýnir núverandi tilvísunarlista yfir smákökur settur inn af Dynamics 365 Commerce vefsvæðum.
 
-| Heiti köku                               | Notkun                                                        |
-| ------------------------------------------- | ------------------------------------------------------------ |
-| .AspNet.Cookies                             | Geymið sannvottunarköku Microsoft Azure Active Directory (Azure AD) fyrir staka innskráningu (SSO). Geymir dulkóðaðar aðalupplýsingar notanda (nafn, eftirnafn, netfang). |
-| &#95;msdyn365___cart&#95;                           | Geymið auðkenni körfu sem notað er til að sækja lista yfir vörur sem bætt er við körfutilvik. |
-| &#95;msdyn365___ucc&#95;                            | Samþykktarrakning á reglufylgni köku.                          |
-| ai_session                                  | Greinir hversu margar lotur notandavirkni hafa tekið með ákveðnar síður og eiginleika forritsins. |
-| ai_user                                     | Greinir hversu margir notuðu forritið og eiginleika þess. Notendur eru taldir með nafnlausum auðkennum. |
-| b2cru                                       | Geymir gagnvirkt framsenda vefslóð.                              |
-| JSESSIONID                                  | Notað af greiðslutengli Adyen til að vista notandalotu.       |
-| OpenIdConnect.nonce.&#42;                       | Sannvottun                                               |
-| x-ms-cpim-cache:.&#42;                          | Notað til að viðhalda stöðu beiðninnar.                      |
-| x-ms-cpim-csrf                              | Merki fyrirspurnafölsunar á milli svæða (CRSF) notað til að verjast CRSF.     |
-| x-ms-cpim-dc                                | Notað til að vísa beiðnum til viðeigandi þjónustutilviks framleiðslusannvottunar. |
-| x-ms-cpim-rc.&#42;                              | Notað til að vísa beiðnum til viðeigandi þjónustutilviks framleiðslusannvottunar. |
-| x-ms-cpim-slice                             | Notað til að vísa beiðnum til viðeigandi þjónustutilviks framleiðslusannvottunar. |
-| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Notað til að viðhalda SSO-lotunni.                        |
-| x-ms-cpim-trans                             | Notað til að rekja færslur (fjöldi opinna flipa sem sannvottar vefsvæði viðskipta við neytanda (B2C)), þar með talið núverandi færslu. |
+| Heiti köku                               | Notkun                                                        | Líftími |
+| ------------------------------------------- | ------------------------------------------------------------ |  ------- |
+| .AspNet.Cookies                             | Geymið sannvottunarköku Microsoft Azure Active Directory (Azure AD) fyrir staka innskráningu (SSO). Geymir dulkóðaðar aðalupplýsingar notanda (nafn, eftirnafn, netfang). | Seta |
+| \_msdyn365___karfa_                           | Geymið auðkenni körfu sem notað er til að sækja lista yfir vörur sem bætt er við körfutilvik. | Seta |
+| \_msdyn365___Greiðsluferli_karfa_                           | Geymið auðkenni körfu í greiðsluferli sem notað er til að sækja lista yfir vörur sem bætt er við körfutilvik greiðsluferlis. | Seta |
+| \_msdyn365___ucc_                            | Samþykktarrakning á reglufylgni köku.                          | 1 ár |
+| ai_session                                  | Greinir hversu margar lotur notandavirkni hafa tekið með ákveðnar síður og eiginleika forritsins. | 30 mínútur |
+| ai_user                                     | Greinir hversu margir notuðu forritið og eiginleika þess. Notendur eru taldir með nafnlausum auðkennum. | 1 ár |
+| b2cru                                       | Geymir gagnvirkt framsenda vefslóð.                              | Seta |
+| JSESSIONID                                  | Notað af greiðslutengli Adyen til að vista notandalotu.       | Seta |
+| OpenIdConnect.nonce.&#42;                       | Sannvottun                                               | 11 mínútur |
+| x-ms-cpim-cache:.&#42;                          | Notað til að viðhalda stöðu beiðninnar.                      | Seta |
+| x-ms-cpim-csrf                              | Merki fyrirspurnafölsunar á milli svæða (CRSF) notað til að verjast CRSF.     | Seta |
+| x-ms-cpim-dc                                | Notað til að vísa beiðnum til viðeigandi þjónustutilviks framleiðslusannvottunar. | Seta |
+| x-ms-cpim-rc.&#42;                              | Notað til að vísa beiðnum til viðeigandi þjónustutilviks framleiðslusannvottunar. | Seta |
+| x-ms-cpim-slice                             | Notað til að vísa beiðnum til viðeigandi þjónustutilviks framleiðslusannvottunar. | Seta |
+| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Notað til að viðhalda SSO-lotunni.                        | Seta |
+| x-ms-cpim-trans                             | Notað til að rekja færslur (fjöldi opinna flipa sem sannvottar vefsvæði viðskipta við neytanda (B2C)), þar með talið núverandi færslu. | Seta |
+| \_msdyn365___muid_                            | Notað ef tilraun er virkjuð fyrir umhverfið; notað sem notandakenni í tilraunaskyni. | 1 ár |
+| \_msdyn365___exp_                             | Notað ef tilraun er virkjuð fyrir umhverfið; notað til að mæla álagsjöfnun afkasta.         | 1 klukkustund |
+| d365mkt                                       | Notað ef staðsetningarmiðuð greining til að fylgjast með IP-tölu notanda fyrir tillögur um staðsetningu verslunar er virkjuð í vefsmið Commerce á **Stillingar svæðis \> Almennt \> Virkja staðsetningarmiðaða greiningu á verslun**.      | 1 klukkustund |
+| \_msdyn365___tuid_                           | Notað aðeins ef tilraunir eru virkjaðar fyrir umhverfi; býr til GUID til að nota sem notandaauðkenni. Gildi breytist ef innskráningarstaða breytist.      | 1 ár |
+| \_msdyn365___aud_0                          | Vistar hlutagildi sem markmið notar og er aðeins notað ef markmið er stillt á síðu eða brot sem notandi vefsvæðis óskar eftir. Köku er aðeins komið fyrir þegar hlutagildi koma frá þriðja aðila.      | 7 dagar |
+| \_msdyn365___aud_1                           | Vistar hlutagildi sem markmið notar og er aðeins notað ef markmið er stillt á síðu eða brot sem notandi vefsvæðis óskar eftir. Köku er aðeins komið fyrir þegar hlutagildi koma frá þriðja aðila.      | 7 dagar |
+| \_msdyn365___aud_2                           | Vistar hlutagildi sem markmið notar og er aðeins notað ef markmið er stillt á síðu eða brot sem notandi vefsvæðis óskar eftir. Köku er aðeins komið fyrir þegar hlutagildi koma frá þriðja aðila.      | 7 dagar |
+
+Ef notandi svæðis velur einhvern tengil á samfélagsmiðil innan svæðis munu kökurnar í eftirfarandi töflu einnig vera raktar í vafranum.
+
+
+| Lén                      | Kaka               | lýsing                                                  | Uppruni                                          |
+| --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| .linkedin.com                | UserMatchHistory         | Samstillir auðkenni LinkedIn auglýsinga                                      | LinkedIn-straumur og merki innsýnar                                |
+| .linkedin.com               | li_sugr                  | Kennimerki vafra                                           | Merki LinkedIn-innsýnar ef IP-tala er ekki í uppgefnu landi |
+| .linkedin.com               | BizographicsOptOut       | Ákvarðar stöðu afþökkunar fyrir rakningu þriðja aðila.              | Stýringar LinkedIn-gests og afþökkunarsíður atvinnugreinar           |
+| .linkedin.com               | \_guid                    | Vafraauðkenni fyrir Google auglýsingar.                            | LinkedIn-straumur                                                |
+| .linkedin.com               | li_oatml                 | Óbeint auðkenni meðlims fyrir breytingarakningu, ný markmið og greiningar. | Merki LinkedIn-auglýsinga og innsýnar                                |
+| Ýmis lén fyrsta aðila | li_fat_id                | Óbeint auðkenni meðlims fyrir breytingarakningu, ný markmið og greiningar. | Merki LinkedIn-auglýsinga og innsýnar                                |
+| .adsymptotic.com            | U                        | Kennimerki vafra                                           | Merki LinkedIn-innsýnar ef IP-tala er ekki í uppgefnu landi |
+| .linkedin.com                | bcookie                  | Auðkenni vafraköku                                            | Beiðnir til LinkedIn                                         |
+| .linkedin.com                | bscookie                 | Örugg vafraköka                                        | Beiðnir til LinkedIn                                         |
+| .linkedin.com               | lang                     | Lotur sjálfgefinn landsstaðall og tungumál.                                 | Beiðnir til LinkedIn                                         |
+| .linkedin.com                | lidc                     | Notað fyrir leiðir.                                             | Beiðnir til LinkedIn                                         |
+| .linkedin.com               | aam_uuid                 | Kaka áhorfendastjórnanda Adobe                                                     | Stilla fyrir samstillingu auðkennis                                              |
+| .linkedin.com               | \_ga                      | Google Analytics kaka                                            | Google Analytics                                             |
+| .linkedin.com               | \_gat                     | Google Analytics kaka                                             | Google Analytics                                             |
+| .linkedin.com               | liap                     | Google Analytics kaka                                             | Google Analytics                                             |
+| .linkedin.com               | lissc                    |                                                              |                                                              |
+| .facebook.com               | c_user                   | Kaka inniheldur notandakenni þess sem er skráður inn.  |   Facebook                                                           |
+| .facebook.com               | datr                     | Notað til að auðkenna vafrann sem er notaður til að tengjast við Facebook óháð því hver innskráður notandi er. | Facebook                                                             |
+| .facebook.com               | wd                       | Geymir víddir vafraglugga og er notað af Facebook til að fínstilla birtingu síðunnar. | Facebook                                                             |
+| .facebook.com               | xs                       | Tveggja stafa tala sem táknar lotunúmerið. Seinni hluti gildisins er leynilykill lotu. |  Facebook                                                            |
+| .facebook.com               | fr                       | Inniheldur einkvæman vafra og notandakenni, notað fyrir markmiðaðar auglýsingar. |  Facebook                                                            |
+| .facebook.com               | sb                       | Notað til að bæta Facebook vinatillögur.                                |  Facebook                                                            |
+| .facebook.com               | spin                     |                                                              |  Facebook                                                            |
+| .twitter.com                | guest_id                 |                                                              |  Twitter                                                            |
+| .twitter.com                | kdt                      |                                                              |  Twitter                                                             |
+| .twitter.com                | personalization_id       | Kaka inniheldur notandakenni þess sem er skráður inn.  |  Twitter                                                             |
+| .twitter.com                | remember_checked_on      |                                                              | Twitter                                                              |
+| .twitter.com                | twid                     |                                                              |  Twitter                                                             |
+| .pinterest.com              | \_auth                    | Kaka inniheldur notandakenni þess sem er skráður inn.  |   Pinterest                                                           |
+| .pinterest.com              | \_b                       |                                                              |   Pinterest                                                           |
+| .pinterest.com              | \_pinterest_pfob          |                                                              |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_referrer      | Kaka inniheldur síður þegar notandi velur Pinterest-hnappinn.      |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_sess          | Kaka inniheldur síður þegar notandi velur Pinterest-hnappinn.      |  Pinterest                                                            |
+| .pinterest.com              | \_routing_id              |                                                              |  Pinterest                                                            |
+| .pinterest.com              | bei                      |                                                              |  Pinterest                                                            |
+| .pinterest.com              | cm_sub                   | Inniheldur notandakenni og tímastimpilinn þegar kakan var búin til. |  Pinterest                                                            |
+| .pinterest.com              | csrftoken                | Kaka inniheldur síður þegar notandi velur Pinterest-hnappinn.      | Pinterest                                                             |
+| .pinterest.com              | sessionFunnelEventLogged | Kaka inniheldur síður þegar notandi velur Pinterest-hnappinn.      | Pinterest                                                             |
+| .pinterest.com              | Staðbundin geymsla            |                                                              |  Pinterest                                                            |
+| .pinterest.com              | Þjónustuaðilar          |                                                              |  Pinterest                                                            |
+
 
 ## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Samþykki fyrir kökur á svæði notanda á vefsvæði e-Commerce 
 
@@ -73,3 +123,6 @@ Ef eiginleiki einingu rafrænna viðskipta notar köku sem ekki er nauðsynleg �
 [Eining kökusamþykkis](cookie-consent-module.md) 
  
 [Eining síðuhauss](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

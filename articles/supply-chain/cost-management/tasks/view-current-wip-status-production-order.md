@@ -2,27 +2,24 @@
 title: Skoða núverandi VÍV-stöðu framleiðslupöntunar
 description: Þessi verklýsing sýnir hvernig á að skoða yfirlitinu VÍV á framleiðslupöntun.
 author: AndersGirke
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, ProdTable, CostStatement
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8e55ccfe158146a48fd372d6f0f687d169b7632
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 22f4a423a0ca9e7fc5ddc9d46a618a20c7a5ca9f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430464"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568184"
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a>Skoða núverandi VÍV-stöðu framleiðslupöntunar
 
@@ -38,3 +35,6 @@ ms.locfileid: "4430464"
 6. Í reitnum Frá dagsetningu skal stilla dagsetninguna á ‚2012-12-01‘.
 7. Í reitnum Til dagsetningar skal stilla dagsetninguna á ‚2012-12-31‘.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

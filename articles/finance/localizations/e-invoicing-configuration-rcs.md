@@ -2,7 +2,7 @@
 title: Skilgreina rafrænna reikningsfærslu í Regulatory Configuration Services (RCS)
 description: Þetta efnisatriði útskýrir hvernig skilgreina á rafræna reikningsfærslu í Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
-ms.date: 11/08/2021
+ms.date: 07/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779671"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757975"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Skilgreina rafrænna reikningsfærslu í Regulatory Configuration Services (RCS)
 
@@ -28,7 +28,7 @@ ms.locfileid: "7779671"
 
 Í þessu efnisatriði er að finna upplýsingar um skilgreiningarmöguleika fyrir rafræna reikningsfærslu í Dynamics 365 Regulatory Configuration Services (RCS).
 
-Það er í gegnum skilgreiningarmöguleikana sem rafræn reikningsfærsla auðveldar þér að uppfylla kröfur fyrirtækis og reglugerða fyrir rafræna reikningsfærslu án þess að þurfa að gera einhverja kóðun. Og í þeim tilfellum þar sem rafrænir reikningar verða að vera rafrænt samþykktir af vefþjónustu, hjálpa stillingarmöguleikarnir þér einnig að uppfylla kröfur um að skiptast á skilaboðum með vefþjónustu, án þess að nota neinn kóða.
+Það er í gegnum skilgreiningarmöguleikana sem rafræn reikningsfærsla auðveldar þér að uppfylla kröfur fyrirtækis og reglugerða fyrir rafræna reikningsfærslu án þess að þurfa að gera einhverja kóðun. Og í aðstæðunum þar sem rafrænir reikningar verða að vera samþykktir rafrænt af vefþjónustu auðvelda skilgreiningarmöguleikarnir þér einnig að uppfylla kröfur um samskipti í gegnum skilaboð við vefþjónustur án þess að gera einhverja kóðun.
 
 ## <a name="electronic-reporting"></a>Rafræn skýrslugerð
 
@@ -73,7 +73,6 @@ Eftirfarandi tafla sýnir eiginleika rafrænnar reikningsfærslu sem eru almennt
 | Spánn          | Spænskur rafrænn reikningur (ES)      | Sölureikningar og verkreikningar |
 | Evrópa         | PEPPOL rafrænn reikningur            | PEPPOL sölureikningar og verkreikningar |
 | Evrópa         | PEPPOL reikningur lánardrottins                | PEPPOL flytja inn reikninga lánardrottins |
-| Sádi-Arabía   | Rafrænn reikningur Sádi-Arabíu (SA)| Sölureikningar og verkreikningar |
 
 ### <a name="preview-features"></a>Forskoðunareiginleikar
 
@@ -198,11 +197,6 @@ Eftirfarandi listar sýna skilgreiningar rafræns skýrslugerðarsniðs sem eru 
 - Sölureikningur (ES)
 - Verkreikningur (ES)
 
-#### <a name="saudi-arabian-sa-electronic-invoice-sales-and-project-invoices-for-saudi-arabia"></a>Saudi Arabian (SA) rafrænn reikningur: Sölu- og verkreikningar fyrir Saudi Arabíu
-
-- Rafræn sölureikningur (SA)
-- Verkefnareikningur (SA)
-
 Auk tilbúinna skilgreininga á rafrænu skýrslugerðarsniði sem eru í boði í rafrænu reikningsfærsluþjónustunni, er einnig hægt að búa til sínar eigin skilgreiningar á rafrænu skýrslugerðarsniði. Hins vegar styðja sniðsskilgreiningarnar, sem eru gerðar til að nota með eiginleikum rafrænnar reikningsfærslu, ekki beina tilvísun í töflur Finance og Supply Chain Management eða samsvarandi lýsigögn. Aðeins tilvísanir í vörpun ER-líkans eru studdar.
 
 ### <a name="actions"></a>Aðgerðir
@@ -280,7 +274,7 @@ Röklegir virkjar:
 - Og
 - Eða
 
-Gerðir rekstraraðila:
+Gerðir virknitákna:
 - Equal
 - Not equal
 - Greater than

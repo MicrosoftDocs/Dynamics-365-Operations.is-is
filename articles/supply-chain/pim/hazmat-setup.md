@@ -2,30 +2,26 @@
 title: Setja upp hættuleg efni
 description: Þetta efnisatriði útskýrir hvernig á að setja upp gögn sem þarf til að flokka vörur sem hættuleg efni. Þegar stofnuð er sölupöntun sem inniheldur vöru sem flokkast sem hættulegt efni, býr kerfið til fylgigögn um hættuleg efni fyrir þessa sölupöntun þegar hún er send.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c360d6a0fd5ffb65d1ea50d50e1ea5de00c84abe72e83c72b9bc4d6826cb41d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430518"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712983"
 ---
 # <a name="set-up-hazardous-materials"></a>Setja upp hættuleg efni
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Til að nota virkni hættulegra efna þarf fyrst að setja upp gögnin sem nauðsynleg eru til að flokka vörur sem hættuleg efni. Síðan þegar stofnuð er sölupöntun sem inniheldur vöru sem flokkast sem hættulegt efni, býr kerfið til fylgigögn um hættuleg efni fyrir þessa sölupöntun þegar hún er send.
 
@@ -284,3 +280,6 @@ Til að setja upp gildi fyrir þessa forskrift skal fara í **Afurðaupplýsinga
 Forskriftin *Hættuleg efni í göngum* takmarkar gerðir ganga sem má flytja hættulegt efni í gegnum með því að gefa upp gangagerðirnar sem þarf að nota. Gangaflokkar eru settir á samkvæmt viðeigandi reglugerðum fyrir flutning á hættulegum efnum. Þessi skilgreining á yfirleitt aðeins við um flutning á vegum.
 
 Til að setja upp gildi fyrir þessa forskrift skal fara í **Afurðaupplýsingastjórnun \> Uppsetning \> Fylgiskjöl fyrir sendingu hættulegra efna \> Hættuleg efni í göngum**. Á síðunni **Hættuleg efni í göngum** er hægt að búa til eins margar gangamerkingar og þarf og skilgreina hverja þeirra með auðkennandi kóða og stuttri lýsingu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

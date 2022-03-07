@@ -2,11 +2,9 @@
 title: Skilgreina skilyrtar ákvöarðanir í verkflæði
 description: Notið eftirfarandi ferli til að stilla eiginleika fyrir skilyrt ákvörðun.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a880d4be461ea9b2caa61b7d038f9b24486a919
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 36c4ff32a4cb6d10e363a1522cb48823c4f491dabe2845d390147b42cdfcec4a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798880"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712244"
 ---
 # <a name="configure-conditional-decisions-in-a-workflow"></a>Skilgreina skilyrtar ákvöarðanir í verkflæði
 
@@ -52,3 +50,6 @@ Kerfið ákveður sjálfkrafa hvaða grein á að nota með því að meta sent 
     2. Veljið færslu í svæðinu **Villuleita skilyrði** á skjámyndinni.
     3. Smellið á **Prófun**. Kerfið metur færsluna og ákveður hvort hún standist skilyrði sem þú tiltókst.
     4. Smelltu á **Í lagi** eða **Hætta við** til að fara aftur síðuna **Eiginleikar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

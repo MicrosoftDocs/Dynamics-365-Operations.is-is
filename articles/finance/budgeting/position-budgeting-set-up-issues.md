@@ -2,11 +2,9 @@
 title: Setja upp fjárhagsáætlunargerðar stöðu
 description: Þetta efnisatriði veitir svör við spurningum sem gætu vaknað þegar verið er að skilgreina stöðu fjárhagsáætlunargerðar. Það svarar algengum spurningum um hvernig á að búa til kostnaðarþætti fjárhagsáætlunar, launaflokka og launahintanet.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBudgetPurposeType, HcmPositionForecast
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8211c5bd4514bffbd001f9930859f777dac7f0e1
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 492a0798d1934b0fe1adf4f0546013f394beab06948f02f92358bae408e7748f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017618"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726063"
 ---
 # <a name="position-budgeting-troubleshooting"></a>Setja upp fjárhagsáætlunargerðar stöðu
 
@@ -30,8 +28,7 @@ ms.locfileid: "5017618"
 
 Þetta efnisatriði veitir svör við spurningum sem gætu vaknað þegar verið er að skilgreina stöðu fjárhagsáætlunargerðar. Það svarar algengum spurningum um hvernig á að búa til kostnaðarþætti fjárhagsáætlunar, launaflokka og launahintanet. 
 
-<a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Af hverju finnst ekki spástöðu síðan í mannauði?
----------------------------------------------------------------
+## <a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Af hverju finnst ekki spástöðu síðan í mannauði?
 
 Spástöður hafa verið fluttar í Fjárhagsáætlun.
 
@@ -63,3 +60,6 @@ Dagsetningar á línu spástöðu kostnaðareiningarinnar verða að vera innan 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

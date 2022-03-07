@@ -2,11 +2,9 @@
 title: Notandaskilgreint vottorðssnið fyrir smásöluverslanir
 description: Í þessu efnisatriði er að finna yfirlit yfir hvernig vottorð eru notuð í smásöluverslunum.
 author: josaw
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout, RetailParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 81fa3770a137471e3d7f8cab3c7d7f37febe64fa
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018869"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719931"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Notandaskilgreint vottorðssnið fyrir smásöluverslanir
 
@@ -81,7 +79,7 @@ Eftirfarandi ferli lýsir hvernig setja á upp vottorðssnið. Áður en vottor�
 - **Vottorð lyklageymslu** - Þessi reitur er áskilinn ef reiturinn **Gerð staðsetningar** er stilltur á **Lyklageymsla**. Notið hann til að tilgreina leynilykil vottorðs í lyklageymslu.
 
     > [!NOTE]
-    > Áður en vottorð lyklageymslu er notað í vottorðssniðum, skal fyrst hlaða upp vottorði í lyklageymsluna og fylgja leiðbeiningunum í [Setja upp biðlara Azure-lyklageymslu](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
+    > Áður en vottorð lyklageymslu er notað í vottorðssniðum, skal fyrst hlaða upp vottorði í lyklageymsluna og fylgja leiðbeiningunum í [Setja upp biðlara Azure-lyklageymslu](../../finance/localizations/setting-up-azure-key-vault-client.md).
 
 - **Heiti verslunar** – Þessi reitur er valfrjáls og er aðeins aðgengilegur ef reiturinn **Gerð staðsetningar** er stilltur á **Staðbundið vottorð**. Notið hann til að tilgreina sjálfgefið heiti verslunar sem á að nota til að leita að staðbundnum vottorðum.
 - **Staðsetning verslunar** – Þessi reitur er valfrjáls og er aðeins aðgengilegur ef reiturinn **Gerð staðsetningar** er stilltur á **Staðbundið vottorð**. Notið hann til að tilgreina sjálfgefna staðsetningu verslunar sem á að nota til að leita að staðbundnum vottorðum.
@@ -121,3 +119,6 @@ Ef ný útgáfa af vottorðinu er kynnt til sögunnar, en ekki hægt að uppfær
 
 > [!NOTE]
 > Í Commerce Runtime verður fyrst kallað á nýju útgáfu vottorðsins. Ef vottorðið hefur ekki verið uppfært enn sem komið er í tiltekinni verslun er afgreiðslustöð, verður kallað á fyrri útgáfuna.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

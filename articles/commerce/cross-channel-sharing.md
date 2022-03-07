@@ -2,35 +2,30 @@
 title: Virkja og nota deilingu milli rása
 description: Þetta efnisatriði lýsir því hvernig á að virkja og nota samnýtingareiginleika milli rása í vefsmið Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77284045bda193500117978102c0565c5f15ec6d
-ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
-ms.translationtype: HT
+ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4413288"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742417"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Virkja og nota deilingu milli rása
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að virkja og nota samnýtingareiginleika milli rása í vefsmið Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Samnýting milli rása gerir söluaðilum kleift að endurnýta og samnýta efni á mörgum rásum svæðis. Þessi möguleiki er gagnlegur þegar rásir svæða eru með samhæft grunntungumál eða þegar þær eru með ýmislegt sameiginlegt efni.
 
@@ -53,15 +48,15 @@ Til að virkja samnýtingu milli rása í vefsmið Commerce skal fylgja þessum 
 1. Farið í **Svæðisstillingar \> Eiginleikar**.
 1. Stillið valkostinn fyrir eiginleikann **Milli rása** á **Kveikt**.
 
-    ![Kveikt á valkosti milli rása í vefsmið Commerce](./media/enabling-cross-channel-sharing.png)
+    ![Kveikt á valkosti milli rása í vefsmið Commerce.](./media/enabling-cross-channel-sharing.png)
 
 Þegar deiling milli rása er virkjuð, birtast upplýsingar um millirásir í hlutanum **Rásir** í **Svæðisstillingar \> Eiginleikar** eins og dæmið í eftirfarandi mynd sýnir.
 
-![Upplýsingar um rásir sýnilegar eftir að samnýting milli rása er virkjuð](./media/channels-cross-channel.png)
+![Upplýsingar um rásir sýnilegar eftir að samnýting milli rása er virkjuð.](./media/channels-cross-channel.png)
 
 Að auki, þegar búið er að virkja samnýtingu milli rása, verður reiturinn **Rás** uppi hægra megin í vefsmið Commerce með valkostinn **Netverslun milli rása** sem hægt er að nota til að stjórna efni milli rása eins og sýnt er í eftirfarandi mynd.
 
-![Valkostur netverslunar milli rása í reit rásar þegar deiling milli rása hefur verið virkjuð](./media/cross-channel-dropdown.png)
+![Valkostur netverslunar milli rása í reit rásar þegar deiling milli rása hefur verið virkjuð.](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Búa til og nota efni milli rása
 
@@ -137,3 +132,6 @@ Ef þú notar nú grunnvefslóð rásarinnar og ferð á vefslóð síðu milli 
 [Staða og líftími skjala](document-states-overview.md)
 
 [Vinna með birtingarhópa](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

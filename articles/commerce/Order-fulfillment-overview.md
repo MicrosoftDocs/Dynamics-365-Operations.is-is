@@ -2,26 +2,25 @@
 title: Uppfylling pantana fyrir verslun
 description: Í þessu efnisatriði er að finna yfirlit yfir uppfyllingu pantana fyrir verslun.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fa568926ccdde4620294915679cd094adbd1e833
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: db2e9d8b4b0f5102418d842788d220a5099b831a
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965403"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338304"
 ---
 # <a name="store-order-fulfillment"></a>Uppfylling pantana fyrir verslun
 
@@ -35,7 +34,7 @@ Pöntunaruppfyllingaraðgerðin í sölustaðnum veitir eitt vinnusvæði í sö
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Ná í samræmda pöntunaruppfyllingu á sölustaðnum
 
-Pöntunaruppfyllingu, [Aðgerðarnúmer 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), má nota til að fá aðgang að vinnusvæði uppfyllingar pöntunar fyrir verslun á sölustaðnum.
+Pöntunaruppfyllingu, [Aðgerðarnúmer 928](pos-operations.md), má nota til að fá aðgang að vinnusvæði uppfyllingar pöntunar fyrir verslun á sölustaðnum.
 
 Pöntunaruppfyllingaraðgerðin hefur ekki sína eigin heimild út-úr-kassanum, en í framtíðinni munu notendur geta notað **Leyfa að sækja pöntun** heimildina til að hefja aðgerðina frá sölustað.
 
@@ -95,7 +94,7 @@ Eftir að pöntun hefur verið samþykkt geta línur verið valdar og merktar se
 
 Tiltektarlista er hægt að prenta á sölustað til að aðstoða starfsmenn við að framkvæma tiltektarferli. Starfsmaður sem framkvæmir tiltekt getur haft með sér prentaðan tiltektarlista og um leið og vörur eru teknar til, merkir starfsmaðurinn þær sem tilteknar á tiltektarlistanum.
 
-Snið fyrir tiltektarlista er skilgreint í Commerce og bætt á forstillingu innhreyfingar. Fyrir nánari upplýsingar um hvernig eigi að setja upp forstillingar innhreyfingar, sjá [Snið og prentun innhreyfingar](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Snið fyrir tiltektarlista er skilgreint í Commerce og bætt á forstillingu innhreyfingar. Fyrir nánari upplýsingar um hvernig eigi að setja upp forstillingar innhreyfingar, sjá [Snið og prentun innhreyfingar](receipt-templates-printing.md).
 
 Ef línur eru valdar og tiltektarlisti er prentaður fyrir þær línur, eru þær sjálfkrafa uppfærðir með **Tiltekt** stöðu.
 
@@ -121,7 +120,7 @@ Pöntunarlínur geta verið pakkaðar hvenær sem er eftir að pöntunarlínan h
 - **Afleidd staða:** Pakkað eða að hluta til pakkað
 - **Afleidd staða bakvinnslu:** Afhent eða að hluta til afhent
 
-Þessi aðgerð merkir línur sem pakkað eða að hluta pakkað og prentar fylgiseðil. Hægt er að prenta fylgiseðil til að staðfesta þær vörur sem hafa verið pakkaðar saman. Snið fylgiseðils í skilgreint í Commerce og bætt við forstillingu innhreyfingar. Fyrir nánari upplýsingar um hvernig eigi að setja upp forstillingar innhreyfingar, sjá [Snið og prentun innhreyfingar](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Þessi aðgerð merkir línur sem pakkað eða að hluta pakkað og prentar fylgiseðil. Hægt er að prenta fylgiseðil til að staðfesta þær vörur sem hafa verið pakkaðar saman. Snið fylgiseðils í skilgreint í Commerce og bætt við forstillingu innhreyfingar. Fyrir nánari upplýsingar um hvernig eigi að setja upp forstillingar innhreyfingar, sjá [Snið og prentun innhreyfingar](receipt-templates-printing.md).
 
 **Aðgerð: Merkja sem pakkað**
 
@@ -217,3 +216,6 @@ Pöntunaruppfylling á sölustað felur í sér síun til að hjálpa notandanum
 - Búið til þann
 - Afhendingardagur
 - Móttökudagsetning
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

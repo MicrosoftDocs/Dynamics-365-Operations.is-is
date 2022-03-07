@@ -1,37 +1,39 @@
 ---
 title: Skilgreina samþættingu við Finance
-description: Þessi grein lýsir virkni sem hægt er að samþætta frá Dynamics 365 Human Resources og Dynamics 365 Finance.
-author: andreabichsel
-manager: AnnBe
-ms.date: 03/26/2020
+description: Þetta efnisatriði lýsir samþættingu milli Dynamics 365 Human Resources og Dynamics 365 Finance.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527917"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065017"
 ---
 # <a name="configure-integration-with-finance"></a>Skilgreina samþættingu við Finance
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Til að samþætta Dynamics 365 Human Resources við Dynamics 365 Finance geturðu notað sniðmát Human Resources til Finance í [Gagnasamþætting](https://docs.microsoft.com/powerapps/administrator/data-integrator). Sniðmát Human Resources til Finance gerir gagnaflæði kleift fyrir störf, stöður og starfsmenn. Sniðmátið leyfir gögnum að flæða úr Human Resources yfir í Finance, en leyfa ekki gögnum að streyma frá Finance til Human Resources.
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
-![Samþættingarflæði Human Resources til Finance](./media/hr-admin-integration-finance-flow.png)
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
+
+Til að samþætta Dynamics 365 Human Resources við Dynamics 365 Finance geturðu notað sniðmát Human Resources til Finance í [Gagnasamþætting](/powerapps/administrator/data-integrator). Sniðmát Human Resources til Finance gerir gagnaflæði kleift fyrir störf, stöður og starfsmenn. Sniðmátið leyfir gögnum að flæða úr Human Resources yfir í Finance, en leyfa ekki gögnum að streyma frá Finance til Human Resources.
+
+![Samþættingarferli Human Resources til Finance.](./media/hr-admin-integration-finance-flow.png)
 
 Lausn Human Resources til Finance veitir eftirfarandi tegundir samstillingar gagna:
 
@@ -44,7 +46,7 @@ Lausn Human Resources til Finance veitir eftirfarandi tegundir samstillingar gag
 
 Sameiningalausnin krefst eftirfarandi útgáfa af Human Resources og Finance: 
 
-- Dynamics 365 Human Resources á Common Data Service
+- Dynamics 365 Human Resources á Dataverse
 - Dynamics 365 Finance útgáfa 7.2 og nýrri
 
 ## <a name="template-and-tasks"></a>Sniðmát og verkefni
@@ -55,7 +57,7 @@ Til að fá aðgang að sniðmáti Human Resources og Finance.
 
 2. Veldu **Verk** og veldu síðan **Nýtt verk** í efra hægra horninu. Stofnaðu nýtt verk fyrir hvern lögaðila sem þú vilt samþætta inn í Finance.
 
-3. Veldu **Human Resources (Human Resources Common Data Service í Finance)** til að samstilla skrár úr Human Resources í Finance.
+3. Veldu **Human Resources (Human Resources Dataverse í Finance)** til að samstilla skrár úr Human Resources í Finance.
 
 Sniðmátið notar eftirfarandi undirliggandi verk til að samstilla skrár úr Human Resources við Finance:
 
@@ -81,14 +83,14 @@ Sniðmátið notar eftirfarandi undirliggandi verk til að samstilla skrár úr 
 
 ### <a name="job-functions-to-compensation-job-function"></a>Starfshlutverk til bóta starfshlutverk
 
-| Common Data Service eining (uppruni) | Finance eining (áfangastaður) |
+| Dataverse tafla (uppruni) | Finance eining (áfangastaður) |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (cdm_Job   Heiti falls)  | JOBFUNCTIONID   (JOBFUNCTIONID)            |
 | cdm_description   (cdm_description) | DESCRIPTION   (DESCRIPTION)                 |
 
 ### <a name="departments-to-operating-unit"></a>Deildir til rekstrareiningar
 
-| Common Data Service eining (uppruni)           | Finance eining (áfangastaður) |
+| Dataverse tafla (uppruni)           | Finance eining (áfangastaður) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | NAME (NAME)                                 |
 | cdm_departmentnumber   (cdm_departmentnumber) | OPERATINGUNITNUMBER   (OPERATINGUNITNUMBER) |
@@ -97,7 +99,7 @@ Sniðmátið notar eftirfarandi undirliggandi verk til að samstilla skrár úr 
 
 ### <a name="job-types-to-compensation-job-type"></a>Tegund gerða til bóta
 
-| Common Data Service eining (uppruni)   | Finance eining (áfangastaður) |
+| Dataverse tafla (uppruni)   | Finance eining (áfangastaður) |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | JOBTYPEID   (JOBTYPEID)                     |
 | cdm_description   (cdm_description)   | DESCRIPTION   (DESCRIPTION)                 |
@@ -105,7 +107,7 @@ Sniðmátið notar eftirfarandi undirliggandi verk til að samstilla skrár úr 
 
 ### <a name="jobs-to-jobs"></a>Störf til starfa
 
-| Common Data Service eining (uppruni)                           | Finance eining (áfangastaður)           |
+| Dataverse tafla (uppruni)                           | Finance eining (áfangastaður)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | JOBID (JOBID)                                         |
 | cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | MAXIMUMNUMBEROFPOSITIONS   (MAXIMUMNUMBEROFPOSITIONS) |
@@ -115,7 +117,7 @@ Sniðmátið notar eftirfarandi undirliggandi verk til að samstilla skrár úr 
 
 ### <a name="jobs-to-job-detail"></a>Störf til starfsupplýsinga
 
-| Common Data Service eining (uppruni)                             | Finance eining (áfangastaður) |
+| Dataverse tafla (uppruni)                             | Finance eining (áfangastaður) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | JOBID (JOBID)                               |
 | cdm_jobtypeid.cdm_name   (starfstegund (starfstegundarheiti))             | JOBTYPEID   (JOBTYPEID)                     |
@@ -126,7 +128,7 @@ Sniðmátið notar eftirfarandi undirliggandi verk til að samstilla skrár úr 
 
 ### <a name="position-types-to-position-type"></a>Stöðugerðir að stöðugerð
 
-| Common Data Service eining (uppruni)       | Finance eining (áfangastaður) |
+| Dataverse tafla (uppruni)       | Finance eining (áfangastaður) |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | POSITIONTYPEID   (POSITIONTYPEID)           |
 | cdm_description   (cdm_description)       | DESCRIPTION   (DESCRIPTION)                 |
@@ -134,13 +136,13 @@ Sniðmátið notar eftirfarandi undirliggandi verk til að samstilla skrár úr 
 
 ### <a name="job-positions-to-base-position"></a>Starfsstöður til grunnstöðu
 
-| Common Data Service eining (uppruni)           | Finance eining (áfangastaður) |
+| Dataverse tafla (uppruni)           | Finance eining (áfangastaður) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (starfstölunúmer) | POSITIONID (POSITIONID)                      |
 
 ### <a name="job-positions-to-position-details"></a>Upplýsingar frá starfi til starfs
 
-| Common Data Service eining (uppruni)              | Finance eining (áfangastaður)       |
+| Dataverse tafla (uppruni)              | Finance eining (áfangastaður)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber  (starfstöðunúmer)                            | POSITIONID (POSITIONID)                             |
 | cdm_jobid.cdm_name   (starf (heiti))                                        | JOBID (JOBID)                                    |
@@ -154,7 +156,7 @@ Sniðmátið notar eftirfarandi undirliggandi verk til að samstilla skrár úr 
 
 ### <a name="job-positions-to-position-durations"></a>Tímalengd frá starfi til starfs
 
-| Common Data Service eining (uppruni)             | Finance eining (áfangastaður) |
+| Dataverse tafla (uppruni)             | Finance eining (áfangastaður) |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (starfstölunúmer)   | POSITIONID (POSITIONID)                      |
 | Calculated   Activation (reiknuð virkjun) | VALIDFROM (VALIDFROM)                        |
@@ -162,7 +164,7 @@ Sniðmátið notar eftirfarandi undirliggandi verk til að samstilla skrár úr 
 
 ### <a name="job-positions-to-position-hierarchies"></a>Stigveldi frá starfi til starfs
 
-| Common Data Service eining (uppruni)        | Finance eining (áfangastaður) |
+| Dataverse tafla (uppruni)        | Finance eining (áfangastaður) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (starfstölunúmer)                                                 | POSITIONID(POSITIONID)                      |
 | cdm_parentjobpositionid.cdmjobpositionnumber   (cdm_parentjobpositionid.cdmjobpositionnumber) | PARENTPOSITIONID (PARENTPOSITIONID)         |
@@ -172,7 +174,7 @@ Sniðmátið notar eftirfarandi undirliggandi verk til að samstilla skrár úr 
 
 
 ### <a name="workers-to-worker"></a>Starfskraftar til starfskrafts
-| Common Data Service eining (uppruni)           | Finance eining (áfangastaður)       |
+| Dataverse tafla (uppruni)           | Finance eining (áfangastaður)       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate   (cdm_birthdate)               | BIRTHDATE   (BIRTHDATE)                           |
 | cdm_gender   (cdm_gender)                     | GENDER (GENDER)                                   |
@@ -191,7 +193,7 @@ Sniðmátið notar eftirfarandi undirliggandi verk til að samstilla skrár úr 
 
 ### <a name="employments-to-employment"></a>Atvinna til atvinnu
 
-| Common Data Service eining (uppruni)                             | Finance eining (áfangastaður) |
+| Dataverse tafla (uppruni)                             | Finance eining (áfangastaður) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE) |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)     |
@@ -201,7 +203,7 @@ Sniðmátið notar eftirfarandi undirliggandi verk til að samstilla skrár úr 
 
 ### <a name="employments-to-employment-detail"></a>Upplýsingar atvinnu til atvinnu
 
-| Common Data Service eining (uppruni)                             | Finance eining (áfangastaður)   |
+| Dataverse tafla (uppruni)                             | Finance eining (áfangastaður)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE)   |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)       |
@@ -219,7 +221,7 @@ Sniðmátið notar eftirfarandi undirliggandi verk til að samstilla skrár úr 
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>Stöðuúthlutun starfskrafts á stöðuúthlutanir starfskrafta
 
-| Common Data Service eining (uppruni)                             | Finance eining (áfangastaður)   |
+| Dataverse tafla (uppruni)                             | Finance eining (áfangastaður)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_jobpositionnumber   (starfstölunúmer)                   | POSITIONID(POSITIONID)                        |
@@ -228,7 +230,7 @@ Sniðmátið notar eftirfarandi undirliggandi verk til að samstilla skrár úr 
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>Heimilisföng starfsmanns til póstfangs starfsmanns V2
 
-| Common Data Service eining (uppruni)                             | Finance eining (áfangastaður)   |
+| Dataverse tafla (uppruni)                             | Finance eining (áfangastaður)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSLOCATIONROLES   (ADDRESSLOCATIONROLES) |
@@ -248,10 +250,12 @@ Samþætting úr Human Resources til Finance reynir að samsvara gögnum sem byg
 
 Þetta vandamál getur orðið með **starfskrafti**, sem notar **starfsmannanúmer** til að gera samsvörun og **stöður**. Störf nota ekki númeraraðir. Þar af leiðandi, ef sama atvinnuskilríki er til staðar bæði í Human Resources og Finance, munu upplýsingar úr Human Resources yfirskrifa Dynamics 365 Finance upplýsingar. 
 
-Til að koma í veg fyrir vandamál með afritunarauðkenni geturðu annaðhvort bætt við forskeyti á [númeraröð](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json), eða stilltu upphafsnúmer á númeraröðina sem er umfram svið hins kerfisins. 
+Til að koma í veg fyrir vandamál með afritunarauðkenni geturðu annaðhvort bætt við forskeyti á [númeraröð](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json), eða stilltu upphafsnúmer á númeraröðina sem er umfram svið hins kerfisins. 
 
 Staðarauðkenni sem notað er fyrir heimilisfang starfsmanns er ekki hluti af númeraröð. Þegar samþætt er heimilisfang starfsmanns úr Human Resources til Finance, ef heimilisfang starfsmanns er þegar til í Finance, getur verið búið til afrit heimilisfang. 
 
 Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþáttara. 
 
-![Vörpun sniðmáts](./media/IntegrationMapping.png)
+![Vörpun sniðmáts.](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

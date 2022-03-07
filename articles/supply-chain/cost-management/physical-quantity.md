@@ -2,11 +2,9 @@
 title: Gildi birgðahlutar
 description: Þessi grein veitir upplýsingar um hvernig gildi birgðahlutar eru reiknuð.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19111
 ms.assetid: 56a7c8ba-bf4a-4b1d-918d-56bb96926c4f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 914c7e8c757664ec791b46924600b74c9c979e8f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 6564df5bd9c768f647138714875c60ddd6df3c85
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967434"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568952"
 ---
 # <a name="inventory-object-values"></a>Gildi birgðahlutar
 
@@ -46,7 +44,7 @@ Sem eftirfarandi dæmi sýnir hvernig gildi birgðahlutar og kostnaðarhlutar er
 
 Eftirfarandi tafla sýnir niðurstöður útreiknings fyrir kostnaðarhlut. Hægt er að skoða niðurstöður á síðunni **Kostnaðarhlutur**.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="14%" />
 <col width="14%" />
@@ -82,7 +80,7 @@ Eftirfarandi tafla sýnir niðurstöður útreiknings fyrir kostnaðarhlut. Hæg
 
 Eftirfarandi tafla sýnir niðurstöður útreiknings fyrir birgðahlut. Hægt er að skoða niðurstöðurnar með því að smella á **Efnislegt magn** á síðunni **Kostnaðarhlutur**.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="11%" />
 <col width="11%" />
@@ -135,14 +133,16 @@ Eftirfarandi tafla sýnir niðurstöður útreiknings fyrir birgðahlut. Hægt e
 
 
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Kostnaðarhlutir](cost-object.md)
 
 [Kostnaðarfærslur](cost-entries.md)
 
-[Nýjungar og breytingar](../../fin-and-ops/get-started/whats-new-changed.md)
+[Nýjungar og breytingar](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

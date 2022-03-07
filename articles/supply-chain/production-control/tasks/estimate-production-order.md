@@ -2,26 +2,23 @@
 title: Áætla framleiðslupöntun
 description: Hægt er að keyra þetta ferli fyrir sýnifyrirtækið USMF eða eigin gögnum.
 author: johanhoffmann
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5bbb541a09809c1f1bfada42094d840a2f6e7764
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 0450186382b6c306910fc6653f67ce313b7cfc2c69a134a9a806d1a232dc0fd2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430031"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765419"
 ---
 # <a name="estimate-a-production-order"></a>Áætla framleiðslupöntun
 
@@ -42,3 +39,6 @@ Hægt er að keyra þetta ferli fyrir sýnifyrirtækið USMF eða eigin gögnum.
 1. Á Aðgerðasvæðinu skal smella á Stjórna kostnaði.
 2. Smellt er á Skoða útreikningsupplýsingar.
     * Þessi síða sýnir sundurliðun kostnaðar. Til dæmis er hægt að skoða samtals kostnaðarverð á einingu fyrir endanlegu vöruna í fyrstu línunni. Síðari línurnar innihalda kostnað samkvæmt uppskrift, framleiðsluleið og óbeinum kostnaði.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

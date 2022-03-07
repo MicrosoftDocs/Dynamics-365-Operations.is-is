@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0665ce41233308c814a514fccf3b73e20de64098
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.18
+ms.openlocfilehash: cf009e32f8c137e235793d80bf8448a5f55988bd
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576689"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020436"
 ---
 # <a name="rebate-management-parameters"></a>Færibreytur fyrir stjórnun eftirágreidds afsláttar
 
@@ -27,7 +27,7 @@ ms.locfileid: "7576689"
 
 Síðan **Færibreytur fyrir stjórnun eftirágreidds afsláttar** er notuð til að skilgreina stillingar sem eiga við í einingunni **Stjórnun eftirágreidds afsláttar**. Þessar stillingar hafa áhrif á bókanir, stöðuuppfærslur, númeraraðir og annars konar hegðun. Uppsetningu þessarar síðu er deilt á meðal allra lögaðila og notendur sem eru með viðeigandi öryggisheimildir geta breytt henni.
 
-Til að opna síðuna **Færibreytur fyrir stjórnun eftirágreidds afsláttar** skal fara í **Stjórnun eftirágreidds afsláttar \> Uppsetning \> Færibreytur fyrir stjórnun eftirágreidds afsláttar**. Því næst skal stilla reitina eins og lýst er í eftirfarandi undirköflum.
+Til að opna síðuna **Færibreytur fyrir stjórnun eftirágreidds afsláttar** skal fara í **Eftirágreiddir afslættir og frádrættir \> Uppsetning \> Færibreytur fyrir stjórnun eftirágreidds afsláttar**. Því næst skal stilla reitina eins og lýst er í eftirfarandi undirköflum.
 
 ## <a name="rebate-management-tab"></a>Flipi fyrir stjórnun eftirágreidds afsláttar
 
@@ -36,12 +36,12 @@ Eftirfarandi tafla lýsir reitunum sem eru í boði í flipanum **Stjórnun efti
 | Svæði | lýsing |
 |---|---|
 | Sjálfgefin staða | Veljið sjálfgefna stöðu fyrir öll ný tilboð. Til að skilgreina safn af stöðugildum sem hægt er að velja skal nota síðuna [**Stöður eftirágreidds afsláttar**](rebate-statuses.md). |
-| Úrvinnsla eftir vídd | Veljið hvort vinna eigi úr færslum úthlutunar, eftirágreidds afsláttar og afskriftum eftir fjárhagsvídd. Þegar kveikt er á þessum valkosti notar kerfið fjárhagsvíddir úr upprunafærslunum í markfærslunum. |
+| Úrvinnsla eftir vídd | Veljið hvort vinna eigi úr færslum úthlutunar, eftirágreidds afsláttar og afskriftum eftir fjárhagsvídd. Þegar kveikt er á þessum valkosti notar kerfið fjárhagsvíddir fyrir upprunafærslurnar. |
 | Athuga hvort áður hafi verið bókað | <p>Veljið hegðun kerfis ef unnið er oftar en einu sinni úr færslum eftirágreidds afsláttar fyrir sama tímabilið:</p><ul><li>**Viðvörun** – Kerfið gerir notendum kleift að hnekkja upprunalegum færslulínum, en viðvörun er sýnd.</li><li>**Villa** – Kerfið kemur í veg fyrir að notendur geti hnekkt upprunalegum færslulínum og villuboð eru sýnd. |
 | Bókar sjálfkrafa færslubækur | Veljið hvort kerfið eigi að bóka framlagðar færslubækur sjálfkrafa. Þessar færslubækur innihalda daglegar færslubækur sem eru notaðar fyrir úthlutanir og frádrætti viðskiptavinar og einnig skattreikningabækur lánardrottins. |
 | Bóka reikninga með frjálsum texta sjálfkrafa | Veljið hvort kerfið eigi að bóka reikninga með frjálsum texta sjálfkrafa. Þessi valkostur á aðeins við um reikninga með frjálsum texta þar sem greiðslugerðin er stillt á *Skattleggja frádrátt viðskiptavinareiknings*. |
-| Tilvísun í vörupöntun eftirágreidds afsláttar | Veljið tilvísun eftirágreidds afsláttar til að nota í sölu- og innkaupapöntunum sem eru búnar til í ferli eftirágreidds afsláttar (*Ekkert*, *Tilboð fyrir stjórnun eftirágreidds afsláttar*, *Númer fyrir stjórnun eftirágreidds afsláttar*, *Færslunúmer eftirágreidds afsláttar* eða *Athugasemdir skjals*). |
-| Nota kröfuferli | <p>Stillið þennan valkost á *Já* til að nota kröfuferli. Þannig er hægt að merkja færslur sem stjórnun eftirágreidds afsláttar stofnar sem annaðhvort innheimtar eða óinnheimtar og síðan bóka aðeins innheimtar færslur.</p><p>Til dæmis eru eftirágreiddir afslættir reiknaðir fyrir færslur yfir heilan mánuð, en viðskiptavinurinn hefur skilið tvo daga eftir óinnheimta. Í þessu tilviki verða óinnheimtar færslur stofnaðar aftur næst þegar aðgerðin *Úrvinnsla* er keyrð fyrir næsta tímabil.</p><p>Ef þessi valkostur er stilltur á *Nei* eru allar kröfufærslur bókaðar.</p> |
+| Tilvísun í vörupöntun eftirágreidds afsláttar | Veljið tilvísun eftirágreidds afsláttar til að nota í sölu- og innkaupapöntunum sem eru búnar til í ferli eftirágreidds afsláttar (*Ekkert*, *Tilboð eftirágreidds afsláttar og frádrættir*, *Númer eftirágreidds afsláttar og frádrátta*, *Færslunúmer eftirágreidds afsláttar* eða *Athugasemdir skjals*). |
+| Nota kröfuferli | <p>Stillið þennan valkost á *Já* til að nota kröfuferli. Þannig er hægt að merkja færslur sem stjórnun eftirágreidds afsláttar stofnar sem annaðhvort innheimtar eða óinnheimtar og síðan bóka aðeins innheimtar færslur.</p><p>Til dæmis eru eftirágreiddir afslættir reiknaðir fyrir færslur yfir heilan mánuð, en viðskiptavinurinn hefur skilið tvo daga eftir óinnheimta. Í þessu tilviki verða óinnheimtar færslur stofnaðar aftur næst þegar aðgerðin *Úrvinnsla* er keyrð fyrir sama tímabilið.</p><p>Ef þessi valkostur er stilltur á *Nei* eru allar kröfufærslur bókaðar.</p> |
 | Hafa með pöntunargerð færslubókar | Fyrir tilboð eða tilboðslínur þar sem færslugerðin er stillt á *Pöntun* stýrir þessi valkostur því hvort sölupöntun af gerðinni *Færslubók* eigi að vera með. Það eykur sveigjanleika ef þessar gerðir pantana eru notaðir í aðstæðum þar sem ekki á að nota eftirágreiddan afslátt. |
 
 ## <a name="number-sequences-tab"></a>Flipinn Númeraraðir
@@ -50,8 +50,8 @@ Notið flipann **Númeraraðir** á síðunni **Færibreytur fyrir stjórnun eft
 
 | Tilvísun | lýsing |
 |---|---|
-| Tilboð fyrir stjórnun eftirágreidds afsláttar | Númeraröðin úthlutar hverju tilboð eftirágreidds afsláttar gildi einkvæms lykils. Þessi lykill er notaður þegar tilboð eru búin til. |
-| Númer fyrir stjórnun eftirágreidds afsláttar | Númeraröðin úthlutar hverjum eftirágreiddum afslætti einkvæmu gildi lykils. Þessi lykill er notaður til að auðkenna vensl eftirágreidds afsláttar. |
+| Tilboð eftirágreidds afsláttar og frádrátta | Númeraröðin úthlutar hverju tilboð eftirágreidds afsláttar gildi einkvæms lykils. Þessi lykill er notaður þegar tilboð eru búin til. |
+| Númer eftirágreidds afsláttar og frádrátta | Númeraröðin úthlutar hverjum eftirágreiddum afslætti einkvæmu gildi lykils. Þessi lykill er notaður til að auðkenna vensl eftirágreidds afsláttar. |
 | Færslunúmer eftirágreidds afsláttar | Númeraröðin úthlutar hverri færslu eftirágreidds afsláttar einkvæmu gildi lykils. Þessi lykill er notaður til að auðkenna færslur eftirágreidds afsláttar. |
 | Skattareikningur | Númeraröðin úthlutar hverjum reikningi eftirágreidds afsláttar einkvæmu gildi lykils. Þessi lykill er notaður þegar færslubækur fyrir eftirágreiddan afslátt eru bókaðar sjálfkrafa. |
 

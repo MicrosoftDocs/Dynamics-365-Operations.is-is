@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 9255b7d2eaf030592207b557b3b6567a1a5bda98
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 513d74af52c9b3581827b653d58c95d7d1f2f78a75bea03296495fed0ea85de7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102864"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771132"
 ---
 # <a name="change-work-pool-on-work"></a>Breyta vinnuhópi á vinnu
 
@@ -28,9 +28,12 @@ Hægt er að nota vinnuhópa til að skipuleggja vinnu í flokka. Til dæmis er 
 
 Eiginleikinn *Breyta vinnuhópi á vinnu* bætir hnappnum **Breyta vinnuhópi** við aðgerðasvæðið fyrir vinnuliði. Stjórnendur vöruhúss geta þar af leiðandi auðveldlega breytt vinnuhópi fyrirliggjandi vinnu. Þessi eiginleiki gerir stjórnendum kleift að bregðast hratt við breytingum í vinnusal vöruhúss og hann eykur getu þeirra til að aðlagast breyttum aðstæðum og þörfinni til að flytja vinnu á annan vinnuhóp.
 
-## <a name="turn-the-change-work-pool-on-work-feature-on-or-off"></a>Kveiktu eða slökktu á Breyta vinnulaug á vinnu eiginleikanum
+## <a name="turn-on-the-change-work-pool-on-work-feature"></a>Kveikja á eiginleikanum „Breyta vinnuhópi á vinnu“
 
-Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Breyta vinnulaug á vinnu* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Áður en hafist er handa við að setja upp eða nota þennan eiginleika þarf að ganga úr skugga um að hann sé í boði í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+
+- **Eining:** *Vöruhúsakerfi*
+- **Heiti eiginleika:** *Breyta vinnuhópi á vinnu*
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>Setja upp eiginleikann „Breyta vinnuhópi á vinnu“
 

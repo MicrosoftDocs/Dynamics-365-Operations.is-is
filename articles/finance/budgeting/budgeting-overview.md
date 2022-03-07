@@ -1,28 +1,28 @@
 ---
 title: Fjárhagsáætlun – heimasíða
 description: Í þessu efnisatriði er að finna yfirlit yfir virkniþætti fjárhagsáætlana, verkfæri fjárhagsáætlana og skýrslugerðarvirkni í Microsoft Dynamics 365 Finance.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 08/09/2017
-ms.topic: index-page
+author: panolte
+ms.date: 04/29/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 106043
+ms.custom:
+- "106043"
+- intro-internal
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
-ms.author: roschlom
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af006a94d29781473c164d108fb48ca7d00d169d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 6ad0d055702a3801bf9fe9ac3159eba7c297b6f0
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962911"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983953"
 ---
 # <a name="budgeting-home-page"></a>Fjárhagsáætlun – heimasíða
 
@@ -30,12 +30,11 @@ ms.locfileid: "4962911"
 
 Í þessu efnisatriði er að finna yfirlit yfir virkniþætti fjárhagsáætlana, verkfæri fjárhagsáætlana og skýrslugerðarvirkni. 
 
-<a name="components-of-budgeting-functionality"></a>Virkniþættir fjárhagsáætlunargerðar
--------------------------------------
+## <a name="components-of-budgeting-functionality"></a>Virkniþættir fjárhagsáætlunargerðar
 
 Áætlanaferli tilfanga fyrir fyrirtæki samanstendur yfirleitt af áætlun, fjárhagsáætlun og spárverkþáttum.
 
-[![Íhlutir fyrir fjárhagsáætlun](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Virkniþættir fjárhagsáætlana.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 Ferli fyrir bæði langtímaáætlanagerð og árlega fjárhagsáætlunargerð eru studd gegnum skjal fjárhagsáætlunargerðar. Fjárhagsáætlunarskjöl eru vel samþætt við Microsoft Excel. Notendur geta skilgreint ótakmarkaðar peningalegar og magnbundnar aðstæður og geta einnig skilgreint stigveldi fyrirtækis fjárhagsáætlunar til að styðja bæði fjárhagsáætlunaraðferðir að ofan og niður eða að neðan og upp. Þegar fjárhagsáætlun hefur verið búin til og samþykkt í forritinu er henni breytt yfir í færslu í fjárhagsáætlunarskrá. Færslur í fjárhagsáætlunarskrá veita verkfæri til að viðhalda fjárhagsáætluninni og til að halda upphæðum rekjanlegum gegnum fjárhagsáætlunarkóða. Færslur í fjárhagsáætlunarskrá gera kleift að endurskoða upphaflegar fjárhagsáætlanir og yfirfæra upphæðir fjárhagsáætlunar frá fyrra ári. Samkvæmt gerðri fjárhagsáætlun getur fyrirtæki virkjað fjárhagsáætlunarstýringu. Stig stýringar fer eftir fyrirtækjamenningu og aldri fyrirtækisins. Nýlegri fyrirtæki gætu látið áætlunina vera „eins og hún er“ og sýnt frekar viðbrögð en gagnvirkni þegar áætlun uppfyllir ekki væntingar. Önnur fyrirtæki gætu virkjað reglur fjárhagsáætlunarstýringar sem koma í veg fyrir að notendur kaupi inn ef fjármagn fjárhagsáætlunar er ekki tiltækt.
 
@@ -49,7 +48,7 @@ Að lokum gætu eldri fyrirtæki komið á fót fyrirtækjamenningu þar sem sta
 -   [Sniðmát fjárhagsáætlunargerðar fyrir Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Fjárhagsáætlunarverkfæri
-[![Fjárhagsáætlunarverkfæri](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Fjárhagsáætlunarverkfæri.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
 Hægt er að fá frekari eiginleika fyrir skipulagningu og fjárhagsáætlunargerð sem eru samþættir við fjárhagsáætlanir.
 
@@ -70,3 +69,6 @@ Til dæmis er hægt að skilgreina hver gerir fjárhagsáætlun, hvað er áætl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

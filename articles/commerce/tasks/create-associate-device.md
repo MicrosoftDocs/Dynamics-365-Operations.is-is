@@ -2,11 +2,9 @@
 title: Búa til og tengja tæki
 description: Þetta ferli fer í gegnum hvernig á að stofna nýja tækið og tengja hana við afgreiðslukassa.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailDevice
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17660c8e3e35290c1c959b4f33818590dd15b822
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 6a1e399fd48ce2303702845d8ceb237032d090f42483daf97c3f5578315929a9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964974"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743384"
 ---
 # <a name="create-and-associate-a-device"></a>Búa til og tengja tæki
 
@@ -40,3 +38,6 @@ ms.locfileid: "4964974"
 9. Í listanum skal smella á tengilinn í valinni línu.
 10. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

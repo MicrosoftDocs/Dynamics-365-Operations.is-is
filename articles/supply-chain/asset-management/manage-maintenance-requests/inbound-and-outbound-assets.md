@@ -1,12 +1,10 @@
 ---
 title: Eignir á innleið og útleið
 description: Þetta efni útskýrir hvernig á að eignir á innleið og útleið í eignastýringu.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetOutboundObjectsListPage, EntAssetOutboundObjectsDeliver, EntAssetInboundObjectsListPage, EntAssetInboundObjectsRecieve
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e6dfadf6824c6a3df7be9b3b6f3d9f5dd2749e34
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 0bd3127df1b583acc6841c3e115d3beceabcab2756098e567b2269c1dcc94004
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018072"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759624"
 ---
 # <a name="inbound-and-outbound-assets"></a>Eignir á innleið og útleið
 
@@ -44,7 +42,7 @@ Uppsetning eignastýringar ákvarðar hvort þú getur unnið eignir á innleið
 3. Veldu **Uppfæra stöðu viðhaldsbeiðni**.
 4. Veldu **Á innleið** (eða aðra líftímastöðu sem þú hefur búið til fyrir eignir á innleið) og veldu síðan **Í lagi**.
 
-![Skráðu eignir sem á innleið](media/07-manage-maintenance-requests.png)
+![Skrá eignir sem á innleið.](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>Skrá eignir á innleið sem mótteknar
 
@@ -53,7 +51,7 @@ Uppsetning eignastýringar ákvarðar hvort þú getur unnið eignir á innleið
 3. Veldu **Taka á móti eignum**.
 4. Í reitnum **Móttekið** skaltu slá inn dagsetningu og tíma. Veljið síðan **Í lagi**. Gögnin eru tekin af listasíðunni **Eignir á innleið**.
 
-![Skrá eignir á innleið sem mótteknar](media/08-manage-maintenance-requests.png)
+![Skrá eignir á innleið sem mótteknar.](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>Skráðu eignir sem á útleið
 
@@ -70,3 +68,6 @@ Uppsetning eignastýringar ákvarðar hvort þú getur unnið eignir á innleið
 2. Veljið eignina eða viðhaldsbeiðnina.
 3. Veldu **Skila eignum**.
 4. Í reitnum **Afhent** skaltu slá inn dagsetningu og tíma. Veljið síðan **Í lagi**. Gögnin eru tekin af listasíðunni **Eignir á útleið**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,13 @@
 title: Staðfesta greiðsluáætlanir eignarleigu í runu
 description: Þetta efnisatriði útskýrir hvernig á að staðfesta margar greiðsluáætlanir í runu.
 author: moaamer
-ms.date: 04/12/2021
+manager: Ann Beebe
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLeasePaymConfirmationDetails
+ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 82e985d3b1518a287fbf0916ab3afc71d4bd6466f93992b587942053af44cf59
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9c680ea16e9f64107fde081c7e7763697356dcc1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767081"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971379"
 ---
 # <a name="confirm-asset-leasing-payment-schedules-in-a-batch"></a>Staðfesta greiðsluáætlanir eignarleigu í runu
 
@@ -39,6 +41,3 @@ Til að staðfesta margar greiðsluáætlanir skal fylgja þessum skrefum.
     - Til að staðfesta allar bækur skal kveikja á færibreytunni **Fyrir allar bækur**.
 
 Upplýsingar fyrir nýstaðfestar bækur eru sýndar á síðunni **Staðfestar bækur**. Eftir að greiðsluáætlanir eru staðfestar er hægt að bóka upphaflegar færslur í færslubók gegn leigusamningunum.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

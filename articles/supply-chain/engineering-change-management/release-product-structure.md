@@ -2,11 +2,9 @@
 title: Skipulag afurðarlosunar
 description: Þetta efnisatriði útskýrir hvernig hægt er að losa heildarskipulag afurðar ásamt því að losa afurðir með hönnunarútgáfum þeirra. Á þennan hátt er tryggt að auðvelt sé að endurnota afurðargögn sem tengjast hönnun í mismunandi lögaðilum.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductReleaseSiteBulkEdit, EngChgProductReleaseSendListPage, EngChgProductReleaseSendDetails,EngChgProductReleaseSelection,EngChgProductReleaseReceiveListPage, EngChgProductReleaseReceiveDetails, EngChgProductReleasePreviewPane, EngChgProductReleasePolicy, EngChgProductReleasePart, EngChgProductReleaseNote
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 4dc1b073350044ef8afb765470ed14da88a70fdd
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967232"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567488"
 ---
 # <a name="release-product-structures"></a>Skipulag afurðarlosunar
 
@@ -77,8 +75,6 @@ Fyrir dæmi um hvernig á að samþykkja afurð skal skoða [Yfirfara og samþyk
 
 Ekki þurfa öll rekstrarfyrirtæki sömu afurðargögnin. Almennt, rekstrarfyrirtæki sem framleiða hönnunarafurðir þurfa á uppskrift að halda, á meðan rekstrarfyrirtæki sem selja aðeins hönnunarafurðir þurfa ekki uppskrift. Hægt er að gefa út reglur til að setja á færibreyturnar sem eru notaðar fyrir losun á afurðum.
 
-Fyrir hönnunarafurðir er losunarreglunni úthlutað á flokk hönnunarafurðar og reiturinn er áskilinn. Fyrir staðlaðar afurðir er reglunni úthlutað á samnýtta afurðina og svæðið er valfrjálst.
-
 Frekari upplýsingar um flokka hönnunarafurða er að finna í [Hönnunarútgáfur og flokkar hönnunarafurðar](engineering-versions-product-category.md).
 
 Í útgáfuferlinu er hægt að hafa áhrif á stillingar.
@@ -107,6 +103,7 @@ Stillið eftirfarandi reiti á flipanum **Almennt** fyrir reglu afurðarlosunar.
 | Svæði | lýsing |
 |---|---|
 | Gerð afurðar | Veljið hvort reglan eigi við um afurðir af gerðinni *Vara* eða *Þjónusta*. Ekki er hægt að breyta þessari stillingu eftir að búið er að vista færsluna. |
+| Gerð framleiðslu | Þetta svæði birtist aðeins þegar þú hefur virkjað [breytingastjórnun formúlu](manage-formula-changes.md) í kerfinu. Veldu þá gerð framleiðslu sem þessi útgáfustefna gildir um:<ul><li>**Aukaafurð** – Notaðu þessa útgáfustefnu til að hafa umsjón með aukaafurðum. Aukaafurðir eru framleiddar í framleiðsluferli og eru ekki útgáfur eða hönnunarafurðir. Losunarreglur fyrir aukaafurðir geta tryggt að mikilvægar stillingar á borð við **Geymsluvíddaflokk** og **Rakningarvíddaflokk** séu uppsettar með því að nota sniðmát útgefinnar afurðar áður en þær eru losaðar í fyrirtæki.</li><li>**Hliðarafurð** – Notaðu þessa útgáfustefnu til að hafa umsjón með hliðarafurðum. Hliðarafurðir eru framleiddar í framleiðsluferli og eru ekki útgáfur eða hönnunarafurðir. Losunarreglur fyrir hliðarafurðir geta tryggt að mikilvægar stillingar á borð við **Geymsluvíddaflokk** og **Rakningarvíddaflokk** séu uppsettar með því að nota sniðmát útgefinnar afurðar áður en þær eru losaðar í fyrirtæki.</li><li>**Ekkert** – Notaðu þessa reglu til að hafa umsjón með stöðluðum afurðum sem fá hvorki sérstaka útgáfu né eru hönnunarafurðir og eru heldur ekki aukaafurðir eða hliðarafurðir.</li><li>**Áætlunarvara** – Notaðu þessa losunarreglu til að hafa umsjón með vörum áætlanagerðar sem eru framleiddar með því að nota framleiðsluferli. Áætlunarvörur nota formúlur. Þau líkjast formúluatriðum en eru eingöngu notuð til að framleiða aukaafurðir og hliðarafurðir, ekki lokaafurðir.</li><li>**Uppskrift** – Notaðu þessa losunarreglu til að hafa umsjón með hönnunarafurðum sem nota ekki formúlur og innihalda yfirleitt (en ekki endilega) uppskriftir.</li><li>**Formúla** – Notaðu þessa losunarreglu til að hafa umsjón með tilbúnum vörum sem eru framleiddar með því að nota framleiðsluferli. Þessir hlutir verða með formúlu en ekki uppskrift.</li></ul> |
 | Nota sniðmát | Velja skal einn eftirfarandi valkosta til að tilgreina hvort og hvernig eigin að nota sniðmát fyrir afurðarlosun þegar reglan er notuð:<ul><li>**Alltaf** – Alltaf verður að nota sniðmát losaðrar afurðar fyrir losanir. Ef þessi valkostur er valinn skal nota flýtiflipann **Allar afurðir** til að tilgreina sniðmátið sem er notað fyrir hvert fyrirtæki sem losað er til. Ef sniðmát er ekki tilgreint fyrir hvert fyrirtæki sem er sýnt í flýtiflipanum **Allar afurðir**, færðu villu þegar reynt er að vista regluna.</li><li>**Valfrjálst** - Ef sniðmát losaðrar afurðar er tilgreint fyrir fyrirtæki sem er sýnt í flýtiflipanum **Allar afurðir** verður það sniðmát notað þegar losað er í það fyrirtæki. Annars verður ekkert sniðmát notað. Ef þessi valkostur er valinn er hægt að vista regluna án þess að úthluta sniðmátum á öll fyrirtæki. (Engin viðvörun birtist.)</li><li>**Aldrei** – Ekkert sniðmát losaðrar afurðar verður notað fyrir nein fyrirtæki sem losað er til, jafnvel þótt sniðmát er tilgreint fyrir fyrirtæki sem eru sýnd í flýtiflipanum **Allar afurðir**. Dálkar sniðmáts verða ekki tiltækir.</li></ul> |
 | Í gangi | Notið þennan valkost til að auðvelda að vinna með losunarreglurnar. Stillið hann á *Já* fyrir allar losunarreglur sem notaðar eru. Stillið þetta á *Nei* til að merkja losunarreglu sem óvirka þegar hún er ekki notuð. Athugið að ekki er hægt að gera losunarreglu óvirka sem er úthlutað á flokk hönnunarafurðar, og aðeins er hægt að eyða óvirkum undirbúningsreglum. |
 
@@ -159,3 +156,6 @@ Vegna þess að eigendur afurða vita hvaða lögaðilar þurfa afurðirnar, er 
 Til dæmis er afurð X úthlutað á afurðareigendahópinn *Hanna skápa*. Afurð X er einnig hluti af uppskrift afurðar Y, sem er úthlutað á afurðareigendahópinn *Hanna hátalara*. Ef notandi úr afurðareigendahópnum *Hanna hátalara* losar afurð Y og uppskrift hennar, verður afurð X losuð saman um leið og afurð Y.
 
 Frekari upplýsingar er að finna í [Eigendur afurða](product-owner.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,17 +1,14 @@
 ---
 title: Leiðsagnarforrit fyrir uppsetningu áætlanagerðar
-description: Þetta efni lýsir ýmsum mikilvægum áætlunum og breytum sem eru notaðar til að setja upp aðaláætlanagerð.
-author: t-benebo
-manager: tfehr
+description: Í þessu efnisatriði er því lýst hvernig á að keyra leiðsagnarforrit fyrir uppsetningu aðaláætlanagerðar til að setja upp aðaláætlanagerð.
+author: ChristianRytt
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: b38009cbfdd5444c6643c5c0159a1aa475aaa3ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b825858653599e8474a6fbd54b682c4fa0118053
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430463"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577505"
 ---
 # <a name="master-planning-setup-wizard"></a>Leiðsagnarforrit fyrir uppsetningu áætlanagerðar
 
@@ -48,13 +45,13 @@ ms.locfileid: "4430463"
 
 Ef fjöldi þráða sem reiknaður er yfir 75 prósent af fyrirliggjandi fjölda þráða er það hámarkað 75 prósent af fjölda þráða sem er í boði fyrir hvern viðskiptavin. (Fjöldi fyrirliggjandi þráða verður ákvarðaður fyrir hvern viðskiptavin.)
 
-Nánari upplýsingar er að finna í [Fjöldi þráða](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
+Nánari upplýsingar er að finna í [Fjöldi þráða](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
 
 ### <a name="bundle-size"></a>Búntastærð
 
 Stærð búntsins verður stillt á **1**. Þetta gildi er oft besta gildi, vegna þess að það hjálpar til við að bæta afköst aðalskipulagningar.
 
-Sjá frekari upplýsingar í [Fjöldi verka í hjálparverkbúnti](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
+Sjá frekari upplýsingar í [Fjöldi verka í hjálparverkbúnti](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
 
 ### <a name="firming-bundle-size"></a>Staðfesting búntstærðar
 
@@ -67,7 +64,7 @@ Sjá frekari upplýsingar í [Fjöldi verka í hjálparverkbúnti](https://docs.
 
 Stærð skyndiminnis verður stillt á **Hámark**. Þetta gildi er oft besta gildi, vegna þess að það hjálpar til við að bæta afköst aðalskipulagningar.
 
-Sjá frekari upplýsingar í [Úthlutun tíma á vinnslur í vinnslubúnti](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
+Sjá frekari upplýsingar í [Úthlutun tíma á vinnslur í vinnslubúnti](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
 
 ### <a name="manufacturing-setup"></a>Framleiðsluuppsetning
 
@@ -91,7 +88,7 @@ Eftirstandandi spurningar á þessari síðu og svör þeirra fylgja sama stef:
 - **Já, eins og skilgreint er í þessari aðaláætlun** - Valkosturinn **Spá áætlun (tímamörk)** verður stilltur á **Já**. Fjöldi daga sem þú slærð inn verður notaður og mun hnekkja gildunum sem eru sett í þekjuhópunum.
 - **Já, eins og skilgreint er í þekjuhópnum** - Valkosturinn **Spá áætlun (tímamörk)** verður stilltur á **Nei**.
 
-Sjá [Vinnsluröðun](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling) fyrir frekari upplýsingar um vinnsluröðun.
+Sjá [Vinnsluröðun](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling) fyrir frekari upplýsingar um vinnsluröðun.
 
 ## <a name="scheduling-options"></a>Valkostir tímaskráningar
 
@@ -102,7 +99,7 @@ Svar þitt við fyrstu spurningunni á þessari síðu ("Þarftu að skipuleggja
 - **Já** - Vinnsluröðun verður notuð.
 - **Nei** - Aðgerðaröðun verður notuð.
 
-Nánari upplýsingar er að finna í [Aðgerðaröðun](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) og [Vinnsluröðun](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Nánari upplýsingar er að finna í [Aðgerðaröðun](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) og [Vinnsluröðun](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="updates-of-demand-and-supply"></a>Uppfærslur eftirspurnar og framboðs
 
@@ -209,3 +206,6 @@ Contoso smásala er dreifingarfyrirtæki í tískuiðnaðinum. Það notar aðal
     - **Svar:** "Já, eins og skilgreint er í þessu aðalskipulagi." **1 dagur** er slegið inn.
 
     Contoso notar samþykktar kröfur frá verslunum sínum til að búa til fyrirhugaðar innkaupapantanir til að bæta við þær verslanir. Þar sem aðalskipulagning er rekin á hverjum degi, verða beiðnir frá síðasta degi með í skipulagningu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

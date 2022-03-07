@@ -2,33 +2,35 @@
 title: Setja upp reglur lánardrottnareikninga
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp reikningsreglur lánardrottins.
 author: ShivamPandey-msft
-ms.date: 02/11/2022
+manager: AnnBe
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
-ms.translationtype: MT
+ms.openlocfilehash: 79cbabba74fdb76d8fcc0553d39e0f140aacf03e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109757"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995453"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Setja upp reglur lánardrottnareikninga
 
 [!include [banner](../../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að setja upp reikningsreglur lánardrottins. Reikningsreglur lánardrottins eru keyrðar þegar þú bókar reikning lánardrottins með því að nota **Reikningur seljanda** síðu og þegar þú opnar reikning lánardrottins **Brot á stefnu** síðu. Einnig er hægt að skilgreina verkflæði fyrir reikning lánardrottins til að keyra reikningsreglur lánardrottins í hvert skipti sem er sendur er reikning til verkflæðis. 
+Í þessu efnisatriði er útskýrt hvernig á að setja upp reikningsreglur lánardrottins. Reikningsreglur lánardrottins eru keyrðar þegar reikningur lánardrottins er bókaður með því að nota síðuna fyrir reikning Lánardrottins og þegar síðan fyrir brot á reikningsreglum lánardrottins er opnuð. Einnig er hægt að skilgreina verkflæði fyrir reikning lánardrottins til að keyra reikningsreglur lánardrottins í hvert skipti sem er sendur er reikning til verkflæðis. 
 
 - Reikningsreglur lánardrottins eiga ekki við reikninga sem voru stofnaðar í komubók eða reikningabók.  
-- Samsvörun reikninga notar ekki reikningsreglur lánardrottins, en er þess í stað sett upp í **Færibreytur viðskiptaskulda** síðu.  
-- Þessi skráning notar sýnigögn USMF fyrirtækis hlutverk viðskiptaskuldastjóri eða aðalbókari myndi framkvæma þessi skrefum. Áður en þú byrjar skaltu ganga úr skugga um að **Samsvörun reikninga** stillingarlykill er valinn.
+- Sannprófun á reikningsjöfnun notar ekki reikningsreglur lánardrottins, en er í staðinn sett upp á síðunni færibreytur viðskiptaskulda.  
+- Þessi skráning notar sýnigögn USMF fyrirtækis hlutverk viðskiptaskuldastjóri eða aðalbókari myndi framkvæma þessi skrefum. Áður en hafist er handa þarf að ganga úr skugga um að skilgreiningarlykill reikningsjöfnunar sé valinn.
 
 
 ## <a name="prepare-to-create-vendor-invoice-policies"></a>Undirbúa stofnun stefna um reikninga lánardrottins
@@ -70,6 +72,3 @@ ms.locfileid: "8109757"
 16. Veljið **Í lagi**.
 17. Lokið síðunum til að fara aftur á heimasíðuna.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

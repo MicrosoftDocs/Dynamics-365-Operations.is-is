@@ -2,28 +2,25 @@
 title: Afskrift lækkandi stöðu eftir skipti
 description: Þetta efnisatriði lýsir aðferðinni sem er notuð í eignum til að reikna afskriftir eftir skiptingu eignar með því að minnka bókfært virði.
 author: moaamer
-manager: Ann Beebe
 ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 615d17c71b904d426081d4c57492ba7e95c2c749
-ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
-ms.translationtype: HT
+ms.openlocfilehash: 8e59ff1ef2b06a7203c1023bade7f06019479f3929dfbd582860f102c46b49f0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4650667"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737702"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Afskrift lækkandi stöðu eftir skipti
 
@@ -40,8 +37,11 @@ Eftirfarandi skilyrði eru til dæmis í gildi:
 - Afskrift fyrsta fjárhagsárs jafngildir $18.000, mánaðarleg afskrift samsvarar $150 og eignin er síðan afskrifuð fram í nóvember 2019 að upphæð $738,75.
 - Í nóvember 2019 er 80 prósentum af eigninni skipt í aðra eign.
 
-[![Afskrift lækkandi stöðu eftir skipti](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Afskrift lækkandi stöðu eftir skipti.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 Upphæðin til afskriftar fyrir upprunalegu eignina er $1.822,25. Þessi upphæð samsvarar BNV áður en skipt færsla er bókuð ($9111,25), auk kaupleiðréttingar sem er mynduð við bókun á skiptifærslunni (-$8000), auk afskriftarleiðréttingarinnar sem er mynduð við skiptifærsluna ($711). Þess vegna er afskriftin fyrir annað ár (1.822,25 × 18 prósent) ÷ 12 = $27,33.
 
 Upphæðin til afskriftar fyrir nýju eignina á fyrsta árinu er (8.000 × 18 prósent) ÷ 12 = $120.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,35 +2,33 @@
 title: Uppsetning námskeiða
 description: Mannauðsstjórar og stjórnendur geta notað eiginleika námskeiðsaðgerða til að viðhalda upplýsingum um þjálfun sem er í boði fyrir starfsmenn.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 253f0d07679b6327a0ed1e3cc20ede66249750b8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 818d96b14e32716e95b57391df5a90f7d32c4bb0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419090"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190233"
 ---
 # <a name="set-up-training-courses"></a>Uppsetning námskeiða
 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
 Mannauðsstjórar og stjórnendur geta notað eiginleika námskeiðsaðgerða til að viðhalda upplýsingum um þjálfun sem er í boði fyrir starfsmenn.
 
- <a name="set-up-prerequisites"></a>Uppsetningarforkröfur
----------------------
+##  <a name="set-up-prerequisites"></a>Uppsetningarforkröfur
 
 Eftirfarandi upplýsingar þarf og setja verður upp áður en hægt er að stofna námskeið.
 -   **Námskeiðsgerðir**
@@ -128,8 +126,7 @@ Fyrir hvern tilgang er hægt að ljúka eftir farandi verkum.
 ## <a name="course-participants"></a>Þátttakendur á námskeiði
 Þátttakendur á námskeiði eru starfsmenn sem taka þátt í þjálfunarnámskeiði eða atburði. Aðeins er hægt að skrá þátttakendur í opin námskeið. Lágmarks og hámarksfjöldi þátttakenda sem hægt er að skrá á námskeið er skilgreindur á flýtiflipanum **Almennt** í skjámyndinni **Námskeið**.
 
-<a name="workflow"></a>Verkflæði
---------
+## <a name="workflow"></a>Verkflæði
 
 Starfsmenn sem skrá sig á námskeið gegnum í **Starfsmanns sjálfsafgreiðsla** síðu geta verið með skráningu beint í gegnum verkflæði fyrir samþykki. Þú getur úthlutað verkflæði fyrir námskeið í flýtiflipanum **Almennt** á síðunni **Námskeið**.
 
@@ -137,3 +134,6 @@ Starfsmenn sem skrá sig á námskeið gegnum í **Starfsmanns sjálfsafgreiðsl
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

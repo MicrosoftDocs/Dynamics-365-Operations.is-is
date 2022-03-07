@@ -1,37 +1,31 @@
 ---
-title: Yfirlit höfundarsíðu
+title: Síðuyfirlit höfunda
 description: Þetta efnisatriði veitir yfirlit yfir höfundarsíðuna í Microsoft Dynamics 365 Commerce.
 author: brendans
-manager: annbe
 ms.date: 10/31/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 95908c3a8b6c5231f2f5b283fa05f07c4e91b5d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413138"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984622"
 ---
-# <a name="authoring-page-overview"></a>Yfirlit höfundarsíðu
+# <a name="authoring-page-overview"></a>Síðuyfirlit höfunda
 
   
  [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði veitir yfirlit yfir höfundarsíðuna í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Hægt er að búa til vefsíður til að styðja við ýmsar þarfir fyrirtækja. Þær geta táknað heilt fyrirtæki, boðið upp á staka viðskiptarás eða miðað við ákveðinn markhóp eða hluta markhóps. Sem dæmi má nefna að fataframleiðandi gæti verið með vefsíðu sem sýnir öll vörumerkin sem hann á. Sami fataframleiðandi gæti þá haft sérstaka vefsíðu fyrir hvert af þessum vörumerkjum, og einnig sett af vefsíðum sem eru með lúxustísku, útitíska og barnatíska.
 
@@ -45,7 +39,7 @@ Sem stendur samanstendur höfundarsíðan af eftirfarandi hlutum.
 
 Eftirfarandi skýringarmynd sýnir höfundarsíðuna.
 
-![Dynamics 365 Commerce höfundarsíðan](../commerce/media/authoring_tools_01.png)
+![Dynamics 365 Commerce höfundarsíðan.](../commerce/media/authoring_tools_01.png)
 
 ## <a name="use-the-home-button-to-select-a-tool"></a>Nota skal hnappinn Heim til að velja verkfæri
 
@@ -122,3 +116,6 @@ Eftir að höfundatólið hefur verið hlaðið geturðu valið **Heim** til að
 [Hugsanleg leitarvélabestun (SEO) fyrir vefsvæðið þitt](search-engine-optimization-considerations.md)
 
 [Stjórna öryggisreglu fyrir efni (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

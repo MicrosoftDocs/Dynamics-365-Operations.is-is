@@ -1,37 +1,34 @@
 ---
 title: Stjórnun starfskrafta í vöruhúsi
-description: Þessi skrá lýsir hvernig nota má vöruhúsaforrit til að aðstoða við stýringu og eftirlit með vinnu sem er framkvæmd af starfsmönnum í vöruhús.
+description: Þessi skrá lýsir hvernig nota má farsímaforrit vöruhúsakerfis til að aðstoða við stýringu og eftirlit með vinnu sem er framkvæmd af starfsmönnum í vöruhúsi.
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage, WHSResetUserPassword
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 72891
 ms.assetid: feaa6f15-49d2-41f5-9b87-453463c52e4e
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2156b5de6abc3751cae1822b3825acbbd0b9a712
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.openlocfilehash: 2a3261571f7ba43a79ee42afd8cdfe9b69cb83c01de3e4b2b89d2b0aae668ea2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430650"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757519"
 ---
 # <a name="manage-warehouse-workers"></a>Stjórnun starfskrafta í vöruhúsi
 
 [!include [banner](../includes/banner.md)]
 
-Þessi skrá lýsir hvernig nota má vöruhúsaforrit til að aðstoða við stýringu og eftirlit með vinnu sem er framkvæmd af starfsmönnum í vöruhús.
+Þessi skrá lýsir hvernig nota má farsímaforrit vöruhúsakerfis til að aðstoða við stýringu og eftirlit með vinnu sem er framkvæmd af starfsmönnum í vöruhúsi.
 
-Ef verið er að nota virknina í vöruhúsastjórnun, eru allar aðgerðir starfsmanns í vöruhúsi vísað til sem *vinna*. Vinna t.d. tiltekt, flutningur, og Telja lagerbirgðir er skráð með því að nota fartæki. Áður en starfsmaður í vöruhús getur framkvæmt vinnu verður hann eða hún að vera tengdur við starfsmann í mannauði. Hver **Starfsmanns** lykill getur haft mörg vinnunotendur vöruhúss tengda. Þessir vinnunotendur getur unnið í mismunandi vöruhús og geta haft mismunandi aðgangsstig að ýmsum valmyndum fartækis. Þú getur líta á vinnunotendum vöruhúss sem margar innskráningar fyrir valinn starfsmann. Hver vinnunotanda hefur sjálfgefið vöruhús og tiltekin verkflæði eru birt af valmyndaratriðum sem eru tiltæk fyrir þann vinnunotanda. 
+Ef verið er að nota virknina í vöruhúsastjórnun, eru allar aðgerðir starfsmanns í vöruhúsi vísað til sem *vinna*. Vinna t.d. tiltekt, flutningur, og Telja lagerbirgðir er skráð með því að nota fartæki. Áður en vöruhúsastarfskraftur getur framkvæmt vinnu verður hann að vera tengdur við starfsmann í mannauði. Hver **Starfsmanns** lykill getur haft mörg vinnunotendur vöruhúss tengda. Þessir vinnunotendur getur unnið í mismunandi vöruhús og geta haft mismunandi aðgangsstig að ýmsum valmyndum fartækis. Þú getur líta á vinnunotendum vöruhúss sem margar innskráningar fyrir valinn starfsmann. Hver vinnunotanda hefur sjálfgefið vöruhús og tiltekin verkflæði eru birt af valmyndaratriðum sem eru tiltæk fyrir þann vinnunotanda. 
 
 Til að stofna nýjan vinnunotanda á **Starfsmenn** síðunni á **Almennt** flipanum, á **Vöruhús** hlutanum, er smellt á **Starfsmanns**. Tilgreina verður Notandakenni og notandanafn, sjálfgefið vöruhús og nafn fyrir valmyndinni. Þessi valmynd er hlaðið þegar notandi skráir sig inn í Fartækjagátt Vöruhúss og gerir það mögulegt að skilgreina hvaða valmyndaratriði notandi hefur aðgang að. 
 
@@ -57,3 +54,6 @@ Greining á tíma sem er notuð til að vinna vinnuliði getur hjálpað við a�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

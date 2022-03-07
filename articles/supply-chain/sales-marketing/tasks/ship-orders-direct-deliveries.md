@@ -2,11 +2,9 @@
 title: Senda pantanir sem beinar afhendingar
 description: Þetta efni sýnir hvernig á að búa til beina afhendingu fyrir sölupöntun.
 author: omulvad
-manager: tfehr
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a8f214a56c6a5013cab8233d5b2e0126deb9220
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5488ac6d29a99bcaa5ea29ea6da131858070011c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966106"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824799"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Senda pantanir sem beinar afhendingar
 
@@ -81,3 +79,6 @@ ms.locfileid: "4966106"
     - Síða Beinnar afhendingar þjónar sem vinnusvæðis sem veitir innkaupaaðila yfirlit yfir allar sölupöntunarlínur sem eiga að vera afhentar beint og gerir þær mögulegt að stofna samsvarandi innkaupapantanir. Þar að auki þeir geti skoðað opna beinar afhendingarpantanir og staðfestar pantanir á flipunum Staðfestingu og Afhending.  
     - Þegar búið er að stofna pöntun fyrir beina afhendingu er það sjálfkrafa flutt í flipann Staðfestingu. Hægt er að velja að staðfesta pöntunina beint úr þessari síðu. Þegar innkaupin er að staðfesta það sjálfkrafa færist í flipanum Afhendingar, þar sem hægt er að skrá móttöku hans.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

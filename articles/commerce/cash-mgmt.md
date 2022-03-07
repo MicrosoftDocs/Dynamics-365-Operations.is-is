@@ -2,15 +2,12 @@
 title: Endurbætur á reiðufjárstjórnun
 description: Þetta efnisatriði útskýrir endurbætur á reiðufjárstjórnun á sölustað fyrir Dynamics 365 Commerce.
 author: anpurush
-manager: AnnBe
 ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: f878f39e8e9913edbe1da192e199090139a88adb6b7ed9a1e9b779c5748171b5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413124"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735655"
 ---
 # <a name="cash-management-improvements"></a>Endurbætur á reiðufjárstjórnun
 
@@ -62,3 +59,6 @@ Til að setja upp nýja virkni reiðufjárstjórnunar skal fylgja þessum skrefu
 - Við afstemmingu, ef valin færsla stemmir ekki, verður notandinn að færa inn lýsingu á því af hverju afstemmingin stemmir ekki. Notendur geta valið staka færslu og afstemmt hana með viðeigandi lýsing á ástæðu þess eftir þörfum.
 - Notendur geta haldið áfram að afstemma og óafstemma færslur þar til vaktinni er lokið. Eftir að vakt er lokað er ekki hægt að afstemma færslurnar.
 - Þegar notandi velur að loka vakt, staðfestir Commerce að engar óafstemmdar færslur reiðufjárstjórnunar séu til staðar á vaktinni. Notendur geta ekki lokað vakt ef óafstemmdar færslur eru til staðar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

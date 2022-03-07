@@ -1,29 +1,27 @@
 ---
-title: Finance and Operations fylgiskjöl hugbúnaðar
-description: Fylgiskjöl fyrir Finance and Operations forrit.
-author: robinarh
-manager: AnnBe
-ms.date: 07/25/2019
+title: Fylgiskjöl fyrir forritið Finance and Operations
+description: Fylgiskjöl fyrir forrit Finance and Operations.
+author: tonyafehr
+ms.date: 04/13/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: rhaertle
-ms.custom: 62303
+ms.reviewer: tfehr
+ms.custom: intro-internal
 ms.search.region: Global
-ms.author: margoc
+ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: cf2278cbf47c5fd2937e7da55c8777709ab7d356
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694386"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075398"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Finance and Operations fylgiskjöl hugbúnaðar
+# <a name="finance-and-operations-application-documentation"></a>Fylgiskjöl fyrir forritið Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
@@ -43,14 +41,14 @@ Mikið af þessu efni á einnig við um tengdar vörur: Dynamics 365 Commerce og
 <h3><a href="get-started/before-you-buy.md">Áður en þú kaupir</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Skráðu þig fyrir prufuáskrift</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Veldu innleiðingarvalkost</a></p>
- <p><a href="get-started/purchase-on-premises.md">Kaupa Finance and Operations (á staðnum)</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Kaupa Finance and Operations (on-premises)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Innleiðingarferli</a></h3>
-<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
+<p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Innleiðing verkefnis</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Undirbúningur fyrir keyrslu</a></p>
 
-<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Þjónustuuppfærslur fyrir „Ein útgáfa“</a></h3>
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Þjónustuuppfærslur fyrir One Version</a></h3>
 <p><a href="get-started/one-version.md">Algengar spurningar um uppfærslureglur fyrir „Ein útgáfa“</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Reglur um stuðningstíma hugbúnaðar: Ský</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Reglur um stuðningstíma hugbúnaðar: Innanhúss</a></p>
@@ -78,16 +76,18 @@ Mikið af þessu efni á einnig við um tengdar vörur: Dynamics 365 Commerce og
 <p><a href="../../finance/cost-accounting/cost-accounting-home-page.md">Kostnaðarbókhald</a></p>
 <p><a href="../../finance/fixed-assets/fixed-assets.md">Eignir</a></p>
 <p><a href="../../finance/general-ledger/general-ledger.md">Fjárhagur</a></p>
-<p><a href="../../finance/project-management/overview-project-management-accounting.md">Verkefnastjórnun</a></p>
+<p><a href="/dynamics365/project-operations/prod-pma/overview-project-management-accounting">Verkefnastjórnun</a></p>
 <p><a href="../../finance/public-sector/public-sector-functionality.md">Hið opinbera</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Svæðisbundnir eftirlitseiginleikar</a></p>
 
 <h3><a href="hr/hr-landing-page.md">Mannauður</a></h3>
+<p><a href="../../human-resources/hr-employee-manager-self-service-overview.md">Sjálfsafgreiðsla starfsmanns</a></p>
+<p><a href="../../human-resources/hr-personnel-departments-jobs-positions.md">Starfsmannastjórnun</a></p>
+<p><a href="../../human-resources/hr-leave-and-absence-overview.md">Leyfi og fjarvistir</a></p>
 <p><a href="../../human-resources/hr-benefits-manage-program.md">Fríðindi</a></p>
-<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Þróun og þjálfun starfsmanns</a></p>
-<p><a href="../../human-resources/hr-learning-questionnaires.md">Spurningalistar</a></p>
-<p><a href="hr/manage-recruiting-process.md">Ráðningar</a></p>
-<p><a href="hr/localizations/noam-usa-payroll.md">Bandarísk laun</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Þróun starfsmanns</a></p>
+<p><a href="../../human-resources/hr-learning-courses.md">Nám</a></p>
+ <p><a href="hr/localizations/noam-usa-payroll.md">Bandarísk laun</a></p>
 
 </td>
 <td>
@@ -128,16 +128,11 @@ Mikið af þessu efni á einnig við um tengdar vörur: Dynamics 365 Commerce og
 </td>
 <td>
 <h3>Tengdar afurðir</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
-<p><a href="../../retail/call-center-functionality.md">Símaver</p>
-<p><a href="../../retail/define-maintain-retail-channels.md">Uppsetning og stjórnun rásar</p>
-<p><a href="../../retail/retail-peripherals-overview.md">MPOS og sölukerfi í skýinu</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Þróunaraðili viðskipta og stjórnun</p>
-
-<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
-<p><a href="../../human-resources/hr-admin-overview.md">Leiðbeiningar stjórnanda</a></p>
-<p><a href="../../human-resources/hr-developer-overview.md">Leiðbeiningar þróunaraðila</a></p>
-<p><a href="../../human-resources/hr-hrpro-overview.md">Notkunarleiðbeiningar</a></p>
+<h4><a href="/dynamics365/commerce/">Dynamics 365 Commerce</a></h4>
+<p><a href="../../commerce/call-center-functionality.md">Símaver</p>
+<p><a href="../../commerce/define-maintain-retail-channels.md">Uppsetning og stjórnun rásar</p>
+<p><a href="../../commerce/retail-peripherals-overview.md">MPOS and Cloud POS</p>
+<p><a href="../../commerce/dev-itpro/dev-retail-home-page.md">Þróunaraðili viðskipta og stjórnun</p>
 
 
 </td>
@@ -145,3 +140,6 @@ Mikið af þessu efni á einnig við um tengdar vörur: Dynamics 365 Commerce og
 
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

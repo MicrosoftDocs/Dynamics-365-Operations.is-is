@@ -1,12 +1,10 @@
 ---
 title: Fartækjavinnusvæði fyrir Minn hópur
-description: Þetta efnisatriði gefur upplýsingar um fartækjavinnusvæði fyrir minn hóp sem leyfir stjórnendum að skoða beinar skýrslur þeirra og starfsfólks. Notendur geta einnig sent hrós til einstaklinga í skýrslukeðju sinni.
+description: Þetta efnisatriði gefur upplýsingar um fartækjavinnusvæði fyrir minn hóp sem leyfir stjórnendum að skoða beinar skýrslur þeirra og starfsfólks.
 author: ShielaSogge
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,14 +12,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680971"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767113"
 ---
-# <a name="my-team-mobile-workspace"></a>Fartækjavinnusvæði fyrir Minn hópur
+# <a name="my-team-mobile-workspace"></a>Fartækjavinnusvæði míns teymis
 
 [!include [banner](../includes/banner.md)]
 
@@ -80,7 +78,7 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
 3.  Í fyrsta sinn sem þú skráir þig inn, er beðið um notandanafn og aðgangsorð þitt. Færðu inn skilríki
 4.  Eftir að þú hefur skráð þig inn, birtast tiltæk vinnusvæði fyrir fyrirtækið. Athugið að ef kerfisstjóri gefur út nýtt vinnusvæði síðar, verður að endurræsa listann yfir fartækjavinnusvæði.
 
-[![Togið upp til að uppfæra](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Togið upp til að uppfæra.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>Skoða meðlimi hóps með því að nota fartækjavinnusvæðið Minn hópur
 1.  Veldu vinnusvæðið **Minn hópur** í fartækjaforritinu. Listi yfir meðlimi hóps birtist. Listinn sýnir einnig hvern titill hópmeðlims og allar beinar skýrslur sem meðlimur hefur.
@@ -97,3 +95,6 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
 1.  Veldu **Senda hrós**. 
 1. Sláðu inn texta hróssins sem þú vilt senda. 
 1. Velja **Ekkert**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

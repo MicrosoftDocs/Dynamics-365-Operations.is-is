@@ -2,7 +2,7 @@
 title: Settu upp beina samþættingu ítalska FatturaPA við SDI
 description: Þetta efni veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Ítalíu og setja upp beina samþættingu ítalska FatturaPA við Exchange kerfið (SDI).
 author: abaryshnikov
-ms.date: 01/15/2022
+ms.date: 12/14/2021
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,16 +10,18 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 73cb08c880d7b3459201acfc7aeaa8d0dee1674f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 0ccc9f04e42e748b4531622a1c90559d4ca17196
+ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984804"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922463"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Settu upp beina samþættingu ítalska FatturaPA við SDI
 
 [!include [banner](../includes/banner.md)]
+
+[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > Rafræn reikningsfærsla fyrir Ítalíu styður eins og er hugsanlega ekki allar aðgerðir sem eru í boði fyrir rafræna reikningsfærslu í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
@@ -32,7 +34,7 @@ ms.locfileid: "7984804"
 
 - Ljúktu við skrefin í [Byrjaðu með rafræna reikningagerð](e-invoicing-get-started.md).
 - Flytja inn **Ítalska FatturaPA (IT)** rafræna innheimtuaðgerð inn í RCS frá alþjóðlegu geymslunni. Fyrir frekari upplýsingar, sjá [Flytja inn rafrænan reikningseiginleika frá Microsoft stillingarveitunni](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) kafla áðurnefnds efnis „Hafið af stað með rafræna reikningagerð“.
-- Bættu tenglum úr nauðsynlegum vottorðum við þjónustuumhverfið. Nauðsynleg vottorð innihalda stafræna undirskriftarvottorð, vottorðsvottorð (CA) vottorð og viðskiptavinavottorð. Fyrir frekari upplýsingar, sjá [Búðu til stafrænt vottorðsleyndarmál](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret) kafla í efnisatriðinu „Hafið af stað með stjórnun rafrænna reikningaþjónustu“.
+- Bættu tenglum úr nauðsynlegum vottorðum við þjónustuumhverfið. Nauðsynleg vottorð innihalda stafræna undirskriftarvottorð, vottorðsvottorð (CA) vottorð og viðskiptavottorð. Fyrir frekari upplýsingar, sjá [Búðu til stafrænt vottorðsleyndarmál](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret) kafla í efninu „Hefjast handa með rafræna reikningaþjónustu“.
 
 ## <a name="country-specific-configuration-for-the-italian-fatturapa-it-electronic-invoicing-feature"></a>Landssértæk uppsetning fyrir ítalska FatturaPA (IT) rafræna reikningseiginleikann
 
@@ -152,7 +154,7 @@ Ljúktu við eftirfarandi verklagsreglur áður en þú setur forritauppsetningu
 
 2. Vistaðu .pfx vottorðaskrána í lyklahólfinu og eyddu síðan staðbundnu afritinu.
 3. Skráðu þig inn á [Azure gátt](https://portal.azure.com) sem stjórnandi.
-4. Búðu til forritaskráningu fyrir SDI Proxy þjónustuna.
+4. Búðu til appskráningu fyrir SDI Proxy þjónustuna.
 
     1. Fara til **App skráningar**, búðu til skráningu og stilltu síðan eftirfarandi gildi fyrir hana:
 
@@ -205,7 +207,7 @@ Ljúktu við eftirfarandi verklagsreglur áður en þú setur forritauppsetningu
 
     ![Að búa til opinbera IP tölu.](media/e-invoicing-ita-fatturapa-get-started-create-vm-4.png)
 
-9. Á **Stjórnun** flipann, hreinsaðu **Sjálfvirk lokun** gátreit til að slökkva á sjálfvirkri lokun.
+9. Á **Stjórnun** flipann, hreinsaðu **Sjálfvirk lokun** gátreitinn til að slökkva á sjálfvirkri lokun.
 10. Stilltu **Uppfærslur á stýrikerfi gesta** sviði til **Handbók**, og stilltu síðan aðrar reglur.
 11. Skoðaðu og búðu til VM.
 12. Í nýja VM, farðu til **Sjálfsmynd** \> **Kerfi úthlutað**, og stilltu **Staða** valmöguleika til **Á**.
@@ -233,7 +235,7 @@ Ljúktu við eftirfarandi verklagsreglur áður en þú setur forritauppsetningu
 Fylgdu þessum skrefum á vélinni þar sem proxy-þjónustan er hýst.
 
 1. Tengstu við VM með því að nota Remote Desktop Connection.
-2. Opnaðu skyndimyndina Local Machine Certificate. Fyrir frekari upplýsingar, sjá [Hvernig á að: Skoða vottorð með MMC snap-in](/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in).
+2. Opnaðu skyndikynni fyrir Local Machine Certificate. Fyrir frekari upplýsingar, sjá [Hvernig á að: Skoða vottorð með MMC snap-in](/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in).
 3. Flytja inn **caenrate.cer** vottorð fyrir framleiðslu og **CAEntratetest.cer** til að prófa í [Traust rótarvottunaryfirvöld verslun](/dotnet/framework/wcf/feature-details/working-with-certificates#certificate-stores). (**CAEntratetest.cer** er rót CA vottorðið sem var útvegað af yfirvaldinu.)
 4. Í Control Panel, opnaðu **Kveiktu eða slökktu á Windows eiginleikum**, eða farðu til **Server Manager** \> **Bættu við hlutverkum og eiginleikum** fyrir stýrikerfi þjónsins (OS) og kveiktu á Internet Information Services (IIS) eiginleikum:
 
@@ -265,10 +267,10 @@ Fylgdu þessum skrefum á vélinni þar sem proxy-þjónustan er hýst.
 ### <a name="set-up-the-sdi-proxy-service-in-iis"></a>Settu upp SDI Proxy þjónustuna í IIS
 
 1. Í Microsoft Dynamics Lifecycle Services (LCS), farðu í Samnýtt eignasafn og veldu **Gagnapakki** sem eignategund.
-2. Finndu **Rafræn reikningaþjónusta Sdi umboð**, og hlaðið því niður á VM.
+2. Finndu **Rafræn innheimtuþjónusta Sdi umboð**, og hlaðið því niður á VM.
 3. Stilltu þjónustuna.
 
-    1. Renndu niður **Rafræn reikningaþjónusta Sdi umboð** geymslumöppu sem þú halaðir niður.
+    1. Renndu niður **Rafræn innheimtuþjónusta Sdi umboð** geymslumöppu sem þú hleður niður.
     2. Í **src\\ FattureService** möppu, opnaðu **appssettings.json** skrá og stilltu eftirfarandi færibreytur:
 
         - **KeyVaultUri** – Tilgreindu heimilisfang lykilhólfsins sem geymir viðskiptavottorð fyrir reikningsþjónustuna.
@@ -276,13 +278,13 @@ Fylgdu þessum skrefum á vélinni þar sem proxy-þjónustan er hýst.
         - **EnvironmentId** – Tilgreindu auðkenni LCS umhverfisins.
         - **ClientId** – Tilgreindu appauðkenni milliþjónustuappsskráningar hjá leigjanda viðskiptavinarins.
         - **ClientCertificateName** – Tilgreindu nafn S2S vottorðsins í lyklahólfinu.
-        - **SecurityServiceClientOptions.Endapoint** – Tilgreindu slóð öryggisþjónustunnar.
+        - **SecurityServiceClientOptions.Endapunktur** – Tilgreindu slóð öryggisþjónustunnar.
         - **SecurityServiceClientOptions.Resource** – Tilgreindu umfangið til að fá táknið fyrir.
         - **InvoicingServiceClientOptions.Endapunktur** – Tilgreindu endapunkt reikningsþjónustunnar. Þetta gildi ætti að vera sama endapunktur og notaður er fyrir RCS og Finance.
         - **InvoicingServiceClientOptions.ServiceEnvironmentId** – Tilgreindu heiti þjónustuumhverfisins. Þetta gildi ætti að vera nafnið á fjármálaumhverfinu þínu.
         - **Tilkynningarmappa** - Tilgreindu möppuna til að vista tilkynningaskrár á innleiðingu í.
 
-    3. Í **web.config** skrá, finndu eftirfarandi línu og bættu við þumalfingur af proxy-miðlaravottorðinu.
+    3. Í **web.config** skrá, finndu eftirfarandi línu og bættu við þumalfingursmerki proxy-miðlarans.
 
         `<serviceCertificate findValue="[certificate thumbprint]" storeLocation="LocalMachine" storeName="My" x509FindType="FindByThumbprint">`
 
@@ -294,9 +296,9 @@ Fylgdu þessum skrefum á vélinni þar sem proxy-þjónustan er hýst.
     ![Val á þjónustuskírteini í IIS Manager.](media/e-invoicing-ita-fatturapa-get-started-proxy-cert-1.png)
 
 5. Opnaðu valmyndina og veldu **Flytja inn**.
-6. Í **Innflutningsskírteini** valmynd, í **Vottorðsskrá (.pfx)** reit, tilgreindu slóð .pfx-skrárinnar fyrir proxy-þjónsvottorðið.
+6. Í **Innflutningsskírteini** valmynd, í **Vottorðsskrá (.pfx)** reit, tilgreinið slóð .pfx-skrárinnar fyrir proxy-þjónsvottorðið.
 
-    ![Að tilgreina vottorðsskrá fyrir proxy-þjónustu.](media/e-invoicing-ita-fatturapa-get-started-proxy-cert-2.png)
+    ![Tilgreinir vottorðsskrá fyrir proxy-þjónustu.](media/e-invoicing-ita-fatturapa-get-started-proxy-cert-2.png)
 
 7. Veldu og haltu inni (eða hægrismelltu) **Síður**, og veldu síðan **Bæta við vefsíðu**.
 8. Í **Bæta við vefsíðu** valmynd, í **Heiti vefsvæðis** reit, sláðu inn nafn fyrir síðuna.
@@ -306,7 +308,7 @@ Fylgdu þessum skrefum á vélinni þar sem proxy-þjónustan er hýst.
 12. Skildu eftir **IP tölu** og **Höfn** reiti stilltir á sjálfgefin gildi.
 13. Gakktu úr skugga um að **Krefjast vísbendingar um nafn netþjóns** gátreiturinn er hreinsaður, vegna þess að SDI styður ekki þá tækni.
 14. Í **SSL vottorð** reit, veldu vottorð um proxy-miðlara sem þú fluttir inn.
-15. Í **Umsóknarlaug** reit, tilgreindu laug fyrir síðuna og skrifaðu nafn hennar (td.**SdiAppPool**).
+15. Í **Umsóknarlaug** reit, tilgreindu laug fyrir síðuna og skráðu nafn hennar (td, **SdiAppPool**).
 
     ![Að bæta við vefsíðu.](media/e-invoicing-ita-fatturapa-get-started-proxy-iis-setup-1.png)
 
@@ -328,7 +330,7 @@ Fylgdu þessum skrefum á vélinni þar sem proxy-þjónustan er hýst.
     - **C:\\ Logs\\** - Geymdu annálaskrár hér. Þessar skrár er hægt að skoða af [MS Service Trace Viewer](/dotnet/framework/wcf/service-trace-viewer-tool-svctraceviewer-exe).
     - **C:\\ Skrár\\** – Geymdu allar svarskrárnar hér.
 
-21. Í File Explorer, veittu **NETÞJÓNUSTA** og **IIS AppPool\\ SdiAppPool** (eða **IIS AppPool\\ DefaultAppPool** ef þú ert að nota sjálfgefna laug) aðgang að **Logs** og **Skrár** möppur.
+21. Í File Explorer, veittu **NETÞJÓNUSTA** og **IIS AppPool\\ SdiAppPool** (eða **IIS AppPool\\ DefaultAppPool** ef þú ert að nota sjálfgefna laug) aðgangur að **Logs** og **Skrár** möppur.
 
     1. Veldu og haltu inni (eða hægrismelltu) einni af möppunum og veldu síðan **Eiginleikar**.
     2. Í **Eiginleikar** valmynd, á **Öryggi** flipa, veldu **Breyta**.

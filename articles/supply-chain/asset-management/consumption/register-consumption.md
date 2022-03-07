@@ -1,12 +1,10 @@
 ---
 title: Skrá notkun
 description: Þetta efni útskýrir hvernig á að skrá notkun í eignastjórnun.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/21/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderJournal, EntAssetWorkOrderAddSparePart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ea1522f8a8e4867d8d70fea59b493d139a1b01ef
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 619da584ea37e80b1803ae5983e52e8ee4053f3751a8df75a8f5bc1ddf7e65d6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020781"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765583"
 ---
 # <a name="register-consumption"></a>Skrá notkun
 
@@ -56,7 +54,7 @@ ms.locfileid: "5020781"
 
 Skjámyndin hér að neðan sýnir dæmi um skráningu klukkutíma og vöru í verkbeiðni í **Verkbeiðnifærslubókum**.
 
-![Mynd 1](media/01-consumption.png)
+![Mynd 1.](media/01-consumption.png)
 
 
 ## <a name="split-hours-on-work-orders-with-several-work-order-jobs"></a>Skiptu tíma á verkbeiðnum með nokkrum verkbeiðniverkum
@@ -75,13 +73,13 @@ Ef verkbeiðni inniheldur nokkur verkbeiðniverk geturðu skráð vinnutíma me�
 
 6. Settu fjölda vinnutíma sem á að skipta í reitnum **Klukkutímar**.
 
-    ![Mynd 2](media/02-consumption.png)
+    ![Mynd 2.](media/02-consumption.png)
 
 7. Smellt er á **OK**.
 
 *Dæmi:* Í skjámyndinni hér að neðan eru dagbókarlínur fyrir verkbeiðni sem innihalda þrjú verkbeiðniverk. Fyrstu línunni, sem hefur að geyma þrjá vinnutíma, hefur verið skipt og er einn vinnutími skráður í hvert verkbeiðniverk. Eftir að þriggja tíma skráningarlínur eru búnar til ákveður þú hvað þú átt að gera við upphaflegu klukkutímaskráningarlínuna (fyrsta línan í dæminu). Þú getur haldið því eins og það er eða eytt því. 
 
-![Mynd 3](media/03-consumption.png)
+![Mynd 3.](media/03-consumption.png)
 
 ## <a name="financial-dimensions-on-consumption-registrations"></a>Fjárhagsvíddir á notkunarskráningum
 
@@ -94,3 +92,6 @@ Ef verkbeiðni inniheldur nokkur verkbeiðniverk geturðu skráð vinnutíma me�
 >[!NOTE]
 >Fyrir allar þrjár skráningargerðirnar er samsetning fjárhagsvíddar staðfest og ógildar samsetningar eru auðar. Þetta er venjuleg uppsetning með öðrum forritum Finance and Operations.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

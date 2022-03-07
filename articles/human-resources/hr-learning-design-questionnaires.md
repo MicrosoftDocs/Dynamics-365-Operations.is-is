@@ -1,33 +1,35 @@
 ---
-title: Hanna spurningalista
-description: Þessi skrá lýsir ferlinu við stofnun spurningalista. Fyrsta skrefið er að hanna spurningalista. Þegar spurningalisti er hannaður þarf ekki aðeins að skrifa spurningar og svör, heldur einnig að stofna skipulag sem leyfir að svör séu skráð og sett upp í töflu.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+title: Búa til spurningalista
+description: Þetta efnisatriði lýsir ferlinu við stofnun spurningalista.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 90dd59b605c21abd03d2e0d64a89dc787850c26e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419087"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065202"
 ---
-# <a name="design-questionnaires"></a>Hanna spurningalista
+# <a name="create-questionnaires"></a>Búa til spurningalista
 
-Þessi skrá lýsir ferlinu við stofnun spurningalista. Fyrsta skrefið er að hanna spurningalista. Þegar spurningalisti er hannaður þarf ekki aðeins að skrifa spurningar og svör, heldur einnig að stofna skipulag sem leyfir að svör séu skráð og sett upp í töflu. 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Þetta efnisatriði lýsir ferlinu við stofnun spurningalista. Fyrsta skrefið er að hanna spurningalista. Þegar spurningalisti er hannaður þarf ekki aðeins að skrifa spurningar og svör, heldur einnig að stofna skipulag sem leyfir að svör séu skráð og sett upp í töflu. 
 
 Vandlega hannaður spurningalisti eykur gæði gagnanna sem er safnað. Með vandlegri hönnun er betur hægt að velja viðeigandi valkosti á viðeigandi tíma fyrir spurningalista. Eftirfarandi punktar geta hjálpað þér að áætla skilvirkan spurningalista:
 
@@ -64,7 +66,7 @@ Sumar forsendur verða að vera til staðar áður en hægt er að stofna spurni
 
 ### <a name="questionnaire-types"></a>Gerðir spurningalista
 
-Gerðir spurningalista eru nauðsynlegar og verður að vera úthlutað þegar spurningalisti er stofnaður. Gerðir spurningalista hjálpa við að stjórna og flokka spurningalista á auðveldari hátt. Notaðu gerðir spurningalista til að flokka spurningalista og aðgreina þá sundur. Til dæmis, ef um marga mismunandi spurningalista er að ræða er hægt að auðvelda leit að ákveðnum spurningalista með því að sía þá eftir gerðum. Hér eru nokkur dæmi um gerðir spurningalista:
+**Tegundir spurningalista** eru nauðsynlegar og verður að úthluta þeim þegar þú býrð til spurningalista. **Tegundir spurningalista** hjálpa þér að stjórna og flokka spurningalista á auðveldari hátt. Notaðu gerðir spurningalista til að flokka spurningalista og aðgreina þá sundur. Til dæmis, ef um marga mismunandi spurningalista er að ræða er hægt að auðvelda leit að ákveðnum spurningalista með því að sía þá eftir gerðum. Hér eru nokkur dæmi um gerðir spurningalista:
 
 -   Þróun mannauðsstjórnunar
 -   Viðskiptavinakannanir
@@ -72,9 +74,9 @@ Gerðir spurningalista eru nauðsynlegar og verður að vera úthlutað þegar s
 
 ### <a name="question-types"></a>Gerðir spurninga
 
-Gerðir spurninga eru nauðsynlegar og verður úthlutað þegar spurning er stofnuð. 
+**Tegundir spurninga** eru nauðsynlegar og verður að úthluta þeim þegar þú býrð til spurningu. 
 
-Notaðu gerðir spurninga til að flokka spurningar fyrir skýrslugerð. Gerðir spurninga auðvelda einnig að finna spurningar, þar sem hægt er að nota gerðir sem síur á síðunni **Spurningar**. Hér eru nokkur dæmi um gerðir spurninga:
+Notaðu **Tegundir spurninga** til að flokka spurningar til skýrslugerðar. **Tegundir spurninga** einnig auðveldara að finna spurningar, því þú getur notað tegundir sem síur á **Spurningar** síðu. Hér eru nokkur dæmi um gerðir spurninga:
 
 -   Starfsmannahald
 -   Fyrirtækjastjórnun
@@ -91,9 +93,9 @@ Númeraraðakóðar eru notaðir til að skipuleggja spurningar og svör. Samkv�
 Þú ættir að skilgreina allar færibreytur áður en þú byrjar að stofna gögnin þín. Hægt er að breyta færibreytustillingum spurningalista hvenær sem er.
 
 ## <a name="questionnaire-components"></a>Íhlutir spurningalista
-Spurningalistar snúast um þrjú aðalatriði: svarflokka sem innihalda svör fyrir spurningar með mörgum svarmöguleikum, spurningar og spurningalistann sjálfan.  Einnig er hægt að flokka spurningar í spurningalista í niðurstöðuflokk. Niðurstöðuflokkar gera kleift að flokka spurningar og veita frekari greiningu á spurningalistanum. 
+Spurningalistar snúast um þrjú aðalatriði: svarflokka sem innihalda svör fyrir spurningar með mörgum svarmöguleikum, spurningar og spurningalistann sjálfan. Einnig er hægt að flokka spurningar í spurningalista í niðurstöðuflokk. Niðurstöðuflokkar gera kleift að flokka spurningar og veita frekari greiningu á spurningalistanum. 
 
-[![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![QuestionnaireComponents.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Svarflokkar og svör
 
@@ -106,10 +108,10 @@ Til að sjá lista yfir möguleg svör fyrir lokaðar spurningar, er hægt að s
 
 Svarflokkar og svör eru íhlutir sem mynda meginmál upplýsinga sem spurningar eru stofnaðar úr. Eftir að þú stofnar svarflokk geturðu tengt svarflokkinn við spurningu í reitnum **Svarflokkur** á síðunni **Spurningar**. 
 
-Hægt er að nota svarflokk fyrir fleiri en eina spurningu í sama spurningalista og einnig í einum eða fleiri spurningalistum. 
+An **Svarhópur** hægt að nota fyrir fleiri en eina spurningu á sama spurningalistanum, og einnig hægt að nota á fleiri en einn spurningalista. 
 
 > [!NOTE]
-> Ef hægt er að breyta svartexta í svarflokki sem hefur þegar verið notaður í fullkláruðum spurningalistum getur orðið erfitt að meta gögn og niðurstöður spurningalista gæti verið ekki lengur gildar. Ef breyta verður svarflokki skal athuga að stofna nýjan svarflokk í stað þess að breyta fyrirliggjandi flokki. Ekki er hægt að eyða svarflokkum sem eru tengdir spurningu eða svari eða sem hefur verið svarað.
+> Ef breytt er svartexta í svarflokki sem hefur þegar verið notaður í fullkláruðum spurningalistum getur orðið erfitt að meta gögn og niðurstöður spurningalista gætu verið ekki lengur gildar. Ef breyta verður svarflokki skal athuga að stofna nýjan svarflokk í stað þess að breyta fyrirliggjandi flokki. Ekki er hægt að eyða svarflokkum sem eru tengdir spurningu eða svari eða sem hefur verið svarað.
 
 ### <a name="questions"></a>Spurningar
 
@@ -121,7 +123,7 @@ Spurningalisti verður að innihalda spurningar. Spurningar geta verið opnar e�
     > [!NOTE]
     > Áður en hægt er að setja upp lokaðar spurningar, verður að stofna svarflokk og svör.
 
-Hægt er að raða spurningum í skilyrðisbundið spurningastigveldi svo að aukaspurningar velta á svarinu sem svarandi velur fyrir fyrri spurningu. Hægt er að skrifa spurningar fyrst og raða þeim stigveldi síðar.
+Hægt er að raða spurningum í skilyrðisbundið spurningastigveldi svo að aukaspurningar velta á svarinu sem svarandi velur fyrir fyrri spurningu. Hægt er að skrifa spurningar fyrst og raða þeim í stigveldi síðar.
 
 ## <a name="setting-up-questionnaires"></a>Uppsetning spurningalista
 
@@ -163,7 +165,7 @@ Aðalsíðan sem er notuð til að setja upp spurningalista er síðan **Spurnin
 -   Gera breytingar á niðurstöðuflokki og raðnúmeri. 
 
 > [!CAUTION]
-> Farið varlega þegar breytingar eru gerðar á spurningalistum sem þegar hefur verið svarað. Breytingar geta dregið úr nákvæmni upplýsinga og þess vegna gert þær að lélegum grunni fyrir mat. Betra getur verið að útbúa nýja spurningu en að breyta spurningu sem þegar hefur verið svarað.
+> Farið varlega þegar breytingar eru gerðar á spurningalistum sem þegar hefur verið svarað. Breytingar geta dregið úr nákvæmni upplýsinga og þess vegna gert þær að lélegum grunni fyrir mat. Betra getur verið að útbúa nýja spurningu en að breyta spurningu sem þegar hefur verið svarað.
 
 Í spurningalista er ekki hægt að eyða eftirfarandi gerðum spurninga:
 
@@ -172,7 +174,7 @@ Aðalsíðan sem er notuð til að setja upp spurningalista er síðan **Spurnin
 
 ### <a name="result-groups"></a>Niðurstöðuflokkar
 
-Niðurstöðuflokkar eru valfrjálsir þegar spurningar eru tengdar við spurningalista. 
+**Úrslitahópar** eru valfrjáls þegar þú tengir spurningar við spurningalista. 
 
 Niðurstöðuflokkur er notaður til að reikna stig og flokka niðurstöður spurningalista. Ef þú notar niðurstöðuflokka er hægt að framkvæma eftirfarandi verk:
 
@@ -188,7 +190,7 @@ Niðurstöðuflokkur er notaður til að reikna stig og flokka niðurstöður sp
 -   Skilgreindu stig fyrir svörin í svarflokkunum sem eru úthlutaðir hverri spurningu.
 -   Setja upp spurningalista.
 
-Til að tengja spurningar við spurningalista með niðurstöðuflokkum þarf fyrst að setja upp niðurstöðuflokka fyrir spurningalista og bæta síðan spurningunum við niðurstöðuflokkana. Ef ekki er verið að nota niðurstöðuflokka er hægt að tengja spurningar beint við spurningalistann. 
+Til að tengja spurningar við spurningalista með niðurstöðuflokkum þarf fyrst að setja upp niðurstöðuflokka fyrir spurningalista og bæta síðan spurningunum við niðurstöðuflokkana. Ef niðurstöðuflokkar eru ekki notaðir er hægt að tengja spurningar beint við spurningalistann. 
 
 Hægt er að setja upp marga niðurstöðuflokka til að meta stig sem svarandi nær í hverjum flokki. Þegar spurningalista er lokið er hægt að skoða punkta sem hefur verið náð fyrir hvern niðurstöðuflokk. 
 
@@ -236,3 +238,5 @@ Til að nota skilyrtar spurningar til að stofna spurningastigveldi í spurninga
 Lögaðili býður bæði vörur og þjónustu fyrir viðskiptavini sína. Eins og á sér yfirleitt stað í slíkum tilfellum, kaupa sumir viðskiptavinir aðeins vörur, sumir kaupa aðeins þjónustu og sumir kaupa bæði vörur og þjónustu. Ef fyrirtækið vill dreifa ánægjukönnun er hægt að nota skilyrðisbundið skipulag fyrir spurningalistann til þess að koma í veg fyrir að viðskiptavinir sem einungis kaupa þjónustu þurfi að svara spurningum um vörur. 
 
 Einnig er hægt að setja upp spurningalista þannig að ef svarandi velur svar A fyrir spurningu 1, er spurning 2 næst í spurningaröðinni. Einnig er hægt að setja upp spurningalista þannig að ef svarandi velur svar A við spurningu 1, er spurning 5 næst.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,15 +2,12 @@
 title: Ráða umsækjendur
 description: Þetta efnisatriði sýnir hvernig á að ráða umsækjendur í Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 12/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,16 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a35abcb8a2f6aa8031c8d84a44c2a8ad93883ac
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: dc883606b832dc75b28f6209b05c0e35a51036b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669173"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359678"
 ---
 # <a name="recruit-job-candidates"></a>Ráða umsækjendur
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources aðstoðar þig við að stjórna ráðningarbeiðnum. Aðstoðar þig einnig við að breyta umsækjendum í starfsmenn á einfaldan hátt. Þegar fyrirtækið þitt notar annað ráðningarforrit kann ráðningarferlið að fela í sér eftirfarandi skref:
 
@@ -38,7 +35,7 @@ Dynamics 365 Human Resources aðstoðar þig við að stjórna ráðningarbeiðn
 Þegar þú notar ekki annað ráðningarforrit getur þú einnig haft umsjón með umsækjendum handvirkt í Human Resources.
 
 >[!NOTE]
->Þegar þú ert stjórnandi eða þróunaraðili og vilt samþætta Human Resources við ráðningarforrit þriðja aðila er frekari upplýsingar að finna í [Grunnstilling Common Data Service Samþætting](hr-admin-integration-common-data-service.md) og [Grunnstilling Common Data Service sýndareininga](hr-admin-integration-common-data-service-virtual-entities.md)
+>Þegar þú ert stjórnandi eða þróunaraðili og vilt samþætta Human Resources við ráðningarforrit þriðja aðila er frekari upplýsingar að finna í [Grunnstilling Dataverse Samþætting](hr-admin-integration-common-data-service.md) og [Grunnstilling Dataverse sýndartöflur](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > Einnig er hægt að finna samþættingarforrit ráðninga á [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
@@ -46,15 +43,13 @@ Dynamics 365 Human Resources aðstoðar þig við að stjórna ráðningarbeiðn
 
 ## <a name="enable-recruiting-requests"></a>Virkja ráðningarbeiðnir
 
-Ef þú vilt senda ráðningarbeiðnir í Human Resources verður þú fyrst að virkja eiginleikann í **Færibreytur Human Resources**.
+Ef þú vilt senda ráðningarbeiðnir í Human Resources verður þú fyrst að virkja eiginleikann í **Samnýttar færibreytur fyrir mannauð**.
 
 1. Á vinnusvæðinu **Starfsmannastjórnun** velur þú **Tenglar**.
 
-2. Undir **Skipulag**, veldu **Færirbreytur Human Resources**.
+2. Undir **Uppsetning**, veldu **Samnýttar færibreytur fyrir mannauð**.
 
-3. Á flipanum **Almennt**, fyrir neðan **RÁÐNINGAR** verður að stilla **Virkja ráðningarbeiðnir** á **Já**.
-
-   ![Virkja ráðningarbeiðnir](./media/hr-recruit-0-enable-requests.png)
+3. Á flipanum **Ráðning**, fyrir neðan **RÁÐNINGAR** verður að stilla **Virkja ráðningarbeiðnir** á **Já**.
 
 ## <a name="add-a-recruiting-request-location"></a>Bæta við staðsetningu í ráðningarbeiðni
 
@@ -66,13 +61,13 @@ Ef fyrirtækið er með margar staðsetningar er hægt að bæta þeim við til 
 
 3. Sláðu inn heiti staðsetningarinnar í svæðið **Staðsetning ráðningarbeiðni**.
 
-   ![Bæta við staðsetningu í ráðningarbeiðni](./media/hr-recruit-0a-add-location.png)
+   ![Bæta við staðsetningu í ráðningarbeiðni.](./media/hr-recruit-0a-add-location.png)
 
 4. Sláðu inn lýsingu á staðsetningunni í svæðið **Lýsing**.
 
 5. Undir **Staðsetning** skal velja **Bæta við**. Sláðu inn heimilisfang staðsetningarinnar ef sprettiglugginn **Nýtt heimilisfang** opnast.
 
-   ![Færa inn aðsetur](./media/hr-recruit-0b-address.png)
+   ![Færa inn aðsetur.](./media/hr-recruit-0b-address.png)
 
 6. Færðu inn upplýsingar um tengilið staðsetningarinnar fyrir neðan **Tengiliðaupplýsingar**.
 
@@ -88,11 +83,11 @@ Stjórnendur geta sent inn ráðningarbeiðnir í mannauði. Þegar annað ráð
 
 3. Veljið **Beiðni um að ráða**.
 
-   ![Hefja ráðningarbeiðni](./media/hr-recruit-1-request-to-recruit.png)
+   ![Hefja ráðningarbeiðni.](./media/hr-recruit-1-request-to-recruit.png)
 
 4. Fylltu út svæðin **Lýsing**, **Starf** og **Áætlaður upphafsdagur**.
 
-   ![Ljúka ráðningarbeiðninni](./media/hr-recruit-2-request-to-recruit.png)
+   ![Ljúka ráðningarbeiðninni.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. Veldu **Haltu áfram**. Ráðningarbeiðnin fyrir stöðuna þína birtist.
 
@@ -100,7 +95,7 @@ Stjórnendur geta sent inn ráðningarbeiðnir í mannauði. Þegar annað ráð
 
 7. Breyttu öllum upplýsingum eins og þörf krefur í svæðinu **Starf** veldu síðan **Búa til upplýsingar úr starfi**.
 
-   ![Stofna upplýsingar úr verki](./media/hr-recruit-3-create-details-from-job.png)
+   ![Búa til upplýsingar út frá starfi.](./media/hr-recruit-3-create-details-from-job.png)
 
    Eftirstandandi svæði ráðningarbeiðninnar eru fyllt út með sjálfgefnum upplýsingum um starfið sem þú slóst inn.
 
@@ -108,13 +103,13 @@ Stjórnendur geta sent inn ráðningarbeiðnir í mannauði. Þegar annað ráð
 
 9. Fyrir neðan **Stöður** skal velja **Bæta við** og síðan velja staðsetningu fyrir þessa ráðningarbeiðni.
 
-   ![Bæta við stöðu](./media/hr-recruit-4-select-position.png)
+   ![Bæta við stöðu.](./media/hr-recruit-4-select-position.png)
 
 10. Fyrir neðan **Hæfni** skal velja **Bæta við** og síðan bæta við hæfni.
 
 11. Fyrir neðan **Menntunarkröfur** skal velja **Bæta við** og síðan velja gildi á fellilistunum **Menntun** og **Menntunarstig**.
 
-   ![Bæta við menntunarkröfum](./media/hr-recruit-5-select-educational-requirements.png)
+   ![Bæta við menntunarkröfum.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. Bættu við athugasemdum eftir þörfum fyrir neðan **Athugasemd**.
 
@@ -122,9 +117,9 @@ Stjórnendur geta sent inn ráðningarbeiðnir í mannauði. Þegar annað ráð
 
 14. Þegar ráðningarbeiðninni þinni er lokið og þú er til reiðu til að hefja ráðningarferlið skaltu velja **Virkja** á valmyndarstikunni.
 
-   ![Virkja ráðningarbeiðni](./media/hr-recruit-6-activate-recruit-request.png)
+   ![Virkja ráðningarbeiðni.](./media/hr-recruit-6-activate-recruit-request.png)
 
-15. Veljið **Vista**.
+15. Veldu **Vista**.
 
 ## <a name="view-and-edit-your-recruiting-requests"></a>Skoða og breyta ráðningarbeiðnum
 
@@ -136,7 +131,7 @@ Ef þú ert yfirmaður og vilt skoða eigin beiðnir:
 
 3. Fyrir neðan **Upplýsingar um teymi** skal velja flipann **Ráðningarbeiðnir**.
 
-   ![Veldu flipann Ráðningarbeiðnir](./media/hr-recruit-7-recruiting-requests.png)
+   ![Veldu flipann Ráðningarbeiðnir.](./media/hr-recruit-7-recruiting-requests.png)
 
 4. Veldu ráðningarbeiðni á hnitanetinu til að skoða eða breyta henni.
 
@@ -146,7 +141,7 @@ Ef þú ert HR-Pro og vilt skoða allar ráðningarbeiðnir:
 
 2. Veljið **Ráðningarbeiðnir**.
 
-   ![Skoða ráðningarbeiðnir í Starfsmannastjórnun](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
+   ![Skoða ráðningarbeiðnir í Starfsmannastjórnun.](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
 
 3. Veldu ráðningarbeiðni á hnitanetinu til að skoða eða breyta henni.
 
@@ -160,7 +155,7 @@ Ef þú ert HR-Pro og vilt skoða allar ráðningarbeiðnir:
 
 3. Undir **Ráðning** skal velja **Umsækjendur**.
 
-   ![Skoða umsækjendur](./media/hr-recruit-9-candidates.png)
+   ![Skoða umsækjendur.](./media/hr-recruit-9-candidates.png)
 
 4. Veldu **Nýr** til að bæta við umsækjanda. Þegar breyta á fyrirliggjandi umsækjanda skal velja umsækjanda á listanum og síðan velja **Breyta**. Notandaupplýsingar umsækjanda birtast.
 
@@ -168,7 +163,7 @@ Ef þú ert HR-Pro og vilt skoða allar ráðningarbeiðnir:
 
 6. Veljið ráðningarbeiðni sem á að tengja umsækjanda við undir **Ráðningarbeiðni**. Fylltu síðan út svæðin **Áætluð upphafsdagsetning**, **Ráðningarstjóri**, **Staða** og **Lýsing** eftir þörfum.
 
-   ![Tengill í ráðningarbeiðni](./media/hr-recruit-10-link-to-recruiting-request.png)
+   ![Tengill í ráðningarbeiðni.](./media/hr-recruit-10-link-to-recruiting-request.png)
 
 7. Fyllið út allar upplýsingar á eftirfarandi svæðum sem á að hafa með í færslu umsækjanda:
    - **Athugasemdir**
@@ -187,11 +182,11 @@ Ef þú ert HR-Pro og vilt skoða allar ráðningarbeiðnir:
 
 1. Veldu **Ráða** á eyðublaði umsækjandans.
 
-   ![Ráða umsækjanda](./media/hr-recruit-11-hire.png)
+   ![Ráða umsækjanda.](./media/hr-recruit-11-hire.png)
 
 2. Fylltu út öll svæði eyðublaðsins **Ráða nýjan starfsmann** fyrir neðan **Frekari upplýsingar**.
 
-   ![Slá inn nýjar ráðningarupplýsingar](./media/hr-recruit-12-hire-new-worker.png)
+   ![Slá inn nýjar ráðningarupplýsingar.](./media/hr-recruit-12-hire-new-worker.png)
 
 3. Fyrir neðan **Frekari upplýsingar um stöðu** skaltu staðfesta og breyta upplýsingum eftir þörfum.
 
@@ -208,11 +203,11 @@ Ef þú ert HR-Pro og vilt skoða allar ráðningarbeiðnir:
 
 1. Veldu **Ekki ráða** á eyðublaði umsækjandans.
 
-   ![Ekki ráða umsækjanda](./media/hr-recruit-13-do-not-hire.png)
+   ![Ekki ráða umsækjanda.](./media/hr-recruit-13-do-not-hire.png)
 
 2. Veljið **Ástæðukóði** og takið með allar athugasemdir.
 
-3. Veljið **Í lagi**.
+3. Veldu **Í lagi**.
 
 ## <a name="dismiss-a-candidate"></a>Hunsa umsækjanda
 
@@ -220,10 +215,13 @@ Ef þú ert HR-Pro og vilt skoða allar ráðningarbeiðnir:
 
 - Veldu **Hunsa umsækjanda** á eyðublaði umsækjandans.
 
-  ![Hunsa umsækjanda](./media/hr-recruit-14-dismiss-candidate.png)
+  ![Hunsa umsækjanda.](./media/hr-recruit-14-dismiss-candidate.png)
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Skilgreina Common Data Service sýndareiningar](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Skilgreina Dataverse-sýndartöflur](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Skipuleggja starfsfólk](hr-personnel-departments-jobs-positions.md)<br>
 [Setja upp íhluti verks](hr-personnel-jobs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

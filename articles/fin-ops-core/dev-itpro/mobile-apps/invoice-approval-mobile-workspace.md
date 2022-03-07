@@ -1,12 +1,10 @@
 ---
 title: Reikningssamþykktir á fartækjavinnusvæðum
-description: Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið Reikningssamþykktir. Þessi vinnusvæði gefur lista yfir reikninga sem hafa verið úthlutaðir þér í gegnum verkflæði reikningshauss lánardrottins.
+description: Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið Reikningssamþykktir.
 author: abruer
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ac56dd8f6ecda669f32b298649da45634c5d83c9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683409"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360769"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Reikningssamþykktir á fartækjavinnusvæðum
 
@@ -74,7 +72,7 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
 3.  Í fyrsta sinn sem þú skráir þig inn, er beðið um notandanafn og aðgangsorð þitt. Færðu inn skilríki
 4.  Eftir að þú hefur skráð þig inn, birtast tiltæk vinnusvæði fyrir fyrirtækið. Athugið að ef kerfisstjóri gefur út nýtt vinnusvæði síðar, verður að endurræsa listann yfir fartækjavinnusvæði.
 
-    [![Togið upp til að uppfæra](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Togið upp til að uppfæra.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="approve-invoices-by-using-the-invoice-approvals-mobile-workspace"></a>Samþykkja reikninga með því að nota fartækjavinnusvæðið Reikningssamþykktir
 1.  Í fartækinu velurðu vinnusvæðið **Reikningssamþykktir**.
@@ -86,3 +84,6 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
 7.  Veldu **Viðhengi** til að skoða athugasemdir eða skrár sem tengjast reikningnum.
 8.  Á síðunni **Reikningsupplýsingar** velurðu viðeigandi verkflæðisaðgerð til að ljúka við endurskoðunarferli þitt.
 9.  Velja **Ekkert**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

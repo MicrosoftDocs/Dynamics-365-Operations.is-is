@@ -2,16 +2,13 @@
 title: BOM útreikninguar
 description: Samantekt kostnaðar og útreikningar söluverðs kallast uppskriftaútreikningar og eru ræstir á síðunni Útreikningur. Þetta efnisatriði veitir upplýsingar um útreikning uppskrifta.
 author: AndersGirke
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, ProdSetupCostEstimation
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: a718a2e825630ccfaa54ff9dece1d3d19d59018c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ee38138914ba0a33891083bae00fd582943bc30
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430537"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816701"
 ---
 # <a name="bom-calculations"></a>BOM útreikninguar
 
@@ -95,3 +92,6 @@ Uppskriftarútreikningur sem á við eina pöntun er samsetning uppskriftarútre
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

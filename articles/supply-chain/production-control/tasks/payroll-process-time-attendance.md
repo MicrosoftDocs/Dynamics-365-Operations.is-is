@@ -2,27 +2,24 @@
 title: Virkja launaferli fyrir tíma og mætingu
 description: Þessi verklýsing sýnir hvernig á að virkja launavinnslu í tími og mæting.
 author: johanhoffmann
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgPayTable, JmgPayRate, JmgPayAgreementTable, JmgPayAgreementLine, HcmWorker
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5805cc31bf9c7c2231defab63dc9a1e67f82622a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d3b196e25699c43dbac06e950aae0ad8a9457a8d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430299"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566552"
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a>Virkja launaferli fyrir tíma og mætingu
 
@@ -70,3 +67,6 @@ ms.locfileid: "4430299"
 7. Smellið á „Breyta“.
 8. Sláðu inn eða veldu gildi í reitnum launasamningur.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

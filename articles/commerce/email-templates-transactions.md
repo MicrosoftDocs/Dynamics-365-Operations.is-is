@@ -2,27 +2,24 @@
 title: Stofna sniðmát fyrir tölvupóst fyrir færslutilvik
 description: Þetta efnisatriði lýsir því hvernig á að búa til, hlaða upp og skilgreina tölvupóstssniðmát fyrir færslutilvik í Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: annbe
-ms.date: 06/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ea484bfc1e9b293c53d7293c50630c4955000131
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 55597e83a930fc7d8bcc4c0cf09abc82cb666b25
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413071"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792632"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Stofna sniðmát fyrir tölvupóst fyrir færslutilvik
 
@@ -40,7 +37,7 @@ Dynamics 365 Commerce býður upp á lausn til að senda tölvupóst til að lá
 
 Til að stofna tölvupóstsniðmát, skal fylgja eftirfarandi skrefum.
 
-1. Í höfuðstöðvum Commerce skal opna **Tölvupóstssniðmát fyrirtækis**, sem er undir **Smásala og viðskipti \> Uppsetning höfuðstöðva \> Tölvupóstssniðmát fyrirtækis** eða **Fyrirtækisstjórnun \> Uppsetning \> Tölvupóstssniðmát fyrirtækis**.
+1. Í höfuðstöðvum Commerce skal opna **Smásala og viðskipti \> Uppsetning höfuðstöðva \> Tölvupóstssniðmát fyrirtækis** eða **Fyrirtækisstjórnun \> Uppsetning \> Tölvupóstssniðmát fyrirtækis**.
 1. Veljið **Nýtt**.
 1. Undir **Almennt** skal stilla eftirfarandi reiti:
 
@@ -79,28 +76,29 @@ Eftirfarandi er dæmi.
 
 Eftirfarandi staðgenglar sækja og sýna gögn sem eru skilgreind á stigi sölupantana (öfugt við sölulínustigið).
 
-| Staðgengilsheiti    | Staðgengilsgildi                                                |
-|---------------------|------------------------------------------------------------------|
-| customername        | Nafn viðskiptavinarins sem sendi inn pöntunina.                   |
-| salesid             | Sölukenni pöntunar.                                       |
-| deliveryaddress     | Afhendingaraðsetur fyrir sendar pantanir.                         |
-| customeraddress     | Aðsetur viðskiptavinarins.                                     |
-| deliverydate        | Afhendingardagsetning.                                               |
-| shipdate            | Sendingardagsetning.                                                   |
-| modeofdelivery      | Afhendingarmáti pöntunarinnar.                                  |
-| Gjöld             | Heildargjöld fyrir pöntunina.                                 |
-| Skattur                 | Heildarskattur fyrir pöntunina.                                     |
-| samtala               | Heildarupphæð pöntunarinnar.                                  |
-| ordernetamount      | Heildarupphæðin fyrir pöntunina, að frádregnum heildarskatti.             |
-| afsláttur            | Heildarafsláttur pöntunarinnar.                                |
-| storename           | Heiti verslunarinnar þaðan sem pöntunin er upprunnin.                |
-| storeaddress        | Aðsetur verslunarinnar þaðan sem pöntunin er upprunnin.                  |
-| storeopenfrom       | Opnunartími verslunarinnar þaðan sem pöntunin er upprunnin.             |
-| storeopento         | Lokunartími verslunarinnar þaðan sem pöntunin er upprunnin.             |
-| pickupstorename     | Heiti verslunarinnar þar sem pöntunin verður sótt.         |
-| pickupstoreaddress  | Aðsetur verslunarinnar þar sem pöntunin verður sótt.      |
-| pickupopenstorefrom | Opnunartími verslunarinnar þar sem pöntunin verður sótt. |
-| pickupopenstoreto   | Lokunartími verslunarinnar þar sem pöntunin verður sótt. |
+| Staðgengilsheiti     | Staðgengilsgildi                                            |
+| -------------------- | ------------------------------------------------------------ |
+| customername         | Nafn viðskiptavinarins sem sendi inn pöntunina.               |
+| salesid              | Sölukenni pöntunar.                                   |
+| deliveryaddress      | Afhendingaraðsetur fyrir sendar pantanir.                     |
+| customeraddress      | Aðsetur viðskiptavinarins.                                 |
+| customeremailaddress | Netfangið sem viðskiptavinurinn færði inn við greiðsluferli.     |
+| deliverydate         | Afhendingardagsetning.                                           |
+| shipdate             | Sendingardagsetning.                                               |
+| modeofdelivery       | Afhendingarmáti pöntunarinnar.                              |
+| Gjöld              | Heildargjöld fyrir pöntunina.                             |
+| Skattur                  | Heildarskattur fyrir pöntunina.                                 |
+| samtala                | Heildarupphæð pöntunarinnar.                              |
+| ordernetamount       | Heildarupphæðin fyrir pöntunina, að frádregnum heildarskatti.         |
+| afsláttur             | Heildarafsláttur pöntunarinnar.                            |
+| storename            | Heiti verslunarinnar þaðan sem pöntunin er upprunnin.            |
+| storeaddress         | Aðsetur verslunarinnar þaðan sem pöntunin er upprunnin.              |
+| storeopenfrom        | Opnunartími verslunarinnar þaðan sem pöntunin er upprunnin.         |
+| storeopento          | Lokunartími verslunarinnar þaðan sem pöntunin er upprunnin.         |
+| pickupstorename      | Heiti verslunarinnar þar sem pöntunin verður sótt.     |
+| pickupstoreaddress   | Aðsetur verslunarinnar þar sem pöntunin verður sótt.  |
+| pickupopenstorefrom  | Opnunartími verslunarinnar þar sem pöntunin verður sótt. |
+| pickupopenstoreto    | Lokunartími verslunarinnar þar sem pöntunin verður sótt. |
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Staðgenglar pöntunarlínu (sölulínustig)
 
@@ -170,11 +168,8 @@ Eftirfarandi er dæmi.
 
 Hægt er að fá kvittanir sendar í tölvupósti til viðskiptavina sem gera innkaup á sölustað. Almennt eru skrefin til að búa til sniðmát fyrir kvittanir sem sendar eru í tölvupósti þau sömu og skrefin við stofnun sniðmáta fyrir önnur færslutilvik. Eftirfarandi breytingar eru hins vegar áskildar:
 
-- Kenni tölvupósts í sniðmátinu fyrir tölvupóst verður að vera **emailRecpt**.
-- Texti kvittunar er settur inn í tölvupóst með því að nota staðgengilinn **%message%**. Til að tryggja að meginmál kvittunar sé rétt myndþýtt skal umlykja **%message%** staðgenglana með HTML-merkjunum **&lt;pre&gt;** og **&lt;/pre&gt;**.
-- Línuskilum í HTML fyrir síðuhaus og síðufót tölvupóstsins er breytt í HTML-merkin **&lt;br/&gt;** þannig að meginmál kvittunarinnar sé rétt myndþýtt. Til að útiloka óæskilegt lóðrétt bil í tölvupóstkvittunum skal fjarlægja línuskil frá hvaða stað sem er í HTML þar sem ekki er krafist lóðrétts bils.
-
-Frekari upplýsingar um hvernig kvittanir í tölvupósti eru settar upp eru í [Setja upp kvittanir í tölvupósti](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts).
+- Texti kvittunar er settur inn í tölvupóst með því að nota staðgengilinn **%message%**. Til að tryggja að meginmál kvittunar sé rétt myndþýtt skal umlykja **%message%** Staðgenglana með HTML-merkjunum **&lt;pre&gt;** og **&lt;/pre&gt;**.
+- Staðgengilinn **%receiptid%** er hægt að nota til að sýna QR-kóða eða strikamerki sem stendur fyrir kvittunarkennið. (QR-kóðar og strikamerki eru mynduð gagnvirkt og með þjónustuð af þriðja aðila.) Frekari upplýsingar um hvernig á að sýna QR-kóða eða strikamerki í tölvupóstkvittun er að finna í [Bæta QR-kóða eða strikamerki við tölvupósta sem tengjast færslum eða kvittunum](add-qr-code-barcode-email.md).
 
 ## <a name="upload-the-email-html"></a>Hlaða upp HTML-tölvupósti
 
@@ -203,3 +198,6 @@ Frekari upplýsingar um hvernig á að skilgreiningu tölvupósts í Dynamics 36
 [Setja upp tölvupóst innhreyfingar](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [Senda kvittanir í tölvupósti frá Modern POS ](email-receipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

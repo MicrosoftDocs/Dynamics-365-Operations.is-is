@@ -2,29 +2,25 @@
 title: Yfirlit yfir svæði fyrir rafræn viðskipti
 description: Þetta efnisatriði veitir yfirlit yfir stuðning fyrir svæði fyrir rafræn viðskipti í Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 11/05/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a5ced6311f32405e544e66d18c912ce40deb177f
-ms.sourcegitcommit: 33a746e41cd6f7b6b056b19b550a84f6a1b905d4
-ms.translationtype: HT
+ms.openlocfilehash: c7f679e8d11b0ec01e912a4ad64f02e50b20f299
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4512918"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984570"
 ---
 # <a name="e-commerce-site-overview"></a>Yfirlit yfir svæði fyrir rafræn viðskipti
 
@@ -40,17 +36,17 @@ ms.locfileid: "4512918"
 
 Aðeins er hægt að setja upp eina netverslunarrás áður en hafist er handa við Dynamics 365 Commerce. Hins vegar getur eitt svæði fyrir rafræn viðskipti sýnt margar netverslanir. Ef margar netverslanir eru til dæmis settar upp til að styðja við ólík landsvæði er hægt að nota eitt sett af síðum fyrir rafræn viðskipti til að veita upplifanir sem eru skilgreindar með hverri verslun fyrir sig. Nánari upplýsingar um hvernig á að stilla vefsíðu til að styðja margar netverslanir er að finna í [Tengja netsvæði við rás](associate-site-online-store.md).
 
-Eftir að netverslun hefur verið sett upp er hægt að tengja hana við Dynamics 365 Commerce-vefsvæði sem mun þjóna sem netverslun þín. Nánari upplýsingar um netverslanir og hvernig á að setja þær upp er að finna í [Setja upp netverslanir](https://docs.microsoft.com/dynamics365/unified-operations/retail/online-stores).
+Eftir að netverslun hefur verið sett upp er hægt að tengja hana við Dynamics 365 Commerce-vefsvæði sem mun þjóna sem netverslun þín. Nánari upplýsingar um netverslanir og hvernig á að setja þær upp er að finna í [Setja upp netverslanir](/dynamics365/unified-operations/retail/online-stores).
 
 ## <a name="deploy-a-new-e-commerce-tenant"></a>Uppsetning á nýjum leigjanda rafrænna viðskipta
 
-Við ræsingu á svæði fyrir rafræn viðskipti er beðið um lénsheiti. Frekari upplýsingar um lén í Commerce er að finna í [Skilgreina lénsheiti](configure-your-domain-name.md) og [Lén í Dynamics 365 Commerce](domains-commerce.md). Þegar setja á upp nýjan leigjanda rafrænna viðskipta með [Microsoft Dynamics Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide) skal fylgja skrefunum í [Uppsetning á nýjum leigjanda rafrænna viðskipta](deploy-ecommerce-site.md). Þegar lokið er við að setja upp nýjan leigjanda rafrænna viðskipta, verður tengill útvegaður á Commerce Site Builder. Síðan er hægt að nota Commerce Site Builder til að frumstilla og grunnstilla svæði fyrir rafræn viðskipti.
+Við ræsingu á svæði fyrir rafræn viðskipti er beðið um lénsheiti. Frekari upplýsingar um lén í Commerce er að finna í [Skilgreina lénsheiti](configure-your-domain-name.md) og [Lén í Dynamics 365 Commerce](domains-commerce.md). Þegar setja á upp nýjan leigjanda rafrænna viðskipta með [Microsoft Dynamics Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide) skal fylgja skrefunum í [Uppsetning á nýjum leigjanda rafrænna viðskipta](deploy-ecommerce-site.md). Þegar lokið er við að setja upp nýjan leigjanda rafrænna viðskipta, verður tengill útvegaður á Commerce Site Builder. Síðan er hægt að nota Commerce Site Builder til að frumstilla og grunnstilla svæði fyrir rafræn viðskipti.
 
 ## <a name="initialize-your-e-commerce-site"></a>Ræsa svæðið þitt fyrir rafræn viðskipti
 
 Þegar þú ræsir Commerce Site Builder í LCS birtist vefsíðan **Svæði** um leið. Á þessari síðu birtast tvö forstillt vefsvæði, **sjálfgefið** og **Fabrikam** eins og sýnt er í dæminu á skýringarmyndinni hér á eftir.
 
-![Svæðasíða í Commerce Site Builder](media/e-commerce-site-01.png)
+![Svæðasíða í Commerce Site Builder.](media/e-commerce-site-01.png)
 
 Þegar eitt af þessum svæðum er valið er beðið um að velja lénsheiti, sjálfgefna netverslunarrás, studd tungumál fyrir valda rás og vefslóð. Hægt er að hafa vefslóðina auða ef aðeins ein rás er notuð. Hægt er að skilgreina fleiri netverslunarrásir eða tungumál síðar í Commerce Site Builder. Hver viðbótarleið eða tungumál mun krefjast einkvæmrar slóðar. Til dæmis eru netrásir tengdar við eitt svæði og lénsheitið fyrir svæðið er `www.fabrikam.com`. Í slíku tilviki getur vefslóð einnar rásarinnar verið sjálfgefna gildið sem hefur enga vefslóð (`https://www.fabrikam.com`) og seinni rásina er hægt að stilla á nýja vefslóð eins og **site2** með vefslóðina `https://www.fabrikam.com/site2`. Á eftirfarandi skýringarmynd er sýnt dæmi um svarglugga ræsingar vefsvæðis í Commerce Site Builder.
 
@@ -60,17 +56,17 @@ Síðan **Svæði** inniheldur einnig hnappinn **Nýtt vefsvæði**. Svargluggin
 
 Eftir að nýtt svæði er frumstillt opnast **Heimasíða** Commerce Page Builder. Þessi síða innheldur tengla á algengar aðgerðir og leiðbeiningar eins og kemur fram í dæminu á skýringarmyndinni hér á eftir.
 
-![Tenglar á heimasíðu í Commerce Site Builder](media/e-commerce-site-03.png)
+![Tenglar á heimasíðu í Commerce Site Builder.](media/e-commerce-site-03.png)
 
 ## <a name="modify-online-store-channels-or-add-online-store-channels-to-an-e-commerce-site"></a>Breyta netverslunarrásum eða bæta netverslunarrásum við vefsvæði í e-Commerce
 
 Þegar búið er að stofna svæði fyrir rafræn viðskipti er hægt að breyta rásinni sem henni tengist með því að fylgja eftirfarandi skrefum í [Tengja svæði rafrænna viðskipta við netrás](associate-site-online-store.md). Dæmið sem kemur fram á skýringarmyndinni hér á eftir sýnir hvernig hægt er að breyta númeri sjálfgefinnar rásar rekstrareiningar (OUN) á síðunni **Rás** (**Stillingar vefsvæðis \> Rásir**). Þegar búið er að gera breytingu skal ganga úr skugga um að velja **Vista og birta**. Á þennan hátt er tryggt að breytingin birtist.
 
-![Rásarsíða í Commerce Site Builder](media/e-commerce-site-04.png)
+![Rásarsíða í Commerce Site Builder.](media/e-commerce-site-04.png)
 
 Hægt er að bæta við nýjum rásum með því að velja **Bæta við rás**. Til að bæta nýjum tungumálum við rásina skal velja rásina og síðan velja **Bæta við stað** í svarglugganum sem birtist. Áður en staðir geta birst í svarglugganum verða þeir að vera forskilgreindir fyrir netverslunarrásina í Commerce Headquarters.
 
-![Svargluggi rásar í Commerce Site Builder](media/e-commerce-site-05.png)
+![Svargluggi rásar í Commerce Site Builder.](media/e-commerce-site-05.png)
 
 ## <a name="set-up-an-azure-b2c-tenant"></a>Setja upp Azure B2C-leigjanda
 
@@ -121,3 +117,6 @@ Nánari upplýsingar um hvernig á að stjórna efni svæðis er að finna í ef
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
 
 [Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

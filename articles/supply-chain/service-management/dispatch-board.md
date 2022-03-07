@@ -2,28 +2,25 @@
 title: Sendingartafla
 description: Í sendingartafla er aðalstaðsetningin þaðan sem hægt er að skoða stöðu verkþátta í þjónustupöntun.
 author: ShylaThompson
-manager: tfehr
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c1aafa15b0e4ba9205f19a00ae19d2c84ce6fa0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f2a7020b06f469947599f558890b1ab8cc7dbce0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430250"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836207"
 ---
 #  <a name="dispatch-board"></a>Sendingartafla 
 
@@ -54,3 +51,6 @@ Upplýsingar um hvernig á að framkvæma tiltekið verkefni á sendingarspjaldi
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

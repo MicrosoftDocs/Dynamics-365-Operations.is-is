@@ -1,26 +1,24 @@
 ---
 title: Eftirágreiddur afsláttur lánardrottins
 description: Þetta efnisatriði veitir yfirlit yfir algengustu erkefni sem þú vilt hugsanlega vinna þegar þú vinnur með eftirágreiddur afsláttur lánardrottins. Eftirágreiddur afsláttur lánardrottins hjálpar fyrirtæki að stjórna áætlunum fyrir eftirágreiddan afslátt með því að gera áskilin verk sjálfvirk til að stjórna, rekja og innheimta áunninn eftirágreiddan afslátt.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 46d6beb287f7d034c6fde09999f7854695a4987c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: ec8d054d023b7e3f6611199e60f661c480d44d57
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966656"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566864"
 ---
 # <a name="vendor-rebates"></a>Eftirágreiddur afsláttur lánardrottins
 
@@ -55,7 +53,7 @@ Samningur um eftirágreiddur afsláttur við lánardrottinn er heimild um samnin
 
 Til að opna síðuna **Samningar um eftirágreiddan afslátt til lánardrottis** skal velja **Innkaup og aðföng** &gt; **Eftirágreiddur afsláttur lánardrottins** &gt; **Samningar um eftirágreiddan afslátt**.
 
-![Innkaupasamningur](media/purchase-agreement.PNG)
+![Innkaupasamningur.](media/purchase-agreement.PNG)
 
 Á síðunni **Samningar um eftirágreiddan afslátt** er hægt að skoða upplýsingar um umsamin ákvæði í samningi við lánardrottinn.
 
@@ -131,7 +129,7 @@ Endurgreiðslukröfur sem eru myndaðar tákna framtíðargreiðslur sem hægt e
 
     Færslubók fyrir uppsafnaðan eftirágreiddan afslátt er bókuð fyrir upphæð aflsáttar. Þessi bókun skuldfærir reikning móttekins eftirágreidds afsláttar lánardrottins fyrir væntanlegri kreditupphæð lánardrottins og gjaldfærir reiknings greidds eftirágreidds afsláttar.
 
-    ![Skilaboð](media/message.png)
+    ![Skilaboð.](media/message.png)
 
 5. Í endurgreiðslulistanum skaltu velja línuna og síðan, á aðgerðarúðunni, velja **Færslur eftirágreidds afsláttar** til að sjá og fletta í bókarkeyrslunni fyrir þessa endurgreiðslubókun.
 
@@ -166,3 +164,6 @@ Ferlið til að meðhöndla eftirágreiddan afslátt lánardrottins felur í sé
 - Búa til nákvæmar endurgreiðslukröfur
 - Safna væntanlegum og tímabundnum hagnaði í fjárhag
 - Uppfæra stöðu lánardrottins og rekstrarreikning með gjaldföllnu heimildinni
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,8 @@
 title: GETENUMVALUEBYNAME ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin GETNUMVALUEBYNAME í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
-manager: kfend
 ms.date: 09/23/2020
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29d7ec6498090ea47259303237c5a64a26e4926b
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 03759852e5ceb13b79b0df4592bdcef76eb0a82865725c00df40b9cc5f786240
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685932"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774438"
 ---
 # <a name="getenumvaluebyname-er-function"></a>GETENUMVALUEBYNAME ER-aðgerð
 
@@ -64,7 +61,7 @@ Engin undantekning er gerð ef gildið *Enum* er ekki að finna með því að n
 
 Í eftirfarandi mynd er **ReportDirection** upptalningin kynnt í gagnalíkani. Athugaðu að merki eru skilgreind fyrir tölusetningargildin.
 
-![Tiltæk gildi fyrir tölusetningu gagnalíkans](./media/ER-data-model-enumeration-values.PNG)
+![Tiltæk gildi fyrir tölusetningu gagnalíkans.](./media/ER-data-model-enumeration-values.PNG)
 
 Eftirfarandi mynd sýnir þessar upplýsingar:
 
@@ -72,7 +69,7 @@ Eftirfarandi mynd sýnir þessar upplýsingar:
 - Segðin `$IsArrivals` er hönnuð til að nota líkanatölusetningarbyggðan gagnagjafa **$Direction** sem færibreytu þessarar aðgerðar.
 - Gildi þessarar samanburðarsegðar er **TRUE**.
 
-![Dæmi um tölusetningu gagnalíkans](./media/ER-data-model-enumeration-usage.PNG)
+![Dæmi um tölusetningu gagnalíkans.](./media/ER-data-model-enumeration-usage.PNG)
 
 ## <a name="example-2"></a>Dæmi 2
 
@@ -80,14 +77,14 @@ Aðgerðirnar `GETENUMVALUEBYNAME` og [`LISTOFFIELDS`](er-functions-list-listoff
 
 Á eftirfarandi mynd er gagnagjafinn **TransType** kynntur í líkanavörpun. Þessi gagnagjafi vísar í forritstölusetningu **LedgerTransType**.
 
-![Gagnagjafi líkanavörpunar sem vísar í tölusetningu forrits](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+![Gagnagjafi líkanavörpunar sem vísar í tölusetningu forrits.](./media/er-functions-text-getenumvaluebyname-example2-1.png)
 
 Eftirfarandi mynd sýnir gagnagjafann **TransTypeList** sem er skilgreindur í líkanavörpun. Þessi gagnagjafi er skilgreindur út frá **TransType** tölusetningu forrits. `LISTOFFIELDS`-aðgerðin er notuð til að skila öllum gildum tölusetningar sem lista yfir færslur sem innihalda reiti. Á þennan hátt verða upplýsingar um sérhvert gildi tölusetningar sýndar.
 
 > [!NOTE]
 > **EnumValue** gildið er skilgreint fyrir **TransTypeList** gagnagjafann með því að nota `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)`-segðina. Þessi reitur skilar gildi tölusetningar fyrir hverja færslu í þessum lista.
 
-![Gagnagjafi líkanavörpunar sem skilar öllum tölusetningargildum af valinni tölusetningu sem lista yfir færslur](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+![Gagnagjafi líkanavörpunar sem skilar öllum tölusetningargildum af valinni tölusetningu sem lista yfir færslur.](./media/er-functions-text-getenumvaluebyname-example2-2.png)
 
 Eftirfarandi mynd sýnir gagnagjafann **VendTrans** sem er skilgreindur í líkanavörpun. Þessi gagnagjafi skilar lánardrottnafærslum úr forritstöflu **VendTrans**. Fjárhagsgerð hverrar færslu er skilgreind eftir gildinu á reitnum **TransType**.
 
@@ -96,11 +93,11 @@ Eftirfarandi mynd sýnir gagnagjafann **VendTrans** sem er skilgreindur í líka
 >
 > Reiturinn **TransTypeTitle** er bundinn við **LedgerType** reit gagnalíkans sem gerir kleift að nota þessar upplýsingar í öllum sniðum rafrænnar skýrslugerðar sem notar gagnalíkanið sem upprunastað gagna.
 
-![Gagnagjafi líkanavörpunar sem skilar lánardrottnafærslum](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+![Gagnagjafi líkanavörpunar sem skilar lánardrottnafærslum.](./media/er-functions-text-getenumvaluebyname-example2-3.png)
 
 Eftirfarandi mynd sýnir hvernig hægt er að nota [kembiforrit gagnagjafans](er-debug-data-sources.md) til að prófa skilgreinda líkanavörpun.
 
-![Nota kembiforrit gagnagjafa til að prófa skilgreinda líkanavörpun](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+![Nota kembiforrit gagnagjafa til að prófa skilgreinda líkanavörpun.](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
 
 **LedgerType** reitur gagnalíkans sýnir merki af færslugerðum eins og búist var við.
 
@@ -117,3 +114,6 @@ Ef ætlunin er að nota þessa nálgun fyrir mikið magn af færslugögnum verð
 [FIRSTORNULL ER-aðgerð](er-functions-list-firstornull.md)
 
 [WHERE ER-aðgerð](er-functions-list-where.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

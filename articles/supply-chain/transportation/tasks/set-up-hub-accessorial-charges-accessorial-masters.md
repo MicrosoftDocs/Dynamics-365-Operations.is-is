@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TMSCarrierAccessorial,TMSAccessorialMaster, TMSHubAccessorial
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad89afe0a21261c57311c439153b969d837748e4
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.openlocfilehash: cb2e9125c7a38d1dc5e6866a056fb71f25e40928
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4430794"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233680"
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>Setja upp aukagjöld stöðvar og sniðmát fyrir aukaþjónustu
 
@@ -54,3 +53,6 @@ ms.locfileid: "4430794"
 9. Smellið á „Vista“.
 10. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

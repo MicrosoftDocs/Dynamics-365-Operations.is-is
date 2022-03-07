@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b3571640ff9854b70d1c9bd41971aca88e0b1a02
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3b4b615ab1df5031afe52d3392d76c8da386dd8e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430483"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204425"
 ---
 # <a name="manage-template-boms-on-object-relations"></a>Stjórna sniðmátsuppskriftum í tengslum hluta 
 
@@ -87,3 +86,6 @@ ms.locfileid: "4430483"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

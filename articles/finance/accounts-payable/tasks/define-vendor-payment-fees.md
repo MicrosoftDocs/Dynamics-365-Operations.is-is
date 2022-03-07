@@ -2,23 +2,25 @@
 title: Skilgreina greiðsluþóknanir lánardrottna
 description: Setja upp greiðsluþóknun lánardrottins
 author: abruer
-ms.date: 02/11/2022
+manager: AnnBe
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymFee, VendPaymModeFee, BankAccountTableLookUp
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c490bb4d15fa03742b12f337046f26976ab70d29
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
-ms.translationtype: MT
+ms.openlocfilehash: 52321851a1aa588a0bbe238e366a28d503665988
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109832"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979339"
 ---
 # <a name="define-vendor-payment-fees"></a>Skilgreina greiðsluþóknanir lánardrottna
 
@@ -26,36 +28,33 @@ ms.locfileid: "8109832"
 
 Setja upp greiðsluþóknun lánardrottins Þetta verkefni notar USMF-sýnifyrirtækið.
 
-1. Fara til **Viðskiptaskuldir > Greiðsluuppsetning > Greiðslugjald**.
-2. Smellt er á **Nýtt**.
-3. Í **Gjaldskr** reit, sláðu inn gildi.
-    * The **Gjaldskr** ætti að lýsa því hvenær þetta gjald verður notað, svo sem "EFT_Fee".  
-4. Í reitinn **Heiti** skal slá inn gildi.
-5. Í **Gjaldslýsing** reit, sláðu inn gildi.
+1. Fara í Viðskiptakröfur > Greiðsluuppsetning > Greiðsluþóknun.
+2. Smellið á „Nýtt“.
+3. Færa inn gildi í reitnum Kenni greiðsla .
+    * Kenni Þóknunar ætti að lýsa hvenær gjaldi verður notað eins og "EFT_Fee".  
+4. Í reitinn Heiti skal slá inn gildi.
+5. Færa inn gildi í lýsingarsvæðinu Þóknunar.
     * Bæta við lýsingu til að veita frekari upplýsingar um þegar þóknunin er metin.  
-6. Í **Hleðsla** reit, veldu annað hvort **Seljandi** eða **Fjárhagsbók**.
-    * **Fjárhagsbók** er notað þegar gjaldið verður gjaldfært á fyrirtæki þitt. **Seljandi** er notað þegar gjaldið verður metið til seljanda.  
+6. Velja Lánardrottna eða Fjárhagslykla í svæðinu Gjalda.
+    * Fjárhagur er notaður þegar þóknunar gjaldfærðar í þínu fyrirtæki.  Lánardrottinn er notaður þegar þóknunin verður metin til lánardrottins.  
 7. Færið inn aðallykil fyrir þar sem þóknunin verður kostnaðarfært.
-    * Þessi valkostur er aðeins í boði þegar þú velur **Fjárhagsbók** sem **Hleðsla** valmöguleika.  
+    * Þessi valkostur er aðeins tiltækur þegar valinn er Fjárhag sem valkostur Gjalda.  
 8. Velja færslubók sem nota má þessa þóknun. 
     * Fyrir Greiðsluþóknun lánardrottins, mundirðu velja færslubók 'Lánardrottinsgreiðsluna'.  
-9. Smelltu á S **ave**.
-10. Smellt er á **Uppsetning greiðsluþóknunar**.
-    * Haltu áfram að **Uppsetning greiðslugjalds** til að skilgreina hvenær gjaldið ætti að vera sjálfgefið í dagbókinni sem þú valdir.  
-11. Veldu annað hvort **Tafla**, **eða** **Allt**.
-    * **Tafla** er notað til að velja einn bankareikning, **Hópur** er notað til að velja bankahóp, og **Allt** er að nota þessa gjaldskrá fyrir alla bankareikninga.  
+9. Smellið á „Vista“.
+10. Smellt er á uppsetning Greiðsluþóknunar.
+    * Halda áfram greiðsluþóknunaruppsetning til að skilgreina hvenær þóknun verði sjálfgefið á færslubókar sem er valin.  
+11. Veljið annað hvort Töflu, Flokk eða Allt.
+    * Tafla er notuð til að velja einn bankareikning Flokkurinn er notaður til að velja bankaflokk og Allt er til að nota þessa uppsetningu þóknunar fyrir alla bankareikninga  
 12. Veljið bankaflokk eða bankareikningi.
-    * Uppflettingin mun sýna bankahóp ef þú valdir **Hópur**, og mun sýna bankareikninga ef þú valdir **Tafla**.  
+    * Uppfletting sýna bankaflokk ef valinn var Flokkur, og sýna bankareikninga ef Tafla var valin.  
 13. Velja Greiðsluhátt sem verður metið þessu gjaldi.
-14. Veldu **Greiðslulýsing** fyrir valinn greiðslumáta.
-    * The **Greiðslulýsing** er notað með rafrænum millifærslumáta greiðslu.  
+14. Velja greiðsluupplýsingar til að nota fyrir valinn greiðsluháttinn.
+    * Greiðsluupplýsingar er notaður við rafræna sjóður greiðsluhættir flutning.  
 15. Velja hvort gjaldið er prósentu, upphæð eða bili.
 16. Færa inn prósentu eða upphæð þóknunar.
-    * Ef **Gjald** er prósenta, sláðu inn prósentuna. Ef **Gjald** er upphæð skal slá inn upphæð gjaldsins. Ef **Gjald** er bil, notaðu **Tímabil** flipa til að skilgreina þrepaskipt gjöld.  
-17. Í **Gjaldmiðill** reit, veldu gjaldmiðilinn sem gjaldið verður metið í.
+    * Færa inn prósentu ef Þóknunin er prósenta. Ef Gjaldið er upphæð, færið inn upphæð þóknunar. Notið flipann Bil til að skilgreina lagskipt gjöld ef Þóknunin er millibili.  
+17. Í gjaldmiðill Þóknunar, veljið þann gjaldmiðil sem þóknunin verður metin.
     * Þessi gjaldmiðill er fyrir þóknun. Greiðslugjaldmiðli er notuð til að skilgreina hvenær þóknun regluna ætti að vera metin á grundvelli gjaldmiðli greiðslu. Til dæmis bankanum gæti gjaldfærð þóknun þegar greiðsla er gerð í EUR, en aðrar greiðslur ekki eru metnar fyrir þóknun.  
-18. Smelltu á **Vista**.
+18. Smellið á „Vista“.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

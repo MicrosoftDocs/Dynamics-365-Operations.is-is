@@ -1,12 +1,10 @@
 ---
 title: Afskriftir eigna
-description: Þetta efnisatriði veitir yfirlit yfir afskriftir eigna.
-author: ShylaThompson
-manager: AnnBe
+description: Þetta efnisatriði veitir yfirlit yfir afskriftir í eignum.
+author: moaamer
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
@@ -14,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 3121
 ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b399ab3df9bddbce8b96752ef344bf93cb2563c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 54da35a39791a9e528896f3decd10476ad5af2d9
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969104"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675001"
 ---
 # <a name="fixed-asset-depreciation"></a>Afskriftir eigna
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir yfirlit yfir afskriftir eigna.
+Þetta efnisatriði veitir yfirlit yfir afskriftir í eignum.
 
 Afskriftir eru tímabilsfærsla sem vanalega minnkar virði eigna í efnahagslykli og er gjaldfærð á rekstrarlykla sem útgjöld. Þess vegna er aðallykil yfirleitt notaður til að kreditfæra reglubundnar afskriftir í efnahagslykli. Mótlykill er lykill í hagnaðar- og taphluta bókhaldslykilsins.
 
@@ -56,3 +54,6 @@ Frekari upplýsingar eru í [Afskriftaaðferðir og hefðir](depreciation-method
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

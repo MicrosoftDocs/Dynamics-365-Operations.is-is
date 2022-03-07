@@ -1,43 +1,42 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Human Resources (14. maí 2020)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 14. maí 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 76ca497cc7fabf737c8a0ee71363f22fd4201ea8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: cb4693f3c856e7abcc39cbd658183d01ec98a066
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528498"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063748"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (14. maí 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Human Resources. Breytingar eiga við um byggingarnúmer 8.1.3244. Tölurnar í sviga í sumum fyrirsögnum vísa til stuðningsnúmera í Lifecycle Services (LCS) vegna tilvísunar.
 
 ## <a name="platform-changes"></a>Verkvangsbreytingar
 
-Breytingar á verkvangi eru teknar með í útgáfu þessarar viku. Frekari upplýsingar er að finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.10 af Finance and Operations -forritum (maí 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34). Þessi útgáfa inniheldur villuleiðréttingar og breytingar á vistuðum yfirlitum.
+Breytingar á verkvangi eru teknar með í útgáfu þessarar viku. Fyrir frekari upplýsingar, sjá [Palluppfærslur fyrir útgáfu 10.0.10 af Finance and Operations forritum (maí 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md). Þessi útgáfa inniheldur villuleiðréttingar og breytingar á vistuðum yfirlitum.
  
-## <a name="ensure-common-data-service-picklists-are-consistent-with-leave-enums-436343"></a>Tryggið að tínslulistar Common Data Service séu í samræmi við fasttexta leyfa (436343)
+## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Tryggið að tínslulistar Dataverse séu í samræmi við fasttexta leyfa (436343)
 
-Tínslulistar Common Data Service eru nú í samræmi við fasttexta leyfa.
+Tínslulistar Dataverse eru nú í samræmi við fasttexta leyfa.
 
 ## <a name="allow-users-to-configure-leave-request-workflow-based-on-the-request-amount-300044"></a>Leyfa notendum að grunnstilla verkflæði leyfisbeiðna út frá umbeðnu magni (300044)
 
@@ -75,7 +74,7 @@ Gagnaeiningin **Persónulegur tengiliður starfsmanns** (**HcmPersonalContactPer
 
 Með þessari breytingu er borðinn „Hafist handa“ falinn fyrir notendum sem eru ekki kerfisstjórar eða stjórnendur gagnastjórnunar. 
 
-## <a name="the-common-data-service-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>Einingin Common Data Service póstfang starfsmanns vinnur á annan hátt að því er varðar dagsetningar gildisdagsetninga í Mannauði (425071)
+## <a name="the-dataverse-worker-address-entity-works-differently-in-terms-of-date-time-effective-dates-in-human-resources-425071"></a>Einingin Dataverse póstfang starfsmanns vinnur á annan hátt að því er varðar dagsetningar gildisdagsetninga í Mannauði (425071)
 
 Þessi breyting heldur upplýsingum um aðsetur jöfnuðum í vissum aðstæðum, með hliðsjón af dagsetningum aðseturs.
 
@@ -116,6 +115,8 @@ Hægt er að tilgreina yfirfærsluorlofsgerð fyrir yfirfærslustöður þar sem
 ## <a name="see-also"></a>Sjá einnig
 
 [Nýjungar í Human Resources](hr-admin-whats-new.md)</br>
-[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

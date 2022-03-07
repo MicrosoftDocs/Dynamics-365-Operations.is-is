@@ -1,12 +1,10 @@
 ---
-title: Haga ráðningarferlum
-description: Þessi skrá lýsir hugmyndinni sem ráðningaraðilar geta nota til að rekja skref í ráðningarferli, þar með talið viðleitni til að auglýsa opnar stöður og ráða umsækjendur, rekja upplýsingar um umsækjandann og umsóknina, taka viðtöl við umsækjendur og að velja einn eða fleiri umsækjendur að fylla opnar stöður í fyrirtækinu.
+title: Stjórna ráðningarferlum
+description: Þetta efni lýsir hugtaki sem ráðningaraðilar geta notað til að fylgjast með skrefum í ráðningarferli.
 author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/10/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
@@ -17,16 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e30a30aee5edcea2e24b326b0f263612b6b897
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798044"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075476"
 ---
-# <a name="manage-recruiting-processes"></a>Haga ráðningarferlum
+# <a name="manage-recruiting-processes"></a>Stjórna ráðningarferlum
 
-[!include [banner](../includes/banner.md)]
+> [!IMPORTANT]
+> Virknin sem bent er á í þessu efnisatriði er eins og er í boði fyrir mannauðsviðskiptavini á fjármálainnviðum.  
+
 
 Þetta efnisatriðilýsir hugmyndinni sem ráðningaraðilar geta nota til að rekja skref í ráðningarferli, þar með talið viðleitni til að auglýsa opnar stöður og ráða umsækjendur, rekja upplýsingar um umsækjandann og umsóknina, taka viðtöl við umsækjendur og að velja einn eða fleiri umsækjendur að fylla opnar stöður í fyrirtækinu.
 
@@ -44,7 +44,7 @@ Ráðningarverk leyfa ráðningaraðilum að rekja framvindu gegn fyllingu einna
 - Tímamörk umsóknar
 - Áætlaður upphafsdagur
 
-Ráðningarverkið inniheldur **Starfsauglýsinguna** sem er notuð í **Sjálfsafgreiðsla starfsmanns** til að auglýsa stöðurnar. Til að birta starfsmönnum stöðurnar verður ráðningarverkið að hafa **Starfsauglýsinguna**, reitinn **Birta í sjálfsafgreiðslu starfsmanns** stilltan á Já, **Tímamörk umsóknar** verður að vera stillt á dagsetningu í framtíðinni, og ráðningarverkið verður að hafa í **staða Verks** byrjað. Í eftirfarandi töflu er listi yfir möguleg ráðningarverk verkstöðu og lýsingu þeirra.
+Ráðningarverkefnið inniheldur **Atvinnuauglýsing** gildi sem er notað á **Sjálfsafgreiðsla starfsmanna** síðu til að auglýsa opnunina. Aðeins er hægt að sýna starfsmönnum opnunina ef ráðningarverkefnið hefur a **Atvinnuauglýsing** gildi, the **Birting á sjálfsafgreiðslu starfsmanna** reiturinn er stilltur á **Já**, hinn **Umsóknarfrestur** reit er stillt á framtíðardagsetningu og ráðningarverkefnið hefur a **Staða verkefnisins** verðmæti á **Byrjað**. Í eftirfarandi töflu er listi yfir möguleg ráðningarverk verkstöðu og lýsingu þeirra.
 
 | Staða    | Gefur til kynna að...                                                                         |
 |-----------|-----------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Ráðningaraðilar geta einnig skráð fyrir **Miðla** sem notaðir voru til a�
 
 ## <a name="applicants"></a>Umsækjendur
 
-Umsækjandi er sá einstaklingur sem sækir um starf í fyrirtækinu. Umsækjendur eru samnýttar á milli allra lögaðila í samstæðunni, sem veitir stóran hóp af færu fólki til að leita í. Hægt er að viðhalda færni, meðmælum, og beiðnum um aðlögun og persónulegum upplýsingum fyrir umsækjendur. Þegar færsla umsækjanda er stofnuð, tengiliðafærslu fyrir umsækjanda er stofnuð í altæku aðsetursbókinni. Hægt er að nota síðuna **Umsækjandi** til að uppfæra eftirfarandi altækar aðsetursbókarupplýsingar fyrir einstaklinga sem eru umsækjendur:
+Umsækjandi er sá einstaklingur sem sækir um starf í fyrirtækinu. Umsækjendum er deilt á milli allra lögaðila í fyrirtækinu þínu. Þess vegna hefur þú stóran hóp af hæfileikum til að leita í. Hægt er að viðhalda færni, meðmælum, og beiðnum um aðlögun og persónulegum upplýsingum fyrir umsækjendur. Þegar færsla umsækjanda er stofnuð, tengiliðafærslu fyrir umsækjanda er stofnuð í altæku aðsetursbókinni. Hægt er að nota síðuna **Umsækjandi** til að uppfæra eftirfarandi altækar aðsetursbókarupplýsingar fyrir einstaklinga sem eru umsækjendur:
 
 - Upplýsingar um aðsetur
 - Tengslaupplýsingar
@@ -86,7 +86,7 @@ Staða umsóknar gefur til kynna hvar umsókn er í ráðningarferlinu. Í eftir
 
 ### <a name="correspondence-actions"></a>Samskiptaaðgerðir
 
-Samskiptaaðgerð **Umsóknar** ákvarðar sniðmát skjals eða tölvupóstsniðmát sem notað er til að eiga samskipti við umsækjandann sem sendi inn umsóknina. Hægt er að tengja **Bókamerki umsókna** við samskiptaaðgerðir til að leyfa að gildi séu notuð af síðunum Umsókn, Umsækjandi, Viðtal og Ráðningarverk í samskiptum við umsækjendur. Hægt er að stofna **Tölvupóstsniðmát umsókna** fyrir samskiptaaðgerðir til að senda skjótan tölvupóst til umsækjenda sem hafa umsókn með tiltekna samsetningu á stöðu og samskiptaaðgerð. Til dæmis gætirðu sent staðfestingartölvupóst til allra umsækjenda með **stöðuna** Móttekið **samskiptaaðgerðina** Móttekið. Þegar tölvupósturinn hefur verið sendur þarf að uppfæra sjálfkrafa stöðu umsókna.
+Samskiptaaðgerð umsóknar ákvarðar skjalið eða tölvupóstsniðmátið sem þú notar til að eiga samskipti við umsækjanda sem lagði inn umsóknina. Með því að tengja **bókamerki forrita** með samskiptaaðgerðum geturðu notað gildi úr **Umsókn**, **·**, **·**, og **Ráðningarverkefni** síður í samskiptum þínum við umsækjendur. Með því að búa til **umsóknarsniðmát fyrir tölvupóst** fyrir bréfaskiptaaðgerðirnar geturðu sent tölvupóst á fljótlegan hátt til umsækjenda þar sem umsóknir hafa ákveðna blöndu af stöðu og bréfaskiptaaðgerð. Til dæmis er hægt að senda staðfestingarpóst á öll forrit sem hafa a **Staða** verðmæti á **Tekið á móti** og a **Bréfaaðgerðir** verðmæti á **Tekið á móti**. Eftir að þú hefur sent tölvupóstinn hefurðu möguleika á að uppfæra sjálfkrafa stöðu forritanna.
 
 ## <a name="application-routing"></a>Leiðir umsókna
 
@@ -103,3 +103,5 @@ Ef nokkrir starfsmenn þurfa að skoða umsóknina er hægt að nota síðuna **
 ## <a name="hiring-applicants"></a>Ráðnir umsækjendur
 
 Nota skal **Umsóknir** síðu til að ráða umsækjanda. Þegar umsækjandi er ráðinn mun umsóknarfærslan fá stöðuna **Ráðinn** og einstaklingsfærsla umsækjandans í altækri aðsetursbók er tengd við nýja skrá starfsmanns. Breytingar á upplýsingum altækrar aðsetursbókar fyrir nýja færslu starfsmanns eru einnig birtar í færslu umsækjanda. Þetta getur minnkað gagnainnfærslu ef nýr starfsmaður sækir aldrei um annað starf innan fyrirtækisins. Til að ráða starfsmanni í nýja stöðu, smellið á **Breyta stöðu** í fellilistanum **Umsóknastaða** til að hefja flutningsferlið.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

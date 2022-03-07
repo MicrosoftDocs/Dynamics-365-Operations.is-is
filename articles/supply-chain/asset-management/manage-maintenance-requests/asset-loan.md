@@ -1,12 +1,10 @@
 ---
 title: Eignarlán
 description: Þetta efni lýsir því hvernig á að skrá lán á eignir í eignastýringu.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectLoanSend, EntAssetObjectLoanListPage, EntAssetObjectLoanReturn, EntAssetObjectLoanInfoPart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 355e3d3e0e952db14a03810145528f9701804ca2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 65809d9be39372412d5d6b419f7356fe2c9668a1a01ede32ef52cbd66753e6d7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022333"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752851"
 ---
 # <a name="asset-loans"></a>Eignarlán
 
@@ -46,7 +44,7 @@ Ef fyrirtæki þitt fær eignir til viðgerðar- eða viðhaldsstarfa frá anna�
 
 Til að skoða lista yfir allar eignir sem þú hefur lánað til annarra staða eða viðskiptavina skaltu velja **Eignastýring** \> **Sameiginlegt** \> **Eignalán** \> **Öll eignalán**. Ef gátreiturinn **Klárað** er valinn fyrir eign hefur eignin verið skráð sem skilað til fyrirtækisins.
 
-![Vinna með viðhaldsbeiðnir](media/06-manage-maintenance-requests.png)
+![Vinna með viðhaldsbeiðnir.](media/06-manage-maintenance-requests.png)
 
 Á síðunni **Virk eignalán** geturðu skoðað lista yfir allar lánaeignir sem hefur ekki enn verið skilað til fyrirtækisins.
 
@@ -57,3 +55,6 @@ Til að skoða lista yfir allar eignir sem þú hefur lánað til annarra staða
 3. Í reitnum **Skilað** skaltu slá inn dagsetningu og tíma.
 4. Veljið **Í lagi**.
 5. Endurnærðu **Virk eignalán** listasíðu og taktu eftir því að eignalánið birtist ekki lengur á listanum.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

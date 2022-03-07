@@ -2,11 +2,9 @@
 title: Kostnaðarhlutir
 description: Þessi grein veitir upplýsingar um kostnaðarhlutum og útskýrir hvernig kostnaði og magni eru uppsafnað. Kostnaðarhlutar er einingar sem kostnaður og magn er safnað upp fyrir. Eining kostnaðarhlutar geta verið annað hvort afurðarafbrigði eða afurð, eins og afbrigði stíls og litar.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCostOnhandItem
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19451
 ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65a0f72f8d97bda36bacd691d545807c413f8825
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: d27e2dcfd8f70c8d4b0f2ae1254f3c4fce63bb4d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967659"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572170"
 ---
 # <a name="cost-objects"></a>Kostnaðarhlutir
 
@@ -66,18 +64,20 @@ Eftirfarandi tafla sýnir hvað er kostnaðarhlutur og hvað birgðahlutur.
 
 **Ábending:** Færibreytan **Taka efnislegt virði með** hefur engin áhrif á fyrri útreikninga.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Afurðavíddaflokkur](https://technet.microsoft.com/library/aa499382.aspx)
+[Afurðavíddaflokkur](/dynamicsax-2012/appuser-itpro/about-product-dimensions)
 
-[Geymsluvíddarflokkur](https://technet.microsoft.com/library/hh209317.aspx)
+[Geymsluvíddarflokkur](/dynamicsax-2012//storage-dimension-groups-form)
 
-[Rakningarvíddarflokkur](https://technet.microsoft.com/library/hh209465.aspx)
+[Rakningarvíddarflokkur](/dynamicsax-2012//tracking-dimension-groups-form)
 
-[Nýjungar eða breytingar](../../fin-and-ops/get-started/whats-new-changed.md)
+[Nýjungar eða breytingar](../../fin-ops-core/fin-ops/get-started/whats-new-changed.md)
 
 [Kostnaðarfærslur](cost-entries.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

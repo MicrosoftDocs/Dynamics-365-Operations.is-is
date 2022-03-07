@@ -2,11 +2,9 @@
 title: Setja upp vöruúrval
 description: Þessi grein lýsir því hvað vöruúrval er og útskýrir hvernig á að setja upp vöruúrval í Dynamics 365 Commerce.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 32edf6534716236706847556a14b951f18ef40ae
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 31ec0079584832537431872fea61a07b58d31648cdac0f29a469bc977009622f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969827"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774486"
 ---
 # <a name="set-up-assortments"></a>Setja upp úrval
 
@@ -33,7 +31,7 @@ ms.locfileid: "4969827"
 
 Úrval er safn tengdra afurða sem úthlutað er á viðskiptarás, eins og verslun á staðnum eða netverslun. Notið úrval til að auðkenna vörurnar sem eru tiltækar í hverri verslun. Úrval getur innihaldið tegundir afurða. Þess vegna, Allar afurðir sem eru tengdar valinni tegund eru með í úrvalinu. Úrval getur einnig innihaldið tilteknar vörur og tiltekinn afbrigði afurða. Með því að setja upp úrval er hægt að tengja þúsundum afurðir við rásir samtímis , í hvaða samsetningu sem verslununum krefjast. Hægt er að setja upp eins mörg vöruúrval sem þú krefst. Hægt er að taka með hverja vöru í einni eða fleiri úrvali og hvert úrval er hægt að úthluta á einn eða fleiri rásir. Til dæmis er geturðu skilgreint einn úrval sem inniheldur grunnsamsetningu afurða. Allar verslanir taka við þessu úrvali. Svo er er að skilgreina annað úrval sem inniheldur aðeins stóran íþróttabúnað. Aðeins stærri verslununum þínum fá úrvalið. Eftirfarandi skýringarmynd sýnir hvernig hægt er að úthluta afurðir í úrval, og hvernig þær úrvali geta tilheyrt rásum.
 
-![Vensl vöruúrvals](./media/assortments_relationship.gif)
+![Vensl vöruúrvals.](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>Forkröfur
 
@@ -54,3 +52,6 @@ Eftir að forkröfur er lokið er hægt að stofna úrval og úthluta á rásir.
 2. Veljið rásir eða hástigs flokka af rása sem úrvalið á við.
 3. Bæta afurðaflokka, stakar afurðir eða afurðarafbrigði við úrvali. Hægt er að taka með allar vörur í tiltekinni tegund, eða hægt er að útiloka valdar afurðir úr tegund sem er tekin með í úrvalið.
 4. Birta vöruúrval Verkraðari úrvals er keyrður sjálfkrafa þegar úrval er birt. Þetta ferli myndar lista yfir afurðir. Síðan þegar þessu ferli er lokið verða þessar afurðir tiltækar til rása sem er tengdur við úrvalið. Ef breytingar eru gerðar á úrval sem hefur verið birt eða á rás sem úrvalinu er úthlutað á, þarf að uppfæra úrvalinu. Hægt er að keyra verkraðari úrvals sem runuvinnslu til að uppfæra úrvalinu þegar breytingar eru gerðar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

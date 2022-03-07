@@ -2,27 +2,24 @@
 title: Hlaða sniðmáti hleðslu
 description: Þetta efnisatriði útskýrir hvernig á að vinna með vinnusvæði hleðsluáætlunar.
 author: Henrikan
-manager: ''
 ms.date: 10/30/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy
+ms.search.form: TMSLoadBuildWorkbench,TMSLoadBuildTemplateCreate,TMSLoadBuildStrategy,TMSLoadBuildTemplateApply
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 429a8bac5491a342ecbc8b67c59c71715a4b0889
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 7b8633adbab43c95366d42cf409f5e508771c906
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646401"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809039"
 ---
 # <a name="load-building-workbench"></a>Hlaða sniðmáti hleðslu
 
@@ -67,3 +64,6 @@ Nú er hægt að úthluta hleðsluáætlanir fyrir hleðslusniðmát. Einnig er 
 1. Yfirfara tillögur að hleðslum og tillögur að farmlínum.
 1. Á aðgerðasvæðinu skal velja **Stofna hleðslur** til að stofna hleðslur sem byggja á upprunaskjalslínum í flýtiflipanum **Fyrirhugaðar farmlínur**.
 1. Lokið síðunni **Hlaða sniðmáti hleðslu**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

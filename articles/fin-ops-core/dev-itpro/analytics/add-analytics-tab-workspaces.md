@@ -1,25 +1,23 @@
 ---
 title: Bæta greiningu við vinnusvæði með Power BI Embedded
 description: Þetta efnisatriði sýnir hvernig á að fella inn Power BI skýrslu í greiningarflipann á vinnusvæði.
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680937"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760153"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Bæta greiningu við vinnusvæði með Power BI Embedded
 
@@ -28,12 +26,12 @@ ms.locfileid: "4680937"
 > [!NOTE]
 > Þessi eiginleiki er studdur í Finance and Operations (útgáfa 7.2 og síðar).
 
-## <a name="introduction"></a>Inngangur
-Þetta efnisatriði sýnir hvernig á að fella inn Microsoft Power BI skýrslu í flipanum **Greiningar** á vinnusvæði. Í dæminu sem er gefið hér stækkum við vinnusvæðið **Stjórnun bókana** í forritinu Bílaflotastjórnun til að fella inn greiningarvinnusvæði á **Greiningarflipa**.
+## <a name="introduction"></a>Kynning
+Þetta efnisatriði sýnir hvernig á að fella inn Microsoft Power BI skýrslu í flipann **Greiningar** á vinnusvæði. Í dæminu sem er gefið hér stækkum við vinnusvæðið **Stjórnun bókana** í forritinu Bílaflotastjórnun til að fella inn greiningarvinnusvæði á **Greiningarflipa**.
 
 ## <a name="prerequisites"></a>Frumskilyrði
 + Aðgangur að þróunarumhverfi sem keyrir á Verkvangsuppfærslu 8 eða nýrri.
-+ Greiningarskýrsla (.pbix skrá) sem var búin til með því að nota Microsoft Power BI Desktop, og það hefur gagnalíkan sem er sótt frá gagnagrunni einingaverslunar.
++ Greiningarskýrsla (.pbix skrá) sem var búin til með því að nota Microsoft Power BI Desktop og það hefur gagnalíkan sem er sótt frá gagnagrunni einingaverslunar.
 
 ## <a name="overview"></a>Yfirlit
 Hvort sem þú útvíkkar fyrirliggjandi forritsvinnusvæði eða býrð til þitt eigið vinnusvæði geturðu notað innfelld greiningaryfirlit til að fá skýrt og gagnvirkt yfirlit yfir viðskiptagögnin þín. Ferlið til að bæta við greiningarvinnusvæðisflipa er í fjórum skrefum.
@@ -56,11 +54,11 @@ Fylgdu þessum skrefum til að bæta við .pbix-skrá sem Visual Studio gerving 
 3. Í svarglugganum **Bæta við nýju atriði**, undir **Aðgerðagervingar**, velurðu sniðmátið **Tilföng**.
 4. Færðu inn heiti sem verður notað til að vísa til skýrslunnar í X++ lýsigögnum, og smelltu svo á **Bæta við**.
 
-    ![Bættu við svarglugga fyrir Nýtt atriði](media/analytical-workspace-add.png)
+    ![Bættu við svarglugga fyrir Nýtt atriði.](media/analytical-workspace-add.png)
 
 5. Finndu .pbix skrána sem inniheldur skilgreininguna á greiningarskýrslunnu og smelltu síðan á **Opna**.
 
-    ![Veldu svarglugga Tilfangaskrár](media/analytical-workspace-select-resource.png)
+    ![Veldu svarglugga Tilfangaskrár.](media/analytical-workspace-select-resource.png)
 
 Nú þegar þú hefur bætt við .pbix skránni sem Dynamics 365 tilfangi geturðu fellt skýrslurnar inn í vinnusvæði og bætt við beinum tenglum með því að nota valmyndaratriði.
 
@@ -69,7 +67,7 @@ Nú þegar þú hefur bætt við .pbix skránni sem Dynamics 365 tilfangi getur�
 
 Eftirfarandi skýringarmynd sýnir hvernig skjámyndin **FMClerkWorkspace** lítur út í hönnuðinum í Microsoft Visual Studio.
 
-![FMClerkWorkspace skjámynd fyrir breytingar](media/analytical-workspace-definition-before.png)
+![FMClerkWorkspace skjámynd fyrir breytingar.](media/analytical-workspace-definition-before.png)
 
 Fylgið eftirfarandi skrefum til að víkka út skjámyndarskilgreininguna fyrir vinnusvæðið **Stjórnun bókana**.
 
@@ -94,7 +92,7 @@ Fylgið eftirfarandi skrefum til að víkka út skjámyndarskilgreininguna fyrir
 
 Eftirfarandi skýringarmynd sýnir hvernig hönnunin lítur út eftir að breytingarnar eru gerðar.
 
-![FMClerkWorkspace eftir breytingar](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace eftir breytingar.](media/analytical-workspace-definition-after.png)
 
 Nú þegar þú hefur bætt við skjámyndarstýringunum sem verða notaðar til að fella inn vinnusvæðisskýrsluna, verður þú að skilgreina stærð yfirstýringarinnar svo hún ráði við útlitið. Sjálfgefið er að bæði síðan **Síurúða** og síðan **Flipi** verða sýnilegar á skýrslunni. Hins vegar er hægt að breyta sýnileika þessara stýringa eftir þörfum fyrir markneytanda skýrslunnar.
 
@@ -144,7 +142,7 @@ Fylgdu eftirfarandi skrefum til að bæta við viðskiptagrunni sem virkjar ský
 
 Nú hefurðu lokið því verki að bæta við viðskiptagrunni til að virkja innfellda skýrsluyfirlitsstýringu. Eftirfarandi skýringarmynd sýnir hvernig vinnusvæðið lítur út eftir að breytingarnar eru gerðar.
 
-![Skýrsla felld inn í vinnusvæðið](media/analytical-workspace-final.png)
+![Skýrsla felld inn í vinnusvæðið.](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > Hægt að opna fyrirliggjandi rekstraryfirlit með því að nota vinnusvæðisflipana fyrir neðan titil síðunnar.
@@ -175,3 +173,6 @@ public static void initializeReportControl(
 | showFilterPane   | Boole-gildi sem gefur til kynna hvort síusvæðið ætti að vera sýnt (**satt**) eða falið (**ósatt**).     |
 | showNavPane      | Boole-gildi sem gefur til kynna hvort yfirlitssvæði ætti að vera sýnt (**satt**) eða falið (**ósatt**). |
 | defaultFilters   | Sjálfgefna síur fyrir Power BI skýrslu.                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

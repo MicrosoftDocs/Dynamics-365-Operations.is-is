@@ -2,25 +2,25 @@
 title: Skilgreina færibreytur leigusamninga (forskoðun)
 description: Þetta efnisatriði lýsir skilgreiningarstillingum fyrir Eignaleigu, svo sem öryggisupplýsingum og bókhaldsstillingum.
 author: moaamer
-ms.date: 01/11/2022
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: AssetLeasePostingAccounts
+ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2a644b3c9d9ed4fc86a816af1ab338b96b1aa7ad
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
-ms.translationtype: MT
+ms.openlocfilehash: c681f7d356752a2194a86bc7eaef6ceac1e0af6b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968078"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816101"
 ---
 # <a name="configure-lease-parameters"></a>Skilgreina færibreytur leigu
 
@@ -33,17 +33,16 @@ Nokkrar skilgreiningarstillingar hafa áhrif á það hvernig Eignarleiga virkar
 
     **Heimila Handvirk flokkun hnekking** færibreyta ákvarðar hvort hægt sé að hnekkja flokkun leigusamninga áður en greiðsluáætlun er staðfest.
 
-    The **Krosseiningarlota** færibreytan ákvarðar hvort hægt sé að bóka á aðra lögaðila frá núverandi lögaðila. Ef kveikt er á þessari færibreytu er hægt að stofna bókarfærslu fyrir lögaðilana sem notandinn hefur aðgang að.
+    **Runueining yfir allt** færibreytan ákvarðar hvort hægt er að bóka á aðra lögaðila frá núverandi lögaðila. Ef kveikt er á þessari færibreytu er hægt að stofna bókarfærslu fyrir lögaðilana sem notandinn hefur aðgang að.
 
-3. Stilltu **Leyfa eyðingu staðfestra leigusamninga** valmöguleika til **Já** að heimila að leigusamningum sem hafa staðfestar greiðsluáætlanir verði eytt. Ekki er hægt að eyða leigusamningum ef bókaðar eða óbókaðar færslur eru tengdar þeim, óháð hvernig þessi valkostur er stilltur. Ekki er hægt að endurheimta leiguskrá eftir að henni hefur verið eytt. Ef færslum fyrir eyddan leigusamning er hlaðið upp, annaðhvort handvirkt eða með gagnaeiningum, eru hlaðnar upplýsingar meðhöndlaðar sem nýjar, ekki sem uppfærslur á fyrirliggjandi leigusamningi.
+3. Stilla **leyfa eyðingu á staðfestum leigusamningum** valkostur á **Já** til að heimila leigusamninga sem eru með staðfestar greiðsluáætlanir sem á að eyða. Ekki er hægt að eyða leigusamningum ef bókaðar eða óbókaðar færslur eru tengdar þeim, óháð hvernig þessi valkostur er stilltur. Ekki er hægt að endurheimta leiguskrá eftir að henni hefur verið eytt. Ef færslum fyrir eyddan leigusamning er hlaðið upp, annaðhvort handvirkt eða með gagnaeiningum, eru hlaðnar upplýsingar meðhöndlaðar sem nýjar, ekki sem uppfærslur á fyrirliggjandi leigusamningi.
 
     Ef þessi valkostur er stilltur á **Já**, og breytingagerð bókarinnar er **valkostur A eða B fyrir uppsafnaða endurnýjun**, stillir kerfið reitinn **vextir á nýju lánsfé** við gildi **vextir á nýju lánsfé við umbreytingu** reitinn í **bókaruppsetning** síða. Ef þessi valkostur er stilltur á **Nei** er taxtinn á höfuð leigusamningsins stilltur á gildi **vextir á nýju lánsfé** á síðunni **bókarupplýsingar**, óháð umbreytingargerð á bókinni.
 
-4. Stilltu **Leyfa bakfærslur afskrifta á lokaðri bók** valmöguleika til **Já** til að hægt sé að bakfæra viðskipti með afskriftir. Hægt er að bakfæra kostnaðarfærslur jafnvel þegar bókaútgáfan er lokuð.
+4. Stilla valkostinn **útgáfu Leyfa bakfærslur afskrifta í lokaðri bók** á **Já** til að leyfa að hægt sé að bakfæra afskriftarkostnaðarfærslur. Hægt er að bakfæra kostnaðarfærslur jafnvel þegar bókaútgáfan er lokuð.
 
     > [!NOTE]
     > Mælt er með því að þessi valkostur sé stilltur á **Nei**. Stillingin fyrir þennan valkost er notuð sem staðfesting og stjórnun til að koma í veg fyrir að lokuð bókaútgáfa sé óvart afskrifuð. Með því að stilla valkostinn á **Nei** er hjálpað við að halda bókuðu nettóvirði og útreikningum á afskriftum í framtíðinni réttum.
 
-5. Stilltu **Leyfa sundurliðun greiðsluupphæðar** valmöguleika til **Já** að leyfa sundurliðun á greiðsluupphæðum á **Greiðsluáætlunarlínur** Flýtiflipi á **Leiga** síðu. Greiðslusundurliðunargerðirnar eru skilgreindar undir **Uppsetning** á **Tegundir greiðsluupphæða** síðu. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

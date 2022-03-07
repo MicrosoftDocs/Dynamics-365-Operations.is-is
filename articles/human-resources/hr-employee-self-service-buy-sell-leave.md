@@ -1,31 +1,33 @@
 ---
 title: Kaupa og selja leyfisdaga
-description: Í Dynamics 365 Human Resources er hægt að leggja fram beiðnir um að kaupa og selja leyfi samkvæmt reglum um kaup og sölur leyfa sem fyrirtækið hefur sett upp.
-author: andreabichsel
-manager: AnnBe
-ms.date: 08/20/2020
+description: Þetta efnisatriði lýsir því hvernig senda á inn beiðnir um að kaupa og selja í Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ESSLeaveBuyRequestEntry, EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 2ddc50540ba0686f18b6e8875e40f11c378c448f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419098"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067480"
 ---
 # <a name="buy-and-sell-leave"></a>Kaupa og selja leyfisdaga
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Í Dynamics 365 Human Resources er hægt að leggja fram beiðnir um að kaupa og selja leyfi samkvæmt reglum um kaup og sölur leyfa sem fyrirtækið hefur sett upp.  
 
@@ -49,7 +51,16 @@ Stöðurnar verða annaðhvort uppfærðar sjálfkrafa eða fara í gegnum samþ
 
 Stöðurnar verða annaðhvort uppfærðar sjálfkrafa eða fara í gegnum samþykktarferli áður en uppfærsla fer fram. Þetta veltur á því hvernig kaupreglan hefur verið skilgreind.
 
+
+## <a name="troubleshooting"></a>Úrræðaleit 
+
+Ef ósk um kaup eða sölu á leyfi mistekst munu notendur með réttindin **EssLeaveBuySellRequestApprover** geta farið yfir skilaboðakladdann fyrir allar óskir um kaup og sölu á leyfum. Þetta er gert með því að fara í **Leyfi og fjarvistir > Tenglar > Beiðnir um kaup og sölu á leyfi > Skilaboðakladdi** (efst til vinstri). **Skilaboðakladdinn** sýnir notendum hvernig unnið var úr færslunum og tengdri verkflæðissögu.
+
+
 ## <a name="see-also"></a>Sjá einnig
 
 [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)</br>
 [Stjórna reglum fyrir kaup og sölu á leyfisdögum](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
-title: Virkja greiðsluspár viðskiptavinar
+title: Virkja greiðsluspár viðskiptavinar (forskoðun)
 description: Þetta efnisatriði útskýrir hvernig á að kveikja á og skilgreina eiginleika greiðsluspár viðskiptavinar í fjármálainnsýn.
 author: ShivamPandey-msft
-ms.date: 02/11/2022
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,41 +15,46 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b83d1230c94462ca722ad7ceb7b2185afd636aae
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
-ms.translationtype: MT
+ms.openlocfilehash: 03320aa925ae94ef39d54e64701846089ec66084
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109605"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638585"
 ---
-# <a name="enable-customer-payment-predictions"></a>Virkja greiðsluspár viðskiptavinar
+# <a name="enable-customer-payment-predictions-preview"></a>Virkja greiðsluspár viðskiptavinar (forskoðun)
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að kveikja á og skilgreina eiginleika greiðsluspár viðskiptavinar í fjármálainnsýn. Þú kveikir á eiginleikanum í **Eiginleikastjórnun** vinnusvæði og sláðu inn stillingar á **Uppsetning fjármálainnsýnar** síðu. Þetta efnisatriði inniheldur einnig upplýsingar sem geta aðstoðað þig við að nota eiginleikann á skilvirkan hátt.
+Þetta efnisatriði útskýrir hvernig á að kveikja á og skilgreina eiginleika greiðsluspár viðskiptavinar í fjármálainnsýn. Kveikt er á aðgerðinni á vinnusvæðinu **Eiginleikastjórnun** og skilgreiningarstillingar eru slegnar inn á síðunni **Færibreytur fjármálainnsýnar**. Þetta efnisatriði inniheldur einnig upplýsingar sem geta aðstoðað þig við að nota eiginleikann á skilvirkan hátt.
 
 > [!NOTE]
 > Áður en eftirfarandi skrefum er lokið skal ganga úr skugga um að ljúka undirbúningsskrefunum í efnisatriðinu [Skilgreining fyrir fjármál](configure-for-fin-insites.md).
 
-1. Kveiktu á eiginleikanum fyrir greiðsluspá viðskiptavina:
+1. Notaðu upplýsingar úr umhverfissíðunni í Microsoft Dynamics Lifecycle Services (LCS) til að tengjast aðaltilviki Azure SQL fyrir þetta umhverfi. Keyrið eftirfarandi Transact-SQL (T-SQL) skipun til að kveikja á flugi fyrir sandkassaumhverfa. (Hugsanlega þarf að kveikja á aðgangi að IP-tölu notanda í LCS áður en hægt er að fjartengjast við AOS \[Application Object Server\].)
 
-    1. Opnaðu vinnusvæðið **Eiginleikastjórnun**.
-    2. Veldu **Leita að uppfærslum**.
-    3. Á **Allt** flipi, leitaðu að **Greiðsluspá viðskiptavina**. Ef þú finnur ekki þann eiginleika skaltu leita að **(Forskoðun) Greiðsluspá viðskiptavina**. 
-    4. Kveiktu á eiginleikanum.
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('PayPredEnableFeature', 1)`
 
-    Nú er kveikt á eiginleikum greiðsluspáa viðskiptavina og tilbúið til að stilla hana.
+    > [!NOTE]
+    > Sleppið þessu skrefi ef notuð er útgáfa 10.0.20 eða nýrri eða ef notuð er uppsetning Service Fabric. Fjármögnunarteymið ætti nú þegar að hafa kveikt á forútgáfunni fyrir þig. Ef þú sérð ekki eiginleikann á vinnusvæðinu **Eiginleikastjórnun** eða ef vandamál koma upp þegar reynt er að kveikja á honum skal hafa samband við <fiap@microsoft.com>. 
 
-2. Skilgreina innsýnareiginleika greiðslu viðskiptavinar:
+2. Kveikja á innsýnareiginleika greiðslu viðskiptavinar:
 
-    1. Fara til **Inneign og innheimtur \> Uppsetning \> Innsýn í fjármálum \> Greiðsluspá viðskiptavina**.
-    2. Á **Uppsetning fjármálainnsýnar** síðu, á **Greiðsluspá viðskiptavina** flipa, veldu **Skoðaðu gagnareitina sem notaðir eru í spálíkaninu** að opna **Gagnareitir fyrir spálíkan** síðu. Þar er hægt að skoða sjálfgefinn lista yfir svæði sem eru notuð til að stofna spálíkan gervigreindar (AI) fyrir greiðsluspár viðskiptavinar.
+    1. Opna skal **Kerfisstjórnun \> Vinnusvæði \> Eiginleikastjórnun**.
+    2. Leitaðu að eiginleikanum sem heitir **Innsýn í greiðslu viðskiptavinar (forskoðun)**.
+    3. Veldu **Virkja núna**.
 
-        Til að nota sjálfgefna lista yfir reiti til að búa til spálíkanið skaltu loka **Gagnareitir fyrir spálíkan** síðu og síðan á **Uppsetning fjármálainnsýnar** síðu, stilltu **Virkja eiginleika** valmöguleika til **Já**.
-        
-   > [!NOTE]
-   > The **Greiðsluspá viðskiptavina** eiginleiki krefst meira en 100 færslur á síðustu sex til níu mánuðum. Færslurnar geta falið í sér ókeypis textareikninga, sölupantanir og greiðslur viðskiptavina. Þessum gögnum verður að dreifa yfir **Tímanlega**, **·**, og **Mjög seint** stillingar.    
-     
+    Kveikt er á eiginleikanum innsýn í greiðslu viðskiptavinar og hann er tilbúin til skilgreiningar.
+
+3. Skilgreina innsýnareiginleika greiðslu viðskiptavinar:
+
+    1. Opnaðu **Skuldir og innheimta \> Uppsetning \> Fjármálainnsýn \> Færibreytur fjármálainnsýnar**.
+
+        [![Síða færibreyta fjármálainnsýnar áður en eiginleikinn er skilgreindur.](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
+
+    2. Á síðunni **Færibreytur fjármálainnsýnar** á flipanum **Innsýn í greiðslu viðskiptavinar** skal velja tengilinn **Skoða gagnareitina sem eru notaðir í spálíkaninu** til að opna síðuna **Gagnareitir fyrir spálíkan**. Þar er hægt að skoða sjálfgefinn lista yfir svæði sem eru notuð til að stofna spálíkan gervigreindar (AI) fyrir greiðsluspár viðskiptavinar.
+
+        Til að nota sjálfgefna lista yfir reiti til að búa til spálíkanið skal loka síðunni **Gagnareitir fyrir spálíkan** og síðan á síðunni **Færibreytur fjármálainnsýnar** stilla valkostinn **Virkja eiginleika** á **Já**.
 
     3. Tilgreinið færslutímabil „mjög seint“ til að skilgreina hvað spáramminn **Mjög seint** þýðir fyrir fyrirtækið þitt.
 
@@ -62,13 +67,21 @@ ms.locfileid: "8109605"
         > [!NOTE]
         > Þegar færslutímabilinu „mjög seint“ er breytt og **Breyta viðmiðunarmörkum fyrir seint** er valið eftir að spálíkan gervigreindar fyrir greiðslur viðkiptavinar hefur verið stofnað, er fyrirliggjandi spálíkani eytt og nýtt líkan stofnað. Nýja spálíkanið flytur færslur yfir í tímabilið „mjög seint“ miðað við stillingarnar sem voru slegnar inn til að skilgreina það.
 
-    4. Þegar búið er að skilgreina færslutímabilið „mjög seint“ skal velja **Stofna spálíkan** til að stofna spálíkanið. The **Spálíkan** kafla um **Uppsetning fjármálainnsýnar** síða sýnir stöðu spálíkansins.
+    4. Þegar búið er að skilgreina færslutímabilið „mjög seint“ skal velja **Stofna spálíkan** til að stofna spálíkanið. Hlutinn **Spálíkan** á síðunni **Færibreytur fjármálainnsýnar** sýnir stöðu spálíkansins.
 
         > [!NOTE]
         > Á meðan spálíkanið er stofnað er hægt að velja **Endurstilla stofnun spálíkans** hvenær sem er til að endurræsa ferlið.
 
     Eiginleikinn hefur nú verið skilgreindur og er tilbúinn til notkunar.
 
-Eftir að kveikt hefur verið á eiginleikanum og hann stilltur, og spálíkanið hefur verið búið til og virkar, **Spálíkan** kafla í **Færibreytur fjármálainnsýnar** síða sýnir nákvæmni líkansins.
+Þegar lokið er við að kveikja á og skilgreina eiginleikann og spálíkanið hefur verið stofnað og er í gangi sýnir hlutinn **Gerð spálíkans** á síðunni **Færibreytur fjármálainnsýnar** nákvæmni líkansins, eins og sýnt er á eftirfarandi skýringarmynd.
+
+[![Nákvæmni spálíkans á síðunni Færibreytur fjármálainnsýnar.](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
+
+## <a name="release-details"></a>Upplýsingar um losun
+
+Almenn forskoðun Fjármálainnsýnar er í boði til prufuuppsetningar í Bandaríkjunum, Evrópu og Bretlandi. Microsoft bætir smátt og smátt við stuðningi fyrir fleiri svæði.
+
+Aðeins er hægt og aðeins skal kveikja á eiginleikum almennrar forskoðunar í tveggja laga sandkassaumhverfi. Uppsetningar- og gervigreindarlíkön sem eru stofnuð í sandkassaumhverfi eru ekki hægt að flytja yfir í vinnsluumhverfi. Frekari upplýsingar er að finna í [Viðbótarnotkunarskilmálum fyrir Microsoft Dynamics 365 forskoðanir](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,25 +2,22 @@
 title: Kynning á eiginleikanum umsjón hönnunarbreytinga
 description: Í þessu efnisatriði er að finna ítarlega kynningu sem sýnir hvernig á að vinna með umsjón hönnunarbreytinga.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b6270bbb6780786ed4535ca2987ed44448bd81ad
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: e95cb358b8e79ff091f428140e908be2ab3131f264e8cc43cd7de1f1745d8dfa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4430793"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755420"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Kynning á eiginleikanum umsjón hönnunarbreytinga
 
@@ -60,7 +57,7 @@ Hönnunarfyrirtæki á hönnunargögnin og er ábyrgt fyrir afurðarhönnun og a
     - **Hönnunarfyrirtæki:** *DEMF*
     - **Heiti fyrirtækis:** *Contoso Entertainment System Germany*
 
-    ![Hönnunarfyrirtæki bætt við](media/engineering-org.png "Hönnunarfyrirtæki bætt við")
+    ![Hönnunarfyrirtæki bætt við.](media/engineering-org.png "Hönnunarfyrirtæki bætt við")
 
 ### <a name="set-up-the-version-product-dimension-group"></a>Setja upp afurðavíddaflokk útgáfunnar
 
@@ -70,7 +67,7 @@ Hönnunarfyrirtæki á hönnunargögnin og er ábyrgt fyrir afurðarhönnun og a
 1. Veljið **Vista** til að vista nýju víddina og hlaða gildunum í flýtiflipann **Afurðarvíddir**.
 1. Í flýtiflipanum **Afurðarvíddir** skal stilla **Útgáfa** sem virka afurðarvídd.
 
-    ![Afurðavíddaflokki bætt við](media/product-dimension-groups.png "Afurðavíddaflokki bætt við")
+    ![Afurðavíddaflokki bætt við.](media/product-dimension-groups.png "Afurðavíddaflokki bætt við")
 
 ### <a name="set-up-product-lifecycle-states"></a>Setja upp lífferilsstöður afurðar
 
@@ -85,7 +82,7 @@ Um leið og hönnunarafurð fer í gegnum líftíma sinn er mikilvægt að geta 
 1. Veljið **Vista** til að vista nýju lífferilsstöðuna og hlaða gildum í flýtiflipann **Virkjaðir viðskiptaferlar**.
 1. Í flýtiflipanum **Virkjaðir viðskiptaferlar** skal velja viðskiptaferlana sem eiga að vera aðgengilegir. Fyrir þetta dæmi skal hafa reitinn **Stefna** stilltan á *Virkjaður* fyrir alla viðskiptaferla.
 
-    ![Viðskiptaferlar virkjaðir fyrir lífferilsstöðu](media/product-lifecycle-states-1.png "Viðskiptaferlar virkjaðir fyrir lífferilsstöðu")
+    ![Viðskiptaferlar virkjaðir fyrir lífferilsstöðu.](media/product-lifecycle-states-1.png "Viðskiptaferlar virkjaðir fyrir lífferilsstöðu")
 
 1. Veljið **Ný** til að bæta við annarri lífferilsstöðu og stillið eftirfarandi gildi fyrir hana:
 
@@ -95,7 +92,7 @@ Um leið og hönnunarafurð fer í gegnum líftíma sinn er mikilvægt að geta 
 1. Veljið **Vista** til að vista nýju lífferilsstöðuna og hlaða gildum í flýtiflipann **Virkjaðir viðskiptaferlar**.
 1. Í flýtiflipanum **Virkjaðir viðskiptaferlar** skal velja viðskiptaferlana sem eiga að vera aðgengilegir. Í þessu dæmi skal stilla reitinn **Stefna** á *Virkjað með viðvörun* fyrir alla viðskiptaferla.
 
-    ![Viðskiptaferlar virkjaðir (með viðvörun) fyrir lífferilsstöðu](media/product-lifecycle-states-2.png "Viðskiptaferlar virkjaðir (með viðvörun) fyrir lífferilsstöðu")
+    ![Viðskiptaferlar virkjaðir (með viðvörun) fyrir lífferilsstöðu.](media/product-lifecycle-states-2.png "Viðskiptaferlar virkjaðir (með viðvörun) fyrir lífferilsstöðu")
 
 ### <a name="set-up-a-version-number-rule"></a>Setja upp reglu um útgáfunúmer
 
@@ -106,7 +103,7 @@ Um leið og hönnunarafurð fer í gegnum líftíma sinn er mikilvægt að geta 
     - **Númeraregla:** *Sjálfvirk*
     - **Snið:** *V-\#\#*
 
-    ![Reglu um útgáfunúmer afurðar bætt við](media/version-number-rule.png "Reglu um útgáfunúmer afurðar bætt við")
+    ![Reglu um útgáfunúmer afurðar bætt við.](media/version-number-rule.png "Reglu um útgáfunúmer afurðar bætt við")
 
 ### <a name="set-up-a-product-release-policy"></a>Setja upp útgáfureglu afurðar
 
@@ -138,7 +135,7 @@ Um leið og hönnunarafurð fer í gegnum líftíma sinn er mikilvægt að geta 
     - **Afrita samþykki leiðar:** Veljið þennan gátreit.
     - **Afrita leið virkjunar:** Veljið þennan gátreit.
 
-    ![Útgáfureglu afurðar bætt við](media/product-release-policy.png "Útgáfureglu afurðar bætt við")
+    ![Útgáfureglu afurðar bætt við.](media/product-release-policy.png "Útgáfureglu afurðar bætt við")
 
 ### <a name="set-up-an-engineering-product-category"></a>Setja upp tegund hönnunarafurðar 
 
@@ -161,9 +158,9 @@ Flokkar hönnunarafurðar bjóða upp á grunninn til að stofna hönnunarafurð
     - **Nota nafnakerfi lýsingarreglu:** *Nei*
 
 1. Í flýtiflipanum **Útgáfustefna** skal stilla reitinn **Útgáfustefna afurðar** á *Íhlutir*.
-1. Veljið **Vista**.
+1. Veldu **Vista**.
 
-    ![Flokki hönnunarafurðar bætt við](media/product-category-details.png "Flokki hönnunarafurðar bætt við")
+    ![Flokki hönnunarafurðar bætt við.](media/product-category-details.png "Flokki hönnunarafurðar bætt við")
 
 ### <a name="set-up-product-acceptance-conditions"></a>Setja upp skilyrði afurðasamþykktar
 
@@ -171,7 +168,7 @@ Flokkar hönnunarafurðar bjóða upp á grunninn til að stofna hönnunarafurð
 1. Farið í **Umsjón hönnunarbreytinga &gt; Uppsetning &gt; Færibreytur fyrir umsjón hönnunarbreytinga**.
 1. Í flipanum **Útgáfustýring**, í hlutanum **Afurðasamþykki**, skal stilla reitinn **Afurðasamþykki** á *Handvirkt*.
 
-    ![Skilyrði afurðasamþykkis sett upp](media/engineering-change-management-parameters.png "Skilyrði afurðasamþykkis sett upp")
+    ![Skilyrði afurðasamþykkis sett upp.](media/engineering-change-management-parameters.png "Skilyrði afurðasamþykkis sett upp")
 
 ## <a name="create-a-new-engineering-product"></a>Stofna nýja hönnunarafurð
 
@@ -190,23 +187,23 @@ Hönnunarafurð er afurð sem er úthlutað útgáfu og stýrð í gegnum umsjó
     - **Afurðarnúmer:** *Z0001*
     - **Afurðarheiti:** *Hátalarasett*
 
-    ![Hönnunarafurð bætt við](media/new-product-dialog.png "Hönnunarafurð bætt við")
+    ![Hönnunarafurð bætt við.](media/new-product-dialog.png "Hönnunarafurð bætt við")
 
     Athugið að reiturinn **Útgáfa** er sjálfkrafa stilltur með því að nota númerareglu afurðarútgáfu sem sett var upp fyrr.
 
 1. Veljið **Í lagi** til að stofna afurðina og loka svarglugganum.
 1. Upplýsingasíða fyrir nýju afurðina er opnuð. Takið eftir að þegar er búið að fylla út gildi fyrir suma reiti á borð við **Geymsluvíddarflokk**, **Rakningarvíddarflokk** og/eða **Vörulíkanaflokk**. Þessir reitir voru sjálfkrafa stilltir vegna þess að verið er að gefa út afurðina í lögaðilanum *DEMF* og hún notar afurðarlosunarregluna *Íhlutir*, sem tengist hönnunarafurðartegundinni *Íhlutir*. Vegna þess að áður var notuð varan *D0006* sem sniðmát til að setja upp línu fyrir lögaðilann *DEMF*, voru gildin sem fyllt voru út tekin frá vöru *D0006*.
 
-    ![Upplýsingar um losaðar afurðir](media/product-details.png "Upplýsingar um losaðar afurðir")
+    ![Upplýsingar um losaðar afurðir.](media/product-details.png "Upplýsingar um losaðar afurðir")
 
 1. Á aðgerðasvæðinu, í flipanum **Hönnun**, í flokknum **Umsjón hönnunarbreytinga**, skal velja **Hönnunarútgáfur** til að skoða útgáfur afurðarinnar.
 
-    ![Hönnunarútgáfur](media/engineering-versions-list.png "Hönnunarútgáfur")
+    ![Hönnunarútgáfur.](media/engineering-versions-list.png "Hönnunarútgáfur")
 
 1. Takið eftir að á síðunni **Hönnunarútgáfur** er aðeins ein útgáfa fyrir afurðina, og hún er virk.
 1. Veljið útgáfuna til að skoða upplýsingar um hana.
 
-    ![Upplýsingar um útgáfu hönnunar](media/engineering-version-details.png "Upplýsingar um útgáfu hönnunar")
+    ![Upplýsingar um útgáfu hönnunar.](media/engineering-version-details.png "Upplýsingar um útgáfu hönnunar")
 
 1. Á síðunni **Útgáfa hönnunar**, í flýtiflipanum **Uppskrift**, skal velja **Stofna uppskrift**.
 1. Í svarglugganum **Stofna uppskrift** skal stilla eftirfarandi gildi:
@@ -215,25 +212,25 @@ Hönnunarafurð er afurð sem er úthlutað útgáfu og stýrð í gegnum umsjó
     - **Heiti:** Hátalarasett
     - **Svæði:** 1
 
-    ![Stofna uppskrift](media/create-bom.png "Stofna uppskrift")
+    ![Stofna uppskrift.](media/create-bom.png "Stofna uppskrift")
 
 1. Veljið **Í lagi** til að bæta uppskriftinni við og loka svarglugganum.
 1. Í flýtiflipanum **Uppskriftir** skal velja **Uppskrift**.
 1. Á síðunni **Uppskriftir**, í flýtiflipanum **Línur uppskriftar**, skal bæta þremur línum við, eina fyrir hvert vörunúmer *D0001*, *D0003* og *D0006*.
 
-    ![Uppskriftarlínum bætt við](media/bom.png "Uppskriftarlínum bætt við")
+    ![Uppskriftarlínum bætt við.](media/bom.png "Uppskriftarlínum bætt við")
 
-1. Veljið **Vista**.
+1. Veldu **Vista**.
 1. Lokið síðunni.
 1. Á síðunni **Útgáfa hönnunar**, í flýtiflipanum **Uppskrift**, skal velja **Samþykkja**.
 1. Í svarglugganum sem birtist skal smella á **Í lagi**.
 
-    ![Uppskrift samþykkt](media/approve-dialog.png "Uppskrift samþykkt")
+    ![Uppskrift samþykkt.](media/approve-dialog.png "Uppskrift samþykkt")
 
 1. Á síðunni **Útgáfa hönnunar**, í flýtiflipanum **Uppskrift**, skal velja **Virkja**.
 1. Takið eftir að gátreitirnir **Virk** og **Samþykkt** eru valin fyrir uppskriftina.
 
-    ![Virk og samþykkt uppskrift](media/approved-bom.png "Virk og samþykkt uppskrift")
+    ![Virk og samþykkt uppskrift.](media/approved-bom.png "Virk og samþykkt uppskrift")
 
 1. Lokið síðunni.
 
@@ -247,25 +244,25 @@ Afurðin hefur nú verið hönnuð af hönnunardeildinni. Fyrir þetta dæmi er 
 1. Á aðgerðasvæðinu, í flipanum **Afurð**, í flokknum **Vinna með**, skal velja **Gefa út skipulag afurðar** til að opna leiðsagnarforritið **Gefa út afurðir**.
 1. Á síðunni **Velja hönnunarafurðir til að gefa út** skal velja gátreitinn **Velja** fyrir afurð *Z0001*.
 
-    ![Hönnunarafurðir valdar til útgáfu](media/select-eng-product-to-release.png "Hönnunarafurðir valdar til útgáfu")
+    ![Hönnunarafurðir valdar til útgáfu.](media/select-eng-product-to-release.png "Hönnunarafurðir valdar til útgáfu")
 
 1. Veljið **Upplýsingar um útgáfu**.
 1. Síðan **Upplýsingar um útgáfu afurðar** birtist, þar sem hægt er að fara yfir upplýsingar afurðarinnar sem verður gefin út og skipulag afurðarinnar. Takið eftir að valkosturinn **Senda uppskrift** er stilltur á *Já*. Þess vegna verður bæði afurðin *Z0001* og allar vörur undir henni í uppskriftinni gefnar út.
 
     Hægt er að velja hvaða undirvöru sem er á svæðinu vinstra megin til að fara yfir upplýsingar hennar. Ef einhver undirvara er með uppskrift, er einnig hægt að velja um að gefa út uppskrift þeirrar undirvöru.
 
-    ![Upplýsingar um útgáfu afurðar yfirfarnar](media/product-release-details.png "Upplýsingar um útgáfu afurðar yfirfarnar")
+    ![Upplýsingar um útgáfu afurðar yfirfarnar.](media/product-release-details.png "Upplýsingar um útgáfu afurðar yfirfarnar")
 
 1. Lokið síðunni til að fara aftur í leiðsagnarforritið **Gefa út afurðir**.
 1. Veljið **Áfram** til að opna síðuna **Velja afurðir til útgáfu**. Ef valdar voru staðlaðar (ekki hannaðar) afurðir, munu þær birtast á þessari síðu. Hafa skal í huga að þegar staðalafurð er gefin út með því að velja **Gefa út skipulag afurðar**, er uppskrift hennar og leið einnig gefin út.
 
-    ![Staðlaðar afurðir til að gefa út valdar](media/select-std-product-to-release.png "Staðlaðar afurðir til að gefa út valdar")
+    ![Staðlaðar afurðir valdar til útgáfu.](media/select-std-product-to-release.png "Staðlaðar afurðir til að gefa út valdar")
 
 1. Veljið **Áfram** til að opna síðuna **Velja afurðarafbrigði til útgáfu**. Í þessu dæmi eru engin afbrigði.
 1. Veljið **Áfram** til að opna síðuna **Velja fyrirtæki**.
 1. Veljið fyrirtækin sem gefa á út afurðina í. Í þessu dæmi skal velja gátreitinn fyrir **USMF**.
 
-    ![Fyrirtækin valin sem gefa á út í](media/select-release-companies.png "Fyrirtækin valin sem gefa á út í")
+    ![Fyrirtækin valin sem gefa á út í.](media/select-release-companies.png "Fyrirtækin valin sem gefa á út í")
 
 1. Veljið **Áfram** til að opna síðuna **Staðfesta val**.
 1. Veljið **Ljúka**.
@@ -283,7 +280,7 @@ Til að fara yfir og gefa út afurðina í fyrirtækinu *USMF* skal fylgja þess
 
     Síðan **Opna afurðarútgáfur** sýnir afurð *Z0001* sem er með stöðuna *Bíður samþykkis*.
 
-    ![Opna losanir afurðar](media/open-product-releases.png "Opna losanir afurðar")
+    ![Opna losanir afurðar.](media/open-product-releases.png "Opna losanir afurðar")
 
 1. Veljið gildið í dálknum **Afurðarnúmer** til að opna síðuna **Upplýsingar um útgáfu afurðar**. Athugið eftirfarandi upplýsingar:
 
@@ -291,7 +288,7 @@ Til að fara yfir og gefa út afurðina í fyrirtækinu *USMF* skal fylgja þess
     - Flýtiflipinn **Upplýsingar um útgáfu** sýnir upplýsingar um afurðina og útgáfuna sem var gefin út. Hér er hægt að breyta stillingum á borð við gildisdagsetningar.
     - Flýtiflipinn **Leið** sýnir leið afurðarinnar. Í þessu dæmi voru hinsvegar ekki engar leiðar gefnar út.
 
-    ![Upplýsingar um útgáfu afurðar](media/product-release-details-2.png "Upplýsingar um útgáfu afurðar")
+    ![Upplýsingar um útgáfu afurðar.](media/product-release-details-2.png "Upplýsingar um útgáfu afurðar")
 
 1. Þegar búið er að fara yfir upplýsingarnar, er kominn tími til að samþykkja afurðina og, á þennan hátt, gefa hana út í fyrirtækinu *USMF*. Á aðgerðasvæðinu skal velja **Aðgerðir &gt; Samþykkja**.
 1. Nú er búið að gefa út afurðina í fyrirtækinu *USMF*. Opna **Afurðaupplýsingastjórnun &gt; Afurðir &gt; Útgefnar afurðir**. Þú ættir að sjá vöru *Z0001*.
@@ -307,7 +304,7 @@ Stjórnandi aðalgagna fyrir fyrirtækið *USMF* vill ganga úr skugga um að af
 1. Á aðgerðasvæðinu, í flipanum **Afurð**, í flokknum **Líftímastaða**, skal velja **Breyta líftímastaða**.
 1. Í fellilista svargluggans **Breyta líftímastöðu** skal stilla reitinn **Staða** á *Frumgerð* og síðan velja **Í lagi**.
 
-    ![Líftímastöðunni breytt](media/change-lifecycle-state.png "Líftímastöðunni breytt")
+    ![Líftímastöðunni breytt.](media/change-lifecycle-state.png "Líftímastöðunni breytt")
 
 ## <a name="add-the-engineering-product-to-a-sales-order"></a>Bæta hönnunarafurðinni við sölupöntun
 
@@ -321,7 +318,7 @@ Nú er hægt að selja viðskiptavini afurðina. Til að bæta afurðinni við s
 
     Þú færð viðvörunarboð sem segir að varan sé með stöðuna *Frumgerð*. En þar sem skilaboðin eru aðeins viðvörun, verður sölupöntunin samt sem áður stofnuð.
 
-    ![Sölupöntun fyrir hönnunarafurð](media/sales-order-eng-product.png "Sölupöntun fyrir hönnunarafurð")
+    ![Sölupöntun fyrir hönnunarafurð.](media/sales-order-eng-product.png "Sölupöntun fyrir hönnunarafurð")
 
 ## <a name="request-changes-in-the-engineering-product"></a>Biðja um breytingar á hönnunarafurð
 
@@ -331,7 +328,7 @@ Afurðin var send til viðskiptavinar en viðskiptavinurinn var ekki fullkomlega
 1. Finnið og opnið sölupöntunina sem var stofnuð í fyrri æfingu.
 1. Í flýtiflipanum **Sölupöntunarlínur** skal velja **Umsjón hönnunarbreytinga &gt; Ný beiðni um hönnunarbreytingu**.
 
-    ![Beiðni um hönnunarbreytingu stofnuð úr sölupöntun](media/sales-order-eng-change-request.png "Beiðni um hönnunarbreytingu stofnuð úr sölupöntun")
+    ![Beiðni um hönnunarbreytingu stofnuð úr sölupöntun.](media/sales-order-eng-change-request.png "Beiðni um hönnunarbreytingu stofnuð úr sölupöntun")
 
 1. Fyllið út beiðni um hönnunarbreytingu sem byggir á ábendingu viðskiptavinarins. Í þessu dæmi skal stilla eftirfarandi gildi:
 
@@ -344,7 +341,7 @@ Afurðin var send til viðskiptavinar en viðskiptavinurinn var ekki fullkomlega
 1. Í flýtiflipanum **Upplýsingar** skal velja **Ný &gt; Athugasemd** til að bæta nýrri athugasemd við hnitanetið.
 1. Í reitnum **Lýsing** fyrir nýju athugasemdina skal gefa til kynna að eyða eigi vöru *D0003* úr uppskriftinni. Ef reynist nauðsynlegt að bæta við meiri upplýsingum fyrir athugasemdina, er hægt að slá inn texta í reitinn **Athugasemdir**.
 
-    ![Beiðni um hönnunarbreytingu](media/eng-change-request.png "Beiðni um hönnunarbreytingu")
+    ![Beiðni um hönnunarbreytingu.](media/eng-change-request.png "Beiðni um hönnunarbreytingu")
 
 1. Í aðgerðarúðunni skal velja **Vista**.
 1. Takið eftir að vörunni hefur verið sjálfkrafa bætt við flýtiflipann **Afurðir** og upprunastað beiðni um hönnunarbreytingu (sölupöntunin) hefur verið bætt við flýtiflipann **Upprunastaður**.
@@ -373,32 +370,31 @@ Hönnuðurinn fer nú yfir beiðni viðskiptavinarins og stofnar breytingapöntu
     - **Afurð:** *Z0001*
     - **Áhrif:** *Ný útgáfa*
 
-    ![Pöntun hönnunarbreytingar stofnuð](media/eng-change-order.png "Pöntun hönnunarbreytingar stofnuð")
+    ![Pöntun hönnunarbreytingar stofnuð.](media/eng-change-order.png "Pöntun hönnunarbreytingar stofnuð")
 
 1. Takið eftir því að vegna þess að reiturinn **Áhrif** var stilltur á *Ný útgáfa*, sýnir reiturinn **Ný útgáfa** í flipanum **Upplýsingar** í flýtiflipanum **Upplýsingar um afurð** hvaða nýja útgáfunúmerið verður (*V-02* í þessum dæmi).
 
-    ![Upplýsingar um afurð fyrir pöntun hönnunarbreytingar](media/eng-change-order-product-details.png "Upplýsingar um afurð fyrir pöntun hönnunarbreytingar")
+    ![Upplýsingar um afurð fyrir pöntun hönnunarbreytingar.](media/eng-change-order-product-details.png "Upplýsingar um afurð fyrir pöntun hönnunarbreytingar")
 
 1. Í aðgerðarúðunni skal velja **Vista**.
 1. Í flýtiflipanum **Upplýsingar um afurð**, í flipanum **Uppskrift**, skal velja **Línur** til að opna uppskriftina fyrir útgáfu *V-01* fyrir afurð *Z0001*.
 
-    ![Uppskriftarlínur hönnunarafurðar](media/eng-product-bom-lines.png "Uppskriftarlínur hönnunarafurðar")
+    ![Uppskriftarlínur hönnunarafurðar.](media/eng-product-bom-lines.png "Uppskriftarlínur hönnunarafurðar")
 
 1. Veljið línuna fyrir vörunúmer *D0003* og síðan, á aðgerðasvæðinu, skal velja **Eyða**. Gildið í reitnum **Gerð breytingar** fyrir þessa línu breytist í *Eytt*.
 1. Í aðgerðarúðunni skal velja **Vista**.
 
-    ![Breyttar uppskriftarlínur hönnunarafurðar](media/eng-product-bom-lines-modified.png "Breyttar uppskriftarlínur hönnunarafurðar")
+    ![Breyttar uppskriftarlínur hönnunarafurðar.](media/eng-product-bom-lines-modified.png "Breyttar uppskriftarlínur hönnunarafurðar")
 
 1. Lokið síðunni **Uppskriftarlína** til að fara aftur á síðuna **Pöntun hönnunarbreytingar**.
 1. Takið eftir að í flýtiflipanum **Upplýsingar um afurð**, í flipanum **Uppskrift**, er gildið fyrir reitinn **Gerð breytingar** fyrir uppskrift *Z0001* núna *Breytt*.
 
-    ![Pöntun hönnunarbreytingar sem inniheldur breytta uppskrift](media/eng-change-order-changed-bom.png "Pöntun hönnunarbreytingar sem inniheldur breytta uppskrift")
+    ![Pöntun hönnunarbreytingar sem inniheldur breytta uppskrift.](media/eng-change-order-changed-bom.png "Pöntun hönnunarbreytingar sem inniheldur breytta uppskrift")
 
     Nú þarf að samþykkja pöntunina áður en hægt er að vinna úr breytingunum. Þegar unnið er úr breytingunum eru afurðirnar uppfærðar með breytingunum sem eru innifaldar í pöntun hönnunarbreytingar. Í þessu dæmi er sá sem stofnar pöntun hönnunarbreytingar tilgreindur sem samþykktaraðilinn.
 
 1. Á aðgerðasvæðinu, í flipanum **Breytingapöntun**, í flokknum **Breytingastaða**, skal velja **Samþykkja**.
 1. Veljið **Vinna úr** til að uppfæra upplýsingar um afurðina.
-1. Veljið **Ljúka** til að merkja breytingapöntunina sem lokið.
 
 ## <a name="release-the-changed-product"></a>Gefa út breytta afurð
 
@@ -411,3 +407,9 @@ Nú er hægt að gefa út afurðina aftur í fyrirtækinu *USMF* og senda hana t
 1. Veljið öll fyrirtækin sem gefa á út afurðir í.
 1. Veljið **Í lagi** til að loka svarglugganum **Útgáfur** og fara aftur í breytingapöntunina.
 1. Á aðgerðasvæðinu, í flipanum **Breytingapöntun**, í flokknum **Útgáfur afurða**, skal velja **Vinna úr** til að gefa út tilheyrandi afurðir í völdum fyrirtækjum. Að öðrum kosti skal velja **Gefa út skipulag afurðar** til að hefja útgáfuferlið.
+
+## <a name="complete-the-change-order"></a>Ljúka breytingapöntun
+
+Til að merkja breytingapöntun sem lokið, sem gefur til kynna að engar frekari aðgerðir séu eftir, skal velja **Ljúka** á aðgerðasvæðinu.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

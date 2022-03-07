@@ -2,28 +2,27 @@
 title: Setja upp launanet
 description: Launahnitanet eru notaðar til að skilgreina og viðhalda skipan launa fyrir launafyrirkomulög fastra launa.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRCCompGrid, HRCCompGridView, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d5ada0817dd73caad38bb2e50302869857c71d8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0a66dffa26a62f2937fd54ffb175add115887398
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419008"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6058945"
 ---
 # <a name="set-up-compensation-grids"></a>Setja upp launanet
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Launahnitanet eru notaðar til að skilgreina og viðhalda skipan launa fyrir launafyrirkomulög fastra launa. Hægt er að deila hnitanet launa milli margra áætlanir eða afrituð þegar ný launafyrirkomulag er stofnað.  Áður en launanet er stofnað, setja verður upp Stig og tilvísunarpunkta. Þessu dæmi mun búa til nýja Launaþrep gerð launanet með sýnigögn fyrir Stig- og Tilvísuninarpunkta. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
@@ -92,3 +91,6 @@ Launahnitanet eru notaðar til að skilgreina og viðhalda skipan launa fyrir la
 29. Merkið eða afmerkið allar línur í listanum.
 30. Smellt er á Nota á hnitanet.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

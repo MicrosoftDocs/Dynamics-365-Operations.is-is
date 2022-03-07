@@ -2,9 +2,11 @@
 title: Skilgreina kostnaðarstýringareiningar
 description: Þetta ferli sýnir hvernig skal skilgreina kostnaðarstýringareiningar í kostnaðarbókhaldi fjárhags.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlUnit
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ac1f8c6dc5fcacb603aae53190418a10efb0651a3f52608cc58eb3866a8fcb5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac39cc87e69f65117a7463b12d90ce1bb122847f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743820"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990693"
 ---
 # <a name="define-cost-control-units"></a>Skilgreina kostnaðarstýringareiningar
 
@@ -38,6 +40,3 @@ ms.locfileid: "6743820"
 10. Sláið inn eða veljið gildi í reitnum Vídd.
 11. Smellið á „Vista“.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

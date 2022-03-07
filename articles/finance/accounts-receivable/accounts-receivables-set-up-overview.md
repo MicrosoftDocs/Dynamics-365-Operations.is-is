@@ -3,7 +3,7 @@ title: Stilla viðskiptakröfur og skuldir og innheimtu
 description: Skilgreina Viðskiptakröfur og skuldir og innheimtu til að rekja reikninga og greiðslur sem berast frá viðskiptavinum.
 author: ShivamPandey-msft
 ms.date: 08/22/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CashDisc, CollectionLetterCourse, CreditCardProcessors, CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsAgent, CustCollectionsPool, CustGroup, CustParameters, CustPaymMode, CustPosting, CustVendReportInterval, Interest, PaymTerm, Reasons
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 744170988351bf2c0ecb04e419045056965398c0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 5a7ea7569f017ef03f68d5f2ad689e7b3013fb49
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983544"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6340230"
 ---
 # <a name="configure-accounts-receivable-and-credit-and-collections"></a>Stilla viðskiptakröfur og skuldir og innheimtu
 

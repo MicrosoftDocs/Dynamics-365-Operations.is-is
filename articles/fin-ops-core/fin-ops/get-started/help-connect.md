@@ -1,12 +1,10 @@
 ---
-title: Skilgreining hjálparupplifunar fyrir Finance and Operations-forrit
-description: Þetta efnisatriði lýsir þáttum hjálparkerfisins fyrir sum Microsoft Dynamics 365-forrit. Það útskýrir einnig hvernig á að tengja þessi forrit og býður upp á samantekt yfir ferlið til að búa til sérstillta hjálp.
+title: Stilltu hjálparupplifunina fyrir Finance and Operations forrit
+description: Þetta efnisatriði lýsir þáttum hjálparkerfisins fyrir sum Microsoft Dynamics 365-forrit.
 author: margoc
-manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
@@ -17,31 +15,34 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d000c3f801d382921a027c8ee259fd44ac5cdc80
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798281"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071009"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Skilgreining hjálparupplifunar fyrir Finance and Operations-forrit
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Stilltu hjálparupplifunina fyrir Finance and Operations forrit
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna yfirlit yfir þætti hjálparkerfisins fyrir Finance and Operations-forrit á borð við Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce og Dynamics 365 Human Resources. Efnisatriðið útskýrir einnig hvernig á að tengja þessa þætti og býður upp á samantekt yfir ferlið til að búa til sérstillta hjálp.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Í þessu efni finnurðu yfirlit yfir íhluti hjálparkerfisins fyrir fjármála- og rekstraröpp, eins og Microsoft Dynamics 365 Finance,Dynamics 365 Supply Chain Management,Dynamics 365 Commerce, og Dynamics 365 Human Resources. Efnisatriðið útskýrir einnig hvernig á að tengja þessa þætti og býður upp á samantekt yfir ferlið til að búa til sérstillta hjálp.
 
 ## <a name="help-architecture"></a>Högun Hjálpar
 
-Finance and Operations-forrit innihalda almenn yfirlit og önnur efnisatriði sem eru birt á vefsvæðinu [https://docs.microsoft.com/dynamics365](/dynamics365/). Þetta efni er svo hægt að nálgast á **hjálparsvæði** vörunnar. Eftirfarandi skýringarmynd sýnir hluta hjálparkerfisins.
+Fjármála- og rekstrarforrit innihalda hugmyndafræðilegar yfirlit og önnur efni sem eru birt á [Microsoft Dynamics 365 skjöl](/dynamics365/) síða. Þetta efni er svo hægt að nálgast á **hjálparsvæði** vörunnar. Eftirfarandi skýringarmynd sýnir hluta hjálparkerfisins.
 
-[![Högun Hjálpar](./media/help-architecture.png)](./media/help-architecture.png)
+[![Högun Hjálpar.](./media/help-architecture.png)](./media/help-architecture.png)
 
 Hjálparkerfi vörunnar sækir greinar á docs.microsoft.com og önnur tengd vefsvæði. Það sækir einnig verkleiðbeiningar sem eru vistaðar í viðskiptaferlavinnslunni (BPM) í Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="adding-task-guides"></a>Verkefnaleiðbeiningum bætt við
 
 > [!NOTE]
-> Flipinn **Verkefnaleiðbeiningar** er ekki til staðar í „Human Resources“ eða „Commerce“. <!--We are currently working to enable this functionality in a future release.--> Hins vegar eru verkefnaleiðbeiningarnar „Hafist handa“ í „Human Resources“ til staðar og þar er að finna upplýsingar um grunnvirknina. Hjálparleiðbeiningar eru í boði á vefsvæðinu [https://docs.microsoft.com/dynamics365](/dynamics365/) fyrir bæði „Human Resources“ og „Commerce“.
+> Flipinn **Verkefnaleiðbeiningar** er ekki til staðar í „Human Resources“ eða „Commerce“. <!--We are currently working to enable this functionality in a future release.--> Hins vegar eru verkefnaleiðbeiningarnar „Hafist handa“ í „Human Resources“ til staðar og þar er að finna upplýsingar um grunnvirknina. Hjálparleiðbeiningar eru í boði á vefsvæðinu [Fylgiskjöl Microsoft Dynamics 365](/dynamics365/) fyrir bæði „Human Resources“ og „Commerce“.
 
 Á síðunni **Kerfisfæribreytur** geta kerfisstjórar skilgreint aðgang að viðeigandi verkleiðbeiningasöfnum fyrir innleiðingu.
 
@@ -49,20 +50,20 @@ Hjálparkerfi vörunnar sækir greinar á docs.microsoft.com og önnur tengd vef
 > - Til að grunnstilla hjálpina þarf notandi að skrá sig inn með því að nota lykil hjá sama leigjanda og leigjandanum þar sem forritið er virkjað.
 > - Ekki er hægt að tengja LCS-safn úr tilviki forritsins sem er keyrt á staðbundnu sýndardrifi (VHD).
 
-[![Skjámynd kerfisfæribreyta með stillingum hjálparkerfis](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![Skjámynd kerfisfæribreyta með stillingum hjálparkerfis.](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 Til að skilgreina verkefnaleiðbeiningar fyrir lausn skal fylgja þessum skrefum á síðunni **Kerfisfæribreytur**.
 
 > [!IMPORTANT]
 > Í fyrsta skipti er sem þú opnar flipann **Hjálp** verður þú að tengjast Lifecycle Services. Gætið þess að velja tengil í miðri skjámyndinni, bíða eftir tengingu, loka svarglugga og velja **Í lagi** til að komast á síðuna **Kerfisfæribreytur**.
 >
-> [![Tengjast við LCS](./media/connect-to-lcs-crop-1024x365.png "Tengjast við LCS")](./media/connect-to-lcs-crop.png)
+> [![Tengjast við LCS](./media/connect-to-lcs-crop-1024x365.png "Tengjast við LCS.")](./media/connect-to-lcs-crop.png)
 
 1. Veljið Lifecycle Services verk til að tengjast.
 2. Veljið BPM söfn (innan valins verks) til að sækja verkskráningu úr .
 3. Velja birtingarröð BPM safna. Birtingarröðin ákvarðar í hvaða röð verkskráningar úr söfnunum birtast á svæðinu **Hjálp**.
 
-Eftir að þessum skrefum hefur verið lokið, er hægt að opna rúðuna **Hjálp** og velja flipann **Verkleiðbeiningar**. Nú sérðu verkefnaleiðbeiningar sem eiga við um síðuna sem þú ert á í Finance and Operations forritum. Ef engin verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina.
+Eftir að þú hefur lokið þessum skrefum geturðu opnað **Hjálp** rúðu og veldu **Verkefnaleiðbeiningar** flipa. Þú munt nú sjá verkefnaleiðbeiningarnar sem eiga við síðuna sem þú ert á í Finance and Operations forritum. Ef engin verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina.
 
 ### <a name="showing-translated-task-guides"></a>Sýnir þýddar leiðbeiningar verkefninu
 
@@ -86,7 +87,7 @@ Fyrir samstarfsaðila, ef þú færir safn inn í fyrirtækissafn og hefur það
 
 ### <a name="connect-a-custom-help-site"></a>Tengja sérstillt hjálparsvæði
 
-Finance and Operations-forrit eru sjaldan notuð eins og þau eru afhent. Þess í stað er lausnin sérsniðin og útvíkkuð til að passa við þarfir fyrirtækisins. Einnig er hægt að sérsníða og víkka út hjálparupplifunina. Til dæmis er hægt að bæta við sérsniðinni hjálp á **hjálparsvæðið**.
+Fjármála- og rekstrarforrit eru sjaldan notuð í út-af-kassa formi. Þess í stað er lausnin sérsniðin og útvíkkuð til að passa við þarfir fyrirtækisins. Einnig er hægt að sérsníða og víkka út hjálparupplifunina. Til dæmis er hægt að bæta við sérsniðinni hjálp á **hjálparsvæðið**.
 
 Microsoft hefur gefið út verkfærasett til að auðvelda uppsetningu og teningu sérsniðinnar hjálpar á **hjálparsvæðinu**. Frekari upplýsingar um hvernig hægt er að setja upp sérsniðna hjálparlausn sem er tengd við **hjálparsvæðið** er finna í [Sérsniðið hjálparyfirlit](../../dev-itpro/help/custom-help-overview.md).
 
@@ -99,3 +100,6 @@ Ef óskað er eftir samstarfi við Microsoft í tengslum við verkfæri og ferli
 [Tilföng verkskráningar](../../dev-itpro/user-interface/task-recorder.md)  
 [Búa til fylgiskjöl eða þjálfun með verkskráningu](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [Sérsniðin hjálp GitHub-geymslu](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

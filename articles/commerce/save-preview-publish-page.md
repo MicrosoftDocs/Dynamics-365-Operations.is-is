@@ -1,34 +1,31 @@
 ---
 title: Vista, forskoða og birta síðu
-description: Þetta efni lýsir því hvernig á að vista, forskoða og gefa út síðu í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að vista, forskoða og birta síðu í Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: db4866b22060b764fdde3e4a44e99e969133c0a0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 593c68e0934fa62d09c64b8d5d681697c3fb053ae6f4641ce2ae3104a03e0fba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413251"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718674"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Vista, forskoða og birta síðu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að vista, forskoða og gefa út síðu í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir því hvernig á að vista, forskoða og birta síðu í Microsoft Dynamics 365 Commerce.
 
 ## <a name="save-a-page"></a>Vista síðu
 
@@ -99,4 +96,9 @@ Til að birta vefslóð skal fylgja þessum skrefum.
 
 [Bæta lendingarsíðu flokks](enrich-category-page.md)
 
-[Staðfesta aðgengi síðuinnihalds](verify-accessibility.md)
+[Staðfesta aðgengi að efni síðu](verify-accessibility.md)
+
+[Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

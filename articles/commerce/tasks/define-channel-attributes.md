@@ -2,11 +2,9 @@
 title: Skilgreina eigindir rásar
 description: Bættu í rásina með því að bæta við rás og afurðaeigindir.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailInternalOrganization, EcoResAttributeGroup, EcoResAttributeGroupAttribute, RetailAddChannelItems, RetailCatalogProductAttributeValue, RetailMedia
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f50e925689f11f67285c956aec1a7ece235cdb74
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c7f70e20dfc2eb8608c5dfae027c87dc457eb842
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964696"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791584"
 ---
 # <a name="define-channel-attributes"></a>Skilgreina eigindir rásar
 
@@ -71,3 +69,6 @@ Bættu í rásina með því að bæta við rás og afurðaeigindir. Bæta verð
 33. Smellið á „Í lagi“.
 34. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

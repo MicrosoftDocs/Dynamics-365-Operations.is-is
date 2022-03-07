@@ -1,10 +1,12 @@
 ---
 title: Vinnsla almennrar færslubókar
 description: Þetta efnisatriði lýsir eiginleikum í Microsoft Dynamics 365 Finance sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, sem og að tryggja að rétt gögn séu tekin og að innri stýring sé ekki í hættu.
-author: kweekley
+author: ShylaThompson
+manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: kweekley
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f9f4019618891909e674c6b936f79778ac84744
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
-ms.translationtype: MT
+ms.openlocfilehash: 6f9f19f0714fc160792a29261e21fe4ec8d62c4b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726778"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249240"
 ---
 # <a name="general-journal-processing"></a>Vinnsla almennrar færslubókar
 
@@ -42,14 +44,14 @@ Eitt af mikilvægustu sviðum til að setja upp eru heiti færslubókar. Góð h
 
 færslubókarheiti er hægt að nota fyrir leiðréttingar eingöngu. Í þessu tilfelli er hægt að tilgreina að aðeins **Fjárhags** lykilgerðin er gild fyrir öll fyrirtæki. 
 
-[![Gerðir lykla fyrir færslubókareftirlit.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Gerðir lykla fyrir færslubókareftirlit](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Hægt er að nota heiti færslubókar eingöngu fyrir tiltekinn hluta eða fyrir svið aðallykla. 
 
-[![Hluti færslubókareftirlits.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Hluti færslubókareftirlits](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 **Sjálfvirka bakfærslu** valkosturinn er tiltækur í almennar færslubækur. Til dæmis, er leiðrétting á uppsöfnun þar sem raunverulegur skjal hefur ekki enn verið unnin, eins og sýnt er í eftirfarandi skýringarmynd.
-[![Almenn færslubók sem er bakfærð.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Almenn færslubók sem er bakfærð](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 Microsoft Excel innbót fyrir færslu í færslubók veitir meiri sjálfvirkni og auðveldar innfærslu gagna. **Opnar línur í Excel** aðgerð er tiltæk á í **Almennrar færslubókar** og **fylgiskjal** síður. 
 

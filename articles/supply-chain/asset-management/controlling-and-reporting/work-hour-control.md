@@ -1,12 +1,10 @@
 ---
 title: Stjórnun vinnustunda
 description: Þetta efni útskýrir stjórnun vinnustunda í eignastýringu.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetHourControl
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cc4382d72e032fdfad05f2077ffe8e41e64c6a55
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 90c4f649cc9ea45341ede923294a7c5a892cd68714db356c3799430d18f5de60
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018472"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742777"
 ---
 # <a name="work-hour-control"></a>Stjórnun vinnustunda
 
@@ -68,8 +66,11 @@ Skjámyndin hér að neðan sýnir dæmi um útreikning á **Stjórnun eignastun
 - Reiturinn **Raunverulegar stundir** sýnir bókaðar stundir vegna verkbeiðna. 
 - Reiturinn **Ráðstafaðar stundir** sýnir heildarmagn stunda sem fyrirtækið þitt skuldbindur sig til vegna verkbeiðna.
 
-![Dæmi um útreikning á stjórnun eigna tíma](media/04-controlling-and-reporting.png)
+![Dæmi um útreikning á tímastjórnun eignar.](media/04-controlling-and-reporting.png)
 
 Önnur leið til að gera stundaútreikning er að velja margar eignir í **Allar eignir** eða **Virkar eignir**. Smelltu síðan á hnappinn **Stundastjórnun** á flýtiflipanum **Almennt**. Valdar eignir eru sjálfkrafa settar inn í reitnum **Eignir** á flýtiflipanum **Færslur til að taka með**. Smelltu á **Í lagi** í glugganum **Stjórnun eignastunda** og útreikningur fyrir valdar eignir er sýndur. Sama ferli er hægt að gera fyrir virkar staðsetningar í **Allar virkar staðsetningar** eða **Virkar virkar staðsetningar**, og vegna verkbeiðna í **Allar verkbeiðnir** eða **Virkar vinnupantanir**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

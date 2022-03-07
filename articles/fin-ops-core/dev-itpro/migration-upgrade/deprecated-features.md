@@ -1,12 +1,10 @@
 ---
 title: Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
-description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða áætlað að fjarlægja úr Dynamics 365 for Finance and Operations og fyrri útgáfum þeirrar vöru.
+description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir úr Dynamics 365 for Finance and Operations og fyrri útgáfum.
 author: sericks007
-manager: AnnBe
-ms.date: 09/21/2020
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0389548b7867cc9505c9b8fe70c880959f6783b0
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679957"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745264"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
 
@@ -39,7 +37,7 @@ ms.locfileid: "4679957"
 
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
-Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 með verkvangsuppfærslu 31
 
@@ -375,7 +373,7 @@ Möguleikinn á að kynna sérsniðnar aðgerðir sem notaðar eru í ER-tjánin
 | **Staða**                       | Úrelt: Valmyndaratriði þessara tveggja skýrslna hafa verið fjarlægðar í útgáfu 7.3. Kóðann fyrir skýrslurnar er samt sem áður enn að finna í afurðinni. Áætlað er að fjarlægja kóðann í framtíðarútgáfu. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI efnispakkar eru tiltækar á AppSource
-Efnispakkarnir **Kostnaðarstjórnun**, **Fjárhagsleg frammistaða** og **Retail Channel Performance** sem eru í boði á [Microsoft AppSource](https://appsource.microsoft.com) síunni , eru úreltir vegna uppfærslur á vöru í Microsoft Power BI. Kerfisstjórnunareyðublöð sem notuð eru til að dreifa þessum efnispökkum til PowerBI.com eru einnig úreltir í Finance and Operations.
+Efnispakkarnir **Kostnaðarstjórnun**, **Fjárhagsleg frammistaða** og **Afköst smásölurásar** sem eru í boði á [Microsoft AppSource](https://appsource.microsoft.com) síunni , eru úreltir vegna uppfærslur á vöru í Microsoft Power BI. Kerfisstjórnunareyðublöð sem notuð eru til að dreifa þessum efnispökkum til PowerBI.com eru einnig úreltir í Finance and Operations.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -970,7 +968,7 @@ Samræmismiðstöðinni var Enterprise Portal-setur til að hafa umsjón með kr
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Aðgerðinni hefur verið skipt út fyrir aðra eiginleika. |
-| **Skipt út fyrir aðra eiginleika?**   | Common data service                                      |
+| **Skipt út fyrir aðra eiginleika?**   | Dataverse                                      |
 | **Afurðasvæði sem haft er áhrif á**         | Tengill fyrir Dynamics                         |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.                           |
 
@@ -1373,3 +1371,6 @@ Windows 8 spjaldtölvuforrit veittu aðgerðir fyrir kostnaðarfærslu og -samþ
 |     <strong>Afurðasvæði sem haft er áhrif á</strong>     |                                              Fjárhagur                                              |
 |             <strong>Staða</strong>             |                                      Fjarlægt frá og með Dynamics AX 2012                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

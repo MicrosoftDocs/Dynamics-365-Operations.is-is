@@ -1,17 +1,14 @@
 ---
 title: Virkja ráðleggingar um afurðir
-description: Þetta efni útskýrir hvernig hægt er að gera tillögur um vörur sem byggjast á námi gervigreindarvélar (AI-ML) í boði fyrir viðskiptavini Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði útskýrir hvernig á að gera afurðatillögur sem byggja á vélnám gervigreindar (AI-ML) í boði fyrir Microsoft Dynamics 365 Commerce viðskiptavini.
 author: bebeale
-manager: AnnBe
 ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0a94a74f4eb00c24142f0390bcf352db0594ca0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413042"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349473"
 ---
 # <a name="enable-product-recommendations"></a>Virkja ráðleggingar um afurðir
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni útskýrir hvernig hægt er að gera tillögur um vörur sem byggjast á námi gervigreindarvélar (AI-ML) í boði fyrir viðskiptavini Microsoft Dynamics 365 Commerce. Nánari upplýsingar um afurðatillögur er að finna í [yfirliti yfir afurðatillögur í POS-skjölum](product-recommendations.md).
+Þetta efnisatriði útskýrir hvernig á að gera afurðatillögur sem byggja á vélnám gervigreindar (AI-ML) í boði fyrir Microsoft Dynamics 365 Commerce viðskiptavini. Nánari upplýsingar um afurðatillögur er að finna í [yfirliti yfir afurðatillögur í POS-skjölum](product-recommendations.md).
 
 ## <a name="recommendations-pre-check"></a>Ráðleggingar fyrir skoðun
 
@@ -42,7 +39,7 @@ Eftirfarandi stillingar verða að vera gerðar virkar í bakvinnslunni áður e
 2. Ganga úr skugga um að endurnýjun einingaverslunarinnar hafi verið gerð sjálfvirk. Fyrir frekari upplýsingar, sjá [Ganga úr skugga um að endurnýjun einingaverslunarinnar hafi verið sjálfvirk](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 3. Staðfestu að Azure AD auðkennisstilling innihaldi færslu fyrir tillögur. Nánari upplýsingar um framkvæmd þessarar aðgerðar eru hér að neðan.
 
-Að auki skal tryggja að RetailSale mælingar hafi verið gerðar virkar. Til að læra meira um þetta uppsetningarferli, sjá [Vinna með mælingar](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
+Að auki skal tryggja að RetailSale mælingar hafi verið gerðar virkar. Til að læra meira um þetta uppsetningarferli, sjá [Vinna með mælingar](/dynamics365/ai/customer-insights/pm-measures).
 
 ## <a name="azure-ad-identity-configuration"></a>Azure AD auðkennisskilgreining
 
@@ -71,7 +68,7 @@ Til að kveikja á afurðatillögum skal fylgja þessum skrefum.
 1. Veljið eiginleikann **Afurðaráðleggingar**.
 1. Á eiginleikasvæðinu **Afurðaráðleggingar** skal velja **Virkja núna**.
 
-![Kveikt á tillögum](./media/FeatureManagement_Recommendations.PNG)
+![Kveikt á tillögum.](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > Þetta ferli hefur ferlið við að mynda afurðatillögulista. Það getur tekið nokkrar klukkustundir áður en listarnir verða tiltækir og sjást á sölustað (POS) eða í Dynamics 365 Commerce.
@@ -114,3 +111,6 @@ Til að læra meira um persónulegar ráðleggingar, sjá [Virkja persónulegar 
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

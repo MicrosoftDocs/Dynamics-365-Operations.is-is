@@ -2,32 +2,28 @@
 title: Hlaða upp og þjóna föstum skrám
 description: Þetta efnisatriði lýsir því hvernig á að hlaða upp fastri skrá í Microsoft Dynamics 365 Commerce vefsmið, og hvernig á að búa til sérstillt URL og skráarheiti sem hægt er að nota til að óska eftir skránni.
 author: StuHarg
-manager: annbe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 981bbf03480abfd812b4020173b7acfdad0fef14
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: d5f092042b3dda65b041ab2f25f7319dd8e158d1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594973"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801386"
 ---
 # <a name="upload-and-serve-static-files"></a>Hlaða upp og þjóna föstum skrám
 
-[!include [banner](../includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að hlaða upp fastri skrá í Microsoft Dynamics 365 Commerce vefsmið, og hvernig á að búa til sérstillt URL og skráarheiti sem hægt er að nota til að óska eftir skránni.
 
@@ -107,3 +103,6 @@ Til að breyta vefslóð skal fylgja þessum skrefum.
 [Skera myndir](dam-crop-images.md)
 
 [Sérstilla áherslupunkta myndar](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9e7416c1ed69fa9783694e2adee7ada4e25e14054daeb1761428855690eb522f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778967"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897309"
 ---
 # <a name="financial-dimensions-and-posting"></a>Fjárhagsvíddir og bókanir 
 
@@ -71,29 +71,29 @@ Fólk spyr gjarnan um röðina sem ýmsir hlutar eru keyrðir í. Mikilvægt er 
 
 Eftirfarandi myndskýring sýnir fasta sjálfgefna vídd sem er stillt á aðallykil 401100.
 
-[![Sjálfgefnar fjárhagsvíddir.](./media/default-dimensions.png)](./media/default-dimensions.png)
+[![Sjálfgefnar fjárhagsvíddir](./media/default-dimensions.png)](./media/default-dimensions.png)
 
 Í þessu mjög svo einfalda dæmi, munum við færa inn almenna færslubók þar sem vídd deildarinnar er stillt á notkun sjálfgildisins **023** (Operations). Við munum færa inn og bóka fjárhagslykil. Eftirfarandi myndskýring sýnir fasta sjálfgefna fjárhagsvídd á fjárhagshausnum.
 
-[![Almennar færslubækur.](./media/general-journal.png)](./media/general-journal.png)
+[![Almennar færslubækur](./media/general-journal.png)](./media/general-journal.png)
 
 Sjálfgefna víddin á færslubókarhausnum mun valda því að deild 023 verður notuð að sjálfgefnu í sölureikningslínunni. Eftirfarandi myndskýring sýnir línu almennrar færslubókar þar sem **023** sjálfgefið víddargildi frá hausnum er notað.
 
-[![Fylgiskjal færslubókar.](./media/journal-voucher.png)](./media/journal-voucher.png)
+[![Fylgiskjal færslubókar](./media/journal-voucher.png)](./media/journal-voucher.png)
 
 Aftur á móti, þegar línan er bókuð, er fasta víddin notuð, og línan er bókuð til deildar 022. Eftirfarandi myndskýring sýnir bókað fylgiskjal, þar sem fasta víddin er notuð fyrir sölureikninginn.
 
-[![Færslur fylgiskjals með fastar víddir jafnað.](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Færslur fylgiskjals með fastar víddir jafnað](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Dæmi 2
 
 Þetta dæmi notar sömu uppsetningu og það fyrsta. Við munum aftur á móti bæta við öðrum hluta og nota vídd deildarinnar sem afstemmingarvídd. Í eftirfarandi myndskýringu er **Deild** stillt sem afstemming fjárhagsvídd fyrir USMF fjárhaginn.
 
-[![Teikning sem sýnir deild sem afstemmda fjárhagsvídd.](./media/ledger.png)](./media/ledger.png)
+[![Teikning sem sýnir deild sem afstemmda fjárhagsvídd](./media/ledger.png)](./media/ledger.png)
 
 Þegar sami færslubókarhaus uppsetning er notuð og sama færslan er bókuð, er fasta víddin notuð fyrst. Síðan er afstemmingarrökleiðsla notuð til að hjálpa til við að tryggja að sérhver deild hafi afstemmda færslu. Eftirfarandi myndskýring sýnir fylgiskjalsfærslur sem innihalda afstemmingarfærsluna eftir að fasta víddin er virkjuð.
 
-.[![Færslur fylgiskjals eftir að mótfærsla er bókuð](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Færslur fylgiskjals eftir að mótfærsla er bókuð](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Dæmi 3
 
@@ -101,11 +101,11 @@ Aftur á móti, þegar línan er bókuð, er fasta víddin notuð, og línan er 
 
 Þetta dæmi er mikilvægt vegna raðarinnar. Lykilskipulagið er ákvarðað eftir að búið er að færa inn aðallykilinn. Ef þú vísar í uppsetningu lykilskipulagsins, getur kerfið ákvarðað að aðallykillinn, viðskiptaeining, deild og kostnaðarstaður séu viðeigandi. Á þessum tímapunkti hefur ítarlega reglan ekki verið virkjuð, því að fastar víddir eru ekki notaðar fyrr en sjálfgefnar víddir hafa verið notaðar fyrir færslubókarfylgiskjal á meðan bókun stendur. Í eftirfarandi myndskýringu er Viðskiptavinahlutinn ekki sjáanlegur, vegna þess að skilyrði fyrir ítarlega reglu hafa ekki verið uppfyllt.
 
-[![Fjárhagslykill.](./media/drop-down.png)](./media/drop-down.png)
+[![Fjárhagslykill](./media/drop-down.png)](./media/drop-down.png)
 
 Bókunin mun ekki heppnast, vegna þess að fasta víddin var notuð í lok ferlisins. Villuleit víddar ákvarðar að viðskiptavinahlutans sé krafist ef aðallykillinn er 401100 og deildin er 022. Bókun getur ekki átt sér stað vegna villu við villuleit. Eftirfarandi myndskýring sýnir skilaboðin sem birtast eftir að villuleit víddar ákvarðar að Viðskiptavinur er nauðsynlegur hluti.
 
-[![Upplýsingar um skilaboð.](./media/message.png)](./media/message.png)
+[![Nánar um skilaboð](./media/message.png)](./media/message.png)
 
 Í þessu dæmi þarf að skrifa yfir sjálfgildið svo að ítarlega reglan sé virkjuð og þú getir fært inn Viðskiptavinahlutann. Þessi lausn er þó ekki alltaf í boði, og sumir notendur vita ekki einu sinni af bókunarreglunum. Þess vegna er mikilvægt að skilja röðina sem sjálfgefnar víddir eru notaðar í þegar þú setur upp bókhaldslyklana þína.
 

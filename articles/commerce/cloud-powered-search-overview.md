@@ -1,37 +1,30 @@
 ---
 title: Leitaryfirlit í skýinu
-description: Þetta efni gefur yfirlit yfir leit í skýi í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði sýnir yfirlit yfir leit í skýinu í Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-manager: annbe
 ms.date: 06/29/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413036"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983670"
 ---
 # <a name="cloud-powered-search-overview"></a>Leitaryfirlit í skýinu
 
-
 [!include [banner](includes/banner.md)]
 
-Þetta efni gefur yfirlit yfir leit í skýi í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði sýnir yfirlit yfir leit í skýinu í Microsoft Dynamics 365 Commerce.
 
 Vöruuppgötvun hjálpar til við að tryggja að viðskiptavinir geti fundið vörur fljótt og auðveldlega með því að vafra um flokka, leita og sía. Smásalar líta á vöruuppgötvun sem aðalverkfæri til að hafa samskipti við viðskiptavini á öllum rásum.
 
@@ -47,7 +40,7 @@ Samsvörun leitar og afköst eru lykilatriði í alhliða upplifun, því uppgö
 
 Eftirfarandi mynd sýnir dæmi um dæmigerða virkni vafra og leitar.
 
-![Leita á lendingasíðu](./media/SearchLanding.png)
+![Leita á lendingasíðu.](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Hliðarflakk og yfirlit yfir val 
 
@@ -57,7 +50,7 @@ Með því að nota hliðarleiðsögn er hægt að stilla mismunandi hreinsara f
 
 Eftirfarandi mynd sýnir dæmi þar sem hliðarleiðsögn er notuð við leit.
 
-![Yfirlit yfir val](./media/ChoiceSummary.png)
+![Yfirlit yfir val.](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Heildstæð sjálfvirkni
 
@@ -67,7 +60,7 @@ Dynamics 365 Commerce styður einnig virkni fyrir samsvörun leitarorða í ýms
 
 Eftirfarandi mynd sýnir dæmi þar sem verið er að nota heildstæða sjálfvirkni.
 
-![heildstæð sjálfvirkni](./media/ImmersiveAutoSuggestUX.png)
+![heildstæð sjálfvirk tillaga.](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Raða
 
@@ -75,10 +68,13 @@ Aukin flokkun í Dynamics 365 Commerce gerir viðskiptavinum kleift að flokka, 
 
 >[!NOTE]
 >Þessir leitareiginleikar í skýi eru tiltækir frá útgáfu 10.0.8. Gangið úr skugga um að undir **Viðskiptafæribreytur > Skilgreiningarfæribreytur** sé færsla fyrir „ProductSearch.UseAzureSearch stillt á true“. 
-![Færibreytur skilgreininga fyrir leit í skýinu](./media/CloudPoweredSearchConfigurationParameters.png)
+![Færibreytur skilgreininga fyrir leit í skýinu.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir sjálfgefna lendingarsíðu og leitarniðurstöðusíðu](category-search-page-overview.md)
 
 [Stjórna SEO-lýsigögnum](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

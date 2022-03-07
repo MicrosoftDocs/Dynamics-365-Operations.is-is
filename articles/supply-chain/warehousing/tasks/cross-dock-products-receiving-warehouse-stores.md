@@ -1,28 +1,25 @@
 ---
 title: Hjáskipa afurðir úr viðtökuvöruhúsi í verslanir
 description: Þetta ferli fer í gegnum skrefin til að stofna og vinna hjáskipun til að dreifa afurðir úr staðsetning móttökustaðar innkaupapöntunar til ein eða margar verslanir.
-author: ShylaThompson
-manager: tfehr
+author: Mirzaab
 ms.date: 02/17/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailBuyersPushPerPackage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 033d4f72b626130c144faff30fe0d35349b26c6d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.openlocfilehash: 6e65535a1879eab229f185e0e97d81a304fd292d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430719"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572962"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Hjáskipa afurðir úr viðtökuvöruhúsi í verslanir
 
@@ -49,3 +46,6 @@ ms.locfileid: "4430719"
 15. Á listanum skal finna og velja vöruhús sem tók á móti vörur
 16. Smellið á pantanir til Að skoða pantanir sem var stofnað fyrir valið vöruhús
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Setja upp verktakamiða fyrir lánardrottna
 description: Þetta ferli fer í gegnum stofnun á íslenskum verktakamiða.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport,  VendInvoiceDeclaration_IS
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Iceland
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b30e387658fb6c4a8a3f2b0407c8022c4276c7d4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 412204bdb23594ce56949170813dd85bb7873ada9008e132401c5ce15a30d9bf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408066"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738408"
 ---
 # <a name="set-up-an-invoice-declaration-for-vendors"></a>Setja upp verktakamiða fyrir lánardrottna
 
@@ -59,3 +56,6 @@ ms.locfileid: "4408066"
 10. Í reitnum Færslugerð skal velja ‚LA‘.
 11. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
