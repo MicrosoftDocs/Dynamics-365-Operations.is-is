@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d184b34ec33184d730d5b6eed3db144f1433f1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c20e17cf9f20fd6317cd61bc6dfc019eb20612af
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430092"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235018"
 ---
 # <a name="inventory-journals"></a>Birgðabækur
 
@@ -117,3 +116,6 @@ Annar munur milli gagnaeininga færslubókar er hæfnin til að nota samsettar e
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Gagnaeiningar](../../dev-itpro/data-entities/data-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Tæki, markaður og landfræðileg miðun
 description: Þetta efnisatriði lýsir því hvernig á að búa til, breyta og stjórna notendahópum og markhópum í Microsoft Dynamics 365 Commerce vefsmiðnum með því að nota upplýsingar um tæki, markað og landfræðilega staðsetningu.
 author: sushma-rao
-ms.date: 02/03/2022
+ms.date: 07/30/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 0c8ceb5e59c801e0d3dbc3a57e54c40fa8d967ac
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
-ms.translationtype: MT
+ms.openlocfilehash: b17c394105d4bb878c8375989924d3c3da079c78
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090695"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985138"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>Tæki, markaður og landfræðileg miðun
 
@@ -96,18 +96,6 @@ Til að breyta notendahópi skaltu velja tengilinn fyrir hann í flipanum **Note
 
 > [!NOTE]
 > Notendahópar eru hugmynd á svæðisstigi í vefsmið Commerce. Þú getur deilt sama notendahópnum í mörgum markhópum.
-
-### <a name="rename-an-audience-in-site-builder"></a>Endurnefna áhorfendur í vefsíðugerð
-
-Til að endurnefna núverandi markhóp í Commerce site builder skaltu fylgja þessum skrefum.
-
-1. Á yfirlitssvæðinu til vinstri skal velja **Notendahópar**.
-1. Veldu nafn áhorfendahluta sem þú vilt endurnefna.
-1. Veldu **Breyta** til að byrja að breyta áhorfendum.
-1. Í áhorfendaeiginleikarúðunni skaltu velja pennatáknið við hlið áhorfendaheitisins.
-1. Breyttu nafni áhorfenda eftir þörfum.
-1. Veldu gátmerkið til að staðfesta nafnbreytinguna.
-1. Veldu **Ljúka við breytingar**.
 
 ## <a name="targets"></a>Mark
 

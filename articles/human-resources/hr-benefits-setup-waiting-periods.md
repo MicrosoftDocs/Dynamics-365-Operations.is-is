@@ -2,7 +2,7 @@
 title: Grunnstilla biðtímabil
 description: Í Microsoft Dynamics 365 Human Resources, biðdagar koma á tímamótum til að nota í bótakerfi.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e1937ab54eb7898afe0fed6659c3ae676626e8ad
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0e08c0c02393506e1e292676c954bdf3850029f7
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419036"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468300"
 ---
 # <a name="configure-waiting-periods"></a>Grunnstilla biðtímabil
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Í Microsoft Dynamics 365 Human Resources, biðdagar koma á tímamótum til að nota í bótakerfi. Til dæmis, þrír mánuðir frá ráðningardegi, fyrsta hvers mánaðar eða sex mánuðir.   
 
@@ -45,3 +47,6 @@ ms.locfileid: "4419036"
    | **Biðdagur** | Veljið biðdag sem á að nota við útreikning biðdagsetningar. |
 
 4. Veljið **Vista**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,27 +1,25 @@
 ---
 title: Senda og samþykkja fjárhagsáætlun verks
 description: Þetta ferli gefur upplýsingar um hvernig á að fara yfir fjárhagsáætlun verks.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, ProjBudgetRevision, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de6faf9442834d5fcf75e5d6219387648edb6840
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 2934e0a46fd3f0c89f8e1240f5722e9409ca2796
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018779"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811135"
 ---
 # <a name="submit-and-approve-project-budget-revision"></a>Senda og samþykkja fjárhagsáætlun verks
 
@@ -45,3 +43,6 @@ ms.locfileid: "5018779"
 12. Í reitinn Athugasemd skal slá inn gildi.
 13. Smelltu á Senda.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

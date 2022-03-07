@@ -2,9 +2,11 @@
 title: Línuskilgreiningar í fjárhagsskýrsluhönnuði
 description: Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar raðar í fjárhagsskýrslu.
 author: aprilolson
+manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e175d1e3de1f5db31de9c4600c8a5935f0cb11a9d39bc0f4e142edf5fc00ce86
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 274fa4bd137407c504f74335291e4c8e7999625b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745913"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093266"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Línuskilgreiningar í fjárhagsskýrsluhönnuði
 
@@ -158,7 +160,7 @@ Sniðið sem er tilgreint í línuskilgreiningunni hnekkir öllum sniðum sem er
 
 1. Opnið skilgreiningu raðar í Report Designer til að gera breytingar.
 2. Veljið hólfin sem á að sníða. Til að velja fleiri en eitt hólf skal halda Ctrl-lyklinum niðri um leið og hólfin eru valin.
-3. Smellið á tækjastikuhnapp sniðsins sem á að nota. Til að draga t.d. inn línu skal velja línuna og smella á **Auka inndrátt** ![Auka inndrátt.](media/indent.gif "Auka inndrátt") á tækjastikunni.
+3. Smellið á tækjastikuhnapp sniðsins sem á að nota. Til að draga t.d. inn línu skal velja línuna og smella á **Auka inndrátt** ![Auka inndrátt](media/indent.gif "Auka inndrátt") á tækjastikunni.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Stilling dálka við hönnun skýrslna
 
@@ -185,6 +187,3 @@ Til að auðvelda að skoða dálka sem er unnið er með í línuskilgreiningu 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

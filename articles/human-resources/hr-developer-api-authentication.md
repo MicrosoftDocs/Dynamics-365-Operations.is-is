@@ -2,15 +2,12 @@
 title: Sannvottun
 description: Þessi grein veitir yfirlitsupplýsingar um hvernig eigi að auðkenna Microsoft Dynamics 365 Human Resources forritunarviðmót gagnaforrits (API).
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a0509ce99205d49d516e180203ffb65a1dc09a7c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 87e9779dc47494583ad4a299206bada4b85c6a15
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418956"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360473"
 ---
 # <a name="authentication"></a>Sannvottun
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Þessi grein veitir yfirlitsupplýsingar um hvernig eigi að auðkenna Microsoft Dynamics 365 Human Resources forritunarviðmót gagnaforrits (API).
 
@@ -82,13 +81,13 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
         - Fyrir vefforrit, gefðu grunnslóð forritsins. Til dæmis, `http://localhost:31544` gæti verið slóðin fyrir vefforrit sem keyrir á vélinni þinni. Notendur nota síðan þessa slóð til að skrá sig inn á forrit á vefbiðlara.
         - Gefðu URI það fyrir opinbera viðskiptavini Azure AD notar til að skila svarbréfum. Sláðu inn gildi sem er sérstaklega við forritið þitt, svo sem `myapp://auth`.
 
-        Til að sjá ákveðin dæmi fyrir vefforrit eða innfædd forrit, sjáðu skyndistyrki í [Microsoft vettvangur (áður Azure Active Directory fyrir forritara)](https://docs.microsoft.com/azure/active-directory/develop/#quickstarts).
+        Til að sjá ákveðin dæmi fyrir vefforrit eða innfædd forrit, sjáðu skyndistyrki í [Microsoft vettvangur (áður Azure Active Directory fyrir forritara)](/azure/active-directory/develop/#quickstarts).
 
 5. Undir **API leyfi**, veldu **Bæta við leyfi**. Síðan, á **Forritaskil sem samtökin mín nota** flipann, leitaðu að **Dynamics 365 Human Resources**, og bæta við **user\_impersonation** leyfi fyrir forritinu þínu. Auðkenni umsóknar um Human Resources er f9be0c49-aa22-4ec6-911a-c5da515226ff. Notaðu þetta auðkenni til að tryggja að þú hafir valið rétt forrit.
 
 6. Veldu **Skrá**.
 
-   [![Að skrá nýtt forrit í Azure gáttina](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
+   [![Skráning á nýju forriti í Azure-gáttinni.](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
 
 Azure AD úthlutar einstöku auðkenni forrits (viðskiptavinakennara) í forritið þitt og fer með þig í forritið **Yfirlit** síðu fyrir forritið þitt. Til að bæta við fleiri möguleikum í forritið þitt geturðu valið aðra stillingarvalkosti, svo sem valkosti fyrir vörumerki og fyrir skírteini og leyndarmál.
 
@@ -185,3 +184,6 @@ namespace TalentODataPoC
 ```
 
 Þegar þú hefur sótt aðgangsmerki muntu fara framhjá tákninu í heimildarhausnum sem handhafatákn með hverri beiðni sem þú sendir til gagna API eins og lýst er hér að ofan.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

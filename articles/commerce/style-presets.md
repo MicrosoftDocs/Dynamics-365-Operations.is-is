@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 250f2386cefee8bef45df66c4eef31b4e7fc2686
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 55d333c3ae94b17dabaef3c697c698f068a06543
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413227"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226592"
 ---
 # <a name="work-with-style-presets"></a>Vinna með forstillta stíla
 
@@ -128,3 +127,6 @@ Stílgildi forstillingar eru gerð virk á almenna vefsvæðinu.
 [Bæta tungumálum við síðuna](add-languages-to-site.md)
 
 [Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

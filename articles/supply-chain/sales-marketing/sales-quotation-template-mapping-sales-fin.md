@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c7d4cacbf56243830633f4d0fd3c57071b08ab56
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: a1cf4072cb873ebbf4e0e46f16771458e436bcac
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527339"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5243106"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Samstilla hausa og línur sölutilboðs beint úr Sales í Supply Chain Management
 
@@ -35,7 +34,7 @@ ms.locfileid: "4527339"
 Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla hausa og línur sölutilboða beint úr Dynamics 365 Sales við Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
-> Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Common Data Service fyrir forrit](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Microsoft Dataverse fyrir forrit](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gagnaflæði í Prospect to cash
 
@@ -63,8 +62,8 @@ Eftirfarandi samstillingarverk eru nauðsynleg áður en samstilling úr söluti
 
 | Sala        | Birgðakeðjustjórnun     |
 |--------------|----------------------------|
-| Tilvitnanir       | CDS-sölutilboðshaus |
-| QuoteDetails | CDS-sölutilboðslínur  |
+| Tilvitnanir       | Dataverse sölutilboðshaus |
+| QuoteDetails | Dataverse sölutilboðslínur  |
 
 ## <a name="entity-flow"></a>Einingaflæði
 
@@ -143,3 +142,6 @@ Eftirfarandi skýringamyndir sýna dæmi um sniðmátsvörpun í gagnasamþátta
 
 [Prospect to cash](prospect-to-cash.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

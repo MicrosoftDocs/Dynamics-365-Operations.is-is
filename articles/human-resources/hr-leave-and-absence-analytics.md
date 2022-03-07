@@ -2,15 +2,12 @@
 title: Skoða greiningu á leyfum og fjarvistum
 description: Skoða greiningar, uppsöfnun og stöður og stöðuþróun í Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a6cca83cf6eb17d9d700058365ac54c54efca7eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: a8c191db3072b1333e8b1b599c45f43b23ab9f2b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419081"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066701"
 ---
 # <a name="view-analytics-for-leave-and-absence"></a>Skoða greiningu á leyfum og fjarvistum
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Dynamics 365 Human Resources veitir greiningar til að hjálpa þér að fá innsýn í orlof og fjarveruþróun stofnunarinnar.
 
@@ -45,3 +47,5 @@ Dynamics 365 Human Resources veitir greiningar til að hjálpa þér að fá inn
 
 - [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)
 - [Búa til leyfis- og fjarvistaáætlun](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

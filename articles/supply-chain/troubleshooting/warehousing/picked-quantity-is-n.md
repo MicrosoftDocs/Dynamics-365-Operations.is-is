@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 6febc340f140d0b3a3f08ea32a59d9eb4e6e5204
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
-ms.translationtype: MT
+ms.openlocfilehash: fa6054dc26e4306ec16e37b0e6c320342ed40fe0
+ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920449"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6249120"
 ---
 # <a name="picked-quantity-isnt-sufficient-during-packing-slip-generation"></a>Ekki er nægjanlegt tiltektarmagn við myndun fylgiseðils
 
@@ -66,8 +66,8 @@ Notið eftirfarandi ferli til að stilla magn farmlínu.
 
 1. Farðu í **Vöruhúsakerfi \> Hleðslur \> Allar hleðslur**.
 1. Veljið hleðsluna sem ekki er hægt að mynda fylgiseðilinn fyrir.
-1. Á aðgerðarrúðunni, á **Senda og taka á móti** flipa, í **Öfugt** hópur, veldu **Staðfesting á öfugri sendingu**.
-1. Á **Hleðslulínur** flipanum, veldu hleðslulínuna fyrir hlutinn sem veldur vandamálum.
+1. Á aðgerðasvæðinu, í flipanum  **Senda og móttaka**, í flokknum  **Bakfæra**, skal velja  **Bakfæra staðfestingu sendingar**.
+1. Í flipanum  **Hleðslulínur** skal velja hleðslulínu fyrir vöruna þar sem vandamál kemur upp.
 1. Veljið **Minnka tiltektarmagn** til að laga tiltektarmagnið.
 1. Stillið reitinn **Minnka hleðslulínu** til að endurspegla leiðréttingar á hleðslulínunni.
 
@@ -79,5 +79,5 @@ Notið eftirfarandi ferli til að bakfæra skráningu tiltektar.
 
 1. Farið í **Viðskiptakröfur \> Pantanir \> Allar pantanir**.
 1. Veljið sölupöntunina þar sem ekki er hægt að bóka fylgiseðil fyrir hleðsluna.
-1. Á **Sölupöntunarlínur** flipanum, veldu sölupöntunarlínuna sem tínsluskráning var gerð fyrir.
+1. Í flipanum  **Sölupöntunarlínur** skal velja sölupöntunarlínuna sem skráning tiltektar var gerð fyrir.
 1. Veljið **Uppfæra línu \> Tiltekt** til að afturkalla tiltekt á vörunum.

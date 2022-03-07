@@ -1,70 +1,94 @@
 ---
-title: Mynda Affordable Care Act (ACA) skýrslur
-description: Aðgerðir eru í boði til að aðstoða vinnuveitendur sem þurfa að fylgjast með upplýsingunum sem greint er frá á eyðublöðum 1095-B og 1095-C til stuðnings þeim hluta af Affordable Care Act sem snýr að umboði vinnuveitanda. Athugaðu að þessar aðgerðir er aðeins virkar fyrir lögaðila í Bandaríkjunum.
+title: Mynda skýrslur fyrir Affordable Care Act (ACA)
+description: Skýrslugerð Affordable Care Act býr til eyðublöð 1095-B og 1095-C til stuðnings þeim hluta af Affordable Care Act sem snýr að **umboði vinnuveitanda**.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 3555be3067db459625df9f9b0ac6b78fc2715289
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: c8f336e31e77391ef7e2bc2dca901e6a78fbb914
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419029"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067002"
 ---
-# <a name="generate-affordable-care-act-aca-reports"></a>Mynda Affordable Care Act (ACA) skýrslur
+# <a name="generate-aca-reports"></a>Mynda ACA-skýrslur
 
-Aðgerðir eru í boði til að aðstoða vinnuveitendur sem þurfa að fylgjast með upplýsingunum sem greint er frá á eyðublöðum 1095-B og 1095-C il stuðnings þeim hluta af Affordable Care Act sem snýr að **umboði vinnuveitanda**. Athugaðu að þessar aðgerðir er aðeins virkar fyrir lögaðila í Bandaríkjunum.
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Skýrslugerð Affordable Care Act býr til eyðublöð 1095-B og 1095-C til stuðnings þeim hluta af Affordable Care Act sem snýr að **umboði vinnuveitanda**.
+
+> [!NOTE]
+> ACA-skýrslugerð er aðeins virkjuð fyrir lögaðila í Bandaríkjunum.
 
 ## <a name="getting-started"></a>Hafist handa
-Þegar byrjað er að vakta upplýsingar sem skráðar eru á eyðublöðum 1095 B og 1095 C, þarf fyrst að stofna einn eða fleiri tryggingahópa fyrir Affordable Care. Þessir tryggingahópar fyrir Affordable Care verða notaðir til að tilgreina þær tryggingar sem voru boðnar starfsmanni, hluta starfsmannsins af ódýrasta mánaðarlega iðgjaldinu (ef kostnaðurinn er yfir alríkislögum um fátæktarmörk) auk öruggrar hafnar sem vinnuveitandinn nýtir sér, ef við á. Með því að nota hópa fyrir Affordable Act getur þú stjórnað upplýsingum fyrir þessa reiti án þess að þurfa að fara í gegnum allar starfsmannaskrár þar sem aðstæður eru þær sömu. Ennfremur er auðveldlega hægt að úthluta tryggingahópum Affordable Care einum eða fleiri starfsmönnum með fjöldaúthlutun á síðunni.
+
+Til að rekja upplýsingar fyrir eyðublöð 1095-B og 1095-C skal fyrst stofna einn eða fleiri Affordable Care-tryggingaflokka. Affordable Care-tryggingaflokkar tilgreina:
+
+- Tryggingatilboð handa starfsmanni
+- Hlutdeild starfsmanns í lægstu mánaðarlegu greiðslu iðgjalds, ef kostnaðurinn er fyrir ofan fátæktarmörk
+- Örugg höfn sem er notuð af starfsmanni, ef á við
+
+Affordable Care-tryggingaflokkar gera þér kleift að hafa umsjón með þessum reitum án þess að breyta öllum starfsmannafærslum þar sem skilyrðin eru þau sömu. Það er auðveldlega hægt að úthluta Affordable Care-tryggingaflokkum á einn eða fleiri starfsmenn með valkostinum **Fjöldaúthluta** á síðunni.
 
 ## <a name="maintaining-multiple-versions-of-a-coverage-group"></a>Umsjón með mörgum útgáfum tryggingahóps
-Hægt er að viðhalda mörgum útgáfum af hverjum tryggingahóp, sem gerir þér kleift að gera breytingar sem halda hópaupplýsingum uppfærðum, án þess að þurfa að stofna nýjan hóp og endurraða starfsmönnum í hann þegar eitthvað breytist í fyrirtækinu eða hvað varðar þau hlunnindi sem eru í boði. 
 
-Eftir að þú hefur stofnað þá tryggingahópa Affordabe Care sem þú þarft, getur þú valið að fjöldaúthluta hópum til starfsmanna með því að nota virknina **Fjöldaúthlutun** á síðunni, eða þú getur nálgast hvern starfsmann og sagt honum hvaða ACA upplýsingar þarf að vakta og skrá fyrir þann starfsmann, sem og að setja starfsmanninn í tryggingahóp Affordable Care.
+Hægt er að viðhalda mörgum útgáfum í hvaða tryggingaflokki sem er. Þessi virkni gerir þér kleift að gera breytingar án þess að þurfa að búa til nýjan flokk og endurúthluta starfsmönnum í hann. 
 
-Ef það þarf ekki að vakta eða skrá tryggingaupplýsingar fyrir Affordable Care fyrir starfsmenn, ef þeir eru til dæmis í hlutastarfi, er hægt að stilla reitinn **Skrá tryggingar** á Nei. Þrátt fyrir að það þurfi að úthluta Affordabe Care tryggingahópi hverjum starfsmanni sem vakta þarf ACA upplýsingar fyrir, getur þú samt sem áður breytt valmöguleikunum **Tryggingatilboð**, **Kostnaðarhlutdeild starfsmanns** og **Örugg höfn** fyrir hvaða mánuð, eða mánuði, sem kalla á önnur gildi en þau sem skráð voru í tryggingahópi fyrir Affordable Care.
+Þegar búið er að stofna ACA-tryggingaflokka er hægt að fjöldaúthluta flokkunum á starfsmenn með valkostinum **Fjöldaúthlutun**. Einnig er hægt að gefa til kynna í hverju tilfelli fyrir sig hvort eigi að rekja og tilkynna ACA-upplýsingar og úthluta starfsmanni á Affordable Care-tryggingaflokk.
 
-Til að færa inn undantekningar á einhverjum gildum tryggingahóps Affordable Care skal smellt á tengilinn fyrir Affordable Care Coverage sem er að finna á upplýsingasíðu starfsmanns, sem er undir hlutanum Viðbótarupplýsingar á flipanum Starf.
+Ekki þarf að rekja sumar ACA-tryggingaupplýsingar eins og fyrir starfsmenn í hlutastarfi. Í þessu tilfelli skal stilla reitinn **Telja tryggingu fram** á **Nei**. Þótt þurfi að úthluta hverjum starfsmanni rekjanlegar ACA-upplýsingar í Affordable Care-tryggingaflokk, er enn hægt að breyta eftirfarandi valkostum fyrir mánuði með ólíkum gildum:
+
+- **Tryggingatilboð**
+- **Kostnaðarhlutdeild starfsmanns**
+- **Örugg höfn**
+
+Til að færa inn undantekningar fyrir gildi Affordable Care-tryggingaflokks skal velja tengilinn **Affordable Care-trygging** á síðunni **Upplýsingar um starfsmann** undir hlutanum **Frekari upplýsingar** í flipanum **Starf**.
 
 ## <a name="reporting-health-care-coverage"></a>Skráning sjúkratrygginga
-Auk þess að rekja hvaða sjúkratryggingar, ef einhverjar, voru boðnar starfsmanni í fullu starfi, hvort vinnuveitandi bjóði upp á sjúkratryggingasjóð sem starfsmaðurinn er skráður í (óháð því hvort ráðningarstaða hans sé fullt starf eða hlutastarf), þá verður að skrá viðbótarupplýsingar í 1095-C. Hver starfsmaður (þ.m.t. skjólstæðingar) sem tryggður er af tryggingum vinnuveitanda verður að vera skráður í skýrslunni fyrir þá mánuði sem hann var tryggður. 
 
-Hægt er að tilgreina hvort það þurfi að skrá hverja fríðindaáætlun eða ekki með því að velja gátreitinn **ACA-tilkynningaskylt**.
+Auk þess að rekja sjúkratryggingu sem boðin er starfsmönnum í fullu starfi, ef vinnuveitandi býður upp á sjálfstryggða sjúkratryggingu kostaða af vinnuveitanda þar sem starfsmaðurinn er skráður (burtséð frá því hvort þeir eru í fullu starfi eða hlutastarfi), þarf að tilkynna frekari upplýsingar á 1095-C. Hver starfsmaður (þ.m.t. skjólstæðingar) sem tryggður er af tryggingum vinnuveitanda verður að vera skráður í skýrslunni fyrir þá mánuði sem hann var tryggður. 
 
-Ef starfsmenn hafa valið að hafa einhverja af skjólstæðingum sínum tryggða samkvæmt fríðindum, er einnig hægt að tilgreina þær dagsetningar sem skjólstæðingar voru tryggðir fyrir hvern starfsmann á síðunni Viðhalda fríðindum. Til að tilgreina hvort skjólstæðingur er tryggður samkvæmt fríðindum skal velja hnappinn Breyta á aðgerðarúðu á flýtiflipanum Skjólstæðingar.
+Hægt er að gefa til kynna hvort tilkynna þurfi hverja fríðindaáætlun fyrir sig með því að velja gátreitinn **ACA-tilkynningaskylt**.
+
+Að auki ef starfsmenn hafa valið að einhverjir skjólstæðinga þeirra verði tryggðir undir fríðindum, er hægt að gefa upp dagsetningarnar sem skjólstæðingurinn var tryggður fyrir hvern starfsmann á síðunni **Viðhalda fríðindum**. Til að gefa til kynna að skjólstæðingurinn sé tryggðir undir fríðindum skal velja hnappinn **Breyta** á aðgerðasvæði flýtiflipans **Skjólstæðingar**.
 
 Á síðunni **Tímabilsstjórnun fyrir tryggingar skjólstæðinga** er hægt að tilgreina dagsetningar sem skjólstæðingar voru tryggðir samkvæmt fríðindum. Skráning dagsetninga á þessari síðu mun sjálfkrafa velja gátreitinn **Tryggður** á síðunni **Viðhalda fríðindum**.
 
-## <a name="generate-1095b-and-1095c-forms"></a>Búa til 1095B og 1095C eyðublöð
-Einnig er hægt að búa til eyðublöðin 1095-B og 1095-C innan afurðarinnar og dreifa þeim beint til hvers starfsmanns. Einnig er hægt að búa til 1095-C og samsvarandi 1094-C flutningsskrár, sem svo er hægt að nota til að senda upplýsingar til skattayfirvalda Bandaríkjanna, rafrænt úr kerfinu.  
+## <a name="generate-1095-b-and-1095-c-forms"></a>Búa til eyðublöð 1095-B og 1095-C
 
-Þegar eyðublað 1095-C er búið til skal færa inn viðeigandi skattaár og tilgreina ef hylja á kennitölur. Ef eyðublað 1095-C er prentað fyrir fleiri en 500 starfsmenn verður fleiri en ein PDF-skrá afhend. Mælt er með því að auka **Hámarksstærð skráar** í glugganum **Færibreytur skjalastjórnunar** í 150 MB.
+Einnig er hægt að búa til eyðublöðin 1095-B og 1095-C innan afurðar og dreifa þeim til allra starfsmanna þinna. Kerfið getur einnig rafrænt búið til 1095-C eyðublöð og 1094-C skilaskrár til skattyfirvalda Bandaríkjanna.  
+
+Þegar eyðublað 1095-C er búið til skal færa inn viðeigandi skattaár og tilgreina ef hylja á kennitölur. Ef eyðublað 1095-C er prentað fyrir fleiri en 500 starfsmenn færðu fleiri en eina PDF-skrá afhenta. Mælt er með því að auka **Hámarksstærð skráar** í glugganum **Færibreytur skjalastjórnunar** í 150 MB.
 
 ## <a name="viewing-information"></a>Skoðun upplýsinga
+
 Hægt er að nota síðuna **Affordable Care-trygging fyrir starfsmann** til að sjá hvaða starfsmenn hafa verið settir í hvaða tryggingahóp, hvaða starfsmenn þurfa að ekki að vera í skýrslu og hvaða starfsmenn hafa ekki verið settir í neinn hóp.
 
-Ef einhverju af sjálfgefnum gildum úr Affordable Care-tryggingahópnum hefur verið hnekkt, mun stjarna birtast við hliðina á gildinu sem var breytt. Ef gildi fyrir alla 12 mánuðina eru þau sömu og þeim hefur ekki verið hnekkt, mun gildið prentast í dálknum **Allir 12 mánuðirnir**.
+Ef einhverjum sjálfgefnum gildum úr Affordable Care-tryggingaflokknum hefur verið hnekkt, birtist stjarna við hliðina á gildinu sem var breytt. Ef gildi fyrir alla 12 mánuðina eru þau sömu og þeim hefur ekki verið hnekkt, mun gildið prentast í dálknum **Allir 12 mánuðirnir**.
 
-Einnig er hægt að nota fyrirspurnargluggann til að sjá hvaða starfsmenn hafa verið merktir sem ekki ACA-tilkynningaskyldir, sem þýðir að þú þarft ekki að vakta hvaða tryggingar stóðu þeim til boða og þarft ekki að gefa út 1095-C til þeirra við árslok. Með því að velja **Ekki ACA-tilkynningaskyldur** í reitnum **Sía eftir**, getur þú búið til lista yfir alla starfsmenn sem hafa verið merktir þannig að þeir fái ekki 1095-C.
+Einnig er hægt að nota fyrirspurnargluggann til að komast að því hvaða starfsmenn hafa verið flaggaðir sem ekki ACA-tilkynningaskyldir. Ekki þarf að fylgjast með því hvort þeim var boðin trygging og ekki þarf að gefa út 1095-C til þeirra í árslok. Velja skal **Er ekki ACA-tilkynningaskylt** í reitnum **Sía eftir** til að búa til lista yfir starfsmenn sem fá ekki 1095-C.
 
-Auk þess að skoða lista yfir starfsmenn sem eru ekki ACA-tilkynningskyldir, getur þú einnig skoðað alla starfsmenn sem eru óúthlutaðir (reiturinn **ACA skrá tryggingar** er auður) eða hafa verið settir í Affordable Care-tryggingahóp sem er útrunninn fyrir árið sem valið er í reitnum **Ár**.
+Að auki er hægt að skoða starfsmenn sem ekki úthlutað (reiturinn **Telja ACA-tryggingu fram** er auður) eða hefur verið úthlutað í Affordable Care-tryggingaflokk sem er útrunninn fyrir árið sem er valið í reitnum **Ár**.
 
 Hægt er að flytja út lista yfir starfsmenn í Excel sem voru myndaðir með einhverjum af síunarkostunum.
 
-Ef nauðsynlegt er að skrá tryggða einstaklinga þar sem þú sem vinnuveitandi býður upp á sjúkratryggingasjóð, getur þú einnig skoðað alla skjólstæðinga sem tryggðir eru samkvæmt fríðindaáætlun og hafa verið merktir sem **ACA-tilkynningaskyldur** með því að velja tryggingaaðgerðina Skoða skjólstæðinga í aðgerðarúðulengjunni.
+Ef þarf að tilkynna tryggða einstaklinga vegna þess að þú býður upp á sjálfstryggða tryggingu, er hægt að skoða skjólstæðinga sem eru tryggðir undir fríðindaáætlunum merktar sem **ACA-tilkynningaskylt**. Veljið **Skoða tryggingar skjólstæðinga** á aðgerðasvæðinu.
 
-**Athugið:** Aðeins fríðindi þar sem áætlunin hefur verið merkt sem **ACA-tilkynningaskyldur** birtast í fyrirspurnarglugganum.
+> [!NOTE]
+> Aðeins fríðindaáætlanir sem eru merktar **ACA-tilkynningaskylt** birtast í fyrirspurnarglugganum.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

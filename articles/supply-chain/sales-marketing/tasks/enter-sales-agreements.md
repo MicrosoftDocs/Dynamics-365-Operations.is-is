@@ -1,28 +1,25 @@
 ---
 title: Færa inn sölusamninga
 description: Þetta efni útskýrir hvernig stofna á sölusamning sem bindur sig einum viðskiptavini til að kaupa vöru fyrir samþykkta upphæð yfir tíma í skiptum fyrir sérstakan afslátt.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesAgreementListPage, SalesAgreementCreate, SalesAgreement, InventItemIdLookupSimple, AgreementConfirmRunForm, SrsReportViewerForm, SalesAgreementCustomerReferencesPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d69f3eaacea641460b407c1456ee50600262fee
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ee2c1494842c5fd2aa598546ba655c33d6fd3f16
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430136"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568304"
 ---
 # <a name="enter-sales-agreements"></a>Færa inn sölusamninga
 
@@ -57,3 +54,6 @@ ms.locfileid: "4430136"
 11. Veljið **Í lagi**.
 12. Lokið síðunni. Samningurinn er nú gildur. Hægt er að hefja tengingu á pöntunum viðskiptavina við samning til mótfærslu við skuldbindingarmarkið.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

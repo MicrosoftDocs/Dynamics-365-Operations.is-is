@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722768"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841238"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Sjálfvirkni reiknings fyrir skönnuð skjöl
 
@@ -34,7 +34,7 @@ Reikningur sjálfvirkni lausn virkjar staðlað viðmót sem getur samþykkt rei
 
 Eftirfarandi skýringarmynd sýnir sýnishorn af samþættingaraðstæðum þar sem Contoso hefur gerst meðeigandi með OCR-þjónustuveitanda fyrir vinnslu á reikningi lánardrottins. Lánardrottnar Contoso senda reikninga til þjónustuveitu með tölvupósti. Í gegnum OCR-vinnslu myndar þjónustuveitan lýsigögn reikningsins (haus og/eða línur) og skannaða mynd af reikningnum. Samþættingarlag umbreytir þessum gervingum síðan svo að hægt sé að geta nota þær.
 
-![Dæmi um samþættingaraðstæður.](media/vendor_invoice_automation_01.png)
+![Dæmi um samþættingaraðstæður](media/vendor_invoice_automation_01.png)
 
 Nokkur tilbrigði með fyrrgreint dæmi eru mögulegur ef samþætting reiknings er nauðsynleg. Gagnaflutningur er dæmi um aðra notkun þar sem hægt er að nota þetta viðmót til að stofna reikninga og viðhengi.
 
@@ -92,7 +92,7 @@ Reikningar sem eru innfluttir með gagnapakka er hægt að tengja lögaðila sem
 
 Nýja listasíðan fyrir reikningsundantekningar er alltaf tiltæk í **Viðskiptaskuldum** > **Reikningum** > **Flytja verkefnismistök** > **reikningar Lánardrottins sem hefur mistekist að flytja**. Þessi síða sýnir allar hausfærslur lánardrottnareiknings úr sviðsetningartöflunni í gagnaeiningu hauss lánardrottnareiknings. Athugið að hægt er að skoða sömu skrár á vinnusvæðinu **Gagnastjórnun**. Hægt að framkvæma sömu aðgerðir sem eru gefnar í undantekningunni meðhöndlun aðgerð af vinnusvæðinu **Gagnastjórnun**. Eiginleiki meðhöndlunar undantekninga hefur verið fínstillt fyrir virkan notanda sem auðveldar notkun hans.
 
-![Listasíða undantekninga.](media/vendor_invoice_automation_02.png)
+![Listasíða undantekninga](media/vendor_invoice_automation_02.png)
 
 Þessi listasíða felur í sér eftirtalin svæði sem berast inn í gegnum streymi:
 
@@ -136,7 +136,7 @@ Listasíða undantekninga styður staðlaða öryggisbyggingu sem vinnusvæðið
 + Eftir notanda
 + Eftir lögaðila
 
-![Innflutningsvinnsla sem er tryggð eftir hlutverki notanda og lögaðila.](media/vendor_invoice_automation_04.png)
+![Innflutningsvinnsla sem er tryggð eftir hlutverki notanda og lögaðila](media/vendor_invoice_automation_04.png)
 
 Ef öryggi er skilgreint fyrir innflutningsvinnslu reiknings virðir listasíða undantekninga þessar stillingar. Notendur geta aðeins séð undantekningafærslur reikninga sem þessi uppsetning leyfir þeim að sjá.
 

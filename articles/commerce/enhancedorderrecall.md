@@ -2,25 +2,22 @@
 title: Afturkalla pöntunaraðgerð á sölustað
 description: Í þessu efnisatriði eru útskýrðir eiginleikar í boði fyrir bættar síður afturköllunar á pöntun á sölustað.
 author: hhainesms
-manager: annbe
-ms.date: 10/09/2020
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42b11ff16757d633b868dfdf248341193a44378f
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
-ms.translationtype: HT
+ms.openlocfilehash: 43d6b2e4e5d923b16b02337432fc5259f66c0bf1a8ba1dbf311fb76cb3f085e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665299"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737605"
 ---
 # <a name="recall-order-operation-in-pos"></a>Afturkalla pöntunaraðgerð á sölustað
 
@@ -32,11 +29,11 @@ Til að virkja þessa virkni þarf að kveikja á eiginleikanum **Bætt afturkö
 
 Skilgreining á aðgerðarhnappnum **Endurkalla pöntun** gerir fyrirtækjum kleift að setja upp aðgerðina með fyrirframskilgreindri birtingu.
 
-![Grunnstilling hnappahnits](media/recallorderbuttongrid.png)
+![Grunnstilling hnappahnits.](media/recallorderbuttongrid.png)
 
 Birtingarkostir eru eftirfarandi:
 - **Ekkert** – Þessi valkostur setur upp aðgerðina án sérstakrar birtingar. Þegar notandi opnar aðgerðina með þessari skilgreiningu verða þeir beðnir um að leita og finna pantanir eða velja úr fyrirframskilgreindum pöntunarsíum.
-- **Pantanir sem á að uppfylla** – Þegar notandi ræsir aðgerðina, keyrir fyrirspurn sjálfkrafa til að leita að og birta lista yfir pantanir sem á að uppfylla í versluninni. Þessar pantanir eru skilgreindar fyrir sótt í verslun eða sendingu úr verslun og línur þessara pantana hafa enn ekki verið teknar til eða pakkaðar.
+- **Pantanir sem á að uppfylla** – Þegar notandi ræsir aðgerðina, keyrir fyrirspurn sjálfkrafa til að leita að og birta lista yfir pantanir sem á að uppfylla í verslun notandans. Þessar pantanir eru skilgreindar fyrir sótt í verslun eða sendingu úr verslun og línur þessara pantana hafa enn ekki verið teknar til eða pakkaðar.
 - **Pantanir sem á að sækja** – Þegar notandi ræsir aðgerðina, keyrir fyrirspurn sjálfkrafa til að leita að og birta lista yfir pantanir sem eru skilgreindar að verði sóttar í verslun í núverandi verslun notandans.
 - **Pantanir sem á að senda** – Þegar notandi ræsir aðgerðina, keyrir fyrirspurn sjálfkrafa til að leita að og birta lista yfir pantanir sem eru skilgreindar að verði sendar úr núverandi verslun notandans.
 
@@ -45,22 +42,28 @@ Birtingarkostir eru eftirfarandi:
 - Veljið táknið **Leita að pöntunum** eða **Leita og sía** í AppBar til að nota síunaraðferðina til að hafa upp á pöntunum sem uppfylla síuskilyrðið.
 - Velja skal úr forskilgreindri síu úr fellivalmyndinni **Sýna pantanir** (pantanir til að uppfylla, pantanir til að sækja eða pantanir til að senda).
 
-![RecallOrderMainMenu](media/recallordermain.png)
+![RecallOrderMainMenu.](media/recallordermain.png)
 
-Eftir að leitarskilyrði er notað, birtir forritið lista yfir samsvarandi sölupantanir.
+Eftir að leitarskilyrði er notað, birtir forritið lista yfir samsvarandi sölupantanir. Mikilvægt er að hafa í huga að þegar leitar-/síuvalkostir eru notaðir þurfa sóttar pantanir ekki að vera pantanir sem tengdar eru við núverandi verslun notanda. Þetta leitarferli mun sækja og sýna allar pantanir viðskiptavina sem passa við leitarskilyrðið jafnvel þótt pöntunin hafi verið stofnuð eða stillt á að vera uppfyllt af annarri verslun/rás eða staðsetningu vöruhúss.
 
-![RecallOrderDetail](media/orderrecalldetail.png)
+![RecallOrderDetail.](media/orderrecalldetail.png)
 
 Notandi getur valið pöntun á listanum til að skoða frekari upplýsingar. Upplýsingaspjaldið hægra megin á skjánum sýnir atriði valdrar pöntunar, þ.m.t. upplýsingar pöntunarlínu, upplýsingar um afhendingu og upplýsingar um uppfyllingu.
 
 Í AppBar getur notandi valið aðgerð. Það fer eftir stöðu pöntunarinnar hvort ákveðnar aðgerðir eru virkar eða ekki.
 
-- **Skila** – Keyrir skil fyrir einn eða fleiri reikninga sem tengjast valinni pöntun viðskiptavinar.
+- **Skil** – Hefjið ferlið við að stofna skil fyrir einhverja reikningsfærða afurð í valdri pöntun viðskiptavinar.
 
-- **Hætta við** – Gefa út fulla afturköllun á valinni sölupöntun.
+- **Hætta við** – Gefa út fulla afturköllun á valinni sölupöntun. Þessi valkostur verður ekki í boði fyrir pantanir sem settar eru í gang í gegnum símaversrás og er ekki hægt að nota til að hætta við pöntun að hluta til.
 
 - **Uppfylla** – Flytur notandann yfir á uppfyllingarsíðu pöntunar sem verður fyrirframsíuð fyrir valda pöntun. Aðeins pöntunarlínur sem verslun notanda má uppfylla fyrir valda pöntun eru sýndar.
 
-- **Breyta** – Leyfir notendum að gera breytingar á valinni pöntun viðskiptavinar.
+- **Breyta** – Leyfir notendum að gera breytingar á valinni pöntun viðskiptavinar. Pantanir eru aðeins breytilegar í [ákveðnum aðstæðum](customer-orders-overview.md#edit-an-existing-customer-order).
 
-- **Taka til** – Ræsir tiltektarflæðið, sem gerir notandanum kleift að velja afurðirnar sem á að taka til og stofnar sölufærslu tiltektarinnar.
+- **Sótt** – Þessi valkostur verður í boði ef pöntunin er með eina eða fleiri línur úthlutaðar sem sóttar í núverandi verslun notanda. Þessi aðgerð ræsir tiltektarflæðið, sem gerir notandanum kleift að velja afurðirnar sem á að taka til og stofnar sölufærslu tiltektarinnar.
+
+## <a name="add-notifications-to-the-recall-order-operation"></a>Bæta tilkynningum við endurköllunaraðgerð pöntunar
+
+Í útgáfu 10.0.18 og nýrri er hægt að skilgreina tilkynningar sölustaðar og viðvaranir virkra reita fyrir aðgerðina **Endurköllun pöntunar** ef þess er óskað. Frekari upplýsingar er að finna í [Sýna pöntunartilkynningar á sölustað (POS)](notifications-pos.md).  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

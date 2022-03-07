@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailLoyaltyRewardPoints
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e40ebcbf3ab1befc641ae34571a8b974bd0425a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3bb190e720e5040d446d75a2e8c39cb360019d42
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413202"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256878"
 ---
 # <a name="define-loyalty-reward-points"></a>Skilgreina vildarpunkta smásölu
 
@@ -46,3 +45,6 @@ ms.locfileid: "4413202"
 10. Veljið valkost í reitnum eining Gildistíma.
 11. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,25 +1,23 @@
 ---
 title: Setja upp stigveldi innkaupategundar
 description: Þetta ferli sýnir hvernig á að stofna nýja hnúta í tegundastigveldi innkaupa og hvernig á að skilgreina innkaupategund sem nota á í innkaupaferli.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb37b2761708770b82f23cfbed86248d30a59410
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: a625ae5acc6d47b40a31b986da25df8f2d3fdbc8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017318"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577073"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Setja upp stigveldi innkaupategundar
 
@@ -44,3 +42,6 @@ ms.locfileid: "5017318"
 4. Velja afurðir sem á að bæta við innkaupategund.
 5. Veldu örina til að bæta afurðunum við töfluna **Valið**.
 6. Veljið **Í lagi**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

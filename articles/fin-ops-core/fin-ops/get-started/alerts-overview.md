@@ -1,26 +1,25 @@
 ---
 title: Yfirlit yfir viðvaranir
 description: Þetta efnisatriði gefur almennar upplýsingar um viðvaranir. Þú getur notað viðvaranir til að fylgjast með atburðum sem þú vilt rekja meðan á vinnudegi stendur.
-author: tjvass
-manager: AnnBe
+author: RichdiMSFT
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
+ms.custom: intro-internal
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 473f53d230d7272ba0fcf78bd05d7020635a870f
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: f114e6bd04622dcac668d15ad6c55f7de70b4e7e
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798584"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336743"
 ---
 # <a name="alerts-overview"></a>Yfirlit yfir viðvaranir
 
@@ -88,3 +87,6 @@ Myndskeiðið [Hvernig á að nota viðvaranir til að fylgjast með síuðum g�
 Myndskeiðið [Valkostir viðvaranareglu](https://youtu.be/cpzimwOjicM) (sýnt hér að ofan) er innifalið í [Finance and Operations spilunarlistanum](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er að finna á YouTube.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

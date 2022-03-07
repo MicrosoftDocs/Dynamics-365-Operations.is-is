@@ -2,27 +2,24 @@
 title: Losa uppskriftar- og formúlulínur í vöruhúsið
 description: Þetta efnisatriði lýsir ferlinu fyrir losun hráefnis fyrir uppskriftar- og formúlulína í vöruhúsið.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm, ProdParmReleaseToWarehouse, WHSReleaseToWarehouseProdBOM
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.openlocfilehash: c9956290ce8f90f04bc144d710ad35b5a0243e3898a8f3e75692b1a9da506149
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430678"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731224"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Losa uppskriftar- og formúlulínur í vöruhúsið
 
@@ -64,7 +61,7 @@ Til að fá snögga sýnikennslu um losun uppskrifta og formúlulína til framle
 
 Eftirfarandi mynd sýnir framleiðslupöntun sem hefur tvær vinnslur, 10 og 20, sem dekka samsetninguna og pökkun fyrir framleiðslupöntunina. Hver vinnsla er sett upp til að nota magn efnis. Í þessari mynd eru tímamörk losunar sem táknað er með græna örina undir tímalínunni jafngildir fjölda daga sem hefur verið tilgreint í **(LessThanDate ())** viðmiðuninni. Til dæmis, **(LessThanDate (2))** gefur til kynna að vinnslan ætti að leita að ólosuðu magni aðeins innan tímamarka upp á tvo daga.
 
-![Dæmi um framleiðslupöntun sem hefur tvær runuvinnslur](media/bach-job-setup.PNG)
+![Dæmi um framleiðslupöntun sem hefur tvær runuvinnslur.](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Losun efnis fyrir hverja aðgerðarnúmer eða í hlutfalli við magn fullunninnar vöru
 
@@ -81,7 +78,7 @@ Til að stjórna þeim aðgerðum sem efnið ætti að vera losað til, notaðu 
 
 Eftirfarandi mynd sýnir framleiðslupantanir sem hefur tvær aðgerðir, 10 og 20. Í þessu dæmi, ef þú takmarkar losun við aðgerð 10, verður aðeins efni M9203 losað.
 
-![Dæmi um losun efnis fyrir hvert aðgerðarnúmer](media/two-operations.PNG)
+![Dæmi um losun efnis fyrir hvert aðgerðarnúmer.](media/two-operations.PNG)
 
 Til að fá snögga sýnikennslu um losun hraéfna í hlutfalli við magn fullunninna vara skal horfa á þetta stutta YouTube-myndband um [endurbætur á losunarferli framleiðslupöntunar](https://www.youtube.com/watch?v=Rm3ojAz6Zu0).
 
@@ -98,3 +95,6 @@ Til að fá snögga sýnikennslu um losun hraéfna í hlutfalli við magn fullun
     Einingarnar sem eru tiltækar eru skilgreindar í kenni einingaröðunarflokks fullunnu vörunnar.
 
     Til dæmis hefur fullunnin vara eftirfarandi einingaumreikning á milli punda (lbs.) og bretti (PL): 1 PL = 100 pund. Til að stofna framleiðslupöntun fyrir 10.000 pund. af fullunnu vörunni, getur þú losað hráefni fyrir fjölda bretti sem þú áætlar að framleiða. Veldu **PL** sem eininguna og veldu síðan samsvarandi númer í **Magn** reitnum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: Setja upp þjónustubil
-description: Þjónustubil gefur til kynna þá tíðni sem þjónustupöntunarlínur eru stofnaðar fyrir þjónustusamningslínur þegar þjónustupantanir eru stofnaðar.
-author: ShylaThompson
-manager: tfehr
+description: Í þessu efnisatriði er lýst hvernig á að setja upp þjónustubil. Þjónustubil gefur til kynna þá tíðni sem þjónustupöntunarlínur eru stofnaðar fyrir þjónustusamningslínur þegar þjónustupantanir eru stofnaðar.
+author: kamaybac
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementinterval
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54eba378548e1bef8ae9c3f4e7b202cf06aeff2d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: e0aeaef9fcf0c909638a9452633a321121e20814
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430008"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567848"
 ---
 # <a name="set-up-service-intervals"></a>Setja upp þjónustubil  
 
@@ -54,3 +51,6 @@ ms.locfileid: "4430008"
 ## <a name="related-topics"></a>Tengd efnisatriði
 
 [Þjónustubil](service-intervals.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

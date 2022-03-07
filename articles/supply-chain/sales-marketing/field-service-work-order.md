@@ -2,16 +2,13 @@
 title: Samstilla vinnupantanir úr Field Service við sölupantanir í Supply Chain Management
 description: Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem eru notuð til að samstilla vinnupantanir í Field Service við sölupantanir í Supply Chain Management.
 author: ChristianRytt
-manager: tfehr
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d8051e21c731213e2d74ab6eeb80c239ca9932e6
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 7d7688e757a3ab9746ae0307a7c15f0624c1d8aceeb0dc935b0da32d3ab2994b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528924"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752683"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Samstilla vinnupantanir úr Field Service við sölupantanir í Supply Chain Management
 
@@ -34,7 +31,7 @@ ms.locfileid: "4528924"
 
 Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem eru notuð til að samstilla vinnupantanir í Dynamics 365 Field Service við sölupantanir í Dynamics 365 Supply Chain Management.
 
-[![Samstilling viðskiptaferla milli Supply Chain Management og Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
+[![Samstilling viðskiptaferla milli Supply Chain Management og Field Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
 
 ## <a name="templates-and-tasks"></a>Sniðmát og verkefni
@@ -62,13 +59,13 @@ Eftirfarandi samstillingarverkefni eru nauðsynleg áður en samstillingar við 
 
 | **Field Service** | **Birgðakeðjustjórnun** |
 |-------------------------|-------------------------|
-| msdyn_workorders        | Hausar CDS-sölupöntunar |
-| msdyn_workorderservices | CDS sölupöntunarlínur   |
-| msdyn_workorderproducts | CDS sölupöntunarlínur   |
+| msdyn_workorders        | Dataverse hausar sölupöntunar |
+| msdyn_workorderservices | Dataverse sölupöntunarlínur   |
+| msdyn_workorderproducts | Dataverse sölupöntunarlínur   |
 
 ## <a name="entity-flow"></a>Einingaflæði
 
-Vinnapantanir eru búnar til í Field Service. Ef vinnupantanirnar innihalda aðeins utanaðkomandi afurðir og ef gildið **Staða vinnupöntunar** er frábrugðið **Opin-ótímasett** og **Lokað - Hætt við** er hægt að samstilla vinnupantanirnar við Supply Chain Management með Common Data Service-gagnasamþættingarverki. Uppfærslur á vinnupöntunum verða samstilltar sem sölupantanir í Supply Chain Management. Þessar uppfærslur innihalda upplýsingar um upprunagerð og stöðu.
+Vinnapantanir eru búnar til í Field Service. Ef vinnupantanirnar innihalda aðeins utanaðkomandi afurðir og ef gildið **Staða vinnupöntunar** er frábrugðið **Opin-ótímasett** og **Lokað - Hætt við** er hægt að samstilla vinnupantanirnar við Supply Chain Management með Microsoft Dataverse-gagnasamþættingarverki. Uppfærslur á vinnupöntunum verða samstilltar sem sölupantanir í Supply Chain Management. Þessar uppfærslur innihalda upplýsingar um upprunagerð og stöðu.
 
 ## <a name="estimated-versus-used"></a>Metið á móti notað
 
@@ -248,28 +245,31 @@ Eftirfarandi myndir sýna sniðmátsvörpunina í Gagnasamþættingu.
 
 Sía: (msdyn_systemstatus ne 690970005) og (msdyn_systemstatus ne 690970000) og (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![Sniðmátsvörpun í Gagnasamþættingu.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Verkbeiðnir til sölupantana (Field Service til Supply Chain Management): WorkOrderServiceLineEstimate
 
 Síða: (msdynce_headersystemstatus ne 690970005) og (msdynce_headersystemstatus ne 690970000) og (msdynce_orderhasexternalmaintainedproductsonly eq true) og (msdyn_linestatus eq 690970000) og (msdynce_headersystemstatus ne 690970004)
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![Sniðmátsvörpun í Gagnasamþættingu.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Verkbeiðnir til sölupantana (Field Service til Supply Chain Management): WorkOrderServiceLineUsed
 
 Sía: (msdynce_headersystemstatus ne 690970005) og (msdynce_headersystemstatus ne 690970000) og (msdynce_orderhasexternalmaintainedproductsonly eq true) og ((msdyn_linestatus eq 690970001) eða (msdynce_headersystemstatus eq 690970004))
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![Sniðmátsvörpun í Gagnasamþættingu.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Verkbeiðnir til sölupantana (Field Service til Supply Chain Management): WorkOrderProductLineEstimate
 
 Sía: (msdynce_headersystemstatus ne 690970005) og (msdynce_headersystemstatus ne 690970000) og (msdynce_orderhasexternalmaintainedproductsonly eq true) og (msdyn_linestatus eq 690970000) and (msdynce_headersystemstatus ne 690970004) og (msdyn_allocated eq true)
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![Sniðmátsvörpun í Gagnasamþættingu.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Verkbeiðnir til sölupantana (Field Service til Supply Chain Management): WorkOrderProductLineUsed
 
 Sía: (msdynce_headersystemstatus ne 690970005) og (msdynce_headersystemstatus ne 690970000) og (msdynce_orderhasexternalmaintainedproductsonly eq true) og ((msdyn_linestatus eq 690970001) eða (msdynce_headersystemstatus eq 690970004) eða (msdyn_allocated ne true))
 
-[![Sniðmátsvörpun í Gagnasamþættingu](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![Sniðmátsvörpun í Gagnasamþættingu.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

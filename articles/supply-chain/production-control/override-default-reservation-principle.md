@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b12740e58b2bf8667bee8a2c51917d69771779f2
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: 959b8b85fe55ed5e0a93b5b614c3f6166bbd2bb6ef07e9d0f0f4c2b1ea3c4659
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103364"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721320"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Hnekkja sjálfgefinni frátekningarreglu fyrir efni í framleiðslu
 
@@ -31,9 +31,12 @@ Eiginleikinn *Hnekkja sjálfgefinni frátekningu framleiðslu* gerir kleift að 
 
 Til dæmis, ef um er að ræða hráefni eða innihaldsefni sem krefjast tiltektar, krefjast uppskriftar- eða formúlulínur sem stofnaðar eru fyrir þessar afurðir efnislega frátekningu vegna þess að efnisleg frátekning er skilyrði fyrir myndun vöruhúsavinnu. Yfirleitt, ef frátekningin á að gerast sjálfkrafa, skal velja eina af eftirfarandi frátekningarreglum: *mat*, *áætlanagerð*, *losun* eða *upphaf*. Hins vegar, ef til staðar er efni eða innihald sem krefst ekki tiltektar vegna þess að það er notað beint frá staðsetningunni, er yfirleitt valin frátekningarreglan *handvirkt* sem gerir engar efnislegar frátekningar eða býr til tiltekt.
 
-## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Kveiktu eða slökktu á eiginleikanum Hneka sjálfgefna framleiðslupöntun
+## <a name="turn-on-the-feature"></a>Kveikja á eiginleikanum
 
-Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Hneka sjálfgefna framleiðslupöntun* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Áður en hægt er að nota eiginleikann verður að vera kveikt á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+
+- **Eining:** *Framleiðslustýring*
+- **Heiti eiginleika:** *Hnekkja sjálfgefinni framleiðslufrátekningu*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Úthluta reglu framleiðslufrátekningar á vörulíkanaflokk
 

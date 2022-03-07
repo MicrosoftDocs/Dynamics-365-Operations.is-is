@@ -1,30 +1,27 @@
 ---
 title: Þekjustillingar
 description: Þetta efnisatriði veitir upplýsingar um þekjustillingar sem aðalröðun notar til að reikna út vöruþarfir.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqGroup, ReqItemTable, ReqItemTableWizard, ReqItemTableSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2494
 ms.assetid: 5a95ae4f-ca75-47d9-a1c3-68c97b42f166
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1134f734f1025151a56b2a72266a6baa5763ba4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 1d0fec443ee4c531d2bc7edc6623d309e863348b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430579"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569794"
 ---
 # <a name="coverage-settings"></a>Þekjustillingar
 
@@ -66,3 +63,6 @@ Hverri áfyllingaraðferð er úthlutað einum af eftirfarandi umfjöllunarkóð
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit aðaláætlana](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

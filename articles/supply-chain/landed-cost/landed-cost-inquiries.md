@@ -2,9 +2,11 @@
 title: Fyrirspurnir um heildarkostnað
 description: Þetta efnisatriði lýsir því hvernig á að finna og nota ýmsar gerðir fyrirspurna sem eru í boði fyrir Heildarkostnaður eininguna.
 author: sherry-zheng
+manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ITMLine, ITMItemTracking, ITMContainerActivityTracking, ITMContainerTracking
 audience: Application User
@@ -13,17 +15,18 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-21
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b1d94621b68e443175102a1af5a5fdb4a25d0d1e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 10f5948b4e3df089aef982269143254d9ac1e8a9
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571762"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500357"
 ---
 # <a name="landed-cost-inquiries"></a>Fyrirspurnir um heildarkostnað
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="voyage-line-inquiries"></a>Fyrirspurnir um ferðalínur
 

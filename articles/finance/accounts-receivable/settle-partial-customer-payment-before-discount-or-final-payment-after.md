@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10ba8d59855b60b3d05b4c6b44c98905e10487ecdcf7bc459acca73c12bc72d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740171"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835148"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Jafna hlutagreiðslu fyrir afsláttardagsetninguna við lokagreiðslu eftir afsláttardagsetninguna
 
@@ -38,7 +38,7 @@ Fabrikam selur vörurn til 4027 viðskiptavina. Fabrikam býður 1 prósent afsl
 | FTI-10020 | Reikningur          | 6/25/2015 | 10020   | 1.000,00                             |                                       | 1.000,00 | USD      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>hlutagreiðsla fyrir dagsetningu staðgreiðsluafsláttar
-2. júlí gerir viðskiptavinar 4027 hlutagreiðslu upp á 297.00 fyrir reikninginn. Greiðslan gefur rétt á afslætti, þar sem Fabrikam býður afslátt á hlutagreiðslur og hlutagreiðslan er gerð á undan dagsetningu staðgreiðsluafsláttar. Þess vegna fær viðskiptavinar 4027 3,00 í staðgreiðsluafslátt. Arnie skráir greiðslu fyrir viðskiptavin 4027 með því að nota greiðslubók. Síðan opnar Arnie síðuna **Jafna færslur** svo Arnie geti merkt reikninginn fyrir jöfnun.
+2. júlí gerir viðskiptavinar 4027 hlutagreiðslu upp á 297.00 fyrir reikninginn. Greiðslan gefur rétt á afslætti, þar sem Fabrikam býður afslátt á hlutagreiðslur og hlutagreiðslan er gerð á undan dagsetningu staðgreiðsluafsláttar. Þess vegna fær viðskiptavinar 4027 3,00 í staðgreiðsluafslátt. Arnie skráir greiðslu fyrir viðskiptavin 4027 með því að nota greiðslubók. Síðan opnar Arnie síðuna **Jafna færslur** svo að hann geti merkt reikninginn fyrir jöfnun.
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í færslugjaldmiðli - debet | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
@@ -95,7 +95,7 @@ Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** s
 | Notaður staðgreiðsluafsláttur          | 3,00      |
 | Upphæð staðgreiðsluafsláttar sem á að veita | 7,00      |
 
-Arnie breytir gildinu í reitnum **Nota staðgreiðsluafslátt** aftur í **Venjulegt**, þar sem Arnie lætur þennan viðskiptavin ekki fá eftirstandandi staðgreiðsluafslátt upp á 7,00. Síðan bókar Arnie reikninginn. Þegar Arnie opnar síðuna **Færslur viðskiptavinar** sér hann að reikningurinn hefur stöðuna 0,00. Tvær greiðslur eru til staðar. Ein greiðsla er upp á 297,00 með 3,00 staðgreiðsluafslætti og önnur greiðsla er upp á 700,00.
+Arnie breytir gildinu í reitnum **Nota staðgreiðsluafslátt** aftur í **Venjulegt**, þar sem hann lætur þennan viðskiptavin ekki fá eftirstandandi staðgreiðsluafslátt upp á 7,00. Síðan bókar Arnie reikninginn. Þegar Arnie opnar síðuna **Færslur viðskiptavina** sér hann að reikningurinn hefur stöðuna 0,00. Hann sér einnig að það eru tvær greiðslur. Ein greiðsla er upp á 297,00 með 3,00 staðgreiðsluafslætti og önnur greiðsla er upp á 700,00.
 
 | Fylgiskjal    | Færslugerð | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða | Gjaldmiðill |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

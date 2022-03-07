@@ -1,12 +1,10 @@
 ---
 title: Staða viðhalds
 description: Þetta efni útskýrir hvernig á að reikna út stöðu viðhalds í eignastjórnun.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetStatusCalculate, EntAssetStatus
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b5bac42d5cdc62361ee9a562e59bafa09ca7a215
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 138e2e72fbf761d209d288c2bd778c08519b9c69b0715f4466d4838255a2a31e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018497"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752010"
 ---
 # <a name="maintenance-status"></a>Staða viðhalds
 
@@ -59,11 +57,14 @@ ms.locfileid: "5018497"
 
 Á skjámyndinni hér að neðan hafa hnapparnir **Ár** og **Mánuður** verið virkjaðir. Með hakað í þessa valkosti **Flokka eftir** færðu almennt yfirlit mánaðarlega um vinnuálag og afköst sem tengjast viðhaldsbeiðnum og verkbeiðnum. 
 
-![Dæmi um mánaðarlegt vinnuálag](media/13-controlling-and-reporting.png)
+![Dæmi um mánaðarlegt vinnuálag.](media/13-controlling-and-reporting.png)
 
 ## <a name="example-2"></a>Dæmi 2
 
 Á skjámyndinni hér að neðan hefur upplýsingum um virkar staðsetningar verið bætt við. Nú er mögulegt að bera saman vinnuálag og afköst milli virkra staðsetninga, sem geta táknað landfræðilega staði, verksmiðjur eða vinnusvæði. 
 
-![Dæmi um mánaðarlegt vinnuálag með virkum staðsetningum](media/14-controlling-and-reporting.png)
+![Dæmi um mánaðarlegt vinnuálag með virkar staðsetningar.](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

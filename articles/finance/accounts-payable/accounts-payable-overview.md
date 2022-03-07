@@ -1,28 +1,28 @@
 ---
 title: Yfirlit yfir skilgreiningu viðskiptaskulda
-description: Þetta efnisatriði lýsir síðunum sem þú notar til að setja upp grunn- og valfrjálsa virkni fyrir viðskiptaskuldir. Hún lýsir einnig uppsetningarskrefum sem þú verður að ljúka áður en þú byrjar að setja upp viðskiptaskuldir.
+description: Þessi grein lýsir þeim síðum sem þú notar til að setja upp grundvallaraðgerðir og valfrjálsar aðgerðir fyrir viðskiptaskuldir. Hún lýsir einnig uppsetningarskrefum sem þú verður að ljúka áður en þú byrjar að setja upp viðskiptaskuldir.
 author: abruer
+manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable, DeliveryReason, DeliveryTerms, DestinationCode
 audience: Application User
-ms.reviewer: twheeloc
-ms.custom:
-- "24671"
-- intro-internal
+ms.reviewer: roschlom
+ms.custom: 24671
 ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6cbc800d7ae4d566fddb111b7ee9d67234e3cf8c
-ms.sourcegitcommit: 43d0555c17a0643c9e5ba3bc2da3ce5f80754642
-ms.translationtype: MT
+ms.openlocfilehash: efaf1d4d9d6b8764597f267de9d545b7d9301b52
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "8325995"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5266469"
 ---
 # <a name="configure-accounts-payable-overview"></a>Yfirlit yfir skilgreiningu viðskiptaskulda
 
@@ -30,25 +30,26 @@ ms.locfileid: "8325995"
 
 Þessi grein lýsir þeim síðum sem þú notar til að setja upp grundvallaraðgerðir og valfrjálsar aðgerðir fyrir viðskiptaskuldir. Hún lýsir einnig uppsetningarskrefum sem þú verður að ljúka áður en þú byrjar að setja upp viðskiptaskuldir.
 
-## <a name="prerequisites-for-accounts-payable-setup"></a>Skilyrði fyrir uppsetningu viðskiptaskulda
+<a name="prerequisites-for-accounts-payable-setup"></a>Skilyrði fyrir uppsetningu viðskiptaskulda
+----------------------------------------
 
 Áður en hægt er að setja upp viðskiptaskuldir, verður að ljúka eftirfarandi uppsetningu:
 
 -   Í Fjárhag
     -   Ef ætlunin er að nota greiðslubók þarf að setja upp greiðslubækur.
-    -   Ef þú ætlar að keyra gengisbreytingar skaltu setja upp gjaldeyriskóða á **Gjaldmiðlar** síðu, setja upp gengistegundir á **Gengistegundir** síðu og settu upp gengi gjaldmiðla á **Gengi gjaldmiðla** síðu.
+    -   Ef ætlunin er að keyra gengisleiðréttingar þarf að setja upp gjaldmiðilskóða í síðuna Gjaldmiðlum, setja upp gerðir gengis á síðu gerðir gengis og setja upp gengi gjaldmiðla á síðu gengi Gjaldmiðils.
 -   Í reiðufjár- og bankastjórnun, eru settir upp bankareikningar til þess að nota með greiðsluháttum.
 
 ## <a name="setup-pages-for-accounts-payable"></a>Uppsetningarsíður fyrir viðskiptaskuldir
 
 Notið eftirfarandi síður til þess að setja upp grundvallaraðgerðir viðskiptaskulda fyrir hvert lögaðila. Síðum er raðað í ráðlagðri röð fyrir uppsetningu. Hægt er stofna sniðmát úr fyrstu færslunum sem eru stofnaðar, til þess að einfalda uppsetningarferlið. Í sniðmáti eru yfirleitt færslur færðar inn í mörgum svæðum til að endurspegla aðgerðirnar sem fyrirtækið vill innleiða fyrir tiltekna gerð lánardrottins.
-1.  Á **Greiðsluskilmálar** síðu, skilgreina greiðsluskilmála sem þú úthlutar sölupantanir, innkaupapantanir, viðskiptavini og lánardrottna og sem ákvarða gjalddaga reikninga. Nánari upplýsingar er að finna í [Skilgreina greiðsluþóknanir lánardrottna](tasks/define-vendor-payment-fees.md).
-2.  Á **Greiðslumáti - söluaðilar** síðu, búa til og viðhalda upplýsingum um hvernig fyrirtækið greiðir söluaðilum sínum.
-3.  Á **Seljendahópar** síðu, búa til og viðhalda hópum lánardrottna sem deila mikilvægum færibreytum fyrir bókun, uppgjör og greiðslu, skýrslugerð og spá.
-4.  Á **Birtingasnið söluaðila** síðu, skilgreina hvernig lánardrottnafærslur eru bókaðar í fjárhag.
-5.  Á **Færibreytur viðskiptaskulda** síðu, setja upp sjálfgefnar stillingar sem eru notaðar ef ekki er tilgreind nákvæmari stilling, færibreytur fyrir ýmiss konar virkni og hinar ýmsu númeraraðir fyrir viðskiptaskuldir.
-6.  Á **Uppsetning eyðublaðs** síðu, skilgreina snið ýmissa skjala sem tengjast lánardrottnum og sem fyrirtækið notar til að halda utan um kvittanir frá lánardrottnum og færa inn ástæður fyrir flæði greiðslna til lánardrottna.
-7.  Á **Söluaðilar** síðu, stofna og viðhalda lánardrottinsreikningum og einnig skattyfirvöldum sem fyrirtæki þitt tilkynnir söluskatta til.
+1.  Á síðunni greiðsluskilmálar, Skilgreinið greiðsluskilmála sem er úthlutað á sölupantanir, innkaupapantanir og viðskiptavinur, og lánardrottna, og ákvarða gjalddaga reikninga. Nánari upplýsingar er að finna í [Skilgreina greiðsluþóknanir lánardrottna](tasks/define-vendor-payment-fees.md).
+2.  Á greiðsluaðferðir - lánardrottnar síðu, Stofna og viðhalda upplýsingar um hvernig fyrirtækið greiðir lánardrottnum.
+3.  Á síðunni lánardrottnaflokkur, stofnið og viðhaldið lánardrottnaflokkum sem deila mikilvægum færibreytum fyrir bókun, greiðslu og jöfnun, skýrslugerð og spár.
+4.  Á bókunarreglu lánardrottins síðu, skal skilgreina hvernig lánardrottnafærslur eru bókaðar í fjárhag.
+5.  Á færibreytusíðum viðskiptaskulda skal setja upp sjálfgefnar stillingar sem eru notaðar ef nánari stillingar eru ekki tilgreindar, færibreytur fyrir ýmsar aðgerðir og ýmsar númeraraðir fyrir viðskiptaskuldir.
+6.  Á Síðunni uppsetning sniðs, skal Skilgreina snið ýmissa skjala sem tengjast lánardrottnum og eru notuð innan fyrirtækisins til þess að rekja móttöku frá lánardrottnum og færa inn ástæður fyrir greiðsluflæði til lánardrottna.
+7.  Á síðunni lánardrottinn, Stofna og viðhalda lánardrottnalyklum, og einnig skattyfirvöldum sem fyrirtækið sendir VSK-skýrslur til.
 
 ## <a name="optional-setup-pages-for-accounts-payable"></a>Valfrjálsar uppsetningarsíður fyrir viðskiptaskuldir
 Auk grunnaðgerðum, hafa viðskiptaskuldir aðrar aðgerðir sem hægt er að setja upp.
@@ -56,61 +57,61 @@ Auk grunnaðgerðum, hafa viðskiptaskuldir aðrar aðgerðir sem hægt er að s
 Viðbótar uppsetningarsíður eru skipulagðar eftir aðgerðum.
 
 **Reglur**
--   Á **Reikningsstefna söluaðila** síðu, settu upp reikningsreglur lánardrottins.
+-   Síðunni stefna fyrir reikning lánardrottins er að setja upp stefna fyrir reikning lánardrottins.
 
 **Reikningsjöfnun**
 
--   Á **Heildarvikmörk reikninga** síðu, setja upp vikmörk fyrir heildartölur reikninga.
--   Á **Samsvörunarstefna** síðu, settu upp tvíhliða og þríhliða samsvörunarreglur.
--   Á **Verðvikmörk** síðu, setja upp vikmörk fyrir einingaverð.
--   Á **Vöruþolsflokkar** síðu, setja upp vikmörk fyrir vöruverð.
--   Á **Verðþolshópar söluaðila** síðu, setja upp vikmörk fyrir verð lánardrottna.
--   Á **Hleðsluvikmörk** síðu, setja upp vikmörk fyrir gjöld.
+-   Á síðunni vikmörk fyrir heildarupphæð reiknings skal setja upp vikmörk fyrir heildarupphæð reiknings.
+-   Á síðunni jöfnunarregla skal Setja upp tvíhliða og þríhliða Jöfnunarreglur.
+-   Á síðunni vikmörk verðs skal setja upp vikmörk fyrir einingarverð.
+-   Á síðunni vikmarkaflokkur vöruverðs skal setja upp vikmarkaflokkur fyrir vöruverð.
+-   Á síðunni vikmarkaflokkur lánardrottnaverðs skal setja upp vikmarkaflokkur fyrir lánardrottnaverð.
+-   Á síðunni vikmörk fyrir gjald skal setja upp vikmörk fyrir gjöld.
 
 **Verkflæði**
 
--   Á **Verkflæði viðskiptaskulda** síðu, setja upp verkflæðisstillingar fyrir færslubókarsamþykki og innkaupabeiðnir.
+-   Á síðunni Verkflæði viðskiptaskulda skal setja upp verkflæðisskilgreiningar fyrir færslubókarsamþykktir og innkaupabeiðnir.
 
 **Ástæður**
 
--   Á **Ástæður söluaðila** síðu, settu upp ástæðukóða.
+-   Á síðunni ástæður lánardrottins, Setja upp ástæðukóða
 
 **Gjöld**
 
--   Á **Gjaldkóði** síðu, setja upp kóða fyrir gjöldin sem eru notuð í innkaupapöntunum.
--   Á **Seljandi gjöld hópur** síðu, búa til og viðhalda gjaldahópum fyrir söluaðila.
--   Á **Hlutagjaldaflokkar** síðu, búa til og viðhalda gjaldahópum fyrir hluti.
--   Á **Sjálfvirk gjöld** síðu, skilgreinið gjöldin sem eru sjálfkrafa úthlutað á pantanir.
+-   Á síðunni gjaldakóðar, skal Setja upp kóða fyrir gjöld sem eru notaðir í innkaupapöntunum.
+-   Á síðunni Gjaldaflokkur lánardrottins stofna og vinna með gjaldaflokka fyrir lánardrottna.
+-   Á síðunni Kostnaðaraukaflokki skal stofna og vinna með gjaldaflokka fyrir afurðir.
+-   Á sjálfvirk gjöldsíðunni skal Skilgreina gjöld sem eru sjálfvirkt úthlutað á pantanir.
 
 **Fylgivörur**
 
--   Á **Viðbótarvöruflokkar - Seljandi** síðu, búa til og viðhalda viðbótarvöruflokkum fyrir lánardrottna.
--   Á **Viðbótarvöruflokkar - Birgðir** síðu, búa til og viðhalda viðbótarvöruflokkum fyrir vörur.
+-   Á við fylgivöruflokkar- Lánardrottins síðu, skal stofna og viðhalda fylgivöruflokkum fyrir lánardrottna.
+-   Á við fylgivöruflokkar- birgðirsíðu, skal stofna og viðhalda fylgivöruflokkum fyrir afurðir.
 
 **Arðgreiðsla**
 
--   Á **Skilmálar afhendingar** síðu, búa til og viðhalda skilyrðum fyrir flutningi hlutar frá seljanda til kaupanda.
--   Á **Afhendingarmátar** síðu, búa til og viðhalda þeim flutningsaðferðum sem notaðar eru þegar pöntun er afhent frá seljanda til kaupanda.
--   Á **Áfangastaðakóðar** síðu, búa til og viðhalda auðkennum og lýsingum fyrir áfangastaði fyrir afhendingu.
+-   Á síðunni Afhendingarskilmálar skal stofna og viðhalda skilmálum fyrir flutning vöru frá seljanda til kaupanda.
+-   Á Afhendingarmátum síðu, stofna og vinna með aðferðir við flutning sem er notaður þegar pöntun er afhent frá seljanda til kaupanda.
+-   Á áfangastaðakóðasíðu Stofna og viðhalda kennimerki og lýsingum fyrir afhendingaráfangastaði
 
 **Skjámyndir**
 
--   Á **Form athugasemdir** síðu, búðu til staðlaðan texta sem birtist á ýmsum síðum.
--   Á **Formflokkunarfæribreytur** síðu, setja upp flokkunarröð fyrir beiðnir, kvittunarlista, fylgiseðla og reikninga.
--   Á **Uppsetning prentstjórnunar** síðu, setja upp prentstjórnunarupplýsingar fyrir frumrit og afrit af síðum.
+-   Á síðunni Athugasemdir eyðublaða skal stofna staðlaðan texta sem birtist á ýmsum síðum.
+-   Á síðunni Röðunarfæribreytur skjámyndar skal setja upp röðunarskipan fyrir beiðnir, innhreyfingarlista, fylgiseðla og reikninga.
+-   Á uppsetningu prentstýringar síðu, setja upp upplýsingar um prentstýringu fyrir frumrit og afrit af síðum.
 
 **Greiðslur**
 
--   Á **Staðgreiðsluafsláttur** síðu, setja upp og hafa umsjón með skilmálum til að fá staðgreiðsluafslátt. Staðgreiðsluafsláttarkóðar eru tengdir lánardrottnum og notaðir í innkaupapöntunum.
--   Á **Greiðsluáætlanir** síðu, setja upp greiðsluáætlanir sem eru notaðar til að stjórna raðgreiðslum til lánardrottna.
--   Á **Greiðsludagar** síðu, skilgreinið greiðsludaga sem eru notaðir til að reikna út gjalddaga og tilgreinið greiðsludaga fyrir tiltekinn vikudag eða mánuð.
--   Á **Greiðslugjald** síðu, stofna og viðhalda greiðslugjöldum sem tengjast söluaðilum.
--   Á **Greiðsluleiðbeiningar** síðu, búa til og viðhalda greiðsluleiðbeiningum.
+-   Á Staðgreiðsluafsláttur síða, setja upp og Stýra skilmála til að fá staðgreiðsluafsláttur. Staðgreiðsluafsláttarkóðar eru tengdir lánardrottnum og notaðir í innkaupapöntunum.
+-   Á Greiðsluáætlun síða, setja upp greiðsluáætlun sem eru notaðar til að stjórna afborgunargreiðslum til lánardrottinn.
+-   Á síðunni Greiðsludagar skaltu skilgreina greiðsludaga sem eru notaðir til þess að reikna gjalddaga og tilgreina greiðsludaga fyrir tiltekinn dag vikunnar eða mánaðarins.
+-   Á Greiðsluþóknun síða, stofna og viðhalda greiðsluþóknun sem tengist lánardrottinn.
+-   Á greiðslufyrirmælin síðu, stofna og viðhalda greiðslufyrirmælum.
 
 **Upplýsingar**
 
--   Á **Skilgreiningar á öldrunartímabili** síðu, setja upp notendaskilgreint bil sem eru notuð til að greina gjalddagadreifingu lánardrottnareikninga.
--   Á **Viðskiptagrein** síðu, búðu til viðskiptagreinakóða (LOB) sem eru úthlutaðir til lánardrottna.
+-   Á skilgreining aldurstímabilssíðuSetja upp notendaskilgreind bil til þess að greina gjalddagadreifingu fyrir lánardrottinslykla.
+-   Á Atvinnugrein síðu, stofnið línu atvinnugreinakóða (LOB) sem eru úthlutað á lánardrottnum.
 
 **skattur 1099**
 
@@ -119,28 +120,32 @@ Viðbótar uppsetningarsíður eru skipulagðar eftir aðgerðum.
 ## <a name="optional-setup-for-other-modules"></a>**Valfrjáls uppsetning fyrir aðrar kerfiseiningar**
 **Fyrirtækisstjórnun**
 
--   Á **Númeraraðir** síðu, setja upp númeraraðarhópa fyrir reikningsnúmer.
+-   Á númeraraðir síðu, setja upp númeraraðaflokka fyrir reikningsnúmera.
 -   Á eftirfarandi síðum skal setja upp upplýsingar um aðsetur:
-    -   **Uppsetning aðseturs**
-    -   **NAF-kóðar**
-    -   **Flytja inn póstnúmer**
+    -   Uppsetning aðseturs
+    -   NAF-kóðar
+    -   Flytja inn póstnúmer
 
 **Fjárhagur**
 
--   Á **Fjárhagsstærðir** síðu, setja upp fjárhagsvíddir.
+-   Á fjárhagsvíddirsíðu, skal setja upp fjárhagsvíddir.
 -   Á eftirfarandi síðum skal setja upp skattaupplýsingar:
-    -   **VSK-kóðar**
-    -   **VSK-flokkar**
-    -   **VSK-flokkar vöru**
-    -   **Lykilflokkur**
-    -   **Undanþágukóðar VSK**
-    -   **Skattaumdæmi**
-    -   **Skattayfirvöld**
-    -   **Virðisaukaskatttímabil**
+    -   VSK-kóðar
+    -   VSK-flokkar
+    -   VSK-flokkar vöru
+    -   Lykilflokkur
+    -   Undanþágukóðar VSK
+    -   Skattaumdæmi
+    -   Skattayfirvöld
+    -   Virðisaukaskatttímabil
 
 **Reiðufjár- og bankastjórnun**
 
--   Á **Tilgangskóðar greiðslu** síðu, settu upp **tilgangskóði Seðlabankans**.
+-   Á greiðslumálefnakóða síðu, setja upp málefniskóða seðlabanka
+
+
+
+
 
 
 

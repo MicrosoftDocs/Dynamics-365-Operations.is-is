@@ -13,17 +13,14 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e0547c071f730a89f4d94a83690954caca07211
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: f481ed1a3cd180dc6c01210870f7745361566004
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068710"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6054741"
 ---
 # <a name="blank-yes-no"></a>Autt Já Nei
-
-
-[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -37,7 +34,7 @@ Raunlægt heiti: mshr_hrmblankyesno
 | --- | --- | --- |
 | 200000000 | Autt | Ekkert gildi hefur verið valið. |
 | 200000001 | Já | Já. |
-| 200000002 | Nei | Nei. |
+| 200000002 | Ekkert | Nei. |
 
 ## <a name="see-also"></a>Sjá einnig
 

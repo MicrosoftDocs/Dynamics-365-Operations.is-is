@@ -1,6 +1,6 @@
 ---
 title: Stofna aðallykil
-description: Þetta ferli fer í gegnum hvernig á að bæta aðalreikningi við fyrirliggjandi bókhaldslykil.
+description: Þessar verkefnaleiðbeiningar fara í gegnum hvernig aðallykli er bætt við fyrirliggjandi bókhaldslykla.
 author: aprilolson
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cbc93e2d2aec1ffcfa755c46553022931bc24c5b
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: 66e248d029063d4a465ad789e5eb193706b8a2351bf659306050c7ac7d1c950d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394637"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729631"
 ---
 # <a name="create-a-main-account"></a>Stofna aðallykil
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta ferli fer í gegnum hvernig á að bæta aðalreikningi við fyrirliggjandi bókhaldslykil. Þessi skráning notar sýnigögn USMF fyrirtækis  
+Þessar verkefnaleiðbeiningar fara í gegnum hvernig aðallykli er bætt við fyrirliggjandi bókhaldslykla. Þessi skráning notar sýnigögn USMF fyrirtækis  
 
 1. Farðu í **Skoðunarrúðu > Kerfi > Fjárhagur > Bókhaldslykill > Lyklar > Aðallyklar**.
 2. Smellt er á **Nýtt**.

@@ -1,80 +1,27 @@
 ---
 title: Nýjungar eða breytingar í farsímaforriti Warehouse Management
 description: Í þessu efnisatriði er að finna lista yfir nýja og breytta eiginleika fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
-author: Mirzaab
-ms.date: 01/18/2022
+author: MarkusFogelberg
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
-ms.translationtype: MT
+ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067252"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485623"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er að finna nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
-
-## <a name="version-20150"></a>Útgáfa 2.0.15.0
-
-Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
-
-- Bætt afköst með því að laga vandamál með minnisleka.
-- Lagaði vandamál þar sem sum svæðisgildi uppfærðust ekki rétt þegar þau voru valin á upplýsingasíðunni.
-
-## <a name="version-20140"></a>Útgáfa 2.0.14.0
-
-Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
-
-- Lagaði vandamál sem slökkti á sjálfgefna Senda hnappinum.
-
-## <a name="version-20130"></a>Útgáfa 2.0.13.0
-
-Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
- 
-- Bætt fletta á milli síðna með mýkri hreyfimynd.
-- Lagfærð gagnsæ viðbrögð við strjúkahreyfingum og einstaka skjálfrýsingu.
-- Endurbætt texta- og bakgrunnslitasamsetning í dökkri stillingu fyrir betri læsileika.
-- Lagaði vandamál þar sem einhver texti gæti orðið mjög lítill þegar stærð forritsgluggans var breytt.
-- Lagaði vandamál sem gæti stundum hrundið forritinu þegar strikamerki voru skannað.
-- Bætti við möguleikanum á að skipta um renna fyrir hnapp.
-- Lagaði vandamál sem gæti valdið því að appið sýndi villuboðin, "AADSTS7000215: Ógilt leyndarmál viðskiptavinar er gefið upp."
-- Lagaði vísbendingahreyfinguna sem sýnir hvernig á að loka síðu með því að strjúka niður.
-- Bætti við möguleikanum á að loka síðu með því að fletta niður.
-- Lagaði vandamál þar sem titlar fellilista voru ekki sýndir á **Notendastillingar** síðu.
-- Lagaði staðsetningarvandamál þar sem appið myndi ekki þekkja kommu (,) sem tugaskilju.
-- Bætt aðgengi.
-- Lagaði siglinguna á **Nýtt samband** síðu til að veita bætt aðgengi.
-- Lagaði vandamál þar sem mjúka (skjá) lyklaborðið birtist ekki þegar valinn var innsláttarreitur.
-- Lagaði vandamál sem gæti hrundið forritinu ef notendur breyttu stærð glugga þess fljótt.
-- Lagaði mál þar sem hröð takkaýting var stundum túlkuð sem löng ýting.
-- Lagaði vandamál þar sem útlit appsins gæti skemmst vegna sérstillinga á sviði sem gerðar voru í Supply Chain Management.
-- Lagaði vandamál þar sem staðsetningar vara voru ekki birtar á réttan hátt.
-- Lagaði vandamál sem tengist stuttri tínslu fyrir verkflæði vöruafbrigðis.
-- Fjarlægði óþarfa staðfestingu á reitum sem innihalda forstillt sjálfgefin gildi.
-- Bætt frammistaða.
-- Bætt við nýrri stillingu sem gerir notendum kleift að velja hvernig reitir eru síaðir og raðaðir á kortasíðuna.
-
-## <a name="version-20110"></a>Útgáfa 2.0.11.0
-
-Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
-
-- Aukinn stuðningur fyrir stighækkaða reiti.
-- Aukinn stuðningur fyrir yfirlit yfir lyklaborð vélbúnaðar.
-- Bætt aðgengi.
-- Bætt upplýsingaspjöld.
-- Bættar hjáleiðir fyrir skref valmyndaratriðis.
-- Minni háttar endurbætur notandaviðmóts.
-- Lagaði vandamál sem gat valdið því að forritið hrundi þegar strikamerki voru skönnuð.
-- Ýmis vandamál löguð sem ollu því að kerfið fraus.
 
 ## <a name="version-20100"></a>Útgáfa 2.0.10.0
 

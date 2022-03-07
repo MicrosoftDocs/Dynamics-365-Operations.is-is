@@ -1,26 +1,24 @@
 ---
 title: Stofna innkaupapöntun með afhendingaráætlun
 description: Þetta efni sýnir hvernig á að stofna afhendingaráætlun fyrir innkaupapöntun.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventItemIdLookupPurchase, PurchDeliverySchedule, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b8cbcd46e84ca9e718a0f8f59c106147544a3751
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 670870df1b0fcd86a0f04ce454e6ef84187187b8
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021805"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566936"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Stofna innkaupapöntun með afhendingaráætlun
 
@@ -73,3 +71,6 @@ Hægt er að breyta magni í afhendingarlínum. Ef þetta er gert er viðskiptal
 6. Fella saman hlutann **Línur**.
 7. Veldu **Í lagi** til að bóka kvittunina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

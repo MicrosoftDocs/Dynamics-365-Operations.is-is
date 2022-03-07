@@ -2,9 +2,11 @@
 title: Varpa verslunum og teymum ef fyrirliggjandi teymi eru í Microsoft Teams
 description: Þetta efnisatriði fjallar um hvernig á að varpa verslunum og samsvarandi teymum í Dynamics 365 Commerce höfuðstöðvar ef fyrirtækið hefur þegar stofnað teymi í Microsoft Teams á undan Commerce-samþættingu.
 author: gvrmohanreddy
+manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -13,16 +15,17 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 6faba58304e1fe9e9ba2ce1a76fbf1cc783466bf01b0d4e3774e8ed090485bb1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3edd176788b24a5f5246e9b7bcb3c6fbcdca2254
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757370"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842683"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Varpa verslunum og teymum ef fyrirliggjandi teymi eru í Microsoft Teams
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Þetta efnisatriði fjallar um hvernig á að varpa verslunum og samsvarandi teymum í Dynamics 365 Commerce höfuðstöðvar ef fyrirtækið hefur þegar stofnað teymi í Microsoft Teams á undan Commerce-samþættingu.
 
@@ -57,7 +60,7 @@ Til að varpa verslunum og samsvarandi teymum í Commerce Headquarters skal fylg
 
 Eftirfarandi myndadæmi sýnir flokkinn **Flytja út vörpun teymis** í Commerce með einingarnar **Bæta við einingu** og útfluttan haus CSV-skráar auðkennd.
 
-![Flytja út vörpun teymis í Commerce með einingarnar Bæta við einingu og útfluttan haus CSV-skráar auðkennd.](media/d365-commerce-data-mgmt-export-entity.png)
+![Flytja út vörpun teymis í Commerce með einingarnar Bæta við einingu og útfluttan haus CSV-skráar auðkennd](media/d365-commerce-data-mgmt-export-entity.png)
 
 > [!NOTE]
 > Þegar ofangreindum skrefum er lokið skal fylgja skrefunum í [Samstilla verkstjórnun á milli Microsoft Teams og sölustaðar](synchronize-tasks-teams-pos.md) til að samstilla verkstjórnun. 

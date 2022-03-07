@@ -1,7 +1,7 @@
 ---
 title: Notandastillingar fartækis
 description: Þetta efnisatriði útskýrir hvernig á að stjórna notendastillingum fartækis fyrir starfsmenn í vöruhúsi.
-author: Mirzaab
+author: MarkusFogelberg
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
-ms.author: mirzaab
+ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: 77b4276cec5e046a19d6d001acf41fc410052fba
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103714"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049293"
 ---
 # <a name="mobile-device-user-settings"></a>Notandastillingar fartækis
 
@@ -39,9 +39,12 @@ Með eiginleikanum *notandastillingar fartækis* er hægt að skilgreina altæka
 > [!IMPORTANT]
 > *Notandastillingar fartækis* eiginleikinn gildir aðeins fyrir nýja farsímaforrit vöruhúsakerfis. Þetta virkar ekki með eldra forriti vöruhússins.
 
-## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Kveiktu eða slökktu á notendastillingum farsímans
+## <a name="turn-on-the-mobile-device-user-settings-feature"></a>Kveikt á eiginleika fyrir notandastillingar fartækis
 
-Til að nota virknina sem lýst er í þessu efni, er *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+
+- **Eining:** *Vöruhúsakerfi*
+- **Heiti eiginleika:** *Notandastillingar, tákn og titlar skrefa fyrir nýja vöruhúsaforritið*
 
 ## <a name="create-and-manage-user-settings"></a>Stofna og stjórna notandastillingum
 
@@ -51,7 +54,7 @@ Einnig er hægt að skilgreina forstillingarsnið sem gildir fyrir öll tæki, g
 
 Fylgdu þessum skrefum til að búa til og stjórna notendastillingum fyrir fartæki.
 
-1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Notandastillingar fartækis**.
+1. Fara á **Vöruhúsakerfi \> Fartæki \> Notandastillingar fartækis**.
 1. Velja skal fyrirliggjandi forstillingu notandastillinga úr listasvæðinu til að opna færslu hennar. Einnig er hægt að velja **Nýtt** á aðgerðasvæðinu til að búa til nýjar forstillingar.
 
     Hver forstilling á listasvæðinu er merkt til að gefa til kynna gerð, tegund og/eða notandakenni sem forstillingin á við um. Fleiri almennar forstillingar eru með gildið *Allt* fyrir sum þessara einkenna.
@@ -80,7 +83,7 @@ Notið **Vörumerki fartækja** síða til að skoða, stofna og stjórna vörum
 
 Fylgið eftirfarandi skrefum til að búa til og stjórna eigin tegundum og gerðum fartækja.
 
-1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Fartækjavörumerki**.
+1. Fara á **Vöruhúsakerfi \> Fartæki \> Vörumerki fartækja**.
 1. Á listasvæðinu skal velja gerð fartækis til að opna færslu þess. Einnig er hægt að velja **Nýtt** á aðgerðasvæðinu til að búa til nýtt vörumerki.
 1. Í haushluta færslunnar fyrir nýtt eða valið vörumerki tækis skal stilla eftirfarandi reiti:
 

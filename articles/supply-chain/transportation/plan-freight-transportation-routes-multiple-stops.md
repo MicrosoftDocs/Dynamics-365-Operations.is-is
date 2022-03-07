@@ -1,29 +1,26 @@
 ---
 title: Áætlanagerð farms flutningsleiðir með mörgum stöðvun
 description: Þessi grein lýsir mismunandi einingunum sem er notuð til að áætla flutningsleiðir í Dynamics 365 Supply Chain Management.
-author: MarkusFogelberg
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate, TMSRouteSchedule, TMSRouteRateDetail
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 90013
 ms.assetid: 50d6f58c-f1c8-4321-9e83-8445cec57a85
 ms.search.region: Global
-ms.author: mafoge
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04346363070fff4dc3110a620c3d9bc9b1016d1e
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.openlocfilehash: eff1efd7530c410b392646e39325b58cbd8bcf78
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430728"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571234"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Áætlanagerð farms flutningsleiðir með mörgum stöðvun
 
@@ -53,3 +50,6 @@ Hleðsluáætlun vinnusvæði notar aðsetur viðskiptavinar og afhendingardagse
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

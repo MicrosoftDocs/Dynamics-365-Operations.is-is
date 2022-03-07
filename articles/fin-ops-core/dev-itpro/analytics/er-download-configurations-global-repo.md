@@ -2,11 +2,9 @@
 title: Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu
 description: Í þessu efnisatriði er útskýrt hvernig á að sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 audience: Application User, IT Pro
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a96e78a64fe0559ae5f3bfddabf3fe1cad8a3dcb
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679559"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605332"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að sækja [Skilgreiningar rafrænnar skýrslugerðar](general-electronic-reporting.md#Configuration) úr altækri geymslu skilgreiningarþjónustu. Frekari upplýsingar er að finna í [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, Skilgreiningarþjónusta](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Í þessu efnisatriði er útskýrt hvernig á að sækja [Skilgreiningar rafrænnar skýrslugerðar](general-electronic-reporting.md#Configuration) úr altækri geymslu skilgreiningarþjónustu. Frekari upplýsingar er að finna í [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, Skilgreiningarþjónusta](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Opna gagnageymslur skilgreininga
 
@@ -42,7 +40,7 @@ ms.locfileid: "4679559"
 3. Í **veitandi skilgreininga** hlutanum, veljið gluggareitinn **Microsoft**
 3. Í reitnum **Microsoft** skal velja **Geymslur**.
 
-    ![Vinnusvæði rafrænnar skýrslugerðar](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Vinnusvæði rafrænnar skýrslugerðar.](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. Á síðunni **Gagnageymslur skilgreininga**, í hnitanetinu, skal velja fyrirliggjandi gagnageymslu af gerðinni **LCS**. Ef þessi gagnasafn birtist ekki í hnitanetinu skal fylgja þessum skrefum:
 
@@ -54,7 +52,7 @@ ms.locfileid: "4679559"
 
 5. Smellið á **Opna** til að skoða lista yfir skilgreiningar rafrænnar skýrslugerðar fyrir valda gagnageymslu.
 
-    ![Gagnageymslusíða skilgreininga](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![Gagnageymslusíða skilgreininga.](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Flytja inn eina skilgreiningu
 
@@ -65,7 +63,7 @@ ms.locfileid: "4679559"
     > [!NOTE]
     > Hnappurinn **Flytja inn** er ekki tiltækur fyrir útgáfur skilgreininga rafrænnar skýrslugerðar sem þegar eru til staðar í núverandi fjármálatilviki.
 
-    ![Síðan Skilgreiningagagnasafn](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Gagnageymslusíða skilgreiningar, flýtiflipi grunnstillinga.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Flytja inn síaðar skilgreiningar
 
@@ -79,7 +77,7 @@ ms.locfileid: "4679559"
 4. Í flýtiflipanum **Skilgreiningar** skal velja **Flytja inn** til að sækja síaðar skilgreiningar úr altæku geymslunni í núverandi tilvik.
 5. Í flýtiflipanum **Skilgreiningar** skal velja **Endurstilla síu** til að hreinsa tilgreind skilyrði vals.
 
-    ![Síðan Skilgreiningagagnasafn](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Skilgreiningageymslusíða, flýtiflipi útgáfa, Flytja inn hnappur.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Það fer eftir stillingum rafrænnar skýrslugerðar hvernig skilgreiningar eru villuleitaðar eftir að þær eru fluttar inn. Notandi gæti verið látinn vita um vandamál ósamræmi sem fundust. Áður en hægt er að nota innflutta útgáfu skilgreingar þarf að leysa úr vandamálunum. Frekari upplýsingar er að finna í lista yfir tengd tilföng í þessu efnisatriði.
@@ -90,3 +88,6 @@ ms.locfileid: "4679559"
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ProjParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 578e4b9fe5ef487e999fd0de28d7566bad21fd89
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bd0a7de17e8ff098220fd183b714b77225cc217f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430552"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247311"
 ---
 # <a name="integration-for-service-agreements-and-projects"></a>Samþætting fyrir þjónustusamninga og verk 
 
@@ -83,3 +82,6 @@ Einnig er hægt að virkja reitina **Upphafstími** og **Lokatími** í flipanum
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

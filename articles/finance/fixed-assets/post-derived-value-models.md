@@ -1,7 +1,7 @@
 ---
 title: Bókað í afleiddar bækur
 description: Þessi grein lýsir því hvernig nota afleiddar Bækur.
-author: moaamer
+author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef0c7b2ad93f4a9c4ff24052c749f7891f9e915d
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: 6556965a1356522de5f4c17ddeab378a128fbe3f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675420"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833019"
 ---
 # <a name="post-with-derived-books"></a>Bókað í afleiddar bækur
 
@@ -52,7 +52,7 @@ Eftirfarandi upplýsingar sýna hvernig setja skal upp kaupfærslur með virkni 
 > [!NOTE]                                                                                                         
 > Ef ekki eru notuð afleidd bækur skal bóka kaupin á eigninni fyrir bæði bækur VM 1 og bók VM 2.
 
-Nánari upplýsingar er að finna í [Afleiddar bækur](derived-books.md).
+Nánari upplýsingar er að finna í [Afleiddar bækur](derived-books.md)
 
 
 

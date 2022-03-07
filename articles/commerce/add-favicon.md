@@ -2,35 +2,30 @@
 title: Bæta við táknmynd
 description: Þetta efni útskýrir hvernig á að bæta við táknmynd á vefsíðuna.
 author: bicyclingfool
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413093"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964733"
 ---
 # <a name="add-a-favicon"></a>Bæta við táknmynd
 
 [!include [banner](includes/banner.md)]
 
 Þetta efni útskýrir hvernig á að bæta við táknmynd á vefsíðuna.
-
-## <a name="overview"></a>Yfirlit
 
 Táknmynd er lítil myndaskrá sem er sýnd á flipa vafra, á heimilisfangsstikunni, í vafraferlinum og meðal annars í bókamerkjum eða uppáhaldi. Við mælum með að þú bætir táknmynd við vefinn þinn vegna þess að það táknar og styrkir vörumerkið þitt og hjálpar til við að greina vefsíðuna frá öðrum síðum sem viðskiptavinir þínir heimsækja.
 
@@ -66,7 +61,7 @@ Til að búa til brot sem inniheldur lýsimerki fyrir táknmyndina þína skal f
 1. Í svarglugganum **Nýtt brot** skal velja **Lýsimerki** sem eininguna sem brotið byggir á.
 1. Sláðu inn heiti fyrir brotið og veldu svo **Í lagi**.
 1. Í trjástigveldi brotsins skal velja undireininguna **Sjálfgefin lýsimerki**.
-1. Í svæðinu hægra megin, undir **Lýsimerki**, skal velja **Bæta við** og síðan slá inn HTML-strenginn sem var áður búinn til fyrir táknmyndina. 
+1. Í svæðinu hægra megin, undir **Lýsimerki**, skal velja **Bæta við** og síðan slá inn HTML-strenginn sem var áður búinn til fyrir táknmyndina. 
 1. Veldu **Ljúka við breytingar** og síðan **Birta** til að birta brotið.
 
 ## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Bæta broti lýsimerkis við HTML-haus síðanna þinna
@@ -91,11 +86,12 @@ Til að bæta broti lýsimerkis við **haus** HTML-svæðis síðanna þinna ska
 
 [Unnið með CSS hnekkiskrám](css-override-files.md)
 
-[Bæta við opnunarkveðju](add-welcome-message.md)
-
 [Bæta við yfirlýsingu um höfundarrétt](add-copyright-notice.md)
 
 [Bæta tungumálum við síðuna](add-languages-to-site.md)
 
 [Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

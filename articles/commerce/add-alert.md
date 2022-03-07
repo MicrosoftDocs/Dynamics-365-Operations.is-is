@@ -1,16 +1,13 @@
 ---
 title: Auglýsingaborðaeining
-description: Þetta efni fjallar um auglysingaborðaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
+description: Þetta efni fjallar um tilboðsborðaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d9debd16b18300d090bde1862a16920d8e9185eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: f781ed22852cb2108850e7dc6762aa6a9ba0db97574cb0dcc7959f8926e47a08
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413074"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718781"
 ---
-# <a name="promo-banner-module"></a>Auglýsingaborðaeining
+# <a name="promo-banner-module"></a>Tilboðsborðaeining
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni fjallar um auglysingaborðaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efni fjallar um tilboðsborðaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 
 Auglýsingaborðaeiningar eru notaðar til að sýna upplýsingarskilaboð á síðu. Hægt er að nota þær til að sýna kynningar á öllu svæðinu sem birtast á öllum síðum svæðis rafrænna viðskipta. 
 
@@ -51,7 +46,7 @@ Hægt er að nota auglýsingaborða í haus síðunnar til að sýna kynningar e
 
 Eftirfarandi mynd sýnir dæmi um tilboðsborða.
 
-![Dæmi um einingu tilboðsborða](./media/ecommerce-Promobanner.PNG)
+![Dæmi um einingu tilboðsborða.](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Eiginleikar auglýsingaborðaeiningar
 
@@ -64,6 +59,10 @@ Eftirfarandi mynd sýnir dæmi um tilboðsborða.
 | Sýna myndaræmuflipa     | **Satt** eða **Ósatt**              | Gildi sem gefur til kynna hvort sýna ætti myndaræmuflipana svo viðskiptavinir geti flett handvirkt í gegnum marga borðahluti. |
 | Textajöfnun            | **Hægri**, **Vinstri** eða **Miðja** | Textajöfnunin í auglýsingaborðaeiningunni. |
 | Tengill                      | Slóð                              | Slóðin fyrir valfrjálsan tengil. |
+|Textajöfnun             | **Hægri**, **Vinstri** eða **Miðja** | Þessi eiginleiki er í boði sem þemaviðbót við þema Adventure Works. Hann gerir notanda kleift að stilla af textann í auglýsingaborðanum. |
+
+> [!IMPORTANT]
+> Þema Adventure Works er í boði frá og með Dynamics 365 Commerce útgáfu 10.0.20.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Bæta auglýsingaborðaeiningu við síðu 
 
@@ -84,7 +83,6 @@ Fylgdu þessum skrefum til að bæta auglýsingaborðaeiningu við síðu og sti
 > [!NOTE]
 > Auglýsingaborði er venjulega notaður í hólfi síðuhausa eða hólfi undirhauss.
 
-
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit einingasafns](starter-kit-overview.md)
@@ -96,3 +94,6 @@ Fylgdu þessum skrefum til að bæta auglýsingaborðaeiningu við síðu og sti
 [Eining fyrir bálk með efni](add-hero-module.md)
 
 [Myndspilaraeining](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

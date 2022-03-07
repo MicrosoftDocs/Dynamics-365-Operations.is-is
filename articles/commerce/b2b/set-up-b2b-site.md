@@ -2,7 +2,8 @@
 title: Setja upp B2B svæði fyrir rafræn viðskipti
 description: Í þessu efnisatriði er lýst hvernig skal setja upp B2B tengingu (tenging á milli fyrirtækja) á milli svæði fyrir rafræn viðskipti í Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 12/03/2021
+manager: AnnBe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e012b88465e98e788f65697d95fc141d453888e3
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: db33bf941303c6a74f9c6b2d5a782762f7180f1b
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983318"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937507"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Setja upp B2B svæði fyrir rafræn viðskipti
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 B2B-svæði fyrir rafræn viðskipti bjóða upp á lykilmöguleika sem fínstilla verkflæði fyrir B2B-notendur. Í þessu efnisatriði er lýst hvernig skal setja upp B2B tengingu á milli svæði fyrir rafræn viðskipti í Microsoft Dynamics 365 Commerce. Það fer í gegnum einingar og stillingar svæða sem þarf að skilgreina til að virkja aðstæður sem tengjast B2B.
 
@@ -37,7 +39,7 @@ B2B-svæði fyrir rafræn viðskipti bjóða upp á lykilmöguleika sem fínstil
 
 Hægt er að fá aðgang að stillingum á svæðisstigi í svæðissmiðnum á **Stillingar svæðis \> Viðbætur**. Eftirfarandi tvær stillingar á svæðisstigi eiga við um B2B-aðstæður:
 
-- **Virkja greiðslur viðskiptavinareiknings** – Þessi eiginleiki gerir notendum kleift að greiða fyrir pantanir með viðskiptavinareikningum. Tiltæk gildi eru **Virkjað fyrir B2B-viðskiptavini**, **Virkjað fyrir B2C-viðskiptavini**, **Virkjað fyrir alla viðskiptavini** og **Gert óvirkt fyrir alla viðskiptavini**. Ef B2B-svæðið styður viðskiptavinareikninga ætti að velja **Virkjað fyrir B2B-viðskiptavini**.
+- **Virkja greiðslur viðskiptavinareiknings** – Þessi eiginleiki gerir notendum kleift að greiða fyrir pantanir með viðskiptavinareikningum. Tiltæk gildi eru **Virkjað fyrir B2B-viðskiptavini**, **Virkjað fyrir B2C-viðskiptavini**, **Virkjað fyrir alla viðskiptavini** og **Gert óvirkt fyrir alla viðskiptavini**. Ef B2B-svæðið styður viðskiptavinareikninga ætti að velja **Virkjað fyrir B2C-viðskiptavini**.
 - **Virkja takmörk pöntunarmagns** – Þessi eiginleiki gerir þér kleift að stilla takmörk á fjölda vara sem hægt er að panta fyrir hverja afurð eða flokk. Tiltæk gildi eru **Virkjað fyrir B2B-viðskiptavini**, **Virkjað fyrir B2C-viðskiptavini**, **Virkjað fyrir alla viðskiptavini** og **Gert óvirkt fyrir alla viðskiptavini**.
 
 > [!NOTE]
@@ -306,30 +308,6 @@ Fylgja skal eftirfarandi skrefum til að bæta einingu hraðviðbótar við vefs
 
 > [!NOTE] 
 > Hraðviðbótareiningin er í boði frá og með Commerce útgáfu 10.0.17. Ef verið er að uppfæra úr eldri útgáfu af Commerce verður að uppfæra appsettings.json-skrána handvirkt. Leiðbeiningar er að finna í [Uppfærslur á SDK og einingasafni](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
-
-## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>Bættu magnkaupseiningu við vöruupplýsingasíðu
-
-Magninnkaupareiningin á vöruupplýsingasíðu (PDP) veitir upplifun sem byggir á fylki sem gerir kaupanda kleift að bæta mörgum afbrigðum af vöru fljótt í körfuna. Þegar notandi vefsvæðis verður að panta mörg afbrigði af sömu vörunni, útilokar þessi reynsla þörfina á að velja samsetningu vöruvídda, skilgreina magn, bæta afbrigðinu í körfuna og endurtaka síðan ferlið fyrir aðrar samsetningar vöruvídda.
-
-Fylgdu þessum skrefum til að bæta magninnkaupareiningunni við PDP í Commerce site builder.
-
-1. Fara til **Sniðmát**, og veldu PDP sniðmát síðunnar þinnar.
-1. Veljið **Breyta**.
-1. Í hólfinu **Aðalsvæði** í einingunni **Sjálfgefin síða** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Hólf** og síðan velja **Í lagi**.
-1. Í hólfinu **Hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í **Bæta við einingu** valmynd, veldu **Magnkaup** mát og veldu síðan **Allt í lagi**.
-1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
-1. Fara til **Síður**, og veldu PDP vefsvæðis þíns.
-1. Í hólfinu **Aðalsvæði** í einingunni **Sjálfgefin síða** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Hólf** og síðan velja **Í lagi**.
-1. Í eiginleikarúðunni fyrir **Ílát** mát, undir **Breidd**, veldu **Fylltu ílát**.
-1. Í hólfinu **Hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í **Bæta við einingu** valmynd, veldu **Magnkaup** mát og veldu síðan **Allt í lagi**.
-1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila síðunni og veldu síðan **Birta** til að birta hana.
-
-> [!NOTE] 
-> Magninnkaupareiningin er fáanleg frá og með útgáfu Commerce útgáfu 10.0.24. Ef verið er að uppfæra úr eldri útgáfu af Commerce verður að uppfæra appsettings.json-skrána handvirkt. Leiðbeiningar er að finna í [Uppfærslur á SDK og einingasafni](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

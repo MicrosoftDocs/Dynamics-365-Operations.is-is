@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 09666e95cc90913f1bf8555b9ff2c48aa55369ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2f6f97bc13bc27ec88570992872a256926522c52
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430598"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218706"
 ---
 # <a name="create-a-new-warehouse-layout"></a>Búa til nýtt vöruhúsaútlit
 
@@ -63,3 +62,6 @@ ms.locfileid: "4430598"
 7. Lokið síðunni.
 8. Endurhlaðið síðuna.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,26 +2,23 @@
 title: Skilgreina samstæðureglur sendingar
 description: Þetta efnisatriði útskýrir hvernig á að setja upp sjálfgefnar og sérstilltar samstæðureglur sendingar.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, TMSMode, WHSShipmentConsolidation, WHSFilterGenerallyAvail
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: adb88bbd29a89a1d18d7fd4781c2541ffb4e721f
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.openlocfilehash: f2705300925ae475f00861327b9cea9a97416011
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430677"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578681"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Skilgreina samstæðureglur sendingar
 
@@ -182,7 +179,7 @@ Fylgið eftirfarandi skrefum til að stofna samstæðureglu sendingar fyrir þet
 1. Hafið valkostinn **Samstæða við opnar sendingar** stilltan á *Nei*.
 1. Í aðgerðarúðunni skal velja **Vista**.
 1. Á flýtiflipanum **Samstæðureitir**, á listanum **Eftirstandandi reitir**, skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Flutningsmáti*.
-1. Veljið **Bæta við**-hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
+1. Veldu hnappinn **Bæta við** ![Hægri ör.](media/forward-button.png) til að færa reitinn í listann **Valdir reitir**.
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn**.
 1. Í svarglugga fyrirspurnarritilsins, á flipanum **Svið** , á hnitanetinu, skal finna línuna þar sem reiturinn **Reitur** er stilltur á *Viðskiptamannalykill* og stilla reitinn **Skilyrði** fyrir þá línu á *US-001*.
 1. Veljið **Bæta við** til að bæta við línu sem er með eftirfarandi stillingar í hnitanetinu:
@@ -217,7 +214,7 @@ Fylgið eftirfarandi skrefum til að stofna samstæðureglu sendingar fyrir þet
 1. Stillið valkostinn **Sameina við opnar sendingar** á *Já*.
 1. Í aðgerðarúðunni skal velja **Vista**.
 1. Á flýtiflipanum **Samstæðureitir**, á listanum **Eftirstandandi reitir**, skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Flutningsmáti*.
-1. Veljið **Bæta við**-hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
+1. Veldu hnappinn **Bæta við** ![Hægri ör.](media/forward-button.png) til að færa reitinn í listann **Valdir reitir**.
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn**.
 1. Í svarglugga fyrirspurnarritilsins, á flipanum **Samtengingar** , skal stækka og velja **Töflur \> Upplýsingar um hleðslu** á trénu.
 1. Velja **Bæta við töflusamtengingu**.
@@ -254,9 +251,9 @@ Fylgið eftirfarandi skrefum til að stofna samstæðureglu sendingar fyrir þet
 1. Stillið valkostinn **Sameina við opnar sendingar** á *Já*.
 1. Í aðgerðarúðunni skal velja **Vista**.
 1. Á flýtiflipanum **Samstæðureitir**, á listanum **Eftirstandandi reitir**, skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Beiðni viðskiptavinar*.
-1. Veljið **Bæta við**-hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
+1. Veldu hnappinn **Bæta við** ![Hægri ör.](media/forward-button.png) til að færa reitinn í listann **Valdir reitir**.
 1. Á listanum **Eftirstandandi reitir** skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Flutningsmáti*.
-1. Veljið **Bæta við**-hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
+1. Veldu hnappinn **Bæta við** ![Hægri ör.](media/forward-button.png) til að færa reitinn í listann **Valdir reitir**.
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn**.
 1. Í svarglugga fyrirspurnarritilsins, á flipanum **Svið** skal finna línuna þar sem reiturinn **Reitur** er stilltur á *Viðskiptamannalykill* og stilla reitinn **Skilyrði** fyrir þá línu á *US-001*.
 1. Veldu **Í lagi** til að loka svarglugganum.
@@ -286,7 +283,7 @@ Fylgið eftirfarandi skrefum til að stofna samstæðureglu sendingar fyrir þet
 1. Hafið valkostinn **Samstæða við opnar sendingar** stilltan á *Nei*.
 1. Í aðgerðarúðunni skal velja **Vista**.
 1. Á flýtiflipanum **Samstæðureitir**, á listanum **Eftirstandandi reitir**, skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Flutningsmáti*.
-1. Veljið **Bæta við**-hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
+1. Veldu hnappinn **Bæta við** ![Hægri ör.](media/forward-button.png) til að færa reitinn í listann **Valdir reitir**.
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn**.
 1. Í svarglugga fyrirspurnarritils á flipanum **Svið** skal velja **Bæta við** til að bæta við línu sem er með eftirfarandi stillingar á hnitanetinu:
 
@@ -320,7 +317,7 @@ Yfirleitt er hægt að vinna þetta viðskiptatilvik með því að nota sjálfg
 1. Hafið valkostinn **Samstæða við opnar sendingar** stilltan á *Nei*.
 1. Í aðgerðarúðunni skal velja **Vista**.
 1. Á flýtiflipanum **Samstæðureitir**, í reitnum **Eftirstandandi reitir**, skal velja línuna þar sem reiturinn **Heiti reits** er stillt á *Flutningsmáti*.
-1. Veljið **Bæta við**-hnappinn ![Hægri ör ](media/forward-button.png) til að færa reitinn á listann **Valdir reitir**.
+1. Veldu hnappinn **Bæta við** ![Hægri ör.](media/forward-button.png) til að færa reitinn í listann **Valdir reitir**.
 1. Á aðgerðasvæðinu skal velja **Breyta fyrirspurn**.
 1. Í svarglugga fyrirspurnarritilsins, á flipanum **Svið** skal finna línuna þar sem reiturinn **Reitur** er stilltur á *Vöruhús* og stilla reitinn **Skilyrði** fyrir þá línu á *61, 63*.
 1. Veldu **Í lagi** til að loka svarglugganum.
@@ -354,3 +351,6 @@ Eftirfarandi aðstæður sýna hvernig hægt er að nota samstæðureglur sendin
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Samstæðureglur sendingar](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

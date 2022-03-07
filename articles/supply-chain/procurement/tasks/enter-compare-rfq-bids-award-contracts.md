@@ -1,26 +1,24 @@
 ---
 title: Færa inn og bera saman tilboð vegna tilboðsbeiðna og gera samninga
 description: Þetta efni útskýrir hvernig á að færa inn svör við Tilboðsbeiðni, gefa stig og bera saman tilboð, og veita síðan einum lánardrottninum samning.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable, PurchTablePart, PurchRFQCompareLinePrices, PurchRFQCompareRFQ
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3f14b95a71397bf5879c97654620e1d4c22a1149
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 9e7abe133c4d2c7a515c75709bd5616c83ebbcc6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016679"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811991"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Færa inn og bera saman tilboð vegna tilboðsbeiðna og gera samninga
 
@@ -106,3 +104,6 @@ Hægt er að færa inn tilboðið sem annaðhvort lánardrottin eða innkaupastj
 ## <a name="view-the-purchase-order-that-is-generated"></a>Skoða innkaupapöntun sem er búin til
 
 Í aðgerðarúðunni, í flipanum **Almennt**, skal velja **Innkaupapöntun**. Síðan sem birtist sýnir innkaupapöntunina sem var búin til þegar tilboðið var samþykkt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

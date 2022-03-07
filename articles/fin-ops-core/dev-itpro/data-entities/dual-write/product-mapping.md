@@ -2,11 +2,9 @@
 title: Sameinuð vöruupplifun
 description: Þetta efni lýsir samþættingu afurðaupplýsinga milli forrita Finance and Operations og Dataverse.
 author: t-benebo
-manager: AnnBe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 46f2f846f1259d433630a69f17f7b8db9514e6fa
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3087ab8853b14308da9496eead7478822cec86b8
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680049"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750741"
 ---
 # <a name="unified-product-experience"></a>Samræmd afurðaupplifun
 
@@ -53,8 +51,8 @@ Afurðarupplýsingar innihalda allar upplýsingar sem tengjast vörunni og skilg
 
 Finance and Operations-smáforrit | Önnur Dynamics 365 forrit | lýsing
 -----------------------|--------------------------------|---
-Útgefnar afurðir V2 | msdyn\_sharedproductdetails | Einingin **msdyn\_sharedproductdetails** inniheldur reitina úr forritum Finance and Operations sem skilgreina afurðina og innihalda fjárhags- og stjórnunarupplýsingar afurðarinnar. 
-Dataverse útgefnar einkvæmar afurðir | Afurð | Einingin **Afurð** inniheldur reitina sem skilgreina afurðina. Hún felur í sér einstakar afurðir (afurðir með undirgerðaafurð) og afurðarafbrigðin. Eftirfarandi tafla sýnir vörpun.
+Útgefnar afurðir V2 | msdyn\_sharedproductdetails | Taflan **msdyn\_sharedproductdetails** inniheldur dálka úr forritum Finance and Operations sem skilgreina afurðina og innihalda fjárhags- og stjórnunarupplýsingar afurðarinnar. 
+Dataverse útgefnar einkvæmar afurðir | Afurð | Taflan **Afurð** inniheldur dálkana sem skilgreina afurðina. Hún felur í sér einstakar afurðir (afurðir með undirgerðaafurð) og afurðarafbrigðin. Eftirfarandi tafla sýnir vörpun.
 Afurðarnúmer sem eru auðkennd með strikamerki | msdyn\_productbarcodes | Strikamerki afurða eru notuð til að bera kennsl á afurðir á einkvæman hátt.
 Sjálfgefnar pöntunarstillingar | msdyn\_productdefaultordersettings
 Sjálfgefnar afurðatengdar pöntunarstillingar | msdyn_productdefaultordersettings
@@ -65,36 +63,42 @@ Litir | msdyn\_productcolors
 Stærðir | msdyn\_productsizes
 Stílar | msdyn\_productsytles
 Skilgreiningar | msdyn\_productconfigurations
-Litir afurðarsniðmáts. | msdyn_sharedproductcolors | Einingin **Sameiginlegur afurðalitur** gefur til kynna liti sem sérstakt afurðarsniðmát getur haft. Þetta hugtak er flutt í Dataverse til að halda gögnum samkvæmum.
-Stærðir afurðarsniðmáts | msdyn_sharedproductsizes | Einingin **Sameiginleg afurðastærð** gefur til kynna stærðir sem sérstakt afurðarsniðmát getur haft. Þetta hugtak er flutt í Dataverse til að halda gögnum samkvæmum.
-Stílar afurðarsniðmáts | msdyn_sharedproductstyles | Einingin **Sameiginlegur afurðastíll** gefur til kynna stíla sem sérstakt afurðarsniðmát getur haft. Þetta hugtak er flutt í Dataverse til að halda gögnum samkvæmum.
-Skilgreiningar afurðarsniðmáts | msdyn_sharedproductconfigurations | Einingin **Sameiginleg skilgreining afurða** gefur til kynna skilgreiningar sem sérstakt afurðarsniðmát getur haft. Þetta hugtak er flutt í Dataverse til að halda gögnum samkvæmum.
-Allar afurðir | msdyn_globalproducts | Einingin fyrir allar afurðir inniheldur allar afurðir sem eru í boði í forritum Finance and Operations, bæði útgefnar afurðir og afurðir sem ekki eru gefnar út.
+Litir afurðarsniðmáts. | msdyn_sharedproductcolors | Taflan **Sameiginlegur afurðalitur** gefur til kynna liti sem sérstakt afurðarsniðmát getur haft. Þetta hugtak er flutt í Dataverse til að halda gögnum samkvæmum.
+Stærðir afurðarsniðmáts | msdyn_sharedproductsizes | Taflan **Sameiginleg afurðastærð** gefur til kynna stærðir sem sérstakt afurðarsniðmát getur haft. Þetta hugtak er flutt í Dataverse til að halda gögnum samkvæmum.
+Stílar afurðarsniðmáts | msdyn_sharedproductstyles | Taflan **Sameiginlegur afurðastíll** gefur til kynna stíla sem sérstakt afurðarsniðmát getur haft. Þetta hugtak er flutt í Dataverse til að halda gögnum samkvæmum.
+Skilgreiningar afurðarsniðmáts | msdyn_sharedproductconfigurations | Taflan **Sameiginleg skilgreining afurða** gefur til kynna skilgreiningar sem sérstakt afurðarsniðmát getur haft. Þetta hugtak er flutt í Dataverse til að halda gögnum samkvæmum.
+Allar afurðir | msdyn_globalproducts | Taflan fyrir allar afurðir inniheldur allar afurðir sem eru í boði í forritum Finance and Operations, bæði útgefnar afurðir og afurðir sem ekki eru gefnar út.
 Eining | uoms
 Umreikningur eininga | msdyn_ unitofmeasureconversions
 Afurðatengd umskráning mælieiningar | msdyn_productspecificunitofmeasureconversion
-Afurðartegundir | msdyn_productcategories | Hver vöruflokkur og upplýsingar um uppbyggingu hans og einkenni eru að finna í vöruflokkseiningunni. 
-Tegundastigveldi afurðar | msdyn_productcategoryhierarhies | Stigveldi afurðar eru notuð til að flokka eða flokka afurðir. Flokkastigveldin eru fáanleg í Dataverse með því að nota einingu tegundastigveldi afurðar. 
-Hlutverk tegundastigveldis afurðar | msdyn_productcategoryhierarchies | Hægt er að nota vöruveldi fyrir mismunandi hlutverk í D365 Finance and Operations. Þau tilgreina hvaða flokkur er notaður í hverju hlutverki hlutverkaeiningar afurðaflokks er notaður. 
-Úthlutanir afurðategundar | msdyn_productcategoryassignments | Til að úthluta vöru í flokk er hægt að nota eininguna fyrir vöruflokkaúthlutanir.
+Afurðartegundir | msdyn_productcategories | Hver vöruflokkur og upplýsingar um uppbyggingu hans og einkenni eru að finna í vöruflokkstöflunni. 
+Tegundastigveldi afurðar | msdyn_productcategoryhierarhies | Stigveldi afurðar eru notuð til að flokka eða flokka afurðir. Flokkastigveldin eru fáanleg í Dataverse með því að nota töflu tegundastigveldi afurðar. 
+Hlutverk tegundastigveldis afurðar | msdyn_productcategoryhierarchies | Hægt er að nota vöruveldi fyrir mismunandi hlutverk í D365 Finance and Operations. Þau tilgreina hvaða flokkur er notaður í hverju hlutverki hlutverkatöflu afurðaflokks er notaður. 
+Úthlutanir afurðategundar | msdyn_productcategoryassignments | Til að úthluta vöru í flokk er hægt að nota töfluna fyrir vöruflokkaúthlutanir.
 
 ## <a name="integration-of-products"></a>Samþætting á afurðum
 
-Í þessu líkani er afurðin táknuð með samsetningu á tveimur töflum í Dataverse: **Afurð** og **msdyn\_samnýttar afurðarupplýsingar**. Fyrri einingin hefur að geyma skilgreininguna á vöru (einstaka auðkenni fyrir vöruna, vöruheitið og lýsinguna), en önnur aðilinn inniheldur reitina sem eru geymdir á afurðastigi. Samsetning þessara tveggja taflna er notuð til að skilgreina afurðina í samræmi við hugtakið birgðahaldseining (BHE). Hver útgefin afurð er með upplýsingar í framangreindum töflum (afurð og samnýttar afurðaupplýsingar). Til að fylgjast með öllum afurðum (gefnar út og ekki gefnar út) er einingin **Altækar afurðir** notuð. 
+Í þessu líkani er afurðin táknuð með samsetningu á tveimur töflum í Dataverse: **Afurð** og **msdyn\_samnýttar afurðarupplýsingar**. Fyrri taflan hefur að geyma skilgreininguna á vöru (einstaka auðkenni fyrir vöruna, vöruheitið og lýsinguna), en önnur taflan inniheldur dálkana sem eru geymdir á afurðastigi. Samsetning þessara tveggja taflna er notuð til að skilgreina afurðina í samræmi við hugtakið birgðahaldseining (BHE). Hver útgefin afurð er með upplýsingar í framangreindum töflum (afurð og samnýttar afurðaupplýsingar). Til að fylgjast með öllum afurðum (gefnar út og ekki gefnar út) er taflan **Altækar afurðir** notuð. 
 
 Þar sem varan er táknuð sem SKU er hægt að fanga hugtökin aðgreindar vörur, vörumeistarar og afbrigði afurða í Dataverse á eftirfarandi hátt:
 
-- **Afurðir með undirgerð afurðar** eru afurðir sem eru skilgreindar af sjálfum sér. Engar víddir þarf að skilgreina. Dæmi er sérstök bók. Fyrir þessar afurðir er ein skrá búin til í einingunni **Afurð**, og ein skrá er búin til í einingunni **msdyn\_sharedproductdetails**. Engin skrá afurðafjölskyldu er búin til.
-- **Afurðarsniðmát** eru notuð sem almennar afurðir sem innihalda skilgreininguna og reglur sem ákvarða hegðun í viðskiptaferlum. Samkvæmt þessum skilgreiningum er hægt að búa til sérstakar afurðir sem eru þekktar sem vöruafbrigði. Sem dæmi má nefna að stuttermabolur er afurðasniðmát og hann getur haft lit og stærð sem víddir. Hægt er að losa afbrigði sem hafa mismunandi samsetningar af þessum víddum, eins og litlum bláum stuttermabol eða meðalstórum grænum stuttermabol. Í samþættingunni er ein skrá á hvert afbrigði búin til í afurðatöflunni. Þessi skrá inniheldur upplýsingar um afbrigði, eins og mismunandi víddir. Almennar upplýsingar um vöruna eru geymdar í einingunni **msdyn\_sharedproductdetails**. (Þessar almennu upplýsingar eru geymdar í afurðarsniðmátinu.) Upplýsingar afurðarsniðmáts eru samstilltar við Dataverse um leið og útgefið afurðarsniðmát er búið til (en áður en afbrigði eru losuð).
+- **Afurðir með undirgerð afurðar** eru afurðir sem eru skilgreindar af sjálfum sér. Engar víddir þarf að skilgreina. Dæmi er sérstök bók. Fyrir þessar afurðir er ein lína búin til í töflunni **Afurð** og ein lína er búin til í töflunni **msdyn\_sharedproductdetails**. Engin lína afurðafjölskyldu er búin til.
+- **Afurðarsniðmát** eru notuð sem almennar afurðir sem innihalda skilgreininguna og reglur sem ákvarða hegðun í viðskiptaferlum. Samkvæmt þessum skilgreiningum er hægt að búa til sérstakar afurðir sem eru þekktar sem vöruafbrigði. Sem dæmi má nefna að stuttermabolur er afurðasniðmát og hann getur haft lit og stærð sem víddir. Hægt er að losa afbrigði sem hafa mismunandi samsetningar af þessum víddum, eins og litlum bláum stuttermabol eða meðalstórum grænum stuttermabol. Í samþættingunni er ein lína á hvert afbrigði búin til í afurðatöflunni. Þessi lína inniheldur upplýsingar um afbrigði, eins og mismunandi víddir. Almennar upplýsingar um vöruna eru geymdar í töflunni **msdyn\_sharedproductdetails**. (Þessar almennu upplýsingar eru geymdar í afurðarsniðmátinu.) Upplýsingar afurðarsniðmáts eru samstilltar við Dataverse um leið og útgefið afurðarsniðmát er búið til (en áður en afbrigði eru losuð).
 - **Einkvæmar afurðir** vísa til allra undirgerðaafurða afurðanna og allra afurðaafbrigðanna. 
 
 ![Gagnamódel fyrir afurðir](media/dual-write-product.png)
 
-Með tvíritunarvirkni virkjaða verða vörur úr Finance and Operations samstilltar í öðrum Dynamics 365 vörum í stöðunni **Drög**. Þeim er bætt við fyrstu verðskrána með sama gjaldmiðil. Með öðrum orðum, þeim er bætt við fyrstu verðskrána í forriti Dynamics 365 sem samsvarar gjaldmiðli lögaðila þíns þar sem varan er gefin út í forriti Finance and Operations. 
+Með tvíritunarvirkni virkjaða verða vörur úr Finance and Operations samstilltar í öðrum Dynamics 365 vörum í stöðunni **Drög**. Þeim er bætt við fyrsta verðlistann með sama gjaldmiðil. Með öðrum orðum, þeim er bætt við fyrstu verðskrána í forriti Dynamics 365 sem samsvarar gjaldmiðli lögatöflunnar þinnar þar sem varan er gefin út í forriti Finance and Operations. Ef engin verðlisti er til staðar fyrir tiltekinn gjaldmiðil verður verðlisti sjálfkrafa búinn til og afurðinni verður úthlutað á hann. 
+
+Núverandi innleiðing á viðbótum tvöfaldrar skráningar sem tengir sjálfgefinn verðlista við uppflettieininguna fyrir gjaldmiðilinn sem tengist Finance and Operations-forritinu og finnur fyrsta verðlistann í forriti viðskiptavinar með því að nota stafrófsröð á heiti verðlistans. Til að stilla sjálfgefinn verðlista fyrir tiltekinn gjaldmiðil þegar margir verðlistar eru til fyrir þann gjaldmiðil þarf að uppfæra heiti verðlistans í heiti sem kemur á undan öllum öðrum verðlistum í stafrófsröð fyrir þennan sama gjaldmiðil.
 
 Sjálfgefið er að vörur úr forritum Finance and Operations eru samstilltar við önnur Dynamics 365 forrit með stöðuna **Drög**. Til að samstilla vöruna við stöðuna **Virkt**, svo að þú getir til dæmis notað hana beint í sölupöntunartilboðum þarf að velja eftirfarandi stillingu: **Kerfið> Stjórnun> Kerfisstjórnun> Kerfisstillingar> Sala** og velja **Stofna vörur í virkri stöðu = já**. 
 
-Athugaðu að samstilling vara fer fram úr forritum Finance and Operations í Dataverse. Þetta þýðir að hægt er að breyta reitum afurðaeiningar í Dataverse, en þegar samstillingu er hrundið af stað (þegar afurðareit er breytt í forriti Finance and Operations) mun þetta skrifa yfir gildin í Dataverse. 
+Þegar afurðir eru samstilltar verður að færa inn gildi fyrir reitinn **Sölueining** í Finance and Operations-forritinu vegna þess að hann er áskilinn reitur í Sales.
+
+Stofnun afurðafjölskyldna úr Dynamics 365 Sales er ekki studd með samstillingu tvöfaldrar skráningar fyrir afurðir.
+
+Samstilling afurða gerist frá Finance and Operations-forritinu til Dataverse. Þetta þýðir að hægt er að breyta töfludálkinum afurðaeiningar í Dataverse, en þegar samstillingu er hrundið af stað (þegar afurðardálki er breytt í forriti Finance and Operations) mun þetta skrifa yfir gildin í Dataverse. 
 
 [!include [symbols](../../includes/dual-write-symbols.md)]
 
@@ -166,7 +170,7 @@ Mælieiningin er samþætt á milli forrita Finance and Operations og annarra fo
 
 Fyrir samsvarandi/skarandi einingar í forritum Finance and Operations og öðrum Dynamics 365 forritum:
 
-+ **Einingin tilheyrir einingahópi í öðrum Dynamics 365 forritum sem samsvarar tengdum einingaflokki í forritum Finance and Operations**. Í þessu tilfelli verður að fylla út svæðið msdyn_symbol í öðrum Dynamics 365 forritum með einingartákninu úr forritum Finance and Operations. Þess vegna, þegar gögnin verða jöfnuð og einingahópurinn stilltur sem „Utanaðkomandi viðhald“ í öðrum Dynamics 365 forritum.
++ **Einingin tilheyrir einingahópi í öðrum Dynamics 365 forritum sem samsvarar tengdum einingaflokki í forritum Finance and Operations**. Í þessu tilfelli verður að fylla út dálkinn msdyn_symbol í öðrum Dynamics 365 forritum með einingartákninu úr forritum Finance and Operations. Þess vegna, þegar gögnin verða jöfnuð og einingahópurinn stilltur sem „Utanaðkomandi viðhald“ í öðrum Dynamics 365 forritum.
 + **Einingin tilheyrir einingahópi í öðrum Dynamics 365 forritum sem samsvarar ekki tilheyrandi einingaflokki í forritum Finance and Operations (engin núverandi einingaflokkur í forritum Finance and Operations fyrir einingaflokkinn í öðrum Dynamics 365 forritum).** Í þessu tilfelli verður að fylla út msdyn_symbol með streng af handahófi. Athugaðu að þetta gildi verður að vera einstakt í öðrum Dynamics 365 forritum.
 
 Fyrir einingar og einingaflokka í Finance and Operations sem eru ekki til í öðrum Dynamics 365 forritum:
@@ -175,7 +179,7 @@ Sem hluti af tvískrifun eru einingarhóparnir úr forritum Finance and Operatio
 
 Fyrir einingar í öðrum forritum Dynamics 365 sem eru ekki til í forritum Finance and Operations:
 
-Fyllt verður út reitinn msdyn_symbol fyrir allar einingar. Alltaf er hægt að búa til einingarnar í forritum Finance and Operations í samsvarandi einingaflokki (ef þær eru til). Ef einingaflokkur er ekki til verður fyrst að búa til einingaflokkinn (athugaðu að þú getur ekki búið til einingaflokk í forritum Finance and Operations nema í gegnum viðbót ef þú ert að lengja enum) sem samsvarar hinum Dynamics 365 forritseiningahópnum. Síðan er hægt að stofna eininguna. Athugaðu að einingatáknið í Finance and Operations verður að vera msdyn_symbol sem var áður tilgreint í öðrum Dynamics 365 forritum fyrir eininguna.
+Fyllt verður út dálkinn msdyn_symbol fyrir allar einingar. Alltaf er hægt að búa til einingarnar í forritum Finance and Operations í samsvarandi einingaflokki (ef þær eru til). Ef einingaflokkur er ekki til verður fyrst að búa til einingaflokkinn (athugaðu að þú getur ekki búið til einingaflokk í forritum Finance and Operations nema í gegnum viðbót ef þú ert að lengja enum) sem samsvarar hinum Dynamics 365 forritseiningahópnum. Síðan er hægt að stofna eininguna. Athugaðu að einingatáknið í Finance and Operations verður að vera msdyn_symbol sem var áður tilgreint í öðrum Dynamics 365 forritum fyrir eininguna.
 
 ## <a name="product-policies-dimension-tracking-and-storage-groups"></a>Afurðastefna: vídd, mælingar og geymsluhópar
 
@@ -202,7 +206,7 @@ Afurðareglurnar eru reglur sem notaðar eru til að skilgreina afurðir og eigi
 
 Til að auðkenna vörur á milli Dynamics 365 for Finance and Operations og vörur í Dataverse eru samstillingarlyklarnir notaðir. Fyrir afurðir er **(productnumber)** einkvæmur lykill sem auðkennir afurð í Dataverse. Hann er samsettur með samtengingu á: **(company, msdyn_productnumber)**. **Fyrirtækið** gefur til kynna lögaðila í Finance and Operations og **msdyn_productnumber** sýnir vörunúmer fyrir tiltekna vöru í Finance and Operations. 
 
-Fyrir notendur Dynamics 365 forrits er afurðin auðkennd í UI með **msdyn_productnumber** (athugið að merki reitsins er **Vörunúmer**). Á vöruforminu eru bæði fyrirtækið og msydn_productnumber sýnt. Hins vegar er reiturinn (productnumber), sem er einstakur lykill fyrir afurð, ekki sýndur. 
+Fyrir notendur Dynamics 365 forrits er afurðin auðkennd í UI með **msdyn_productnumber** (athugið að merki dálksins er **Vörunúmer**). Á vöruforminu eru bæði fyrirtækið og msydn_productnumber sýnt. Hins vegar er dálkurinn (productnumber), sem er einstakur lykill fyrir afurð, ekki sýndur. 
 
 Ef þú byggir forrit á Dataverse, ættir þú að passa að nota **productnumber** (einkvæmt afurðakenni) sem samþættingarlykill. Ekki nota **msdyn_productnumber** þar sem það er ekki einkvæmt. 
 
@@ -210,12 +214,12 @@ Ef þú byggir forrit á Dataverse, ættir þú að passa að nota **productnumb
 
 ### <a name="initial-synchronization-of-products"></a>Upphafleg samstilling á afurðum 
 
-Þegar tvöföld skrift er virkjuð eru afurðir úr forritum Finance and Operations samstilltar við Dataverse og önnur líkanadrifin forrit Dynamics 365. Afurðir stofnaðar í Dataverse og öðrum forritum Dynamics 365 áður en tvöfaldri ritun var gefin út verða ekki uppfærðar eða jafnaðar við afurðaögn úr forritum Finance and Operations.
+Þegar tvöföld skráning er virkjuð eru afurðir úr forritum Finance and Operations samstilltar við Dataverse og forrit viðskiptavina. Afurðir stofnaðar í Dataverse og öðrum forritum Dynamics 365 áður en tvöfaldri ritun var gefin út verða ekki uppfærðar eða jafnaðar við afurðaögn úr forritum Finance and Operations.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Samsvarandi vörugögn úr Finance and Operations og öðrum Dynamics 365 forritum
 
-Ef sömu vörur eru geymdar (skarast/samsvara) í Finance and Operations og í Dataverse og öðrum forritum Dynamics 365, þegar gert er ráð fyrir tvíritun samstillingar vara úr Finance and Operations, og afritaskrár munu birtast í Dataverse fyrir sömu vöru.
-Til að forðast fyrri aðstæður, ef önnur Dynamics 365 forrit hafa vörur sem skarast/samsvara við Finance and Operations, verður stjórnandi sem gerir kleift að nota tvískipt ræsingu reitina **Fyrirtæki** (dæmi: "USMF") og **msdyn_productnumber** (dæmi: "1234:Svartur:S") áður en samstilling vara fer fram. Með öðrum orðum, þessa tvo reiti í afurðinni í Dataverse þarf að fylla út með viðkomandi fyrirtæki í Finance and Operations sem þarf að passa við vöruna og með vörunúmeri hennar. 
+Ef sömu vörur eru geymdar (skarast/samsvara) í Finance and Operations og í Dataverse og öðrum forritum Dynamics 365, þegar gert er ráð fyrir tvíritun samstillingar vara úr Finance and Operations, og tvöfaldar raðir munu birtast í Dataverse fyrir sömu vöru.
+Til að forðast fyrri aðstæður, ef önnur Dynamics 365 forrit hafa vörur sem skarast/samsvara við Finance and Operations, verður stjórnandi sem gerir kleift að nota tvískipt ræsingu dálkama **Fyrirtæki** (dæmi: "USMF") og **msdyn_productnumber** (dæmi: "1234:Svartur:S") áður en samstilling vara fer fram. Með öðrum orðum, þessa tvo dálka í afurðinni í Dataverse þarf að fylla út með viðkomandi fyrirtæki í Finance and Operations sem þarf að passa við vöruna og með vörunúmeri hennar. 
 
 Þegar samstillingin er virk og fer fram verða vörur úr Finance and Operations samstilltar við samsvarandi vörur í Dataverse og önnur Dynamics 365 forrit. Þetta á bæði við um einkvæmar afurðir og afbrigði afurða. 
 
@@ -223,3 +227,6 @@ Til að forðast fyrri aðstæður, ef önnur Dynamics 365 forrit hafa vörur se
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Flutningur á afurðagögnum úr öðrum Dynamics 365 forritum í Finance and Operations
 
 Ef önnur Dynamics 365 forrit eru með vörur sem eru ekki til staðar í Finance and Operations, getur kerfisstjórinn fyrst notað **EcoResReleasedProductCreationV2Entity** til að flytja inn þessar vörur í Finance and Operations. Og í öðru lagi skal jafna afurðagögnin úr Finance and Operations og önnur Dynamics 365 forrit eins og lýst er hér að ofan. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

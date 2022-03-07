@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-12-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7644cb9800a418fd123b32a0257b787277fcb19f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bfdfee76840380b7dc7ea5043d7e188e3deebf05
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459209"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213915"
 ---
 # <a name="cost-configuration-for-distributed-order-management-dom"></a>Skilgreining kostnaðar fyrir dreifingarstjórnun pöntunar (DOM)
 
@@ -172,3 +171,6 @@ Setja verður upp eftirfarandi reiti fyrir þessa samsetningu:
 
 > [!IMPORTANT]
 > Til að DOM taki þennan kostnað til greina þegar hann er keyrður þarf að bæta kostnaðarstuðli við viðeigandi uppfyllingarsnið.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

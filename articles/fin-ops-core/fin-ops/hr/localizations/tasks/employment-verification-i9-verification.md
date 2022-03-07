@@ -2,11 +2,9 @@
 title: Ráðningar sannprófun i9 sannprófun
 description: Reglugerð um endurbætur og eftirlit innflytjenda krefst þess að vinnuveitendur sannreyni hlfni til vinnuleyfis fyrir nýráðinna starfsmanna.
 author: ShielaSogge
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, HcmPersonIdentificationNumber, Hcmi9Document
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab03e28b3e42d02395da01024bc3bcf4dbcd5abf
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 0d2af12a41c587fd9b69874f087558d36f9b9a1d3491996a3ab931ae2c2591dc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798095"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752276"
 ---
 # <a name="employment-verification-i9-verification"></a>Ráðningar sannprófun i9 sannprófun
 
@@ -54,3 +52,6 @@ Reglugerð um endurbætur og eftirlit innflytjenda krefst þess að vinnuveitend
 22. Í reitinn skjalanúmer skal slá inn eða velja gildi.
 23. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: Taka frá birgðamagn
 description: Þessi efnisliður útskýrir aðra valkosti sem eru tiltækar fyrir að taka frá birgðir.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 207264
 ms.assetid: 47537e4f-cdf6-4813-96fd-c945b2dfe9d4
 ms.search.region: Global
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea7311ce34fec476ad9953e954a07a86acd13afc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 0cf6f14e30f84f48428b351287eb1c65915a14c1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430605"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571138"
 ---
 # <a name="reserve-inventory-quantities"></a>Taka frá birgðamagn
 
@@ -49,7 +46,7 @@ Reglur um birgðafrátekningu eru stillt á **vörulíkanaflokkur** síðunni á
 
 **Birgðareglur** kafla inniheldur eftirfarandi reglur um frátekningu.
 
-|                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| &nbsp;                  | &nbsp;                                                                                                                                     |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Frátekningarregla**  | **Lýsing**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Dagsetningarstýrt samkvæmt FIFO    | Ef valið er **dagsetningarstýrt með FIFO (fyrst inn - fyrst út)** valkostur er birgðafrátekning stjórnað af röðunardagsetningu samkvæmt FIFO meginreglunni. Runur eru teknar frá samkvæmt fyrstu dagsetningu innhreyfingar afurðar, samkvæmt meginreglu um fyrst inn, fyrst út (FIFO).                                                                                                                                                                                                                                                                       |
@@ -83,3 +80,6 @@ Sölupöntun sem á að vera tekin frá sjálfkrafa og afhent 4. aprí 2016, tek
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Reglur um birgðafrátekningu á síðunni færibreytur framleiðslu
 
 Gildi reitsins **Frátekning** á **Almennar** flipanum á **framleiðslufæribreytur** síðuna ákvarðar sjálfgefið stað í framleiðsluferlinu þar sem á að taka frá birgðir. Til dæmis, mætti taka frá birgðir þegar vinnu er áætluð, eða þegar vinna er byrjuð.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Velja síðuútlit
-description: Þetta efni útskýrir hvernig á að búa til og velja síðuútlit í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði útskýrir hvernig á að búa til og velja síðuútlit í Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 04/14/2020
@@ -10,26 +10,25 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0cbcba7ce4f40298e0f2665fa811b125f11e9490
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22c5d0cba477ea7f254c3dfd74810cc248d39afe
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413282"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254746"
 ---
 # <a name="select-page-layouts"></a>Velja síðuútlit
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að búa til og velja síðuútlit í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði útskýrir hvernig á að búa til og velja síðuútlit í Microsoft Dynamics 365 Commerce.
 
 ## <a name="create-layouts-for-an-existing-page"></a>Búðu til útlit fyrir fyrirliggjandi síðu
 
@@ -76,5 +75,10 @@ Fylgdu þessum skrefum til að velja annað skipulag fyrir fyrirliggjandi síðu
 
 [Bæta lendingarsíðu flokks](enrich-category-page.md)
 
-[Staðfesta aðgengi síðuinnihalds](verify-accessibility.md)
+[Staðfesta aðgengi að efni síðu](verify-accessibility.md)
 
+[Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða](create-dynamic-pages.md)
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

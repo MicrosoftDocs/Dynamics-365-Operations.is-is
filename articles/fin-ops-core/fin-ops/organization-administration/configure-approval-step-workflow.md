@@ -2,11 +2,9 @@
 title: Grunnstilla samþykktarskref í verkflæði
 description: Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika samþykktarskrefs.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 84ff82dcb9f4ce930b4f1122790f7989c56fac35
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797097"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070778"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Grunnstilla samþykktarskref í verkflæði
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika samþykktarskrefs.
 
@@ -158,7 +159,7 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta samþykktars
 
     - **Stakur samþykktaraðili** - aðgerðin fyrir skjalið ákveðin af fyrsta aðilanum sem bregst við. Til dæmis hefur Samúel sent kostnaðarskýrslu upp á $15.000. Kostnaðarskýrslu er í augnablikinu úthlutað á Brynju, Guðrúnu og Gísla. Ef Brynja er sú fyrsta sem bregst við skjalinu þá er hennar aðgerð notuð fyrir skjalið. Ef Brynja hafnar skjalinu þá er því hafnað og sent tilbaka til Samúels. Þegar Brynja samþykkir skjalið er það sent til Önnu til samþykktar.
 
-        ![Verkflæði sem er með samþykktarferli](./media/workflow_multipleusersinstep.gif)
+        ![Verkflæði sem er með samþykktarferli.](./media/workflow_multipleusersinstep.gif)
 
     - **Meirihluti samþykkjenda** - aðgerðin fyrir skjalið ákveðin þegar flestir af samþykktaraðilum bregðast við. Til dæmis hefur Samúel sent kostnaðarskýrslu upp á $15.000. Kostnaðarskýrslu er í augnablikinu úthlutað á Brynju, Guðrúnu og Gísla. Ef Brynja og Guðrún eru fyrstu tveir samþykktaraðilar sem svara, er aðgerðin sem þær grípa til beitt fyrir skjalið.
 
@@ -276,3 +277,6 @@ Ef notandinn bregst ekki við skjalinu á tilgreindum tíma, er skjalið komið 
 
 5. Endurtakið skref 3 til 4 fyrir hvern notanda sem á að bæta við stigmögnunarslóð. Hægt er að breyta röðun notenda.
 6. Ef notendunum í stigmögnunarslóðinni svara ekki innan tímarammans, grípur kerfið sjálfkrafa til aðgerða varðandi skjalið. Til að tilgreina aðgerðina sem kerfið grípur til, veldu línuna **Aðgerð** , og síðan á **Ljúka aðgerð** flipanum, veljið aðgerð.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

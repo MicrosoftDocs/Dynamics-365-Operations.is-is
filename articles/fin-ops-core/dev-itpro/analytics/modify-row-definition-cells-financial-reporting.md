@@ -2,11 +2,9 @@
 title: Breyta hólfum línuskilgreiningar
 description: Þetta efnisatriði lýsir upplýsingunum sem krafist er fyrir hvert hólf í línuskilgreiningu á fjárhagsskýrslu og útskýrir hvernig á að færa inn þær upplýsingar.
 author: ShylaThompson
-manager: AnnBe
-ms.date: 02/11/2019
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 80df992ce14577ba78587648f8af2c35b382a589
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685860"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344886"
 ---
 # <a name="modify-row-definition-cells"></a>Breyta hólfum línuskilgreiningar
 
@@ -176,7 +174,7 @@ Notið formúlu fyrir línusamtölu til að bæta við eða draga frá upphæði
 
 Í eftirfarandi dæmi vill notandi koma í veg fyrir prentun haussins og undirstrikana í línunni **Reiðufé alls** vegna þess að hvorugur lausafjárreikninganna sýndi neina virkni. Þess vegna, í línu 220 (sem, eins og **---**--- sniðkóði gefur til kynna, er sniðmátslína) í **Tengdar formúlur/línur/einingar** dálki, færir hann inn **250**, sem er línukóði upphæðarlínunnar sem á að fela.
 
-[![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
+[![RelatedRowsRowDefinition.](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
 ## <a name="select-the-base-row-for-a-column-calculation"></a>Grunnlínan valin fyrir dálkútreikning
 Í vensluðu skipuriti eru einni eða fleiri grunnlínum úthlutað í línuskilgreiningu með því að nota **CBR**-kóða (Change Base Row). Síðan er vísað til grunnlínu með útreikningi í skilgreiningu dálks. Hér eru nokkur dæmi um CBR-útreikninga:
@@ -401,7 +399,7 @@ Hólfið **Tengill í fjárhagsvíddir** inniheldur tengla í fjárhagsgögn sem
 2. Tvísmellið á hólfið í dálkinum **Tengill í fjárhagsvíddir**.
 3. Í svarglugganum **Víddir** er tvísmellt á hólf undir víddarheitinu.
 4. Í svarglugganum fyrir víddina skal velja **Stakur eða svið**.
-5. Færið inn upphafsvídd í reitinn **Frá** eða smellið á ![Fletta](media/browse.gif "Fletta")til að leita að víddum í boði. Ef færa á inn svið vídda skal færa inn lokavíddina í reitinn **Til**.
+5. Færið inn upphafsvídd í reitinn **Frá** eða smellið á ![Fletta.](media/browse.gif "Fletta") til að leita að tiltækum víddum. Ef færa á inn svið vídda skal færa inn lokavíddina í reitinn **Til**.
 6. Smellið á **Í lagi** til að loka svarglugganum fyrir víddina. Uppfærða víddin eða sviðið er birt í svarglugganum **Víddir**.
 7. Smellt er á **Í lagi** til að loka svarglugganum **Víddir**.
 
@@ -478,7 +476,7 @@ Ef bæta á við eða draga peningaupphæðir í einum reikningi frá peningaupp
 
 | Vara                | Lýsing |
 |---------------------|-------------|
-| Stakur eða svið | Í reitnum **Frá** skal slá inn heiti reiknings eða smella á **Fletta** hnappinn ![Fletta](media/browse.gif "Fletta") til að fletta yfir í reikning. Til að velja svið skal slá inn eða fletta upp á gildi í reitnum **Til**. |
+| Stakur eða svið | Í reitinn **Frá** skal slá inn heiti reiknings eða smella á **Fletta** hnappinn til að ![fletta.](media/browse.gif "Fletta") til að fletta í reikningum. Til að velja svið skal slá inn eða fletta upp á gildi í reitnum **Til**. |
 | Víddargildissamstæða | Sláið heiti víddargildissamstæðu inn í reitinn **Heiti**. Til að búa til, breyta, afrita eða eyða samstæðu skal smella á **Vinna með samstæður víddargilda**. **Formúla** reiturinn er skipaður formúlunni úr hólfinu **Tengill í fjárhagsvídd** fyrir þessa samstæðu fjárhagsvídda í línuskilgreiningunni. |
 | Samtölur reikninga   | Í reitnum **Heiti** skal slá inn heiti reiknings eða fletta yfir í vídd samtölureikninga. Reiturinn fyrir **formúlu** er skipaður formúlunni úr hólfinu **Tengill í fjárhagsvídd** fyrir þessa samstæðu fjárhagsvídda í línuskilgreiningunni. |
 
@@ -529,3 +527,6 @@ Víddargildissamstæða er hópur víddargilda með tilteknu heiti. Í víddargi
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Hugtök kostnaðarbókhalds
 description: Þessa efnisatriðis skilgreinir lykill afhendingarskilmála sem notaðir eru í kostnaðarbókhalds.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f61ae7a6657eaad3510833c17f342b7266be247aec2a9bfe80b97172f662ae0a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 2bd821fdfe62475849e6d3b80d3a2c377bbabf4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774378"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990618"
 ---
 # <a name="cost-accounting-terminology"></a>Hugtök kostnaðarbókhalds
 
@@ -128,7 +130,7 @@ Flest upprunakerfi geta veitt gögn sem samsvara einum eða fleiri gagnaveitum �
 |---|---|---|---|
 | Víddarstök kostnaðareiningar  |  Já | Já  | Já  |
 |  Víddarstök kostnaðarhluta |  Já | Já  | Já  |
-|  Tölfræðileg víddarstök | Já  | Nei  | Nei  |
+|  Tölfræðileg víddarstök | Já  | Númer  | Númer  |
 |  Fjárhagur | Já  | Já  | Já  |
 |  Færslur fjárhagsáætlunar  | Já  | Já  | Já  |
 |  Tölfræðiaðgerðir | Já  | Já  | Já  |
@@ -202,6 +204,3 @@ Verkyfirlit eru yfirlit fyrir stjórnendum sem bera ábyrgð á til að stýra k
 Útgáfur eru notaðar til að herma, skoða og bera saman niðurstöður mismunandi. Að sjálfgefnu raunverulegan kostnað eru skoðuð í ein útgáfa grunnsniðs sem kallast *raunverulega*. Hægt er að vinna með eins margar útgáfur og þörf er fyrir áætlanir og útreikninga. Til dæmis, hægt að flytja inn gögn fjárhagsáætlunargerðar í upprunalega útgáfa og endurskoða síðan áætlunar í endurskoðuð útgáfa. Hægt er að stofna mál fyrir mörg svæði í . Í þessum mismunandi útgáfur síðan stofna útreikning með því að nota mismunandi útreikningsreglur sem verður notað fyrir kostnaðarúthlutun.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

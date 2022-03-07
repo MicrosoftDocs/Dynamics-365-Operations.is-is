@@ -2,36 +2,30 @@
 title: Myndspilaraeining
 description: Þetta efni fjallar um myndspilaraeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3cf7ead9a5340d5db37a87bdf131ba87681d5a82
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 8d09797d24572a99cc8f5ed2d34b73eb7144af7a35661a929b6a571a20dfed04
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413114"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731720"
 ---
 # <a name="video-player-module"></a>Myndspilaraeining
-
 
 [!include [banner](includes/banner.md)]
 
 Þetta efni fjallar um myndspilaraeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Myndspilaraeiningin er notuð til að styðja myndspilun. Hægt er að bæta henni við hvaða síðu sem er, að því tilskildu að myndbandsefni sé hlaðið upp á og tiltækt í efnisstjórnunarkerfinu (CMS). Myndbandsspilarann styður .mp4 miðlunargerðina.
 
@@ -49,12 +43,16 @@ Myndbandsspilaeiningin styður einnig aðrar hljóðrásir. Þegar myndskeiði e
 
 Eftirfarandi mynd sýnir dæmi um myndspilaraeiningu á heimasíðu.
 
-![Dæmi um myndspilaraeiningu](./media/ecommerce-videoplayer.PNG)
+![Dæmi um myndspilaraeiningu.](./media/ecommerce-videoplayer.PNG)
 
 ### <a name="video-player-module-properties"></a>Eiginleikar myndspilaraeiningar
 
 | Nafn eiginleika         | Virði                               | lýsing |
 |-----------------------|-------------------------------------|-------------|
+| Haus               | Texti og merki fyrirsagnar (**H1**, **H2**, **H3**, **H4**, **H5** eða **H6**) | Sjálfgefið er að fyrirsagnarmerkið **H2** er notað fyrir fyrirsögnina, en breyta má merkinu til að uppfylla kröfur um aðgengi. |
+| Sniðinn texti             | Texti efnisgreinar | Einingin styður málsgreinatexta með ríku textasniði. Stuðningur er við nokkra grunntextaeiginleika, eins og tengla og feitletrun, undirstrikun og skáletrun texta. Sumum af þessum eiginleikum er hægt að hnekkja með síðuþema sem er beitt á eininguna. |
+| Tengill                  | Tenglatexti, vefslóð tengils, ARIA-merki (Accessible Rich Internet Applications) og valið **Opnaðu hlekk í nýjum flipa** | Einingin styður einn eða fleiri „kalla til aðgerða“ tengla. Ef tengli er bætt við þarf tenglatexta, vefslóð og ARIA-merki. ARIA-merki ættu að vera lýsandi til að uppfylla kröfur um aðgengi. Hægt er að stilla tengla þannig að þeir séu opnaðir á nýjum flipa. |
+| Texti efnis              | Fyrirsögn, texti eða tenglar | Hægt er að bæta við öðru samhengi fyrir myndspilaraeininguna, svo sem nafni höfundar eða hönnuðar eða tenglum á persónuleg blogg. |
 | Sjálfvirk spilun             | **Satt** eða **Ósatt**               | Þegar gildi er stillt á **Satt** er myndskeiðið sjálfkrafa spilað. |
 | Þagga                  | **Satt** eða **Ósatt**               | Þegar gildi er stillt á **Satt** er skrúfað fyrir hljóðið. Fyrir þennan spilara er sjálfgildið **Ósatt**. Í Chrome-vafranum er sjálfvirk spilun myndskeiða sjálfgefið þögguð og hljóðið er aðeins spilað ef notandinn spilar myndbandið handvirkt. |
 | Lykkja                  | **Satt** eða **Ósatt**               | Þegar gildi er stillt á **Satt** er myndskeiðið endurtekið í lúppu. |
@@ -64,6 +62,9 @@ Eftirfarandi mynd sýnir dæmi um myndspilaraeiningu á heimasíðu.
 | Stýringar myndspilara | **Satt** eða **Ósatt**               | Þegar gildið er stillt á **Satt** eru öll stjórntæki myndbandsspilarans sýnd. Þessar stjórntæki fela í sér spilunar- og hléhnappa, framvinduvísir og valkosti fyir lokaða myndatexta. |
 | Fela forsíðumynd     | **Satt** eða **Ósatt**               | Myndskeið getur verið með plakatramma. Þegar gildið þessa eiginleika er stillt á **Satt** er plakatramminn falinn. |
 | Sniðmátsstig            | Tölugildi frá **0** til og með **100** | Sniðmátið sem er beitt á myndskeiðið til útlitshönnun. |
+
+> [!IMPORTANT]
+> Eiginleikarnir **Fyrirsögn**, **Ríkur texti**, **Tengill** og **Undirtexti** eru í boði frá og með Dynamics 365 Commerce útgáfu 10.0.20.
 
 ## <a name="add-a-video-player-module-to-a-page"></a>Bæta við myndspilaraeiningu á síðu
 
@@ -106,3 +107,6 @@ Fylgdu þessum skrefum til að bæta myndspilaraeiningu við nýja síðu og sti
 [Textabálkseining](add-content-rich-block.md)
 
 [Innihaldsbálkseining](add-hero-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

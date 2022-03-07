@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 3a2c8a69a2c64214a38a654042ea2f62575e7f52
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22e724b60ec5cc8bf39a520022f43784d3a328eb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430214"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232912"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Setja upp valmyndaratriði fartækis til að birta yfirlit yfir val á línu
 
@@ -69,3 +68,6 @@ Til að setja upp valmyndaratriði fartækis til að birta yfirlit yfir tiltekta
     - Notið eftirstandandi reitina **Upplýsingasvæði** til að bæta við allt að sjö upplýsingasvæðum til viðbótar eftir þörfum. Í reitnum **Upplýsingasvæði** skal velja heiti vinnulínureits. Hver lína sýnir svo gildi fyrir þann reit. Gildin verða sýnd í pöntuninni sem er valin hér. Hægt er að skilja nokkra af reitunum **Upplýsingasvæði** eftir auða ef ekki reynist þörf á öllum sjö gildunum.
 
 1. Á aðgerðasvæðinu skal velja **Vista** og síðan loka síðunni **Reitalisti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

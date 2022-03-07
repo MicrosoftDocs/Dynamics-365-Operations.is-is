@@ -2,37 +2,32 @@
 title: Kaupkassaeining
 description: Þetta efni fjallar um kaupakassaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fa9d42c20540f2ee2240cc4f2b180140c3f9a628
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: ac29180dbffac4d7db27856b801647aac878bc99
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517089"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638026"
 ---
-# <a name="buy-box-module"></a>Kaupkassaeining
+# <a name="buy-box-module"></a>Kaupgluggaeining
 
 [!include [banner](includes/banner.md)]
 
 Þetta efni fjallar um kaupakassaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Yfirlit
-
-Hugtakið *kaupkassi* vísar venjulega til svæðisins á vöruupplýsingasíðunni sem er „yfir brotinu“ og hýsir allar mikilvægustu upplýsingarnar sem þarf til að kaupa vöru. (Svæði sem er „fyrir ofan brotið“ er sýnilegt þegar síðunni er fyrst hlaðið þannig að notendur þurfa ekki að fletta niður til að sjá hana.)
+Hugtakið *kaupkassi* vísar venjulega til svæðisins á vöruupplýsingasíðunni (PDP) sem er „yfir brotinu“ og hýsir allar mikilvægustu upplýsingarnar sem þarf til að kaupa vöru. (Svæði sem er „fyrir ofan brotið“ er sýnilegt þegar síðunni er fyrst hlaðið þannig að notendur þurfa ekki að fletta niður til að sjá hana.)
 
 Kaupkassaeining er sérstakur gámur sem er notaður til að hýsa allar einingar sem sýndar eru á kaupkassasvæðinu á upplýsingasíðu vöru.
 
@@ -40,7 +35,7 @@ Vefslóð upplýsingasíðu inniheldur afurðakennið. Allar upplýsingar sem kr
 
 Eftirfarandi mynd sýnir dæmi um kaupgluggaeiningu á upplýsingasíðu afurðar.
 
-![Dæmi um kaupgluggaeiningu](./media/ecommerce-pdp-buybox.PNG)
+![Dæmi um kaupgluggaeiningu.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Eiginleikar og hólf kaupkassaeininga 
 
@@ -72,14 +67,16 @@ Hægt er að skilgreina eftirfarandi stillingar fyrir kaupgluggaeiningar á **St
 
 - **Hámarksmagn körfulínu** - Þessi eiginleiki er notaður til að sýna hámarksfjölda hverrar vöru sem hægt er að bæta við körfuna. Til dæmis gæti smásali ákveðið að aðeins megi selja 10 stykki af hverri afurð í sömu færslunni.
 - **Birgðir** - Frekari upplýsingar um hvernig á að nota birgðastillingar er að finna í [Nota birgðastillingar](inventory-settings.md).
-- **Bæta vöru í körfu** - Þessi eiginleiki er notaður til að sýna hegðun eftir að vöru hefur verið bætt í körfuna. Mögulegu gildin eru **Fara í körfu**, **Ekki fara í körfu** og **Sýna tilkynningu**. Þegar gildið er stillt á síðuna **Fara í körfu** er notendum vísað á körfusíðuna eftir að hafa bætt við vöru. Þegar gildið er stillt á síðuna **Ekki fara í körfu** er notendum ekki vísað á körfusíðuna eftir að hafa bætt við vöru. Þegar gildið er stillt á **Sýna tilkynningu** fá notendur staðfestingu og geta haldið áfram að vafra á upplýsingasíðu afurðar. 
+- **Bæta vöru í körfu** – Upplýsingar um hvernig á að setja á stillinguna **Bæta vöru í körfu** er að finna í [Stillingar til að bæta vöru í körfu](add-cart-settings.md).
+
+## <a name="buy-box-module-definition-extensions-in-the-adventure-works-theme"></a>Viðbætur á skilgreiningu kaupgluggaeiningar í þema Adventure Works
+
+Kaupgluggaeiningin sem þema Adventure Works býður upp á er með viðbót við skilgreiningu einingar sem styður innleiðingu á vörulýsingareiningu innan fellingareiningar í PDP-kaupglugga. Til að sýna eigindir vörulýsingar í PDP-kaupglugga skal bæta vörulýsingareiningu við hólf fellingareiningar í hólfi kaupglugga.
+
 
 > [!IMPORTANT]
-> Síðustillingin **Bæta vöru við körfu** eru í boði í Dynamics 365 Commerce útgáfu 10.0.11. Ef verið er að uppfæra úr eldri útgáfu af Dynamics 365 Commerce verður að uppfæra appsettings.json-skrána handvirkt. Leiðbeiningar um uppfærslu appsettings.json skrárinnar er að finna í [Uppfærslur á SDK og einingasafni](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+> Þema Adventure Works er í boði frá og með Dynamics 365 Commerce útgáfu 10.0.20.
 
-Eftirfarandi mynd sýnir dæmi um „bætt í körfu“ tilkynningu á Fabrikam-svæðinu.
-
-![Dæmi um tilkynningareining](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Samskipti við Commerce Scale Unit
 
@@ -133,6 +130,11 @@ Fylgdu þessum skrefum til að bæta kaupkassaeiningu við nýja síðu og still
 
 [Samfélagsmiðlaeining](social-share-module.md)
 
+[Stillingar til að bæta vöru við körfu](add-cart-settings.md)
+
 [Reikna tiltækar birgðir fyrir smásölurásir](calculated-inventory-retail-channels.md)
 
-[Uppfærslur á SDK og kjarnasafni](e-commerce-extensibility/sdk-updates.md)
+[Uppfærslur á SDK og einingasafni](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

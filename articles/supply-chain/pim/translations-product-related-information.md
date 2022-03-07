@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SysTranslationDetail, SysTranslationLanguage, SysTranslationList, EcoResProductListPage, EcoResProductVariants, EcoResProductDetailsExtended, EcoResProductCreate, EcoResProductDetails, RetailSizeGroupTable, RetailStyleGroupTable, RetailColorGroupTable, PCTranslationLanguageLookup, EcoResProductCategory
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 201853
 ms.assetid: c0286bba-f54b-42de-904c-81fd796bdd1d
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Product information
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08cdf168ab64a34e781c85db2990f483ce7f7463
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 55cf7ef19fddf79c1dc81e6fbec1d1672026ebc1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430180"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223387"
 ---
 # <a name="product-related-translations-faq"></a>Algengar spurningar um afurðartengdar þýðingar
 
@@ -128,3 +127,6 @@ Til að stjórna þýðingar fyrir gildi í víddaflokknum gildi skal fylgja þe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

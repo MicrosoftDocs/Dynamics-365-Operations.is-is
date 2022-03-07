@@ -1,27 +1,27 @@
 ---
-title: Vinnusvæði fyrir sjálfvirkni reiknings lánardrottins
+title: Vinnusvæði reikningsfærslu lánardrottins
 description: Þetta efnisatriði útskýrir hvernig á að setja upp vinnusvæðið sem tengist reikningum lánardrottna og sýnir upplýsingarnar sem eru í boði í gegnum Microsoft Power BI.
 author: abruer
-ms.date: 02/14/2022
+ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
-ms.translationtype: MT
+ms.openlocfilehash: bac57056af6d85bb30600e13628279801508741d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182580"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837258"
 ---
-# <a name="vendor-invoice-automation-workspace"></a>Vinnusvæði fyrir sjálfvirkni reiknings lánardrottins
+# <a name="vendor-invoice-entry-workspace"></a>Vinnusvæði reikningsfærslu lánardrottins
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -30,11 +30,11 @@ ms.locfileid: "8182580"
 
 ## <a name="overview"></a>Yfirlit
 
-Vinnusvæðið **Sjálfvirkni reikninga lánardrottins** sýnir upplýsingar sem tengjast vinnslu seljanda reiknings. Þar er að finna yfirlitið **Mín vinna** og síðuna **Greiningar - Öll fyrirtæki**. Í **Mínar vinnu** skoða sýnir samantekt tiles hnitanet færslu lánardrottins og tengdar lánardrottnaupplýsingum. Síðan **Greiningar - Öll fyrirtæki** notar möguleika Power BI til að sýna myndefni sem tengjast reikningum lánardrottna.
+**Reikningsfærsla lánardrottins** vinnusvæðið sýnir upplýsingar sem tengjast meðhöndlun reikninga lánardrottins. Þar er að finna yfirlitið **Mín vinna** og síðuna **Greiningar - Öll fyrirtæki**. Í **Mínar vinnu** skoða sýnir samantekt tiles hnitanet færslu lánardrottins og tengdar lánardrottnaupplýsingum. Síðan **Greiningar - Öll fyrirtæki** notar möguleika Power BI til að sýna myndefni sem tengjast reikningum lánardrottna.
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>Setja upp vinnusvæði til að sýna Power BI efni
 
-Ljúka verður við þessa uppsetningu áður en hægt er að sýna gögn í myndrænni framsetningu Power BI á vinnusvæðinu **Sjálfvirkni reikninga lánardrottins**.
+Ljúka verður við þessa uppsetningu áður en hægt er að sýna gögn í myndrænni framsetningu Power BI á vinnusvæðinu **Reikningsfærsla lánardrottins**.
 
 1. Á vinnusvæðinu **Eiginleikastjórnun** skal sía listann til að finna eiginleikann **Sjálfvirkni reiknings lánardrottins**.
 3. Veldu **Virkja núna**.
@@ -54,20 +54,20 @@ Til að skoða upplýsingarnar sem birtast á vinnusvæðinu þarf að vera með
 
 ### <a name="company-selection"></a>Val fyrirtækis
 
-Þegar kveikt er á eiginleikanum **Sjálfvirkni reikninga lánardrottins** birtist reiturinn **Fyrirtæki** efst á vinnusvæðinu. Valið í reitnum **Fyrirtæki** hefur áhrif á allar upplýsingar sem sýndar eru á vinnusvæðinu. Yfirlit sýnir sjálfgefið upplýsingar fyrir fyrirtækið sem þú skráðir þig inn í. Með því að velja annað fyrirtæki í reitnum **Fyrirtæki** geturðu sýnt upplýsingar fyrir það fyrirtæki á vinnusvæðinu. Síðan er hægt að velja reit á vinnusvæðinu til að fara á tengda síðu í völdu fyrirtæki.
+Þegar kveikt er á eiginleikanum **Gera reikninga lánardrottna sjálfvirka** birtist reiturinn **Fyrirtæki** efst á vinnusvæðinu. Valið í reitnum **Fyrirtæki** hefur áhrif á allar upplýsingar sem sýndar eru á vinnusvæðinu. Yfirlit sýnir sjálfgefið upplýsingar fyrir fyrirtækið sem þú skráðir þig inn í. Með því að velja annað fyrirtæki í reitnum **Fyrirtæki** geturðu sýnt upplýsingar fyrir það fyrirtæki á vinnusvæðinu. Síðan er hægt að velja reit á vinnusvæðinu til að fara á tengda síðu í völdu fyrirtæki.
 
 ### <a name="summary-tiles"></a>Samantektarreitir
 
 Reitirnir í hlutanum **Samantekt yfir reikninga í bið** í yfirlitinu **Mín vinna** gefur yfirlit yfir stöðu lánardrottnareikninganna. Hægt er að sjá færslubækur sem eru ekki enn bókaðar og reikninga sem eru í bið. Að auki eru það reitirnir fjórir sem tengjast sjálfvirknieiginleika lánardrottnareiknings:
 
-- **Handvirka jöfnun innhreyfingar vantar**
-- **Villuleit jöfnunar tókst ekki**
-- **Reikningar ekki sendir í verkflæði**
-- **Reikningar ekki fluttir inn**
+- Handvirka jöfnun innhreyfingar vantar
+- Villuleit jöfnunar tókst ekki
+- Reikningar ekki sendir í verkflæði
+- Reikningar ekki fluttir inn
 
-(Þessar fjórar flísar krefjast þess að kveikt sé á sjálfvirkni eiginleikum reiknings lánardrottins **Eiginleikastjórnun** .)
+(Þessir fjórir reitir krefjast þess að kveikt sé á sjálfvirknieiginleiki lánardrottnareiknings í eiginleikastjórnun.)
 
-Til að nota **Endurheimta reikninga seljanda** flísar verður að kveikja á eiginleikanum í **Færibreytur viðskiptaskulda**. Farið í **Viðskiptaskuldir \> Færibreytur viðskiptaskulda** og síðan, í flipanum **Reikningur**, skal stilla valkostinn **Leyfa endurheimt á reikningum lánardrottna** á **Já**.
+Til að nota reitinn **Endurheimta reikninga lánardrottna** verður að vera kveikt á eiginleikanum í færibreytum viðskiptaskulda. Farið í **Viðskiptaskuldir \> Færibreytur viðskiptaskulda** og síðan, í flipanum **Reikningur**, skal stilla valkostinn **Leyfa endurheimt á reikningum lánardrottna** á **Já**.
 
 Þegar kveikt er á eiginleikanum sjást einnig þrír reitir saman á vinnusvæðinu í hluta sem kallast **Færslubækur**. Reitirnir kallast **Færslubækur**, **Færslubækur – Úthlutað til þín** og **Reikningasafn**. 
 

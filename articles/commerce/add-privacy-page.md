@@ -1,37 +1,31 @@
 ---
 title: Bæt við síðu persónuverndarstefnu
-description: Þetta efni lýsir því hvernig á að bæta síðu persónuverndarstefnu við á vefsvæði í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að bæta síðu með persónuverndarstefnu við svæði í Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 12cd0358279684ce1d3050348c37209ba3d29140
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413104"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797528"
 ---
-# <a name="add-a-privacy-policy-page"></a>Bæt við síðu persónuverndarstefnu
-
+# <a name="add-a-privacy-policy-page"></a>Bæta við persónuverndarstefnusíðu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að bæta síðu persónuverndarstefnu við á vefsvæði í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði lýsir því hvernig á að bæta síðu með persónuverndarstefnu við svæði í Microsoft Dynamics 365 Commerce.
 
 Fylgni við friðhelgi einkalífsins felur í sér skipulagsaðgerðir sem upplýsa notendur vefsins um hvernig gögnum þeirra er safnað og meðhöndlað. Notendur geta síðan ákveðið hvernig þeir vilja að farið verði með persónuupplýsingar sínar og gripið til viðeigandi ráðstafana.
 
@@ -109,3 +103,6 @@ Nú er hægt að vísa í brotið í sniðmátinu fyrir aðrar vefsíður. Þega
 [Reglufylgni köku](cookie-compliance.md)
 
 [Skipta um notandakenni sem tengjast röktum efnisbreytingum](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

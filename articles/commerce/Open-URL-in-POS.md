@@ -2,11 +2,9 @@
 title: Opna vefslóð í POS
 description: Þetta efnisatriði gefur yfirlit yfir úrbætur sem hafa verið gerðar á vöru og viðskiptahugbúnaði í Dynamics 365 Commerce.
 author: AamirAllaq
-manager: AnnBe
 ms.date: 01/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: e4ccb8e03d63a7bd1ab2d118d86633a8c6324d43
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 252b24919e4c22233ee8fe7e94c9bc6bbf60dacd
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965453"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796463"
 ---
 # <a name="open-url-in-pos"></a>Opna vefslóð í POS
 
@@ -82,3 +80,6 @@ Til að stilla vefslóð svo hún opnist í POS, skal framkvæma eftirfarandi sk
 5. Veljið **Opna vefslóð** sem aðgerðina.
 6. Færið inn vefslóðina sem á að nota.
 7. Stillið hvort eigi að opna vefslóðina eða nýjan glugga.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

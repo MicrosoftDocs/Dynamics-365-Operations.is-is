@@ -3,7 +3,7 @@ title: Yfirlit einingar fyrir stjórnun eftirágreidds afsláttar
 description: Þetta efnisatriði býður upp á yfirlit yfir stjórnunareiningu eftirágreidds afsláttar fyrir Microsoft Dynamics 365 Supply Chain Management.
 author: sherry-zheng
 ms.date: 02/19/2021
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -12,13 +12,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 75311e137df522c476b938f660b8305004396137
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.18
+ms.openlocfilehash: d271d70791a8fe4ad1581ae8a150ad13bffc7a94
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985497"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271054"
 ---
 # <a name="rebate-management-module-overview"></a>Yfirlit einingar fyrir stjórnun eftirágreidds afsláttar
 
@@ -90,9 +90,10 @@ Notendur þurfa ekki lengur að afgreiða tilboð eða úthlutanir í tveimur sk
 
 Þegar eftirágreiddir afslættir eru reiknaðir út býr ferlið til færslur sem hægt er að yfirfara áður en er bókað. Aðskilið ferli bókar færslur eftirágreidds afsláttar. Síðan er hægt að búa til færslubók, kreditnótu eða debetfærslu við bókun á framlögðum færslum. Hægt er að sækja skýrslu með lista yfir uppgjör og færslur til að tryggja reglufylgni, árangur og gegnsæi.
 
+
 ## <a name="guaranteed-royalty-payments"></a>Tryggðar afnotagreiðslur
 
-Í stjórnunar eftirágreidds afsláttar gerir sjálfvirk greiðslumyndun afnotagreiðslum kleift að afgreiða afnotagreiðslur á fljótlegan og einfaldan hátt jafnvel þegar lágmarkstrygging á við.
+Í stjórnunar eftirágreidds afsláttar gerir sjálfvirk greiðslumyndun afnotagreiðslum kleift að afgreiða afnotagreiðslur á fljótlegan og einfaldan hátt jafnvel þegar lágmarkstrygging á við. 
 
 ## <a name="maximizing-spend-versus-rebates"></a>Hámarka eyðslu í samanburði við eftirágreidda afslætti
 

@@ -1,30 +1,26 @@
 ---
 title: Yfirlit yfir líftímastöðu afurðar
 description: Lífferilsstaða afurðar skráir lífferilsstöðu útgefinnar vöru eða vöruafbrigðis.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 01/06/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 51a6b19e84f368bf72b664e120f262ddcf7c7611
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
-ms.translationtype: HT
+ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4430792"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983795"
 ---
 # <a name="product-lifecycle-state-overview"></a>Yfirlit yfir líftímastöðu afurðar
 
@@ -109,3 +105,6 @@ Notaðu eftirfarandi viðmiðanir til að velja og uppfæra útgefnar afurðir e
 - [Úthluta líftímastöðu afurðar til útgefinnar afurðar](tasks/product-lifecycle-state-released-product.md)
 - [Finna úrelt afurðaafbrigði og úthluta lífferilsstöðu afurðar](tasks/obsolete-product-variants.md)
 - [Búa til lífferlisstöðu afurðar til að útiloka afurðir frá aðaláætlanagerð](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

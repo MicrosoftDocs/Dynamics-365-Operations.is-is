@@ -2,35 +2,30 @@
 title: Hólfeining
 description: Þetta efni fjallar um gámaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 752d0ddc6f666a5d96a2593c8c246a82dc7e1de2fd4bd2356a275222d7abec29
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413095"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715441"
 ---
 # <a name="container-module"></a>Hólfeining
 
 [!include [banner](includes/banner.md)]
 
 Þetta efni fjallar um gámaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Gámaeining er eining sem hýsir aðrar einingar. Megintilgangur gámaeiningar er að skilgreina með eiginleikum sem eru settir fyrir það skipulag eininganna sem eru hún inniheldur. Til dæmis geta þessir einingar birst hlið við hlið í tveggja dálka, þriggja dálka, fjögurra dálka eða sex dálka skipulagi. Þær geta einnig verið takmarkaðar við breidd gámsins, eða þær geta fyllt skjáinn. Einnig er hægt að bæta við fyrirsögn í hverja gámaeiningu.
 
@@ -47,7 +42,7 @@ Gámaeining er eining sem hýsir aðrar einingar. Megintilgangur gámaeiningar e
 
 Eftirfarandi mynd sýnir dæmi um hólfaeiningu sem inniheldur myndaræmueiningu í svæðissmið Commerce. Í þessu dæmi er eiginleikinn **Breidd** í hólfaeiningunni stilltur á **Fylla skjáinn**.
 
-![Dæmi um hólfaeiningu](./media/ecommerce-container.PNG)
+![Dæmi um hólfaeiningu.](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Eiginleikar geymiseiningar
 
@@ -142,3 +137,6 @@ Fylgdu þessum skrefum til að bæta gámaspilaraeiningu við nýja síðu og st
 [Eining síðuhauss](author-header-module.md)
 
 [Eining síðufótar](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

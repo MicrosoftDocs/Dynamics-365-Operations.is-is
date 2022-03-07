@@ -1,12 +1,10 @@
 ---
 title: Samstarf lánardrottna með ytri lánardrottnum
 description: Þetta efnisatriði lýsir því hvernig innkaupastjórum geta unnið með ytri lánardrottinn til að skiptast á upplýsingar um innkaupapantanir og vörusendingabirgðir.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart, PurchaseOrderResponseActionRemarks, PurchVendorPortalAllResponse, PurchOrderInExternalReview, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 594a5bc8762d4c3fdc0bfd901ab97262b0f67a53
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 3b679f8daed1e09c832a5d138473cccba03552f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016754"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576977"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Samstarf lánardrottna með ytri lánardrottnum
 
@@ -35,7 +33,7 @@ Fyrir frekari upplýsingar um hvaða ytri lánardrottnum geta gert viðmót fyri
 > [!NOTE]
 > Upplýsingarnar um samstarf lánardrottna í þessu efnisatriði gildir aðeins um núverandi útgáfu Supply Chain Management. Í Microsoft Dynamics AX 7.0 (febrúar 2016) og Microsoft Dynamics AX forritaútgáfu 7.0.1 (maí 2016) notarðu kerfiseininguna **Gátt lánardrottins** fyrir samskipti við lánardrottna. Upplýsingar um kerfiseininguna **Gátt lánardrottins** er að finna í [Samstarf með lánardrottnum í gegnum Gátt lánardrottins](collaborate-vendors-vendor-portal.md).
 
-Sjá frekari upplýsingar um hvernig lánardrottnum geta notað samstarf lánardrottna í reikningsfærslu ferli, sjá [vinnusvæði reikningsfærslu fyrir samstarf lánardrottna](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Fyrir upplýsingar um hvernig á að gera ráðstafanir fyrir nýja notendur samstarfs lánardrottna, sjá [Stjórna notendum samstarfs lánardrottna](manage-vendor-collaboration-users.md).
+Sjá frekari upplýsingar um hvernig lánardrottnum geta notað samstarf lánardrottna í reikningsfærslu ferli, sjá [vinnusvæði reikningsfærslu fyrir samstarf lánardrottna](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Fyrir upplýsingar um hvernig á að gera ráðstafanir fyrir nýja notendur samstarfs lánardrottna, sjá [Stjórna notendum samstarfs lánardrottna](manage-vendor-collaboration-users.md).
 
 ## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Tilgreina upplýsingarnar sem eru sýndar lánardrottnum þegar þeir svara innkaupapöntunum
 
@@ -242,14 +240,14 @@ Fyrir opinbera geiranum, útvíkkuð virkni gerir tilboðsbeiðnatilfelli kleift
 - Lína útgefinna tilboðsbeiðna
 - Viðhengi hausa útgefinna tilboðsbeiðna
 
-Þessar einingar leyfa fólki sem ekki eru forsjárnotendur í Supply Chain Management, en sem hafa nafnlausan aðgang að ytri síðunni, að skoða tiltæka og lokaða vinnu. Að auki leyfir útvíkkuð virkni í **Senda og birta** notanda sem setur upp færibreytur fyrir vinnslu tilboðsbeiðni að skilgreina tölvupóstsnið. Svo þegar innkaupastjóri stofnar tilfelli tilboðsbeiðni verður hann eða hún að velja tölvupóstsniðið til að senda nauðsynlegar upplýsingar til lánardrottna í tilboðsbeiðnatilfellinu. 
+Þessar einingar leyfa fólki sem ekki eru forsjárnotendur í Supply Chain Management, en sem hafa nafnlausan aðgang að ytri síðunni, að skoða tiltæka og lokaða vinnu. Að auki leyfir útvíkkuð virkni í **Senda og birta** notanda sem setur upp færibreytur fyrir vinnslu tilboðsbeiðni að skilgreina tölvupóstsnið. Svo þegar innkaupastjóri stofnar tilfelli tilboðsbeiðni verður hann að velja tölvupóstsniðið til að senda nauðsynlegar upplýsingar til lánardrottna í tilboðsbeiðnatilfellinu. 
 
 Notandinn sem setur upp færibreytur fyrir tilboðsbeiðniferlið getur búið til margar tölvupóstsniðmát. Þessar tölvupóstsniðmát geta innihaldið bæði fastan texta og eftirfarandi skiptitákn. Táknunum verður skipt út fyrir samhengisháð gildi þegar tölvupóstur er búinn til.
 
 - %RFQCase%
 - %RFQCaseName%
 - %bidType%
-- nviteOnly%%i
+- %inviteOnly%
 - %expiryDateTime%
 - %requester%
 - %requestingDepartment%
@@ -258,3 +256,6 @@ Notandinn sem setur upp færibreytur fyrir tilboðsbeiðniferlið getur búið t
 - %createddate%
 
 Ef lagfæringar er krafist og er send eftir að tilboðsbeiðni er send, þá mun tilboðsbeiðnin verða endursend til allra boðinna lánardrottna. Útgefið skjalið verður líka uppfært á síðunni **Opna útgefnar tilboðsbeiðnir**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

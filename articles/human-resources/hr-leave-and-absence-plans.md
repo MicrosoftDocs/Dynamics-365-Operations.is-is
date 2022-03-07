@@ -1,31 +1,33 @@
 ---
 title: Búa til leyfis- og fjarvistaáætlun
-description: Búðu til orlofstímabil í Dynamics 365 Human Resources fyrir mismunandi tegundir orlofs.
-author: andreabichsel
-manager: AnnBe
-ms.date: 09/11/2020
+description: Þetta efni lýsir því hvernig á að búa til orlofsáætlanir í Dynamics 365 Human Resources fyrir mismunandi tegundir orlofs.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 9267b4d4025ef0e5cec2d3e995785a6291c850e5
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419075"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070251"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Búa til leyfis- og fjarvistaáætlun
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Skilgreindu orlofs- og fjarveruáætlanir í Dynamics 365 Human Resources fyrir hverja tegund orlofs sem þú býður. Orlofs- og fjarveruáætlanir geta safnast á mismunandi tíðni, svo sem árlega, mánaðarlega eða hálfsmánaðarlega. Einnig er hægt að skilgreina áætlun sem styrk, þar sem stök uppsöfnun á sér stað við ákveðna dagsetningu. Til dæmis gætirðu búið til áætlun sem veitir fljótandi frí árlega.
 
@@ -383,3 +385,6 @@ Spáð staða (30) = Uppsöfnunarupphæð (10 x 1) + Núgildandi staða (40) –
 - [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)
 - [Grunnstilla gerðir leyfis og fjarvista](hr-leave-and-absence-types.md)
 - [Uppsöfnunaráætlanir fyrir leyfi og fjarvistir](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

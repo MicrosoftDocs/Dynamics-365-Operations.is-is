@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductMasterDraftFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 886405431e1362c7919cc7f7a49034d154260123
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c3913bdf574036ed30f99701bf2b64ed0f713b1d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430336"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226076"
 ---
 # <a name="create-a-dimension-based-product-master"></a>Búa til afurðarsniðmát sem byggir á víddum
 
@@ -42,3 +41,6 @@ ms.locfileid: "4430336"
     * Veljið skilgreiningartækni á grundvelli vídda.  
 9. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

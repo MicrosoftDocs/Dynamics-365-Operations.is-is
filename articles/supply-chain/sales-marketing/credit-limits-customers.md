@@ -1,27 +1,24 @@
 ---
 title: Lánamark fyrir viðskiptavininn
 description: Í þessari grein er að finna yfirlit yfir hvernig lánamark virkar í Dynamics 365 Supply Chain Management.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 09/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e98203f03f10b3a7c530cb91211df2af025710dc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 4e3476f1f25ac01d8740cce0442ac48ef25101a0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430429"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574306"
 ---
 # <a name="credit-limits-for-customers"></a>Lánamark fyrir viðskiptavininn
 
@@ -93,7 +90,7 @@ Notið **Færibreytur viðskiptakrafna** til að tilgreina upplýsingarnar sem �
 
 **Hvar eru upplýsingar um notkun annars lánsfjár viðskiptavinar?**
 
-Upplýsingar um stöðu viðskiptavina og útistandandi lánsfjárhæð eru reiknaðar og vistaðar þegar þú býrð til skyndimynd og þær birtast í **Innheimta**. Fjárhæðirnar, sem birtast í **Innheimta** geta ekki innihaldið alla færsluvirkni fyrr en ný skyndimynd er búin til. Nánari upplýsingar er að finna í [Skuldir og innheimtur í viðskiptakröfum](https://technet.microsoft.com/library/hh209221.aspx).
+Upplýsingar um stöðu viðskiptavina og útistandandi lánsfjárhæð eru reiknaðar og vistaðar þegar þú býrð til skyndimynd og þær birtast í **Innheimta**. Fjárhæðirnar, sem birtast í **Innheimta** geta ekki innihaldið alla færsluvirkni fyrr en ný skyndimynd er búin til. Nánari upplýsingar er að finna í [Skuldir og innheimtur í viðskiptakröfum](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable).
 
 Upplýsingar um stöðu viðskiptavina og útistandandi fjárhæð eru reiknaðar þegar sölupantanir, fylgiseðlar og reikningar eru uppfærð, eftir því hvaða skjöl eru valin. Ef magn í skjalinu sem þú ert að vinna með myndi leiða til þess að farið sé yfir lánamark birtast skilaboð.
 
@@ -138,3 +135,6 @@ Stundum gætirðu þurft að athuga lánamark viðskiptavinar handvirkt. Til dæ
 1.  Smellið á **Sala og markaðssetning** \> **Almennt** \> **Sölupantanir** \> **Allar sölupantanir**. Tvísmelltu á sölupöntun.
 
 2.  Á skjámyndinni **Sölupöntun** á Aðgerðasvæðinu, á flipanum **Stjórna** skal smella á **Kanna lánamark**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

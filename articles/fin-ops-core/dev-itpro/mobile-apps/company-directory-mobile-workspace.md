@@ -2,11 +2,9 @@
 title: Fartækjavinnusvæði fyrir skráasafn fyrirtækis
 description: Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæði fyrir skráasafn fyrirtækis, sem gerir notendum kleift að skoða og hafa samband við aðra starfsmenn í fyrirtækinu.
 author: jcart1106
-manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0b397f3a222ff6957ad4904df90c5db218903090
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683433"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748198"
 ---
 # <a name="company-directory-mobile-workspace"></a>Fartækjavinnusvæði fyrir skráasafn fyrirtækis
 
@@ -89,3 +87,6 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
 1.  Veljið vinnusvæðið **Skráasafn fyrirtækis** í fartækjaforritinu.
 2.  Í reitnum **Leit** skal færa inn skírnarnafn og föðurnafn starfsmanns, titil eða deild til að hefja leit.
 3.  Velja starfsmann. Síðan **Forstilling starfsmanns** birtist. Á meðal upplýsinga á þessari síðu eru skírnarnafn og föðurnafn starfsmanns, titill og deild.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

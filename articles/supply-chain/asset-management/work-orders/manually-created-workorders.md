@@ -1,12 +1,10 @@
 ---
 title: Handvirkt stofnaðar verkbeiðnir
 description: Þetta efni útskýrir hvernig á að stofna verkbeiðnir handvirkt í eignastýringu.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8c787dbc9889139df76b9b102deb18fce567e382
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: a755fa579d929056296c5512f976d15c4808c336b6688b891a4712051e15e9a1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017869"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750101"
 ---
 # <a name="manually-created-work-orders"></a>Handvirkt stofnaðar verkbeiðnir
 
@@ -113,7 +111,7 @@ Hægt er að stofna verkbeiðni sem tengist fyrirliggjandi verkbeiðni. Þessi a
 
 Skýringarmyndin hér að neðan sýnir dæmi um gluggann **Stofna tengda verkbeiðni**.
 
-![Mynd 1](media/03-work-orders.png)
+![Mynd 1.](media/03-work-orders.png)
 
 >[!NOTE]
 >Athugasemd: Ef þú hefur sett upp tengda verkbeiðnisíu á flipanum **Færibreytur eignastýringar** > **Verkbeiðnir** > reitnum **Tengd verkbeiðnisía** verða kenni verkbeiðna stofnuð í samræmi við uppsetningu síunnar. Ef engin tengd verkbeiðnisía er sett upp er næsta tiltæka kenni verkbeiðni notað fyrir tengdar verkbeiðnir.
@@ -139,7 +137,7 @@ Skýringarmyndin hér að neðan sýnir dæmi um gluggann **Stofna tengda verkbe
 
 Myndin hér að neðan sýnir dæmi um gluggann **Afrita verkbeiðnir**.
 
-![Mynd 2](media/04-work-orders.png)
+![Mynd 2.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Stofna verkbeiðni sem byggist á viðhaldsbeiðni
@@ -159,9 +157,12 @@ Myndin hér að neðan sýnir dæmi um gluggann **Afrita verkbeiðnir**.
 
 Myndin hér að neðan sýnir dæmi um gluggann **Stofna verkbeiðni**.
 
-![Mynd 3](media/05-work-orders.png)
+![Mynd 3.](media/05-work-orders.png)
 
 
 >[!NOTE]
 >Ef þú vilt að verkbeiðnir sé sjálfvirkt stofnaðar er hægt að tímastilla vinnslur viðhaldsáætlana eða hægt er að setja upp „Stofna sjálfvirkt“ [viðhaldsáætlanir](../preventive-and-reactive-maintenance/maintenance-plans.md) eða [viðhaldslotur](../preventive-and-reactive-maintenance/maintenance-rounds.md) á eign. Verkbeiðnir sem eru stofnaðar úr viðhaldsbeiðnum á listasíðunni **Öll viðhaldsskemu** eru með þær gerðir viðhaldsverka sem eru valdar í viðhaldsbeiðnum.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

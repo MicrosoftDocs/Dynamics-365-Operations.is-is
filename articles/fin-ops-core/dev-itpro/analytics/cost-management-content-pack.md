@@ -2,11 +2,9 @@
 title: Kostnaðarstjórnun Power BI efni
 description: Þetta efnisatriði lýsir því hvað er innifalið í kostnaðarstjórnun Power BI efnis.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd5558c89130b48595a9b889072a18a4416b5bd7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683896"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752641"
 ---
 # <a name="cost-management-power-bi-content"></a>Kostnaðarstjórnun Power BI efni
 
@@ -31,12 +29,7 @@ ms.locfileid: "4683896"
 
 ## <a name="overview"></a>Yfirlit
 
-**Kostnaðarstjórnun** Microsoft Power BI er ætlað fyrir bókhaldara birgða eða einstaklinga innan fyrirtækisins sem bera ábyrgð á hafa áhuga á birgðastöðu eða verki í vinnslu (VÍV), eða sem bera ábyrgð á eða hafa áhuga á að greina frávik staðalkostnaðar.
-
-> [!NOTE]
-> **Kostnaðarstjórnun** Power BI efnið sem lýst er hér í þessu efnisatriði gildir um Dynamics 365 Finance and Operations 8.0.
-> 
-> **Kostnaðarstjórnun** Power BI efnispakki, tiltækur á AppSource síðuna, hefur verið felldur úr gildi. Frekari upplýsingar um þá úreldingu er að finna í [Fjarlægðir eða úreltir eiginleikar fyrir Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+**Kostnaðarstjórnun**  Microsoft Power BI er ætlað fyrir bókhaldara birgða eða einstaklinga innan fyrirtækisins sem bera ábyrgð á hafa áhuga á birgðastöðu eða verki í vinnslu (VÍV), eða sem bera ábyrgð á eða hafa áhuga á að greina frávik staðalkostnaðar.
 
 Þetta Power BI efni útvegar flokkað snið sem hjálpar þér að fylgjast með afköstum birgða og sjá hvernig kostnaðurinn rennur í gegnum þær. Hægt er að öðlast innsýn í reksturinn, t.d. veltuhlutfall, fjöldi daga sem birgðir á lager, nákvæmni og „ABC-flokkun“ á völdu samanlögðu stigi (fyrirtæki, vöru, vöruflokki eða stað). Upplýsingarnar sem boðið er upp á er einnig hægt að nota sem ítarlega viðbót við fjárhagsskýrslu.
 
@@ -186,16 +179,16 @@ Eftirfarandi tafla sýnir helstu útreiknuðu mælingarnar í Power BI-efninu.
 
 | Ráðstöfun                            | Útreikningur |
 |------------------------------------|-------------|
-| Upphafsstaða                  | Upphafsstaða = \[Lokastaða\]-\[Nettóbreyting\] |
-| Upphafsstaða magns             | Upphafsstaða magns = \[Lokastaða magns\]-\[Nettóbreytingar magns\] |
-| Lokastaða                     | Lokastaða = (CALCULATE(SUM(\[Upphæð\]), FILTER(ALL(FiscalCalendar), FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\])))) |
-| Lokastaða magns                | Lokastaða magns = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar), FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
-| Nettó breyting                         | Nettóbreyting = SUM(\[AMOUNT\]) |
-| Nettóbreyting magns                    | Nettóbreyting magns = SUM(\[QTY\]) |
-| Hlutfall birgðaveltu eftir upphæð | Hlutfall birgðaveltu eftir upphæð = if(OR(\[Meðaltalsstaða birgða\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[Atriði er varðar seldar eða notaðar birgðir\])/\[Meðaltalsstaða birgða\]) |
-| Meðaltalsstaða birgða          | Meðaltalsstaða birgða = ((\[Lokastaða\] + \[Upphafsstaða\]) / 2) |
-| Dagar lagerbirgða             | Dagar lagerbirgða = 365 / CostObjectStatementEntries\[Hlutfall birgðaveltu eftir upphæð\] |
-| Birgðanákvæmni                 | Birgðanákvæmni eftir upphæð = IF(\[Lokastaða\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[Lokastaða\] \< 0), 0, 1), MAX(0, (\[Lokastaða\] - ABS(\[Talin upphæð birgða\]))/\[Lokastaða\])) |
+| Upphafsstaða                  | Upphafsstaða = \[ Lokastaða\]-\[ Nettóbreyting\] |
+| Upphafsstaða magns             | Upphafsstaða magns = \[ Lokastaða magns\]-\[ Nettóbreytingar magns\] |
+| Lokastaða                     | Lokastaða = (CALCULATE(SUM(\[ Upphæð\]), FILTER(ALL(FiscalCalendar), FiscalCalendar\[ MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[ MONTHSTARTDATE\])))) |
+| Lokastaða magns                | Lokastaða magns = CALCULATE(SUM(\[ QTY\]), FILTER(ALL(FiscalCalendar), FiscalCalendar\[ MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[ MONTHSTARTDATE\]))) |
+| Nettó breyting                         | Nettóbreyting = SUM(\[ AMOUNT\]) |
+| Nettóbreyting magns                    | Nettóbreyting magns = SUM(\[ QTY\]) |
+| Hlutfall birgðaveltu eftir upphæð | Hlutfall birgðaveltu eftir upphæð = if(OR(\[ Meðaltalsstaða birgða\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[ Atriði er varðar seldar eða notaðar birgðir\])/\[ Meðaltalsstaða birgða\]) |
+| Meðaltalsstaða birgða          | Meðaltalsstaða birgða = ((\[ Lokastaða\] + \[ Upphafsstaða\]) / 2) |
+| Dagar lagerbirgða             | Dagar lagerbirgða = 365 / CostObjectStatementEntries\[ Hlutfall birgðaveltu eftir upphæð\] |
+| Birgðanákvæmni                 | Birgðanákvæmni eftir upphæð = IF(\[ Lokastaða\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[ Lokastaða\] \< 0), 0, 1), MAX(0, (\[ Lokastaða\] - ABS(\[ Talin upphæð birgða\]))/\[ Lokastaða\])) |
 
 Eftirfarandi lykilvíddir eru notaðar sem síur til að sneiða uppsafnaðar mælingar þannig að hægt sé að veita meiri uppskiptingu og dýpri greiningarinnsýn.
 
@@ -207,3 +200,6 @@ Eftirfarandi lykilvíddir eru notaðar sem síur til að sneiða uppsafnaðar m�
 | Lögaðilar                                          | Heiti lögaðila                              |
 | Fjárhagsdagatöl                                        | Fjárhagsdagatal, ár, ársfjórðungur, tímabil, mánuður   |
 | Svæði                                                    | Kenni, nafn, heimilisfang, ríki, land               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

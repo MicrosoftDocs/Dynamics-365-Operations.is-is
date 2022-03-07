@@ -1,7 +1,7 @@
 ---
-title: Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða
-description: Þetta efnisatriði útskýrir hvernig valkostir fyrir svæðið Útreikningsaðferðir hafa áhrif á virðisaukaskattskóða og hvernig virðisaukaskattur er reiknaður fyrir tímabil og fullar upphæðir.
-author: kailiang
+title: Útreikningsaðferð heildarupphæðar og tímabils fyrir vsk-kóða
+description: Þessi grein útskýrir hvernig valkostir fyrir svæðið Útreikningsaðferðir hafa áhrif á virðisaukaskattskóða og hvernig virðisaukaskattur er reiknaður fyrir tímabil og fullar upphæðir.
+author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,23 +12,23 @@ ms.reviewer: roschlom
 ms.custom: 5624
 ms.assetid: 96166db4-b7ca-470b-aeb7-0a66fe0554c4
 ms.search.region: Global
-ms.author: kailiang
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 44c4ce480de470b623f6faeff5a763bfcb05aecc
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
-ms.translationtype: MT
+ms.openlocfilehash: bb3d622f8a81c0eabc84fb165203aa193f5e7dd6ad148ff50a9f55c87453be9c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726824"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731477"
 ---
-# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða
+# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Útreikningsaðferð heildarupphæðar og tímabils fyrir vsk-kóða
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig valkostir fyrir svæðið **Útreikningsaðferðir** hafa áhrif á virðisaukaskattskóða og hvernig virðisaukaskattur er reiknaður fyrir tímabil og fullar upphæðir.
+Þessi grein útskýrir hvernig valkostir fyrir svæðið Útreikningsaðferðir hafa áhrif á virðisaukaskattskóða og hvernig virðisaukaskattur er reiknaður fyrir tímabil og fullar upphæðir.
 
-Hægt er að setja upp vsk-kóða til að reikna út byggt á heildarupphæð eða tímabilsupphæð. Á síðunni **VSK-kóðar** skal nota reitinn **Útreikningsaðferð** á flýtiflipanum **Útreikningur** til að velja reikningsaðferðina fyrir VSK-kóða.
+Hægt er að setja upp vsk-kóða til að reikna út byggt á heildarupphæð eða tímabilsupphæð. Í síðu vsk kóða, skal nota aðferð Útreiknings svæðið á Flýtiflipanum Útreikningur til að velja hvernig á að reikna vsk-kóða.
 - Heildarupphæð – Skatthlutfall er notað fyrir alla skattskyldu upphæðina.
 - Tímabil – Skattskyldu upphæðinni er skipt í hluta, en hver þeirra fellur undir upphæðarbil með sérstöku skatthlutfalli. Hlutur upphæðarinnar sem fellur undir tiltekið bil er skattlagt í samræmi við skatthlutfallið fyrir það bil. Virðisaukaskatturinn er samtala skattupphæðanna sem eru reiknaðar fyrir hvert upphæðarbil.
   > [!NOTE]                                                                                                                              

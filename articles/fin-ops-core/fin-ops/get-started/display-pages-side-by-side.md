@@ -2,11 +2,9 @@
 title: Birta síður hlið við hlið við því að nota Opna í nýjum gluggaeiginleika
 description: Þessi grein útskýrir hvernig eigi að birta síður hlið við hlið.
 author: aneesmsft
-manager: AnnBe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35ade352edf31fe895a9b9118a8ad7d5fe6c0bde
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: a4c8086d511892f8965dfefca2789742a006f63f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798404"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068060"
 ---
 # <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>Birta síður hlið við hlið við því að nota Opna í nýjum gluggaeiginleika
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Þessi grein útskýrir hvernig eigi að birta síður hlið við hlið.
 
@@ -48,3 +49,6 @@ Sumar síður eru með mörgum yfirlitum eins og hnitanetsyfirlit, hausyfirlit o
 **Opna í nýjum glugga** eiginleiki er aðeins tiltækur þegar fleiri en einn síða er opna í glugganum. Sprettigluggi lokast einnig sjálfkrafa þegar engar frekari síður eru opnar (þar er, þegar síðustu síðunni í glugganum er lokað). Kerfið lokar einnig opnum síðum þegar farið er í mismunandi svæði í forritinu. Ef sprettugluggar eru opnir og farið er í annað svæði í forritinu, er sprettugluggum sjálfkrafa lokað því kerfið lokaði síðunum í þeim gluggum.
 
 Efsta sláin í sprettiglugga birtir upplýsingar um fyrirtækið sem síðuna var opnuð í og er skrifvarin. Sprettigluggar treysta einnig á aðalvafragluggann. Ef aðalglugginn er lokaður eða endurnýjuð, allar opnar sprettuglugga mun verða eingöngu lesaðgangur. Ef þetta gerist er hægt að skoða upplýsingarnar í þessum gluggum, en er ekki hægt að eiga samskipti við þá.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

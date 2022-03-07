@@ -1,12 +1,10 @@
 ---
 title: Sniðmátsuppskriftir
 description: Sniðmátsuppskrift veitir staðlaðan lista yfir íhluti fyrir þjónustuhluti sem eru reglulega þjónustaðir.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 09/19/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
@@ -17,25 +15,23 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01cd4cf03fb0ac1a3399673097895513f7180cf1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: d34502d74590595f26ba5aae78158ed893a095df
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965781"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571308"
 ---
-# <a name="template-boms"></a>Sniðmátsuppskriftir    
+# <a name="template-boms"></a>Sniðmátsuppskriftir
 
 [!include [banner](../includes/banner.md)]
-
 
 Sniðmátsuppskrift veitir þér staðlaðan lista yfir íhluti fyrir þjónustuhluti sem eru reglulega þjónustaðir. Íhlutirnir sem eru taldir upp í sniðmátsuppskrift tákna einstaka undiríhluti þjónustuhlutarins. Með því að nota sniðmátsuppskrift fyrir þjónustuhlut er hægt að halda skrá yfir þá undiríhluti sem hefur verið skipt út á þjónustuhlutnum.
 
 Til þess að nota sniðmátsuppskrift í þjónustusamningi eða þjónustupöntun er hún tengd við þjónustuhlutatengsl.
 
-
 > [!NOTE]
-> <P>Þú getur aðeins notað eina sniðmátsuppskrift á þjónustuhlut.</P>
+> Þú getur aðeins notað eina sniðmátsuppskrift á þjónustuhlut.
 
 ## <a name="create-a-template-bom"></a>Stofna sniðmátsuppskrift
 
@@ -43,8 +39,8 @@ Eftirfarandi tafla inniheldur upplýsingar um hinar ýmsu aðferðir sem hægt e
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -72,7 +68,6 @@ Eftirfarandi tafla inniheldur upplýsingar um hinar ýmsu aðferðir sem hægt e
 </tbody>
 </table>
 
-
 ## <a name="apply-the-template-bom-to-a-service-agreement-or-service-order"></a>Notaðu sniðmátsuppskriftina í þjónustusamning eða þjónustupöntun
 
 Þú getur notað sniðmátsuppskrift í þjónustusamning, þjónustupöntun eða bæði. Þjónustusamningurinn felur yfirleitt í sér langtímasamband við viðskiptavin. Endurnýjunarsagan sem skráð er í þjónustuuppskriftnni eru gagnlegar upplýsingar fyrir þjónustusamninginn.
@@ -83,7 +78,7 @@ Eftirfarandi tafla inniheldur upplýsingar um hinar ýmsu aðferðir sem hægt e
 
 Þú getur afritað sögu þjónustuuppskriftarlínu frá einum þjónustusamningi til annars. Með því að afrita þjónustusöguna milli þjónustusamninga geturðu varðveitt skrárnar yfir útskipti fyrir vöru.
 
-**Dæmi**
+### <a name="example"></a>Dæmi
 
 Settur hefur verið upp þriggja ára þjónustusamningur fyrir bíl viðskiptavinar. Á því tímabili verður viðskiptavinurinn vanur þeirri góðu þjónustu sem fyrirtækið veitir. Þess vegna, eftir að samningurinn rennur út, vill viðskiptavinurinn setja upp nýjan. Þá er mögulegt að semja um hagstæðari kjör fyrir viðskiptavininn. Vegna þess að skráin yfir skipta íhluti gæti verið gagnleg í framtíðinni, afritar þú sögu þjónustuuppskriftar í nýja samninginn.
 
@@ -101,26 +96,18 @@ Ef þú skiptir út vöru í uppskriftinni getur þú skráð skiptin á uppskri
 
 Til að nota sniðmátuppskriftir verður þú að setja upp tvær númeraraðir. Settu upp eina númeraröð fyrir sniðmátsuppskriftina og eina fyrir línunúmer uppskriftarsögunnar.
 
-
 > [!NOTE]
-> <P>Númeraraðir eru notaðar til að úthluta auðkennum til skráa sem þarfnast þeirra. Áður en þú getur úthlutar númeraröð til sniðmátsuppskriftar eða línunúmer uppskriftarsögu verður þú að setja upp kóða númeraraða.</P>
-
+> Númeraraðir eru notaðar til að úthluta auðkennum til skráa sem þarfnast þeirra. Áður en þú getur úthlutar númeraröð til sniðmátsuppskriftar eða línunúmer uppskriftarsögu verður þú að setja upp kóða númeraraða.
 
 ## <a name="set-up-number-sequences"></a>Setja upp númeraraðir
 
-1.  Á listasíðunni **Númeraraðir** skaltu stofna númeraraðir fyrir sniðmátsuppskriftir og línunúmer uppskriftarsögu. 
-
-2.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Færibreytur þjónustustjórnunar**.
-
-3.  Smelltu á **Númeraraðir** og veldu síðan kóða númeraraðar fyrir tilvísanir númeraraðarinnar sem þú stofnaðir í skjámyndinni **Númeraraðir**.
-
-4.  Skjámyndinni er lokað til að vista breytingar.
-
+1. Á listasíðunni **Númeraraðir** skaltu stofna númeraraðir fyrir sniðmátsuppskriftir og línunúmer uppskriftarsögu.
+1. Veljið **Þjónustustjórnun** \> **Uppsetning** \> **Færibreytur þjónustustjórnunar**.
+1. Veldu **Númeraraðir** og síðan kóða númeraraðar fyrir tilvísanir númeraraðarinnar sem þú stofnaðir í skjámyndinni **Númeraraðir**.
+1. Skjámyndinni er lokað til að vista breytingar.
 
 > [!NOTE]
-> <P>Línunúmer uppskriftarsögunnar er notað af kerfinu til að tengja færslur í uppskrfitarsögunni við þjónustusamning eða þjónustupöntun. Númerið birtist ekki í notendaviðmótinu.</P>
-
-
+> Línunúmer uppskriftarsögunnar er notað af kerfinu til að tengja færslur í uppskrfitarsögunni við þjónustusamning eða þjónustupöntun. Númerið birtist ekki í notendaviðmótinu.
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -130,6 +117,4 @@ Til að nota sniðmátuppskriftir verður þú að setja upp tvær númeraraðir
 
 [Breyta þjónustuuppskrift](modify-service-bom.md)
 
- 
-
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 98641f9989322feb77ab683df66c2c1f9ad50a0d
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
-ms.translationtype: MT
+ms.openlocfilehash: 51107731090b77e75a0e5a8c91b052d494b452e4
+ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077066"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7944916"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Leiðbeiningar um dreifingu fyrir samþættingarsýni skattaskráningarþjónustu fyrir Þýskaland (arfleifð)
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir leiðbeiningar um útfærslu samþættingarsýnis fyrir skattaskráningarþjónustu fyrir Þýskaland frá Microsoft Dynamics 365 Commerce Smásöluhugbúnaðarþróunarsett (SDK) á sýndarvél þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar um þetta sýnishorn af samþættingu ríkisfjármála, sjá [Samþættingarsýni skattaskráningarþjónustu fyrir Þýskaland](emea-deu-fi-sample.md). 
+Þetta efni veitir leiðbeiningar um útfærslu samþættingarsýnis fyrir skattaskráningarþjónustu fyrir Þýskaland frá Microsoft Dynamics 365 Commerce Smásöluhugbúnaðarþróunarsett (SDK) á sýndarvél þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar um þetta sýnishorn af samþættingu ríkisfjármála, sjá [Samþættingarsýni skattaskráningarþjónustu fyrir Þýskaland](emea-deu-fi-sample.md). 
 
-Fjármálasamþættingarúrtakið fyrir Þýskaland er hluti af Retail SDK. Fyrir upplýsingar um hvernig á að setja upp og nota SDK, sjá [Smásala hugbúnaðarþróunarsett (SDK) arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md). Þetta sýnishorn samanstendur af viðbótum fyrir Commerce runtime (CRT) og Vélbúnaðarstöð. Til að keyra þetta sýnishorn verður þú að breyta og byggja upp CRT og Vélbúnaðarstöðvarverkefni. Við mælum með því að þú notir óbreytt Retail SDK til að gera þær breytingar sem lýst er í þessu efni. Við mælum líka með því að þú notir heimildastýringarkerfi eins og Azure DevOps þar sem engum skrám hefur verið breytt ennþá.
+Fjármálasamþættingarúrtakið fyrir Þýskaland er hluti af Retail SDK. Fyrir upplýsingar um hvernig á að setja upp og nota SDK, sjá [Smásöluhugbúnaðarþróunarsett (SDK) arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md). Þetta sýnishorn samanstendur af viðbótum fyrir Commerce runtime (CRT) og Vélbúnaðarstöð. Til að keyra þetta sýnishorn verður þú að breyta og byggja upp CRT og Vélbúnaðarstöðvarverkefni. Við mælum með því að þú notir óbreytt Retail SDK til að gera þær breytingar sem lýst er í þessu efni. Við mælum líka með því að þú notir heimildastýringarkerfi eins og Azure DevOps þar sem engum skrám hefur verið breytt enn.
 
 ## <a name="development-environment"></a>Þróunarumhverfi
 
@@ -87,7 +87,7 @@ The CRT framlengingaríhlutir eru innifalin í CRT sýnishorn. Til að ljúka ef
 
 ### <a name="enable-hardware-station-extensions"></a>Virkja viðbætur fyrir vélbúnaðarstöð
 
-Viðbótarhlutir vélbúnaðarstöðvar eru innifaldir í sýnishornum vélbúnaðarstöðvar. Til að ljúka eftirfarandi aðferðum skaltu opna **HardwareStationSamples.sln** lausn undir **RetailSdk\\ SampleExtensions\\ Vélbúnaðarstöð**.
+Vélbúnaðarstöðvarframlengingarhlutirnir eru innifalin í vélbúnaðarstöðvunum. Til að ljúka eftirfarandi aðferðum skaltu opna **HardwareStationSamples.sln** lausn undir **RetailSdk\\ SampleExtensions\\ Vélbúnaðarstöð**.
 
 #### <a name="efrsample-component"></a>EFRSample hluti
 
@@ -105,7 +105,7 @@ Viðbótarhlutir vélbúnaðarstöðvar eru innifaldir í sýnishornum vélbúna
 4. Finndu stillingarskrá fyrir viðbótina fyrir viðbætur vélbúnaðarstöðvarinnar. Skráin er nefnd **HardwareStation.Extension.config**.
 
     - **Sameiginleg vélbúnaðarstöð:** Skráin er staðsett undir staðsetningu IIS vélbúnaðarstöðvarinnar.
-    - **Sérstök vélbúnaðarstöð á Modern POS:** Skráin er staðsett undir miðlarastaðnum Modern POS viðskiptavinar.
+    - **Sérstök vélbúnaðarstöð á Modern POS:** Skráin er staðsett undir miðlarastað Modern POS viðskiptavinar.
 
 5. Bættu eftirfarandi línu við **samsetningu** hluta stillingaskrárinnar.
 
@@ -156,13 +156,13 @@ Viðbótarhlutir vélbúnaðarstöðvar eru innifaldir í sýnishornum vélbúna
 
 ## <a name="design-of-extensions"></a>Hönnun viðbygginga
 
-Samþættingarúrtak ríkisskráningarþjónustu fyrir Þýskaland er byggt á [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md). Fyrir frekari upplýsingar um hönnun fjárhagslegrar samþættingarlausnar, sjá [yfirlit yfir sýnishönnun fjárhagslega samþættingar](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
+Samþættingarúrtak ríkisskráningarþjónustu fyrir Þýskaland er byggt á [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md). Fyrir frekari upplýsingar um hönnun fjárhagslegrar samþættingarlausnar, sjá [yfirlit yfir sýnishönnun í ríkisfjármálum](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
 
 ### <a name="commerce-runtime-extension-design"></a>Viðskiptatímaframlengingarhönnun
 
 Tilgangur framlengingarinnar sem er ríkisfjármálaskjalaveita er að búa til þjónustusértæk skjöl og sjá um svör frá ríkisskráningarþjónustunni.
 
-The CRT framlenging er **Runtime.Extensions.DocumentProvider.EFRSample**. Fyrir frekari upplýsingar um hönnun fjárhagslegrar samþættingarlausnar, sjá [Yfirlit yfir samþættingu ríkisfjármála fyrir viðskiptarásir](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
+The CRT framlenging er **Runtime.Extensions.DocumentProvider.EFRSample**. Fyrir frekari upplýsingar um hönnun fjárhagslegrar samþættingarlausnar, sjá [Yfirlit yfir samþættingu ríkisfjármála fyrir viðskiptarásir](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
 
 #### <a name="request-handler"></a>Beiðni um stjórnanda
 
@@ -193,7 +193,7 @@ Viðbygging Vélbúnaðarstöðvarinnar er **HardwareStation.Extension.EFRSample
 
 #### <a name="request-handler"></a>Beiðni um stjórnanda
 
-The **EFRHandler** meðhöndlun beiðna er inngangsstaður fyrir meðhöndlun beiðna til skattskráningarþjónustunnar. Þessi meðhöndlari er arfur frá **INAmedRequestHandler** viðmót. The **HandlerName** aðferð ber ábyrgð á því að skila nafni meðhöndlunar. Nafn meðhöndlunar ætti að passa við nafn fjárhagstengis sem tilgreint er í höfuðstöðvum Commerce.
+The **EFRHandler** meðhöndlun beiðna er inngangsstaður fyrir meðhöndlun beiðna til skattskráningarþjónustunnar. Þessi meðhöndlun er arfur frá **INAmedRequestHandler** viðmót. The **HandlerName** aðferð ber ábyrgð á því að skila nafni meðhöndlunar. Nafn meðhöndlunar ætti að passa við nafn fjárhagstengis sem tilgreint er í höfuðstöðvum Commerce.
 
 Tengið styður eftirfarandi beiðnir:
 

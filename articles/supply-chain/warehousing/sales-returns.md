@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnTable, ReturnTableListPagePreviewPane, ReturnTableReferences, SalesReturnExpiredOrdersPart, SalesReturnFindOrderFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd194042303797fe41507065d0d7e4df28309cfb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e8778a96030494cbb5d819bf214fca104864eff4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430125"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977414"
 ---
 # <a name="sales-returns"></a>Vöruskil sölu
 
@@ -257,7 +256,7 @@ Almennt séð er hægt að sleppa umbúðaeiningum fylgiseðils og fara beint í
 ### <a name="credit-correction"></a>Kreditleiðrétting
 
 Hluti af reikningsfærslunni er að staðfesta að gjöld séu rétt. Til að orsaka að bókanir í fjárhag verði leiðréttingar (Storno) verða að íhuga að nota valkostinn **Kreditleiðrétting** á flipanum **Annað** á síðunni **Bókun reiknings** þegar reikningur/kreditnóta er bókuð. 
->[Athugasemd!] Sjálfgefið er að valkosturinn **Kreditleiðrétting** sé virkjaður ef valkosturinn **Kreditnóta sem leiðrétting** á síðunni **Færibreytur viðskiptakrafna** hefur verið gerður virkur. Þó er mælt með að bóka ekki með Storno.
+>[Athugasemd!] Sjálfgefni **Kredit leiðrétting** valkosturinn er virkjaður ef á **kreditnótu sem leiðréttingu** valkostinn á í **Færibreytur viðskiptakrafna** síðu hefur verið gerður virkur. Þó er mælt með að bóka ekki með Storno.
 
 ## <a name="create-intercompany-return-orders"></a>Stofna samstæðuskilapantanir
 Hægt er að ljúka skilapöntunum milli tveggja fyrirtækja innan fyrirtækisins. Eftirfarandi aðstæðuar eru studdar:

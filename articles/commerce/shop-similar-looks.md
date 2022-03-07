@@ -2,16 +2,13 @@
 title: Virkja tillögur um að kaupa svipaða vöru
 description: Þetta efnisatriði lýsir því hvernig á að virkja afurðartillögurnar fyrir „versla svipaða vöru“ í Microsoft Dynamics 365 Commerce.
 author: bebeale
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,20 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: da957850072e233a41a042d5857f81ddbf178f7a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: e70365be8484d71ef9e0e9823b0a4406b0fd2761439780cafc30e1284bda1f20
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413232"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722001"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Virkja tillögur um að kaupa svipaða vöru
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að virkja afurðartillögurnar fyrir „versla svipaða vöru“ í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Eiginleikinn fyrir ráðleggingar um „versla svipaða vöru“ í Dynamics 365 Commerce notar gervigreind og vélnám til að sýna viðskiptavinum afurðir sem líta svipað út. Með því að bjóða upp á tillögur fyrir „versla svipaða vöru“ fyrir allar smásölurásir í Commerce, geta smásalar aukið ánægja viðskiptavina með því að hjálpa viðskiptavinum að finna á auðveldan hátt það sem þeir vilja.
 
@@ -73,7 +68,7 @@ Til að virkja tillögueiginleikann „versla svipaða vöru“ í Commerce Head
 
 Eftirfarandi mynd sýnir eiginleikann **Versla svipaðar vörur** á síðunni **Eiginleikastjórnun** í Commerce Headquarters.
 
-![Eiginleikinn „versla svipaðar vörur“ á síðu eiginleikastjórnunar í Commerce Headquarters](./media/enableshopsimilarlooks.png)
+![Eiginleikinn „versla svipaðar vörur“ á síðu eiginleikastjórnunar í Commerce Headquarters.](./media/enableshopsimilarlooks.png)
 
 Eftir að undanfarandi verkum hefur verið lokið eru afgreiðslukassar sjálfkrafa stækkaðir með samhengissvæði **Versla svipaðar vörur**. Með því að velja **Skoða meira** getur notendum afgreiðslukassa verið vísað á síðu „versla svipaðar vörur“ sem hægt er að sía enn frekar.
 
@@ -93,7 +88,7 @@ Til að bæta hnappnum **Versla svipaðar vörur** við upplýsingasíðu afurð
 
 Eftirfarandi mynd sýnir gátreitinn **Virkja tengil til að kaupa svipaða vöru** og hnappinn **Versla svipaðar vörur** á dæmi um upplýsingasíðu afurðar í svæðishönnuði.
 
-![Gátreiturinn „Virkja tengil til að kaupa svipaða vöru“ og hnappurinn „Versla svipaðar vörur“ á upplýsingasíðu afurðar í svæðishönnuði](./media/SSLecomtooling.png)
+![Gátreiturinn „Virkja tengil til að kaupa svipaða vöru“ og hnappurinn „Versla svipaðar vörur“ á upplýsingasíðu afurðar í svæðishönnuði.](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -116,3 +111,6 @@ Eftirfarandi mynd sýnir gátreitinn **Virkja tengil til að kaupa svipaða vör
 [Búðu til tillögur með kynningargögnum](product-recommendations-demo-data.md)
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,26 +1,23 @@
 ---
 title: Fletta upp gildandi verði og afslætti
 description: Þessi ferli sýnir hvernig á að finna verð og/eða afsláttur fyrir afurð sem er gild fyrir ákveðinn viðskiptavin, án þess að stofna sölupöntun.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdbda55c2f83ee2b470cab8a5e4f9ce728b852
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: c80ae00e1bcbc4498ec4705195c3208170cee1b1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430134"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578921"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Fletta upp gildandi verði og afslætti
 
@@ -60,3 +57,6 @@ Gangið úr skugga um að svæðið viðskiptavinalykill innihaldi númer viðsk
     * Það eru tvær línuafsláttarsamninga fyrir afurða T0012, sem tilgreina 5 prósent afslátt í fyrir pöntunarmagn línu frá 1 til 10, og 7 prósent afsláttur fyrir magn yfir 10. Athugaðu að afslættir gilda um hóp afurða, í þessu dæmi, flokkskóði 01 sem afurðin T0012 tilheyrir.  
 4. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

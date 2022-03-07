@@ -1,35 +1,30 @@
 ---
 title: Úthlutaðu verkefnalistum til verslana eða starfsmanna
-description: Þetta efni lýsir því hvernig á að úthluta verklista á verslanir eða starfsmenn í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að úthluta verkefnalistum til verslana eða starfsmanna í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 82cec9861b759037f40315fb2e6f36002a0ac059
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 18f13fb1754b2740b8447a67f09320651b0ca4003c6f46c6d4668e5159ae1a2d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413225"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730828"
 ---
-# <a name="assign-task-lists-to-stores-or-employees"></a>Úthlutaðu verkefnalistum til verslana eða starfsmanna
+# <a name="assign-task-lists-to-stores-or-employees"></a>Úthluta verkefnalistum til verslana eða starfsmanna
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að úthluta verklista á verslanir eða starfsmenn í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði lýsir því hvernig á að úthluta verkefnalistum til verslana eða starfsmanna í Microsoft Dynamics 365 Commerce.
 
 Verkefnisstjórn í Dynamics 365 Commerce gerir þér kleift að úthluta verkefnalista til margra verslana eða starfsmanna, eða til samblanda verslana og starfsmanna. Til dæmis gæti svæðisstjóri í 20 verslunum viljað úthluta verklistanum **Undirbúningur undir frídaga** á allar 20 verslanir.
 
@@ -50,7 +45,7 @@ Fylgdu þessum skrefum til að hefja úthlutun verkefnalista.
 
 Eftirfarandi mynd sýnir dæmi um hvernig á að finna og velja verslanir í valmyndinni **Hefja ferli**.
 
-![Finndu og veldu verslanir í valmyndinni Hefja ferli](media/HQ-Assign-Tasks-Lists.png)
+![Finndu og veldu verslanir í svarglugganum Hefja ferli.](media/HQ-Assign-Tasks-Lists.png)
 
 ## <a name="assign-task-lists-on-a-recurring-basis"></a>Úthlutaðu verkefnalistum endurtekið
 
@@ -67,7 +62,7 @@ Söluaðili hefur stundum endurtekin verkefni, eins og „Gátlista yfir lokun f
 
 Eftirfarandi mynd sýnir dæmi um hvernig á að færa inn tíðniviðmið í valmyndinni **Skilgreina endurtekningu**.
 
-![Tíðniviðmið færð inn í valmyndina Skilgreina endurtekningu](media/HQ-Assign-Tasks-Lists-Recurrently.png)
+![Tíðniviðmið færð inn í svargluggann Skilgreina endurtekningu.](media/HQ-Assign-Tasks-Lists-Recurrently.png)
 
 ## <a name="track-task-list-status"></a>Rekja stöðu verkefnalista
 
@@ -92,3 +87,6 @@ Til að rekja stöðu verkefnalista fyrir öll verk sem er úthluta á þig skal
 [Búa til verkefnalista og bæta við verkum](task-mgmt-create-lists.md)
 
 [Verkstjórnun á sölustað](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

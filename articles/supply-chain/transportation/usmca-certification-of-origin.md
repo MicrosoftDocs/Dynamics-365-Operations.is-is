@@ -2,25 +2,22 @@
 title: USMCA-upprunavottorð
 description: Með þessum eiginleika er hægt að prenta út skjöl áskilins upprunavottorðs samkvæmt samningi Bandaríkjanna, Mexíkó og Kanada (USMCA).
 author: Henrikan
-manager: tfehr
 ms.date: 10/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-23
-ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 2263b3643becedd68911e2325c60ed4d97d6e823
-ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.16
+ms.openlocfilehash: 4d34c1778802baaa0de0506d3dd4bc7efeb13f27
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "4430805"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573058"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA-upprunavottorð
 
@@ -140,3 +137,6 @@ Notandinn sem undirritar vottunina verður að færa inn handvirkt síðufjölda
 ### <a name="page-numbers"></a>Blaðsíðunúmer
 
 Núverandi síða og fjöldi síðna sem prentaðar voru neðst í skjalinu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

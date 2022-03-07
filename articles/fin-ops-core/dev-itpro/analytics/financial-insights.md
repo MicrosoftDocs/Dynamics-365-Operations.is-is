@@ -1,12 +1,10 @@
 ---
-title: Fjármálainnsýn
-description: Fjármálainnsýn notar Microsoft Power BI til að koma saman fjárhagslegum afkastavísum (KPI), gröfum og fjárhagsskýrslum.
+title: Fjármálagreining
+description: Fjármálagreining notar Microsoft Power BI til að koma saman fjárhagslegum afkastavísum (KPI), gröfum og fjárhagsskýrslum.
 author: kweekley
-manager: AnnBe
-ms.date: 05/22/2019
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,20 +14,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682772"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416306"
 ---
-# <a name="financial-insights"></a>Fjármálainnsýn
+# <a name="financial-analysis"></a>Fjármálagreining
 
 [!include [banner](../includes/banner.md)]
 
-**Fjármálainnsýn** notar Microsoft Power BI til að koma saman fjárhagslegum afkastavísum (KPI), gröfum og fjárhagsskýrslum. Power BI er innfellt í forritið. **Fjármálainnsýn** leggur áherslu á greiningarskýrslu. Persónur þvert yfir fyrirtæki geta skoðað, rannsakað, skilið og aðhafst. 
+**Fjármálagreining** notar Microsoft Power BI til að koma saman fjárhagslegum afkastavísum (KPI), gröfum og fjárhagsskýrslum. Power BI er innfellt í forritið. **Fjármálagreining** leggur áherslu á greiningarskýrslu. Persónur þvert yfir fyrirtæki geta skoðað, rannsakað, skilið og aðhafst. 
 
-**Fjármálainnsýn** sameinar gögn frá fjárhag og undirbók til að fá betri heildarmynd af fjárhagslegri heilsu fyrirtækis.
+**Fjármálagreining** sameinar gögn frá fjárhag og undirbók til að fá betri heildarmynd af fjárhagslegri heilsu fyrirtækis.
 
 > [!NOTE]
 > Þetta skjal notar eftirfarandi Power BI hugtök:
@@ -38,14 +36,14 @@ ms.locfileid: "4682772"
 > - **Síða** - Flipi í einni .pbix skrá. Hver síða getur innihaldið eitt eða fleiri myndefni.
 > - **Myndefni** - Stök uppspretta af gögnum, svo sem kort, KPI, graf, fylki eða fjárhagsskýrslu. Síðan sem hefur fjárhagsskýrslu sem myndefni getur ekki haft önnur myndefni vegna stærðar þeirra gagna sem er verið að birta.
 
-Eins og er, er **Fjármálainnsýn** notað til að skoða gögn fyrir annaðhvort virka lögaðila eða alla lögaðila. Í framtíðarútgáfum mun vinnusvæðið þróast í svæði þar sem þú getur notað Power BI til að breyta og búa til myndefni.
+Vinnusvæðið **Fjármálagreining** leggur áherslu á að leyfa þér að sjá og sía gögn um fyrirliggjandi skýrslur. Hægt er að bæta nýjum myndrænum þáttum við vinnusvæðið **Fjármálagreining**. Vinnusvæðið **Fjármálagreining** er í boði fyrir núverandi fyrirtæki ásamt öllum fyrirtækjum til að sýna gögn fyrir alla lögaðila óháð því hvaða hlutverk lögaðilarnir hafa aðgang að.
 
-Vinnusvæði **CFO-yfirlits** sýnir sömu myndefni og **Fjármálainnsýn**, en leggur áherslu á að leyfa þér að skoða og sía gögnin á núverandi skýrslum. Í framtíðarútgáfum muntu geta bætt við nýju myndefni við vinnusvæði **Fjármálainnsýnar**. Nýja myndefnið gæti einnig verið tiltækt á vinnusvæðum sem leggja áherslu á önnur hlutverk, svo sem verkefnastjóra eða stjóra viðskiptaskulda. Vinnusvæði **CFO-yfirlits** heldur áfram að sýna gögn fyrir alla lögaðila, óháð lögaðilunum sem hlutverkið hefur aðgang að.
+- [Bættu við eða breyttu Power BI myndrænum framsetningum á stjórnborðinu þínu](/powerapps-docs/user/add-powerbi-dashboards.md)
 
 ## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance-uppsetning
 **Fjárhagur**
 
-Aðallykilgerðin og aðallyklaflokkar eru notaðir til að fylla í viðeigandi sjálfgefna aðallykla á fjárhagsskýrslu **efnahagsreikningsins** og ýmissa fjárhagsskýrsla **rekstrarreikninga** í **Fjármálainnsýn**.
+Aðallykilgerðin og aðallyklaflokkar eru notaðir til að fylla í viðeigandi sjálfgefna aðallykla á fjárhagsskýrslu **efnahagsreikningsins** og ýmissa fjárhagsskýrsla **rekstrarreikninga** í **Fjármálagreining**.
 
 Á síðu **aðallykils** verður þú að skilgreina aðallykilinn þinn svo að ein af eftirfarandi gerðum verði úthlutað til þín:
 
@@ -57,23 +55,20 @@ Aðallykilgerðin og aðallyklaflokkar eru notaðir til að fylla í viðeigandi
 
 Ekki úthluta aðallyklinum þínum annarri aðallyklagerð, svo sem **Efnahagsreikning** eða **Hagnaður og tap**. Skráning getur ekki ákvarðað gerð aðallykils þegar aðrar aðallyklagerðir eru úthlutaðar vegna þess að þær eru ekki nógu kornóttar. Tegund aðallykils verður að vera ákveðin til að sýna skuldir og tekjur sem jákvæðar upphæðir á fjárhagsskýrslum.
 
-Til að koma fram á fjárhagsskýrslu og vera með í ýmsum öðrum myndefnum, svo sem KPI, verður að úthluta hverjum aðallykli aðallyklategund. Helstu tegundir aðallykla hafa verið endurbættir þannig að þær innihaldi birtingarfyrirmæli. Skjámyndaröðin er notuð sérstaklega á fjárhagsskýrslum í **Fjármálainnsýn**. Eftir að þú hefur breytt eða bætt við nýrri tegund aðallykils getur þú breytt gildi **skjámyndaraðarinnar** til að skilgreina röðina sem tegundir aðallykla ættu að birtast á fjárhagsskýrslu. Ef þú verður að breyta skjámyndaröðinni fyrir margar tegundir aðallykl, geturðu notað Open í Excel til að breyta fljótt og birta breytingarnar aftur í forritið.
+Til að koma fram á fjárhagsskýrslu og vera með í ýmsum öðrum myndefnum, svo sem KPI, verður að úthluta hverjum aðallykli aðallyklategund. Helstu tegundir aðallykla hafa verið endurbættir þannig að þær innihaldi birtingarfyrirmæli. Skjámyndaröðin er notuð sérstaklega á fjárhagsskýrslum í **Fjármálagreiningu**. Eftir að þú hefur breytt eða bætt við nýrri tegund aðallykils getur þú breytt gildi **skjámyndaraðarinnar** til að skilgreina röðina sem tegundir aðallykla ættu að birtast á fjárhagsskýrslu. Ef þú verður að breyta skjámyndaröðinni fyrir margar tegundir aðallykl, geturðu notað Open í Excel til að breyta fljótt og birta breytingarnar aftur í forritið.
 
 ## <a name="entity-store"></a>Einingaverslun
-Gögnin fyrir **Fjármálainnsýn** eru tekin úr einingaversluninni (**Kerfisstjórnun** \> **Uppsetning** \> **Einingaverslun**). Ef þú opnar **CFO-yfirlitið** eða vinnusvæði **Fjármálainnsýnar** og eftirfarandi viðvörunarboð birtast í myndefnunum, verður þú að uppfæra einingarnar.
+Gögnin fyrir **Fjármálagreining** eru tekin úr einingaversluninni (**Kerfisstjórnun** \> **Uppsetning** \> **Einingaverslun**). Ef þú opnar **CFO-yfirlitið** eða vinnusvæði **Fjármálagreining** og eftirfarandi viðvörunarboð birtast í myndefnunum, verður þú að uppfæra einingarnar.
 
-![Viðvörun](./media/Cantdisplay.png)
+![Viðvörun.](./media/Cantdisplay.png)
 
-Þú verður að uppfæra eftirfarandi einingar til að sjá gögn í **Fjármálainnsýn** og vinnsvæði **CFO-yfirlits**:
+Þú verður að uppfæra eftirfarandi einingar til að sjá gögn í **Fjármálagreining** vinnsvæði:
 
-- Færslugögn fjárhagsskýrslugerðar útgáfa 2 (**Athugasemd:** Þetta er nýtt með útgáfu 10.0.1 og tekur við af fyrri einingu.)
-- Færslugögn fjárhagsskýrslugerðar
-- CustCollectionsBIMeasurements
+- Færslugögn fjárhagsskýrslugerðar útgáfa 3 
+- Skuldir og innheimta V2
 - LedgerCovLiquidityMeasurement
 - Innkaupateningur
 - Söluteningur
-
-Í fyrri útgáfunni voru LedgerActivityMeasure og VendPaymentBIMeasure einingarnar notaðar fyrir gögn á vinnusvæði **CFO-yfirlitinu**. Hins vegar eru þær ekki lengur notaðar í núgildandi útgáfu.
 
 Þú getur skilgreint endurtekna runu til að uppfæra reglulega gögnin í einingunum. Þar sem hver eining er endurreist frá grunni á meðan á uppfærslu stendur skal velja tíma og tíðni uppfærslna á einingum vandlega. Aðaleiningin sem er notuð í fjárhagsskýrslum er FinancialReportingTransactionData einingin. Því gætir þú ákveðið að uppfæra þessa einingu oftar.
 
@@ -82,32 +77,31 @@ Eins og er þá er ekki hægt að takmarka innfelldu gögnin í Power BI-skýrsl
 
 | Gjald                                    | Hlutverk | lýsing |
 |-----------------------------------------|-------|------------|
-| Skoða vinnusvæði CFO-yfirlits             | Fjármálastjóri | Þessi skylda veitir aðgang að vinnusvæði CFO-yfirlits. Að sjálfgefnu er að virka fyrirtækið notað sem sía. Þú getur þó bætt við öllum lögaðilum, óháð því hvort notandinn hefur aðgang að hinum lögaðilunum. |
-| Skoða fjármálainnsýn í núgildandi fyrirtæki | <ul><li>Bókhaldari</li><li>Bókhaldsstjóri</li><li>Yfirmaður bókhalds</li><li>Endurskoðandi</li><li>Umsjón með fjárhagsáætlun</li><li>Forstjóri</li><li>Fjármálastjóri</li><li>Fjármálastjóri</li></ul> | Þessi skylda veitir aðgang að Fjármálainnsýn. Að sjálfgefnu er að virka fyrirtækið notað sem sía. Þú getur ekki bætt við öðrum lögaðilum. |
-| Skoða fjármálainnsýn þvert á fyrirtæki   | Í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, er þessari skyldu ekki úthlutað hlutverki. Í næstu útgáfu verður þessari skyldu úthlutað hlutverki fjármálastjóra. | Þessi skylda veitir aðgang að valmyndaratriði fyrir vinnusvæði CFO-yfirlits. Að sjálfgefnu er að virka fyrirtækið notað sem sía. Þú getur þó bætt við öllum lögaðilum, óháð því hvort notandinn hefur aðgang að hinum lögaðilunum. |
+| Skoða fjármálagreiningu í núgildandi fyrirtæki | <ul><li>Bókhaldari</li><li>Bókhaldsstjóri</li><li>Yfirmaður bókhalds</li><li>Endurskoðandi</li><li>Umsjón með fjárhagsáætlun</li><li>Forstjóri</li><li>Fjármálastjóri</li><li>Fjármálastjóri</li></ul> | Þessi skylda veitir aðgang að Fjármálagreiningu. Að sjálfgefnu er að virka fyrirtækið notað sem sía. Þú getur ekki bætt við öðrum lögaðilum. |
+| Skoða fjármálagreining - öll fyrirtæki   | Í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, er þessari skyldu ekki úthlutað hlutverki. Í næstu útgáfu verður þessari skyldu úthlutað hlutverki fjármálastjóra. | Þessi skylda veitir aðgang að valmyndaratriði fyrir vinnusvæði CFO-yfirlits. Að sjálfgefnu er að virka fyrirtækið notað sem sía. Þú getur þó bætt við öllum lögaðilum, óháð því hvort notandinn hefur aðgang að hinum lögaðilunum. |
 
 
-## <a name="financial-reporting-vs-financial-insights"></a>Fjárhagsskýrslugerð vs. fjármálainnsýn
-Þótt **Fjármálainnsýn** innihaldi fjárhagsskýrslur kemur hún ekki í staðinn fyrir fjárhagsskýrslugerð í forritið. Sjálfgefnar fjárhagsskýrslur í **Fjármálainnsýn** eru takmarkaðar að umfangi og innihalda ekki allar gerðir fjárhagsskýrslna. Fjárhagsskýrslugerð er enn aðalverkfærið til að hanna, búa til og stofna lögbundnar fjárhagsskýrslur.
+## <a name="financial-reporting-vs-financial-analysis"></a>Fjárhagsskýrslugerð vs. fjármálagreining
+Þótt **Fjármálagreining** innihaldi fjárhagsskýrslur kemur hún ekki í staðinn fyrir fjárhagsskýrslugerð í forritið. Sjálfgefnar fjárhagsskýrslur í **Fjármálagreining** eru takmarkaðar að umfangi og innihalda ekki allar gerðir fjárhagsskýrslna. Fjárhagsskýrslugerð er enn aðalverkfærið til að hanna, búa til og stofna lögbundnar fjárhagsskýrslur.
 
 Eftirfarandi samanburðargraf auðveldar aðgreiningu á valkostunum tveimur:
 
 
-|                                                          | Fjárhagsskýrslugerð                                               | Fjármálainnsýn |
+| Eiginleiki                                                   | Financial Reporting                                               | Fjárhagsgreining |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
-| **Breyta sjálfgefnum skýrslum**                                 | Já                                                               | Númer |
-| **Búa til nýjar skýrslur**                                   | Já                                                               | Númer |
-| **Prenta skýrslur**                                        | Já                                                               | Númer |
+| **Breyta sjálfgefnum skýrslum**                                 | Já                                                               | Nei |
+| **Búa til nýjar skýrslur**                                   | Já                                                               | Nei |
+| **Prenta skýrslur**                                        | Já                                                               | Nei |
 | **Flytja út í Excel**                                      | Já                                                               | Takmarkaður útflutningur hrágagna til Excel, ekki forsniðin skýrsla |
-| **Stuðningur við stigveldi skýrslugerðar/stigveldi fyrirtækis**   | Já                                                               | Númer |
+| **Stuðningur við stigveldi skýrslugerðar/stigveldi fyrirtækis**   | Já                                                               | Nei |
 | **Skýrsla um gögn undirbókar**                             | Já Takmarkast aðeins við lánardrottin, viðskiptavin                              | Já Lánardrottinn, viðskiptavinur, flokkur lánardrottins/viðskiptavinar, aðsetur lánardrottins/viðskiptavinar, o.s.frv. |
 | **Skýrslugjaldmiðill**                                   | Já Bókhaldsgjaldmiðill og þýða yfir í skýrslugjaldmiðil       | Nei Bókhaldsgjaldmiðill eingöngu |
 | **Öryggi**                                             | Já Fylgir Finance öryggi skipurits | Takmarkað Skoða skýrslur fyrir öll fyrirtæki (óháð öryggi Finance and Operations) eða aðeins virkt fyrirtæki |
-| **Stuðningur við mismunandi bókhaldslykla og fjárhagsár** | Já                                                               | Númer |
-| **skýrsla um ytri gögn**                              | Númer                                                                | Númer |
+| **Stuðningur við mismunandi bókhaldslykla og fjárhagsár** | Já                                                               | Nei |
+| **skýrsla um ytri gögn**                              | Nei                                                                | Nei |
 | **Stuðningur við samsteypur**                               | Já                                                               | Takmarkað Getur greint frá mörgum fyrirtækjum en aðeins notað bókhaldsgjaldmiðil |
 
-Ásamt notendaviðmótinu á upprunalega vinnusvæði **CFO-yfirlits** eru nýir afkastavísar, gröf og fjárhagsskýrslur í boði. Eftirfarandi fjárhagsskýrslur eru í boði:
+Eftirfarandi fjárhagsskýrslur eru í boði:
 
 - Prófjöfnuður
 - Efnahagsreikningur
@@ -120,7 +114,7 @@ Eftirfarandi samanburðargraf auðveldar aðgreiningu á valkostunum tveimur:
 - Sala eftir viðskiptavini
 
 ## <a name="edit-visuals"></a>Breyta myndrænum þáttum
-Í upphaflegri útgáfu á **Fjármálainnsýn** er ekki hægt að breyta myndrænum þáttum. Í næstu útgáfum munu notendur sem hafa viðeigandi öryggi geta búið til nýtt myndefni, afritað núverandi myndefni og breytt myndefni. Þó að .pbix skrár sem innihalda skýrslurnar séu tiltækar sem tilföng mælum við með því að þú breytir ekki sjálfgefnum skýrslum. Viðbótarupplýsingar um breytingar verða gerðar á gagnalíkaninu, sjálfgefnum skýrslum og sérsniðnum fjárhagsskýrslum sem eru notaðar til að búa til fjárhagsskýrslur. Til þess að nýta nýjar aðgerðir og breytingar á gagnalíkaninu í næstu útgáfu verður þú að endurtaka allar breytingar sem þú gerðir á sjálfgefnum skýrslum með Microsoft Power BI Desktop.
+Í fyrri útgáfum **fjárhagsgreininga** var ekki hægt að breyta neinu myndefni. Í næstu útgáfum munu notendur sem hafa viðeigandi öryggi geta búið til nýtt myndefni, afritað núverandi myndefni og breytt myndefni. Þó að .pbix skrár sem innihalda skýrslurnar séu tiltækar sem tilföng mælum við með því að þú breytir ekki sjálfgefnum skýrslum. Viðbótarupplýsingar um breytingar verða gerðar á gagnalíkaninu, sjálfgefnum skýrslum og sérsniðnum fjárhagsskýrslum sem eru notaðar til að búa til fjárhagsskýrslur. Til þess að nýta nýjar aðgerðir og breytingar á gagnalíkaninu í næstu útgáfu verður þú að endurtaka allar breytingar sem þú gerðir á sjálfgefnum skýrslum með Microsoft Power BI Desktop.
 
 ## <a name="filtering"></a>Afmörkun
 Notendur geta afmarkað skýrsluna með því að nota **Síu** gluggann til vinstri. Þessi gluggi er sami glugginn og er í boði í gegnum Power BI Desktop. Það eru mismunandi stig afmörkunar, sum þeirra eru kannski ekki í boði, fer allt eftir því sem þú hefur valið á síðu (flipa) eða hvort þú notar köfunarmöguleikann:
@@ -130,7 +124,7 @@ Notendur geta afmarkað skýrsluna með því að nota **Síu** gluggann til vin
 - **Síur á myndrænu stigi** - Þessar síur eru aðeins notaðar á valið myndefni. Þessar síur eru notaðar ofan á síur á síðustigi.
 - **Köfunarsía** - Þessi sía afmarkar "uppsprettu" myndefnis sem er beitt á núgildandi myndefni þegar þú kafar frá uppsprettu myndefnisins til núverandi myndefnis.
 
-![Síuvalkostir](./media/filter.png)
+![Síuvalkostir.](./media/filter.png)
 
 Til að fjarlægja tiltekið síugildi velurðu strokleðurtáknið við hliðina á því. Ekki fjarlægja síu með því að velja X. Ef þú velur X verður svæðið sem þú ert að sía á fjarlægt sem síuvalkostur. Ef þú fjarlægir óvart svæði frá síunni skaltu loka vinnusvæðinu og opna það síðan aftur. Sjálfgefnar stillingar síu verða aftur settar á.
 
@@ -167,7 +161,7 @@ Eftirfarandi víddir eru notaðar á sjálfgefnum skýrslum. Ekkert af þessum v
 - Póststöð
 
 > [!IMPORTANT] 
-> Ef þú tekur saman færslur fyrir marga lánardrottna eða viðskiptavini í einu fylgiskjali með því að nota fjárhagsfærslubækur, verða gögnin ekki rétt. Skráning getur ekki ákvarðað hvaða lánardrottinn eða viðskiptavinur tengist tilteknum fjárhagslykli í bókarfærslu vegna þess að þessum upplýsingum er ekki viðhaldið hvar sem er. Þess vegna mælum við ekki með því að þú sláir inn marga lánardrottna, eignir eða verk í eitt fylgiskjal.
+> Ef þú tekur saman færslur fyrir marga lánardrottna eða viðskiptavini í einu fylgiskjali með því að nota fjárhagsfærslubækur, verða gögnin ekki rétt. Skráningarferli getur ekki ákvarðað hvaða lánardrottinn eða viðskiptavinur tengist tilteknum fjárhagslykli í bókarfærslu vegna þess að þessum upplýsingum er ekki viðhaldið hvar sem er. Þess vegna mælum við ekki með því að þú sláir inn marga lánardrottna, eignir eða verk í eitt fylgiskjal.
 
 ## <a name="drill-on-data"></a>Bora í gögn
 
@@ -175,25 +169,25 @@ Mismunandi stig borunar eru í boði í gegnum Power BI. Hvert stig hefur annað
 
 Í eftirfarandi myndum er yfirlýsing **Prófjafnaðar** dregin saman í hæsta stigveldi línunnar, aðalyklagerðina.
 
-![Yfirlýsing um prófjöfnuð](./media/trial-balance.png)
+![Yfirlýsing um prófjöfnuð.](./media/trial-balance.png)
 
 Til að skoða næsta stig stigveldisins, tegundir aðallykla, getur þú stillt **Kafa í** reitinn sem **Línur** og valið síðan **Stækka** hnappinn (þriðji hnappurinn eftir Kafa í reitinn). Þú sérð nú allar helstu tegundir aðallykla stækkaðar. Eins og er leyfir Power BI þér ekki að stækka aðeins eina línu eða dálk en sjá samt allar aðrar línur eða dálka.
 
-![Prófjöfnuður kafað niður á línur](./media/trial-balance2.png)
+![Prófjöfnuður kafað niður á línur.](./media/trial-balance2.png)
 
 Til að víkka út til aðallykla allra línanna geturðu aftur notað **Stækka** hnappinn. Hins vegar, til að bora niður í aðallyklana fyrir aðeins eina línu skaltu fyrst velja **Bora í** hnappinn (staka örin sem bendir niður hægra megin í glugganum) og veldu síðan línuna til að bora niður í. Eftirfarandi mynd sýnir niðurstöðurnar þegar línan **Sölur** er valin eftir að **Bora niður** hnappurinn hefur verið valinn.
 
-![Útvíkkunarhnappur prófjöfnuðar](./media/trial-balance3.png)
+![Útvíkkunarhnappur prófjöfnuðar.](./media/trial-balance3.png)
 
 Eftir að þú hefur borað niður í einni línu þarf að smella oft til að fara aftur í fullan prófjöfnuð. **Kafa upp** hnappurinn (fyrsti hnappurinn eftir **Kafa** í svæði) kafar aðeins upp í samhengi við **Sölu** flokkinn, eins og sýnt er á eftirfarandi mynd.
 
-![Hnappur til að kafa upp á prófjöfnuð](./media/trial-balance4.png)
+![Hnappur til að kafa upp á prófjöfnuð.](./media/trial-balance4.png)
 
 Þú getur haldið áfram að nota **Kafa upp** hnappinn til að fara aftur á hæsta stigi samantektar í línum.
 
 Power BI hefur einnig hnapp sem leyfir þér að fara á næsta stig í stigveldinu (seinni hnappurinn eftir **Kafa niður** reitinn). Áhrif þessa hnapps eru frábrugðin áhrifum **Stækka** hnappsins (þriðja hnappurinn eftir **Kafa í** reitinn), sem er notaður til að stækka stigveldið. Þegar þú dregur út stigveldið er stigveldinu viðhaldið í skýrslunni. Til dæmis, eins og sýnt var áður, ef dregur út aðallyklagerðina, sérðu enn helstu aðallyklagerðir í skýrslunni. Hins vegar, þegar þú ferð á næsta stig í stigveldinu, sýnir skýrslan ekki lengur yfireininguna í stigveldinu, eins og sýnt er í eftirfarandi mynd.
 
-![Prófjöfnuður kafað aftur](./media/trial-balance5.png)
+![Prófjöfnuður kafað aftur.](./media/trial-balance5.png)
 
 Til að sjá færsluupplýsingar um samanteknar stöður á bak, getur þú valið sumar fjárhæðir til að bora aftur í Financial and Operations.
 
@@ -232,7 +226,7 @@ Eins og er styðja fjárhagsskýrslurnar ekki stigveldi fyrirtækis, sem gerir �
 ## <a name="data-limitations"></a>Takmarkanir á gögnum
 Myndefni fjárhagsskýrslna hefur takmörk á fjölda lína sem hægt er að sýna. Nú er hámarkið stillt á 30.000. Ef þú ert yfir þessum mörkum mun myndefnið sýna viðvörunartákn til að tilkynna þér um þetta ástand.
 
-![Takmarkanir á gögnum](./media/data-limit.png)
+![Takmarkanir á gögnum.](./media/data-limit.png)
 
 Ef farið er yfir hámarkið verða samtölurnar sem birtast í fjárhagsskýrslunni rangar, því ekki voru allar línurnar hlaðnir inn í myndefnið.
 
@@ -242,8 +236,11 @@ Power BI veitir ekki möguleika á að fela og sýna tómar línur. Ef lína er 
 
 ## <a name="additional-resources-for-power-bi"></a>Frekari tilföng fyrir Power BI
 
-Upplýsingarnar í eftirfarandi tilföngum eru ekki nauðsynlegar til að virkja innfelldar skýrslur fyrir vinnusvæðið **CFO-yfirlit** eða **Fjármálainnsýn** í vinnsluumhverfi. Þess í stað eru þær gagnlegar fyrir dev box og ef þú vilt fella inn þínar eigin Power BI-skýrslur.
+Upplýsingarnar í eftirfarandi tilföngum eru ekki nauðsynlegar til að virkja innfelldar skýrslur fyrir vinnusvæðið **Fjármálagreining** í vinnsluumhverfi. Þess í stað eru þær gagnlegar fyrir dev box og ef þú vilt fella inn þínar eigin Power BI-skýrslur.
 
-- [Aðgangur að Greiningarvinnusvæðum og skýrslum um 1-kassaumhverfi](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
+- [Aðgangur að Greiningarvinnusvæðum og skýrslum um 1-kassaumhverfi](/archive/blogs/dynamicsaxbi/accessing-analytical-workspaces-on-1box-environment)
 
-- [Bæta greiningu við vinnusvæði með Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+- [Bæta greiningu við vinnusvæði með Power BI Embedded](/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

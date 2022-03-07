@@ -2,28 +2,25 @@
 title: Setja upp afsláttarmiða fyrir smásölu
 description: Þetta efnisatriði gefur yfirlit yfir afsláttarmiða og útskýrir hvernig á að setja þá upp.
 author: scott-tucker
-manager: AnnBe
 ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9d8b9977d733c87566249bcb9658b80c4350c17d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413088"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792026"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Setja upp afsláttarmiða fyrir smásölu
 
@@ -82,3 +79,6 @@ Virkni afsláttarmiða samanstendur af mörgum ólíkum eiginleikum. Commerce-h�
 - **HQ er uppfært að hluta en Commerce Scale Unit og sölustaður eru ekki uppfærðir.** Í uppfærslu á HQ er afsláttarmiði og afsláttarsíða uppfærð og viðskiptaverðskerfið er einnig uppfært. Ef aðeins einn af þessum þáttum er uppfærður munu sumar síður í Commerce ekki passa við gögn um verðútreikninga. Þar af leiðandi gætu óvæntir útreikningar á afsláttum eða villur komið upp við útreikning á afsláttum.
 - **HQ er uppfært en Commerce Scale Unit og sölustaður eru ekki uppfærðir (N-1).** Þar sem ekki er hægt að uppfæra allar verslanir samtímis mælum við með því að þú uppfærir HQ áður en verslanir eru uppfærðar. Í atburðarás N-1 verður ný virkni sem er tengd afsláttarmiðum ekki tiltæk í verslunum sem hafa ekki verið uppfærðar. Til dæmis kynnir virkni afsláttarmiða til sögunnar „útiloka“ línur. Ef þú útilokar línur í afslætti eru þær ekki notaðar í verslun sem notast við eldri útgáfu.
 - **HQ er ekki uppfært en Commerce Scale Unit og sölustaður eru uppfærðir (N+1).** Þar sem uppfært verðkerfi í Commerce Scale Unit getur höndlað eldri afsláttarmiðakóða í verðútreikningi ætti uppfærslan ekki að hafa nein áhrif á virkni í þessu tilfelli.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

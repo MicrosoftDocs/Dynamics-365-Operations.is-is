@@ -1,67 +1,77 @@
 ---
 title: Þróa og opna tilkynningar um lausar stöður
 description: Ráðningarverk hjálpa til við að stjórna ráðningarferlið.
-author: andreabichsel
-manager: AnnBe
-ms.date: 08/29/2018
+author: twheeloc
+ms.date: 01/10/2022
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22437599ce8643de67c922f6f2392a0c8da94648
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 4e3287fc824f2f7eb725b11c990a1c457d45439f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797979"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075150"
 ---
 # <a name="develop-and-open-job-requisition"></a>Þróa og opna tilkynningar um lausar stöður
 
 [!include [banner](../../includes/banner.md)]
 
-Ráðningarverk hjálpa til við að stjórna ráðningarferlið. Fyrir hvert ráðningarverk, getur þú sett upp upplýsingar, svo sem verk sem ráðningu er fyrir, nafn ráðningaraðila, stöðu verkefnisins og deild sem starfið verður staðsett í. Eftir stofnun ráðningarverks, er hægt skrifa atvinnuauglýsingu fyrir verkið, birta auglýsinguna í sjálfsafgreiðslusíðum Starfsmanna, tengja starfsumsóknir við verkið og rekja aðgerðir fyrir verkið. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Til að hefja ferlið, farið í Mannauður > Ráðningar > Ráðningarverk > Ráðningarverk
+> [!IMPORTANT]
+> Virknin sem bent er á í þessu efnisatriði er eins og er í boði fyrir mannauðsviðskiptavini á fjármálainnviðum.  
 
-1. Smellið á „Nýtt“.
-2. Í svæðinu ráðningarverk, færið inn gildi.
-3. Sláið inn gildi í reitnum „Lýsing“.
-4. Í reitnum Ráðningaraðili skal smella á fellilistahnappinn til að opna leitina.
-5. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-6. Í listanum skal smella á tengilinn í valinni línu.
-7. Smellið á Velja.
-8. Í reitnum Deild skal smella á fellilistahnappinn til að opna leitina.
-9. Í listanum skal smella á tengilinn í valinni línu.
-10. Í reitnum Starf skal smella á fellilistahnappinn til að opna leitina.
-11. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-12. Í listanum skal smella á tengilinn í valinni línu.
-13. Í svæðinu Fjölda opnana skal færa inn tölu.
-14. Í reitnum Ráðningarstjóri skal smella á fellilistahnappinn til að opna leitina.
-15. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-16. Í listanum skal smella á tengilinn í valinni línu.
-17. Smellið á Velja.
-18. Færa inn dagsetningu í svæði umsóknarfrestur.
-19. Smellt er á Miðlar.
-    * Ráðningarverk með valkost til að tilgreina miðla sem nota á til að auglýsa opnar stöður.  
-20. Smellið á „Nýtt“.
-21. Í reitnum Miðlunarefni skal smella á fellilistahnappinn til að opna leitina.
-22. Í listanum skal smella á tengilinn í valinni línu.
-23. Dagsetning er rituð í reitinn Upphafsdagur.
-24. Dagsetning er rituð í reitinn Lokadagur.
-25. Smellið á „Vista“.
-26. Lokið síðunni.
-27. Smellt er á starfsauglýsingar.
-28. Smellið á „Vista“.
-29. Lokið síðunni.
-30. Merkja eða afmerkja gátreitinn Birta á sjálfsafgreiðsla starfsmanns.
-    * Velja gátreitinn Sýna á sjálfsafgreiðslu starfsmanns til að gera ráðningarverkið sýnileg starfsmönnum á þeirra sjálfsafgreiðslusíðum Starfsmanna.  
-31. Smellt er á Staða ráðningarverks.
-32. Smellið á „Byrja“.
-    * Stöðuna Byrjað merkir að verkið sé tilbúin til að fá umsóknir.  
-33. Smellið á „Í lagi“.
 
+Ráðningarverk hjálpa til við að stjórna ráðningarferlið. Fyrir hvert ráðningarverkefni er hægt að setja upp upplýsingar eins og starfið sem ráðið er í, nafn ráðningaraðila, stöðu verkefnisins og deild þar sem starfið verður staðsett. Eftir að þú hefur búið til ráðningarverkefni geturðu skrifað atvinnuauglýsingu fyrir það, birt auglýsinguna á **Sjálfsafgreiðsla starfsmanna** síðu, tengja umsóknir um ráðningu við verkefnið og fylgjast með starfsemi þess verkefnis. The **USMF** kynningargagnafyrirtæki var notað til að búa til þessa aðferð.
+
+1. Fara til **Mannauður \> Ráðningar \> Ráðningarverkefni \> Ráðningarverkefni**.
+2. Veljið **Nýtt**.
+3. Í reitinn **Ráðningarverk** skal slá inn gildi.
+4. Sláið inn gildi í reitnum **Lýsing**.
+5. Í **Ráðunautur** reit, veldu felliörina til að opna leitina.
+6. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+7. Í listanum skal velja tengilinn í valinni línu.
+8. Veljið **Velja**.
+9. Í **deild** reit, veldu felliörina til að opna leitina.
+10. Í listanum skal velja tengilinn í valinni línu.
+11. Í **Job** reit, veldu felliörina til að opna leitina.
+12. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+13. Í listanum skal velja tengilinn í valinni línu.
+14. Í **Fjöldi opna** reit, sláðu inn númer.
+15. Í **Ráðningarstjóri** reit, veldu felliörina til að opna leitina.
+16. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+17. Í listanum skal velja tengilinn í valinni línu.
+18. Veljið **Velja**.
+19. Færa inn dagsetningu í svæði **umsóknarfrestur**.
+20. Velja **miðil**.
+
+    Ráðningarverkefni fela í sér möguleika á að tilgreina fjölmiðla sem verða notaðir til að auglýsa lausar stöður.
+
+21. Veljið **Nýtt**.
+22. Í **Fjölmiðlar** reit, veldu felliörina til að opna leitina.
+23. Í listanum skal velja tengilinn í valinni línu.
+24. í reitinn **Upphafsdagur** skal færa inn dagsetningu.
+25. í reitinn **Lokadagur** skal rita dagsetningu.
+26. Veljið **Vista**.
+27. Lokið síðunni.
+28. Veldu **Atvinnuauglýsingar**.
+29. Veldu **Vista**.
+30. Lokið síðunni.
+31. Veldu eða hreinsaðu **Birting á sjálfsafgreiðslu starfsmanna** gátreit.
+
+    Veljið gátreitinn til að gera ráðningarverkefnið sýnilegt starfsmönnum á þeirra **Sjálfsafgreiðsla starfsmanna** síðu.
+
+32. Veldu **Ráðningarverkefni** stöðu.
+33. Velja **Ræsa**.
+
+    The **Byrjað** staða gefur til kynna að verkefnið sé tilbúið til að taka á móti umsóknum.
+
+34. Veldu **Í lagi**.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

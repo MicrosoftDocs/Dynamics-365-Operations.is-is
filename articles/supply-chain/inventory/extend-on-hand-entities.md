@@ -1,32 +1,29 @@
 ---
 title: Framlengja gagnaeiningar tiltækra birgða
 description: Í þessu efnisatriði er að finna dæmi sem sýnir hvernig á að bæta stækkuðum reitum við yfirlit INVENTORSITEONHANDENTITY and INVENTWAREHOUSEONHANDENTITY þannig að möguleikar gagnaeininga lagerbirgða geti virkað með stækkuninni.
-author: sherry-zheng
-manager: tfehr
+author: yufeihuang
 ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2020-07-27
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3bf3a7d48b0aa3e48845882be0ee86da17ed040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 8161d951c3296b63476c4e7b527efca163a4f4b3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430404"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577697"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>Framlengja gagnaeiningar tiltækra birgða
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management býður upp á eiginleika [stækkunarhæfni](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) sem gera kleift að [bæta reitum við töflur í gegnum stækkun](../../fin-ops-core/dev-itpro/extensibility/add-field-extension). Í þessu efnisatriði er að finna dæmi sem sýnir hvernig á að bæta stækkuðum reitum við yfirlit `INVENTORSITEONHANDENTITY` og `INVENTWAREHOUSEONHANDENTITY` þannig að möguleikar gagnaeininga lagerbirgða geti virkað með stækkuninni. Frekari upplýsingar um gagnaeiningar er að finna í [Yfirlit gagnastjórnunar](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
+Microsoft Dynamics 365 Supply Chain Management býður upp á eiginleika [stækkunarhæfni](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) sem gera kleift að [bæta reitum við töflur í gegnum stækkun](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md). Í þessu efnisatriði er að finna dæmi sem sýnir hvernig á að bæta stækkuðum reitum við yfirlit `INVENTORSITEONHANDENTITY` og `INVENTWAREHOUSEONHANDENTITY` þannig að möguleikar gagnaeininga lagerbirgða geti virkað með stækkuninni. Frekari upplýsingar um gagnaeiningar er að finna í [Yfirlit gagnastjórnunar](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 > [!NOTE]
 > Hér er listi yfir sumar gagnaeiningar lagerbirgðanna:
@@ -69,3 +66,6 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 Eftir að þessum skrefum er lokið er hægt að stækka gagnaeiningarnar fyrir birgðir á lager eftir svæði og birgðir á lager eftir vöruhúsi með því að bæta nýju reitunum við. Á þennan hátt er tryggt að stækkuðu reitirnir verði þekktir og hafðir með við gagnaflutning sem notar þessar gagnaeiningar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

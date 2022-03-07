@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 02/10/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42a6fbdad19db3c85509078c9f7549a6397f93fc
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 1789818ae1d12ec71f9475113bd3684a589e9e3b
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797260"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5563921"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Ráða fyrirliggjandi starfsmenn gegnum ráðningarferli
 
@@ -40,3 +39,6 @@ Stundum er hægt að manna lausar stöður með umsækjendur sem eru nú þegar 
 9. Smellt er á Breyta stöðu.
     * Einnig má breyta launum á þessum tíma. Ef laun fyrir á þessum tíma er ekki úthlutað, er hægt að breyta þeim með því að fara í skjámynd starfsmanns, velja flipa "laun" og velja 'Föst Áætlun'. Eftir að þú velja 'Breyting á stöðu', er staða á umsókninni uppfærð í í ‚Ráðinn'.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

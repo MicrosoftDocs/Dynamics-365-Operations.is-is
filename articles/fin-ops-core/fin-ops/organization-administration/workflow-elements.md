@@ -2,11 +2,9 @@
 title: Verkflæðiseiningar
 description: Þetta efnisatriði lýsir hinum ýmsu þáttum sem verkflæði samanstendur af.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b259d733076193cda793a227bd0bb71c232339d1
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: e9491b8ee6da69ba93c830bf0721c1d58fd4385b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797577"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070451"
 ---
 # <a name="workflow-elements"></a>Verkflæðiseiningar
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Þetta efnisatriði lýsir hinum ýmsu þáttum sem verkflæði samanstendur af.
 
@@ -62,7 +63,7 @@ Verkflæði samanstendur af einingum. Eftirfarandi hlutar útskýra hverja einin
 
 Hægt er að stofna verkflæði til að vinna annað hvort úr skjölum eða línuvörum á skjali. Til dæmis hefur verið stofnað samþykkisverkflæði fyrir vinnukort. (Vísað verður í þetta verkflæði sem *skjalaverkflæði*.) Hægt er að bæta við einingunni *verkflæði línuatriðis* í þetta skjalaverkflæði. Þegar eining línuatriðis er keyrt, er hvert línuatriði á skjalinu sent til vinnslu. Þú gætir viljað að öll línuatriðin séu innin með sama verkflæði línuatriðis eða þú gætir viljað láta vinna hvert línuatriði af mismunandi verkflæði línuvöru. Hugsum hafi starfsmaður hefur senda vinnukort sem svipar eftirfarandi tala.
 
-![Verkflæði með línuatriði](./media/workflow_lineitemworkflow.gif)
+![Verkflæði með línuatriðum.](./media/workflow_lineitemworkflow.gif)
 
 Í þessum aðstæðum gætirðu viljað stofna eftirfarandi verkflæði línuatriðis:
 
@@ -89,3 +90,6 @@ Eftirfarandi einingar gera þér kleift að hanna verkflæði sem hafa aðrar gr
 ### <a name="subworkflow"></a>Undirverkflæði
 
 *Undirverkflæði* er verkflæði sem keirir í samhengi við annað yfirverkflæði.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,37 +2,35 @@
 title: Setja upp tæki til að keyra viðmót fyrir framkvæmd á framleiðslugólfi
 description: Keyrsluviðmót framleiðslugólfsins er sett upp fyrir sérhvert tæki á framleiðslugólfinu. Fyrirtæki setja venjulega upp hvert tæki á sinn hátt, fer allt eftir því hvaða tilgangi tækið þjónar. Til dæmis gæti fyrirtæki verið með eitt tæki á móttökusvæðinu, þar sem starfsmenn stimpla sig inn og út og annað í vinnusal, þar sem starfsmenn hafa umsjón með störfum sínum.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecution, HcmWorker, JmgProductionFloorExecutionDeviceConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: f0be79b54a279893f93d41981342e42c8880f059
+ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966280"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752833"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Setja upp tæki til að keyra viðmót fyrir framkvæmd á framleiðslugólfi
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Keyrsluviðmót framleiðslugólfsins er sett upp fyrir sérhvert tæki á framleiðslugólfinu. Fyrirtæki setja venjulega upp hvert tæki á sinn hátt, fer allt eftir því hvaða tilgangi tækið þjónar. Til dæmis gæti fyrirtæki verið með eitt tæki á móttökusvæðinu, þar sem starfsmenn stimpla sig inn og út og annað í vinnusal, þar sem starfsmenn hafa umsjón með störfum sínum.
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Stilla skilgreiningu og síur fyrir tiltekið tæki
 
-Til að stilla skilgreiningu og vinnusíur fyrir tæki þarf að skrá sig inn á síðuna **Keyrsla framleiðslugólfs** með því að nota reikning sem er með öryggishlutverk sem inniheldur aðgangsheimildina *Vinna með tímastjórnun*. (Á meðal tilbúnu öryggishlutverkanna, þá hefur aðeins *Umsjónarmaður vinnusalar* þessa aðgangsheimild.) Síðan skal fylgja þessum skrefum.
+Til að stilla stillingar og vinnusíur fyrir tæki skaltu skrá þig inn á **Framleiðslugólf framkvæmd** síðu með því að nota reikning sem hefur öryggishlutverk sem inniheldur *Halda tímaeftirliti* skylda. (Á meðal tilbúnu öryggishlutverkanna, þá hefur aðeins *Umsjónarmaður vinnusalar* þessa aðgangsheimild.) Síðan skal fylgja þessum skrefum.
 
-1. Farið í tækið sem á að setja upp og skráið ykkur inn í Microsoft Dynamics 365 Supply Chain Management sem umsjónarmaður vinnusalar. (Notið reikning sem inniheldur aðgangsheimildina *Vinna með tímastjórnun*.)
+1. Farið í tækið sem á að setja upp og skráið ykkur inn í Microsoft Dynamics 365 Supply Chain Management sem umsjónarmaður vinnusalar. (Notaðu reikning sem inniheldur *Halda tímaeftirliti* skylda.)
 1. Ganga skal úr skugga um að skilgreining sé tiltæk fyrir tækið sem verið er að setja upp. Ef engin skilgreining er þegar til er sjálfgefin skilgreining gefin upp. Frekari upplýsingar um hvernig setja á upp skilgreiningu er að finna í [Skilgreina keyrsluviðmót framleiðslugólfs](production-floor-execution-configure.md).
 1. Farið í **Framleiðslustýring \> Framkvæmd framleiðslu \> Framkvæmd á framleiðslugólfi**.
 
@@ -72,10 +70,13 @@ Oft er keyrsluviðmót framleiðslugólfs keyrt á tæki sem er notað eingöngu
 
 Efri hluti eftirfarandi myndar sýnir hvernig viðmótið lítur út að sjálfgefnu. Neðri hlutinn sýnir hvernig það lítur út á öllum skjánum þegar yfirlitssvæðið er falið.
 
-![Hefðbundið viðmót í samanburði við heilan skjá](media/pfei-full-screen.png "Hefðbundið viðmót í samanburði við heilan skjá")
+![Hefðbundið viðmót í samanburði við heilan skjá.](media/pfei-full-screen.png "Hefðbundið viðmót í samanburði við heilan skjá")
 
 ## <a name="extend-the-session-past-12-hours"></a>Lengja lotuna fram yfir 12 klukkustundir
 
 Að sjálfgefnu mun keyrsluviðmót framleiðslugólfs sjálfkrafa skrá sig út ef enginn notar það í 12 klukkustundir. Notandi Supply Chain Management verður þá að skrá sig inn aftur. Hins vegar er hægt að lengja tímamörkin upp í allt að 90 daga.
 
 Til að lengja tímamörkin skal skrá sig inn í Supply Chain Management og fara í **Kerfisstjórnun \> Notendur \> Lengingar á lotu**. Tilgreinið notandareikning Supply Chain Management sem er notaður til að skrá sig inn í tækið og fjölda klukkustunda sem lotan á að vera virk í.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

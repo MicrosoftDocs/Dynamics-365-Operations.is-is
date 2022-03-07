@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: d839ed861a24f6ef7267c85e942c275586b4a8c4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103864"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565097"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Hreinsunarvinnsla lagerbirgðafærslna vöruhúsakerfis
 
@@ -58,7 +58,10 @@ Hins vegar ættu frammistöðuúrbætur sem hreinsunarstarf býður upp að vega
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Gera stillingu hámarkskeyrslutíma tiltæka
 
-The **Hámarks framkvæmdartími** stillingin er aðeins tiltæk þegar *Hámarksframkvæmdartími fyrir hreinsunarvinnu fyrir vöruhúsastjórnun fyrir færslur* kveikt er á eiginleikanum. Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Hámarksframkvæmdartími fyrir hreinsunarvinnu fyrir vöruhúsastjórnun fyrir færslur* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Sjálfgefið er að stillingin **Hámarkskeyrslutími** sé ekki í boði. Ef ætlunin er að nota hann þarf að nota [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á tengdum eiginleika í kerfinu. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+
+- **Eining:** *Vöruhúsakerfi*
+- **Heiti eiginleika:** *Hámarkskeyrslutími á hreinsunarvinnslu lagerbirgðafærslna vöruhúsakerfis*
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

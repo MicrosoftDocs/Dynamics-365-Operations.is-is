@@ -1,55 +1,54 @@
 ---
 title: Nýjungar eða breytingar í Dynamics 365 Human Resources (06. ágúst 2020)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 6. ágúst 2020.
-author: darinkramer
-manager: AnnBe
-ms.date: 8/06/2020
+author: andreabichsel
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 94ec9b44e21715363116427839badacd14a3d6f8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: dbcf854330b7c5ba6ca812a5aed384584c05ce8d
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528426"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062187"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources (06. ágúst 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Human Resources. Breytingar eiga við um byggingarnúmer 8.1.3444. Tölurnar í sviga í sumum fyrirsögnum vísa til stuðningsnúmera LCS fyrir tilvísun.
 
 ## <a name="platform-update-1001236-is-now-available"></a>Verkvangsuppfærsla 10.0.12(36) er nú í boði
 
-Frekari upplýsingar er að finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.12 fyrir Finance and Operations-forrit (ágúst 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12).
+Fyrir frekari upplýsingar, sjá [Palluppfærslur fyrir útgáfu 10.0.12 af Finance and Operations forritum (ágúst 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Einingar gagnastjórnunarramma (DMF) fyrir fríðindastjórnun
  
 Einingar fríðindastjórnunar eru að gefa út. DMF-einingar leyfa innflutning og útflutning gagna til að skilgreina fríðindastjórnun á auðveldan hátt. Sniðmát fríðindastjórnunar verður í boði til að flytja gögn. Sniðmátið flytur út og flytur inn gögnin í ákveðinni röð til að virða gagnatengsl. Frekari upplýsingar má finna á
 
-- [Stuðningur DMF-einingu](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) í Dynamics 365 2020 útgáfutímabilsáætlun 1
-- [Yfirlit gagnastjórnunar](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
+- [Stuðningur DMF-einingu](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) í Dynamics 365 2020 útgáfutímabilsáætlun 1
+- [Yfirlit gagnastjórnunar](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
 
 
 ## <a name="claire-creates-a-workflow-for-buying-and-selling-leave-requests-446557"></a>Claire stofnar verkflæði fyrir kaup og sölur á leyfisbeiðnum (446557)
 
 Frekari upplýsingar má finna á
 
-- [Leyfa starfsmönnum að kaupa og selja leyfi](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) í Dynamics 365 2020 útgáfutímabilsáætlun 2
-- [Stjórna reglum fyrir kaup og sölu á leyfisdögum](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [Kaupa og selja leyfisdaga](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- [Leyfa starfsmönnum að kaupa og selja leyfi](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) í Dynamics 365 2020 útgáfutímabilsáætlun 2
+- [Stjórna reglum fyrir kaup og sölu á leyfisdögum](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [Kaupa og selja leyfisdaga](./hr-employee-self-service-buy-sell-leave.md)
 
 
 ## <a name="worker-postal-addresses-v2-entity-has-access-across-legal-entities-with-restricted-access-459126"></a>Póstfangseining starfsmann V2 er með aðgang að lögaðilum með takmarkaðan aðgang (459126)
@@ -62,7 +61,7 @@ Með þessari breytingu mun einingin **Póstfang starfsmanns V2** takmarka samkv
 
 ## <a name="new-entities-for-buying-and-selling-leave-473180"></a>Nýjar einingar fyrir kaup og sölu leyfis (473180)
 
-Rammaeiningar gagnastjórnunar eru nú til staðar til að kaupa og selja leyfi. Nánari upplýsingar er að finna í [Yfirlit gagnastjórnunar](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
+Rammaeiningar gagnastjórnunar eru nú til staðar til að kaupa og selja leyfi. Nánari upplýsingar er að finna í [Yfirlit gagnastjórnunar](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 ## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>Þegar færsluupplýsingar eru skoðaðar og ítarlegar síur eru notaðar, getur notandi fengið aðgang að færslum annarra starfsmanna (472490)
 
@@ -96,9 +95,9 @@ Með þessari breytingu takmarkast greining á hringtilvísun á stigveldi stö�
 
 Sum fyrirtæki bjóða upp á fríðindi sem gera starfsmönnum kleift að kaupa eða selja leyfisdaga. Þessu ferli er oft stjórnað handvirkt. Þessi eiginleiki gerir umsjón með stefnum og beiðnum sjálfvirka fyrir mannauðsdeildina. Hann einfaldar ferli leyfisstjórnunar og hjálpar til við að koma í veg fyrir mistök. Frekari upplýsingar má finna á
 
-- [Leyfa starfsmönnum að kaupa og selja leyfi](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) í Dynamics 365 2020 útgáfutímabilsáætlun 2
-- [Stjórna reglum fyrir kaup og sölu á leyfisdögum](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [Kaupa og selja leyfisdaga](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- [Leyfa starfsmönnum að kaupa og selja leyfi](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) í Dynamics 365 2020 útgáfutímabilsáætlun 2
+- [Stjórna reglum fyrir kaup og sölu á leyfisdögum](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [Kaupa og selja leyfisdaga](./hr-employee-self-service-buy-sell-leave.md)
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Uppsafnað leyfi fyrir eitt fyrirtæki eða eina áætlun
 
@@ -126,15 +125,15 @@ Hægt er að búa til reglu til að fresta uppsöfnun leyfis fyrir starfsmenn me
 
 Hægt er að gera reiti áskilda með því að nota sérstillingarmöguleika Human Resources. Þessi eiginleiki krefst **Vistuð yfirlit**. Nánari upplýsingar um vistuð yfirlit er að finna í:
 
-- [Vistuð yfirlit - almennt framboð](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) í Dynamics 365 2020 útgáfutímabilsáætlun 2
-- [Búa til skjámyndir sem nýta vistuð yfirlit til fullnustu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- [Vistuð yfirlit - almennt framboð](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) í Dynamics 365 2020 útgáfutímabilsáætlun 2
+- [Búa til skjámyndir sem nýta vistuð yfirlit til fullnustu](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>Forrit „Human Resources“ í Teams
 
 Starfsmenn geta skoðað og beðið um tíma frá vinnu innan Microsoft Teams. Hægt er að hafa umsjón með þjark til að búa til beiðnir um leyfi. Frekari upplýsingar má finna á
 
-- [Umhverfi starfsmannaleyfis og -fjarvista í Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) í Dynamics 365 2020 útgáfutímabilsáætlun 1
-- [Forritið „Human Resources“ í Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
+- [Umhverfi starfsmannaleyfis og -fjarvista í Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) í Dynamics 365 2020 útgáfutímabilsáætlun 1
+- [Forritið „Human Resources“ í Teams](./hr-admin-teams-leave-app.md)
 
 ### <a name="dmf-entity-available-for-accrual-suspensions"></a>DMF-eining er í boði fyrir frestun uppsöfnunar
 
@@ -142,9 +141,9 @@ DMF-eining er ekki til staðar fyrir uppsöfnun í bið.
 
 ## <a name="coming-soon"></a>Væntanlegt
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Einingar gátlista innifaldar í Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>Einingar gátlista innifaldar í Dataverse
 
-Gátlistaeiningar fyrir Ráðstafanir vegna nýrra starfsmanna, Ráðstafanir vegna starfsloka og viðskiptaferla verða bráðum tiltækar í Common Data Service.
+Gátlistaeiningar fyrir Ráðstafanir vegna nýrra starfsmanna, Ráðstafanir vegna starfsloka og viðskiptaferla verða bráðum tiltækar í Dataverse.
 
 ## <a name="known-issues"></a>Þekkt vandamál
 
@@ -172,6 +171,9 @@ Vinnusvæðið **Eiginleikastjórnun** sýnir hugsanlega eiginleika sem eru óvi
 ## <a name="see-also"></a>Sjá einnig
 
 [Nýjungar eða breytingar í Mannauði](hr-admin-whats-new.md)</br>
-[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

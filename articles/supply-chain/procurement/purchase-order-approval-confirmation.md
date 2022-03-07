@@ -1,12 +1,10 @@
 ---
 title: Samþykkt og staðfesting innkaupapanta
 description: Þetta efnisatriði lýsir stöðum sem innkaupapöntunin fer í gegnum þegar hún hefur verið stofnuð og áhrif þess að virkja breytingastjórnun á innkaupapöntunum.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchOrderInReview, PurchOrderApproved, PurchOrderInDraft, PurchOrderAssignedToMe, VendPurchOrderJournalListPage, PurchTableWorkflowDropDialog, VendPurchOrderJournal
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eafce0be07ae21e5bc2db2cf5bb694a9d71a6269
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 7ae625950e62b2bf5ec092ccda414ee306c62d79
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018446"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570538"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Samþykkt og staðfesting innkaupapanta
 
@@ -42,12 +40,12 @@ Innkaupapantanir sem ekki nota breytingastjórnun hafa stöðuna **Samþykkt** u
 
 | Staða samþykkis | Lýsing                                                                      | beiðni um breytingu er virkjuð |
 |-----------------|----------------------------------------------------------------------------------|---------------------------|
-| Drög           | Innkaupapöntunin er drög og hefur ekki verið send til samþykkis í verkflæði Innkaupapöntunar.     | Nr                        |
+| Drög           | Innkaupapöntunin er drög og hefur ekki verið send til samþykkis í verkflæði Innkaupapöntunar.     | Nei                        |
 | Í skoðun       | Innkaupapöntunin var send til samþykkis í verkflæði Innkaupapöntunar. Bíður samþykkis       | Nei                        |
 | Hafnað        | Innkaupapöntunin var hafnað meðan á samþykktarferlinu stendur.                                 | Nei                        |
 | Samþykkt        | Innkaupapöntunin var samþykkt.                                                             | Já                       |
 | Staðfest       | Innkaupapöntunin var samþykkt. Ekki er hægt að staðfesta Innkaupapöntun fyrr en hún hefur verið samþykkt.        | Já                       |
-| Lokið       | Innkaupapöntunin var gerð endanleg. Hún er nú fjárhagslega lokuð og ekki lengur hægt að breyta. | Nr                        |
+| Lokið       | Innkaupapöntunin var gerð endanleg. Hún er nú fjárhagslega lokuð og ekki lengur hægt að breyta. | Nei                        |
 
 ## <a name="confirming-purchase-orders"></a>Staðfesta innkaupapantanir
 Innkaupapantanir með stöðu samþykkis **Samþykkt** geta fara gegnum viðbótarskref áður en þær eru staðfestar. Til dæmis gæti þurft að senda fyrirspurn um innkaup til lánardrottins til að spyrjast fyrir um verð, afslættir eða afhendingardagsetningar. Í þessu tilfelli er hægt að stilla Innkaupapöntun á **í ytri yfirferð** stöðu með því að nota í **Innkaupafyrirspurn** aðgerð.
@@ -85,8 +83,7 @@ Til að hætta við allt magn á innkaupalínu ættir þú að hætta við magn 
 
 Ef innkaupapöntun er undir breytingastjórnun verður að leggja fram allar breytingar, svo sem afturköllun á pöntun eða eftirstöðvar afhendingar, til verkflæðiskerfisins og samþykkja áður en hægt er að ljúka ferlinu og hægt er að uppfæra birgðafærslurnar sem felldar niður.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir innkaupapöntun](purchase-order-overview.md)
 
@@ -98,3 +95,6 @@ Ef innkaupapöntun er undir breytingastjórnun verður að leggja fram allar bre
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,28 +2,30 @@
 title: Stilla mismunandi víddir fyrir pakka og geymslu
 description: Þetta efnisatriði sýnir hvernig á að tilgreina hvaða vinnslu (pökkun, geymsla eða földuð pökkun) hver tilgreind vídd er notuð fyrir.
 author: mirzaab
+manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
+ms.search.form: WHSPhysDimUOM
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0e8ce576f21f1f5ea5f3acb7d43bbe68826e6f39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 004d9b4522335b481b640ef0fe35f4db66e3c9f5
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580073"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5078274"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Stilla mismunandi víddir fyrir pakka og geymslu
 
-[!include [banner](../../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Sumar vörur eru pakkaðar eða geymdar á þann hátt að nauðsynlegt kann að vera að rekja efnislegar víddir á annan hátt fyrir hvert mismunandi ferli. Eiginleikinn *Afurðarvíddir pökkunar* gerir kleift að setja upp eina eða fleiri gerðir af víddum fyrir hverja afurð. Hver gerð víddar býður upp á efnislegar mælingar (þyngd, breidd, dýpt og hæð) og kemur með ferlið þar sem þessi gildi efnislegra mælinga eiga við. Þegar þessi eiginleiki er virkur styður kerfið eftirfarandi gerðir af víddum:
 
@@ -131,6 +133,3 @@ Farið í **Vöruhúsakerfi \> Uppsetning \> Umbúðir \> Sniðmát umbúðahön
 1. Opnið fartækið, skráið ykkur inn í vöruhús 63 og farið í **Birgðir \> Breyting á**.
 1. Sláið inn **Loc** = *SHORT-01*. Búið til nýja númeraplötu með **Vöru** = *A0001* og **Magn** = *1 stk*.
 1. Veljið **Í lagi**. Upp kemur villan „Staðsetningin SHORT-01 tókst ekki vegna þess að varan A0001 passar ekki í tilgreindar víddir staðsetningar.“ Þetta er vegna þess að víddir *Geymslutegundar* fyrir afurðina eru stærri en víddirnar sem tilgreindar eru í staðsetningarforstillingunni.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

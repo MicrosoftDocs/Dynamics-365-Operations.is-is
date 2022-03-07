@@ -1,37 +1,31 @@
 ---
 title: Setja upp vöruhús
-description: Þetta efni lýsir því hvernig á að setja upp vöruhús til að nota með nýrri rás í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að setja upp vöruhús sem á að nota með nýrri rás í Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 6987263bfa83582f465e3b47c4f7b9d96cf087c814a1e002afd289852346975b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413151"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734020"
 ---
 # <a name="warehouse-set-up"></a>Uppsetning vöruhúss
 
-
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að setja upp vöruhús til að nota með nýrri rás í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði lýsir því hvernig á að setja upp vöruhús sem á að nota með nýrri rás í Microsoft Dynamics 365 Commerce.
 
 Hver Commerce-rás þarf að vera með stillt vöruhús tengt. Eftirfarandi ferli veita lágmarksstillingu sem þarf til að setja upp vöruhús fyrir Commerce-rás. Nánari upplýsingar um skipulag vöruhúsa er að finna í [Yfirlit vöruhúsastjórnunar](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 
@@ -51,7 +45,7 @@ Fylgdu þessum skrefum til að stilla vöruhús.
 
 Eftirfarandi mynd sýnir dæmi um vöruhússvæði.
 
-![Dæmi um vöruhússvæði](media/warehouse-site.png)
+![Dæmi um vöruhússvæði.](media/warehouse-site.png)
 
 ## <a name="set-up-a-warehouse"></a>Setja upp vöruhús
 
@@ -104,7 +98,7 @@ Fylgdu þessum skrefum til að setja upp birgðastaðsetningar vöruhúss fyrir 
     
 Eftirfarandi mynd sýnir uppsetning birgðastaðsetningar vöruhúss í San Francisco.
 
-![Dæmi um uppsetningu birgðastaðsetningar](media/warehouse-inventory-locations.png)
+![Dæmi um uppsetningu birgðastaðsetningar.](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Lokin uppsetning vöruhúss
 
@@ -127,13 +121,13 @@ Fylgið eftirfarandi skrefum til að ljúka uppsetningu vöruhúss.
 
 Eftirfarandi mynd sýnir upplýsingar um stillt vöruhús.
 
-![Dæmi stillt vöruhús](media/warehouse-sample.png)
+![Dæmi um skilgreint vöruhús.](media/warehouse-sample.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir vöruhúsakerfi](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
 
-[Yfirlit yfir rásir](channels-overview.md)
+[Yfirlit rása](channels-overview.md)
 
 [Skilyrði fyrir rásauppsetningu](channels-prerequisites.md)
 
@@ -147,3 +141,6 @@ Eftirfarandi mynd sýnir upplýsingar um stillt vöruhús.
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

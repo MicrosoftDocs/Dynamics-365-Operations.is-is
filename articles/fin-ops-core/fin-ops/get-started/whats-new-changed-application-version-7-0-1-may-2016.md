@@ -2,11 +2,9 @@
 title: Hvað er nýtt og hvað hefur breyst í Dynamics AX forritaútgáfa 7.0.1 (maí 2016)
 description: Þessi grein lýsir eiginleikum sem eru annað hvort nýjar eða breyttar í Microsoft Dynamics AX umsókn útgáfu 7.0.1. Þessi útgáfa var losuð í Maí 2016 og byggingarnúmer af 7.0.1265.23014.
 author: sericks007
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 17067ff534e0e3f4636d7a307563128db55cf2ba
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 9a455ffbc4396ea4bf0e3df12e7acdcbfeaa5f5269dbe772848341ac0d22a5e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797165"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748265"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Hvað er nýtt og hvað hefur breyst í Dynamics AX forritaútgáfa 7.0.1 (maí 2016)
 
@@ -78,7 +76,7 @@ ms.locfileid: "4797165"
 </tr>
 <tr>
 <td>Styðja Uppskriftir sem innihalda vörur með mismunandi afurðavíddir fyrir sömu vöruna.</td>
-<td>Þegar ein eða margar afurðarvíddum í framleiðslu er hægt að láta aðstæðum þar sem óskað er að framleiða vöru, annan vöruvíddasamsetning sömu vöru á grundvelli. Nánari upplýsingar er að finna í <a href="https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/">þessari blogg</a>.</td>
+<td>Þegar ein eða margar afurðarvíddum í framleiðslu er hægt að láta aðstæðum þar sem óskað er að framleiða vöru, annan vöruvíddasamsetning sömu vöru á grundvelli. Nánari upplýsingar er að finna í <a href="/archive/blogs/axmfg/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item">þessari blogg</a>.</td>
 </tr>
 <tr>
 <td>Framleiðslupantanir með hringvirkni á fyrsta stigi um Uppskriftir þeirra eru undanskildar úr útreikning Uppskriftar fyrir efni eftirspurnarstjórnunar stigs.</td>
@@ -106,3 +104,6 @@ ms.locfileid: "4797165"
 [Nýjungar eða breytingar í Finance and Operations heimasíða](whats-new-changed.md)
 
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (maí 2016)](new-updated-task-guides-available-may-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

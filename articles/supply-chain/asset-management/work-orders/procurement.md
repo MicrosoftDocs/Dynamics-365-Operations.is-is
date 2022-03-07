@@ -1,12 +1,10 @@
 ---
 title: Innkaup
 description: Þetta efni skýrir innkaup í eignastýringu.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderPurchaseListPagePreviewPane, EntAssetWorkOrderPurchaseListPage, EntAssetWorkOrderPurchaseLineAmountInfoPart, EntAssetWorkOrderPurchReqListPage
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fce60f6ac2ac0dabe1c0ecd804a1dec1e7e373a2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 2b5e160beb4743db2530b91020f21b686d84237b17cfa7ff7f0cc1da97695d08
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020205"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743651"
 ---
 # <a name="procurement"></a>Innkaup
 
@@ -38,7 +36,7 @@ Listasíðan **Innkaupabeiðni verkbeiðni** (**Eignastjórnun** > **Sameiginleg
 
 Skýringarmyndin hér að neðan sýnir dæmi um listasíðuna **Innkaupabeiðni verkbeiðni**.
 
-![Mynd 1](media/08-work-orders.png)
+![Mynd 1.](media/08-work-orders.png)
 
 
 Listasíðan **Innkaup verkbeiðni** (**Eignastjórnun** > **Sameiginlegt** > **Innkaup** > **Innkaup verkbeiðni**) sýnir lista yfir innkaupapantanir sem tengjast verkbeiðnum. Þegar þú velur vinnslu verkbeiðni á þessari síðu geturðu notað hnappana í hópnum **Sýna** á aðgerðarúðuflipanum **Innkaup verkbeiðni** til að framkvæma ýmsar aðgerðir:
@@ -49,7 +47,7 @@ Listasíðan **Innkaup verkbeiðni** (**Eignastjórnun** > **Sameiginlegt** > **
 
 Skýringarmyndin hér að neðan sýnir dæmi um listasíðuna **Innkaup verkbeiðni**.
 
-![Mynd 2](media/09-work-orders.png)
+![Mynd 2.](media/09-work-orders.png)
 
 
 Á bæði listasíðunni **Innkaup verkbeiðni** og listasíðunni **Innkaupabeiðni verkbeiðni** birtist tákn sem tengist stjórnun á afhendingardegi hægra megin við hverja línu. Ef táknið sýnir upphrópunarmerki í rauðum hring þýðir það að afhending á tengdri innkaupapöntun eða innkaupabeiðni kann að tefjast.
@@ -95,7 +93,10 @@ Til að skoða eða slá inn verkþáttanúmerið sem er tengt innkaupapöntunar
 
 Myndin hér að neðan sýnir dæmi um síðuna **Innkaupapöntun** með áherslu á **Verkþáttarnúmer**.
 
-![Mynd 3](media/10-work-orders.png)
+![Mynd 3.](media/10-work-orders.png)
 
 Á sama hátt, til að skoða eða slá inn verkþáttanúmerið sem er tengt innkaupabeiðnilínu verkbeiðni, á listasíðunni **Innkaupabeiðni verkbeiðni**, skaltu velja innkaupabeiðniskrána og síðan, í dálkinum **Innkaupabeiðni**, velurðu hlekkinn fyrir innkaupabeiðnina. Þú getur fundið reitinn **Verkþáttarnúmer** á flipanum **Verk** á flýtiflipanum **Línulýsing**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

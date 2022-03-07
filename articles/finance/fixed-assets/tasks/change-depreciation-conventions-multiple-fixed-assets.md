@@ -2,9 +2,11 @@
 title: Breyta afskriftarvenjum fyrir margar eignir
 description: Þetta verkefni uppfærir afskriftarreglu fyrir tilgreindan eignaflokk.
 author: saraschi2
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm, SrsReportViewerForm
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ffd50104c13972f8d15d3260600ea239d16284447c76d984e78f4aaa4bc08cab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2c64e4f7117c4ca70236a02b4d36a88e9f2a9906
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765717"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210024"
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Breyta afskriftarvenjum fyrir margar eignir
 

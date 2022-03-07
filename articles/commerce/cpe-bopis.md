@@ -1,28 +1,25 @@
 ---
 title: Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi
 description: Þetta efnisatriði útskýrir hvernig á að grunnstilla kaup á netinu, sækja í verslun (BOPIS) í Microsoft Dynamics 365 Commerce matsumhverfi eftir að það hefur verið úthlutað.
-author: rubendel
-manager: annbe
+author: BrianShook
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 1e0aabec196aa1ffd2e4d2f2691c03cf11326ee8
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413056"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779795"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi
 
@@ -32,7 +29,7 @@ ms.locfileid: "4413056"
 
 ## <a name="prerequisite"></a>Skilyrði
 
-Ljúktu aðeins við aðgerðirnar í þessu efnisatriði eftir að matsumhverfi fyrir Commerce hefur verið úthlutað og grunnstillt. Frekari upplýsingar um hvernig á að úthluta og grunnstilla umhverfi þitt, sjá [Útvegun á Dynamics 365 Commerce matsumhverfi](provisioning-guide.md) og [Grunnstilla Dynamics 365 Commerce matsumhverfi](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
+Ljúktu aðeins við aðgerðirnar í þessu efnisatriði eftir að matsumhverfi fyrir Commerce hefur verið úthlutað og grunnstillt. Frekari upplýsingar um hvernig á að úthluta og grunnstilla umhverfi þitt, sjá [Útvegun á Dynamics 365 Commerce matsumhverfi](provisioning-guide.md) og [Grunnstilla Dynamics 365 Commerce matsumhverfi](./cpe-post-provisioning.md).
 
 Eftir að Commerce umhverfið þitt hefur verið úthlutað og grunnstillt frá upphafi til enda geturðu notað þetta efnisatriði til að gera BOPIS atburðarás virka.
 
@@ -40,7 +37,7 @@ Eftir að Commerce umhverfið þitt hefur verið úthlutað og grunnstillt frá 
 
 ### <a name="configure-modern-pos"></a>Grunnstilla Modern sölustað
 
-BOPIS atburðarásir sem fela í sér kreditkortagreiðslu krefjast vélbúnaðarstöðvar. Vélbúnaðarstöð innbyggð í Modern sölustað fyrir Windows og Android biðlara. Ef þú notar sölukerfi í skýinu eða Modern sölustað fyrir iOS, verður biðlari sölustaðarins (POS) að vera paraður við samnýtta vélbúnaðarstöð. Þetta efnisatriði útskýrir hvernig á að stilla BOPIS fyrir Windows og Android biðlara. Frekari upplýsingar um hvernig á að setja upp vélbúnaðarstöðvar, sjá [Grunnstilling og uppsetning á vélbúnaðarstöð fyrir Retail](https://docs.microsoft.com/dynamics365/commerce/retail-hardware-station-configuration-installation).
+BOPIS atburðarásir sem fela í sér kreditkortagreiðslu krefjast vélbúnaðarstöðvar. Vélbúnaðarstöð innbyggð í Modern sölustað fyrir Windows og Android biðlara. Ef þú notar sölukerfi í skýinu eða Modern sölustað fyrir iOS, verður biðlari sölustaðarins (POS) að vera paraður við samnýtta vélbúnaðarstöð. Þetta efnisatriði útskýrir hvernig á að stilla BOPIS fyrir Windows og Android biðlara. Frekari upplýsingar um hvernig á að setja upp vélbúnaðarstöðvar, sjá [Grunnstilling og uppsetning á vélbúnaðarstöð fyrir Retail](./retail-hardware-station-configuration-installation.md).
 
 1. Opnaðu **Smásala og viðskipti \> Uppsetning rásar \> Uppsetning sölustaðar \> Afgreiðslukassar**.
 2. Veldu skráningu **SANFRAN-5** og veldu síðan **Breyta**.
@@ -57,7 +54,7 @@ BOPIS atburðarásir sem fela í sér kreditkortagreiðslu krefjast vélbúnaða
 4. Veldu **Hlaða niður** og veldu því næst **Retail Modern POS**. 
 5. Þegar niðurhal á **ModernPOSSetup.exe** skránni er lokið skaltu velja **Opna skrá**.
 
-    ![Opna skrá](./dev-itpro/media/PAYMENTS/openfile.png)
+    ![Opin skrá.](./dev-itpro/media/PAYMENTS/openfile.png)
 
 6. Veldu **Áfram** til að fara í gegnum uppsetningarferlið. Þegar uppsetningunni er lokið skaltu velja **Loka**.
 
@@ -90,7 +87,7 @@ BOPIS atburðarásir sem fela í sér kreditkortagreiðslu krefjast vélbúnaða
 
 ### <a name="create-a-storefront-order-for-in-store-pickup"></a>Búðu til pöntun í netverslun til að sækja í verslun
 
-1. Farðu á slóðina sem þú tilgreindir í skrefinu [Frumstilla rafræn viðskipti](https://docs.microsoft.com/dynamics365/commerce/provisioning-guide#initialize-e-commerce) við grunnstillingu umhverfisins.
+1. Farðu á slóðina sem þú tilgreindir í skrefinu [Frumstilla rafræn viðskipti](./provisioning-guide.md#initialize-e-commerce) við grunnstillingu umhverfisins.
 2. Veldu hlut og veldu **Setja í körfu**.
 3. Veldu innkaupapokasíðuna og smelltu á **Sækja þetta** fyrir pöntunarlínuna sem þú varst að bæta við.
 4. Í svargluggann **Velja verslun** slærðu inn **San Francisco** og smelltu síðan á **Leitarhnappinn**.
@@ -115,7 +112,7 @@ BOPIS atburðarásir sem fela í sér kreditkortagreiðslu krefjast vélbúnaða
 
 ### <a name="synchronize-online-orders-to-the-back-office"></a>Samstilltu pantanir á netinu við skrifstofuna
 
-Frekari upplýsingar um hvernig á að samstilla pantanir á netinu er að finna í [Bókun á netsölu og -greiðslum](https://docs.microsoft.com/dynamics365/commerce/tasks/posting-online-sales-payments).
+Frekari upplýsingar um hvernig á að samstilla pantanir á netinu er að finna í [Bókun á netsölu og -greiðslum](./tasks/posting-online-sales-payments.md).
 
 ### <a name="pick-up-an-order-in-the-store"></a>Sækja pöntun í verslunina
 
@@ -151,16 +148,19 @@ Hvað öll almenn vandamál varðar, ættir þú fyrst að skoða tilvikaannála
 
 [algengar spurningar um Dynamics 365 Commerce matsumhverfi](cpe-faq.md)
 
-[Microsoft Dynamics Lifecycle Services (LSC)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Dynamics Lifecycle Services (LSC)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure-gátt](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce vefsvæði](https://aka.ms/Dynamics365CommerceWebsite)
 
-[Adyen-greiðslutengill](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
+[Adyen-greiðslutengill](./dev-itpro/adyen-connector.md?tabs=8-1-3)
 
-[Vista netgreiðslumáta með Adyen-tengli](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
+[Vista netgreiðslumáta með Adyen-tengli](./dev-itpro/adyen-connector-listpi.md)
 
-[Greiðsluyfirlit Omni-rásar](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+[Greiðsluyfirlit Omni-rásar](./omni-channel-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

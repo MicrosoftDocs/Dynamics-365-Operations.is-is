@@ -1,12 +1,10 @@
 ---
 title: Verkuppsetning verkbeiðni
 description: Þetta efni útskýrir uppsetningu verka verkbeiðna í eignastýringu.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderProjectSetup
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 031e61549474745360ac00f9a66bef7a9dbaaf96
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: bb897ca0a7e9c45ee55244189bb1b487fbddf0714ad3ea0cac26eb7bac36a07f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021555"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754084"
 ---
 # <a name="work-order-project-setup"></a>Verkuppsetning verkbeiðni
 
@@ -71,17 +69,20 @@ Uppsetningin gerir ráð fyrir fullkominni samþættingu við eininguna **Verkef
 
     Sjálfgefið er að upphafsdagsetningin sé dagsetningin þegar þú bætir verkbeiðniverkinu við síðuna. Því er stjórnað af reitnum **Gildir frá** sem er falinn sjálfgefið. Til að sýna reitinn **Gildir frá** velurðu **Skoða** \> **Allt**. Þú getur síðan notað reitinn **Gildir frá** ásamt reitnum **Lokadagsetning** til að setja upp takmarkaðan gildistíma verkbeiðnaverksins.
 
-    ![Síðan Verkuppsetning verkbeiðna](media/17-setup-for-work-orders.png)
+    ![Síða fyrir verkuppsetningu verkbeiðni.](media/17-setup-for-work-orders.png)
 
 6. Á flipanum **Verkefnahópur** velurðu **Bæta við**.
 7. Í reitnum **Verkbeiðni** velurðu gerð verkbeiðni.
 8. Ef þú vilt að tenging verkefnahópsins sé nákvæmari skaltu velja eignategundina í reitnum **Gerð eigna** eða eign í reitnum **Eign**.
 9. Í reitnum **Verkefnahópur** velurðu verkefnahópinn sem ætti að tengjast gerð verkbeiðninnar. Til dæmis kann gerð verkbeiðni sem er nefnd **Forvirkt viðhald** verið tengd verkefnahópi sem er nefndur **Fyrra viðh.** eða **Innra**. Að öðrum kosti, kann gerð verkbeiðni **Fjárfesting** sem er notuð við verkbeiðnir sem tengjast fjárfestingum og fastafjármunum að tengjast verkefnahópi sem nefndur er **Fjárfesta** eða **Fjárfesting**.
-10. Veljið **Vista**.
+10. Veldu **Vista**.
 
-![Síðan Verkuppsetning verkbeiðna, Bæta við vinnupöntun](media/18-setup-for-work-orders.png)
+![Síða fyrir verkuppsetningu verkbeiðni, Bæta við verkbeiðni.](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > Í hvert skipti sem verkbeiðnilína er búin til leitar Eignastjórnun að verkefnahópi sem ætti að tengjast verkbeiðniverkefninu. Leitin er byggð á uppsetningunni sem lýst er í þessu efni. Sérhver verkefnahópur er með tilheyrandi verkefnisgerð. Verkefnahópar sem hafa verkgerðina **Tími og efni** eða **Fast verð** gilda aðeins fyrir eignir sem tengjast viðskiptamannareikningi.
 >
 > Fyrir yfirverk og verkefnahópa, þegar kerfið velur fyrirliggjandi verkþáttarverk eða verkefnahóp, er valið byggt á skrám sem þú stofnaðir með því að nota fyrra ferli. Eignastýring fer í gegnum skrár sem tengjast verkbeiðnaverki til að leita að mögulegri samsvörun. Það athugar alltaf sértækustu samsetninguna fyrst. Með öðrum orðum, fyrir yfirverk verkbeiðninnar kannar Eignastjórnun fyrst hvort möguleg samsvörun finnist fyrir reitinn **Eign**. Ef engin samsvörun finnst leitar hún að samsvörun fyrir reitinn **Eignagerð**. Ef engin samsvörun finnst leitar hún að samsvörun fyrir reitinn **Virk staðsetning** og svo framvegis. Eins og þú sérð á skipulagi síðunnar **Verkuppsetning verkbeiðni** þýðir þessi hegðun að til að finna sértækustu samsetninguna, þá velur eignastjórnun hverja skrá frá hægri til vinstri fyrir leik. Ef engin samsvörun finnst er sjálfgefna skráin þar sem aðeins verkkenni er valið notuð. Ferlið til að finna tengdan verkefnahóp er svipað. Eignastýring leitar fyrst að mögulegri samsvörun við reitinn **Eign**, síðan reitinn **Gerð eigna** og síðan reitinn **Gerð verkbeiðni**. Ef engin samsvörun finnst er sjálfgefna skráin þar sem aðeins verkhópur er valinn notuð.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: Yfirlit þjónustusamninga
 description: Þjónustusamningsflokkar eru gagnlegir til að flokka og sía þjónustusamninga.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51b51640a09f78ed613994e2ade755c8ad831ea9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c4e2aa8babf2337114b889e50f4f427124aa4298
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430423"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835967"
 ---
 # <a name="service-agreements-overview"></a>Yfirlit þjónustusamninga
 
@@ -42,3 +39,6 @@ ms.locfileid: "4430423"
 ## <a name="related-topics"></a>Tengd efnisatriði
 
 [Stofna þjónustusamningsflokka](create-service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

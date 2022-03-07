@@ -1,37 +1,31 @@
 ---
 title: Bæta við nýrri síðu á svæði
-description: Þetta efni lýsir því hvernig á að bæta við nýrri síðu svæðis í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að bæta við nýrri svæðssíðu í Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b0f1e290526c25aa6e6300c65e24044a325bee53
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: e0c2a73ae9e85cb299e7cb6fc70562659cdfadc5
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413105"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090720"
 ---
 # <a name="add-a-new-site-page"></a>Bæta við nýrri síðu á svæði
 
-
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að bæta við nýrri síðu svæðis í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði lýsir því hvernig á að bæta við nýrri svæðssíðu í Microsoft Dynamics 365 Commerce.
 
 Eftir að þú hefur búið til sniðmát og brot fyrir síðuna þína er næsta skref að byrja að búa til síður sem nota þau. Til að byrja verður þú að velja sniðmát eða skipulag, nafn á síðu og slóð síðu.
 
@@ -39,11 +33,11 @@ Eftir að þú hefur búið til sniðmát og brot fyrir síðuna þína er næst
 
 Þú getur annaðhvort notað sniðmát eða skipulag fyrir nýju síðuna þína. Frekari upplýsingar eru í [Yfirlit yfir sniðmát og skipulag](templates-layouts-overview.md).
 
-## <a name="page-name"></a>Heiti síðu
+## <a name="specify-the-page-name"></a>Tilgreindu nafn síðunnar
 
-Síðuheitið verður að vera einkvæmt fyrir síðuna. Það ætti að vera lýsandi, svo að þú getur auðveldlega fundið það og aðrir vita fyrir hvað síðan stendur. Veldu síðuheitið vandlega, því ekki er hægt að breyta því seinna.
+Heiti síðunnar verður að vera einstakt fyrir síðuna þína og ætti að vera lýsandi þannig að þú getir fundið það auðveldlega og aðrir viti fyrir hvað síðan er ætluð. Þú getur endurnefna síðuna þína síðar með því að breyta henni og velja síðan pennatáknið við hlið síðuheitisins í eignarglugganum.
 
-## <a name="page-url"></a>Vefslóð síðu
+## <a name="specify-the-page-url"></a>Tilgreindu vefslóð síðunnar
 
 Þú getur haft þann kost að slá inn slóð fyrir nýju síðuna. Þegar þú býrð til síðu geturðu slegið inn streng sem verður notaður til að mynda heila vefslóð. Þessi strengur er þekktur sem hlutfallsleg slóð eða slóðasnigill. Síðan er stofnuð heil vefslóð byggt á slóðarsniglinum og nýju síðunni er úthlutað á hana. Þú getur breytt slóðarsnigli seinna áður en þú birtir síðuna. Nánari upplýsingar sjá [Stofna vefslóð síðu](create-page-URL.md).
 
@@ -90,4 +84,9 @@ Fylgdu þessum skrefum til að bæta við nýrri síðu á síðuna þína.
 
 [Bæta lendingarsíðu flokks](enrich-category-page.md)
 
-[Staðfesta aðgengi síðuinnihalds](verify-accessibility.md)
+[Staðfesta aðgengi að efni síðu](verify-accessibility.md)
+
+[Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

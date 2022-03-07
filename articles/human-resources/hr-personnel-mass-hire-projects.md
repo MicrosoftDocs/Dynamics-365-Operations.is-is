@@ -1,31 +1,33 @@
 ---
 title: Fjöldaráðningarverk
-description: Fjöldaráðningarverk leyfa mannauðssérfræðingum að búa til margar stöður og ráða starfsmenn á skilvirkan hátt í þær stöður.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+description: Þetta efni lýsir fjöldaráðningarverkefnum, sem gera mannauðssérfræðingum kleift að búa til margar stöður og ráða starfsmenn á skilvirkan hátt í þessar stöður.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMMassHireProject, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.custom: 7481
 ms.assetid: 5f5eb271-76eb-4305-bd1c-5d171dafccc9
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f33fb96e9a2331499a594689a758694c2291368
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: fcfc973dc9acea624336f059d68562fa5eb41353
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419042"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070202"
 ---
 # <a name="mass-hire-projects"></a>Fjöldaráðningarverk
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
@@ -44,19 +46,19 @@ Fjöldaráðningarverk leyfa mannauðssérfræðingum að búa til margar stöð
 
 Á sumrin, er yfirleitt ráðnir 15 20 skólakrakkar í hlutastarf til að fylla tiltækar starfsnámsstöður í fyrirtækinu. Nú í ár, á að ráða fimm bókhaldara, fimm starfsmenn í pantanavinnslu og fimm gjaldkera. Í stað þess að stofna hverja stöðufærslu og starfsmannaskrá sér, er stofnað eitt fjöldaráðningarverk sem kallast „SummerInterns“. Upphafs- og lokadagsetningar verksins er í samræmi við upphags og lokadagsetningar tímalengdar fyrir stöðurnar sem þú stofnar fyrir fjöldaráðningarverkið.
 
-Á síðunni **Fjöldaráðningarverk** skal velja verkið „SummerInterns“ og smella síðan á **Opna verk**. Í Opna fjöldaráðningarverk, er smellt **Stofna stöður** og færa inn upplýsingar um stöðu bókarans. Hægt er að tilgreina að fimm bókarastöður ættu að vera stofnuð með því að nota sömu upplýsingar fyrir hverja og eina, og smellið svo á í lagi. Endurtakið þetta ferli fyrir afgreiðslumaður pantana og gjaldkerastöður.
+Á **Fjöldaráðningarverkefni** síðu, veldu **Sumarnemar** verkefni og veldu síðan **Opið verkefni**. Í opnu fjöldaráðningarverkefninu skaltu velja **Búðu til stöður**, og sláðu inn upplýsingar um stöðu endurskoðanda. Hægt er að tilgreina að stofna eigi fimm endurskoðendastöður og að sömu upplýsingar eigi að nota fyrir hverja. Veljið síðan **Í lagi**. Endurtakið þetta ferli fyrir afgreiðslumaður pantana og gjaldkerastöður.
 
-Eftir val á námsmönnum til að ráða fyrir starfsnámsstöður, verður að færa inn upplýsingar hvers námsmanns á **Stöðuupplýsingar** fyrir stöðu sem verið er að ráða þá í. Þegar að hafa verið færðar inn allar upplýsingar um stöðu, veljið stöðuna í fjöldaráðningarverk síðu, og smellið síðan á **Ráða**. Stöðufærsla verður stofnuð fyrir hverja stöðu og skrá starfsmanns stofnuð og úthlutað á rétta stöðu fyrir hvern einstakling sem þú ræður.
+Eftir að þú hefur valið nemendur til að ráða í starfsnámsstöðurnar færðu inn upplýsingar hvers nemanda í stöðuupplýsingarnar fyrir stöðuna sem þú ert að ráða þá í. Þegar þú hefur slegið inn allar upplýsingar um stöðuna skaltu velja stöðuna á **Fjöldaráðningarverkefni** síðu og veldu síðan **Ráða**. Stöðuskrá verður búin til fyrir hverja stöðu og starfsmannsskrá verður búin til og úthlutað á rétta stöðu fyrir hvern einstakling sem þú ræður.
 
 ## <a name="mass-hire-project-statuses"></a>Stöður fjöldaráðningarverks
 
 ráðningarverk getur verið með eftirfarandi stöður:
 
-- Stofnaður
-- Opna
+- Stofnað
+- Opið
 - Lokað
 
-Á **fjöldaráðningarverk** síðunni er smellt á **Opna verk** eða **Loka verki** til að breyta stöðu fjöldaráðningarverks. Eftirfarandi tafla lýsir því hvað hægt er að gera við verk eftir því hver staða þess er.
+Á **Fjöldaráðningarverkefni** síðu, veldu **Opið verkefni** eða **Loka verkefni** að breyta stöðu fjöldaráðningarverkefnis. Eftirfarandi tafla lýsir því hvað hægt er að gera við verk eftir því hver staða þess er.
 
 <table>
 <thead>
@@ -76,9 +78,12 @@ ráðningarverk getur verið með eftirfarandi stöður:
 </tr>
 <tr>
 <td>Lokað</td>
-<td>Ekki er hægt að bæta stöðum við verkið. Til að bæta stöðum við fjöldaráðningarverkið, opna verkið aftur. Þetta er staða lokaðra verka.
-<blockquote>[!NOTE] Áður en hægt er að loka fjöldaráðningaverki, verða allar stöður í verkinu að hafa stöðu annað hvort Stofnuð eða Lokuð.</blockquote>
+<td><p>Ekki er hægt að bæta stöðum við verkið. Til að bæta stöðum við fjöldaráðningarverkið, opna verkið aftur. Þetta er staða lokaðra verka.</p>
+<p><strong>Athugið:</strong> Áður en hægt er að loka fjöldaráðningarverkefni verða allar stöður í verkefninu að hafa stöðuna annað hvort<b>Búið til</b> eða<b>Lokað</b>.</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

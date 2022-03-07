@@ -1,27 +1,24 @@
 ---
 title: Verkflæði viðskiptavinar
 description: Í þessu efnisatriði er að finna upplýsingar um verkflæði viðskiptavinar. Tilgreindum reitum fyrir viðskiptavin er breytt og breytingarnar eru síðan sendar til samþykktar með því að nota verkflæðið áður en þeim er bætt við viðskiptavininn.
-author: mikefalkner
-manager: aolson
+author: abruer
 ms.date: 08/24/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 5998a492e12cb93aeec029c6e56f811f8b90055a
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: c74f18997b390d70b5012199fab1adc9734994f4
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4459274"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753827"
 ---
 # <a name="customer-workflow"></a>Verkflæði viðskiptavinar
 
@@ -61,3 +58,6 @@ Eftir að a.m.k. ein fyrirhuguð breyting hefur verið gerð birtast tvær valmy
     Stöðunni á síðunni er breytt í **Breytingar bíða samþykkis**.
 
 Verkflæðið fylgir venjulegu verkflæðisferli í forritinu. Samþykktaraðila er beint á síðuna **Viðskiptavinur** þar sem hægt er að fara yfir breytingar á síðunni **Fyrirhugaðar breytingar** og velja síðan **Verkflæði \> Samþykkja** til að samþykkja verkflæðið. Þegar búið er að samþykkja allt eru reitirnir uppfærðir með gildunum sem lögð voru til.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

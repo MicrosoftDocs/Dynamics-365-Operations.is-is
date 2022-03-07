@@ -1,17 +1,14 @@
 ---
 title: Stjórna notendum og hlutverkum rafrænna viðskipta
-description: Þetta efni útskýrir hvernig á að veita notendum aðgang að höfundarumhverfi fyrir Microsoft Dynamics 365 Commerce síðuna.
+description: Þetta efnisatriði útskýrir hvernig á að veita notendum aðgang að höfundarumhverfi á Microsoft Dynamics 365 Commerce svæði.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,19 +16,19 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9a1f9abae20d0f2e71790a3b27337338dc042b52
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: ff0d3e607eb905eb9264bbb9ba151fbd527a81a2c72252252f2a45edc201e1b4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413047"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715407"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>Stjórna notendum og hlutverkum rafrænna viðskipta
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að veita notendum aðgang að höfundarumhverfi fyrir Microsoft Dynamics 365 Commerce síðuna.
+Þetta efnisatriði útskýrir hvernig á að veita notendum aðgang að höfundarumhverfi á Microsoft Dynamics 365 Commerce svæði.
 
 Til að aðstoða við að stjórna aðgangi notenda og veita notendum leyfi til að framkvæma tiltekin verk notar höfundarumhverfi svæðisins öryggishópa sem þú býrð til í Microsoft Azure Active Directory (Azure AD). Þú úthlutar fyrst nýjum eða núverandi öryggishópi frá Azure AD á hvert hlutverk í höfundarumhverfinu. Þú veitir eða afturkallar síðan leyfi fyrir einstaka notendur með því að annaðhvort bæta þeim notendum við viðeigandi öryggishóp eða fjarlægja þá úr öryggishópi.
 
@@ -71,3 +68,6 @@ Eftir að vefsvæðið þitt er búið til eru aðeins notendur sem eru í öryg
 [Hugsanleg leitarvélabestun (SEO) fyrir vefsvæðið þitt](search-engine-optimization-considerations.md)
 
 [Stjórna öryggisreglu fyrir efni (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

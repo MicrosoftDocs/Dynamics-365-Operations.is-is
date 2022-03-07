@@ -2,28 +2,25 @@
 title: Pöntun lofað
 description: Í þessu efnisatriði er að finna upplýsingar um lofaðar pantanir. Pöntun lofað hjálpar þér lofa áreiðanlegum afhendingartíma til viðskiptavina þinna og gefur þér sveigjanleika þannig að þú getur staðið við þessar dagsetningar.
 author: ShylaThompson
-manager: tfehr
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates, SalesCarrier
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 193933
 ms.assetid: 676fc53a-fa25-4688-9f26-1005316763b8
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae3192bcf5128c09279017e3d5e8be8f42ec6975
-ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
+ms.openlocfilehash: 40b43ed2b5dfc0126ff723f1d98c5bcf28637822
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666771"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840678"
 ---
 # <a name="order-promising"></a>Pöntun lofað
 
@@ -81,3 +78,6 @@ Stofna sölupöntunarlínu fyrir afurðina og færa inn **150** sem magn.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

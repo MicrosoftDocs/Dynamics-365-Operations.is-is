@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
-ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db6ceb40279e53e9c4751a7ceb3db895e889a7c0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: d6a131f53d6e44692bcdc5f3a196bb27e37fe73914a0adba1dcd7822f552d1f8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102889"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771108"
 ---
 # <a name="outbound-workload-visualization"></a>Myndræn framsetning vinnuálags á útleið
 
@@ -27,9 +27,12 @@ ms.locfileid: "8102889"
 
 Hægt er að nota þessa virkni til að rekja framvindu tiltektarvinnu. Eiginleikinn er samþættur við starfsmannaumsjón og ef starfsmannaumsjón er uppsett getur myndræn framsetning vinnuálags á útleið sýnt útreikning á tímafjöldanum sem eftir er við tiltektarvinnuna sem er sýnd (síuð).
 
-## <a name="turn-the-outbound-workload-visualization-feature-on-or-off"></a>Kveiktu eða slökktu á myndbirtingu vinnuálags á útleið
+## <a name="turn-on-the-outbound-workload-visualization-feature"></a>Kveikja á eiginleikanum myndræn framsetning vinnuálags á útleið
 
-Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Sjónmynd af vinnuálagi á útleið* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+
+- **Eining:** *Vöruhúsakerfi*
+- **Heiti eiginleika:** *Myndræn framsetning vinnuálags á útleið*
 
 ## <a name="set-up-outbound-workload-visualizations"></a>Stilla myndræna framsetningu vinnuálags á útleið
 

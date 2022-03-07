@@ -2,11 +2,9 @@
 title: Hönnunarfyrirtæki og reglur um eignarrétt gagna
 description: Þetta efnisatriði lýsir því hvernig má nota eitt eða fleiri hönnunarfyrirtæki til að ganga úr skugga um að aðalgögn fyrir afurðir séu stofnuð og unnin miðlægt. Hönnunarfyrirtæki táknar fyrirtækið sem er eigandi hönnunarafurðanna og viðeigandi hönnunartengdra gagna.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEngineeringOrganization
 audience: Application User
@@ -14,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: ab5ca3bee65bb0ee8ce7f44ba97c00347fe38366
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 1a05ad1a9d24239e2659c1ffecc21e5e186b1e96
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963664"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572914"
 ---
 # <a name="engineering-companies-and-data-ownership-rules"></a>Hönnunarfyrirtæki og reglur um eignarrétt gagna
 
@@ -66,3 +64,6 @@ Vegna þess að hönnunarfyrirtækið á viðeigandi hönnunartengd gögn stjór
 
     - Þegar þessi skjöl eru losuð til annarra lögaðila eru skjölin skrifvarin og rekstrarfyrirtækið getur því ekki fjarlægt þau.
     - Aðrir lögaðilar geta bætt við alveg nýjum, staðbundnum fylgiskjölum. Rekstrarfyrirtækið er eigandinn og vinnur með slík staðbundin skjöl.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

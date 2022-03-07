@@ -1,12 +1,10 @@
 ---
 title: Áætla verkbeiðni á ákveðnum degi og tíma
 description: Þetta efni útskýrir hvernig á að tímasetja verkbeiðni á tiltekinni dagsetningu og tíma í eignastjórnun.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e1b9fc2f51e92a4760a612d778b65cfc1b4e2a9e
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: d1264ea034789c9ce052b1da9a74a10dd910fac1a1c762d29bd06ca2063478d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017368"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780284"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>Áætla verkbeiðni á ákveðnum degi og tíma
 
@@ -40,13 +38,13 @@ Ef þarf að skipuleggja verkbeiðni á tilteknum degi *og* tíma er hægt að h
 
 4. Á flýtiflipanum **Haus verkbeiðni** skaltu setja upphafs- og lokadagsetningar og tíma í reitina **Vænt upphaf** og **Vænt lok**.
 
-    ![Mynd 1](media/05-work-order-scheduling.png)
+    ![Mynd 1.](media/05-work-order-scheduling.png)
 
 5. Á flipanum **Almennt** skaltu smella á **Tímasetja** til að nota staðlað tímasetningarferli eða smella á **Senda** ef þú vilt úthluta verkbeiðni til ákveðins starfsmanns.
 
 6. Til að hnekkja fyrirliggjandi frátekna afkastagetu til að tryggja að verkbeiðni sé áætluð á væntu tímabili skaltu gera valið eins og sýnt er á myndinni hér að neðan í glugganum **Skipuleggja verkbeiðni** > kaflanum **Takmörkuð geta**. Þetta þýðir að tímasetningarferlið mun hunsa núverandi frátekna afkastagetu þar sem verkbeiðnin verður að hefjast á áætluðum upphafstíma.
 
-    ![Mynd 2](media/06-work-order-scheduling.png)
+    ![Mynd 2.](media/06-work-order-scheduling.png)
 
 7. Smelltu á **Í lagi** til að hefja röðunina.
 
@@ -55,3 +53,6 @@ Ef þarf að skipuleggja verkbeiðni á tilteknum degi *og* tíma er hægt að h
 >[!NOTE]
 >Til þess að tímasetja viðhaldsstarfsmann fyrir verkbeiðnina verður sá viðhaldsstarfsmaður að vera tiltækur á væntum upphafsdegi og -tíma. Framboð starfskrafta er sett upp í [starfsmannadagatal](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md). 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,35 +1,32 @@
 ---
 title: Setja upp rás símavers
-description: Þetta efni lýsir því hvernig á að stofna nýja símaversrás í Microsoft Dynamics 365 Commerce.
+description: Í þessu efnisatriði er lýst hvernig eigi að stofna nýja rás símavers í Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 03/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
-ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
-ms.translationtype: HT
+ms.openlocfilehash: 3b21d5e57058fee5bb77beb6731c18967ed11cacc1925e44d2f7d8cdb26d7bcb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4413311"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744535"
 ---
-# <a name="set-up-a-call-center-channel"></a>Setja upp rás símavers
+# <a name="set-up-a-call-center-channel"></a>Uppsetning símaversrásar
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að stofna nýja símaversrás í Microsoft Dynamics 365 Commerce.
+Í þessu efnisatriði er lýst hvernig eigi að stofna nýja rás símavers í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -57,11 +54,11 @@ Til að stofna og stilla nýja rás símavers fylgirðu þessum skrefum.
 
 Eftirfarandi mynd sýnir stofnun nýrrar símaversrásar.
 
-![Ný rás símavers](media/channel-setup-callcenter-1.png)
+![Ný rás símavers.](media/channel-setup-callcenter-1.png)
 
 Eftirfarandi mynd sýnir dæmi um símaversrás.
 
-![Dæmi um rás símavers](media/channel-setup-callcenter-2.png)
+![Dæmi um rás símavers.](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>Viðbótaruppsetning grunnrásar
 
@@ -69,7 +66,7 @@ Viðbótarupplýsingar sem krafist er fyrir uppsetningu símaversrásar fela í 
 
 Eftirfarandi mynd sýnir uppsetningarkostina **Afhendingarmáta** og **Greiðslumáta** á flipanum **Setja upp**.
 
-![Viðbótar uppsetningaraðgerðir símaversrásar](media/channel-setup-callcenter-3.png)
+![Viðbótar uppsetningaraðgerðir símaversrásar.](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>Setja upp greiðsluhætti
 
@@ -84,7 +81,7 @@ Fylgdu þessum skrefum til að setja upp greiðslumáta fyrir hverja greiðsluge
 
 Eftirfarandi mynd sýnir dæmi um greiðsluaðferð í reiðufé.
 
-![Dæmi um greiðslumáta](media/channel-setup-callcenter-payments.png)
+![Dæmi um greiðslumáta.](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Setja upp afhendingarmáta
 
@@ -100,7 +97,7 @@ Fylgdu þessum skrefum til að breyta eða bæta við afhendingaraðferð sem á
 
 Eftirfarandi mynd sýnir dæmi um afhendingarmáta.
 
-![Setja upp afhendingarmáta](media/channel-setup-retail-7.png)
+![Setja upp afhendingarmáta.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>Setja upp rásarnotendur
 
@@ -136,3 +133,6 @@ Til að setja upp verðflokk, gerðu eftirfarandi.
 [Setja upp og vinna með svikaviðvaranir](set-up-fraud-alerts.md)
 
 [Setja upp samfelldniáætlanir fyrir símaver](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

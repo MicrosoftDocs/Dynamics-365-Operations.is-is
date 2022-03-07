@@ -1,12 +1,10 @@
 ---
 title: Stofna verkbeiðnir úr viðhaldsbeiðnum
 description: Þetta efni útskýrir hvernig á að stofna verkbeiðni úr viðhaldsbeiðni í eignastjórnun.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 23039306bb827beb861eaacc3177f4917fabc8bf
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 1c69ad91e931475dd4c8e5a126190e867bd193f881ad58525c1d2ac8997c972a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018097"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726922"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Stofna verkbeiðnir úr viðhaldsbeiðnum
 
@@ -52,5 +50,8 @@ Eftir að þú hefur búið til viðhaldsbeiðnir geturðu auðveldlega umbreytt
 
 6. Veldu **Eignastýring** \> **Sameiginlegt** \> **Verkbeiðni** \> **Allar verkbeiðnir**, og opnaðu nýju vinnupöntunina.
 
-    ![Opna nýja vinnupöntun](media/05-manage-maintenance-requests.png)
+    ![Opnaðu nýja verkbeiðni.](media/05-manage-maintenance-requests.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

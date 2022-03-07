@@ -1,35 +1,38 @@
 ---
 title: Stjórna atriðum sem eru lánaðar til starfskrafta
 description: Lánshlutir eru færslur sem aðstoða stjórnendur við að rekja efnislegu vörurnar sem fyrirtækið lánar til starfsmanna.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmLoanItem, HcmLoanType, HcmPersonLoan, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5915df388da7ce8b90cdcb0e859268c00003110c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 9093944a2e225565fc8fdba8f9a487303369c251
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419011"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067277"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Stjórna atriðum sem eru lánaðar til starfskrafta
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
 Lánshlutir eru færslur sem aðstoða stjórnendur við að rekja efnislegu vörurnar sem fyrirtækið lánar til starfsmanna. 
 
-Eftirfarandi atriði eru dæmi um vörur sem fyrirtæki gæti verið að lána starfsmönnum:
+Hér eru nokkur dæmi um hluti sem fyrirtæki gæti lánað starfsmönnum:
+
 -   Farsímar
 -   Bifreiðar
 -   Tölvubúnaður
@@ -38,20 +41,21 @@ Hver efnislegt vara verður að hafa samsvarandi lánshlut. Hvert skrá yfir lá
 
 Þegar hlutur er lánaður, skráið útlánsdagsetningu ásamt áætluðum skiladegi. Þegar hlut er skilað skal skrá raunverulegan skiladag.
 
-Starfsmenn geta skoðað°færslur fyrir vörur sem þeir hafa fengið lánaðar með°sjálfsafgreiðsla vinnusvæði starfsmanna. Þeir geta einnig breytt fyrirliggjandi færslum°eða fært inn°nýja lánshluti°ef þeir hafa fengið efnislegar viðbótarvörur.  Hægt er að setja upp verkflæði til að rekja breytingar á nýjum eða fyrirliggjandi lánshlutum gegnum samþykktarferli. 
+Starfsmenn geta notað **Sjálfsafgreiðsla starfsmanna** vinnusvæði til að skoða skrár yfir hlutina sem þeim hafa verið lánaðir. Þeir geta einnig breytt núverandi færslum eða slegið inn nýjar lánsvörur ef þeir hafa fengið fleiri efnislega hluti. Hægt er að setja upp verkflæði til að leiða breytingar á nýjum eða núverandi lánahlutum í gegnum samþykktarferli. 
 
 Stjórnendur geta skoðað°lánshluti fyrir beinar skýrslur þeirra. Þeir geta einnig fengið heimild til að bæta við nýjum lánshlutum fyrir hönd starfsmanna sinna.
 
- <a name="account-for-lost-or-misplaced-loan-items"></a>Lykill fyrir týnda eða tapaða lánshluti
------------------------------------------
+##  <a name="account-for-lost-or-misplaced-loan-items"></a>Lykill fyrir týnda eða tapaða lánshluti
 
 Eyðileggist hlutur eða hann týnist skal skrá gerviskil. Þá er hægt að eyða hlutnum úr skrá eða gefa það til kynna í lýsingu að hann sé týndur.
 
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Mannauður](index.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2923dd3f051013fdd5b4f4717a6c954453ccdcf
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 27ca519ad0e0529c0d04c2f94a548c00532a9a45
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016578"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237300"
 ---
 # <a name="set-up-vendor-accounts"></a>Setja upp lánardrottnalykla
 
@@ -117,3 +117,6 @@ Hægt er að tilgreina sjálfgefnir lyklar sem birtast sjálfkrafa í færslubæ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

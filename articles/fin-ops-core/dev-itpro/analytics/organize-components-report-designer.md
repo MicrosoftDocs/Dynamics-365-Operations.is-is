@@ -1,12 +1,10 @@
 ---
 title: Skipuleggja skýrsluhluta í skýrsluhönnun
-description: Eftir hannað höfum einingar og mynduðum skýrslum, það er gagnlegt að skipuleggja þessum hlutum þannig að þeir verði auðveldara fyrir notendum að staðsetja. Þessi skrá er útskýrt hvernig raða fyrirliggjandi skýrslur einingar og hlutum í skýrsluhönnun.
+description: Þetta efnisatriði lýsir því hvernig fyrirliggjandi skýrslum, einingum og hlutum í skýrsluhönnun er raðað.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 6b30e7e480edb50bb9509e270806224755f98e38111cda0c1cae86a0f56eb193
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685812"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763525"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Skipuleggja skýrsluhluta í skýrsluhönnun
 
@@ -60,7 +58,7 @@ Setja má skýrsluskilgreiningar saman í hóp til að mynda margar skýrslur sa
 1. Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
 2. Tvísmellið á skýrsluhóp til að breyta.
 3. Smellið á flipann **Skýrsluhópur** og breytið því sem þarf.
-4. Í valmyndinni **Skrá** skal smella á **Vista** til að vista breyttan skýrsluhóp. Einnig er hægt að smella á **Vista** hnappinn ![Vista](media/save.gif "Vista")á tækjastikunni.
+4. Í valmyndinni **Skrá** skal smella á **Vista** til að vista breyttan skýrsluhóp. Einnig er hægt að smella á **Vista** hnappinn ![Vista.](media/save.gif "Vista") á tækjastikunni.
 
 > [ATHUGASEMD] Ef gerð hefur verið áætlun um myndun skýrslna með tilteknu millibili er hægt að hnekkja þeim stillingum og mynda skýrslu strax.
 
@@ -68,7 +66,7 @@ Setja má skýrsluskilgreiningar saman í hóp til að mynda margar skýrslur sa
 
 1. Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
 2. Opnið skýrsluhópinn sem á að mynda.
-3. Smellið á hnappinn **Búa til skýrslu** ![Búa til skýrslu](media/generate-report.gif "Búa til skýrslu")til að búa til skýrslur.
+3. Smellið á hnappinn **Búa til skýrslu** ![Búa til skýrslu.](media/generate-report.gif "Búa til skýrslu") til að útbúa skýrslur.
 
 ### <a name="delete-a-report-group"></a>Skýrsluhópi eytt
 
@@ -148,3 +146,6 @@ Aðeins stillingar sjálfgefins grunntímabils eru vistaðar með skýrsluskilgr
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

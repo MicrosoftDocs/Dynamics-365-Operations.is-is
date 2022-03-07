@@ -1,10 +1,12 @@
 ---
 title: Samþætting eigna
 description: Eignir má samþætta við fjárhag, birgðastjórnun, viðskiptakröfur og viðskiptaskuldir. Einnig er hægt að setja upp eignir þannig að þær séu samþættar með innkaupapöntunum.
-author: moaamer
+author: ShylaThompson
+manager: AnnBe
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
@@ -12,15 +14,15 @@ ms.reviewer: roschlom
 ms.custom: 3501
 ms.assetid: f0639053-d99c-432a-8ead-5c26e0d4eaec
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e53d171ba0b9be7bbfffa25c27bd21fe036acee
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: MT
+ms.openlocfilehash: 145fb91ad167c3201a5516e7115a9a401bb204c6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674776"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994941"
 ---
 # <a name="fixed-assets-integration"></a>Samþætting eigna
 
@@ -28,7 +30,8 @@ ms.locfileid: "7674776"
 
 Eignir má samþætta við fjárhag, birgðastjórnun, viðskiptakröfur og viðskiptaskuldir. Einnig er hægt að setja upp eignir þannig að þær séu samþættar með innkaupapöntunum.
 
-## <a name="general-ledger"></a>Fjárhagur
+<a name="general-ledger"></a>Fjárhagur
+--------------
 
 Í fjárhag, gildi allra eigna er yfirleitt tekið saman í mörgum aðallyklum sem er krafist fyrir fjárhagsskýrsla. Hins vegar er hægt að stofna margar eignafærslur á siðunni **Eignir**. Þessar færslur geta verið upplýsingar um verð kaup, afskriftir og mat. Hvert skipti sem færsla er bókuð fyrir eign eru viðeigandi aðallyklar uppfærðir. Aðallyklar fyrir eignir sýna alltaf uppfært virði eignanna
 
@@ -91,6 +94,3 @@ Frekari upplýsingar eru í [Kaupa eignir með innkaupum](acquire-assets-procure
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

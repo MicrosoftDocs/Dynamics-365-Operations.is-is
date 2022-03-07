@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb2d4ab3434a563e907f6540809888cd3f671c1a
-ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
+ms.openlocfilehash: d160c02403bf067ed523fbd634e65c622b522b97
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "4740809"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686076"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>Listi yfir ER-aðgerðir í gerðaumbreytingaflokknum
 
@@ -38,14 +38,6 @@ Hægt er að nota umbreytingaraðgerðir fyrir rafræna skýrslugerð (ER) til a
 | [IntValue](er-functions-conversion-intvalue.md)       | Þessi aðgerð skilar *Int*-gildi sem táknar tilgreindan streng. |
 | [NumberValue](er-functions-conversion-numbervalue.md) | Þessi aðgerð skilar *Raun*-gildi sem er umreiknað úr tilgreindu *Streng*-gildi. Við umreikning er tekið tillit til tilgreindra flokkunarskiltákna aukastafa og tölustafa. |
 | [Virði](er-functions-conversion-value.md)             | Þessi aðgerð skilar *Raun*-gildi sem er umreiknað úr tilgreindu *Streng*-gildi. |
-
-## <a name="type-conversion-functions-in-the-container-category"></a>Aðgerðir fyrir umbreytingu á gerð í gámaflokknum
-
-Eftirfarandi tafla útskýrir aðgerðir fyrir umbreytingu á gerð í flokknum [gámur](er-functions-category-container.md).
-
-| Virkni | lýsing |
-|----------|-------------|
-| [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | Þessi aðgerð umbreytir tilteknum innslætti af gerðinni *Strengur* í gagnaatriði af gerðinni *Gámur*. |
 
 ## <a name="type-conversion-functions-in-the-date-and-time-category"></a>Umreikningsaðgerðir gerðar í flokknum Dagsetning og tími
 

@@ -2,11 +2,9 @@
 title: QRCODE ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin QRCODE í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
-manager: kfend
 ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b62ed829202028ca0cbf95a0dbc3460d047ca5a5
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6a76549ba5d663a7b6cfb858342a56921c5cd56b
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682968"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5746172"
 ---
 # <a name="qrcode-er-function"></a>QRCODE ER-aðgerð
 
@@ -61,3 +59,6 @@ QRCODE (model.ListOfShelfLabels.LabelText)`
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Textavirkni](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

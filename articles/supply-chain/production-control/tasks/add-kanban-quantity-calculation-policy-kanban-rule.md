@@ -1,27 +1,24 @@
 ---
 title: Bæta útreikningsreglu kanban-magns við kanban-reglu
 description: Þetta ferli leggur áherslu á stofnun útreikningsstefnu kanban-magns og henni er bætt við kanban-reglu til að besta stærðar og magn kanban.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanQuantityPolicy, KanbanRules, KanbanQuantityCalculation
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 039c4aaa355cf2b850ded06913e8e39ee8cac543
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a844d455b1e583f234ddc47280f5cac8ee0ab852
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430066"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579281"
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>Bæta útreikningsreglu kanban-magns við kanban-reglu
 
@@ -63,3 +60,6 @@ ms.locfileid: "4430066"
 8. Í listanum skal smella á tengilinn í valinni línu.
     * Velja reglu fyrir Speaker2016 hafa nýverið var stofnuð í fyrri undirverki.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

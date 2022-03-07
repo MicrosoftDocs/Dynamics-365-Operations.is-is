@@ -6,20 +6,18 @@ ms.date: 07/27/2020
 ms.topic: article
 ms.author: margoc
 ms.prod: ''
-ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4402759b3bf0cc61fded697c66eab6dc6b429664
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e0bb859310b62e8249462a8bd77f44cea1bb7652
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413183"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5636637"
 ---
 # <a name="learning-catalog-for-business-and-technical-decision-makers-considering-dynamics-365-commerce"></a>Námslisti fyrir stjórnendur og tæknifólk fyrirtækis varðandi Dynamics 365 Commerce
 
@@ -36,3 +34,6 @@ Frekari upplýsingar um kennslu eiginleika sem deilt er með öðrum Finance and
 | [Lærðu viðskiptaverðmæti Microsoft Dynamics 365 og Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Þessi námsupplifun mun taka þig í ferðalag sem mun byrja á því að sýna þér hvernig stafræn umbreyting og kraftur viðskiptaumsókna getur umbreytt viðskiptum þínum. Við munum fjalla um hvernig Dynamics 365 og Power Platform hjálpa þér að taka upplýstar ákvarðanir byggðar á þörfum og markmiðum stofnunarinnar í gegnum fjóra byggingarreina í stafrænni umbreytingu - nútímaleg, sameinuð, greindur og aðlögunarhæfur.                  | Ókeypis, sjálfstýr skref á námsleið                                          | 6.5 klst.   |
 | [Hafist handa með Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-commerce/)                                                       | Dynamics 365 Commerce – byggir á margreyndum eiginleikum Dynamics 365 Retail – skilar lausn fyrir alhliða samskipti sem sameinar bakvinnslu, verslun, þjónustuver og stafræna upplifun. Dynamics 365 Commerce gerir þér kleift að byggja upp hollustu vörumerkis með persónulegum viðskiptum við viðskiptavini, auka tekjur með bættri framleiðni starfsmanna, hámarka rekstur til að draga úr kostnaði og auka skilvirkni framboðs keðjunnar og skila á endanum betri viðskiptaniðurstöðum. | Ókeypis, sjálfstýr skref á námsleið                                          | 2 klst.   |
 | [Hafist handa með Dynamics 365 Fraud Protection](https://docs.microsoft.com/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection er skýjalausn sem hönnuð er fyrir rafræna verslun, hefðbundnar verslanir og vöruverslanakeðju og söluaðila alhliða samskipta, til að verja tekjur þeirra og orðspor með því að bjóða upp á verkfæri og möguleika til að minnka svik og misnotkun, draga úr rekstrarútgjöldum og auka samþykktarhlutföll, og á sama tíma verja notandareikninga fyrir sviksamlegu athæfi. | Ókeypis, sjálfstýr skref á námsleið | 35 mínútur |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

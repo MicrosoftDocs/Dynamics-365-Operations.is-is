@@ -1,12 +1,11 @@
 ---
-title: Úrræðaleit vandamála við fyrstu uppsetningu
-description: Þetta efni veitir upplýsingar um bilanaleit sem geta hjálpað þér að laga vandamál sem gætu komið upp við upphaflega uppsetningu tvískiptrar skrifunar á milli forrita Finance and Operations og Dataverse.
+title: Leysa úr vandamálum við fyrstu uppsetningu
+description: Þetta efnisatriði veitir upplýsingar sem geta hjálpað þér að laga vandamál sem koma upp við upphaflega uppsetningu á samþættingu tvöfaldra skrifa.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,14 +17,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ac6ec5003794fb5875fed6a2c4403c1444ab8b2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f6ff9a304de8a94b86e6866d6d2cb65fbfdfb02f
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685587"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561179"
 ---
-# <a name="troubleshoot-issues-during-initial-setup"></a>Úrræðaleit vandamála við fyrstu uppsetningu
+# <a name="troubleshoot-issues-during-initial-setup"></a>Leysa úr vandamálum við fyrstu uppsetningu
 
 [!include [banner](../../includes/banner.md)]
 
@@ -71,13 +70,13 @@ Fylgdu þessum skrefum til að veita samþykki í forriti.
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Gakktu úr skugga um að fyrirtækjagögn og tvískipt teymi séu sett upp rétt við tengingu
 
-Til að tryggja að tvískipt skrifun virki rétt eru fyrirtækin sem þú velur við stillingar stofnuð í Dataverse umhverfi. Sjálfgefið er að þessi fyrirtæki séu skrifvarin og eiginleikinn **IsDualWriteEnable** stilltur á **True**. Að auki eru sjálfgefnir eigendur viðskiptaeininga og teymi stofnuð og fela í sér nafn fyrirtækisins. Áður en þú kveikir á kortunum skaltu ganga úr skugga um að sjálfgefinn eigandi hópsins sé tilgreindur. Til að finna eininguna **Companies (CDM\_Company)** fylgirðu þessum skrefum.
+Til að tryggja að tvískipt skrifun virki rétt eru fyrirtækin sem þú velur við stillingar stofnuð í Dataverse umhverfi. Sjálfgefið er að þessi fyrirtæki séu skrifvarin og eiginleikinn **IsDualWriteEnable** stilltur á **True**. Að auki eru sjálfgefnir eigendur viðskiptaeininga og teymi stofnuð og fela í sér nafn fyrirtækisins. Áður en þú kveikir á kortunum skaltu ganga úr skugga um að sjálfgefinn eigandi hópsins sé tilgreindur. Til að finna töfluna **Companies (CDM\_Company)** fylgirðu þessum skrefum.
 
 1. Veldu síuna í efra hægra horninu í líkansdrifna forritinu í Dynamics 365.
 2. Í fellilistanum velurðu **Fyrirtæki**.
 3. Veldu **Keyra** til að sjá niðurstöðurnar.
 4. Veldu fyrirtækið sem var tengt þegar þú stillir tvískipt skrif.
-5. Staðfestu að reiturinn **Sjálfgefið eigendateymi** hefur gildi. Á eftirfarandi mynd er reiturinn **Sjálfgefið eigendateymi** stilltur á **USMF tvöfalt skrif**.
+5. Staðfestu að dálkurinn **Sjálfgefið eigendateymi** hefur gildi. Á eftirfarandi mynd er dálkurinn **Sjálfgefið eigendateymi** stilltur á **USMF tvöfalt skrif**.
 
     ![Staðfestir sjálfgefið eigendateymi](media/default_owning_team.png)
 
@@ -88,3 +87,6 @@ Til að tryggja að tvískipt skrifun virki rétt eru fyrirtækin sem þú velur
 *Dual write failure - Plugin registration failed: \[(Ekki tókst að fá skiltáknakort fyrir verk DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea. Villa fer fram yfir hámarksskiltákn leyfð fyrir vörpun á DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], Ein eða fleiri villur komu upp.*
 
 Núverandi mörk þegar tengt er við umhverfið eru um það bil 40 lagatöflur. Þessi villa kemur upp ef reynt er að virkja kort og fleiri en 40 lagatöflur eru tengdar á milli umhverfanna.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

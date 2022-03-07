@@ -1,33 +1,32 @@
 ---
 title: Vinna úr hæfni viðburðar
-description: Þessi grein sýnir þér hvernig á að keyra ferlið vegna viðburðahæfis.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+description: Í þessu efnisatriði er útskýrt hvernig unnið er úr skilyrðum viðburðar.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart, BenefitLifeEventTypes, BenefitEligibilityProcessResultViewer
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17ecef1412eb0232fbb4782bd9d2d79f210c7e80
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b6cb4a8b815db561785ee56a0cd21376f1079cbd
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418972"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417430"
 ---
 # <a name="process-life-event-eligibility"></a>Vinna úr hæfni viðburðar
 
-Þessi grein sýnir þér hvernig á að keyra ferlið vegna viðburðahæfis.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Í þessu efnisatriði er útskýrt hvernig unnið er úr skilyrðum viðburðar.
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Í vinnslu**, veldu **Vinnsla viðburðarhæfis**.
 
@@ -48,3 +47,6 @@ ms.locfileid: "4418972"
    4. Veljið **Í lagi**. Ferlið keyrir með breytunum sem þú stillir.
 
 4. Veljið **Í lagi**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

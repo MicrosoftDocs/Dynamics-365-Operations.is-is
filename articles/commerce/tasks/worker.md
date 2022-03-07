@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, HcmWorker
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd437f549ffc1f8879ce3814ace1193040b280e1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 120705200f223e31c72290059e8634e7db6f9fdd
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413248"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232618"
 ---
 # <a name="configure-a-worker"></a>Skilgreina starfsmann
 
@@ -57,3 +56,6 @@ ms.locfileid: "4413248"
 6. Færa inn eða veljið gildi í reitnum Sjálfgefinn flokkur.
 7. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,24 @@
 ---
 title: Búa til aðferð við stigagjöf fyrir tilboðsbeiðnir
 description: Þessi verklýsing sýnir hvernig á að stofna aðferð við stigagjöf.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQScoringMethod
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 738768a6756db83a6855756ef48fffb4a5874b4a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: eb20f557ffafb00e6711abdea37018bfa8c784b4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021380"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577169"
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>Búa til aðferð við stigagjöf fyrir tilboðsbeiðnir
 
@@ -46,3 +44,6 @@ ms.locfileid: "5021380"
 14. Í reitinn Svið frá skal slá inn númer.
 15. Í reitinn Svið til skal slá inn númer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

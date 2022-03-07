@@ -2,26 +2,23 @@
 title: Stjórnun afsláttar
 description: Í þessu efnisatriði er stjórnun afsláttar fyrir Dynamics 365 Supply Chain Management lýst.
 author: t-benebo
-manager: tfehr
 ms.date: 08/17/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: MCRBrokerClaims, MCRBrokerWriteOffReasonPrompt, MCRRoyaltyVendTable, MCRRoyaltyVendTrans, PdsCustRebateGroup, PdsRebateAgreement, TAMCopyTradePromotions, TAMDeduction, TAMDeductionCreate, TAMDeductionDenyReason, TAMDeductionParmDeny, TAMDeductionParmMassUpdate, TAMDeductionParmMatch, TAMDeductionParmSplit, TAMDeductionParmWriteOff, TAMDeductionType, TAMDeductionWriteOffReason, TAMFundManagement, TAMFundUsage, TAMListPage, TAMMarketingObjective, TAMMerchEventType, TAMOneTimePromotion, TAMPromoCompareGraph, TAMPromoStatistic, TAMPromotionAnalysisSummary, TAMPromotionParameters, TAMPromotionPeriod, TAMTemplateListPage, TAMTradePromotionAnalysis, TAMTradePromotions, TAMWhatIfPromotionAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 13b665427a4caf206e0a3b3aca6b04c1529b9206
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 15c003109814d9b4dc2857910e69754e5927ec11138d215056be64424998bf00
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430289"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771276"
 ---
 # <a name="trade-allowance-management"></a>Stjórnun afsláttar
 
@@ -62,7 +59,7 @@ Afsláttarsamningur er hvatningaráætlun þar sem viðskiptavinum, sem ná mark
 
 Sjóðum sem er úthlutað í afsláttarsamninga eru skráðir á síðunni **Sjóðir**. Til að opna síðuna **Sjóðir** skal velja **Sala og markaðssetning** \> **Afslættir** \> **Sjóðir** \> **Sjóðir**.
 
-![Síðan Sjóðir](./media/trade-allowance-management-funds-page.png "Síðan Sjóðir")
+![Sjóðssíða.](./media/trade-allowance-management-funds-page.png "Síðan Sjóðir")
 
 Á síðunni **Sjóðir** er hægt að skoða upplýsingar um kynningarsjóði.
 
@@ -78,7 +75,7 @@ Eftir að skilgreiningin á sjóðnum er til staðar, er næsta skref í áætla
 
 Afsláttarsamningar eru skráðir á síðunni **Afsláttarsamningar**. Til að opna síðuna **Afsláttarsamningar** skal velja **Sala og markaðssetning** \> **Afslættir** \> **Afsláttarsamningar**.
 
-![Síðan Afsláttarsamningar](./media/trade-allowance-management-agreements-page.png "Síðan Afsláttarsamningar")
+![Síða afsláttarsamninga.](./media/trade-allowance-management-agreements-page.png "Síðan Afsláttarsamningar")
 
 #### <a name="header"></a>Haus
 
@@ -106,7 +103,7 @@ Flipinn **Smásölutilvik** sýnir gerðir tilvika sem falla undir samning. Til 
 
 Þegar þú velur smásölutilvik og velur síðan flipann **Upphæðir**, finnast upplýsingar um viðburðinn.
 
-![Línur afsláttarsamninga](./media/trade-allowance-management-agreements-lines.png "Línur afsláttarsamninga")
+![Afsláttarsamningslínur.](./media/trade-allowance-management-agreements-lines.png "Línur afsláttarsamninga")
 
 Í kaflanum **Afsláttarlínur** tilgreinir þú magn eða upphæð á einhverju bili sem viðskiptavinurinn þarf að ná svo skilgreiningar fái umbunina.
 
@@ -174,7 +171,7 @@ Til að samþykkja smásölutilvik af gerðinni **Eingreiðsla** skaltu velja at
 
 ## <a name="settle-the-deduction-that-is-due-and-the-customer-short-pay-by-using-the-deduction-workbench"></a>Gerðu upp frádráttinn sem er á gjalddaga og skammtímagreiðslu viðskiptavinar með því að nota Frádráttarvinnusvæðið
 
-Oft, í aðdraganda endurgreiðslna, velja viðskiptavinir að skammtímagreiða valda reikninga. Til að koma í veg fyrir vandamál við afstemmingu á greiðslu, skráir starfsmaður viðskiptakrafna þessar skammtímagreiðslur sem frádrætti þegar hann eða hún skráir raunverulegar greiðslur viðskiptavinar. Síðan, á Frádráttarvinnusvæðinu, er auðveldlega hægt að jafna þessa frádrætti viðskiptavinar á móti kröfuupphæðum fyrirtækis sem eru komnar á gjalddaga.
+Oft, í aðdraganda endurgreiðslna, velja viðskiptavinir að skammtímagreiða valda reikninga. Til að koma í veg fyrir vandamál við afstemmingu á greiðslu, skráir starfsmaður viðskiptakrafna þessar skammtímagreiðslur sem frádrætti þegar hann skráir raunverulegar greiðslur viðskiptavinar. Síðan, á Frádráttarvinnusvæðinu, er auðveldlega hægt að jafna þessa frádrætti viðskiptavinar á móti kröfuupphæðum fyrirtækis sem eru komnar á gjalddaga.
 
 Til að skrá skammtímagreiðslu viðskiptavinar í greiðslubókinu skaltu velja **Viðskiptakröfur** \> **Greiðslur** \> **Greiðslubók** og búa til nýja greiðslubók. Í aðgerðasvæðinu er síðan smellt á **Frádrættir**. Á síðunni **Frádráttur** er hægt að búa til og fylgjast með upphæðinni sem var skammtímagreidd.
 
@@ -200,3 +197,6 @@ Til að fá betra yfirlit yfir greiningu á ýmsum mælikvörðum um árangur fy
 
 Til að fá betra yfirlit yfir greiningu á ýmsum mælikvörðum um árangur fyrir kynninguna geturðu notað Greiningaryfirlitið. Til að fara í Greiningaryfirlitið skaltu smella á **Sala og markaðssetning** \> **Afslættir** \> **Afsláttarsamningar**. Á aðgerðasvæðinu skal smellt á **Greining**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

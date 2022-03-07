@@ -2,28 +2,25 @@
 title: Fjárhagsskýrsla rekstrarreiknings
 description: Þessi grein lýsir sjálfgefnum skýrslum fyrir efnahagsreikninga. Hún lýsir einnig einingum sem tengjast þessum skýrslum.
 author: jcart1106
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 12294
 ms.assetid: 30820be0-d943-4f8b-8c25-6414ec393b3d
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 429283865c66ca5f03608e4a02c3aba5bb5ea7e3
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 9d1852eac49b4a26e0680d7a918d2a6d8af37031
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645578"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838838"
 ---
 # <a name="income-statement-financial-report"></a>Fjárhagsskýrsla rekstrarreiknings
 
@@ -71,3 +68,6 @@ Dálkskilgreiningar innihalda mismunandi gerðir dálka til að veita mismunandi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

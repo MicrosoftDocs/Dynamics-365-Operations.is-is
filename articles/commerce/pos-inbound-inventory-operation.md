@@ -2,16 +2,13 @@
 title: Innleið birgðaaðgerð í POS
 description: Þetta efni lýsir getu sölustaðar (POS) á heimleið birgðaaðgerð.
 author: hhaines
-manager: annbe
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +16,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413186"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741783"
 ---
-# <a name="inbound-inventory-operation-in-pos"></a>Innleið birgðaaðgerð í POS
+# <a name="inbound-inventory-operation-in-pos"></a>Birgðaaðgerð á innleið á sölustað
 
 [!include [banner](includes/banner.md)]
 
-Í Microsoft Dynamics 365 Commerce útgáfu 10.0.10 og síðar, koma aðgerðir á innleið og útleið á sölustað (POS) í stað tiltektar- og móttökuaðgerðar.
+Í Microsoft Dynamics 365 Commerce útgáfu 10.0.10 og nýrri er inn- og útskráningaraðgerðum á sölustað skipt út tiltektar-og móttökuaðgerð.
 
 > [!NOTE]
 > Í Commerce útgáfu 10.0.10 og nýrri, verður öllum nýjum eiginleikum í forriti sölustaðar sem tengjast því að taka á móti birgðum verslunar vegna innkaupapantana og flutningspantana bætt við sölustaðaraðgerðina **Aðgerð á innleið**. Ef þú ert að nota tiltektar- og móttökuaðgerðina í POS mælum við með að þú þróir stefnu til að fara frá þeirri aðgerð yfir í nýju aðgerðirnar á inn- og útleið. Þó að tiltektar- og móttökuaðgerðin verði ekki fjarlægð úr vörunni verða engar frekari fjárfestingar í henni, frá sjónarhorni virkni eða afköstum, eftir útgáfu 10.0.9.
@@ -73,7 +70,7 @@ Runuvinnslurnar sem þú býrð til verða notuð til að vinna úr skjölum sem
 
 ## <a name="prerequisite-add-inbound-operation-to-the-pos-screen-layout"></a>Forsenda: Bættu aðgerð á innleið við POS skjámyndina
 
-Áður en fyrirtækið getur notað virknina aðgerð á heimleið verður það að stilla POS-aðgerðina **Aðgerð á innleið** í einni eða fleiri af þínum [POS-skjáuppsetningum](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Áður en þú setur nýja aðgerðina í framleiðsluumhverfi, vertu viss um að prófa hana rækilega og þjálfa notendur hennar til að nota hana.
+Áður en fyrirtækið getur notað virknina aðgerð á heimleið verður það að stilla POS-aðgerðina **Aðgerð á innleið** í einni eða fleiri af þínum [POS-skjáuppsetningum](/dynamics365/unified-operations/retail/pos-screen-layouts). Áður en þú setur nýja aðgerðina í framleiðsluumhverfi, vertu viss um að prófa hana rækilega og þjálfa notendur hennar til að nota hana.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -162,9 +159,9 @@ Aðgerðin virðir stillingar **Auð innhreyfing heimil** á geymsluvíddina **S
 
 Þessi eiginleiki virkar aðeins fyrir móttöku innkaupapantana. Ekki er hægt að taka á móti vörum gegn flutningspöntunum þegar vörur voru ekki áður pantaðar og sendar úr vöruhúsi á útleið.
 
-Notendur geta ekki bætt nýjum afurðum við innkaupapöntunina meðan á móttöku á sölustað stendur ef innkaupapöntun [breyta verkflæði](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) er virkjuð í Commerce Headquarters (HQ). Til að virkja breytingastjórnun verður fyrst að samþykkja allar breytingar á innkaupapöntun áður en móttaka er leyfð. Vegna þess að þetta ferli gerir viðtakanda kleift að bæta nýjum línum við innkaupapöntunina mun móttaka mistakast ef verkflæði breytingarstjórnunar er virkt. Ef breytingastjórnun er virkjuð fyrir allar innkaupapantanir eða lánardrottinn sem tengist innkaupapöntuninni sem tekið er á móti í sölustað getur notandinn ekki bætt nýjum afurðum við innkaupapöntunina við móttöku í sölustað.
+Notendur geta ekki bætt nýjum afurðum við innkaupapöntunina meðan á móttöku á sölustað stendur ef innkaupapöntun [breyta verkflæði](../supply-chain/procurement/purchase-order-approval-confirmation.md) er virkjuð í Commerce Headquarters (HQ). Til að virkja breytingastjórnun verður fyrst að samþykkja allar breytingar á innkaupapöntun áður en móttaka er leyfð. Vegna þess að þetta ferli gerir viðtakanda kleift að bæta nýjum línum við innkaupapöntunina mun móttaka mistakast ef verkflæði breytingarstjórnunar er virkt. Ef breytingastjórnun er virkjuð fyrir allar innkaupapantanir eða lánardrottinn sem tengist innkaupapöntuninni sem tekið er á móti í sölustað getur notandinn ekki bætt nýjum afurðum við innkaupapöntunina við móttöku í sölustað.
 
-Ekki er hægt að nota eiginleikann sem bætir við línum til að taka á móti viðbótarmagni afurða sem eru þegar á innkaupapöntuninni. Umframmóttöku er stjórnað í gegnum staðlaða stillingar [umframmóttöku](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) fyrir vörulínuna á innkaupapöntuninni.
+Ekki er hægt að nota eiginleikann sem bætir við línum til að taka á móti viðbótarmagni afurða sem eru þegar á innkaupapöntuninni. Umframmóttöku er stjórnað í gegnum staðlaða stillingar [umframmóttöku](#over-receiving-validations) fyrir vörulínuna á innkaupapöntuninni.
 
 Ef **Bæta línum við innkaupapöntun við móttöku sölustaðar** er virkt og notandi tekur á móti með **Aðgerð á innleið** á sölustað, ef notandi skannar eða slær inn strikamerki eða vörunúmer sem ekki hefur verið skráð sem vara á innkaupapöntuninni, en er viðurkennd sem gild vara, fær notandinn skilaboð um að bæta vörunni við innkaupapöntunina. Ef notandinn bætir vörunni við innkaupapöntunina er magnið sem fært er inn í **Móttaka núna** talið pöntunarmagn fyrir innkaupapöntunarlínuna.
 
@@ -221,3 +218,6 @@ Eftir að drögum að skjali hefur verið skilað til Commerce Headquarters birt
 ## <a name="related-topics"></a>Tengd efnisatriði
 
 [Birgðaaðgerð á útleið á sölustað](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

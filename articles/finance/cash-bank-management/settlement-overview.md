@@ -1,34 +1,30 @@
 ---
 title: Uppgjörsyfirlit
 description: Þetta efnisatriði veitir almennar upplýsingar um uppgjörsferlið. Í því er útskýrt hvaða færslugerðir er hægt að jafna og tímasetningin og ferlið við jöfnun þeirra. Þar eru niðurstöður jöfnunarferlisins einnig útskýrðar.
-author: panolte
-ms.date: 07/30/2021
-ms.topic: overview
+author: kweekley
+ms.date: 04/10/2020
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "14551"
-- intro-internal
+ms.custom: 14551
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 57f2b209a852bb9513218fab3df118c7d7a2a1e7
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 7d3ba2b484efa0107ac7e055272ee2169a0fd35c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986384"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834861"
 ---
 # <a name="settlement-overview"></a>Uppgjörsyfirlit
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 Þetta efnisatriði veitir almennar upplýsingar um uppgjörsferlið. Í því er útskýrt hvaða færslugerðir er hægt að jafna og tímasetningin og ferlið við jöfnun þeirra. Þar eru niðurstöður jöfnunarferlisins einnig útskýrðar.
 
@@ -76,25 +72,9 @@ Jöfnun getur einnig myndað færslur. Til dæmis gæti jöfnun reiknings og gre
 
 Þegar reynt er að jafna færslu gætir þú tekið eftir tákni sem sýnir að færslan er merkt á öðrum stað. Í slíku tilfelli er hægt að velja færsluna á síðunni **Jafna færslur** og síðan velja **Fyrirspurn \> Jöfnun úr jöfnunarglugganum**. Yfirlitið fyrir þessa fyrirspurn sýnir færslubækur, sölupantanir, reikninga, greiðslutillögur og staðsetningar viðskiptavina sem gætu staðið í vegi fyrir jöfnun færslunnar. Til að leysa úr vandanum er hægt að velja tengilinn til að fara beint úr fyrirspurninni til útilokuðu staðsetningarinnar. Síðan er hægt að uppfæra skjalið með leiðréttingunum sem eru nauðsynlegar til að jafna það. Einnig er hægt að nota vísinn **Merkt** til að bera kennsl á önnur skjöl sem eru hluti af sömu útilokunarstaðsetningunni.
 
-## <a name="resolve-issues-with-transactions-that-cant-be-settled"></a>Leysa vandamál með færslur sem ekki er hægt að ganga frá
-
-Stundum er ekki hægt að ganga frá færslum vegna þess að önnur aðgerð er að vinna úr skjalinu. Ef þú reynir að ganga frá færslunum kemur upp villa vegna þess að þessar færslur eru í notkun. Til að leysa úr þessu vandamáli geturðu notað síðuna **Merktar færsluupplýsingar** til að finna færslur sem eru merktar fyrir jöfnun og borið kennsl á aðra ferla sem eru með aðgang að þeim.
-
-Færslur eru merktar fyrir jöfnun annaðhvort þegar lánardrottnareikningar eru greiddir eða þegar viðskiptavinir greiða opna reikningana sína. Stundum getur þegar verið búið að merkja þessa reikninga fyrir jöfnun. Notendur geta því ekki valið þá til greiðslu. Reikningarnir gætu verið merktir af annarri greiðslubók viðskiptavinar, sölupöntun, greiðslubók lánardrottins eða innkaupapöntun í núverandi lögaðila eða öðrum lögaðila.
-
-Ef lokað er fyrir jöfnun færslu þegar þú færir inn greiðslu viðskiptavinar skaltu opna síðuna **Færsluupplýsingar merktar viðskiptavini** (**Viðskiptakröfur \> Reglubundin verk \> Færsluupplýsingar merktar viðskiptavini**). Til að finna á fljótlegan hátt hvar lokað er á færslu geturðu stillt einhverjar af eftirfarandi valfæribreytum: **Viðskiptavinalykill**, **Fylgiskjal**, **Dagsetning** eða **Reikningur**. Ef þú stillir engar valfæribreytur sýnir kerfið öll útilokuð skjöl úr núverandi fyrirtæki eða öðru fyrirtæki sem þú velur. Eftir að færslan sem lokað hefur verið fyrir jöfnun er fundin geturðu valið hana og síðan valið **Afmerkja valdar færslur**. Valin færsla er síðan fjarlægð úr færslubókinni sem inniheldur hana. Hins vegar er skjalið ekki fjarlægt úr hinni staðsetningunni. Aðeins upplýsingar merkingar eru fjarlægðar úr þeirri færslubók.
-
-Ef lokað er fyrir jöfnun á færslu þegar þú færir inn greiðslu lánardrottins skaltu opna síðuna **Færsluupplýsingar merktar lánardrottni** (**Viðskiptaskuldir \> Reglubundin verk \> Færsluupplýsingar merktar lánardrottni**). Til að finna á fljótlegan hátt hvar lokað er á færslu geturðu stillt einhverjar af eftirfarandi valfæribreytum: **Lánardrottnalykill**, **Fylgiskjal**, **Dagsetning** eða **Reikningur**. Ef þú stillir engar valfæribreytur sýnir kerfið öll útilokuð skjöl úr núverandi fyrirtæki eða öðru fyrirtæki sem þú velur. Eftir að færslan er fundin geturðu valið hana og síðan valið **Afmerkja valdar færslur** til að laga vandamál varðandi útilokun. Valin færsla er síðan fjarlægð úr öðrum færslubókum þar sem hún er valin. Hins vegar er skjalið ekki fjarlægt úr hinni staðsetningunni. Aðeins upplýsingar merkingar eru fjarlægðar úr þeirri færslubók.
-
-Til að auðkenna öll útilokuð skjöl skal opna síðuna **Allar merktar færsluupplýsingar** (**Viðskiptakröfur \> Reglubundin verk \> Allar merktar færsluupplýsingar** eða **Viðskiptaskuldir \> Reglubundin verk \> Allar merktar færsluupplýsingar**). Til að finna á fljótlegan hátt hvar lokað er á færslu geturðu stillt einhverjar af eftirfarandi valfæribreytum: **Viðskiptavinalykill**, **Lánardrottnalykill**, **Fylgiskjal**, **Dagsetning** eða **Reikningur**. Ef þú stillir engar valfæribreytur sýnir kerfið öll útilokuð skjöl úr núverandi fyrirtæki eða öðru fyrirtæki sem þú velur. Eftir að færslan er fundin geturðu valið hana og síðan valið **Afmerkja valdar færslur** til að laga vandamál varðandi útilokun. Valin færsla er síðan fjarlægð úr öðrum færslubókum þar sem hún er valin. Hins vegar er skjalið ekki fjarlægt úr hinni staðsetningunni. Aðeins upplýsingar merkingar eru fjarlægðar úr þeirri færslubók.
-
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað vinnusvæði **Eiginleikastjórnun** til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
-
-- **Eining:** Reiðufjár- og bankastjórnun
-- **Heiti eiginleika:** Skjámynd merktra færsluupplýsinga
-
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Gera upp eftirstöðvar](settle-remainder.md)
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,30 +2,26 @@
 title: Hættuleg efni í afurðum, pöntunum, sendingum og förmum
 description: Þetta efnisatriði útskýrir hvernig á að stilla eiginleika hættulegra efna fyrir útgefnar afurðir, hvernig á að setja birgðamörk á hættulegar vörur og hvernig á að taka með hættuleg efni í sölupöntun, sendingu eða farmi.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: d3573aa5f8f986fa4fbf1c9ea8b322a1256aee36
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0bf4ff2188d98adb0052e40a77ff899d4da28063b042947bf124042dfa3fb8cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430530"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758521"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Hættuleg efni í afurðum, pöntunum, sendingum og förmum
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði útskýrir hvernig á að stilla eiginleika hættulegra efna fyrir útgefnar afurðir, hvernig á að setja birgðamörk á hættulegar vörur og hvernig á að taka með hættuleg efni í sölupöntun, sendingu eða farmi.
 
@@ -221,3 +217,6 @@ Til að keyra samhæfisathugun þarf að fylgja þessum skrefum.
 1. Á aðgerðasvæðinu, í flipanum **Farmar**, í flokknum **Aðgerðir**, skal velja **Samhæfisprófun**.
 
 Skilaboð birtast sem sýna niðurstöður athugunarinnar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

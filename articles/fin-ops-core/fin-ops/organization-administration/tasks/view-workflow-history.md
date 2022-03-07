@@ -2,11 +2,9 @@
 title: Skoða verkflæðissögu
 description: Þetta efni lýsir skref til að skoða stöðu skjals sem hefur verið sent inn í kerfi verkflæðis til vinnslu og samþykkis.
 author: jasongre
-manager: AnnBe
 ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowStatus
 audience: Application User
@@ -15,16 +13,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 325478ed89b9c650899001dd08d1c98550fce520
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 0ca9a8bff246cc878a0703947a7f8c1c4fc01963
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798981"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069960"
 ---
 # <a name="view-workflow-history"></a>Skoða verkflæðissögu
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Þetta efni lýsir skref til að skoða stöðu skjals sem hefur verið sent inn í kerfi verkflæðis til vinnslu og samþykkis. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
@@ -46,3 +47,6 @@ ms.locfileid: "4798981"
     - Hnappurinn **Endurúthluta** opnar svarglugga þar sem hægt er að endurúthluta vinnulið til annars notanda.  
     - Gangið úr skugga um að hlutinn **Rakningarupplýsingar** sé stækkaður. Í þessum hluta er hægt að skoða verkflæðissaga sem tengist völdu skjali.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

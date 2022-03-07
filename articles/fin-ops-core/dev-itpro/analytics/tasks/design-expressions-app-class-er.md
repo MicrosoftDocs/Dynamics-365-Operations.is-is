@@ -1,12 +1,10 @@
 ---
 title: Hanna segðir rafrænnar skýrslugerðar til að kalla á aðferðir forritaflokka
-description: Þessi handbók veitir upplýsingar um hvernig á að endurnýta núverandi forritaskrár í grunnstillingu rafrænnar skýrslugerðar (ER) með því að kalla á nauðsynlegar aðferðir við forritaflokka í segðum rafrænnar skýrslugerðar.
+description: Þetta efnisatriði lýsir hvernig á að endurnýta núverandi forritaskrár í grunnstillingu rafrænnar skýrslugerðar (ER) með því að kalla á nauðsynlegar aðferðir við forritaflokka.
 author: NickSelin
-manager: AnnBe
-ms.date: 12/12/2017
+ms.date: 11/02/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,146 +12,180 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 81fae8d3603677afd7dd4b09b9073805f73582b4
+ms.sourcegitcommit: e6b4844a71fbb9faa826852196197c65c5a0396f
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682022"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7751707"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Hanna segðir rafrænnar skýrslugerðar til að kalla á aðferðir forritaflokka
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi handbók veitir upplýsingar um hvernig á að endurnýta núverandi forritaskrár í grunnstillingu rafrænnar skýrslugerðar (ER) með því að kalla á nauðsynlegar aðferðir við forritaflokka í segðum rafrænnar skýrslugerðar. Hægt er að skilgreina gildi frumbreyta fyrir köllunarflokka á keyrslutíma: Til dæmis byggt á upplýsingum í þáttunarskjalinu til að tryggja réttmæti þess. Í þessum leiðbeiningum mun notandi stofna þær grunnstillingar rafrænnar skýrslugerðar sem krafist er fyrir sýnifyrirtækið Litware, Inc. Þetta ferli er hugsað fyrir þá notendur sem hefur verið úthlutað hlutverkum kerfisstjóra eða þróunaraðila rafrænnar skýrslugerðar. 
+Þetta efnisatriði lýsir því hvernig á að endurnýta núverandi forritsrökfræði í [Rafræn skýrslugerð (ER)](../general-electronic-reporting.md) stillingar með því að kalla á nauðsynlegar aðferðir við notkunarflokka í ER tjáningum. Gildi röksemda fyrir að kalla flokka er hægt að skilgreina á kraftmikinn hátt á keyrslutíma. Til dæmis geta gildi byggt á upplýsingum í þáttunarskjalinu til að tryggja réttmæti þess.
 
-Skrefin er hægt að klára með því að nota hvaða gagnasafn sem er. Þú verður líka að hlaða niður og vista eftirfarandi skrá staðbundið: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
+Fyrir dæmið í þessu efnisatriði muntu hanna ferli sem flokkar innkomnar bankayfirlit fyrir uppfærslu forritsgagna. Þú færð móttekna bankayfirlitið sem textaskrár (.txt) sem innihalda IBAN-kóða (International Bank Account Number). Sem hluti af innflutningsferli bankayfirlita verður þú að sannreyna réttmæti IBAN kóðans með því að nota rökfræðina sem þegar er tiltæk.
 
-Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu „Rafræn skýrslugerð Stofna skilgreiningaveitu og merkja hana sem virka.“
+## <a name="prerequisites"></a>Forkröfur
 
-1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
-    * Sannprófið að grunnstillingarveita fyrir sýnifyrirtækið Litware, Inc. sé tiltæk og merkt sem virk. Ef ekki sést þessi skilgreiningarveita, verður fyrst að ljúka við skrefin í ferlinu „Stofna skilgreiningarveitu og merkja hana sem virka”.   
-    * Þú ert að hanna aðferð til að þátta bankayfirlit á innleið fyrir uppfærslu á umsóknargögnum. Þú færð bankayfirlit á innleið sem TXT skrár sem innihalda IBAN kóða. Sem hluti af innflutningsaðferð bankayfirlits þarft þú að sannreyna réttmæti þessa IBAN númera með því að nota rökfræði sem er nú þegar í boði.   
+Verklagsreglurnar í þessu efni eru ætlaðar notendum sem hafa verið úthlutað **Kerfisstjóri** eða **Framkvæmdaraðili rafrænna skýrslugerðar** hlutverki.
+
+Hægt er að ljúka verklagsreglunum með því að nota hvaða gagnasett sem er.
+
+Til að ljúka þeim verður þú að hlaða niður og vista eftirfarandi skrá: [SampleIncomingMessage.txt](https://download.microsoft.com/download/8/0/a/80adbc89-f23c-46d9-9241-e0f19125c04b/SampleIncomingMessage.txt).
+
+Í þessu efnisatriði muntu búa til nauðsynlegar ER stillingar fyrir Litware, Inc. sýnishornsfyrirtækið. Þess vegna verður þú að fylgja þessum skrefum áður en þú lýkur aðferðunum í þessu efni.
+
+1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
+2. Á **Staðsetningarstillingar** síðu, staðfestu að stillingarveitan fyrir **Litware, Inc.** sýnishornsfyrirtæki er tiltækt og merkt sem virkt. Ef þú sérð ekki þessa stillingarveitu verður þú fyrst að ljúka skrefunum í [Búðu til stillingaveitur og merktu þær sem virkar](er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="import-a-new-er-model-configuration"></a>Flytja inn nýja grunnstillingu líkans í Rafræn skýrslugerð
-1. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Velja skal Microsoft reitinn.  
-2. Smella á Geymslur.
-3. Smellt er á Sýna síur.
-4. Bæta við síureit „Gerð heitis“. Í svæðinu heiti skal færa inn gildið „tilföng“, velja síuna „inniheldur“ og smella svo á Nota.
-5. Smellt er á Opin.
-6. Í trénu skal velja „Greiðslulíkan“.
-    * Ef innflutningshnappurinn á flýtiflipa Versions er ekki virkur hefur útgáfa 1 af stillingum „Greiðslulíkan“ rafrænnar skýrslugerðar þegar verið flutt inn. Þú mátt sleppa þeim skrefum sem eftir eru í þessu undirverkefni.   
-7. Smelltu á Flytja inn.
-8. Smella á Já.
-9. Lokið síðunni.
-10. Lokið síðunni.
+
+1. Á **Staðsetningarstillingar** síðu, í **Stillingarveitur** kafla, veldu flísina fyrir **Microsoft** uppsetningarveitu.
+2. Veldu **Geymslur**.
+3. Á **Staðsetningargeymslur** síðu, veldu **Sýna síur**.
+4. Til að velja alþjóðlega geymsluskrána skaltu bæta við a **Nafn** síunarreitur.
+5. Í **Nafn** reit, slá inn **Alþjóðlegt**. Veldu síðan **inniheldur** síu rekstraraðili.
+6. Veljið **Bæta við**.
+7. Veldu **[Opið](../er-download-configurations-global-repo.md#open-configurations-repository)** til að skoða listann yfir ER stillingar í valinni geymslu.
+8. Á **Stillingargeymsla** síðu, í stillingartrénu, veldu **Greiðslulíkan**.
+9. Á **Útgáfur** Flýtiflipi, ef **Flytja inn** hnappur er tiltækur, veldu hann og veldu síðan **Já**.
+
+    Ef **Flytja inn** hnappurinn er ekki tiltækur, þú hefur þegar flutt inn valda útgáfu af **Greiðslulíkan** ER stillingar.
+
+10. Lokaðu **Stillingargeymsla** síðu og lokaðu síðan **Staðsetningargeymslur** síðu.
 
 ## <a name="add-a-new-er-format-configuration"></a>Bæta við nýrri grunnstillingu sniðs í Rafræn skýrslugerð
-1. Smelltu á Grunnstillingar skýrslugerðar
-    * Bæta við nýju sniði fyrir rafræna skýrslugerð til að þátta bankayfirlit á innleið á TXT-sniði.  
-2. Í trénu skal velja „Greiðslulíkan“.
-3. Smellt er á Stofna skilgreiningu til að opna svarglugga.
-4. Í nýja svæðinu, færðu inn „Snið byggir á gagnalíkani PaymentModel“.
-5. Í reitnum Heiti skal færa inn „Innflutningssnið bankayfirlits (dæmi)“.
-    * Innflutningssnið bankayfirlits (dæmi)  
-6. Velja Já í svæði Styður gagnainnflutning.
-7. Smelltu á Stofna skilgreiningu.
 
-## <a name="design-the-er-format-configuration---format"></a>Veljið grunnstillingu rafrænnar skýrslugerðar - snið
-1. Smellið á Hönnuður.
-    * Uppsetta sniðið stendur fyrir væntanlega uppbyggingu ytri skráar á TXT-sniði.  
-2. Smelltu á Bæta við rót til að opna svargluggann.
-3. Í trénu skal velja 'Text\Sequence'.
-4. Í reitnum Heiti skal færa inn ‚rót'.
-    * Rót  
-5. Í reitnum sérstafir skal velja "ný lína - Windows (CR LF)".
-    * Valkosturinn „Ný lína - Windows (CR LF)“ hefur verið valinn í reitnum „sérstafir“. Byggt á þessari stillingu telst sérhver lína í þáttunarskrá aðskilin færsla.  
-6. Smellið á „Í lagi“.
-7. Smelltu á Bæta við til að opna felligluggann.
-8. Í trénu skal velja 'Text\Sequence'.
-9. Í svæðið Heiti skal slá inn „Raðir“.
-    * Línur  
-10. Veljið „Einn margir“ í svæðinu Margfeldi.
-    * Valkosturinn „Einn margir“ hefur verið valinn í svæðinu „Margfeldi“. Byggt á þessari stillingu er gert ráð fyrir að minnsta kosti ein lína verði kynnt í þáttunarskránni.  
-11. Smellið á „Í lagi“.
-12. Í trénu skal velja „Rót\Raðir“.
-13. Smellið á „Bæta við röð“.
-14. Í svæðið Heiti skal slá inn „Svæði“.
-    * Svæði  
-15. Veljið „Akkúrat einn“ í svæðinu Margfeldi.
-16. Smellið á „Í lagi“.
-17. Í trénu skal velja „Rót\Raðir\Reitir“.
-18. Smelltu á Bæta við til að opna felligluggann.
-19. Í trénu skal velja ‚Texti/Strengur'.
-20. Í svæðið Heiti, færðu inn ‚IBAN-númer'.
-    * IBAN-númer  
-21. Smellið á „Í lagi“.
-    * Það hefur verið stillt á að hver lína í þáttunarskrá innihaldi eina IBAN kóðann.  
-22. Smellið á „Vista“.
+Bæta við nýju sniði fyrir rafræna skýrslugerð til að þátta bankayfirlit á innleið á TXT-sniði.
 
-## <a name="design-the-er-format-configuration--mapping-to-data-model"></a>Veljið grunnstillingu rafrænnar skýrslugerðar - vörpun í gagnalíkan
-1. Smellt er á Varpa sniði á líkan.
-2. Smellið á „Nýtt“.
-3. Í svæði Skilgreining skal slá inn „BankToCustomerDebitCreditNotificationInitiation“.
-    * BankToCustomerDebitCreditNotificationInitiation  
-4. „Leysa úr“ breytir skilgreiningu.
-5. Í reitnum Heiti skal færa inn „Vörpun í gagnalíkan“.
-    * Vörpun í gagnalíkan  
-6. Smellið á „Vista“.
-7. Smellið á Hönnuður.
-8. Í trénu skal velja 'Dynamics 365 for Operations\Class'.
-9. Smella á bæta Við rót.
-    * Bæta nýjum gagnagjafa við fyrirliggjandi forritsgrunn fyrir sannprófun IBAN-númera.  
-10. Í svæðið Heiti skal slá inn „check_codes“.
-    * check_codes  
-11. Í reitinn klasi skal færa inn „ISO7064“.
-    * ISO7064  
-12. Smellið á „Í lagi“.
-13. Í trénu skal víkka út „snið“.
-14. Í trénu skal víkka út „snið\Rót: Röð(Rót)“.
-15. Í trénu skal velja „snið\Rót: Röð(Rót)\Raðir: Röð 1..* (Raðir)“.
-16. Smelltu á Binda.
-17. Í trénu skal víkka út „snið\Rót: Röð(Rót)\Raðir: Röð 1..* (Raðir)“.
-18. Í trénu skal víkka út „snið\Rót: Röð(Rót)\Raðir: Röð 1..* (Raðir)\Reitir: Röð 1..1 (Reitir)“.
-19. Í trénu skal víkka út „snið\Rót: Röð(Rót)\Raðir: Röð 1..* (Raðir)\Reitir: Röð 1..1 (Reitir)\IBAN: Strengur(IBAN)“.
-20. Í trénu skal víkka út „Payments = format.Root.Rows“.
-21. Í trénu skal víkka út „Payments = format.Root.Rows\Reikningur lánveitanda(CreditorAccount)“.
-22. Í trénu skal víkka út „Payments = format.Root.Rows\Reikningur lánveitanda(CreditorAccount)\Sannkennsl“.
-23. Í trénu skal velja „Payments = format.Root.Rows\Reikningur lánveitanda(CreditorAccount)\Sannkennsl\IBAN“.
-24. Smelltu á Binda.
-25. Smellt er á flipann Sannprófanir.
-26. Smellið á „Nýtt“.
-    * Bættu við nýrri villuleitarreglu sem sýnir villu fyrir hvaða línu sem er í þáttunarskránni sem inniheldur ógildan IBAN kóða.  
-27. Breyta skilyrði.
-28. Í trénu skal víkka út „check_codes“.
-29. Í trénu skal velja „check_codes\verifyMOD1271_36“.
-30. Smellt er á Bæta við gagnagjafa.
-31. Í Formúlureitinn skal slá inn „check_codes.verifyMOD1271_36('.
-    * check_codes.verifyMOD1271_36(  
-32. Í trénu skal víkka út „snið“.
-33. Í trénu skal víkka út „snið\Rót: Röð(Rót)“.
-34. Í trénu skal víkka út „snið\Rót: Röð(Rót)\Raðir: Röð 1..* (Raðir)“.
-35. Í trénu skal víkka út „snið\Rót: Röð(Rót)\Raðir: Röð 1..* (Raðir)\Reitir: Röð 1..1 (Reitir)“.
-36. Í trénu skal víkka út „snið\Rót: Röð(Rót)\Raðir: Röð 1..* (Raðir)\Reitir: Röð 1..1 (Reitir)\IBAN: Strengur(IBAN)“.
-37. Smellt er á Bæta við gagnagjafa.
-38. Í Formúlureitinn skal slá inn „check_codes.verifyMOD1271_36(format.Root.Rows.Fields.IBAN)“.
-    * check_codes.verifyMOD1271_36(format.Root.Rows.Fields.IBAN)  
-39. Smellið á „Vista“.
-40. Lokið síðunni.
-    * Villuleitarskilyrði hafa verið stillt til að skila FALSE fyrir hvaða ógildan IBAN kóða með því að kalla núverandi aðferð „verifyMOD1271_36“ umsóknarflokksins „ISO7064“. Athugaðu að gildi IBAN-kóðans er skilgreindt gagnvirkt á keyrslutíma sem frumbreyta köllunaraðferðarinnar, byggt á innihaldi TXT þáttunarskráarinnar.   
-41. Smellt er á Breyta skilaboðum.
-42. Í Formúlureitinn skal slá inn „CONCATENATE("Invalid IBAN code has been found: format.Root.Rows.Fields.IBAN)“.
-    * CONCATENATE(„Ógildur IBAN-kóði fannst: “, format.Root.Rows.Fields.IBAN)  
-43. Smellið á „Vista“.
-44. Lokið síðunni.
-45. Smellið á „Vista“.
-46. Lokið síðunni.
+1. Á **Staðsetningarstillingar** síðu, veldu **Skýrslustillingar** flísar.
+2. Á **Stillingar** síðu, í stillingartrénu í vinstri glugganum, veldu **Greiðslulíkan**.
+3. Veljið **Stofna skilgreiningu**. 
+4. Í fellilistanum skaltu fylgja þessum skrefum:
+
+    1. Í svæðinu **Nýtt** skal færa inn **Snið byggir á gagnalíkani PaymentModel**,
+    2. Í **Nafn** reit, slá inn **Innflutningssnið bankayfirlits (sýnishorn)**.
+    3. Í **Styður gagnainnflutning** reit, veldu **Já**.
+    4. Veldu **Búðu til stillingar** til að klára að búa til stillinguna.
+
+## <a name="design-the-er-format-configuration--format"></a>Hannaðu uppsetningu ER sniðs - Format
+
+Hannaðu ER snið sem táknar væntanlega uppbyggingu ytri skráar á TXT sniði.
+
+1. Fyrir **Innflutningssnið bankayfirlits (sýnishorn)** sniðstillingu sem þú bættir við skaltu velja **Hönnuður**.
+2. Á **Sniðhönnuður** síðu, í sniðbyggingartrénu í vinstri glugganum, veldu **Bæta við rót**.
+3. Í svarglugganum sem kemur upp skal fylgja þessum skrefum:
+
+    1. Í trénu, veldu **Texti\\ Röð** að bæta við a **Röð** sniði hluti.
+    2. Í **Nafn** reit, slá inn **Rót**.
+    3. Í **Sérstakar** reit, veldu **Ný lína - Windows (CR LF)**. Byggt á þessari stillingu verður hver lína í þáttunarskránni talin sérstök skrá.
+    4. Veldu **Í lagi**.
+
+4. Veljið **Bæta við**.
+5. Í svarglugganum sem kemur upp skal fylgja þessum skrefum:
+
+    1. Í trénu, veldu **Texti\\ Röð**.
+    2. Í **Nafn** reit, slá inn **Raðir**.
+    3. Í reitnum **Margfeldi** skaltu velja **Einn margir**. Byggt á þessari stillingu er búist við að að minnsta kosti ein lína sé til staðar í þáttunarskránni.
+    4. Veldu **Í lagi**.
+
+6. Í trénu, veldu **Rót\\ Raðir**, og veldu síðan **Bæta við röð**.
+7. Í svarglugganum sem kemur upp skal fylgja þessum skrefum:
+
+    1. Í **Nafn** reit, slá inn **Fields**.
+    2. Í **Margföldun** reit, veldu **Nákvæmlega einn**.
+    3. Veldu **Í lagi**.
+
+8. Í trénu, veldu **Rót\\ Raðir\\ Fields**, og veldu síðan **Bæta við**.
+9. Í svarglugganum sem kemur upp skal fylgja þessum skrefum:
+
+    1. Í trénu, veldu **Texti\\ Strengur**.
+    2. Í **Nafn** reit, slá inn **IBAN**.
+    3. Veldu **Í lagi**.
+
+10. Veldu **Vista**.
+
+Stillingin er nú sett upp þannig að hver lína í þáttunarskránni inniheldur aðeins IBAN kóðann.
+
+![Innflutningssnið bankayfirlits (sýnishorn) sniðsstillingar á síðunni Sniðhönnuður.](../media/design-expressions-app-class-er-01.png)
+
+## <a name="design-the-er-format-configuration--mapping-to-a-data-model"></a>Hannaðu uppsetningu ER sniðs - Kortlagning á gagnalíkan
+
+Hannaðu kortlagningu ER sniðs sem notar upplýsingar úr þáttunarskránni til að fylla út gagnalíkan.
+
+1. Á **Sniðhönnuður** síðu, á aðgerðarrúðunni, veldu **Korta snið að líkani**.
+2. Á **Líkan til kortlagningar gagnagjafa** síðu, á aðgerðarrúðunni, veldu **Nýtt**.
+3. Í **Skilgreining** reit, veldu **BankToCustomerDebitCreditNotificationInitiation**.
+4. Í **Nafn** reit, slá inn **Kortlagning í gagnalíkan**.
+5. Veldu **Vista**.
+6. Veljið **Hönnuður**.
+7. Á **Módelkortahönnuður** síðu, í **Tegundir gagnagjafa** tré, veldu **Dynamics 365 for Operations\\ bekk**.
+8. Í **Uppsprettur gagna** kafla, veldu **Bæta við rót** til að bæta við gagnagjafa sem kallar á núverandi forritsrökfræði fyrir staðfestingu IBAN kóða.
+9. Í svarglugganum sem kemur upp skal fylgja þessum skrefum:
+
+    1. Í **Nafn** reit, slá inn **Athugaðu\_ kóða**.
+    2. Í **bekk** reit, sláðu inn eða veldu **ISO7064**.
+    3. Veldu **Í lagi**.
+
+10. Í **Tegundir gagnagjafa** tré, fylgdu þessum skrefum:
+
+    1. Stækkaðu **sniði** gagnagjafa.
+    2. Stækkaðu **sniði\\ Rót: Röð (rót)**.
+    3. Stækkaðu **sniði\\ Rót: Röð (rót)\\ Raðir: Röð 1..\* (Raðir)**.
+    4. Stækkaðu **sniði\\ Rót: Röð (rót)\\ Raðir: Röð 1..\* (Raðir)\\ Reitir: Röð 1..1 (reitir)**.
+
+11. Í **Gagnalíkan** tré, fylgdu þessum skrefum:
+
+    1. Stækkaðu **Greiðslur** sviði gagnalíkans.
+    2. Stækkaðu **Greiðslur\\ Kröfuhafareikningur (Creditor Account)**.
+    3. Stækkaðu **Greiðslur\\ Kröfuhafareikningur (Creditor Account)\\ Auðkenning**.
+    4. Stækkaðu **Greiðslur\\ Kröfuhafareikningur (Creditor Account)\\ Auðkenning\\ IBAN**.
+
+12. Fylgdu þessum skrefum til að binda íhluti á stillta sniðinu við reiti gagnalíkana:
+
+    1. Veldu **sniði\\ Rót: Röð (rót)\\ Raðir: Röð 1..\* (Raðir)**.
+    2. Veldu **Greiðslur**.
+    3. Veldu **Binda**. Miðað við þessa stillingu verður hver lína í þáttunarskránni talin ein greiðsla.
+    4. Veldu **sniði\\ Rót: Röð (rót)\\ Raðir: Röð 1..\* (Raðir)\\ Reitir: Röð 1..1 (reitir)\\ IBAN: String(IBAN)**.
+    5. Veldu **Greiðslur\\ Kröfuhafareikningur (Creditor Account)\\ Auðkenning\\ IBAN**.
+    6. Veldu **Binda**. Byggt á þessari stillingu er **IBAN** reit gagnalíkans verður fyllt út með gildinu úr þáttunarskránni.
+
+    ![Binding sniðíhluta við reiti gagnalíkana á síðunni Hönnuðir líkanakorta.](../media/design-expressions-app-class-er-02.png)
+
+13. Á **Staðfestingar** flipanum skaltu fylgja þessum skrefum til að bæta við a [löggildingu](../general-electronic-reporting-formula-designer.md#Validation) regla sem sýnir villuboð fyrir hvaða línu sem er í þáttunarskránni sem inniheldur ógildan IBAN kóða:
+
+    1. Veldu **Nýtt**, og veldu síðan **Breyta ástandi**.
+    2. Á **Formúluhönnuður** síðu, í **Uppspretta gagna** tré, stækkaðu **Athugaðu\_ kóða** gagnagjafi sem táknar **ISO7064** forritaflokki til að skoða tiltækar aðferðir þessa flokks.
+    3. Veldu **Athugaðu\_ kóða\\ verifyMOD1271\_ 36**.
+    4. Veldu **Bæta við gagnagjafa**.
+    5. Í **Formúla** reit, sláðu inn eftirfarandi [tjáningu](../general-electronic-reporting-formula-designer.md#Binding) :**Athugaðu\_ codes.verifyMOD1271\_ 36(snið.Root.Rows.Fields.IBAN)**.
+    6. Veljið **Vista** og lokið síðan skjámyndinni.
+    7. Veldu **Breyta skilaboðum**.
+    8. Á **Formúluhönnuður** síðu, í **Formúla** reit, slá inn **CONCATENATE("Ógildur IBAN kóði fannst:&nbsp; ", format.Root.Rows.Fields.IBAN)**.
+    9. Veljið **Vista** og lokið síðan skjámyndinni.
+
+    Byggt á þessum stillingum mun staðfestingarskilyrðið koma aftur *[RANGT](../er-formula-supported-data-types-primitive.md#boolean)* fyrir ógildan IBAN kóða með því að hringja í núverandi **verifyMOD1271\_ 36** aðferð við **ISO7064** umsóknarflokkur. Athugaðu að gildi IBAN kóðans er virkt skilgreint á keyrslutíma sem rök köllunaraðferðarinnar, byggt á innihaldi þáttunartextaskrárinnar.
+
+    ![Staðfestingarregla á síðunni Hönnuður líkanakortlagningar.](../media/design-expressions-app-class-er-03.png)
+
+14. Veldu **Vista**.
+15. Lokaðu **Módelkortahönnuður** síðu og lokaðu síðan **Líkan til kortlagningar gagnagjafa** síðu.
 
 ## <a name="run-the-format-mapping"></a>Keyra vörpun sniðs
-Til að prófa, skal framkvæma vörpun sniðs með SampleIncomingMessage.txt-skránni sem þú sóttir. Myndað úttak inniheldur gögn sem verða flutt inn úr valinni TXT-skrá og fyllt út í sérstillt gagnalíkan í rauninnflutningi.   
-1. Smellið á „Keyra“.
-    * Smellt er á Fletta og flett á skrána SampleIncomingMessage.txt sem áður var sótt.  
-2. Smellið á „Í lagi“.
-    * Farið yfir úttak í XML-sniði, sem stendur fyrir gögn sem hafa verið innflutt úr valinni skrá og tengd við gagnalíkan. Athugaðu að aðeins 3 línur af innfluttri TXT-skrá voru unnar. IBAN-númerið á línu 4 sem er ógilt var sleppt og villuskilaboð eru veitt í Infolog.  
 
+Í prófunarskyni skaltu keyra sniðkortlagninguna með því að nota SampleIncomingMessage.txt skrána sem þú sóttir áðan. Mynduð framleiðsla mun innihalda gögn sem eru flutt inn úr völdu textaskránni og flutt í sérsniðna gagnalíkanið meðan á raunverulegum innflutningi stendur.
+
+1. Á **Líkan til kortlagningar gagnagjafa** síðu, veldu **Hlaupa**.
+2. Á **Rafræn skýrslufæribreytur** síðu, veldu **Skoðaðu**, flettu að **SampleIncomingMessage.txt** skrána sem þú halaðir niður og veldu hana.
+3. Veldu **Í lagi**.
+4. Taktu eftir því að **Líkan til kortlagningar gagnagjafa** síða sýnir villuboð um ógildan IBAN kóða.
+
+    ![Niðurstaðan af því að keyra sniðvörpunina á Vörpun líkan til gagnaveitu.](../media/design-expressions-app-class-er-04.png)
+
+5. Farið yfir úttak í XML-sniði, sem stendur fyrir gögn sem hafa verið innflutt úr valinni skrá og tengd við gagnalíkan. Taktu eftir að aðeins þrjár línur af innfluttu textaskránni voru unnar án villna. IBAN kóðann á netinu 4 er ekki gildur og var sleppt.
+
+    ![XML úttak.](../media/design-expressions-app-class-er-05.png)
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

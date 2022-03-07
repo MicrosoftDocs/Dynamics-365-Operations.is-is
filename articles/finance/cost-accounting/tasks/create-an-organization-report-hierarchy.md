@@ -2,11 +2,9 @@
 title: Stofna stigveldi fyrirtækis fyrir skýrslur
 description: Nota þetta ferli til að stofna skýrslustigveldi fyrir skýrslugerð fyrirtækis.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51cd97ac2b78035224db543e3bcc5d606a16ffde
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 4e9d5cc6fd6188c988a433fcd7f2bf81bf31668edf762c0ed3bcbf67477a4e35
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969404"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719271"
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Stofna stigveldi fyrirtækis fyrir skýrslur
 
@@ -94,3 +92,6 @@ Nota þetta ferli til að stofna skýrslustigveldi fyrir skýrslugerð fyrirtæk
     * Velja víddarstakið sem samsvarar hnútinum.  
 59. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

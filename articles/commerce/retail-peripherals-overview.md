@@ -1,29 +1,28 @@
 ---
 title: Jaðarbúnaður
 description: Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki Commerce.
-author: rubencdelgado
-manager: AnnBe
+author: BrianShook
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 268444
+ms.custom:
+- "268444"
+- intro-internal
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dbf78eec6c1b25056342f9709f3b047a8bb822ff
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413279"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779847"
 ---
 # <a name="peripherals"></a>Jaðarbúnaður
 
@@ -122,7 +121,7 @@ Til að aðstoða við að tryggja að hægt sé að nota stærsta svið tækja 
 -   **Stýringarhlutur** – Stýringarhlutur fyrir tækjaklasa (t.d. línubirting) veitir viðmót fyrir hugbúnaðarforritið. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) veitir staðlaðan listi eða samsafn af OPOS stýrihlutir sem eru þekkt sem almennir stýringarhlutir (CCOs). CCOs eru notaðir til að prófa POS-íhluti Commerce. Þess vegna hjálpar prófun til við að tryggja að ef Commerce styður tækjaklasa gegnum OPOS, geta margar gerðir smásölutækja verið studdur að ví tilskildu að framleiðanda veitir þjónustuhlut sem er byggð á fyrir OPOS. Ekki þarf að prófa sérstaklega hverja gerð tækis.
 -   **Þjónustuhlutur** – Þjónustuhlutur veitir samskipti milli Stýringar hlutur (CCO) og tæki. Yfirleitt er þjónustuhlutur fyrir tæki veittur af framleiðanda tækis. Hins vegar gæti í sumum tilfellum þurft að sækja þjónustuhlutinn frá vefsvæði framleiðanda. Til dæmis gæti nýrri þjónustuhlutur verið tiltækur. Til að finna aðsetur framleiðanda á vefsvæði skal sjá fylgigögn vélbúnaðarreglu.
 
-[![Stjórnhlutur og þjónustuhlutur](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Stuðningur fyrir OPOS-innleiðingu á OLE fyrir POS hjálpar til við að tryggja að ef tækjaframleiðendur og útgefendur POS innleiða staðalinn rétt geta POS-kerfi og studd tæki unnið saman, jafnvel þótt þau hafi ekki verið áður prófað saman. 
+[![ Stýringarhlutur og þjónustuhlutur.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Stuðningur fyrir OPOS-innleiðingu á OLE fyrir POS hjálpar til við að tryggja að ef tækjaframleiðendur og útgefendur POS innleiða staðalinn rétt geta POS-kerfi og studd tæki unnið saman, jafnvel þótt þau hafi ekki verið áður prófuð saman. 
 
 > [!NOTE]
 > OPOS-stuðningur tryggir ekki samræmdan stuðning fyrir öll tæki með OPOS-reklum. Commerce verður fyrst að styðja þá tækjagerð eða klasa, gegnum OPOS. Þar að auki eru þjónustuhlutir hugsanlega ekki alltaf uppfærðir með nýjustu útgáfu af CCOs. Það ætti einnig að hafa í huga að, almenna gæði þjónustuhluta eru breytileg.
@@ -146,6 +145,9 @@ UWP, þegar um jaðartæki er að ræða, tengist stuðningi Windows fyrir Plug 
 
 Lyklaborðstengingartæki senda gögn í tölvuna eins og þau gögn hafi verið slegin inn á lyklaborð. Þess vegna er sjálfgefið að svæði sem er virkt í POS móttekur gögn sem er skönnuð eða sem var lesið. Í sumum tilvikum getur þessi virkni valdið því að röng gagnagerð er skönnuð á rangt svæði. Til dæmis gæti strikamerki verið skannað inn í svæði sem er ætlað fyrir innfærslu gagna kreditkorts. Í mörgum tilvikum er rök í Pos sem ákvarðar hvort gögn sem er skönnuð eða sem var lesið er strikamerki eða greiðslukortalestur. Þess vegna eru gögnin meðhöndluð rétt. Hins vegar þegar tæki eru sett upp sem OPOS í stað lyklaborðstengingartækja, er meiri stjórn á því hvernig hægt er að nota gögn úr þessum tækjum, þar sem meira er „vitað" um tækið sem gögnin eiga uppruna sinn í. Til dæmis eru gögn úr strikamerkjaskanni sjálfkrafa viðurkennd sem strikamerki og tengd færsla í gagnagrunninum finnst betur og hraðar en ef almennan strengjaleit voru notuð, eins og tilfelli lyklaborðtengingartækja.
 
+> [!NOTE]
+> Þegar lyklaborðstenging við skanna er notuð á sölustað þarf að forrita hana til að senda boð til baka eða tilvik **Færslulykils** á eftir síðasta skannað staf. Ef þessi skilgreining er ekki gerð mun lyklaborðstenging við skanna ekki virka á réttan hátt. Skoðið fylgigögnin sem tækjaframleiðandi veitir til að fá upplýsingar um hvernig á að bæta við tilviki vegna boða sem send eru til baka.  
+
 ### <a name="native-printer"></a>Innbyggður prentari
 
 Innbryggðir (eða "Tækis" sem gerðin sem er nefnd í vélbúnaðarreglunni) prentara er hægt að skilgreina til að biðja notandann til að velja prentara sem er skilgreindur fyrir tölvuna. Þegar prentari af gerðinni **Tækið** er grunnstilltur, ef Modern POS finnur prentskipun, er notandi beðinn um að velja prentara úr listanum. Þessi hegðun er frábrugðið hegðun fyrir Windows-rekla, þar sem prentaragerð **Windows** í vélbúnaðarregluna sýnir ekki lista yfir prentara. Þess í stað krefst hún þess að nefndur prentari sé veittur í svæðinu **tækjaheiti**.
@@ -158,7 +160,7 @@ Hægt er að nota netslóðartengdar peningaskúffur, kvittanaprentara og afgrei
 
 ### <a name="dedicated"></a>Sérnýtt
 
-Modern POS viðskiptavinir fyrir Windows og Android fela í sér **Sérnýtt** eða innbyggðar vélbúnaðarstöðvar. Þessir viðskiptavinir geta haft samskipti beint við jaðartæki með viðskiptatækni sem er innbyggð í forritin. Forritið Android styður aðeins nettæki. Fyrir frekari upplýsingar um jaðarstuðning við Android skaltu fara í greinnina [Setja upp forrit POS Hybrid á Android og iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Modern POS viðskiptavinir fyrir Windows og Android fela í sér **Sérnýtt** eða innbyggðar vélbúnaðarstöðvar. Þessir viðskiptavinir geta haft samskipti beint við jaðartæki með viðskiptatækni sem er innbyggð í forritin. Forritið Android styður aðeins nettæki. Fyrir frekari upplýsingar um jaðarstuðning við Android skaltu fara í greinnina [Setja upp forrit POS Hybrid á Android og iOS](./dev-itpro/hybridapp.md).
 
 Til að nota sérnýtta vélbúnaðarstöð skal úthluta vélbúnaðarreglu á afgreiðslukassa sem á að nota forritið Modern POS fyrir forrit Windows eða Android. Síðan er stofnuð vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina sem afgreiðslukassinn verður notað. Ræstu Mdoern POS án peningaskúffu og notaðu aðgerðina **Stjórna vélbúnaðarstöðvum** til að kveikja á getu vélbúnaðarstöðvarinnar, sérnýtt vélbúnaðarstöð verður sjálfgefið virk. Næst skaltu skrá þig út úr Modern POS, skráðu þig svo aftur inn og opnaðu vakt og jaðartæki sem eru samsett í vélbúnaðar sniðinu verða nothæf. 
 
@@ -199,14 +201,14 @@ Nánari upplýsingar er að finna í [Skilgreina, setja upp og virkja Modern POS
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Uppsetning og skilgreining á Modern POS fyrir Android og iOS
 
-Nánari upplýsingar er að finna í [Setja upp POS Hybrid-forrit í Android og iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+Nánari upplýsingar er að finna í [Setja upp POS Hybrid-forrit í Android og iOS](./dev-itpro/hybridapp.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>Uppsetning og skilgreining á OPOS-tæki
 
 Nánari upplýsingar um íhluti OPOS er að finna í "Studd viðmót" hluta þessa skjals. Venjulega eru OPOS-reklar veittir af framleiðanda tækis. Þegar OPOS-tækjarekill hefur verið uppsettur bætir hann við lykli við Windows-stýriskrárinnar í einu af eftirfarandi stöðum:
 
--   **32 bita kerfi:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **64 bita kerfi:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   **32 bita kerfi:** HKEY\_ LOCAL\_ MACHINESOFTWAREOLEforRetailServiceOPOS
+-   **64 bita kerfi:** HKEY\_ LOCAL\_ MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
 
 Innan staðsetningu ServiceOPOS stýriskrárinnar er skilgreindum tækjum raðað eftir OPOS-tækjaklasa. Margir tækjareklar eru vistaðir.
 
@@ -494,7 +496,7 @@ Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [S
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS fyrir Android með (innbyggðri) IPS vélbúnaðarstöð
 
-**Nýtt fyrir 10.0.8** - Epson netprentarar og peningaskúffur tengdir þessum prenturum í gegnum DK-tengi eru nú studdir fyrir Modern POS fyrir Android-forrit. Nánari upplýsingar er að finna í greininni [Setja upp forrit POS Hybrid á Android og iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
+**Nýtt fyrir 10.0.8** - Epson netprentarar og peningaskúffur tengdir þessum prenturum í gegnum DK-tengi eru nú studdir fyrir Modern POS fyrir Android-forrit. Nánari upplýsingar er að finna í greininni [Setja upp forrit POS Hybrid á Android og iOS](./dev-itpro/hybridapp.md).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Allir biðlarar Modern POS með ráðstafaða „samnýtta” IIS vélbúnaðarstöð
 
@@ -560,7 +562,7 @@ Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [S
 > Ef tæki nota mismunandi vélbúnaðarstöðvar oft er ráðlagt að skilgreina Modern POS til að senda kvaðningu á gjaldkera til að velja vélbúnaðarstöð þegar þeir byrja á greiðslumátaferli. Smella á **Retail og Commerce** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Afgreiðslukassar**. Veljið afgreiðslukassa og stillið valkostinn **Velja við greiðslumáta** á **Já**. Notaðu **1090** dreifingaráætlun til að samstilla breytingar við gagnagrunn rásar.
 
 ## <a name="extensibility"></a>Stækkunarhæfni
-Sjá upplýsingar um stækkunarhæfniaðstæður fyrir vélabúnaðarstöð í [Stækkunarhæfni vélbúnaðarstöðvar](dev-itpro/hardware-station-extensibility.md).
+Sjá upplýsingar um aðstæður stækkunarhæfni fyrir vélabúnaðarstöð í [Samþætta POS við nýjan vélbúnað og mynda uppsetningarforrit viðbótar](dev-itpro/hardware-device-extension.md).
 
 ## <a name="security"></a>Öryggi
 Samkvæmt gildandi öryggisstöðlum á að nota eftirfarandi stillingar í framleiðsluumhverfi: 
@@ -576,7 +578,7 @@ Sjálfgefið er að SSL og allar útgáfur af TLS nema TLS 1.2 eru gerðar óvir
     1.  Styðjið á merki Windows lykill + Rannsókn til að opna í **Keyra** glugga.
     2.  Í svæðinu **Opna** ritið **Regedit**, og smellið síðan á **í lagi**.
     3.  Ef að **Stjórnun notendareikninga** skilaboðagluggi birtist er smellt á **Já**.
-    4.  Í glugganum **Stýriskrána Ritill** fara í **HKEY\_STAÐBUNDNA\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Eftirfarandi lyklar hafa verið sjálfkrafa færðar inn til að leyfa aðeins fyrir TLS 1,2:
+    4.  Í glugganum **Stýriskrána Ritill** fara í **HKEY\_ STAÐBUNDNA\_ MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**. Eftirfarandi lyklar hafa verið sjálfkrafa færðar inn til að leyfa aðeins fyrir TLS 1,2:
         -   TLS 1.2Server:Enabled=1
         -   TLS 1.2Server:DisabledByDefault=0
         -   TLS 1.2Client:Enabled=1
@@ -614,6 +616,9 @@ Eftirfarandi jaðartæki voru prófuð með því að nota IPC vélbúnaðarstö
 | Star         | TSP650II | Sérsniðinn    | Tengt gegnum netkerfi   |
 | Star         | mPOP     | OPOS      | Tengt gegnum Bluetooth |
 | HP           | F7M67AA  | OPOS      | Rafhlöðu USB             |
+
+> [!NOTE]
+> Star TSP 100 prentarinn er ekki studdur fyrir innbyggða vélbúnaðarstöðina. Innbyggða vélbúnaðarstöðin notar 64-bita ferli sem er ekki samhæft við núverandi Star TP 100 rekla. 
 
 #### <a name="bar-code-scanner"></a>Strikamerkjaskanni
 
@@ -763,7 +768,6 @@ Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérh
 | Epson        | TM-T88V  | OPOS      |                           |
 | Epson        | TM-T88   | Sérsniðinn    | Tengt gegnum netkerfi     |
 | Star         | TSP650II | Sérsniðinn    | Tengt gegnum netkerfi     |
-| Star         | TSP100   | OPOS      | Krefst TSP650II-rekla |
 | HP           | F7M67AA  | OPOS      | Rafhlöðu USB               |
 
 #### <a name="payment-terminal"></a>Greiðslustöð
@@ -789,7 +793,7 @@ Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérh
 **Lausn:** Staðfesta eftirfarandi lista yfir hugsanlega bilunarpunkta:
 
 -   Tölvan sem keyrir Modern POS treystir skírteini sem er notað er á tölvunni sem keyrir vélbúnaðarstöðina.
-    -   Til að sannreyna þessa uppsetningu í vafra skaltu fara á eftirfarandi slóð: https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping.
+    -   Til að sannreyna þessa uppsetningu í vafra skaltu fara á eftirfarandi slóð: https://&lt; Computer Name&gt;:&lt; Port Number&gt;/HardwareStation/ping.
     -   Þessi SLÓÐ notar ping-boð til að staðfesta að hægt sé að fara í tölvuna og vafrinn gefur til kynna hvort skírteininu sé treyst. (Til dæmis birtist lástáknið í Internet Explorer á veffangastikunni. Þegar smellt er á þetta tákn staðfestir Internet Explorer hvort skírteininu sé treyst eins og stendur. Hægt er að setja skírteinið upp á staðbundnu tölvunni með því að skoða upplýsingar um skírteinið sem birtast.)
 -   Á tölvunni sem keyrir vélbúnaðarstöðina er tengið sem verður notað af vélbúnaðarstöðinni opinn í eldvegg.
 -   Vélbúnaðarstöðin hefur rétt sett upp upplýsingar söluaðila með verkfærinu Setja upp upplýsingar um söluaðila sem keyrist við lok uppsetningarforrits vélbúnaðarstöðvar.
@@ -831,9 +835,11 @@ Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérh
     6.  Endurræsa Modern POS eftir hýsir DLL hefur verið lokað.
 
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Jaðarhermibúnaður fyrir Commerce](dev-itpro/retail-peripheral-simulator.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

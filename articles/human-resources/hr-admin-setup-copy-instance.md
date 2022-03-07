@@ -2,15 +2,12 @@
 title: Afritið tilvik
 description: Þú getur notað Microsoft Dynamics Lifecycle Services (LCS) til að afrita Microsoft Dynamics 365 Human Resources gagnagrunn í sandkassaumhverfi.
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,16 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 22aa33135535d543eb8fe437821cab7a4865d6df
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527838"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060832"
 ---
 # <a name="copy-an-instance"></a>Afritið tilvik
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Þú getur notað Microsoft Dynamics Lifecycle Services (LCS) til að afrita Microsoft Dynamics 365 Human Resources gagnagrunn í sandkassaumhverfi. Ef þú ert með annað sandkassaumhverfi geturðu einnig afritað gagnagrunninn úr því umhverfi yfir í markviss sandkassaumhverfi.
 
@@ -39,9 +38,9 @@ Til að afrita tilvik skal hafa eftirfarandi í huga:
 
 - Þú verður að vera stjórnandi í markumhverfinu svo þú getir skráð þig inn á það eftir að hafa afritað tilvikið.
 
-- Þegar þú afritar gagnagrunn Human Resources, afritar þú ekki þá þætti (forrit eða gögn) sem eru í Microsoft Power Apps-umhverfi. Fyrir upplýsingar um hvernig á að afrita þætti í Power Apps-umhverfi, sjá [Afrita umhverfi](https://docs.microsoft.com/power-platform/admin/copy-environment). Power Apps-umhverfið sem þú vilt skrifa yfir verður að vera sandkassaumhverfi. Þú verður að vera alþjóðlegur leigjandi stjórnandi til að breyta Power Apps-framleiðsluumhverfi í sandkassaumhverfi. Fyrir frekari upplýsingar um að breyta Power Apps-umhverfi, sjáðu [Skiptu um dæmi](https://docs.microsoft.com/dynamics365/admin/switch-instance).
+- Þegar þú afritar gagnagrunn Human Resources, afritar þú ekki þá þætti (forrit eða gögn) sem eru í Microsoft Power Apps-umhverfi. Fyrir upplýsingar um hvernig á að afrita þætti í Power Apps-umhverfi, sjá [Afrita umhverfi](/power-platform/admin/copy-environment). Power Apps-umhverfið sem þú vilt skrifa yfir verður að vera sandkassaumhverfi. Þú verður að vera alþjóðlegur leigjandi stjórnandi til að breyta Power Apps-framleiðsluumhverfi í sandkassaumhverfi. Fyrir frekari upplýsingar um að breyta Power Apps-umhverfi, sjáðu [Skiptu um dæmi](/dynamics365/admin/switch-instance).
 
-- Ef tilvik er afritað inn í sandkassaumhverfi og ætlunin er að samþætta sandkassaumhverfið við Common Data Service þarf að endurnota sérstillta reiti í Common Data Service einingarnar. Sjá [Nota sérstillta reiti á Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
+- Ef tilvik er afritað inn í sandkassaumhverfi og ætlunin er að samþætta sandkassaumhverfið við Dataverse þarf að endurnota sérstillta reiti í Dataverse töflurnar. Sjá [Nota sérstillta reiti á Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Áhrif afritunar gagnagrunns Human Resources
 
@@ -53,9 +52,9 @@ Eftirfarandi atburðir eiga sér stað þegar þú afritar gagnagrunn Human Reso
 
 - Skjöl í Microsoft Azure Blob geymsla er ekki afrituð úr einu umhverfi í annað. Þar af leiðandi verða öll skjöl og sniðmát sem eru hengd við ekki afrituð og verða áfram í upprunaumhverfinu.
 
-- Allir notendur nema stjórnandi og aðrar notendareikningar innri þjónustu verða gerðir óvirkir. Stjórnandi getur eytt eða lokað á gögn áður en aðrir notendur eru leyfðir aftur í kerfinu.
+- Allir notendur nema þeir sem eru með „kerfisstjóra“ öryggishlutverkið og aðra aðganga notenda að innri þjónustu verða ekki tiltækir. Stjórnandi getur eytt eða lokað á gögn áður en aðrir notendur eru leyfðir aftur í kerfinu.
 
-- Stjórnandi notandinn verður að gera nauðsynlegar stillingarbreytingar, svo sem aftur að tengja endapunkta samþættingar við tiltekna þjónustu eða vefslóðir.
+- Allir notendur með öryggishlutverk „kerfisstjóra“ verða að gera nauðsynlegar breytingar á stillingum, svo sem að endurtengja endapunkta samþættingar við tiltekna þjónustu eða vefslóðir.
 
 ## <a name="copy-the-human-resources-database"></a>Afritaðu gagnagrunn Human Resources
 
@@ -72,15 +71,15 @@ Til að ljúka þessu verkefni afritarðu fyrst dæmi og skráir þig síðan in
 
 4. Í verkglugganum **Afritaðu dæmi**, veldu dæmið sem á að skrifa yfir og veldu síðan **Afrita**. Bíddu eftir því að gildið í reitnum **Afrita stöðu** sé uppfært í **Lokið**.
 
-   ![[Veldu dæmi til að skrifa yfir](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Veldu tilvik til að skrifa yfir.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Veldu **Power Platform** og skráðu þig inn í Admin Center Microsoft Power Platform.
 
-   ![[Veldu Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Veldu Power Platform .](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Veldu Power Apps-umhverfið sem á að afrita og veldu síðan **Afrita**.
 
-7. Þegar afritunarferlinu er lokið, skráðu þig inn á markstaðinn og virkjaðu samþættinguna Common Data Service. Nánari upplýsingar og leiðbeiningar, sjá [Skilgreina samþættingu Common Data Service](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. Þegar afritunarferlinu er lokið, skráðu þig inn á markstaðinn og virkjaðu samþættinguna Dataverse. Nánari upplýsingar og leiðbeiningar, sjá [Skilgreina samþættingu Dataverse](./hr-admin-integration-common-data-service.md).
 
 ## <a name="data-elements-and-statuses"></a>Gagnaþátta og staða
 
@@ -112,7 +111,7 @@ Sumar þessara eininga eru ekki afritaðar vegna þess að þær eru háðar til
 
 Einnig breytast eftirfarandi stöður þegar tilvik er afritað:
 
-- Allir notendur nema stjórnandi eru stilltir á **Avirkjað**.
+- Allir notendur nema þeir sem hafa öryggishlutverkið „Kerfisstjóri“ eru stilltir á **Óvirkt**.
 
 - Allar runuvinnslur nema nokkrar kerfisvinnslur eru stilltar á **Halda eftir**.
 
@@ -122,11 +121,11 @@ Einnig breytast eftirfarandi stöður þegar tilvik er afritað:
 
 Allir notendur sem ekki eru kerfisstjórar í markkassasumhverfinu eru óvirkir til að koma í veg fyrir óæskileg innritun í sandkassaumhverfið. Stjórnendur geta endurtekið notendur ef þörf er á.
 
-## <a name="apply-custom-fields-to-common-data-service"></a>Nota sérstillta reiti á Common Data Service
+## <a name="apply-custom-fields-to-dataverse"></a>Nota sérstillta reiti á Dataverse
 
-Ef tilvik er afritað inn í sandkassaumhverfi og ætlunin er að samþætta sandkassaumhverfið við Common Data Service þarf að endurnota sérstillta reiti í Common Data Service einingarnar.
+Ef tilvik er afritað inn í sandkassaumhverfi og ætlunin er að samþætta sandkassaumhverfið við Dataverse þarf að endurnota sérstillta reiti í Dataverse töflurnar.
 
-Fyrir hvern sérstilltan fyrir Common Data Service einingar skal gera eftirfarandi:
+Fyrir hvern sérstilltan reit sem birtist í Dataverse-töflum skal fara í gegnum eftirfarandi skref:
 
 1. Farið í sérstillta reitinn og veljið **Breyta völdu**.
 
@@ -140,9 +139,9 @@ Fyrir hvern sérstilltan fyrir Common Data Service einingar skal gera eftirfaran
 
 6. Veljið **Nota breytingar** aftur.
 
-Ferlið við að afturkalla valið, nota breytingar, endurvelja og endurnota breytingar kalla á uppfærslu skema í Common Data Service til að taka með sérstillta reiti.
+Ferlið við að afturkalla valið, nota breytingar, endurvelja og endurnota breytingar kalla á uppfærslu skema í Dataverse til að taka með sérstillta reiti.
 
-Frekari upplýsingar um sérsniðna reiti er að finna á [Stofna og vinna með sérstillt svæði](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
+Frekari upplýsingar um sérsniðna reiti er að finna á [Stofna og vinna með sérstillt svæði](../fin-ops-core/fin-ops/get-started/user-defined-fields.md).
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -150,3 +149,6 @@ Frekari upplýsingar um sérsniðna reiti er að finna á [Stofna og vinna með 
 [Fjarlægja tilvik](hr-admin-setup-remove-instance.md)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

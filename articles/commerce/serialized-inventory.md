@@ -2,26 +2,23 @@
 title: Endurbætur á sölustað fyrir raðaðar afurðir
 description: Þetta efnisatriði sýnir endurbætur sem hafa verið gerðar á röðuðum vörum til að hjálpa þér að spara tíma og auka afköst.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bf3a6a2b713e5fe1fe22ae886080945e7a87c9b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 9b988e8046fadad4579a12966a5031929202e7411f00ca8e0de149380ddb34fc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413276"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741757"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Endurbætur á sölustað fyrir raðaðar afurðir
 
@@ -33,7 +30,7 @@ Byggt á stillingum í Commerce Headquarters er hægt að flokka vörur sem anna
 
 ## <a name="pos-improvements"></a>POS endurbætur
 
-- **Ekki er krafist raðnúmera fyrr en við kaup** - Áður þurfti gjaldkeri að bæta raðnúmeri við viðskipti fyrir raðaðar vörur. Þetta var vandamál ef gjaldkerar og söluaðilar höfðu tækifæri til að selja viðbótarvörur. Fram að greiðslustigi voru vörur oft uppfærðar í körfu. Í hvert skipti sem gjaldkeri bætti við nýrri vöru spurði kerfið hann eða hana því um raðnúmerið. Svargluggi raðnúmera inniheldur hnappinn **Bæta við síðar**. Þess vegna geta söluaðilar bætt hlut við færslu og veitt raðnúmerið síðar. Söluaðilar geta á fljótlegan hátt bætt við og skipt út röðuðum vörum í körfunni og gefið svo upp raðnúmerið rétt fyrir útskráningu. Ef raðnúmer er ekki veitt fyrir hvaða röðuðu vöru sem er fær gjaldkeri sem reynir að ljúka við viðskiptin villuboð. Þessi skilaboð segja að gjaldkeri þurfi að gefa upp raðnúmer sem vantar áður en hann eða hún getur haldið áfram.
+- **Ekki er krafist raðnúmera fyrr en við kaup** - Áður þurfti gjaldkeri að bæta raðnúmeri við viðskipti fyrir raðaðar vörur. Þetta var vandamál ef gjaldkerar og söluaðilar höfðu tækifæri til að selja viðbótarvörur. Fram að greiðslustigi voru vörur oft uppfærðar í körfu. Í hvert skipti sem gjaldkeri bætti við nýrri vöru spurði kerfið hann því um raðnúmerið. Svargluggi raðnúmera inniheldur hnappinn **Bæta við síðar**. Þess vegna geta söluaðilar bætt hlut við færslu og veitt raðnúmerið síðar. Söluaðilar geta á fljótlegan hátt bætt við og skipt út röðuðum vörum í körfunni og gefið svo upp raðnúmerið rétt fyrir útskráningu. Ef raðnúmer er ekki veitt fyrir hvaða röðuðu vöru sem er fær gjaldkeri sem reynir að ljúka við viðskiptin villuboð. Þessi skilaboð segja að gjaldkeri þurfi að gefa upp raðnúmer sem vantar áður en hann getur haldið áfram.
 
     Fyrir hverja röðuðu vöru þar sem raðnúmeri var sleppt birtist athugasemd undir færslulínunni. Þessi athugasemd segir að raðnúmer hafi ekki verið gefið upp fyrir vöruna. Því getur gjaldkeri fljótt fundið vörur án raðnúmers.
 
@@ -42,3 +39,6 @@ Byggt á stillingum í Commerce Headquarters er hægt að flokka vörur sem anna
 - **Raðnúmers er ekki krafist fyrir pantanir viðskiptavinar** - Viðskiptavinir geta pantað í einni verslun og sótt í aðra. Gjaldkeri sem pantar fyrir viðskiptavin þarf ekki að gefa upp raðnúmerið. Raðnúmerið verður veitt við tiltekt eða afhendingu. Hins vegar verður að gefa upp raðnúmer fyrir öll línuatriði þegar afhendingargerðin **Framkvæma** er valin. Annars er ekki hægt að ljúka færslunni.
 - **Röðuðum vörum er ekki steypt saman á færsluskjánum** – **Steypa saman afurðum** stillingin í **Afgreiðslustöð** reitarhópnum á **Virkniregla** síðunni gerir þér kleift að steypa saman óröðuðum vörum á færsluskjánum. Þegar sömu vörur eru settar saman er auðveldara að sjá þær á færsluskjá. Þar sem raðnúmer eru yfirleitt einkvæmt, og söluaðilar Þurfa ekki að slá inn raðnúmer fyrir kaup gildir stillingin **Steypa saman afurðum** ekki um raðaðar vörur. Þessi vegna er röðuðum vörum ekki steypt saman á færsluskjánum ef **Steypa saman afurðum** stillingin er valin.
 - **Geta til að leita í færslubókum út frá raðnúmeri** – Nú er hægt að leita aukalega í færslubókum út frá raðnúmerum. Til að gera það skaltu opna „Færslubækur“ aðgerðina og ýta á „Ítarleg leit“ hnappinn á forritastikunni. Með því að nota „Bæta við síu“ hnappinn er einnig hægt að nota síu til að leita að raðnúmerum.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

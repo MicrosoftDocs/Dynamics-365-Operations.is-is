@@ -2,26 +2,24 @@
 title: Heimasíða fartækjaforrits
 description: Þessi efnisgrein lýsir Finance and Operations (Dynamics 365) fartækjaforritinu og veitir tengla á tilföng sem geta hjálpað til við að taka það upp í fyrirtæki þínu.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 272853
+ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: e4a9d6424e2d214624c148c0565c88ea4cf4ccf9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683459"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729709"
 ---
 # <a name="mobile-app-home-page"></a>Heimasíða fartækjaforrits
 
@@ -29,8 +27,7 @@ ms.locfileid: "4683459"
 
 Þessi efnisgrein lýsir **Finance and Operations (Dynamics 365)** fartækjaforritinu og veitir tengla á tilföng sem geta hjálpað til við að taka það upp í fyrirtæki þínu.
 
-<a name="overview"></a>Yfirlit
---------
+## <a name="overview"></a>Yfirlit
 
 Fartækjaforritið gerir fyrirtæki þínu kleift að gera viðskiptaferla aðgengilega á fartækjum. Eftir að upplýsingatæknistjóri þinn opnar vinnusvæði á fartækjum fyrir fyrirtækið, geta notendur skráð sig inn í forritið og strax byrjað að keyra viðskiptaferli úr þeirra fartækjum. Fartækjaforritið er með eftirfarandi eiginleika, sem geta hjálpað við að auka framleiðni:
 
@@ -42,7 +39,7 @@ Fartækjaforritið gerir fyrirtæki þínu kleift að gera viðskiptaferla aðge
 ## <a name="elements-of-the-mobile-app"></a>Einingar farsímaforritsins
 Fletting í fartækjaforritinu byggist á fjórum meginhugtökum: mælaborði, vinnusvæðum, síðum og aðgerðum. 
 
-[![Notkunarhugtök í farsímaforritinu](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![Notkunarhugtök í farsímaforritinu.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. Þegar þú ræsir smáforritið, er farið í **Yfirlitið**.
 2. Á mælaborðinu getur þú séð lista yfir **vinnusvæði** sem hafa verið gefin út.
@@ -56,7 +53,7 @@ Fletting í fartækjaforritinu byggist á fjórum meginhugtökum: mælaborði, v
 ## <a name="implementation-process"></a>Innleiðingarverk
 Eftirfarandi skýringarmynd sýnir ferlið fyrir innleiðingu á bæði fartækjavinnusvæðum frá Microsoft og sérsniðnum fartækjavinnusvæðum. 
 
-[![Innleiðingarferli farsímaforrita](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![Innleiðingarferli farsímaforrita.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að innleiða bæði fartækjavinnusvæði frá Microsoft og sérsniðin fartækjavinnusvæði. Tölurnar í fyrsta dálkinum samsvara tölusettu skrefin í síðustu skýringarmynd.
 
@@ -93,8 +90,8 @@ Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að
 <li><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Birgðir á lager eftir fartækjavinnusvæði</a></li>
 <li><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Sölupantanir fartækjavinnusvæði</a></li>
 <li><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Fartækjavinnusvæði samstarfs lánardrottna</a></li>
-<li><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Vinnustundafærsla verks á fartækjavinnusvæði</a></li>
-<li><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Fartækjavinnusvæði útgjaldastýringar</a></li>
+<li><a href="/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace">Vinnustundafærsla verks á fartækjavinnusvæði</a></li>
+<li><a href="/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace">Fartækjavinnusvæði útgjaldastýringar</a></li>
 
 </ul></td>
 </tr>
@@ -151,3 +148,6 @@ Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að
 
 ## <a name="troubleshooting"></a>Úrræðaleit
 [Tilföng fartækjaverkvangs](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,28 +2,27 @@
 title: Vinna með lokadaga fríðinda
 description: Þessi verklýsing sýnir hvernig hægt er að láta renna út eða framlengja fríðindi, og stjórna skráningadagsetninga yfir starfsmenn sem eru skráðir í fríðindi.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmBenefit, HcmMassBenefitExpiration, HcmMassBenefitExpirationResults, HcmWorker, HcmWorkerEnrollment, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 7332a95e1cd558336dc19bcb269ef89ce3721aa9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ccd3126ba45cf90b6fa55f0a3853531fd0e43ed48a9e715bb1692726482fb432
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418948"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727113"
 ---
 # <a name="manage-benefit-expiration-dates"></a>Vinna með lokadaga fríðinda
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Þessi verklýsing sýnir hvernig hægt er að láta renna út eða framlengja fríðindi, og stjórna skráningadagsetninga yfir starfsmenn sem eru skráðir í fríðindi. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
@@ -46,3 +45,6 @@ ms.locfileid: "4418948"
 15. Smellt er á Fríðindum.
 16. Í listanum skal finna fríðindi og velja skrá. Athugið að lokadagur nýrrar þekju.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

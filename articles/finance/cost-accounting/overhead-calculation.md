@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 60bce611ae1f6ed5d63860793cd5d1da3c421a9e
-ms.sourcegitcommit: e3290eb58ae569a59d6ae2e6922e7d8be8f1980f
+ms.openlocfilehash: 98fd0b4a18b02ed58034ec6e22763ed7c66f567f5c9eeeed124996757470c419
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "7551805"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766290"
 ---
 # <a name="overhead-calculation"></a>Útreikningur fastakostnaður
 
@@ -1328,12 +1328,83 @@ Eftirfarandi tafla sýnir niðurstöður þegar Umbúðaþjónusta er notuð sem
 ## <a name="conclusion"></a>Niðurstaða
 Í Fjárhagsbókhaldi er kostnaður upp á 10.000,00 fyrir rafmagn bókaður á kenni leppkostnaðarstaðar. Þar af leiðandi munu kostnaðarbókarar vita að það þarf að úthluta þessum kostnaði. Í kostnaðarbókhaldi streymir kostnaður þvert á fyrirtækiseiningar og stig, samkvæmt þeim stefnum og reglum sem eru notaðar. Hver kostnaður hefur verið tengdur úthlutunargrunni sem veitir besta mat á úthlutun á kostnaði.
 
-Kostnaðareining | Kostnaðarhlutur<br>CC099 | Kostnaðarhlutur<br>CC001 | Kostnaðarhlutur<br>CC002 | Kostnaðarhlutur<br>CC003 | Kostnaðarhlutur<br>CC004 | Kostnaðarhlutur<br>Verk 1 | Kostnaðarhlutur<br>Verk 2 | Kostnaðarhlutur<br>Afurð 1 | Kostnaðarhlutur<br>Afurð 2 | Samtals
----|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:
-10001 Rafmagn | 0,00 | 0,00 | 0,00 | 0,00 |  | 30.00 | 10,00 | 7,770.57 | 2,189.43 | 10,000.00 |
-Óflokkað | 0,00 |  |  |  |  |  |  |  |  |  |
-Fastur kostnaður | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
-Breytilegur kostnaður | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30,00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
+<table>
+<thead>
+<tr>
+<th colspan="2" rowspan="2">Kostnaðareining</th>
+<th colspan="9">Kostnaðarhlutur</th>
+<th rowspan="2">Samtala</th>
+</tr>
+<tr>
+<th>CC099</th>
+<th>CC001</th>
+<th>CC002</th>
+<th>CC003</th>
+<th>CC004</th>
+<th>Verk 1</th>
+<th>Verk 2</th>
+<th>Afurð 1</th>
+<th>Afurð 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2">10001 Rafmagn</td>
+<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><strong>30.00</strong></td>
+<td style="text-align: right;"><strong>10.00</strong></td>
+<td style="text-align: right;"><strong>7,770.57</strong></td>
+<td style="text-align: right;"><strong>2,189.43</strong></td>
+<td style="text-align: right;"><strong>10,000.00</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: left;">Óflokkað</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;">Fastur kostnaður</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">776.36</td>
+<td style="text-align: right;">223.64</td>
+<td style="text-align: right;"><strong>1,000.00</strong></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;">Breytilegur kostnaður</td>
+<td style="text-align: right;">000</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">0,00</td>
+<td style="text-align: right;">30,00</td>
+<td style="text-align: right;">10,00</td>
+<td style="text-align: right;">6,994.21</td>
+<td style="text-align: right;">1,965.79</td>
+<td style="text-align: right;"><strong>9,000.00</strong></td>
+</tr>
+</tbody>
+</table>
 
 > [!NOTE]
 > Þetta efnisatriði sýnir hvernig fyrir aðalkostnaðareiningin 10001 Rafmagn flæðir í gegnum kostnaðarhluti. Þar af leiðandi er þessum sameiginlega kostnaði úthlutað á lægsta stigið í fyrirtækinu. Með öðrum orðum bera kostnaðarhlutir á lægsta stiginu kostnaðinn. Ef þú þarft sjónrænt flæði kostnaðar á milli kostnaðarhluta er hægt að nota stefnureglur samantekins kostnaðar til að gera kostnaðarflæðið sýnilegt. Fyrir frekari upplýsingar skal sjá [Stefna fyrir samantekt kostnaðar og útreikning sameiginlegs kostnaðar](cost-rollup.md).

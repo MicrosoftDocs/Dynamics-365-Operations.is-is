@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c5528545e0215b3a3f92b7bd5b492f82274d35a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763191"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833043"
 ---
 # <a name="cost-control-workspace"></a>Vinnusvæði kostnaðarstýringar 
 
@@ -116,7 +116,7 @@ Vinnusvæðið **Kostnaðarstýring** er hannað sem vefskýrsla. Þar af leiða
 
 Listi yfir skýrslur sem eru tiltækar notendum, svo sem stjórnendum, ræðst af stillingunum í valkostinum **Útgefið** á síðunni **Grunnstillingar vinnusvæðis kostnaðarstýringar**.
 
-![Skýrsla sem notendur geta skoðað á vinnusvæði kostnaðarstýringar.](./media/report-cost-control.png)
+![Skýrsla sem notendur geta skoðað í vinnusvæði kostnaðarstýringar](./media/report-cost-control.png)
 
 Stjórnandi getur valið tímabil fjárhagsdagatals sem á að skoða. Setudagsetningin er notuð til að ákvarða sjálfgefið gildandi tímabil.
 
@@ -140,7 +140,7 @@ Tvö gröf sýna samantekt rauntalna samanbornar við áætlun og áætlunarfrá
 
 Notendur geta smellt á **Kostnaðarfærslur** til að kafa niður í upplýsingar um færslu eins og þörf er á.
 
-![Kostnaðarfærslur.](./media/cost-entries.png)
+![Kostnaðarfærslur](./media/cost-entries.png)
 
 Til dæmis er leiga útgjöld sem dreifist á kostnaðarstaði. Notandi sem vill skilja leigukostnaðinn sem kostnaðarstöð sína verður að kafa niður til að sjá hvernig leigan hefur verið reiknuð.
 
@@ -148,7 +148,7 @@ Ef notendur smella á **Úthlutunargrunnur** á síðunni **Kostnaðarfærslur**
 
 Í eftirfarandi dæmi er úthlutunargrunnur af gerðinni **Formúla úthlutunargrunns** og formúlan er sýnd. Þeir þættir sem skilgreina formúluna eru útlistaðir. Þar að auki sýnir hnitanetið útreikninginn sem er framkvæmdur á hvern kostnaðarhlut.
 
-![Útreikningar á hvern kostnaðarhlut.](./media/cost-entries-allocation-base.png)
+![Útreikningar á hvern kostnaðarhlut](./media/cost-entries-allocation-base.png)
 
 Frekari upplýsingar 
 

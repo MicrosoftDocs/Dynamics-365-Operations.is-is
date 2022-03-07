@@ -2,28 +2,27 @@
 title: Yfirlit afbrigðalíkön afurðar
 description: Þessi grein tilgreinir skilmála og hugtök sem tengjast afbrigðalíkönum afurðar. Afbrigðalíkönum afurðar gera notendum kleift að byggja almenna framleiðslubyggingu sem hægt er að nota til að skilgreina margar afurðarafbrigði fyrir eina afurð.
 author: cvocph
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage, PCModalWaitDialog, PCTemplateConfigurationManager, PCConfigurationUIGrouping
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 4031
+ms.custom:
+- "4031"
+- intro-internal
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87d61203d36722194b98a247609fa126b71b846c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7fbf99853b7eb74dd6f277bd1c235145bfa08f4a
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430105"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338399"
 ---
 # <a name="product-configuration-models-overview"></a>Yfirlit afbrigðalíkön afurðar
 
@@ -153,3 +152,6 @@ Hægt er að sjá hvort hægt er að nota losaða afurð sem íhlut eða undirí
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

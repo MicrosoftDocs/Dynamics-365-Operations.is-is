@@ -2,27 +2,24 @@
 title: Greiðslueining
 description: Þetta efnisatriði fjallar um greiðslueininguna og útskýrir hvernig á að skilgreina hana í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 11/18/2020
+ms.date: 01/07/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 27b73f7a05605e4e3ee8f8b72400172b7a8bfc33
-ms.sourcegitcommit: ec78608eb96478b7a57928b60aece129d6799c5b
-ms.translationtype: HT
+ms.openlocfilehash: de92e137815cb79944a2793fc4841c949ed43346
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "4581913"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952470"
 ---
 # <a name="payment-module"></a>Greiðslueining
 
@@ -49,23 +46,23 @@ Adyen-greiðslutengillinn styður einnig öfluga sannvottun viðskiptavinar (SCA
 
 Eftirfarandi skýringarmynd sýnir dæmi um einingar gjafakorts, vildarpunkta og Adyen greiðslueiningar á greiðsluferlissíðu.
 
-![Dæmi um gjafakort, vildarpunkta og Adyen greiðslueiningar á greiðsluferlissíðu](./media/ecommerce-payments.PNG)
+![Dæmi um gjafakort, vildarpunkta og Adyen-greiðslueiningar á greiðsluferlissíðu.](./media/ecommerce-payments.PNG)
 
-## <a name="dynamics-365-payment-connector-for-paypal"></a>Dynamics 365-greiðslutengill fyrir PayPal
+## <a name="dynamics-365-payment-connector-for-paypal"></a>Dynamics 365 Payment Connector fyrir PayPal
 
 Frá og með Commerce Release 10.0.14 er greiðslueiningin einnig samþætt við Dynamics 365 greiðslutengil fyrir PayPal. Frekari upplýsingar um hvernig setja á upp og skilgreina greiðslutengil er að finna í [Greiðslutengill Dynamics 365 fyrir PayPal](paypal.md).
  
-Á síðu greiðsluferlis er hægt að hafa bæði Adyen og PayPal-tenglana skilgreinda. Viðbótareiginleikum hefur verið bætt við greiðslueininguna til að auðvelda auðkenningu á tenglunum sem einingin skal tengjast. Frekari upplýsingar er að finna í eiginleikum einingarinnar **Studdir greiðslumátar** og **Er aðalgreiðsla** í töflunni hér á eftir.
+Á síðu greiðsluferlis er hægt að hafa bæði Adyen og PayPal-tenglana skilgreinda. Viðbótareiginleikum hefur verið bætt við greiðslueininguna til að auðvelda auðkenningu á tenglunum sem einingin skal tengjast. Fyrir frekari upplýsingar, sjá **Stuðlar útboðsgerðir** og **Er frumgreiðsla** mát eiginleika í eftirfarandi töflu.
   
 Þegar búið er að skilgreina greiðslueininguna til að nota PayPal-greiðslutengil birtist PayPal-hnappur á afgreiðslusíðu. Eftir kvaðningu frá viðskiptavini myndþýðir greiðslueiningin IFrame sem inniheldur PayPal-upplýsingar. Viðskiptavinurinn getur skráð sig inn og látið í té PayPal-upplýsingar sínar í slíkum IFrame til að ljúka færslunni sinni. Þegar viðskiptavinur kýs að greiða með PayPal verða eftirstöðvar pöntunarinnar skuldfærðar af PayPal.
 
 PayPal-greiðslutengill þarf ekki reikningsaðseturseiningu vegna þess að allar upplýsingar varðandi reikninga eru afgreiddar af PayPal innan viðeigandi IFrame. Hins vegar eru einingar heimilisfangs viðtakanda og afhendingarvalkosta áskildar.
 
 Eftirfarandi skýringarmynd sýnir dæmi um tvær greiðslueiningar á síðu greiðsluferils, ein eining skilgreind með Adyen-greiðslutenglinum og önnur eining skilgreind með PayPal-greiðslutenglinum.
-![Dæmi um Adyen-greiðslu og PayPal-einingar á afgreiðslusíðu](./media/ecommerce-paypal.png)
+![Dæmi um Adyen-greiðslu og PayPal-einingar á afgreiðslusíðu.](./media/ecommerce-paypal.png)
 
 Eftirfarandi mynd sýnir dæmi um PayPal IFrame sem er ræst með PayPal-hnappnum. 
-![Dæmi um Paypal iframe á afgreiðslusíðu](./media/ecommerce-paypal-iframe.png)
+![Dæmi um Paypal iframe á afgreiðslusíðu.](./media/ecommerce-paypal-iframe.png)
 
 ## <a name="payment-module-properties"></a>Eiginleikar greiðslueiningar
 
@@ -75,11 +72,11 @@ Eftirfarandi mynd sýnir dæmi um PayPal IFrame sem er ræst með PayPal-hnappnu
 | Hæð iFrame | Dílar | Hæð iframe í dílum. Hægt er að stilla hæðina eftir þörfum. |
 | Sýna greiðsluaðsetur | **Satt** eða **Ósatt** | Ef þessi eiginleiki er stilltur á **Satt** verður reikningsaðsetrið lagt fram af Adyen innan iframe greiðslueiningarinnar. Ef hann er stilltur á **Ósatt** verður reikningsaðsetrið ekki lagt fram af Adyen og notandi Commerce verður að skilgreina einingu til að sýna reikningsaðsetrið greiðsluferlissíðunni. Þessi svæði hefur engin áhrif á PayPal-greiðslutengið því PayPal meðhöndlar reikningsaðsetrið að öllu leyti. |
 | Hnekkja greiðslustíl | Kóði fyrir stölluð stílblöð (CSS) | Vegna þess að greiðslueiningin er hýst í iframe, er takmarkaður möguleiki á stílmótun. Hægt er að ná einhverri stílmótun með því að nota þennan eiginleika. Til að hnekkja stílbrigðum svæðis þarf að líma CSS-kóðann inn sem gildið fyrir þennan eiginleika. Hnekkingar og stílbrigði CSS-svæðissmiðs eiga ekki við um þessa einingu. |
-|Studdir greiðslumátar| Strengur| Þegar margir greiðslutenglar eru skilgreindir ætti að leggja til streng fyrir studdan greiðslumáta samkvæmt skilgreiningu greiðslutengils í Commerce Headquarters (sjá skýringarmynd hér á eftir). Sjálfgefið er stillt á Adyen-greiðslutengilinn ef enginn er til staðar. Bætt við í Commerce Release 10.0.14.|
+|Studdir greiðslumátar| Strengur| Ef mörg greiðslutengi eru stillt, ættir þú að gefa upp studda útboðstegundarstrenginn eins og hann er skilgreindur í greiðslutengisstillingu höfuðstöðva Commerce (sjá eftirfarandi mynd). Sjálfgefið er stillt á Adyen-greiðslutengilinn ef enginn er til staðar. Bætt við í Commerce Release 10.0.14.|
 |Er aðalgreiðsla|  **Satt** eða **Ósatt** | Ef **Satt** verða öll villuboð mynduð úr aðalgreiðslutenglinum á síðu greiðsluferlisins. Þegar bæði Adyen- og PayPal-greiðslutenglarnir eru skilgreindir skal stilla Adyen á **Satt**, en slíkum eiginleika við Commerce útgáfu 10.0.14.|
 
 Skýringarmyndin hér á eftir sýnir dæmi um gildið **Studdir greiðslumátar** stillt á „PayPal“ í skilgreiningu greiðslutengilsins í Commerce Headquarters.
-![Dæmi um studda greiðslumáta í Commerce Headquarters](./media/ecommerce-paymenttendertypes.png)
+![Dæmi um studda greiðslumáta í Commerce Headquarters.](./media/ecommerce-paymenttendertypes.png)
 
 ## <a name="billing-address"></a>Póstfang greiðanda
 
@@ -93,7 +90,24 @@ Til að nota reikningsaðseturseiningu á síðu greiðsluferlisins þegar grei�
 
 Aðeins er hægt að bæta greiðslueiningu við greiðsluferliseiningu. Frekari upplýsingar um hvernig á að skilgreina greiðslueiningu fyrir greiðsluferlissíðu er að finna í [Greiðsluferliseining](add-checkout-module.md).
 
-Þegar þörf er á bæði Adyen- og PayPal-greiðslutenglum verður að bæta báðum einingunum við greiðsluhlutann. Gangið úr skugga um að gildi eiginleikans **Studdir greiðslumátar** sé skilgreint fyrir PayPal og sé autt fyrir Adyen. Einnig skal stilla eiginleikann **Er aðalgreiðsla** á **Satt** fyrir Adyen.
+## <a name="configure-the-adyen-and-paypal-payment-connectors-when-both-are-used"></a>Stilltu Adyen og PayPal greiðslutengi þegar bæði eru notuð
+
+Ef bæði Adyen og PayPal greiðslutengarnir verða notaðir fyrir síðuna þína, fylgdu þessum skrefum í Commerce site builder til að bæta greiðslueiningum fyrir hvern tengi við afgreiðslueininguna og stilla síðan eiginleikana fyrir hverja einingu.
+
+1. Í eiginleikarúðunni fyrir PayPal greiðslueininguna skaltu fylgja þessum skrefum:
+
+    1. Á sviði fyrir **Stuðlar útboðsgerðir** eign, inn **PayPal**.
+    1. Hreinsaðu gátreitinn fyrir **Er frumgreiðsla** eign.
+    1. Veldu gátreitinn fyrir **Notaðu auðkenni tengis** eign.
+
+1. Í eiginleikarúðunni fyrir Adyen greiðslueininguna skaltu fylgja þessum skrefum:
+
+    1. Farið af velli fyrir **Stuðlar útboðsgerðir** eign auð.
+    1. Veldu gátreitinn fyrir **Er frumgreiðsla** eign.
+    1. Veldu gátreitinn fyrir **Notaðu auðkenni tengis** eign.
+
+> [!NOTE]
+> Þegar þú stillir Adyen og PayPal tengin til að nota saman, **Dynamics 365 greiðslutengi fyrir Adyen** stillingar verða að vera í fyrsta sæti í netrásinni **Greiðslureikningar** tengistillingu í höfuðstöðvum Commerce. Til að staðfesta eða breyta tengipöntuninni, farðu á **Netverslanir**, og veldu rásina fyrir síðuna þína. Síðan, á **Settu upp** flipa, á **Greiðslureikningar** Flýtiflipi, undir **Tengi**, vertu viss um að **Dynamics 365 greiðslutengi fyrir Adyen** uppsetning er í fyrstu stöðu (þ.e. á efstu línu), og að **Dynamics 365 greiðslutengi fyrir PayPal** uppsetning er á annarri línu. Bættu við eða fjarlægðu tengi eftir þörfum til að endurraða þeim.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -118,3 +132,6 @@ Aðeins er hægt að bæta greiðslueiningu við greiðsluferliseiningu. Frekari
 [Dynamics 365 Payment Connector fyrir PayPal](paypal.md)
 
 [Öflug sannvottun viðskiptavinar með Adyen](adyen_redirect.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

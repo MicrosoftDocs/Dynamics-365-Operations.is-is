@@ -1,28 +1,25 @@
 ---
 title: Dagatöl og aðaláætlanagerð
 description: Þetta efnisatriði veitir yfirlit yfir aðfangakeðjudagatöl og hvernig þau hafa áhrif á aðaláætlanagerð.
-author: t-benebo
-manager: tfehr
+author: ChristianRytt
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430356"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568616"
 ---
 # <a name="calendars-and-master-planning"></a>Dagatöl og aðaláætlanagerð
 
@@ -93,7 +90,7 @@ Til að sýna dagsetningarnar þegar viðskiptavinur getur samþykkt afhendingar
 
 Athugið að ekki er mögulegt að hafa eitt dagatal á hvern viðskiptavin. Ef nauðsynlegt er að hafa með dagatal fyrir hvert aðsetur fyrir sig fyrir viðskiptavin er hægt að stofna einn viðskiptavin á hvert aðsetur og síðan úthluta honum viðeigandi dagatal. 
 
-Umbeðin móttökudagsetning á sölupöntunarlínum verður fyrir áhrifum af dagatali viðskiptavinar og stýringaraðferð afhendingardags. Hægt er að lesa meira um hvernig fyrsti afhendingardagurinn er reiknaður út í [Pöntun lofað](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+Umbeðin móttökudagsetning á sölupöntunarlínum verður fyrir áhrifum af dagatali viðskiptavinar og stýringaraðferð afhendingardags. Hægt er að lesa meira um hvernig fyrsti afhendingardagurinn er reiknaður út í [Pöntun lofað](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Sendingadagatal fyrir lögaðila
 Til að sýna dagsetningarnar þar sem lögaðili getur sent vörur er hægt að setja upp sendingadagatal undir **Fyrirtækisstjórnun > Fyrirtæki > Lögaðilar**. Veljið lögaðilann og bætið við dagatalinu í flipanum **Erlend viðskipti og vörustjórnun** í reitnum **Sendingadagatal**. Sendingadagatalið virkar sem uppruni sjálfgilda fyrir öll dagatöl vöruhúsa í lögaðilanum. 
@@ -143,3 +140,6 @@ Varðandi dagatal þekjuflokks er mikilvægt að hafa í huga að það býr yfi
 
 ### <a name="updating-scm-related-calendars"></a>Uppfærsla á SCM tengdum dagatölum
 Mikilvægt er að öllum viðeigandi dagatölum sé úthlutað á viðeigandi staði (lánardrottinn, viðskiptavinur, vöruhús, flutningsmáti eða þekjuflokkur), en að sama skapi er mikilvægt að uppfæra þau svo þau endurspegli breytingarnar. Kerfið mun skilgreina dagsetningar framleiðslu, flutnings, innkaupa og sölupöntunar, háð samsetningu úthlutaðra dagatala. Bestu starfsvenjur eru að fá úr því skorið hver beri ábyrgð á úthlutun og uppfærslu dagatalanna á svæðunum sem við eiga. Í tilfelli bilunar eða annarra óvenjulegra breytinga á vinnudögum er nauðsynlegt að uppfæra dagatölin í samræmi við það. Öll verk sem eru háð dagatölum, t.d. aðaláætlanagerð og framleiðsluröðun, verða að vera keyrð aftur þegar dagatöl eru uppfærð. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

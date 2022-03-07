@@ -1,10 +1,12 @@
 ---
 title: Setja upp greiðsluseðlasnið fyrir verkreikninga
-description: Þetta efnisatriði útskýrir hvernig tengja á prentaða greiðsluseðla við verkreikninga og veita greiðslutilvísun fyrir bókun og jöfnun.
+description: Fyrirtæki yfirleitt tengja prentaða greiðsluseðlar við reikninga til að aðstoða viðskiptavina og veita þannig greiðslutilvísun fyrir bókun og jöfnun.
 author: EvgenyPopovMBS
+manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMLegalEntity, CustFormletterParameters
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 88bdce7697e47fc49b6ffb2fe6a8a468860f41f3
-ms.sourcegitcommit: 2fba4f2ef7e513357366fc640befe0d2f7bc31f5
+ms.openlocfilehash: cca7ceb3c862d8a7b2d5a88111b9b3ea46a6c9ea
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "7601501"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988075"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Setja upp greiðsluseðlasnið fyrir verkreikninga
 
@@ -63,6 +65,3 @@ Fyrirtæki yfirleitt tengja prentaða greiðsluseðlar við reikninga til að a�
 16. Smellið á „Vista“.
 17. Lokið síðunni.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

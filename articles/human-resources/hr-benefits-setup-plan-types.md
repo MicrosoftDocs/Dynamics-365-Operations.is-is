@@ -1,39 +1,49 @@
 ---
-title: Stofna gerðir áætlana
-description: Áætlunargerð í Microsoft Dynamics 365 Human Resources er há stigi flokkun á tilteknum tegundum af fríðindum. Hver áætlunartegund hefur kóða gerð áætlunar sem ákvarðar reglur fyrir gerð áætlunarinnar.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
-ms.topic: article
+title: Yfirlit áætlunargerðar
+description: Áætlunargerð í Microsoft Dynamics 365 Human Resources er há stigi flokkun á tilteknum tegundum af fríðindum.
+author: twheeloc
+ms.date: 08/24/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 88a6d89bf98ea145bbb6a4eb8f4e052e5f4088e5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3496135c22ee135f0e9c1ebdab55360ff248d5d2
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419047"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984722"
 ---
-# <a name="create-plan-types"></a>Stofna gerðir áætlana
+# <a name="plan-type-overview"></a>Yfirlit áætlunargerðar
 
-Áætlunargerð í Microsoft Dynamics 365 Human Resources er há stigi flokkun á tilteknum tegundum af fríðindum. Hver áætlunartegund hefur kóða gerð áætlunar sem ákvarðar reglur fyrir gerð áætlunarinnar. Til dæmis, áætlunartegund Grunnlífsins myndi hafa tegundar kóðans Líf vegna þess að hún er eins konar líftryggingaráætlun og verður að vera í samræmi við reglur sem settar voru fyrir gerð kóða lífsins. Önnur áætlunartegund gæti verið viðbótarlíf, einnig með tegundar kóða kóða Líf.
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Hver áætlunartegund gefur til kynna hvort starfsmaður geti skráð sig í eina áætlun af sinni gerð eða margfeldi. Til dæmis væri starfsmaður líklega fær um að skrá sig í bæði grunnlífið og viðbótarlífsstefnurnar af áætluninni Líf. Starfsmanni væri líklega leyft að skrá sig í eina stefnu af gerðinni Medical.
+Áætlun gerð er há stigi flokkun á tilteknum tegundum af fríðindum. Hver áætlunartegund hefur kóða gerð áætlunar sem ákvarðar reglur fyrir gerð áætlunarinnar. Til dæmis mun áætlunargerðin **Grunnlíf** fá kóðann **Líf** í áætlunargerðina vegna þess að hún er tegund af líftryggingu og verður að falla undir reglur sem hafa verið settar fram fyrir áætlunargerðarkóðann **Líf**. Önnur áætlunargerð gæti verið **Viðbótarlíf**. Þessi áætlunargerð mun einnig fá áætlunargerðarkóðann **Líf**.
 
-Ef áætlunartegundir fela í sér tengiliði, sýnir áætlunartegundin hvort tengiliðir séu styrkþegar eða á framfæri. Til dæmis, grunnlífsáætlunartegund myndi hafa rétthafa, en grunnlæknisfræðileg áætlunartæki væru á framfæri. Í sumum tilvikum er ekki víst að nein persónuleg tengsl séu í áætlun. Til dæmis sveigjanlegur útgjaldareikningur eða bílastæðagreiðsla.
+Hver áætlunartegund gefur til kynna hvort starfsmaður geti skráð sig í eina áætlun af sinni gerð eða margfeldi. Starfsmaður gæti til dæmis viljað geta skráð sig í bæði stefnurnar **Grunnlíf** og **Viðbótarlíf** í áætlunargerð lífs. Starfsmanni væri líklega leyft að skrá sig í eina stefnu af gerðinni Medical.
 
-Áætlunartegundir geta skilgreint valkosti umfjöllunar. Valkostir umfjöllunar eru skilgreindir í formi umfjöllunarvalkostar. Með umfjöllunarvalkosti er hægt að tilgreina fjárhæð bóta eða þá tengiliði sem eiga kost á áætlunartegundinni. Til dæmis, ef samskiptategundin er bótaþegi, ætti umfjöllunarvalkosturinn að skilgreina skilmála þess sem styrkþeginn er hæfur til að fá þegar fríðindin eru nýtt. Ef tengiliðategundin er háð, ætti umfjöllunarvalkosturinn að skilgreina samband milli háðs og starfsmanns. 
+Ef áætlunartegundir fela í sér tengiliði, sýnir áætlunartegundin hvort tengiliðir séu styrkþegar eða á framfæri. Til dæmis hefði áætlunargerðin **Grunnlíf** verði með rétthöfum á meðan einföld sjúkratrygging hefði verið með aðstandendum. Í sumum tilvikum er ekki víst að nein persónuleg tengsl séu í áætlun. Til dæmis sveigjanlegur útgjaldareikningur eða bílastæðagreiðsla.
+
+
+Áætlunartegundir geta skilgreint valkosti umfjöllunar. Valkostir tryggingar eru skilgreindir á síðunni **Tryggingarvalkostir**. Með umfjöllunarvalkosti er hægt að tilgreina fjárhæð bóta eða þá tengiliði sem eiga kost á áætlunartegundinni. Ef gerð tengiliðar er til dæmis **Rétthafi** ætti tryggingarvalkosturinn að skilgreina skilmálana um hvað rétthafi hefur rétt á að fá þegar fríðindin eru nýtt. Ef gerð tengiliðar er **Aðstandandi** ætti tryggingarvalkosturinn að skilgreina tengslin milli aðstandanda og starfsmanns. 
+
+> [!IMPORTANT]
+> Síðan **Áætlunargerðir** inniheldur helstu gögn sem hafa áhrif á valkosti sem eru tiltækir þegar nýtt fríðindaáætlun er búin til:
+>
+> - **Kóði áætlunargerðar** – Þessi reitur hefur áhrif á það sem er sýnt í flipanum **Skilgreining** þegar raunveruleg fríðindi eru sett upp.  
+> - **Samhliða skráning** – Þessi reitur ákvarðar hvort margar skráningar eru leyfðar. (Fyrir sjúkratryggingu er reiturinn yfirleitt stilltur á **Ein skráning**.)
+> - **Gerð tengiliðar** – Þessi reitur gerir kleift að bæta aðstandendum eða tryggingarþegum við áætlun. Ef hann er stilltur á **Ekkert** munu starfsmenn sem skrá sig fyrir fríðindum ekki möguleikann á að velja annaðhvort tryggingarþega eða aðstandanda.
+> - **Tryggingarvalkostir** – Notaðu þennan reit til að tengja tryggingarvalkostina við áætlunargerðirnar. Hann skilgreinir annaðhvort einstaklingana sem falla undir þessa áætlunargerð eða tryggingaupphæðirnar sem eru í boði fyrir þessa áætlunargerð. Til dæmis er hægt að tilgreina að trygging vegna sjúkratryggingar verði eingöngu í boði fyrir starfsmanninn, starfsmanninn og einn annan einstakling eða starfsmanninn og fjölskylduna hans.
+
+## <a name="create-plan-types"></a>Stofna gerðir áætlana
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Skipulag**, veldu **Áætlunargerðir**.
 
@@ -63,3 +73,6 @@ Ef áætlunartegundir fela í sér tengiliði, sýnir áætlunartegundin hvort t
    | **Tilkynningargluggi** | Tilgreinir tilkynningarglugga viðburðar í dögum. **Athugið**: Ef þú slærð ekki inn upphæð gerir kerfið ráð fyrir að skýrsluglugginn sé núll og afgreiði ekki viðburðinn. |
 
 5. Veljið **Vista**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

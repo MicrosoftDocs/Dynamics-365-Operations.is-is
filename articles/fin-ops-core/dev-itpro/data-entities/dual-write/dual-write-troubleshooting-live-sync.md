@@ -2,11 +2,9 @@
 title: Úrræðaleit í beinni samstillingarvandamál
 description: Þetta efni veitir bilanaleit sem getur hjálpað þér að laga vandamál með beinni samstillingu.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,20 +16,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: c7de5e6b8c4111b13585cf0f3c58a8f78eb18f73c01294f660b106e13774848f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744614"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756354"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Úrræðaleit í beinni samstillingarvandamál
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 Þetta efni veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál með beinni samstillingu.
 
@@ -75,21 +71,21 @@ Fylgdu þessum skrefum ef gögn eru til af báðum hliðum og þú hefur staðfe
 
 Þú gætir fengið villuboð „Slæm beiðni“ sem líkjast eftirfarandi dæmi þegar þú býrð til gögn í forriti Finance and Operations.
 
-![Dæmi um villuboðin Bad Request](media/error_record_id_source.png)
+![Dæmi um villuboðin Bad Request.](media/error_record_id_source.png)
 
 Til að laga málið verður þú að úthluta réttu öryggishlutverki til teymis kortlagða Dynamics 365 Sales eða Dynamics 365 Customer Service til að gera það sem vantar réttindi.
 
 1. Í forriti Finance and Operations finnurðu viðskiptaeininguna sem er varpað í gagnasamsetningar tengingarsettinu.
 
-    ![Fyrirtækjavörpun](media/mapped_business_unit.png)
+    ![Fyrirtækjavörpun.](media/mapped_business_unit.png)
 
-2. Skráðu þig inn í umhverfið í líkanadrifna forritinu í Dynamics 365, farðu í **Stilling \> Öryggi** og finndu hóp varpaðrar viðskiptaeiningar.
+2. Skráðu þig inn í umhverfið í forriti viðskiptavinar, farðu í **Stilling \> Öryggi** og finndu hóp varpaðrar viðskiptaeiningar.
 
-    ![Hópur varpaðrar viðskiptaeiningar](media/setting_security_page.png)
+    ![Hópur varpaðrar viðskiptaeiningar.](media/setting_security_page.png)
 
 3. Opnaðu síðuna fyrir hópinn sem á að breyta og veldu síðan **Stjórna hlutverkum** til að opna valmyndina **Stjórna hóphlutverkum**.
 
-    ![Hnappurinn Stjórna hlutverkum](media/manage_team_roles.png)
+    ![Hnappurinn Stjórna hlutverkum.](media/manage_team_roles.png)
 
 4. Úthlutið hlutverkið sem er með les-/skrifheimild fyrir viðeigandi töflur og veljið síðan **Í lagi**.
 
@@ -101,7 +97,7 @@ Til að laga málið verður þú að úthluta réttu öryggishlutverki til teym
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Ekki tókst að mynda farm fyrir eininguna CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Stofnun farms tókst ekki með villunni Ógilt URI: URI er tómt."}\],"isErrorCountUpdated":true}*
 
-Svona lítur villan út í líkanadrifnu forritinu í Dynamics 365:
+Svona lítur villan út í forriti viðskiptavinar:
 
 *Óvænt villa kom upp úr ISV kóða. (ErrorType = ClientError) Óvænt undantekning frá viðbót (Keyra): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: tókst ekki að vinna úr einingareikningi - (Tengingartilraun mistókst vegna þess að tengdur aðili svaraði ekki á fullnægjandi hátt eftir nokkurn tíma, eða ekki tókst að koma á tengingu vegna þess að tengdur hýsill svaraði ekki*
 
@@ -127,3 +123,5 @@ Til að laga úr vandamálið skal fylgja þessum skrefum.
 
 3. Gakktu úr skugga um að dálkurinn **externalenvironmentURL** sé með rétt Dataverse eða forritsslóð. Eyða öllum tvíteknum línum sem benda á ranga Dataverse vefslóð. Eyðið samsvarandi línum í tölfunum DUALWRITEPROJECTFIELDCONFIGURATION og DUALWRITEPROJECTCONFIGURATION.
 4. Stöðvaðu töfluvörpunina og endurræstu hana
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Stofna og senda inn VSK-skýrslu
 description: Þetta ferli leiðir þig í gegnum að stofna og senda inn VSK-skýrslu til þýskra yfirvalda.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22ff180f09d7f017f7119c4c5e4dd908c3e048e7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9129372091c85106ab29214301b0688ffbc6e64e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964517"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822648"
 ---
 # <a name="create-and-submit-vat-report"></a>Stofna og senda inn VSK-skýrslu
 
@@ -34,3 +32,6 @@ ms.locfileid: "4964517"
 5. Velja Já í svæði Stofna rafrænt skattaskjal.
 6. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

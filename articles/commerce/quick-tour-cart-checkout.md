@@ -1,36 +1,31 @@
 ---
 title: Yfirlit yfir síður körfu og greiðsluferlis
-description: Þetta efnisatriði veitir yfirlit yfir körfu- og greiðslusíður í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði veitir yfirlit yfir síður körfu og greiðsluferli í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413265"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982969"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Yfirlit yfir síður körfu og greiðsluferlis
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir yfirlit yfir körfu- og greiðslusíður í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði veitir yfirlit yfir síður körfu og greiðsluferli í Microsoft Dynamics 365 Commerce.
 
 Körfusíðan á vef netverslunar sýnir alla hluti sem viðskiptavinur hefur bætt við körfuna. Körfusíðan er smíðuð með því að nota körfueininguna. Körfueiningin er gámur sem er hýsir allar einingar sem þarf til að sýna hluti sem eru í körfunni. Körfueiningin getur einnig notað aðrar einingar til að sýna pöntunaryfirlitið og alla kynningarkóða sem hefur verið beitt á pöntun viðskiptavinarins.
 
@@ -42,7 +37,7 @@ Körfusíðan virkar sem innkaupapokinn og inniheldur alla hluti sem hafa verið
 
 Eftirfarandi mynd sýnir dæmi um körfusíðu sem var byggð með einingarsafninu og „Fabrikam“ þema.
 
-![Dæmi um körfusíðu](./media/cart2.PNG)
+![Dæmi um körfusíðu.](./media/cart2.PNG)
 
 Meginhlutinn af körfusíðunni sýnir hluti sem viðskiptavinur hefur bætt við körfuna. Allur viðeigandi afsláttur er sýndur. Þessir afslættir innihalda flókna afslátt. Sem dæmi má nefna „Kauptu 3 hluti og fáðu 10% afslátt“ eða „Kauptu flösku og bakpoka til að fá 10% afslátt.“ Pöntunarsamantektareiningin sýnir upphæðina sem er gjaldfærð eftir að afslætti, flutningum, sköttum og svo framvegis hefur verið beitt. Það er einnig til kynningarkóðaeining sem gerir viðskiptavininum kleift að beita eða fjarlægja kynningarkóða.
 
@@ -58,7 +53,7 @@ Greiðslusíðan er þar sem viðskiptavinir slá inn upplýsingarnar sem þarf 
 
 Eftirfarandi mynd sýnir dæmi um útskráningarsíðu sem var byggð með einingasafni.
 
-![Dæmi um greiðslusíðu](./media/Checkout.PNG)
+![Dæmi um greiðslusíðu.](./media/Checkout.PNG)
 
 Meginhluti greiðslusíðunnar er þar sem öllum pöntunarupplýsingum er safnað. Þessar upplýsingar fela í sér póstfang, afhendingarmöguleika og greiðsluupplýsingar. Kassi hefur skref fyrir skref flæði, vegna þess að upplýsingarnar verða að vera færðar í ákveðna röð til að vinna úr. Til dæmis verður að færa inn flutningsfangið áður en hægt er að reikna út flutningskostnaðinn og heimila greiðsluna.
 
@@ -88,7 +83,7 @@ Viðskiptavinur getur lokið greiðsluferli sem gestanotandi eða sem innskráð
 
 ### <a name="order-summary"></a>Samantekt pöntunar
 
-Afgreiðsla sýnir yfirlit yfir línuritin í körfunni, svo að viðskiptavinurinn geti staðfest pöntunina áður en hann eða hún leggur hana fram. Ekki er hægt að breyta línum atriðunum meðan á greiðsluferlinu stendur. Hins vegar er tengill á körfuna til staðar ef notandinn vill fara til baka og breyta línuliðum.
+Afgreiðsla sýnir yfirlit yfir línuritin í körfunni, svo að viðskiptavinurinn geti staðfest pöntunina áður en hann leggur hana fram. Ekki er hægt að breyta línum atriðunum meðan á greiðsluferlinu stendur. Hins vegar er tengill á körfuna til staðar ef notandinn vill fara til baka og breyta línuliðum.
 
 Eftir að viðskiptavinurinn hefur sent frá sér sendingar- og innheimtuupplýsingar endurspeglar pöntunaryfirlitið þá upphæð sem er gjaldfærð eftir að vildarpunkta, gjafakort og aðrar greiðslur hefur verið beitt.
 
@@ -107,3 +102,6 @@ Nánari upplýsingar um hvernig á að skrifa greiðsluferlissíðu er að finna
 [Yfirlýt upplýsingasíðu afurða](quick-tour-pdp.md)
 
 [Yfirlit yfir síður fyrir stjórnun reikninga](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

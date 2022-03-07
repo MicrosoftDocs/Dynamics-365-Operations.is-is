@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b89a13e72816bbf140986bd5450d037cf2510753
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: 4b7c01a21dcbe7543332439ee6fd371b426851f4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103514"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579929"
 ---
 # <a name="wave-creation-and-processing"></a>Stofnun og meðhöndlun bylgju
 
@@ -190,9 +190,9 @@ Ef þess gerist þörf er hægt að hætta við bylgju sem búið er að vinna �
 
 Notið síðuna **Upplýsingar um runuvinnslu bylgju** til að skoða runuvinnslurnar og tengd verk sem tengjast einhverri bylgju. Þetta er mjög gagnlegt við úrræðaleit bylgju sem tókst ekki. Án þessa eiginleika munu aðeins stjórnendur yfirleitt hafa aðgang að upplýsingum um runuvinnslu. Hægt er að gera síðuna **Upplýsingar um runuvinnslu bylgju** aðgengilega notendum öðrum en stjórnendum og bjóða upp á skrifvarið yfirlit yfir runuvinnslur og tengd verk.
 
-### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Kveiktu eða slökktu á upplýsingasíðu Wave runuvinnslu
+### <a name="enable-the-wave-batch-job-details-page"></a>Virkja upplýsingasíðu bylgjurunuvinnslu
 
-Frá og með Supply Chain Management útgáfu 10.0.25 er **Upplýsingar um Wave runuvinnu** sjálfgefið er kveikt á síðunni. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Upplýsingar um Wave runuvinnu* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Ef kerfið inniheldur ekki nú þegar síðuna **Upplýsingar um runuvinnslu bylgju** skal fara í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eiginleikanum *Upplýsingar um runuvinnslu bylgju*.
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Nota upplýsingasíðu bylgjurunuvinnslu
 

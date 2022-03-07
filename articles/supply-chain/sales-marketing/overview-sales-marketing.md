@@ -2,27 +2,26 @@
 title: Yfirlit yfir sölu og markaðsstörf
 description: Hægt er að nota Sölu og markaðsstarfs til að fá, geyma og nota ýmsar gögn í söluflæði. Þessi gögn inniheldur upprunalega sölupöntun átaki, síðari eftirfylgni og frekari sölu.
 author: kfend
-manager: tfehr
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 92303
+ms.custom:
+- "92303"
+- intro-internal
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f03db7f830d0b7efa4ba32b9e194a4e3a65266e8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 021ff1ff24e20516b7a8ac1ce206b76aa8e91a2a
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430129"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982535"
 ---
 # <a name="sales-and-marketing-overview"></a>Yfirlit yfir sölu og markaðsstörf
 
@@ -30,21 +29,20 @@ ms.locfileid: "4430129"
 
 Hægt er að nota Sölu og markaðsstarfs til að fá, geyma og nota ýmsar gögn í söluflæði. Þessi gögn inniheldur upprunalega sölupöntun átaki, síðari eftirfylgni og frekari sölu.
 
-<a name="marketing"></a>Kynning
----------
+## <a name="marketing"></a>Kynning
 
-Þú notar markaðsherferð og starfsemi til að finna og byggja upp sambönd við mögulega viðskiptavini, þannig að fyrstu samskipti geta þróast í sölusambönd. Eftirfarandi flæði sýnir viðskiptaferli sölu- og markaðsstarfs. [![Viðskiptaferli fyrir markaðssetningu](./media/marketing01.jpg)](./media/marketing01.jpg)
+Þú notar markaðsherferð og starfsemi til að finna og byggja upp sambönd við mögulega viðskiptavini, þannig að fyrstu samskipti geta þróast í sölusambönd. Eftirfarandi flæði sýnir viðskiptaferli sölu- og markaðsstarfs. [![Viðskiptaferli fyrir markaðssetningu.](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>Vensl
 
-Í sölu og markaðssetningu, fyrstu samskipti sem þú hefur við mögulega viðskiptavini geta komið í ýmsum aðstæðum. Til dæmis, þú gætir finna tilvonandi viðskiptavini meðan þú ert að mæta á viðskiptasýningu, eða þú gætir hafa mögulega verið með gott forskot eftir póstlistaherferð fyrirtækis þíns. Það er mjög mikilvægt að skilja flæði einingar aðila áður en sá aðili verður viðskiptavinur. Eftirfarandi mynd sýnir á flæði í samböndum aðila þegar hugsanlegur viðskiptavinur verður raunverulegur viðskiptavinur. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
+Í sölu og markaðssetningu, fyrstu samskipti sem þú hefur við mögulega viðskiptavini geta komið í ýmsum aðstæðum. Til dæmis, þú gætir finna tilvonandi viðskiptavini meðan þú ert að mæta á viðskiptasýningu, eða þú gætir hafa mögulega verið með gott forskot eftir póstlistaherferð fyrirtækis þíns. Það er mjög mikilvægt að skilja flæði einingar aðila áður en sá aðili verður viðskiptavinur. Eftirfarandi mynd sýnir á flæði í samböndum aðila þegar hugsanlegur viðskiptavinur verður raunverulegur viðskiptavinur. [![SalesandMarketing01.](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Herferðir
 
 Herferð miðar á tengiliði fyrir góðar horfur, leiðir, tækifæri og viðskiptavini sem hafa verið valdir til að taka þátt í herferðinni. Í Supply Chain Management er hægt að stofna margar gerðir herferða, eins og símsölu, póstsending og tölvupóstherferðir, til að hámarka mögulegra viðskiptavina. Sem herferðin líður og þú færð jákvæð viðbrögð, getur þú byrjað á söluferli með þeim viðtakenda sem hafa brugðist jákvætt við herferð.
 
 ## <a name="sales"></a>Sala
-Söluvirknin er notuð til að stofna tilboð, söluviðauka og krosssölu til nýja og fyrirliggjandi viðskiptavinum, stofna sölupantanir og stofna sölureikninga fyrir viðskiptavina. Eftirfarandi flæði sýnir viðskiptaferli sölu. [![Viðskiptaferli fyrir sölu](./media/sales01.jpg)](./media/sales01.jpg)
+Söluvirknin er notuð til að stofna tilboð, söluviðauka og krosssölu til nýja og fyrirliggjandi viðskiptavinum, stofna sölupantanir og stofna sölureikninga fyrir viðskiptavina. Eftirfarandi flæði sýnir viðskiptaferli sölu. [![Viðskiptaferli fyrir sölu.](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Sölutilboð
 
@@ -125,3 +123,6 @@ Bráðabirgðareikningur er reikningur sem er útbúinn sem mat á raunverulegu 
 #### <a name="blogs"></a>Blogg
 
 Þú getur fundið yfirlit yfir söluferli í póstinum [Hvernig sala gengur fyrir sig í Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

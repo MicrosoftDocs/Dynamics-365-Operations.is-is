@@ -2,11 +2,9 @@
 title: Búa til útflutningsforrit fyrir endurtekin gögn
 description: Þessi grein sýnir hvernig á að búa til Microsoft Azure rökfræðiforrit sem flytur út gögn frá Microsoft Dynamics 365 Human Resources á endurtekinni áætlun.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3d7fc01906a017d4214d4794097a11b4a3416b95
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419064"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801120"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Búa til útflutningsforrit fyrir endurtekin gögn
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Þessi grein sýnir hvernig á að búa til Microsoft Azure rökfræðiforrit sem flytur út gögn frá Microsoft Dynamics 365 Human Resources á endurtekinni áætlun. Kennslan nýtir sér DMF pakka REST forritunarviðmóts mannauðsmála (API) til að flytja gögnin út. Eftir að gögnin hafa verið flutt út vistar rökfræðiforritið útflutta gagnapakkann til Microsoft OneDrive fyrir viðskiptamöppu.
 
@@ -142,7 +142,7 @@ Meginhluti æfingarinnar felur í sér að búa til rökfræðiforritið.
 
         - **Aðferð:** POST
         - **Vefslóð beiðninnar:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
-        - **Meginmál beiðninnar:** body('Invoke\_an\_HTTP\_request')?['value']
+        - **Meginmál beiðninnar:** body('Invoke\_an\_HTTP\_request‘)?['value']
 
             > [!NOTE]
             > Þú gætir þurft að slá inn gildið **Meginmál beiðninnar** annaðhvort í kóðaskjá eða í aðgerðir ritstjóra í hönnuðinum.
@@ -160,7 +160,7 @@ Meginhluti æfingarinnar felur í sér að búa til rökfræðiforritið.
 
         - **Aðferð:** POST
         - **Vefslóð beiðninnar:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
-        - **Meginmál beiðninnar:** {"executionId": body('GetExportedPackageURL')?['gildi']}
+        - **Meginmál beiðnar:** {"executionId": body('GetExportedPackageURL')?['value']}
 
         ![Aðgerðin GetExportedPackageURL](media/integration-logic-app-get-exported-package-step.png)
 
@@ -205,3 +205,6 @@ Eftirfarandi mynd sýnir hvernig Logic Apps Designer lítur út þegar öll skre
 Í þessari einkatími lærðir þú hvernig á að nota rökfræðiforrit til að flytja gögn úr mannauðsmálum og vista útflutt gögn í OneDrive fyrir viðskiptamöppu. Þú getur breytt skrefunum í þessari kennslu eins og þörf krefur til að henta þínum viðskiptaþörfum.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

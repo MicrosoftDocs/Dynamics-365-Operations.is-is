@@ -1,12 +1,10 @@
 ---
 title: Stofna skilgreiningarveitendur og merkja þá sem virka
-description: Þetta efni útskýrir hvernig notandi sem er úthlutað á hlutverk kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur stofnað skilgreiningarveitu fyrir rafræna skýrslugerð (ER).
+description: Í þessu efnisatriði er útskýrt hvernig notandi sem úthlutað er hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslugerðar getur stofnað skilgreiningarveitu.
 author: NickSelin
-manager: AnnBe
 ms.date: 07/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERVendorTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7fb9f5be8571974237154ea704c93b8666c539a7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: e5b429badcbcc0e9829d82785a6e1f1a2504f5ec9b9ac74d249032f272dea103
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681998"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747248"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Stofna skilgreiningarveitendur og merkja þá sem virka
 
@@ -43,4 +41,7 @@ ms.locfileid: "4681998"
 1. Velja “Litware, Inc.” veitu
 2. Veldu **Stilla sem virkt**.
 
-![Síðan Vinnusvæði rafrænnar skýrslugerðar](../media/GER-Task-ActiveProvider-1.png)
+![Síðan Vinnusvæði rafrænnar skýrslugerðar.](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: Gantt-rit fyrir vinnsluröðun
 description: Framleiðendur geta stjórnað og hámarkað framleiðsluáætlanir með Gantt-ritum.
 author: johanhoffmann
-manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 143aa5c3ba4d6064cde63f8e7ebeac0977b1325c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430433"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908707"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Gantt-rit fyrir vinnsluröðun
 
@@ -158,5 +155,8 @@ Hægt er að opna gantt-línurit úr eftirfarandi síðum.
 ## <a name="additional-resources"></a>Frekari upplýsingar  
 [Sjónrænar áætlanir með Gantt-línuritum fyrir framleiðslu og runupantanir (myndskeið)](https://youtu.be/BtbuShkGj4I)
 
-[Sjónræn áætlun fyrir framleiðslu (sýniútgáfa)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
+[Sjónræn áætlun fyrir framleiðslu (sýniútgáfa)](/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif
 description: Þetta efnisatriði lýsir því hvernig á að breyta fjölda aukastafa sem tvöföld skrif styðja fyrir gjaldmiðil.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 5d39bf28dba951a1483412d967c8c6fc6dbcc610
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 1bfb719b20694db9af8a2a013786b8309c23c9d963c8746346930bbde96e9bbb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744376"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725137"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif
 
@@ -84,14 +82,17 @@ Nokkrar takmarkanir eru til staðar:
 
 Eftir að flutningi er lokið geta stjórnendur stillt nákvæmni gjaldmiðilsins. Opnið **Stillingar \> Stjórnun** og veljið **Kerfisstillingar**. Síðan skal, í flipanum **Almennt**, breyta gildinu á dálknum **Stilla nákvæmni gjaldmiðils sem notaður er fyrir verðlagningu í öllu kerfinu** eins og sýnt er á eftirfarandi skýringarmynd.
 
-![Kerfisstillingar fyrir gjaldmiðil](media/currency-system-settings.png)
+![Kerfisstillingar fyrir gjaldmiðil.](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Viðskiptastjórnun: Gjaldmiðlar
 
 Ef nákvæmni gjaldmiðils fyrir tiltekinn gjaldmiðil þarf að vera önnur en fyrir nákvæmni gjaldmiðils sem notaður er fyrir verðlagningu, er hægt að breyta henni. Opnið **Stillingar \> Viðskiptastjórnun**, veljið **Gjaldmiðlar** og veljið gjaldmiðilinn sem á að breyta. Stillið síðan dálkinn **Nákvæmni gjaldmiðils** á þann fjölda aukastafa sem sóst er eftir eins og sýnt er á eftirfarandi skýringarmynd.
 
-![Stillingar gjaldmiðils fyrir ákveðinn stað](media/specific-currency.png)
+![Stillingar gjaldmiðils fyrir ákveðinn stað.](media/specific-currency.png)
 
 ### <a name="tables-currency-column"></a>töflur: Gjaldmiðilsdálkur
 
 Fjöldi aukastafa sem hægt er að stilla fyrir tiltekna gjaldmiðilsdálka takmarkast við fjóra.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Setja upp pöntunaruppfylling fyrir verslanir
 description: Þetta efnisatriði gefur yfirlit yfir hvernig á að setja upp pöntunaruppfyllingu verslunar.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
@@ -16,18 +14,16 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d6cfa0d1eba4ccb0b24839b7cc632835b17107e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5cdf7b2655f62b693a8f2bc137c690fbc43b16a7
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965317"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796439"
 ---
-# <a name="set-up-order-fulfillment-for-stores"></a>Setja upp pöntunaruppfylling fyrir verslanir
+# <a name="set-up-order-fulfillment-for-stores"></a>Setja upp pöntunaruppfyllingu fyrir verslanir
 
 [!include [banner](includes/banner.md)]
-
-## <a name="overview"></a>Yfirlit
 
 Margir smásalar vilja hámarka uppfyllingu pöntunar með því að gera verslanir kleift að fylla pantanir. Pöntunaruppfylling á verslunarstiginu getur hjálpað til við að draga úr hárri birgðastöðu fyrir tiltekna verslun, eða gæti verið nauðsynleg út frá skipulagslegu sjónarmiði í þeim tilvikum þar sem verslun hefur auka rúmtak eða er staðsett í minni flutningsfjarlægð frá viðskiptavininn. Til að bregðast við þessari þörf er í boði samræmd pöntunaruppfyllingaraðgerð við sölustað.
 
@@ -130,3 +126,6 @@ Pöntunaruppfylling á sölustað felur í sér síun til að hjálpa notandanum
 - Búið til þann
 - Afhendingardagur
 - Móttökudagsetning
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: Yfirlit yfir skráningu tíma og mætingu
 description: Starfsmaður sem sinnir tímaskráningu getur fært inn mismunandi gerðir tímaskráningar, til dæmis innstimplun, útstimplun, skráningu óbeinna aðgerða og fjarvistarskráningu. Þetta efnisatriði lýsir skráningum, útreikningi þeirra, samþykki og notkun verkflæðis til að bæta skipulag og sjálfvirku samþykki ferlisins að samþykkja vinnuskýrslur.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr, JmgRegistrationSetup, JmgStampTrans, JmgStampJournalTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b6fa5715a04aa8077651f5c6e29e6bca83d763c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ed7a596ef0c8a17cdc2e8b943d3f73d00340f26e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430378"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840822"
 ---
 # <a name="time-and-attendance-registration-overview"></a>Yfirlit yfir skráningu tíma og mætingu
 
@@ -119,3 +116,6 @@ Starfsmönnum með verkefni sem krefjast ekki tafarlausra viðbragða, svo sem v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

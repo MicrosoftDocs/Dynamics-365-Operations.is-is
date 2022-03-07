@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace, ProdParmCostEstimation, ProdParmRelease, ProdSchedule, ProdTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6f0c63459bb61bef9251a677f7fc050120e53fe
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 12780fc1fa9f6a9c25495ace34b9731df49d5ae6
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430302"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209420"
 ---
 # <a name="production-process-overview"></a>Yfirlit yfir framleiðsluferli
 
@@ -88,3 +87,6 @@ Eftirfarandi skref í líftíma framleiðslu geta átt sér stað fyrir allar ge
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,26 +1,24 @@
 ---
 title: German Intrastat
 description: Þetta efnisatriði inniheldur upplýsingar um Intrastat-skattskýrslu í Þýskalandi.
-author: anasyash
-ms.date: 09/09/2021
+author: andosip
+ms.date: 08/2/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: anasyash
+ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: 50c412fdfd7118843d285cbb70e8e44847c9d4a5
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e1dbf0997417f9f1ad313e6a7b3c2c9cfae41efc6b1cfda60a5500ae0af94709
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487926"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759844"
 ---
 # <a name="german-intrastat"></a>German Intrastat
 
-[!include [banner](../includes/banner.md)]
-
-Síðan **Intrastat** er notuð til að útbúa og tilkynna upplýsingar um viðskipti innan landa Evrópusambandsins. Þýska Intrastat-skattskýrslan inniheldur upplýsingar um viðskipti með vörur fyrir skýrslugerð. Skýrslan er sniðin samkvæmt leiðbeiningum þýskra yfirvalda sem koma fram á síðunni [6.2 Skrár á INSTAT/XML sniði](https://www-idev.destatis.de/idev/doc/intra_en/hilfe6_2.html).
+Síðan **Intrastat** er notuð til að útbúa og tilkynna upplýsingar um viðskipti innan landa Evrópusambandsins. Þýska Intrastat-skattskýrslan inniheldur upplýsingar um viðskipti með vörur fyrir skýrslugerð.
 
 Eftirfarandi tafla sýnir reitina sem eru innifaldir í þýsku Intrastat-skattskýrslunni.
 
@@ -73,16 +71,15 @@ Eftirfarandi tafla sýnir reitina sem eru innifaldir í þýsku Intrastat-skatts
     3. Í reitnum **Vörpun skýrslusniðs** skal velja **Intrastat skýrslu**.
     4. Í flýtiflipanum **Stigveldi vörukóða**, í reitnum **Tegundastigveldi**, velja **Intrastat**.
     5. Í reitnum **Færslukóði** skal velja færslukóðann fyrir flutning á eignum. Þú notar þennan kóða fyrir færslur sem skapa raunverulegar eða áætlaðar færslur á eignum gegn greiðslu (fjárhagslegri eða annars konar greiðslu). Þú getur líka notað það til leiðréttinga.
-    6. Í reitnum **Kreditnóta** skal velja færslukóðann fyrir vöruskil.
-    7. Í reitnum **Starfskraftur** skal velja tengiliðinn fyrir Intrastat skýrslu. Einnig er hægt í flipanum **Tengiliður** að færa inn eða velja gildi í reitunum **Heiti**, **Símanúmer**, **Fax**, **Tölvupóstur** og **Veffang**. Þessir reitir eru hafðir með í skýrslunni.
-    8. Í reitnum **Yfirvald** skal velja Intrastat-yfirvald.
-    9. Farðu í **Skattur** > **Óbeinir skattar** > **Söluskattur** > **Yfirvöld söluskatts** og færðu inn upplýsingar fyrir Intrastat-yfirvöldin sem þú valdir í skrefinu á undan:
+    6. Í reitnum **Kreditnóta** skal velja færslukóðann fyrir vöruskil. Þú notar þennan kóða fyrir skil á vörum eftir að færslan var upprunalega skráð undir færslukóðanum.
+    7. Í reitnum **Yfirvald** skal velja Intrastat-yfirvald.
+    8. Farðu í **Skattur** > **Óbeinir skattar** > **Söluskattur** > **Yfirvöld söluskatts** og færðu inn upplýsingar fyrir Intrastat-yfirvöldin sem þú valdir í skrefinu á undan:
 
        - Kenni yfirvalda
        - Aðsetur
        - Tengslaupplýsingar
 
-    10. Í flipanum **Eiginleikar lands/svæðis**, í reitnum **Land/svæði**, skal gefa upp öll lönd eða svæði sem fyrirtækið þitt á í viðskiptum við. Fyrir hvert land eða svæði, í reitnum **Gerð lands/svæðis**, velja **ESB** þannig að landið eða svæðið birtist í Intrastat skýrslunni.
+    9. Í flipanum **Eiginleikar lands/svæðis**, í reitnum **Land/svæði**, skal gefa upp öll lönd eða svæði sem fyrirtækið þitt á í viðskiptum við. Fyrir hvert land eða svæði, í reitnum **Gerð lands/svæðis**, velja **ESB** þannig að landið eða svæðið birtist í Intrastat skýrslunni.
 
 4. Setja upp svæðiskóða.
 

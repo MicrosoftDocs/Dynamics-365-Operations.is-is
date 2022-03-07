@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ReqGroup, DefaultDashboard, EcoResProductDetailsExtended, EcoResProductCreate, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 11d92185bdbcf7aa1a668b6d2aa311805e42293c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9b10aa50c4a89b2642262f624ac3a6d89cd6ebb4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430350"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258652"
 ---
 # <a name="define-coverage-rules-for-items"></a>Skilgreina þekjureglur fyrir vörur
 
@@ -102,3 +101,6 @@ Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli sýn
 11. Í reitnum **Innkaupatími** skal slá inn ‚5‘.
 12. Smellt er á **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,32 +11,31 @@ ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f37acb8a931e6120ff8269df4dc4fec5c0535ce1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 777dfa2078adf31d651003f1075203c9b016ab1a
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430426"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470715"
 ---
-# <a name="create-service-subscriptions-from-a-subscription-group"></a>Stofna þjónustuáskriftir úr áskriftarflokki 
+# <a name="create-service-subscriptions-from-a-subscription-group"></a>Stofna þjónustuáskrift úr áskriftarflokki 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Smelltu á **Þjónustustjórnun** \> **Uppsetning** \> **Þjónusta áskrift** \> **Áskriftarflokkar** .
+1.  Veljið **Þjónustustjórnun** \> **Uppsetning** \> **Þjónusta áskrift** \> **Áskriftarflokkar**.
 
 2.  Veljið áskriftarflokk.
 
-3.  Smelltu á **Þjónustuáskrift** hnappinn.
+3.  Veljið **Þjónustuáskrift** hnappinn.
 
-4.  Stutt er á CTRL+N til að stofna nýja áskrift. Reitur áskriftarhópsins birtir upplýsingar frá áskriftarhópnum í **Áskrift** skjámyndinni.
+4.  Veljið **Nýtt** til að búa til nýja áskrift. Reitur áskriftarhópsins birtir upplýsingar frá áskriftarhópnum í **Áskrift** skjámyndinni.
 
 5.  Sláðu inn upplýsingar í reitina sem eftir eru.
 
@@ -45,3 +44,6 @@ ms.locfileid: "4430426"
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

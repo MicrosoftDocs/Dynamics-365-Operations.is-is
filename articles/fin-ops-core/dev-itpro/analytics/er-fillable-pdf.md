@@ -2,9 +2,11 @@
 title: Hanna skilgreiningar rafrænnar skýrslugerðar til að fylla inn í PDF-sniðmát
 description: Þetta efnisatriði veitir upplýsingar um hvernig á að hanna snið rafrænnar skýrslugerðar til að fylla út PDF-sniðmát.
 author: NickSelin
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 04/19/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 81da1b4f9ca5d2884122266312b2f7cb298572eef3a5c6151daba2f9b17326f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: de31469e79addfb82b3b57e647ff82e4d254881a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758289"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688126"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Hanna skilgreiningar rafrænnar skýrslugerðar til að fylla inn í PDF-sniðmát
 
@@ -45,15 +47,15 @@ Ferlin í þessu efnisatriði eru dæmi sem sýna hvernig notandi í annaðhvort
 
 Einnig þarf að ljúka ferlinu [Stofna skilgreiningaveitur og merkja þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Að lokum skal hlaða niður eftirfarandi skrám.
+Að lokum er nauðsynlegt að sækja eftirfarandi skrár frá [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111).
 
 | Lýsing á efni                       | Skrárnafn                                     |
 |-------------------------------------------|-----------------------------------------------|
-| Sniðmát fyrir fyrstu síðu skýrslunnar | [IntrastatReportTemplate1.pdf](https://download.microsoft.com/download/0/8/3/0832c82b-4448-4562-afbf-01e0efc8d999/IntrastatReportTemplate1.pdf)                  |
-| Sniðmát fyrir aðrar síður skýrslunnar    | [IntrastatReportTemplate2.pdf](https://download.microsoft.com/download/c/7/a/c7a8a806-2192-4034-9052-e8b84b527d5e/IntrastatReportTemplate2.pdf)                  |
-| Sýnishorn af sniði rafrænnar skýrslugerðar - PDF                          | [Intrastat-skýrsla (PDF).útgáfa.1.1.xlm](https://download.microsoft.com/download/a/8/7/a87aea3e-3f60-404c-8899-c471d20e7ea9/IntrastatreportPDFversion1.1.xml)        |
-| Sýnishorn af sniði rafrænnar skýrslugerðar - Excel                          | [Intrastat (innflutt úr Excel).útgáfa.1.1.xml](https://download.microsoft.com/download/a/2/c/a2c0c145-d989-4e55-9d47-9647c02e4ee4/IntrastatimportfromExcelversion1.1.xml) |
-| Sýnishorn af gagnasafni                            | [Sýnishorn af intrastat-gögnum.xlsx](https://download.microsoft.com/download/9/f/1/9f1c5b96-3800-475f-8cf6-1ddd42873758/Intrastatsampledata.xlsx)                    |
+| Sniðmát fyrir fyrstu síðu skýrslunnar | [IntrastatReportTemplate1.pdf](https://mbs.microsoft.com/Files/public/CS)                  |
+| Sniðmát fyrir aðrar síður skýrslunnar    | [IntrastatReportTemplate2.pdf](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatReportTemplate2.pdf)                  |
+| Sýnishorn af sniði rafrænnar skýrslugerðar - PDF                          | [Intrastat-skýrsla (PDF).útgáfa.1.1.xlm](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatreportPDFversion11.xml)        |
+| Sýnishorn af sniði rafrænnar skýrslugerðar - Excel                          | [Intrastat (innflutt úr Excel).útgáfa.1.1.xml](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatimportfromExcelversion11.xml) |
+| Sýnishorn af gagnasafni                            | [Sýnishorn af intrastat-gögnum.xlsx](https://mbs.microsoft.com/Files/public/CS/AX/Intrastatsampledata.xlsx)                    |
 
 ## <a name="design-the-format-configuration"></a>Hanna skilgreiningu sniðs
 
@@ -115,11 +117,11 @@ Næst, í skilgreiningu á sniði rafrænnar skýrslugerðar sem var stofnað, �
 
 Eftirfarandi skýringarmynd sýnir PDF-sniðmátið fyrir fyrstu síðu skýrslunnar.
 
-![Sniðmát 1.](media/rcs-ger-filloutpdf-template1.png)
+![Sniðmát 1](media/rcs-ger-filloutpdf-template1.png)
 
 Eftirfarandi skýringarmynd sýnir PDF-sniðmátið fyrir aðrar síður skýrslunnar.
 
-![Sniðmát 2.](media/rcs-ger-filloutpdf-template2.png)
+![Sniðmát 2](media/rcs-ger-filloutpdf-template2.png)
 
 1. Á síðunni **Skilgreiningar** skal velja **Hönnuður**.
 2. Veljið **Bæta við rót**.
@@ -144,9 +146,9 @@ Eftirfarandi skýringarmynd sýnir PDF-sniðmátið fyrir aðrar síður skýrsl
 
     Ef þessi valkostur er stilltur á **Nei** verða nauðsynlegar sniðseiningar rafrænnar skýrslugerðar búnar til sem flatur listi yfir einingar sem eru faldaðar undir sniðseiningunni **PDF-skrá** sem er búin til.
 
-12. Veldu **Í lagi**.
+12. Veljið **Í lagi**.
 
-    ![Flytja inn úr svarglugga PDF.](media/rcs-ger-filloutpdf-importtemplate.png)
+    ![Flytja inn úr svarglugga PDF](media/rcs-ger-filloutpdf-importtemplate.png)
 
 13. Í trénu skal víkka út **Frálag**.
 
@@ -176,7 +178,7 @@ Eftirfarandi skýringarmynd sýnir PDF-sniðmátið fyrir aðrar síður skýrsl
 
     Takið eftir því að innflutta PDF-skjalið er hengt við breytt snið rafrænnar skýrslugerðar.
 
-    ![Forskoðun PDF-viðhengis.](media/rcs-ger-filloutpdf-attachedtemplate.png)
+    ![Forskoðun PDF-viðhengis](media/rcs-ger-filloutpdf-attachedtemplate.png)
 
 19. Haldið áfram að hanna þetta snið með því að flytja inn næsta PDF-sniðmát, bæta við nauðsynlegum bindingum við gagnagjafa og svo framvegis.
 20. Veljið **Vista**.
@@ -215,7 +217,7 @@ Næst skal flytja inn sýnishornið af sniði rafrænnar skýrslugerðar sem var
 1. Á síðunni **Sniðshönnuður** skal velja flipann **Vörpun**.
 2. Í trénu skal víkka út **Síðuvíxl \> Síður**.
 
-    ![Síða formúluhönnuðar þar sem líkanstré er víkkað út.](media/rcs-ger-filloutpdf-reviewformat.png)
+    ![Síða formúluhönnuðar þar sem líkanstré er víkkað út](media/rcs-ger-filloutpdf-reviewformat.png)
 
     Athugið eftirfarandi upplýsingar:
 
@@ -238,7 +240,7 @@ Næst skal flytja inn sýnishornið af sniði rafrænnar skýrslugerðar sem var
 
     Takið eftir að eigindin **Heiti** fyrir þessa sniðseiningu er skilgreind sem **Leiðrétting 1**. Takið einnig eftir að segðin **Heiti** fyrir sniðseininguna er skilgreind sem **Paging.FldName(„Correction“,\@.Number)**.
 
-![Sniðshönnuður þar sem vörpun er valin.](media/rcs-ger-filloutpdf-reviewformat2.png)
+![Sniðshönnuður þar sem vörpun er valin](media/rcs-ger-filloutpdf-reviewformat2.png)
 
 Takið eftir því að sniðseiningin **Reitur** er notuð til að fylla út stakan reit af útfyllanlegu PDF-skjali sem er skilgreint sem sniðmát af yfireiningu sniðseiningarinnar **PDF-skrá**. Binding sniðseiningarinnar **PDF-skrá** eða földuðum einingum hennar, ef hún er með faldaðar einingar, tilgreinir gildið sem er fært inn í samsvarandi PDF-reiti. Hægt er að nota mismunandi eiginleika sniðseiningarinnar **Reitur** til að tilgreina hvaða PDF-reit er fylltur út af stakri sniðseiningu:
 
@@ -275,7 +277,7 @@ Næst verður hlaðið inn sýnishorninu **Intrastat (flutt inn úr Excel)** fyr
 
     Þegar valkosturinn **Sjálfgefið fyrir líkanavörpun** er stilltur á **Já** er innflutta sniðið **Intrastat (flytja inn úr Excel)** fyrir rafræna skýrslugerð úthlutað sem sjálfgefinn gagnagjafi fyrir sniðsskilgreininguna **Intrastat-skýrsla (PDF)**. Síðan, þegar sniðsskilgreiningin **Intrastat-skýrsla (PDF)** er keyrð, mun innihald Excel-vinnubókar sem er þáttað af sniðinu **Intrastat (flutt inn úr Excel)** fyrir rafræna skýrslugerð líkja eftir færslum erlendra viðskipta sem þarf að gefa skýrslu um. Eftirfarandi skýringarmynd sýnir dæmi um Excel-vinnubók.
 
-    ![Excel-vinnubók með sýnigögn.](media/rcs-ger-filloutpdf-excelworkbook.png)
+    ![Excel-vinnubók með sýnigögn](media/rcs-ger-filloutpdf-excelworkbook.png)
 
 ### <a name="run-the-format-configuration"></a>Keyra skilgreiningu sniðs
 
@@ -289,16 +291,13 @@ Næst verður hlaðið inn sýnishorninu **Intrastat (flutt inn úr Excel)** fyr
 
 Eftirfarandi skýringarmynd sýnir dæmi um fyrstu síðu skýrslunnar sem er búin til.
 
-![Fyrsta síða myndaðrar skýrslu.](media/rcs-ger-filloutpdf-generatedreport.png)
+![Fyrsta síða myndaðrar skýrslu](media/rcs-ger-filloutpdf-generatedreport.png)
 
 Eftirfarandi skýringarmynd sýnir dæmi um aðra síðu skýrslunnar sem er búin til.
 
-![Önnnur síða myndaðrar skýrslu.](media/rcs-ger-filloutpdf-generatedreport2.png)
+![Önnnur síða myndaðrar skýrslu](media/rcs-ger-filloutpdf-generatedreport2.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Rafræn skýrslugerð Hanna skilgreiningu til að mynda skýrslur á OPENXML-sniði (nóvember 2016)](tasks/er-design-reports-openxml-2016-11.md)
 - [Hanna grunnstillingar rafrænnar skýrslugerðar til að búa til skýrslur á Word-sniði](tasks/er-design-configuration-word-2016-11.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

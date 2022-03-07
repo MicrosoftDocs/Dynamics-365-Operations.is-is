@@ -2,27 +2,24 @@
 title: Stjórnun smásöluverðs
 description: Þetta efnisatriði lýsir hugmyndum um stofnun og stjórnun á söluverðum í Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2811e61045c0a830d1c814d760820a364893efcc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413035"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352229"
 ---
 # <a name="retail-sales-price-management"></a>Retail-verðstjórnun
 
@@ -49,7 +46,7 @@ Verðflokkar eru í kjarna verð- og afsláttarstjórnunar í Commerce. Verðflo
 
 Eftirfarandi mynd sýnir hvernig verðflokkar eru notaðir. Taktu eftir, í þessari skýringarmynd, að „Verðflokkur“ er bókstaflega í miðju verðlagningar- og afsláttarstjórnunar. Viðskiptaeiningarnar sem þú getur notað til að stjórna mismunarverði og afsláttum eru til vinstri og raunveruleg verð- og afsláttarfærslur eru til hægri.
 
-![Verðflokkar](./media/PriceGroups.png "Verðflokkar")
+![Verðflokkar.](./media/PriceGroups.png "Verðflokkar")
 
 Þegar verðflokkur er stofnaður ætti ekki að nota einn verðflokk fyrir margar gerðir viðskiptaeininga. Annars getur verið erfitt að ákvarða hvers vegna tiltekið verð eða afsláttur er notaður á færslu.
 
@@ -240,3 +237,6 @@ Að auki **aðeins** verðlagningarvél styður eftirfarandi verðlagningareigin
 Verð er einn mikilvægasti þátturinn sem stýrir ákvörðun á innkaupum að gera fyrir marga viðskiptavini, og margir viðskiptavinir bera saman verð á ýmsum síðum áður en þeir kaupa nokkuð. Til að tryggja að söluaðilar bjóði upp á samkeppnishæf verð verða þeir að fylgjast grannt með samkeppnisaðilum og auglýsa oft sig. Til að auðvelda þessum söluaðilum að laða að viðskiptavini, er mjög mikilvægt að afurðaleit, vafraeiginleikinn, listar og upplýsingasíða afurðar sýni nákvæmustu verðin.
 
 Í væntanlegri útgáfu Commerce, mun forritunarviðmótið (API) **GetActivePrices** skila verðum sem innihalda einfalda afslætti (t.d. staka línuafslætti sem eru ekki háðir öðrum vörum í körfunni). Á þennan hátt eru verðin sem eru sýnd nálægt raunverulegri upphæð sem viðskiptavinur greiðir fyrir vörurnar. Þetta API mun innihalda allar gerðir af einföldum afsláttum sem miðast við: afslætti tengsla, hollustu, vörulista og rásar. Að auki skilar API upplýsingum um heiti og gjaldgengi notaðra afslátta svo söluaðilar geti boði upp á ítarlegri lýsingar á verðinu og skapað óþreyju ef gjaldgengur afsláttur rennur brátt út.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,27 +1,25 @@
 ---
 title: Setja upp IoT-gervigreindarinnbótina í LCS
 description: Þetta efnisatriði útskýrir hvernig á að setja upp IoT-gervigreind viðbótina í Microsoft Dynamics Lifecycle Services (LCS).
-author: robinarh
-manager: tfehr
+author: tonyafehr
 ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: ''
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d55ca1975589699cbce03dcc7bf81e0762738d24
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963486"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7781590"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>Setja upp IoT-gervigreindarinnbótina í LCS
 
@@ -49,9 +47,12 @@ ms.locfileid: "4963486"
 
 LCS uppsetningu er nú lokið. Næsta skrefið er að [setja upp aðstæður](iot-scenario-setup.md).
 
-## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a>Fjarlægja innbótina
+## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a> Fjarlægja innbótina
 
 1. Í Supply Chain Management skal [gera umhverfið óvirkt](iot-scenario-setup.md#disable-a-scenario).
 2. Opnið upplýsingar umhverfis Supply Chain Management í LCS.
 3. Flettu að hlutanum **Innbætur umhverfis**.
 4. Veljið **Fjarlægja** fyrir innbótina IoT-gervigreind.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

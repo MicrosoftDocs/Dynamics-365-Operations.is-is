@@ -1,33 +1,34 @@
 ---
 title: Launafyrirkomulag
-description: Stjórnendur launa og fríðinda geta notað launastjórnun til að viðhalda og vinna úr föstum og breytilegum launafyrirkomulögum fyrir starfsmenn fyrirtækisins.
-author: andreabichsel
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
+description: Í þessu efnisatriði er lýst hvernig á að nota launastjórnun til að hafa umsjón með og vinna úr launafyrirkomulagi.
+author: twheeloc
+ms.date: 08/25/2021
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable, HcmCompensationWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
-ms.custom: 7521
+ms.search.scope: Human Resources
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b6dd163b0e956624eb57fa031b918a94609f9cfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 7571f220780ca383f57338bb69505cc68a741877
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418982"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066901"
 ---
 # <a name="compensation-plans"></a>Launafyrirkomulag
 
-Stjórnendur launa og fríðinda geta notað launastjórnun til að viðhalda og vinna úr föstum og breytilegum launafyrirkomulögum fyrir starfsmenn fyrirtækisins.
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Stjórnendur launa og fríðinda geta notað **launastjórnun** til að viðhalda og vinna úr föstum og breytilegum launafyrirkomulögum fyrir starfsmenn fyrirtækisins.
 
 ### <a name="introduction"></a>Inngangur
 
@@ -37,14 +38,14 @@ Hægt er að tengja starfsmenn við eina eða fleiri áætlanir af báðum gerð
 -   Starfsmaðurinn verður að hafa virka stöðuverkefni.
 -   Starfsmaðurinn verður að uppfylla skilyrðin sem eru skilgreind af hæfnisreglum fyrir launafyrirkomulag.
 
-## <a name="compensation-setup"></a> Uppsetning launa.
+## <a name="compensation-setup"></a>Uppsetning launa
 Í eftirfarandi töflu er listi yfir þætti launaferlis sem geta verið sambyggt uppsetningu launafyrirkomulags fyrirtækisins.
 
 <table>
 <thead>
 <tr class="header">
-<th>Íhlutur</th>
-<th>Meiri upplýsingar…</th>
+<th>Hlutur</th>
+<th>Meiri upplýsingar</th>
 </tr>
 </thead>
 <tbody>
@@ -82,7 +83,7 @@ Hægt er að tengja starfsmenn við eina eða fleiri áætlanir af báðum gerð
 </tr>
 <tr class="even">
 <td>Greiðslutíðni</td>
-<td>Greiðslutíðni er notuð til að skilgreina tímabilið sem laun eru greidd fyrir.   Til dæmis auðveldar greiðslutíðni að skilja hvort launaupphæðin er tilgreindur sem árleg laun eða launataxti á klukkustund. Greiðslutíðni eru einnig notaðar til að setja upp umreiknistuðla til að umbreyta upphæðir launa úr  greiðslutíðni fyrir mánaðarlega, vikulega, hálfsmánaðarlegrar og tímakaups yfir í árleg greiðslutíðni.</td>
+<td>Greiðslutíðni er notuð til að skilgreina tímabilið sem laun eru greidd fyrir.  Til dæmis auðveldar greiðslutíðni að skilja hvort launaupphæðin er tilgreindur sem árleg laun eða launataxti á klukkustund. Greiðslutíðni eru einnig notaðar til að setja upp umreiknistuðla til að umbreyta upphæðir launa úr  greiðslutíðni fyrir mánaðarlega, vikulega, hálfsmánaðarlegrar og tímakaups yfir í árleg greiðslutíðni.</td>
 </tr>
 <tr class="odd">
 <td>Launasvæði</td>
@@ -90,7 +91,7 @@ Hægt er að tengja starfsmenn við eina eða fleiri áætlanir af báðum gerð
 </tr>
 <tr class="even">
 <td>Stýripunktur</td>
-<td>Stýripunkturinn skilgreinir hvað þú telur vera besta launataxta fyrir alla starfsmenn í launastigi. Fyrir áætlunarskipulag gráðu eru stýripunktar yfirleitt miðpunktur sviðsins. Brautarskipulag notast sjaldan við stýripunkta. Hægt er að tilgreina stýripunktur fyrir launafyrirkomulag fastra launa í skjámynd launafyrirkomulags Fastra launa.</td>
+<td>Stýripunkturinn skilgreinir hvað þú telur vera besta launataxta fyrir alla starfsmenn í launastigi. Fyrir áætlunarskipulag gráðu eru stýripunktar yfirleitt miðpunktur sviðsins. Brautarskipulag notast sjaldan við stýripunkta. Hægt er að tilgreina stýripunktur fyrir launafyrirkomulag fastra launa í launafyrirkomulagssíðunni **Föst laun**.</td>
 </tr>
 <tr class="odd">
 <td>Starfshlutverk</td>
@@ -122,13 +123,15 @@ Hægt er að tengja starfsmenn við eina eða fleiri áætlanir af báðum gerð
 ## <a name="process-events"></a>Vinnslutilvik
 Vinnslutilvik reiknar út launaupplýsingar fyrir tilgreint tímabil handa öllum starfsmönnum sem eru skráðir í eina eða fleiri fastar eða breytilegar launafyrirkomulag. Hægt er að keyra vinnslutilvik endurtekið, til að prófa eða uppfæra útreiknaðar launaniðurstöður.
 
-<a name="compensation-events"></a>Launatilvik
--------------------
+## <a name="compensation-events"></a>Launatilvik
 
 Í hvert sinn vinnslutilvik er keyrt er launatilvik stofnað.  Launatilvik innihalda niðurstöðu launavinnslu fyrir hvern starfsmann sem hafður var með í vinnslutilvikinu.  Þegar útreikningar eru réttir er hægt að hlaða launatilvikinu til að uppfæra launafærslur fyrir starfsmenn sem verða fyrir áhrifum af vinnslutilvikið.
 
-## <a name="recommendations"></a> Ráðleggingar
+## <a name="recommendations"></a>Ráðleggingar
 Þegar vinnslutilvik hefur verið keyrt, geturðu stungið uppá leiðréttingar á verðleikahækkun starfsmanns eða umbunarupphæð út frá reiknuðum leiðbeiningar á vinnslutilvikinu. Til að gera tillögur fyrir starfsmenn, verður að virkja tillögur þegar launafyrirkomulag eru sett upp eða þegar sett er upp vinnslutilvikið.
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

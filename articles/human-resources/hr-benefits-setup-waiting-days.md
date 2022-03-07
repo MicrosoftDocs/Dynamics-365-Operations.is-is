@@ -2,15 +2,12 @@
 title: Grunnstilla biðdaga
 description: Í Microsoft Dynamics 365 Human Resources, biðdagar koma á mánaðarlegum tímamótum til að nota í bótakerfi.
 author: andreabichsel
-manager: AnnBe
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb72e46674b64897e4ffb6dbf458e453801b4dc3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 983d36344340c320d70e507abfca377db15adef0e50254d90abe8c819fe84e96
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418958"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732610"
 ---
 # <a name="configure-waiting-days"></a>Grunnstilla biðdaga
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Í Microsoft Dynamics 365 Human Resources, biðdagar koma á mánaðarlegum tímamótum til að nota í bótakerfi. Til dæmis táknar biðdagur 15. dag hvers mánaðar. 
 
@@ -42,3 +41,6 @@ ms.locfileid: "4418958"
    | **Dagur** | Dagur mánaðar sem kerfið ætti að stilla dagsetningu biðtímans á. |
    
 4. Veljið **Vista**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

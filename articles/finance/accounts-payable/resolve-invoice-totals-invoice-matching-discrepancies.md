@@ -3,26 +3,24 @@ title: Yfirlit yfir úrlausn á ósamræmi við jöfnun samtalna reiknings
 description: Hægt er að nota jöfnun fyrir samtölur reiknings til að aðstoða við að tryggja að heildarreikningsupphæð víki ekki frá áætluðum upphæðum með meira en leyfileg frávikum.
 author: abruer
 ms.date: 07/25/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendTotalPriceTolerance
 audience: Application User
 ms.reviewer: roschlom
-ms.custom:
-- "63413"
-- intro-internal
+ms.custom: 63413
 ms.assetid: 9ac42457-95b2-4191-ad06-c7e323704466
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f15edb0423bba2a6fe01f4b3ef1ba1be4e463d4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 804800cccdfd0473c9e3514f6c17405eb2ec8335
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985314"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827915"
 ---
 # <a name="resolve-discrepancies-during-invoice-totals-matching-overview"></a>Yfirlit yfir úrlausn á ósamræmi við jöfnun samtalna reiknings
 

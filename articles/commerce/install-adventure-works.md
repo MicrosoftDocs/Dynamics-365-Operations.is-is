@@ -2,7 +2,7 @@
 title: Setja upp Adventure Works-þemað
 description: Þetta efnisatriði lýsir því hvernig á að setja upp þema Adventure Works í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 12/10/2021
+ms.date: 07/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d9d0d04c1a698c765b5effcca88624e6fb99da64
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
-ms.translationtype: MT
+ms.openlocfilehash: ad704c6c3b95abcfd52e449a0ffbb4b82b236498ae8d2775c4e65811de3ef503
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913703"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763837"
 ---
 # <a name="install-the-adventure-works-theme"></a>Setja upp Adventure Works-þemað
 
@@ -32,7 +32,7 @@ ms.locfileid: "7913703"
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en þema Adventure Works er sett upp verður þú að vera með Dynamics 365 Commerce umhverfi (Commerce-útgáfu 10.0.20 eða nýrri) sem inniheldur Retail Cloud Scale Unit (RCSU), hugbúnaðarþróunarpakka (SDK) á netinu fyrir Commerce og einingasafn Commerce. Fyrir upplýsingar um hvernig á að setja upp Commerce SDK og einingasafnið, sjá [Settu upp þróunarumhverfi](e-commerce-extensibility/setup-dev-environment.md). 
+Áður en þema Adventure Works er sett upp verður þú að vera með Dynamics 365 Commerce umhverfi (Commerce-útgáfu 10.0.20 eða nýrri) sem inniheldur Retail Cloud Scale Unit (RCSU), hugbúnaðarþróunarpakka (SDK) á netinu fyrir Commerce og einingasafn Commerce. Frekari upplýsingar um hvernig á að setja upp Commerce SDK og einingasafn er að finna í [Uppfærslur á SDK og einingasafni](e-commerce-extensibility/sdk-updates.md). 
 
 ## <a name="installation-steps"></a>Uppsetningarskref
 
@@ -48,19 +48,11 @@ ms.locfileid: "7913703"
 
     `"@msdyn365-commerce-theme:registry" "https://pkgs.dev.azure.com/commerce-partner/Registry/_packaging/dynamics365-commerce/npm/registry/"`  
     
-Til að setja upp pakkann í þínu staðbundnu umhverfi skaltu keyra`yarn add THEME_PACKAGE@VERSION` skipun frá skipanalínunni, hvar **THEME_PACKAGE** er þemapakkinn (@msdyn365-commerce-theme/adventureworks-theme-kit) og **ÚTGÁFA** er útgáfunúmer einingarsafnsins sem verið er að nota. Það er mikilvægt að útgáfur þemapakkans og einingasafnsins passi saman. Til að finna rétta útgáfunúmer einingasafns til að nota skaltu opna package.json skrána og finna **byrjendapakki** gildi undir **ósjálfstæði** kafla. Í eftirfarandi dæmi notar package.json skráin útgáfu 9.32 af einingasafninu sem varpar til Dynamics 365 Commerce útgáfu 10.0.22 útgáfu.  
+Til að setja upp pakkann í staðbundna umhverfinu þínu skaltu keyra eftirfarandi skipun úr skipanakvaðningunni. Þessi skipun uppfærir package.json skrána sjálfkrafa þannig að hún innihaldi tengslin.
 
-```json
-"dependencies": {
-    "@msdyn365-commerce-modules/starter-pack": "9.32",
-}
-```
+`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit`
 
-Eftirfarandi dæmi sýnir hvernig á að keyra`yarn add` skipun til að bæta við útgáfu 9.32 af Adventure Works þemanu. Skipunin uppfærir sjálfkrafa package.json skrána þannig að hún innihaldi ósjálfstæði.
-
-`yarn add @msdyn365-commerce-theme/adventureworks-theme-kit@9.32`
-
-Fyrir frekari upplýsingar um uppfærslu á útgáfu einingasafns, sjá [SDK og mát bókasafn uppfærslur](e-commerce-extensibility/sdk-updates.md). 
+Í skránni **package.json** skal uppfæra þemaútgáfuna í tiltekna útgáfu.
 
 > [!IMPORTANT]
 > - Þemaútgáfan á að passa við útgáfu einingasafnsins til að tryggja að allir eiginleikar virki sem skyldi. 

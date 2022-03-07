@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e2bf8e340115b03577779d50ba03be8341535d87
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430609"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5209660"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gæðastjórnun fyrir vöruhúsaferli
 
@@ -622,3 +621,6 @@ Starfsmenn í vöruhúsi geta nú tekið til gæðapöntunarverk með því að 
 
 > [!NOTE]
 > Hugleiddu að bæta færslu gæðaskoðunar á útleið við valmyndaratriði fartækis þar sem virkjunarkóðinn er *Sýna opinn verkefnalisti*. Sjá til dæmis valmyndaratriði fartækis sem kallast **Verkefnalisti** í sýnigögnum. Bættu fyrst vinnuklasanum *Gæðapöntun* við notandamiðað valmyndaratriði því að þessi vinnuklasi nauðsynlegur til að vinna birtist í verkefnalistanum. Bættu síðan vinnuklasanum *Gæðapöntun* við valmyndaratriðið **Verkefnalisti**. Notendur sem hafa aðgang að verkefnalistanum geta þá tekið til og unnið úr verkinu sem er sjálfkrafa búið til af staðfestingu gæðapöntunar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

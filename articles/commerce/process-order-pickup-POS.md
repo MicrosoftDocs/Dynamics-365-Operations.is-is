@@ -2,9 +2,11 @@
 title: Vinna úr afhendingum pantana viðskiptavina á sölustað
 description: Þetta efnisatriði útskýrir virkni sem er tiltæk í forriti sölustaðar til að vinna úr afhendingu viðskiptavinapantana.
 author: Hhainesms
+manager: annbe
 ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -12,12 +14,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 598b155e1aa71cc7a23d1003331900604fb3de515381fd9c9987ed39bd9cbd2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e7df580557486c67fc82af19f742bc8002cb881
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741063"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231081"
 ---
 # <a name="process-customer-order-pickups-in-pos"></a>Vinna úr afhendingum pantana viðskiptavina á sölustað
 
@@ -32,7 +34,7 @@ Ef þú ert notandi verslunar geturðu framkvæmt tiltektina með því að nota
 
 Ef valdar pantanir eða pöntunarlínur eru ekki skilgreindar fyrir afhendingu í þessari tilteknu verslun, eða búið er að taka saman pöntunina að fullu, verður aðgerðin **Sækja** ekki tiltæk.
 
-![Afhendingaraðgerð.](media/pickupoperation.png)
+![Afhendingaraðgerð](media/pickupoperation.png)
 
 Í Microsoft Dynamics 365 Commerce útgáfu 10.0.17 og nýrri er hægt að kveikja á eiginleikanum **Bætt upplifun notanda fyrir úrvinnslu pöntunar sem er sótt á sölustað** í gegnum eiginleikastjórnun í Commerce Headquarters. Ef slökkt er á þessum eiginleika geta notendur ekki valið tiltektarmagn. Sjálfgefið er að fullt magn sem pantað var fyrir línuna er magnið sem verður sótt. Þessi upplifun getur verið til vandræða vegna þess að notendur gætu gleymt að velja sumar vörur fyrir tiltekt þegar þeir framkvæma tiltekt í gegnum pöntunaruppfyllingu.
 
@@ -40,13 +42,13 @@ Eiginleikinn **Bætt upplifun notanda fyrir úrvinnslu pöntunar sem er sótt á
 
 Þegar kveikt er á eiginleikanum **Bæta upplifun notanda fyrir úrvinnslu pöntunar sem er sótt á sölustað** og aðgerðin **Sækja** er valin mun svarglugginn **Sækja** birtast. Þar er hægt að velja vörur og magn sem verður sótt. Sjálfgefið er að allt pantað magn sem er með birgðir í stöðu tiltektar eða pökkunar er álitið hæft til tiltektar. Sjálfgefið er að magnið er stillt sem tiltektarmagn. Hægt er að breyta magninu sem var slegið inn, að því gefnu að magnið sé ekki 0 (núll) og fari ekki yfir samtölu opins (þ.e. ekki reikningsfærðs) magns fyrir valda línu.
 
-![Svargluggi afhendingar.](media/pickupselect.png)
+![Svargluggi afhendingar](media/pickupselect.png)
 
 Þegar búið er að velja magnið sem verður sótt um og síðan valið **Sækja** birtist færslusíðan. Ef kveikt er á eiginleikanum [greiðslur omni-rásar](omni-channel-payments.md) og til eru fyrirframheimilaðar kreditkortagreiðslur á skrá, þarf að nota greiðsluna.
 
 Á færslusíðunni reiknar kerfið út upphæðirnar sem eru á gjalddaga með því að reikna samtöluna sem er á gjalddaga fyrir valdar tiltektarvörur og dregur síðan frá allar áður notaðar inneignir eða heimilaðar kreditkortagreiðslur. Vinna þarf úr greiðslu til að ljúka tiltektarfærslu. Ef [skjáútlit](pos-screen-layouts.md) færslusíðunnar er skilgreint þannig að það feli í sér aðgerðina **Ljúka við færslu** og engin upphæð er gjaldfallin, er hægt að ljúka við færsluna án þess að velja greiðslumáta. Ef aðgerðin **Ljúka við færslu** er ekki í boði er hægt að velja tengilinn **$0,00 upphæð til greiðslu** í glugganum **Samtölur** til að ljúka við færsluna án þess að þurfa að velja greiðslumáta.
 
-![Færslusíða fyrir tiltektarfærslu viðskiptavinapöntunar.](media/pickupcart.png)
+![Færslusíða fyrir tiltektarfærslu viðskiptavinapöntunar](media/pickupcart.png)
 
 ## <a name="changing-pickup-lines-or-quantities"></a>Tiltektarlínum eða -magni breytt
 
@@ -54,7 +56,7 @@ Ef breyta þarf tiltektarmagni eftir að búið er að velja vörurnar sem verð
 
 Ef kveikt er á eiginleikanum **Bætt upplifun notanda fyrir úrvinnslu á sóttri pöntun á sölustað** geta fyrirtæki bætt hnappi fyrir aðgerðina **Breyta afhendingarlínum** við skjáútlit færslusíðunnar. Þegar búið er að búa til færslukörfu afhendingar á sölustað og velja vörurnar, er hægt að velja **Breyta afhendingarlínum** ef þarf að breyta afhendingarvörum en ekki ógilda alla færsluna. Í svarglugganum **Breyta afhendingarlínum** sem birtist er hægt að breyta afhendingarvörum og magni. Færslukarfan er síðan uppfærð til að endurspegla breytingarnar.
 
-![Svargluggi fyrir breytingu á sóttum vörum.](media/pickupchange.png)
+![Svargluggi fyrir breytingu á sóttum vörum](media/pickupchange.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Grunnstilla samþykktarferli í verkflæði
 description: Notið eftirfarandi ferli til að stilla eiginleika fyrir samþykktarskref.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7dc365bc2a317b67235f1ad01a4157089e0079d
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 99a4e131b2afa65152d8e9d41b8405895d997250
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798930"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070803"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Grunnstilla samþykktarferli í verkflæði
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Notið eftirfarandi ferli til að stilla eiginleika fyrir samþykktarskref.
 
@@ -183,3 +184,6 @@ Samþykktarferli samanstendur af samþykktarskref. Ljúktu við eftirfarandi fer
 1. Tvísmellið samþykktarferlið í ritill verkflæðis. Verkflæðisritlinum birtir skref í samþykktarferlinu.
 2. Til að bæta við samþykktarskrefi, draga skrefið í **verkflæðiseiningar** á vinnusvæði.
 3. Til að skilgreina samþykktarskref, sjá [Skilgreina samþykktarskref í verkflæði](configure-approval-step-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

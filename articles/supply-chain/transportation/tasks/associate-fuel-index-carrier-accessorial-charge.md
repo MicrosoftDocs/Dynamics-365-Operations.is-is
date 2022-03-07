@@ -1,28 +1,25 @@
 ---
 title: Tengja eldsneytisvísi flutningsaðila sem aukagjald
 description: Þessar leiðbeiningar sýnir hvernig stofna á aukaúthlutunina, aukalegt gjald flutningsaðila, aukalega sniðmát fyrir eldsneytisálag og tengja eldsneytisvísi flutningsaðila við flutningsaðila.
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRatingProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c91d49c2ccdc274632e3acf94b836e19dc6cdaa8
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.openlocfilehash: 458ee935bec970fc02e3222dcb0c176cf5ddd509
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430708"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580193"
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Tengja eldsneytisvísi flutningsaðila sem aukagjald
 
@@ -78,3 +75,6 @@ ms.locfileid: "4430708"
 6. Í listanum skal smella á tengilinn í valinni línu.
 7. Smellið á „Vista“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

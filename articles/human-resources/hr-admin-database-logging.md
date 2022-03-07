@@ -1,31 +1,33 @@
 ---
 title: Skilgreina og stjórna gagnagrunnsskráningu
 description: Hægt er að rekja breytingar til taflna og reita í Dynamics 365 Human Resources með gagnagrunnsskráningu.
-author: Darinkramer
-manager: AnnBe
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3dc4658a0a13af95978c66f5aab882902f754a2d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 3cbe4c105b14935db6803e4bded0d891c564fb81
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419022"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066441"
 ---
 # <a name="configure-and-manage-database-logging"></a>Skilgreina og stjórna gagnagrunnsskráningu
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Hægt er að rekja breytingar til taflna og reita í Dynamics 365 Human Resources með gagnagrunnsskráningu. Þetta efnisatriði lýsir hvernig á að:
 
@@ -66,7 +68,22 @@ Til að bæta afköst skal takmarka færslur skráar með því að velja tiltek
 Hægt er að nota leiðsagnarforritið **Skrifa gagnagrunnsbreytingar í kladda** til að setja upp gagnagrunnsskráningu. Leiðsagnarforritið býður upp á sveigjanlega leið til að setja upp kladdaskráningu fyrir töflur og reiti.
 
 1. Farið í **Kerfisstjórnun > Tenglar > Gagnagrunnur > Uppsetning gagnagrunnskladda**. Veljið **Nýr** til að hefja leiðsagnarforritið **Skrifa gagnagrunnsbreytingar í kladda**.
-2. Leiðsagnarforritinu er síðan fylgt til loka.
+2. Veljið **Næst**. 
+3. Á síðunni **Töflur og svæði** í leiðsagnarforritinu skal velja töflurnar og reitina sem á að virkja gagnagrunnsinnskráningu fyrir og velja **Áfram**.
+
+   > [!Note]
+   > Gagnagrunnsskráning er ekki tiltæk í öllum töflum í gagnagrunni mannauðs. Með því að velja **Sýna allar töflur** fyrir neðan listann stækkar listinn yfir töflur og reiti og sýnir allar gagnagrunnstöflur þar sem gagnagrunnsinnskráning er í boði, en þetta verður undirmengi á heildarlistanum yfir gagnagrunnstöflur.
+
+4. Á **Gerðir breytinga** síðu leiðsagnarforritsins skal velja gagnaaðgerðirnar sem eigia að rekja breytingar fyrir hverja töflu og reiti og velja **Áfram**. Sjá töfluna hér fyrir neðan fyrir lýsingu á gagnavirkni sem eru í boði fyrir skráningu.
+5. Á síðunni **Ljúka** skal fara yfir breytingarnar sem verða gerðar og velja **Ljúka**.
+
+| Aðgerð | lýsing |
+| -- | -- |
+| Rekja nýjar færslur | Búa til kladda fyrir nýjar færslur sem eru búnar til í töflunni. |
+| Update | Búa til kladda fyrir uppfærslur á töflufærslum eða uppfærslur á hvern sérvalinn reit í töflunni. Ef valið er að skrá uppfærslur fyrir töfluna er kladdafærsla búin til í hvert skipti sem verið er að uppfæra hvaða reit sem er í hvaða færslu sem er í töflunni. Ef valið er að skrá uppfærslur fyrir tiltekna reiti er kladdafærsla aðeins búin til þegar uppfærslur eru gerðar á þessum reitum í töflufærslum. |
+| Eyða | Búa til kladda fyrir færslur sem er eytt úr töflunni. |
+| Endurnefna lykil | Búa til annálafærslu þegar töflulykill er endurnefndur. |
+
 
 ## <a name="clean-up-database-logs"></a>Hreinsa upp gagnagrunnsskrár
 
@@ -79,11 +96,14 @@ Hægt er að eyða öllum eða hluta af gagnagrunnsklöddunum með því að not
 Til að setja upp hreinsun gagnagrunnskladda skal fylgja þessum skrefum: 
 
 1. Farið í **Kerfisstjórnun > Tenglar > Gagnagrunnur > Gagnagrunnskladdi**. Veljið **Hreinsa kladda**.
-
-2. Veljið aðferð við að velja kladda sem á að eyða með því að færa inn einn af eftirfarandi valmöguleikum:
+2. Undir **Skrár til að hafa með** haus, veldu **Sía**.
+3. Veldu aðferðina sem verður notuð til að velja annála til að eyða. Sláðu inn einn af eftirfarandi valkostum:
 
    - Töflu-ID
    - Gerð kladda
    - Tími og dagsetning stofnunar
 
-3. Notið flipann **Hreinsun gagnagrunnskladda** til að ákveða hvenær keyra á hreinsunarverk kladdans. Gagnagrunnskladdar eru í boði í 30 daga að sjálfgefnu.
+4. Notið flipann **Hreinsun gagnagrunnskladda** til að ákveða hvenær keyra á hreinsunarverk kladdans. Gagnagrunnskladdar eru í boði í 30 daga að sjálfgefnu.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

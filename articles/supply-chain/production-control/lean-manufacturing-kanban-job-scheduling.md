@@ -1,30 +1,27 @@
 ---
 title: Áætlun kanban-vinnslu fyrir lean-framleiðslu
 description: Þessi grein veitir upplýsingar um sjónræna stjórnun á vinnsluröðun kanban-vinnsla og mismunandi leiðir til að raða kanban-vinnslum.
-author: cvocph
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardScheduleJobForward, KanbanBoardShowJobs, KanbanJobSchedulingListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 52961
 ms.assetid: fe3b4822-6140-4b02-bebb-1fc17be2bce8
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77ba67de5585022ab7d506c8cd2acb380a4e3a54
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: f70c3cf44ce90b13250836013636920267d2016d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430559"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570226"
 ---
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Áætlun kanban-vinnslu fyrir lean-framleiðslu
 
@@ -68,8 +65,10 @@ Tiltæk afkastageta eftir degi eða viku ákvarðast af dagatalinu sem er úthlu
 
 **áætlun kanban-vinnslu** listasíðu inniheldur Upplýsingakassa sem sýnir tiltækt og bókað tímabil afkastagetu fyrir valda vinnuflokkinn. Tímabil sýna daga eða vikur, samkvæmt völdum áætlunartímabilum í framleiðsluflæðislíkani.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

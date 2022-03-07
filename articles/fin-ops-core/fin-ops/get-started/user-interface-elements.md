@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3e087a1abec9bf177bb831b9bbfa12895054ad07
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: aa858c800e3432b0cb9c4b3c4eea57bbbed0f624
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797940"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5566247"
 ---
 # <a name="user-interface-elements"></a>Einingar notandaviðmóts
 
@@ -86,3 +85,6 @@ Eftirfarandi mynd sýnir dæmi um þessar tegundir tilkynninga.
 *Listi* er nafnið gefið safn gagna sem þú getur flett í gegnum. Þú getur fært þessar færslur inn á síðuna með því að velja þær. Oft mun þetta opna hnitanet.
 
 ![Eftirfarandi mynd sýnir dæmi um tækjastika, töflur og lista.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Þjálfun fyrirtækis Power BI efni
 description: Þetta efnisatriði lýsir Finance and Operations - Fyrirtækjaþjálfun Power BI efni.
 author: jcart1106
-manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bbbb3069ffc43062e456721e189f671398514cfd
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: cd48c12ea3ea31904c437f678888a51e5381cfcfbeef0e1c709858b0c6cb857d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685836"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763549"
 ---
 # <a name="organizational-training-power-bi-content"></a>Þjálfun fyrirtækis Power BI efni
 
@@ -57,3 +55,6 @@ Forritagögn eru notuð til að fylla út skýrslurnar í efnispakka fyrirtækja
 | Þjálfun\_Position        | Staða, titill og jafngildi fulls starfs (FTE)                  | Þjálfun\_CourseAgenda, Training\_CourseAttendees |
 | Þjálfun\_WorkerName      | Fornafn, eftirnafn, og fullt nafn                             | Þjálfun\_CourseAttendees |
 | Þjálfun\_WorkerTitle     | Titill og starfsaldursdagsetning                                         | Þjálfun\_CourseAttendees |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

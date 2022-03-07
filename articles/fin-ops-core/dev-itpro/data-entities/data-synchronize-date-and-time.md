@@ -2,11 +2,9 @@
 title: Samstilla dagsetningu og tíma í innflutningsvinnslum
 description: Notið UTC-tíma í innflutningsverkum til að forðast vandamál varðandi umreikning tímabelta.
 author: Sunil-Garg
-manager: tfehr
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae04b09a68e64d6d70c0329e689ab08c3903fca0
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 41c0ec805a20a525989e0133e5dffb29ce3fed39
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798720"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748670"
 ---
 # <a name="synchronize-date-and-time-in-import-jobs"></a>Samstilla dagsetningu og tíma í innflutningsvinnslum
 
@@ -40,3 +38,6 @@ Mikilvægt er að stilla tímabelti fyrir innflutningsverkið á samræmdan heim
 4. Breytið **Tímabelti** í **Samræmdan heimstíma** og breytið **Tungumáli** í **En-Us**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

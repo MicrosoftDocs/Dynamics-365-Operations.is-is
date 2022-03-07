@@ -1,12 +1,10 @@
 ---
 title: Mikilvægisgerðir eigna
 description: Umræðuefnið útskýrir gerðir eignamikilvægis í eignastýringu.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9d2c5e8b6676abf03fe0d3de8b23f125713d6f2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: baf2c279a656bd67a0850ef9178e1bc984bb9b8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021705"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351490"
 ---
 # <a name="asset-criticality-types"></a>Mikilvægisgerðir eigna
 
@@ -42,7 +40,7 @@ Til að setja upp gagnrýni skaparðu fyrst þær tegundir gagnrýni sem ætti a
 4. Á svæðinu **Heiti** skal færa inn einkvæmt heiti fyrir gerð mikilvægis.
 5. Í reitnum **Stuðull** skal slá inn stuðul. Þessi þáttur er notaður við útreikning á tímasetningu verkbeiðnaáætlana til að ákvarða mikilvægisskrá sem ætti að nota. (Færslan sem hefur hæsta þáttinn er alltaf notuð.) Þessi stilling skiptir máli ef, eins og sýnt er á eftirfarandi mynd, eru gagnrýni línur búnar til sem hafa sama gagnrýni gildi.
 
-    ![Síðan Gerðir mikilvægis](media/23-setup-for-objects.png)
+    ![Síða fyrir gerðir mikilvægis.](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Setja upp mikilvægi eigna
 
@@ -61,3 +59,6 @@ Til að setja upp gagnrýni skaparðu fyrst þær tegundir gagnrýni sem ætti a
 - Gagnrýnin á verkbeiðni er endurútreiknuð í hvert skipti sem vinnupöntunarlínu er bætt við eða henni eytt úr verkbeiðninni.
 - Ef verkbeiðni inniheldur nokkur vinnupöntunarstörf er mesta gagnrýni samkvæmt **Þáttur** reit á síðunni **Gerðir gagnrýni**, er alltaf notuð í nni.
 - Almennt getur gagnrýni eigna breyst á tímabili. Gagnrýni getur orðið fyrir áhrifum af kaup á nýjum búnaði, endurbótum og svo framvegis. Íhugaðu að endurmeta eignatengsl þitt með reglulegu millibili (til dæmis einu sinni á ári eða annað hvert ár) til að ganga úr skugga um að skilgreiningar á mikilvægi þínu samsvari núverandi framleiðsluuppsetningunni.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

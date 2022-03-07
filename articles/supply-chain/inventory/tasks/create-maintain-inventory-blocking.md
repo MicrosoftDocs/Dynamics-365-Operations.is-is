@@ -2,27 +2,24 @@
 title: Stofna og viðhalda á birgðalæsing
 description: Þessi verklýsing sýnir hvernig á að koma í veg fyrir að efnislegar lagerbirgðir séu frátekinn af önnur upprunaskjöl á útleið með því að nota lokun birgða.
 author: perlynne
-manager: tfehr
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBlocking, InventItemIdLookupSimple, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12c6e047e15aaab157e6de70f4a09f500af2965f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 319ae6da1e0e504316b2d96001d582e835cef20c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430599"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834002"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Stofna og viðhalda á birgðalæsing
 
@@ -52,3 +49,6 @@ ms.locfileid: "4430599"
 2. Smellið á **Já**.
 3. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

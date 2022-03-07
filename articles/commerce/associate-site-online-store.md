@@ -11,19 +11,18 @@ ms.technology: ''
 ROBOTS: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b6ae02d34499275fa303358f7dae4d3835d438e1
-ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
+ms.openlocfilehash: bb39b54e45e387067720dcbc5d9ccffbf8bf08b4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4517331"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211523"
 ---
 # <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Tengja svæði Dynamics 365 Commerce við netrás
 
@@ -58,3 +57,6 @@ Eftir að vefsvæðið þitt er búið til geturðu staðfest að það sé teng
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

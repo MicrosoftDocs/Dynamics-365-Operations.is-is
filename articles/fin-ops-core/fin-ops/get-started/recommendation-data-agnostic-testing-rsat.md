@@ -2,11 +2,9 @@
 title: Gagnafræðileg próf með gögnum með Regression Suite Automation Tool
 description: Í þessu efni er fjallað um ráðleggingar varðandi prófanir á gögnum með því að nota Regression Suite Automation Tool.
 author: kfend
-manager: AnnBe
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2019-09-11
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2398bcbf0d148932e62ebe90aa8016acf0c79c28
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: d9a5bce1cc56dfdf66b2ce58c2e740b7c4b3bdfc7f4e75396fe5dc7cb931b6d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798202"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763411"
 ---
 # <a name="data-agnostic-testing-using-the-regression-suite-automation-tool"></a>Gagnafræðileg próf með gögnum með Regression Suite Automation Tool
 
@@ -32,7 +30,7 @@ ms.locfileid: "4798202"
 - ATL rammi
 - Regression Suite Automation Tool (RSAT)
 
-[![Próf flokkunarpýramída](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
+[![Próf flokkunarpýramída.](./media/rsat-data-agnostic-testing-01.PNG)](./media/rsat-data-agnostic-testing-01.PNG)
 
 ## <a name="overview"></a>Yfirlit
 -   **SysTest umgjörð** - SysTest umgjörðin er áreiðanleg til að skrifa einingapróf. Vegna þess að einingapróf eru venjulega að prófa aðferð eða aðgerð, ættu þau alltaf að vera gögn samnýtt og aðeins háð innsláttargögnum sem eru til staðar sem hluti af prófinu.
@@ -44,8 +42,11 @@ ms.locfileid: "4798202"
     - O Sláðu inn sérstök auðkenni, svo sem reikningsnúmer, í gegnum númeraröðina eða með því að nota Microsoft Excel-aðgerðir eins og =TEXT(NOW(),"yyyymmddhhmm"). Þessi aðgerð mun veita einstakt númer á hverri mínútu, sem gerir þér kleift að fylgjast með þegar aðgerðin átti sér stað. Þetta er hægt að nota fyrir breytur eins og móttökunúmer vöru og reikningsnúmer lánardrottins. Þessar prófanir halda áfram að vinna í sama gagnagrunni aftur og aftur, án þess að þurfa neina endurreisn.
     - Stilltu alltaf **Breyta stillingu** umhverfisins á **Lesa** eða **Breyta** sem fyrsta prófatilvikið vegna þess að sjálfgefinn valkostur er **Sjálfvirkt**. Valkostirnir **Sjálfvirkt** nota alltaf fyrri stillingu og geta valdið óáreiðanlegum prófum. 
  
-    [![Valkostasíða, afkastaflipi](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
+    [![Valkostasíða, afkastaflipi.](./media/rsat-data-agnostic-testing-02.PNG)](./media/rsat-data-agnostic-testing-02.PNG)
  
     - Staðfesta aðeins eftir að þú síar á tiltekin viðskipti í stað almennrar staðfestingar. Til dæmis, fyrir fjölda færslna, síaðu að viðskiptanúmerinu eða viðskiptadeginum þannig að löggildingin útiloki öll önnur viðskipti. 
     - Ef þú ert að athuga jafnvægi viðskiptavina eða fjárhagsáætlunarprófun skaltu vista gildi fyrst og bæta síðan við viðskiptagildi þínu til að staðfesta væntanlega niðurstöðu í stað þess að staðfesta fast væntanlegt gildi. 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoard, KanbanJobSchedulingListPage, LeanProductionFlowVisualization, KanbanBoardUnplannedJobs
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6e34259f0860659a49e13371f8619ac1f93dbd3d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430088"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223339"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Sjónræn röðun fyrir lean-framleiðslu
 
@@ -95,3 +94,6 @@ Hægt er að opna Kanban-áætlunarborð með valmyndaratriði á eftirfarandi s
 
 [Röðun kanban-vinnslu fyrir lean-framleiðslu](lean-manufacturing-kanban-job-scheduling.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

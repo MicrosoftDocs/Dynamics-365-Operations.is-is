@@ -2,16 +2,13 @@
 title: Reikna út efnisnotkunina
 description: Þessi grein gefur upplýsingar um ýmsa valkosti sem tengjast útreikningi á efnisnotkun.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMDesignerEditBOM, BOMTable, ProdBOM
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53401
 ms.assetid: 9cff88e4-0425-4707-9178-3c2cb10df7c2
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f58365278200344169b93658e9c92dea2bc4f18f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 366ae86f09bf975ba0b2df33cfc2355b71b15e54
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430400"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809207"
 ---
 # <a name="calculate-material-consumption"></a>Reikna út efnisnotkunina
 
@@ -82,3 +79,6 @@ Magn uppskriftar (BOM) er 1 og framleiðslumagnið er 110. Formúla fyrir notkun
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

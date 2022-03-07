@@ -2,26 +2,23 @@
 title: Afrita formúlu
 description: Þetta ferli leggur áherslu á stofnun formúlu sem inniheldur sömu efni og fyrirliggjandi formúla, en með minniháttar breytingum.
 author: ShylaThompson
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26524f886a8af545869bacef4d57bfc14c0ed225
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e7c586082d8bbe29844140bd3637ad849e444e8e2f82ce26303f348a565c8f3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430060"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731842"
 ---
 # <a name="copy-a-formula"></a>Afrita formúlu
 
@@ -65,3 +62,6 @@ ms.locfileid: "4430060"
 5. Smellið á Velja.
 6. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

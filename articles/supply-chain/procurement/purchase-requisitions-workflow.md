@@ -1,12 +1,10 @@
 ---
 title: Verkflæði fyrir innkaupabeiðni
 description: Verkflæðisferlið færir innkaupabeiðnir í endurskoðunarferli úr upphaflegu stöðunni Drög í endanlegu stöðuna Samþykkt. Þegar innkaupabeiðni er sent til endurskoðunar, hefst verkflæðisferli. Eftir að innkaupabeiðnin er samþykkt getir innkaupapöntun verið myndað fyrir innkaupabeiðnilínur og send til lánardrottins fyrir uppfyllingu pöntunar.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6069e2ab93e1ce4299669850bdae37e82b17428
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: c512fff1c20fbe539e98a6da02a9a4362c3753b0897b48ee5c6a785d8893bbe9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021981"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717239"
 ---
 # <a name="purchase-requisition-workflow"></a>Verkflæði fyrir innkaupabeiðni
 
@@ -53,7 +51,7 @@ Eftirfarandi skýringarmynd sýnir hvernig innkaupabeiðni getur fara í gegnum 
 -   **Innkaupaaðilinn** – notandinn sem framkvæmir innkaupayfirferð og getur samþykkja skjalið.
 -   **Stjórnandi umsækjanda** – notandinn sem framkvæmir stjórnandayfirferð og getur samþykkja skjalið.
 
-![endurskoðunarferli fyrir verkflæði innkaupabeiðni](./media/purchreqworkflowoverview_submission.gif)  
+![Endurskoðunarferli fyrir verkflæði innkaupabeiðni.](./media/purchreqworkflowoverview_submission.gif)  
 Í þessu dæmi fylgir verkflæðiferlið fyrir innkaupabeiðni þessum skrefum:
 
 1.  Undirbúningsaðili sendir innkaupabeiðni til yfirferðar
@@ -76,7 +74,7 @@ Eftirfarandi dæmi sýnir hvernig einstakar innkaupabeiðnilínur má setja í l
 -   **Deildarstjórinn**– notandinn sem framkvæmir yfirferð á útgjöldum og getur samþykkja skjalið.
 -   **Hópstjórinn** – notandinn sem framkvæmir endurskoðun fyrir undirskriftarvald og getur samþykkja skjalið.
 
-![endurskoðunarferli fyrir Verkflæði innkaupabeiðnilína](./media/purchreqlineworkflowoverview.gif)  
+![Endurskoðunarferli fyrir Verkflæði innkaupabeiðnilína.](./media/purchreqlineworkflowoverview.gif)  
 Í þessu dæmi inniheldur verkflæðiferlið fyrir innkaupabeiðnilínur þessi skrefum:
 
 1.  Undirbúningsaðili sendir innkaupabeiðni til yfirferðar Hverri lína er sett í leið til yfirlesara sem er skilgreindur í verkflæðisferlinu.
@@ -107,8 +105,7 @@ Hægt er að setja upp skoðunarmaður útgjalda á **skoðunarmaður útgjalda 
 
 Til að nota einn af skoðunarmaður útgjalda sem sett eru upp í verkflæði, verður að setja í **Gerð þátttakanda** valkostinn á **þátttakendur í Útgjöldum** í á **Úthlutun** eiginleika fyrir viðkomandi verkflæðiseiningu.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Stofna beiðni um notkun](tasks/create-requisition-consumption.md)
 
@@ -120,3 +117,6 @@ Til að nota einn af skoðunarmaður útgjalda sem sett eru upp í verkflæði, 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

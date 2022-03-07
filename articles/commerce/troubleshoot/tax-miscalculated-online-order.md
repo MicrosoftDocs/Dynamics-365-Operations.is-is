@@ -2,7 +2,7 @@
 title: Skattar á pöntunum á netinu eru ekki rétt reiknaðir
 description: Þetta efnisatriði býður upp á leiðsögn úrræðaleitar sem getur hjálpað til þegar skattar á pöntunum á netinu eru ekki rétt reiknaðir eða þegar skattflokkur sölulínu er ekki rétt stilltur.
 author: Reza-Assadi
-ms.date: 02/16/2022
+ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e4361b436cc78eccaff29dfa2927d342e26072d
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
-ms.translationtype: MT
+ms.openlocfilehash: e51ae789dad2c7b5118be2cf8a88f4e4090a8c74c8259b4eaaddad1a134af80a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8312032"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715261"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>Skattar á pöntunum á netinu eru ekki rétt reiknaðir
 
@@ -33,17 +33,6 @@ ms.locfileid: "8312032"
 Þegar pöntun rafrænna viðskipta er gerð eru skattarnir rangt reiknaðir eða skattflokkur í sölulínunum er ekki rétt stilltur.
 
 ## <a name="resolution"></a>Upplausn
-
-### <a name="configure-general-sales-tax-groups-in-commerce-headquarters"></a>Skilgreina almenna söluskattflokka í Commerce Headquarters
-
-Til að skilgreina almenna söluskattflokka í Commerce Headquarters skal fylgja þessum skrefum.
-
-1. Farið í **Skattur \> Óbeinir skattar \> Söluskattur \> Söluskattflokkur**.
-1. Í vinstri yfirlitsrúðunni, veldu skattaflokkinn sem á að stilla.
-1. Í flipanum **Skattur byggður á áfangastað smásölu** skal skilgreina skatta fyrir söluskattflokkinn.
-
-> [!NOTE]
-> Fyrir sendingu sem inniheldur ekki söluskatt sem er ákvarðaður af heimilisfangi viðskiptavinarins, ákvarða afhendingarheimilisfang línunnar og skattar sem eru byggðir á áfangastað sem eru stilltir fyrir skattflokkinn skattflokkinn. Frekari upplýsingar er að finna í [Setja upp skatta fyrir netverslanir á grundvelli áfangastaðar](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ### <a name="configure-the-sales-tax-for-a-retail-store-in-commerce-headquarters"></a>Skilgreina söluskatt fyrir smásöluverslun í Commerce Headquarters
 
@@ -68,6 +57,17 @@ Til að skilgreina söluskatt fyrir aðsetur viðskiptavinar í Commerce Headqua
 
 > [!NOTE]
 > Fyrir sendingar sem fela í sér söluskatt á aðsetri viðskiptavinar mun afhendingaraðsetur línunnar ákvarða skattflokk fyrir línuna. Ef viðskiptavinur er að senda til fyrirliggjandi aðseturs sem er með skattflokk sem búið er að skilgreina verður fyrirliggjandi skattflokkur notaður. Sjálfgefið er að aðsetur eru ekki með skattflokk þegar þau eru búin til.
+
+### <a name="configure-general-sales-tax-groups-in-commerce-headquarters"></a>Skilgreina almenna söluskattflokka í Commerce Headquarters
+
+Til að skilgreina almenna söluskattflokka í Commerce Headquarters skal fylgja þessum skrefum.
+
+1. Farið í **Skattur \> Óbeinir skattar \> Söluskattur \> Söluskattflokkur**.
+1. Í vinstri flettingunni skal velja skattflokkinn sem á að skilgreina.
+1. Í flipanum **Skattur byggður á áfangastað smásölu** skal skilgreina skatta fyrir söluskattflokkinn.
+
+> [!NOTE]
+> Fyrir sendingu sem felur ekki í sér söluskatt á aðsetri viðskiptavinar munu afhendingaraðsetur línunnar og skattur byggður á áfangastað sem er skilgreint fyrir skattflokkinn ákvarða skattflokkinn. Frekari upplýsingar er að finna í [Setja upp skatta fyrir netverslanir á grundvelli áfangastaðar](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

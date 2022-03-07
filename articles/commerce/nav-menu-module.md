@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 1af1fc03ead21150415295d83d292afe0110e5bd
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
-ms.translationtype: MT
+ms.openlocfilehash: 5379aa4496c1c448d147bb260689ebe38aaf903f
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109683"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713853"
 ---
 # <a name="navigation-menu-module"></a>Eining yfirlitsvalmyndar
 
@@ -62,7 +62,7 @@ Frekari upplýsingar um hvernig á að bæta við einingu yfirlitsvalmyndar í h
 
 [Brauðmylsnueining](add-breadcrumb.md)
 
-[Vefsíðuvalseining](site-selector.md)
+[Svæðisvalseining](site-selector.md)
 
 [Kaupgluggaeining](add-buy-box.md)
 

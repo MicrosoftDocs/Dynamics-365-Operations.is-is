@@ -2,6 +2,7 @@
 title: Tiltæk fartækjavinnusvæði
 description: Í þessu efnisatriði er að finna lista yfir fartækjavinnusvæði sem eru í boði.
 author: sericks007
+manager: AnnBe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
@@ -12,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ff9dee31130c3078aa35b7518f368fb5c782139858ac0bac5b7c498e357dc9f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f7695ede9ecb04c4953e13f7ea146461ce376c47
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745149"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570045"
 ---
 # <a name="available-mobile-workspaces"></a>Tiltæk fartækjavinnusvæði
 
@@ -31,9 +32,9 @@ ms.locfileid: "6745149"
 |[Skráasafn fyrirtækisins](company-directory-mobile-workspace.md)| Gerir þér kleift að skoða og hafa samband við aðra starfsmenn í þínu fyrirtæki.| 2017. júní |    
 |[Liðið mitt](manager-self-service-mobile-workspace.md)| Þú getur skoðað beinar skýrslur þínar og starfsfólk, sem og gefið einstaklingum hrós innan skýrslukeðjunnar.|2017. júní |     
 |[Reikningssamþykki](invoice-approval-mobile-workspace.md)| Gefur lista yfir reikninga sem hafa verið úthlutaðir þér í gegnum verkflæði reikningshauss lánardrottins.| 2017. júní   |
-| [Útgjaldastýring](/dynamics365/project-operations/prod-exp/expense-management-mobile-workspace) | Þú getur náð í og hlaðið upp kvittun, svo hægt sé að tengja hana við kostnaðarskýrslu síðar. Fartækjavinnusvæðið einnig gerir notendum kleift að stofna á fljótan hátt færslulína með því að nota viðhengda kvittun. | 2017. apríl |
+| [Útgjaldastýring](../../../finance/expense-management/expense-management-mobile-workspace.md) | Þú getur náð í og hlaðið upp kvittun, svo hægt sé að tengja hana við kostnaðarskýrslu síðar. Fartækjavinnusvæðið einnig gerir notendum kleift að stofna á fljótan hátt færslulína með því að nota viðhengda kvittun. | 2017. apríl |
 | [Samþykkt innkaupapöntunar](../../../supply-chain/procurement/purchase-order-mobile-workspace.md) | Skoða and bregðast við innkaupapantanir með aðgerðir eins og að samþykkja eða hafna. | 2017. apríl |
-| [Vinnustundafærsla verks](/dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace) | Þú getur fært inn og vistað tíma á verkefni með því að nota fartæki þitt. | 2017. mars |
+| [Vinnustundafærsla verks](../../../finance/project-management/project-time-entry-mobile-workspace.md) | Þú getur fært inn og vistað tíma á verkefni með því að nota fartæki þitt. | 2017. mars |
 | [Kostnaðarstýring](../../../finance/cost-accounting/cost-controlling-mobile-workspace.md)     | Stjórendur kostnaðarstaða geta séð afköst kostnaðarstaðanna.                                                                                               |  2017. janúar        |
 | [Lagerbirgðir](../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | Fá innsýn í fráteknar og tiltækar birgðir.                                                                                                    |   2017. janúar       |
 | [Sölupantanir](../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Þú getur fylgst náið með sölupöntunum þínum.                                                                                                                          |  2017. janúar                  |

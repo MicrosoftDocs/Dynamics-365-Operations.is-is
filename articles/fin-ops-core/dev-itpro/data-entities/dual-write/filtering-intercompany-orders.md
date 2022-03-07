@@ -2,11 +2,9 @@
 title: Sía pantanir innan samstæðu til að komast hjá samstillingu pantana og pöntunarlína
 description: Þetta efnisatriði útskýrir hvernig á að sía pantanir innan samstæðu þannig að einingar pöntunar og pöntunarlína samstillist ekki.
 author: negudava
-manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: negudava
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 342db8c1b4337145bfd61f5698ff6de25434a400
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 123427db61782490d348489c23e0eaf5f8b513c9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796607"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748642"
 ---
 # <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>Sía pantanir innan samstæðu til að komast hjá samstillingu pantana og pöntunarlína
 
@@ -66,3 +64,6 @@ Hver stöðluð Dataverse-tafla er útvíkkuð með tilvísunum í dálkinn **In
 8. Þegar **Tilboð** hafa verið víkkuð út skal nota síu sem er með `CUSTGROUP != "<company>"` sem fyrirspurnarstreng.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Breyta svarglugga fyrirspurnar fyrir CDS-sölutilboðshaus":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

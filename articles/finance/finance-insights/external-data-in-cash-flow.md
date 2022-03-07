@@ -1,8 +1,8 @@
 ---
-title: Ytri gögn í sjóðsstreymisspám
+title: Ytri gögn í sjóðstreymisspám
 description: Þetta efnisatriði lýsir uppsetningarskrefunum sem þarf að ljúka svo hægt sé að færa inn ytri gögn eða flytja inn í sjóðstreymisspár.
 author: rcarlson
-ms.date: 02/16/2022
+ms.date: 12/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23342114c25cd1b59d47aa7ce63f09de029fa690
-ms.sourcegitcommit: 465c84eb5cdc211692e2ae09b45d1400f9a315ee
-ms.translationtype: MT
+ms.openlocfilehash: 66b097b2936e61c619d45ad103440eddbb983feb
+ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8314709"
+ms.lasthandoff: 12/23/2021
+ms.locfileid: "7945792"
 ---
-# <a name="external-data-in-cash-flow-forecasts"></a>Ytri gögn í sjóðsstreymisspám
+# <a name="external-data-in-cash-flow-forecasts"></a>Ytri gögn í sjóðstreymisspám
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Ytri gögn er hægt að færa inn eða flytja inn í sjóðsstreymisspá. Þetta efnisatriði lýsir uppsetningarskrefunum sem eru sértæk fyrir notkun ytri gagna og sem gera kleift að taka ytri gögn með í sjóðsstreymisspá.
 
@@ -32,13 +33,13 @@ Ytri gögn er hægt að færa inn eða flytja inn í sjóðsstreymisspá. Þetta
 
 Nota **Ytri heimild** flipann á **Uppsetning sjóðstreymisspár** síða (**Handbært fé og bankastjórnun \> Sjóðstreymisspá \> Uppsetning sjóðstreymisspár**) til að slá inn stillingar sem styðja notkun ytri gagna í sjóðstreymisspám.
 
-Ytri gögn er hægt að færa inn eða flytja inn í sjóðsstreymisspá. Áður en ytri gögn eru færð inn eða flutt inn verður að setja upp ytri heimildir. Á **Ytri heimild** flipa, setja upp ytri sjóðstreymisflokka. Flokkur getur verið annað hvort **Sendandi** eða **Komandi**. **Lausafjárstaða** ætti að vera valin sem færslugerð. Í **Stillingar lögaðila** grid, velja lögaðila og tilheyrandi aðalreikninga sem ytra sjóðstreymisflokkar eiga við.
+Ytri gögn er hægt að færa inn eða flytja inn í sjóðsstreymisspá. Áður en ytri gögn eru færð inn eða flutt inn verður að setja upp ytri heimildir. Á **Ytri heimild** flipa, setja upp ytri sjóðstreymisflokka. Flokkur getur verið annað hvort **Sendandi** eða **Komandi**. **Lausafjárstaða** ætti að vera valin sem færslugerð. Í **Stillingar lögaðila** grid, velja lögaðila og samsvarandi aðalreikninga sem ytra sjóðstreymisflokkar eiga við.
 
 Fyrir frekari upplýsingar um hvernig á að setja upp sjóðstreymisspár, sjá [Sjóðstreymisspá](../cash-bank-management/cash-flow-forecasting.md).
 
 ## <a name="enter-external-data"></a>Sláðu inn ytri gögn
 
-Til að slá inn og breyta ytri gögnum fyrir sjóðstreymisspár geturðu notað **Opnaðu í Excel** reynsla. Veldu **Ytri gögn** hnappinn á **Sjóðstreymisspá** vinnusvæðissíðu og veldu síðan annað hvort **Bæta við ytri gögnum** eða **Breyta fyrirliggjandi ytri gögnum**. Þegar Microsoft Excel-skráin er opnuð er hægt að færa inn upplýsingar í eftirfarandi reiti:
+Til að slá inn og breyta ytri gögnum fyrir sjóðstreymisspár geturðu notað **Opnaðu í Excel** reynsla. Veldu **Ytri gögn** hnappinn á **Uppsetning sjóðstreymisspár** síðu og veldu síðan annað hvort **Bæta við ytri gögnum** eða **Breyttu fyrirliggjandi ytri gögnum**. Þegar Microsoft Excel-skráin er opnuð er hægt að færa inn upplýsingar í eftirfarandi reiti:
 
 - **Inngangsauðkenni** (einstakt)
 - **Lýsing** (valfrjálst)

@@ -1,54 +1,51 @@
 ---
 title: Samruni virðislíkön eigna og afskriftarbækur
 description: Í eldri útgáfum, voru tvö matshugtök fyrir eignir - virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations (1611) útgáfu, er virkni fyrir virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 06/20/2017
+author: moaamer
+ms.date: 10/14/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 221564
 ms.assetid: 7c68eb7c-8b1a-4dd9-afb8-04b4040e305e
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0528c378ffbb24ac8cb19af25290a1002ece2327
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 9b11edcbf03b0917e35d9cef03834629b7b67fad
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969056"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674927"
 ---
-# <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Samruni virðislíkön eigna og afskriftarbækur
+# <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Sameining virðislíkana eigna og afskriftarbókar
 
 [!include [banner](../includes/banner.md)]
 
-Í eldri útgáfum, voru tvö matshugtök fyrir eignir - virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations (1611) útgáfu, er virkni fyrir virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók.
+Þetta efnisatriði lýsir núverandi virkni bókar í eignum. Þessi virkni er byggð á virkni virðislíkans sem var í boði í fyrri útgáfum, en inniheldur einnig alla virknina sem var áður fyrr einungis til staðar í afskriftarbókum.
 
-Ný virkni bókar er byggð á fyrri virkni virðislíkans en inniheldur einnig allar aðgerðir sem var áður veitt í eingöngu í afskriftarbók. [![Bók sem samruni virðislíkans og afskriftarbókar](./media/fixed-assets.png)](./media/fixed-assets.png) Vegna þessa samruna, geturðu nú notað eitt sett af síðum, fyrirspurnir og skýrslur fyrir öll eignaferli. Töflurnar í þessu efnisatriði lýsa fyrri virkni fyrir afskriftabækur og virðislíkön með nýjar aðgerðir fyrir afskriftabækur.
+Virkni bókar gerir þér kleift að nota eitt sett af síðum, fyrirspurnum og skýrslum fyrir alla ferla eignar í fyrirtækinu. Töflurnar í þessu efnisatriði lýsa fyrri virkni fyrir afskriftabækur og virðislíkön saman með núverandi virkni fyrir bækur.
 
 ## <a name="setup"></a>Uppsetning
 Sjálfgefið er að bækur bóka bæði í fjárhag (GL) og undirbók eignar. Bækur hafa nýja **Bóka í fjárhag** valkost sem gerir kleift að gera bókun á Fjárhag óvirka og bóka aðeins í undirbók eignar. Þessi virkni svipar fyrri hegðun bókana fyrir afskriftabækur. Uppsetning heiti færslubóka hefur nýja bókunarlag sem nefnist Ekkert. Þessi bókunarlag var bætt sérstaklega við fyrir eignafærslur. Til að bóka færslur fyrir bækur sem ekki bóka í fjárhag, verður að nota heiti færslubókar sem er með bókunarlag stillt á **Ekkert**.
 
-|                                                  |                                 |                                 |                                                         |
+
+| &nbsp;                                           | Afskriftabók               | Virðislíkan                     | Bók (Nýtt)                                              |
 |--------------------------------------------------|---------------------------------|---------------------------------|---------------------------------------------------------|
-|                                                  | Afskriftabók               | Virðislíkan                     | Bók (Nýtt)                                              |
-| Bóka í fjárhag                                   | Aldrei                           | Alltaf                          | Valkostur að bóka á Fjárhag                                |
-| Bókunarlög                                   | Ekki tiltækt                  | 3: Núgildandi, aðgerðir, og skattur | 11: núgildandi, Aðgerðir, Skatt, 7 sérsniðna lögum og Ekkert |
-| Færslubókanöfn                                    | Færslubókarheiti afskriftarbókar | Fjárhagur - Færslubókanöfn              | Fjárhagur - Færslubókanöfn                                      |
+| Bóka í fjárhag                                   | Aldrei                           | Alltaf                          | Valkostur að bóka í fjárhag                                |
+| Bókunarlög                                   | Á ekki við                  | 3: Núgildandi, aðgerðir, og skattur | 11: núgildandi, Aðgerðir, Skatt, 7 sérsniðna lögum og Ekkert |
+| Færslubókanöfn                                    | Færslubókarheiti afskriftarbókar | Fjárhagur - Færslubókaheiti              | Fjárhagur - Færslubókaheiti                                      |
 | Afleiddar bækur                                    | Ekki leyfð                     | Leyfð                         | Leyfð                                                 |
 | Hnekking afskriftarreglu á stigi eignar | Leyfð                         | Ekki leyfð                     | Leyfð                                                 |
 
 ## <a name="processes"></a>Ferli
 Ferli nota nú almenna síðuna. Sum ferla eru eingöngu leyfð ef **Bóka í fjárhag** valkostur er stilltur á **Nei** í uppsetningu bókar.
 
-|                                |                           |                     |                                          |
+| &nbsp;                                           | Afskriftabók               | Virðislíkan                     | Bók (Nýtt)                                              |
 |--------------------------------|---------------------------|---------------------|------------------------------------------|
-|                                | Afskriftabók         | Virðislíkan         | Bók (Nýtt)                               |
 | Innsláttur færslu              | Færslubók afskriftabókar | Eignabók | Eignabók                      |
 | Viðbótarafskriftir             | Leyfð                   | Ekki leyft         | Leyfð                                  |
 | Eyða sögulegum færslum | Leyfð                   | Ekki leyft         | Leyft, nema verið sé að bóka í Fjárhags |
@@ -57,9 +54,8 @@ Ferli nota nú almenna síðuna. Sum ferla eru eingöngu leyfð ef **Bóka í fj
 ## <a name="inquiries-and-reports"></a>Fyrirspurnir og skýrslur
 Fyrirspurnir og skýrslur styðja allar bækurnar . Skýrslur sem ekki með í eftirfarandi töflu studdu áður bæði afskriftarbækur og virðislíkön, og munu núna halda áfram til að styðja allar gerðir bóka. **Bókunarlag** svæði hefur einnig verið bætt við skýrslur, þannig að auðveldara er að bera kennst á færslubókanir.
 
-|                                       |                                |                          |                          |
+| &nbsp;                                           | Afskriftabók               | Virðislíkan                     | Bók (Nýtt)                                              |
 |---------------------------------------|--------------------------------|--------------------------|--------------------------|
-|                                       | Afskriftabók              | Virðislíkan              | Bók (Nýtt)               |
 | Fyrirspurnir                             | Afskriftabókarfærslur | Eignafærslur | Eignafærslur |
 | Eignayfirlit                 | Ekki leyfð                    | Leyfð                  | Leyfð                  |
 | Eignagrunnur                     | Leyfð                        | Ekki leyfð              | Leyfð                  |
@@ -70,3 +66,6 @@ Uppfærsluferlið færir fyrirliggjandi uppsetningu og allar fyrirliggjandi fær
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

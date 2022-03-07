@@ -2,39 +2,38 @@
 title: Yfirlit yfir afurðarráðleggingar
 description: Þetta efnisatriði veitir almennar upplýsingar um afurðatillögur. Afurðatillögur auðvelda viðskiptavinum að finna vörur sem þeir vilja á fljótlegan hátt og jafnvel vörur sem þeir ætluðu ekki upphaflega að kaupa.
 author: Moonma
-manager: AnnBe
 ms.date: 05/26/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Core, Operations
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5aa7db8e53906f9e1416b912fe2c3b70d5430258
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 7824de50a65370ef4f2f23b9c8e926f9bec2fcc3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413032"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982120"
 ---
 # <a name="product-recommendations-overview"></a>Yfirlit yfir afurðarráðleggingar
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Commerce má nota til að sýna afurðatillögur á vefsíðu netverslunar og sölustað (POS) tækinu. Afurðatillögur eru vörur sem viðskiptavinur gæti haft áhuga á. Ráðleggingarnar eru byggðar á kaupþróun annarra viðskiptavina í verslunum á netinu og verslunum sjálfum.
+Microsoft Dynamics 365 Commerce má nota til að sýna afurðartillögur á rafrænu vefsvæði og tæki sölustaðar. Afurðatillögur eru vörur sem viðskiptavinur gæti haft áhuga á. Ráðleggingarnar eru byggðar á kaupþróun annarra viðskiptavina í verslunum á netinu og verslunum sjálfum.
 
 Afurðatillögur gera viðskiptavinum kleift að finna auðveldlega og fljótt vörur sem þeir vilja á meðan þeir hafa reynslu sem þjónar þeim vel. Krosssölu og uppsölu er jafnvel hægt að nota til að hjálpa viðskiptavinum að finna fleiri vörur en þeir ætluðu upphaflega ekki að kaupa. Þegar ráðleggingar eru notaðar til að auka uppgötvun vöru skapa þau fleiri viðskiptatækifæri, hjálpað til við að auka sölutekjur og jafnvel aukið ánægju viðskiptavina og varðveisla.
 
 Í Commerce eru afurðatillögur knúnar af vélanámstækni Microsoft tilmæla í stórum stíl.
+
+Þessi þjónusta er viðbót við Dynamics 365 Commerce. Sæktu nýjustu [Microsoft Dynamics 365 leyfishandbókina](https://go.microsoft.com/fwlink/?LinkId=866544) fyrir frekari upplýsingar.
+
 
 ## <a name="recommendation-service"></a>Tillöguþjónusta
 
@@ -88,3 +87,6 @@ Eftirfarandi tafla lýsir ýmsum gerðum sjálfvirkra vöruábendinga sem eru í
 [Búðu til tillögur með kynningargögnum](product-recommendations-demo-data.md)
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

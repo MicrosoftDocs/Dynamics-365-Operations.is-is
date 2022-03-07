@@ -1,37 +1,39 @@
 ---
-title: Vinna með eiginleika
-description: Lærðu hvernig á að kveikja og slökkva á nýjum eiginleikum Dynamics 365 Human Resources.
-author: andreabichsel
-manager: AnnBe
-ms.date: 04/06/2020
+title: Umsjón með eiginleikum í Human Resources
+description: Þetta efnisatriði lýsir eiginleika eiginleikastjórnunar og hvernig hægt er að nota hann.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: FeatureManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 2d5a27c02df841dfbb17a9375aaf75f93d05cd8e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419063"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069708"
 ---
-# <a name="manage-features"></a>Vinna með eiginleika
+# <a name="manage-features-in-human-resources"></a>Umsjón með eiginleikum í Human Resources
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Sem hluti af samfelldri kynningu okkar á nýrri afkastagetu fyrir Microsoft Dynamics 365 Human Resources, viljum við að viðskiptavinir upplifi nýja eiginleika eins fljótt og auðið er. Við veitum forskoðunareiginleika sem eru næstum tilbúnir til almenns framboðs og hafa farið í gegnum víðtækar prófanir. Við erum bara að falast eftir lokaumsögnum viðskiptavina og fullgildingu áður en við gefum þá út fyrir almenning.
 
-Frekari upplýsingar um nýja eiginleika í Human Resources er að finna í [Nýjungar eða breytingar í Human Resources](hr-admin-whats-new.md) og [Dynamics 365 og Power Platform útgáfuupplýsingar](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
+Frekari upplýsingar um nýja eiginleika í Human Resources er að finna í [Nýjungar eða breytingar í Human Resources](hr-admin-whats-new.md) og [Dynamics 365 og Power Platform útgáfuupplýsingar](/dynamics365/release-plans/?panel=products1#pivot=products).
 
-Vinnusvæðið **Stjórnun eiginleika** býður upp á lista yfir eiginleika sem eru afhentir í hverri útgáfu. Sjálfgefið er að slökkt sé á nýjum eiginleikum. Hægt er að nota vinnusvæðið til að kveikja á þeim og skoða fylgiskjölin fyrir þá. Nánari upplýsingar um stjórnun eiginleika er að finna í [Eiginleikastjórnunaryfirlit](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Vinnusvæðið **Stjórnun eiginleika** býður upp á lista yfir eiginleika sem eru afhentir í hverri útgáfu. Sjálfgefið er að slökkt sé á nýjum eiginleikum. Hægt er að nota vinnusvæðið til að kveikja á þeim og skoða fylgiskjölin fyrir þá. Nánari upplýsingar um stjórnun eiginleika er að finna í [Eiginleikastjórnunaryfirlit](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Allar nýju aðgerðirnar eru áfram í forskoðun í að minnsta kosti 30 daga og venjulega 30-60 daga. Helstu eiginleikar eru venjulega fáanlegir í október og apríl ár hvert í kjölfar forskoðunartímabilsins. Um leið og þú sérð nýja möguleika í vinnusvæðinu **Stjórnun eiginleika** er hægt að kveikja á þeim. Sumar aðgerðir kunna að vera sjálfkrafa á.
 
@@ -70,7 +72,7 @@ Hagur stjórnun kemur í stað virkni í vinnusvæðinu **Fríðindi**. Þegar �
 - **Stefnur um hæfni til fríðinda**
 - **Hæfnistilvik**
 
-Þú getur skoðað upplýsingarnar á þessum formum í skrifvarnarham. Ef þú vilt breyta upplýsingum, verðurðu fyrst að slökkva á fríðindastjónu (á eingöngu við um umhverfi **Sandkassa**).
+Hægt er að skoða upplýsingarnar á þessum síðum í skrifvarinni stillingu. Ef þú vilt breyta upplýsingum, verðurðu fyrst að slökkva á fríðindastjónu (á eingöngu við um umhverfi **Sandkassa**).
 
 ## <a name="enable-or-disable-leave-and-absence"></a>Virkja eða afvirkja leyfi og fjarvistir
 
@@ -93,4 +95,6 @@ Ekki hafa persónuupplýsingar innifaldar (allar upplýsingar sem þú gætir þ
 ## <a name="see-also"></a>Sjá einnig
 
 - [Hvað er nýtt í Human Resources](hr-admin-whats-new.md)
-- [Útgáfuáætlanir Dynamics 365 og Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [Útgáfuáætlanir Dynamics 365 og Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

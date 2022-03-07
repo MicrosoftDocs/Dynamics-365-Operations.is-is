@@ -2,29 +2,26 @@
 title: Leiðir og aðgerðir
 description: Þessi efnisatriði gefur upplýsingar um leiðir og aðgerðir.
 author: sorenva
-manager: tfehr
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable, ProdRouteJob, ProdRouteTrans, ProdRouteOverview, ProdRouteJobOverview, ProdRouteJobListPagePreviewPane, RouteTable, RouteVersionFeasibility, ProdRouteJobCurrent, RouteGroup, RouteProductionOrder, EngChgCaseRouteTablePart, EcoResProductProdTypeFormulaNoActiveRouteFormPart,
 ms.author: sorenand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 268124
 ms.assetid: f78d5836-3e71-42b7-a5d1-41f19228d9d2
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adf890f5305f4e6a62c2d7527ff3b593ed61eff3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430144"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188935"
 ---
 # <a name="routes-and-operations"></a>Leiðir og virkni
 
@@ -32,8 +29,7 @@ ms.locfileid: "4430144"
 
 Þessi efnisatriði gefur upplýsingar um leiðir og aðgerðir. Leið tilgreinir ferli fyrir framleiðslu á afurð eða afurðarafbrigði. Hún lýsir hverju skrefi (aðgerð) í framleiðsluferlinu og röðina sem framkvæma verður þessi skref í. Fyrir hvert skref skilgreinir leiðin einnig nauðsynlegar aðgerðir tilfanga, áskilinn uppsetningartíma og keyrslutíma og hvernig kostnaður er reiknaður.
 
-<a name="overview"></a>Yfirlit
---------
+## <a name="overview"></a>Yfirlit
 
 Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð eða afurðarafbrigði. Fyrir hverja aðgerð skilgreinir leiðin einnig rekstrartilföng sem krafist er, tímann sem er krafist til að setja upp og framkvæma aðgerðina og hvernig kostnaður er reiknaður. Hægt er að nota sömu leið til að útbúa margar afurðir eða hægt er að skilgreina einkvæma leið fyrir hverja afurð eða afurðarafbrigði. Jafnvel er hægt að hafa margar leiðir fyrir sömu afurð. Í þessu tilfelli er leiðin sem notuð er breytileg eftir þáttum eins og því magni sem framleiða þarf. Skilgreining á leið í Supply Chain Management samanstendur af fjórum aðskildum einingum sem lýsa framleiðsluferlinu saman:
 
@@ -82,7 +78,7 @@ Aðalaðgerðin og aukaaðgerðir verða að hafa sama aðgerðarnúmer (30 í f
 
 Hver leið getur verið sérstaklega samþykkt eða ósamþykkt. Athugið hins vegar að þegar leið er ósamþykkt, eru allar tengdar leiðarútgáfur einnig ósamþykktar. Í færibreytum Framleiðslustýringar er hægt að tilgreina hvort hæg t sé að hætta við samþykkt leiða og hvort hægt sé að breyta samþykktum leiðum.  
 
-Ef þú verður að halda kladda sem skráir hver samþykkir hverja leið er hægt að krefjast rafrænna undirskrifta fyrir samþykki á leiðinni. Notendur þurfa þá að staðfesta auðkenni þeirra með því að nota [rafrænar undirskriftir](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Ef þú verður að halda kladda sem skráir hver samþykkir hverja leið er hægt að krefjast rafrænna undirskrifta fyrir samþykki á leiðinni. Notendur þurfa þá að staðfesta auðkenni þeirra með því að nota [rafrænar undirskriftir](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
 Aðgerðirnar eru þrep í framleiðsluferlinu. Hver aðgerð hefur kenni og einfalda lýsingu. Eftirfarandi töflur sýna góð dæmi um aðgerðir úr vél verslunar.
@@ -188,7 +184,7 @@ Ef fyrirtækið notar staðlaðar aðgerðir og ef rekstrarfæribreytur eru þæ
 
 ### <a name="electronic-signatures"></a>Rafrænar undirskriftir
 
-Ef þú verður að halda kladda sem skráir hver samþykkir og virkjar hverja leiðaútgáfu er hægt að krefjast rafrænna undirskrifta fyrir þessi verkefni. Notendur sem samþykkja og virkja leiðarútgáfur verða síðan að staðfesta auðkenni þeirra með því að nota [rafræna undirskrift](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Ef þú verður að halda kladda sem skráir hver samþykkir og virkjar hverja leiðaútgáfu er hægt að krefjast rafrænna undirskrifta fyrir þessi verkefni. Notendur sem samþykkja og virkja leiðarútgáfur verða síðan að staðfesta auðkenni þeirra með því að nota [rafræna undirskrift](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ### <a name="product-change-that-uses-case-management"></a>Vörubreyting sem notar málastjórnun
 
@@ -256,7 +252,10 @@ Meðal vinnslugerðanna er hægt að finna skörun. Skörun gerir mismunandi vin
 
 - [Tilfangageta](resource-capabilities.md)
 
-- [Yfirlit yfir rafræna undirskrift](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [Yfirlit yfir rafræna undirskrift](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,34 +2,31 @@
 title: Vinnureglur
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp vinnureglur.
 author: perlynne
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430744"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571162"
 ---
 # <a name="work-policies"></a>Vinnureglur
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja upp kerfið og vöruhúsaforritið þannig að þau styðji vinnureglur. Hægt er að nota þessa virkni til að skrá birgðir á fljótlegan hátt án þess að stofna frágangsvinnu þegar tekið er á móti innkaupa- eða flutningspöntun, eða þegar lokið er við framleiðsluferla. Þetta efnisatriði veitir almennar upplýsingar. Ítarlegar upplýsingar sem tengjast móttöku á númeraplötu er að finna í [Móttaka númeraplötu í gegnum vöruhúsaforritið](warehousing-mobile-device-app-license-plate-receiving.md).
+Þetta efnisatriði útskýrir hvernig á að setja upp kerfið og farsímaforrit vöruhúsakerfis þannig að þau styðji vinnureglur. Hægt er að nota þessa virkni til að skrá birgðir á fljótlegan hátt án þess að stofna frágangsvinnu þegar tekið er á móti innkaupa- eða flutningspöntun, eða þegar lokið er við framleiðsluferla. Þetta efnisatriði veitir almennar upplýsingar. Ítarlegar upplýsingar sem tengjast móttöku á númeraplötu er að finna í [Móttaka númeraplötu í gegnum farsímaforrit vöruhúsakerfis](warehousing-mobile-device-app-license-plate-receiving.md).
 
-Vinnuregla stjórnar því hvort vöruhúsavinna sé stofnuð þegar framleidd vara er tilkynnt sem lokið eða þegar tekið er á móti vörum með því að nota vöruhúsaforritið. Setja skal upp hverja vinnureglu með því að skilgreina skilyrðin þar sem það á við: gerðir verkbeiðna og ferlar, birgðastaðsetningar og (valfrjálst) afurðirnar. Til dæmis þarf að móttaka innkaupapöntun fyrir afurð *A0001* á staðsetningu *RECV* í vöruhúsi *24*. Síðar er afurðin notuð í öðru ferli á staðsetningu *RECV*. Í slíku tilfelli er hægt að setja upp vinnureglu til að koma í veg fyrir að frágangsvinna verði stofnuð þegar starfsmaður tilkynnir afurð *A0001* sem móttekna á staðsetningu *RECV*.
+Vinnuregla stjórnar því hvort vöruhúsavinna sé stofnuð þegar framleidd vara er tilkynnt sem lokið eða þegar tekið er á móti vörum með því að nota farsímaforrit vöruhúsakerfis. Setja skal upp hverja vinnureglu með því að skilgreina skilyrðin þar sem það á við: gerðir verkbeiðna og ferlar, birgðastaðsetningar og (valfrjálst) afurðirnar. Til dæmis þarf að móttaka innkaupapöntun fyrir afurð *A0001* á staðsetningu *RECV* í vöruhúsi *24*. Síðar er afurðin notuð í öðru ferli á staðsetningu *RECV*. Í slíku tilfelli er hægt að setja upp vinnureglu til að koma í veg fyrir að frágangsvinna verði stofnuð þegar starfsmaður tilkynnir afurð *A0001* sem móttekna á staðsetningu *RECV*.
 
 > [!NOTE]
 > - Til að vinnuregla verði virk þarf að skilgreina að minnsta kosti eina staðsetningu fyrir hana í flýtiflipanum **Birgðastaðsetningar** á síðunni **Vinnureglur**. 
@@ -203,7 +200,7 @@ Innkaupapöntunin er nú móttekin en engin vinna er tengd henni. Lagerbirgðir 
 
 Í eftirfarandi dæmi eru tvær framleiðslupantanir, *PRD 001* og *PRD 002*. Framleiðslupöntunin *PRD-001* hefur aðgerðar sem nefnist *Samsetningu*, þar sem afurð *SC1* verið skráð sem lokið á staðsetningu *001*. Framleiðslupöntunin *PRD 002* hefur aðgerðar sem nefnist *Málun* og notar afurð *SC1* frá staðsetningu *001*. Framleiðslupöntunin *PRD-002* notar einnig *RM1* hráefni úr staðsetningunni *001*. Hráefni *RM1* er geymt á staðsetningu vöruhúss *BULK-001* og verður tínt yfir á staðsetningu *001* af vöruhúsavinnu fyrir tiltekt hráefnis. Vinna tiltektar er myndað þegar *PRD 002 framleiðsla* er losuð.
 
-[![Reglur vöruhúsavinnu](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Reglur vöruhúsavinnu.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Þegar ætlunin er að skilgreina vinnureglu vöruhúss fyrir þetta sýnidæmi ætti að hafa eftirfarandi punkta í huga:
 
@@ -298,6 +295,9 @@ Ferli vöruhúsa innihalda ekki alltaf vöruhúsavinnu. Með því að skilgrein
 
 Nánari upplýsingar um valmyndaratriði fartækja, sjá [Uppsetning fartækja fyrir vöruhúsavinnu](configure-mobile-devices-warehouse.md).
 
-Frekari upplýsingar um móttöku á númeraplötu og vinnureglur er að finna í [Móttaka númeraplötu í gegnum vöruhúsaforritið](warehousing-mobile-device-app-license-plate-receiving.md).
+Frekari upplýsingar um móttöku á númeraplötu og vinnureglur er að finna í [Móttaka númeraplötu í gegnum farsímaforrit vöruhúsakerfis](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Frekari upplýsingar um stjórnun á farmi á innleið er að finna í [Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

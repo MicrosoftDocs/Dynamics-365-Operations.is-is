@@ -2,28 +2,25 @@
 title: Aðgerðaboð
 description: Aðgerðaboð eru tillaga sem mynduð er í kerfinu til að breyta fyrirliggjandi áætlaðri eða staðfestri pöntun.
 author: ChristianRytt
-manager: tfehr
 ms.date: 10/14/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqGroup, MCRSalesOrderMessages, MCRSalesTableDetailedStatus, TAMItemVendRebateGroup, TAMVendRebate, TAMVendRebateAgreementLineInfoPart, TAMVendRebateGroup, TAMVendRebateTable, TAMVendRebateTrans, ReqTransActionListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19411
 ms.assetid: 52b46d93-7d02-46b5-aad1-9fd08206bf9d
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46e170b18a3c32d443c1de55516d19408b7947d3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ea565a8935151235e4c3b103dd86b7131711a4a2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430580"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816581"
 ---
 # <a name="action-messages"></a>Aðgerðaboð
 
@@ -53,3 +50,6 @@ Hægt er að skilgreina hvernig aðgerðaboðin eru reiknuð fyrir þekjuhóp se
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

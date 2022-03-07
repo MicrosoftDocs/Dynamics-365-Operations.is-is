@@ -1,7 +1,7 @@
 ---
 title: Gjöld vegna ósamkvæmniaðgerða
 description: Í þessu efnisatriði er lýst hvernig á að stofna gæðagjöld sem hægt er að nota við aðgerðir vegna ósamkvæmni.
-author: yufeihuang
+author: rachel-profitt
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac3306f3f9215ab03f408b8026f335dcf496515a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 382890232bff47a885840af1eb7e91d27bb46cae
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580961"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022301"
 ---
 # <a name="charges-for-nonconformance-operations"></a>Gjöld vegna ósamkvæmniaðgerða
 

@@ -1,7 +1,7 @@
 ---
 title: Afskriftir fyrir 150% bókfært virði
-description: Þetta efni sýnir yfirlit yfir 150 prósent minnkandi jafnvægisaðferð við afskriftir.
-author: moaamer
+description: Þessi grein gefur yfirlit yfir afskriftaraðferðina 150 prósent bókfært virði.
+author: saraschi2
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe8a794e9d5f01e4cd8844b5388b37970607d0be
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
-ms.translationtype: MT
+ms.openlocfilehash: 5c9d1db1099b2c118f67a74a49fc104b8b1761288f66543ab55d5001fc43ec31
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747156"
 ---
 # <a name="150-percent-reducing-balance-depreciation"></a>Afskriftir fyrir 150% bókfært virði
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni sýnir yfirlit yfir 150 prósent minnkandi jafnvægisaðferð við afskriftir.
+Þessi grein gefur yfirlit yfir afskriftaraðferðina 150 prósent bókfært virði.
 
 Þegar afskriftaregla fyrir eignir er sett upp og gildið **150% af bókfærðu virði** er valið í reitnum **Aðferð** á skjámyndinni **Afskriftaraðferðir** eru eignaafskriftir, sem eru tengdar þessari afskriftareglu, með sama hlutfall af hundraði á hverju afskriftatímabili. Þessi prósenta er reiknuð á grundvelli líftíma eignarinnar. Til dæmis, ef eign hefur líftíminn fimm ár, er prósenta reiknuð sem 30 prósent (150% ÷ 5). 
 

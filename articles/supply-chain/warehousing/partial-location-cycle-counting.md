@@ -2,16 +2,13 @@
 title: Hlutastaðsetning reglulegrar talningar
 description: Áætlanir um reglulega talningu stýra raunverulegum talningaraðgerðum. Hægt er að biðja um að aðeins tilteknar afurðir og afurðaafbrigði séu talin í stað þess að allar efnislegar lagerbirgðir í staðsetningu séu taldar.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a541818a72f5c24db8784071f447c83a2aa4edfd
-ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
-ms.translationtype: HT
+ms.openlocfilehash: 9f06b39f3c2d2f5a0bdfef1da9395c71686ed46968a1143305b5a10787f7e85f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666747"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778435"
 ---
 # <a name="partial-location-cycle-counting"></a>Hlutastaðsetning reglulegrar talningar
 
@@ -49,7 +46,7 @@ Ef þú tengir áætlanir fyrir reglulega talningu við vinnusniðmát með þv�
 Fyrir hlutatalningu uppfærist ekki **Síðasta reglulega talning** dagsetning/tími fyrir staðsetninguna, jafnvel þó svo að allar vörur í birgðum á staðsetningunni séu taldar. Hlutatalning telur ekki með færibreytuna **Dagar á milli reglulegrar talninga** á síðunni **Áætlanir um reglulega talningu**. Hlutatalning styður ekki samtímis talningar á mörgum vörum á sama stað. Hlutatalning getur leitt til þess að sama staðsetning sé talin mörgum sinnum fyrir vöru þegar **Vinna úr áætlun um reglulega talningu** er keyrð. Til að koma í veg fyrir þessar aðstæður skal tilgreina síur í reitnum **Velja staðsetningar**.
 
 > [!NOTE]
-> Vöruhúsaforritið gefur ekki upp -hnappinn **Bæta við númeraplötu eða vöru** þegar regluleg talning að hluta er notuð.
+> Farsímaforrit vöruhúsakerfis gefur ekki upp hnappinn **Bæta við númeraplötu eða vöru** þegar hlutatalning er notuð.
 
 ## <a name="example"></a>Dæmi
 
@@ -62,3 +59,6 @@ Fyrir hlutatalningu uppfærist ekki **Síðasta reglulega talning** dagsetning/t
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Regluleg talning](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

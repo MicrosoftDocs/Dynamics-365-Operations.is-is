@@ -1,12 +1,10 @@
 ---
 title: Stofna innkaupapantanir
 description: Þessi skrá lýsir ferlisi og valkosti þegar innkaupapöntun er stofna handvirkt.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 105d4022e1867f553fcae5e4ae9c0ed7ce4e912d
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 20b8e00316b45126b028b6d9812a455ef0e53f19
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022282"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575513"
 ---
 # <a name="create-purchase-orders"></a>Stofna innkaupapantanir
 
@@ -67,7 +65,7 @@ Stundum gæti verið óskað að skipta upp magnið sem þú hefur pantað, þan
 Gjöld má sjálfkrafa bæta við pöntunina ef sjálfvirk gjöld hafa verið sett upp fyrir lánardrottinn eða gjaldflokk lánardrottins, og fyrir vöruna eða gjaldflokk vörunnar. Hins eru algengrara að gjöldum er bætt við handvirkt á stigi pöntunarlínu. Til að bæta við gjaldi skal opna **vinna Með gjöld** síðu með því að nota **vinna Með gjöld** aðgerð á í **Fjárhagur** valmynd í yfirlitinu **Línur**. Kosturinn við að bæta gjöldum beint við á stigi pöntunarlínu er að gjöldunum má úthluta sem birgðakostnað. Til að setja upp gjaldakóða fyrir afurðarkostnað lykils, skal nota **Vöru** debet valkost. Þessar gerðir gjalda verður að úthluta úr haus Innkaupapöntunar á línur áður en hægt er að staðfesta pöntunina. Til dæmis viltu kannski úthluta gjöldum byggður á magninu í hverri línu. gjaldaflokkur hefur einnig áhrif á hvernig gjöld eru færð til reiknings. Til dæmis, föst gjöld tilgreina föst upphæð og prósentugjöld er reiknað sem prósenta af nettó upphæð fyrir pöntunarlínuna. Innkaupapantanir er hægt að úthluta á farm og farminum gæti falið í sér mat á áætlaða kostnaðar fyrir flutningskostnaðinn. Hægt er að úthluta þessum kostnaði úr farminum aftur á línur Innkaupapöntunar.
 
 ## <a name="purchase-order-actions"></a>Aðgerðir fyrir innkaupapöntun
-Eftir að haus og línur hefur verið bætt við Innkaupapöntunina, oft ljúka þarf viðbótarskref áður en pöntunin er tilbúin til að staðfesta. Þar sem svo margir valkostir eru tiltækir, gæti verið gagnlegt að nota [Aðgerðaleit](../../fin-and-ops/get-started/action-search.md) til að finna viðeigandi valmyndaratriði.  
+Eftir að haus og línur hefur verið bætt við Innkaupapöntunina, oft ljúka þarf viðbótarskref áður en pöntunin er tilbúin til að staðfesta. Þar sem svo margir valkostir eru tiltækir, gæti verið gagnlegt að nota [Aðgerðaleit](../../fin-ops-core/fin-ops/get-started/action-search.md) til að finna viðeigandi valmyndaratriði.  
 
 Hægt er að skilgreina vörur í pöntun þannig að þeir hafa fylgivörur. Fylgivörur eru afurðir sem verður eða er hægt að kaupa með aðrar afurðir. fylgivöru gæti verið bætt við án aukagjalda sem meðfylgjandi afurðir, eða hugsanlega er hægt að ákveða hvort á að bæta þeim við pöntunina eða ekki. Hægt er að fara yfir fylgivörur eftir hverja pöntunarlínu sem er bætt við. Hins vegar er sennilega að þér finnist þægilegra að fara yfir og bæta við fylgivöru fyrir allar pöntunarlínur með því að nota í **fylgivörur** síða sem hægt er að opna í Aðgerðarúðu.  
 
@@ -82,8 +80,7 @@ Hægt er að skilgreina innkaupapantanir til að krefjast að fjármagn fjárhag
 
 Þú gætir þurft að fresta lokun Innkaupapöntunar. Til dæmis gætirðu þurft aukalegar upplýsingar um afurðir eða þjónustu, eða gæti þurft að fá heimild fyrir eyðsla. Það eru nokkrar aðferðir til að halda aftur pöntun. Til dæmis er hægt að bíða með að staðfesta pöntunina. Einnig, ef verkflæði breytingastjórnunar er í notkun, ekki senda pöntun til samþykktar. Ef verður að útiloka allar pantanir fyrir tiltekinn lánardrottin, er einnig hægt að merkja lánardrottins sem **í bið** fyrir vinnslu í lánardrottinssniðmát. Einnig eru aðstæður sem gætu komið í veg fyrir vinnsu pöntunar. Til dæmis, vinnslu gæti verið stöðvuð ef farið hefur verið fram yfir lánamark, eða ef nauðsynlegt áætlunarfjármagn  eru ekki tiltæk.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir innkaupapöntun](purchase-order-overview.md)
 
@@ -95,3 +92,6 @@ Hægt er að skilgreina innkaupapantanir til að krefjast að fjármagn fjárhag
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

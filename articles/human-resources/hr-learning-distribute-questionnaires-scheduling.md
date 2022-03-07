@@ -2,7 +2,7 @@
 title: Dreifa spurningalistum með áætlanagerð
 description: Röðun spurningalista er hægt að nota til að áætla og dreifa spurningalistum á marga svarendur.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,19 +11,21 @@ ms.technology: ''
 ms.search.form: KMKnowledgeCollectorPlanningTable, KMKnowledgeCollectorPlanningMulti, SysQueryForm, HcmPersonLookup, KMKnowledgeCollectorPlanning, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d233938fe553dbd7da7fcc5477097fd885665102
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 50be7631ec303171640b7fa9e6d283a198bd1a52
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419086"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465007"
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Dreifa spurningalistum með áætlanagerð
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Röðun spurningalista er hægt að nota til að áætla og dreifa spurningalistum á marga svarendur. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
@@ -55,7 +57,7 @@ Röðun spurningalista er hægt að nota til að áætla og dreifa spurningalist
 
 11. Meginmál tölvupóstskilaboða skal slá inn í svæðið Texti. Athugið að hægt er að neyta breytuna til að skipta út gildum í kerfinu.
 
-    * Dæmi: Kæri/kæra %P%, vinsamlegast skráðu þig inn í Sjálfsafgreiðsla Starfsmanns til að ljúka spurningalistanum heilbrigði Vinnuafls.  Contoso  
+    * Dæmi: Hæ %P%, Vinsamlegast skráðu þig inn í Sjálfsafgreiðsla Starfsmanns til að ljúka spurningalistanum heilbrigði Vinnuafls.  Contoso  
 
 12. Smellið á „Vista“.
 
@@ -129,3 +131,6 @@ Röðun spurningalista er hægt að nota til að áætla og dreifa spurningalist
 2. Smellt er á Ljúka.
 3. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

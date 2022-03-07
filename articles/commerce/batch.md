@@ -2,15 +2,12 @@
 title: Betri meðhöndlun á runuröktum vörum
 description: Þetta efnisatriði lýsir endurbótunum sem hafa verið gerðar á meðhöndlun á runum fyrir runuraktar vörur í bókunarferlinu fyrir uppgjör.
 author: josaw1
-manager: AnnBe
 ms.date: 11/04/2019
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ecff18f0a34d22ef359f473fa6aaaff16c811bb6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e3bea1d73325596458bafd9f952e69809b174c386eb2c053daa0a2b5b4bed4de
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459234"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739563"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Betri meðhöndlun á runuröktum vörum
 
@@ -46,3 +43,6 @@ Til að skilgreina sjálfgefið runukenni sem notað er fyrir reikningsfærslu s
 
 > [!NOTE]
 > Stuðningur við bætta meðhöndlun runuraktra vara við uppgjörsbókun fyrir sviðsmyndir vöruhúsakerfis sem ekki er ítarlegt var kynntur í Retail-útgáfu 10.0.5.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

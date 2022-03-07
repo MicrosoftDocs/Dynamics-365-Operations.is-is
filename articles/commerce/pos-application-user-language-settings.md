@@ -2,16 +2,13 @@
 title: Sölustaðarforrit (POS) og stillingar notandatungumáls
 description: Þetta efnisatriði lýsir hvernig á að breyta tungumálastillingum í Cloud POS og Modern POS (MPOS).
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 78891
 ms.assetid: 0030940c-e0a5-4345-9511-8c3bd1f487ad
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 49bfcaa4c05ea8e6cc6bf0a8f855f2474cea35bc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 099d16f63e03ecbc8bf911fe4385b35fac7c67f763c17379cdc6b6229abdea16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413271"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774534"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Sölustaðarforrit (POS) og stillingar notandatungumáls
 
@@ -60,8 +57,11 @@ Tungumálastilling POS notanda ákvarðar þýðingarnar sem eru notaðar í not
 
 Tungumálastilling POS notanda er stillt í **Allir starfsmenn** á síðunni **Starfsmaður** undir **Retail og Commerce &gt; Tungumál**. Hún er ekki stillt á flipa Aðalforstillingar. Þessi stilling er ekki notuð af POS. Ef tungumál notanda er ekki stillt eða það er stillt á tungumál þar sem þýðingar eru ekki tiltækar, mun sölustaðurinn fara aftur í tungumál verslunarinnar.
 
-|             | UI-tungumál                | Gagnamál (afurðir, snið kvittunar, línuskjá o.s.frv.) |
+| &nbsp;      | UI-tungumál                | Gagnamál (afurðir, snið kvittunar, línuskjá o.s.frv.) |
 |-------------|----------------------------|---------------------------------------------------------------|
 | **Fyrirtæki** | Sjálfgefinn                    | Sjálfgefinn                                                       |
 | **Verslun**   | Hnekkir fyrirtæki          | Hnekkir fyrirtæki                                             |
 | **Notandi**    | Hnekkir verslun eða fyrirtæki | Aldrei                                                         |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

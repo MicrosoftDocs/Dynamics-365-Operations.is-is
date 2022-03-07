@@ -1,16 +1,13 @@
 ---
 title: Innihaldsbálkseining
-description: Þetta efni fjallar um innihaldsbálseiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
+description: Þetta efni fjallar um efnisbálkaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,21 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a8b1c214ba31b7c47cecbe67bef493f5fa450fc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 0b5ec0a75c613cedcee9d156d81380d679224ea476af4f4745a30040f257fed8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413097"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726440"
 ---
-# <a name="content-block-module"></a>Innihaldsbálkseining
-
+# <a name="content-block-module"></a>Eining fyrir bálk með efni
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni fjallar um innihaldsbálseiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efni fjallar um efnisbálkaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 
 Innihaldsbálkseining er notuð til að markaðssetja vörur eða kynningar með blöndu af myndum og texta. Til dæmis getur smásali bætt innihaldsbálkseiningu á heimasíðu svæðis fyrir rafræn viðskipti til að kynna nýja vöru og vekja athygli viðskiptavina.
 
@@ -52,15 +46,15 @@ Að auki getur þemað afhjúpað mismunandi eiginleika fyrir hvert skipulag. Þ
 
 Eftirfarandi mynd sýnir dæmi um innihaldsbálkseiningu með hetjuuppsetningu.
 
-![Dæmi um hetjueiningu](./media/Hero.PNG)
+![Dæmi um hetjueiningu.](./media/Hero.PNG)
 
 Eftirfarandi mynd sýnir dæmi um innihaldsbálkseiningu með eiginleikauppsetningu.
 
-![Dæmi um eiginleikaeiningar](./media/Feature.PNG)
+![Dæmi um eiginleikaeiningar.](./media/Feature.PNG)
 
 ## <a name="content-block-module-properties"></a>Eiginleikar innihaldsbálks
 
-| Nafn eiginleika  | Gildi | Lýsing |
+| Nafn eiginleika  | Gildi | lýsing |
 |----------------|--------|-------------|
 | Mynd          | Myndaskrá | Hægt er að nota mynd til að sýna vöruna eða auglýsa. Hægt er að hlaða mynd inn í myndasafnið eða nota núverandi mynd. |
 | Fyrirsögn        | Texti og merki fyrirsagnar (**H1**, **H2**, **H3**, **H4**, **H5** eða **H6**) | Sérhver hetjueining getur haft fyrirsögn. Sjálfgefið er að fyrirsagnarmerkið **H2** er notað fyrir fyrirsögnina. Hins vegar er hægt að breyta merkinu til að uppfylla kröfur um aðgengi. |
@@ -107,3 +101,6 @@ Fylgdu þessum skrefum til að bæta hetjueiningu við nýja síðu og stilla na
 [Textabálkseining](add-content-rich-block.md)
 
 [Myndspilaraeining](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

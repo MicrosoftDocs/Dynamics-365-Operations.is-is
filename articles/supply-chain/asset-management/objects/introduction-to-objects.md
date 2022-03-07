@@ -1,28 +1,28 @@
 ---
 title: Kynning á eignum
 description: Þetta efni veitir yfirlit yfir eignir í eignastýringu.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetTimeline, EntAssetObjectTableLookup, EntAssetObjectTableParent, EntAssetObjectOverview, EntAssetObjectImage, EntAssetObjectTable, EntAssetLifecycleStateLog, EntAssetObjectWorkOrderActive, EntAssetObjectAttribute
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2214
+ms.custom:
+- "2214"
+- intro-internal
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f629ebdf7423ca75fe215b0a3223478685fe95c
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 1f2737824af92d15d71c75f4e0a0700e6fa93741
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018572"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337052"
 ---
 # <a name="introduction-to-assets"></a>Kynning á eignum
 
@@ -77,3 +77,6 @@ Hnapparnir á aðgerðarglugganum eru skipulagðir á flipa. Eftirfarandi tafla 
 | Varahlutir          | Skoðaðu lista yfir viðurkennda og aðra varahluti sem hægt er að nota á eignina.                                                                               |
 | Notkun eignar    | Prentaðu skýrslu sem sýnir neytendaskráningar á eigninni.                                                                                                |
 | Bilun eignar          | Prentaðu skýrslu sem sýnir bilanaskráningar á eigninni.                                                                                                      |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

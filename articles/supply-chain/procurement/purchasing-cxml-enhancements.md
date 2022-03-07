@@ -2,26 +2,23 @@
 title: Viðbætur cXML-innkaupa
 description: Eiginleikinn fyrir viðbætur cXML-innkaupa byggir á fyrirliggjandi virkni ytri vörulista, PunchOut, sem er notaður fyrir innkaupabeiðnir.
 author: dasani-madipalli
-manager: tfehr
 ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatCXMLParameters, CatCXMLPurchRequest
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d7184f14ab67d646451c8c2b1313336d47e59316
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: d61087d21035e532ad86b6669626f55e8411a6f421bf69f817199e9063417761
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779615"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Viðbætur cXML-innkaupa
 
@@ -41,7 +38,7 @@ Eftir að kveikt er á eiginleikann ætti að skilgreina stillingar á eftirfara
 
 Eftirfarandi mynd tekur saman þessa skilgreiningu.
 
-![Svæði til að setja upp cXML-eiginleika](media/cxml-settings-areas.png "Svæði til að setja upp cXML-eiginleika")
+![Svæði til að setja upp cXML-eiginleika.](media/cxml-settings-areas.png "Svæði til að setja upp cXML-eiginleika")
 
 Að auki þarf að setja upp [Runuvinnslu innkaupapöntunarbeiðni](#po-batch). Þessi runuvinnsla er notuð til að senda staðfestar innkaupapantanir.
 
@@ -49,7 +46,7 @@ Að auki þarf að setja upp [Runuvinnslu innkaupapöntunarbeiðni](#po-batch). 
 
 Notið síðuna **cXML-færibreytur** til að gera nokkrar altækar stillingar sem eiga við um virknina til að senda innkaupapantanir.
 
-![cXML-færibreytusíða](media/cxml-parameters.png "cXML-færibreytusíða")
+![cXML-færibreytusíða.](media/cxml-parameters.png "cXML-færibreytusíða")
 
 Farið í **Innkaup og aðföng \> Uppsetning \> Stjórnun cXML \> cXML-færibreytur** og stillið eftirfarandi færibreytur:
 
@@ -70,7 +67,7 @@ Farið í **Innkaup og aðföng \> Uppsetning \> Stjórnun cXML \> cXML-færibre
 - Til að setja upp lánardrottin þannig að hann noti sjálfkrafa cXML fyrir allar nýjar innkaupapantanir sem búnar eru til úr beiðni, skal fara í **Innkaup og aðföng \> Lánardrottnar \> Allir lánardrottnar** og velja eða stofna lánardrottin til að opna upplýsingasíðu hans. Síðan, í flýtiflipanum **Sjálfgildi innkaupapöntunar**, skal stilla valkostinn **Senda innkaupapöntun með cXML** á _Já_. Ef cXML á einnig sjálfkrafa að nota fyrir nýjar innkaupapantanir sem eru **ekki** stofnaðar út frá beiðni, þarf einnig að stilla pöntunareiginleikann **ENABLEMANUALPO** á _Satt_ fyrir tengdan ytri vörulista, eins og lýst er í hlutanum [Stilla eiginleika pöntunar](#set-order-properties) síðar í þessu efnisatriði.
 - Fyrir stakar innkaupapantanir skal fara í **Innkaup og aðföng \> Innkaupapantanir \> Allar innkaupapantanir** og velja eða stofna innkaupapöntun til að opna upplýsingasíðu hennar. Skiptið yfir í yfirlitið **Haus** og síðan, í flýtiflipanum **Uppsetning**, skal stilla valkostinn **Senda innkaupapöntun með cXML** eftir þörfum.
 
-![Sjálfgefnar stillingar fyrir innkaupapantanir lánardrottins](media/cxml-order-defaults.png "Sjálfgefnar stillingar fyrir innkaupapantanir lánardrottins")
+![Sjálfgefnar stillingar fyrir innkaupapantanir lánardrottins.](media/cxml-order-defaults.png "Sjálfgefnar stillingar fyrir innkaupapantanir lánardrottins")
 
 ## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a>Setja upp ytri vörulista til að nota cXML
 
@@ -79,7 +76,7 @@ Farið í **Innkaup og aðföng \> Uppsetning \> Stjórnun cXML \> cXML-færibre
 > [!NOTE]
 > Þegar innkaupapöntun er staðfest sem hægt er að senda með cXML, flettir kerfið upp á lánardrottninum sem tengist innkaupapöntuninni og finnur svo fyrsta virka ytri vörulistann sem tengist þessum lánardrottni. Kerfið notar svo stillingarnar úr þessum ytri vörulista til að senda innkaupapöntunina. Ef margir ytri vörulistar eru settir upp notar kerfið aðeins fyrsta ytri vörulistann sem það finnur, sem byggir á lánardrottni í innkaupapöntuninni. Þess vegna er mælt með því að stofna aðeins einn ytri vörulista fyrir hvern lánardrottin.
 
-![Stillingar ytri vörulista](media/cxml-supplier-catalog.png "Stillingar ytri vörulista")
+![Stillingar ytri vörulista.](media/cxml-supplier-catalog.png "Stillingar ytri vörulista")
 
 ### <a name="set-the-punchout-protocol-type"></a>Stilla gerð PunchOut-samskiptareglu
 
@@ -146,11 +143,11 @@ Eins og var getið um í hlutanum [Stilla eiginleika pöntunar](#set-order-prope
 
 Til að stilla þær gerðir af athugasemdum sem kerfið leitar að, skal fara í **Innkaup og aðföng \> Uppsetning \> Skjámyndir \> Frá uppsetningu**. Síðan, í flipanum **Innkaupapöntun**, skal stilla reitinn **Taka með skjöl af gerðinni** á gerð athugasemdar sem þú vilt að verði tekin með. Aðeins athugasemdir á textaformi verða teknar með, ekki viðhengi skjala.
 
-![Uppsetningarsíða skjámyndar](media/cxml-form-setup.png "Uppsetningarsíða skjámyndar")
+![Uppsetningarsíða skjámyndar.](media/cxml-form-setup.png "Uppsetningarsíða skjámyndar")
 
 Viðhengi fylgja aðeins með innkaupapöntun ef reiturinn **Gerð** er stilltur á gildið sem var valið í reitnum **Taka með skjöl af gerðinni** og ef reiturinn **Takmörkun** er stilltur á _Ytri_. Til að búa til, skoða eða breyta viðhengjum fyrir innkaupapöntun skal fara í **Innkaup og aðföng \> Allar innkaupapantanir**, velja eða stofna innkaupapöntun og síðan velja hnappinn **Viðhengi** (bréfaklemmutákn) efst í hægra horninu.
 
-![Viðhengd athugasemd sem er sett upp til að vera send til lánardrottins](media/cxml-note-to-vendor.png "Viðhengd athugasemd sem er sett upp til að vera send til lánardrottins")
+![Viðhengd athugasemd sem er sett upp til að vera send til lánardrottins.](media/cxml-note-to-vendor.png "Viðhengd athugasemd sem er sett upp til að vera send til lánardrottins")
 
 ## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a>Skoða skilaboðakladda cXML-körfu fyrir PunchOut ytri vörulista
 
@@ -158,7 +155,7 @@ Viðhengi fylgja aðeins með innkaupapöntun ef reiturinn **Gerð** er stilltur
 
 Til að opna kladdann fyrir ytri vörulista skal velja viðeigandi vörulista og síðan, á aðgerðasvæðinu, skal velja **Skilaboðakladdi cXML-körfu**. Síðan **Skilaboðakladdi cXML-körfu** sýnir lista yfir körfurnar sem hefur verið skilað, XML sem tengist þessum körfum og línurnar sem voru stofnaðar í tengdri innkaupabeiðni.
 
-![Síða skilaboðakladda cXML-körfu](media/cxml-cart-message-log.png "Síða skilaboðakladda cXML-körfu")
+![Síða skilaboðakladda cXML-körfu.](media/cxml-cart-message-log.png "Síða skilaboðakladda cXML-körfu")
 
 ## <a name="set-the-extrinsic-elements-for-external-catalog-punchout"></a>Setja upp utanaðkomandi einingar fyrir PunchOut ytri vörulista
 
@@ -181,21 +178,21 @@ Til að bæta utanaðkomandi einingum við ytri vörulista skal fylgja þessum s
         - **Eftirnafn** – Notið eftirnafn tengiliðarins sem tengist notandanum sem er að opna ytri vörulista.
         - **Símanúmer** – Notið aðalsímanúmer tengiliðarins sem tengist notandanum sem er að opna ytri vörulista.
 
-![Stillingar utanaðkomandi einingar](media/cxml-extrinsics.png "Stillingar utanaðkomandi einingar")
+![Stillingar utanaðkomandi einingar.](media/cxml-extrinsics.png "Stillingar utanaðkomandi einingar")
 
 Notandinn eða stjórnandinn mun ekki sjá utanaðkomandi einingarnar vegna þess að þeim er ekki bætt við fyrr en notandi gerir PunchOut. Þær verða sjálfkrafa settar inn á milli eininganna **BuyerCookie** og **BrowserFromPost** í beiðniskilaboðum cXML-uppsetningar. Þess vegna þarf ekki að stilla þær handvirkt í XML þegar ytri vörulisti er settur upp.
 
-![Utanaðkomandi einingum bætt við XML](media/cxml-extrinsics-xml.png "Utanaðkomandi einingum bætt við XML")
+![Utanaðkomandi einingum bætt við XML.](media/cxml-extrinsics-xml.png "Utanaðkomandi einingum bætt við XML")
 
 ## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a>Stofna og vinna úr innkaupapöntun
 
 Þegar stofnuð er innkaupapöntun fyrir lánardrottin mun hún erfa stillinguna á valkostinum **Senda innkaupapöntun með cXML** frá þeim lánardrottni. Stillingin verður hins vegar áfram tiltæk í flýtiflipanum **Uppsetning** í yfirlitinu **Haus** í innkaupapöntuninni, þannig að hægt sé að breyta henni seinna ef þess gerist þörf.
 
-![Innkaupapöntun stillt til að nota cXML](media/cxml-purchase-order.png "Innkaupapöntun stillt til að nota cXML")
+![Innkaupapöntun stillt til að nota cXML.](media/cxml-purchase-order.png "Innkaupapöntun stillt til að nota cXML")
 
 Þegar stofnuð er innkaupapöntun úr innkaupabeiðni sem kom PunchOut-flæði, verða allar nauðsynlegar línuupplýsingar fylltar út. Þá er hægt að bæta innkaupapöntunarlínum handvirkt við eða afrita þær úr öðrum innkaupapöntunum. Gætið þess að stilla alla áskilda reiti. Þessir áskildu reitir innihalda ytra tilvísunarnúmerið, sem er númer lánardrottins sem verður notað í cXML-skilaboðinu.
 
-![Dæmi um ytra tilvísunarnúmer](media/cxml-line-details.png "Dæmi um ytra tilvísunarnúmer")
+![Dæmi um ytra tilvísunarnúmer.](media/cxml-line-details.png "Dæmi um ytra tilvísunarnúmer")
 
 Þegar þú hefur lokið við að fylla út allar upplýsingar um innkaupapöntunina skaltu ganga úr skugga um að staðfesta hana. Engin skilaboð eru send nema innkaupapöntun sé staðfest. Til að staðfesta innkaupapöntun, á aðgerðasvæðinu, í flipanum **Innkaup**, í flokknum **Aðgerðir**, skal velja **Staðfesta**. 
 
@@ -203,17 +200,17 @@ Notandinn eða stjórnandinn mun ekki sjá utanaðkomandi einingarnar vegna þes
 
 Hver innkaupapöntun getur haft margar staðfestingar. Hver staðfesting er merkt með stigvaxandi númeri. Á eftirfarandi mynd er innkaupapöntunin *00000275* og staðfestingin er *00000275-1*. Þessi tölusetning endurspeglar staðlaða virkni Supply Chain Management, þar sem breytingar á innkaupapöntun og þar af leiðandi gerð cXML-skilaboða sem á að senda til lánardrottins eru auðkennd samkvæmt staðfestingunni. Eins og myndin sýnir, inniheldur síðan **Staðfestingar á innkaupapöntunum** einnig reitina **Sendingarstaða pöntunar** og **Lánardrottnastaða pöntunarbeiðni**. Frekari upplýsingar um mismunandi stöðugildi sem hægt er að skoða á þessari síðu er að finna í hlutanum [Fylgjast með beiðnum um innkaupapöntun](#monitor-po-requests) síðar í þessu efnisatriði.
 
-![Staðfestingasíða innkaupapantana](media/cxml-po-confirmations.png "Staðfestingasíða innkaupapantana")
+![Staðfestingasíða innkaupapantana.](media/cxml-po-confirmations.png "Staðfestingasíða innkaupapantana")
 
 Til að skoða frekari upplýsingar um skjalið skal velja **Beiðni innkaupapöntunar** fyrir ofan hnitanetið.
 
 Á síðunni **Beiðni innkaupapöntunar** eru tvö hnitanet. Hnitanetið í efri hluta síðunnar er með eina færslu fyrir hverja innkaupapöntun sem merkt er til sendingar. Hnitanetið í flipanum **Beiðniferill innkaupapöntunar** í neðri hluta síðunnar gæti haft nokkrar færslur fyrir valda innkaupapöntun til að gefa til kynna stöðu hverrar staðfestingar. Eftirfarandi mynd sýnir innkaupapöntun 00000275 í efra hnitanetinu og skjal 00000275-1 í hnitanetinu í flipanum **Beiðniferill innkaupapöntunar**.
 
-![Beiðnisíða innkaupapöntunar](media/cxml-po-request.png "Beiðnisíða innkaupapöntunar")
+![Beiðnisíða innkaupapöntunar.](media/cxml-po-request.png "Beiðnisíða innkaupapöntunar")
 
 Ef runuvinnslan er sett upp og í gangi, verður skjalið sent. Hægt er að skoða stöðubreytinguna þegar skjalið hefur verið sent. Á eftirfarandi mynd er reiturinn **Sendingarstaða pöntunar** stilltur á _Send_. Reiturinn **Lánardrottnastaða pöntunarbeiðni** er stilltur á _Móttekið_ til að gefa til kynna að lánardrottinn hafi móttekið skjalið og gat lesið það og vistað í kerfinu sínu. Hnitanetið í flipanum **Beiðniferill innkaupapöntunar** sýnir tímasetninguna þegar skjalið var sent. Frekari upplýsingar um hin ýmsu stöðugildi sem hægt er að skoða á þessari síðu er að finna í hlutanum [Fylgjast með beiðnum innkaupapöntunar](#monitor-po-requests).
 
-![Stöðuskilaboð á beiðnisíðu innkaupapöntunar](media/cxml-po-request-2.png "Stöðuskilaboð á beiðnisíðu innkaupapöntunar")
+![Stöðuskilaboð á beiðnisíðu innkaupapöntunar.](media/cxml-po-request-2.png "Stöðuskilaboð á beiðnisíðu innkaupapöntunar")
 
 ## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a>Tímasetja runuvinnsluna fyrir beiðni um innkaupapöntun
 
@@ -229,7 +226,7 @@ Ferlið mun leita að skjölum um beiðni innkaupapantana sem eru með stöðuna
 
 Þegar pantanir sem hægt er að senda með cXML eru staðfestar fá þær stöðuna _Í bið_. Eins og lýst var í hlutanum [Stofna og vinna úr innkaupapöntun](#create-po), er hægt að skoða stöðu innkaupapöntunar á síðunni **Beiðni innkaupapöntunar**. Hver beiðni um innkaupapöntun getur haft eina af mörgum stöðum, fer allt eftir færibreytum hennar og gögnum. Þessi hluti lýsir mismunandi gerðum af stöðu og gildunum sem þær geta verið með. Þessar upplýsingar geta hjálpað þér að hafa umsjón með málum og skilja stöðu innkaupapantana.
 
-![Staða innkaupapöntunar á beiðnisíðu innkaupapöntunarinnar](media/cxml-monitor-po-request.png "Staða innkaupapöntunar á beiðnisíðu innkaupapöntunarinnar")
+![Staða innkaupapöntunar á beiðnisíðu innkaupapöntunarinnar.](media/cxml-monitor-po-request.png "Staða innkaupapöntunar á beiðnisíðu innkaupapöntunarinnar")
 
 Hnitanetið í efri hluta síðunnar **Beiðni innkaupapöntunar** kann að sýna eftirfarandi gildi fyrir stöðu:
 
@@ -265,15 +262,18 @@ Hnitanetið í flipanum **Beiðniferill innkaupapöntunar** í neðri hluta sí�
 
 Til að skoða XML fyrir skilaboð innkaupapöntunarbeiðni skal velja flipann **Biðja um XML-texta** neðst á síðunni **Beiðni innkaupapöntunar**. Upplýsingarnar í þessum flipa geta verið gagnlegar við prófun eða villuleit. Til að gera upplýsingarnar læsilegri er hægt að skoða þær sem sniðin skilaboð. Afritið innihald flipans í textaskrá og skoðið það síðan í XML-ritli.
 
-![Beiðniflipi XML-texta](media/cxml-request-xml-text.png "Beiðniflipi XML-texta")
+![Beiðniflipi XML-texta.](media/cxml-request-xml-text.png "Beiðniflipi XML-texta")
 
 ### <a name="view-the-details-of-the-vendor-response"></a>Skoða upplýsingar um svar lánardrottins
 
 Til að skoða innihald svars lánardrottins um staðfestingu eða villu, skal velja flipann **XML-svar** neðst á síðunni **Beiðni innkaupapöntunar**.
 
-![Flipi XML-svars](media/cxml-response-xml.png "Flipi XML-svars")
+![Flipi XML-svars.](media/cxml-response-xml.png "Flipi XML-svars")
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Setja upp ytri vörulista fyrir PunchOut e-Procurement](set-up-external-catalog-for-punchout.md)
+- [Setja upp ytri vörulista fyrir PunchOut e-procurement](set-up-external-catalog-for-punchout.md)
 - [Nota ytri vörulista fyrir PunchOut e-procurement](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

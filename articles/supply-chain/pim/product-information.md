@@ -2,35 +2,31 @@
 title: Yfirlit afurðarupplýsinga
 description: Í þessu efnisatriði er að finna upplýsingar um afurðastjórnun. Stjórnun afurðarupplýsinga nýtist með skilgreiningu á samnýttum afurðum, flokkun og auðkennum fyrir alla lögaðila og einnig tilteknar skilgreiningar afurðar þannig að þær passa vel í viðskiptaferla.
 author: t-benebo
-manager: tfehr
 ms.date: 06/01/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 2c8aabeed66f864d1d1060a6452a3b554611c295
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527387"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063317"
 ---
 # <a name="product-information-overview"></a>Yfirlit afurðarupplýsinga
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Í þessu efnisatriði er að finna upplýsingar um afurðastjórnun. Stjórnun afurðarupplýsinga nýtist með skilgreiningu á samnýttum afurðum, flokkun og auðkennum fyrir alla lögaðila og einnig tilteknar skilgreiningar afurðar þannig að þær passa vel í viðskiptaferla. 
 
@@ -59,7 +55,7 @@ Afurð er fyrst og fremst skilgreind af afurðarnúmeri, heiti og lýsingu. Hins
 
 Afurðarskilgreiningu er hægt að stofna í Supply Chain Management. Einnig er hægt að sækja hana úr lífsferilsstjórnun afurðar, stjórnun afurðaupplýsinga eða upplýsingakerfum um afurðarstjórnun. Þegar fleiri en eitt tilvik af Supply Chain Management eru notuð er eitt tilvik yfirleitt notað sem afurðarsniðmát fyrir öll önnur tilvik. Þessi aðferð er studd af stóru safni gagnaeininga sem gera út- og innflutning mögulegan á afurðarskilgreiningargögnum úr einu tilviki í annað.
 
-Til að styðja við dreifingu afurðargagna á mörg tilfelli, leyfir Supply Chain Management þér að nota Common Data Service. Afurðarskilgreiningu er hægt að stofna í frá tilviki í Supply Chain Management í Common Data Service. Afurðarskilgreining er þá hægt að nota til að úthluta öðrum viðskiptaferlum, t.d. Dynamics 365 Sales, með afurðargögnum.
+Til að styðja við dreifingu afurðargagna á mörg tilfelli, leyfir Supply Chain Management þér að nota Microsoft Dataverse. Afurðarskilgreiningu er hægt að stofna í frá tilviki í Supply Chain Management í Microsoft Dataverse. Afurðarskilgreining er þá hægt að nota til að úthluta öðrum viðskiptaferlum, t.d. Dynamics 365 Sales, með afurðargögnum.
 
 Athugaðu að í kvikum og snörpum fyrirtækjum breytast afurðarupplýsingar daglega. Þess vegna er viðhald á réttum og áreiðanlegum afurðarupplýsingum mikilvægt viðskiptaferli eitt og sér.
 
@@ -96,3 +92,6 @@ Vinnusvæðið samanstendur af samanteknum reitum og tveimur listum. Listinn **O
 ### <a name="manually-creating-a-new-released-product"></a>Handvirk stofnun á nýrri útgefinni afurð
 
 Hægt er að stofna útgefna afurð í einni keyrslu, allt eftir viðskiptaferlum fyrirtækisins og þeim reglum sem gilda um hvort þessi virkni skuli notuð. Þessi virkni stofnar nýja afurð og gefur hana sjálfkrafa út til núverandi lögaðila. Til að stofna nýja afurð skaltu smella **Útgefnar afurðir** á vinnusvæðinu **Viðhald útgefinnar afurðar** eða á listasíðunni **Útgefin afurð**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

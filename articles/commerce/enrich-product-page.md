@@ -1,37 +1,31 @@
 ---
 title: Bæta vörusíðu
-description: Þetta efni lýsir því hvernig á að bæta afurðasíðu í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir hvernig á að auðga vörusíðu í Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 12508a80c440894ec6e2073b5e550846480e6c45
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 0c663498a65832c68b80ea7166da34914ceefb8c70d6a598f3fa648b199ef156
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413083"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777597"
 ---
 # <a name="enrich-a-product-page"></a>Bæta vörusíðu
 
-
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að bæta afurðasíðu í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði lýsir hvernig á að auðga vörusíðu í Microsoft Dynamics 365 Commerce.
 
 Sjálfgefið er að vefsíðan þín noti almenna síðu til að sýna vörugögn. Þessi síða inniheldur grunnupplýsingar um vöruna og stjórntæki sem þarf til að selja hana. Hins vegar geturðu bætt við upplýsingarnar sem koma frá Commerce Scale Unit með viðbótarmyndum eða texta fyrir tiltekna afurð. Þetta ferli er þekkt sem að auðga vörusíðuna.
 
@@ -72,4 +66,9 @@ Fylgdu þessum skrefum til að auðga vörusíðu.
 
 [Bæta lendingarsíðu flokks](enrich-category-page.md)
 
-[Staðfesta aðgengi síðuinnihalds](verify-accessibility.md)
+[Staðfesta aðgengi að efni síðu](verify-accessibility.md)
+
+[Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

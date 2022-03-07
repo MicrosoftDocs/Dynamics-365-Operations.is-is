@@ -1,12 +1,10 @@
 ---
 title: Eignayfirlit
 description: Þetta efnisatriði lýsir eignasýn í eignastjórnun.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetObjectTree, EntAssetFunctionalLocationTree
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0256cc86dc306c8addb37d2c8f335470b19177a
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 4265928fc5cb899a77eee6e5b9ff0a928efbe99c99ec7fe31eecffcb0f98f752
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019405"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765539"
 ---
 # <a name="asset-view"></a>Eignayfirlit
 
@@ -47,3 +45,6 @@ Kenni virkrar staðsetningar / Kenni virkar staðsetningar (ef það eru fleiri 
 Ef þú hefur valið eign í trjáskjánum geturðu valið **Virkar beiðnir** eða **Virkar vinnupantanir** til að skoða viðhaldsbeiðnir eða verkbeiðnir sem tengjast eigninni. Þú getur líka valið **Opið** \> **Virk staðsetning**, **Eignir**, eða **Uppskrift eignar** til að opna tengda sýn.
 
 Valkosturinn **Virkar staðsetningar eigna** sem þú getur valið í **Skoða** reiturinn er einnig fáanlegur í hvaða eignaleit þar sem þú getur valið eign. Trjásýnin er sýnt á **Eignamat** flipann, til dæmis þar sem þú [stofnar eign](../objects/create-an-object.md), búðu til viðhaldsbeiðni eða stofnaðu verkbeiðni.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,25 +2,22 @@
 title: Færibreytur fyrir umsjón hönnunarbreytinga
 description: Þetta efnisatriði útskýrir hvernig á að grunnstilla eiginleika umsjónar hönnunarbreytinga fyrir Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0cf0e56a8aece98379aa0f181d7b7ff665767544
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 34c2cd1bb7bfaac50f8816e7eecabf754bc714c3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4430786"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832227"
 ---
 # <a name="engineering-change-management-parameters"></a>Færibreytur fyrir umsjón hönnunarbreytinga
 
@@ -57,3 +54,6 @@ Eftirfarandi tafla lýsir svæðunum sem eru tiltæk á flipanum **Umsjón hönn
 | Alvarleikaregla | Veldu hvernig á að stofna alvarleika vegna hönnunarbreytingapöntunar. Veldu *Handvirkt* ef búist er við því að gildi sé slegið inn í svæðið **Alvarleiki**. Veldu *Reikna* til að láta kerfið reikna út gildi svæðisins **Alvarleika** þegar þú velur að **Reikna út alvarleika** á aðgerðasvæði hönnunarbreytingapöntunarinnar. Í slíku tilviki notar kerfið alvarleikareglurnar sem eru skilgreindar á síðunni **Stilla alvarleikareglu**. Veldu *Reikna sjálfkrafa* til að gildi svæðisins **Alvarleiki** sé reiknað sjálfkrafa og útfyllt samkvæmt stillingum alvarleikareglu. |
 | Endurútgefa afurðir sem verða fyrir áhrifum | Þetta svæði á við þegar þú losar afurðir aftur með hönnunarbreytingarpöntun. Þú getur valið hvort leggja eigi til allar afurðir eða viðkomandi afurðir í svarglugganum **Losanir**. |
 | Uppskriftarþrep sem á að gefa út | Dýpt BOM-stigsins sem skal sleppa. Þegar fleiri stig eru til staðar í BOM (þ.e. ef uppskriftin er dýpri) en gildið sem er tilgreint hér, verður aðeins losað um stigin samkvæmt tilgreindu gildi. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

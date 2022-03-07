@@ -2,27 +2,24 @@
 title: Stofna rekstrartilföng
 description: Rekstrartilföng framkvæmir verkþætti verks eða framleiðsluferli.
 author: sorenva
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e2e59b1e6a83d902df98a0b40ee6c572a6567f05
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9ab91c449293338469fa2832156a85c4c32301fd
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430051"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829043"
 ---
 # <a name="create-an-operations-resource"></a>Stofna rekstrartilföng
 
@@ -81,3 +78,6 @@ Rekstrartilföng framkvæmir verkþætti verks eða framleiðsluferli. Þessi fe
 4. Sláðu inn eða veldu gildi Innsláttur reitnum Staðsetning inntaks.
     * Tilgreina staðsetningu vöruhúss þar sem rekstrartilföng er að nota efni.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

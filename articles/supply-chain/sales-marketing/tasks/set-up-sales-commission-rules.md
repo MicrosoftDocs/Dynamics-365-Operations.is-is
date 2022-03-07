@@ -2,26 +2,23 @@
 title: Setja upp reglur söluþóknunar
 description: Þessi verklýsing sýnir hvernig á að setja upp og virkja útreikning á sölulaunum og rakningu.
 author: omulvad
-manager: tfehr
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CommissionCustomerGroup, CommissionItemGroup, CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, CommissionCalc, InventPosting, CustTable, EcoResProductDetailsExtended, CommissionEmplSalesGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b1ea016817462269a13e450c8c7576546c7f0eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f46344dfd816e0960a7a9d74089a493ca5237b95
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430258"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816437"
 ---
 # <a name="set-up-sales-commission-rules"></a>Setja upp reglur söluþóknunar
 
@@ -96,3 +93,6 @@ ms.locfileid: "4430258"
 17. Á listanum velurðu þóknunarflokk sem þú stofnaðir áður.
 18. Veljið **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

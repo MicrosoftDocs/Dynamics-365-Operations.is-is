@@ -1,12 +1,10 @@
 ---
 title: Setja upp æskilega viðhaldsstarfskrafta
 description: Þetta efni útskýrir hvernig á að setja upp forgangsviðhaldsstarfskrafta í eignastjórnun.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkerPreferred
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ab36d9fde0cc6e864f21f9ebd09834f5098c1913
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 511d875baed029df9083da36baf6c48ca4b7abf866ae569038b554bf594473c8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021405"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734428"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Setja upp æskilega viðhaldsstarfskrafta
 
@@ -61,9 +59,12 @@ Forgangsviðhaldsstarfsmaður eða starfsmannahópur getur verið skyldur einum 
 
     [!NOTE] Almennt þegar valinn viðhaldsstarfsmaður er valinn meðan á tímasetningu vinnu stendur fer eignastýring í gegnum allar **Forgangsstarfsmenn viðhalds** skrár til að leita að mögulegri samsvörun, athugaðu alltaf sérstaka samsetningu fyrst. Ef engin samsvörun er að finna, er „sjálfgefna“ skráin með valinu í annaðhvort reitnum **Forgangshópur starfsmanna viðhalds** eða reitnum **Forgangsstarfsmaður viðhalds** notuð.
 
-![Mynd 1](media/02-work-order-scheduling.png)
+![Mynd 1.](media/02-work-order-scheduling.png)
 
 Þú getur líka sett upp *ábyrga* viðhaldsstarfsmenn sem hægt er að velja þegar viðhaldsbeiðni eða verkbeiðni er búin til. Hægt er að breyta valinu í **Öllum verkbeiðnum** og **Öllum viðhaldsbeiðnum**, ef þess þarf. Nánari upplýsingar er að finna í [Ábyrgir viðhaldsstarfsmenn](../setup-for-maintenance-requests/responsible-workers.md).
 
 Við tímatökuáætlun verkbeiðni eru mismunandi stig reiknuð út til að ákvarða hvaða starfsmenn ættu að ljúka störfum sem tengjast verkbeiðni (þessi stig eru sett upp í tenglinum **Færibreytur eignastýringar** > **Tímasetningar verkbeiðni**). Ef tveir eða fleiri forgangsviðhaldsstarfsmenn eða ábyrgir starfsmenn við viðhald fá sömu einkunn við tímasetningu verkbeiðni er einn starfsmaður valinn af handahófi. Annars er það alltaf starfsmaðurinn með hæstu einkunn sem er úthlutað til að ljúka verkbeiðni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

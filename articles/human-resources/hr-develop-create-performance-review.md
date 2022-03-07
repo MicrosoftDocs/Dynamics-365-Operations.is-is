@@ -1,29 +1,31 @@
 ---
 title: Stofna afkomuendurskoðun
 description: Þetta efni útskýrir hvernig á að stofna mat á frammistöðu og lýsir tilgangi hvers hluta yfirverðar.
-author: andreabichsel
-manager: AnnBe
-ms.date: 05/05/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmEmployeeDevelopmentWorkspace
 audience: Application User
-ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99825dd580d617bb47b4f0ece784afbf6573ae8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 9c3ab4e769008bd8b401967e454aa6402f013773
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419017"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066951"
 ---
 # <a name="create-performance-reviews"></a>Stofna afkomuendurskoðun
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 Þetta efni útskýrir hvernig á að stofna mat á frammistöðu og lýsir tilgangi hvers hluta yfirverðar. Þetta ferli var stofnað með því að nota sýnigögn fyrirtækisins USMF.
@@ -66,15 +68,18 @@ ms.locfileid: "4419017"
 30. Velja flipann **Einkunnir**.  
 
     - Flýtiflipinn **Upplýsingar um mat** leyfir starfsmönnum að gefa sjálfum sér einkunnir og stjórnanda að gefa starfsmanni einkunn. Ef vægi er notað, er gildi vægis fyrir stig er reiknað út sjálfkrafa.  
-    - Virkja færibreytustillingar fyrir starfsmanns til að sýna einkunnir starfsmanns til að skoða þennan hluta.  
+    - Til að sjá þennan hluta skal virkja færibreytustillingar til að sýna einkunnir starfsmanns á síðunni **Samnýttar færibreytur fyrir mannauð**.  
 
-31. Veldu flipann **Útskráningar**. Ef yfirferð notar verkflæði, munu samþykktir eingöngu birtast eftir að verkflæði er lokið. Ef engin verkflæði er notað, þá eru bæði starfsmanns og stjórnanda taldar upp hér. Áskilið gátreitur er valinn, byggt á stillingum fyrir gerð yfirferðar.  
+31. Veldu flipann **Útskráningar**. Ef yfirferð notar verkflæði, munu samþykktir eingöngu birtast eftir að verkflæði er lokið. Ef engin verkflæði er notað, þá eru bæði starfsmanns og stjórnanda taldar upp hér. **Áskilið** gátreitur er valinn fyrir **Staðfestingar**, byggt á stillingum fyrir gerð yfirferðar.  
 32. Veldu flipann **Almennt**.
 
     - Afkastatímabilið stofnar sjálfgefna upphafs- og lokadagsetningu. Þessum dagsetningum er hægt að breyta.  
-    - Stöðurnar stýra aðgangi að yfirferð. Staðan **Ekki hafið** leyfir öllum að breyta yfirferð. Staðan **Í gangi** heimilar aðeins einum starfsmanni að skoða og breyta yfirferð. **Tilbúið fyrir endurskoðun** heimilar aðeins stjórnanda að skoða og breyta endurskoðuninni. **Endanleg endurskoðun** staðan leyfir bæði starfsmanni og stjórnanda að skoða endurskoðunina og einnig að breyta henni ef sett upp í gerð endurskoðunar. Stöðurnar **Lokið** og **Hætt við** gera yfirferðina skrifvarða. Ef umsögn er **Hafnað** og hún send aftur til starfsmannsins geta bæði starfsmaðurinn og yfirmaður gert nauðsynlegar breytingar svo starfsmaðurinn geti sent hana aftur.
+    - Stöðurnar stýra aðgangi að yfirferð. Staðan **Ekki hafið** leyfir öllum að breyta yfirferð. Staðan **Í gangi** heimilar aðeins einum starfsmanni að skoða og breyta yfirferð. **Tilbúið fyrir endurskoðun** heimilar aðeins stjórnanda að skoða og breyta endurskoðuninni. Staðan **Lokaendurskoðun** leyfir bæði starfsmanni og stjórnanda að skoða og breyta endurskoðun ef valkosturinn **Leyfa breytingu í lokaendurskoðun** er valinn í endurskoðunargerðinni. Stöðurnar **Lokið** og **Hætt við** gera yfirferðina skrifvarða. Ef umsögn er **Hafnað** og hún send aftur til starfsmannsins geta bæði starfsmaðurinn og yfirmaður gert nauðsynlegar breytingar svo starfsmaðurinn geti sent hana aftur.
 
 33. Í reitinn **Yfirlit** skal slá inn gildi.
 34. Veldu flipann **Endurskoða**. Þegar yfirferðin fer í gegnum stöðurnar geta starfsmaður og stjórnandi bætt við athugasemdum fyrir hvert markmið eða hæfni.  
 35. Veldu flipann **Útskráningar**. Starfskrafturinn og yfirmaðurinn geta skrifað undir endurskoðunina. Þegar öllum nauðsynlegum útskráningum er lokið er stöðunni breytt í **Lokið** og ekki er hægt að gera neinar frekari breytingar.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,28 +2,25 @@
 title: Uppsetning fartækja fyrir vöruhúsavinnu
 description: Þetta efnisatriði lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 29941
 ms.assetid: 6dff6313-dc6e-4f06-9c0c-dab24eefe4da
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bb256514175166621847a5d40c16b9b749b1ddc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 1d3acbc15b6dc5f698f26aae96c75cc942189c6c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430698"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808799"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Uppsetning fartækja fyrir vöruhúsavinnu
 
@@ -65,7 +62,7 @@ Ef reiturinn **Máti** fyrir valmyndaratriði er stilltur á **Óbeint** er hæg
 | Hreinsa númeraröð úr skyndiminni | Eyða númer raðnúmer frá í númeraröð úr skyndiminni. Þessi verkþáttur er yfirleitt framkvæmdur af kerfisstjóra til að leysa vandamál skyndiminnis þegar fartæki eru notuð. |
 | Breyta runuráðstöfun | Leyfa starfsmanni að tilgreina ráðstöfunarkóða runu fyrir vöru og runu. Þetta val uppfærir ráðstöfunarkóða sem er tilgreindur fyrir runu. |
 | Sýna opinn verkefnalista | Sýna lista yfir tiltæka vinnu til tiltekins notanda. Notandinn getur síðan valið vinnu til að framkvæma og verður beint að henni. Búist er við að þessi listi verði skoðaður á spjaldtölvum sem hafa skjástærð upp á 7 tommur eða meira. Þegar þessi valkostur er valinn verða **Breyta fyrirspurn** og **Svæðalisti** valmyndaratriðin tiltæk. Síðan **Breyta fyrirspurn** gerir kleift að setja upp skilyrði fyrir vinnu sem birtist í lista. Síðan **Reitalisti** gerir kleift að velja hvað reitir birtast í vinnulistanum. Til dæmis er hægt að draga úr fjölda reita sem birtast, svo að notandinn verði fljótari að velja mest viðeigandi vinnulið. Á flýtiflipanum **Almennt**, í reitnum **Færslur á síðu**, er einnig hægt að velja hversu margar verkfærslur á að birta á hverri síðu. Ef valkosturinn **Leyfa notendum að sía vinnu eftir færslugerð** er valinn, þá mun vinnulistinn innihalda stjórntækið **Sía vinnu** sem notandinn getur notað til að sía eftir færslugerð. Í vinnulistanum geta notendur aðeins séð vinnu sem þeir hafa heimild til að fá aðgang að. Það þarf að tryggja að notendur hafi heimild fyrir eina eða fleiri notandastýrð valmyndaratriði sem styðja tilteknar gerðir vinnuklasa sem þeir ættu að hafa aðgang að. Heimildir eru staðfestar þegar notandi reynir að framkvæma vinnu af listanum.|
-| Stofna flutningspöntun úr númeraplötum | Gerir starfsmönnum vöruhúss kleift að stofna og vinna úr flutningspöntunum beint úr forriti vöruhúss. Starfsmenn í vöruhúsi byrja á því að velja vöruhús áfangastaðar og geta síðan skannað eina eða fleiri númeraplötur með því að nota forritið. Þegar starfsmaður í vöruhúsi velur **Ljúka við pöntun**, býr runuvinnsla til nauðsynlega flutningspöntun og pöntunarlínur samkvæmt skráðum lagerbirgðum fyrir þessar númeraplötur. Frekari upplýsingar er að finna í [Stofna flutningspantanir úr vöruhúsaforriti](create-transfer-order-from-warehouse-app.md).
+| Stofna flutningspöntun úr númeraplötum | Gerir starfsmönnum vöruhúss kleift að stofna og vinna úr flutningspöntunum beint úr farsímaforriti vöruhúsakerfis. Starfsmenn í vöruhúsi byrja á því að velja vöruhús áfangastaðar og geta síðan skannað eina eða fleiri númeraplötur með því að nota forritið. Þegar starfsmaður í vöruhúsi velur **Ljúka við pöntun**, býr runuvinnsla til nauðsynlega flutningspöntun og pöntunarlínur samkvæmt skráðum lagerbirgðum fyrir þessar númeraplötur. Frekari upplýsingar er að finna í [Stofna flutningspantanir úr vöruhúsaforriti](create-transfer-order-from-warehouse-app.md).
 
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Skilgreina valmyndaratriði til að stofna vinnu fyrir annan starfsmann eða ferli
@@ -439,3 +436,6 @@ Eftirfarandi tafla lýsir mismunandi gerðum vinnu sem hægt er að nota verksta
 [Birgðastöður](../inventory/inventory-statuses.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

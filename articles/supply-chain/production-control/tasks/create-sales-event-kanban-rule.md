@@ -2,27 +2,24 @@
 title: Stofna kanban-regla sölutilviks
 description: Þetta ferli leggur áherslu á uppsetningu sem þarf til að stofna kanban-reglu sem er ræst við stofnun sölupöntunar.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1759adea6db8120078e2f32bff79178545c2328a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9325bbb8d28587baeb60cdf1fc37121c236f1a10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430046"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828923"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>Stofna kanban-regla sölutilviks
 
@@ -74,3 +71,6 @@ ms.locfileid: "4430046"
 2. Smellt er á Skoða þarfarakningartré.
     * Athugið að kanban með sama magni og sölulínan var stofnað. Einnig er hægt að skoða efni sem þarf til að framleiða L0050. Þetta er síðasta skrefið í þessu ferli.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

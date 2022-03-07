@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 97ac33d28a49ad0f2a3956ad65b159e4ec4785c7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 87063653eb78209caaefd3fafa7783f425e710b7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430038"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5257292"
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a>Skilgreina lokadag fyrir útgáfu framleiðsluflæðis
 
@@ -41,3 +40,6 @@ Til að ljúka gildistíma og vinnslu í útgáfu framleiðsluflæðis á tiltek
 6. Færa inn dagsetningu og tíma í dagsetningarsvæði Gildistíma.
     * Fyrir lokadagsetningu hefst ný útgáfu ekki eða verður virk. Það verður ekki heldur lengur hægt að stofna eða hefja vinnslur fyrir þetta framleiðsluflæði. Það verður samt hægt að ljúka vinnslum eftir lokadagsetningu.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

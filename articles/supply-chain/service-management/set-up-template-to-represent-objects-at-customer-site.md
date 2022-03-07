@@ -2,28 +2,25 @@
 title: Setja upp sniðmát fyrir framsetning á hlutum á síðu viðskiptavinar
 description: Setja upp sniðmát fyrir framsetning á hlutum á síðu viðskiptavinar.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 823ef5cddbba8a72bd67ba87edd1aa497022a81e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4642a8912ea3794b2dc3c7c58ee771128b0f2174
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430005"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824367"
 ---
 # <a name="set-up-template-to-represent-objects-at-customer-site"></a>Setja upp sniðmát fyrir framsetning á hlutum á síðu viðskiptavinar 
 
@@ -55,3 +52,6 @@ Notið þessa aðferð til þess að setja upp sniðmát sem táknar hluti á ve
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

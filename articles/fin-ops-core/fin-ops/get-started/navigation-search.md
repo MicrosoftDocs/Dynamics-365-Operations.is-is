@@ -2,11 +2,9 @@
 title: Flettingaleit
 description: Flettingaleit - Þetta efnisatriði útskýrir hvernig skuli nota leitarvirknina til að fara inn á síður.
 author: aneesmsft
-manager: AnnBe
-ms.date: 04/27/2017
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43fa263bcbb6f5a6465af59ffb744aa865d66239
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 9e689bef43930dbe364baefaa9f4d0231394ff4f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4799103"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069985"
 ---
 # <a name="navigation-search"></a>Flettingaleit
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Flettingaleit - Þetta efnisatriði útskýrir hvernig skuli nota leitarvirknina til að fara inn á síður.
 
@@ -36,7 +37,7 @@ Til að Nota þessa aðgerð þarf að smella á í **Leit** teiknið til að bi
 > [!NOTE]
 > Reiturinn **Leit** hjálpar til við að leita og fletta að síðum. Það ekki gagnast við að finna ákveðna gögn eða aðgerðir.
 
-[![search-box](media/navigation-search.png "Leitargluggi")
+![search-box.](media/navigation-search.png "Leitargluggi")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Að fara á ákveðna síðu á fljótlegan hátt
 
@@ -62,3 +63,6 @@ Lista yfir leitarniðurstöður takmarkast við 10 vörur. Ef þú finnur ekki �
 ## <a name="development"></a>Þróunarvalmynd
 
 Frá þróunarsjónarhóli er flettingaleitarvirkni auðvelt að til að finna jafnvægi, þar er nánast engin töf milli uppsetningar valmyndaratriða og getu þeirra til að birtast í leitarniðurstöðum. Svo lengi sem tengt er í valmyndaratriðin annað hvort úr skoðunarrúðunni eða á yfirlitinu, verða þær sjálfkrafa finnanlegar.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

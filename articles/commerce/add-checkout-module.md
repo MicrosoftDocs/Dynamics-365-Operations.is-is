@@ -2,27 +2,24 @@
 title: Greiðsluferliseining
 description: Þetta efni lýsir hvernig bæta skal greiðsluferliseiningu við nýja síðu og stilla nauðsynlega eiginleika.
 author: anupamar-ms
-manager: annbe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 28d58caba71ea98ccf163e756e879587aa254bb3
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: bda264a255a688d64e314d994dc281602c9324cc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4413317"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347591"
 ---
 # <a name="checkout-module"></a>Greiðsluferliseining
 
@@ -30,15 +27,13 @@ ms.locfileid: "4413317"
 
 Þetta efni lýsir hvernig bæta skal greiðsluferliseiningu við nýja síðu og stilla nauðsynlega eiginleika.
 
-## <a name="overview"></a>Yfirlit
-
 Greiðsluferliseining er sérstakur gámur sem hýsir allar einingar sem þarf til að búa til pöntun. Hún býður upp á skref fyrir skref flæði sem viðskiptavinur notar til að færa inn allar viðeigandi upplýsingar til að kaupa. Hún tekur upp sendingarfang, sendingaraðferð og innheimtuupplýsingar. Hún veitir einnig pöntunaryfirlit og aðrar upplýsingar sem tengjast pöntun viðskiptavina.
 
 Í greiðsluferliseiningu eru gögn byggð á auðkenni körfunnar. Auðkenni þessa körfu er vistað sem vafrakaka. Auðkenni körfu er krafist til að afhenda upplýsingar í greiðsluferliseiningunni, svo sem hlutina í pöntuninni, heildarupphæðinni og afslætti. 
 
 Eftirfarandi mynd sýnir dæmi um greiðsluferliseiningu Fabrikam á greiðsluferlissíðu.
 
-![Dæmi um greiðsluferliseiningu](./media/Checkout.PNG)
+![Dæmi um greiðsluferliseiningu.](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Eiginleikar greiðsluferliseiningar
 
@@ -57,13 +52,13 @@ Greiðsluferliseining sýnir pöntunaryfirlit og veitir virkni til að ganga fr�
 
     Eftirfarandi mynd sýnir dæmi um sendingaraðseturseiningu á greiðsluferlissíðu.
 
-    ![Dæmi um sendingaraðseturseiningu](./media/ecommerce-shippingaddress.PNG)
+    ![Dæmi um sendingaraðseturseiningu.](./media/ecommerce-shippingaddress.PNG)
 
 - **Afhendingarvalkostir** – Þessi eining gerir viðskiptavini kleift að velja afhendingarmáta fyrir pöntun. Frekari upplýsingar um þessa einingu er að finna í [Eining afhendingarvalkosta](delivery-options-module.md).
 
     Eftirfarandi mynd sýnir dæmi um einingu afhendingarvalkosts á greiðsluferlissíðu.
  
-    ![Dæmi um einingu afhendingarvalkosts](./media/ecommerce-deliveryoptions.PNG)
+    ![Dæmi um einingu afhendingarvalkosts.](./media/ecommerce-deliveryoptions.PNG)
 
 - **Gámur í greiðsluferlishlutanum** - Þessi eining er gámur sem þú getur sett margar einingar í til að stofna hluta innan greiðsluferlisflæðisins. Til dæmis er hægt að setja allar greiðslutengdar einingar í þennan gám til að láta þær birtast sem einn hluta. Þessi eining hefur aðeins áhrif á skipulag flæðisins.
 
@@ -75,7 +70,7 @@ Greiðsluferliseining sýnir pöntunaryfirlit og veitir virkni til að ganga fr�
 
     Eftirfarandi mynd sýnir dæmi um einingar gjafakorts, vildarpunkta og greiðslu á greiðsluferlissíðu.
 
-    ![Dæmi um einingar gjafakorts, vildarpunkta og greiðslu á greiðsluferlissíðu](./media/ecommerce-payments.PNG)
+    ![Dæmi um einingar gjafakorts, vildarpunkta og greiðslu á greiðsluferlissíðu.](./media/ecommerce-payments.PNG)
 
 - **Upplýsingar um tengiliði** - Þessi eining gerir viðskiptavini kleift að bæta við eða breyta tengiliðaupplýsingum (netfangi) fyrir pöntun.
 
@@ -85,7 +80,7 @@ Greiðsluferliseining sýnir pöntunaryfirlit og veitir virkni til að ganga fr�
 
     Eftirfarandi mynd sýnir dæmi um skilmála á greiðsluferlissíðu.
 
-    ![Dæmi um skilmála á greiðsluferlissíðu](./media/ecommerce-checkout-terms.PNG)
+    ![Dæmi um skilmála á greiðsluferlissíðu.](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Samskipti við Commerce Scale Unit
 
@@ -127,3 +122,6 @@ Fylgdu þessum skrefum til að bæta greiðsluferliseiningu við nýja síðu og
 [Pöntunarupplýsingaeining](order-confirmation-module.md)
 
 [Gjafakortseining](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

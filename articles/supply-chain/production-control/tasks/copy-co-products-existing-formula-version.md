@@ -2,27 +2,24 @@
 title: Afrita aukaafurðir úr fyrirliggjandi formúluútgáfu
 description: Þessi verklýsing sýnir hvernig á að afrita aukaafurðir úr eldri útgáfu formúlu yfir í mismunandi formúluútgáfu fyrir útgefna afurð.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, BOMConsistOf, PmfFormulaCoBy, BOMRouteCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 79b70ccbdac2061baf3896ecbd9449da3c38842a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cbcf2abc37441f9ff23e2b180c261831dfb79369
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430061"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829283"
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>Afrita aukaafurðir úr fyrirliggjandi formúluútgáfu
 
@@ -54,3 +51,6 @@ ms.locfileid: "4430061"
 6. Smellið á „Í lagi“.
 7. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

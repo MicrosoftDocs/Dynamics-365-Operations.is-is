@@ -1,37 +1,37 @@
 ---
 title: Yfirlit yfir uppfærslu afskriftarbókar
-description: Þetta efnisatriði lýsir núverandi virkni bókar í eignum. Þessi virkni er byggð á virkni virðislíkans sem var í boði í fyrri útgáfum, en inniheldur einnig alla virknina sem var áður fyrr einungis til staðar í afskriftarbókum.
-author: moaamer
+description: Í eldri útgáfum, voru tvö matshugtök fyrir eignir, virðislíkön og afskriftabækur.
+author: ShylaThompson
+manager: AnnBe
 ms.date: 06/20/2017
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
-ms.custom:
-- "221624"
-- intro-internal
+ms.custom: 221624
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
-ms.author: moaamer
+ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eaa47b47a93deda24a6c76572881d1e5bba29c52
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: ffaeafa987c85aee17404fbfcf8c69c9699e2f3b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985084"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994991"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Yfirlit yfir uppfærslu afskriftarbókar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir núverandi virkni bókar í eignum. Þessi virkni er byggð á virkni virðislíkans sem var í boði í fyrri útgáfum, en inniheldur einnig alla virknina sem var áður fyrr einungis til staðar í afskriftarbókum. Aðgerðin virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók. Virkni bókar gerir þér kleift að nota eitt sett af síðum, fyrirspurnum og skýrslum fyrir alla ferla eignar í fyrirtækinu. Þetta efnisatriði útvegar nokkur atriði sem ætti að hafa í huga fyrir uppfærslu. 
+Í eldri útgáfum, voru tvö matshugtök fyrir eignir - virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations (1611) útgáfu, er aðgerðin virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók. Þetta efnisatriði gefur einhverjar eftirfarandi gott að hafa í huga fyrir uppfærslu. 
 
-Uppfærsluferlið færir fyrirliggjandi uppsetningu og allar fyrirliggjandi færslur til uppbyggingar nýju bókarinnar. Virðislíkön haldast eins og þau eru, sem bók sem bókar í fjárhag. Afskriftabækur verða flutt í bók sem hefur Bóka í fjárhag valkostur stilltur á Nei. Færslubókaheiti afskriftabóka verði flutt í færslubókarheitið fjárhags sem er með bókunarlag stillt á Ekkert. Færslur afskriftarbókar verða fluttar í Eignafærsla.
+Uppfærsluferlið færir fyrirliggjandi uppsetningu og allar fyrirliggjandi færslur til uppbyggingar nýju bókarinnar. Virðislíkön haldast eins og þau eru, sem bók sem bókar í fjárhag. Afskriftabækur verða flutt í bók sem hefur **Bóka í fjárhag** valkostur stilltur á **Nei**. Færslubókaheiti afskriftabóka verði flutt í færslubókarheitið fjárhags sem er með bókunarlag stillt á **Ekkert**. Færslur afskriftarbókar verða fluttar í Eignafærsla. 
 
-Áður en uppfærslu gagna er keyrð, þarf að skilja kostirnir tveir sem eru tiltækar til uppfærslu færslubókarlínur afskriftarbókar í fylgiskjöl færslu, og númeraröð sem verður notað fyrir fylgiskjalarunu.
+Áður en uppfærslu gagna er keyrð, þarf að skilja kostirnir tveir sem eru tiltækar til uppfærslu færslubókarlínur afskriftarbókar í fylgiskjöl færslu, og númeraröð sem verður notað fyrir fylgiskjalarunu. 
 
 Valkostur 1:  **Kerfisskilgreind númeraröð** - Þetta er sjálfgefin stilling til að besta uppfærsluframkvæmd. Uppfærslu notar ekki ramma fyrir númeraraðir, en mun í staðinn úthluta fyliskjölum með samstæðubyggð nálgun. Eftir uppfærslu, verður nýja númeraröð stofnað með **Næsta númerasetti** og byggt upp í samræmi við uppfærða færslu. Að sjálfgefnu, verður notuð númeraröð vera á FADBUpgr\#\#\#\#\#\#\#\#\# sniði. Nokkrar færibreytur eru tiltækar til að leiðrétta sniðið þegar þessi nálgun er notuð:
 
@@ -42,7 +42,7 @@ Valkostur 1:  **Kerfisskilgreind númeraröð** - Þetta er sjálfgefin stilling
     -   Heiti fasta: **NumberSequenceDefaultParameterPrefix**
     -   Sjálfgefið gildi: "FADBUpgr"
 -   **Lengd bókstafa og talna** – Lengd hluta sem notar bókstafi og tölur fyrir númeraröð.
-    -   Heiti fasta: **NumberSequenceDefaultParameterAlpanumericLength**
+    -   Heiti fasti: **NumberSequenceDefaultParameterAlpanumericLength**
     -   Sjálfgildi: 9
 -   **Upphafsnúmer** - fyrsta númer sem notað er í númeraröð.
     -   Heiti fasta: **NumberSequenceDefaultParameterStartNumber**
@@ -51,7 +51,7 @@ Valkostur 1:  **Kerfisskilgreind númeraröð** - Þetta er sjálfgefin stilling
 Möguleiki 2: **Fyrirliggjandi notandaskilgreindur númeraröð** - Þennan valkost gerir þér kleift að skilgreina númeraröðina sem nota á fyrir uppfærslu. Íhuga að nota þennan valkost ef þú þarft ítarlega skilgreiningu númeraraðar. Til að nota númeraröð, verður að breyta uppfærsluflokk ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans með eftirfarandi upplýsingar:
 
 -   **Númeraraðarkóði** – Kóði númeraraðar.
-    -   Heiti fasta: **NumberSequenceExistingCode**
+    -   Heiti fasti: **NumberSequenceExistingCode**
     -   Sjálfgildi: Engin sjálfgefin, þetta þarf að uppfæra fyrir númeraraðakóða.
 -   **Samnýttar númeraröð** – boole-gildi til að greina umfang númeraraðar. Notuð "satt" fyrir samnýttar númeraraðir þvert á öll fyrirtæki og "rangt" fyrir sviðs sem eru sértæk fyrir fyrirtæki. Þegar "rangt" er notað, verður númeraröð með tilgreindu heiti vera til staðar í hvert fyrirtæki sem inniheldur færslur í afskriftabók.lur í afskriftabók. Samnýtt númeraraðir eru til í hverri deildaskiptingu sem inniheldur færslur í afskriftarbók.
     -   Heiti fasti: **NumberSequenceExistingIsShared**
@@ -82,6 +82,3 @@ Með hvorri nálguninni mun uppfærsluforskrift gagna einnig nota númeraröðin
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

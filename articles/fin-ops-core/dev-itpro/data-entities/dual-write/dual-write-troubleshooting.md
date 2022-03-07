@@ -2,11 +2,9 @@
 title: Almenn úrræðaleit
 description: Þetta efni veitir upplýsingar um almenna úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Dataverse.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 779cc80d4cb510e79885919f1c705824ab6ad58b3e2fe1bab7bbec0511d08951
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744542"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736303"
 ---
 # <a name="general-troubleshooting"></a>Almenn úrræðaleit
 
@@ -46,16 +44,16 @@ Eftir að þú hefur sett upp verkfærið Package Deployer skaltu setja upp laus
 
 1. Sæktu nýjustu pakkaskrá lausnarinnar af Yammer.com. Eftir að zip-skráin hefur verið sótt skaltu hægrismella á hana og velja **Eiginleikar**. Veldu gátreitinn **Opna fyrir** og veldu síðan **Beita**. Ef þú sérð ekki gátreitinn **Opna fyrir** er zip-skráin þegar aflæst og þú getur sleppt þessu skrefi.
 
-    ![Svargluggi eiginleika](media/unblock_option.png)
+    ![Svargluggi eiginleika.](media/unblock_option.png)
 
 2. Opnaðu zip-skrána með pakkanum og afritaðu allar skrárnar í möppuna **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
 
-    ![Innihald möppunnar Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
+    ![Innihald möppunnar Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438.](media/extract_package.png)
 
 3. Límdu allar afritaðar skrár í möppuna **Verkfæri** í verkfærinu Package Deployer. 
 4. Keyrðu **PackageDeployer.exe** til að velja Dataverse umhverfið og setja upp lausnirnar.
 
-    ![Innihald möppunnar Verkfæri](media/paste_copied_files.png)
+    ![Innihald verkfæramöppunnar.](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Virkið og skoðið rakningarkladda viðbóta í Dataverse til að skoða upplýsingar um villu
 
@@ -63,14 +61,14 @@ Eftir að þú hefur sett upp verkfærið Package Deployer skaltu setja upp laus
 
 Fylgdu þessum skrefum til að kveikja á rakningarkladda.
 
-1. Skráðu þig inn á líkanadrifna forritið í Dynamics 365, opnaðu síðuna **Stillingar** og undir **Kerfi** veldu **Stjórnun**.
+1. Skráðu þig inn í forrit viðskiptavinar, opnaðu síðuna **Stillingar** og undir **Kerfi** velurðu **Stjórnun**.
 2. Á síðunni **Stjórnun** skal velja **Kerfisstillingar**.
 3. Á flipanum **Sérsnið**, í dálkinum **Viðbót og sérsniðnar rakningaraðgerðir verkflæðis**, velurðu **Allt** til að virkja rakningarkladda viðbótar. Ef þú vilt skrá rakningarkladda aðeins þegar undantekningar eiga sér stað, geturðu valið **Undantekning** í staðinn.
 
 
 Fylgdu þessum skrefum til að skoða rakningarkladdann.
 
-1. Skráðu þig inn á líkanadrifna forritið í Dynamics 365, opnaðu síðuna **Stillingar** og undir **Sérstillingar** veldu **Rakningarkladdi viðbóta**.
+1. Skráðu þig inn í forrit viðskiptavinar, opnaðu síðuna **Stillingar** og undir **Sérstilling** velurðu **Viðbót rakningarkladda**.
 2. Findu rakningarkladda þar sem dálkurinn **Heiti gerðar** er stilltur á **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Tvísmelltu á hlut til að skoða alla skrána og síðan á flýtiflipanum **Framkvæmd**, skoðarðu textann **Skilaboðablokk**.
 
@@ -122,3 +120,6 @@ Fylgdu þessum skrefum til að gera virkja valkostinn **Upplýsingar** aftur:
 2. Finndu **Upplýsingar** undir skjámyndum. 
 3. Veldu **Upplýsingar** og smelltu á **Virkja öryggishlutverk**. 
 4. Breyttu öryggisstillingunni í **Sýna öllum**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

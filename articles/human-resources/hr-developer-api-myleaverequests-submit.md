@@ -2,15 +2,12 @@
 title: Senda leyfisbeiðni í verkflæði
 description: Í Microsoft Dynamics 365 Human Resources, þú getur notað MyLeaveRequests senda () forritunarviðmót forritsins (API) til að leggja fram leyfisbeiðni til verkflæðis.
 author: andreabichsel
-manager: AnnBe
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -18,14 +15,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7552a4c921dc4a88034b5d2c87d5a9b47d699ae3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: f9ca716f37b90e22983b2dddc2c426a2b4e251ec
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418954"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067505"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>Senda leyfisbeiðni í verkflæði
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Í Microsoft Dynamics 365 Human Resources, þú getur notað MyLeaveRequests senda () forritunarviðmót forritsins (API) til að leggja fram leyfisbeiðni til verkflæðis. Þetta API birtist sem aðgerð á MyLeaveRequests OData einingunni.
 
@@ -108,3 +110,5 @@ Sem hluti af símtalinu til að senda inn API, framkvæmir Human Resources lögg
 
 - [Yfirlit MyLeaveRequests](hr-developer-api-myleaverequests-overview.md)
 - [Sannvottun](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,34 +1,32 @@
 ---
-title: Yfirlit yfir rásir
-description: Þetta efni birtir yfirlit yfir rásir í Microsoft Dynamics 365 Commerce.
+title: Yfirlit rása
+description: Þetta efnisatriði sýnir yfirlit yfir rásir í Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e060fe2a578296f079653244ed4d5676313e5ea8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 18805963e164e4f39a9c0109f3b3538613272a3dbcc980969471412b3640308e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963061"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742489"
 ---
-# <a name="channels-overview"></a>Yfirlit yfir rásir
+# <a name="channels-overview"></a>Yfirlit rása
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni birtir yfirlit yfir rásir í Microsoft Dynamics 365 Commerce. Það felur í sér upplýsingar um þau verk sem ljúka verður bæði áður en eða eftir að þú hefur lokið við að setja hverja rás upp.
+Þetta efnisatriði sýnir yfirlit yfir rásir í Microsoft Dynamics 365 Commerce. Það felur í sér upplýsingar um þau verk sem ljúka verður bæði áður en eða eftir að þú hefur lokið við að setja hverja rás upp.
 
 ## <a name="types-of-channels"></a>Gerðir rása
 
@@ -44,7 +42,7 @@ Símaversrásir sýna símaverspöntun og stjórnun viðskiptavina.
 
 ### <a name="online-channels"></a>Netrásir
 
-Netrásir eru netverslanir á netinu. Þegar netrás hefur verið stofnuð verður að búa til vefsíðu með Microsoft Dynamics 365 Commerce vefsvæðishönnunartóli eða annari e-Commerce lausn þriðja aðila.
+Netrásir eru netverslanir á netinu. Þegar rásarkerfi er stofnað verður að stofna svæði með því að nota Microsoft Dynamics 365 Commerce svæðasmíð eða lausn annars þriðja aðila fyrir rafræn viðskipti.
 
 ## <a name="channel-setup-basics"></a>Grunnatriði rásaruppsetningar
 
@@ -88,3 +86,6 @@ After you create a channel, you may need to complete some of the below tasks:
 [Setja upp rás símavers](channel-setup-callcenter.md)
 
 [Setja upp stigveldi fyrirtækis](channels-org-hierarchies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

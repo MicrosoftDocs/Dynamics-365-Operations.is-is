@@ -2,11 +2,9 @@
 title: Virkja frestun skattaútreiknings á dagbókum
 description: Þetta efni útskýrir hvernig á að kveikja á eiginleikanum Frestun skattaútreiknings að bæta afköst skattaútreikninga þegar fjöldi dagbókarlína er afar mikið.
 author: ericwang
-manager: Ann Beebe
 ms.date: 09/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 4ea79747e8e7c078baa6e270ecebf88c4832e079
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 8394c83245865fd7fa02ddf80ada0532d1d4368e10e0a3248d0f8163f8e2224d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968805"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742906"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Virkja frestun skattaútreiknings á dagbókum
 [!include [banner](../includes/banner.md)]
@@ -47,14 +45,14 @@ Kerfið hefur forgang til stillingar fyrir færslubókarhaus. Sjálfgefið er a�
 1. Farðu í **Fjárhag \> Fjárhagsuppsetning \> Fjárhagsfæribreytur**.
 2. Á flipanum **VSK-skattur** á flýtiflipanum **Almennt** skal stilla valkostinn **Frestun skattaútreiknings** á **Já**.
 
-![Mynd af almennum fjárhagsfæribreytum](media/delayed-tax-calculation-gl.png)
+![Mynd af fjárhagsfæribreytum.](media/delayed-tax-calculation-gl.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Kveiktu á frestun skattaútreiknings á stigi færslubókarheitis
 
 1. Farðu í **Fjárhag \> Færslubókaruppsetning \> Færslubókarheiti**.
 2. Á flýtiflipanum **Almennt**, í kaflanum **VSK-skattur**, skal stilla valkostinn **Frestun skattaútreiknings** á **Já**.
 
-![Mynd af færslubókanöfnum](media/delayed-tax-calculation-journal-name.png)
+![Mynd af færslubókarheitum.](media/delayed-tax-calculation-journal-name.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Kveiktu á frestun skattaútreiknings á stigi færslubókarhauss
 
@@ -63,4 +61,7 @@ Kerfið hefur forgang til stillingar fyrir færslubókarhaus. Sjálfgefið er a�
 3. Veldu heiti færslubókar.
 4. Á flipanum **Uppsetning** stillirðu valkostinn **Frestun skattaútreiknings** á **Já**.
 
-![Mynd af síðu almennrar færslubókar](media/delayed-tax-calculation-journal-header.png)
+![Mynd á síðu færslubókar.](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

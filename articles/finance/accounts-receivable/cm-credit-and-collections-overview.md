@@ -1,23 +1,24 @@
 ---
 title: Yfirlit yfir skuldir og innheimtu
 description: Þetta efnisatriði gefur yfirlit yfir virkni fyrir skuldir og innheimtu.
-author: JodiChristiansen
+author: mikefalkner
 ms.date: 09/04/2019
-ms.topic: overview
+ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 293a6c507c6abd6009a23403384c3b58a1a55a52
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 81518cf7e70e8283d55e0b031bb1c48f1fad840f
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982613"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337280"
 ---
 # <a name="credit-and-collections-overview"></a>Yfirlit yfir skuldir og innheimtu
 

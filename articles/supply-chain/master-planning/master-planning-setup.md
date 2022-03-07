@@ -2,16 +2,13 @@
 title: Setja upp aðaláætlanagerð
 description: Þetta efni lýsir ýmsum mikilvægum áætlunum og breytum sem eru notaðar til að setja upp aðaláætlanagerð.
 author: t-benebo
-manager: tfehr
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: a74d2987eac7409b5f576a52eccc37cf29566c7b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fe7ff2ab877182dd3145e39574aa7229c48b6057
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430147"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833402"
 ---
 # <a name="set-up-master-planning"></a>Setja upp aðaláætlanagerð
 
@@ -227,3 +224,6 @@ Afhendingartími + Neikvæðir dagar + Núverandi dags. – Þarfadags.
 Kerfið notar aðeins áætlaðar birgðapantanir sem eru innan þessa tímabils og það stofnar nýja áætlaða pöntun utan þess. Kosturinn við kvika neikvæða daga er að þeir munu innihalda staka afhendingartíma, til að endurnota fyrirliggjandi pantanir og forðast stofnun á nýjum áætluðum pöntunum sem munu enda með síðari dag vegna tafa sem stafa af afhendingartíma. 
 
 Nánari upplýsingar er að finna í [Neikvæðir dagar og kvikir neikvæðir dagar](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,34 +1,32 @@
 ---
 title: Staða skjala og líftíma
-description: Þetta efni fjallar um hinar ýmsu skjalastöður blaðsíðuþátta í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði nær yfir mismunandi skjalstöður síðueininga í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8aad7ef8425e46182c669686710dfc178abc418f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: ad8547fe6b36caf75ce78cb09fb2caf901c63afe43fa4755bb9e5c69427829d4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413164"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727582"
 ---
-# <a name="document-states-and-lifecycle"></a>Staða skjala og líftíma
+# <a name="document-states-and-lifecycle"></a>Staða og líftími skjala
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni fjallar um hinar ýmsu skjalastöður blaðsíðuþátta í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði nær yfir mismunandi skjalstöður síðueininga í Microsoft Dynamics 365 Commerce.
 
 ## <a name="document-state-descriptions"></a>Lýsing skjalastöðu
 
@@ -61,3 +59,6 @@ Eftirfarandi tafla sýnir mögulegar skjalastöður síðueininga í Commerce.
 [Yfirlit yfir sniðmát og útlit](templates-layouts-overview.md)
 
 [Sérstilla yfirlit svæðis](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

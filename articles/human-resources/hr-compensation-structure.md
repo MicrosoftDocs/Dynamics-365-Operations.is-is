@@ -2,7 +2,7 @@
 title: Þróa launaskipulag
 description: Þessi grein fer í gegnum ferlið við stofnun fyrirkomulags fastra launa og skráningu starfsmanna í launafyrirkomulagið með hæfnisreglum.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,19 +11,21 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5030203877ebdf885fb55c7946bfd4ee0c883c2e
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4419052"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465679"
 ---
 # <a name="develop-a-compensation-structure"></a>Þróa launaskipulag
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Þessi grein fer í gegnum ferlið við stofnun fyrirkomulags fastra launa og skráningu starfsmanna í launafyrirkomulagið með hæfnisreglum. Þessi grein notar USMF kynningargögn og gildir um launa- og fríðindastjórnendur.
 
@@ -113,3 +115,6 @@ Ekki er hægt að úthluta föstu launafyrirkomulagi til starfsmanns fyrr en hæ
 
 8. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

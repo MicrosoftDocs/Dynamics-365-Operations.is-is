@@ -1,28 +1,25 @@
 ---
 title: Lean-þarfarakning úr sölupöntun
 description: Þetta ferli leggur áherslu á villuleit fyrir þarfarakningartré úr sölulínu þar sem varan er framleidd með kanban.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e429fef6101f611d7a2c1b5323d6fe1e39d1cdd3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8eca21f8bd988ca352c07e839295b3edd9669929
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430300"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580625"
 ---
 # <a name="lean-pegging-from-sales-orders"></a>Lean-þarfarakning úr sölupöntun
 
@@ -57,3 +54,6 @@ ms.locfileid: "4430300"
 5. Veljið í trénu 'Sölulínu 000832\Kanban 000558\útgáfa fyrir L0001\Kanban 000559'.
     * Vinnslan fyrir kanban-vinnslan númer tvö er líka áætlaðar, þar sem allt þarfarakningartré er áætluð. Athugið að stöðu kanban var breytt úr Ekki áætluð í áætlað.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

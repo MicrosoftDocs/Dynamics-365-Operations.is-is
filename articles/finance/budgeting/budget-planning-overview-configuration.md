@@ -2,27 +2,27 @@
 title: Yfirlit fjárhagsáætlunargerðar
 description: Þetta efni lýsir gerð fjárhagsáætlunar. Það inniheldur upplýsingar sem geta hjálpað við að skilgreina fjárhagsáætlunargerð og setja upp ferli fjárhagsáætlunargerðar.
 author: panolte
-manager: AnnBe
 ms.date: 01/11/2018
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 17251
+ms.custom:
+- "17251"
+- intro-internal
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 847ae83102345a8005a8b2a630805d22ccfd736d
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 391f62f42e482f79420bbe1bbd4cec4930790229
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019229"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982066"
 ---
 # <a name="budget-planning-overview"></a>Yfirlit fjárhagsáætlunargerðar
 
@@ -42,7 +42,7 @@ Fyrirtæki getur skilgreint fjárhagsáætlunargerðar og sett síðan upp ferli
 - **Stig fjárhagsáætlunargerðar** – stig Fjárhagsáætlunargerðar skilgreina skrefin sem fjárhagsáætlun fylgir frá upphafi til endanlegs samþykkis. Áætlunarstig áætlunar er skipað í verkflæði fjárhagsáætlunargerðar.
 - **Verkflæði fjárhagsáætlunargerðar** – verkflæði Fjárhagsáætlunargerð er samsett úr og skilgreinir stig fjárhagsáætlunargerðar. verkflæði fjárhagsáætlunargerðar eru tengdar við verkflæði fyrir fjárhagsáætlanir. Verkflæði fjárhagsáætlunar eru sjálfvirkar og handvirkar vinnslur sem flytja fjárhagsáætlanir í gegnum stig fjárhagsáætlunargerðar.
 
-[![Hugtök fjárhagsáætlunargerðar](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
+[![Hugtök fjárhagsáætlunargerðar.](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
 ### <a name="typical-tasks"></a>Dæmigerð verkefni
 
@@ -67,17 +67,17 @@ Valfrjálst en ráðlagt fyrsta skrefi er að stofna skema sem sýnir ferli fyri
 
 Eftirfarandi skýringarmynd sýnir almennan dæmi þar sem aðskilda verkflæði fjárhagsáætlunargerðar eru stofnaðar fyrir mismunandi stig fyrirtækisins. Stig eru skilgreind í hverju verkflæði og tiltekin tilvikum er úthlutað á hverju stigi til að halda gögnum fjárhagsáætlunar. Verkum er lokið til að flytja gögn úr einu stigi í næsta. Til dæmis upphæðir er hægt að úthluta eða steypt saman í mismunandi lykla, samþykki eða öðrum skoðunarferlum. Á þessari mynd sýnir skáletraður texti aðstæður sem er ekki hægt að breyta í stigi, eða gögn sem eru söguleg eða hefur verið samþykkt á fyrra stig og því ætti ekki að breyta.
 
-[![Almennt skema fjárhagsáætlunargerðar](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
+[![Almennt skema fjárhagsáætlunargerðar.](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
 Eftirfarandi mynd sýnir dæmi þar sem höfuðstöðvar fyrirtækis áætla grunnlínuupphæðir fyrir upphaflega fjárhagsáætlunar og dreifa þeim á söludeildirnar. Söludeildirnar meta síðan og senda sína spá aftur í höfuðstöðvar þar sem fjárhagsáætlunarstjóri birtir og leiðréttir spá. Loks sendir fjárhagsáætlunarstjóri leiðrétt upphæð fjárhagsáætlunar til framkvæmdastjóra fyrir yfirferð (CFO), síðustu leiðréttingar og samþykki.
 
-[![Dæmi um skema fjárhagsáætlunargerðar](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
+[![Dæmi um skema fjárhagsáætlunargerðar.](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
 ### <a name="organization-hierarchy-for-budget-planning"></a>Stigveldi fyrirtækis fyrir fjárhagsáætlunargerð
 
 Á **stigveldi Fyrirtækis** síðu er hægt að tilgreina stigveldi fyrirtækis sem stigveldi fjárhagsáætlunargerðar fyrir hverju ferli fjárhagsáætlunargerðar. Stigveldi fjárhagsáætlunargerðar þarf ekki að samsvara stöðluðu stigveldi fyrirtækis sem notað er í öðrum tilgangi. Þar sem þetta stigveldið er notuð til að safna og dreifa gögn, gætirðu vijað nota annað skipulag. Í dæmaskema eru söludeildirnar undir stigi höfuðstöðvar sem inniheldur deildir fjárhagsáætlunar og fjármála. Skipanin sem er notuð til að stjórna aðgerðum fyrir söludeildirnar er líklega ólík þessu skipulagi. Aðeins eitt stigveldi fyrirtækis getur verið úthlutað á hvert ferli fjárhagsáætlunargerðar.
 
-Nánari upplýsingar, sjá [Fyrirtæki og stigveldi fyrirtækis](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
+Nánari upplýsingar, sjá [Fyrirtæki og stigveldi fyrirtækis](../../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Notandaöryggi
 
@@ -95,7 +95,7 @@ Góð regla er að stofna verkflæði fjárhagsáætlunargerðar fyrir hvert sti
 
 Þú stofnar verkflæði fjárhagsáætlunar fyrir fjárhagsáætlunargerð á síðunni **Verkflæði fjárhagsáætlunargerðar**. Ferlinu svipar til ferlis til að stofna önnur verkflæði. Eftirfarandi skýringarmynd sýnir dæmi um verkflæði fyrir höfuðstöðvarnar.
 
-[![Verkflæði fjárhagsáætlunar fyrir fjárhagsáætlun](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
+[![Verkflæði fjárhagsáætlunar fyrir fjárhagsáætlun.](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
 Verkflæðið inniheldur eftirfarandi einingar:
 
@@ -143,11 +143,11 @@ Stigsúthlutanir eru notaðar til að úthluta sjálfkrafa línum fjárhagsáæt
 
 Í dæmaskemað sem birtist fyrr í þessu efni, er úthlutun gerð til að flytja upphæðir úr fjárhagsáætlun og aðstæðum á stiginu „Grunnlína” fyrir höfuðstöðvar í aðra fjárhagsáætlun og aðstæður á stiginu „Mat” fyrir söludeildirnar. Eftirfarandi skýringarmynd sýnir viðeigandi hluta dæmaskema.
 
-[![Vöruúthlutun](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
+[![Vöruúthlutun.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 
 Að auki, í dæmaskemanu, er uppsöfnun gerð úr fjárhagsáætlunum og aðstæðum í stiginu „Sent inn” fyrir söludeildina í yfiráætlun í stiginu „Samantekt” fyrir höfuðstöðvarnar. Eftirfarandi skýringarmynd sýnir viðeigandi hluta dæmaskema.
 
-[![Uppsöfnun](./media/aggregation-109x300.png)](./media/aggregation.png)
+[![Uppsöfnun.](./media/aggregation-109x300.png)](./media/aggregation.png)
 
 ### <a name="priorities"></a>Forgangur
 
@@ -165,7 +165,7 @@ Auk dálka fyrir áætlunarupphæðir, er hægt að skilgreina dálka fyrir verk
 
 Fyrir t.d. skema, gætirðu viljað búa til dálka fyrir atburðarásina „PY Sala“, „Samninga“ og „Spá“. (Eftirfarandi mynd sýnir viðkomandi hluta skemans.) Síðan geturðu sundurgreint eina eða allar þessar aðstæður í aðskilda dálka fyrir hvern ársfjórðung fjárhagsárs, þannig að stjórnandi söludeildar getur nákvæmlega fært inn spárupphæðir fyrir hvert tímabil.
 
-[![Dálkar](./media/columns.png)](./media/columns.png)
+[![Lýsing á hlutum í skema til að bæta við dálkum.](./media/columns.png)](./media/columns.png)
 
 Þú tilgreinir einnig hvort hægt sé að breyta hverri útlitseiningu (dálki), og hvort hún sé tiltæk í vinnublaðssniðmáti sem er stofnuð fyrir það útlit. Fyrir dæmaskemað, í útliti sem er notað fyrir stigið „Mat”, eru dálkarnir „Spár” breytanlegir, en dálkarnir „PY-sala” og „Samningar” eru skrifvarðir.
 
@@ -203,4 +203,7 @@ Einnig er hægt að nota valmyndina **Aðgerðir** til að stofna nýtt ferli me
 
 Annað gagnlegt skipun í **Aðgerðir** valmyndinni er **Skoða stöðu ferlis fjárhagsáætlunar**. Þessi skipun sýnir myndrænt fjárhagsáætlunargerðir í ferli, með viðeigandi gögnum, eins og verkflæðisstöðu áætlana, samantektir eftir upphæð og einingu og eins smells flettingu í fjárhagsáætlunargerðir sjálfar.
 
-[![Ferli fjárhagsáætlunargerðar](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+[![Staða ferlis fjárhagsáætlunar.](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
-ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
-ms.translationtype: MT
+ms.openlocfilehash: b785248c31c2cc4feb5cedd77264f36bfe927e0e
+ms.sourcegitcommit: 10b85a09e8a550155a69aa2a8877a7c88b887242
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "8024568"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "8014491"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Dynamics 365 Human Resources sameining innviða - Útgáfa 10.0.25 uppfærsla
 
-Útgáfan 10.0.25 kemur með fyrstu bylgju getu í samruna innviða. Við samruna innviða, Microsoft Dynamics 365 Human Resources verður sameinað innviðum Fjármála- og rekstrarsviðs. Hins vegar mun það áfram hafa leyfi sem sjálfstæð umsókn, eins og Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Fyrir frekari upplýsingar um innviðasamruna, sjá [Dynamics 365 Human Resources Algengar spurningar um sameiningu innviða](../human-resources/hr-infrastructure-merge-faq.md).
+Útgáfan 10.0.25 kemur með fyrstu bylgju getu í samruna innviða. Við samruna innviða, Microsoft Dynamics 365 Human Resources verður sameinað innviðum Fjármála- og rekstrarsviðs. Hins vegar verður það áfram leyfilegt sem sjálfstæð umsókn, eins og Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Fyrir frekari upplýsingar um innviðasamruna, sjá [Dynamics 365 Human Resources Algengar spurningar um sameiningu innviða](../human-resources/hr-infrastructure-merge-faq.md).
 
 Sameiningin mun veita mannauðsnotendum samræmi á eftirfarandi hátt:
 
@@ -53,7 +53,7 @@ Sameiningin mun veita mannauðsnotendum samræmi á eftirfarandi hátt:
     | Prenta umsagnir um frammistöðu | Þú getur prentað árangursdóma á PDF formi. | Almennt tiltækt | 
     | Sérsniðnir tenglar inn **Sjálfsafgreiðslustjóri** | Þú getur búið til sérsniðna tengla sem birtast í **Tengdir tenglar** kafla af **Sjálfsafgreiðslustjóri**. | Almennt tiltækt | 
     | Launayfirlit þvert á fyrirtæki | Notendur geta skoðað bótaáætlanir í **Sjálfsafgreiðslustjóri** yfir alla lögaðila, án þess að þurfa að skipta um fyrirtæki. | Almennt tiltækt | 
-    | Stilltu mörg launastig eftir starfi\*&dagger; | Störf styðja nú mörg launastig. | Forútgáfa | 
+    | Stilltu mörg launastig eftir starfi\*&dagger; | Störf styðja nú mörg launastig. | Almennt tiltækt | 
     | Verkefnastjórnun\* | Þú getur búið til gátlista og verkefni fyrir um borð, brottför og umskipti. | Forútgáfa | 
     | Straumlínulöguð starfsmannafærsla | Þessi eiginleiki veitir uppfærða notendaupplifun á núverandi **Vinnumaður** síðu. | Forútgáfa | 
     | Endurbætur á upplifun notanda í mannauði | Sjá töflu í næsta kafla.  | Forútgáfa | 
@@ -66,6 +66,7 @@ Sameiningin mun veita mannauðsnotendum samræmi á eftirfarandi hátt:
 
 | Heiti eiginleika | Yfirlit | 
 |--------------|----------| 
+| Ítarlegri aðgangur | Aðgangur að starfsmönnum er takmarkaður miðað við lögaðila. | 
 | Eyða ráðningu | Hægt er að eyða ráðningu starfsmanns. | 
 | Vinnufjölskyldur | Þú getur fylgst með hópi starfa sem fela í sér svipaða vinnu og krefjast svipaðrar þjálfunar, færni, þekkingar og sérfræðiþekkingar. | 
 | Fleiri atvinnusvið | Eftirfarandi reitum var bætt við: **Atvinnuflokkur**, **atvinnu**, og **Atvinnustaða**. | 
@@ -75,5 +76,5 @@ Sameiningin mun veita mannauðsnotendum samræmi á eftirfarandi hátt:
 | Skrár að renna út í **Starfsmannastjórnun** vinnurými | Þessi eiginleiki veitir lista yfir hluti sem eru útrunnir eða munu renna út fyrir skírteini, auðkenni, skilorð, skimun eða próf. | 
 | **Staðfesting stigveldis** síðu | Athugun er gerð fyrir hringlaga tilvísanir í stigveldi stöðulínu. | 
 | Landssértækar launaupplýsingar | Fleiri launareitir eru fáanlegir á **Atvinna verkamanna** síðu, allt eftir landi eða svæði lögaðilans þar sem starfsmenn eru starfandi. | 
-| Endurbætur á regluvörsluskýrslu | Viðbótartilkynningarmöguleikar eru í boði fyrir EEO-1, Vets 4212 og OSHA300a. | 
+| Endurbætur á reglufylgni | Viðbótartilkynningarmöguleikar eru í boði fyrir EEO-1, Vets 4212 og OSHA300a. | 
 | Uppfærslur á **Starfsmannastjórnun** vinnurými | Uppfærslur hafa verið gerðar til að fylgjast með breytingum á heimilisfangi og skrám sem renna út. Að auki birta nýir flipar starfsmanns- og stöðuaðgerðir. | 

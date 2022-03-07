@@ -3,19 +3,24 @@ title: Formúlutungumál í rafrænni skýrslugerð
 description: Þetta efni inniheldur upplýsingar um hvernig á að nota formúlutungumálið í rafrænni skýrslugerð (ER).
 author: NickSelin
 ms.date: 05/04/2020
+ms.topic: article
+ms.prod: ''
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ef0b9e411fabca1427b985eb51640bfd2a0d59318a456cb5b1ecdea1445fab5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d2015405f3c7f89ba36f811ca125f3a73bc13c38
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750625"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753265"
 ---
 # <a name="electronic-reporting-formula-language"></a>Formúlutungumál í rafrænni skýrslugerð
 
@@ -33,13 +38,13 @@ Segðir rafrænnar skýrslugerðar geta innihaldið hverja sem er eða allar af 
 - [Slóðir](#Paths)
 - [Aðgerðir](#Functions)
 
-## <a name="constants"></a><a name="Constants"></a>Fastagildi
+## <a name=""></a><a name="Constants">Fastagildi</a>
 
 Þegar þú hannar segð getur þú notað texta og tölfræðilega fasta (það er gildi sem ekki er reiknað út). Til dæmis, tölulegt fastagildi `VALUE ("100") + 20` notar tölulegt fastagildið **20** og fastagildi strengs **"100"** og skilar tölulegu gildi **120**.
 
 Formúluhönnuður rafrænnar skýrslugerðar styður lausnarrunur. Þess vegna er hægt að tilgreina segðarstreng sem ætti að meðhöndla á annan hátt. Til dæmis skilar segðin `"Leo Tolstoy ""War and Peace"" Volume 1"` textastrengnum **Leo Tolstoy „Stríð og friður“ 1. bindi**.
 
-## <a name="operators"></a><a name="Operators"></a>Virknitákn
+## <a name=""></a><a name="Operators">Virknitákn</a>
 
 Eftirfarandi tafla sýnir reikniaðgerðir sem þú getur notað til að gera grunn stærðfræðilegar aðgerðir, svo sem viðbót, frádráttur, margföldun og deiling.
 
@@ -83,9 +88,9 @@ Röðin sem hlutar samsettrar segðar eru metnir í er mikilvæg. Til dæmis er 
 
 Ef segð felur í sér margar aðgerðir sem hafa sama forgang, eru þessar aðgerðir metnar frá vinstri til hægri. Til dæmis, er segðin `1 + 6 / 2 \* 3 > 5` skilar **satt**. Við mælum með því að þú notar sviga til að tilgreina sérstaklega viðkomandi röð aðgerða í segðum, svo að segðirnar séu auðveldari að lesa og viðhalda.
 
-## <a name="references"></a><a name="References"></a>Tilvísanir
+## <a name=""></a><a name="References">Tilvísanir</a>
 
-Öll gagnasöfn í núverandi hluta rafrænnar skýrslugerðar sem eru tiltækar við hönnun segðar geta verið notaðir sem tilvísanir með heiti. Núverandi ER íhlutur getur verið annaðhvort líkanavörpun eða sniði. Til dæmis inniheldur núverandi líkanavörpun rafrænnar skýrslugerðar **ReportingDate** gagnagjafann, sem skilar gildi gagnagerðarinnar [*DateTime*](er-formula-supported-data-types-primitive.md#datetime). Til að forsníða þetta gildi á réttan hátt í skjalinu sem er búið til geturðu vísað til gagnagjafans í segðinni sem `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
+Öll gagnasöfn í núverandi hluta rafrænnar skýrslugerðar sem eru tiltækar við hönnun segðar geta verið notaðir sem tilvísanir með heiti. Núverandi ER íhlutur getur verið annaðhvort líkanavörpun eða sniði. Til dæmis inniheldur gildandi ER-líkanavörpun gagnagjafann **ReportingDate**, sem skilar gildi gagnagerðar *DateTime*. Til að forsníða þetta gildi á réttan hátt í skjalinu sem er búið til geturðu vísað til gagnagjafans í segðinni sem `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
 
 Allir stafir í heiti á tilvísandi gagnagjafa sem ekki tákna staf í stafrófinu skulu hafa einfaldar gæsalappir (') fyrir framan. Ef heitið á tilvísandi gagnagjafa inniheldur að minnsta kosti eitt tákn sem ekki táknar stafina í stafrófinu, skal nafnið vera fyrir innan einfaldra gæsalappa. Til dæmis geta þessi tákn sem eru ekki í stafrófinu verið greinarmerki eða önnur skrifuð tákn. Hér eru nokkur dæmi:
 
@@ -94,7 +99,7 @@ Allir stafir í heiti á tilvísandi gagnagjafa sem ekki tákna staf í stafróf
 
 Ef aðferðir gagnagjafa forrits hafa breytur er eftirfarandi málskipan notuð til að kalla á þessar aðferðir:
 
-- Ef **isLanguageRTL** aðferðin í gagnagjafa **Kerfisins** hefur **EN-US** færibreytu af gagnagerðinni [*Strengur*](er-formula-supported-data-types-primitive.md#string), þá skal vísa þessari aðferð í segð rafrænnar skýrslugerðar sem `System.isLanguageRTL("EN-US")`.
+- Ef aðferðin **isLanguageRTL** í gagnagjafa **Kerfisins** hefur **EN-US** færibreytu af gagnagerðinni *Strengur* skal vísa þessari aðferð í ER-segð sem `System.isLanguageRTL("EN-US")`.
 - Tilvitnunarmerki eru ekki nauðsynleg þegar heiti aðferðar inniheldur aðeins tölustafatákn. Hins vegar er þeirra krafist fyrir töfluaðferð ef nafnið inniheldur sviga.
 
 Þegar gagnagjafanum **Kerfi** er bætt við ER-vörpun sem vísar til forritaflokksins **Altækt** skilar segðin `System.isLanguageRTL("EN-US ")` *Boolean*-gildinu **FALSE**. Hin breytta segð `System.isLanguageRTL("AR")` skilar *Boolean*-gildinu **SATT**.
@@ -102,9 +107,9 @@ Ef aðferðir gagnagjafa forrits hafa breytur er eftirfarandi málskipan notuð 
 Þú getur takmarkað hvernig þessi gildi eru samþykkt í breytur fyrir aðferð af þessari gerð:
 
 - Aðeins fastar geta verið notaðir í aðferðum af þessari gerð. Gildi fastanna eru skilgreind á hönnunartíma.
-- Aðeins [frumstæðar](er-formula-supported-data-types-primitive.md) (grunn) gagnagerðir eru studdar fyrir breytur af þessu tagi. Frumstæðu gagnagerðirnar eru *heiltala*, *rauntala*, *Boolean* og *strengur*.
+- Aðeins frumstæðar (grunn) gagnagerðir eru studdar fyrir breytur af þessu tagi. Frumstæðu gagnagerðirnar eru *heiltala*, *rauntala*, *Boolean* og *strengur*.
 
-## <a name="paths"></a><a name="Paths"></a>Slóðir
+## <a name=""></a><a name="Paths">Slóðir</a>
 
 Þegar segð vísar í skipulögð gagnagjafa, geturðu nota skilgreiningu slóðar til að velja tiltekna frumstæðar einingu þess gagnagjafa. Stafurinn punktur (.) er notuð til að aðskilja einstakar einingar skipulagðs gagnagjafa. Til dæmis, núverandi ER-líkanavörpun inniheldur **InvoiceTransactions** gagnagjafa og þessi gögn skila lista yfir skrár. Uppsetningin **InvoiceTransactions** inniheldur **AmountDebit** og **AmountCredit** svæðin og bæði svæðin skila tölugildum. Þess vegna getur þú hannað eftirfarandi segð til að reikna út reiknaða upphæð: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. Skilgreiningin `InvoiceTransactions.AmountDebit` í þessari segð er slóðin sem er notuð til að fá aðgang að reitnum **AmountDebit** í gagnagjafanum **InvoiceTransactions** af gerðinni *Skráalisti*.
 
@@ -112,19 +117,19 @@ Ef aðferðir gagnagjafa forrits hafa breytur er eftirfarandi málskipan notuð 
 
 Ef slóð skipulögð gagnaheimild byrjar með „at“ merki (@), þá er það afstæður slóð. Merkið „at“ er sýnt í stað þess hluta sem eftir er af algeru slóð stigveldisins tréskipulags sem er notað. Eftirfarandi skýringarmynd sýnir dæmi. Hér sýnir algilda slóðin `Ledger.'accountingCurrency()'` að gildi bókhaldsgjaldmiðils úr gagnagjafanum **Fjárhagur** er skráð í reitinn **AccountingCurrency** í gagnalíkaninu.
 
-![Dæmi um fulla vefslóð á hönnuðarsíðu líkanavörpunar rafrænnar skýrslugerðar.](./media/ER-FormulaLanguage-AbsolutePath.png)
+![Dæmi um algilda slóð á hönnuðarsíðu ER-líkanavörpunar](./media/ER-FormulaLanguage-AbsolutePath.png)
 
 Dæmið á eftirfarandi mynd sýnir hvernig tengd slóð er notuð. Tengda slóðin `@.AccountNum` sýnir að reiturinn **AccountNum** í gagnagjafanum **Intrastat** (sem birtist einu stigi fyrir ofan reitinn **AccountNum** í stigveldistré gagnalíkansins) er notaður til að skrá reikningsnúmer viðskiptavinar eða lánardrottins í reitinn **AccountNum** í gagnalíkaninu.
 
-![Dæmi um afstæða vefslóð á hönnuðarsíðu líkanavörpunar rafrænnar skýrslugerðar.](./media/ER-FormulaLanguage-RelativePath1.png)
+![Dæmi um tengda slóð á hönnuðarsíðu ER-líkanavörpunar](./media/ER-FormulaLanguage-RelativePath1.png)
 
 Það sem eftir er af algildu slóðinni er einnig sýnt í [ER-formúluritill](general-electronic-reporting-formula-designer.md).
 
-![Eftirstandandi hluti af afstæðri vefslóð á hönnuðarsíðu formúlu rafrænnar skýrslugerðar.](./media/ER-FormulaLanguage-RelativePath2.png)
+![Eftirstandandi hluti af algildu slóðinni á hönnunarsíðu ER-formúlu](./media/ER-FormulaLanguage-RelativePath2.png)
 
 Frekari upplýsingar er að finna í [Nota tengda slóð í gagnabindingu líkana rafrænnar skýrslugerðar](relative-path-data-bindings-er-models-format.md).
 
-## <a name="functions"></a><a name="Functions"></a>Aðgerðir
+## <a name=""></a><a name="Functions">Aðgerðir</a>
 
 Innbyggðar aðgerðir ER geta verið notaðar í ER-segðum. Allir gagnagjafar segðarsamhengis (þ.e.a.s., núverandi ER-líkanavörpun eða ER-snið) er hægt að nota sem breytur kallaðgerða, í samræmi við lista yfir frumbreytur fyrir kallaðgerðir. Fastar geta einnig verið notaðir sem breytur kallaðgerða. Til dæmis, núverandi ER-líkanavörpun inniheldur **InvoiceTransactions** gagnagjafa og þessi gögn skila lista yfir skrár. Uppsetningin **InvoiceTransactions** inniheldur **AmountDebit** og **AmountCredit** svæðin og bæði svæðin skila tölugildum. Þar af leiðandi er hægt að hanna tjáningu til að reikna út reikningsfærða upphæð sem notar innbyggða ER-námundunaraðgerð: `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
 
@@ -168,8 +173,5 @@ IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded
 
 [Listi yfir virkni rafrænnar skýrslugerðar lengdur](general-electronic-reporting-formulas-list-extension.md)
 
-[Studdar frumstæðar gagnagerðir](er-formula-supported-data-types-primitive.md)
-
-[Studdar samsettar gagnagerðir](er-formula-supported-data-types-composite.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

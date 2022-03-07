@@ -1,29 +1,28 @@
 ---
 title: Heimasíða reiðufjár- og bankastjórnunar
 description: Reiðufjár- og bankastjórnun er hægt að nota til að stýra bankareikningum lögaðila og fjármálagerningum sem tengjast viðkomandi bankareikningum.
-author: panolte
-manager: AnnBe
+author: roschlom
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: 21941
+ms.custom:
+- "21941"
+- intro-internal
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: panolte
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88d7f70084d035354d199be95b5c55ce7afff7b7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: de37cc3df673a672a091ffe90ca543fae77bc9d5
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4459266"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883695"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Heimasíða reiðufjár- og bankastjórnunar
 
@@ -35,7 +34,7 @@ Reiðufjár- og bankastjórnun er hægt að nota til að stýra bankareikningum 
 
 **Viðskiptaferli**
 
-[![Viðskiptaferli](./media/Cash-process.PNG)](./media/Cash-process.PNG)
+[![Viðskiptaferli.](./media/Cash-process.PNG)](./media/Cash-process.PNG)
 
 -   [Staðgreiðsluafslættir](cash-discounts.md)
 -   [Uppgjörsyfirlit](settlement-overview.md)
@@ -86,7 +85,7 @@ Reiðufjár- og bankastjórnun er hægt að nota til að stýra bankareikningum 
 
 #### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 
-Í [útgáfuáætlunum Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) sérðu hvaða nýju eiginleikar hafa verið fyrirhugaðir. 
+Í [útgáfuáætlunum Microsoft Dynamics 365](/dynamics365/release-plans/) sérðu hvaða nýju eiginleikar hafa verið fyrirhugaðir. 
 
 #### <a name="blogs"></a>Blogg
 
@@ -100,3 +99,6 @@ Frekari aðstoð er í boði í verkleiðbeiningum í Finance. Smellið á hnapp
 #### <a name="videos"></a>Myndbönd
 
 Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube-rásinni](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

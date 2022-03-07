@@ -2,29 +2,28 @@
 title: Yfirlit yfir kostnaðarútgáfur
 description: Þessi grein veitir upplýsingar um kostnaðarútgáfur, hvernig á að viðhalda þeim og tegundir gagna sem þú getur haft í þeim. Grunntilgangur kostnaðarútgáfu er að innihalda kostnaðarfærslur um hluti, kostnaðarflokka, og útreikningsformúlur fyrir óbeinan kostnað.
 author: AndersGirke
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: 54532
+ms.custom:
+- "54532"
+- intro-internal
 ms.assetid: cd239da5-f434-4d1b-8196-5414c888d76d
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cefee7d678789f462eedbf9f9a3fbc9b591e25a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3deedfeef864cf2759ec3adfb8a11941f86c59410c368c10a44f2d953aa1c8e2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430622"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745623"
 ---
 # <a name="costing-versions-overview"></a>Yfirlit yfir kostnaðarútgáfur
 
@@ -68,3 +67,6 @@ Innkaupsverðsfærslurnar eru einnig aðeins notaðar til upplýsingar. Með þv
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

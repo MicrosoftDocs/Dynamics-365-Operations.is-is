@@ -2,28 +2,25 @@
 title: Skrá efnisnotkun með fartæki
 description: Þetta efnisatriði lýsir verkflæði sem gerir kleift að skrá hráefnanotkun í framleiðslu með því að nota lófatæki.
 author: johanhoffmann
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1706093
 ms.assetid: 75ee68e0-4b9f-4f4d-b286-f498e0eb73fa
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67fbb8eebb637a96638c574373441213c66e9ddc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 1aeb527255358ecafafcb64185cb9dcb31243d499c533f9c9390d79658534e3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430614"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777864"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Skrá efnisnotkun með fartæki
 
@@ -31,16 +28,15 @@ ms.locfileid: "4430614"
 
 Þetta efnisatriði lýsir verkflæði sem gerir kleift að skrá hráefnanotkun í framleiðslu með því að nota lófatæki.
 
-<a name="introduction"></a>Inngangur
-------------
+## <a name="introduction"></a>Inngangur
 
-Þessi verkflæði er við hæfi ef strangar kröfur eru um rekjanleika efnis. Í þeim tilvikum verður að skrá nákvæman tíma og magn í hráefnanotkun svo hægt sé að viðhalda rekjanleika þeirra. Það má bera þetta ferli saman við bakfærslukostnaðaraðferðir, þar sem það líður ákveðinn tími milli skráningar og þegar raunveruleg notkun á sér stað. Þetta skýrir hvers vegna er ekki hægt að nota áætlun fyrir sjálfvirka notkun fyrir sum hráefni sem hafa kröfu um rekjanleika. Lítum á einfalt dæmi sem útskýrir hvernig á að setja upp verkflæði til að virkja skráningu hráefnisnotkunar í framleiðslu með handfrjálsu tæki. [![setja upp verkflæði til að virkja skráningu hráefnisnotkunar með handfrjálsu tæki](./media/scenario3.png)](./media/scenario3.png)
+Þessi verkflæði er við hæfi ef strangar kröfur eru um rekjanleika efnis. Í þeim tilvikum verður að skrá nákvæman tíma og magn í hráefnanotkun svo hægt sé að viðhalda rekjanleika þeirra. Það má bera þetta ferli saman við bakfærslukostnaðaraðferðir, þar sem það líður ákveðinn tími milli skráningar og þegar raunveruleg notkun á sér stað. Þetta skýrir hvers vegna er ekki hægt að nota áætlun fyrir sjálfvirka notkun fyrir sum hráefni sem hafa kröfu um rekjanleika. Lítum á einfalt dæmi sem útskýrir hvernig á að setja upp verkflæði til að virkja skráningu hráefnisnotkunar í framleiðslu með handfrjálsu tæki. [![setja upp verkflæði til að virkja skráningu hráefnisnotkunar með handfrjálsu tæki.](./media/scenario3.png)](./media/scenario3.png)
 
 ### <a name="scenario-details"></a>Upplýsingar um dæmi
 
 Stöðugt framleiðsluferli (5) notar runustýrða hráefnið RM-100. Hráefnið er tiltækt í lagerbirgðum í staðsetningu Laust 001 (1) á númeraplötu PL-1 með tvær runur, B1 og B2, hvor tveggja með 50 kg magn. Vöruhúsavinna (2) er útgefin og unnin fyrir RM-100 og hráefnið er tekið til úr Laust-001 í staðsetningu framleiðsluinntaks PIL-01 (3), sem er skilgreind sem staðsetning sem er ekki númeraplötustýrð. Starfsmaður á vél vigtar hráefnið út úr staðsetningu framleiðsluinntaks (3) og skráir þyngd og rununúmer eftir notkun (4). Úr staðsetningu framleiðsluinntaks er hluta af hráefninu bætt handvirkt við framleiðsluferlið með skilgreindu millibili. Þegar starfsmaður á vél bætir við hráefni er það vigtað á vigt og rununúmerið er skráð.
 
-## <a name="set-up-theworkflow-to-register-consumption-using-a-handheld-device"></a>Setja upp verkflæðið til að skrá notkun með handfrjálsu tæki
+## <a name="set-up-the-workflow-to-register-consumption-using-a-handheld-device"></a>Setja upp verkflæðið til að skrá notkun með handfrjálsu tæki
 Búðu til fullunna afurð, FG-100, með uppskrift sem inniheldur runustýrða hráefnið RM-100. Bætið við tveimur runum, B1 og B2, af RM-100 í magninu 100 á staðsetningu: Bulk-001 á númeraplötu: PL-1. Losunarreglan í uppskriftarlínunni fyrir RM-100 er stillt á **Handvirkt**. Setjið staðsetningu framleiðsluinntaks á PIL-01. Það er hægt að gera með því að velja þessa staðsetningu sem sjálfgefna staðsetningu framleiðsluinntaks í vöruhúsi 51.
 
 1.  Nýtt valmyndaratriði fartækis stofnað: 
@@ -56,7 +52,7 @@ Búðu til fullunna afurð, FG-100, með uppskrift sem inniheldur runustýrða h
 -    **Vörunúmer** - FG-100 
 -    **Svæði** - 5 
 -    **Vöruhús** - 51 
--    **Magn** - 150
+-    **Magn** - 150
 
 Framleiðslupöntun er **Áætluð** og **Útgefin** og vöruhúsavinna er stofnuð.
 
@@ -68,7 +64,7 @@ Framleiðslupöntun er **Áætluð** og **Útgefin** og vöruhúsavinna er stofn
 
 Eftir að framleiðslupöntun hefur verið ræst er hægt að skrá hráefnisnotkun með verkflæðinu fyrir lófatækið. Við skulum byrja á því að skrá notkun upp á 25 pund af runu B1.
 
-6.  Veljið valmyndaratriðið  **Skrá efni** **Notkun** í valmyndinni fyrir handfrjálsa tækið og sláið inn eftirfarandi upplýsingar: 
+6.  Veljið valmyndaratriðið **Skrá efni** **Notkun** í valmyndinni fyrir handfrjálsa tækið og sláið inn eftirfarandi upplýsingar: 
 
 -    Númer framleiðslupöntunarinnar. 
 -    Staðsetningin þar sem hráefnið verður notað er í þessu tilviki PIL-01. 
@@ -92,3 +88,6 @@ Nú er hægt að velja að halda áfram skráninguna, til dæmis fyrir rununúme
 -   Hægt er að ofnota hráefni. Sem dæmi um þetta má nefna að ef ætlað er að nota hráefni með magnið 50 kg er hægt að ofnota það með magni sem til dæmis nemur 52 kg.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

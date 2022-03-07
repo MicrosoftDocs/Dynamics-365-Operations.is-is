@@ -2,11 +2,9 @@
 title: Búa til og skilgreina auknar ábyrgðir
 description: Þetta efnisatriði fjallar um auknar ábyrgðir og lýsir því hvernig á að búa til og skilgreina þær í Microsoft Dynamics 365 Commerce.
 author: sijoshi
-manager: annbe
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,14 +15,14 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 772dc1fdda7c34448ffa946237f717e657df6d83d8fda9336049e79d19ed1af0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965118"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745381"
 ---
-# <a name="create-and-configure-extended-warranties"></a>Búa til og skilgreina auknar ábyrgðir
+# <a name="create-and-configure-extended-warranties"></a>Búa til og skilgreina framlengdar ábyrgðir
 
 [!include [banner](includes/banner.md)]
 
@@ -83,7 +81,7 @@ Til að búa til vöruábyrgð í Commerce skal fylgja þessum skrefum.
 
     Fyrir tveggja ára ábyrgð skal til dæmis stilla reitinn **Tímaeining** á **Ár** og reitinn **Tímalengd** á **2**. Einnig er hægt að stilla reitinn **Tímaeining** á **Mánuður/mánuðir** og reitinn **Tímalengd** á **24** eins og sýnt er á eftirfarandi skýringarmynd.
 
-    ![Upplýsingasíða afurðar fyrir vöruábyrgð](./media/ew-time-properties.png)
+    ![Upplýsingasíða afurðar fyrir vöruábyrgð.](./media/ew-time-properties.png)
 
 1. Veljið **Vista** til að vista vöruábyrgðina.
 1. Losa afurð með ábyrgð til fyrirtækisins svo að hægt sé að selja hana. Frekari upplýsingar er að finna í [Setja upp smásöluafurðir](set-up-retail-products.md).
@@ -96,7 +94,7 @@ Til að búa til vöruábyrgð í Commerce skal fylgja þessum skrefum.
 
     Eftirfarandi skýringarmynd sýnir til dæmis að reiturinn **Grunnur verðbils** er stilltur á **Grunnverð**, reiturinn **Lægri mörk** er stilltur á $500 og reiturinn **Efri mörk** er stilltur á $1000.
     
-    ![Upplýsingasíða um losaðar afurðir fyrir vöruábyrgð](./media/ew-release-product-details.png)
+    ![Upplýsingasíða um losaðar afurðir fyrir vöruábyrgð.](./media/ew-release-product-details.png)
 
 1. Komið vöruábyrgðinni fyrir í rásinni þar sem hún verður seld. Frekari upplýsingar er að finna í [Setja upp vöruúrval](set-up-assortments.md).
 
@@ -163,11 +161,11 @@ Tvær aðgerðir sölustaðar gera sölufulltrúum kleift að selja ábyrgðarv�
 
 Eftirfarandi skýringarmynd sýnir dæmi um síðu afgreiðslukassa þar sem beðið er um að bæta við vöruábyrgð fyrir núverandi kaup á ábyrgðarhæfri vöru.
 
-![Dæmi um kvaðningu um að bæta við vöruábyrgð fyrir núverandi kaup](./media/ew-sell-warranty.png)
+![Dæmi um kvaðningu um að bæta við vöruábyrgð fyrir núverandi kaup.](./media/ew-sell-warranty.png)
 
 Eftirfarandi skýringarmynd sýnir dæmi um eiginleikann að bæta við vöruábyrgð fyrir ábyrgðarhæfa vöru sem var áður seld.
 
-![Dæmi um eiginleikann að bæta við vöruábyrgð fyrir áður selda ábyrgðarhæfa vöru](./media/ew-add-warranty-existing.png)
+![Dæmi um eiginleikann að bæta við vöruábyrgð fyrir áður selda ábyrgðarhæfa vöru.](./media/ew-add-warranty-existing.png)
 
 ## <a name="process-warranty-transactions"></a>Vinna úr ábyrgðarfærslum
 
@@ -238,3 +236,6 @@ Aðeins er hægt að finna kvittanir ef sækja-verk er keyrt til að hlaða upp 
 [Setja upp úrval](set-up-assortments.md)
 
 [Yfirlit númeraraða](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

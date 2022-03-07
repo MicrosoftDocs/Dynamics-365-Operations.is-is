@@ -1,23 +1,23 @@
 ---
 title: Færibreytuuppsetning kreditstjórnunar
 description: Þetta efni lýsir valkostunum sem þú getur notað til að stilla lánastjórnun til að uppfylla kröfur fyrirtækisins.
-author: JodiChristiansen
-ms.date: 12/10/2021
+author: mikefalkner
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d8bc4f0a981b75c1b65d51aa1d8fada9c2187e22
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
-ms.translationtype: MT
+ms.openlocfilehash: 4243b7163d822f8b496fb79f6c72cf8d5502ca7e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323411"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835341"
 ---
 # <a name="credit-management-parameters-setup"></a>Færibreytuuppsetning kreditstjórnunar
 
@@ -31,7 +31,7 @@ ms.locfileid: "8323411"
 
 ### <a name="credit-holds"></a>Lán í biðstöðu
 
-- Stillið valkostinn **Leyfa breytingu á virði sölupantana þegar biðstaða pöntunar er losuð** á **Nei** til að krefjast þess að bókunarreglur verði aftur athugaðar ef gildi sölupöntunar (heildarverðs) hefur hækkað frá því að sölupöntunin var losuð úr biðlistanum.
+- Stillið valkostinn **Leyfa breytingu á virði sölupantana þegar biðstaða pöntunar er losuð** á **Nei** til að krefjast þess að bókunarreglur verði aftur athugaðar ef gildi sölupöntunar (heildarverðs) hefur hækkað frá því að sölupöntunin var losuð úr biðlistanum. .
 - Í reitnum **Ástæður niðurfelldra pantana** velurðu losunarástæðuna sem verður sjálfkrafa notuð þegar sölupöntun sem var í lánastýringarbið er felld niður.
 - Stilltu valkostinn **Athuga lánamörk viðskiptavinahópa** á **Já** til að athuga lánamörk viðskiptavinahóps þegar viðskiptavinurinn í sölupöntun tilheyrir lánshópi viðskiptavina. Lánamörk hópsins verða athuguð og síðan, ef það er nægjanlegt, verður lánsfjárhæðin fyrir viðskiptavininn athuguð.
 - Stilltu valkostinn **Athuga lánamörk þegar greiðsluskilmálar eru hækkaðir** á **Já** til að kanna röðun á greiðsluskilmálum til að ákvarða hvort greiðsluskilmálar í sölupöntuninni eru frábrugðnir sjálfgefnum greiðsluskilmálum fyrir viðskiptavininn. Ef nýju greiðsluskilmálarnir eru hærri en upphaflegir greiðsluskilmálar, þá er pöntunin sett á kreditstjórnunarbið.
@@ -50,8 +50,7 @@ ms.locfileid: "8323411"
 
 Ef þú tilgreinir ekki fjölda biðdaga verður kreditreglurnar athugaðar við hvert bókunarskref sem er sett upp til að keyra reglur um lánamál. Ef þú sleppir sölupöntuninni án þess að pósta og keyrir aftur sama pöntunarvinnsluskref, verður kreditreglurnar athugaðar aftur. Til dæmis er pöntun sett í bið eftir staðfestingu og þú sleppir henni annaðhvort með eða án bókunar. Í þessu tilfelli verður pöntunin sett í bið aftur ef þú staðfestir hana aftur. Notaðu biðdaga ef pöntunin ætti að fara yfir í næsta vinnsluskref án þess að fara aftur í bið.
 
-> [!Note]
-> Ef einn pósteftirlitsstöð er með gjalddaga inn, þurfa allir eftirlitsstöðvar sem eru merktar til færslu að hafa frestdaga.
+Þú getur ekki tilgreint biðdaga fyrir suma gátstaði bókunar en ekki fyrir aðra. Þú verður að setja upp alla gátstaði bókunar þannig að þeir hafi biðdaga, eða þú verður að setja þá alla upp svo þeir eigi ekki biðdaga.
 
 - Veldu gátreitinn **Bókun** til að keyra reglurnar um lánastjórnun þegar gátreitur bókunar sem er sýndur á línunni er keyrður. Ef þú velur ekki gátreitinn verða reglurnar aðeins merktar einu sinni á öllu bókunarferlinu.
 - Ef þú velur gátreitinn **Bókun** tilgreinirðu fjölda biðdaga sem ættu að líða áður en lokunarreglurnar eru merktar aftur. Þú getur ekki bætt við biðdögum ef gátreiturinn **Bókun** er hreinsaður.
@@ -73,10 +72,6 @@ Nokkrar tölfræði um lánastjórnun er að finna í upplýsingareitnum **Tölf
 
 - Í lánastjórnun er lánsheimild viðskiptavinarins sýnd í gjaldmiðli viðskiptavinarins. Þú verður að skilgreina gerð gengis fyrir lánamörk í gjaldmiðli viðskiptavinarins. Í reitnum **Gerð lánsfjárhámarks** velurðu þá gerð gengis sem ætti að nota til að umbreyta aðal lánsfjárhámarki í lánamörk viðskiptavinarins.
 - Stilltu valkostinn **Leyfa handvirka klippingu á lánamörkum** á **Nei** til að koma í veg fyrir að notendur geti breytt kreditmörkum á síðunni **Viðskiptavinur**. Ef þessi valkostur er stilltur á **Nei** er aðeins hægt að gera breytingar á lánamörkum viðskiptavinar með því að birta leiðréttingarfærslur lánamarka.
-- Stilltu **Framhjá birgðapöntunum** valmöguleika til **Já** að virða að vettugi birgðafyrirvara þegar hakað er við reglur um útlánastjórnun. Í þessu tilviki athugar kerfið heilt línumagn og gerir eftirlitstíma frest, óháð birgðapöntunarmagni.
-- Þegar lánastýring er virkjuð mun stillingin á **Skilaboð þegar farið er yfir lánamörk** reiturinn er notaður til að vinna aðeins með frjálsum textareikningum. Þrátt fyrir að skilaboðum sé enn bætt við sölupantanir þegar viðskiptavinir hafa farið yfir lánsheimildir, hindrar tilvist þessara skilaboða ekki staðfestingu, prentun á tínslulistum og fylgiseðlum eða bókun reikninga.
-
-    Lánastjórnun er sjálfkrafa virkjuð en þú getur slökkt á henni. Ef það er virkt, notar þú lokunarreglur og eftirlitsstöðvar útlánastjórnunar til að bera kennsl á hvenær viðskiptavinir hafa farið yfir lánahámarkið sitt. Ef það er óvirkt munu skilaboðin sem eru bætt við sölupantanir á grundvelli stillingar á **Skilaboð þegar farið er yfir lánamörk** reitinn getur hjálpað þér að bera kennsl á hvenær viðskiptavinir hafa farið yfir lánshæfismat sitt.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Númeraraðir og samnýttar færibreytur númeraraða
 

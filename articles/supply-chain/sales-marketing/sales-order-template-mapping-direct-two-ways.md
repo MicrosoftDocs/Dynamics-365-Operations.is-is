@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ddc6159480d1ff9fb823dbd95465c991ae51f9c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430527"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974986"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Samstilling sölupantana beint á milli Sales og Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem notuð eru til að keyra samstillingu sölupantana beint á milli Dynamics 365 Sales og Dynamics 365 Supply Chain Management.
 
@@ -64,8 +65,8 @@ Eftirfarandi samstillingarverkefni eru nauðsynleg áður en samstillingar sölu
 
 | Birgðakeðjustjórnun  | Sala             |
 |-------------------------|-------------------|
-| Hausar CDS-sölupöntunar | SalesOrders       |
-| CDS sölupöntunarlínur   | SalesOrderDetails |
+| Dataverse hausar sölupöntunar | SalesOrders       |
+| Dataverse sölupöntunarlínur   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>Einingaflæði
 
@@ -75,7 +76,7 @@ Ekki þarf að stofna pantanir í Sales. Hægt er að stofna nýjar sölupantani
 
 Í Supply Chain Management hjálpa síur í sniðmáti að aðeins viðeigandi sölupantanir séu innifaldar í samstillingu:
 
-- Á sölupöntun þarf bæði viðskiptavinurinn sem pantar og sá sem reikningsfært að eiga uppruna sinn í Sales til að vera teknir með í samstillingu. Í Supply Chain Management er reitirnir **OrderingCustomerIsExternallyMaintained** og **InvoiceCustomerIsExternallyMaintained** notaðir til að sía sölupantanir úr gagnaeiningum.
+- Á sölupöntun þarf bæði viðskiptavinurinn sem pantar og sá sem reikningsfært að eiga uppruna sinn í Sales til að vera teknir með í samstillingu. Í Supply Chain Management er dálkarnir **OrderingCustomerIsExternallyMaintained** og **InvoiceCustomerIsExternallyMaintained** notaðir til að sía sölupantanir úr gagnaeiningum.
 - Sölupöntun í Supply Chain Management verður að vera staðfest. Aðeins staðfestar sölupantanir eða sölupantanir með hærri vinnslustöðu, til dæmis, **Sent** eða **Reikningsfært**, eru samstilltar við Sales.
 - Eftir að sölupöntun er búin til eða henni breytt verður að keyra runuvinnsluna **Reikna heildarsölu** í Supply Chain Management. Aðeins sölurekningar þar sem sölutölur eru reiknaðar verður samstilltir við Sales.
 
@@ -103,10 +104,10 @@ Sales styður ekki skatt á hausstiginu vegna þess að skattur er vistaður á 
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Prospect to cash lausn fyrir Sales
 
-Nýjum reitum hefur verið bætt við eininguna **Pöntun** og birtist á síðunni:
+Nýjum dálkum hefur verið bætt við töfluna **Pöntun** og birtast á síðunni:
 
 - **Er viðhaldið utanfrá** - Stillið á **Já** þegar pöntunin er úr Supply Chain Management.
-- **Vinnslustaða** - Þessi reitur sýnir vinnslustöðu pantanar í sniðmát. Eftirtalin gildi eru tiltæk:
+- **Vinnslustaða** - Þessi dálkur sýnir vinnslustöðu pantanar í Supply Chain Management. Eftirtalin gildi eru tiltæk:
 
     - **Drög** - upphafleg staða þegar pöntun er stofnuð í Sales. Í Sales má aðeins breyta pöntunum með þessari vinnslustöðu.
     - **Virk** - Staða eftir að pöntun er virkjuð í Sales með því að nota hnappinn **Virkja**.
@@ -141,7 +142,7 @@ Staða sölupöntunar verður áfram **Virk** til að tryggja að gjöld úr Sup
 - Farið í **Stillingar** &gt; **Stjórnun** &gt; **Kerfisstillingar** &gt; **Sala** og gangið úr skugga um að eftirfarandi stillingar séu notaðar:
 
     - **Nota reikningskerfi verðs** valkosturinn er stilltur á **Já**.
-    - **Reikningsaðferð reikningsafslátta** reiturinn er stilltur á **Línuatriði**.
+    - **Reikningsaðferð reikningsafslátta** dálkurinn er stilltur á **Línuatriði**.
 
 ### <a name="setup-in-supply-chain-management"></a>Uppsetning í Supply Chain Management
 
@@ -151,10 +152,10 @@ Ef samþætting vinnupöntunar er einnig notuð er nauðsynlegt að setja upp s�
 
 1. Farðu í **Sala og markaðssetning** \> **Uppsetning** \> **Sölupantanir** \> **Söluuppruni**.
 2. Veldu **Nýr** til að búa til nýjan söluuppruna.
-3. Í reitinn **Söluuppruni** skal slá inn heiti söluuppruna, t.d. **SalesOrder**.
-4. Í reitnum **Lýsing** skal færa inn lýsingu, t.d. **Sölupöntun úr Sales**.
+3. Í dálkinn **Söluuppruni** skal slá inn heiti söluuppruna, t.d. **SalesOrder**.
+4. Í dálkinum **Lýsing** skal færa inn lýsingu, t.d. **Sölupöntun úr Sales**.
 5. Veldu gátreitinn **Úthlutun upprunagerðar**.
-6. Stilltu reitinn **Upprunagerð sölu** á **Samþætting sölupöntunar**.
+6. Stillið dálkinn **Upprunagerð sölu** á **Samþætting sölupöntunar**.
 7. Veljið **Vista**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>Uppsetning í sölupöntunum (Sales við Supply Chain Management) - Beint Gagnasamþættingarverk
@@ -181,12 +182,12 @@ Ef samþætting vinnupöntunar er einnig notuð er nauðsynlegt að setja upp s�
 ## <a name="template-mapping-in-data-integration"></a>Sniðmátsvörpun í Gagnasamþættingu
 
 > [!NOTE]
-> Reitirnir **Greiðsluskilmálar**, **Flutningsskilmálar**, **Afhendingarskilmálar**, **Sendingaraðferð** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum reitum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem einingin er samstillt á milli.
+> **Greiðsluskilmálar**, **Farmskilmálar**, **Afhendingarskilmálar**, **Sendingaraðferð** og **Afhendingarmáti** eru ekki hluti af sjálfgefinni vörpun. Til að varpa þessum dálkum, verður að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem taflan er samstillt á milli.
 
 Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþættingu.
 
 > [!NOTE]
-> Vörpunin sýnir hvaða reitaupplýsingar verða samstilltar úr Sales í Supply Chain Management eða úr Supply Chain Management í Sales.
+> Vörpunin sýnir hvaða dálkupplýsingar verða samstilltar úr Sales í Supply Chain Management eða úr Supply Chain Management í Sales.
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Sölupantanir (Supply Chain Management til Sales) - Beint: OrderHeader
 

@@ -2,11 +2,9 @@
 title: Nýir notendur stofnaðir
 description: Notendur eru innri starfsmenn fyrirtækisins, eða ytri viðskiptavinir og lánardrottnar sem þurfa aðgang að kerfinu til að framkvæma vinnslum.
 author: peakerbl
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, SysDataAreaSelectLookup, SysSecUserAddRoles, SysUserMSODSUserImport
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca062ddd49f1c206c503fb6160ed436fe2d6f7e9
-ms.sourcegitcommit: 9e27a097b7eb3c8f2df66011ccc597ad18bc5445
-ms.translationtype: HT
+ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4878658"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595387"
 ---
 # <a name="create-new-users"></a>Búa til nýja notendur
 
@@ -31,10 +29,10 @@ ms.locfileid: "4878658"
 Upplýsingar um hvernig á að kaupa og veita leyfi fyrir Finance and Operations-forrit er að finna í [Leyfishandbók Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Úthluta leyfi til notanda
-Kerfisstjórar geta það [úthluta leyfi til notenda](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) í [stjórnunarmiðstöð Microsoft 365](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
+Kerfisstjórar geta það [úthluta leyfi til notenda](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) í [stjórnunarmiðstöð Microsoft 365](/office365/admin/admin-overview/about-the-admin-center).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Bæta ytri notanda við Azure AD og úthluta leyfi 
-Ytri notendur verða að koma fram í notendaskrá biðlara (Azure Active Directory (Azure AD)) þannig að hægt sé að úthluta þeim leyfum. Þessum utanaðkomandi notendum ætti að bæta við leigjandann í Azure AD sem gestanotendum og úthluta þeim síðan viðeigandi leyfum. Krafa Finance and Operations-forrita er að fyrirtæki gestanotenda verði að nota Azure AD. Nánari upplýsingar er að finna í [Bæta Azure Active Directory B2B samvinnunotendum við í Azure-gáttinni](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
+Ytri notendur verða að koma fram í notendaskrá biðlara (Azure Active Directory (Azure AD)) þannig að hægt sé að úthluta þeim leyfum. Þessum utanaðkomandi notendum ætti að bæta við leigjandann í Azure AD sem gestanotendum og úthluta þeim síðan viðeigandi leyfum. Krafa Finance and Operations-forrita er að fyrirtæki gestanotenda verði að nota Azure AD. Nánari upplýsingar er að finna í [Bæta Azure Active Directory B2B samvinnunotendum við í Azure-gáttinni](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Flytja inn nýja notendur úr Azure AD 
 1. Farið í **Kerfisstjórnun** \> **Notandi** \> **Notendur**.
@@ -59,7 +57,7 @@ Ytri notendur verða að koma fram í notendaskrá biðlara (Azure Active Direct
 7. Í reitnum **Fyrirtæki** skal velja sjálfgefið ræsingarfyrirtæki fyrir notanda. 
 8. Veljið **Vista**.
 
-Gildin fyrir kenni veitu og fjarmælingarkenni verða uppfærð samkvæmt kalli [Microsoft Graph](https://docs.microsoft.com/graph/overview) þegar skrá notanda er vistuð. Fjarmælingarkennið byggir á hlutarkenni/öryggiskenni notanda í Azure AD.
+Gildin fyrir kenni veitu og fjarmælingarkenni verða uppfærð samkvæmt kalli [Microsoft Graph](/graph/overview) þegar skrá notanda er vistuð. Fjarmælingarkennið byggir á hlutarkenni/öryggiskenni notanda í Azure AD.
 
 > [!NOTE]
 > Eftir að notanda hefur verið bætt við þarf að úthluta hlutverkum og fyrirtækjum eftir því sem við á. Nánari upplýsingar er að finna á [Úthluta notendum á öryggishlutverk](assign-users-security-roles.md). Einnig gæti verið nauðsynlegt að tengja notandann við **Einstakling** og uppfæra **Notandavalkosti**, t.d. tungumál.
@@ -81,3 +79,6 @@ Til að breyta notandakenni þarf að endurnefna lykilinn í gagnagrunninum. Þe
 Frekari möguleikar til að innleiða B2B-notendur er að finna í [Flytja út B2B-notendur í Azure AD](../implement-b2b.md).
 
 Frekari upplýsingar um forstillta kerfisreikninga er að finna í [Forstilltir kerfisreikningar](../pre-configured-system-accounts.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

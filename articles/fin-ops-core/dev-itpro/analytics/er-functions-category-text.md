@@ -2,11 +2,9 @@
 title: Listi yfir ER-aðgerðir í textaflokknum
 description: Þetta efni veitir upplýsingar um textaaðgerðir sem eru studdar í rafrænni skýrslugerð (ER).
 author: NickSelin
-manager: kfend
 ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 228620afc81e154eced572f3b6024d6836d00d66
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a780424cf195a3ec15e6fcfc7cb30d74d5072df5
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686028"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754399"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Listi yfir ER-aðgerðir í textaflokknum
 
@@ -62,3 +60,6 @@ Hægt er að nota textaaðgerðir rafrænnar skýrslugerðar (ER) til að framkv
 [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)
 
 [Formúlutungumál í rafrænni skýrslugerð](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

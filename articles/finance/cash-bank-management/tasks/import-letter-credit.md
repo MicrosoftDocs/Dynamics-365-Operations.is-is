@@ -2,9 +2,11 @@
 title: Flytja inn kreditbréf
 description: Þetta ferli fer í gegnum ferlið fyrir innflutning á kreditbréfs.
 author: kweekley
+manager: AnnBe
 ms.date: 02/28/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts, PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, BankLCImport,  PurchEditLines, VendEditInvoice, SrsReportViewerForm, LedgerJournalTable, LedgerJournalTransVendPaym, VendOpenTrans, SysQueryForm, BankAccountTableLookUp
 audience: Application User
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c6119a8b52eece5935bf05d0f2300feeb8d4e90b08f26e949870f491bc9254e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76dedb12eef0f8282f04f680cab51a8ccf3e8221
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743122"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009544"
 ---
 # <a name="import-letter-of-credit"></a>Flytja inn kreditbréf
 
@@ -128,8 +130,7 @@ ms.locfileid: "6743122"
 12. Lokið síðunni.
 13. Lokið síðunni.
 
-## <a name="verify-import-letter-of-credit-status-and-printing"></a>Staðfesta stöðu og prentun á innfluttri bankaábyrgð
-
+## <a name="verify-import-letter-of-credit-status"></a>Staðfesta skal stöðu Innflutnings kreditbréfs
 1. Fara í Reiðufé og bankastjórnun > Kreditbréf > Flytja inn kreditbréf og innflutningssafn.
 2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 3. Í listanum skal smella á tengilinn í valinni línu.
@@ -183,6 +184,3 @@ ms.locfileid: "6743122"
     * Staðfesta skýrslunni inniheldur færslur með númer bankaskjals, aðstöðuhámark, nýttar upphæð og stöðuupphæð aðstöðu.  
 8. Lokið síðunni.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Búa til virkniforstillingu á netinu
-description: Þetta efnisatriði lýsir því hvernig á að búa til virkniforstillingar í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir hvernig á að stofna virkniforstillingu í Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 1b0afeabfecb60672156692f3cd809445624020c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: d6dcbb5b9ea01035396e90a6809cb1568c3a4fc86def41cf36732588b5046da7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969977"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716195"
 ---
 # <a name="create-an-online-functionality-profile"></a>Búa til virkniforstillingu á netinu
 
-
 [!include [banner](includes/banner.md)]
 
-Þetta efni birtir yfirlit yfir að setja upp netsniðsforrit fyrir Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði sýnir yfirlit yfir uppsetningu á virkniforstillingu fyrir Microsoft Dynamics 365 Commerce.
 
 Online virkni sniðið veitir ýmsar stillingar sem notaðar eru fyrir netrásir. Hver rás á netinu verður að tilgreina prófíl á netinu.
 
@@ -47,7 +42,7 @@ Eftirfarandi aðferð útskýrir hvernig á að búa til netvirkni snið úr for
 
 Eftirfarandi mynd sýnir dæmi um netvirknireglu.
   
-![Netvirknireglur fyrir forstillingu](media/online-functionality-profile.png)
+![Dæmi um netvirknireglur fyrir forstillingu.](media/online-functionality-profile.png)
 
 ## <a name="functions"></a>Aðgerðir
 
@@ -66,3 +61,6 @@ Eftirfarandi mynd sýnir dæmi um netvirknireglu.
 [Setja upp smásölurás](channel-setup-retail.md)
 
 [Setja upp rás símavers](channel-setup-callcenter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

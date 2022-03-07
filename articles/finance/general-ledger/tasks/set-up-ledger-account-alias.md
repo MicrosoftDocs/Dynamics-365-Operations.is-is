@@ -2,11 +2,9 @@
 title: Setja upp auknefni fjárhagslykla
 description: Þetta ferli sýnir hvernig á að stofna auknefni fjárhagslykils sem veitir flýtivísun til að færa inn lykilnúmer.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerAccountAlias
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08fcbc4e7e593c7d1a632183409ae85423545263
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 60e1dc0e61fd11e5498966031fbe7e6e65af2c6f57a820e1c99df05c6ad7f8f2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968404"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745797"
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Setja upp auknefni fjárhagslykla
 
@@ -40,3 +38,6 @@ ms.locfileid: "4968404"
 9. Í reitnum Upphafleg áhersla skal velja víddina sem hefur skilgreinda áherslu þegar auknefni er notað.
     * Eftir að þú slærð inn flýtileiðina og lykillinn og víddirnar eru útfylltar verður reiturinn Upphafleg áhersla þar sem bendillinn eða áherslan flyst í.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

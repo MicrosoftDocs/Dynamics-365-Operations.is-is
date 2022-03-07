@@ -2,9 +2,11 @@
 title: Hreinsun flutnings rafrænnar skýrslugerðar
 description: Í þessu efnisatriði er útskýrt hvernig hægt er að nota hreinsunaraðgerð fyrir flutning rafrænnar skýrslugerðar til að leysa úr málum er varða sniðmát rafrænnar skýrslugerðar.
 author: NickSelin
+manager: AnnBe
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, ERParameters, ERMigrationCleanup
 audience: Application User, Developer, IT Pro
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: d437bed9b9873f82bcd047e85245bd2a8c66fb3572c06660f29fc19f66aebae1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: edb60f247b2bd6cc4ecd514e3e85bafbb681788d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723142"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686369"
 ---
 # <a name="er-migration-cleanup"></a>Hreinsun flutnings rafrænnar skýrslugerðar 
 
@@ -30,11 +32,11 @@ ms.locfileid: "6723142"
 
 Ef reynt er að keyra snið rafrænnar skýrslugerðar sem notar sniðmát til að búa til viðskiptaskjöl á sér stað undantekning og tilkynnt er um sniðmátið sem vantar. Þér er einnig bent á að nota hreinsunarvalkost fyrir flutning rafrænnar skýrslugerðar til að eyða og síðan flytja aftur inn skilgreiningu á sniði rafrænnar skýrslugerðar sem inniheldur sniðmátið.
 
-[![Snið rafrænnar skýrslugerðar keyrt.](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
+[![Keyrir snið rafrænnar skýrslugerðar](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
 
 Þú færð svipaða villu ef þú ferð yfir á síðuna **Skilgreiningar** (**Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**) og í skilgreiningartrénu skaltu reyna að eyða skilgreiningu á sniði rafrænnar skýrslugerðar sem notar sniðmát.
 
-[![Eyðing á sniði rafrænnar skýrslugerðar.](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
+[![Eyðing á sniði rafrænnar skýrslugerðar](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
 
 Ljúkið eftirfarandi skrefum til að leysa úr vandamálum með sniðmát rafrænnar skýrslugerðar sem ekki er hægt að opna.
 
@@ -50,11 +52,8 @@ Ljúkið eftirfarandi skrefum til að leysa úr vandamálum með sniðmát rafr�
 >
 > Ef valkosturinn **Hreinsun flutnings** er notaður til að eyða skilgreiningu á sniði rafrænnar skýrslugerðar þegar sniðmátið sem vísað er í er tiltækt í Blob-geymslunni, er aðeins hægt að eyða tengdum gervingum skilgreiningar í gagnagrunni forritsins. Efnislega skráin í sniðmátinu í Blob-geymslunni verður þar áfram. Ekki er lengur leyfilegt að skrifa yfir skrár í Blog-geymslunni. Nánari upplýsingar eru í [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217). Þar að auki er ekki lengur hægt að flytja aftur inn eyddar skilgreiningar með því að nota hreinsun flutnings í þessu umhverfi. Til að leysa þetta vandamál þarf að finna samsvarandi skrá í Blob-geymslu og eyða henni handvirkt.
 
-[![Flytja inn snið rafrænnar skýrslugerðar.](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
+[![Flytja inn snið rafrænnar skýrslugerðar](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
 
 Svipað vandamál getur komið upp ef forritstilvikið er flutt á aðra staðsetningu sem hefur verið notuð sem flutningsmarkmið oftar en einu sinni og þar sem Blob-geymslan inniheldur nú þegar sniðmátsskrár rafrænnar skýrslugerðar.
 
 Fyrst að hægt er að hafa margar skilgreiningar á sniði rafrænnar skýrslugerðar getur þetta ferli verið tímafrekt. Þar af leiðandi er æskilegt að nota eiginleikann [Öryggisafrit sniðmáta rafrænnar skýrslugerðar](er-backup-storage-templates.md) til að endurheimta sjálfkrafa sniðmát með gölluðum tilvísunum.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

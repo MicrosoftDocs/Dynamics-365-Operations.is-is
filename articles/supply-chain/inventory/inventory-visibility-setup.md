@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a49f35211f30cdb76104cc5be78f5b114320a228
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062651"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474821"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Setja upp sýnileika birgða
 
 [!include [banner](../includes/banner.md)]
-
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að setja upp innbót birgðasýnileika fyrir Microsoft Dynamics 365 Supply Chain Management.
 
@@ -35,11 +35,63 @@ Frekari upplýsingar er að finna í [Tilföng Lifecycle Services](../../fin-ops
 
 - Fáðu LCS-innleiðingarverk þar sem a.m.k. eitt umhverfi er uppsett.
 - Vertu viss um að lokið hafi verið við skilyrðin fyrir uppsetningu innbóta. Upplýsingar um þessar forsendur er að finna í [Yfirlit innbóta](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Sýnileiki birgða krefst ekki tengingu tvöföldrar skráningar.
+- Hafa skal samskipti við teymi birgðasýnileika á [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) til að fá eftirfarandi áskidlar áskildar skrár:
+
+    - `InventoryServiceApplication.PackageDeployer.zip`
+    - `Inventory Visibility Integration.zip` (ef útgáfan af Supply Chain Management sem er keyrð er eldri en útgáfa 10.0.18)
 
 > [!NOTE]
 > Löndin og svæðin sem nú eru studd eru Kanada (CCA, ECA), Bandaríkin (WUS, ESB), Evrópusambandið (NEU, WEU), Bretland (SUK, Wuk), Ástralía (EAU, SEAU), Japan (EJP, WJP) og Brasilía (SBR, SCUS).
 
-Ef einhverjar spurningar vakna um þessi skilyrði skaltu hafa samband við vöruteymi birgðasýnileika á [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
+Ef einhverjar spurningar vakna um þessi skilyrði skaltu hafa samband við vöruteymi birgðasýnileika.
+
+## <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Setja upp Dataverse
+
+Til að setja upp Dataverse þannig að hægt sé að nota það með birgðasýnileika skaltu nota Package Deployer til að setja upp pakka birgðasýnileika. Eftirfarandi undirhlutar lýsa því hvernig á að ljúka hverju verki.
+
+> [!NOTE]
+> Sem stendur eru aðeins Dataverse umhverfi studd sem hafa verið búin til með því að nota LCS. Ef Dataverse umhverfið þitt var búið til á einhvern annan hátt (til dæmis með því að nota Power Apps stjórnendamiðstöðina) og ef það er tengt við umhverfi Supply Chain Management verður þú fyrst að hafa samband við vöruteymi birgðasýnileika til að leysa úr vandamáli vörpunar. Þá er hægt að setja upp birgðasýnileika.
+
+### <a name="migrate-from-an-old-version-of-the-dataverse-solution"></a>Flytja úr gamalli útgáfu af Dataverse lausninni
+
+Ef þú hefur sett upp eldri útgáfu af lausn Dataverse birgðasýnileika skatlu nota þessar leiðbeiningar til að uppfæra útgáfuna þína. Tvö tilfelli eru til staðar:
+
+- **Tilfelli 1:** Ef þú setur `Inventory Visibility Dataverse Solution_1_0_0_2_managed.zip` upp handvirkt með því að flytja inn Dataverse lausnina skaltu fylgja þessum skrefum:
+
+    1. Sæktu eftirfarandi þrjár skrár:
+
+        - `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip`
+        - `InventoryServiceBase_managed.cab`
+        - `InventoryServiceApplication.PackageDeployer.zip`
+
+    1. Flyttu handvirkt `InventoryServiceBase_managed.cab` og `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip` inn í Dataverse með því að fylgja þessum skrefum:
+
+        1. Opnið vefslóð Dataverse umhverfisins.
+        1. Opnaðu síðuna **Lausnir**.
+        1. Velja **Innflutningur**.
+
+    1. Notaðu Package Deployer til að setja upp `InventoryServiceApplication.PackageDeployer.zip` pakkann. Fyrir leiðbeiningar skaltu skoða hlutann [Notaðu Package Deployer til að setja upp pakkann](#deploy-package) síðar í þessu efnisatriði.
+
+- **Tilfelli 2:** Ef þú setur upp Dataverse með því að nota Package Deployer áður en þú settir upp eldri `.*PackageDeployer.zip` pakkann, skaltu sækja `InventoryServiceApplication.PackageDeployer.zip` og gera uppfærslu. Fyrir leiðbeiningar skaltu skoða hlutann [Nota Package Deployer til að setja upp pakkann](#deploy-package).
+
+### <a name="use-the-package-deployer-tool-to-deploy-the-package"></a><a name="deploy-package"></a>Nota Package Deployer til að setja upp pakkann
+
+1. Setja upp verkfæri þróunaraðila eins og lýst er í [Sækja verkfæri frá NuGet](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
+1. Aflæstu `InventoryServiceApplication.PackageDeployer.zip` skránni sem þú sóttir úr Teams-hópnum með því að fylgja þessum skrefum:
+
+    1. Veldu og haltu inni skránni (eða hægrismelltu á hana) og veldu síðan **Eiginleikar**.
+    1. Í svarglugganum **Eiginleikar**, í flipanum **Almennt**, skaltu finna hlutann **Öryggi**, velja **Aflæsa** og setja breytinguna á. Ef það er enginn **Öryggishluti** í flipanum **Almennt** er skráin ekki útilokuð. Ef svo er skaltu fara yfir í næsta skref.
+
+    ![Afblokka sótta skrá](media/unblock-file.png "Afblokka sótta skrá")
+
+1. Afþjappaðu `InventoryServiceApplication.PackageDeployer.zip` til að finna eftirfarandi atriði:
+
+    - `InventoryServiceApplication`-mappa
+    - `[Content_Types].xml`-skrá
+    - `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll`-skrá
+
+1. Afritaðu hvert þessara atriða í `.\Tools\PackageDeployment` skráasafnið. (Þetta skráasafn var búið til þegar þú settir upp verkfæri þróunaraðila.)
+1. Keyrðu `.\Tools\PackageDeployment\PackageDeployer.exe` og fylgdu leiðbeiningunum á skjánum til að flytja inn lausnirnar.
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Setja upp innbót birgðasýnileika
 
@@ -50,11 +102,7 @@ Eftir að þú hefur skráð forrit og bætt leyniorði biðlara við Azure AD s
 1. Skráðu þig inn í [LCS](https://lcs.dynamics.com/Logon/Index).
 1. Á heimasíðunni skal velja verkið þar sem umhverfið er í notkun.
 1. Á verksíðunni skal velja umhverfið þar sem á að setja upp innbótina.
-1. Á heimasíðu umhverfisins skal fletta niður þar til þú finnur hlutann **Innbætur umhverfis** í hlutanum **Power Platform samþætting**. Þar má finna heiti Dataverse umhverfisins. Staðfestu að heiti Dataverse umhverfis er það sem þú vilt nota fyrir birgðasýnileika.
-
-    > [!NOTE]
-    > Sem stendur eru aðeins Dataverse umhverfi studd sem hafa verið búin til með því að nota LCS. Ef Dataverse umhverfið þitt var búið til á einhvern annan hátt (til dæmis með því að nota Power Apps stjórnendamiðstöðina) og ef það er tengt við umhverfi Supply Chain Management verður þú fyrst að hafa samband við vöruteymi birgðasýnileika [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) til að leysa úr vandamáli vörpunar. Þá er hægt að setja upp birgðasýnileika.
-
+1. Á heimasíðu umhverfisins skal fletta niður þar til þú finnur hlutann **Innbætur umhverfis** í hlutanum **Power Platform samþætting**. Þar má finna heiti Dataverse umhverfisins.
 1. Í hlutanum **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
 
     ![Heimasíða umhverfis í LCS](media/inventory-visibility-environment.png "Heimasíða umhverfis í LCS")
@@ -70,10 +118,6 @@ Eftir að þú hefur skráð forrit og bætt leyniorði biðlara við Azure AD s
 
 1. Samþykktu skilmálana með því að velja gátreitinn **Skilmálar**.
 1. Velja **Setja upp**. Staða innbótar er sýnd sem **Í uppsetningu**. Þegar uppsetningunni er lokið skaltu endurhlaða síðuna. Staðan ætti að breytast í **Uppsett**.
-1. Í Dataverse skal velja hlutann **Forrit** í vinstra yfirlitinu og staðfesta að **Birgðasýnileiki** Power Apps sé uppsettur. Ef hlutinn **Forrit** er ekki til skal hafa samband við afurðateymi birgðasýnileika í [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
-
-> [!TIP]
-> Við mælum með því að þú skráir þig í Inventory Visibility Add-in notendahópinn, þar sem þú getur fundið gagnlegar leiðbeiningar, fengið nýjustu uppfærslurnar okkar og sent inn allar spurningar sem þú gætir haft um notkun Birgðasýnileika. Til að taka þátt, vinsamlegast sendu tölvupóst til vöruteymisins Birgðasýnileika á [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) og láttu fylgja með auðkenni þitt fyrir framboðsstjórnunarumhverfi.
 
 > [!IMPORTANT]
 > Ef þú ert með fleiri en eitt LCS-umhverfi skaltu búa til annað Azure AD forrit fyrir hvert umhverfi. Ef þú notar sama forritskennið og leigjandakennið til að setja upp innbót birgðasýnileika fyrir mismunandi umhverfi mun koma upp vandamál varðandi lykla fyrir eldri umhverfi. Aðeins það síðasta sem var sett upp verður tekið gilt.
@@ -82,13 +126,13 @@ Eftir að þú hefur skráð forrit og bætt leyniorði biðlara við Azure AD s
 
 Til að fjarlægja innbót birgðasýnileika skaltu velja **Fjarlægja** á LCS-síðunni. Fjarlægingarferlið eyðir innbót birgðasýnileika, afskráir innbótina úr LCS og eyðir öllum tímabundnum gögnum sem eru geymd í skyndiminni fyrir innbót birgðasýnileika. Hins vegar er helstu birgðagögnunum sem geymd eru í Dataverse áskriftinni þinni ekki eytt.
 
-Til að fjarlægja birgðagögnin sem geymd eru í Dataverse áskriftinni skal opna [Power Apps](https://make.powerapps.com), velja **Umhverfi** í yfirlitsstikunni og velja Dataverse umhverfin sem eru bundin við LCS-umhverfið þitt. Farðu því næst í **Lausnir** og eyddu eftirfarandi fimm lausnum í þessari röð:
+Til að fjarlægja birgðagögnin sem geymd eru í Dataverse áskriftinni skal opna [Power Apps](https://make.powerapps.com), velja **Umhverfi** í yfirlitsstikunni og velja Dataverse umhverfin sem eru bundin við LCS-umhverfið þitt. Farðu því næst í **Lausnir** og eyddu eftirfarandi fimm lausnum:
 
-1. Festa lausn fyrir forrit birgðasýnileika í lausnum Dynamics 365
-1. Forritslausnir birgðasýnileika í Dynamics 365 FNO SCM
-1. Skilgreining birgðaþjónustu
-1. Sjálfstæður birgðasýnileiki
-1. Grunnlausn birgðasýnileika í Dynamics 365 FNO SCM
+- Festa lausn fyrir forrit birgðasýnileika í lausnum Dynamics 365
+- Forritslausnir birgðasýnileika í Dynamics 365 FNO SCM
+- Skilgreining birgðaþjónustu
+- Sjálfstæður birgðasýnileiki
+- Grunnlausn birgðasýnileika í Dynamics 365 FNO SCM
 
 Þegar þú eyðir þessum lausnum er gögnum sem geymd eru í töflum einnig eytt.
 

@@ -2,11 +2,9 @@
 title: Formúluhönnuður í rafrænni skýrslugerð (ER)
 description: Þetta efni inniheldur upplýsingar um hvernig á að nota formúluhönnuðinn í rafrænni skýrslugerð (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d96fe041fd0ffb292909c1e724068efebe0184b9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: eec63fb1782c5afed0320eb841b6bfc92af31a691731ef6bac5d00ed442c0dcd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682650"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777405"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formúluhönnuður í rafrænni skýrslugerð (ER)
 
@@ -60,11 +58,11 @@ Formúluhönnuður rafrænnar skýrslugerðar er hægt að nota til að skilgrei
 
 Eftirfarandi skýringarmynd sýnir hönnun segðar af þessari gerð. Í þessu dæmi námundar segðin gildið í reitnum **Intrastat.AmountMST** í Intrastat-töflunni í tvo aukastafi og skilar síðan námunduðu gildi.
 
-[![Segð gagnabindingar](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
+[![Segð gagnabindingar.](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
 
 Eftirfarandi mynd sýnir hvernig hægt er að nota segð af þessari gerð. Í þessu dæmi er niðurstaðan af hannaðri segð slegin inn í **Transaction.InvoicedAmount** hlutann af gagnalíkani **skattaskýrslulíkansins**.
 
-[![Segð gagnatengsla notuð](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
+[![Segð gagnatengsla notuð.](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
 
 Á keyrslutíma námundar hannaða formúlan `ROUND (Intrastat.AmountMST, 2)` gildið í reitnum **AmountMST** fyrir hverja skrá í Intrastat töflunni í tvo aukastafi. Hún slær þá inn námundaða gildið í **Transaction.InvoicedAmount** hlutann af gagnalíkani **skattaskýrslunnar**.
 
@@ -74,17 +72,17 @@ Formúluhönnuður ER hægt að nota til að skilgreina segð sem forsníður g�
 
 Eftirfarandi skýringarmynd sýnir hönnun umbreytingar sem samanstendur af þessari gerð. Í þessu dæmi styttir **TrimmedString** umbreytingin gögn á innleið af gagnagerðinni *Strengur* með því að fjarlægja bil fyrir framan og aftan. Hún skilar þá styttu strengagildi.
 
-[![Umbreyting](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
+[![Umbreyting.](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
 
 Eftirfarandi skýringarmynd sýnir hvernig er hægt að nota umbreyting af þessari gerð. Í þessu dæmi senda nokkrir þættir sniðs texta sem úttak til að búa til rafrænt skjal á keyrslutíma. Allir þessir sniðsþættir vísa til **TrimmedString** umbreytingar eftir heiti.
 
-[![Umbreyting sem er notuð](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
+[![Umbreyting sem er notuð.](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
 
 Þegar þættir sniðs, eins og **partyName** í ofangreindum myndum, vísa til **TrimmedString** umbreytingingarinnar, sendir umbreytingin texta sem úttak á rafrænu skjalinu. Þessi texti inniheldur ekki bil fyrir framan og aftan.
 
 Ef þú ert með snið sem þarf að nota eitt og sér, getur þú sett fram það snið sem einstaka segð bindingar fyrir tiltekna sniðsþáttinn. Eftirfarandi skýringarmynd sýnir segð sem samanstendur af þessari gerð. Í þessu dæmi er **partyType** sniðsþáttur bundinn gagnagjafanum með segð sem breytir gögnum á innleið frá **Model.Company.RegistrationType** svæðinu í gagnagjafanum í hástafi. Segðin sendir þá texta sem úttak til rafræna skjalsins.
 
-[![Sækja um snið fyrir einstaka þætti](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+[![Sækja um snið fyrir einstaka þætti.](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ## <a name="process-flow-control"></a><a name="Validation"></a>Vinnsla vinnsluflæðis
 
@@ -100,7 +98,7 @@ Hverja reglu fyrir flæðistýringu ferlis er hannað sem einstaka villuleit. Ef
 - Það stöðvar aðgerðarferlið um leið og það skilar **FALSE** ef listi yfir færslur er tómur
 - Sannvottunin skilar villuboð sem inniheldur texta merkis SYS70894 á tungumáli sem notandi kýs
 
-[![Villuleit](./media/picture-validation.jpg)](./media/picture-validation.jpg)
+[![Villuleit.](./media/picture-validation.jpg)](./media/picture-validation.jpg)
 
 Formúluhönnuður rafrænnar skýrslugerðar er einnig hægt að nota til að stofna skráarnafn fyrir stofnað rafrænt skjal til að stjórna ferlinu fyrir stofnun skráa. Eftirfarandi skýringarmynd sýnir hönnun flæðistjórnunar ferlis sem samanstendur af þessari gerð. Hér er skýring á skilgreiningunni í þessu dæmi:
 
@@ -109,7 +107,7 @@ Formúluhönnuður rafrænnar skýrslugerðar er einnig hægt að nota til að s
 - Segð skilar skráarnafni til að stofna rafræn skjöl með því að sameina skráarheiti og skráargerð. Fyrir aðra rönu og allar eftirfylgjandi runur inniheldur skráarheitið kenni runu sem nafnauka.
 - Segð virkjar (með því að skila **TRUE**) ferli fyrir stofnun skráa fyrir runur sem innihalda að minnsta kosti eina færslu.
 
-[![Vinnsla vinnsluflæðis](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+[![Stjórnun vinnsluflæðis.](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
 ## <a name="document-content-control"></a><a name="Enabled"></a>Efnisstýring skjals
 
@@ -123,18 +121,18 @@ Eftirfarandi skýringarmynd sýnir segðir af þessari gerð. (Útgáfa 11.12.11
 - Íhluturinn **PaymentNotes** er notaður til að mynda texta í athugasemdir við greiðslur.
 - Íhluturinn **DelimitedSequence** myndar kommuaðskilin reikningsnúmer sem eru notuð til að jafna núverandi kreditfærslu.
 
-[![PaymentNotes og DelimitedSequence íhlutir](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+[![PaymentNotes og DelimitedSequence íhlutir.](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
 
 > [!NOTE]
 > Íhlutirnir **PaymentNotes** og **DelimitedSequence** eru merktir með spurningarmerki. Spurningarmerki gefur til kynna að notkun íhluta sé skilyrt. Í þessu tilfelli er notkun íhlutanna byggð á eftirfarandi forsendum:
 >
 > - Segðin `@.PaymentsNotes <> ""` sem er skilgreind fyrir íhlutinn **PaymentNotes** gerir kleift (með því að skila **TRUE**) að XML-þátturinn **Ustrd** sé fylltur út með texta greiðsluathugasemda ef sá texti er ekki tómur fyrir gildandi kreditfærslu.
 >
->    [![Segð fyrir íhlut PaymentNotes](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+>    [![Segð fyrir íhlut PaymentNotes.](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
 >
 > - Segðin `@.PaymentsNotes = ""` sem er skilgreind fyrir íhlutinn **DelimitedSequence** gerir kleift (með því að skila **TRUE**) að XML-þátturinn **Ustrd** sé fylltur út með kommuaðskildum lista yfir reikningsnúmerin sem eru notuð til að jafna gildandi kreditfærslu, ef texti greiðsluathugasemdanna fyrir þá kreditfærslu er tómur.
 >
->    [![Segð fyrir íhlutinn DelimitedSequence](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+>    [![Segð fyrir íhlut DelimitedSequence.](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
 > 
 > Byggt á þessari uppsetningu munu skilaboðin sem myndast fyrir hverja greiðslu skuldara, XML-eininguna **Ustrd**, innihalda annaðhvort texta greiðsluseðla eða, þegar slíkur texti er auður, texta aðskilinn með kommu reikningsnúmer sem notuð eru til að jafna þessa greiðslu.
 
@@ -142,7 +140,7 @@ Eftirfarandi skýringarmynd sýnir segðir af þessari gerð. (Útgáfa 11.12.11
 
 Á síðunni **Formúluhönnuður** velurðu **Prófa** til að sannreyna hvernig uppsetta formúlan virkar.
 
-[![Val á prófi til að staðfesta formúlu](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
+[![Val á prófi til að staðfesta formúlu.](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
 
 Þegar gilda formúlufrumbreyta er krafist geturðu opnað valmyndina **Prófunarsegð** af síðunni **Formúluhönnuður**. Í flestum tilvikum verður að skilgreina þessar frumbreytur handvirkt þar sem stilltar bindingar eru ekki keyrðar á hönnunartíma. Flipinn **Niðurstaða prófunar** á síðunni **Formúluhönnuður** sýnir niðurstöðuna úr framkvæmd stilltrar formúlu.
 
@@ -150,17 +148,20 @@ Eftirfarandi dæmi sýnir hvernig þú getur prófað formúluna sem er stillt f
 
 Þegar þú prófar þessa formúlu geturðu notað valmyndina **Prófunarsegð** til að tilgreina gildi Intrastat grunnvörukóðans fyrir prófun.
 
-[![Tilgreining Intrastat grunnvörukóða fyrir prófun](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
+[![Intrastat grunnvörukóða tilgreint fyrir prófun.](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
 
 Eftir að þú hefur tilgreint Intrastat grunnvörukóðann og valið **Í lagi** sýnir flipinn **Niðurstaða prófunar** á síðunni **Formúluhönnuður** niðurstöðu framkvæmdar á stilltri formúlu. Þú getur síðan metið hvort niðurstaðan sé ásættanleg. Ef niðurstaðan er ekki ásættanleg geturðu uppfært formúluna og prófað hana aftur.
 
-[![Niðurstaða prófunar](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
+[![Niðurstaða prófunar.](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
 
 Sumar formúlurnar er ekki hægt að prófa á hönnunartíma. Til dæmis gæti formúla skilað niðurstöðu gagnategundar sem ekki er hægt að sýna á flipanum **Niðurstaða prófunar**. Í því tilfelli færðu villuboð sem segja að ekki sé hægt að prófa formúluna.
 
-[![Villuboð](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
+[![Villuboð.](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Formúlutungumál í rafrænni skýrslugerð](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

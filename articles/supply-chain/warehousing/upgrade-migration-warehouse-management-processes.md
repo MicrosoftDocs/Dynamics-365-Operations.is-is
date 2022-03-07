@@ -2,11 +2,9 @@
 title: Uppfærðu vörugeymslu frá Microsoft Dynamics AX 2012 við Supply Chain Management
 description: Í þessu efnisatriði er að finna yfirlit yfir vörur og valkosti flutnings vöruhúsastjórnunar.
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45d9809d4bbf1b5a68c3f799ce5d51f9709d276b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 5ac8c0d8781e5146186fbf71ce619f90ca3556ccefefe7e974efded7e0eb86dd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970282"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775436"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Uppfærðu vörugeymslu frá Microsoft Dynamics AX 2012 við Supply Chain Management 
 
@@ -68,7 +66,7 @@ Til að opna vörurnar sem voru lokaðar á meðan á uppfærslu stendur, verðu
 1.  Stofna að minnsta kosti eina nýju staðsetningu reglu.
 2.  Smellt er á **Vöruhúsastjórnun** &gt; **Uppsetningu** &gt; **Virkja vöruhúsakerfisferli** &gt; **Leyfa uppsetningu vöruhúss**.
 3.  Á við **Leyfa uppsetningu vöruhússins** síðunni, bæta við vöruhús sem á að vera virkur. Þú getur lokið þessu skrefi annaðhvort beint á síðunni eða með því að nota samþættinguna Microsoft Office.
-4.  Tengið forstillingu staðsetningu allra staðsetninga. Þú getur auðveldlega lokið þessu skrefi með því að nota Microsoft Office samþættinguna beint af síðunni. Hægt er að flytja og flytja inn gögn eða nota gögn skattaðilinn vinnslu í [gagnastjórnun](../../dev-itpro/data-entities/data-entities.md).
+4.  Tengið forstillingu staðsetningu allra staðsetninga. Þú getur auðveldlega lokið þessu skrefi með því að nota Microsoft Office samþættinguna beint af síðunni. Hægt er að flytja og flytja inn gögn eða nota gögn skattaðilinn vinnslu í [gagnastjórnun](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 5.  Villuleita breytingarnar. Hluti af villuleit í mismunandi fjarvistarkóðann heilleiki eiga sér stað. Hluti af stærri uppfærsluferlið vandamál koma upp þurfi leiðrétt uppruna innleiðingar. Í þessu tilfelli viðbótar gagnauppfærslu þarf.
 6.  Vinna breytingarnar.
 
@@ -79,6 +77,9 @@ Til að opna vörurnar sem voru lokaðar á meðan á uppfærslu stendur, verðu
 3.  Á við **Sendingarfrátekninga stigveldi** síðunni, tilgreinið nýja sendingarfrátekninga stigveldi samkvæmt geymslu vörunnar og rekja víddaflokka.
 4.  Stofna eitt eða fleiri einingar lotunúmerið sem innihalda að minnsta kosti sama einingar sem notaðar eru til í birgðaeiningum.
 5.  Smellt er á **Vöruhúsastjórnun** &gt; **Uppsetningu** &gt; **Virkja vöruhúsakerfisferli** &gt; **Breyta geymsluvíddarflokki fyrir vörur**.
-6.  Á við **geymslu víddarflokk Breytingu vara** síðunni, bæta við vörunúmer víddaflokkunum geymslu og einingu flokka númeraraða. Þú getur lokið þessu skrefi beint á síðunni með því að nota Microsoft Office samþættinguna eða með því að nota gagnaeiningaferlið í [Gagnastjórnun](../../dev-itpro/data-entities/data-entities.md).
+6.  Á við **geymslu víddarflokk Breytingu vara** síðunni, bæta við vörunúmer víddaflokkunum geymslu og einingu flokka númeraraða. Þú getur lokið þessu skrefi beint á síðunni með því að nota Microsoft Office samþættinguna eða með því að nota gagnaeiningaferlið í [Gagnastjórnun](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 7.  Villuleita breytingarnar. Hluti af villuleit í mismunandi fjarvistarkóðann heilleiki eiga sér stað. Hluti af stærri uppfærsluferlið vandamál koma upp þurfi leiðrétt uppruna innleiðingar. Í þessu tilfelli viðbótar gagnauppfærslu þarf.
 8.  Vinna breytingarnar. Uppfærsla á allar birgðavíddir getur framkvæmt á meðan. Hægt að fylgjast með framvindu með vinnslum runuverk.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

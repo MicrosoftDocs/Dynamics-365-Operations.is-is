@@ -1,17 +1,14 @@
 ---
-title: Sýna afslátt í POS
-description: Þetta efni útskýrir hvernig Microsoft Dynamics 365 Commerce hjálpar söluaðilum að fræðast um kynningar og hvernig hægt er að nota þær til að selja og viðbótarselja áætlanir.
+title: Birta afslátt á sölustað
+description: Þetta efnisatriði útskýrir hvernig Microsoft Dynamics 365 Commerce hjálpar söluaðilum að fá upplýsingar um kynningarefni og hvernig hægt er að nota það fyrir krossölu og söluauka.
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,24 +16,24 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 9e3fa5030cb684c01153d255ca2bd34d9be7dc9945f0c7ec26985cf74540b73d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413163"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731668"
 ---
 # <a name="show-discounts-in-pos"></a>Sýna afslátt í POS
 
 [!include [banner](includes/banner.md)]
 
-Kynningar gegna mikilvægu hlutverki við að hvetja viðskiptavini sem taka ákvarðanir um kaup. Sem dæmi má nefna að frí geta framleitt mesta sölu fyrir smásala, vegna þess að allur smásölumarkaðurinn fyllist af lokkandi kynningum og afslætti. Ef verslunaraðilar vita um og skilja kynningarnar sem eru í boði geta þeir auðveldlega nýtt sér þessar kynningar til að krossselja og viðbótarselja vörur. Þetta efni útskýrir hvernig Microsoft Dynamics 365 Commerce hjálpar söluaðilum að fræðast um kynningar og hvernig hægt er að nota þær til að selja og viðbótarselja áætlanir.
+Kynningar gegna mikilvægu hlutverki við að hvetja viðskiptavini sem taka ákvarðanir um kaup. Sem dæmi má nefna að frí geta framleitt mesta sölu fyrir smásala, vegna þess að allur smásölumarkaðurinn fyllist af lokkandi kynningum og afslætti. Ef verslunaraðilar vita um og skilja kynningarnar sem eru í boði geta þeir auðveldlega nýtt sér þessar kynningar til að krossselja og viðbótarselja vörur. Þetta efnisatriði útskýrir hvernig Microsoft Dynamics 365 Commerce hjálpar söluaðilum að fá upplýsingar um kynningarefni og hvernig hægt er að nota það fyrir krossölu og söluauka.
 
 ## <a name="learn-about-store-discounts"></a>Lærðu um afslátt í verslun
 
 Commerce felur í sér aðgerð sem ber nafnið „Skoða alla afslætti.“ Þessi aðgerð sýnir alla afslættina sem eru í gangi í verslun. Aðgerðina „Skoða alla afslætti“ er hægt að kortleggja á hnapp í sölustað (POS) og hægt er að bæta þeim hnapp við síðuna **Velkomin** eða síðuna **Færsla**. Eftirfarandi mynd sýnir dæmi um síðuna **Allir afslættir** sem opnast.
 
-![Síðan Allir afslættir](./media/View_all_discounts.png "Síðan Allir afslættir")
+![Síðan Allir afslættir.](./media/View_all_discounts.png "Síðan Allir afslættir")
 
 Til að sýna afslætti leitar kerfið eftir öllum afsláttum sem passa við eitt eða fleiri af eftirfarandi skilyrðum:
 
@@ -64,8 +61,11 @@ Eftirfarandi myndir sýna rökfræði sem ákvarðar hvaða afsláttur er sýndu
 
 Eftirfarandi mynd sýnir rökfræði sem er notuð þegar stýringu á samhliða afslætti er stillt á **Besta verð og blanda innan forgangs, aldrei blandað yfir forgangsröðun**.
 
-![Rökfræði fyrir besta verðið og efnasamband í forgangi, aldrei blandað yfir forgangsröðun](./media/Model_1.png "Rökfræði fyrir besta verðið og efnasamband í forgangi, aldrei blandað yfir forgangsröðun").
+![Rökfræði fyrir besta verðið og efnasamband í forgangi, aldrei blandað yfir forgangsröðun.](./media/Model_1.png "Rökfræði fyrir besta verðið og efnasamband í forgangi, aldrei blandað yfir forgangsröðun").
 
 Eftirfarandi mynd sýnir rökfræði sem er notuð þegar stýringu á samhliða afslætti er stillt á **Besta verð aðeins innan forgangs, alltaf blandað yfir forgangsröðun**.
 
-![Rökfræði fyrir besta verðið aðeins í forgangi, alltaf blandað yfir forgangsröðun](./media/Model_2.png "Rökfræði fyrir besta verðið aðeins í forgangi, alltaf blandað yfir forgangsröðun").
+![Rökfræði fyrir besta verðið aðeins í forgangi, alltaf blandað yfir forgangsröðun.](./media/Model_2.png "Rökfræði fyrir besta verðið aðeins í forgangi, alltaf blandað yfir forgangsröðun").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

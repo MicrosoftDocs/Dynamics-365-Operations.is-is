@@ -2,26 +2,23 @@
 title: Hólfaskipting vöruhúss
 description: Þetta efni inniheldur upplýsingar um hólfaskiptingu vöruhúss. Hólfaskipting vöruhúss gerir þér kleift að sameina eftirspurn eftir vöru og mælieiningu frá pöntunum með stöðuna Pöntuð, Frátekin eða Sleppt. Slíkt aðstoðar stjórnendur vöruhúsa að skipuleggja betur tiltektarstaðsetningar áður en þeir sleppa pöntunum til vöruhússins og búa til tiltektarvinnu.
 author: mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 31b86837735ca16610a1d304eab611b12a6aceeb
-ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 36903bc7ce4164e42d191156b7d9e04bec84d4f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4627750"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575148"
 ---
 # <a name="warehouse-slotting"></a>Hólfaskipting vöruhúss
 
@@ -384,3 +381,6 @@ Eftir að allir nauðsynlegir þættir eru til staðar geturðu sett upp hólfas
 1. Stilltu endurtekninguna til að keyra sjálfkrafa ef þú vilt.
 
 Þegar aðstæður eru æfðar skal **ekki** setja upp sjálfvirka hólfaskiptingu.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

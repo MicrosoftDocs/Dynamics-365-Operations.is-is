@@ -2,28 +2,25 @@
 title: Sveigjanleikaflokkar
 description: Í þessu efnisatriði er því lýst hvernig sveigjanleikaflokkar eru notaðir í tíma og viðveru.
 author: johanhoffmann
-manager: tfehr
 ms.date: 03/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgFlexGroup, JmgFlexCorrection
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c71ebab0788b6c5d7466a5d71e3c72a7e86e41db
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 44d8876aac8f8a3439a9a1285780bcc076c95807b950e3640c2a7523beae3f3e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717029"
 ---
 # <a name="flex-groups"></a>Sveigjanleikaflokkar
 
@@ -106,7 +103,7 @@ Starfskrafturinn tengist sveigjanleikaflokki sem hefur eftirfarandi grunnstillin
 - **Lágmarks launagerð:** 1302
 - **Stuðull launagerðar:** -1,0
 
-Líkt og munurinn á milli sveigjanlegs reiknings starfskrafts og leyfilegs sveigjanlegs hámarks bendir til, hefur starfskrafts farið yfir leyfilegt hámark því sem nemur 4,0 klst.
+Líkt og munurinn á milli sveigjanlegs reiknings starfskrafts og leyfilegs sveigjanlegs hámarks bendir til, hefur starfskraftur farið yfir leyfilegt hámark um sem nemur 4,0 klst.
 
 Þegar umsjónarmaður launa flytur launagögn starfskrafts með því að keyra verkið **Flutningur launa** eða **Leiðrétting sveigjanleika** eru eftirfarandi leiðréttingar gerðar:
 
@@ -185,3 +182,6 @@ Fjöldi vinnustunda Sveigjanlegs+ er sex klukkustundir og útreikningurinn byggi
 | 06:00 | 08:00 | 2    | 1.5       | 3            |
 | 08:00 | 09:00 | 1    | 2         | 2            |
 |          |          |      | **Samtala** | **8**        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

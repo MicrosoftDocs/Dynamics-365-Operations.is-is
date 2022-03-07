@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8b09bbe4d0143aa521ca0a4cf67e86b7165b0f4f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8d228c387e8a6bf956f729a69e2296130db32dbd
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968955"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210048"
 ---
 # <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a>Reikna afskriftir eigna milli lögaðila
 
@@ -50,3 +50,6 @@ Hægt er að keyra eignaafskriftir á milli lögaðila í einu skrefi. Þessi a�
 5. Smella skal Stofna færslubók.
 6. Fara í Eignir >°Færslubókarfærslur°> Eignabók.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

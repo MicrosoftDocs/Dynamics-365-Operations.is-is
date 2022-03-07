@@ -1,7 +1,7 @@
 ---
 title: Birgðalæsing
 description: Þetta efni veitir yfirlit yfir birgðalæsingu, sem er partur af gæðaskoðunarferli í Supply Chain Management. Hægt er að nota birgðalæsingu til að koma í veg fyrir að vörur séu unnar eða notaðar.
-author: yufeihuang
+author: perlynne
 ms.date: 03/02/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: yufeihuang
+ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 606bc23f552b57d0f4e3fdad28d1144cdf43e5d5
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.openlocfilehash: d07313050b59a32756fa5e31037f1831a2cbe862
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103539"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829885"
 ---
 # <a name="inventory-blocking"></a>Birgðalæsing
 
@@ -96,11 +96,13 @@ Hægt er að stofna gæðapöntun sem tengist birgðum með birgðastöðu sem e
 
 Athugið muninn á færslustöðu og víddunum á milli þessara tveggja tilvika. Af þessum ástæðum er mælt með því að virkja **Taka frá pantaðar vörur**.
 
-### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>Slökktu á væntanlegum kvittunum frá gæðapöntunum sem sýna sýnishorn af lokuðum birgðaeiginleika
+<!-- KFM: (Enable this section when the feature leaves private preview)
 
-Til að einfalda birgðafærslur þegar um er að ræða gæðapantanir sem sýnishorn af birgðum er lokað vegna birgðastöðu, býður kerfið upp á eiginleika sem slekkur á væntanlegum innhreyfingum frá slíkum gæðapöntunum. Vegna þess að væntanleg innhreyfing er strax læst með lokun birgðastöðu, er engin lækkun á birgðum á lager vegna þessarar breytingar.
+### Disable expected receipts from quality orders that sample blocked inventory feature
 
-Slökkt er á þessum eiginleika að sjálfgefnu. Stjórnendur geta kveikt eða slökkt á því með því að leita að *Slökktu á væntanlegum innhreyfingum frá gæðapöntunum sem taka sýnishorn af lokuðum birgðum* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+To simplify the inventory transactions in the case of quality orders that sample inventory blocked as a consequence of inventory status, the system provides a feature that disables expected receipts from such quality orders. As the expected receipt is in any case immediately blocked by inventory status blocking, there is no reduction of on-hand inventory because of this change.
+
+-->
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

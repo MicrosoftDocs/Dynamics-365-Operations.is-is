@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.dyn365.ops.version: Release 10.0.8
+ms.openlocfilehash: 2da0421bdb1496d51c807e51a26a980238886a42dfec167dac95611cc3df97bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102828"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730035"
 ---
 # <a name="cluster-position-full"></a>Staðsetning klasa er full
 
@@ -28,11 +28,14 @@ Eiginleikinn *Staðsetning klasa er full* býður upp á aðra leið í stað ó
 
 Þessi eiginleiki kynnir möguleikann á því að keyra hnappinn **Fullur** í einni vinnueiningunni í klasa. Í eldri útgáfum var þessi valkostur aðeins tiltækur fyrir reglubundna tiltekt á pöntun, ekki fyrir klasatiltekt. Þessi eiginleiki er hins vegar frábrugðinn hefðbundna hnappnum **Fullur** að því leyti að hann hættir við eftirstandandi vinnu. Hann stingur ekki upp á að notandinn bæti öðru hólfi við sama klasann og hann stofnar ekki sjálfkrafa nýja vinnu.
 
-## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>Kveiktu eða slökktu á Cluster position fullri eiginleikanum
+## <a name="turn-on-the-cluster-position-full-feature"></a>Kveikja á eiginleika fyrir fulla staðsetningu klasa
 
-Til að nota virknina sem lýst er í þessu efni, er *Klasastaða full* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Klasastaða full* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
-## <a name="setup"></a>Uppsetning
+- **Eining:** *Vöruhúsakerfi*
+- **Heiti eiginleika:** *Staðsetning klasa er full*
+
+## <a name="setup"></a>Setja upp
 
 Þessi hluti býður upp á leiðarvísi og dæmi sem sýnir hvernig á að setja upp og nota eiginleikann *Staðsetning klasa er full*.
 
