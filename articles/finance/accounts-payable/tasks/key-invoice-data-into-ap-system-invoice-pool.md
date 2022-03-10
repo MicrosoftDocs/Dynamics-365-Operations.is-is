@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc8e8ec224208990563e7c0f5d354bb13bb45fbcd35821e7f980b6cfb2c5a379
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: a4768ee6ddbaba8ae5bab5e2f9f7df9239efeb90
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777265"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358290"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Færa reikningsgögn inn í viðskiptaskuldakerfi með reikningasafni
 
@@ -58,7 +58,7 @@ ms.locfileid: "6777265"
 6. Veldu **Breyta skjámynd**.
 7. Veldu **Hnitalínuyfirlit**.
 8. Veldu **Bóka**.
-9. Lokaðu skjámyndinni.
+9. Lokið síðunni.
 10. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Viðskiptaskuldir > Lánardrottnar > Lánardrottnar**.
 11. Veljið þann lánardrottinn sem var á innkaupapöntuninni. Til dæmis, veljið lánardrottinn **1001**.
 12. Á aðgerðasvæðinu velurðu **Lánardrottinn**.

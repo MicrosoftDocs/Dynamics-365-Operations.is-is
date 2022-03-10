@@ -1,12 +1,10 @@
 ---
 title: Vinnsla almennrar færslubókar
 description: Þetta efnisatriði lýsir eiginleikum í Microsoft Dynamics 365 Finance sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, sem og að tryggja að rétt gögn séu tekin og að innri stýring sé ekki í hættu.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 08/09/2019
+author: kweekley
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f9f19f0714fc160792a29261e21fe4ec8d62c4b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 7096d8576cf124e5e1d814c360d96639f66a742a
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249240"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367881"
 ---
 # <a name="general-journal-processing"></a>Vinnsla almennrar færslubókar
 
@@ -44,14 +42,14 @@ Eitt af mikilvægustu sviðum til að setja upp eru heiti færslubókar. Góð h
 
 færslubókarheiti er hægt að nota fyrir leiðréttingar eingöngu. Í þessu tilfelli er hægt að tilgreina að aðeins **Fjárhags** lykilgerðin er gild fyrir öll fyrirtæki. 
 
-[![Gerðir lykla fyrir færslubókareftirlit](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Gerðir lykla fyrir færslubókareftirlit.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Hægt er að nota heiti færslubókar eingöngu fyrir tiltekinn hluta eða fyrir svið aðallykla. 
 
-[![Hluti færslubókareftirlits](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Hluti færslubókareftirlits.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 **Sjálfvirka bakfærslu** valkosturinn er tiltækur í almennar færslubækur. Til dæmis, er leiðrétting á uppsöfnun þar sem raunverulegur skjal hefur ekki enn verið unnin, eins og sýnt er í eftirfarandi skýringarmynd.
-[![Almenn færslubók sem er bakfærð](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Almenn færslubók sem er bakfærð.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 Microsoft Excel innbót fyrir færslu í færslubók veitir meiri sjálfvirkni og auðveldar innfærslu gagna. **Opnar línur í Excel** aðgerð er tiltæk á í **Almennrar færslubókar** og **fylgiskjal** síður. 
 
@@ -103,7 +101,7 @@ Hnappur er til á færslubókarsíðunni til að opna færslubók sem hefur stö
 Geta til að rifja upp dagbók í verkflæði sem hefur stöðuna „óendurheimtanleg“ er virk með því að nota hnappinn **Verkflæði** í dagbók og á síðunni **Verkflæðissaga**. Þetta er gert kleift með aðgerðinni sem heitir **Endurstilling á verkflæðisstöðu fyrir færslubækur** á síðunni **Stjórnun eiginleika**.
 
 ## <a name="delete-journal-lines"></a>Eyða færslubókarlínum
-Getan til að eyða öllum dagbókarlínum hratt er virk í dagbók undir **Aðgerðir** > **Eyða færslubókalínum**. Til að virkja þennan eiginleika, á **Stjórnun eiginleika** skaltu velja **Eyða afkastafínstillingu færslubókar**.
+Getan til að eyða öllum dagbókarlínum hratt er virk í dagbók undir **Aðgerðir** > **Eyða færslubókalínum**. Til að virkja þennan eiginleika, á **Stjórnun eiginleika** skaltu velja **Eyða afkastafínstillingu færslubókar**. Þessi eiginleiki hefur áhrif á viðbætur á **LedgerJournalTrans** borð og það er **Eyða** aðferð, þar sem línumengið er fjarlægt án þess að hringja í hverja línu **Eyða** aðferð. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

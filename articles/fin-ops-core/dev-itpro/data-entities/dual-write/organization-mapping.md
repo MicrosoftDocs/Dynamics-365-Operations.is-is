@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: afc1b5996667835c460f467526493380aa2d6403
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: HT
+ms.openlocfilehash: 9174612743c68595d12dd223f0932ace1857c0fb
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062087"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358365"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Stigveldi fyrirtækis í Dataverse
 
@@ -32,15 +32,15 @@ Vistkerfi fyrirtækja sem samanstendur af forritum Finance and Operations og Dat
 
 ![Skipulagsmynd.](media/dual-write-data-flow.png)
 
-Skipulagsstigveldistöflukort eru fáanleg fyrir einstefnusamstillingu gagna frá Finance and Operations forritum til Dataverse.
+Skipulagsstigveldistöflukort eru fáanleg fyrir einhliða samstillingu gagna frá Finance and Operations forritum til Dataverse.
 
 ## <a name="templates"></a>Sniðmát
 
-Afurðarupplýsingar innihalda allar upplýsingar sem tengjast vörunni og skilgreiningu hennar, svo sem afurðarvíddir eða mælingar og geymsluvíddir. Eins og eftirfarandi tafla sýnir er búið að stofna safn af töflukortum til að samstilla afurðir og tengdar upplýsingar.
+Fyrirtæki er hópur af fólki sem eru að vinna saman að því að framkvæma viðskiptaferli eða ná markmiði. Stigveldi fyrirtækis standa fyrir vensl á milli fyrirtækja sem þú ert með saman í rekstri. Hægt er að skilgreina eftirfarandi gerðir samstæðufyrirtæki: lögaðila, rekstrareiningar, og hópa. Eins og eftirfarandi tafla sýnir er safn af töflukortum búið til til að samstilla lögaðila, rekstrareiningar, s og tengdar skipulagsstigveldisupplýsingar.
 
-Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla     | lýsing
+Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla     | Lýsing
 -----------------------|--------------------------------|---
-[Lögaðilar](mapping-reference.md#102) | cdm_companies | Veitir tvíátta samstillingu upplýsinga um lögaðila (fyrirtæki).
+[Lögaðilar](mapping-reference.md#102) | cdm_companies | 
 [Lögaðilar](mapping-reference.md#142) | msdyn_internalorganizations |
 [Rekstrareining](mapping-reference.md#143) | msdyn_internalorganizations |
 [Stigveldi fyrirtækis - birt](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | Þetta sniðmát veitir samstillingu í eina átt í töflunni Stigveldi fyrirtækis - birt.

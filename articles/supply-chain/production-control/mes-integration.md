@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: ea39a1fc9092aaa4622c7193f7538acc85aa0f46
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: HT
+ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
+ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952678"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "8330702"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Samþætta við kerfi þriðju aðila fyrir framkvæmd framleiðslu
 
@@ -43,7 +43,7 @@ Eftirfarandi mynd sýnir dæmigert safn viðskiptaviðburða, ferla og skilaboð
 1. Gakktu úr skugga um að **Tími og mæting** leyfislykill er virkur (sýnir hak). Þessi leyfislykill er nauðsynlegur vegna þess að hann stjórnar virkni og gögnum framleiðslukerfisins. Ef það er ekki virkt skaltu gera eftirfarandi skref:
     1. Setjið kerfið í viðhaldsstillingu eins og lýst er í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
     1. Á **Leyfisstillingar** síðu, veldu **Tími og mæting** gátreit.
-    1. Slökktu á viðhaldsstillingu eins og lýst er í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
+    1. Slökktu á viðhaldsstillingu, eins og lýst er í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
 1. Farðu í **Kerfisstjórnun \> Vinnurými \> Eiginleikastjórnun**.
 1. Kveiktu á eiginleikanum sem er skráður á eftirfarandi hátt (sjá einnig [Yfirlit yfir eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
     - **Eining:** *Framleiðslustýring*
@@ -57,7 +57,7 @@ Eftirfarandi mynd sýnir dæmigert safn viðskiptaviðburða, ferla og skilaboð
 |---|---|
 | Losa framleiðslupantanir og framleiðslupöntunarstöðu breyta viðskiptaviðburðum | Þetta ferli veitir viðskiptaviðburð sem MES getur hlustað á, til að fá upplýsingar um framleiðslupantanir sem ætti að framleiða. Búist er við að tilvísunargögnum sem tengjast framleiðslupöntuninni verði deilt frá Supply Chain Management til MES í gegnum Open Data Protocol (OData) eða gagnaeiningar. |
 | Hefja framleiðslupöntun | Þetta ferli veitir Supply Chain Management upplýsingar um framleiðslupantanir sem verið er að hefja með því að nota MES. Það tryggir að bæði kerfin hafi uppfærða sýn á alla framleiðslustarfsemi. |
-| Tilkynntu framleitt eða eytt magn | Þetta ferli veitir Supply Chain Management upplýsingar um vöru- og villumagn sem er tilkynnt um framleiðsluverk með því að nota MES. Það tryggir að umsjónarmenn á verkstæði hafi uppfærða sýn á framvindu framleiðsluáætlunar. |
+| Tilkynntu framleitt eða eytt magn | Þetta ferli veitir Supply Chain Management upplýsingar um vöru- og villumagnið sem tilkynnt er um framleiðsluverk með því að nota MES. Það tryggir að umsjónarmenn á verkstæði hafi uppfærða sýn á framvindu framleiðsluáætlunar. |
 | Tilkynna efnisnotkun | Þetta ferli veitir Supply Chain Management upplýsingar frá MES um magn efna sem er neytt. Það gerir uppfærðar birgðaskrár aðgengilegar öðrum mikilvægum ferlum, svo sem áætlanagerð og sölu. |
 | Tilkynna tíma sem notaður hefur verið í aðgerðina | Þetta ferli veitir Supply Chain Management upplýsingar um þann tíma sem er notaður í tiltekna aðgerð. |
 | Ljúka framleiðslupöntun | Þetta ferli upplýsir Supply Chain Management um að MES hafi uppfært framleiðslupöntun í lokastöðu *Lokað*. Þessi staða gefur til kynna að ekki verði meira magn framleitt á framleiðslupöntuninni. |
@@ -92,7 +92,7 @@ Meginmál beiðninnar sem þú sendir ætti að líkjast eftirfarandi dæmi. Ski
 
 Fyrir *hefja framleiðslupöntun* skilaboð, the`_messageType` gildi er `ProdProductionOrderStart`. Eftirfarandi tafla sýnir reiti sem þessi skilaboð styðja.
 
-| Heiti reits | Staða | Gerð |
+| Heiti svæðis | Staða | Gerð |
 |---|---|---|
 | `ProductionOrderNumber` | Skylda | Strengur |
 | `StartedQuantity` | Valfrjálst | Rauntala |
@@ -103,14 +103,14 @@ Fyrir *hefja framleiðslupöntun* skilaboð, the`_messageType` gildi er `ProdPro
 
 Fyrir *skýrslu sem lokið* skilaboð, the`_messageType` gildi er `ProdProductionOrderReportFinished`. Eftirfarandi tafla sýnir reiti sem þessi skilaboð styðja.
 
-| Heiti reits | Staða | Gerð |
+| Heiti svæðis | Staða | Gerð |
 |---|---|---|
 | `ProductionOrderNumber` | Skylda | Strengur |
 | `ReportFinishedLines` | Skylda | Listi yfir línur (að minnsta kosti ein), sem hver um sig inniheldur farminn sem lýst er í næstu töflu |
 
 Eftirfarandi tafla sýnir reiti sem hver lína í`ReportFinishedLines` kafla í`ProdProductionOrderReportFinished` skilaboð styður.
 
-| Heiti reits | Staða | Gerð |
+| Heiti svæðis | Staða | Gerð |
 |---|---|---|
 | `LineNumber` | Valfrjálst | Rauntala |
 | `ItemNumber` | Valfrjálst | Strengur|
@@ -158,7 +158,7 @@ Eftirfarandi tafla sýnir reiti sem hver lína í`ReportFinishedLines` kafla í`
 
 Fyrir *efnisnotkun (vallisti)* skilaboð, the`_messageType` gildi er `ProdProductionOrderPickingList`. Eftirfarandi tafla sýnir reiti sem þessi skilaboð styðja.
 
-| Heiti reits | Staða | Gerð |
+| Heiti svæðis | Staða | Gerð |
 |---|---|---|
 | `ProductionOrderNumber` | Skylda | Strengur |
 | `JournalNameId` | Valfrjálst | Strengur |
@@ -166,7 +166,7 @@ Fyrir *efnisnotkun (vallisti)* skilaboð, the`_messageType` gildi er `ProdProduc
 
 Eftirfarandi tafla sýnir reiti sem hver lína í`PickingListLines` kafla í`ProdProductionOrderPickingList` skilaboð styður.
 
-| Heiti reits | Staða | Gerð |
+| Heiti svæðis | Staða | Gerð |
 |---|---|---|
 | `ItemNumber` | Skylda | Strengur |
 | `ConsumptionBOMQuantity` | Valfrjálst | Rauntala |
@@ -183,12 +183,13 @@ Eftirfarandi tafla sýnir reiti sem hver lína í`PickingListLines` kafla í`Pro
 | `PositionNumber` | Valfrjálst | Strengur |
 | `IsConsumptionEnded` | Valfrjálst | Boole |
 | `ErrorCause` | Valfrjálst | Enum (Engin\| Efni\| Vél\| OperatingStaff), stækkanlegt |
+| `InventoryLotId` | Valfrjálst | Strengur |
 
 ### <a name="time-used-for-operation-route-card-message"></a>Tími notaður fyrir aðgerð (leiðarkort) skilaboð
 
 Fyrir *tími notaður til notkunar (leiðarkort)* skilaboð, the`_messageType` gildi er `ProdProductionOrderRouteCard`. Eftirfarandi tafla sýnir reiti sem þessi skilaboð styðja.
 
-| Heiti reits | Staða | Gerð |
+| Heiti svæðis | Staða | Gerð |
 |---|---|---|
 | `ProductionOrderNumber` | Skylda | Strengur |
 | `JournalNameId` | Valfrjálst | Strengur |
@@ -196,7 +197,7 @@ Fyrir *tími notaður til notkunar (leiðarkort)* skilaboð, the`_messageType` g
 
 Eftirfarandi tafla sýnir reiti sem hver lína í`RouteCardLines` kafla í`ProdProductionOrderRouteCard` skilaboð styður.
 
-| Heiti reits | Staða | Gerð |
+| Heiti svæðis | Staða | Gerð |
 |---|---|---|
 | `OperationNumber` | Skylda | Heiltala |
 | `OperationPriority` | Valfrjálst | Enum (Aðal\| Annað 1\| Annað 2\| ...\| Secondary20) |
@@ -224,7 +225,7 @@ Eftirfarandi tafla sýnir reiti sem hver lína í`RouteCardLines` kafla í`ProdP
 
 Fyrir *enda framleiðslupöntun* skilaboð, the`_messageType` gildi er `ProdProductionOrderEnd`. Eftirfarandi tafla sýnir reiti sem þessi skilaboð styðja.
 
-| Heiti reits | Staða | Gerð |
+| Heiti svæðis | Staða | Gerð |
 |---|---|---|
 | `ProductionOrderNumber` | Skylda | Strengur |
 | `ExecutedDateTime` | Valfrjálst | DateTime-gildi |

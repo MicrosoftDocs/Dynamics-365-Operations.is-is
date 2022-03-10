@@ -2,7 +2,7 @@
 title: Leitaryfirlit í skýinu
 description: Þetta efnisatriði sýnir yfirlit yfir leit í skýinu í Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 06/29/2020
+ms.date: 02/28/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: HT
+ms.openlocfilehash: 9116dd415d44a56fbe8c7852382c413b0a75872c
+ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983670"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8371430"
 ---
 # <a name="cloud-powered-search-overview"></a>Leitaryfirlit í skýinu
 
@@ -26,13 +26,13 @@ ms.locfileid: "7983670"
 
 Þetta efnisatriði sýnir yfirlit yfir leit í skýinu í Microsoft Dynamics 365 Commerce.
 
-Vöruuppgötvun hjálpar til við að tryggja að viðskiptavinir geti fundið vörur fljótt og auðveldlega með því að vafra um flokka, leita og sía. Smásalar líta á vöruuppgötvun sem aðalverkfæri til að hafa samskipti við viðskiptavini á öllum rásum.
+Vöruuppgötvun hjálpar til við að tryggja að viðskiptavinir geti fundið vörur fljótt og auðveldlega með því að vafra um flokka, leita og sía. Söluaðilar líta á vöruuppgötvun sem aðalverkfæri fyrir samskipti viðskiptavina þvert á rásir knúnar af Cloud Scale Unit (CSU), eins og rafræn viðskipti og sölustað (POS).
 
-Viðskiptavinir eru vanir nánast samstundis svartímum vefleitarvéla, háþróuðum netverslunarsíðum, félagslegum forritum, sjálfvirkum uppástungum sem birtast þegar þeir slá inn leitarskilyrði, hliðarleiðsögn og auðkenningu. Ef viðskiptavinir geta ekki fundið vöruna sem þeir eru að leita að nógu fljótt í einni verslun með netverslun, munu þeir ekki hika við að fara í aðra netverslun.
+Viðskiptavinir eru vanir nánast samstundis svartímum vefleitarvéla, háþróuðum netverslunarsíðum, félagslegum forritum, sjálfvirkum uppástungum sem birtast þegar þeir slá inn leitarskilyrði, hliðarleiðsögn og auðkenningu. Ef viðskiptavinir geta ekki fundið vöruna sem þeir eru að leita að fljótt í einni netverslun munu þeir ekki hika við að fara í aðra netverslun.
 
-Uppgötvun skýjavöru afurðar í Dynamics 365 Commerce hjálpar smásöluaðilum að halda áfram að auka varðveislu neytenda og viðskiptahlutfall á öllum rásum, bæði rásir í netverslun og sölustaði (POS).
+Skýknúna vöruuppgötvunin í Commerce hjálpar smásöluaðilum að halda áfram að auka neytendahald og viðskiptahlutfall á milli rása sem knúnar eru af CSU.
 
-Leitarreynslan Dynamics 365 Commerce hefur bætt getu til að hjálpa smásöluaðilum að öðlast betri uppgötvun vöru. Á sama tíma skilar þessi geta sveigjanleika og afköstum sem eru nauðsynleg fyrir umferð í netverslun.
+Commerce leitarupplifunin hefur bætt möguleika til að hjálpa smásöluaðilum að ná betri uppgötvun vöru. Á sama tíma skila þessir eiginleikar þeim sveigjanleika og afköstum sem krafist er fyrir rafræn viðskipti.
 
 ## <a name="browse-and-search"></a>Vafra og leita
 
@@ -54,9 +54,9 @@ Eftirfarandi mynd sýnir dæmi þar sem hliðarleiðsögn er notuð við leit.
 
 ## <a name="immersive-autosuggest"></a>Heildstæð sjálfvirkni
 
-Núverandi virkni sjálfvirkrar mælingar sýnir bara lykilorð sem kalla fram leit að samsvarandi leitarorði. Vegna nýrra endurbóta í Dynamics 365 Commerce geta viðskiptavinir oft uppgötvað hlekki á vörur áður en þeir hafa lokið við að slá inn.
+Núverandi virkni sjálfvirkrar uppástungu sýnir leitarorð sem kalla fram leit að samsvarandi leitarorði. Vegna nýrra endurbóta í Commerce geta viðskiptavinir oft uppgötvað tengla á vörur áður en þeir hafa lokið við að slá inn.
 
-Dynamics 365 Commerce styður einnig virkni fyrir samsvörun leitarorða í ýmsum flokkum. Þessa virkni skulum viðskiptavinir sjá fjölda samsvarandi leitarorða milli flokka og kalla fram leit að leitarorði í öðrum flokkum.
+Viðskipti styður einnig virkni fyrir leitarorðasamsvörun í ýmsum flokkum. Þessa virkni skulum viðskiptavinir sjá fjölda samsvarandi leitarorða milli flokka og kalla fram leit að leitarorði í öðrum flokkum.
 
 Eftirfarandi mynd sýnir dæmi þar sem verið er að nota heildstæða sjálfvirkni.
 
@@ -64,10 +64,10 @@ Eftirfarandi mynd sýnir dæmi þar sem verið er að nota heildstæða sjálfvi
 
 ## <a name="sort"></a>Raða
 
-Aukin flokkun í Dynamics 365 Commerce gerir viðskiptavinum kleift að flokka, leita og fletta í leitarniðurstöðum og betrumbæta þær eftir forsendum eins og verði, vöruheiti og vörunúmeri. Viðskiptavinir geta einnig flokkað niðurstöður út frá því hvort vara er ný, mest seld eða nýlega bætt við.
+Aukin flokkun í Commerce gerir viðskiptavinum kleift að flokka, leita og fletta í leitarniðurstöðum og betrumbæta þær eftir viðmiðum eins og verði, vöruheiti og vörunúmeri. Viðskiptavinir geta einnig flokkað niðurstöður út frá því hvort vara er ný, mest seld eða nýlega bætt við.
 
->[!NOTE]
->Þessir leitareiginleikar í skýi eru tiltækir frá útgáfu 10.0.8. Gangið úr skugga um að undir **Viðskiptafæribreytur > Skilgreiningarfæribreytur** sé færsla fyrir „ProductSearch.UseAzureSearch stillt á true“. 
+> [!NOTE]
+> Þessir leitareiginleikar í skýi eru tiltækir frá útgáfu 10.0.8. Gakktu úr skugga um að það sé færsla fyrir „ProductSearch.UseAzureSearch“ stillt á „true“ í **Viðskiptafæribreytur > Stillingarfæribreytur**. 
 ![Færibreytur skilgreininga fyrir leit í skýinu.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
@@ -77,4 +77,4 @@ Aukin flokkun í Dynamics 365 Commerce gerir viðskiptavinum kleift að flokka, 
 [Stjórna SEO-lýsigögnum](manage-seo-metadata.md)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

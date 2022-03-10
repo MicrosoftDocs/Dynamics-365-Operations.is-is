@@ -1,24 +1,23 @@
 ---
 title: Yfirlit yfir Evrópu
 description: Í þessu efnisatriði eru tenglar á skjöl Microsoft Dynamics 365 Finance fyrir Evrópu.
-author: ShylaThompson
-ms.date: 02/24/2021
-ms.topic: article
+author: kfend
+ms.date: 01/15/2022
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37017a082c33b83b78569b748e3d266da4f0df3bc03402ff4cf4a53e415d4f2c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750280"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367849"
 ---
 # <a name="europe-overview"></a>Yfirlit yfir Evrópu
 
@@ -37,13 +36,13 @@ ms.locfileid: "6750280"
 - [Reikningskennum á sölupöntunum breytt fyrir Austur-Evrópu](emea-edit-invoice-id-sales-orders.md)
 - [Færsluvottorð ESB](emea-entry-certificates.md)
 - [Skýrslugerð ESB-sölulista](emea-eu-sales-list.md)
+  - [Dæmi um almennan sölulista ESB](emea-eu-sales-list-example.md)
 - [Gengisleiðrétting](emea-exchange-rate-adjustments.md)
 - [Skrársnið fyrir greiðsluhátt](emea-select-file-formats-for-the-method-of-payments.md)
 - [Fjárhagsleiðbeiningar (altækar) um áhrif af Brexit](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Samþætting fjárhagsþjónustu (ESR)](emea-fiscal-service-integration.md)
 - [Afskráning eigna fyrir Eistland og Litháen](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Mynda flutningsskjal fyrir innri birgðaflutning](tasks/transfer-document-internal-inventory-transfer.md)
-- [Mynda skýrslugerð fyrir ESB-sölulista](tasks/eur-00011-eu-sales-list-report.md)
 - ISO20022-skrár
   - [Innflutningur ISO20022-skráa](emea-ISO20022-file-formats.md)
   - [Flytja inn ISO20022-beingreiðsluskilgreiningu](tasks/import-iso20022-direct-debit-configuration.md)
@@ -78,7 +77,6 @@ ms.locfileid: "6750280"
 - [SEPA-millifærsluyfirlit](../accounts-payable/sepa-credit-transfer.md)
 - [Yfirlit yfir SEPA-umboð fyrir beint debet](../accounts-receivable/sepa-direct-debit-overview.md)
 - [Uppsetning greiðslna til viðskiptavina og lánardrottna](emea-compensation-customer-vendor-transactions.md)
-- [Setja upp skýrslugerð vegna ESB-sölulista](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Setja upp greiðsluseðlasnið fyrir verkreikninga](tasks/set-up-payment-slip-format-project-invoices.md)
 - [Uppsetning undirritunaraðila fyrir prentuð eyðublöð](emea-set-up-signers-for-printing-forms.md)
 - [Storno-bókhald](emea-storno.md)
@@ -94,6 +92,8 @@ ms.locfileid: "6750280"
   - [Stofna og senda inn VSK-skýrslu](tasks/create-submit-vat-report.md)
   - [Skoða færslur vegna uppgjörs fyrir Austur-Evrópu](emea-transactions-settlement-form.md)
   - [Dagsetning skattfærslu (dagsetning VSK-skráar)](emea-tax-point-date.md)
+  - [Dagsetning VSK-skrár lánardrottins](emea-date-vendor-VAT-register.md)
+- [Fjárhagsleg ástæða eiginleikaframlenging](emea-financial-reason.md)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

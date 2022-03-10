@@ -3,24 +3,23 @@ title: Nota fyrirframgreiðslur sjálfkrafa í reikningum lánardrottins
 description: Þetta efnisatriði útskýrir möguleikann á að nota fyrirframgreiðslur sjálfkrafa á reikninga lánardrottins.
 author: sunfzam
 ms.date: 10/19/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: b1ea73a50f5adaa1a00c9ddfa8c983375e0d47be
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: HT
+ms.openlocfilehash: 8583962c41a7ac5e27463f325ddc2ccd367331cc
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675731"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358220"
 ---
 # <a name="automatically-apply-to-vendor-invoices"></a>Nota sjálfkrafa á reikninga lánardrottins
 
@@ -37,12 +36,12 @@ Eftirfarandi atriði lýsa því hvernig staðgreiðslur eru notaðar þegar mis
 - **Margir lánardrottnareikningar á hverja innkaupapöntun** – Fyrirframgreiðslan á innkaupapöntuninni verður notuð í fyrsta innflutta reikning lánardrottins. Ef upphæð fyrirframgreiðslu er hærri en reikningsupphæðin mistekst fyrirframgreiðslan og nota verður hana handvirkt.
 - **Margir lánardrottnareikningar fyrir margar innkaupapantanir** – Fyrirframgreiðslurnar á innkaupapöntunum verða notaðar í fyrsta viðeigandi reikningnum. Ef upphæð fyrirframgreiðslu er hærri en reikningsupphæðin mistekst fyrirframgreiðslan og nota verður hana handvirkt. Ef einhverjar fyrirframgreiðslur eru eftir þegar fyrirframgreiðslur eru notaðar er hægt að nota þær á reikninga sem á eftir koma.
 
-Ef kerfið reynir að nota fyrirframgreiðslu en notkun mistekst, fer hegðunin eftir stillingu á valkostinum **Loka fyrir sjálfvirkan eftirfylgniferil ef notkun fyrirframgreiðslu mistekst**:
+Ef tilraun til að beita fyrirframgreiðslu mistekst mun stillingin á **Lokaðu sjálfvirkniferli í eftirfylgni ef misbrestur á fyrirframgreiðsluforriti** valkostur mun ákvarða næstu skref:
 
 - **Já** – Villuboðin „Sjálfvirk notkun fyrirframgreiðslu: Mistókst“ er bætt við í sjálfvirkniferlinum og reikningurinn er áfram á listanum yfir reikninga lánardrottins sem eru í bið. Reikningurinn verður áfram útilokaður þar til þú notar fyrirframgreiðsluna handvirkt.
 
-    Farðu á lánardrottnareikning í bið til að nota fyrirframgreiðslur handvirkt. Á síðunni **Reikningsupplýsingar** skal stilla valkostinn **Hafa með í sjálfvirkri vinnslu** fyrir útilokaðan reikning á **Nei**. Nú er hægt að nota fyrirframgreiðsluna handvirkt. Eftir að fyrirframgreiðslan hefur verið notuð skaltu stilla valkostinn **Hafa með í sjálfvirkri vinnslu** aftur á **Já** svo hægt sé að vinna úr reikningnum sjálfkrafa.
+Farðu á lánardrottnareikning í bið til að nota fyrirframgreiðslur handvirkt. Á síðunni **Reikningsupplýsingar** skal stilla valkostinn **Hafa með í sjálfvirkri vinnslu** fyrir útilokaðan reikning á **Nei**. Nú er hægt að nota fyrirframgreiðsluna handvirkt. Eftir að fyrirframgreiðslan hefur verið notuð skaltu stilla valkostinn **Hafa með í sjálfvirkri vinnslu** aftur á **Já** svo hægt sé að vinna úr reikningnum sjálfkrafa.
 
-    Þú getur sneitt framhjá sjálfvirkri notkun fyrirframgreiðslu með því að stilla valkostinn **Hafa með í sjálfvirkri vinnslu** á **Nei** og síðan stilla hann aftur á **Já**. Þú færð eftirfarandi skilaboð: „Fyrirframgreiðsla er þegar til staðar fyrir innkaupapöntunina. Á að hunsa þetta fyrir valinn reikning lánardrottins? Velja skal **Já**. Skilaboðunum „Notkun fyrirframgreiðslu sleppt handvirkt“ er bætt við í sjálfvirkniferlinum og reikningur lánardrottins verður ekki útilokaður þegar sjálfvirka ferlið er keyrt aftur.
+Þú getur sneitt framhjá sjálfvirkri notkun fyrirframgreiðslu með því að stilla valkostinn **Hafa með í sjálfvirkri vinnslu** á **Nei** og síðan stilla hann aftur á **Já**. Þú færð eftirfarandi skilaboð: „Fyrirframgreiðsla er þegar til staðar fyrir innkaupapöntunina. Á að hunsa þetta fyrir valinn reikning lánardrottins? Velja skal **Já**. Skilaboðunum „Notkun fyrirframgreiðslu sleppt handvirkt“ er bætt við í sjálfvirkniferlinum og reikningur lánardrottins verður ekki útilokaður þegar sjálfvirka ferlið er keyrt aftur.
 
 - **Nei** – Eftirfylgni sjálfvirkniferla mun halda áfram. Enn er hægt að nota fyrirframgreiðsluna við jöfnun.

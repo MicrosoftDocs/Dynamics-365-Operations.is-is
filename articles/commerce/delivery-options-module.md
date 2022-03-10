@@ -2,8 +2,7 @@
 title: Eining afhendingarvalkosta
 description: Þetta efnisatriði fjallar um einingar afhendingarvalkosta og lýsir því hvernig á að skilgreina þær í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 04/23/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 12b0281a27dcf5f567bcd6be5530fa8e26a4ae99
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
-ms.translationtype: HT
+ms.openlocfilehash: 9b9a7ad05974b98511cfc582af62c19c5fb4dbf5
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937483"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349795"
 ---
 # <a name="delivery-options-module"></a>Afhendingarkostaeining
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Þetta efnisatriði fjallar um einingar afhendingarvalkosta og lýsir því hvernig á að skilgreina þær í Microsoft Dynamics 365 Commerce.
 
@@ -43,7 +41,7 @@ Ef sendingargjöld eiga við um línuatriði er hægt að sýna þau í körful�
 
 Eftirfarandi mynd sýnir dæmi um einingu afhendingarvalkosts á greiðsluferlissíðu.
 
-![Dæmi um einingu afhendingarvalkosts á greiðsluferlissíðu](./media/ecommerce-deliveryoptions.PNG)
+![Dæmi um einingu afhendingarvalkosts á greiðsluferlissíðu.](./media/ecommerce-deliveryoptions.PNG)
 
 ## <a name="delivery-options-module-properties"></a>Eiginleikar einingar afhendingarvalkosta
 
@@ -57,6 +55,9 @@ Eftirfarandi mynd sýnir dæmi um einingu afhendingarvalkosts á greiðsluferlis
 ## <a name="add-a-delivery-options-module-to-a-checkout-page-and-set-the-required-properties"></a>Bæta einingu afhendingarvalkosta við greiðsluferlissíðu og stilla nauðsynlega eiginleika
 
 Aðeins er hægt að bæta einingu afhendingarvalkosta við greiðsluferliseiningu. Frekari upplýsingar um hvernig skilgreina á einingu afhendingarvalkosta og bæta henni við greiðsluferlissíðu er að finna í [Greiðsluferliseining](add-checkout-module.md).
+
+> [!NOTE]
+> Þú gætir fundið fyrir ósamræmi meðhöndlun á afhendingu, eða þú gætir ekki séð gjöld á haus sem ekki eru hlutfallsleg á rafrænu viðskiptarásinni þinni. Fyrir leiðbeiningar um hvernig eigi að laga þessi vandamál, sjá [Virkjaðu samræmda afhendingarham meðhöndlun í rafrænum viðskiptarásum](consistent-delivery-mode-handling.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

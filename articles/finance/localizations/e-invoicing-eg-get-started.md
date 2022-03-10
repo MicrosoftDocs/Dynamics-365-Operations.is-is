@@ -1,80 +1,106 @@
 ---
-title: Hafist handa með rafrænar reikningsfærslur fyrir Egyptaland
-description: Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með rafrænni reikningsfærslu fyrir Egyptaland í Finance and Supply Chain Management.
+title: Rafræn reikningur fyrir Egyptaland
+description: Þetta efni veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Egyptaland í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 04/20/2021
+ms.date: 02/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b25a3489d009a02b45d66d4c3a0271a56a92f5ac
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: HT
+ms.openlocfilehash: 6fe1dd4254db8b390c17558320a6eaff2b0dcd19
+ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985626"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8371357"
 ---
-# <a name="get-started-with-electronic-invoicing-for-egypt"></a>Hafist handa með rafrænar reikningsfærslur fyrir Egyptaland
+# <a name="electronic-invoicing-for-egypt"></a>Rafræn reikningur fyrir Egyptaland
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Egyptaland. Efnisatriðið leiðir þig í gegnum skilgreiningarskrefi sem eru landsmiðuð í Regulatory Configuration Services (RCS) og bætast ofan á skrefin sem lýst er í [Hafist handa með rafrænni reikningsfærslu](e-invoicing-get-started.md).
+Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Egyptaland. Það leiðir þig í gegnum stillingarskrefin sem eru háð landinu í Regulatory Configuration Service (RCS). Þessi skref eru viðbót við þau skref sem lýst er í [Settu upp rafræna reikningagerð](e-invoicing-set-up-overview.md).
 
-## <a name="country-specific-configuration-for-egyptian-electronic-invoice-eg-electronic-invoicing-feature"></a>Landsbundin skilgreining fyrir eiginleika rafrænnar reikningsfærslu fyrir rafrænan reikning í Egyptalandi (EG)
+## <a name="prerequisites"></a>Forkröfur
 
-Sumar færibreyturnar úr **rafræna reikningseiginleikanum fyrir Egypskan rafrænan reikning (EG)** eru birtar með sjálfgefnum gildum. Farið yfir gildin og, ef þörf krefur, uppfærið gildin svo þau endurspegli betur fyrirtækjareksturinn áður en rafræni reikningseiginleikinn er notaður í þjónustuumhverfinu.
+Áður en þú byrjar aðgerðir í þessu efni skaltu ljúka eftirfarandi forkröfum:
 
-Þessi hluti tengist **Landsbundin skilgreining fyrir eiginleika rafrænnar reikningsfærslu** hlutanum í efnisatriðinu [Hafist handa með rafrænar reikningsfærslur](e-invoicing-get-started.md).
+- Kynntu þér rafræna reikningagerð eins og henni er lýst í [Yfirlit rafrænna reikninga](e-invoicing-service-overview.md).
+- Skráðu þig í RCS og settu upp rafræna reikninga. Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 
-### <a name="prerequisites"></a>Forkröfur
+    - [Skráðu þig í og settu upp rafræna reikningaþjónustu](e-invoicing-sign-up-install.md)
+    - [Settu upp Azure tilföng fyrir rafræna reikningagerð](e-invoicing-set-up-azure-resources.md)
+    - [Setja upp innbótina fyrir microservices í Lifecycle Services](e-invoicing-install-add-in-microservices-lcs.md)
+    
+- Virkjaðu samþættingu milli Microsoft þinnar Dynamics 365 Finance eða Dynamics 365 Supply Chain Management umsókn og rafræna reikningsþjónustu eins og lýst er í [Virkjaðu og settu upp samþættingu við rafræna reikningagerð](e-invoicing-activate-setup-integration.md).
+- Búðu til stafrænt vottorðsleyndarmál í Azure Key Vault og settu það upp eins og lýst er í [Viðskiptavinavottorð og leyndarmál](e-invoicing-customer-certificates-secrets.md). Í prófunartilgangi veita egypsk skattyfirvöld ákveðnar prufur af stafrænum vottorðum sem þarf aðeins að nota við prófun og staðfestingu lausnar. Fyrir frekari upplýsingar, farðu á vefsíðu egypska skattyfirvalda með því að nota hlekkinn sem er að finna í [Egyptian e-invoicing SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/).
 
-Áður en ferlið er klárað í þessum hluta þarf að:
+## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-feature"></a>Landssértæk uppsetning fyrir egypska rafræna reikninginn (EG) eiginleikann
 
-- Búa til leynilykil stafræns vottorðs eins og lýst er í hlutanum **Búa til leynilykil stafræns vottorðs** í [Hafist handa með stjórnun þjónustu rafrænna reikninga](e-invoicing-get-started-service-administration.md). Í prófunartilgangi veita egypsk skattyfirvöld ákveðnar prufur af stafrænum vottorðum sem þarf aðeins að nota við prófun og staðfestingu lausnar. Til að fá frekari upplýsingar skal skoða vefsvæði egypskra skattyfirvalda með tenglinum sem gefinn er upp í [SDK rafræn reikningsfærsla í Egyptalandi](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+Sumir af breytum frá **Egypskur rafrænn reikningur (EG)** eiginleikar rafrænna reikninga eru birtir með sjálfgefnum gildum. Áður en þú innleiðir rafræna reikningseiginleikann í þjónustuumhverfið skaltu skoða sjálfgefna gildin og uppfæra þau eftir þörfum svo þau endurspegli betur rekstur fyrirtækisins.
 
-1. Í RCS, í hlutanum **Eiginleikar** á vinnusvæðinu **Altækur eiginleiki**, skal velja reitinn **Rafræn reikningsfærsla**.
-2. Á síðunni **Eiginleikar fyrir rafræna reikningsfærslu** skal staðfesta að rafræni reikningsfærslueiginleikinn **Egypskur rafrænn reikningur (EG)** sem var stofnaður sé valinn.
-3. Í flipanum **Útgáfur** skal staðfesta að útgáfan **Drög** sé valin.
-4. Í flipanum **Uppsetningar**, í hnitanetinu, skal velja eiginleikauppsetningu **Sölureiknings**.
-5. Veljið **Breyta** og í flipanum **Aðgerðir**, í reitahópnum **Aðgerðir**, skal velja **Skrifa undir json-skjal fyrir egypsk skattyfirvöld**.
-6. Í reitahópnum **Færibreytur** skal velja færibreytuna, **Heiti vottorðs** og velja heiti stafræna vottorðsins sem er stofnað til að nota eiginleika rafrænnar reikningsfærslu.
-7. Í reitahópnum **Aðgerðir** skal velja **Samþætta við egypska ETA-þjónustu**. Endurtakið þetta skref fyrir tvö tilvik þessarar aðgerðar.
-8. Í reitahópnum **Færibreytur** skal velja **Vefslóð þjónustu** og **Skrá inn vefslóð þjónustu** og, ef þörf krefur, fara yfir færibreytur vefslóðar. Skoða skal vefsvæði egypskra skattyfirvalda til að fá vefslóð prófunar og framleiðslu með því að nota tengilinn sem gefinn er upp í [SDK rafrænnar reikningsfærslu fyrir Egyptaland](https://sdk.sit.invoicing.eta.gov.eg/faq/).
-9. Veljið **Vista** og lokið síðunni.
-10. Til að nota eiginleika rafrænnar reikningsfærslu skal skoða [Hafist handa með rafrænni reikningsfærslu](e-invoicing-get-started.md).
-
-## <a name="country-specific-configuration-of-the-application-setup-for-the-egyptian-electronic-invoice-eg-electronic-invoicing-feature"></a>Landsbundin skilgreining forritsuppsetningar fyrir eiginleika rafrænnar reikningsfærslu fyrir rafrænan reikning í Egyptalandi (EG)
-
-Ljúkið þessum skrefum áður en uppsetning forritsins er virkjuð í forriti sem er tengt við Finance eða Supply Chain Management.
-
-Þessi hluti tengist **Landsháð grunnstilling á uppsetningu forrits** hlutanum í efnisatriðinu [Hafist handa með rafrænar reikningsfærslur](e-invoicing-get-started.md).
-
-1. Í RCS, í hlutanum **Eiginleikar** á vinnusvæðinu **Altækur eiginleiki**, skal velja reitinn **Rafræn reikningsfærsla**.
-2. Á síðunni **Eiginleikar fyrir rafræna reikningsfærslu** skal staðfesta að rafræni reikningsfærslueiginleikinn **Egypskur rafrænn reikningur (EG)** sé valinn.
+1. Flytja inn nýjustu útgáfuna af **Egypskur rafrænn reikningur (EG)** Hnattvæðingareiginleiki eins og lýst er í [Flytja inn eiginleika frá alþjóðlegu geymslunni](e-invoicing-import-feature-global-repository.md).
+2. Búðu til afrit af innfluttum hnattvæðingareiginleikanum og veldu stillingarþjónustuna þína fyrir hann, eins og lýst er í [Búðu til hnattvæðingareiginleika](e-invoicing-create-new-globalization-feature.md).
 3. Í flipanum **Útgáfa** skal staðfesta að útgáfan **Drög** sé valin.
-4. Í flipanum **Uppsetningar** skal velja **Uppsetning forrits** og í reitnum **Tengt forrit** skal velja forritið þar sem á að setja upp.
-5. Í reitnum **Töfluheiti** skal staðfesta að reikningabók viðskiptavinar sé valin.
-6. Veljið **Svargerðir** og veljið síðan **Ný**.
-7. Í reitinn **Svargerð** skal færa inn „Svar“ og í reitinn **Lýsing** skal færa inn „Lýsing“.
-8. Í reitnum **Staða sendingar** skal velja **Í bið**.
-9. Í reitnum **Líkanavörpun** skal velja **Líkanavörpun úr svarskilaboðum** með **(Forútgáfa) Innflutningssnið svarskilaboða** og síðan velja **Vista**.
-10. Veljið **Ný** og í reitinn **Svargerð** skal færa inn „ResponseData“ sem fast gildi. Í reitinn **Lýsing** skal færa inn „Lýsing“.
-11. Í reitnum **Staða sendingar** skal velja **Í bið**.
-12. Í reitnum **Heiti gagnaeiningar** skal velja **Sölureikningshausar V2**.
-13. Í reitinn **Líkanavörpun** skal velja **Gagnainnflutningur á egypsku svari** með **(Forútgáfa) Gagnainnflutningur á egypsku svari** og veljið síðan **Vista**.
-14. Til að virkja uppsetningu forritsins í Finance eða Supply Chain Management tengd forrit skal skoða [Hafist handa með rafrænar reikningsfærslur](e-invoicing-get-started.md).
+4. Á **Uppsetningar** flipann, í hnitanetinu, veldu **Sölureikningur fenginn** uppsetningu eiginleika.
+5. Veljið **Breyta**.
+6. Á **Vinnsluleiðsla** flipa, í **Vinnsluleiðsla** kafla, veldu **Skrifaðu undir json skjal fyrir egypska skattayfirvöld**.
+7. Í **Færibreytur** kafla, veldu **Nafn skírteinis**, og veldu síðan nafn stafræna vottorðsins sem þú bjóst til.
+8. Í **Vinnsluleiðsla** kafla, veldu **Samþætta egypska ETA þjónustu**. Endurtakið þetta skref fyrir tvö tilvik þessarar aðgerðar.
+9. Í **Færibreytur** kafla, veldu **Vefslóð vefþjónustu** og **Slóð innskráningarþjónustu**. Skoðaðu síðan vefslóðarfæribreyturnar. Til að fá prófunar- og framleiðsluslóðina skaltu fara á vefsíðu egypska skattyfirvalda með því að nota hlekkinn sem er að finna í [Egyptian e-invoicing SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+10. Veljið **Vista** og lokið skjámyndinni.
+11. Endurtaktu skref 4 til 10 fyrir **Verkefnareikningur fenginn** uppsetningu eiginleika.
+
+## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-application-setup"></a>Landssértæk uppsetning fyrir egypska rafræna reikninginn (EG) forritsuppsetningu
+
+Það eru færibreytur sem þarf að setja upp í fjármála- eða framboðskeðjuumhverfi þínu. Þú getur lokið þessari uppsetningu á öðrum hvorum tveimur stöðum:
+
+- Beint í fjármála- eða framboðskeðjuumhverfi þínu. Fyrir frekari upplýsingar, sjá [Setja upp færibreytur rafrænna reikninga](e-invoicing-set-up-parameters.md).
+- Í RCS. Í umfangi uppsetningareiginleika rafrænna reikninga geturðu skilgreint allar færibreytur og sett þær síðan beint í fjármála- eða framboðskeðjuumhverfið þitt þegar þú notar rafræna reikningseiginleikann.
+
+Fyrir báða valkostina eru færibreyturnar þær sömu. Ef þú ert að setja upp fyrsta eiginleikann þinn í rafræna reikningsþjónustunni, mælum við með því að þú fylgir þessum skrefum til að setja upp færibreytur í RCS og dreifa þeim síðan í tengda forritið þitt.
+
+> [!NOTE]
+> Sumar útgáfur rafrænna reikningaeiginleika gætu innihaldið fyrirframskilgreint sett af forritssértækum færibreytum fyrir fjármál eða birgðakeðjustjórnun. Í þessu tilviki ættir þú að ganga úr skugga um að gögnin séu rétt. Annars skaltu stilla færibreyturnar handvirkt.
+
+1. Finndu afritið af **Egypskur rafrænn reikningur (EG)** Hnattvæðingareiginleiki sem þú bjóst til.
+2. Í flipanum **Útgáfa** skal staðfesta að útgáfan **Drög** sé valin.
+3. Í flipanum **Uppsetningar** skal velja **Uppsetning forrits**.
+4. Í **Tengd forrit** reit, veldu forritið þar sem þú vilt dreifa breytunum.
+5. Á **Tegundir rafrænna skjala** síðu, veldu **Bæta við** til að búa til skrá.
+6. Í **Nafn töflu** sviði, bæta við **CustInvoiceJour**.
+7. Í **Samhengi** reit skaltu bæta við tilvísun í **Samhengi reiknings viðskiptavinar** kortlagningarheiti. Stillingin er **Samhengislíkan viðskiptavinareiknings**.
+8. Í **Rafræn skjalakortlagning** reit skaltu bæta við tilvísun í **Reikningur viðskiptavinar** kortlagningarheiti. Stillingin er **Kortlagning reikningslíkana**.
+9. Veldu **Vista**.
+10. Á **Svartegundir** síðu, veldu **Bæta við**.
+11. Í reitinn **Gerð svars** skal færa inn **Svar**.
+12. Í **Lýsing** reit, slá inn **Ferlið viðbrögð**.
+13. Í reitnum **Staða sendingar** skal velja **Í bið**.
+14. Í **Líkanskortlagning** reit, veldu **Innflutningur svarskilaboða**. Stillingin er **Innflutningur svarskilaboða í Egyptalandi (EG)**.
+15. Veldu **Vista**.
+16. Veljið **Bæta við**.
+17. Í **Svartegund** reit, slá inn **Svargögn**.
+18. Í **Lýsing** reit, slá inn **Vinnsla viðbragðsgagna**.
+19. Í reitnum **Staða sendingar** skal velja **Í bið**.
+20. Í **Nafn gagnaeiningar** reit, veldu **SalesInvoiceHeaderV2Entity**.
+21. Í **Líkanskortlagning** reit, veldu **Innflutningur svargagna**. Stillingin er **Egyptaland svargagnainnflutningssnið (EG)**.
+22. Veljið **Vista** og lokið skjámyndinni.
+23. Lokið síðunni.
+
+Til að dreifa eiginleikum í þjónustuumhverfið og uppsetningu forrits í tengda forritið Finance eða Supply Chain Management, sjá [Ljúktu við, birtu og settu í notkun hnattvæðingareiginleika](e-invoicing-complete-publish-deploy-globalization-feature.md)
 
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
 
-Til að virkja eiginleikann **Egypskur rafrænn reikningur (EG)** þarf hugsanlega að senda takmörkuð gögn, þ.m.t. skattskráningarkenni fyrirtækisins. Þessi gögn verða send til stofnana þriðja aðila sem skattyfirvöld heimila að megi senda rafræna reikninga til þessara skattyfirvalda á fyrirframskilgreindu sniði sem þarf fyrir samþættingu við vefþjónustu yfirvalda. Stjórnandi getur kveikt og slökkt á eiginleikanum með því að fara í **Fyrirtækisstjórnun** > **Uppsetning** > **Færibreytur rafrænna skjala**. Í flipanum **Eiginleikar** skal velja línuna sem inniheldur eiginleikann **Egypskur rafrænn reikningur (EG)** og síðan velja viðeigandi atriði. Gögn sem eru flutt inn úr þessum ytri kerfum í þessa Dynamics 365-netþjónustu falla undir [yfirlýsingu okkar um persónuvernd](https://go.microsoft.com/fwlink/?LinkId=512132). Frekari upplýsingar er að finna í köflunum um persónuverndaryfirlýsingu í fylgiskjölum um eiginleika eftir löndum.
+Að virkja **Egypskur rafrænn reikningur (EG)** eiginleiki gæti krafist þess að takmörkuð gögn séu send. Þessi gögn innihalda skattskráningarauðkenni stofnunarinnar. Gögnin verða send til þriðju aðila sem hafa fengið heimild skattyfirvalda til að senda rafræna reikninga til skattyfirvalda á fyrirfram skilgreindu sniði sem þarf til samþættingar við vefþjónustu ríkisins. Kerfisstjóri getur virkjað og slökkt á eiginleikanum með því að fara á **Stjórn stofnunarinnar** \> **Uppsetning** \> **Færibreytur rafrænna skjala**. Í flipanum **Eiginleikar** skal velja línuna sem inniheldur eiginleikann **Egypskur rafrænn reikningur (EG)** og síðan velja viðeigandi atriði. Gögn sem eru flutt inn úr ytri kerfum inn í þessa Dynamics 365 netþjónustu eru háð okkar [persónuverndaryfirlýsingu](https://go.microsoft.com/fwlink/?LinkId=512132). Fyrir frekari upplýsingar, sjá hlutann „Persónuverndartilkynning“ í landssértækum eiginleikum.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -82,6 +108,5 @@ Til að virkja eiginleikann **Egypskur rafrænn reikningur (EG)** þarf hugsanle
 - [Hafist handa með þjónustu rafrænna reikninga fyrir Brasilíu](e-invoicing-get-started-service-administration.md)
 - [Hafist handa með rafrænar reikningsfærslur](e-invoicing-get-started.md)
 - [Rafrænir reikningar viðskiptavinar í Egyptalandi](emea-egy-e-invoices.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: banluo
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3da92c384d3074335067433120eccc97d11b6b81
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: HT
+ms.openlocfilehash: d78cde26d238d18744adde9a576552588736e619
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103941"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384696"
 ---
 # <a name="inventory-value-reports"></a>Birgðavirðisskýrslur
 
 [!include [banner](../includes/banner.md)]
 
-Birgðavirðisskýrslur veita upplýsingar um efnislegt og fjárhagslegt magn og fjárhæðir birgða þinna. Þú getur skoðað skýrslurnar á marga mismunandi vegu. Til dæmis er hægt að sýna samtölur eða færslur, eða sía eftir hlutum eða tímabili. Þú getur skoðað kostnað seldra vara (COGS) gildi eða vinnu í vinnslu (WIP) gildi og stillt aðra valkosti.
+Birgðavirðisskýrslur veita upplýsingar um efnislegt og fjárhagslegt magn og fjárhæðir birgða þinna. Hægt er að skoða skýrslurnar á marga mismunandi vegu. Til dæmis er hægt að sýna samtölur eða færslur, eða sía eftir hlutum eða tímabili. Þú getur skoðað kostnað seldra vara (COGS) gildi eða vinnu í vinnslu (WIP) gildi og stillt aðra valkosti.
 
 Birgðavirðisskýrslur gera þér kleift að framkvæma eftirfarandi verkefni:
 
@@ -38,7 +38,7 @@ Birgðavirðisskýrslur gera þér kleift að framkvæma eftirfarandi verkefni:
 
 ### <a name="standard-inventory-value-report"></a>Staðlað birgðavirðisskýrsla
 
-Staðallinn **Birgðaverðmæti** skýrsla er einföld skýrsla sem gerir þér kleift að velja upplýsingarnar sem fylgja með og sýnir þær síðan á skjánum. Það bjargar ekki niðurstöðunum. Það býður heldur ekki upp á gagnvirka eiginleika til að sía, bora niður, vafra eða flytja út. Af þessum ástæðum mælum við með að þú notir **Geymsla birgðavirðisskýrslu** tilkynna þess í stað í flestum tilfellum.
+Staðallinn **Birgðaverðmæti** skýrsla er einföld skýrsla sem gerir þér kleift að velja upplýsingarnar sem fylgja með og sýna þær síðan á skjánum. Það bjargar ekki niðurstöðunum. Það býður heldur ekki upp á gagnvirka eiginleika til að sía, bora niður, vafra eða flytja út. Af þessum ástæðum mælum við með að þú notir **Geymsla birgðavirðisskýrslu** tilkynna þess í stað í flestum tilfellum.
 
 ### <a name="inventory-value-report-storage-report"></a>Birgðavirðisskýrsla geymsluskýrsla
 
@@ -97,12 +97,12 @@ Nota **Birgðavirðisskýrslur** síðu til að setja upp innihaldið sem er inn
         - **COGS reikning** – Tilgreindu fjárhagsreikninginn til að sýna COGS upplýsingar fyrir. (Bæði **COGS** valmöguleika og **Prentaðu uppsöfnuð reikningsgildi til samanburðar** valkostur verður að vera stilltur á *Já* .)
 
     - **Taktu saman líkamleg og fjárhagsleg gildi** – Stilltu þennan valkost á *Já* til að birta dálk sem sýnir heildarbirgðamagn og birgðaupphæð (yfirlit yfir bæði efnisleg og fjárhagsleg birgðagildi). Ef þessi valkostur er stilltur á *Nei*, mun skýrslan sýna bæði efnisleg og fjárhagsleg birgðagildi.
-    - **Hafa ekki bókað í höfuðbók** Stilltu þennan valkost á *Já* til að birta dálk sem sýnir þær færslur sem aldrei voru bókaðar í fjárhag. Færslur fyrir eftirfarandi tegundir vara eru hugsanlega ekki bókaðar í fjárhag:
+    - **Hafa ekki bókað í höfuðbók** Stilltu þennan valkost á *Já* til að birta dálk sem sýnir þær færslur sem aldrei voru bókaðar í fjárhag. Færslur fyrir eftirfarandi vörutegundir eru hugsanlega ekki bókaðar í fjárhag:
 
         - Mótteknar og ekki enn reikningsfærðar vörur þegar **Bókaðu efnislegar birgðir** valkostur er hreinsaður fyrir viðkomandi vörulíkanaflokk.
         - Mótteknar og ekki enn reikningsfærðar vörur þegar **Bókaðu innhreyfingu vöru í höfuðbók** valkostur er hreinsaður á **Vörukvittun** Flýtiflipi á **Almennt** flipi á **Færibreytur viðskiptaskulda** síða (**Viðskiptaskuldir \> Uppsetning \> Færibreytur viðskiptaskulda**).
 
-    - **Reiknaðu meðaleiningakostnað** – Stilltu þennan valkost á *Já* til að birta dálk sem sýnir meðaleiningakostnað. Meðaleiningakostnaður er heildarmagn deilt með heildarupphæðinni.
+    - **Reiknaðu meðaleiningakostnað** – Stilltu þennan valkost á *Já* til að birta dálk sem sýnir meðaleiningakostnað. Meðaleiningakostnaður er heildarupphæð deilt með heildarmagni.
     - **Heildarmagn og verðmæti** – Stilltu þennan valkost á *Já* til að birta dálka sem sýna heildarmagn efnislegra birgða (og fjárhagslegt magn) og heildarupphæð efnislegra birgða (og fjárhagsupphæða). Þú getur stillt þennan valkost á *Já* aðeins ef **Taktu saman líkamleg og fjárhagsleg gildi** valkostur er stilltur á *Nei*.
     - **Birgðastærðir** – Í þessu rist, veldu **Útsýni** gátreit fyrir hverja vídd sem þú vilt sýna í skýrslunni. Aðeins stærðir þar sem **Fjárhagsskrá** valkosturinn er virkur mun sýna gildi á skýrslunni. Aðrar stærðir sýna aðeins auða dálka. Fyrir þær stærðir sem þú velur að sýna geturðu valið **Samtals** gátreit til að innihalda samtölur líka.
     - **Auðkenni auðlindar** – Stilltu **Útsýni** valmöguleika til *Já* til að birta dálk sem auðkennir hlutinn fyrir hverja línu. Stilltu **Samtals** valmöguleika til *Já* að taka með heildartölur líka. Það fer eftir tegund hlutar sem er skráð í hverri röð, dálkurinn sýnir eina af eftirfarandi tegundum upplýsinga:
@@ -234,7 +234,7 @@ Aðfangakeðjustjórnun styður eftirfarandi tvö mikilvæg hugtök sem tengjast
 - **Birgðir: Fjárhæð** – Upphæðarvirði birgða sem hefur verið fjárhagslega uppfært.
 - **Birgðir: Líkamlegt magn sett inn** – Magnið sem hefur verið líkamlega uppfært.
 - **Birgðir: Líkamleg upphæð skráð** – Upphæðargildi birgða sem hefur verið líkamlega uppfært.
-- **Birgðir: Líkamlegt magn ekki skráð** – Magnið sem hefur birgðafærslur en hefur ekki verið bókað í fjárhag. Til dæmis ertu með vörulíkanahóp þar sem **Bókaðu efnislegar birgðir** og **Bókaðu fjárhagsskrá** valkostir eru hreinsaðir og þú ert með hlut sem er tengdur við þann hóp. Þú býrð síðan til innkaupapöntun, færð hana og reikningsfærðir. Á þessum tímapunkti, ef þú skoðar birgðavirðisskýrsluna fyrir vöruna, muntu sjá að magnið og verðmæti innkaupapöntunarinnar eru sýnd í **Birgðir: Líkamlegt magn ekki skráð** og **Birgðir: Líkamleg upphæð ekki bókuð** dálkum.
+- **Birgðir: Líkamlegt magn ekki skráð** – Magnið sem hefur birgðafærslur en hefur ekki verið bókað í fjárhag. Til dæmis ertu með vörulíkanahóp þar sem **Bókaðu efnislegar birgðir** og **Bókaðu fjárhagsskrá** valkostir eru hreinsaðir og þú ert með hlut sem er tengdur við þann hóp. Þú býrð síðan til innkaupapöntun, færð hana og reikningsfærðir. Á þessum tímapunkti, ef þú skoðar birgðavirðisskýrsluna fyrir vöruna, muntu sjá að magnið og verðmæti innkaupapöntunarinnar eru sýnd í **Birgðir: Líkamlegt magn ekki skráð** og **Birgðir: Líkamleg upphæð ekki bókuð** dálkar.
 - **Birgðir: Líkamleg upphæð ekki bókuð** – Þú getur sett upp skýrslurnar þínar þannig að þær sýni óbókaðar upphæðir. Hins vegar, ef þú ert að nota skýrsluna fyrir birgðaafstemmingu skaltu ekki nota þetta gildi. Annars er upphæðin ekki bókuð í fjárhag.
 - **Birgðir: Magn** – Heildarmagn allra magndálka í skýrslunni.
 - **Birgðir: Magn** – Heildarmagn allra upphæðadálka í skýrslunni. Þegar þú gerir birgðaafstemmingu skaltu ekki nota þennan dálk ef skýrslan þín inniheldur **Birgðir: Líkamleg upphæð ekki bókuð** dálki. Í þessu tilviki verður þú að útiloka **Birgðir: Líkamleg upphæð ekki bókuð** upphæð frá heildarupphæð.

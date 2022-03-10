@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir fríðindi
-description: Í yfirlitsskýrslu um fríðindi er gerð grein fyrir þeim fríðindum sem starfsmaður er skráður í.
+description: Skýrslan um bótayfirlit útskýrir fríðindin sem starfsmaður er skráður í.
 author: twheeloc
 ms.date: 09/21/2021
 ms.topic: article
@@ -14,14 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 46f7358684502a4bf05854fbcb5cca9a1eb2c87c
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
-ms.translationtype: HT
+ms.openlocfilehash: 602e4f9459aac8fdbea5f2752e51cc2c1b71360c
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548056"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358244"
 ---
 # <a name="benefit-statement"></a>Yfirlit yfir fríðindi
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 Skýrslan **Yfirlit yfir fríðindi** gefur upp yfirlit yfir fríðindi sem starfsmaður er skráður í. Starfsmaður getur sjálfur nálgast skýrsluna eða í gegnum fríðindastjórnanda. **Yfirlit yfir fríðindi** gefur upp lista yfir skráð fríðindi starfsmanns, tryggingarvalkosti, kostnað og skráða aðstandendur eða rétthafa. Yfirlitið er hægt að prenta fyrir einn starfsmann eða marga starfsmenn.
 

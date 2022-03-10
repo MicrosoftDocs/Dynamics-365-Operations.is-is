@@ -2,7 +2,7 @@
 title: Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
 description: Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Mexíkó.
 author: gionoder
-ms.date: 09/22/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 26091a068ed15ec9ff14c9194c3e0e0ad0779351
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
+ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344783"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "7986359"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
 
@@ -35,7 +35,15 @@ ms.locfileid: "6344783"
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en farið er í gegnum skrefin í þessu efnisatriði þarf að ljúka skrefunum í [Hafist handa með rafrænni reikningsfærslu](e-invoicing-get-started.md).
+Áður en þú klárar skrefin í þessu efni verður þú að klára skrefin í [Byrjaðu með rafræna reikningaþjónustu](e-invoicing-get-started-service-administration.md) og [Byrjaðu með rafræna reikningagerð](e-invoicing-get-started.md).
+
+## <a name="set-up-the-cadena-xslt"></a>Settu upp Cadena XSLT
+
+Til að bæta Cadena XSLT stefinu við hnattvæðingareiginleikann fyrir CFDI vinnslu skaltu ljúka eftirfarandi skrefum.
+
+1. Sækja skema frá [SAT vefsíða](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt).
+2. Þjappaðu skemanu í ZIP skrá.
+3. Vistaðu xslt skrána á Azure Storage reikningnum þínum sem settur var upp í þjónustuumhverfinu þínu fyrir nýja ílátið.
 
 ## <a name="rcs-setup"></a>RCS-uppsetning
 
@@ -127,6 +135,17 @@ Til að senda inn afturköllun á CFDI-reikningi þarf að setja upp eiginleikan
 
 > [!NOTE]
 > Notið sömu skrefin til að uppfæra vefslóðina fyrir aðgerðina **Hringja í mexíkóska PAC-þjónustu** fyrir uppsetninga á eiginleikunum **Hætta við** og **Afturköllunarbeiðni**.
+
+### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>Settu upp slóðina fyrir Cadena XLST stefið
+
+1. Á **Uppsetning eiginleikaútgáfu** síðu, á **Breytur** flipa, veldu breytuheitið, **DigitalSignatureXSLT**.
+2. Í **Gildi** reit slá inn:{ "containerUrl":"https://&lt; AccountStorageName&gt; .blob.core.windows.net/&lt; ContainerName&gt; ","leið":"&lt; RelativePath&gt; "}
+   
+    hvar:<RelativePath> = mappa\\ möppu\\ skráarnafn með tvöföldum bakstökkum, ContainerName verður að tákna ílátið sem er notað fyrir þjónustuna.
+   
+    Dæmi um breytuna væri:
+    
+    {"slóð":"x xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\ dev\\ cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>Úthluta útgáfudrögum á umhverfi rafrænnar reikningsfærslu
 

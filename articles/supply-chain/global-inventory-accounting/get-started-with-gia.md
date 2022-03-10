@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cfba2b8320399cc2eb3f2231e8a172d902633f16
-ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
-ms.translationtype: HT
+ms.openlocfilehash: 88f1e9ef8c8b2aa494c44ea3b33713adc470eb96
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7678860"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384798"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Hafist handa með altækt birgðabókhald
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 4/30/2022 -->
 
 Altækt birgðabókhald gerir kleift að nota meira en eitt birgðabókhald í fjárhagsbókum altæks birgðabókhalds sem búið er að setja upp. Tengja verður hvern fjárhag altæks birgðabókhalds við *viðtekna reglu*. Regla er safn af eftirfarandi gerðum reikningsskilaaðferða:
 
@@ -120,7 +121,7 @@ Fylgið þessum skrefum til að setja upp samþættingu milli altæks birgðabó
 1. Skráðu þig inn í Supply Chain Management.
 1. Farið í **Kerfisstjórnun \> Eiginleikastjórnun**.
 1. Veldu **Leita að uppfærslum**.
-1. Í flipanum **Allt** skal leita að eiginleikanum sem heitir *Altækt birgðabókhald*.
+1. Á **Allt** flipa, leitaðu að eiginleikanum sem heitir *(Forskoðun) Alþjóðlegt birgðabókhald*.
 1. Veldu **Virkja núna**.
 1. Farið í **Altækt birgðabókhald \> Uppsetning \> Færibreytur altæks birgðabókhalds \> Færibreytur samþættingar**.
 1. Í reitina **Endastöð gagnaþjónustu** og **Endastöð altæks birgðabókhalds** skal færa inn vefslóðir úr tölvupóstinum sem teymi altæks birgðabókhalds sendi þér þegar þú nýskráðir þig fyrir forútgáfunni.

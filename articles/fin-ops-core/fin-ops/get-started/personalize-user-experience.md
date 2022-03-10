@@ -2,8 +2,7 @@
 title: Sérsníða notandaupplifun
 description: Þessi grein útskýrir hvernig hægt er að sérsníða forritið.
 author: jasongre
-manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,16 +15,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4e648f4c1d18e5f8b82d1ccf7ba02bd4e12bc2a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 4bdce3cd12358112e40a783c73795bd6f35545c8
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566431"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384644"
 ---
 # <a name="personalize-the-user-experience"></a>Sérsníða notandaupplifun
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Þetta efnisatriði útskýrir hvernig hægt er að sérsníða forritið og fjallar um eftirfarandi viðfangsefni: 
 
@@ -86,7 +89,7 @@ Sumir af mest dæmigerðu og mikilvægustu breytingum sem hægt er að gera á s
 
 Að auki eru helstu tegundir sérstillinga tiltækar með því að hægrismella á einingu og síðan velja **Sérsníða**. (Athugið að ekki er hægt að sérsníða allar einingar á síðunni.) Þegar þessi sérstillingaraðferð er notuð birtist *eiginleikagluggi* einingarinnar.
 
-![Sérsníða eiginleika í einingu](./media/cli-element-property-window.png)
+![Sérsníða eiginleika í einingu.](./media/cli-element-property-window.png)
 
 Þú getur notað eiginleikagluggann til að sérsníða einingu á eftirfarandi hátt:
 
@@ -99,7 +102,7 @@ Að auki eru helstu tegundir sérstillinga tiltækar með því að hægrismella
 
 Eiginleikaglugginn gæti falið í sér aðrar sérstillingareiginleika, en það fer eftir einingunni. Til dæmis gæti eiginleikagluggi fyrir reit gert kleift að færa þann reit yfir á stjórnborð, og eiginleikagluggar fyrir einingar á sjálfgefnu stjórnborði gætu gert kleift að stofna nýtt sérstillt vinnusvæði.
 
-### <a name="the-personalization-toolbar"></a>Tækjastika sérstillinga
+### <a name="personalization-toolbar"></a>Verkfæraslá sérstillingar
 
 Ef ætlunin er að gera margar breytingar á síðu eða gera breytingar sem ekki eru í boði með öðrum leiðum (t.d. ef ætlunin er endurraða einingum), er hægt að nota tækjastikuna **Sérstilling**. Til að opna verkfæraslána **Sérstillingar** skaltu fylgja einu af þessum skrefum:
 
@@ -108,7 +111,7 @@ Ef ætlunin er að gera margar breytingar á síðu eða gera breytingar sem ekk
 - Veldu **Sérsníða þessa síðu** í flokknum **Sérsníða** á flipanum **Valkostir** í aðgerðaglugga einhverrar síðu.
 - Veldu hnappinn **Stillingar** (gírtáknið) á leitarstikunni og veldu síðan **Sérsníða**.
 
-[![Verkfæraslá sérstillingar](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Verkfæraslá sérstillingar.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Farið um síðuna
 
@@ -120,7 +123,10 @@ Eftirfarandi verkfæri eru í boði á **Sérstillingar** tækjastikunni:
 
 - Nota **Velja** verkfæri til að velja og breyta eiginleikum einingar. Til að nota þetta tól velurðu hnappinn **Velja** á verkfæraslánni og síðan viðkomandi einingu. Eiginleikagluggi einingarinnar birtist, þar sem hægt er að breyta hvaða eiginleika sem er fyrir þá einingu. Þú getur endurtekið ferlið fyrir aðrar einingar sem hægt er að sérsníða á síðunni. Athugaðu að sumir eiginleikar sérstillinga eru mögulega ekki tiltækir í sumum aðstæðum. Til dæmis getur þú ekki læst reit sem er nauðsynlegur.
 - Nota **Fela** verkfærið til að fela einingu á síðunni. Til að nota þetta tól velurðu hnappinn **Fela** á verkfæraslánni og síðan einingu sem á að fela. Þegar verkfærið **Fela** er notað, verða allar faldar einingar gerðar sýnilegar, en þær verða sýndar í skyggðu hólfi. Þú getur síðan gert þátt sýnilegan með því að velja hann. Til að sjá hvernig síðan lítur út þegar einingar eru faldar skal skipta yfir í annað sérstillingarverkfæri eða loka tækjastiku sérstillinga.
-- Notið verkfærið **Bæta við reitum** til að bæta reitum við síðuna. Þegar þú notar þetta verkfæri geturðu aðeins bætt við reitum sem eru hluti af skilgreiningunni á síðunni. Til að fá upplýsingar um hvernig skal búa til nýja reiti sem eru ekki hluti af núverandi skilgreiningu síðunnar, sjá [Stofna og vinna með sérsniðna reiti](user-defined-fields.md). Þegar hnappurinn **Bæta við reitum** er valinn á tækjastikunni, þarf fyrst að velja hnitanetið eða hlutann þar sem ætlunin er að bæta reitnum við. Svargluggi sýnir lista yfir reiti sem tengjast völdu hnitaneti eða hluta. Í svarglugganum skal velja eitt eða fleiri reiti til að bæta við og velja síðan **Uppfæra**. Til að fjarlægja reit sem þú hefur áður bætt við, skal endurtaka ferlið, en hreinsa val á reitnum í svarglugganum.
+- Notið verkfærið **Bæta við reitum** til að bæta reitum við síðuna. Þegar þú notar þetta verkfæri geturðu aðeins bætt við reitum sem eru hluti af skilgreiningunni á síðunni. Til að fá upplýsingar um hvernig skal búa til nýja reiti sem eru ekki hluti af núverandi skilgreiningu síðunnar, sjá [Stofna og vinna með sérsniðna reiti](user-defined-fields.md). Þegar hnappurinn **Bæta við reitum** er valinn á tækjastikunni, þarf fyrst að velja hnitanetið eða hlutann þar sem ætlunin er að bæta reitnum við. Svargluggi sýnir lista yfir reiti sem tengjast völdu hnitaneti eða hluta. Í svarglugganum skal velja einn eða fleiri reiti til að bæta við úr annaðhvort listanum **Ráðlagðir reitir** eða **Allir reitir**. Eftir að þú hefur valið æskilega reiti skaltu velja **Uppfæra**. Til að fjarlægja reit sem þú hefur áður bætt við, skal endurtaka ferlið, en hreinsa val á reitnum í svarglugganum.
+
+    Listinn **Ráðlagðir reitir** sýnir reiti sem aðrir notendur í fyrirtækinu hafa þegar bætt við. Þessi listi yfir reiti er uppfærður miðað við tíðni endurtekninga á **Runuvinnslu tillögu**. Svipuð reynsla er til staðar þegar nýjum síureitum er bætt við með síusvæðinu á síðunni.
+
 - Nota **Færa** verkfærið til að færa einingar á annan stað í núverandi hóp eininga. Athugaðu að ekki er hægt að færa einingu utan yfirhóps hennar. Til að nota þetta tól velurðu hnappinn **Flytja** á verkfæraslánni og síðan einingu sem á að flytja. Þegar þú velur einingu ákvarðar forritið staðsetningar þar sem flytja má eininguna. Þessir staðir eru þekktir sem *sleppisvæði*. Þegar þú færir eininguna til í núverandi hóp er hvert sleppisvæði sýnt sem lituð, feitletruð lína við hliðina á því svæði þar sem má sleppa einingunni.
 - Nota **Sleppa** verkfærið til að fjarlægja einingu úr fliparöð lyklaborðs síðunnar. Þegar þú velur hnappinn **Sleppa** á verkfæraslánni eru allar einingar sem nú þegar er sleppt sýndar í skyggðum gámi. Þú getur fjarlægt eða bætt við reitum á fliparöðinni með gagnvirkum hætti.
 - Notaðu verkfærið **Sýna í haus** þegar þú vilt að reitur birtist í samantektarhlutanum fyrir flýtiflipa. Þegar þú velur hnappinn **Sýna í haus** á verkfæraslánni eru allir reitir sem hafa verið valdir sem samantektarreitir sýndar í skyggðum gámi. Með því að velja reitina getur þú með gagnvirkum hætti fjarlægt og bætt við reitum í samantekt flýtiflipa.
@@ -148,17 +154,24 @@ Fyrir sumar síður sem innihalda lista er sérstillingaraðgerðin **Bæta við
 > [!NOTE]
 > Ef kveikt er á eiginleikanum [Vistaðar skoðanir](saved-views.md) er efnið sem þú ýtir á vinnusvæði beintengt við yfirlit. Fyrirspurn yfirlitsins er notuð til að sækja gögn í vinnusvæðinu og samsvarandi reitur eða tengill í vinnusvæðinu opnar síðuna í það yfirlit, þannig að fyrirspurn yfirlitsins og sérstillingarnar eru notaðar þar. Ef yfirlitið er uppfært verða samsvarandi einingar vinnusvæðis leiðréttar í nýju skilgreininguna á yfirliti.
 
-[![Bæta við vinnusvæði](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Bæta við vinnusvæði.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Til að bæta lista við vinnusvæði skal fyrst flokka eða afmarka listann á síðunni þannig að hún birti upplýsingarnar eins og þú vilt að þær birtist á vinnusvæðinu. (Ef kveikt er á eiginleikanum **Vistuð yfirlit** er ekki hægt að halda áfram fyrr en yfirlit er vistað sem er með þessum skilyrðum.) Síðan skal velja **Bæta við vinnusvæði**. Velja vinnusvæði, og svo, í **Framsetning** reitnum skal velja **Listi**. Eftir að þú velur **Grunnstilla** birtist gluggi þar sem þú getur valið dálkana sem eiga að birtast á listanum í vinnusvæðinu. Þú getur einnig tilgreint merkið sem er notað fyrir listann á vinnusvæðinu.
 - Til að bæta við flís á vinnusvæði skaltu fyrst afmarka listann á síðunni þannig að hann birti gögnin sem þú vilt að séu samantekin eða vilt fá skjótan aðgang að. (Ef kveikt er á eiginleikanum **Vistuð yfirlit** er ekki hægt að halda áfram fyrr en yfirlit er vistað sem er með þessum skilyrðum.) Síðan skal velja **Bæta við vinnusvæði**. Velja vinnusvæði og svo í reitnum **Framsetning** skal velja **Flís**. Eftir að þú hefur valið **Grunnstilla** birtist svargluggi þar sem þú getur tilgreint merkið sem á að nota fyrir reit á vinnusvæðinu. Þú getur einnig tilgreint hvort flísin ættu að sýna fjölda. Eftir að reitum er bætt við vinnusvæðið geturðu valið það til að opna núverandi síðu úr vinnusvæðinu. Þú getur síðan skoðað afmarkaðan lista sem er tengdur reitnum.
-- Til að bæta við tengli á vinnusvæði skaltu fyrst afmarka listann á síðunni þannig að hún birti gögnin sem þú hefur áhuga á. (Ef kveikt er á eiginleikanum **Vistuð yfirlit** er ekki hægt að halda áfram fyrr en yfirlit er vistað sem er með þessum skilyrðum.) Síðan skal velja **Bæta við vinnusvæði**. Veldu vinnusvæði, og síðan, í **Framsetning** reitnum, skal velja **Tengill**. Eftir að þú hefur valið **Grunnstilla** birtist svargluggi þar sem þú getur tilgreint merkið sem á að nota fyrir tengilinn. Þú getur einnig valið tiltekið merki fyrir nýjan hluta sem inniheldur þennan tengil.
+    - Byrjar í útgáfu 10.0.26, ef **Leyfa notendum að velja og breyta flísastærðum** eiginleiki er virkur geturðu valið einn af fjórum tiltækum **Flísastærðir** fyrir nýju flísarnar þínar í **Stilla flísar** valmynd. Þessi eiginleiki gerir þér einnig kleift að stilla stærð flísanna eftir að hún er búin til beint úr vinnusvæðinu.   
+- Til að bæta við tengli á vinnusvæði skaltu fyrst afmarka listann á síðunni þannig að hún birti gögnin sem þú hefur áhuga á. (Ef kveikt er á eiginleikanum **Vistuð yfirlit** er ekki hægt að halda áfram fyrr en yfirlit er vistað sem er með þessum skilyrðum.) Síðan skal velja **Bæta við vinnusvæði**. Veldu vinnusvæði, og síðan, í **Framsetning** reitnum, skal velja **Tengill**. Eftir að þú hefur valið **Grunnstilla** birtist svargluggi þar sem þú getur tilgreint merkið sem á að nota fyrir tengilinn. Þú getur líka valfrjálst tilgreint merki fyrir hlutann þar sem hægt er að setja þennan hlekk. Ef sá hluti er ekki til verður nýr hluti búinn til.
+
+> [!NOTE]
+> Frá og með útgáfu 10.0.25, þegar þú stillir listann, reitinn eða tengilinn þinn gætirðu líka þurft að velja vinnusvæðisskjáina sem þú vilt bæta þættinum við ef **(Forskoðun) Stuðningur við vistaðar skoðanir fyrir vinnusvæði** eiginleiki er virkur. Tiltæk vinnusvæðisskoðanir munu birtast í **Valmöguleikar á vinnusvæði** kafla hvers og eins **Stilla** valmynd. 
 
 Þegar þú hefur bætt lista, reit eða tengli við vinnusvæði getur þú opnað vinnusvæðið og endurraðað einingunum í því eins og þú vilt.
 
 ### <a name="adding-a-summary-from-a-workspace-to-a-dashboard"></a>Bæti við samantekt frá vinnusvæði til yfirlits
 
 Sum vinnusvæði innihalda talningarflísar (það er, flísar með tölum), og þú vilt kannski að þessi flísar birtast á yfirlitinu þínu líka. Á vinnusvæði skal hægrismella á talningarreitinn og velja **Sérsníða**, og velja síðan **Festa við stjórnborð** í eiginleikaglugga reitsins. Í næsta skipti sem þú opnar (og uppfærir) yfirlit, birtist fjöldinn fyrir neðan yfirlitsflísina fyrir það vinnusvæði. Þú getur valið þá talningu til að fara beint á þau gögn sem hún stendur fyrir.
+
+### <a name="changing-the-size-of-a-tile"></a>Breyting á stærð flísar
+Frá og með útgáfu 10.0.26, **Leyfa notendum að velja og breyta flísastærðum** eiginleiki gerir notendum kleift að breyta stærð hvers konar flísar sem ekki eru KPI með sérstillingu. Hægrismelltu á flís á vinnusvæði og veldu síðan **Sérsníða**. Í eignaglugga flísarinnar, veldu þá stærð sem þú vilt úr **Flísastærð** valkostir. Flísastærðin mun breytast strax. Ef **(Forskoðun) Stuðningur við vistaðar skoðanir fyrir vinnusvæði** eiginleiki er virkur geturðu vistað þessa sérstillingu á vinnusvæðisskjá.  
 
 ### <a name="personalizing-your-dashboard"></a>Sérsníða yfirlitið þitt
 
@@ -170,11 +183,97 @@ Yfirlitið er iðulega fyrsta síða sem þú sérð þegar þú opnar forritið
 Einn ákveðinn sérstillingarmöguleiki sem er í boði í yfirlitinu er möguleikinn á því að bæta við reitum. 
 
 - Ef slökkt er á eiginleikanum **Heilsíðuforrit** er bætt við nýjum reit með því að hægrismella á einingu í yfirlitinu og síðan velja **Bæta við vinnusvæði**. Ný vinnusvæðisflís er búin til neðst á yfirlitinu. Þú getur endurnefnt þennan nýja vinnusvæðisflís eins og þú vilt. Einnig er hægt að bæta listum, reitum og tenglum við vinnusvæðið, eins og lýst er í hlutanum [Bæta reitum, listum og tenglum við vinnusvæði](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) í þessu efnisatriði.
-- Ef kveikt er á eiginleikanum **Heilsíðuforrit**, er bætt við nýjum reit með því að hægrismella á einingu í yfirlitinu og síðan velja **Bæta við forriti**. Í svarglugganum skal velja hvort bæta eigi reiti við nýtt vinnusvæði eða reiti sem er með efni frá Power Apps eða vefsvæði. Fylgið því næst skrefunum til að skilgreina valkostina sem voru valdir. Nýr reitur er búinn til neðst í yfirlitinu. 
+- Ef kveikt er á eiginleikanum **Heilsíðuforrit**, er bætt við nýjum reit með því að hægrismella á einingu í yfirlitinu og síðan velja **Bæta við forriti**. Í svarglugganum skal velja hvort bæta eigi reiti við nýtt vinnusvæði eða reiti sem er með efni frá Power Apps eða vefsvæði. Fylgið því næst skrefunum til að skilgreina valkostina sem voru valdir. Nýr reitur er búinn til neðst í yfirlitinu. Frekari upplýsingar um hvernig á að bæta við, breyta, eyða og deila þessum innfelldu forritum er að finna í [Innfelld vinnuforrit frá Power Apps](embed-power-apps.md) og [Innfella forrit þriðja aðila](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Sérstillingar samnýttar
 
-Eftir að þú hefur sérsniðið síðu, getur deilt stillingunum með öðrum notendum með því að flytja út sérstilltu síðuna. Síðan er hægt að biðja aðra notendur um að flytja inn sérstillingarskrána. Að öðrum kosti getur þú gefið notanda, sem hefur stjórnunarheimildir, sérstillinguna þína. Þessi notandi getur síðan virkjað sérstillingarskrána þína í þágu margra notenda á sama tíma með því að nota stjórnendasíðuna **Sérstillingar**.
+Eftir að þú sérstillir síðu er hægt að nota nokkrar aðferðir til að deila sérstillingum þínum með öðrum notendum. Í eftirfarandi lista er aðferðunum raðaðar í þeirri röð frá þeirri sem helst er mælt með til þeirrar sem minnst er mælt með.
+
+1. Birta yfirlit fyrir notendum.
+2. Afrita yfirlit eða sérstillingar á notendur.
+3. Flytja yfirlit eða sérstillingar inn eða út.
+
+### <a name="publish-views-to-users"></a>Birta yfirlit fyrir notendum
+
+Ef kveikt er á eiginleikanum [Vistuð yfirlit](saved-views.md), og ef síðan styður yfirlit, er besta leiðin til að deila sérstillingum með öðrum notendum að birta yfirlit fyrir notendur sem hafa eitt eða fleiri öryggishlutverk. - Frekari upplýsingar er að finna í [Birta yfirlit](saved-views.md#publishing-views).
+
+### <a name="copy-views-or-personalizations-to-users"></a>Afrita yfirlit eða sérstillingar á notendur
+
+Ef slökkt er á eiginleikanum [Vistuð yfirlit](saved-views.md) eða ef síðan styður ekki yfirlit, er mælt með að deila sérstillingum með því að afrita þær á milli notenda. Þessi aðferð er einungis tiltæk fyrir notendur með tiltekin réttindi (til dæmis kerfisstjóra). Stjórnendur geta hins vegar flett upp tiltekinni sérstillingu notanda í kerfinu (þ.m.t. eigin yfirliti notandans ef er vistuð yfirlit eru virk) og afritað skilgreininguna hjá öðrum notendum.
+
+Ef vistuð yfirlit eru virk skal fylgja eftirfarandi skrefum til að afrita sérstillingar.
+
+1. Farið í **Kerfisstjórnun \> Uppsetning \> Sérstilling**.
+2. Fylgið eftirfarandi skrefum til að afrita eigin yfirlit:
+
+    1. Veljið **Yfirlitin mín**.
+    2. Á listanumskal velja viðeigandi yfilit.
+    3. Veljið **Afrita í notendur**.
+    4. Velja notendurna til að dreifa yfirlitum á.
+
+    Fylgið eftirfarandi skrefum til að afrita sérstillingar á síðum sem styðja ekki yfirlit:
+
+    1. Veldu **Notandastillingar**.
+    2. Veljið notandann sem er með sérstillinguna sem á að dreifa.
+    3. Veljið **Stjórna öllum sérstillingum**.
+    4. Á listanumskal velja viðeigandi sérstillingar.
+    5. Veljið **Afrita í notendur**.
+    6. Velja notendurna til að dreifa sérstillingum til.
+
+Ef vistuð yfirlit eru ekki virk skal fylgja eftirfarandi skrefum til að afrita sérstillingar.
+
+1. Farið í **Kerfisstjórnun \> Uppsetning \> Sérstilling**.
+2. Veljið **Bæta við**.
+3. Velja notendurna til að dreifa sérstillingunni til.
+4. Veljið **Velja núverandi sérstillingar**.
+5. Finndu og veldu þá (staka) sérstillingu sem þú hefur áhuga á.
+6. Veljið **Í lagi**.
+
+### <a name="export-and-import-views-or-personalizations"></a>Flytja yfirlit eða sérstillingar inn eða út
+
+Önnur leið til að deila sérstillingum er með útflutningi og innflutningi. Einstakir notendur, eða stjórnandi sem starfar fyrir þeirra hönd, geta notað þessa aðferð til að flytja út sérstillingar sínar eða yfirlit og síðan gefið öðrum notendum útflutningsskrána til að flytja inn. Einnig geta notendur gefið útfluttar sérstillingar sínar til notanda sem hefur stjórnunarréttindi og sá notandi getur síðan notað stjórnunarsíðu **Sérstillingar** til að beita sérstillingarskránni á marga notendur á sama tíma.
+
+> [!IMPORTANT]
+> Þar sem sérstillingar eru viðvarandi í gegnum uppfærslur er óþarfi að flytja inn allar sérstillingar aftur eftir þjónustuuppfærslu eða hvenær sem er og mjög óhugsandi.
+
+#### <a name="export"></a>Flytja út
+
+Almennt er hægt að flytja út eitt eigið yfirlit eða sérstillingar með því að opna viðeigandi síðu, opna tækjastikuna **Sérstillingar** og velja síðan **Flytja út**. Nánari upplýsingar um tækjastikun er að finna í hlutanum [Tækjastika sérstillinga](#personalization-toolbar) fyrr í þessu efnisatriði. Ef [vistuð yfirlit](saved-views.md) eru virk er einnig hægt að fara í **Stillingar \> Valkostir fyrir notendur \> Sérstillingar** til að skoða lista yfir allar sérstillingar í kerfinu. Þaðan er hægt að velja yfirlit eða sérstillingar sem á að flytja út og síðan velja **Flytja út**.
+
+Auk þess geta stjórnendur flutt út sérstillingar annarra notenda á eftirfarandi hátt.
+
+1. Opnið **Kerfisstjórnun \> Uppsetning \> Sérstillingar**.
+2. Á flipanum **Notendur** skal velja viðeigandi notanda.
+3. Finnið og veljið það útlit eða þá sérstillingu sem óskað er eftir.
+4. Velja **Flytja út**.
+
+#### <a name="import"></a>Flytja inn
+
+Til að flytja inn yfirlit eða sérstillingu er einfaldlega hægt að opna tækjastikuna **Sérstillingar** og velja **Flytja inn**. Auk þess geta stjórnendur flutt inn skrá og gefið hana strax til eins eða fleiri notenda.
+
+Ef vistuð yfirlit eru virk skal fylgja eftirfarandi skrefum.
+
+1. Opnið **Kerfisstjórnun \> Uppsetning \> Sérstillingar**.
+2. Á Aðgerðasvæðinu skal velja **Flytja inn yfirlit \> Yfirlit notanda**.
+3. Veljið innflutningsstillingu:
+
+    - **Velja tiltekna notendur** – Gefðu völdum notendum yfirlit eða sérstillingu.
+    - **Flytja inn eins og það** er – Flytja inn yfirlitið eða sérstillinguna á sama notanda og flutti hana út.
+
+4. Veljið **Fletta** og finnið og veljið sérstillinguna sem á að flytja inn.
+5. Veljið **Næst**.
+6. Ef valið er **Veljið tiltekna notendur** í þrepi 3 skal velja þá notendur sem sérstillingin á að flytja inn á.
+7. Velja **Innflutningur**.
+8. Leysa árekstra eftir þörfum.
+
+Ef vistuð yfirlit eru ekki virk skal fylgja eftirfarandi skrefum.
+
+1. Opnið **Kerfisstjórnun \> Uppsetning \> Sérstillingar**.
+2. Veljið **Bæta við**.
+3. Velja notendurna til að dreifa sérstillingunni til.
+4. Veljið **Flytja inn sérstillingar úr skrá**.
+5. Veljið **Fletta** og finnið og veljið sérstillinguna sem á að flytja inn.
+6. Veljið **Í lagi**.
 
 ## <a name="administration-of-personalizations"></a>Stjórnun sérstillinga
 

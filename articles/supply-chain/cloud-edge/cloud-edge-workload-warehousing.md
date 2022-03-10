@@ -6,7 +6,7 @@ ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
+ms.search.form: PurchTable, InventTransferOrders, SalesTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3de160cb4e62f9b30c01c56fa6fe5a4dfad5229
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
-ms.translationtype: HT
+ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471717"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384485"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra
 
@@ -36,7 +36,18 @@ Vinnuálag vöruhúsakerfis gera einingakvarða skýja og jaðra kleift að keyr
 
 ## <a name="prerequisites"></a>Forkröfur
 
+Áður en þú byrjar að vinna með vinnuálag vöruhúsastjórnunar verður að undirbúa kerfið eins og lýst er í þessum hluta.
+
+### <a name="deploy-a-scale-unit-with-the-warehouse-management-workload"></a>Settu upp mælieiningu með vinnuálagi vöruhúsastjórnunar
+
 Þú verður að vera með Dynamics 365 Supply Chain Management miðstöð og einingarkvarða sem hefur verið settur upp með vinnuálagi vöruhúsakerfisins. Frekari upplýsingar um skipulag og uppsetningarferli er að finna í [Einingarkvarðar í dreifðri blandaðri grannfræði](cloud-edge-landing-page.md).
+
+### <a name="turn-on-required-features-in-feature-management"></a>Kveiktu á nauðsynlegum eiginleikum í eiginleikastjórnun
+
+Nota [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnusvæði til að kveikja á báðum eftirfarandi eiginleikum. (Báðir eiginleikar eru skráðir undir *Vöruhússtjórnun* mát.)
+
+- Aftengja frágangsvinnu frá ASN (tilkynningum um sendingu)
+- (Forútgáfa) Stuðningur kvörðunareiningar fyrir vöruhúsapantanir á inn- og útleið
 
 ## <a name="how-the-warehouse-execution-workload-works-on-scale-units"></a>Hvernig vinnuálag vöruhúsakeyrslu virkar í einingakvörðum
 
@@ -50,6 +61,11 @@ Mælieining getur aðeins haldið utan um gögnin sem hún á. Hugtakið um eign
 > Sum gögn er hægt að búa til í bæði miðstöðinni og einingakvarðanum. Dæmin fela m.a. í sér **Númeraplötur** og **Rununúmer**. Boðið er upp á sérstaka meðhöndlun ágreinings í aðstæðum þar sem sama einkvæma færslan er stofnuð í bæði miðstöðinni og einingakvarðanum í sama samstillta ferlinu. Þegar þetta gerist mun næsta samstilling mistakast og þú verður fara í **Kerfisstjórnun > Fyrirspurnir > Fyrirspurnir um vinnuálag > Tvíteknar færslur** þar sem hægt er að skoða og sameina gögnin.
 
 ## <a name="outbound-process-flow"></a>Vinnsluflæði á útleið
+
+Áður en þú setur upp vöruhúsastjórnunarvinnuálag á skýja- eða brúnkvarðaeiningu skaltu ganga úr skugga um að þú hafir *Stuðningur við mælieiningu til að losa pantanir á útleið í vöruhús* eiginleiki virkjaður á fyrirtækismiðstöðinni þinni. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+
+- **Eining:** *Vöruhúsakerfi*
+- **Eiginleikaheiti:** *Stuðningur við mælieiningu til að losa pantanir á útleið í vöruhús*
 
 Ferli eignarhalds á gögnum á útleið fer eftir því hvort þú notar ferli farmáætlunar. Í öllum tilvikum á miðstöðin *upprunaskjölin*, t.d. sölupantanir og flutningspantanir, auk úthlutunarferlis pöntunar og færslugagna tengdrar pöntunar. En þegar þú notar ferli farmáætlunar verða farmarnir stofnaðir í miðstöðinni og því í eigu miðstöðvarinnar í upphafi. Sem hluti af ferlinu *Losa í vöruhús* er eignarhald farmgagnanna flutt í sérstaka uppsetningu einingakvarða, sem verður eigandi tilheyrandi *bylgjuvinnslu sendingar* (svo sem stofnun vinnuúthlutunar, áfyllingarvinnu og eftirspurnarvinnu). Starfskraftar í vöruhúsi geta þar af leiðandi aðeins unnið úr vinnu sölupöntunar og flutningspöntunar á útleið með Warehouse Management-fartækjaforriti sem er tengt við uppsetninguna sem keyrir tiltekið vinnuálag einingakvarðans.
 
@@ -103,6 +119,26 @@ Eftirfarandi skýringarmynd sýnir flæðið á innleið og gefur til kynna hvar
 
 [![Vinnsluflæði á innleið](media/wes_inbound_warehouse_processes-small.png "Vinnsluflæði á innleið")](media/wes_inbound_warehouse_processes.png)
 
+## <a name="production-control"></a>Framleiðslustýring
+
+Vinnuálag vöruhúsastjórnunar styður eftirfarandi þrjú flæði fyrir framleiðslu í vöruhúsastjórnun appinu:
+
+- Bóka sem tilbúið og ganga frá
+- Hefja framleiðslupöntun
+- Skrá efnisnotkun
+
+### <a name="report-as-finished-and-put-away"></a>Bóka sem tilbúið og ganga frá
+
+Starfsmenn geta notað **Tilkynntu sem lokið og settu í burtu** flæði í vöruhúsastjórnunarappinu til að tilkynna framleiðslu- eða lotupöntun sem lokið. Þeir geta einnig tilkynnt um aukaafurðir og aukaafurðir í lotupöntun sem fullunnar. Þegar tilkynnt er um að verki sé lokið myndar kerfið venjulega frágangsvöruhúsavinnu á mælikvarðaeiningunni. Ef þú þarfnast ekki frágangsvinnu geturðu sett upp vinnustefnu þína til að sleppa því.
+
+### <a name="start-production-order"></a>Hefja framleiðslupöntun
+
+Starfsmenn geta notað **Hefja framleiðslupöntun** flæði í Vöruhússtjórnun appinu til að skrá upphaf framleiðslu- eða lotupöntunar.
+
+### <a name="register-material-consumption"></a>Skrá efnisnotkun
+
+Starfsmenn geta notað **Skrá efnisnotkun** flæði í vöruhúsastjórnunarappinu til að tilkynna efnisnotkun fyrir framleiðslu- eða lotupöntun. Tínslulistabók er síðan stofnuð fyrir tilkynnt efni á framleiðslu- eða runupöntun á mælikvarðaeiningunni. Færslubókarlínurnar gera efnislega frátekningu á neyslubirgðum. Þegar gögn eru samstillt á milli mælikvarðaeiningarinnar og miðstöðvarinnar, er tiltektarlista færslubók mynduð og bókuð á hubtilvikið.
+
 ## <a name="supported-processes-and-roles"></a>Studdar vinnslur og hlutverk
 
 Ekki eru allir vöruhúsakerfisferlar studdir í vinnuálagi vöruhúsakeyrslu í einingarkvarða. Þess vegna er mælt með því að úthluta hlutverkum sem samsvara þeirri virkni sem er í boði fyrir hvern notanda.
@@ -134,22 +170,26 @@ Eftirfarandi vinnugerðir er hægt að búa til í einingakvarða og er því h�
 - **Regluleg talning** – Þar á meðal samþykktar-/höfnunarferli misræmis sem hluti af talningaraðgerðum.
 - **Innkaupapantanir** – Frágangsvinna í gegnum vöruhúsapöntun þegar vöruhúsapantanir eru ekki tengdar við farm.
 - **Sölupantanir** – Einföld tiltekt og hleðsla.
+- **Millifærslukvittun** – Með númeraplötu móttöku vinnslu.
 - **Úthreyfing flutnings** – Einföld tiltekt og hleðsla.
 - **Áfylling** – Að undanskildum hráefnum fyrir framleiðslu.
 - **Frágangur á fullunnum vörum** – Eftir ferlið tilkynna sem tilbúna afurð.
 - **Frágangur aukaafurða og hliðarafurða** – Eftir ferlið tilkynna sem tilbúna afurð.
+<!-- - **Packed container picking** - After manual packing station processing. -->
 
-Engar aðrar úrvinnslur á upprunaskjalagerðum eða vöruhúsavinnu eru studdar sem stendur í einingakvörðum. Til dæmis, fyrir vinnuálag vöruhúsakeyrslu í einingakvarða, er ekki hægt að framkvæma móttökuferli flutningspöntunar (innhreyfingar flutnings), þetta þarf tilvik miðstöðvar að vinna úr.
+Engar aðrar tegundir frumskjalavinnslu eða vöruhúsavinnu eru nú studdar á mælikvarðaeiningum. Til dæmis, þegar þú keyrir á móti vöruhúsaframkvæmdarvinnuálagi á mælieiningu, geturðu ekki notað móttökuferli söluskilapöntunar til að vinna úr skilapantunum. Þess í stað verður þessi vinnsla að fara fram af hubtilvikinu.
 
 > [!NOTE]
 > Valmyndaratriði og hnappar fartækis fyrir óstuddar aðgerðir eru ekki sýnd í _Farsímaforriti Warehouse Management_ þegar það er tengt við uppsetningu einingarkvarða.
-> 
+>
+> Nokkur aukaskref eru nauðsynleg til að setja upp vöruhússtjórnunarfarsímaforritið til að vinna gegn skýja- eða brúnkvarðaeiningu. Fyrir frekari upplýsingar, sjá [Stilltu Warehouse Management farsímaforritið fyrir skýja- og brúnkvarðaeiningar](cloud-edge-workload-setup-warehouse-app.md).
+>
 > Þegar vinnuálag er notað í einingarkvarða er ekki hægt að keyra óstudd ferli fyrir það tiltekna vöruhús í miðstöðinni. Töflurnar sem eru síðar í þessu efnisatriði lýsa studdum eiginleikum.
 >
 > Valdar vinnugerðir vöruhúss er hægt að stofna bæði í miðstöðinni og einingarkvörðum, en aðeins tilheyrandi miðstöð eða einingarkvarði getur viðhaldið þeim (uppsetningin sem bjó til gögnin).
 >
 > Jafnvel þegar tiltekið ferli er stutt af einingarkvarða skal hafa í huga að öll nauðsynleg gögn samstillast hugsanlega ekki úr miðstöðinni til einingarkvarðans, eða frá einingarkvarða til miðstöðvar, sem getur leitt til óvæntrar kerfisvinnslu. Dæmi um þessa sviðsmynd eru:
-> 
+>
 > - Ef notuð er fyrirspurn staðsetningarleiðbeiningar sem tengir saman færslu gagnatöflu sem er aðeins til í uppsetningu miðstöðvarinnar.
 > - Ef notaðar eru aðgerðir staðsetningarstöðu og/eða rúmmálshleðslu staðsetningar. Þessi gögn verða ekki samstillt á milli uppsetninganna og munu því aðeins virka þegar staðsetning birgða á lager er uppfærð í einni uppsetningunni.
 
@@ -157,6 +197,7 @@ Eftirfarandi virkni vöruhúsastjórnunar er ekki studd eins og er fyrir vinnuá
 
 - Vinnsla á innleið fyrir innkaupapöntunarlínur sem úthlutað er á hleðslu.
 - Vinnsla á innleið fyrir innkaupapantanir verks.
+- Að hafa umsjón með heildarkostnaði, nota ferðir og fylgjast með vörum í flutningi.
 - Ferli á innleið og útleið fyrir vörur sem eru með virkar rakningarvíddir **Eigandi** og/eða **Raðnúmer**.
 - Vinnslu á birgðum sem eru með stöðugildi útilokunar.
 - Breyting á birgðastöðu meðan á vinnuhreyfingu stendur.
@@ -168,15 +209,16 @@ Eftirfarandi virkni vöruhúsastjórnunar er ekki studd eins og er fyrir vinnuá
 - Úrvinnsla á vörum með framleiðsluþyngd.
 - Úrvinnsla með vörur sem eru aðeins virkar fyrir flutningsstjórnun.
 - Úrvinnsla á neikvæðum lagerbirgðum.
-- Vinnsla vöruhúsavinnu með athugasemdum sendingar.
+- Samnýting gagna milli fyrirtækja fyrir afurðir. <!-- Planned -->
+- Vinnsla vöruhúsa með sendingarseðlum (t.d. fylgiseðlar á pökkunarstöð).
+- Myndir af afurðarsniðmátsgögnum (til dæmis í farsímaforriti Warehouse Management).
 - Vinna vinnslu í vöruhúsi með efnismeðhöndlun/sjálfvirkni vöruhúss.
-- Notkun á mynd afurðarsniðmátsgagna (til dæmis Warehouse Management-fartækjaforrit).
 
 > [!WARNING]
 > Sumar vöruhúsaaðgerðir verða ekki í boði fyrir vöruhús sem keyra vinnuálag vöruhúsakerfisins í einingarkvarða og eru ekki heldur studdar í vinnuálagi miðstöðvar eða einingarkvarða.
-> 
+>
 > Hægt er að vinna úr öðrum möguleikum fyrir bæði, en krefst vandvirkni í sumum aðstæðum, svo sem þegar birgðir á lager eru uppfærðar fyrir sama vöruhúsið í bæði miðstöð og einingarkvarða vegna uppfærsluferlis ósamstilltra gagna.
-> 
+>
 > Sérstakar aðgerðir (t.d. *loka á vinnu*), sem eru studdar bæði í miðstöð og einingarkvörðum, verða aðeins studdar fyrir eiganda gagnanna.
 
 ### <a name="outbound-supported-only-for-sales-and-transfer-orders"></a>Útleið (aðeins stutt fyrir sölu-og flutningspantanir)
@@ -185,34 +227,37 @@ Eftirfarandi tafla sýnir hvaða eiginleikar á útleið eru studdir og hvar þe
 
 | Vinna                                                      | Stöð | Vinnuálag vöruhúsakeyrslu í einingakvarða |
 |--------------------------------------------------------------|-----|------------------------------|
-| Úrvinnsla upprunaskjals                                   | Já | Ekkert |
-| Hleðslu- og flutningsstjórnunarvinnsla                | Já, en aðeins ferli farmáætlunar. Vinnsla flutningsstjórnunar er ekki studd  | Ekkert |
-| Losa í vöruhús                                         | Já | Ekkert |
-| Áætluð dreifing frá dreifingarstöð                                        | Ekkert  | Ekkert |
+| Úrvinnsla upprunaskjals                                   | Já | Nei |
+| Hleðslu- og flutningsstjórnunarvinnsla                | Já, en aðeins ferli farmáætlunar. Vinnsla flutningsstjórnunar er ekki studd  | Nei |
+| Losa í vöruhús                                         | Já | Nei |
+| Áætluð dreifing frá dreifingarstöð                                        | Nei  | Nei |
 | Sendingarsamstæða                                       | Já, þegar álagsáætlun er notuð | Já |
-| Bylgjuvinnsla sendingar                                     | Ekkert  |Já, nema **Hleðsluáætlun og röðun** |
-| Viðhalda sendingu fyrir bylgju                                  | Ekkert  | Já|
-| Vinnsla vöruhúsavinnu (þ.m.t. prentun númeraplötu)        | Ekkert  | Já, en aðeins fyrir ofangreinda studda möguleika |
-| Klasatiltekt                                              | Ekkert  | Já|
-| Handvirkt pökkunarferli, þ.m.t úrvinnsla vinnunnar „Tiltekt pakkaðs gáms“ | Ekkert <P>Sumar vinnslur er hægt að gera eftir upphaflegt tiltektarferli sem einingarkvarðinn sér um, en ekki er mælt með því vegna eftirfarandi útilokaðra aðgerða.</p>  | Ekkert |
-| Fjarlægja gám úr hópi                                  | Ekkert  | Ekkert |
-| Röðunarferli á útleið                                  | Ekkert  | Ekkert |
+| Bylgjuvinnsla sendingar                                     | Nei  |Já, nema **Hleðsluáætlun og röðun** |
+| Viðhalda sendingu fyrir bylgju                                  | Nei  | Já|
+| Vinnsla vöruhúsavinnu (þ.m.t. prentun númeraplötu)        | Nei  | Já, en aðeins fyrir ofangreinda studda möguleika |
+| Klasatiltekt                                              | Nr.  | Já|
+| Handvirk vinnsla á pökkunarstöð  | Nr.  | Nr. |
+| Röðunarferli á útleið                                  | Nr.  | Nr. |
 | Prentun á hleðslutengdum skjölum                           | Já | Já|
-| Farmbréf og ASN-myndun                            | Ekkert  | Já|
-| Staðfesting sendingar                                             | Ekkert  | Já|
-| Staðfesting sendingar með „Staðfesta og flytja“            | Ekkert  | Ekkert |
-| Fylgiseðill og reikningsfærsla                        | Já | Ekkert |
-| Stutt tiltekt (sölu- og flutningspantanir)                    | Ekkert  | Já, án þess að fjarlægja frátekningar fyrir upprunaskjöl|
-| Umframtiltekt (sölu-og flutningspantanir)                     | Ekkert  | Já|
-| Breyting vinnustaðsetninga (sölu-og flutningspantanir)         | Ekkert  | Já|
-| Ljúka vinnu (sölu-og flutningspantanir)                    | Ekkert  | Já|
+| Farmbréf og ASN-myndun                            | Nei  | Já|
+| Staðfesting sendingar                                             | Nr.  | Já|
+| Staðfesting sendingar með „Staðfesta og flytja“            | Nr.  | Já|
+| Fylgiseðill og reikningsfærsla                        | Já | Nr. |
+| Stutt tiltekt (sölu- og flutningspantanir)                    | Nei  | Já, án þess að fjarlægja frátekningar fyrir upprunaskjöl|
+| Umframtiltekt (sölu-og flutningspantanir)                     | Nr.  | Já|
+| Númeraplötur í samstæðu                                   | Nr.  | Já|
+| Breyting vinnustaðsetninga (sölu-og flutningspantanir)         | Nei  | Já|
+| Ljúka vinnu (sölu-og flutningspantanir)                    | Nei  | Já|
 | Prenta vinnuskýrslu                                            | Já | Já|
-| Bylgjumerki                                                   | Ekkert  | Já|
-| Skipta vinnu                                                   | Ekkert  | Já|
-| Úrvinnsla vinnu - Stjórnað af „Flutningshleðslu“            | Ekkert  | Ekkert |
-| Minnka tiltekið magn                                       | Ekkert  | Ekkert |
-| Bakfæra vinnu                                                 | Ekkert  | Ekkert |
-| Bakfæra staðfestingu sendingar                                | Ekkert  | Já|
+| Bylgjumerki                                                   | Nei  | Já|
+| Skipta vinnu                                                   | Nei  | Já|
+| Úrvinnsla vinnu - Stjórnað af „Flutningshleðslu“            | Nr.  | Nr. |
+| Minnka tiltekið magn                                       | Nr.  | Já|
+| Bakfæra vinnu                                                 | Nr.  | Já|
+| Bakfæra staðfestingu sendingar                                | Nr.  | Já|
+| Beiðni um að hætta við vöruhúspöntunarlínur                      | Já | Nei, en beiðnin verður samþykkt eða henni hafnað |
+| <p>Losa flutningspantanir fyrir móttöku</p><p>Þetta ferli mun sjálfkrafa eiga sér stað sem hluti af sendingarferli flutningspöntunar. Hins vegar er hægt að nota það handvirkt til að virkja móttöku númeraplötu í mælieiningu ef pöntunarlínum á innleið vöruhúss hefur verið hætt eða sem hluti af nýju vinnuálagsdreifingarferli.</p> | Já | Nr.|
+<!--| Handvirk vinnsla á pökkunarstöð, þar á meðal vinnu með „tínslu í pakkaðri gáma“  | Nr.  | Já, en án TMS sendingartilkynningar og sölu fylgiseðla og án fylgiseðla og vörumynda |-->
 
 ### <a name="inbound"></a>Á innleið
 
@@ -220,30 +265,32 @@ Eftirfarandi tafla sýnir hvaða eiginleikar á útleið eru studdir og hvar þe
 
 | Vinna                                                          | Stöð | Vinnuálag vöruhúsakeyrslu í einingakvarða<BR>*(Vörur merktar „Já“ eiga aðeins við um vöruhúsapantanir)* |
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
-| Úrvinnsla&nbsp;upprunaskjals&nbsp;                             | Já | Ekkert |
-| Hleðslu- og flutningsstjórnunarvinnsla                    | Já | Ekkert |
-| Staðfesting sendingar á innleið                                    | Já | Ekkert |
-| Losun innkaupapöntunar til vöruhúss (vinnsla vöruhúsapöntunar) | Já | Ekkert |
-| Afpöntun vöruhúsapöntunarlína<p>Athugið að þetta er aðeins stutt þegar engin skráning er gegn línunni</p> | Já | Ekkert |
+| Úrvinnsla&nbsp;upprunaskjals&nbsp;                             | Já | Nei |
+| Hleðslu- og flutningsstjórnunarvinnsla                    | Já | Nei |
+| Heildarkostnaður og móttaka á vörum í flutningi                       | Já | Nei |
+| Staðfesting sendingar á innleið                                    | Já | Nei |
+| Losun innkaupapöntunar til vöruhúss (vinnsla vöruhúsapöntunar) | Já | Nr. |
+| Beiðni um að hætta við vöruhúspöntunarlínur                            | Já | Nei, en beiðnin verður samþykkt eða henni hafnað |
+| Vinnsla innkaupapöntunar upprunaskjals vörukvittunar                        | Já | Nr. |
 | Móttaka og frágangur innkaupapöntunarvöru                       | <p>Já,&nbsp;þegar&nbsp;það&nbsp;er ekki vöruhúsapöntun</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | <p>Já, þegar innkaupapöntun er ekki hluti af <i>hleðslu</i></p> |
 | Móttaka og frágangur innkaupapöntunarlínu                       | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | <p>Já, þegar innkaupapöntun er ekki hluti af <i>hleðslu</i></p></p> |
-| Móttaka og frágangur skilapöntunar                              | Já | Ekkert |
+| Móttaka og frágangur skilapöntunar                              | Já | Nei |
 | Móttaka og frágangur blandaðrar númeraplötu                       | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Já |
-| Móttaka farmvöru                                              | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Ekkert |
-| Móttaka og frágangur númeraplötu                             | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Ekkert |
-| Móttaka og frágangur flutningspöntunarvöru                       | Já | Ekkert |
-| Móttaka og frágangur flutningspöntunarlínu                       | Já | Ekkert |
-| Hætta við vinnu (á innleið)                                            | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | <p>Já, en aðeins þegar valkosturinn <b>Afskrá innhreyfingu þegar verk er afturkallað</b> (á síðunni <b>Færibreytur vöruhúsakerfis</b>) er hreinsaður</p> |
-| Meðhöndlun innhreyfingarskjals afurða fyrir innkaupapöntun                        | Já | Ekkert |
+| Móttaka farmvöru                                              | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Nr. |
+| Innkaupapöntun Númeraplötu móttekin og afhent              | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Nr. |
+| Flytjapöntun Móttaka á númeraplötu og setja í burtu             | Nr. | Já |
+| Móttaka og frágangur flutningspöntunarvöru                       | Já | Nr. |
+| Móttaka og frágangur flutningspöntunarlínu                       | Já | Nr. |
 | Móttaka innkaupapantana með vanafhendingu                      | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Já, en aðeins með því að gera afturköllunarbeiðni úr miðstöðinni |
 | Móttaka innkaupapöntunar með umframafhendingu                       | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Já  |
-| Móttekið með stofnun vinnunnar *Dreifing frá dreifingarstöð*                 | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Ekkert |
-| Móttekið með stofnun vinnunnar *Gæðapöntun*                  | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Ekkert |
-| Móttekið með stofnun vinnunnar *Sýnataka gæðavinnu*          | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Ekkert |
-| Móttekið með stofnun vinnunnar *Gæði í gæðaskoðun*       | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Ekkert |
-| Móttekið með stofnun gæðapöntunar                            | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Ekkert |
-| Úrvinnsla vinnu - Stjórnað af *Frágangur klasa*                 | Já | Ekkert |
-| Úrvinnsla vinnu með *Stutt tiltekt*                               | Já | Ekkert |
+| Móttekið með stofnun vinnunnar *Dreifing frá dreifingarstöð*                 | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Nei |
+| Móttekið með stofnun vinnunnar *Gæðapöntun*                  | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Nei |
+| Móttekið með stofnun vinnunnar *Sýnataka gæðavinnu*          | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Nei |
+| Móttekið með stofnun vinnunnar *Gæði í gæðaskoðun*       | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Nei |
+| Móttekið með stofnun gæðapöntunar                            | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Nei |
+| Úrvinnsla vinnu - Stjórnað af *Frágangur klasa*                 | Já | Nr. |
+| Úrvinnsla vinnu með *Stutt tiltekt*                               | Já | Nr. |
+| Hætta við vinnu (á innleið)                                            | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | <p>Já, en aðeins þegar<b>Afskrá kvittun þegar sagt er upp vinnu</b> valmöguleika á<b>Vöruhússtjórnunarfæribreytur</b> síða er hreinsuð</p> |
 | Hleðsla númeraplötu                                           | Já | Já |
 
 ### <a name="warehouse-operations-and-exception-handing"></a>Vöruhúsaaðgerðir og meðhöndlun undantekningar
@@ -258,20 +305,19 @@ Eftirfarandi tafla sýnir hvaða eiginleikar vöruhúsaaðgerða og meðhöndlun
 | Breyta vöruhúsi                                   | Já | Já                          |
 | Hreyfing                                           | Já | Já                          |
 | Hreyfingar eftir sniðmáti                               | Já | Já                          |
-| Flutningur í vöruhús                                 | Já | Ekkert                           |
-| Stofna flutningspöntun úr vöruhúsaforriti           | Já | Ekkert                           |
+| Flutningur í vöruhús                                 | Já | Nei                           |
+| Stofna flutningspöntun úr vöruhúsaforriti           | Já | Nei                           |
 | Leiðrétting (inn/út)                                | Já | Já, en ekki í aðstæðum fyrir aðlögun á útleið þar sem fjarlægja verður birgðafrátekningu með stillingunni **Fjarlægja frátekningar** í birgðaleiðréttingargerðum</p>                           |
-| Breyting á birgðastöðu                            | Já | Ekkert                           |
+| Breyting á birgðastöðu                            | Já | Nei                           |
 | Regluleg talning og vinnsla talningarmisræmis | Já | Já                           |
 | Endurprenta merki (prentun númeraplötu)             | Já | Já                          |
-| Röðun númeraplötu                                | Já | Ekkert                           |
-| Númeraplötuskipti                                | Já | Ekkert                           |
-| Pakka í ívafnar númeraplötur                                | Já | Ekkert                           |
-| Innskráning ökumanns                                    | Já | Ekkert                           |
-| Útskráning ökumanns                                   | Já | Ekkert                           |
+| Röðun númeraplötu                                | Já | Nei                           |
+| Númeraplötuskipti                                | Já | Nei                           |
+| Pakka í ívafnar númeraplötur                      | Já | Nei                           |
+| Innskráning ökumanns                                    | Já | Nei                           |
+| Útskráning ökumanns                                   | Já | Nei                           |
 | Breyta ráðstöfunarkóða runu                      | Já | Já                          |
 | Sýna opinn verkefnalista                             | Já | Já                          |
-| Númeraplötur í samstæðu                         | Já | Ekkert                           |
 | Áfyllingarvinnsla fyrir lágm/hám og þröskuld svæðis| Já <p>Tillaga á ekki að taka með sömu staðsetningar sem hluta af fyrirspurnunum</p>| Já                          |
 | Áfyllingarvinnsla hólfuð                  | Já  | Já<p>Athugið að ljúka verður uppsetningu á einingakvarðanum</p>                           |
 | Loka og opna fyrir vinnu                             | Já | Já                          |
@@ -284,27 +330,47 @@ Eftirfarandi tafla sýnir hvaða eiginleikar vöruhúsaaðgerða og meðhöndlun
 Eftirfarandi tafla dregur saman hvaða framleiðsluaðstæður vöruhúsakerfi eru studdar eins og er í vinnuálagi einingakvarða.
 
 | Vinna | Stöð | Vinnuálag vöruhúsakeyrslu í einingakvarða |
-|---------|-----|------------------------------|
-| Tilkynna sem lokið og frágangur tilbúinna afurða | Já | Já |
-| Frágangur aukaafurða og hliðarafurða | Já | Já |
-| <p>Öll önnur vöruhúsakerfisferli sem tengjast framleiðslu, þ.m.t.:</p><li>Losa í vöruhús</li><li>Bylgjuvinnsla framleiðslu</li><li>Tiltekt hráefnis</li><li>Kanban-frágangur</li><li>Kanban-tiltekt</li><li>Hefja framleiðslupöntun</li><li>Framleiðslurýrnun</li><li>Síðasta bretti framleiðslu</li><li>Skrá efnisnotkun</li><li>Tæma kanban</li></ul> | Já | Ekkert |
-| Áfylling hráefnis | Ekkert | Ekkert |
+|---------|-----|----------------------------------------------|
+| Úrvinnsla frumskjala framleiðslupöntunar    | Já | Nr. |
+| Losa í vöruhús                           | Já | Nr. |
+| Hefja framleiðslupöntun                         | Já | Já|
+| Búðu til vöruhúsapantanir                        | Já | Nr. |
+| Beiðni um að hætta við vöruhúspöntunarlínur        | Já | Nei, en beiðnin verður samþykkt eða henni hafnað |
+| Tilkynna sem lokið og frágangur tilbúinna afurða | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Já|
+| Frágangur aukaafurða og hliðarafurða             | <p>Já, þegar engin vöruhúsapöntun er til staðar</p><p>Nei, þegar um er að ræða vöruhúsapöntun</p> | Já|
+| Skrá efnisnotkun                  | Já | Já|
+| Bylgjuvinnsla framleiðslu                     | Já | Nr. |
+| Tiltekt hráefnis                           | Já | Nr. |
+| Kanban-frágangur                                | Já | Nr. |
+| Kanban-tiltekt                                 | Já | Nr. |
+| Tæma kanban                                   | Já | Nr. |
+| Framleiðslurýrnun                               | Já | Nr. |
+| Síðasta bretti framleiðslu                         | Já | Nr. |
+| Áfylling hráefnis                     | Nr.  | Nr. |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Vinna með einingakvarða fyrir vöruhúsakeyrslu
 
 Nokkrar runuvinnslur keyra á bæði miðstöðinni og einingarkvörðum.
 
-Í uppsetningu miðstöðvar er hægt að vinna með runuvinnslur handvirkt. Hægt er að stjórna eftirfarandi þremur runuvinnslum í **Vöruhúsastjórnun \> Reglubundin verkefni \> Stjórnun vinnuálags í bakvinnslu**:
+Í miðstöð dreifingarinnar geturðu viðhaldið eftirfarandi runuverkum handvirkt:
 
-- Skilaboðaúrvinnsla kvörðunareiningar til miðstöðvar.
-- Skrá móttökur á upprunapöntun
-- Ljúka vöruhúsapöntunum
+- Hafa umsjón með eftirfarandi lotustörfum á **Vöruhússtjórnun \> Reglubundin verkefni \> Stýring á vinnuálagi á bak skrifstofu**:
 
-Í vinnuálaginu í einingarkvörðum er hægt að stjórna eftirfarandi runuvinnslum í **Vöruhúsastjórnun \> Reglubundin verkefni \> Stjórnun vinnuálags**:
+    - Skilaboðaúrvinnsla kvörðunareiningar til miðstöðvar.
+    - Skrá móttökur á upprunapöntun
+    - Ljúka vöruhúsapöntunum
+    - Búa til vöruhúsapantanir á útleið sem vantar
+
+- Hafa umsjón með eftirfarandi lotustörfum á **Vöruhússtjórnun \> Reglubundin verkefni \> Vinnuálagsstjórnun**:
+
+    - Skilaboðaúrvinnsla vöruhúsamiðstöðvar til kvörðunareiningar
+    - Vinna úr móttökum á línum vöruhúsapöntunar fyrir bókun vöruhúsamóttöku
+
+Í mælieiningadreifingum geturðu stjórnað eftirfarandi runuverkum á **Vöruhússtjórnun \> Reglubundin verkefni \> Vinnuálagsstjórnun**:
 
 - Töflufærslur bylgjuvinnslu
 - Skilaboðaúrvinnsla vöruhúsamiðstöðvar til kvörðunareiningar
-- Vinna úr beiðnum um magnuppfærslur fyrir vöruhúsapöntunarlínur
+- Vinna úr móttökum á línum vöruhúsapöntunar fyrir bókun vöruhúsamóttöku
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

@@ -1,8 +1,8 @@
 ---
 title: Fjarlægðir eða úreltir eiginleikar verkvangs
-description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
+description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í vettvangsuppfærslum á Finance and Operations forritum.
 author: sericks007
-ms.date: 10/28/2021
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,25 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
-ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
+ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7725050"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384721"
 ---
-# <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
+# <a name="removed-or-deprecated-platform-features"></a>Eiginleikar verkvangs sem hafa verið fjarlægðir eða eru úreltir
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
+Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í vettvangsuppfærslum á Finance and Operations forritum.
 
 - *Fjarlægður* eiginleiki er ekki lengur tiltækur í vörunni.
 - *Úreltur* eiginleiki er ekki í virkri þróun og getur verið fjarlægður úr uppfærslum í framtíðinni.
 
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
-Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](/dynamics/s-e/global/axtechrefrep_61). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+Ítarlegar upplýsingar um hluti í Finance and Operations öppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/global/axtechrefrep_61). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af Finance and Operations forritum.
 
 ## <a name="feature-removal-effective-october-2021"></a>Fjarlæging eiginleika tekur gildi í október 2021
 
@@ -67,14 +67,14 @@ ms.locfileid: "7725050"
 | **Dreifingarvalkostur**              | Öll |
 | **Staða**                         | Úrelt  |
 
-## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.23 á forritum Finance and Operations
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Palluppfærslur fyrir útgáfu 10.0.23 af Finance and Operations forritum
 
 ### <a name="ondbsynchronize-event"></a>OnDBSynchronize-tilvik
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Engin stýring er til að framvkæma þetta tilvik. |
-| **Skipt út fyrir aðra eiginleika?**   | Já, færa núverandi aðferðir áskriftar af hálfu tilviksins **OnDBSynchronzie** yfir í stækkaða klasann SysSetup. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, færa núverandi aðferðir sem eru áskrifendur að **OnDBSynchronize** atburður í SysSetup aukinn bekk. |
 | **Afurðasvæði sem haft er áhrif á**         | Gagnagrunnssamstilling |
 | **Dreifingarvalkostur**              | Öll |
 | **Staða**                         | Úrelt. Fyrirhugaður lokadagur er í október 2022. |
@@ -90,7 +90,7 @@ ms.locfileid: "7725050"
 | **Dreifingarvalkostur**              | Öll |
 | **Staða**                         | Úrelt. Fyrirhugaður lokadagur er í apríl 2023. |
 
-## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.21 á forritum Finance and Operations
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Palluppfærslur fyrir útgáfu 10.0.21 af Finance and Operations forritum
 
 ### <a name="skype-for-business-online-support"></a>Stuðningur við Skype for Business Online
 
@@ -145,12 +145,12 @@ ms.locfileid: "7725050"
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þessi eiginleiki hefur verið fjarlægður til þess að draga úr rekstrar-, eftirlits- og viðhaldskostnaði við stjórnun atriðaskráar eftir viðskiptavini. |
 | **Skipt út fyrir aðra eiginleika?**   | Héðan í frá mun Microsoft-þjónusta sjá um stjórnun atriðaskráar. Þetta gerist samfellt án þess að hafa áhrif á vinnuálag notanda. |
-| **Afurðasvæði sem haft er áhrif á**         | Finance and Operations-smáforrit|
+| **Afurðasvæði sem haft er áhrif á**         | Forrit Finance and Operations|
 | **Dreifingarvalkostur**              | Uppsetning í skýinu - hefur áhrif á framleiðsluumhverfi sem Microsoft stjórnar og lag 2 til lags 5 í sandkassaumhverfum. |
 | **Staða**                         | Þessi eiginleiki hefur verið fjarlægður. |
 
 
-## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.17 á forritum Finance and Operations
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Palluppfærslur fyrir útgáfu 10.0.17 af Finance and Operations forritum
 
 
 ### <a name="visual-studio-2015"></a>Visual Studio 2015
@@ -177,24 +177,25 @@ ms.locfileid: "7725050"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Gervingar lýsigagna sem tengjast Dynamics AX 2012 Enterprise Portal hafa verið gerðir úreldir þar sem Enterprise Portal var aldrei stutt í Finance and Operations-forritum. |
-| **Skipt út fyrir aðra eiginleika?**   | Nei |
+| **Ástæða úreldingar/fjarlægingar** | Lýsigagnagripirnir sem tengjast Dynamics AX 2012 Enterprise Portal (EP) hefur verið úrelt, þar sem EP var aldrei stutt í Finance and Operations forritunum. |
+| **Skipt út fyrir aðra eiginleika?**   | Nr. |
 | **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Úrelt: Áætlað er að allur EP-kóði verði fjarlægður í október 2021 útgáfu. |
 
-## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.15 á forritum Finance and Operations
+## <a name="deprecation-effective-december-2020"></a>Afskrift gildir í desember 2020
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11 stuðningi við Dynamics 365 hefur verið hætt
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Frá desember 2020, er Microsoft Internet Explorer 11 stuðningi fyrir allar Dynamics 365 vörur hætt og Internet Explorer 11 verða ekki stutt eftir ágúst 2021.<br><br>Þetta mun hafa áhrif á viðskiptavini sem nota Dynamics 365 vörur sem eru hannaðar til að nota með Internet Explorer 11 viðmóti. Eftir ágúst 2021 er Internet Explorer 11 ekki stutt fyrir þessar Dynamics 365 vörur. |
+| **Ástæða úreldingar/fjarlægingar** | Gildir í desember 2020, Microsoft Internet Explorer 11 stuðningur fyrir allar Dynamics 365 vörur og Dynamics Lifecycle Services (LCS) er úreltur og Internet Explorer 11 verður ekki stutt eftir ágúst 2021.<br><br>Þetta mun hafa áhrif á viðskiptavini sem nota Dynamics 365 vörur og LCS sem eru hannaðar til að nota í gegnum Internet Explorer 11 tengi. Eftir ágúst 2021,Internet Explorer 11 verður ekki stutt fyrir slíkar Dynamics 365 vörur og LCS. |
 | **Skipt út fyrir aðra eiginleika?**   | Við mælum með því að viðskiptavinir skipti yfir í Microsoft Edge.|
-| **Afurðasvæði sem haft er áhrif á**         | Allar Dynamics 365 vörur |
+| **Afurðasvæði sem haft er áhrif á**         | Allar Dynamics 365 vörur og LCS |
 | **Dreifingarvalkostur**              | Allir|
 | **Staða**                         | Úrelt: Internet Explorer 11 verður ekki stutt eftir ágúst 2021.|
 
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Palluppfærslur fyrir útgáfu 10.0.15 af Finance and Operations forritum
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio -viðbót til að nota flýtileiðréttingar
 
@@ -207,7 +208,7 @@ ms.locfileid: "7725050"
 | **Staða**                         | Með útgáfu 10.0.15 er viðbótin ekki lengur með í Visual Studio-verkfærum. |
 
 
-## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.14 á forritum Finance and Operations
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Palluppfærslur fyrir útgáfu 10.0.14 af Finance and Operations forritum
 
 ### <a name="online-users-page"></a>Síða nettengds notanda 
 
@@ -220,7 +221,7 @@ ms.locfileid: "7725050"
 | **Staða**                         | Frá október 2021 verður þetta fjarlægt.   |
 
 
-## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.13 á forritum Finance and Operations
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Palluppfærslur fyrir útgáfu 10.0.13 af Finance and Operations forritum
 
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Sérstilltur kóði skilgreindur í eiginleikum SSRS-skýrslu 
@@ -264,19 +265,19 @@ ms.locfileid: "7725050"
 | **Staða**                         | Í útgáfu 10.0.13/verkvangsuppfærslu 37 er eiginleiki vistaðra yfirlita almennt í boði og viðskiptavinir geta kveikt á honum ef þeir vilja. Eiginleiki vistaðra yfirlita verður áskilinn í útgáfu í október 2021. |
 
 
-## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.12 á forritum Finance and Operations
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Palluppfærslur fyrir útgáfu 10.0.12 af Finance and Operations forritum
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Viðbætur í hnitaneti eða hópstýringarsniði sem innihalda ógildar reitartilvísanir
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Gagnaflokkseiginleikinn í hnitaneti eða hópstýringum er notaður til að birta sjálfkrafa alla reiti reitahópsins. Hnitanet eða hópstýring sem bætt var við með viðbót getur innihaldið reiti sem eru ekki lengur skilgreindir í reitahópnum eða það gætu verið reitir sem vantar sem eru skilgreindir í reitahópnum. Þetta getur valdið ósamkvæmri hegðun á keyrslutíma. Verkvangsuppfærslur fyrir útgáfu 10.0.12 af Finance and Operations-forritum flokka nú þetta vandamál sem þýðingar *viðvörun*. Til að laga þetta vandamál skal opna snið viðbótar og vista hana.
+| **Ástæða úreldingar/fjarlægingar** | Gagnaflokkseiginleikinn í hnitaneti eða hópstýringum er notaður til að birta sjálfkrafa alla reiti reitahópsins. Hnitanet eða hópstýring sem bætt var við með viðbót getur innihaldið reiti sem eru ekki lengur skilgreindir í reitahópnum eða það gætu verið reitir sem vantar sem eru skilgreindir í reitahópnum. Þetta getur valdið ósamkvæmri hegðun á keyrslutíma. Palluppfærslur fyrir útgáfu 10.0.12 af Finance and Operations forritum flokka þetta mál nú sem þýðanda *viðvörun*. Til að laga þetta vandamál skal opna snið viðbótar og vista hana.
 | **Skipt út fyrir aðra eiginleika?**   | Þýðingarviðvörunin verður skipt út fyrir þýðingarvillu í framtíðaruppfærslu. |
 | **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Þýðingarvilla er kynnt í verkvangsuppfærslum fyrir útgáfu 10.0.12 á forritum Finance and Operations. |
+| **Staða**                         | Viðvörun um þýðanda er kynnt í vettvangsuppfærslum fyrir útgáfu 10.0.12 af Finance and Operations forritum. |
 
-## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.11 á forritum Finance and Operations
+## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Palluppfærslur fyrir útgáfu 10.0.11 af Finance and Operations forritum
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Öruggir listar fyrir sjálfsafgreiðsluumhverfi
 
@@ -302,11 +303,11 @@ ms.locfileid: "7725050"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Reitahópar í skilgreiningum á lýsigögnum töflu geta innihaldið reitatilvísanir sem eru ekki gildar. Ef þessi reitahópar eru uppsettir geta þeir valdið keyrsluvillu í Financial Reporting og Microsoft SQL Server Reporting Services (SSRS). Uppfærsla pallsins 23 kynnti þýðanda *viðvörun* sem gerði kleift að taka á þessu lýsigagnavandamáli. Verkvangsuppfærslur fyrir útgáfu 10.0.11 á forritum Finance and Operations flokka þetta mál sem þýðanda *villa*.<p>Til að laga þetta vandamál skal fylgja þessum skrefum.</p><ol><li>Fjarlægja ógilda tilvísunarreitinn úr skilgreiningu töflureitahópsins.</li><li>Endurþýða.</li><li>Gakktu úr skugga um að tekið sé á öllum villum.</li></ol> |
+| **Ástæða úreldingar/fjarlægingar** | Reitahópar í skilgreiningum á lýsigögnum töflu geta innihaldið reitatilvísanir sem eru ekki gildar. Ef þessi reitahópar eru uppsettir geta þeir valdið keyrsluvillu í Financial Reporting og Microsoft SQL Server Reporting Services (SSRS). Uppfærsla pallsins 23 kynnti þýðanda *viðvörun* sem gerði kleift að taka á þessu lýsigagnavandamáli. Palluppfærslur fyrir útgáfu 10.0.11 af Finance and Operations forritum flokka þetta mál sem þýðanda *villa*.<p>Til að laga þetta vandamál skal fylgja þessum skrefum.</p><ol><li>Fjarlægja ógilda tilvísunarreitinn úr skilgreiningu töflureitahópsins.</li><li>Endurþýða.</li><li>Gakktu úr skugga um að tekið sé á öllum villum.</li></ol> |
 | **Skipt út fyrir aðra eiginleika?**   | Þessi þýðingarvilla kemur í staðinn fyrir viðvörun þýðandans.  |
 | **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Úrelt: Viðvörun þýðanda er villa í verkvangsuppfærslu fyrir útgáfu 10.0.11 af Finance and Operations forritum. |
+| **Staða**                         | Úrelt: Þjálfaraviðvörunin er þýðandavilla í vettvangsuppfærslum fyrir útgáfu 10.0.11 af Finance and Operations forritum. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV leyfi búin til með því að nota endamerkja reikniritið SHA1
 

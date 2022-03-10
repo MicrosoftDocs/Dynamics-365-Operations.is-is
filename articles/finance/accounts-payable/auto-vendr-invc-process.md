@@ -3,24 +3,23 @@ title: Yfirlit yfir sjálfvirka vinnslu á reikningi lánardrottins
 description: Í þessu efnisatriði er lýst möguleikanum á að gera reikningsferli lánardrottins sjálfvirkt og ávinningin af því að nota sjálfvirkt ferli.
 author: abruer
 ms.date: 02/12/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 778d00d777c44aa5cd19eced6d2d30e9b85500fd
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
-ms.translationtype: HT
+ms.openlocfilehash: f21b76bb0d30370e4ea4fdd718999d537e9ce925
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339061"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358431"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Yfirlit yfir sjálfvirka vinnslu á reikningi lánardrottins
 
@@ -34,6 +33,7 @@ Hægt er að gera sum reikningsferli lánardrottna í Viðskiptaskuldum sjálfvi
 
 Sjálfvirk ferli er hægt að nota til að framkvæma eftirfarandi verk:
 
+- Nota fyrirframgreiðslur sjálfkrafa í reikningum lánardrottins
 - Senda innflutta reikninga sjálfkrafa í verkflæðiskerfið.
 - Jafna innhreyfingarskjöl afurðar við reikningslínur lánardrottins sem eru í biðstöðu.
 - Herma eftir bókun áður en lánardrottnareikningur er bókaður.
@@ -43,7 +43,7 @@ Sjálfvirk ferli er hægt að nota til að framkvæma eftirfarandi verk:
 
 ## <a name="submit-imported-vendor-invoices-to-the-workflow-system"></a>Senda innflutta reikninga í verkflæðiskerfið
 
-Sem hluti af snertilausu reikningsfærsluferli Viðskiptaskulda, er hægt að fá kerfið til að senda sjálfkrafa inn innfluttan reikning í verkflæðiskerfið. Ferlið verður keyrt í bakgrunni, eins oft og gefið er upp (annaðhvort á klukkutíma fresti eða daglega). Möguleikinn til að senda sjálfkrafa inn innflutta reikninga í verkflæðiskerfið krefst þess að ferlið hefjist á innfluttum reikningi. Til að tryggja að hægt sé að vinna úr reikningnum frá upphafi til enda án afskipta notandans, þarf að hafa með sjálfvirkt bókunarverk í skilgreiningu verkflæðisins.
+Sem hluti af snertilausu viðskiptaskuldareikningsferli er hægt að senda innfluttan reikning sjálfkrafa í verkflæðiskerfið. Ferlið verður keyrt í bakgrunni, eins oft og gefið er upp (annaðhvort á klukkutíma fresti eða daglega). Möguleikinn til að senda sjálfkrafa inn innflutta reikninga í verkflæðiskerfið krefst þess að ferlið hefjist á innfluttum reikningi. Til að tryggja að hægt sé að vinna úr reikningnum frá upphafi til enda án afskipta notandans, þarf að hafa með sjálfvirkt bókunarverk í skilgreiningu verkflæðisins.
 
 
 Reikningar sem eru tengdir innkaupapöntunum og reikningar sem innihalda innkaupategund sem tengist hvorki innkaupapöntun né birgðalínum, er hægt að senda sjálfkrafa inn í verkflæðiskerfið. Reikningar sem eru færðir handvirkt inn og reikningar sem eru stofnaðir með því að nota vinnusvæðið **Reikningsfærsla fyrir samstarf lánardrottna** verða að vera sendir handvirkt inn í verkflæðiskerfið. Framkvæma verður jöfnunarferli fyrirframgreiðslu handvirkt fyrir innflutta reikninga. Hægt er að nota fyrirframgreiðslur handvirkt fyrir eða eftir bókun innflutts reiknings. Hægt er að nota fyrirframgreiðslur handvirkt til að afbóka staðlaða reikninga með því að nota síðuna **Reikningar lánardrottins**. Eftir bókun verður jöfnuð fyrirframgreiðsla í boði til að nota handvirkt á aðra reikninga frá þessum lánardrottni á síðunni **Lánardrottnar** (**Viðskiptaskuldir \> Almennar \> Lánardrottnar \> Allir lánardrottnar \> Reikningsflipi \> Nota**).
@@ -52,7 +52,7 @@ Sjálfvirknieiginleikinn veitir sveigjanlegan ramma sem gerir þér kleift að s
 
 ## <a name="match-product-receipts-to-invoice-lines-that-have-a-three-way-matching-policy"></a>Jafna innhreyfingarskjöl afurða við reikningslínur sem eru með þríhliða jöfnunarreglu
 
-Kerfið getur sjálfkrafa jafnað innhreyfingarskjöl afurða við reikningslínur sem eru með þríhliða jöfnunarreglu skilgreinda. Vinnslan keyrir þangað til magn jafnaðs innhreyfingarskjals afurðar jafngildir magni reiknings. Sem hluti af þessu ferli er hægt að tilgreina hámarksfjölda skipta sem kerfið á að reyna að jafna innhreyfingarskjöl afurðar við reikningslínu áður en ákveðið er að vinnslan hafi mistekist. Ferlið verður keyrt í bakgrunni, annaðhvort á klukkutíma fresti eða daglega. Hægt er að keyra sjálfvirka jöfnunarferlið sem hluta af ferlinu við að senda reikninga í verkflæðiskerfið. Að öðrum kosti er hægt að keyra það sem sjálfstæðan ferli.
+Bókaðar vörukvittanir er hægt að passa sjálfkrafa við reikningslínur sem þríhliða jöfnunarstefna er skilgreind fyrir. Vinnslan keyrir þangað til magn jafnaðs innhreyfingarskjals afurðar jafngildir magni reiknings. Sem hluti af þessu ferli er hægt að tilgreina hámarksfjölda skipta sem kerfið á að reyna að jafna innhreyfingarskjöl afurðar við reikningslínu áður en ákveðið er að vinnslan hafi mistekist. Ferlið verður keyrt í bakgrunni, annaðhvort á klukkutíma fresti eða daglega. Hægt er að keyra sjálfvirka jöfnunarferlið sem hluta af ferlinu við að senda reikninga í verkflæðiskerfið. Að öðrum kosti er hægt að keyra það sem sjálfstæðan ferli.
 
 ## <a name="pre-validate-vendor-invoice-posting"></a>Villuleita lánardrottnareikning fyrir bókun
 
@@ -60,7 +60,7 @@ Bókunarhermir lýkur villuleitarskrefunum sem eru gerð í bókunarferlinu fyri
 
 ## <a name="enhanced-experience-for-viewing-workflow-and-automation-historical-information-for-vendor-invoices"></a>Aukin upplifun til að skoða ferilgögn og sjálfvirkni verkflæðis fyrir reikninga lánardrottna
 
-Auðlesið yfirlit yfir verkflæðissögu lánardrottnareikninga er veitt. Hægt er að opna verkflæðissögu lánardrottnareiknings beint úr reikningi lánardrottins. Þess vegna þarf færri smelli til að finna þær upplýsingar. Ef fyrirtækið hefur virkjað möguleikana á að senda innflutta reikninga lánardrottins sjálfkrafa í verkflæði er sjálfvirkniferill gefin upp fyrir innfluttu reikningana. Sjálfvirkniferill hjálpar til við að auðkenna núverandi skref ferlis, sem og skrefin sem þegar hefur verið lokið. Ef skref mistekst veitir kerfið ítarlegar upplýsingar til að hjálpa notendum við að skilja ástæðuna fyrir því að það mis´tókst.
+Auðlesið yfirlit yfir verkflæðissögu lánardrottnareikninga er veitt. Hægt er að opna verkflæðissögu lánardrottnareiknings beint úr reikningi lánardrottins. Þess vegna þarf færri smelli til að finna þær upplýsingar. Ef fyrirtækið hefur virkjað möguleikana á að senda innflutta reikninga lánardrottins sjálfkrafa í verkflæði er sjálfvirkniferill gefin upp fyrir innfluttu reikningana. Sjálfvirkniferill hjálpar til við að auðkenna núverandi skref ferlis, sem og skrefin sem þegar hefur verið lokið. Þegar skref er misheppnað verða nákvæmar upplýsingar veittar til að hjálpa þér að skilja ástæðuna fyrir biluninni.
 
 ## <a name="analytics-and-metrics"></a>Greiningar og mælingar
 
@@ -78,9 +78,9 @@ Gildið fyrir **Móttökudagsetningu reiknings** gefur til kynna daginn sem fyri
 
 ## <a name="tracking-the-imported-invoice-amount-and-imported-sales-tax-amount-values"></a>Rakning á gildum innfluttrar reikningsupphæðar og innfluttrar upphæðar virðisaukaskatts
 
-Gildin **Innflutt reikningsupphæð** og **Innflutt upphæð virðisaukaskatts** fyrir reikninga lánardrottins er hægt að bjóða upp í innflutningsskrá lánardrottnareikninga. Yfirleitt eru þessi gildi í reikningi sem var skannaður af utanaðkomandi þjónustuaðila og höfð með í innflutningsskránni. Þegar unnið er úr reikningnum í viðskiptaskuldum reiknar kerfið gildi út frá gögnum reikningsins. Aðeins er hægt að bóka reikninginn ef innflutt gildi stemma við reiknuð gildi. Að stemma gildi tryggir að reikningurinn feli í sér þá upphæð sem lánardrottinn á að fá. Ef fyrirtækið leyfir að sjálfkrafa flytja inn innflutta reikninga í verkflæðiskerfið er valfrjálst hægt að krefjast þess að innfluttar samtölur stemmi við reiknaðar samtölur áður en hægt er að senda inn reikninginn í verkflæðiskerfið.
+Gildin **Innflutt reikningsupphæð** og **Innflutt upphæð virðisaukaskatts** fyrir reikninga lánardrottins er hægt að bjóða upp í innflutningsskrá lánardrottnareikninga. Yfirleitt eru þessi gildi í reikningi sem var skannaður af utanaðkomandi þjónustuaðila og höfð með í innflutningsskránni. Þar sem reikningurinn er afgreiddur í Viðskiptaskuldir verða gildin reiknuð út frá reikningsgögnum. Aðeins er hægt að bóka reikninginn ef innflutt gildi stemma við reiknuð gildi. Að stemma gildi tryggir að reikningurinn feli í sér þá upphæð sem lánardrottinn á að fá. Ef fyrirtækið leyfir að sjálfkrafa flytja inn innflutta reikninga í verkflæðiskerfið er valfrjálst hægt að krefjast þess að innfluttar samtölur stemmi við reiknaðar samtölur áður en hægt er að senda inn reikninginn í verkflæðiskerfið.
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Sjálfvirkni reiknings lánardrottins - halda sjálfvirknivinnslu áfram fyrir marga reikninga
-Þegar innfluttur reikningur hefur ekki verið sendur í verkflæði í gegnum sjálfvirka ferlið mun kerfið fjarlægja hann úr frekari sjálfvirkri vinnslu. Starfsmaður viðskiptaskulda getur yfirfarið og breytt reikningi áður en sjálfvirka vinnslan sendir hann aftur í verkflæði. Þegar hægt er að leysa úr ástæðu þess að bilun kom upp fyrir marga reikninga er hægt að endurræsa sjálfvirka ferlið á síðunni **Halda áfram sjálfvirkri úrvinnslu reikninga**. 
+Þegar innfluttur reikningur er ekki sendur í verkflæði í gegnum sjálfvirka ferlið verður hann fjarlægður úr frekari sjálfvirkri vinnslu. Starfsmaður viðskiptaskulda getur yfirfarið og breytt reikningi áður en sjálfvirka vinnslan sendir hann aftur í verkflæði. Þegar hægt er að leysa úr ástæðu þess að bilun kom upp fyrir marga reikninga er hægt að endurræsa sjálfvirka ferlið á síðunni **Halda áfram sjálfvirkri úrvinnslu reikninga**. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

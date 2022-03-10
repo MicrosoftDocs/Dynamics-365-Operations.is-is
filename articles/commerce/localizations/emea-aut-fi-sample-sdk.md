@@ -2,27 +2,28 @@
 title: Leiðbeiningar um dreifingu fyrir samþættingarsýni skattaskráningarþjónustu fyrir Austurríki (arfleifð)
 description: Þetta efni veitir leiðbeiningar um að dreifa sýnishorni um samþættingu ríkisfjármála fyrir Austurríki frá Microsoft Dynamics 365 Commerce Smásöluhugbúnaðarþróunarsett (SDK).
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c038773dc7c1c475f5852f0f0272b59516140593
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
-ms.translationtype: HT
+ms.openlocfilehash: 65e2a64ed288fb0dcc05ec1ff2db8ed298ed3a76
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944664"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388416"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Leiðbeiningar um dreifingu fyrir samþættingarsýni skattaskráningarþjónustu fyrir Austurríki (arfleifð)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Þetta efni veitir leiðbeiningar um að dreifa samþættingarsýnishorni ríkisskráningarþjónustu fyrir Austurríki frá Microsoft Dynamics 365 Commerce Smásöluhugbúnaðarþróunarsett (SDK) á sýndarvél þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar um þetta sýnishorn af samþættingu ríkisfjármála, sjá [Samþættingarsýni skattaskráningarþjónustu fyrir Austurríki](emea-aut-fi-sample.md). 
+Þetta efni veitir leiðbeiningar um útfærslu samþættingarsýnis fyrir ríkisskráningarþjónustu fyrir Austurríki frá Microsoft Dynamics 365 Commerce Smásöluhugbúnaðarþróunarsett (SDK) á sýndarvél þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar um þetta sýnishorn af samþættingu ríkisfjármála, sjá [Samþættingarsýni fyrir ríkisskattaskráningarþjónustu fyrir Austurríki](emea-aut-fi-sample.md). 
 
-Fjármálasamþættingarúrtakið fyrir Austurríki er hluti af Retail SDK. Fyrir upplýsingar um hvernig á að setja upp og nota SDK, sjá [Smásöluhugbúnaðarþróunarsett (SDK) arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md). Fjármálasamþættingarúrtakið samanstendur af framlengingum fyrir viðskiptatímann (CRT), Vélbúnaðarstöð og sölustaður (POS). Til að keyra þetta sýnishorn verður þú að breyta og byggja upp CRT, Vélbúnaðarstöð og POS verkefni. Við mælum með því að þú notir óbreytt Retail SDK til að gera þær breytingar sem lýst er í þessu efni. Við mælum líka með því að þú notir heimildastýringarkerfi eins og Azure DevOps þar sem engum skrám hefur verið breytt enn.
+Fjármálasamþættingarúrtakið fyrir Austurríki er hluti af Retail SDK. Fyrir upplýsingar um hvernig á að setja upp og nota SDK, sjá [Smásala hugbúnaðarþróunarsett (SDK) arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md). Fjármálasamþættingarúrtakið samanstendur af framlengingum fyrir viðskiptatímann (CRT), Vélbúnaðarstöð og sölustaður (POS). Til að keyra þetta sýnishorn verður þú að breyta og byggja upp CRT, Vélbúnaðarstöð og POS verkefni. Við mælum með því að þú notir óbreytt Retail SDK til að gera þær breytingar sem lýst er í þessu efni. Við mælum líka með því að þú notir heimildastýringarkerfi eins og Azure DevOps þar sem engum skrám hefur verið breytt enn.
 
 ## <a name="development-environment"></a>Þróunarumhverfi
 
@@ -87,11 +88,15 @@ The CRT framlengingaríhlutir eru innifalin í CRT sýnishorn. Til að ljúka ef
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.XZReportsAustria" />
     ```
 
-### <a name="enable-hardware-station-extensions"></a>Virkja viðbætur fyrir vélbúnaðarstöð
+### <a name="enable-fiscal-connector-extensions"></a>Virkja framlengingu á fjárhagstengi
 
-Vélbúnaðarstöðvarframlengingarhlutirnir eru innifalin í vélbúnaðarstöðvunum. Til að ljúka eftirfarandi aðferðum skaltu opna **HardwareStationSamples.sln** lausn undir **RetailSdk\\ SampleExtensions\\ Vélbúnaðarstöð**.
+Þú getur virkjað framlengingu á fjárhagstengi á [Vélbúnaðarstöð](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) eða the [POS skrá](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network).
 
-#### <a name="efrsample-component"></a>EFRSample hluti
+#### <a name="enable-hardware-station-extensions"></a>Virkja viðbætur fyrir vélbúnaðarstöð
+
+Viðbótarhlutir vélbúnaðarstöðvar eru innifaldir í sýnishornum fyrir vélbúnaðarstöð. Til að ljúka eftirfarandi aðferðum skaltu opna **HardwareStationSamples.sln** lausn undir **RetailSdk\\ SampleExtensions\\ Vélbúnaðarstöð**.
+
+##### <a name="efrsample-component"></a>EFRSample hluti
 
 1. Finndu **HardwareStation.Extension.EFRSample** verkefni, og byggja það.
 2. Í **Framlenging.EFRSample\\ bin\\ Villuleit** möppu, finndu eftirfarandi samsetningarskrár:
@@ -115,9 +120,33 @@ Vélbúnaðarstöðvarframlengingarhlutirnir eru innifalin í vélbúnaðarstö�
     <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample.dll" />
     ```
 
+#### <a name="enable-pos-extensions"></a>Virkja POS viðbætur
+
+Sýnishorn af POS framlengingu er staðsett í **src\\ Fiscal Integration\\ PosFiscalConnectorSample** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla.
+
+Fylgdu þessum skrefum til að nota sýnishorn af POS viðbótinni í eldri SDK.
+
+1. Afritaðu **Pos.Extension** möppu í POS **Framlengingar** möppu eldri SDK (til dæmis,`C:\RetailSDK\src\POS\Extensions`).
+1. Endurnefna afritið af **Pos.Extension** möppu **PosFiscalConnector**.
+1. Fjarlægðu eftirfarandi möppur og skrár úr **PosFiscalConnector** mappa:
+
+    - bin
+    - DataService
+    - devDependencies
+    - Söfn
+    - obj
+    - Contoso.PosFiscalConnectorSample.Pos.csproj
+    - RetailServerEdmxModel.g.xml
+    - tsconfig.json
+
+1. Opnaðu **CloudPos.sln** eða **ModernPos.sln** lausn.
+1. Í **Pos.Viðbætur** verkefni, fela í sér **PosFiscalConnector** möppu.
+1. Opnaðu **extensions.json** skrá og bættu við **PosFiscalConnector** framlenging.
+1. Byggja SDK.
+
 ### <a name="enable-modern-pos-extension-components"></a>Virkjaðu nútíma POS viðbótaríhluti
 
-1. Opnaðu **ModernPOS.sln** lausn undir **RetailSdk\\ POS**, og vertu viss um að hægt sé að setja það saman án villna. Gakktu úr skugga um að þú getir keyrt Modern POS frá Visual Studio með því að nota **Hlaupa** skipun.
+1. Opnaðu **ModernPOS.sln** lausn undir **RetailSdk\\ POS**, og vertu viss um að hægt sé að setja hana saman án villna. Gakktu úr skugga um að þú getir keyrt Modern POS frá Visual Studio með því að nota **Hlaupa** skipun.
 
     > [!NOTE]
     > Nútíma POS má ekki aðlaga. Þú verður að virkja User Account Control (UAC) og þú verður að fjarlægja áður uppsett tilvik af Modern POS eftir þörfum.
@@ -135,7 +164,7 @@ Vélbúnaðarstöðvarframlengingarhlutirnir eru innifalin í vélbúnaðarstö�
     ```
 
     > [!NOTE]
-    > Fyrir frekari upplýsingar og fyrir sýnishorn sem sýna hvernig á að innihalda frumkóðamöppur og gera kleift að hlaða viðbótum, sjáðu leiðbeiningarnar í readme.md skránni í **Pos.Viðbætur** verkefni.
+    > Fyrir frekari upplýsingar og fyrir sýnishorn sem sýna hvernig á að innihalda frumkóðamöppur og gera kleift að hlaða viðbótum, sjáðu leiðbeiningarnar í readme.md skránni í **Pos.Extensions** verkefni.
 
 3. Endurbyggðu lausnina.
 4. Keyrðu Modern POS í kembiforritinu og prófaðu virknina.
@@ -156,14 +185,14 @@ Vélbúnaðarstöðvarframlengingarhlutirnir eru innifalin í vélbúnaðarstö�
     ```
 
     > [!NOTE]
-    > Fyrir frekari upplýsingar og fyrir sýnishorn sem sýna hvernig á að innihalda frumkóðamöppur og gera kleift að hlaða viðbótum, sjáðu leiðbeiningarnar í readme.md skránni í **Pos.Viðbætur** verkefni.
+    > Fyrir frekari upplýsingar og fyrir sýnishorn sem sýna hvernig á að innihalda frumkóðamöppur og gera kleift að hlaða viðbótum, sjáðu leiðbeiningarnar í readme.md skránni í **Pos.Extensions** verkefni.
 
 3. Endurbyggðu lausnina.
 4. Keyrðu lausnina með því að nota **Hlaupa** skipuninni og fylgdu skrefunum í Retail SDK handbókinni.
 
 ## <a name="production-environment"></a>Framleiðsluumhverfi
 
-Fyrri aðferðin gerir viðbætur sem eru hluti af samþættingarúrtaki fjárhagsskráningarþjónustu virkjað. Að auki verður þú að fylgja þessum skrefum til að búa til dreifanlega pakka sem innihalda Commerce íhluti og nota þá pakka í framleiðsluumhverfi.
+Fyrri aðferðin gerir viðbæturnar sem eru hluti af samþættingarúrtaki fjárhagsskráningarþjónustu virka. Að auki verður þú að fylgja þessum skrefum til að búa til dreifanlega pakka sem innihalda Commerce íhluti og nota þá pakka í framleiðsluumhverfi.
 
 1. Gerðu eftirfarandi breytingar á stillingarskrám pakkans undir **RetailSdk\\ Eignir** mappa:
 
@@ -206,11 +235,11 @@ Fyrri aðferðin gerir viðbætur sem eru hluti af samþættingarúrtaki fjárha
 
 ## <a name="design-of-extensions"></a>Hönnun viðbygginga
 
-Samþættingarúrtak ríkisskráningarþjónustu fyrir Austurríki byggist á [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md). Fyrir frekari upplýsingar um hönnun fjárhagslegrar samþættingarlausnar, sjá [yfirlit yfir sýnishönnun í ríkisfjármálum](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+Samþættingarúrtak ríkisskráningarþjónustu fyrir Austurríki byggist á [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md). Fyrir frekari upplýsingar um hönnun fjárhagslegrar samþættingarlausnar, sjá [yfirlit yfir sýnishönnun fjárhagslega samþættingar](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 ### <a name="commerce-runtime-extension-design"></a>Viðskiptatímaframlengingarhönnun
 
-Tilgangur framlengingarinnar sem er ríkisfjármálaskjalaveita er að búa til þjónustusértæk skjöl og sjá um svör frá ríkisskráningarþjónustunni.
+Tilgangur framlengingarinnar sem er ríkisfjármálaskjalaveita er að búa til þjónustusértæk skjöl og annast svör frá ríkisskráningarþjónustunni.
 
 The CRT framlenging er **Runtime.Extensions.DocumentProvider.EFRSample**.
 
@@ -243,9 +272,7 @@ Tilgangur þessara skráa er að gera stillingar fyrir skjalaveituna kleift að 
 
 ### <a name="hardware-station-extension-design"></a>Hönnun vélbúnaðarstöðvar viðbyggingar
 
-Tilgangur framlengingarinnar sem er fjárhagstengi er að hafa samskipti við skattskráningarþjónustuna.
-
-Viðbygging Vélbúnaðarstöðvarinnar er **HardwareStation.Extension.EFRSample**. Það notar HTTP samskiptareglur til að leggja fram skjöl sem CRT framlenging myndar við skattskráningarþjónustuna. Það sér einnig um svör sem berast frá ríkisskráningarþjónustu.
+Tilgangurinn með framlengingunni á fjárhagstenginu er að hafa samskipti við skattskráningarþjónustuna. Viðbygging vélbúnaðarstöðvar er nefnd **HardwareStation.Extension.EFRSample**. Það notar HTTP eða HTTPS samskiptareglur til að leggja fram skjöl sem CRT framlenging myndar við skattskráningarþjónustuna. Það sér einnig um svör sem berast frá ríkisskráningarþjónustu.
 
 #### <a name="request-handler"></a>Beiðni um stjórnanda
 
@@ -261,7 +288,30 @@ Tengið styður eftirfarandi beiðnir:
 
 #### <a name="configuration"></a>Skilgreining
 
-Stillingarskráin er staðsett í **Stillingar** möppu framlengingarverkefnisins. Tilgangur skrárinnar er að gera stillingar fyrir fjárhagslega tengið kleift að stilla frá höfuðstöðvum Commerce. Skráarsniðið er í samræmi við kröfurnar fyrir fjárhagslega samþættingu stillingar. Eftirfarandi stillingum er bætt við:
+Stillingarskráin er staðsett í **Stillingar** möppu framlengingarverkefnisins. Tilgangur skrárinnar er að gera stillingar fyrir fjárhagstengi kleift að stilla frá höfuðstöðvum Commerce. Skráarsniðið er í samræmi við kröfurnar fyrir fjárhagslega samþættingu stillingar. Eftirfarandi stillingum er bætt við:
 
 - **Heimilisfang endapunkts** – Vefslóð ríkisskráningarþjónustunnar.
 - **Hlé** – Tíminn, í millisekúndum, sem ökumaður bíður eftir svari frá skattskráningarþjónustunni.
+
+### <a name="pos-fiscal-connector-extension-design"></a>Hönnun POS fjárhagstengisframlengingar
+
+Tilgangur POS fjárhagstengiviðbótar er að hafa samskipti við fjárhagsskráningarþjónustuna frá POS. Það notar HTTPS samskiptareglur fyrir samskipti.
+
+#### <a name="fiscal-connector-factory"></a>Fiskal tengiverksmiðju
+
+Fjárhagstengjaverksmiðjan kortleggur nafn tengisins við útfærslu fjárhagstengisins og er staðsett í **Pos.Extension\\ Tengi\\ FiscalConnectorFactory.ts** skrá. Nafn tengisins ætti að passa við nafn fjárhagstengis sem er tilgreint í höfuðstöðvum Commerce.
+
+#### <a name="efr-fiscal-connector"></a>EFR fjárhagslega tengi
+
+Fjárhagstenging EFR er staðsett í **Pos.Extension\\ Tengi\\ Efr\\ EfrFiscalConnector.ts** skrá. Það útfærir **IFiscalConnector** viðmót sem styður eftirfarandi beiðnir:
+
+- **FiscalRegisterSubmitDocumentClientRequest** – Þessi beiðni sendir skjöl til ríkisskráningarþjónustunnar og skilar svari frá henni.
+- **FiscalRegisterIsReadyClientRequest** – Þessi beiðni er notuð við heilsufarsskoðun hjá ríkisskráningarþjónustunni.
+- **FiscalRegisterInitializeClientRequest** – Þessi beiðni er notuð til að frumstilla fjárhagsskráningarþjónustuna.
+
+#### <a name="configuration"></a>Skilgreining
+
+Stillingarskráin er staðsett í **src\\ Fiscal Integration\\ Efr\\ Stillingar\\ Tengi** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla. Tilgangur skrárinnar er að gera stillingar fyrir fjárhagstengi kleift að stilla frá höfuðstöðvum Commerce. Skráarsniðið er í samræmi við kröfurnar fyrir fjárhagslega samþættingu stillingar. Eftirfarandi stillingum er bætt við:
+
+- **Heimilisfang endapunkts** – Vefslóð ríkisskráningarþjónustunnar.
+- **Hlé** – Tíminn, í millisekúndum, sem tengið bíður eftir svari frá skattskráningarþjónustunni.

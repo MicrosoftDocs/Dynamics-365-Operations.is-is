@@ -3,7 +3,6 @@ title: Hlutar rafrænnar skýrslugerðar
 description: Þetta efnisatriði lýsir hlutum rafrænnar skýrslugerðar.
 author: nselin
 ms.date: 09/28/2021
-ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERWorkspace
@@ -12,15 +11,16 @@ ms.reviewer: kfend
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
+ms.topic: overview
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6356fdaee4c6298dd87ef965fcd91937144cd529
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: HT
+ms.openlocfilehash: aca1b9bbca490a8a9551ed97d6e100c9115a0d41
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985735"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367825"
 ---
 # <a name="electronic-reporting-components"></a>Hlutar rafrænnar skýrslugerðar
 
@@ -91,9 +91,23 @@ Sniðsþáttur gerir þér kleift að hengja við tilteknar skrár sem hægt er 
 
 Eftirfarandi dæmi sýnir gagnaflæðið fyrir þessi snið.
 
-[![Gagnaflæði fyrir sniðsþætti á innleið.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![Gagnaflæði fyrir sniðsþætti á útleið](./media/ER-overview-02.png)](./media/ER-overview-02.png)
 
-Til að keyra eina sniðsskilgreiningu til að flytja gögn úr rafrænu skjali á innleið, verður að auðkenna tilætlaða vörpun skilgreiningarsniðsins og samþættingarstað vörpunar líkans. Hægt er að nota sömu vörpun líkans og áfangastaði með mismunandi sniðum fyrir mismunandi gerðir skjala á innleið.
+Til að keyra eina sniðsskilgreiningu fyrir rafræna skýrslugerð og búa til rafrænt skjal til að senda út verður þú að auðkenna vörpun skilgreiningarsniðsins.
+
+#### <a name="format-components-for-incoming-electronic-documents"></a>Sniðsþættir fyrir rafræn skjöl á innleið
+Sniðsþáttur er skema skjals á innleið sem er flutt inn á keyrslutíma. Skema samanstendur af eftirfarandi þáttum:
+
+- Snið sem skilgreinir skipulag og innihald rafræns skjals á innleið sem inniheldur gögn sem eru flutt inn á keyrslutíma. Sniðsþáttur er notaður til að þátta skjal á innleið á ýmis snið, eins og texta og XML.
+- Sniðsvörpun sem bindur einstakar sniðseiningar í einingar í gagnalíkani fyrir tiltekin svið. Einingarnar í gagnalíkani tilgreina, á keyrslutíma, gagnaflæði og reglur fyrir innflutning gagna úr skjali á innleið og geyma svo gögnin í gagnalíkani.
+- Villuleitarsnið, sem hópur af samskiptanlegum reglum sem stýra gagnainnflutningi á keyrslutíma, háð samhengi keyrslu. Til dæmis gæti verið regla sem stöðvar innflutning á gögnum bankayfirlits sem er með greiðslur lánardrottins og beitir undantekningu þegar tilteknar eigindir lánardrottins vantar, eins og auðkenniskóði lánardrottins.
+
+Eftirfarandi dæmi sýnir gagnaflæðið fyrir þessi snið.
+
+[![Gagnaflæði fyrir sniðsþætti á innleið](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+
+Til að keyra eina sniðsskilgreiningu til að flytja gögn úr rafrænu skjali á innleið, verður að auðkenna tilætlaða vörpun skilgreiningarsniðsins og einnig samþættingarstað vörpunar líkans. Hægt er að nota sömu vörpun líkans og áfangastaði með mismunandi sniðum fyrir mismunandi gerðir skjala á innleið.
+
 
 ## <a name="component-versioning"></a>Sögugeymni íhlutar
 

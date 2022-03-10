@@ -2,23 +2,24 @@
 title: Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Austurríki
 description: Þetta efni veitir yfirlit yfir úrtak ríkisfjármálasamþættingar fyrir Austurríki í Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: f03eab49f0abfc8a279ea43f69fa2ac0100bd34a
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
-ms.translationtype: HT
+ms.openlocfilehash: b41ff8a112f801cd9bf5ebad3aed588ccb40e1f8
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7945040"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388364"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Austurríki
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 Þetta efni veitir yfirlit yfir úrtak ríkisfjármálasamþættingar fyrir Austurríki í Microsoft Dynamics 365 Commerce.
 
@@ -32,7 +33,7 @@ Eftirfarandi aðstæður falla undir samþættingarúrtak ríkisskráningarþjó
 
 - Skráning reiðufjárviðskipta í ríkisskráningarþjónustu:
 
-    - Sendu nákvæmar færsluupplýsingar til ríkisskráningarþjónustunnar. Þessi gögn innihalda upplýsingar um sölulínur og upplýsingar um afslætti, greiðslur og skatta.
+    - Sendu nákvæmar viðskiptagögn til ríkisskráningarþjónustunnar. Þessi gögn innihalda upplýsingar um sölulínur og upplýsingar um afslætti, greiðslur og skatta.
     - Fangaðu svar frá skattaskráningarþjónustunni. Þetta svar inniheldur stafræna undirskrift og tengil á skráða færslu.
     - Skráðu skatta og kortaðu þá á skattanúmer skattskráningarþjónustunnar.
     - Prentaðu QR kóðann fyrir skráða færslu á kvittuninni.
@@ -40,7 +41,7 @@ Eftirfarandi aðstæður falla undir samþættingarúrtak ríkisskráningarþjó
 - Skráning gjafakortastarfsemi og innlána viðskiptavina sem færslur sem ekki eru reiðufé í skráningarþjónustu ríkisfjármála:
 
     - Gefðu út eða bættu peningum við gjafakort.
-    - Skráðu innborgun viðskiptavinarreiknings.
+    - Skráðu innborgun á viðskiptareikning.
     - Skráðu innborgun viðskiptavinarpöntunar.
 
 - Skráning ósöluviðskipta og atburða sem færslur utan reiðufjár í ríkisskráningarþjónustunni:
@@ -50,7 +51,7 @@ Eftirfarandi aðstæður falla undir samþættingarúrtak ríkisskráningarþjó
     - Verðhnekking
     - Skattahnekking
     - Prenta afrit af kvittun
-    - Opin skúffa
+    - Opna skúffu
     - Prenta X-skýrslu
     - Prenta Z-skýrslu
 
@@ -66,12 +67,12 @@ Eftirfarandi aðstæður falla undir samþættingarúrtak ríkisskráningarþjó
 
     - Reyndu aftur fjárhagsskráningu ef hægt er að reyna aftur, eins og ef fjárhagsskráningarþjónustan er ekki tiltæk, er ekki tilbúin eða svarar ekki.
     - Fresta skattskráningu.
-    - Slepptu fjárhagslegri skráningu eða merktu færsluna sem skráða og láttu upplýsingakóða fylgja með til að fanga ástæðu bilunarinnar og viðbótarupplýsingar.
+    - Slepptu skattaskráningu eða merktu viðskiptin sem skráða og láttu upplýsingakóða fylgja með til að fanga ástæðu bilunarinnar og viðbótarupplýsingar.
     - Athugaðu framboð á fjárhagsskráningarþjónustunni áður en ný sölufærsla er opnuð eða sölufærslu er lokið.
 
 ### <a name="gift-cards"></a>Gjafakort
 
-Samþættingarsýnishorn ríkisskráningarþjónustu innleiðir eftirfarandi reglur sem tengjast gjafakortum:
+Samþættingarsýnishorn ríkisskráningarþjónustunnar innleiðir eftirfarandi reglur sem tengjast gjafakortum:
 
 - Útiloka sölulínur sem tengjast *Gefa út gjafakort* og *Bæta við gjafakort* rekstur úr staðgreiðslu. Í stað þess að skrá þessar línur sem hluta af staðgreiðslufærslu, skráðu þær sem sérstaka færslu sem ekki er reiðufé í ríkisskráningarþjónustunni.
 - Ekki prenta sundurliðun skattaflokka og QR kóða á kvittun ef kvittunin samanstendur eingöngu af gjafakortalínum.
@@ -81,12 +82,12 @@ Samþættingarsýnishorn ríkisskráningarþjónustu innleiðir eftirfarandi reg
 
 ### <a name="customer-deposits-and-customer-order-deposits"></a>Innlán viðskiptavina og pantanir viðskiptavina
 
-Samþættingarsýnishorn ríkisskráningarþjónustunnar innleiðir eftirfarandi reglur sem tengjast innlánum viðskiptavina og innborgunum viðskiptavina:
+Samþættingarúrtak ríkisskráningarþjónustunnar innleiðir eftirfarandi reglur sem tengjast innlánum viðskiptavina og innborgunum viðskiptavina:
 
 - Skráðu færslu sem ekki er reiðufé ef viðskiptin eru innborgun viðskiptavina.
 - Skráðu færslu sem ekki er reiðufé ef færsla inniheldur aðeins innborgun viðskiptavinapöntunar eða endurgreiðslu viðskiptavinapöntunar.
 - Dragðu innborgunarupphæð viðskiptavinarpöntunar frá greiðslulínum þegar blandað viðskiptavinapöntun er stofnuð.
-- Vistaðu reiknaðar leiðréttingar á greiðslulínum í rásargagnagrunninum með tilvísun í fjárhagsfærslu fyrir blandaða viðskiptavinapöntun.
+- Vistaðu reiknaðar leiðréttingar á greiðslulínum í rásargagnagrunninum með tilvísun í fjárhagsfærslu fyrir blendingapöntun viðskiptavinar.
 
 ### <a name="limitations-of-the-sample"></a>Takmarkanir úrtaksins
 
@@ -122,7 +123,7 @@ Til að nota Austurríkissértæka virkni verður þú að tilgreina eftirfarand
 
 Settu upp POS virknisnið:
 
-- Á **Númer kvittunar** Flýtiflipi, settu upp númer kvittunar með því að búa til eða uppfæra færslur fyrir **Útsala**, **·**, og **Til baka** tegundir kvittunarfærslu.
+- Á **Númer kvittunar** Flýtiflipi, settu upp númer kvittunar með því að búa til eða uppfæra færslur fyrir **Útsala**, **·**, og **Til baka** tegundir kvittunarfærslur.
 
 ### <a name="configure-custom-fields-so-that-they-can-be-used-in-receipt-formats-for-sales-receipts"></a>Stilltu sérsniðna reiti þannig að hægt sé að nota þá á kvittunarsniði fyrir sölukvittanir
 
@@ -189,7 +190,7 @@ Fyrir hvert áskilið kvittunarsnið, breyttu gildinu **Prenthegðun** sviði ti
 
     - **Skatta sundurliðun** vallarhópur. Öll reiti í þessum reitahópi verður að prenta á eina aðskilda línu.
 
-        - **Skattkenni** reit, sem er staðall reitur sem gerir kleift að prenta vsk-yfirlit fyrir hvern vsk-kóða. Reiturinn verður að bæta við nýja línu.
+        - **Skattkenni** reit, sem er staðall reitur sem gerir kleift að prenta vsk-yfirlit fyrir hvern vsk-kóða. Reitinum verður að bæta við nýja línu.
         - **Skattprósenta** reit, sem er staðalreitur sem er notaður til að prenta virkt skatthlutfall fyrir vsk-kóðann.
         - **Skattgrundvöllur (sala)** reitinn, sem er notaður til að prenta út heildarsöluupphæð kvittunarinnar í reiðufé fyrir vsk kóða. Fyrirframgreiðslur og gjafakortaaðgerðir eru undanskildar.
         - **Skattupphæð (sala)** reit, sem er notaður til að prenta út skattupphæð kvittunar fyrir staðgreiðslu fyrir vsk-kóðann.
@@ -204,14 +205,14 @@ Fyrir frekari upplýsingar um hvernig á að vinna með kvittunarsnið, sjá [Se
 
 ## <a name="set-up-fiscal-integration-for-austria"></a>Settu upp ríkisfjármálasamþættingu fyrir Austurríki
 
-Samþættingarúrtak ríkisskráningarþjónustu fyrir Austurríki byggist á [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md) og er hluti af Retail SDK. Sýnið er staðsett í **src\\ Fiscal Integration\\ Efr** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla (td [sýnishornið í útgáfu/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Sýnið [felst í](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) af ríkisfjármálaskjalaveitu, sem er framlenging á viðskiptatímanum (CRT), og fjárhagstengi, sem er framlenging á Commerce Hardware Station. Fyrir frekari upplýsingar um hvernig á að nota Retail SDK, sjá [Smásölu SDK arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md) og [Settu upp smíðisleiðslu fyrir SDK fyrir sjálfstæða umbúðir](../dev-itpro/build-pipeline.md).
+Samþættingarúrtak ríkisskráningarþjónustu fyrir Austurríki byggist á [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md) og er hluti af Retail SDK. Sýnið er staðsett í **src\\ Fiscal Integration\\ Efr** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla (td [sýnishornið í útgáfu/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Sýnið [felst í](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) af ríkisfjármálaskjalaveitu, sem er framlenging á viðskiptatímanum (CRT), og fjárhagstengi, sem er framlenging á Commerce Hardware Station. Fyrir frekari upplýsingar um hvernig á að nota Retail SDK, sjá [Smásölu SDK arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md) og [Settu upp smíðisleiðslu fyrir SDK fyrir sjálfstæða umbúðir](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > Vegna takmarkana á [ný sjálfstæð umbúða- og framlengingarlíkan](../dev-itpro/build-pipeline.md), sem stendur er ekki hægt að nota það fyrir þetta fjárhagslega samþættingarúrtak. Þú verður að nota fyrri útgáfu af Retail SDK á sýndarvél þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar, sjá [Leiðbeiningar um dreifingu fyrir samþættingarúrtak í ríkisfjármálum fyrir Austurríki (arfleifð)](emea-aut-fi-sample-sdk.md). Stuðningur við nýja óháða umbúða- og framlengingarlíkanið fyrir skattasamþættingarsýni er fyrirhugað fyrir síðari útgáfur.
 
 Ljúktu við uppsetningarskref fjárhagssamþættingar eins og lýst er í [Settu upp fjárhagslega samþættingu fyrir viðskiptarásir](setting-up-fiscal-integration-for-retail-channel.md):
 
-1. [Settu upp fjárhagslega skráningarferli](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Taktu einnig eftir þeim stillingum fyrir fjárhagsskráningarferlið sem eru [sérstaklega fyrir þetta samþættingarsýni fyrir ríkisskráningarþjónustu](#set-up-the-registration-process).
+1. [Settu upp fjárhagslega skráningarferli](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Taktu einnig eftir stillingum fyrir fjárhagsskráningarferlið sem eru [sérstaklega fyrir þetta samþættingarsýni fyrir ríkisskráningarþjónustu](#set-up-the-registration-process).
 1. [Stilltu stillingar fyrir villumeðferð](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 1. [Virkja handvirka framkvæmd frestaðrar fjárhagsskráningar](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
 1. [Stilltu rásaríhluti](#configure-channel-components).
@@ -223,10 +224,10 @@ Til að virkja skráningarferlið skaltu fylgja þessum skrefum til að setja up
 1. Sæktu stillingarskrár fyrir fjárhagsskjalaveituna og fjárhagstengið:
 
     1. Opnaðu [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla.
-    1. Veldu rétta útgáfuútgáfu í samræmi við SDK/forritsútgáfu þína (td, **[útgáfa/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Veldu rétta útgáfuútgáfu í samræmi við SDK/forritsútgáfu þína (til dæmis, **[útgáfa/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
     1. Opið **src \> Fiscal Integration \> Efr**.
     1. Opið **Stillingar \> Skjalaveitendur**, og hlaðið niður stillingarskrám fjárhagsskjalaveitunnar: **DocumentProviderFiscalEFRSampleAustria.xml** og **DocumentProviderNonFiscalEFRSampleAustria.xml** (til dæmis, [staðsetningu skráa fyrir útgáfu/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr/Configurations/DocumentProviders)).
-    1. Sæktu stillingarskrá fjárhagstengis á **Stillingar \> Tengi \> Tengi EFRSample.xml** (til dæmis, [skráin til útgáfu/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/Connectors/ConnectorEFRSample.xml)).
+    1. Sæktu stillingarskrá fjárhagstengis á **Stillingar \> Tengi \> Tengi EFRSample.xml** (til dæmis, [skrána til útgáfu/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/Connectors/ConnectorEFRSample.xml)).
 
     > [!WARNING]
     > Vegna takmarkana á [ný sjálfstæð umbúða- og framlengingarlíkan](../dev-itpro/build-pipeline.md), sem stendur er ekki hægt að nota það fyrir þetta fjárhagslega samþættingarúrtak. Þú verður að nota fyrri útgáfu af Retail SDK á VM þróunaraðila í LCS. Stillingarskrárnar fyrir þetta fjárhagslega samþættingarsýni eru staðsettar í eftirfarandi möppum í Retail SDK á VM þróunaraðila í LCS:
@@ -239,8 +240,8 @@ Til að virkja skráningarferlið skaltu fylgja þessum skrefum til að setja up
 1. Opnið **Retail og Commerce \> Uppsetning höfuðstöðva \> Færibreytur \> Samnýttar færibreytur Commerce**. Á **Almennt** flipann, stilltu **Virkja samþættingu í ríkisfjármálum** valmöguleika til **Já**.
 1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Veitendur ríkisfjármálaskjala**, og hlaðið inn stillingarskrám fyrir fjárhagsskjalaveitu sem þú hleður niður áðan.
 1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Fjárhagstengingar**, og hlaðið inn stillingarskrá fjárhagstengis sem þú sóttir áðan.
-1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Tengi virka snið**. Búðu til tvö ný virknisnið fyrir tengi, eitt fyrir hverja fjárhagsskjalaveitu sem þú hleður inn áðan, og veldu fjárhagstengi sem þú hleður inn áður. Uppfærðu [gagnakortastillingar](#default-data-mapping) eins og krafist er.
-1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Tæknisnið fyrir tengi**. Búðu til nýja tæknisnið fyrir tengi og veldu fjárhagstengi sem þú hleður inn áðan. Uppfærðu [tengistillingar](#fiscal-connector-settings) eins og krafist er.
+1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Tengi virkni snið**. Búðu til tvö ný virknisnið fyrir tengi, eitt fyrir hverja fjárhagsskjalaveitu sem þú hleður inn áðan, og veldu fjárhagstengi sem þú hleður inn áður. Uppfærðu [gagnakortastillingar](#default-data-mapping) eins og krafist er.
+1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Tæknisnið fyrir tengi**. Búðu til nýtt tæknisnið fyrir tengi og veldu fjárhagstengi sem þú hleður inn áðan. Uppfærðu [tengistillingar](#fiscal-connector-settings) eins og krafist er.
 1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Fjárhagstengingarhópar**. Búðu til tvo nýja fjárhagslega tengihópa, einn fyrir hvern virknisnið tengis sem þú bjóst til áður.
 1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Skráningarferli í ríkisfjármálum**. Búðu til nýtt fjárhagsskráningarferli og tvö fjárhagsskráningarferlisþrep og veldu fjárhagstengiflokkana sem þú stofnaðir áðan.
 1. Farðu í **Retail og Commerce \> Uppsetning rásar \> Uppsetning sölustaðar \> Forstillingar sölustaðar \> Virknireglur**. Veldu virknisnið sem er tengt við verslunina þar sem skráningarferlið á að virkja. Á **Skráningarferli í ríkisfjármálum** Flýtiflipi, veldu fjárhagsskráningarferlið sem þú bjóst til áðan. Til að virkja skráningu á atburðum sem ekki eru í ríkisfjármálum á POS, á **Aðgerðir** Flýtiflipi, undir **POS**, stilltu **Endurskoðun** valmöguleika til **Já**.
@@ -251,7 +252,7 @@ Til að virkja skráningarferlið skaltu fylgja þessum skrefum til að setja up
 
 Eftirfarandi sjálfgefna gagnavörpun er innifalin í uppsetningu fjárhagsskjalaveitu sem er veitt sem hluti af fjárhagssamþættingarsýninu:
 
-- **Kortlagning virðisaukaskatts (VSK) taxta** – Kortlagning skattprósentugilda sem eru sett upp fyrir vsk-kóða við gildi á **TaxG** (skattflokkur) eigind í beiðnum sem sendar eru til ríkisskattstjóra. Hér er sjálfgefna kortlagning:
+- **Kortlagning virðisaukaskatts (VSK) taxta** – Kortlagning skattprósentugilda sem eru sett upp fyrir vsk-kóða við gildi á **TaxG** (skattflokkur) eigind í beiðnum sem sendar eru til ríkisskattstjóra. Hér er sjálfgefið kortlagning:
 
     ```
     A: 20.00; B: 10.00; C: 13.00; D: 0.00; E: 19.00; F: 7.00
@@ -301,29 +302,43 @@ Til að setja upp þróunarumhverfi til að prófa og stækka sýnishornið skal
             ModernPOS.EFR.Installer.exe install --verbosity 0
             ```
 
-1. Settu upp viðbætur fyrir vélbúnaðarstöð:
+1. Settu upp fjárhagslega tengiviðbætur:
 
-    1. Í **Efr\\ Vélbúnaðarstöð\\ HardwareStation.EFR.Installer\\ bin\\ Villuleit\\ net461** möppu, finndu **HardwareStation.EFR.Installer** uppsetningarforrit.
-    1. Byrjaðu uppsetningarforritið frá skipanalínunni.
+    Þú getur sett upp fjárhagstengiviðbætur á [Vélbúnaðarstöð](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) eða the [POS skrá](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network).
 
-        ```Console
-        HardwareStation.EFR.Installer.exe install --verbosity 0
-        ```
+    1. Settu upp vélbúnaðarstöðvarviðbætur:
+
+        1. Í **Efr\\ Vélbúnaðarstöð\\ HardwareStation.EFR.Installer\\ bin\\ Villuleit\\ net461** möppu, finndu **HardwareStation.EFR.Installer** uppsetningarforrit.
+        1. Byrjaðu uppsetningarforritið frá skipanalínunni með því að keyra eftirfarandi skipun.
+
+            ```Console
+            HardwareStation.EFR.Installer.exe install --verbosity 0
+            ```
+
+    1. Settu upp POS viðbætur:
+
+        1. Opnaðu sýnishorn af POS fjárhagstengislausn á **Dynamics365Commerce.Solutions\\ Fiscal Integration\\ PosFiscalConnectorSample\\ Contoso.PosFiscalConnectorSample.sln**, og byggja það.
+        1. Í **PosFiscalConnectorSample\\ StoreCommerce.Installer\\ bin\\ Villuleit\\ net461** möppu, finndu **Contoso.PosFiscalConnectorSample.StoreCommerce.Installer** uppsetningarforrit.
+        1. Byrjaðu uppsetningarforritið frá skipanalínunni sem keyrir eftirfarandi skipun.
+
+            ```Console
+            Contoso.PosFiscalConnectorSample.StoreCommerce.Installer.exe install --verbosity 0
+            ```
 
 #### <a name="production-environment"></a>Framleiðsluumhverfi
 
-Fylgdu skrefunum í [Settu upp smíðisleiðslu fyrir sýnishorn fjárhagslega samþættingar](fiscal-integration-sample-build-pipeline.md) að búa til og gefa út Cloud Scale Unit og sjálfsafgreiðslupakka fyrir samþættingarúrtakið í ríkisfjármálum. The **EFR build-pipeline.yml** sniðmát YAML skrá er að finna í **Leiðsla\\ YAML_skrár** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions) geymsla.
+Fylgdu skrefunum í [Settu upp smíðisleiðslu fyrir sýnishorn fjárhagslega samþættingar](fiscal-integration-sample-build-pipeline.md) til að búa til og gefa út Cloud Scale Unit og sjálfsafgreiðslupakka fyrir fjárhagslega samþættingarúrtakið. The **EFR build-pipeline.yml** sniðmát YAML skrá er að finna í **Leiðsla\\ YAML_skrár** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions) geymsla.
 
 ## <a name="design-of-extensions"></a>Hönnun viðbygginga
 
-Samþættingarúrtak ríkisskráningarþjónustu fyrir Austurríki byggist á [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md) og er hluti af Retail SDK. Sýnið er staðsett í **src\\ Fiscal Integration\\ Efr** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla (td [sýnishornið í útgáfu/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Sýnið [felst í](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices) ríkisfjármálaskjalaveitanda, sem er framlenging á CRT, og fjárhagstengi, sem er framlenging á Commerce Hardware Station. Fyrir frekari upplýsingar um hvernig á að nota Retail SDK, sjá [Smásölu SDK arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md) og [Settu upp smíðisleiðslu fyrir SDK fyrir sjálfstæða umbúðir](../dev-itpro/build-pipeline.md).
+Samþættingarúrtak ríkisskráningarþjónustu fyrir Austurríki byggist á [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md) og er hluti af Retail SDK. Sýnið er staðsett í **src\\ Fiscal Integration\\ Efr** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla (td [sýnishornið í útgáfu/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Sýnið [felst í](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) ríkisfjármálaskjalaveitanda, sem er framlenging á CRT, og fjárhagstengi, sem er framlenging á Commerce Hardware Station. Fyrir frekari upplýsingar um hvernig á að nota Retail SDK, sjá [Smásölu SDK arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md) og [Settu upp smíðisleiðslu fyrir SDK fyrir sjálfstæða umbúðir](../dev-itpro/build-pipeline.md).
 
 > [!WARNING]
 > Vegna takmarkana á [ný sjálfstæð umbúða- og framlengingarlíkan](../dev-itpro/build-pipeline.md), sem stendur er ekki hægt að nota það fyrir þetta fjárhagslega samþættingarúrtak. Þú verður að nota fyrri útgáfu af Retail SDK á VM þróunaraðila í LCS. Fyrir frekari upplýsingar, sjá [Leiðbeiningar um dreifingu fyrir samþættingarúrtak í ríkisfjármálum fyrir Austurríki (arfleifð)](emea-aut-fi-sample-sdk.md). Stuðningur við nýja óháða umbúða- og framlengingarlíkanið fyrir skattasamþættingarsýni er fyrirhugað fyrir síðari útgáfur.
 
-### <a name="commerce-runtime-extension-design"></a>Viðskiptatímaframlengingarhönnun
+### <a name="commerce-runtime-extension-design"></a>Viðskiptatímaframlengingarhönnun 
 
-Tilgangur framlengingarinnar sem er ríkisfjármálaskjalaveita er að búa til þjónustusértæk skjöl og sjá um svör frá ríkisskráningarþjónustunni.
+Tilgangur framlengingarinnar sem er ríkisfjármálaskjalaveita er að búa til þjónustusértæk skjöl og annast svör frá ríkisskráningarþjónustunni.
 
 #### <a name="request-handler"></a>Beiðni um stjórnanda
 
@@ -348,11 +363,11 @@ Stillingarskrárnar fyrir ríkisfjármálaskjalaveituna eru staðsettar í **src
 - **DocumentProviderFiscalEFRSampleAustria** – Stillingarskrá fyrir fjárhagsskjalaveituna fyrir fjárhagsskjöl.
 - **DocumentProviderNonFiscalEFRSampleAustria** – Stillingarskrá fyrir ríkisfjármálaskjalaveituna fyrir skjöl sem ekki eru ríkisfjármálaskjöl.
 
-Tilgangur þessara skráa er að gera það kleift að stilla stillingar á fjárhagsskjalaveitunni frá höfuðstöðvum Commerce. Skráarsniðið er í samræmi við kröfurnar fyrir fjárhagslega samþættingu stillingar.
+Tilgangurinn með þessum skrám er að gera það kleift að stilla stillingar birgðafjárhagsskjala frá höfuðstöðvum Commerce. Skráarsniðið er í samræmi við kröfurnar fyrir fjárhagslega samþættingu stillingar.
 
 ### <a name="hardware-station-extension-design"></a>Hönnun vélbúnaðarstöðvar viðbyggingar
 
-Tilgangur framlengingarinnar sem er fjárhagstengi er að hafa samskipti við skattskráningarþjónustuna. Vélbúnaðarstöðvarviðbótin notar HTTP samskiptareglur til að leggja fram skjöl sem CRT framlenging myndar við skattskráningarþjónustuna. Það sér einnig um svör sem berast frá ríkisskráningarþjónustu.
+Tilgangurinn með framlengingunni á fjárhagstenginu er að hafa samskipti við skattskráningarþjónustuna. Vélbúnaðarstöðvarviðbótin notar HTTP og HTTPS samskiptareglur til að leggja fram skjöl sem CRT framlenging myndar við skattskráningarþjónustuna. Það sér einnig um svör sem berast frá ríkisskráningarþjónustu.
 
 #### <a name="request-handler"></a>Beiðni um stjórnanda
 
@@ -369,5 +384,28 @@ Fjárhagstengingin styður eftirfarandi beiðnir:
 #### <a name="configuration"></a>Skilgreining
 
 Stillingarskrá fyrir fjárhagstengið er staðsett á **src\\ FiscalIntegration\\ Efr\\ Stillingar\\ Tengi\\ Tengi EFRSample.xml** í [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla. Tilgangur skrárinnar er að gera kleift að stilla stillingar á fjárhagstenginu frá höfuðstöðvum Commerce. Skráarsniðið er í samræmi við kröfurnar fyrir fjárhagslega samþættingu stillingar.
+
+### <a name="pos-fiscal-connector-extension-design"></a>Hönnun POS fjárhagstengisframlengingar
+
+Tilgangur POS fjárhagstengiviðbótar er að hafa samskipti við fjárhagsskráningarþjónustuna frá POS. Það notar HTTPS samskiptareglur fyrir samskipti.
+
+#### <a name="fiscal-connector-factory"></a>Fiskal tengiverksmiðju
+
+Fjárhagstengjaverksmiðjan kortleggur nafn tengisins við útfærslu fjárhagstengisins og er staðsett í **Pos.Extension\\ Tengi\\ FiscalConnectorFactory.ts** skrá. Nafn tengisins ætti að passa við nafn fjárhagstengis sem er tilgreint í höfuðstöðvum Commerce.
+
+#### <a name="efr-fiscal-connector"></a>EFR fjárhagslega tengi
+
+Fjárhagstenging EFR er staðsett í **Pos.Extension\\ Tengi\\ Efr\\ EfrFiscalConnector.ts** skrá. Það útfærir **IFiscalConnector** viðmót sem styður eftirfarandi beiðnir:
+
+- **FiscalRegisterSubmitDocumentClientRequest** – Þessi beiðni sendir skjöl til ríkisskráningarþjónustunnar og skilar svari frá henni.
+- **FiscalRegisterIsReadyClientRequest** – Þessi beiðni er notuð við heilsufarsskoðun hjá ríkisskráningarþjónustunni.
+- **FiscalRegisterInitializeClientRequest** – Þessi beiðni er notuð til að frumstilla fjárhagsskráningarþjónustuna.
+
+#### <a name="configuration"></a>Skilgreining
+
+Stillingarskráin er staðsett í **src\\ Fiscal Integration\\ Efr\\ Stillingar\\ Tengi** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla. Tilgangur skrárinnar er að gera stillingar fyrir fjárhagstengi kleift að stilla frá höfuðstöðvum Commerce. Skráarsniðið er í samræmi við kröfurnar fyrir fjárhagslega samþættingu stillingar. Eftirfarandi stillingum er bætt við:
+
+- **Heimilisfang endapunkts** – Vefslóð ríkisskráningarþjónustunnar.
+- **Hlé** – Tíminn, í millisekúndum, sem tengið bíður eftir svari frá skattskráningarþjónustunni.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Stofna skil á sölustað
 description: Í þessu efnisatriði er lýst hvernig á að hefja skil á staðgreiðslufærslum eða viðskiptavinapöntunum í forriti Microsoft Dynamics 365 Commerce sölustaðar.
 author: hhainesms
-ms.date: 06/01/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: c7be9e2d32384df23a4609d82216804fc945061a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 3250f702f033fb8b00763542fd8342c089b47b2e
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345185"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349692"
 ---
 # <a name="create-returns-in-pos"></a>Stofna skil á sölustað
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Í þessu efnisatriði er lýst hvernig á að hefja skil á staðgreiðslufærslum eða viðskiptavinapöntunum í Microsoft Dynamics 365 Commerce forriti sölustaðar.
 
@@ -97,6 +96,13 @@ Ef upplýsingar rásar eru ekki þær nýjustu af einhverjum ástæðum og unni�
 
 > [!NOTE]
 > Þegar kveikt er á eiginleikanum **Upplifun samræmdrar skilavinnslu á sölustað** munu nýir valfrjálsir eiginleikar sem styðja staðfestingu á skilum á raðaðri afurð verða tiltækir. Frekari upplýsingar er að finna í [Skila raðnúmerastýrðum afurðum á sölustað](POS-serial-returns.md).
+
+## <a name="version-details"></a>Upplýsingar um útgáfu
+
+Eftirfarandi listi veitir lágmarksútgáfukröfur fyrir hina ýmsu íhluti.
+- Höfuðstöðvar viðskipta: Útgáfa 10.0.20
+- Commerce Scale Unit (CSU): Útgáfa 9.30
+- Sölustaður (POS): Útgáfa 9.30
 
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Virkja viðeigandi skattaútreikning fyrir skil á hluta af magni
 
