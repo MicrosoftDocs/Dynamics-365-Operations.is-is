@@ -1,8 +1,7 @@
 ---
 title: Viðvörunarreglur stofnaðar
-description: Þetta efnisatriði veitir upplýsingar um viðvaranir og útskýrir hvernig á að búa til viðvörunarreglu svo þú fáir tilkynningu um tilvik eins og dagsetningu sem kemur eða tilgreinda breytingu sem á sér stað.
-author: tjvass
-manager: AnnBe
+description: Þetta efnisatriði veitir upplýsingar um viðvaranir og útskýrir hvernig á að búa til viðvörunarreglu.
+author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
@@ -11,17 +10,17 @@ ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tjvass
+ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: b0c37c1f948b072c64c54308cb85c90cfa248700
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559409"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736199"
 ---
-# <a name="create-alert-rules"></a>Viðvörunarreglur stofnaðar
+# <a name="create-alert-rules"></a>Stofna viðvörunarreglur
 
 [!include [banner](../includes/banner.md)]
 
@@ -102,7 +101,7 @@ Ekki er hægt að búa til viðvaranir fyrir suma aukalega gagnagjafa á eyðubl
 2. Stofnið viðvörun úr skjámyndinni SysTableBrowser.
 
 ### <a name="change-based-alerts-do-not-work-for-batch-status-changes"></a>Viðvaranir vegna breytinga virka ekki fyrir breytingar á runustöðu
-Viðvaranir vegna breytinga virka ekki með breytingum á runustöðu vegna þess að slökkt er á þeim vegna frammistöðu. Þess í stað ætti að setja upp **Runuviðvörun**. Frekari upplýsingar er að finna í [Setja upp viðvaranir fyrir skjámynd runuviðbótar](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/alerts#set-up-alerts-for-batch-enhanced-forms).
+Viðvaranir vegna breytinga virka ekki með breytingum á runustöðu vegna þess að slökkt er á þeim vegna frammistöðu. Þess í stað ætti að setja upp **Runuviðvörun**. Frekari upplýsingar er að finna í [Setja upp viðvaranir fyrir skjámynd runuviðbótar](../../dev-itpro/sysadmin/alerts.md#set-up-alerts-for-batch-enhanced-forms).
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

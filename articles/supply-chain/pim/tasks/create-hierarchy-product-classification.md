@@ -1,7 +1,7 @@
 ---
 title: Stofna stigveldi afurðaflokkunar
 description: Þessi verklýsing sýnir hvernig á að stofna nýtt tegundastigveldi og tengja gerð stigveldis vörukóða.
-author: ShylaThompson
+author: t-benebo
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, 
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d4e2fdc62d7faa73efa78092d7754d3fa1213a94
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fb561647efcc21a8287d8246024fb468b8a79a71
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809375"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567104"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Stofna stigveldi afurðaflokkunar
 

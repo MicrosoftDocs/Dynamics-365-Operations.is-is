@@ -1,11 +1,10 @@
 ---
-title: Forskoðun Dynamics 365 Supply Chain Management 10.0.18 (maí 2021)
+title: Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management útgáfu 10.0.18 (maí 2021)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.18.
 author: kamaybac
 ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -15,19 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
-ms.translationtype: HT
+ms.openlocfilehash: 8c68b8ed1703f2cd49d47fad73485e9e4093aa82b902a484fb79bad4dd2dcbfb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909354"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773562"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Forskoðun Dynamics 365 Supply Chain Management 10.0.18 (maí 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management útgáfu 10.0.18 (maí 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management forútgáfu af útgáfu 10.0.18. Þessi útgáfa er með byggingarnúmer 10.0.793 og er fáanlegt á eftirfarandi hátt:
+Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Supply Chain Management 10.0.18. Þessi útgáfa er með byggingarnúmer 10.0.793 og er fáanlegt á eftirfarandi hátt:
 
 - **Forskoðun á útgáfu:** mars 2021
 - **Almennt framboð losunar (sjálfvirk uppfærsla):** Apríl 2021
@@ -39,13 +37,23 @@ Eftirfarandi aðgerðir eru með í þessari útgáfu. Fylgið tenglunum á [út
 
 - Sjálfvirk losun innkaupapantana (viðbót fyrir [Vöruhúsakeyrsla með einingarkvörðum í skýinu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Frekari upplýsingar eru í [Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-warehousing.md).
 
-- [Endurbætur á birgðaafköstum og safnvistun á skala stórra fyrirtækja](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Frekari upplýsingar eru í [Safnvista birgðafærslur](../inventory/archive-inventory-transactions.md)
+- [Búa til og skoða vottorð á viðmóti samstarfs lánardrottna](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/create-view-certifications-vendor-collaboration-interface)<br> - Frekari upplýsingar er að finna í [Vinna með lánardrottnavottorð](../../finance/public-sector/manage-vendor-certification.md).
 
-- [Stjórnun endurgreiðslu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Frekari upplýsingar er að finna í [Yfirlit kerfiseininga stjórnunar eftirágreidds afsláttar](../rebate-management/rebate-management-overview.md).
+- [Endurbætur á birgðaafköstum og safnvistun á skala stórra fyrirtækja](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Frekari upplýsingar eru í [Safnvista birgðafærslur](../inventory/archive-inventory-transactions.md).
+
+- [Stjórnun eftirágreidds afsláttar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Frekari upplýsingar er að finna í [Yfirlit kerfiseininga stjórnunar eftirágreidds afsláttar](../rebate-management/rebate-management-overview.md).
+
+- [Uppsetningarregla gagnaeiningar sölu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
+
+- [Skráning skilapöntunarlínu ásamt nákvæmum aukastöfum með og án framleiðsluþyngdar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-return-order-line-registration-decimal-precision-without-catch-weight)
+
+- [Smellt er einu sinni á Staðfesting sölupöntunar](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation)
+
+- [Eyðingarregla frá sölupöntunar- til innkaupapöntunarlínu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-purchase-order-line-deletion-policy)
 
 - Einfaldara viðmót aðeins fyrir inn- og útstimplun (betrumbætur fyrir [Bætt keyrsluviðmót framleiðslugólfs fyrir framleiðslu](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Frekari upplýsingar er að finna í [Skilgreina keyrsluviðmót framleiðslugólfsins](../production-control/production-floor-execution-configure.md).
 
-Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá. Sumir eiginleikanna sem eru taldir upp eru enn í forútgáfu, á meðan aðrir kunna að vera þegar almennt aðgengilegir. 
+Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
 
 ## <a name="new-and-updated-documentation-resources"></a>Tilföng fyrir ný og uppfærð skjöl
 

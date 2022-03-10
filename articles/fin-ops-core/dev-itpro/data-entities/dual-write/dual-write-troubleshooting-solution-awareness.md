@@ -5,26 +5,26 @@ author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: b53e07f69992a567d5b300ae1f2b24b74541d176
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
-ms.translationtype: HT
+ms.openlocfilehash: f83a064bfc8896bdf76bcd38f9187ed0e1ea56cf
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416353"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062314"
 ---
 # <a name="troubleshoot-issues-related-to-solution-awareness"></a>Úrræðaleita vandamál sem tengjast meðvitund um lausn
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
-Þetta efni veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita Finance and Operations og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem tengjast meðvitund um lausn.
+
+Þetta efnisatriði veitir upplýsingar um bilanaleit fyrir tvískrifað samþættingu milli Finance and Operations forrita og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem tengjast meðvitund um lausn.
 
 > [!IMPORTANT]
 > Nokkur þeirra atriða sem þetta efni fjallar um geta krafist annað hvort kerfisstjórans eða Microsoft Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.

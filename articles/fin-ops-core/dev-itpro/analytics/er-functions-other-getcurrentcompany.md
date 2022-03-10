@@ -2,9 +2,7 @@
 title: GETCURRENTCOMPANY ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin GETCURRENTCOMPANY í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcb5ef2f218a85bab25f830db583343504c46e98
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: c74ffaf1ee134da8d962e054656301d5e99827ff53f560f5d93f9dcb51819c13
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567545"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760775"
 ---
 # <a name="getcurrentcompany-er-function"></a>GETCURRENTCOMPANY ER-aðgerð
 
@@ -43,11 +41,11 @@ Textagildið sem verður til.
 
 ## <a name="example"></a>Dæmi
 
-`GETCURRENTCOMPANY ()` skilar **USMF** fyrir notanda sem er skráður inn á **Contoso Entertainment System USA** fyrirtæki.
+`GETCURRENTCOMPANY ()` skilar **USMF** fyrir notanda sem er skráður inn á fyrirtækið **Contoso Entertainment System USA**.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Other (lénsértæk virkni fyrir viðskipti)](er-functions-category-other.md)
+[Aðrar aðgerðir (fyrir fyrirtækislén)](er-functions-category-other.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,8 +2,7 @@
 title: Skilgreina gagnaveitu uppflettingar til að nota færibreytur sem eru sértækar fyrir rafræna skýrslugerð
 description: Þetta efnisatriði útskýrir hvernig hægt er að skilgreina gagnaveitur uppflettingar í rafrænum skýrslugerðarsniðum til að forritstengdar færibreytur rafrænnar skýrslugerðar.
 author: NickSelin
-manager: AnnBe
-ms.date: 04/02/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 542580c859759c25da84589ec82495eb72bbcbe5
-ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
-ms.translationtype: HT
+ms.openlocfilehash: c028b01aa2889a517bee69de46411ada12d6fe25
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853522"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343430"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>Skilgreina gagnaveitu uppflettingar til að nota færibreytur sem eru sértækar fyrir rafræna skýrslugerð 
 
@@ -45,38 +44,38 @@ Hægt er að skilgreina eftirfarandi gerðir af gagnaveitu **Uppflettingar** eft
 
 Eftirfarandi skýringarmynd sýnir hvernig hægt er að skilgreina tölusetningarsniði í sýnidæmi rafræns skýrslugerðarsniðs.
 
-   ![Sýnir tölusetningu sniðs sem grunn fyrir skilgreinda gagnaveitu uppflettingar](./media/er-lookup-data-sources-img1.gif)
+   ![Sýnir tölusetningu sniðs sem grunn fyrir skilgreinda gagnaveitu uppflettingar.](./media/er-lookup-data-sources-img1.gif)
 
 Eftirfarandi skýringarmynd sýnir þætti sniðs sem voru skilgreindir til að tilkynna um mismunandi gerðir af sköttum í mismunandi hlutum myndaðrar skýrslu.
 
-   ![Sýnir sniðshlutana til að tilkynna hverja mismunandi skattgerð út af fyrir sig](./media/er-lookup-data-sources-img2.png)
+   ![Sýnir sniðshlutana til að tilkynna hverja mismunandi skattgerð út af fyrir sig.](./media/er-lookup-data-sources-img2.png)
 
 Eftirfarandi skýringarmynd sýnir hvernig aðgerðarhönnuður rafrænnar skýrslugerðar leyfir að bæta við gagnaveitu af gerðinni **Format enumeration\Lookup**.  Viðbætt gagnaveita er skilgreind til að skila gildi á tölusetningarsniði `List of taxation levels`.
 
-   ![Gagnaveitu rafrænnar skýrslugerðar af gerðinni Format enumeration\Lookup bætt við](./media/er-lookup-data-sources-img3.gif)
+   ![Gagnaveitu rafrænnar skýrslugerðar af gerðinni Format enumeration/Lookup bætt við.](./media/er-lookup-data-sources-img3.gif)
 
 Eftirfarandi mynd sýnir hvernig viðbætt gagnaveita er skilgreind til að nota reitinn **Kóði** í færslulistanum **Model.Data.Tax** í gagnaveitunni **Líkan** sem færibreytu sem þarf að tilgreina fyrir hverja skilgreinda reglu.
 
-![Færibreytur viðbættrar gagnaveitu skilgreindar fyrir gerðina Format enumeration\Lookup](./media/er-lookup-data-sources-img4.gif)
+![Færibreytur viðbættrar gagnaveitu skilgreindar fyrir gerðina Format enumeration/Lookup.](./media/er-lookup-data-sources-img4.gif)
 
 Viðbætt `Model.Data.Tax` gagnaveita er skilgreind til að tilgreina skattkóða fyrir hverja skilgreinda reglu með því opna færslur forritstöflunnar **TaxTable**.
 
-   ![Yfirferð á gagnaveitu uppflettingar í einu fyrirtæki af gerðinni Format enumeration\Lookup](./media/er-lookup-data-sources-img5.gif)
+   ![Yfirferð á gagnaveitu uppflettingar í einu fyrirtæki af gerðinni Format enumeration/Lookup.](./media/er-lookup-data-sources-img5.gif)
 
 Hægt er að setja upp reglur uppflettingar fyrir valið snið rafrænnar skýrslugerðar með því að nota notandaviðmótið sem er sjálfkrafa stillt upp með skipulagi skilgreindrar gagnaveitu. Sem stendur krefst þetta notandaviðmót fyrir hverja reglu að skilaða gildið sé tilgreint sem tölusetningargildi `List of taxation levels` sniðs ásamt skattkóðanum sem færibreytu.
 
-   ![Setja upp reglur fyrir skilgreinda gagnaveitu](./media/er-lookup-data-sources-img6.gif)
+   ![Setja upp reglur fyrir skilgreinda gagnaveitu.](./media/er-lookup-data-sources-img6.gif)
 
 Eftirfarandi skýringarmynd sýnir hvernig hægt er að skilgreina `Model.Data.Summary.LevelByLookup` gagnaveitu af gerðinni **Reiknaður reitur** til að kalla á skilgreinda gagnaveitu **Uppflettingar** sem gefur upp nauðsynlegar færibreytur. Til að vinna úr þessu kalli á keyrslutíma fer rafræn skýrslugerð í gegnum listann yfir skilgreindar reglur í skilgreindri röð til að hafa upp á fyrstu reglunni sem uppfyllir uppgefin skilyrði. Í þessu dæmi er það reglan sem inniheldur skattkóðann sem samsvarar þeirri sem gefin er upp. Þar af leiðandi finnst hentugasta reglan og tölusetningargildinu sem er skilgreint fyrir fundnu regluna er skilað af þessari gagnaveitu.
 
 > [!NOTE]
-> Undantekning á sér stað þegar engin viðeigandi regla finnst. Til að koma í veg fyrir þessar undanþágur skal skilgreina frekari reglur neðst í reglulistanum til að sjá um tilfelli þegar óskilgreint gildi eða ekkert gildi er gefið upp. Notið valkostina **\*Ekki autt\*** og **\*Autt\***.  
+> Undantekning á sér stað þegar engin viðeigandi regla finnst. Til að koma í veg fyrir þessar undanþágur skal skilgreina frekari reglur neðst í reglulistanum til að sjá um tilfelli þegar óskilgreint gildi eða ekkert gildi er gefið upp. Notið valkostina **\*Ekki autt**\* og **\*Autt**\*.  
 >
-> ![Bæta við gagnaveitu til að kalla á skilgreinda gagnaveitu uppflettingar](./media/er-lookup-data-sources-img7.png)
+> ![Bæta við gagnaveitu til að kalla á skilgreinda gagnaveitu uppflettingar.](./media/er-lookup-data-sources-img7.png)
 
 Þegar valkosturinn **Milli fyrirtækja** er stilltur á **Já** fyrir breytanlega gagnaveitu uppflettingar er nýrri áskildri færibreytu **Fyrirtækis** bætt við færibreytusafn þessarar gagnaveitu. Gildi færibreytunnar **Fyrirtæki** verður að vera tilgreint við keyrslutíma þegar kallað er á gagnaveitu uppflettingar. Þegar kóði fyrirtækisins er tilgreindur við keyrslutíma eru reglur sem skilgreindar eru fyrir þetta fyrirtæki notaðar til að finna hentugustu regluna og samsvarandi gildi er skilað. Eftirfarandi mynd sýnir hvernig hægt er að gera þetta og hvernig færibreytusafn breytanlegrar gagnaveitu er breytt.
 
-   ![Yfirferð á gagnaveitu uppflettingar milli fyrirtækja af gerðinni Format enumeration\Lookup](./media/er-lookup-data-sources-img8.gif)
+   ![Yfirferð á gagnaveitu uppflettingar milli fyrirtækja af gerðinni Format enumeration/Lookup.](./media/er-lookup-data-sources-img8.gif)
 
 > [!NOTE]
 > Veljið hvert fyrirtæki út af fyrir sig til að skilgreina reglusafnið fyrir þessa gagnaveitu uppflettingar á breytanlegu sniði rafrænnar skýrslugerðar. Undanþága kemur upp við keyrslutíma þegar kallað er á uppflettingu milli fyrirtækja með kóða fyrirtækisins þar sem stilling uppflettingar var ekki lokið.
@@ -85,7 +84,7 @@ Eftirfarandi skýringarmynd sýnir hvernig hægt er að skilgreina `Model.Data.S
 
 Frá og með útgáfu 10.0.19 eru auknir möguleikar fyrir gagnaveitu **Uppflettingar** í boði. Þegar valkosturinn **Stækkað** er stilltur á **Já** fyrir breytanlegan gagnagjafa uppflettingar, er skilgreindri gagnaveitu uppflettingar breytt í skipulagða gagnaveitu sem býður upp á frekari möguleika til að greina skilgreint reglusafn. Eftirfarandi mynd sýnir þessa umbreytingu.
 
-   ![Yfirferð á skipulagðri gagnaveitu uppflettingar af gerðinni Format enumeration\Lookup](./media/er-lookup-data-sources-img9.gif)
+   ![Yfirferð á skipulagðri gagnaveitu uppflettingar af gerðinni Format enumeration/Lookup.](./media/er-lookup-data-sources-img9.gif)
 
 - Undirliðurinn **Uppfletting** er hannaður sem aðgerð til að finna hentugust regluna úr safni af skilgreinanlegum reglum út frá uppgefnu færibreytusafni.
 - Undirliðurinn **IsLookupResultSet** er hannaður sem aðgerð til að samþykkja uppgefið gildi gagnaveitu grunntölusetningar og skila *Boole-gildinu* **Satt** þegar reglusafnið inniheldur að minnsta kosti eina reglu þar sem uppgefið tölusetningargildi var skilgreint sem skilagildi. Þessi aðgerð skilar *Boole-gildinu* **Ósatt** þegar engar reglur er skilgreindar til að skila uppgefnu tölusetningargildi.

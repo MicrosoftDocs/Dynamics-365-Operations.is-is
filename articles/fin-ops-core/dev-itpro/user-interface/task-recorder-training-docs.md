@@ -8,23 +8,26 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2bc5aa1080709931b3aa71c548a7bf2fb9b1192
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 448c2b302136e595852c423d53e49adfcc40d12d
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354294"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070527"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Búa til fylgiskjöl eða þjálfun með verkskráningu
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Í þessu efnisatriði er útskýrt hvað verkskráning og leiðbeiningar um verkið eru, hvernig á að stofna verkskráningu, og hvernig á að sérsníða verkefni í Microsoft leiðir og hafa þau með í þínu Hjálp.
 

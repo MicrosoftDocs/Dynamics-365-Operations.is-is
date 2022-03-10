@@ -3,23 +3,22 @@ title: Dynamics 365 Commerce og Microsoft Teams samþættingaryfirlit
 description: Þetta efnisatriði sýnir yfirlit yfir Microsoft Dynamics 365 Commerce og Microsoft Teams samþættingu.
 author: gvrmohanreddy
 ms.date: 03/31/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 6d82c1cafe35db5523c58870f4dcb2a7f63134a1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 39de59d182fd6f4cb1616a47a09b44cd249f2187
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352639"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984196"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-overview"></a>Dynamics 365 Commerce og Microsoft Teams samþættingaryfirlit
 
@@ -43,7 +42,7 @@ Hér eru nokkrir af helstu eiginleikunum sem samþætting Commerce og Microsoft 
 
 Eftirfarandi skilyrði verða að vera til staðar áður en hægt er að nota Microsoft Teams samþættingareiginleika:
 
-- Microsoft 365 Business Standard License (þetta leyfi nær yfir Teams.)
+- Microsoft 365 Business Standard leyfi (Þetta leyfi inniheldur lið.)
 - Azure Active Directory (Azure AD ) reikningar fyrir alla stjórnendur og starfsmenn í verslun
 - Sölustaðakerfi (POS) sem eru grunnstillt með Azure AD sannvottun
 

@@ -1,12 +1,10 @@
 ---
 title: Flutningsstjórnunarvélar
 description: Flutningsstjórnunarvélar skilgreina rökin sem eru notuð til að búa til og vinna flutningstaxta í Flutningsstjórnun.
-author: MarkusFogelberg
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine, TMSFreightBillTypeAssignment, TMSZoneMaster, TMSEngineParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
-ms.author: mafoge
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4c33191e9a3b8f7c211093ff733f6cd025cb9bb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: bce886b8029b3a00c6572642d339efa9dcad4267
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973886"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580121"
 ---
 # <a name="transportation-management-engines"></a>Flutningsstjórnunarvélar
 
@@ -45,8 +43,7 @@ Eftirfarandi tafla sýnir flutningsstjórnunarvélar sem eru tiltækar.
 | **Gerð farmbréfs**            | Staðlar farmreikning og línur farmbréfs og er notað fyrir sjálfvirka samsvörun farmbréfs.                                                                                                                                                                                                                |
 
 
-<a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Hvað véla verður að vera skilgreind til að meta sendingu?
----------------------------------------------------
+## <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Hvað véla verður að vera skilgreind til að meta sendingu?
 
 Til að meta sendingu með því að nota tiltekna flutningsaðila, þarf að skilgreina margar flutningsstjórnunarvélar. **Taxtavél** er nauðsynleg, en aðrar flutningsstjórnunarvélar kunna að vera nauðsynlegar til að styðja við **Taxtavél**. Til dæmis er hægt að nota **taxtavélina** til að sækja gögn úr **akstursvél** til að reikna út taxta á grundvelli vegalengdar milli uppruna- og áfangastaðar.
 
@@ -64,8 +61,7 @@ Vél flutningsstjórnunar krefst þess að setja upp frumstillingargögn til þe
 |  <em>MileageEngineCode</em>  |                       Kílómetravélakóði sem auðkennir skráningu kílómetravélar í gagnagrunninum.                        |
 | <em>Kostnaðarskiptingarvél</em> |                        Almennur vélakóða sem auðkennir kostnaðarskiptingarvél í gagnagrunninum.                        |
 
-<a name="how-is-metadata-used-in-transportation-management-engines"></a>Hvernig er lýsigögnum notuð í flutningsstjórnunarvélar?
-----------------------------------------------------------
+## <a name="how-is-metadata-used-in-transportation-management-engines"></a>Hvernig er lýsigögnum notuð í flutningsstjórnunarvélar?
 
 Flutningsstjórnunarvélar sem reiða sig á gögn sem eru skilgreind í Supply Chain Management geta notað mismunandi gagnaskemu. Flutningur stjórnkerfi gerir mismunandi flutningsstjórnunarvélar til að nota sama almennan efnislegt töflurnar. Til að tryggja að túlkun keyrslutíma á vélagögnum sé rétt er hægt að skilgreina lýsigögn fyrir gagnagrunnstöflurnar. Þetta dregur úr kostnaður við að byggja nýju flutningsstjórnunar stjórnun vélar þar sem viðbótar töflu og í skjámyndarskipulags er ekki krafist í Operations.
 
@@ -97,4 +93,13 @@ Lýsigögn fyrir flutningsstjórnunarvélar eru stillt á mismunandi hátt fyrir
 | 2        | Áfangaríki             | Úthlutun | Strengur    | Ástand          |           |
 | 3        | Upphafspóstnúmer áfangastaðar | Úthlutun | Strengur    | Póstnúmer    | Valið  |
 | 4        | Póstnúmer áfangastaðar   | Úthlutun | Strengur    | Póstnúmer    | Valið  |
-| 5        | Áfangaland           | Úthlutun | Strengur    | Land/svæði |           |
+| 5        | Áfangaland           | Verkefni | Strengur    | Land/svæði |           |
+
+### <a name="whitepaper"></a>Hvítbók
+
+Frekari upplýsingar er að hlaða niður eftirfarandi hvítbók (skrifuð til að styðja AX2012, en gildir einnig fyrir Dynamics 365 Supply Chain Management)
+
+- [Flutningsstjórnunarvélar](https://download.microsoft.com/download/e/0/9/e0957665-c12f-43c7-94c0-611cc49d7d61/TransportationManagementEnginesInAX.pdf)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

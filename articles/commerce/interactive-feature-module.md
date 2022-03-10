@@ -15,17 +15,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a01fb446a1b7dd07e0429b96ff949b88a591f800
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
-ms.translationtype: HT
+ms.openlocfilehash: 5b18a29ce43e69ec0578602535f21e52388fe3d04ac14673bbdefed9ec8ea161
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479479"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749851"
 ---
 # <a name="interactive-feature-module"></a>Gagnvirk eiginleikaeining
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Þetta efnisatriði fjallar um gagnvirkar eiginleikaeiningar og útskýrir hvernig á að bæta þeim við síður svæða í Microsoft Dynamics 365 Commerce.
 

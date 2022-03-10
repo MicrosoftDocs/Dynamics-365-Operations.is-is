@@ -2,19 +2,19 @@
 title: Lýsing á þjónustu fyrir Finance and Operations-forrit
 description: Þetta efnisatriði inniheldur þjónustulýsingu fyrir Finance and Operations-forrit.
 author: tomhig
-ms.date: 09/03/2021
+ms.date: 01/05/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 4df681641490fe3b43f4d927ad09e43007f83367
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
-ms.translationtype: HT
+ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
+ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472506"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952367"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Lýsing á þjónustu fyrir Finance and Operations-forrit
 
@@ -28,7 +28,7 @@ Finance and Operations-forritin eru bókhalds- og áætlunargerðarhugbúnaður 
 - [Dynamics 365 Commerce](/dynamics365/commerce/)
 - [Dynamics 365 Project Operations](/dynamics365/project-operations/)
 
-Með [viðskiptagreind](/power-bi/fundamentals/power-bi-service-overview), [tölvukerfi](https://azure.microsoft.com/global-infrastructure/), [reikningsgetu](/azure/service-fabric/service-fabric-overview) og [gagnagrunnsþjónustum](/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview) gera þessi forrit stofnunum/fyrirtækjum kleift að keyra iðnaðar- og rekstrarferli. Viðskiptavinir, með stuðningi innleiðingaraðila, ákvarða stillingar á rökum viðskiptaforritsins sem henta best einstökum viðskiptaferlum þeirra. Hægt er að auka eða lengja virkni og viðskiptaferli með einni eða fleiri af eftirfarandi lausnum:
+Með [viðskiptagreind](/power-bi/fundamentals/power-bi-service-overview), [tölvukerfi](https://azure.microsoft.com/global-infrastructure/), [reikningsgetu](/azure/service-fabric/service-fabric-overview) og [gagnagrunnsþjónustum](https://devblogs.microsoft.com/azure-sql/running-1m-databases-on-azure-sql-for-a-large-saas-provider-microsoft-dynamics-365-and-power-platform/) gera þessi forrit stofnunum/fyrirtækjum kleift að keyra iðnaðar- og rekstrarferli. Viðskiptavinir, með stuðningi innleiðingaraðila, ákvarða stillingar á rökum viðskiptaforritsins sem henta best einstökum viðskiptaferlum þeirra. Hægt er að auka eða lengja virkni og viðskiptaferli með einni eða fleiri af eftirfarandi lausnum:
 
 - Innbyggð [sérsniðna upplifun](personalize-user-experience.md)
 - [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md)-verkfæri
@@ -50,7 +50,7 @@ Rekstrarlíkan Finance and Operations-forrita skilgreinir tiltekin hlutverk og �
 
 ### <a name="customer-activities"></a>Verkþættir viðskiptavinar
 
-Viðskiptavinir vinna með samstarfsaðila sínum og [Microsoft FastTrack](/dynamics365/fasttrack/) með því að fylgja [Success by Design](/dynamics365/fasttrack/success-by-design-overview)-rammanum og nota verkfæri og sniðmát fyrir bestu starfsvenjur sem veitt eru í [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) til að innleiða lausn sína. Almennar aðgerðir eru m.a.:
+Viðskiptavinir vinna með maka sínum og [Microsoft FastTrack](/dynamics365/fasttrack/) eftir [Dynamics 365 Innleiðingarhandbók](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide), hinn [Success by Design](/dynamics365/fasttrack/success-by-design-overview) ramma og verkfærin og sniðmát fyrir bestu starfsvenjur sem er að finna í [Lífsferilsþjónusta](../../dev-itpro/lifecycle-services/lcs.md) að innleiða lausn þeirra. Almennar aðgerðir eru m.a.:
 
 - Notandaauðkenni og öryggisstjórnun
 - Skilgreina, þróa og reka viðskiptaferla
@@ -66,7 +66,7 @@ Microsoft hefur umsjón með Finance and Operations-þjónustunni með því að
 **Stjórnun tölvukerfa**
 - Öryggi og einangrun
 - Stýrikerfi og sýndartækni
-- Þjónar, geymsla og nettenging
+- Netþjónar, geymsla og netkerfi
 - Gagnamiðstöðvarafl, nettenging, kæling
 
 **Stjórnun forritsverkvangs**
@@ -117,7 +117,7 @@ Finance and Operations forrit eru veitt frá nokkrum Azure svæðum um allan hei
 ### <a name="countryregion-specific-considerations"></a>Atriði sem varða tiltekið land/svæði
 
 - Viðskiptavinir í eftirlitsskyldum iðnaði eða viðskiptafélögum sem eiga viðskipti við aðila í Frakklandi sem gera kröfu um búsetu á staðnum ættu að fara yfir gögn [Finance and Operations í Frakklandi](../../dev-itpro/deployment/france-local-deployment.md).
-- Viðskiptavinir með starfsemi í Kína ættu að yfirfara [Finance and Operations sem er rekið af 21Vianet í Kína](../../dev-itpro/deployment/china-local-deployment.md).
+- Viðskiptavinir sem eru með starfsemi í Kína ættu að skoða [Azure China Playbook](/azure/china/) og [Finance and Operations rekið af 21Vianet í Kína](../../dev-itpro/deployment/china-local-deployment.md).
 - Viðskiptavinir sem eru með starfsemi í Rússlandi ættu að fara yfir [rússnesk lög um staðfærslu persónuupplýsinga](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Almenna persónuverndarreglugerðin (GDPR)
@@ -197,17 +197,17 @@ Eftirfarandi tafla lýsir dæmigerðum aðstæðum og starfsemi þjónustunnar. 
 | Úthluta öllum framleiðslutilvikum og tilvikum sem tengjast ekki framleiðslu. | X | |
 | Sannreyna uppsett framleiðslutilvik og tilvik sem ekki tengjast framleiðslu. | | X |
 | **Þjónustuuppfærslur** | |
-| Microsoft beitir þjónustuuppfærslum á tilgreind tilvik sem tengjast ekki framleiðslu sem og framleiðslutilvik. | X | X |
-| Sæktu uppfærsluna frá LCS, skilgreindu, þróaðu og prófaðu uppfærsluna og láttu uppfærslupakkakóðann aftur í LCS. | | X |
-| Óska eftir því að uppfærslur viðbóta verði notaðar á framleiðslutilvikið. | | X |
+| Notið þjónustuuppfærslur á tilgreind tilvik sem tengjast ekki framleiðslu sem og framleiðslutilvik. | X | |
+| Komdu á þjónustuuppfærslum handvirkt úr LCS í sandkassatilfelli. Skilgreindu, þróaðu og prófaðu uppfærsluna og færðu uppfærslupakka kóðans aftur í LCS. | | X |
+| Óska eftir og tímasettu hvenær uppfærslur viðbóta verða notaðar í framleiðslutilvikið. | | X |
 | Búa til kóða og taka öryggisafrit af gögnum fyrir framleiðslutilvikið áður en uppfærslur eru gerðar. | X | |
 | Ef um bilun er að ræða skal endurheimta framleiðslutilvikið með kóðanum og öryggisafritinu. | X | |
 | **Stjórnun gagna (taka öryggisafrit, endurheimta og uppfæra)** | | |
 | Gerið öryggisafrit af gagnagrunninum. | X | |
 | Ákveðið mikið framboð og viðbragðsáætlun vegna hamfara. | X | |
-| Fylgjast með afköstum gagnagrunns framleiðslutilvika. | X | X |
-| Stillið gagnagrunn framleiðslutilvika fyrir afköst. | X | X |
-| Hefja afritun á gagnagrunni framleiðslutilviks í tilvik sem ekki tengist framleiðslu. | | X |
+| Fylgjast með afköstum gagnagrunns framleiðslutilvika. | X | |
+| Stillið gagnagrunn framleiðslutilvika fyrir afköst. | X | |
+| Framkvæmdu uppfærslu á tímapunkti í gagnagrunni framleiðslutilviks í tilviki sem er ekki framleiðslutilvik. | | X |
 | **Uppfærsla tölvukerfa** | | |
 | Skipuleggja reglulegar uppfærslur á tölvukerfi. | X | |
 | **Stækka og minnka (notendur, geymsla og tilvik)** | | |
@@ -215,7 +215,7 @@ Eftirfarandi tafla lýsir dæmigerðum aðstæðum og starfsemi þjónustunnar. 
 | Uppfæra breytingar á notkun í LCS-áskriftarmatstækinu. | | X |
 | Tilkynntu um veruleg afkastavandamál sem hafa áhrif á notkun þjónustunnar. | | X |
 | Stjórnið tilföngum sem eru nauðsynleg fyrir viðeigandi þjónustu. | X | |
-| Rannsaka og bilanagreina atvik. | X | X |
+| Rannsaka og bilanagreina atvik. | X | |
 | **Öryggi (aðgangur notanda)** | | |
 | Veita notanda aðgang að þjónustunni. | | X |
 | Veita LCS-verki aðgang að stjórnun og virkni tilvika sem voru sett upp í gegnum LCS. | | X |
@@ -314,9 +314,9 @@ Endurheimtuáætlanir og verklagsreglur Microsoft vegna hamfara eru skoðaðar r
 | Microsoft býður upp á aukaumhverfi í Azure-pöruðu gagnasmiðjunni þegar frumframleiðslutilvikið er tekið í notkun. Frekari upplýsingar eru í [Rekstrarsamfella og endurheimt eftir áföll: Azure-pöruð svæði](/azure/best-practices-availability-paired-regions). | Engum |
 | Microsoft gerir Azure SQL og Azure Blob Storage landfræðilega óháð þegar frumframleiðslutilvikið er tekið í notkun. | Engum |
 | Microsoft býður upp á sjálfvirka öryggisafritun á Azure SQL-gagnagrunnunum. | Engum |
-| <p>Þegar stöðvun á sér stað ákveður Microsoft hvort nota þurfi varakerfi fyrir viðskiptavininn og hvort um gagnatap er að ræða. Gagnatap getur verið allt að fimm sekúndur. Frekari upplýsingar er að finna í [Landfræðileg endurheimt Azure SQL-gagnagrunns](https://azure.microsoft.com/blog/azure-sql-database-geo-restore).</p><p>Ef um gagnatap er að ræða mun Microsoft óska eftir útskráningu viðskiptavinar fyrir varakerfi.</p> | Ef um gagnatap er að ræða gæti viðskiptavinur þurft að framvísa skriflegri útskráningu til að koma varakerfinu af stað. |
+| <p>Þegar stöðvun á sér stað ákveður Microsoft hvort nota þurfi varakerfi fyrir viðskiptavininn og hvort um gagnatap er að ræða. Viðskiptavinir gætu orðið fyrir gagnatapi í allt að 15 mínútur, allt eftir eðli og tímasetningu bilunarinnar. | Ef gagnatap er, gæti viðskiptavinurinn þurft að gefa upp skriflega afskráningu til að koma af stað bilun. |
 | Þegar varakerfi tekur við virkar viðeigandi þjónusta í takmarkaðri stillingu. Ekki er hægt að ræsa uppfærsluviðhald í varakerfisstillingu. | Viðskiptavinurinn getur ekki óskað eftir pakkauppsetningum eða öðrum reglulegum viðhaldsbeiðnum í varakerfisstillingu. |
-| Þegar gagnamiðstöðin kemst aftur í gang stillir Microsoft aftur á framleiðslutilvikið á Azure-svæðinu. Venjulega notkun heldur áfram. | Viðskiptavinurinn gæti þurft að útskrá fyrir skipti til baka til framleiðslutilviksins á Azure-aðalsvæðinu. |
+| Þegar gagnamiðstöðin kemst aftur í gang stillir Microsoft aftur á framleiðslutilvikið á Azure-svæðinu. Venjulega notkun heldur áfram. | Viðskiptavinurinn gæti þurft að skrá sig af við bilun í framleiðslutilvikinu á aðal Azure svæðinu. |
 
 ## <a name="finance-and-operations-support-offerings"></a>Finance and Operations stuðningstilboð
 
@@ -333,9 +333,9 @@ Microsoft býður Finance and Operations-viðskiptavinum upp á þrjár þjónus
 | Ótakmörkuð innsending bilana/lagfæringa | Já | Já | Já |
 | Sólarhringsaðgangur í gegnum LCS | Já | Já | Já |
 | Svartími tilviks | Styttri en klukkustund | Styttri en klukkustund | Næsti virki dagur |
-| Afgreiðslutími ráðgjafar | Hópar eru í boði skv. samkomulagi. | Ekkert | Ekkert |
-| Sérstakur reikningsstjóri hjá notendaþjónustu | Já | Ekkert | Ekkert |
-| Sérstakur tæknimaður hjá notendaþjónustu | Tekið þátt samkvæmt sérstökum samningi | Ekkert | Ekkert |
+| Afgreiðslutími ráðgjafar | Hópar eru í boði skv. samkomulagi. | Nei | Nei |
+| Sérstakur reikningsstjóri hjá notendaþjónustu | Já | Nei | Nei |
+| Sérstakur tæknimaður hjá notendaþjónustu | Tekið þátt samkvæmt sérstökum samningi | Nei | Nei |
 
 Frekari upplýsingar eru í [Stuðningsyfirlit](/power-platform/admin/support-overview).
 
@@ -356,6 +356,7 @@ Microsoft ábyrgist notkunartíma þjónustu upp á 99,9 prósent á mánuði. E
 - **[Leyfishandbók](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)** – Notaðu þessa handbók til að fá frekari upplýsingar um leyfi fyrir Dynamics 365.
 - **[Þjónustuver](https://dynamics.microsoft.com/support/)** – Fáðu stuðning besta mögulega stuðning fyrir Dynamics 365 forritin þín.
 - **[Dynamics Lifecycle Services](https://lcs.dynamics.com/)** – Stjórna líftíma forrits og velja fyrirsjáanlegar, endurteknar hágæða innleiðingar.
+- **[Dynamics 365 Innleiðingarhandbók](https://aka.ms/D365ImplementationGuideFlip)** - Dynamics 365 Implementation Guide skjölin tímaprófuð Success by Design meginreglur og veitir fyrirskipandi leiðbeiningar til að smíða, smíða, prófa og innleiða Dynamics 365 lausnir.
 
 ## <a name="definitions"></a>Skilgreiningar
 
@@ -428,6 +429,10 @@ Allar grunnþjónustur sem eru innifaldar í Finance and Operations-forritum.
 ### <a name="service-update"></a>Þjónustuuppfærsla
 
 Microsoft þjónustar Finance and Operations umhverfi í gegnum þjónustuuppfærslur. Viðskiptavinir setja upp eigið þjónustuuppfærsludagatal eftir þörfum fyrirtækisins. Nánari upplýsingar má finna í [Uppfærsluþjónusta One Version](../../dev-itpro/lifecycle-services/oneversion-overview.md).
+
+### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
+
+Ramminn sem stýrir innleiðingu kerfisbundið í gegnum röð mats á mikilvægum stigum til að tryggja hámarks arkitektúr, öryggi, frammistöðu og notendaupplifun fyrir Dynamics 365 lausn.
 
 ### <a name="user"></a>Notandi
 

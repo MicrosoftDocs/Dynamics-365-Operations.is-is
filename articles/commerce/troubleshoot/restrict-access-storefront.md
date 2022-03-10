@@ -2,11 +2,9 @@
 title: Takmarka aðgang að netverslun við prófun eða þróun
 description: Þetta efnisatriði útskýrir hvernig á að takmarka aðgang að Microsoft Dynamics 365 Commerce-netverslun á meðan innri prófun eða þróun er í gangi.
 author: Reza-Assadi
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2cdf131048e0fac940475322294ed99e76c0a53b
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
-ms.translationtype: HT
+ms.openlocfilehash: db3317c01cab2e123f3c2927c359f9e00b98bd8a2d5e851c2c20cb4763db1c49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585379"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716784"
 ---
 # <a name="restrict-access-to-a-storefront-during-testing-or-development"></a>Takmarka aðgang að netverslun við prófun eða þróun
 

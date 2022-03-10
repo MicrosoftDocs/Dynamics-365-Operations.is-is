@@ -7,18 +7,21 @@ ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f481f6ca047ee0285fe0e81d8fa96665e9d27cee
-ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
-ms.translationtype: HT
+ms.openlocfilehash: 4e5faf8e4544b2bcb58f3c578789b2bd379a27b0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6292762"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572362"
 ---
 # <a name="container-packing-strategies"></a>Pökkunarstefnur gáms
+
+[!include [banner](../includes/banner.md)]
 
 *Pökkunarstefna gáms* er aðferð sem hægt er að nota til að skilgreina vöruúthlutanir í gáma. Í þessu efnisatriði er útskýrður munurinn á stefnunum *Pakka í alla opna gáma* og *Pakka aðeins í núgildandi gám*.
 
@@ -251,7 +254,7 @@ Til að setja upp samstæðureglur sendingar skal fylgja þessum skrefum.
 1. Veljið stefnuna **Sjálfgefið** úr listanum.
 1. Á aðgerðarúðunni skal velja **Breyta**.
 1. Í flýtiflipanum **Samstæðureitir**, í listanum **Valdir reitir**, skal velja línuna þar sem reiturinn **Heiti reits** er stilltur á *Pöntun viðskiptavinar*.
-1. Veljið hnappinn **Fjarlægja** ![Vinstri ör](media/backward-button.png) til að færa reitinn á listann yfir **Eftirstandandi reiti**.
+1. Veljið hnappinn **Fjarlægja** ![Vinstri ör.](media/backward-button.png) til að færa reitinn í listann **Eftirstandandi reitir**.
 1. Í aðgerðarúðunni skal velja **Vista**.
 
 ### <a name="set-up-physical-dimensions-for-the-product"></a>Setja upp efnislegar víddir fyrir afurðina

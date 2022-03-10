@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 72273a125da2e6c4a2fc16b449cd5077f3d767df
-ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
-ms.translationtype: HT
+ms.openlocfilehash: b5f7342a997407c8701b836c2a6a6222d8512121
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7548326"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074995"
 ---
 # <a name="create-and-invoice-an-intercompany-sales-order-for-an-external-customer"></a>Stofna og reikningsfæra samstæðusölupöntun fyrir ytri viðskiptavin
 
@@ -75,5 +75,18 @@ Gerðu þessi skref í lögaðila B. Þetta ferli samsvarar reitnum sem er merkt
 1. Veldu sölupöntunina og því næst **Í lagi**.
 
 Reikningur viðskiptavinar fyrir samstæðusölupöntunina er sjálfkrafa bókaður í lögaðila B. Reikningur samstæðulánardrottins er þá sjálfkrafa stofnaður og bókaður í lögaðila A. Ef upprunaleg sölupöntun er sett upp sem bein afhending er reikningur viðskiptavinar stofnaður fyrir upprunalegu sölupöntunina í lögaðila A.
+
+> [!NOTE]
+> Áður, fyrir samstæðusölusviðsmyndir, ef verkflæði lánardrottinsreiknings var stillt í innkaupafyrirtækinu innan samstæðu, var ekki hægt að reikningsfæra samstæðusölupöntunina. Því þurfti að slökkva á verkflæði lánardrottinsreiknings fyrir innkaupafyrirtækið. 
+> 
+> Þessi takmörkun hefur verið lagfærð með nýlegum eiginleika í útgáfu 10.0.25. Nú er hægt að reikningsfæra innbyrðis sölupantanir þegar verkflæði lánardrottinsreiknings er stillt í innkaupafyrirtækinu.
+> 
+> Til að virkja þennan eiginleika skaltu fylgja þessum skrefum.
+>
+> 1. Veljið innbyrðis sölu lögaðila.  
+> 2. Farðu í **Viðskiptakröfur \> Viðskiptavinir \> Alla viðskiptavini**.
+> 3. Veldu viðskiptavin fyrir innkaupafyrirtækið milli fyrirtækja.
+> 4. Fara til **Almennt \> Settu upp \> Millifyrirtæki**.
+> 5. Á **Innkaupapöntunarreglur** flipann, veldu **Framhjá verkflæði lánardrottinsreiknings fyrir reikninga lánardrottna milli fyrirtækja** breytu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

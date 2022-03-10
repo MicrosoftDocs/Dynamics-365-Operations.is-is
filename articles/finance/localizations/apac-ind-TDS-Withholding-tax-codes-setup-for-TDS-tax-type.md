@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d56a23f7af7633e1761a8a7c48f71381d6f14df2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
-ms.translationtype: HT
+ms.openlocfilehash: add91eaef2ad091df7fd45e3de2dfe3993e6d62fdcbbcfcf95a7fc4953189239
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023340"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754880"
 ---
 # <a name="set-up-withholding-tax-codes-for-the-tds-tax-type"></a>Setja upp staðgreiðsluskattskóða fyrir TDS-skattgerð
 
@@ -31,7 +31,7 @@ ms.locfileid: "6023340"
 
 1. Farið í **Skattur \> Óbeinir skattar \> Staðgreiðsluskattur \> Staðgreiðsluskattskóðar**.
 
-    [![Síða staðgreiðsluskattskóða](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
+    [![Síða staðgreiðsluskattskóða.](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
 
 2. Á aðgerðasvæðinu skal velja **Nýtt** til að stofna staðgreiðsluskattskóa fyrir TDS og færa inn nauðsynlegar upplýsingar.
 3. Á flýtiflipanum **Almennt** í reitnum **Tegund skatts** er **TDS** valið til að flokka skattkóðann sem TDS-skattkóða.

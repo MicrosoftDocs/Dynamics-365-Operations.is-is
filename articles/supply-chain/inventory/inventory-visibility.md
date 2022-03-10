@@ -3,7 +3,7 @@ title: Yfirlit viðbótar fyrir sýnileika birgða
 description: Í þessu efnisatriði er útskýrt hvað birgðasýnileiki er og eiginleikum hans er lýst.
 author: yufeihuang
 ms.date: 10/26/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: dfc1bc0d457d0b0b2632aa2e2e5ba6a3c2f3fae7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 8871d10dac9103f17780989bc547b6c20ba79b76
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575172"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985546"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Yfirlit viðbótar fyrir sýnileika birgða
 
@@ -45,8 +45,6 @@ Tvær aðferðir eru til við að skoða birgðirnar þínar:
 - Skoðaðu hráan lagerlistann. Þessi listi er samstilltur reglulega úr tilviki skyndiminnis og er sýnilegur í Dataverse. Frekari upplýsingar er að finna í [Forrit birgðasýnileika](inventory-visibility-power-platform.md).
 
 ## <a name="soft-reservations"></a>Mjúkar frátekningar
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Mjúk frátekning á við þegar fyrirtæki verður að taka frá tiltekið magn af afurðum til að styðja við t.d. uppfyllingu sölupöntunar sem kemur í veg fyrir of mikla sölu. Þegar sölupöntun er stofnuð og staðfest í Supply Chain Management eða öðrum kerfum pantanastjórnunar er beiðni um að taka frá magnið send til birgðasýnileika. Birgðasýnileiki gerir þér kleift að taka frá afurðir sem hafa upplýsingar um vídd og tilteknar birgðafærslugerðir. (Frekari upplýsingar er að finna í [Forrit birgðasýnileika](inventory-visibility-power-platform.md).) Eftir að magnið hefur verið tekið frá er frátekningarkenni skilað til baka. Þú getur notað þetta frátekningarkenni til að tengja aftur við upprunalegu pöntunina í Supply Chain Management fyrir birgðakeðjur eða öðrum pöntunarstjórnunarkerfum eða önnur kerfi pantanastjórnunar.
 

@@ -1,12 +1,10 @@
 ---
 title: Prófunarbreytur gæðastjórnunar
 description: Í þessu efnisatriði er lýst hvernig eigi að stofna prufubreytur sem hægt er að nota til eðlisbundinna prófana á gæðapöntunum í Microsoft Dynamics 365 Supply Chain Management.
-author: rachel-profitt
-manager: tfehr
+author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestTable
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: raprofit
+ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e94972b41baf3f59a633fa7bbc7434abfb90460
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
-ms.translationtype: HT
+ms.openlocfilehash: 4495c3d3f8df9f07ec079d8e497a17979abbe3ee
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956699"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575873"
 ---
 # <a name="quality-management-test-variables"></a>Prófunarbreytur gæðastjórnunar
 

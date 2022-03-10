@@ -1,8 +1,8 @@
 ---
 title: Starfskraftar án starfs
-description: Starfsmenn með enga framtíðarráðningu, virka ráðningu eða eldri ráðningu hjá fyrirtækinu birtast í skjámyndinni Starfskraftar án ráðningar.
-author: andreabichsel
-ms.date: 04/06/2021
+description: Starfsmenn með enga framtíð, virka eða sögulega vinnu hjá fyrirtækinu þínu birtast á síðunni Starfsmenn án atvinnu.
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: ''
 ms.prod: ''
 ms.technology: ''
@@ -10,23 +10,26 @@ ms.search.form: HcmWorkerV2, HRMMassHireProject, HRMMassHireLine, HcmPersonnelMa
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 71cb119e533e64b14badf65f55e8c4d5aa4c4b2f
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: d0b8fe7dd0818fa1c3cc4224e73035849f9dadfe
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356585"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070552"
 ---
 # <a name="workers-without-employment"></a>Starfskraftar án starfs
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Starfsmenn með enga framtíðarráðningu, virka ráðningu eða eldri ráðningu hjá fyrirtækinu birtast í skjámyndinni **Starfskraftar án ráðningar**. Starfsmenn með þessa stöðu geta komið fram þegar þú flytur inn starfskrafta án ráðningarfærslu eða þegar þú eyðir ráðningu starfsmanns í gegnum **Starfskraftar > Ráðningarsaga**.
+Starfsmenn sem hafa enga framtíð, virka eða sögulega vinnu hjá fyrirtækinu þínu birtast á síðunni **Starfsmenn án atvinnu** síðu. Starfsmenn af þessari gerð geta birst þegar þú flytur inn starfsmenn sem ekki eru með starfsskrá eða þegar þú eyðir ráðningu starfsmanns í gegnum **Verkamenn \> Atvinnusaga**.
 
-Skjámyndin **Starfskraftar án ráðningar** er sjálfkrafa í boði fyrir eftirfarandi hlutverk:
+Sjálfgefið er **Starfsmenn án atvinnu** síða er í boði fyrir eftirfarandi hlutverk:
 
 - Aðstoðarmanneskja mannauðsstjóra
 - Mannauðsstjóri

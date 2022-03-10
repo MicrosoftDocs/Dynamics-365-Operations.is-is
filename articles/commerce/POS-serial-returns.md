@@ -12,17 +12,16 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 7a067994828f3df577c0dc4146d26ac81990d4ac
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
-ms.translationtype: HT
+ms.openlocfilehash: 179d66e19c7fa81d587ea920b1c71468ec070177d7e7e68e45c2b58da2f9f5af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129813"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716349"
 ---
 # <a name="return-serial-numbercontrolled-products-in-pos"></a>Skila raðnúmerastýrðum afurðum á sölustað
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Í þessu efnisatriði eru útskýrðir möguleikarnir á að staðfesta röðuðum vörum sem hluti af skilaferlinu í Microsoft Dynamics 365 Commerce forriti sölustaðar.
 

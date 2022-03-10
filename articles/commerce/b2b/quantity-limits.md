@@ -2,11 +2,9 @@
 title: Stilla takmörk afurðarmagns fyrir rafræn B2B-vefsvæði
 description: Þetta efnisatriði lýsir hvernig á að stilla takmörk afurðarmagns fyrir B2B-vefsvæði rafrænna viðskipta.
 author: josaw1
-manager: AnnBe
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e70648da2cc1c526625b6e34fd0867d40abb5a85
-ms.sourcegitcommit: f9df202aefef761be52c0360b0e22da88773914c
-ms.translationtype: HT
+ms.openlocfilehash: 2c8adaad2afee3b735c69a501d7949a807f4e770
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035922"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323381"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>Stilla takmörk afurðarmagns fyrir rafræn B2B-vefsvæði
 
@@ -79,8 +77,11 @@ Til að kveikja á eiginleika fyrir takmörk B2B-pöntunarmagns í Commerce-vefs
 
 [Setja upp B2B-svæði fyrir rafræn viðskipti](set-up-b2b-site.md)
 
-[Stofna líkanastigveldi fyrir B2B-fyrirtæki](org-model.md)
+[Stjórna B2B viðskiptafélögum með því að nota stigveldi viðskiptavina](partners-customer-hierarchies.md)
 
-[Stjórna notendum viðskiptafélaga á B2B-svæði fyrir rafræn viðskipti](manage-b2b-users.md)
+[Stjórna notendum viðskiptafélaga á B2B svæði fyrir rafræn viðskipti](manage-b2b-users.md)
 
 [Skilgreina greiðslumáta viðskiptavinalykils fyrir B2B-svæði fyrir rafræn viðskipti](payment-method.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

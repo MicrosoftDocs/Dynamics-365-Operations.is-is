@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 187363db3030ee0741f0c7e7746295b88320162c156120112332bb78593bb673
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: d767fdce861ccb481a3fe289480a51a7534dc207
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744655"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920225"
 ---
 # <a name="physical-remaining-quantity-in-the-unit-must-not-be-zero"></a>Eftirstöðvar efnislegs magns í einingunni má ekki vera núll
 
@@ -63,10 +63,10 @@ Notið eftirfarandi aðferð til að fara yfir hleðslulínurnar og gera leiðr�
 
 1. Farðu í **Vöruhúsakerfi \> Hleðslur \> Allar hleðslur**.
 1. Veljið hleðsluna sem ekki er hægt að mynda fylgiseðilinn fyrir.
-1. Á aðgerðasvæðinu, í flipanum  **Senda og móttaka**, í flokknum  **Bakfæra**, skal velja  **Bakfæra staðfestingu sendingar**.
-1. Í flipanum  **Hleðslulínur** skal velja hleðslulínu fyrir vöruna sem fer umfram ofafhendingu.
+1. Á aðgerðarrúðunni, á **Senda og taka á móti** flipa, í **Öfugt** hópur, veldu **Staðfesting á öfugri sendingu**.
+1. Á **Hleðslulínur** flipanum, veldu hleðslulínuna fyrir vöruna sem fer yfir offramboðið.
 1. Veljið **Minnka tiltektarmagn** til að laga tiltektarmagnið.
-1. Í flipanum  **Línuupplýsingar** skal velja **Pöntun**.
+1. Á **Upplýsingar um línu** flipa, veldu **Panta**.
 1. Stillið reitinn **Magn** á tiltektarmagnið (þ.e. gildið í reitnum **Magn stofnaðs verks**) svo hægt sé að halda áfram með myndun fylgiseðils.
 
 ### <a name="review-your-load-lines-and-make-adjustments-to-ensure-that-the-unit-and-quantity-are-aligned-with-the-decimal-precision-of-the-unit"></a>Farið yfir hleðslulínurnar og gerið leiðréttingar til að tryggja að einingin og magnið séu í takt við nákvæmni aukastafa í einingunni

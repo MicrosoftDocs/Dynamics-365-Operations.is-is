@@ -13,14 +13,17 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4315de48cbb5a84680724614ecbeab729cd29567
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
-ms.translationtype: HT
+ms.openlocfilehash: 16890c721b60d86fae8dab300e6b997360e59006
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314414"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067027"
 ---
 # <a name="award-type"></a>Tegund umbunar
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

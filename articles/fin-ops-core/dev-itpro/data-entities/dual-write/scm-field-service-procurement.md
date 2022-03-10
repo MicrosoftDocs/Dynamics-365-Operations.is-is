@@ -5,17 +5,17 @@ author: RamaKrishnamoorthy
 ms.date: 11/11/2020
 ms.topic: article
 audience: Application User
-ms.reviewer: rhaertle
+ms.reviewer: tfehr
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: tfehr
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c29efb885babea833e3c3fde0155e3722f8b77e9
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
-ms.translationtype: HT
+ms.openlocfilehash: ab251ee60bf3c831b0139beb9557c6b3faaf9f66
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542392"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783284"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Samstilling innkaupa milli Supply Chain Management og Field Service
 
@@ -165,7 +165,7 @@ Eftirfarandi reglur eru notaðar fyrir stöðudálka:
 - Ef staðan í haus skjals í Staða í Supply Chain Management er breytt í *Hætt við* og engar innhreyfingarafurðir innkaupapöntunar í Field Service tengjast innkaupapöntuninni (í gegnum afurðir innkaupapöntunar), er kerfisstaða Field Service stillt á *Hætt við*.
 - Ef staða innkaupapöntunarlínu í Supply Chain Management er *Hætt við*, er afurðarstaða innkaupapöntunar í Field Service stillt á *Hætt við*. Að auki, ef staða innkaupapöntunarlínu í Supply Chain Management er breytt úr *Hætt við* í *Biðpöntun*, staða afurðavöru innkaupapöntunar í Field Service stillt á *Í bið*.
 
-## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a>Samstilla við innkaupagögn Supply Chain Management samkvæmt eftirspurn
+## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a> Samstilla við innkaupagögn Supply Chain Management samkvæmt eftirspurn
 
 Supply Chain Management inniheldur innkaupagögn fyrir viðskiptasamninga, afslætti og aðrar aðstæður sem reiða sig á aðra ferla í Supply Chain Management. Innkaupavélin notar flóknar reglur til að finna út besta verðið fyrir tiltekna innkaupapöntun. Þegar tvöföld skráning er notuð er gögnum ekki alltaf haldið samstilltum milli beggja umhverfa, sérstaklega í aðstæðum þar sem línur eru stofnaðar eða uppfærðar úr Dataverse og gætu sett í gang frekari ferla í Supply Chain Management.
 
@@ -194,10 +194,10 @@ Eftirfarandi sniðmát eru í boði fyrir samþættingu á fylgiskjölum sem ten
 
 | Birgðakeðjustjórnun | Field Service | lýsing |
 |---|---|---|
-| [Haus innkaupapöntunar V2](mapping-reference.md#183) | msdyn\_Purchaseorders | Þessi tafla inniheldur dálka sem tákna haus innkaupapöntunarinnar. |
-| [Eining innkaupapöntunarlínu](mapping-reference.md#181) | msdyn\_PurchaseOrderProducts | Þessi tafla inniheldur línur sem tákna línur í innkaupapöntun. Afurðarnúmerið er notað fyrir samstillingu. Þetta auðkennir afurðina sem birgðahaldseiningu, þ.m.t. afurðarvíddir. Frekari upplýsingar um samþættingu afurðar Dataverse má finna í [Samræmd afurðaupplifun](product-mapping.md). |
-| [Haus afurðarkvittunar](mapping-reference.md#185) | msdyn\_purchaseorderreceipts | Þessi tafla inniheldur hausa innhreyfingarskjals afurða sem eru stofnaðir þegar innhreyfingarskjöl afurða eru bókuð í Supply Chain Management. |
-| [Lína innhreyfingarskjals](mapping-reference.md#184) | msdyn\_purchaseorderreceiptproducts | Þessi tafla inniheldur innhreyfingarskjalslínur afurðar sem eru stofnaðar þegar innhreyfingarskjal afurðar er bókað í Supply Chain Management. |
-| [Eining mjúkeyðingar innkaupapöntunarlínu](mapping-reference.md#182) | msdyn\_purchaseorderproducts | Þessi tafla inniheldur upplýsingar um innkaupapöntunarlínur sem eru mjúkeyddar. Aðeins er hægt að mjúkeyða innkaupapöntunarlínu í Supply Chain Management þegar innkaupapöntunin hefur verið staðfest eða samþykkt ef kveikt er á breytingastjórnun. Línan er til í gagnagrunni Supply Chain Management og er merkt sem **IsDeleted**. Fyrst að Dataverse er ekki með mjúkeyðingu skilgreinda, er mikilvægt að þessar upplýsingar séu samstilltar við Dataverse. Á þennan hátt er hægt að eyða línum, sem eru mjúkeyddar í Supply Chain Management, sjálfkrafa úr Dataverse. Í slíku tilfelli er reglan til að eyða línu í Dataverse staðsett í Supply Chain Management Extended. |
+| [Haus innkaupapöntunar V2](mapping-reference.md#183) | msdyn\_ Purchaseorders | Þessi tafla inniheldur dálka sem tákna haus innkaupapöntunarinnar. |
+| [Eining innkaupapöntunarlínu](mapping-reference.md#181) | msdyn\_ PurchaseOrderProducts | Þessi tafla inniheldur línur sem tákna línur í innkaupapöntun. Afurðarnúmerið er notað fyrir samstillingu. Þetta auðkennir afurðina sem birgðahaldseiningu, þ.m.t. afurðarvíddir. Frekari upplýsingar um samþættingu afurðar Dataverse má finna í [Samræmd afurðaupplifun](product-mapping.md). |
+| [Haus afurðarkvittunar](mapping-reference.md#185) | msdyn\_ purchaseorderreceipts | Þessi tafla inniheldur hausa innhreyfingarskjals afurða sem eru stofnaðir þegar innhreyfingarskjöl afurða eru bókuð í Supply Chain Management. |
+| [Lína innhreyfingarskjals](mapping-reference.md#184) | msdyn\_ purchaseorderreceiptproducts | Þessi tafla inniheldur innhreyfingarskjalslínur afurðar sem eru stofnaðar þegar innhreyfingarskjal afurðar er bókað í Supply Chain Management. |
+| [Eining mjúkeyðingar innkaupapöntunarlínu](mapping-reference.md#182) | msdyn\_ purchaseorderproducts | Þessi tafla inniheldur upplýsingar um innkaupapöntunarlínur sem eru mjúkeyddar. Aðeins er hægt að mjúkeyða innkaupapöntunarlínu í Supply Chain Management þegar innkaupapöntunin hefur verið staðfest eða samþykkt ef kveikt er á breytingastjórnun. Línan er til í gagnagrunni Supply Chain Management og er merkt sem **IsDeleted**. Fyrst að Dataverse er ekki með mjúkeyðingu skilgreinda, er mikilvægt að þessar upplýsingar séu samstilltar við Dataverse. Á þennan hátt er hægt að eyða línum, sem eru mjúkeyddar í Supply Chain Management, sjálfkrafa úr Dataverse. Í slíku tilfelli er reglan til að eyða línu í Dataverse staðsett í Supply Chain Management Extended. |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

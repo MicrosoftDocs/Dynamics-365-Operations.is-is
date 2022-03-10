@@ -4,19 +4,19 @@ description: Ekki er hægt að staðfesta sendingu vegna ólokinnar vinnu eða v
 author: perlynne
 ms.date: 04/21/2021
 ms.topic: troubleshooting
-ms.search.form: WHSLoadTable_WHSShipConfirm,WHSLoadPlanningListPage_WHSShipConfirm,WHSLoadPlanningWorkbench_WHSShipConfirm,WHSTransportLoad_WHSShipConfirm,WHSShipPlanningListPage_WHSShipConfirm,WHSShipmentDetails_WHSShipConfirm,WHSWorkTable_WHSShipConfirm,WHSWorkTableListPage_WHSShipConfirm,Dialog_WHSOutboundShipConfirmController_WHSOutboundShipConfirm
+ms.search.form: WHSLoadTable_WHSShipConfirm,WHSLoadPlanningListPage_WHSShipConfirm,WHSLoadPlanningWorkbench_WHSShipConfirm,WHSTransportLoad_WHSShipConfirm,WHSShipPlanningListPage_WHSShipConfirm,WHSShipmentDetails_WHSShipConfirm,WHSWorkTable_WHSShipConfirm,WHSWorkTableListPage_WHSShipConfirm,Dialog_WHSOutboundShipConfirmController_WHSOutboundShipConfirm, WHSContainerCloseDiag_WHSShipConfirm
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: lbc
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: da6388d433d6021a99840ae9781c717db1b540a9
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
-ms.translationtype: HT
+ms.openlocfilehash: 59def4427f9fff32fd3839bb9f9b5d5cccdc7720f92a84f1af3adad596d8b352
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938491"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730059"
 ---
 # <a name="you-cant-confirm-a-shipment-because-of-incomplete-or-missing-work"></a>Ekki er hægt að staðfesta sendingu vegna ólokinnar vinnu eða vinnu sem vantar
 

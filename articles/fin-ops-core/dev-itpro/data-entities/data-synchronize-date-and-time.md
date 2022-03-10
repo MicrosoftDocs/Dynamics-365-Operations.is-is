@@ -1,7 +1,7 @@
 ---
 title: Samstilla dagsetningu og tíma í innflutningsvinnslum
 description: Notið UTC-tíma í innflutningsverkum til að forðast vandamál varðandi umreikning tímabelta.
-author: Sunil-Garg
+author: peakerbl
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41c0ec805a20a525989e0133e5dffb29ce3fed39
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: c76eadc5839785ba1624ee3894ef1d0872369aa9
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748670"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403842"
 ---
 # <a name="synchronize-date-and-time-in-import-jobs"></a>Samstilla dagsetningu og tíma í innflutningsvinnslum
 
@@ -33,7 +33,7 @@ Mikilvægt er að stilla tímabelti fyrir innflutningsverkið á samræmdan heim
 
 3. Undir **Dagsetningarsnið uppruna** skal velja **CSV-Unicode**.
 
-   [![Breyta dagsetningarsniði uppruna í UTC](./media/data-source-date-format.png)](./media/data-source-date-format.png)
+   [![Breyta dagsetningarsniði uppruna í UTC.](./media/data-source-date-format.png)](./media/data-source-date-format.png)
 
 4. Breytið **Tímabelti** í **Samræmdan heimstíma** og breytið **Tungumáli** í **En-Us**.
 

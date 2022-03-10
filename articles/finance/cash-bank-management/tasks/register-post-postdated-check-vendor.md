@@ -2,11 +2,9 @@
 title: Skrá og bóka fyrirframdagsetta ávísun fyrir lánardrottinn
 description: Þú getur skráð upplýsingar fyrirframdagsett ávísun áður en þú gefur út ávísun til lánardrottinn með því að nota færslubókarfylgiskjal.
 author: kweekley
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ffd482facc629e65a79f328cb237fd72f6f6b5c5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 9ca63923a18ce531493e390ec3883910fe25b0fb4d4dc61203285a33bee2714e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225322"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761303"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Skrá og bóka fyrirframdagsetta ávísun fyrir lánardrottinn
 

@@ -12,22 +12,22 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d316819fbf19353242f9dfd20c903b7c9b6f6915
-ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
-ms.translationtype: HT
+ms.openlocfilehash: 46302589ac5139ee6297aba26572225c0e392287
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "5637205"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402521"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management"></a>Námskrá fyrir Dynamics 365 Supply Chain Management
 
 Finndu rétta þjálfun á netinu, vinnusmiðjur og viðburði fyrir hlutverkið þitt sem notandi Dynamics 365 Supply Chain.
 
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
 :::row:::
     :::column:::
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
     ### <a name="business-and-technical-decision-makers"></a>Ákvarðanatökumenn í viðskiptum og tæknimálum
 
@@ -91,6 +91,8 @@ Finndu rétta þjálfun á netinu, vinnusmiðjur og viðburði fyrir hlutverkið
     [Hafist handa](learning-catalog-administrator.md#get-started)
 
     [Þekking á algerlega vettvangi](learning-catalog-administrator.md#core-platform-knowledge)
+
+    [Supply Chain Management](learning-catalog-administrator.md#scm)
 
     [Kjarnaþróun](learning-catalog-administrator.md#core-development)
 

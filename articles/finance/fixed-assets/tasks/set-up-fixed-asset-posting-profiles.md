@@ -1,7 +1,7 @@
 ---
 title: Setja upp bókunarreglur fyrir eignir
-description: Þessi leiðarvísi fyrir verk setja upp bókunarreglur eigna.
-author: saraschi2
+description: Þetta ferli sýnir hvernig á að setja upp bókunarsnið eigna.
+author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,21 +10,21 @@ ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2708997848352205cab2e425c9ae1fb531b8a566ba86a65ba2cbeb7e0b5c2b8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ee0006c9588a22d720687e7aceb49acc756b83e1
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767624"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883769"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Setja upp bókunarreglur fyrir eignir
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi leiðarvísi fyrir verk setja upp bókunarreglur eigna.  Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila.  Dæmi í leiðarvísi fyrir verk eru fyrir grunn bókunarreglu, þó verður að stofna bókunarreglur fyrir tiltekinn bókhaldslykil og kröfur fyrir fjárhagsskýrslu.
+Þetta ferli sýnir hvernig á að setja upp bókunarsnið eigna. Dæmin sem gefin eru í efninu eru fyrir grunnbókunarsnið, þó að færslusnið verði að vera búið til fyrir tiltekna reikningsyfirlit og kröfur um fjárhagsskýrslu.
 
 1. Í skoðunarrúðnni ferðu í **Kerfseiningar > Fastafjármunir > Uppsetning > Bókunarreglur fastafjármuna**.
 2. Smellt er á **Nýtt**.

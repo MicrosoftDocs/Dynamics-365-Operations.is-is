@@ -1,30 +1,27 @@
 ---
 title: Kveikja á og grunnstilla sjálfvirk gjöld eftir rás
-description: Þetta efni útskýrir hvernig á að virkja og stilla sjálfvirkt gjald eftir rás í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir hvernig er kveikt á og grunnstillt sjálfvirk gjöld eftir rás í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 1be07c754e563298d82f6ca54f09ae3aa9118602
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: d905819d1e0c8223c74509bfb357b3aaa51d20305a2857061eadb0b0ff8f6b9b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413137"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727631"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Kveikja á og grunnstilla sjálfvirk gjöld eftir rás
 
-Þetta efni útskýrir hvernig á að virkja og stilla sjálfvirk gjöld (sjálfvirk gjöld) eftir rás í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði útskýrir hvernig á að virkja og grunnstilla sjálfvirk gjöld (sjálfvirk gjöld) eftir rásum í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -69,7 +66,7 @@ Fylgdu þessum skrefum til að tengja sjálfgefið stigveldi við skipulag stigv
 1. Í aðgerðarúðunni velurðu **Keyra núna**.
 1. Endurtaktu tvö síðustu skref til að keyra vinnslurnar **1070** (**Stilling rásar**) og **1110** (**Altækar stillingar**).
 
-![Stillingar tilgangs gjalda stigveldis fyrirtækis í Retail](media/Auto-charges-org-hierarchy-purpose.png)
+![Stillingar tilgangs gjalda stigveldis fyrirtækis í Retail.](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>Skilgreina sjálfvirkt gjald eftir rás
 
@@ -77,7 +74,7 @@ Fylgdu þessum skrefum til að tengja sjálfgefið stigveldi við skipulag stigv
 
 Fylgdu þessum skrefum til að skilgreina sjálfvirka gjaldtöku eftir rás í Commerce.
 
-1. Farðu í **Viðskiptakröfur \> Uppsetning gjalda \> Sjálfvirk gjöld**.
+1. Farðu í **Viðskiptakröfur \> Uppsetning gjalda \> Sjálfvirk gjöld**.
 1. Í vinstri glugganum, í reitnum **Stig**, velurðu annaðhvort **Haus** eða **Lína**, eftir því hverjar viðskiptakröfur þínar eru.
 1. Í reitnum **Númer smásölurásar** velurðu viðeigandi rásakóða (til dæmis, **Tafla** eða **Hópur**). Ef sjálfgefin stilling, **Allt**, er notuð eru gjaldareglur notaðar á allar rásir.
 
@@ -89,7 +86,7 @@ Fylgdu þessum skrefum til að skilgreina sjálfvirka gjaldtöku eftir rás í C
 1. Í aðgerðarúðunni velurðu **Keyra núna**.
 1. Endurtaktu tvö síðustu skref til að keyra vinnslurnar **1070** (**Stilling rásar**) og **1110** (**Altækar stillingar**).
     
-![Sjálfvirk gjöld skilgreind eftir rás](media/Auto-charges-line-charge-by-channel.png)
+![Sjálfvirk gjöld skilgreind eftir rás.](media/Auto-charges-line-charge-by-channel.png)
 
 ## <a name="example-scenario"></a>Dæmi
 
@@ -97,7 +94,7 @@ Eftirfarandi dæmi sýnir skrefin sem þarf til að stilla vöru þannig að end
 
 Fyrirtækið skilgreinir gjaldakóða sem nefndur er **ENDURVINNA** eins og sýnt er á eftirfarandi mynd.
 
-![Gjaldakóðinn ENDURVINNA](media/Auto-charges-charge-code.png)
+![Gjaldakóðinn ENDURVINNA.](media/Auto-charges-charge-code.png)
 
 Sjálfvirkt gjald er stofnað á línustiginu. Það hefur eftirfarandi stillingu:
 
@@ -115,16 +112,19 @@ Sjálfvirk gjaldalína er stofnuð. Það hefur eftirfarandi stillingu:
 - Reiturinn **Flokkur** er stilltur **Fast**.
 - Reiturinn **Gjöld** er stilltur á **$6,25**.
 
-![Stillingar sjálfvirku gjaldalínunnar og sjálfvirku gjaldalínunnar](media/Auto-charges-recyclingfee-line-fee.png)
+![Stillingar sjálfvirku gjaldalínunnar og sjálfvirku gjaldalínunnar.](media/Auto-charges-recyclingfee-line-fee.png)
 
 Í POS-forritinu er sölupöntun stofnuð í verslunarrásinni í **San Fransiskó**. Línan **Gjöld** sýnir endurvinnslugjald upp á **$6,25**.
 
 Með því að velja **Færslukosti \> Gjöld \> Stjórna gjöldum** í POS-forritinu geturðu skoðað gjaldakóðann og lýsingu fyrir endurvinnslugjaldið.
 
-![Endurvinnslugjald í POS-forritinu](media/pos-auto-charges-recyclingfee-line-fee.png)
+![Endurvinnslugjald í POS-forritinu.](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Ítarleg sjálfvirk gjöld fyrir omni-rás](omni-auto-charges.md)
 
 [Skipta gjöldum í haus í hlutfalli við samsvarandi sölulínur](pro-rate-charges-matching-lines.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

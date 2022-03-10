@@ -14,22 +14,25 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df08bdffb2bda67269eec9f1572bd76af9ae1e11
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: 2e546dc57692e31d4501984dafa21fbae23a48fe
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747178"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070934"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Aðgerðir í verkflæðissamþykki
 
 [!include [banner](../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
 Þessi grein útskýrir aðgerðir sem hver þátttakandi í verkflæðissamþykki getur gripið til.
 
 Verkflæði getur innihaldið nokkra hópa fólks: upphafsmann, viðtakanda verks, stjórnendur og samþykktaraðila. Til dæmis í eftirfarandi verkflæði fyrir kostnaðarskýrslur er Samúel upphafsmaður, meðlimir í biðröð eru viðtakendur verks, Jón er stjórnandi og Friðrik, Súsanna og Anna eru samþykkjendur.
 
-[![Verkflæði\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Verkflæði\_WithManualDecision.](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 Eftirfarandi kaflar útskýra þær verkflæðisaðgerðir sem hver flokkur getur framkvæmt.
 

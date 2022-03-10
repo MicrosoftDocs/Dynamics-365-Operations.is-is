@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 9c1eef91bcf7d1ce6379e87417be5a8b3be069e5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 6ea27f4e38697d517b1520176eb5dfeee651a598
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575633"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982151"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Röðun með ótakmarkaða getu
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 Eiginleikinn *Ótakmörkuð afkastaáætlun fyrir fínstillingu skipulagningar* kynnir til sögunnar áætlanagerð sem byggir á upplýsingum leiðar. Hann gerir þér kleift að áætla vinnslur sem byggja á fjölbreyttum uppsetningum leiðar. Áætlanagerð fyrir fínstillingu skipulagningar nær yfir mikið notaðar stillingar leiðar, þ.m.t. röð leiðaraðgerðar eða kröfur fyrir tilföng leiðaraðgerðar.
 
@@ -50,7 +49,9 @@ Meðan á áætlunarferlinu stendur tekur kerfið einnig tillit til *tilfangaþ�
 - Geta (frekari upplýsingar er að finna í [Röðun með vali á tilföngum út frá getu](capability-based-scheduling.md).)
 
 > [!NOTE]
-> Kröfur sem tengjast mannauði eins og hæfniskröfur eða vottorð eru enn ekki studdar.
+>
+> - Ef tilfangið og/eða tilfangahópurinn er stilltur á óendanlega getu, mun aðalskipulag líta á þau sem óendanlega getu.
+> - Kröfur sem tengjast mannauði eins og hæfniskröfur eða vottorð eru enn ekki studdar.
 
 Eiginleikinn styður einnig rekstrareiginleikana **Uppsetningartími** og **Keyrslutími**. Þegar þú stillir þessa eiginleika á leiðaraðgerð mun áætlunarferlið búa til viðeigandi uppsetningu og vinnsluverk.
 

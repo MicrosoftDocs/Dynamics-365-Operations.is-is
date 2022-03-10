@@ -3,7 +3,7 @@ title: Yfirlit yfir aðgerðir viðskiptavina
 description: Í þessu efnisatriði er að finna yfirlit yfir nýja aðgerðagetu viðskiptavina sem er í boði í verslunarforritinu.
 author: bebeale
 ms.date: 02/01/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 598145bccadbeb44d33adb96388f6af5a8a45f5d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352689"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984597"
 ---
 # <a name="clienteling-overview"></a>Yfirlit yfir biðlaraþjónustu
 
@@ -125,7 +125,7 @@ Fylgdu þessum skrefum til að setja samþættinguna upp.
 - Undir hlutanum **Leynilyklar**:
     - **Heiti**: hvaða heiti sem er, t.d. „CISecret“.
     - **Lýsing**: Hvaða gildi sem er.
-    - **Leynilykill**: **geymsla**://<Name of key vault>/<name of secret>> Í þessu dæmi verður það „vault://KeyVaultName/SecretName“.
+    - **Leynilykill**: **geymsla**:`//<Name of key vault>/<name of secret>>` Í þessu dæmi verður það `vault://KeyVaultName/SecretName`.
 
 Þegar reitirnir hafa verið uppfærðir skal velja **Villuleita** til að ganga úr skugga um að Commerce-forritið hafi aðgang að leynilyklinum.
 

@@ -1,7 +1,7 @@
 ---
 title: Færibreytur ekki notaðar af fínstillingu skipulagningar
 description: Í þessu efnisatriði er að finna lista yfir færibreytur sem fínstilling skipulagningar tekur ekki til greina sem stendur meðan á aðgerð stendur.
-author: crytt
+author: ChristianRytt
 ms.date: 09/02/2021
 ms.topic: article
 ms.search.form: ReqParameters, ReqGroup, ReqItemTable, ReqPlanSched, EcoResProductDetailsExtended, InventItemOrderSetup, WorkCalendarTable, PdsDispositionMaster
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 52cfe5be60e5a04ce2e2239574d7fedc83e7cff0
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
-ms.translationtype: HT
+ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474797"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087500"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Færibreytur ekki notaðar af fínstillingu skipulagningar
 
@@ -54,25 +54,13 @@ Fínstilling áætlanagerðar notar ekki eftirfarandi færibreytur eða valkosti
   - **Framleiðsla** – Bíður stuðnings frá *Áætlanagerð*.
   - Reitir í hlutanum **Verkefni** – Bíður stuðnings frá *Áætlanagerð*.
 
-- Flipinn **Stöðluð uppfærsla**:
-
-  - **Uppfæra merkingu** – Bíður stuðnings frá *Staðfesting*.
-  - **Rjúfa staðfestingu ef villa kemur upp** – Bíður stuðnings frá *Staðfestingu*.
-  - **Flokka eftir lánardrottni** – Bíður stuðnings frá *Staðfestingu*.
-  - **Flokka eftir kaupendaflokki** – Bíður stuðnings frá *Staðfestingu*.
-  - **Flokka eftir innkaupasamningi** – Bíður stuðnings frá *Staðfestingu*.
-  - **Flokka eftir tímabili** – Bíður stuðnings frá *Staðfestingu*.
-  - **Finna innkaupasamning** – Bíður stuðnings frá *Staðfestingu*.
-  - **Flokka eftir forgangi í áætlunargerð** – Bíður stuðnings frá *Staðfestingu*.
-  - **Flokka eftir tímabili** – Bíður stuðnings frá *Staðfestingu*.
-
 ## <a name="coverage-groups-page"></a>Síða þekjuflokka
 
 Fínstilling skipulagningar notar ekki eftirfarandi færibreytur eða valkosti á síðunni **Þekjuflokkar**:
 
 - Flýtiflipinn **Almennt**
 
-  - **Jákvæðir dagar** – Bíður stuðnings frá *Jákvæðum dögum*.
+  - **Jákvæðir dagar** — Hið *Jákvæðir dagar* gildi er ekki notað. Með hagræðingu áætlanagerðar eru jákvæðir dagar taldir óendanlegir.
   - **Nota lagerbirgðir** – Bíður stuðnings frá *Notkun lagerbirgða*.
   - **Nota tilgreinda uppskriftar- eða formúluútgáfu** – Bíður stuðnings frá *Formúluútgáfur með auka-/hliðarafurðum*.
   - **Nota tilgreinda leiðarútgáfu** – Bíður stuðnings frá *Eftirspurn með tiltekna kröfu uppskriftar eða leiðar skilgreinda*.
@@ -172,6 +160,10 @@ Fínstilling skipulagningar notar ekki eftirfarandi færibreytur eða valkosti �
   - **Bæta við reiknaðri seinkun á dagsetningu þarfa** (í hlutanum **Áætlaðar framleiðslupantanir**) – Bíður stuðnings frá *Reiknaðar seinkanir*.
   - **Bæta við reiknaðri seinkun á dagsetningu þarfa** (í hlutanum **Áætlaður flutningur**) – Bíður stuðnings frá *Reiknaðar seinkanir*.
   - **Bæta við reiknaðri seinkun á dagsetningu þarfa** (í hlutanum **Áætlað kanban**) – Bíður stuðnings frá *Reiknaðar seinkanir*.
+
+- **Aðgerðarboð** flýtiflipi:
+
+  - **Uppfærðu frestað dagsetningu sem kröfudagsetningu** - Þessi færibreyta er hætt með áætlanagerð fínstillingu.
 
 - Flýtiflipinn **Röðun**:
 

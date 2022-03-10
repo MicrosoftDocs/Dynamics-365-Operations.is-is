@@ -2,7 +2,7 @@
 title: Skilgreina hlutverk fjarvistastjórnanda
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp hlutverk fjarvistastjórnanda fyrir stjórnun á leyfi starfsmanns.
 author: hasrivas
-ms.date: 07/19/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,19 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8a8250b36d2774ac308637253b780592df316cd
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
-ms.translationtype: HT
+ms.openlocfilehash: 9f1c699358c9cc8de9e975886cfb72edfb0d3f31
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639607"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065227"
 ---
 # <a name="configure-the-absence-manager-role"></a>Skilgreina hlutverk fjarvistastjórnanda
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [preview feature](./includes/preview-feature.md)]
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Í sumum fyrirtækjum er ekki víst að stjórnendur hafi umsjón með leyfum fyrir teymið þeirra. Þess í stað gæti fjarvistastjórnandi séð um þetta ferli fyrir teymismeðlimi í mörgum deildum og teymum. Fjarvistastjórnendur hafa eftirfarandi möguleika fyrir leyfisstjórnun:
 
@@ -38,7 +39,7 @@ ms.locfileid: "6639607"
 
 1. Á vinnusvæðinu **Kerfisstjórnun** skal velja **Eiginleikastjórnun**.
 
-2. Í flipanum **Eiginleikastjórnun** skal virkja eiginleikann **(Forútgáfa) Fjarvistarstjóri stjórnar leyfi**.
+2. Í flipanum **Eiginleikastjórnun** skal virkja eiginleikann **Fjarvistarstjóri stjórnar leyfi**.
 
 ## <a name="define-a-custom-hierarchy"></a>Skilgreina sérstillt stigveldi
 
@@ -89,16 +90,21 @@ Hlutverki fjarvistastjóra verður að vera úthlutað á starfsmenn til að ger
 
 ## <a name="absence-manager-workspace"></a>Vinnusvæði fjarvistarstjóra
 
-Á vinnusvæðinu **Sjálfsafgreiðsla starfsmanns**, í flipanum **Fjarvistarstjóri**, sjást fjarvistaupplýsingar starfsmanna sem er úthlutað til fjarvistastjóra í leyfisstigveldinu.
+Á vinnusvæðinu **Sjálfsafgreiðsla starfsmanns**, í flipanum **Stjórnun leyfa**, sjást fjarvistaupplýsingar starfsmanna sem er úthlutað til fjarvistastjóra í leyfisstigveldinu. Það eru nokkrir valkostir í boði fyrir fjarverustjórann: 
+ - Farðu yfir frítímabeiðnir.</br>
+ - Senda inn beiðni um frí fyrir hönd starfsmanns.</br>
+ - Skoðaðu alla starfsmenn sem honum er úthlutað sem hluti af frítímastigveldinu.</br>
+ - Skoða dagatal fjarvistarstjóra.</br>
 
-Í flipanum **Leyfi og fjarvistir** eru eftirfarandi valkostir í boði fyrir hvern starfsmann:
-
-- **Frí** – Skoðaðu stöður, samþykkt frí og beiðnir um frí fyrir valdan starfsmann.
-- **Leyfisstaða** – Skoðaðu lista yfir stöður fyrir mismunandi leyfisáætlanir fyrir valdan starfsmann.
+Á vinnusvæðinu **Stjórnun leyfis** eru tveir flipar:
+ - **Beiðni um frí**: Þessi flipi mun sýna allar beiðnir um frí í biðstöðu sem fjarvistastjórnandi getur samþykkt. Fjarvistastjórnandinn getur valið margar færslur og gert aðgerðir á þeim öllum samtímis. Ef leyfisyfirlit milli fyrirtækja er virkjað mun þessi listi sýna frítímabeiðnir í biðstöðu í öllum lögaðilum sem hann hefur aðgang að. Annars sýnir hann frítímabeiðnir í biðstöðu fyrir þann lögaðila sem er valinn. </br>
+ - **Allir starfsmenn**: Þessi flipi mun skrá alla starfsmenn sem fjarvistastjórnandanum er úthlutað í leyfisstigveldinu. Hægt er að velja um nokkra valkosti fyrir hvern starfsmann:
+    - **Beiðni um frí** - Sendu inn nýja beiðni um frí fyrir valinn starfsmann.</br>
+    - **Frí** – Skoðaðu stöður, samþykkt frí og beiðnir um frí fyrir valdan starfsmann.</br>
 
 ## <a name="approve-time-off-requests"></a>Samþykkja beiðnir um frí
 
-Fjarvistastjórar geta samþykkt eða hafnað beiðnum um frí fyrir starfsmenn. Þeir geta einnig búið til beiðnir fyrir hönd starfsmanna eftir þörfum.
+Fjarvistastjórar geta samþykkt eða hafnað beiðnum um frí fyrir starfsmenn. 
 
 > [!IMPORTANT]
 > Áður en fjarvistarstjórar geta samþykkt eða hafnað óskum um frí verður að stilla verkflæði leyfisbeiðna til að úthluta þeim vinnuliðum leyfisbeiðni til skoðunar.
@@ -109,15 +115,13 @@ Fjarvistastjórar geta samþykkt eða hafnað beiðnum um frí fyrir starfsmenn.
 >
 > Frekari upplýsingar um hvernig á að búa til verkflæði leyfisbeiðni er að finna í [Stofna verkflæði fyrir beiðni um leyfi](hr-leave-and-absence-workflow.md).
 
-1. Á vinnusvæðinu **Sjálfsafgreiðsla starfsmanna** skal velja flipann **Fjarvistarstjóri**.
+1. Á vinnusvæðinu **Sjálfsafgreiðsla starfsmanna** skal velja flipann **Stjórnun leyfa**.
 
-2. Í flipanum **Fjarvistarstjóri** skal velja viðeigandi starfsmann.
+2. Í flipanum **Beiðni um frí** skal velja frítímabeiðnirnar þar sem á að framkvæma aðgerð. Hægt er að velja margar skrár í þessum lista.
 
-3. Veldu **Upplýsingar** og síðan **Frí**.
+3. Notaðu aðgerðahnappana efst í hnitanetinu til að samþykkja, hafna eða úthluta frítímabeiðninni. 
 
-4. Finndu beiðni um frí og veldu valkostinn **Samþykki**. Þá er hægt að velja valkost til að samþykkja eða hætta við beiðni um frí.
-
-Staðan **Hætta við** gefur til kynna að beiðninni hafi verið hafnað. Staðan **Lokið** gefur til kynna að beiðnin hafi verið samþykkt.
+Einnig getur notandinn notað reitinn **Beiðnir um frí** vinstra megin til að fara í listann yfir vinnuliði allra frítímabeiðna. 
 
 ## <a name="view-time-off-in-the-calendar"></a>Skoða frí í dagatalinu
 
@@ -126,7 +130,7 @@ Notendur í hlutverki fjarvistarstjóra geta skoðað frítímabeiðnir í dagat
 > [!IMPORTANT]
 > Kerfisstjóri verður að skilgreina valkosti yfirlits fyrir dagatal fjarvistarstjóra. Á síðunni **Færibreytur leyfis og fjarvista**, í flipanum **Dagatal**, eru valkostir um að fela eða sýna fæðingardaga, fjarvistir án leyfis, fjarvistarleyfi og leyfisbeiðnir í biðstöðu. Einnig er sá möguleiki fyrir hendi að sía valkost dagatalsyfirlitsins eftir gerð starfsmanns.
 
-1. Á vinnusvæðinu **Sjálfsafgreiðsla starfsmanns** skal velja **Fjarvistarstjóri** og síðan **Dagatal fjarvistarstjóra**.
+1. Á vinnusvæðinu **Sjálfsafgreiðsla starfsmanns** skal velja **Stjórnun leyfis** og síðan **Dagatal fjarvistarstjóra**.
 
 2. Í reitinn **Dagsetning** skal færa inn æskilegar dagsetningar.
 

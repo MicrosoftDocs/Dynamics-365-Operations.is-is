@@ -4,30 +4,23 @@ description: Í þessu efnisatriði er lýst samþættingu athugasemdagagna í t
 author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: cebab0635679fcb2c3e56c22aed1f33f8846c839ab9de694ae596c9366da96db
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: c73da804d724ea75ae6ccd479d1b7f3cf02d48c4
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744363"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062776"
 ---
 # <a name="note-integration"></a>Samþætting athugasemdar
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Í viðskiptaferlum safna notendur Microsoft Dynamics 365 oft saman upplýsingum um viðskiptavini sína. Þessar upplýsingar eru skráðar sem verkþættir og athugasemdir. Í þessu efnisatriði er lýst samþættingu athugasemdagagna í tvöfaldri skráningu.
 
@@ -37,7 +30,7 @@ Hægt er að flokka upplýsingar um viðskiptavin á eftirfarandi hátt:
 + **Aðgerðartengdar upplýsingar fyrir notanda Dynamics 365** – Til dæmis færir viðskiptavinur sem er að kaupa Surface-tölvu inn sérstakar upplýsingar sem gefa til kynna að pakka eigi tækinu inn í gjafapappír fyrir afhendingu. Þessar leiðbeiningar eru aðgerðartengdar upplýsingar sem starfsmaður Contoso, sem er ábyrgur fyrir pökkun, á að sjá um.
 + **Upplýsingar sem tengjast ekki aðgerð** – Til dæmis heimsækir viðskiptavinur verslun Contoso og í samtali við starfsmann verslunarinnar segist hann hafa áhuga á *Halo-leikjum* og aukabúnaði tölvuleikja. Starfsmaður verslunarinnar skrifar athugasemd varðandi þessar upplýsingar. Tillöguvél afurða notar hana þá til að senda viðskiptavini tillögur.
 
-Almennt eru aðgerðartengdar upplýsingar sóttar sem *verkþættir* í Finance and Operations-forritum og forritum viðskiptavina. Upplýsingar sem tengjast ekki aðgerð eru sóttar sem *athugasemdir* í Finance and Operations-forritum og sem *skýringar* í forritum viðskiptavina.
+Almennt séð eru viðeigandi upplýsingar teknar sem *starfsemi* í fjármála- og rekstraröppum og öppum fyrir þátttöku viðskiptavina. Upplýsingar sem ekki eru aðgerðarhæfar eru teknar sem *athugasemdum* í Finance and Operations öppum og eins *athugasemdir* í öppum fyrir þátttöku viðskiptavina.
 
 > [!TIP]
 > Þótt athugasemdir séu ætlaðar fyrir upplýsingar sem tengjast ekki aðgerð munu forritin ekki koma í veg fyrir að þær séu notaðar til að geyma og meðhöndla aðgerðartengdar upplýsingar ef ætlunin er að nota þær í þeim tilgangi.
@@ -46,7 +39,7 @@ Microsoft er að gefa út virkni fyrir samþættingu athugasemda. (Virkni fyrir 
 
 ## <a name="create-a-note-in-a-customer-engagement-app"></a>Búa til athugasemd í forriti viðskiptavinar
 
-Til að búa til athugasemd í forriti viðskiptavinar og því næst samstilla hana við Finance and Operations-forrit skal fylgja þessum skrefum.
+Fylgdu þessum skrefum til að búa til minnismiða í þátttökuforriti viðskiptavina og samstilla hana síðan við Finance and Operations app.
 
 1. Í forriti viðskiptavinar skal opna reikningsfærslu viðskiptavinar.
 2. Á svæðinu **Tímalína** skal velja plúsmerkið (**+**) og síðan velja **Athugasemd** til að búa til athugasemd.
@@ -61,7 +54,7 @@ Til að búa til athugasemd í forriti viðskiptavinar og því næst samstilla 
 
     ![Ný athugasemd á tímalínu viðskiptavinar.](media/notes-ce-3.png)
 
-4. Skráið ykkur inn í Finance and Operations-forritið og opnið sömu viðskiptavinafærsluna. Takið eftir að hnappurinn **Viðhengi** (bréfaklemmutákn) efst í hægra horninu gefur til kynna að færslan sé með viðhengi.
+4. Skráðu þig inn á Finance and Operations appið og opnaðu sömu viðskiptavinaskrá. Takið eftir að hnappurinn **Viðhengi** (bréfaklemmutákn) efst í hægra horninu gefur til kynna að færslan sé með viðhengi.
 
     ![Tilkynning um viðhengi.](media/notes-ce-4.png)
 
@@ -69,17 +62,17 @@ Til að búa til athugasemd í forriti viðskiptavinar og því næst samstilla 
 
     ![Athugasemd úr forriti viðskiptavinar.](media/notes-ce-5.png)
 
-Allar uppfærslur á athugasemdinni eru samstilltar fram og til baka milli Finance and Operations-forritsins og forrits viðskiptavinar.
+Allar uppfærslur á minnismiðanum eru samstilltar fram og til baka á milli Finance and Operations appsins og viðskiptavinaþátttökuforritsins.
 
-## <a name="create-a-note-in-a-finance-and-operations-app"></a>Búa til athugasemd í Finance and Operations forriti
+## <a name="create-a-note-in-a-finance-and-operations-app"></a>Búðu til minnismiða í Finance and Operations app
 
-Einnig er hægt að búa til athugasemd í Finance and Operations-forriti og verður hún samstillt við forrit viðskiptavinar.
+Þú getur líka búið til minnismiða í Finance and Operations app, og það verður samstillt við viðskiptavina þátttöku app.
 
-Til að búa til athugasemd í Finance and Operations-forriti og því næst samstilla hana við forrit viðskiptavinar skal fylgja þessum skrefum.
+Fylgdu þessum skrefum til að búa til athugasemd í Finance and Operations appi og samstilla hana síðan við viðskiptavinaforrit.
 
-1. Í Finance and Operations-forritinu, á síðunni **Viðhengi**, skal velja **Ný** \> **Athugasemd**.
+1. Í Finance and Operations appinu, á **Viðhengi** síðu, veldu **Nýtt** \> **Athugið**.
 
-    ![Athugasemd búin til í Finance and Operations-forritinu.](media/notes-fo-1.png)
+    ![Að búa til minnismiða í Finance and Operations appinu.](media/notes-fo-1.png)
 
 2. Færið inn titil og leiðbeiningar í stuttu máli og veljið síðan **Vista**.
 
@@ -91,17 +84,17 @@ Til að búa til athugasemd í Finance and Operations-forriti og því næst sam
 
 Hægt er að flokka athugasemd sem annaðhvort innri eða ytri.
 
-- Í Finance and Operations-forritinu, á síðunni **Viðhengi**, skal opna athugasemdina og síðan í reitnum **Takmörkun** skal velja **Innri** eða **Ytri**.
+- Í Finance and Operations appinu, á **Viðhengi** síðu, opnaðu athugasemdina og síðan í **Takmarkanir** reit, veldu **Innri** eða **Ytri**.
 
     ![Takmörkunarreitur.](media/notes-fo-4.png)
 
 Einnig er hægt að búa til vefslóð.
 
-1. Í Finance and Operations-forritinu, á síðunni **Viðhengi**, skal velja **Ný** \> **Vefslóð**.
+1. Í Finance and Operations appinu, á **Viðhengi** síðu, veldu **Nýtt** \> **URL**.
 2. Færið inn titil og vefslóð.
 3. Í reitnum **Takmörkun** skal velja **Innri** eða **Ytri**.
 
-    ![Vefslóð búin til í Finance and Operations-forritinu.](media/notes-fo-5.png)
+    ![Að búa til vefslóð í Finance and Operations appinu.](media/notes-fo-5.png)
 
 4. Veldu **Vista**.
 
@@ -116,7 +109,7 @@ Einnig er hægt að búa til vefslóð.
 
 Samþætting athugasemdar inniheldur safn af töfluvörpunum sem vinnur saman í gagnasamskiptum eins og sýnt er í eftirfarandi töflu.
 
-| Finance and Operations-forritið | Forrit viðskiptavinatengsla | lýsing |
+| App fyrir fjármál og rekstur | Forrit viðskiptavinatengsla | Lýsing |
 |----------------------------|-------------------------|-------------|
 | [Fylgiskjöl viðskiptamanns](mapping-reference.md#230) | Skýringar | Fyrirtæki sem nota venjulegan texta og vefslóðir til að sækja upplýsingar um viðskiptavini (bæði fyrir fyrirtæki og einstaklinga). |
 | [Viðhengd skjöl lánardrottins](mapping-reference.md#231) | Skýringar | Fyrirtæki sem nota venjulegan texta og vefslóðir til að sækja upplýsingar um lánardrottna (bæði fyrir fyrirtæki og einstaklinga). |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
-ms.translationtype: HT
+ms.openlocfilehash: 826e0aab8c717bb951d80aff61b2d72dad802189706f720c48e72c8a1c393ead
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6016134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731914"
 ---
 # <a name="cost-and-date-control"></a>Kostnaðar- og dagsetningarstýring
 
@@ -58,7 +58,7 @@ ms.locfileid: "6016134"
 
     Myndin hér að neðan sýnir dæmi um gluggann **Stýring eignakostnaðar**.
 
-    ![Valmyndin Stýring eignakostnaðar](media/01-controlling-and-reporting.png)
+    ![Svargluggi fyrir kostnaðarstýringu eignar.](media/01-controlling-and-reporting.png)
 
 10. Á síðunni **Stýring eignakostnaðar** smellirðu á hnappana **Flokka eftir** til að sýna áskilið upplýsingastig útreikningsins. Valdir hnappar **Flokka eftir** eru auðkenndir. Smelltu á hnappinn til að virkjaðu eða afvirkjaðu hann.
 
@@ -71,7 +71,7 @@ Skjáskotið hér að neðan sýnir dæmi um niðurstöður útreiknings í **St
 - Reiturinn **Opinn ráðstafaður kostnaður** sýnir skuldbindingar um greiðslu fyrir vörur, tíma og þjónustu sem þú hefur pantað eða fengið en hefur ekki enn borgað fyrir. 
 - Reiturinn **Raunkostnaður** sýnir tengdan kostnað eftir að allar notkunarskráningar hafa verið bókaðar.
 
-![Dæmi um niðurstöður útreikninga í Stýringu eignakostnaðar](media/02-controlling-and-reporting.png)
+![Dæmi um niðurstöður útreiknings í kostnaðarstýringu eignar.](media/02-controlling-and-reporting.png)
 
 Önnur leið til að gera kostnaðarútreikning er að velja margar eignir í **Allar eignir** eða **Virkar eignir**. Smelltu síðan á hnappinn **Kostnaðarstýring** á flipnanum **Almennt**. Í glugganum **Stýring eignakostnaðar** eru valdar eignir sjálfkrafa settar inn í reitinn **Eignir** á flýtiflipanum **Færslur til að hafa með**. Smelltu á **Í lagi** og kostnaðarútreikningur fyrir valdar eignir er sýndur. Sama ferli er hægt að gera fyrir virkar staðsetningar í **Allar virkar staðsetningar** eða **Virkar virkar staðsetningar**, og vegna verkbeiðna í **Allar verkbeiðnir** eða **Virkar vinnupantanir**.
 
@@ -99,7 +99,7 @@ Skjáskotið hér að neðan sýnir dæmi um niðurstöður útreiknings í **Da
 - Reiturinn **Meðalseinkun loka** sýnir mismuninn í dögum milli áætlaðs lokadags fyrir verkbeiðni miðað við raunverulegan lokadag. Ef til dæmis raunlokadagsetningin var þremur dögum eftir áætlaðan lokadag birtist „-3“ í þessum reit.  
 - Reitirnir **Tilvik** sýna fjölda skipta sem frávik eiga sér stað í tengslum við áætlaða og raunverulega upphafsdagsetningu og áætlaða og raunverulega lokadagsetningu í verkbeiðninni.
 
-![Dæmi um niðurstöður útreikninga í Dagsetningastjórnun verkbeiðni](media/03-controlling-and-reporting.png)
+![Dæmi um niðurstöður útreiknings í dagsetningarstýringu verkbeiðni.](media/03-controlling-and-reporting.png)
 
 
 

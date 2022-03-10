@@ -2,11 +2,9 @@
 title: Skilgreiningar verslunar fyrir smásöluyfirlit
 description: Þetta ferli fer í gegnum skilgreiningar fyrir verslun sem hafa áhrif á hvernig uppgjör í Commerce eru stofnuð og bókuð.
 author: jashanno
-manager: AnnBe
 ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af4321cd9d6e15c82c4eef1f1ca218b8301ebf35
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 1bebe5d6732e6f8156e0271000a0b6caa24ba432491adc0370850109f19b7e4c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003654"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770934"
 ---
 # <a name="store-configurations-for-retail-statements"></a>Skilgreiningar verslunar fyrir smásöluyfirlit
 
@@ -48,3 +46,6 @@ ms.locfileid: "5003654"
 17. Veljið "Já" í **Skipta eftir uppgjörsaðferð** til að fá yfirlit sem stofnuð voru fyrir hverja uppgjörsaðferð sem var skilgreind. Þessi aðgerð getur verið gagnleg ef afköst við bókun þarf að vera endurbætt fyrir verslana með margar færslur, þar sem það stofnar mörg minni yfirlit sem má vinna samhliða.  
 18. Í flýtiflipanum **Almennt** í svæðinu **Sjálfgefinn viðskiptavinur** hægt er að velja viðskiptavinalykillinn sem á að nota fyrir sölu til viðskiptavina sem koma af götunni.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,29 +1,26 @@
 ---
 title: Villustjórnun
 description: Þetta efni skýrir villustjórnun í eignastýringu.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetFaultArea, EntAssetFaultDesigner, EntAssetFaultCopyFromObjectType, EntAssetFaultRemedy, EntAssetObjectFaultRelationRequestInfoPart, EntAssetObjectFaultRelationWorkOrderInfoPart, EntAssetFaultCreateCombinations, EntAssetObjectFaultSymptom, EntAssetObjectFaultSymptomListPage, EntAssetFaultType, EntAssetFaultSymptom, EntAssetFaultCause
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 72d6c8d750a5a0903017b4c77b3ce5d9521cf99b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 149d4fc8026a2a1878155d2b708cf3a79dd0e5af966db4e7f9339d8ca582da70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430236"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711954"
 ---
 # <a name="fault-management"></a>Villustjórnun
 
@@ -109,7 +106,7 @@ Fylgdu þessum skrefum til að búa til lista yfir bilunargerðir sem hægt er a
 
 7. Veldu **Vista** til að vista breytingarnar.
 
-![Síða bilunarhönnuðar](media/21-setup-for-work-orders.png)
+![Síða bilanahönnuðar.](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>Stofna orsakir bilunar
 
@@ -133,3 +130,6 @@ Fylgdu þessum skrefum til að búa til lista yfir uppástungur að úrræðum o
 
 > [!NOTE]
 > Þú getur breytt nöfnum á bilanaeinkennum þínum, -svæðum, -gerðum, -orsökum og -úrræðum eins og þú þarft. Nafnabreytingarnar endurspeglast sjálfkrafa í tengdum bilaskráningum.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

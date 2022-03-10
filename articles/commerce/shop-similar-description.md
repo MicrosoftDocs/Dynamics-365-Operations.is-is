@@ -2,11 +2,9 @@
 title: Virkja ráðleggingar um „versla svipaða lýsingu“
 description: Þetta efnisatriði lýsir því hvernig á að virkja vörutillögurnar fyrir „versla vörur með svipaðri lýsingu“ í Microsoft Dynamics 365 Commerce.
 author: bsokolov
-manager: AnnBe
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b6b397b1f21e3dfcdb4a2b7fe67ddb541d090a97
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: ce7f249d496a8cf57ad60ac33506fba3cc3dcce40cd89a0cc663ead5263e441a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234390"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755855"
 ---
 # <a name="enable-shop-similar-description-recommendations"></a>Virkja ráðleggingar um „versla svipaða lýsingu“
 
@@ -81,7 +79,7 @@ Til að bæta hnappnum **Versla vörur með svipaða lýsingu** við upplýsinga
 
 Eftirfarandi mynd sýnir gátreitinn **Virkja tengil til að versla vörur með svipaða lýsingu** og hnappinn **Versla vörur með svipaða lýsingu** í dæmi um upplýsingasíðu afurðar í svæðishönnuði.
 
-![Gátreiturinn „Virkja tengil til að versla vörur með svipaða lýsingu“ og hnappurinn „Versla vörur með svipaða lýsingu“ á upplýsingasíðu afurðar í svæðishönnuði](./media/ter_site_builder_buybox_button.png)
+![Gátreiturinn „Virkja tengil til að versla vörur með svipaða lýsingu“ og hnappurinn „Versla vörur með svipaða lýsingu“ á upplýsingasíðu afurðar í svæðishönnuði.](./media/ter_site_builder_buybox_button.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

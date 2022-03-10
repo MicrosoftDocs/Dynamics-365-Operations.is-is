@@ -2,7 +2,7 @@
 title: Innfelld vinnuforrit frá Power Apps
 description: Þetta efnisatriði útskýrir hvernig á að innleiða vinnusvæðisforrit úr Microsoft Power Apps og í biðlarann til að auka virkni vörunnar.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 37ef6101a5a69e9c820347dd6f61c987467d40b3
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: HT
+ms.openlocfilehash: c2f7b660d364be6e62d484e67908201027190a8a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344530"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065102"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Innfelld vinnuforrit frá Power Apps
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
-Microsoft Power Apps er þjónusta sem gerir þróunaraðilum og öðrum notendum með litla tæknikunnáttu kleift að byggja upp sérsniðin viðskiptaforrit fyrir fartæki, spjaldtölvur og netið án þess að skrifa kóða. Finance and Operations-forrit styðja samþættingu við Power Apps. Vinnusvæðaforrit sem þú, fyrirtækið þitt eða samfélagið þróar er hægt að fella inn í Finance and Operations-forrit til að auka virkni vörunnar. Til dæmis gætir þú smíðað vinnusvæðaforrit úr Power Apps til að bæta við Finance and Operations-forrit með upplýsingum sem sóttar eru úr öðru kerfi.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Microsoft Power Apps er þjónusta sem gerir þróunaraðilum og öðrum notendum með litla tæknikunnáttu kleift að byggja upp sérsniðin viðskiptaforrit fyrir fartæki, spjaldtölvur og netið án þess að skrifa kóða. Fjármála- og rekstrarforrit styðja samþættingu við Power Apps. Hægt er að fella strigaforrit sem þú, fyrirtæki þitt eða víðtækara vistkerfi þróar inn í Finance and Operations forrit til að auka virkni vörunnar. Til dæmis gætirðu smíðað strigaforrit úr Power Apps að bæta við Finance and Operations app með upplýsingum sem eru sóttar úr öðru kerfi.
 
 Til að fræðast meira um innfellingu á vinnusvæðaforritum skal horfa á stutt myndband: [Hvernig á að innleiða vinnusvæðaforrit](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
@@ -33,7 +35,7 @@ Til að fræðast meira um innfellingu á vinnusvæðaforritum skal horfa á stu
 
 Áður en vinnusvæðaforrit er fellt inn úr Power Apps í biðlarann, þarf að finna eða smíða forrit sem er með æskilegt viðmót eða virkni. Í þessu efnisatriði er ekki að finna nákvæma lýsingu á ferlinu við að smíða forrit. Ef þú hefur litla eða enga reynslu af Power Apps skaltu skoða [Power Apps fylgigögn](/powerapps/).
 
-Til eru þrjár leiðir til að fella vinnusvæði inn í Finance and Operations forrit. Þú getur notað þá aðferð sem passar best við þínar aðstæður. 
+Það eru þrjár leiðir til að fella strigaforrit inn í Finance and Operations app. Þú getur notað þá aðferð sem passar best við þínar aðstæður. 
 
 - Felldu vinnusvæðaforritið inn í hnappinn **Power Apps** á hefðbundnu aðgerðasvæði á síðu. Forrit sem þú bætir við á þennan hátt birtast sem atriði á valmyndarhnappnum **Power Apps** og forritin opnast í hliðarsvæðum. 
 - Felldu vinnusvæðaforritið beint inn í fyrirliggjandi síðu sem síðu á nýjum flipa (snúningsflipa, flýtiflipa, blaði eða vinnusvæði).
@@ -66,7 +68,7 @@ Eftirfarandi ferli sýnir hvernig á að fella inn vinnusvæðaforrit í fyrirli
 
 ### <a name="embedding-a-canvas-app-as-a-full-page-experience-from-the-dashboard"></a>Fella inn vinnusvæðaforrit sem heilsíðuupplifun úr stjórnborðinu
 
-Þú gætir viljað fella inn vinnusvæðaforrit úr stjórnborðinu ef forritið tengist ekki fyrirliggjandi síðu eða ef þú vilt einfaldlega að forritið komi fram sem upplifun á heillri síðu í Finance and Operations forritinu.
+Þú gætir viljað fella inn strigaforrit frá mælaborðinu ef appið er ekki tengt núverandi síðu, eða ef þú vilt bara birta appið sem heilsíðuupplifun í Finance and Operations appinu.
 
 > [!NOTE]
 > Til að bjóða upp á þennan möguleika þarftu að kveikja á eiginleikanum **Forrit á heilli síðu** í eiginleikastjórnun. 
@@ -84,7 +86,7 @@ Eftirfarandi ferli sýnir hvernig á að fella inn vinnusvæðaforrit í fyrirli
 
 - **Heiti** – Færðu inn textann sem á að sýna fyrir hnappinn eða flipann sem mun innihalda innfellt forrit. Oft gætirðu viljað endurtaka heiti forritsins í þessum reit.
 - **Forritskenni** – Tilgreindu altækt einkvæmt kennimerki (GUID) fyrir vinnusvæðaforritið sem á að fella inn. Til að sækja þetta gildi skaltu finna forritið á [make.powerapps.com](https://make.powerapps.com) og skoða síðan reitinn **Forritskenni** undir **Upplýsingar**.
-- **Setja inn samhengi fyrir forritið** - hægt að velja valfrjálst reitinn sem inniheldur gögnin sem þú vilt flytja yfir í forritið sem inntak. Til að fá upplýsingar um hvernig forritið getur nálgast gögnin sem Finance and Operations-forritin senda frá sér skal skoða kaflann [Forrit smíðað sem nýtir sér gögn sem Finance and Operations-forrit senda frá sér](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) síðar í þessu efnisatriði.
+- **Setja inn samhengi fyrir forritið** - hægt að velja valfrjálst reitinn sem inniheldur gögnin sem þú vilt flytja yfir í forritið sem inntak. Fyrir upplýsingar um hvernig appið getur nálgast gögnin sem send eru úr Finance and Operations öppum, sjáðu [Að byggja upp app sem nýtir gögn sem send eru frá Finance and Operations öppum](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) kafla síðar í þessu efni.
 
     Frá og með útgáfu 10.0.19 verður núgildandi lögaðili einnig sendur sem samhengi til vinnusvæðaforritsins í gegnum færibreytuvefslóðina **cmp**. Þessi hegðun hefur ekki áhrif á notkun vinnusvæðaforritsins fyrr en forritið notar þær upplýsingar.
 
@@ -105,15 +107,15 @@ Eftirfarandi ferli sýnir hvernig á að fella inn vinnusvæðaforrit í fyrirli
     - Ef slökkt er á eiginleikanum **Vistuð yfirlit** getur kerfisstjórinn gefið sérstillingu sem felur í sér vinnusvæðaforritið til viðeigandi hóps notenda í gegnum síðuna **Sérstilling**. Einnig er hægt að flytja út sérstillingar síðunnar og senda þær á einn eða fleiri notendur. Hver þessara notenda getur síðan flutt inn sérstillingarnar. Tækjastika sérstillinga er með hnappa sem gera þér kleift að flytja út og flytja inn sérstillingar.
 
 > [!NOTE]
-> Ef vinnusvæðaforritinu hefur verið deilt með ytri notendum, geta þessir notendur ekki notað innfellda forritið í Finance and Operations-forritum. Hins vegar geta þeir nálgast forritið beint inni í Power Apps. Ytri notendur eru gestir eða notendur sem tilheyra ekki Microsoft 365 Azure Directory þar sem Finance and Operations-forritið er sett upp.
+> Ef strigaforritinu hefur verið deilt með utanaðkomandi notendum geta þessir notendur ekki notað innfellda appið í Finance and Operations forritum. Hins vegar geta þeir nálgast forritið beint inni í Power Apps. Ytri notendur innihalda gesti og notendur sem tilheyra ekki Microsoft 365 Azure Directory þar sem Finance and Operations appið er notað.
 
 Sjá [Sérstilla notandaupplifun](personalize-user-experience.md) til að fá frekari upplýsingar um sérstillingarvalkosti á vörunni og hvernig á að nota þá.
 
-## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Vinnusvæðaforrit smíðað sem notar gögn sem eru send úr Finance and Operations-forritum
+## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Að byggja upp strigaforrit sem notar gögn sem eru send frá Finance and Operations forritum
 
-Þegar vinnusvæðaforrit er smíðað sem mun fella inn Finance and Operations-forrit, er mikilvægur hluti ferlisins að nota inntaksgögnin úr þessu Finance and Operations-forriti. Úr þróunarreynslu Power Apps er hægt að fá aðgang að inntaksgögnunum sem koma frá Finance and Operations-forritinu með því að nota breytuna **Param("EntityId")**. Að auki mun núgildandi lögaðili frá og með útgáfu 10.0.19 einnig vera sendur til vinnusvæðaforritsins í gegnum breytuna **Param(„cmp“)**. 
+Þegar þú smíðar strigaforrit sem verður fellt inn í Finance and Operations app, er einn mikilvægur hluti af ferlinu að nota inntaksgögnin úr því Finance and Operations appi. Frá Power Apps þróunarreynslu er hægt að nálgast inntaksgögnin sem eru send frá Finance and Operations app með því að nota **Param("EntityId")** breytilegt. Að auki mun núgildandi lögaðili frá og með útgáfu 10.0.19 einnig vera sendur til vinnusvæðaforritsins í gegnum breytuna **Param(„cmp“)**. 
 
-Til dæmis, í OnStart aðgerðinni í forritinu getur þú stillt inntaksgögnin úr forritum Finance and Operations sem í breytu eins og þessa:
+Til dæmis, í OnStart aðgerð appsins, gætirðu stillt inntaksgögn frá Finance and Operations forritum á breytu eins og þessa:
 
 ``` Power Apps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
@@ -123,7 +125,7 @@ If(!IsBlank(Param("cmp")), Set(FinOpsLegalEntity, Param("cmp")), Set(FinOpsLegal
 
 ## <a name="viewing-a-canvas-app"></a>Vinnusvæðaforrit skoðað
 
-Til að skoða innfellt vinnusvæðaforrit á síðu í Finance and Operations-forritum skal einfaldlega fara á síðu sem er með innfellt forrit. Munið að hægt er að opna forrit með því að nota hnappinn **Power Apps** á staðlaða aðgerðasvæðinu. Að öðrum kosti geta þær birst beint á síðunni sem nýr flipi eða flýtiflipi eða blað eða sem nýr hluti á vinnusvæði. Þegar notendur reyna fyrst að hlaða forriti á síðu verða þeir beðnir um að skrá sig inn. Þetta skref tryggir að notendur hafi viðeigandi heimildir til að nota forritið.
+Til að skoða innfellt strigaforrit á síðu í Finance and Operations forritum, farðu bara á síðu sem hefur innfellt app. Munið að hægt er að opna forrit með því að nota hnappinn **Power Apps** á staðlaða aðgerðasvæðinu. Að öðrum kosti geta þær birst beint á síðunni sem nýr flipi eða flýtiflipi eða blað eða sem nýr hluti á vinnusvæði. Þegar notendur reyna fyrst að hlaða forriti á síðu verða þeir beðnir um að skrá sig inn. Þetta skref tryggir að notendur hafi viðeigandi heimildir til að nota forritið.
 
 ## <a name="editing-an-embedded-app"></a>Breyta innfelldu forriti
 

@@ -2,28 +2,30 @@
 title: Undanþágustaða starfs
 description: Þetta efnisatriði lýsir valmöguleika undanþágustöðu starfs fyrir Dynamics 365 Human Resources.
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0cd6ffc01793c8ff12e36175c7c9feaf8a4b3cdf
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
-ms.translationtype: HT
+ms.openlocfilehash: 29d3c4fd37a219b520172c6866c5fec488c698f7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125570"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8064992"
 ---
 # <a name="job-exempt-status"></a>Undanþágustaða starfs
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Þetta efnisatriði lýsir valmöguleika undanþágustöðu starfs fyrir Dynamics 365 Human Resources.
 
@@ -41,3 +43,6 @@ Raunlægt heiti: cdm_jobexemptstatus
 
 [Leiðbeiningar um API-samþættingu á rakningakerfi umsækjanda](hr-admin-integration-ats-api-introduction.md)<br>
 [Dæmi um fyrirspurn fyrir ráðningarbeiðni](hr-admin-integration-ats-api-recruiting-request-example-query.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

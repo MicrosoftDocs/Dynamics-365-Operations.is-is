@@ -2,11 +2,9 @@
 title: Skilgreina vildarpunkta smásölu
 description: Þetta ferli fer í gegnum skilgreina vildarpunkta.
 author: scott-tucker
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailLoyaltyRewardPoints
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3bb190e720e5040d446d75a2e8c39cb360019d42
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 509db13f1bae9f41537a5d91aeba862ed2e4291d72739e83e22fb860791d6355
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256878"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738673"
 ---
 # <a name="define-loyalty-reward-points"></a>Skilgreina vildarpunkta smásölu
 

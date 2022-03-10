@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5a65f1884ea87bbf2519cc94e4c52a40ac1a91bd
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
-ms.translationtype: HT
+ms.openlocfilehash: c2a35079f43b92b5ff6d68aa7068f3e1f68ce8c2c32d23cdd22798f95c9a0ff4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193978"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732226"
 ---
 # <a name="enter-skills"></a>Slá inn hæfni
 
@@ -45,17 +45,17 @@ Til að slá inn færni án þess að þurfa samþykki þarf að stofna verkflæ
 
 4. Á svæðinu **Stofna verkflæði** skal velja **Hæfni starfsmanns**.
 
-   [![Velja verkflæði starfsmannahæfni](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
+   [![Velja verkflæði starfsmannahæfni.](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
 
 5. Í glugganum **Opna þessa skrá?** skal velja **Opna**. Þegar beðið um skal færa inn innskráningarupplýsingar.
 
 6. Í verkflæðisritlinum skal velja verkflæðiseininguna **Samþykkja hæfni** og færa hana yfir á vinnusvæðið.
 
-   [![Velja verkflæðiseiningu fyrir samþykkt hæfni](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
+   [![Velja verkflæðiseiningu fyrir samþykkt hæfni.](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
 
 7. Tengið eininguna **Hefja** við eininguna **Samþykkja hæfni 1** og tengið síðan eininguna **Samþykkja hæfni 1** við eininguna **Ljúka**. Hugsanlega þarf að fletta niður til að sjá eininguna **Ljúka**. Hægt er að draga hana nær öðrum einingum.
 
-   [![Tengja verkflæðiseiningar](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
+   [![Tengja verkflæðiseiningar.](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
 
 8. Tvísmellið á verkflæðiseininguna **Samþykkja hæfni 1** og hægrismellið síðan á eininguna **Skref 1**. Hægrismellið á eininguna **Skref 1** og veljið síðan **Eiginleikar**.
 
@@ -65,7 +65,7 @@ Til að slá inn færni án þess að þurfa samþykki þarf að stofna verkflæ
 
 11. Veljið **Bæta við skilyrði**. Eftir **Hvar** skal velja **Hæfni í sjálfsafgreiðslu starfsmanns** og síðan velja **Hæfni í sjálfsafgreiðslu starfsmanns.Einstaklingur**. Eftir **er** skal velja **reit** og síðan velja **Tengsl notanda við einstakling.Einstaklingur**.
 
-    [![Tilgreina skilyrði](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
+    [![Tilgreina skilyrði.](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
 
 12. Veljið **Úthlutun** á yfirlitsstikunni vinstra megin.
 
@@ -73,7 +73,7 @@ Til að slá inn færni án þess að þurfa samþykki þarf að stofna verkflæ
 
 14. Í flipanum **Stigveldisval**, í reitnum **Gerð stigveldis:** skal velja **Stjórnendastigveldi**.
 
-    [![Tilgreina stjórnendastigveldi](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
+    [![Tilgreina stjórnendastigveldi.](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
 
 15. Veljið **Loka**, veljið **Verkflæði** í brauðmylsnuvinnusvæðinu og veljið því næst **Vista og loka**.
 

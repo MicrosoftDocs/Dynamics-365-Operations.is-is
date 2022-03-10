@@ -1,13 +1,13 @@
 ---
 title: Leiðir og aðgerðir
 description: Þessi efnisatriði gefur upplýsingar um leiðir og aðgerðir.
-author: sorenva
+author: johanhoffmann
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable, ProdRouteJob, ProdRouteTrans, ProdRouteOverview, ProdRouteJobOverview, ProdRouteJobListPagePreviewPane, RouteTable, RouteVersionFeasibility, ProdRouteJobCurrent, RouteGroup, RouteProductionOrder, EngChgCaseRouteTablePart, EcoResProductProdTypeFormulaNoActiveRouteFormPart,
-ms.author: sorenand
+ms.author: johanho
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 268124
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
-ms.translationtype: HT
+ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
+ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188935"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7891954"
 ---
 # <a name="routes-and-operations"></a>Leiðir og virkni
 
@@ -45,7 +45,7 @@ Leið lýsir þeirri röð aðgerða sem er notuð til að framleiða afurð eð
 
 Einföld leið er raðbundin og er aðeins einn byrjunarreitur fyrir leiðina.  
 
-[![Einföld leið](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Einföld leið.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 Ef aðeins einfaldar leiðir eru virkjaðar í færibreytum Framleiðslustýringar, myndar Supply Chain Management sjálfkrafa aðgerðanúmer (10, 20, 30, o.s.frv) þegar þú skilgreinir leið.
 
@@ -53,7 +53,7 @@ Ef aðeins einfaldar leiðir eru virkjaðar í færibreytum Framleiðslustýring
 
 Ef flóknari leiðanet eru virkjuð í færibreytum framleiðslustýringar, er hægt að skilgreina leiðir sem hafa marga upphafspunkta og aðgerðir sem hægt er að keyra samhliða.  
 
-[![Leiðanet](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Leiðarnet.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - Hver aðgerð getur aðeins haft eina arftakaaðgerð og allri leiðinni þarf að ljúka í einni aðgerð.
@@ -64,7 +64,7 @@ Ef flóknari leiðanet eru virkjuð í færibreytum framleiðslustýringar, er h
 
 Stundum er samsetningar margra rekstrartilfönga sem hafa mismunandi eiginleika krafist til að framkvæma aðgerð. Til dæmis getur samsetning aðgerða útheimt vél, verkfæri og einn starfsmann fyrir hverjar tvær vélar til að hafa umsjón með aðgerðinni. Þetta dæmi er hægt að setja upp í líkan með því að nota samhliða aðgerðir þar sem ein aðgerð er skráð sem aðalaðgerðin og hinar eru aukaáherslu.  
 
-[![Leið sem hefur aðal-og aukaaðgerðir](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Leið sem hefur aðal- og aukaaðgerðir.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 Yfirleitt stendur aðalaðgerðin fyrir tilfangaflöskuháls og ákvarðar keyrslutíma fyrir aukaaðgerðir. Hins vegar við röðun sem felur í sér takmarkaðra getu, verða tilföng sem eru áætluð fyrir bæði aðalaðgerðina og aukaaðgerðir að vera tiltæk og hafa frjálsa afkastagetu á sama tíma.  
 
@@ -223,7 +223,7 @@ Ef þú tilgreinir einnig tilfangaþarfir hvað varðar hæfni og getu og gerir 
 Ef þú tilgreininr ekki rekstrartilfang eða tilfangaflokkur sem hluta af tilfangaþörfum fyrir aðgerð, gætu viðeigandi tilföng unnið á mismunandi kerfishraða. Þess vegna er tíminn sem þarf til að vinna úr aðgerð mismunandi. Til að leysa þetta vandamál er hægt að nota svæðið **Formúlu** í aðgerðavenslum til að tilgreina hvernig vinnslutími er reiknaður. Eftirtaldir valkostir eru í boði:
 
 - **Stöðluð** – (Sjálfgefinn valkostur) útreikningurinn notar aðeins svæði úr aðgerðavenslum og margfaldar tilgreinda keyrslutíma með pöntunarmagni.
-- **Afkastageta** – útreikningurinn inniheldur svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn tilfanga-háður. Gildið sem tilgreint er á aðgerðum tilfanga er afkastageta á klukkustund. **Vinnslutíminn** er reiknaður sem **Pöntunarmagn** deilt með **Afkastageta**.
+- **Afkastageta** – útreikningurinn inniheldur svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn tilfanga-háður. Gildið sem tilgreint er á aðgerðum tilfanga er afkastageta á klukkustund. **Vinnslutíminn** er reiknaður sem **Pöntunarmagn** deilt með **Afkastageta**. Getugildið er ekki sérstakt fyrir tiltekna mælieiningu og er því ekki umreiknað út frá **Stærðareining** reit, sem er bara lýsandi reitur sem er ekki notaður í útreikningum.
 - **Runa** – afkastagetu í runu er reiknað með því að nota upplýsingar úr aðgerðavenslum. Fjöldi runa og vinnslutími má síðan reikna út frá pöntunarmagninu.
 - **Tilfangaruna** – Þessi valkostur er nokkurn veginn eins og í **Runu** valkost. Hins vegar inniheldur útreikningurinn svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn háður tilföngum.
 

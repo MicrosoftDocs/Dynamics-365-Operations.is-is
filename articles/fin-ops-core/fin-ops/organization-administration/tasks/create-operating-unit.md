@@ -2,7 +2,6 @@
 title: Stofna rekstrareiningu
 description: Rekstrareining er fyrirtæki sem er notað til að skipta stýringu verðmæta og rekstrarferlis í viðskiptum.
 author: sericks007
-manager: AnnBe
 ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a99260cdc3ad5aa5a963cc27093984d22af669f
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: dcfcd64ae24297c8e11f36629490ebe7cd063de53c717559e1b73743ccc61664
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560604"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758994"
 ---
 # <a name="create-an-operating-unit"></a>Stofna rekstrareiningu
 

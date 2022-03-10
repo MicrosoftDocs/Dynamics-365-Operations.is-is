@@ -7,26 +7,29 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c043ac9c19a810d1718f0d4907cd5e9d651d778f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
-ms.translationtype: HT
+ms.openlocfilehash: e16c781a6e51c57db8ae76dcfe0d28ec709428eb
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055293"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069933"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Leiðbeiningar um API-samþættingu á rakningakerfi umsækjanda
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Í þessu efnisatriði er API-samþættingu Dynamics 365 Human Resources rakningakerfis umsækjanda (ATS) lýst. Ætlun API er að virkja einfalda samþættingu milli Dynamics 365 Human Resources og ATS samstarfsaðila.
 
-![Samþættingarferli ATS](media/hr-admin-integration-ats-api-introduction-flow.png)
+![Samþættingarferli ATS.](media/hr-admin-integration-ats-api-introduction-flow.png)
 
 Samþætta upplifunin hefst í Human Resources þegar ráðningarstjóri stofnar ráðningarbeiðni. Þegar beiðnin er virkjuð sækir ATS upplýsingar um beiðnina til að búa til ráðningarverk. Síðan fylgir það ráðningarlínunni til að velja og ráða umsækjanda fyrir stöðuna/stöðurnar. Að lokum lýkur ATS samþættingarferlinu með því að senda valda færslu umsækjanda inn í Human Resources. Færsla umsækjanda getur þá farið í gegnum fleiri villuleitir innleiðingar og verkferla til að búa til starfsmannsfærsluna.
 
@@ -69,7 +72,7 @@ Gagnalíkanið miðast við tvær aðaleiningar:
 
 Eftirfarandi skýringarmynd sýnir vensl innan API. Nokkrar gerðir eru með ytri lykla fyrir aðrar fyrirliggjandi einingar í Human Resources sem ekki eru sýndar hér. Í þessu skjali eru upplýsingar um einingar sem eiga sérstaklega við samþættingaraðstæður ráðningar. Hins vegar eru margar aðrar einingar í Dataverse vef-API fyrir Dynamics 365 Human Resources sem kunna einnig að skipta máli fyrir samþættingu þína. Til dæmis gæti einnig þurft upplýsingar fyrir starfsmenn, störf, stöður eða aðrar einingar sem ekki eru skilgreindar hér. Vísað er í margar þessara eininga í tengslum ytri lykla eða skoðunareiginleikum.
 
-![Gagnalíkan API-samþættingar ATS](media/hr-admin-integration-ats-api-data-model.png)
+![Gagnalíkan API-samþættingar ATS.](media/hr-admin-integration-ats-api-data-model.png)
 
 ## <a name="recruiting-request-and-related-entities-and-option-sets"></a>Ráðningarbeiðni og tengdar einingar og söfn valkosta
 

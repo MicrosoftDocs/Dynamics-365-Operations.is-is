@@ -2,28 +2,30 @@
 title: Færni í ráðningarbeiðni
 description: Þetta efnisatriði lýsir einingu fyrir hæfni í ráðningarbeiðni fyrir Dynamics 365 Human Resources.
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83a9956b9aa820e8aca9bf6b2ab920a45c1061f6
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
-ms.translationtype: HT
+ms.openlocfilehash: 245b9a1ff4f140b9288b79c70820204f3082568b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5126003"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068610"
 ---
 # <a name="recruiting-request-skill"></a>Færni í ráðningarbeiðni
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Þetta efnisatriði lýsir einingu fyrir hæfni í ráðningarbeiðni fyrir Dynamics 365 Human Resources.
 
@@ -77,3 +79,6 @@ Lýsir hæfnikröfum fyrir RecruitingRequest.
 
 [Leiðbeiningar um API-samþættingu á rakningakerfi umsækjanda](hr-admin-integration-ats-api-introduction.md)<br>
 [Dæmi um fyrirspurn fyrir ráðningarbeiðni](hr-admin-integration-ats-api-recruiting-request-example-query.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

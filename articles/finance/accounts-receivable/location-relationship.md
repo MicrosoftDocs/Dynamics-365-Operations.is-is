@@ -2,11 +2,9 @@
 title: Bæta við tengslagerðum staðsetningar og aðila
 description: Þetta efnisatriði útskýrir hvernig á að bæta við nýjum tengslagerðum fyrir staðsetningar og aðila.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 00810576d36339bf7ce0657b1577e1e322c36bf0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: a69ace892c55948305419a089cb91ac5b1e3c066177f8ce2ca441f1dd01c2af0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979090"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728866"
 ---
 # <a name="add-location-and-party-relationship-types"></a>Bæta við tengslagerðum staðsetningar og aðila 
 
@@ -34,25 +32,25 @@ ms.locfileid: "4979090"
 
 -  Bæta þeim við í gegnum síðuna **Málefni aðseturs og tengslaupplýsinga**. Nýja hlutverkið verður vistað í töflunni **LogisticsLocationRole** með gerðinni = 0, sem gefur til kynna að hlutverkið sé ekki kerfishlutverk sem er skilgreint í fasttextanum **LogisticsLocationRoleType** og viðbótum hans. Notandi getur notað þetta hlutverk þegar hann býr til aðseturs- eða tengslaupplýsingar.
 
-    ![Málefni aðseturs- og innihaldsupplýsinga](media/Address-Contact.PNG)
+    ![Málefni aðseturs- og innihaldsupplýsinga.](media/Address-Contact.PNG)
 
 -  Bæta þeim við viðbót fasttextans **LogisticsLocationRoleType** og leyfa útfyllingu í gegnum f fylla í gegnum samstillingarferli gagnagrunns.
 
     1.  Búa til viðbót við fasttextann **LogisticsLocationRoleType** og bæta nýja hlutverkinu við viðbótina. 
   
-        ![Viðbót við LogisticsLocationRoleType enum](media/Logistics.PNG)
+        ![Viðbót við LogisticsLocationRoleType fasttexta.](media/Logistics.PNG)
 
     2. Búa til nýja tilfangaskrá fyrir nýja hlutverkið og úthluta síðan gildi fyrir eiginleika hennar.
      
-     ![Ný tilfangaskrá](media/Resource.PNG)
+     ![Ný tilfangaskrá.](media/Resource.PNG)
         
     3.  Búa til fyllingaklasa fyrir gögn og útvega rekilaðferð til að fylla út í nýja hlutverkið. 
 
-        ![Gagnafylling](media/Dirdata.PNG)
+        ![Gagnafylling.](media/Dirdata.PNG)
 
     4.  Til að prófa að fylla nýja staðsetningarhlutverkið geturðu búið til keyranlegan klasa og kallað í DirDataPopulation::insertLogisticsLocationRoles() in Main(). Eftir að þessu ferli er lokið ættir þú að sjá nýja hlutverkið sem er fyllt út í töflunni **LogisticsLocationRole** með gerðinni \> 0. Nýja hlutverkið mun birtast á síðunni **Málefni aðseturs- og tengslaupplýsinga**.
 
-        ![Setja inn nýja staðsetningu](media/InsertNewLocation.PNG)
+        ![Setja inn nýja staðsetningu.](media/InsertNewLocation.PNG)
 
 ## <a name="add-party-relationship-types"></a>Bæta við aðilatengslagerðum 
 
@@ -60,7 +58,7 @@ ms.locfileid: "4979090"
 
 -   Bæta henni við í gegnum síðuna **Tengslagerðir**. Nýju tengslin verða vistuð í **DirRelationshipTypeTable** með systemtype = 0.
 
-    ![Gerðir tengsla](media/Relationship.PNG)
+    ![Gerðir tengsla.](media/Relationship.PNG)
 
 -  Bæta þeim við viðbót fasttextans **DirSystemRelationshipType** og láta þeim að fylla í gegnum samstillingarferli gagnagrunns.
 
@@ -68,8 +66,11 @@ ms.locfileid: "4979090"
 
     2. Stofna frumstillingu fyrir þessa nýja gerð. Þú getur fundið nokkur dæmi í kjarnakóðanum, einn þeirra er **DirRelationshipTypeChildInitialize**. Þetta er frumstillingarklasi fyrir aðilatengslagerðina "undireining". Þú getur byrjað með frumstillinguna þína með því að afrita og líma þennan kóða og uppfæra síðan merktu svæðin.
     
-    ![DirRelationshipChild frumstilling](media/DirRelationship.PNG)
+    ![DirRelationshipChild frumstilling.](media/DirRelationship.PNG)
 
     3.  Til að prófa að fylla nýju tengslagerðina er hægt að stofna keyranlegan klasa og kalla í DirDataPopulation::insertDirRelationshipTypes() in Main(). Þú ættir að sjá nýju tengslagerðina í **DirRelationshipTypeTable** og nýja tengslagerðin verður aðgengileg á síðunni **Tengslagerðir**.
 
-        ![Keyranlegur klasi](media/Runnable.PNG)
+        ![Keyranlegur klasi.](media/Runnable.PNG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 4a77b157e9dd5ee1f551cbb59abbc89aaa28d325cc74a77e6624f25902c5b19e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731890"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471693"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Vöruhúsapantanir fyrir einingakvarða skýja og jaðra
 
@@ -27,16 +27,18 @@ ms.locfileid: "6731890"
 
 ## <a name="what-are-warehouse-orders"></a>Hvað eru vöruhúsapantanir?
 
-*Vöruhúsapantanir* eru gerð pöntunar sem var stofnuð til að styðja uppsetningar á vöruhúsum miðstöðvar og einingarkvarða. Þær gera kleift að taka á móti birgðum þegar vinnuálag vöruhúss er keyrt í einingarkvarða. Þær eru aðeins notaðar með innkaupapöntunum.
+*Vöruhúsapantanir* eru gerð pöntunar sem er notuð til að styðja uppsetningar á vöruhúsum miðstöðvar og einingarkvarða. Þær gera kleift að taka á móti og senda birgðir þegar vinnuálag vöruhúss er keyrt í einingarkvarða.
 
-Vöruhúsapantanir eru notaðar sem hluti af vinnslu vöruhúsakerfis, t.d. þegar farsímaforrit vöruhúsakerfis er notað til að skrá efnislegar lagerbirgðir við vinnslu á innkaupapöntun á innleið. Vöruhúsapantanir eru stofnaðar sem hluti af ferlinu *Losa í vöruhús* sem er í boði fyrir innkaupapantanir sem tilgreina vöruhús einingarkvarða og vörur sem gert er kleift að nota vöruhúsakerfisferli.
+Vöruhúsapantanir eru notaðar sem hluti af bæði úrvinnslu vöruhúsakerfis á innleið og útleið. Þær eru stofnaðar sem hluti af ferlinu *Losa í vöruhús* sem verður frumstillt í miðstöðinni.
+Fyrir úrvinnslu á innleið er fartækjaforrit vöruhúss notað til að skrá efnislegar lagerbirgðir við úrvinnslu á pöntunum á innleið, þetta er í boði fyrir innkaupa- og framleiðslupantanir sem tilgreina vöruhús einingakvarða og atriði sem eru virkjuð til að nota vöruhúsakerfisferla.
+Vöruhúsapantanir á útleið eru notaðar sem hluti af bylgjuferli sendingar fyrir flutnings- og sölupantanir.
 
 > [!IMPORTANT]
 > Vöruhúsapantanir eru aðeins í boði í uppsetningum sem nota [Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra](cloud-edge-workload-warehousing.md).
 
-## <a name="create-a-warehouse-order"></a>Stofna vöruhúsapöntun
+## <a name="create-an-inbound-warehouse-order"></a>Stofna vöruhúsapöntun á innleið
 
-Til að stofna vöruhúsapöntun, skal fylgja eftirfarandi skrefum.
+Til að stofna vöruhúsapöntun á innleið fyrir ferli innkaupapöntunar skal fylgja þessum skrefum.
 
 1. Skráðu þig inn í tilvikið af Microsoft Dynamics 365 Supply Chain Management sem keyrir á miðstöðinni. (Nauðsynlegt er að hefja ferlið *Losa í vöruhús* meðan notandi er innskráður í miðstöðina.)
 1. Farðu í **Innkaup og aðföng \> Innkaupapantanir \> Allar innkaupapantanir**.
