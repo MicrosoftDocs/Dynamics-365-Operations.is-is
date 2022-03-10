@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1297f405e57c2de4f42f05f78ef52b2d763f0f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: bbf93f5b8b2f8d95102a52178b096d7e334894483c0ac0bacc62653aea845022
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821986"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744307"
 ---
 # <a name="audit-policy-rules"></a>Reglur endurskoðunarstefnu
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821986"
 
 Hægt er að nota endurskoðunarreglur til að meta kostnaðarskýrslur, reikninga lánardrottna og innkaupapantanir til að tryggja að þeir samræmast stefnureglur sem eru stofnaðar. Allar reglur sem eru tengd við endurskoðunarstefnu eru rekin í runuham, samkvæmt áætlun sem þú tilgreinir.  Hver stefnuregla er tilvik af stefnureglugerð. Fyrir hverja stefnureglugerð aðeins einn stefnureglu getur verið virk í einu. 
 
-<a name="queries-and-query-types"></a>Fyrirspurnir og gerðir fyrirspurna
------------------------
+## <a name="queries-and-query-types"></a>Fyrirspurnir og gerðir fyrirspurna
 
 Þegar regla endurskoðunarstefnu er stofnuð þarf fyrst að velja stefnureglugerð. Gerð reglu tilgreinir fyrirspurn Hugbúnaðarhlutatrénu (AOT) til að nota sem upphafspunkt fyrir þá reglu. Það skilgreinir einnig fyrirspurn ferðar til nota fyrir stefnureglu. Fyrirspurnin ákvarðar upprunaskjalið sem metur síðan til stefnuregluna. Það skilgreinir einnig reiti í upprunaskjali sem auðkenna bæði lögaðila og dagsetningu til að nota þegar skjöl eru valin til endurskoðunar. Gerð fyrirspurnar stýrir sjálfgefið svæði í fyrirspurnarskjámynd og í síðunni regla endurskoðunarstefnu. Eftirfarandi tafla sýnir gerðir fyrirspurn sem er tiltækt fyrir reglur endurskoðunarstefnu.
 
@@ -91,8 +90,7 @@ Allar stefnureglur um tiltekna endurskoðunarstefnu deila sömu runufæribreytum
 
 
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Brot á endurskoðunarstefnu og tilvik](audit-policy-violations-cases.md)
 [Skilgreina endurskoðunarstefnu fyrir upprunaskjöl](tasks/define-audit-policies-source-documents.md)

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: a8722adfe410f15bc379f9b550f0618c881f067d
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
-ms.translationtype: HT
+ms.openlocfilehash: b69fa378539e39053b6f7066ba4b6ae9984157c9bdc4f38b78de4c062c04ad09
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920830"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746538"
 ---
 # <a name="process-automation"></a>Sjálfvirkni ferlis
 
@@ -36,7 +36,7 @@ Síða stjórnunarmiðstöðvar fyrir alla sjálfvirkni ferla finnst kerfisstjó
 
 Einn af helstu kostum þess að gera feril sjálfvirkan er möguleikinn á því að sjá áætlaða vinnu í einföldu dagatalsyfirliti.  Þetta yfirlit gerir þér kleift að sjá vinnu eina viku í senn. Þú munt sjá þetta yfirlit hægra megin á síðunni **Sjálfvirkni ferlis**. Fyllt verður út í hana með áætlaðri vinnu fyrir valdar raðir. 
 
-[![Dagatal sjálfvirkni ferlis](./media/CalendarView2.png)](./media/CalendarView2.png)
+[![Dagatal sjálfvirkni ferlis.](./media/CalendarView2.png)](./media/CalendarView2.png)
 
 ## <a name="occurrence-changes"></a>Breytingar á tilviki
 

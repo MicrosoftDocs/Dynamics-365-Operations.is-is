@@ -1,7 +1,7 @@
 ---
 title: Setja upp hættuleg efni
 description: Þetta efnisatriði útskýrir hvernig á að setja upp gögn sem þarf til að flokka vörur sem hættuleg efni. Þegar stofnuð er sölupöntun sem inniheldur vöru sem flokkast sem hættulegt efni, býr kerfið til fylgigögn um hættuleg efni fyrir þessa sölupöntun þegar hún er send.
-author: dasani-madipalli
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: c360d6a0fd5ffb65d1ea50d50e1ea5de00c84abe72e83c72b9bc4d6826cb41d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 6923bd24fc8f9aad6e758603e3b20f7d5f2b8fde
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712983"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778010"
 ---
 # <a name="set-up-hazardous-materials"></a>Setja upp hættuleg efni
 
@@ -27,7 +27,7 @@ Til að nota virkni hættulegra efna þarf fyrst að setja upp gögnin sem nauð
 
 ## <a name="turn-on-the-hazardous-materials-feature-for-your-system"></a>Kveikja á eiginleika hættulegra efna fyrir kerfið
 
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta notað [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) síðu til að athuga stöðu eiginleika og virkja eða slökkva á honum ef þörf krefur. Hérna er eiginleikinn skráður sem:
 
 - **Eining:** *Afurðaupplýsingastjórnun*
 - **Heiti eiginleika:** *Afurðarlýsingar og fylgigögn sendingar fyrir hættuleg efni*
@@ -100,7 +100,7 @@ Eftirfarandi tafla lýsir svæðinu sem er tiltækt í flýtiflipanum **Land**.
 |---|---|
 | Land/svæði | Veljið land/svæði til að tengja við reglugerðina. |
 
-## <a name="material-codes"></a><a name="hazmat-codes"></a>Efniskóðar
+## <a name="material-codes"></a><a name="hazmat-codes"></a> Efniskóðar
 
 Efniskóðar setja á stillingar sem tengjast tilteknum hættulegum efnisþætti sem kann að vera hluti af útgefinni afurð. Hver efniskóði tilheyrir ákveðinni reglugerð um hættuleg efni og skilgreining hans verður að samræmast reglugerðinni. Þegar efniskóði er notaður á útgefna afurð með því að nota reitinn **Efniskóði**, eru stillingar á efniskóða hættulegra efna sjálfkrafa notaðar fyrir þessa afurð. Þess vegna er ferlið við að setja upp útgefnar afurðir hraðara og minni hætta á villum.
 
@@ -115,7 +115,7 @@ Til að stjórna skilgreiningum á hættulegum efnum skal fylgja þessum skrefum
 
 5. Nota skal eftirstandandi reiti á þessari síðu til að búa til og setja upp sérhvert hættulegt efni sem gildir um valda reglugerð. Svæðin sem eru í boði heyra undir svæði hættulegra efna sem eru tiltæk fyrir einstakar útgefnar afurðir. Frekari upplýsingar er að finna í [Hættuleg efni í afurðum, pöntunum, sendingum og förmum](hazmat-items.md).
 
-## <a name="hazardous-material-classification-groups"></a><a name="classification-groups"></a>Flokkunarhópar hættulegra efna
+## <a name="hazardous-material-classification-groups"></a><a name="classification-groups"></a> Flokkunarhópar hættulegra efna
 
 Sérhver flokkunarhópur hættulegs efnis skilgreinir hóp af reitargildum sem búa til sniðmát. Hægt er að nota þetta sniðmát síðar þegar upplýsingar um hættuleg efni eru sett upp fyrir losaða vöru.
 
@@ -135,7 +135,7 @@ Til að setja upp flokkunarhóp hættulegra efna skal fara í **Afurðaupplýsin
 | Flutningsflokkakóði | Tengið [flutningsflokkskóða](#transport-category) við hópinn. |
 | Margfaldari | Sláið inn þann margfaldara hættulegra efna sem á við um valdan klasa og svið hættulegra efna samkvæmt viðeigandi reglugerð. Þessi margfaldari er notaður sem hluti af formúlunni sem reiknar út samtölu *stiga hættulegra efna* sem er tekin með í farm eða sendingu. Frekari upplýsingar um stig hættulegra efna og margfaldara þeirra er að finna í [Flýtiflipa fyrir stjórnun efna](hazmat-items.md#material-management). |
 
-## <a name="hazardous-material-classes"></a><a name="classes"></a>Klasar fyrir hættuleg efni
+## <a name="hazardous-material-classes"></a><a name="classes"></a> Klasar fyrir hættuleg efni
 
 Klasi hættulegra efna er yfirleitt varpað í lista yfir klasa sem gefinn er upp í reglugerðinni sem fylgt er eftir. Til dæmis gefur bandarísk reglugerð CFR 49 „klasa 3“ upp sem eldfima og sprengifima vökva. Hægt er að setja upp klasana sem tengjast þeim efnum sem þarf að flokka.
 
@@ -156,7 +156,7 @@ Til að setja upp klasa hættulegra efna skal fara í **Afurðaupplýsingastjór
 | Klasakóði | Færa skal inn kóða sem auðkennir þennan klasa. Skilgreina þarf þennan kóða fyrir vöruna. Hann verður síðan notaður í uppflettilistum þegar klasa hættulegra efna er úthlutað á losaða vöru. |
 | lýsing | Færið inn lýsingu á klasanum. |
 
-## <a name="hazardous-material-divisions"></a><a name="divisions"></a>Svið hættulegra efna
+## <a name="hazardous-material-divisions"></a><a name="divisions"></a> Svið hættulegra efna
 
 Svið hættulegra efna heyrir undir klasa hættulegra efna. Úthluta verður bæði deiliflokki og klasa á sérhverja afurð sem inniheldur hættuleg efni.
 
@@ -178,7 +178,7 @@ Til að setja upp svið hættulegra efna skal fara í **Afurðaupplýsingastjór
 | lýsing | Færðu inn lýsingu á sviðinu. |
 | Klasi | Flettið upp og úthlutið klasanum sem sviðið tilheyrir. |
 
-## <a name="hazardous-material-compatibility-groups"></a><a name="compatibility-groups"></a>Samhæfisflokkar hættulegra efna
+## <a name="hazardous-material-compatibility-groups"></a><a name="compatibility-groups"></a> Samhæfisflokkar hættulegra efna
 
 Samhæfisflokkar hættulegra efna gefa upp hvaða klasa og svið hættulegra efna er hægt að senda saman. Þegar notendur búa til farma eða sendingar í vöruhúsi, geta þeir keyrt samhæfisathugun sem gefur út viðvörun ef farmurinn eða sendingin inniheldur vörur sem tilheyra ekki sama samhæfingarflokknum.
 
@@ -220,7 +220,7 @@ Forskriftin *Neyðaráætlun fyrir hættuleg efni* segir til um hvað skuli gera
 
 Til að setja upp gildi fyrir þessa forskrift skal fara í **Afurðaupplýsingastjórnun \> Uppsetning \> Fylgiskjöl fyrir sendingu hættulegra efna \> Neyðaráætlun fyrir hættuleg efni**. Á síðunni **Neyðaráætlun fyrir hættuleg efni** er hægt að búa til eins mörg gildi og þarf og skilgreina hvert þeirra með auðkennandi kóða og stuttri lýsingu.
 
-### <a name="hazardous-material-identification"></a><a name="identification"></a>Auðkenning hættulegra efna
+### <a name="hazardous-material-identification"></a><a name="identification"></a> Auðkenning hættulegra efna
 
 Forskriftin *Auðkenning hættulegra efna* tilgreinir klasann eða hættuna sem stafar af efninu. Gildið er yfirleitt kóði sem byggir á staðli Sameinuðu þjóðanna (SÞ). Hver klasi er auðkenndur með kóða og lýsingu og hann getur sett takmörk á flutningsmáta. Til að auðkenna eldfima vöru eða efni þarf til dæmis að búa til klasa hættulegra efna sem notar kóðann *FL* og lýsinguna *Eldfimt*. Einnig er tilgreint að ekki megi flytja klasann flugleiðis.
 
@@ -233,49 +233,49 @@ Til að setja upp gildi fyrir þessa forskrift skal fara í **Afurðaupplýsinga
 | Loka á flutning í lofti | Veljið þennan gátreit til að gefa til kynna að ekki eigi að flytja þennan klasa af hættulegum efnum í lofti. |
 | Loka á flutning á sjó | Veljið þennan gátreit til að gefa til kynna að ekki eigi að flytja þennan klasa af hættulegum efnum á sjó. |
 
-### <a name="hazardous-material-label"></a><a name="label"></a>Merki fyrir hættuleg efni
+### <a name="hazardous-material-label"></a><a name="label"></a> Merki fyrir hættuleg efni
 
 Forskriftin *Merki fyrir hættuleg efni* tilgreinir merki hættulegs varnings sem setja verður á tilheyrandi útgefnar afurðir. Merkimiðarnir sjálfir lýsa því hvernig á að meðhöndla afurðina. Til dæmis er til afurð sem inniheldur eitrað gas. Í þessu tilviki er settur upp merkjakóði sem stendur fyrir merki eitraðs gass. Einnig eru viðskiptaferli byggt upp þannig að það leiti að þessu gildi þegar afurðir eru sendar.
 
 Til að setja upp gildi fyrir þessa forskrift skal fara í **Afurðaupplýsingastjórnun \> Uppsetning \> Fylgiskjöl fyrir sendingu hættulegra efna \> Merki fyrir hættuleg efni**. Á síðunni **Merki fyrir hættuleg efni** er hægt að búa til hvers kyns merkimiða og skilgreina hvern með auðkennandi kóða og stuttri lýsingu.
 
-### <a name="hazardous-material-packing-descriptions"></a><a name="packing-description"></a>Pökkunarlýsing hættulegra vara
+### <a name="hazardous-material-packing-descriptions"></a><a name="packing-description"></a> Pökkunarlýsing hættulegra vara
 
 Forskriftin *Pökkunarlýsingar hættulegra vara* tilgreinir hvernig skuli pakka hættulegu efni. Til dæmis gæti þurft að pakka því í sérstaka gerð af stáltunnu eða einhvers konar aðra sérpakkningu.
 
 Til að setja upp gildi fyrir þessa forskrift skal fara í **Afurðaupplýsingastjórnun \> Uppsetning \> Fylgiskjöl fyrir sendingu hættulegra efna \> Pökkunarlýsingar fyrir hættuleg efni**. Á síðunni **Pökkunarlýsingar hættulegra vara** er hægt að búa til eins margar pökkunarlýsingar og þarf og skilgreina hverja þeirra með auðkennandi kóða og stuttri lýsingu.
 
-### <a name="hazardous-material-packing-group"></a><a name="packing-group"></a>Pökkunarflokkur hættulegra efna
+### <a name="hazardous-material-packing-group"></a><a name="packing-group"></a> Pökkunarflokkur hættulegra efna
 
 Forskriftin *Pökkunarflokkur hættulegra efna* tilgreinir pökkunarflokkinn fyrir hættulegt efni. Pökkunarflokkurinn gerir kleift að skilgreina kóða og lýsingu til að gefa til kynna hvernig eigi að pakka inn hættulegum efnum við flutning eða sendingu. Pökkunarflokknum er úthlutað á vöruna í gegnum síðuna **Hættuleg efni vöru**.
 
 Til að setja upp gildi fyrir þessa forskrift skal fara í **Afurðaupplýsingastjórnun \> Uppsetning \> Fylgiskjöl fyrir sendingu hættulegra efna \> Pökkunarflokkur fyrir hættuleg efni**. Á síðunni **Pökkunarflokkur fyrir hættuleg efni** er hægt að búa til eins marga pökkunarflokka og þarf og skilgreina hvern þeirra með auðkennandi kóða og stuttri lýsingu.
 
-### <a name="hazardous-material-packing-instruction"></a><a name="packing-instruction"></a>Pökkunarleiðbeiningar hættulegra vara
+### <a name="hazardous-material-packing-instruction"></a><a name="packing-instruction"></a> Pökkunarleiðbeiningar hættulegra vara
 
 Forskriftin *Pökkunarleiðbeiningar hættulegra vara* tilgreinir pökkunarleiðbeiningar sem þarf að fylgja eftir þegar tiltekið hættulegt efni er undirbúið undir flutning loftleiðis.
 
 Til að setja upp gildi fyrir þessa forskrift skal fara í **Afurðaupplýsingastjórnun \> Uppsetning \> Fylgiskjöl fyrir sendingu hættulegra efna \> Pökkunarleiðbeiningar fyrir hættuleg efni**. Á síðunni **Pökkunarleiðbeiningar fyrir hættuleg efni** er hægt að búa til eins margar pökkunarleiðbeiningar og þarf og skilgreina hverja þeirra með auðkennandi kóða og stuttri lýsingu.
 
-### <a name="hazardous-material-stowage"></a><a name="stowage"></a>Hleðsla hættulegra efna
+### <a name="hazardous-material-stowage"></a><a name="stowage"></a> Hleðsla hættulegra efna
 
 Forskriftin *Hleðsla hættulegra efna* tilgreinir hvernig eigi að geyma afurð á skipi þegar hún er flutt sjóleiðis.
 
 Til að setja upp gildi fyrir þessa forskrift skal fara í **Afurðaupplýsingastjórnun \> Uppsetning \> Fylgiskjöl fyrir sendingu hættulegra efna \> Hleðsla fyrir hættuleg efni**. Á síðunni **Hleðsla fyrir hættuleg efni** er hægt að búa til eins margar hleðslumerkingar og þarf og skilgreina hverja þeirra með auðkennandi kóða og stuttri lýsingu.
 
-### <a name="hazardous-material-transport-category"></a><a name="transport-category"></a>Flutningsflokkur hættulegra efna
+### <a name="hazardous-material-transport-category"></a><a name="transport-category"></a> Flutningsflokkur hættulegra efna
 
 Forskriftin *Flutningsflokkur hættulegra efna* er yfirleitt notuð til að flokka saman svipaðar hættulegar afurðir í skýrslum. Til dæmis eru flutningsflokkar notaðir í skýrslunni **Samantekt sendingar** sem hægt er að prenta úr afhendingarfærslu vöruhúss.
 
 Til að setja upp gildi fyrir þessa forskrift skal fara í **Afurðaupplýsingastjórnun \> Uppsetning \> Fylgiskjöl fyrir sendingu hættulegra efna \> Flutningsflokkur hættulegra efna**. Á síðunni **Flutningsflokkur hættulegra efna** er hægt að búa til eins marga flutningsflokka og þarf og skilgreina hvern þeirra með birtingarnafni og stuttri lýsingu.
 
-### <a name="hazardous-material-technical-name"></a><a name="technical-name"></a>Tækniheiti hættulegra efna
+### <a name="hazardous-material-technical-name"></a><a name="technical-name"></a> Tækniheiti hættulegra efna
 
 Forskriftin *Tækniheiti hættulegra efna* er hægt að nota til að gefa upp almennt heiti eða heiti innan fyrirtækisins sem lýsir hverju efni fyrir sig.
 
 Til að setja upp gildi fyrir þessa forskrift skal fara í **Afurðaupplýsingastjórnun \> Uppsetning \> Fylgiskjöl fyrir sendingu hættulegra efna \> Tækniheiti hættulegra efna**. Á síðunni **Tækniheiti hættulegra efna** er hægt að búa til eins mörg tækniheit og þarf og skilgreina hvert þeirra með birtingarnafni og stuttri lýsingu.
 
-### <a name="hazardous-material-tunnel"></a><a name="tunnel"></a>Hættuleg efni í göngum
+### <a name="hazardous-material-tunnel"></a><a name="tunnel"></a> Hættuleg efni í göngum
 
 Forskriftin *Hættuleg efni í göngum* takmarkar gerðir ganga sem má flytja hættulegt efni í gegnum með því að gefa upp gangagerðirnar sem þarf að nota. Gangaflokkar eru settir á samkvæmt viðeigandi reglugerðum fyrir flutning á hættulegum efnum. Þessi skilgreining á yfirleitt aðeins við um flutning á vegum.
 

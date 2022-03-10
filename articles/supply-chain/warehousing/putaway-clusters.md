@@ -2,25 +2,22 @@
 title: Frágangsklasar
 description: Frágangsklasar bjóða upp á leið til að tína margar númeraplötur samtímis og ganga síðan frá þeim á mörgum staðsetningum. Þeir geta verið mjög gagnlegir fyrir smásölufyrirtæki þar sem númeraplötur eru yfirleitt ekki heil bretti af birgðum.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a330ddccbd17c92443232fc8488e36a59235773
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512331"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103664"
 ---
 # <a name="putaway-clusters"></a>Frágangsklasar
 
@@ -28,12 +25,9 @@ ms.locfileid: "4512331"
 
 Frágangsklasar bjóða upp á leið til að tína margar númeraplötur samtímis og ganga síðan frá þeim á mörgum staðsetningum. Þetta ferli er oft kallað *samflutningur*. Frágangsklasar geta verið mjög gagnlegir fyrir smásölufyrirtæki þar sem númeraplötur eru yfirleitt ekki heil bretti af birgðum. 
 
-## <a name="turn-on-the-cluster-putaway-feature"></a>Kveikja á eiginleika frágangsklasa
+## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Kveiktu eða slökktu á cluster putaway eiginleikanum
 
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
-
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Eiginleiki fyrir frágang klasa*
+Til að nota virknina sem lýst er í þessu efni, er *Cluster putaway lögun* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Cluster putaway lögun* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="setup-for-the-example-scenario"></a>Uppsetning fyrir dæmi um aðstæður
 
@@ -231,7 +225,7 @@ Bætið valmyndaratriðunum sem voru stofnuð við valmynd fyrir á innleið í 
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Taka við og raða birgðum í klasa
 
-1. Skráðu þig inn í vöruhúsaforritið sem notandi sem er virkjaður fyrir vöruhús *61*.
+1. Skráðu þig inn í farsímaforrit vöruhúsakerfis sem notandi sem er virkjaður fyrir vöruhús *61*.
 1. Í aðalvalmyndinni skal velja **Á innleið**.
 1. Í valmyndinni **Á innleið** skal velja **Taka á móti og raða klasa**.
 1. Í reitinn **Ponum** skal slá inn innkaupapöntunarnúmerið.
@@ -273,7 +267,7 @@ Bætið valmyndaratriðunum sem voru stofnuð við valmynd fyrir á innleið í 
 
 #### <a name="put-the-cluster-away"></a>Ganga frá klasa
 
-1. Skráðu þig inn í vöruhúsaforritið sem notandi sem er virkjaður fyrir vöruhús *61*.
+1. Skráðu þig inn í farsímaforrit vöruhúsakerfis sem notandi sem er virkjaður fyrir vöruhús *61*.
 1. Í aðalvalmyndinni skal velja **Á innleið**.
 1. Á valmyndinni **Á innleið** skal velja **Frágangur klasa**.
 1. Veljið **Klasakenni** og færið inn klasakennið sem var fært inn áður fyrir lokaða klasann.
@@ -287,7 +281,7 @@ Bætið valmyndaratriðunum sem voru stofnuð við valmynd fyrir á innleið í 
 
     Þú ert með hefðbundnu valkostina til að hunsa eða hoppa yfir þetta skref.
 
-    ![Frágangur klasa: Frágangssíða](media/Cluster_putaway-Put.png "Frágangur klasa: setja síðu")
+    ![Frágangur klasa: Frágangssíða.](media/Cluster_putaway-Put.png "Frágangur klasa: setja síðu")
 
 1. Veljið **Í lagi** til að staðfesta frágang klasans.
 
@@ -296,3 +290,6 @@ Bætið valmyndaratriðunum sem voru stofnuð við valmynd fyrir á innleið í 
 ## <a name="notes-and-tips"></a>Athugasemdir og ábendingar
 
 Í tilvikum þar sem klasakennið verður að yfireiningu númeraplötunnar fyrir faldað bretti, verður frágangsstaðurinn sjálfkrafa gefinn þegar klasakennið er skannað. Ekki þarf frekari skönnun númeraplötu, jafnvel þótt myndun númeraplötu sé stillt á handvirkt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

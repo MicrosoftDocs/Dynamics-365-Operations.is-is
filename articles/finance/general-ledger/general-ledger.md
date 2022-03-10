@@ -2,27 +2,27 @@
 title: Yfirlit yfir Fjárhag og Fjárhagsskýrslugerð
 description: Fjárhagur er notaður til að skilgreina og stjórna fjárhagslegum færslum í lögaðila.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/14/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 65431
+ms.custom:
+- "65431"
+- intro-internal
 ms.assetid: d2c604df-daae-42cd-82d9-c80e3dee4a60
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3fc00cc29e37c853d7cabfa928d8e069c40a581
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 639d77e43fc9a55e43ebb030f8fc292ce8fb7fce
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249192"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985238"
 ---
 # <a name="general-ledger-home-page"></a>Heimasíða fjárhags
 
@@ -39,7 +39,7 @@ Hægt er að úthluta eða dreifa peningarupphæðum á einn eða fleiri reiknin
 - [Fjárhagslykilstöður](general-ledger-account-balances.md)
 - [Fjárhagsvíddir](financial-dimensions.md)
 
-[![Viðskiptaferli](./media/GL-process.PNG)](./media/GL-process.PNG)
+[![Viðskiptaferli.](./media/GL-process.PNG)](./media/GL-process.PNG)
 
 ## <a name="sales-tax"></a>Virðisaukaskattur
 Hvert fyrirtæki innheimtir og greiðir skatta til ýmissa skattyfirvalda. Reglur og taxtar eru mismunandi eftir landi/svæði, fylki, sýslu og borg.
@@ -54,14 +54,14 @@ Hvert fyrirtæki innheimtir og greiðir skatta til ýmissa skattyfirvalda. Reglu
 
 #### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 
-Í [útgáfuáætlunum Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) sérðu hvaða nýju eiginleikar hafa verið fyrirhugaðir. 
+Í [útgáfuáætlunum Microsoft Dynamics 365](/dynamics365/release-plans/) sérðu hvaða nýju eiginleikar hafa verið fyrirhugaðir. 
 
 #### <a name="financial-reporting"></a>Fjárhagsskýrslugerð
 Farið í efnisatriðið [Yfirlit Financial Reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) til að fá upplýsingar um fjárhagsskýrslur.
 
 #### <a name="blogs"></a>Blogg
 
-Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoft Dynamics 365 Finance and Operations - Financials-blogginu](https://community.dynamics.com/365/financeandoperations/b/financials) er að finna umfjöllun, fréttir og aðrar upplýsingar.
+Þú getur fundið skoðanir, fréttir og aðrar upplýsingar um [Microsoft Dynamics 365 blogg](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoft Dynamics 365 Finance og Operations - Financials blogg](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika Dynamics 365 á einum stað.
 

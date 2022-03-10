@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6affcc20c2c2e2b8fa9e38cb523e172bb2a79f22
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 1659fd3b4c173ffe09f245631309d329bba5b1bd
+ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349819"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8105490"
 ---
 # <a name="asset-management-parameters"></a>Færibreytur eignastýringar
 
@@ -49,7 +49,7 @@ Flipinn **Verkbeiðnir** býður upp á eftirfarandi stillingar:
 - **Sjálfgefin gerð verkbeiðna** skilgreinir staðlaðar stillingar við stofnun verkbeiðni.  
 - **Gerð fyrirbyggjandi verkbeiðni** skilgreinir gerð verkbeiðni sem notuð er við stofnun verkbeiðna úr viðhaldsáætlunum. Ef þessi reitur er látinn vera auður er gerð verkbeiðnar í reitnum **Sjálfgefin gerð verkbeiðni** notaður.  
 - Í reitnum **Tengd sía verkbeiðni** skilgreinir þú hámarksfjölda verkbeiðna sem geta tengst verkbeiðni. Til dæmis gerir ## þér kleift að hafa allt að 99 verkbeiðnir tengdar. Ef þú skilgreinir síu eins og lýst er hér, verða tengdar verkbeiðnir tölusettar [verkskilríki verkbeiðninnar sem verkbeiðni tengist] -01, -02, -03, og svo framvegis. Ef þú skilgreinir ekki síu á þenan reit fær tengd verkbeiðni næsta röð verkskilríkja.  
-- Veldu **Já** fyrir **Afrita bilanir** ef þú vilt sjálfkrafa afrita bilanir sem eru skráðar í verkbeiðnum í tengdar viðhaldsbeiðnir. 
+- Veldu **Já** fyrir **Afrita galla** ef þú vilt afrita sjálfkrafa bilanir sem skráðar eru á viðhaldsbeiðnum yfir á tengdar verkbeiðnir. 
 - Í reitnum **Stig** skilgreinir þú virkt staðsetningarstig sem er sjálfkrafa sett inn í verkbeiðni ef öll tengd verkpöntunarstörf vísa til sömu virku staðsetningar. Ef verkbeiðnistörfin tengjast ekki öll sama virku staðsetningu á skilgreindu stigi er reiturinn **Virk staðsetning** hafður auður í verkbeiðninni. Til dæmis, ef þú setur töluna „1“ inn í þennan reit, þá er það efsta stigið í virkri staðsetningu. Ef þú setur inn töluna „0“ í þennan reit hefur þú ekki skilgreint sérstakt virkni staðsetningarstig, aðeins að öll verkbeiðnistörf í verkbeiðni verða að tengjast sama virku staðsetningu fyrir þá virku staðsetningu til að vera bætt við verkbeiðni.  
 - Hægt er að velja bækur sem notuð eru þegar neysla er lögð í verkbeiðni á flýtiflipanum **Almennt** í reitunum **Klukkustund**, **Liður**, og **Kostnaður**.  
 - Í retinum **Upprunamál afurðar** velurðu hvaða tungumál á að nota fyrir vöruheiti í eignastjórnunarskýrslum. Þú getur valið tungumálið sem sett er upp á fyrirtækjareikningnum, eða tungumálið sem sett er upp fyrir notandann sem er skráður inn.  

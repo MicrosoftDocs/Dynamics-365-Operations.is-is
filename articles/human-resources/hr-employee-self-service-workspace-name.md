@@ -1,31 +1,33 @@
 ---
 title: Breyta heiti á sjálfsafgreiðsluvinnusvæði starfsmanns
 description: Þetta efnisatriði lýsir því hvernig á að breyta birgingarheiti vinnusvæðis sjálfsafgreiðslu starfsmanns í Dynamics 365 Human Resources.
-author: andreabichsel
-manager: tfehr
-ms.date: 07/09/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 383af930e7ea5b14584069dff09e45b92808df23
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
-ms.translationtype: HT
+ms.openlocfilehash: 31e8c3e572e0f95f4331fbd858150897c9ed0105
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115199"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070728"
 ---
 # <a name="change-employee-self-service-workspace-name"></a>Breyta heiti á sjálfsafgreiðsluvinnusvæði starfsmanns
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Ef um er að ræða sjálfboðaliða eða aðra sem ekki eru starfsmenn er hægt að breyta heiti **Sjálfsafgreiðsla starfsmanna** vinnusvæðisins. Hægt er að breyta þessu vinnusvæði í **Sjálfsafgreiðsla** í staðinn.
 
@@ -34,14 +36,17 @@ Ef um er að ræða sjálfboðaliða eða aðra sem ekki eru starfsmenn er hægt
 
 1. Í mannauði, veljið **Starfsmannastjórnun**, veljið **Tenglar** og veljið svo **Færibreytur mannauðs**.
 
-2. Veljið flipann **Sjálfsafgreiðsla starfsmanns**.
+2. Veldu flipann **Sjálfsafgreiðsla starfsmanns**.
 
 3. Undir **Nafn til birtingar** skal velja **Sjálfsafgreiðsla**.
 
-   ![Breyta heiti vinnusvæðis sjálfsafgreiðslustöðvar fyrir starfsmann í Sjálfsafgreiðslu](./media/hr-employee-self-service-workspace-name.png)
+   ![Breyttu heiti á vinnusvæði sjálfsafgreiðslu starfsmanns í Sjálfsafgreiðsla.](./media/hr-employee-self-service-workspace-name.png)
 
-4. Veljið **Vista**.
+4. Veldu **Vista**.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Yfirsýn yfir sjálfsafgreiðslu starfsmanna og stjórnanda](hr-employee-manager-self-service-overview.md)
+- [Yfirlit yfir sjálfsafgreiðslu starfsmanns og stjórnanda](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,13 @@
 title: Forkröfur fyrir umreikning staðalkostnaðar
 description: Í þessu efnisatriði er fjallað um verk til að framkvæma áður en staðlaður kostnaðarumreikningur er keyrður.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 50891
 ms.assetid: 73af66cf-c924-45be-837a-a648dbd05a31
 ms.search.region: Global
@@ -19,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da5605e3542cfb8803b6a9f3645bcb2cc613c0bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 2eefb305f12996eb8fe1b72715f7e8e2509c551ff1e6abb3656221a8dbc76461
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734308"
 ---
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Forkröfur fyrir umreikning staðalkostnaðar
 
@@ -54,3 +51,6 @@ ms.locfileid: "4430505"
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

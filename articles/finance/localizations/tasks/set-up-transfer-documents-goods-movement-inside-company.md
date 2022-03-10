@@ -1,27 +1,24 @@
 ---
 title: Setja upp flutningsskjöl fyrir vöruflutninga innan fyrirtækis
-description: Þetta ferli sýnir hvernig á að stofna flutningsskjöl fyrir hreyfingu á vörum innan fyrirtækis
+description: Þetta ferli sýnir hvernig á að setja upp flutningsskjöl fyrir hreyfingu á vörum innan fyrirtækis.
 author: v-oloski
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTransferOrders, InventLocationIdLookup, TransportationDocument, HcmWorkerLookUp, SrsReportViewerForm, InventTransferParmShip
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e85bd359ce1053629ad4217cf623e57b2976463a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 80805bf30b4be753d7543ed4c6de30401d36e981
+ms.sourcegitcommit: 2fba4f2ef7e513357366fc640befe0d2f7bc31f5
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444423"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7601451"
 ---
 # <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a>Setja upp flutningsskjöl fyrir vöruflutninga innan fyrirtækis
 
@@ -74,3 +71,6 @@ ms.locfileid: "4444423"
 10. Smella skal á fylgiseðilinn.
 11. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

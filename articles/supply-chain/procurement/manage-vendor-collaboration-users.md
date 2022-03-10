@@ -1,29 +1,26 @@
 ---
 title: Stjórna notendum fyrir samstarf lánardrottna
 description: Þetta efnisatriði lýsir því hvernig má biðja um ráðstafanir fyrir nýja notendur samstarf lánardrottna og hvernig má bæta við nýjum tengiliðum samstarfs lánardrottna.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 220744
 ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 29930fdb65f96e281e0f0f01db41ec1475ad81c2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: ff0d11bf2c42f7ae63e3db5f31f3ffea2c28f693
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430617"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578129"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Stjórna notendum fyrir samstarf lánardrottna
 
@@ -65,7 +62,7 @@ Hægt að setja fram notendabeiðnir samstarf lánardrottna af innkaupasérfræ�
 4. Í **Úthluta notendahlutverk** hlutanum skal velja **Úthluta** gátreitinn fyrir öryggishlutverk sem nýji notandinn ætti að hafa.
 5. Smelltu á **Senda**.
 
-Þegar notandabeiðni lánardrottins er send inn, er reiturinn **aðgangur leyfður fyrir samstarf lánardrottna** stillt á **Já** fyrir valinn lánardrottnalykil og verkflæði notandabeiðni byrjar. Sem hluti af verkflæði er nýr notandi stofnaður og öryggishlutverkum úthlutað. Auk þess er Azure B2B þjónusta virkjuð sem hefur samskipti við Azure-gátt og tengir nýjan eða núverandi AAD-reikning við notandareikning Supply Chain Management. Nánari upplýsingar er að finna í [Hvað er Azure AD samstarf á milli fyrirtækja?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Þegar notandabeiðni lánardrottins er send inn, er reiturinn **aðgangur leyfður fyrir samstarf lánardrottna** stillt á **Já** fyrir valinn lánardrottnalykil og verkflæði notandabeiðni byrjar. Sem hluti af verkflæði er nýr notandi stofnaður og öryggishlutverkum úthlutað. Auk þess er Azure B2B þjónusta virkjuð sem hefur samskipti við Azure-gátt og tengir nýjan eða núverandi AAD-reikning við notandareikning Supply Chain Management. Nánari upplýsingar er að finna í [Hvað er Azure AD samstarf á milli fyrirtækja?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Gera notanda óvirkan
 
@@ -94,3 +91,6 @@ Til að biðja um að öryggishlutverkin er breytt fyrir notanda:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

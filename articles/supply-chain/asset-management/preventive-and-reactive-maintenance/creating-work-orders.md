@@ -2,11 +2,9 @@
 title: Verkbeiðnir stofnaðar
 description: Þetta efni útskýrir hvernig á að stofna verkbeiðnir í eignastýringu.
 author: johanhoffmann
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
-ms.translationtype: HT
+ms.openlocfilehash: c1477e3c1b99172d84d2cdc64fc0ed01c057e0fa59422b30c17868ca400de4d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500575"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743699"
 ---
 # <a name="creating-work-orders"></a>Verkbeiðnir stofnaðar
 
@@ -50,7 +48,7 @@ Til að stofna verkbeiðnir sem byggja á viðhaldsáætluninni skal fylgja þes
 
     Gátreiturinn **Stofna verkbeiðnir** birtist. Reiturinn **Vinnustundir viðhaldsspár** sýnir heildarfjölda vinnustunda fyrir spá fyrir valdar línur.
 
-    ![Búa til svarglugga verkbeiðna](media/18-preventive-maintenance.png)
+    ![Svargluggi fyrir stofnun verkbeiðni.](media/18-preventive-maintenance.png)
 
 1. Í hlutanum **Færibreytur** skal tilgreina þann fjölda verkbeiðna sem á að stofna. Veldu einn af eftirfarandi valkostum:
 
@@ -62,8 +60,6 @@ Til að stofna verkbeiðnir sem byggja á viðhaldsáætluninni skal fylgja þes
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Flokka verkbeiðnilínur sem eru sjálfkrafa stofnaðar meðan á viðhaldsáætlun stendur
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 Þessi eiginleiki gerir kleift að skilgreina reglur fyrir flokkun verkbeiðnilína undir einni verkbeiðni þegar kerfið er stillt á að búa sjálfkrafa til verkbeiðnir sem byggja á viðhaldsáætlun. Áður gátu sjálfkrafa myndaðar verkbeiðnir aðeins innihaldið eina línu. Nú er hins vegar hægt að flokka verkbeiðnir eftir til dæmis eign, eignagerð eða virkri staðsetningu. (Handvirkt myndaðar verkbeiðnir var aðeins hægt að flokka á þennan hátt eins og lýst er í hlutanum hér á undan í þessu efnisatriði.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Virkja flokkun fyrir sjálfkrafa myndaðar verkbeiðnir
@@ -71,7 +67,7 @@ Til að stofna verkbeiðnir sem byggja á viðhaldsáætluninni skal fylgja þes
 Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Eignastjórnun*
-- **Heiti eiginleika:** *(Forskoðun) Notið reglur fyrir flokkun verkbeiðna á meðan viðhaldsáætlun er keyrð*
+- **Heiti eiginleika:** *Notið reglur fyrir flokkun verkbeiðna á meðan viðhaldsáætlun er keyrð*
 
 ### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>Setja upp flokkun fyrir sjálfkrafa myndaðar verkbeiðnir
 

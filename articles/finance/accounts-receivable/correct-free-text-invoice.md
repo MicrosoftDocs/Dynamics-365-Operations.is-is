@@ -1,12 +1,10 @@
 ---
 title: Leiðrétting textareiknings
 description: Þessi grein útskýrir hvernig á að leiðrétta reikningur með frjálsum texta sem hefur verið bókaður og endurútgefa hann sem leiðréttan reikning.
-author: ShivamPandey-msft
-manager: AnnBe
+author: abruer
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71b94e6fa4faafdc5fbe68e89635ec79616164bb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: cf4503e3d4b200219d6b444b69c866871d21787d
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217531"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753803"
 ---
 # <a name="correct-a-free-text-invoice"></a>Leiðrétting textareiknings
 
@@ -43,7 +41,7 @@ Eftir að leiðrétti reikningurinn er bókaður, verða þrír reikningar:
 Hægt er að þekkja afturköllunarreikninga og leiðrétta reikninga á tvo vegu:
 
 -   Síðan **Allir reikningar með frjálsum texta** inniheldur **Leiðrétting** dálk,°þar sem hægt er að sjá hvaða reikningar eru afturköllunarreikningar og leiðréttir reikningar.
--   Haus textareikningsins sýnir stöðuna **Afturköllunarreikningur ‚\[reikningsnúmer\]'** eða **Leiðréttur reikningur '\[reikningsnúmer\]'**.
+-   Haus textareikningsins sýnir stöðuna **Afturköllunarreikningur ‚\[ reikningsnúmer\]'** eða **Leiðréttur reikningur '\[ reikningsnúmer\]'**.
 
 > [!NOTE]
 > Þessi aðgerð er bara tiltæk ef **Leiðrétting á textareikningi** skilgreiningarlykill er valinn. Nánari upplýsingar um hvernig á að virkja stillingarlyklana er að finna í hlutanum Virkja (eða slökkva) á stillingarlyklum í efninu [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md). 

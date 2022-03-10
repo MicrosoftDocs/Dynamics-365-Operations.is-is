@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0b397f3a222ff6957ad4904df90c5db218903090
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720649"
 ---
 # <a name="company-directory-mobile-workspace"></a>Fartækjavinnusvæði fyrir skráasafn fyrirtækis
 
@@ -77,7 +77,7 @@ Sæktu og settu upp fartækjaforritið Finance and Operations:
 3.  Í fyrsta sinn sem þú skráir þig inn, er beðið um notandanafn og aðgangsorð þitt. Færðu inn skilríki
 4.  Eftir að þú hefur skráð þig inn, birtast tiltæk vinnusvæði fyrir fyrirtækið. Athugið að ef kerfisstjóri gefur út nýtt vinnusvæði síðar, verður að endurræsa listann yfir fartækjavinnusvæði.
 
-[![Togið upp til að uppfæra](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Toga upp til að uppfæra.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>Skoða skráasafn fyrirtækis með því að nota fartækjavinnusvæðið
 1.  Veljið vinnusvæðið **Skráasafn fyrirtækis** í fartækjaforritinu. Listi yfir starfsfólk birtist.

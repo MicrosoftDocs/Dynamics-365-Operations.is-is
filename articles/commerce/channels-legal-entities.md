@@ -1,37 +1,31 @@
 ---
 title: Stofna lögaðila
-description: Þetta efni lýsir því hvernig á að stofna lögaðila í Microsoft Dynamics 365 Commerce, sem verður að búa til og stilla áður en rásir eru stofnaðar.
+description: Þetta efnisatriði lýsir því hvernig á að stofna lögaðila í Microsoft Dynamics 365 Commerce, sem þarf að búa til og skilgreina áður en rásir eru stofnaðar.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 28cbcc42505f1dc90c420adc812735841541c8e0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: bc5f097a7f941dfa05f4011d9be5caffbb7f01b5f6e67cd7535ef3d1b13f59fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740432"
 ---
 # <a name="create-legal-entities"></a>Stofna lögaðila
 
-
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að stofna lögaðila í Microsoft Dynamics 365 Commerce, sem verður að búa til og stilla áður en rásir eru stofnaðar.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði lýsir því hvernig á að stofna lögaðila í Microsoft Dynamics 365 Commerce, sem þarf að búa til og skilgreina áður en rásir eru stofnaðar.
 
 Lögaðili er fyrirtæki sem hefur skráð ögfest lagalega uppbyggingu. Lögaðila er hægt að færa inn í samninga og eru þeir krafnir um að útbúa yfirlit sem segir til um frammistöðu þeirra.
 
@@ -48,9 +42,9 @@ Til að stofna nýjan lögaðila í Dynamics 365 Commerce  skal fylgja þessum s
 1. Í reitinn **Heiti** skal slá inn gildi.
 1. Í reitinn **Fyrirtæki** skal slá inn gildi.
 1. Í reitinn **Land/svæði** skal slá inn eða velja gildi.
-1. Veljið **Í lagi**. 
+1. Veldu **Í lagi**. 
 
-   ![Stofnun lögaðila](media/legal-entities.png)
+   ![Stofnun lögaðila.](media/legal-entities.png)
 
 1. Í kaflanum **Almennt** gefurðu upp eftirfarandi almennar upplýsingar um lögaðilann: 
    1. Færa skal inn leitarheiti, ef krafist er leitarheitis. Leitarheiti er annað nafn sem hægt er að nota til að leita að þessum lögaðila. 
@@ -73,7 +67,7 @@ Til að stofna nýjan lögaðila í Dynamics 365 Commerce  skal fylgja þessum s
 
 Eftirfarandi mynd sýnir upplýsingar um dæmi um lögaðila.
 
-![Almennur hluti lögaðila](media/legal-entities-general.png)
+![Almennur hluti lögaðila.](media/legal-entities-general.png)
    
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -86,3 +80,6 @@ Eftirfarandi mynd sýnir upplýsingar um dæmi um lögaðila.
 [Yfirlit yfir rásir](channels-overview.md)
 
 [Skilyrði fyrir rásauppsetningu](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

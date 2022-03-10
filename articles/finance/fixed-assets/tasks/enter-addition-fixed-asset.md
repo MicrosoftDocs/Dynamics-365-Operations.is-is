@@ -2,11 +2,9 @@
 title: Viðbót við eign færð inn
 description: Þessi verklýsing sýnir hvernig á að bæta viðbót við eign.
 author: saraschi2
-manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetAddition
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 35e447ff9652861de4f7f310f68e8180a69589b4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 966fd191ad876aae86ff2511d6981b0437679becbe4984b087c1975dece351b6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209999"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742954"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Viðbót við eign færð inn
 

@@ -2,11 +2,9 @@
 title: Power BI-efni útgjaldastýringar
 description: Þetta efnisatriði lýsir því hvað er innifalið í útgjaldastýringu Power BI efnispakka.
 author: panolte
-manager: AnnBe
 ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace, ExpenseWorkspace
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d580502a08c2c176a000616abc3513cc45bd58a6
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 178a65c44abd0c9c068d4da1f2684a60062da595247560de4cb81d97ab7b6521
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016453"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769899"
 ---
 # <a name="expense-management-power-bi-content"></a>Power BI-efni útgjaldastýringar
 
@@ -43,7 +41,7 @@ Tveir Power BI efnispakkar eru í boði til að nota með útgjaldastýringu í 
 Allar upphæðir eru sýndar í gjaldmiðli fyrirtækis. Gögn fyrir öll fyrirtæki eru sýnd, en ef þess gerist þörf er hægt að bæta við fyrirtækissíu. 
 
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
-Hægt er að finna Expense Admin Dashboard.pbix og Expense Personal Dashboard.pbix Power BI efni í samnýttu eignasafni í Microsoft Dynamics Lifecycle Services (LCS). Upplýsingar um hvernig á að sækja efnið og tengja það við gögn fyrirtækisins er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Hægt er að finna Expense Admin Dashboard.pbix og Expense Personal Dashboard.pbix Power BI efni í samnýttu eignasafni í Microsoft Dynamics Lifecycle Services (LCS). Upplýsingar um hvernig á að sækja efnið og tengja það við gögn fyrirtækisins er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 Efnið er tiltækt á vinnusvæði útgjaldastýringar sem innfellt Power BI-efni. Hvaða eigandi kostnaðar sem er hefur aðgang að persónulegum útgjöldum, á meðan einungis starfsmenn og stjórnendur viðskiptaskulda hafa aðgang að efni kerfisstjóra til að skoða öll kostnaðargögn notanda.
 
 ## <a name="refreshing-the-power-bi-content"></a>Endurhleður Power BI efni
@@ -93,3 +91,6 @@ Innihaldið inniheldur hóp af skýrslusíðum. Hver síða samanstendur af safn
 | Upplýsingar starfsmanns | Kostnaðarskýrslur eftir kostnaðargerð            |
 |                     | Persónulegur kostnaður                       |
 |                     | Kostnaðarskýrslur eftir upplýsingaflokki     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

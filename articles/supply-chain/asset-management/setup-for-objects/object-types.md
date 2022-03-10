@@ -1,12 +1,10 @@
 ---
 title: Eignagerðir
 description: Þetta efni útskýrir hvernig á að stofna eignagerðir í eignastýringu. Það lýsir einnig þeim þáttum sem tengjast eignategundum.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectJobType, EntAssetObjectType, EntAssetObjectTypeDefaultSparePart, EntAssetObjectTypeDefaultSparePartApprove, EntAssetObjectTypeDefaultCreateCombinations, EntAssetObjectTypeDefault, EntAssetObjectTypeDefaultCopy
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 295840c12f89bc6c6a4d53023985259ac761d6b2
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017418"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730372"
 ---
 # <a name="asset-types"></a>Eignagerðir
 
@@ -47,9 +45,9 @@ Fyrir hverja eignategund er hægt að búa til afbrigði af skipulagi eignategun
 7. Veljið **Vista**.
 8. Á flýtiflipanum **Gerðir viðhaldsverka** velurðu þær gerðir viðhaldsverka sem eiga að tengjast eignagerðinni:
 
-    - Til að velja gerð viðhaldsverks skaltu velja það í reitnum **Eftirstandandi gerðir viðhaldsverka** og veldu síðan hægri örvarhnappinn ![Hægri örvarhnappur](media/29-setup-for-objects.png) til að færa það í kaflann **Valdar gerðir viðhaldsverka**.
-    - Til að velja allar tiltækar gerðir viðhaldsverka velurðu hnappinn ![Áfram allar örvar](media/30-setup-for-objects.png). Allar gerðir viðhaldsverka eru fluttar úr reitnum **Eftirstandandi gerðir viðhaldsverka** í reitinn **Valdar gerðir viðhaldsverka**.
-    - Til að hætta við valið á gerð viðhaldsverks skaltu velja hana í reitnum **Valdar gerðir viðhaldsverka** og veldu síðan vinstri örvarhnappinn ![Vinstri örvarhnappur](media/31-setup-for-objects.png) til að færa hana í reitinn **Eftirstandandi gerðir viðhaldsverka**.
+    - Til að velja gerð viðhaldsverks skal velja hana í reitnum **Eftirstandandi gerðir viðhaldsverka** og síðan velja hægri örvarhnappinn ![Hægri örvarhnappur.](media/29-setup-for-objects.png) til að færa hana í hlutann **Valdar gerðir viðhaldsverka**.
+    - Til að velja allar tiltækar gerðir viðhaldsverks skal velja ![Örina framsenda allt.](media/30-setup-for-objects.png) hnappur. Allar gerðir viðhaldsverka eru fluttar úr reitnum **Eftirstandandi gerðir viðhaldsverka** í reitinn **Valdar gerðir viðhaldsverka**.
+    - Til að hætta við val á gerð viðhaldsverks skal velja hana í reitnum **Valdar gerðir viðhaldsverka** og síðan velja vinstri örvarhnappinn ![Vinstri örvarhnappur.](media/31-setup-for-objects.png) til að færa hana í reitinn **Eftirstandandi gerðir viðhaldsverks**.
 
 9. Þú getur einnig valið teljarana sem ættu að tengjast eignategundinni. Á flýtiflipanum **Teljarar** gerirðu val þitt með því að nota aðferðirnar sem lýst er fyrir gerðir viðhaldsverka í þrepi 8. Nánari upplýsingar um uppsetningu á teljurum er að finna í [Teljarar](counters.md).
 10. Þú getur einnig valið eigindagerðir sem ættu að tengjast eignategundinni. Á flýtiflipanum **Eigindagerðir**, gerðu val þitt með því að nota aðferðirnar sem lýst er fyrir gerðir viðhaldsverka í þrepi 8. Til að búa til ákjósanlegustu röð eigindategunda skaltu velja eigindategundina **Valdar eigindagerðir** reitinn og notaðu upp örina og örvatakkana til að færa hann. Röð eigindagerða verður sýnd á eignum sem nota þessa eignategund. Nánari upplýsingar um eignareigindirnar, sjá [Gerðir viðhaldseiginda](../setup-for-functional-locations/specification-types.md).
@@ -96,3 +94,6 @@ Eins og lýst var í hlutanum „Búa til uppsetningarlínur fyrir eignategund�
 
 Til að sjá hvort varahlutur á valinni línu eru notaðir annars staðar í eignastýringu (til dæmis í sambandi við eignir og vinnupantanir), veldu varahlutalínuna og veldu síðan **Hlutur þar sem hann er notaður** til að opna **Hlutur þar sem hann er notaður** síðu. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0fce566bea6340b4016e559b1f5f1764a6881e28
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
-ms.translationtype: HT
+ms.openlocfilehash: cb600c55cb2d40129d1b29ab989bc8f7cf3f4686
+ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675394"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7927455"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Settu upp færibreytur ER sniðs á hvern lögaðila
 
 [!include[banner](../includes/banner.md)]
-
-[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="prerequisites"></a>Forkröfur
 
@@ -227,7 +225,8 @@ Ef þú stillir færibreytur tiltekins forrits fyrir eina útgáfu af ER-sniði 
 
 Þegar þú velur skrá til að flytja inn er skipulag færibreyta tiltekins forrits í þeirri skrá borið saman við skipulag samsvarandi gagnagjafa af gerðinni **Uppfletting** í ER-sniðinu sem er valið fyrir innflutning. Innflutningi er sjálfgefið aðeins lokið ef skipulag allra færibreyta tiltekins forrits passar við skipulag samsvarandi gagnagjafa í ER-sniðinu sem er valið fyrir innflutning. Ef skipulagið passar ekki saman koma upp viðvörunarboð sem gefa til kynna að ekki sé hægt að ljúka innflutningi. Ef þú þvingar innflutninginn hreinsast upp fyrirliggjandi færibreytur tiltekins forrits fyrir valið ER-snið og þú verður að setja þær upp frá grunni.
 
-Frá og með Dynamics 365 Finance útgáfu 10.0.23 er hægt að breyta sjálfgefinni hegðun og koma í veg fyrir að fá viðvörunarboð með því að virkja eiginleikann **Stilla sértækar færibreytur fyrir forrit fyrir rafræna skýrslugerð við innflutning** á vinnusvæðinu **Eiginleikastjórnun**. Þegar þessi eiginleiki er virkjaður, ef skipulag færibreyta tiltekins forrits sem þú ert að flytja inn eru öðruvísi en skipulag samsvarandi gagnagjafa í ER-sniði markmiðs sem er valið fyrir innflutning mun innflutningurinn takast í eftirfarandi tilfellum:
+
+Frá og með Dynamics 365 Finance útgáfu 10.0.24 er hægt að breyta sjálfgefinni hegðun og koma í veg fyrir að fá viðvörunarboð með því að virkja eiginleikann **Stilla sértækar færibreytur fyrir forrit fyrir rafræna skýrslugerð við innflutning** á vinnusvæðinu **Eiginleikastjórnun**. Þegar þessi eiginleiki er virkjaður, ef skipulag færibreyta tiltekins forrits sem þú ert að flytja inn eru öðruvísi en skipulag samsvarandi gagnagjafa í ER-sniði markmiðs sem er valið fyrir innflutning mun innflutningurinn takast í eftirfarandi tilfellum:
 
 - Búið er að breyta skipulagi á ER-sniði markmiðs með því að bæta nýjum skilyrðisdálkum við fyrirliggjandi gagnagjafa af gerðinni **Uppfletting**. Þegar innflutningi er lokið eru færibreytur tiltekins forrits uppfærðar. Í öllum innfluttum færslum af færibreytum tiltekins forrits eru gildin í öllum viðbættum skilyrðisdálkum frumstillt með sjálfgefnu gildi fyrir [gagnagerð](er-formula-supported-data-types-primitive.md) þess dálks.
 - Búið er að breyta skipulagi á ER-sniði markmiðs með því að fjarlægja nokkra skilyrðisdálka úr fyrirliggjandi gagnagjöfum af gerðinni **Uppfletting**. Þegar innflutningi er lokið eru færibreytur tiltekins forrits uppfærðar. Í öllum innfluttum færslum af færibreytum tiltekins forrits er gildunum í öllum fjarlægðum skilyrðisdálkum eytt.

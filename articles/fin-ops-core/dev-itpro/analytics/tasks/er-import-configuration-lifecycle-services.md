@@ -2,11 +2,9 @@
 title: Flytja inn skilgreiningu úr Lifecycle Services
 description: Í þessu efni er útskýrt hvernig á að flytja inn nýja útgáfu af skilgreiningu rafrænnar skýrslugerðar úr Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
-manager: AnnBe
-ms.date: 09/14/2020
+ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
@@ -15,18 +13,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 602886b0dd729b8ec52940f42bd1c393dac8acda
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
-ms.translationtype: HT
+ms.openlocfilehash: 05a8ad127df177c54e67ff1f2ddcd8b3a3f51ea12b6e11d087105bd74b6bdb3f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093696"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712593"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Flytja inn skilgreiningu úr Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur flutt inn nýja útgáfu af [Skilgreiningarsnið fyrir rafræna skýrslugerð (ER)](../general-electronic-reporting.md#Configuration) úr [Eignasafn á verkefnastigi](../../lifecycle-services/asset-library.md) í Microsoft Dynamics Lifecycle Services (LCS).
+
+> [!IMPORTANT]
+> Verið er að [úrelda](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release) notkun LCS sem gagnageymslu fyrir skilgreiningar rafrænnar skýrslugerðar. Frekari upplýsingar er að finna í [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) úrelding á geymslu](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
 
 Í þessu dæmi velurðu þá útgáfu af skilgreiningu fyrir Rafræna skýrslugerð sem þér hugnast, og flytur hana inn fyrir sýnifyrirtæki sem kallast Litware, Inc. Þessum skrefum má ljúka í hvaða fyrirtæki sem er þar sem ER skilgreiningar eru samnýttar á milli fyrirtækja. Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í [Hlaða skilgreiningu upp í Lifecycle Services fyrir rafræna skýrslugerð](er-upload-configuration-into-lifecycle-services.md). Aðgangur að LCS er einnig nauðsynlegur.
 
@@ -103,3 +104,6 @@ ms.locfileid: "5093696"
     Í þessu dæmi skal velja útgáfu þessarar skilgreiningar sem hefur stöðuna **Samnýtt**.
 
     Athugið að samnýtt útgáfa 1 hinnar völdu skilgreiningar gagnalíkans er nú tiltæk.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

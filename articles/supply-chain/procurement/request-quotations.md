@@ -1,26 +1,28 @@
 ---
 title: Yfirlit yfir beiðnir um tilboð
 description: Í þessu efnisatriði er að finna yfirlit yfir beiðnir um tilboð (BUT). Fyrirtæki gefa út beiðni um tilboð (BUT) þegar þau vilja taka á móti tilboðum frá mörgum lánardrottnum fyrir þær vörur eða þá þjónustu sem þau þurfa að kaupa inn.
-author: kamaybac
+author: Henrikan
 ms.date: 10/05/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage, BOMExpandPurchRFQ, PurchRFQReplyFollowupItem, PurchRFQCaseVend, PurchRFQReplyFollowup, PurchRFQCaseAmendmentInfo, PurchRFQReplyFollowupCase, PurchRFQReplyStatus, PurchRFQCaseReplyFields, PurchRFQAddQuestionnaire, PurchRFQAmendmentWizard, PurchRFQReplyTableStatus, PurchRFQReplyTableListPage, PurchRFQCancelWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2154
+ms.custom:
+- "2154"
+- intro-internal
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ff153d9c16b219158c12f4bb49eb0a0c5d401ac
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
-ms.translationtype: HT
+ms.openlocfilehash: 7338897feb2c3a28350d366f26eecc56f8eeb3fb
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102903"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983393"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Yfirlit yfir beiðnir um tilboð
 
@@ -37,7 +39,7 @@ BUT ferlið samanstendur af eftirfarandi verkefnum:
 
 Eftirfarandi skýringarmynd veitir yfirlit yfir BUT ferlið.
 
-[![RFQ-ferli](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
+[![BUT-ferli.](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
 Hægt er að stofna BUT-verk úr áætluðum pöntunum, úr innkaupabeiðni eða úr handvirkri færslu. BUT tilfellið er grunnskjalið sem er notað til að gefa út BUT á hvern lánardrottin.
 

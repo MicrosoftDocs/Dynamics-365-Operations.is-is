@@ -1,27 +1,25 @@
 ---
 title: Stofna kanban-reglu með kanban-línutilviki
 description: Þetta ferli stofnar kanban-reglu með því að nota stillinguna línutilvik kanbans til að virkja sækja úr ferlisverkþætti.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 02511fea05cb1dfde17b1b8acaac97dcc136c062
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b7aaf959db0f0a136fc615f9a57ec787ef6cf2ad
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4981256"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579161"
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a>Stofna kanban-reglu með kanban-línutilviki
 
@@ -68,3 +66,6 @@ ms.locfileid: "4981256"
     * Athugið að kanban fyrir 27 var stofnað til að vinna verkþátt á grunni stofnaðrar kanban-reglu.  
     * Þetta er síðasta skrefið  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

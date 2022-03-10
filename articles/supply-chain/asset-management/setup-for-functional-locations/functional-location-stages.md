@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1ab19358857440e46d3df2323fbcea19a476903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837754"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360971"
 ---
 # <a name="functional-location-lifecycle-states"></a>Líftímastöður virkra staðsetninga
 
@@ -56,9 +56,9 @@ ms.locfileid: "5837754"
 1. Veldu **Eignastýring** > **Uppsetning** > **Virkar staðsetningar** > **Líftímalíkön**.
 2. Veldu **Nýr** til að stofna nýtt líftímalíkan.
 3. Settu líftímalíkanið inn í reitinn **Líftímalíkan** og heiti á líftímalíkaninu í reitnum **Heiti**. Í reitunum **Gerðir virkra staðsetninga** og **Líftímastöður** geturðu séð fjölda virka staðsetninga sem nota líftímalíkanið og fjölda valinna staða í líftímalíkaninu.
-4. Á flýtiflipanum **Líftímastöður** velurðu þær stöður sem ætti að vera með í líkaninu. Þetta er gert með því að smella á stöðuna í hlutanum **Eftirstandandi líftímastöður** og smella á hnappinn ![áfram ör](media/02-setup-for-functional-locations.png).
-5. Ef þú vilt velja allar tiltækar stöður fyrir líkan, smelltu á hnappinn ![veldu öll tiltæk stig](media/03-setup-for-functional-locations.png). Allar stöður eru fluttar í hlutann **Valdar líftímastöður**.
-6. Ef þú vilt fjarlægja valda stöðu úr líkaninu skaltu velja stöðuna í hlutanum **Valdar líftímastöður** og velja síðan hnappinn ![aftur ör](media/04-setup-for-functional-locations.png).
+4. Á flýtiflipanum **Líftímastöður** velurðu þær stöður sem ætti að vera með í líkaninu. Þetta er gert með því að smella á stöðu í hlutanum **Eftirstandandi líftímastaða** og smella á ![ör áfram.](media/02-setup-for-functional-locations.png) hnappur.
+5. Ef velja á allar tiltækar stöður fyrir líkan skal smella á ![velja öll tiltæk stig.](media/03-setup-for-functional-locations.png) hnappur. Allar stöður eru fluttar í hlutann **Valdar líftímastöður**.
+6. Ef þú vilt fjarlægja valda stöðu úr líkaninu skal velja stöðuna í hlutanum **Líftímastöður valdar** og síðan velja ![ör til baka.](media/04-setup-for-functional-locations.png) hnappur.
 7. Veldu **Uppfærslur á líftímastöðu** til að skilgreina hvaða líftímastaða getur fylgt valinni stöðu.
 
 

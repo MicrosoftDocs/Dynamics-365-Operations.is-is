@@ -1,12 +1,10 @@
 ---
 title: Notkunarstaður vöru
 description: Þetta efni útskýrir hvernig á að fá yfirlit yfir hvar hlutur er notaður í eignastjórnun.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetItemWhereUsed, EntAssetItemWhereUsedCalculate
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: db0932c5a52030c1a7f0411163aee120e2173ca0
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 2308fc4fabe541b8affeba5860a3154f81e8903e4853fd36d777f15a503d9dd8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021140"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752827"
 ---
 # <a name="item-where-used"></a>Notkunarstaður vöru
 
@@ -68,5 +66,8 @@ ms.locfileid: "5021140"
 
 Á skjámyndinni hér að neðan sérðu dæmi um útreikning á vöru þar sem notað er vörunúmerið "1000".
 
-![Dæmi um útreikning á notkunarstað vöru](media/12-controlling-and-reporting.png)
+![Dæmi um vöru þar sem útreikningur er notaður.](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

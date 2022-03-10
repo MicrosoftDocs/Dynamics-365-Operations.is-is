@@ -2,11 +2,11 @@
 title: Úthluta notendahlutverkum leigu
 description: Þetta efnisatriði lýsir öryggishlutverkum sem eru notuð í Eignarleigu. Það útskýrir einnig hvernig á að úthluta notendum á þau hlutverk.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 16719576dde73f096c0102a89c43cbc75594cc80
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 7a3443cf9fa5b14ac0b3c4560ed45874939aa50cd665f4db46290f5af04bf6ce
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819843"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771753"
 ---
 # <a name="assign-lease-user-roles"></a>Úthluta notendahlutverkum leigu
 

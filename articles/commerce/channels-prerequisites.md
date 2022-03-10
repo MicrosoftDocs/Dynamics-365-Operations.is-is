@@ -2,11 +2,9 @@
 title: Skilyrði fyrir rásauppsetningu
 description: Þetta efnisatriði sýnir yfirlit yfir forsendur rásauppsetningar í Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 270f751e860e56a03e20df720c088f275d0298e7
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
-ms.translationtype: HT
+ms.openlocfilehash: 6ad8911df00fde4675d4d9b52fcdd52ff58d4983b177316a7606de277328226b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477925"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742465"
 ---
 # <a name="channel-setup-prerequisites"></a>Skilyrði fyrir uppsetningu rásar
 

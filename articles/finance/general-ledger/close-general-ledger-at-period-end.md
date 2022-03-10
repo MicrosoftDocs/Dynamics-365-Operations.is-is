@@ -2,11 +2,9 @@
 title: Loka fjárhag í lok tímabils
 description: Þetta efnisatriði lýsir þeim verkefnum sem er yfirleitt lokið þegar tímabilslokun er gerð fyrir fjárhag.
 author: aprilolson
-manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseWorkspace
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe90e29e5ae71492519d9ab0d4cab2d12765cf4b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: f83ea7a870c52884030125736809ead02b264aef1dcd654f6ff94dab0fbb2004
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740003"
 ---
 # <a name="close-the-general-ledger-at-period-end"></a>Loka fjárhag í lok tímabils
 

@@ -1,35 +1,36 @@
 ---
 title: Yfirlit stjórnunar
-description: Þessi stjórnandi handbók hjálpar þér að setja upp, stjórna og leysa úrræðaleit Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/03/2020
-ms.topic: article
+description: Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng í fyrir uppsetningu, stjórnun og úrræðaleit Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
-ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7a5f6ff75667f79894fce09b4fafeeaf31eea31e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
-ms.translationtype: HT
+ms.openlocfilehash: a403390132443f29f12e11914b7a0f08faffa973
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889765"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068410"
 ---
 # <a name="administration-overview"></a>Yfirlit stjórnunar
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Þessi stjórnandi handbók hjálpar þér að setja upp, stjórna og leysa úrræðaleit Dynamics 365 Human Resources.
+
+Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng í fyrir uppsetningu, stjórnun og úrræðaleit Dynamics 365 Human Resources.
 
 - [Kerfiskröfur](hr-admin-system-requirements.md)
 
@@ -97,9 +98,18 @@ ms.locfileid: "5889765"
   - [Valkostir tilkynninga](hr-admin-troubleshooting-reporting.md)
   - [Algengar spurningar um samþættingu](hr-admin-troubleshooting-integration.md)
 
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+### <a name="elearning-courses"></a>Rafræn námskeið
+Netnámskeið og þjálfun má finna í [Dynamics 365 Human Resources á Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+
+### <a name="videos"></a>Myndskeið
+
+Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube-rásinni](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
 ## <a name="see-also"></a>Sjá einnig
 
-- [Nýjungar eða breytingar í Human Resources](hr-admin-whats-new.md)
+- [Nýjungar eða breytingar í Mannauði](hr-admin-whats-new.md)
 - [Leiðbeiningar þróunaraðila](hr-developer-overview.md)
 - [Notkunarleiðbeiningar](hr-hrpro-overview.md)
 

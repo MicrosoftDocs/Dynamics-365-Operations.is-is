@@ -1,7 +1,7 @@
 ---
 title: Viðbætur cXML-innkaupa
 description: Eiginleikinn fyrir viðbætur cXML-innkaupa byggir á fyrirliggjandi virkni ytri vörulista, PunchOut, sem er notaður fyrir innkaupabeiðnir.
-author: dasani-madipalli
+author: Henrikan
 ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: CatCXMLParameters, CatCXMLPurchRequest
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-08-03
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d61087d21035e532ad86b6669626f55e8411a6f421bf69f817199e9063417761
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 2942b141eb3a5b83fb39b0de721bae60c074e01c
+ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779615"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "7900706"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Viðbætur cXML-innkaupa
 
@@ -28,7 +28,7 @@ Eiginleikinn _Viðbætur cXML-innkaupa_ byggir á [fyrirliggjandi virkni ytri v�
 
 ## <a name="turn-on-the-purchasing-cxml-enhancements-feature"></a>Kveikja á eiginleikanum fyrir viðbætur cXML-innkaupa
 
-Til að kveikja á eiginleikanum skal opna **[Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** og leita að eiginleikanum sem er nefndur *Viðbætur cXML-innkaupa*. Veljið eiginleikann og veljið svo **Virkja núna** til að kveikja á honum.
+Til að kveikja á eiginleikanum skal opna **[Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** og leita að eiginleikanum sem er nefndur *Viðbætur cXML-innkaupa*. Veljið eiginleikann og veljið svo **Virkja núna** til að kveikja á honum. (Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika.)
 
 Eftir að kveikt er á eiginleikann ætti að skilgreina stillingar á eftirfarandi þremur svæðum:
 
@@ -141,7 +141,7 @@ Notið sjálfgefna eiginleika á eftirfarandi hátt:
 
 Eins og var getið um í hlutanum [Stilla eiginleika pöntunar](#set-order-properties), ef ætlunin er að afhent cXML innihaldi texta úr athugasemdum sem eru hengdar við viðeigandi innkaupapöntun og/eða lánardrottnafærslur, er hægt að stilla eiginleikan **POCOMMENTS** og/eða **VENDCOMMENTS** á _SATT_ í uppsetningu vörulista. Þessi hluti veitir nánari upplýsingar um hvernig kerfið velur og vinnur úr þessum viðhengjum, ef þau eru notuð.
 
-Til að stilla þær gerðir af athugasemdum sem kerfið leitar að, skal fara í **Innkaup og aðföng \> Uppsetning \> Skjámyndir \> Frá uppsetningu**. Síðan, í flipanum **Innkaupapöntun**, skal stilla reitinn **Taka með skjöl af gerðinni** á gerð athugasemdar sem þú vilt að verði tekin með. Aðeins athugasemdir á textaformi verða teknar með, ekki viðhengi skjala.
+Til að stilla gerðir glósanna sem kerfið mun leita að skaltu fara á **Innkaup og innkaup \> Uppsetning \> Eyðublöð \> Uppsetning eyðublaðs**. Síðan, í flipanum **Innkaupapöntun**, skal stilla reitinn **Taka með skjöl af gerðinni** á gerð athugasemdar sem þú vilt að verði tekin með. Aðeins athugasemdir á textaformi verða teknar með, ekki viðhengi skjala.
 
 ![Uppsetningarsíða skjámyndar.](media/cxml-form-setup.png "Uppsetningarsíða skjámyndar")
 

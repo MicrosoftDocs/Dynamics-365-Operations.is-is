@@ -1,7 +1,7 @@
 ---
 title: Sérstakar greiðslustöðvar og kvaðningar fyrir prentara og peningaskúffu
 description: Í þessu efnisatriði er að finna upplýsingar um möguleikann á því að vera með sérstaka greiðslustöð og biðja notandann að velja peningaskúffu og kvittanaprentara.
-author: rubendel
+author: BrianShook
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ad75430c606f959b17c887531fb62bd37caec624
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804308"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779771"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Sérstakar greiðslustöðvar og kvaðningar fyrir prentara og peningaskúffu
 
@@ -50,13 +50,13 @@ Virkninni sem lýst er í þessu efnisatrið er studd af Modern POS fyrir Window
 
 Þessi virkni styður nettengdar greiðslustöðvar og kvittanaprentara. Hægt er að bjóða upp á stuðning við peningaskúffu með því að tengja peningaskúffuna við nettengdan kvittanaprentara í gegnum tengi skúffuopnara.
 
-Tilbúinn stuðningur fyrir þessa virkni er í boði [Greiðslutengil Dynamics 365 fyrir Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Hins vegar gætu aðrir greiðslutenglar verið studdir í gegnum hugbúnaðarþróunarpakka Commerce fyrir greiðslur. Studdir kvittanaprentarar samanstanda af nettengdum kvittanaprenturum frá Star Micronics og Epson.
+Tilbúinn stuðningur fyrir þessa virkni er í boði [Greiðslutengil Dynamics 365 fyrir Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3). Hins vegar gætu aðrir greiðslutenglar verið studdir í gegnum hugbúnaðarþróunarpakka Commerce fyrir greiðslur. Studdir kvittanaprentarar samanstanda af nettengdum kvittanaprenturum frá Star Micronics og Epson.
 
 Til að setja upp kvittanaprentara Star Micronics skal nota hjálparforrit Star Micronics Printer til að skilgreina tækið svo hægt sé að nota það yfir netið. Þetta hjálparforrit gefur einnig upp IP-tölu tækisins.
 
 Til að setja upp kvittanaprentara Epson skal nota hjálparforrit Epson ePOS-Print til að setja upp tækið til að nota netsamskiptareglur.
 
-Frekari upplýsingar um hvernig á að setja upp netjaðartæki er að finna í [Yfirlit notendaþjónustu netjaðartækja](https://go.microsoft.com/fwlink/?linkid=2129965).
+Frekari upplýsingar um hvernig á að setja upp netjaðartæki er að finna í [Yfirlit notendaþjónustu netjaðartækja](./dev-itpro/network-peripherals.md).
 
 ## <a name="set-up-a-dedicated-payment-terminal-and-a-prompt-for-a-printer-and-cash-drawer"></a>Setja upp sérhæfða greiðslustöð og kvaðningu fyrir prentara og peningaskúffu
 
@@ -75,9 +75,9 @@ Til að setja upp vélbúnaðarreglu sem úthlutað er á afgreiðslukassa skal 
 
     | Tæki | Gerð | Nafn tækis | Frekari upplýsingar |
     |---|---|---|---|
-    | Prentari | Til vara | *Hvaða sem er* | Heiti tækis er stafrétt. **Forstillingarkenni kvittunar** ætti að vera það sama og **Forstillingarkenni kvittunar** sem er varpað í nettengdan prentara sem er uppsettur í vélbúnaðarreglunni sem úthlutað er á vélbúnaðarstöðina á stigi rásar. |
-    | Peningaskúffa | Til vara | *Hvaða sem er* | Heiti tækis er stafrétt. Stillið **Notaðu samnýtta vakt** valkostinn á **Já**. |
-    | Kortamillifærsla | Adyen | Ekki tiltækt | Frekari upplýsingar um hvernig setja á upp tilbúinn Adyen-tengil er að finna í [Greiðslutengill Dynamics 365 fyrir Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Aðra greiðslutengla er hægt að styðja í gegnum [Hugbúnaðarþróunarpakka Commerce fyrir greiðslur](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
+    | Prentari | Net | *Hvaða sem er* | Heiti tækis er stafrétt. **Forstillingarkenni kvittunar** ætti að vera það sama og **Forstillingarkenni kvittunar** sem er varpað í nettengdan prentara sem er uppsettur í vélbúnaðarreglunni sem úthlutað er á vélbúnaðarstöðina á stigi rásar. |
+    | Peningaskúffa | Net | *Hvaða sem er* | Heiti tækis er stafrétt. Stillið **Notaðu samnýtta vakt** valkostinn á **Já**. |
+    | Kortamillifærsla | Adyen | Ekki tiltækt | Frekari upplýsingar um hvernig setja á upp tilbúinn Adyen-tengil er að finna í [Greiðslutengill Dynamics 365 fyrir Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3). Aðra greiðslutengla er hægt að styðja í gegnum [Hugbúnaðarþróunarpakka Commerce fyrir greiðslur](./dev-itpro/end-to-end-payment-extension.md). |
     | PIN-takkaborð | Net | **MicrosoftAdyenDeviceV001** | Ekkert. |
 
 5. Í Dynamics 365 Commerce skal leita að **Afgreiðslukassar**.
@@ -85,7 +85,7 @@ Til að setja upp vélbúnaðarreglu sem úthlutað er á afgreiðslukassa skal 
 7. Úthlutið vélbúnaðarreglunni sem var búin til á afgreiðslukassa sem á að nota sérhæfða greiðslustöð. Tækið sem er varpað í þennan afgreiðslukassa verður að nota annaðhvort Windows-forrit eða Modern POS fyrir Android-forrit.
 8. Veljið **Vista**.
 9. Á aðgerðasvæðinu, í flipanum **Afgreiðslukassar**, skal velja **Skilgreina IP-tölur**.
-10. Í flýtiflipanum **PIN-takkaborð** skal slá inn IP-tölu greiðslustöðvarinnar. Frekari upplýsingar um hvernig finna á IP-tölu greiðslustöðvarinnar með því að nota Adyen-tengilinn er að finna í [Greiðslutengill Dynamics 365 fyrir Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3).
+10. Í flýtiflipanum **PIN-takkaborð** skal slá inn IP-tölu greiðslustöðvarinnar. Frekari upplýsingar um hvernig finna á IP-tölu greiðslustöðvarinnar með því að nota Adyen-tengilinn er að finna í [Greiðslutengill Dynamics 365 fyrir Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3).
 11. Veljið **Vista**.
 
 #### <a name="set-up-a-hardware-profile-for-the-receipt-printer-and-cash-drawer"></a>Setja upp vélbúnaðarreglu fyrir kvittanaprentara og peningaskúffu
@@ -100,7 +100,7 @@ Til að setja upp vélbúnaðarreglu sem er notuð til að flokka nettengda kvit
     | Tæki | Gerð | lýsing | Frekari upplýsingar |
     |---|---|---|---|
     | Prentari | Net | **Epson** eða **Star** | Heiti tækis er stafrétt. **Forstillingarkenni kvittunar** ætti að vera það sama og **Forstillingarkenni kvittunar** sem er varpað í prentara sem er uppsettur í vélbúnaðarreglunni sem úthlutað er á afgreiðslukassann. |
-    | Peningaskúffa | Net | **Epson** eða **Star** | Heiti tækis er stafrétt. stillið **Notaðu samnýtta vakt** valkostinn á **Já**. |
+    | Peningaskúffa | Til vara | **Epson** eða **Star** | Heiti tækis er stafrétt. stillið **Notaðu samnýtta vakt** valkostinn á **Já**. |
 
 5. Veljið **Vista**.
 
@@ -148,9 +148,9 @@ Söluaðilar verslunar eru beðnir um að velja vélbúnaðarstöð í aðeins e
 
 ## <a name="related-articles"></a>Tengdar greinar
 
-- [Setja upp POS Hybrid-forrit í Android og iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
-- [Dynamics 365-greiðslutengill fyrir Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Yfirlit notendaþjónustu nettengdra jaðartækja](https://go.microsoft.com/fwlink/?linkid=2129965)
+- [Setja upp POS Hybrid-forrit í Android og iOS](./dev-itpro/hybridapp.md)
+- [Dynamics 365-greiðslutengill fyrir Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3)
+- [Yfirlit notendaþjónustu nettengdra jaðartækja](./dev-itpro/network-peripherals.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

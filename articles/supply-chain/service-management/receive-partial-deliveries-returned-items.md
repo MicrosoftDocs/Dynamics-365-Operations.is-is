@@ -1,7 +1,7 @@
 ---
 title: Fá skilavörur afhentar að hluta
 description: Hlutaafhendingar eru skilgreindar í skilapöntunarlínum, ekki vöruskilasendingum.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51213f8f46638b0cce10251e761d7f276c39d924
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: db02356afe06244f062f4e7c67a5db0a36900469
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836135"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566168"
 ---
 # <a name="receive-partial-deliveries-of-returned-items"></a>Fá skilavörur afhentar að hluta    
 

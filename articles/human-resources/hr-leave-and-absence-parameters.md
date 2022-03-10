@@ -1,8 +1,8 @@
 ---
 title: Grunnstilla færibreytur leyfis og fjarvista
-description: Skilgreindu færibreytur Human Resources fyrir leyfi og fjarvistir í Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 11/02/2020
+description: Þetta efnisatriði lýsir því hvernig á að skilgreina mannauðsfæribreytur fyrir orlof og fjarveru í Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,24 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab4b2b3adefa388acfadc77c7b25a6b47d01571f0e58f6ab81101e25d1b548e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 7bd1aebd633af0530c550f8ec7510a0c09985ca1
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777960"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067353"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Grunnstilla færibreytur leyfis og fjarvista
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Áður en þú setur upp áætlanir um leyfi og fjarvistir í Dynamics 365 Human Resources, það er góð hugmynd að staðfesta stillingar fyrir allar skyldar færibreytur Human Resources, þar á meðal:
+Áður en þú setur upp orlofs- og fjarvistaáætlanir inn Dynamics 365 Human Resources, það er góð hugmynd að staðfesta stillingar fyrir allar tengdar **Stærðir mannauðs**, þar á meðal:
 
 - Númeraröð fyrir leyfisbeiðnir
 - Stillingar á Family and Medical Leave Act (lög um leyfi vegna fjölskyldu eða veikinda)
@@ -74,7 +77,7 @@ ms.locfileid: "6777960"
 
     - Veljið **Útreikningur á stöðu** til að birta stöður frá og með deginum í dag eða á uppsöfnunartímabilinu. Ef þú velur **Staðan frá deginum í dag** sýnir staðan samtölu allra uppsafnana, leiðréttinga og beiðna frá og með deginum í dag. Ef þú velur **Staða frá og með uppsöfnunartímabili** sýnir staðan samtölu allra uppsafnana, leiðréttinga og beiðna frá og með uppsöfnunartímabilinu sem skilgreint er af tíðni í leyfisáætluninni. 
 
-    - Stillið upphafstímann á runuvinnslu gildistíma yfirfærslu.  
+    - Stilltu **Byrjunartími** fyrir **Flytja gildistíma** lotuvinna.  
     
     - Veljið **Já** fyrir **Leyfa starfsmönnum að kaupa leyfisdaga** og **Leyfa starfsmönnum að selja leyfisdaga**. Ef valið er **Já** fyrir þessa valmöguleika er hægt að búa til reglur um kaup og sölu á leyfisdögum og gera starfsmönnum kleift að senda inn beiðnir um kaup og sölu á leyfisdögum.
 

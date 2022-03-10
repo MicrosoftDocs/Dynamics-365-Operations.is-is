@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: f46d55bf7a670e983fb65a9ca303bc02568247ed
-ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "5911297"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103139"
 ---
 # <a name="work-with-location-directives"></a>Vinna með staðsetningarleiðbeiningar
 
@@ -51,7 +51,7 @@ Hægt er að nota staðsetningarleiðbeiningar til að framkvæma eftirfarandi v
 
 Margir reitirnir sem hægt er að stilla fyrir staðsetningarleiðbeiningar eru eins í öllum verkbeiðnigerðunum. Hins vegar eru aðrir reitir sem tilheyra tilteknum verkbeiðnigerðum.
 
-![Verkbeiðnigerðir staðsetningarleiðbeiningar](media/Location_Directives_Work_Order_Types.png "Verkbeiðnigerðir staðsetningarleiðbeininga")
+![Verkbeiðnigerðir staðsetningarleiðbeiningar.](media/Location_Directives_Work_Order_Types.png "Verkbeiðnigerðir staðsetningarleiðbeininga")
 
 > [!NOTE]
 > Tvær verkbeiðnigerðir *Afturkölluð vinna* og *Regluleg talning* eru eingöngu notaðar af kerfinu. Ekki er hægt að búa til staðsetningarleiðbeiningar fyrir þessar verkbeiðnigerðir.
@@ -164,7 +164,7 @@ Reitirnir í flýtiflipanum **Staðsetningarleiðbeiningar** eru sértækir fyri
     > [!NOTE]
     > Þessi reitur er aðeins í boði fyrir valdar gerðir verkbeiðni þar sem áfylling er leyfð. Ítarlegan lista er að finna í hlutanum [Reitir sem eru sértækir fyrir verkbeiðnigerðir](#fields-specific-types) fyrr í þessu efnisatriði.
 
-- **Staðsetja eftir** - Tilgreinið hvort frágangsmagnið eigi að vera allt magnið í númeraplötunni eða hvort það eigi að vera vöru eftir vöru. Nota skal þennan reit til að tryggja að allt innihaldið á númeraplötu sé sett á eina staðsetningu og að kerfið leggi ekki til að skipt verði upp innihaldinu á nokkrar staðsetningar fyrir **ASN** (móttaka númeraplötu), móttaka **Blandaðrar númeraplötu** og móttökuferli **Klasa**. (Móttökuferli **Klasa** krefst þess að kveikt verði á eiginleikanum *Klasafrágangur*.) Hegðun fyrirspurnar staðsetningarleiðbeiningar, línanna og aðgerðir staðsetningarleiðbeiningar verða mismunandi, eftir því hvaða gildi er valið. Flýtiflipinn **Línur** er aðeins notaður þegar **Staðsetja eftir** er stilltur á *Vara*.
+- **Staðsetja eftir** - Tilgreinið hvort frágangsmagnið eigi að vera allt magnið í númeraplötunni eða hvort það eigi að vera vöru eftir vöru. Nota skal þennan reit til að tryggja að allt innihaldið á númeraplötu sé sett á eina staðsetningu og að kerfið leggi ekki til að skipt verði upp innihaldinu á nokkrar staðsetningar fyrir **ASN** (móttaka númeraplötu), móttaka **Blandaðrar númeraplötu** og móttökuferli **Klasa**. (Móttökuferli **Klasa** krefst þess að kveikt verði á eiginleikanum [Klasafrágangur](putaway-clusters.md).) Hegðun fyrirspurnar staðsetningarleiðbeiningar, línanna og aðgerðir staðsetningarleiðbeiningar verða mismunandi, eftir því hvaða gildi er valið. Flýtiflipinn **Línur** er aðeins notaður þegar **Staðsetja eftir** er stilltur á *Vara*.
 
     > [!NOTE]
     > Þessi reitur er aðeins í boði fyrir valdar gerðir verkbeiðni þar sem áfylling er leyfð. Ítarlegan lista er að finna í hlutanum [Reitir sem eru sértækir fyrir verkbeiðnigerðir](#fields-specific-types).

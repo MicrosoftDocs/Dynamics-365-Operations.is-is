@@ -1,7 +1,7 @@
 ---
 title: Pöntun lofað
 description: Í þessu efnisatriði er að finna upplýsingar um lofaðar pantanir. Pöntun lofað hjálpar þér lofa áreiðanlegum afhendingartíma til viðskiptavina þinna og gefur þér sveigjanleika þannig að þú getur staðið við þessar dagsetningar.
-author: ShylaThompson
+author: Henrikan
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 193933
 ms.assetid: 676fc53a-fa25-4688-9f26-1005316763b8
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 40b43ed2b5dfc0126ff723f1d98c5bcf28637822
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 0f7535ba28358fef21784956da38cd334a4aebe7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840678"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572602"
 ---
 # <a name="order-promising"></a>Pöntun lofað
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 428de5304b3f6f9b861e765d5084d5573b79df90
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 7eb5128f3a337bd728cfe8e6d8d3deb0b6b5ef88
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347735"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074968"
 ---
 # <a name="safety-margins"></a>Öryggismörk
 
@@ -61,9 +61,6 @@ Athugið að mörk innhreyfinga eru ekki notuð þegar lagerbirgðir eru notaði
 
 ### <a name="reorder-margin"></a>Endurpöntunarmörk
 
-> [!NOTE]
-> **Kemur fljótlega:** Þessi eiginleiki er ekki enn studdur fyrir fínstillingu skipulagningar. Þar til hann er studdur eru öll gildi sem eru færð inn fyrir **Endurpöntunarmagni bætt við afhendingartíma vöru** meðhöndluð sem *0* (núll).
-
 Eftirfarandi mynd sýnir endurpöntunarmörkin.
 
 ![Endurpöntunarmörk.](media/safety-margins-3.png)
@@ -71,9 +68,6 @@ Eftirfarandi mynd sýnir endurpöntunarmörkin.
 Endurpöntunarmörkum er bætt við á undan afhendingartíma vörunnar fyrir allar áætlaðar pantanir á meðan aðaláætlanagerð stendur. Þess vegna tryggir það frekari tíma til að leggja fram birgðapöntun. Þessi mörk eru yfirleitt notuð sem biðtími til að tryggja tíma fyrir samþykktarferli eða aðra innri ferla sem eru nauðsynlegir við stofnun birgðapantana. Endurpöntunarmörkin eru sett á milli *pöntunardagsetningar* birgða og *upphafsdagsetningar*.
 
 ### <a name="issue-margin"></a>Mörk úthreyfinga
-
-> [!NOTE]
-> **Kemur fljótlega:** Þessi eiginleiki er ekki enn studdur fyrir fínstillingu skipulagningar. Þar til hann er studdur eru öll gildi sem eru færð inn fyrir **Mörk úthreyfinga dregin af dagsetningu þarfa** meðhöndluð sem *0* (núll).
 
 Eftirfarandi mynd sýnir mörk úthreyfinga.
 

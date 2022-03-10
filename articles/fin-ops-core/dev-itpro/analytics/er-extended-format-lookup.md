@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 395282eb267e7e356fca6087f99c6f193741ac9d
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
-ms.translationtype: HT
+ms.openlocfilehash: 2b69ba1b3b27f447b58cf98b1140a481b01b735a
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605158"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8324139"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Leyfa notendum að setja upp tilvísun á ER snið þar sem spurt er um snið frá altæku geymslunni
 
 [!include [banner](../includes/banner.md)]
 
-Hægt er að nota ramma [Rafrænnar skýrslugerðar](general-electronic-reporting.md) (ER) til að skilgreina [snið](general-electronic-reporting.md#FormatComponentOutbound) fyrir skjöl á útleið í samræmi við lagaskilyrði mismunandi landa/svæða. Þú getur líka notað ER ramma til að stilla [snið](general-electronic-reporting.md#FormatComponentInbound) til að flokka á heimleið skjöl og nota upplýsingar úr skjölunum til að bæta við eða uppfæra gögn umsóknar. Hægt er að nota hvert þessara sniða í Dynamics 365 Finance tilvikinu til að meðhöndla viðskiptaskjöl á innleið eða útleið sem hluta af ákveðnu viðskiptaferli.
+Þú getur notað [Rafræn skýrslugerð](general-electronic-reporting.md) (ER) ramma til að stilla snið fyrir skjöl á útleið í samræmi við lagalegar kröfur ýmissa landa/svæða. Þú getur líka notað ER ramma til að stilla snið til að flokka á heimleið skjöl og nota upplýsingar úr skjölunum til að bæta við eða uppfæra gögn umsóknar. Hægt er að nota hvert þessara sniða í Dynamics 365 Finance tilvikinu til að meðhöndla viðskiptaskjöl á innleið eða útleið sem hluta af ákveðnu viðskiptaferli.
 
 Venjulega verður þú að tilgreina hvaða ER snið verður að nota í ákveðnu viðskiptaferli. Til að gera það skaltu velja eitt ER snið í uppflettigrein sem er stillt sem hluti af viðskiptaferlum sem eru sértækir. Þessir uppflettingarreitir eru venjulega útfærðir með því að nota viðeigandi API í ER ramma. Fyrir frekari upplýsingar, sjá [ER ramma API - kóða til að sýna sniðkortagerð](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 

@@ -1,26 +1,24 @@
 ---
 title: Senda sölupantanir án vöruhúsa
 description: Þetta efni útskýrir hvernig á að uppfæra sölupöntun þegar vörur eru sendar til viðskiptavinarins.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewerForm, SalesTableLineQuantity, CustPackingSlipJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 45884bd5ff70b31c62a7e0affafb6c5ddb457be3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10e21bcdef22caf4f4d97ba7dd36ebf1a6e6e055
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974861"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578873"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Senda sölupantanir án vöruhúsa
 
@@ -55,3 +53,6 @@ ms.locfileid: "4974861"
 19. Á aðgerðasvæðinu velurðu **Taka til og pakka**.
 20. Velja **Fylgiseðil**. Síðan **Færslubók fylgiseðla** inniheldur öll skjöl fylgiseðla sem voru mynduð fyrir pöntunina. Hægt er að fara yfir nákvæmar upplýsingar um hvert skjal og prenta þær, ef óskað er.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

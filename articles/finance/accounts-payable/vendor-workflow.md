@@ -1,27 +1,24 @@
 ---
 title: Verkflæði lánardrottins
 description: Breyta lánardrottnaupplýsingum og nota verkflæði til að samþykkja þær.
-author: mikefalkner
-manager: annbe
+author: sunfzam
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 00cdc657fa075e84e62682e33ed3c1bace3f4ad0
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
-ms.translationtype: HT
+ms.openlocfilehash: 48d81c727de29a285e5e33672e8f6d2eccef6249
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4444607"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753923"
 ---
 # <a name="vendor-workflow"></a>Verkflæði lánardrottins
 
@@ -61,3 +58,6 @@ Eftir að a.m.k. ein fyrirhuguð breyting hefur verið gerð birtast tveir flipa
     Stöðunni á síðunni er breytt í **Breytingar bíða samþykkis**.
 
 Verkflæðið fylgir venjulegu verkflæðisferli. Samþykktaraðila er beint á síðuna **Lánardrottinn** þar sem hægt er að fara yfir breytingar á síðunni **Fyrirhugaðar breytingar** og velja síðan **Verkflæði \> Samþykkja** til að samþykkja verkflæðið. Þegar búið er að samþykkja allt eru reitirnir uppfærðir með gildunum sem lögð voru til.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

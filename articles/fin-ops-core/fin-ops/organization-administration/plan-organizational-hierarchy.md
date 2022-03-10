@@ -2,7 +2,6 @@
 title: Skipuleggja fyrirtækjastigveldi
 description: Áður en að setja upp fyrirtæki og stigveldi fyrirtækis skaltu ganga úr skugga um að þú skiljir hvernig best er að setja upp fyrirtækið.
 author: sericks007
-manager: AnnBe
 ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7bf683487a20203d49fbab680373fbf48a5c58b6
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569362"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771873"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Skipuleggja fyrirtækjastigveldi
 

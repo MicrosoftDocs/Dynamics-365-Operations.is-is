@@ -2,7 +2,6 @@
 title: Flytja inn notendur úr Azure Active Directory
 description: Þetta ferli geta kerfisstjórar notað til að flytja handvirkt inn valda notendur eða inn stóra hópa notenda frá Azure Active Directory.
 author: peakerbl
-manager: AnnBe
 ms.date: 07/07/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c2600ad8f441e6b73b143c27afa08ad0a5c2748
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: ce8c98add0c6d5fb07b3ba5338037d9a12b1d8e50a2d2039b0231d3d305c9ebe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571006"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748289"
 ---
 # <a name="import-users-from-azure-active-directory"></a>Flytja inn notendur úr Azure Active Directory
 

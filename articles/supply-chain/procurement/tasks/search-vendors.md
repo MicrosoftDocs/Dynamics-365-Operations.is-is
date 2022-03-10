@@ -1,27 +1,24 @@
 ---
 title: Leita að lánardrottnum
 description: Fræðast um hvernig á að leita að lánardrottnum samkvæmt ákveðnum skilyrðum.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendSearchCriterion, VendSearchAddCategory, VendSearchAddReviewCriterionGroup, VendSearchResults, VendSearchAddReviewCriterion
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc28deb979fe8dc4e31befe6d4d5f6f91388f13e
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a9fd2b300586e5a4880a21fa2251342f37726ad0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430760"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577145"
 ---
 # <a name="search-for-vendors"></a>Leita að lánardrottnum
 
@@ -39,3 +36,6 @@ Fræðast um hvernig á að leita að lánardrottnum samkvæmt ákveðnum skilyr
 6. Í reitinn land/svæði skal slá inn gildi.
 7. Smellið á „Í lagi“.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

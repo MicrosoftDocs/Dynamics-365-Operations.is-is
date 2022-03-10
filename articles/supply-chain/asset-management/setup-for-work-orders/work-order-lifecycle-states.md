@@ -1,12 +1,10 @@
 ---
 title: Líftímastöður verkbeiðni
 description: Þetta efni útskýrir hvernig á að raða líftímastöðum verkbeiðna í eignastýringu.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderLifecycleState, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e72c56765ad51a4f43fb01d842f5940a4d1a025e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: fa0980438ec629ef7ae6bf711d5ae87efca131e6ab86dfcaa1f17d953725147a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248840"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768667"
 ---
 # <a name="work-order-lifecycle-states"></a>Líftímastöður verkbeiðni
 
@@ -37,9 +35,9 @@ Líftímastöður verkbeiðna sem krafist er fyrir verkbeiðnirnar verða að ve
 
 Eftirfarandi tafla lýsir valkostunum í hlutunum **Verkbeiðni** og **Tímasetja** á flýtiflipanum **Almennt** á síðunni **Líftímastaða verkbeiðna** (**Eignastýring** \> **Uppsetning** \> **Verkbeiðnir** \> **Líftímastöður**).
 
-![Síðan Líftímastaða verkbeiðni](media/09-setup-for-work-orders.png)
+![Síða fyrir líftímastöðu verkbeiðni.](media/09-setup-for-work-orders.png)
 
-| Heiti valkosts                   | Lýsing |
+| Heiti valkosts                   | lýsing |
 |-------------------------------|-------------|
 | Í gangi                        | Stilltu þennan möguleika á **Já** ef verkbeiðnin ætti að vera virk meðan hún er í þessari líftímastöðu. |
 | Bæta við línu                      | Stilltu þennan möguleika á **Já** ef hægt er að bæta við verkbeiðniverkum við verkbeiðni sem er í þessari líftímastöðu. |
@@ -95,7 +93,7 @@ Eftirfarandi tafla lýsir valkostunum í hlutunum **Verkbeiðni** og **Tímasetj
     - Ef valkosturinn **Niðurtími vegna viðhalds** er stilltur á **Já** fyrir líftímastöðuna sem verkbeiðni er uppfærð í er villuleitun niðurtíma vegna viðhalds gerð á eigninni sem er tengd verkbeiðninni. Ef skráning niðurtíma vegna viðhalds hefur verið gerð en það er engin skráning **Lokið** eru skilaboð sýnd þegar verkbeiðnin er uppfærð í þessa líftímastöðu.
     - Ef venjuleg verkuppsetning inniheldur ekki öll stigin sem þú þarfnast fyrir uppstillingu á eignastjórnun geturðu sett upp notendaskilgreind verkefnastig á flipanum **Verkstig** á síðunni **Verkefnisstjórnun og bókhaldsfæribreytur**. Eftirfarandi mynd sýnir flipann **Verkstig** á síðunni **Verkefnisstjórnun og bókhaldsfæribreytur**.
 
-    ![Síðan Setja upp verkstig fyrir ýmsar verkgerðir](media/10-setup-for-work-orders.png)
+    ![Síðan Setja upp verkstig fyrir ýmsar verkgerðir.](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > Ef líftímastaðan sem þú uppfærir verkbeiðni í er óvirk, er færslubókum sem tengjast verkbeiðninni en hafa ekki enn verið bókaðar sjálfkrafa eytt. Þessi hegðun hjálpar til við að tryggja sjálfvirka hreinsun ónotaðra gagna. (Líftímastaða er óvirk ef valkosturinn **Virkt** fyrir hana stilltur á **Nei** á flýtiflipanum **Almennt** á síðunni **Líftímastaða verkbeiðni**.)
@@ -113,7 +111,7 @@ Líftímalíkön vísa til verkflæða og líftímastöður eru valdar í líft�
 
 Eftirfarandi mynd sýnir tengsl milli verkbeiðnigerða, líftímalíkana og líftímastaða.
 
-![Síðan Verkbeiðnigerð samanborið við síðuna Líftímalíkön verkbeiðna](media/11-setup-for-work-orders.png)
+![Síðan verkbeiðnigerð í samanburði við síðuna fyrir líftímalíkön verkbeiðni.](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>Líftímalíkön verkbeiðni
 
@@ -128,16 +126,16 @@ Eftirfarandi mynd sýnir tengsl milli verkbeiðnigerða, líftímalíkana og lí
 
 5. Á flýtiflipanum **Líftímastöður** velurðu þær líftímastöður sem ætti að vera með í líftímalíkani:
 
-    - Til að hafa líftímastöðu með fyrir líftímalíkanið skaltu velja það í **Eftirstandandi líftímastöður** kafla og veldu síðan hægri örvarhnappinn ![Hægri ör](media/12-setup-for-work-orders.png) til að færa það til **Valdar líftímastöður**.
-    - Til að hafa allar tiltækar líftímastöður með fyrir líftímalíkanið velurðu hnappinn **Velja öll tiltæk stig** ![Velja öll tiltæk stig](media/13-setup-for-work-orders.png). Allar líftímastöður eru fluttar í hlutann **Valdar líftímastöður**.
-    - Til að fjarlægja líftímastöðu úr líftímalíkani skaltu velja það í **Valdar líftímastöður** kafla og veldu síðan vinstri örvarhnappinn ![Vinstri ör](media/14-setup-for-work-orders.png) til að færa það til **Eftirstandandi líftímastöður**.
+    - Til að hafa með líftímastöðu í líkani líftímastöðu skal velja það í hlutanum **Eftirstöðvar líftímastaða** og síðan velja hægri örvarhnappinn ![Hægri ör.](media/12-setup-for-work-orders.png) til að færa það í hlutann **Valdar líftímastöður**.
+    - Til að taka með allar tiltækar líftímastöður í líkani líftímastöðu skal velja hnappinn **Velja öll tiltæk stig** ![Velja öll tiltæk stig.](media/13-setup-for-work-orders.png). Allar líftímastöður eru fluttar í hlutann **Valdar líftímastöður**.
+    - Til að fjarlægja líftímastöðu úr líkani líftímastöðu skal velja hana í hlutanum **Líftímastöður valdar** og síðan velja vinstri örvarhnappinn ![Vinstri ör.](media/14-setup-for-work-orders.png) til að færa það í hlutann **Eftirstandandi líftímastöður**.
 
 6. Veldu **Uppfærslur á líftímastöðu** til að skilgreina líftímastöður sem geta fylgt valinni líftímastöðu.
 7. Á flýtiflipanum **Uppfærslur**, í reitnum **Röðuð staða**, velurðu líftímastöðu sem alltaf ætti að vera valin fyrir verkbeiðnina sem þú hefur lokið röðun verkbeiðna fyrir, óháð fyrri líftímastöðu verkbeiðni.
 8. Í reitinn **Óröðuð líftímastaða** velurðu líftímastöðu sem alltaf ætti að vera valin fyrir verkbeiðni ef tímasetningu verkbeiðni er eytt.
 9. Vistaðu líftímalíkan verkbeiðni.
 
-![Síðan Líftímalíkön verkbeiðna](media/15-setup-for-work-orders.png)
+![Síða fyrir líkön líftímastöðu verkbeiðni.](media/15-setup-for-work-orders.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

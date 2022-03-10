@@ -1,29 +1,26 @@
 ---
 title: Verkflæði innkaupa og aðfanga
 description: Í sumum fyrirtækjum er þess krafist að innkaupabeiðnir og innkaupapantanir séu samþykktar af öðrum en þeim aðila sem setti inn færsluna. Til að setja upp samþykktarferli er hægt að stofna verkflæði.
-author: mkirknel
-manager: tfehr
+author: Henrikan
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2074
 ms.assetid: e54a1d59-b9fb-421b-821d-01f32878aa9b
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22602911fa5d395d439242746f2fe8a27c656bcf
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
-ms.translationtype: HT
+ms.openlocfilehash: a819093d9ee6f999e637281e54905968fe361566
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654149"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575537"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Verkflæði innkaupa og aðfanga
 
@@ -50,7 +47,7 @@ Eftirfarandi verkflæðisgerðir eru tiltækar fyrir innkaup og aðföng.
 | Verkflæði umsóknar um að bæta við lánardrottni | Stofna endurskoðunar- og samþykkisverkflæði til að bæta við nýjum lánardrottnum gegnum beiðnir lánardrottna. |
 
 > [!IMPORTANT]
-> Þegar verið er að bæta við nýju verkflæði er einnig hægt að sjá eftirfarandi úrelt verkflæði sem skráð eru í svarglugganum **Stofna verkflæði**. Þetta tengist *staðfestingu kvittunar* virkninni sem var tiltæk í [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), en sem ekki er lengur boðið upp á. Þessi verkflæði eru ekki studd eins og er.
+> Þegar verið er að bæta við nýju verkflæði er einnig hægt að sjá eftirfarandi úrelt verkflæði sem skráð eru í svarglugganum **Stofna verkflæði**. Þetta tengist *staðfestingu kvittunar* virkninni sem var tiltæk í [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), en sem ekki er lengur boðið upp á. Þessi verkflæði eru ekki studd eins og er.
 > 
 > - Verkflæði tilkynningar um skiladag sendingar
 > - Verkflæði tilkynninga um móttekinn reikning
@@ -80,3 +77,6 @@ Hægt er að úthluta samþykktarskrefi til eftirfarandi flokka þátttakenda.
 - [Skilgreina viðskiptaferli verkflæði fyrir innkaupabeiðnir](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Verkflæði innkaupabeiðni](purchase-requisitions-workflow.md)
 - [Nýliðun lánardrottna](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

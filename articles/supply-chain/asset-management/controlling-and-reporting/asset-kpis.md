@@ -1,12 +1,10 @@
 ---
 title: Afkastavísar (KPI) eignar
 description: Þetta efni skýrir afkastavísa eigna í eignastýringu.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetObjectKPI
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f75db96926e72bab80d0a65ce6f0ab3a92590699
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
-ms.translationtype: HT
+ms.openlocfilehash: 8bdc60d993a784ffc123d36b5e51cbd6028316f18a2dee6f4ee134a93ffc024e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021781"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778749"
 ---
 # <a name="asset-kpis"></a>Afkastavísar (KPI) eignar
 
@@ -84,8 +82,11 @@ ms.locfileid: "5021781"
 
 Myndin hér að neðan sýnir skjámynd af útreikningi afkastavísis fyrir fjórar eignir.
 
-![Skjámynd af KPI-útreikningi á fjórum eignum](media/11-controlling-and-reporting.png)
+![Skjáskot af KPI-útreikningi á fjórum eignum.](media/11-controlling-and-reporting.png)
 
 - Þú getur valið margar eignir í **Allar eignir** og smellt á hnappinn **Afkastavísir eigna** á flipanum **Almennt**. Síðan smellirðu á **Í lagi** í valmyndinni **Reikna afkastavísi eigna** til að reikna út afkastavísi fyrir valdar eignir.  
 - Niðurstöður úr útreikningi á afkastavísi kunna að innihalda eða ekki [skráningar á niðurtíma vegna viðhalds](../work-orders/maintenance-downtime.md), allt eftir uppsetningu og notkun á ástæðukóða fyrir niðurtíma vegna viðhalds. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

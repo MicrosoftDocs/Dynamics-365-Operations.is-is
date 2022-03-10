@@ -2,11 +2,9 @@
 title: Skipta mynduðum XML-skrám út frá skráarstærð og efnismagni
 description: Í þessu efnisatriði eru veittar upplýsingar um hvernig á að skipta mynduðum skrám út frá stærð og efnismagni.
 author: NickSelin
-manager: AnnBe
-ms.date: 05/25/2018
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: d60266aba42f502e7707bdace921cfee4526b6ae
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: 3735bcb06eff966fc364a891b38d44e34e845e35f59314822d13eba40d51d5f4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682872"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769973"
 ---
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>Skipta mynduðum XML-skrám út frá skráarstærð og efnismagni
 
@@ -40,10 +38,13 @@ Ef þú hefur skilgreint viðtökustað skráar fyrir sniðseiningu skráar sem 
 
 Til að læra meira um þennan eiginleika skal spila verkefnaleiðbeininguna **Skipting XML-skráa rafrænnar skýrslugerðar á grundvelli skáarstærðar eða magni innihaldsefnis** sem er hluti af viðskiptaferlinu **7.5.4.3 Acquire/Develop IT- þjónustu-/lausnarhlutum (10677)** og sem hægt er að hlaða niður frá [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684). Þessi verkefnaleiðbeining fylgir þér í gegnum ferlið við að grunnstilla snið rafrænnar skýrslugerðar til að skipta mynduðum skrám á grundvelli marka á skráarstærð og magni innihaldsefnis. Til að ljúka verkefnaleiðbeiningunum verður að sækja eftirfarandi skrár:
 
-- [Skilgreining líkans fyrir rafræna skýrslugerð - XmlFilesSplittingModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
-- [Skilgreining sniðs fyrir rafræna skýrslugerð - XmlFilesSplittingFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+- [Skilgreining líkans fyrir rafræna skýrslugerð - XmlFilesSplittingModel.xml](https://download.microsoft.com/download/e/a/f/eaffe96a-22ec-4a32-898a-f4328c91c387/XmlFilesSplittingModel.xml)
+- [Skilgreining sniðs fyrir rafræna skýrslugerð - XmlFilesSplittingFormat.xml](https://download.microsoft.com/download/e/9/c/e9c5849b-8254-4cdf-bb00-4c2ebc72ddec/XmlFilesSplittingFormat.xml)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 [Áfangastaðir rafrænnar skýrslugerðar (ER)](electronic-reporting-destinations.md)
 
 [Formúluhönnuður í rafrænni skýrslugerð (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

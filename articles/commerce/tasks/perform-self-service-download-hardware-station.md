@@ -2,11 +2,9 @@
 title: Framkvæma Sjálfsafgreiðslu til að sækja vélbúnaðarstöð
 description: Þetta ferli fer í gegnum hvernig á að hlaða niður nýja fyrirfram skilgreinda vébúnaðarstöð
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26e425973653240870a53c469385543549feb347
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 0a378cf76d56502fdf1a8062c90d62a554d0db6dda6e4262fc62136dc82d8361
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743336"
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a>Framkvæma Sjálfsafgreiðslu til að sækja vélbúnaðarstöð
 

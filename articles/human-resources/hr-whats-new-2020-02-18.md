@@ -1,39 +1,38 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Human Resources (18. febrúar 2020)
 description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 18. febrúar 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 002b1b8b86c4fb40f46c239669cd5dfead251bfe
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
-ms.translationtype: HT
+ms.openlocfilehash: 9cce93aab902a8ca269cf22e1999716fe49f3ed8
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526979"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063005"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (18. febrúar 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum Dynamics 365 Human Resources. Breytingar eiga við um byggingarnúmer 8.1.2903. Tölurnar í sviga í sumum fyrirsögnum vísa til stuðningsnúmera LCS fyrir tilvísun.
 
 ## <a name="platform-update-32"></a>Update 32 fyrir verkvang 
 
-Verkvangsuppfærsla 32 er nú fáanleg. Sjá frekari upplýsingar [Hvað er nýtt eða breytt í uppfærslu verkvangs 32 fyrir Finance and Operations (febrúar 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
+Verkvangsuppfærsla 32 er nú fáanleg. Fyrir frekari upplýsingar, sjá [Hvað er nýtt eða breytt í pallauppfærslu 32 fyrir fjármál og rekstur (febrúar 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ## <a name="search-values-are-remembered-when-changing-view-options-in-streamlined-employee-form-383833"></a>Leitargildi eru minnst þegar skipt er um skjámöguleika í straumlínulagaðri starfsmannaformi (383833)
 
@@ -43,17 +42,17 @@ Nýi glugginn **Starfskraftur** man nú eftir leitargildum þegar þú breytir s
 
 Fastir og breytilegir reitir fyrir launastjórnun sýna nú réttar skrár í nýja eyðublaðinu **Starfskraftur**. Gildir aðeins um straumlínulagaða forskoðunareiginleika starfsmanna. Þú getur gert þennan forskoðunareiginleika virkan í **Stjórnun eiginleika**. Frekari upplýsingar eru í [Stjórna eiginleikum](hr-admin-manage-features.md).
 
-## <a name="empty-status-field-for-some-leave-request-records-in-common-data-service-414915"></a>Tómur stöðureitur fyrir sumar skráningar vegna leyfisbeiðna í Common Data Service (414915)
+## <a name="empty-status-field-for-some-leave-request-records-in-dataverse-414915"></a>Tómur stöðureitur fyrir sumar skráningar vegna leyfisbeiðna í Dataverse (414915)
 
-Þessi breyting leiðréttir mál í Common Data Service þegar reiturinn **Staða** í leyfisbeiðni er stilltur á **Endurskoðun**. Common Data Service endurspeglar nú stöðuna.
+Þessi breyting leiðréttir mál í Dataverse þegar reiturinn **Staða** í leyfisbeiðni er stilltur á **Endurskoðun**. Dataverse endurspeglar nú stöðuna.
 
 ## <a name="skill-gap-analysis-only-possible-for-assigned-job-411390"></a>Hæfnigreining aðeins möguleg fyrir úthlutað starf (411390)
 
 Þú getur nú gert hæfnigreiningar í hverju starfi sem skilgreint er í Human Resources.
 
-## <a name="system-currency-doesnt-sync-from-common-data-service-to-human-resources-in-new-environments-418011"></a>Kerfisgjaldmiðill er ekki samstillt úr Common Data Service í Human Resources í nýju umhverfi (418011)
+## <a name="system-currency-doesnt-sync-from-dataverse-to-human-resources-in-new-environments-418011"></a>Kerfisgjaldmiðill er ekki samstillt úr Dataverse í Human Resources í nýju umhverfi (418011)
 
-Kerfisgjaldmiðill í Common Data Service getur núna samstillt sig við Human Resources.
+Kerfisgjaldmiðill í Dataverse getur núna samstillt sig við Human Resources.
 
 ## <a name="in-preview"></a>Í kynningarútgáfu
 
@@ -63,9 +62,9 @@ Kerfisgjaldmiðill í Common Data Service getur núna samstillt sig við Human R
 
 ## <a name="coming-soon"></a>Væntanlegt
 
-### <a name="updated-common-data-service-solution"></a>Uppfærð Common Data Service-lausn
+### <a name="updated-dataverse-solution"></a>Uppfærð Dataverse-lausn
 
-Nýtt Common Data Service lausn mun liggja fyrir fljótlega með eftirfarandi breytingum:
+Nýtt Dataverse lausn mun liggja fyrir fljótlega með eftirfarandi breytingum:
 
 | Lýsing | Skiptimynt |
 | ----------------------------------------- | --- |
@@ -76,11 +75,13 @@ Nýtt Common Data Service lausn mun liggja fyrir fljótlega með eftirfarandi br
 | Nýir uppsetningaraðilar breytilegra bóta | **Fyrirkomulagsgerð breytilegra uppbóta**</br>**Fyrirkomulag breytilegra uppbóta**</br>**Veitireglur**</br>**Fyrirkomulagsstig breytilegra uppbóta** |
 | Nýtt **Starfsmaður dagatal atvinnu** eining | **Vinnudagatalseining** bætt við |
 | Ný eining **Upplýsinga um launastöðu** | **Upplýsingar um launastöðu** bætt við |
-| Einingin nýr **Titill** | **Titill** bætt við. Nýja einingin **Titill** verður með í samstillingarferlinu milli Human Resources og Common Data Service. Ekki verður upphaflega vísað í hana úr einingunum **Staða starfs** eða **Starf**. |
+| Einingin nýr **Titill** | **Titill** bætt við. Nýja einingin **Titill** verður með í samstillingarferlinu milli Human Resources og Dataverse. Ekki verður upphaflega vísað í hana úr einingunum **Staða starfs** eða **Starf**. |
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Nýjungar eða breytingar í Human Resources](hr-admin-whats-new.md)</br>
-[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

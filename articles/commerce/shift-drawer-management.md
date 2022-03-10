@@ -13,15 +13,15 @@ ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d9d36bcb05cf466d34d921d8cd5266b6c12a63d7
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
-ms.translationtype: HT
+ms.openlocfilehash: 2ac42c92d38299c20bfcb293ac062aa9e4b1c628
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028252"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779745"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Vakta- og peningaskúffustjórnun
 

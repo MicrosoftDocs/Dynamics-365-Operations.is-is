@@ -1,7 +1,7 @@
 ---
 title: Setja upp valmyndaratriði fartækis til að skrá mótteknar vörur
 description: Þetta efni leggur áherslu á uppsetningu valmyndaratriði fartækis.
-author: ShylaThompson
+author: Mirzaab
 ms.date: 08/16/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfe068bd964f31b77e30b34ef20c2b0f70ed6238
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 410a70294e5a417950ed5332ec5fdd7da321a31d
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830787"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565160"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Setja upp valmyndaratriði fartækis til að skrá mótteknar vörur
 

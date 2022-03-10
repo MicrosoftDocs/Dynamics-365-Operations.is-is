@@ -1,33 +1,35 @@
 ---
 title: Breyta persónuupplýsingum
-description: Þessi grein lýsir því hvernig á að breyta persónulegum upplýsingum í sjálfsafgreiðslu starfsmanna og stjórnenda.
-author: andreabichsel
-ms.date: 03/19/2020
+description: Í þessari grein er lýst hvernig á að breyta persónuupplýsingum í sjálfsafgreiðslu starfsmanns og stjórnanda.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a1cde80223ec3052adf58f34c344e004936b584
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: e798646263b9939445f49a3866532cd229c668cd
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790837"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071720"
 ---
 # <a name="edit-personal-information"></a>Breyta persónuupplýsingum
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þú getur breytt persónuupplýsingum þínum í Dynamics 365 Human Resources í **Vinnusvæði sjálfsafgreiðslu starfsmanna**.
+Þú getur breytt persónuupplýsingum þínum í Dynamics 365 Human Resources á vinnusvæðinu **Sjálfsafgreiðsla starfsmanns**.
 
 Persónuupplýsingarnar sem þú getur breytt eru:
 
@@ -41,7 +43,7 @@ Persónuupplýsingarnar sem þú getur breytt eru:
 >[!NOTE]
 >Hugsanlega er ekki hægt að breyta vissum gerðum persónulegra upplýsinga, t.d. upplýsingum um tengilið. Frekari upplýsingar er að finna [Við uppsetningu runuvinnslunnar](hr-employee-self-service-restrict-editing.md).
 
-Breytur sem settar eru fram í altækri aðsetursbók ákvarða hlutverk sem geta séð persónuupplýsingar þínar.
+Færibreytur sem stilltar eru á síðunni **Færibreytur altækrar aðsetursbókar** ákvarða hvaða hlutverk geta séð persónuupplýsingar þínar.
 
 1. Í Human Resources velurðu **Sjálfsafgreiðsla starfsmanns**.
 
@@ -70,7 +72,7 @@ Breytur sem settar eru fram í altækri aðsetursbók ákvarða hlutverk sem get
     - Til að bæta við kennitölu velurðu **Nýtt**. Fylltu út reitina eftir þörfum og veldu **Vista**.
     - Til að breyta tölu velurðu **Breyta**. Breyttu reitunum eftir þörfum og veldu **Vista**.
 
-7. Til að breyta aðferðum sem þú færð greitt með, veldu flipann **Greiðsluupplýsingar mínar**. Þessi flipi er aðeins tiltækur ef greiðslumátar eru virkir í glugganum **Færibreytur Human Resources**. HR getur gert kleift **Bankaávísun**, **Reiðufé**, **Ávísun**, **Rafræn greiðsla** eða **Annað**. HR getur einnig slökkt á rafrænni greiðsluprófun (notuð fyrir bandarísk launaskrá) og staðfestingu bankareiknings og leiðarnúmera.
+7. Til að breyta aðferðunum sem þú færð greitt með skaltu velja **Greiðsluupplýsingar mínar** flipa. Þessi flipi er aðeins í boði ef greiðslumátar eru virkjaðir í **Stærðir mannauðs** síðu. HR getur gert kleift **Bankaávísun**, **Reiðufé**, **Ávísun**, **Rafræn greiðsla** eða **Annað**. HR getur einnig slökkt á rafrænni greiðsluprófun (notuð fyrir bandarísk launaskrá) og staðfestingu bankareiknings og leiðarnúmera.
 
 8. Til að breyta myndinni sem birtist í Human Resources fyrir prófílinn þinn skaltu velja flipann **Mynd**. Það fer eftir stillingum stofnunarinnar, myndir gætu verið beint til samþykktar.
 

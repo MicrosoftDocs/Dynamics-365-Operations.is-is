@@ -3,7 +3,7 @@ title: Innsýn í greiðslu viðskiptavinar (forútgáfa)
 description: Í þessu efnisatriði er lýsing á greiðsluinnsýn sem getur aukið skilning á dæmigerðri greiðsluhegðun einstakra viðskiptavina. Þessi eiginleiki getur hjálpað til við að auðkenna aðstæður sem réttlæta innheimtuferli fyrr en annars hefði verið.
 author: ShivamPandey-msft
 ms.date: 11/06/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 82b301b4b8ba61375a53a8fe6220628500f6cf3d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359318"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984003"
 ---
 # <a name="customer-payment-insights-preview"></a>Innsýn í greiðslu viðskiptavinar (forútgáfa)
 
@@ -61,7 +61,7 @@ Með greiðslu innsýn viðskiptavina (forskoðun), geta fyrirtæki verið meira
 
 ## <a name="methodology"></a>Aðferð
 
-Erfitt er að þróa og dreifa AI lausn. Fjöldi gagnasérfræðinga, sérfræðinga á viðkomandi sviði og verkfræðinga þarf að vinna lengi að mótun, þróun, uppsetningu og viðhaldi nothæfrar AI-lausnar. Við erum að auðvelda að dreifingu og notkun á AI lausnum í Finance. Við erum að forpakka AI lausnum í Finance sem eru byggðar ofan á Microsoft AI Builder. Með einum smelli á hnapp getur notandi beitt AI lausninni og byrjað að nýta ávinninginn af snjallspám. Ef fyrirtæki er ekki ánægt með nákvæmni spáa getur yfirnotandi, aftur með einum smelli, farið inn í viðbótina AI Builder og síðan valið eða afvalið reitina sem notaðir eru til að mynda spár. Þegar þeir eru tilbúnir geta þeir þjálfað og birt breytingarnar og nýþjálfaða líkanið verður sjálfkrafa sótt fyrir spár í Finance.
+Erfitt er að þróa og dreifa AI lausn. Fjöldi gagnasérfræðinga, sérfræðinga á viðkomandi sviði og verkfræðinga þarf að vinna lengi að mótun, þróun, uppsetningu og viðhaldi nothæfrar AI-lausnar. Við erum að auðvelda að dreifingu og notkun á AI lausnum í Finance. Við erum að forpakka gervigreindarlausnir í Finance sem eru byggðar ofan á Microsoft AI Builder. Með einum smelli á hnapp getur notandi beitt AI lausninni og byrjað að nýta ávinninginn af snjallspám. Ef fyrirtæki er ekki ánægt með nákvæmni spáa getur yfirnotandi, aftur með einum smelli, farið inn í viðbótina AI Builder og síðan valið eða afvalið reitina sem notaðir eru til að mynda spár. Þegar þeir eru tilbúnir geta þeir þjálfað og birt breytingarnar og nýþjálfaða líkanið verður sjálfkrafa sótt fyrir spár í Finance.
 
 ## <a name="how-to-get-customer-payment-insights-preview"></a>Hvernig skal nálgast innsýn í greiðslu viðskiptavinar (forútgáfa)
 
@@ -69,7 +69,7 @@ Sendið tölvupóst til [Innsýn í greiðslur viðskiptavinar (forskoðun)](mai
 
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
 
-Forútgáfur (1) geta mögulega notað minni persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 Finance and Operations, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.
+Forsýningar (1) kunna að nota minni persónuverndar- og öryggisráðstafanir en Dynamics 365 Finance og rekstrarþjónusta, (2) eru ekki innifalin í þjónustustigssamningnum fyrir þessa þjónustu, (3) ætti ekki að nota til að vinna úr persónuupplýsingum eða öðrum gögnum sem eru háð kröfum um samræmi við lög eða reglur og (4) hefur takmarkaðan stuðning.
 
 
 

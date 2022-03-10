@@ -1,8 +1,8 @@
 ---
 title: Setja upp afsláttarmiða fyrir smásölu
-description: Þetta efnisatriði gefur yfirlit yfir afsláttarmiða og útskýrir hvernig á að setja þá upp.
-author: scott-tucker
-ms.date: 06/04/2020
+description: Þetta efnisatriði gefur yfirlit yfir afsláttarmiða og útskýrir hvernig á að setja þá upp í Dynamics 365 Commerce.
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9d8b9977d733c87566249bcb9658b80c4350c17d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792026"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603124"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Setja upp afsláttarmiða fyrir smásölu
 
@@ -38,6 +38,10 @@ Til að stofna afsláttarmiða stofnarðu afsláttinn og afsláttarmiðinn í si
 
 > [!NOTE]
 > Þegar afsláttarmiði er tengdur við afslátt verða nokkrir reitir á afsláttarsíðunni í Commerce skrifvarðir vegna þess að stillingar afsláttarmiða stjórna þeim. Þessir reitir innihalda reitina fyrir stöðu og stöðluð dagsetningabil.
+> 
+> Þegar afsláttarmiðinn er notaður í rás símavers þarf að velja hnappinn **Endurreikna** **(flipann Selja > Reikna > Endurreikna)** til að afslátturinn sem tengist afsláttarmiðanum sé notaður. Þetta viðbótarskref verður fjarlægt í útgáfum í framtíðinni.
+
+Til að setja afsláttarmiða á sölufærslu á sölustað getur þú notað **afsláttarmiðakóða** eða **strikamerkjakóða afsláttarmiða**. Til að nota **afsláttarmiðakóða** verður aðgerðin **Bæta við afsláttarmiðakóða** að vera skilgreind á uppsetningu **færsluskjás** [á sölustað](pos-screen-layouts.md). Veldu **Bæta við afsláttarmiðakóða** og sláðu inn afsláttarmiðakóða. Einnig, til að nota **Strikamerkjakóði afsláttarmiða**, skannaðu strikamerki eða sláðu inn strikamerkið með því að nota talnaborðið á **færsluskjánum**.
 
 ### <a name="limited-use-coupons"></a>Afsláttarmiðar með takmarkaða notkun
 

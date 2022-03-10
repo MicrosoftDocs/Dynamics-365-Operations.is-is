@@ -1,12 +1,10 @@
 ---
 title: Bókunarskilgreiningar
-description: Þessi grein veitir upplýsingar um bókunarskilgreiningar og hvernig skuli skilgreina þær og búa til tengla í. Fyrir studdar bókunargerðir og skjöl, er hægt að nota bókunarskilgreiningar í stað bókunarreglur til að flokka aðallykla og fjárhagsvíddir í bókhaldsfærslur.
-author: ShylaThompson
-manager: AnnBe
+description: Þetta efnisatriði veitir upplýsingar um bókunarskilgreiningar og hvernig skuli skilgreina þær og búa til tengla í þær. Fyrir studdar bókunargerðir og skjöl, er hægt að nota bókunarskilgreiningar í stað bókunarreglur til að flokka aðallykla og fjárhagsvíddir í bókhaldsfærslur.
+author: kweekley
 ms.date: 09/03/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans, LedgerParameters
 audience: Application User
@@ -14,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 15741
 ms.assetid: 1495e7e0-2e39-464c-8da9-f55b1ca1c6bb
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1da98461d1faf59ad8496dbc5623e97ac88c8a28
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: d409f154823a74e032adb71253ce97f8e3b2f101
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990340"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726967"
 ---
 # <a name="posting-definitions"></a>Bókunarskilgreiningar
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um bókunarskilgreiningar og hvernig skuli skilgreina þær og búa til tengla í.
+Þetta efnisatriði veitir upplýsingar um bókunarskilgreiningar og hvernig skuli skilgreina þær og búa til tengla í þær.
 Fyrir studdar bókunargerðir og skjöl, er hægt að nota bókunarskilgreiningar í stað bókunarreglur til að flokka aðallykla og fjárhagsvíddir í bókhaldsfærslur. Hægt er að skoða skjöl og gerðir bókana á í **bókunarskilgreiningar Færslna** síðu. 
 
 Til að byrja að nota bókunarskilgreiningar, í **Nota bókunarskilgreiningar** valkostinn á í **fjárhagsfæribreytur** síðu. Jafnvel þegar nota bókunarskilgreiningar, enn þarf að skilgreina bókunarreglur fyrir upphaflegar færslur og ekki studdar bókunargerðir og skjöl. 
@@ -61,3 +59,6 @@ Eftirfarandi takmarkanir eiga við þegar stofnaðir eru tengla í bókunarskilg
 Frekari upplýsingar eru í [Dæmi um bókunarskilgreiningu](example-posting-definitions.md). 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

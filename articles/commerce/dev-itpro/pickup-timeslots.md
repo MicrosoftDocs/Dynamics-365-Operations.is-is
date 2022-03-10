@@ -2,11 +2,9 @@
 title: Stofna og uppfæra tímabil afhendingar til viðskiptavinar
 description: Þetta efnisatriði lýsir því hvernig á að stofna, skilgreina og uppfæra tímahólf fyrir sóttar pantanir viðskiptavinar í Commerce Headquarters.
 author: anupamar-ms
-manager: AnnBe
-ms.date: 11/06/2020
+ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: f86eb47ec64dff230223ed0ecbe792373aca649f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681543"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713422"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Stofna og uppfæra tímabil afhendingar til viðskiptavinar
 
@@ -36,7 +34,7 @@ Tímahólfsaðgerðin býður smásölum upp á leið til að skilgreina tímah�
 
 Eftirfarandi mynd sýnir dæmi um val á tímahólfi í greiðsluferli rafrænna viðskipta.
 
-![Dæmi um val á tímahólfi í greiðsluferli rafrænna viðskipta](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Dæmi um val á tímahólfi í greiðsluferli rafrænna viðskipta.](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="time-slot-properties"></a>Eiginleikar tímahólfs
 
@@ -49,22 +47,20 @@ Tímahólf er skilgreint með eftirfarandi eiginleikum:
 
     Eiginleikinn **Lágmarksdagar** tryggir að nægur tími er fyrir smásala til að ganga frá pöntuninni áður en hún er tilbúin til að verða sótt. Eiginleikinn **Hámarksdagar** tryggir að notendur geti ekki valið dagsetningu sem er of langt fram í tímann. Til dæmis, ef lágmarksgildið er stillt á **1**, og pöntun er gerð 20. september, er fyrsti dagurinn sem verður hægt að sækja pöntunina næsti gjaldgengi dagur (21. september). Á svipaðan hátt, með því að stilla hámarksgildi, er hægt að skilgreina hámarksfjölda daga sem hægt verður að sækja pöntunina. Þegar lágmarks- og hámarksgildin eru skilgreind geta notendur svæðisins séð og valið aðeins tiltekinn fjölda daga í greiðsluferlinu.
 
-    Hægt er að stilla lágmarksgildið á tugagildi sem er minna en 1. Til dæmis ef hægt verður að sækja fjórum klukkustundum eftir að pöntun er gerð, skal stilla lágmarksgildið á **0,17** (= 4 ÷ 24, námundað upp í tvö aukasæti). Ef lágmarksgildið er hins vegar stillt á tugagildi sem eru hærra en 1, er það alltaf námundað í næstu heilu tölu (upp eða niður).
-
-    Ef hámarksgildið er stillt á tugabrot er það alltaf sléttað. Til dæmis verður gildið **1,2** sléttað upp í **2**.
+    Hægt er að stilla lágmarksgildið á tugagildi sem er minna en 1. Til dæmis ef hægt verður að sækja fjórum klukkustundum eftir að pöntun er gerð, skal stilla lágmarksgildið á **0,17** (= 4 ÷ 24, námundað upp í tvö aukasæti). Ef lágmarksgildið er hins vegar stillt á tugagildi sem eru hærra en 1, er það alltaf námundað í næstu heilu tölu. Til dæmis verður gildið **1,2** sléttað upp í **2**. Ef hámarksgildið er stillt á tugabrot er það á samma hátt alltaf sléttað. 
 
 - **Upphafsdagsetning** og **Lokadagsetning** – Tilgreinið upphafs- og lokadagsetningar tímahólfsins. Hver tímafærsla er með upphafsdag og lokadag. Þess vegna er sveigjanleikinn til staðar til að bæta við mismunandi tímahólfum yfir árið (til dæmis það sem verður sótt á frídögum). Ef upphafs- og lokadagsetning tímahólfs er breytt eftir að pöntun er gerð munu breytingarnar ekki eiga við þá pöntun. Þegar upphafs- og lokadagsetningar eru skilgreindar þarf að taka tillit til dagsetninga þegar verslun er lokið (t.d. jóladag) og tryggja að tímahólf séu ekki skilgreind fyrir þessa daga.
-- **Virkur tími afhendingar** – Tilgreinið tímabilið þegar leyft er að sækja. Til dæmis gæti afgreiðslutími verið á milli 14:00 og 17:00 hvern dag. Þessi eiginleiki gerir kleift að hafa afhendingartíma óháðan opnunartíma verslunar. Þar af leiðandi getur smásali skilgreint afhendingartíma sem hentar viðskiptaþörfum hans. Þegar virkur tími er skilgreindur fyrir sótta pöntun þarf að taka tillit til opnunartíma verslunar og ganga úr skugga um að afhendingartímar séu ekki skilgreindir fyrir tíma þegar verslunin er lokuð.
+- **Virkar klukkustundir afhendingar** – Tilgreinið tímabilið þegar leyft er að sækja. Til dæmis gæti afgreiðslutími verið á milli 14:00 og 17:00 hvern dag. Þessi eiginleiki gerir kleift að hafa afhendingartíma óháðan opnunartíma verslunar. Þar af leiðandi getur smásali skilgreint afhendingartíma sem hentar viðskiptaþörfum hans. Þegar virkur tími er skilgreindur fyrir sótta pöntun þarf að taka tillit til opnunartíma verslunar og ganga úr skugga um að afhendingartímar séu ekki skilgreindir fyrir tíma þegar verslunin er lokuð.
 
     > [!NOTE]
     > Skilgreina þarf tímana fyrir sótta pöntun úr verslun í tímabelti viðeigandi verslunar.
 
-- **Tímabil tímahólfs** - Tilgreinið tímalengdina sem hægt verður að úthluta hverju tímahólfi. Til dæmis gæti tímalengd hvers tímahólfs verið stigvaxandi frá 15 mínútum, 30 mínútur, eða einni klukkustund.
+- **Tímabil tímahólfs** - Tilgreinið tímalengdina sem hægt verður að úthluta hverju tímahólfi. Til dæmis gæti tímalengd hvers tímahólfs verið stigvaxandi frá 15 mínútum, 30 mínútur, eða einni klukkustund. Ef gildi tímahólfs er 0 er tímahólfið í boði fyrir alla tímalengd milli upphafs- og lokatíma.
 - **Hólf á tímabil** - Tilgreinið fjölda viðskiptavina eða pantanir sem hægt verður að afgreiða þegar er sótt í hverju tímabili tímahólfs. Til dæmis skal slá inn **1**, **2**, **3** eða aðrar heiltölur.
 - **Virkir dagar** – Tilgreinið daga vikunnar þegar tímahólf afhendingar eru virk. Þessi eiginleiki gerir söluaðila kleift að skilgreina dagana þegar hann vill þjónusta pantanir sem verða sóttar.
 - **Smásölurásir** - Tilgreinið smásölurásir. Hvert tímahólf er hægt að tengja við eina eða fleiri smásöluverslanir. Hægt er að stofna eina eða fleiri tímahólfsfærslur, allt eftir opnunartíma hverrar verslunar, og tengja við rásina. 
 
-<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 Aðeins er hægt að grunnstilla eitt tímasniðmát fyrir hverja rás. Þessar rásir innihalda verslanir á staðnum, símaver, farsíma og netverslunarsíður.
 
@@ -84,19 +80,19 @@ Til að skilgreina eiginleika tímahólfsins í Commerce Headquarters skal fylgj
 1. Í flýtiflipanum **Pöntun sótt - Tímastillingar** skal velja **Bæta við**.
 1. Í svarglugganum **Pöntun sótt - Tímastillingar** skal skilgreina dagsetningabilið, afhendingarmátann, virkan tíma afhendingar, virka daga, tímabil tímahólfs, hólf á hvert tímabil og aðrar stillingar.
 
-    Ef tímahólf eiga að vera óbreytt í ókominni framtíð skal skilja reitinn **Lokadagsetning** eftir auðan.
+    Ef tímahólf eiga að vera óbreytt í ókominni framtíð skal stilla reitinn **Lokadagsetning** á **Aldrei**.
 
     > [!NOTE]
     > Hægt er að búa til mörg sniðmát en aðeins má tengja eitt sniðmát við eina rás eða verslun.
 
-    ![Svargluggi fyrir Pöntun sótt - Tímastillingar](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
+    ![Svargluggi fyrir Pöntun sótt - Tímastillingar.](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
 
 1. Þegar þessu er lokið skal velja **Í lagi**.
 1. Ef tímahólf yfir daginn eru breytileg skal búa til fleiri færslur í flýtiflipanum **Pöntun sótt - Tímastillingar** til að ganga úr skugga um að dagsetningar og tímar skarist ekki.
 1. Í flýtiflipanum **Smásölurásir** skal velja **Bæta við** til að tengja sniðmát tímahólfs við verslanir eða rásir þar sem það verður notað.
 1. Í svarglugganum **Veljið fyrirtækjahnúta** skal nota örvarhnappana til að velja (eða hreinsa valið á) verslanir, svæði og fyrirtæki sem sniðmátið á að tengjast.
 
-    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. Þegar þessu er lokið skal velja **Í lagi**.
 1. Á síðunni **Dreifingaráætlun** skal keyra verkin **1070** og **1135** til að samstilla gögn til rásanna.
@@ -107,7 +103,7 @@ Til að skilgreina eiginleika tímahólfsins í Commerce Headquarters skal fylgj
 
 Eftirfarandi mynd sýnir dæmi um val á tímahólfi fyrir pöntun sölustaðar.
 
-![Dæmi um val á tímahólfi fyrir sölustaðarpöntun](../dev-itpro/media/Curbside_timeslot_POS.png)
+![Dæmi um val á tímahólfi fyrir sölustaðarpöntun.](../dev-itpro/media/Curbside_timeslot_POS.png)
 
 ## <a name="time-slot-selection-for-e-commerce-orders"></a>Val á tímahólfi fyrir pantanir rafrænna viðskipta
 
@@ -118,8 +114,17 @@ Upplýsingar um hvernig hægt er að gera val á tímahólfi aðgengilegt fyrir 
 
 Eftirfarandi mynd sýnir dæmi um rafræna pöntun þar sem tímahólf sóttrar pöntunar hefur verið valið.
 
-![Dæmi um rafræna pöntun þar sem tímahólf sóttrar pöntunar hefur verið valið](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Dæmi um rafræna pöntun þar sem tímahólf sóttrar pöntunar hefur verið valið.](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+
+## <a name="time-slot-selection-for-call-center-orders"></a>Val tímahólfs fyrir pantanir símavers
+
+Í símaforriti símavers geta fulltrúar símavers valið móttökuverslunina eða staðsetningu, ásamt dagsetningu og tímahólf sem auðkenndt er á eftirfarandi mynd.
+
+![Dæmi um pöntun símavers þar sem tímahólf hefur verið valið.](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Eining fyrir afhendingarupplýsingar](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

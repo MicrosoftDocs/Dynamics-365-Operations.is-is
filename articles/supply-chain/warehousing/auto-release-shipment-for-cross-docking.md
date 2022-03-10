@@ -1,26 +1,24 @@
 ---
 title: Losa sendingu sjálfkrafa fyrir dreifingu frá dreifingarstöð
 description: Þetta efni lýsir stefnu um dreifingu frá dreifingarstöð sem gerir þér kleift að sleppa sjálfkrafa eftirspurnarpöntun á lager þegar framleiðslupöntunin sem veitir eftirspurnarmagnið er tilkynnt sem lokið, þannig að magnið er fært beint frá framleiðslustað til staðsetningar á útleið.
-author: omulvad
-manager: tfehr
+author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: bcae977ede91dcaf4e455353f023e9eee4fcb2b1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 1315bda1fd284eb326d4f08bf36bfea59074fde3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977489"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577937"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Losa sendingu sjálfkrafa fyrir dreifingu frá dreifingarstöð
 
@@ -163,7 +161,7 @@ Fylgdu þessum skrefum til að dreifa magni fullunninna vara frá dreifingastö�
 8. Á síðunni **Framleiðslupöntun**, á aðgerðarrúðunni, á flipanum **Framleiðslupöntun**, í hópnum **Ferli**, velurðu **Mat** og veldu síðan **Í lagi**. Pöntunin er metin og magn hráefnis er frátekið fyrir framleiðsluna.
 9. Í aðgerðarúðunni, á flipanum **Framleiðslupöntun**, í hópnum **Ferli**, velurðu **Losa**, og síðan velurðu **Í lagi**. Tiltektarvinna vöruhúss er búin til fyrir hráefnin.
 10. Opnaðu og skoðaðu verkið. Á aðgerðarrúðunni, á flipanum **Vöruhús**, í hópnum **Almennt** skaltu velja **Upplýsingar um vinnu**. Skráið niður vinnukennið.
-11. Skráðu þig inn í vöruhúsaforritið til að keyra verk í vöruhúsi 51.
+11. Skráðu þig inn í farsímaforrit vöruhúsakerfis til að keyra verk í vöruhúsi 51.
 12. Fara til **Framleiðsla** \> **Framleiðslutiltekt**.
 13. Sláðu inn vinnukennið til að hefja og ljúka við hráefnistiltektina. 
 
@@ -178,3 +176,6 @@ Athugaðu að eftirfarandi atburðir eiga sér stað:
 - Losun í vöruhús virkjast fyrir tengda sölupöntun.
 - Sendingar- og dreifingarvinna frá dreifingarstöð er stofnuð og byggist á losuninn. Þessi vinna leiðbeinir starfsmanni í vöruhúsi með að velja það magn sem þarf til að uppfylla sölupöntunarlínuna og setja það á staðsetningu á útleið sem tilgreind er í leiðbeiningum um dreifingu frá dreifingarstöð.
 - Ef magn framleiðslupöntunar er meira en það magn sem þarf í sölupöntuninni er regluleg frágangsvinna stofnuð. Þessi vinna leiðbeinir starfsmanni vöruhúss með að taka frá magn af fullunnum vörum sem er eftirstandandi eftir dreifingu frá dreifingarstöð og færa það í venjulega geymslu, samkvæmt staðsetningarleiðbeiningunum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

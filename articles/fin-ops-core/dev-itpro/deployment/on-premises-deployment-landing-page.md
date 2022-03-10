@@ -2,25 +2,26 @@
 title: Uppsetning á staðnum – heimasíða
 description: Þetta efnisatriði veitir upplýsingar og tengla í efni um uppsetningu á staðnum
 author: sericks007
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 55651
+ms.custom:
+- "55651"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: dc9642ee224290891c738c9d0d2b96ff119a1622
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564061"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712569"
 ---
 # <a name="on-premises-deployment-home-page"></a>Uppsetning á staðnum – heimasíða
 
@@ -30,22 +31,25 @@ ms.locfileid: "5564061"
 
 ## <a name="get-started"></a>Leiðsögn
 - [Yfirlit yfir uppsetningu á staðnum](on-premises-overview.md)
-- [Áætlun og undirbúningur fyrir uppsetningu á staðnum](plan-onprem-deployment.md)
+- [Áætlun og undirbúningur fyrir uppsetningu innanhúss](plan-onprem-deployment.md)
 - [Kerfiskröfur fyrir uppsetningu á staðnum](../../fin-ops/get-started/system-requirements-on-prem.md)
+- [Microsoft Dynamics 365 Finance + Operations (á staðnum) studdur hugbúnaður](onprem-compatibility.md)
 - [Kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Kaupa Finance + Operations (on-premises)](../../fin-ops/get-started/purchase-on-premises.md)
 - [Samanburður á skýi og eiginleikum á staðnum](../../fin-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Ráðningar
 - [Setja upp verk á staðnum í Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Setja upp og innleiða umhverfi á staðnum (verkvangsuppfærsla 12 og nýrri)](setup-deploy-on-premises-pu12.md)
+- [Setja upp og innleiða umhverfi á staðnum (verkvangsuppfærsla 41 og nýrri)](setup-deploy-on-premises-pu41.md)
+- [Setja upp og virkja umhverfi á staðnum í (verkvangsuppfærsla 12 til 40)](setup-deploy-on-premises-pu12.md)
 - [Setja upp nettengda prentara á staðnum](../analytics/install-network-printer-onprem.md)
 - [Skilgreina SQL Server Reporting Services fyrir staðbundna uppsetningu](../analytics/configure-ssrs-on-premises.md)
-- [Þróa og setja upp og nota líkön fyrir staðbundið umhverfi](develop-deploy-custom-models-on-premises.md)
+- [Þróa og virkja sérstillt líkön í innanhússumhverfi](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Vinna í virkjun á staðnum
+- [Skilgreina mikinn tiltækileika fyrir SQL Server Reporting Services (SSRS) hnúta](onprem-SSRSHA.md)
 - [Stilla skjalastjórnun](../../fin-ops/organization-administration/configure-document-management.md)
-- [Stillingar fyrir innflutning rafrænnar skýrslugerðar (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
+- [Innflutningur skilgreininga fyrir rafræna skýrslugerð](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Myndun, útgáfa og prentun fylgiskjala í uppsetningu á staðnum](../analytics/printing-capabilities-on-premises.md)
 - [Skilgreina staðgengla fyrir innanhússumhverfi](onprem-reverseproxy.md)
 - [Setja upp tæknilegan stuðning fyrir forrit Finance and Operations](../lifecycle-services/support-experience.md)
@@ -55,10 +59,10 @@ ms.locfileid: "5564061"
 - [Notaðu sama AD FS dæmi fyrir mörg umhverfi](onprem-reuseadfs.md)
 
 ## <a name="commerce"></a>Commerce
-- [Commerce-eiginleikar sem eru tiltækir fyrir uppsetningu á staðnum](../../../retail/retail-onprem.md)
+- [Commerce-eiginleikar sem eru tiltækir fyrir uppsetningu á staðnum](../../../commerce/retail-onprem.md)
 - [Uppsetningarskref fyrir hluta Retail-rásar í staðbundnu umhverfi](deploy-retail-onprem.md)
-- [Skilgreina, setja upp og virkja Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
-- [Grunnstilla og setja upp Commerce Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Skilgreina, setja upp og virkja Modern POS (MPOS)](../../../commerce/retail-modern-pos-device-activation.md)
+- [Grunnstilla og setja upp Commerce Scale Unit](../../../commerce/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>Uppfæra
 - [Uppfærsluferli fyrir umhverfi á staðnum](../migration-upgrade/on-prem-upgrade.md)

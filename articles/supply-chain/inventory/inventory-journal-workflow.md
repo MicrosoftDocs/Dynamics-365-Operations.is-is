@@ -1,27 +1,24 @@
 ---
 title: Samþykktarverkflæði birgðabókar
 description: Þetta efnisatriði lýsir því hvernig setja á upp og nota samþykktarverkflæði birgðabókar fyrir ýmsar gerðir efnislegra birgðafærslna. Verkflæði birgðabókar tryggja að aðeins er hægt að bóka samþykktar birgðabækur í færslum.
-author: sherry-zheng
-manager: tfehr
+author: yufeihuang
 ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430091"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778306"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Samþykktarverkflæði birgðabókar
 
@@ -32,6 +29,13 @@ ms.locfileid: "4430091"
 > [!NOTE]
 > Samþykktarverkflæði birgðabókar á aðeins við um færslur sem skráðar eru með birgðastjórnunareiningunni. Þau vinna ekki með birgðabækur sem ræsast í einingu vöruhúsakerfis.
 
+## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Kveikið á eiginleika samþykktarverkflæði birgðabókar
+
+Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta notað [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) síðu til að athuga stöðu eiginleika og virkja eða slökkva á honum ef þörf krefur. Hérna er eiginleikinn skráður sem:
+
+- **Eining:** *Birgða- og vöruhúsakerfi*
+- **Heiti eiginleika:** *Samþykktarverkflæði birgðabókar*
+
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Búið til samþykktarverkflæði birgðabókar
 
 Til að setja upp þennan eiginleika þarf að stofna verkflæði fyrir allar gerðir birgðabókar sem á að stýra. Vegna þess að mismunandi gerðir birgðabókar geta haft mismunandi samþykktarstigveldi og verkflæðisskref, er hægt að skilgreina stök verkflæði fyrir hverja birgðabókargerð.
@@ -40,7 +44,7 @@ Verkflæði styðja útgáfustýringu og hvert þeirra er með auðkenni verkfl�
 
 Til að stofna samþykktarverkflæði birgðabókar:
 
-1. Opnið **Birgðastjórnun \> Uppsetning\> Verkflæði birgðastjórnunar**.
+1. Opnið **Birgðastjórnun \> Uppsetning \> Verkflæði birgðastjórnunar**.
 1. Veljið **Nýtt** á aðgerðasvæðinu.
 1. Veljið gerð birgðabókar þar sem setja á upp verkflæði:
     - **Birgðatalningarbók**
@@ -51,7 +55,7 @@ Til að stofna samþykktarverkflæði birgðabókar:
     - **Uppskriftabók birgða**
     - **Birgðaleiðréttingabók**
 
-    ![Svarglugga fyrir stofnun verkflæðis](media/journal-workflow-create-workflow.png "Svarglugginn „Stofna verkflæði“")
+    ![Svarglugga fyrir stofnun verkflæðis.](media/journal-workflow-create-workflow.png "Svarglugginn „Stofna verkflæði“")
 
 1. Forrit verkflæðisritils ræsist í tækinu þínu. (Þú gætir verið beðinn um að samþykkja þessa aðgerð.) Notaðu hana til að hanna verkflæðið þitt eftir þörfum. Frekari upplýsingar um hvernig á að nota verkflæðisritilinn er að finna í [Yfirlit verkflæðiskerfis](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md).
 1. Þegar búið er að vista og loka forriti verkflæðisritilsins verður að velja hvort virkja eigi þessa verkflæðisútgáfu eða halda henni óvirkri.
@@ -69,7 +73,7 @@ Að tengja verkflæði birgðabókar við birgðabókarheiti:
 1. Veljið heiti færslubókar úr listadálknum til að opna stillingasíðuna.
 1. Í flýtiflipanum **Almennt** skal stilla **Samþykktarverkflæði** á **Já**. Ef beðið er um að samþykkja aðgerðina skal velja **Já**.
 
-    ![Úthluta verkflæði á heiti færslubókar](media/journal-workflow-journal-name.png "Úthluta verkflæði á færslubókarheiti")
+    ![Úthluta verkflæði á heiti færslubókar.](media/journal-workflow-journal-name.png "Úthluta verkflæði á færslubókarheiti")
 
 1. Opnið fellilistann **Verkflæði** og veljið viðeigandi verkflæði. Listinn sýnir hvert virkt verkflæði sem stofnað hefur verið með því að nota forrit verkflæðisritilsins.
 
@@ -83,7 +87,7 @@ Að tengja verkflæði birgðabókar við birgðabókarheiti:
 1. Ljúka skal færslubókinni eftir þörfum.
 1. Þegar búið er að stofna eða opna birgðabók með samþykktarverkflæði sem tengist henni, verður hnappurinn **Verkflæði** virkur á aðgerðasvæðinu. Þegar notandi er reiðubúinn að senda færslubókina í samþykki skal velja hnappinn **Verkflæði** til að opna fellilistaglugga og velja síðan **Senda inn**. Samþykktarbeiðnin fer þá á viðeigandi samþykktaraðila, sem fær tilkynningu með tilkynningaraðferðinni sem skilgreind er fyrir verkflæðið.
 
-    ![Senda færslubók til samþykktar](media/journal-workflow-inventory-journal.png "Að senda færslubók til samþykktar")
+    ![Senda færslubók til samþykktar.](media/journal-workflow-inventory-journal.png "Að senda færslubók til samþykktar")
 
 Til að afturkalla samþykktarbeiðni, skal opna viðeigandi færslubók og velja hnappinn **Verkflæði** og síðan velja **Afturkalla**. Þetta endurstillir verkflæðið.
 
@@ -112,3 +116,6 @@ Að yfirfara verkflæðissögu færslubókar:
 1. Á yfirlitssvæðinu skal útvíkka **Birgðastjórnun \> Færslubókarfærslur \> Vörur** og síðan velja birgðabókargerð.
 1. Opnið viðeigandi færslubók.
 1. Veljið hnappinn **Verkflæði** á aðgerðasvæðinu til að opna fellilistaglugga. Veldu **Verkflæðissaga**. Frekari upplýsingar er að finna á [Skoða verkflæðissögu](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

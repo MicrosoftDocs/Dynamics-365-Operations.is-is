@@ -1,8 +1,8 @@
 ---
-title: Microsoft Office-notendaviðmót í viðskiptaskjalastjórnun (inniheldur myndband)
+title: Microsoft Office-stíl notendaviðmóts í viðskiptaskjalastjórnun (inniheldur myndband)
 description: Í þessu efnisatriði er útskýrt hvernig á að nota nýja notandaviðmótið í eiginleika viðskiptaskjalastjórnunar í ramma rafrænnar skýrslugerðar.
 author: v-anamir
-ms.date: 04/12/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,27 +15,28 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b0c481e73daf74803d3582e4089e76dcd383e8a4
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
-ms.translationtype: HT
+ms.openlocfilehash: e33830e2147d92ad5ee53ad11da55a50613b8ef9
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937557"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8074742"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Notandaviðmót Microsoft Office-stíls í Stjórnun viðskiptaskjala
 
 [!include [banner](../includes/banner.md)]
 
-Business Document Management leyfir notendum að breyta sniðmátum viðskiptaskjala með Microsoft 365-þjónustu eða viðeigandi Microsoft Office skjáborðsforriti. Breytingar gætu innihaldið hönnunarbreytingar eða nýjar dreifingar, eða notendur gætu bætt við frátökutákni til að innihalda viðbótargögn án þess að þurfa að breyta kóðanum. Nánari upplýsingar um hvernig á að vinna með skjalastjórnun viðskipta, sjá [Yfirlit yfir stjórnun viðskiptaskjala](er-business-document-management.md).
+Stjórnun viðskiptaskjala er gerir fyrirtækjanotendum kleift að breyta sniðmátum viðskiptaskjala með því að nota Microsoft Office 365 þjónustu eða viðeigandi Microsoft Office skjáborðsforrit. Breytingar gætu innihaldið hönnunarbreytingar eða nýjar dreifingar, eða notendur gætu bætt við frátökutákni til að innihalda viðbótargögn án þess að þurfa að breyta kóðanum. Nánari upplýsingar um hvernig á að vinna með skjalastjórnun viðskipta, sjá [Yfirlit yfir stjórnun viðskiptaskjala](er-business-document-management.md).
 
-Nýja notendaviðmótið (UI) er skýrara og þægilegra í notkun. Svæðið **Viðskiptaskjal** sýnir aðeins sniðmát sem eru í boði fyrir núverandi þjónustuaðila. Í eldra notandaviðmóti sýndi flipinn **Sniðmát** öll sniðmátin sem voru í boði fyrir alla þjónustuaðila. Hann sýndi einnig öll sniðmát sem voru búin til og breytt af öllum notendum í sama hlutverkinu.
+Nýja notendaviðmótið (UI) er skýrara og þægilegra í notkun. The **Viðskiptaskjal** svæði sýnir aðeins sniðmát sem eru í eigu núverandi [virkur](tasks/er-configuration-provider-mark-it-active-2016-11.md)[veitanda](general-electronic-reporting.md#Provider) og staðsett í núverandi tilviki Dynamics 365 Finance. Í fyrra notendaviðmóti var **Sniðmát** flipinn listaði öll sniðmát sem voru tiltæk fyrir hvaða þjónustuaðila sem er. Hann sýndi einnig öll sniðmát sem voru búin til og breytt af öllum notendum í sama hlutverkinu.
 
-Með hnappinum **Nýtt skjal** er hægt að búa til og breyta sniðmáti í rafrænni skýrslugerð (ER) sniði sem annar veitandi veitir. Í dæminu í þessu efni er veitan Microsoft. Einnig er hægt að stofna sniðmát með því að hlaða upp eigin sniðmáti á Excel sniði.
+Þú getur notað **Nýtt skjal** hnappinn í **Stjórnun viðskiptaskjala** vinnusvæði til að búa til og breyta sniðmáti í [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) sniði [stillingar](general-electronic-reporting.md#Configuration) sem er veitt af annarri þjónustuveitu og staðsettur í núverandi Finance tilviki, eða til að hlaða upp nýju sniðmáti úr Excel vinnubók. Að auki, í útgáfu 10.0.25 og síðar, geturðu notað **Nýtt skjal** hnappinn til að búa til og breyta sniðmáti í ER sniði sem er geymt í [Alþjóðleg geymsla](general-electronic-reporting.md#Repository).
 
+Í dæmunum í þessu efni er virki veitandinn Contoso og þú notar það til að búa til sniðmát sem er byggt á sniðmáti sem er útvegað af Microsoft. Einnig er hægt að stofna sniðmát með því að hlaða upp eigin sniðmáti á Excel sniði.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWAVQg]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVQg]
 
-Myndbandið [Búa til nýtt viðskiptaskjal með stjórnun viðskiptaskjala](https://youtu.be/gAIYl-mM_pw) (sýnt hér að ofan) er að finna í [Finance and Operations spilunarlistanum](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er aðgengilegur í YouTube.
+The [Búðu til nýtt viðskiptaskjal með viðskiptaskjalastjórnun](https://youtu.be/gAIYl-mM_pw) myndbandið (sýnt hér að ofan) er innifalið í [Spilunarlisti fyrir fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) í boði á YouTube.
 
 ## <a name="make-the-new-document-ui-in-business-document-management-available"></a>Gerðu nýja skjalið UI í viðskiptaskjalastjórnun tiltækt
 
@@ -47,13 +48,45 @@ Fylgdu þessum skrefum til að kveikja á þessum eiginleika fyrir alla lögaði
 2. Veldu **Virkja núna** til að kveikja á völdum eiginleika.
 3. Endurnýjaðu síðuna til að fá aðgang að nýja eiginleikanum.
 
-## <a name="edit-templates-that-are-owned-by-other-providers"></a>Breyta sniðmátum sem eru í eigu annarra veitenda
+## <a name="add-or-activate-a-provider"></a>Bættu við eða virkjaðu þjónustuveitu
+
+Hvert sniðmát viðskiptaskjals er geymt í ER-sniði sem er merkt sem í eigu ákveðinnar stillingaveitu. Þegar þú býrð til nýtt sniðmát er ný ER-sniðsstilling búin til til að halda því. Þess vegna verður að auðkenna þjónustuaðila fyrir þá stillingu. Virkur veitandi ER ramma er notaður í þessu skyni. Ef það er enginn veitandi í ER geturðu búið til einn. Ef það er nr *virkur* veitanda geturðu virkjað eina af núverandi veitendum. Gluggi til að bæta við eða virkja veitu opnast þegar þess er þörf á meðan þú byrjar að bæta við nýju sniðmáti.
+
+### <a name="add-a-new-provider"></a>Bættu við nýjum þjónustuaðila
+
+Til að búa til nýja þjónustuaðila skaltu fylgja þessum skrefum á **Stillingarveita** valmynd:
+
+1.  Á **Veldu stillingarveitu** flipa, í **Nafn** reit, sláðu inn nafn nýju þjónustuveitunnar.
+2.  Í **Netfang** reit, sláðu inn netfang (URL) nýju þjónustuveitunnar. 
+3.  Veldu **Í lagi**.
+
+    ![Að búa til nýjan þjónustuaðila í viðskiptaskjalastjórnun.](./media/bdm_create_provider.png)
+
+Þjónustuveitan sem bætt var við verður sjálfkrafa virkjuð.
+
+### <a name="activate-a-provider"></a>Virkjaðu þjónustuaðila
+
+Til að virkja þjónustuveitu skaltu fylgja þessum skrefum á **Stillingarveita** valmynd:
+
+1.  Á **Veldu stillingarveitu** flipa, í **Stillingarveita** reit, veldu þjónustuveituna.
+2.  Veldu **Í lagi**.
+
+    ![Að virkja veitu í viðskiptaskjalastjórnun.](./media/bdm_choose_provider.png)
+
+Valin veitandi verður virkjuð.
+
+> [!NOTE]
+> Hvert viðskiptaskjalastjórnunarsniðmát er staðsett í ER-sniði sem vísar til veitunnar sem höfundar stillinga. Þess vegna þarf virkan veitanda fyrir hvert sniðmát.
+
+## <a name="edit-a-template-that-is-owned-by-another-provider"></a>Breyttu sniðmáti sem er í eigu annarrar þjónustuveitu
+
+Þetta dæmi sýnir hvernig á að nota **Nýtt skjal** hnappinn í **Stjórnun viðskiptaskjala** vinnusvæði til að búa til og breyta sniðmáti í ER-sniði sem er útvegað af annarri þjónustuveitu og staðsett í núverandi Finance tilviki. Í þessu dæmi er virki veitandinn Contoso, sem notar ER-sniðsstillinguna sem er veitt af Microsoft. Eftir að þú hefur valið **Nýtt skjal**, hinn **Veldu** flipann á **Búðu til nýtt sniðmát** síða sýnir öll sniðmát núverandi Finance-tilviks sem eru í eigu núverandi veitanda og annarra veitenda. Veldu sniðmát til að opna það. Þú getur síðan búið til nýtt breytanlegt eintak af sniðmátinu. Breytta sniðmátið er geymt í nýrri ER sniðstillingu sem er sjálfkrafa mynduð.
 
 1. Í vinnusvæðinu **Stjórnun viðskiptaskjala** velurðu **Nýtt skjal**.
 
     ![Vinnusvæðið Yfirlit yfir stjórnun viðskiptaskjala.](./media/BDM_overview_new_template1.png)
 
-2. Í flipanum **Velja** skal velja skjalið til að nota sem sniðmát og síðan velja **Stofna skjal**.
+2. Á **Búðu til nýtt sniðmát** síðu, á **Veldu** flipann, veldu skjalið sem á að nota sem sniðmát og veldu síðan **Búðu til skjal**.
 
     ![Gluggi viðskiptaskjala.](./media/BDM_overview_new_template2.png)
 
@@ -64,51 +97,51 @@ Fylgdu þessum skrefum til að kveikja á þessum eiginleika fyrir alla lögaði
 
     ![Stofngluggi skjalagerðar.](./media/BDM_overview_new_template3.png)
 
-Hnappurinn **Nýtt skjal** er notaður til að búa til og breyta sniðmáti á ER-sniði sem annar veitandi veitir. Í þessu dæmi er veitan Microsoft. Þegar þú velur **Nýtt skjal** geturðu skoðað öll sniðmát sem eru í eigu núverandi og annarra veitenda. Eftir að þú velur sniðmátið verður það opnað fyrir breytingar. Síðan verður breytt sniðmátið geymt í nýrri skilgreiningu á ER-sniði sem er sjálfkrafa mynduð.
+## <a name="upload-a-template-that-uses-an-existing-excel-workbook"></a>Hladdu upp sniðmáti sem notar núverandi Excel vinnubók
 
-## <a name="upload-a-template-that-uses-an-existing-excel-format"></a>Hlaða upp sniðmáti sem notar fyrirliggjandi Excel-snið
+Þetta dæmi sýnir hvernig á að nota **Nýtt skjal** hnappinn í **Stjórnun viðskiptaskjala** vinnusvæði til að búa til og breyta sniðmáti í ER sniði, byggt á tiltækri Excel vinnubók. Í þessu dæmi er virki veitandinn Contoso og þú notar ER [gagnalíkan](er-overview-components.md#data-model-component) og ER [módelkortlagningu](er-overview-components.md#model-mapping-component) stillingar sem eru veittar af Microsoft. Eftir að þú hefur valið **Nýtt skjal**, veldu **Hlaða upp** flipann á **Búðu til nýtt sniðmát** síðu. Þar geturðu tilgreint upplýsingar um upphleðslu Excel vinnubókar. Eftir að þú hleður upp Excel vinnubókinni er henni breytt í viðskiptaskjalasniðmát sem er opnað til að breyta. Breytta sniðmátið verður geymt í nýrri ER sniðstillingu sem er sjálfkrafa mynduð.
+
 Fylgið þessum skrefum til að veita nauðsynlegar upplýsingar áður en sniðmáti er hlaðið upp.
 
 1. Í vinnusvæðinu **Stjórnun viðskiptaskjala** velurðu **Nýtt skjal**.
-
-    ![Vinnusvæðið Yfirlit yfir stjórnun viðskiptaskjala.](./media/BDM_overview_new_template1.png)
-    
 2. Á síðunni **Búa til nýtt sniðmát**, í flipanum **Hlaða upp**, í flipanum **Sniðmát**, skal velja **Fletta** til að finna og velja Excel-skrána sem á að nota sem sniðmát. Í hlutanum **Sniðmát** er sjálfkrafa fyllt inn í reitina **Titill** og **Lýsing**. Þeir tilgreina heiti og lýsingu á nýrri skilgreiningu rafræns skýrslugerðarsniðs sem er sjálfkrafa búið til. Hægt er að breyta þessum reitum eftir þörfum.
 3. Í hlutanum **Skjalagerð**, í reitnum **Heiti**, skal tilgreina gerð viðskiptaskjalsins. Þetta gildi verður notað til að leita að réttri gagnaveitu (þ.e. skilgreiningu rafræns skýrslugerðarlíkans).
 
-    ![Sniðmátsflipi.](./media/BDM_overview_new_UI_import_21.jpg)
+    ![Sniðmát flipinn á Hlaða upp flipanum á síðunni Búa til nýtt sniðmát.](./media/BDM_overview_new_UI_import_21.jpg)
 
 4. Í flipanum **Gagnaveita**, í flýtiflipanum **Sía**, skal velja **Nota síu**. Í hlutanum **Gagnaveita**, er fyllt inn sjálfkrafa í reitinn **Heiti** eða hægt er að velja gildi handvirkt. Hægt er að nota síuna til að leita að viðeigandi heiti gagnaveitu eftir heiti, lýsingu, lands-/svæðiskóða og gerð viðskiptaskjals.
 
-    ![Gagnagjafaflipi.](./media/BDM_overview_new_UI_import_31.jpg)
-    
+    ![Gagnagjafi flipinn á Hlaða upp flipanum á síðunni Búa til nýtt sniðmát.](./media/BDM_overview_new_UI_import_31.jpg)
+
     > [!NOTE]
     > Flýtiflipinn **Sía** er notuð til að leita að réttri gagnaveitu (þ.e. skilgreiningu rafræns skýrslugerðarlíkans). Hægt er að breyta öllum síureitum til að finna hentugustu gagnaveituna fyrir skjalið sem hlaðið er upp.
     > 
     > Skilyrðin í flýtiflipanum **Sía** eru notuð sem **EÐA** skilyrði.
-    
+
 5. Í flipanum **Vörpun** skal velja **Greina sjálfvirkt**. Reiturinn **Skilgreining rótar** er sjálfkrafa fylltur út eða hægt er að velja gildi handvirkt. Þessi flipi sýnir endavörpun eininganna úr sniðmátinu og líkaninu.
 
-    ![Vörpunarflipi.](./media/BDM_overview_new_UI_import_41.jpg)
-    
-   > [!NOTE]
-   > Vörpunin í hlutanum **Skipulag sniðmáts** notar fulla samsvörun á merkjum eða lýsingum í gagnaveitunni á tungumáli notanda og í heiti hólfs í sniðmátinu.
+    ![Kortlagningarflipi á Upphleðsluflipanum á síðunni Búa til nýtt sniðmát.](./media/BDM_overview_new_UI_import_41.jpg)
+
+    > [!NOTE]
+    > Vörpunin í hlutanum **Skipulag sniðmáts** notar fulla samsvörun á merkjum eða lýsingum í gagnaveitunni á tungumáli notanda og í heiti hólfs í sniðmátinu.
 
 6. Veljið **Stofna skjal** til að staðfesta að ætlunin sé að stofna sniðmát og hefja breytingarferlið.
 
 Fyrir frekari upplýsingar, sjá [Yfirlit yfir stjórnun viðskiptaskjala](er-business-document-management.md).
 
-Ef ekki er til nein veita í rafrænni skýrslugerð er hægt að búa hana til. Ef engin virk veita er til staðar er hægt að velja að virkja eina slíka.
+## <a name="upload-a-template-from-the-global-repository"></a>Hladdu upp sniðmáti frá alþjóðlegu geymslunni
 
-- Til að búa til veitu skal breyta heiti veitunnar í reitnum **Heiti**, uppfæra veffang nýju veitunnar í reitnum **Veffang** og velja **Í lagi** til að staðfesta.
+Þetta dæmi sýnir hvernig á að nota **Nýtt skjal** hnappinn í **Stjórnun viðskiptaskjala** vinnusvæði til að búa til og breyta sniðmáti í ER-sniði sem er útvegað af Microsoft og staðsett í alþjóðlegu geymslunni. Í þessu dæmi er virki veitandinn Contoso, sem notar ER-sniðsstillinguna sem er veitt af Microsoft. Eftir að þú hefur valið **Nýtt skjal**, hinn **Flytja inn úr alþjóðlegri geymslu** flipann á **Búðu til nýtt sniðmát** síða sýnir öll viðskiptaskjalasniðmát sem eru geymd í alþjóðlegu geymslunni en vantar í núverandi Finance tilviki. Eftir að þú hefur valið sniðmát er það flutt inn úr alþjóðlegu geymslunni í núverandi Finance tilvik til að búa til nýtt breytanlegt eintak. Breytta sniðmátið er geymt í nýrri ER sniðstillingu sem er sjálfkrafa mynduð.
 
-    ![Stofna nýja veitu í BDM.](./media/bdm_create_provider.png)
-    
-- Til að virkja núverandi veitu skal velja heiti veitunnar í reitnum **Skilgreiningarveita** og velja **Í lagi** til að stilla veituna sem virka.
+1. Í vinnusvæðinu **Stjórnun viðskiptaskjala** velurðu **Nýtt skjal**.
+2. Á **Búðu til nýtt sniðmát** síðu, á **Flytja inn úr alþjóðlegri geymslu** flipann, veldu skjalið sem á að nota sem sniðmát og veldu síðan **Búðu til skjal**.
 
-    ![Virkja veitu í BDM.](./media/bdm_choose_provider.png)
+    ![Flytja inn úr alþjóðlegri geymslu flipanum á síðunni Búa til nýtt sniðmát.](./media/BDM_overview_new_template22.png)
 
-> [!NOTE]
-> Hvert BDM-sniðmát vísar í veituna sem höfund skilgreiningarinnar. Þess vegna þarf að hafa virka veitu fyrir sniðmátið.
+3. Veldu í skilaboðareitnum **Já** til að staðfesta að þú viljir flytja inn valið skjal úr alþjóðlegu geymslunni í núverandi Finance tilvik. Ef þú ert beðinn um heimild skaltu fylgja leiðbeiningunum á skjánum.
+4. Í nýja glugganum, í reitnum **Titill**, breytirðu titlinum eins og þú þarfnast. Titiltextinn er notaður til að nefna nýju skilgreiningu ER-sniðsins sem er sjálfkrafa búin til. Drög að útgáfu þessarar stillingar (**Innheimtubréfabréf (Excel) Afrit**) mun innihalda breytta sniðmátið og verður notað til að keyra þetta ER snið fyrir núverandi notanda. Hið óbreytta upprunalega sniðmát úr grunnstillingu ER-sniðsins notað til að keyra þetta ER-snið fyrir alla aðra notendur.
+5. Í reitnum **Heiti** breytirðu heiti fyrstu endurskoðunar á breyttu sniðmátinu sem verður sjálfkrafa stofnað.
+6. Í reitnum **Athugasemd** skaltu uppfæra athugasemdinar fyrir breytanlega endurskoðun sem verður sjálfkrafa stofnuð.
+7. Veldu **Í lagi** til að staðfesta upphaf breytingarferilsins.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,27 +1,25 @@
 ---
 title: Setja upp farmflytjendur
 description: Þetta efni sýnir hvernig eigi að setja upp flytjanda og skilgreina upplýsingar eins og þjónustu, afhendingarmáta sendingar, flutningstilboð, takmarkanir fyrir flutningsstöðu og flutningstaxta.
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSShippingCarrierCustomerAccount,TMSCarrier
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 124f7473cbdae8890f74115d461603f50cc58be8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 3e9bc4fefb6aabc0b93d4d96f5930590ef99235b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004878"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567657"
 ---
 # <a name="set-up-shipping-carriers"></a>Setja upp farmflytjendur
 
@@ -72,3 +70,6 @@ ms.locfileid: "5004878"
 9. Í reitnum **Flutningstímavél** velurðu valkost úr fellivalmyndinni.
 10. Veljið **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

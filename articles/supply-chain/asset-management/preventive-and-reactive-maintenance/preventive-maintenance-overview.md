@@ -1,28 +1,25 @@
 ---
 title: Yfirlit yfir fyrirbyggjandi viðhald
 description: Þetta efni skýrir forvirkt viðhald í eignastýringu.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/27/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a3ba23122bfc0109278a821771b4b1ca34b3047a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 8c313a7873ae63b5bb85665067160fdcd6dc15a5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212772"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985056"
 ---
 # <a name="preventive-maintenance-overview"></a>Yfirlit yfir fyrirbyggjandi viðhald
 
@@ -36,7 +33,7 @@ Viðhaldsáætlanir eru notaðar fyrir fyrirbyggjandi og viðbragðsviðhald á 
 
 Eftirfarndi mynd gefur yfirlit yfir verkflæðið frá stofnun viðhaldsáætlana og viðhaldslota til stofnunar á verkbeiðnum fyrir eignir, byggðum á þeim viðhaldsáætlunum og viðhaldslotum.
 
-![Mynd 1](media/01-preventive-maintenance.png)
+![Mynd 1.](media/01-preventive-maintenance.png)
 
 
 

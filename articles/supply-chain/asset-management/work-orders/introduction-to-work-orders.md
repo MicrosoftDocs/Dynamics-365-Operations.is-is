@@ -1,29 +1,26 @@
 ---
 title: Kynning á verkbeiðnum
 description: Þetta efni veitir yfirlit yfir verkbeiðnir í eignastjórnun.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderLineNote, EntAssetWorkOrderTable, EntAssetWorkOrderActive, EntAssetWorkOrderHoursInfoPart, EntAssetWorkOrderLineListPage, EntAssetWorkOrderAddObjectBOMItem, EntAssetWorkOrderTablePoolAdd, EntAssetWorkOrderPurchReqListPagePreviewPane, EntAssetWorkOrderPoolReferenceAdd, EntAssetWorkOrderWorkspace, EntAssetWorkOrderTableAdjust, EntAssetWorkOrderGantt, EntAssetWorkOrderNotes, EntAssetWorkOrderActivePart, EntAssetWorkOrderTableInfoPart, EntAssetWorkOrderLineListPagePreviewPane, EntAssetWorkOrderTool, EntAssetMobileWorkOrderLineDetails, EntAssetMobileWorkOrderLineList, EntAssetMobileWorkOrderDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7997b4b9521b43e1e00cfa22f9df12a29582455a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 3891ea08a484950d8fef57d6229117e90ed93a92ab800f9de3ad82db3aff956d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430154"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754705"
 ---
 # <a name="introduction-to-work-orders"></a>Kynning á verkbeiðnum
 
@@ -54,7 +51,7 @@ Veldu **Eignastýring** > **Sameiginlegt** > **Verkbeiðni** > **Allar verkbeið
 
 Myndin hér að neðan sýnir dæmi um listasíðuna **Allar verkbeiðnir**.
 
-![Mynd 1](media/01-work-orders.png)
+![Mynd 1.](media/01-work-orders.png)
 
 Til að skoða yfir aðeins virkar verkbeiðnir velurðu **Eignastjórnun** > **Sameiginlegt** > **Verkbeiðnir** > **Virkar verkbeiðnir**. 
 
@@ -72,7 +69,7 @@ Hér eru nokkrar leiðir sem hægt er að nota síðuna **Allar verkbeiðnir**:
 
 Myndin hér að neðan sýnir dæmi um upplýsingayfirlitið **Allar verkbeiðnir**.
 
-![Mynd 2](media/02-work-orders.png)
+![Mynd 2.](media/02-work-orders.png)
 
 
 Hnapparnir á aðgerðarglugganum eru skipulagðir á flipa. Eftirfarandi tafla lýsir stuttlega hnöppunum sem tengjast eignastýringu:
@@ -119,3 +116,6 @@ Hnapparnir í hópnum **Verk** á flipanum **Verkbeiðni** í aðgerðaglugganum
 >[!NOTE]
 >Til að hafa spár með sem voru stofnaðar í verkbeiðni þegar röðun er keyrð skaltu nota spárlíkanið sem valið var á síðunni **Færibreytur eignastýringar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Grunnstilla færibreytur Human Resources
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp fyrirtækjaháðar færibreytur í Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/23/2021
+author: twheeloc
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 476f44c665adb2918e7cd882d4ea873b4b4f94fa33a74dc96d3eccc74b676ce5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: fd9bb907f95ba4c368871a470ca9b2bc807646ee
+ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739252"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7771436"
 ---
 # <a name="configure-human-resources-parameters"></a>Grunnstilla færibreytur Human Resources
 
@@ -65,7 +65,7 @@ Stillingar á í **Almennt** flipanum skilgreina útlit hvers upplýsinga um fja
 
 Stillingarnar í flipanum **Ráðning** skilgreina skjalagerðir sem eru notaðar fyrir samskipti sem send eru sjálfkrafa til umsækjenda. Einnig er hægt að tilgreina ráðningarverk sem er notað fyrir lánardrottinsumsækjendur.
 
-Tímabilið sem er skilgreint fyrir aldursgreiningu ráðningarverks ákvarðar ráðningarverk sem eru innifalin í reitnum **Aldursgreiningarverk** á vinnusvæðinu **Umsjón með ráðningum**. Tímabilið sem er skilgreint fyrir viðvörun lokafrests umsóknar er notað til að birta ráðningarverk sem eru að nálgast skilafrest sinn á í **skilafrestur umsóknar nálgast** reit í **Ráðningarverk** vinnusvæði.
+Tímabilið sem er skilgreint í **Ráðningarverkefni öldrun** ákvarðar hvaða ráðningarverkefni eru innifalin á **Öldrunarverkefni** flísar í **Ráðningarstjórnun** vinnurými. Tímabilið sem skilgreint er fyrir viðvörun um umsóknarfrest er notað til að sýna ráðningarverkefni sem nálgast umsóknarfrest á **Umsóknarfrestur nálgast** flísar í **Ráðningar** vinnurými.
 
 Frekari upplýsingar um ráðningar er að finna í [Ráða umsækjendur](hr-personnel-recruit.md).
 
@@ -107,20 +107,20 @@ Frekari upplýsingar er að finna í [Yfirlit númeraraða](../fin-ops-core/fin-
 
 ## <a name="employee-self-service"></a>Sjálfsafgreiðsla starfsmanns
 
-Stillingarnar í flipanum **Sjálfsafgreiðsla starfsmanns** hafa áhrif á það hvernig sjálfsafgreiðsla starfsmanns birtist starfsmanni. Á þessum flipa er hægt að:
+Stillingarnar á **Sjálfsafgreiðsla starfsmanna** flipi hafa áhrif á hvernig **Sjálfsafgreiðsla starfsmanna** birtist starfsmönnum. Á þessum flipa geturðu klárað eftirfarandi verkefni:
 
-- Færið inn heiti á vinnusvæði fyrir sjálfsafgreiðslu starfsmanns
+- Sláðu inn nafn fyrir **Sjálfsafgreiðsla starfsmanna** vinnurými
 - Veljið hvaða upplýsingar yfirmaður getur fært inn fyrir starfsmenn
 - Bæta við gagnlegum tenglum fyrir starfsmenn
 - Takmarkið getu starfsmanni til að bæta við eða breyta tengiliðaupplýsingum fyrirtækis. Frekari upplýsingar er að finna [Við uppsetningu runuvinnslunnar](hr-employee-self-service-restrict-editing.md).
 
-Frekari upplýsingar um uppsetningu á sjálfsafgreiðslu starfsmanna er að finna í [Yfirlit yfir sjálfsafgreiðslu starfsmanns og stjórnanda](hr-employee-manager-self-service-overview.md).
+Fyrir frekari upplýsingar um hvernig á að setja upp **Sjálfsafgreiðsla starfsmanna**, sjá [Yfirlit yfir sjálfsafgreiðslu starfsmanna og stjórnanda](hr-employee-manager-self-service-overview.md).
 
 ![Sjálfsafgreiðsluflipi starfsmanns.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Sjálfsafgreiðsla stjórnanda
 
-Stillingar í flipanum **Sjálfsafgreiðsla starfsmanns** hafa áhrif á hvað stjórnendur sjá í sjálfsafgreiðslu stjórnanda. Í þessum flipa er hægt að skilgreina eftirfarandi valkosti:
+Stillingarnar á **Sjálfsafgreiðslustjóri** flipi hafa áhrif á það sem stjórnendur sjá í **Sjálfsafgreiðslustjóri**. Í þessum flipa er hægt að skilgreina eftirfarandi valkosti:
 
 - Svið fyrir færslur sem eru að renna út
 - Stjórnendur upplýsinga geta skoðað færslur sem eru að renna út
@@ -128,13 +128,13 @@ Stillingar í flipanum **Sjálfsafgreiðsla starfsmanns** hafa áhrif á hvað s
 - Yfirlit starfskrafta sem eru að hætta
 - Gagnlegir tenglar fyrir stjórnendur
 
-Frekari upplýsingar um uppsetningu á sjálfsafgreiðslu stjórnanda er að finna í [Yfirlit yfir sjálfsafgreiðslu starfsmanns og stjórnanda](hr-employee-manager-self-service-overview.md).
+Fyrir frekari upplýsingar um hvernig á að setja upp **Sjálfsafgreiðslustjóri**, sjá [Yfirlit starfsmanna og stjórnanda sjálfsafgreiðslu](hr-employee-manager-self-service-overview.md).
 
 ![Sjálfsafgreiðsluflipi stjórnanda.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Fríðindastjórnun
 
-Í flipa fríðindastjórnunar er hægt að skilgreina valkosti tölvupósts fyrir fríðindastjórnun. Frekari upplýsingar um uppsetningu og notkun fríðindastjórnunar er að finna í [Yfirlit fríðindastjórnunar](hr-benefits-management-overview.md).
+Á **Stjórnun fríðinda** flipanum geturðu stillt tölvupóstvalkosti fyrir fríðindastjórnun. Fyrir upplýsingar um hvernig á að setja upp og nota fríðindastjórnun, sjá [Yfirlit yfir ávinningsstjórnun](hr-benefits-management-overview.md).
 
 ![Fríðindastjórnunarflipi.](./media/hr-setup-parameters-benefits-management.png)
 

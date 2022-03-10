@@ -2,7 +2,7 @@
 title: JSONVALUE ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin JSONVALUE í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
-ms.date: 12/11/2019
+ms.date: 10/25/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b034755602a2f999892d2b976c80550b7a3d7f3cd179816dd7aa1edefe6a0270
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ff33098e5be4dd9748d01d45b596360617305724
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733774"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700064"
 ---
 # <a name="jsonvalue-er-function"></a>JSONVALUE ER-aðgerð
 
@@ -41,7 +41,7 @@ Gild slóð í gagnagjafa af gerðinni *Strengur* sem inniheldur JSON-gögn.
 
 `path`: *Strengur*
 
-Kennimerki tölugildis í JSON-gögnum.
+Kennimerki tölugildis í JSON-gögnum. Notaðu skástrik (/) til að aðskilja nöfn tengdra JSON-hnúta. Notaðu hornklofa (\[\]) til að tilgreina stuðul tiltekins gildis í JSON-fylki. Athugaðu að tölusetning sem hefst á núlli er notuð fyrir þessa stuðla.
 
 ## <a name="return-values"></a>Skilagildi
 
@@ -49,13 +49,37 @@ Kennimerki tölugildis í JSON-gögnum.
 
 Textagildið sem verður til.
 
-## <a name="example"></a>Dæmi
+## <a name="example-1"></a>Dæmi 1
 
 Gagnagjafinn **JsonField** inniheldur eftirfarandi gögn á JSON-sniði: **{"BuildNumber":"7.3.1234.1", "KeyThumbprint":"7366E"}**. Í þessu tilfelli skilar segðin `JSONVALUE (JsonField, "BuildNumber")` eftirfarandi gildi af gagnagerðinni *Strengur*: **"7.3.1234.1"**.
 
+## <a name="example-2"></a>Dæmi 2
+
+Gagnagjafinn **JsonField** af gerðinni *Reiknaður reitur* inniheldur eftirfarandi segð: `"{""workers"": [ {""name"": ""Adam"", ""age"": 30, ""emails"": [""AdamS@Contoso.com"", ""AdamS@Hotmail.com"" ]}, { ""name"": ""John"", ""age"": 21, ""emails"": [""JohnS@Contoso.com"", ""JohnS@Aol.com""]}]}"`
+
+Þessi segð er skilgreind til að skila gildi [*Strengs*](er-formula-supported-data-types-primitive.md#string) sem táknar eftirfarandi gögn á JSON-sniði.
+
+```json
+{
+    "workers": [
+        {
+            "name": "Adam",
+            "age": 30,
+            "emails": [ "AdamS@Contoso.com", "AdamS@Hotmail.com" ]
+        },
+        {
+            "name": "John",
+            "age": 21,
+            "emails": [ "JohnS@Contoso.com", "JohnS@Aol.com" ]
+        }
+    ]
+}
+```
+
+Í þessu tilviki skilar segðin `JSONVALUE(json, "workers/[1]/emails/[0]")` eftirfarandi gildi af gagnagerðinni *Strengur*: `JohnS@Contoso.com`.
+
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Textavirkni](er-functions-category-text.md)
-
+[Textaaðgerðir](er-functions-category-text.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

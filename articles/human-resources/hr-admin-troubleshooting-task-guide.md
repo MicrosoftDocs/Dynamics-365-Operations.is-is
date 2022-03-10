@@ -1,28 +1,30 @@
 ---
-title: Vista verkleiðbeiningar í LCS og spila þær aftur
-description: Þessi grein útskýrir hvernig á að vista verkefnaleiðbeiningar í Microsoft Dynamics Lifecycle Services (LCS) og spila þær síðan aftur.
-author: andreabichsel
-ms.date: 02/03/2020
+title: Vista verkefnaleiðbeiningar í LCS og spila þær aftur
+description: Þetta efnisatriði útskýrir hvernig á að vista verkefnaleiðbeiningar í Microsoft Dynamics Lifecycle Services (LCS) og spila þær síðan aftur.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51ffdb508f09ceaaefb458cd614b9c64604eb639
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 54251aed1a54f626e5cd6cbd983e3eb4589a02e8
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797912"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068360"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Vista verkefnaleiðbeiningar í LCS og spila þær aftur
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -53,7 +55,7 @@ Fylgja skal þessum skrefum til að vista verkskráningu í LCS.
 10. Búið til verkskráningu.
 11. Þegar þessu er lokið skal velja **Vista í Lifecycle Services**.
 
-    ![Vista í Lifecycle Services](media/task-guides.png)
+    ![Vista í Lifecycle Services.](media/task-guides.png)
 
 12. Veljið BPM-safnið og hnútinn þar sem vista á verkskráninguna.
 

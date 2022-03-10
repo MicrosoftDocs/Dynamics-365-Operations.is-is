@@ -12,15 +12,17 @@ ms.search.region: Global
 ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6fa8955b935f22a0c4ae7311e871fa64afcd2bcdde48c70bf772a3cb7abd772a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781807"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778258"
 ---
 # <a name="work-split"></a>Skipta vinnu
+
+[!include [banner](../includes/banner.md)]
 
 Virkni vinnuskiptingar gerir þér kleift að skipta stórum vinnukennum (þ.e. verkbeiðnum sem eru með margar línur) niður í nokkur smærri vinnukenni sem síðan er hægt að úthluta á marga vöruhúsastarfskrafta. Á þennan hátt er hægt að velja sama stofnnúmer vinnu samtímis af nokkrum starfskröftum í vöruhúsi.
 
@@ -31,7 +33,7 @@ Virkni vinnuskiptingar gerir þér kleift að skipta stórum vinnukennum (þ.e. 
 
 Áður en hægt er að nota virkni vinnuskiptingar þarf að kveikja á eiginleikanum og eiginleika forsendanna í kerfinu. Stjórnendur geta notað stillingar [eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikanna og kveikja á þeim ef þörf krefur.
 
-Fyrst skal kveikja á forsendueiginleikanum *Vinnulokun fyrir allt fyrirtækið* ef ekki er nú þegar kveikt á honum. Í vinnusvæðinu **Stjórnun eiginleika** er þessi eiginleiki skráður á eftirfarandi hátt:
+Fyrst skal kveikja á forsendueiginleikanum *Vinnulokun fyrir allt fyrirtækið* ef ekki er nú þegar kveikt á honum. Frá og með Supply Chain Management útgáfu 10.0.21 er þessi eiginleiki nauðsynlegur, þannig að hann er sjálfgefið kveiktur og ekki er hægt að slökkva á honum aftur. Hins vegar er eiginleikinn enn skráður inn [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Vinnulokun fyrir allt fyrirtækið*

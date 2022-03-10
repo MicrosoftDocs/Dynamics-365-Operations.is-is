@@ -2,7 +2,7 @@
 title: Áður en þú kaupir
 description: Nákvæmar leiðbeiningar til að nota ef þú ert að íhuga að kaupa Dynamics 365 Finance, Dynamics 365 Supply Chain Management eða Dynamics 365 Commerce.
 author: ShellyBakke
-ms.date: 11/23/2020
+ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: ef556c44ac0241f19e9e1891fb3ce32294667827
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
-ms.translationtype: HT
+ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
+ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909864"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7874585"
 ---
 # <a name="before-you-buy"></a>Áður en þú kaupir
 
@@ -42,7 +42,7 @@ Eftirfarandi atriði þarf að taka tillit til þegar þú velur virkjun á sta�
 - [Kerfiskröfur fyrir uppsetningu á staðnum](system-requirements-on-prem.md).
 
 > [!IMPORTANT]
-> Virkjanir á staðnum eru ekki studdar á opnum skýjakerfum, þ.m.t. Microsoft Azure.
+> Virkjanir á staðnum eru ekki studdar á opnum skýjakerfum, þ.m.t. Microsoft Azure. Hins vegar eru þeir studdir til að keyra áfram [Microsoft Azure Stafla HCI](https://azure.microsoft.com/products/azure-stack/hci/) og [Microsoft Azure Stack Hub](https://azure.microsoft.com/products/azure-stack/hub/).
 
 Frekari upplýsingar er að finna í [Virkjunarvalkostir](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -86,7 +86,7 @@ Fyrir frekari tilföng, sjá:
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Skref fjögur: Kynntu þér FastTrack og skipuleggðu þína virkjun
 
-Microsoft FastTrack fyrir Dynamics 365 er viðskiptavinaþjónusta okkar sem er hönnuð til að hjálpa þér að færa þig yfir í Dynamics 365 greiðlega og örugglega, svo þú öðlist fyrr rekstrarvirði. Þegar þú tekur þátt í FastTrack áætluninni færðu leiðsögn um bestu venjur og hvernig best er að skipuleggja vel heppnaðar innleiðingar. Þú lærir einnig leiðir til að virkja nýja notendur og auka getu, allt á þínum hraða. Þar að auki færðu aðgang að tilföngum Microsoft sem hafa það að markmiði að gera Dynamics 365 upplifun þína vel heppnaða. Nánari upplýsingar er að finna í [Microsoft FastTrack](/dynamics365/fasttrack/).
+Microsoft FastTrack for Dynamics 365 er viðskiptavinaþjónusta okkar sem er hönnuð til að hjálpa þér að færa þig yfir í Dynamics 365 greiðlega og örugglega, svo þú öðlist fyrr rekstrarvirði. Þegar þú tekur þátt í FastTrack áætluninni færðu leiðsögn um bestu venjur og hvernig best er að skipuleggja vel heppnaðar innleiðingar. Þú lærir einnig leiðir til að virkja nýja notendur og auka getu, allt á þínum hraða. Þar að auki færðu aðgang að tilföngum Microsoft sem hafa það að markmiði að gera Dynamics 365 upplifun þína vel heppnaða. Nánari upplýsingar er að finna í [Microsoft FastTrack](/dynamics365/fasttrack/).
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Ef þú ert að uppfæra úr Dynamics AX 2012 eða flytja úr AX 2009
 

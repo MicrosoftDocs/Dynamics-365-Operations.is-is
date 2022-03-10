@@ -2,11 +2,9 @@
 title: Vegið meðaltal dagsetningar
 description: Dagsetning vegins meðaltals er birgðalíkan byggt á reglunni um vegið meðaltal þar sem innhreyfingar úr birgðum eru metnar á meðaltalsgildi vara sem tekið er á móti í birgðum fyrir hvern einstakan dag á birgðalokunartímabilinu.
 author: AndersGirke
-manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ce056a661130d30426ccfa4c288a0ce5b62ff959
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963739"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572026"
 ---
 # <a name="weighted-average-date"></a>Vegið meðaltal dagsetningar
 
@@ -41,7 +39,7 @@ Vegið meðaltal = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q
 
 Við birgðalokun er útreikningur framkvæmdur á hverjum degi í lokunartímabilinu, eins og sýnt er í eftirfarandi dæmi. 
 
-![Daglegt útreikningalíkan dagsetningar vegins meðaltals](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Daglegt útreikningalíkan dagsetningar vegins meðaltals.](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Birgðafærslur sem fara úr birgðum, þar á meðal sölupantanir, birgðabækur og framleiðslupantanir, munu eiga sér stað á áætluðu kostnaðarverði á dagsetningu bókunarinnar. Þetta áætlaða kostnaðarverð kallast einnig meðalkostnaðarverð. Á degi birgðalokunar greinir kerfið birgðafærslur fyrir fyrri tímabil, fyrri daga og núverandi dag. Greiningin er notuð til að ákvarða hvaða eftirfarandi lokunaraðferð eigi að nota:
 
@@ -74,7 +72,7 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 -   2b. Fjárhagsleg úthreyfing birgða uppfærð fyrir magnið 2 með kostnaðinn USD 10,00 hver.
 -   3. Birgðalokun var framkvæmd með því að nota beina jöfnun til að jafna fjárhagslega innhreyfingu birgða í fjárhagslega úthreyfingu birgða.
 
-![Bein jöfnun vegins meðaltals dagsetningar án valkostarins Taka efnislegt virði með](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Bein jöfnun vegins meðaltals dagsetningar án valkostarins Taka efnislegt virði með.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd:**
 
@@ -128,7 +126,7 @@ Kerfið myndar og bókar samanteknu birgðaflutningafærsluna. Einnig jafnar ker
 
 Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af því að velja birgðalíkan vegins meðaltals og regluna um beina jöfnun án valkostarins **Taka efnislegt virði með**. 
 
-![Samantektarjöfnun vegins meðaltals dagsetningar án valkostarins Taka efnislegt virði með](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Samantektarjöfnun vegins meðaltals dagsetningar án valkostarins Taka efnislegt virði með.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 
@@ -177,7 +175,7 @@ Hægt er að merkja úthreyfingarfærslu við innhreyfingu áður en færsla er 
 
 Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið uppfærðar fjárhagslega og efnislega á 27,50 USD. Eftirfarandi skýringarmynd sýnir þessar raðir af færslum og áhrifum þess að merkja við birgðalíkan vegins meðaltals.
 
-![Vegið meðaltal dagsetningar með merkingu](./media/weightedaveragedatewithmarking.gif) 
+![Vegið meðaltal dagsetningar með merkingu.](./media/weightedaveragedatewithmarking.gif) 
 
 **Lykill að skýringarmynd:**
 
@@ -195,3 +193,6 @@ Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,32 +2,29 @@
 title: Yfirlit yfir reiðufé Power BI efni
 description: Þetta efnisatriði lýsir sjóðsyfirlitinu Power BI efni. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum og veitir upplýsingar um gagnalíkan og einingar sem voru notaðar til að búa til efnið.
 author: saraschi2
-manager: AnnBe
 ms.date: 07/16/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 3f7e0c792df8519f3bcb2ade2e29cc4c5c8e4730
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444419"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986409"
 ---
-# <a name="cash-overview-power-bi-content"></a>Yfirlit yfir reiðufé Power BI efni
+# <a name="cash-overview-power-bi-content"></a>Yfirlit yfir reiðufé – Power BI-efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir **sjóðsyfirlitinu** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum og veitir upplýsingar um gagnalíkan og einingar sem voru notaðar til að búa til efnið.
+Þetta efnisatriði lýsir **Yfirlit yfir reiðufé** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum og veitir upplýsingar um gagnalíkan og einingar sem voru notaðar til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -41,7 +38,7 @@ Eftirfarandi uppsetningu þarf að vera lokið til að hægt sé að birta gögn
 2. Farðu í **Fjárhagur > Dagatöl > Fjárhagsdagatöl** til að staðfesta dagsetningar fjárhagsdagatala sem er úthlutað á virka tímabilið.
 3. Farðu í **Fjárhag> Uppsetning> Fjárhagur** til að stilla **Bókhaldsgjaldmiðil** og **Gerð gengis**.
 4. Skilgreindu gengi milli færslugjaldmiðla og bókhaldsgjaldmiðils, bókhaldsgjaldmiðils og kerfismynt, og bókhaldsgjaldmiðil og bankagjaldmiðla. Til að gera þetta skaltu fara **Fjárhag> Gjaldmiðlar> Gengi gjaldmiðla**.
-5. Skilgreina og keyra sjóðstreymisspá. Nánari upplýsingar um hvernig setja skuli upp sjóðstreymisspá eru að finna í [Sjóðstreymisspá](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
+5. Skilgreina og keyra sjóðstreymisspá. Nánari upplýsingar um hvernig setja skuli upp sjóðstreymisspá eru að finna í [Sjóðstreymisspá](./cash-flow-forecasting.md). 
 6. Farðu í **Kerfisstjórnun > Uppsetning > Einingaverslun** til að endurnýja uppsafnaða mælingu **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
@@ -79,3 +76,6 @@ Eftirfarandi tafla sýnir einingar sem **Sjóðsyfirlit** Power BI efni byggist 
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Samantekt sjóðinnstreymis útstreymis og stöðu með bókhaldsgjaldmiðli hvers fyrirtækis |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Samantekt sjóðinnstreymis, útstreymis og stöðu með kerfisgjaldmiðli fyrir öll fyrirtæki |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Samantekin nettó færsluupphæð og staða gjaldmiðla með færslugjaldmiðli |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

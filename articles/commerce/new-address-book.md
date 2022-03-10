@@ -1,12 +1,10 @@
 ---
 title: Stofna nýja aðsetursbók
-description: Þetta efni lýsir því hvernig á að stofna aðsetursbækur í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir hvernig á að stofna aðsetursbækur í Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a2887bdb09b9c5754a2bb17b2cd8053b5d4fb273
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: f28e9d301b0a3c30f903ccc32e785ae09f0d702f3625f5febe03817ba44046ce
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976640"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729855"
 ---
 # <a name="create-new-address-book"></a>Stofna nýja aðsetursbók
 
-
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að stofna nýja aðsetursbók í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Í þessu efnisatriði er lýst hvernig eigi að stofna nýja aðsetursbók í Microsoft Dynamics 365 Commerce.
 
 Heimilisfangabækur eru notaðar í verslun af ýmsum ástæðum, þar með talið að geyma viðskiptavinalista og starfsmannalista fyrir rás. Hægt er að nota netföng fyrir eina rás eða deila þeim milli rásanna.
 
@@ -45,7 +40,7 @@ Til að stofna nýja aðsetursbók skal fylgja eftirfarandi skrefum.
 
 Eftirfarandi mynd sýnir stofnun netbókar starfsmanna fyrir smásöluverslun.
 
-![Dæmi um aðsetursbók starfsmanns](media/address-books.png)
+![Dæmi um aðsetursbók starfsmanns.](media/address-books.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -56,3 +51,6 @@ Eftirfarandi mynd sýnir stofnun netbókar starfsmanna fyrir smásöluverslun.
 [Yfirlit skjáútlits](pos-screen-layouts.md)       
 
 [Skilgreina og setja upp Retail Hardware Station](retail-hardware-station-configuration-installation.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

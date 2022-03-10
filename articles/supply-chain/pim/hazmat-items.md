@@ -1,7 +1,7 @@
 ---
 title: Hættuleg efni í afurðum, pöntunum, sendingum og förmum
 description: Þetta efnisatriði útskýrir hvernig á að stilla eiginleika hættulegra efna fyrir útgefnar afurðir, hvernig á að setja birgðamörk á hættulegar vörur og hvernig á að taka með hættuleg efni í sölupöntun, sendingu eða farmi.
-author: dasani-madipalli
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0bf4ff2188d98adb0052e40a77ff899d4da28063b042947bf124042dfa3fb8cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758521"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570706"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Hættuleg efni í afurðum, pöntunum, sendingum og förmum
 

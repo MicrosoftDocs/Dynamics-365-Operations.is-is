@@ -1,5 +1,5 @@
 ---
-title: Samþætt vinna með lánardrottinssniðmát
+title: Samþættur aðallánardrottinn
 description: Þetta efni lýsir samþættingu lánardrottnagagna milli forrita Finance and Operations og Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: fce5e072d39533fa5d54fe34e90c7aca9d01d67e
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: HT
+ms.openlocfilehash: 7794f33aed7364b76a7d5ffd08a068342887e468
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782478"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063163"
 ---
 # <a name="integrated-vendor-master"></a>Samþætt lánardrottinssniðmát
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Hugtakið *lánardrottinn* vísar til fyrirtækis birgja eða í einkaeigu sem veitir fyrirtæki eða þjónustu vöru eða þjónustu. Þó að *lánardrottinn* sé rótgróið hugtak í Microsoft Dynamics 365 Supply Chain Management er ekkert lánadrottnahugtak til í forritum viðskiptavinar. Hins vegar er hægt að ofhlaða töfluna **Lykill/tengiliður** til að geyma lánardrottnaupplýsingar. Samþætt lánardrottnasniðmát kynnir skýrt lánardrottnahugtak í forritum viðskiptavina. Annaðhvort er hægt að nota nýju lánardrottnahönnunina eða geyma lánardrottnagögn í töflunni **Lykill/tengiliður**. Tvöföld skrifa styður báðar leiðir.
 
@@ -37,7 +37,7 @@ Ef halda á áfram að geyma lánardrottnagögn í töflunni **Lykill/tengiliðu
 ![Útvíkkað gagnaflæði lánardrottins.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Ef þú ert að nota Power Apps-gáttir fyrir lánardrottna með sjálfsafgreiðslu geta lánardrottnaupplýsingar streymt beint í forrit Finance and Operations.
+> Ef þú ert að nota Power Apps gáttir fyrir sjálfsafgreiðsluseljendur, geta upplýsingar um söluaðila streymt beint í Finance and Operations öpp.
 
 ## <a name="templates"></a>Sniðmát
 

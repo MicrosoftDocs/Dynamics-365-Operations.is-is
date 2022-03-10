@@ -2,7 +2,6 @@
 title: Stilla æskilegt tímabelti notanda
 description: Þetta efni útskýrir hvernig notandi í hlutverk kerfisstjóra getur stillt tímabelti fyrir notandi.
 author: pvillads
-manager: AnnBe
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,16 +13,19 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f20a700ef2f966e8e5a09020eeed104a51852f4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 32417694e53600836370ecc5601d36057cc55de9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560436"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065606"
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Stilla æskilegt tímabelti notanda
 
 [!include [banner](../../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
 Eftirfarandi efni útskýrir hvernig notandi í hlutverk kerfisstjóra getur stillt tímabelti fyrir notandi.
 

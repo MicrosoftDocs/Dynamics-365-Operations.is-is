@@ -1,7 +1,7 @@
 ---
 title: Regluleg talning
 description: Þessi grein lýsir hvernig nota má reglulega talningu með vöruhúsalausn sem er tiltæk í vöruhúsakerfi. Þessi grein á ekki við um vöruhúsalausn sem er tiltæk í birgðastjórnun.
-author: MarkusFogelberg
+author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 50671
 ms.assetid: 49f5c431-b043-4170-aa24-b7d5d1ee063e
 ms.search.region: Global
-ms.author: mafoge
+ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d86c16ecd2105a7f118cf77aa078f553feb2d933
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: adaed1d5a4f1ac62df35bcc1497610ce0f44043c
+ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345259"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902222"
 ---
 # <a name="cycle-counting"></a>Regluleg talning
 

@@ -1,12 +1,10 @@
 ---
 title: Festa birgðavörur við þjónustuhluti
 description: Í þessu efnisatriði er útskýrt hvernig á að tengja vöru við þjónustuhlut.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cbd583605553ec80362d163db4b35431ab98f4ad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: f65fe1963e2d3dabba1545944b35f2eb2a245b5e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205834"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571570"
 ---
 # <a name="attach-inventory-items-to-service-objects"></a>Festa birgðavörur við þjónustuhluti    
 

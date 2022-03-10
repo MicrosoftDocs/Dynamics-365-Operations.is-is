@@ -1,26 +1,25 @@
 ---
 title: Uppfylling pantana fyrir verslun
 description: Í þessu efnisatriði er að finna yfirlit yfir uppfyllingu pantana fyrir verslun.
-author: rubencdelgado
+author: BrianShook
 ms.date: 10/30/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
-ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db2e9d8b4b0f5102418d842788d220a5099b831a
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
-ms.translationtype: HT
+ms.openlocfilehash: 36ce908e81639fbb836d33ff3e84976c395b1473
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338304"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983343"
 ---
 # <a name="store-order-fulfillment"></a>Uppfylling pantana fyrir verslun
 

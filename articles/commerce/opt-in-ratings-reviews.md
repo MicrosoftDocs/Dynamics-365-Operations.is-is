@@ -2,7 +2,7 @@
 title: Velja að nota einkunnir og umsagnir
 description: Þetta efnisatriði lýsir því hvernig á að velja að nota einkunnir og umsagnir á Microsoft Dynamics 365 Commerce svæðinu þínu.
 author: gvrmohanreddy
-ms.date: 01/30/2020
+ms.date: 02/16/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9e3f2a17e182c0e3efc8b90380eff74f350c3278
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: 19c3e8b32654f7c4b7803c547e9d5692f9fc461b
+ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804650"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311930"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Velja að nota einkunnir og umsagnir
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að velja að nota einkunnir og umsagnir á Microsoft Dynamics 365 Commerce svæðinu þínu.
-
-## <a name="overview"></a>Yfirlit
 
 Einkunna- og umsagnalausnin er alhliða lausn sem þú getur gert tiltæk í Dynamics 365 Commerce með því að nota Microsoft Dynamics Lifecycle Services (LCS). LCS er stjórnunargátt sem smásalar nota til að stjórna umhverfi sínu frá útvegun til úreldingar.
 
@@ -41,9 +39,9 @@ Fylgdu þessum skrefum til að taka þátt í að nota einkunnir og umsagnir á 
 1. Fylgdu skrefunum í [Dreifa nýja netverslunarsíðu](deploy-ecommerce-site.md).
 1. Farðu á meðan þú ert enn í LCS **Retail-uppsetning \> Aðrar stillingar**.
 1. Stilltu valkostinn **Virkja einkunna- og umsagnaþjónustu** á **Já**.
-1. Í reitinn **AAD öryggishópur stjórnanda fyrir einkunnir og umsagnir (hlutakenni öryggishóps)** slærðu inn kenni Microsoft Azure Active Directory (Azure AD) öryggishópur sem inniheldur einkunnir og umsagnir stjórnenda.
+1. Í **AAD öryggishópur fyrir einkunna- og endurskoðunarstjóra** reit, sláðu inn auðkenni Microsoft Azure Active Directory (Azure AD) öryggishópur sem inniheldur einkunna- og umsagnarstjórnendur.
 
-    ![Velja að nota einkunnir og umsagnir](media/LCS_RnR_Preference.png)
+    ![Velja að nota einkunnir og umsagnir.](media/LCS_RnR_Preference_2.png)
 
 1. Ljúktu frumstillingarferli rafrænna viðskipta.
 
@@ -60,7 +58,13 @@ Fylgdu þessum skrefum til að taka þátt í að nota einkunnir og umsagnir á 
 
 [Samstilla afurðaeinkunnir í Dynamics 365 Commerce](sync-product-ratings.md)
 
+[Virkja handvirka birtingu einkunna og umsagna hjá stjórnanda](manual-publish-rating-reviews.md)
 
+[Flytja einkunnir og umsagnir inn og út](import-export-reviews.md)
+
+[Stilla sannvottun milli þjónusta](service-to-service-auth.md)
+
+[Algengar spurningar um einkunnir og umsagnir](ratings-reviews-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

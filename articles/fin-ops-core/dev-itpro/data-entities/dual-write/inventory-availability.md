@@ -1,29 +1,20 @@
 ---
 title: Birgðir til ráðstöfunar í tvíritun
 description: Í þessu efnisatriði eru veittar upplýsingar um hvernig skuli athuga birgðir til ráðstöfunar í tvíritun.
-author: yijialuan
-manager: AnnBe
+author: RamaKrishnamoorthy
 ms.date: 05/26/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
-ms.author: riluan
-ms.dyn365.ops.version: ''
+ms.author: ramasri
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: a7bfe998d2d787203a507a831c171fc43b03fedc
-ms.sourcegitcommit: cc9921295f26804259cc9ec5137788ec9f2a4c6f
-ms.translationtype: HT
+ms.openlocfilehash: 989ba6cd26d6e48c24db856fa9bb0bd5d2bae80e
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4839550"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782530"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Birgðir til ráðstöfunar í tvíritun
 
@@ -66,55 +57,12 @@ Glugginn skilar ATP upplýsingum frá Supply Chain Management. Þessar upplýsin
 - Beiðnir um lager CDS-birgða (msdyn_inventoryonhandrequests)
 
 ## <a name="templates"></a>Sniðmát
+
 Eftirfarandi sniðmát eru í boði fyrir birgðagögn á lager.
 
-Finance and Operations-smáforrit | Forrit viðskiptavinatengsla | lýsing 
+Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla     | lýsing
 ---|---|---
-[Lagerbirgðafærslur CDS-birgða](#145) | msdyn_inventoryonhandentries |
-[Beiðnir um lager CDS-birgða](#147) | msdyn_inventoryonhandrequests |
+[Lagerbirgðafærslur CDS-birgða](mapping-reference.md#145) | msdyn_inventoryonhandentries |
+[Beiðnir um lager CDS-birgða](mapping-reference.md#147) | msdyn_inventoryonhandrequests |
 
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>Lagerbirgðafærslur CDS-birgða (msdyn_inventoryonhandentries)
-
-Þetta sniðmát samstillir gögn á milli Finance and Operations -forrita og Dataverse.
-
-Svæði í Finance and Operations | Gerð vörpunar | Reitur viðskiptavinatengsla | Sjálfgildi
----|---|---|---
-`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
-`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
-`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
-`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
-`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
-`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
-`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
-`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
-`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
-`ATPDATE` | = | `msdyn_atpdate` |
-`ATPQUANTITY` | > | `msdyn_atpquantity` |
-`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
-`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
-`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
-`ORDERQUANTITY` | > | `msdyn_orderquantity` |
-`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
-
-###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>Beiðnir um lager CDS-birgða (msdyn_inventoryonhandrequests)
-
-Þetta sniðmát samstillir gögn á milli Finance and Operations -forrita og Dataverse.
-
-Svæði í Finance and Operations | Gerð vörpunar | Reitur viðskiptavinatengsla | Sjálfgildi
----|---|---|---
-`REQUESTID` | = | `msdyn_requestid` |
-`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
-`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
-`ORDERQUANTITY` | < | `msdyn_orderquantity` |
-`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`REFERENCENUMBER` | < | `msdyn_referencenumber` |
-`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
-
-
-
-
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

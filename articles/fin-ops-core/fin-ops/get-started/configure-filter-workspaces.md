@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29b9e920744296d458e74ff3990191bde72b9e58
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: e96b61457f222836d50a75ed15305c3c1267600c
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344298"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068735"
 ---
 # <a name="configure-and-filter-workspaces"></a>Skilgreining og síun vinnusvæða
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Þessi þekkingarskrá gefur yfirlit um hvernig á til að skilgreina og sía vinnusvæði.
 

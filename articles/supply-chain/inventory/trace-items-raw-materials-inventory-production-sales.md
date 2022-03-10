@@ -1,29 +1,26 @@
 ---
 title: Rakning á vörum og hráefni í birgðum, framleiðslu og sölu
 description: Þetta efnisatriði lýsir því hvernig hægt er að nota vörurakning til að auðkenna þar sem vörur eða hráefni hafa verið notaðar, eru notaðar eða verða notaðar í framleiðslu- og söluferla.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
 ms.search.region: Global
-ms.author: pjacobse
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa1be4970f1106bf4b87eeaa428bac07c645b4f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 95f59a3eca20634d03520ad88f71a3096309e23e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430587"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571810"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Rakning á vörum og hráefni í birgðum, framleiðslu og sölu
 
@@ -140,3 +137,6 @@ Hægt er að mynda skýrsluna **Sent til viðskiptavina** til að auðkenna magn
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Get ég rakið aukaafurðir og hliðarafurðir?
 Hægt er að rekja aukaafurðir, en ekki er hægt að rekja hliðarafurð því rakningarvíddum er yfirleitt ekki úthlutað á þær. Þegar vara er rakin, eru allar tengdar aukaafurðir teknar með í rakningarupplýsingunum. Hnútur sem inniheldur aukaafurð inniheldur orðið "aukaafurð" í upplýsingar. Einnig er hægt að skoða upplýsingar um aukaafurð með því að velja hnútinn í rakningarupplýsingunum, og smella svo á flýtiflipann **Framleiðsla**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

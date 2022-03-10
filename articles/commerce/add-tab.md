@@ -2,11 +2,9 @@
 title: Flipaeining
 description: Þetta efnisatriði fjallar um flipaeiningar og útskýrir hvernig á að bæta þeim við síður svæða í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8375c33bd6ffd3004cfc9d7b686d9a0edc77cdef
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 9062e584d159e0f1986c46140d535f06f5d2817af048f30e812f9049bd52d4f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209228"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723288"
 ---
 # <a name="tab-module"></a>Flipaeining
 
@@ -36,13 +34,13 @@ Flipaeiningar líta út eins og hólfaeiningar og eru notaðar við skipulagning
 
 Eftirfarandi mynd sýnir dæmi um flipaeiningu á síðusvæði. Í þessu dæmi er flipinn **Sending** valinn.
 
-![Dæmi um flipaeiningu](./media/ecommerce-tab.PNG)
+![Dæmi um flipaeiningu.](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>Eiginleikar flipaeiningar
 
 | Nafn eiginleika | Gildi | lýsing |
 |---------------|--------|-------------|
-| Yfirskrift | Texti | Þessi eiginleiki sýnir valfrjálsa textafyrirsögn fyrir flipaeininguna. |
+| Haus | Texti | Þessi eiginleiki sýnir valfrjálsa textafyrirsögn fyrir flipaeininguna. |
 | Virkur flipavísir | Númer | Þessi eiginleiki sýnir flipann sem á að vera sjálfgefið virkur þegar síða er hlaðin. Ef ekkert gildi er gefið upp verður fyrsta flipaatriðið virkt að sjálfgefnu. |
 
 ## <a name="tab-item-module-properties"></a>Eiginleikar flipaeiningaratriða

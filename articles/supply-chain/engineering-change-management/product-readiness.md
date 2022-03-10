@@ -11,23 +11,25 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8f80458de69a77846259c9a0707c05098d13e12a
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: f7ab6165e85cd2b1165292b74cd036f1233b22b4
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115074"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103014"
 ---
 # <a name="product-readiness"></a>Undirbúningur afurðar
 
 [!include [banner](../includes/banner.md)]
 
-Hægt er að nota undirbúningsathuganir til að ganga úr skugga um að nauðsynleg aðalgögn hafi verið tilgreind fyrir afurð áður en hún er notuð í færslum. Þegar undirbúningsathuganir eru notaðar er notandi eða teymi ábyrgt fyrir því að staðfesta ákveðin fyrirframskilgreind gögn sem tengjast afurð. Ef til er opin undirbúningsathugun fyrir afurð, verður ekki hægt að losa afurðina eða nota hana í færslum.
+Hægt er að nota undirbúningsathuganir til að ganga úr skugga um að nauðsynleg aðalgögn hafi verið tilgreind fyrir afurð áður en hún er notuð í færslum. Þegar undirbúningsathuganir eru notaðar er notandi eða teymi ábyrgt fyrir því að staðfesta ákveðin fyrirframskilgreind gögn sem tengjast afurð.
 
-Gátreiturinn **Virkt** fyrir hönnunarafurð, afbrigði eða útgáfu er aðeins í boði þegar búið er að færa inn og staðfesta öll nauðsynleg gögn, og þegar búið er að vinna úr öllum undirbúningsathugunum. Á þeim tímapunkti er hægt að losa afurðina, útgáfuna eða afbrigðið í annað fyrirtæki og nota í færslum. Hægt er að búa til undirbúningsathuganir fyrir nýjar afurðir, ný afbrigði og nýjar hönnunarútgáfur.
+Hægt er að haka í gátreitinn **Virkt** fyrir hönnunarafurð, afbrigði eða útgáfu þegar búið er að færa inn og staðfesta öll nauðsynleg gögn, og þegar búið er að vinna úr öllum undirbúningsathugunum. Ef ekki hefur verið unnið úr einni eða fleiri athugunum fyrir afurðina, útgáfuna eða afbrigðið, þá færðu tilkynningu um að ekki hafi verið lokið við allar athuganir þegar þú reynir að merkja við gátreitinn **Virkt**.
 
-Einnig er hægt að beita undirbúningsathugunum á hefðbundnar (ekki hönnunarvörur) vörur. Nánari upplýsingar er að finna í hlutanum [Undirbúningsathuganir á hefðbundnum vörum](#standard-products) síðar í þessu efnisatriði.
+Hægt er að búa til undirbúningsathuganir fyrir nýjar hönnunarafurðir, afbrigði og útgáfur. Einnig er hægt að nota undirbúningsathugunir á staðlaðar (ekki hannaðar) afurðir (sjá einnig [Undirbúningsathuganir á stöðluðum afurðum](#standard-products)). 
+
+Þú getur notað staðlaðar afurðir í viðskiptum jafnvel þótt ekki sé búið að ljúka öllum undirbúningsathugunum. Ef þú þarft að loka fyrir að afurð sé notuð í viðskiptum skaltu nota líftímastöðu hennar. Þú getur úthlutað líftímastöðu sem kemur í veg fyrir að afurð sé notuð í viðskiptum og síðan, eftir að öllum undirbúningsathugunum er lokið, úthlutað nýrri líftímastöðu sem leyfir nauðsynlegar færslur.
 
 ## <a name="types-of-readiness-checks"></a>Gerðir undirbúningsathugana
 
@@ -157,7 +159,7 @@ Stillið eftirfarandi reiti fyrir hverja línu sem er bætt við.
 
 ## <a name="assign-readiness-policies-to-standard-and-engineering-products"></a>Tilgreindu undirbúningsreglur fyrir hefðbundnar afurðir og hönnunarafurðir
 
-Þegar ný vara er stofnuð á grundvelli hönnunarflokks er bæði *útgefin vara* og tengd *sameiginleg vara* stofnuð. Hvernig undirbúningsreglur eru leystar fyrir útgefna afurð fer eftir því hvort kveikt hafi verið á eiginleikanum *Undirbúningsathuganir afurðar*. (Frekari upplýsingar er að finna í hlutanum [Undirbúningsathuganir á stöðluðum afurðum](#standard-products) síðar í þessu efnisatriði.)
+Þegar ný vara er stofnuð á grundvelli hönnunarflokks er bæði *útgefin vara* og tengd *sameiginleg vara* stofnuð. Leiðin sem viðbúnaðarreglur eru leystar fyrir útgefinn vöru fer eftir því hvort *Athuganir á viðbúnaði vöru* kveikt er á eiginleikanum fyrir kerfið þitt (sjá [Viðbúnaðarathuganir á stöðluðum vörum](#standard-products) kafla síðar í þessu efni til að fá upplýsingar um þennan eiginleika og hvernig á að kveikja eða slökkva á honum).
 
 - Þegar *slökkt* er á eiginleikanum *Undirbúningsathuganir afurðar* í kerfinum er undirbúningsreglan stillt og aðeins sýnd í færslum [hönnunarflokks](engineering-versions-product-category.md). Til að fá upplýsingar um hvaða regla á við um útgefna afurð athugar kerfið reitinn **Undirbúningsregla afurðar** fyrir tengdan hönnunarflokk. Hægt er að breyta undirbúningsreglunni fyrir núverandi vöru með því að breyta tengdri hönnunarafurð (ekki sameiginlegri vöru).
 - Þegar eiginleikinn *Undirbúningsathuganir afurðar* er *Virkur* bætist reitur fyrir **Undirbúningsreglu afurðar** við síðuna **Afurð** (þar sem sameiginlegar afurðir eru settar upp) og á síðuna **Útgefin afurð** (þar sem gildið er skrifvarið og tekið úr tengdri sameiginlegri afurð). Kerfið finnur undirbúningsreglu fyrir útgefna afurð með því að athuga tengda sameiginlega afurð. Þegar hönnunarflokkur er notaður til að stofna nýja hönnunarafurð býr kerfið bæði til sameiginlega afurð og útgefna afurð og afritar allar stillingar á **Undirbúningsreglu afurðar** fyrir hönnunarflokkinn í nýju sameiginlegu afurðina. Síðan er hægt að breyta undirbúningsreglu fyrir fyrirliggjandi vöru með því að breyta tengdri sameiginlegri vöru (ekki útgefnum verkfræðiflokki).
@@ -178,34 +180,11 @@ Til að úthluta undirbúningsreglu á hönnunarflokk skal fylgja eftirfarandi s
 
 ## <a name="readiness-checks-on-standard-products"></a>Undirbúningsathuganir á stöðluðum afurðum
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Hægt er að virkja undirbúningsathuganir afurðar fyrir staðlaðar afurðir (aðrar en hönnunarafurðir) með því að kveikja á eiginleikanum *Undirbúningsathuganir afurðar* í eiginleikastjórnun. Þessi eiginleiki gerir nokkrar smávægilegar breytingar á kerfi undirbúningsathugunar þannig að það styðji staðlaðar afurðir.
 
-### <a name="enable-readiness-checks-on-standard-products"></a>Virkja undirbúningsathuganir á stöðluðum vörum
+### <a name="enable-or-disable-readiness-checks-on-standard-products"></a>Virkja eða slökkva á viðbúnaðarathugunum á stöðluðum vörum
 
-Til að gera kerfinu kleift að framkvæma undirbúningsathuganir á stöðluðum vörum skal fylgja eftirfarandi skrefum.
-
-- Virkið umsjón hönnunarbreytinga í kerfinu eins og lýst er í [Yfirlit yfir umsjón hönnunarbreytinga](product-engineering-overview.md).
-- Notið [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eiginleikanum sem heitir *Undirbúningsathuganir afurðar*.
-
-<!-- KFM: This section requires confirmation before publishing
-
-### How readiness checks are created for standard products
-
-When you create a new non-engineering *released product*, the system determines whether a readiness check policy has been set up for the related shared product. If a policy has been set up, the following events occur:
-
-- Readiness checks are created for the released product, according to the applicable policy.
-- The released product is blocked from being used until all checks are marked as completed.
-
-If a new *variant* is created for a product, the system checks whether readiness checks have been set up on the related shared product. If a readiness check has been set up, the following events occur:
-
-- Readiness checks are created for the released product, according to the applicable policy.
-- The released product is blocked from being used until all checks are marked as completed.
-
-For engineering products, readiness checks are created in the same way that they are created when the *Product readiness checks* feature is turned off. For more information, see the [How readiness checks are created for a new engineering product, variant, or version](#checks-engineering) section earlier in this topic.
-
--->
+Þessi eiginleiki krefst þess að bæði *Verkfræðibreytingastjórnun* og *Athuganir á viðbúnaði vöru* kveikt er á eiginleikum fyrir kerfið þitt. Fyrir upplýsingar um hvernig á að kveikja eða slökkva á þessum eiginleikum, sjá [Yfirlit yfir verkfræðibreytingastjórnun](product-engineering-overview.md).
 
 ### <a name="create-readiness-policies-for-standard-products"></a>Búa til undirbúningsreglur fyrir staðlaðar vörur
 

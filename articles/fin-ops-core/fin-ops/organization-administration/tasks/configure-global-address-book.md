@@ -2,11 +2,9 @@
 title: Grunnstilla altæka aðsetursbók
 description: Notið þetta ferli til að setja upp sjálfgildi og öryggisreglur fyrir altæka aðsetursbók.
 author: msftbrking
-manager: AnnBe
 ms.date: 07/23/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 24d89e061cc3dfc4ef0d350730525ac5ab7af775
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
-ms.translationtype: HT
+ms.openlocfilehash: 34b0ab8b2d3ffa840e20d73716265c445e77189044840fd6850c5bffb3e3365b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694666"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759066"
 ---
 # <a name="configure-the-global-address-book"></a>Grunnstilla altæka aðsetursbók
 
@@ -45,3 +43,6 @@ Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta verk er �
 13. Í listanum skal finna og velja þá skráningu sem óskað er eftir. Styðja á Shift-takkanum til að velja mörg hlutverk til að bæta við reitinn **Valin hlutverk** og smellið á örina til að bæta við völdum hlutverkum.  
 14. Smellt er á **Vista**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

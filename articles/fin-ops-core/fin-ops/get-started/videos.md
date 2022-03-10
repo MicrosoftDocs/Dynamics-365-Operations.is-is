@@ -2,11 +2,9 @@
 title: Myndbönd
 description: Þessi síða sýnir „hvernig á að“ og tæknitalsmyndbönd sem Microsoft hefur búið til sem tengjast Finance and Operations-forritum sem eru aðgengileg á YouTube og öðrum vefsíðum.
 author: sericks007
-manager: AnnBe
-ms.date: 12/01/2020
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: sericks
@@ -16,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 4c34c539428563e69013e60ed3d0403b648c96bc
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
-ms.translationtype: HT
+ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693570"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487992"
 ---
 # <a name="videos"></a>Myndskeið 
 
@@ -36,7 +34,6 @@ ms.locfileid: "4693570"
 
 ### <a name="data-integration"></a>Samþætting gagna
 
-- [PTC-samþætting](https://youtu.be/AVV9x5x-XCg)
 - [Samstilling vinnupöntunar á milli Dynamics 365 for Field Service og Finance and Operations forrita](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Gagnastjórnun
@@ -86,12 +83,12 @@ ms.locfileid: "4693570"
 
 ## <a name="videos-for-dynamics-365-finance"></a>Vídeó fyrir Dynamics 365 Finance
 
+### <a name="business-document-management"></a>Stjórnun viðskiptaskjala
+- [Stofna nýtt viðskiptaskjal með Business Document Management](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="customize-the-app"></a>Sérsníddu forritið
 - [Bæta við sérstilltum svæðum](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [Fella inn Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
-
-### <a name="expenses"></a>Kostnaður
-- [Kostnaðarumhverfi](https://youtu.be/Ocy-MsTvEE0)
 
 ### <a name="financial-reporting"></a>Fjárhagsskýrslugerð
 - [Finna útgáfu skýrsluhönnuðar](https://www.youtube.com/embed/icfA5Q3kp4w)
@@ -117,6 +114,9 @@ ms.locfileid: "4693570"
 
 
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>Vídeó fyrir Dynamics 365 Supply Chain Management
+
+### <a name="business-document-management"></a>Stjórnun viðskiptaskjala
+- [Stofna nýtt viðskiptaskjal með Business Document Management](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>Kostnaður
 - [Fartækjavinnusvæði kostnaðarstýringar](https://youtu.be/imsuTg8rUVk)
@@ -167,3 +167,6 @@ ms.locfileid: "4693570"
 [Tæknital FastTrack](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) einblínir á að veita tæknilega dýpt og bestu starfsvenjur sem veita viðskiptavinum og samstarfsaðilum nákvæma þekkingu sem er sértæk fyrir viðkomandi svið.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,15 +2,12 @@
 title: Hvað er nýtt eða breytt í Dynamics 365 Human Resources (12. febrúar 2020)
 description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 12. febrúar 2020.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -18,16 +15,18 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9d5d88d1d2bc1d6f3ff737b79e6a323e6a5c947
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
-ms.translationtype: HT
+ms.openlocfilehash: ac274cc18ddb3392fb118dcc1df7813cbc5b8293
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5128090"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063030"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-12-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (12. febrúar 2020)
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum Dynamics 365 Human Resources. Breytingar eiga við um byggingarnúmer 8.1.2867. Tölurnar í sviga í sumum fyrirsögnum vísa til stuðningsnúmera í Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -55,7 +54,7 @@ Eftirfarandi forskoðunaraðgerðir eru í boði 3. febrúar 2020:
 
 ### <a name="platform-update-32"></a>Update 32 fyrir verkvang 
 
-Uppfærsla pallsins 32 verður tiltæk innan tíðar. [Fáðu frekari upplýsingar um uppfærslu pallsins 32 hér](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
+Uppfærsla pallsins 32 verður tiltæk innan tíðar. [Fáðu frekari upplýsingar um uppfærslu pallsins 32 hér](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ### <a name="updated-dataverse-solution"></a>Uppfærð Dataverse-lausn
 
@@ -75,6 +74,8 @@ Nýtt Dataverse lausn mun liggja fyrir fljótlega með eftirfarandi breytingum:
 ## <a name="see-also"></a>Sjá einnig
 
 [Nýjungar eða breytingar í Human Resources](hr-admin-whats-new.md)</br>
-[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Uppfærsluferli](hr-admin-setup-update-process.md)</br>
 [Vinna með eiginleika](hr-admin-manage-features.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

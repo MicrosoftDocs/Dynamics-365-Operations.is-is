@@ -16,20 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 958c7a8853e5ef0d7fb211225796d7808e4e7ae1afaf861cc6746157225c0dbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 633740ee1e26d2e4ed2ea7031ef298fb11c2ab58
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721464"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068845"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Vinnuálag framleiðslukeyrslu fyrir einingakvarða skýja og jaðra
 
 [!include [banner](../includes/banner.md)]
 
-> [!WARNING]
-> Vinnuálag framkvæmd framleiðslu er í forskoðun eins og er.
+> [!IMPORTANT]
+> Vinnuálag framleiðsluframkvæmda er sem stendur aðeins tiltækt í forskoðun.
+>
 > Tiltekin virkni fyrirtækisins er ekki studd að fullu í almennu forskoðuninni þegar kvörðunareiningar skýja og jaðra eru notaðar.
+>
+> Ekki er hægt að keyra forskoðun framleiðsluframkvæmdarvinnuálags á mælikvarðaeiningu þar sem framkvæmdarvinnuálag vöruhúss er einnig sett upp.
 
 Í framkvæmd framleiðslu bjóða einingarkvarðar upp á eftirfarandi möguleika:
 
@@ -44,7 +47,7 @@ ms.locfileid: "6721464"
 
 Eins og eftirfarandi skýringarmynd sýnir er stuðningstíma framleiðslu skipt í þrjá áfanga: *Áætlun*, *Keyrslu* og *Lok*.
 
-[![Áfangar framkvæmdar framleiðslu þegar stakt umhverfi er notað](media/mes-phases.png „Áfangar framkvæmdar framleiðslu þegar stakt umhverfi er notað.“](media/mes-phases-large.png)
+[![Áfangar framkvæmdar framleiðslu þegar stakt umhverfi er notað](media/mes-phases.png "Áfangar framkvæmdar framleiðslu þegar stakt umhverfi er notað.")](media/mes-phases-large.png)
 
 Áfanginn _Áætlun_ felur í sér skilgreiningu afurðar, áætlanagerð, stofnun og áætlun afurðar og losun. Útgáfuskrefið tilgreinir skiptin úr áfanganum _Áætlun_ yfir í áfangann _Keyrsla_. Þegar framleiðslupöntun er losuð verða verk framleiðslupöntunar sýnileg á framleiðslugólfinu og tilbúnar til framkvæmdar.
 
@@ -54,7 +57,7 @@ Eins og eftirfarandi skýringarmynd sýnir er stuðningstíma framleiðslu skipt
 
 Eins og sýnt er á eftirfarandi skýringarmynd, þegar notast er við kvörðunareiningar, er áfanganum _Keyrsla_ skipt niður sem aðskilið vinnuálag.
 
-[![Áfangar framkvæmdar framleiðslu þegar kvörðunareiningar eru notaðar](media/mes-phases-workloads.png „Áfangar framkvæmdar framleiðslu þegar kvörðunareiningar eru notaðar.“](media/mes-phases-workloads-large.png)
+[![Áfangar framkvæmdar framleiðslu þegar kvörðunareiningar eru notaðar](media/mes-phases-workloads.png "Áfangar framkvæmdar framleiðslu þegar kvörðunareiningar eru notaðar.")](media/mes-phases-workloads-large.png)
 
 Líkanið færist nú frá stakri uppsetningu yfir í líkan sem er byggt á miðstöðinni og kvörðunareiningunum. Áfangarnir _Áætlun_ og _Lok_ keyra sem aðgerðir bakvinnslu á miðstöðinni og vinnuálag framkvæmdar framleiðslu er keyrð á kvörðunareiningunum. Gögn eru flutt á ósamstilltan hátt á milli miðstöðvarinnar og kvörðunareininganna.
 
@@ -128,6 +131,22 @@ This section describes how to enable the abilities to report as finished and the
 ### Customize report as finished and putaway functionality
 
  -->
+
+## <a name="enable-and-use-the-start-operation-on-a-scale-unit"></a>Virkjaðu og notaðu upphafsaðgerðina á mælikvarðaeiningu
+
+Í núverandi útgáfu er upphafsaðgerð fyrir framleiðslu- og lotupantanir studd af [vinnuálag við framkvæmd vöruhúss](cloud-edge-workload-warehousing.md) (ekki vinnuálag við framkvæmd framleiðslu). Þess vegna, til að nota þessa virkni þegar þú ert tengdur við mælikvarðaeiningu, verður þú að klára þessi verkefni:
+
+- Settu upp bæði vinnuálag vöruhúsakeyrslu og vinnuálag framleiðslukeyrslu í einingakvarðanum.
+- Virkjaðu *Hefja framleiðslupöntun á vinnuálagi vöruhúsastjórnunar fyrir skýja- og jaðarkvarðaeininguna* lögun í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Notaðu Warehouse Management farsímaforritið til að hefja framleiðslu eða lotupöntun.
+
+## <a name="enable-and-use-material-consumption-on-a-scale-unit"></a>Virkja og nota efnisnotkun á mælikvarðaeiningu
+
+Í núverandi útgáfu er flæði í vöruhúsastjórnun farsímaforritinu til að skrá efnisnotkun stutt af [vinnuálag við framkvæmd vöruhúss](cloud-edge-workload-warehousing.md) (ekki vinnuálag við framkvæmd framleiðslu). Þess vegna, til að nota þessa virkni þegar þú ert tengdur við mælikvarðaeiningu, verður þú að klára þessi verkefni:
+
+- Settu upp bæði vinnuálag vöruhúsakeyrslu og vinnuálag framleiðslukeyrslu í einingakvarðanum.
+- Virkjaðu *Skráðu efnisnotkun í farsímaappinu á mælikvarðaeiningu* lögun í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+- Notaðu vöruhússtjórnun farsímaforritið til að skrá efnisnotkun.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

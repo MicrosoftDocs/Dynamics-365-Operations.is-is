@@ -2,16 +2,13 @@
 title: POS notendaviðmót sjónrænna stillinga
 description: Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás fyrir Dynamics 365 Commerce sölustaður (POS) upplifun.
 author: boycezhu
-manager: annbe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -19,31 +16,31 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
-ms.translationtype: HT
+ms.openlocfilehash: 17379dc97c7a8b22912482a7aeebd0d8ac08dc496fa7b1661952bca10a21c75b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4413291"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765881"
 ---
-# <a name="pos-user-interface-visual-configurations"></a>POS notendaviðmót sjónrænna stillinga
+# <a name="pos-user-interface-visual-configurations"></a>Sjónrænar skilgreiningar fyrir notandaviðmót sölustaðar
 
 [!include [banner](includes/banner.md)]
 
 
-Hægt er að grunnstilla notendaviðmótið (UI) á sölustað (POS) Microsoft Dynamics 365 Commerce með því að nota blöndu af sjónrænum forstillingum og skjáútliti sem eru úthlutað til verslunum, afgreiðslukassa og/eða notendum. Þetta efni veitir upplýsingar um þessa stillingarvalkosti.
+Hægt er að grunnstilla notendaviðmótið Microsoft Dynamics 365 Commerce smásölu með því að nota blöndu af sjónrænum forstillingum og skjáútliti sem eru úthlutað til verslunum, afgreiðslukassa og notendum. Þetta efni veitir upplýsingar um þessa stillingarvalkosti.
 
 Eftirfarandi mynd sýnir tengsl milli hinna ýmsu eininga sem mynda hina stillanlegu útlitsþætti POS notendaviðmótsins (UI).
 
-![POS skjáútlitseiningar](../commerce/media/POS-layout-configuration-entities-diagram.png)
+![POS skjáútlitseiningar.](../commerce/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Sjónræn regla
 
 Sjónrænum forstillingum er úthlutað á afgreiðslukassa, og þær tilgreina sjónrænu þættina sem eru sértækir fyrir afgreiðslukassa og er deilt á meðal notenda. Sérhver notandi sem skráir sig inn í afgreiðslukassa sér sama þema, útlit, liti og myndir.
 
-![POS upphafsskjár með ljósu þema](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
+![POS upphafsskjár með ljósu þema.](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
-![POS færsluskjár með dökku þema](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
+![POS færsluskjár með dökku þema.](../commerce/media/POS-Transaction-Screen-with-Dark-theme.png)
 
 - **Forstillingarnúmer** - Forstillingarnúmerið er hið einkvæma kennimerki sjónrænu forstillingarinnar.
 - **Lýsing** - Þú getur tilgreint merkingarbært nafn sem mun hjálpa til við að bera kennsl á rétta forstillingu fyrir þínar aðstæður.
@@ -68,15 +65,15 @@ Sjónrænum forstillingum er úthlutað á afgreiðslukassa, og þær tilgreina 
 
 Grunnstillingar skjáútlits ákvarða aðgerðir, innihald og staðsetningu stjórnborðs notandaviðmóts á **upphafsskjá** POS og **færsluskjánum**.
 
-![POS skjáútlit yfirlit](../commerce/media/POS-Screen-Layout-View.png)
+![Yfirlit POS skjáútlits.](../commerce/media/POS-Screen-Layout-View.png)
 
 - **Upphafsskjár** - Í flestum tilfellum er upphafsskjárinn síðan sem notendur sjá þegar þeir skrá sig fyrst inn í POS. Upphafsskjár getur verið samsettur af vörumerkjamynd og hnappahnitum sem veita aðgang að aðgerðum POS. Venjulega eru aðgerðir sem eru ekki sértækar fyrir núverandi færslur settar á þennan skjá.
 
-    ![POS upphafsskjár](../commerce/media/POS-Welcome-Screen.png)
+    ![POS upphafsskjár.](../commerce/media/POS-Welcome-Screen.png)
 
 - **Færsluskjár** - **Færsla** skjárinn er aðalskjárinn í POS fyrir vinnslu sölufærslur og pantanir. Innihald og útlit er grunnstillt með því að nota skjáútlitshönnuður.
 
-    ![POS-færsluskjár](../commerce/media/POS-Transaction-Screen.png)
+    ![POS-færsluskjár.](../commerce/media/POS-Transaction-Screen.png)
 
 - **Sjálfgefinn upphafsskjár** - Sumir smásalar vilja frekar að gjaldkeri fari beint á **Færslu** skjá eftir innskráningu. **Sjálfgefinn upphafsskjár** stillingin gerir þér kleift að tilgreina sjálfgefin skjá sem birtist eftir innskráningu fyrir hvert skjáútlit.
 
@@ -92,7 +89,7 @@ Flestir þættir POS notandaviðmóts eru móttækilegir og stærð útlitsins e
 
 Við ræsingu velur POS forritið sjálfkrafa nálægasta útlitsstærð sem er grunnstillt fyrir tækið. Útlit skjás getur einnig innihaldið grunnstillingar fyrir bæði langsniðs- og skammsniðsstillingar, og fyrir tæki í fullri stærð sem og smærri tæki. Þar af leiðandi getur notendum verið úthlutað á eina tegund skjáútlits sem virkar í mismunandi stærðar- og skjámyndaþáttum innan verslunarinnar.
 
-![POS útlitsstærðir](../commerce/media/POS-Screen-Layout-Sizes.png)
+![POS útlitsstærðir.](../commerce/media/POS-Screen-Layout-Sizes.png)
 
 - **Nafn** - Þú getur slegið inn merkingarbært nafn til að auðkenna skjástærðina.
 - **Útlitsgerð** - POS forritið getur sýnt notendaviðmótið í ýmsum stillingum til að veita bestu notendaupplifun á tilteknu tæki.
@@ -105,7 +102,7 @@ Við ræsingu velur POS forritið sjálfkrafa nálægasta útlitsstærð sem er 
 > [!TIP]
 > Þú getur fengið upplýsingar um útlitsstærðina sem krafist er fyrir POS-skjá með því að skoða upplausnina í forritinu. Ræstu POS og farðu í **Stillingar \> Upplýsingar um lotu**. POS sýnir skjáútlitið sem er nú hlaðið, útlitsstærð og upplausn forritsgluggans.
 
-![Upplýsingasíða um sölustaðarlotu sem sýnir skjáútlit, útlitsstærð og upplausn forritagluggans sem er hlaðinn](../commerce/media/POS-Session-Information.png)
+![Upplýsingasíða um sölustaðarlotu sem sýnir skjáútlit, útlitsstærð og upplausn forritagluggans sem er hlaðinn.](../commerce/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Hnappahnit
 
@@ -115,7 +112,10 @@ Fyrir hverja útlitsstærð í skjáútliti er hægt að grunnstilla og úthluta
 
 Í þjöppuðu POS útliti eru hnappahnitum stillt sjálfkrafa upp frá toppi til botns, frá lægsta númeri (Færsla skjár 1) í hæsta númerið. Hægt er að fara inn í það í **Aðgerðir** valmyndinni.
 
-![Þjappað útlit hnappahnit](../commerce/media/Compact-View-Button-Grids.png)
+![Hnappahnit þjappaðs útlits.](../commerce/media/Compact-View-Button-Grids.png)
+
+> [!NOTE]
+> Hnappastærðir í hönnuðin verða kvarðaðir þannig að þær passi við stærð gluggans, því er ekki víst að þær endurspegli raunverulega hnappa á sölustað. Til að herma eftir útliti hnappahnits skal stilla gluggahönnuð á sömu stærð og á sölustað.
 
 ### <a name="images"></a>Myndir
 
@@ -132,7 +132,7 @@ Skjáútlit hönnuður leyfir þér að grunnstilla ýmsa þætti POS **Færsla*
 
 Óþjappað útlit hönnuður leyfir notendum að draga stýringu notandaviðmóts inn á POS **Færsla** skjár og grunnstilla þá stýringu.
 
-![POS óþjappað útlit hönnuður (langsniðsstilling)](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
+![Hönnuður óþjappaðs útlits POS (langsniðsstilling).](../commerce/media/POS-Full-Layout-Designer-Landscape.png)
 
 - **Innflutningur útlit/Útflutningur útlit** - Þú getur flutt inn og út POS skjáútlitshönnun sem XML skrá, svo að þú getur auðveldlega endurnýta og deila þeim yfir umhverfi. Það er mikilvægt að þú flytur inn útlitshönnun fyrir réttar útlitsstærðir. Annars er mögulegt að þættir notandaviðmóts passi ekki rétt á skjánum.
 - **Langsnið/Skammsnið** - Ef POS-tækið leyfir notendum að skipta á milli langsniðs- og skammsniðsstillinga, verður þú að skilgreina skjáútlit fyrir hverja stillingu. POS greinir sjálfkrafa skjásnúning og sýnir rétta útlitið.
@@ -140,11 +140,11 @@ Skjáútlit hönnuður leyfir þér að grunnstilla ýmsa þætti POS **Færsla*
 - **Hönnuður aðdráttur** - Hægt er að þysja að og frá á hönnunarskjánum til að sjá betur efni á POS skjánum. Þessi eiginleiki kemur að góðum notum þegar skjáupplausnin á POS er mjög mismunandi frá upplausn skjásins sem notuð er í hönnuði.
 - **Sýna/fela yfirlitsstiku** - Fyrir óþjappað POS útlit getur þú valið hvort vinstri yfirlitsstikan sé sýnileg á skjánum **Færsla**. Þessi eiginleiki er gagnlegur fyrir skjái sem eru með lægri upplausn. Til að stilla sýnileika skaltu hægrismella á yfirlitsstikuna í hönnuðinum og velja eða hreinsa **Alltaf sýnilegt** gátreitinn. Ef yfirlitsstikan er falin geta POS notendur ennþá fengið aðgang að henni með því að nota valmyndina efst til vinstri.
 
-    ![Sýna/fela yfirlitsstiku](../commerce/media/Navigation-Bar.PNG)
+    ![Sýna/fela yfirlitsstiku.](../commerce/media/Navigation-Bar.PNG)
 
 - **POS stýring** - POS útlit hönnuður styður eftirfarandi stýringar. Þú getur grunnstillt margar stýringar með því að hægrismella og nota flýtivalmyndina.
 
-    ![POS notandaviðmót stýring](../commerce/media/POS-UI-Controls.png)
+    ![Stýringar POS notandaviðmóts.](../commerce/media/POS-UI-Controls.png)
 
     - **Talnaborð** - Talnaborðið er aðalbúnaðurinn fyrir notandainntak á POS **Færsla** skjánum. Þú getur grunnstillt stýringuna þannig að óþjappað talnaborð birtist. Þessi valkostur er tilvalin fyrir tæki með snertiskjá. Að öðrum kosti geturðu grunnstillt það þannig að aðeins ílagssvæðið sést. Í þessu tilviki er ytra lyklaborð notað fyrir inntak. Stillingar fyrir talnaborðið eru aðeins tiltæk fyrir óþjappað útlit. Fyrir þjappað útlit, allt talnaborðið er alltaf sýnd á **Færsla** skjánum.
     - **Samtölugluggi** - Hægt er að grunnstilla samtölugluggann í annaðhvort einum dálki eða tveimur dálkum, til að sýna gildi eins og línufjöldi, afsláttarupphæð, gjöld, millisamtala og skattur. Þjappað útlit styðja aðeins einn dálk.
@@ -159,13 +159,13 @@ Skjáútlit hönnuður leyfir þér að grunnstilla ýmsa þætti POS **Færsla*
 
 Eins og hönnuður fyrir óþjappað útlit, gerir hönnuður fyrir þjappað útlit þér kleift að stilla POS skjáútlitið fyrir farsíma og litlar spjaldtölvur. Í þessu tilfelli er útlitið sjálft samt sem áður ákveðið. Þú getur grunnstillt stýringuna í útliti með því að hægrismella og nota flýtivalmyndina. Þú getur samt sem áður ekki notað draga-og-sleppa aðgerðir fyrir viðbótar efni.
 
-![Þjappað útlit hönnuður](../commerce/media/Compact-Layout-Designer.png)
+![Hönnuður þjappaðs útlits.](../commerce/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Hönnuður hnappahnits
 
 Hnappahnit hönnuður gerir þér kleift að grunnstilla hnappahnit sem hægt er að nota á POS upphafsskjár og **Færsla** skjár fyrir bæði óþjappað og þjappað útlit. Sama hnappahnitið getur verið notaður yfir útlit og útlitsgerðir. Eins og skjáútlit hönnuður, hnappahnit hönnuður notar ClickOnce uppsetningartækni til að hlaða niður, setja upp og ræsa nýjustu útgáfuna af forritinu í hvert sinn sem notendur opna það. Vertu viss um að athuga kröfur vafrans fyrir ClickOnce. Sumir vafrar, svo sem Google Chrome, þurfa viðbætur.
 
-![Hönnuður hnappahnits](../commerce/media/Button-Grid-Designer.png)
+![Hönnuður hnappahnits.](../commerce/media/Button-Grid-Designer.png)
 
 - **Nýr hnappur** - Smelltu til að bæta nýjum hnappi við hnappahnitið. Nýir hnappar birtast að sjálfgefnu efst í vinstra horni hnitsins. Samt sem áður er hægt að raða hnappa með því að draga þau í útlitið.
 
@@ -178,7 +178,7 @@ Hnappahnit hönnuður gerir þér kleift að grunnstilla hnappahnit sem hægt er
     > [!IMPORTANT]
     > Sumir hnappahnitsstillingar gilda aðeins um Enterprise POS, ekki um Modern POS eða Cloud POS.
 
-    ![Eiginleikar hnapps í hnappahniti](../commerce/media/Button-grid-button-properties.png)
+    ![Eiginleikar hnapps í hnappahniti.](../commerce/media/Button-grid-button-properties.png)
 
     - **Aðgerð** - Í listanum yfir viðeigandi POS aðgerðir, veldu þá aðgerð sem er kölluð fram þegar smellt er á hnappurinn í POS.
 
@@ -190,7 +190,7 @@ Hnappahnit hönnuður gerir þér kleift að grunnstilla hnappahnit sem hægt er
     - **Ábending** - Tilgreina viðbótar hjálpartexta sem birtist þegar notendur færa músina yfir hnappinn.
     - **Stærð í dálkum/Stærð í röðum** - Þú getur tilgreint hversu hár og breiður hnappurinn er.
 
-        ![POS hnappastærðir í röðum og dálkum](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
+        ![POS hnappastærðir í röðum og dálkum.](../commerce/media/POS-Button-Sizes-In-Rows-And-Columns.png)
 
     - **Sérstillt leturgerð** - Þegar þú velur **Virkja sérstillta leturgerð fyrir POS** gátreitinn getur þú tilgreint leturgerð, aðra en sjálfgefið leturgerð fyrir POS kerfið.
     - **Sérstillt þema** - Sjálfgefið notar POS hnappar áherslulit frá sjónrænu forstillingunni. Þegar þú velur **Notaðu sérstillt þema** gátreitinn geturðu tilgreint fleiri liti.
@@ -200,8 +200,11 @@ Hnappahnit hönnuður gerir þér kleift að grunnstilla hnappahnit sem hægt er
 
     - **Hnappamynd** - Hnappar geta innihaldið myndir eða tákn. Veldu á milli tiltækra mynda sem eru tilgreindar í **Retail og Commerce \> Uppsetning rásar \> POS uppsetning \> POS \> Myndir**.
 
-![Dæmi hnappahnit í POS](../commerce/media/Example-Button-Grid-In-POS.png)
+![Dæmi um hnappahnit í POS.](../commerce/media/Example-Button-Grid-In-POS.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Setja upp útlitshönnuð smásöluverslunar (POS)](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8e56688aac445b84d5a9c0df289d48ffefd5767f673f2329f69582e820c27820
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 830e05db47e2e2d3bb5970869bc395cfa73ad603
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738150"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087371"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 
@@ -138,7 +138,6 @@ Ekki öll verkflæði styðja úrvinnslu á afurð í framleiðsluþyngd með v�
 - Ekki er hægt að nota afurðir í framleiðsluþyngd sem eru með afbrigði virkt saman með virkni til að umbreyta mælieiningu afbrigðis.
 - Ekki er hægt að merkja afurðir í framleiðsluþyngd sem „afurðasett“ Commerce.
 - Aðeins er hægt að nota afurðir í framleiðsluþyngd með einingaröðunarflokki sem er með afgreiðslueiningar fyrir framleiðsluþyngd og sem er með framleiðsluþyngdareininguna sem lægstu röðina.
-- Fyrir afurðir í framleiðsluþyngd er hægt að umbreyta birgðaeiningunni í framleiðsluþyngdareiningu eingöngu ef umbreytingin býr til nafnmagn sem er meira en 1.
 - Uppsetning strikamerkja fyrir afurðir í framleiðsluþyngd styður ekki uppsetningu breytilegrar þyngdar.
 
 ### <a name="order-processing"></a>Vinnsla pantana

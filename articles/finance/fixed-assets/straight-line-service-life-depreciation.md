@@ -1,7 +1,7 @@
 ---
-title: Línulegar líftímaafskriftir
-description: Þessi grein gefur yfirlit yfir afskriftaaðferðina Línulegar líftímaafskriftir.
-author: ShylaThompson
+title: Línuleg afskrift líftíma
+description: Þetta efnisatriði gefur yfirlit yfir afskriftaaðferðina Línulegar líftímaafskriftir.
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 3341
 ms.assetid: ae5ceaeb-aeb7-45cd-b835-23cf9c5cf95a
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 985a1a23510a2cc698eb496cf9f3db2427d21119c1586ed69cf7e5ffd3d08867
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: b34cdf9485d38cdbf1362bd605841201a4295f26
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752200"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675272"
 ---
-# <a name="straight-line-service-life-depreciation"></a>Línulegar líftímaafskriftir
+# <a name="straight-line-service-life-depreciation"></a>Línuleg afskrift líftíma
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein gefur yfirlit yfir afskriftaaðferðina Línulegar líftímaafskriftir.
+Þetta efnisatriði gefur yfirlit yfir afskriftaaðferðina Línulegar líftímaafskriftir.
 
 Þegar afskriftaregla fyrir eignir er sett upp og velur og línulegur líftími í reitnum Aðferð í síðunni afskriftareglu, eru eignirnar sem hafa þessa afskriftarreglu úthlutaða á sig afskrifaðar byggt á heildar líftíma eignar. Þetta er að öllu jöfnu sama afskriftarupphæðin á hverju afskriftatímabili. 
 
@@ -44,11 +44,11 @@ Ef Dagatal er valið er gert ráð fyrir ári sem er 1. Janúar til 31. Desember
 Valmöguleikinn dagatal uppfærir afskriftagrunninn (vanalega bókað nettóverð að frádregnu hrakvirði) þann 1. janúar ár hvert. Í dæmunum hér að neðan er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. 
 
 Ef dagatal er valið eru eftirfarandi valkostir á svæðinu tímabilstíðni, sem skilgreinir bókunardagsetningar uppsafnaðra afskrifta og upphæðir yfir allt almanaksárið:
--   Árleg upphæð bókar 31. Desember.
--   Valkosturinn mánaðarlega bókar mánaðarlega upphæð við lok hvers almanaksmánaðar
--   Valkosturinn ársfjórðungslega bókar upphæð ársfjórðungslega við lok hvers almanaksfjórðungs (31. mars, 30. júní, 30. september og 31. desember).
--   Valkosturinn tvisvar á ári bókar upphæð á hálfs árs fresti miðað við hálft almanaksár (30. júní og 31. desember).
--   Með valkostinum daglega er afskriftarupphæð fyrir afskriftaraðferðina daglega bókuð með einni færslu daglega.
+- Árleg upphæð bókar 31. Desember.
+- Valkosturinn mánaðarlega bókar mánaðarlega upphæð við lok hvers almanaksmánaðar
+- Valkosturinn ársfjórðungslega bókar upphæð ársfjórðungslega við lok hvers almanaksfjórðungs (31. mars, 30. júní, 30. september og 31. desember).
+- Valkosturinn tvisvar á ári bókar upphæð á hálfs árs fresti miðað við hálft almanaksár (30. júní og 31. desember).
+- Með valkostinum daglega er afskriftarupphæð fyrir afskriftaraðferðina daglega bókuð með einni færslu daglega.
 
 Til dæmis, ef valið er Árlega, eru árlegar afskriftir bókaðar aðeins einu sinni, 31. Desember ár hvert. Ef valið er mánaðarlega bókast afskriftirnar sem 1/12 árlegrar afskriftaupphæðar mánaðarlega.
 
@@ -59,14 +59,14 @@ Ef valið er reikningsár á svæðinu afskriftarár er afskrift línulegs líft
 Fyrir fjárhagsárið 1. júlí til 30. júní, byrjar útreikningur afskrifta til dæmis þann 1. júlí. Fjárhagsár getur verið lengra eða styttra en 12 mánuðir. Afskriftirnar eru leiðréttar sjálfkrafa fyrir hvert fjárhagstímabil. Lengd næsta fjárhagsárs er byggt á fjárhagstímabilum sem sett eru upp þegar nýtt fjárhagsár er stofnað á skjámyndinni fjárhagsdagatöl. 
 
 Ef fjárhagsár er valið eru eftirfarandi valkostir tiltækir á svæðinu tímabilstíðni:
--   Árlega bókar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið sem eina upphæð á síðasta degi fjárhagsársins.
--   Fjárhagstímabil reiknar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið sem er safnað upp í tímabilin sem eru skilgreind í skjámynd fjárhagsdagatals fyrir fjárhagsdagatal.
+- Árlega bókar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið sem eina upphæð á síðasta degi fjárhagsársins.
+- Fjárhagstímabil reiknar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið sem er safnað upp í tímabilin sem eru skilgreind í skjámynd fjárhagsdagatals fyrir fjárhagsdagatal.
 
 ## <a name="example-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Dæmi: Línuleg afskrift af óbreytt eign
 Segjum sem svo að eignin hafi eftirfarandi eiginleika:
 
 | Eiginleikar      | Virði  |
-|---------------------|--------|
+|:---------------------|--------:|
 | Kaupverð    | 11,000 |
 | Hrakvirði       | 1.000  |
 | Afskriftargrundvöllur   | 10.000 |
@@ -76,7 +76,7 @@ Segjum sem svo að eignin hafi eftirfarandi eiginleika:
 Sama afskriftarupphæð á hverju ári. (Kaupverð - Hrakvirði) / Líftími í árum
 
 | Tímabil | Reiknuð árleg upphæð afskrifta | Nettó bókfært verð við lok árs |
-|--------|-------------------------------------------|---------------------------------------|
+|:--------:|:-------------------------------------------|---------------------------------------:|
 | 1. ár | (11,000 - 1,000) / 5 = 2,000              | 9.000                                 |
 | 2. ár | (11,000 - 1,000) / 5 = 2,000              | 7.000                                 |
 | 3. ár | (11,000 - 1,000) / 5 = 2,000              | 5.000                                 |
@@ -90,7 +90,7 @@ Segjum sem svo að bætt sé við leiðrétting kaupa upp á 4,000 á 2. ári vi
 Líftími leiðréttingar kaupa er sú sama og eignarinnar og hefst við kaup þess. Nettó bókfært verð stendur eftir við lok 5. árs, sem samsvarar nettó bókfært verð kaupverðsbreytingarinnar. Afskriftirnar eftir tímabilum eru reiknaðar eins og sýnt er í eftirfarandi töflu.
 
 | Tímabil | Reiknuð upphæð árlegra afskrifta | Nettó bókfært verð við lok árs |
-|--------|-------------------------------------------|---------------------------------------|
+|:--------:|:-------------------------------------------|---------------------------------------:|
 | 1. ár | 10,000 / 5 = 2,000                        | 11.000 - 2.000 = 9.000                |
 | 2. ár | 4.000 ( – Leiðrétting kaupa)            | 9,000 + 4,000 =13,000                 |
 | 2. ár | 14,000 / 5 = 2,800                        | 13.000 - 2.800 = 10.200               |

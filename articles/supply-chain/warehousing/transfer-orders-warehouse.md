@@ -2,26 +2,23 @@
 title: Setja upp vöruhús fyrir flutningspantanir
 description: Þetta efnisatriði lýsir því hvernig hægt er að setja upp vöruhús fyrir flutningspantanir.
 author: Mirzaab
-manager: tfehr
 ms.date: 01/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation,CustVendTransportPoint2Point
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.openlocfilehash: 6de9df2749836c68bc4e9f92a6934516ff9c1d469374f0d63173a209c841ba38
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430715"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756728"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Setja upp vöruhús fyrir flutningspantanir 
 
@@ -53,3 +50,6 @@ Nota má vöruhúsastig til að búa til þrepun sem styður pantanir á milli v
 2. Í reitnum **Viðtökustaður** skal velja **vöruhús**.
 3. Veljið **Sendingarvöruhús**, **Viðtökuvöruhús** og **Flutningsdagar**. 
 4. (Valfrjálst) Einnig er hægt að stilla flutningstíma, fer allt eftir flutningsmáta, undir flipanum **Flutningsdagar eftir flutningsmáta**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

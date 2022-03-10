@@ -2,15 +2,12 @@
 title: Kortaeining
 description: Þetta efnisatriði fjallar um kortaeiningar og lýsir því hvernig á að skilgreina þær í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
-ms.translationtype: HT
+ms.openlocfilehash: bc5962d6bedba1f5abf423c396382e5c8a901c81797ae95132833e23c46cfd57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665421"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747394"
 ---
 # <a name="map-module"></a>Kortaeining
 
@@ -32,9 +29,7 @@ ms.locfileid: "4665421"
 
 Þetta efnisatriði fjallar um kortaeiningar og lýsir því hvernig á að skilgreina þær í Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Yfirlit
-
-Kortaeining sýnir staðsetningar verslana á gagnvirku korti sem er sett fram með því að nota [Bing Maps V8 vefstýringu](https://docs.microsoft.com/bingmaps/v8-web-control/). API-lykill Bing-korta er nauðsynlegur og verður að bæta honum við samnýtta færibreytusíðu í Commerce Headquarters. Kortaeiningar bjóða upp á mismunandi sjónarhorn, t.d. af vegi, úr lofti og af götunni, sem notendur geta valið til að skoða kortastaðsetningar. Þær leyfa einnig aðgerðir eins og aðdrátt og nota staðsetningu notanda.
+Kortaeining sýnir staðsetningar verslana á gagnvirku korti sem er sett fram með því að nota [Bing Maps V8 vefstýringu](/bingmaps/v8-web-control/). API-lykill Bing-korta er nauðsynlegur og verður að bæta honum við samnýtta færibreytusíðu í Commerce Headquarters. Kortaeiningar bjóða upp á mismunandi sjónarhorn, t.d. af vegi, úr lofti og af götunni, sem notendur geta valið til að skoða kortastaðsetningar. Þær leyfa einnig aðgerðir eins og aðdrátt og nota staðsetningu notanda.
 
 Kortaeining vinnur með verslunarvalseiningunni til að ákvarða landfræðilegar staðsetningar á verslunum sem sýna þarf á korti. Verslunarvals- og kortaeiningar vinna saman þegar notandi velur verslun í annarri hvorri einingunni á svæði síðu. Hægt er að nota kortaeiningar í öðrum aðstæðum, sem tengjast ekki verslunarvalseiningum. Hins vegar er sérstilling einingar nauðsynleg.
 
@@ -43,13 +38,13 @@ Kortaeining vinnur með verslunarvalseiningunni til að ákvarða landfræðileg
 
 Eftirfarandi mynd sýnir dæmi um kortaeiningu sem er notuð á staðsetningarsíðu verslunar.
 
-![Dæmi um verslunarvalseiningu](./media/ecommerce-Storelocator.PNG)
+![Dæmi um verslunarvalseiningu.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="module-properties"></a>Eiginleikar einingar
 
 | Nafn eiginleika             | Virði                 | lýsing |
 |---------------------------|-----------------------|-------------|
-| Yfirskrift | Texti | Fyrirsögn einingarinnar. |
+| Haus | Texti | Fyrirsögn einingarinnar. |
 | Valkostir teiknibólu: Sjálfgefið tákn | Mynd | Myndatákn teiknibólunnar sem er notaðfyrir verslanir sem sjást á korti. |
 | Valkostir teiknibólu: Virkt tákn | Mynd | Myndatákn teiknibólunnar sem er notað fyrir verslun sem er valin á korti. |
 | Valkostir teiknibólu: Sjálfgefinn litur tákns | Stafastrengur | Textinn eða sextándakerfisgildið fyrir litinn á teiknibólutákni á korti. |
@@ -81,4 +76,7 @@ Til þess að kortaeining geti unnið með Bing-korti, þarf að ganga úr skugg
 
 [Stjórna Bing-kortum fyrir þitt fyrirtæki](./dev-itpro/manage-bing-maps.md)
 
-[Bing-kort V8 Vefstýringar](https://docs.microsoft.com/bingmaps/v8-web-control/)
+[Bing-kort V8 Vefstýringar](/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,27 +1,25 @@
 ---
 title: Stofna tilviksreglu kanbans fyrir uppskriftarlínu
 description: Þetta verk leggur áherslu á uppsetningu þarf að stofna kanban-tilviksreglu til að tryggja að birgðir fyrir framleiðsluuppskriftarlínur í blönduðum lean og classic vinnsluumhverfi.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdTable, ProdBOM, ProdParmCostEstimation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bcef749139635b2d8858a85154ff7619c16857d3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 14cef6279b756ff71872747dfb1ca9e5c8cd8fcc
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4998754"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575052"
 ---
 # <a name="create-a-bom-line-event-kanban-rule"></a>Stofna tilviksreglu kanbans fyrir uppskriftarlínu
 
@@ -82,3 +80,6 @@ ms.locfileid: "4998754"
     * Athugaðu kanban sem var stofnað til að veita framboð fyrir M0001 fyrir áætlaða framleiðslupöntun.  
     * Þetta er síðasta skrefið!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

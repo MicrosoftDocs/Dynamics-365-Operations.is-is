@@ -1,12 +1,10 @@
 ---
 title: Aðgerðröðun
 description: Þetta efni inniheldur upplýsingar um aðgerðröðun. Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 198073
 ms.assetid: 12c28b11-80aa-4668-b15b-724cb24890bd
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb4e1a38c675a3c8d102741a027d54294e335ac1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966406"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574570"
 ---
 # <a name="operations-scheduling"></a>Aðgerðröðun
 
@@ -76,10 +74,12 @@ Aðgerðaröðun keyrir líka aðaláætlanagerð, sem ákvarðar hráefnisþarf
 ## <a name="finite-materials"></a>takmarkað efni
 Ef verið er að vinna með endanlegt magn, er áætlun einnig háð tiltækileika hráefna sem eru nauðsynleg við framleiðsluna. Ef ekki eru til nægilega margir íhlutir fyrir framleiðsluna, má fresta framleiðslunni. Hægt er að byggja röðun á efnisnotkun með því að tilgreina efni sem verður að vera tiltækt fyrir framleiðslu. Þegar þú fínstilla bæði forðagetu og tiltækt hráefni er framleiðslan reiknuð samkvæmt þessar takmarkanir. Ekki er hægt að raða framleiðslupöntun fyrr en afköst og hráefni eru tiltæk á sama tíma og í nauðsynlegu magni.
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Valkostir aðgerðaröðunar](operation-scheduling-options.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

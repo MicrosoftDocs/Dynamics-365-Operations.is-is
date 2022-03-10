@@ -1,8 +1,8 @@
 ---
 title: Uppsetning námskeiða
 description: Mannauðsstjórar og stjórnendur geta notað eiginleika námskeiðsaðgerða til að viðhalda upplýsingum um þjálfun sem er í boði fyrir starfsmenn.
-author: andreabichsel
-ms.date: 06/24/2019
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 818d96b14e32716e95b57391df5a90f7d32c4bb0
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
-ms.translationtype: HT
+ms.openlocfilehash: c66459a044419535d66875cddac7eb73af744ca7
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190233"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066751"
 ---
 # <a name="set-up-training-courses"></a>Uppsetning námskeiða
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -80,7 +83,7 @@ Fyrir hvern tilgang er hægt að ljúka eftir farandi verkum.
 - Tilgreina hámarks- og lágmarksfjölda þátttakenda.
 - Úthluta staðsetningu og kennslustofu á námskeið.
 - Mæla með hótelum fyrir þátttakendur námskeiðs.
-- Stofna námskeiðslýsingu, sem síðan er hægt að auglýsa á sjálfsafgreiðslu°starfsmanna
+- Stofna námskeiðslýsingu, sem síðan er hægt að auglýsa á **sjálfsafgreiðslu°starfsmanna**
 
   >**Athugasemd** Aðeins er hægt að eyða námskeiði ef enginn hefur skráð sig á það. 
 

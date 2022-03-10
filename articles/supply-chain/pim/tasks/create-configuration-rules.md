@@ -1,27 +1,24 @@
 ---
 title: Stofna skilgreiningareglur
 description: Þetta ferli stofnar skilgreiningarreglur sem hægt er að nota fyrir víddaskilgreining til að tryggja eða koma í veg fyrir tilteknar samsetningar uppskriftarlína.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable, BOMConfigRule, ConfigItemIdLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6bc0af4d95e9430d0b5c8b7fc9a4ade076802044
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b1b0bcf126f8b438f13ec7cc3537dfe1dab8c275
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430337"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569602"
 ---
 # <a name="create-configuration-rules"></a>Stofna skilgreiningareglur
 
@@ -55,3 +52,6 @@ ms.locfileid: "4430337"
     * Velja vörunúmerið sem verður annað hvort valin eða hafnað eftir þeirri aðferð sem var valið.  
 18. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

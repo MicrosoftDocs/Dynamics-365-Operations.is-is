@@ -2,7 +2,6 @@
 title: Einingar notandaviðmóts
 description: Þetta efni lýsir notendaviðmótaþáttum í forritinu.
 author: tlefor
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
@@ -13,14 +12,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: aa858c800e3432b0cb9c4b3c4eea57bbbed0f624
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566247"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069324"
 ---
 # <a name="user-interface-elements"></a>Einingar notandaviðmóts
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Þetta efni lýsir notendaviðmótaþáttum sem eru notaðir í forritinu. Áður en notendur geta farið í viðmótið er mikilvægt að þekkja heiti og aðgerðir þátta sem mynda viðmótið.
 
@@ -76,7 +78,7 @@ Eftirfarandi mynd sýnir dæmi um þessar tegundir tilkynninga.
 
 - **Skilaboðakassi** - Þetta mun birtast yfir viðmótinu og verður að hafa samskipti við það áður en þú getur haldið áfram að nota vöruna.  
 
-![Eftirfarandi mynd sýnir dæmi um skilaboðakassa](media/user-interface-07.png)
+![Eftirfarandi mynd sýnir dæmi um skilaboðaglugga.](media/user-interface-07.png)
 
 ## <a name="toolbars-grids-and-lists"></a>Tækjastika, töflur og listar
 

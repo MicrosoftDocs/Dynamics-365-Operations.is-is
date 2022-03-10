@@ -2,11 +2,9 @@
 title: Útboðsbundin afsláttur
 description: Þetta efni veitir yfirlit yfir virkni sem við skulum láta smásala stilla afslátt fyrir ákveðnar útboðsgerðir.
 author: bebeale
-manager: AnnBe
 ms.date: 10/30/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderDiscount
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 98631d8f9fb2c05621f69fa67c9b60472198ee6b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 52b9510b2c22157aec27b865115273064bb0e803443306ea20468b93a2ea3ca7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232568"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719466"
 ---
 # <a name="tender-based-discounts"></a>Útboðsbundin afsláttur
 

@@ -1,12 +1,10 @@
 ---
 title: Stofna þjónustusamningsflokka
-description: Þjónustusamningsflokkar eru gagnlegir til að flokka og sía þjónustusamninga.
-author: ShylaThompson
-manager: tfehr
+description: Þetta efnisatriði gefur upp ferli sem sýnir hvernig á að stofna þjónustusamningsflokka.
+author: kamaybac
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementGroup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbafd65073e6aba8f02aaed6877b8c1658a6dedc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 5770bd9d958b63e4c62135f39224aee68247beff
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965931"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580433"
 ---
 # <a name="create-service-agreement-groups"></a>Stofna þjónustusamningsflokka 
 
@@ -30,7 +28,7 @@ ms.locfileid: "4965931"
 
 Þjónustusamningsflokkar eru gagnlegir til að flokka og sía þjónustusamninga.
 
-1. Smellið á **Þjónustustjórnun** \> **Uppsetningu** \> **Þjónustusamningar** \> **Þjónustusamningsflokkar**.
+1. Opnið **Þjónustustjórnun** \> **Uppsetningu** \> **Þjónustusamningar** \> **Þjónustusamningsflokkar**.
 2. Ýtið á **Alt+N** til að stofna nýjan þjónustusamningsflokk.
 3. Færið inn auðkenni þjónustusamningsflokks í reitinn **Þjónustusamningsflokkur**.
 4. Í reitnum **Lýsing** er færð inn lýsing á þjónustusamningsflokknum.
@@ -42,3 +40,6 @@ ms.locfileid: "4965931"
 ## <a name="related-topics"></a>Tengd efnisatriði
 
 [Yfirlit yfir þjónustusamning](service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

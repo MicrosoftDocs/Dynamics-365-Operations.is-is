@@ -1,7 +1,7 @@
 ---
 title: Formúlur og formúluútgáfar
 description: Þetta efnisatriði veitir upplýsingar um formúlur og formúluútgáfur. Formúla skilgreinir efni, innihaldsefni og niðurstöður tiltekins ferils í framleiðsluferli. Formúlur eru notaðar til að skipuleggja og framleiða vörur í framleiðsluferli.
-author: cvocph
+author: johanhoffmann
 ms.date: 09/12/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d86b0c8fa3c6379b9f1df11fd6b20f9e263656c2b98ea00f4225aebd5d25ac41
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: ca7111811d14aaf0f6c8b814877897884e4cd76f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780053"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570274"
 ---
 # <a name="formulas-and-formula-versions"></a>Formúlur og formúluútgáfar
 

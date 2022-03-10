@@ -1,17 +1,14 @@
 ---
 title: Virkja sérsniðnar afurðaráðleggingar
-description: Þetta efni lýsir því hvernig hægt er að gera persónulegar ráðleggingar um vöru tiltækar fyrir viðskiptavini Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að gera sérsniðnar afurðatillögur tiltækar fyrir viðskiptavini í Microsoft Dynamics 365 Commerce.
 author: bebeale
-manager: AnnBe
 ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,20 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 74bf2c96d744b8101151be9288a956d46ce3b6885f0cb593dc1b78728b018fb4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413130"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770958"
 ---
 # <a name="enable-personalized-recommendations"></a>Kveikja á sérsniðnum tillögum
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig hægt er að gera persónulegar ráðleggingar um vöru tiltækar fyrir viðskiptavini Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði lýsir því hvernig á að gera sérsniðnar afurðatillögur tiltækar fyrir viðskiptavini í Microsoft Dynamics 365 Commerce.
 
 Í Dynamics 365 Commerce geta smásalar gert persónulegar ráðleggingar um vörur (einnig þekktar sem persónugervingar) tiltækar. Þannig er hægt að fella persónulegar ráðleggingar inn í upplifun viðskiptavina á netinu og á sölustað (POS). Þegar kveikt er á sérstillingaraðgerðinni getur kerfið tengt kaup notanda og vöruupplýsingar til að búa til sérsniðnar ráðleggingar um vöru.
 
@@ -55,7 +50,7 @@ Fylgdu þessum skrefum til að kveikja á persónuaðlögun.
 1. Velja eiginleikann **Sérsniðnar afurðarráðleggingar**.
 1. Á svæðinu **Sérsniðnar afurðaráðleggingar** skal velja **Virkja núna**.
 
-![Kveikt á aðlögun](./media/FeatureManagement_Personalized.PNG)
+![Kveikt á sérstillingu.](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Þegar þú kveikir á sérsniðinni er ferlið við að búa til sérsniðna vöru meðmæla lista byrjað. Allt að einn dagur gæti verið nauðsynlegur áður en þessir listar eru tiltækir og sýnilegir á netinu og í POS.
@@ -78,7 +73,7 @@ Eftir að kveikt er á sérstillingu geta smásalar sýnt kaupendum persónulega
 
 Eftirfarandi mynd sýnir dæmi um „Tillögur fyrir þig“ á netverslunarsíðu.
 
-![Listar yfir „Tillögur fyrir þig“ á netinu](./media/picksforyou.png)
+![Listi yfir „Tillögur fyrir þig“ á netinu.](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>Listar með „Mælt með fyrir viðskiptavini“ í POS
 
@@ -86,7 +81,7 @@ Til að auka upplifun viðskiptavinarins geta smásalar sérsniðið núverandi 
 
 Eftirfarandi mynd sýnir dæmi um „Mælt með fyrir viðskiptavini“ á afgreiðslukassa.
 
-![Listinn Mællt með fyrir viðskiptavini í POS](./media/picksonpos.png)
+![Listinn Mælt með fyrir viðskiptavini í POS.](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>Notaðu persónugervingu á fyrirliggjandi meðmæla lista
 
@@ -94,7 +89,7 @@ Söluaðilar geta beitt sérsniðum á fyrirliggjandi ráðleggingalista, svo se
 
 Til dæmis hefur skráður notandi þegar keypt svarta úrið og brúnu vinnuskóna sem birtast á listanum „Vinsælt - sjálfgildi“ á eftirfarandi mynd. Þess vegna mun notandinn sjá nýjar vörur í stað þessara vara, eins og sýnt er í listanum „Vinsælt - sérsniðið“.
 
-![Að beita sérsniðum](./media/applypersonalization.png)
+![Að beita sérsniðum.](./media/applypersonalization.png)
 
 Fylgdu þessum skrefum til að beita sérsniðun á fyrirliggjandi meðmælalista í vefsvæðishönnuði Commerce.
 
@@ -104,7 +99,7 @@ Fylgdu þessum skrefum til að beita sérsniðun á fyrirliggjandi meðmælalist
 1. Í **Veldu stillingu vörulistans** valmynd, undir **Gerð**, veldu gerð listans.
 1. Veldu **Notaðu sérsnið** merktu við reitinn og veldu síðan **Í lagi**.
 
-    ![Notkun sérsniðs á vinsældalista](./media/ApplyPersonalizationToTrending.PNG)
+    ![Notkun sérsniðs á vinsældalista.](./media/ApplyPersonalizationToTrending.PNG)
 
 1. Vistaðu síðuna, ljúktu við að breyta því og birtu hana síðan. Eftir að síðunni er birt munu innskráðir notendur sjá sérsniðna vinsældalista.
 
@@ -131,3 +126,6 @@ Fylgdu þessum skrefum til að beita sérsniðun á fyrirliggjandi meðmælalist
 [Búðu til tillögur með kynningargögnum](product-recommendations-demo-data.md)
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Búa til fríðindaáætlun
-description: Uppsetning fríðindaáætlana í Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 03/24/2021
+description: Þetta efnisatriði sýnir hvernig á að setja upp fríðindaáætlanir í Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,24 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d95fce78102ebed52a9a2df0855767c3fd97f574
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
-ms.translationtype: HT
+ms.openlocfilehash: 7d3163bf30af9ed0eac2c753ed4aabb15d568ff4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052218"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065327"
 ---
 # <a name="create-a-benefit-plan"></a>Stofna fríðindaáætlun
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þessi grein sýnir þér hvernig á að setja upp fríðindaáætlun í Dynamics 365 Human Resources.
+Þetta efnisatriði sýnir hvernig á að setja upp fríðindaáætlanir í Dynamics 365 Human Resources.
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Áætlanir**, veldu **Fríðindaáætlanir**.
 

@@ -1,7 +1,7 @@
 ---
 title: Tilgreint hvernig losa eigi skilaðar vörur
 description: Tilgreina hvernig losa eigi skilavörur.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3eaeb2589329809e57ac01aba85067e94c15477c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: e609c1c285b34a5416a2058809b2fc4fafb73fca
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817486"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571330"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a>Tilgreint hvernig losa eigi skilaðar vörur 
+# <a name="specify-how-to-dispose-of-returned-items"></a>Tilgreint hvernig losa eigi skilaðar vörur
 
 [!include [banner](../includes/banner.md)]
-
 
 Þegar skilapöntun er meðhöndluð þarf að tilgreina ástæðukóða skila til að taka það fram af hverju verið er að skila. Einnig þarf að tilgreina ráðstöfunarkóða og ráðstöfunaraðgerð til að ákvarða hvað gera skal við sjálfa skiluðu afurðina.
 
@@ -35,9 +34,9 @@ Hægt er að skilgreina alla ráðstöfunarkóða sem þarf til að styðja við
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -125,8 +124,8 @@ Fyrir hvern ráðstöfunarkóða sem skilgreindur er verður að velja ráðstö
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -162,24 +161,15 @@ Fyrir hvern ráðstöfunarkóða sem skilgreindur er verður að velja ráðstö
 </tbody>
 </table>
 
-
 ## <a name="select-a-disposition-code-for-a-quarantine-order"></a>Veljið ráðstöfunarkóða fyrir biðgeymslupöntun
 
-1.  Smelltu á **Birgðastjórnun** \> **Reglubundið** \> **Gæðastjórnun** \> **Biðgeymslupantanir**.
-
-2.  Fyrir núverandi biðgeymslupöntun skal velja aðgerð í reitnum **Ráðstöfunarkóði** á flipanum **Yfirlit**.
-
-
+1. Farðu í **Birgðastjórnun** \> **Reglubundið** \> **Gæðastjórnun** \> **Biðgeymslupantanir**.
+1. Fyrir núverandi biðgeymslupöntun skal velja aðgerð í reitnum **Ráðstöfunarkóði** á flipanum **Yfirlit**.
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Biðgeymslupöntun (skjámynd)](https://technet.microsoft.com/library/aa554073(v=ax.60))
+[Biðgeymslupöntun (skjámynd)](/dynamicsax-2012//quarantine-order-form)
 
 [Ráðstöfunarkóðar (skjámynd)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

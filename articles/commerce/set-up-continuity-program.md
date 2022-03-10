@@ -2,11 +2,9 @@
 title: Setja upp samfelldniáætlanir fyrir símaver
 description: Þessi grein lýsir hvernig setja á upp samfelldniáætlanirnar fyrir símaver.
 author: josaw1
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: MCROrderParameters
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2428cafc45f074f7e2b4c3e59877079b8c1d4a92
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 39c3e6d740bff2af27a2fba2ac4c406c01b43a87218fdc1dcfe094c147cd3de3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242962"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716151"
 ---
 # <a name="set-up-continuity-programs-for-call-centers"></a>Setja upp samfelldniáætlanir fyrir símaver
 

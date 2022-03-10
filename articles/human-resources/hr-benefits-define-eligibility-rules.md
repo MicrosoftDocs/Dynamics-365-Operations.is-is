@@ -1,33 +1,33 @@
 ---
 title: Skilgreina reglur og stefnur um hæfi til fríðinda
-description: Þessi grein sýnir hvernig hægt er að stofna hæfnisreglur fríðinda og stefnur og síðan tengja reglur við Fríðindi.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+description: Þetta efnisatriði útskýrir hvernig hægt er að stofna hæfnisreglur fríðinda og stefnur og síðan úthluta reglum á fríðindi.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 39a9a1c96ae2a12a32b3c5fbc67571bcf983c898
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
-ms.translationtype: HT
+ms.openlocfilehash: c2595e40f6f9d1f75a94a3339735cc06bdabd14a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467988"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067655"
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a>Skilgreina reglur og stefnur um hæfi til fríðinda
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þetta efnisatriði sýnir hvernig hægt er að stofna hæfnisreglur fríðinda og stefnur og síðan úthluta reglum á fríðindi.  
+Þetta efnisatriði útskýrir hvernig hægt er að stofna hæfnisreglur fríðinda og stefnur og síðan úthluta reglum á fríðindi.  
 
 ## <a name="create-benefit-eligibility-policy-rule-type"></a>Stofna Stefnureglugerðir um hæfni til fríðinda
 
@@ -61,7 +61,7 @@ ms.locfileid: "5467988"
 1. Farið í **Mannauður > Fríðindi > Fríðindi**.
 2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 3. Í listanum skal velja tengilinn í valinni línu.
-4. Útvíkka eða draga saman hlutann **hæfnisreglu** r.
+4. Útvíkka eða draga saman hlutann **hæfnisreglur**.
 5. Veljið **Breyta**.
 6. Í reitnum **Hæfi** skal velja reglu.
 7. Í reitnum **Gerð reglu** skal velja regluna sem var verið að búa til.

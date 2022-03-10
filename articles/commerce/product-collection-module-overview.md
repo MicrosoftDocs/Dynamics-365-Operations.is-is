@@ -2,31 +2,27 @@
 title: Afurðasafnseiningar
 description: Þetta efnisatriði veitir yfirlit yfir vörusafnseiningar í Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 01/28/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d8fb0909e258f68146e1af3cf998634fb351ef71
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 7bc76aa8d5728005711ee8f9758532a989e3568c
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231105"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984545"
 ---
 # <a name="product-collection-modules"></a>Afurðasafnseiningar
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Þetta efnisatriði veitir yfirlit yfir vörusafnseiningar í Microsoft Dynamics 365 Commerce.
 
@@ -43,7 +39,7 @@ Heimildir fyrir afurðasafni geta verið listar af eftirfarandi fjórum gerðum:
 
 Eftirfarandi mynd sýnir mismunandi gerðir af afurðasöfnum sem notaðar eru á netverslunarsíðu.
 
-![Dæmi um mismunandi tegundir afurðasafna á netverslunarsíðu](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
+![Dæmi um mismunandi tegundir afurðasafna á netverslunarsíðu.](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
 
 > [!NOTE]
 > Notaðu ávallt afurðasafnseiningar til að sýna hóp af afurðum af svipaðri gerð.

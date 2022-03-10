@@ -2,11 +2,9 @@
 title: Aðgerðaleit
 description: Þessi grein lýsir aðgerðaleit. Aðgerðleit hjálpar þér að finna og keyra aðgerðir á síðu.
 author: jasongre
-manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,16 +14,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
-ms.translationtype: HT
+ms.openlocfilehash: 6277c37ac43b8cc05c8b53da5ca0a1909f58c4f9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798648"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070035"
 ---
 # <a name="action-search"></a>Aðgerðaleit
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Þessi grein lýsir aðgerðaleit. Aðgerðleit hjálpar þér að finna og keyra aðgerðir á síðu.
 
@@ -33,7 +34,7 @@ ms.locfileid: "4798648"
 
 Síður birta fyrst og fremst skipanir í aðgerðarúðum, bæði í staðlaðri aðgerðarúðu sem birtist efst á síðunni og á verkfærastikum sem birtast í ýmsum köflum síðunnar. Í fyrri útgáfum leyfir Lykillábending þér að fá aðgang fljótt á einhvern hnappinn á aðgerðarúðum með því að ýta á Alt-takkann og síðan röð af stöfum.
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
+[![keyTipsAX6.](./media/keytipsax6.png)](./media/keytipsax6.png)
 
 Eiginleiki aðgerðaleitar kemur í stað Lyklaábendinga sem eru ekki lengur í boði. Þessi nýi eiginleiki gerir þér kleift að leita fljótt og keyra hnapp af einhverju af sýnilegu aðgerðarúðunum.
 
@@ -47,7 +48,7 @@ Til að nota eiginleikann aðgerðaleið, fylgið þessum skrefum.
 
 Eftir að hnappurinn er keyrður fer áhersla á síðustu stöðu á síðunni, þannig að hægt er að halda áfram að vinna.
 
-[![action-search-field](./media/action-search-field.png)](./media/action-search-field.png)
+[![action-search-field.](./media/action-search-field.png)](./media/action-search-field.png)
 
 Einnig er hægt að hefja aðgerðaleit með því að ýta á Ctrl +/ eða Alt + Q. Styðjið á flýtilykli aftur til að snúa aftur áherslu að síðasta stað á síðunni.
 
@@ -63,11 +64,11 @@ Oft er nauðsynlegt að vita bæði staðsetningu og efni hnapps til að skilja 
 
 Til dæmis, var fært inn **tot** í **aðgerðaleit** svæðinu og ert nú að skoða niðurstöður lista. Fyrsta færslan, fyrir hnapp sem er kallast **Samtala**, er upplýst. Hnappaslóðin **Sölupöntun** &gt; **Skoða** er einnig sýnd. Í hlutanum **Sölupöntun** af slóðinni sem samsvarar flipanum **Sölupöntun** í Aðgerðarúðunni, og **Skoða** hluti slóðar samsvarar **Skoða** flokk á þeim flipa. Á svipaðan hátt tilkynnir slóðin fyrir hnappinn **Heildarafsláttur** (**Selja** &gt; **Reikna út**) þér að hnappurinn sé staðsettur í flokknum **Reikna út** á flipanum **Selja** í aðgerðarúðunni. Þess vegna hjálpa þessar upplýsingar til við að skilja nákvæmlega hvaða hnappur verður ræstur af leitaraðgerð (ef valið er sá hnappur í lista yfir niðurstöður).
 
-[![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
+[![action-search-field-with-data.](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
 Í fyrri dæmi sýna sýndi leitaraðgerð niðurstöðum úr staðlaða Aðgerðarúðu efst síðu. Hins vegar sýnir aðgerðaleit einnig niðurstöður úr sýnilegri tækjastikum sem eru staðsettar í öðrum hlutum á síðu. Til dæmis er verið að leita að **lagerbirgðir** hnappi sem er staðsettur í flipanum **Sölupantanalínur**. Í þessu tilfelli tilkynnir slóð hnappsins í lista yfir niðurstöður (**sölupantanalínur** &gt; **Birgðir** &gt; **Skoða**) að þessi hnappur er staðsettur undir **Skoða** fyrirsögn á **Birgðir** valmyndarhnapp á í **sölupantanalínur** flýtiflipa.
 
-[![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+[![on-hand-inventory.](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 > [!NOTE]
 > Það eru nokkrir hnappar sem birtast ekki í aðgerðaleit. Meðal þeirra eru fellivalmyndarhnappar og hnappar úr undirskjámyndum. 
@@ -75,3 +76,6 @@ Til dæmis, var fært inn **tot** í **aðgerðaleit** svæðinu og ert nú að 
 ## <a name="action-search-vs-navigation-search"></a>Aðgerðaleita samanborið við flettingaleit
 
 Aðgerðaleit er ætlað að finna og keyra aðgerðir á síðu, en sérstakt leitarkerfi er til að finna og fletta á síður. Fyrir frekari upplýsingar um þann möguleika, að sjá greinina [Flettingaleit](navigation-search.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

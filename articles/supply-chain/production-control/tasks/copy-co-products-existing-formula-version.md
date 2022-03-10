@@ -1,7 +1,7 @@
 ---
 title: Afrita aukaafurðir úr fyrirliggjandi formúluútgáfu
 description: Þessi verklýsing sýnir hvernig á að afrita aukaafurðir úr eldri útgáfu formúlu yfir í mismunandi formúluútgáfu fyrir útgefna afurð.
-author: ShylaThompson
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cbcf2abc37441f9ff23e2b180c261831dfb79369
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 527fd94613d53a3f0ae81834d5bdaad30dca2833
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829283"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579233"
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>Afrita aukaafurðir úr fyrirliggjandi formúluútgáfu
 

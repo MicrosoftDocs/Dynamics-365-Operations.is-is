@@ -1,7 +1,7 @@
 ---
 title: Uppsetning sendingarhópa
 description: Í þessu efnisatriði er lýst hvernig á að stofna sendingarhóp.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 697f5c71182fbe675c02e13a2162d791d72ced06
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 48d35e4a49393a73f6c22c3ba78c65e72701d335
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835799"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571354"
 ---
 # <a name="set-up-dispatch-teams"></a>Uppsetning sendingarhópa 
 
@@ -47,7 +47,7 @@ ms.locfileid: "5835799"
 
 
 > [!NOTE]
-> <P>Þú getur úthlutað starfsmanni á þennan sendingarhóp í skjámyndinni <STRONG>Starfsfólk</STRONG>. Nánari upplýsingar um hvernig á að úthluta starfsmanni á sendingarhóp, sjá <A href="https://technet.microsoft.com/library/dn776288(v=ax.60)">Senda starfsmann (skjámynd)</A>.</P>
+> <P>Þú getur úthlutað starfsmanni á þennan sendingarhóp í skjámyndinni <STRONG>Starfsfólk</STRONG>. Nánari upplýsingar um hvernig á að úthluta starfsmanni á sendingarhóp, sjá <A href="/dynamicsax-2012//dispatch-workers-form">Senda starfsmann (skjámynd)</A>.</P>
 
 
 

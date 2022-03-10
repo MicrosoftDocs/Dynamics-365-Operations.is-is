@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ba8f20e7b4ca6579016fa60d0bbf69f7b4e9c7d3
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
-ms.translationtype: HT
+ms.openlocfilehash: 02aee8c6ec3b2720c2fcbb17f15791d88d688a34
+ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605362"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323762"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Kemba gagnagjafa af keyrðu sniði rafrænnar skýrslugerðar til að greina gagnaflæði og umbreytingu
 
@@ -28,7 +28,7 @@ ms.locfileid: "7605362"
 
 [!include[banner](../includes/preview-banner.md)]
 
-Þegar lausn rafrænnar skýrslugerðar er [skilgreind](tasks/er-format-configuration-2016-11.md) til að útbúa skjöl á útleið, skilgreinir þú aðferðirnar sem notaðar eru til að ná gögnum úr forritinu og færa þau inn í úttakið sem búið er til. Til að gera líftímastuðning fyrir lausn rafrænnar skýrslugerðar skilvirkari ætti lausnin þín að samanstanda af [gagnlíkani](general-electronic-reporting.md#DataModelComponent) rafrænnar skýrslugerðar og hlutum [vörpunar](general-electronic-reporting.md#ModelMappingComponent) sem tengjast því, og einnig [snið](general-electronic-reporting.md#FormatComponentOutbound) rafrænnar skýrslugerðar og vörpunarhlutum þess svo að vörpunarlíkanið miðist við forritið, á meðan aðrir hlutar eru áfram óháðir forritinu. Þar af leiðandi gætu nokkrir hlutar rafrænnar skýrslugerðar haft [áhrif](general-electronic-reporting.md#FormatComponentOutbound) á ferli gagnainnsláttar í úttakinu sem búið er til.
+Þegar lausn rafrænnar skýrslugerðar er [skilgreind](tasks/er-format-configuration-2016-11.md) til að útbúa skjöl á útleið, skilgreinir þú aðferðirnar sem notaðar eru til að ná gögnum úr forritinu og færa þau inn í úttakið sem búið er til. Til að gera lífsferilsstuðning ER lausnarinnar skilvirkari ætti lausnin þín að samanstanda af ER gagnalíkani og kortlagningarhlutum þess, og einnig ER sniði og kortlagningarhlutum þess, þannig að líkanskortlagningin sé forritssértæk en aðrir íhlutir eru áfram umsókn-agnostic. Þar af leiðandi gætu nokkrir hlutar rafrænnar skýrslugerðar haft áhrif á ferli gagnainnsláttar í úttakinu sem búið er til.
 
 Stundum líta gögn myndaðs úttaks út fyrir að vera öðruvísi en sömu gögn í gagnagrunni forritsins. Í þessum tilvikum er æskilegt að ákvarða hvaða íhlutur rafrænnar skýrslugerðar er ábyrgur fyrir gagnaumbreytingu. Kembiforritseiginleiki gagnagjafa rafrænnar skýrslugerðar dregur umtalsvert úr tíma og kostnaði sem eru hluti af þessari skoðun. Hægt er að stöðva keyrslu sniðs rafrænnar skýrslugerðar og opna kembiviðmót gagnagjafans. Þar er hægt að fletta upp tiltækum gagnagjöfum og velja staka gagnagjafa til keyrslu. Þessi handvirka keyrsla líkir eftir keyrslu gagnagjafans við raunkeyrslu á snið rafrænnar skýrslugerðar. Niðurstaðan kemur fram á síðu þar sem hægt er að greina gögnin sem eru móttekin.
 
@@ -190,9 +190,9 @@ Ef ætlunin er að nota lausn rafrænnar skýrslugerðar til að búa til rafræ
 
 Til viðbótar við valið snið rafrænnar skýrslugerðar verða eftirfarandi [skilgreiningar](general-electronic-reporting.md#Configuration) að vera sjálfkrafa fluttar inn í Microsoft Dynamics 365 Finance tilvikið sem hluti af lausn **ISO20022-kreditfærslu** rafrænnar skýrslugerðar:
 
-- **Greiðslulíkan** [Skilgreining gagnalíkans rafrænnar skýrslugerðar](general-electronic-reporting.md#DataModelComponent)
-- **ISO20022 Kreditfærsla** [grunnstilling sniðs rafrænnar skýrslugerðar](general-electronic-reporting.md#FormatComponentOutbound)
-- **Vörpun greiðslulíkans 1611** [Skilgreining líkanavörpunar rafrænnar skýrslugerðar](general-electronic-reporting.md#ModelMappingComponent)
+- **Greiðslulíkan** Uppsetning ER gagnalíkans
+- **ISO20022 Kreditmillifærsla** ER snið stillingar
+- **Vörpun greiðslulíkans 1611** ER skilgreining vörpunar greiðslulíkans
 - **Vörpun greiðslulíkans í viðtökustað ISO20022** Skilgreining líkanavörpunar rafrænnar skýrslugerðar
 
 Hægt er að finna þessar skilgreiningar á síðunni **Skilgreiningar** fyrir ramma rafrænnar skýrslugerðar (**Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**).

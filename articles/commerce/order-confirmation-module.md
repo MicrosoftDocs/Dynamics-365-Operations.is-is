@@ -2,11 +2,9 @@
 title: Eining pöntunarstaðfestingar
 description: Þetta efnisatriði fjallar um staðfestingareiningar og lýsir því hvernig á að notar þær í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,20 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9d916d2687777403f2b0df7c35171948ad2fb7db
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 6914f8c968b03c05a2311a31a4f391c828db5b8b35bc864504dad78f43b3623f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972745"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733847"
 ---
 # <a name="order-confirmation-module"></a>Eining pöntunarstaðfestingar
 
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði fjallar um staðfestingareiningar og lýsir því hvernig á að notar þær í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Pöntunarstaðfestingareiningin er notuð til að sýna upplýsingar pöntunarstaðfestinga eftir að pöntun hefur verið gerð. Hún sýnir staðfestingarkenni pöntunar, tengslaupplýsingar pöntunar og aðrar upplýsingar um pöntun, svo sem vörur sem voru keyptar, greiðsluupplýsingar, afhendingarmáta og sendingaraðferð.
 
@@ -86,3 +82,6 @@ Til að bæta einingu pöntunarstaðfestingar við nýja síðu og stilla nauðs
 [Eining fyrir afhendingarupplýsingar](pickup-info-module.md)
 
 [Gjafakortseining](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

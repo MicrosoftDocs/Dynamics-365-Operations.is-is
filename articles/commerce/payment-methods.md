@@ -1,17 +1,14 @@
 ---
 title: Greiðsluhættir
 description: Það þarf að skilgreina hverja greiðslugerð sem smásali samþykkir þegar kerfið er uppsett. Þetta grein lýsir þær gerðir greiðslna sem hægt er að setja upp og lýsir ferlinu við uppsetninguna.
-author: rubencdelgado
-manager: AnnBe
-ms.date: 06/17/2020
+author: BrianShook
+ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15831
 ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2b56609de3b2620dcc605c6c6d697cb74c8ed6c1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413170"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779571"
 ---
 # <a name="payment-methods"></a>Greiðsluhættir
 
@@ -49,3 +46,11 @@ Til að setja upp greiðslumáta verður að ljúka eftirtöldu.
 2. Stofna kortategundir og kortanúmer fyrir fyrirtækið í heild sinni. Ef taka á við kredit- eða debetkortum þarf að búa til einn greiðslumáta fyrir kort og búa síðan til kortategundir og kortanúmer fyrir fyrirtækið allt.
 3. Setja upp greiðsluhætti verslunar. Tengið greiðslumáta við hverja verslun og færið síðan inn stillingar fyrir einstakar verslanir fyrir hvern greiðslumáta verslunar.
 4. Setja upp kortagreiðsluhætti fyrir verslanir. Ljúkið kortauppsetningu fyrir alla greiðsluhætti korts sem verslunin tekur á móti.
+
+## <a name="handle-change-tendering-for-payment-methods"></a>Annast breytingaútboð á greiðslumáta
+
+Sumar greiðslumátar styðja ekki bein breytingaútboð ef fé á að skila viðskiptavinum við viðskipti á sölustöðum. Aðeins **Reiðufé** og **Gjaldmiðill** greiðslumáta er hægt að nota til að breyta útboðum. 
+
+Til að meðhöndla mál þar sem þörf er á breytingatilboði meðan á viðskiptum stendur, en greiðslumáti styður það ekki, getur þú skilgreint **Breyta útboði** greiðslumáta. Þegar þú setur upp greiðslumáta verslunar fyrir verslunina skaltu velja greiðslumáta sem á að nota. Þá, í **Breyta** kafla, í **Breyta útboði** reit, sláðu inn breytingartilboðsgreiðslumöguleika. Til dæmis geturðu slegið inn **1** til að gefa til kynna að hægt sé að nota reiðufé sem greiðslumöguleika til að breyta útboði.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

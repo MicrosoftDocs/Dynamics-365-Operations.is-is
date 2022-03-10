@@ -2,11 +2,9 @@
 title: Stuðningur við færibreytur kallar á ER gagnagjafa af reitagerðinni Reiknað
 description: Þetta efni veitir upplýsingar um hvernig skal nota reitagerðina Reiknað fyrir ER-gagnagjafa.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f21b323ddbf653bf8ca8dd1f879a6bdbddcdefc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681257"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349161"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Stuðningur við færibreytur kallar á ER gagnagjafa af reitagerðinni Reiknað
 
@@ -88,7 +86,7 @@ Einnig verður að sækja og geyma staðbundið eftirfarandi skrár.
 
     Líkanavörpun í þessari skilgreiningu innleiðir grunngagnalíkanið fyrir eitthvert snið rafrænnar skýrslugerðar sem búið var til fyrir þetta líkan og keyrt í Finance and Operations. Fyrir vikið verður innihald gagnafjafanna **Tax** og **Gr** berskjaldað fyrir ER-sniðum eins og óhlutbundnum gagnagjöfum.
 
-    ![Hönnunarsíða fyrir líkanavörpun sem sýnir gagnagjafana Tax og Gr](media/er-calculated-field-type-01.png)
+    ![Hönnuðarsíða líkanavörpunar sem sýnir Tax- og Gr-gagnagjafa.](media/er-calculated-field-type-01.png)
 
 5.  Lokið síðunni **Hönnuður líkanavörpunar**.
 6.  Lokið síðunni **Líkanavörpun**.
@@ -103,21 +101,21 @@ Einnig verður að sækja og geyma staðbundið eftirfarandi skrár.
     - Settu fram eftirfarandi stig skattheimtu í skattauppgjöri: reglulega, lækkað og ekkert.
     - Settu fram margar upplýsingar á hverju skattlagningarstigi, með mismunandi fjölda smáatriða í hverju stigi.
 
-    ![Síða sniðshönnuðar](media/er-calculated-field-type-02.png)
+    ![Síða sniðshönnuðar.](media/er-calculated-field-type-02.png)
 
 4. Veldu **Vörpun**.
 5. Stækkaðu liðina **Líkan**, **Gögn,** og **Yfirlit**. 
 
     Reiknaði reiturinn **Model.Data.Summary.Level** inniheldur segðina sem skilar kóða skattlagningarstigsins (**Venjulegur**, **Dregið úr**, **Enginn,** eða **Annað**) sem textagildi fyrir hvaða skattakóða sem hægt er að sækja úr gagnagjafanum **Model.Data.Summary** á keyrslutíma.
 
-    ![Hönnunarsíðan sniðmáta sem sýnir upplýsingar um gagnalíkanið til að læra færibreytur á köll](media/er-calculated-field-type-03.png)
+    ![Síða sniðshönnuðar sem sýnir upplýsingar um líkan gagnalíkans til að læra færibreytustillt köll.](media/er-calculated-field-type-03.png)
 
 6. Stækkaðu liðinn **Model**.**Data2**.
 7. Stækkaðu liðinn **Model**.**Data2.Summary2**.
    
     Gagnagjafinn **Model**.**Data2.Summary2** er stillt til að flokka færsluupplýsingar gagnagjafans **Model.Data.Summary** skattlagningarstig (skilað af reiknaða reitnum **Model.Data.Summary.Level**) og reikna uppsafnanirnar.
 
-    ![Hönunnarsíða sniðmáta sem sýnir upplýsingar um gagnagjafann Model.Data2.Summary2](media/er-calculated-field-type-04.png)
+    ![Síða sniðshönnuðar sem sýnir upplýsingar um gagnagjafa Model.Data2.Summary2.](media/er-calculated-field-type-04.png)
 
 8. Farðu yfir reiknaða reiti **Model**.**Data2.Level1**, **Model**.**Data2.Level2**, og **Model**.**Data2.Level3.** Þessir reiknaðir reitir eru notaðir til að sía **Model**.**Data2.Summary2** skráningalistann og skila aðeins skrám sem tákna tiltekið skattlagningarstig.
 9. Lokaðu síðunni **Sniðshönnuður**.
@@ -157,9 +155,9 @@ Einnig verður að sækja og geyma staðbundið eftirfarandi skrár.
 
     Hámarksfjöldi færibreyta sem hægt er að tilgreina fyrir einn reiknaðan reit er 8.
 
-    ![Upprunalisti færibreyta](media/er-calculated-field-type-05.png)
+    ![Gagnagjafalisti færibreytu.](media/er-calculated-field-type-05.png)
 
-5. Veljið **Í lagi**.
+5. Veldu **Í lagi**.
 
 Með því að bæta við þessa færibreytu tilgreinirðu það skilyrði sem verður að vera til staðar til að kalla þennan reiknaða reit. Þegar þú kallar þennan reiknaða reit þarftu að tilgreina rökin fyrir færibreytuna **Skattlagningarstig** sem gildi með sniðinu **Strengur**.
 
@@ -167,7 +165,7 @@ Með því að bæta við þessa færibreytu tilgreinirðu það skilyrði sem v
 
    Stilla breytan er fáanleg á lista yfir gagnaveitur fyrir þennan reiknaða reit. Þú getur bætt við færibreytuna við stillta segð með því að velja **Bættu við gagnaveitu**.
 
-   ![Gagnagjafareitir](media/er-calculated-field-type-06.png)
+   ![Gagnagjafareitir.](media/er-calculated-field-type-06.png)
 
 ### <a name="define-an-expression-for-adding-a-calculated-field"></a>Skilgreindu segð til að bæta við reiknuðum reit
 
@@ -181,9 +179,9 @@ Með því að bæta við þessa færibreytu tilgreinirðu það skilyrði sem v
 
     **WHERE(\@.Summary2, \@.Summary2.grouped.Level = 'Taxation Level')**
 
-5. Veljið **Vista**.
+5. Veldu **Vista**.
 
-    ![Upplýsingar um reit gagnaveitu](media/er-calculated-field-type-07.png)
+    ![Upplýsingar um gagnagjafareit.](media/er-calculated-field-type-07.png)
 
 6. Lokaðu síðunni **Formúluhönnuður**.
 
@@ -193,7 +191,7 @@ Með því að bæta við þessa færibreytu tilgreinirðu það skilyrði sem v
 
 Á síðunni **Sniðmátshönnuður** krefst stillanlegur reiknaður reiturinn **Stig** frumbreytunnar **Strengur**.
 
-![Stækkaður listi yfir reiknuð reitastig](media/er-calculated-field-type-08.png)
+![Stækkaður listi yfir stig reiknaðra reita.](media/er-calculated-field-type-08.png)
 
 ### <a name="use-the-configured-calculated-field-for-binding-format-elements"></a>Notaðu stilla reiknaða reitinn til að binda sniðþætti
 
@@ -222,7 +220,7 @@ Endurtekin köll í reiknaða reiti með færibreytu eru ekki studd.
 
 Þú getur valið **Breyta formúlu**, og breytt beitt-fyrir-vanræksröksemdum á breytubreytta reikna reitnum í valda bindingu. Ef þess frumbreytu vantar getur það valdið villum á keyrslutíma - notendur eru upplýstir um slíkar aðstæður þegar núverandi snið er staðfest.
 
-![Tilkynning um villuviðvörun](media/er-calculated-field-type-10.png)
+![Tilkynning um villuleitarviðvörun.](media/er-calculated-field-type-10.png)
 
 ## <a name="configure-a-parameterized-calculated-field-to-return-a-record"></a>Skilgreindu reiknaðan reit með færibreytu til að skila skrá
 Þegar reiknaður reitur með færibreytum skilar skrá þarftu að styðja við bindingu einstakra reita þessarar skráar til að forsníða þætti. Í slíkum tilvikum verður ekki um yfirbindingu að ræða sem inniheldur gildi frumbreytu til að kalla út reiknaðan reit fyrir breytu - þetta gildi verður að vera skilgreint í bindingu reits einnar skrár.
@@ -274,7 +272,7 @@ Endurtekin köll í reiknaða reiti með færibreytu eru ekki studd.
 8. Veljið **Breyta formúlu**.
 9. Breyta segð í **Model.Data2.LevelRecord(„None“).aggregated.Base**.
 
-![Uppfærð segð](media/er-calculated-field-type-11.png)
+![Uppfærð segð.](media/er-calculated-field-type-11.png)
 
 ## <a name="remove-calculated-fields-that-are-not-used"></a>Fjarlægðu reiknaða reiti sem ekki eru notaðir
 
@@ -342,3 +340,6 @@ Endurtekin köll í reiknaða reiti með færibreytu eru ekki studd.
 - [Formúluhönnuður í rafrænni skýrslugerð (ER)](general-electronic-reporting-formula-designer.md)
 - [Bættu frammistöðu rafrænna skýrslugerðarlausna með því að bæta við gagnagjöfum með REIKNAÐA REITI með færibreytum](er-calculated-field-ds-performance.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

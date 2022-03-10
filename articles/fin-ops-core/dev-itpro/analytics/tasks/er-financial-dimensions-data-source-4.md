@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4a06936da71d7b05f312a99c8c11d148403d29c3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: f14be560ab014224e32169b4ac97682a669249b4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752389"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605306"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 4 - keyra skýrslu)
 
@@ -34,19 +34,19 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 2. Í trénu skal víkka út 'Financial dimensions sample model'.
 3. Í trénu skal velja 'Financial dimensions sample model\Ledger journal report'.
 4. Smella á Keyra.
-![Skilgreiningarsíða í ER](../media/er-financial-dimensions-guides-run1.png)
+![Skilgreiningarsíða ER.](../media/er-financial-dimensions-guides-run1.png)
 5. Sláið inn eða veljið gildi í reitnum heiti víddar.
     * Til að velja allar víddir í núverandi fyrirtæki skal færa inn eftirfarandi upplýsingar:  
-![Skilgreiningarsíða í ER](../media/er-financial-dimensions-guides-run2.png)
+![Útrennanlegar færibreytur rafrænnar skýrslugerðar, fellilisti víddarheita.](../media/er-financial-dimensions-guides-run2.png)
 6. Útvíkka Færslur til að taka hluta.
 7. Smellt er á Síu.
 8. Velja línuna fyrir töflu færslubókar fjárhags og reitinn rununúmer bókarkeyrslu.
 9. Í svæðinu Skilyrði skal færa inn '00057'.
 10. Smellt er á Í lagi.
 11. Smellt er á Í lagi.
-![Skilgreiningarsíða í ER](../media/er-financial-dimensions-guides-run3.png)
+![Útrennanlegar færibreytur rafrænnar skýrslugerðar, skýrslur til að taka með hluti.](../media/er-financial-dimensions-guides-run3.png)
     * Fara yfir myndað úttak. Fyrir hverja færslu fyrir valda runu eru birtar fjárhagsvíddir úr viðeigandi víddarmengjum. Keyra þessa skýrslu og veljið mismunandi víddir til að sjá að skýrslan er ekki háð fjölda valinna vídda eða fjölda vídda sem skilgreint er fyrir þetta tilvik.  
-![Skilgreiningarsíða í ER](../media/er-financial-dimensions-guides-run4.png)
+![Úttak skilgreininga rafrænnar skýrslugerðar.](../media/er-financial-dimensions-guides-run4.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

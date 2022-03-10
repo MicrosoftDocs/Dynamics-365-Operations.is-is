@@ -1,25 +1,24 @@
 ---
-title: Yfirlit yfir viðvaranir
+title: Yfirlit yfir viðvaranir (inniheldur myndband)
 description: Þetta efnisatriði gefur almennar upplýsingar um viðvaranir. Þú getur notað viðvaranir til að fylgjast með atburðum sem þú vilt rekja meðan á vinnudegi stendur.
 author: RichdiMSFT
 ms.date: 09/04/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: f114e6bd04622dcac668d15ad6c55f7de70b4e7e
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
-ms.translationtype: HT
+ms.openlocfilehash: c3332bdf7f2edb693c95a4d5a6f95906e14c0a42
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336743"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984969"
 ---
 # <a name="alerts-overview"></a>Yfirlit yfir viðvaranir
 
@@ -78,13 +77,13 @@ Viðvörunarregla hefur fimm hluta:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-Myndskeiðið [Hvernig á að nota viðvaranir til að fylgjast með síuðum gögnum](https://youtu.be/ZYKMcv6kl9s) (sýnt hér að ofan) er innifalið í [Finance and Operations spilunarlistanum](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er að finna á YouTube.
+Myndskeiðið [Hvernig á að nota viðvaranir til að fylgjast með síuðum gögnum](https://youtu.be/ZYKMcv6kl9s) (sýnt hér að ofan) er innifalið í [Spilunarlisti Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) í boði YouTube.
 
 ### <a name="alert-rule-options"></a>Valkostir viðvaranareglu
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-Myndskeiðið [Valkostir viðvaranareglu](https://youtu.be/cpzimwOjicM) (sýnt hér að ofan) er innifalið í [Finance and Operations spilunarlistanum](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er að finna á YouTube.
+Myndskeiðið [Valkostir viðvaranareglu](https://youtu.be/cpzimwOjicM) (sýnt hér að ofan) er innifalið í [Spilunarlista Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er tiltækt á YouTube.
 
 
 

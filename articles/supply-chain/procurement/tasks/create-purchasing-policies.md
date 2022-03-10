@@ -1,26 +1,24 @@
 ---
 title: Stofna innkaupastefnu
 description: Þetta efni sýnir hvernig á að stofna innkaupareglur til samræmis við viðskiptaferli þín fyrir innkaup.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicyParameters, SysPolicy, RequisitionPurposeRule
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a8d29f4bd5840ff70fd918a05d68aa043216e27f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dde2df0f04ea8ed1b200ae731df7143cc8de3aae
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211911"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579497"
 ---
 # <a name="create-purchasing-policies"></a>Stofna innkaupastefnu
 

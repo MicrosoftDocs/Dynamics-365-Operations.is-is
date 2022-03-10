@@ -1,12 +1,10 @@
 ---
 title: Eignakaup
 description: Þetta efnisatriði lýsir því hvernig hægt er að setja upp samþættingu á milli eigna og viðskiptaskulda til að búa sjálfkrafa til eignir úr innkaupapöntunum eða reikningum lánardrottins, eða bóka sjálfkrafa kaup og leiðréttingarfærslur kaupa fyrir eignir.
-author: ShylaThompson
-manager: AnnBe
+author: moaamer
 ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetParameters
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 3481
 ms.assetid: d4e73a3f-633b-48b2-b8db-7a4a59a4d7ec
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27f1bd8e8b001596054e6c427d87a610975c6a3b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 1c51abd3ce380f0cb1ad688ffab16b239460bc45
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978715"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674748"
 ---
 # <a name="acquire-assets-through-procurement"></a>Eignakaup
 
@@ -108,3 +106,6 @@ Frekari upplýsingar eru í [Samþætting eigna](fixed-asset-integration.md).
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

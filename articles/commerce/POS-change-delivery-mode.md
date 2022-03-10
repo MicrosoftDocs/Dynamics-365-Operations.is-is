@@ -2,27 +2,24 @@
 title: Breyta afhendingarmáta í POS
 description: Þetta efni lýsir því hvernig á að stilla og nota breytingamáta fyrir afhendingu í POS.
 author: hhainesms
-manager: annbe
 ms.date: 03/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: ''
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: eaffe7821b60dd787a7d8b7533c1b8599033ba68
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
-ms.translationtype: HT
+ms.openlocfilehash: ef778763b26954057b83df3e963e34008819fd208a55d55e07075853ffce8b35
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594138"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714041"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Breyta afhendingarmáta í POS
 
@@ -34,7 +31,7 @@ ms.locfileid: "4594138"
 
 Breytingarháttur afhendingaraðgerðar veitir þér möguleika á að breyta afhendingarháttum fyrir eina eða fleiri sölulínur fyrir sendingu í POS viðskiptunum. Í fyrri útgáfum af viðskiptum varstu að fara í gegnum það í heild sinni **Senda allt** eða **Senda valið** stillingar streyma ef þú vilt breyta afhendingarháttum á núverandi línu sem var stillt til sendingar. Þetta ferli var tímafrekt og gæti valdið slysni breytingum á uppruna afhendingar eða afhendingardögum fyrir línuna. Hin nýja virkni býður upp á aðra aðferð til að uppfæra skilvirkni á þessum sölulínum á skilvirkan hátt.
 
-Nánari upplýsingar um hvernig á að bæta aðgerð við hnapp á POS hnapparitinu, sjá [Skjáuppsetning fyrir sölustað](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts).
+Nánari upplýsingar um hvernig á að bæta aðgerð við hnapp á POS hnapparitinu, sjá [Skjáuppsetning fyrir sölustað](pos-screen-layouts.md).
 
 Eftir að þessi aðgerð er stillt í POS, þegar þú velur **Breyta afhendingaraðferð**, verður þér kynnt listasíða sem gerir þér kleift að velja línurnar í viðskiptunum sem þú vilt breyta afhendingarháttum fyrir. Þú getur valið nokkrar eða allar línurnar, eða lokað án þess að gera neinar breytingar. Sölulínurnar sem áður voru stilltar til sendingar eru einu línurnar á listanum sem þú getur breytt. Ef þú vilt breyta línu sem er ætluð til afhendingar eða flutnings í skip, verður þú að nota **Senda allt** eða **Senda valið** aðgerðir. Hins vegar, ef þú vilt breyta línu sem er tilgreind sem sending í pallbíll eða flutning, verður þú að nota **Sækja allt**, **Sækja valið**, **Framkvæma allt** eða **Framkvæma valið** aðgerðir.
 
@@ -47,3 +44,6 @@ Eftir að þú hefur valið nýja afhendingarstillingu birtist viðskiptasíðan
 [Stofna símaverspantanir](tasks/create-call-center-orders.md)
 
 [Sérstilla tölvupósta vegna færslna eftir afhendingarmáta](customize-email-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

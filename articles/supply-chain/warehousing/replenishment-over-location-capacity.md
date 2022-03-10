@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 309df56671bf258e1669ae6d5393de01e2b500f0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823240"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778208"
 ---
 # <a name="replenishment-over-location-capacity"></a>Áfylling yfir staðsetningargetu
 
@@ -32,7 +32,7 @@ Eiginleikinn gerir klefit að búa til meiri áfyllingarvinnu en staðsetningin 
 
 Til að gera þennan eiginleika tiltækan skaltu kveikja á eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (í þessari röð):
 
-1. Vinnulokun fyrir allt fyrirtækið
+1. Verklokun fyrir alla stofnun (Frá og með Supply Chain Management útgáfu 10.0.21 er þessi eiginleiki nauðsynlegur, þannig að það er sjálfgefið kveikt á honum og ekki er hægt að slökkva á honum aftur.)
 1. Áfylling yfir staðsetningargetu
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Setja upp eiginleikann fyrir þetta sýnidæmi

@@ -1,30 +1,30 @@
 ---
-title: Keyra launavinnslu
-description: Þessi grein útskýrir hvernig á að leysa mál þar sem viðskiptamaður reynir að keyra launavinnslu í Microsoft Dynamics 365 Human Resources en kemst ekkert áleiðis.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+title: Keyra Launavinnsla
+description: Þetta efnisatriði útskýrir hvernig á að leysa mál þar sem viðskiptamaður reynir að keyra launavinnslu í Microsoft Dynamics 365 Human Resources en kemst ekkert áleiðis.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 49e07b729b72e86404d2a3c7650aa4ebacb40012
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
-ms.translationtype: HT
+ms.openlocfilehash: 2c299846b00d034c80b1044271128a08222e5d3f
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468444"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065402"
 ---
 # <a name="run-the-compensation-process"></a>Keyra launavinnslu
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -42,13 +42,13 @@ Hér eru fylgiskjöl fyrir launin:
 
 - Uppsetning:
 
-    - [Launafyrirkomulag](https://docs.microsoft.com/dynamics365/unified-operations/talent/compensation-plans)
-    - [Launafyrirkomulag fastra launa stofnað](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-    - [Launafyrirkomulag breytilegra launa](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+    - [Launafyrirkomulag](/dynamics365/unified-operations/talent/compensation-plans)
+    - [Launafyrirkomulag fastra launa stofnað](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+    - [Launafyrirkomulag breytilegra launa](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
 
 - Vinnsla:
 
-    - [Launaútreikningur](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+    - [Launaútreikningur](/dynamics365/unified-operations/talent/process-compensation)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

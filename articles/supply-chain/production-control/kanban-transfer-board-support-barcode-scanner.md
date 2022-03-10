@@ -1,7 +1,7 @@
 ---
 title: Stuðningur við Kanban-flutningsbretti fyrir strikamerkjaskanna
 description: Flutningstafla kanbans styður skönnun frá smátóls (widget) strikamerkjaskanna til að Velja, Hefja, Ljúka og Tæma kanban-vinnslu.
-author: ChristianRytt
+author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,24 +13,23 @@ ms.custom: 19391
 ms.assetid: a426f645-d59b-4c98-8d78-eba8d64a562e
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a7073fb5d77e2d11569e86b92433864371f0e1d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: b18aad4dcdbf8c2d18960ae306556c3ea679d622
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825868"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566812"
 ---
-# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Stuðningur við Kanban-flutningsbretti fyrir strikamerkjaskanna
+# <a name="kanban-transfer-board-support-for-bar-code-scanners"></a>Stuðningur við Kanban-flutningsbretti fyrir strikamerkjaskanna
 
 [!include [banner](../includes/banner.md)]
 
 Flutningstafla kanbans styður skönnun frá smátóls (widget) strikamerkjaskanna til að Velja, Hefja, Ljúka og Tæma kanban-vinnslu.
 
-<a name="registration-modes"></a>Skráningarhamar
-------------------
+## <a name="registration-modes"></a>Skráningarhamar
 
 Á **skráning Skanna** flýtiflipa er hægt að velja skráningarham sem stýrir aðgerðinni þegar kanban-spjaldnúmer er skannað eða númerið slegið handvirkt inn í númerareit kanban-spjalds.
 
@@ -42,8 +41,7 @@ Flutningstafla kanbans styður skönnun frá smátóls (widget) strikamerkjaskan
 | Velja                | Skráir númer kanban-spjalds og velja vinnsluna sem vísað var í sjálfkrafa í kanban-lista |
 
  
-<a name="registration-mode-select"></a>Velja skráningarham
-------------------------
+## <a name="registration-mode-select"></a>Velja skráningarham
 
 Þegar notaður er strikamerkjaalesari til að velja vinnslu, breytist birtingarhamur kanban-spjalds. Í þessari stillingu gilda eftirfarandi skilyrði:
 

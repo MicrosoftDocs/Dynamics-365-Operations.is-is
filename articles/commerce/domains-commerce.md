@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 8d4381c64b69f8b62dcb509407c4f04dcee696ae
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792800"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733992"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Lén í Dynamics 365 Commerce
 
@@ -38,7 +38,7 @@ Lén eru vefföng sem eru notuð til að fara á Dynamics 365 Commerce-vefsvæð
 
 Eftirfarandi mynd sýnir úthlutunarskjámynd rafrænna viðskipta LCS með kassann **Studd lénsheiti** auðkenndan. 
 
-![Úthlutunarskjámynd rafrænna viðskipta LCS með kassann **Studd lénsheiti** auðkenndan](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![Úthlutunarskjámynd rafrænna viðskipta LCS með kassann **Studd lénsheiti** auðkenndan.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 Hægt er að stofna þjónustubeiðni til að bæta öðrum lénum við umhverfi ef úthlutun hefur þegar átt sér stað. Til að stofna þjónustubeiðni í LCS skaltu í umhverfinu þínu fara í **Stuðningur \> Vandamál varðandi stuðning** og velja **Senda inn tilvik**.
 
@@ -56,7 +56,7 @@ Einnig er hægt að nota hýsilheiti fyrir framleiðslusvæði í sandkassaumhve
 
 Eftirfarandi mynd sýnir svargluggann **Setja upp svæðið þitt** fyrir svæði sem heitir „sjálfgefið“ þegar þú ferð inn á svæðið í fyrsta skipti í vefsmiðnum.
 
-![**Setja upp svæðið þitt** svargluggi](./media/Domains_SetupyoursiteScreen.png)
+![**Setja upp svæðið þitt** svargluggi.](./media/Domains_SetupyoursiteScreen.png)
 
 Glugginn **Velja lén** gerir þér kleift að tengja eitt af studdu hýsilheitunum, sem gefin er upp fyrir svæðið þitt í LCS, við svæðið þitt í vefsmiðnum.
 
@@ -79,11 +79,11 @@ Að öðrum kosti, ef þú bættir við slóðinni „fabrikam“ við sömu upp
 
 Eftirfarandi mynd sýnir svargluggann **Ný vefslóð** í vefsmiðnum með auðkennt dæmi um vefslóð. 
 
-![**Ný vefslóð** svargluggi í vefsmið](./media/Domains_PageSetup2a.png)
+![**Ný vefslóð** svargluggi í vefsmið.](./media/Domains_PageSetup2a.png)
 
 Eftirfarandi mynd sýnir síðuna **Vefslóðir** í vefsmiðnum með auðkenndu dæmi um vefslóð í listanum.
 
-![Keyra valkost notendaflæðis í stefnuflæði](./media/Domains_URLsInSiteBuilder2a.png)
+![Keyra valkost notendaflæðis í stefnuflæði.](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Lén í vefsmiðnum
 
@@ -151,7 +151,7 @@ Tilvik Azure Front Door styður ekki apex-lén (rótarlén sem innihalda ekki un
 
   [Uppsetning á nýjum leigjanda rafrænna viðskipta](deploy-ecommerce-site.md)
 
-  [Setja upp netverslunarrás](online-stores.md)
+  [Setja upp netverslunarrás](./channel-setup-online.md)
 
   [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 

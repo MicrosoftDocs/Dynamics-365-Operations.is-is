@@ -2,11 +2,9 @@
 title: Endurstilla númer kvittunar
 description: Þetta efni lýsir því hvernig á að núllstilla innhreyfingatölurnar sem eru notuð við ýmsar aðgerðir á tilteknum degi (til dæmis reikningsársins eða almanaksársins).
 author: ShalabhjainMSFT
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-Commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 97ec85ebccacd3a827e8a016098939134823dceb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 855c39f15db6de8fac1f0cd4667eec485c70542b9aebde0d7085e2703f4609bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243696"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733870"
 ---
 # <a name="reset-receipt-numbers"></a>Endurstilla númer kvittunar 
 
@@ -55,9 +53,9 @@ Fylgdu þessum skrefum til að kveikja á endurstillingu.
 1. Á flýtiflipanum **Númer kvittunar**, veldu **Endurstilla endurstillingardag númers**.
 1. Í fellivalmyndinni, í reitnum **Endurstilla dagsetningu**, veldu framtíðardagsetningu þegar núllstillingin ætti að eiga sér stað.
 1. Í reitnum **Endurstilla tegund kvittunar**, veldu **Aðeins einu sinni** eða **Árlega**.
-1. Veljið **Í lagi**.
+1. Veldu **Í lagi**.
 
-![Val á endurstillingu dagsetningar kvittunar](media/Enable_receipt_reset.png "Val á endurstillingu dagsetningar kvittunar")
+![Val á endurstillingu dagsetningar kvittunar.](media/Enable_receipt_reset.png "Val á endurstillingu dagsetningar kvittunar")
 
 Þegar þú hefur valið dagsetningu birtist hún í dálknum **Næsti endurstillingardagur kvittunarnúmera**. Endurstillingardagsetningin gildir fyrir allar gerðir kvittunarfærslna. Þess vegna verður kvittunarnúmeraröðin endurstillt fyrir allar gerðir kvittunar.
 

@@ -1,7 +1,7 @@
 ---
 title: Setja upp pöntunaruppfylling fyrir verslanir
 description: Þetta efnisatriði gefur yfirlit yfir hvernig á að setja upp pöntunaruppfyllingu verslunar.
-author: rubencdelgado
+author: BrianShook
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5cdf7b2655f62b693a8f2bc137c690fbc43b16a7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
-ms.translationtype: HT
+ms.openlocfilehash: ed709c2a15a2d9e1675da55fc87284127e64ba39
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796439"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779597"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>Setja upp pöntunaruppfyllingu fyrir verslanir
 
@@ -33,9 +33,9 @@ Pöntunaruppfyllingaraðgerðin í sölustaðnum veitir eitt vinnusvæði í sö
 
 ## <a name="set-up-the-order-fulfillment-operation"></a>Setja upp pöntunaruppfyllingaraðgerðina
 
-Pöntunaruppfyllingu, [Aðgerðarnúmer 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), má nota til að fá aðgang að vinnusvæði uppfyllingar pöntunar fyrir verslun á sölustaðnum.
+Pöntunaruppfyllingu, [Aðgerðarnúmer 928](pos-operations.md), má nota til að fá aðgang að vinnusvæði uppfyllingar pöntunar fyrir verslun á sölustaðnum.
 
-Fylgdu leiðbeiningunum í [Bæta aðgerðinni við hnappahnit](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) til að tilgreina hvaða færibreytu á að nota þegar þú kallar fram pöntunaruppfyllinguna á sölustað. Sjálfgefið er að velja **Allar pantanir** eftir að pöntunaruppfyllingaraðgerðir er tilgreind. Þegar skilgreint er með þessari breytu mun aðgerðin skrá alla pöntunarlínur til uppfyllingar í núverandi verslun. Einnig er í boði **Pantanir til að senda** sem hægt er að úthluta á hnapp og nota þegar notandinn vill aðeins sjá pantanir sem verða sendar frá versluninni. Að lokum er **Sóttar pantanir**. Þegar kallað fram á sölustaðnum, birtir þetta aðeins listi yfir pantanir sem sóttar eru í versluninni. Hægt er að úthluta mismunandi færibreytur á mismunandi hnappa til að gefa notandanum ýmsar leiðir til að skoða pöntunaruppfyllingu.
+Fylgdu leiðbeiningunum í [Bæta aðgerðinni við hnappahnit](pos-screen-layouts.md) til að tilgreina hvaða færibreytu á að nota þegar þú kallar fram pöntunaruppfyllinguna á sölustað. Sjálfgefið er að velja **Allar pantanir** eftir að pöntunaruppfyllingaraðgerðir er tilgreind. Þegar skilgreint er með þessari breytu mun aðgerðin skrá alla pöntunarlínur til uppfyllingar í núverandi verslun. Einnig er í boði **Pantanir til að senda** sem hægt er að úthluta á hnapp og nota þegar notandinn vill aðeins sjá pantanir sem verða sendar frá versluninni. Að lokum er **Sóttar pantanir**. Þegar kallað fram á sölustaðnum, birtir þetta aðeins listi yfir pantanir sem sóttar eru í versluninni. Hægt er að úthluta mismunandi færibreytur á mismunandi hnappa til að gefa notandanum ýmsar leiðir til að skoða pöntunaruppfyllingu.
 
 ### <a name="enable-users-to-access-order-fulfillment-at-the-point-of-sale"></a>Gera notendum kleift að fara inn á pöntunaruppfyllingu á sölustað
 
@@ -104,9 +104,9 @@ Að sjálfgefnu, munu pantanir hafa stöðuna **Samþykkt**. Pöntunarstaða er 
 
 - **Breyta** – Ef staða pöntunar er í bið er hægt að breyta henni á sölustað. Pantanir sem þegar hafa verið tilteknar að hluta, pakkað eða reikningsfærðar er ekki hægt að breyta í yfirliti pöntunaruppfyllingar.
 - **Samþykkja** – Ef **Handvirkt samþykki** er grunnstillt á rásarstiginu, þarf fyrst að samþykkja línurnar áður en þær geta farið í gegnum vinnslu pöntunaruppfyllingar.
-- **Taka til** – Taka til valkosturinn styður nokkrar aðgerðir. Í fyrsta lagi að **Tiltekt** uppfærir stöðu pöntunarlínu þannig að aðrir í versluninni reyni ekki að taka til sömu línu. Næst prentar **Prenta tiltektarlista** tiltektarlista fyrir valda línuna eða línurnar og uppfærir einnig stöðu þeirra í **Tiltekt**. Sniðum tiltektarlista er stjórnað sem hluti af sniðum innhreyfingar. Til að fá nánari upplýsingar um uppsetningu sniðs innhreyfingar skal sjá [Prentun og sniðmát innhreyfingar](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing). Að síðustu, **Merkja sem tiltekið** gefur til kynna að línan hafi verið tiltekin. **Merkja sem tiltekið** hrindir af stað samsvarandi birgðafærslu í bakvinnslu. Hægt er að framkvæma tiltektaraðgerðir á sama tíma fyrir margar pöntunarlínur þvert yfir pantanir og fyrir allan afhendingarmáta.
+- **Taka til** – Taka til valkosturinn styður nokkrar aðgerðir. Í fyrsta lagi að **Tiltekt** uppfærir stöðu pöntunarlínu þannig að aðrir í versluninni reyni ekki að taka til sömu línu. Næst prentar **Prenta tiltektarlista** tiltektarlista fyrir valda línuna eða línurnar og uppfærir einnig stöðu þeirra í **Tiltekt**. Sniðum tiltektarlista er stjórnað sem hluti af sniðum innhreyfingar. Til að fá nánari upplýsingar um uppsetningu sniðs innhreyfingar skal sjá [Prentun og sniðmát innhreyfingar](receipt-templates-printing.md). Að síðustu, **Merkja sem tiltekið** gefur til kynna að línan hafi verið tiltekin. **Merkja sem tiltekið** hrindir af stað samsvarandi birgðafærslu í bakvinnslu. Hægt er að framkvæma tiltektaraðgerðir á sama tíma fyrir margar pöntunarlínur þvert yfir pantanir og fyrir allan afhendingarmáta.
 - **Hafna** – Línur eða línur að hluta má hafna. Þetta gerir þeim kleift að vera endurúthlutað frá bakvinnslunni til annars verslunar eða vöruhús. Línum er aðeins hægt að hafnað ef þeir hafa ekki enn verið tiltekin eða pakkað. Til að hafna línu sem hefur þegar verið tekin til eða pakkað verður afturkalla tiltekt eða pökkun fyrir þessa lína frá bakvinnslunni.
-- **Pakka** – Pakka valkosturinn styður tvær aðgerðir: **Prenta fylgiseðil** mun prenta fylgiseðil fyrir valdar línur og **Merkja sem pakkað** mun merkja línurnar sem pakkaðar og merkja línurnar sem afhentar á bakvinnslunni. Aðeins pöntunarlínur sem tilheyra sömu pöntun og hafa sömu flutningsmáta má pakka á sama tíma. Snið fylgiseðils eru stjórnað sem hluti af sniði innhreyfingar. Til að fá nánari upplýsingar um uppsetningu sniðs innhreyfingar skal sjá [Prentun og sniðmát innhreyfingar](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+- **Pakka** – Pakka valkosturinn styður tvær aðgerðir: **Prenta fylgiseðil** mun prenta fylgiseðil fyrir valdar línur og **Merkja sem pakkað** mun merkja línurnar sem pakkaðar og merkja línurnar sem afhentar á bakvinnslunni. Aðeins pöntunarlínur sem tilheyra sömu pöntun og hafa sömu flutningsmáta má pakka á sama tíma. Snið fylgiseðils eru stjórnað sem hluti af sniði innhreyfingar. Til að fá nánari upplýsingar um uppsetningu sniðs innhreyfingar skal sjá [Prentun og sniðmát innhreyfingar](receipt-templates-printing.md).
 - **Senda** – Sendingaraðgerðin mun merkja völdum línum sem **Afhent** í bakvinnslunni. Eftir að línan hefur verið send að fullu birtist hún ekki lengur á skjá uppfyllingar pöntunar.
 - **Afhending** – Afhendingaraðgerðin bætir línurnar við færsluyfirlitið fyrir afhendingu. Ef það eru aðrar línur í pöntuninni sem ekki er verið að afhenda, þá verður þeim bætt við færsluyfirlitið með magn upp á núll. Eftir að lína hefur verið að fullu afhent birtist hún ekki lengur í yfirliti yfir pöntunaruppfyllingu.
 

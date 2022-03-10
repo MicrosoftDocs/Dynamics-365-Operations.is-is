@@ -1,26 +1,24 @@
 ---
 title: Búa til afurðarsniðmát sem byggir á víddum
 description: Þessi ferli sýnir hvernig á að stofna nýjan afurðarsniðmát með skilgreiningartækni sem byggist á víddum.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductMasterDraftFormPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3913bdf574036ed30f99701bf2b64ed0f713b1d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 34b1e1025e441a6e59d6b97f70f990d55c27e102
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226076"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570634"
 ---
 # <a name="create-a-dimension-based-product-master"></a>Búa til afurðarsniðmát sem byggir á víddum
 

@@ -1,7 +1,7 @@
 ---
 title: Upprunaland
 description: Mörg fyrirtæki gefa út vottorð til lánardrottna sinna til að tryggja að afurðir uppfylli tiltekna vottunarstaðla. Þessi vottorð eru oft háð upprunalandi. Í þessu efnisatriði er að finna upplýsingar um eiginleika upprunalands, sem gerir þér kleift að tengja afurð við upprunaland hennar og fylgjast með afurðarvottorðum þess.
-author: dasani-madipalli
+author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: COOVendorCerts
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: b07747752dd09f39c3a7a9a647cc3d10cc4b5cc7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: a2740f6b1ccb52073b013e613d8ab779cc088180
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829547"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7777639"
 ---
 # <a name="country-of-origin"></a>Upprunaland
 
@@ -28,7 +28,7 @@ Mörg fyrirtæki gefa út vottorð til lánardrottna sinna til að tryggja að a
 
 ## <a name="turn-on-the-country-of-origin-feature"></a>Kveikja á eiginleika upprunalands
 
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta notað [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) síðu til að athuga stöðu eiginleika og virkja eða slökkva á honum ef þörf krefur. Hérna er eiginleikinn skráður sem:
 
 - **Eining:** *Afurðaupplýsingastjórnun*
 - **Heiti eiginleika:** *Stjórnunareiginleiki fyrir upprunaland*
@@ -86,7 +86,7 @@ Til að setja upp upplýsingar um vottorð skal fylgja þessum skrefum.
 
 Skýrsla sem sýnir upplýsingar um upprunaland hvers hluta er búin til og sýnd. Hér er dæmi um skýrsluna.
 
-![Skýrsla upprunalands](media/country-of-origin-report.png "Skýrsla upprunalands")
+![Skýrsla upprunalands.](media/country-of-origin-report.png "Skýrsla upprunalands")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

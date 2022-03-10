@@ -2,11 +2,8 @@
 title: Listi yfir ER-aðgerðir í gerðaumbreytingaflokknum
 description: Þetta efni veitir upplýsingar um umreikningsaðgerðir sem eru studdar í rafrænni skýrslugerð (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d160c02403bf067ed523fbd634e65c622b522b97
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
-ms.translationtype: HT
+ms.openlocfilehash: a6d678c2a38039285bd835abcbbaf13ec00298c0660c62e7496a5d7405db8f61
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686076"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766410"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>Listi yfir ER-aðgerðir í gerðaumbreytingaflokknum
 
@@ -38,6 +35,14 @@ Hægt er að nota umbreytingaraðgerðir fyrir rafræna skýrslugerð (ER) til a
 | [IntValue](er-functions-conversion-intvalue.md)       | Þessi aðgerð skilar *Int*-gildi sem táknar tilgreindan streng. |
 | [NumberValue](er-functions-conversion-numbervalue.md) | Þessi aðgerð skilar *Raun*-gildi sem er umreiknað úr tilgreindu *Streng*-gildi. Við umreikning er tekið tillit til tilgreindra flokkunarskiltákna aukastafa og tölustafa. |
 | [Virði](er-functions-conversion-value.md)             | Þessi aðgerð skilar *Raun*-gildi sem er umreiknað úr tilgreindu *Streng*-gildi. |
+
+## <a name="type-conversion-functions-in-the-container-category"></a>Aðgerðir fyrir umbreytingu á gerð í gámaflokknum
+
+Eftirfarandi tafla útskýrir aðgerðir fyrir umbreytingu á gerð í flokknum [gámur](er-functions-category-container.md).
+
+| Virkni | lýsing |
+|----------|-------------|
+| [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | Þessi aðgerð umbreytir tilteknum innslætti af gerðinni *Strengur* í gagnaatriði af gerðinni *Gámur*. |
 
 ## <a name="type-conversion-functions-in-the-date-and-time-category"></a>Umreikningsaðgerðir gerðar í flokknum Dagsetning og tími
 
@@ -79,3 +84,6 @@ Eftirfarandi tafla lýsir umreikningsaðgerðum gerða í [textaflokknum](er-fun
 [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)
 
 [Formúlutungumál í rafrænni skýrslugerð](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 442a5f5b321833c170cfecc4069e62a1254605cd
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
-ms.translationtype: HT
+ms.openlocfilehash: 6d3a4ae8efd438e01c263af1c0a1746d9484e491
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270481"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103099"
 ---
 # <a name="predefined-product-variants"></a>Fyrirframskilgreind afurðarafbrigði
 
@@ -84,12 +84,9 @@ Eftirfarandi endurbótum er bætt við af þessum eiginleika:
 - **Frestun á myndun afurðartillagna:** Síðan **Tillögur um afbrigði** sýnir ekki lengur tillögur þegar hún er opnuð í fyrsta skipti. Þess í stað þarf sérstaklega að velja hvaða gildi þarf og velja svo hnappinn **Leggðu til** til að mynda samsetningarnar. Þetta gerir ferlið sýnilegra og gagnvirkara.
 - **Val víddargilda:** Þegar mörg víddargildi eru til staðar vill notandi yfirleitt búa til tillögur að afbrigðum sem taka aðeins nokkrar þeirra til greina (t.d. þegar nýir litir eða stílbrigði eru tekin í notkun). Með endurbættri hönnun er hægt að velja víddargildin fyrir það sem búa á tillögur að afurðarafbrigðum fyrir. Þetta eykur vægi þeirra afbrigða sem stungið er upp á og bætir bæði afköst kerfis og skilvirkni notanda.
 
-### <a name="turn-on-the-variant-suggestions-page-improvements-feature"></a>Kveikja á eiginleika vegna endurbóta á tillögusíðu afurða
+### <a name="turn-the-variant-suggestions-page-improvements-feature-on-or-off"></a>Kveiktu eða slökktu á eiginleikanum fyrir endurbætur á afbrigðistillögum
 
-Áður en hægt er að nota eiginleikann *Endurbætur á tillögusíðu afbrigðis* þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
-
-- **Eining:** *Afurðaupplýsingastjórnun*
-- **Heiti eiginleika:** *Endurbætur á tillögusíðu afbrigðis*
+Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Endurbætur á tillögum til afbrigða* eiginleiki í [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ### <a name="work-with-the-improved-variant-suggestions"></a>Unnið með endurbætur á tillögum afbrigðis
 

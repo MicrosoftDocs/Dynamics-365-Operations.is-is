@@ -1,33 +1,32 @@
 ---
 title: Yfirlit yfir Fínstillingarráðgjöf
-description: Þetta efnisatriði lýsir því hvernig hægt er að nota Fínstillingarráðgjafa til að tryggja sem besta grunnstillingu á Finance and Operations.
+description: Þetta efnisatriði lýsir því hvernig hægt er að nota Fínstillingarráðgjafa til að tryggja sem besta uppsetningu á Finance and Operations.
 author: roxanadiaconu
 ms.date: 07/23/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 241be956fb5026fdbf65d4a24aa7f0202b654189
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
-ms.translationtype: HT
+ms.openlocfilehash: 8039ff51dfb07bbdf5d6a102de1ff4ddbfd907a5
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339157"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984103"
 ---
 # <a name="optimization-advisor-overview"></a>Yfirlit yfir Fínstillingarráðgjöf
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig hægt er að nota Fínstillingarráðgjafa til að tryggja sem besta grunnstillingu á Finance and Operations.
+Þetta efnisatriði lýsir því hvernig hægt er að nota Fínstillingarráðgjafa til að tryggja sem besta uppsetningu á Finance and Operations.
 
 ## <a name="overview"></a>Yfirlit
 

@@ -2,11 +2,9 @@
 title: Setja upp netrás
 description: Í þessu efnisatriði er lýst hvernig eigi að stofna nýja netrás í Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
-ms.date: 07/02/2020
+ms.date: 02/04/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 44cc63560c048031c8315dc3f15ef07583bdc266
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: f32872fcc27e2e74300c4f18dfa08d666e4ad8a8
+ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218346"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8092113"
 ---
 # <a name="set-up-an-online-channel"></a>Setja upp netrás
-
 
 [!include [banner](includes/banner.md)]
 
 Í þessu efnisatriði er lýst hvernig eigi að stofna nýja netrás í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
 
 Dynamics 365 Commerce styður margar smásölurásir. Meðal þessara smásölurásir eru netverslanir, símaver, og smásöluverslanir (einnig kallað hefðbundnar verslanir). Netverslun gefur viðskiptavinum val um að kaupa afurðir úr netverslun smásala til viðbótar við smásöluverslanir þeirra.
 
@@ -57,19 +52,23 @@ Til að stofna og stilla nýja netrás fylgirðu þessum skrefum.
 
 Eftirfarandi mynd sýnir stofnun nýrrar netrásar.
 
-![Ný netrás](media/channel-setup-online-1.png)
+![Ný netrás.](media/channel-setup-online-1.png)
 
 Eftirfarandi mynd sýnir dæmi um netrás.
 
-![Dæmi um netrás](media/channel-setup-online-2.png)
+![Dæmi um netrás.](media/channel-setup-online-2.png)
+
+## <a name="assign-the-channel-to-a-commerce-scale-unit"></a>Úthlutaðu rásinni til Commerce Scale Unit
+
+Nýju rásinni þinni verður að vera úthlutað til Commerce Scale Unit. Fyrir leiðbeiningar, sjá [Stilltu rásir til að nota Commerce Scale Unit](../fin-ops-core/dev-itpro/deployment/initialize-retail-channels.md#configure-channels-to-use-commerce-scale-unit).
 
 ## <a name="set-up-languages"></a>Setja upp tungumál
 
-Ef netverslunarsíðan mun styðja mörg tungumál skaltu stækka hlutann **Tungumál** og bæta við fleiri tungumálum eftir þörfum.
+Ef e-Commerce síða þín styður mörg tungumál skaltu stækka **Tungumál** kafla og bæta við fleiri tungumálum eftir þörfum.
 
 ## <a name="set-up-payment-account"></a>Setja upp greiðslulykil
 
-Í hlutanum **Greiðslulykill** er hægt að bæta við greiðsluaðila þriðja aðila. Frekari upplýsingar um uppsetningu á Adyen greiðslutengli er að finna í [Greiðslutengill Dynamics 365 fyrir Adyen](../retail/dev-itpro/adyen-connector.md).
+Í hlutanum **Greiðslulykill** er hægt að bæta við greiðsluaðila þriðja aðila. Frekari upplýsingar um uppsetningu á Adyen greiðslutengli er að finna í [Greiðslutengill Dynamics 365 fyrir Adyen](./dev-itpro/adyen-connector.md).
 
 ## <a name="additional-channel-setup"></a>Viðbótaruppsetning grunnrásar
 
@@ -77,7 +76,7 @@ Ef netverslunarsíðan mun styðja mörg tungumál skaltu stækka hlutann **Tung
 
 Eftirfarandi mynd sýnir uppsetningarkostina **Afhendingarmáta**, **Greiðslumáta** og **Úthlutanir uppfyllingarflokks** á flipanum **Setja upp**.
 
-![Viðbótar uppsetningaraðgerðir netrásar](media/channel-setup-online-3.png)
+![Viðbótar uppsetningaraðgerðir netrásar.](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Setja upp greiðsluhætti
 
@@ -92,7 +91,7 @@ Fylgdu þessum skrefum til að setja upp greiðslumáta fyrir hverja greiðsluge
 
 Eftirfarandi mynd sýnir dæmi um greiðsluaðferð í reiðufé.
 
-![Dæmi um greiðslumáta](media/channel-setup-retail-5.png)
+![Dæmi um greiðslumáta.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Setja upp afhendingarmáta
 
@@ -106,7 +105,7 @@ Fylgdu þessum skrefum til að breyta eða bæta við afhendingarmáta.
 
 Eftirfarandi mynd sýnir dæmi um afhendingarmáta.
 
-![Setja upp afhendingarmáta](media/channel-setup-retail-7.png)
+![Setja upp afhendingarmáta.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Setja upp úthlutun uppfyllingarflokks
 
@@ -120,19 +119,19 @@ Til að setja upp úthlutun uppfyllingarflokks skal fylgja þessum skrefum.
 
 Eftirfarandi mynd sýnir dæmi um uppstillingu úthlutunar uppfyllingarflokks.
 
-![Setja upp úthlutun uppfyllingarflokks](media/channel-setup-retail-9.png)
+![Setja upp úthlutun uppfyllingarflokks.](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir rásir](channels-overview.md)
+[Yfirlit rása](channels-overview.md)
 
-[Skilyrði fyrir rásauppsetningu](channels-prerequisites.md)
+[Skilyrði fyrir uppsetningu rásar](channels-prerequisites.md)
 
 [Setja upp smásölurás](channel-setup-retail.md)
 
 [Setja upp rás símavers](channel-setup-callcenter.md)
 
-[Dynamics 365-greiðslutengill fyrir Adyen](../retail/dev-itpro/adyen-connector.md)
+[Dynamics 365-greiðslutengill fyrir Adyen](./dev-itpro/adyen-connector.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

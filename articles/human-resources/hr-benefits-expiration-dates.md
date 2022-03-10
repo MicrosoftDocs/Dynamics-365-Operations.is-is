@@ -1,8 +1,8 @@
 ---
 title: Vinna með lokadaga fríðinda
-description: Þessi verklýsing sýnir hvernig hægt er að láta renna út eða framlengja fríðindi, og stjórna skráningadagsetninga yfir starfsmenn sem eru skráðir í fríðindi.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Þessi aðferð sýnir hvernig ávinningur getur runnið út eða verið framlengdur og hefur umsjón með skráningardögum starfskrafta.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,21 +10,24 @@ ms.search.form: HcmBenefit, HcmMassBenefitExpiration, HcmMassBenefitExpirationRe
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: ccd3126ba45cf90b6fa55f0a3853531fd0e43ed48a9e715bb1692726482fb432
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 04751718e22f7339a032ce4a94e919a653876e4b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727113"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065969"
 ---
 # <a name="manage-benefit-expiration-dates"></a>Vinna með lokadaga fríðinda
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þessi verklýsing sýnir hvernig hægt er að láta renna út eða framlengja fríðindi, og stjórna skráningadagsetninga yfir starfsmenn sem eru skráðir í fríðindi. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+Þessi aðferð sýnir hvernig ávinningur getur runnið út eða verið framlengdur og hefur umsjón með skráningardögum starfskrafta. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
 ## <a name="benefit-expiration-dates"></a>Lokadagar fríðinda
 

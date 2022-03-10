@@ -2,11 +2,9 @@
 title: Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi
 description: Þessi handbók sýnir hvernig á að grunnstilla uppsetningu á staðsetningu fyrir nýtt vöruhúsakerfisvirkjað vöruhús (vöruhús sem notar ítarleg vöruhúsaferli).
 author: perlynne
-manager: tfehr
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, WHSLocationFormat, WHSLocationType, WHSLocationProfile, WHSParameters, WHSZoneGroup, WHSZone, WHSLocationBuild, WHSLocation, WHSPackSizeCategory, WHSLocationLimit, WHSInventFixedLocation, WMSLocationIdLookup
 audience: Application User
@@ -15,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59835d28afc6f855f109cf9b875624f8fd11191a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
+ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977315"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599349"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi
 
@@ -35,7 +33,7 @@ ms.locfileid: "4977315"
 2. Smellt er á **Nýtt**.
 3. Í reitinn **Vöruhús** skal slá inn gildi.
 4. Í reitinn **Heiti** skal slá inn gildi.
-5. Í reitinn **Svæði** skal slá inn gildi.
+5. Í reitnum **Svæði** skal velja eða slá inn fyrirliggjandi svæðisgildi.
 6. Víkkið út hlutann **Vöruhús**.
 7. Stilltu valkostinn **Nota ferli vöruhúsastjórnunar** á Já. Þessi stilling leyfir þér að keyra ítarleg vöruhúsaferli með því að nota vöruhúsavinnu og fartæki.
 8. Lokið síðunni.
@@ -174,3 +172,6 @@ ms.locfileid: "4977315"
 6. Í listanum skal smella á tengilinn í valinni línu.
 7. Lokið síðunni.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

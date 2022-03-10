@@ -1,7 +1,7 @@
 ---
 title: Skilgreina hæfni
 description: Hægt er að rekja hæfni starfsmanns í Dynamics 365 Human Resources. Einnig er hægt að tilgreina hæfni sem krafist er fyrir tiltekna vinnslu.
-author: andreabichsel
+author: twheeloc
 manager: tfehr
 ms.date: 03/23/2021
 ms.topic: article
@@ -13,19 +13,21 @@ ms.search.scope: Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 816822d1f3d365b4c5571c13e9f596e1c5d5e59c
-ms.sourcegitcommit: 48528233e0f02dbd47e96e030254ef65f2bb899e
-ms.translationtype: HT
+ms.openlocfilehash: 13206bb3c961f001620e8b65a8b1bb39bf95ee49
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6076560"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075072"
 ---
 # <a name="configure-skills"></a>Skilgreina hæfni
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+> [!IMPORTANT]
+> Virknin sem bent er á í þessu efnisatriði er eins og er í boði fyrir mannauðsviðskiptavini á fjármálainnviðum.  
+
 
 Hægt er að rekja hæfni starfsmanns í Dynamics 365 Human Resources. Einnig er hægt að tilgreina hæfni sem krafist er fyrir tiltekna vinnslu.
 

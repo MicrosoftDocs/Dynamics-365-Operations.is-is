@@ -1,7 +1,9 @@
-- name: Dynamics 365 for Talent
-  href: ./index.md
+- name: Dynamics 365 Talent tekið úr notkun
+  href: ../human-resources/hr-talent-retire.md?toc=/dynamics365/talent/toc.json
   items:
-    - name: Hefjast handa
+    - name: Dynamics 365 Talent upphafssíða
+      href: ./index.md
+    - name: Hafist handa
       items:
         - name: Hafist handa með Talent
           href: talent-get-started.md

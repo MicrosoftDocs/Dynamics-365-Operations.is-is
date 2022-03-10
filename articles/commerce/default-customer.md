@@ -1,12 +1,10 @@
 ---
 title: Stofnun sjálfvirks viðskiptavinar
-description: Þetta efni lýsir því hvernig á að búa til sjálfgefinn viðskiptavin til að nota þegar stofnuð er rás í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að stofna sjálfgefinn viðskiptavin til að nota þegar rás er stofnuð í Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 1dd4dfc5b8ca7af66941d081b4c20be0f5d6001d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: ff9e5665ffd82982e09f63e34b30ae6937666231855587ad2f27c5231ead8419
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993401"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720960"
 ---
 # <a name="create-a-default-customer"></a>Stofnun sjálfvirks viðskiptavinar
 
-
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að búa til sjálfgefinn viðskiptavin til að nota þegar stofnuð er rás í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Þetta efnisatriði lýsir því hvernig á að stofna sjálfgefinn viðskiptavin til að nota þegar rás er stofnuð í Microsoft Dynamics 365 Commerce.
 
 Þegar þú býrð til rás þarftu að bjóða upp á sjálfgefinn viðskiptavin. Auðvelt er að búa til sjálfgefinn viðskiptavin eftir að hafa búið til viðskiptavinahópinn og aðsetursbók viðskiptavinarins.
 
@@ -52,7 +47,7 @@ Til að stofna viðskiptavinaflokk, skal fylgja eftirfarandi skrefum.
 
 Eftirfarandi mynd sýnir nokkra stillta viðskiptavinahópa.
 
-![Viðskiptavinaflokkar](media/customer-groups.png)
+![Viðskiptavinaflokkar.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Stofna aðsetursbók viðskiptavinar
 
@@ -68,7 +63,7 @@ Til að stofna aðsetursbók viðskiptavina skal fylgja eftirfarandi skrefum.
 
 Eftirfarandi mynd sýnir dæmi um aðsetursbók.
 
-![Aðsetursbók](media/address-book.png)
+![Aðsetursbók.](media/address-book.png)
 
 ## <a name="create-a-default-customer"></a>Stofnun sjálfvirks viðskiptavinar
 
@@ -91,11 +86,11 @@ Til að stofna sjálfgefinn viðskiptavin skal fylgja eftirfarandi skrefum.
 
 Eftirfarandi mynd sýnir dæmi um stofnun viðskiptavinr.
 
-![Stofnun sjálfvirks viðskiptavinar](media/default-customer-creation.png)
+![Stofnun sjálfvirks viðskiptavinar.](media/default-customer-creation.png)
 
 Eftirfarandi mynd sýnir sjálfgefna stillingu viðskiptavina.
 
-![Dæmi um stillingu viðskiptavinar](media/default-customer-configuration1.png)
+![Dæmi um stillingu viðskiptavinar.](media/default-customer-configuration1.png)
 
 Flest sjálfgefin gildi á skjá viðskiptavinarins geta verið áfram, en tveimur gildum ætti að breyta.
 
@@ -105,10 +100,13 @@ Flest sjálfgefin gildi á skjá viðskiptavinarins geta verið áfram, en tveim
 
 Eftirfarandi mynd sýnir dæmi um stillingu viðskiptavinr.
 
-![Dæmi um stillingu viðskiptavinar](media/default-customer-configuration2.png)
+![Dæmi um stillingu viðskiptavinar.](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir rásir](channels-overview.md)
+[Yfirlit rása](channels-overview.md)
 
-[Skilyrði fyrir rásauppsetningu](channels-prerequisites.md)
+[Skilyrði fyrir uppsetningu rásar](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

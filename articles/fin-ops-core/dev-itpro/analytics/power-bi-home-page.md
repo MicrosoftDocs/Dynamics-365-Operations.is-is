@@ -2,7 +2,6 @@
 title: Power BI efni – heimasíða
 description: Í þessu efnisatriði eru sýndar lausnir PowerBI.com sem eru tiltækar og benda á tilföng þar sem hægt er að fræðast betur um lausnirnar.
 author: sericks007
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
@@ -10,18 +9,20 @@ ms.technology: ''
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 265694
+ms.custom:
+- "265694"
+- intro-internal
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0a3a16fa3fb92b446eecf6459b5a7c65f7560c20
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
-ms.translationtype: HT
+ms.openlocfilehash: 5c56b6d8ae3c641aab86261f844ed60bd8579969ba6583bb90098436d84b2859
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564464"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753623"
 ---
 # <a name="power-bi-content-home-page"></a>Power BI efni – heimasíða
 

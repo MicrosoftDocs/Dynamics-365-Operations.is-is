@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: fe0e63ef742b7bfd09684a94d273a1841d24599c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 076a4dfdc49525eef616d1008073371be1dd4a248cd6f16d395b544ae70e7531
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828274"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757495"
 ---
 # <a name="pick-line-grouping"></a>Flokkun tiltektarlínu
 
@@ -116,7 +116,7 @@ Fylgið þessum skrefum til að bæta við valmyndaratriðinu sem var stofnað �
     - **Vara M9201:** *3* hver
     - **Vara M9202:** *9* hver
 
-1. Áður en þú losar pantanir í vöruhúsið verður þú að ganga úr skugga um að tiltektarstaðirnir séu með nægar birgðir fyrir allar vörur í öllum pöntunum. Farðu yfir stillinguna **Staðsetningartilskipun** til að ákvarða hvaða tínslustaðir eru notaðir við tínslu sölupöntunum. Ef verið er að nota umhverfi contoso-sýnigagna fyrir vöruhús *51* skal staðfesta að til séu lausar birgðir.
+1. Áður en þú losar pantanir í vöruhúsið verður þú að ganga úr skugga um að tiltektarstaðirnir séu með nægar birgðir fyrir allar vörur í öllum pöntunum. Farðu yfir stillinguna **Staðsetningartilskipun** til að ákvarða hvaða tínslustaðir eru notaðir við tínslu sölupöntunum. Ef verið er að nota umhverfi Contoso-sýnigagna fyrir vöruhús *51* skal staðfesta að til séu lausar birgðir.
 
     Nú þarf að taka frá birgðirnar fyrir hverja línu.
 

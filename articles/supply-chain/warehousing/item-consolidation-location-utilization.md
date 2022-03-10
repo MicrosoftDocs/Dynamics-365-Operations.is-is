@@ -2,26 +2,23 @@
 title: Vörusameining - nýting á staðsetningu
 description: Í þessu efnisatriði er að finna upplýsingar um virkni sem auðveldar stjórnendum vöruhúss að skoða og sía rúmmálsnýtingu staðsetninga í öllu vöruhúsinu. Stjórnendur geta valið staðsetningar og búið til birgðahreyfingarvinnu beint úr síðu Vörusameiningar til að sameina vörur og þar af leiðandi nýta betur rými vöruhússins.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4430658"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578609"
 ---
 # <a name="item-consolidation---location-utilization"></a>Vörusameining - nýting á staðsetningu
 
@@ -150,7 +147,7 @@ Eiginleikinn *Staðsetningarstaða vöruhúss* bætir fjórum nýjum reitum við
 
 ## <a name="example-scenario"></a>Dæmi
 
-Eftirfarandi aðstæður notar vöruhúsaforritið í fartæki til að gera *leiðréttingu á* birgðum á tveimur staðsetningum í vöruhúsinu.
+Eftirfarandi aðstæður notar farsímaforrit vöruhúsakerfis til að gera *leiðréttingu á* birgðum á tveimur staðsetningum í vöruhúsinu.
 
 ### <a name="add-inventory-to-locations"></a>Bæta birgðum við staðsetningar
 
@@ -208,3 +205,6 @@ Eftirfarandi aðstæður notar vöruhúsaforritið í fartæki til að gera *lei
 
     > [!NOTE]
    > Kerfið býr til eitt vinnuauðkenni fyrir hvern flutning sem þarf að ljúka. Ef staðsetning sem inniheldur þegar birgðir er tilgreind er aðeins eitt vinnuauðkennið stofnað. Ef ný staðsetning er tilgreind eru tvö vinnuauðkenni stofnuð.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

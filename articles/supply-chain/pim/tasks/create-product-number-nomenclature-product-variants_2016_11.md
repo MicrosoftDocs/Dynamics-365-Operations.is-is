@@ -1,26 +1,24 @@
 ---
 title: Stofna nafnakerfi afurðarnúmers fyrir skilgreind afurðarafbrigði
 description: Þetta ferli sýnir hvernig á að setja inn nafnakerfi afurðarnúmers fyrir skilgreind afurðarafbrigði og hvernig hægt er að tengja það við skilgreinanlegt afurðarsniðmát.
-author: ShylaThompson
-manager: tfehr
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductListPage, EcoResProductDetails, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07922a20d5c99640f32bb28ddddaffe846440667
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7711d9832288327e700acd47fb30cce0c76e5e9a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258876"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568400"
 ---
 # <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a>Stofna nafnakerfi afurðarnúmers fyrir skilgreind afurðarafbrigði
 
@@ -28,79 +26,78 @@ ms.locfileid: "5258876"
 
 Þetta ferli sýnir hvernig á að setja inn nafnakerfi afurðarnúmers fyrir skilgreind afurðarafbrigði og hvernig hægt er að tengja það við skilgreinanlegt afurðarsniðmát. Þetta ferli sýnir einnig hvernig hægt er að byggja upp skilgreiningu nafnakerfis fyrir íhlut afbrigðalíkans afurðar. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Nýju afurðarnúmeri nafnakerfis er úthlutað á afurðarsniðmátið D0004. Þetta verk myndi yfirleitt vera framkvæmt af hálfu vöruhönnuðar.
 
-
 ## <a name="create-a-product-number-nomenclature"></a>Stofnaðu Nafnakerfi afurðarnúmers
-1. Smellið á Skilgreining afurðarafbrigðislíkans
-2. Smelltu á Nafnakerfi afurðar.
-3. Smellt er á Nýtt.
-4. Í reitinn Heiti skal slá inn gildi.
-5. Sláið inn gildi í reitnum „Lýsing“.
-6. Smelltu á Bæta við.
-7. Smelltu á Númer afurðarsniðmáts.
-8. Smelltu á Bæta við.
-9. Smelltu á Textafasta.
-10. Í listanum skal merkja valda línu.
-11. Í reitinn Texti skal slá inn gildi.
-12. Smelltu á Bæta við.
-13. Smelltu á Skilgreiningar.
-14. Lokið síðunni.
+
+1. Farið í **Afurðaupplýsingastjórnun \> Uppsetning \> Nafnakerfi afurðar**.
+1. Veljið **Nýtt**.
+1. Í reitinn **Heiti** skal slá inn gildi.
+1. Í reitinn **Lýsing** skal slá inn gildi.
+1. Veljið **Bæta við**.
+1. Veljið **Númer afurðarsniðmáts**.
+1. Veljið **Bæta við**.
+1. Veldu **Textafasta**.
+1. Í listanum skal merkja valda línu.
+1. Í reitnum **Texti** skal slá inn gildi.
+1. Veljið **Bæta við**.
+1. Veljið **Skilgreining**.
+1. Lokið síðunni.
 
 ## <a name="assign-the-product-number-nomenclature-to-a-product-master"></a>Úthlutaðu nafnakerfi afurðarnúmers á afurðarsniðmát
-1. Smelltu á Afurðarsniðmát.
-2. Nota flýtiafmörkun til að finna færslur Til dæmis, sía reitinn Vörunúmer með gildið ‚D'.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. Smella á Breyta.
-5. Velja skal Já í reitnum Nota nafnakerfi.
-6. Í reitnum Nafnakerfi afurðarafbrigðisnúmers skal færa inn eða velja gildi.
-7. Lokið síðunni.
-8. Lokið síðunni.
+
+1. Opna **upplýsingar um afurðastjórnun \> Afurðir \> Afurðarsniðmát**.
+1. Nota flýtiafmörkun til að finna færslur Til dæmis, sía reitinn **Vörunúmer** með gildið ‚D'.
+1. Í listanum skal velja tengilinn í valinni línu.
+1. Veljið **Breyta**.
+1. Veldu *Já* í reitnum **Nota nafnakerfi**.
+1. Í reitnum **Nafnakerfi afurðarafbrigðisnúmers** skal færa inn eða velja gildi.
+1. Lokið síðunni.
+1. Lokið síðunni.
 
 ## <a name="create-nomenclature-for-a-product-configuration-model-component"></a>Stofnaðu nafnakerfi fyrir íhlut afbrigðalíkans afurðar
-1. Smella á Afbrigðalíkan afurðar
-2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. Smella á Breyta.
-5. Velja skal Já í reitnum Nota nafnakerfi skilgreiningar.
-6. Smelltu á Bæta við.
-7. Smelltu á Eigindargildi.
-8. Í listanum skal merkja valda línu.
-9. Sláið inn eða veldu gildi í reitnum Eigind.
-10. Smelltu á Bæta við.
-11. Smelltu á Textafasta.
-12. Í listanum skal merkja valda línu.
-13. Í reitinn Texti skal slá inn gildi.
-14. Smelltu á Bæta við.
-15. Smelltu á Eigindargildi.
-16. Í listanum skal merkja valda línu.
-17. Sláið inn eða veldu gildi í reitnum Eigind.
-18. Smelltu á Bæta við.
-19. Smelltu á Textafasta.
-20. Í listanum skal merkja valda línu.
-21. Í reitinn Texti skal slá inn gildi.
-22. Smelltu á Bæta við.
-23. Smelltu á Eigindargildi.
-24. Í listanum skal merkja valda línu.
-25. Sláið inn eða veldu gildi í reitnum Eigind.
-26. Smelltu á Bæta við.
-27. Smelltu á Textafasta.
-28. Í listanum skal merkja valda línu.
-29. Í reitinn Texti skal slá inn gildi.
-30. Smelltu á Bæta við.
-31. Smelltu á Eigindargildi.
-32. Í listanum skal merkja valda línu.
-33. Sláið inn eða veldu gildi í reitnum Eigind.
-34. Smelltu á Bæta við.
-35. Smelltu á Textafasta.
-36. Í listanum skal merkja valda línu.
-37. Í reitinn Texti skal slá inn gildi.
-38. Smelltu á Bæta við.
-39. Smelltu á Gildi númeraraðar.
-40. Í listanum skal merkja valda línu.
-41. Sláið inn eða veldu gildi í reitnum Númeraröð.
-42. Lokið síðunni.
-43. Lokið síðunni.
-44. Lokið síðunni.
 
-
+1. Farið í **Afurðarupplýsingastjórnun \> Afurðir \> Afbrigðalíkön afurða**.
+1. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+1. Í listanum skal velja tengilinn í valinni línu.
+1. Veljið **Breyta**.
+1. Velja skal *Já* í reitnum **Nota nafnakerfi skilgreiningar**.
+1. Veljið **Bæta við**.
+1. Veljið **Eigindargildi**.
+1. Í listanum skal merkja valda línu.
+1. Sláið inn eða veldu gildi í reitnum **Eigind**.
+1. Veljið **Bæta við**.
+1. Veldu **Textafasta**.
+1. Í listanum skal merkja valda línu.
+1. Í reitnum **Texti** skal slá inn gildi.
+1. Veljið **Bæta við**.
+1. Veljið **Eigindargildi**.
+1. Í listanum skal merkja valda línu.
+1. Sláið inn eða veldu gildi í reitnum **Eigind**.
+1. Veljið **Bæta við**.
+1. Veldu **Textafasta**.
+1. Í listanum skal merkja valda línu.
+1. Í reitnum **Texti** skal slá inn gildi.
+1. Veljið **Bæta við**.
+1. Veljið **Eigindargildi**.
+1. Í listanum skal merkja valda línu.
+1. Sláið inn eða veldu gildi í reitnum **Eigind**.
+1. Veljið **Bæta við**.
+1. Veldu **Textafasta**.
+1. Í listanum skal merkja valda línu.
+1. Í reitnum **Texti** skal slá inn gildi.
+1. Veljið **Bæta við**.
+1. Veljið **Eigindargildi**.
+1. Í listanum skal merkja valda línu.
+1. Sláið inn eða veldu gildi í reitnum **Eigind**.
+1. Veljið **Bæta við**.
+1. Veldu **Textafasta**.
+1. Í listanum skal merkja valda línu.
+1. Í reitnum **Texti** skal slá inn gildi.
+1. Veljið **Bæta við**.
+1. Veljið **Gildi númeraraðar**.
+1. Í listanum skal merkja valda línu.
+1. Sláið inn eða veldu gildi í reitnum **Númeraröð**.
+1. Lokið síðunni.
+1. Lokið síðunni.
+1. Lokið síðunni.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

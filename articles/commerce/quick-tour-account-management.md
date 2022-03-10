@@ -1,12 +1,10 @@
 ---
 title: Yfirlit yfir síður fyrir stjórnun reikninga
-description: Þetta efni veitir yfirlit yfir reikningsstjórnunarsíður í Microsoft Dynamics 365 Commerce.
+description: Í þessu efnisatriði er að finna yfirlit yfir síður fyrir stjórnun reikninga í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e194004476545fb142f71aa4bd889dbbc70c6ed4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969852"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984520"
 ---
 # <a name="account-management-pages-overview"></a>Yfirlit yfir síður fyrir stjórnun reikninga
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni veitir yfirlit yfir reikningsstjórnunarsíður í Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Yfirlit
+Í þessu efnisatriði er að finna yfirlit yfir síður fyrir stjórnun reikninga í Microsoft Dynamics 365 Commerce.
 
 Reikningsstjórnunarsíður leyfa viðskiptavinum að skoða upplýsingar sem tengjast reikningi þeirra og pöntunum. Reikningsstjórnunarsíður innihalda lendingasíðu reikningsstjórnunar og síður fyrir notandaforstillingu, heimilisföng, pöntunarferil, pöntunarupplýsingar, vildarpunkta og óskalista.
 
@@ -39,7 +35,7 @@ Reikningsstjórnunarsíður leyfa viðskiptavinum að skoða upplýsingar sem te
 
 Eftirfarandi mynd sýnir dæmi um lendingarsíðu reikningsstjórnunar.
 
-![Sæmi um lendingasíðu fyrir stjórnun reikninga](./media/Account-Management.PNG)
+![Dæmi um lendingarsíðu fyrir stjórnun reikninga.](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>Forstillingarsíða mín
 
@@ -47,7 +43,7 @@ Síðan **Mínar forstillingar** sýnir reikningsupplýsingar viðskiptavinarins
 
 Eftirfarandi mynd sýnir dæmi um **Notandaupplýsingarnar mínar** sem var byggð á með einingarsafninu.
 
-![Dæmi um síðuna Mínar forstillingar](./media/Account-Management-MyProfile.PNG)
+![Dæmi um síðuna Mínar forstillingar.](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>Síðan Heimilisföng
 
@@ -55,7 +51,7 @@ Síðan **Heimilisföng** gerir viðskiptavininum kleift að bæta við netföng
 
 Eftirfarandi mynd sýnir dæmi um síðuna **Heimilisföng**.
 
-![Dæmi um síðuna Heimilisföng](./media/Account-Management-Address.png)
+![Dæmi um síðuna Heimilisföng.](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>Pöntunarferill og síður um pöntunarupplýsingar
 
@@ -63,11 +59,11 @@ Síðan **Pöntunarferill** sýnir yfirlit yfir allar pantanir sem viðskiptavin
 
 Eftirfarandi mynd sýnir dæmi um síðuna **Pöntunarferill**.
 
-![Dæmi um síðu pöntunarferils](./media/Account-Management-OrderHistory.PNG)
+![Dæmi um síðu pöntunarferils.](./media/Account-Management-OrderHistory.PNG)
 
 Eftirfarandi mynd sýnir dæmi um síðuna **Pöntunarupplýsingar**.
 
-![Dæmi um síðu pöntunarupplýsinga](./media/Account-Management-OrderDetails.PNG)
+![Dæmi um síðu pöntunarupplýsinga.](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>Síðan Vildarkerfi
 
@@ -75,7 +71,7 @@ Síðan **Vildaráætlun** gerir viðskiptavininum kleift að gerast aðili að 
 
 Eftirfarandi skýringarmynd sýnir dæmi um síðuna **Vildarkerfi**.
 
-![Dæmi um síðu vildarkerfis](./media/Account-Management-Loyalty.PNG)
+![Dæmi um síðu vildarkerfis.](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>Síða óskalista
 
@@ -83,7 +79,7 @@ Síðan **Óskalisti** sýnir lista yfir þá hluti sem viðskiptavinurinn hefur
 
 Eftirfarandi skýringarmynd sýnir dæmi um síðuna **Óskalisti**.
 
-![Dæmi um óskalistasíðu](./media/Account-Management-Wishlist.PNG)
+![Dæmi um óskalistasíðu.](./media/Account-Management-Wishlist.PNG)
 
 Nánari upplýsingar um reikningastjórnunareiningar og hvernig á að skrifa þær, sjá [Reikningsstjórnun](account-management.md).
 
@@ -95,3 +91,6 @@ Nánari upplýsingar um reikningastjórnunareiningar og hvernig á að skrifa þ
 
 [Yfirlit yfir síður körfu og greiðsluferlis](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

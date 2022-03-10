@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a26ee80eb52e40b60ace9b1494b3512d85f04cfe
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 880ed35a9780185836218a5c2a7addb2a47eabd737d6bec99794ecb7a0959791
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837874"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779279"
 ---
 # <a name="asset-fault-analysis"></a>Bilanagreining eignar
 
@@ -60,7 +60,7 @@ ms.locfileid: "5837874"
 - Bilanaskráningar hafa verið gerðar á þremur bilunareinkennum: „Loftleka“, „Sprungið öryggi“ og „Búnaður fastur“.  
 - Í dálknum **Líkindi %** leggjast allar prósentur saman að 100%. Líkindi eru byggð á öllum skráningum **Einkenna** í þessari bilagreiningu.
 
-![Mynd 1](media/06-controlling-and-reporting.png)
+![Mynd 1.](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>Flokka eftir einkennum og tímabili
 
@@ -69,7 +69,7 @@ ms.locfileid: "5837874"
 - Bilunareinkennin eru nú sýnd sem skráningar á ári/mánuði.  
 - Í dálknum **Líkindi %**, ef þú bætir við öllum prósentum fyrir hvern mánuð, leggjast þær saman upp að 100%. Líkindi eru byggð á skráningum **Einkenna** í þessari bilagreiningu. Ef þú ert með mikinn fjölda lína á eign, en hærri prósenta stendur upp úr á línu, þá væri það vísbending um bilunareinkenni til að skoða betur til að finna leið til að takmarka fjölda skráninga fyrir það bilunareinkenni.
 
-![Mynd 2](media/07-controlling-and-reporting.png)
+![Mynd 2.](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>Flokka eftir margfeldi einkenna og eigna
 
@@ -84,7 +84,7 @@ Almennt innihalda hnapparnir í **Flokka eftir dagsetningu**, **Flokka eftir eig
 - Bilunareinkennunum er nú skipt upp í samsetningarnar **Eignir** / **Gerð eigna** / **Einkenni**.  
 - Í dálknum **Líkindi %**, ef þú leggur saman allar prósentur fyrir samsetninguna **Eign** / **Eignagerð** / **Einkenni** í þessari röð verður útkoman 100%. Líkindi eru byggð á skráningum **Einkenna** í þessari bilagreiningu. Ef þú ert með mikinn fjölda lína á eign, en hærri prósenta stendur upp úr á línu, þá væri það vísbending um bilunareinkenni til að skoða betur til að finna leið til að takmarka fjölda skráninga fyrir það bilunareinkenni.
 
-![Mynd 3](media/08-controlling-and-reporting.png)
+![Mynd 3.](media/08-controlling-and-reporting.png)
 
 **Flokka eftir tveimur einkennum, eignum og eignategundum**
 
@@ -92,7 +92,7 @@ Almennt innihalda hnapparnir í **Flokka eftir dagsetningu**, **Flokka eftir eig
 
 - Í dálknum **Líkindi %**, ef þú leggur saman allar prósentur fyrir samsetninguna **Eign** / **Eignagerð** / **Einkenni** á eign verður útkoman 100%. Líkindi eru byggð á samsetningunni **Einkenni** og **Svæði** í þessari bilagreiningu. Ef þú ert með mikinn fjölda lína á eign, en hærri prósenta stendur upp úr á línu, þá væri það vísbending um bilunarsvæði til að skoða betur til að finna leið til að takmarka fjölda skráninga fyrir það bilunarsvæði.  
 
-![Mynd 4](media/09-controlling-and-reporting.png)
+![Mynd 4.](media/09-controlling-and-reporting.png)
 
 **Flokka eftir þremur einkennum, eignum og eignategundum**
 
@@ -100,7 +100,7 @@ Almennt innihalda hnapparnir í **Flokka eftir dagsetningu**, **Flokka eftir eig
  
 - Í dálknum **Líkindi %**, ef þú leggur saman allar prósentur fyrir samsetninguna **Eign** / **Eignagerð** / **Einkenni** á eign verður útkoman 100%. Líkindi eru byggð á samsetningunni **Einkenni**, **Svæði** og **Gerð** í þessari bilagreiningu. Ef þú ert með mikinn fjölda lína á eign, en hærri prósenta stendur upp úr á línu, þá væri það vísbending um bilunargerð til að skoða betur til að finna leið til að takmarka fjölda skráninga á þeirri bilunargerð.
 
-![Mynd 5](media/10-controlling-and-reporting.png)
+![Mynd 5.](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]

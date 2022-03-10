@@ -2,11 +2,9 @@
 title: Afstemma bankayfirlit með ítarlegri bankaafstemmingu
 description: Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Microsoft Dynamics 365 Finance. Þessi skrá útskýrir ferli afstemmingar.
 author: saraschi2
-manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95c216d59cb5eadb24aa0ca00ab53866d697e6c2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: fbfa999d2aaa4b6dad711bb57916a68fb37c57d9add09092783ad3a8d6450c1f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226462"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714449"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Afstemming bankayfirlits með ítarlegri bankaafstemmingu
 
@@ -30,8 +28,7 @@ ms.locfileid: "5226462"
 
 Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Dynamics 365 Finance. Þessi skrá útskýrir ferli afstemmingar.  
 
-<a name="import-an-electronic-bank-statement"></a>Flytja inn við rafræna bankayfirlit
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>Flytja inn við rafræna bankayfirlit
 
 Þú flytja inn bankayfirlit þitt með því að nota í **flytja Inn yfirlit** aðgerð á **Bankayfirlit** síðuna. Bankareikningurinn er auðkennd í bankayfirliti með samsetningu gilda sem stillt eru í upplýsingar bankareiknings. Þessi gildi hafa nafn banka, bankareikningsnúmer, leiðarnúmer, auðkenniskóði banka (SWIFT) , og alþjóðlegt bankareikningsnúmer (IBAN). 
 

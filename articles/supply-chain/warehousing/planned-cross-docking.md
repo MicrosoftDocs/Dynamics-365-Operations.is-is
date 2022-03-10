@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 11e044e04e05c68af676bf97e6085e9975da5c1d
-ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "5911249"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573034"
 ---
 # <a name="planned-cross-docking"></a>Áætluð dreifing frá dreifingarstöð
 
@@ -117,6 +117,9 @@ Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessu efnisatriði skal
     - **Raðnúmer:** *1*
     - **Birgðauppruni:** *Innkaupapöntun*
 
+> [!NOTE]
+> Hægt er að setja upp fyrirspurn til að stýra hvenær tiltekið sniðmát dreifingarstöðvar er notað. Fyrirspurnin fyrir sniðmát dreifingarstöðvar er aðeins með töfluna *InventTable* (vörur) og innri tengdu töfluna *WHSInventTable* (vörur vöruhúss). Ef þú vilt bæta öðrum töflum við fyrirspurnina geturðu tengt þær með því að nota aðeins *tengingar sem eru til* eða *tengingar sem eru ekki til*. Þegar þú síar sameinaðar töflur er færsla úr aðaltöflunni sótt fyrir hverja færslu samsvörunar í sameinaðri töflu. Ef gerð sameiningar er *tenging sem er til* hættir leitin eftir að fyrsta samsvörun hefur fundist. Ef þú til dæmis sameinar töflu sölupöntunarlínu við vörutöfluna gerir kerfið villuleit og skilar vörum þar sem a.m.k. ein sölupöntunarlína er með skilgreint skilyrði. Í meginatriðum eru gögnin sótt úr yfirtöflunni (vörutöflunni), ekki úr undirtöflunni (sölupöntunarlínu). Því er ekki hægt að gera tilbúna síun eftir upprunaskjölum á borð við sölupöntunarlínum eða viðskiptavinum.
+
 ### <a name="create-a-work-class"></a>Stofna vinnuklasa
 
 1. Fara í **Vöruhúsastjórnun \> Uppsetning \> Vinna \> Vinnuklasar**.
@@ -151,6 +154,9 @@ Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessu efnisatriði skal
     - **Auðkenni vinnuklasa:** *Dreifing frá dreifingarstöð*
 
 1. Veldu **Vista** og staðfestu að hakað sé í gátreitinn **Gilt** fyrir sniðmát *51 dreifingar frá dreifingarstöð*.
+1. Valfrjálst: Veldu **Breyta fyrirspurn** ef þú vilt stilla skilyrði til að stjórna því hvenær og hvar vinnusniðmátið er notað.
+
+    Hægt er að setja upp fyrirspurn til að stýra hvenær tiltekið vinnusniðmát er notað. Þú getur til dæmis tilgreint að aðeins sé hægt að nota sniðmát til að virka á ákveðinni staðsetningu. Ef þú vilt að vinnusniðmátið dreifingarstöðvar sé notað á ákveðinni staðsetningu þarftu að sía reitinn **Upphafsstaðsetning**, ekki reitinn **Staðsetning**, vegna þess að stofnun vinnu fyrir ferli á innleið (innkaup, dreifing og áfylling) hefst frá og með frágangslínunni. Þegar vinnan er búin til stillir staðsetningarleiðbeiningin reitinn **Staðsetning** á frágangsstaðsetninguna. Hinsvegar er staðsetning tiltektar geymd í reitnum **Upphafsstaðsetning**.
 
 > [!NOTE]
 > Vinnuklasakenni fyrir vinnugerðir *Tiltektar* og *Frágangs* verða að vera eins.
@@ -318,7 +324,7 @@ Sem stendur hafa bæði vinnuauðkennin sömu marknúmeraplötu. Til að ljúka 
 
 Eftirfarandi skýringarmynd sýnir hvernig vinna við dreifingu frá dreifingarstöð gæti birst í Microsoft Dynamics 365 Supply Chain Management.
 
-![Vinnu við dreifingu frá dreifingarstöð er lokið](media/PlannedCrossDockingWork.png "Vinnu við dreifingu frá dreifingarstöð er lokið")
+![Vinnu við dreifingu frá dreifingarstöð er lokið.](media/PlannedCrossDockingWork.png "Vinnu við dreifingu frá dreifingarstöð er lokið")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

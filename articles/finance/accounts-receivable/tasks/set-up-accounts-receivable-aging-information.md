@@ -1,27 +1,24 @@
 ---
 title: Setja upp og mynda aldursgreiningarupplýsingar fyrir viðskiptakröfur
 description: Þessari handbók hjálpar til við að setja upp skilgreiningu aldursgreiningar, greina aldur stöðu viðskiptavinar og skoða stöðu í á listanum aldursgreindar stöður og síðan Innheimtu.
-author: mikefalkner
-manager: AnnBe
+author: abruer
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustVendReportInterval, CustAgingSnapshot, CustCollectionsPoolsListPage, CustCollections
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 439be64a864056cc19fd156f664a4b90601be040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 996fb289c32a1819103fd67ffddc940dfd2870fb
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444400"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753561"
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>Setja upp og mynda aldursgreiningarupplýsingar fyrir viðskiptakröfur
 
@@ -59,3 +56,6 @@ ms.locfileid: "4444400"
 2. Velja skal viðskiptavin með stöðu.
 3. Útvíkka skal svæði **Aldursgreiningar** í upplýsingakassa til að skoða aldursgreindar stöður. Skilgreining aldurstímabils fyrir upplýsingakassann er tekið úr sjálfgefnu skilgreining aldurstímabils sem tilgreint er í færibreytum. Hægt er að breyta henni með því að nota valmyndina Innheimta.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

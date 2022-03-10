@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 4906fa0459c12594fe0473158784d4c929d8644413091a122808b57fd27c18af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778483"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103489"
 ---
 # <a name="location-product-dimension-mixing"></a>Blöndun á afurðarvídd staðsetningar
 
@@ -26,14 +26,11 @@ ms.locfileid: "6778483"
 
 Blöndun á afurðarvídd staðsetningar er staðsetningarforstilling sem hjálpar til við að bæta staðsetningarstjórnun þegar afurðarafbrigði eða afurðir með víddir eru notaðar, svo sem í tískuiðnaðinum. Það gerir þér kleift að ákveða hvort hægt sé að blanda stillingum, litum, stílum og stærðum fyrir tiltekna staðsetningarforstillingu, eða hvort hægt sé að setja eina af þessum víddum eða samsetningu þeirra á sömu staðsetninguna.
 
-## <a name="turn-on-the-location-product-dimension-mixing-feature"></a>Kveikja á eiginleika blöndunar á afurðarvídd staðsetningar
+## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Kveiktu eða slökktu á eiginleikanum fyrir blöndun staðsetningarvöruvíddar
 
-Áður en þú getur notað blöndun á afurðarvídd staðsetningar verður að kveikja á eiginleikanum í kerfinu þínu. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
+Til að nota virknina sem lýst er í þessu efni, er *Staðsetning vöruvíddarblöndun* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Staðsetning vöruvíddarblöndun* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Blöndun á afurðarvídd staðsetningar*
-
-## <a name="setup"></a>Setja upp
+## <a name="setup"></a>Uppsetning
 
 Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu tengda sem lýsir eiginleikum staðsetningar. Þess vegna verður hægt að blanda vöruvídd allra staðsetningar sem nota sömu staðsetningarforstillingu eftir að hún hefur verið sett upp.
 

@@ -2,11 +2,9 @@
 title: endurmat á erlendum gjaldmiðli fyrir fjárhag
 description: 'Í þessu efnisatriði gefur yfirlit yfir eftirfarandi ferli endurmat á erlendum gjaldmiðli fjárhags: uppsetningu keyra ferlið útreikning fyrir ferli og hvernig á að bakfæra færslur endurmat, ef þörf krefur.'
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7433c6753b612a9721917c036a8b36b7e3165177
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.openlocfilehash: 49f724eb31904c7fd745864c9d71f401a4d539e29b5ff01814334adf6f0ebc37
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249264"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771657"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>endurmat á erlendum gjaldmiðli fyrir fjárhag
 
@@ -83,7 +81,7 @@ Aðallykill er endurmetinn 31. Janúar.  Óinnleystur hagnaður/tap er reiknuð 
 
 | Núverandi staða í færslugjaldmiðli | Núverandi staða í bókhaldsgjaldmiðli | Gengi við endurmati | ný Upphæð í bókhaldsgjaldmiðli | Óinnleystur hagnaður/tap    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 EUR                                     | 1000 USD                                   | 166.6667                         | 833.33 EUR (500 x 1.666667)        | 166.67 tap (833.33 – 1000) |
+| 500 EUR                                     | 1000 USD                                   | 166.6667                         | 833.33 USD (500 x 1.666667)        | 166.67 tap (833.33 – 1000) |
 
 Eftirfarandi lykilfærslu er stofnuð.
 

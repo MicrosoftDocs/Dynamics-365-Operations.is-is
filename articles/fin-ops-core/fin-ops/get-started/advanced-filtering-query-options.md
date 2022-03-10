@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdb55a9552759e5f2b670a4eeb4e5d6572ebfb77
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
-ms.translationtype: HT
+ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744100"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070010"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Ítarleg sía og málskipan fyrirspurna
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Þetta efni lýsir síunar- og fyrirspurnarmöguleikum sem eru tiltækar þegar þú notar svargluggann fyrir sía/raða ítarlega eða **samsvörunar**-virknitáknið á síusvæðinu eða síur fyrir dálkhaus hnitanets.
 
@@ -119,9 +122,9 @@ ms.locfileid: "5744100"
 <td>Tvær tvöföldar tilvitnanir í röð (<strong>""</strong>) finna línur án gildis fyrir núverandi dálk.</td>
 </tr>
 <tr>
-<td>(<span class="code">Finance and Operations fyrirspurn</span>) (Finance and Operations fyrirspurn milli sviga)</td>
+<td>(<span class="code">Fyrirspurn um fjármál og rekstur</span>) (Fjárhags- og rekstrarfyrirspurn milli sviga)</td>
 <td>Samsvarar tilgreindri fyrirspurn</td>
-<td>Sláðu inn fyrirspurn sem SQL staðhæfingu milli sviga með því að nota Finance and Operations fyrirspurnarmál.</td>
+<td>Sláðu inn fyrirspurn sem SQL staðhæfingu á milli sviga með því að nota Finance and Operations fyrirspurnartungumálið.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        Sem dæmi um málskipan fyrir síuaðstæður á reit frá gagnagrunni rótarinnar sem og reit frá öðrum gagnagrunna (fyrir síðuna Allir viðskiptavinir)</td>
 </tr>

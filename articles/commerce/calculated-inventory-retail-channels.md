@@ -2,7 +2,7 @@
 title: Reikna tiltækar birgðir fyrir smásölurásir
 description: Þetta efnisatriði lýsir því hvernig fyrirtæki geta notað Microsoft Dynamics 365 Commerce til að skoða áætlað birgðaframboð fyrir afurðir í net- og í verslunarrásum.
 author: hhainesms
-ms.date: 04/23/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fdf6df7e393bcc401e770bd1b8afcaedcadc2660
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
-ms.translationtype: HT
+ms.openlocfilehash: 1b1e0ea264dd74f6583d3b7fd3ecce551c73fbae
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937435"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674676"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Reikna tiltækar birgðir fyrir smásölurásir
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Þetta efnisatriði lýsir því hvernig fyrirtæki geta notað Microsoft Dynamics 365 Commerce til að skoða áætlað birgðaframboð fyrir afurðir í net- og í verslunarrásum.
 
@@ -44,6 +43,21 @@ Eftirfarandi birgðabreytingar eru sem stendur teknar til greina í reiknireglu 
 - Birgðir seldar í gegnum pantanir viðskiptavina í verslun eða netrás
 - Birgðum skilað í verslun
 - Birgðir uppfylltar (sækja, pakka, senda) hjá vöruhúsi verslunar
+
+Til að nota birgðaútreikning rásar þarftu að virkja eiginleikann **Útreikningur á ákjósanlegu vöruframboði**.
+
+Ef Commerce-umhverfið þitt er í útgáfu **10.0.8 til 10.0.11** skaltu fylgja þessum skrefum.
+
+1. Í Commerce Headquarters skal fara í **Smásala og viðskipti** \> **Samnýttar viðskiptafæribreytur**.
+1. Í flipanum **Birgðir**, í reitnum **Vinnsla vöruframboðs**, skal velja **Nota fínstillt ferli fyrir vinnslu vöruframboðs**.
+
+Ef Commerce-umhverfið þitt er í útgáfu **10.0.12 eða nýrri** skaltu fylgja þessum skrefum.
+
+1. Í Commerce Headquarters skal fara í **Vinnusvæði \> Eiginleikastjórnun** og virkja eiginleikann **Útreikningur á ákjósanlegu vöruframboði**.
+1. Ef net- og verslunarrásir nota sömu vöruhús vegna uppfyllingar þarf einnig að virkja eiginleikann **Bætt regla birgðaútreiknings í rás rafrænna viðskipta**. Þannig mun regla rásar varðandi útreikningar taka tillit til óbókaðra færslna sem eru stofnaðar í rás verslunar. (Þessar færslur geta verið staðgreiðslufærslur, viðskiptavinafærslur og skil.)
+1. Keyrðu vinnsluna **1070** (**Stilling rásar**).
+
+Ef Commerce-umhverfið þitt var uppfært úr útgáfu sem er eldri en útgáfa 10.0.8 af Commerce, þarftu eftir að hafa virkjað eiginleikann **Útreikningur á ákjósanlegu vöruframboði** einnig að keyra **Frumstilla verkraðara viðskipta** svo eiginleikinn taki gildi. Til að keyra frumstillinguna skal fara í **Smásala og viðskipti** \> **Uppsetning höfuðstöðva** \> **Commerce-verkraðari**.
 
 Til að nota birgðaútreikning rásarmegin er sett skilyrði um að það þurfi að senda reglubundna skyndimynd af birgðagögnum úr höfuðstöðvum, sem vinnslan **Afurðaframboð** stofnar, til gagnagrunna rása. Skyndimyndin táknar upplýsingarnar sem Headquarters hafa um framboð birgða fyrir ákveðna samsetningu afurðar eða afurðaafbrigða og vörugeymsla. Hún inniheldur aðeins birgðafærslur sem voru unnar og birtar í höfuðstöðvum á þeim tíma þegar skyndimyndin var tekin og hún er hugsanlega ekki 100 prósent nákvæm í rauntíma vegna stöðugrar úrvinnslu á sölu sem gerist á dreifðum þjónum.
 
@@ -76,8 +90,6 @@ Bæði API nota útreikningsreglu rásarmegin og skila áætluðu **tiltæku rau
 
 Þrátt fyrir að önnur API sem eru fáanleg Commerce geti farið beint í höfuðstöðvar til að sækja lagermagn af afurðum, mælum við ekki með að þau séu notuð í rafrænu viðskiptaumhverfi vegna hugsanlegra vandamál með afköst og áhrifa sem þessar tíðu beiðnir geta haft á netþjóna höfuðstöðva. Auk þess, með útreikning rásarmegin, geta bæði API hér að ofan gefið upp nákvæmara mat á afurðaframboði með því að taka til greina færslurnar sem eru búnar til í rásunum sem höfuðstöðvarnar vita ekki af.
 
-Til að nota þessi tvö API þarf að virkja eiginleikann **Fínstilltur útreikningur á framboði afurðar** í gegnum vinnusvæðið **Eiginleikastjórnun** í höfuðstöðvum. Ef net- og verslunarrásir nota sömu vöruhús vegna uppfyllingar þarf einnig að virkja eiginleikann **Bætt regla birgðaútreiknings í rás rafrænna viðskipta** til að útreikningsregla rásarmegin innan beggja API taki til greina óbókaðar færslur (staðgreiðslur, pantanir viðskiptavinar, skil) sem eru stofnaðar í rás verslunar. Keyra þarf vinnsluna **1070** (**Skilgreining rásar**) þegar búið er að virkja þessa eiginleika.
-
 Til að skilgreina hvernig skila á afurðarmagni í úttaki API skal fylgja þessum skrefum.
 
 1. Opnið **Smásala og viðskipti \> Uppsetning höfuðstöðva \> færibreytur \> Viðskiptafæribreytur**.
@@ -106,7 +118,7 @@ Einingarnar kaupgluggi, verslunarval, óskalisti, karfa og körfutákn í Commer
 
 Þegar útreikningur rásarhliða er rétt stilltur og stjórnað á réttan hátt getur það gefið áreiðanlegra mat á núverandi birgðum verslunar, vegna þess að hann notar viðskiptagögnin sem eru í gagnagrunni Commerce-rásar, en Headquarters hafa ef til vill ekki ennþá upplýsingar um það. Til dæmis, ef þú notar núverandi rauntíma þjónustukall til að leita að birgðum í POS, mun Headquarters líklega ekki enn hafa upplýsingar um reiðufé og sölu sem bara átti sér stað fyrir vöru. Þess vegna mun verðmæti lagerbirgða sem Headquarters skilar fyrir þá afurð líklega fara yfir raunverulegar lagerbirgðir verslunarinnar um eina einingu. Hins vegar, ef þú notar útreikninga í rásinni er hægt að færa sölu í reiðufé inn í útreikninginn og draga frá því lagervirði sem er sýnt. Þrátt fyrir að gildin sem bæði útreikningur í rásinni og rauntíma þjónustukall veitir séu aðeins mat á lagerbirgðum er mun líklegra að gildið sem útreikningur í rásinni veitir sé rétt fyrir núverandi verslun.
 
-Til að skilgreina sölustaðaraðgerðina **Birgðauppfletting** í höfuðstöðvum til að nota reikniaðgerð rásar og slökkva á þjónustuköllum í rauntíma skal fylgja þessum skrefum.
+Til að skilgreina aðgerðina **Birgðauppfletting** á sölustað í Commerce Headquarters til að nota útreikningsreglu rásar og slökkva á símtölum í rauntímaþjónustu þarf fyrst að virkja eiginleikann **Fínstilltur útreikningur á framboði afurðar** á vinnusvæðinu **Eiginleikastjórnun** í Commerce Headquarters og síðan fylgja þessum skrefum.
 
 1. Farðu í **Retail og Commerce \> Uppsetning rásar \> Uppsetning sölustaðar \> Forstillingar sölustaðar \> Virknireglur**.
 1. Veldu virkniforstillingu.
@@ -137,6 +149,5 @@ Til að tryggja besta mögulega mat á birgðum er mikilvægt að þú notir eft
 > - Af frammistöðuástæðum, þegar útreikningar á birgðahlið framboðs eru notaðir til að leggja fram beiðni um birgðaaðstoð með því að nota API fyrir e-Commerce eða POS birgðastöðvar við hlið rásar, notar útreikningurinn skyndiminni til að ákvarða hvort nægur tími hafi liðið til að réttlæta að keyra útreikninga rökfræðinnar aftur. Sjálfgefið skyndiminni er stillt á 60 sekúndur. Til dæmis kveiktir þú á útreikningi á rásarhlið fyrir verslunina þína og skoðaðir lagerbirgðir fyrir vöru á síðunni **Birgðauppfletting**. Ef ein eining vörunnar er síðan seld, mun síðan **Birgðauppfletting** ekki sýna minnkaðan lager fyrr en skyndiminni hefur verið hreinsað. Eftir að notendur bókað færslur í POS ættu þeir að bíða í 60 sekúndur áður en þeir staðfesta að lagerbirgðir hafi verið skertar.
 
 Ef viðskiptasvið þitt þarfnast minni skyndiminnistíma skaltu hafa samband við stuðningsfulltrúa þinn til að fá hjálp.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

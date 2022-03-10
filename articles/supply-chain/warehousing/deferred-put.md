@@ -1,7 +1,7 @@
 ---
 title: Frestuð vinnsla vöruhúsavinnu
 description: Þetta efnisatriði lýsir virkni sem gerir frestaða vinnslu vörugeymsluaðgerða tiltæka í Dynamics 365 Supply Chain Management.
-author: josaw1
+author: Mirzaab
 ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: perlynne
+ms.author: mirzaab
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dad97e13624449d287ded74e7e25f94eb0dbde3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838323"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577865"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Frestuð vinnsla vöruhúsavinnu
 
@@ -28,7 +28,7 @@ ms.locfileid: "5838323"
 
 Frestuð vinnsluvirkni gerir vöruhússtarfsmönnum kleift að halda áfram að vinna önnur verk meðan aðgerðin er unnin í bakgrunni. Frestuð vinnsla er gagnleg þegar vinna þarf margar vinnulínur og starfsmaðurinn getur látið vinna þá vinnu ósamstillta. Það er einnig gagnlegt þegar netþjónninn getur haft tilfallandi eða óáætlaða aukningu á vinnslutíma og aukinn vinnslutími getur haft áhrif á framleiðni notandans.
 
-Bakgrunnsvinnslu er náð með því að nota SysOperation ramma. Frekari upplýsingar eru í [Yfirlit yfir SysOperation-ramma](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview).
+Bakgrunnsvinnslu er náð með því að nota SysOperation ramma. Frekari upplýsingar eru í [Yfirlit yfir SysOperation-ramma](/dynamicsax-2012/developer/sysoperation-framework-overview).
 
 ## <a name="configuring-the-work-processing-policies"></a>Stilla vinnsluskilmála vinnu
 
@@ -108,5 +108,8 @@ Vinnusvæðið **Vöktun á útleið** hefur tvo reiti sem hjálpa þér að fyl
 
 Þú getur eytt frestuðum verkefnavinnu sem lokið hefur verið með því að velja þau og eyða þeim á síðunni.
 
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+- [Frestun á úrvinnslu handvirkrar aðgerðar birgðahreyfingar](deferred-processing-manual-inventory-movement.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

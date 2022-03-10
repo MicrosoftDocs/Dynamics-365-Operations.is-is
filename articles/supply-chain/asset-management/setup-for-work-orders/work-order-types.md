@@ -1,29 +1,26 @@
 ---
 title: Gerðir verkbeiðni
 description: Þetta efni útskýrir gerðir verkbeiðna í eignastýringu.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetWorkOrderType
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b8e43908e3f13c9e4fd6fab6f1e17a171866b803
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: d77effbfe329a449318d6942918245917f22cdc23defadcb5e85f02c6c786f6d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430437"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754729"
 ---
 # <a name="work-order-types"></a>Gerðir verkbeiðni
 
@@ -49,6 +46,9 @@ Nánari upplýsingar um líftímastöður verkbeiðna og verkefnastig, sjá [Lí
     > [!NOTE]
     > Valkostirnir í hlutanum **Skylda** tengjast valkostunum á flýtiflipanum **Staðfesta** á síðunni **Líftími verkbeiðna** (**Eignastýring** \> **Uppsetning** \> **Verkbeiðnir** \> **Líftímastöður**).
 
-8. Veljið **Vista**.
+8. Veldu **Vista**.
 
-![Gerðir verkbeiðni](media/16-setup-for-work-orders.png)
+![Verkbeiðnigerðir.](media/16-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

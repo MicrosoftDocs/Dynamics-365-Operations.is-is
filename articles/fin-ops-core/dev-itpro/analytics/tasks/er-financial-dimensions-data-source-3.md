@@ -2,11 +2,9 @@
 title: Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 3 - hanna skýrslu)
 description: Þetta efni útskýrir hvernig á að skilgreina líkan rafrænnar skýrslugerðar til að nota fjárhagsvíddir sem gagnagjafa fyrir skýrslur rafrænnar skýrslugerðar. (Hluti 3)
 author: NickSelin
-manager: AnnBe
 ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b0d6da96850e04d5e975b3febbfae2737c8a86af
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
-ms.translationtype: HT
+ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5092301"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605186"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 3 - hanna skýrslu)
 
@@ -94,7 +92,7 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 59. Smella á Bæta við eigind.
 60. Í svæðið Heiti, færðu inn 'lýsing'.
 61. Smellt er á Í lagi.
-![Síða aðgerðarhönnuðar rafrænnar skýrslugerðar](../media/er-financial-dimensions-guides-format1.png)
+![Síðutré sniðshönnuðar.](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Varpa skýrslueiningum í gagnagjafa
 1. Smelltu á flipann Vörpun.
@@ -143,5 +141,8 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 44. Smelltu á Binda.
 45. Smelltu á Vista.
 46. Lokið síðunni.
-![Síða aðgerðarhönnuðar rafrænnar skýrslugerðar](../media/er-financial-dimensions-guides-format2.png)
+![Síða sniðshönnuðar, skýrsluþáttum varpað í gagnagjafa.](../media/er-financial-dimensions-guides-format2.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

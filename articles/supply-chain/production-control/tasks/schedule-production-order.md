@@ -2,11 +2,9 @@
 title: Áætla framleiðslupöntun
 description: Þessi verklýsing sýnir hvernig á að raða framleiðslupöntun.
 author: johanhoffmann
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob, WrkCtrCapResSum, ProdRouteJobSched, ProductionOrderScheduleDetails
 audience: Application User
@@ -15,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 93ec5bd6984dd1a8f970834070fd77873078b3b0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 43d183764def1b1bea7bbe140c25e0eec0b692b1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237132"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580577"
 ---
 # <a name="schedule-a-production-order"></a>Áætla framleiðslupöntun
 

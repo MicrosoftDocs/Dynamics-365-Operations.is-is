@@ -1,30 +1,27 @@
 ---
 title: Fyrirspurnir og skýrslur um hættuleg efni
 description: Þetta efnisatriði útskýrir hvernig á að vinna með ýmsar skýrslur sem tengjast hættulegum efnum. Margar þessara skýrslna eru nauðsynlegar svo að þú fylgir ýmsum reglugerðum varðandi hættuleg efni við sendingu og geymslu.
-author: dasani-madipalli
-manager: tfehr
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: cee824e9e8f7577d1d4a6c0a21c7341608e1f588
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243130"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568544"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Fyrirspurnir og skýrslur um hættuleg efni
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management býður upp á ýmsar skýrslur sem tengjast hættulegum efnum. Margar þessara skýrslna eru nauðsynlegar svo að þú fylgir ýmsum reglugerðum varðandi hættuleg efni við sendingu og geymslu.
 
@@ -32,7 +29,7 @@ Allar þessar skýrslur, nema skýrslan **Fjölþættur hættulegur varningur**,
 
 Eftirfarandi mynd sýnir röð verkþátta sem eiga sér stað þegar kerfið myndar skýrslur fyrir hættuleg efni.
 
-![Röð verkþátta fyrir skýrslur fyrir hættuleg efni](media/hazmat-report-sequence.png "Röð verkþátta fyrir skýrslur fyrir hættuleg efni")
+![Röð verkþátta fyrir skýrslur fyrir hættuleg efni.](media/hazmat-report-sequence.png "Röð verkþátta fyrir skýrslur fyrir hættuleg efni")
 
 ## <a name="set-up-hazardous-materials-reporting"></a><a name="set-up"></a>Setja upp skýrslur fyrir hættuleg efni
 

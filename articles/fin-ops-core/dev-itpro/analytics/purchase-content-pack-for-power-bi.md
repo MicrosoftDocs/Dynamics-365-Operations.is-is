@@ -2,11 +2,9 @@
 title: Eyðslugreining innkaupa Power BI efni
 description: Þetta efnisatriði lýsir því hvað er innifalið í efnispakka eyðslugreiningar fyrir Power BI.
 author: FrankDahl
-manager: AnnBe
 ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: PurchaseSpendAnalysisPowerBI
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5914abaafab509e278d7a85441928feddb0b5164
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
-ms.translationtype: HT
+ms.openlocfilehash: a40d4f39a7119def9ed0393d4ced2be1f7e801a5c1c3f984b002e5224299915a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093443"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716113"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Eyðslugreining innkaupa Power BI efni
 
@@ -154,3 +152,6 @@ Eftirfarandi lykilvíddir í efnispakkanum eru notaðar sem síur til að sneið
 | Dagsetningar                  | Dagsetningar, Mótbókun árs                                    |
 
 Sjálfgefið er að efnispakkinn sýni gögn fyrir núgildandi almanaksár. Hins vegar er hægt að breyta dagsetningasíunni í síuhluta skýrslu. Einnig er hægt að breyta síu fyrirtækisins.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

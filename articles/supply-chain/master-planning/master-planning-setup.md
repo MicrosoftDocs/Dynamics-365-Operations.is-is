@@ -1,7 +1,7 @@
 ---
 title: Setja upp aðaláætlanagerð
 description: Þetta efni lýsir ýmsum mikilvægum áætlunum og breytum sem eru notaðar til að setja upp aðaláætlanagerð.
-author: t-benebo
+author: ChristianRytt
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fe7ff2ab877182dd3145e39574aa7229c48b6057
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
-ms.translationtype: HT
+ms.openlocfilehash: 6d33fd53dd088ae4c6b4680d2604f783a3e1a5a0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833402"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580721"
 ---
 # <a name="set-up-master-planning"></a>Setja upp aðaláætlanagerð
 
@@ -106,11 +106,11 @@ Fyrir hverja áætlun þarftu fyrir hverja áætlun að velja þá röðunaraðf
 
 ### <a name="operations-scheduling"></a>Aðgerðaröðun
 
-Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma. Aðgerðaröðun brýtur ekki aðgerðir fyrir framleiðsluleið niður í vinnslur. Nánari upplýsingar um rekstraráætlun er að finna í [Aðerðaröðun](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
+Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma. Aðgerðaröðun brýtur ekki aðgerðir fyrir framleiðsluleið niður í vinnslur. Nánari upplýsingar um rekstraráætlun er að finna í [Aðerðaröðun](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
 
 ### <a name="job-scheduling"></a>Vinnsluröðun
 
-Vinnsluröðun er nákvæmari röðunaraðferð, þar sem hverri aðgerð er skipt í niður í einstaka verkefni eða störf. Vinnsluröðun inniheldur upplýsingar um getu. Hún er yfirleitt notuð til að raða einstaka vinnslu í vinnusal og fyrir tímamörk sem eru undireins eða til stutts tíma. Nánari upplýsingar um vinnsluröðun er að finna í [Vinnsluröðun](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Vinnsluröðun er nákvæmari röðunaraðferð, þar sem hverri aðgerð er skipt í niður í einstaka verkefni eða störf. Vinnsluröðun inniheldur upplýsingar um getu. Hún er yfirleitt notuð til að raða einstaka vinnslu í vinnusal og fyrir tímamörk sem eru undireins eða til stutts tíma. Nánari upplýsingar um vinnsluröðun er að finna í [Vinnsluröðun](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="time-fences-in-days"></a>Tímamörk í dögum
 
@@ -158,7 +158,7 @@ Aðgerðaboð leggja til breytingar sem hægt er að gera á núverandi birgðap
 
 Með því að stilla valkostinn **Aðgerðaboð** á **Já** geturðu hnekkt tímamörkum aðgerðaboða sem eru skilgreind fyrir vöruna á meðan röðun stendur. Í þessu tilfelli skal færa inn fjölda þeirra daga þegar aðalröðun ætti að mynda aðgerðaboð fyrir þarfir. Tímamörk aðgerðaboða eru framreiknuð frá gildandi dagsetningu.
 
-Nánari upplýsingar um aðgerðaboð eru í [Aðgerðaboð](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
+Nánari upplýsingar um aðgerðaboð eru í [Aðgerðaboð](/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
 
 > [!NOTE]
 > Útreikningur á aðgerðaboðum veldur lengri tíma keyrslutíma á aðaláætlunargerð. Ef aðgerðaboð eru ekki reglulega greind og beitt (daglega, vikulega og svo framvegis) skaltu íhuga að slökkva á útreikningi meðan á keyrslu aðaláætlunargerðar stendur. Til að slökkva á útreikningi skaltu á síðunni **Aðaláætlanir** stilla tímamörkin **Aðgerðaboð** á **0** (núll) fyrir aðaláætlunina sem þú ert að keyra. Gakktu einnig úr skugga um að slökkt sé á stillingunni **Aðgerðaboð** í öllum þekjuflokkunum.
@@ -223,7 +223,7 @@ Afhendingartími + Neikvæðir dagar + Núverandi dags. – Þarfadags.
 
 Kerfið notar aðeins áætlaðar birgðapantanir sem eru innan þessa tímabils og það stofnar nýja áætlaða pöntun utan þess. Kosturinn við kvika neikvæða daga er að þeir munu innihalda staka afhendingartíma, til að endurnota fyrirliggjandi pantanir og forðast stofnun á nýjum áætluðum pöntunum sem munu enda með síðari dag vegna tafa sem stafa af afhendingartíma. 
 
-Nánari upplýsingar er að finna í [Neikvæðir dagar og kvikir neikvæðir dagar](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+Nánari upplýsingar er að finna í [Neikvæðir dagar og kvikir neikvæðir dagar](/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

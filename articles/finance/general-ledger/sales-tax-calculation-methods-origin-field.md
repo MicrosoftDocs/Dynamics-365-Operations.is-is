@@ -2,28 +2,25 @@
 title: Útreikningsaðferðir virðisaukaskatts í reitnum Uppruni
 description: Þessi grein útskýrir valkosti á svæðinu Uppruni á síðunni vsk-kóðar og hvernig virðisaukaskattur er reiknaður á grundvelli þeirra valkosta sem ákveðnir eru fyrir virðisaukaskattskóða.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0eb3671051d9a3be9430050e2a0ad4227b17677e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 9ac37858c68996c6c8140303327003d93bd357b512f9c634650b7e9df1284496
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444389"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769747"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Útreikningsaðferðir virðisaukaskatts í reitnum Uppruni
 
@@ -55,8 +52,7 @@ Ef nettóupphæðin er 10,00 þá er Gjald 1 1,00 (10,00 x 10%) og Gjald 2 2,00 
 | Aðeins er hægt að nota einn VSK-kóða með Uppruna = Prósenta af brúttóupphæð fyrir færslu. Ef fleiri en einn slíkur skattkóði er ákvarðaður fyrir færslu birtist villa um að ekki sé hægt að reikna út virðisaukaskatt. |
 
 
-<a name="percentage-of-sales-tax"></a>Prósenta af VSK
------------------------
+## <a name="percentage-of-sales-tax"></a>Prósenta af VSK
 
 Þegar Prósenta af virðisaukaskatti er valin í reitnum Uppruni er virðisaukaskattur reiknaður sem prósenta af virðisaukaskatti sem valinn er í reitnum VSK á VSK. Virðisaukaskattur sem er valinn í reitnum VSK á VSK er reiknaður fyrst. Seinni virðisaukaskatturinn er síðan reiknaður á grunni fyrri virðisaukaskattsins.
 ### <a name="example"></a>Dæmi
@@ -122,8 +118,7 @@ Skjal / færslubók er stillt á Upphæðir með virðisaukaskatti = Nei Færslu
 
 
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Virðisaukaskattur byggður á jaðargrunns- og útreikningsaðferðum](marginal-base-field.md)
 
@@ -131,3 +126,6 @@ Skjal / færslubók er stillt á Upphæðir með virðisaukaskatti = Nei Færslu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

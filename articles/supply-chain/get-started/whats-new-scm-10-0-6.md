@@ -1,28 +1,25 @@
 ---
 title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.6. (nóvember 2019)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.6.
-author: josaw1
-manager: tfehr
+author: kamaybac
 ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: josaw
+ms.author: kamaybac
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 9ee25036488d2f7f24c1691d36239f3f34caf0cb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
-ms.translationtype: HT
+ms.openlocfilehash: 87bcda25b89135e052a5a883b816ea0bb430479a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430382"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568904"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1006-november-2019"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.6. (nóvember 2019)
 
@@ -59,7 +56,7 @@ Microsoft Dynamics 365 Supply Chain Management 10.0.6 inniheldur verkvangsuppfæ
 ### <a name="dynamics-365-2019-release-wave-2-plan"></a>Dynamics 365: 2019 útgáfa bylgja 2 áætlun
 Ertu að velta fyrir þér væntanlegum og nýlega útgefnum möguleikum í einhverjum af viðskiptaforritum eða verkvangi okkar?
 
-Skoðaðu [Dynamics 365: 2019 útgáfu bylgju 2 áætlun](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/). Við höfum tekið saman öll smáatriðin í eitt skjal sem hægt er að nota við áætlanagerð.
+Skoðaðu [Dynamics 365: 2019 útgáfu bylgju 2 áætlun](/dynamics365-release-plan/2019wave2/). Við höfum tekið saman öll smáatriðin í eitt skjal sem hægt er að nota við áætlanagerð.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fjarlægðir og úreltir eiginleikar Supply Chain Management
 
@@ -71,3 +68,6 @@ Efnið [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Mana
 Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um afskriftir tilkynnt í efninu [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mánuðum fyrir fjarlægingu.
 
 Til að brjóta breytingar sem hafa aðeins áhrif á samantektartíma, en eru tvöfaldar samhæfðir við sandkassa og framleiðsluumhverfi, verður afskriftartíminn innan við 12 mánuði. Venjulega eru þetta hagnýtar uppfærslur sem þarf að gera við þýðandann.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

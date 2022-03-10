@@ -2,26 +2,23 @@
 title: Eigendur afurða
 description: Þetta efnisatriði gefur upplýsingar um eigendur afurða. Eigendur afurða er hópur notenda sem ber ábyrgð á tilteknum afurðum. Aðeins meðlimir í hópnum geta losað þessar afurðir. Einnig er hægt að nota Eigendur afurða í samþykktarverkflæðinu.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductOwner
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4308020d66995d857e547be47216cb82caacf035
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
-ms.translationtype: HT
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: a29ab169e9b24826fbe69fbc316040d4618750ee
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4430782"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567512"
 ---
 # <a name="product-owners"></a>Eigendur afurða
 
@@ -61,3 +58,6 @@ Til dæmis er afurð X úthlutað á afurðareigendahópinn *Hanna skápa*. Afur
 ## <a name="product-owners-and-approvals"></a>Eigendur afurða og samþykktir
 
 Vegna þess að afurðareigendur vita hvort tilteknar hönnunarbreytingar muni koma sér vel fyrir þeirra afurð er oft skynsamlegt að taka þær með sem hluta af samþykktarferlinu í umsjón hönnunarbreytinga. Hægt er að innleiða þessa nálgun með því að setja upp vörueigendur sem þátttakanda í verkflæðinu sem er notað fyrir umsjón hönnunarbreytinga. Kerfið mun þá úthluta samþykktarverkefnum í verkflæði, byggt á þeim afurðum sem eru í stjórnunarbeiðnum og beiðnum um hönnunarbreytingar. Frekari upplýsingar eru í [Umsjón hönnunarbreytinga](engineering-change-management.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

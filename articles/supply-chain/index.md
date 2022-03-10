@@ -2,25 +2,25 @@
 title: Heimasíða „Supply Chain Management“
 description: Á þessari síðu er að finna skrá yfir hjálparatriði og önnur tilföng fyrir eiginleika Supply Chain Management.
 author: kamaybac
-ms.date: 01/08/2021
+ms.date: 09/15/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e8b92dc975fdae74e134d86169a2b9ceffe63b62
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909792"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487865"
 ---
 # <a name="supply-chain-management-home-page"></a>Heimasíða „Supply Chain Management“
 
@@ -62,7 +62,6 @@ Upplýsingar um Dynamics 365 Finance fást á [Finance heimasíðunni](../financ
 
 Í þessum stuttu myndböndum eru teknir saman nýir eiginleikar stjórnunar aðfangakeðju sem bætt var við Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 (apríl 2017).
 
-- [PTC-samþætting](https://youtu.be/AVV9x5x-XCg) 
 - [Fínstillingarráðgjöf](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Notaðu sniðmát vöruhúss til að afrita skilgreiningu](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
@@ -81,7 +80,7 @@ Upplýsingar um Dynamics 365 Finance fást á [Finance heimasíðunni](../financ
 - **Aðaláætlanagerð:**
   - [Framlengja virkni eftirspurnarspár](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
   - [Áætlanagerð - ábendingar og ráð til að finna úrræði við vandamálum](https://youtu.be/7v8BPmEs9Dg)
-  - [Hjálp! MRP er hægt!](https://youtu.be/RLXybx20B5o)
+  - [MRP-afkastastilling](https://youtu.be/RLXybx20B5o)
 - **Afurðaupplýsingastjórnun:**
   - [Afurðarafbrigðastillir í Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **Vöruhúsakerfi:**

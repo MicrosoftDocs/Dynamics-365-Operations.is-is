@@ -1,12 +1,10 @@
 ---
 title: Afurðarkenni
 description: Þetta efnisatriði veitir upplýsingar um mismunandi tegundir afurðarkenna og útskýrir hvernig hægt er að bæta við afurðarkennum í afurðargögnum þínum.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
@@ -15,19 +13,19 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: f28193f9671bcae1345d5c1085ea3f2446e6e088
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
-ms.translationtype: HT
+ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011370"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063342"
 ---
 # <a name="product-identifiers"></a>Afurðarkenni
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 [!include [banner](../includes/banner.md)]
 
@@ -41,7 +39,7 @@ ms.locfileid: "5011370"
 
 Í mörgum tilvikum er afurðarnúmerið ekki upphaflega stofnað í Dynamics 365 Supply Chain Management. Þess í stað er það tengt afurð í lífferilssstjórnunarkerfi afurðar (PLM) eða gagnastjórnunarkerfi afurðar (PDM). Í þessu tilviki eru gagnaeiningar notaðar til að flytja inn afurðir og afurðarafbrigði. Supply Chain Management notar síðan tölurnar í öllum aðgerðum.
 
-Þegar Supply Chain Management er innleitt ætti að taka sérstakt tillit til stefnunar er varðar afurðarnúmer. Gott númerakerfi bætir flæði vörustjórnunar og hjálpar til við að koma í veg fyrir villur. Gott afurðarkenni er að hámarki 15 stafir. Helst hefur það færri en 10 stafi og inniheldur ekki meira en fimm stafaflokka. Einnig er hægt að nota leitarheiti til að virkja flýtileitir. Leitarheiti er viðbótarheiti sem táknar flokkanir afurða.
+Þegar Supply Chain Management er innleitt ætti að taka sérstakt tillit til stefnunar er varðar afurðarnúmer. Gott númerakerfi bætir flæði vörustjórnunar og hjálpar til við að koma í veg fyrir villur. Gott vöruauðkenni ætti venjulega að hafa 20 stafi eða færri, en við mælum almennt með því að nota færri en 10 stafi og innihalda ekki fleiri en 5 flokkunarstafi. Einnig er hægt að nota leitarheiti til að virkja flýtileitir. Leitarheiti er viðbótarheiti sem táknar flokkanir afurða.
 
 Þegar Microsoft Dataverse er notað, er afurðarnúmerið í Supply Chain Management einnig afurðarnúmerið í Microsoft Dataverse. Afurðarafbrigði eru samstillt við Dataverse sem einkvæmar afurðir.
 
@@ -108,7 +106,7 @@ Til að vinna með strikamerki, á síðunni **Útgefnar afurðir**, á flipanum
 
 Í rafrænum viðskiptum er lykilatriði að allir aðilar tali sameiginlegt tungumál og vísi í afurðir með því að nota sameiginlegt sett af auðkennum. Þ.a.l. eru nokkrar atvinnugreinar sem treysta á [GTIN](https://www.gs1.org/id-keys/gtin), sem er alþjóðlegt vörunúmerakerfi sem er einfaldað með GS1.
 
-Við mælum með að viðhalda GTIN sem strikamerki. Hins vegar getur þú einnig unnið með það á síðunni **Vara - GTIN**. Til að opna þessa síðu, skaltu á síðunni **Útgefnar afurðir**, á flipanum **Stjórna birgðum**, í flokknum **Vöruhús** velja **GTIN-kóðar**. Athugaðu að GTIN er ekki viðhaldið sem alþjóðlegt númer. Þess í stað er því viðhaldið af lögaðila.
+Við mælum með að viðhalda GTIN sem strikamerki. Hins vegar getur þú einnig unnið með það á síðunni **Vara - GTIN**. Til að opna þessa síðu, skaltu á síðunni **Útgefnar afurðir**, á flipanum **Stjórna birgðum**, í flokknum **Vöruhús** velja **GTIN-kóðar**. GTIN er ekki viðhaldið sem alþjóðlegt númer. Þess í stað er því viðhaldið af lögaðila.
 
 Í Supply Chain Management skilgreinir þú umbúðarafbrigði í vöruhúsaaðgerðum með því að skilgreina tilteknar mælieiningar. Til dæmis er hægt að geyma vöru í stykkjum, í búntum af sex, í bökkum af 18 eða á heilum brettum. Tiltekin mælieining verður skilgreind fyrir hver þessara umbúðarafbrigða. Vegna þess að GTIN er venjulega tengt umbúðaeiningu afurðar, leyfir síðan **Vara - GTIN** að viðhalda mörgum GTIN-kóðum á hverja vöru og mælieiningu. Hins vegar getur þú ekki notað sama GTIN-kóðan oftar en einu sinni fyrir mismunandi vörur eða afurðarafbrigði lögaðila.
 
@@ -126,12 +124,12 @@ Hægt er að skilgreina ytri kóða fyrir marga aðila. Til dæmis getur þú sk
 |-------------|--------------------|--------------------|----------|
 | Afurðir V2 | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing | Það fer eftir stillingum á einingu og númeraröð afurðarnúmers hvort hægt sé að stofna sjálfkrafa afurðarnúmer við innflutning. |
 | Afurðarafbrigði | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing | Það fer eftir nafnakerfissniði afurðar hvort hægt sé að stofna sjálfkrafa afurðarnúmerið við innflutning. Þó er hægt að flytja inn einkvæmt afurðarnúmer og það afurðarnúmer þarf ekki að fylgja skipulaginu á nafnakerfissniði afurðar. |
-| Þýðingar afurðar | Afurðarheiti, afurðarlýsing | Afurðarheiti, afurðarlýsing | Þessi eining skrifar yfir hvaða tungumál sem er. Athugaðu að þegar skrifað er yfir heitið eða lýsinguna á aðaltungumáli lögaðila, breytist heitið og lýsingin á sjálfri vörunni. |
+| Þýðingar afurðar | Afurðarheiti, afurðarlýsing | Afurðarheiti, afurðarlýsing | Þessi eining skrifar yfir hvaða tungumál sem er. Þegar skrifað er yfir heitið eða lýsinguna á aðaltungumáli lögaðila, breytist heitið og lýsingin á sjálfri vörunni. |
 | Útgefin stofnun afurðar V2 | Vörunúmer, afurðarnúmer, leitarheiti vöru| Vörunúmer, afurðarnúmer, leitarheiti vöru, leitarheiti afurðar, afurðarheiti | Þessi eining getur verið áskorun þegar númeraraðir eru notaðar við stofnun á nýjum útgefnum afurðum. Báðar númeraraðirnar **Vörunúmer** og **Afurðarnúmer** hafa áhrif. Hins vegar er númeraröðin **Vörunúmer** fyrir hvern lögaðila, en númeraröðin **Afurðarnúmer** er alþjóðleg. Því mælum við með því að þú notir númeraröðina **Vörunúmer** þegar þú setur upp nýjar útgefnar afurðir. Augljóslega, þegar einingin er notuð til að gefa út fyrirliggjandi afurð verður afurðarnúmerið að vera gefið í einingunni. Nánari upplýsingar er að finna í kaflanum „Afurðar- og vörunúmeraraðir" í þessu efnisatriði. |
 | Útgefin afurðarafbrigði | Vörunúmer, afurðarvíddir, afurðarnúmer | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing, afurðarvíddir | Eins og einingin **Afurðarafbrigði**, er hægt að nota þessa einingu til að stofna nýjar afurðir sem annaðhvort fylgja nafnakerfissniði afurðar eða nota sín eigin afurðarnúmer fyrir afbrigðið. |
 | Ytri vörulýsing fyrir viðskiptavini | Vörunúmer viðskiptavinar, vöruheiti viðskiptavinar, lýsing viðskiptavinar, viðskiptavinalykill | Vörunúmer viðskiptavinar, vöruheiti viðskiptavinar, lýsing viðskiptavinar, viðskiptavinalykill | Hóp af viðskiptavinum (t.d. samtök kaupenda) er hægt að sameina í einn flokk með því að nota eininguna **Viðskiptavinaflokkar ytri vörulýsinga**. |
 | Ytri vörulýsing fyrir lánardrottna | Vörunúmer lánardrottins, vöruheiti lánardrottins, lýsing lánardrottins, lánardrottnalykill | Vörunúmer lánardrottins, vöruheiti lánardrottins, lýsing lánardrottins, lánardrottnalykill | Hóp af lánardrottnum (t.d. samtök lánardrottna eða iðnaðarsamtök) er hægt að safna saman í einn flokk með því að nota eininguna **Lánardrottnaflokkar ytri vörulýsinga**. |
-| Strikamerki vöru | Strikamerki | Strikamerki | Athugaðu að við innflutning verður að vísa til uppsetningu strikamerkis sem er skilgreind í markkerfinu. Innfluttar tilvísanir strikamerkja eru villuleitaðar gagnvart uppsetningu strikamerkis og þeim er hafnað ef strikamerkin standast ekki kröfurnar sem eru skilgreindar í þeirri strikamerkjauppsetningu. |
+| Strikamerki vöru | Strikamerki | Strikamerki | Við innflutning verður að vísa til uppsetningu strikamerkis sem er skilgreind í markkerfinu. Innfluttar tilvísanir strikamerkja eru villuleitaðar gagnvart uppsetningu strikamerkis og þeim er hafnað ef strikamerkin standast ekki kröfurnar sem eru skilgreindar í þeirri uppsetningu. |
 | Ytri kóðar fyrir útgefnar afurðir | Ytri kóði | Ytri kóði, ytri kóðaklasar, vörunúmer | Ytri kóðar eru eftir lögaðila. Fyrir innflutning verður þú að vísa í skilgreindan kóðaklasa. Flyttu inn kóðaklasana með því að nota eininguna **Ytri kóðaklasar fyrir útgefnar afurðir**. |
 | Ytri kóðar fyrir útgefin afurðarafbrigði | Ytri kóði | Ytri kóði, ytri kóðaklasar, vörunúmer, afurðarvíddir | Ytri kóðar eru eftir lögaðila. Fyrir innflutning verður þú að vísa í skilgreindan kóðaklasa. Flyttu inn kóðaklasana með því að nota eininguna **Ytri kóðaklasar fyrir útgefnar afurðir**. Þessi eining vísar til afurðarafbrigða eftir vörunúmeri og afurðarvíddum. |
 | Ytri kóðar fyrir útgefin afurðarafbrigði eftir kenni afurðarnúmers | Ytri kóði | Ytri kóði, ytri kóðaklasar, afurðarnúmer | Ytri kóðar eru eftir lögaðila. Fyrir innflutning verður þú að vísa í skilgreindan kóðaklasa. Flyttu inn kóðaklasana með því að nota eininguna **Ytri kóðaklasar fyrir útgefnar afurðir**. Þessi eining vísar til afurðarafbrigða eftir afurðarnúmeri afbrigðisins. (Frá næstu stóru útgáfu) |
@@ -160,8 +158,8 @@ Eftirfarandi tafla veitir yfirlit yfir niðurstöður innflutnings og handvirkra
 | Númeraröð afurðarnúmers | Númeraröð vörurnúmers | Vörpun vörunúmers | Vörpun afurðarnúmersins | Niðurstaða innflutnings eininga | Niðurstaða handvirkrar stofnunar | Niðurstaða |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
 | Handvirkt = Nei | Handvirkt = Nei | Engin vörpun | Engin vörpun | Afurðarnúmer nota númeraröðina **Afurðarnúmer**. Vörunúmer nota númeraröðina **Vörunúmer**. | Afurðarnúmer nota númeraröðina **Afurðarnúmer**. Vörunúmer nota númeraröðina **Vörunúmer**. | Með þessari stillingu munu vörunúmer fylgja vörunúmeraröðinni og vörunúmer fylgja röð númeraraðar. Samt sem áður mun þessi stilling ekki virka ef það er meira en einn hlutur (röð) til að flytja inn. |
-| Handvirkt = Nei | Handvirkt = Já | Mynda sjálfkrafa | Engin vörpun | Bæði afurðarnúmer og vörunúmer nota númeraröðina **Vörunúmer**. | Bæði afurðarnúmer og vörunúmer nota númeraröðina **Afurðarnúmer**. | Bæði afurðarnúmer og vörunúmer munu fylgja númeraröð afurðarnúmers. Þetta er mælt með aðferð til að flytja inn magnafurðir með V2 gagnaeiningunni fyrir afurðaútgáfu. |
-| Handvirkt = Nei | Handvirkt = Já | Engin vörpun | Engin vörpun | Bæði afurðarnúmer og vörunúmer nota númeraröðina **Afurðarnúmer**. | Bæði afurðarnúmer og vörunúmer nota númeraröðina **Afurðarnúmer**. | Bæði afurðarnúmer og vörunúmer munu nota númeraröð afurðarnúmers. Samt sem áður mun þessi stilling ekki virka ef það er meira en einn hlutur (röð) til að flytja inn. |
+| Handvirkt = Nei | Handvirkt = Já | Mynda sjálfkrafa | Engin vörpun | Bæði afurðarnúmer og vörunúmer nota númeraröðina **Vörunúmer**. | Bæði afurðarnúmer og vörunúmer nota númeraröðina **Afurðarnúmer**. | Bæði afurðarnúmer og vörunúmer munu fylgja númeraröð afurðarnúmers. Þetta er mælt með aðferð til að flytja inn magnafurðir með V2 gagnaeiningunni fyrir afurðaútgáfu.<br><br>Aðeins er hægt að nota þessa nálgun þegar vörur eru fluttar inn í magni (nokkrar línur) og þegar ekki er verið að búa til vörur í gegnum notandaviðmótið. Ef þarf bæði að flytja inn í magni og búa til afurðir í gegnum notandaviðmótið skal í staðinn nota ferlið í næstu línu þessarar töflu. Til að fara úr því að nota aðferð magninnflutnings í að nota notandaviðmótið til að flytja inn og búa til afurðir handvirkt þarf að breyta **Næsta númer** handvirkt í númerröð vörunúmersins til að það passi við **Næsta númer** í númeraröð afurðarnúmersins. Síðan er hægt að skipta yfir í næstu línu töflunnar. |
+| Handvirkt = Nei | Handvirkt = Já | Engin vörpun | Engin vörpun | Bæði afurðarnúmer og vörunúmer nota númeraröðina **Afurðarnúmer**. | Bæði afurðarnúmer og vörunúmer nota númeraröðina **Afurðarnúmer**. | Bæði afurðarnúmer og vörunúmer munu nota númeraröð afurðarnúmers. Samt sem áður mun þessi stilling ekki virka ef það er meira en einn hlutur (röð) til að flytja inn.<br><br>Nota verður þessa aðferð ef bæði þarf að flytja inn afurðir með því að nota einingarnar (aðeins er hægt að flytja inn eina línu í einu) og stofna afurðir í gegnum notandaviðmótið. |
 | Handvirkt = Já | Ekki tiltækt | Ekki tiltækt | Mynda sjálfkrafa | Þú færð eftirfarandi villuboð: "Númeraröð er ekki hægt að greina." | Samkvæmt númeraröðinni **Vörunúmer** | Þessi stilling er ekki studd fyrir innflutning. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Kenni afurðareiningar (Flytja út öll afurðarkenni)
@@ -178,7 +176,7 @@ Fylgdu þessum skrefum til að grunnstilla umhverfið.
 2. Veldu lögaðilann fyrir alþjóðleg gögn afurðarsniðmáts. Á síðunni **Færibreytur afurðarupplýsingastjórnunar**, á flipanum **Afurðareigindir** skal velja aðalfyrirtækið þar sem kennum afurðar og vöru er fyrst og fremst viðhaldið.
 3. Skilgreindu gerðir auðkenniskóða og kóða sem á að flytja út. Farðu í **Afurðaupplýsingastjórnun** &gt; **Uppsetning** &gt; **Auðkenniskóðar afurðar**. Til að búa til gerðir auðkenniskóða skaltu velja **Búa til kóða**. Færsla kóðagerðar er búin til fyrir hverja gerð fyrir auðkenni sem er að finna í völdum lögaðilum.
 
-    Athugaðu að fyrir strikamerki er gerð kóða búin til fyrir hverja uppsetningu á strikamerki. Fyrir ytri kóða er gerð kóða búin til fyrir hvern ytri kóðaklasa.
+    Fyrir strikamerki er gerð kóða búin til fyrir hverja uppsetningu á strikamerki. Fyrir ytri kóða er gerð kóða búin til fyrir hvern ytri kóðaklasa.
 
     Þú getur nú unnið með lista yfir kóðagerðir. Þú getur breytt kóða, heiti og lýsingu. Þú getur einnig eytt kóðagerðum. Kóðagerðir sem þú eyðir verða ekki notaðar til að fylla út í altækar auðkennistöflur afurðareiningar.
 
@@ -189,3 +187,6 @@ Fylgdu þessum skrefum til að grunnstilla umhverfið.
 ## <a name="related-topic"></a>Tengt efni
 
 [Leita að afurðum og afurðarafbrigðum við pöntunarfærslu](search-products-product-variants.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
