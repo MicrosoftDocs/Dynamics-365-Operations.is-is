@@ -1,27 +1,27 @@
-- name: Þróun og stjórnun fyrir Finance and Operations forrit
+- name: Þróun og stjórnun fyrir fjármála-og rekstrarforrit
   items:
-    - name: Þróun og stjórnun fyrir Finance and Operations forrit
+    - name: Þróun og stjórnun fyrir fjármála- og rekstrarforrit
       items:
-        - name: Finance and Operations fylgiskjöl hugbúnaðar
+        - name: Fylgiskjöl fyrir forritið Finance and Operations
           href: ../fin-ops/index.md
-        - name: Þróun og stjórnun fyrir Finance and Operations forrit
+        - name: Þróun og stjórnun fyrir fjármála- og rekstrarforrit
           href: index.md
         - name: Nýjungar eða breytingar
           items:
-            - name: Nýjungar eða breytingar í Finance and Operations-forritum
+            - name: Nýjungar eða breytingar í fjármála-og rekstrarforritum
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nýjungar eða breytingar í uppfærslum á verkvangi
               items:
                 - name: Nýjungar eða breytingar á heimasíðu verkvangsuppfærslna
                   href: get-started/whats-new-home-page.md
-                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.20 (ágúst 2021)
-                  href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: Verkvangsuppfærslur fyrir 10.0.19 (júní 2021)
-                  href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: Verkvangsuppfærslur fyrir 10.0.18 (maí 2021)
-                  href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: Verkvangsuppfærslur fyrir 10.0.17 (apríl 2021)
-                  href: get-started/whats-new-platform-updates-10-0-17.md
+                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.26 (maí 2022)
+                  href: get-started/whats-new-platform-updates-10-0-26.md
+                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.25 (apríl 2022)
+                  href: get-started/whats-new-platform-updates-10-0-25.md
+                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.24 (febrúar 2022)
+                  href: get-started/whats-new-platform-updates-10-0-24.md
+                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.23 (janúar 2022)
+                  href: get-started/whats-new-platform-updates-10-0-23.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -34,42 +34,6 @@
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Lok venjulegs stuðnings fyrir Microsoft Dynamics AX 2009 og 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-        - name: Viðskiptatilvik
-          items:
-            - name: Yfirlit viðskiptatilvika
-              href: business-events/home-page.md
-            - name: Viðskiptatilvik forrits
-              href: business-events/app-business-events.md
-            - name: Viðskiptatilvik verkflæðis
-              href: business-events/business-events-workflow.md
-            - name: Viðskiptatilvik runu
-              href: business-events/system-business-events.md
-            - name: Viðvaranir sem viðskiptatilvik
-              href: business-events/alerts-business-events.md
-            - name: Viðskiptatilvik í Microsoft Flow
-              href: business-events/business-events-flow.md
-            - name: Fylgiskjöl þróunaraðila viðskiptatilvika
-              href: business-events/business-events-dev-doc.md
-            - name: Úrræðaleit vegna viðskiptatilvika
-              href: business-events/troubleshooting.md
-            - name: Dæmi um notkun viðskiptatilvika
-              href: business-events/potential-use-cases.md
-            - name: Kennsla
-              items:
-                - name: Viðskiptatilvik og Microsoft Flow
-                  href: business-events/how-to/how-to-flow.md
-                - name: Viðskiptatilvik og hnitanet Azure-tilviks
-                  href: business-events/how-to/how-to-eventgrid.md
-                - name: Viðskiptatilvik og þjónustutengibraut Azure
-                  href: business-events/how-to/how-to-servicebus.md
-                - name: Viðskiptatilvik og verkflæðissamþykki
-                  href: business-events/how-to/how-to-workflow.md
-                - name: Viðskiptatilvik og Microsoft Forms Pro
-                  href: business-events/how-to/FormsPro.md
-                - name: Viðskiptatilvik og miðstöðvar Azure-tilviks
-                  href: business-events/how-to/event-hub.md
-                - name: Viðskiptatilvik við lokun fjárhagstímabils
-                  href: business-events/how-to/period-close.md
         - name: Samfelld afhending
           items:
             - name: Samfelld afhending – heimasíða
@@ -86,7 +50,7 @@
               href: dev-tools/version-models-build.md
         - name: Samþætting gagna
           items:
-            - name: Samþætting milli Finance and Operations forrita og þjónustu þriðju aðila
+            - name: Samþætting milli fjármála- og rekstrarforrita og þjónustu þriðju aðila
               href: data-entities/integration-overview.md
             - name: Takmörkun byggð á forgangi
               hreF: data-entities/priority-based-throttling.md
@@ -110,7 +74,7 @@
                   href: data-entities/recurring-integrations.md
                 - name: Prófa þjónustu með hjálparforriti þriðju aðila
                   href: data-entities/third-party-service-test.md
-            - name: Finance and Operations Tengill
+            - name: Tengill Finance and Operations
               href: data-entities/fin-ops-connector.md
             - name: Þróun fyrir samþættingu
               items:
@@ -140,7 +104,7 @@
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
                         - name: Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Finance and Operations
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                        - name: Samstilla hausa og línur sölutilboðs beint úr Sales í Finance and Operations
+                        - name: Samstilla hausa og línur sölutilboðs beint úr Sales við Finance and Operations
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
                         - name: Samstilling sölupantana beint milli Sales og Finance and Operations
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
@@ -162,9 +126,9 @@
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
                         - name: Samstilla afurðir með birgðaeiningu úr Finance and Operations við Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                        - name: Samstilla verklista úr Finance and Operations í Field Service
+                        - name: Samstilla verklista úr Finance and Operations við Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                        - name: Samstilla vöruhús úr Finance and Operations í Field Service
+                        - name: Samstilla vöruhús úr Finance and Operations við Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
                         - name: Samstilla vinnupantanir við verk úr Field Service í Finance and Operations
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
@@ -228,7 +192,7 @@
                   href: data-entities/data-synchronize-date-and-time.md
                 - name: Innflutningur fylgiskjala með almennri færslubókareiningu
                   href: data-entities/tips-tricks-import-general-journal-entity.md
-                - name: Fínstilla gagnaflutning fyrir Finance and Operations forrit
+                - name: Fínstilla gagnaflutning fyrir fjármála- og rekstrarforrit
                   href: sysadmin/optimize-data-migration.md
             - name: Þróun fyrir gagnaeiningar
               items:
@@ -270,14 +234,16 @@
               href: data-entities/dm-error-descriptions.md
         - name: Azure Data Lake
           items:
-            - name: Yfirlit fyrir Azure Data Lake
-              href: data-entities/azure-data-lake-overview.md
-            - name: Grunnstilla útflutning í Azure Data Lake
+            - name: Yfirlit fyrir „Flytja út í Azure Data Lake“
+              href: data-entities/Azure-Data-Lake-GA-version-overview.md
+            - name: Setja upp innbótina „Flytja út í Azure Data Lake“
               href: data-entities/configure-export-data-lake.md
-            - name: Finance and Operations-forrit í Azure Data Lake
+            - name: Fjármála- og rekstrarforrit í Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: Gera einingaverslun tiltæka sem Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: Breyta gögnum í Azure Data Lake
+              href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Aðgerðir í flutningi gagnagrunns
           items:
             - name: Yfirlit
@@ -332,8 +298,6 @@
                       href: database/api/v1/reference-create-export.md
                     - name: Sækja stöðu verkþáttarvirkni
                       href: database/api/v1/reference-get-status.md
-                    - name: Ræsa og stöðva umhverfi
-                      href: database/api/v1/reference-start-stop-environments.md
         - name: Sýnigögn
           items:
             - name: Yfirlit yfir sýnigögn
@@ -366,16 +330,22 @@
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Algengar spurningar um áætlað viðhald í sjálfsafgreiðsluumhverfi
                       href: deployment/plannedmaintenance-selfservice.md
-                - name: Ljúka innleiðingu Azure Resource Manager
+                    - name: Rekstrarsamfella og endurheimt eftir áföll
+                      href: sysadmin/business-continuity-disaster-recovery.md
+                - name: Ljúka innleiðingarferli Azure Resource Manager
                   href: deployment/arm-onboarding.md
+                - name: Ljúka innleiðingarferli Azure Resource Manager fyrir LCS verkefni bandarískra stjórnvalda
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute og Finance and Operations
                   href: deployment/expressroute.md
-                - name: Finance and Operations skipulag
+                - name: Skipulag Finance and Operations
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Nota uppfærslur á skýjaumhverfi
                   href: deployment/apply-deployable-package-system.md
                 - name: Nota uppfærslur og viðbætur fyrir Commerce Scale Unit (ský)
                   href: deployment/Update-retail-channel.md
+                - name: Sjálfvirk uppfærsla fyrir Commerce Scale Unit (ský)
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: Frumstilla Commerce Scale Unit (ský)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Flytja rásir á að annað Commerce Scale Unit
@@ -390,8 +360,10 @@
                   items:
                     - name: Yfirlit yfir uppsetningu á staðnum
                       href: deployment/on-premises-overview.md
-                    - name: Áætlun og undirbúningur fyrir uppsetningu innanhúss
+                    - name: Áætlun og undirbúningur fyrir uppsetningu á staðnum
                       href: deployment/plan-onprem-deployment.md
+                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) studdur hugbúnaður
+                      href: deployment/onprem-compatibility.md
                     - name: Kröfur um vélbúnaðarþörf
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                     - name: Sannvottun í Dynamics 365 Finance + Operations (on-premises)
@@ -436,13 +408,17 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Nota sama AD FS tilvik aftur fyrir mörg umhverfi
                       href: deployment/onprem-reuseadfs.md
+                    - name: Uppfæra SQL Server-tilvik í Microsoft í Microsoft Dynamics 365 Finance + Operations (on-premises) umhverfi
+                      href: deployment/onprem-upgrade-sqlserver.md
                 - name: Umboðsmaður á staðnum
                   items:
                     - name: AD FS Microsoft 365 samhæfi
                       href: deployment/onprem-adfscompatibility.md
                     - name: Forskriftir fyrir og eftir uppsetningu umboðsmanns á staðnum
                       href: lifecycle-services/pre-post-scripts.md
-                    - name: Uppfæra staðbundinn eftirlitsbúnað
+                    - name: Skilgreiningar uppsetningar fyrir umboðsmann á staðnum
+                      href: deployment/onprem-localagent-options.md
+                    - name: Uppfæra umboðsmann á staðnum
                       href: lifecycle-services/update-local-agent.md
                 - name: Úrræðaleit
                   items:
@@ -458,6 +434,8 @@
                   href: deployment/install-deployable-package.md
                 - name: Fjarlægja pakka
                   href: deployment/uninstall-deployable-package.md
+                - name: Keyra sérsniðnar X++ skriftur með engan niðurtíma
+                  href: deployment/run-custom-scripts.md
                 - name: Úrræðaleit vegna vandamála í forritapakka
                   href: deployment/deployable-package-troubleshooting.md
             - name: Nota sérsniðna hjálp
@@ -486,6 +464,16 @@
                   href: help/language-locale.md
                 - name: 'Stækka, sérstilla og vinna saman með hjálpinni'
                   href: help/contributor-guide.md
+            - name: Hvað skal hafa í huga við uppsetningu
+              items:
+                - name: Innleiðingarvalkostir skýs fyrir opinbera geirann og staðbundna notendur fyrir Dynamics 365 Finance og Dynamics 365 Supply Chain Management
+                  href: deployment/deployment-options-geo.md
+                - name: Finance og Supply Chain Management í Government Community Cloud (GCC) fyrir Bandaríkin
+                  href: deployment/us-gcc-deployment.md
+                - name: Finance og Supply Chain Management rekið af 21Vianet í Kína
+                  href: deployment/china-local-deployment.md
+                - name: Fjármála- og rekstrarforrit í Frakklandi
+                  href: deployment/france-local-deployment.md
         - name: Þróa og sérstilla
           items:
             - name: Þróa og sérstilla heimasíðu
@@ -502,8 +490,6 @@
                   href: dev-tools/access-instances.md
                 - name: Skilgreina heildrænt þróunarumhverfi
                   href: dev-tools/configure-developer-vm.md
-                - name: Stofna nýja notendur á þróunarvélum
-                  href: dev-tools/enable-development-machine.md
                 - name: Algengar spurningar um þróun og smíði sýndarvéla sem heimila ekki stjórnandaaðgang
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Endurnefna staðbundið umhverfi til að fá aðgang að Azure DevOps
@@ -530,6 +516,8 @@
                   href: dev-tools/pipeline-deploy-asset.md
                 - name: Búa til Lifecycle Services (LCS) tengingu í Azure Pipelines
                   href: dev-tools/pipeline-lcs-connection.md
+                - name: Uppfæra sannvottunarverk LCS-tengingar í MSAL í Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection-update.md
                 - name: Uppfæra hýsta Azure Pipeline fyrir nýja NuGet pakka
                   href: dev-tools/pipeline-nuget-split.md
                 - name: Uppfæra eldri sölukeðju í Azure Pipelines
@@ -576,32 +564,32 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: Líkön og pakkar
                   href: dev-tools/models.md
-                - name: Finance and Operations verkgerð
+                - name: Gerð verks í Finance and Operations
                   href: dev-tools/projects.md
                 - name: Verkfærainnbætur fyrir Visual Studio
                   href: dev-tools/developer-tools-add-ins.md
-                - name: Uppfæra Visual Studio-þróunarverkfærin
+                - name: Uppfæra Visual Studio-þróunarverkfæri
                   href: dev-tools/update-development-tools.md
             - name: X++ forritunartungumál
               items:
-                - name: X++ og kembieiginleikar
-                  href: dev-tools/new-x-debugger-features.md
-                - name: Visual Studio 2017 kröfur fyrir X++
-                  href: dev-tools/developer-tools-vs2017.md
-                - name: Kemba X++ kóða
-                  href: dev-tools/debug-xpp.md
-                - name: EventHandlerResult-klasar í sviðsmyndum tengdum beiðnum og svörum
-                  href: dev-tools/event-handler-result-class.md
-                - name: Skrifa viðskiptagrunn með C# og X++ frumkóða
-                  href: dev-tools/write-business-logic.md
-                - name: Breytingar í X++ og X++ þýðanda
-                  href: dev-tools/programming-language-support.md
-                - name: LINQ-veita fyrir C#
-                  href: dev-tools/linq-provider-c.md
-                - name: Skrifa reglur um bestu venjur
-                  href: dev-tools/author-best-practice-rules.md
-                - name: Eiginleikar Forritaskoðara
-                  href: dev-ref/application-explorer-aot-properties.md
+                - name: Tungumálastuðningur við X++
+                  items:
+                    - name: Visual Studio kröfur fyrir X++
+                      href: dev-tools/developer-tools-vs2017.md
+                    - name: Kemba X++ kóða
+                      href: dev-tools/debug-xpp.md
+                    - name: EventHandlerResult-klasar í sviðsmyndum tengdum beiðnum og svörum
+                      href: dev-tools/event-handler-result-class.md
+                    - name: Skrifa viðskiptagrunn með C# og X++ frumkóða
+                      href: dev-tools/write-business-logic.md
+                    - name: LINQ-veita fyrir C#
+                      href: dev-tools/linq-provider-c.md
+                    - name: Skrifa reglur um bestu venjur
+                      href: dev-tools/author-best-practice-rules.md
+                    - name: Eiginleikar Forritaskoðara
+                      href: dev-ref/application-explorer-aot-properties.md
+                    - name: SysSetupConfigAttribute-eigind
+                      href: dev-tools/syssetupconfigattribute.md
                 - name: Leiðbeiningar um X++ forritunarmálið
                   items:
                     - name: Yfirlit yfir leiðbeiningar um X++ forritunarmálið
@@ -646,7 +634,7 @@
                           href: dev-ref/xpp-interfaces.md
                         - name: Söfn
                           href: dev-ref/xpp-library-objects.md
-                        - name: Tilvik
+                        - name: Viðburðir og fulltrúar
                           href: dev-ref/xpp-events.md
                     - name: X++ gagnaval og beiting
                       items:
@@ -872,6 +860,8 @@
                   href: perf-test/continuous-build-test-automation.md
                 - name: SysTest-síun með því að nota flokka og aðferðareigindir
                   href: perf-test/systest-filtering.md
+                - name: SysTestRow-eigind til að prófa mörg gildi
+                  href: perf-test/systest-row.md
                 - name: Safn samþykktarprófana
                   items:
                     - name: Tilföng fyrir safn samþykktarprófana
@@ -900,6 +890,8 @@
               href: dev-tools/date-effectivity.md
             - name: Þróun fyrir óháða hugbúnaðarsala
               items:
+                - name: Heimasíða óháðs hugbúnaðarsöluþróunaraðila
+                  href: dev-tools/isv-dev-home-page.md
                 - name: Tengja X++ einingar við pakka með því að nota ISV Studio
                   href: dev-tools/isv-studio-solutions.md
                 - name: Leyfisveiting óháðra hugbúnaðarsala
@@ -938,6 +930,16 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS fyrir samstarfsaðila
                   href: lifecycle-services/getting-started-lcs.md
+                - name: RESTful API
+                  items:
+                    - name: Ræsa og stöðva umhverfi
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: Sækja lýsigögn umhverfis
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: Sækja umhverfisferil
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: Sækja ZIP RSAT-vottorð umhverfis
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: Nýjungar eða breytingar í Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
             - name: Notkunarleiðbeiningar Lifecycle Services
@@ -989,7 +991,11 @@
                 - name: Algengar spurningar um tímaramma áætlaðs viðhalds
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Eftirlit og greiningar
-              href: lifecycle-services/monitoring-diagnostics.md
+              items:
+                - name: Eftirlits- og greiningarverkfæri
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: Nota Azure Data Explorer til að gera fyrirspurnir um hráa upplýsingakladda
+                  href: lifecycle-services/azure-data-explorer.md
             - name: Endurræsa umhverfisþjónustu
               href: lifecycle-services/restart-environment-services.md
             - name: Tilkynna framleiðslustöðvun
@@ -1002,6 +1008,8 @@
               href: lifecycle-services/performancetroubleshooting.md
             - name: Fyrirspurnabók
               href: lifecycle-services/querycookbook.md
+            - name: Útrunnar áskriftir og eyðing gagna
+              href: lifecycle-services/expired-subscription-data-deletion.md
             - name: Microsoft Dynamics 365 Translation Service
               items:
                 - name: Yfirlit Dynamics 365 Translation Service
@@ -1012,10 +1020,16 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Skrár þýðingaminnis
                   href: lifecycle-services/use-translation-service-tm.md
+                - name: Azure DevOps-viðbót (opin forútgáfa)
+                  href: lifecycle-services/dts-devops-extension.md
         - name: Samþætting Microsoft Power Platform
           items:
-            - name: Microsoft Power Platform samþætting við Finance and Operations
+            - name: Yfirlit
               href: power-platform/overview.md
+            - name: Kveikt á samþættingu Power Platform
+              href: power-platform/enable-power-platform-integration.md
+            - name: Sannvottun og heimild
+              href: power-platform/authentication-and-authorization.md
             - name: Tvöföld skrif
               items:
                 - name: Tvöföld skrif – heimasíða
@@ -1032,11 +1046,13 @@
                       href: data-entities/dual-write/connection-setup.md
                     - name: Hvað skal hafa í huga við fyrstu samstillingu
                       href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Takmarkanir fyrir samstillingu í beinni
+                      href: data-entities/dual-write/sync-limits.md
                     - name: Uppsetning tvöfaldra skrifa úr Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
-                    - name: Kveikja á tvöföldum skrifum fyrir fyrirliggjandi Finance and Operations-forrit
+                    - name: Kveikja á tvöfaldri skráningu fyrir fyrirliggjandi fjármála- og rekstrarforrit
                       items:
-                        - name: Kveikja á tvöföldum skrifum fyrir fyrirliggjandi Finance and Operations-forrit
+                        - name: Kveikja á tvöfaldri skráningu fyrir fyrirliggjandi fjármála- og rekstrarforrit
                           href: data-entities/dual-write/enable-dual-write.md
                         - name: Kerfiskröfur og forsendur
                           href: data-entities/dual-write/requirements-and-prerequisites.md
@@ -1044,6 +1060,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Kveikja á vörpun eininga fyrir tvöföld skrif
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Sérstakur pakki fyrir tvöfalda skráningu forrita
+                      href: data-entities/dual-write/separated-solutions.md
                     - name: Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif
                       href: data-entities/dual-write/currrency-decimal-places.md
                     - name: Setja upp vörpun fyrir stöðureit sölupöntunar
@@ -1054,10 +1072,14 @@
                   items:
                     - name: Sérstilling á vörpun eininga og reita
                       href: data-entities/dual-write/customizing-mappings.md
+                    - name: Sérsniðin leiðsögn fyrir tvöfalda skráningu
+                      href: data-entities/dual-write/custom-best-practices.md
                     - name: Unnið með mörg einingakort
                       href: data-entities/dual-write/multiple-entity-maps.md
-                    - name: Breyta lögaðila eftir uppsetningu tvöfaldra skrifa
+                    - name: Breyta lögaðila eftir uppsetningu á tvöfaldri skráningu
                       href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Gera hlé á tvöfaldri skráningu fyrir viðhald
+                      href: data-entities/dual-write/pause-for-maintenance.md
                     - name: Umsjón með villum og viðvörunartilkynningum
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Líftímastjórnun forrits
@@ -1116,10 +1138,12 @@
                       href: data-entities/dual-write/integrated-hr.md
                     - name: Altæk aðila- og aðsetursbók
                       href: data-entities/dual-write/party-gab.md
-                    - name: Notkun Power Portal með gagnalíkani aðila
+                    - name: Notkun Microsoft Power Apps-vefgátta með gagnalíkani aðila
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Uppfæra í altæka aðila- og aðsetursbókarlíkanið
                       href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Skoða gögn aðila
+                      href: data-entities/dual-write/view-party.md
                     - name: Samþætting athugasemdar
                       href: data-entities/dual-write/notes-integration.md
                     - name: Vörpunartilvísun
@@ -1132,22 +1156,26 @@
                       href: data-entities/dual-write/migrate-prospect-to-cash.md
                     - name: Úrræðaleit
                       items:
-                        - name: Staðfesta stillingu tvöfaldrar skráningar í Finance and Operations forritum og Dataverse
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Almenn úrræðaleit
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                         - name: Leysa úr vandamálum við fyrstu uppsetningu
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                         - name: Leysa úr vandamálum við fyrstu samstillingu
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                        - name: Úrræðaleit vegna vandamála tvöfaldrar skráningar í Finance and Operations forritum
-                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Leysa úr vandamálum við samstillingu í beinni
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Úrræðaleit fyrir vandamál vegna tvöfaldrar skráningar í fjármála- og rekstrarforritum
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Úrræðaleit fyrir einstaklings- og altæka aðsetursbók
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: Leysa úr vandamálum tengdum lausnavitund
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                        - name: Úrræðaleit vandamála vegna uppfærslna Finance and Operations forrita
+                        - name: Úrræðaleit vandamála vegna uppfærslna fjármála- og rekstrarforrita
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Almenn úrræðaleit
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Staðfesta stillingu tvöfaldrar skráningar í fjármála- og rekstrarforritum og Dataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Villukóðar fyrir ástandsskoðun töflukorts
+                          href: data-entities/dual-write/table-map-health-check.md
                 - name: Algengar spurningar um tvöföld skrif
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Sýndareiningar
@@ -1158,12 +1186,58 @@
                   href: power-platform/entity-modeling.md
                 - name: Líftímastjórnun forrits
                   href: power-platform/application-lifecycle-management.md
-                - name: Tilvísun stjórnanda Finance and Operations og Dataverse
+                - name: Skilgreina sýndareiningar Dataverse
                   href: power-platform/admin-reference.md
-                - name: Power Apps gáttir með Finance and Operations
+                - name: Kveikja á sýndareiningum Dataverse
+                  href: power-platform/enable-virtual-entities.md
+                - name: Power Apps-gáttir með Finance and Operations
                   href: power-platform/power-portal-reference.md
-                - name: Finance and Operations Algengar spurningar um sýndareiningar
+                - name: Algengar spurningar um sýndareiningar Finance and Operations
                   href: power-platform/faq.md
+            - name: Viðskiptatilvik
+              items:
+                - name: Yfirlit viðskiptatilvika
+                  href: business-events/home-page.md
+                - name: Umsjón endastöðva viðskiptatilvika
+                  href: business-events/managing-business-event-endpoints.md
+                - name: Viðskiptatilvik forrits
+                  href: business-events/app-business-events.md
+                - name: Viðskiptatilvik verkflæðis
+                  href: business-events/business-events-workflow.md
+                - name: Viðskiptatilvik runu
+                  href: business-events/system-business-events.md
+                - name: Viðvaranir sem viðskiptatilvik
+                  href: business-events/alerts-business-events.md
+                - name: Gagnatilvik
+                  href: business-events/data-events.md
+                - name: Viðskiptatilvik í Power Automate
+                  href: business-events/business-events-flow.md
+                - name: Fylgiskjöl þróunaraðila viðskiptatilvika
+                  href: business-events/business-events-dev-doc.md
+                - name: Úrræðaleit vegna viðskiptatilvika
+                  href: business-events/troubleshooting.md
+                - name: Dæmi um notkun viðskiptatilvika
+                  href: business-events/potential-use-cases.md
+                - name: Kennsla
+                  items:
+                    - name: Viðskiptatilvik og Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: Viðskiptatilvik og hnitanet Azure-tilviks
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: Viðskiptatilvik og þjónustutengibraut Azure
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: Viðskiptatilvik og biðröð í þjónustutengibraut Azure
+                      href: business-events/how-to/how-to-servicebus-queue.md
+                    - name: Viðskiptatilvik og verkflæðissamþykki
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: Viðskiptatilvik og Microsoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: Viðskiptatilvik og miðstöðvar Azure-tilviks
+                      href: business-events/how-to/event-hub.md
+                    - name: Gerast áskrifandi að tilvikum í Dataverse
+                      href: business-events/how-to/how-to-dataverse-events.md
+                    - name: Viðskiptatilvik við lokun fjárhagstímabils
+                      href: business-events/how-to/period-close.md
             - name: Innbætur
               items:
                 - name: Yfirlit innbóta
@@ -1420,6 +1494,8 @@
               href: perf-test/rsat/rsat-best-practices.md
             - name: Prófun óháð gögnum með Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
+            - name: Keyra Regression Suite Automation Tool (RSAT) með samhliða keyrslu
+              href: perf-test/rsat/rsat-parallel-execution.md
             - name: Úrræðaleit
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Gefa út lausnir með Lifecycle Services
@@ -1458,15 +1534,15 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Stuðningur
           items:
-            - name: Fá aðstoð fyrir Finance and Operations og Lifecycle Services
+            - name: Fá stuðning fyrir Finance and Operations og Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: Yfirlit yfir þjónustu við Dynamics 365
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: Fá aðstoð fyrir Finance and Operations sem er rekið af 21Vianet í Kína
+            - name: Fá stuðning fyrir Finance and Operations sem er rekið af 21Vianet í Kína
               href: lifecycle-services/21vianet-support.md
-            - name: Setja upp tæknilegan stuðning fyrir Finance and Operations-forrit
+            - name: Setja upp tæknilegan stuðning fyrir fjármála- og rekstrarforrit
               href: lifecycle-services/support-experience.md
-            - name: Stjórna upplifun stuðnings fyrir Finance and Operations-forrit
+            - name: Stjórna notendaþjónustu fyrir fjármála- og rekstrarforrit
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: Framleiðslustuðningur og eftirlit
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
@@ -1494,7 +1570,7 @@
                   href: sysadmin/role-based-security.md
                 - name: Öryggisskipulag
                   href: sysadmin/security-architecture.md
-                - name: Dulritun í Finance and Operations-forritum
+                - name: Dulritun í fjármála- og rekstrarforritum
                   href: sysadmin/encryption.md
                 - name: Stilla hvenær lotutími rennur út vegna aðgerðaleysis
                   href: sysadmin/session-idle-timeout.md
@@ -1536,10 +1612,12 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Búa til runuvinnslur
                   href: sysadmin/tasks/create-batch-job.md
-                - name: Virkja sjálfvirkar tilraunir á runuvinnslum
+                - name: Gera runutilraunir virkar
                   href: sysadmin/retryable-batch.md
                 - name: Afrita runuvinnslu
                   href: sysadmin/copy-batch-job.md
+                - name: Forgangsbyggð runuáætlun
+                  href: sysadmin/priority-based-batch-scheduling.md
                 - name: Virk runutímabil
                   href: sysadmin/activeperiod.md
                 - name: Sumartímastuðningur fyrir virk runutímabil
@@ -1554,6 +1632,8 @@
                   href: sysadmin/batch-history-cleanup.md
                 - name: Hætta við runuvinnslu í framkvæmd
                   href: sysadmin/batch-abort.md
+                - name: OData API runu
+                  href: sysadmin/batch-odata-api.md
             - name: Fínstillingarráðgjöf
               items:
                 - name: Yfirlit yfir Fínstillingarráðgjöf
@@ -1576,7 +1656,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: Uppfæra úr AX 2012
               items:
-                - name: Uppfæra úr AX 2012 í Finance and Operations
+                - name: Uppfærsla úr AX 2012 í Finance and Operations
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: AX 2012 uppfærsla - Nota uppfærslugreiningarverkfæri til áætlunar
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1588,8 +1668,6 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: AX 2012 uppfærsla – Uppfærslugátlisti fyrir gagnauppfærslu
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: Uppfæra úr AX 2012 – SQL-færslueftirlíking
-                  href: database/replication-setup.md
                 - name: Uppfæra úr AX 2012 – Gagnauppfærsla í sjálfsafgreiðsluumhverfum
                   href: migration-upgrade/data-upgrade-self-service.md
                 - name: AX 2012 uppfærsla – Innanhússumhverfi
@@ -1604,12 +1682,12 @@
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: AX 2012 uppfærsla - Keyrsla
                   href: migration-upgrade/2012-upgrade-cutover.md
+                - name: Uppfæra úr AX 2012 – algengar spurningar um gagnauppfærslu
+                  href: migration-upgrade/upgrade-faq.md
                 - name: Breytingar sem hafa áhrif á uppfærslu úr AX 2012
                   items:
                     - name: Gera skiltákn bókhaldslykils einkvæmt
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: Uppfæra færslubækur með eitt fylgiskjal og endurmat á gjaldmiðli
-                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
                     - name: Gagnalíkan tilfangaáætlunar verks
                       href: migration-upgrade/data-model-changes-resource-management.md
                     - name: Breytingar á undirkerfi verkflæðis
