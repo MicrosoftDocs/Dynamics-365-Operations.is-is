@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 43e57b75933a67c1ee3fb0a59400b0d1bdab931cec5826346247cc361a0206df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720421"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396525"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ ms.locfileid: "6720421"
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð.
 
 > [!NOTE]
-> Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](/dynamics/s-e/). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+> Ítarlegar upplýsingar um hluti í Finance and Operations öppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af Finance and Operations forritum.
 
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Supply Chain Management 10.0.19 útgáfa
@@ -52,7 +52,7 @@ ms.locfileid: "6720421"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Frá apríl 2021 er *Dynamics 365 for Finance and Operations - Vöruhús* (þetta vöruhúsaforrit) úrelt og það verður ekki stutt eftir apríl 2022. Því er nú skipt út fyrir *Farsímaforrit vöruhúsakerfis*, sem var gefið út í útgáfu 10.0.17 af Supply Chain Management. Nýja forritið kemur í stað þess eldra en notar sama undirliggjandi ramma sem auðveldar flutning. Hægt er að nota forritin hlið við hlið til að notendur geti vanist nýja forritinu.<br><br>Ef leitað er upplýsinga um hvernig eigi að skilgreina gamla farsímaforritið fyrir farsímaforrit vöruhúsakerfis skal skoða [Farsímaforrit vöruhúsakerfi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) og [Setja upp og tengja farsímaforrit vöruhúsakerfis](../warehousing/install-configure-warehouse-management-app.md). |
+| **Ástæða úreldingar/fjarlægingar** | Gildir í apríl 2021, *Dynamics 365 for Finance and Operations - Vörugeymsla* (vöruhúsaforritið) er úrelt og verður ekki stutt eftir apríl 2022. Því er nú skipt út fyrir *Farsímaforrit vöruhúsakerfis*, sem var gefið út í útgáfu 10.0.17 af Supply Chain Management. Nýja forritið kemur í stað þess eldra en notar sama undirliggjandi ramma sem auðveldar flutning. Hægt er að nota forritin hlið við hlið til að notendur geti vanist nýja forritinu.<br><br>Ef leitað er upplýsinga um hvernig eigi að skilgreina gamla farsímaforritið fyrir farsímaforrit vöruhúsakerfis skal skoða [Farsímaforrit vöruhúsakerfi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) og [Setja upp og tengja farsímaforrit vöruhúsakerfis](../warehousing/install-configure-warehouse-management-app.md). |
 | **Skipt út fyrir aðra eiginleika?**   | Já, skipt út fyrir nýtt farsímaforrit vöruhúsakerfis. |
 | **Afurðasvæði sem haft er áhrif á**         | Supply Chain Management - vöruhúsaforrit |
 | **Dreifingarvalkostur**              | Ský og innanhúss |
@@ -78,7 +78,7 @@ ms.locfileid: "6720421"
 | **Skipt út fyrir aðra eiginleika?**   | Já, fínstilling áætlanagerðar kemur í stað núverandi aðaláætlunarvélar Supply Chain Management. |
 | **Afurðasvæði sem haft er áhrif á**         | Supply Chain Management - Aðaláætlanagerð |
 | **Dreifingarvalkostur**              | Aðeins ský. Fínstilling áætlanagerðar er ekki studd með uppsetningu á staðnum. |
-| **Staða**                         | Úrelt. Þann 1. apríl 2022 verða framleiðsluaðstæður ekki lengur studdar með innbyggðri Dynamics 365 Supply Chain Management aðaláætlunarvél. Fyrir framleiðsluaðstæður verða viðskiptavinir að nota fínstillingu áætlanagerðar fyrir útreikning aðaláætlunar. Nánari upplýsingar er að finna í [fylgiskjölum fínstillingar áætlanagerðar](../master-planning/planning-optimization/planning-optimization-overview.md). Viðskiptavinir með uppsetningu á staðnum á Dynamics 365 Supply Chain Management geta haldið áfram að nota aðaláætlunarvél Supply Chain Management fyrir framleiðsluaðstæður eftir apríl 2022. Ekki verður boðið upp á fleiri umbætur á eiginleikum. |
+| **Staða**                         | Úrelt. Fyrir 1. apríl 2022 verða framleiðslusviðsmyndir ekki lengur studdar fyrir innbyggðu Supply Chain Management aðalskipulagsvélina. Frá og með þeim degi mun Microsoft stöðva alla virka þróun á framleiðsluatburðarás fyrir innbyggðu skipulagsvélina, mun ekki gefa út neina nýja eiginleika og mun aðeins gefa út mikilvægar villuleiðréttingar. Eftir þá dagsetningu verða öll fyrirtæki sem þurfa stuðning við framleiðslusviðsmyndir að nota áætlanagerð fínstillingu fyrir aðalskipulagsútreikninga. Gert er ráð fyrir að hagræðing skipulags muni styðja að fullu framleiðslusviðsmyndir fyrir október 2022. Fyrir frekari upplýsingar, sjá [Skipulagshagræðingarskjöl](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Fyrirtæki með innleiðingu á birgðakeðjustjórnun á staðnum geta haldið áfram að nota innbyggðu aðalskipulagsvélina fyrir framleiðslusviðsmyndir eftir apríl 2022. Ekki verður boðið upp á fleiri umbætur á eiginleikum. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Supply Chain Management 10.0.11 útgáfa
 

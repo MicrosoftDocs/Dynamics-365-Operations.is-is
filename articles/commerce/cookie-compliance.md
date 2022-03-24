@@ -2,7 +2,7 @@
 title: Kökusamræmi
 description: Þetta efnisatriði lýsir atriðum fyrir reglufylgni fyrir kökur og sjálfgefnum reglum sem teknar eru með í Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 07/30/2021
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: 2efb866d513ba90630b0397c1ca144c92d40719c
+ms.sourcegitcommit: 4645278a4b4a38dcb18fdfb49ce2e276eabb59de
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747698"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "8403148"
 ---
 # <a name="cookie-compliance"></a>Reglufylgni köku
 
@@ -58,6 +58,7 @@ Eftirfarandi tafla sýnir núverandi tilvísunarlista yfir smákökur settur inn
 | \_msdyn365___aud_0                          | Vistar hlutagildi sem markmið notar og er aðeins notað ef markmið er stillt á síðu eða brot sem notandi vefsvæðis óskar eftir. Köku er aðeins komið fyrir þegar hlutagildi koma frá þriðja aðila.      | 7 dagar |
 | \_msdyn365___aud_1                           | Vistar hlutagildi sem markmið notar og er aðeins notað ef markmið er stillt á síðu eða brot sem notandi vefsvæðis óskar eftir. Köku er aðeins komið fyrir þegar hlutagildi koma frá þriðja aðila.      | 7 dagar |
 | \_msdyn365___aud_2                           | Vistar hlutagildi sem markmið notar og er aðeins notað ef markmið er stillt á síðu eða brot sem notandi vefsvæðis óskar eftir. Köku er aðeins komið fyrir þegar hlutagildi koma frá þriðja aðila.      | 7 dagar |
+| d365gi                                       | Þessi vafrakaka geymir landfræðileg staðsetningargögn þegar landfræðileg staðsetningarþjónusta þriðja aðila er notuð.      | 1 dagur |
 
 Ef notandi svæðis velur einhvern tengil á samfélagsmiðil innan svæðis munu kökurnar í eftirfarandi töflu einnig vera raktar í vafranum.
 
@@ -65,17 +66,17 @@ Ef notandi svæðis velur einhvern tengil á samfélagsmiðil innan svæðis mun
 | Lén                      | Kaka               | lýsing                                                  | Uppruni                                          |
 | --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | .linkedin.com                | UserMatchHistory         | Samstillir auðkenni LinkedIn auglýsinga                                      | LinkedIn-straumur og merki innsýnar                                |
-| .linkedin.com               | li_sugr                  | Kennimerki vafra                                           | Merki LinkedIn-innsýnar ef IP-tala er ekki í uppgefnu landi |
+| .linkedin.com               | li_sugr                  | Kennimerki vafra                                           | LinkedIn Insight merki ef IP-tala er ekki í tilteknu landi |
 | .linkedin.com               | BizographicsOptOut       | Ákvarðar stöðu afþökkunar fyrir rakningu þriðja aðila.              | Stýringar LinkedIn-gests og afþökkunarsíður atvinnugreinar           |
 | .linkedin.com               | \_guid                    | Vafraauðkenni fyrir Google auglýsingar.                            | LinkedIn-straumur                                                |
 | .linkedin.com               | li_oatml                 | Óbeint auðkenni meðlims fyrir breytingarakningu, ný markmið og greiningar. | Merki LinkedIn-auglýsinga og innsýnar                                |
 | Ýmis lén fyrsta aðila | li_fat_id                | Óbeint auðkenni meðlims fyrir breytingarakningu, ný markmið og greiningar. | Merki LinkedIn-auglýsinga og innsýnar                                |
-| .adsymptotic.com            | U                        | Kennimerki vafra                                           | Merki LinkedIn-innsýnar ef IP-tala er ekki í uppgefnu landi |
+| .adsymptotic.com            | U                        | Kennimerki vafra                                           | LinkedIn Insight merki ef IP-tala er ekki í tilnefndu landi |
 | .linkedin.com                | bcookie                  | Auðkenni vafraköku                                            | Beiðnir til LinkedIn                                         |
 | .linkedin.com                | bscookie                 | Örugg vafraköka                                        | Beiðnir til LinkedIn                                         |
 | .linkedin.com               | lang                     | Lotur sjálfgefinn landsstaðall og tungumál.                                 | Beiðnir til LinkedIn                                         |
 | .linkedin.com                | lidc                     | Notað fyrir leiðir.                                             | Beiðnir til LinkedIn                                         |
-| .linkedin.com               | aam_uuid                 | Kaka áhorfendastjórnanda Adobe                                                     | Stilla fyrir samstillingu auðkennis                                              |
+| .linkedin.com               | aam_uuid                 | Adobe kex áhorfendastjóra                                                     | Stilla fyrir samstillingu auðkennis                                              |
 | .linkedin.com               | \_ga                      | Google Analytics kaka                                            | Google Analytics                                             |
 | .linkedin.com               | \_gat                     | Google Analytics kaka                                             | Google Analytics                                             |
 | .linkedin.com               | liap                     | Google Analytics kaka                                             | Google Analytics                                             |
@@ -106,9 +107,9 @@ Ef notandi svæðis velur einhvern tengil á samfélagsmiðil innan svæðis mun
 | .pinterest.com              | Þjónustuaðilar          |                                                              |  Pinterest                                                            |
 
 
-## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Samþykki fyrir kökur á svæði notanda á vefsvæði e-Commerce 
+## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Samþykki vefköku notenda á netverslunarsíðu 
 
-Ef eiginleiki einingu rafrænna viðskipta notar köku sem ekki er nauðsynleg þarf að sækja samþykki notanda áður en kakan er rakin. Til að leyfa notendum vefsvæðis að veita samþykki fyrir kökur á svæði rafrænna viðskipta verður höfundur síðu að bæta við og grunnstilla samþykkiseining köku í hauseiningu síðu til að tryggja að beðið sé um samþykki og það móttekið. Gefa þarf notendasamþykki vefsvæðis áður en hægt er að nota eiginleika eða einingu án nauðsynlegrar köku á síðu svæðis.
+Ef eiginleiki eða eining rafrænnar viðskiptasíður notar vafraköku sem ekki er nauðsynleg þarf að fá samþykki síðunotanda áður en kexið er rakið. Til að leyfa notendum vefsins að veita vefkökusamþykki á netverslunarsíðunni verður höfundur vefsvæðisins að bæta við og stilla samþykkiseiningu fyrir kökur í hauseiningu síðunnar til að tryggja að beðið sé um samþykki og móttekið. Gefa þarf notendasamþykki vefsvæðis áður en hægt er að nota eiginleika eða einingu án nauðsynlegrar köku á síðu svæðis.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

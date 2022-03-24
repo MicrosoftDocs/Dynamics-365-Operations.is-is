@@ -2,7 +2,7 @@
 title: Stofnun reiknings viðskiptavinar
 description: Reikningur viðskiptavinar fyrir sölupöntun er reikningur sem tengist sölunni og sem fyrirtæki gefur viðskiptavini.
 author: ShivamPandey-msft
-ms.date: 02/01/2022
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
-ms.translationtype: HT
+ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087424"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392912"
 ---
 # <a name="create-a-customer-invoice"></a>Stofnun reiknings viðskiptavinar
 
@@ -82,6 +82,9 @@ Birgðafærslur eru uppfærðar með reikningsnúmeri og staðan í svæðinu **
 Notið þetta ferli þegar ein eða fleiri sölupantanir eru tilbúnar til bókunar og að sameina á þau í einn reikning. 
 
 Hægt er að velja marga reikninga í á **sölupöntun** listasíða og nota svo **Mynda reikninga** til að sameina þau. Á **Bókun reiknings** síðu er hægt að breyta stillingu fyrir **samantektarröðun** til að draga saman eftir pöntunarnúmeri (þar sem það eru margir fylgiseðlar fyrir eina sölupöntun ) eða eftir reikningslykli (þar sem það eru margar sölupantanir fyrir einn reikningslykil). Nota skal **Skipulag** hnappinn til að sameina sölupantanir í einn reikninga sem byggjast á í stillingar fyrir **samantektarröðun** .
+
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Bóka á tekjureikning fyrir sölupöntunarlínur sem hafa ekkert verð
+Þú munt hafa möguleika á að uppfæra **Tekjur** reikning í **Aðalbók** fyrir sölupöntunarlínur sem hafa ekkert verð. Til að setja upp eða skoða þessar upplýsingar skaltu fara á **Bóka á tekjureikning fyrir núllverðs sölupöntunarreikningslínur** breytu á **Fjárhagsbók og söluskattur** flipi á **Færibreytur viðskiptakrafna** síðu. (**Viðskiptakröfur > Uppsetning > Færibreytur viðskiptakrafna**). Veldu **Já** til að uppfæra **Tekjur** gera grein fyrir sölupöntunarreikningslínum sem hafa ekkert verð. Tekjureikningur er skilgreindur á **Birgðafærsla** færibreytusíðu, á **Sölupöntun** reikningsskilgreiningarflipi. Ef þessi valkostur er ekki valinn munu línur sem ekki hafa verðupplýsingar ekki birtast í **Tekjur** reikning.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Frekari stillingar sem breyta bókununarhegðun
 Eftirfarandi svæði breyta hegðun bókunarferlanna.

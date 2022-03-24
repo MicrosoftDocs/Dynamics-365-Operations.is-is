@@ -2,7 +2,7 @@
 title: Nýjungar eða breytingar í farsímaforriti Warehouse Management
 description: Í þessu efnisatriði er að finna lista yfir nýja og breytta eiginleika fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 02/21/2022
+ms.date: 03/11/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
-ms.translationtype: HT
+ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
+ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384372"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8418641"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er að finna nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20190"></a>Útgáfa 2.0.19.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+
+- Bætti almenna gagnafyrirspurnarflæðið.
+- Bætti pirrandi málið á **Verklisti** og **Atriðafyrirspurn** síður.
+- Minni rafhlöðunotkun.
+- Fjarlægði takmörk á fjölda reita fyrir vinnukort.
+- Hæð vinnukorta var stillt þannig að þau hafi öll sömu stærð, óháð fjölda reita í hverju.
+- Lagaði vandamál þar sem bilstafir í strikamerkjum voru klipptir út.
+- Bætti við **Hnappastíll** stilling, sem gerir þér kleift að skipta á milli sleðasýnar og hnappasýnar á öllum gerðum tækja.
+- Lagaði ýmis vandamál sem gætu valdið því að appið hrundi.
+- Stilltu fókus sjálfkrafa á fyrsta textareitinn á sérsniðnum síðum.
+- Aðgengisbætur sem tengjast birtustigi, birtuskilum, frásögn og texta sem vantar staðsetningar.
 
 ## <a name="version-20170"></a>Útgáfa 2.0.17.0
 
@@ -34,7 +49,7 @@ ms.locfileid: "8384372"
 - Bætti við stuðningi við almennt gagnafyrirspurnarflæði.
 - Bætti við skilaboðum til að segja notendum frá breytingum á nettengingarstöðu.
 - Samræmdi geymsluheimildir við persónuverndarstefnu geymslu í Android 10.
-- Fyrir flæði sem þurfa á því að halda inniheldur magnsnúningurinn nú stöðu sem gerir notendum kleift að senda inn autt tölugildi.
+- Fyrir flæði sem þarfnast þess inniheldur magnsnúningurinn nú stöðu sem gerir notendum kleift að senda inn autt tölugildi.
 - Lagaði vandamál með stefnu magnsnúnings.
 - Lagaði mál þar sem magnsnúningurinn myndi hoppa á rangt gildi.
 - Lagaði vandamál þar sem inntak á aðalsíðuna glataðist þegar það var fyllt út af upplýsingasíðunni.

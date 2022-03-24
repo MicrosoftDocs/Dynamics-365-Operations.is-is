@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 8e5fb1515d4bdf36c22f617b6bfd2fa3ce3efa36
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
-ms.translationtype: HT
+ms.openlocfilehash: 4fb89f4b56ce8189482bf1a86582ef7e3684b15a
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8389144"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392964"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Hannaðu nýja ER lausn til að prenta ZPL merki
 
 [!include [banner](../includes/banner.md)]
+
+[!include [banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði útskýrir hvernig notandi í hlutverki kerfisstjóra, rafrænnar skýrslugerðaraðila eða rafrænnar skýrslugerðarráðgjafa getur stillt færibreytur [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) ramma, hanna nauðsynlega ER [stillingar](general-electronic-reporting.md#Configuration) af nýrri ER lausn til að fá aðgang að gögnum vöruhúsastjórnunarkerfisins og búa til sérsniðna vöruhúsastaðsetningarmerki á Zebra Programming Language (ZPL) II sniði. Hægt er að ljúka skrefunum í **USRT** fyrirtækinu.
 
@@ -55,7 +57,7 @@ Fylgdu þessum skrefum til að flytja inn nauðsynlegt gagnalíkan úr XML skrá
 
 ![Innflutt ER gagnalíkanstilling á síðunni Stillingar.](./media/er-design-zpl-labels-imported-model.png)
 
-### <a name="create-a-data-model-configuration"></a>Búðu til gagnalíkanstillingu
+### <a name="create-a-data-model-configuration"></a>Búðu til uppsetningu gagnalíkans
 
 Í stað þess að flytja inn gagnalíkanskrána sem Microsoft útvegaði, geturðu búið til gagnalíkan frá grunni. Fyrir dæmi sem sýnir hvernig á að klára þetta verkefni, sjá [Búðu til nýja gagnalíkanstillingu](er-quick-start1-new-solution.md#DesignDataModel).
 
@@ -254,7 +256,7 @@ Undirbúðu ER áfangastað til að senda mynduð merki frá Fjármálum til DRA
 
 ![Farið yfir staðsetningar vöruhúsa á síðunni Staðsetningar.](./media/er-design-zpl-labels-review-locations.png)
 
-## <a name="print-warehouse-location-labels"></a>Prentaðu staðsetningarmerki vöruhúss
+## <a name="print-warehouse-location-labels"></a>Prentaðu vöruhúsamerki
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
 2. Á **Stillingar** síðu, í stillingartrénu, stækkaðu **Vöruhús módel**, og veldu **Staðsetningarmerki vöruhúss**.
@@ -264,11 +266,11 @@ Undirbúðu ER áfangastað til að senda mynduð merki frá Fjármálum til DRA
 6. Veldu **Í lagi**.
 7. Veldu **Í lagi**. Merki er búinn til og sýndur á forskoðunarsíðunni í prenthermiforritinu.
 
-![Skoðaðu myndaðan merkimiða á forskoðunarsíðu Zpl Printer emulator forritsins.](./media/er-design-zpl-labels-preview-label.png)
+![Skoðaðu útbúið merki á forskoðunarsíðu Zpl Printer hermiforritsins.](./media/er-design-zpl-labels-preview-label.png)
 
 ## <a name="modify-the-layout-of-a-label"></a>Breyttu útliti merkimiða
 
-Þú getur breytt núverandi útliti vöruhúsastaðsetningarmerkinga. Eftirfarandi dæmi sýnir hvernig á að breyta útlitinu þannig að myndaðir merkimiðar innihaldi auðkenni staðsetningarsniðs.
+Þú getur breytt núverandi skipulagi vöruhúsastaðsetningarmerkinga. Eftirfarandi dæmi sýnir hvernig á að breyta útlitinu þannig að myndaðir merkimiðar innihaldi auðkenni staðsetningarsniðs.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
 2. Stilltu **Notaðu áfangastaði fyrir stöðu drög**[ER notendafæribreyta](electronic-reporting-destinations.md#applicability) til **Já**.
@@ -309,7 +311,7 @@ Undirbúðu ER áfangastað til að senda mynduð merki frá Fjármálum til DRA
 14. Veldu **Í lagi**.
 15. Veldu **Í lagi**. Merki er búinn til og sýndur á forskoðunarsíðunni í prenthermiforritinu.
 
-![Farið yfir myndað merki sem inniheldur auðkenni staðsetningarprófíls á forskoðunarsíðu Zpl Printer hermiforritsins.](./media/er-design-zpl-labels-preview-label2.png)
+![Skoðaðu útbúið merki sem inniheldur auðkenni staðsetningarprófíls á forskoðunarsíðu Zpl Printer hermiforritsins.](./media/er-design-zpl-labels-preview-label2.png)
 
 ## <a name="encoding"></a>Dulritun
 

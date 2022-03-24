@@ -2,19 +2,19 @@
 title: Aðili og altæk aðsetursbók
 description: Þetta efnisatriði lýsir virkni aðila og altækrar aðsetursbókar tvöfaldrar skráningar.
 author: RamaKrishnamoorthy
-ms.date: 08/11/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 601c49e21c3a97d2da225705ddbb386e491d4d25
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: HT
+ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060333"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407766"
 ---
 # <a name="party-and-global-address-book"></a>Aðili og altæk aðsetursbók
 
@@ -22,7 +22,7 @@ ms.locfileid: "8060333"
 
 
 
-*Partí* og *alheims heimilisfangabók* eru hugtök í Finance and Operations forritum. Aðili getur verið stofnun/fyrirtæki eða einstaklingur. Það er hentugt að vista altækt og stjórna eiginleikum aðila eins og heiti, tungumáli, tengiliðum og aðsetrum. Því næst, þegar eiginleikagildi er breytt á einum stað, sést breytingin á öllum stöðum þar sem aðilinn kemur við sögu.
+*Partí* og *alheims heimilisfangabók* eru hugtök í fjármálum og rekstrarumsóknum. Aðili getur verið stofnun/fyrirtæki eða einstaklingur. Það er hentugt að vista altækt og stjórna eiginleikum aðila eins og heiti, tungumáli, tengiliðum og aðsetrum. Því næst, þegar eiginleikagildi er breytt á einum stað, sést breytingin á öllum stöðum þar sem aðilinn kemur við sögu.
 
 ## <a name="party"></a>Aðili
 
@@ -46,7 +46,7 @@ Eftirfarandi skýringarmynd sýnir gagnalíkan fyrir aðila.
 > [!TIP]
 > Þegar reynt er að búa til nýja reikningsfærslu skal nota reitinn **Aðili** til að leita að færslunni eftir heiti. Á þennan hátt þarftu bara að velja færsluna ef þú finnur hana. Forritið fyllir þá sjálfkrafa út öll gögnin frá aðilanum. Ekki þarf að stilla alla nauðsynlega reiti handvirkt. Þessa hegðun er hægt að finna á tilbúnum síðunum **Reikningur**, **Tengiliður** og **Lánardrottinn**.
 
-Dual-write styður ekki öll flokkshlutverk Finance and Operations forrita. Til að fá heildarlista yfir aðilahlutverk skal skoða [Yfirlit altækrar aðsetursbókar](../../../fin-ops/organization-administration/overview-global-address-book.md).
+Dual-write styður ekki öll flokkshlutverk fjármála- og rekstrarforrita. Til að fá heildarlista yfir aðilahlutverk skal skoða [Yfirlit altækrar aðsetursbókar](../../../fin-ops/organization-administration/overview-global-address-book.md).
 
 ### <a name="global-address-book"></a>Altæk aðsetursbók
 
@@ -142,7 +142,7 @@ Hægt er að nota hnappinn **Nýtt rafrænt aðsetur** fyrir ofan hnitanetið ti
 Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum verða allir reitir póstfangs og rafræns aðseturs fjarlægðir úr öðrum flipum (t.d. flipunum **Samantekt** og **Upplýsingar**). Samskiptaupplýsingar sem birtast í flipanum **Upplýsingar** eru skrifvarin afrit af rafrænu aðalaðsetri eins og aðalsímanúmeri, aðalnetfangi, aðalsíma, aðalfaxnúmeri og aðalaðgangs að Twitter. Í hæfnisferlinu getur þú gefið bæði upp símanúmer á vinnustað og farsímanúmer. Símanúmer fyrirtækis telst aðalsími ef **IsMobile=Nei** og farsímanúmer telst aukasími ef **IsMobile=Já**.
 
 > [!TIP]
-> Notaðu flipana **Aðsetur** og **Rafræn aðsetur** í skjámyndunum **Reikningur** og **Tengiliður** til að stjórna gáttum og rafrænum aðsetrum. Þetta tryggir að heimilisfangsgögn samstillast við Finance and Operations öpp.
+> Notaðu flipana **Aðsetur** og **Rafræn aðsetur** í skjámyndunum **Reikningur** og **Tengiliður** til að stjórna gáttum og rafrænum aðsetrum. Þetta tryggir að heimilisfangsgögn samstillast við fjármála- og rekstraröpp.
 
 ## <a name="setup"></a>Uppsetning
 
@@ -226,9 +226,9 @@ Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum
 
     ![Afritunarregla fyrir tengiliði.](media/duplicate-rule-2.PNG)
 
-11. Ef þú ert núverandi notandi tvöfaldrar skráningar skaltu fylgja leiðbeiningunum í [Uppfæra í altæka aðila- og aðsetursbókarlíkanið](upgrade-party-gab.md) og uppfæra gögnin þín.
+11. Ef þú ert núverandi notandi tvöfaldrar skráningar skaltu fylgja leiðbeiningunum í [Uppfæra í altæka aðila- og aðsetursbókarlíkanið](upgrade-party-gab.md) og uppfæra gögnin þín. **Ekki halda áfram í skref 12 án þess að klára þetta skref.** Ef þú ert nýr tvískrifaður notandi, haltu áfram í skref 12.
 
-12. Keyrðu kortin í eftirfarandi röð. Ef villa kemur upp sem segir „Staðfesting verks mistókst. Vantar reit áfangastaðar...“, opnaðu þá kortið og veldu **Endurhlaða töflum**. Keyrðu svo kortið.
+12. Ef þú ert núverandi tvískrifaður notandi, kláraðu skref 11 og þá geturðu keyrt kortin í eftirfarandi röð. Ef þú ert nýr viðskiptavinur með tvískrifa geturðu haldið áfram beint. Ef þú færð villuboð sem segir „Staðfesting verkefnis mistókst. Vantar áfangastað...", opnaðu kortið og veldu **Endurnýja töflur**, keyrðu síðan kortið.
 
     App fyrir fjármál og rekstur | Forrit viðskiptavinatengsla  
     ----------------------------|------------------------
@@ -295,10 +295,10 @@ Frekari upplýsingar er að finna í [Tilvísun vörpunar á tvöfaldri skránin
 
 ## <a name="known-issues-and-limitations"></a>Þekkt vandamál og takmarkanir
 
-+ Í Finance and Operations forritum, þegar þú býrð til viðskiptavin ásamt heimilisfangi og vistar það gæti heimilisfangið ekki samstillt við **Heimilisfang** borð. Þetta er vegna vandamáls varðandi röðun á verkvangi tvöfaldrar skráningar. Sem hjáleið skal stofna viðskiptavininn fyrst og vista hann. Bætið síðan aðsetrinu við.
-+ Í Finance and Operations forritum, þegar viðskiptamannaskrá er með aðal heimilisfang og þú býrð til nýjan tengilið fyrir þann viðskiptavin, þá erfir tengiliðaskráin aðal heimilisfang frá tengdu viðskiptamannaskránni. Þetta gerist einnig fyrir tengilið lánardrottins. Dataverse styður ekki þessa hegðun sem stendur. Ef tvískrifað er virkt er tengiliður viðskiptavinar sem er arfur með aðal heimilisfangi frá Finance and Operations appinu samstilltur við Dataverse ásamt heimilisfangi þess.
++ Í fjármála- og rekstraröppum, þegar þú býrð til viðskiptavin ásamt heimilisfangi og vistar það, gæti heimilisfangið ekki samstillst við **Heimilisfang** borð. Þetta er vegna vandamáls varðandi röðun á verkvangi tvöfaldrar skráningar. Sem hjáleið skal stofna viðskiptavininn fyrst og vista hann. Bætið síðan aðsetrinu við.
++ Í fjármála- og rekstraröppum, þegar viðskiptamannaskrá er með aðalheimilisfang og þú býrð til nýjan tengilið fyrir þann viðskiptavin, þá erfir tengiliðaskráin aðalheimilisfang úr tilheyrandi viðskiptamannaskrá. Þetta gerist einnig fyrir tengilið lánardrottins. Dataverse styður ekki þessa hegðun sem stendur. Ef tvískrifað er virkt er tengiliður viðskiptavinar sem er arfur með aðalnetfangi úr fjármála- og rekstrarappinu samstilltur við Dataverse ásamt heimilisfangi þess.
 + Rafræn aðsetur sem stillt eru í flipanum rafræn aðsetur í skjámyndunum **Reikningur**, **Tengiliður** og **Lánardrottinn** koma úr `msdyn_partyelectronicaddress`-töflunni. Þessar upplýsingar renna ekki til tengdra færslna eins og sölupöntunar, tilboða og innkaupapöntunar. Við ætlum að laga þetta vandamál í stigvaxandi útgáfu. Fyrirliggjandi gögn í reitum rafræns aðseturs í færslum reiknings og tengiliðar munu halda áfram að virka í færslum eins og sölupöntun, tilboði og innkaupapöntun.
-+ Í Finance and Operations forritum geturðu búið til tengiliðaskrá úr **Bæta við tengilið** formi. Þegar reynt er að stofna nýjan tengilið úr skjámyndinni **Skoða tengilið** mistekst aðgerðin. Þetta er þekkt vandamál.
++ Í fjármála- og rekstrarforritum geturðu búið til tengiliðaskrá úr **Bæta við tengilið** formi. Þegar reynt er að stofna nýjan tengilið úr skjámyndinni **Skoða tengilið** mistekst aðgerðin. Þetta er þekkt vandamál.
 
     ![Þekkt vandamál með Bæta við tengilið.](media/party-gab-contact-issue.png)
 
@@ -307,4 +307,4 @@ Frekari upplýsingar er að finna í [Tilvísun vörpunar á tvöfaldri skránin
 
     ![Þekkt vandamál með heimilisfang.](media/party-gab-address-issue.png)
 
-+ Þú getur ekki slegið inn dagsett póstfang með því að nota Finance and Operations app með tvöföldum skrifum, vegna þess að Dataverse styður ekki dagsetningarvirkni. Ef þú slærð inn framtíðardagspóstfang með því að nota Finance and Operations app, samstillast það við Dataverse að fullu og þú munt sjá heimilisfangið strax í notendaviðmótinu. Allar uppfærslur á þessari skrá munu leiða til villu þar sem hún er framtíðardagsett og ekki núverandi í Finance and Operations appinu.
++ Þú getur ekki slegið inn framsenda dagsett póstfang með því að nota fjármála- og rekstrarapp með tvískrift, vegna þess að Dataverse styður ekki dagsetningarvirkni. Ef þú slærð inn framtíðardagspóstfang með því að nota fjármála- og rekstrarapp samstillast það við Dataverse að fullu og þú munt sjá heimilisfangið strax í notendaviðmótinu. Allar uppfærslur á þessari skrá munu leiða til villu þar sem hún er framtíðardagsett og ekki núverandi í fjármála- og rekstrarappinu.

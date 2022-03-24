@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087500"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408231"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Færibreytur ekki notaðar af fínstillingu skipulagningar
 
@@ -194,12 +194,6 @@ Fínstilling skipulagningar notar ekki eftirfarandi færibreytu eða valkost á 
   - **Stýring afhendingardagsetninga** – Fínstilling skipulagningar styður ekki valkostinn *CTP*, bíður stuðnings frá *CTP*.
   - **Afhendingartími birgða** – Í útgáfum af þjónustu fínstillingar áætlanagerðar sem eru eldri en 6. ágúst 2021 notar fínstilling áætlanagerðar þessar færibreytur til að reikna út rétta pöntun og afhendingardagsetningar, en hún vistar ekki reiknaða afhendingartíma í áætlaðri pöntun. Í síðari útgáfum notar þjónustan einnig reiknaðan afhendingartíma til að stilla reitinn **Afhendingartími** og valkostinn **Vinnudagar** eins og krafist er fyrir viðkomandi áætlaða pöntun.
   - **Vinnudagar** – Í útgáfum af þjónustu fínstillingar áætlanagerðar sem eru eldri en 6. ágúst 2021 notar fínstilling áætlanagerðar þessar færibreytur til að reikna út rétta pöntun og afhendingardagsetningar, en hún vistar ekki reiknaða afhendingartíma í áætlaðri pöntun. Í síðari útgáfum notar þjónustan einnig reiknaðan afhendingartíma til að stilla reitinn **Afhendingartími** og valkostinn **Vinnudagar** eins og krafist er fyrir viðkomandi áætlaða pöntun.
-
-## <a name="working-time-calendars-page"></a>Síða vinnutímadagatala
-
-Fínstilling skipulagningar notar ekki eftirfarandi færibreytu á síðunni **Vinnutímadagatöl**:
-
-- **Grunndagatal** – Bíður stuðnings frá *Grunndagatölum*.
 
 ## <a name="batch-disposition-master-page"></a>Síða aðalrunuráðstöfunar
 

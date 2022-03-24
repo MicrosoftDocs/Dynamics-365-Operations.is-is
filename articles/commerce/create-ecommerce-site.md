@@ -2,7 +2,7 @@
 title: Stofna svæði fyrir rafræn viðskipti
 description: Þetta efnisatriði lýsir þeim skrefum og upplýsingum sem eru nauðsynlegar til að búa til nýtt svæði fyrir rafræn viðskipti í Dynamics 365 Commerce svæðasmið.
 author: bicyclingfool
-ms.date: 03/04/2022
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e451b1c95c3e26d1292e7b8300b62af43c81f2f
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
-ms.translationtype: HT
+ms.openlocfilehash: 37734e2ceea3a50c70a2f7945329d4a9cf660cc6
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388212"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402776"
 ---
 # <a name="create-an-e-commerce-site"></a>Stofna svæði fyrir rafræn viðskipti
 
@@ -70,6 +70,14 @@ Til að endurnefna síðuna þína í Site builder skaltu fylgja þessum skrefum
 1. Til að opna lista yfir vefsvæði velurðu **Síðuskipti** í efra hægra horninu og veldu síðan **Stjórna síðum**. 
 1. Veldu gátreitinn við hliðina á síðunni sem þú vilt endurnefna og veldu síðan **Endurnefna** á skipanastikunni.
 1. Í **Nýtt nafn síðunnar** valmynd, sláðu inn nýja nafnið á vefsvæðinu og veldu síðan **Allt í lagi**. Veflistinn mun uppfærast til að sýna nýtt nafn síðunnar.
+
+## <a name="delete-a-site"></a>Eyða síðu
+
+Fylgdu þessum skrefum til að eyða síðu í Site builder.
+
+1. Til að opna lista yfir vefsvæði velurðu **Síðuskipti** í efra hægra horninu og veldu síðan **Stjórna síðum**.
+1. Veldu síðuna sem þú vilt eyða og veldu síðan **Eyða** á skipanastikunni.
+1. Í **Eyða\<site name\>** valmynd, sláðu inn nafn vefsvæðisins og veldu síðan **Eyða**.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

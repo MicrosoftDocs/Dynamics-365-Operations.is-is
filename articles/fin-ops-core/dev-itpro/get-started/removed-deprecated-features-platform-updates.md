@@ -2,7 +2,7 @@
 title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í vettvangsuppfærslum á Finance and Operations forritum.
 author: sericks007
-ms.date: 03/03/2022
+ms.date: 03/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
-ms.translationtype: HT
+ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384721"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396550"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eiginleikar verkvangs sem hafa verið fjarlægðir eða eru úreltir
 
@@ -31,6 +31,18 @@ ms.locfileid: "8384721"
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
 Ítarlegar upplýsingar um hluti í Finance and Operations öppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/global/axtechrefrep_61). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af Finance and Operations forritum.
+
+## <a name="feature-removal-effective-march-14-2022"></a>Fjarlæging eiginleika tekur gildi 14. mars 2022
+
+### <a name="xslt-scripting-in-data-management"></a>XSLT forskriftir í gagnastjórnun
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Stuðningur við XSLT forskriftir í gagnastjórnun er úreltur til að bæta öryggi og gagnavernd innan Finance and Operations forritanna.  |
+| **Skipt út fyrir aðra eiginleika?**   | Nr. Viðskiptavinir og ISVs ættu að íhuga að endurútfæra lausnir sínar byggðar á X++ tungumáli, í stað XSLT forskrifta. |
+| **Afurðasvæði sem haft er áhrif á**         | Fjármála- og rekstrarforrit. |
+| **Dreifingarvalkostur**              | Allt. |
+| **Staða**                         | Úrelt - áætlaður fjarlægingardagur er 14. mars 2022.<br><br>Undantekning: Viðskiptavinir sem eru að nota XLST forskriftir. Þeir geta haldið áfram að nota það þar til þeir uppfæra í útgáfu 10.0.30 eða síðar. Viðskiptavinir með þessa undantekningu hafa fengið tilkynningu í skilaboðamiðstöðinni sem er tiltæk í Microsoft 365 Stjórnunarmiðstöð. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Fjarlæging eiginleika tekur gildi í október 2021
 
@@ -74,7 +86,7 @@ ms.locfileid: "8384721"
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Engin stýring er til að framvkæma þetta tilvik. |
-| **Skipt út fyrir aðra eiginleika?**   | Já, færa núverandi aðferðir sem eru áskrifendur að **OnDBSynchronize** atburður í SysSetup aukinn bekk. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, færa núverandi aðferðir sem eru áskrifendur að **OnDBSynchronize** viðburður í SysSetup aukinn bekk. |
 | **Afurðasvæði sem haft er áhrif á**         | Gagnagrunnssamstilling |
 | **Dreifingarvalkostur**              | Öll |
 | **Staða**                         | Úrelt. Fyrirhugaður lokadagur er í október 2022. |

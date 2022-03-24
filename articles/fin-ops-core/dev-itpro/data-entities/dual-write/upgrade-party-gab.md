@@ -2,19 +2,19 @@
 title: Uppfæra í altæka aðila- og aðsetursbókarlíkanið
 description: Í þessu efnisatriði er lýst hvernig á að uppfæra gögn tvöfaldrar skráningar í aðilalíkanið og líkan altækrar aðsetursbókar.
 author: RamaKrishnamoorthy
-ms.date: 03/31/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 579a7d19ee7196d3242c78bd9915df24ec479c31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: HT
+ms.openlocfilehash: 95d272d9076f1ab25230e4efa98e321bdd618062
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060486"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407796"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Uppfæra í altæka aðila- og aðsetursbókarlíkanið
 
@@ -43,7 +43,7 @@ Eftirfarandi þrjú Data Factory sniðmát eru til staðar. Þeir hjálpa til vi
 Þetta efni útskýrir hvernig á að nota Data Factory sniðmát og uppfæra gögnin þín. Ef þú ert ekki með neinar sérstillingar geturðu notað sniðmátin eins og þau eru. Hins vegar, ef þú ert með sérstillingar fyrir **Reikningur**, **samband**, og **Seljandi** gögn, verður þú að breyta sniðmátunum eins og lýst er í þessu efni.
 
 > [!IMPORTANT]
-> Sérstakar leiðbeiningar eru um að keyra sniðmát fyrir flokkspóstfang og rafræn heimilisfang aðila. Þú verður að keyra sniðmát aðila fyrst, síðan sniðmát fyrir póstfang aðila og síðan sniðmát fyrir rafrænt heimilisfang aðila. Hvert sniðmát er hannað til að flytja inn í sérstakri gagnaverksmiðju.
+> Sérstakar leiðbeiningar eru um að keyra sniðmát fyrir póstfang aðila og rafræn heimilisfang aðila. Þú verður að keyra sniðmát aðila fyrst, síðan sniðmát póstfangs aðila og síðan sniðmát fyrir rafrænt heimilisfang aðila. Hvert sniðmát er hannað til að flytja inn í sérstakri gagnaverksmiðju.
 
 ## <a name="prerequisites"></a>Forkröfur
 
@@ -75,7 +75,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 8. Veldu **Flytja inn ARM sniðmát** að flytja inn **Partí** sniðmát.
 9. Flytjið sniðmátið inn í gagnasmiðjuna. Færið inn eftirfarandi gildi fyrir **Upplýsingar um verk** og **Upplýsingar um tilvik**.
 
-    | Svæði | Gildi |
+    | Reitur | Gildi |
     |---|---|
     | Áskrift | Azure áskriftin |
     | Tilfangaflokkur | Gefðu upp sama tilfang og geymslureikningurinn er stofnaður undir. |
@@ -102,7 +102,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
 11. Fara til **Stjórna**. Undir **Tengingar** skal velja **Tengd þjónusta**. Veldu síðan **DynamicsCrmLinkedService**. Í **Breyta tengdri þjónustu (Dynamics CRM)** valmynd, sláðu inn eftirfarandi gildi.
 
-    | Svæði | Gildi |
+    | Reitur | Gildi |
     |---|---|
     | Heiti | DynamicsCrmLinkedService |
     | lýsing | Tengdar þjónustur til að tengjast við CRM-tilvik til að sækja gögn eininga |
@@ -120,7 +120,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
 ### <a name="setup-to-run-the-party-postal-address-template"></a>Uppsetning til að keyra póstfangssniðmát aðila
 
-1. Skráðu þig inn á þátttökuforrit viðskiptavina og farðu á **Stillingar** \> **Sérstillingar**. Síðan, á **Almennt** flipanum, stilltu tímabeltisstillingu fyrir kerfisstjórareikninginn. Tímabelti verður að vera í samræmdum alhliða tíma (UTC) til að uppfæra „gild frá“ og „gild til“ dagsetningar póstfanga úr Finance and Operations forritum.
+1. Skráðu þig inn á þátttökuforrit viðskiptavina og farðu á **Stillingar** \> **Sérstillingar**. Síðan, á **Almennt** flipann, stilltu tímabeltisstillingu fyrir kerfisstjórareikninginn. Tímabelti verður að vera í samræmdum alhliða tíma (UTC) til að uppfæra „gild frá“ og „gild til“ dagsetningar póstfanga úr Finance and Operations forritum.
 
     ![Tímabeltisstilling fyrir kerfisstjórareikninginn.](media/ADF-1.png)
 
@@ -142,7 +142,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
     | Númer | Heiti | Gerð | Gildi |
     |---|---|---|---|
-    | 1 | IsFOSource | ból | Þessi færibreyta ákvarðar hvaða aðalkerfisföngum er skipt út ef árekstrar koma upp. Ef gildið er **satt**, munu aðalheimilisföngin í Finance and Operations öppum koma í stað aðalheimilisfönganna í öppum fyrir þátttöku viðskiptavina. Ef gildið er **rangt**, munu aðalheimilisföngin í forritum fyrir þátttöku viðskiptavina koma í staðinn fyrir aðalheimilisföngin í Finance and Operations forritum. |
+    | 1 | IsFOSource | ból | Þessi færibreyta ákvarðar hvaða aðalkerfisföngum er skipt út ef árekstrar koma upp. Ef gildið er **satt**, munu aðalheimilisföngin í Finance and Operations forritum koma í stað aðalheimilisfönganna í viðskiptavinaþátttökuforritum. Ef gildið er **rangt**, munu aðalheimilisföngin í forritum fyrir þátttöku viðskiptavina koma í stað aðalheimilisfönganna í Finance and Operations forritum. |
     | 2 | ElectronicAddressIdPrefix | strengur | Þessi færibreyta bætir raðnúmeri við nýstofnuð rafræn heimilisföng sem forskeyti. Vertu viss um að gefa upp streng sem stangast ekki á við rafræn heimilisföng í Finance and Operations öppum og öppum fyrir þátttöku viðskiptavina. Til dæmis, notaðu **ADF-EAD-**. |
 
     ![IsFOSource og ElectronicAddressIdPrefix alþjóðlegar færibreytur búnar til á flipanum Stjórna.](media/ADF-4.png)
@@ -151,13 +151,19 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
 ## <a name="run-the-templates"></a>Keyra sniðmát
 
-1. Hættu eftirfarandi **Reikningur**, **samband**, og **Seljandi** tvískrifuð kort sem nota Finance and Operations appið:
+1. Hættu eftirfarandi **Partí**, **·**, **samband**, og **Seljandi** tvískrifa kort sem nota fjármála- og rekstrarforrit:
 
+    + CDS aðilar (msdyn_parties) 
     + Viðskiptavinir V3 (lyklar)
     + Viðskiptavinir V3 (tengiliðir)
     + CDS Tengiliðir V2 (tengiliðir)
     + CDS Tengiliðir V2 (tengiliðir)
     + Lánardrottinn V2 (msdyn_vendors)
+    + Tengiliðir V2 (msdyn_contactforparties)
+    + Staðsetningar póstfanga CDS-aðila (msdyn_partypostaladdresses)
+    + CDS-póstfangsferill V2 (msdyn_postaladdresses)
+    + Staðsetningar CDS-póstfanga (msdyn_postaladdresscollections)
+    + Tengiliðir aðila V3(msdyn_partyelectronicaddresses)
 
 2. Gakktu úr skugga um að kortin séu fjarlægð af **msdy_dualwriteruntimeconfig** borð inn Dataverse.
 3. Setjið upp [Lausn tvöfaldrar skráningar á aðila og altækri aðsetursbók](https://aka.ms/dual-write-gab) úr AppSource.
@@ -200,7 +206,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
             + Microsoft.Dynamics.GABExtended.Plugins.CreatePartyAddress: Uppfærsla á heimilisfangi viðskiptavinarins
 
-        + Eyða
+        + Virk útgáfa
 
             + Microsoft.Dynamics.GABExtended.Plugins.DeleteCustomerAddress: Eyða heimilisfangi viðskiptavinarins
 
@@ -239,7 +245,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
             + Microsoft.Dynamics.GABExtended.Plugins.PartyElectronicAddressSync: Uppfærsla á msdyn_partyelectronicaddress
 
-        + Eyða
+        + Virk útgáfa
 
             + Microsoft.Dynamics.GABExtended.Plugins.DeletePartyElectronicAddressSync: Eyða msdyn_partyelectronicaddress
 
@@ -270,7 +276,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
 9. Í gagnaverksmiðjunni skaltu keyra sniðmát fyrir póstfang aðila og rafræn heimilisfang aðila, hvert á eftir öðru.
 
-    + Póstfangssniðmát aðila uppfærir allar póstfangsfærslur í viðskiptavinaforritinu og tengir þær við samsvarandi **Reikningur**, **samband**, og **Seljandi** skrár. Það býr einnig til þrjár .csv skrár: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv og ImportFONewPostalAddress.csv.
+    + Póstfangssniðmát aðila uppfærir allar póstfangsfærslur í forritinu fyrir þátttöku viðskiptavina og tengir þær við samsvarandi **Reikningur**, **samband**, og **Seljandi** skrár. Það býr einnig til þrjár .csv skrár: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv og ImportFONewPostalAddress.csv.
     + Sniðmát fyrir rafræn heimilisfang aðila setur öll rafföng í samskiptaforriti viðskiptavina upp og tengir þau við samsvarandi **Reikningur**, **samband**, og **Seljandi** skrár. Það býr einnig til eina .csv skrá: ImportFONewElectronicAddress.csv.
 
     ![Að keyra sniðmát fyrir póstfang aðila og rafræn heimilisfang aðila.](media/ADF-7.png)
@@ -334,7 +340,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
             + Microsoft.Dynamics.GABExtended.Plugins.PartyElectronicAddressSync: Uppfærsla á msdyn_partyelectronicaddress
 
-        + Eyða
+        + Virk útgáfa
 
             + Microsoft.Dynamics.GABExtended.Plugins.DeletePartyElectronicAddressSync: Eyða msdyn_partyelectronicaddress
 
@@ -372,7 +378,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 9. Skref 15-1 til 15-3 undirbúa **Hafðu samband fyrir Party** skrár fyrir **Reikningur**, **samband**, og **Seljandi** skrár.
 10. Skref 16-1 til 16-7 sækja tilvísunargögn eins og kveðjur og persónugerðir og tengja þau við **Hafðu samband fyrir Party** skrár.
 11. Skref 17 sameinar **Hafðu samband fyrir Party** skrár fyrir **Reikningur**, **samband**, og **Seljandi** skrár.
-12. Skref 18 flytur inn **Hafðu samband fyrir veislu** skrár inn í forritið fyrir þátttöku viðskiptavina.
+12. Skref 18 flytur inn **Hafðu samband fyrir Party** skrár inn í forritið fyrir þátttöku viðskiptavina.
 
 ### <a name="steps-in-the-party-postal-address-template"></a>Skref í sniðmát fyrir póstfang aðila
 
