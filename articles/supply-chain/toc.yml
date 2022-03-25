@@ -747,13 +747,37 @@
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
                 - name: Geymsluskýrsla fyrir samanburð vöruverðs
                   href: cost-management/compare-item-price.md
+            - name: Aðferðafræði kostnaðarútreiknings
+              items:
+                - name: Keyrsla á meðalkostnaðarverði
+                  href: cost-management/running-average-cost-price.md
+                - name: Rakning keyrslu á meðalkostnaðarverði eftir birgðavídd
+                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
+                - name: FIFO (fyrst inn - fyrst út) með efnislegt virði og merkingu
+                  href: cost-management/fifo-physical-value-marking.md
+                - name: Dagsetning LIFO (síðast inn - fyrst út) með efnislegt virði og merkingu
+                  href: cost-management/lifo-date-physical-value-marking.md
+                - name: LIFO (síðast inn - fyrst út) með efnislegt virði og merkingu
+                  href: cost-management/lifo-physical-value-marking.md
+                - name: Vegið meðaltal með efnislegt virði og merkingu
+                  href: cost-management/weighted-average-physical-value-marking.md
+                - name: Dagsetning vegins meðaltals með efnislegt virði og merkingu
+                  href: cost-management/weighted-average-date.md
+                - name: Hlaupandi meðaltal
+                  href: cost-management/moving-average.md
+                - name: 'Hlaupandi meðaltal, röð varakostnaðar'
+                  href: cost-management/moving-average-fallback.md
             - name: Birgðabókhald
               items:
+                - name: Efnislegar og fjárhagslegar uppfærslur
+                  href: cost-management/physical-financial-updates.md
+                - name: Efnislegt virði tekið með
+                  href: cost-management/include-physical-value.md
                 - name: Kostnaðarhlutir
                   href: cost-management/cost-object.md
                 - name: Skoða stöðu kostnaðarhlutar
                   href: cost-management/tasks/view-cost-object-balance.md
-                - name: Skoða birgðayfirlit og afkastavísi eftir kostnaðarhlut
+                - name: Skoða birgðayfirlit og KPI (afkastavísi) eftir kostnaðarhlut
                   href: cost-management/tasks/view-inventory-statement-kpi-cost-object.md
                 - name: Kostnaðarfærslur
                   href: cost-management/cost-entries.md
@@ -761,30 +785,8 @@
                   href: cost-management/tasks/view-cost-entries-cost-object.md
                 - name: Kostnaðarflokkar
                   href: cost-management/cost-groups.md
-                - name: FIFO (fyrst inn - fyrst út) með efnislegt virði og merkingu
-                  href: cost-management/fifo-physical-value-marking.md
-                - name: Efnislegt virði tekið með
-                  href: cost-management/include-physical-value.md
                 - name: Virði birgðahluta
                   href: cost-management/physical-quantity.md
-                - name: Dagsetning LIFO (síðast inn - fyrst út) með efnislegt virði og merkingu
-                  href: cost-management/lifo-date-physical-value-marking.md
-                - name: LIFO (síðast inn - fyrst út) með efnislegt virði og merkingu
-                  href: cost-management/lifo-physical-value-marking.md
-                - name: Hlaupandi meðaltal
-                  href: cost-management/moving-average.md
-                - name: 'Hlaupandi meðaltal, röð varakostnaðar'
-                  href: cost-management/moving-average-fallback.md
-                - name: Efnislegar og fjárhagslegar uppfærslur
-                  href: cost-management/physical-financial-updates.md
-                - name: Keyrsla á meðalkostnaðarverði
-                  href: cost-management/running-average-cost-price.md
-                - name: Rakning keyrslu á meðalkostnaðarverði eftir birgðavídd
-                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
-                - name: Dagsetning vegins meðaltals
-                  href: cost-management/weighted-average-date.md
-                - name: Vegið meðaltal með efnislegt virði og merkingu
-                  href: cost-management/weighted-average-physical-value-marking.md
                 - name: Birgðalokun
                   href: cost-management/inventory-close.md
                 - name: Leiðrétting kostnaðarvirðis lagerbirgða
@@ -1431,9 +1433,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Kemba gagnagjafa
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Skilgreina gagnalíkön
+                  items:
+                    - name: Styðja færibreytuköll á gagnlíkön rafrænnar skýrslugerðar
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Skilgreina vörpun líkana
                   items:
-                    - name: Skilgreina varpanir rafrænna skýrslugerðarlíkana sem háð eru samhengi við lönd
+                    - name: Skilgreina varpanir líkana rafrænnar skýrslugerðar sem háðar eru samhengi við lönd
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Stjórna vörpunarlíkani rafrænnar skýrslugerðar í aðskilinni skilgreiningu rafrænnar skýrslugerðar
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -3855,6 +3861,8 @@
               items:
                 - name: Warehouse mobile app
                   items:
+                    - name: Óvæntur munur á gögnum beiðni og gögnum lotu við prófun
+                      href: troubleshooting/warehousing/request-session-data-difference.md
                     - name: Traustsakkeri fyrir vottunarslóð fannst ekki þegar tenging forrits var sett upp
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: Traustsakkeri fyrir vottunarslóð fannst ekki við uppfærslu og flutning í vöruhúsakerfi

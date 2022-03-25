@@ -1016,10 +1016,12 @@
                   href: manage-csp.md
                 - name: Afþakka söfnun aðgerðatilvika á vef
                   href: web-activity-opt-out.md
-                - name: Jafna stillingar mælieiningar
+                - name: Nota stillingar mælieininga
                   href: unit-of-measure.md
                 - name: Nota skjástillingar fyrir afurðarvíddir
                   href: dimension-settings.md
+                - name: Kveikja á og virkja viðhaldsstillingu rafrænna viðskipta
+                  href: enable-maintenance-mode.md
             - name: Stjórna efni svæðis
               items:
                 - name: Leiðir til að bæta við efni
@@ -2100,9 +2102,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Kemba gagnagjafa
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: Skilgreina gagnalíkön
+                  items:
+                    - name: Styðja færibreytuköll á gagnlíkön rafrænnar skýrslugerðar
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina vörpun líkana
                   items:
-                    - name: Skilgreina varpanir rafrænna skýrslugerðarlíkana sem háð eru samhengi við lönd
+                    - name: Skilgreina varpanir líkana rafrænnar skýrslugerðar sem háðar eru samhengi við lönd
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
                     - name: Stjórna vörpunarlíkani rafrænnar skýrslugerðar í aðskilinni skilgreiningu rafrænnar skýrslugerðar
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -2756,10 +2762,12 @@
                   items:
                     - name: Einingar
                       items:
-                        - name: Klóna einingar einingasafns
+                        - name: Klóna einingu einingasafns
                           href: e-commerce-extensibility/clone-starter-module.md
                         - name: Víkka út skilgreiningu einingar
                           href: e-commerce-extensibility/extend-module-definition.md
+                        - name: Breyta föstum strengjum einingasafns
+                          href: e-commerce-extensibility/change-module-library-strings.md
                     - name: Gagnaaðgerðir
                       items:
                         - name: Hnekkingar gagnaaðgerða
@@ -2774,6 +2782,8 @@
                           href: e-commerce-extensibility/override-theme-component.md
                         - name: Stækka þema úr grunnþema
                           href: e-commerce-extensibility/extend-theme.md
+                        - name: Breyta einingastrengjum þema
+                          href: e-commerce-extensibility/change-theme-module-strings.md
                 - name: Pökkun og uppsetning
                   items:
                     - name: Skilgreiningar á pökkum og notkun þeirra í netumhverfi
@@ -2798,6 +2808,8 @@
                           href: e-commerce-extensibility/page-caching.md
                         - name: Skyndiminni gagnaaðgerðatilviks
                           href: e-commerce-extensibility/instance-cache.md
+                        - name: Fínstilling CSS einingar
+                          href: e-commerce-extensibility/module-css-optimization.md
                     - name: Fjarmælingar og greiningar
                       items:
                         - name: Skráning fjarmælinga

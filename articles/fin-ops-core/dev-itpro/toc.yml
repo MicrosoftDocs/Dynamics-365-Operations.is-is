@@ -242,6 +242,8 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: Gera einingaverslun tiltæka sem Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: Viðskiptatilvik mynduð af útflutningi í þjónustu Azure Data Lake (forskoðun)
+              href: data-entities/Azure-Data-Lake-Generates-Biz-events.md
             - name: Breyta gögnum í Azure Data Lake
               href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Aðgerðir í flutningi gagnagrunns
@@ -1068,7 +1070,9 @@
                       href: data-entities/dual-write/sales-status-map.md
                     - name: Sía pantanir innan samstæðu til að komast hjá því að samstilla pantanir og pöntunarlínur
                       href: data-entities/dual-write/filtering-intercompany-orders.md
-                - name: Umsjón með tvöföldum skrifum
+                    - name: Fjarlægja skipulagslausnir fyrir tvöfalda skráningu forrita
+                      href: data-entities/dual-write/uninstall-solutions.md
+                - name: Umsjón með tvöfaldri skráningu
                   items:
                     - name: Sérstilling á vörpun eininga og reita
                       href: data-entities/dual-write/customizing-mappings.md
