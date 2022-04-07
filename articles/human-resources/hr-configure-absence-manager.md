@@ -1,7 +1,7 @@
 ---
 title: Skilgreina hlutverk fjarvistastjórnanda
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp hlutverk fjarvistastjórnanda fyrir stjórnun á leyfi starfsmanns.
-author: hasrivas
+author: twheeloc
 ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
@@ -12,20 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: hasrivas
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9f1c699358c9cc8de9e975886cfb72edfb0d3f31
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 69a9bfe47c342f2efdae51bd62a317b4b0ab7ff5
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065227"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8534109"
 ---
 # <a name="configure-the-absence-manager-role"></a>Skilgreina hlutverk fjarvistastjórnanda
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+>[!Important]
+>Virknin sem vísað er til í þessu efnisatriði er nú í boði fyrir viðskiptavini sem nota stakt Dynamics 365 Human Resources. Sum eða öll virknin verður í boði sem hluti af síðari útgáfu í tölvukerfi Finance eftir útgáfu 10.0.26 af Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

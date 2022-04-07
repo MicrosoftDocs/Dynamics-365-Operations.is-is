@@ -2,7 +2,7 @@
 title: Algengar spurningar um endurstillingar gagnaskemmu
 description: Þetta efnisatriði veitir svör við nokkrum algengum spurningum um endurstillingar gagnaskemmu.
 author: jinniew
-ms.date: 02/14/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
-ms.translationtype: HT
+ms.openlocfilehash: ab6417a739e9a7b67b9e67d93f3bef654e55e5e4
+ms.sourcegitcommit: 2c2ef3e312e7221006a9e230c9378bb4c1b4cd33
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119513"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8466412"
 ---
 # <a name="data-mart-resets-faq"></a>Algengar spurningar um endurstillingar gagnaskemmu
 
@@ -47,10 +47,14 @@ Ef ein eða fleiri eftirfarandi fullyrðinga eiga við um aðstæður þínar ge
 Hér eru nokkrar aðstæður þar sem við mælum ekki með því að þú endurstillir gagnaskemmuna:
 
 - Þú ert að lenda í gagnasamþættingarvandamálum.
+- Financial Reporter samþætting þín er ekki virkjuð. 
+
+    - Þetta þýðir að ekki er lengur verið að samstilla gögn fjárhagsskýrslu við fjárhagsskýrslugagnamarkaðinn þinn. Fjárhagsskýrslan þín er hugsanlega ekki að fá uppfærðar tölur fyrir fjárhagsskýrslur þínar. Þetta gerist venjulega ef þú hefur ekki notað Financial Reporter í langan tíma.
+    - Þú verður beðinn um að virkja samþættingu með því að endurstilla gagnamarkaðinn. Þú getur haldið áfram með því að velja **Já**. Þú getur líka valið að endurstilla gagnamarkaðinn síðar. Eftir að samþætting er virkjuð eru fjárhagsgögn þín samstillt í Financial Reporter aftur. 
 - Mynstur endurtekinnar endurstillingar á sér stað af einhverjum eftirfarandi ástæðum:
 
     - **Vantar eða óvænt gögn í skýrslunni** – Ef þú tekur eftir því að gögn vantar skaltu opna stuðningsmiða hjá Microsoft til að skoða skýrslusniðið þitt og hugsanleg vandamál við samstillingu gagna.
-    - **Föst samþættingarstaða**
+    - **Fast samþættingarástand** - Ef þú tekur eftir að samþættingarstaðan er föst í gangi getur það verið vegna mikils magns viðskipta í kerfinu. Þetta ríki mun leysa sig sjálft. Hins vegar, ef þú tekur eftir að samþættingarstaðan er föst í meira en fjórar klukkustundir, opnaðu stuðningsmiða hjá Microsoft. 
    
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Ef ég endurstilli gagnaskemmu missi ég þá skýrslur sem ég hef þegar hannað?
 

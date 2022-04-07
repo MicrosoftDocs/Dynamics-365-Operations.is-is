@@ -2,25 +2,27 @@
 title: Yfirlitssíða fjárhagsskýrslugerðar
 description: Þetta efnisatriði lýsir hvar á að opna fjárhagslegar skýrslugerð í Microsoft Dynamics 365 Finance og hvernig á að nota getu fjárhagsskýrslugerðar.
 author: aprilolson
-ms.date: 07/27/2021
+ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.custom:
+- "10444"
+- intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
+ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983978"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8527314"
 ---
 # <a name="get-started-with-financial-reporting"></a>Hafist handa með fjárhagsskýrslugerð 
 
@@ -174,7 +176,7 @@ Vandamál 1: Skýrsluhönnun hefst ekki þegar valið er **Nýtt** eða **Breyta
 * Í Internet Explorer, veljið **Stillingar**, síðan skal velja **Internetvalkostir**. Velja skal flipann **Öryggi**. Veljið Traust vefsvæði og veljið síðan **Vefsvæði**. Í **Bæta þessu vefsvæði við svæði**, skal færa inn „\*\.dynamics.com“ (án gæsalappa) og síðan velja **Bæta við**. 
 * Í Internet Explorer, veljið **Stillingar**, síðan skal velja **Internetvalkostir**. Velja skal flipann **Öryggi**. Veljið Traust vefsvæði. Á svæðinu sem merkt er Öryggisstig fyrir þetta svæði skal breyta valkostinum í **Miðlungs-lágt**.
 * Slökkvið á sprettigluggavörninni í vafranum.
-* Vinnutölvur eru nauðsynlegar til að setja upp Microsoft .NET Framework 4.6.2 eða nýrri. Hægt er að sækja og setja upp þessa útgáfu af Microsoft .NET Framework úr [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53345).
+* Vinnutölvur eru nauðsynlegar til að setja upp Microsoft .NET Framework 4.7.2 eða nýrri. Hægt er að sækja og setja upp þessa útgáfu af Microsoft .NET Framework úr [Microsoft Download Center](https://dotnet.microsoft.com/download/dotnet-framework/net472).
 * Ef verið er að nota Chrome vafra, verður að setja upp ClickOnce-viðauka til að sækja skýrslu Report Designer. Ef verið er að nota Chrome í huliðsstillingu skal ganga úr skugga um að ClickOnce viðbót sé einnig virkur fyrir huliðsstillingu. Frekari upplýsingar um Chrome ClickOnce viðbótina er að finna í [Kerfisskilyrði fyrir uppsetningu í skýi](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Ef notað er Microsoft Edge með Chrome-vafra þarf ekki að setja upp ClickOnce viðbót fyrir Edge Chromium. Hins vegar verður að kveikja á valkostinum ClickOnce til að sækja valkostinn biðlara Skýrsluhönnunar. Ef verið er að nota huliðsstillingu, ganga úr skugga um að ClickOnce viðbótin sé einnig virk fyrir huliðsstillingu.
 

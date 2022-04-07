@@ -2,7 +2,7 @@
 title: Flokkaðu færslur og uppsafnaða útreikninga með því að nota GROUPBY gagnaveitur
 description: Þetta efnisatriði útskýrir hvernig þú getur notað GROUPBY gerð gagnagjafa í rafrænni skýrslugerð (ER).
 author: NickSelin
-ms.date: 01/31/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a6cdc486c5f799bdedafa38e90be989fd328c96
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: HT
+ms.openlocfilehash: 3b79dfe62122a031ae9ed7f51ea7ff578cd47358
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075753"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462298"
 ---
 # <a name="group-records-and-aggregate-calculations-by-using-groupby-data-sources"></a>Flokkaðu færslur og uppsafnaða útreikninga með því að nota GROUPBY gagnaveitur
 
 [!include[banner](../includes/banner.md)]
-
-[!include[banner](../includes/preview-banner.md)]
 
 Þegar þú stillir [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) líkanakortanir eða snið, þú getur [Bæta við](#AddMmDataSource2) nauðsynlegar gagnaheimildir **GroupBy** tegund.
 
@@ -36,7 +34,7 @@ ms.locfileid: "8075753"
 - [Flokkun reita](#GroupingFields) af grunngagnagjafanum, sem verður notaður til að flokka skrár á keyrslutíma
 - [Samanlögð aðgerðir](#AggregateFunctions) sem tilgreina heildarútreikninga sem verða gerðir fyrir hvern fundinn hóp á keyrslutíma
 
-Á keyrslutíma, stillt **GroupBy** gagnaveita flokkar færslur sem hafa sömu gildi í flokkunarreitunum og skilar síðan lista yfir færslur. Hver skrá táknar einn hóp. Fyrir hvern hóp afhjúpar gagnagjafinn svæðisgildin sem upphafsfærslurnar voru flokkaðar eftir, gildi reiknaðra uppsöfnunarfalla og lista yfir færslur grunngagnagjafans sem tilheyrir hópnum.
+Á keyrslutíma, stillt **GroupBy** gagnaveita flokkar færslur sem hafa sömu gildi í flokkunarreitunum og skilar síðan lista yfir færslur. Hver skrá táknar einn hóp. Fyrir hvern hóp afhjúpar gagnagjafinn svæðisgildin sem upphafsfærslurnar voru flokkaðar eftir, gildi útreiknuðu uppsafnaða fallanna og lista yfir færslur grunngagnagjafans sem tilheyrir hópnum.
 
 ## <a name="aggregate-functions"></a><a name="AggregateFunctions"></a> Samanlögð aðgerðir
 
@@ -50,7 +48,7 @@ ms.locfileid: "8075753"
 
 ## <a name="execution-location"></a><a name="ExecutionLocation"></a>Staðsetning keyrslu
 
-Þegar þú breytir a **GroupBy** gagnagjafa og tilgreindu grunngagnagjafann sem inniheldur færslurnar sem þarf að flokka, kerfið finnur sjálfkrafa skilvirkustu [staðsetningu](#ExecutionLocation) fyrir framkvæmd þess **GroupBy** gagnagjafa. Ef grunngagnagjafinn er [fyrirspurnahæft](er-functions-list-filter.md#usage-notes) (þ.e. ef hægt er að keyra hann á gagnagrunnsstigi), er forritagagnagrunnurinn einnig tilgreindur sem framkvæmdarstaður breytanlegs **GroupBy** gagnagjafa. Annars er minni forritaþjónsins tilgreint sem framkvæmdarstaður.
+Þegar þú breytir a **GroupBy** gagnagjafa og tilgreinið grunngagnagjafann sem inniheldur færslurnar sem þarf að flokka, kerfið finnur sjálfkrafa skilvirkustu [staðsetningu](#ExecutionLocation) fyrir framkvæmd þess **GroupBy** gagnagjafa. Ef grunngagnagjafinn er [fyrirspurnahæft](er-functions-list-filter.md#usage-notes) (þ.e. ef hægt er að keyra hann á gagnagrunnsstigi), er forritagagnagrunnurinn einnig tilgreindur sem framkvæmdarstaður breytanlegs **GroupBy** gagnagjafa. Annars er minni forritaþjónsins tilgreint sem framkvæmdarstaður.
 
 Þú getur handvirkt breytt sjálfvirkri framkvæmdarstaðsetningu með því að velja staðsetningu sem á við um stillta gagnagjafann. Ef framkvæmdarstaðurinn sem er valinn á ekki við, a [staðfestingarvilla](er-components-inspections.md#i5) er hent á hönnunartíma.
 
@@ -63,7 +61,7 @@ Sjálfgefið, ef a **GroupBy** gagnagjafi er keyrður í minni, er minni forrita
 
 ## <a name="alternatives"></a><a name="Alternatives"></a> Valkostir
 
-Hægt er að reikna svipaðar samanlagnir með því að nota [öðruvísi](er-data-collection-data-sources.md#if-i-have-to-calculate-running-totals-and-collect-data-what-is-the-difference-between-using-a-data-collection-data-source-and-using-the-built-in-data-collection-functions) tegundir gagnagjafa eða ER innbyggðar aðgerðir.
+Hægt er að reikna út svipaðar samanlagnir með því að nota [öðruvísi](er-data-collection-data-sources.md#if-i-have-to-calculate-running-totals-and-collect-data-what-is-the-difference-between-using-a-data-collection-data-source-and-using-the-built-in-data-collection-functions) tegundir gagnagjafa eða ER innbyggðar aðgerðir.
 
 Til að læra meira um þennan eiginleika skaltu ljúka við dæmið sem fylgir.
 
@@ -87,7 +85,7 @@ Fylgdu skrefunum í [Skilgreina ramma rafrænnar skýrslugerðar](er-quick-start
 
 Fylgdu skrefunum í [Flytja inn staðlaða skilgreiningu rafræns skýrslugerðarsniðs](er-quick-start2-customize-report.md#ImportERSolution1) til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núverandi tilvik af Dynamics 365 Finance. Flytja inn útgáfu 1 af **Intrastat líkan** stillingar úr geymslunni.
 
-### <a name="create-a-custom-data-model-configuration"></a>Búðu til sérsniðna gagnalíkanstillingu
+### <a name="create-a-custom-data-model-configuration"></a>Búðu til sérsniðna uppsetningu gagnalíkana
 
 Fylgdu skrefunum í [Bættu við sérsniðinni gagnalíkönstillingu](er-quick-start3-customize-report.md#add-a-custom-data-model-configuration) til að bæta við nýju handvirkt **Intrastat líkan (Litware)** Uppsetning ER gagnalíkans sem þú færð úr innfluttu **Intrastat líkan** stillingar.
 
@@ -158,7 +156,7 @@ Fylgdu skrefunum í [Búðu til nýja gerð kortlagningarstillingar](er-quick-st
 
 #### <a name="add-a-data-source-to-access-an-application-table"></a><a name="AddMmDataSource1"></a> Bættu við gagnagjafa til að fá aðgang að forritatöflu
 
-Stilltu gagnagjafa til að fá aðgang að forritatöflum sem innihalda upplýsingar um Intrastat færslur.
+Stilltu gagnagjafa til að fá aðgang að forritatöflunum sem innihalda upplýsingar um Intrastat færslur.
 
 1. Á síðunni **Hönnuður líkanavörpunar**, í rúðunni **Gerðir gagnagjafa**, skal velja **Dynamics 365 for Operations\\Töflufærslur**.
 2. Í **Uppsprettur gagna** rúðu, veldu **Bæta við rót** til að bæta við nýjum gagnagjafa sem verður notaður til að fá aðgang að **Intrastat** borð. Hvert met í **Intrastat** taflan táknar eina Intrastat færslu.
@@ -180,7 +178,7 @@ Stilla a **GroupBy** gagnagjafi til að flokka Intrastat færslur og reikna sama
 8. Veldu **Færsla\Upphæð MST** reit og fylgdu síðan þessum skrefum:
 
     1. Veldu **Bæta reit við \> Samanlagt reitir** að gefa til kynna að an<a name="AggregateFunctions">samanlagt fall</a> verður reiknað fyrir þennan reit.
-    2. Í **Söfnun** glugganum, í færslunni sem hefur verið bætt við fyrir valið **Færsla\Upphæð MST** sviði, í **Aðferð** reit, veldu **Summa** virka.
+    2. Í **Söfnun** glugga, í færslunni sem hefur verið bætt við fyrir valið **Færsla\Upphæð MST** sviði, í **Aðferð** reit, veldu **Summa** virka.
     3. Í **Nafn** valfrjáls reit, slá inn **TotalInvoicedAmount**.
 
     Þessar stillingar tilgreina að fyrir hvern flutningshóp sé heildarupphæð **Færsla\Upphæð MST** reit verður reiknað út.

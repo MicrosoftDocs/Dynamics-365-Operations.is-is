@@ -1,21 +1,21 @@
 ---
 title: Neikvæðir dagar og gagnvirkir neikvæðir dagar
 description: Þetta umræðuefni veitir upplýsingar um neikvæða daga og kvika neikvæða daga og hvernig þú getur notað þá til að hjálpa fyrirtækinu.
-author: ChristianRytt
+author: t-benebo
 ms.date: 05/25/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5e86cc8abd4de1e23b1a7f7217bbb1fd5ea966b988a879e663b6f393e0d1204
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d88517c99a274911e8abd8de4bcd318139822a5
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756968"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469870"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Neikvæðir dagar og gagnvirkir neikvæðir dagar
 

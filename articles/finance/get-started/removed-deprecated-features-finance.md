@@ -1,23 +1,23 @@
 ---
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir úr Dynamics 365 Finance.
-author: roschlom
-ms.date: 12/03/2021
+author: kfend
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
+ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890954"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8466835"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 
@@ -31,7 +31,21 @@ ms.locfileid: "7890954"
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
 > [!NOTE]
-> Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](/dynamics/s-e/global/axtechrefrep_61). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+> Ítarlegar upplýsingar um hluti í Finance and Operations öppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/global/axtechrefrep_61). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af Finance and Operations forritum.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.26 útgáfu
+
+### <a name="sales-tax-report-for-finland-design-based-on-reporting-codes"></a>Vöruskattsskýrsla fyrir Finnland (hönnun byggð á skýrslukóðum)
+
+[Söluskattsskýrsla fyrir Finnland](../localizations/emea-fin-sales-tax-payment-report-finland.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir nýja hönnun virðisaukaskattsskýrslu, [VSK yfirlýsing fyrir Finnland](../localizations/emea-fin-vat-declaration.md). |
+| **Skipt út fyrir aðra eiginleika?**   | Já |
+| **Afurðasvæði sem haft er áhrif á**         | Forrit |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: Fyrir 1. mars 2023 ætlum við að styðja ekki lengur söluskattsskýrsluna fyrir Finnland (finnsk skýrsluútlit). Nýtt **VSK yfirlýsing TXT (FI**) og **VSK yfirlýsing Excel (FI)** Rafræn skýrslugerð (ER) snið eru kynnt undir **Skattskýrsla** fyrirmynd. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.24 útgáfu
 
@@ -44,7 +58,7 @@ ms.locfileid: "7890954"
 | **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir nýja hönnun virðisaukaskattsskýrslu, [VSK yfirlýsing fyrir Svíþjóð](../localizations/emea-swe-vat-declaration-sweden.md) |
 | **Skipt út fyrir aðra eiginleika?**   | Já |
 | **Afurðasvæði sem haft er áhrif á**         | Forrit |
-| **Dreifingarvalkostur**              | Öll |
+| **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Úrelt: Fyrir 1. desember 2022 ætlum við að styðja ekki lengur söluskattsskýrslu fyrir Svíþjóð (sænsk skýrsluútlit). Nýtt **VSK yfirlýsing XML (SE**) og **VSK yfirlýsing Excel (SE)** Rafræn skýrslugerð (ER) snið eru kynnt undir **Skattskýrsla** fyrirmynd. |
 
 ### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>VSK yfirlit fyrir Austurríki (hönnun byggð á skýrslukóðum)
@@ -56,8 +70,8 @@ ms.locfileid: "7890954"
 | **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir nýja hönnun virðisaukaskattsskýrslu, [VSK yfirlýsing fyrir Austurríki](../localizations/emea-aut-vat-declaration-austria.md) |
 | **Skipt út fyrir aðra eiginleika?**   | Já |
 | **Afurðasvæði sem haft er áhrif á**         | Forrit |
-| **Dreifingarvalkostur**              | Öll |
-| **Staða**                         | Úrelt: Fyrir 1. desember 2022 ætlum við að styðja ekki lengur **VSK yfirlýsing (AT)** Rafræn skýrslugerð (ER) snið undir **VSK framtalslíkan**. Nýtt **VSK yfirlýsing XML (AT)** og **VSK yfirlýsing Excel (AT)** snið eru kynnt undir **Skattskýrsla** fyrirmynd. |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: Fyrir 1. desember 2022 ætlum við að styðja ekki lengur **VSK yfirlýsing (AT)** Rafræn skýrslugerð (ER) snið undir **Fyrirmynd virðisaukaskattsskýrslu**. Nýtt **VSK yfirlýsing XML (AT)** og **VSK yfirlýsing Excel (AT)** snið eru kynnt undir **Skattskýrsla** fyrirmynd. |
 
 ### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>ELSTER yfirlýsing fyrir Þýskaland (hönnun byggð á skýrslukóðum)
 
@@ -70,7 +84,7 @@ ms.locfileid: "7890954"
 | **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir nýja hönnun virðisaukaskattsskýrslu, [VSK yfirlýsing fyrir Þýskaland](../localizations/emea-deu-vat-declaration-germany.md) |
 | **Skipt út fyrir aðra eiginleika?**   | Já |
 | **Afurðasvæði sem haft er áhrif á**         | Forrit |
-| **Dreifingarvalkostur**              | Öll |
+| **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Úrelt: Fyrir 1. desember 2022 ætlum við að styðja ekki lengur **Elster (DE)** og **Elster módel** Rafræn skýrslugerð (ER) snið. Nýtt **VSK yfirlýsing XML (DE)** og **VSK yfirlýsing Excel (DE)** snið eru kynnt undir **Skattskýrsla** fyrirmynd. |
 
 ### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>OB yfirlýsing fyrir Holland (hönnun byggð á tilkynningarkóðum)
@@ -82,7 +96,7 @@ ms.locfileid: "7890954"
 | **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir nýja hönnun virðisaukaskattsskýrslu, [VSK yfirlýsing fyrir Holland](../localizations/emea-nl-vat-declaration-netherlands.md) |
 | **Skipt út fyrir aðra eiginleika?**   | Já |
 | **Afurðasvæði sem haft er áhrif á**         | Forrit |
-| **Dreifingarvalkostur**              | Öll |
+| **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Úrelt: Fyrir 1. desember 2022 ætlum við að styðja ekki lengur **OB yfirlýsing (NL)** og **OB yfirlýsingalíkan** Rafræn skýrslugerð (ER) snið. Nýtt **VSK yfirlýsing XML (NL)** og **VSK yfirlýsing Excel (NL)** snið eru kynnt undir **Skattskýrsla** fyrirmynd. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.20 útgáfu

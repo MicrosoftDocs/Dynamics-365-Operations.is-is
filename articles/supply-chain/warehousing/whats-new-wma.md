@@ -10,18 +10,27 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8418641"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487837"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er að finna nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20200"></a>Útgáfa 2.0.20.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+
+- Lagaði nokkur hrunvandamál.
+- Lagaði vandamál þar sem röng gildi myndu birtast á spjöldum á **Verklisti** síðu.
+- Bætti skrunupplifunina og útrýmdi skrunflisi á **Verklisti** og **Atriðafyrirspurn** síður í Android.
+- Bætti útgönguhnappi við innskráningarsíðuna, sem hættir forritinu.
 
 ## <a name="version-20190"></a>Útgáfa 2.0.19.0
 
@@ -49,7 +58,7 @@ ms.locfileid: "8418641"
 - Bætti við stuðningi við almennt gagnafyrirspurnarflæði.
 - Bætti við skilaboðum til að segja notendum frá breytingum á nettengingarstöðu.
 - Samræmdi geymsluheimildir við persónuverndarstefnu geymslu í Android 10.
-- Fyrir flæði sem þarfnast þess inniheldur magnsnúningurinn nú stöðu sem gerir notendum kleift að senda inn autt tölugildi.
+- Fyrir flæði sem þurfa á því að halda inniheldur magnsnúningurinn nú stöðu sem gerir notendum kleift að senda inn autt tölugildi.
 - Lagaði vandamál með stefnu magnsnúnings.
 - Lagaði mál þar sem magnsnúningurinn myndi hoppa á rangt gildi.
 - Lagaði vandamál þar sem inntak á aðalsíðuna glataðist þegar það var fyllt út af upplýsingasíðunni.

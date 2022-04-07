@@ -15,17 +15,16 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0c62e11cc6d39c351321419bb862a5169b162fb7
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
-ms.translationtype: HT
+ms.openlocfilehash: 141b57586f5c4588b0b33bd85b584e570e39902f
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349718"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462498"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Aðgerðir sölustaðar (POS) með og án nettengingar
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Flestar aðgerðir sem notendur grípa til á sölustað (POS) eru taldar aðgerðir. Aðgerðir eru skilgreindar og þeim stjórnað í bakvinnslu Dynamics 365 Commerce. Hægt er að bæta mörgum aðgerðum við takka í POS hnappakerfinu. Notendur geta síðan valið hnappana til að kalla fram aðgerðir og framkvæma virkni þeirra. Aðrar aðgerðir er hluti af aðal POS forritinu og kallaðar fram annaðhvort úr hnöppum á skjánum eða sem hluti af öðrum verkflæði eða ferlum.
 
@@ -161,7 +160,7 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 644 | Fjarlægja afsláttarmiðakóða | Hvetja notandann til að fjarlægja afsláttarmiða með því að velja þau á lista yfir afsláttarmiða sem tengjast viðskiptunum. | Já | Já | Nei | Já | Nr. |
 | 1057 | Endurprenta Z | Endurprentaðu Z skýrsluna fyrir fyrri vakt. | Já | Já | Já | Nr. | Nr. |
 | 1216 | Færið inn nýtt aðgangsorð | Þessi aðgerð gerir notanda sem hefur heimild fyrir endurstillingu aðgangsorðs kleift að endurstilla aðgangsorð annars starfsmanns með því að nota tímabundið aðgangsorð. | Já | Já | Já | Nr. | Nr. |
-| 1219 | Opna vefslóð í sölustað | Opnaðu stjórnandastillinga vefslóð í POS. | Já | Já | Já | Já | Nr. |
+| 1219 | Opna vefslóð í sölustað | Opnaðu stjórnanda stillta vefslóð í POS. | Já | Já | Já | Já | Nr. |
 | 109 | Skila afurð | Framkvæma skil á einstaka afurðum. Næsta skannaða afurð er birt sem skiluð vara sem hefur neikvætt magn og verð. | Já | Já | Nei | Já | Nei |
 | 114 | Skilafærsla | Muna fyrri viðskipti út frá kvittunarnúmeri til að skila einhverjum eða öllum vörum. | Já | Já | Já | Já§ | Nei |
 | 1211 | Peningaflutningur í öryggisskáp | Flytja peninga úr afgreiðslukassa í öryggisskáp. | Já | Já | Já | Já | Nei |

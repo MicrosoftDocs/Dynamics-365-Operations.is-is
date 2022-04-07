@@ -1,7 +1,7 @@
 ---
 title: Úthluta starfsmönnum á leyfisáætlun
 description: Úthluta starfsmönnum og verktökum að skilja áætlanir eftir Dynamics 365 Human Resources.
-author: andreabichsel
+author: twheeloc
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -12,20 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8e0253c6122d736e311ea65d6228cbaabecff8dc
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fd32b90be381f467d8cc5860e60db87356bc30b0
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070628"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8533994"
 ---
-# <a name="assign-workers-to-a-leave-plan"></a>Úthluta starfsmönnum á leyfisáætlun
+# <a name="assign-workers-to-a-leave-plan"></a>Úthluta starfskröftum á leyfisáætlun
 
+> [!Important]
+> Virknin sem vísað er til í þessu efnisatriði er nú í boði fyrir viðskiptavini sem nota stakt Dynamics 365 Human Resources. Sum eða öll virknin verður í boði sem hluti af síðari útgáfu í tölvukerfi Finance eftir útgáfu 10.0.26 af Finance.
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

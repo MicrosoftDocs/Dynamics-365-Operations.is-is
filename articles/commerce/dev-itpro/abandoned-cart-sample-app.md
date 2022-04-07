@@ -1,5 +1,5 @@
 ---
-title: Finndu yfirgefna kerrur og sendu tilkynningar til viðskiptavina
+title: Greina yfirgefnar körfur og senda tilkynningar til viðskiptavina
 description: Þetta efni lýsir því hvernig á að sérsníða Microsoft Dynamics 365 Commerce sýnishornsapp fyrir forláta körfutengi til að greina yfirgefnar kerrur og senda áminningar í tölvupósti til viðskiptavina.
 author: bicyclingfool
 ms.date: 02/25/2022
@@ -9,14 +9,14 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82848f1ff068cea0adfc6ec1b33fc4bb035f78dc
-ms.sourcegitcommit: 374bbdde90fc9a68c0799158a50409bfbe8ca64e
+ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
+ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8353374"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "8489031"
 ---
-# <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Finndu yfirgefna kerrur og sendu tilkynningar til viðskiptavina
+# <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Greina yfirgefnar körfur og senda tilkynningar til viðskiptavina
 
 [!include [banner](../includes/banner.md)]
 
@@ -99,11 +99,11 @@ Fyrir frekari upplýsingar um sjálfgefna Azure skilríki, sjá [DefaultAzureCre
 
 ## <a name="add-the-abandoned-cart-connector-sample-app-application-id-to-the-allow-list-for-the-retail-server-api"></a>Bættu auðkenni forritaforrits fyrir forláta körfutengi við leyfislistann fyrir Retail Server API
 
-Næst verður þú að bæta auðkenni forritaforrits fyrir yfirgefin körfutengi við leyfislistann fyrir smásöluþjóna API. Fyrir upplýsingar um hvernig á að bæta forritaauðkenni við leyfislistann í Azure, sjá [Stuðningur við þjónustu til þjónustu auðkenningar í smásöluþjóni](https://community.dynamics.com/ax/b/axforretail/posts/support-for-service-to-service-authentication-in-retail-server).
+Næst verður þú að bæta auðkenni forritaforrits fyrir yfirgefin körfutengi við leyfislistann fyrir Retail Server API. Fyrir upplýsingar um hvernig á að bæta forritaauðkenni við leyfislistann í Azure, sjá [Stuðningur við þjónustu til þjónustu auðkenningar í smásöluþjóni](https://community.dynamics.com/ax/b/axforretail/posts/support-for-service-to-service-authentication-in-retail-server).
 
 ## <a name="configure-the-abandoned-cart-connector-sample-app"></a>Stilltu sýnishornsforritið fyrir yfirgefin körfutengi
 
-Til að stilla sýnishornaforritið fyrir yfirgefin körfutengi skaltu breyta **appSettings.json** stillingarskrá sem er staðsett í rótinni á **AbandonedCartDetectionSample** Skrá. Eftirfarandi töflur lýsa eiginleikum stillingarskrár.
+Til að stilla sýnishornsappið fyrir forláta körfutengi skaltu breyta **appSettings.json** stillingarskrá sem er staðsett í rótinni á **AbandonedCartDetectionSample** Skrá. Eftirfarandi töflur lýsa eiginleikum stillingarskrár.
 
 ### <a name="keyvaultoptions"></a>KeyVaultOptions
 
@@ -115,19 +115,19 @@ Til að stilla sýnishornaforritið fyrir yfirgefin körfutengi skaltu breyta **
 
 | Eiginleiki                                      | Lýsing |
 | --------------------------------------------- | ----------- |
-| TenantId                                      | The Azure AD leigjanda auðkenni Azure leigjanda þíns. |
+| TenantId                                      | The Azure AD leigjandaauðkenni Azure leigjanda þíns. |
 | RetailServerAudienceId                        | Áhorfendaauðkenni smásöluþjónsins. Þú getur skilið eftir sjálfgefið gildi. |
 | AppIdKeyVaultSecretName                       | Heiti leyndarmálsins sem þú bjóst til fyrir forláta körfutengi sýnishorn forritaforrits. |
 | AppSecretKeyVaultSecretName                   | Nafn leyndarmálsins sem geymir forritsleyndarmálið fyrir yfirgefin körfutengi sýnishorn appauðkennis. |
 | RetailServerUrl                               | Vefslóð smásöluþjónsins þíns. Þú getur fundið þetta gildi í LCS. |
 | OperatingUnitNumber                           | Númer rekstrareiningar (OUN). Þú getur fundið þetta gildi í höfuðstöðvum Commerce. |
 | Hafa yfirgefnar kerrurBreyttar síðan á síðustu mínútu | Upphaf tímagluggans fyrir yfirgefnu kerrurnar sem þú vilt sækja. Gildið er gefið upp sem nokkrum mínútum fyrir núverandi tíma. Til dæmis, stilltu þennan eiginleika á **120** til að sækja allar kerrur sem síðast var breytt fyrir 120 mínútum til loka tímagluggans sem er skilgreindur af **ÚtilokaAbandoned CartsModifiedSinceLastMinutes** eign. |
-| ÚtilokaAbandoned CartsModifiedSinceLastMinutes | Lok tímagluggans fyrir yfirgefnu kerrurnar sem þú vilt sækja. Gildið er gefið upp sem nokkrum mínútum fyrir núverandi tíma. Til dæmis, ef **Hafa yfirgefnar kerrurBreyttar síðan á síðustu mínútu** eign er stillt á **120**, stilltu þessa eign á **30** til að sækja allar kerrur sem voru breyttar fyrir 120 mínútum og fyrir 30 mínútum. Í reynd skilgreinir þessi eiginleiki þann tíma sem þú vilt bíða áður en körfu er lýst yfirgefin. |
+| ÚtilokaAbandoned CartsModifiedSinceLastMinutes | Lok tímagluggans fyrir yfirgefnu kerrurnar sem þú vilt sækja. Gildið er gefið upp sem nokkrum mínútum fyrir núverandi tíma. Til dæmis, ef **Hafa yfirgefnar kerrurBreyttar síðan á síðustu mínútu** eign er stillt á **120**, stilltu þennan eiginleika á **30** til að sækja allar kerrur sem voru breyttar fyrir 120 mínútum og fyrir 30 mínútum. Í reynd skilgreinir þessi eiginleiki þann tíma sem þú vilt bíða áður en körfu er lýst yfirgefin. |
 | ReturnToCartUrl                               | Vefslóð körfunnar á netverslunarsíðunni þinni, á því sniði sem er notað í **app.config** skrá. |
 
 ### <a name="azurecosmosoptions"></a>AzureCosmosOptions
 
-Staða yfirgefin körfuöflunarstarfs, auðkenni körfu og breyttir tímastimplar eru geymdir í Azure Cosmos DB. Sjálfgefið er að stillingarnar í stillingarskránni benda á staðbundið keppinautatilvik Azure Cosmos DB. Þegar þú setur tengið í framleiðslu verður þú að uppfæra þessar stillingar þannig að þær bendi á Azure Cosmos DB dæmi í Azure áskriftinni þinni. Fyrir staðbundnar eða sandkassaprófanir geturðu notað [Azure Cosmos keppinautur](/azure/cosmos-db/local-emulator).
+Staða yfirgefin körfuöflunarstarfs, auðkenni körfu og breyttir tímastimplar eru geymdir í Azure Cosmos DB. Sjálfgefið er að stillingarnar í stillingarskránni benda á staðbundið keppinautatilvik Azure Cosmos DB. Þegar þú setur tengið í framleiðslu verður þú að uppfæra þessar stillingar þannig að þær bendi á Azure Cosmos DB dæmi í Azure áskriftinni þinni. Fyrir staðbundnar eða sandkassaprófanir geturðu notað [Azure Cosmos DB Hermir](/azure/cosmos-db/local-emulator).
 
 | Eiginleiki    | Lýsing |
 | ----------- | ----------- |

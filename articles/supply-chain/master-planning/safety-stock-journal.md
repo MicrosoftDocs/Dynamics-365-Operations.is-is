@@ -1,34 +1,34 @@
 ---
 title: Nota færslubók öryggisbirgða til að uppfæra lágmarkstryggingu fyrir vörur
 description: Þetta efnisatriði lýsir því hvernig á að nota öryggisbirgðabók til að uppfæra öryggisbirgðamagn fyrir vörur með því að reikna út lágmarksþekjutillögur byggðar á sögulegum viðskiptum.
-author: ChristianRytt
+author: t-benebo
 ms.date: 10/28/2021
 ms.topic: article
 ms.search.form: ReqItemJournalName, ReqItemJournalSafetyStock, EcoResProductInformationDialog, ReqItemTableSetup, ReqItemTable, EcoResProductDetailsExtended
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-10-28
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 59e4959898cd961582e1ac1d2285c0c0867ee7af
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: 391f741ee08eb0624e80f5c297009c527e50c14c
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790977"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468539"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage-for-items"></a>Nota færslubók öryggisbirgða til að uppfæra lágmarkstryggingu fyrir vörur
 
 [!include [banner](../../includes/banner.md)]
 
-Öryggisbirgðir gefa til kynna viðbótarmagn af vöru sem er í birgðum til að draga úr hættu á að varan fari úr birgðum. Öryggisbirgðir eru notaðar sem biðminni ef sölupantanir berast, en birgirinn getur ekki uppfyllt umbeðinn sendingardag viðskiptavinarins.
+Öryggisbirgðir gefa til kynna viðbótarmagn vöru sem er í birgðum til að draga úr hættu á að varan fari úr birgðum. Öryggisbirgðir eru notaðar sem biðminni ef sölupantanir berast, en birgir getur ekki uppfyllt umbeðinn sendingardag viðskiptavinarins.
 
 Þetta efnisatriði lýsir því hvernig á að nota öryggisbirgðabókina til að reikna út lágmarksþekjutillögur byggðar á sögulegum viðskiptum og uppfæra síðan vöruþekjuna með tillögunum.
 
 ## <a name="overview-of-minimum-coverage-usage"></a>Yfirlit yfir lágmarksþekjunotkun
 
-Öryggisbirgðir eru settar upp á **Vöruumfjöllun** síðu fyrir hvern hlut. Mismunandi gerðir áfyllingar eru táknaðar með mismunandi þekjukóðum. (Fyrir frekari upplýsingar, sjá [Uppfylling öryggisbirgða fyrir hluti](safety-stock-replenishment.md) .) Hins vegar nota allir þekjukóðar gildið sem er stillt í Lágmark sviði á Vöruumfjöllun síðu fyrir hvern hlut. Það eru tvær meginaðferðir til að nota **Lágmark** reit:
+Öryggisbirgðir eru settar upp á **Vöruumfjöllun** síðu fyrir hvern hlut. Mismunandi gerðir áfyllingar eru táknaðar með mismunandi þekjukóðum. (Fyrir frekari upplýsingar, sjá [Uppfylling öryggisbirgða fyrir hluti](safety-stock-replenishment.md) .) Hins vegar nota allir þekjukóðar gildið sem er stillt í **Lágmark** sviði á **Vöruumfjöllun** síðu fyrir hvern hlut. Það eru tvær meginaðferðir til að nota **Lágmark** reit:
 
 - **Lágmarksmagn í lágmarks/hámarks tilgangi** – Þessi nálgun notar lágmarksmagnið ásamt lágmark/max rökfræði. Það á við þegar **Umfjöllunarkóði** reiturinn er stilltur á *Min/Max* fyrir viðkomandi hlut eða umfjöllunarhóp. The **Lágmark** magn táknar meðaldaglega notkun margfaldað með afgreiðslutíma vörunnar.
 - **Lágmarksmagn fyrir birgðaáætlun** – Þessi nálgun notar lágmarksmagn til að tákna birgðaáætlun ásamt eftirspurnarspám. Það á við þegar **Umfjöllunarkóði** reiturinn er stilltur á *Tímabil* eða *Krafa* fyrir viðkomandi hlut eða umfjöllunarhóp. The **Lágmark** magn táknar birgðaáætlun sem endurspeglar æskilegt þjónustustig til að hjálpa til við að draga úr birgðum, hlutasendingum og afhendingartíma. Lágmarksmagnið endurspeglar hlutfall af spánákvæmni fyrir tiltekið atriði. Það táknar ekki æskilega birgðastöðu.
@@ -70,7 +70,7 @@ Skipuleggjandi notar öryggisbirgðabók til að reikna út fyrirhugað lágmark
 
 #### <a name="automatically-generate-journal-lines"></a>Mynda sjálfkrafa færslubókarlínur
 
-Færslubókarlínur er aðeins hægt að búa til sjálfkrafa ef engar línur eru til fyrir færslubókina sem er sýnd.
+Færslubókarlínur er aðeins hægt að mynda sjálfkrafa ef engar línur eru til fyrir færslubókina sem er sýnd.
 
 Fylgdu þessum skrefum til að mynda færslubókarlínur sjálfkrafa.
 
@@ -124,7 +124,7 @@ Fylgdu þessum skrefum til að mynda færslubókarlínur sjálfkrafa.
 
 ### <a name="update-minimum-quantity"></a>Uppfæra lágmarksmagn
 
-Þú getur valið hvaða línu sem er í öryggisbirgðabók og hnekkt handvirkt gildi hennar **Nýtt lágmarksmagn** sviði.
+Þú getur valið hvaða línu sem er í öryggisbirgðabók og hnekkt gildi hennar handvirkt **Nýtt lágmarksmagn** sviði.
 
 1. Fara til **Aðalskipulag \> Aðalskipulag \> Hlaupa \> Útreikningur á öryggisbirgðum**.
 1. Opnaðu dagbókina til að breyta. Einnig er hægt að búa til nýja dagbók eins og lýst er áðan.

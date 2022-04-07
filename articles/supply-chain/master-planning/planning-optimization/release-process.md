@@ -1,21 +1,21 @@
 ---
 title: Fínstilling áætlanagerðar, útgáfuferli og útgáfuferill
 description: Í þessu efnisatriði eru gefnar upplýsingar um útgáfuferlið og útgáfusöguna fyrir fínstilling áætlanagerðar.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fd6ecb0b7bc1fcf85feab2588622a96cf43b6155
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
-ms.translationtype: HT
+ms.openlocfilehash: 673543ff2c9abefbca0529f35ce20bb26156acc4
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407846"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469702"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Fínstilling áætlanagerðar, útgáfuferli og útgáfuferill
 
@@ -33,8 +33,8 @@ Umhverfi sem nota fínstillingu áætlanagerðar sjálfkrafa fá nýjustu útgá
 
 | Breytingar | Eiginleikastjórnunarupplýsingar | Útgáfudagar |
 |---|---|---|
-| <p>Almenn afköst, gæði og betri stöðugleiki.<p>Áætlanagerð hagræðing miðlægt dagatal viðhald<p>Áætlanagerð Hagræðingartillögur til að hámarka núverandi framboð | Engin eiginleikastjórnun er nauðsynleg. | 7.-11. mars 2022 |
-| <p>Bætt við stuðningi við skipulagsforgang fyrir framleiðslupantanir. | Fáanlegt með útgáfu 10.0.25 sem hluta af eiginleikanum sem nefndur er *Forgangsdrifinn MRP stuðningur fyrir hagræðingu áætlanagerðar*. | 12.-18. nóvember 2021 |
+| <p>Almenn afköst, gæði og betri stöðugleiki.<p>[Áætlanagerð hagræðing miðlægt dagatal viðhald](../supply-chain-calendars-master-planning.md)<p>[Áætlanagerð Hagræðingartillögur til að hámarka núverandi framboð](../action-messages.md)<p>[Stuðningur við skipulagningu hagræðingar fyrir undirverktaka](../../production-control/manage-subcontract-work-production.md) | Engin eiginleikastjórnun er nauðsynleg. | 7.-11. mars 2022 |
+| <p>Bætti við skipulagsforgangsstuðningi fyrir framleiðslupantanir. | Fáanlegt með útgáfu 10.0.25 sem hluti af eiginleikanum sem nefndur er *Forgangsdrifinn MRP stuðningur fyrir hagræðingu áætlanagerðar*. | 12.-18. nóvember 2021 |
 | <p>Almenn afköst, gæði og betri stöðugleiki. | Engin eiginleikastjórnun er nauðsynleg. | 12.-18. nóvember 2021 |
 | <p>Bætt við stuðningi við útreikningsformúlur fyrir vinnslutíma, framleiðsluleið með skörun og framleiðsluaðgerðanúmer á kröfufærslum.</p><p>Aukin villuboð fyrir framleiðsluáætlanir sem tengjast tímamörkum, afkastagetu fannst ekki og hjólaleið.</p><p>Bætt samræmi við útreikning á móttökudagsetningum og útgáfudagsetningum bæði á áætlunarpöntunum og staðfestum pöntunum.</p><p>Almenn afköst, gæði og betri stöðugleiki. | Heiti eiginleika: *Ótakmörkuð afkastaáætlun fyrir fínstillingu áætlanagerðar* | 22.-27. október 2021 |
 | <p>Bætt við stuðningi við að taka tillit til brotahlutfalls við útreikning á vinnslutíma.</p><p>Bætti við stuðningi við aðgerðanúmer og efnisnotkun við tímaáætlun. | Heiti eiginleika: *Ótakmörkuð afkastaáætlun fyrir fínstillingu áætlanagerðar* | 5.-7. október 2021 |

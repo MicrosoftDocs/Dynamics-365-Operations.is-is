@@ -2,7 +2,7 @@
 title: Munurinn á fjárhagsjöfnun og árslokalokun
 description: Þetta efnisatriði veitir upplýsingar um endurbætur sem hafa áhrif á fjárhagsuppgjör og árslok Fjárhags.
 author: kweekley
-ms.date: 01/31/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,24 +13,23 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: acfbcf1467363262769884063efbc1a6d6e21eb1
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
-ms.translationtype: HT
+ms.openlocfilehash: e18f77d73239de23000b5310d9342c6db95bc524
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075734"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462353"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>Munurinn á fjárhagsjöfnun og árslokalokun
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Í Microsoft Dynamics 365 Finance útgáfa 10.0.25, the **Meðvitund milli uppgjörs fjárhags og ársloka** eiginleiki er fáanlegur í **Eiginleikastjórnun** vinnurými. Þessi eiginleiki bætir við tveimur aðalaukningum sem hafa áhrif á uppgjör fjárhags og ársloka aðalbókar.
 
 Við lok ársreiknings fjárhags munu færslur sem hafa verið jafnaðar ekki lengur vera teknar með í upphafsjöfnuði næsta reikningsárs. Þessi aukning tryggir að aðeins óuppgerðar fjárhagsfærslur séu teknar með í upphafsjöfnuði. Það er mikilvægt þegar endurmat á erlendum gjaldmiðli í aðalbók er keyrt. Endurmat gjaldeyris er aðeins keyrt fyrir fjárhagsfærslur sem hafa stöðuna **Ekki afgreitt**. Hins vegar, áður en **Meðvitund milli uppgjörs fjárhags og ársloka** eiginleiki var gefinn út, upphafsstaðan tók saman bæði viðskiptin sem hafa stöðuna **Settist** og þeir sem hafa stöðu á **Ekki afgreitt**, og staðan á samantekinni upphæð var stillt á **Ekki afgreitt**.
 
-Önnur viðbótin gerir þér kleift að bóka ítarlegar upphafsstöðufærslur við lok ársloka aðalbókar. Ef **Geymdu smáatriði í lok árs** valkostur er stilltur á **Já**, verður aðskilin upphafsstaða stofnuð fyrir hverja fjárhagsfærslu sem ekki er gerð upp. Þessi stilling er skilgreind fyrir hvern aðalreikning í uppsetningu fjárhagsuppgjörs. Með því að geyma ítarlegar færslur fyrir upphafsstöðuna bætir þú til muna getu til að jafna óuppgerðu fjárhagsfærslurnar á næsta fjárhagsári.
+Önnur viðbótin gerir þér kleift að bóka ítarlegar upphafsstöðufærslur við lok ársloka aðalbókar. Ef **Haltu smáatriðum í lok árs** valkostur er stilltur á **Já**, verður aðskilin upphafsstaða stofnuð fyrir hverja fjárhagsfærslu sem ekki er gerð upp. Þessi stilling er skilgreind fyrir hvern aðalreikning í uppsetningu fjárhagsuppgjörs. Með því að geyma ítarlegar færslur fyrir upphafsstöðuna bætir þú til muna getu til að jafna óuppgerðu fjárhagsfærslurnar á næsta fjárhagsári.
 
 Til að styðja við nýjar endurbætur voru gerðar breytingar á fjárhagsuppgjöri og árslokum.
 
@@ -43,7 +42,7 @@ Til að styðja við nýjar endurbætur voru gerðar breytingar á fjárhagsuppg
 ### <a name="changes-to-year-end-close"></a>Breytingar til ársloka
 
 - Ekki er hægt að snúa við árslokum ef einhver stofnjöfnuður hefur verið gerður upp á næsta reikningsári. Þessi breyting á við þegar áramót er snúið við, eða þegar áramót er endurtekið og **Eyddu núverandi árslokafærslum þegar þú lokar árinu aftur** valkostur er stilltur á **Já** í færibreytum aðalbókar.
-- Ef **Geymdu smáatriði í lok árs** valkostur er stilltur á **Já** fyrir hvaða efnahagsreikning sem er í fjárhagsuppgjöri verða til ítarlegri upphafsstöðufærslur fyrir þann aðalreikning.
+- Ef **Haltu smáatriðum í lok árs** valkostur er stilltur á **Já** fyrir hvaða efnahagsreikning sem er í fjárhagsuppgjöri verða til ítarlegri upphafsstöðufærslur fyrir þann aðalreikning.
 
 ## <a name="before-you-enable-the-feature"></a>Áður en þú virkjar eiginleikann
 
@@ -62,7 +61,7 @@ Vegna breytinga á virkni og gagnalíkaninu er mikilvægt að þú íhugar eftir
 
 Eftir að þú hefur virkjað eiginleikann, og áður en þú keyrir næstu áramótalokun, verður hvert fyrirtæki að ákveða hvort það muni halda færsluupplýsingunum við árslokun. Valið hefur engin áhrif á upphafsstöðufærslur frá fyrri lokaferli í árslok.
 
-The **Geymdu smáatriði í lok árs** valkostur er stilltur fyrir hvern aðalreikning á **Uppsetning fjárhagsuppgjörs** síðu.
+The **Haltu smáatriðum í lok árs** valkostur er stilltur fyrir hvern aðalreikning á **Uppsetning fjárhagsuppgjörs** síðu.
 
 1.  Fara til **Aðalbók** > **Uppsetning höfuðbókar** > **Fjárhagsfæribreytur**.
 2.  Á **Fjárhagsuppgjör** flipa, veldu **Fjárhagsuppgjörsreikningar**.
@@ -74,8 +73,8 @@ The **Geymdu smáatriði í lok árs** valkostur er stilltur fyrir hvern aðalre
 
 Tveimur dálkum hefur verið bætt við **Fjárhagsuppgjör** síða:
     
-- **Aðalreikningstegund** - Þessi dálkur er eingöngu til upplýsinga. Það sýnir tegundina sem er úthlutað á aðalreikninginn.
-- **Geymdu smáatriði í lok árs** – Sjálfgefið er valkosturinn stilltur á **Nei**. Það er hægt að stilla á **Já** aðeins ef gildið í **Aðalreikningstegund** dálkur er **Efnahagsreikningur**, **·**, eða **Ábyrgð**. Þegar valkosturinn er stilltur á **Nei**, upphafsstöður verða birtar í yfirliti, eins og dæmigert er við lok árs. Ef það er stillt á **Já**, opnunarstöður verða stofnaðar í smáatriðum fyrir hverja fjárhagsfærslu sem er ekki gerð upp fyrir aðalreikning.
+- **Aðalreikningstegund** – Þessi dálkur er eingöngu til upplýsinga. Það sýnir tegundina sem er úthlutað á aðalreikninginn.
+- **Haltu smáatriðum í lok árs** – Sjálfgefið er valkosturinn stilltur á **Nei**. Það er hægt að stilla á **Já** aðeins ef gildið í **Aðalreikningstegund** dálkur er **Efnahagsreikningur**, **·**, eða **Ábyrgð**. Þegar valkosturinn er stilltur á **Nei**, upphafsstöður verða birtar í yfirliti, eins og dæmigert er við lok árs. Ef það er stillt á **Já**, verða upphafsstöður búnar til í smáatriðum fyrir hverja fjárhagsfærslu sem er ekki gerð upp fyrir aðalreikning.
 
 ## <a name="year-end-close"></a>Árslokalokun
 
@@ -104,7 +103,7 @@ Af þessum færslum eru þrjár jafnaðar við fjárhagsuppgjör.
 | 20851          | ARP-8000 | 20.12.2021 | Í gangi | 130100-002-    | Viðskiptakröfur |             | USD      | -0,88                          | -0,88   | -0,88                        |
 | 20853          | ARPM0004 | 20.12.2021 | Í gangi | 130100-002-    | Viðskiptakröfur |             | EUR      | -127.11                        | -174.12 | -174.12                      |
 
-Niðurstöður fyrir aðalreikning 130100 ráðast af því hvort aðgerðin er virkjuð áður en árslokun er keyrð. Ef aðgerðin er virkjuð veltur niðurstaðan einnig á stillingunni á Geymdu smáatriðum við lok ársloka.
+Niðurstöður fyrir aðalreikning 130100 ráðast af því hvort aðgerðin er virkjuð áður en árslokun er keyrð. Ef aðgerðin er virkjuð veltur niðurstaðan einnig á stillingunni á Hafðu smáatriði við lok ársloka.
 
 ### <a name="the-feature-isnt-enabled"></a>Eiginleikinn er ekki virkur
 Árslokun skapar þrjár upphafsstöðufærslur fyrir aðalreikning 130100 árið 2022. Summa viðskiptanna í bókhaldsgjaldmiðlinum er USD 525.
@@ -119,7 +118,7 @@ Jafnvel þó að færslu greiðslunnar fyrir EUR -127,11 hafi verið gerð upp, 
 
 ### <a name="feature-is-enabled-and-keep-detail-during-year-end-close--no"></a>Eiginleiki er virkur og Geymdu smáatriði í lok árs = Nei
 
-Lokun ársins skapar tvær upphafsstöðufærslur fyrir aðalreikning 130100 árið 2022. Summa færslnanna í bókhaldsgjaldmiðlinum er enn USD 525, en færslur sem hafa verið uppgjörðar í fjárhagsbók eru undanskildar upphafsstöðu. Heildarupphæð reikningsins 130100-002- er USD 125 í stað USD 299.12 og viðskiptin fyrir 127,11 EUR/USD 174,12 eru algjörlega útilokuð.
+Lokun ársins skapar tvær upphafsstöðufærslur fyrir aðalreikning 130100 árið 2022. Summa færslna í bókhaldsgjaldmiðlinum er enn USD 525, en færslur sem eru uppgjörðar í fjárhagsbók eru undanskildar upphafsstöðu. Heildarupphæð reikningsins 130100-002- er USD 125 í stað USD 299.12 og viðskiptin fyrir 127,11 EUR/USD 174,12 eru algjörlega útilokuð.
 
 | Færslubókarnúmer | Fylgiskjal  | Dagsetning     | Gerð    | Fjárhagslykill | Heiti lykils        | Lýsing | Gjaldmiðill | Upphæð í gjaldmiðli færslu | Upphæð | Upphæð í skýrslugjaldmiðli |
 |----------------|----------|----------|---------|----------------|---------------------|-------------|----------|--------------------------------|--------|------------------------------|
@@ -166,11 +165,11 @@ Til að jafn fjárhagsfærslur skaltu fylgja þessum skrefum.
 
     2. Veldu aðalreikninginn til að sýna færslur fyrir. Þessi reitur er áskilinn. Uppflettingin sýnir aðeins helstu reikninga sem eru valdir á **Fjárhagsuppgjör** síðu fyrir reikningsyfirlit félagsins.
     3. Veldu færslulagið. Þú getur ekki jafnað færslur sem eru í mismunandi bókunarlögum.
-    4. Til að sýna aðallykil og víddir í aðskildum dálkum, veljið fjárhagsvíddarsett.
+    4. Til að sýna aðalreikninginn og víddir í aðskildum dálkum, veljið fjárhagsvíddarsett.
 
 3.  Veldu **Sýna viðskipti** til að sýna allar færslur sem passa við síurnar sem þú stillir. Ef þú breytir einhverjum síum eða víddarsamstæðum þarftu að velja **Birta færslur** aftur.
 4.  Veldu línur til uppgjörs. Gildið í **Valin upphæð** reiturinn efst á síðunni hækkar eða lækkar til að endurspegla heildarupphæðina á völdum línum.
-5.  Þegar þú hefur lokið við að velja færslur skaltu velja **Merktu valið**. Fyrir hverja valda færslu birtist gátmerki í **Merkt** dálki. Að auki, gildið í **Merkt magn** reiturinn fyrir ofan hnitanetið hækkar eða minnkar til að endurspegla heildarupphæðina á merktu línunum.
+5.  Þegar þú hefur lokið við að velja færslur skaltu velja **Merktu valið**. Fyrir hverja valda færslu birtist gátmerki í **Merkt** dálki. Að auki, gildið í **Merkt magn** reiturinn fyrir ofan hnitanetið hækkar eða minnkar til að endurspegla heildarmagnið á merktu línunum.
 6.  Þegar gildið í **Merkt magn** sviði er **0** (núll), veldu **Gerðu upp merktar færslur**.
 
     - Hlutauppgjör er óheimilt. Til dæmis er ekki hægt að jafna $100 debetfærslu á móti $90 kreditfærslu. Eftirstöðvar $10 inneignarfærslur verða einnig að vera merktar til að taka með í uppgjörið.
@@ -179,14 +178,14 @@ Til að jafn fjárhagsfærslur skaltu fylgja þessum skrefum.
 Staða valinna færslna er uppfært í **Jafnað**.
 
 > [!IMPORTANT]
-> Allar færslur sem þú hefur merkt til uppgjörs fyrir virka lögaðilann og valda aðalreikninginn verða jafnaðar. Viðskiptin þurfa ekki að birtast á síðunni. Þeir verða settir upp þótt þeir séu faldir vegna síu.
+> Allar færslur sem þú hefur merkt til uppgjörs fyrir virka lögaðilann og valda aðalreikninginn verða jafnaðar. Viðskiptin þurfa ekki að birtast á síðunni. Þeir verða settir jafnvel þótt þeir séu falir vegna síu.
 
 Sum ferli, eins og bakfærsla á færslu, jafna sjálfkrafa fjárhagsfærslur. Til dæmis er greiðsla og reikningur gerður upp í viðskiptakröfum og uppgjörið skapar innleyst hagnað/tap. Uppgjör greiðslu og reiknings jafnar ekki neinar fjárhagsfærslur, svo sem færslur fyrir viðskiptareikninga. Hins vegar, ef greiðsla og reikningur er óuppgerður í viðskiptakröfum, mun bakfærsla bókhaldsfærslunnar sem var bókuð við bakfærslu á viðskiptakröfuuppgjöri valda því að upprunalegu og bakfærðu bókhaldsfærslurnar verða jafnaðar í fjárhag. Þegar **Meðvitund milli uppgjörs fjárhags og ársloka** eiginleiki er virkjaður, fjárhagsuppgjör bakfærslu á sér ekki sjálfkrafa sér stað ef bakfærsludagsetningin er á öðru fjárhagsári.
 
 ## <a name="use-excel-for-ledger-settlement"></a>Notaðu Excel fyrir fjárhagsuppgjör
 
 Viðskipti sem eru sýnd á **Fjárhagsuppgjör** síðu er hægt að flytja út í Excel. Í Excel er hægt að sía færslur frekar til að ákvarða hvaða færslur á að merkja fyrir uppgjör.
-Báðar fjárhagsjöfnunareiningar flytja út bókhaldsfærslur eingöngu fyrir aðalreikninginn sem er valinn á **Fjárhagsuppgjör** síðu. Þrátt fyrir að enn sé hægt að merkja eða afmerkja færslur fyrir lokuð reikningsár með því að nota Excel, þá er ekki hægt að jafna þær. Að auki er ekki hægt að bakfæra uppgjörar færslur fyrir það fjárhagsár.
+Báðar fjárhagsjöfnunareiningar flytja út bókhaldsfærslur eingöngu fyrir aðalreikninginn sem er valinn á **Fjárhagsuppgjör** síðu. Þó að enn sé hægt að merkja eða afmerkja færslur fyrir lokuð reikningsár með því að nota Excel, þá er ekki hægt að jafna þær. Að auki er ekki hægt að bakfæra uppgjörnar færslur fyrir það reikningsár.
 
 ## <a name="make-transactions-easier-to-find"></a>Gera það auðveldara að finna færslur
 

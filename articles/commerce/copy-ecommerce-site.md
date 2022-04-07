@@ -1,5 +1,5 @@
 ---
-title: Afritaðu netverslunarsíðu
+title: Afrita svæði fyrir rafræn viðskipti
 description: Þetta efnisatriði lýsir því hvernig á að afrita núverandi netverslunarsíðu innan eða á milli rafrænna viðskiptaumhverfa í Microsoft Dynamics 365 Commerce vefsmiður.
 author: psimolin
 ms.date: 03/03/2022
@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 284a33099fecc5a8e8d5d5d31612abab51735773
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
-ms.translationtype: HT
+ms.openlocfilehash: a23f544cbd1e960cb704d2b9666b7db4c3894b5e
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8386912"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462327"
 ---
-# <a name="copy-an-e-commerce-site"></a>Afritaðu netverslunarsíðu
+# <a name="copy-an-e-commerce-site"></a>Afrita svæði fyrir rafræn viðskipti
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að afrita núverandi netverslunarsíðu innan eða á milli rafrænna viðskiptaumhverfa í Microsoft Dynamics 365 Commerce vefsmiður.
 
@@ -92,18 +91,18 @@ Eftirfarandi mynd sýnir dæmi um hægri gluggann á **Störf leigjanda** síðu
 
 Til að frumstilla nýja síðu með því að nota FRE ferlið skaltu fylgja þessum skrefum.
 
-1. Skráðu þig inn á vefsmið fyrir nýju síðuna.
+1. Skráðu þig inn á síðugerð fyrir nýju síðuna.
 1. Opnaðu lista yfir vefsvæði með því að velja **Síðuskipti** í efra hægra horninu og veldu síðan **Stjórna síðum**.
 1. Finndu og veldu nýju síðuna sem þú vilt frumstilla.
 1. Í **Settu upp síðuna þína** valmynd, í **Veldu lén** reit, veldu lén. Öll lén sem tengdust rafrænu viðskiptaumhverfinu við frumstillingu eru tiltæk fyrir val.
 1. Í **Veldu sjálfgefna rás** reit, veldu tengda netverslunarrás. Valin rás mun veita úrval og aðrar upplýsingar sem eru geymdar í höfuðstöðvum Commerce.
 1. Í **Veldu sjálfgefið tungumál** reit, veldu sjálfgefið höfundartungumál. Hægt er að velja öll tungumál sem voru stillt fyrir valda rás netverslunar.
 1. Í **Leið** reit, gildið samanstendur af grunnléninu og valfrjálsri vefslóð sem þú getur slegið inn. Þú getur skilið slóðina eftir auða ef rásin verður þjónustað frá lénsrótinni, eða ef þú vilt slá inn þessar upplýsingar síðar í rásarstillingarskjánum í vefsvæðisgerðinni. Slóðin verður að vera einstök í rafrænu viðskiptaumhverfinu.
-1. Veldu **Í lagi**. Síðan er frumstillt með þeim upplýsingum sem þú gafst upp og þú sendir aftur á vefstjórnunarskjáinn.
+1. Veldu **Í lagi**. Síðan er frumstillt með þeim upplýsingum sem þú gafst upp og þú sendir aftur á síðustjórnunarskjáinn.
 
 Eftirfarandi mynd sýnir dæmi um **Settu upp síðuna þína** svargluggi í vefsíðugerð.
 
-![Settu upp svargluggann fyrir síðuna þína í vefsíðugerð.](media/site-copy_3.png)
+![Settu upp svargluggann fyrir síðuna þína í vefsíðugerðinni.](media/site-copy_3.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

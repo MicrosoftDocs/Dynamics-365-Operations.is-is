@@ -2,7 +2,7 @@
 title: Hnitanetsgeta
 description: Þetta efni lýsir nokkrum kröftugum eiginleikum netstýringar. Virkja þarf nýjan eiginleika hnitanetsins til að hafa aðgang að þessum möguleikum.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 58a05f893549a8b9e2e5cb83d02475d0fb5b7277
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
-ms.translationtype: HT
+ms.openlocfilehash: 81577f54bd7fdc7d683c760dd4410f27da8ee1f0
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384441"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462793"
 ---
 # <a name="grid-capabilities"></a>Eiginleikar hnitanets
 
@@ -31,7 +31,7 @@ Nýja netstýringin veitir fjölda gagnlegra og öflugra eiginleika sem hægt er
 - Vélritun á undan kerfinu
 - Mat á stærðfræðisegðum 
 - Flokkun gagna í töfluformi (virkjað sérstaklega með því að nota **Flokkun í rist** eiginleiki)
-- Frysting dálka (virkjað sérstaklega með því að nota **Frysting dálka í ristum** eiginleiki)
+- Frysting dálka (virkjað sérstaklega með því að nota **Frysta súlur í ristum** eiginleiki)
 - Aðlaga dálkbreidd sjálfkrafa
 - Teygjanlegir dálkar
 
@@ -70,7 +70,7 @@ Ef þú gerir mistök og vilt ekki lengur sjá samtals í tilteknum dálki, hæg
 Ef útreikningurinn tekur langan tíma að klára geturðu hætt við aðgerðina með því að velja **Hætta við** takki. Stundum verður gagnasafnið of stórt til að reikna út heildartölur (takmörk sett af fyrirtækinu þínu) og þú færð í staðinn tilkynningu um að sía gögnin þín meira. 
 
 > [!NOTE]
-> Kerfisstjórnendur geta breytt takmörkunum fyrir fjölda skráa sem eru tiltækar til að reikna út heildartölur með því að breyta **Hámarksfjöldi staðbundinna skráa fyrir hvert rist** breytu á **Frammistöðuvalkostir viðskiptavina** síðu. Sjálfgefið gildi er 25.000 færslur. Stjórnendur ættu að vera varkár þegar þeir stilla þetta gildi vegna þess að gildi sem er of stórt getur tæmt tiltækt minni á vél notandans. Ráðlagt er að ekki sé meira en 50.000 skrár.   
+> Kerfisstjórnendur geta breytt takmörkunum fyrir fjölda skráa sem eru tiltækar til að reikna út heildartölur með því að breyta **Hámarksfjöldi staðbundinna gagna fyrir hvert rist** breytu á **Frammistöðuvalkostir viðskiptavina** síðu. Sjálfgefið gildi er 25.000 færslur. Stjórnendur ættu að vera varkár þegar þeir stilla þetta gildi vegna þess að gildi sem er of stórt getur tæmt tiltækt minni á vél notandans. Ráðleggingin er að ekki fari yfir 50.000 skrár.   
 
 Heildartölur munu uppfærast sjálfkrafa þegar þú uppfærir, eyðir eða býrð til línur í gagnapakkanum.
 
@@ -135,7 +135,7 @@ Við flokkun gagna er sjálfgefið að hegðun sýni dálkheiti í hauslínu hó
 Frá og með útgáfu 10.0.24, fyrir Date eða DateTime reiti, hefur valkostinum verið bætt við hóp eftir árum, mánuði eða degi. Hópurinn "gildi" í samsvarandi hauslínu mun passa við sniðið úr þeim reit. Að auki, fyrir DateTime og Time reiti, geturðu flokkað eftir klukkustund, mínútu eða sekúndu. 
 
 ## <a name="freezing-columns"></a>Dálkar frystir
-Sumir dálkar í hnitaneti gætu reynst það mikilvægir fyrir samhengi þannig að þú vilt ekki að þeir hverfi úr augsýn við flettingu. Þess í stað gætirðu viljað að gildin í þessum dálkum séu alltaf sýnileg. The **Frysting dálka í rist** eiginleiki veitir notendum þennan sveigjanleika. 
+Sumir dálkar í hnitaneti gætu reynst það mikilvægir fyrir samhengi þannig að þú vilt ekki að þeir hverfi úr augsýn við flettingu. Þess í stað gætirðu viljað að gildin í þessum dálkum séu alltaf sýnileg. The **Frysta súlur í rist** eiginleiki veitir notendum þennan sveigjanleika. 
 
 Til að festa dálk skal hægrismella í haus dálksins og síðan velja **Festa dálk**. Í fyrsta skipti sem þetta skref er gert verður valinn dálkur að fyrsta dálkinum og mun ekki lengur hverfa úr augsýn við flettingu. Næstu dálkum sem eru festir verður bætt hægra megin við síðasta festa dálkinn. Hægt er að nota venjulegu færsluaðgerðina til að endurraða festum dálkum eftir þörfum. Hins vegar er ekki hægt að færa festa dálka þannig að þeir birtist á meðal ófestra dálka. Að sama skapi er ekki hægt að færa ófesta dálka þannig að þeir birtist á meðal festra dálka.
 
@@ -151,7 +151,7 @@ Líkt og Excel geta notendur sjálfkrafa þvingað dálk til að breyta stærð 
 
 Eiginleikinn **Ný hnitanetsstýring** er í boði í eiginleikastjórnun í hvaða umhverfi sem er. Eftir að eiginleikinn í eiginleikastjórnun hefur verið virkjaður munu allar síðari notandalotur nýta sér nýju netstýringuna. 
 
-Þessi eiginleiki er virkjaður með því að fara sjálfgefið í gang í útgáfu 10.0.21 og er miðað við að hann verði áskilinn í útgáfu 10.0.25. 
+Þessi eiginleiki er sjálfgefið virkur frá og með útgáfu 10.0.21 og er stefnt að því að verða lögboðinn í október 2022.  
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Þróunaraðili] Afskrá einstaka síður frá því að nota nýja hnitanetið 
 Ef fyrirtækið uppgötvar síðu sem á í vandræðum með að nota nýja hnitanetið, er API tiltækt til að leyfa einstökum skjámyndum að nota eldri netstýringu og leyfa á sama tíma öðrum hlutum kerfisins að nota nýju netstýringuna. Til að afskrá einstaka síður frá því að nota nýja hnitanetið, skal bæta við eftirfarandi kallskilaboðum `super()` í `run()` aðferð skjámyndarinnar.
@@ -167,7 +167,7 @@ Ef þú hefur valið að nota ekki einstaka síðu á nýja netinu gætirðu vil
 - **Handvirk hreinsun töflunnar**: Fyrir þróunaraðstæður þarftu að nota SQL til að hreinsa FormControlReactGridState töfluna og endurræsa síðan AOS. Þessi samsetning aðgerða mun endurstilla skyndiminni síðna sem hafa afþakkað nýja hnitið.
 
 ## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Hönnuður] Afþakka einstök töflur úr vélritun á undan kerfisgetu
-Sumar aðstæður hafa komið upp sem henta ekki til að vinna vel með *Vélritun á undan kerfinu* getu netsins. (Til dæmis, einhver kóði sem er ræstur þegar röð er staðfest veldur því að gagnauppspretturannsókn fer af stað og rannsóknin getur síðan spillt óskuldbundnum breytingum á núverandi línum.) Ef fyrirtækið þitt uppgötvar slíka atburðarás er API tiltækt sem gerir þróunaraðili afþakkar einstakt rist úr ósamstilltri röð sannprófun og snýr aftur til eldri hegðunar.
+Sumar aðstæður hafa komið upp sem henta ekki til að vinna vel með *Vélritun á undan kerfinu* getu netsins. (Til dæmis, einhver kóði sem er ræstur þegar röð er staðfest veldur því að gagnauppspretturannsókn fer af stað og rannsóknin getur síðan spillt óskuldbundnum breytingum á núverandi línum.) Ef fyrirtækið þitt uppgötvar slíka atburðarás er API tiltækt sem gerir þróunaraðili afþakkar ósamstillt raðprófun á einstaklingsneti og snýr aftur til eldri hegðunar.
 
 Þegar ósamstilltur röð sannprófun er óvirkur í hnitaneti, geta notendur ekki búið til nýja línu eða farið í aðra núverandi línu í hnitanetinu á meðan það eru löggildingarvandamál í núverandi línu. Sem fylgifiskur þessarar aðgerðar er ekki hægt að líma töflur úr Excel inn í Finance and Operations töflurnar.
 

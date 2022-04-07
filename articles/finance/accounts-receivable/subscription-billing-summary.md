@@ -1,5 +1,5 @@
 ---
-title: Yfirlit yfir innheimtu áskriftar
+title: Yfirlit yfir áskriftargreiðslur
 description: Þetta efnisatriði lýsir innheimtu áskriftar í Microsoft Dynamics 365 Finance.
 author: JodiChristiansen
 ms.date: 02/09/2022
@@ -15,25 +15,24 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: b94ac36e49d55ad42909877d77903cd40cb22cbe
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
-ms.translationtype: HT
+ms.openlocfilehash: 2796e25ec783941de381fb5ae96145eeba870bde
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182712"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462470"
 ---
-# <a name="subscription-billing-overview"></a>Yfirlit yfir innheimtu áskriftar
+# <a name="subscription-billing-overview"></a>Yfirlit yfir áskriftargreiðslur
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Innheimta áskriftar gerir fyrirtækjum kleift að stjórna áskriftartekjum og endurteknum innheimtu í gegnum innheimtuáætlanir. Auðvelt er að stjórna flóknum verðlagningar- og innheimtulíkönum og tekjuúthlutun og þau eru innheimt og viðurkennd á línustigi. Fjölþátta tekjuúthlutun gerir úthlutun tekna kleift að uppfylla alþjóðlega reikningsskilastaðla (International Financial Reporting Standard 15\[ IFRS 15\]) og almennt viðurkenndar reikningsskilareglur (US GAAP) staðla (reikningsskilastaðla Codification Topic 606\[ ASC 606\]).
+Innheimta áskriftar gerir fyrirtækjum kleift að stjórna áskriftartekjum og endurteknum innheimtu í gegnum innheimtuáætlanir. Auðvelt er að stjórna flóknum verðlagningar- og innheimtulíkönum og tekjuúthlutun og þau eru innheimt og viðurkennd á línustigi. Fjölþátta tekjuúthlutun gerir ráðstöfun tekna kleift að uppfylla alþjóðlega reikningsskilastaðla (International Financial Reporting Standard 15\[ IFRS 15\]) og almennt viðurkenndar reikningsskilareglur (US GAAP) staðla (reikningsskilastaðla Codification Topic 606\[ ASC 606\]).
 
 Lausnin hefur þrjár einingar sem hægt er að nota sjálfstætt. Að öðrum kosti er hægt að nota allar þrjár einingarnar saman.
 
-- **Endurtekinn samningsreikningur** - Þessi eining gerir endurtekna innheimtu og verðstýringu kleift að veita stjórn á verðlagningu og innheimtubreytum, endurnýjun samnings og samstæðureikninga.
+- **Endurtekinn samningsreikningur** – Þessi eining gerir endurtekna innheimtu og verðstýringu kleift að veita stjórn á verðlagningu og innheimtubreytum, endurnýjun samnings og samstæðureikninga.
 - **Frestun tekna og gjalda** – Þessi eining útilokar handvirka ferla og ósjálfstæði á ytri kerfum með því að stjórna tekjum og gera rauntíma innsýn í mánaðarlegar endurteknar tekjur.
-- **Fjölþátta tekjuúthlutun** – Þessi eining hjálpar til við að fara eftir tekjum með því að meðhöndla verðlagningu og úthlutun tekna yfir marga hluti.
+- **Fjölþátta tekjuúthlutun** – Þessi eining hjálpar til við að fara eftir tekjum með því að meðhöndla verðlagningu og tekjuúthlutun yfir marga hluti.
 
 Innheimta áskriftar er virkjuð í gegnum **Eiginleikastjórnun**. Hins vegar er ekki hægt að nota það með **Tekjufærsla** eiginleiki. Þess vegna verður þú að slökkva á þeim eiginleika áður en þú virkjar innheimtu áskriftar.
 

@@ -1,7 +1,7 @@
 ---
 title: Skilgreina þekjureglur fyrir vörur
 description: Þetta ferli sýnir hvernig á að stofna þekjureglur og hnekkja þekjustillingum fyrir tiltekna vöru. Hún sýnir einnig hvernig á að tilgreina sjálfgefnar birgðastillingar.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: ReqGroup, DefaultDashboard, EcoResProductDetailsExtended, EcoRes
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3947c8a51facfb02012cc8e9a3ffd5887073bd9
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: bca0e1786adb08a7cd4795b49c974ab95183b1dd
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860614"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469323"
 ---
 # <a name="define-coverage-rules-for-items"></a>Skilgreina þekjureglur fyrir vörur
 

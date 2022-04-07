@@ -1,5 +1,5 @@
 ---
-title: Forútgáfa af Dynamics 365 Supply Chain Management 10.0.25 (apríl 2022)
+title: Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.25. (apríl 2022)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Supply Chain Management 10.0.25.
 author: kamaybac
 ms.date: 03/14/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 26f67be72948e33738cf805b541d3c7e701f8dba
-ms.sourcegitcommit: a8f4d7d21d9af17d80b1213e5e1a81f42fb8b928
-ms.translationtype: HT
+ms.openlocfilehash: 27f3233ebb3363abcbfc5b98b3786865fa32366c
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8414121"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462440"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10025-april-2022"></a>Forútgáfa af Dynamics 365 Supply Chain Management 10.0.25 (apríl 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.25. (apríl 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management forútgáfu af útgáfu 10.0.25. Þessi útgáfa er með byggingarnúmer 10.0.1149 og er fáanlegt á eftirfarandi hátt:
+Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfu 10.0.25. Þessi útgáfa er með byggingarnúmer 10.0.1149 og er fáanlegt á eftirfarandi hátt:
 
 - **Forútgáfa:** Febrúar 2022
 - **Almennt framboð útgáfu (sjálfvirk uppfærsla):** Mars 2022
@@ -38,7 +37,7 @@ ms.locfileid: "8414121"
 | Birgða-&nbsp;og&nbsp;vörustjórnun | [Pökkunarvinna fyrir pökkunarstöðvar](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | Væntanlegt | Eiginleikastjórnun:<br>*Pökkunarvinna fyrir pökkunarstöðvar* |
 | Birgða-&nbsp;og&nbsp;vörustjórnun | [Skanna strikamerki í vöruhúsinu með GS1-sniðsstöðlum](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1-strikamerki og QR-kóðar](../warehousing/gs1-barcodes.md) | Eiginleikastjórnun:<br>*Skanna inn GS1-strikamerki* |
 | Framleiðsla | [Efnisnotkun og fyrirvarar í framkvæmdarviðmóti framleiðslugólfs](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi](../production-control/production-floor-execution-use.md) | Eiginleikastjórnun:<br>*(Forútgáfa) Skrá efnisnotkun í keyrsluviðmóti framleiðslugólfs (ekki vöruhúsakerfi)*<br><br>Og/eða:<br><br>Eiginleikastjórnun:<br>*(Forútgáfa) Skrá efnisnotkun í keyrsluviðmóti framleiðslugólfs (virkjað fyrir vöruhúsakerfi)* |
-| Framleiðsla | [Skráðu efnisnotkun á mælieiningum](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Vinnuálag framleiðslukeyrslu fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-manufacturing.md) | Eiginleikastjórnun:<br>*Skrá efnisnotkun í fartæki í kvörðunareiningu* |
+| Framleiðsla | [Skrá efnisnotkun á mælieiningum](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/register-material-consumption-scale-units) | [Vinnuálag framleiðslukeyrslu fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-manufacturing.md) | Eiginleikastjórnun:<br>*Skrá efnisnotkun í fartæki í kvörðunareiningu* |
 | Áætlun | [Áætlanagerð hagræðing miðlægt dagatal viðhald](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [Dagatöl og aðaláætlanagerð](../master-planning/supply-chain-calendars-master-planning.md) | Sjálfgefið virkt |
 | Áætlun | [Áætlanagerð Hagræðingartillögur til að hámarka núverandi framboð](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-suggestions-optimize-existing-supply) | [Aðgerðaboð](../master-planning/action-messages.md) | Sjálfgefið virkt |
 | Áætlun | Áætlaðar pantanir einfaldaðar | [Áætlaðar pantanir einfaldaðar](../master-planning/planning-optimization/planned-orders-simplified.md ) | Eiginleikastjórnun:<br>*Áætlaðar pantanir einfaldaðar* |
@@ -53,10 +52,10 @@ Ef þú vilt kveikja eða slökkva á einhverjum af þessum eiginleikum verður 
 |---|---|---|
 | Birgða- og vöruhúsakerfi | (Pólland) Leyfa tengingu nokkurra SAD-reikninga við eina innkaupapöntunarlínu í einu SAD | Þessi eiginleiki gerir þér kleift að skipta innkaupapöntunarlínum og tengja þær við eitt stjórnunarskjal (SAD) þegar þessar innkaupapöntunarlínur voru bókaðar fyrir nokkra mismunandi reikninga (eins og fyrir mismunandi sendingar). |
 | Innkaup og aðföng | Sameina margar innkaupabeiðnir í eina innkaupapöntun eftir dagsetningu reikningsskila | Þessi eiginleiki gerir kleift að sameina margar innkaupabeiðnir í eina innkaupapöntun ef mismunandi innkaupabeiðnir hafa mismunandi bókhaldsdagsetningar. Stofnun innkaupapöntunar og samþjöppun eftirspurnar er hægt að setja reglur um innkaupastefnu til að gera sjálfvirkan ákvörðun um að flokka innkaupalínur eftir bókhaldsdagsetningu á innkaupapöntunarstigi. Sameining innkaupapöntunar eftir bókhaldsdagsetningu er ekki studd ef fjárhagsáætlunarstýring er virkjuð vegna þess að bókhaldsdagsetningin er notuð fyrir frátekningar fjárhagsáætlunar og kvað. Þess vegna ætti að geyma það á meðan skipt er frá innkaupabeiðni yfir í innkaupapöntun. |
-| Innkaup og aðföng | Birta eldri útgáfu sjálfgefinna stillinga svarsvæðis fyrir tilboðsbeiðni | Þessi eiginleiki kynnir aftur eldri sjálfgefna beiðni um tilboð (RFQ) svarsviðsstillingar, sem áður voru fjarlægðar úr notendaviðmótinu. Þessar stillingar bjóða ekki upp á neina virkni beint úr kassanum, en hægt er að aðlaga þær til að veita hana eftir þörfum. Virkjaðu þennan eiginleika ef fyrirtækið þitt hefur þegar bætt við virkni fyrir sjálfgefna stillingar fyrir svarsvið beiðnir fyrir beiðni eða ætlar að gera það. Þegar þessi eiginleiki er virkur geturðu fengið aðgang að stillingunum með því að fara í **Innkaupa- og innkaupafæribreytur** síðu, opnaðu **Beiðni um tilboð** flipann og velja **Sjálfgefin svarreitir fyrir beiðni um tilboð**. |
+| Innkaup og aðföng | Birta eldri útgáfu sjálfgefinna stillinga svarsvæðis fyrir tilboðsbeiðni | Þessi eiginleiki kynnir aftur eldri sjálfgefna beiðni um tilboð (RFQ) svarsviðsstillingar, sem áður voru fjarlægðar úr notendaviðmótinu. Þessar stillingar bjóða ekki upp á neina virkni beint úr kassanum, en hægt er að aðlaga þær til að veita hana eftir þörfum. Virkjaðu þennan eiginleika ef fyrirtækið þitt hefur þegar bætt við virkni fyrir sjálfgefna stillingar fyrir svarsvið beiðnir fyrir beiðni eða ætlar að gera það. Þegar þessi eiginleiki er virkur geturðu fengið aðgang að stillingunum með því að fara í **Innkaupa- og innkaupabreytur** síðu, opnaðu **Beiðni um tilboð** flipann og velja **Sjálfgefin svarreitir fyrir beiðni um tilboð**. |
 | Innkaup og aðföng | Sameina fjárhagsvíddir frá lánardrottni við fjárhagsvídd virks víddartengils í innkaupapöntuninni | Þessi eiginleiki gerir þér kleift að sameina fjárhagsvíddir frá lánardrottnum með virkum víddartenglum fjárhagsvíddum eftir samþykki innkaupabeiðni ef þú setur upp tengingu milli fjárhagsvíddar og birgðavídd svæðisins. Stofnun innkaupapöntunar og samþjöppun eftirspurnar er hægt að setja reglur um innkaupastefnu til að keyra ákvörðunina um sameiningu fjárhagsvídda frá lánardrottnum með virka fjárhagsvídd víddartengds á hausstigi innkaupapöntunar. |
-| Framleiðslustýring | (Rússland) Virkja uppsetningu sjálfgefinnar staðsetningar fyrir formúlu/uppskrift framleiðslu og sjálfvirka frátekningu/notkun GTD í framleiðslu | Eiginleikinn gerir fleiri valkosti fyrir framleiðslu úr innfluttu hráefni kleift (aðeins rússnesk staðsetning):<ul><li>Valkostur til að stilla sjálfvirka sjálfgefna staðsetningu fyrir framleiðsluformúlur og efnisskrá bæði á tilfangaflokkum og vöruhúsum.</li><li>Sjálfvirk frátekt á hráefni af the *GTD númer* vídd í WMS-virkjuð vöruhúsum samkvæmt bókunaralgrími sem ekki er WMS. Þetta á við í þeim tilvikum þar sem vinnustefna fyrir *Hráefnistínsla* er til með **Vinnusköpunaraðferð** stillt á *Aldrei* og uppsetning vöruhúss, staðsetningar og vörunúmers passar við birgðafærslur framleiðslupöntunarinnar (lotu).</li><li>Sjálfvirk neysla á hráefni eftir *GTD númer* vídd við færslu vallista, í samræmi við aflaða fyrirvara sem lýst var áður.</li></ul> |
-| Vöruhúsakerfi | (Forútgáfa) Stuðningur kvörðunareiningar fyrir vöruhúsapantanir á inn- og útleið | Þessi eiginleiki veldur því að kerfið stofnar vöruhúsapantanir á útleið meðan á losun í vöruhús ferlið stendur og stofnar vöruhúsapantanir á innleið þegar flutningspantanir eru bókaðar sem sendar. Kerfið samstillir síðan hverja vöruhúsapöntun á innleið eða útleið við mælieininguna sem ber ábyrgð á sendingu eða móttöku pöntunarinnar. Athugaðu að eftir að hafa virkjað þennan eiginleika verður að uppfæra vinnuálag vöruhúsaframkvæmda. Frekari upplýsingar eru í [Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-warehousing.md).<br><br>Þessi eiginleiki krefst þess *Aftengdu frágangsvinnu frá ASN* eiginleiki og mun gera möguleika á að taka á móti flutningspöntunum með því að nota númeraplötumóttökuferlið í vöruhúsastjórnun farsímaforritinu. |
+| Framleiðslustýring | (Rússland) Virkja uppsetningu sjálfgefinnar staðsetningar fyrir formúlu/uppskrift framleiðslu og sjálfvirka frátekningu/notkun GTD í framleiðslu | Eiginleikinn gerir fleiri valkosti fyrir framleiðslu úr innfluttu hráefni kleift (aðeins rússnesk staðsetning):<ul><li>Valkostur til að stilla sjálfvirka sjálfgefna staðsetningu fyrir framleiðsluformúlur og efnisskrá bæði á tilfangaflokkum og vöruhúsum.</li><li>Sjálfvirk frátekt á hráefni af the *GTD númer* vídd í WMS-virkjuð vöruhúsum samkvæmt bókunaralgrími sem ekki er WMS. Þetta á við í þeim tilvikum þar sem vinnustefna fyrir *Hráefnistínsla* er til með **Vinnusköpunaraðferð** stillt á *Aldrei* og uppsetning vöruhúss, staðsetningar og vörunúmers passar við birgðafærslur framleiðslupöntunar (lotu).</li><li>Sjálfvirk neysla á hráefni eftir *GTD númer* vídd við færslu vallista, í samræmi við aflaða fyrirvara sem lýst var áður.</li></ul> |
+| Vöruhúsakerfi | (Forútgáfa) Stuðningur kvörðunareiningar fyrir vöruhúsapantanir á inn- og útleið | Þessi eiginleiki veldur því að kerfið stofnar vöruhúsapantanir á útleið meðan á losun í vöruhús ferlið stendur og stofnar vöruhúsapantanir á innleið þegar flutningspantanir eru bókaðar sem sendar. Kerfið samstillir síðan hverja vöruhúsapöntun á innleið eða útleið við mælieininguna sem ber ábyrgð á sendingu eða móttöku pöntunarinnar. Athugaðu að eftir að hafa virkjað þennan eiginleika verður að uppfæra vinnuálag vöruhúsaframkvæmda. Frekari upplýsingar eru í [Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-warehousing.md).<br><br>Þessi eiginleiki krefst *Aftengdu frágangsvinnu frá ASN* eiginleiki og mun gera möguleika á að taka á móti flutningspöntunum með því að nota númeraplötumóttökuferlið í vöruhúsastjórnun farsímaforritinu. |
 
 ## <a name="feature-state-changes-in-this-release"></a>Eiginleikastöðubreytingar í þessari útgáfu
 
@@ -112,7 +111,7 @@ Taflan sýnir einnig eiginleika sem áður voru í opinberri forskoðun, en hafa
 | Framleiðslustýring | Endurbætt tiltekt á magni framleiðsluþyngdar afurðar | Almennt tiltækt |
 | Framleiðslustýring | Nýr hnappur fyrir Stöðva hlé hefur verið bætt við síðu Starfskortastöðvar | Skylda |
 | Framleiðslustýring | [Kveiktu á sjálfvirkri myndun á númeraplötunúmeri þegar tilkynnt er um lok í verkspjaldstækinu.](../production-control/production-floor-execution-configure.md) | Skylda |
-| Framleiðslustýring | Virkjaðu móttöku hluta undirverktaka og laga vandamál með útreikning á rusli fyrir uppskriftarlínur af gerðinni Seljandi | Skylda |
+| Framleiðslustýring | Virkjaðu móttöku undirverktaka að hluta og lagfærðu vandamál með útreikning á rusli fyrir uppskriftarlínur af gerðinni Seljandi | Skylda |
 | Framleiðslustýring | [Eiginleikinn til að læsa vinnsluspjaldstæki og afgreiðslustöð svo hægt sé að hreinsa tækin](../production-control/production-floor-execution-configure.md) | Skylda |
 | Framleiðslustýring | Endurbætur á svargluggum fyrir að samþykkt og flutning vinnsla | Skylda |
 | Framleiðslustýring | [Númeraplata fyrir tilkynningu um lok var bætt við verkspjaldstækið](../production-control/production-floor-execution-configure.md) | Skylda |

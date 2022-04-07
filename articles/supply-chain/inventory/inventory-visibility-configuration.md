@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061002"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524522"
 ---
 # <a name="configure-inventory-visibility"></a>Stilla sýnileika birgða
 
@@ -39,29 +39,32 @@ ms.locfileid: "8061002"
 
 Áður en hafist er handa skal setja upp innbót birgðasýnileika eins og lýst er í [Setja upp sýnileika birgða](inventory-visibility-setup.md).
 
-## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Virkja eiginleika birgðasýnileika í Power Apps eiginleikastjórnun
-
-Innbót birgðasýnileika bætir ýmsum nýjum eiginleika við Power Apps uppsetninguna þína. Sjálfgefið er slökkt á þessum eiginleikum. Til að nota þá skal opna síðuna **Skilgreining** í Power Apps og því næst í flipanum **Eiginleikastjórnun** skal kveikja á eftirfarandi eiginleikum.
-
-- *OnHandReservation*
-- *OnHandMostSpecificBackgroundService*
-
-## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Finna endastöð þjónustu
-
-Ef þú veist ekki rétta endastöð fyrir þjónustu birgðasýnileika skaltu opna síðuna **Skilgreining** í Power Apps og því næst velja **Sýna endastöð þjónustu** efst í hægra horninu. Síðan mun sýna rétta endastöð þjónustu.
-
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>Skilgreiningasíða forrits birgðasýnileika
 
 Í Power Apps hjápar síðan **Skilgreining** [Birgðasýnileikaforrits](inventory-visibility-power-platform.md) til við að setja upp lagerskilgreiningu og skilgreiningu mjúkrar frátekningar. Eftir að viðbótin hefur verið sett upp inniheldur sjálfgefna stillingin gildið frá Microsoft Dynamics 365 Supply Chain Management (`fno` gagnagjafinn). Hægt er að fara yfir sjálfgefnu stillingarnar. Byggt á viðskiptaþörfum þínum og þörfum birgðabókunar ytra kerfisins geturðu auk þess breytt skilgreiningunni til að staðla leiðina sem hægt er að bóka, skipuleggja og senda fyrirspurn á birgðabreytingar í hinum ýmsu kerfum. Eftirstandandi hlutar þessa efnisatriðis útskýra hvernig á að nota hvern hluta **Skilgreiningarsíðunnar**.
 
 Þegar skilgreiningunni er lokið skal ganga úr skugga um að velja **Uppfæra skilgreiningu** í forritinu.
 
+## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Virkja eiginleika birgðasýnileika í Power Apps eiginleikastjórnun
+
+Innbót birgðasýnileika bætir ýmsum nýjum eiginleika við Power Apps uppsetninguna þína. Sjálfgefið er slökkt á þessum eiginleikum. Til að nota þá skaltu opna **Stillingar** síðu og síðan á **Eiginleikastjórnun** flipanum, kveiktu á eftirfarandi eiginleikum eins og þú þarft.
+
+| Heiti eiginleikastjórnunar | Lýsing |
+|---|---|
+| OnHandReservation | Þessi eiginleiki gerir þér kleift að búa til pantanir, neyta bókana og/eða afpanta tiltekið birgðamagn með því að nota Birgðasýnileika. Frekari upplýsingar er að finna í [Frátekningar birgðasýnileika](inventory-visibility-reservations.md). |
+| OnHandMostSpecificBackgroundService | Þessi eiginleiki veitir birgðayfirlit fyrir vörur ásamt öllum víddum. Gögn birgðasamantektar verða samstillt reglulega úr birgðasýnileika. Fyrir frekari upplýsingar, sjá [Birgðayfirlit](inventory-visibility-power-platform.md#inventory-summary). |
+| OnhandChangeSchedule | Eiginleikinn gerir kleift að breyta áætluninni við höndina og er hægt að lofa (ATP) eiginleikum (valfrjálst). Fyrir frekari upplýsingar, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa](inventory-visibility-available-to-promise.md). |
+
+## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Finna endastöð þjónustu
+
+Ef þú veist ekki rétta endastöð fyrir þjónustu birgðasýnileika skaltu opna síðuna **Skilgreining** í Power Apps og því næst velja **Sýna endastöð þjónustu** efst í hægra horninu. Síðan mun sýna rétta endastöð þjónustu.
+
 ## <a name="data-source-configuration"></a>Skilgreining gagnagjafa
 
 Hver gagnagjafi táknar kerfi sem gögnin þín koma úr. Dæmi um heiti gagnagjafa innihalda`fno` (sem þýðir "Dynamics 365 Finance og rekstrarforrit") og`pos` (sem þýðir "sölustaður"). Supply Chain Management er sjálfgefið sett upp sem sjálfgefinn gagnagjafi (`fno`) í birgðasýnileika.
 
 > [!NOTE]
-> The`fno` gagnauppspretta er frátekin fyrir Supply Chain Management. Ef birgðasýnileikaviðbótin þín er samþætt við Supply Chain Management umhverfi mælum við með að þú eyðir ekki stillingum sem tengjast`fno` í gagnaveitunni.
+> The`fno` gagnagjafinn er frátekinn fyrir Supply Chain Management. Ef birgðasýnileikaviðbótin þín er samþætt við Supply Chain Management umhverfi mælum við með að þú eyðir ekki stillingum sem tengjast`fno` í gagnaveitunni.
 
 Til að bæta við gagnagjafa skal fylgja þessum skrefum.
 
@@ -178,15 +181,21 @@ Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
 
 1. Skráðu þig inn í Power Apps umhverfið og opnaðu **Birgðasýnileika**.
 1. Opnaðu síðuna **Skilgreining**.
-1. Í flipanum **Reiknuð mæling** skal velja **Ný reiknuð mæling** til að bæta við reiknaðri mælingu. Því næst skal stilla reitina eins og lýst er í eftirfarandi töflu.
+1. Í flipanum **Reiknuð mæling** skal velja **Ný reiknuð mæling** til að bæta við reiknaðri mælingu.
+1. Stilltu eftirfarandi reiti fyrir nýju útreiknuðu mælinguna:
 
-    | Svæði | Virði |
-    |---|---|
-    | Heiti nýrrar reiknaðrar mælingar | Færðu inn heiti reiknaðrar mælingar. |
-    | Gagnaveita | Fyrirspurnarkerfið er gagnagjafi. |
-    | Breytir gagnagjafa | Færðu inn gagnagjafa breytilykilsins. |
-    | Umbreytir | Færðu inn heiti breytilykils. |
-    | Gerð breytilykils | Veldu gerð breytilykils (*Samlagning* eða *Frádráttur*). |
+    - **Nýtt útreiknað málsheiti** – Sláðu inn heiti reiknaðs mælingar.
+    - **Uppspretta gagna** – Veldu gagnagjafann sem tengist nýja breytinum. Fyrirspurnarkerfið er gagnagjafi.
+
+1. Veldu **Bæta við** til að bæta við breytu við nýja reiknaða mælinguna.
+1. Stilltu eftirfarandi reiti fyrir nýja breytimanninn:
+
+    - **Breytir** – Veldu gerð breytibúnaðar (*Viðbót* eða *Frádráttur*).
+    - **Uppspretta gagna** – Veldu gagnagjafann þar sem mælikvarðinn sem gefur breytigildið á að finnast.
+    - **Mæla** – Veldu heiti mælingar (frá völdum gagnagjafa) sem gefur upp gildi fyrir breytileikann.
+
+1. Endurtaktu skref 5 til 6 þar til þú hefur bætt við öllum nauðsynlegum breytingum.
+1. Veldu **Vista**.
 
 Þú gætir til dæmis verið með eftirfarandi niðurstöður fyrirspurnar.
 
@@ -273,7 +282,7 @@ Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Skilgreining þáttunar
 
-Sem stendur samanstendur skiptingin af tveimur grunnvíddum (`SiteId` og`LocationId`) sem gefa til kynna hvernig gögnunum er dreift. Aðgerðir undir sama skipting geta skilað meiri afköstum með lægri kostnaði. Eftirfarandi tafla sýnir sjálfgefna skiptingastillingu sem Inventory Visibility Add-in veitir.
+Eins og er samanstendur skiptingin af tveimur grunnvíddum (`SiteId` og`LocationId`) sem gefa til kynna hvernig gögnunum er dreift. Aðgerðir undir sama skipting geta skilað meiri afköstum með lægri kostnaði. Eftirfarandi tafla sýnir sjálfgefna skiptingastillingu sem Inventory Visibility Add-in veitir.
 
 | Grunnvídd | Stigveldi |
 |---|---|
@@ -465,6 +474,10 @@ Hér er dæmi um mjúkt frátekningastigveldi.
 - `(SiteId, LocationId, ColorId, SizeId, StyleId)`
 
 Gild víddarröð ætti að fylgja nákvæmlega frátekningastigveldinu, vídd eftir vídd. Til dæmis er stigveldisröðin `(SiteId, LocationId, SizeId)` ekki gild því það vantar `ColorId`.
+
+## <a name="available-to-promise-configuration-optional"></a>Í boði til að lofa stillingum (valfrjálst)
+
+Þú getur sett upp birgðasýnileika til að gera þér kleift að skipuleggja framtíðar breytingar á hendi og reikna út magn sem er tiltækt til að lofa (ATP). ATP er magn vöru sem er tiltækt og hægt er að lofa viðskiptavinum á næsta tímabili. Notkun þessa útreiknings getur aukið getu þína til að uppfylla pöntunina til muna. Til að nota þennan eiginleika verður þú að virkja hann á **Eiginleikastjórnun** flipann og settu hann síðan upp á **ATP stilling** flipa. Fyrir frekari upplýsingar, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa](inventory-visibility-available-to-promise.md).
 
 ## <a name="complete-and-update-the-configuration"></a>Ljúka við og uppfæra skilgreininguna
 

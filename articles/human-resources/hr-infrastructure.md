@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a80bedd0224f1e31dfec4e9f4c39ad1ed75d7f2f
-ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
+ms.openlocfilehash: 9d574f760960241e4d79a988b1b671f224cb345f
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "8024568"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487795"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Dynamics 365 Human Resources sameining innviða - Útgáfa 10.0.25 uppfærsla
 
-Útgáfan 10.0.25 kemur með fyrstu bylgju getu í samruna innviða. Við samruna innviða, Microsoft Dynamics 365 Human Resources verður sameinað innviðum Fjármála- og rekstrarsviðs. Hins vegar mun það áfram hafa leyfi sem sjálfstæð umsókn, eins og Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Fyrir frekari upplýsingar um innviðasamruna, sjá [Dynamics 365 Human Resources Algengar spurningar um sameiningu innviða](../human-resources/hr-infrastructure-merge-faq.md).
+Útgáfan 10.0.25 kemur með fyrstu bylgju getu í samruna innviða. Við samruna innviða, Microsoft Dynamics 365 Human Resources verður sameinað innviðum Fjármála- og rekstrarsviðs. Hins vegar verður það áfram leyfilegt sem sjálfstæð umsókn, eins og Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Fyrir frekari upplýsingar um innviðasamruna, sjá [Dynamics 365 Human Resources Algengar spurningar um sameiningu innviða](../human-resources/hr-infrastructure-merge-faq.md).
 
 Sameiningin mun veita mannauðsnotendum samræmi á eftirfarandi hátt:
 
@@ -34,7 +34,7 @@ Sameiningin mun veita mannauðsnotendum samræmi á eftirfarandi hátt:
     - Það er einn kóðagrunnur, þar sem ný virkni fyrir mannauð er gefin út sem hluti af venjulegu One Version uppfærsluferli.
     - Leiðin sem uppfærslur, uppfærslur og flýtileiðréttingar eru notaðar á umhverfi er í samræmi.
 
-- [Stækkanleikavalkostir eru bættir.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options.md)
+- [Stækkanleikavalkostir eru bættir.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/improve-extensibility-options)
 
     - Þú getur haldið áfram að nota Microsoft Power Platform verkfæri til að lengja eftir þörfum.
     - Þú getur aukið virkni með eyðublöðum, töflum, aðferðum og forritunarviðmóti (API).
@@ -42,7 +42,7 @@ Sameiningin mun veita mannauðsnotendum samræmi á eftirfarandi hátt:
 
     Fyrir frekari upplýsingar um framlengingarvalkostina sem eru í boði, sjá [Yfirlit yfir stækkanleika í Dynamics 365](../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md).
 
-- [Búðu til eitt sett af mannauðsmöguleikum í Dynamics 365.](/dynamics365-release-plan/2021wave2/human-resources/create-one-set-human-resources-capabilities-within-dynamics-365.md)
+- [Búðu til eitt sett af mannauðsmöguleikum í Dynamics 365.](/dynamics365-release-plan/2021wave2/human-resources/dynamics365-human-resources/create-one-set-human-resources-capabilities-within-dynamics-365)
 
     Í útgáfunni 10.0.25 hefur hagnýtur möguleiki sem aðeins var til í Human Resources verið aðgengilegur á Finance and Operations innviði. Til þess að viðskiptavinir geti nýtt sér þessa möguleika í fjármála- og rekstrarumhverfi verður að virkja eftirfarandi mannauðseiginleika í eiginleikastjórnun.
 
@@ -53,10 +53,10 @@ Sameiningin mun veita mannauðsnotendum samræmi á eftirfarandi hátt:
     | Prenta umsagnir um frammistöðu | Þú getur prentað árangursdóma á PDF formi. | Almennt tiltækt | 
     | Sérsniðnir tenglar inn **Sjálfsafgreiðslustjóri** | Þú getur búið til sérsniðna tengla sem birtast í **Tengdir tenglar** kafla af **Sjálfsafgreiðslustjóri**. | Almennt tiltækt | 
     | Launayfirlit þvert á fyrirtæki | Notendur geta skoðað bótaáætlanir í **Sjálfsafgreiðslustjóri** yfir alla lögaðila, án þess að þurfa að skipta um fyrirtæki. | Almennt tiltækt | 
-    | Stilltu mörg launastig eftir starfi\*&dagger; | Störf styðja nú mörg launastig. | Forútgáfa | 
-    | Verkefnastjórnun\* | Þú getur búið til gátlista og verkefni fyrir um borð, brottför og umskipti. | Forútgáfa | 
-    | Straumlínulöguð starfsmannafærsla | Þessi eiginleiki veitir uppfærða notendaupplifun á núverandi **Vinnumaður** síðu. | Forútgáfa | 
-    | Endurbætur á upplifun notanda í mannauði | Sjá töflu í næsta kafla.  | Forútgáfa | 
+    | Stilltu mörg launastig eftir starfi\*&dagger; | Störf styðja nú mörg launastig. | Forskoðun | 
+    | Verkefnastjórnun\* | Þú getur búið til gátlista og verkefni fyrir um borð, brottför og umskipti. | Forskoðun | 
+    | Straumlínulöguð starfsmannafærsla | Þessi eiginleiki veitir uppfærða notendaupplifun á núverandi **Vinnumaður** síðu. | Forskoðun | 
+    | Endurbætur á upplifun notanda í mannauði | Sjá töflu í næsta kafla.  | Forskoðun | 
 
 \* Það verður að kveikja á þessum eiginleika áður en **Upplifun mannauðs notenda** eiginleiki.
 
@@ -75,5 +75,5 @@ Sameiningin mun veita mannauðsnotendum samræmi á eftirfarandi hátt:
 | Skrár að renna út í **Starfsmannastjórnun** vinnurými | Þessi eiginleiki veitir lista yfir hluti sem eru útrunnir eða munu renna út fyrir skírteini, auðkenni, skilorð, skimun eða próf. | 
 | **Staðfesting stigveldis** síðu | Athugun er gerð fyrir hringlaga tilvísanir í stigveldi stöðulínu. | 
 | Landssértækar launaupplýsingar | Fleiri launareitir eru fáanlegir á **Atvinna verkamanna** síðu, allt eftir landi eða svæði lögaðilans þar sem starfsmenn eru starfandi. | 
-| Endurbætur á regluvörsluskýrslu | Viðbótartilkynningarmöguleikar eru í boði fyrir EEO-1, Vets 4212 og OSHA300a. | 
+| Endurbætur á reglufylgni | Viðbótartilkynningarmöguleikar eru í boði fyrir EEO-1, Vets 4212 og OSHA300a. | 
 | Uppfærslur á **Starfsmannastjórnun** vinnurými | Uppfærslur hafa verið gerðar til að fylgjast með breytingum á heimilisfangi og skrám sem renna út. Að auki birta nýir flipar starfsmanns- og stöðuaðgerðir. | 

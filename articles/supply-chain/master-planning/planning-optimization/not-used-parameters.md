@@ -1,22 +1,22 @@
 ---
 title: Færibreytur ekki notaðar af fínstillingu skipulagningar
 description: Í þessu efnisatriði er að finna lista yfir færibreytur sem fínstilling skipulagningar tekur ekki til greina sem stendur meðan á aðgerð stendur.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
 ms.search.form: ReqParameters, ReqGroup, ReqItemTable, ReqPlanSched, EcoResProductDetailsExtended, InventItemOrderSetup, WorkCalendarTable, PdsDispositionMaster
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
-ms.translationtype: HT
+ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408231"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469115"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Færibreytur ekki notaðar af fínstillingu skipulagningar
 
@@ -65,18 +65,6 @@ Fínstilling skipulagningar notar ekki eftirfarandi færibreytur eða valkosti �
   - **Nota tilgreinda uppskriftar- eða formúluútgáfu** – Bíður stuðnings frá *Formúluútgáfur með auka-/hliðarafurðum*.
   - **Nota tilgreinda leiðarútgáfu** – Bíður stuðnings frá *Eftirspurn með tiltekna kröfu uppskriftar eða leiðar skilgreinda*.
 
-- Flýtiflipinn **Aðgerð**:
-
-  - **Aðgerðarboð** – Bíður stuðnings frá *Aðgerðum*.
-  - **Tímamörk aðgerðar** – Bíður stuðnings frá *Aðgerðum*.
-  - **Fresta álagningu** – Bíður stuðnings frá *Aðgerðum*.
-  - **Flýta fyrir álagningu** – Bíður stuðnings frá *Aðgerðum*.
-  - **Grunndagsetning** – Bíður stuðnings frá *Aðgerðum*.
-  - **Flýta fyrir** – Bíður stuðnings frá *Aðgerðum*.
-  - **Fresta** – Bíður stuðnings frá *Aðgerðum*.
-  - **Minnka** – Bíður stuðnings frá *Aðgerðum*.
-  - **Hækka** – Bíður stuðnings frá *Aðgerðum*.
-  - **Afleiddar aðgerðir** – Bíður stuðnings frá *Aðgerðum*.
 
 - Flýtiflipinn **Annað**:
 
@@ -149,7 +137,6 @@ Fínstilling skipulagningar notar ekki eftirfarandi færibreytur eða valkosti �
   - **Spáráætlun** – Bíður frekari stuðnings *Spár*.
   - **Geta** – Bíður stuðnings frá *Áætlanagerð*.
   - **Samfelldniáætlun** – Bíður stuðnings frá *Samfelldniáætlunargerð*.
-  - **Aðgerðarboð** – Bíður stuðnings frá *Aðgerðum*.
   - **Reiknaðar seinkanir** – Bíður frekari stuðnings frá *Reiknaðar seinkanir*.
   - **Röðun** – Bíður stuðnings frá *Framleiðslu*.
 

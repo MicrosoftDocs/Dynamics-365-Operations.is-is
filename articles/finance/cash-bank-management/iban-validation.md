@@ -1,23 +1,23 @@
 ---
 title: Stjórna villuleit á reikningi með alþjóðlegt bankareikningsnúmer (IBAN)
 description: Þetta efnisatriði útskýrir hvernig á að stjórna villuleit á reikningi með alþjóðlegt bankareikningsnúmer (IBAN).
-author: roschlom
+author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 210d2f57e21ec5ac38ba8ca07195e40ff507e2b9
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
-ms.translationtype: HT
+ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860820"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462765"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>Stjórna villuleit á reikningi með alþjóðlegt bankareikningsnúmer (IBAN)
 
@@ -25,13 +25,13 @@ ms.locfileid: "7860820"
 
 Villuleit með alþjóðlegu bankareikningsnúmeri (IBAN) eykur fjölda villuleita sem gerðar eru þegar þú bætir IBAN við bankareikning.
 
-Upplýsingar um skipulag IBAN er geymd í Microsoft Dynamics 365 Finance. Þessar upplýsingar eru sjálfkrafa hlaðnir þegar þú notar IBAN fyrst á bankareikningum. Það inniheldur lengd IBAN, upphafsstöðu bankareikningsrnúmers og leiðarrnúmer og lengd bankareikningsnúmersins og leiðarrnúmersins.
+Upplýsingar um uppbyggingu IBAN eru geymdar í Microsoft Dynamics 365 Finance og hlaðast sjálfkrafa þegar þú notar IBAN-númerið á bankareikningum í fyrsta sinn. Það inniheldur lengd IBAN, upphafsstöðu bankareikningsrnúmers og leiðarrnúmer og lengd bankareikningsnúmersins og leiðarrnúmersins.
 
 ## <a name="set-up-iban-structures"></a>Setja upp IBAN-skipulag
 
 1. Farðu í **Reiðufjár- og bankastjórnun \> Uppsetning \> IBAN-skipulag**.
 2. Takið eftir að IBAN-skipulagið fyrir hvert land eða hvert svæði hefur verið sett upp sjálfkrafa.
-3. Ef þú vilt aðlaga skipulagið að tiltekið land eða svæði, getur þú breytt þeim.
+3. Veldu **Breyta** hnappinn ef uppfæra þarf uppbygginguna fyrir tiltekið land eða svæði.
 4. Skilgreiningar skipulags verða hluti af öllum nýjum útgáfum. Þú getur notað valmyndina **Endurstilla skipulag** til að hlaða niður nýjustu skilgreiningunum eftir hverja uppfærslu.
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>Villuleita IBAN-skipulag á bankareikningi

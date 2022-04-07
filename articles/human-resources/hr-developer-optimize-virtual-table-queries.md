@@ -1,7 +1,7 @@
 ---
 title: Fínstilla Dataverse sýndartöflufyrirspurnir
 description: Fínstilla og úrræðaleita afköst á fyrirspurnum um Dataverse sýndartöflur
-author: andreabichsel
+author: twheeloc
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: jaredha
+ms.author: twheeloc
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1857d2e35e369bcd0c8f02a059a307f31da8b3b9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 4057740fc4c6ddd696b37b6373dcfcd43881305e
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067455"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8534218"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Fínstilla Dataverse sýndartöflufyrirspurnir
 
@@ -50,7 +50,7 @@ Ein orsök á hægum afköstum með Dataverse sýndartöflur fyrir Human Resourc
 Dæmi þar sem þú gætir séð þessi áhrif er í fyrirspurnum gegn starfsmanninum (**mshr_hcmworkerentity**) eða einingu grunnstarfskrafts (**mshr_hcmworkerbaseentity**). Frammistöðuvandamál gætu birtst á nokkra mismunandi vegu:
 
 - **Hæg fyrirspurnarkeyrsla**: Fyrirspurn vegna sýndartöflu gæti skilað eðlilegum niðurstöðum en tekið lengri tíma en vanalega að ljúka keyrslu fyrirspurnarinnar.
-- **Tímamörk fyrirspurnar** : Fyrirspurnin gæti runnið út á tíma og skilað eftirfarandi villu: "Táknið var fengið til að hringja í Finance and Operations, en Finance and Operations skilaði villu af gerðinni InternalServerError."
+- **Tímamörk fyrirspurna** : Fyrirspurnin gæti runnið út á tíma og skilað eftirfarandi villu: "Táknið var fengið til að hringja í Finance and Operations, en Finance and Operations skilaði villu af gerðinni InternalServerError."
 - **Óvænt villa**: Fyrirspurnin gæti skilað villu af gerðinni 400 með eftirfarandi skilaboðum: „Óvænt villa kom upp.“
 
   ![Villugerð 400 á HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f74bb4bd4ed66520c04261bd9f82faad7775817e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062112"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524466"
 ---
 # <a name="inventory-visibility-public-apis"></a>Opin API fyrir sýnileika birgða
 
@@ -41,15 +41,17 @@ Eftirfarandi tafla sýnir API sem eru í boði eins og er:
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Bóka | [Stilla/hnekkja lagermagni](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Bóka | [Stofna eitt tilvik frátekningar](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Bóka | [Stofna mörg tilvik frátekningar](#create-multiple-reservation-events) |
+| /api/umhverfi/{environmentId} /á hendi/breytingaáætlun | Bóka | [Búðu til eina áætlaða breytingu á hendi](inventory-visibility-available-to-promise.md) |
+| /api/umhverfi/{environmentId} /á hendi/breyta áætlun/magn | Bóka | [Búðu til margar áætlaðar breytingar á hendi](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Bóka | [Senda fyrirspurn með bókunaraðferðinni](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Sækja | [Senda fyrirspurn með aðferðinni sækja](#query-with-get-method) |
-
-Microsoft hefur útvegað tilbúið beiðnasafn *Postman*. Þú getur flutt þetta safn inn í *Postman* hugbúnaðinn með því að nota eftirfarandi samnýttan tengil: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 > [!NOTE]
 > {environmentId} hluti slóðarinnar er umhverfiskennið í Microsoft Dynamics Lifecycle Services (LCS).
 > 
 > Magn API getur skilað að hámarki 512 færslum fyrir hverja beiðni.
+
+Microsoft hefur útvegað tilbúið beiðnasafn *Postman*. Þú getur flutt þetta safn inn í *Postman* hugbúnaðinn með því að nota eftirfarandi samnýttan tengil: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Finna endastöðin samkvæmt umhverfi Lifecycle Services
 
@@ -478,7 +480,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Fyrirspurn um lagerbirgðir
 
-Nota _Fyrirspurn við höndina_ API til að sækja núverandi birgðagögn fyrir vörur þínar. API styður sem stendur fyrirspurnir um allt að 100 einstök atriði eftir`ProductID` gildi. Margfeldi`SiteID` og`LocationID` Einnig er hægt að tilgreina gildi í hverri fyrirspurn. Hámarksmörkin eru skilgreind sem `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+Nota _Fyrirspurn við höndina_ API til að sækja núverandi birgðagögn fyrir vörur þínar. API styður sem stendur fyrirspurnir um allt að 100 einstök atriði eftir`ProductID` gildi. Margfeldi`SiteID` og`LocationID` Einnig er hægt að tilgreina gildi í hverri fyrirspurn. Hámarksmörk eru skilgreind sem `NumOf(SiteID) * NumOf(LocationID) <= 100`.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Senda fyrirspurn með bókunaraðferðinni
 
@@ -516,6 +518,9 @@ Body:
 Færibreytan `groupByValues` ætti að fylgja stillingu þinni fyrir atriðaskráningu. Frekari upplýsingar er að finna í [Skilgreining á stigveldi atriðaskráar](./inventory-visibility-configuration.md#index-configuration).
 
 Færibreytan `returnNegative` stýrir því hvort niðurstöðurnar innihalda neikvæðar færslur.
+
+> [!NOTE]
+> Ef þú hefur virkjað breytingaáætlunina fyrir hendi og eiginleika sem hægt er að lofa (ATP), getur fyrirspurnin þín einnig innihaldið`QueryATP` Boolean færibreyta, sem stjórnar því hvort niðurstöður fyrirspurnar innihalda ATP upplýsingar. Fyrir frekari upplýsingar og dæmi, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa](inventory-visibility-available-to-promise.md).
 
 Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls.
 
@@ -572,5 +577,9 @@ Hér er sýnishorn af sækja-vefslóð. Þessi beiðni um að sækja er nákvæm
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
+
+## <a name="available-to-promise"></a>ATP-afhendingarspá
+
+Þú getur sett upp Birgðasýnileika til að leyfa þér að skipuleggja framtíðar breytingar á hendi og reikna út ATP magn. ATP er magn vöru sem er tiltækt og hægt er að lofa viðskiptavinum á næsta tímabili. Notkun ATP útreiknings getur aukið getu þína til að uppfylla pöntunina til muna. Fyrir upplýsingar um hvernig á að virkja þennan eiginleika og hvernig á að hafa samskipti við birgðasýnileika í gegnum API þess eftir að eiginleikinn er virkjaður, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa](inventory-visibility-available-to-promise.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,17 +15,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 54aa85acb43c1e9a474bea9996c72c7e7017c245
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 163d7caf516d791fa54e2518d19798bdf3d58d3d
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068920"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509613"
 ---
 # <a name="create-a-working-time-calendar"></a>Búa til dagatal fyrir vinnutíma
 
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+> [!Important]
+> Virknin sem vísað er til í þessu efnisatriði er nú í boði fyrir viðskiptavini sem nota stakt Dynamics 365 Human Resources. Sum eða öll virknin verður í boði sem hluti af síðari útgáfu í tölvukerfi Finance eftir útgáfu 10.0.26 af Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

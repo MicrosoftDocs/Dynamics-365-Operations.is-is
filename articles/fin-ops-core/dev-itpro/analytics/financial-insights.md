@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416306"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464910"
 ---
 # <a name="financial-analysis"></a>Fjármálagreining
 
@@ -38,7 +38,7 @@ ms.locfileid: "7416306"
 
 Vinnusvæðið **Fjármálagreining** leggur áherslu á að leyfa þér að sjá og sía gögn um fyrirliggjandi skýrslur. Hægt er að bæta nýjum myndrænum þáttum við vinnusvæðið **Fjármálagreining**. Vinnusvæðið **Fjármálagreining** er í boði fyrir núverandi fyrirtæki ásamt öllum fyrirtækjum til að sýna gögn fyrir alla lögaðila óháð því hvaða hlutverk lögaðilarnir hafa aðgang að.
 
-- [Bættu við eða breyttu Power BI myndrænum framsetningum á stjórnborðinu þínu](/powerapps-docs/user/add-powerbi-dashboards.md)
+- [Bættu við eða breyttu Power BI myndrænum framsetningum á stjórnborðinu þínu](/powerapps/user/add-powerbi-dashboards)
 
 ## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance-uppsetning
 **Fjárhagur**

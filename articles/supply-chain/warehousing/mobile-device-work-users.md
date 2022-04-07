@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-09-15
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3a930814a1fb98e3b1611adf309c10e66b49b9d
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
-ms.translationtype: HT
+ms.openlocfilehash: c4cb36160e692cc12140b57037d2c9739f7b2ebd
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902098"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462671"
 ---
 # <a name="mobile-device-user-accounts"></a>Notandareikningar fartækis
 
@@ -90,8 +90,8 @@ ms.locfileid: "7902098"
 1. Á aðgerðasvæðinu skal velja **Valkostir notanda**.
 1. Á flipanum **Kjörstillingar** skal stilla eftirfarandi reiti:
 
-    - **Tungumál** – Veldu tungumálið sem starfsmaðurinn kýs. Þessi reitur stýrir einnig dagsetningarsniðinu sem birtist í vöruhúsaforritinu.
-    - **Dagsetning, tími og talnasnið** – Veldu tungumálið sem mun ákvarða talnasniðin sem eru sýnd í vöruhúsaforritinu. Athugaðu að dagsetningar- og tímasnið sem sýnd eru í vöruhúsaforritinu eru í raun ákvörðuð af reitnum **Tungumál**, en ekki þessum reit.
+    - **Tungumál** – Veldu tungumálið sem starfsmaðurinn kýs. Þessi reitur stjórnar einnig númerasniðinu sem er sýnt í vöruhúsaappinu.
+    - **Dagsetning, tími og tölusnið** – Veldu dagsetningar- og tímasniðið sem starfsmaðurinn kýs. Vöruhúsaappið notar númerasniðið sem tengist tungumálinu sem er valið fyrir **Tungumál** reit í stað þessarar stillingar.
     - **Tímabelti** – Veldu tímabeltið þar sem starfsmaðurinn vinnur. Þessi reitur hefur áhrif á tímastimpil fyrir allar skráningar sem starfsmaðurinn gerir með því að nota forritið.
 
 > [!NOTE]

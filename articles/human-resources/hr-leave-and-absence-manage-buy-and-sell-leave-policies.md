@@ -15,17 +15,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1fe7ce7eafdec175e3395a6ac37b33cb2bb8dbda
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: dc89009ae9371f80de33f70816ae7b81531c8310
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066676"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509149"
 ---
 # <a name="manage-buy-and-sell-leave-policies"></a>Stjórna reglum fyrir kaup og sölu á leyfisdögum
 
+>[!Important]
+>Virknin sem vísað er til í þessu efnisatriði er nú í boði fyrir viðskiptavini sem nota stakt Dynamics 365 Human Resources. Sum eða öll virknin verður í boði sem hluti af síðari útgáfu í tölvukerfi Finance eftir útgáfu 10.0.26 af Finance.
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

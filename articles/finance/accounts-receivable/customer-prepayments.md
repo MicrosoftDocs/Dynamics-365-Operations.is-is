@@ -1,14 +1,14 @@
 ---
 title: Fyrirframgreiðslur viðskiptavinar
 description: Í þessu efnisatriði er því lýst hvernig á að setja upp og vinna úr fyrirframgreiðslum viðskiptavina (einnig þekkt sem innborganir viðskiptavina).
-author: roschlom
+author: twheeloc
 ms.date: 04/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustPosting, LedgerJournalTransCustPaym, CustParameters
 audience: Application User
-ms.reviewer: ''
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 24651
 ms.assetid: cb82245e-8c02-429c-b36e-8db0e3e6f7e5
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e83c8be1b397f90445230835e415ea4fcea5a8d0bf695e6cc5eadc55275ded7f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7ba462dc2b5fe326db14dfb3c92f986478d31791
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768964"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464877"
 ---
 # <a name="customer-prepayments"></a>Fyrirframgreiðslur viðskiptavinar
 
@@ -86,4 +86,4 @@ Hægt er að nota vinnusvæðið **Greiðslur viðskiptavinar** til að finna og
 4. Veljið gátreitinn **Merkja** fyrir reikninginn og greiðsluna sem verða jöfnuð.
 5. Veldu **Bóka**.
 
-Frekari upplýsingar um hvernig á að jafna opnar færslur er að finna í [Yfirlit jöfnunar](/cash-bank-management/settlement-overview.md).
+Frekari upplýsingar um hvernig á að jafna opnar færslur er að finna í [Yfirlit jöfnunar](/dynamics365/finance/cash-bank-management/settlement-overview).

@@ -1,7 +1,7 @@
 ---
 title: Uppsetningarhjálp fyrir aðalskipulag (inniheldur myndband)
 description: Í þessu efnisatriði er því lýst hvernig á að keyra leiðsagnarforrit fyrir uppsetningu aðaláætlanagerðar til að setja upp aðaláætlanagerð.
-author: ChristianRytt
+author: t-benebo
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 453184a3fed567b3a09e5e45e7f904bcf855dd6d
-ms.sourcegitcommit: ef0dd4245fc499907ffe00e2a32f59a6cd96e45d
+ms.openlocfilehash: a5914f63de654acd076048240c6e37d5b67f4ffa
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "7937634"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8470206"
 ---
 # <a name="master-planning-setup-wizard"></a>Leiðsagnarforrit fyrir uppsetningu áætlanagerðar
 
@@ -31,7 +31,7 @@ ms.locfileid: "7937634"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-[Leiðsagnarforrit fyrir uppsetningu áætlanagerðar í Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (sýnt hér að ofan) er innifalið í [Finance and Operations spilunarlista](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er tiltækur í YouTube.
+Myndbandið [Leiðsagnarforrit fyrir uppsetningu áætlanagerðar í Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (sýnt hér að ofan) er innifalið í [Spilunarlista Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er tiltækt í YouTube.
 
 
 ## <a name="specific-requirements-of-your-company"></a>Sérstakar kröfur fyrirtækisins

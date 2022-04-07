@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c15104e0f34c1f6cb6a599d506dad741be3e5e9e
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
-ms.translationtype: HT
+ms.openlocfilehash: e4b0b9f7eb4fb0ffab3237459d85ea92c83dd206
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388391"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462158"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Setja upp fjármálasamþættingu fyrir Commerce-rásir
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði veitir leiðbeiningar um uppsetningu á virkni fjárhagssamþættingar fyrir Commerce-rásir. Nánari upplýsingar um fjárhagssamþættingu er að finna í [Yfirlit yfir fjárhagssamþættingu fyrir Commerce-rásir](fiscal-integration-for-retail-channel.md).
 
@@ -46,7 +45,7 @@ Uppsetningarferli fjárhagssamþættingar felur í sér eftirfarandi atriði:
 - Grunnstilla skráningarferli fjárhags sem skilgreinir röð fjárhagsskráningarskrefa og fjárhagstenglana og fjárhagsskjalaveiturnar sem eru notaðar í hverju skrefi.
 - Úthluta skráningarferli fjárhags til POS-virknireglna.
 - Úthluta tækniforstillingum tengils til vélbúnaðarsniðs.
-- Úthlutaðu tæknisniðum fyrir tengi til POS vélbúnaðar eða virkniprófíla.
+- Úthlutaðu tæknisniðum tengi til POS vélbúnaðar eða virkniprófíla.
 
 ### <a name="upload-configurations-of-fiscal-document-providers"></a>Hladdu upp stillingum fyrir veitendur fjárhagsskjala
 
@@ -97,7 +96,7 @@ Hægt er að breyta færibreytum gagnavörpunar í tækniforstillingu tengils. E
 | Vörpun VSK-kóða | VSKkóði : gildi | vsk20: 1, vsk18: 2 |
 | Setja upp greiðslumáta | TenderType: gildi | Reiðufé: 1, kort: 2 |
 
-Til að endurheimta sjálfgefnar færibreytur sem eru skilgreindar í uppsetningu fjárhagsskjalaveitu skaltu velja **Uppfærsla** á **Tengi virka snið** síðu.
+Til að endurheimta sjálfgefnar færibreytur sem eru skilgreindar í skilgreiningu fjárhagsskjalaveitu skaltu velja **Uppfærsla** á **Tengi virka snið** síðu.
 
 > [!NOTE]
 > Virkniforstillingar tengils eru sértækar fyrirtæki. Ef þú ætlar að nota sömu samsetningu fjárhagstengis og fjárhagsskjalaveitu fyrir mismunandi fyrirtæki, ættir þú að búa til virka tengisnið fyrir hvert fyrirtæki.
@@ -107,7 +106,7 @@ Til að endurheimta sjálfgefnar færibreytur sem eru skilgreindar í uppsetning
 Fylgdu þessum skrefum til að búa til tæknisnið fyrir tengi.
 
 1. Í höfuðstöðvum viðskipta, farðu á **Tæknisnið fyrir tengi** síða (**Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Tæknisnið fyrir tengi**).
-1. Búðu til tæknilega tengisnið fyrir hvern fjárhagstengi með því að fylgja þessum skrefum:
+1. Búðu til tæknilegan tengiprófíl fyrir hvert fjárhagslegt tengi með því að fylgja þessum skrefum:
 
     1. Veldu heiti tengils.
     1. Veldu tengitegund:
@@ -157,14 +156,14 @@ Til að búa til fjárhagslega skráningarferli skaltu fylgja þessum skrefum.
 
 ### <a name="assign-entities-of-the-fiscal-registration-process-to-pos-profiles"></a>Úthluta einingar fjárhagsskráningarferlisins á POS snið
 
-Fylgdu þessum skrefum til að úthluta einingar fjárhagsskráningarferlisins á POS snið.
+Fylgdu þessum skrefum til að úthluta einingar í fjárhagsskráningarferlinu á POS snið.
 
 1. Í höfuðstöðvum viðskipta, farðu á **POS virkni snið** síða (**Verslun og verslun \> Rásaruppsetning \> POS uppsetning \> POS snið \> Virkniprófílar**). 
 1. Úthluta fjárhagsskráningarferlinu á POS virkniprófíl.
 1. Veldu **Breyta** og síðan, í flipanum **Skráningarferli fjárhags**, í reitnum **Númer ferlis** skal velja ferli.
 1. Á **Þjónusta í ríkisfjármálum** flipann, veldu tæknisnið tengis með staðsetningu tengisins **Skráðu þig**.
 1. Farðu í **POS vélbúnaðarsnið** síða (**Verslun og verslun \> Rásaruppsetning \> POS uppsetning \> POS snið \> Vélbúnaðarsnið**).
-1. Úthlutaðu tæknisniðum tengis við vélbúnaðarsnið. 
+1. Úthlutaðu tæknisniðum tengi til vélbúnaðarsniðs. 
 1. Veldu **Breyta**, og síðan, á **Jaðartæki í ríkisfjármálum** flipa, bæta við línu. 
 1. Í **Prófílnúmer** reit, veldu tæknisnið fyrir tengi.
 1. Á **Jaðartæki í ríkisfjármálum** flipann, veldu tæknisnið tengis með staðsetningu tengisins **Vélbúnaðarstöð**.
@@ -196,7 +195,7 @@ Mælt er með því að þú staðfestir fjárhagsskráningarferlið í eftirfar
 
 - Þú hefur lokið við allar stillingar fyrir nýtt skráningarferli. Þessar stillingar fela í sér úthlutun skráningarferla á POS virknisnið og vélbúnaðarsnið.
 - Þú hefur gert breytingar á núverandi fjárhagsskráningarferli og þær breytingar gætu valdið því að annað fjárhagslegt tengi sé valið á keyrslutíma. (Til dæmis hefurðu breytt tengihópnum fyrir fjárhagsskráningarferlisþrep, virkjað virka snið tengis í tengihópi eða bætt nýju virknisniði tengi við tengihóp.)
-- Þú hefur gert breytingar á úthlutun tæknisniðs tengis á vélbúnaðarsnið.
+- Þú hefur gert breytingar á úthlutun tækniprófíla tengis á vélbúnaðarsnið.
 
 Til að staðfesta fjárhagsskráningarferlið skaltu fylgja þessum skrefum.
 

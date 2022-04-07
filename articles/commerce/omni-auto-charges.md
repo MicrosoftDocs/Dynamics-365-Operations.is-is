@@ -2,7 +2,7 @@
 title: Ítarleg sjálfvirk gjöld fyrir omni-rás
 description: Þetta efnisatriði lýsir möguleikunum til að stjórna gjaldfærslum vegna annarra gjalda fyrir pantanir Commerce-rásar með því að nota eiginleika fyrir ítarleg sjálfvirk gjöld.
 author: hhaines
-ms.date: 03/30/2020
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
+ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743432"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "8489619"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Ítarleg sjálfvirk gjöld fyrir omni-rás
 
@@ -187,6 +187,9 @@ Ef ástæðukóðar hafa verið sóttir fyrir yfirskrifuð gjöld verður ný sk
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>Endurgreiðsla á gjöldum í skilafærslu POS
 
 Ef færibreytan **Nota ítarleg sjálfvirk gjöld** er stillt á **Já** verður núverandi færibreyta Commerce fyrir **Endurgreiða sendingargjöld** ekki lengur tiltæk. Til að tilgreina hvaða gjöld skal kerfisbundið endurgreiða til viðskiptavinar þegar ítarleg sjálfvirk gjöld eru notuð, skaltu vera viss um að tengdur gjaldakóði hafi verið skilgreindur sem **Endurgreiðanlegur** á uppsetningarsíðunni **Gjaldakóði**. Gakktu úr skugga um að stillingarnar hafi verið samstilltar við gagnagrunna Commerce-rásar í gegnum vinnslu áætlanadreifingar.
+
+> [!TIP]
+> Fyrir leiðbeiningar sem hjálpa þér að tryggja að endurgreiðanleg gjöld á línustigi séu reiknuð út frá því magni sem er skilað, sjá [Endurgreiðanleg gjöld eru ekki reiknuð út frá því magni sem skilað er](/troubleshoot/Refund-charges-miscalculated-for-partial-quantity-returned.md).
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Endurgreiðsla gjalda í færslu skilapöntunar
 

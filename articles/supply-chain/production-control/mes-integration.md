@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
-ms.translationtype: HT
+ms.openlocfilehash: 9ec0bedcf1a3a2888a91158ea0353283660d3266
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "8330702"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487582"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Samþætta við kerfi þriðju aðila fyrir framkvæmd framleiðslu
 
@@ -65,6 +65,8 @@ Eftirfarandi mynd sýnir dæmigert safn viðskiptaviðburða, ferla og skilaboð
 ## <a name="monitor-incoming-messages"></a>Fylgstu með skilaboðum sem berast
 
 Til að fylgjast með skilaboðum sem berast í kerfið skaltu opna **Samþætting framkvæmdarkerfa í framleiðslu** síðu. Þar er hægt að skoða, vinna úr og leysa vandamál.
+
+Öll skilaboð fyrir tiltekna framleiðslupöntun eru unnin í þeirri röð sem þau berast. Hins vegar er ekki víst að skilaboð fyrir mismunandi framleiðslupantanir séu unnin í móttekinni röð vegna þess að runuvinnslur eru unnar samhliða. Ef bilun verður, mun runuvinnan reyna að vinna úr hverju skeyti þrisvar sinnum áður en það er stillt á *Mistókst* stöðu.
 
 ## <a name="call-the-api"></a>Hringdu í API
 
@@ -119,13 +121,13 @@ Eftirfarandi tafla sýnir reiti sem hver lína í`ReportFinishedLines` kafla í`
 | `ReportedGoodQuantity` | Valfrjálst | Rauntala|
 | `ReportedErrorCatchWeightQuantity` | Valfrjálst | Rauntala |
 | `ReportedGoodCatchWeightQuantity` | Valfrjálst | Rauntala |
-| `AcceptError` | Valfrjálst |Boole |
+| `AcceptError` | Valfrjálst | Enum (Já\| Nei) |
 | `ErrorCause` | Valfrjálst | Enum (Engin\| Efni\| Vél\| OperatingStaff), stækkanlegt |
 | `ExecutedDateTime` | Valfrjálst | DateTime-gildi |
 | `ReportAsFinishedDate` | Valfrjálst | Dagsetning |
 | `AutomaticBOMConsumptionRule` | Valfrjálst | Enum (FlushingPrincip\| Alltaf\| Aldrei) |
 | `AutomaticRouteConsumptionRule` | Valfrjálst |Enum (RouteDependent\| Alltaf\| Aldrei) |
-| `RespectFlushingPrincipleDuringOverproduction` | Valfrjálst | Boole |
+| `RespectFlushingPrincipleDuringOverproduction` | Valfrjálst | Enum (Já\| Nei) |
 | `ProductionJournalNameId` | Valfrjálst | Strengur |
 | `PickingListProductionJournalNameId` | Valfrjálst | Strengur|
 | `RouteCardProductionJournalNameId` | Valfrjálst | Strengur |
@@ -133,11 +135,11 @@ Eftirfarandi tafla sýnir reiti sem hver lína í`ReportFinishedLines` kafla í`
 | `ToOperationNumber` | Valfrjálst | Heiltala|
 | `InventoryLotId` | Valfrjálst | Strengur |
 | `BaseValue` | Valfrjálst | Strengur |
-| `EndJob` | Valfrjálst | Boole |
-| `EndPickingList` | Valfrjálst | Boole |
-| `EndRouteCard` | Valfrjálst | Boole |
-| `PostNow` | Valfrjálst | Boole |
-| `AutoUpdate` | Valfrjálst | Boole |
+| `EndJob` | Valfrjálst | Enum (Já\| Nei) |
+| `EndPickingList` | Valfrjálst | Enum (Já\| Nei) |
+| `EndRouteCard` | Valfrjálst | Enum (Já\| Nei) |
+| `PostNow` | Valfrjálst | Enum (Já\| Nei) |
+| `AutoUpdate` | Valfrjálst | Enum (Já\| Nei) |
 | `ProductColorId` | Valfrjálst | Strengur|
 | `ProductConfigurationId` | Valfrjálst | Strengur |
 | `ProductSizeId` | Valfrjálst | Strengur |
@@ -181,7 +183,7 @@ Eftirfarandi tafla sýnir reiti sem hver lína í`PickingListLines` kafla í`Pro
 | `OperationNumber` | Valfrjálst | Heiltala |
 | `LineNumber` | Valfrjálst | Rauntala |
 | `PositionNumber` | Valfrjálst | Strengur |
-| `IsConsumptionEnded` | Valfrjálst | Boole |
+| `IsConsumptionEnded` | Valfrjálst | Enum (Já\| Nei) |
 | `ErrorCause` | Valfrjálst | Enum (Engin\| Efni\| Vél\| OperatingStaff), stækkanlegt |
 | `InventoryLotId` | Valfrjálst | Strengur |
 
@@ -217,9 +219,9 @@ Eftirfarandi tafla sýnir reiti sem hver lína í`RouteCardLines` kafla í`ProdP
 | `ConsumptionDate` | Valfrjálst | Dagsetning |
 | `TaskType` | Valfrjálst | Enum (QueueBefore\| Uppsetning\| Ferli\| Skarast\| Flutningur\| Biðröð Eftir\| Byrði) |
 | `ErrorCause` | Valfrjálst | Enum (Engin\| Efni\| Vél\| OperatingStaff), stækkanlegt |
-| `OperationCompleted` | Valfrjálst | Boole |
-| `BOMConsumption` | Valfrjálst | Boole |
-| `ReportAsFinished` | Valfrjálst | Boole |
+| `OperationCompleted` | Valfrjálst | Enum (Já\| Nei) |
+| `BOMConsumption` | Valfrjálst | Enum (Já\| Nei) |
+| `ReportAsFinished` | Valfrjálst | Enum (Já\| Nei) |
 
 ### <a name="end-production-order-message"></a>Skilaboð um lok framleiðslupöntunar
 
@@ -230,9 +232,13 @@ Fyrir *enda framleiðslupöntun* skilaboð, the`_messageType` gildi er `ProdProd
 | `ProductionOrderNumber` | Skylda | Strengur |
 | `ExecutedDateTime` | Valfrjálst | DateTime-gildi |
 | `EndedDate` | Valfrjálst | Dagsetning |
-| `UseTimeAndAttendanceCost` | Valfrjálst | Boole |
-| `AutoReportAsFinished` | Valfrjálst | Boole |
-| `AutoUpdate` | Valfrjálst | Boole |
+| `UseTimeAndAttendanceCost` | Valfrjálst | Enum (Já\| Nei) |
+| `AutoReportAsFinished` | Valfrjálst | Enum (Já\| Nei) |
+| `AutoUpdate` | Valfrjálst | Enum (Já\| Nei) |
+
+## <a name="other-production-information"></a>Aðrar framleiðsluupplýsingar
+
+Skilaboðin styðja aðgerðir eða atburði sem gerast á verslunargólfinu. Þær eru unnar með því að nota MES samþættingarrammann sem lýst er í þessu efni. Hönnunin gerir ráð fyrir að aðrar tilvísunarupplýsingar sem á að deila með MES (svo sem vörutengdar upplýsingar, eða efnisskrá eða leið (með tilteknum uppsetningar- og uppsetningartímum) sem notaðar eru í tiltekinni framleiðslupöntun) verði sóttar úr kerfinu nota [gagnaeiningar](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) með skráaflutningi eða OData.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>Fáðu endurgjöf um stöðu skilaboða
 

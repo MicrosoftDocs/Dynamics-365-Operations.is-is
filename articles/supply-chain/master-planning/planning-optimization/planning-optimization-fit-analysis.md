@@ -1,7 +1,7 @@
 ---
 title: Greining á samsvörun áætlunarfínstillingar
 description: Þetta efni útskýrir hvernig á að sannreyna núverandi uppsetningu og gögn gagnvart getu virkni fínstillingar skipulagningar.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
-ms.translationtype: HT
+ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408016"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487643"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Samræmisgreining á fínstillingu áætlanagerðar
 
@@ -84,7 +84,7 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 | Framleiðsla | Uppskriftar-/formúlulínur með tilfanganotkun: _\#_ | Þessi eiginleiki í bið. Sem stendur eru uppskriftar- og formúlulínur sem eru með tilfanganotkun hunsaðar þegar fínstilling áætlanagerðar er virk. Þegar þessi eiginleiki er studdur verður efnisþörfinni stillt á upphafsdagsetningu framleiðslunnar. Þar til þessi eiginleiki er studdur verða kröfur ekki myndaðar fyrir efni sem eru merkt með flaggi tilfanganotkunar. | 2022. október |
 | Framleiðsla | Uppskrifta-/formúlulínur með skrefanotkun: _\#_ | Þessi eiginleiki í bið. Sem stendur er skrefanotkun hunsuð í uppskriftar- og formúlulínum þegar fínstilling áætlanagerðar er virk. | 2022. október |
 | Framleiðsla | Uppskriftir með fastri rýrnun eða breytilegri rýrnun skilgreindar: _\#_ | Þessi eiginleiki í bið. Sem stendur er föst rýrnun og breytileg rýrnun, sem skilgreindar eru í uppskriftum, hunsaðar þegar fínstilling áætlanagerðar er virk. | 2022. október |
-| Framleiðsla | Uppskriftir með úthýsingu: _\#_ | Þessi eiginleiki í bið. Sem stendur er uppsetning úthýsingar í uppskriftum hunsuð þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. | 2022. apríl |
+| Framleiðsla | Uppskriftir með úthýsingu: _\#_ | Þessi eiginleiki er nú studdur. | Stutt |
 | Framleiðsla | Uppskriftir án svæðis: _\#_ | Þessi eiginleiki er nú studdur. Frekari upplýsingar má finna í [Framleiðsluáætlun](production-planning.md) | Stutt |
 | Framleiðsla | Senda beiðni með skilgreindum kröfum fyrir tiltekna uppskrift eða leið: _\#_ | Þessi eiginleiki í bið. Sem stendur eru tilteknar kröfur uppskriftar eða leiðar, sem skilgreindar eru í eftirspurninni (t.d. undiruppskrift eða undirleið í sölupöntun), hunsaðar þegar fínstilling áætlanagerðar er virk. Stöðluð uppskrift eða leið verður notuð, óháð þessari stillingu. | 2022. október |
 | Framleiðsla | Formúluútgáfur með auka-/hliðarafurðir: _\#_ | Þessi eiginleiki í bið. Sem stendur eru aukaafurðir og hliðarafurðir, sem tengjast formúluútgáfunni, hunsaðar þegar fínstilling áætlanagerðar er virk. | 2022. október |

@@ -1,7 +1,7 @@
 ---
 title: Byrjaðu með hagræðingu skipulags
 description: Þetta efnisatriði útskýrir hvernig skuli hefja notkun á virkninni Fínstilling skipulagningar.
-author: ChristianRytt
+author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 8e6328902cec840b98b401fe8dd46c2a6f18cb54
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: faaa2aa921457a3d26c2a921a856a61296192a04
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902560"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469814"
 ---
 # <a name="get-started-with-planning-optimization"></a>Hafist handa með fínstillingu áætlanagerðar
 
@@ -58,7 +58,7 @@ Til að nota Fínstilling skipulagningar verður að ganga úr skugga um að ker
 
 - Nauðsynlegt er að keyra Supply Chain Management á öflugu LCS virkt umhverfi, á stigi 2 eða hærra (ekki OneBox-umhverfi), með Dynamics 365 Supply Chain Management útgáfu 10.0.7 eða nýrri. Ef reynt er að setja upp viðbótina í OneBox-umhverfi verður uppsetningunni ekki lokið og því verður að hætta við uppsetninguna.
 
-- Kerfið verður að vera sett upp fyrir Power Platform samþættingu. Frekari upplýsingar er að finna í [Microsoft Power Platform samþætting við Finance and Operations forrit](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
+- Kerfið verður að vera sett upp fyrir Power Platform samþættingu. Fyrir frekari upplýsingar, sjá [Microsoft Power Platform samþættingu við Finance and Operations öpp](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>Virkja leyfi Fínstillingar skipulagningar
 

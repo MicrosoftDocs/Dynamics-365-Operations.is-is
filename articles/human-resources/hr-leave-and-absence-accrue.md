@@ -1,32 +1,33 @@
 ---
 title: Uppsöfnunaráætlanir fyrir leyfi og fjarvistir
 description: Þú getur safnað orlofi og fjarveru í Dynamics 365 Human Resources fyrir marga starfsmenn eða einstakling.
-author: andreabichsel
+author: twheeloc
 ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a5f3ae95d0670369ac63e5a5d521885fe55ce8af
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7f765e7cfd97170bd144dfff12c18ced96e3332a
+ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070653"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "8533713"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Uppsöfnunaráætlanir fyrir leyfi og fjarvistir
 
+>[!Important]
+>Virknin sem vísað er til í þessu efnisatriði er nú í boði fyrir viðskiptavini sem nota stakt Dynamics 365 Human Resources. Sum eða öll virknin verður í boði sem hluti af síðari útgáfu í tölvukerfi Finance eftir útgáfu 10.0.26 af Finance.
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

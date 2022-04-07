@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1593206e8e22aed518ebca9bee0772c6620bec9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068793"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464938"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Skoða og uppfæra einingagögn með Excel 
 
@@ -48,7 +48,7 @@ Til að fá frekari upplýsingar um hvernig á að nota Excel-innbótina skal ho
 2. Veljið **Opna í Excel** og opnið vinnubókina sem er mynduð. Þessi vinnubók hefur bindingarupplýsingar fyrir einingu, bendilinn í umhverfinu og bendilinn í Excel-innbót.
 3. Í Excel, veljið **Virkja breytingar** til að virkja Excel-innbót til að keyra. Í Excel-innbót keyrir í rúða hægra megin í Excel-glugga.
 4. Ef verið er að keyra í Excel-innbót í fyrsta sinn, er valið **Treysta þessari innbót**.
-5. Ef þú ert beðinn um að skrá þig inn skaltu velja **skrá inn**, og skráðu þig síðan inn með því að nota sömu skilríki og þú notaðir til að skrá þig inn á Finance and Operations appið. Excel-innbót mun nota samhengi fyrri innskráningar úr vafra og skrá þig sjálfkrafa inn, ef það er hægt. (Upplýsingar um vafrann sem notaður er samkvæmt stýrikerfinu er að finna í [Vafrar sem Office-innbætur nota](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Til að ganga úr skugga um að innskráning hafi tekist skal staðfesta notandanafnið efst í hægra horni Excel-innbótarinnar. 
+5. Ef þú ert beðinn um að skrá þig inn skaltu velja **skrá inn**, og skráðu þig síðan inn með því að nota sömu skilríki og þú notaðir til að skrá þig inn á Finance and Operations appið. Excel-innbót mun nota samhengi fyrri innskráningar úr vafra og skrá þig sjálfkrafa inn, ef það er hægt. (Fyrir upplýsingar um vafrann sem er notaður miðað við stýrikerfið, sjá [Vafrar notaðir af Office viðbótum](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) . Til að tryggja að innskráning hafi tekist, staðfestu notandanafnið í efra hægra horninu á Excel viðbótinni. 
 
 Excel-innbót les sjálfkrafa gögn fyrir eininguna sem er valin. Athugið að það verða engin gögn í vinnubókinni fyrr en Excel-innbót les þau inn.
 
@@ -76,7 +76,7 @@ Excel-innbót les sjálfkrafa gögn fyrir eininguna sem er valin. Athugið að �
 Eftir að Excel-innbót les gögn um einingar inn í vinnubókina, er hægt að uppfæra gögnin hvenær sem er með því að velja **Endurnýja** í Excel-innbót.
 
 ## <a name="edit-entity-data-in-excel"></a>Breyta einingagögnum í Excel
-Þú getur breytt einingargögnum eftir þörfum og birt þau síðan aftur í Finance and Operations forrit með því að velja **Birta** í Excel viðbótinni. Til að breyta færslu, skal velja hólf í vinnublaðinu og breyta síðan gildi hólfsins. Til að bæta við nýrri færslu, skal fylgja einu af eftirfarandi skrefum:
+Þú getur breytt einingagögnum eins og þú þarfnast og birt þau síðan aftur í Finance and Operations forrit með því að velja **Birta** í Excel viðbótinni. Til að breyta færslu, skal velja hólf í vinnublaðinu og breyta síðan gildi hólfsins. Til að bæta við nýrri færslu, skal fylgja einu af eftirfarandi skrefum:
 
 - Smellið einhvers staðar í gagnagjafatöflunni, og velja svo **Nýtt** í Excel-innbót.
 - Smellið hvar sem er í síðustu línu í gagnagjafatöflunni og ýttu síðan á flipalykil þar til að bendillinn fer út úr síðasta dálki þeirrar línu og ný lína er stofnuð.

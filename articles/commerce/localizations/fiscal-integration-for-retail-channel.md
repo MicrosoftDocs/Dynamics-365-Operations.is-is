@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 46e0afd5a8cb692da56a7d5f261ca30d9b3aaa80
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
-ms.translationtype: HT
+ms.openlocfilehash: 00c68155088ff2aabbe2fe0c4f431b665aebcd0a
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388314"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462524"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Yfirlit yfir samþættingu ríkisfjármála fyrir viðskiptarásir
 
 [!include [banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 Í þessu efnisatriði er yfirlit yfir fjárhagssamþættingarmöguleika sem eru í boði í Dynamics 365 Commerce. 
 
@@ -58,7 +57,7 @@ Eftirfarandi dæmigert fjárhagsskráningarflæði byrjar með atburði í POS (
 1. FIF rekur fjárhagsskjalaveituna sem býr til fjárhagsskjal (til dæmis XML skjal) sem táknar færsluna eða atburðinn.
 1. FIF skilar útbúnu fjárhagsskjali til POS.
 1. POS fer fram á að FIF afhendi fjárhagsskjalið til fjármálafyrirtækisins eða þjónustunnar.
-1. FIF rekur fjárhagstengið sem vinnur úr fjárhagsskjalinu og sendir það til fjárhagslega tækisins eða þjónustunnar.
+1. FIF rekur fjárhagstengið sem vinnur úr fjárhagsskjalinu og sendir það til fjármálafyrirtækisins eða þjónustunnar.
 1. FIF skilar fjárhagslega svarinu (þ.e. svari fjárhagslega tækisins eða þjónustunnar) til POS.
 1. POS greinir fjárhagsviðbrögðin til að ákvarða hvort fjárhagsskráningin heppnaðist. Eins og krafist er, biður POS um að FIF höndli allar villur sem áttu sér stað. 
 1. POS fer fram á að FIF afgreiði og visti viðbrögð við ríkisfjármálum.
@@ -117,7 +116,7 @@ Ef fjárhagsskráningu á færslu eða tilviki hefur verið frestað eftir bilun
 
 ### <a name="postpone-option"></a>Fresta valmöguleika
 
-The **Fresta** valmöguleikinn gerir þér kleift að halda áfram fjárhagsskráningarferlinu ef núverandi skref mistekst. Það er hægt að nota þegar það er öryggisafrit af fjárhagsskráningu.
+The **Fresta** valmöguleikinn gerir þér kleift að halda áfram fjárhagsskráningarferlinu ef núverandi skref mistekst. Það er hægt að nota þegar það er öryggisafrit af ríkisskráningu.
 
 ### <a name="fiscal-registration-health-check"></a>Ástandsskoðun fjárhagsskráningar
 

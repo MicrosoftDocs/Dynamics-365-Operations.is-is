@@ -1,7 +1,7 @@
 ---
 title: Vinna með áætlaðar pantanir
 description: Þetta efnisatriði gefur upplýsingar um hvernig á að stjórna áætluðum pöntunum. Hún lýsir því hvernig hægt er að uppfæra stöðu áætlaðra pantana, staðfesta þær og sía fyrir áætluðum pöntunum sem hafa sömu stöðu og valin áætluð pöntun.
-author: ChristianRytt
+author: t-benebo
 ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19151
 ms.assetid: 54123f4c-b4ca-4ce4-9358-b067aa04c968
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4ec4e50d37403107b31117912423b8bbc8ebb35
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2bf3efec234ea4d22c01e1b48b3548dad7577a2b
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575729"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468581"
 ---
 # <a name="maintain-planned-orders"></a>Vinna með áætlaðar pantanir
 

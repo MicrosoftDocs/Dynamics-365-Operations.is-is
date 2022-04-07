@@ -15,17 +15,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ddc50540ba0686f18b6e8875e40f11c378c448f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 80b7125df93d9bdfb866b37abebbdc412d7e5b95
+ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067480"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8509389"
 ---
 # <a name="buy-and-sell-leave"></a>Kaupa og selja leyfisdaga
 
 
-[!INCLUDE [PEAP](../includes/peap-2.md)]
+>[!Important]
+>Virknin sem vísað er til í þessu efnisatriði er nú í boði fyrir viðskiptavini sem nota stakt Dynamics 365 Human Resources. Sum eða öll virknin verður í boði sem hluti af síðari útgáfu í tölvukerfi Finance eftir útgáfu 10.0.26 af Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

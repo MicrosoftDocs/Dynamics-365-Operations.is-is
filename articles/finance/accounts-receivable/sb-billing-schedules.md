@@ -1,5 +1,5 @@
 ---
-title: Yfirlit yfir innheimtuáætlun
+title: Búðu til innheimtuáætlanir
 description: Þetta efni útskýrir hvernig á að búa til, eyða og breyta innheimtuáætlunum.
 author: JodiChristiansen
 ms.date: 02/09/2022
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e42be3f359e96f0861354ebc8e1e9c87478a5d89
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
-ms.translationtype: HT
+ms.openlocfilehash: 2c4e3c0edadd00fd3a3f2ae9968248a226147996
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182717"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462588"
 ---
-# <a name="billing-schedule-overview"></a>Yfirlit yfir innheimtuáætlun
+# <a name="create-billing-schedules"></a>Búðu til innheimtuáætlanir
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Á **Innheimtuáætlun** síðu geturðu búið til, eytt eða breytt innheimtuáætlunum. Þú getur líka skoðað listann yfir innheimtuáætlanir. Þegar þú býrð til innheimtuáætlun eru sjálfgefin gildi fyrir hana ákvörðuð af innheimtuhópnum sem er tengdur við hana. Viðbótarupplýsingar eru settar upp á **Endurteknar innheimtufæribreytur samnings** síðu.
 
@@ -122,7 +121,7 @@ Eftirfarandi upplýsingar eru fáanlegar á **Almennt** flipa.
 
 | Reitur eða hluti | Lýsing |
 |------------------|-------------|
-| Notkun | <p>Þessi hluti veitir upplýsingar um notkunaratriði. Það inniheldur eftirfarandi reiti:</p><ul><li>**Notkunarauðkenni** – Auðkenni mælisins eða notkunarhlutarins.</li><li>**Lestrarvalkostur** - Notkunarlestrarvalkosturinn: **Lestur** eða **Neysla**.</li><li>**Áætluð neysla** – Tilgreindu áætlaða notkun fyrir notkunarvöru sem hefur tímabil þar sem reikningurinn hefur ekki verið stofnaður. Á **Innheimtuupplýsingar** síðu, getur þú skoðað línur innheimtuupplýsinga fyrir áætlaða neyslu.</li></ul> |
+| Notkun | <p>Þessi hluti veitir upplýsingar um notkunaratriði. Það inniheldur eftirfarandi reiti:</p><ul><li>**Notkunarauðkenni** – Auðkenni mælisins eða notkunarhlutarins.</li><li>**Lestrarvalkostur** - Notkunarlestrarvalkosturinn: **Lestur** eða **Neysla**.</li><li>**Áætluð neysla** – Tilgreindu áætlaða notkun fyrir notkunarvöru sem hefur tímabil þar sem reikningurinn hefur ekki verið búinn til. Á **Innheimtuupplýsingar** síðu, getur þú skoðað línur innheimtuupplýsinga fyrir áætlaða neyslu.</li></ul> |
 | Ytri tilvísanir\* | Þessi hluti inniheldur **Ytri** og **Línunúmer** reiti, þar sem þú getur tilgreint ytri tilvísunarupplýsingar. |
 | Áfangi | <p>Þessi hluti veitir upplýsingar um áfangaatriði. Það inniheldur **Áætlaður verklokadagur** reit, sem sýnir verklokadag.</li></ul> |
 | Texti | Athugasemd fyrir línuna. Textinn er þýddur á sjálfgefið tungumál viðskiptavinar eða lögaðila. |
@@ -135,9 +134,9 @@ Eftirfarandi upplýsingar eru fáanlegar á **Almennt** flipa.
 
 Eftirfarandi upplýsingar eru fáanlegar á **Heimilisfang** flipa.
 
-| Svæði | Lýsing |
+| Reitur | Lýsing |
 |-------|-------------|
-| Afhendingaraðsetur | <p>Veldu afhendingarfang fyrir línuvöruna. Sjálfgefið afhendingarheimilisfang er aðalafhendingarfang frá **Heimilisfang** Flýtiflipi.</p><p>Þegar þú breytir heimilisfanginu geturðu valið eftirfarandi heimilisfangsvalkosti:</p><ul><li>**Heimilisföng** – Veldu heimilisfang fyrir núverandi viðskiptavin.</li><li>**Í notkun** – Veldu heimilisfang sem er notað fyrir núverandi viðskiptavin.</li><li>**Annað heimilisfang** – Veldu heimilisfang fyrir hvaða viðskiptamannaskrá sem er.</li></ul><p>Fyrir vörur sem nota tekjuskiptingu er aðeins hægt að breyta heimilisfangi yfirvörunnar. Heimilisfang undirhlutanna samsvarar heimilisfangi foreldris og ekki er hægt að breyta því sérstaklega.</p> |
+| Afhendingaraðsetur | <p>Veldu afhendingarfang fyrir línuvöruna. Sjálfgefið afhendingarheimilisfang er aðalafhendingarfang frá **Heimilisfang** Flýtiflipi.</p><p>Þegar þú breytir heimilisfanginu geturðu valið eftirfarandi heimilisfangsvalkosti:</p><ul><li>**Heimilisföng** – Veldu heimilisfang fyrir núverandi viðskiptavin.</li><li>**Í notkun** – Veldu heimilisfang sem er notað fyrir núverandi viðskiptavin.</li><li>**Annað heimilisfang** – Veldu heimilisfang fyrir hvaða viðskiptavinaskrá sem er.</li></ul><p>Fyrir vörur sem nota tekjuskiptingu er aðeins hægt að breyta heimilisfangi yfirvörunnar. Heimilisfang undirhlutanna samsvarar heimilisfangi foreldris og ekki er hægt að breyta því sérstaklega.</p> |
 | Frumvarp til að ávarpa | <p>Veldu heimilisfang reiknings fyrir línuna. Sjálfgefið afhendingarheimilisfang er aðalafhendingarfang frá **Heimilisfang** Flýtiflipi. Þú getur breytt heimilisfanginu eftir þörfum, byggt á tilgangi tiltækra heimilisfönga:</p><ul><li>Ef ekkert af heimilisföngunum hefur þann tilgang að **Reikningur**, sjálfgefið heimilisfang reikninga er aðal heimilisfang viðskiptavinarins, óháð tilgangi.</li><li>Ef eitt eða fleiri heimilisföngin hafa þann tilgang að **Reikningur**, sjálfgefið heimilisfang reikninga er það heimilisfang sem var síðast slegið inn.</li><li>Ef eitt eða fleiri heimilisföngin hafa þann tilgang að **Reikningur**, og eitt af reikningsföngunum er stillt sem aðalheimilisfang, er sjálfgefið heimilisfang reiknings til heimilisfangið sem hefur þann tilgang að **Reikningur** og er stillt sem aðal heimilisfang.</li><li>Fyrir vörur sem nota tekjuskiptingu er aðeins hægt að breyta heimilisfangi yfirvörunnar. Heimilisfang undirhlutanna samsvarar heimilisfangi foreldris og ekki er hægt að breyta því sérstaklega.</li></ul> |
 
 ### <a name="product-tab"></a>Vöruflipi
@@ -146,14 +145,14 @@ Eftirfarandi upplýsingar eru fáanlegar á **Vara** flipa.
 
 | Reitur eða hluti | Lýsing |
 |------------------|-------------|
-| Geymsluvíddir | <p>Þessi hluti sýnir geymsluupplýsingar fyrir hlutinn. Það inniheldur **Raðnúmer** reit, sem sýnir raðnúmer hlutarins.</p><p>Raðnúmerið er afritað úr upphaflegu sölupöntuninni meðan á stuðnings- og endurnýjunarferlinu stendur. Fyrir vörur sem nota tekjuskiptingu er raðnúmer yfirvöru afritað á allar undirvörur. Raðnúmerið er afritað þegar **Afritaðu raðnúmer** valkostur er stilltur á **Já** á **Endurteknar innheimtufæribreytur samnings** síðu.</li></ul> |
+| Geymsluvíddir | <p>Þessi hluti sýnir geymsluupplýsingar fyrir hlutinn. Það inniheldur **Raðnúmer** reit, sem sýnir raðnúmer vörunnar.</p><p>Raðnúmerið er afritað úr upphaflegu sölupöntuninni meðan á stuðnings- og endurnýjunarferlinu stendur. Fyrir vörur sem nota tekjuskiptingu er raðnúmer yfirvöru afritað á allar undirvörur. Raðnúmerið er afritað þegar **Afritaðu raðnúmer** valkostur er stilltur á **Já** á **Endurteknar innheimtufæribreytur samnings** síðu.</li></ul> |
 | Afurðarvíddir | Vöruupplýsingarnar fyrir vöruna og gildin eru sjálfkrafa uppfærð, byggt á **Afbrigðisnúmer** gildi sem er valið fyrir innheimtuáætlunarlínuna. |
 
 ### <a name="account-tab"></a>Reikningsflipi
 
 Eftirfarandi upplýsingar eru fáanlegar á **Reikningur** flipa.
 
-| Svæði | Lýsing |
+| Reitur | Lýsing |
 |-------|-------------|
 | Aðallykill | Aðalreikningurinn sem er stofnaður á sölulínunni. Sjálfgefið gildi er frá sölupöntuninni. Þessi reitur getur verið auður. |
 | Fjárhagsstærðir hlutar | <p>Sjálfgefin fjárhagsvíddargildi, byggt á viðskiptamanna- og vörufærslunni.</p><p>Fyrir vörur sem nota tekjuskiptingu nota undirvörur fjárhagsvíddargildi viðskiptavinar og vöruskrár, eins og lýst er áðan. Ef þú verður að uppfæra fjárhagsvíddargildi undirliða geturðu flutt inn gagnaeininguna.</p> |
@@ -162,7 +161,7 @@ Eftirfarandi upplýsingar eru fáanlegar á **Reikningur** flipa.
 
 Eftirfarandi upplýsingar eru fáanlegar á **Endurnýjun** flipa.
 
-| Svæði | Lýsing |
+| Reitur | Lýsing |
 |-------|-------------|
 | Endurnýja sjálfkrafa | <p>Gildi sem gefur til kynna hvort innheimtuáætlunarlínan sé endurnýjuð sjálfkrafa fyrir næsta innheimtutímabil:</p><ul><li>**Já** – Innheimtuáætlunarlínan endurnýjast sjálfkrafa fyrir næsta innheimtutímabil þegar þú býrð til reikning.</li><li>**Nei** – Innheimtuáætlunarlínan endurnýjast ekki sjálfkrafa. Þú verður að endurnýja innheimtuáætlun handvirkt.</li></ul> |
 | Línur til að bæta við fyrir hverja endurnýjun | Fjöldi lína sem á að bæta við endurnýjun innheimtuáætlunar. |
@@ -171,7 +170,7 @@ Að auki eru eftirfarandi hnappar fáanlegir á **Endurnýjun** flipa.
 
 | Hnappur | Lýsing |
 |--------|-------------|
-| Úttekt á óinnheimtu tekjubókarfærslu | Skoðaðu allar breytingar fyrir vörur sem nota óinnheimt tekjur eiginleiki. |
+| Eftirlit með bókarfærslu óreikningsfærðra tekna | Skoðaðu allar breytingar fyrir vörur sem nota óinnheimt tekjur eiginleiki. |
 | Bæta við tímabili endurnýjunar | Bættu við endurnýjunartíma fyrir hlutinn. Upphafsdagur nýja endurnýjunartímabilsins er næsti dagur á eftir lokadagsetningu fyrri tíma. The **Lokadagur endurnýjunar**, **frestun**, **frestun**, **·**, og **Einingaverð** reiti er hægt að uppfæra. |
 | Breyta tímabili endurnýjunar | <p>Breyta endurnýjunartíma. Fyrir upphafstímabilið er hægt að breyta upphafs- og lokadagsetningum frestunarinnar áður en upphafsbókarfærslan er stofnuð. Fyrir síðari skilmála er ekki hægt að breyta upphafsdagsetningu. Það er alltaf næsta dagsetning eftir lok fyrri kjörtímabils.</p><p>Ef endurnýjunartími er til eftir þann tíma sem þú ert að breyta er ekki hægt að breyta dagsetningum tímans. Í þessu tilviki, aðeins **Magn** og **Einingaverð** Hægt er að uppfæra reiti fyrir endurnýjunaratriðið.</p><p>Til dæmis eru þrjú hugtök til. <ul><li>Ekki er hægt að breyta fyrsta kjörtímabilinu þar sem það er þegar hafið.</li><li>Fyrir seinni tíma er aðeins hægt að breyta magni og einingarverði.</li><li>Fyrir þriðja tíma er hægt að breyta öllum gildum nema upphafsdagsetningu. Að auki er **Dagskrá frá sniðmáti** valmöguleikinn gerir þér kleift að búa til frestunaráætlun sem er byggð á sniðmátinu fyrir óinnheimtu tekjuliðinn. Þegar þessi valkostur er stilltur á **Já**, veldu frestunarsniðmátið í **Sniðmát** reit og breyttu upphafs- og lokadagsetningum frestunarinnar eftir þörfum. Síðari endurnýjunarskilmálar nota sama frestunarsniðmát. Hins vegar er hægt að breyta frestunarsniðmátinu.</p></li></ul> |
 
@@ -179,7 +178,7 @@ Að auki eru eftirfarandi hnappar fáanlegir á **Endurnýjun** flipa.
 
 Eftirfarandi upplýsingar eru fáanlegar á **Uppsögn** flipa.
 
-| Svæði | Lýsing |
+| Reitur | Lýsing |
 |-------|-------------|
 | Starfslokadagur | Dagsetningin þegar innheimtuáætlunarlínunni er hætt. Sjálfgefið gildi er frá **Uppsagnardagur** reit á hausnum. Þú getur breytt gildinu eins og þú vilt. |
 | Tegund uppsagnar | Uppsagnartegundin. Sjálfgefið gildi er frá **Uppsagnartegund** reit á hausnum. |
@@ -192,7 +191,7 @@ Ef frestun tekna og gjalda er notuð, skal **Haltu** flipinn sýnir frestun dags
 
 Eftirfarandi upplýsingar eru fáanlegar á **Stækkun og afsláttur** flipa.
 
-| Svæði | Lýsing |
+| Reitur | Lýsing |
 |-------|-------------|
 | Hækkun | <p>Veldu hvort stigmögnun sé leyfð fyrir innheimtuáætlunarlínuna. Sérhver stigmögnunarlína úr hausnum er notuð þegar innheimtuáætlunarlínan er búin til.</p><ul><li>**Já** – Hægt er að beita stigmögnun á línuna. Þegar þessi valkostur er valinn geturðu sett upp stigmögnun fyrir innheimtuáætlunarlínur á **Stækkun og afsláttur** síðu.</li><li>**Nei** – Ekki er hægt að beita stigmögnun á línuna.</li></ul><p>Sjálfgefin stilling er byggð á **Innheimtuáætlunarhópur** valin.</p> |
 

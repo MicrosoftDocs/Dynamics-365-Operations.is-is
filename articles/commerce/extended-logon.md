@@ -1,8 +1,8 @@
 ---
-title: Setja upp aukna innskráningarvirkni fyrir MPOS og sölukerfi í skýinu
-description: Þetta efnisatriði nær yfir valmöguleika til að setja upp aukna innskráningu starfsmanns fyrir sölukerfi í skýinu og Retail Modern POS (MPOS).
-author: boycezhu
-ms.date: 09/07/2021
+title: Settu upp og notaðu aukna innskráningargetu
+description: Þetta efnisatriði lýsir því hvernig á að setja upp og nota aukna innskráningargetu Microsoft Dynamics 365 Commerce Umsókn um sölustað (POS).
+author: boycez
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,56 +16,52 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
-ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
+ms.openlocfilehash: d211ecfe1550f6093e1d35e7c2b37c036b50dd4a
+ms.sourcegitcommit: 5aebb181004eb63210503fb566dcda5c55032bee
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7478672"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8491440"
 ---
-# <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Setja upp aukna innskráningarvirkni fyrir MPOS og sölukerfi í skýinu
+# <a name="set-up-and-use-the-extended-logon-capability"></a>Settu upp og notaðu aukna innskráningargetu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði nær yfir valmöguleika til að setja upp aukna innskráningu starfsmanns fyrir sölukerfi í skýinu og Retail Modern POS (MPOS).
+Þetta efnisatriði lýsir því hvernig á að setja upp og nota aukna innskráningargetu Microsoft Dynamics 365 Commerce Umsókn um sölustað (POS).
 
-## <a name="setting-up-extended-logon"></a>Setja upp aukna innskráningu starfsmanns
+Cloud POS (CPOS) og Modern POS (MPOS) bjóða upp á aukna innskráningarmöguleika sem gerir verslunarmönnum kleift að skrá sig inn á POS forritið með því að skanna strikamerki eða strjúka korti með því að nota segulröndalesara (MSR).
 
-Hægt er að finna uppsetningu fyrir snimát strikamerkja á **Retail og Commerce** &gt; **Rásaruppsetningu** &gt; **Uppsetning sölustaðar** &gt; **Forstilling sölustaðar** &gt; **Virknireglur**. Flýtiflipinn **Aðgerðir** inniheldur eftirfarandi valkosti sem eru tengdir lengdri innskráningu starfsmanns.
+## <a name="set-up-extended-logon"></a>Settu upp aukna innskráningu
 
-### <a name="staff-bar-code-logon"></a>Strikamerkisinnskráning starfsmanns
+Til að setja upp aukna innskráningu fyrir POS-skrár í smásöluverslun skaltu fylgja þessum skrefum.
 
-Þegar valkosturinn **Strikamerkisinnskráning starfsmanns** er virkjaður geta starfsmenn sem hafa aukna innskráningu úthlutað á sölustað sinn (POS) skráð sig inn með því að nota strikamerki.
+1. Í höfuðstöðvum viðskipta, farðu til **Verslun og verslun \> Rásaruppsetning \> POS uppsetning \> POS snið \> Virkniprófílar**. 
+2. Í vinstri yfirlitsrúðunni, veldu virknisniðið sem er tengt við smásöluverslunina.
+3. Á **Aðgerðir** Flýtiflipi, undir **Viðbótarvalkostir fyrir innskráningu auðkenningar**, stilltu eftirfarandi valkosti á **Já** eða **Nei** eftir því sem við á:
 
-### <a name="staff-bar-code-logon-requires-password"></a>Nota þarf aðgangsorð með strikamerkisskráningu starfsmanns
+    - **Innskráning á strikamerki starfsmanna** – Stilltu þennan valkost á **Já** ef þú vilt að starfsmenn þínir skrái sig inn á POS með því að skanna strikamerki. 
+    - **Innskráning á strikamerki starfsmanna krefst lykilorðs** – Stilltu þennan valkost á **Já** ef þú vilt að starfsmenn þínir slái inn lykilorð þegar þeir skrá sig inn á POS með því að skanna strikamerki.
+    - **Innskráning starfsmannakorta** – Stilltu þennan valkost á **Já** ef þú vilt að starfsmenn þínir skrái sig inn á POS með því að strjúka korti.
+    - **Innskráning starfsmannakorts krefst lykilorðs** – Stilltu þennan valkost á **Já** ef þú vilt að starfsmenn þínir slái inn lykilorð þegar þeir skrá sig inn á POS með því að strjúka korti.
 
-Þegar valkosturinn **Strikamerkisinnskráning starfsmanns krefst aðgangsorðs** er virkjaður velur strikamerkisinnskráning starfsmanns aðeins þann starfsmann sem er úthlutað á þá auknu innskráningu sem er sýnd. Starfsmenn þurfa samt að færa inn aðgangsorð sitt þegar þessi valkostur er gerður virkur.
+Strikamerki eða kort er tengt skilríkjum sem hægt er að úthluta starfsmanni. Skilríkin verða að hafa að minnsta kosti sex stafi. Strenginn sem inniheldur fyrstu fimm stafina verður að vera einstakur og telst vera *persónuskilríki* sem er notað til að fletta upp starfsmanni. Stafir sem eftir eru eru notaðir til öryggisstaðfestingar. Til dæmis ertu með tvö kort, annað þeirra hefur skilríkin 12345DGYDEYTDW og annað þeirra hefur skilríkin 12345EWUTBDAJH. Vegna þess að þessi tvö kort hafa sama auðkenni, 12345, er ekki hægt að úthluta þeim báðum til starfsmanna.
 
-### <a name="staff-card-logon"></a>Kortainnskráning starfsmanns
-
-Þegar valkosturinn **Kortainnskráning starfsmanns** er virkjaður geta starfsmenn sem hafa aukna innskráningu úthlutað á sölustað sinn (POS) skráð sig inn með því að nota segulrönd.
-
-### <a name="staff-card-logon-requires-password"></a>Nota þarf aðgangsorð með kortainnskráningu starfsmanns
-
-Þegar valkosturinn **Kortainnskráning starfsmanns krefst aðgangsorðs** er virkjaður velur kortainnskráning starfsmanns aðeins þann starfsmann sem er úthlutað á þá auknu innskráningu sem er sýnd. Starfsmenn þurfa samt að færa inn aðgangsorð sitt þegar þessi valkostur er gerður virkur.
-
-## <a name="assigning-an-extended-logon"></a>Úthlutun aukinnar innskráningu
+## <a name="assign-extended-logon"></a>Úthlutaðu aukinni innskráningu
 
 Að sjálfgefnu geta aðeins stjórnendur úthlutað aukinni innskráningu til starfsmanna. Til að úthluta aukinni innskráningu á starfsmann er farið á **Aukin innskráning** á Sölustað. Síðan skal leita að starfskrafti með því að færa inn kenni stjórnanda hans í leitarreitnum. Veljið notanda og smellið á **Úthluta**. Á næstu síðu skal lesa eða skanna aukna innskráningu til að úthluta á starfsmanninn. Ef kortalestur eða skönnun er var lesin verður hnappuinn **Í lagi** tiltækur. Smellið á **Í lagi** til að vista aukna innskráningu fyrir þann starfsmann.
 
-## <a name="deleting-an-extended-logon"></a>Eyðing aukinnar innskráningar
+## <a name="delete-extended-logon"></a>Eyða aukinni innskráningu
 
 Til að eyða aukinni innskráningu sem er úthlutað á starfsmann, skal leita að starfsmanni með því að nota aðgerðina **Aukin innskráning**. Veljið notanda og smellið á **Hætta við úthlutun**. Öll útvíkkuð skilríki sem eru tengd við starfsmanninn eru fjarlægð.
 
-## <a name="extending-extended-logon"></a>Útvíkkun aukinnar innskráningar
+## <a name="use-extended-logon"></a>Notaðu lengri innskráningu
 
-Aukin innskráning leyfir aðeins fimm mikilvæga stafi til að vera tilbúið einkvæmt kennimerki. Ef til dæmis tvö spjöld eru skilgreind með auðkennin „1234567“ og „1234578“ verður litið á þau bæði sem „12345“. Þú gætir búið til viðbót til að styðja við fleiri stafi. Nákvæmar leiðbeiningar er að finna í [Útvíkka aukna innskráningarvirkni fyrir MPOS og sölukerfi í skýinu](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
+Eftir að útbreidd innskráning hefur verið stillt og strikamerki eða segulrönd er úthlutað á starfsmann, þarf starfsmaðurinn bara að strjúka eða skanna kortið sitt á meðan POS innskráningarsíðan er sýnd. Ef lykilorð er einnig krafist áður en hægt er að halda innskráningu áfram, er starfsmaðurinn beðinn um að slá inn lykilorðið sitt.
 
-Hægt er að auka innskráningarþjónustu til að styðja til viðbótar aukin innskráningartæki, eins og lófaskanna. Nánari upplýsingar fást í fylgigögnum um POS.
+## <a name="extend-extended-logon"></a>Framlengdu framlengda innskráningu
 
-## <a name="using-extended-logon"></a>Notkun aukinnar innskráningar
+Útfærsla á útvíkkuðum innskráningarmöguleikum út úr kassa krefst þess að skilríki hafi að lágmarki sex stafir að lengd og að fyrstu fimm stafirnir (skilríkiskennið) séu einstök. Það var upphaflega hugsað sem sýnishorn sem verktaki gæti sérsniðið til að uppfylla kröfur tiltekinnar útfærslu. (Til dæmis gæti það verið sérsniðið til að styðja fleiri stafi eða nota aðrar öryggisstaðfestingarreglur.) Fyrir nákvæmar upplýsingar um hvernig á að búa til viðbætur fyrir lengri innskráningu, sjá [Framlenging á aukinni innskráningarvirkni fyrir MPOS og Cloud POS](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
 
-Þegar aukin innskráning er skilgreind og starfsmanni hefur verið úthlutað á strikamerki eða segulrönd, þarf starfskrafturinn aðeins að renna eða skanna kortið sitt meðan síðan Innskráning á sölustað birtist. Ef aðgangsorðs er einnig krafist áður en innskráning getur haldið áfram er starfsmaður beðinn um að færa inn aðgangsorð sitt.
-
+Einnig er hægt að útvíkka innskráningarþjónustuna til að styðja við fleiri útbreidd innskráningartæki, svo sem lófaskanna. Fyrir frekari upplýsingar, sjá [POS stækkanleikaskjöl](dev-itpro/pos-extension/pos-extension-overview.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
