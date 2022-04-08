@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24 (febrúar)
                   href: get-started/whats-new-changed-10-0-24.md
-                - name: Finance 10.0.23 (janúar)
-                  href: get-started/whats-new-changed-10-0-23.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -414,8 +412,20 @@
               items:
                 - name: Yfirlit yfir áskriftargreiðslur
                   href: accounts-receivable/subscription-billing-summary.md
-                - name: Setja upp greiðsluáætlanir
-                  href: accounts-receivable/sb-billing-schedules.md
+                - name: Endurteknar samningsgreiðslur
+                  items:
+                    - name: Búa til greiðsluáætlun
+                      href: accounts-receivable/sb-billing-schedules.md
+                    - name: Afrita greiðsluáætlun
+                      href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Útskrift samkvæmt þáttaskilum
+                      href: accounts-receivable/sb-milestonebilling.md
+                    - name: Rifta greiðsluáætlunum
+                      href: accounts-receivable/terminate-billing-schedule.md
+                - name: Tekju- og kostnaðarfrestanir
+                  items: null
+                - name: Margþátta tekjuúthlutun
+                  items: null
             - name: Greiðslur og uppgjör
               items:
                 - name: Greiðsluyfirlit viðskiptavina
@@ -1443,11 +1453,11 @@
                             - name: Skilgreina SharePoint-rás
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
                         - name: Setja upp og nota rafrænar reikningsfærslur með Finance og Supply Chain Management
-                          items: null
-                        - name: Virkja og setja upp samþættingu við rafrænar reikningsfærslur
-                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                        - name: Setja upp færibreytur rafrænna reikningsfærslna
-                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                          items:
+                            - name: Virkja og setja upp samþættingu við rafrænar reikningsfærslur
+                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                            - name: Setja upp færibreytur rafrænna reikningsfærslna
+                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Vinna með rafrænar reikningsfærslur
                           items:
                             - name: Senda rafræn skjöl í rafræna reikningsfærslu
@@ -1532,6 +1542,10 @@
                           items:
                             - name: VSK-skýrsla
                               href: localizations/emea-dnk-vat-declaration-denmark.md
+                        - name: Skýrslugerð fyrir Finnland
+                          items:
+                            - name: VSK-skýrsla
+                              href: localizations/emea-fin-vat-declaration-mult-tax-id.md
                         - name: Skýrslugerð fyrir Frakkland
                           items:
                             - name: VSK-skýrsla
@@ -1546,7 +1560,11 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: ESB-sölulisti
                               href: localizations/emea-nl-eu-sales-list.md
-                        - name: Skýrslugjöf fyrir Spán
+                        - name: Skýrslugerð fyrir Noreg
+                          items:
+                            - name: VSK-skýrsla
+                              href: localizations/emea-nor-vat-declaration.md
+                        - name: Skýrslugerð fyrir Spán
                           items:
                             - name: 'Tafarlaust framboð upplýsinga um VSK (Suministro Inmediato de Información del IVA, SII)'
                               href: localizations/emea-esp-sii-spain.md
@@ -1564,10 +1582,6 @@
                           items:
                             - name: VSK-skýrsla
                               href: localizations/emea-gbr-vat-declaration.md
-                        - name: Skýrslugjöf í Noregi
-                          items:
-                            - name: VSK-skýrsla
-                              href: localizations/emea-nor-vat-declaration.md
                     - name: Virkja skattaútreikning fyrir flutningspöntun
                       items:
                         - name: Skattaeiginleikaþjónusta fyrir flutningspantanir
@@ -1694,8 +1708,6 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: Umbúðaefnisgjöld
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: VSK-yfirlit
-                  href: localizations/emea-aut-vat-statement-details.md
                 - name: Skýrsla um þjónustu á milli landa
                   href: localizations/emea-aut-cross-border-services-report.md
                 - name: Austurrískt Intrastat
@@ -2020,9 +2032,7 @@
                   href: localizations/emea-create-post-periodic-journals.md
                 - name: Birtingaraðferð upphæða á skýrslum og fylgiskjölum uppfærð
                   href: localizations/emea-amount-printing-forms.md
-                - name: VSK-yfirlit
-                  href: localizations/emea-cze-vat-statement-details.md
-                - name: VSK-skýrsla (Tékkland)
+                - name: VSK-skýrsla
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: Tékkneskt Intrastat
                   href: localizations/emea-cze-intrastat.md
@@ -2060,6 +2070,8 @@
                   href: localizations/tasks/set-up-payment-slip-format.md
                 - name: Danskt Intrastat
                   href: localizations/emea-dnk-intrastat.md
+                - name: VSK-skýrsla
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Egyptaland
               items:
                 - name: Yfirlit yfir Egyptaland
@@ -2242,6 +2254,8 @@
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
                 - name: Finnskt Intrastat
                   href: localizations/emea-fin-intrastat.md
+                - name: VSK-skýrsla
+                  href: localizations/emea-fin-vat-declaration.md
             - name: Frakkland
               items:
                 - name: Yfirlit yfir Frakkland
@@ -2332,12 +2346,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: VSK-skýrsla
                   href: localizations/emea-deu-vat-declaration-germany.md
-                - name: Rafræn innsending VSK-skýrslu (ELSTER)
-                  href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Intrastat í Þýskalandi
                   href: localizations/emea-deu-intrastat.md
-                - name: VSK-yfirlit
-                  href: localizations/emea-de-vat-declaration.md
                 - name: Skýrsla um rafræna reikninga viðskiptavinar
                   href: localizations/emea-deu-e-invoices.md
                 - name: Færslubókarlistaskýrsla
@@ -2348,8 +2358,6 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: ESB-sölulisti
                   href: localizations/emea-deu-eu-sales-list.md
-                - name: VSK-skýrsla
-                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Ungverjaland
               items:
                 - name: Yfirlit yfir Ungverjaland
@@ -2562,6 +2570,8 @@
                                   href: localizations/apac-ind-GST-import-goods-gst.md
                                 - name: Innflutningsþjónusta með vöru- og þjónustuskatti
                                   href: localizations/apac-ind-import-services-gst.md
+                                - name: Úthlutun gjalda á síðu innflutningsreiknings fyrir innflutningspantanir
+                                  href: localizations/apac-ind-charge-allocation-boe-page-import-orders.md
                                 - name: Útflutningsvörur með núllmetinn skatt
                                   href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
                                 - name: Útflutningsþjónusta með núllmetinn skatt
@@ -3116,17 +3126,13 @@
               items:
                 - name: Yfirlit yfir Holland
                   href: localizations/netherlands.md
-                - name: VSK-skýrsla
-                  href: localizations/emea-nl-VAT-declaration.md
-                - name: Rafrænar skattskýrslur (EVAT)
-                  href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL samþætting
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Endurskoðunarskrá (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
                 - name: VSK-skýrsla (Holland)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
-                - name: Intrastat í Hollandi
+                - name: Intrastat
                   href: localizations/emea-nl-intrastat.md
                 - name: ESB-sölulisti
                   href: localizations/emea-nl-EU-sales-list.md
@@ -3540,7 +3546,7 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: VSK-greiðsluskýrsla fyrir Svíþjóð
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
-                - name: VSK-skýrsla fyrir Svíþjóð
+                - name: VSK-skýrsla
                   href: localizations/emea-swe-VAT-declaration-Sweden.md
                 - name: Intrastat í Svíþjóð
                   href: localizations/emea-swe-intrastat.md

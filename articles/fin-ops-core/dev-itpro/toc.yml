@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-25.md
                 - name: Verkvangsuppfærslur fyrir útgáfu 10.0.24 (febrúar 2022)
                   href: get-started/whats-new-platform-updates-10-0-24.md
-                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.23 (janúar 2022)
-                  href: get-started/whats-new-platform-updates-10-0-23.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -240,6 +238,8 @@
               href: data-entities/configure-export-data-lake.md
             - name: Fjármála- og rekstrarforrit í Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
+            - name: Gögn og lýsigögn geymd í Azure Data Lake
+              href: data-entities/Azure-Data-Lake-Enhanced-Metadata.md
             - name: Gera einingaverslun tiltæka sem Data Lake
               href: data-entities/entity-store-data-lake.md
             - name: Viðskiptatilvik mynduð af útflutningi í þjónustu Azure Data Lake (forskoðun)
@@ -410,7 +410,9 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Nota sama AD FS tilvik aftur fyrir mörg umhverfi
                       href: deployment/onprem-reuseadfs.md
-                    - name: Uppfæra SQL Server-tilvik í Microsoft í Microsoft Dynamics 365 Finance + Operations (on-premises) umhverfi
+                    - name: Uppfæra Windows Server í þínum Microsoft Dynamics 365 Finance + Operations (on-premises) umhverfum
+                      href: deployment/onprem-upgrade-os.md
+                    - name: Uppfæra SQL Server-tilvik í Microsoft Dynamics 365 Finance + Operations (on-premises) umhverfum
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Umboðsmaður á staðnum
                   items:
@@ -932,6 +934,8 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS fyrir samstarfsaðila
                   href: lifecycle-services/getting-started-lcs.md
+                - name: Studdir vafrar
+                  href: lifecycle-services/web-browsers.md
                 - name: RESTful API
                   items:
                     - name: Ræsa og stöðva umhverfi
@@ -1490,6 +1494,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Uppfæra færibreytuskrár
               href: perf-test/rsat/rsat-upgrade-parameter-files.md
+            - name: Prófunarstilling án Azure DevOps
+              href: perf-test/rsat/rsat-trial-without-devops.md
             - name: Kennsla fyrir Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
             - name: Skilgreina notendur sem ekki eru stjórnendur

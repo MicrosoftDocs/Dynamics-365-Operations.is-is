@@ -390,7 +390,7 @@
                   href: tasks/worker.md
                 - name: 'Modern Point of Sale (MPOS), Cloud POS og Store Commerce'
                   items:
-                    - name: Store Commerce-forrit í Microsoft Dynamics 365 Commerce (forútgáfa)
+                    - name: Store Commerce-forrit
                       href: dev-itpro/store-commerce.md
                     - name: Leiðbeiningar við innleiðingu tækjastjórnunar
                       href: implementation-considerations-devices.md
@@ -2872,6 +2872,8 @@
               items:
                 - name: Endurgreiðslu á skilapöntun er hafnað
                   href: troubleshoot/refund-declined.md
+                - name: Endurgreiðanleg gjöld eru misreiknuð miðað við magnið sem var skilað
+                  href: troubleshoot/refund-miscalculated-partial-return.md
                 - name: Dynamics 365 Payment Connector fyrir Adyen
                   items:
                     - name: Úrræðaleit fyrir Dynamics 365 Payment Connector fyrir vandamál tengd Adyen

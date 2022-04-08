@@ -1709,6 +1709,8 @@
                   href: inventory/inventory-visibility-power-platform.md
                 - name: Frátekningar sýnilegra birgða
                   href: inventory/inventory-visibility-reservations.md
+                - name: Breyta tímaáætlun fyrir sýnileika tiltækra birgða og afhendingarspár
+                  href: inventory/inventory-visibility-available-to-promise.md
                 - name: Opin API fyrir sýnileika birgða
                   href: inventory/inventory-visibility-api.md
                 - name: Ábendingar fyrir sýnileika birgða
@@ -3737,7 +3739,7 @@
                   href: troubleshooting/procurement/consolidate-multiple-receipts.md
                 - name: Sjálfgefinn skattflokkur og staðgreiðsluafsláttur eru ekki fyllt út í reikningslyklinum
                   href: troubleshooting/procurement/default-tax-group-and-discount.md
-                - name: "Afhendingarheitið er\_ekki samstillt eftir að afhendingaraðsetri innkaupapöntunar er breytt"
+                - name: Afhendingarheitið er ekki samstillt eftir að afhendingaraðsetri innkaupapöntunar er breytt
                   href: troubleshooting/procurement/delivery-name-isnt-synced.md
                 - name: Undantekning á sér stað þegar reikningur lánardrottins er bókaður
                   href: troubleshooting/procurement/invocation-target-exception.md
@@ -3867,6 +3869,8 @@
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: Traustsakkeri fyrir vottunarslóð fannst ekki við uppfærslu og flutning í vöruhúsakerfi
                       href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
+                - name: Ekki er hægt að bóka fylgiseðil fyrir sölupöntunarlínu sem er stöðvuð
+                  href: troubleshooting/warehousing/unable-to-post-packi.md
                 - name: Úrvinnslumál koma upp eftir uppsetningu vinnuálags fyrir kvörðunareiningu í vöruhúsi
                   href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
                 - name: Kvaðning um sjálfvirka frátekningu fyrir rununúmer er sýnd jöfn tiltækum birgðum
