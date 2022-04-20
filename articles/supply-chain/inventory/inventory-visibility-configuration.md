@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
-ms.translationtype: HT
+ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524522"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547789"
 ---
 # <a name="configure-inventory-visibility"></a>Stilla sýnileika birgða
 
@@ -47,13 +47,14 @@ ms.locfileid: "8524522"
 
 ## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Virkja eiginleika birgðasýnileika í Power Apps eiginleikastjórnun
 
-Innbót birgðasýnileika bætir ýmsum nýjum eiginleika við Power Apps uppsetninguna þína. Sjálfgefið er slökkt á þessum eiginleikum. Til að nota þá skaltu opna **Stillingar** síðu og síðan á **Eiginleikastjórnun** flipanum, kveiktu á eftirfarandi eiginleikum eins og þú þarft.
+Innbót birgðasýnileika bætir ýmsum nýjum eiginleika við Power Apps uppsetninguna þína. Sjálfgefið er slökkt á þessum eiginleikum. Til að nota þá skaltu opna **Stillingar** síðu og síðan á **Eiginleikastjórnun** flipann, kveiktu á eftirfarandi eiginleikum eftir þörfum.
 
 | Heiti eiginleikastjórnunar | Lýsing |
 |---|---|
-| OnHandReservation | Þessi eiginleiki gerir þér kleift að búa til pantanir, neyta bókana og/eða afpanta tiltekið birgðamagn með því að nota Birgðasýnileika. Frekari upplýsingar er að finna í [Frátekningar birgðasýnileika](inventory-visibility-reservations.md). |
-| OnHandMostSpecificBackgroundService | Þessi eiginleiki veitir birgðayfirlit fyrir vörur ásamt öllum víddum. Gögn birgðasamantektar verða samstillt reglulega úr birgðasýnileika. Fyrir frekari upplýsingar, sjá [Birgðayfirlit](inventory-visibility-power-platform.md#inventory-summary). |
-| OnhandChangeSchedule | Eiginleikinn gerir kleift að breyta áætluninni við höndina og er hægt að lofa (ATP) eiginleikum (valfrjálst). Fyrir frekari upplýsingar, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa](inventory-visibility-available-to-promise.md). |
+| *OnHandReservation* | Þessi eiginleiki gerir þér kleift að búa til pantanir, neyta bókana og/eða afpanta tiltekið birgðamagn með því að nota Birgðasýnileika. Frekari upplýsingar er að finna í [Frátekningar birgðasýnileika](inventory-visibility-reservations.md). |
+| *OnHandMostSpecificBackgroundService* | Þessi eiginleiki veitir birgðayfirlit fyrir vörur, ásamt öllum víddum. Gögn birgðasamantektar verða samstillt reglulega úr birgðasýnileika. Fyrir frekari upplýsingar, sjá [Birgðayfirlit](inventory-visibility-power-platform.md#inventory-summary). |
+| *OnhandChangeSchedule* | Þessi valfrjálsi eiginleiki gerir kleift að breyta áætluninni við höndina og aðgerðum sem hægt er að lofa (ATP). Fyrir frekari upplýsingar, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlun og hægt að lofa](inventory-visibility-available-to-promise.md). |
+| *Virkja vörur vöruhúss í birgðasýnileika* | Þessi valfrjálsi eiginleiki gerir birgðasýnileika kleift að styðja við vörur sem eru virkjaðar fyrir háþróaða vöruhúsaferli (WHS vörur). Fyrir frekari upplýsingar, sjá [Stuðningur við birgðasýnileika fyrir WHS hluti](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Finna endastöð þjónustu
 
@@ -61,10 +62,10 @@ Ef þú veist ekki rétta endastöð fyrir þjónustu birgðasýnileika skaltu o
 
 ## <a name="data-source-configuration"></a>Skilgreining gagnagjafa
 
-Hver gagnagjafi táknar kerfi sem gögnin þín koma úr. Dæmi um heiti gagnagjafa innihalda`fno` (sem þýðir "Dynamics 365 Finance og rekstrarforrit") og`pos` (sem þýðir "sölustaður"). Supply Chain Management er sjálfgefið sett upp sem sjálfgefinn gagnagjafi (`fno`) í birgðasýnileika.
+Hver gagnagjafi táknar kerfi sem gögnin þín koma úr. Dæmi um heiti gagnagjafa innihalda`fno` (sem þýðir "Dynamics 365 Finance and Operations forrit") og`pos` (sem þýðir "sölustaður"). Supply Chain Management er sjálfgefið sett upp sem sjálfgefinn gagnagjafi (`fno`) í birgðasýnileika.
 
 > [!NOTE]
-> The`fno` gagnagjafinn er frátekinn fyrir Supply Chain Management. Ef birgðasýnileikaviðbótin þín er samþætt við Supply Chain Management umhverfi mælum við með að þú eyðir ekki stillingum sem tengjast`fno` í gagnaveitunni.
+> The`fno` gagnauppspretta er frátekin fyrir Supply Chain Management. Ef birgðasýnileikaviðbótin þín er samþætt við Supply Chain Management umhverfi mælum við með að þú eyðir ekki stillingum sem tengjast`fno` í gagnaveitunni.
 
 Til að bæta við gagnagjafa skal fylgja þessum skrefum.
 
@@ -282,7 +283,7 @@ Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Skilgreining þáttunar
 
-Eins og er samanstendur skiptingin af tveimur grunnvíddum (`SiteId` og`LocationId`) sem gefa til kynna hvernig gögnunum er dreift. Aðgerðir undir sama skipting geta skilað meiri afköstum með lægri kostnaði. Eftirfarandi tafla sýnir sjálfgefna skiptingastillingu sem Inventory Visibility Add-in veitir.
+Sem stendur samanstendur skiptingin af tveimur grunnvíddum (`SiteId` og`LocationId`) sem gefa til kynna hvernig gögnunum er dreift. Aðgerðir undir sama skipting geta skilað meiri afköstum með lægri kostnaði. Eftirfarandi tafla sýnir sjálfgefna skiptingastillingu sem Inventory Visibility Add-in veitir.
 
 | Grunnvídd | Stigveldi |
 |---|---|

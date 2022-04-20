@@ -1,5 +1,5 @@
 ---
-title: Hannaðu nýja ER lausn til að prenta ZPL merki
+title: Hanna nýja rafræna skýrslugerðarlausn til að prenta ZPL-merki
 description: Þetta efni útskýrir hvernig á að hanna nýja rafræna skýrslugerð (ER) lausn til að prenta Zebra Programming Language (ZPL) merki.
 author: NickSelin
 ms.date: 02/28/2022
@@ -15,24 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4fb89f4b56ce8189482bf1a86582ef7e3684b15a
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392964"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612357"
 ---
-# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Hannaðu nýja ER lausn til að prenta ZPL merki
+# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Hanna nýja rafræna skýrslugerðarlausn til að prenta ZPL-merki
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði útskýrir hvernig notandi í hlutverki kerfisstjóra, rafrænnar skýrslugerðaraðila eða rafrænnar skýrslugerðarráðgjafa getur stillt færibreytur [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) ramma, hanna nauðsynlega ER [stillingar](general-electronic-reporting.md#Configuration) af nýrri ER lausn til að fá aðgang að gögnum vöruhúsastjórnunarkerfisins og búa til sérsniðna vöruhúsastaðsetningarmerki á Zebra Programming Language (ZPL) II sniði. Hægt er að ljúka skrefunum í **USRT** fyrirtækinu.
 
 ## <a name="business-scenario"></a>Sviðsmynd fyrirtækis
 
-Þú ert fulltrúi fyrirtækis sem innleiddi vöruhúsastjórnun í Microsoft Dynamics 365 Finance. Sérhver vöruhús verður að vera merkt með sjálflímandi miða sem inniheldur strikamerki. Starfsmenn vöruhúsa munu nota handfesta strikamerkjalesara til að skanna strikamerkin.
+Þú ert fulltrúi fyrirtækis sem innleiddi vöruhúsastjórnun í Microsoft Dynamics 365 Fjármál. Sérhver vöruhús verður að vera merkt með sjálflímandi miða sem inniheldur strikamerki. Starfsmenn vöruhúsa munu nota handfesta strikamerkjalesara til að skanna strikamerkin.
 
 Allar vöruhúsastöðvar hafa verið merktar innan umfangs aðgerða fyrir ræsingu. Hins vegar verður þú einnig að geta prentað merki vöruhúsastaðsetningar ef óskað er eftir því ef núverandi merki skemmast eða vöruhúsahillur eru endurstilltar. Með því að nota nýlega útgefinn ER-virkni geturðu stillt nýja ER-lausn sem gerir umsjónarmanni vöruhúss kleift að prenta merki beint á hitamerkjaprentara.
 
@@ -57,7 +56,7 @@ Fylgdu þessum skrefum til að flytja inn nauðsynlegt gagnalíkan úr XML skrá
 
 ![Innflutt ER gagnalíkanstilling á síðunni Stillingar.](./media/er-design-zpl-labels-imported-model.png)
 
-### <a name="create-a-data-model-configuration"></a>Búðu til uppsetningu gagnalíkans
+### <a name="create-a-data-model-configuration"></a>Búðu til gagnalíkanstillingu
 
 Í stað þess að flytja inn gagnalíkanskrána sem Microsoft útvegaði, geturðu búið til gagnalíkan frá grunni. Fyrir dæmi sem sýnir hvernig á að klára þetta verkefni, sjá [Búðu til nýja gagnalíkanstillingu](er-quick-start1-new-solution.md#DesignDataModel).
 
@@ -69,7 +68,7 @@ Fylgdu þessum skrefum til að flytja inn nauðsynlegt gagnalíkan úr XML skrá
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a>Hanna líkanavörpun fyrir skilgreint gagnalíkan
 
-Sem notandi í hlutverki þróunaraðila rafrænna skýrslna verður þú að búa til nýja ER-stillingu sem inniheldur a [módelkortlagningu](er-overview-components.md#model-mapping-component) hluti fyrir vöruhúsgagnalíkanið. Þessi hluti útfærir stillt gagnalíkan fyrir Dynamics 365 Finance og er sérstakt fyrir það app. Þú verður að stilla það til að tilgreina forritshlutina sem verða notaðir til að fylla út stillta gagnalíkanið með forritsgögnum á keyrslutíma. Til að klára þetta verkefni verður þú að skilja hvernig gagnaskipulag vöruhúsastjórnunarviðskiptaléns er útfært í Finance.
+Sem notandi í hlutverki þróunaraðila rafrænna skýrslna verður þú að búa til nýja ER-stillingu sem inniheldur a [módelkortlagningu](er-overview-components.md#model-mapping-component) hluti fyrir vöruhúsgagnalíkanið. Þessi hluti útfærir uppsetta gagnalíkanið fyrir Dynamics 365 Finance og er sérstakur fyrir það forrit. Þú verður að stilla það til að tilgreina forritshlutina sem verða notaðir til að fylla út stillta gagnalíkanið með forritsgögnum á keyrslutíma. Til að klára þetta verkefni verður þú að skilja hvernig gagnaskipulag vöruhúsastjórnunarviðskiptaléns er útfært í Finance.
 
 ### <a name="import-a-model-mapping-configuration"></a>Flytja inn líkanakortastillingar
 
@@ -142,7 +141,7 @@ Eftirfarandi dæmi notar prentarahermiforrit fyrir ZPL merki til að sýna sýni
 1. Bætið við [Prentari](er-destination-type-print.md) ER áfangastaður fyrir **Staðsetningarmerki vöruhúss** ER sniði, og stilltu það til að senda mynduð merki frá Finance til [Document routing agent (DRA)](install-document-routing-agent.md).
 2. Settu upp og stilltu DRA til að beina mynduðum merkimiðum frá Finance til staðbundins prentara sem er aðgengilegur frá núverandi vinnustöð.
 3. Bættu við staðbundnum prentara fyrir núverandi vinnustöð og stilltu hann til að senda mynduð merki frá DRA yfir í prentarahermiforrit.
-4. Settu upp prentarahermiforrit sem framlengingu á Chrome vefvafranum og stilltu það þannig að það sendi mynduð merki frá staðbundnum prentara yfir í vefþjónustu sem mun birta mynduð merki og skila þeim í prentarahermi til forskoðunar.
+4. Settu upp prentarahermiforrit sem framlengingu á Chrome vefvafranum og stilltu það til að senda mynduð merki frá staðbundnum prentara yfir í vefþjónustu sem mun gera mynduð merki og skila þeim í prentarahermi til forskoðunar.
 
 <table>
 <tbody>
@@ -173,9 +172,9 @@ Bættu prentarahermiforriti fyrir ZPL flutningsvélina við Chrome vefvafrann þ
 
     ![Bætir prentarahermiforritinu við Chrome vefvafra frá Chrome vefverslun.](./media/er-design-zpl-labels-add-app.png)
 
-2. Veldu **Ræstu app** til að keyra prentarahermiforritið úr Chrome vefvafranum.
+2. Veldu **Ræstu app** til að keyra prentarahermiforritið úr Chrome vafranum.
 
-    ![Keyrir prentarahermiforritið úr Chrome vafranum.](./media/er-design-zpl-labels-run-app.png)
+    ![Keyrir prentarahermiforritið úr Chrome vefvafranum.](./media/er-design-zpl-labels-run-app.png)
 
 3. Stilltu forritið sem er í gangi:
 
@@ -190,7 +189,7 @@ Bættu prentarahermiforriti fyrir ZPL flutningsvélina við Chrome vefvafrann þ
         ![Kveikt aftur á prentarahermiforriti.](./media/er-design-zpl-labels-turn-on-app.png)
 
 > [!NOTE]
-> Þar sem prentarahermiforritið sem er notað í þessu dæmi byggir á vefþjónustu til að birta merkimiða, vertu viss um að öryggisstillingarnar þínar leyfi þér að hafa samskipti við þjónustuna. Að öðrum kosti mun forritið ekki fá birtu merkimiðana og engin forskoðun á þeim merkimiðum verður tiltæk.
+> Þar sem prentarahermiforritið sem er notað í þessu dæmi byggir á vefþjónustu til að birta merkimiða, vertu viss um að öryggisstillingarnar þínar leyfi þér að hafa samskipti við þjónustuna. Að öðrum kosti mun forritið ekki fá birtu merkimiðana og engin sýnishorn af þeim merkimiðum verður tiltæk.
 
 ### <a name="add-and-configure-a-local-printer"></a>Bættu við og stilltu staðbundinn prentara
 
@@ -256,7 +255,7 @@ Undirbúðu ER áfangastað til að senda mynduð merki frá Fjármálum til DRA
 
 ![Farið yfir staðsetningar vöruhúsa á síðunni Staðsetningar.](./media/er-design-zpl-labels-review-locations.png)
 
-## <a name="print-warehouse-location-labels"></a>Prentaðu vöruhúsamerki
+## <a name="print-warehouse-location-labels"></a>Prentaðu staðsetningarmerki vöruhúss
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
 2. Á **Stillingar** síðu, í stillingartrénu, stækkaðu **Vöruhús módel**, og veldu **Staðsetningarmerki vöruhúss**.
@@ -266,11 +265,11 @@ Undirbúðu ER áfangastað til að senda mynduð merki frá Fjármálum til DRA
 6. Veldu **Í lagi**.
 7. Veldu **Í lagi**. Merki er búinn til og sýndur á forskoðunarsíðunni í prenthermiforritinu.
 
-![Skoðaðu útbúið merki á forskoðunarsíðu Zpl Printer hermiforritsins.](./media/er-design-zpl-labels-preview-label.png)
+![Skoðaðu myndaðan merkimiða á forskoðunarsíðu Zpl Printer emulator forritsins.](./media/er-design-zpl-labels-preview-label.png)
 
 ## <a name="modify-the-layout-of-a-label"></a>Breyttu útliti merkimiða
 
-Þú getur breytt núverandi skipulagi vöruhúsastaðsetningarmerkinga. Eftirfarandi dæmi sýnir hvernig á að breyta útlitinu þannig að myndaðir merkimiðar innihaldi auðkenni staðsetningarsniðs.
+Þú getur breytt núverandi útliti vöruhúsastaðsetningarmerkinga. Eftirfarandi dæmi sýnir hvernig á að breyta útlitinu þannig að myndaðir merkimiðar innihaldi auðkenni staðsetningarsniðs.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
 2. Stilltu **Notaðu áfangastaði fyrir stöðu drög**[ER notendafæribreyta](electronic-reporting-destinations.md#applicability) til **Já**.
@@ -311,7 +310,7 @@ Undirbúðu ER áfangastað til að senda mynduð merki frá Fjármálum til DRA
 14. Veldu **Í lagi**.
 15. Veldu **Í lagi**. Merki er búinn til og sýndur á forskoðunarsíðunni í prenthermiforritinu.
 
-![Skoðaðu útbúið merki sem inniheldur auðkenni staðsetningarprófíls á forskoðunarsíðu Zpl Printer hermiforritsins.](./media/er-design-zpl-labels-preview-label2.png)
+![Farið yfir myndað merki sem inniheldur auðkenni staðsetningarprófíls á forskoðunarsíðu Zpl Printer hermiforritsins.](./media/er-design-zpl-labels-preview-label2.png)
 
 ## <a name="encoding"></a>Dulritun
 

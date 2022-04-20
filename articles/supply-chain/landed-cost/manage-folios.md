@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5b84237844ec1d8f6c0716a0a13b05c83b358901
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d414ed7ac55afbbc58b8f5542c713f56392f9bc7
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575777"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570437"
 ---
 # <a name="manage-folios"></a>Vinna með fólíó
 
 [!include [banner](../../includes/banner.md)]
 
-Fólíó er oft ákvarðað samkvæmt tollreglugerðum. Það getur innihaldið eina vöru lánardrottins fyrir eina einingu eða fyrirtæki fyrir hverja sendingu. Vörur í fólíói geta verið í einum gámi eða dreift á marga gáma.
+Fólíó er oft ákvarðað samkvæmt tollreglugerðum. Það getur innihaldið eina vöru lánardrottins fyrir eina einingu eða fyrirtæki fyrir hverja sendingu. Vörunum í folio er stjórnað í einum íláti.
 
 Til að opna síðun **Öll fólíó** skal fara á **Heildarkostnaður \> Fólíó \> Öll fólíó**. Þessi síða sýnir lista yfir öll núgildandi fólíó. Hægt er að nota hnappana á aðgerðasvæðinu til að stofna, eyða eða vinna með fólíó. Veljið hvaða fólíó sem er á listanum til að skoða upplýsingar á síðunni **Fólíó**.
 

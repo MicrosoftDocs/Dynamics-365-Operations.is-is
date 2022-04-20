@@ -4,7 +4,8 @@ description: Þetta efnisatriði veitir upplýsingar og tengla í efni um uppset
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
-ms.prod: ''
+ms.prod: dynamics-365
+ms.service: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,24 +17,24 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712569"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566040"
 ---
 # <a name="on-premises-deployment-home-page"></a>Uppsetning á staðnum – heimasíða
 
 [!include [banner](../includes/banner.md)]
 
-Þú getur sett upp Dynamics 365 Finance + Operations (á staðnum). Þegar þú velur virkjun á staðnum eru kerfiskröfur, vélbúnaðarþörf og virkni önnur en þegar um er að ræða virkjun í skýi. Þetta efnisatriði veitir tengla í efni með upplýsingum um uppsetningu á staðnum.
+Þú getur sent inn Dynamics 365 Finance + Operations (on-premises). Þegar þú velur virkjun á staðnum eru kerfiskröfur, vélbúnaðarþörf og virkni önnur en þegar um er að ræða virkjun í skýi. Þetta efnisatriði veitir tengla í efni með upplýsingum um uppsetningu á staðnum.
 
 ## <a name="get-started"></a>Leiðsögn
 - [Yfirlit yfir uppsetningu á staðnum](on-premises-overview.md)
 - [Áætlun og undirbúningur fyrir uppsetningu innanhúss](plan-onprem-deployment.md)
 - [Kerfiskröfur fyrir uppsetningu á staðnum](../../fin-ops/get-started/system-requirements-on-prem.md)
-- [Microsoft Dynamics 365 Finance + Operations (á staðnum) studdur hugbúnaður](onprem-compatibility.md)
+- [Microsoft Dynamics 365 Finance + Operations (on-premises) studdur hugbúnaður](onprem-compatibility.md)
 - [Kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Kaupa Finance + Operations (on-premises)](../../fin-ops/get-started/purchase-on-premises.md)
 - [Samanburður á skýi og eiginleikum á staðnum](../../fin-ops/get-started/cloud-prem-comparison.md)
@@ -72,7 +73,7 @@ ms.locfileid: "6712569"
 - [Forskriftir til að leysa vandamál í innanhússumhverfi](onprem-tsg-implementations.md)
 - [Vottorðssnúningur](certificate-rotation-on-prem.md)
 - [Greining á staðnum](on-premises-diagnostics.md)
-- [Eiginleikar sem hafa verið fjarlægðir eða úreltir fyrir Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [Fjarlægðar eða úreltar aðgerðir fyrir Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Reglur um stuðningstíma hugbúnaðar og útgáfur á staðnum](../migration-upgrade/on-prem-version-update-policy.md)
  
 

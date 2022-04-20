@@ -8,12 +8,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 7e3721421e15bc3e5937691cdbaee51e4d3cdd17
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
-ms.translationtype: HT
+ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
+ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349744"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8550008"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce-greining (forútgáfa)
 
@@ -53,7 +53,7 @@ Gögn eru annaðhvort upprunnin sem viðskiptagögn eða hegðunargögn frá ein
 - Sala er búin til í sérsniðnum forritum með því að nota Headless Commerce (Commerce Scale Unit).
 - Netverslunarkaupandi skoðar netverslunarsíðuna þína.
 - Kaupandi í rafrænum viðskiptum leggur fram pöntun á vefsíðunni þinni fyrir rafræn viðskipti.
-- Gögn eru framleidd af öðrum kerfum, ss Dynamics 365 Connected Spaces.
+- Gögn eru framleidd af öðrum kerfum, svo sem Dynamics 365 Connected Spaces.
 
 #### <a name="step-2-ingestion-and-pre-processing"></a>Skref 2: Inntaka og forvinnsla
 
@@ -61,7 +61,7 @@ Viðskiptagögn fara til Commerce HQ annað hvort beint (þegar um er að ræða
 
 Eiginleikinn Flytja út í gagnavatn er síðan notaður til að afrita viðskiptagögnin í gagnavatnið þitt sem hrá gögn. Í gagnavatninu eru hrágögnin geymd í Töflur möppunni.
 
-Gögn um vefvirkni rafræn viðskipti eru send beint í gagnavatnið. Gögn sem eru framleidd af öðrum kerfum, ss Dynamics 365 Connected Spaces, er sent beint í gagnavatnið af þessum kerfum.
+Gögn um vefvirkni rafræn viðskipti eru send beint í gagnavatnið. Gögn sem eru framleidd af öðrum kerfum, svo sem Dynamics 365 Connected Spaces, er sent beint í gagnavatnið af þessum kerfum.
 
 #### <a name="step-3-transformation-and-aggregation"></a>Skref 3: Umbreyting og samsöfnun
 
@@ -210,7 +210,7 @@ Commerce Analytics sniðmátsforrit inniheldur eftirfarandi aðalskýrslusíður
 
 - Lengd sambands
 
-    Lengd tengsla er reiknuð út frá fjölda daga frá því viðskiptamannafærsla var stofnuð í kerfinu.
+    Lengd tengsla er reiknuð út frá fjölda daga frá því að viðskiptamannaskráin var stofnuð í kerfinu.
 
 - Færslutalning
 
@@ -237,7 +237,7 @@ Commerce Analytics sniðmátsforrit inniheldur eftirfarandi aðalskýrslusíður
 
 #### <a name="acquisitions"></a>Kaup
 
-- Síðuskoðanir
+- Síðubirtingar
 
     - Eftir landi eða svæði
     - Eftir vöru
@@ -282,7 +282,7 @@ Fundur er þáttur um heimsókn notanda á netverslunarvefsíðuna þína. Tíma
 
 Nafnlaus gestur á netverslunarsíðunni þinni er auðkenndur á einstakan hátt út frá tilteknum vafra og tilteknu tæki sem notandinn notar. Viðskiptagreining rekur ekki nafnlausa gesti í mismunandi vöfrum eða tækjum. Nafnlaus gestur sem notar sama vafra á sama tæki er auðkenndur á einstakan hátt í mörgum notendalotum, þar til annað hvort gögnum í skyndiminni vafrans er hreinsað eða tímabil (venjulega 12 mánuðir) líður, hvort sem kemur fyrst.
 
-Ef gestir vafra um netviðskiptasíðuna þína á meðan þeir eru skráðir inn getur Commerce Analytics veitt frekari upplýsingar um þá. Þessar upplýsingar eru byggðar á núverandi sambandi sem fyrirtæki þitt hefur við gestina vegna fyrri kaupa þeirra á öllum Dynamics 365 Commerce sölurásir (þar á meðal POS, rafræn viðskipti og símaver). Viðbótarupplýsingarnar innihalda nýlega, lengd sambands, lífstímagildi og tíðnigögn.
+Ef gestir skoða netverslunarsíðuna þína á meðan þeir eru skráðir inn getur Commerce Analytics veitt frekari upplýsingar um þá. Þessar upplýsingar eru byggðar á núverandi sambandi sem fyrirtækið þitt hefur við gestina vegna fyrri kaupa þeirra á öllum sviðum Dynamics 365 Commerce sölurásir (þar á meðal POS, rafræn viðskipti og símaver). Viðbótarupplýsingarnar innihalda nýlega, lengd sambands, lífstímagildi og tíðnigögn.
 
 - Framlegð gesta
 - Meðaltal pantanir gesta
@@ -292,7 +292,7 @@ Ef gestir vafra um netviðskiptasíðuna þína á meðan þeir eru skráðir in
     - Eftir dagsetningu
     - Eftir staðsetningu
 
-        Eins og er, Commerce greiningar geta aðeins veitt land-/svæðisstig fyrir staðsetningarinnsýn fyrir gesti í rafrænum viðskiptum.
+        Eins og er, Commerce greiningar geta aðeins veitt lands-/svæðisstig fyrir staðsetningarinnsýn fyrir gesti í rafrænum viðskiptum.
 
     - Eftir nýlegri
 
@@ -300,7 +300,7 @@ Ef gestir vafra um netviðskiptasíðuna þína á meðan þeir eru skráðir in
 
     - Eftir lengd sambandsins
 
-        Lengd tengsla er reiknuð út frá fjölda daga frá því viðskiptamannafærsla var stofnuð í kerfinu.
+        Lengd tengsla er reiknuð út frá fjölda daga frá því að viðskiptamannaskráin var stofnuð í kerfinu.
 
     - Eftir ævigildi (LTV)
 
@@ -321,7 +321,7 @@ Eins og er eru birtingar raktar á eftirfarandi flötum:
 - Ílát leitarniðurstöðu
 - Gámur fyrir leitarniðurstöður flokka
 
-Eins og er, eru vörur sem eru birtar í hringekjueiningu eða í sérsniðnum myndefni ekki taldar með í birtingartengdum mælikvörðum.
+Eins og er eru vörur sem eru birtar í hringekjueiningu eða í sérsniðnu myndefni ekki taldar með í birtingartengdum mælikvörðum.
 
 The **Birtingarskýrsla** síða inniheldur eftirfarandi mælikvarða:
 
@@ -352,22 +352,27 @@ The **Birtingarskýrsla** síða inniheldur eftirfarandi mælikvarða:
 
 ### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a> Virkja og stilla viðskiptagreiningu (forskoðun)
 
-Til að setja upp Commerce Analytics (Preview) verður þú að hafa heimildir til að búa til tilföng í Azure áskrift. Þú verður líka að hafa heimildir til að setja upp viðbætur í LCS. 
+Til að setja upp Commerce Analytics (Preview) verður þú að hafa heimildir til að búa til tilföng í Azure áskrift. Þú verður líka að hafa heimildir til að setja upp viðbætur í LCS.
 
 Til að virkja og stilla viðskiptagreiningu (forskoðun) skaltu fylgja þessum skrefum.
 
-1. [Virkjaðu og stilltu Export to Data Lake viðbótina](#enableExportToDataLake).
-1. [Settu upp og stilltu an Azure Synapse vinnurými](#configureAzureSynapse).
-1. [Bættu leyndarmálum við lyklahólfið](#addSecrets).
-1. [Virkjaðu og stilltu Commerce analytics (Preview) viðbótina](#enableCommerceAnalyticsAddin).
-1. [Settu upp Power BI sniðmát app](#powerbi).
+1. [Sendu forskoðunarinntökueyðublaðið fyrir viðskiptagreiningu (Preview)](#joinPreview)
+2. [Virkjaðu og stilltu Export to Data Lake viðbótina](#enableExportToDataLake).
+3. [Settu upp og stilltu an Azure Synapse vinnurými](#configureAzureSynapse).
+4. [Bættu leyndarmálum við lyklahólfið](#addSecrets).
+5. [Virkjaðu og stilltu Commerce analytics (Preview) viðbótina](#enableCommerceAnalyticsAddin).
+6. [Settu upp Power BI sniðmát app](#powerbi).
+
+### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a> Sendu forskoðunarinntökueyðublaðið fyrir viðskiptagreiningu (Preview)
+
+Sendu inn [Forskoða inntökueyðublað fyrir viðskiptagreiningu (Forskoðun)](https://forms.office.com/r/vW5VLJGXZ2). Eftir að beiðni þín hefur verið afgreidd verður staðfestingarpóstur sendur á netfangið sem þú gafst upp í eyðublaðinu.
 
 ### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a> Virkjaðu og stilltu Export to Data Lake viðbótina
 
 > [!IMPORTANT]
 > Þegar þú stillir Export to Data Lake viðbótina skaltu hreinsa **Rauntíma gagnabreytingar** gátreitinn á Uppsetningarsíðunni Export to Data Lake viðbót til að tryggja að gagnabreytingar í rauntíma séu ekki virkar. The **Rauntíma gagnabreytingar** eiginleiki er í forskoðun og er ekki studdur af Commerce Analytics eins og er. Ef þú virkjar eiginleikann mun Commerce Analytics ekki geta unnið úr gögnunum þínum í gagnavatninu og flest Power BI skýrslur sýna engin gögn.
 
-Viðskiptagreining (Preview) byggir á Flytja út í Data Lake eiginleikann til að flytja gögn Commerce höfuðstöðvar til Data Lake og halda gögnunum ferskum. Áður en þú stillir viðskiptagreiningu (Forskoðun) skaltu virkja og stilla Export to Data Lake með því að fylgja skrefunum í [Stilla útflutning í Azure Data Lake](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
+Viðskiptagreining (Preview) byggir á Flytja út í Data Lake eiginleikann til að flytja út gögn Commerce höfuðstöðva til Data Lake og halda gögnunum ferskum. Áður en þú stillir viðskiptagreiningu (Forskoðun) skaltu virkja og stilla Export to Data Lake með því að fylgja skrefunum í [Stilla útflutning í Azure Data Lake](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
 
 Á meðan þú stillir Export to Data Lake viðbótina skaltu skrifa niður eftirfarandi upplýsingar, því þú verður að slá þær inn síðar:
 
@@ -401,7 +406,7 @@ Commerce Analytics (Preview) krefst þess að Synapse SQL on-demand sé útvega�
 | Tillaga um leyndarmál | Leynilykill | Dæmi um leyndarmál |
 |---------|---------|---------|
 | synapse-sql-þjónn | Serverlausa SQL endapunktsgildið sem þú bentir á meðan þú [stillti Azure Synapse vinnurými](#serverlessep). | `test-ondemand.sql.azuresynapse.net` |
-| <a name="roUser"></a> readonly-sql-pwd | Lykilorðið sem á að setja fyrir SQL-skrifvarinn notanda. The Power BI skýrsla mun nota þetta lykilorð til að tengjast netþjónslausu SQL. Til að stilla lykilorðið skaltu fylgja lykilorðareglum fyrirtækisins þíns. | |
+| <a name="roUser"></a> readonly-sql-pwd | Lykilorðið sem á að stilla fyrir SQL-skrifvarinn notanda. The Power BI skýrsla mun nota þetta lykilorð til að tengjast netþjónslausu SQL. Til að stilla lykilorðið skaltu fylgja lykilorðareglum fyrirtækisins þíns. | |
 
 ### <a name="enable-and-configure-the-commerce-analytics-preview-add-in"></a><a name="enableCommerceAnalyticsAddin"></a> Virkjaðu og stilltu Commerce analytics (Preview) viðbótina
 
@@ -429,7 +434,7 @@ Til að setja upp og stilla Commerce Analytics (Preview) viðbótina skaltu fylg
 
 ### <a name="install-the-power-bi-template-app"></a><a name="powerbi"></a> Settu upp Power BI sniðmát app
 
-Til að setja upp Power BI sniðmátsforrit fyrir viðskiptagreiningu (Preview), fylgdu þessum skrefum.
+Til að setja upp Power BI sniðmátsforrit fyrir viðskiptagreiningar (Preview), fylgdu þessum skrefum.
 
 1. Skráðu þig inn á [Power BI gátt](https://powerbi.microsoft.com/) með því að nota auðkenni fyrirtækisins þíns.
 1. Settu upp viðskiptagreininguna (Preview)Power BI sniðmát app með því að fara á [https://aka.ms/cdireport-installapp](https://aka.ms/cdireport-installapp). Að öðrum kosti, heimsækja [AppSource síðu fyrir Dynamics 365 Commerce Greining](https://appsource.microsoft.com/product/power-bi/dynamics-365-commerce.dydnamics-365-commerce-analytics), og veldu **Náðu í það núna**.

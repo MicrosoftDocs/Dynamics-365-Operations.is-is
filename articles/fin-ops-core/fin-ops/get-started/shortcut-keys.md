@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d66c1fd08c29b85ca14bf1ae5d08c603e4a1945
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: a0b4899bf89c40caa515e18e7833444e17d6fff5
+ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384564"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8602935"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -263,7 +262,7 @@ Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðm
 Fókusstjórnun lýsir því hvernig notendafókus er meðhöndlað í forriti. Fjármála- og rekstrarforrit eru með sérhæfða fókushegðun sem er ætlað að hámarka framleiðni notenda, sérstaklega fyrir gagnafærslur. Fókushegðun felur í sér eftirfarandi:  
 
 -  Þegar síða er hlaðin mun fyrsta innsláttarstýringin sem hægt er að breyta á síðunni hafa fókus og getur samþykkt inntak notanda strax. Ef engin breytanleg innsláttarstýring er á síðunni, er varavalkosturinn fyrir upphafsfókus fyrsta innsláttarstýringuna á síðunni og síðan fyrsta, fókusstýringin á síðunni.   
--  Venjulega þegar hnappur er valinn er aðgerðin unnin og fókus gæti farið aftur á síðuna. Þegar þetta gerist hefur fókus tilhneigingu til að fara aftur í hnappastýringuna sem var valin. Þetta á við í fjármála- og rekstraröppum **nema** þegar hnappurinn er staðsettur í aðgerðarrúðunni eða á tækjastiku. Í þessum tilfellum, þegar aðgerðinni er lokið, fer fókusinn aftur í síðustu stjórn *úti* á aðgerðasvæðinu (eða tækjastikunni) sem hafði fókus áður en hnappurinn var valinn.
+-  Venjulega þegar hnappur er valinn er aðgerðin unnin og fókus gæti farið aftur á síðuna. Þegar þetta gerist hefur fókus tilhneigingu til að fara aftur í hnappastýringuna sem var valin. Þetta á við í fjármála- og rekstraröppum **nema** þegar hnappurinn er staðsettur í aðgerðarrúðunni eða á tækjastiku. Í þessum tilfellum, þegar aðgerðinni er lokið, fer fókusinn aftur í síðustu stjórn *úti* á aðgerðarrúðunni (eða tækjastikunni) sem hafði fókus áður en hnappurinn var valinn.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

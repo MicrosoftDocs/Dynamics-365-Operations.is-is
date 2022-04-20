@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
-ms.translationtype: HT
+ms.openlocfilehash: 43a53d5940b2595abb305a08e6f52661bee8ca62
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752809"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548081"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Hvað er nýtt eða breytt í Dynamics 365 for Operations útgáfu 1611 (Nóvember 2016)
 
@@ -816,7 +816,7 @@ Eins og stendur er Retail Modern POS aðeins tiltækt sem Windows 8.1 forrit fyr
 | Sem lánardrottinn sækirðu upplýsingar um upphæð sendra birgða sem eru fluttar til viðskiptavinar. | Til að senda viðskiptavini reikning krefst lánardrottinn upplýsinga um hráefnið sem var keypt frá vörusendingarbirgðum og dagsetningu innkaupapöntunar. Lánardrottinn getur einnig að fylgst með lagerbirgðum á svæði viðskiptavinar með því að nota viðmót samvinnusvæðis lánardrottins. |
 | Færðu birgðir í eigu lánardrottins með því að nota flutningabók. | Til að rekja efnislega stöðu birgða í eigu lánardrottins verður notandi að geta skráð stöðu í kerfið. Með því að nota nota flutningabók er hægt að skrá efnislega hreyfingu á birgðum, eins og hreyfingu af einni staðsetningu í vöruhúsi á aðra staðsetningu í sama vöruhúsi. |
 | Leiðrétta birgðir í eigu lánardrottins með því að nota flutningabók. | Mikilvægt er að geyma lagerbirgðir kerfisins í samræmi við raunverulegar efnislegar birgðir. Birgðir í eigu lánardrottins má leiðrétta inn og út með með talningarferlum eins og magnleiðréttingu og færslubókarferli talningar. |
-| Lestu meira um stuðning við vörusendingar í Dynamics 365 for Operations | Frekari upplýsingar um stuðning við ferli vörusendingar er að finna í [Vörusendingu](../../../supply-chain/inventory/consignment.md), [Uppsetningu vörusendingar](../../../supply-chain/inventory/set-up-consignment.md), [Stofna áfyllingarpöntun vörusendingar (Verkefnaleiðbeiningar)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) og [Skipta um eignarhald á vörusendingabirgðum byggð á framleiðslueftirspurn (Verkefnaleiðbeiningar)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
+| Lestu meira um stuðning við vörusendingar í Dynamics 365 for Operations | Frekari upplýsingar um stuðning við ferli vörusendingar er að finna í [Vörusendingu](../../../supply-chain/inventory/consignment.md), [Uppsetningu vörusendingar](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Stofna áfyllingarpöntun vörusendingar (Verkefnaleiðbeiningar)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) og [Skipta um eignarhald á vörusendingabirgðum byggð á framleiðslueftirspurn (Verkefnaleiðbeiningar)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Samstarf lánardrottna (áður kallað Gátt lánardrottins)
 
@@ -942,7 +942,7 @@ Eins og stendur er Retail Modern POS aðeins tiltækt sem Windows 8.1 forrit fyr
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Nýjungar eða breytingar í Finance and Operations heimasíða](whats-new-changed.md)
+[Nýjungar eða breytingar á heimasíðu Finance and Operations](whats-new-changed.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

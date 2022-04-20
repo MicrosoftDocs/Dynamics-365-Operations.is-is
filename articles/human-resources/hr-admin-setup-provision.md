@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c856bca32c3dee44469c098961d85b4d8cb70a6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060425"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565629"
 ---
 # <a name="provision-human-resources"></a>Úthluta Human Resources
 
@@ -40,6 +40,10 @@ ms.locfileid: "8060425"
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Úthluta prófunarumhverfi Human Resources
 
+>[!NOTE]
+> Frá og með apríl 2022 verður prufuumhverfi mannauðs ekki tiltækt í sjálfstæðu umsókninni. Hugsanlegir viðskiptavinir sem hafa áhuga á að meta mannauðsgetu innan fjármála- og rekstrarappa geta gert það með því að nota ókeypis 30 daga prufuáskriftina ásamt kynningargögnum. Dynamics 365 Finance mun innihalda mannauðsmöguleikana sem færðir eru til Finance innviða með sameiningu sjálfstæða forritsins. Fyrir frekari upplýsingar, sjá [Sameining starfsmannaframboðs sameinar getu viðskiptavina](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Fyrir frekari upplýsingar um Dynamics 365 Finance prufur, sjá skref fyrir skref [leiðarvísir](/fin-ops/get-started/before-you-buy). 
+
+
 Áður en þú úthlutar fyrsta sandkassa- eða vinnsluumhverfinu þínu gæti verið ráðlegt að úthluta [Prófunarumhverfi Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) til að staðfesta virkni Human Resources. Prófunarumhverfi innihalda uppskálduð gögn sem hægt er að nota til að skoða forritið á öruggan hátt. Þótt prófunarumhverfið sé í eigu notandans sem óskaði eftir því er samt hægt að bjóða öðrum notendum aðgang í gegnum upplifun kerfisstjóra fyrir Human Resources. 
 
 Prófunarumhverfi bjóða upp á möguleikann á að leggja mat á virkni Human Resources fyrir einstaklinga sem eru ekki þegar með aðgang að umhverfi Human Resources. Ef þú úthlutar prófunarumhverfi og sannvottaður notandi er þegar með aðgang að einu eða fleiri umhverfum Human Resources, verður notandi sendur í fyrirliggjandi umhverfi eða lista yfir umhverfi.
@@ -58,7 +62,7 @@ Prófunarumhverfi eru ætluð til þess að nota sem vinnsluumhverfi. Þau takma
 Hvað skal hafa í huga fyrir fleiri umhverfi:
 
 - **Gagnaflutningur**: Hugsanlega þarf að huga að viðbótarumhverfi fyrir gagnaflutningsaðgerðir svo hægt sé að nota sandkassaumhverfið sem vettvang prófunar í gegnum verkið. Að vera með viðbótarumhverfi gerir gagnaflutningsaðgerðum kleift að halda áfram á meðan prófanir og grunnstillingar gerast samtímis í öðru umhverfi.
-- **Samþætting**: Hugsanlega þarf annað umhverfi til að grunnstilla og prófa samþættingar. Þetta gæti falið í sér venjulega samþættingu á borð við samþættingar Ceridian Dayforce LinkedIn Talent Hub eða sérstilltar samþættingar á borð við launaskrár, rakningarkerfi umsækjanda eða fríðindakerfi og þjónustuaðilar.
+- **Samþætting**: Hugsanlega þarf annað umhverfi til að grunnstilla og prófa samþættingar. Þetta gæti falið í sér innfæddar samþættingar eins og Ceridian Dayforce eða LinkedIn Talent Hub samþættingar, eða sérsniðnar samþættingar eins og þær fyrir launaskrá, rekja kerfi umsækjenda eða bótakerfi og veitendur.
 - **Þjálfun**: Hugsanlega þarf aðskilið umhverfi sem er grunnstillt með safni þjálfunargagna til að geta þjálfað starfsmenn í notkun á nýja kerfinu. 
 - **Fjölþrepa verk**: Hugsanlega þarf annað umhverfi til að styðja grunnstillingu, gagnaflutning, prófun eða aðra verkþætti í verkþrepi sem er áætlað eftir fyrstu keyrslu verksins.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 197a5b983b307758425b1acc1f354d0a8bfbf8a1
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 94038b0eb412632c348081bbf467f44310d9e955
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371958"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603026"
 ---
 # <a name="create-a-globalization-feature"></a>Búðu til hnattvæðingareiginleika
 
@@ -47,13 +47,13 @@ Fylgdu þessum skrefum til að búa til eiginleika rafrænna reikninga.
 8. Í **Stillingar** grid, flettu að og veldu sniðstillingar sem eru nauðsynlegar fyrir vinnsluleiðsluna (til dæmis til að búa til rafrænar reikningaskrár eða vinna úr svörum frá ytri vefþjónustu).
 9. Veldu **Í lagi**. Þú getur nú notað stillingar í aðgerðum vinnsluleiðslunnar. Fyrir frekari upplýsingar, sjá [Vinna með stillingar](e-invoicing-work-configurations.md).
 10. Til að bæta við uppsetningu rafrænna reikningaeiginleika skaltu búa hana til á **Uppsetningar** flipi á **Nýr eiginleiki** síðu. Fyrir frekari upplýsingar, sjá [Vinna með eiginleikauppsetningar](e-invoicing-feature-setup.md).
-11. Ljúktu við uppsetninguna og settu rafræna reikningseiginleikann í þjónustuumhverfið. Fyrir frekari upplýsingar, sjá [Ljúktu við, birtu og settu upp hnattvæðingareiginleika](e-invoicing-complete-publish-deploy-globalization-feature).
+11. Ljúktu við uppsetninguna og settu rafræna reikningseiginleikann í þjónustuumhverfið. Fyrir frekari upplýsingar, sjá [Ljúktu við, birtu og settu upp hnattvæðingareiginleika](e-invoicing-complete-publish-deploy-globalization-feature.md).
 
 ### <a name="create-file-format-configurations-that-are-derived-from-the-existing-invoice-model"></a>Búðu til stillingar fyrir skráarsnið sem eru fengnar úr núverandi reikningslíkani
 
 Þú getur sleppt þessum hluta ef þú þarft ekki að búa til ER stillingar en getur endurnýtt núverandi útgáfur sem grunn.
 
-Þetta ferli sýnir hvernig á að búa til skráarsniðsstillingarnar sem eru nauðsynlegar fyrir nýja rafræna reikningseiginleikann sem þú vilt búa til. Búðu til skráarsnið rafrænna reikninga og allar aðrar skráarsniðstillingar sem nýi rafræni reikningseiginleikinn þinn krefst.
+Þetta ferli sýnir hvernig á að búa til skráarsniðsstillingarnar sem eru nauðsynlegar fyrir nýja rafræna reikningseiginleikann sem þú vilt búa til. Búðu til skráarsnið rafrænna reikninga og allar aðrar stillingar skráarsniðs sem nýja rafræna reikningseiginleikinn þinn krefst.
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
 2. Á vinnusvæðinu **Rafræn skýrslugerð** skal velja reitinn **Skilgreiningar skýrslugerðar**.
@@ -91,4 +91,4 @@ Nýju skráarsniðsstillingunum verður að deila með Microsoft léninu áður 
     - Skoðaðu stillingarnar, ef þú verður að sérsníða ER sniðin og bindingu þeirra með sniðavörpum fyrir eiginleikaútgáfuna.
     - Skoðaðu uppsetninguna, ef þú verður að sérsníða **Aðgerðir** flipi, **Gildisreglur** flipa, eða **Breytur** flipa fyrir eiginleika útgáfuna.
 
-9. Ljúktu við uppsetninguna og settu rafræna reikningseiginleikann í þjónustuumhverfið. Fyrir frekari upplýsingar, sjá [Ljúktu við, birtu og settu upp hnattvæðingareiginleika](e-invoicing-complete-publish-deploy-globalization-feature).
+9. Ljúktu við uppsetninguna og settu rafræna reikningseiginleikann í þjónustuumhverfið. Fyrir frekari upplýsingar, sjá [Ljúktu við, birtu og settu upp hnattvæðingareiginleika](e-invoicing-complete-publish-deploy-globalization-feature.md).

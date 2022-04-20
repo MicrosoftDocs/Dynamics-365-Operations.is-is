@@ -2,7 +2,7 @@
 title: Stofnað sölupantanir
 description: Þessi verklýsing sýnir hvernig á að stofna sölupöntun.
 author: Henrikan
-ms.date: 06/25/2019
+ms.date: 04/06/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5746fa0ab9fd7ef3e288adc88a755324309a27c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: 462f47ab5d85665ed8132e5bfb6dd945c537c1ef
+ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566312"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8551725"
 ---
 # <a name="create-sales-orders"></a>Stofnað sölupantanir
 
@@ -64,7 +64,9 @@ Afurðir sem eru seldar af fyrirtækið þínu koma hugsanlega í afbrigðum sem
     
     Síðan **Samtals** birtir upplýsingar um alla pöntunina. Þar á meðal upphæð millisamtala sem er summa allra nettóupphæða línu leiðrétt fyrir hugsanlega línuafslætti, heildarreikningsupphæðin, sem er upphæð millisamtölu leiðrétt fyrir hugsanlega afslætti á stigi pöntunar, gjöld og virðisaukaskatt, lánamark viðskiptavinar og fleira. Reikningsupphæð er upphæðin sem mun birtast á reikningsskjalið viðskiptavinar.  
     
-3. Veljið **Í lagi**.
+3. Veldu **Í lagi**.
 
+## <a name="sales-order-creation-performance-enhancement"></a>Afkastaaukning við stofnun sölupöntunar
+Nýi eiginleikinn sem kynntur er með útgáfu 10.0.26 forritsins dregur úr auka skráningarsköpun fyrir töflur **SourceDocumentHeader** og **SourceDocumentLine**. Afköst eru betri og geymslustærð minnkar vegna þess að þessar færslur eru ekki búnar til. Þessar undirliggjandi rammatöflur frumskjala eru ekki notaðar fyrir sölupantanir í vörunni eins og er og engar áætlaðar áætlanir eru um að nýta þær. Að virkja þennan eiginleika er talin örugg breyting fyrir bætta frammistöðu. 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -5,16 +5,16 @@ author: andosip
 ms.date: 11/09/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: kfend
 ms.search.validFrom: ''
-ms.openlocfilehash: 9564892f768adb8f48208fe10b31c7c6392a4567
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: fbacc204208e536291035c6f9bb2ef4fa4038f58
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779908"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566092"
 ---
 # <a name="polish-intrastat"></a>Pólskt Intrastat
 
@@ -24,7 +24,7 @@ Síðan **Intrastat** er notuð til að útbúa og tilkynna upplýsingar um við
 
 Eftirfarandi reitir eru með í pólsku Intrastat yfirlýsingunni. Allir reitirnir eru innifaldir við komur og sendingar nema kl **RodzajTransportu** (flutningsmátinn) og **KrajPochodzenia** (upprunalandið eða -svæðið) sem eru ekki innifalin í sendingum, og **IdKontrahenta** (erlent virðisaukaskattsnúmer viðskiptavinarins) sem er ekki innifalið við komu.
 
-| Heiti reits | Lýsing |
+| Heiti svæðis | Lýsing |
 |-------------------------|-------------------------|
 | Deklaracja Data | Dagsetningin þegar skjalið er búið til. |
 | Miesiac | Viðmiðunarmánuður yfirlýsingarinnar. |
@@ -42,7 +42,7 @@ Eftirfarandi reitir eru með í pólsku Intrastat yfirlýsingunni. Allir reitirn
 | LacznaWartoscFaktur | Summa reikningsgilda. |
 | LacznaWartoscStatystyczna | Summa tölfræðilegra gilda. |
 | LacznaLiczbaPozycji | Heildarfjöldi vöruliða. |
-| PozId | Samfellt númer tiltekins vöruliðs. |
+| PozId | Samfellt númer tiltekins vöruhluts. |
 | UmsögnTowaru | Vöruheiti vörunnar. |
 | KrajPochodzeniaWysylki | Alþjóðlega staðlastofnunin (ISO) kóða fyrir land eða svæði mótaðilans. |
 | WarunkiDostawy | Intrastat kóðann fyrir afhendingarskilmálana. |
@@ -72,7 +72,7 @@ Frekari upplýsingar er að finna í [Sækja skilgreiningar rafrænnar skýrslug
 
 ### <a name="create-registration-types-for-company-codes"></a>Búðu til skráningargerðir fyrir fyrirtækjakóða
 
-Þú verður að búa til tvær skráningargerðir fyrir fyrirtækjakóða: eina fyrir virðisaukaskattsnúmerið (NIP kóða) og eina fyrir fyrirtækisnúmerið (Regon kóða).
+Þú verður að búa til tvær skráningargerðir fyrir fyrirtækjakóða: eina fyrir VSK ID (NIP code) og eina fyrir fyrirtækisnúmerið (Regon code).
 
 1. Fara til **Stjórn stofnunarinnar** > **Heimilisfangabók** > **Skráningargerðir** > **Skráningargerðir**.
 2. Á aðgerðarrúðunni velurðu **Nýtt** til að búa til skráningartegund fyrir virðisaukaskattsnúmerið.
@@ -99,7 +99,7 @@ Frekari upplýsingar er að finna í [Sækja skilgreiningar rafrænnar skýrslug
 3. Á aðgerðarrúðunni velurðu **Skráningarauðkenni**.
 4. Á **Skráningarauðkenni** Flýtiflipi, veldu **Bæta við**.
 5. Í **Skráningartegund** reit, veldu eina af skráningartegundunum sem þú bjóst til áður.
-6. Sláðu inn virðisaukaskattsnúmer fyrirtækis þíns (NIP code) eða fyrirtækisnúmer (Regon code), allt eftir skráningargerðinni sem þú valdir í fyrra skrefi.
+6. Sláðu inn virðisaukaskattsnúmer fyrirtækis þíns (NIP kóða) eða fyrirtækisnúmer (Regon kóða), allt eftir skráningargerðinni sem þú valdir í fyrra skrefi.
 7. Endurtaktu skref 4 til 6 fyrir hina skráningargerðina sem þú bjóst til áðan.
 
 ## <a name="set-up-a-company-address"></a>Settu upp heimilisfang fyrirtækis
@@ -176,9 +176,9 @@ Frekari upplýsingar er að finna í [Sækja skilgreiningar rafrænnar skýrslug
 
     | Svæði | Lýsing |
     |-------------------------|-------------------------|
-    | Frá degi | Veldu upphafsdagsetningu fyrir skýrsluna. |
+    | Frá dagsetning | Veldu upphafsdagsetningu fyrir skýrsluna. |
     | Mynda skrá | Stilltu þennan valkost á **Já** til að búa til .xml skrá fyrir Intrastat skýrsluna þína. |
-    | Skrárnafn | Sláðu inn nafn .xml skráarinnar. |
+    | Skráarheiti | Sláðu inn nafn .xml skráarinnar. |
     | Búa til skýrslu | Stilltu þennan valkost á **Já** til að búa til .xlsx-skrá fyrir Intrastat-skýrsluna. |
     | Heiti skýrsluskráar | Færðu inn heiti .xlsx-skráar. |
     | Stefna | Veldu **Komur** til að fá skýrslu um komur innan samfélags.</br>Veldu **Sendingar** til að fá skýrslu um sendingar innan samfélags. |
@@ -255,7 +255,7 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
 8. Í **Skráningartegund** reit, veldu **Regon**.
 9. Í **Skráningarnúmer** reit, slá inn **12345678901234**.
 
-### <a name="set-up-a-number-sequence-code"></a>Settu upp númeraraðarkóða
+### <a name="set-up-a-number-sequence-code"></a>Settu upp númerarunarkóða
 
 1. Farðu í **Fyrirtækisstjórnun** > **Númeraraðir** > **Númeraraðir**.
 2. Á aðgerðarrúðunni, á **Númeraröð** flipa, í **Nýtt** hópur, veldu **Númeraröð**.
@@ -272,7 +272,7 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
 2. Í flýtiflipanum **Intrastat** á **Almennt** flipanum í **Færslukóði** reitknum velurðu **11**.
 3. Á **Rafræn skýrslugerð** flýtiflipann, í **Kortlagning skráarsniðs** reit, veldu **Intrastat (PL)**.
 4. Í reitnum **Vörpun skýrslusniðs** skal velja **Intrastat skýrslu**.
-5. Á **Stigveldi vörukóða** flýtiflipann, staðfestu að **Stigveldi flokka** reiturinn er stilltur á **Intrastat**.
+5. Á **Stigveldi vörukóða** Flýtiflipi, staðfestu að **Stigveldi flokka** reiturinn er stilltur á **Intrastat**.
 6. Í flipanum **Eiginleikar lands/svæðis** skal velja **Nýtt**.
 7. Í reitnum **Land/svæði viðskiptafélaga** skal velja **POL**. Þá, í **Tegund lands/svæðis** reit, veldu **Innlent**.
 8. Í reitnum **Land/svæði viðskiptafélaga** skal velja **DEU**. Þá, í **Tegund lands/svæðis** reit, veldu **ESB**.
@@ -866,7 +866,7 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
     </tr>
     <tr>
     <td colspan="3">
-    <p style="text-align: center;"><strong>Upplýsingar um skjalið</strong></p>
+    <p align=center><strong>Upplýsingar um skjalið</strong></p>
     </td>
     </tr>
     <tr>
@@ -1014,7 +1014,7 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
     </tr>
     <tr>
     <td colspan="3">
-    <p style="text-align: center;"><strong>Upplýsingar um fyrirtækið</strong></p>
+    <p align=center><strong>Upplýsingar um fyrirtækið</strong></p>
     </td>
     </tr>
     <tr>
@@ -1085,7 +1085,7 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
     </tr>
     <tr>
     <td colspan="3">
-    <p style="text-align: center;"><strong>Upplýsingar um hið góða</strong></p>
+    <p align=center><strong>Upplýsingar um hið góða</strong></p>
     </td>
     </tr>
     <tr>
@@ -1211,7 +1211,7 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
     </tr>
     <tr>
     <td colspan="3">
-    <p style="text-align: center;"><strong>Tengslaupplýsingar</strong></p>
+    <p align=center><strong>Tengslaupplýsingar</strong></p>
     </td>
     </tr>
     <tr>

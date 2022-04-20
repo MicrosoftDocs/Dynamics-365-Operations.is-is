@@ -1,5 +1,5 @@
 ---
-title: Hannaðu ER snið til að halda línum saman á sömu Excel síðu
+title: Hanna ER-snið til að halda línum saman á sömu Excel-síðu
 description: Þetta efni útskýrir hvernig á að hanna rafræn skýrslugerð (ER) snið sem heldur línum saman á sama hátt Microsoft Excel síðu.
 author: NickSelin
 ms.date: 02/28/2022
@@ -15,18 +15,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 711681ab38fb24b57a83f008f86a8261176aa5a5
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8389139"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612355"
 ---
-# <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Hannaðu ER snið til að halda línum saman á sömu Excel síðu
+# <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Hanna ER-snið til að halda línum saman á sömu Excel-síðu
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði útskýrir hvernig notandi í hlutverki kerfisstjóra eða rafrænnar skýrslugerðar ráðgjafa getur stillt [Rafræn skýrslugerð (ER)](general-electronic-reporting.md)[sniði](er-overview-components.md#format-component) sem býr til skjöl á útleið inn Microsoft Excel og stjórna blaðsíðuflokkun skjala þannig að raðir sem eru búnar til haldist á sömu síðu.
 
@@ -55,7 +54,7 @@ Fylgdu skrefunum í [Skilgreina ramma rafrænnar skýrslugerðar](er-quick-start
 
 ## <a name="import-the-standard-er-format-configuration"></a>Flytja inn staðlaða skilgreiningu rafræns skýrslugerðarsniðs
 
-Fylgdu skrefunum í [Flytja inn staðlaða skilgreiningu rafræns skýrslugerðarsniðs](er-quick-start2-customize-report.md#ImportERSolution1) til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núverandi tilvik af Dynamics 365 Finance. Til dæmis, innflutningsútgáfa **252.116** af **Ókeypis textareikningur (Excel)** sniðstillingar. Grunnútgáfa **252** af grunninum **Reikningslíkan** stillingar eru sjálfkrafa fluttar inn úr geymslunni ásamt nauðsynlegum **Kortlagning reikningslíkana** stillingar.
+Fylgdu skrefunum í [Flytja inn staðlaða ER sniðstillingu](er-quick-start2-customize-report.md#ImportERSolution1) til að bæta stöðluðum ER stillingum við núverandi tilvik þitt af Dynamics 365 Finance. Til dæmis, innflutningsútgáfa **252.116** af **Ókeypis textareikningur (Excel)** sniðstillingar. Grunnútgáfa **252** af grunninum **Reikningslíkan** stillingar eru sjálfkrafa fluttar inn úr geymslunni ásamt nauðsynlegum **Kortlagning reikningslíkana** stillingar.
 
 ## <a name="set-up-print-management-to-use-the-standard-er-format"></a>Settu upp prentstjórnun til að nota staðlað ER snið
 

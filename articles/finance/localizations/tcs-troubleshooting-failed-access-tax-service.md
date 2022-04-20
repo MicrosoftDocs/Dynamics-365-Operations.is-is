@@ -1,5 +1,5 @@
 ---
-title: Mistókst að fá aðgang að skattaþjónustu
+title: Ekki tókst að fá aðgang að skattþjónustu
 description: Þetta efnisatriði útskýrir hvernig á að leysa bilun í aðgangi að skattreikningsþjónustunni.
 author: hangwan
 ms.date: 03/04/2022
@@ -13,24 +13,23 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 02/16/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 48a75cd0c1d91c3b3d9c3fb2e6cab93a76756532
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: f4682b83405071b4ad7647958122ab2b4e082133
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8389127"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612317"
 ---
-# <a name="failed-to-access-tax-service"></a>Mistókst að fá aðgang að skattaþjónustu
+# <a name="failed-to-access-tax-service"></a>Ekki tókst að fá aðgang að skattþjónustu
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði útskýrir hvernig á að laga villuna „Mistókst að fá aðgang að skattaþjónustu“ í skattaútreikningsþjónustunni.
 
 ## <a name="symptoms"></a>Einkenni
 
-Í Microsoft Dynamics 365 Finance, þú ferð til **Skattur** \> **Uppsetning** \> **Skattstilling** \> **Færibreytur skattaþjónustu**. Á **Almennt** flipann, virkjarðu á **Virkjaðu skattaútreikning** valmöguleika. Ef þú reynir síðan að velja gildi í **Heiti eiginleikauppsetningar** reit, kemur upp villa. Villuskilaboðin segja: "Mistókst að fá aðgang að skattaþjónustu."
+Í Microsoft Dynamics 365 Fjármál, þú ferð til **Skattur** \> **Uppsetning** \> **Skattstilling** \> **Færi skattaþjónustu**. Á **Almennt** flipann, virkjarðu á **Virkjaðu skattaútreikning** valmöguleika. Ef þú reynir síðan að velja gildi í **Heiti eiginleikauppsetningar** reit, kemur upp villa. Villuskilaboðin segja, "Mistókst að fá aðgang að skattaþjónustu."
 
 ## <a name="cause"></a>Orsök
 

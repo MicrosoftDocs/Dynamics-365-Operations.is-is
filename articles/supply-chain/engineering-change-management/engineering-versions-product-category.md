@@ -2,7 +2,7 @@
 title: Hönnunarútgáfur og flokkar hönnunarafurðar
 description: Þetta efnisatriði veitir upplýsingar um hugmyndina á bak við hönnunarútgáfur. Hönnunarútgáfur tryggja að mismunandi stöður afurðar og gögn hennar sé haldið uppfærðum og skýrum og að hægt sé að sjá þau í kerfinu.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: HT
+ms.openlocfilehash: a4d057c603e6592e491af7597e50fce2497860ec
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572890"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553363"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Hönnunarútgáfur og flokkar hönnunarafurðar
 
@@ -136,8 +136,8 @@ Fyrir hverja línu sem bætt er við hnitanetið skal stilla eftirfarandi reiti.
 | Svæði | lýsing |
 |---|---|
 | Nafn | Velja eigindina sem bæta á við. |
-| Virði | Veljið sjálfgefið gildi fyrir eigindina. |
-| Skylda | Fyrir eigindir af gerðinni *Boole-gildi*, ef þessi valkostur er stilltur á *Já*, þurfa notendur að stilla eigindina á *Já*. Ef þessi valkostur er stilltur á *Nei* geta notendur stillt eigindina annaðhvort á *Já* eða *Nei*. Fyrir aðrar gagnagerðir er stillingin fyrir þennan valkost bara til upplýsinga. |
+| Gildi | Veljið sjálfgefið gildi fyrir eigindina. |
+| Skylda | Veldu hvort eigindin sé skylda, sem þýðir að notendur verða að tilgreina gilt gildi fyrir eigindina áður en þeir geta vistað vöru. Áhrif þessarar stillingar eru örlítið breytileg eftir gagnagerð valda eigindarinnar, eins og skilgreint er í eftirfarandi lista.<ul><li>**Boolean** – Stilltu þetta á *Já* að krefjast þess að eigindin hafi gildi á *Já* (Kerfið mun neita að vista vöru þar sem eigindin er stillt á *Nei*). Stilltu þetta á *Nei* að samþykkja gildi á *Já* eða *Nei*. (Eignir af gerð *Boolean* getur ekki haft tómt gildi.)</li><li>**Heiltala eða aukastafur** – Stilltu þetta á *Já* að krefjast þess að notendur slá inn gildi sem er ekki núll fyrir þessa eigind. Stilltu þetta á *Nei* til að leyfa notendum að vista með gildinu núll.  (Eignir þessara tegunda geta ekki haft autt gildi.)</li><li>**Listi** – Listar hafa gagnategundina *Texti*, en innihalda einnig fyrirfram skilgreindan lista yfir möguleg gildi. Þess vegna er ekki hægt að slá inn autt gildi fyrir eiginleika af þessari gerð, þannig að þessi stilling hefur engin áhrif og er bara til upplýsinga.</li><li>**Allar aðrar gagnategundir** – Stilltu þetta á *Já* til að gera eiginleikann lögboðinn. Stilltu þetta á *Nei* til að leyfa notendum að vista vöru án þess að gefa upp gildi fyrir þessa eigind.</li></ul> |
 | Runueigind | Veljið hvort dreifa eigi eigindinni í gegnum runuvirknina. |
 
 ### <a name="readiness-policy-fasttab"></a>Flýtiflipi undirbúningsreglu

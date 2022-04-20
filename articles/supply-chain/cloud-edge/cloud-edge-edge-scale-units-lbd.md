@@ -4,18 +4,20 @@ description: Þetta efnisatriði útskýrir hvernig hægt er að úthluta kvör�
 author: cabeln
 ms.date: 01/24/2022
 ms.topic: article
+ms.prod: dynamics-365
+ms.service: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1204b65e76c107c29a94a61c321064a87c7571fb
-ms.sourcegitcommit: 948978183a1da949e35585b28b8e85a63b6c12b1
+ms.openlocfilehash: 37bc8678d4e04afebbebaaa893a484866a8643ce
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "8024543"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565548"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Nota jaðareiningakvarða í sérsniðnum vélbúnaði með LBD
 
@@ -116,7 +118,7 @@ Hér er yfirlit uppsetningarferlisins.
 
 1. Haltu áfram að fylgja leiðbeiningunum í [Settu upp og settu upp umhverfi á staðnum (Platform update 41 og síðar)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Þegar þú verður að slá inn stillingu fyrir staðbundinn umboðsmann skaltu ganga úr skugga um að þú virkjar Edge Scale Unit Features og gefur upp allar nauðsynlegar færibreytur.
 
-    ![Virkja eiginleika Edge Scale Unit.](media/EnableEdgeScaleUnitFeatures.png "Virkja eiginleika Edge Scale Unit.")
+    ![Virkja Edge Scale Unit eiginleika.](media/EnableEdgeScaleUnitFeatures.png "Virkja Edge Scale Unit eiginleika.")
 
 1. Áður en þú setur upp umhverfið þitt frá LCS skaltu setja upp fordreifingarforskriftina. Frekari upplýsingar er að finna í [Forskriftir fyrir og eftir uppsetningu umboðsmanns á staðnum](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
 
@@ -197,7 +199,7 @@ Hér er yfirlit uppsetningarferlisins.
                                           -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
     ```
 
-1. Eftir að þú hefur búið til forritið verður þú að búa til biðlaraleyndarmál og vista upplýsingarnar í Azure lyklahólf. Að auki verður þú að veita aðgang að Azure AD forrit sem var búið til, þannig að það getur sótt leyndarmálin sem eru geymd í lyklageymslunni. Til þæginda mun eftirfarandi handrit sjálfkrafa framkvæma allar nauðsynlegar aðgerðir.
+1. Eftir að þú hefur búið til forritið verður þú að búa til biðlaraleyndarmál og vista upplýsingarnar í Azure lyklahólfi. Að auki verður þú að veita aðgang að Azure AD forrit sem var búið til, þannig að það getur sótt leyndarmálin sem eru geymd í lyklageymslunni. Til þæginda mun eftirfarandi handrit sjálfkrafa framkvæma allar nauðsynlegar aðgerðir.
 
     ```powershell
     .\Create-SpokeToHubAADAppSecrets.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `

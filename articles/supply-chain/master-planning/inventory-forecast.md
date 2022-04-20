@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: abc827139c71f7942335cd2b7e2c7502f7fc1cfe
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
-ms.translationtype: HT
+ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469395"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548168"
 ---
 # <a name="inventory-forecasts"></a>Birgðaspár
 
@@ -39,7 +39,7 @@ Einnig eru aðrar leiðir til að stofna spárlínur:
 - [Myndun tölfræðilegrar grunnlínuspár](generate-statistical-baseline-forecast.md).
 - [Flytja inn eldri gögn fyrir eftirspurnarspár](import-historical-data.md).
 - [Búið til spá með því að nota vefþjónustu Microsoft Azure Machine Learning](demand-forecasting-setup.md).
-- [Flytja inn eftirspurnar- eða framboðsspárlínur með því að nota ramma gagnastjórnunar (ForecastDemandForecastEntryStaging og ForecastSupplyForecastEntryStaging gagnaeiningar)](../../dev-itpro/data-entities/data-entities-data-packages.md).
+- [Flytja inn eftirspurnar- eða framboðsspárlínur með því að nota ramma gagnastjórnunar (ForecastDemandForecastEntryStaging og ForecastSupplyForecastEntryStaging gagnaeiningar)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
 
 Eins og taflan í skrefi 1 sýnir eru mismunandi leiðir til að nálgast síðurnar sem eru notaðar.
 

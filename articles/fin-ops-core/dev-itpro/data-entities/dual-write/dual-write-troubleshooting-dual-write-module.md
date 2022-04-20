@@ -2,19 +2,19 @@
 title: Úrræðaleit fyrir vandamál vegna tvöfaldrar skráningar í fjármála- og rekstrarforritum
 description: Þetta efni veitir upplýsingar um úrræðaleit sem geta hjálpað þér að laga vandamál með tvískrifaeininguna í Finance and Operations forritum.
 author: RamaKrishnamoorthy
-ms.date: 08/10/2021
+ms.date: 04/12/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: db49c6a4555f39800362a5b248f9757b07ee5481
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
-ms.translationtype: MT
+ms.openlocfilehash: 58b20e38269922203b54173509e31c5e6f30c25b
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061809"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565967"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Úrræðaleit fyrir vandamál vegna tvöfaldrar skráningar í fjármála- og rekstrarforritum
 
@@ -22,7 +22,7 @@ ms.locfileid: "8061809"
 
 
 
-Þetta efnisatriði veitir upplýsingar um bilanaleit fyrir tvískrifað samþættingu milli Finance and Operations forrita og Dataverse. Nánar tiltekið veitir það upplýsingar sem geta hjálpað þér að laga vandamál með **Tvöfalt skrifa** mát í Finance and Operations öppum.
+Þetta efnisatriði veitir upplýsingar um úrræðaleit fyrir samþættingu tvískrifaðs milli Finance and Operations forrita og Dataverse. Nánar tiltekið veitir það upplýsingar sem geta hjálpað þér að laga vandamál með **Tvöfalt skrifa** mát í Finance and Operations öppum.
 
 > [!IMPORTANT]
 > Nokkur þeirra atriða sem þetta efni fjallar um geta krafist annað hvort kerfisstjórans eða Microsoft Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
@@ -70,6 +70,21 @@ Root activity ID: \<your root activity\> id
 Þessi villa kemur upp þegar tengt umhverfi Dataverse er ekki í boði.
 
 Til að laga málið, stofnaðu miða fyrir Data Integration teymið. Festu netsporið svo að gagnasamstillingarteymið geti merkt kortin sem **Ekki í gangi** í bakvinnslunni.
+
+## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Virkjaðu samhliða vinnslu í Finance and Operations forritum til að bæta árangur
+
+Með því að virkja samhliða vinnslu getur það dregið úr þeim tíma sem þarf til að flytja inn gögn úr Finance and Operations öppum inn í öpp fyrir þátttöku viðskiptavina og Microsoft Dataverse. 
+
+Til að virkja samhliða vinnslu í Finance and Operations forritum skaltu ljúka eftirfarandi skrefum.
+
+1. Skráðu þig inn í fjármála- og rekstrarumhverfið þitt.
+2. Fara til **Gagnastjórnun > Framework færibreytur**.
+3. Veldu **Einingastillingar** og veldu **Stilla framkvæmdarfæribreytur eininga**.
+4. Bættu við breytum fyrir samhliða vinnslu:
+    - **Fjöldi innflutningsþröskulda** – Fjöldi skráa sem þarf að uppfylla áður en samhliða vinnsla er virkjuð.
+    - **Innflutningsfjöldi verkefna** – Fjöldi þráða (verkefna) sem á að keyra samhliða.
+5. Veldu **Vista**.
+
 
 ## <a name="errors-while-trying-to-start-a-table-mapping"></a>Villur við að reyna að hefja töfluvörpun
 

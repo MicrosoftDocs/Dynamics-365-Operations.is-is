@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
-ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "7986359"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566000"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Rafræn reikningsfærsla fyrir Mexíkó styður hugsanlega ekki sem stendur allar aðgerðir sem eru í boði í skjalinu Comprobante Fiscal Digital por Internet (CFDI) og í tengdri samþættingu sem er byggð inn í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
+> Rafræn reikningagerð fyrir Mexíkó styður ef til vill ekki allar aðgerðir sem eru tiltækar í Comprobante Fiscal Digital por Internet (CFDI) skjalinu og í tengdri samþættingu sem er innbyggður í Microsoft Dynamics 365 Fjármál eða Dynamics 365 Supply Chain Management.
 
 Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Mexíkó. Það leiðir notandann í gegnum grunnstillingarskrefin sem fara eftir hverju landi fyrir sig í Regulatory Configuration Services (RCS) og Finance. Það fer einnig í gegnum skrefin sem þarf að fylgja í Finance til að senda inn CFDI-reikninga í gegnum þjónustuna og það útskýrir hvernig á að fara yfir niðurstöður vinnslunnar og stöður CFDI-reikninga.
 
@@ -141,7 +141,7 @@ Til að senda inn afturköllun á CFDI-reikningi þarf að setja upp eiginleikan
 1. Á **Uppsetning eiginleikaútgáfu** síðu, á **Breytur** flipa, veldu breytuheitið, **DigitalSignatureXSLT**.
 2. Í **Gildi** reit slá inn:{ "containerUrl":"https://&lt; AccountStorageName&gt; .blob.core.windows.net/&lt; ContainerName&gt; ","leið":"&lt; RelativePath&gt; "}
    
-    hvar:<RelativePath> = mappa\\ möppu\\ skráarnafn með tvöföldum bakstökkum, ContainerName verður að tákna ílátið sem er notað fyrir þjónustuna.
+    hvar:\<RelativePath\> = mappa\\ möppu\\ skráarnafn með tvöföldum bakstökkum, ContainerName verður að tákna ílátið sem er notað fyrir þjónustuna.
    
     Dæmi um breytuna væri:
     

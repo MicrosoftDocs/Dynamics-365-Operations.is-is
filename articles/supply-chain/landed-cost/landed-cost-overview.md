@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e4861c0e8b3680f3cd3229facf059b671a4fc765
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 90410585f314aa9f17f2c132afb6568307fb28ab
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983418"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570382"
 ---
 # <a name="landed-cost-module"></a>Eining heildarkostnaðar
 
@@ -39,7 +39,7 @@ Heildarkostnaður býður upp á nákvæmt og tímanlegt kostnaðarmat fyrir sam
 
 ### <a name="voyages"></a>Ferðir
 
-Í heildarkostnaði er ferð ákveðin hreyfing frá út-staðsetningu, í gegnum tiltekna áfangastaða yfir tiltekið tímabil, til tiltekinnar staðsetningar í vöruhúsi á innleið. Hægt er að bæta innkaupapöntunum og pöntunarlínum við annaðhvort einn gám eða marga gáma fyrir ferð og kostnaðinum verður úthlutað á réttan hátt aftur í vörulínuna. Einnig er hægt að bæta við pöntunum og pöntunarlínum á milli lögaðila í einni ferð.
+Í heildarkostnaði er ferð ákveðin hreyfing frá út-staðsetningu, í gegnum tiltekna áfangastaða yfir tiltekið tímabil, til tiltekinnar staðsetningar í vöruhúsi á innleið. Hægt er að bæta innkaupapöntunum og pöntunarlínum við annaðhvort einn gám eða marga gáma fyrir ferð og kostnaðinum verður úthlutað á réttan hátt aftur í vörulínuna. 
 
 ### <a name="item-ownership"></a>Vörueignarréttur
 

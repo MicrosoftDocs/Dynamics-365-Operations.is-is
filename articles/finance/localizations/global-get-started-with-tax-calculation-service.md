@@ -2,7 +2,7 @@
 title: Hafist handa með skattaútreikning
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp skattaútreikning.
 author: wangchen
-ms.date: 01/05/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: HT
+ms.openlocfilehash: 61ee15901a091ee733b83c8cbaa5b84801fa8e5d
+ms.sourcegitcommit: 4afd1e0b325d27cd7c4e0d9a198400b038262ac7
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952522"
+ms.lasthandoff: 04/09/2022
+ms.locfileid: "8558314"
 ---
 # <a name="get-started-with-tax-calculation"></a>Hafist handa með skattaútreikning
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um hvernig hafist er handa við skattaútreikning. Hlutarnir í þessu efni leiða þig í gegnum hönnunar- og uppsetningarþrepin á háu stigi í Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS),Dynamics 365 Finance, og Dynamics 365 Supply Chain Management. 
+Þetta efnisatriði veitir upplýsingar um hvernig hafist er handa við skattaútreikning. Hlutarnir í þessu efni leiða þig í gegnum hönnunar- og uppsetningarþrepin á háu stigi í Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance og Dynamics 365 Supply Chain Management. 
 
 Uppsetningin samanstendur af þremur meginskrefum.
 
@@ -36,7 +36,7 @@ Uppsetningin samanstendur af þremur meginskrefum.
 
 ## <a name="high-level-design"></a>Hönnun á háu stigi
 
-### <a name="runtime-design"></a>Runtime hönnun
+### <a name="runtime-design"></a><a name="runtime"></a> Runtime hönnun
 
 Eftirfarandi mynd sýnir háþróaða keyrslutímahönnun skattaútreiknings. Vegna þess að hægt er að samþætta Skattaútreikning með mörgum Dynamics 365 forritum, notar myndin samþættinguna við Finance sem dæmi.
 
@@ -49,7 +49,7 @@ Eftirfarandi mynd sýnir háþróaða keyrslutímahönnun skattaútreiknings. Ve
     - Ef hægt er að passa farminn við **Gildistími vöruskattshóps** fylki, hnekkir það vöruvirðisaukaskattsflokksvirði með samsvarandi vöruskattflokksgildi í gildisreglunni. Annars heldur það áfram að nota vöruskattflokksvirði frá Finance.
 
 5. Skattútreikningsþjónustan ákvarðar endanlega skattkóða með því að nota skurðpunkta vsk-flokks og vöruvsk-flokks.
-6. Skattútreikningsþjónustan reiknar skatt út frá endanlegum skattkóðum sem hún ákvað.
+6. Skattútreikningsþjónustan reiknar út skatt, byggt á endanlegum skattkóðum sem hún ákvað.
 7. Skattútreikningsþjónustan skilar niðurstöðu skattútreiknings til Fjármálaeftirlitsins.
 
 ![Hönnun skattaútreiknings.](media/tax-calculation-runtime-logic.png)
@@ -69,7 +69,7 @@ Eftirfarandi skref veita yfirlit á háu stigi yfir stillingarferlið fyrir skat
     5. Valfrjálst: Stofna nothæfi skattaflokks ef þú vilt hnekkja sjálfgefnum söluskattsflokki sem færður er inn úr aðalgögnum viðskiptavinar eða lánardrottins.
     6. Valfrjálst: Stofna nothæfni vöruflokks ef þú vilt hnekkja sjálfgefnum vörusöluskattsflokki sem færður er inn úr stofngögnum vöru.
 
-4. Í RCS, fylltu út og birtu **Skattútreikningur** eiginleiki.
+4. Í RCS, kláraðu og birtu **Skattútreikningur** eiginleiki.
 5. Í Finance, veldu útgefið **Skattútreikningur** eiginleiki.
 
 Eftir að þú hefur lokið þessum skrefum eru eftirfarandi uppsetningar sjálfkrafa samstilltar frá RCS við Finance.
@@ -95,6 +95,14 @@ Hlutarnir sem eftir eru í þessu efni veita ítarlegri stillingarskref.
 - Kveikja þarf á eftirfarandi eiginleikum á vinnusvæðinu **Eiginleikastjórnun** fyrir uppsett RCS-umhverfi.
 
     - Altækir eiginleikar
+
+- Eftirfarandi hlutverk ættu að vera úthlutað eftir því sem við á til notenda í RCS umhverfi þínu:
+
+    - Þróunaraðili rafrænnar skýrslulausnar
+    - Þróunaraðili altæks eiginleika
+    - Framkvæmdaraðili skattkerfis
+    - Hagnýtur ráðgjafi skattkerfis
+    - Þróunaraðili skattþjónusta
 
 ## <a name="set-up-tax-calculation-in-lcs"></a>Setja upp skattaútreikning í LCS
 
@@ -203,6 +211,9 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
     | Sala            | DEU       | FRA     | DEU_EU       |
     | Sala            | BEL       | BEL     | BEL_Domestic |
     | Sala            | BEL       | FRA     | BEL_EU       |
+    
+    > [!NOTE]
+    > Ef sjálfgefinn söluskattsflokkur á skattskyldum skjalalínum þínum er réttur skaltu skilja þetta fylki eftir autt. Fyrir frekari upplýsingar, sjá [Runtime hönnun](#runtime) kafla í þessu efni.
 
 22. Í flipanum **Gildissvið skattkóða vöru** skal velja dálkana sem þarf til að finna út réttan skattkóða og síðan velja **Bæta við**. Sláðu inn eða veldu gildi fyrir hvern dálk. Reiturinn **Skattflokkur vöru** verður úttak fylkisins. Ef þessi flipi er ekki stilltur verður VSK-flokkur vöru í færslulínunni notaður.
 
@@ -212,6 +223,9 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
     | --------- | -------------- |
     | D0001     | Fullt           |
     | D0003     | Lækkað        |
+
+    > [!NOTE]
+    > Ef sjálfgefinn vörusöluskattsflokkur á skattskyldum skjalalínum þínum er réttur skaltu skilja þetta fylki eftir autt. Fyrir frekari upplýsingar, sjá [Runtime hönnun](#runtime) kafla í þessu efni.
 
     Frekari upplýsingar um hvernig skattkóðar eru ákvarðaðir í skattaútreikningi er að finna í [Rök fyrir VSK-flokk og VSK-flokk vöru](global-sales-tax-group-determination.md).
 

@@ -4,7 +4,8 @@ description: Þetta efnisatriði veitir upplýsingar um grunnstillingu á SQL Se
 author: PeterRFriis
 ms.date: 06/23/2017
 ms.topic: article
-ms.prod: ''
+ms.prod: dynamics-365
+ms.service: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -14,18 +15,18 @@ ms.search.region: Global
 ms.author: peterfriis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 3853158afdab545dacda996c984b265eb8947db7f90faf80319841eb01c14910
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16a35a8dae50cc1bc949f33de87b2beab8b528b3
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726358"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565918"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>Skilgreina SQL Server Reporting Services fyrir staðbundna uppsetningu
 
 [!include [banner](../includes/banner.md)]
 
-Notið skrefin í þessu efnisatriði til að grunnstilla SQL Server Reporting Services (SSRS) fyrir virkjun Microsoft Dynamics 365 Finance + Operations (á staðnum).
+Notaðu skrefin í þessu efni til að stilla SQL Server Reporting Services (SSRS) fyrir þig Microsoft Dynamics 365 Finance + Operations (on-premises) dreifing.
 
 1. Opnaðu grunnstillingarstjóra skýrslugerðarþjónustu.
 2. Skildu eftir sjálfgefið **Þjónsnafn**, sem ætti að vera nafn vélarinnar sem er í notkun, og **Heiti skýrsluþjónstilviks**, **MSSQLSERVER**.

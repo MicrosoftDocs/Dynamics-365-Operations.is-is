@@ -2,7 +2,7 @@
 title: Vefsíðuvalseining
 description: Þetta efni fjallar um síðuvalseininguna og lýsir því hvernig á að bæta henni við síðusíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 02/11/2022
+ms.date: 04/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 381163fdd6180a76def2e1bfb733f597b611c517
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
-ms.translationtype: HT
+ms.openlocfilehash: ad4d4d5f950d0631059d8f509e9e808a9106eb98
+ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109707"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8551695"
 ---
 # <a name="site-picker-module"></a>Vefsíðuvalseining
 
@@ -28,22 +28,17 @@ ms.locfileid: "8109707"
 
 Þetta efni fjallar um síðuvalseininguna og lýsir því hvernig á að bæta henni við síðusíður í Microsoft Dynamics 365 Commerce.
 
-Þegar fyrirtæki er með ólík svæði á mörkuðum, svæði og staðhætti þurfa notendur svæðis að skipta á milli svæða og velja æskilegt verslunarsvæði á einfaldan hátt. Til að mæta þessari atburðarás gerir vefvalseiningin notendum kleift að vafra um margar síður.
+Þegar fyrirtæki er með ólík svæði á mörkuðum, svæði og staðhætti þurfa notendur svæðis að skipta á milli svæða og velja æskilegt verslunarsvæði á einfaldan hátt. Til að mæta þessari atburðarás gerir vefvalseiningin notendum kleift að vafra um margar síður. Einnig er mælt með vefsíðuvali þegar [landfræðileg uppgötvun og tilvísun](geo-detection-redirection.md) hafa verið innleiddar fyrir netverslunarsíðuna þína, svo að viðskiptavinir hafi leið til að hnekkja síðuvalinu sem þeir gefa til kynna með því að nota [land/svæðavals](country-region-picker-module.md) mát. 
 
-Vefvalareiningin verður að vera stillt með lista yfir vefsvæði (markaðir, svæði eða staðsetningar) sem notendur vefsvæðisins geta skoðað.
-
-> [!NOTE]
-> Vefvalareiningin er fáanleg í Dynamics 365 Commerce 10.0.14 útgáfu.
-
-Eftirfarandi mynd sýnir dæmi um síðuvalseiningu sem er í haus síðusíðu.
+Vefvalareiningin verður að vera stillt með lista yfir vefsvæði (markaðir, svæði eða staðsetningar) sem notendur vefsvæðisins geta skoðað. Eftirfarandi mynd sýnir dæmi um síðuvalseiningu sem er í haus síðusíðu.
 
 ![Dæmi um síðuvalseiningu í haus síðusíðu.](./media/ecommerce-sitepicker.PNG)
 
 ## <a name="site-picker-module-properties"></a>Eiginleikar vefvalseiningar
 
-| Nafn eiginleika | Gildi                 | Lýsing |
+| Heiti eiginleika | Gildi                 | Lýsing |
 |---------------|-----------------------|-------------|
-| Haus       | Texti                  | Fyrirsögn einingarinnar. |
+| Yfirskrift       | Texti                  | Fyrirsögn einingarinnar. |
 | Vefsvæðakostir  | Nafn, mynd, URL      | Þessi eiginleiki tilgreinir heiti, tengil á heimasíðu svæðisins og valfrjálsa mynd til að sýna fyrir hvert svæði sem er tekið með í einingunni. Myndin getur verið flagg eða einhver framsetning á markaði, svæði eða staðháttum. |
 
 ## <a name="add-a-site-picker-module-to-a-page"></a>Bættu síðuvalareiningu við síðu

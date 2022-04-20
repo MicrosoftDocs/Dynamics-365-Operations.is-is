@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 50b6f306da1d32b1fd98da68bd997de1f1c23ffb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 996a8b62b59dd27691a1eaa5ed619f94e899e8cf
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570947"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570425"
 ---
 # <a name="manage-voyages"></a>Stjórna ferðum
 
@@ -66,9 +66,9 @@ Eftirfarandi tafla lýsir aðgerðunum sem eru í boði í flipanum **Stjórna**
 | Í flutningi | Uppfærið reitinn **Staða ferðar** í stöðuna í flutningi sem er að finna á síðunni **[Færibreytur heildarkostnaðar](landed-cost-parameters.md)**. Engar frekari reglur eru í þessu ferli. Einnig er hægt að uppfæra verð sjálfkrafa í stöðuna í flutningi samkvæmt stillingum í [Stjórnstöð rakningar](delivery-information-setup.md).
 | Tilbúið fyrir kostnaðarútreikning | Uppfærið reitinn **Staða ferðar** í stöðuna tilbúin fyrir kostnaðarútreikning sem er að finna á síðunni **[Færibreytur heildarkostnaðar](landed-cost-parameters.md)**. Hægt er að kostnaðarreikna ferð þegar unnið hefur verið úr öllum reikningum (bæði birgðareikningar og ferðakostnaðarreikningar) og vörurnar hafa verið mótteknar. Ef áætlaður kostnaður sem tengist ferð hefur ekki verið kostnaðarreiknaður kemur upp villa þegar reynt er að vinna úr kostnaðarútreikningi ferðar. |
 | Kostnaðarútreikningur | Hreinsið öll frávik á kostnaðarútreikningi þegar reikningur er til staðar fyrir allar innkaupapantanir og kostnað ferðar. Þegar þessi hnappur er valinn birtist svarglugginn **Uppfærsla ferðar – kostnaðarútreikningur**. Þar er hægt að velja að bóka á venjulegu fjárhagsdagsetningunni eða tilgreina bókunardagsetningu og síðan keyra aðgerðina. Hægt er að keyra aðgerðina aftur eins oft og þörf krefur. Einnig er hægt að nota svargluggann **Uppfærsla ferðar – kostnaðarútreikningur** til að setja upp áætlun til að keyra aðgerðina sem reglubundið verk (runuvinnslu). Við mælum með því að keyra aðgerðina með reglulegu millibili með því að setja hana upp sem runuvinnslu. |
-| Bóka innhreyfingalista | Bókið innhreyfingaskjal fyrir allar innkaupapöntunarlínur í ferðinni. Ef ferðir margra fyrirtækja eru notaðar opnast nýr svargluggi fyrir bókun innhreyfingalista fyrir hvert fyrirtæki og verður að vinna úr í hverjum lögaðila fyrir sig. |
-| Bóka innhreyfingarskjal afurða | Bókið innhreyfingarskjal afurðar fyrir allar innkaupapöntunarlínur í ferðinni. Ferli innhreyfingarskjals afurðar fyrir innkaupapöntunarlínurnar sem tengjast ferð verða aðeins notaðar ef vörurnar fara **ekki** í gegnum ferli fyrir vörur í flutningi. Ef vörurnar fara í gegnum ferli fyrir vörur í flutningi kemur upp villa þegar reynt er að bóka innhreyfingarskjalið fyrir innkaupapöntunarlínu. Ef ferðir margra fyrirtækja eru notaðar opnast nýr svargluggi fyrir bókun fylgiseðils fyrir hvert fyrirtæki. |
-| Bóka reikning | Bókið reikning fyrir allar innkaupapöntunarlínur í ferðinni. Ef vörurnar í ferðinni fara í gegnum vöruflutningsferlið verða innkaupapöntunarlínurnar reikningsfærðar áður en móttökuferlið klárast. Þegar upprunalega innkaupapöntunin er reikningsfærð verða pantanir fyrir vörur í flutningi sem tengjast upprunalegum innkaupapöntunarlínum stofnaðar. Vöruhúsið getur þá móttekið þessar pantanir. Ef sendir margra fyrirtækja eru notaðar opnast nýr svargluggi fyrir bókun reiknings fyrir hvert fyrirtæki. |
+| Bóka innhreyfingalista | Bókið innhreyfingaskjal fyrir allar innkaupapöntunarlínur í ferðinni.  |
+| Bóka innhreyfingarskjal afurða | Bókið innhreyfingarskjal afurðar fyrir allar innkaupapöntunarlínur í ferðinni. Ferli innhreyfingarskjals afurðar fyrir innkaupapöntunarlínurnar sem tengjast ferð verða aðeins notaðar ef vörurnar fara **ekki** í gegnum ferli fyrir vörur í flutningi. Ef vörurnar fara í gegnum ferli fyrir vörur í flutningi kemur upp villa þegar reynt er að bóka innhreyfingarskjalið fyrir innkaupapöntunarlínu.  |
+| Bóka reikning | Bókið reikning fyrir allar innkaupapöntunarlínur í ferðinni. Ef vörurnar í ferðinni fara í gegnum vöruflutningsferlið verða innkaupapöntunarlínurnar reikningsfærðar áður en móttökuferlið klárast. Þegar upprunalega innkaupapöntunin er reikningsfærð verða pantanir fyrir vörur í flutningi sem tengjast upprunalegum innkaupapöntunarlínum stofnaðar. Vöruhúsið getur þá móttekið þessar pantanir.  |
 | Senda flutningspöntun | Bókið ferð flutningspöntunar fyrir alla flutningspöntunarlínur ferðarinnar. Þegar þessi hnappur er valinn verða aðeins flutningspantanir í boði til uppfærslu. |
 | Taka á móti flutningspöntun | Bókið móttöku flutningspöntunar fyrir allar flutningspöntunarlínur ferðarinnar. |
 | Taka á móti vörum í flutningi | Takið á móti öllum pöntunarlínum sem eru í flutningi í ferðinni. Þessi hnappur er einn af þremur valmöguleikunum sem eru í boði til að taka á móti vörum í flutningi í ferð. (Hinir tveir valmöguleikarnir eru hnappurinn **Stofna komubók** sem er lýst seinna í þessari töflu og farsímaforriti Vöruhúsakerfis.) Þessi valmöguleiki er einfaldasti valkosturinn og mun afgreiða vörur í flutningi úr flutningsvöruhúsinu og inn í vöruhús áfangastaðar. Ef óskað er eftir frekari stjórn á ferlinu skal nota komubókina eða fartækið til að afgreiða móttöku á vörum. |
@@ -84,7 +84,7 @@ Eftirfarandi tafla lýsir hnöppunum sem eru í boði í flipanum **Almennt** á
 
 | Hnappur | lýsing |
 |---|---|
-| Komulisti | Opnið lista yfir innhreyfingarskjöl afurða fyrir allar innkaupapöntunarlínur í ferðinni. Ef ferðir margra fyrirtækja eru notaðar opnast nýr listi innhreyfingarskjala fyrir hvert fyrirtæki. Ef ekki hefur verið unnið úr neinum listum yfir innhreyfingarskjöl afurða verður þessi hnappur ekki í boði. |
+| Komulisti | Opnið lista yfir innhreyfingarskjöl afurða fyrir allar innkaupapöntunarlínur í ferðinni.  Ef ekki hefur verið unnið úr neinum listum yfir innhreyfingarskjöl afurða verður þessi hnappur ekki í boði. |
 | Innhreyfingarskjal afurða | Opna færslu fyrir innhreyfingarskjal afurðar fyrir innkaupapöntunarlínurnar sem tengjast ferðinni ef sú færsla er notuð. Ef engin innhreyfingarskjöl afurða hafa verið bókuð verður þessi hnappur ekki í boði. Ferli innhreyfingarskjals afurða verður ekki notað ef verið er að nota vöruflutningsferlið. |
 | Vörumóttaka | Opnið komubók vörunnar ef hún er notuð. |
 | Rakning | Opnið síðuna **Rakning á innleið** þar sem hægt er að uppfæra væntanlegan afhendingardag vara í flutningsgámi og ferð og uppfærið í kjölfarið væntanlega afhendingardaga innkaupapöntunarlína. |

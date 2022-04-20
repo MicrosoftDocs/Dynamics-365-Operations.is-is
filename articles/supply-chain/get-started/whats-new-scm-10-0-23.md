@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 83d19f92984c9f67242946aa8faf445d9d2bd881
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920201"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570479"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.23 (janúar 2022)
 
@@ -57,7 +57,7 @@ Ef á að kveikja eða slökkva á einhverjum af þessum eiginleikum þarf að g
 | Innkaup og aðföng | Hreinsa uppfærsluferil innkaupapöntunar | Þessi eiginleiki gerir þér kleift að hreinsa upp tímabundnar eldri færslur sem tengjast uppfærslum innkaupapöntunar. Hann bætir nýjum hnappi sem kallast **Hreinsa uppfærsluferil innkaupa** við aðgerðasvæðið á síðunni **Allar innkaupapantanir**. Þessi eiginleiki er sjálfgefið virkur. |
 | Framleiðslustýring | (Forskoðun) Sjálfvirk tiltekt á efni sem virkjað er af vöruhúsi fyrir tiltektarlista sem bókaðir eru sjálfvirkt | Þessi eiginleiki býður upp á sjálfvirka tiltekt og leysa úr birgðavíddum fyrir sjálfvirka bókun á afleiddum og bakfærðum færslubókum tiltektarlista. |
 | Framleiðslustýring | Sannprófa fyrningu hráefna á móti áætluðum notkunardegi | Þessi eiginleiki breytir því hvernig lokadagsetningar eru sannprófaðar þegar tekin er frá runa af hráefni til að nota við framleiðslu. Þegar þessi eiginleiki er virkjaður er lokadagsetning runu sannprófuð gagnvart áætluðum notkunardegi (dagsetningu hráefnis) eins og kemur fram í línu framleiðsluuppskriftar eða formúlulínu runupöntunar. Þegar slökkt er á þessum eiginleika er lokadagsetning runu sannprófuð gagnvart áætluðum afhendingardegi framleiðslu- eða runupöntunar (eins og áður). |
-| Sala og markaðsstarf | Hreinsa uppfærsluferil sölu eftir aldri | Þessi eiginleiki gerir þér kleift að stilla hámarksaldur skráa til að halda þegar þú keyrir **Hreinsun söluuppfærslusögu** reglubundið verkefni. Eldri skrám verður eytt. Þetta er gagnlegt þegar þú stillir verkið til að keyra reglulega vegna þess að aldurinn er alltaf reiknaður miðað við dagsetninguna sem verkefnið er keyrt. Án þessa eiginleika geturðu aðeins stillt ákveðna dagsetningu fyrir elstu skrárnar til að halda. |
+| Sala og markaðsstarf | Hreinsa uppfærsluferil sölu eftir aldri | Þessi eiginleiki gerir þér kleift að stilla hámarksaldur skráa til að halda þegar þú keyrir **Hreinsun söluuppfærslusögu** reglubundið verkefni. Eldri skrám verður eytt. Þetta er gagnlegt þegar þú stillir verkið til að keyra reglulega vegna þess að aldurinn er alltaf reiknaður miðað við dagsetninguna sem verkefnið er keyrt. Án þessa eiginleika geturðu aðeins stillt ákveðna dagsetningu fyrir elstu skrárnar til að halda. Fyrir frekari upplýsingar, sjá [Tímasettu hreinsun sölusögugagna](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Sala og markaðsstarf | Bæta afköst viðskiptavinaskýrslunnar „100 stærstu“ | Þessi eiginleiki bætir afköst viðskiptavinaskýrslunnar **100 stærstu** með því að keyra skýrsluna alltaf fyrir alla viðskiptavini (sem er fyrirhuguð notkun hennar) frekar en með því að leyfa sérsniðnar fyrirspurnir. Þegar þessi eiginleiki er virkjaður eru allar stillingar **Færslur til að taka með** gerðar óvirkar í skýrsluglugganum **100 stærstu**. |
 | Vöruhúsakerfi | Stuðningur kvörðunareiningar fyrir losun í vöruhús á pöntunum á útleið | Þegar eiginleikinn er virkjaður er hægt að losa pantanir á útleið beint úr miðstöð í kvörðunareiningu þar sem pantanirnar verða uppfylltar. |
 
@@ -79,9 +79,9 @@ Nýlega hefur eftirfarandi hjálparatriðum verið bætt við eða þau uppfær�
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir forrit Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir Finance and Operations öpp
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.23 inniheldur verkvangsuppfærslur. Frekari upplýsingar má finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.23 í Finance and Operations-forritum (nóvember 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.23 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.23 af Finance and Operations forritum (nóvember 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 

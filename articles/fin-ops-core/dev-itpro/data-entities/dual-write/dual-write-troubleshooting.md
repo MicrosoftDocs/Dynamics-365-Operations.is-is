@@ -2,19 +2,19 @@
 title: Almenn úrræðaleit
 description: Þetta efnisatriði veitir almennar upplýsingar um úrræðaleit fyrir tvískrifa samþættingu milli Finance and Operations forrita og Dataverse.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 04/07/2020
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
+ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062339"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8554600"
 ---
 # <a name="general-troubleshooting"></a>Almenn úrræðaleit
 
@@ -29,20 +29,31 @@ ms.locfileid: "8062339"
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Virkið og skoðið rakningarkladda viðbóta í Dataverse til að skoða upplýsingar um villu
 
+Rekjaskrár geta verið gagnlegar þegar bilanaleit eru tvískrifuð samstillingarvandamál milli Finance & Operations og Dataverse. Logarnir geta veitt sérstakar upplýsingar til teymanna sem veita tæknilega og verkfræðilega aðstoð fyrir Dynamics 365. Þessi grein fjallar um hvernig á að virkja rekja annála og hvernig á að skoða þá. Rekjaskrám er stjórnað á Dynamics 365 Stillingar síðunni og krefjast réttindi stjórnanda stigs til að breyta og skoða. 
+
 **Nauðsynlegt hlutverk til að kveikja á rakningarkladda og skoða villur:** Kerfisstjóri
 
+### <a name="turn-on-the-trace-log"></a>Kveiktu á rekjaskránni
 Fylgdu þessum skrefum til að kveikja á rakningarkladda.
 
-1. Skráðu þig inn í forrit viðskiptavinar, opnaðu síðuna **Stillingar** og undir **Kerfi** velurðu **Stjórnun**.
-2. Á síðunni **Stjórnun** skal velja **Kerfisstillingar**.
-3. Á flipanum **Sérsnið**, í dálkinum **Viðbót og sérsniðnar rakningaraðgerðir verkflæðis**, velurðu **Allt** til að virkja rakningarkladda viðbótar. Ef þú vilt skrá rakningarkladda aðeins þegar undantekningar eiga sér stað, geturðu valið **Undantekning** í staðinn.
+1.  Skráðu þig inn á Dynamics 365 og veldu síðan **Stillingar** í efstu yfirlitsstikunni. Á Systems síðunni, smelltu **Stjórnsýsla**.
+2.  Á Stjórnunarsíðunni smellirðu á **Kerfisstillingar**.
+3.  Veldu **Sérsniðin** flipa og viðbót, og síðan í hlutanum fyrir sérsniðna vinnuflæðisvirkni breytið fellilistanum í **Allt**. Þetta mun rekja alla starfsemi og veita alhliða gagnasett fyrir teymin sem verða að fara yfir hugsanleg vandamál.
 
+> [!NOTE]
+> Stillir fellilistann á **Undantekning** mun aðeins veita rakningarupplýsingar þegar undantekningar (villur) eiga sér stað.
 
+Þegar kveikt hefur verið á þeim verður áfram safnað rekja annálum þar til þeim er slökkt handvirkt með því að fara aftur á þennan stað og velja **Af**.
+
+### <a name="view-the-trace-log"></a>Skoðaðu rekjaskrána
 Fylgdu þessum skrefum til að skoða rakningarkladdann.
 
-1. Skráðu þig inn í forrit viðskiptavinar, opnaðu síðuna **Stillingar** og undir **Sérstilling** velurðu **Viðbót rakningarkladda**.
-2. Findu rakningarkladda þar sem dálkurinn **Heiti gerðar** er stilltur á **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
-3. Tvísmelltu á hlut til að skoða alla skrána og síðan á flýtiflipanum **Framkvæmd**, skoðarðu textann **Skilaboðablokk**.
+1. Á Dynamics 365 Settings síðunni velurðu **Stillingar** í efstu yfirlitsstikunni. 
+2. Veldu **Viðbót Rekja Log** í **Sérstillingar** hluta síðunnar.
+3. Þú getur fundið færslur í listanum yfir rekjaskrár, byggt á tegundarheiti og/eða heiti skilaboða.
+4. Opnaðu viðkomandi færslu til að skoða heildarskrána. Skilaboðablokkin í framkvæmd hlutanum mun veita tiltækar upplýsingar um viðbótina. Ef þær eru tiltækar verða upplýsingar um undantekningar einnig veittar. 
+
+Þú getur afritað innihald rakningarskránna og límt það inn í annað forrit eins og Notepad eða önnur verkfæri til að skoða annála eða textaskrár til að sjá allt innihald á auðveldan hátt. 
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Virkjaðu villuleitarstillingu til að leysa vandamál í beinni samstillingu í Finance and Operations forritum
 
@@ -70,11 +81,39 @@ Tvöfalt skrif villur sem eiga uppruna sinn í Dataverse getur birst í Finance 
 6. Veldu **Forrit og þjónustukladdar \> Microsoft \> Dynamics \> AX -DualWriteSync \> Virkt**.
 7. Farðu yfir listann yfir nýlegar villur.
 
+## <a name="dual-write-ui-landing-page-showing-blank"></a>Tvöfalt skrifa UI áfangasíða sem sýnir auð
+Þegar þú opnar tvískrifa síðuna í Microsoft Edge eða Google Chrome vafra, heimasíðan hleðst ekki og þú sérð auða síðu eða villu eins og „Eitthvað fór úrskeiðis“.
+Í Devtools sérðu villu í stjórnborðsskránum:
+
+>bundle.eed39124e62c58ef34d2.js:37 DOMException: Mistókst að lesa 'sessionStorage' eignina úr 'Window': Aðgangi er hafnað fyrir þetta skjal. á t.storeInSessionStorage (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:16:136860) á nýju t (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:69:20103) á ci (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:44115) hjá Eo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:58728) hjá jo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:65191) á Nr (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:84692) á Eða (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:85076) hjá Ss (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91750) á vs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91130) á hs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:90151)
+
+Notendaviðmótið notar „lotugeymslu“ vafra til að geyma nokkur eignagildi til að hlaða heimasíðunni. Til að þetta virki þurfa vafrakökur frá þriðja aðila að vera leyfðar í vafra síðunnar. Villan er til marks um að notendaviðmótið hafi ekki aðgang að lotugeymslunni. Það geta verið tvær aðstæður þar sem þetta vandamál kemur upp:
+
+1.  Þú ert að opna notendaviðmótið í huliðsstillingu Edge/Chrome og þriðju aðila kökur í huliðsstillingu eru læstar.
+2.  Þú hefur algjörlega lokað á vafrakökur þriðja aðila í Edge/Chrome.
+
+### <a name="mitigation"></a>Mildun
+Vefkökur þriðju aðila þurfa að vera leyfðar í stillingum vafra.
+
+### <a name="google-chrome-browser"></a>Google Chrome vafri
+1. valkostur:
+1.  Farðu í stillingar með því að slá inn chrome://settings/ í veffangastikunni og farðu síðan í Privacy and Security -> Cookies and other site data.
+2.  Veldu 'Leyfa allar vafrakökur'. Ef þú vilt ekki gera þetta skaltu fara í seinni valkostinn.
+
+2. kostur:
+1.  Farðu í stillingar með því að slá inn chrome://settings/ í veffangastikunni og farðu síðan í Privacy and Security -> Cookies and other site data.
+2.  Ef 'Loka á vafrakökur frá þriðja aðila í huliðsstillingu' eða 'Loka á vafrakökur frá þriðja aðila' er valið skaltu fara í 'Síður sem geta alltaf notað vafrakökur' og smellt á **Bæta við**. 
+3.  Bættu við heiti vefsvæðis þíns fyrir fjármála- og rekstrarappa -https://<your_FinOp_instance>.cloudax.dynamics.com. Gakktu úr skugga um að þú veljir gátreitinn fyrir "Allar vafrakökur, aðeins á þessari síðu". 
+
+### <a name="microsoft-edge-browser"></a>Microsoft Edge vafra
+1.  Farðu í Stillingar -> Heimildir vefsvæðis -> Vafrakökur og vefgögn.
+2.  Slökktu á „Loka á kökur frá þriðja aðila“.  
+
 ## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Aftengdu og tengdu annað Dataverse umhverfi frá Finance and Operations app
 
 **Áskilið hlutverk til að aftengja umhverfið:** Kerfisstjóri fyrir annað hvort Finance and Operations app eða Dataverse.
 
-1. Skráðu þig inn á Finance and Operations appið.
+1. Skráðu þig inn í Finance and Operations appið.
 2. Farðu í **Vinnusvæði \> Gagnastjórnun** og veldu reitinn **Tvöfalt skrif**.
 3. Veldu allar keyrandi kortlagningar og veldu síðan **Hætta**.
 4. Veldu **Aftengja umhverfi**.
@@ -97,14 +136,14 @@ Fylgdu þessum skrefum til að gera virkja valkostinn **Upplýsingar** aftur:
 
 Þjónustudeildin gæti þurft að fara yfir netrakningar til að  úrræðaleita sum vandamál. Til að búa til netrakningu skal fylgja þessum skrefum:
 
-### <a name="chrome"></a>Chrome
+### <a name="google-chrome-browser"></a>Google Chrome vafri
 
 1. Í opna flipanum skal ýta á **F12** eða velja **Verkfæri þróunaraðila** til að opna verkfæri þróunaraðila.
 2. Opnaðu flipann **Netkerfi** og sláðu inn **integ** í textasíureitinn.
 3. Keyrðu aðstæðurnar og fylgstu með beiðnunum sem eru skráðar inn.
 4. Hægrismelltu á færslurnar og veldu **Vista allt sem HAR með efni**.
 
-### <a name="microsoft-edge"></a>Microsoft Edge
+### <a name="microsoft-edge-browser"></a>Microsoft Edge vafra
 
 1. Í opna flipanum skal ýta á **F12** eða velja **Verkfæri þróunaraðila** til að opna verkfæri þróunaraðila.
 2. Opnaðu flipann **Netkerfi**.

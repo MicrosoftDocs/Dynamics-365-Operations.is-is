@@ -1,6 +1,6 @@
 ---
 title: Setja upp VSK-kóða
-description: Í þessu efnisatriði er útskýrt hvernig á að setja upp virðisaukaskatt í Dynamics 365 Finance.
+description: Þetta efnisatriði útskýrir hvernig á að setja upp VSK-kóða í Dynamics 365 Finance.
 author: twheeloc
 ms.date: 09/27/2021
 ms.topic: business-process
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable, TaxData
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2539d701dda4ef5e1484d095b2d86d1f68a0dc98
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 69e2cf9a16fe0e694154cccf9b49944b49c79b90
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562103"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565854"
 ---
 # <a name="set-up-sales-tax-codes"></a>Setja upp VSK-kóða
 
@@ -45,7 +45,7 @@ ms.locfileid: "7562103"
 12. Lokið síðunni.
 13. Veldu **Vista**.
 
-Frá og með útgáfu 10.0.22 af Microsoft Dynamics 365 Finance, ef þú ert að nota [Skattþjónustu](../../localizations/global-tax-calcuation-service-overview.md), og eiginleikinn [**Styðja mörg VSK-skráningarnúmer**](../../localizations/emea-multiple-vat-registration-numbers.md) er virkjaður á vinnusvæði **Eiginleikastjórnunar**, getur þú notað reitinn **Skattagerð** til að tilgreina gerð skattkóðans. Eftirtalin gildi eru tiltæk:
+Frá Microsoft Dynamics 365 Finance útgáfa 10.0.22, ef þú ert að nota [Skattaþjónusta](../../localizations/global-tax-calcuation-service-overview.md), og [**Styðja mörg VSK skráningarnúmer**](../../localizations/emea-multiple-vat-registration-numbers.md) eiginleiki er virkur í **Eiginleikastjórnun** vinnusvæði, sem þú getur notað **Tegund skatts** reit til að tilgreina tegund skattkóða. Eftirtalin gildi eru tiltæk:
 
 - Hefðbundinn VSK-skattur
 - Skertur virðisaukaskattur
