@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: Verkvangsuppfærslur fyrir útgáfu 10.0.25 (apríl 2022)
                   href: get-started/whats-new-platform-updates-10-0-25.md
-                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.24 (febrúar 2022)
-                  href: get-started/whats-new-platform-updates-10-0-24.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -396,6 +394,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Skilgreina staðgengla fyrir innanhússumhverfi
                       href: deployment/onprem-reverseproxy.md
+                    - name: Setja upp nettengda prentara á staðnum
+                      href: analytics/install-network-printer-onprem.md
                     - name: Greining á staðnum
                       href: deployment/on-premises-diagnostics.md
                     - name: Skilgreining endurheimtar eftir stóráfall á staðnum
@@ -496,6 +496,8 @@
                   href: dev-tools/configure-developer-vm.md
                 - name: Algengar spurningar um þróun og smíði sýndarvéla sem heimila ekki stjórnandaaðgang
                   href: sysadmin/VMs-no-admin-access.md
+                - name: Setja upp VHD sem hægt er að hlaða niður fyrir fyrstu notkun
+                  href: dev-tools/vhd-setup.md
                 - name: Endurnefna staðbundið umhverfi til að fá aðgang að Azure DevOps
                   href: migration-upgrade/vso-machine-renaming.md
                 - name: Þróunarkerfiskröfur
@@ -1028,6 +1030,8 @@
                   href: lifecycle-services/use-translation-service-tm.md
                 - name: Azure DevOps-viðbót (opin forútgáfa)
                   href: lifecycle-services/dts-devops-extension.md
+                - name: Leiðsögn fyrir Azure DevOps-viðbót (opin forútgáfa)
+                  href: lifecycle-services/dts-ado-tutorial.md
         - name: Samþætting Microsoft Power Platform
           items:
             - name: Yfirlit
@@ -1506,6 +1510,8 @@
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: Keyra Regression Suite Automation Tool (RSAT) með samhliða keyrslu
               href: perf-test/rsat/rsat-parallel-execution.md
+            - name: Samþætta RSAT við Azure DevOps-sölukeðjur
+              href: perf-test/rsat/rsat-devops-extension.md
             - name: Úrræðaleit
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Gefa út lausnir með Lifecycle Services

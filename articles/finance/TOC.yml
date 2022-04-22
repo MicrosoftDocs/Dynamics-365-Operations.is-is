@@ -2,11 +2,11 @@
   items:
     - name: Dynamics 365 Finance
       items:
-        - name: Dynamics 365 Finance upphafssíða
+        - name: Heimasíða Dynamics 365 Finance
           href: index.md
         - name: Nýjungar eða breytingar
           items:
-            - name: Nýjungar eða breytingar í fjármála-og rekstrarforritum
+            - name: Nýjungar eða breytingar í fjármála- og rekstrarforritum
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Nýjungar eða breytingar í Finance
               items:
@@ -16,8 +16,6 @@
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (apríl)
                   href: get-started/whats-new-changed-10-0-25.md
-                - name: Finance 10.0.24 (febrúar)
-                  href: get-started/whats-new-changed-10-0-24.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -172,7 +170,7 @@
               items:
                 - name: Heimasíða stjórnunar innleiðingarferlis
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/finance/toc.json
-                - name: Hönnun fyrir forrit Finance and Operations
+                - name: Hönnun fyrir fjármála- og rekstrarforrit
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Microsoft FastTrack
                   href: /dynamics365/fasttrack/index
@@ -414,18 +412,34 @@
                   href: accounts-receivable/subscription-billing-summary.md
                 - name: Endurteknar samningsgreiðslur
                   items:
-                    - name: Búa til greiðsluáætlun
+                    - name: Stofna greiðsluáætlun
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Afrita greiðsluáætlun
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Eiginleikar greiðsluáætlunar
+                      href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Útskrift samkvæmt þáttaskilum
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Þjónustu- og endurnýjunarferli
+                      href: accounts-receivable/sb-support-renewals.md
+                    - name: Áætlanir um vísitölu neysluverðs
+                      href: accounts-receivable/cpischedules.md
                     - name: Rifta greiðsluáætlunum
                       href: accounts-receivable/terminate-billing-schedule.md
                 - name: Tekju- og kostnaðarfrestanir
-                  items: null
+                  items:
+                    - name: Setja upp tekju- og kostnaðarfrestanir
+                      href: accounts-receivable/sb-deferrals.md
+                    - name: Frestunaráætlanir
+                      items:
+                        - name: Stofna frestunaráætlanir
+                          href: accounts-receivable/sb-deferrals-schedules.md
+                        - name: Sjálfgefnar frestunarfærslur
+                          href: accounts-receivable/sb-deferral-transactions.md
                 - name: Margþátta tekjuúthlutun
-                  items: null
+                  items:
+                    - name: Setja upp margþátta tekjuúthlutun
+                      href: accounts-receivable/sb-rev-alloc-setup.md
             - name: Greiðslur og uppgjör
               items:
                 - name: Greiðsluyfirlit viðskiptavina
@@ -922,6 +936,8 @@
               items:
                 - name: Yfirlit yfir bókhaldslykil
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: Skipuleggja staðbundna bókhaldslykla
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: Aðallyklar
                   items:
                     - name: Aðallykilgerðir
@@ -2288,7 +2304,7 @@
                       href: localizations/emea-fra-fec-audit-file-structure.md
                     - name: Undirbúðu umhverfið þitt til að búa til FEC
                       href: localizations/emea-fra-fec-audit-file-setup.md
-                    - name: Mynda FEC í Dynamics 365 Finance
+                    - name: Búa til FEC í Dynamics 365 Finance
                       href: localizations/emea-fra-fec-audit-file-generation.md
                 - name: Lyklayfirlit viðskiptavina og lánardrottna
                   href: localizations/tasks/fr-00002-customer-vendor-account-statements.md
@@ -3092,6 +3108,8 @@
                   href: localizations/tasks/mx-00010-cancel-electronic-invoice.md
                 - name: CFDI útgáfa 3.3
                   href: localizations/latam-mex-cfdi-3-3.md
+                - name: CFDI útgáfa 4.0
+                  href: localizations/latam-mex-cfdi-4-0.md
                 - name: Skráningarkenni viðskiptavinar og aðrar upplýsingar
                   href: localizations/tasks/mx-00007-customer-registration-ids-other-information.md
                 - name: DIOT-yfirlýsing

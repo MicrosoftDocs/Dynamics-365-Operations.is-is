@@ -1,6 +1,6 @@
 ---
 title: Hið opinbera – heimasíða
-description: Dynamics 365 Finance styður sameiginlegt viðskiptaferli fyrir opinbera geirann. Meðal þessara ferla eru verk fjárhagsáætlanagerðar, innkaupa, viðskiptaskulda og viðskiptakrafna.
+description: Dynamics 365 Finance styður sameiginleg viðskiptaferli fyrir hið opinbera. Meðal þessara ferla eru verk fjárhagsáætlanagerðar, innkaupa, viðskiptaskulda og viðskiptakrafna.
 author: v-kiarnd
 ms.date: 06/20/2017
 ms.topic: index-page
@@ -8,22 +8,22 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "20691"
 - intro-internal
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
 ms.search.region: Global
 ms.search.industry: Public sector
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f59522ab857445d69012f4cfdfade47c40189266
-ms.sourcegitcommit: 52a6b038d42ab28092bb942c61f5196330db3a7b
+ms.openlocfilehash: 5d190329b46a235625493cd04b405f74768fc52f
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7817742"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565820"
 ---
 # <a name="public-sector-home-page"></a>Hið opinbera – heimasíða
 
