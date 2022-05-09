@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a02767e4a90fa6b7414c796d66e758afe0501cf5
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
-ms.translationtype: MT
+ms.openlocfilehash: d2fcc883cc87f785cad2e5f7efbf67888ca38d10
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388496"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644671"
 ---
 # <a name="tax-calculation-overview"></a>Yfirlit skattaútreiknings
 
@@ -27,7 +27,7 @@ ms.locfileid: "8388496"
 
 Skattaútreikningur er þjónusta með stillanlegri þjónustu fyrir marga notendur sem gerir altæku skattkerfi kleift að einfalda skattaákvörðun og útreikning og gera það sjálfvirkt. Skattvélin er fullkomlega stillanleg. Einingarnar sem hægt er að stilla fela í sér, en takmarkast ekki við, skattalega gagnalíkansins, skattkóða, fylkisins fyrir skattskyldu og formúlu skattútreiknings. Skattkerfið keyrir á Microsoft Azure verkvangi og býður upp á nútímatækni og sveigjanleika.
 
-Skattútreikningur er samþættur við Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Að lokum verður hún einnig samþætt við Dynamics 365 Project Operations, Dynamics 365 Commerce og önnur forrit frá fyrstu og þriðju aðilum.
+Skattaútreikningur er samþættur Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Að lokum verður hún einnig samþætt við Dynamics 365 Project Operations, Dynamics 365 Commerce og önnur forrit frá fyrstu og þriðju aðilum.
 
 > [!IMPORTANT]
 > Þegar skattaútreikningur er virkjaður gætu sumar aðgerðir á tengdum gögnum verið framkvæmdar í gagnamiðstöð annarri en gagnamiðstöðinni sem heldur utan um þjónustugögnin. Yfirfarið [Skilmálana](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) áður en skattaútreikningur er virkjaður. Persónuvernd þín er okkur mikilvæg. Frekari upplýsingar má finna í [tilkynningu okkar um persónuvernd](https://go.microsoft.com/fwlink/?LinkId=521839).
@@ -79,6 +79,7 @@ Við mælum með því að þú flytur inn og stillir upp skattaútreikninginn �
 | 10.0.24         | Skattaútreikningsstilling 40.50.225 |
 | 10.0.25         | Skattaútreikningsstilling 40.50.225 |
 | 10.0.26         | Skattaútreikningsstilling 40.54.234 |
+| 10.0.27         | Skattaútreikningsstilling 40.54.234 |
 
 
 ## <a name="data-flow"></a>Gagnaflæði

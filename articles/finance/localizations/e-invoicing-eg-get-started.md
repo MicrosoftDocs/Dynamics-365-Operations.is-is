@@ -1,6 +1,6 @@
 ---
 title: Rafræn reikningur fyrir Egyptaland
-description: Þetta efni veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Egyptaland í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
+description: Þetta efni veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Egyptaland í Microsoft Dynamics 365 Fjármál og Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fe1dd4254db8b390c17558320a6eaff2b0dcd19
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371357"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661723"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>Rafræn reikningur fyrir Egyptaland
 
@@ -32,17 +32,17 @@ ms.locfileid: "8371357"
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en þú byrjar aðgerðir í þessu efni skaltu ljúka eftirfarandi forkröfum:
+Áður en þú byrjar aðgerðir í þessu efni skaltu ljúka eftirfarandi forsendum:
 
 - Kynntu þér rafræna reikningagerð eins og henni er lýst í [Yfirlit rafrænna reikninga](e-invoicing-service-overview.md).
 - Skráðu þig í RCS og settu upp rafræna reikninga. Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 
     - [Skráðu þig í og settu upp rafræna reikningaþjónustu](e-invoicing-sign-up-install.md)
-    - [Settu upp Azure tilföng fyrir rafræna reikningagerð](e-invoicing-set-up-azure-resources.md)
-    - [Setja upp innbótina fyrir microservices í Lifecycle Services](e-invoicing-install-add-in-microservices-lcs.md)
+    - [Setja upp Azure-tilföng fyrir rafrænar reikningsfærslur](e-invoicing-set-up-azure-resources.md)
+    - [Setja upp viðbót smáþjónustu í Lifecycle Services](e-invoicing-install-add-in-microservices-lcs.md)
     
-- Virkjaðu samþættingu milli Microsoft þinnar Dynamics 365 Finance eða Dynamics 365 Supply Chain Management umsókn og rafræna reikningsþjónustu eins og lýst er í [Virkjaðu og settu upp samþættingu við rafræna reikningagerð](e-invoicing-activate-setup-integration.md).
-- Búðu til stafrænt vottorðsleyndarmál í Azure Key Vault og settu það upp eins og lýst er í [Viðskiptavinavottorð og leyndarmál](e-invoicing-customer-certificates-secrets.md). Í prófunartilgangi veita egypsk skattyfirvöld ákveðnar prufur af stafrænum vottorðum sem þarf aðeins að nota við prófun og staðfestingu lausnar. Fyrir frekari upplýsingar, farðu á vefsíðu egypska skattyfirvalda með því að nota hlekkinn sem er að finna í [Egyptian e-invoicing SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+- Virkjaðu samþættingu milli þín Microsoft Dynamics 365 Fjármál eða Dynamics 365 Supply Chain Management umsókn og rafræna reikningsþjónustu eins og lýst er í [Virkjaðu og settu upp samþættingu við rafræna reikningagerð](e-invoicing-activate-setup-integration.md).
+- Búðu til stafrænt vottorðsleyndarmál í Azure Key Vault og settu það upp eins og lýst er í [Viðskiptavinavottorð og leyndarmál](e-invoicing-customer-certificates-secrets.md). Í prófunartilgangi veita egypsk skattyfirvöld ákveðnar prufur af stafrænum vottorðum sem þarf aðeins að nota við prófun og staðfestingu lausnar. Fyrir frekari upplýsingar, farðu á vefsíðu egypsku skattyfirvalda með því að nota hlekkinn sem er að finna í [Egyptian e-invoicing SDK](https://sdk.invoicing.eta.gov.eg/faq/).
 
 ## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-feature"></a>Landssértæk uppsetning fyrir egypska rafræna reikninginn (EG) eiginleikann
 
@@ -56,7 +56,7 @@ Sumir af breytum frá **Egypskur rafrænn reikningur (EG)** eiginleikar rafrænn
 6. Á **Vinnsluleiðsla** flipa, í **Vinnsluleiðsla** kafla, veldu **Skrifaðu undir json skjal fyrir egypska skattayfirvöld**.
 7. Í **Færibreytur** kafla, veldu **Nafn skírteinis**, og veldu síðan nafn stafræna vottorðsins sem þú bjóst til.
 8. Í **Vinnsluleiðsla** kafla, veldu **Samþætta egypska ETA þjónustu**. Endurtakið þetta skref fyrir tvö tilvik þessarar aðgerðar.
-9. Í **Færibreytur** kafla, veldu **Vefslóð vefþjónustu** og **Slóð innskráningarþjónustu**. Skoðaðu síðan vefslóðarfæribreyturnar. Til að fá prófunar- og framleiðsluslóðina skaltu fara á vefsíðu egypska skattyfirvalda með því að nota hlekkinn sem er að finna í [Egyptian e-invoicing SDK](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+9. Í **Færibreytur** kafla, veldu **Vefslóð vefþjónustu** og **Slóð innskráningarþjónustu**. Skoðaðu síðan vefslóðarfæribreyturnar. Til að fá prófunar- og framleiðsluslóðina skaltu fara á vefsíðu egypska skattyfirvalda með því að nota hlekkinn sem er að finna í [Egyptian e-invoicing SDK](https://sdk.invoicing.eta.gov.eg/faq/).
 10. Veljið **Vista** og lokið skjámyndinni.
 11. Endurtaktu skref 4 til 10 fyrir **Verkefnareikningur fenginn** uppsetningu eiginleika.
 

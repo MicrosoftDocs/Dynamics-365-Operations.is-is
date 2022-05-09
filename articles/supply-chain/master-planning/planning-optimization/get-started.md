@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: faaa2aa921457a3d26c2a921a856a61296192a04
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: a08128f9529e576294181bd70134b02caae54b90
+ms.sourcegitcommit: 5130446fd5327595b2d67e67cbd1b5661bb2983c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469814"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8648710"
 ---
 # <a name="get-started-with-planning-optimization"></a>Hafist handa með fínstillingu áætlanagerðar
 
@@ -40,7 +40,7 @@ Sem stendur styður virknin fyrir fínstillingu skipulagningar ekki alla eiginle
 
 ## <a name="availability"></a>Til ráðstöfunar
 
-Hagræðing áætlanagerðar er eins og er fáanleg í eftirfarandi Azure landsvæðum: Bandaríkjunum, Kanada, Evrópu, Bretlandi, Ástralíu, Kyrrahafi Asíu, Japan og Indlandi. Ef reynt er að setja upp innbæturnar á öðru svæði birtir LCS skilaboð um að svæðið sé ekki stutt. Fyrir frekari upplýsingar um Azure landsvæði og tengd svæði, sjá [Azure landsvæði](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Hagræðing áætlanagerðar er eins og er í boði í eftirfarandi Azure landsvæðum: Bandaríkjunum, Kanada, Brasilíu, Evrópu, Bretlandi, Ástralíu, Kyrrahafi Asíu, Japan og Indlandi. Ef reynt er að setja upp innbæturnar á öðru svæði birtir LCS skilaboð um að svæðið sé ekki stutt. Fyrir frekari upplýsingar um Azure landsvæði og tengd svæði, sjá [Azure landsvæði](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Athugið að fínstilling áætlanagerðar styður ekki uppsetningu á staðnum á Dynamics 365 Supply Chain Management.
 

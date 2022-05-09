@@ -2,19 +2,19 @@
 title: Endurbætur á virkni yfirlitsbókunar
 description: Þetta efnisatriði lýsir endurbótum sem hafa verið gerðar á bókun uppgjörs eiginleikanum.
 author: analpert
-ms.date: 01/31/2022
+ms.date: 04/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: d7c7c330695cbcd18a44db5b3f4e28411d8de4f3
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462551"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649020"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Endurbætur á virkni yfirlitsbókunar
 
@@ -51,25 +51,6 @@ Sem hluti af endurbótum á eiginleikanum fyrir bókun uppgjörs hafa þrjár n�
 
 > [!NOTE]
 > Frá og með útgáfu Commerce útgáfu 10.0.14, þegar **Smásöluyfirlit - Trickle feed** eiginleiki er virkur, the **Settu inn birgðahald** runuvinna á ekki lengur við og ekki hægt að keyra hana.
-
-Auk þess hafa eftirfarandi færibreytur verið kynntar til sögunnar í flýtiflipanum **Runuvinnsla** í flipanum **Bókun** á síðunni **Færibreytur Commerce**: 
-
-- **Hámarksfjöldi samhliða uppgjörsbókana** - Þessi reitur skilgreinir fjölda runuverka sem verða notuð til að bóka mörg uppgjör. 
-- **Hámarksfjöldi þráða fyrir úrvinnslu pöntunar á hvert yfirlit** - Þessi reitur sýnir hámarksfjölda þráða sem runuvinnsla uppgjörsbókunar notar til að stofna og reikningsfæra sölupantanir fyrir eitt uppgjör. Hámarksfjöldi þráða sem bókunarferli uppgjörs notar verður reiknaður út samkvæmt gildinu í þessari færibreytu margfaldað með gildinu í færibreytunni **Hámarksfjöldi samhliða uppgjörsbókana**. Ef gildið á þessari færibreytu er stillt of hátt getur það haft neikvæð áhrif á afköst bókunarferlis uppgjörs.
-- **Hámarksfjöldi færslulína í uppsöfnun** - Þessi reitur skilgreinir fjölda færslulína sem verða með í einni uppsafnaðri færslu áður en ný er búin til. Uppsafnaðar færslur eru stofnaðar á grunni ólíkra skilyrða uppsöfnunar, t.d. viðskiptavinur, viðskiptadagur eða fjárhagsvídd. Mikilvægt er að hafa í huga að línunum í stakri færslu verður ekki skipt niður milli mismunandi uppsafnaðra færsla. Þetta þýðir að það er möguleiki á því að fjöldi lína í samanlagðri færslu sé aðeins hærri eða lægri miðað við þætti eins og fjölda aðskildra vara.
-- **Hámarksfjöldi þráða til að villuleita í færslum verslunar** - Þessi reitur skilgreinir fjölda þráða sem verður notaður til að villuleita færslur. Villuleit á færslum er nauðsynlegt skref sem þarf að gerast áður en hægt er að færa færslurnar inn í uppgjörin. Einnig þarf að skilgreina **Gjafakortsvöru** í flýtiflipanum **Gjafakort** í flipanum **Bókun** á síðunni **Færibreytur Commerce**. Þetta þarf að skilgreina, jafnvel þótt fyrirtækið noti ekki gjafakort.
-
-Eftirfarandi tafla sýnir ráðlögð gildi fyrir fyrri færibreytur. Þessi gildi ættu að vera prófuð og sníða að uppsetningu dreifingar og tiltækra innviða. Öll hækkun á ráðlögðum gildum getur haft slæm áhrif á aðra lotuvinnslu og ætti að staðfesta hana.
-
-| Færibreyta | Ráðlagt gildi | Upplýsingar |
-|-----------|-------------------|---------|
-| Hámarksfjöldi samhliða yfirlitsbókana | <p>Stilltu þessa færibreytu á fjölda runuverkefna sem eru tiltæk fyrir runuhópinn sem keyrir **Yfirlýsing** starf.</p><p>**Almenn regla:** Margfaldaðu fjölda sýndarmiðlara (AOS) með fjölda lotuverkefna sem eru tiltæk fyrir hvern AOS sýndarþjón.</p> | Þessi færibreyta á ekki við þegar **Smásöluyfirlit - Trickle feed** eiginleiki er virkur. |
-| Hámarksfjöldi þráða fyrir úrvinnslu pöntunar á hvert yfirlit | Byrjaðu að prófa gildi kl **4**. Venjulega ætti gildið ekki að fara yfir **8**. | Þessi færibreyta tilgreinir fjölda þráða sem eru notaðir til að stofna og bóka sölupantanir. Það táknar fjölda þráða sem eru tiltækir til birtingar á hverja yfirlýsingu. |
-| Hámarksfjöldi færslulína í uppsöfnun | Byrjaðu að prófa gildi kl **1000**. Það fer eftir uppsetningu höfuðstöðva, smærri pantanir gætu verið hagstæðari fyrir frammistöðu. | Þessi færibreyta ákvarðar fjölda lína sem verða innifalin í hverri sölupöntun við bókun yfirlits. Eftir að þessum fjölda er náð verður línum skipt í nýja röð. Þó að fjöldi sölulína verði ekki nákvæmur, vegna þess að skiptingin á sér stað á sölupöntunarstigi, verður hún nálægt fjöldanum sem er stillt. Þessi færibreyta er notuð til að búa til sölupantanir fyrir smásölufærslur sem eru ekki með nafngreindan viðskiptavin. |
-| Hámarksfjöldi þráða til að villuleita í færslum verslunar | Við mælum með að þú stillir þessa færibreytu á **4**, og að þú auki það aðeins ef þú nærð ekki viðunandi árangri. Fjöldi þráða sem þetta ferli notar má ekki fara yfir fjölda örgjörva sem eru tiltækir fyrir hópþjóninn. Ef þú úthlutar of mörgum þráðum hér gætirðu haft áhrif á aðra lotuvinnslu. | Þessi færibreyta stjórnar fjölda færslna sem hægt er að staðfesta á sama tíma fyrir tiltekna verslun. |
-
-> [!NOTE]
-> Allar stillingar og færibreytur sem tengjast bókun uppgjörs og sem eru skilgreindar í verslunum og á síðunni **Færibreytur Commerce** eiga við í endurbættum eiginleika fyrir bókun uppgjörs.
 
 ## <a name="processing"></a>Í vinnslu
 
@@ -158,7 +139,7 @@ The **Upplýsingar um viðskipti** Flýtiflipi uppsafnaðrar færslu sýnir alla
 
 Á **Samanlögð viðskipti** síðu geturðu hlaðið niður XML fyrir tiltekna uppsafnaða færslu með því að velja **Flytja út safngögn**. Þú getur skoðað XML í hvaða XML sniði sem er til að sjá raunverulegar upplýsingar um gögn sem fela í sér stofnun og bókun sölupöntunar. Virknin til að hlaða niður XML-skránni fyrir uppsafnaða færslu er ekki í boði fyrir uppgjör sem hafa verið bókuð.
 
-![Hnappurinn Flytja út samansafn gagna á síðunni Safnaðar færslur.](media/aggregated-transactions-export.png)
+![Hnappurinn Flytja út samansafn gagna á síðunni Samanlögð færslur.](media/aggregated-transactions-export.png)
 
 Ef þú getur ekki lagað villuna með því að leiðrétta gögn á sölupöntun eða gögn sem styðja sölupöntunina, **Eyða pöntun viðskiptavina** hnappur er tiltækur. Til að eyða pöntun velurðu samansafnaða færsluna sem mistókst og velur síðan **Eyða pöntun viðskiptavina**. Bæði samanlagðri færslu og samsvarandi sölupöntun verður eytt. Þú getur nú skoðað færslurnar með því að nota breytinga- og endurskoðunaraðgerðina. Að öðrum kosti er hægt að endurvinna þau með nýrri yfirlýsingu. Eftir að allar bilanir hafa verið lagaðar er hægt að halda áfram færslu yfirlits með því að keyra post statement fallið fyrir viðkomandi yfirlit.
 

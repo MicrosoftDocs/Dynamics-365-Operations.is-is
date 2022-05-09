@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1bcce7af0a15add63f1d9c3b32563de0ab6698bd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: 335bed49b05bf64547d7ded885f365a30487484f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577649"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644639"
 ---
 # <a name="costing-parameter-values-setup"></a>Uppsetning gilda fyrir kostnaðarfæribreytu
 
@@ -123,9 +123,9 @@ Eftirfarandi tafla lýsir stillingunum sem eru tiltækar fyrir hvert sniðmát.
 
 ## <a name="volumetric-divisors"></a>Deilar rúmmálsmælinga
 
-Deilar rúmmálsmælinga eru notaðir til að reikna út rúmmálsþyngdina. Hvert flutningafyrirtæki notar sýna eigin deila rúmmálsmælinga. Auk þess fara deilar fyrirtækisins yfirleitt eftir því hver flutningsmátinn er. Til dæmis eru flutningar loftleiðis og sjóleiðis oft og tíðum með mismunandi deila. Fyrirtæki getur einnig gert reglurnar flóknari, allt eftir því hvaðan sendingin kemur.
+Deilar rúmmálsmælinga eru notaðir til að reikna út rúmmálsþyngdina. Hvert flutningafyrirtæki notar sýna eigin deila rúmmálsmælinga. Auk þess fara deilar fyrirtækisins yfirleitt eftir því hver flutningsmátinn er. Til dæmis eru flutningar loftleiðis og sjóleiðis oft og tíðum með mismunandi deila. Fyrirtæki getur einnig gert reglurnar flóknari, allt eftir því hvaðan sendingin kemur. Kerfið notar eftirfarandi formúlu til að finna rúmmálsþyngd: VolumetricWeight = Volume ÷ VolumetricDivisor.
 
-Til dæmis er pakki sem er sendur með flugvél 3 rúmmetrar (m³). Fyrirtækið rukkar eftir rúmmálsþyngd og notar deili rúmmálsmælingar upp á 6. Þessi deilir er margfaldaður með rúmmálinu til að finna út rúmmálsþyngdina. Þess vegna er rúmmálsþyngdin fyrir þetta dæmi 3 x 6 = 18 kílógrömm (kg).
+Til dæmis er pakki sem er sendur með flugvél 3 rúmmetrar (m³). Fyrirtækið rukkar eftir rúmmálsþyngd og notar deili rúmmálsmælingar upp á 6. Þessum deili er deilt með rúmmáli til að ákvarða rúmmálsþyngd. Þess vegna er rúmmálsþyngdin fyrir þetta dæmi 3 ÷ 6 = 0,5 kíló (kg).
 
 Til að setja upp deili rúmmálsmælinga skal fara í **Heildarkostnaður \> Kostnaðaruppsetning \> Deilar rúmmálsmælinga**. Síðan **Deilar rúmmálsmælinga** sýnir hnitanet með lista yfir alla núgildandi deila rúmmálsmælinga. Hægt er að nota hnappana í aðgerðarúðunni til að bæta við, fjarlægja og breyta línum í töflunni.
 
@@ -136,4 +136,7 @@ Eftirfarandi tafla lýsir reitum sem eru tiltækir í hverri línu í töflunni.
 | Flutningsfyrirtæki | Veljið lánardrottnalykil flutningsfyrirtækisins sem tengist rúmmálsdeili. |
 | Kostnaðargerðarkóði | Veljið kóða kostnaðargerðar sem tengist deili rúmmálsmælingar. Notið þennan reit til að setja kostnaðargerðir inn í skýrslugerðarramma. Hægt er að prenta skýrslur annaðhvort út frá skýrsluflokkum eða eftir kostnaðargerð. |
 | Frá höfn | Veljið „frá“ höfn sem deilir rúmmálsmælingar á við um. |
-| Deilir rúmmálsmælingar | Færið inn gildi fyrir deili rúmmálsmælingar sem á við um línuna. Gildið sem fært er inn verður *margfaldað* með rúmmáli hvers pakka til að ákvarða rúmmálsþyngd pakkningarinnar. |
+| Deilir rúmmálsmælingar | Færið inn gildi fyrir deili rúmmálsmælingar sem á við um línuna. Rúmmáli hvers pakka verður deilt með gildi sem þú slærð inn hér til að ákvarða rúmmálsþyngd pakkans. |
+
+> [!NOTE]
+> Kerfið mun nota hámarksgildi á milli **raunveruleg þyngd** og **rúmmálsþyngd**.

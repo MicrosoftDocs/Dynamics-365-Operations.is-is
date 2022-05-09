@@ -2,7 +2,7 @@
 title: Stjórna SEO-lýsigögnum
 description: Þetta efnisatriði lýsir því hvernig á að stjórna lýsigögnum leitarvélabestunar í Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 04/14/2020
+ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 06d2da60695be499971904451fd56fb8a64dfd64c9192d93f87ababb349e9378
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3d6f56968e9adfe90142955cba8e6c7ecc50fc92
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751568"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644760"
 ---
 # <a name="manage-seo-metadata"></a>Stjórna SEO-lýsigögnum
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að stjórna lýsigögnum leitarvélabestunar í Microsoft Dynamics 365 Commerce.
 
@@ -62,17 +63,21 @@ Dynamics 365 Commerce gerir þér kleift að stjórna lýsigögnum SEO fyrir ein
 ### <a name="modify-page-metadata"></a>Breyta lýsigögnum síðna
 
 Til að breyta lýsigögnum síðu skal fylgja þessum skrefum.
-
 1. Undir **Svæði** velurðu **Fabrikam** (eða heiti svæðisins).
 1. Í stýriglugganum vinstra megin velurðu **Síður**.
 1. Veldu heimasíðuna til að opna hana í ritlinum.
 1. Á skipanastikunni velurðu **Breyta**.
-1. Í eiginleikaglugganum til hægri stækkarðu **Sjálfgild lýsimerki**.
-1. Til að bæta við nýju lýsimerki **Bæta við** og sláðu síðan inn merkið í reitinn. Til að fjarlægja fyrirliggjandi lýsimerki velurðu ruslatunnutáknið hægra megin við það.
+1. Í síðuritlinum, efst á útlínurstýringu síðunnar til vinstri, veldu **Útlínur ham valkostur** (gírtákn) og veldu síðan **Ítarleg yfirlitsmynd**.
+1. Í yfirlitsskjánum skaltu stækka tréstýringarnar til að sýna innihald **HTML höfuð** rifa.
+1. Í **HTML höfuð** rauf, veldu þá SEO einingu sem þú vilt (til dæmis, **Yfirlit síðu**, **vörusíðu**, **yfir flokkasíða**, eða **Lýsimerki**).
+1. Í eiginleikarúðunni hægra megin, breyttu viðkomandi SEO gögnum fyrir valda SEO einingu (til dæmis, **Titill**, **·**, eða **Deilir mynd**).
 1. Veldu **Vista** og síðan **Ljúka við breytingar**.
-1. Í reitnum **Athugasemdir** slærðu inn **Uppfærð lýsimerki** og velur síðan **Í lagi**.
+1. Í **Athugasemdir** reit, slá inn **Uppfærð SEO gögn**, og veldu síðan **Allt í lagi**.
 1. Veldu **Forskoðun** til að forskoða síðuna. Þegar þú hefur lokið því skaltu loka forskoðunarflipanum til að fara aftur í höfundatólið.
 1. Velja **Birta**.
+
+> [!TIP]
+> Höfundar geta notað **Útlínur ham valkostur** (gírtákn) efst á vinstri útlínumstýringu í síðuritlinum til að skipta á milli **Grunnyfirlit** og **Ítarleg yfirlitsmynd**. **Grunnyfirlit** er sjálfgefin stilling og síar útlínurnar þannig að þær sýni aðeins einingar í **Líkami** HTML rauf fyrir síðu. **Ítarleg yfirlitsmynd** sýnir alla síðueininguna, þar á meðal **HTML höfuð**, **byrjar**, og **Líkamslok** rifa. Þessi skoðun er gagnleg þegar höfundar verða að breyta tilteknum stillingum fyrir SEO eða skriftareiningu fyrir síðu.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

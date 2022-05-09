@@ -2,19 +2,19 @@
 title: Almenn úrræðaleit
 description: Þetta efnisatriði veitir almennar upplýsingar um úrræðaleit fyrir tvískrifa samþættingu milli Finance and Operations forrita og Dataverse.
 author: RamaKrishnamoorthy
-ms.date: 04/07/2020
+ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
-ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
-ms.translationtype: HT
+ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8554600"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614096"
 ---
 # <a name="general-troubleshooting"></a>Almenn úrræðaleit
 
@@ -29,7 +29,7 @@ ms.locfileid: "8554600"
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Virkið og skoðið rakningarkladda viðbóta í Dataverse til að skoða upplýsingar um villu
 
-Rekjaskrár geta verið gagnlegar þegar bilanaleit eru tvískrifuð samstillingarvandamál milli Finance & Operations og Dataverse. Logarnir geta veitt sérstakar upplýsingar til teymanna sem veita tæknilega og verkfræðilega aðstoð fyrir Dynamics 365. Þessi grein fjallar um hvernig á að virkja rekja annála og hvernig á að skoða þá. Rekjaskrám er stjórnað á Dynamics 365 Stillingar síðunni og krefjast réttindi stjórnanda stigs til að breyta og skoða. 
+Rekjaskrár geta verið gagnlegar þegar bilanaleit eru tvískrifuð samstillingarvandamál milli Finance & Operations og Dataverse. Logarnir geta veitt sérstakar upplýsingar til teymanna sem veita tæknilega og verkfræðilega aðstoð fyrir Dynamics 365. Þessi grein fjallar um hvernig á að virkja rekja annála og hvernig á að skoða þá. Rekjaskrám er stjórnað á Dynamics 365 Stillingar síðunni og krefjast réttindi stjórnandastigs til að breyta og skoða. 
 
 **Nauðsynlegt hlutverk til að kveikja á rakningarkladda og skoða villur:** Kerfisstjóri
 
@@ -113,7 +113,7 @@ Vefkökur þriðju aðila þurfa að vera leyfðar í stillingum vafra.
 
 **Áskilið hlutverk til að aftengja umhverfið:** Kerfisstjóri fyrir annað hvort Finance and Operations app eða Dataverse.
 
-1. Skráðu þig inn í Finance and Operations appið.
+1. Skráðu þig inn á Finance and Operations appið.
 2. Farðu í **Vinnusvæði \> Gagnastjórnun** og veldu reitinn **Tvöfalt skrif**.
 3. Veldu allar keyrandi kortlagningar og veldu síðan **Hætta**.
 4. Veldu **Aftengja umhverfi**.
@@ -131,6 +131,29 @@ Fylgdu þessum skrefum til að gera virkja valkostinn **Upplýsingar** aftur:
 2. Finndu **Upplýsingar** undir skjámyndum.
 3. Veldu **Upplýsingar** og smelltu á **Virkja öryggishlutverk**.
 4. Breyttu öryggisstillingunni í **Sýna öllum**.
+
+## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Hvernig á að tryggja að gagnasamþætting sé með nýjustu fjármála- og rekstraráætluninni
+
+Þú gætir lent í gagnavandamálum við samþættingu gagna ef ekki er verið að nota nýjasta skemað. Eftirfarandi skref munu hjálpa þér að endurnýja aðilalistann í Finance and Operations forritum og einingarnar í Data Integrator.
+
+### <a name="refresh-entity-list-in-finance-and-operations-environment"></a>Endurnýjaðu aðilalista í fjármála- og rekstrarumhverfi
+1.  Skráðu þig inn í fjármála- og rekstrarumhverfið þitt.
+2.  Veldu **Gagnastjórnun**.
+3.  Inni í Gagnastjórnun, veldu **Rammabreytur**.
+4.  Á **Gagnainnflutningur/útflutningur rammafæribreytur** síðu, veldu **Einingastillingar** flipann og veldu **Endurnýja einingarlista**. Þetta getur tekið meira en 30 mínútur að endurnýja, allt eftir fjölda aðila sem taka þátt.
+5.  Siglaðu til **Gagnastjórnun** og veldu **Gagnaeiningar** til að sannreyna að væntanlegir aðilar séu skráðir. Ef væntanlegir einingar eru ekki skráðar, staðfestu að einingarnar birtast í fjármála- og rekstrarumhverfi þínu og endurheimtu þær einingar sem vantar, eftir þörfum.
+
+#### <a name="if-the-refresh-fails-to-resolve-the-issue-delete-and-re-add-the-entities"></a>Ef endurnýjunin tekst ekki að leysa vandamálið skaltu eyða einingunum og bæta þeim við aftur
+
+> [!NOTE]
+> Þú gætir þurft að stöðva vinnsluhópa sem eru virkir að nota einingarnar áður en þeim er eytt.
+
+1.  Veldu **Gagnastjórnun** í fjármála- og rekstrarumhverfi þínu og veldu **Gagnaeiningar**.
+2.  Leitaðu að aðilum sem eiga í vandræðum og skráðu markeininguna, sviðsetningartöfluna, heiti einingar og aðrar stillingar. Eyða einingunni eða einingunum af listanum.
+3.  Veldu **Nýtt** og bættu einingunni eða einingunum við aftur með því að nota gögnin frá skrefi 2. 
+
+#### <a name="refresh-entities-in-data-integrator"></a>Endurnýjaðu einingar í Data integrator
+Skráðu þig inn á Power Platform Stjórnunarmiðstöð og veldu **Samþætting gagna**. Opnaðu verkefnið þar sem vandamálin eiga sér stað og veldu **Endurnýja einingar**.
 
 ## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>Hvernig á að virkja og vista netrakningu þannig að hægt verði að hengja rakningar við þjónustubeiðni
 

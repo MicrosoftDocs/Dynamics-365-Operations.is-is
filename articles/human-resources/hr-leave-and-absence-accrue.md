@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7f765e7cfd97170bd144dfff12c18ced96e3332a
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
-ms.translationtype: MT
+ms.openlocfilehash: 3c9b9602e5c219be5756f5987b0497f2ce5c269d
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533713"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644303"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Uppsöfnunaráætlanir fyrir leyfi og fjarvistir
 
@@ -105,8 +105,10 @@ Eyða rekstrarreikningum fyrir ákveðna áætlun og tímabil. Uppsöfnunardagse
 **Úttekt leyfisuppsöfnunar** birtist í hvert skipti sem þú keyrir eða eyðir uppsöfnun fyrir einn eða alla starfsmenn. Dagsetning og einstaklingur sem framkvæmdi aðgerðina eru einnig sýnd.
 
 1. Á síðunni **Leyfi og fjarvera** velurðu flipann **Tenglar**.
-
 2. Undir **Stjórna leyfi**, veldu **Eyða úttekt leyfisuppsöfnunar**.
+
+## <a name="leave-accrual-rounding"></a>Sléttun uppsafnaðs leyfis
+Þegar starfsmaður er annaðhvort skráður eða afskráður verður sléttun orlofsuppsöfnunar hlutfallslega. Áður var námundun aðeins leyfð þegar orlofsáætlun var stillt á hlutfallslega og starfsmaður var skráður/afskráður á miðju tímabili. Orlofsuppsöfnun mun nú jafnast óháð innritun/afskráningu á miðju tímabili eða í upphafi tímabils.
 
 ## <a name="leave-accrual-transaction-auditing"></a>Endurskoðun færslu fyrir uppsafnað leyfi
 

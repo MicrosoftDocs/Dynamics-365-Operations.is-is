@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5a0ead85eaeb6b96b80716614990af8c8e5e70f7
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384748"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644345"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Grunnstilla viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -39,7 +39,7 @@ Kveikja verður á keyrsluviðmóti fyrir framleiðslugólf, auk nokkurra valfrj
 
 ### <a name="the-production-floor-execution-interface"></a>Viðmót fyrir framkvæmd á framleiðslugólfi
 
-Þetta er aðaleiginleikinn sem lýst er í þessu efni og er forsenda allra annarra eiginleika sem nefndir eru í þessum hluta. Frá og með Supply Chain Management 10.0.25 er það skylda og ekki hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Framleiðslugólf framkvæmd* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Þetta er aðaleiginleikinn sem lýst er í þessu efni og er forsenda allra annarra eiginleika sem nefndir eru í þessum hluta. Frá og með Supply Chain Management 10.0.25 er það skylda og ekki hægt að slökkva á henni. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Framleiðslugólf framkvæmd* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ### <a name="generate-license-plates"></a>Mynda númeraplötur
 
@@ -100,7 +100,7 @@ Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á 
 > [!IMPORTANT]
 > Þú getur notað eiginleikann sem ekki er WMS einn. Hins vegar, ef þú notar WMS, verður þú að virkja báða eiginleikana.
 
-### <a name="enable-reporting-on-catch-weight-items"></a>Virkja skýrslugjöf um aflaþyngdaratriði
+### <a name="enable-reporting-on-catch-weight-items"></a>Virkjaðu skýrslugjöf um aflaþyngd
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 <!-- KFM: preview until further notice -->
@@ -111,26 +111,86 @@ Til að nota þessa virkni skaltu kveikja á eftirfarandi eiginleika í [Eiginle
 
 - *(Forskoðun) Skýrsla um vörur með framleiðsluþyngd úr keyrsluviðmóti framleiðslugólfs*
 
+### <a name="enable-the-my-day-dialog"></a>Virkjaðu „Dagurinn minn“ gluggann
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+The **Minn dagur** svarglugginn veitir starfsmönnum yfirlit yfir daglegar skráningar þeirra og núverandi stöður fyrir greiddan tíma, greidda yfirvinnu, fjarvistir og greidda fjarveru.
+
+Til að nota þessa virkni skaltu kveikja á eftirfarandi eiginleika í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Yfirlitið „Dagurinn minn“ fyrir keyrsluviðmót framleiðslugólfs*
+
+### <a name="enable-teams"></a>Virkja teymi
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Þegar mörgum starfsmönnum er úthlutað í sama framleiðslustarfið geta þeir myndað teymi. Teymið getur tilnefnt einn starfsmann sem flugmann. Þeir starfsmenn sem eftir eru verða síðan sjálfkrafa aðstoðarmenn þess flugmanns. Fyrir liðið sem kemur út þarf aðeins flugmaðurinn að skrá starfsstöðu. Tímamet gildir fyrir alla liðsmenn.
+
+Til að nota þessa virkni skaltu kveikja á eftirfarandi eiginleika í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Framleiðsluteymi í keyrsluviðmóti framleiðslugólfs*
+
+### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Virkjaðu viðbótarstillingar í framkvæmdarviðmóti framleiðslugólfs
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Þessi eiginleiki bætir stillingum fyrir eftirfarandi virkni við **Stilltu framkvæmd framleiðslugólfs** síða:
+
+- Opnaðu sjálfkrafa **Byrja starf** valmynd þegar leit er lokið.
+- Opnaðu sjálfkrafa **Tilkynna framvindu** valmynd þegar leit er lokið.
+- Forfylltu það magn sem eftir er í **Tilkynna framvindu** valmynd.
+- Virkjaðu breytingar á efnisnotkun frá **Tilkynna framvindu** valmynd. (Þessi virkni krefst einnig *Skráðu efnisnotkun á framkvæmdarviðmóti framleiðslugólfs (ekki WMS)* eiginleiki.)
+- Virkjaðu leit eftir verkefnisauðkenni.
+
+Upplýsingar um hvernig eigi að nota stillingarnar eru veittar síðar í þessu efni.
+
+Til að nota þessa virkni skaltu kveikja á eftirfarandi eiginleika í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Viðbótarstillingar á keyrsluviðmóti framleiðslugólfs*
+
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Vinna með skilgreiningar á keyrslum framleiðslugólfs
 
-Til að búa til og viðhalda framkvæmdarstillingum framleiðslugólfs skaltu fara á **Framleiðslueftirlit \> Uppsetning \> Framleiðsluframkvæmd \> Stilla framkvæmd framleiðslugólfs**. Síðan **Grunnstilla framkvæmd á framleiðslugólfi** sýnir lista yfir fyrirliggjandi skilgreiningar. Á þessari síðu er hægt að framkvæma eftirfarandi aðgerðir:
+Til að búa til og viðhalda framkvæmdarstillingum framleiðslugólfs skaltu fara á **Framleiðslueftirlit \> Uppsetning \> Framleiðsluframkvæmd \> Stilltu framkvæmd framleiðslugólfs**. Síðan **Grunnstilla framkvæmd á framleiðslugólfi** sýnir lista yfir fyrirliggjandi skilgreiningar. Á þessari síðu er hægt að framkvæma eftirfarandi aðgerðir:
 
 - Veljið einhverja skilgreiningu framleiðslugólfs sem sýnd er í vinstri dálknum til að skoða og breyta henni.
-- Veldu **Nýtt** á aðgerðarrúðunni til að bæta nýrri stillingu við listann. Síðan skal færa í reitinn **Skilgreining** heiti til að auðkenna nýju skilgreininguna. Nafnið sem þú slærð inn verður að vera einstakt meðal allra stillinga og þú munt ekki geta breytt því síðar.
+- Á aðgerðarrúðunni velurðu **Nýtt** til að bæta nýrri uppsetningu á listann. Síðan skal færa í reitinn **Skilgreining** heiti til að auðkenna nýju skilgreininguna. Nafnið sem þú slærð inn verður að vera einstakt meðal allra stillinga og þú munt ekki geta breytt því síðar. Í **Lýsing** reit geturðu valið að slá inn lýsingu á uppsetningunni.
 
-Næst skaltu stilla ýmsar stillingar fyrir valda stillingu. Eftirfarandi reitir eru tiltækir:
+Næst skaltu stilla ýmsar stillingar fyrir valda stillingu, eins og lýst er í eftirfarandi undirköflum.
 
-- **Aðeins inn- og útstimplun** - Stillið þennan valkost á *Já* til að búa til einfaldara viðmót sem býður upp á inn- og útstimplunarvirkni. Þetta óvirkjar flesta aðra valmöguleika á þessari síðu. Fjarlægja verður allar færslubókarlínur úr **Flipavali** áður en hægt er að virkja þennan valkost.
-- **Virkja leit** - Stilltu þennan valkost á *Já* til að taka leitarreit með á verkefnalistann. Starfskraftar geta fundið tiltekið starf með því að slá inn auðkenni starfsins eða finna öll störf fyrir tiltekna pöntun með því að slá inn kenni pöntunarinnar. Starfskraftar geta slegið inn kennið með því að nota lyklaborð eða með því að skanna strikamerki.
+### <a name="the-general-fasttab"></a>Flýtiflipinn Almennt
+
+Eftirfarandi stillingar eru fáanlegar á **Almennt** flýtiflipi:
+
+- **Klukka aðeins inn og út** – Stilltu þennan valkost á *Já* að búa til einfaldað viðmót sem veitir aðeins inn- og útklukkuvirkni. Þessi stilling slekkur á flestum öðrum valkostum á þessari síðu. Fjarlægja verður allar færslubókarlínur úr **Flipavali** áður en hægt er að virkja þennan valkost.
+- **Virkja leit** – Stilltu þennan valkost á *Já* að setja leitarreit á starfslistann. Starfsmenn geta fundið tiltekið starf með því að slá inn starfsauðkenni, eða þeir geta fundið öll störf fyrir tiltekna pöntun með því að slá inn pöntunarkennið. Starfsmenn geta slegið inn auðkennið með því að nota lyklaborð eða skanna strikamerki.
+- **Virkjaðu leit eftir verkefnisauðkenni** – Stilltu þennan valkost á *Já* til að gera starfsmönnum kleift að leita eftir verkauðkenni (auk verkauðkennis og pöntunarauðkennis) í leitarsviði framkvæmdarviðmóts framleiðslugólfs. Þú getur stillt þennan valkost á *Já* aðeins þegar **Virkja leit** valkostur er einnig stilltur á *Já*.
+- **Sjálfvirk opnunargluggi** – Þegar þessi valkostur er stilltur á *Já*, hinn **Byrja starf** svarglugginn opnast sjálfkrafa þegar starfsmenn nota leitarstikuna til að finna starf.
+- **Sjálfvirkt opna framvindu skýrsluglugga** – Þegar þessi valkostur er stilltur á *Já*, hinn **Tilkynna framvindu** svarglugginn opnast sjálfkrafa þegar starfsmenn nota leitarstikuna til að finna starf.
+- **Virkjaðu stilla efni** – Stilltu þennan valkost á *Já* til að virkja **Stilla efni** hnappinn í **Tilkynna framvindu** valmynd. Starfsmenn geta valið þennan hnapp til að stilla efnisnotkun fyrir verkið.
 - **Tilkynna magn við útstimplun** - Stillið þennan valkost á *Já* til að biðja starfsmenn að senda inn athugasemd um verk í vinnslu við útstimplun. Þegar þessi valkostur er stilltur á *Nei* verða starfsmenn ekki beðnir um þetta.
 - **Læsa starfsmanni** - Þegar þessi valkostur er stilltur á *Nei* verða starfsmenn skráðir strax út eftir að þeir eru búnir að gera skráningu (t.d. nýtt verk). Viðmótið mun þá fara aftur á innskráningarsíðuna. Þegar þessi valkostur er stilltur á *Já*, munu starfsmenn vera skráðir inn á framkvæmdarviðmót framleiðslugólfs. Hins vegar getur starfsmaður skráð sig út handvirkt þannig að annar starfsmaður geti skráð sig inn á meðan framkvæmdarviðmót framleiðslugólfsins heldur áfram að keyra undir sama kerfisnotandareikningi. Nánari upplýsingar um þessar gerðir reikninga er að finna í [Úthlutaðir notendur](config-job-card-device.md#assigned-users).
 - **Nota rauntíma skráningar** - Stillið þetta á *Já* til að stilla tímann fyrir hverja nýja skráningu þannig að hún jafngildi þeim tíma þegar starfsmaðurinn sendi inn skráninguna. Þegar þessi valkostur er stilltur á *Nei* er innskráningartíminn notaður í staðinn. Þú vilt yfirleitt stilla þennan valkost á *Já* ef þú hefur stillt valkostina **Læsa starfsmanni** og/eða **Einn starfsmaður** á *Já* þar sem starfsmenn eru oft innskráðir í lengri tíma.
-- **Einhleypur vinnumaður** – Stilltu þennan valkost á *Já* ef aðeins einn starfsmaður notar hvert framkvæmdarviðmót framleiðslugólfs þar sem þessi uppsetning er virk. Þegar þessi valkostur er stilltur á *Já* er valkosturinn **Loka á starfsmann** sjálfkrafa stilltur á *Já*. Að auki fjarlægir þessi valkostur kröfu (og getu) um að starfsmaður skrái sig inn með kortakenni (eða sambærilegu auðkenni). Í staðinn skráir starfsmaðurinn sig inn á Microsoft Dynamics 365 Supply Chain Management með því að nota kerfisnotendareikning sem er tengdur við a *tímaskráður starfsmaður* (frá *verkamenn* töflu), og skráir sig inn á framkvæmdarviðmót framleiðslugólfs sem sá starfsmaður á sama tíma.
-- **Leyfa læsingu á snertiskjánum** – Stilltu þennan valkost á *Já* til að leyfa starfsmönnum að læsa snertiskjá framkvæmdarviðmóts framleiðslugólfs svo þeir geti sótthreinsað hann. Þegar þessi valkostur er stilltur á *Já*, a **Læsiskjár til að hreinsa** hnappur er bætt við innskráningarsíðuna. Þegar starfsmaður velur þennan hnapp læsist snertiskjárinn tímabundið til að koma í veg fyrir óvæntan innslátt. Niðurteljari er einnig sýndur. Starfsmaðurinn getur þá þrifið skjáinn og tækið með góðu móti. Þegar niðurtalningu er lokið aflæsist snertiskjárinn sjálfkrafa.
+- **Einhleypur vinnumaður** – Stilltu þennan valkost á *Já* ef aðeins einn starfsmaður notar hvert framkvæmdarviðmót framleiðslugólfs þar sem þessi uppsetning er virk. Þegar þessi valkostur er stilltur á *Já* er valkosturinn **Loka á starfsmann** sjálfkrafa stilltur á *Já*. Að auki fjarlægir þessi valkostur kröfu (og getu) um að starfsmaður skrái sig inn með kortakenni (eða sambærilegu auðkenni). Í staðinn skráir starfsmaðurinn sig inn á Microsoft Dynamics 365 Supply Chain Management með því að nota kerfisnotendareikning sem er tengdur við a *tímaskráður starfsmaður* (frá *verkamenn* töflu), og skráist inn á framkvæmdarviðmót framleiðslugólfs sem sá starfsmaður á sama tíma.
+- **Leyfðu læsingu á snertiskjánum** – Stilltu þennan valkost á *Já* til að leyfa starfsmönnum að læsa snertiskjá framkvæmdarviðmóts framleiðslugólfs þannig að þeir geti sótthreinsað hann. Þegar þessi valkostur er stilltur á *Já*, a **Læsiskjár til að hreinsa** hnappur er bætt við innskráningarsíðuna. Þegar starfsmaður velur þennan hnapp læsist snertiskjárinn tímabundið til að koma í veg fyrir óvæntan innslátt. Niðurteljari er einnig sýndur. Starfsmaðurinn getur þá þrifið skjáinn og tækið með góðu móti. Þegar niðurtalningu er lokið aflæsist snertiskjárinn sjálfkrafa.
 - **Lengd skjálæsingar** - Þegar valkosturinn **Leyfa læsingu snertiskjás** er stilltur á *Já* skal nota þennan valkost til að tilgreina fjölda sekúndna sem snertiskjárinn á að vera læstur vegna þrifa. Tímalengd verður að vera 5 til 120 sekúndur.
 - **Búðu til númeraplötu** – Stilltu þennan valkost á *Já* að búa til nýja númeraplötu í hvert sinn sem starfsmaður notar framkvæmdarviðmót framleiðslugólfs til að tilkynna sem lokið. Númeraplötunúmerið er myndað úr númeraröð sem er sett upp á síðunni **Færibreytur vöruhúsakerfis**. Þegar þessi valkostur er stilltur á *Nei* verða starfsmenn að tilgreina fyrirliggjandi númeraplötu þegar þeir tilkynna lok.
 - **Prentaðu merkimiðann** – Stilltu þennan valkost á *Já* að prenta númeraplötumerki þegar starfsmaður notar framkvæmdarviðmót framleiðslugólfs til að tilkynna sem lokið. Skilgreining merkisins er sett upp í skjalaleið, eins og lýst er í [Skipulag skjalaleiðar fyrir númeraplötumerki](../warehousing/document-routing-layout-for-license-plates.md).
-- **Flipaval** – Notið stillingar í þessum hluta til að velja hvaða flipar eigi að birtast af keyrsluviðmóti framleiðslugólfs þegar núgildandi skilgreining er virk. Hægt er að hanna eins marga flipa og þarf að bæta við og raða þeim hér eins og nauðsynlegt er. Frekari upplýsingar um hvernig á að hanna flipa og vinna með stillingar hér er að finna á [Hanna viðmótið fyrir framkvæmd á framleiðslugólfi](production-floor-execution-tabs.md).
+
+### <a name="the-tab-selection-fasttab"></a>Flipaflipinn val á flýtiflipanum
+
+Notaðu stillingarnar á **Val á flipa** Flýtiflipi til að velja hvaða flipa framkvæmdarviðmót framleiðslugólfs ætti að sýna þegar núverandi uppsetning er virk. Þú getur hannað eins marga flipa og þú þarft og síðan bætt við og raðað þeim eins og þú þarft með því að nota hnappana á flýtiflipanum. Fyrir upplýsingar um hvernig á að hanna flipa og vinna með stillingarnar hér, sjá [Hannaðu framkvæmdarviðmót framleiðslugólfsins](production-floor-execution-tabs.md).
+
+### <a name="the-report-progress-fasttab"></a>Flýtiflipinn Tilkynna framvindu
+
+Eftirfarandi stillingar eru fáanlegar á **Tilkynna framvindu** flýtiflipi:
+
+- **Virkjaðu stilla efni** – Stilltu þennan valkost á *Já* að fela í sér **Stilla efni** hnappinn í **Tilkynna framvindu** valmynd. Starfsmenn geta valið þennan hnapp til að stilla efnisnotkun fyrir verkið.
+- **Sjálfgefið eftirstandandi magn** – Stilltu þennan valkost á *Já* að forfylla væntanlegt eftirstandandi magn fyrir framleiðsluverk í **Tilkynna framvindu** valmynd.
 
 ## <a name="clean-up-job-configurations"></a>Skilgreiningar á hreinsunarvinnu
 

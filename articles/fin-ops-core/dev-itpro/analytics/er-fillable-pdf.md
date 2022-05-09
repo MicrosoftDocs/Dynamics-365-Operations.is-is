@@ -2,7 +2,7 @@
 title: Hanna skilgreiningar rafrænnar skýrslugerðar til að fylla inn í PDF-sniðmát
 description: Þetta efnisatriði veitir upplýsingar um hvernig á að hanna snið rafrænnar skýrslugerðar til að fylla út PDF-sniðmát.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367857"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645108"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Hanna skilgreiningar rafrænnar skýrslugerðar til að fylla inn í PDF-sniðmát
 
 [!include[banner](../includes/banner.md)]
 
-Ferlin í þessu efnisatriði eru dæmi sem sýna hvernig notandi í annaðhvort hlutverkinu **Kerfisstjóri** eða **Þróunaraðili rafrænnar skýrslugerðar** getur skilgreint snið rafrænnar skýrslugerðar sem býr til skýrslur sem PDF-skrár með því að nota útfyllanleg PDF-skjöl sem skýrslusniðmát. Hægt er að framkvæma þessi skref í hvaða fyrirtæki af Dynamics 365 Finance eða regluskilgreiningarþjónustu.
+Ferlin í þessu efnisatriði eru dæmi sem sýna hvernig notandi í annaðhvort hlutverkinu **Kerfisstjóri** eða **Þróunaraðili rafrænnar skýrslugerðar** getur skilgreint snið rafrænnar skýrslugerðar sem býr til skýrslur sem PDF-skrár með því að nota útfyllanleg PDF-skjöl sem skýrslusniðmát. Þessi skref er hægt að framkvæma í hvaða fyrirtæki sem er í Dynamics 365 Finance eða Regulatory Configuration Services (RCS).
 
 ## <a name="prerequisites"></a>Forkröfur
 
@@ -252,10 +252,14 @@ Vegna þess að báðir eiginleikarnir eru valkvæðir fyrir sniðseininguna **R
 - Ef eigindin **Heiti** er skilgreind og segðin **Heiti** er skilgreind, er PDF-reiturinn fylltur út sem er með sama heiti og gildið sem segðin **Heiti** skilar fyrir sniðseininguna.
 
 > [!NOTE]
-> Hægt er að fylla út PDF-gátreit sem valinn á eftirfarandi hátt:
+> Þegar gátreitur í PDF sniðmátinu tilheyrir ekki hópi gátreita er hann sýndur á breytanlegu ER sniði sem **Field** þáttur sem er hreiður undir **PDF skrá** þáttur. Hægt er að stilla þessa tegund af PDF gátreit sem valinn á eftirfarandi hátt:
 >
-> - Þegar samsvarandi sniðseiningin **Reitur** er bundin við reit gagnagjafar af gagnagerðinni **Boolean** sem er með gildið **Satt**
-> - Þegar samsvarandi sniðseiningin **Reitur** inniheldur faldaða sniðseiningu **Strengur** sem er bundin við reit gagnagjafa sem er með textagildi **1**, **Satt** eða **Já**
+> - Samsvarandi **Field** sniðsþáttur er bundinn við gagnauppspretta reit í *[Boolean](er-formula-supported-data-types-primitive.md#boolean)* gagnategund sem hefur gildið **Satt**.
+> - Samsvarandi **Field** sniðþáttur inniheldur hreiður **Strengur** sniðþáttur sem er bundinn við reit gagnagjafa sem hefur textagildið á **1**, **·**, eða **Já**.
+>
+> Sniðmátið þitt getur innihaldið hóp af gátreitum þar sem aðeins er hægt að velja einn gátreit í einu. Þessir gátreitir eru sýndir í PDF sniðmáti sem margir eyðublaðareitir *GÉTTARÚT* gerð. Hver reitur hefur sama nafn en mismunandi útflutningsgildi. Þegar þú flytur sniðmátið inn í breytanlega ER sniðið, verður hver gátreitur sýndur í stigveldisskipulagi sniðsins sem **Atriði í gátreit hóp** þáttur sem er hreiður undir það sama **Gátreit hópur** þáttur. Nafnið á **Gátreit hópur** þáttur mun jafna nafni gátreitarreitanna í PDF sniðmátinu. Nafn hvers og eins **Atriði í gátreit hóp** þáttur jafngildir útflutningsgildi samsvarandi gátreitarreits í PDF sniðmátinu.
+>
+> Þú getur bundið a **Atriði í gátreit hóp** þáttur í reit gagnagjafa í *Boolean* eingöngu gagnategund.
 
 ## <a name="run-the-format-configuration"></a>Keyra skilgreiningu sniðs
 

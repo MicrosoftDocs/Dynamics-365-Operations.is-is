@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: bf63069c5f18fe67c7d7f538311853d79c0f4fe8
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487643"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649158"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Samræmisgreining á fínstillingu áætlanagerðar
 
@@ -57,7 +57,7 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 
 | Eiginleiki | Uppgefið vandamál | Skýring | Væntanlegt framboð |
 | --- | --- | --- | --- |
-| Aðgerðir | Þekjuflokkar með virkan útreikning á aðgerðum: _\#_ | Þessi eiginleiki í bið. Sem stendur eru aðgerðir ekki búnar til við aðaláætlanagerð þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. Megintilgangur aðgerða er að stinga upp á breytingum á fyrirliggjandi pöntunum. Meta hvort aðgerðir eru nýttar sem hluti af viðskiptaferlum eða ef upplýsingar um seinkun sem tengjast pöntunum eru fullnægjandi. | 2022. apríl |
+| Aðgerðir | Þekjuflokkar með virkan útreikning á aðgerðum: _\#_ | Þessi eiginleiki í bið. Sem stendur eru aðgerðir ekki búnar til við aðaláætlanagerð þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. Megintilgangur aðgerða er að stinga upp á breytingum á fyrirliggjandi pöntunum. Meta hvort aðgerðir eru nýttar sem hluti af viðskiptaferlum eða ef upplýsingar um seinkun sem tengjast pöntunum eru fullnægjandi. | Stutt |
 | Grunndagatöl | Dagatöl sem nota grunndagatal: _\#_ | Þessi eiginleiki er nú studdur. | 2022. mars | 
 | Ráðstöfunarkóðar runu | Aðalrunuráðstafanir sem eru ekki nettó: _\#_ | Þessi eiginleiki í bið. Sem stendur er litið framhjá ráðstöfunarkóðum runu þegar fínstilling áætlanagerðar er virk. | Server 2022 eða nýrri |
 | Hægt að lofa (CTP) | Sjálfgefnar pöntunarstillingar með afhendingardagsstjórnun stillta á CTP: _\#_ | Þessi eiginleiki í bið. Sem stendur er litið framhjá CTP þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. | 2022. október |

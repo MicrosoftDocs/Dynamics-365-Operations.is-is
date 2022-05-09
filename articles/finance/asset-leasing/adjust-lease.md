@@ -2,7 +2,7 @@
 title: Leiðrétta leigusamninga
 description: Þetta efnisatriði útskýrir hvernig á að leiðrétta leigusamning. Leiðrétting gæti verið nauðsynleg ef leiguskilmálum er breytt, leigan framlengd eða aðrar aðstæður breytast.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1016b69fd59bbe90924996f5c931cb5d0f779253de66f5f3821a8c3001d3313b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 7d7151c28d124420638dc4e69a8ab5359ecf443c
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729655"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644556"
 ---
 # <a name="adjust-leases"></a>Leiðrétta leigusamninga
 
@@ -134,5 +134,19 @@ Ef leigusamningur hefur verið leiðréttur er hægt að skoða mismunandi útg�
 2. Til að skoða eldri áætlanir skal opna breyttan leigusamning á síðunni **Samantekt leigusamnings** velja viðeigandi bók og velja síðan **Útgáfuferill bókar** á aðgerðasvæðinu.
 3. Á síðunni **Bókaútgáfa** skal velja útgáfu og áætlun til að skoða.
 
+## <a name="adjust-a-lease-book"></a>Stilla leigubók
+
+Fylgdu þessum skrefum til að breyta aðeins leigubók.
+
+1. Fara til **Eignaleiga** \> **Leigusamningar** \> **Leiguyfirlit**.
+2. Veldu og opnaðu leigusamning.
+3. Á **Upplýsingar um leigusamning** síðu, veldu **Bækur**.
+4. Á **Upplýsingar um bækur** síðu, á aðgerðarrúðunni, í **Viðhalda** hópur, veldu **Stilla bók**. 
+5. Fjarlægðu greiðsluáætlunarlínurnar.
+6. Í **Breytingardagur leigusamnings** reit, sláðu inn breytingardagsetningu. Íhugaðu síðan að fjarlægja öll aukaatriði eigna/skulda (beinn upphafskostnaður, leiguívilnun, fyrirframgreiðsla leigusamnings, niðurrifskostnaður og afgangsvirðisábyrgð), ef einhver er. 
+7. Til að koma í veg fyrir ónákvæma útreikninga fyrir leiðréttingu leigusamnings skaltu bæta við nýjum greiðsluáætlunarlínum fyrir nýju greiðsludagana sem passa við breytingardagsetninguna. 
+
+> [!NOTE] 
+> Við mælum með að þú notir **Leiguleiðrétting** töframaður til að laga leigusamning. Leiðsagnarforritið dregur úr fjölda handvirkra skrefa, gefur sýnishorn af stöðunum eftir leiðréttinguna og gerir þér kleift að breyta upphæðum fyrir bókun.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

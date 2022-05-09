@@ -1,6 +1,6 @@
 ---
 title: Regluuppfærslur
-description: Þetta efnisatriði gefur lista yfir áætlaðar og útgefnar reglubundnar uppfærslur á Microsoft Dynamics 365 Finance.
+description: Þetta efni gefur lista yfir fyrirhugaðar og gefnar reglugerðaruppfærslur fyrir Microsoft Dynamics 365 Fjármál.
 author: VStamberg
 ms.date: 01/20/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 19aadf844f239ef06ca4d9dbe60b597228d72e52
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
-ms.translationtype: MT
+ms.openlocfilehash: 734a4abf4559d05b1f96bcfbde151b49bba8e827
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470094"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649130"
 ---
 # <a name="regulatory-updates"></a>Regluuppfærslur
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði birtir regluuppfærslurnar sem eru fyrirhugaðar og útgefnar í Dynamics 365 Finance studdum staðfærslum. Tímalínur afhendingar geta breyst og áætluð virkni getur breyst eða ekki verið gefin út. Frekari upplýsingar er að finna í [Microsoft-reglur](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
+Þetta efnisatriði listar upp reglugerðaruppfærslur sem eru skipulagðar og gefnar út í Dynamics 365 Finance studdar staðsetningar. Tímalínur afhendingar geta breyst og áætluð virkni getur breyst eða ekki verið gefin út. Frekari upplýsingar er að finna í [Microsoft-reglur](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
 Regluuppfærslur eru eiginleikar sem eru innleiddir til að styðja nýjar eða breyttar landsbundnar reglugerðir. Fyrir frekari upplýsingar um fyrirhugaða og gefna landssértæka eiginleika, sjá [Dynamics 365 og Power Platform útgáfuáætlanir](/business-applications-release-notes/index).
 
@@ -39,26 +39,26 @@ Fyrir nýjustu áætlanir á uppfærslu á reglum skal skoða eftirfarandi töfl
 
 |Land|Útgáfudagur|Losunarútgáfa|Regluuppfærsla|
 |--------------------|---------------|-------|-------| 
-|      Brasilía         |   2021. desember         | 10.0.24, 10.0.25         |    SPED fjárhagsskipulag 2022  |
-|      Brasilía         |   2022. mars    | 10.0.24HF, 10.0.25HF         |    ICMS-DIFAL innheimta í rekstri sem beinist að öðrum en skattgreiðendum (viðbótarlög nr. 190/22)  |
+|      Brasilía         |   2021. desember         | 10.0.25         |    SPED fjárhagsskipulag 2022  |
+|      Brasilía         |   2022. mars    | 10.0.25HF, 10.0.26HF, 10.0.27        |    ICMS-DIFAL innheimta í rekstri sem beinist að öðrum en skattgreiðendum (viðbótarlög nr. 190/22)  |
+|      Brasilía         |   2022. mars         | 10.0.26HF         |    Speed Fiscal - Nýir reitir í skránni C500 (34-40) fyrir komandi ríkisfjármálaskjöl  |
+|      Brasilía         |   2022. mars         | 10.0.27         |    NF-e NT2021.004 v1.00 - Uppfærslur á skipulagi og löggildingarreglum  |
+|      Brasilía         |   2022. mars         | 10.0.27         |    NF-e NT2021.004 v1.00 - Uppfærslur á skipulagi og löggildingarreglum - Smásala  |
 |      Danmörk         |   2022. janúar  | 10.0.25HF         |    Forskoðun virðisaukaskattsskýrslu í Excel |
+|      Finnland         |   2022. janúar  | 10.0.26         |    VSK yfirlýsing í TXT og forskoðun í Excel |
 |      Frakkland   |   Nóvember 2021 | 10.0.25         |    Franskur gagnageymsluútflutningur (FEC) - Viðauki „Tilvísun númera sem vantar“ |
-|      Ítalía         |   Nóvember 2021         | 10.0.24         |    Rafræn reikningur fyrir viðskipti yfir landamæri  |
-|      Ítalía         |   2022. febrúar | 10.0.24HF, 10.0.25HF| Einstök vottun - 2022 tommur Dynamics 365 Finance  |
-|      Litháen|   2022. febrúar | 10.0.24HF, 10.0.25HF | i.SAF breytist úr 2022-01-01 í Dynamics 365 Finance  |
-|      Mexíkó         |   2021. desember      | 10.0.24      |   Carta de Porte viðbót útgáfa 2.0  |
-|      Noregur        |   Nóvember 2021      | 10.0.24      |   VSK-yfirlýsingarsnið 2022 með beinni skil -Dynamics 365 Finance |
-|      Pólland          |   2021. október     | 10.0.24     |   JPK_V7M - ný skemaútgáfa frá janúar 2022 |
-|      Pólland          |   Nóvember 2021     | 10.0.24HF     |   Ársskýrsla um greiðsludaga í verslunarviðskiptum |
-|      Pólland          |   2021. október     | 10.0.24     |   Rafrænt snið sölulista ESB (VAT-UE) |
-|      Rússland          |   2021. október     | 10.0.24    |   Breytingar á sölu-, innkaupabókum og fræðiritum|
-|      Rússland          |   2021. október     | 10.0.24HF    |   Breyting á sniði virðisaukaskattsskýrslu með viðaukum|
-|      Rússland          |   Nóvember 2021     | 10.0.24    |   Alríkisreikningsskilastaðlar 6/2020 (fastafjármunir)|
-|      Rússland          |   2022. janúar     | 10.0.24HF, 10.0.25    |   Virkja rafræna skýrslugerð (ER) áfangastað til að geyma rússnesk bókhaldsskjöl (aðalskjöl og bókhaldsskýrslur)|
+|      Ítalía         |   2022. febrúar | 10.0.25HF, 10.0.26| Einstök vottun - 2022 í Dynamics 365 Finance  |
+|      Litháen|   2022. febrúar | 10.0.25HF, 10.0.26HF, 10.0.27 | i.SAF breytist úr 2022-01-01 í Dynamics 365 Finance  |
+|      Malasía|   2022. febrúar |10.0.26HF | SST-02 skattframtalsyfirlýsing. Breytingar á kassa  |
+|      Mexíkó         |   2022. janúar      | 10.0.26      |   MX - CFDI útgáfa 4.0 (hætt við)  |
+|      Mexíkó         |   2022. mars      | 10.0.25, 10.0.26, 10.0.26      |   CFDI snið útgáfa 4.0 (reikningar og greiðslur)  |
+|      Mexíkó         |   2022. febrúar      | 10.0.27      |   Frá og með 1. janúar 2022 tekur útgáfa 4.0 af CFDI gildi, með sambúðartímabili milli útgáfu 3.3 og útgáfu 4.0, sem stendur frá 1. janúar til 30. júní 2022.  |
+|      Mexíkó         |   2022. mars      | 10.0.25, 10.0.26, 10.0.27      |   CFDI snið útgáfa 4.0 (staðgreiðsla)  |
+|      Pólland          |   2022. apríl     | 10.0.25HF, 10.0.26HF, 10.0.27HF     |   JPK_FA útgáfa 4 frá 1. apríl 2022JPK_V7M - ný skemaútgáfa frá janúar 2022 |
+|      Rússland          |   2022. janúar     | 10.0.25    |   Virkja rafræna skýrslugerð (ER) áfangastað til að geyma rússnesk bókhaldsskjöl (aðalskjöl og bókhaldsskýrslur)|
 |      Rússland          |   2021. desember     | 10.0.25    |   Sameining fastafjármunir (Rússland) eining með eignastýringareiningu|
-|      Rússland          |   2022. febrúar     | 10.0.24HF, 10.0.25    |  Nýtt snið flutningsreiknings (tilskipun stjórnvalda N 2116 30.11.2021)|
-|      Sádi-Arabía          |   Nóvember 2021     | 10.0.24    |   Smásala - Rafræn reikningagerð í Sádi-Arabíu - 1. áfangi|
-|      Spánn      |   2022. mars| 10.0.24HF, 10.0.25HF | Spánn: VSK yfirlýsing líkan 303 breytist 1. janúar 2022 í Dynamics 365 Finance|
+|      Rússland          |   Mars - apríl 2022     | 10.0.25, 10.0.26    |  Nýtt snið flutningsreiknings (tilskipun stjórnvalda N 2116 30.11.2021)|
+|      Spánn      |   2022. mars| 10.0.25HF, 10.0.26HF, 10.0.27 | VSK yfirlýsing líkan 303 breytingar 1. janúar 2022 í Dynamics 365 Finance|
 
 
 

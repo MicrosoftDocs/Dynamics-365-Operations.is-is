@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c578420783a8d19fe4a1522486e0b0146a390722
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: c49e6cedcce1d336486e9fbcc0620bcdf455cc9d
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388185"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614125"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Dreifingarleiðbeiningar fyrir samþættingarsýnishorn ríkisskráningarþjónustu fyrir Þýskaland (arfleifð)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði veitir leiðbeiningar um útfærslu samþættingarsýnis fyrir skattaskráningarþjónustu fyrir Þýskaland frá Microsoft Dynamics 365 Commerce Smásöluhugbúnaðarþróunarsett (SDK) á sýndarvél þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar um þetta sýnishorn af samþættingu ríkisfjármála, sjá [Samþættingarsýni skattaskráningarþjónustu fyrir Þýskaland](emea-deu-fi-sample.md). 
 
@@ -128,7 +127,7 @@ Fylgdu þessum skrefum til að nota sýnishorn af POS viðbótum í eldri SDK.
 1. Endurnefna afritið af **Pos.Extension** möppu **PosFiscalConnector**.
 1. Fjarlægðu eftirfarandi möppur og skrár úr **PosFiscalConnector** mappa:
 
-    - bin
+    - karfa
     - DataService
     - devDependencies
     - Söfn
@@ -210,7 +209,7 @@ Eftirfarandi stillingum er bætt við:
 
 - **Kortlagning virðisaukaskattshlutfalla** – Kortlagning skattprósentugilda sem eru sett upp fyrir vsk-kóða við gildi á **TaxG** (skattflokkur) eigind í beiðnum sem sendar eru til ríkisskattstjóra.
 - **Skattflokkur fyrir gjafakort og innlán** - Verðmæti **TaxG** eiginleiki í beiðnum sem sendar eru til ríkisfjármála, byggt á rekstri sem felur í sér gjafakort eða innborgun.
-- **Kortlagning útboðstegunda** – Kortlagning greiðslumáta við gildi á **BorgaG** (greiðsluhópur) eigind í beiðnum sem sendar eru til ríkisfjármála.
+- **Útboðsgerð kortlagning** – Kortlagning greiðslumáta við gildi á **BorgaG** (greiðsluhópur) eigind í beiðnum sem sendar eru til ríkisfjármála.
 - **Skattflokkur undanþeginn virðisaukaskatti** - Verðmæti **TaxG** eigind í beiðnum sem sendar eru til ríkisfjármála, byggt á rekstri sem er undanþeginn skattskyldu.
 - **Láttu gögn viðskiptavina fylgja með** – Ef kveikt er á þessari færibreytu munu beiðnir til fjárhagsþjónustunnar innihalda upplýsingar um viðskiptavini, svo sem nöfn og heimilisföng, í þeim tilvikum þar sem viðskiptavinur er bætt við færslu.
 

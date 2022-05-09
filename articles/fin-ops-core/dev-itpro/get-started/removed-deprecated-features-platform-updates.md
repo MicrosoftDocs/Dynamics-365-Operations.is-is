@@ -2,7 +2,7 @@
 title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í vettvangsuppfærslum á Finance and Operations forritum.
 author: sericks007
-ms.date: 03/08/2022
+ms.date: 04/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396550"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644608"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eiginleikar verkvangs sem hafa verið fjarlægðir eða eru úreltir
 
@@ -32,17 +32,29 @@ ms.locfileid: "8396550"
 
 Ítarlegar upplýsingar um hluti í Finance and Operations öppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/global/axtechrefrep_61). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af Finance and Operations forritum.
 
-## <a name="feature-removal-effective-march-14-2022"></a>Fjarlæging eiginleika tekur gildi 14. mars 2022
+## <a name="feature-deprecation-effective-april-2022"></a>Afskrift eiginleiki gildir í apríl 2022
+
+### <a name="xml-url-resolution-in-data-management"></a>XML URL upplausn í gagnastjórnun 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Við erum að fjarlægja stuðning við upplausn XML vefslóða þar sem þetta hefur verið skilgreint sem hugsanlegt öryggisveiki. Þetta þýðir að ytri tilföng sem tengjast XML skrám verða ekki lengur leyst.  |
+| **Skipt út fyrir aðra eiginleika?**   | Nr. |
+| **Afurðasvæði sem haft er áhrif á**         | Forrit Finance and Operations |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt. |
+
+## <a name="feature-deprecation-effective-march-14-2022"></a>Afskrift eiginleiki gildir 14. mars 2022
 
 ### <a name="xslt-scripting-in-data-management"></a>XSLT forskriftir í gagnastjórnun
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Stuðningur við XSLT forskriftir í gagnastjórnun er úreltur til að bæta öryggi og gagnavernd innan Finance and Operations forritanna.  |
+| **Ástæða úreldingar/fjarlægingar** | Stuðningur við XSLT forskriftir í gagnastjórnun er úreltur til að bæta öryggi og gagnavernd innan Finance and Operations forrita.  |
 | **Skipt út fyrir aðra eiginleika?**   | Nr. Viðskiptavinir og ISVs ættu að íhuga að endurútfæra lausnir sínar byggðar á X++ tungumáli, í stað XSLT forskrifta. |
-| **Afurðasvæði sem haft er áhrif á**         | Fjármála- og rekstrarforrit. |
-| **Dreifingarvalkostur**              | Allt. |
-| **Staða**                         | Úrelt - áætlaður fjarlægingardagur er 14. mars 2022.<br><br>Undantekning: Viðskiptavinir sem eru að nota XLST forskriftir. Þeir geta haldið áfram að nota það þar til þeir uppfæra í útgáfu 10.0.30 eða síðar. Viðskiptavinir með þessa undantekningu hafa fengið tilkynningu í skilaboðamiðstöðinni sem er tiltæk í Microsoft 365 Stjórnunarmiðstöð. |
+| **Afurðasvæði sem haft er áhrif á**         | Forrit Finance and Operations |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt <br><br>**Undantekning:** Viðskiptavinir sem eru að nota XLST forskriftir. Þeir geta haldið áfram að nota það þar til þeir uppfæra í útgáfu 10.0.30 eða síðar. Fyrir eldri útgáfur mun undantekningin renna út 31. janúar 2023. Viðskiptavinir með þessa undantekningu hafa fengið tilkynningu í skilaboðamiðstöðinni sem er tiltæk í Microsoft 365 Stjórnunarmiðstöð. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Fjarlæging eiginleika tekur gildi í október 2021
 

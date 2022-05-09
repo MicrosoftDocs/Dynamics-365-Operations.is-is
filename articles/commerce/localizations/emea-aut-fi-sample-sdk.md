@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 65e2a64ed288fb0dcc05ec1ff2db8ed298ed3a76
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 7cb0e7b665add397b12e1a841b6a2e9565528d6d
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388416"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8613937"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Leiðbeiningar um dreifingu fyrir samþættingarsýni skattaskráningarþjónustu fyrir Austurríki (arfleifð)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Þetta efni veitir leiðbeiningar um útfærslu samþættingarsýnis fyrir ríkisskráningarþjónustu fyrir Austurríki frá Microsoft Dynamics 365 Commerce Smásöluhugbúnaðarþróunarsett (SDK) á sýndarvél þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar um þetta sýnishorn af samþættingu ríkisfjármála, sjá [Samþættingarsýni fyrir ríkisskattaskráningarþjónustu fyrir Austurríki](emea-aut-fi-sample.md). 
 
@@ -130,7 +129,7 @@ Fylgdu þessum skrefum til að nota sýnishorn af POS viðbótinni í eldri SDK.
 1. Endurnefna afritið af **Pos.Extension** möppu **PosFiscalConnector**.
 1. Fjarlægðu eftirfarandi möppur og skrár úr **PosFiscalConnector** mappa:
 
-    - bin
+    - karfa
     - DataService
     - devDependencies
     - Söfn
@@ -146,12 +145,12 @@ Fylgdu þessum skrefum til að nota sýnishorn af POS viðbótinni í eldri SDK.
 
 ### <a name="enable-modern-pos-extension-components"></a>Virkjaðu nútíma POS viðbótaríhluti
 
-1. Opnaðu **ModernPOS.sln** lausn undir **RetailSdk\\ POS**, og vertu viss um að hægt sé að setja hana saman án villna. Gakktu úr skugga um að þú getir keyrt Modern POS frá Visual Studio með því að nota **Hlaupa** skipun.
+1. Opnaðu **ModernPOS.sln** lausn undir **RetailSdk\\ POS**, og vertu viss um að hægt sé að setja það saman án villna. Að auki, vertu viss um að þú getir keyrt Modern POS frá Visual Studio með því að nota **Hlaupa** skipun.
 
     > [!NOTE]
     > Nútíma POS má ekki aðlaga. Þú verður að virkja User Account Control (UAC) og þú verður að fjarlægja áður uppsett tilvik af Modern POS eftir þörfum.
 
-2. Virkjaðu að viðbæturnar séu hlaðnar með því að bæta við eftirfarandi línum í **extensions.json** skrá.
+2. Gerðu kleift að hlaða viðbótunum með því að bæta við eftirfarandi línum í **extensions.json** skrá.
 
     ``` json
     {
@@ -164,15 +163,15 @@ Fylgdu þessum skrefum til að nota sýnishorn af POS viðbótinni í eldri SDK.
     ```
 
     > [!NOTE]
-    > Fyrir frekari upplýsingar og fyrir sýnishorn sem sýna hvernig á að innihalda frumkóðamöppur og gera kleift að hlaða viðbótum, sjáðu leiðbeiningarnar í readme.md skránni í **Pos.Extensions** verkefni.
+    > Fyrir frekari upplýsingar og fyrir sýnishorn sem sýna hvernig á að innihalda frumkóðamöppur og gera kleift að hlaða viðbótum, sjáðu leiðbeiningarnar í readme.md skránni í **Pos.Viðbætur** verkefni.
 
 3. Endurbyggðu lausnina.
 4. Keyrðu Modern POS í kembiforritinu og prófaðu virknina.
 
 ### <a name="enable-cloud-pos-extension-components"></a>Virkjaðu Cloud POS viðbótina
 
-1. Opnaðu **CloudPOS.sln** lausn undir **RetailSdk\\ POS**, og vertu viss um að hægt sé að setja hana saman án villna.
-2. Virkjaðu að viðbæturnar séu hlaðnar með því að bæta við eftirfarandi línum í **extensions.json** skrá.
+1. Opnaðu **CloudPOS.sln** lausn undir **RetailSdk\\ POS**, og vertu viss um að hægt sé að setja það saman án villna.
+2. Gerðu kleift að hlaða viðbótunum með því að bæta við eftirfarandi línum í **extensions.json** skrá.
 
     ``` json
     {
@@ -185,7 +184,7 @@ Fylgdu þessum skrefum til að nota sýnishorn af POS viðbótinni í eldri SDK.
     ```
 
     > [!NOTE]
-    > Fyrir frekari upplýsingar og fyrir sýnishorn sem sýna hvernig á að innihalda frumkóðamöppur og gera kleift að hlaða viðbótum, sjáðu leiðbeiningarnar í readme.md skránni í **Pos.Extensions** verkefni.
+    > Fyrir frekari upplýsingar og fyrir sýnishorn sem sýna hvernig á að innihalda frumkóðamöppur og gera kleift að hlaða viðbótum, sjáðu leiðbeiningarnar í readme.md skránni í **Pos.Viðbætur** verkefni.
 
 3. Endurbyggðu lausnina.
 4. Keyrðu lausnina með því að nota **Hlaupa** skipuninni og fylgdu skrefunum í Retail SDK handbókinni.

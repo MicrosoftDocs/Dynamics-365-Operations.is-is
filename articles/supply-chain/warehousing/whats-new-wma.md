@@ -2,7 +2,7 @@
 title: Nýjungar eða breytingar í farsímaforriti Warehouse Management
 description: Í þessu efnisatriði er að finna lista yfir nýja og breytta eiginleika fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 03/11/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
-ms.translationtype: MT
+ms.openlocfilehash: 679222005fe12009004921fa75a56145ae94c3ba
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487837"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644733"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
@@ -23,20 +23,35 @@ ms.locfileid: "8487837"
 
 Í þessu efnisatriði er að finna nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
 
+## <a name="version-20210"></a>Útgáfa 2.0.21.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+
+- Lagaði nokkur hrunvandamál.
+- Lagaði vandamál þar sem sumir stafir myndu ekki þekkjast þegar verið var að skanna eða slá inn á sjálfgefna síðu.
+- Lagaði vandamál þar sem að slá inn bakhlið á sjálfgefna síðunni myndi eyða tveimur stöfum í einu.
+- Lagaði mál þar sem **Raða eftir** sviði á **Verklisti** síða myndi birta rangt gildi sem samsvaraði ekki raunverulegri röðunarröð kortanna.
+- Lagaði vandamál þar sem rangt skipulag birtist eftir að stærð forritsgluggans var breytt á meðan verið var að keyra á Microsoft Windows.
+- Lagaði vandamál þar sem skrunun í sprettigluggalista gæti leitt til þess að sum listaatriði haldist falin eða brenglast.
+- Endurhannað innskráningarsíðuna til að láta hana birta notendanafn og lykilorð svæði á sömu síðu þegar hún er keyrð á stærri skjám.
+- Bætt hvernig stjórntæki bregðast við hröðum banka.
+- Bætt við villuskráningu í forriti.
+- Bætti við nokkrum aðgengisumbótum (bætt frásögn, fastir vantar staðgenglar á Android, virkt lyklaborðsinntak fyrir sleðastýringar og fleira).
+
 ## <a name="version-20200"></a>Útgáfa 2.0.20.0
 
 Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
 
 - Lagaði nokkur hrunvandamál.
 - Lagaði vandamál þar sem röng gildi myndu birtast á spjöldum á **Verklisti** síðu.
-- Bætti skrunupplifunina og útrýmdi skrunflisi á **Verklisti** og **Atriðafyrirspurn** síður í Android.
+- Bætti skrunupplifunina og útrýmdi skrunflisi á **Verklisti** og **Atriðafyrirspurn** síður inn Android.
 - Bætti útgönguhnappi við innskráningarsíðuna, sem hættir forritinu.
 
 ## <a name="version-20190"></a>Útgáfa 2.0.19.0
 
 Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
 
-- Bætti almenna gagnafyrirspurnarflæðið.
+- Bætt almenna gagnafyrirspurnarflæðið.
 - Bætti pirrandi málið á **Verklisti** og **Atriðafyrirspurn** síður.
 - Minni rafhlöðunotkun.
 - Fjarlægði takmörk á fjölda reita fyrir vinnukort.
@@ -74,7 +89,7 @@ ms.locfileid: "8487837"
   - Breyta tengingu
 - Föst skrun þegar þú notar lyklaborðsleiðsögn.
 - Aukið aðgengi, þar á meðal eftirfarandi endurbætur:
-  - Fast litasýnileiki og birtuskil.
+  - Föst litasýnileiki og birtuskil.
   - Kom í veg fyrir tap á lyklaborðsfókus þegar sprettigluggasíðum er lokað.
   - Bætti villuskilaboðum við frásögnina.
   - Aukin stærð staðgengilsgilda í skrefaborðanum.

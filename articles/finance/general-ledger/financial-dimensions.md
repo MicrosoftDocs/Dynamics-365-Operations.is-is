@@ -2,7 +2,7 @@
 title: Fjárhagsvíddir
 description: Þessi efnisgrein lýsir ýmsum gerðum fjárhagsvídda og hvernig þær eru settar upp.
 author: aprilolson
-ms.date: 01/03/2019
+ms.date: 03/07/2022
 ms.topic: article
 ems.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d5de5b58f0d498c4766659671d43fdb216cd6a870345509505b5a6bc19bdd4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 36e667e8dd1282e788eb40cd392baa9db824cec2
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754195"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644360"
 ---
 # <a name="financial-dimensions"></a>Fjárhagsvíddir
 
@@ -31,7 +31,7 @@ Nota skal skjámyndina **Fjárhagsvíddir** til að stofna fjárhagsvíddir sem 
 
 Eftir að búið er að stofna fjárhagsvíddir skal nota síðuna **Fjárhagsvíddargildi** til að úthluta fleiri eiginleikum fyrir hverja fjárhagsvídd.
 
-Hægt er að nota fjárhagsvíddir til að tákna lögaðila. Ekki þarf að stofna lögaðila í Dynamics 365 Finance. Hins vegar eru fjárhagsvíddir ekki hannaðar til að takast á við rekstrar- eða viðskiptaskilyrði lögaðila. Interunit úthlutunarkostnaðar í Finance er hannað til að aðsetur aðeins bókhaldsfærslur sem eru stofnaðar eftir hverja færslu.
+Hægt er að nota fjárhagsvíddir til að tákna lögaðila. Þú þarft ekki að stofna lögaðilana í Dynamics 365 Finance. Hins vegar eru fjárhagsvíddir ekki hannaðar til að takast á við rekstrar- eða viðskiptaskilyrði lögaðila. Interunit úthlutunarkostnaðar í Finance er hannað til að aðsetur aðeins bókhaldsfærslur sem eru stofnaðar eftir hverja færslu.
 
 Áður en fjárhagsvíddir eru settar upp sem lögaðilar skal meta viðskiptaferli á eftirfarandi svæðum til að ákvarða hvort þessi uppsetning muni gagnast fyrirtækinu:
 
@@ -79,8 +79,12 @@ Til að viðhalda heilleika gagna er sjaldan hægt að eyða fjárhagsvíddum. E
 - Er fjárhagsvíddin notuð í öllu virku lykilskipulagi, ítarleg reglu skipulag fjárhagsvídd eða fjárhagsvídd set?
 - Er fjárhagsvídd hluti af sjálfgefinu samþættingarsniði fjárhagsvíddar?
 - Hefur fjárhagsvídd verið uppsett sem sjálfgefin vídd?
+- Hefur fjárhagsvíddin verið valin úr uppsetningu fjárhagsskýrslu? 
 
 Ef einhverjum skilyrðum er mætt er ekki hægt að eyða fjárhagsvíddinni.
+
+> [!NOTE]
+> Frá og með Finance útgáfu 10.0.27 verða fjárhagsvíddir ekki lengur sjálfkrafa valdar fyrir uppsetningu fjárhagsskýrslu þegar þær eru búnar til. 
 
 ## <a name="default-dimension-values"></a>Sjálfgefin víddargildi
 

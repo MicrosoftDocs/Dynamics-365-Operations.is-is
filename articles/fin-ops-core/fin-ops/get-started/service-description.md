@@ -1,26 +1,26 @@
 ---
-title: Lýsing á þjónustu fyrir Finance and Operations-forrit
-description: Þetta efnisatriði inniheldur þjónustulýsingu fyrir Finance and Operations-forrit.
+title: Þjónustulýsing fyrir Finance and Operations öpp
+description: Þetta efnisatriði veitir þjónustulýsingu fyrir Finance and Operations forrit.
 author: tomhig
-ms.date: 01/05/2022
+ms.date: 04/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 85f82a863f0bde4c0414760fa2477651242538f2
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
-ms.translationtype: MT
+ms.openlocfilehash: cd033cfc3df21ddac5572aa70c18db5ffe26f54e
+ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952367"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8656804"
 ---
-# <a name="service-description-for-finance-and-operations-apps"></a>Lýsing á þjónustu fyrir Finance and Operations-forrit
+# <a name="service-description-for-finance-and-operations-apps"></a>Þjónustulýsing fyrir Finance and Operations öpp
 
 [!include[banner](../includes/banner.md)]
 
-Finance and Operations-forritin eru bókhalds- og áætlunargerðarhugbúnaður fyrir SaaS-þjónustum sem eru byggðar upp á og fyrir [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/). Finance and Operations-þjónustan veitir stofnunum/fyrirtækjum virkni bókhalds- og áætlunargerðarhugbúnaðar sem styður einstakar kröfur þeirra og hjálpar þeim að laga sig að síbreytilegu viðskiptaumhverfi, án þess að gera kröfu um að þeir sjái um tölvukerfi. Finance and Operations-forrit geta innihaldið eitt eða fleiri af eftirfarandi lausnasvæðum:
+Fjármála- og rekstrarforrit eru hugbúnaðar sem þjónustu (SaaS) sem eru byggð á og fyrir [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/). Fjármála- og rekstrarþjónustan veitir fyrirtækjum ERP virkni sem styður einstaka kröfur þeirra og hjálpar þeim að aðlagast síbreytilegu viðskiptaumhverfi, án þess að þurfa að stjórna innviðum. Fjármála- og rekstrarforrit geta innihaldið eitt eða fleiri af eftirfarandi lausnarsviðum:
 
 - [Dynamics 365 Finance](/dynamics365/finance/)
 - [Dynamics 365 Human Resources](/dynamics365/human-resources/)
@@ -32,21 +32,21 @@ Með [viðskiptagreind](/power-bi/fundamentals/power-bi-service-overview), [töl
 
 - Innbyggð [sérsniðna upplifun](personalize-user-experience.md)
 - [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md)-verkfæri
-- [Sjálfvirkni byggð á Visual Studio](https://visualstudio.microsoft.com) [Finance and Operations hugbúnaðarþróunarpakka (SDK)](../../dev-itpro/dev-tools/developer-home-page.md) og [Azure DevOps-smíði](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
+- [Visual Studio](https://visualstudio.microsoft.com)-byggt [Fjármála- og rekstrarhugbúnaðarþróunarsett (SDK)](../../dev-itpro/dev-tools/developer-home-page.md) og [Azure DevOps byggja sjálfvirkni](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
 - Lausnir óháðs hugbúnaðarsala frá [AppSource](https://appsource.microsoft.com/partners)
 
 Út frá þessum kröfum velja viðskiptavinir sína lausn. Þeir vinna með innleiðingaraðila sínum til að skilgreina, þróa og prófa lausn sína með því að nota tólin og bestu starfsvenjurnar sem veittar eru í [Microsoft Dynamics Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/lcs.md). Það eru fjórar algengar aðstæður:
 
-- Venjuleg grunnstilling Finance and Operations-forrita beint úr kassanum (engar viðbætur)
-- Finance and Operations-forritastilling sem inniheldur eina eða fleiri lausnir óháðra hugbúnaðarsala
-- Grunnstilling Finance and Operations forrita sem inniheldur eina eða fleiri viðbætur sem eru sértækar fyrir viðskiptavini
-- Finance and Operations-forritastilling sem inniheldur samsetningu viðbóta frá viðskiptavini og einnar eða fleiri lausna óháðra hugbúnaðarsala
+- Hefðbundin fjármála- og rekstrarforrit „úr kassanum“ uppsetningu (engar viðbætur)
+- Uppsetning fjármála- og rekstrarappa sem inniheldur eina eða fleiri ISV lausnir
+- Uppsetning fjármála- og rekstrarforrita sem inniheldur eina eða fleiri viðskiptasértækar viðbætur
+- Uppsetning fjármála- og rekstrarappa sem felur í sér blöndu af viðskiptavinasértækum viðbótum og einni eða fleiri ISV lausnum
 
 Stofnanir/fyrirtæki geta jafnað vöxt rekstrarins með því að bæta notendum og viðskiptaferlum auðveldlega við með einföldu, gagnsæju áskriftarlíkani. Frekari upplýsingar eru í [Leiðbeiningar fyrir Dynamics 365-leyfi](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365).
 
 ## <a name="operating-model"></a>Vinnslulíkan
 
-Rekstrarlíkan Finance and Operations-forrita skilgreinir tiltekin hlutverk og ábyrgð fyrir viðskiptavininn, innleiðingaraðila og Microsoft á öllu líftíma þjónustunnar. Frekari upplýsingar er að finna í [Aðgerðir og þjónusta í skýi](../../dev-itpro/lifecycle-services/cloud-operations-servicing.md).
+Rekstrarlíkan Finance and Operations forrita skilgreinir tiltekin hlutverk og ábyrgð fyrir viðskiptavininn, innleiðingaraðilann og Microsoft allan líftíma þjónustunnar. Frekari upplýsingar er að finna í [Aðgerðir og þjónusta í skýi](../../dev-itpro/lifecycle-services/cloud-operations-servicing.md).
 
 ### <a name="customer-activities"></a>Verkþættir viðskiptavinar
 
@@ -61,7 +61,7 @@ Viðskiptavinir vinna með maka sínum og [Microsoft FastTrack](/dynamics365/fas
 
 ### <a name="microsoft-responsibilities"></a>Skyldur Microsoft
 
-Microsoft hefur umsjón með Finance and Operations-þjónustunni með því að innleiða, hafa virkt eftirlit með og þjónusta sandkassa- og framleiðsluumhverfi viðskiptavina í Microsoft SaaS-áskriftinni. Þessi stjórnun felur í sér að úthluta nauðsynlegum tölvukerfum til að keyra þjónustuna og eiga í framvirkum samskiptum við viðskiptavini um ástand þjónustunnar. Ábyrgð nær til:
+Microsoft heldur utan um fjármála- og rekstrarþjónustuna með því að dreifa, fylgjast með og þjónusta sandkassa og framleiðsluumhverfi viðskiptavina í Microsoft SaaS áskriftinni. Þessi stjórnun felur í sér að úthluta nauðsynlegum tölvukerfum til að keyra þjónustuna og eiga í framvirkum samskiptum við viðskiptavini um ástand þjónustunnar. Ábyrgð nær til:
 
 **Stjórnun tölvukerfa**
 - Öryggi og einangrun
@@ -79,7 +79,7 @@ Microsoft hefur umsjón með Finance and Operations-þjónustunni með því að
 
 ## <a name="system-configuration"></a>Kerfisgrunnstilling
 
-Stærð Finance and Operations-forrita eftir færslumagni og notkun. Hver innleiðing viðskiptavinar skapar einstaka lausn sem samanstendur af eftirfarandi þáttum:
+Fjármála- og rekstrarforrit skala í samræmi við viðskiptamagn og notendaálag. Hver innleiðing viðskiptavinar skapar einstaka lausn sem samanstendur af eftirfarandi þáttum:
 
 - **Gagnasamsetning** – Einstakt sett af færibreytum sem stýra hegðun, skipulagi stofnunar/fyrirtækis, uppbyggingu aðalgagna (eins og fjárhags- og birgðavíddir) og rekjanleika færslna.
 - **Viðbót og stilling** – Viðbótaleiðir sem nota kóðaviðbætur, ISV-lausnir og einstakar stillingar sem fela í sér vinnuflæði, samþættingar og skýrslugerðarstillingar.
@@ -89,11 +89,11 @@ Microsoft stillir framleiðsluumhverfi viðskiptavina sem eru stærðarflokkuð 
 
 - Rétt úthlutun tilfanga framleiðsluumhverfis, byggt á upplýsingum viðskiptavinarins í [LCS-áskriftarmatstækinu](../../dev-itpro/lifecycle-services/subscription-estimator.md)
 - Stöðugt eftirlit og greining á þjónustuframboði framleiðsluumhverfa
-- Vandamál við greiningu og bilanagreiningu á afköstum kerfisins með Finance and Operations forritum
+- Greining og úrræðaleit vandamál með afköst kerfisins með Finance and Operations öppum
 
 Til að tryggja að innleiðing sé stillt með tilliti til mikilla afkasta verða viðskiptavinir að ljúka þessum verkum:
 
-- Gefa réttar notkunarupplýsingar um Finance and Operations-innleiðingu í [LCS-áskriftarmatstækinu](../../dev-itpro/lifecycle-services/subscription-estimator.md).
+- Gefðu nákvæmar notkunarupplýsingar um framkvæmd fjármála og rekstrar í [LCS áskriftarmat](../../dev-itpro/lifecycle-services/subscription-estimator.md).
 - Smíða- og prufuviðbætur fyrir afköst og umfang.
 - Prófa gagnastillingar rétt vegna afkasta.
 - Gakktu úr skugga um skalanleika með því að gera [afkastapróf](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018) áður en keyrsla fer í gang.
@@ -112,17 +112,17 @@ Frekari upplýsingar er að finna í [Innleiðing innleiðingarverks](../imp-lif
 
 ## <a name="globalization"></a>Staðfæring
 
-Finance and Operations forrit eru veitt frá nokkrum Azure svæðum um allan heim. Finance and Operations forritin veita virkni til að styðja við mismunandi lönd/svæði og móðurmál. Frekari upplýsingar er að finna [Staðfærslu- og eftirlitseiginleikar](../../dev-itpro/lcs-solutions/country-region.md#localization-and-regulatory-features).
+Fjármála- og rekstrarforrit eru þjónað frá nokkrum Azure svæðum um allan heim. Fjármála- og rekstraröpp bjóða upp á virkni til að styðja við mismunandi lönd/svæði og móðurmál. Frekari upplýsingar er að finna [Staðfærslu- og eftirlitseiginleikar](../../dev-itpro/lcs-solutions/country-region.md#localization-and-regulatory-features).
 
 ### <a name="countryregion-specific-considerations"></a>Atriði sem varða tiltekið land/svæði
 
-- Viðskiptavinir í eftirlitsskyldum iðnaði eða viðskiptafélögum sem eiga viðskipti við aðila í Frakklandi sem gera kröfu um búsetu á staðnum ættu að fara yfir gögn [Finance and Operations í Frakklandi](../../dev-itpro/deployment/france-local-deployment.md).
-- Viðskiptavinir sem eru með starfsemi í Kína ættu að skoða [Azure China Playbook](/azure/china/) og [Finance and Operations rekið af 21Vianet í Kína](../../dev-itpro/deployment/china-local-deployment.md).
+- Viðskiptavinir í eftirlitsskyldum iðnaði eða viðskiptastofnunum sem eiga viðskipti við aðila í Frakklandi sem krefjast staðbundins gagnavistar ættu að endurskoða [Fjármál og rekstur í Frakklandi](../../dev-itpro/deployment/france-local-deployment.md).
+- Viðskiptavinir sem eru með starfsemi í Kína ættu að skoða [Azure China Playbook](/azure/china/) og [Fjármál og rekstur rekið af 21Vianet í Kína](../../dev-itpro/deployment/china-local-deployment.md).
 - Viðskiptavinir sem eru með starfsemi í Rússlandi ættu að fara yfir [rússnesk lög um staðfærslu persónuupplýsinga](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Almenna persónuverndarreglugerðin (GDPR)
 
-Fyrir Finance and Operations-forrit virkar Microsoft sem vinnsluminni. Sem gagnavinnsluaðili veitir Finance and Operations ferli og eiginleika sem hjálpa viðskiptavinum að uppfylla skyldur GDPR sem ábyrgðaraðili gagna. Frekari upplýsingar er að finna í [GDPR-yfirlit](../../dev-itpro/gdpr/gdpr-guide.md).
+Fyrir fjármála- og rekstrarforrit virkar Microsoft sem vinnsluaðili. Sem gagnavinnsluaðili veitir Finance and Operations ferla og eiginleika sem hjálpa viðskiptavinum að uppfylla GDPR-skyldur sem ábyrgðaraðili gagna. Frekari upplýsingar er að finna í [GDPR-yfirlit](../../dev-itpro/gdpr/gdpr-guide.md).
 
 ## <a name="environment-and-data-management"></a>Umhverfi og gagnastjórnun
 
@@ -182,7 +182,7 @@ LCS veitir [sjálfsafgreiðsluúthlutun](../../dev-itpro/deployment/infrastructu
 
 ## <a name="data-backup-and-retention"></a>Öryggisafrit og varðveisla gagna
 
-Gagnagrunnar fyrir Finance and Operations umhverfi í SaaS-áskriftinni eru varðir með sjálfvirkum öryggisafritum. Í framleiðsluumhverfi eru sjálfvirk öryggisafrit geymd í 28 daga, nema Microsoft sé með öryggisafrit. Fyrir umhverfi sandkassa (lag 2+) eru þeir geymdir í sjö daga. Hægt er að endurheimta framleiðsluumhverfi ef bilun kemur upp við áætlaða viðhaldsuppfærslu.
+Gagnagrunnar fyrir fjármála- og rekstrarumhverfi í SaaS áskriftinni eru verndaðir með sjálfvirkum afritum. Í framleiðsluumhverfi eru sjálfvirk öryggisafrit geymd í 28 daga, nema Microsoft sé með öryggisafrit. Fyrir umhverfi sandkassa (lag 2+) eru þeir geymdir í sjö daga. Hægt er að endurheimta framleiðsluumhverfi ef bilun kemur upp við áætlaða viðhaldsuppfærslu.
 
 Frekari upplýsingar um sjálfvirk öryggisafrit eru í [Sjálfvirk öryggisafrit - Azure SQL-gagnagrunnur & SQL-stjórnað tilvik](/azure/azure-sql/database/automated-backups-overview?tabs=single-database).
 
@@ -228,13 +228,13 @@ Eftirfarandi tafla lýsir dæmigerðum aðstæðum og starfsemi þjónustunnar. 
 
 ## <a name="service-update-strategy"></a>Þjónustuuppfærsluáætlun
 
-Í samræmi við [reglur um stuðningstíma hugbúnaðar](../../dev-itpro/migration-upgrade/versions-update-policy.md) fylgja Finance and Operations forrit [Modern-reglum Microsoft um stuðningstíma](../../dev-itpro/migration-upgrade/versions-update-policy.md#modern-lifecycle-policy), sem nær yfir vörur sem eru stöðugt þjónustaðar og studdar. 
+Í samræmi við [lífsferilsstefnu hugbúnaðar](../../dev-itpro/migration-upgrade/versions-update-policy.md), Fjármála- og rekstraröpp fylgja Microsoft [Nútíma lífsferilsstefna](../../dev-itpro/migration-upgrade/versions-update-policy.md#modern-lifecycle-policy), sem nær yfir vörur sem eru stöðugt þjónustaðar og studdar. 
 
 Microsoft gefur út átta þjónustuuppfærslur á Finance and Operations forritum á hverju ári á eftirfarandi mánuðum:
 
 - janúar
 - febrúar
-- apríl
+- Apríl
 - maí
 - júlí
 - ágúst
@@ -255,7 +255,7 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efnisatriðum:
 
 ## <a name="security-and-administrative-access"></a>Öryggi og stjórnunaraðgangur
 
-Stjórnunaraðgangi Finance and Operations framleiðsluumhverfi er stranglega stýrt og hann skráður. Gögn um viðskiptavini eru meðhöndluð í samræmi við [skilmála Microsoft Online Services](https://www.microsoft.com/licensing/terms/productoffering). 
+Stjórnunaraðgangur að framleiðsluumhverfi Finance and Operations er stranglega stjórnað og skráður. Gögn um viðskiptavini eru meðhöndluð í samræmi við [skilmála Microsoft Online Services](https://www.microsoft.com/licensing/terms/productoffering). 
 
 ### <a name="customer-administrative-access"></a>Stjórnunaraðgangur viðskiptavinar
 
@@ -264,7 +264,7 @@ Stjórnandi leigjanda hjá viðskiptavini getur fengið aðgang að framleiðslu
 | Gerð umhverfis | Notkun | Aðgangsstig viðskiptavinar |
 |---|---|---|
 | **Ekki framleiðsla**<br>Lag 1 sandkassi | Umhverfi sem ekki tengist framleiðslu sem viðskiptavinir setja upp í þróunar-, sýningar- eða þjálfunarskyni. | Lag 1 sandkassi (einnig nefnt skýjahýst umhverfi) er sýndarvél sem viðskiptavinur stjórnar sem er sett upp á Azure-áskrift viðskiptavinarins frá LCS. Þar sem um sýndarvél á Azure-áskrift viðskiptavinarins er að ræða hefur viðskiptavinurinn fullan stjórnunaraðgang að umhverfinu í gegnum fjartengt skjáborð. |
-| **Ekki framleiðsla**<br>Lag 2 (eða hærra) sandkassi | Framleiðsluumhverfi sem ekki tengist framleiðslu sem viðskiptavinir setja upp fyrir samþykkisprófun notanda, prófanir á samþættingu, þjálfun, sviðsetningu eða aðrar aðstæður fyrir framleiðslu. | Lag 2 og hærri sandkassar eru settir í Finance and Operations SaaS-þjónustuáskriftina. Aðgangur að Azure SQL-gagnagrunnum sem eru tengdir umhverfi sem ekki tengist framleiðslu er veittur með [samtímaaðgangi](../../dev-itpro/database/database-just-in-time-jit-access.md). Aðgangur í gegnum fjartengt skjáborð er ekki í boði. |
+| **Ekki framleiðsla**<br>Lag 2 (eða hærra) sandkassi | Framleiðsluumhverfi sem ekki tengist framleiðslu sem viðskiptavinir setja upp fyrir samþykkisprófun notanda, prófanir á samþættingu, þjálfun, sviðsetningu eða aðrar aðstæður fyrir framleiðslu. | Tier 2 og hærri sandkassar eru notaðir í Finance and Operations SaaS áskriftina. Aðgangur að Azure SQL-gagnagrunnum sem eru tengdir umhverfi sem ekki tengist framleiðslu er veittur með [samtímaaðgangi](../../dev-itpro/database/database-just-in-time-jit-access.md). Aðgangur í gegnum fjartengt skjáborð er ekki í boði. |
 | **Framleiðsla** | Framleiðsluumhverfi er tekið í notkun þegar verkið er [tilbúið fyrir fyrstu keyrslu](/imp-lifecycle/environment-planning.md#production-system-readiness). | Framleiðsluumhverfi er sett upp á SaaS-áskriftina. Allur aðgangur er í gegnum vafra, endastöðvar þjónustu eða LCS. |
 
 ### <a name="microsoft-administrative-access"></a>Microsoft-stjórnunaraðgangur
@@ -296,7 +296,7 @@ Frekari upplýsingar varðandi alvarleikastig eru í [þessari alvarleikatöflu]
 
 ## <a name="business-continuity-through-high-availability-and-disaster-recovery"></a>Samfella í rekstri með miklu framboði og endurheimt eftir hamfarir 
 
-Microsoft býður upp á samfellu í rekstri og endurheimt eftir hamfarir vegna framleiðslutilvika Finance and Operations-forrita ef bilun verður í Azure innan svæðis. Frekari upplýsingar eru í [Rekstrarsamfella og endurheimt eftir áföll](../../dev-itpro/sysadmin/business-continuity-disaster-recovery.md).
+Microsoft veitir samfellu í viðskiptum og hamfarabata fyrir framleiðslutilvik fjármála- og rekstrarforrita ef bilun verður á Azure-svæðinu. Fyrir frekari upplýsingar, þar á meðal þjónustu Recovery Time Objective (RTO) og Recovery Point Objective (RPO), sjá [Samfelld viðskipta og hörmungarbati](../../dev-itpro/sysadmin/business-continuity-disaster-recovery.md).
 
 - **Mikið framboð** – Virknin „Mikið framboð“ býður upp á leiðir til að koma í veg fyrir stöðvun sem stafar af bilun í einum hnút í Azure-gagnaveri. Uppbygging skýs hvers þjónustusvæðis notar Azure-framboðs fyrir tölvulagið til að koma í veg fyrir atburði vegna afmarkaðrar bilunar. HA fyrir gagnagrunna er veitt í gegnum [Azure SQL HA eiginleika](/azure/azure-sql/database/high-availability-sla).
 - **Endurheimt vegna hamfara** – [Azure-endurheimtareiginleikar vegna hamfara](/azure/best-practices-availability-paired-regions) vernda hverja þjónustu gegn bilunum sem hafa víðtæk áhrif á alla Azure-gagnamiðstöðina. Hér eru nokkrir þessara eiginleika:
@@ -305,28 +305,19 @@ Microsoft býður upp á samfellu í rekstri og endurheimt eftir hamfarir vegna 
     - Landfræðileg afrit af Azure Blob Storage (sem inniheldur fylgiskjöl í viðhengi) á öðrum Azure svæðum.
     - Aukasvæði fyrir Azure SQL- og Azure Blob Storage-afritanir.
 
-Aðalgagnageymslurnar eru studdar til afritunar. Þess vegna nota íhlutir fyrir hverja þjónustu, svo sem Management Reporter og einingaverslun, umbreytt gögn úr frumgagnagrunninum. Þessi gögn verða að vera búin til eftir að endurheimtarstaðurinn hefur verið settur upp og þjónustan hefur verið ræst. Viðskiptamannakóðagervingar og endurheimt gögn eru notuð til að setja  vefsvæðið upp aftur. Enduruppsetning gerir afritun reiknihnúta, ásamt nettengingu og öðrum þáttum, kleift að nota endurheimtar gagnageymslur til að setja upp aukavefsvæði. Ef endurheimt eftir hamfarir er notuð til að endurheimta framleiðslutilvik viðskiptavinarins munu Microsoft og viðskiptavinurinn uppfylla skyldur sínar varðandi [stjórnun atvika](service-description.md#incident-management).
+Ef endurheimt eftir hamfarir er notuð til að endurheimta framleiðslutilvik viðskiptavinarins munu Microsoft og viðskiptavinurinn uppfylla skyldur sínar varðandi [stjórnun atvika](service-description.md#incident-management).
 
-Endurheimtuáætlanir og verklagsreglur Microsoft vegna hamfara eru skoðaðar reglulega með endurskoðun á kerfi og skipulagi (SOC). Þessar úttektir bera vott um tæknilegt og verklag við DR-endurskoðun Microsoft, þar á meðal Dynamics 365 Finance and Operations-forrit. [Úttektarskýrslur](/compliance/regulatory/offering-soc-2) og allar aðrar reglufylgniskýrslur eru aðgengilegar í [Microsoft Trust Center](/compliance/regulatory/offering-home).
+Endurheimtuáætlanir og verklagsreglur Microsoft vegna hamfara eru skoðaðar reglulega með endurskoðun á kerfi og skipulagi (SOC). Þessar fylgniúttektir vitna um tæknilega og verklagslega ferli Microsoft DR, þar á meðal Dynamics 365 Finance and Operations forrit. [Úttektarskýrslur](/compliance/regulatory/offering-soc-2) og allar aðrar reglufylgniskýrslur eru aðgengilegar í [Microsoft Trust Center](/compliance/regulatory/offering-home).
 
-| Skyldur Microsoft | Skyldur viðskiptavina |
-|---|---|
-| Microsoft býður upp á aukaumhverfi í Azure-pöruðu gagnasmiðjunni þegar frumframleiðslutilvikið er tekið í notkun. Frekari upplýsingar eru í [Rekstrarsamfella og endurheimt eftir áföll: Azure-pöruð svæði](/azure/best-practices-availability-paired-regions). | Engum |
-| Microsoft gerir Azure SQL og Azure Blob Storage landfræðilega óháð þegar frumframleiðslutilvikið er tekið í notkun. | Engum |
-| Microsoft býður upp á sjálfvirka öryggisafritun á Azure SQL-gagnagrunnunum. | Engum |
-| <p>Þegar stöðvun á sér stað ákveður Microsoft hvort nota þurfi varakerfi fyrir viðskiptavininn og hvort um gagnatap er að ræða. Viðskiptavinir gætu orðið fyrir gagnatapi í allt að 15 mínútur, allt eftir eðli og tímasetningu bilunarinnar. | Ef gagnatap er, gæti viðskiptavinurinn þurft að gefa upp skriflega afskráningu til að koma af stað bilun. |
-| Þegar varakerfi tekur við virkar viðeigandi þjónusta í takmarkaðri stillingu. Ekki er hægt að ræsa uppfærsluviðhald í varakerfisstillingu. | Viðskiptavinurinn getur ekki óskað eftir pakkauppsetningum eða öðrum reglulegum viðhaldsbeiðnum í varakerfisstillingu. |
-| Þegar gagnamiðstöðin kemst aftur í gang stillir Microsoft aftur á framleiðslutilvikið á Azure-svæðinu. Venjulega notkun heldur áfram. | Viðskiptavinurinn gæti þurft að skrá sig af við bilun í framleiðslutilvikinu á aðal Azure svæðinu. |
+## <a name="finance-and-operations-support-offerings"></a>Stuðningstilboð í fjármálum og rekstri
 
-## <a name="finance-and-operations-support-offerings"></a>Finance and Operations stuðningstilboð
-
-Tæknileg aðstoð er í boði á mörkuðum þar sem boðið er upp á Finance and Operations þjónustu. [Stuðningsupplifanir](../../dev-itpro/lifecycle-services/lcs-support.md) eru veittar í LCS eða Finance and Operations-forritum. Hér eru nokkur dæmi:
+Tækniaðstoð er í boði á mörkuðum þar sem boðið er upp á fjármála- og rekstrarþjónustu. [Styðja reynslu](../../dev-itpro/lifecycle-services/lcs-support.md) eru veittar í LCS eða Finance and Operations öppum. Hér eru nokkur dæmi:
 
 - [Vandamálaleit](../../dev-itpro/lifecycle-services/issue-search-lcs.md) í LCS
-- [Innbyggður tæknilegur stuðningur](../../dev-itpro/lifecycle-services/support-experience.md) í Finance and Operations-forritum
+- [Innbyggð tækniaðstoð](../../dev-itpro/lifecycle-services/support-experience.md) í Finance and Operations öppum
 - [Stuðningur í skýi](../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md) í LCS
 
-Microsoft býður Finance and Operations-viðskiptavinum upp á þrjár þjónustuáætlanir: Premier, Professional Direct og þann stuðning sem er innifalinn í áskriftinni. Stuðningsstigið fer eftir áskriftum. Eftirfarandi tafla sýnir samanburð á áskriftarleiðunum þremur.
+Microsoft býður viðskiptavinum Finance and Operations upp á þrjár stuðningsáætlanir: Premier, Professional Direct og stuðninginn sem er innifalinn í áskriftinni. Stuðningsstigið fer eftir áskriftum. Eftirfarandi tafla sýnir samanburð á áskriftarleiðunum þremur.
 
 | Studdur eiginleiki | Premier-samningur | Professional Direct | Áskrift |
 |---|---|---|---|
@@ -341,7 +332,7 @@ Frekari upplýsingar eru í [Stuðningsyfirlit](/power-platform/admin/support-ov
 
 ### <a name="process-to-engage-support"></a>Ferli til að nýta stuðning
 
-Ef upp koma atvik sem fela í sér Finance and Operations-forrit geta viðskiptavinir sent inn þjónustubeiðni til Microsoft í gegnum LCS. CSS meðhöndlar atvikin, byggt á þjónustuáætlun viðskiptavinarins og alvarleika atviksins eins hann er skilgreindur af CSS.
+Ef upp koma atvik sem fela í sér Finance and Operations öpp senda viðskiptavinir stuðningsmiða til Microsoft í gegnum LCS. CSS meðhöndlar atvikin, byggt á þjónustuáætlun viðskiptavinarins og alvarleika atviksins eins hann er skilgreindur af CSS.
 
 ### <a name="service-level-agreement"></a>Þjónustustigssamningur
 
@@ -349,7 +340,7 @@ Microsoft ábyrgist notkunartíma þjónustu upp á 99,9 prósent á mánuði. E
 
 ## <a name="important-resources"></a>Mikilvæg tilföng
 
-- **[Öryggismiðstöð](https://www.microsoft.com/trust-center)** – Fáðu upplýsingar um hvar Finance and Operations-gögnin þín eru geymd ásamt viðbótarupplýsingum um persónuvernd, reglufylgni og öryggisaðferðir.
+- **[Traustamiðstöð](https://www.microsoft.com/trust-center)** - Fáðu upplýsingar um hvar fjármála- og rekstrargögnin þín eru geymd, auk viðbótarupplýsinga um friðhelgi einkalífs, reglufylgni og öryggisaðferðir.
 - **[Leyfisskilmálar og fylgigögn](https://www.microsoftvolumelicensing.com/)** – Fljótur aðgangur að leyfisskilmálum, skilyrðum og viðbótarupplýsingum sem skipta máli fyrir notkun á vörum og þjónustu sem hafa leyfi samkvæmt fjöldaleyfisáætlunum Microsoft.
 - **[Leyfisskilmálar](https://www.microsoft.com/licensing/product-licensing/)** – Úrræðin á þessari síðu skilgreina skilmála fyrir hugbúnað og þjónustu á netinu sem þú kaupir í gegnum Microsoft viðskiptaleyfisáætlanir.
 - **[Reglur Microsoft um stuðningstíma](/lifecycle/)** – Þessi síða inniheldur samræmdar reglur sem segja fyrir um gildistíma notendaþjónustu fyrir tiltekna vöru.
@@ -366,7 +357,7 @@ Landsvæði þar sem eitt eða fleiri Azure-gagnaver eru til staðar. Dæmi taka
 
 ### <a name="business-process-modeler-bpm"></a>[Viðskiptaferlavinnsla (BPM)](../../dev-itpro/lifecycle-services/bpm-overview.md)
 
-Verkfæri í LCS sem hjálpar til við að ljúka greiningu á kröfufylgni fyrir tiltekna innleiðingu með viðskiptaferlaskilgreiningum frá APQC (American Productivity & Quality Center) sem eru studdar í Finance and Operations forritum.
+Verkfæri í LCS sem hjálpar til við að klára greiningu á passabili fyrir tiltekna útfærslu með því að nota skilgreiningar á viðskiptaferlum frá American Productivity & Quality Center (APQC) sem eru studdar í Finance and Operations öppum.
 
 ### <a name="cloud-solution-provider"></a>Skýjalausnarveita
 
@@ -374,7 +365,7 @@ Samstarfsaðili sem er hluti af skýjaþjónustu Microsoft (CSP) og sem veitir v
 
 ### <a name="customer"></a>Viðskiptavinur
 
-Viðskiptaaðili sem notar Finance and Operations forrit og kemur fram sem leigjandi í Office 365.
+Fyrirtækjaeining sem notar Finance and Operations forrit og er fulltrúi leigjanda í Office 365.
 
 ### <a name="development-environment"></a>Þróunarumhverfi
 
@@ -386,19 +377,19 @@ Sandkassaumhverfi sem ekki tengist framleiðslu sem er notað til að þróa vi�
 
 ### <a name="implementation-partner"></a>Samstarfsaðili innleiðingar
 
-Samstarfsaðilinn sem viðskiptavinurinn velur til að sérsníða, stilla, innleiða og hafa umsjón með Finance and Operations-lausnum sínum.
+Samstarfsaðilinn sem viðskiptavinurinn velur til að sérsníða, stilla, innleiða og stjórna fjármála- og rekstrarlausnum sínum.
 
 ### <a name="incident"></a>Atvik
 
-Vandamál sem viðskiptavinir lenda í þegar þeir nota Finance and Operations-þjónustuna og sem þeir leggja fram beiðni um í gegnum LCS.
+Vandamál sem viðskiptavinir lenda í á meðan þeir nota fjármála- og rekstrarþjónustuna og sem þeir senda inn miða fyrir í gegnum LCS.
 
 ### <a name="microsoft-customer-support-services-css"></a>Notendaþjónusta Microsoft (CSS)
 
-Alþjóðlegt þjónustuteymi Microsoft sem sérhæfir sig í að veita gæðaþjónustu fyrir Finance and Operations forrit.
+Alþjóðlegt stuðningsteymi Microsoft sem leggur áherslu á að veita gæðaþjónustu fyrir Finance and Operations öpp.
 
 ### <a name="microsoft-dynamics-lifecycle-services-lcs"></a>Microsoft Dynamics Lifecycle Services (LCS)
 
-Stjórnunargáttin fyrir stuðningstímastjórnun Finance and Operations forrita, frá prófun til innleiðingar, til stjórnunar og stuðnings eftir framleiðslu. Frekari upplýsingar er að finna í [Tilföng Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md).
+Stjórnunargáttin fyrir lífsferilsstjórnun fjármála- og rekstrarappa frá prufu, til innleiðingar, til eftirvinnslustjórnunar og stuðnings. Frekari upplýsingar er að finna í [Tilföng Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md).
 
 ### <a name="non-production-instance"></a>Frávik ótengt framleiðslu
 
@@ -412,7 +403,7 @@ Frekari upplýsingar um lög 2 til 5 eru í [Val á réttu lagi 2 eða nýrra um
 
 ### <a name="production-instance"></a>Framleiðslutilvik
 
-Finance and Operations-umhverfi sem viðskiptavinurinn notar til að stjórna daglegum viðskiptum sínum og viðskiptaferlum í rauntíma.
+Fjármála- og rekstrarumhverfi sem viðskiptavinurinn notar til að stjórna „lifandi“ daglegum viðskiptum og viðskiptaferlum.
 
 ### <a name="sandbox-environment"></a>Sandkassaumhverfi
 
@@ -420,7 +411,7 @@ Umhverfi sem ekki tengist framleiðslu sem viðskiptavinurinn notar til sýninga
 
 ### <a name="service"></a>Þjónusta
 
-Allar grunnþjónustur sem eru innifaldar í Finance and Operations-forritum.
+Einhverja kjarnaþjónustu sem er innifalin í Finance and Operations öppum.
 
 ### <a name="service-level-agreement-sla-for-microsoft-online-services"></a>Þjónustustigssamningur (SLA) fyrir netþjónustu Microsoft
 
@@ -428,7 +419,7 @@ Allar grunnþjónustur sem eru innifaldar í Finance and Operations-forritum.
 
 ### <a name="service-update"></a>Þjónustuuppfærsla
 
-Microsoft þjónustar Finance and Operations umhverfi í gegnum þjónustuuppfærslur. Viðskiptavinir setja upp eigið þjónustuuppfærsludagatal eftir þörfum fyrirtækisins. Nánari upplýsingar má finna í [Uppfærsluþjónusta One Version](../../dev-itpro/lifecycle-services/oneversion-overview.md).
+Microsoft þjónustar fjármála- og rekstrarumhverfi á samræmdan grundvelli með þjónustuuppfærslum. Viðskiptavinir setja upp eigið þjónustuuppfærsludagatal eftir þörfum fyrirtækisins. Nánari upplýsingar má finna í [Uppfærsluþjónusta One Version](../../dev-itpro/lifecycle-services/oneversion-overview.md).
 
 ### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
 

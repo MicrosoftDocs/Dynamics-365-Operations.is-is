@@ -2,7 +2,7 @@
 title: Yfirlit fjárhagsáætlunarstýringar
 description: Í þessu efnisatriði er kynntur eiginleiki fjárhagsáætlunarstýringar og veittar upplýsingar sem hjálpa til við að stilla fjárhagsáætlunarstýringu til að ná sem mest út úr stjórnun á fjárhagslegum tilföngum fyrirtækisins.
 author: panolte
-ms.date: 11/08/2021
+ms.date: 03/28/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14b852bb4aeca927adeeb2665b9887e467b71158
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.openlocfilehash: 7019b3546b83047e91fa129d8d92f209f131c993
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986057"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644850"
 ---
 # <a name="budget-control-overview"></a>Yfirlit fjárhagsáætlunarstýringar
 
@@ -31,7 +31,7 @@ ms.locfileid: "7986057"
 
 Í þessu efnisatriði er kynntur eiginleiki fjárhagsáætlunarstýringar og veittar upplýsingar sem hjálpa til við að stilla fjárhagsáætlunarstýringu til að ná sem mest út úr stjórnun á fjárhagslegum tilföngum fyrirtækisins.
 
-Fjárhagsáætlunarstýring styður stjórnun fjárhagslegra tilfanga fyrirtækis með bókhaldslykli, verkflæði, notendaflokkum, upprunaskjölum og færslubókum, stillanlegum útreikningi á tiltækum sjóðum, fjárhagsáætlunarferlum og mörkum. Þegar stýringar eru á sínum stað, getur fyrirtæki áætlað, mæla, stjórna og spá fyrir um hennar fjárhagslegar tilföng gegnum fjárhagsársins. 
+Fjárhagsstýring styður stjórnun á fjármögnun stofnunar með reikningsskilum, verkflæði, notendahópum, upprunaskjölum og dagbókum, stillanlegum útreikningum á tiltækum fjármunum, fjárhagsáætlunarlotum og viðmiðunarmörkum. Þegar stýringar eru á sínum stað, getur fyrirtæki áætlað, mæla, stjórna og spá fyrir um hennar fjárhagslegar tilföng gegnum fjárhagsársins. 
 
 Eftir að áætlun hefur verið samþykkt í kerfinu geturðu notað fjárhagsáætlanir til að mynda færslur í fjárhagsáætlunarskrá til að skrá útgjöld fjárhagsáætlunar fyrir fyrirtæki. Einnig er hægt að stofna eða flytja inn færslur í fjárhagsáætlunarskrá úr hugbúnaði þriðja aðila án þess að nota virkni fjárhagsáætlunargerðar. 
 
@@ -80,7 +80,9 @@ Næst, á **fjármagn fjárhagsáætlunar sem er tiltækt** síðu er hægt að 
 > [!NOTE]
 > Ef útreikningnum er breytt í fjárhagsáætlunarlotu munu breytingarnar ekki hafa áhrif á skjöl sem áður stóðust eftirlitseftirlit fjárhagsáætlunar og voru bókuð eða lokið. Eiginleiki sem er nefndur **Fylgstu aðeins með upphæðum í tiltækum útreikningi fjárlaga** gerir þér kleift að breyta hvaða gögnum er rakið í BudgetSourceTracking töflunum. Þegar kveikt er á þessum eiginleika eru upphæðir aðeins geymdar ef þær eru valdar til að nota við útreikning á tiltæku fjármagn fjárhagsáætlunar. Fyrir frekari upplýsingar, sjá [Fjármagn til ráðstöfunar](budget-funds-available.md).
 
-Næst, í **Skjöl og færslubækur** síðu er hægt að velja hvaða upprunaskjöl og færslubækur verður háð athuganir fjárhagsáætlunarstýringar og hvort athugun mun eiga sér stað á stigi innfærslu lína eða fyrir skjalið í heild. 
+### <a name="documents-and-journals"></a>Skjöl og færslubækur
+
+Á **Skjöl og dagbækur** flipanum, getur þú valið hvaða frumskjöl og færslubækur verða háð eftirliti með fjárhagsáætlun og hvort athuganir eigi sér stað á stigi línufærslunnar eða allt skjalið. Auk þess nýja **Aukning á síun fjárhagsáætlunarskjala** eiginleiki sem er í boði frá og með Microsoft Dynamics 365 Finance útgáfa 10.0.27 veitir síuvalkost sem byggir á fyrirspurnum fyrir hvert skjal sem er innifalið í fjárhagsáætlunarstýringu. Þess vegna er hægt að tilgreina hvaða fjárhagsáætlunarstýringarskjöl eru fjárhagsáætlunar athugað. Á þennan hátt gerir aðgerðin aðeins kleift að athuga undirmengi skjalagerðar. Til dæmis er hægt að athuga aðeins innkaupapantanir þar sem **Sundlaug** reiturinn er stilltur á **01**. Nýr dálkur sem er bætt við **Skjöl og dagbækur** flipinn gefur til kynna hvort fyrirspurn sé skilgreind fyrir valda skjalagerð. Að auki, tveir nýir hnappar sem eru bættir við tækjastikuna fyrir ofan skjalanetið gera þér kleift að bæta við, breyta eða eyða síun. 
 
 Stemma ætti af upprunaskjölin sem eru valin með gátreitunum fyrir stöður se innifaldar eru í útreikning tiltæks fjármagns fjárhagsáætlunar. Til dæmis ef valin var **frátekt fjárhagsáætlunar fyrir fjárúthlutun**, skal velja í **Innkaupapantanir** valkost. Þegar athugun á fjárhagsáætlun er gerð fyrir upphæðir og reikninga í innkaupalínu mun eftirlitstegund fjárhagsáætlunar sem er úthlutað frátektinni vera **fjárúthlutun**. Þegar athugun á fjárhagsáætlun er gerð fyrir upphæðir og reikninga í innkaupabeiðni mun eftirlitstegund fjárhagsáætlunar sem er úthlutað frátektinni vera **áætluð fjárúthlutun**. 
 

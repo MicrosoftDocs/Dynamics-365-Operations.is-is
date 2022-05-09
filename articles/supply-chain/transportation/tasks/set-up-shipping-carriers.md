@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e9bc4fefb6aabc0b93d4d96f5930590ef99235b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: 38bf1f9f201e7f34e6a7ea76fbef399ba94caafa
+ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567657"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8660380"
 ---
 # <a name="set-up-shipping-carriers"></a>Setja upp farmflytjendur
 
@@ -27,8 +27,8 @@ ms.locfileid: "7567657"
 
 Þetta efni sýnir hvernig eigi að setja upp flytjanda og skilgreina upplýsingar eins og þjónustu, afhendingarmáta sendingar, flutningstilboð, takmarkanir fyrir flutningsstöðu og flutningstaxta. Samræmingaraðili við flutninga getur þá úthluta farmflytjanda á hleðslu á inn eða útleið.
 
-
 ## <a name="create-a-new-shipping-carrier"></a>Stofna nýtt farmflytjandi
+
 1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Uppsetning > Flutningsaðilar > Farmflytjendur**.
 2. Veljið **Nýtt** á aðgerðasvæðinu.
 3. Í reitnum **Farmflytjandi** skal færa inn gildi.
@@ -36,6 +36,7 @@ ms.locfileid: "7567657"
 5. Í reitnum **Stilling** velurðu valkost úr fellivalmyndinni.
 
 ## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a>Fyllið inn almennar upplýsingar um farmflytjanda
+
 1. Víxla útvíkkun á liðnum **Yfirlit**.
 2. Kanna eða afhaka gátreitinn **Virkja farmflytjanda**.
 3. Í reitnum **Lánardrottnalykill** velurðu valkost úr fellivalmyndinni. Veljið lánardrottnalykil sem á að úthluta farmflytjanda.  
@@ -43,13 +44,16 @@ ms.locfileid: "7567657"
 5. Merkja eða afmerkja gátreitinn **Virkja mat á farmflytjanda**.
 
 ## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>Stofna nauðsynlega þjónustuna fyrir farmflytjanda
+
 1. Víxlaðu útvíkkun á liðnum **Þjónusta**.
 2. Veljið **Nýtt**.
 3. Í reitinn **Flutningsþjónusta** skal slá inn gildi.
 4. Í reitinn **Heiti** skal slá inn gildi.
-5. Í reitnum **Flutningsaðferð** velurðu valkost úr fellivalmyndinni.
+5. Í **Hlaða auðkenni sniðmáts** reit, veldu hleðslusniðmát til að tengja við þjónustuna. Hleðslusniðmátið skilgreinir hámarksmælingar fyrir þyngd og rúmmál heilrar farms. Til dæmis gæti hleðslusniðmátsins staðið fyrir stærð vörubíls eða gáms. Auðkenni hleðslusniðmáts eru einnig tilgreind í hleðslusniðmátum og þegar þú notar [hlaða bygging vinnubekkur](load-building-workbench.md), sem hjálpar þér að beita álagsuppbyggingaraðferðum til að búa til álag. Fyrir vikið mun kerfið geta samræmt hverja nýja farm við viðeigandi flutningsþjónustu með því að bera saman tilgreind hleðslusniðmátsauðkenni.
+6. Í reitnum **Flutningsaðferð** velurðu valkost úr fellivalmyndinni.
 
 ## <a name="set-up-the-address-for-the-carrier-optional"></a>Setja upp aðsetur fyrir flutningsaðila (valfrjálst)
+
 1. Víxlaðu útvíkkun á liðnum **Heimilisföng**.
 2. Veljið **Nýtt**.
 3. Í reitinn **Nafn eða lýsing** skal færa inn gildi.
@@ -59,6 +63,7 @@ ms.locfileid: "7567657"
 7. Veljið **Í lagi**.
 
 ## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a>Setja upp taxtaforstilling fyrir farmflytjanda.
+
 1. Víxlaðu útvíkkun á liðnum **Taxtaforstillingar**.
 2. Veljið **Nýtt**.
 3. Í reitinn **Taxtaforstilling** skal slá inn gildi.

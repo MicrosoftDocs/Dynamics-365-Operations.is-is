@@ -2,7 +2,7 @@
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Commerce
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir úr Dynamics 365 Commerce.
 author: josaw
-ms.date: 03/04/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7b06f8ca65e4fac13f322f8d72b8ad4f9db8ccd7
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 213ed2091b1f2359f2481b162cba07812b3ffe90
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384610"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649076"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Commerce
 
@@ -32,6 +32,20 @@ ms.locfileid: "8384610"
 
 > [!NOTE]
 > Ítarlegar upplýsingar um hluti í Finance and Operations öppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af Finance and Operations forritum.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Commerce 10.0.25 útgáfu
+
+### <a name="modern-point-of-sale-mpos"></a>Nútíma sölustaður (MPOS)
+
+Modern Point of Sale (MPOS) forritið verður úrelt í útgáfu Commerce útgáfu 10.0.25 og skipt út fyrir Store Commerce appið.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Forrit í verslun eru hornsteinn þess Dynamics 365 Commerce allsherjarútboð. Við gerum stöðugt nýsköpun til að bjóða upp á nútímalega og snjalla verslunarupplifun og til að nútímavæða lausnina okkar enn frekar erum við að setja út nýjar breytingar sem munu verulega bæta upplýsingatæknirekstur og notendaupplifun með núverandi forritum okkar í verslunum á Windows. Nýja Store Commerce forritið er tækniuppfærsla á núverandi MPOS. Það veitir betri afköst, áreiðanleika og langtímastuðning á Windows pallinum og útilokar þörfina á að endurpakka forritinu með hverri uppfærslu. |
+| **Skipt út fyrir aðra eiginleika?**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
+| **Afurðasvæði sem haft er áhrif á**         | Nútíma sölustaður |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: Frá og með útgáfu Commerce útgáfu 10.0.25 verður MPOS uppsetningarforritið sem sent er í gegnum LCS sýndarvélarnar (VMs) fjarlægt í október 2023. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Commerce 10.0.21 útgáfu
 
@@ -59,7 +73,7 @@ Retail SDK er sent í Lifecycle Services (LCS). Þessi dreifingarmáti er úrelt
 | **Skipt út fyrir aðra eiginleika?**   |  [Sækja sýnishorn Retail SDK og tilvísunarpakka úr GitHub og NuGet](../dev-itpro/retail-sdk/sdk-github.md) |
 | **Afurðasvæði sem haft er áhrif á**         | Retail SDK |
 | **Dreifingarvalkostur**              | Öll |
-| **Staða**                         | Úrelt: Frá og með útgáfu 10.0.21 verður SDK sem sent er í gegnum LCS VMs fjarlægt í apríl 2023. |
+| **Staða**                         | Úrelt: Frá og með útgáfu 10.0.21 verður SDK sem er sent með sýndarvélum LCS fjarlægt í október 2023. |
 
 ### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Virkjanlegur pakki smásölu og sameinuð uppsetningarforrit sölustaðar, vélbúnaðarstöðvar og Cloud Scale Unit
 
@@ -92,7 +106,7 @@ Frekari upplýsingar má finna á
 | **Skipt út fyrir aðra eiginleika?**   | [Sjálfstæð pökkun SDK fyrir POS](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
 | **Afurðasvæði sem haft er áhrif á**         | Dynamics 365 Commerce POS-viðbót og uppsetning |
 | **Dreifingarvalkostur**              | Öll |
-| **Staða**                         | Úrelt: Frá og með útgáfu 10.0.21 verður stuðningur við sameinaða POS-pakka og framlengingarlíkan sem notar ModernPos.Sln, CloudPOs.sln og POS.Extensons.csproj í Retail SDK fjarlægður í apríl 2023. |
+| **Staða**                         | Úrelt: Frá og með útgáfu 10.0.21 verður stuðningur við sameinaða POS-pakka og viðbótarlíkan með ModernPos.Sln, CloudPOs.sln og Pos.Extensons.csproj í Retail SDK fjarlægður í október 2023. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Commerce 10.0.17 útgáfu
 

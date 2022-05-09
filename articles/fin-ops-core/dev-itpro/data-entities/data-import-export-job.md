@@ -2,7 +2,7 @@
 title: Yfirlit yfir inn- og útflutningsvinnslu gagna
 description: Notaðu vinnusvæðið Gögnastjórnun til að búa til og stjórna Inn- og útflutningsvinnslu gagna.
 author: peakerbl
-ms.date: 10/21/2021
+ms.date: 04/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071086"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644460"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Yfirlit yfir inn- og útflutningsvinnslu gagna
 
@@ -74,8 +74,11 @@ Við mælum með að þú takir tíma til að velja viðeigandi verktegund fyrir
 > [!NOTE]
 > Mikilvægt er að velja rétt gildi fyrir **Línuskiltákn**, **Dálkaskiltákn** og **Textaskilyrði** ef valkosturinn **Skráarsnið** er stilltur á **Afmarkað**. Gakktu úr skugga um að gögnin þín innihaldi ekki stafinn sem er notaður sem skiltákn eða skilyrði, þar sem það getur valdið villum við innflutning og útflutning.
 
+> [!NOTE]
+> Fyrir XML-undirstaða skráarsnið, vertu viss um að nota aðeins löglega stafi. Fyrir frekari upplýsingar um gilda stafi, sjá [Gildir stafir í XML 1.0](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0 leyfir enga stjórnstafi nema flipa, vagnaskil og línustrauma. Dæmi um ólöglega stafi eru hornklofur, krullaðir svigar og skástrik. 
+
 ### <a name="sequence-the-entities"></a>Einingunum raðað
-Einingum má raða í gagnasniði, eða í innflutnings- og útflutningssverkum. Þegar þú keyrir verk sem inniheldur fleiri en eina gagnaeiningu verður þú að ganga úr skugga um að einingunum sé rétt raðað. Einingum er raðað til að geta leyst hugsanleg virknitengsl milli eininga. Ef einingar eru ekki með virknitengsl er hægt að tímastilla þær fyrir samhliða inn- og útflutning.
+Einingum má raða í gagnasniði, eða í innflutnings- og útflutningssverkum. Þegar þú keyrir verk sem inniheldur fleiri en eina gagnaeiningu verður þú að ganga úr skugga um að einingunum sé rétt raðað. Einingum er raðað til að geta leyst hugsanleg virknitengsl milli eininga. Ef einingar eru ekki með virknitengsl er hægt að tímastilla þær fyrir samhliða inn- og útflutning. 
 
 #### <a name="execution-units-levels-and-sequences"></a>Framkvæmdareiningar, stig og raðir
 Framkvæmdareiningin, stig í framkvæmdareiningunni og röð einingar hjálpa til við að stjórna röðinni sem gögnin eru flutt út eða flutt inn í.

@@ -2,7 +2,7 @@
 title: Hnitanetsgeta
 description: Þetta efni lýsir nokkrum kröftugum eiginleikum netstýringar. Virkja þarf nýjan eiginleika hnitanetsins til að hafa aðgang að þessum möguleikum.
 author: jasongre
-ms.date: 03/21/2022
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 08348185a424d20b6da1563189496b7dd51944d9
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: 57133a853d1700b2d8ebb938f93af475410b82cb
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602963"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644414"
 ---
 # <a name="grid-capabilities"></a>Eiginleikar hnitanets
 
@@ -30,7 +30,7 @@ Nýja netstýringin veitir fjölda gagnlegra og öflugra eiginleika sem hægt er
 - Vélritun á undan kerfinu
 - Mat á stærðfræðisegðum 
 - Flokkun gagna í töfluformi (virkjað sérstaklega með því að nota **Flokkun í rist** eiginleiki)
-- Frysting dálka (virkjað sérstaklega með því að nota **Frysting dálka í ristum** eiginleiki)
+- Frysting dálka (virkjað sérstaklega með því að nota **Frysta súlur í ristum** eiginleiki)
 - Aðlaga dálkbreidd sjálfkrafa
 - Teygjanlegir dálkar
 
@@ -69,7 +69,7 @@ Ef þú gerir mistök og vilt ekki lengur sjá samtals í tilteknum dálki, hæg
 Ef útreikningurinn tekur langan tíma að klára geturðu hætt við aðgerðina með því að velja **Hætta við** takki. Stundum verður gagnasafnið of stórt til að reikna út heildartölur (takmörk sett af fyrirtækinu þínu) og þú færð í staðinn tilkynningu um að sía gögnin þín meira. 
 
 > [!NOTE]
-> Kerfisstjórnendur geta breytt takmörkunum fyrir fjölda skráa sem eru tiltækar til að reikna út heildartölur með því að breyta **Hámarksfjöldi staðbundinna skráa fyrir hvert rist** breytu á **Frammistöðuvalkostir viðskiptavina** síðu. Sjálfgefið gildi er 25.000 færslur. Stjórnendur ættu að vera varkár þegar þeir stilla þetta gildi vegna þess að gildi sem er of stórt getur tæmt tiltækt minni á vél notandans. Ráðleggingin er að ekki fari yfir 50.000 skrár.   
+> Kerfisstjórnendur geta breytt takmörkunum fyrir fjölda skráa sem eru tiltækar til að reikna út heildartölur með því að breyta **Hámarksfjöldi staðbundinna skráa fyrir hvert rist** breytu á **Frammistöðuvalkostir viðskiptavina** síðu. Sjálfgefið gildi er 25.000 færslur. Stjórnendur ættu að vera varkár þegar þeir stilla þetta gildi vegna þess að gildi sem er of stórt getur tæmt tiltækt minni á vél notandans. Ráðlagt er að ekki sé meira en 50.000 skrár.   
 
 Heildartölur munu uppfærast sjálfkrafa þegar þú uppfærir, eyðir eða býrð til línur í gagnapakkanum.
 
@@ -106,7 +106,7 @@ Til að nota þennan eiginleika skal hægrismella á dálkinn sem á að flokka 
 - Fjöldi gagnalína í þessum hópi
 - Undirmál fyrir hvaða dálk sem er stilltur til að sýna samtölur
 
-Með [Vistaðar skoðanir](saved-views.md) virkt, þá er hægt að vista þennan flokkun með sérstillingu sem hluta af útsýni til að fá skjótan aðgang næst þegar þú heimsækir síðuna.
+Með [Vistaðar skoðanir](saved-views.md) virkt geturðu vistað flokkun sem hluta af yfirliti á síðum sem gera kleift að vista fyrirspurnir á skoðanir. Til dæmis þeir sem eru með stóra útsýnisvalara. Sjáðu [Skipt á milli skoðana](saved-views.md#switching-between-views) kafla fyrir frekari upplýsingar. 
 
 ### <a name="multiple-levels-of-grouping"></a>Mörg stig flokkunar
 Eftir að gögn hafa verið flokkuð eftir einum dálki er hægt að flokka gögnin eftir öðrum dálki með því að velja **Flokka eftir þessum dálki** í viðkomandi dálki. Hægt er að endurtaka þetta ferli þar til fimm faldaðar stigaflokkanir eru til staðar, sem er studd hámarksdýpt. Á þessu stigi er ekki lengur hægt að flokka eftir viðbótardálkum.
@@ -134,7 +134,7 @@ Við flokkun gagna er sjálfgefið að hegðun sýni dálkheiti í hauslínu hó
 Frá og með útgáfu 10.0.24, fyrir Date eða DateTime reiti, hefur valkostinum verið bætt við hóp eftir árum, mánuði eða degi. Hópurinn "gildi" í samsvarandi hauslínu mun passa við sniðið úr þeim reit. Að auki, fyrir DateTime og Time reiti, geturðu flokkað eftir klukkustund, mínútu eða sekúndu. 
 
 ## <a name="freezing-columns"></a>Dálkar frystir
-Sumir dálkar í hnitaneti gætu reynst það mikilvægir fyrir samhengi þannig að þú vilt ekki að þeir hverfi úr augsýn við flettingu. Þess í stað gætirðu viljað að gildin í þessum dálkum séu alltaf sýnileg. The **Frysting dálka í rist** eiginleiki veitir notendum þennan sveigjanleika. 
+Sumir dálkar í hnitaneti gætu reynst það mikilvægir fyrir samhengi þannig að þú vilt ekki að þeir hverfi úr augsýn við flettingu. Þess í stað gætirðu viljað að gildin í þessum dálkum séu alltaf sýnileg. The **Frysta súlur í rist** eiginleiki veitir notendum þennan sveigjanleika. 
 
 Til að festa dálk skal hægrismella í haus dálksins og síðan velja **Festa dálk**. Í fyrsta skipti sem þetta skref er gert verður valinn dálkur að fyrsta dálkinum og mun ekki lengur hverfa úr augsýn við flettingu. Næstu dálkum sem eru festir verður bætt hægra megin við síðasta festa dálkinn. Hægt er að nota venjulegu færsluaðgerðina til að endurraða festum dálkum eftir þörfum. Hins vegar er ekki hægt að færa festa dálka þannig að þeir birtist á meðal ófestra dálka. Að sama skapi er ekki hægt að færa ófesta dálka þannig að þeir birtist á meðal festra dálka.
 

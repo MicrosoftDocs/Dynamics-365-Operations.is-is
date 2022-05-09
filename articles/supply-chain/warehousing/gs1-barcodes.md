@@ -11,47 +11,45 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 083748d4aecf551fd326b6c3cbf6d92cf3daf717
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: ea928bc8a020035adb36ae2e7873c656e8c3985d
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547817"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625279"
 ---
 # <a name="gs1-bar-codes"></a>GS1 strikamerki
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!-- Preview until 10.0.25 GA -->
 
 Vöruhússtarfsmenn þurfa oft að ljúka nokkrum verkefnum þegar þeir nota skanna fyrir farsíma til að skrá hreyfingar vöru, spjalds eða geymis. Þessi verkefni geta falið í sér bæði að skanna strikamerkingar og færa inn upplýsingar handvirkt í fartækið. Strikamerkin nota tiltekið snið fyrirtækis sem þú skilgreinir og stjórnar með Microsoft Dynamics 365 Supply Chain Management.
 
-GS1 strikamerki fyrir sendingarmerki voru þróuð til að veita alþjóðlegan staðal fyrir gagnaskipti milli fyrirtækja. Þau eru fáanleg í bæði línulegum (1D) táknmyndum (strikamerkjasniðum), eins og GS1-128, og 2D táknmyndum, eins og GS1 DataMatrix og GS1 QR kóða. GS1 strikamerki kóða ekki aðeins gögn heldur leyfa þér einnig að nota fyrirfram skilgreindan lista yfir *auðkenni forrita* til að skilgreina merkingu þessara gagna. GS1 staðallinn skilgreinir gagnasniðið og ýmis konar gögn sem hægt er að nota til að kóða. Ólíkt eldri strikamerkjastöðlum geta GS1 strikamerki haft marga gagnaþætti. Þess vegna getur ein skönnun á strikamerkjum náð yfir nokkrar tegundir vöruupplýsinga, eins og lotuna og fyrningardagsetninguna.
+GS1 strikamerki fyrir sendingarmerki voru þróuð til að veita alþjóðlegan staðal fyrir gagnaskipti milli fyrirtækja. Þau eru fáanleg í bæði línulegum (1D) táknmyndum (strikamerkjasniðum), eins og GS1-128, og 2D táknmyndum, eins og GS1 DataMatrix og GS1 QR kóða. GS1 strikamerki kóða ekki aðeins gögn heldur leyfa þér einnig að nota fyrirfram skilgreindan lista yfir *auðkenni forrita* að skilgreina merkingu þessara gagna. GS1 staðallinn skilgreinir gagnasniðið og ýmis konar gögn sem hægt er að nota til að kóða. Ólíkt eldri strikamerkjastöðlum geta GS1 strikamerki haft marga gagnaþætti. Þess vegna getur ein skönnun á strikamerkjum náð yfir nokkrar tegundir vöruupplýsinga, eins og lotuna og fyrningardagsetninguna.
 
 GS1 stuðningur í Supply Chain Management einfaldar skönnunarferlið verulega í vöruhúsum þar sem bretti og ílát eru merkt með því að nota strikamerki á GS1 sniði. Vöruhússtarfsmenn geta dregið út allar nauðsynlegar upplýsingar með einni skönnun á GS1 strikamerki. Með því að útiloka nauðsyn þess að gera margar skannanir og/eða slá inn upplýsingar handvirkt, hjálpa GS1 strikamerkin til við að minnka tímann sem tengist verkefnum. Um leið hjálpa þau einnig til við að bæta nákvæmni.
 
 Skipulagsstjórar verða að setja upp nauðsynlegan lista yfir auðkenni forrita og tengja hvert þeirra við viðeigandi valmyndaratriði fyrir fartæki. Þá er hægt að nota auðkenni forritsins yfir vöruhús sem alhliða stillingu fyrir flutning og pökkun. Þess vegna munu allir merkimiðar fara fram á sameinuðu eyðublaði.
 
-Nema annað sé tekið fram notar þetta efni hugtakið *strikamerki* að vísa til bæði línulegra (1D) strikamerkja og tvívíddar strikamerkja.
+Nema annað sé tekið fram notar þetta efni hugtakið *strikamerki* að vísa til bæði línulegra (1D) strikamerkja og 2D strikamerkja.
 
 ## <a name="the-gs1-bar-code-format"></a>GS1 strikamerkjasniðið
 
-Almennar forskriftir GS1 tilgreina hvaða táknmyndir má nota fyrir GS1 strikamerki og hvernig á að umrita gögnin í strikamerkinu. Þessi kafli veitir stutta kynningu á efninu. Fyrir allar upplýsingar, sjá [GS1 Almennar upplýsingar](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf) sem eru gefin út af GS1. GS1 forskriftarskjalið er uppfært reglulega og upplýsingarnar sem það veitir eru uppfærðar með GS1 General Specifications útgáfu 22.0.
+Almennar forskriftir GS1 tilgreina hvaða táknmyndir má nota fyrir GS1 strikamerki og hvernig á að umrita gögnin í strikamerkinu. Þessi hluti veitir stutta kynningu á efninu. Fyrir allar upplýsingar, sjá [GS1 Almennar upplýsingar](https://www.gs1.org/docs/barcodes/GS1_General_Specifications.pdf) sem eru gefin út af GS1. GS1 forskriftarskjalið er uppfært reglulega og upplýsingarnar sem það veitir eru uppfærðar með GS1 General Specifications útgáfu 22.0.
 
 GS1 strikamerki nota eftirfarandi táknmyndir:
 
 - **Línuleg eða 1D strikamerki** – GS1-128 og GS1 DataBar
 - **2D strikamerki** - GS1 DataMatrix, GS1 QR kóða og GS1 punktakóði
 
-Athugaðu að það er sérstaklega minnst á GS1 í GS1-128, sem er sérstakt tilfelli af venjulegum Code-128 línulega strikamerkinu, GS1 DataMatrix og GS1 QR kóða. Munurinn á GS1 útgáfunni og útgáfunni sem er ekki GS1 er tilvist sérstafs (FNC1) sem fyrsta stafurinn í strikamerkjagögnunum. Tilvist FNC1 stafs gefur til kynna að túlka ætti gögnin í strikamerkinu í samræmi við GS1 forskriftina.
+Athugaðu að það er sérstaklega minnst á GS1 í GS1-128, sem er sértilvik um venjulegan Code-128 línulega strikamerkið, GS1 DataMatrix og GS1 QR kóða. Munurinn á GS1 útgáfunni og útgáfunni sem er ekki GS1 er tilvist sérstafs (FNC1) sem fyrsta stafurinn í strikamerkjagögnunum. Tilvist FNC1 stafs gefur til kynna að túlka ætti gögnin í strikamerkinu í samræmi við GS1 forskriftina.
 
-Gögnin í strikamerkinu sjálfu samanstanda af mörgum gagnaþáttum, sem hver um sig er auðkenndur með auðkenni forrits í upphafi reitsins. Venjulega eru gögnin einnig sett fram undir strikamerkinu á læsilegu sniði, þar sem auðkenni forritsins er sýnt innan sviga. Eftirfarandi er dæmi: `(01) 09521101530001 (17) 210119 (10) AB-123`. Þetta strikamerki inniheldur þrjá þætti:
+Gögnin í strikamerkinu sjálfu samanstanda af mörgum gagnaþáttum sem hver um sig er auðkenndur með auðkenni forrits í upphafi reitsins. Venjulega eru gögnin einnig sett fram undir strikamerkinu á læsilegu sniði, þar sem auðkenni forritsins er sýnt innan sviga. Eftirfarandi er dæmi: `(01) 09521101530001 (17) 210119 (10) AB-123`. Þetta strikamerki inniheldur þrjá þætti:
 
 - **Auðkenni umsóknar 01** – GS1 alþjóðlegt vörunúmer (GTIN) vörunnar.
 - **Auðkenni umsóknar 17** - Gildistími.
 - **Auðkenni umsóknar 10** – Lotunúmerið.
 
-Fyrir hvern þátt gætu gögnin annað hvort haft fyrirfram skilgreinda lengd eða breytilega lengd. Það er fastur listi yfir forritaauðkenni sem hafa fyrirfram skilgreinda lengd. Öll önnur forritsauðkenni eru með breytilegri lengd og GS1 forritaauðkennislisti tilgreinir hámarkslengd og snið gagna. Til dæmis hefur forritaauðkenni 01 fyrirfram skilgreinda lengd upp á 16 stafi (tveir fyrir forritaauðkenni sjálft og síðan 14 fyrir GTIN), og forritsauðkenni 17 hefur fyrirfram skilgreinda lengd sem eru átta stafir (tveir fyrir forritsauðkenni sjálft og síðan sex fyrir dagsetningin). Hins vegar hefur forritaauðkenni 10 tvær tölur fyrir sjálft forritsauðkennið og síðan allt að 20 tölustafi.
+Fyrir hvern þátt gætu gögnin annað hvort haft fyrirfram skilgreinda lengd eða breytilega lengd. Það er fastur listi yfir forritaauðkenni sem hafa fyrirfram skilgreinda lengd. Öll önnur auðkenni forrita eru með breytilegri lengd og GS1 forritaauðkennislisti tilgreinir hámarkslengd og snið gagna. Til dæmis hefur forritaauðkenni 01 fyrirfram skilgreinda lengd upp á 16 stafi (tveir fyrir forritaauðkenni sjálft og síðan 14 fyrir GTIN), og forritsauðkenni 17 hefur fyrirfram skilgreinda lengd sem eru átta stafir (tveir fyrir forritsauðkenni sjálft og síðan sex fyrir dagsetningin). Hins vegar hefur forritaauðkenni 10 tvær tölur fyrir sjálft forritsauðkennið og síðan allt að 20 tölustafi.
 
 Þegar þættir eru settir saman, ef þáttur fylgir staki með breytilegri lengd, verður að nota skiljustaf. Þessi aðskilnaður getur verið annað hvort sérstakur FNC1 stafurinn eða hópskiljustafur (óprentanlegur stafur sem hefur ASCII kóða 29 og sextándakóða 1D). Skiljuna ætti ekki að nota eftir síðasta þáttinn. Þó að skilja ætti ekki að nota eftir þætti sem hafa fyrirfram skilgreinda lengd, þá er tilvist hans ekki mikilvæg villa.
 
@@ -61,7 +59,7 @@ Fyrir hvern þátt gætu gögnin annað hvort haft fyrirfram skilgreinda lengd e
 
 Dagsetningar eru alltaf fulltrúar í *ÁÁMMDD* sniði, þar sem öld ársins ræðst af GS1 forskriftum. Aðeins er hægt að tákna dagsetningar frá 49 árum í fortíðinni til 50 ára í framtíðinni (miðað við yfirstandandi ár).
 
-Sumir gagnaeiningar innihalda aukastafi. Til dæmis tákna forritsauðkenni 3100, 3101, ... 3105 nettóþyngd í kílóum. Vegna þess að þessi forritsauðkenni hafa fyrirfram skilgreinda lengd 10, eru sex tölur tiltækar fyrir magnið. Staða tugamerkisins er tilgreind með síðustu tölunni á auðkenni forritsins. Þess vegna er einnig hægt að tákna þessa fjölskyldu forritaauðkenna sem *310n*. Vegna þess að GS1 staðallinn tilgreinir að það þurfi alltaf að vera að minnsta kosti ein tala vinstra megin við aukastafinn, þá eru að hámarki fimm aukastafir leyfðir.
+Sumir gagnaeiningar innihalda aukastafi. Til dæmis tákna forritsauðkenni 3100, 3101, ... 3105 nettóþyngd í kílóum. Vegna þess að þessi forritsauðkenni hafa fyrirfram skilgreinda lengd 10, eru sex tölur tiltækar fyrir magnið. Staða tugamerkisins er tilgreind með síðustu tölunni á auðkenni forritsins. Þess vegna er einnig hægt að tákna þessa fjölskyldu forritaauðkenna sem *310n*. Vegna þess að GS1 staðallinn tilgreinir að það þurfi alltaf að vera að minnsta kosti ein tala vinstra megin við tugastafinn, þá eru að hámarki fimm aukastafir leyfðir.
 
 Hér eru nokkur dæmi sem sýna hvernig talan *123456* verður túlkað af mismunandi forritaauðkennum (birt með feitletrun):
 
@@ -81,11 +79,11 @@ Til að skanna GS1 strikamerki nota vöruhúsamenn skanni sem er innbyggður í 
 Til að birgðakeðjustjórnun geti borið kennsl á og afkóða GS1 strikamerki á réttan hátt, verður að stilla vélbúnaðarskanni eða stuðningshugbúnað til að framkvæma eftirfarandi aðgerðir:
 
 - Bættu forskeyti við skannað strikamerki, svo að kerfið geti þekkt GS1 strikamerki.
-- Umbreyttu ASCII hópskiljustaf sem ekki er hægt að prenta (ASCII kóða 29 eða sextándakóði 1D) í prentanlegan staf, eins og tilde (~).
+- Umbreyttu óprentanlega ASCII hópskiljustafinn (ASCII kóði 29 eða sextándakóði 1D) í prenthæfan staf, eins og tilde (~).
 
-Þó að þú getir bætt hvaða forskeyti sem er við skannaða strikamerkið er einn möguleiki að bæta við ISO/IEC 15424 táknfræðiauðkenni, einnig þekkt sem *AIM auðkenni*. Þetta þriggja stafa auðkenni byrjar á`]`, hefur síðan einn staf sem auðkennir táknfræðina sem er notuð og hefur síðan tölu sem er notuð sem frekari breyting. Til dæmis, AIM auðkennið`]C1` tilgreinir Code 128 strikamerki (vegna stafsins`C`), og breytirinn`1` tilgreinir að það sé FNC1 stafur í fyrstu stöðu gagnanna. Á hinn bóginn,`]C0` er Code 128 strikamerki sem hefur hvaða annan staf sem fyrsta staf gagnanna.
+Þó að þú getir bætt hvaða forskeyti sem er við skannaða strikamerkið er einn valkostur að bæta við ISO/IEC 15424 táknfræðiauðkenni, einnig þekkt sem *AIM auðkenni*. Þetta þriggja stafa auðkenni byrjar á`]`, hefur síðan einn staf sem auðkennir táknfræðina sem er notuð og hefur síðan tölu sem er notuð sem frekari breyting. Til dæmis, AIM auðkennið`]C1` tilgreinir Code 128 strikamerki (vegna stafsins`C`), og breytirinn`1` tilgreinir að það sé FNC1 stafur í fyrstu stöðu gagnanna. Á hinn bóginn,`]C0` er Code 128 strikamerki sem hefur hvaða annan staf sem fyrsta staf gagnanna.
 
-Eftirfarandi fimm táknmyndaauðkenni samsvara GS1 strikamerkjum sem hafa forritsauðkenni:
+Eftirfarandi fimm táknfræðiauðkenni samsvara GS1 strikamerkjum sem hafa forritsauðkenni:
 
 - `]C1`– Kóði 128 (`C`) með FNC1 staf í fyrstu stöðu (`1`), einnig þekkt sem GS1-128.
 - `]e0`– GS1 DataBar.
@@ -103,7 +101,7 @@ Ef þú notar þessi auðkenni krefst samhæfni við strikamerki sem ekki eru GS
 Eftir að gögnin hafa verið flokkuð úr strikamerkinu verða þau færð inn í flæðistýringar farsímatækisins. Það eru tvær aðferðir sem verða unnar í röð:
 
 - **Skönnun á einum vettvangi** – Þessi aðferð fyllir aðeins út reitinn sem strikamerkið var skannað inn í. Til dæmis ef þú skannar strikamerkið`<FNC1>`**`01`**`09521101530001`**`17`**`210119`**`10`**`AB-123` meðan bendillinn er í **Atriði** reit, GTIN`09521101530001` frá strikamerkinu verður slegið inn í þann reit. Ef þú skannar sama strikamerki á meðan bendillinn er í **Lotu auðkenni** reit, lotunúmerið`AB-123` frá strikamerkinu verður slegið inn. Þessi háttur virkar fyrir alla reiti í öllum flæði og krefst þess aðeins að GS1 almenna uppsetningin sé stillt. Ef strikamerki inniheldur marga þætti verður samt að skanna það mörgum sinnum, því aðeins eitt stykki strikamerkis í einu verður slegið inn í farsímaflæðið. Þessari hegðun er stjórnað af GS1 almennu uppsetningunni, eins og lýst er í [Komdu á almennri GS1 uppsetningu](#generic-gs1-setup) kafla.
-- **Skönnun á mörgum sviðum** – Þessi aðferð fyllir út marga reiti þegar einn strikamerki er skannaður, með því að ýta viðbótargögnum inn í flæðisstöðu farsíma. Til dæmis er stefnan stillt til að ýta forritaauðkenni 01 inn í`ItemId` stjórna og forritaauðkenni 10 í`InventBatchId` sviði. Í þessu tilviki, ef þú skannar strikamerkið`<FNC1>`**`01`**`09521101530001`**`17`**`210119`**`10`**`AB-123`, gögnum fyrir báðar breyturnar verður ýtt á sama tíma. Þess vegna mun kerfið ekki biðja þig um vöruna og/eða lotunúmerið í flæðinu. Þessari hegðun er stjórnað af GS1 reglum sem eru tengdar við valmyndaratriði, eins og lýst er í [Settu upp GS1 reglur þannig að þær séu fyrir valmyndaratriði farsíma](#policies-for-menus) kafla.
+- **Skönnun á mörgum sviðum** – Þessi aðferð fyllir út marga reiti þegar einn strikamerki er skannaður, með því að ýta viðbótargögnum í flæðisstöðu farsíma. Til dæmis er stefnan stillt til að ýta forritaauðkenni 01 inn í`ItemId` stjórna og forritaauðkenni 10 í`InventBatchId` sviði. Í þessu tilviki, ef þú skannar strikamerkið`<FNC1>`**`01`**`09521101530001`**`17`**`210119`**`10`**`AB-123`, gögnum fyrir báðar breyturnar verður ýtt á sama tíma. Þess vegna mun kerfið ekki biðja þig um vöruna og/eða lotunúmerið í flæðinu. Þessari hegðun er stjórnað af GS1 reglum sem eru tengdar við valmyndaratriði, eins og lýst er í [Settu upp GS1 reglur þannig að þær séu fyrir valmyndaratriði farsíma](#policies-for-menus) kafla.
 
 > [!WARNING]
 > Sjálfgefnar GS1 reglur hafa verið prófaðar til að virka án óvæntrar hegðunar. Hins vegar getur aðlögun GS1 reglna sem eru tengd við valmyndaratriði valdið óvæntri hegðun, vegna þess að flæðið gæti ekki búist við að einhver gögn séu tiltæk á tilteknum tíma.
@@ -188,7 +186,7 @@ Til að setja upp og sérsníða eigin GS1 forritsauðkenni skal fylgja eftirfar
 > Þó að kerfið leyfi þér að stilla **Föst lengd** gátreitinn fyrir hvaða forritsauðkenni sem er, ætti hann aðeins að nota fyrir undirmengi forritaauðkenna sem hafa fyrirfram skilgreinda lengd samkvæmt GS1 almennum forskriftum. Aukinn GS1 flokkari inniheldur nú þegar lista yfir öll forritsauðkenni sem hafa fyrirfram skilgreinda lengd.
 
 > [!NOTE]
-> The **Hópaskil** gildi sem tilgreint er á **Vöruhússtjórnunarfæribreytur** síða er valfrjáls ef gildi sem er fylgt eftir með auðkenni forrits hefur fasta lengd.
+> The **Hópaskil** gildi sem tilgreint er á **Vöruhússtjórnunarfæribreytur** síða er valfrjáls ef gildi sem er fylgt eftir með forritaauðkenni hefur fasta lengd.
 
 ## <a name="establish-the-generic-gs1-setup"></a><a name="generic-gs1-setup"></a>Hefja almenna GS1-uppsetningu
 

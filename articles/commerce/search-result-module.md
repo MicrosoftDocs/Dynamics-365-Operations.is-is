@@ -2,7 +2,7 @@
 title: Leitarniðurstöðueining
 description: Þetta efnisatriði fjallar um leitarniðurstöðueiningar og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bae825ed7093494c48abac119c480be0dba4f951
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 15b3bb50eb0b75fa19ac8e136da83cb362b4cec6
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919475"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644927"
 ---
 # <a name="search-results-module"></a>Leitarniðurstöðueining
 
 [!include [banner](includes/banner.md)]
-
+[!include [banner](includes/preview-banner.md)]
 
 Þetta efnisatriði fjallar um leitarniðurstöðueiningar og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
 
@@ -86,53 +86,44 @@ Til að bæta leitarniðurstöðueiningu við flokkasíðu skal fylgja þessum s
 
 ## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Virkja birgðavitneskju fyrir einingu leitarniðurstöðu
 
-Viðskiptavinir gera almennt ráð fyrir að svæði rafrænna viðskipta hafi vitneskju um birgðir í gegnum flettiupplifunina þannig að þeir geti ákveðið hvað skuli gera ef engar birgðir eru til fyrir afurð. Hægt er að bæta einingu leitarniðurstöðu þannig að hún taka til greina birgðaupplýsingar og bjóði upp á eftirfarandi upplifanir:
+Viðskiptavinir búast almennt við að vefsíðan fyrir rafræn viðskipti sé meðvituð um birgðahald í gegnum vafraupplifunina, svo að þeir geti ákveðið hvað þeir eigi að gera ef engar birgðir eru fyrir vöru. Hægt er að stilla leitarniðurstöðueininguna til að fella inn birgðagögn og veita eftirfarandi upplifun:
 
-- Sýna merki um framboð birgða með afurðum.
-- Fela afurðir sem ekki eru til á lager.
-- Sýna afurðir sem ekki eru til á lager neðst á lista yfir leitarniðurstöður.
-    
-Til að virkja þessar upplifanir þarf að skilgreina eftirfarandi stillingar skilyrða í Commerce Headquarters.
+- Sýndu birgðamiða ásamt vörunni.
+- Fela vörur sem eru ekki á lager af vörulistanum.
+- Sýndu vörur sem eru ekki til á lager aftast á vörulistanum.
+- Sía vörur í leitarniðurstöðum eftir birgðastigi.
 
-### <a name="enable-the-enhanced-e-commerce-product-discovery-to-be-inventory-aware-feature"></a>Virkja eiginleikann fyrir bætta uppgötvun afurða í rafrænum viðskiptum þannig að birgðir verði teknar til greina
+Til að virkja þessa upplifun verður þú fyrst að virkja **Aukin vöruuppgötvun rafræn viðskipti til að vera meðvituð um birgðahald** eiginleiki í **Eiginleikastjórnun** vinnurými.
 
 > [!NOTE]
-> Eiginleikinn **Bætt uppgötvun afurða í rafrænum viðskiptum þannig að birgðir verði teknar til greina** er í boði frá og með útgáfu 10.0.20 af Commerce.
+> The **Aukin vöruuppgötvun rafræn viðskipti til að vera meðvituð um birgðahald** eiginleiki er fáanlegur í útgáfu Commerce útgáfu 10.0.20 og síðar.
 
-Til að virkja eiginleikann **Bætt uppgötvun afurða í rafrænum viðskiptum þannig að birgðir verði teknar til greina** í Commerce Headquarters skal fylgja þessum skrefum.
+Birgðameðvituð vöruleit notar vörueiginleika til að fá upplýsingar um framboð á birgðum. Sem forsenda eiginleikans þarf að búa til sérstaka vörueiginleika, slá inn birgðagögn fyrir þá og bæta þeim við netrásina. 
 
-1. Opna skal **Vinnusvæði \> Eiginleikastjórnun**.
-1. Leitaðu að eiginleikanum **Bætt uppgötvun afurða í rafrænum viðskiptum þannig að birgðir verði teknar til greina** og virkjaðu hann svo.
-
-### <a name="configure-the-populate-product-attributes-with-inventory-level-job"></a>Stilltu verkið Fylla út afurðareigindir með birgðastöðu
-
-Verkið **Fylla út afurðareigindir með birgðastöðu** býr til nýja afurðareigind til að sækja birgðaframboð og stillir síðan eigindina á nýjasta gildi birgðastöðu fyrir hverja aðalafurð. Þar sem birgðaframboð afurðar eða vöruúrval sem er selt breytist stöðugt mælum við eindregið með því að verkið verði tímasett sem runuvinnsla.
-
-Til að skilgreina verkið **Fylla út afurðareigindir með birgðastöðu** í Commerce Headquarters skal fylgja þessum skrefum.
+Til að búa til sérstaka vörueiginleika til að styðja við birgðameðvitaða leitarniðurstöðueiningu skaltu fylgja þessum skrefum.
 
 1. Farðu í **Retail og Commerce \> Upplýsingatækni smásölu og viðskipta \> Afurðir og birgðir**.
-1. Velja **Fylla út afurðareigindir með birgðastöðu**.
-1. Í svarglugganum **Fylla út afurðareigindir með birgðastöðu** skal fylgja þessum skrefum:
+1. Veldu og opnaðu **Fylltu vörueiginleika með birgðastigi**.
+1. Í svarglugganum skaltu slá inn eftirfarandi upplýsingar:
 
-    1. Undir **Færibreytur**, í reitnum **Afurðareigind og heiti gerðar**, skal tilgreina heiti fyrir sérstaka afurðareigind sem verður stofnuð til að sækja birgðaframboð.
-    1. Undir **Færibreytur**, í reitnum **Birgðaframboð samkvæmt**, skal velja magnið sem útreikningur birgðastöðu á að byggja á (til dæmis **Efnislegt magn til ráðstöfunar**).
-    1. Undir **Keyra í bakgrunni** skal skilgreina verkið sem á að keyra í bakgrunni og valfrjálst kveikja á valkostinum **Runuvinnsla**. 
+    1. Í **Vörueiginleiki og tegundarheiti** reit, tilgreindu heiti fyrir sérstaka vörueigind sem verður búin til til að fanga birgðagögn.
+    1. Í **Birgðaframboð byggt á** reit, veldu magntegundina sem útreikningur birgðastigs ætti að byggja á (td.**Í boði líkamlegt**). 
 
-> [!NOTE]
-> Til að fá stöðugan útreikning á birgðastöðu á upplýsinga- og listasíðum afurða á svæði rafrænna viðskipta skal ganga úr skugga um að velja sama valkost magns fyrir bæði stillinguna **Birgðaframboð samkvæmt** í Commerce Headquarters og stillinguna **Birgðastaða samkvæmt** í vefsmið Commerce. Frekari upplýsingar um birgðastillingar í vefsmið er að finna í [Nota birgðastillingar](inventory-settings.md).
-
-### <a name="configure-the-new-product-attribute"></a>Skilgreina nýja afurðareigind
-
-Þegar búið er keyra verkið **Fylla út afurðareigindir með birgðastöðu** þarf að skilgreina nýlega stofnaða afurðareigind á svæði rafrænna viðskipta þar sem þú vilt virkja birgðavitneskju fyrir einingu leitarniðurstöðu.
-
-Til að skilgreina nýja afurðareigind í Commerce Headquarters skal fylgja þessum skrefum.
-
-1. Farðu í **Smásala og viðskipti \> Uppsetning rásar \> Rásarflokkar og afurðareigindir** og veldu svæði rafrænna viðskipta.
-1. Veldu og opnaðu viðkomandi eigindaflokk, bættu nýlega stofnaðri afurðareigind við hann og lokaðu svo síðunni.
-1. Veldu **Stilla lýsigögn eigindar**, veldu nýlega viðbættri afurðareigind og kveiktu svo á valkostunum **Sýna eigind á rás**, **Hægt að sækja**, **Fínstilling möguleg** og **Fyrirspurn möguleg**.
+1. Keyrðu verkið í bakgrunni. Vegna þess að vörubirgðir breytast stöðugt í umnichannel umhverfi, mælum við eindregið með því að þú tímasetur þetta verk sem runuferli.
 
 > [!NOTE]
-> Fyrir afurðir sem eru sýndar í einingu leitarniðurstöðu er birgðastaðan færð inn á stig aðalafurðar í staðinn fyrir einstök afbrigðisstig. Aðeins tvö möguleg gildi eru til: „tiltækt“ og „ekki til á lager“. Raunverulegur texti fyrir gildin er sóttur úr skilgreiningunni [forstilling birgðastöðu](inventory-buffers-levels.md). Aðalafurð er aðeins talin ekki til á lager þegar öll afbrigði hennar eru ekki til á lager. Birgðastaða afbrigðis er ákvarðað samkvæmt skilgreiningu á forstillingu birgðastöðu afurðarinnar. 
+> Til að fá samræmdan útreikning á birgðastigi yfir síður og einingar á netverslunarvefsíðunni þinni, vertu viss um að velja sömu magnstegund fyrir báðar **Birgðaframboð byggt á** stilling í Commerce höfuðstöðvum og **Birgðastig miðað við** stilling í Commerce site builder. Frekari upplýsingar um birgðastillingar í vefsmið er að finna í [Nota birgðastillingar](inventory-settings.md).
+
+Til að stilla vörueiginleika fyrir netrás skaltu fylgja þessum skrefum. 
+
+1. Farðu í **Retail og Commerce \> Uppsetning rásar \> Rásarflokkar og afurðareigindir**.
+2. Veldu netrás til að virkja birgðameðvitaða leitarniðurstöðueiningu fyrir.
+3. Veldu og opnaðu tengdan eigindahóp og bættu síðan nýstofnuðu vörueigindinni við hann.
+4. Fyrir viðskiptaútgáfur fyrir útgáfu 10.0.27, veldu **Stilltu lýsigögn eiginda**, veldu nýlega bætta vörueiginleikann og kveiktu síðan á **Sýna eigind á rás**, **að sækja**, **að betrumbæta**, og **Hægt að spyrjast fyrir** valkostir.
+5. Fara til **Verslun og verslun \> Upplýsingatækni í smásölu og viðskiptum \> Dreifingaráætlun**, og keyra **1150 (Vörulisti)** starf. Ef þú tímasetur **Fylltu vörueiginleika með birgðastigi** verk sem runuferli, mælum við með að þú tímasetur einnig 1150 verkið sem runuferli sem keyrir á sömu tíðni.
+
+> [!NOTE]
+> Fyrir vörur sem eru sýndar í leitarniðurstöðueiningunni er birgðastigið sýnt á aðalvörustigi í stað einstaks afbrigðisstigs. Aðeins tvö möguleg gildi eru til: „tiltækt“ og „ekki til á lager“. Raunverulegt merki fyrir gildið er sótt í [birgðastigssnið](inventory-buffers-levels.md) skilgreiningu. Aðalafurð er aðeins talin ekki til á lager þegar öll afbrigði hennar eru ekki til á lager.
 
 Eftir að búið er að ljúka öllum fyrri skilgreiningarskrefum munu afmarkanir á síðum leitarniðurstöðu sýna síu sem byggir á birgðum og eining leitarniðurstöðu mun sækja birgðaupplýsingar í bakgrunni. Síðan er hægt að skilgreina stillinguna **Birgðastillingar fyrir afurðalistasíður** í vefsmið Commerce til að stýra því hvernig eining leitarniðurstöðu sýnir afurðir sem ekki eru til á lager. Nánari upplýsingar er að finna í [Nota birgðastillingar](inventory-settings.md).
 

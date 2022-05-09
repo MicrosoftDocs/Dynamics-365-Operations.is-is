@@ -1,8 +1,8 @@
 ---
 title: Yfirlit yfir áskriftargreiðslur
-description: Þetta efnisatriði lýsir innheimtu áskriftar í Microsoft Dynamics 365 Finance.
+description: Þetta efni lýsir innheimtu áskriftar í Microsoft Dynamics 365 Fjármál.
 author: JodiChristiansen
-ms.date: 02/09/2022
+ms.date: 04/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 2796e25ec783941de381fb5ae96145eeba870bde
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 9d46492cca3cc435048fa497f6b1f3a28b77140a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462470"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644528"
 ---
 # <a name="subscription-billing-overview"></a>Yfirlit yfir áskriftargreiðslur
 
@@ -33,6 +33,8 @@ Lausnin hefur þrjár einingar sem hægt er að nota sjálfstætt. Að öðrum k
 - **Endurtekinn samningsreikningur** – Þessi eining gerir endurtekna innheimtu og verðstýringu kleift að veita stjórn á verðlagningu og innheimtubreytum, endurnýjun samnings og samstæðureikninga.
 - **Frestun tekna og gjalda** – Þessi eining útilokar handvirka ferla og ósjálfstæði á ytri kerfum með því að stjórna tekjum og gera rauntíma innsýn í mánaðarlegar endurteknar tekjur.
 - **Fjölþátta tekjuúthlutun** – Þessi eining hjálpar til við að fara eftir tekjum með því að meðhöndla verðlagningu og tekjuúthlutun yfir marga hluti.
+
+Fyrir frekari upplýsingar um innheimtu áskriftar, sjá [Innheimta áskriftar Power BI efni](sub-bill-power-bi.md).
 
 Innheimta áskriftar er virkjuð í gegnum **Eiginleikastjórnun**. Hins vegar er ekki hægt að nota það með **Tekjufærsla** eiginleiki. Þess vegna verður þú að slökkva á þeim eiginleika áður en þú virkjar innheimtu áskriftar.
 

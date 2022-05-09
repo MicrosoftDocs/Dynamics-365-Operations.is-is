@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4eb8f6aee50d74127ecc816af691a96bb1d8966b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: bb837a38485bad2b9b76a5e4f20d311c0281e192
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469143"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625426"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Áætlunargerð með neikvætt lagermagn
 
@@ -75,7 +75,7 @@ Niðurstaðan er áætluð röð 25 stk. (= 25 stk. &minus; 0 stk.) til að fyll
 
 ## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Skipulagning þegar gerð er frátekning á neikvæðum lagerbirgðum
 
-Ef þú breytir birgðum meðan efnislegar frátekningar eru til geturðu búið til aðstæður þar sem pöntun er efnislega frátekin í neikvæðri birgðastöðu. Í þessu tilviki, vegna þess að efnisleg frátekning er til staðar, gerir fínstilling skipulagningar ráð fyrir að lagerbirgðir styðji við hana jafnvel þótt innhreyfing lagerbirgða er ekki enn skráð í kerfið. Því er gert ráð fyrir að ekki þurfi áfyllingu og ekki er stofnuð áætluð pöntun til að fylla á pöntunarmagnið.
+Ef þú breytir birgðum meðan efnislegar frátekningar eru til geturðu búið til aðstæður þar sem pöntun er efnislega frátekin í neikvæðri birgðastöðu. Í þessu tilviki, vegna þess að efnisleg frátekt er til staðar, þarftu að hafa framboð til að standa undir fráteknu magni. Þess vegna er áfyllingar krafist, þannig að kerfið mun annaðhvort búa til áætlaða pöntun til að fylla á magnið sem ekki var hægt að dekka af fyrirliggjandi lagerbirgðum eða hylja það með fyrirliggjandi pöntun fyrir vöruna.
 
 Eftirfarandi dæmi lýsir þessum aðstæðum.
 
@@ -88,7 +88,7 @@ Kerfið er stillt með eftirfarandi hætti:
 - Sölupöntun er til fyrir magn upp á *10* stk. vöru *FG*.
 - Sölupöntunarmagnið er tekið frá úr fyrirliggjandi birgðum.
 
-Þú stillir síðan magn vörunnar *FG* þannig að lagerbirgðirnar verði 0 (núll). Vegna þess að lagerbirgðir vöru eru núll er sölupöntunarmagnið nú frátekið í neikvæðum birgðum. Ef aðaláætlanagerð er hins vegar keyrð núna verður engin áætluð pöntun stofnuð til að mæta eftirspurn sölupöntunarinnar vegna þess að fínstilling skipulagningar gerir ráð fyrir að nauðsynlegar lagerbirgðir séu til staðar til að mæta eftirspurn efnislegrar frátekningar.
+Þú stillir síðan magn vörunnar *FG* þannig að birgðastaðan verður 5. Vegna þess að birgðastaða vörunnar er 5, er sölupöntunarmagnið nú frátekið á móti magni sem er ekki tiltækt á lager (það væri svipað ef á lager væri 0, í því tilviki væri sölupöntunin frátekin gegn neikvæðum birgðum ). Ef þú keyrir aðalskipulagningu núna, áætlað pöntun magn 5 fyrir *FG* verður stofnað til að útvega sölupöntunina, vegna þess að áætlanagerð fínstilling mun alltaf nota núverandi framboð eða búa til nýja áætlaða pöntun til að útvega efnislega frátekninguna.
 
 ## <a name="related-resources"></a>Tengd tilföng
 

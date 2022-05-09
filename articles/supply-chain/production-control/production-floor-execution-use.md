@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384420"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644991"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -74,11 +74,11 @@ Listinn yfir virkar vinnslur er með eftirfarandi dálkum:
 
 ## <a name="my-jobs-tab"></a>Störfin mín flipinn
 
-The **Mín störf** flipann skulum starfsmenn auðveldlega skoða öll óbyrjuð og ólokin störf sem þeim er úthlutað sérstaklega. Það er gagnlegt í fyrirtækjum þar sem störfum er stundum eða alltaf úthlutað tilteknum starfsmönnum (mannauðs) í stað annars konar tilföngs (svo sem vélar). 
+The **Mín störf** flipann skulum starfsmenn auðveldlega skoða öll óbyrjuð og ólokin störf sem þeim er úthlutað sérstaklega. Það er gagnlegt í fyrirtækjum þar sem störfum er stundum eða alltaf úthlutað tilteknum starfsmönnum (mannauðs) í stað annars konar tilföngs (svo sem vélar).
 
-Tímasetningarkerfið úthlutar sjálfkrafa hverju framleiðsluverki á tiltekna tilfangafærslu og hver tilfangaskrá hefur gerð (eins og vél eða manneskju). Þegar þú setur upp starfsmann sem framleiðslustarfsmann geturðu tengt starfsmannsreikninginn við einstaka mannauðsskrá. 
+Tímasetningarkerfið úthlutar sjálfkrafa hverju framleiðsluverki á tiltekna tilfangafærslu og hver tilfangaskrá hefur gerð (eins og vél eða manneskju). Þegar þú setur upp starfsmann sem framleiðslustarfsmann geturðu tengt starfsmannsreikninginn við einstaka mannauðsskrá.
 
-The **Mín störf** flipinn sýnir öll óbyrjuð og ólokin störf sem hafa verið úthlutað á mannauðsskrá innskráða starfsmannsins, ef einhver starfsmaður er skráður inn. Það sýnir aldrei störf sem hafa verið úthlutað á vél eða annars konar auðlind, jafnvel þótt innritaður starfsmaður hafi byrjað að vinna við þau störf.
+The **Mín störf** flipinn listar öll óbyrjuð og ólokin störf sem hafa verið úthlutað á mannauðsskrá hins innskráða starfsmanns, ef einhver starfsmaður er skráður inn. Það sýnir aldrei störf sem hafa verið úthlutað á vél eða annars konar auðlind, jafnvel þótt innritaður starfsmaður hafi byrjað að vinna við þau störf.
 
 Til að skoða öll störf sem innskráður starfsmaður hefur hafið, óháð tegund auðlindar sem hverju starfi er úthlutað til, notaðu **Virk störf** flipa. Notaðu **Öll störf** flipa.
 
@@ -87,7 +87,7 @@ Til að skoða öll störf sem innskráður starfsmaður hefur hafið, óháð t
 ## <a name="my-machine-tab"></a>Flipinn fyrir vélina mína
 
 Flipinn **Vélin mín** gerir starfsmönnum kleift að velja eign sem er tengd við tilfang vélar innan síunnar sem er stillt í flipanum **Allar vinnslur**. Starfsmaðurinn getur síðan skoðað stöðu og ástand valinnar eignar með því að lesa gildi fyrir allt að fjóra valda teljara og lista yfir nýlegar viðhaldsbeiðnir og skráða niðurtíma. Starfsmaðurinn getur einnig beðið um viðhald fyrir valda eign og skráð og breytt niðurtíma vélar. (Þetta flipaheiti er stillanlegt og gæti verið annað fyrir kerfið.)
- 
+
 ![Flipinn fyrir vélina mína.](media/pfei-my-machine-tab.png "Flipinn fyrir vélina mína")
 
 Flipinn **Vélin mín** er með eftirfarandi dálka. Tölurnar samsvara tölunum í síðustu skýringarmynd.
@@ -175,21 +175,21 @@ Starfsmenn geta tilgreint magnið sem á að stilla með því að velja **Still
 
 ### <a name="adjust-material-consumption-from-the-report-scrap-and-report-progress-dialog-boxes"></a>Stilltu efnisnotkun úr svargluggunum Tilkynna rusl og Tilkynna framvindu
 
-Eftir að starfsmaður slær inn magnið sem á að tilkynna í **Tilkynna framvindu** eða **Tilkynna rusl** valmynd, the **Stilla efni** hnappur verður aðgengilegur. Þegar notandi velur þennan hnapp, **Stilla efni** svarglugginn birtist. Þessi svargluggi sýnir vörurnar sem áformað er að neyta þegar vöru- eða úrgangsmagnið er tilkynnt fyrir verkið.
+Eftir að starfsmaður slær inn magnið sem á að tilkynna í **Tilkynna framvindu** eða **Tilkynna rusl** valmynd, the **Stilla efni** hnappur verður aðgengilegur. Þegar notandi velur þennan hnapp, **Stilla efni** svarglugginn birtist. Þessi svargluggi listar upp vörurnar sem fyrirhugað er að neyta þegar vöru- eða úrgangsmagnið er tilkynnt fyrir verkið.
 
 Listinn í glugganum sýnir eftirfarandi upplýsingar:
 
-- **Vörunúmer** – Vörumeistari og vöruafbrigði.
+- **Vörunúmer** – Vörumeistarinn og vöruafbrigðið.
 - **Vöruheiti** – Nafn vörunnar.
-- **Tillaga** – Áætlað magn efnis sem verður notað þegar tilkynnt er um framvindu eða úrgang fyrir tilgreint magn fyrir verkið.
+- **Tillaga** – Áætlað magn efnis sem verður neytt þegar tilkynnt er um framvindu eða úrgang fyrir tilgreint magn fyrir verkið.
 - **Neysla** – Raunverulegt magn efnis sem verður neytt þegar tilkynnt er um framvindu eða rusl fyrir tilgreint magn fyrir verkið.
 - **Frátekið** – Magn efnis sem hefur verið frátekið efnislega í birgðum.
 - **Eining** – Efnisskrá (BOM) einingin.
 
 Hægra megin í glugganum sýnir eftirfarandi upplýsingar:
 
-- **Vörunúmer** – Vörumeistari og vöruafbrigði.
-- **Áætlað** – Áætlað magn sem á að neyta.
+- **Vörunúmer** – Vörumeistarinn og vöruafbrigðið.
+- **Áætlað** – Áætlað magn til neyslu.
 - **Byrjað** – Magnið sem byrjað er á framleiðsluvinnunni.
 - **Eftirstandandi magn** – Af áætluðu magni, það magn sem á eftir að neyta.
 - **Útgefið magn** - Magnið sem hefur verið neytt.
@@ -202,9 +202,9 @@ Hægt er að framkvæma eftirfarandi aðgerðir:
 - Ef starfsmaður velur **Allt í lagi**, vallistanum er ekki eytt. Það verður birt þegar tilkynnt er um starfið í **Tilkynna rusl** eða **Tilkynna framvindu** valmynd.
 - Ef starfsmaður velur **Hætta við** í **Tilkynna framvindu** eða **Tilkynna rusl** valmyndinni er vallistanum eytt.
 
-### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Stilltu efni frá tækjastikunni til hægri
+### <a name="adjust-material-from-the-primary-or-secondary-toolbar"></a>Stilltu efni frá aðal- eða aukatækjastikunni
 
-The **Stilla efni** Hægt er að stilla hnappinn þannig að hann birtist á tækjastikunni til hægri. (Fyrir frekari upplýsingar, sjá [Hannaðu framkvæmdarviðmót framleiðslugólfsins](production-floor-execution-tabs.md) .) Starfsmaður getur valið **Stilla efni** fyrir framleiðslustarf sem er í vinnslu. Í þessu tilviki er **Stilla efni** svargluggi birtist þar sem starfsmaðurinn getur gert þær breytingar sem óskað er eftir. Þegar svarglugginn er opnaður er framleiðslutínslulisti sem inniheldur línur fyrir leiðrétt magn búinn til fyrir framleiðslupöntunina. Ef starfsmaður velur **Sendu núna**, leiðréttingin er staðfest og tínslulistinn settur. Ef starfsmaður velur **Hætta við**, plokkunarlistanum er eytt og engin leiðrétting gerð.
+The **Stilla efni** Hægt er að stilla hnappinn þannig að hann birtist á aðal- eða aukatækjastikunni. (Fyrir frekari upplýsingar, sjá [Hannaðu framkvæmdarviðmót framleiðslugólfsins](production-floor-execution-tabs.md) .) Starfsmaður getur valið **Stilla efni** fyrir framleiðslustarf sem er í vinnslu. Í þessu tilviki er **Stilla efni** svargluggi birtist þar sem starfsmaðurinn getur gert þær breytingar sem óskað er eftir. Þegar svarglugginn er opnaður er framleiðslutínslulisti sem inniheldur línur fyrir leiðrétt magn búinn til fyrir framleiðslupöntunina. Ef starfsmaður velur **Sendu núna**, leiðréttingin er staðfest og tínslulistinn settur. Ef starfsmaður velur **Hætta við**, plokkunarlistanum er eytt og engin leiðrétting gerð.
 
 ### <a name="adjust-material-consumption-for-catch-weight-items"></a>Stilltu efnisnotkun fyrir aflaþyngdarhluti
 
@@ -260,6 +260,42 @@ Til dæmis, Shannon, starfsmaður á gólfi í Contoso, vill mæta á fund fyrir
 Starfsmenn geta skráð hlé. Hægt er að skilgreina hlé með sveigjanlegum hætti eins og lýst er í [Laun byggð á skráningum](pay-based-on-registrations.md).
 
 Starfsmaður skráir hlé með því að velja **Hlé** og síðan velja spjaldið sem stendur fyrir gerð hlés (t.d. hádegismatur). Eftir að starfsmaðurinn staðfestir valið sýnir tækið annaðhvort innskráningarsíðuna eða síðu sem bíður þess að starfsmaðurinn staðfesti að þeir hafi skilað úr hléinu. Síðan sem birtist fer eftir skilgreiningunni á keyrsluviðmóti framleiðslugólfsins. (Frekari upplýsingar er að finna í [Skilgreina keyrsluviðmót framleiðslugólfsins](production-floor-execution-configure.md).)
+
+## <a name="view-the-my-day-dialog"></a>Skoðaðu "Dagurinn minn" gluggann
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+The **Minn dagur** dialog veitir starfsmönnum yfirsýn yfir skráningar þeirra og stöður. Valmyndinni er skipt í eftirfarandi þrjá hluta:
+
+- Í aðalhlutanum eru skráðar skráningar sem núverandi starfsmaður gerði á völdum degi. Það opnast og sýnir skráningar fyrir núverandi dag og býður upp á dagsetningarval sem gerir starfsmanni kleift að skoða aðra daga.
+- The **Síðasta reiknaða daglega inneign** kafla sýnir núverandi stöður starfsmanns fyrir greiddan tíma, greidda yfirvinnu, fjarvistir og greidda fjarveru. Þessi gildi eru byggð á þeim skráningum sem hafa verið reiknaðar í samþykktarferlinu.
+- The **Jafnvægi** kafla veitir yfirlit yfir stöður innan tiltekins tímabils fyrir valda flokka skráningar (svo sem orlof, staðaltíma og yfirvinnu). Þessar stöður eru byggðar á því hvernig tölfræðilegar stöður eru settar upp í **Tími og mæting** mát. Fyrir frekari upplýsingar um hvernig á að setja þetta upp, sjá [Sýna orlofsstöður í framkvæmdarviðmóti framleiðslugólfs](production-floor-execution-payroll-stats.md).
+
+Stjórnendur geta bætt þessum eiginleika við viðmótið með því að setja **Minn dagur** hnappinn á tækjastiku fyrir hvern viðeigandi flipa eins og lýst er í [Hannaðu framkvæmdarviðmót framleiðslugólfsins](production-floor-execution-tabs.md).
+
+## <a name="working-in-teams"></a>Að vinna í teymum
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Þegar mörgum starfsmönnum er úthlutað í sama framleiðslustarfið geta þeir myndað teymi. Teymið getur tilnefnt einn starfsmann sem flugmann. Þeir starfsmenn sem eftir eru verða síðan sjálfkrafa aðstoðarmenn þess flugmanns. Fyrir liðið sem kemur út þarf aðeins flugmaðurinn að skrá starfsstöðu. Tímamet gildir fyrir alla liðsmenn.
+
+### <a name="prerequisites"></a>Forkröfur
+
+Til að nota teymi verður stjórnandi að virkja **Aðstoðarmaður** aðgerð fyrir aðal tækjastikuna á **Öll störf** flipa í framkvæmdarviðmóti framleiðslugólfs. Fyrir leiðbeiningar, sjá [Hannaðu framkvæmdarviðmót framleiðslugólfsins](production-floor-execution-tabs.md).
+
+### <a name="form-a-new-team-that-has-a-pilot-and-an-assistant"></a>Myndaðu nýtt lið sem hefur flugmann og aðstoðarmann
+
+Starfsmaður getur skráð sig sem aðstoðarmann með því að velja **Aðstoðarmaður** á **Öll störf** flipa. Þá, í **Veldu starfsmann til að aðstoða** svargluggi sem birtist getur starfsmaðurinn valið flugmann á lista yfir starfsmenn sem eru virkir að vinna að starfi. Eftir að starfsmaðurinn hefur staðfest val sitt verða þeir aðstoðarmenn valda starfsmannsins, sem verður flugmaður fyrir nýja teymið.
+
+### <a name="assign-a-new-pilot-to-an-existing-team"></a>Úthlutaðu nýjum flugmanni til núverandi liðs
+
+Þegar teymi vill velja nýjan flugmann verður núverandi flugmaður að tilnefna annan starfsmann í teyminu sem nýjan flugmann. Til að tilnefna nýjan flugmann velur núverandi flugmaður **Aðstoðarmaður** á **Öll störf** flipa. Þá, í **Skiptu um flugmann** valmynd sem birtist getur flugmaðurinn valið nýjan flugmann á lista yfir starfsmenn sem þegar eru í teyminu. Eftir að núverandi flugmaður hefur staðfest val sitt, eru þeir teknir úr hópnum algjörlega. Hins vegar geta þeir gengið aftur í liðið eins og þeir vilja.
+
+### <a name="assistant-clocks-out"></a>Aðstoðarmaður klukkar út
+
+Þegar starfsmaður sem vinnur sem aðstoðarmaður fer út, yfirgefur hann liðið. Ef **Föst lið** og **Endurræstu við innskráningu** valkostir eru stilltir á *Já*, starfsmaður sem klukkar út mun sjálfkrafa ganga aftur í liðið næst þegar hann skráir sig inn. Þú getur fundið þessa valkosti á **Almennt** flipi á **Tíma- og mætingarbreytur** síðu.
 
 ## <a name="opening-instructions"></a>Leiðbeiningar um opnun
 

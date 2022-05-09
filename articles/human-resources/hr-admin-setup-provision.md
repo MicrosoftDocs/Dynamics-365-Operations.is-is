@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565629"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625417"
 ---
 # <a name="provision-human-resources"></a>Úthluta Human Resources
 
@@ -41,7 +41,7 @@ ms.locfileid: "8565629"
 ## <a name="provision-a-human-resources-trial-environment"></a>Úthluta prófunarumhverfi Human Resources
 
 >[!NOTE]
-> Frá og með apríl 2022 verður prufuumhverfi mannauðs ekki tiltækt í sjálfstæðu umsókninni. Hugsanlegir viðskiptavinir sem hafa áhuga á að meta mannauðsgetu innan fjármála- og rekstrarappa geta gert það með því að nota ókeypis 30 daga prufuáskriftina ásamt kynningargögnum. Dynamics 365 Finance mun innihalda mannauðsmöguleikana sem færðir eru til Finance innviða með sameiningu sjálfstæða forritsins. Fyrir frekari upplýsingar, sjá [Sameining starfsmannaframboðs sameinar getu viðskiptavina](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Fyrir frekari upplýsingar um Dynamics 365 Finance prufur, sjá skref fyrir skref [leiðarvísir](/fin-ops/get-started/before-you-buy). 
+> Frá og með apríl 2022 verður prufuumhverfi mannauðs ekki tiltækt í sjálfstæðu umsókninni. Hugsanlegir viðskiptavinir sem hafa áhuga á að meta mannauðsgetu innan fjármála- og rekstrarappa geta gert það með því að nota ókeypis 30 daga prufuáskriftina ásamt kynningargögnum. Dynamics 365 Finance mun innihalda mannauðsmöguleikana sem færðir eru til Finance innviða með sameiningu sjálfstæða forritsins. Fyrir frekari upplýsingar, sjá [Sameining starfsmannaframboðs sameinar getu viðskiptavina](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Fyrir frekari upplýsingar um Dynamics 365 Finance prufur, sjá skref fyrir skref [leiðarvísir](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
 
 
 Áður en þú úthlutar fyrsta sandkassa- eða vinnsluumhverfinu þínu gæti verið ráðlegt að úthluta [Prófunarumhverfi Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) til að staðfesta virkni Human Resources. Prófunarumhverfi innihalda uppskálduð gögn sem hægt er að nota til að skoða forritið á öruggan hátt. Þótt prófunarumhverfið sé í eigu notandans sem óskaði eftir því er samt hægt að bjóða öðrum notendum aðgang í gegnum upplifun kerfisstjóra fyrir Human Resources. 

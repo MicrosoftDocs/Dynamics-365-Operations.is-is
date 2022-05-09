@@ -2,7 +2,7 @@
 title: Vistuð yfirlit
 description: Þetta efnisatriði lýsir því hvernig á að nota eiginleika fyrir vistuð yfirlit.
 author: jasongre
-ms.date: 09/13/2021
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065707"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644788"
 ---
 # <a name="saved-views"></a>Vistuð yfirlit
 
@@ -45,7 +45,7 @@ Hefðbundin sérstilling leyfir notendum að hafa aðeins eitt safn af sérstill
 
 Til eru tvær stærðir á yfirlitsvali: 
 
-- **Stórt yfirlitsval** - Síður sem birta lista á áberandi hátt verða með stærra yfirlitsval af nokkrum ástæðum. Mikilvægast er að stærra yfirlitsvalið gefur til kynna síðurnar þar sem yfirlitið getur innihaldið síur skilgreindar af notanda. Vegna þess að síur eru innifaldar í yfirlitunum, stærra yfirlitsvalið er einnig leyft sem yfirlit, verða heiti oft besta lýsing á gögnunum sem eru sýnd á skjánum og búist er við því að notendur muni skipta á milli yfirlita oftar á þessum síðugerðum.
+- **Stórt yfirlitsval** - Síður sem birta lista á áberandi hátt verða með stærra yfirlitsval af nokkrum ástæðum. Mikilvægast er að stærra útsýnisvalið gefur til kynna síðurnar þar sem yfirlitið getur innihaldið notendaskilgreindar síur og flokkanir. Vegna þess að síur og flokkanir eru innifaldar í sýnunum er stærri veljastærð einnig ábyrg þar sem yfirlitsnöfnin verða oft besta lýsingin á gögnunum sem sýnd eru á skjánum og búist er við að notendur skipta oftar á milli skoðana á þessum síðugerðum. Einnig er hægt að vista flokkun í hnitaneti í skoðanir á síðu með stórum valmyndum. 
 - **Lítið yfirlitsval**: Allar aðrar skjámyndir með heilli síðu (fyrir utan vinnusvæði og stjórnborðið) eru með minna yfirlitsval sem sést við hliðina á yfirskrift síðunnar. Yfirlit á þessum síðum fela eingöngu í sér sérstillingar, ekki síur skilgreindar af notanda. Á þessum síðum er yfirskriftin eða titill færslu oft mikilvægustu upplýsingarnar efst á síðunni. Minni stærð yfirlitsvalsins endurspeglar einnig færri skiptingar milli yfirlita sem búist er við á þessum síðum. 
  
 Ef heiti yfirlits er valið opnast yfirlitsvalið og sýnir lista yfir tiltæk yfirlit fyrir síðuna.

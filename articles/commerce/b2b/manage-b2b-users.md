@@ -2,7 +2,7 @@
 title: Stjórna notendum samstarfsaðila á rafrænum B2B-vefsvæðum
 description: Þetta efni lýsir því hvernig á að bæta við, eyða og breyta notendum viðskiptafélaga á Microsoft Dynamics 365 Commerce viðskipti á milli fyrirtækja (B2B) netviðskiptavefsíður og í höfuðstöðvum viðskipta.
 author: josaw1
-ms.date: 02/17/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: def8d4de082ceb4be77ed7e8898cbef82d52b749
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
-ms.translationtype: MT
+ms.openlocfilehash: c2fb4846a8457296a2ce758198ade5f4b0df8124
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323456"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616858"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Stjórna notendum samstarfsaðila á rafrænum B2B-vefsvæðum
 
@@ -28,7 +28,8 @@ ms.locfileid: "8323456"
 Þetta efni lýsir því hvernig á að bæta við, eyða og breyta notendum viðskiptafélaga á Microsoft Dynamics 365 Commerce viðskipti á milli fyrirtækja (B2B) netviðskiptavefsíður og í höfuðstöðvum viðskipta.
 
 > [!NOTE]
-> The [Stjórna B2B viðskiptafélaga með því að nota stigveldi viðskiptavina](partners-customer-hierarchies.md) efni er forsenda þessa skjals. 
+> - The [Stjórna B2B viðskiptafélaga með því að nota stigveldi viðskiptavina](partners-customer-hierarchies.md) efni er forsenda þessa skjals.
+> - Gakktu úr skugga um að þú frumstillir einingu skjalategunda í höfuðstöðvum Commerce með því að opna **Skjalagerðir** form kl **Stjórn stofnunarinnar \> Skjalastjórnun \> Skjalagerðir**.
 
 Rafræn B2B-vefsvæði krefjast þess að fyrirtæki skrái sig til að gerast samstarfsaðilar. Eftir að stofnun hefur sent skráningarupplýsingar á B2B rafræn viðskipti vefsíðu fer skráningarbeiðnin í gegnum hæfisferli. Ef fyrirtækið telst hæft er það tekið inn sem samstarfsaðili.
 
@@ -52,7 +53,7 @@ Til að samþykkja beiðni viðskiptafélaga í höfuðstöðvum Commerce skaltu
 1. Fara til **Upplýsingatækni í smásölu og viðskiptum \> Dreifingaráætlun**, og keyra **1010 (Viðskiptavinir)** starf til að ýta nýjum viðskiptamanna- og stigveldisskrám viðskiptavina í rásargagnagrunninn.
 
 > [!NOTE]
-> Til að tryggja að nýju viðskiptamannafærslurnar séu sendar í rásargagnagrunninn ætti að minnsta kosti ein af heimilisfangabókunum sem eru tengdar viðskiptavininum að vera með í heimilisfangaskrá viðskiptavinarins sem tengist netversluninni. Hægt er að gera þetta ferli sjálfvirkt með því að stilla heimilisfangaskrána á sjálfgefna viðskiptavinum netverslunarinnar þannig að kerfið afritar gildi heimilisfangabókar til hvers nýs viðskiptamanns.
+> Til að tryggja að nýju viðskiptamannafærslurnar séu sendar í rásargagnagrunninn ætti að minnsta kosti ein af heimilisfangabókunum sem eru tengdar viðskiptavininum að vera með í heimilisfangaskrá viðskiptavinarins sem tengist netversluninni. Hægt er að gera þetta ferli sjálfvirkt með því að stilla heimilisfangabókina á sjálfgefna viðskiptavinum netverslunarinnar þannig að kerfið afritar gildi heimilisfangabókarinnar til hvers nýs viðskiptamanns.
 
 Eftir að stigveldisskrár viðskiptavina hafa verið samstilltar við rásargagnagrunninn getur umsækjandinn skráð sig inn á B2B rafræn viðskipti vefsíðu með því að nota netfangið sem hann gaf upp þegar þeir sendu inn beiðni um inngöngu. Notendur geta notað nýskráningarferlið til að stilla aðgangsorð fyrir reikninginn. Fyrir upplýsingar um hvernig á að virkja Azure Active Directory (Azure AD) Skráning B2C auðkennisveitu til að tengja við B2B viðskiptamannaskrá sem var búin til við samþykki viðskiptavinar, sjá [Virkja sjálfvirka tengingu](../identity-record-linking.md).
 
@@ -100,7 +101,7 @@ Til að fjarlægja notanda samstarfsaðila skal fylgja þessum skrefum.
 
 ## <a name="onboard-existing-customers-as-business-partners-on-the-b2b-e-commerce-website"></a>Um borð í núverandi viðskiptavinum sem viðskiptafélagar á vef B2B rafrænna viðskipta
 
-Stjórnendur geta tekið samstarfsaðila og notendur beint inn Commerce Headquarters. Þessi hæfileiki er gagnlegur til að setja núverandi viðskiptafélaga þína inn á vefsíðu B2B rafræn viðskipti.
+Stjórnendur geta tekið samstarfsaðila og notendur beint inn Commerce Headquarters. Þessi möguleiki er gagnlegur til að setja núverandi viðskiptafélaga þína um borð á B2B rafræn viðskipti vefsíðu.
 
 Til að taka inn samstarfsaðila og notendur í Commerce Headquarters skal fylgja þessum skrefum.
 
@@ -114,11 +115,11 @@ Til að taka inn samstarfsaðila og notendur í Commerce Headquarters skal fylgj
 1. Færið inn lýsandi nafn í reitinn **Heiti**.
 1. Í reitinn **Fyrirtæki** skal færa inn viðskiptavin samstarfsaðilafyrirtækisins.
 1. Á **Stigveldi** Flýtiflipi, veldu **Bæta við**.
-1. Í **Nafn** reit, veldu viðskiptavin í **Persóna** tegund.
+1. Í **Nafn** reit, veldu viðskiptavin í **Persóna** gerð.
 1. Veldu **Admin** hlutverk fyrir viðskiptavininn sem ætti að vera tilnefndur sem stjórnandi.
 1. Endurtaktu þetta ferli til að bæta fleiri viðskiptavinum við stigveldið.
 
-## <a name="additional-information"></a>Frekari upplýsingar
+## <a name="additional-information"></a>Viðbótarupplýsingar
 
 - Hægt er að skilgreina öll verk sem eru nefnd eru í þessu efnisatriði til að keyra áætlun á runusniði. Búist er við að samstarfsaðilar muni skilgreina runuvinnslur eftir þörfum.
 - Sem stendur getur aðeins einn notandi/viðskiptavinafærsla verið stjórnandi og aðeins er hægt að breyta hlutverkinu í Commerce Headquarters. Enginn stuðningur er fyrir sjálfsafgreiðslumöguleika sem gerir samstarfsaðilum kleift að velja marga stjórnendur eða breyta stjórnendum úr rafrænum B2B-vefsvæðum.
@@ -129,7 +130,7 @@ Til að taka inn samstarfsaðila og notendur í Commerce Headquarters skal fylgj
 
 [Setja upp B2B-svæði fyrir rafræn viðskipti](set-up-b2b-site.md)
 
-[Stjórna B2B viðskiptafélögum með því að nota stigveldi viðskiptavina](partners-customer-hierarchies.md)
+[Stjórna B2B-viðskiptafélögum með því að nota stigveldi viðskiptavina](partners-customer-hierarchies.md)
 
 [Skilgreina greiðslumáta viðskiptavinalykils fyrir B2B-svæði fyrir rafræn viðskipti](payment-method.md)
 

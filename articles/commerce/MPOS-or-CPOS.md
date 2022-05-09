@@ -1,8 +1,8 @@
 ---
-title: Velja á milli Modern POS (MPOS) og Cloud POS
-description: Þetta efnisatriði útskýrir grundvallarmuninn á milli Modern POS og Cloud POS. Það lýsir einnig ýmsum þáttum sem smásalar sem innleiða Dynamics 365 Commerce ættu að íhuga til að fá hjálp við að velja besta kostinn út frá kröfur þeirra.
+title: Veldu á milli Store Commerce og Cloud POS
+description: Þetta efni útskýrir lykilmuninn á Store Commerce og Cloud POS og lýsir ýmsum þáttum sem smásalar sem innleiða Dynamics 365 Commerce ætti að íhuga að hjálpa þeim að velja besta valið fyrir kröfur þeirra.
 author: jblucher
-ms.date: 10/13/2017
+ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3e2987351e327b5cca27a6ea992a0550cc21d028cecf4330d374768f13711829
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b62e1737bc9e3b9d9e25a7a88e693a9aece80776
+ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714760"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8629291"
 ---
-# <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>Velja á milli Modern POS (MPOS) og Cloud POS
+# <a name="choose-between-store-commerce-and-cloud-pos"></a>Veldu á milli Store Commerce og Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði gefur þeim sem innleiða viðbótarbakgrunn, ábendingar og leiðbeiningar um þá þætti sem þeir ættu að íhuga þegar þeir virkja Dynamics 365 Commerce. Með því að skoða og fylgja þessum leiðbeiningum sem hluta af virkjunarferlinu geta þeir sem innleiða forðast vandamál sem gætu haft áhrif á ánægju notanda eða afköst.
+Þetta efni útskýrir lykilmuninn á Store Commerce og Cloud POS og lýsir ýmsum þáttum sem smásalar sem innleiða Dynamics 365 Commerce ætti að íhuga að hjálpa þeim að velja besta valið fyrir kröfur þeirra. Það gefur einnig framkvæmdaaðilum viðbótarbakgrunn, ábendingar og leiðbeiningar um þætti sem þeir ættu að hafa í huga þegar þeir nota Dynamics 365 Commerce. Með því að skoða og fylgja þessum leiðbeiningum sem hluta af virkjunarferlinu geta þeir sem innleiða forðast vandamál sem gætu haft áhrif á ánægju notanda eða afköst.
 
 ## <a name="insights"></a>Innsýn
 
@@ -36,28 +36,28 @@ Commerce veitir fjölbreytt úrval af virkjunar- og grannfræðikostum. Þess ve
 
 Commerce styður eftirfarandi valkosti fyrir sölustað (POS):
 
-- Modern POS (MPOS) fyrir Microsoft Windows
-- MPOS fyrir Microsoft Windows síma
-- MPOS fyrir Apple iPad eða Google Android spjaldtölvu
-- Cloud POS (CPOS), sem styður Microsoft Edge, Internet Explorer og Google Chrome vafra
+- Verslun Verslun fyrir Microsoft Windows
+- Store Commerce fyrir iOS og Android
+- Cloud POS (CPOS), sem styður Microsoft Edge og Google Chrome vafra
+- Nútíma POS (MPOS) fyrir Microsoft Windows (MPOS verður úrelt í október 2023.) 
 
-Í öllum tilvikum deilir POS (MPOS og CPOS) sama kjarnaforritakóða. Þetta atriði er mikilvægt af eftirfarandi ástæðum:
+Í öllum tilvikum deilir POS (Store Commerce og CPOS) sama kjarnaforritakóða. Þetta atriði er mikilvægt af eftirfarandi ástæðum:
 
 - Notendaviðmótið (UI) er sjálfkvæmt, án tillits til vettvangs eða formþáttar.
 - Meirihluti virknieiginleikanna er sá sami, án tillits til vettvangs eða formþáttar. Þó er til staðar mikilvægur munur. Munurinn er skýrður í þessu efnisatriði.
-- Í tiltekinni verslun er hægt að sameina POS afbrigði og þau verið í keyrslu samhliða. Til dæmis, fyrir helstu skrár sínar, smásali getur notað MPOS á tölvum sem keyra Windows. Hins vegar getur smásalinn bætt við þeim skrám með afgreiðslustöðvum eða farsímum sem tengjast vafra.
+- Í hverri verslun er hægt að sameina POS-afbrigðin og geta keyrt samtímis. Til dæmis, fyrir helstu skrár sínar, getur smásali notað Store Commerce á tölvum sem keyra Windows. Hins vegar getur smásalinn bætt við þeim skrám með afgreiðslustöðvum eða farsímum sem tengjast vafra.
 - Sérstillingar og viðbætur geta hæglega verið notaðar yfir vettvang og formþætti. Vegna þess að kjarnaforritskóðanum er deilt, er hægt að innleiða flestar sérstillingar einu sinni í staðinn fyrir mörgum sinnum.
 
-### <a name="mpos-vs-cpos"></a>MPOS samanborið við CPOS
+### <a name="store-commerce-vs-cpos"></a>Verslun vs CPOS
 
-Þótt MPOS og CPOS séu að mestu þau sömu, þá eru nokkur mikilvæg munur sem þú verður að skilja.
+Þó að Store Commerce og CPOS séu að mestu þau sömu, þá er nokkur mikilvægur munur sem þú verður að skilja.
 
-#### <a name="mpos"></a>MPOS
+#### <a name="store-commerce"></a>Store Commerce
 
-MPOS á Windows, IOS eða Android tæki er forrit sem er pakkað, sett upp og þjónustað á því tæki.
+Store Commerce er skrifborðsforrit sem er sett upp og þjónustað á tæki.
 
-- **Windows** - MPOS fyrir Windows forritið inniheldur alla forritakóðann og innfelldan Commerce-keyrslutíma (CRT). 
-- **iOS/Android** – Á þessum vettvangi virkar forritið sem gestgjafi fyrir CPOS forritakóðann. Með öðrum orðum kemur forritakóðinn frá CPOS-þjóninum á Microsoft Azure eða Commerce Scale Unit. Frekari upplýsingar, sjá [Yfirlit Commerce Scale Unit](dev-itpro/retail-store-system-begin.md).
+- **Windows** - Store Commerce fyrir Windows forritið inniheldur allan forritskóðann,Commerce Runtime (CRT), og vélbúnaðarstöð (HWS).
+- **iOS/Android** – Á þessum vettvangi virkar forritið sem gestgjafi fyrir CPOS forritakóðann. Með öðrum orðum, forritskóðinn kemur frá CPOS þjóninum sem er hýst á Commerce Scale Unit. Frekari upplýsingar, sjá [Yfirlit Commerce Scale Unit](dev-itpro/retail-store-system-begin.md).
 
 #### <a name="cpos"></a>CPOS
 
@@ -67,11 +67,12 @@ Vegna þess að CPOS keyrir í vafra er forritið ekki uppsett á tækinu. Í st
 
 Til viðbótar við vettvang og formþátt, verða smásalar einnig að velja virkjunarvalkost í versluninni. Eftirfarandi tafla sýnir grunnstillingarnar sem eru tiltækar fyrir hvern POS valkost.
 
-| POS forrit         | Commerce Scale Unit | Tiltæk utan nets |
-|-------------------------|---------------|-------------------|
-| MPOS fyrir Windows        | Cloud eða RSSU | Já               |
-| MPOS fyrir iOS eða Android | Cloud eða RSSU | Nei                |
-| Sölustaður í skýi               | Cloud eða RSSU | Nei                |
+| POS forrit            | Commerce Scale Unit | Tiltæk utan nets | Staðbundinn HWS stuðningur |
+|----------------------------|---------------------|-------------------|-------------------|
+| Store Commerce fyrir Windows | Cloud eða RSSU       | Já               | Já               |
+| Verslun Verslun fyrir Android | Cloud eða RSSU       | Nr.                | Já               |
+| Store Commerce fyrir iOS     | Cloud eða RSSU       | Nr.                | Nr.                |
+| Sölustaður í skýi                  | Cloud eða RSSU       | Nr.                | Nr.                |
 
 #### <a name="commerce-scale-unit"></a>Commerce Scale Unit
 
@@ -79,11 +80,20 @@ Skalaeining viðskiptanna er hluti sem hýsir CRT. CRT inniheldur allan viðskip
 
 #### <a name="offline-mode"></a>Ótengdur hamur
 
-MPOS fyrir Windows styður ótengdan ham. Í ótengdum ham getur POS áfram unnið með sölu jafnvel þótt það sé aftengt frá Commerce Scale Unit. Síðan hægt að samstilla það með rásargagnagrunninum þegar tenging er endurheimt. MPOS notar eigið innleitt tilvik af CRT og notar tímabundið eigin staðbundna gagnaveitu (ótengdur SQL gagnagrunnur þjóns). Sjá [POS virkni án nettengingar](pos-offline-functionality.md) til að fá nánari upplýsingar um virkni án nettengingar.
+Store Commerce fyrir Windows styður offline stillingu. Í ótengdum ham getur POS áfram unnið með sölu jafnvel þótt það sé aftengt frá Commerce Scale Unit. Síðan hægt að samstilla það með rásargagnagrunninum þegar tenging er endurheimt. Store Commerce notar sitt eigið innbyggða dæmi af CRT og notar tímabundið sinn eigin staðbundna gagnagjafa (offline SQL Server gagnagrunn). Sjá [POS virkni án nettengingar](pos-offline-functionality.md) til að fá nánari upplýsingar um virkni án nettengingar.
 
 ### <a name="pos-peripheralhardware-considerations"></a>POS jaðarbúnaður/vélbúnaður íhugunarefni
 
-Söluaðilar verða einnig að íhuga hvernig POS mun fá aðgang að tækjum og jaðartæki, svo sem prentara, reiðuféskúffum og greiðslustöðvum. Aðeins MPOS fyrir Windows styður bein samskipti við þessi tæki. MPOS fyrir Windows Síma, IOS eða Android, og Cloud POS krefst vélbúnaðarstöðvar til að fá aðgang að þessum tækjum. Vélbúnaðarstöðvar geta verið tileinkaðar POS afgreiðslukassa eða deilt meðal afgreiðslukassa í verslun. Frekari upplýsingar um vélbúnaðarstöðvar, sjá [Grunnstilling og uppsetning Retail-vélbúnaðarstöðvar](retail-hardware-station-configuration-installation.md).
+Söluaðilar verða einnig að íhuga hvernig POS mun fá aðgang að tækjum og jaðartæki, svo sem prentara, reiðuféskúffum og greiðslustöðvum. Vélbúnaðarstöðvar geta verið tileinkaðar POS afgreiðslukassa eða deilt meðal afgreiðslukassa í verslun.
+
+| POS forrit            | Staðbundið HWS OPOS | Net jaðarbúnaðar | Sameiginlegur HWS stuðningur |
+|----------------------------|----------------|---------------------|--------------------|
+| Store Commerce fyrir Windows | Já            | Já                 | Já                |
+| Verslun Verslun fyrir Android | Nr.             | Já                 | Já                |
+| Store Commerce fyrir iOS     | Nr.             | Nr.                  | Já                |
+| Sölustaður í skýi                  | Nr.             | Nr.                  | Já                |
+
+Frekari upplýsingar um vélbúnaðarstöðvar, sjá [Grunnstilling og uppsetning Retail-vélbúnaðarstöðvar](retail-hardware-station-configuration-installation.md).
 
 ## <a name="implementation-considerations"></a>Umhugsunarefni fyrir innleiðingu
 
@@ -94,14 +104,14 @@ Söluaðilar verða einnig að íhuga hvernig POS mun fá aðgang að tækjum og
 
     Nema tengigeta fyrir tiltekið tæki sé mjög áreiðanleg og sterk, eða nema ákveðið langur óvirkur tími sé viðunandi fyrir smásalann, mælum við með einum af eftirtöldum valkostum:
 
-    - Nota MPOS í Windows, og virkja ótengdan ham.
+    - Notaðu Store Commerce í Windows og virkjaðu offline stillingu.
     - Dreifa viðskiptamælikvarðaeiningunni á staðnum.
 
     Þessir tveir valkostir útiloka ekki hvorn annan. Fyrir sem áreiðanlegasta grannfræði, geta smásalar virkjað staðbundið RSSU til að þurfa ekki að vera eins háðir nettengingu eða Azure framboði, og þeir geta einnig virkjað POS afgreiðslukassa þar sem ótengdur hamur er settur í gang ef vandamál koma upp varðandi staðbundinn þjón eða net.
 
-- **Vélbúnaður tæki/jaðartæki** - Einn mikilvægur þáttur í Retail POS kerfi er hæfni þess til að nota POS jaðartæki eins og prentara, reiðufjárskúffur og greiðslustöðvar. Þó að allar tiltækar POS valkostir geti notað jaðartæki, styður aðeins MPOS fyrir Windows þau beint. Fyrir öll önnur forrit þarf eina eða fleiri vélbúnaðarstöðvar. Þrátt fyrir að þessi nálgun bætir sveigjanleika, verða fleiri einingar að vera uppsett, grunnstilltir og þjónustaðir.
+- **Vélbúnaður tæki/jaðartæki** - Einn mikilvægur þáttur í Retail POS kerfi er hæfni þess til að nota POS jaðartæki eins og prentara, reiðufjárskúffur og greiðslustöðvar. Þó að allir tiltækir POS valkostir geti notað jaðartæki, þá styður aðeins Store Commerce fyrir Windows þá beint. Fyrir öll önnur forrit þarf eina eða fleiri vélbúnaðarstöðvar. Þrátt fyrir að þessi nálgun bætir sveigjanleika, verða fleiri einingar að vera uppsett, grunnstilltir og þjónustaðir.
 - **Kerfisskilyrði** - Kerfisskilyrðin fyrir POS forritið eru mismunandi. Vertu viss um að athuga nýjustu upplýsingar áður en þú velur. Til dæmis, vegna þess að CPOS keyrir í vafra styður það fjölbreyttar stýrikerfi. Fyrir frekari upplýsingar um kerfisskilyrði, sjá [Kerfisskilyrði fyrir uppsetningu í skýi](../fin-ops-core/fin-ops/get-started/system-requirements.md).
-- **Uppsetning og þjónusta** - Flækjustig uppsetningar- og þjónustuskilyrði geta verið breytilegt eftir því hvaða forrit og uppsetning eru valin. Til dæmis, fyrir ský-hýst CPOS uppsetningu, þú þarft ekki að setja upp og uppfæra í hverju tæki. Þess vegna minnkar þessi aðferð flækjustig og kostnað mikið. Hins vegar, ef þú setur upp MPOS á hvert afgreiðslukassa og virkjar ótengdan ham, og setur einnig upp samnýttar vélbúnaðarstöðvar, eykur þú mjög fjölda endastöðva sem þarf að stjórna.
+- **Uppsetning og þjónusta** - Flækjustig uppsetningar- og þjónustuskilyrði geta verið breytilegt eftir því hvaða forrit og uppsetning eru valin. Til dæmis, fyrir ský-hýst CPOS uppsetningu, þú þarft ekki að setja upp og uppfæra í hverju tæki. Þess vegna minnkar þessi aðferð flækjustig og kostnað mikið. Hins vegar, ef þú setur upp Store Commerce á hverja skrá og virkjar ótengda stillingu, og þú setur einnig upp sameiginlegar vélbúnaðarstöðvar, fjölgar þú til muna fjölda endapunkta sem þarf að hafa umsjón með.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

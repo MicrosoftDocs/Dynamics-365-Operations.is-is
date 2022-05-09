@@ -2,7 +2,7 @@
 title: Nettóþörf og þarfarakning með innbyggðri aðaláætlanagerð
 description: Í þessu efnisatriði er að finna upplýsingar um útreiknaðar nettóþarfir og upplýsingar um þarfarakningu í aðaláætlanagerð.
 author: t-benebo
-ms.date: 7/28/2021
+ms.date: 04/20/2022
 ms.topic: article
 ms.search.form: ReqTransOverview
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 19c64d62386a94494b729aa05b0612609812a418
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 98da80c73eec58c08d1043e48deb14ca828c34eb
+ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470430"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8618289"
 ---
 # <a name="net-requirements-and-pegging-information-with-built-in-master-planning"></a>Nettóþörf og þarfarakning með innbyggðri aðaláætlanagerð
 
@@ -26,6 +26,8 @@ ms.locfileid: "8470430"
 
 Síðan **Nettóþarfir** sýnir nettóþarfir sem aðaláætlanagerð reiknaði út fyrir afurðina. Hún sýnir einnig þekjustillingarnar sem voru notaðar við keyrslu aðaláætlanagerðar, sundurliðun á samtals þörf eftir færslugerð og upplýsingum um þarfarakningu.
 
-**Nettóþarfir** virkar á sama hátt, óháð því hvort þú sért að nota fínstillingu skipulagningar eða innbyggða aðaláætlunarvél. Frekari upplýsingar um hvernig á að vinna með þessa síðu eru í [Nettóþörf og þarfarakning með fínstillingu áætlanagerðar](planning-optimization/net-requirements.md).
+The **Nettókröfur** síða hegðar sér aðeins öðruvísi eftir því hvort þú ert að nota áætlanagerð fínstillingu eða innbyggðu aðalskipulagsvélina. Fyrir frekari upplýsingar um þennan mun, sjá [Munur á innbyggðu aðalskipulagi og hagræðingu skipulags](planning-optimization/planning-optimization-differences-with-built-in.md)
+
+Frekari upplýsingar um hvernig á að vinna með þessa síðu eru í [Nettóþörf og þarfarakning með fínstillingu áætlanagerðar](planning-optimization/net-requirements.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,18 +14,27 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: MT
+ms.openlocfilehash: 89d2f53a761085949885c987d664654c3423524b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781590"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645078"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>Setja upp IoT-gervigreindarinnbótina í LCS
 
 [!include [banner](../../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig á að setja upp IoT-gervigreind viðbótina í Microsoft Dynamics Lifecycle Services (LCS). Athugaðu að ekki er hægt að setja innbætur í kynningu/prufuumhverfi. Áður en hægt er að setja upp viðbótina þarf [að stofna Azure tilföng](iot-azure-setup.md).
+
+Hægt er að setja upp og stilla IoT-gervigreind án þess að skrifa kóða. Hér eru grunnskrefin.
+
+1. [Setja upp Azure-tilföng](iot-azure-setup.md) – Búðu til IoT-miðstöð, Redis-skyndiminni og lyklageymslu sem hægt er að fara í úr Supply Chain Management.
+2. [Snið skilaboðaskema fyrir IoT-miðstöð](iot-schema-format.md) – Stilltu tækin þín á að senda skilaboð til IoT Hub og skilgreindu skilaboðasnið JavaScript Object Notation (JSON).
+3. Í eiginleikastjórnun skal virkja eiginleikaflagg IoT-gervigreindar.
+4. Settu upp IoT Intelligence viðbótina Microsoft Dynamics Lifecycle Services (LCS) – Settu upp viðbótina í LCS og stilltu Azure leyndarmálin (eins og lýst er í þessu efni).
+5. [Setja upp mælieiningar](iot-metrics-setup.md) – Settu upp mælieiningar í Supply Chain Management.
+6. [Uppsetning atburðarásar](iot-scenario-setup.md) – Settu upp atburðarásirnar í Supply Chain Management.
 
 ## <a name="set-up-the-lcs-environment"></a>Setja upp LCS-umhverfi
 
@@ -47,7 +56,7 @@ ms.locfileid: "7781590"
 
 LCS uppsetningu er nú lokið. Næsta skrefið er að [setja upp aðstæður](iot-scenario-setup.md).
 
-## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a> Fjarlægja innbótina
+## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a>Fjarlægja innbótina
 
 1. Í Supply Chain Management skal [gera umhverfið óvirkt](iot-scenario-setup.md#disable-a-scenario).
 2. Opnið upplýsingar umhverfis Supply Chain Management í LCS.

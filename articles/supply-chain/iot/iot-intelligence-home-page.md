@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b6c179052cdb9d1ca808d9cba089163bde0d5d5
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
-ms.translationtype: MT
+ms.openlocfilehash: 5c587f4e6a1dd58a7b8c238fc5afb16774828b2a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782682"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644387"
 ---
 # <a name="iot-intelligence-home-page"></a>IoT gervigreind – heimasíða
 
@@ -37,32 +37,35 @@ IoT-gervigreind er viðbót fyrir Microsoft Dynamics 365 Supply Chain Management
 
 IoT gervigreind styður eftirfarandi atburðarásir:
 
-+ **Seinkun á framleiðslu** – Þessi atburðarás ber saman raunverulegan tíma ferlis við áætlaðan tíma ferlis. Supply Chain Management tilkynnir þér þegar framleiðsla er ekki á áætlun þannig að þú getir brugðist við til að hámarka rekstrarhagkvæmni og komið í veg fyrir seinkun á pöntunum.
-+ **Niðurtími búnaðar** – Í þessari atburðarás er borinn saman mældur uppitími við notandaskilgreindar færibreytur. Supply Chain Management tilkynnir þér þegar farið er yfir mörk stöðvunar þannig að þú getir gripið til aðgerða á borð við enduráætlun á verkbeiðni framleiðslu eða stofnun viðhaldsverkbeiðni.
-+ **Gæði vöru** – Í þessari atburðarás eru skynjunarlestrar bornir saman, t.d. raki og hitastig, við gæðamælingar skilgreindar af notanda. Supply Chain Management tilkynnir þér þegar frávik kemur upp þannig að þú getir brugðist við til að halda uppi gæðum og lágmarkað eyðslu.
+- **Seinkun á framleiðslu** – Þessi atburðarás ber saman raunverulegan tíma ferlis við áætlaðan tíma ferlis. Supply Chain Management tilkynnir þér þegar framleiðsla er ekki á áætlun þannig að þú getir brugðist við til að hámarka rekstrarhagkvæmni og komið í veg fyrir seinkun á pöntunum.
+- **Niðurtími búnaðar** – Í þessari atburðarás er borinn saman mældur uppitími við notandaskilgreindar færibreytur. Supply Chain Management tilkynnir þér þegar farið er yfir mörk stöðvunar þannig að þú getir gripið til aðgerða á borð við enduráætlun á verkbeiðni framleiðslu eða stofnun viðhaldsverkbeiðni.
+- **Gæði vöru** – Í þessari atburðarás eru skynjunarlestrar bornir saman, t.d. raki og hitastig, við gæðamælingar skilgreindar af notanda. Supply Chain Management tilkynnir þér þegar frávik kemur upp þannig að þú getir brugðist við til að halda uppi gæðum og lágmarkað eyðslu.
 
 Eftirfarandi mynd sýnir samspil Azure IoT Hub, IoT-gervigreind og Supply Chain Management.
 
 ![IoT Hub, IoT-gervigreind og Supply Chain Management.](media/iot_intelligence.png)
 
-## <a name="setup"></a>Uppsetning
+<!-- KFM: hide setup info for now
 
-Hægt er að setja upp og stilla IoT-gervigreind án þess að skrifa kóða. Hér eru grunnskrefin.
+## Setup
 
-1. [Setja upp Azure-tilföng](iot-azure-setup.md) – Búðu til IoT-miðstöð, Redis-skyndiminni og lyklageymslu sem hægt er að fara í úr Supply Chain Management.
-2. [Snið skilaboðaskema fyrir IoT-miðstöð](iot-schema-format.md) – Stilltu tækin þín á að senda skilaboð til IoT Hub og skilgreindu skilaboðasnið JavaScript Object Notation (JSON).
-3. Í eiginleikastjórnun skal virkja eiginleikaflagg IoT-gervigreindar. 
-4. [Setja upp viðbót IoT-gervigreindar í Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md) – Settu upp innbótina í LCS og stilltu Azure-leynilyklana.
-5. [Setja upp mælieiningar](iot-metrics-setup.md) – Settu upp mælieiningar í Supply Chain Management.
-6. [Uppsetning atburðarásar](iot-scenario-setup.md) – Settu upp atburðarásirnar í Supply Chain Management.
+You can set up and configure IoT Intelligence without writing any code. Here are the basic steps.
+
+1. [Set up Azure resources](iot-azure-setup.md) – Create an IoT hub, a Redis cache, and a key vault that can be accessed from Supply Chain Management.
+2. [Message schema formats for IoT Hub](iot-schema-format.md) – Configure your devices to send messages to IoT Hub, and define the JavaScript Object Notation (JSON) message format.
+3. In Feature Management, enable the IoT Intelligence feature flag. 
+4. [Install the IoT Intelligence add-in in Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md) – Install the add-in in LCS, and configure the Azure secrets.
+5. [Set up metrics](iot-metrics-setup.md) – Set up metrics in Supply Chain Management.
+6. [Scenario setup](iot-scenario-setup.md) – Set up the scenarios in Supply Chain Management.
+
+-->
 
 ## <a name="tracking-and-maintenance"></a>Rakning og viðhald
 
-+ [Fylgjast með aðstæðum í Dynamics 365 Supply Chain Management](iot-management.md#monitor-scenarios)
-+ [Gera aðstæður óvirkar](iot-scenario-setup.md#disable-a-scenario)
-+ [Fjarlægja innbótina](iot-lcs-setup.md#uninstall-addin)
-+ [Breyta aðstæðum IoT-gervigreind í vinnslu](iot-management.md#modify-a-running-iot-intelligence-scenario)
-+ [Hermivalkostir](iot-management.md#simulation-options)
+- [Fylgjast með aðstæðum í Dynamics 365 Supply Chain Management](iot-management.md#monitor-scenarios)
+- [Gera aðstæður óvirkar](iot-scenario-setup.md#disable-a-scenario)
+- [Breyta aðstæðum IoT-gervigreind í vinnslu](iot-management.md#modify-a-running-iot-intelligence-scenario)
+- [Hermivalkostir](iot-management.md#simulation-options)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

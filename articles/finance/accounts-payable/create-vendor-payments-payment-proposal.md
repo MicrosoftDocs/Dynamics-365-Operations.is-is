@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e87b1102e21e035c25af4c63245eaaa59e4babb82bcf59c5cfba48f7d114f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
+ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749053"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8629717"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Stofnun greiðslna lánardrottins með greiðslutillögu
 
@@ -48,7 +48,7 @@ Fyrirspurn um greiðslutillögu inniheldur mismunandi flipa, sem hver um sig hef
 - **Taka með reikninga lánardrottna frá öðrum lögaðilum** – Ef fyrirtækið hefur miðstýrðar vinnslu til greiðslu og greiðslutillagan á að taka með reikninga frá öðrum lögaðilum sem eru teknar með í leitarskilyrðum, setjið þennan valkost á **Já**.
 - **Bjóða aðskildar greiðslur lánardrottins fyrir hvern lögaðila** – Ef þessi valkostur er stilltur á **Já**, er aðskilin greiðsla stofnuð fyrir hvern lögaðila fyrir hvern lánardrottinn. Lánardrottinn greiðslunnar er lánardrottinn úr reikningi frá hverjum lögaðila. Ef þessi valkostur er stilltur á **Nei**, og sami lánardrottinn á reikninga í mörgum lögaðilum, er ein greiðsla stofnuð fyrir heildarupphæð valinna reikninga. Lánardrottinn greiðslunnar er lánardrottinn núverandi lögaðila. Ef lánardrottnalykillinn er ekki til í núverandi lögaðila, er notaður lánardrottnalykill fyrsta reikningsins sem þarf að greiða.
 - **Greiðslugjaldmiðill** – Þetta svæði tilgreinir þann gjaldmiðil sem allar greiðslur eru stofnaðar í. Ef gjaldmiðill er ekki skilgreindur, er hver reikningur greiddur í gjaldmiðli reikningsins.
-- **Greiðsluvikudagur** – færið Inn dag vikunnar þegar greiðsla á að fara fram. Þetta svæði er bara notað ef greiðslumátinn er sett upp með samtals reikninga til greiðslu á ákveðnum degi vikunnar.
+- **Greiðsla virka daga** – Sláðu inn vikudaginn þegar greiðsla á að fara fram, þessi reitur er aðeins notaður ef greiðslumáti er stilltur á **Vika**. Upphæð reikninga til greiðslu er lögð saman á tilgreindum vikudegi til greiðslu.
 - **Gerð mótlykils** og **Mótlykill** – Stilla þessi svæði til að skilgreina gerð lykils (eins og **Fjárhag** eða **Banka**) og mótlykil (til dæmis tiltekins bankareiknings). Greiðsluhátt fyrir reikninginn skilgreinir sjálfgefna gerð mótlykils og mótlykil, en hægt er að nota svæðin til að hnekkja sjálfgefnum gildum.
 - **Samantekin greiðsludagsetning** – Þetta er aðeins notað þegar reiturinn **Tímabil** á greiðslumáta er stilltur á **Samtals**. Ef dagsetning er tilgreind eru allar greiðslur stofnaðar á þessum degi. **Dagsetning lágmarksgreiðslu** svæðið er hunsað.
 - **Auka síur** – Á flýtiflipanum **Færslur til að taka með** er hægt að skilgreina aukabil skilyrða. Fyrir dæmi, ef þú vilt greiða aðeins svið lánardrottna, geturðu skilgreint afmörkun fyrir lánardrottnasvið. Þessi virkni er oft notuð til að að velja reikninga fyrir greiðslumáta. Til dæmis, ef skilgreind er sía þar sem **Greiðsluaðferð** = **Ávísun**, eru aðeins þeir reikningar sem hafa þann greiðslumáta valdir fyrir greiðslu, svo lengi sem þeir einnig uppfyllir önnur skilyrði sem eru tilgreindir í fyrirspurn.

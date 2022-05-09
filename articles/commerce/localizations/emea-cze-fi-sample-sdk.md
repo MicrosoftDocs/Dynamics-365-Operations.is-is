@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 80778547b99af5a7a9717146850d8161f2e8f686
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: aaa894ccfd77a5522a3696e20987b9e67f3abee0
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388339"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8613962"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-the-czech-republic-legacy"></a>Leiðbeiningar um dreifingu fyrir samþættingarsýni skattaskráningarþjónustu fyrir Tékkland (arfleifð)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Þetta efni veitir leiðbeiningar um útfærslu á samþættingarsýnishorni ríkisskráningarþjónustu fyrir Tékkland frá Microsoft Dynamics 365 Commerce Smásöluhugbúnaðarþróunarsett (SDK) á sýndarvél þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar um þetta sýnishorn af samþættingu ríkisfjármála, sjá [Samþættingarsýni skattaskráningarþjónustu fyrir Tékkland](emea-cze-fi-sample.md). 
 
@@ -128,7 +127,7 @@ Fylgdu þessum skrefum til að nota sýnishorn af POS viðbótinni í eldri SDK.
 1. Endurnefna afritið af **Pos.Extension** möppu **PosFiscalConnector**.
 1. Fjarlægðu eftirfarandi möppur og skrár úr **PosFiscalConnector** mappa:
 
-    - bin
+    - karfa
     - DataService
     - devDependencies
     - Söfn

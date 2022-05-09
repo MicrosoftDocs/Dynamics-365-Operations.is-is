@@ -2,7 +2,7 @@
 title: Bæta við gagnareitum í samþættingu skatts með því að nota viðbætur
 description: Þetta efnisatriði útskýrir hvernig á að nota X++ viðbætur til að bæta við gagnareitum í skattasamþættingu.
 author: qire
-ms.date: 02/17/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
-ms.translationtype: MT
+ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323576"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649102"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Bæta við gagnareitum í samþættingu skatts með því að nota viðbót
 
@@ -334,9 +334,10 @@ Framlengið `copyToTaxableDocumentHeaderWrapperFromTaxIntegrationDocumentObject`
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
+    // private const str IOEnumExample = 'Enum Example';
 
     /// <summary>
     /// Copies to <c>TaxableDocumentLineWrapper</c> from <c>TaxIntegrationLineObject</c> by line.
@@ -349,20 +350,24 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
         // Set the field we need to integrated for tax service
         _destination.SetField(IOCostCenter, _source.getCostCenter());
         _destination.SetField(IOProject, _source.getProjectId());
+
+        // If the field to be extended is an enum type, use enum2Symbol to convert an enum variable exampleEnum of ExampleEnumType to a string
+        // _destination.SetField(IOEnumExample, enum2Symbol(enumNum(ExampleEnumType), _source.getExampleEnum()));
     }
 }
 ```
 
-Í þessum kóða er `_destination` pökkunarhluturinn sem er notaður til að búa til bókunarbeiðnina og `_source` er `TaxIntegrationLineObject` hluturinn.
+Í þessum kóða,`_destination` er umbúðir hluturinn sem er notaður til að búa til beiðnina, og`_source` er`TaxIntegrationLineObject` mótmæla.
 
 > [!NOTE]
-> Skilgreindu lykilinn sem er notaður í beiðniforminu sem **einkakonst str**. Strenginn ætti að vera nákvæmlega eins og mælingarheitið sem bætt er við í efninu, [Bættu við gagnareitum í skattastillingar](tax-service-add-data-fields-tax-configurations.md).
-> Stilltu reitinn í **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** aðferð með því að nota **SetField** aðferð. Gagnategund seinni færibreytunnar ætti að vera **strengur**. Ef gagnategundin er það ekki **strengur**, umbreyttu því.
-> Ef X++**enum gerð** er framlengdur, athugaðu muninn á gildi þess, merkimiða og nafni.
+> Skilgreindu svæðisheitið sem er notað í beiðninni sem **einkakonst str**. Strenginn ætti að vera nákvæmlega eins og nafn hnútsins (ekki merkið) sem bætt er við í efninu [Bættu við gagnareitum í skattastillingar](tax-service-add-data-fields-tax-configurations.md).
 > 
+> Stilltu reitinn í **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** aðferð með því að nota **SetField** aðferð. Gagnategund seinni færibreytunnar ætti að vera **strengur**. Ef gagnategundin er það ekki **strengur**, breyttu því í streng.
+> Ef gagnategundin er X++**enum gerð**, við mælum með því að þú notir **enum2Tákn** aðferð til að breyta enum gildinu í streng. Enum virðisaukinn í skattstillingunni ætti að vera nákvæmlega það sama og enum nafnið. Eftirfarandi er listi yfir muninn á enum gildi, merki og nafni.
+> 
+>   - Nafn enum er táknrænt nafn í kóða. **enum2Tákn()** getur breytt enum gildinu í nafn þess.
 >   - Gildi enum er heiltala.
->   - Merki upptalningarinnar getur verið mismunandi eftir valin tungumál. Ekki nota **enum2Str** til að breyta enum gerðinni í streng.
->   - Mælt er með nafni enum vegna þess að það er fast. **enum2Tákn** hægt að nota til að breyta enum í nafn þess. Upptalningarvirðisauki í skattstillingunni ætti að vera nákvæmlega það sama og upptalningarnafnið.
+>   - Merki upptalningarinnar getur verið mismunandi eftir valin tungumál. **enum2Str()** getur breytt enum gildinu í merki þess.
 
 ## <a name="model-dependency"></a>Fyrirmyndarfíkn
 
@@ -526,7 +531,7 @@ final class TaxIntegrationPurchTableDataRetrieval_Extension
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
 
