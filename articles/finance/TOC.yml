@@ -12,6 +12,8 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.27 (júlí)
+                  href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (maí)
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (apríl)
@@ -412,6 +414,8 @@
                   href: accounts-receivable/subscription-billing-summary.md
                 - name: Endurteknar samningsgreiðslur
                   items:
+                    - name: Setja upp endurteknar greiðslur fyrir tengiliði
+                      href: accounts-receivable/sb-recur-bill-parameters.md
                     - name: Stofna greiðsluáætlun
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Afrita greiðsluáætlun
@@ -420,22 +424,26 @@
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Útskrift samkvæmt þáttaskilum
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Úthlutun tekna
+                      href: accounts-receivable/sb-rev-allocation.md
                     - name: Þjónustu- og endurnýjunarferli
                       href: accounts-receivable/sb-support-renewals.md
+                    - name: Óreikningsfærðar tekjur
+                      href: accounts-receivable/sb-unbilled-revenue.md
                     - name: Áætlanir um vísitölu neysluverðs
                       href: accounts-receivable/cpischedules.md
                     - name: Rifta greiðsluáætlunum
                       href: accounts-receivable/terminate-billing-schedule.md
+                    - name: Aðstæður fyrir dagsetningu röðunar
+                      href: accounts-receivable/sb-alignment-date-examples.md
                 - name: Tekju- og kostnaðarfrestanir
                   items:
                     - name: Setja upp tekju- og kostnaðarfrestanir
                       href: accounts-receivable/sb-deferrals.md
-                    - name: Frestunaráætlanir
-                      items:
-                        - name: Stofna frestunaráætlanir
-                          href: accounts-receivable/sb-deferrals-schedules.md
-                        - name: Sjálfgefnar frestunarfærslur
-                          href: accounts-receivable/sb-deferral-transactions.md
+                    - name: Stofna frestunaráætlanir
+                      href: accounts-receivable/sb-deferrals-schedules.md
+                    - name: Sjálfgefnar frestunarfærslur
+                      href: accounts-receivable/sb-deferral-transactions.md
                 - name: Margþátta tekjuúthlutun
                   items:
                     - name: Setja upp margþátta tekjuúthlutun
@@ -1429,7 +1437,7 @@
                             - name: Setja upp Azure-tilföng fyrir rafrænar reikningsfærslur
                               href: localizations/e-invoicing-set-up-azure-resources.md?toc=/dynamics365/finance/toc.json
                             - name: Stofna Azure-lyklageymslu í Azure-gáttinni
-                              href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md?toc=/dynamics365/finance/toc.json
+                              href: localizations/e-invoicing-create-azure-key-vault-azure-portal.md?toc=/dynamics365/finance/toc.json
                             - name: Stofna Azure-geymslureikning í Azure-gáttinni
                               href: localizations/e-invoicing-create-azure-storage-account-azure-portal.md
                             - name: Skilgreina SharePoint-tengingu
@@ -1460,6 +1468,8 @@
                           href: localizations/e-invoicing-complete-publish-deploy-globalization-feature.md?toc=/dynamics365/finance/toc.json
                         - name: Deila með öðrum fyrirtækjum
                           href: localizations/e-invoicing-share-other-organizations.md?toc=/dynamics365/finance/toc.json
+                        - name: Notkunarstjórnunaryfirlit
+                          href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                         - name: Vinna úr mótteknum rafrænum skjölum
                           items:
                             - name: Vinnur úr mótteknum rafrænum skjölum
@@ -1468,12 +1478,12 @@
                               href: localizations/e-invoicing-configure-email.md?toc=/dynamics365/finance/toc.json
                             - name: Skilgreina SharePoint-rás
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
-                        - name: Setja upp og nota rafrænar reikningsfærslur með Finance og Supply Chain Management
-                          items:
-                            - name: Virkja og setja upp samþættingu við rafrænar reikningsfærslur
-                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                            - name: Setja upp færibreytur rafrænna reikningsfærslna
-                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                    - name: Setja upp og nota rafrænar reikningsfærslur með Finance og Supply Chain Management
+                      items:
+                        - name: Virkja og setja upp samþættingu við rafrænar reikningsfærslur
+                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                        - name: Setja upp færibreytur rafrænna reikningsfærslna
+                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Vinna með rafrænar reikningsfærslur
                           items:
                             - name: Senda rafræn skjöl í rafræna reikningsfærslu
@@ -1486,12 +1496,6 @@
                       items:
                         - name: Tiltækileiki eiginleika rafrænna reikningsfærslna
                           href: localizations/e-invoicing-country-specific-availability.md?toc=/dynamics365/finance/toc.json
-                        - name: Hafist handa með stjórnun þjónustu rafrænnar reikningsfærslu
-                          href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
-                        - name: Hafist handa með rafrænar reikningsfærslur
-                          href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
-                        - name: Búa til nýjan eiginleika fyrir rafræna reikningsfærslu
-                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: Hafist handa með rafrænar reikningsfærslur fyrir Brasilíu
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Hafist handa með rafrænar reikningsfærslur fyrir Egyptaland
@@ -1504,10 +1508,6 @@
                           href: localizations/e-invoicing-ita-fatturapa-get-started.md
                         - name: Nota rafræna reikningsfærsluþjónustu til að flytja inn reikninga lánardrottins
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
-                        - name: Setja upp rafrænar reikningsfærslur
-                          href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
-                        - name: Power Platform-tilvísun stjórnanda fyrir viðbót
-                          href: localizations/e-invoicing-power-platform-plug-in.md
                     - name: Algengar spurningar um rafrænar reikningsfærslur
                       href: localizations/e-invoicing-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Skattaútreikningur
@@ -1618,6 +1618,12 @@
                           href: localizations/tcs-troubleshooting-failed-access-tax-service.md
                         - name: Auður listi yfir skattaeiginleika í færibreytum skattaútreiknings
                           href: localizations/tcs-troubleshooting-tax-feature-list-empty-tax-calculation-parameter.md
+                        - name: Ekki er hægt að ákvarða skattkóða
+                          href: localizations/tcs-troubleshooting-tax-code-cannot-be-determined.md
+                        - name: Engin samsvarandi niðurstaða fannst
+                          href: localizations/tcs-troubleshooting-no-matching-result.md
+                        - name: Gera kembistillingu virka í skattaútreikningsþjónustunni
+                          href: localizations/tcs-troubleshooting-enable-debug-mode.md
                     - name: Algengar spurningar um skattaútreikning
                       href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Skattur
@@ -3725,6 +3731,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Söluárangur og arðsemi
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/finance/toc.json
+                - name: Efni Power BI fyrir áskriftargreiðslu
+                  href: accounts-receivable/sub-bill-power-bi.md
                 - name: Greiðslur lánardrottna
                   href: accounts-payable/Vendor-payments-workspace.md
                 - name: Mælikvarðar vinnuafls

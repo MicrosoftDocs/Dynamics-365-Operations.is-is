@@ -12,14 +12,12 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.27 (júlí 2022)
+                  href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (maí 2022)
                   href: get-started/whats-new-scm-10-0-26.md
                 - name: Supply Chain Management 10.0.25 (apríl 2022)
                   href: get-started/whats-new-scm-10-0-25.md
-                - name: Supply Chain Management 10.0.24 (febrúar 2022)
-                  href: get-started/whats-new-scm-10-0-24.md
-                - name: Supply Chain Management 10.0.23 (janúar 2022)
-                  href: get-started/whats-new-scm-10-0-23.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -176,7 +174,7 @@
               items:
                 - name: Heimasíða stjórnunar innleiðingarferlis
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Hönnun fyrir forrit Finance and Operations
+                - name: Hönnun fyrir fjármála- og rekstrarforrit
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Microsoft FastTrack
                   href: /dynamics365/fasttrack/
@@ -1719,14 +1717,12 @@
                   href: inventory/inventory-visibility-tips.md
         - name: IoT gervigreind
           items:
-            - name: IoT gervigreind – heimasíða
+            - name: IoT-gervigreind – heimasíða
               href: iot/iot-intelligence-home-page.md
             - name: Setja upp Azure-tilföng
               href: iot/iot-azure-setup.md
-            - name: Snið skilaboðaskema fyrir IoT-miðstöð
+            - name: Snið skilaboðaskema fyrir IoT Hub
               href: iot/iot-schema-format.md
-            - name: Setja upp innbót í LCS
-              href: iot/iot-lcs-setup.md
             - name: Setja upp mælieiningar
               href: iot/iot-metrics-setup.md
             - name: Uppsetning sviðsmyndar
@@ -2757,6 +2753,8 @@
                   href: production-control/production-floor-execution-setup.md
                 - name: Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
                   href: production-control/production-floor-execution-use.md
+                - name: Sýna stöðu frís í viðmóti fyrir framkvæmd á framleiðslugólfi
+                  href: production-control/production-floor-execution-payroll-stats.md
                 - name: Hanna viðmót fyrir framkvæmd á framleiðslugólfi
                   href: production-control/production-floor-execution-styles.md
                 - name: Sérsníða viðmót fyrir framkvæmd á framleiðslugólfi

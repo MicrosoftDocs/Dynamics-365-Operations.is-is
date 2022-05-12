@@ -2,7 +2,7 @@
 title: Uppsetning tekjuskráningar
 description: Þetta efnisatriði lýsir uppsetningarkostum fyrir tekjuskráningu og þýðingu þeirra.
 author: kweekley
-ms.date: 11/24/2021
+ms.date: 04/28/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 5f72ebd743763db7c68340a833c2501d47d27081
+ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867221"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8656722"
 ---
 # <a name="revenue-recognition-setup"></a>Uppsetning tekjuskráningar
 [!include [banner](../includes/banner.md)]
@@ -100,7 +100,7 @@ Sláið inn lýsandi gildi í reitina **Tekjuáætlun** og **Lýsing**. Eftirfar
     - **Tilvik** – Upphæðinni er úthlutað jafnt á milli tilvika, en það getur falið í sér aukalegt tímabil ef **Raunveruleg upphafsdagsetning** er valin sem viðtekin skráning.
     - **Fjárhagstímabil eftir dögum** – Upphæðinni er úthlutað samkvæmt raunverulegum dögum á hverju fjárhagstímabili. 
 
-    Niðurstöður **Mánaðarlega eftir dögum** og **Fjárhagstímabil eftir dögum** verða þær sömu þegar fjárhagstímabilin fylgja almanaksmánuðum. Eina undantekningin er þegar skráningarvenjan er stillt á **Lok mánaðar/tímabils** og reitirnir **Upphafsdagur samnings** og **Lokadagur samnings** eru auðir á sölupöntunarlínu.
+         - Niðurstöður **Mánaðarlega eftir dögum** og **Fjárhagstímabil eftir dögum** verða þær sömu þegar fjárhagstímabilin fylgja almanaksmánuðum. Eina undantekningin er þegar skráningarvenjan er stillt á **Lok mánaðar/tímabils** og reitirnir **Upphafsdagur samnings** og **Lokadagur samnings** eru auðir á sölupöntunarlínu.
 
 - **Skráningarvenja** – Skráningarvenjan ákvarðar dagsetningarnar sem eru stilltar í tekjuáætluninni fyrir reikninginn.
 
@@ -108,7 +108,7 @@ Sláið inn lýsandi gildi í reitina **Tekjuáætlun** og **Lýsing**. Eftirfar
     - **Fyrsti dagur mánaðar/tímabils** – Dagsetning fyrstu áætlunarlínunnar er upphafsdagur (eða reikningsdagsetning) samningsins. Hins vegar eru allar síðari áætlunarlínurnar stofnaðar fyrir fyrsta dag mánaðar eða fjárhagstímabils.
     - **Skipting um miðbik mánaðar** – Dagsetning fyrstu áætlunarlínunnar fer eftir reikningsdagsetningunni. Ef búið er að bóka reikninginn fyrir fimmtánda dag mánaðarins er tekjuáætlunin búin til með fyrsta degi mánaðarins. Ef búið er að bóka reikninginn á sextánda degi mánaðarins eða síðar stofnast tekjuáætlunin með fyrsta degi næsta mánaðar.
 
-        Ekki er hægt að velja **Skipti í miðjum mánuði** ef grunnur skráningar er stilltur á **Fjárhagstímabil eftir dögum**.
+        - Ekki er hægt að velja **Skipti í miðjum mánuði** ef grunnur skráningar er stilltur á **Fjárhagstímabil eftir dögum**.
 
     - **Fyrsti dagur næsta mánaðar/tímabils** – Dagsetningin sem áætlunin hefst á er fyrsti dagur næsta mánaðar eða fjárhagstímabils.
     - **Lok mánaðar/tímabils** – Dagsetning fyrstu áætlunarlínunnar er upphafsdagur (eða reikningsdagsetning) samningsins. Hins vegar eru allar síðari áætlunarlínur stofnaðar fyrir síðasta dag mánaðar eða fjárhagstímabils. 

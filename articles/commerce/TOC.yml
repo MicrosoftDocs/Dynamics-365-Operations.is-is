@@ -12,14 +12,12 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.27 (júlí 2022)
+                  href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (maí 2022)
                   href: get-started/whats-new-commerce-10-0-26.md
                 - name: Commerce 10.0.25 (apríl 2022)
                   href: get-started/whats-new-commerce-10-0-25.md
-                - name: Commerce 10.0.24 (febrúar 2022)
-                  href: get-started/whats-new-commerce-10-0-24.md
-                - name: Commerce 10.0.23 (janúar 2022)
-                  href: get-started/whats-new-commerce-10-0-23.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -196,7 +194,7 @@
               items:
                 - name: Heimasíða stjórnunar innleiðingarferlis
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
-                - name: Hönnun fyrir forrit Finance and Operations
+                - name: Hönnun fyrir fjármála- og rekstrarforrit
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Microsoft FastTrack
                   href: /dynamics365/fasttrack/
@@ -356,6 +354,8 @@
                           href: tax-exempt-price-inclusive.md
                         - name: Skilgreina söluskatt fyrir pantanir á netinu
                           href: sales-tax-config.md
+                        - name: Fela upplýsingar um skattskil í samantektum pantana
+                          href: hide-taxes-breakup.md
                     - name: Setja upp forstillingu tilkynningar í tölvupósti
                       href: email-notification-profiles.md
                     - name: Númeraraðir
@@ -394,7 +394,7 @@
                       href: dev-itpro/store-commerce.md
                     - name: Leiðbeiningar við innleiðingu tækjastjórnunar
                       href: implementation-considerations-devices.md
-                    - name: Velja á milli MPOS og Cloud POS
+                    - name: Veldu á milli Store Commerce og sölukerfis í skýinu
                       href: MPOS-or-CPOS.md
                     - name: Aðgerðir sölustaðar á neti og utan nets
                       href: pos-operations.md
@@ -496,6 +496,8 @@
                   href: tasks/configure-functionality-profile-sales-representative.md
                 - name: Stofna fjárhagsvíddir fyrir smásölurásir og skilgreina gildi í verslunum
                   href: tasks/create-financial-dimensions-retail-channels.md
+                - name: Setja upp númeraraðir fyrir smásöluuppgjör
+                  href: retail-statements-number-sequences.md
                 - name: Virkja samræmda meðhöndlun afhendingarmáta í rásum rafrænna viðskipta
                   href: consistent-delivery-mode-handling.md
             - name: Setja upp netrás
@@ -880,10 +882,12 @@
                   href: tasks/define-loyalty-schemes.md
                 - name: Setja leiðréttingu vildarpunkta í ferli
                   href: tasks/process-loyalty-reward-point-adjustments.md
-        - name: Haltu utan um fjármálin
+        - name: Haldið utan um fjármálin
           items:
             - name: Yfirlit yfir uppgjör
               href: retail-statements.md
+            - name: Bókunarfæribreytur Commerce
+              href: commerce-posting-parameters.md
             - name: Villuleita í færslum verslunar fyrir útreikning uppgjörs
               href: valid-checker.md
             - name: Gera reglur óvirkar í samræmisprófun smásölufærslna
@@ -1100,6 +1104,8 @@
                       href: adventure-works-theme.md
                     - name: Setja upp Adventure Works-þemað
                       href: install-adventure-works.md
+                - name: Leiðarvísir um staðfærslu Commerce
+                  href: e-commerce-localization-guide.md
             - name: Stjórna stafrænum eignum
               items:
                 - name: Yfirlit stjórnunar stafrænna eigna
@@ -1310,8 +1316,16 @@
               href: b2b/invoice-management.md
             - name: Skilgreina greiðslumáta viðskiptavinalykils fyrir B2B-svæði fyrir rafræn viðskipti
               href: b2b/payment-method.md
-            - name: Stilla takmarkanir magns fyrir B2B svæði fyrir rafræn viðskipti
+            - name: Stilla takmarkanir magns fyrir B2B-svæði fyrir rafræn viðskipti
               href: b2b/quantity-limits.md
+            - name: Commerce-vörulistar fyrir B2B-svæði
+              items:
+                - name: Stofna Commerce-vörulista fyrir B2B-svæði
+                  href: catalogs-b2b-sites.md
+                - name: Stækkunarhæfniáhrif Commerce-vörulista fyrir B2B-sérstillingar
+                  href: catalogs-b2b-sites-dev.md
+                - name: Algengar spurningar um Commerce-vörulista fyrir B2B
+                  href: catalogs-b2b-sites-FAQ.md
         - name: Eftirlit og greining
           items:
             - name: Eftirlit með sölu og framlegð
@@ -2472,15 +2486,19 @@
                   items:
                     - name: Sérsníða tilföng og merkjaskrár í Commerce-viðbót
                       href: dev-itpro/extension-resource-localization.md
-            - name: Commerce án framvinnslu
+            - name: Viðskipti án framvinnslu
               items:
+                - name: Yfirlit
+                  items:
+                    - name: Kynning á Commerce Scale Unit (CSU) Core
+                      href: dev-itpro/CSU-core.md
                 - name: API og tilvísun
                   items:
                     - name: API viðskiptavina og neytenda Commerce Scale Unit
                       href: dev-itpro/retail-server-customer-consumer-api.md
                     - name: Nota API fyrir Retail Server í ytri forritum
                       href: dev-itpro/consume-retail-server-api.md
-                    - name: Typescript og C#-staðgengill fyrir Retail POS
+                    - name: Typescript og C#-staðgenglar fyrir Retail POS
                       href: dev-itpro/typescript-proxy-retail-pos.md
                     - name: Skipulag og skilgreining Commerce Runtime (CRT)
                       href: dev-itpro/commerce-runtime-overview.md
@@ -2528,6 +2546,8 @@
                       href: dev-itpro/extensions-shipping-carrier-integration.md
                 - name: Pökkun og uppsetning
                   items:
+                    - name: Stofna viðbótarpakka kvörðunareiningar í skýinu
+                      href: dev-itpro/CSU-packaging.md
                     - name: Fjarlægja viðbætur Cloud Scale Unit
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
@@ -2540,6 +2560,8 @@
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: Flytja sölustaðaviðbætur yfir í Commerce SDK
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Kemba Store Commerce Debug-viðbætur með VS Code
+                      href: dev-itpro/sc-debug.md
                 - name: Uppsetning á umhverfi
                   items:
                     - name: Staðbundið þróunarumhverfi
@@ -2614,6 +2636,8 @@
                       href: dev-itpro/pos-extension/mpos-extension-signing.md
                     - name: Stofna viðbótarpakka sölukerfis í skýinu
                       href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: Stofna Store Commerce-uppsetningarpakka fyrir viðbætur
+                      href: dev-itpro/store-comm-extension-installer.md
             - name: Rafræn viðskipti
               items:
                 - name: Yfirlit
@@ -2808,17 +2832,21 @@
                           href: e-commerce-extensibility/page-caching.md
                         - name: Skyndiminni gagnaaðgerðatilviks
                           href: e-commerce-extensibility/instance-cache.md
-                        - name: Fínstilling CSS einingar
+                        - name: Fínstilling CSS-einingar
                           href: e-commerce-extensibility/module-css-optimization.md
                     - name: Fjarmælingar og greiningar
                       items:
                         - name: Skráning fjarmælinga
                           href: e-commerce-extensibility/telemetry-logger.md
-            - name: Commerce HQ
+            - name: Commerce Headquarters
               items:
+                - name: CDX-pakkaviðbót
+                  items:
+                    - name: Stækka CDX-pakka viðskiptavinar til að bæta við sérsniðnum gögnum
+                      href: dev-itpro/extend-customer-CDX-package.md
                 - name: Pökkun og uppsetning
                   items:
-                    - name: Búa til greiðslupakka Commerce fyrir uppsetningu fjármála- og rekstrarforrta
+                    - name: Búa til greiðslupakka Commerce fyrir uppsetningu fjármála og rekstrar
                       href: dev-itpro/payment-connector-package.md
             - name: Retail SDK (sígilt)
               items:
