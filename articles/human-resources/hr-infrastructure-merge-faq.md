@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e43aaad2f5b80996eb0fc10f550f073aec67fe5d
-ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
-ms.translationtype: HT
+ms.openlocfilehash: a905d752af2cf8397acb4927aa99edb4c23bfa6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661459"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688121"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Algengar spurningar um sameiningu Dynamics 365 Human Resources tölvukerfis
 
@@ -63,7 +62,7 @@ Sérsniðnar samþættingar á milli Dynamics 365 Human Resources og HR-einingin
 
 ### <a name="my-organization-uses-dynamics-365-human-resources-to-manage-hr-operations-what-do-we-have-to-plan-for-to-migrate-to-the-new-experience"></a>Fyrirtækið mitt notar Dynamics 365 Human Resources til að stjórna mannauðsaðgerðum. Hvað þurfum við að undirbúa fyrir flutning yfir í nýju upplifunina?
 
-Ef stofnunin þín notar Dynamics 365 Human Resources en notar engin önnur fjármála- og rekstrarforrit, mun mannauðsumhverfið þitt verða flutt yfir í nýja innviðina. Mikið af þessu flutningsferli verður sjálfvirkt. Ferlar verða til staðar til að flytja gagnagrunninn þinn og samstilla hann við nýja tölvukerfið.
+Ef stofnun þín notar Dynamics 365 Human Resources en notar engin önnur fjármála- og rekstrarforrit, mun mannauðsumhverfið þitt verða flutt yfir í nýja innviðina. Mikið af þessu flutningsferli verður sjálfvirkt. Ferlar verða til staðar til að flytja gagnagrunninn þinn og samstilla hann við nýja tölvukerfið.
 
 Að auki verður komið upp verkfærum svo að hægt sé að prófa flutningsferlið og sannprófa gögn og upplifun áður en vinnsluumhverfið er flutt.
 
@@ -119,7 +118,7 @@ Mannauðsgögnin sem er nú stjórnað í Dynamics 365 Human Resources eru samst
 
 Núverandi Dataverse staðbundnar gagnatöflur fyrir Human Resources munu halda áfram að samstilla gögn úr umhverfinu í nýja tölvukerfinu. Einingunum verður umbreytt til að styðja tvöfalda skráningu. Allar aðrar samþættingar gagna sem eru stilltar með Data Integrator á móti þessum töflum fyrir önnur Dynamics 365 forrit munu halda áfram að virka eins og þær eru stilltar núna.
 
-### <a name="we-are-using-dual-write-to-move-hr-data-between-dataverse-and-other-finance-and-operations-apps-how-will-the-data-that-is-currently-being-integrated-be-affected-by-the-migration-to-the-new-infrastructure"></a>Við erum að nota tvískrift til að færa HR gögn á milli Dataverse og önnur fjármála- og rekstrarforrit. Hvernig verða gögnin sem nú er verið að samþætta fyrir áhrifum af flutningi í nýja tölvukerfið?
+### <a name="we-are-using-dual-write-to-move-hr-data-between-dataverse-and-other-finance-and-operations-apps-how-will-the-data-that-is-currently-being-integrated-be-affected-by-the-migration-to-the-new-infrastructure"></a>Við erum að nota tvískrift til að færa mannauðsgögn á milli Dataverse og önnur fjármála- og rekstrarforrit. Hvernig verða gögnin sem nú er verið að samþætta fyrir áhrifum af flutningi í nýja tölvukerfið?
 
 HR gögn verða innfædd í Finance and Operations öppunum í umhverfinu á nýju innviðunum. Tvískrifuð gögn verða notuð til að færa mannauðsgögn á milli nýja umhverfisins og Dataverse umhverfisins.
 
@@ -139,7 +138,7 @@ Power Apps, Power Automate flæði og aðrar Microsoft Power Platform sérstilli
 
 Ef forritin eru tengd við sama Power Apps umhverfið verða þau tengd áfram við það Power Apps umhverfi eftir flutninginn yfir í nýja tölvukerfið. Í þessu tilviki munu Power Apps, Power Automate flæði og aðrar Microsoft Power Platform sérstillingar halda áfram að virka án frekari skilgreiningar. Við mælum með að þú notir stýrðar lausnir til að stjórna forritsviðbóðtum í Dataverse. Frekari upplýsingar er að finna í [Kynning á lausnum](/powerapps/developer/data-platform/introduction-solutions).
 
-Hins vegar, ef Human Resources appið og Finance and Operations forritin eru tengd við aðskilin Power Apps umhverfi, þá verður að sameina þau sem hluta af fólksflutningunum. Þetta verk krefst þess að allar Power Apps og aðrar sérstillingar verði enduruppsettar í nýja umhverfinu.
+Hins vegar, ef Human Resources appið og Finance and Operations öppin eru tengd við aðskilin Power Apps umhverfi, þá verður að sameina þau sem hluta af fólksflutningunum. Þetta verk krefst þess að allar Power Apps og aðrar sérstillingar verði enduruppsettar í nýja umhverfinu.
 
 ### <a name="we-have-enabled-dataverse-virtual-tables-for-dynamics-365-human-resources-what-will-happen-to-these-tables-during-the-migration"></a>Við höfum virkjað Dataverse sýndartöflur fyrir Dynamics 365 Human Resources. Hvað verður um þessar töflur við flutninginn?
 
@@ -171,7 +170,7 @@ Já, vistuð yfirlit verða flutt í nýja tölvukerfið.
 
 ### <a name="we-are-using-ceridian-with-dynamics-365-human-resources-will-the-ceridian-integration-be-available-after-the-infrastructure-change-is-completed"></a>Við erum að nota Ceridian með Dynamics 365 Human Resources. Verður Ceridian-samþættingin tiltæk eftir að breytingu tölvukerfis er lokið? 
 
-Samþættingin við Ceridian verður flutt í samþættingu launaskráar sem byggir á API. Skráarsamþættingin sem nú er til í Dynamics 365 Human Resources verður ekki flutt til fjármála- og rekstrarinnviða. Frekari upplýsingar er að finna í [Kynning á API-launaskrá](./hr-admin-integration-payroll-api-introduction.md).
+Samþættingin við Ceridian verður flutt í samþættingu launaskráar sem byggir á API. Skráarsamþættingin sem nú er til í Dynamics 365 Human Resources verður ekki flutt yfir í fjármála- og rekstrarinnviðina. Frekari upplýsingar er að finna í [Kynning á API-launaskrá](./hr-admin-integration-payroll-api-introduction.md).
 
 ### <a name="how-will-the-migration-affect-the-service-update-process"></a>Hvernig mun flutningurinn hafa áhrif á ferli þjónustuuppfærslunnar?
 
@@ -189,7 +188,7 @@ Söfn viðskiptaferla fyrir LCS-verkið mun verða flutt í nýja LCS-verkið fy
 
 ### <a name="my-organization-currently-uses-only-dynamics-365-human-resources-what-resources-are-available-so-that-we-can-learn-more-about-the-development-capabilities-after-the-infrastructure-change-is-completed"></a>Sem stendur notar fyrirtækið mitt aðeins Dynamics 365 Human Resources. Hvaða úrræði eru í boði svo að við getum fengið frekari upplýsingar um þróunarmöguleika eftir að breytingum tölvukerfis er lokið?
 
-Bæði Microsoft Power Platform stækkanleikamöguleikar og Finance and Operations stækkanleikavalkostir verða í boði og hægt er að nota til þróunar. Frekari upplýsingar er að finna í [Þróa og sérstilla heimasíðu](../fin-ops-core/dev-itpro/dev-tools/developer-home-page.md).
+Bæði Microsoft Power Platform stækkanleikavalkostir og Finance and Operations stækkanleikavalkostir verða tiltækir og hægt er að nota til þróunar. Frekari upplýsingar er að finna í [Þróa og sérstilla heimasíðu](../fin-ops-core/dev-itpro/dev-tools/developer-home-page.md).
 
 ### <a name="we-have-enabled-features-in-dynamics-365-human-resources-will-these-features-be-enabled-automatically-during-the-migration"></a>Við höfum virkjað eiginleika í Dynamics 365 Human Resources. Verða þessir eiginleikar sjálfkrafa virkjaðir við flutninginn?
 
@@ -201,7 +200,7 @@ Inn- og útflutningsstillingar fyrir eigin gagnagrunn (BYOD) verða fluttar í n
 
 ### <a name="what-happens-to-my-azure-data-lake-during-the-migration"></a>Hvað verður um Azure Data Lake við flutninginn?
 
-Sérhver útflutningur sem er stilltur fyrir Azure Data Lake Storage í Finance and Operations forritum mun halda sömu uppsetningu eftir flutninginn.
+Sérhver útflutningur sem er stilltur fyrir Azure Data Lake Storage í Finance and Operations mun forritin halda sömu uppsetningu eftir flutninginn.
 
 ### <a name="we-are-currently-using-dynamics-ax-2012-will-the-upgrade-tools-that-are-currently-available-be-used-to-upgrade-the-hr-module-in-ax-2012-to-dynamics-365-human-resources"></a>Við erum að nota Dynamics AX 2012 eins og er. Verða uppfærsluverkfærin sem nú eru til staðar notuð til að uppfæra mannauðseininguna í AX 2012 í Dynamics 365 Human Resources?
 
@@ -221,7 +220,7 @@ Viðeigandi runuvinnslur verða fluttar sjálfkrafa í nýja tölvukerfið.
 
 ### <a name="my-organization-uses-dynamics-365-human-resources-to-manage-its-hr-operations-does-our-licensing-or-cost-change"></a>Fyrirtækið mitt notar Dynamics 365 Human Resources til að stjórna mannauðsaðgerðum. Breytist leyfið eða kostnaðurinn?
 
-Þetta hefur engin áhrif á viðskiptavini sem hafa keypt Dynamics 365 Human Resources leyfi. Enginn flutningur á leyfum er til fyrir þessa viðskiptavini. Aukaleg birgðahaldseining (SKU) sandkassa sem tilheyrði Human Resources verður ekki lengur í boði. Þess í stað geta viðskiptavinir valið að kaupa Finance and Operations apps Tier 2 sandkassa á aðeins lægri kostnaði. Núverandi viðskiptavinir sem hafa keypt mannauðssandkassa verða fluttir yfir í Finance and Operations apps Tier 2 sandkassa án aukakostnaðar.
+Þetta hefur engin áhrif á viðskiptavini sem hafa keypt Dynamics 365 Human Resources leyfi. Enginn flutningur á leyfum er til fyrir þessa viðskiptavini. Aukaleg birgðahaldseining (SKU) sandkassa sem tilheyrði Human Resources verður ekki lengur í boði. Þess í stað geta viðskiptavinir valið að kaupa Finance and Operations apps Tier 2 sandkassa með aðeins lægri kostnaði. Núverandi viðskiptavinir sem hafa keypt mannauðssandkassa verða fluttir yfir í Finance and Operations apps Tier 2 sandkassa án aukakostnaðar.
 
 ### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-does-my-licensing-or-cost-change"></a>Fyrirtækið mitt notar mannauðseininguna í Dynamics 365 Finance, Supply Chain Management, Commerce eða Project Operations. Breytist leyfi mitt eða kostnaður?
 

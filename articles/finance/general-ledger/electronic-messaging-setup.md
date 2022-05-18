@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ''
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a9d623c712de34afd1b38dbc6a8738ebf9613d49
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 652d8684473d1c1505a80eb1d860c57a214b9488
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860559"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734220"
 ---
 # <a name="set-up-electronic-messages"></a>Setja upp rafræn skilaboð
 
@@ -72,7 +72,7 @@ Eftirfarandi tafla lýsir reitunum á síðunni **Skilaboðastöður**.
 
 ## <a name="additional-fields"></a><a id="additional"></a>Önnur svæði
 
-Virkni rafrænna skilaboða gerir þér kleift að safna skrám úr færslutöflum í Microsoft Dynamics 365 Finance sem skilaboðaatriði. Þannig er hægt að undirbúa færslurnar fyrir skýrslugerð og síðan tilkynna þær. Hins vegar hafa færslutöflur stundum ekki nægar upplýsingar til að fylla út færslur á þann hátt að það uppfylli kröfur um skýrslugjöf. Til að fylla út allar upplýsingar sem þarf að tilkynna um færslu er hægt að setja upp önnur svæði. Önnur svæði geta tengst skilaboðum og skilaboðaatriðum. Hægt er að setja upp önnur svæði með því að fara á síðuna **Skattur** \> **Uppsetning** \> **Rafræn skilaboð** \> **Önnur svæði**.
+EM virkni gerir þér kleift að safna færslum úr viðskiptatöflum inn Microsoft Dynamics 365 Fjármál sem skilaboðaliðir. Þannig er hægt að undirbúa færslurnar fyrir skýrslugerð og síðan tilkynna þær. Hins vegar hafa færslutöflur stundum ekki nægar upplýsingar til að fylla út færslur á þann hátt að það uppfylli kröfur um skýrslugjöf. Til að fylla út allar upplýsingar sem þarf að tilkynna um færslu er hægt að setja upp önnur svæði. Önnur svæði geta tengst skilaboðum og skilaboðaatriðum. Hægt er að setja upp önnur svæði með því að fara á síðuna **Skattur** \> **Uppsetning** \> **Rafræn skilaboð** \> **Önnur svæði**.
 
 Eftirfarandi tafla lýsir almennu svæðunum á síðunni **Önnur svæði**.
 
@@ -158,9 +158,9 @@ Til að setja upp [fylla færslur aðgerðir](#populate) fyrir mörg fyrirtæki 
 
 2. Í **Uppsetning gagnaheimilda** grid, bæta við línu fyrir hvern dótturlögaðila sem þarf að vera með í skýrslugerð og stilla eftirfarandi reiti.
 
-    | Heiti reits             | Gildi |
+    | Heiti svæðis             | Gildi |
     |------------------------|-------|
-    | Heiti                   | Sláðu inn textagildi sem hjálpar þér að skilja hvaðan þessi skrá kemur. Til dæmis, slá inn **Nafn gagnagjafa - Dótturfélag 1**. |
+    | Nafn                   | Sláðu inn textagildi sem hjálpar þér að skilja hvaðan þessi skrá kemur. Til dæmis, slá inn **Nafn gagnagjafa - Dótturfélag 1**. |
     | Gerð skilaboðaatriðis      | Veldu tegund skilaboðahluta sem þarf fyrir EM vinnslu þína. |
     | Lykilgerð           | Tilgreindu reikningsgerðina sem þarf fyrir EM vinnslu þína. Ef EM vinnslan þín hefur engar sérstakar reikningsgerðir skaltu velja **Allt**. |
     | Aðaltöfluheiti      | Tilgreindu nafn aðaltöflunnar sem þarf fyrir EM vinnslu þína. |

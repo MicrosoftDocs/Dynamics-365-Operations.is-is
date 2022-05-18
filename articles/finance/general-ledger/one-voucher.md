@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 9a0a9a3f23a3aec0077fd1a64c55fea567b72800
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344059"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722493"
 ---
 # <a name="one-voucher"></a>Eitt fylgiskjal
 
@@ -72,7 +72,7 @@ Vegna vandamála sem geta komið upp þegar eitt fylgiskjal er notað, verður �
 
 Þegar fyllt hefur verið í allar virknigloppur mun Microsoft láta vita að eiginleikinn verði gerður úreldur. Hins vegar tekur úreldingin ekki gildi fyrr en a.m.k. einu ári eftir samskiptin. Þrátt fyrir að Microsoft geti ekki lagt fram mat þegar virkni eins fylgiskjals verður gerð úreld, þá mun það líklega taka að minnsta kosti tvö ár áður en úreldingin mun eiga sér stað. Stefna Microsoft er að láta líða a.m.k. 12 mánuði frá tilkynningu um úreldingu á virkni og þar til sjálf úreldingin á sér stað þannig að viðskiptavinir og óháðir hugbúnaðarsalar hafi tíma til að bregðast við breytingunni. Til dæmis gæti fyrirtæki þurft að uppfæra viðskiptaferli sína, einingar og samþættingar.
 
-Úrelding eins fylgiskjals er umtalsverð breyting sem verður tilkynnt víðsvegar. Sem hluti af þeim samskiptum mun Microsoft uppfæra þetta efnisatriði, birta bloggfærslu á bloggsvæði Microsoft Dynamics 365 Finance, uppfæra efnisatriðið „Fjarlægðir eða úreltir eiginleikar“, láta vita af breytingunni á viðeigandi ráðstefnum Microsoft o.s.frv.
+Úrelding eins fylgiskjals er umtalsverð breyting sem verður tilkynnt víðsvegar. Sem hluti af þeim samskiptum mun Microsoft uppfæra þetta efni, birta bloggfærslu um Microsoft Dynamics 365 Finance blogg, uppfærðu efnisefnið „Fjarlægðir eða úreltir eiginleikar“, tilkynntu breytinguna á viðeigandi Microsoft ráðstefnum og svo framvegis.
 
 ## <a name="why-use-one-voucher"></a>Af hverju að nota Eitt fylgiskjal?
 

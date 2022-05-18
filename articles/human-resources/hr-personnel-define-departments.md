@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: OMOperatingUnit, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e34c885a570da90ffe440c40b05fede6e989f2f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: c90628b6a1aa4c1ff899b9caaa804af6e02b7afb
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070603"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693697"
 ---
 # <a name="define-new-departments"></a>Skilgreina nýjar deildir
 
@@ -52,7 +51,7 @@ Deildir eru rekstrareiningar sem standa fyrir virku svæði fyrirtækis, svo sem
 15. Í retinum **Gildisdagsetningu** færirðu inn dagsetningu og tíma.
     * Þegar birtingu stigveldi deildar, hægt er að velja hvenær á að gera breytingarnar virkar. Breytingar má dagsett fram í tímann. Til dæmis veistu hugsanlega að í upphafi fjárhagsárs þíns verður að bæta við auka deild. Hægt er að setja gildisdagsetningu í byrjun fjárhagsársins og breytingar á stigveldinu verða virkar á þeirri dagsetningu.  
 16. Í **Lýstu breytingum** reit, sláðu inn gildi.
-17. Smellur **Birta**.
+17. Smelltu á **Birta**.
 
 
 

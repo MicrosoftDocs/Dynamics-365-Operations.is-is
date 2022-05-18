@@ -1,22 +1,22 @@
 ---
 title: Lokuð tilboð fyrir tilboðsbeiðnir
 description: Í þessu efnisatriði er lýst hvernig setja skal upp innsiglað tilboð til að halda svörum við tilboði söluaðila leyndum þar til þau eru óinnsigluð af starfsfólki kaupanda.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 96549b6053ba75f2d5b9a85bcd5b7feb006f0f1b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dfc19646d6724627c8a25bcfc8a6b2a70a73c261
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578081"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8675150"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>Lokuð tilboð fyrir tilboðsbeiðnir
 

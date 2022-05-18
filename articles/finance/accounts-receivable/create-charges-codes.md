@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: MarkupTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 034be190890a67fd0921d40fffdc704b9d6d5df7
-ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
+ms.openlocfilehash: e8526fa0f3c6e3d1b545703f6e6ef72f558b57bd
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8014113"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735028"
 ---
 # <a name="create-charges-codes"></a>Búðu til gjaldkóða
 
@@ -35,15 +35,15 @@ Til að búa til gjaldakóða fyrir viðskiptakröfur skaltu fylgja þessum skre
 3. Í **Gjaldkóði** reit, sláðu inn kóða fyrir gjaldið.
 3. Í **Lýsing** reit, sláðu inn lýsingu á gjaldinu.
 4. Valfrjálst: Í **Vöruskattsflokkur** reit, veldu söluskattsflokk.
-5. Á **Birting** Flýtiflipi, tilgreinið hvernig skuldfærsla ætti að vera sjálfkrafa skuldfærð og innfærð.
+5. Á **Birting** Flýtiflipi, tilgreinið hvernig gjaldið eigi að skuldfæra sjálfkrafa og leggja inn.
 6. Ef þú valdir **Fjárhagsreikningur** sem debettegund eða kredittegund, tilgreindu bókunartegund **Birting** reiti og tilgreindu aðalreikninginn í **Reikningur** sviðum.
 
 ### <a name="example"></a>Dæmi
 
 Viðskiptavinur þinn greiðir gjaldið. Þess vegna er því bætt við heildartölur sölupöntunar. Þú setur upp eftirfarandi færsluupplýsingar:
 
-- Í **Tegund** sviði í **Debet** kafla, veldu **Viðskiptavinur/seljandi** til að bæta reikningsgjaldinu á reikning viðskiptavinarins.
-- Í **Tegund** sviði í **Inneign** kafla, veldu **Fjárhagsreikningur**. Þá, í **Reikningur** reit, veldu aðalreikning fyrir tekjur af reikningsgjöldum.
+- Í **Gerð** sviði í **Debet** kafla, veldu **Viðskiptavinur/seljandi** til að bæta reikningsgjaldinu á reikning viðskiptavinarins.
+- Í **Gerð** sviði í **Inneign** kafla, veldu **Fjárhagsreikningur**. Þá, í **Reikningur** reit, veldu aðalreikning fyrir tekjur af reikningsgjöldum.
 
 > [!NOTE]
 > Ef debettegund eða kredittegund fyrir valda kóða er annaðhvort **Fjárhagsreikningur** eða **Atriði**, þú getur slegið inn annan gjaldmiðil fyrir gjaldfærsluna.
@@ -63,14 +63,14 @@ Til að búa til gjaldakóða fyrir Viðskiptaskuldir, fylgdu þessum skrefum.
 3. Í **Gjaldkóði** reit, sláðu inn kóða fyrir gjaldið.
 3. Í **Lýsing** reit, sláðu inn lýsingu á gjaldinu.
 4. Valfrjálst: Í **Vöruskattsflokkur** reit, veldu söluskattsflokk.
-5. Valfrjálst: Í **Hámarksupphæð** reit, sláðu inn hámarksupphæð sem er leyfileg fyrir gjaldkóðann.
+5. Valfrjálst: Í **Hámarksupphæð** reit, sláðu inn hámarksupphæð sem er leyfð fyrir gjaldkóðann.
 
     Þessi reitur er notaður til að staðfesta gjöld fyrir reikninga lánardrottins. Til að virkja staðfestingu gjalda skaltu velja **Virkja reikningssamsvörun** gátreitinn á **Staðfesting reikninga** flipi á **Færibreytur viðskiptaskulda** síðu.
 
     > [!IMPORTANT]
     > Til að sannreyna gjöld fyrir reikninga verður þú einnig að búa til tilvik af gerð stefnureglu sem er byggð á gjöldum fyrir tiltekna reikningsreglu lánardrottins.
 
-6. Á **Birting** Flýtiflipi, tilgreinið hvernig skuldfærsla ætti að vera sjálfkrafa skuldfærð og innfærð.
+6. Á **Birting** Flýtiflipi, tilgreinið hvernig gjaldið eigi að skuldfæra sjálfkrafa og leggja inn.
 7. Ef þú valdir **Fjárhagsreikningur** sem debettegund eða kredittegund, tilgreindu bókunartegund **Debetfærsla** og **Kreditbókun** reiti og tilgreindu aðalreikninginn í **Debetreikningur** og **Kreditreikningur** sviðum.
 8. Til að virkja samanburð á gjaldgildum fyrir reikning sem inniheldur gjöldin úr samsvarandi innkaupapöntunarhaus eða línum skaltu velja **Berðu saman innkaupapöntun og reikningsgildi** gátreit.
 
@@ -78,13 +78,13 @@ Til að búa til gjaldakóða fyrir Viðskiptaskuldir, fylgdu þessum skrefum.
 
 Hægt er að skrá gjaldið sem kostnað, sem hluta af heildarupphæð fyrir innkaupapöntun eða reikning lánardrottins. Fylgdu þessum skrefum til að setja upp færsluupplýsingar. 
 
-- Í **Tegund** sviði í **Inneign** kafla, veldu **Viðskiptavinur/seljandi** til að bæta reikningsgjaldinu við reikning lánardrottins.
-- Í **Tegund** sviði í **Debet** kafla, veldu **Fjárhagsreikningur**. Þá, í **Reikningur** reit, veldu aðalreikning fyrir útgjöld frá reikningsgjöldum.
+- Í **Gerð** sviði í **Inneign** kafla, veldu **Viðskiptavinur/seljandi** til að bæta reikningsgjaldinu við reikning lánardrottins.
+- Í **Gerð** sviði í **Debet** kafla, veldu **Fjárhagsreikningur**. Þá, í **Reikningur** reit, veldu aðalreikning fyrir útgjöld frá reikningsgjöldum.
 
 Fylgdu þessum skrefum til að setja upp bókunarupplýsingar þannig að einingargjaldið bætist við vörukostnaðinn.
 
-- Í **Tegund** sviði í **Inneign** kafla, veldu **Viðskiptavinur/seljandi** til að bæta reikningsgjaldinu við reikning lánardrottins.
-- Í **Tegund** sviði í **Debet** kafla, veldu **Atriði** til að bæta gjaldinu við vörukostnaðinn.
+- Í **Gerð** sviði í **Inneign** kafla, veldu **Viðskiptavinur/seljandi** til að bæta reikningsgjaldinu við reikning lánardrottins.
+- Í **Gerð** sviði í **Debet** kafla, veldu **Atriði** til að bæta gjaldinu við vörukostnaðinn.
 
 > [!NOTE]
 > Þú gætir viljað nota gjaldmiðil sem er frábrugðinn þeim gjaldmiðli sem tilgreindur er á innkaupapöntun eða reikningi. Þú getur slegið inn annan gjaldmiðil ef debettegund eða kredittegund fyrir valinn kóða er annaðhvort **Fjárhagsreikningur** eða **Atriði**.

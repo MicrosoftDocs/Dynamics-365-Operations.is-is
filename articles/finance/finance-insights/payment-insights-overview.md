@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 04897e3a7765264ab2e664422caa928c49b9cc61
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f3d6f328ff3fd4da6ad3e7d4f3f751d3be692736
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982040"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713191"
 ---
 # <a name="customer-payment-predictions"></a>Greiðsluspár viðskiptavinar
 
@@ -66,6 +66,6 @@ Greiðsluspá viðskiptavinar eiginleikinn veitir einnig samhengisupplýsingar t
 
 ## <a name="methodology"></a>Aðferð
 
-Það hefur yfirleitt reynst erfitt að þróa og nota gervigreindarlausn (AI). Þær hafa kallað á gagnavísindaVinnslan hefur krafist teymis sem inniheldur gögn vísindamanna, efnisorð (SMEs) og verkfræðinga, sem vinna með tíma til að móta, þróa, nota og viðhalda nothæfri AI-lausn. Greiðsluspá viðskiptavinar auðveldar uppsetningu og notkun á AI lausn í Microsoft Dynamics 365 Finance. Microsoft er að forpakka gervigreindarlausnir sem eru byggðar ofan á Microsoft AI Builder. Af þeim sökum geta notendur virkjað AI-lausnina með einum músarsmelli til að nýta kosti hugvitsamlegra spáa. Ef þú ert ekki ánægður með nákvæmni spár getur stórnotandi (aftur með einum músarsmelli) slegið inn AI Builder framlengingarupplifun, og veldu síðan eða hreinsaðu reitina sem eru notaðir til að búa til spár. Þegar þú ert tilbúinn getur þú „þjálfað“ líkanið og birt breytingarnar. Nýþjálfaða líkanið verður sjálfkrafa valið til að mynda spár í Dynamics 365 Finance.
+Það hefur yfirleitt reynst erfitt að þróa og nota gervigreindarlausn (AI). Þær hafa kallað á gagnavísindaVinnslan hefur krafist teymis sem inniheldur gögn vísindamanna, efnisorð (SMEs) og verkfræðinga, sem vinna með tíma til að móta, þróa, nota og viðhalda nothæfri AI-lausn. Greiðsluspá viðskiptavina gerir það auðvelt að dreifa og nota gervigreindarlausn í Microsoft Dynamics 365 Fjármál. Microsoft er að forpakka gervigreindarlausnir sem eru byggðar ofan á Microsoft AI Builder. Af þeim sökum geta notendur virkjað AI-lausnina með einum músarsmelli til að nýta kosti hugvitsamlegra spáa. Ef þú ert ekki sáttur við nákvæmni spár getur stórnotandi (aftur með einum músarsmelli) slegið inn AI Builder framlengingarupplifun, og veldu síðan eða hreinsaðu reitina sem eru notaðir til að búa til spár. Þegar þú ert tilbúinn getur þú „þjálfað“ líkanið og birt breytingarnar. Nýlega þjálfað líkanið verður sjálfkrafa tekið upp til að búa til spár í Dynamics 365 Finance.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

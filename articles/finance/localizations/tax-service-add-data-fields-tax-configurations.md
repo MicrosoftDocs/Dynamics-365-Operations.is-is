@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 590c2d62995f260ba4277e1031349b0dc43f1417
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: deb19c8ddf20b416864ed8c3f816f92e43309f71
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674901"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694094"
 ---
 # <a name="add-data-fields-in-tax-configurations"></a>Bæta við gagnareitum í skattaskilgreiningum
 
@@ -30,7 +29,7 @@ ms.locfileid: "7674901"
 
 ## <a name="customize-the-tax-data-model"></a>Sérstilla skattgagnalíkan
 
-1. Í Microsoft Dynamics 365 Finance skaltu fara í **Rafræn skýrslugerð** > **Skattaskilgreiningar**.
+1. Í Microsoft Dynamics 365 Fjármál, farðu til **Rafræn skýrslugerð** > **Skattstillingar**.
 2. Í skilgreiningartrénu skal velja **Gagnalíkan skattaútreiknings**. Í aðgerðasvæðinu velurðu svo **Stofna skilgreiningu**. 
 
   > [!NOTE] 

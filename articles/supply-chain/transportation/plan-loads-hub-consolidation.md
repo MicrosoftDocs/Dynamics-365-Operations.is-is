@@ -1,7 +1,7 @@
 ---
 title: Yfirlit yfir áætlun farms með samstæðustöð
 description: Greinin lýsir eiginleikanum að sameina sendingar í stöðvar sem eru sendar úr mismunandi vöruhúsum til sama viðskiptavinar, eða þegar vörur eru sendar frá mörgum lánardrottnum til sama vöruhúss.
-author: Henrikan
+author: Weijiesa
 ms.date: 07/25/2019
 ms.topic: overview
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: d27b0926-a534-4caf-a2a3-acbc7c440bca
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: henrikan
+ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd47a5745719873cc491d93b9a98a7fde609fe38
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 055d7c53b771e09002c84c643c45d3da9f71aca0
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985812"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676552"
 ---
 # <a name="plan-loads-using-hub-consolidation-overview"></a>Yfirlit yfir áætlun farms með samstæðustöð
 

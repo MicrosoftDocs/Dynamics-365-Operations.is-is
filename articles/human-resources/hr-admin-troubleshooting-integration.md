@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 308e2a538666522edf4a76be13b93c82c3f3a774
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9b83250bdb54ea6e78709dd3a3ea434a994f6211
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071111"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694005"
 ---
 # <a name="integration-with-finance-faq"></a>Algengar spurningar um samþættingu við Finance
 
@@ -30,11 +29,11 @@ ms.locfileid: "8071111"
 
 
 
-Þetta efnisatriði svarar algengum spurningum sem tengjast gögnunum sem eru samstillt þegar Dynamics 365 Human Resources er samþætt við Dynamics 365 Finance.
+Þetta efni svarar algengum spurningum um hvaða gögn eru samstillt hvenær Dynamics 365 Human Resources er samþætt við Dynamics 365 Finance.
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Get ég breytt Dynamics 365 Talent notanda í Power Apps?
 
-Nei. Ef notanda Human Resources er breytt gæti samþætting milli Human Resources og Dataverse mistekist. Eftirfarandi tafla sýnir sjálfgefnar stillingar fyrir Talent notanda.
+Nr. Ef notanda Human Resources er breytt gæti samþætting milli Human Resources og Dataverse mistekist. Eftirfarandi tafla sýnir sjálfgefnar stillingar fyrir Talent notanda.
 
 | Fullt nafn | Kenni umsóknar | Azure AD Kenni hlutar | URI forritskennis |
 | --- | --- | --- | --- |
@@ -44,7 +43,7 @@ Nei. Ef notanda Human Resources er breytt gæti samþætting milli Human Resourc
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Eru öll gögn samstillt eða bara sumar gagnaeiningar?
 
-Undirsafn af gögnunum er samstillt. Fyrir lista yfir allar einingarnar skal sjá [Samþætting við Dynamics 365 Finance](hr-admin-integration-finance.md).
+Undirsafn af gögnunum er samstillt. Fyrir lista yfir allar einingar, sjá [Samþætting við Dynamics 365 Finance](hr-admin-integration-finance.md).
 
 ## <a name="why-dont-i-see-any-data-synced-to-dataverse"></a>Af hverju sé ég engin gögn samstillt við Dataverse?
 
@@ -157,7 +156,7 @@ Við innleiðingu á Human Resources skal staðfesta að númeraraðirnar séu e
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Þegar ég er bý til tengistillinguna mína, get ég ekki séð tenginguna í fellilista tengingarinnar. Hvað geri ég?
 
-Gakktu úr skugga um að þegar þú býrð til tengingar velurðu Dynamics 365 Finance og Dataverse.
+Gakktu úr skugga um að þegar þú stofnar tengingar þínar velurðu Dynamics 365 Finance og Dataverse.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Við samstillingu starfsmanna fæ ég villurnar „CompanyInfo_FL er ekki til“ eða „Gildið '12/31/2154 11:59:59 pm‘ í reitnum „Lokadagur starfsmanns finnst ekki í tengdri töflu „Starfsmaður“.“ Hvað ætti ég að gera?
 

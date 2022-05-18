@@ -1,6 +1,6 @@
 ---
 title: Færa inn samsetningu fyrir lykil og vídd (sundurliðað innfærslustýring)
-description: Þessi grein lýsir því hvenir eigi að færa inn samsetningar reiknings og vídda eða fjárhagslykil. Framkvæmd innfærslunnar er oft kölluð sundurliðuð innfærslustýring
+description: Þetta efnisatriði lýsir því hvernig á að færa inn reiknings- og víddarsamsetningar eða fjárhagslykla. Framkvæmd innfærslunnar er oft kölluð sundurliðuð innfærslustýring
 author: aprilolson
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14071
 ms.assetid: e6fce826-c403-4d91-a78b-e9a58c44ac03
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6aad3c6044141c80103fe05706d77af52245432f0374223a75b2ba63b2c9a89b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 779c455cb842fda941ce716eb644b9e3020f5e90
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778919"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717503"
 ---
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Færa inn samsetningu fyrir lykil og vídd (sundurliðað innfærslustýring)
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvenir eigi að færa inn samsetningar reiknings og vídda eða fjárhagslykil. Framkvæmd innfærslunnar er oft kölluð sundurliðuð innfærslustýring
+Þetta efnisatriði lýsir því hvernig á að færa inn reiknings- og víddarsamsetningar eða fjárhagslykla. Framkvæmd innfærslunnar er oft kölluð sundurliðuð innfærslustýring
 
 Notendur færa inn samsetningu fyrir lykil og vídd á mismunandi síðum, eins og síðum fyrir almennar færslubækur, fjárhagsáætlanir og bókunarskilgreiningar. Gildar samsetningar fyrir lykil og vídd eru háðar lykilskipulagi sem úthlutað er til fjárhags og ítarlegum reglum sem eru úthlutaðar fyrir lykilskipulagið. Þegar notendur færa inn samsetninga geta þeir annaðhvort slegið gildin inn handvirkt eða nýtt sér fjölskrúðuga uppflettingarupplifun. Þegar þú færið inn svæði, geturðu byrjað slá inn og þá leitar að gildi og lýsingu. Til dæmis ef slegið inn 180 mun leita að öllum gildi sem byrja með því númerasamsetning. Eða slá inn Reiðufé og þá leitar að öll gildi sem er með lýsing sem byrjar á Reiðufé. Einnig hægt að nota algildisstaf, t.d. \*Reiðufé eða \*180 til að leita ef gildi eða lýsing innihalda leitarskilyrði. 
 

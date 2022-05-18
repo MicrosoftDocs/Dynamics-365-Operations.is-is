@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMKnowledgeCollectorPlanningTable, KMKnowledgeCollectorPlanningMulti, SysQueryForm, HcmPersonLookup, KMKnowledgeCollectorPlanning, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4885c11f0cb508edb8ebf3aef14748e819113264
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: c82f688a3d9366e629eedefd876dd5669bd7ed04
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067403"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691639"
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Dreifa spurningalistum með áætlanagerð
 
@@ -41,7 +40,7 @@ Röðun spurningalista er hægt að nota til að áætla og dreifa spurningalist
     * Stilltu áætlunina á **Nafnlaus** ef skrá ætti svör án nöfnum tengdum svarinu.  
     * Leyfa nafnlausar niðurstöður verður fyrst að setja upp í færibreytum Mannauður.  
 
-5. Í **Tegund** reit, veldu áætlanagerð.  Í þessu dæmi munum við nota **Ánægja** tegund.
+5. Í **Gerð** reit, veldu áætlanagerð.  Í þessu dæmi munum við nota **Ánægja** gerð.
 
 6. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 
@@ -85,7 +84,7 @@ Röðun spurningalista er hægt að nota til að áætla og dreifa spurningalist
 
 8. Smelltu á **Spurningalistar** flipa.
 
-9. Í trénu skaltu stækka hnútinn fyrir gerð spurningalista **Ánægjukönnun**.
+9. Í trénu, stækkaðu hnútinn fyrir gerð spurningalista **Ánægjukönnun**.
 
 10. Í trénu skal mekja við "heilbrigðisskoðun vinnuafls".
 

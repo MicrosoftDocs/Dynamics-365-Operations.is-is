@@ -2,7 +2,7 @@
 title: Regluuppfærslur
 description: Þetta efni gefur lista yfir fyrirhugaðar og gefnar reglugerðaruppfærslur fyrir Microsoft Dynamics 365 Fjármál.
 author: VStamberg
-ms.date: 01/20/2022
+ms.date: 04/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 734a4abf4559d05b1f96bcfbde151b49bba8e827
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
-ms.translationtype: HT
+ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649130"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711915"
 ---
 # <a name="regulatory-updates"></a>Regluuppfærslur
 
@@ -29,11 +29,11 @@ Regluuppfærslur eru eiginleikar sem eru innleiddir til að styðja nýjar eða 
 
 Microsoft reynir að innleiða nýjar kröfur um reglugerðir sem allra fyrst. Raunverulegur afhendingardagur fer eftir deginum sem lögin eru tilkynnt, tiltækileika á upplýsingum krafanna frá yfirvöldum á staðnum, framboði á sannvottunartólum og stærð og flækjustigi breytinganna.
 
-Við fyrirhugum að afhenda uppfærslur á reglum í One Version þjónustuuppfærslum sem eru útgefnar tímanlega fyrir viðskiptavini til að uppfæra og vera tilbúnar fyrir gildisdaginn (fyrir uppfærsluferli á reglum) eða fyrir tímamörk á fyrstu áskildu tilkynningunni (fyrir uppfærslum á reglu sem tengjast tilkynningu). Viðskiptavinir og samstarfsaðilar geta forskoðað nýjar uppfærslur á reglum í Preview Early Adoption Program (PEAP).
+Við fyrirhugum að afhenda uppfærslur á reglum í One Version þjónustuuppfærslum sem eru útgefnar tímanlega fyrir viðskiptavini til að uppfæra og vera tilbúnar fyrir gildisdaginn (fyrir uppfærsluferli á reglum) eða fyrir tímamörk á fyrstu áskildu tilkynningunni (fyrir uppfærslum á reglu sem tengjast tilkynningu). Viðskiptavinir og samstarfsaðilar geta forskoðað nýju reglugerðaruppfærslurnar í forskoðunarpakkanum sem fylgir hverri þjónustuuppfærslu.
 
 Í tilfellum þar sem tilkynning berst seint, upplýsingar um kröfur berast seint eða sannprófunartól, eða einstaklega stórar og flóknar breytingar, er hugsanlega ekki hægt að bjóða upp á uppfærslu á reglu fyrir almennu dagsetninguna á mánaðarlegri uppfærslu. Í slíkum tilfellum verður uppfærsla á reglum send sem bráðabætur fyrir viðeigandi tiltækar mánaðarlegar uppfærslur.
 
-Reglulegar uppfærslur sem eru gefnar út sem hluti af mánaðarlegu uppfærslunni eru einungis gefnar út með útgáfu útgáfunnar. Reglulegar uppfærslur sem eru afhentar annað hvort sem lagfæringar eða sem hluti af forsýningu á útgáfu er hægt að bera kennsl á með HF og PEAP. 
+Reglulegar uppfærslur sem eru gefnar út sem hluti af mánaðarlegu uppfærslunni eru einungis gefnar út með útgáfu útgáfunnar. Reglugerðaruppfærslur sem eru afhentar annað hvort sem heitar lagfæringar eða sem hluti af útgáfuforskoðun er hægt að bera kennsl á með skammstöfunum HF og Preview, í sömu röð. 
 
 Fyrir nýjustu áætlanir á uppfærslu á reglum skal skoða eftirfarandi töflu.   
 

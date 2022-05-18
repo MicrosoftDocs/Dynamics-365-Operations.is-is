@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: aae46fa90d306355608200f96ae5cf10793c8464
-ms.sourcegitcommit: 0925b9ee0cb0df93047681a243aacc2abd404dea
+ms.openlocfilehash: 35ee857339a59391b048f920e8d6b13812909d76
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "8446179"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725764"
 ---
 # <a name="revenue-recognition-overview"></a>Yfirlit tekjuskráningar
 
@@ -35,7 +35,7 @@ Almennt séð má nota tekjuskráningarferlið til að framkvæma þessi verk:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-Myndbandið [Hvernig á að nota tekjuskráningu í Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (sýnt hér að ofan) er innifalið í [spilunarlistanum fyrir Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) á YouTube.
+The [Hvernig á að nota tekjufærslu í Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) myndbandið (sýnt hér að ofan) er innifalið í [Spilunarlisti fyrir fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) í boði á YouTube.
 
 Tekjuskráningareiginleikinn veitir sveigjanlega umgjörð sem gerir það kleift að skilgreina sérstakar reglur fyrir fyrirtækið um greiningu bæði verðlags og tekjuáætlunar.
 

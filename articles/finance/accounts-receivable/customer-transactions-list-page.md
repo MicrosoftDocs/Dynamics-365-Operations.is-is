@@ -1,6 +1,6 @@
 ---
 title: Listasíða með færslum viðskiptavinar
-description: Þetta efnisatriði veitir upplýsingar um listasíðu með viðskiptavinafærslum fyrir Microsoft Dynamics 365 Finance.
+description: Þetta efnisatriði veitir upplýsingar um listasíðuna viðskiptamannafærslur fyrir Microsoft Dynamics 365 Fjármál.
 author: abruer
 ms.date: 08/28/2018
 ms.topic: article
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 4339990d4e2fd89abde4da54b005b212cacff751
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: ca6c9a054b47a5cdb6b001b7621f65797553fa21
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753875"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734776"
 ---
 # <a name="customer-transactions-list-page"></a>Listasíða með færslum viðskiptavinar
 

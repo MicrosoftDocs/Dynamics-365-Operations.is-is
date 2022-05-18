@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d221e1a47dca85880fd683177ca95dd1b7766fb9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064923"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743542"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>Sannvottun frá þjóni til þjóns fyrir API samþættingu ATS
 
@@ -89,7 +89,7 @@ Fyrir nýja hlutverkið verður að úthluta viðeigandi aðgangi til að minnst
 
 Annað skrefið er að tryggja að forritið fái viðeigandi heimildir til að nota gögnin í mannauðsstjórnun með því að tengja þau við notanda í forriti Human Resources. Fyrir notanda forrits eru köll milli þjónusta í gegnum Dataverse sýndartöfllur gerðar í samhengi við auðkenni notandans (forritsins) í Dataverse sem ræsir aðgerðina. Aðlögunarþjónusta sýndartöflunnar flettir þá upp á tengdum notanda í Human Resources og keyrir fyrirspurnina í samhengi við þann notanda. Þetta þýðir að stofna þarf notanda í Human Resources með réttum hlutverkum úthlutað til þess að veita aðgang að gögnum sem samþætt forrit mun nota.
 
-Notandi Human Resources mun einnig þurfa að vera úthlutað réttum heimildum að gögnum í Human Resources. Hlutverkið **Umsókn um ráðningu** (HcmRecruitingIntegrator) er tiltækt með réttindum sem aðalaðilar þurfa til að samþætta við ráðningagögn. Þessu hlutverki er hægt að úthluta til notanda forritsins á síðunni **Notendur** til að veita viðeigandi aðgang að gögnunum. Frekari upplýsingar um öryggishlutverk Human Resources er að finna í [Öryggi byggt á hlutverki](/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Notandi Human Resources mun einnig þurfa að vera úthlutað réttum heimildum að gögnum í Human Resources. Hlutverkið **Umsókn um ráðningu** (HcmRecruitingIntegrator) er tiltækt með réttindum sem aðalaðilar þurfa til að samþætta við ráðningagögn. Þessu hlutverki er hægt að úthluta til notanda forritsins á síðunni **Notendur** til að veita viðeigandi aðgang að gögnunum. Frekari upplýsingar um öryggishlutverk Human Resources er að finna í [Öryggi byggt á hlutverki](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 ### <a name="set-up-the-new-user-with-appropriate-permissions"></a>Setja upp nýjan notanda með viðeigandi heimildum
 
