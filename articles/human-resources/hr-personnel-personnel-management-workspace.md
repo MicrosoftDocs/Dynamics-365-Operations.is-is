@@ -10,18 +10,17 @@ ms.search.form: HcmPosition, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.author: twheeloc
 ms.reviewer: twheeloc
-ms.search.scope: Human Resources
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7a83dea308e3e2eec1edebd5d619f9455e1a2268
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 8b7493aa2df65b42d0da8a451c40cccafbc1cda8
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066576"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689467"
 ---
 # <a name="personnel-management-workspace"></a>Vinnusvæði Starfsmannastjórnunar
 
@@ -68,7 +67,7 @@ Hlutinn **Umsækjendur til að ráða** á vinnusvæði er fylltur út frá mör
 Ef stjórnandinn kemur ekki fram á spjaldinu hefur ekki verið úthlutað stöðu fyrir starfsmanninn.
 
 > [!NOTE] 
-> Við mælum með því að þú úthlutar starfsmanni stöðu áður en þú notar gátlista. Stundum er umboðsverkefnum úthlutað til yfirmanns nýráðins starfsmanns. Ef engu starfi er úthlutað er hins vegar ekki hægt að ákvarða yfirmann nýja starfsmannsins. Í því tilfelli verða ráðningarverk sem yfirmenn eiga að sjá um úthlutað á eiganda gátlistans í staðinn.
+> Við mælum með því að þú úthlutar starfsmanni stöðu áður en þú notar gátlista. Stundum er inngönguverkefnum úthlutað til yfirmanns nýráðins starfsmanns. Ef engu starfi er úthlutað er hins vegar ekki hægt að ákvarða yfirmann nýja starfsmannsins. Í því tilfelli verða ráðningarverk sem yfirmenn eiga að sjá um úthlutað á eiganda gátlistans í staðinn.
 
 Þegar starfskraftar birtast í hlutanum **Byrja bráðlega** eru eftirfarandi aðgerðir í boði fyrir þá:
 

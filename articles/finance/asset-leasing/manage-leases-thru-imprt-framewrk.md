@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseLeaseImportHeader
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 534584a7da494b427d48b1bc97bf6554d25f4a79d9d62f59ec5f2afb65e67431
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3443225b5c7cb6d8f758248e538c2a427a89265
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758898"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723168"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Vinna með leigusamninga í innflutningsramma leigusamnings
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að nota innflutningsramma leigusamnings til að breyta mörgum leigusamningum í einu skrefi. Notaðu þennan eiginleika til að spara tíma og til að tryggja nákvæmari breytingar með því að draga úr líkum á mannlegum mistökum. Þar að auki getur þessi eiginleiki tengt Microsoft Dynamics 365 Finance við ytri gagnaeiningar til að hlaða upp gögnum á skilvirkan hátt.
+Þetta efnisatriði útskýrir hvernig á að nota innflutningsramma leigusamnings til að breyta mörgum leigusamningum í einu skrefi. Notaðu þennan eiginleika til að spara tíma og til að tryggja nákvæmari breytingar með því að draga úr líkum á mannlegum mistökum. Að auki getur þessi hæfileiki tengst Microsoft Dynamics 365 Fjármál með ytri gagnaeiningum til að hlaða upp gögnum á skilvirkan hátt.
 
 Eftirfarandi gagnaeiningar er hægt að nota til að samþætta eignarleigu við ytri kerfi:
 

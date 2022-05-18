@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: af5d0a001fbe705834e116516933be67f2de8826
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921200"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734159"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Stofna innheimtubréfaröð
 
@@ -26,10 +26,10 @@ ms.locfileid: "7921200"
 
 Notið þetta ferli fyrir verk til að stofna innheimtubréfaröð. Þetta verkefni notar USMF-sýnifyrirtækið.
 
-1. Í skoðunarrúðunni ferðu í **Kerfi > Skuldir og innheimta > Uppsetning > Setja upp röð innheimtubréfa**.
+1. Fara til **Inneign og innheimtur > Uppsetning > Setja upp innheimtubréfaröð**.
 2. Smellt er á **Nýtt**.
 3. Í reitnum **Röð innheimtubréfa** skal færa inn kenni raðar sem mun standa fyrir röðina. Það verður notuð þegar þú setur upp bókunarreglu.
-4. Í reitinn **Lýsing** skal slá inn gildi.  Greiðsluskilmálar eru valfrjálsar. Ef fært er inn hér gildi, reikningur þóknunar innheimtubréfs nota þessar greiðsluskilmála í stað greiðsluskilmálar geymd með viðskiptavini.  
+4. Í reitinn **Lýsing** skal slá inn gildi. Greiðsluskilmálar eru valfrjálsar. Ef fært er inn hér gildi, reikningur þóknunar innheimtubréfs nota þessar greiðsluskilmála í stað greiðsluskilmálar geymd með viðskiptavini.  
 5. Í reitnum **Kóði innheimtubréfas** skal velja kóða fyrir fyrsta innheimtubréfið sem á að senda. Fyrsta innheimtubréf er stofna samkvæmt gjalddagi á reikningur, gildi sem þú færa inn fyrir biðtími í svæði dagar á þessari línu, og aðrar upplýsingar sem þú færa inn á þessari línu.  
 6. Í reitinn **Lýsing** skal slá inn gildi. 
 7. Sjálfgefinn gjaldmiðill fyrir gjaldið er gjaldmiðill lögaðilans. Þessi gjaldmiðilskóði getur verið annað en gjaldmiðli reikningsins.   
@@ -52,9 +52,9 @@ Notið þetta ferli fyrir verk til að stofna innheimtubréfaröð. Þetta verke
 22. Í listanum skal smella á tengilinn í valinni línu.
 23. Færið inn tölu í reitnum **Lágmarksupphæð vanskila**.
 24. Í reitinn **Dagar** skal slá inn númer.
-25. Veldu gátreitinn **Vaið** til að stöðva viðskiptamanninn í því að bæta við frekari afhendingum og reikningsfærslum. Veljið **Nei** í Reikningsfærsla og afhending í bið svæðið á síðunni Viðskiptavinir til að opna fyrir lykilinn.  
+25. Veldu gátreitinn **Vaið** til að stöðva viðskiptamanninn í því að bæta við frekari afhendingum og reikningsfærslum. Til að opna reikninginn skaltu velja **Nei** í **Innheimta og afhending í bið** sviði á **Viðskiptavinir** síðu.  
 26. Útvíkkaðu flýtiflipann **Athugasemd**.
-27. Færið inn textann sem birtist innheimtubréfinu fyrir valda innheimtubréfakóða. Hægt er að þýða þennan texta í á mörgum tungumálum með því að nota valmyndina Þýðingar yfir víxilkassanum.  
+27. Færið inn textann sem birtist innheimtubréfinu fyrir valda innheimtubréfakóða. Þú getur þýtt þennan texta á mörg tungumál með því að nota **Þýðingar** valmynd fyrir ofan athugasemdareitinn.  
 
 
 

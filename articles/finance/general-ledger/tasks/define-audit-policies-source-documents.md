@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0779589a3583909984e35014a2ec0e86455cd30a3833110556f095241e7172ca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e8698dd2c14321498d23efe1d01be274c56d5721
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722672"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713783"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Skilgreina endurskoðunarstefnur fyrir upprunaskjöl
 
@@ -39,9 +39,9 @@ ms.locfileid: "6722672"
 11. Veljið **Nýtt**.
 12. Í reitinn **Heiti** skal slá inn gildi.
 13. Útvíkkaðu kaflann **Fyrirtækjaregla**.
-14. Í trénu skal velja **Contoso Entertainment System USA** og svo **Bæta við**.
-15. Í trénu skal velja **Contoso Consulting USA** og síðan **Bæta við**“.
-16. Í trénu skal velja **Contoso Retail USA** og síðan **Bæta við**“.
+14. Veljið **Contoso Entertainment System USA** í trénu og síðan **Bæta við**.
+15. Veljið **Contoso Consulting USA** í trénu og síðan **Bæta við**.
+16. Veljið **Contoso Retail USA** í trénu og síðan **Bæta við**.
 17. Minnkaðu hlutann **Fyrirtækjaregla**.
 18. Útvíkkaðu hlutann **Stefnuregla**.
 19. Finna og velja síðan Stefnuregluna sem var stofnuð áður, á listanum.

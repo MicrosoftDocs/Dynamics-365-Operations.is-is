@@ -1,6 +1,6 @@
 ---
 title: Flytja út gögn dótturfyrirtækis í skrár
-description: Þetta efnisatriði útskýrir hvernig á að undirbúa útflutning gagna úr Microsoft Dynamics 365 Finance og síðan flytja þau inn í sameinaðan lögaðila.
+description: Þetta efni útskýrir hvernig á að undirbúa útflutning gagna frá Microsoft Dynamics 365 Fjármál og flytja það síðan inn í samstæðu lögaðila.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 02ae9945f7b67fb64be78a024910d7e1151c7446fd54b71034c5ba448c00b081
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4df59938def317ad6ebc837104e20c4efa05005f
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768772"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713530"
 ---
 # <a name="export-subsidiary-data-to-files"></a>Flytja út gögn dótturfyrirtækis í skrár
 

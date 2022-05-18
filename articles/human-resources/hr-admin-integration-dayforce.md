@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PersonnelIntegrationConfiguration
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7e2043e75aa647e21f3e0816247dcf651be64730
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a4e95a78364fcee2c03614e110f9b5983abfde37
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067077"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691333"
 ---
 # <a name="configure-integration-with-dayforce"></a>Skilgreina samþættingu við Dayforce
 
@@ -42,7 +41,7 @@ Samþættingin milli Microsoft Dynamics 365 Human Resources og Ceridian Dayforce
 
 ## <a name="enable-the-integration"></a>Virkja samþættingu
 
-Í Human Resources er nauðsynlegt að kveikja á samþættingu og slá inn skilgreiningarupplýsingar til að tengjast Dayforce. Ef þú vilt að fjárhagsfærslan sem er búin til verði flutt inn í Microsoft Dynamics 365 Finance þarf einnig að setja upp Microsoft Azure-geymslureikning og slá inn tengistreng Azure-geymslu í Finance.
+Í Human Resources er nauðsynlegt að kveikja á samþættingu og slá inn skilgreiningarupplýsingar til að tengjast Dayforce. Ef þú vilt að aðalbókarfærslan sem er framleidd sé flutt inn í Microsoft Dynamics 365 Fjármál, þú verður líka að setja upp a Microsoft Azure geymslureikning og sláðu inn Azure Storage tengistrenginn í Finance.
 
 Til að kveikja á samþættingu í Human Resources skal fylgja þessum skrefum.
 

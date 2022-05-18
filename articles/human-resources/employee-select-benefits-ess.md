@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 190eb7e437af7edd8eee97b8f2b7601254cbd240
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 68aa401487a74b9fcd186ec6cbdb268cdb41168c
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066419"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743487"
 ---
 # <a name="employees-select-plans-by-using-employee-self-service-optional"></a>Starfsmenn velja áætlanir með því að nota sjálfsafgreiðslu starfsmanna (valfrjálst)
 
@@ -35,11 +34,11 @@ Til að fá aðgang að fríðindum sínum fyrir innritun fer starfsmaðurinn ti
 Á **Hagur sjálfsafgreiðslu** síðu eru bótaáætlanir flokkaðar eftir áætlunargerð. Til að skoða ávinningsáætlanirnar í áætlunargerð velur starfsmaðurinn flís á **Kjör starfsmanna** síðu. Starfsmaðurinn mun aðeins sjá fríðindin sem hann á rétt á.
 
 > [!IMPORTANT]
-> Áður en hægt er að sýna áætlunargerð í **Sjálfsafgreiðsla starfsmanna**, það verður að vera stillt. Fyrir frekari upplýsingar, sjá [Stilla sjálfsafgreiðslu starfsmanna](/hr-benefits-setup-employee-self-service.md).
+> Áður en hægt er að sýna áætlunargerð í **Sjálfsafgreiðsla starfsmanna**, það verður að vera stillt. Fyrir frekari upplýsingar, sjá [Stilla sjálfsafgreiðslu starfsmanna](/dynamics365/human-resources/hr-benefits-setup-employee-self-service).
 
 Það fer eftir tegund áætlunar, einn eða fleiri fríðindi er hægt að velja fyrir skráningu. Til dæmis gæti tegund sjúkraáætlunar verið stillt til að takmarka starfsmanninn við eina sjúkraáætlun. Tegund líftryggingar gæti gert starfsmanni kleift að velja margar líftryggingaáætlanir.
 
-Eftir að starfsmaðurinn hefur ákveðið hvaða áætlun hann á að skrá sig í, gæti þurft að velja sér á framfæri. Ef starfsmaður hefur valið tryggingarvalkost þ.e **Starfsmaður +1**, **+ börn**, eða **Fjölskylda**, þarf að velja á framfæri. Fyrir frekari upplýsingar um tryggingamöguleika, sjá [Búðu til umfjöllunarmöguleika](/hr-benefits-setup-coverage-options.md).
+Eftir að starfsmaðurinn hefur ákveðið hvaða áætlun hann á að skrá sig í, gæti þurft að velja sér á framfæri. Ef starfsmaður hefur valið tryggingarvalkost þ.e **Starfsmaður +1**, **+ börn**, eða **Fjölskylda**, þarf að velja á framfæri. Fyrir frekari upplýsingar um tryggingamöguleika, sjá [Búðu til umfjöllunarmöguleika](/dynamics365/human-resources/hr-benefits-setup-coverage-options).
 
 Til að velja bótaáætlun velur starfsmaðurinn annaðhvort sporbaughnappinn (**...**) eða **Bæta í körfu**. Eftir að starfsmaðurinn hefur lokið við að bæta öllum fríðindum í körfuna velur hann **Skoða körfu**. Starfsmaðurinn er síðan tekinn til **Áætlanir** síðu, þar sem þeir geta skoðað valin og fallin bótaáætlanir sínar.
 

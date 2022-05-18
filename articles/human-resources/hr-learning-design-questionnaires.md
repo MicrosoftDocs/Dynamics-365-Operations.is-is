@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 90dd59b605c21abd03d2e0d64a89dc787850c26e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7b2e1316768dc6207c82f08cef4c268ae70648ad
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065202"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694852"
 ---
 # <a name="create-questionnaires"></a>Búa til spurningalista
 
@@ -76,7 +75,7 @@ Sumar forsendur verða að vera til staðar áður en hægt er að stofna spurni
 
 **Tegundir spurninga** eru nauðsynlegar og verður að úthluta þeim þegar þú býrð til spurningu. 
 
-Notaðu **Tegundir spurninga** til að flokka spurningar til skýrslugerðar. **Tegundir spurninga** einnig auðveldara að finna spurningar, því þú getur notað tegundir sem síur á **Spurningar** síðu. Hér eru nokkur dæmi um gerðir spurninga:
+Notaðu **Tegundir spurninga** að flokka spurningar til skýrslugerðar. **Tegundir spurninga** einnig auðveldara að finna spurningar, því þú getur notað tegundir sem síur á **Spurningar** síðu. Hér eru nokkur dæmi um gerðir spurninga:
 
 -   Starfsmannahald
 -   Fyrirtækjastjórnun

@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: saraschi
+ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5a46946ff2c3569dab0ce8b53b3cddcf18318cbf
-ms.sourcegitcommit: 465c84eb5cdc211692e2ae09b45d1400f9a315ee
+ms.openlocfilehash: 4979a57c966f25dba62a944a4e44086e5f6aed28
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8314721"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712538"
 ---
 # <a name="cash-flow-forecasting"></a>Sjóðstreymisspár
 
@@ -37,7 +37,7 @@ Hægt er að nota verkfæri fyrir sjóðstreymisspár til að greina væntanlegt
 Hægt er að samþætta sjóðstreymisspár við fjárhag, viðskiptaskuldir, viðskiptakröfur, fjárhagsáætlun og birgðastjórnun. Spáferlið notast við færsluupplýsingar sem eru skráðar í kerfið og útreikningarnir spá fyrir um væntanleg áhrif hverrar færslu á lausafé. Eftirfarandi færslur eru teknar með í reikninginn við útreikninga á sjóðstreymi:
 
 - **Sölupantanir** – Sölupantanir sem ekki hafa verið reikningsfærðar og verða að efnislegri eða fjárhagslegri sölu.
-- **Ókeypis textareikningar** – Reikningar með frjálsum texta sem ekki hafa verið bókaðir enn og leiða til fjársölu. 
+- **Ókeypis textareikningar** – Reikningar með frjálsum texta sem ekki hafa verið bókaðir ennþá og sem leiða til fjársölu. 
 - **Innkaupapantanir** – Innkaupapantanir sem ekki hafa verið reikningsfærðar og verða að efnislegum eða fjárhagslegum innkaupum.
 - **Viðskiptakröfur** – Opnar viðskiptamannafærslur (reikninga sem hafa ekki verið greiddir).
 - **Viðskiptaskuldir** – Opnar lánardrottnafærslur (reikninga sem hafa ekki verið greiddir).
@@ -102,7 +102,7 @@ Nýr flipi á **Uppsetning sjóðstreymisspár**  síða gerir þér kleift 
 Á flipanum **Víddir** skal velja víddir af listanum sem á að nota fyrir síun og nota örvalyklana til að fara þá í dálkinn til hægri. Aðeins er hægt að velja tvær víddir til að sía spárgögn sjóðstreymisspár. 
 
 ### <a name="setting-up-external-source"></a>Setja upp ytri uppsprettu
-Ytri gögn er hægt að færa inn eða flytja inn í sjóðstreymisspár þegar Finance Insights hefur verið stillt. Áður en ytri gögn eru færð inn eða flutt inn verður að setja upp ytri heimildir. Á **Ytri heimild** flipa, setja upp ytri sjóðstreymisflokka. Flokkur getur verið **Sendandi** eða **Komandi**. **Lausafjárstaða** ætti að vera valin sem færslugerð. Í **Stillingar lögaðila** grid, velja lögaðila og tilheyrandi aðalreikninga sem ytra sjóðstreymisflokkar eiga við.
+Ytri gögn er hægt að færa inn eða flytja inn í sjóðstreymisspár þegar Finance Insights hefur verið stillt. Áður en ytri gögn eru færð inn eða flutt inn verður að setja upp ytri heimildir. Á **Ytri heimild** flipa, setja upp ytri sjóðstreymisflokka. Flokkur getur verið **Sendandi** eða **Komandi**. **Lausafjárstaða** ætti að vera valin sem færslugerð. Í **Stillingar lögaðila** grid, velja lögaðila og samsvarandi aðalreikninga sem ytra sjóðstreymisflokkar eiga við.
 
 Fyrir frekari upplýsingar, sjá [Ytri gögn í sjóðstreymisspám](../../finance/finance-insights/external-data-in-cash-flow.md). 
 

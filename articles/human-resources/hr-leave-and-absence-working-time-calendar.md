@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 163d7caf516d791fa54e2518d19798bdf3d58d3d
-ms.sourcegitcommit: 67c4ed957e43d4d60bb609d93921a0be9619e675
+ms.openlocfilehash: 6b65d96647c9471dc7dd796d51a69a35f62859e4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8509613"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694509"
 ---
 # <a name="create-a-working-time-calendar"></a>Búa til dagatal fyrir vinnutíma
 
@@ -68,7 +67,7 @@ Settu upp að minnsta kosti eitt vinnutímadagatal sem sýnir daga og vinnutíma
 
 Þú getur bætt við eða breytt tíma án vinnu aðskildum frá dagatali fyrir vinnutíma.
 
-1. Á **Stjórn stofnunarinnar** síðu, veldu **VINNUTÍMI**.
+1. Á **Stjórn stofnunarinnar** síðu, veldu **EKKI VINNUTÍMI**.
 
 2. Veldu **Nýtt** og sláðu inn heiti og tímabil fyrir tíma án vinnu.
 

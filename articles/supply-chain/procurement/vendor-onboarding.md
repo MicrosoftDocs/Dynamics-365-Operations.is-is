@@ -1,7 +1,7 @@
 ---
 title: Nýliðun lánardrottna
 description: Þetta efnisatriði lýsir ferlinu við nýliðun lánardrottna. Það útskýrir aðgerðirnar sem krafist er af ýmsum hlutverkum meðan á þessu ferli stendur.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPag
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c2950cecfaf2c8b19ed14df748810b7d6f926c53
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 396b3c4622c612fa082796080aa230a0d693ce4f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566888"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671001"
 ---
 # <a name="onboard-vendors"></a>Nýliðun lánardrottna
 

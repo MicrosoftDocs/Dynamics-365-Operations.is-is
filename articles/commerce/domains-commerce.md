@@ -2,7 +2,7 @@
 title: Lén í Dynamics 365 Commerce
 description: Þetta efnisatriði lýsir því hvernig lén eru afgreidd í Microsoft Dynamics 365 Commerce.
 author: BrShoo
-ms.date: 03/17/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
+ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733992"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737347"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Lén í Dynamics 365 Commerce
 
@@ -28,6 +28,9 @@ ms.locfileid: "6733992"
 Þetta efnisatriði lýsir því hvernig lén eru afgreidd í Microsoft Dynamics 365 Commerce.
 
 Lén eru vefföng sem eru notuð til að fara á Dynamics 365 Commerce-vefsvæði í netvafra. Þú sérð um stjórnun á léninu þínu með valdri DNS-veitu. Vísað er í lén í gegnum Dynamics 365 Commerce-vefsmið til að samræma hvernig svæði verður opnað þegar það er birt. Þetta efnisatriði fer yfir hvernig lén eru meðhöndluð og vísað í gegnum feril þróunar og útgáfu Commerce-svæðis.
+
+> [!NOTE]
+> Frá og með 6. maí 2022 er allt umhverfi búið til í Dynamics 365 Commerce verður útvegað með`.dynamics365commerce.ms` lén, sem kemur í stað fyrra mynsturs `.commerce.dynamics.com`. Núverandi umhverfi útvegað með`.commerce.dynamics.com` lénið mun halda áfram að virka.
 
 ## <a name="provisioning-and-supported-host-names"></a>Úthlutun og studd hýsilheiti
 
@@ -44,7 +47,7 @@ Hægt er að stofna þjónustubeiðni til að bæta öðrum lénum við umhverfi
 
 ## <a name="commerce-generated-urls"></a>Vefslóðir myndaðar af Commerce
 
-Þegar rafrænu Dynamics 365 Commerce viðskiptaumhverfi er úthlutað, býr Commerce til vefslóð sem verður vinnuveffangið fyrir umhverfið. Vísað er í þessa vefslóð í tengli á rafræna viðskiptasvæðið í LCS þegar búið er að úthluta umhverfinu. Vefslóð sem Commerce myndar er á sniðinu `https://<e-commerce tenant name>.commerce.dynamics.com`, þar sem biðlaraheiti rafrænna viðskipta er heitið sem fært er inn í LCS fyrir viðskiptaumhverfið.
+Þegar rafrænu Dynamics 365 Commerce viðskiptaumhverfi er úthlutað, býr Commerce til vefslóð sem verður vinnuveffangið fyrir umhverfið. Vísað er í þessa vefslóð í tengli á rafræna viðskiptasvæðið í LCS þegar búið er að úthluta umhverfinu. Vefslóð sem Commerce myndar er á sniðinu `https://<e-commerce tenant name>.dynamics365commerce.ms`, þar sem biðlaraheiti rafrænna viðskipta er heitið sem fært er inn í LCS fyrir viðskiptaumhverfið.
 
 Einnig er hægt að nota hýsilheiti fyrir framleiðslusvæði í sandkassaumhverfi. Þessi möguleiki er tilvalinn þegar vefsvæði er afritað úr sandkassaumhverfi í framleiðslu.
 
@@ -67,11 +70,11 @@ Gluggann **Slóð** er hægt að skilja eftir auðan, eða bæta aukalegum stren
 
 Ef þú ert til dæmis með svæði í vefsmiðnum sem heitir „fabrikam“ í biðlaraheiti rafrænna viðskipta „xyz“ og ef þú setur upp svæðið með auðri slóð, þá myndir þú opna birt efni vefsvæðisins í vafra með því að fara beint í grunnvefslóð sem Commerce býr til:
 
-`https://xyz.commerce.dynamics.com`
+`https://xyz.dynamics365commerce.ms`
 
 Að öðrum kosti, ef þú bættir við slóðinni „fabrikam“ við sömu uppsetningu vefsvæðisins, myndir þú opna birt efni vefsvæðisins í vafra með því að nota eftirfarandi vefslóð:
 
-`https://xyz.commerce.dynamics.com/fabrikam`
+`https://xyz.dynamics365commerce.ms/fabrikam`
 
 ## <a name="pages-and-urls"></a>Síður og vefslóðir
 
@@ -92,16 +95,16 @@ Gildi studdra hýsilheita eru í boði til að tengja sem lén þegar svæði er
 Þegar unnið er með svæði í vefsmið, ef þú ert með tvö svæði sett upp með tveimur mismunandi lénum, geturðu bætt eigindinni **?domain=** við virku vefslóðina til að opna efni birta vefsvæðisins í vafra.
 
 Til dæmis hefur umhverfi „xyz“ verið úthlutað og tvö svæði hafa verið búin til og tengd í vefsmiðnum: eitt með lénið `www.fabrikam.com` og hitt með lénið `www.constoso.com`. Hvort svæði var sett upp með auðri slóð. Síðan var hægt að komast inn á þessi svæði í vafra eins og meðfylgjandi með því að nota eigindina **?domain=**:
-- `https://xyz.commerce.dynamics.com?domain=www.fabrikam.com`
-- `https://xyz.commerce.dynamics.com?domain=www.contoso.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.fabrikam.com`
+- `https://xyz.dynamics365commerce.ms?domain=www.contoso.com`
 
-Þegar fyrirspurnarstrengur léns er ekki gefinn í umhverfi með mörgum lénum, notar Commerce fyrsta lénið sem gefið er upp. Til dæmis, ef slóðin „fabrikam“ var gefin upp fyrst við uppsetningu vefsvæðið, væri hægt að nota vefslóðina `https://xyz.commerce.dynamics.com` til að opna efni birta vefsvæðisins fyrir `www.fabrikam.com`.
+Þegar fyrirspurnarstrengur léns er ekki gefinn í umhverfi með mörgum lénum, notar Commerce fyrsta lénið sem gefið er upp. Til dæmis, ef slóðin „fabrikam“ var gefin upp fyrst við uppsetningu vefsvæðið, væri hægt að nota vefslóðina `https://xyz.dynamics365commerce.ms` til að opna efni birta vefsvæðisins fyrir `www.fabrikam.com`.
 
 ## <a name="traffic-forwarding-in-production"></a>Framsend umferð í framleiðslu
 
-Hægt er að líkja eftir mörgum lénum með því að nota færibreytur fyrir fyrirspurnarstreng léns á endastöð commerce.dynamics.com. En þegar nauðsynlegt er að fara í framleiðslu í rauntíma þarf að framsenda umferðina fyrir sérsniðna lénið á endastöðina `<e-commerce tenant name>.commerce.dynamics.com`.
+Hægt er að líkja eftir mörgum lénum með því að nota færibreytur fyrir fyrirspurnarstreng léns á endastöð commerce.dynamics.com. En þegar nauðsynlegt er að fara í framleiðslu í rauntíma þarf að framsenda umferðina fyrir sérsniðna lénið á endastöðina `<e-commerce tenant name>.dynamics365commerce.ms`.
 
-Endastöð `<e-commerce tenant name>.commerce.dynamics.com` styður ekki sérsniðin SSL og þarf því setja upp sérsniðin lén með því að nota Front Door-þjónustu eða efnisbirtingarnet (CDN). 
+Endastöð `<e-commerce tenant name>.dynamics365commerce.ms` styður ekki sérsniðin SSL og þarf því setja upp sérsniðin lén með því að nota Front Door-þjónustu eða efnisbirtingarnet (CDN). 
 
 Til að setja upp sérsniðin lén með því að nota Front Door-þjónustu eða CDN, eru tveir möguleikar í boði:
 

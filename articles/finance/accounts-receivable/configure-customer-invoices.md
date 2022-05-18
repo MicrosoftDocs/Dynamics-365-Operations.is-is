@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
+ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392912"
+ms.lasthandoff: 05/14/2022
+ms.locfileid: "8756964"
 ---
 # <a name="create-a-customer-invoice"></a>Stofnun reiknings viðskiptavinar
 
 [!include [banner](../includes/banner.md)]
 
-**Reikningur viðskiptavinar fyrir sölupöntun** er reikningur sem tengist sölunni og sem fyrirtæki gefur viðskiptavini. Þessi gerð reikningur viðskiptavinar er stofnaður á grundvelli sölupöntunar, sem felur í sér pöntunarlínur og vörunúmer. Vörunúmer eru tilgreind og bókuð í fjárhaginn. Færslur undirbókar eru ekki tiltæk fyrir reikning viðskiptavinar fyrir sölupöntun. Frekari upplýsingar má sjá í [Stofna sölupöntunarreikninga](tasks/create-sales-order-invoices.md).
+A **Reikningur viðskiptavinar fyrir sölupöntun** er reikningur sem tengist sölu og stofnun gefur viðskiptavinum. Þessi gerð reikningur viðskiptavinar er stofnaður á grundvelli sölupöntunar, sem felur í sér pöntunarlínur og vörunúmer. Vörunúmer eru tilgreind og bókuð í fjárhaginn. Færslur undirbókar eru ekki tiltæk fyrir reikning viðskiptavinar fyrir sölupöntun. Frekari upplýsingar má sjá í [Stofna sölupöntunarreikninga](tasks/create-sales-order-invoices.md).
 
-**Reikningur með frjálsum texta** er ekki tengdur sölupöntun. Hann inniheldur pöntunarlínur sem fela í sér fjárhagslykla, frjálsar textalýsingar, og söluupphæð sem maður færir inn sjálfur. Ekki er hægt að færa inn vörunúmer á þessa gerð reiknings. Skylda er að færa inn viðeigandi VSK-upplýsingar. Aðallykill fyrir söluna tilgreindur á hverri reikningslínu sem hægt er að dreifa á mörgum fjárhagslykla með því að smella **Dreifingarupphæðir** á síðunni **reikningur með frjálsum texta**. Þar að auki er staða viðskiptavinarins bókuð í safnlykil úr bókunarregla sem notuð er fyrir reikningur með frjálsum texta.
+A **Ókeypis textareikningur** tengist ekki sölupöntun. Hann inniheldur pöntunarlínur sem fela í sér fjárhagslykla, frjálsar textalýsingar, og söluupphæð sem maður færir inn sjálfur. Ekki er hægt að færa inn vörunúmer á þessa gerð reiknings. Skylda er að færa inn viðeigandi VSK-upplýsingar. Aðallykill fyrir söluna tilgreindur á hverri reikningslínu sem hægt er að dreifa á mörgum fjárhagslykla með því að smella **Dreifingarupphæðir** á síðunni **reikningur með frjálsum texta**. Þar að auki er staða viðskiptavinarins bókuð í safnlykil úr bókunarregla sem notuð er fyrir reikningur með frjálsum texta.
 
-Frekari upplýsingar er að finna á:
+Frekari upplýsingar má finna á
 
 [Stofna textareikninga](../accounts-receivable/create-free-text-invoice-new.md)
 
@@ -41,7 +41,10 @@ Frekari upplýsingar er að finna á:
 [Mynda og bóka endurtekna reikninga með frjálsum texta](tasks/post-recurring-free-text-invoices.md)
 
 
-**Bráðabirgðareikningur** er reikningur sem er útbúinn sem mat á raunverulegu reikningsupphæðinni áður en reikningurinn er bókaður. Hægt er að prenta út bráðabirgðareikning fyrir annað hvort sölureikning eða reikningur með frjálsum texta.
+A **Pro forma reikningur** er reikningur sem er útbúinn sem áætlun um raunverulegar reikningsupphæðir áður en reikningurinn er bókaður. Hægt er að prenta út a **Pro forma reikningur** annaðhvort fyrir reikning viðskiptavinar fyrir sölupöntun eða fyrir frjálsan textareikning. 
+
+>[!NOTE]
+> Ef um er að ræða truflun á kerfinu meðan á sölu pro forma reikningsferlinu stendur, getur pro forma reikningur verið munaðarlaus. Hægt er að eyða munaðarlausum pro forma reikningi með því að keyra **Eyða pro forma reikningum handvirkt** reglubundið starf. Fara til **Sala og markaðssetning > Reglubundin verkefni > Hreinsun > Eyða pro forma reikningum handvirkt**.
 
 ## <a name="using-sales-order-customer-invoice-data-entities"></a>Notkun sölupöntunar reikningsgagnaeininga viðskiptavina
 Hægt er að nota gagnaeiningar til að flytja inn og flytja út upplýsingar um reikning viðskiptavinar fyrir sölupöntun. Það eru mismunandi einingar fyrir upplýsingarnar á sölureikningshaus og sölureikningslínum.
@@ -58,7 +61,7 @@ Eftirfarandi aðilar eru tiltækar fyrir upplýsingar um sölureikningslínur:
 - **Reikningslínur viðskiptavina** eining (BusinessDocumentSalesInvoiceLineItemEntity)
 - **Sölureikningslínur V3** eining (SalesInvoiceLineV3Entity)
 
-Þegar þú ert að ákveða hvaða línueiningu á að nota fyrir útflutning skaltu íhuga hvort fullur ýtingur eða stigvaxandi ýtingur verði notaður. Að auki skaltu íhuga samsetningu gagna. The **Sölureikningslínur V3** eining styður flóknari atburðarás (til dæmis vörpun á birgðareitina). Það styður einnig útflutningsatburðarás með fullri þrýstingi. Fyrir stigvaxandi ýtir mælum við með að þú notir **Reikningslínur viðskiptavina** aðila. Þessi eining inniheldur mun einfaldari gagnasamsetningu en **Sölureikningslínur V3** eining og er æskilegt, sérstaklega ef ekki er krafist samþættingar birgðasviðs. Vegna mismunar á kortlagningarstuðningi milli línueininganna, er **Reikningslínur viðskiptavina** eining hefur venjulega hraðari frammistöðu en **Sölureikningslínur V3** aðila.
+Þegar þú ert að ákvarða hvaða línueiningu á að nota fyrir útflutning skaltu íhuga hvort fullur ýtingur eða stigvaxandi ýtingur verði notaður. Að auki skaltu íhuga samsetningu gagna. The **Sölureikningslínur V3** eining styður flóknari atburðarás (til dæmis vörpun á birgðareitina). Það styður einnig útflutningsatburðarás með fullri þrýstingi. Fyrir stigvaxandi ýtir mælum við með að þú notir **Reikningslínur viðskiptavina** aðila. Þessi eining inniheldur mun einfaldari gagnasamsetningu en **Sölureikningslínur V3** eining og er æskilegt, sérstaklega ef ekki er krafist samþættingar birgðasviðs. Vegna mismunar á kortlagningarstuðningi milli línueininganna, er **Reikningslínur viðskiptavina** eining hefur venjulega hraðari frammistöðu en **Sölureikningslínur V3** aðila.
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Bóka og prenta einstaka reikningur viðskiptavinar sem byggðir eru á sölupöntunum
 Notið þetta ferli til að stofna reikning sem byggist á sölupöntun. Hægt er að gera þetta ef ákveðið er að reikningsfæra viðskiptamann áður en vörurnar eða þjónustan eru afhent. 
@@ -70,7 +73,7 @@ Notið þetta ferli til að stofna reikning sem byggist á sölupöntun. Hægt e
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-packing-slips-and-the-date"></a>Bóka og prenta einstaka reikningur viðskiptavinar sem byggðir eru á fylgiseðlum og dagsetningunni.
 Notaðu þessa aðferð þegar einn eða fleiri fylgiseðlar hafa verið bókaðir fyrir sölupöntun. Reikningur viðskiptamanns er byggður á viðkomandi fylgiseðlum og endurspeglar magnið á þeim. Fjárhagslegar upplýsingar sem koma fram á reikningnum eru byggðar á upplýsingunum sem færðar eru inn þegar reikningurinn er bókaður. 
 
-Hægt er að stofna reikningur viðskiptavinar út frá línuvörum fylgiseðils sem sendar hafa verið fram að þessu, jafnvel þótt allar vörur tiltekinnar sölupöntunar hafi ekki verið sendar ennþá. Þetta gæti til dæmis átt við, ef fyrirtækið gefur út einn reikning fyrir viðskiptavin mánaðarlega sem nær yfir allar afhendingar sem sendar eru þann mánuð. Hver fylgiseðill stendur fyrir hlutaafhendingu eða fulla afhendingu á vörum í sölupöntuninni. 
+Hægt er að stofna reikning viðskiptavinar sem er byggður á fylgiseðilslínum sem hafa verið sendar hingað til, jafnvel þótt allar vörurnar fyrir tiltekna sölupöntun hafi ekki verið sendar. Þetta gæti til dæmis átt við, ef fyrirtækið gefur út einn reikning fyrir viðskiptavin mánaðarlega sem nær yfir allar afhendingar sem sendar eru þann mánuð. Hver fylgiseðill stendur fyrir hlutaafhendingu eða fulla afhendingu á vörum í sölupöntuninni. 
 
 Þegar reikningur er bókaður er magn **reikningsafgangs** fyrir hverja vöru uppfært með samtölu afhents magns úr völdum fylgiseðlum. Ef bæði **Reikningsafgangur** magnið og **Eftirstöðvar afendingar** magnið fyrir allar vörur á sölupöntuninni jafngildir núlli (0), breytist staða sölupöntunarinnar í **Reikningsfært**. Ef magn **reikningsafgangs** er ekki núll (0), er staða innkaupapöntunarinnar óbreytt og hægt er að færa inn viðbótarreikninga fyrir hann. 
 
@@ -82,6 +85,11 @@ Birgðafærslur eru uppfærðar með reikningsnúmeri og staðan í svæðinu **
 Notið þetta ferli þegar ein eða fleiri sölupantanir eru tilbúnar til bókunar og að sameina á þau í einn reikning. 
 
 Hægt er að velja marga reikninga í á **sölupöntun** listasíða og nota svo **Mynda reikninga** til að sameina þau. Á **Bókun reiknings** síðu er hægt að breyta stillingu fyrir **samantektarröðun** til að draga saman eftir pöntunarnúmeri (þar sem það eru margir fylgiseðlar fyrir eina sölupöntun ) eða eftir reikningslykli (þar sem það eru margar sölupantanir fyrir einn reikningslykil). Nota skal **Skipulag** hnappinn til að sameina sölupantanir í einn reikninga sem byggjast á í stillingar fyrir **samantektarröðun** .
+
+## <a name="split-sales-order-invoices-by-site-and-delivery-information"></a>Skiptu sölupöntunarreikningum eftir síðu og afhendingarupplýsingum
+Þú getur stillt skiptingu reikninga viðskiptavina eftir sölupöntun eftir síðu eða eftir heimilisfangi fyrir afhendingu á **Yfirlitsuppfærsla** flipi á **Færibreytur viðskiptakrafna** síðu. 
+ - Veldu **Skipting byggt á reikningssíðu** möguleika á að búa til einn reikning á hverja síðu við færslu. 
+ - Veldu **Skipting byggt á upplýsingum um afhendingu reikninga** möguleika á að búa til einn reikning fyrir hverja sölupöntunarlínu afhendingarheimilisfang við bókun. 
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Bóka á tekjureikning fyrir sölupöntunarlínur sem hafa ekkert verð
 Þú munt hafa möguleika á að uppfæra **Tekjur** reikning í **Aðalbók** fyrir sölupöntunarlínur sem hafa ekkert verð. Til að setja upp eða skoða þessar upplýsingar skaltu fara á **Bóka á tekjureikning fyrir núllverðs sölupöntunarreikningslínur** breytu á **Fjárhagsbók og söluskattur** flipi á **Færibreytur viðskiptakrafna** síðu. (**Viðskiptakröfur > Uppsetning > Færibreytur viðskiptakrafna**). Veldu **Já** til að uppfæra **Tekjur** gera grein fyrir sölupöntunarreikningslínum sem hafa ekkert verð. Tekjureikningur er skilgreindur á **Birgðafærsla** færibreytusíðu, á **Sölupöntun** reikningsskilgreiningarflipi. Ef þessi valkostur er ekki valinn munu línur sem ekki hafa verðupplýsingar ekki birtast í **Tekjur** reikning.
@@ -152,7 +160,7 @@ Eftirfarandi svæði breyta hegðun bókunarferlanna.
 <td>Athuga lánamark</td>
 <td>Veljið upplýsingar sem verða greindar þegar athugun á lánamarki er framkvæmd.
 <ul>
-<li><strong>Ekkert</strong> – Engin krafa um athugun á lánamarki.</li>
+<li><strong>Enginn</strong> – Það er engin krafa um úttektarheimildir.</li>
 <li><strong>Staða</strong> – lánamark er athugað gagnvart staða viðskiptamanns.</li>
 <li><strong>Staða + fylgiseðill eða innhreyfingarskjal afurða</strong> – lánamark er athugað gagnvart stöðu viðskiptavinar og afhendingar.</li>
 <li><strong>Staða + allt</strong> - lánamark er athugað gagnvart staða viðskiptamanns, afhendingar og opnum pöntunum.</li>

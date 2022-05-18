@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 40ae7b61537cdcd1934056b9e289f342e96b57d3eebe5a6e713b2db91310ed9a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 852cfa536ed7e6985ce1f7de612b34e2a492ee07
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766977"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735083"
 ---
 # <a name="dimension-hierarchy"></a>Víddarstigveldi
 
@@ -203,13 +203,13 @@ Ef þú býrð til skýrslur með því að nota Excel eða Power BI eru aðeins
 Eftirfarandi dæmi sýnir hvernig víddastigveldi gæti litið út í uppbyggingu skýrslu.
 
 | Víddarstigveldi kostnaðarhlutar - Stig 1 | Víddarstigveldi kostnaðarhlutar - Stig 2 | Víddarstigveldi kostnaðarhlutar - Stig 3 | Víddarstigveldi kostnaðarhlutar - Stig 4 | Víddarstigveldi kostnaðarhlutar - Stig 15 |
-|-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
-| Fyrirtæki                              | Stjórnandi                                     | Fjármál                                   | CC002                                     |                                            |
-| Fyrirtæki                              | Stjórnandi                                     | Fjármál                                   | CC003                                     |                                            |
-| Fyrirtæki                              | Stjórnandi                                     | Fjármál                                   | CC007                                     |                                            |
-| Fyrirtæki                              | Stjórnandi                                     | Mannauður                                        | CC001                                     |                                            |
-| Fyrirtæki                              | Framleiðsla                                | Pakkning                                 | CC005                                     |                                            |
-| Fyrirtæki                              | Framleiðsla                                | Smölun                                  | CC006                                     |                                            |
+|----------------------------------|---------------------------------|-------------------------|-------------------------|----------------------------------------|
+| Fyrirtæki              | Stjórnandi                 | Fjármál                    | CC002              |                                            |
+| Fyrirtæki              | Stjórnandi                 | Fjármál                    | CC003              |                                            |
+| Fyrirtæki              | Stjórnandi               | Fjármál                     | CC007               |                                            |
+| Fyrirtæki              | Stjórnandi                | Mannauður                           | CC001              |                                            |
+| Fyrirtæki              | Framleiðsla           | Pakkning                    | CC005             |                                            |
+| Fyrirtæki              | Framleiðsla          | Smölun                      | CC006            |                                            |
 
 ### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>Uppfæra víddastigveldi sem eru notuð fyrir skýrslugerð 
 
@@ -328,7 +328,7 @@ Stillingar fyrir stigveldi aðgangslista eru notaðar til að stjórna gögnunum
 - Power BI:
 
     - Gögn sem eru sýnd í Power BI myndrænum framsetningum
-    - Myndræn Power BI gagnaframsetning sem er felld inn í Dynamics 365 Finance biðlarann
+    - Gögn Power BI sjónmyndir sem eru felldar inn í Dynamics 365 Finance biðlarann
 
 > [!NOTE] 
 > - Áður en stigveldi aðgangslista getur haft áhrif á gögnin í Power BI, verður að para saman stigveldi og öryggi á línustigi í Power BI. Nánari upplýsingar eru í [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

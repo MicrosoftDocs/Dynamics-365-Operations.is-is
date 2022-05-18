@@ -9,22 +9,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-11-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 76ea99510455e984d94a93d87ee788fdcf00c376
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 02ad47b5f350969b4935a8f383ddf26a7ce7a46a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891359"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690891"
 ---
 # <a name="import-and-export-tax-calculations"></a>Útreikningar á inn- og útflutningsgjaldi
 
-Þetta efnisatriði veitir upplýsingar um inn- og útflutningsvirkni skattreikningsþjónustunnar. Þessi virkni hjálpar til við að tryggja sveigjanlega og skilvirka uppsetningarupplifun.
+Þetta efnisatriði veitir upplýsingar um inn- og útflutningsvirkni skattreikningsþjónustunnar. Þessi virkni hjálpar til við að tryggja sveigjanlega og skilvirka upplifun.
 
 ## <a name="import-and-export-tax-codes"></a>Inn- og útflutningsskattanúmer
 
@@ -57,7 +56,7 @@ Fylgdu þessum skrefum til að flytja inn **Sýnishorn** skattkóða í sniðmá
 4. Finndu og veldu **TaxRate.csv** skrá, og síðan, í **Markborð** reit, veldu **Skatthlutfall**.
 5. Veldu **Allt í lagi** að flytja inn skattprósentuna.
 6. Finndu og veldu **TaxLimit.csv** skrá, og síðan, í **Markborð** reit, veldu **Skatttakmark**.
-7. Veldu **Allt í lagi** að flytja inn skattamörkin.
+7. Veldu **Allt í lagi** að flytja inn skattahámarkið.
 
 Þú getur líka flutt beint inn zip skrána sem inniheldur allar þrjár CSV skrárnar. Þannig geturðu fljótt og auðveldlega klárað innflutninginn.
 

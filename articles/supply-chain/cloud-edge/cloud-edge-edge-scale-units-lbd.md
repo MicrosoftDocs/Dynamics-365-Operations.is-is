@@ -1,7 +1,7 @@
 ---
 title: Nota jaðareiningakvarða í sérsniðnum vélbúnaði með LBD
 description: Þetta efnisatriði útskýrir hvernig hægt er að úthluta kvörðunareiningu jaðars á staðnum með því að nota sérsniðinn vélbúnað og uppsetningu sem byggir á staðbundnum viðskiptagögnum (LBD).
-author: cabeln
+author: Mirzaab
 ms.date: 01/24/2022
 ms.topic: article
 ms.prod: dynamics-365
@@ -9,15 +9,15 @@ ms.service: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: cabeln
+ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 37bc8678d4e04afebbebaaa893a484866a8643ce
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 540ac1f6d69d869256f49b8501e18966575903fa
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565548"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674087"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Nota jaðareiningakvarða í sérsniðnum vélbúnaði með LBD
 
@@ -90,7 +90,7 @@ Hér er yfirlit uppsetningarferlisins.
 
     Initialize-Database.ps1 forskriftin framkvæmir eftirfarandi aðgerðir:
 
-    1. Búðu til tóman gagnagrunn sem heitir **ScaleUnitAlmDb**.
+    1. Búðu til tóman gagnagrunn sem er nefndur **ScaleUnitAlmDb**.
     2. Settu notendur á gagnagrunnshlutverk, byggt á eftirfarandi töflu.
 
         | Notandi            | Gerð | Gagnagrunnshlutverk |
@@ -118,7 +118,7 @@ Hér er yfirlit uppsetningarferlisins.
 
 1. Haltu áfram að fylgja leiðbeiningunum í [Settu upp og settu upp umhverfi á staðnum (Platform update 41 og síðar)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Þegar þú verður að slá inn stillingu fyrir staðbundinn umboðsmann skaltu ganga úr skugga um að þú virkjar Edge Scale Unit Features og gefur upp allar nauðsynlegar færibreytur.
 
-    ![Virkja Edge Scale Unit eiginleika.](media/EnableEdgeScaleUnitFeatures.png "Virkja Edge Scale Unit eiginleika.")
+    ![Virkja Edge Scale Unit eiginleika.](media/EnableEdgeScaleUnitFeatures.png "Virkja eiginleika Edge Scale Unit.")
 
 1. Áður en þú setur upp umhverfið þitt frá LCS skaltu setja upp fordreifingarforskriftina. Frekari upplýsingar er að finna í [Forskriftir fyrir og eftir uppsetningu umboðsmanns á staðnum](../../fin-ops-core/dev-itpro/lifecycle-services/pre-post-scripts.md).
 
@@ -199,7 +199,7 @@ Hér er yfirlit uppsetningarferlisins.
                                           -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
     ```
 
-1. Eftir að þú hefur búið til forritið verður þú að búa til biðlaraleyndarmál og vista upplýsingarnar í Azure lyklahólfi. Að auki verður þú að veita aðgang að Azure AD forrit sem var búið til, þannig að það getur sótt leyndarmálin sem eru geymd í lyklageymslunni. Til þæginda mun eftirfarandi handrit sjálfkrafa framkvæma allar nauðsynlegar aðgerðir.
+1. Eftir að þú hefur búið til forritið verður þú að búa til biðlaraleyndarmál og vista upplýsingarnar í Azure lyklahólf. Að auki verður þú að veita aðgang að Azure AD forrit sem var búið til, þannig að það getur sótt leyndarmálin sem eru geymd í lyklageymslunni. Til þæginda mun eftirfarandi handrit sjálfkrafa framkvæma allar nauðsynlegar aðgerðir.
 
     ```powershell
     .\Create-SpokeToHubAADAppSecrets.ps1 -ConfigurationFilePath '<Path of the ConfigTemplate.xml file>' `

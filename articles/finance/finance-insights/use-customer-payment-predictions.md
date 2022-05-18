@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968913"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740625"
 ---
 # <a name="use-customer-payment-predictions"></a>Nota greiðsluspár viðskiptavinar
 
@@ -28,13 +28,13 @@ ms.locfileid: "7968913"
 
 Þetta efnisatriði útskýrir hverni gá að nota greiðsluspár viðskiptavinar. Gakktu úr skugga um að ljúka við uppsetningarskrefin áður en þú notar þennan eiginleika. Nánari upplýsingar eru í [Virkja greiðsluspár viðskiptavinar](enable-cust-paymnt-prediction.md).
 
-Þú getur skoðað greiðsluspár viðskiptavina í **Stjórna inneign viðskiptavina og innheimtu** vinnusvæði og á tveimur nýjum listasíðum: **Spár um greiðslur viðskipta** og **Greiðsluspá viðskiptavina**.
+Þú getur skoðað greiðsluspá viðskiptavina í **Stjórna inneign viðskiptavina og innheimtum** vinnusvæði og á tveimur nýjum listasíðum: **Spár um greiðslur viðskipta** og **Greiðsluspá viðskiptavina**.
 
 ### <a name="manage-customer-credit-and-collections-workspace"></a>Stjórna vinnusvæði skulda og innheimtu viðskiptavinar
 
-The **Stjórna inneign viðskiptavina og innheimtum** vinnurými inniheldur tvær nýjar flísar: **Spár um greiðslur viðskipta** og **Greiðsluspá viðskiptavina**.
+The **Stjórna inneign viðskiptavina og innheimtu** vinnurými inniheldur tvær nýjar flísar: **Spár um greiðslur viðskipta** og **Greiðsluspá viðskiptavina**.
 
-### <a name="transaction-payment-predictions-list-page"></a>Listasíða fyrir greiðsluspá fyrir færslur
+### <a name="transaction-payment-predictions-list-page"></a>Listasíða fyrir spár um greiðslugreiðslur
 
 Á **Spár um greiðslur viðskipta** listasíðu er hægt að skoða greiðslulíkur fyrir opin viðskipti í **Tímanlega**, **·**, og **Mjög seint** fötum. Fyrir hverja færslu á hnitanetinu sýnir dálkurinn **Líkur á réttum tíma** líkurnar á því að reikningurinn verði greiddur á eða fyrir gjalddaga. Þegar líkurnar á greiðslu á réttum tíma eru minni en 50 prósent birtist rauður hringur við hliðina á prósentuhlutfallinu í dálkinum **Líkur á réttum tíma** til að tilgreina hættuna á greiðsludrætti.
 
@@ -86,10 +86,6 @@ Gögnin um **Innsýn viðskiptavina** og **Saga viðskiptavina** Hraðflipar hj�
 
 Þú getur skoðað nákvæmni greiðsluspáa með því að opna **Skuldir og innheimta \> Uppsetning \> Fjármálainnsýn \> Færibreytur fjármálainnsýnar**. Á flipanum **Innsýn í greiðslu viðskiptavinar** sýnir hlutinn **Spálíkan** nákvæmni spálíkansins sem prósentuhlutfall.
 
-[![Nákvæmni greiðsluspáa.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
-
-Ef þú ert ekki ánægður með nákvæmnina skaltu velja **Bættu nákvæmni líkans** hlekkur til að opna AI Builder framlengingarreynsla. Í AI Builder framlengingarupplifun geturðu valið eða hætt við val á reitum þar til þú hefur valið þá reiti sem þú telur mikilvægastir til að spá nákvæmlega fyrir um greiðslulíkur. Þegar því er lokið getur þú auðveldlega endurþjálfað spálíkanið og birt breytingarnar þínar. Nýþjálfaða spálíkanið verður sjálfkrafa valið fyrir spár í Dynamics 365 Finance.
-
-[![AI Builder framlengingarreynsla.](./media/ai-builder.png)](./media/ai-builder.png)
+Ef þú ert ekki ánægður með nákvæmnina skaltu velja **Bættu nákvæmni líkans** hlekkur til að opna AI Builder framlengingarreynsla. Í AI Builder framlengingarupplifun geturðu valið eða hætt við val á reitum þar til þú hefur valið þá reiti sem þú telur mikilvægastir til að spá nákvæmlega fyrir um greiðslulíkur. Þegar því er lokið getur þú auðveldlega endurþjálfað spálíkanið og birt breytingarnar þínar. Nýþjálfað spálíkan verður sjálfkrafa tekið upp fyrir spár í Dynamics 365 Finance.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

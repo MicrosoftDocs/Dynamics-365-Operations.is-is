@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMCompProcess, HRMCompProcessLine, HRMCompEvent, HRMCompEventEmpl, HcmCompensationWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 188a87f580c274e073710601ef306139f723c797
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 196c907521bba5440f12149abcb2fc446c2aa523
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071727"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687052"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Skilgreina launavinnslu og reikna niðurstöður
 
@@ -43,7 +42,7 @@ Launavinnslu eru notaðar til að ákvarða nýja upphæðir launa og umbun fyri
     * Virka dagsetningu færslu er dagsetningin sem ný launataxta ætti að taka gildi. Mörg fyrirtæki hafa nokkrar mánuðir á milli þeirra ferlisloka og tímans þegar nýja launataxta tekin í gildi. Viðbótar tími notaður til vinnslu og endurskoða nýja launa.  
 8. Í svæðinu **Virka dagsetning færslu**, færið inn dagsetningu.
     * Dagsetning á tímapunkti er notað fyrir breytilegar launafyrirkomulag sem ákvarða upphæð umbunar starfsmanns á grundvelli þeirra launataxti á þessum tímapunkti.  
-    * Föst laun hlutfallslega ráðningardagsetning er notuð með föstum bótaáætlunum með ráðningarreglu um **Prósenta**. Starfsmenn sem ráðnir eru á milli upphafs ferlisins og á föst laun á metið ráðningardagsetning fær 100% af þeirra útreiknuðu launa aukningum, í stað hlutfallslegrar prósentu.  
+    * Föst laun hlutfallslega ráðningardagsetning er notuð með föstum bótaáætlunum með ráðningarreglu um **Hlutfall**. Starfsmenn sem ráðnir eru á milli upphafs ferlisins og á föst laun á metið ráðningardagsetning fær 100% af þeirra útreiknuðu launa aukningum, í stað hlutfallslegrar prósentu.  
 9. Færa inn dagsetningu í reitnum **Ráðningardagsetning fyrir hlutfallsleg föst laun**.
     * Lokadagsetning endurskoðunar er dagsetningin sem allar niðurstöður ferlis ætti að endurskoða fyrir, svo þær er hægt að hlaða inn launafærslu starfsmanns fyrir virka dagsetningu færslunnar. Þetta svæði er einungis til upplýsingar.  
 10. Í reitinn **Endurskoða lokadagsetningu**, skal færa inn dagsetningu.

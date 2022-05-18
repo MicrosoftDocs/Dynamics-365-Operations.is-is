@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d004e33d01dbd171626d7e23f93df081bc0210a9
-ms.sourcegitcommit: 70ac76be31bab7ed5e93f92f4683e65031fbdf85
+ms.openlocfilehash: 3ba1ecc97183c147b46ea2396df78fcdce07c27e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "7924748"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687981"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Stjórna leyfisbeiðnum í Teams
 
@@ -37,14 +36,14 @@ Hægt er að finna Dynamics 365 Human Resources forritið í Teams versluninni.
 2. Leitið að Dynamics 365 Human Resources og veljið síðan reitinn **Human Resources**.
 
 > [!NOTE]
-> Frá og með 20. desember 2021 verður þjónusta mannauðsappabotna (útgáfa 1.1.4) sem hýst er hjá Microsoft leigjanda tekin úr notkun. Nýjustu viðbótin (útgáfa 1.1.5) er fáanleg til uppsetningar. Fyrir frekari upplýsingar, sjá [Hafa umsjón með leyfisbeiðnum í Teams](hr-admin-teams-leave-app.md#update-app).
+> Frá og með 20. desember 2021 verður þjónusta mannauðsappa (útgáfa 1.1.4) sem hýst er hjá Microsoft leigjanda tekin úr notkun. Nýjustu viðbótin (útgáfa 1.1.5) er fáanleg til uppsetningar. Fyrir frekari upplýsingar, sjá [Stjórna leyfisbeiðnum í Teams](hr-admin-teams-leave-app.md#update-app).
 
 3. Veljið hnappinn **Bæta við** til að setja upp forritið.
 
 Ef forritið skráir þig ekki sjálfkrafa inn skaltu velja flipann **Stillingar** til að skrá þig inn.
 
 > [!NOTE]
-> Ef þú sérð ekki innskráningarglugga skaltu uppfæra stillingar vafrans til að leyfa sprettiglugga. 
+> Ef þú sérð ekki innskráningarglugga skaltu uppfæra vafrastillingarnar þínar til að leyfa sprettiglugga. 
 
 Ef þú hefur aðgang að fleiri en einu tilviki af Human Resources er hægt að velja hvaða umhverfi á að tengja við á flipanum **Stillingar**.
 
@@ -56,7 +55,7 @@ Ef þú hefur aðgang að fleiri en einu tilviki af Human Resources er hægt að
 Þegar forritið hefur verið sett upp birtast boð með upplýsingar um þær aðgerðir sem þjarkinn getur gripið til.
 
 > [!NOTE]
-> Þegar þú hefur fyrst samskipti við vélmanninn gætirðu þurft að skrá þig inn. Ef þú sérð ekki innskráningarglugga skaltu uppfæra stillingar vafrans til að leyfa sprettiglugga.
+> Þegar þú hefur fyrst samskipti við vélmanninn gætirðu þurft að skrá þig inn. Ef þú sérð ekki innskráningarglugga skaltu uppfæra vafrastillingarnar þínar til að leyfa sprettiglugga.
 
 Hægt er að spyrja þjarkann um að:
 
@@ -186,7 +185,7 @@ Ef þýðingar birtast ekki eins og búist er við skal ganga úr skugga um tung
 
 ![Valkostir notanda í Human Resources.](./media/hr-teams-leave-app-user-options.png)
 
-Láttu okkur vita ef vandamál vegna þýðinga er enn til staðar. Frekari upplýsingar er að finna í [Fá stuðning fyrir Finance and Operations-forrit eða Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+Láttu okkur vita ef vandamál vegna þýðinga er enn til staðar. Fyrir upplýsingar, sjá [Fáðu stuðning fyrir Finance and Operations öpp eða Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Villa þegar leyfisbeiðnir eru samþykktar í forriti Human Resources í Teams
 

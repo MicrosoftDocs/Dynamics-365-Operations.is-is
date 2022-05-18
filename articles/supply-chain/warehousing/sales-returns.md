@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cfcfd165b5f7b97d1ee88175b3f6c9d418c30c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565280"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695564"
 ---
 # <a name="sales-returns"></a>Vöruskil sölu
 
@@ -76,7 +76,6 @@ Skilapöntunarferlið hefst þegar viðskiptavinur hefur samband við fyrirtæki
 | RMA-númer         | Tegund sem tengd er skilapöntuninni              | RMA-númer er notað sem varalykill í gegnum ferli skilapöntunar. Auðkennisnúmerið sem er úthlutað er byggt á RMA-númeraröðinni sem var sett upp á síðunni **Færibreytur viðskiptakrafa**.                                                                                                                              |
 | Tímamörk           | Síðasta dagsetningin sem hægt er að skila vöru               | Sjálfgefið gildi er reiknað sem gildandi dagsetning plús gildistímabil. Til dæmis ef skil gilda aðeins í 90 daga frá dagsetningu þegar vöruskilapöntun er stofnuð og vöruskilapöntunin var stofnuð þann 1. maí, er gildið í svæðinu **30. júlí**. Gildistími er stilltur á síðunni **Færibreytur viðskiptakrafna**. |
 | Ástæðukóði skila | Ástæða viðskiptavinar fyrir að skila vörunni          | Ástæðukóði er valinn í lista yfir notendaskilgreinda ástæðukóða. Hægt er að uppfæra þetta svæði hvenær sem er.                                                                                                                                                                                                                                    |
-
 ### <a name="create-return-order-lines"></a>Stofna skilapöntunarlínur
 
 Eftir að lokið hefur verið við skilahaus er hægt að stofna skilalínur með því að nota eina af eftirfarandi aðferðum:
@@ -84,7 +83,8 @@ Eftir að lokið hefur verið við skilahaus er hægt að stofna skilalínur me�
 -   Færa handvirkt inn upplýsingar um vöru, magn og aðrar upplýsingar fyrir hverja línu skila.
 -   Stofna skilalínu með því að nota aðgerðina **Finna sölupöntun**. Mælt er með því að nota þessa aðgerð þegar vöruskilapöntun er stofnuð. Aðgerðin **Finna sölupöntun** kemur á tilvísun úr skilalínunni í reikningsfærða sölupöntunarlínu og sækir línuupplýsingar eins og vörunúmer, magn, verð, afslætti og kostnaðargildi úr sölulínunni. Tilvísun hjálpar til við að tryggja að þegar vörunni er skilað til fyrirtækisins sé hún metin á sama einingarkostnaði og hún var seld á. Tilvísun sannprófar einnig að skilapantanir séu ekki stofnaðar fyrir meira magn en það magn sem var selt á reikningnum.
 
->[Athugasemd!] Skilalínur með tilvísun í sölupöntun eru meðhöndlaðar sem leiðréttingar eða bakfærsla á sölu. Nánari upplýsingar er að finna í hlutanum „Bóka í fjárhag“ síðar í þessu efnisatriði.
+>[!NOTE] 
+>Skilalínur sem hafa tilvísun í sölupöntun eru meðhöndluð sem leiðréttingar á, eða bakfærslur á sölunni. Nánari upplýsingar er að finna í hlutanum „Bóka í fjárhag“ síðar í þessu efnisatriði.
 
 ### <a name="charges"></a>Gjöld
 
@@ -189,8 +189,10 @@ Við komuferli eru skil samþætt við almenn ferli fyrir móttöku vöruhúss. 
 
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Auðkenna afurðir í listanum yfirlit Komu
 
-Síðan **komuyfirlit** inniheldur lista yfir öll í áætlaða innleið komur. 
->[Athugasemd!] Komur úr skilapöntunum verður að vinna aðskilið frá öðrum gerðum af færslum afhendingar. Þegar verið er að auðkenna innleið pakka á síðunni **Komuyfirlit** (til dæmis með því að nota meðfylgjandi RMA-skjal), í Aðgerðarúðunni er smellt á **Upphafskoma** til að stofna og ræsa komubók sem samsvarar komu.
+Síðan **komuyfirlit** inniheldur lista yfir öll í áætlaða innleið komur.
+
+>[!NOTE] 
+>Komur frá skilapantunum þarf að afgreiða aðskilið frá annars konar komufærslum. Þegar verið er að auðkenna innleið pakka á síðunni **Komuyfirlit** (til dæmis með því að nota meðfylgjandi RMA-skjal), í Aðgerðarúðunni er smellt á **Upphafskoma** til að stofna og ræsa komubók sem samsvarar komu.
 
 ### <a name="edit-the-arrival-journal"></a>Breyta færslubók
 
@@ -232,7 +234,8 @@ Ef þú sendir skiptivöru til viðskiptavinarins og nota ráðstöfunaraðgerð
 
 Skiptivara verður afhent með því að nota sjálfstæða sölupöntun, sölupöntun skiptivöru. Þessi sölupöntun er stofnuð þegar fylgiseðillinn fyrir skilapöntun er myndaður. Pöntunarhaus notar upplýsingar frá viðskiptavininum sem vísað er í haus vöruskilapöntunarinnar. Línuupplýsingum er safnað úr þeim upplýsingum sem færðar eru inn á síðunni **Skiptivara**. Síðan **Skiptivara** verður að vera útfyllt fyrir línur sem hafa ráðstöfunaraðgerðirnar sem byrja á orðinu "skipta út." Hins vegar er hvorki magn eða kenni skiptivöru villuleitað eða takmarkað. Þessi hegðun heimilar fyrir þau tilvik þar sem viðskiptavinurinn vill sömu vöru en í annað afbrigði eða stærð, og einnig tilfellum þar sem viðskiptavinurinn vill allt aðra vöru. Sjálfgefið er að vara er færð inn á síðunni **Skiptivara**. Hins vegar er hægt að velja aðra vöru, svo lengi sem aðgerðin hefur verið sett upp. 
 
->[Athugasemd!] Hægt er að breyta og eyða skiptipöntuninni sölu eftir að hún er stofnuð.
+>[!NOTE] 
+>Þú getur breytt og eytt vörusölupöntuninni eftir að hún er búin til.
 
 ## <a name="generate-a-packing-slip"></a>Mynda fylgiseðil
 Áður en hægt er að taka á móti skilavöru í birgðum, þarf að uppfæra fylgiseðil fyrir pöntunina sem hún tilheyrir. Á sama hátt og uppfærsluferli reiknings er uppfærsla fjárhagsfærslunnar, er uppfærsluferli fylgiseðils efnisleg uppfærsla birgðafærslunnar. Með öðrum orðum, þetta ferli sendir breytingarnar í birgðum. Þegar um er að ræða skil, eru skrefin sem hafa verið úthlutuð fyrir ráðstöfunaraðgerð innleidd á meðan á fylgiseðilsuppfærslu stendur. Þegar fylgiseðillinn er myndaður á eftirfarandi tilvik sér stað:
@@ -253,8 +256,10 @@ Almennt séð er hægt að sleppa umbúðaeiningum fylgiseðils og fara beint í
 
 ### <a name="credit-correction"></a>Kreditleiðrétting
 
-Hluti af reikningsfærslunni er að staðfesta að gjöld séu rétt. Til að orsaka að bókanir í fjárhag verði leiðréttingar (Storno) verða að íhuga að nota valkostinn **Kreditleiðrétting** á flipanum **Annað** á síðunni **Bókun reiknings** þegar reikningur/kreditnóta er bókuð. 
->[Athugasemd!] Sjálfgefni **Kredit leiðrétting** valkosturinn er virkjaður ef á **kreditnótu sem leiðréttingu** valkostinn á í **Færibreytur viðskiptakrafna** síðu hefur verið gerður virkur. Þó er mælt með að bóka ekki með Storno.
+Hluti af reikningsfærslunni er að staðfesta að gjöld séu rétt. Til að orsaka að bókanir í fjárhag verði leiðréttingar (Storno) verða að íhuga að nota valkostinn **Kreditleiðrétting** á flipanum **Annað** á síðunni **Bókun reiknings** þegar reikningur/kreditnóta er bókuð.
+
+> [!NOTE]
+> Sjálfgefið er **Lánsfjárleiðrétting** valkosturinn er virkur ef **Inneignarnóta sem leiðrétting** valmöguleika á **Færibreytur viðskiptakrafna** síða hefur verið virkjuð. Þó er mælt með að bóka ekki með Storno.
 
 ## <a name="create-intercompany-return-orders"></a>Stofna samstæðuskilapantanir
 Hægt er að ljúka skilapöntunum milli tveggja fyrirtækja innan fyrirtækisins. Eftirfarandi aðstæðuar eru studdar:
@@ -308,7 +313,8 @@ Skilapöntun vísar ekki í reikning viðskiptavinar Skiluð vara er kreditfær�
 
 ![Skilapöntun vísar ekki í reikning viðskiptavinar.](./media/SalesReturn09.png)  
 
->[Athugasemd!] Aðalsniðmát vöruverðs er notað sem sjálfgefið gildi fyrir færibreytuna **Skilakostnaðarverð**. Sjálfgefin verð er frábrugðið kostnaðarverði við úthreyfingar birgða. Þess vegna eru áhrifin þau að stofnast hefur til taps 3. Þar að auki er skilapöntun ekki með afslátt sem var veittur viðskiptavini í sölupöntuninni. Þess vegna á of mikið kredit á sér stað.
+> [!NOTE]
+> Aðalverð vöru er notað sem sjálfgefið gildi fyrir **Skilakostnaðarverð** breytu. Sjálfgefin verð er frábrugðið kostnaðarverði við úthreyfingar birgða. Þess vegna eru áhrifin þau að stofnast hefur til taps 3. Þar að auki er skilapöntun ekki með afslátt sem var veittur viðskiptavini í sölupöntuninni. Þess vegna á of mikið kredit á sér stað.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>Dæmi 2: Kreditleiðrétting er valin fyrir skilapöntun
 
@@ -316,7 +322,8 @@ Dæmi 2 er það sama og dæmi 1, en færibreytan **Kreditleiðrétting** er val
 
 ![Skilapöntun þar sem kreditleiðrétting er valin.](./media/SalesReturn10.png)  
 
->[Athugasemd!] Bókanir í fjárhag eru færðar inn sem neikvæðar leiðréttingar.
+>[!NOTE] 
+>Fjárhagsfærslurnar eru færðar sem neikvæðar leiðréttingar.
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>Dæmi 3: Skilapöntunarlínan eru stofnuð með aðgerðinni Finna sölupöntun
 
@@ -324,7 +331,8 @@ Dæmi 2 er það sama og dæmi 1, en færibreytan **Kreditleiðrétting** er val
 
 ![Skilapöntunarlína sem er stofnuð með aðgerðinni Finna sölupöntun.](./media/SalesReturn11.png)  
 
->[Athugasemd!] **Afsláttur** og **Skilakostnaðarverð** eru rétt stillt. Þess vegna á sér stað nákvæm bakfærsla reiknings viðskiptavinar.
+> [!NOTE]
+> **Afsláttur** og **Skilakostnaðarverð** eru rétt stillt. Þess vegna á sér stað nákvæm bakfærsla reiknings viðskiptavinar.
 
 
 

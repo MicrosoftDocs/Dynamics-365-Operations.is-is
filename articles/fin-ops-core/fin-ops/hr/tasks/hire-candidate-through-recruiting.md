@@ -13,20 +13,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 4bae8c038d048d18096eab20150701fd0e47250a
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075374"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734661"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Ráðning umsækjanda gegnum ráðningu
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> Virknin sem bent er á í þessu efnisatriði er eins og er í boði fyrir mannauðsviðskiptavini á fjármálainnviðum.  
-
+> Ráðningarvirkni í þessu efni verður nefnd ráðningarverkefni og beinist að umsækjendum, umsóknum og ráðningarverkefnum.  
 
 Þetta ferli gerir ráðningaraðila kleift að ráða starfsmann sem sendi umsókn í gegnum tiltekið ráðningarverk. Þegar þú ræður umsækjanda í gegnum ráðningarverkefni er ný starfsmannaskrá búin til og færsla umsækjanda hefur stöðuna **Starfandi**. The **USMF** kynningargagnafyrirtæki var notað til að búa til þessa aðferð.
 

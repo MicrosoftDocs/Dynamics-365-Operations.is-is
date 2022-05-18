@@ -9,16 +9,15 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5539d8531dc5de273d80419135c9bcc224c8e8f0
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 4bab754afa5b35c34c6e1e5087d9268321b75bd0
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402619"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688883"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-functional-consultants"></a>Námslisti fyrir hagnýta ráðgjafa Dynamics 365 Commerce
 
@@ -28,11 +27,11 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 
 Fyrir starfhæfa ráðgjafa sýndu rannsóknir okkar á verkefnavinnu að allir verða að skilja grunninntakið sem og sviðssvið.
 
-Frekari upplýsingar um kennslu eiginleika sem deilt er með öðrum Finance and Operations-forritum er að finna í [Dynamics 365 Finance Námskrá](../../finance/get-started/learning-catalog-functional-consultant.md).
+Fyrir þjálfun um eiginleika sem deilt er með öðrum Finance and Operations forritum, sjáðu [Dynamics 365 Finance Learning Catalogue](../../finance/get-started/learning-catalog-functional-consultant.md).
 
-## <a name="get-started"></a>Hafist handa<a name="get-started"></a>
+## <a name="get-started"></a>Leiðsögn<a name="get-started"></a>
 
-| Efni| lýsing  | Snið  | Lengd  |
+| Efni| Lýsing  | Snið  | Lengd  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|
 | [Lærðu viðskiptaverðmæti Microsoft Dynamics 365 og Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Þessi námsupplifun mun taka þig í ferðalag sem mun byrja á því að sýna þér hvernig stafræn umbreyting og kraftur viðskiptaumsókna getur umbreytt viðskiptum þínum. Við munum fjalla um hvernig Dynamics 365 og Power Platform hjálpa þér að taka upplýstar ákvarðanir byggðar á þörfum og markmiðum stofnunarinnar í gegnum fjóra byggingarreina í stafrænni umbreytingu - nútímaleg, sameinuð, greindur og aðlögunarhæfur. | Ókeypis, sjálfstýr skref á námsleið | 6.5 klst. |
 | [Hafist handa með Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/) | Dynamics 365 Commerce – byggir á margreyndum eiginleikum Dynamics 365 Retail – skilar lausn fyrir alhliða samskipti sem sameinar bakvinnslu, verslun, þjónustuver og stafræna upplifun. Dynamics 365 Commerce gerir þér kleift að byggja upp hollustu vörumerkis með persónulegum viðskiptum við viðskiptavini, auka tekjur með bættri framleiðni starfsmanna, hámarka rekstur til að draga úr kostnaði og auka skilvirkni framboðs keðjunnar og skila á endanum betri viðskiptaniðurstöðum. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |

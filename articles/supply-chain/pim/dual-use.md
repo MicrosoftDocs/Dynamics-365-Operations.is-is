@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570754"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736034"
 ---
 # <a name="dual-use-goods"></a>Vörur tvíþætts notagildis
 
@@ -34,7 +34,7 @@ Eiginleiki tvíþætts notagildis auðveldar fyrirtækjum að halda utan um afur
 2. Síðan **Upplýsingasíða um losaðar afurðir** fyrir afurð X-100 sýnir að hún er vara með tvíþætt notagildi. Saman sýna kóðinn, tegundin, flokkurinn og fyrirkomulagið flokkun útflutningseftirlits sem afurðin tilheyrir.
 3. Síðan **Vottorð fyrir tvíþætt notagildi** inniheldur vottor fyrir afurð X-100 þegar hún er send til Frakklands. Þetta vottorð rennur út 1. janúar 2020.
 4. 17. júní 2020, stofnar þú sölupöntun fyrir fyrirtæki viðskiptavinar sem er staðsett í Frakklandi og pöntunin inniheldur afurð X-100.
-5. Þegar sölupöntunin er vistuð ákvarðar kerfið eftirfarandi upplýsingar:
+5. Þegar þú staðfestir sölupöntunina ákvarðar kerfið eftirfarandi upplýsingar:
 
     1. Inniheldur pöntunin afurðir sem eru vörur með tvíþætt notagildi?
     2. Ef pöntunin inniheldur vörur með tvíþætt notagildi, þarf land áfangastaðar á vottorði tvíþætts notagildis að halda?

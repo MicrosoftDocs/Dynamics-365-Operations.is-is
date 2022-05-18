@@ -1,6 +1,6 @@
 ---
 title: Jafna hlutagreiðslu lánardrottins sem er með mörg afsláttartímabil
-description: Þessi grein fer í gegnum aðstæður þar sem margar hlutagreiðslur eru greiddar til lánardrottins sem gefur marga staðgreiðsluafslætti.
+description: Þetta efni leiðir þig í gegnum atburðarás þar sem margar hlutagreiðslur eru gerðar til lánardrottins sem býður upp á marga staðgreiðsluafslátt.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14262
 ms.assetid: af95c48a-afd1-476c-978d-e34995100be4
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0538a522733a9df9ae3b8832959c68bb0c25056694786e4b1a46a2ee7d0fcfc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d805ce2de866d0073b4bb797eb7ddae0736e8948
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737090"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716280"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Jafna hlutagreiðslu lánardrottins sem er með mörg afsláttartímabil
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein fer í gegnum aðstæður þar sem margar hlutagreiðslur eru greiddar til lánardrottins sem gefur marga staðgreiðsluafslætti. 
+Þetta efni leiðir þig í gegnum atburðarás þar sem margar hlutagreiðslur eru gerðar til lánardrottins sem býður upp á marga staðgreiðsluafslátt. 
 
 Lánardrottinn 3054 býður Fabrikam 2 prósent staðgreiðsluafslátt ef reikningur er greiddur innan fimm daga og um 1 prósent staðgreiðsluafslátt ef reikningurinn er greiddur innan 14 daga.
 

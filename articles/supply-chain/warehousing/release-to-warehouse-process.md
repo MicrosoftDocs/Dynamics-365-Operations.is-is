@@ -1,7 +1,7 @@
 ---
 title: Losa í vöruhús
 description: Þetta efnisatriði veitir upplýsingar um losun í vöruhúsaferli. Það lýsir einingum sem eru búnar til þegar þú sendir pöntun í vöruhúsið og valkostum sem hægt er að nota til að hefja ferlið.
-author: mirzaab
+author: Mirzaab
 ms.date: 8/13/2021
 ms.topic: article
 ms.search.form: WHSReleaseToWarehouse, WHSReleaseToWarehouseSalesOrder, WHSReleaseToWarehouseTransferOrder, WHSLoadPlanningWorkbench, WHSWaveTemplateTable, WHSWorkTemplateTable, WHSLocDirTable
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3269bf3f8a5475fb85e6b51514db29006be9aab1
-ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
+ms.openlocfilehash: 8624db42e9d0f3d08ed3b582224ed7937d52f85d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8376209"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678352"
 ---
 # <a name="release-to-warehouse"></a>Losa í vöruhús
 
@@ -125,7 +125,7 @@ Til að setja upp runuvinnslu sem losar sölupantanir skal fylgja þessum skrefu
     - **Magn sem á að losa** – Veldu hvort eigi að losa allt magnið eða aðeins efnislega frátekið magn í vöruhúsið.
     - **Leyfa losun pantana sem hafa verið losaðar að hluta** – Tilgreindu hvort eftirstandandi magn fyrir pantanir sem hafa verið losaðar að hluta til eigi að vera losaðar í vöruhúsið.
     - **Halda frátekningum á losun sem mistekst** – Tilgreindu hvort magn sem var sjálfkrafa tekið frá fyrir sölupöntun eigi að vera áfram frátekið ef losunarferlið í vöruhúsið mistekst.
-    - **Flokkaðu útgáfur eftir viðskiptavinum** – Tilgreina hvort kerfið eigi að vinna losun í vöruhúsarekstur sérstaklega fyrir hvern viðskiptavin eða losa allar sölupantanir á sama tíma. Þegar þessi valkostur er stilltur á *Já*, mun kerfið safna öllum sölupöntunarlínum fyrir valinn viðskiptavin, losa þær pantanir í vöruhúsið og vinna síðan úr næsta viðskiptavin. Þegar þessi valkostur er stilltur á *Nei*, kerfið mun gefa út allar tiltækar sölupöntunarlínur í einni útgáfu í vöruhúsarekstur. Með því að virkja þennan valmöguleika geturðu hjálpað til við að bæta afköst og seiglu losunar í vöruhús ferli. Hins vegar verður þú að vera varkár þegar þú notar þennan valkost ásamt bylgjusniðmátum sem eru stillt til að vinna úr bylgjum við losun í vöruhús, því þessi samsetning gæti myndað margar eins viðskiptavinar bylgjur, sem hver um sig hefur verk sem hefur verið framleidd fyrir þann viðskiptavin eingöngu. Ef þú vilt búa til vinnu sem sameinar sendingar fyrir marga viðskiptavini, ættir þú annað hvort að slökkva á *Flokkaðu útgáfur eftir viðskiptavinum* valmöguleika eða stilltu bylgjusniðmátið þitt til að nota frestað vinnslu.
+    - **Flokkaðu útgáfur eftir viðskiptavinum** – Tilgreinið hvort kerfið eigi að vinna losun í vöruhúsarekstur sérstaklega fyrir hvern viðskiptavin eða losa allar sölupantanir á sama tíma. Þegar þessi valkostur er stilltur á *Já*, mun kerfið safna öllum sölupöntunarlínum fyrir valinn viðskiptavin, losa þær pantanir í vöruhúsið og vinna síðan úr næsta viðskiptavin. Þegar þessi valkostur er stilltur á *Nei*, kerfið mun gefa út allar tiltækar sölupöntunarlínur í einni útgáfu í vöruhúsarekstur. Með því að virkja þennan valmöguleika geturðu hjálpað til við að bæta afköst og seiglu losunar í vöruhús ferli. Hins vegar verður þú að vera varkár þegar þú notar þennan valmöguleika ásamt bylgjusniðmátum sem eru stillt til að vinna úr bylgjum við losun í vöruhús, því þessi samsetning gæti myndað margar eins viðskiptavinar bylgjur, sem hver um sig hefur verk sem hefur aðeins verið framleidd fyrir þann viðskiptavin. . Ef þú vilt búa til vinnu sem sameinar sendingar fyrir marga viðskiptavini, ættirðu annað hvort að slökkva á *Flokkaðu útgáfur eftir viðskiptavinum* valmöguleika eða stilltu bylgjusniðmátið þitt til að nota frestað vinnslu.
     - **Meðhöndlun læstra pantana** – Veldu hvernig kerfið á að meðhöndla sölupantanir sem eru læstar vegna þess að aðrir notendur eða ferlar eru að breyta þeim:
 
         - *Bíða eftir því að pantanir fari úr lás* – Kerfið ætti að bíða eftir að pantanirnar verði teknar úr lás áður en það losar þær í vöruhúsið. Í því tilviki gæti losunarferli í vöruhús tekið lengri tíma.

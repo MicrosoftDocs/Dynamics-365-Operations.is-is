@@ -1,6 +1,6 @@
 ---
 title: Tvöfaldur gjaldmiðill
-description: Þetta umræðuefni veitir upplýsingar um tvöfaldan gjaldmiðil þar sem skýrslugjaldmiðillinn er notaður sem annar bókhaldsgjaldmiðill fyrir Microsoft Dynamics 365 Finance.
+description: Þetta efnisatriði veitir upplýsingar um tvöfaldan gjaldmiðil, þar sem skýrslugjaldmiðillinn er notaður sem annar bókhaldsgjaldmiðill fyrir Microsoft Dynamics 365 Fjármál.
 author: kweekley
 ms.date: 04/17/2020
 ms.topic: article
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b20c45952d2c0c28a1b785fd92bf47cfb25251fa3a3308d14130ad0f1c78305d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762068"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713586"
 ---
 # <a name="dual-currency"></a>Tvöfaldur gjaldmiðill
 
@@ -199,7 +199,7 @@ Að auki hafa verulegar breytingar verið gerðar á afskriftarferlinu. Þessar 
     
 ### <a name="consolidations"></a>Samstæður
     
-Virkni sem kynnt var í Dynamics 365 Finance útgáfu 10.0.5 (október 2019) gerir kleift að virkja með eiginleikastjórnun fyrir aukinn sveigjanleika fyrir samstæðu og tvöfaldan gjaldmiðil. Til að virkja þessa virkni ferðu í vinnusvæðið **Stjórnun eiginleika** og veldu **Virkja virkni tvöfalds gjaldeyris í samstæðu fjárhags**.
+Virkni sem var kynnt í Dynamics 365 Finance útgáfu 10.0.5 (október 2019) gerir virkni í gegnum eiginleikastjórnun fyrir aukinn sveigjanleika fyrir samstæðu og tvöfaldan gjaldmiðil. Til að virkja þessa virkni ferðu í vinnusvæðið **Stjórnun eiginleika** og veldu **Virkja virkni tvöfalds gjaldeyris í samstæðu fjárhags**.
 
 Í samstæðu fjárhags hefur nýjum valkosti verið bætt við til að sameina annaðhvort bókhalds- eða skýrslugjaldeyrisupphæðir úr upprunafyrirtækjunum. Ef bókhalds- eða skýrslugjaldmiðillinn er sá sami og bókhalds- eða skýrslugjaldmiðillinn í samstæðufyrirtækinu verða upphæðirnar afritaðar beint frekar en þýddar.
 

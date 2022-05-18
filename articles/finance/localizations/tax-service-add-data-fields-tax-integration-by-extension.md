@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
-ms.translationtype: HT
+ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649102"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695389"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Bæta við gagnareitum í samþættingu skatts með því að nota viðbót
 
@@ -383,7 +382,7 @@ Til að byggja upp verkefnið með góðum árangri skaltu bæta eftirfarandi vi
 
 Eftir að þú hefur lokið fyrri skrefum geturðu staðfest breytingarnar þínar.
 
-1. Í Fjármálum, farðu til **Viðskiptaskuldir** og bæta við **&debug=vs%2 CconfirmExit&** á slóðina. Til dæmis,https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&. Loka **&** er ómissandi.
+1. Í Fjármálum, farðu til **Viðskiptaskuldir** og bæta við **&debug=vs%2 CconfirmExit&** á slóðina. Til dæmis,`https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&`. Loka **&** er ómissandi.
 2. Opnaðu **Pöntun** síðu og veldu **Nýtt** til að búa til innkaupapöntun.
 3. Stilltu gildið fyrir sérsniðna reitinn og veldu síðan **Söluskattur**. Úrræðaleitarskrá með forskeyti, **TaxService Bilanaleit** er hlaðið niður sjálfkrafa. Þessi skrá inniheldur færsluupplýsingarnar sem eru færðar til skattreikningsþjónustunnar. 
 4. Athugaðu hvort sérsniði reiturinn sem bætt var við sé til staðar í **Skattaþjónustuútreikningsinntak JSON** kafla og ef gildi hans er rétt. Ef gildið er ekki rétt skaltu athuga skrefin í þessu skjali.

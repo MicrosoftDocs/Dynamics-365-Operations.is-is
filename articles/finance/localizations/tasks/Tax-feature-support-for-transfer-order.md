@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2f68a3d7ed4384fe5a97f1e59903e3191df6b741
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: d95ea6795dc5777bfd37f8fbb3ebc47f2db337a0
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647714"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689215"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Stuðningur skattaeiginleika fyrir flutningspantanir
 
@@ -31,7 +30,7 @@ ms.locfileid: "7647714"
 Til að grunnstilla og nota þessa virkni þarf að ljúka þremur meginskrefum:
 
 1. **RCS-uppsetning:** í Regulatory Configuration Service skal setja upp skattaeiginleika, skattkóða og gildissvið skattkóða fyrir ákvörðun skattkóða í flutningspöntunum.
-2. **Dynamics 365 Finance uppsetning:** Í Finance skal kveikja á eiginleikanum **Skattur í flutningspöntun**, setja upp færibreytur skattaútreikningsþjónustu fyrir birgðir og setja upp grunnfæribreytur skatts.
+2. **Dynamics 365 Finance uppsetning:** Í Fjármálum, virkjaðu **Skattur í millifærslupöntun** eiginleika, setja upp færibreytur skattútreikningsþjónustu fyrir birgðahald og setja upp kjarnaskattfæribreytur.
 3. **Uppsetning birgða:** Setjið upp skilgreiningu birgða fyrir færslur flutningspöntunar.
 
 ## <a name="set-up-rcs-for-tax-and-transfer-order-transactions"></a>Setja upp RCS fyrir skattfærslur og færslur flutningspöntunar

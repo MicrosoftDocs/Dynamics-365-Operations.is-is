@@ -1,24 +1,24 @@
 ---
 title: Stofna og úthluta kostnaðarhegðunarreglu fyrir kostnaðarstýringareiningu
 description: Kostnaður er flokkaður út frá kostnaðarhegðun sem annað hvort fastur eða breytilegur.
-author: ShylaThompson
+author: twheeloc
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostBehaviorRule
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77e79b4959d546fd04c9705220c7f7a4c4a0ffd0621a66553adbe1a85b6cce39
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 653bfb69c4ca118c700755cb95a6b349d2c6bbad
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712268"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735143"
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>Stofna og úthluta kostnaðarhegðunarreglu fyrir kostnaðarstýringareiningu
 
@@ -28,60 +28,60 @@ Kostnaður er flokkaður út frá kostnaðarhegðun sem annað hvort fastur eða
 
 
 ## <a name="create-a-cost-behavior-hierarchy"></a>Stofna Stigveldi kostnaðarhegðunar
-1. Fara í kostnaðarbókhald > Víddir > Stigveldi vídda.
-2. Smellið á „Nýtt“.
-3. Smellið á „Stofna“.
-4. Í reitinn Heiti stigveldi víddar skal slá inn „Stigveldi kostnaðarhegðunar“.
-5. Sláið inn eða veljið gildi í reitnum Vídd.
+1. Fara til **Kostnaðarbókhald > Víddir > Víddarstigveldi**.
+2. Smellt er á **Nýtt**.
+3. Smellið á **Stofna**.
+4. Í **Heiti víddarstigveldis** reit, sláðu inn 'Kostnaðarhegðun stigveldi'.
+5. Í **Stærð** reit, sláðu inn eða veldu gildi.
     * Velja kostnaðareiningar  
-6. Smellið á „Vista“.
-7. Smella á Skoða stigveldi
-8. Smellið á „Nýtt“.
-9. Í svæðið Heiti hnútar, færðu inn gildi.
+6. Smelltu á **Vista**.
+7. Smellur **Skoða stigveldi**.
+8. Smellt er á **Nýtt**.
+9. Í **Nafn hnúts** reit, sláðu inn gildi.
     * Færa inn Fastan kostnað.  
 10. Í trénu skal velja „Stigveldi kostnaðarhegðunar“.
-11. Smellið á „Nýtt“.
-12. Í svæðið Heiti hnútar, færðu inn gildi.
+11. Smellt er á **Nýtt**.
+12. Í **Nafn hnúts** reit, sláðu inn gildi.
     * Færa inn breytilegur kostnaður.  
-13. Smellið á „Vista“.
+13. Smelltu á **Vista**.
 14. Í trénu skal velja „stigveldi kostnaðarhegðunar\Fastur kostnaður“.
-15. Smellið á „Nýtt“.
+15. Smellt er á **Nýtt**.
 16. Í listanum skal merkja valda línu.
-17. Sláið inn eða veldu gildi í reitnum Frá víddarstak.
-    * Afmörkun víddarstaks getur innihaldið gloppur, en stökin geta ekki skarast.  
-18. Sláið inn eða veldu gildi í reitnum í Til víddarstak.
-    * Afmörkun víddarstaks getur innihaldið gloppur, en stökin geta ekki skarast.  
+17. Í **Frá víddarmeðlim** reit, sláðu inn eða veldu gildi.
+    * Svið víddarmeðlima getur innihaldið eyður, en meðlimirnir geta ekki skarast.  
+18. Í **Til að vídda meðlim** reit, sláðu inn eða veldu gildi.
+    * Svið víddarmeðlima getur innihaldið eyður, en meðlimirnir geta ekki skarast.  
 19. Í trénu skal velja „stigveldi kostnaðarhegðunar\Breytilegur kostnaður“.
-20. Smellið á „Nýtt“.
+20. Smellt er á **Nýtt**.
 21. Í listanum skal merkja valda línu.
-22. Sláið inn eða veldu gildi í reitnum Frá víddarstak.
-    * Afmörkun víddarstaks getur innihaldið gloppur, en stökin geta ekki skarast.  
-23. Sláið inn eða veldu gildi í reitnum í Til víddarstak.
-    * Afmörkun víddarstaks getur innihaldið gloppur, en stökin geta ekki skarast.  
-24. Smellið á „Vista“.
+22. Í **Frá víddarmeðlim** reit, sláðu inn eða veldu gildi.
+    * Svið víddarmeðlima getur innihaldið eyður, en meðlimirnir geta ekki skarast.  
+23. Í **Til að vídda meðlim** reit, sláðu inn eða veldu gildi.
+    * Svið víddarmeðlima getur innihaldið eyður, en meðlimirnir geta ekki skarast.  
+24. Smelltu á **Vista**.
 
 ## <a name="create-the-policy-and-rules"></a>Stofna stefnu og reglur
-1. Fara í Kostnaðarbókhald > Stefnur > Stefnur fyrir kostnaðarhegðun.
-2. Smellið á „Nýtt“.
-3. Sláið inn gildi í reitinn Stefnuheiti.
-4. Sláið inn eða veljið gildi í reitnum Stigveldi víddar kostnaðareiningar.
+1. Fara til **Kostnaðarbókhald > Reglur > Reglur um kostnaðarhegðun**.
+2. Smellt er á **Nýtt**.
+3. Í **Heiti stefnu** reit, sláðu inn gildi.
+4. Í **Stigveldi víddar kostnaðarþáttar** reit, sláðu inn eða veldu gildi.
     * Velja stigveldi stefnunnar sem nýverið var stofnuð.  
-5. Sláið inn eða veljið gildi í reitnum Stigveldi víddar kostnaðarhlutar.
+5. Í **Stigveldi víddar kostnaðarhluta** reit, sláðu inn eða veldu gildi.
     * Velja Fyrirtæki  
-6. Smellið á „Vista“.
-7. Smellið á „Nýtt“.
+6. Smelltu á **Vista**.
+7. Smellt er á **Nýtt**.
 8. Í listanum skal merkja valda línu.
-9. Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðareiningar.
+9. Í **Stigveldishnútur kostnaðarþáttavíddar** reit, sláðu inn eða veldu gildi.
     * Útvíkka stigveldið til að velja Breytilegur kostnaður.  
-10. Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.
+10. Í **Stigveldishnútur kostnaðarhlutavíddar** reit, sláðu inn eða veldu gildi.
     * Að sjálfgefnu er prósentan í breytilegu 100 prósent.  
-11. Smella á Regluúthlutanir fyrir kostnaðarstýringareiningu.
-12. Smellið á „Nýtt“.
+11. Smellur **Stefnuverkefni fyrir kostnaðareftirlitseiningu**.
+12. Smellt er á **Nýtt**.
 13. Í listanum skal merkja valda línu.
-14. Færa skal inn dagsetningu í reitinn Gildir frá dagsetningu reikningsskila.
+14. Í **Gildir frá uppgjörsdegi** reit, sláðu inn dagsetningu.
     * Reglurnar stjórnast af dagsetningum, og getur notandi eða kerfið látið reglurnar renna út ef nýrri útgáfa er stofnuð.  
-15. Í reitinn Kostnaðarstýringareining skal slá inn eða velja gildi.
-16. Smellið á „Vista“.
+15. Í **Kostnaðarstýringareining** reit, sláðu inn eða veldu gildi.
+16. Smelltu á **Vista**.
 
 
 

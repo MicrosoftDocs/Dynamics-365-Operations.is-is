@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Finance og Dynamics 365 Supply Chain Management í US Government Community Cloud (GCC)
+title: Dynamics 365 Finance, Supply Chain Management og Commerce í US Government Community Cloud (GCC)
 description: Þetta efni veitir upplýsingar um Microsoft Dynamics 365 vörur frá bandarískum stjórnvöldum sem eru í boði fyrir hæfa stjórnvöld og einkaaðila.
 author: hasaid
 ms.date: 11/12/2021
@@ -9,14 +9,14 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 0c8b88e5d190f6dc9beb9342909d1e489d4af10b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 204bf1886ff7f7393fba5713a54f305274f540d0
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062287"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693309"
 ---
-# <a name="dynamics-365-finance-and-dynamics-365-supply-chain-management-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance og Dynamics 365 Supply Chain Management í US Government Community Cloud (GCC)
+# <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance, Supply Chain Management og Commerce í US Government Community Cloud (GCC)
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,7 +32,7 @@ Fyrir upplýsingar, sjá [Dynamics 365 Bandarísk stjórnvöld](/power-platform/
 
 ## <a name="onboarding"></a>Innleiðing
 
-Til að ljúka fyrstu inngöngu í innleiðingarverkefni í Microsoft Dynamics Lifecycle Services (LCS), fylgdu leiðbeiningunum í [Um borð í framkvæmdaverkefni](../../../fin-ops-core/fin-ops/imp-lifecycle/onboard.md). Hins vegar skaltu ekki nota hlekkinn á opinbera LCS sem er að finna í þessum leiðbeiningum. Þess í stað skaltu nota eftirfarandi vefslóð til að opna LCS fyrir US Government Community Cloud (GCC):<https://gov.lcs.microsoftdynamics.us>.
+Til að ljúka fyrstu inngöngu í innleiðingarverkefni í Microsoft Dynamics Lifecycle Services (LCS), fylgdu leiðbeiningunum í [Um borð í framkvæmdaverkefni](../../../fin-ops-core/fin-ops/imp-lifecycle/onboard.md). Hins vegar skaltu ekki nota hlekkinn á opinbera LCS sem er að finna í þessum leiðbeiningum. Í staðinn skaltu nota eftirfarandi vefslóð til að opna LCS fyrir US Government Community Cloud (GCC):<https://gov.lcs.microsoftdynamics.us>.
 
 Eftir að fyrstu inngöngu um borð er lokið skaltu fylgja leiðbeiningunum í [Inngangur verkefna](../lifecycle-services/project-onboarding.md). Enn og aftur, notaðu [LCS fyrir GCC](https://gov.lcs.microsoftdynamics.us) í stað opinbers LCS.
 

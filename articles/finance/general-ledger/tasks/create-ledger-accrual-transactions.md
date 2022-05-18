@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransAccrual, LedgerJournalTransAccrualTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6500da88424ea71aa8f8836dfdb7d42ef444637b50efe4401a6f76a876e3e0cf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9aa546bea140fe29a97e4cda7a85f632b8cf3b0
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750389"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716608"
 ---
 # <a name="create-ledger-accrual-transactions"></a>Stofna uppsöfnunarfærslur fyrir fjárhag
 
@@ -26,25 +26,25 @@ ms.locfileid: "6750389"
 
 Verk leiðbeiningar fer í gegnum myndun uppsöfnunarfærslna höfuðbókar sem eru byggðar á grunni uppsöfnunarskema
 
-1. Fara í fjárhag > Færslubókarfærslur > Almennar færslubækur.
+1. Farðu í **Fjárhag > Færslubókarfærslur > Almennar færslubækur**.
 2. Á listanum skal finna og velja viðeigandi færslubók eða stofna nýja.
-3. Smellið til að fylgja tenglinum í reitnum Rununúmer færslubókar.
+3. Smelltu til að fylgja hlekknum í **Lotunúmer dagbókar** sviði.
 4. Í listanum skal merkja valda línu.
-5. Í reitnum Lykill skal tilgreina gildi sem óskað er eftir.
+5. Í reitnum **Lykill** tilgreinirðu þau gildi sem óskað er eftir.
     * Í þessu dæmi skilgreinum við kostnað fyrir trygginguna. Það verður reglubundin kostnaðarupphæð.  
-6. Sláið inn gildi í reitnum „Lýsing“.
-7. Í reitnum Debet skal slá inn tölu.
-8. Í reitnum Mótlykill skal tilgreina gildi sem óskað er eftir.
-9. Smellið á Aðgerðir.
-10. Smellt er á fjárhagsuppsafnanir.
-11. Í reitnum Auðkenni uppsöfnunar skal smella á fellilistahnappinn til að opna leitina.
+6. Í reitinn **Lýsing** skal slá inn gildi.
+7. Í reitnum **Debet** skal færa inn tölu.
+8. Í reitnum **Mótlykill** skal skilgreina æskileg gildi.
+9. Smelltu á **Aðgerðir**.
+10. Smellur **Fjárhagsuppsöfnun**.
+11. Í **Uppsöfnun auðkenning** reit, smelltu á fellilistann til að opna leitina.
 12. Í listanum skal finna og velja uppsöfnunarskemað sem á að beita.
 13. Í listanum skal smella á tengilinn í valinni línu.
-14. Dagsetning er rituð í reitinn Upphafsdagur.
-15. Smella á Færslur.
+14. í reitinn **Upphafsdagur** skal færa inn dagsetningu.
+15. Smelltu á **Færslur**.
 16. Lokið síðunni.
-17. Smellið á „Í lagi“.
-18. Smellið á „Bóka“.
+17. Smellt er á **OK**.
+18. Smelltu á **Bóka**.
 
 
 

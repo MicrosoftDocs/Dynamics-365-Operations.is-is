@@ -1,6 +1,6 @@
 ---
 title: Setja upp VSK-uppgjörstímabil
-description: Þetta efni útskýrir hvernig á að setja upp uppgjörstímabil virðisaukaskatts í Dynamics 365 Finance.
+description: Þetta efnisatriði útskýrir hvernig á að setja upp tímabil söluskattsuppgjörs í Dynamics 365 Finance.
 author: twheeloc
 ms.date: 08/05/2019
 ms.topic: business-process
@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f57cd2b5b0f8f86d67500086403c5f484a263f76601453c00f59ede901b01a8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 197b85fb88f966b0a13fc061e2e780dd84e74acb
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732958"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735815"
 ---
-# <a name="set-up-sales-tax-settlement-periods"></a>Setja upp VSK-uppgjörstímabil
+# <a name="set-up-sales-tax-settlement-periods"></a>Setja upp virðisaukaskatttímabil
 
 [!include [banner](../../includes/banner.md)]
 
@@ -28,7 +28,7 @@ ms.locfileid: "6732958"
 
 Þetta verkefni notar USMF-sýnifyrirtækið.
 
-1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Skattur > Óbeinir skattar > Virðisaukaskattur- > VSK-uppgjörstímabil**.
+1. Fara til **Skattur > Óbeinir skattar > Söluskattur > Uppgjörstímabil söluskatts**.
 2. Veljið **Nýtt**.
 3. Í reitinn **Uppgjörstímabil** skal færa inn gildi.
 4. Í reitinn **Lýsing** skal slá inn gildi.

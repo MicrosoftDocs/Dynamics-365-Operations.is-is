@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir sameiningu og losun
-description: Þetta efnisatriði veitir almennar upplýsingar um samþjöppunar- og brottnámsferlið. Í því eru svör við Algengar spurningar
+description: Þetta efni veitir almennar upplýsingar um samþjöppunar- og brottnámsferlið. Í því eru svör við Algengar spurningar
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "13151"
 - intro-internal
 ms.assetid: 9d8f55cb-b2cf-4e01-89cf-0e21f5c8ae1f
 ms.search.region: Global
-ms.author: roschlom
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d844bc37d24fe1fc363a108702a2aae32b72f9e0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 670b238580ecf800686324fe664be747c551090d
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983568"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710699"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Yfirlit yfir sameiningu og losun
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir almennar upplýsingar um samþjöppunar- og brottnámsferlið. Í því eru svör við Algengar spurningar
+Þetta efni veitir almennar upplýsingar um samþjöppunar- og brottnámsferlið. Í því eru svör við Algengar spurningar
 
 Hægt er að nota sameiningaraðgerðir til að sameina°fjárhagsniðurstöður fyrir nokkur dótturfyrirtæki í niðurstöður fyrir eitt sameinað fyrirtæki. Dótturfyrirtæki getur verið í mismunandi útgáfum eða kerfum, hugsanlega ekki í fullri eigu og þau geta notað mismunandi gjaldmiðla. Það eru margir valkostir fyrir sameiningu gagna:
 

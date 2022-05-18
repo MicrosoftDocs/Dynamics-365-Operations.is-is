@@ -2,25 +2,25 @@
 title: Leggja mat á upprunalega greiðsluspá viðskiptavinarins
 description: Þetta efnisatriði lýsir skrefum sem má taka til að skilja greiðsluspá viðskiptavinar og meta skilvirkni hennar.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: c0951c8dcf6205ebbb15baf86b1272af4e95547f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969113"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677955"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Leggja mat á upprunalega greiðsluspá viðskiptavinarins
 
@@ -30,7 +30,7 @@ ms.locfileid: "7969113"
 
 ## <a name="getting-details-about-the-model"></a>Sækja frekari upplýsingar um líkanið
 
-Á síðunni **Færibreytur Fjármálainnsýnar** í Microsoft Dynamics 365 Finance, birtist tengillinn **Auka nákvæmni líkans** við hlið nákvæmniseinkunnarinnar.
+Á **Finance Insights færibreytur** síðu inn Microsoft Dynamics 365 Fjármál, an **Bættu nákvæmni líkans** hlekkur birtist við hliðina á nákvæmnisstiginu.
 
 [![Tengill til að auka nákvæmni líkans.](./media/prediction-model.png)](./media/prediction-model.png)
 
@@ -89,10 +89,10 @@ Tala sem sýnir frammistöðu líkansins á betri hátt en nákvæmni er einkunn
 
 ## <a name="improving-the-model"></a>Endurbætur líkansins
 
-Þegar niðurstöður fyrsta líkansins hafa verið metnar, gæti verið gott að bæta líkanið við með því að bæta við eða fjarlægja eiginleikadálka eða með því að sía alla hluta gagnasafnsins sem styðja ekki nákvæmar spár. Loka AI Builder, og notaðu síðan **Bæta líkan** hlekkur inn Dynamics 365 Finance til að endurræsa AI Builder ferli. Hægt er að prófa sig áfram með ólíka eiginleika án þess að slíkt hafi áhrif á útgefna líkanið. Útgefna líkanið verður einungis fyrir áhrifum þegar smellt er á **Birta**. Hafðu í huga að stakt líkan er notað fyrir tilvikið af Dynamics 365 Finance. Því skaltu fara vandlega yfir öll ný líkön áður en þau eru birt.
+Þegar niðurstöður fyrsta líkansins hafa verið metnar, gæti verið gott að bæta líkanið við með því að bæta við eða fjarlægja eiginleikadálka eða með því að sía alla hluta gagnasafnsins sem styðja ekki nákvæmar spár. Loka AI Builder, og notaðu síðan **Bæta líkan** tengilinn í Dynamics 365 Finance til að endurræsa AI Builder ferli. Hægt er að prófa sig áfram með ólíka eiginleika án þess að slíkt hafi áhrif á útgefna líkanið. Útgefna líkanið verður einungis fyrir áhrifum þegar smellt er á **Birta**. Mundu að eitt líkan er notað fyrir tilvik þitt af Dynamics 365 Finance. Því skaltu fara vandlega yfir öll ný líkön áður en þau eru birt.
 
 ## <a name="for-more-information"></a>Frekari upplýsingar
 
-Frekari upplýsingar um hvernig skal meta spálíkön er að finna í [Niðurstöður vélnámslíkana](/confusion-matrix.md)
+Frekari upplýsingar um hvernig skal meta spálíkön er að finna í [Niðurstöður vélnámslíkana](confusion-matrix.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

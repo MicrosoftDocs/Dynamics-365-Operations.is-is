@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: d5ced2f2bc419f18431663273236d21546c5541b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753971"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734458"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Bæta við upplýsingum kreditstjórnunar fyrir viðskiptavini
 
@@ -32,7 +32,7 @@ Eftir að þú hefur sett upp færibreyturnar sem stjórna kreditstjórnun getur
 1. Stilltu valkostinn **Ótakmörkuð lánamörk** á **Já** ef viðskiptavinurinn ætti ekki að vera takmarkaður af neinum prófum á lánamörkum.
 2. Stilltu valkostinn **Útiloka frá kreditstjórnun** á **Já** til að útiloka viðskiptavininn frá aðgerðum sem venjulega eiga sér stað við útlánaumsýslu.
 3. Veldu lánastjórnunarhóp fyrir viðskiptavininn.
-4. Til að reikna út lánamörk í gjaldmiðli viðskiptavinarins slærðu inn í reitinn **Lánamörk í gjaldmiðli viðskiptavinar** lánamörk viðskiptavinarins. Lánamörkum í gjaldeyris fyrirtækisins verður umbreytt með því að nota gengi sem eru skilgreind með því hvaða lánamörk gengistegund er valin í breytum lánamála.
+4. Til að reikna út lánamörk í gjaldmiðli viðskiptavinarins slærðu inn í reitinn **Lánamörk í gjaldmiðli viðskiptavinar** lánamörk viðskiptavinarins. Lánsfjárhámarki í gjaldmiðli fyrirtækisins verður umreiknað með því að nota gengi sem eru skilgreind af gengistegund lánamarksgengis sem valin er í **Stærðir lánastýringar**.
 5. Í reitinn **Síðasta endurskoðunardagsetning** slærðu inn dagsetninguna þegar lánshæfismörk viðskiptavinarins voru síðast endurskoðuð af lánastjóri.
 6. Í reitinn **Næsti áætlaði endurskoðunardagur** slærðu inn dagsetningu þegar viðskiptavinurinn er áætlaður fyrir lánshæfismat og uppfærslu.
 7. Í reitinn **Hæf lánamörk** slærðu inn hæsta lánamörk sem hægt er að úthluta viðskiptavini, byggð á yfirferð þinni á lánssögu viðkomandi. Hæfileg lánamörk geta verið frábrugðin lánamörkum sem sýnd eru á flýtiflipanum **Skuldir og innheimta**.
@@ -46,7 +46,8 @@ Eftir að þú hefur sett upp færibreyturnar sem stjórna kreditstjórnun getur
 15. Í reitinn **Viðskiptavinur frá** slærðu inn dagsetninguna þegar fyrstu færslurnar voru afgreiddar fyrir viðskiptavininn. Þessar upplýsingar eru notaðar þegar áhættumat er búið til.
 16. Sláðu inn athugasemdir sem lánsteymið getur notað til að meta frekar lánstraust viðskiptavinarins.
 
-Athugaðu að sumar upplýsingarnar sem sýndar eru á síðunni **Viðskiptavinur** eru stofnaðar af öðru ferli:
+> [!Note] 
+> Sumar upplýsingarnar sem eru sýndar á **Viðskiptavinur** síðan er búin til með öðru ferli:
 
 - Reiturinn **Lokadagur lánamarks** sýnir dagsetninguna þegar lánamörkin renna út. Ef þú stillir þennan reit ekki renna lánamörk viðskiptavinarins ekki út.
 - Reiturinn **Dagsetning lánamarks** sýnir dagsetninguna þegar lánamörkin voru stofnuð. Þessi reitur er uppfærður í hvert skipti sem lánsfjármörkin eru leiðrétt.
@@ -86,7 +87,7 @@ Tímabundin lánamörk fara yfir lánamörk viðskiptavina um skilgreindan tíma
     - Vátryggingarvirðið (B) er 50.000.
     - Hlutfall **Uppfæra lánamörk** (C) er 50,00.
     
-    Í þessu tilfelli er virkt lánsfjárhámark 125.000 (= A + \[ B × C\]).
+    Í þessu tilfelli er virkt lánsfjárhámark 125.000 (= A + \[B × C\]).
 
 11. Veldu gátreitinn **Innifalið í útsetningu** til að draga úr lánamörkum sem notuð eru við útreikninga á lánamörkum að fullu gildi stefnunnar. Ef þessi gátreitur er valinn verður gildi sem reiknað er þegar hlutfallið **Uppfæra lánamörk** er tilgreint ekki notað í útreikningum á lánamörkum.
 
@@ -96,9 +97,9 @@ Tímabundin lánamörk fara yfir lánamörk viðskiptavina um skilgreindan tíma
     - Vátryggingarvirðið (B) er 50.000.
     - Hlutfall **Uppfæra lánamörk** (C) er 50,00.
 
-    Í þessu tilfelli er virkt lánsfjárhámark 125.000 (= A + \[ B × C\]).
+    Í þessu tilfelli er virkt lánsfjárhámark 125.000 (= A + \[B × C\]).
     
-    Hins vegar, ef þú velur gátreitinn **Innifalið í útsetningu** er virðið **Uppfæra lánamörk** upp á 50.000 (= 50,00 prósent af 100.000) fjarlægt og útsetningargildið er 75.000 (= A + \[ B × C\] - B).
+    Hins vegar, ef þú velur gátreitinn **Innifalið í útsetningu** er virðið **Uppfæra lánamörk** upp á 50.000 (= 50,00 prósent af 100.000) fjarlægt og útsetningargildið er 75.000 (= A + \[B × C\] - B).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerSystemSetup, CustPosting, VendPosting, InventPosting, AssetPosting, ProjPosting, AssetLeasePostingAccounts, ProjCategory, ITMCostTypeTable, ProdGroup, WrkCtrTable, WrkCtrResourceGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9ad33d9a34bc449b81ec6d02a78b9ca1653aca5
-ms.sourcegitcommit: 96f936267d3f314f06da6ce6f809eba2ec3b205f
+ms.openlocfilehash: 4c29597155e525638e7c2ded7d641017f2189c49
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8018380"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734577"
 ---
 # <a name="posting-profiles-overview"></a>Yfirlit yfir færslusnið
 
@@ -47,7 +47,7 @@ Eitt fylgiskjal getur verið með eina eða fleiri bókunargerðir. Til dæmis f
 
 Þegar þú stillir póstsnið, **Reikningskóði** reitinn skilgreinir stig stillingarinnar. Eftirfarandi valkostir eru í boði: **Tafla**, **·**, og **Allt**. Samsvörunin hættir eftir fyrstu viðureignina og röðin er frá ákveðnasta stigi til minnsta stigi. Þó að **Reikningskóði** reiturinn gæti haft aðeins annað nafn í sumum tilfellum, hegðun og virkni reitsins eru þau sömu. Til dæmis inniheldur birgðabókunarsniðið an **Vörukóði** sviði og an **Reikningskóði** sviði. Báðir vellir hafa **Tafla**, **·**, og **Allt** gildi.
 
-Ef **Aðalreikningur** reiturinn er skilinn eftir auður fyrir færslusnið og þú hefur ekki stillt aðalreikning á **Reikningar fyrir sjálfvirk viðskipti** síðu eða á sértækri einingu eða eiginleikasértækri síðu færðu villuboð þegar þú bókar færslu sem notar bókunargerðina. Venjulega munu skilaboðin vera „Reikningurinn fyrir\[ Tegund færslu\] er ekki að finna."
+Ef **Aðalreikningur** reiturinn er skilinn eftir auður fyrir færslusnið og þú hefur ekki stillt aðalreikning á **Reikningar fyrir sjálfvirk viðskipti** síðu eða á sértækri einingu eða eiginleikasértækri síðu færðu villuboð þegar þú bókar færslu sem notar bókunargerðina. Venjulega verða skilaboðin: „Reikningurinn fyrir\[ Tegund færslu\] er ekki að finna."
 
 ### <a name="table-value"></a>Töflugildi
 
@@ -69,7 +69,7 @@ Til dæmis, ef þú ert að vinna með færslusnið viðskiptavinar og þú velu
 
 Ef þú verður að fylgjast með mörgum aðalreikningum fyrir tiltekna færslutegund mælum við með að þú notir **Hópur** gildi. Til dæmis, þú ert með þrjá aðalreikninga viðskiptakrafna: einn fyrir fasta viðskiptavini, einn fyrir starfsmenn og einn fyrir innbyrðis sölu. Í þessu tilviki mælum við með að þú stofnir þrjá viðskiptavinahópa til að skipta viðskiptavinunum upp. Kortleggðu síðan hvern viðskiptavinahóp á réttan aðalreikning í bókunarsniði viðskiptavina. Eftirfarandi tafla sýnir viðskiptamannahópana þrjá fyrir þetta dæmi.
 
-| Viðskiptavinaflokkur | Heiti | Lýsing |
+| Viðskiptavinaflokkur | Nafn | Lýsing |
 |----------------|------|-------------|
 | EXT | Ytri viðskiptavinur | Þessi hópur er notaður fyrir alla venjulega viðskiptavini sem snúa út á við. |
 | EMP | Starfsmenn | Þessi hópur er notaður fyrir alla starfsmenn sem gera innkaup frá fyrirtækinu þínu. |
@@ -85,7 +85,7 @@ The **Allt** gildi er minnsta sértæka gildið. Það er aðeins notað ef kerf
 
 Til dæmis, þegar þú ert að vinna með bókunarprófíl viðskiptavinar, gilda aðalreikningarnir sem þú tilgreinir fyrir alla aðra viðskiptavini og viðskiptavinahópa sem eru ekki með skrá fyrir tiltekna töflu (viðskiptavin) eða hóp (viðskiptavinahóp).
 
-### <a name="category"></a>Tegund
+### <a name="category"></a>Flokkur
 
 Birgðabókunarsnið hafa viðbótargildi sem er sértækt fyrir söluflokkinn eða innkaupaflokkinn. Þetta gildi líkist **Tafla** verðmæti, að því leyti að það á aðeins við tiltekinn sölu- eða innkaupaflokk.
 

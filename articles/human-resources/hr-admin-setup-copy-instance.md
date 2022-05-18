@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 04987f18542ff331124f5224e4b1240672874e83
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: d0da71c87364eacf60b9a82a200996292b863b6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533965"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692423"
 ---
 # <a name="copy-an-instance"></a>Afritið tilvik
 
@@ -74,7 +73,7 @@ Til að ljúka þessu verkefni afritarðu fyrst dæmi og skráir þig síðan in
 
 5. Veldu **Power Platform** og skráðu þig inn í Admin Center Microsoft Power Platform.
 
-   ![[Veldu Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Veldu Power Platform .](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Veldu Power Apps-umhverfið sem á að afrita og veldu síðan **Afrita**.
 

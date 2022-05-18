@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c6356f7c085b93e3e3f292e72f813f823e924487
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: f8d79697aaf17e2860d2c47e7d1bf6b4352f0089
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968178"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691056"
 ---
 # <a name="ratings-and-reviews-faq"></a>Algengar spurningar um einkunnir og umsagnir
 
@@ -50,8 +49,8 @@ Fyrir leiðbeiningar um hvernig á að virkja og framfylgja handvirkri birtingu 
 
 [Virkja handvirka birtingu einkunna og umsagna hjá stjórnanda](manual-publish-rating-reviews.md)
 
-[Inn- og útflutnings einkunnir og umsagnir](import-export-reviews.md)
+[Flytja einkunnir og umsagnir inn og út](import-export-reviews.md)
 
-[Stilla þjónustu-til-þjónustu auðkenningu](service-to-service-auth.md)
+[Stilla sannvottun milli þjónusta](service-to-service-auth.md)
 
 [Afmörkun einkunna birtist á síðum leitarniðurstaðna og flokka þegar lausn einkunna og umsagna er ekki virkjuð](troubleshoot/hide-ratings-refiner.md)

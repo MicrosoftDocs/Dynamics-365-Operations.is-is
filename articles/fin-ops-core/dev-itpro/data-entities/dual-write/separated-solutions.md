@@ -2,20 +2,20 @@
 title: Aðskilinn Dual-Write Application Orchestration pakki
 description: Dual-write Application Orchestration pakkinn er ekki lengur einn pakki heldur hefur hann verið aðskilinn í smærri pakka. Þetta efnisatriði útskýrir lausnirnar og kortin sem hver pakki inniheldur og hversu háður hann er öðrum pakka.
 author: RamaKrishnamoorthy
-ms.date: 11/29/2021
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: e2f870368dc662032a3e7ca7ddca902feb23a713
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063263"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716553"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Aðskilinn Dual-Write Application Orchestration pakki
 
@@ -26,19 +26,19 @@ ms.locfileid: "8063263"
 Áður var Dual-write Application Orchestration pakkinn einn pakki sem innihélt eftirfarandi lausnir:
 
 - Dynamics 365 Notes
-- Dynamics 365 Finance og Operations Common Anchor
-- Dynamics 365 Finance og Operations Dual Write Entity Maps
+- Dynamics 365 Finance and Operations Common Anchor
+- Dynamics 365 Finance and Operations Dual Write Entity Maps
 - Dynamics 365 eignastýringarforrit
 - Dynamics 365 eignastýring
 - HCM Common
 - Dynamics 365 birgðakeðja framlengd
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance og Operations Common
+- Dynamics 365 Finance and Operations Common
 - Dynamics 365 fyrirtæki
 - Gengi gjaldmiðla
 - Field Service Common
 
-Vegna þess að þetta var einn pakki skapaði þessi pakki „allt eða ekkert“ aðstæður fyrir viðskiptavini. Hins vegar hefur Microsoft nú aðskilið það í smærri pakka. Þess vegna getur viðskiptavinur valið bara pakkana fyrir þær lausnir sem þeir þurfa. Til dæmis, ef þú ert Microsoft Dynamics 365 Supply Chain Management viðskiptavinur, og þurfa ekki samþættingu við Dynamics 365 Human Resources, athugasemdum og eignastýringu geturðu útilokað þessar lausnir frá þeim lausnum sem eru uppsettar. Vegna þess að undirliggjandi nöfn lausna, útgefanda og kortaútgáfu eru þau sömu, er þessi breyting órofa. Núverandi innsetningar verða uppfærðar.
+Vegna þess að þetta var einn pakki skapaði þessi pakki „allt eða ekkert“ aðstæður fyrir viðskiptavini. Hins vegar hefur Microsoft nú aðskilið það í smærri pakka. Þess vegna geta viðskiptavinir valið bara pakkana fyrir þær lausnir sem þeir þurfa. Til dæmis, ef þú ert Microsoft Dynamics 365 Supply Chain Management viðskiptavinur, og þurfa ekki samþættingu við Dynamics 365 Human Resources, athugasemdum og eignastýringu geturðu útilokað þessar lausnir frá þeim lausnum sem eru uppsettar. Vegna þess að undirliggjandi nöfn lausna, útgefanda og kortaútgáfu eru þau sömu, er þessi breyting órofa. Núverandi innsetningar verða uppfærðar.
 
 ![Aðskilinn pakki.](media/separated-package-1.png)
 
@@ -51,7 +51,7 @@ Dual-write Application Core pakkinn gerir notendum kleift að setja upp og still
 | Einstakt nafn                           | Heiti til birtingar                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | Dynamics 365 fyrirtæki                       |
-| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance og Operations Common |
+| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations Common |
 | CurrencyExchangeRates                 | Gengi gjaldmiðla                    |
 | msdyn_DualWriteAppCoreMaps            | Dual-write forrit kjarnaeiningakort   |
 | msdyn_DualWriteAppCoreAnchor          | Dual-write forrit kjarna akkeri        |
@@ -193,7 +193,7 @@ Dual-write Finance pakkinn inniheldur lausnir og kort sem þarf til að samstill
 | Dynamics365FinanceExtended             | Dynamics 365 Finance Extended             |
 | msdyn_Dynamics365FinanceExtended Maps   | Dynamics 365 Finance útvíkkuð einingakort |
 | Field Service Common                     | Field Service Common                      |
-| msdyn_Dynamics365FinanceExtendedAnchor | Dynamics 365 Finance framlengt akkeri      |
+| msdyn_Dynamics365FinanceExtendedAnchor | Dynamics 365 Finance útvíkkað akkeri      |
 
 Eftirfarandi kort eru fáanleg í þessum pakka.
 
@@ -227,7 +227,7 @@ Eftirfarandi kort eru fáanleg í þessum pakka.
 | Greiðsludagalínur CDS V2                | msdyn_paymentdaylines           |
 | Aðallykill                            | msdyn_mainaccounts              |
 | Tegundir aðallykils                 | msdyn_mainaccountcategories     |
-| Ledger                                  | msdyn_ledgers                   |
+| Fjárhagur                                  | msdyn_ledgers                   |
 | Viðskiptavinir V3                            | lyklar                        |
 
 **Upplýsingar um ósjálfstæði**
@@ -263,7 +263,7 @@ Dual-write Notes pakkinn fer eftir eftirfarandi tveimur pökkum. Þess vegna æt
 
 ## <a name="dual-write-asset-management"></a>Tvöföld skrif eignastýring
 
-Dual-write Asset Management pakkinn inniheldur lausnir og kort sem þarf til að samstilla eignagögn frá Supply Chain Management eða Dynamics 365 Field Service. Það inniheldur eftirfarandi fjórar lausnir.
+Dual-write Asset Management pakkinn inniheldur þær lausnir og kort sem þarf til að samstilla eignagögn frá Supply Chain Management eða Dynamics 365 Field Service. Það inniheldur eftirfarandi fjórar lausnir.
 
 | Einstakt nafn                          | Heiti til birtingar                              |
 |--------------------------------------|-------------------------------------------|
@@ -300,3 +300,47 @@ Project Operations fer eftir eftirfarandi pakka. Þess vegna ættir þú að set
 - Tvískrifað framboðskeðjupakki
 - Tvöfaldur-skrifa eignastýringarpakki
 - Tvöfaldur-skrifaður mannauðspakki
+
+## <a name="dual-write-party-and-global-address-book-solutions"></a>Tvískrifaða flokks- og alþjóðlegt heimilisfangabókarlausnir
+
+Tvískrifaða aðila og alþjóðlegt heimilisfangabókarpakkinn inniheldur eftirfarandi lausnir og kort sem þarf til að samstilla aðila og alþjóðleg heimilisfangabókargögn. 
+
+| Einstakt nafn                       | Heiti til birtingar                            |
+|-----------------------------------|-----------------------------------------|
+| Aðili                             | Aðili                                   |
+| Dynamics365GABExtended            | Dynamics 365 GAB Extended               |
+| Dynamics365GABDualWriteEntityMaps | Dynamics 365 GAB Dual Write Entity Maps |
+| Dynamics365GABParty_Anchor        | Dynamics 365 GAB og Party              |
+
+Eftirfarandi kort eru fáanleg í þessum pakka.
+
+| Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla | 
+|-----------------------------|--------------------------|
+| CDS-aðilar | msdyn_parties | 
+| Staðsetningar CDS-póstfanga | msdyn_postaladdresscollections | 
+| CDS-póstfangsferill V2 | msdyn_postaladdresses | 
+| Staðsetningar póstfanga CDS-aðila | msdyn_partypostaladdresses | 
+| Tengiliðir aðila V3 | msdyn_partyelectronicaddresses | 
+| Viðskiptavinir V3 | lyklar | 
+| Viðskiptavinir V3 | tengiliðir | 
+| Lánardrottnar V2 | msdyn_vendors | 
+| Titlar tengiliðar | msdyn_salescontactpersontitles | 
+| Kveðjuorð | msdyn_complimentaryclosings | 
+| Ávörp | msdyn_salutations | 
+| Hlutverk ákvarðanatöku | msdyn_decisionmakingroles | 
+| Starfshlutverk | msdyn_employmentjobfunctions | 
+| Stig viðskiptavildar | msdyn_loyaltylevels | 
+| Persónubundnar manngerðir | msdyn_personalcharactertypes | 
+| Tengiliðir V2 | msdyn_contactforparties | 
+| CDS-sölutilboðshaus | tilboð | 
+| Hausar CDS-sölupöntunar | salesorders | 
+| Sölureikningshausar V2 | reikningar | 
+| CDS heimilisfang hlutverk | msdyn_addressroles |
+
+**Upplýsingar um ósjálfstæði**
+
+Tvískrifað aðila og alþjóðlegt heimilisfangabókarlausnir eru háðar eftirfarandi þremur pakka. Þess vegna ættir þú að setja þessa pakka upp áður en þú setur upp tvískrifaða aðila og alþjóðlega heimilisfangabókarlausnapakkann.
+
+- Dual-write Application Core pakki
+- Tvískrifað fjármálapakki
+- Tvískrifað framboðskeðjupakki

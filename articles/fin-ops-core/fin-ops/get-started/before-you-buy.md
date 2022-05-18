@@ -1,7 +1,7 @@
 ---
 title: Áður en þú kaupir
-description: Nákvæmar leiðbeiningar til að nota ef þú ert að íhuga að kaupa Dynamics 365 Finance, Dynamics 365 Supply Chain Management eða Dynamics 365 Commerce.
-author: ShellyBakke
+description: Skref-fyrir-skref leiðbeiningar til að nota þegar þú ert að íhuga að kaupa Dynamics 365 Finance,Dynamics 365 Supply Chain Management, eða Dynamics 365 Commerce.
+author: sericks007
 ms.date: 11/30/2021
 ms.topic: article
 ms.prod: ''
@@ -10,29 +10,29 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.custom: 21761
 ms.search.region: Global
-ms.author: smiller
+ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f994acfb85e5bb7ccb9cbd3e6c0a0f3c4eec318a
-ms.sourcegitcommit: 34113bd588d53b9aed481da060a1c6738fca0eaf
+ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7874585"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713277"
 ---
 # <a name="before-you-buy"></a>Áður en þú kaupir
 
 [!include [banner](../includes/banner.md)]
 
-Vantar þig upplýsingar um Dynamics 365 Finance, Dynamics 365 Supply Chain Management eða Dynamics 365 Commerce? Við höfum sett saman ítarlegar leiðbeiningar hvort sem þú ert enn að velta fyrir þér eða hefur þegar ákveðið að kaupa.
+Nýtt í Dynamics 365 Finance,Dynamics 365 Supply Chain Management, eða Dynamics 365 Commerce? Við höfum sett saman ítarlegar leiðbeiningar hvort sem þú ert enn að velta fyrir þér eða hefur þegar ákveðið að kaupa.
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Skref eitt: Prófaðu Finance and Operations frítt í 30 daga
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Skref eitt: Prófa Finance and Operations ókeypis í 30 daga
 
-Þú getur prófað Dynamics 365 for Finance, Dynamics 365 Supply Chain Management eða Dynamics 365 Commerce í 30 daga með einfaldri skráningu með tölvupósti. Prufuútgáfan af forritum Finance and Operations felur í sér nákvæmar verkleiðbeiningar sem gera þér kleift að skoða tiltekin tilvik í framkvæmd. Hægt er kynna sér vöruna og prófa tilvik, en ekki sérsníða hana. Sýnigögn fylgja með til að einfalda notkun á vörunni og til að gera reynsluna auðskiljanlegri. Áminningartölvupóstur verður sendur 3 dögum áður en prufutíminn rennur út. Upplýsingar má finna á [Skráðu þig fyrir prufuáskriftum](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
+Þú getur prófað Dynamics 365 for Finance, Dynamics 365 Supply Chain Management eða Dynamics 365 Commerce í 30 daga með einfaldri skráningu með tölvupósti. Prufuútgáfan af Finance and Operations forritum inniheldur leiðbeiningar um að byrja á verkefnum sem veita skref-fyrir-skref leiðbeiningar sem gera þér kleift að skoða sérstakar aðstæður í aðgerð. Hægt er kynna sér vöruna og prófa tilvik, en ekki sérsníða hana. Sýnigögn fylgja með til að einfalda notkun á vörunni og til að gera reynsluna auðskiljanlegri. Áminningartölvupóstur verður sendur 3 dögum áður en prufutíminn rennur út. Upplýsingar má finna á [Skráðu þig fyrir prufuáskriftum](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Skref tvö: Velja virkjunarkost
 
-Þú getur nú virkjað forrit Finance and Operations í skýinu eða á staðnum. Virkjun í skýi býður upp á ERP þjónustu sem er að fullu stjórnað af Microsoft, á meðan virkjun á staðnum er staðbundin í gagnamiðstöð viðskiptavinarins.
+Þú getur nú sett upp Finance and Operations forrit í skýinu eða á staðnum. Virkjun í skýi býður upp á ERP þjónustu sem er að fullu stjórnað af Microsoft, á meðan virkjun á staðnum er staðbundin í gagnamiðstöð viðskiptavinarins.
 
 Eftirfarandi atriði þarf að taka tillit til þegar þú velur virkjun á staðnum sem valmöguleika:
 
@@ -68,7 +68,7 @@ Microsoft veitandi skýjaþjónustu getur unnið náið með þér til að skilj
 
 Ef fyrirtækið þittt hefur 250 eða fleiri notendur Dynamics 365 gætirðu haft áhuga á [Magnleyfissamningi](https://www.microsoft.com/Licensing/product-licensing/dynamics365).
 
-Í magnleyfi eru forrit Finance and Operations fáanleg í gegnum:
+Í magnleyfi eru umsóknir um fjármál og rekstrar fáanlegar í gegnum:
 
 - Enterprise samningur
 - Enterprise samningsáskrift

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMParameters, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fd9bb907f95ba4c368871a470ca9b2bc807646ee
-ms.sourcegitcommit: 7e0e2a266d9a9473df72e207554d9bd150e17ce3
+ms.openlocfilehash: 1fc8ba3f69f216d66850485b6ba33cd324a57156
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7771436"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689411"
 ---
 # <a name="configure-human-resources-parameters"></a>Grunnstilla færibreytur Human Resources
 
@@ -71,7 +70,7 @@ Frekari upplýsingar um ráðningar er að finna í [Ráða umsækjendur](hr-per
 
 ## <a name="compensation"></a>Laun
 
-Í Dynamics 365 Finance skilgreina stillingar á **Laun** flipanum hvort notendur verða staðfesta að þeir vilji að vista upplýsingar fyrir fast eða breytilegt launafyrirkomulag. Ef **Virkja villuleit vistunar** er valið þegar notendur loka síðu sem tengist launum þar sem spurt er hvort þeir vilji vista færsluna. Sumar síður í lausnastjórnun leyfa ekki notendum að eyða upplýsingum. Með því að senda kvaðningu til notenda til að staðfesta að þeir vilja að vista upplýsingar, gætirðu takmarkað magn upplýsinga sem er vistað en ekki er hægt að eyða síðar. Ef **Virkja vistun villuleitar** er hreinsað vistast færslur um leið, hugsanlega áður en notandinn er tilbúinn. Ef frammistöðustjórnun er notuð leyfir flipinn **Laun** einnig að velja matslíkan til að nota í staðinn fyrir líkanið sem er úthlutað á launafyrirkomulag þegar frammistaða er metin.
+Í Dynamics 365 Finance eru stillingar á **Bætur** flipi skilgreina hvort notendur verða að staðfesta að þeir vilji vista upplýsingar fyrir fasta eða breytilega bótaáætlun. Ef **Virkja villuleit vistunar** er valið þegar notendur loka síðu sem tengist launum þar sem spurt er hvort þeir vilji vista færsluna. Sumar síður í lausnastjórnun leyfa ekki notendum að eyða upplýsingum. Með því að senda kvaðningu til notenda til að staðfesta að þeir vilja að vista upplýsingar, gætirðu takmarkað magn upplýsinga sem er vistað en ekki er hægt að eyða síðar. Ef **Virkja vistun villuleitar** er hreinsað vistast færslur um leið, hugsanlega áður en notandinn er tilbúinn. Ef frammistöðustjórnun er notuð leyfir flipinn **Laun** einnig að velja matslíkan til að nota í staðinn fyrir líkanið sem er úthlutað á launafyrirkomulag þegar frammistaða er metin.
 
 Í Human Resources er hægt að nota flipann **Laun** til að velja að takmarka aðgang að launafyrirkomulagi og til að stilla sjálfgefinn gjaldmiðil.
 
@@ -114,7 +113,7 @@ Stillingarnar á **Sjálfsafgreiðsla starfsmanna** flipi hafa áhrif á hvernig
 - Bæta við gagnlegum tenglum fyrir starfsmenn
 - Takmarkið getu starfsmanni til að bæta við eða breyta tengiliðaupplýsingum fyrirtækis. Frekari upplýsingar er að finna [Við uppsetningu runuvinnslunnar](hr-employee-self-service-restrict-editing.md).
 
-Fyrir frekari upplýsingar um hvernig á að setja upp **Sjálfsafgreiðsla starfsmanna**, sjá [Yfirlit yfir sjálfsafgreiðslu starfsmanna og stjórnanda](hr-employee-manager-self-service-overview.md).
+Fyrir frekari upplýsingar um hvernig á að setja upp **Sjálfsafgreiðsla starfsmanna**, sjá [Yfirlit starfsmanna og stjórnanda sjálfsafgreiðslu](hr-employee-manager-self-service-overview.md).
 
 ![Sjálfsafgreiðsluflipi starfsmanns.](./media/hr-setup-parameters-employee-self-service.png)
 
@@ -128,7 +127,7 @@ Stillingarnar á **Sjálfsafgreiðslustjóri** flipi hafa áhrif á það sem st
 - Yfirlit starfskrafta sem eru að hætta
 - Gagnlegir tenglar fyrir stjórnendur
 
-Fyrir frekari upplýsingar um hvernig á að setja upp **Sjálfsafgreiðslustjóri**, sjá [Yfirlit starfsmanna og stjórnanda sjálfsafgreiðslu](hr-employee-manager-self-service-overview.md).
+Fyrir frekari upplýsingar um hvernig á að setja upp **Sjálfsafgreiðslustjóri**, sjá [Yfirlit yfir sjálfsafgreiðslu starfsmanna og stjórnanda](hr-employee-manager-self-service-overview.md).
 
 ![Sjálfsafgreiðsluflipi stjórnanda.](./media/hr-setup-parameters-manager-self-service.png)
 

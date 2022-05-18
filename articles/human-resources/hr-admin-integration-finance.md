@@ -1,6 +1,6 @@
 ---
 title: Skilgreina samþættingu við Finance
-description: Þetta efnisatriði lýsir samþættingu milli Dynamics 365 Human Resources og Dynamics 365 Finance.
+description: Þetta efni lýsir samþættingu á milli Dynamics 365 Human Resources og Dynamics 365 Finance.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3880601b40ce8ec544a1976f7f0ac7391dab32e1
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065017"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687533"
 ---
 # <a name="configure-integration-with-finance"></a>Skilgreina samþættingu við Finance
 
@@ -31,7 +30,7 @@ ms.locfileid: "8065017"
 
 
 
-Til að samþætta Dynamics 365 Human Resources við Dynamics 365 Finance geturðu notað sniðmát Human Resources til Finance í [Gagnasamþætting](/powerapps/administrator/data-integrator). Sniðmát Human Resources til Finance gerir gagnaflæði kleift fyrir störf, stöður og starfsmenn. Sniðmátið leyfir gögnum að flæða úr Human Resources yfir í Finance, en leyfa ekki gögnum að streyma frá Finance til Human Resources.
+Að samþætta Dynamics 365 Human Resources með Dynamics 365 Finance geturðu notað sniðmátið Mannauður til að fjármagna í [Gagnasamþættari](/powerapps/administrator/data-integrator). Sniðmát Human Resources til Finance gerir gagnaflæði kleift fyrir störf, stöður og starfsmenn. Sniðmátið leyfir gögnum að flæða úr Human Resources yfir í Finance, en leyfa ekki gögnum að streyma frá Finance til Human Resources.
 
 ![Samþættingarferli Human Resources til Finance.](./media/hr-admin-integration-finance-flow.png)
 
@@ -248,7 +247,7 @@ Sniðmátið notar eftirfarandi undirliggandi verk til að samstilla skrár úr 
 
 Samþætting úr Human Resources til Finance reynir að samsvara gögnum sem byggjast á auðkenni. Ef skrárnar stemma yfirskrifar gagnasamþættingin gögnin í Finance með gildunum í Human Resources. Hins vegar getur komið upp vandamál ef rökrétt er að þetta eru mismunandi skrár og sama auðkenni var búið til í annaðhvort Human Resources eða Finance miðað við viðkomandi númeraröð.
 
-Þetta vandamál getur orðið með **starfskrafti**, sem notar **starfsmannanúmer** til að gera samsvörun og **stöður**. Störf nota ekki númeraraðir. Þar af leiðandi, ef sama atvinnuskilríki er til staðar bæði í Human Resources og Finance, munu upplýsingar úr Human Resources yfirskrifa Dynamics 365 Finance upplýsingar. 
+Þetta vandamál getur orðið með **starfskrafti**, sem notar **starfsmannanúmer** til að gera samsvörun og **stöður**. Störf nota ekki númeraraðir. Þar af leiðandi, ef sama verkauðkenni er til í bæði mannauði og fjármálum, skrifa mannauðsupplýsingarnar yfir Dynamics 365 Finance upplýsingarnar. 
 
 Til að koma í veg fyrir vandamál með afritunarauðkenni geturðu annaðhvort bætt við forskeyti á [númeraröð](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json), eða stilltu upphafsnúmer á númeraröðina sem er umfram svið hins kerfisins. 
 

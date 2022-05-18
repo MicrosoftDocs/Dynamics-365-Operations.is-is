@@ -1,22 +1,22 @@
 ---
 title: Uppfylling öryggisbirgða fyrir vörur
 description: Þetta efni fjallar um uppfylling öryggisbirgða og hvernig á að setja upp magn öryggis birgðir fyrir vörur.
-author: thethehelga
+author: t-benebo
 ms.date: 8/23/2021
 ms.topic: article
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended, ReqSafetyKeyDefaultDataWizard
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: v-oldolg
+ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 937341e17688959e5721153c61af904a88608b17
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: c539b804198ddc5d5dac52c958a851ee55116711
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790939"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672067"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Uppfylling öryggisbirgða fyrir vörur
 
@@ -90,7 +90,7 @@ Eftirfarandi atburðarás sýnir hvernig þessi breytur virkar og hvað er munur
 > [!NOTE]
 > Fyrir allar myndirnar í þessu efni táknar x-ásinn birgðir, y-ásinn táknar daga, strikin tákna birgðastigið, örvarnar tákna færslur, svo sem sölupöntunarlínur, innkaupapöntunarlínur eða áætlaðar pantanir.
 
-[![ Algengar aðstæður fyrir uppfyllingu öryggisbirgða.](media/Scenario1.png)](media/Scenario1.png)
+[![Algengar aðstæður fyrir uppfyllingu öryggisbirgða.](media/Scenario1.png)](media/Scenario1.png)
 
 Færibreytan **Lágmarks uppfylling** getur haft eftirfarandi gildi:
 
@@ -98,17 +98,17 @@ Færibreytan **Lágmarks uppfylling** getur haft eftirfarandi gildi:
 
 Tilgreint lágmarksmagn er uppfyllt á þeim degi sem aðaláætlanagerð er keyrð. Kerfið reynir að uppfylla öryggisbirgðastig eins fljótt og auðið er, jafnvel þótt það kunni að vera óraunhæft vegna afhendingartíma.
 
-[![ Krafan á dagsetningunni í dag.](media/TodayReq.png)](media/TodayReq.png)
+[![Krafan á dagsetningunni í dag.](media/TodayReq.png)](media/TodayReq.png)
 
 Áætluð pöntun P1 er búin til fyrir daginn í dag til að koma tiltækum birgðum upp fyrir öryggisbirgðastigið á þessum degi. Sölupöntunarlínurnar S1 til S3 halda áfram að lækka birgðastigið. Áætlaðar pantanir P2 til P4 eru búnar til með aðaláætlanagerð þannig að birgðastig fari aftur að öryggismörkum eftir hverja sölupöntunarkröfu.
 
 Þegar **Krafa** þekjukóði er notaður eru margar áætlaðar pantanir búin til. Það er alltaf góð hugmynd að nota annaðhvort **Tímabil** eða **Lágm/Hám.** þekju fyrir vörur og efni í tíðri eftirspurn, til að pakka áfyllingunni saman. Eftirfarandi skýringarmynd sýnir dæmi um þekjukóða **Tímabil**.
 
-[![ Tímabil dagsins í dag.](media/TodayPeriod.png)](media/TodayPeriod.png)
+[![Tímabil dagsins í dag.](media/TodayPeriod.png)](media/TodayPeriod.png)
 
 Eftirfarandi skýringarmynd sýnir dæmi fyrir þekjukóða **Lág/hám**.
 
-[![ Lágm./hám. í dag.](media/TodayMinMax.png)](media/TodayMinMax.png)
+[![Lágm./hám. í dag.](media/TodayMinMax.png)](media/TodayMinMax.png)
 
 ### <a name="todays-date--procurement-time"></a>Dagurinn í dag + öflunartími
 
@@ -118,11 +118,11 @@ Tilgreint lágmarksmagn er uppfyllt á þeim degi sem aðaláætlanagerð er key
 
 Eftirfarandi mynd sýnir árangur áætlunarinnar ef þekjukóðinn er **Krafa** eða **Tímabil**.
 
-[![ Krafa eða tímabil. Dagurinn í dag og afhendingartími.](media/TodayPLTReq.png)](media/TodayPLTReq.png)
+[![Krafa eða tímabil. Dagurinn í dag og afhendingartími.](media/TodayPLTReq.png)](media/TodayPLTReq.png)
 
 Eftirfarandi mynd sýnir árangur áætlunarinnar ef þekjukóðinn er **Lágm/hám**.
 
-[![ Lágm/Hám. Dagurinn í dag og afhendingartími.](media/TodayPLTMinMax.png)](media/TodayPLTMinMax.png)
+[![Lágm/Hám. Dagurinn í dag og afhendingartími.](media/TodayPLTMinMax.png)](media/TodayPLTMinMax.png)
 
 ### <a name="first-issue"></a>Fyrsta úthreyfing
 
@@ -130,21 +130,21 @@ Tilgreint lágmarksmagn er uppfyllt á þeim degi þegar fyrirliggjandi birgða 
 
 Eftirfarandi skýringarmynd sýnir dæmi fyrir þekjukóða **Krafa**.
 
-[![ Áætla vöru með kröfuþekjukóða og fyrstu útgáfu uppfyllingu.](media/FirstIssueReq.png)](media/FirstIssueReq.png)
+[![Áætla vöru með kröfuþekjukóða og fyrstu útgáfu uppfyllingu.](media/FirstIssueReq.png)](media/FirstIssueReq.png)
 
 Eftirfarandi skýringarmynd sýnir dæmi um þekjukóða **Tímabil**.
 
-[![ Áætla vöru með tímabilsþekjukóða og fyrstu útgáfu uppfyllingu.](media/FirstIssuePeriod.png)](media/FirstIssuePeriod.png)
+[![Áætla vöru með tímabilsþekjukóða og fyrstu útgáfu uppfyllingu.](media/FirstIssuePeriod.png)](media/FirstIssuePeriod.png)
 
 Eftirfarandi skýringarmynd sýnir dæmi fyrir þekjukóða **Lág/hám**.
 
-[![ Áætla vöru með hám./lágm.þekjukóða og fyrstu útgáfu uppfyllingu.](media/FirstIssueMinMax.png)](media/FirstIssueMinMax.png)
+[![Áætla vöru með hám./lágm.þekjukóða og fyrstu útgáfu uppfyllingu.](media/FirstIssueMinMax.png)](media/FirstIssueMinMax.png)
 
 Á þeim degi þegar aðaláætlanagerð er keyrð, ef tiltækar birgðir eru þegar undir öryggisbirgðamörkum, **Dagurinn í dag** og **Dagurinn í dag + innkaupatími** mun kveikja á áfyllingu strax. **Fyrsta útgáfa** mun bíða þangað til það er önnur útgáfufærsla, svo sem sölupöntun og uppskriftarlínukrafa, fyrir vöruna, og þá mun það kveikja á áfyllingunni á dagsetningu þessarar færslu.
 
 Á þeim degi þegar aðaláætlanagerð er keyrt, ef tiltækar birgðir er ekki undir öryggisbirgðamörkum, **Dagurinn í dag** og **Fyrsta útgáfa** munu hafa í för með nákvæmlega sömu niðurstöðu og sýnd er á eftirfarandi mynd.
 
-[![ Engin neðri mörk.](media/ReqFirstIssue.png)](media/ReqFirstIssue.png)
+[![Engin neðri mörk.](media/ReqFirstIssue.png)](media/ReqFirstIssue.png)
 
 Á þeim degi þegar aðaláætlanagerð er keyrð, ef tiltækar birgðir eru ekki undir öryggisbirgðamörkum, mun **Dagurinn í dag + innkaupatími** gefa eftirfarandi niðurstöðu, því það frestar uppfyllingu til loka afhendingartíma innkaupa.
 
@@ -160,23 +160,23 @@ Tilgreint lágmarksmagn er uppfyllt innan þess tímabils sem tilgreint er í sv
 
 Til að sýna hvernig þetta virkar skaltu íhuga eftirfarandi atburðarás.
 
-[![ FEFO-aðstæður.](media/FEFOScenario.png)](media/FEFOScenario.png)
+[![FEFO-aðstæður.](media/FEFOScenario.png)](media/FEFOScenario.png)
 
 Þegar áætlanagerð er keyrð mun hún dekka fyrstu sölupöntunina frá núverandi lagerbirgðum og viðbótar innkaupapöntunina fyrir það magn sem eftir er.
 
-[![ FEFO 1.](media/FEFO1.png)](media/FEFO1.png)
+[![FEFO 1.](media/FEFO1.png)](media/FEFO1.png)
 
 Áætluð pöntun er búin til til að ganga úr skugga um að fyrirliggjandi birgðir séu færðar aftur til öryggismarka.
 
-[![ FEFO 2.](media/FEFO2.png)](media/FEFO2.png)
+[![FEFO 2.](media/FEFO2.png)](media/FEFO2.png)
 
 Þegar önnur sölupöntun er áætluð, er sú áætlaða sölupöntun sem var búin til áður og dekkar öryggisbirgðirnar notuð til að dekka þetta magn. Þess vegna eru öryggisbirgðirnar í stöðugri veltu.
 
-[![ FEFO 3.](media/FEFO3.png)](media/FEFO3.png)
+[![FEFO 3.](media/FEFO3.png)](media/FEFO3.png)
 
 Að lokum er önnur áætluð pöntun búin til til að dekka öryggisbirgðirnar.
 
-[![ FEFO 4.](media/FEFO4.png)](media/FEFO4.png)
+[![FEFO 4.](media/FEFO4.png)](media/FEFO4.png)
 
 Allar runurnar renna út samkvæmt því, og áætlaðar pantanir eru búnar til til áfyllingar öryggisbirgða eftir að það er útrunnið.
 

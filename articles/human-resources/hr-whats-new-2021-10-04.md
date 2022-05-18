@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 206c7f590b495278b7899271db0e83b3a4da3edc
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 3cf83421d5385e3c95dfda6db35edfb8eb4b9336
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641431"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695761"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-5-2021"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources 5. október 2021
 
@@ -42,7 +41,7 @@ Eftirfarandi eiginleikar eru almennt aðgengilegur með þessari útgáfu.
 
 | Eiginleiki | Útgáfuáætlun | Fylgiskjöl |
 |---|---|---|
-| Verkvangsuppfærsla 10.0.21 (45) | -- | [Verkvangsuppfærslur fyrir útgáfu 10.0.21 á forritum Finance and Operations (október 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
+| Verkvangsuppfærsla 10.0.21 (45) | -- | [Palluppfærslur fyrir útgáfu 10.0.21 af Finance and Operations forritum (október 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
 
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
@@ -87,7 +86,7 @@ Fyrir ítarlegan lista yfir áætlaða eiginleika og áætlaðar útgáfur þeir
 
 | Eiginleiki | Upplýsingar |
 |---|---|
-| Verkvangsuppfærsla 10.0.22 (46) | Útgáfa verkvangsuppfærslu 10.0.22 á að fara af stað í útgáfu 1. nóvember 2021. Frekari upplýsingar er að finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.22 af Finance and Operations-forritum (nóvember 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
+| Verkvangsuppfærsla 10.0.22 (46) | Útgáfa verkvangsuppfærslu 10.0.22 á að fara af stað í útgáfu 1. nóvember 2021. Fyrir frekari upplýsingar, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.22 af Finance and Operations forritum (nóvember 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
 
 
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 7d43657573ea8092f047615fc50a1a50ab97f094
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: 1c6d394cb192a88316beb2e8746b558eb8dd184b
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968988"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711660"
 ---
 # <a name="cash-position"></a>Staða reiðufjár
 
@@ -50,7 +50,7 @@ Til að vista og breyta sjóðsstöðu skal búa til skyndimynd. Frekari upplýs
 Eiginleiki reiðufjárstaða felur í sér eftirfarandi virkni. 
 
 - Eiginleiki reiðufjárstaða sýnir sjóðstreymi byggt á fyrirliggjandi skjölum í kerfinu og innstreymi og útflæðislínum sjóðs sem fluttar eru inn frá ytri kerfum.
-- Auðveldar samþættingu sjóðsstreymisgagna úr ytri kerfum í Dynamics 365 Finance. Handbært fé getur einnig notað innflutnings- og útflutningsramma gagna. Þessi rammi auðveldar samþættingu við Excel OData. Þú getur líka sameinað gögn frá mörgum aðilum til að búa til alhliða lausn á reiðufé.
+- Auðveldar að samþætta sjóðstreymisgögn frá ytri kerfum við Dynamics 365 Finance. Handbært fé getur einnig notað innflutnings- og útflutningsramma gagna. Þessi rammi auðveldar samþættingu við Excel OData. Þú getur líka sameinað gögn frá mörgum aðilum til að búa til alhliða lausn á reiðufé.
 - Kynnir til sögunnar snjalla reiðufjárstöðu. Reiðufé er búið til út frá greiðsluhegðun viðskiptavinarins til að spá fyrir um hvenær fyrirtæki getur búist við því að reiðufé berist á reikninga þeirra.
 - Fyrir pantanir og reikninga viðskiptavina er gervigreindarvirkni greiðsluspá viðskiptavinar notuð til að ákvarða sögulega greiðsluhegðun viðskiptavina þegar pöntun eða reikningur verður greiddur.
 - Fyrir pantanir og reikninga lánardrottins notum við meðaltíma milli sendingar og reiknings og greiðslu reiknings á hvern seljanda til að ákvarða hvenær pöntun eða reikningur frá lánardrottni verður greiddur og gerir útflæði reiðufé nákvæmara.

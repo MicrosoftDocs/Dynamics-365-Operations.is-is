@@ -1,6 +1,6 @@
 ---
 title: Leiðrétting textareiknings
-description: Þessi grein útskýrir hvernig á að leiðrétta reikningur með frjálsum texta sem hefur verið bókaður og endurútgefa hann sem leiðréttan reikning.
+description: Þetta efni útskýrir hvernig á að leiðrétta reikning með frjálsum texta sem hefur verið bókaður og endurútgefa hann sem leiðréttan reikning.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf4503e3d4b200219d6b444b69c866871d21787d
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 7fb535b14f4c270f914a427d09027c37b3be7b72
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753803"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716214"
 ---
 # <a name="correct-a-free-text-invoice"></a>Leiðrétting textareiknings
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að leiðrétta reikningur með frjálsum texta sem hefur verið bókaður og endurútgefa hann sem leiðréttan reikning.
+Þetta efni útskýrir hvernig á að leiðrétta reikning með frjálsum texta sem hefur verið bókaður og endurútgefa hann sem leiðréttan reikning.
 
 Til að leiðrétta textareikning sem þegar hefur verið bókaður, skal opna bókaðan textareikning. Á síðunni **Reikningur** skal velja **Hætta við**, og veljið síðan **Leiðrétta reikning**. Velja ástæðukóða, bæta við athugasemd og veljið°dagsetningu fyrir nýjan leiðréttan reikning. Hægt er að breyta leiðrétta reikningnum og bóka hann. 
 
@@ -41,7 +41,7 @@ Eftir að leiðrétti reikningurinn er bókaður, verða þrír reikningar:
 Hægt er að þekkja afturköllunarreikninga og leiðrétta reikninga á tvo vegu:
 
 -   Síðan **Allir reikningar með frjálsum texta** inniheldur **Leiðrétting** dálk,°þar sem hægt er að sjá hvaða reikningar eru afturköllunarreikningar og leiðréttir reikningar.
--   Haus textareikningsins sýnir stöðuna **Afturköllunarreikningur ‚\[ reikningsnúmer\]'** eða **Leiðréttur reikningur '\[ reikningsnúmer\]'**.
+-   Haus textareikningsins sýnir stöðuna **Afturköllunarreikningur ‚\[reikningsnúmer\]'** eða **Leiðréttur reikningur '\[reikningsnúmer\]'**.
 
 > [!NOTE]
 > Þessi aðgerð er bara tiltæk ef **Leiðrétting á textareikningi** skilgreiningarlykill er valinn. Nánari upplýsingar um hvernig á að virkja stillingarlyklana er að finna í hlutanum Virkja (eða slökkva) á stillingarlyklum í efninu [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md). 

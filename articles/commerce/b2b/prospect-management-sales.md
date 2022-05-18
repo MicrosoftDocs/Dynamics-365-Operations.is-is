@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c6ac5409de5101c91b9348de800e3eaea9895c23
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: 540e8f26d7f2a08060a3839f9e4f97bf8ddcafac
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8312133"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692564"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites-using-dynamics-365-sales"></a>Stjórnaðu notendum viðskiptafélaga á B2B rafrænum viðskiptavefsíðum með því að nota Dynamics 365 Sales
 
@@ -39,7 +39,7 @@ Eftirfarandi mynd sýnir dæmi um síðu til að búa til viðskiptavin fyrir ti
 
 Í myndinni er **Hafðu samband** kafla sýnir manneskjuna sem sendi inn beiðni um borð og **Fyrirtæki** kafla sýnir skipulagið. Athugasemd í **Tímalína** kafla gefur til kynna að leiðin hafi verið mynduð af tvískrifa innviði. Vegna þess að það var búið til af tvískrifa innviði, mun þetta leiða ekki birtast í **Opnu leiðirnar mínar** fellilistanum. Í staðinn mun það birtast undir nýju útsýni sem er nefnt **Öll viðskipti B2B leiða**.
 
-Samkvæmt stöðluðu ferli hæfishæfisenda í sölu, þegar notandi „hæfir“ forystuna, er an *tækifæri* skrá, a *samband* met, og an *reikning* skrár eru búnar til. Tvískrifa innviðirnir eru notaðir til að skrifa tengiliðinn og reikningsskrárnar til Commerce. Tengiliðurinn er stofnaður sem viðskiptavinur *manneskju* gerð, og fyrirtækið er stofnað sem viðskiptavinur *skipulag* tegund. Ef notandi velur **Loka sem vann** fyrir tækifærið er tilboðið samþykkt í Commerce. Samþykki viðskiptavinar veldur því að stigveldi viðskiptavina er búið til.
+Samkvæmt stöðluðu ferli hæfisferlis í sölu, þegar notandi "hæfir" forystunni, er an *tækifæri* skrá, a *samband* met, og an *reikning* skrár eru búnar til. Tvískrifa innviðirnir eru notaðir til að skrifa tengiliðinn og reikningsskrárnar til Commerce. Tengiliðurinn er stofnaður sem viðskiptavinur *manneskju* gerð, og fyrirtækið er stofnað sem viðskiptavinur *skipulag* gerð. Ef notandi velur **Loka sem vann** fyrir tækifærið er tilboðið samþykkt í Commerce. Samþykki viðskiptavinar veldur því að stigveldi viðskiptavina er búið til.
 
 Öll viðskiptaferli sem eftir eru eiga sér stað í Commerce. Þessi ferli fela í sér að senda tölvupóst til viðskiptafélaga, skilgreina stjórnun lánamarka fyrir notendur og bæta við fleiri notendum á B2B síðuna. Hins vegar, ef notandi hafnar forystunni eða merkir tækifærið sem glatað í stað þess að vera hæft til forystunnar, er tilvonandi í Commerce merktur sem hafnað og tölvupóstur um höfnun um borð er sendur til umsækjanda.
 

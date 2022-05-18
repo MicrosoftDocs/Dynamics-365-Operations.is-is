@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
-ms.author: aolson
+ms.author: jiwo
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 92da476f64b937d339b5f0c6088b8ce722a0584938ccf2a6c6cbd39fdc15544d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf5062cfc7ce47a2356c72462da805e8d0d6a756
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714636"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727791"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Skilgreiningar skipurits í fjárhagsskýrslum
 
@@ -170,13 +170,13 @@ Hér er Uppbygging einingar skipurits í eftirfarandi skipuriti:
 - Eining skipurits á læsta upplýsingastigi (Home Sales, Auto Sales, Client Services, og Operations) stendur fyrir deildir í fjárhagsgögnunum. Þessar einingar skipuritsins eru í skyggða svæðinu í skipuritinu.
 - Samantektareiningar á hærri stigum taka saman upplýsingar frá upplýsingaeiningum.
 
-[![Contoso Bygging samantektarskýrslu - Dæmi 1.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Uppbygging Contoso samantektarskýrslu - Dæmi 1.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Uppbygging einingar skipurits - dæmi 2
 
 Eftirfarandi skipurit sýnir skipurit sem er með uppbyggingu fyrirtækis sem er skipt niður í viðskiptaaðgerðir.
 
-[![Contoso Bygging samantektarskýrslu - Dæmi 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Uppbygging Contoso samantektarskýrslu - Dæmi 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Dæmi um Setja inn einingar skipurits úr víddum svarglugga
 

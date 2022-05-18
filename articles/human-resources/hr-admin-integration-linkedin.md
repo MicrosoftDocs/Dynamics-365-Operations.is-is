@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fb75c391809f1ce5c7d48728a735f347ef1784ed
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: d14a8cb1973e0ed55ef10ddb43415eba80eb5c1b
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441266"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717112"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Samþætta við LinkedIn Talent Hub
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> Samþætting milli Dynamics 365 Human Resources og LinkedIn Talent Hub sem lýst er í þessu efnisatriði verður hætt 31. desember 2021. Samþættingarþjónustan verður ekki lengur í boði eftir þessa dagsetningu. Fyrirtæki sem ekki nota nú þegar samþættingarþjónustuna munu ekki geta innleitt þjónustuna áður en hún verður tekin úr notkun.
+> Samþættingin á milli Dynamics 365 Human Resources og LinkedIn Talent Hub sem lýst er í þessu efni var hætt 31. desember 2021. Samþættingarþjónustan verður ekki lengur í boði eftir þessa dagsetningu. Fyrirtæki sem ekki nota nú þegar samþættingarþjónustuna munu ekki geta innleitt þjónustuna áður en hún verður tekin úr notkun.
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) er verkvangur rakningakerfis umsækjenda (ATS). Það gerir þér kleift að finna, hafa umsjón með og ráða starfsmenn, allt á einum stað. Með því að samþætta Microsoft Dynamics 365 Human Resources við LinkedIn Talent Hub er auðveldlega hægt að stofna starfsmannafærslur í Human Resources fyrir umsækjendur sem hafa verið ráðnir í stöðu.
 

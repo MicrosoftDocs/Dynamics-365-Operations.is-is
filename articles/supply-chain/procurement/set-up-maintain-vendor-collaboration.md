@@ -1,7 +1,7 @@
 ---
 title: Uppsetning og viðhald samstarfs lánardrottna
 description: Í þessu efnisatriði er útskýrt hvernig á að setja upp samstarf lánardrottna í Dynamics 365 Supply Chain Management. Þar er einnig útskýrt hvernig hægt er að úthluta nýjum notendum lánardrottnasamstarfs og stjórna öryggishlutverkum fyrir þessa notendur.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 220774
 ms.assetid: 69d05e8b-7dc2-48ea-bc24-bea9ac963579
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b635255fffa6fd3c6612cd248dc692df204aa76d
-ms.sourcegitcommit: 614d79cba238e466d445767a7d0a012e785a9861
+ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7652023"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677563"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Uppsetning og viðhald samstarfs lánardrottna
 
@@ -31,7 +31,7 @@ Viðmót fyrir samstarf lánardrottna sýnir takmarkaðar upplýsingar um innkau
 Í þessu efnisatriði er útskýrt hvernig á að setja upp samstarf lánardrottna í Dynamics 365 Supply Chain Management. Þar er einnig útskýrt hvernig á að setja upp verkflæði til að úthluta nýjum notendum lánardrottnasamstarfs og stjórna öryggishlutverkum fyrir þessa notendur.
 
 > [!NOTE]
-> Upplýsingarnar um uppsetningu öryggishlutverka fyrir samstarf lánardrottna gildir aðeins um núverandi útgáfu af Finance and Operations. Í Microsoft Dynamics AX 7.0 (febrúar 2016) og Microsoft Dynamics AX forritaútgáfu 7.0.1 (maí 2016) notarðu kerfiseininguna **Gátt lánardrottins** fyrir samskipti við lánardrottna. Upplýsingar um heimildir notanda fyrir lánardrottnagáttina í Microsoft Dynamics AX er að finna í [Öryggi notanda í gátt lánardrottins](configure-security-vendor-portal-users.md).
+> Upplýsingarnar um uppsetningu öryggishlutverka fyrir samstarf lánardrottna eiga aðeins við um núverandi útgáfu af Finance and Operations. Í Microsoft Dynamics AX 7.0 (febrúar 2016) og Microsoft Dynamics AX forritaútgáfu 7.0.1 (maí 2016) notarðu kerfiseininguna **Gátt lánardrottins** fyrir samskipti við lánardrottna. Upplýsingar um heimildir notanda fyrir lánardrottnagáttina í Microsoft Dynamics AX er að finna í [Öryggi notanda í gátt lánardrottins](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>Setja upp öryggishlutverk lánardrottnasamstarfs
 

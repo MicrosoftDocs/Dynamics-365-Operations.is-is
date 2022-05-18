@@ -1,22 +1,22 @@
 ---
 title: Samþætta við kerfi þriðju aðila fyrir framkvæmd framleiðslu
 description: Þetta efni útskýrir hvernig þú getur samþætt Microsoft Dynamics 365 Supply Chain Management með þriðju aðila framleiðslukerfi (MES).
-author: t-benebo
+author: johanhoffmann
 ms.date: 10/01/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: benebotg
+ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 9ec0bedcf1a3a2888a91158ea0353283660d3266
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: c7633ba32f9265aa0fd8f702552f48dbf675375d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487582"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678688"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Samþætta við kerfi þriðju aðila fyrir framkvæmd framleiðslu
 
@@ -244,7 +244,7 @@ Skilaboðin styðja aðgerðir eða atburði sem gerast á verslunargólfinu. Þ
 
 Eftir að MES hefur sent skilaboð til Supply Chain Management gæti verið viðeigandi fyrir Supply Chain Management að skila endurgjöf um stöðu skilaboðanna. Hér eru nokkur dæmi um tilvik þar sem þessi hegðun gæti átt við:
 
-- Það er enginn aðili sem ber ábyrgð á því að hafa stöðugt eftirlit með MES samþættingu.
+- Það er enginn aðili sem ber ábyrgð á stöðugu eftirliti með MES samþættingu.
 - Sá sem ber ábyrgð á eftirliti með MES samþættingu vill fá tilkynningu í tölvupósti þegar skilaboð mistekst, svo hann viti að hann þurfi að grípa til aðgerða.
 - MES verður að sýna villuboð til að tilkynna rekstraraðila verkstæðisgólfs eða einhvern úr upplýsingatæknideild að þeir verði að grípa til aðgerða.
 - MES verður að endurreikna pöntunaráætlunina eftir að hann fær bilunarskilaboð (til dæmis vegna þess að framleiðslupöntun tókst ekki að hefjast).

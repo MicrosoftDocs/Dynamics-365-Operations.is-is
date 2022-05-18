@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "4464"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d187f094a7d13e26a6121a2115c146c1372dba46bcafd423a3683d73a1e779f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c82c54b08a7d4c603d1246c598abacc51eb88839
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775219"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710386"
 ---
 # <a name="asset-leasing-home-page"></a>Heimasíða eignarleigu
 
@@ -30,7 +30,7 @@ ms.locfileid: "6775219"
 
 Í þessu efnisatriði er að finna hjálparefni sem eru tiltæk fyrir Eignarleigu og eru með tengla á tiltekin efnisatriði. 
 
-Eignarleiga er víðtæk lausn til að hafa umsjón með, rekja og virkja sjálfkrafa fjárhagsfærslur fyrir leigðar eignir í Microsoft Dynamics 365 Finance. Eignarleiga samræmist alþjóðlegum reikningsskilastöðlum (IFRS 16) og US GAAP-stöðlum (ASC 842). Eignarleiga nær í og vinnur úr upplýsingum um leigusamningana og hjálpar til við að búa til færslur í færslubók í gegnum gildistíma leigusamningsins, frá upphaflegri skráningu, mánaðarlegum færslum í færslubók, til virðisrýrnunar og lok leigusamningsins.
+Eignaleiga er háþróuð möguleiki til að stjórna, rekja og gera sjálfvirkan fjármálaviðskipti fyrir leigðar eignir í Microsoft Dynamics 365 Fjármál. Eignarleiga samræmist alþjóðlegum reikningsskilastöðlum (IFRS 16) og US GAAP-stöðlum (ASC 842). Eignarleiga nær í og vinnur úr upplýsingum um leigusamningana og hjálpar til við að búa til færslur í færslubók í gegnum gildistíma leigusamningsins, frá upphaflegri skráningu, mánaðarlegum færslum í færslubók, til virðisrýrnunar og lok leigusamningsins.
 
 Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað vinnusvæði **Eiginleikastjórnun** til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** skal finna og velja eiginleika sem kallast **Eignarleiga** og smella svo á hnappinn **Virkja núna**.
 

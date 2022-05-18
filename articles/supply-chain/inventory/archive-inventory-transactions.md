@@ -2,7 +2,7 @@
 title: Safnvista birgðafærslur
 description: Þetta efnisatriði lýsir því hvernig á að safnvista birgðafærslugögn til að hjálpa við að auka afköst kerfisins.
 author: yufeihuang
-ms.date: 03/01/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 99a7b61d9bd5e1e2bd8d2c7df34882646bb51270
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b766d306f31fc531f33aa29e1f96048bbd90085
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567464"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736062"
 ---
 # <a name="archive-inventory-transactions"></a>Safnvista birgðafærslur
 
@@ -116,3 +116,110 @@ Tækjastikan fyrir ofan hnitanetið býður upp á eftirfarandi hnappa sem hægt
 - **Gera hlé á safnvistun** – Gera hlé á valdri safnvistun sem er verið að vinna úr. Aðeins er gert hlé eftir að safnvistunarverk hefur verið myndað. Þess vegna gæti liðið stuttur tíma áður en hlé er gert. Þegar búið er að gera hlé birtist gátmerki í reitnum **Stöðva gildandi uppfærslu**.
 - **Halda áfram safnvistun** – Halda áfram safnvistun fyrir valda safnvistun sem gert var hlé á.
 - **Bakfæra** – Bakfæra valið safn. Aðeins er hægt að bakfæra safn ef **Staða** þess er stillt á *Lokið*. Ef safn hefur verið bakfært birtist gátmerki í reitnum **Bakfæra**.
+
+## <a name="extend-your-code-to-support-custom-fields"></a>Framlengdu kóðann þinn til að styðja sérsniðna reiti
+
+Ef`InventTrans` Taflan inniheldur einn eða fleiri sérsniðna reiti, þá gætir þú þurft að lengja kóðann til að styðja þá, allt eftir því hvernig þeir eru nefndir.
+
+- Ef sérsniðnu reitirnir frá`InventTrans` taflan hafa sömu reitnöfn og í`InventtransArchive` töflu, það þýðir að þau eru 1:1 kortlögð. Þess vegna geturðu bara sett sérsniðnu reiti inn í`InventoryArchiveFields` reiti hópur af`inventTrans` borð.
+- Ef sérsniðnu reitnöfnin í`InventTrans` taflan passa ekki við reitnöfnin í`InventtransArchive` töflu, þá þarftu að bæta við kóða til að kortleggja þá. Til dæmis, ef þú ert með kerfisreit sem heitir`InventTrans.CreatedDateTime`, þá verður þú að búa til reit í`InventTransArchive` borð með öðru nafni (svo sem`InventtransArchive.InventTransCreatedDateTime`) og bæta við viðbótum við`InventTransArchiveProcessTask` og`InventTransArchiveSqlStatementHelper` flokkum, eins og sýnt er í eftirfarandi sýnishornskóða.
+
+Eftirfarandi sýnishornskóði sýnir dæmi um hvernig á að bæta nauðsynlegri viðbót við`InventTransArchiveProcessTask` bekk.
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveProcessTask))]
+Final class InventTransArchiveProcessTask_Extension
+{
+
+    protected void addInventTransFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTrans, ModifiedBy))
+            .add(fieldStr(InventTrans, CreatedBy)).add(fieldStr(InventTrans, CreatedDateTime));
+
+        next addInventTransFields(_selectionObject);
+    }
+
+
+    protected void addInventTransArchiveFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTransArchive, InventTransModifiedBy))
+            .add(fieldStr(InventTransArchive, InventTransCreatedBy)).add(fieldStr(InventTransArchive, InventTransCreatedDateTime));
+
+        next addInventTransArchiveFields(_selectionObject);
+    }
+}
+```
+
+Eftirfarandi sýnishornskóði sýnir dæmi um hvernig á að bæta nauðsynlegri viðbót við`InventTransArchiveSqlStatementHelper` bekk.
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveSqlStatementHelper))]
+final class InventTransArchiveSqlStatementHelper_Extension
+{
+    private str     inventTransModifiedBy;  
+    private str     inventTransCreatedBy;
+    private str     inventTransCreatedDateTime;
+
+    protected void initialize()
+    {
+        next initialize();
+        inventTransModifiedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, ModifiedBy)).name(DbBackend::Sql);
+        inventTransCreatedDateTime = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedDateTime)).name(DbBackend::Sql);
+        inventTransCreatedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedBy)).name(DbBackend::Sql);
+    }
+
+    protected str buildInventTransArchiveSelectionFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransArchiveSelectionFieldsStatement();
+        
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransModifiedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedDateTime)).name(DbBackend::Sql));
+        }
+
+        return ret;
+    }
+
+    protected str buildInventTransTargetFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransTargetFieldsStatement();
+
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransModifiedBy);
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedBy);
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedDateTime);
+        }
+
+        return ret;
+    }
+}
+```

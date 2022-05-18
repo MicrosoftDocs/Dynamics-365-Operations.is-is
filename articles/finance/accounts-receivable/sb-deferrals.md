@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 5ff8d2f4663c53bf6dece1ef9af6609d5f0c5b50
-ms.sourcegitcommit: cf7d4af11bf85638ee831a28ea5ee1a1e041a675
+ms.openlocfilehash: 9a12cf52d904db0396aa9914b8e324060289710f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/04/2022
-ms.locfileid: "8544559"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690949"
 ---
 # <a name="revenue-and-expense-deferrals-in-subscription-billing"></a>Frestun tekna og gjalda í áskriftarreikningi
 
@@ -43,13 +42,13 @@ The **Frestun tekna og gjalda** síða inniheldur eftirfarandi reiti.
 |---|---| 
 | **Dagskrá** flipa | |
 | Jafnt á tímabili | <p>Tilgreindu hvort fjöldi daga á tímabili sé notaður þegar upphæð á tímabili er reiknuð út fyrir frestunaráætlun:</p><ul><li>**Já** – Upphæðin fyrir hvert tímabil er sú sama, óháð fjölda daga á tímabilinu. Hlutatímabil (svo sem tímabil í upphafi eða lok frestunaráætlunar) verða hlutfallslega.</li><li>**Nei** – Upphæðin er reiknuð út frá fjölda daga á hverju tímabili.</li></ul><p>Þú getur hnekið þessari stillingu á færslustigi.</p> |
-| Valkostur frestaðs söluafsláttar | <p>Tilgreindu hvort aðskildar frestunaráætlanir séu búnar til fyrir afsláttinn og sölupöntunarupphæðirnar:</p><ul><li>**Sér áætlun fyrir afslátt** – Afsláttarupphæðinni er haldið aðskildum frá tekjuupphæðinni.<p>Í þessu tilviki eru tvær frestunaráætlanir stofnaðar þegar sölupöntun er stofnuð og síðan bókuð. Afsláttar- og tekjuupphæðir verða færðar á mismunandi frestunarreikninga.</p></li><li>**Sameina afslátt við tekjur** – Afsláttarupphæðin er sameinuð tekjuupphæðinni. Ein frestunaráætlun er stofnuð og bæði afsláttarupphæð og tekjuupphæð eru færð á sama frestunarreikning.<p>Í þessu tilviki er ein frestunaráætlun stofnuð þegar sölupöntun er stofnuð og síðan bókuð. Bæði afsláttarupphæð og tekjuupphæð eru færð á sama frestunarreikning.</p></li></ul><p>**Athugið:** Til að beita afslætti á vörur sem nota óinnheimta tekjur eiginleiki, veldu **Sér áætlun fyrir afslátt** valmöguleika. Þá er hægt að beita afslætti á allar vörur, óháð því hvort óinnheimtar tekjur eru notaðar. Ef **Sameina afslátt við tekjur** valkostur er valinn, ekki er hægt að nota afslætti á vörur sem nota óinnheimt tekjur.</p> |
-| Frestunarvalkostur innkaupaafsláttar | <p>Veldu hvort aðskilin frestunaráætlanir séu búnar til fyrir upphæðir afsláttar og innkaupapöntunar:</p><ul><li>**Sér áætlun fyrir afslátt** – Afsláttarupphæðinni er haldið aðskildum frá kostnaðarupphæðinni.<p>Í þessu tilviki eru tvær frestunaráætlanir stofnaðar þegar innkaupapöntun er stofnuð og síðan bókuð. Afsláttar- og kostnaðarupphæðir eru bókaðar á mismunandi frestunarreikninga.</p></li><li>**Sameina afslátt við tekjur** – Afsláttarupphæðin er sameinuð kostnaðarupphæðinni. Ein frestunaráætlun er stofnuð og bæði afsláttarupphæð og kostnaðarupphæð eru færð á sama frestunarreikning.<p>Í þessu tilviki er ein frestunaráætlun stofnuð þegar innkaupapöntun er stofnuð og síðan bókuð. Bæði afsláttarupphæð og kostnaðarupphæð eru færð á sama frestunarreikning.</p></li></ul> |
+| Valkostur frestaðs söluafsláttar | <p>Tilgreindu hvort aðskildar frestunaráætlanir séu búnar til fyrir afsláttinn og sölupöntunarupphæðirnar:</p><ul><li>**Sérstök dagskrá fyrir afslátt** – Afsláttarupphæðinni er haldið aðskildum frá tekjuupphæðinni.<p>Í þessu tilviki eru tvær frestunaráætlanir stofnaðar þegar sölupöntun er stofnuð og síðan bókuð. Afsláttar- og tekjuupphæðir verða færðar á mismunandi frestunarreikninga.</p></li><li>**Sameina afslátt við tekjur** – Afsláttarupphæðin er sameinuð tekjuupphæðinni. Ein frestunaráætlun er stofnuð og bæði afsláttarupphæð og tekjuupphæð eru færð á sama frestunarreikning.<p>Í þessu tilviki er ein frestunaráætlun stofnuð þegar sölupöntun er stofnuð og síðan bókuð. Bæði afsláttarupphæð og tekjuupphæð eru færð á sama frestunarreikning.</p></li></ul><p>**Athugið:** Til að beita afslætti á vörur sem nota óinnheimta tekjur eiginleiki, veldu **Sérstök dagskrá fyrir afslátt** valmöguleika. Þá er hægt að beita afslætti á allar vörur, óháð því hvort óinnheimtar tekjur eru notaðar. Ef **Sameina afslátt við tekjur** valkostur er valinn, ekki er hægt að nota afslætti á vörur sem nota óinnheimt tekjur.</p> |
+| Frestunarvalkostur innkaupaafsláttar | <p>Veldu hvort aðskilin frestunaráætlanir séu búnar til fyrir upphæðir afsláttar og innkaupapöntunar:</p><ul><li>**Sérstök dagskrá fyrir afslátt** – Afsláttarupphæðinni er haldið aðskildum frá kostnaðarupphæðinni.<p>Í þessu tilviki eru tvær frestunaráætlanir stofnaðar þegar innkaupapöntun er stofnuð og síðan bókuð. Afsláttar- og kostnaðarupphæðir eru bókaðar á mismunandi frestunarreikninga.</p></li><li>**Sameina afslátt við tekjur** – Afsláttarupphæðin er sameinuð kostnaðarupphæðinni. Ein frestunaráætlun er stofnuð og bæði afsláttarupphæð og kostnaðarupphæð eru færð á sama frestunarreikning.<p>Í þessu tilviki er ein frestunaráætlun stofnuð þegar innkaupapöntun er stofnuð og síðan bókuð. Bæði afsláttarupphæð og kostnaðarupphæð eru færð á sama frestunarreikning.</p></li></ul> |
 | Sameina fyrri tímabil | <p>Tilgreindu hvort frestunaráætlunarlínur fyrir fyrri tímabil séu sameinaðar:</p><ul><li>**Já** – Ef upphafsdagur frestunarinnar er á tímabili fyrir færsludagsetningu eru allar upphæðir fram yfir tímabilið færsludagsins sameinaðar á eina frestunaráætlunarlínu.</li><li>**Nei** – Upphæðum frá öllum tímabilum er haldið á aðskildum frestunaráætlunarlínum.<p>Ef upphafsdagur frestunarinnar er á sama tímabili og eða seinna tímabil en viðskiptadagsetningin hefur þessi valkostur engin áhrif.</p></li></ul><p>Þessa stillingu er hægt að uppfæra á færslustigi.</p> |
 | Sjálfgefin upphafsdagsetning frestunar | <p>Veldu regluna sem er notuð til að ákvarða upphafsdag frestunaráætlunar:</p><ul><li>**Dagsetning viðskipta** – Notaðu viðskiptadagsetninguna sem upphafsdagsetningu.</li><li>**Upphaf yfirstandandi mánaðar** – Notaðu þann fyrsta í núverandi mánuði sem upphafsdagsetningu. Ef viðskiptadagsetningin er sá fyrsti hvers mánaðar er sá fyrsti í núverandi mánuði upphafsdagsetningin.</li><li>**Upphaf næsta mánaðar** – Notaðu fyrsta næsta mánaðar sem upphafsdag. Ef viðskiptadagsetningin er á þeim fyrsta er viðskiptadagsetningin notuð. Annars er fyrsti næsta mánaðar notaður.</li><li>**Regla 15** – Ef viðskiptadagsetning er á milli þess fyrsta og fimmtánda, notaðu þann fyrsta í núverandi mánuði sem upphafsdagsetningu. Ef viðskiptadagsetningin er sextándi eða síðar, skal nota fyrsta næsta mánaðar sem upphafsdag.</li></ul><p>Þú getur uppfært þessa stillingu á færslustigi.</p> |
 | Aðferð skammtímafrestunar | <p>Veldu skammtíma frestun aðferð: **Enginn**, **·**, eða **Fast ártal**.</p><p>|
-| Bókunaraðferð frestunar | <p>Veldu aðferðina sem er notuð til að stofna frestunarfærslur:</p><ul><li>**Efnahagsreikningur** – Notaðu efnahagsreikningsbókunaraðferðina til að stofna frestunarfærslur.</li><li>**Hagnaður og tap** – Notaðu hagnaðarbókunaraðferðina til að stofna frestunarfærslur. Þegar færslur eru bókaðar er hægt að skoða fylgiskjal reikningsins til að sjá aukafærslurnar sem jafna upphafsfærslu- og færslujöfnunarupphæðir.</li></ul> |
-| Bakfæra hagnað og tap í kreditfærslu | <p>**Athugið:** Þessi reitur er aðeins tiltækur þegar **Frestun bókunaraðferð** reiturinn er stilltur á **Hagnaður og tap**.</p><p>Tilgreindu hvort hagnaðar- og tapupphæðir séu bakfærðar þegar bakfærsla, uppsögn eða endurgreiðsla er beitt á innheimtuáætlun eða sölupöntun:</p><ul><li>**Já** – Bakfærðu hagnaðar- og tapupphæðir og notaðu lánsfjárleiðréttingarupphæð á frestunaráætlunina.<p>Ef bakfærsla á sér stað þegar reikningstímabilið er hálfnað, eru upphæðirnar hlutfallslegar.</p></li><li>**Nei** – Engin bakfærslufærsla er búin til fyrir hagnað og tap þegar bakfærsla, uppsögn eða endurgreiðsla er notuð á innheimtuáætlun eða sölupöntun.</li></ul> |
+| Bókunaraðferð frestunar | <p>Veldu aðferðina sem er notuð til að búa til frestunarfærslur:</p><ul><li>**Efnahagsreikningur** – Notaðu reikningsfærsluaðferðina til að stofna frestunarfærslur.</li><li>**Hagnaður og tap** – Notaðu hagnaðarbókunaraðferðina til að stofna frestunarfærslur. Þegar færslur eru bókaðar er hægt að skoða fylgiskjal reikningsins til að sjá aukafærslurnar sem jafna upphafsfærslu- og færslujöfnunarupphæðir.</li></ul> |
+| Bakfæra hagnað og tap í kreditfærslu | <p>**Athugið:** Þessi reitur er aðeins tiltækur þegar **Frestun bókunaraðferð** reiturinn er stilltur á **Hagnaður og tap**.</p><p>Tilgreindu hvort hagnaðar- og tapupphæðum sé bakfært þegar bakfærsla, uppsögn eða endurgreiðsla er beitt á innheimtuáætlun eða sölupöntun:</p><ul><li>**Já** – Bakaðu hagnaðar- og tapupphæðum og notaðu lánaleiðréttingarupphæð á frestunaráætlunina.<p>Ef bakfærslan á sér stað þegar reikningstímabilið er hálfnað, eru upphæðirnar hlutfallslegar.</p></li><li>**Nei** – Engin bakfærslufærsla er búin til fyrir hagnað og tap þegar bakfærsla, uppsögn eða endurgreiðsla er notuð á innheimtuáætlun eða sölupöntun.</li></ul> |
 | **Viðurkenning** flipa | |
 | Bóka færslubækur sjálfvirkt | <p>Tilgreindu hvort færslubókarfærslur sem eru búnar til með frestun tekna og gjalda séu sjálfkrafa bókaðar:</p><ul><li>**Já** – Bókaðu sjálfkrafa færslubókarfærslur sem eru búnar til með frestun tekna og gjalda.<p>**Ábending:** Með því að velja **Já**, getur þú hjálpað til við að koma í veg fyrir ósamræmi í bókhaldi sem stafar af handvirkum breytingum á fylgiskjölum.</p></li><li>**Nei** – Færslubókarfærslur sem eru búnar til með frestun tekna og kostnaðar eru ekki sjálfkrafa bókaðar. Þú verður að bóka allar dagbækur handvirkt.</li></ul> |
 | Taka saman skráningarbók | <p>Tilgreindu hvort viðurkenningarskírteini séu sjálfgefið sameinuð:</p><ul><li>**Já** – Búðu til eina skírteini fyrir allar viðurkenningarlínur sem hafa sömu dagsetningu. Allar línur í fylgiskjali sem hafa sama reikning eru sameinaðar á eina línu.</li><li>**Nei** – Búðu til skírteini fyrir hverja viðurkenningarlínu.</li></ul><p>Þú getur uppfært þessa stillingu á **Viðurkenningarvinnsla** síðu.</p> |
@@ -108,7 +107,7 @@ Hver sniðmátslína verður að hafa annað hvort beinlínusniðmát eða snið
 
 Til að tilgreina sjálfgefin frestunargildi fyrir sölupantanir skaltu fylgja þessum skrefum.
 
-1. Á **Sölupöntun** flipanum, veldu frestunartegundina.
+1. Á **Sölupöntun** flipann, veldu frestunartegundina.
 2. Smellið á **Bæta við** til að bæta við nýrri línu.
 3. Í **Vörukóði** reit, veldu vörukóðann. Vörukóðinn ákvarðar hvernig sjálfgefna frestuninni er beitt.
 4. Tilgreindu hvernig vörukóði er notaður:
@@ -136,7 +135,7 @@ Til að tilgreina sjálfgefin frestunargildi fyrir sölupantanir skaltu fylgja �
 12. Tilgreindu hvernig reikningskóðinn er notaður:
 
     * Ef **Reikningskóði** reiturinn er stilltur á **Tafla** eða **Hópur**, veldu reikningstengslin í **Reikningstengsl** sviði.
-    * Ef **Reikningskóði** reiturinn er stilltur á **Allt**, reikningurinn á við um allar viðeigandi færslur.
+    * Ef **Reikningskóði** reiturinn er stilltur á **Allt**, reikningurinn á við allar viðeigandi færslur.
     * Veldu beinlínusniðmátið í **Bein lína sniðmát** reitnum eða sniðmátinu sem byggir á atburðum í **Sniðmát sem byggir á viðburðum** sviði.
 
 13. Veldu **Vista**.
@@ -157,7 +156,7 @@ Til að tilgreina sjálfgefin frestunargildi fyrir innkaupapantanir skaltu fylgj
 5. Tilgreindu hvernig reikningskóðinn er notaður:
 
     * Ef **Reikningskóði** reiturinn er stilltur á **Tafla** eða **Hópur**, veldu reikningstengslin í **Reikningstengsl** sviði.
-    * Ef **Reikningskóði** reiturinn er stilltur á **Allt**, reikningurinn á við um allar viðeigandi færslur.
+    * Ef **Reikningskóði** reiturinn er stilltur á **Allt**, reikningurinn á við allar viðeigandi færslur.
 
 6. Í **Aðalreikningur** reit, veldu aðalreikning fyrir frestunina.
 7. Ef **Frestun bókunaraðferð** reiturinn er stilltur á **Hagnaður og tap**, veldu upphaflega tekjureikninginn í **Stofntekjureikningur** reit og tekjujöfnunarreikning í **Tekjujöfnunarreikningur** sviði.
@@ -173,7 +172,7 @@ Til að tilgreina sjálfgefin frestunargildi fyrir innkaupapantanir skaltu fylgj
 12. Tilgreindu hvernig reikningskóðinn er notaður:
 
     * Ef **Reikningskóði** reiturinn er stilltur á **Tafla** eða **Hópur**, veldu reikningstengslin í **Reikningstengsl**.
-    * Ef **Reikningskóði** reiturinn er stilltur á **Allt**, reikningurinn á við um allar viðeigandi færslur.
+    * Ef **Reikningskóði** reiturinn er stilltur á **Allt**, reikningurinn á við allar viðeigandi færslur.
     * Veldu beinlínusniðmátið í **Bein lína sniðmát** reitnum eða sniðmátinu sem byggir á atburðum í **Sniðmát sem byggir á viðburðum** sviði.
 
 13. Veldu **Vista**.

@@ -1,6 +1,6 @@
 ---
 title: Geymsla aldursgreiningargagna viðskiptavinar
-description: Þetta efnisatriði lýsir ferlinu við að nota ytri geymslu fyrir öldrunargögn viðskiptavina. Þú getur keyrt ferli öldrunargagnageymslu viðskiptavinar til að gera úttakið aðgengilegt til útflutnings í ytra kerfi.
+description: Þetta efnisatriði lýsir ferlinu við að nota ytri geymslu fyrir öldrunargögn viðskiptavina. Þú getur keyrt ferli öldrunargagnageymslu viðskiptavinar til að gera úttakið aðgengilegt til útflutnings á ytra kerfi.
 author: JodiChristiansen
 ms.date: 10/27/2020
 ms.topic: article
@@ -8,30 +8,29 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497d49da84f4df90877908bef3031e079bc36066
-ms.sourcegitcommit: d0e99545d722c924db57ae2bd06f72154a1f1f97
+ms.openlocfilehash: 1af4b4cbf503369565ee64ad8889ee9e59a92b3f
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557879"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735522"
 ---
 # <a name="customer-aging-data-storage"></a>Geymsla aldursgreiningargagna viðskiptavinar
 
 [!include [banner](../includes/banner.md)]
 
+Þetta efnisatriði lýsir ferlinu við að nota ytri geymslu fyrir öldrunargögn viðskiptavina. Í Microsoft Dynamics 365 Fjármál, þú getur keyrt **Gagnageymsla viðskiptavina sem eldist** ferli til að gera úttakið aðgengilegt til útflutnings í ytra kerfi. Þegar þú keyrir ferlið eru sömu öldrunarskýrsluvalkostir sem eru tiltækir í kerfinu í boði fyrir ytri kerfi. Upplýsingarnar eru alltaf innifaldar í útfluttu gögnunum.
 
-Þetta efnisatriði lýsir ferlinu við að nota ytri geymslu fyrir öldrunargögn viðskiptavina. Í Microsoft Dynamics 365 Finance, þú getur keyrt ferli öldrunargagnageymslu viðskiptavina til að gera úttakið aðgengilegt til útflutnings í ytra kerfi. Þegar þú keyrir ferlið eru sömu öldrunarskýrsluvalkostir sem eru tiltækir í kerfinu í boði fyrir ytri kerfi. Upplýsingarnar eru alltaf innifaldar í útfluttu gögnunum.
+Það getur verið gagnlegt að gera öldrunargögn viðskiptavina aðgengileg ytra kerfi til geymslu í þeim tilvikum þar sem úttakið inniheldur marga viðskiptavini og/eða margar færslur. Ef núverandi **Öldrun viðskiptavina** Tímamörk skýrslunnar eru vegna þess að hún hefur of mikið af gögnum til að prenta, þessi eiginleiki býður upp á aðra leið til að fá sömu gögnin.
 
-Það getur verið gagnlegt að gera öldrunargögn viðskiptavina aðgengileg ytra kerfi til geymslu í þeim tilvikum þar sem úttakið inniheldur marga viðskiptavini og/eða margar færslur. Ef núverandi **Öldrun viðskiptavina** skýrslan tekur tíma út vegna þess að hún hefur of mikið af gögnum til að prenta, þessi eiginleiki býður upp á aðra leið til að fá sömu gögnin.
-
-## <a name="enable-the-customer-aging-data-storage-feature"></a>Virkjaðu eiginleikann Geymslugagnageymslu öldrunar viðskiptavina
+## <a name="enable-the-customer-aging-data-storage-feature"></a>Virkjaðu eiginleikann öldrunargagnageymslu viðskiptavinar
 
 Áður en þú getur notað þennan eiginleika þarftu að virkja hann í kerfinu þínu. Stjórnendur geta notað eiginleikastjórnunarstillingarnar til að athuga stöðu eiginleikans og virkja hann ef þess er krafist. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 

@@ -1,25 +1,22 @@
 ---
 title: Skuggavörur
-description: Þetta efnisatriði lýsir í smáatriðum hvernig hægt er að nota línugerð skuggavöru fyrir línurnar í uppskriftum og formúlu í Dynamics 365 Supply Chain Management.
+description: Þetta efnisatriði lýsir því hvernig hægt er að nota Phantom-línugerðina fyrir línurnar í efnisyfirliti (BOM) og formúlu í Dynamics 365 Supply Chain Management.
 author: johanhoffmann
-ms.date: 06/15/2018
+ms.date: 05/05/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
-ms.search.validfrom: ''
-ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8e1b241c826e89909590ae16c8458bc49df995bd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.search.validFrom: 2022-05-05
+ms.dyn365.ops.version: 10.0.23
+ms.openlocfilehash: 5c9768381d35709611e4bec3d2b7793a4d896b34
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572818"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713248"
 ---
 # <a name="phantom-items"></a>Skuggavörur
 
@@ -27,49 +24,55 @@ ms.locfileid: "7572818"
 
 Þetta efnisatriði lýsir í smáatriðum hvernig hægt er að nota línugerð skuggavöru fyrir línurnar í uppskriftum og formúlu.
 
-Í eftirfarandi skýringarmynd er (a) uppskrift fyrir afurð H og hluta F og G og (b) leiðarskjalið fyrir afurðir H og hluta F.
+Á mynd 1 er (a) uppskrift fyrir vöru H og hluta F og G, og (b) er leiðarblað fyrir vörur H og hluta F.
 
-![Dæmi um skipulag uppskriftar á tveimur stigum.](media/product-H-part-F.png)
+![Mynd 1: Verkfræðiuppskrift.](media/product-H-part-F.png)
+*Mynd 1: Verkfræðiuppskrift*
 
-Þessi skýringarmynd sýnir dæmi um skipulag uppskriftar á tveimur stigum. Lokaafurð H táknar afurð fyrir samsetningu tækis. Samsetning tækis samanstendur af tveimur hlutum, rafeiningu (F) sem er með tvo efnisþætti (A og B) og hópur umbúða (G) sem einnig er með tvo efnisþætti (C og D). Annað efni (E) er notað við almenna samsetningu tækis.
+Mynd 1 sýnir dæmi um uppskriftaruppbyggingu á tveimur stigum. Lokaafurð H táknar afurð fyrir samsetningu tækis. Samsetning tækis samanstendur af tveimur hlutum, rafeiningu (F) sem er með tvo efnisþætti (A og B) og hópur umbúða (G) sem einnig er með tvo efnisþætti (C og D). Annað efni (E) er notað við almenna samsetningu tækis.
 
-![Hönnunaruppskriftin fyrir afurð H.](media/product-H-part-B.png)
+Mynd 1 sýnir verkfræðiuppskrift fyrir vöru H. Þessi uppbygging veitir góða yfirsýn yfir hluta og íhluti heildarvélasamstæðunnar. Þótt hönnuðir afurða gætu viljað sjá uppskriftina með þessum hætti, getur hins vegar verið að þessi uppbygging sýni ekki á réttan hátt hvernig tækið er sett upp í vinnusal.
 
-Framangreind skýringarmynd sýnir hönnunaruppskrift fyrir afurð H. Þessi uppbygging veitir góða yfirsýn yfir hluta og íhluti fyrir heildarsamsetningu tækis. Þótt hönnuðir afurða gætu viljað sjá uppskriftina með þessum hætti, getur hins vegar verið að þessi uppbygging sýni ekki á réttan hátt hvernig tækið er sett upp í vinnusal.
-
-Til dæmis bendir hönnunaruppskriftin í framagreindri skýringamynd til þess að rafeining F sé sett saman sem aðskilinn hluti á aðskildum vinnufyrirmælum. Í vinnusal getur hins vegar verið að samsetning á rafeiningunni sem hluti af heildarsamsetningu tækisins sé talin æskilegri, en ekki sem aðskilin vinnufyrirmæli.
+Til dæmis gefur verkfræðiuppskriftin á mynd 1 til kynna að rafeining F sé sett saman sem aðskilinn hluti á sérstakri verkbeiðni. Í vinnusal getur hins vegar verið að samsetning á rafeiningunni sem hluti af heildarsamsetningu tækisins sé talin æskilegri, en ekki sem aðskilin vinnufyrirmæli.
 
 Hönnunaruppskrfitin gefur einnig til kynna að hluti G sé aðskilinn hluti. Í þessari uppbyggingu táknar hluti G þó ekki efnislegan hluta, heldur safn af umbúðum.
 
 Þess vegna, þrátt fyrir að hönnunaruppskrift sé hagkvæm fyrir hönnun afurðar og viðhaldi á þeirri hönnun, gæti verið að hún sé ekki rökréttasta leiðin til að styðja við framkvæmdarferli á framleiðslu afurðarinnar. Aftur á móti sýnir hönnunaruppskrift bestu leiðina til að búa til afurð.
 
-Eftirfarandi skýringarmynd sýnir hvernig framangreind uppskrift er umbreytt í framleiðsluuppskrift. Í þessari skýringarmynd er (a) uppskrift fyrir afurð H, og (b) er leiðarskjalið fyrir afurð H.
+Mynd 2 sýnir hvernig fyrri verkfræðiuppskrift er færð yfir í framleiðsluuppskrift. Á mynd 2 er (a) uppskrift fyrir vöru H og b er leiðarblað fyrir vöru H.
+
+![Mynd 2: Framleiðsluuppskrift.](media/product-H-part-B.png)
+*Mynd 2: Framleiðsluuppskrift*
 
 Í þessari uppbyggingu er hægt að sjá að ekki er minnst á hluta F og G og efnin sem þessir hlutar samanstanda af hefur verið fært upp á næsta stig uppskriftar.
 
 Ólíkt hönnunaruppskriftinni, sem var með tvö aðgerðarskjöl, hefur framleiðsluuppskriftin aðeins eitt aðgerðarskjal. Umbúðaraðgerðin sem tengdist við hluta G, hefur einnig verið færður upp og er nú hluti af aðgerðarskjali fyrir afurð H. Samsetning rafeiningarinnar er fyrsta aðgerðin. Þessi röð er skynsamleg, því að þessi eining er notuð í næstu aðgerð, sem er samsetning tækisins. Síðasta aðgerðin er umbúðaraðgerðin, sem notar tvö umbúðaefni (C og D).
 
-Umbreytingin á milli hönnunaruppskriftar og framleiðsluuppskriftar virkjuð með línugerð skuggauppskriftarinnar. Eins og hugtakið „skuggi“ bendir til hafa hlutar F og G horfið við umbreytingu á milli uppskriftargerðanna tveggja. Í þessu dæmi er skuggalínugerðin notuð á uppskriftarlínurnar fyrir hluta F og G í hönnunaruppskriftinni. Þegar framleiðslu- eða runupöntun er stofnuð er hönnunaruppskriftin afrituð í framleiðslu- eða runupöntunina. Þá, þegar pöntunin er áætluð, á sér stað umbreyting frá hönnunaruppskrift til framleiðsluuppskriftar, eins og sýnt er á framangreindri skýringarmynd. Í aðgerðarskjalinu í annarri skýringarmyndinni er umbúðaefni C og D aðföng fyrir aðgerðina.
+Umbreytingin á milli hönnunaruppskriftar og framleiðsluuppskriftar virkjuð með línugerð skuggauppskriftarinnar. Eins og hugtakið „skuggi“ bendir til hafa hlutar F og G horfið við umbreytingu á milli uppskriftargerðanna tveggja. Í þessu dæmi er skuggalínugerðin notuð á uppskriftarlínurnar fyrir hluta F og G í hönnunaruppskriftinni. Þegar framleiðslu- eða runupöntun er stofnuð er hönnunaruppskriftin afrituð í framleiðslu- eða runupöntunina. Síðan, þegar pöntunin er áætluð, á sér stað umskipti frá verkfræðiuppskrift yfir í framleiðsluuppskrift, eins og sýnt er á mynd 2. Frá rekstrarblaðinu á mynd 2 eru umbúðir C og D inntak fyrir aðgerðina.
 
 ## <a name="multilevel-phantom-bom-structures"></a>Uppbygging skuggauppskriftar á mörgum stigum
 
-Hægt er að nota skuggalínugerð í marglaga hönnunaruppskrift eins og sýnt er á eftirfarandi skýringarmynd. Í þessari skýringarmynd er (a) uppskrift fyrir afurð G, og (b) leiðarskjalið fyrir hluta E og F og afurð G.
+Hægt er að nota Phantom línugerðina í fjölþrepa uppskriftarmannvirkjum, eins og sýnt er á mynd 3. Á mynd 3 er (a) uppskrift fyrir vöru G, og (b) er leiðarblað fyrir hluta E og F og vöru G.
 
-![Skuggalínan sem er notuð í skipulagi uppskriftar með mörg stig.](media/product-G-route-sheet-G.png)
+![Mynd 3: Verkfræðiuppskrift hluti G.](media/product-G.png)
+*Mynd 3: Verkfræðiuppskrift hluti G*
 
-Eftirfarandi skýringarmynd sýnir framleiðsluuppskriftina og leiðarskjalið ef uppskriftarlínur fyrir hluta E og F eru stilltar þannig að línugerðin sé skuggalínugerð. Í þessari skýringarmynd er (a) uppskrift fyrir afurð G, og (b) leiðarskjalið fyrir afurð G.
+Mynd 4 sýnir framleiðsluuppskrift og leiðarblað ef uppskriftarlínur fyrir hluta E og F eru stilltar þannig að línugerðin sé Phantom. Á mynd 4 er (a) uppskrift fyrir vöru G og (b) er leiðarblað fyrir vöru G.
 
-![Afurð G.](media/product-G.png)
+![Mynd 4: Framleiðsluuppskriftarhluti G.](media/product-G-route-sheet-G.png)
+*Mynd 4: Framleiðsluuppskriftarhluti G*
 
 ## <a name="phantom-and-route-network"></a>Skugga- og leiðanet
 
-Einnig er hægt að nota skuggauppskriftir fyrir uppskrift sem hefur leiðanet. Í leiðaneti eru ein eða fleiri aðgerðir keyrðar samhliða. Eftirfarandi skýringarmynd sýnir dæmi um leiðanet sem er notað í uppskrift á mörgum stigum. Í þessari skýringarmynd er (a) uppskrift fyrir afurð G og hluta F, og (b) leiðarskjalið fyrir afurð G og hluta F, sem er með leiðanet.
+Einnig er hægt að nota skuggauppskriftir fyrir uppskrift sem hefur leiðanet. Í leiðaneti eru ein eða fleiri aðgerðir keyrðar samhliða. Mynd 5 sýnir dæmi um leiðanet sem er notað í fjölþrepa uppskrift. Á mynd 5 er (a) uppskrift fyrir vöru G og hluta F, og (b) er leiðarblað fyrir vöru G og hluta F, sem hefur leiðakerfi.
 
-![Dæmi um leiðanet sem er notað í uppskrift á mörgum stigum.](media/product-G-part-F.png)
+![Mynd 5: Verkfræðiuppskrift hluti G, leiðakerfi.](media/product-G-part-F.png)
+*Mynd 5: Verkfræðiuppskrift hluti G, leiðakerfi*
 
-Í eftirfarandi skýringarmynd er (a) uppskrift fyrir afurð G og hluta F og (b) leiðarskjalið fyrir afurð G og hluta F.
+Á mynd 6 er (a) uppskrift fyrir vöru G og hluta F, og (b) er leiðarblað fyrir vöru G og hluta F.
 
-![Uppskriftin fyrir afurð G og hluta F og leiðarskjalið fyrir afurð G og hluta F.](media/product-G-part-F-with-route-sheet.png)
+![Mynd 6: Framleiðsla BOM hluti G, leiðakerfi.](media/product-G-part-F-with-route-sheet.png)
+*Mynd 6: Framleiðsla BOM hluti G, leiðakerfi*
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

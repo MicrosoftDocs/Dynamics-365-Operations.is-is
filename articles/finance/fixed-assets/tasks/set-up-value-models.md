@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetBookTable, AssetGroupBookSetup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: be3b5578bd6509859c36f6a50ea9730e9ef1780e
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 71d256b600956a4e525cde626c958713f6258f5a
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890713"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727062"
 ---
 # <a name="set-up-value-models"></a>Setja upp virðislíkön
 
@@ -44,13 +44,13 @@ ms.locfileid: "7890713"
 
 7. Stilltu **Stofna afskriftaleiðréttingar með grunnleiðréttingum** valmöguleika til **Já**.
 
-    * Sjálfgefið er að eignabókarfærslur eru bókaðar í fjárhag. Hins vegar geturðu slökkt á bókun í aðalbók fyrir bókina með því að stilla á **Bóka í aðalbók** valmöguleika til **Nei**. Bækur sem eru ekki bókaðar í fjárhag eru venjulega notaðar til skattskýrslu. Þessi valkostur gefur þér meiri sveigjanleika til að eyða sögulegum færslum fyrir eignabókina, vegna þess að færslurnar hafa ekki verið skuldbundnar í fjárhag.
+    * Sjálfgefið er að eignabókarfærslur eru bókaðar í fjárhag. Hins vegar geturðu slökkt á bókun í aðalbók fyrir bókina með því að stilla á **Bóka í aðalbók** valmöguleika til **Nei**. Bækur sem eru ekki bókaðar í fjárhag eru venjulega notaðar til skattskýrslu. Þessi valkostur veitir þér meiri sveigjanleika til að eyða sögulegum færslum fyrir eignabókina, vegna þess að færslurnar hafa ekki verið skuldbundnar í fjárhag.
     * Sjálfgefið er **Færslulag** reiturinn er stilltur á **Núverandi lag** ef bókin er færð í aðalbók og **Enginn** ef bókin er ekki færð í aðalbók. Uppfærðu verðmæti **Færslulag** reit ef færslur fyrir þessa bók ættu að vera bókaðar í annað lag.
 
 8. Reiknaðu jákvæðar afskriftir.
 
-    * Sjálfgefið er **Reiknaðu jákvæðar afskriftir** valkostur er stilltur á **Nei**. Þessi stilling gefur til kynna að afskriftir muni lána valinni eignabók. Auk þess er **Leyfa hreint bókfært virði hærra en kaupverð** og **Leyfa neikvætt nettó bókfært virði** valkostir eru báðir stilltir á **Nei**, og stillingunum er hægt að breyta sjálfstætt. 
-    * Til að reikna út jákvæðar afskriftir skaltu stilla **Reiknaðu jákvæðar afskriftir** valmöguleika til **Já**. Þessi stilling gefur til kynna að afskriftir munu skuldfæra eignabókina. Þegar **Reiknaðu jákvæðar afskriftir** valkostur er stilltur á **Já**, hinn **Leyfa hreint bókfært virði hærra en kaupverð** og **Leyfa neikvætt nettó bókfært virði** valkostir verða sjálfkrafa stilltir á **Já**, og þeir verða læstir. Þessi læsing hjálpar til við að tryggja að jákvæðar afskriftir verði aðeins notaðar á fastafjármuni sem voru keyptir með neikvæðu bókfærðu virði (inneign). 
+    * Sjálfgefið er **Reiknaðu jákvæðar afskriftir** valkostur er stilltur á **Nei**. Þessi stilling gefur til kynna að afskriftir muni lána valinni eignabók. Að auki er **Leyfa hreint bókfært virði hærra en kaupverð** og **Leyfa neikvætt nettó bókfært virði** valkostir eru báðir stilltir á **Nei**, og stillingunum er hægt að breyta sjálfstætt. 
+    * Til að reikna út jákvæðar afskriftir skaltu stilla **Reiknaðu jákvæðar afskriftir** valmöguleika til **Já**. Þessi stilling gefur til kynna að afskriftir munu skuldfæra eignabókina. Þegar **Reiknaðu jákvæðar afskriftir** valkostur er stilltur á **Já**, hinn **Leyfa hreint bókfært virði hærra en kaupverð** og **Leyfa neikvætt nettó bókfært virði** valkostir verða sjálfkrafa stilltir á **Já**, og þeim verður læst. Þessi læsing hjálpar til við að tryggja að jákvæðar afskriftir verði aðeins notaðar á fastafjármuni sem voru keyptir með neikvæðu bókfærðu virði (inneign). 
 
 10. Í **Dagatal** reit, sláðu inn eða veldu gildi.
 
@@ -64,6 +64,6 @@ ms.locfileid: "7890713"
 
     * Afskriftarímabil eru reiknuð eftir að líftími eignarinnar er færður inn.
     * Hægt er að stilla þessa afskrifarvenju eins og þarf af skattalegum ástæðum.
-    * Fyrir fastafjármuni sem tengjast leigusamningum er verðmæti **Þjónustulíf** reitinn verður hnekkt af því sem er styttra af leigutímanum í eignabók og nýtingartíma eigna. Ef **Eignaskipti** valkostur er stilltur á **Já** fyrir leigubók, verðmæti á **Þjónustulíf** reit mun alltaf vera nýtingartími eignarinnar.
+    * Fyrir fastafjármuni sem tengjast leigusamningum er verðmæti **Þjónustulíf** reiturinn verður hnekkt af því sem er styttra af leigutímanum í eignabók og nýtingartíma eigna. Ef **Eignaskipti** valkostur er stilltur á **Já** fyrir leigubók, verðmæti á **Þjónustulíf** reit mun alltaf vera nýtingartími eignarinnar.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4fd46ea161fb4441d94a9e7c7f7ffbfb245eb873
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919502"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722520"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Stofna sniðmát fyrir tölvupóst fyrir færslutilvik
 
@@ -64,8 +64,8 @@ Tilkynningargerðin Pökkun lokið styður eftirfarandi viðbótarstaðgengla t�
 | ------------------- | ------- |
 | `pickupstorename`     | Heiti verslunarinnar þar sem hægt er að sækja pöntunina. |
 | `pickupstoreaddress`  | Aðsetur verslunarinnar þar sem hægt er að sækja pöntunina. |
-| `pickupstorehourfrom` | Opnunartími verslunar þar sem er sótt. |
-| `pickupstorehourto`   | Lokunartími verslunar þar sem er sótt. |
+| `pickupstoreopenfrom` | Opnunartími verslunar þar sem er sótt. |
+| `pickupstoreopento` | Lokunartími verslunar þar sem er sótt. |
 | `pickupchannelid`     | Rásarkenni verslunar þar sem er sótt. |
 | `packingslipid`      | Auðkenni fylgiseðilsins fyrir pöntunina sem verður sótt. |
 | `confirmationid`      | Staðfestingarkenni pöntunar sem verður sótt. (Þetta auðkenni er stundum kallað tilvísunarkenni rásar.) |
@@ -102,7 +102,7 @@ Tilkynningagerðin Gefa út gjafakort styður eftirfarandi viðbótarstaðgengla
 | Staðgengilsheiti      | Notkun |
 | --------------------- | ------- |
 | `giftcardnumber`        | Gjafakortsnúmer, fyrir afurðir af gerðinni gjafakort. |
-| `giftcardbalance`       | Staða gjafakorts, fyrir afurðir af gerðinni gjafakort. |
+| `availablebalance` | Eftirstöðvarnar á gjafakortinu. |
 | `giftcardmessage`       | Gjafakortsskilaboð, fyrir afurðir af gerðinni gjafakort. |
 | `giftcardpin`         | PIN-númer gjafakortsins, fyrir afurðir af gerðinni gjafakort. (Þessi staðgengill er tilgreindur fyrir ytri gjafakort.) |
 | `giftcardexpiration`    | Lokadagur gjafakortsins, fyrir afurðir af gerðinni gjafakort. (Þessi staðgengill er tilgreindur fyrir ytri gjafakort.) |

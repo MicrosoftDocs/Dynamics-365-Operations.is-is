@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
+ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075300"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8739388"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.21 (október 2021)
 
@@ -130,7 +130,7 @@ Nýlega hefur eftirfarandi hjálparatriðum verið bætt við eða þau uppfær�
 | Áætlanagerð | [Skoða áætlunarferil og skipulagsannála](../master-planning/planning-optimization/plan-history-logs.md) |
 | Vöruhúsakerfi | [Pökkunarstefnur gáms](../warehousing/container-packing-strategy-overview.md) |
 | Vöruhúsakerfi | [Dæmi um reglulega talningu](../warehousing/cycle-counting-scenarios.md) |
-| Vöruhúsakerfi | [Flytja inn ASN á innleið í gegnum V2 gagnaeininguna](../warehousing/import-asn-v2-data-entity.md) |
+| Vöruhúsakerfi | [Flyttu inn ASN-númer á heimleið í gegnum V3 gagnaeininguna](../warehousing/import-asn-data-entity.md) |
 | Vöruhúsakerfi | [Umframtiltekt fyrir sölupantanir og flutningspantanir](../warehousing/over-picking-for-sales-and-transfer-orders.md) |
 | Vöruhúsakerfi | [Áætla prentun bylgjumerkis í bylgju](../warehousing/configure-task-based-wave-label-printing.md) |
 | Vöruhúsakerfi | [Nýjungar eða breytingar í farsímaforriti Warehouse Management](../warehousing/whats-new-wma.md) |

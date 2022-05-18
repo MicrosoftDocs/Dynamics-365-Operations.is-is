@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779957"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734430"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Stefna fyrir samantekt kostnaðar og útreikning sameiginlegs kostnaðar 
 
@@ -30,9 +30,7 @@ ms.locfileid: "6779957"
 Kostnaðarbókhald gerir kleift að fá innsýn í hvernig kostnaðarflæði tengist afurðum og þjónustu sem innt er af hendi innan fyrirtækis. Mikilvægt er að kostnaðarúthlutun milli kostnaðarhluta sé byggð á viðeigandi úthlutunargrunni til að kostnaður sé gagnsær. Sjálfgefið er að kostnaðarúthlutun sé á aðalkostnaðareiningu, sem er æskilegt í sumum tilvikum, en það hefur ákveðin áhrif sem hafa þarf í huga.
 
 -   Hjálparkostnaðarhlutir hafa núllstöðu fyrir aðalkostnaðareiningar eftir útreikning á sameiginlegum kostnaði.
-
 -   Fjöldi kostnaðarfærslna sem til verða vegna útreiknings á sameiginlegum kostnaði getur verið mjög mikill.
-
 -   Ekki er hægt að fylgjast með kostnaðarflæði milli kostnaðarhluta.
 
 Til að forðast það gerir kostnaðarbókhald kleift að skilgreina kostnaðarúthlutun þannig að hún passi inn í stjórnunarlegar skýrslukröfur fyrirtækisins. Þetta efnisatriði fjallar um hvernig þú getur ákvarðað rétt stig aukakostnaðareininga og stofnað reglur fyrir samantekt kostnaðar sem hæfa skýrslugerð fyrirtækis og rekjanleika kostnaðar.

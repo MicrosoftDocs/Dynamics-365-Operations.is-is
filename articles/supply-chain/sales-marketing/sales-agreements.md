@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f76e06f7265a4dc1837a66171d3db13bc2e580
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982510"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694369"
 ---
 # <a name="sales-agreements-overview"></a>Yfirlit sölusamninga
 
@@ -36,7 +36,8 @@ Gildistíma sölusamningslínunni er skilgreint með **upphafsdagsetningu** og *
 
 Hægt er að stofna sölupöntun beint úr sölusamning með því að nota í **Úttektarpöntun** aðgerð. Einnig er hægt að velja virkan sölusamnings þegar verið er að taka pantanirnar (sjá í "Nota sölusamningar í pöntunarferlið" hluta í þessari grein).  
 
-> [Athugasemd!] Í eldri útgáfum voru sölusamningar nefndir standandi sölupantanir.
+> [!NOTE] 
+> Í fyrri útgáfum var talað um sölusamninga sem almennar sölupantanir.
 
 ## <a name="commitment-types"></a>Ráðstöfunargerðir
 Hver lína í sölusamningi lýsir skuldbindingu um að selja eitthvað. Almennt séð, eru tvær tegundir af ráðstöfun:

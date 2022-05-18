@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2c8adaad2afee3b735c69a501d7949a807f4e770
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 18dc138693dc9fb0e8cf8727de77b5f8584cde79
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323381"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690197"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>Stilla takmörk afurðarmagns fyrir rafræn B2B-vefsvæði
 
@@ -77,7 +77,7 @@ Til að kveikja á eiginleika fyrir takmörk B2B-pöntunarmagns í Commerce-vefs
 
 [Setja upp B2B-svæði fyrir rafræn viðskipti](set-up-b2b-site.md)
 
-[Stjórna B2B viðskiptafélögum með því að nota stigveldi viðskiptavina](partners-customer-hierarchies.md)
+[Stjórna B2B-viðskiptafélögum með því að nota stigveldi viðskiptavina](partners-customer-hierarchies.md)
 
 [Stjórna notendum viðskiptafélaga á B2B svæði fyrir rafræn viðskipti](manage-b2b-users.md)
 

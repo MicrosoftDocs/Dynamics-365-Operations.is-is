@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 2a69e58095844286878e27a100fa49a44a4a71f4
-ms.sourcegitcommit: 4d7bc52e6cdf6afce3793893ba2aa07176302314
+ms.openlocfilehash: 54114fae25565ed1aae7056ef9be5a4a159291e9
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "8560517"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686520"
 ---
 # <a name="consumer-price-index-schedule"></a>Áætlun um vísitölu neysluverðs
 
@@ -30,22 +29,22 @@ ms.locfileid: "8560517"
 
 Fylgdu þessum skrefum til að bæta við VNV áætlun.
 
-1. Á **Áætlun um vísitölu neysluverðs** síðu, veldu **Nýtt**.
-2. Í **Áætlun um vísitölu neysluverðs** reit, sláðu inn einstakt nafn.
+1. Á **Áætlun vísitölu neysluverðs** síðu, veldu **Nýtt**.
+2. Í **Áætlun vísitölu neysluverðs** reit, sláðu inn einstakt nafn.
 3. Í reitnum **Lýsing** skal færa inn lýsingu.
-4. Á **Áætlun um vísitölu neysluverðs** flipa, veldu **Bæta við**.
+4. Á **Áætlun vísitölu neysluverðs** flipa, veldu **Bæta við**.
 5. Í **Vísitala neysluverðs dags** reit, tilgreindu dagsetninguna þegar nýja VNV áætlunin verður virk.
-6. Í **Áætlun um vísitölu neysluverðs** reit, sláðu inn nafnið sem þú slóst inn í skrefi 2.
+6. Í **Áætlun vísitölu neysluverðs** reit, sláðu inn nafnið sem þú slóst inn í skrefi 2.
 7. Veldu **Vista**.
 
 Fylgdu þessum skrefum til að eyða áætlunardagsetningu VNV.
 
-1. Á **Áætlun um vísitölu neysluverðs** síðu, veldu eina eða fleiri línur sem þú vilt eyða og veldu síðan **Fjarlægja**.
+1. Á **Áætlun vísitölu neysluverðs** síðu, veldu eina eða fleiri línur sem þú vilt eyða og veldu síðan **Fjarlægja**.
 2. Til að eyða allri VNV áætluninni skaltu velja á Aðgerðarrúðunni **Eyða**. Þú getur ekki eytt völdum kostnaðarverðsáætlun ef hún er tengd einhverri innheimtuáætlun.
 3. Á aðgerðarrúðunni velurðu **Ferli** til að uppfæra innheimtuáætlanir sem nota valda VNV áætlun. Nýjustu dagsetningar neysluverðs og áætlunarupphæðir verða notaðar til að uppfæra innheimtuáætlunarverð.
 4. Á **Ferli vísitölu neysluverðs** Flýtiflipi, skoðaðu uppfærða **Númer innheimtuáætlunar**, **·**, **innheimtu**, **innheimtu**, **·**, og **Stækkunartíðni** sviðum.
 
-Eftir að kostnaðarverðsáætlanir hafa verið settar upp er hægt að nota þær fyrir hækkun og afsláttarverðbreytingar á innheimtuáætlunum.
+Eftir að VNV áætlanir hafa verið settar upp er hægt að nota þær til að hækka og afslætti verðbreytingar á innheimtuáætlunum.
 
 ## <a name="cpi-calculation"></a>VNV útreikningur
 

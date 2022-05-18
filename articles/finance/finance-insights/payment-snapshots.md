@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f9b6d44b7381817a40b86c17ee4eaf3dbfc46b67
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f84afddb26136797a7d35faf52325702b8e41a45
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983518"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725346"
 ---
 # <a name="snapshots-overview"></a>Yfirlit yfir skyndimyndir
 
@@ -40,6 +40,6 @@ Hægt er að búa til skyndimynd með því að velja **Ný skyndimynd** á anna
 
 Hægt er að breyta sjóðsinnstreymi og -útstreymi í skyndimynd hvenær sem er. Þegar upphæð innstreymis eða útstreymis er breytt er uppfærðri upphæð skipt hlutfallslega í greiðslugetulykla sem saman mynda upprunalega stöðu. Veljið **Vista** til að vista breytingarnar þegar búið er að breyta skyndimynd.
 
-Til að bera saman raunverulegar fjárhagsniðurstöður við spá sem var vistuð sem skyndimynd skal velja **Bera saman við rauntölur**. The **Bera saman við raunveruleikann** síða mun sýna samanburð á raunverulegum upphæðum og spánni. Í töflunni á efri hluta síðunnar er að sjá samanburð á sjóðsinnstreymi og ráðstöfun handbærs fjár og stöðum í banka á þeim tímabilum sem skarast á milli skyndimyndanna tveggja. Hnitanetið á neðri hlutanum sýnir nákvæman samanburð á raunstöðu á hverju tímabili og spástöðu fyrir hverja greiðslugetuupphæð. Dálkurinn **Frávik** á hnitanetinu sýnir muninn á milli raunstöðu á tímabili og spástöðu.
+Til að bera saman raunverulegar fjárhagsniðurstöður við spá sem var vistuð sem skyndimynd skal velja **Bera saman við rauntölur**. The **Berðu saman við raunveruleikann** síða mun sýna samanburð á raunverulegum upphæðum og spánni. Í töflunni á efri hluta síðunnar er að sjá samanburð á sjóðsinnstreymi og ráðstöfun handbærs fjár og stöðum í banka á þeim tímabilum sem skarast á milli skyndimyndanna tveggja. Hnitanetið á neðri hlutanum sýnir nákvæman samanburð á raunstöðu á hverju tímabili og spástöðu fyrir hverja greiðslugetuupphæð. Dálkurinn **Frávik** á hnitanetinu sýnir muninn á milli raunstöðu á tímabili og spástöðu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

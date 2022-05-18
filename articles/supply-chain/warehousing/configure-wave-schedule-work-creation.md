@@ -1,7 +1,7 @@
 ---
 title: Áætla stofnun vinnu í bylgju
 description: Þetta efnisatriði lýsir því hvernig á að setja upp og nota vinnsluaðferð bylgju fyrir áætla stofnun vinnu.
-author: perlynne
+author: Mirzaab
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5b1e798ac0558e7c5b0bbe4b6a732cbdcf5729a1
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: c955e7275c0bdc12dc206dde1d7e390f16270148
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920114"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691132"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Áætla stofnun vinnu í bylgju
 
@@ -54,7 +53,7 @@ Fyrirliggjandi skilgreiningum verks og bylgjuúrvinnslu verður einnig haldið f
 Ef þörf er á er hægt að snúa við öllum stillingum sem voru gerðar sjálfkrafa þegar eiginleikinn *Bylgjuaðferðin „Áætla stofnun vinnu“ fyrir allt fyrirtækið* var virkjaður með því að gera eftirfarandi:
 
 - Fyrir bylgjusniðmát skal fara í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Bylgjusniðmát**. Skipta út aðferðinni *Áætla stofnun vinnu* fyrir *Stofna vinnu*.
-- Fyrir vöruhúsafæribreytur, farðu í **Vöruhússtjórnun \> Uppsetning \> Vöruhússtjórnunarfæribreytur**. Í flipanum **Bylgjuvinnsla** skal nota æskileg gildi fyrir **Vinna bylgjur í runu** og **Bíða eftir læsingu (ms)**.
+- Fyrir vöruhúsabreytur, farðu í **Vöruhússtjórnun \> Uppsetning \> Vöruhússtjórnunarfæribreytur**. Í flipanum **Bylgjuvinnsla** skal nota æskileg gildi fyrir **Vinna bylgjur í runu** og **Bíða eftir læsingu (ms)**.
 - Fyrir bylgjuaðferðir skal fara í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Vinnsluaðferðir bylgju**. Veljið `WHSScheduleWorkCreationWaveStepMethod` og á aðgerðasvæðinu velja **Skilgreining verks**. Breytið eða eyðið fjölda runuverka og úthlutuðum runuflokki fyrir hvert birt vöruhús eftir þörfum.
 
 ## <a name="manually-configure-scheduled-work-creation"></a>Skilgreina handvirkt áætlaða vinnustofnun

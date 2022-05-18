@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
-ms.translationtype: HT
+ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625417"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710864"
 ---
 # <a name="provision-human-resources"></a>Úthluta Human Resources
 
@@ -144,7 +143,7 @@ Notaðu eftirfarandi leiðbeiningar þegar þú ákveður hvaða Power Apps-umhv
 6. Möguleikar tvöfaldrar skráningar fyrir samþættingu gagna í Human Resources við Power Apps umhverfi er aðeins hægt að nota ef valkosturinn **Virkja Dynamics 365-forrit** er valinn fyrir umhverfið. Frekari upplýsingar um tvöfalda skráningu er að finna í [Heimasíða tvöfaldrar skráningar](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
 
     > [!NOTE]
-    > Velja þarf valkostinn **Virkja Dynamics 365-forrit** þegar Power Apps umhverfið er búið til. Ef valkosturinn er ekki valinn við úthlutun verður ekki hægt að nota tvöfalda skráningu til að samþætta gögn milli Dynamics 365 Human Resources og Power Apps umhverfis eða setja upp Dynamics 365-forrit á borð við Dynamics 365 Sales og Field Service í umhverfið. Þessi valkostur er ekki afturkallanlegur. Frekari upplýsingar er að finna í [Nokkur mikilvæg atriði við gerð nýs umhverfis](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) á svæði Power Platform fylgigagna.
+    > Velja þarf valkostinn **Virkja Dynamics 365-forrit** þegar Power Apps umhverfið er búið til. Ef valkosturinn er ekki valinn við úthlutun verður ekki hægt að nota tvöfalda skráningu til að samþætta gögn milli Dynamics 365 Human Resources og Power Apps umhverfis eða setja upp Dynamics 365-forrit á borð við Dynamics 365 Sales og Field Service í umhverfið. Þessi valkostur er ekki afturkallanlegur. Frekari upplýsingar er að finna í [Nokkur mikilvæg atriði við gerð nýs umhverfis](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) á svæði Power Platform fylgigagna.
 
 7. Eftir að þú hefur ákveðið rétt umhverfi sem til að nota, getur þú haldið áfram með úthlutunarferlið. 
 

@@ -1,6 +1,6 @@
 ---
 title: Sniðmát veitu fyrir meðlimi tölfræðivídda og tölfræðiveita
-description: Þetta efnisatriði veitir upplýsingar um meðlimi tölfræðivíddar og talnagagna mæling þjónustuveita sniðmát. Meðlimi víddar vinnslu geta verið notaðir sem úthlutun grunneining í reglum eins og kostnaðar dreifingu og kostnaðarúthlutun. Þær einnig má nota til að skrá notkun peningalegt-ekki kostnað.
+description: Þetta efnisatriði veitir upplýsingar um meðlimi tölfræðivíddar og talnagagna mæling þjónustuveita sniðmát.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5daac80fdc62fb996be82aa4c8bb7bb3c8dc03e9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767648"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733907"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Sniðmát veitu fyrir meðlimi tölfræðivídda og tölfræðiveita
 
@@ -69,7 +69,7 @@ Hér eru nokkur dæmi um meðlimi víddar dæmigerðan vinnslu.
 
 ## <a name="statistical-measure-provider-template"></a>Veitusniðmát tölfræðiaðgerðar
 
-Talnagögn mælingar geta átt sér margar gerðir aðila. Dynamics 365 Finance er frábær uppspretta til að draga út skjámynd tölfræðiaðgerða. Hægt er að nota sniðmát tölfræðilega mæling þjónustuveita skilgreiningu auðveldlega tölfræðilega mælieiningar sem óskað er eftir að draga.
+Talnagögn mælingar geta átt sér margar gerðir aðila. Dynamics 365 Finance er frábær uppspretta til að draga tölfræðilegar mælingar úr. Hægt er að nota sniðmát tölfræðilega mæling þjónustuveita skilgreiningu auðveldlega tölfræðilega mælieiningar sem óskað er eftir að draga.
 
 Skilgreiningar á tölfræðilega mæling þjónustuveita sniðmát er almenna og hægt að margnota lykilorð með mörgum meðlimi víddar vinnslu.
 
@@ -128,13 +128,13 @@ Einnig er hægt að bæta einum eða fleiri afmarkanir til þess að þrengja m�
 > [!NOTE]
 > Í þessu dæmi er mælt verður að stofna aðeins fyrir þá **Raun útgáfu**.
 
-Farið **kostnaðarbókhald fjárhags** \> **Raunútgáfu** \> **Stýra** \> **Talnagögn mælingar** koma á í tengslum við. Í þessari atburðarás skaltu velja gagnatenginguna **Dynamics 365 Finance - Tölfræðiaðgerðir** vegna þess að við viljum draga gögn út úr Finance.
+Farið **kostnaðarbókhald fjárhags** \> **Raunútgáfu** \> **Stýra** \> **Talnagögn mælingar** koma á í tengslum við. Fyrir þessa atburðarás skaltu velja **Dynamics 365 Finance – Tölfræðilegar mælingar** gagnatengi, vegna þess að við viljum draga gögn úr Fjármálum.
 
 **Uppruni gagna**
 
 | Nafn        | Gagnatengi                                                                     | Tölfræðilegt víddarstak |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| Starfsmanna í fullu Starfi D365FO | Dynamics 365 Finance – Tölfræðiaðgerðir | Starfsmanna í fullu Starfi                         |
+| Starfsmanna í fullu Starfi D365FO | Dynamics 365 Finance – Tölfræðilegar mælingar | Starfsmanna í fullu Starfi                         |
 
 **Skilgreining gagnaveitanda**
 
@@ -216,13 +216,13 @@ Einnig er hægt að bæta sviðum þrengja mælingar uppruna töflu.
 > [!NOTE]
 > Í þessu dæmi er mælt verður að stofna aðeins fyrir þá **Raun útgáfu**.
 
-Farið **kostnaðarbókhald fjárhags** \> **Raunútgáfu** \> **Stýra** \> **Talnagögn mælingar** koma á í tengslum við. Í þessari atburðarás skaltu velja gagnatenginguna **Dynamics 365 Finance - Tölfræðiaðgerðir** vegna þess að við viljum draga gögn út úr Finance.
+Farið **kostnaðarbókhald fjárhags** \> **Raunútgáfu** \> **Stýra** \> **Talnagögn mælingar** koma á í tengslum við. Fyrir þessa atburðarás skaltu velja **Dynamics 365 Finance – Tölfræðilegar mælingar** gagnatengi, vegna þess að við viljum draga gögn úr Fjármálum.
 
 **Uppruni gagna**
 
 | Nafn           | Gagnatengi                                                                     | Tölfræðilegt víddarstak |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| Pakka CC D365FO | Dynamics 365 Finance – Tölfræðiaðgerðir | Þjónustupakka CC                      |
+| Pakka CC D365FO | Dynamics 365 Finance – Tölfræðilegar mælingar | Þjónustupakka CC                      |
 
 Kerfið viðurkennir ProdRouteTrans er í töfluna þar sem hver færslan tilheyrir sérstakur lögaðili. Þess vegna er spurt verður að velja lögaðili sem á að flytja inn færslur úr.
 

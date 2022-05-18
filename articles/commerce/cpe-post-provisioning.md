@@ -2,7 +2,7 @@
 title: Skilgreina Dynamics 365 Commerce matsumhverfi
 description: Þetta efnisatriði útskýrir hvernig á að grunnstilla Microsoft Dynamics 365 Commerce matsumhverfi eftir úthlutun þess.
 author: psimolin
-ms.date: 12/10/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5883a6e68628d706fa19d7d23b68f17007c32890
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: d9738700ca495d54c91ad91aa9c5a3d32c95a5a5
+ms.sourcegitcommit: 4a973ac0e7af0176270a8070a96a52293567dfbf
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913728"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "8747638"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Skilgreina Dynamics 365 Commerce matsumhverfi
 
@@ -39,7 +39,9 @@ Eftir að Commerce-umhverfismatinu hefur verið úthlutað í heild sinni, þarf
 1. Veldu umhverfið á listanum.
 1. Í upplýsingum um umhverfið hægra megin skal velja **Skrá inn í umhverfi**. Þér verður beint á Commerce Headquarters.
 1. Gakktu úr skugga um að lögaðilinn **USRT** sé valinn efst í hægra horninu.
-2. Fara til **Viðskiptafæribreytur > Stillingarfæribreytur** og vertu viss um að það sé færsla fyrir **ProductSearch.UseAzureSearch** stillt á **satt**. Ef þessa færslu vantar geturðu bætt þessari færslu við og keyrt **Rásargagnagrunnur > Full samstilling** fyrir Commerce Scale eininguna sem tengist eCommerce vefsíðunni þinni.
+1. Fara til **Viðskiptabreytur \> Stillingarfæribreytur** og tryggja að það sé færsla fyrir **ProductSearch.UseAzureSearch** og að gildið sé stillt á **satt**. Ef þessa færslu vantar geturðu bætt henni við, stillt gildið á **satt**, og veldu síðan **Rásargagnagrunnur \> Full gagnasamstilling** fyrir Commerce Scale Unit sem tengist netverslunarvefsíðunni þinni.
+1. Fara til **Verslun og verslun \> Uppsetning höfuðstöðva \> Viðskiptaáætlun \> Frumstilla viðskiptaáætlun**. Á **Frumstilla viðskiptaáætlun** valmynd, stilltu **Eyða núverandi uppsetningu** valmöguleika til **Já**, og veldu síðan **Allt í lagi**.
+1. Til að bæta rásum við Commerce Scale Unit, farðu á **Verslun og verslun \> Uppsetning höfuðstöðva \> Viðskiptaáætlun \> Rásar gagnagrunnur**, og veldu síðan Commerce Scale Unit í vinstri glugganum. Á **Smásölurás** Flýtiflipi, bættu við **AW netverslun**, **Business vefverslun**, og **Fabrikam útbreidd netverslun** rásir. Valfrjálst geturðu líka bætt við smásöluverslunum ef þú ætlar að nota POS (td, **Seattle**, **Fransiskó**, og **San Jose**).
 
 Við úthlutun verkþátta eftir á í Commerce Headquarters skal ganga úr skugga um að **USRT** lögaðilinn sé alltaf valinn.
 
@@ -84,7 +86,8 @@ Til að hefja uppsetningu á matssvæðinu þínu í Commerce skal fylgja þessu
 1. Veldu **Fabrikam útvíkkuð netverslun** sem sjálfgefna rás. (Gakktu úr skugga um að þú veljir **framlengda** netverslun.)
 1. Veldu **en-us** sem sjálfgefið tungumál.
 1. Hafðu gildið í reitnum **Slóð** eins og það er.
-1. Veljið **Í lagi**. Listinn yfir síður svæðisins birtist.
+1. Veldu **Í lagi**. Listinn yfir síður svæðisins birtist.
+1. Endurtaktu skref 2-7 fyrir **AdventureWorks** síða (sem kortleggst á **AW netverslun** rás) og **AdventureWorks Viðskipti** síða (sem kortleggst á **AW Business vefverslun** rás). Ef **Leið** reiturinn fyrir Fabrikam síðuna er tómur, þá verður þú að bæta við slóðum fyrir þær tvær AdventureWorks síður (td „aw“ og „awbusiness“).
 
 ## <a name="enable-jobs"></a>Virkja vinnslur
 
@@ -149,6 +152,28 @@ Til að grunnstilla valfrjálsa eiginleika fyrir Commerce-matsumhverfið skal sk
 
 > [!NOTE]
 > Matsumhverfi Commerce koma með forhlöðnum Azure Active Directory (Azure AD) B2C-leigjanda fyrir sýnikennslu. Ekki er krafist þess að skilgreina eigin Azure AD B2C-leigjanda fyrir matsumhverfi. Ef þú ert hinsvegar að skilgreina matsumhverfið til að nota þinn eigin Azure AD B2C-leigjanda skaltu ganga úr skugga um að bæta við ``https://login.commerce.dynamics.com/_msdyn365/authresp`` sem svörunarvefslóð í Azure AD B2C-forritinu gegnum Azure -gáttina.
+
+## <a name="troubleshooting"></a>Úrræðaleit
+
+### <a name="site-builder-channel-list-is-empty-when-configuring-site"></a>Ráalisti vefsvæðisgerðarmanns er tómur þegar vefsvæði er stillt
+
+Ef vefsmiður sýnir engar netverslunarrásir, tryggðu í höfuðstöðvunum að rásunum hafi verið bætt við viðskiptaskalaeininguna eins og lýst er í [Áður en þú byrjar](#before-you-start) kafla hér að ofan. Einnig, hlaupa **Frumstilla viðskiptaáætlun** með **Eyða núverandi uppsetningu** gildi stillt á **Já**.  Þegar þessum skrefum er lokið, á **Rásar gagnagrunnur** síða (**Verslun og verslun \> Uppsetning höfuðstöðva \> Viðskiptaáætlun \> Rásar gagnagrunnur**), keyra **9999** starf á verslunarsviði.
+
+### <a name="color-swatches-are-not-rendering-on-the-category-page-but-are-rendering-on-the-product-details-page-pdp-page"></a>Litapróf eru ekki birt á flokkasíðunni, heldur eru þau birt á vöruupplýsingasíðunni (PDP) síðunni
+
+Fylgdu þessum skrefum til að tryggja að lita- og stærðarsýnin séu stillt á að vera endurbætt.
+
+1. Í höfuðstöðvunum, farðu til **Verslun og verslun \> Rásaruppsetning \> Rásarflokkar og vörueiginleikar**.
+1. Í vinstri glugganum, veldu netverslunarrásina og veldu síðan **Stilltu lýsigögn eiginda**.
+1. Stilltu **Sýna eigind á rás** valmöguleika til **Já**, stilltu **Hægt að betrumbæta** valmöguleika til **Já**, og veldu síðan **Vista**. 
+1. Farðu aftur á rásarsíðu netverslunarinnar og veldu síðan **Birtu rásaruppfærslur**.
+1. Fara til **Verslun og verslun \> Uppsetning höfuðstöðva \> Viðskiptaáætlun \> Rásar gagnagrunnur** og keyra **9999** starf á verslunarsviði.
+
+### <a name="business-features-dont-appear-to-be-turned-on-for-the-adventureworks-business-site"></a>Viðskiptaeiginleikar virðast ekki vera kveiktir á AdventureWorks viðskiptasíðu
+
+Í höfuðstöðvum skaltu ganga úr skugga um að netverslunarrásin sé stillt með **Tegund viðskiptavinar** stillt á **B2B**. Ef **Tegund viðskiptavinar** er stillt á **B2C**, nýja rás verður að búa til þar sem ekki er hægt að breyta núverandi rás. 
+
+Kynningargögn send í Commerce útgáfu 10.0.26 og fyrr voru með villu þar sem **AW Business vefverslun** rás var rangstillt. Lausnin er að búa til nýja rás með sömu stillingum og stillingum nema fyrir **Tegund viðskiptavinar**, sem ætti að vera stillt á **B2B**.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

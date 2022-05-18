@@ -1,6 +1,6 @@
 ---
 title: Jafna hlutagreiðslu fyrir afsláttardagsetningu og lokagreiðslu eftir afsláttardagsetningu
-description: Þessi grein fer í gegnum aðstæður þar sem margar hlutagreiðslur eru greiddar, sumar innan staðgreiðsluafsláttartímabils og önnur utan staðgreiðsluafsláttartímabilsins.
+description: Þetta efni leiðir þig í gegnum atburðarás þar sem margar hlutagreiðslur eru gerðar, sumar innan staðgreiðsluafsláttartímabilsins og aðrar utan staðgreiðsluafsláttartímabilsins.
 author: abruer
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14411
 ms.assetid: 302ad6ae-28ee-4899-9f6b-f74424a5f50c
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 693339929bbdbc960afc2a5e63b3a3864bfd3ca19cd2dbc992de776836b17e50
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7331b4b2ad48cfa380497336d4ac22c8723568b5
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737138"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716748"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Jafna hlutagreiðslu fyrir afsláttardagsetningu og lokagreiðslu eftir afsláttardagsetningu
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein fer í gegnum aðstæður þar sem margar hlutagreiðslur eru greiddar, sumar innan staðgreiðsluafsláttartímabils og önnur utan staðgreiðsluafsláttartímabilsins.
+Þetta efni leiðir þig í gegnum atburðarás þar sem margar hlutagreiðslur eru gerðar, sumar innan staðgreiðsluafsláttartímabilsins og aðrar utan staðgreiðsluafsláttartímabilsins.
 
 Fabrikam kaupir vörur frá lánardrottni 3057. Fabrikam fær 1 prósent afslátt ef reikningurinn er greiddur innan 14 daga. Greiða þarf reikninga eftir 30 daga. Lánardrottinn veitir Fabrikam einnig staðgreiðsluafslátt á hlutagreiðslum. Uppgjörsfæribreytur eru staðsettar á síðunni **Færibreytur viðskiptaskulda**.
 

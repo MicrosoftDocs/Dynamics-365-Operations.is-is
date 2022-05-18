@@ -1,30 +1,30 @@
 ---
 title: Yfirlit yfir fjárhagssamstæður og umreikning gjaldmiðla
 description: Þetta efnisatriði lýsir fjármálasamstæðum og umreikningi gjaldmiðils í Fjárhag.
-author: jiwo
+author: jinniew
 ms.date: 10/07/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: aolson
+ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a77fe5e1970c617203706d9d629ac65e3a47909b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f6f0094ac3307164e1c715a71e16b0766247e275
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982406"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713869"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Yfirlit yfir fjárhagssamstæður og umreikninga gjaldmiðils
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði fer með þér í gegnum nálgunina sem bæði Microsoft Dynamics 365 Finance og fjárhagsskýrslugerð nota fyrir samstæður. Það lýsir aðstæðum sem fela í sér skýrslugerð fyrir mörg fyrirtæki, uppsöfnun, losun og hlutdeild minnihluta. Það útskýrir einnig hvernig skal takast á við sérstakar aðstæður, svo sem aðstæður þar sem lögaðilar eru með mismunandi fjárhagstímabil eða mismunandi bókhaldslykla.
+Þetta efni tekur þig í gegnum nálgunina sem bæði Microsoft Dynamics 365 Fjármál og reikningsskil notkun fyrir samstæður. Það lýsir aðstæðum sem fela í sér skýrslugerð fyrir mörg fyrirtæki, uppsöfnun, losun og hlutdeild minnihluta. Það útskýrir einnig hvernig skal takast á við sérstakar aðstæður, svo sem aðstæður þar sem lögaðilar eru með mismunandi fjárhagstímabil eða mismunandi bókhaldslykla.
 
 Þetta efnisatriði var skrifað fyrir notendur og hagnýta ráðgjafa og gerir ráð fyrir að lesendur hafi almennan skilning á Finance og fjárhagsskýrslugerð. Ekki er fjallað um grunnuppsetningu.
 

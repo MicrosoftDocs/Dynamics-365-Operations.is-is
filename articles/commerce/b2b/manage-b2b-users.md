@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c2fb4846a8457296a2ce758198ade5f4b0df8124
-ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
-ms.translationtype: HT
+ms.openlocfilehash: ef8ae583f18048fc6a36adf38ee7be0fb5b02fcd
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8616858"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8686325"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Stjórna notendum samstarfsaðila á rafrænum B2B-vefsvæðum
 
@@ -28,7 +28,7 @@ ms.locfileid: "8616858"
 Þetta efni lýsir því hvernig á að bæta við, eyða og breyta notendum viðskiptafélaga á Microsoft Dynamics 365 Commerce viðskipti á milli fyrirtækja (B2B) netviðskiptavefsíður og í höfuðstöðvum viðskipta.
 
 > [!NOTE]
-> - The [Stjórna B2B viðskiptafélaga með því að nota stigveldi viðskiptavina](partners-customer-hierarchies.md) efni er forsenda þessa skjals.
+> - The [Stjórna B2B viðskiptafélögum með því að nota stigveldi viðskiptavina](partners-customer-hierarchies.md) efni er forsenda þessa skjals.
 > - Gakktu úr skugga um að þú frumstillir einingu skjalategunda í höfuðstöðvum Commerce með því að opna **Skjalagerðir** form kl **Stjórn stofnunarinnar \> Skjalastjórnun \> Skjalagerðir**.
 
 Rafræn B2B-vefsvæði krefjast þess að fyrirtæki skrái sig til að gerast samstarfsaðilar. Eftir að stofnun hefur sent skráningarupplýsingar á B2B rafræn viðskipti vefsíðu fer skráningarbeiðnin í gegnum hæfisferli. Ef fyrirtækið telst hæft er það tekið inn sem samstarfsaðili.

@@ -1,20 +1,20 @@
 ---
 title: Swedish Intrastat
 description: Þetta efnisatriði inniheldur upplýsingar um Intrastat-skýrslugerð í Svíþjóð.
-author: andosip
+author: anasyash
 ms.date: 8/24/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 1031b93950e44fe3b1b6254bf1503b4c09d6fd10
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486947"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727399"
 ---
 # <a name="swedish-intrastat"></a>Swedish Intrastat
 
@@ -43,7 +43,7 @@ Frekari upplýsingar er að finna í [Sækja skilgreiningar rafrænnar skýrslug
 
 ## <a name="set-up-foreign-trade-parameters"></a>Setja upp færibreytur erlendra viðskipta
 
-1. Í Microsoft Dynamics 365 Finance skal fara í **Skattur** > **Uppsetning** > **Færibreytur erlendra viðskipta**.
+1. Í Microsoft Dynamics 365 Fjármál, farðu til **Skattur** > **Uppsetning** > **Staðlar utanríkisviðskipta**.
 2. Í flipanum **Intrasta**, í flýtiflipanum **Rafræn skýrslugerð**, í reitnum **Vörpun skráarsniðs**, skal velja **Intrastat (SE)**.
 3. Í reitnum **Vörpun skýrslusniðs** skal velja **Intrastat skýrslu**.
 4. Í flýtiflipanum **Stigveldi vörukóða**, í reitnum **Tegundastigveldi**, velja **Intrastat**.

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 323a1e6d426208a880a72dd89f7be04bacbf13a8e6c5d8ab7599217cfc18f2c0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 978c99ddd3e56e6699ab128a154a5594685d5956
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720575"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712494"
 ---
 # <a name="configure-settlement"></a>Skilgreina uppgjör
 
@@ -28,7 +28,7 @@ ms.locfileid: "6720575"
 
 Hvernig og hvenær færslur eru gerð upp getur verið flókin viðfangsefni, svo það er mikilvægt að þú skiljir og rétt skilgreinir færibreytur til að mæta þörfum fyrirtækis þíns. Þessa efnisatrðið lýsir færibreytunum sem eru notaðar til að jafna bæði viðskiptakröfur og viðskiptaskuldir. 
 
-Eftirfarandi færibreytur hafa áhrif á hvernig uppgjör eru unnin í Microsoft Dynamics 365 Finance. Jöfnun er ferli þar sem reikningur er jafnaður gegn greiðslu eða kreditnótu. Þessar færibreytur eru staðsettar í á **uppgjör** svæði í **Færibreytur viðskiptakrafna** og **Færibreytur viðskiptaskulda** síður.
+Eftirfarandi færibreytur hafa áhrif á hvernig uppgjör er unnið í Microsoft Dynamics 365 Fjármál. Jöfnun er ferli þar sem reikningur er jafnaður gegn greiðslu eða kreditnótu. Þessar færibreytur eru staðsettar í á **uppgjör** svæði í **Færibreytur viðskiptakrafna** og **Færibreytur viðskiptaskulda** síður.
 
 - **Sjálfvirkt uppgjör** – þessi valkostur er Stilltur **Já** ef á að jafna færsluna sjálfvirkt gagnvart öðrum opnum færslum þegar hún er bókuð. Ef þessi valkostur er stilltur á **Nei**, geta notendur handvirkt jafna færslur þegar greiðslur eru færðar inn, eða seinna með því að nota í **Jafna færslur** síðu.
 - **Stýring staðgreiðsluafsláttar** – Tilgreina hvernig skal meðhöndla [staðgreiðsluafsláttar þegar reikningur ofgreiddur](cash-discount-handling-overpayments.md). Fyrir ofgreiðslu er hægt að minnka staðgreiðsluafslátt, hægt er að meðhöndla það sem mismun eða hún getur verið áfram á reikning fyrir lánardrottinn eða viðskiptavinur.

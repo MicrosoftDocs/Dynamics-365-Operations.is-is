@@ -1,7 +1,7 @@
 ---
 title: LIFO (síðast inn - fyrst út) með efnislegu virði og marki
 description: Síðast inn, fyrst út (LIFO) er birgðalíkan þar sem síðustu (nýjustu) innhreyfingar eru úthreyfðar fyrst. Úthreyfingar úr birgðum eru jafnaðar á móti síðustu innhreyfingu í birgðir, samkvæmt dagsetningu birgðafærslunnar.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/02/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 55021
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd57d58aa91aa87b1c2feff52a568296fc18ed9b
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 45316c40cce988c0758e70af627b0123ec1f7873
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092165"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8670441"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO (síðast inn - fyrst út) með efnislegu virði og marki
 
@@ -51,7 +51,7 @@ Eftirfarandi dæmi sýna áhrif þess að nota LIFO með þremur mismunandi skil
 
 Eftirfarandi sýnidæmi sýnir áhrif birgðalíkans FIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er ekki notaður.
 
-![LIFO án valkostarins Include efnislegt gildi.](./media/lifo-without-including-physical-value.png)
+![LIFO án valmöguleikans Include efnislegt gildi.](./media/lifo-without-including-physical-value.png)
 
 **Lykill að skýringarmynd**
 
@@ -76,12 +76,12 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 - 1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 - 2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
 - 2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 22,00 USD á hverja.
-- 3a. Raunveruleg útgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 16.00 (hlaupandi meðaltal líkamlegra og fjárhagslega bókfærðra færslur).
-- 3b. Fjárhagsútgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 16.00 (hlaupandi meðaltal líkamlegra og fjárhagslega bókfærðra færslna).
+- 3a. Raunveruleg útgáfa birgða fyrir magn sem er 1 á kostnaðarverði USD 16.00 (hlaupandi meðaltal af líkamlegum og fjárhagslegum bókuðum færslum).
+- 3b. Fjárhagsútgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 16.00 (hlaupandi meðaltal líkamlegra og fjárhagslegra bókaða færslna).
 - 4a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 - 5a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 - 5b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.
-- 6a. Raunveruleg útgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 23.67 (hlaupandi meðaltal líkamlegra og fjárhagslegra bókaða færslna).
+- 6a. Raunveruleg útgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 23.67 (hlaupandi meðaltal líkamlegra og fjárhagslegra bókaða færslur).
 - 7\. Birgðalokun er framkvæmd. Byggt á LIFO-aðferðinni verður fyrsta fjárhagslega uppfærða útgáfan jöfnuð á móti síðustu fjárhagslega uppfærðu kvittun og svo framvegis. Í þessu dæmi er ein uppgjör búin til á milli 3b og 5b. Leiðrétting á USD 14.00 verður gerð í 3b og endanlegur kostnaður verður USD 30.00. Að auki verður færsla 6a aðlöguð að kvittunarfærslukostnaði 4a. Kerfið mun ekki jafna þessar færslur þar sem innhreyfingin uppfærist efnislega en ekki fjárhagslega. Þess í stað verður aðeins leiðrétting á USD 1.33 bókuð á efnislega útgáfufærsluna og leiðréttur kostnaður sem myndast verður USD 25.00.
 
 Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans LIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er notuð.

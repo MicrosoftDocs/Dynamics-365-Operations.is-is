@@ -9,23 +9,22 @@ ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7f18c3bd95901303379c460d026bc944cee809b7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0fe5bc5af953ee7cbbda3477d75a38261bb2bb10
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576665"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687413"
 ---
 # <a name="rebate-management-deal-workflows"></a>Verkflæði tilboða fyrir stjórnun eftirágreidds afsláttar
 
 [!include [banner](../includes/banner.md)]
 
-Til að samþykkja eftirágreidda afslætti notar stjórnunar eftirágreidds afsláttar sama verkflæðisvettvang og önnur Finance and Operations forrit. Tvö vinnsluferli eru tengd við öll verkflæði:
+Til að samþykkja afsláttasamninga notar endurgreiðslustjórnun sama verkflæðisvettvang og önnur fjármála- og rekstrarforrit. Tvö vinnsluferli eru tengd við öll verkflæði:
 
 - Einn þáttur verkflæðisins samþykkir tilboðið.
 - Einn þáttur verkflæðisins virkjar tilboðið þannig að notandinn eða verkflæðisferlið getur samþykkt færslurnar.

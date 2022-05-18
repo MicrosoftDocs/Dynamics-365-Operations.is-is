@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-07-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 869832f085ee91f6c1fee53dad508cf5e54535627dadd6fb59a7586b03c8ec3b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e18caf1dbdf8191713c17b1793f5da44cf2f182b
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719734"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8724530"
 ---
 # <a name="why-cant-i-reverse-this-transaction"></a>Hvers vegna get ég ekki bakfært þessa færslu?
 
@@ -35,7 +35,7 @@ Stofnanir gætu lent í aðstæðum þar sem þær verða að bakfæra færslu s
 
 ## <a name="resolution"></a>Lausn
 
-Færslur verða að uppfylla tiltekin skilyrði áður en hægt er að bakfæra þær. Eftirstandandi hlutar í þessu efnisatriði bjóða upp á staðfestingu á hverri einingu fyrir sig. Þó að þetta efni einblíni á færslur í Microsoft Dynamics 365 Finance, er hægt að beita sumum hugtökum og staðfestingum í öðrum forritum, svo sem Dynamics 365 Supply Chain Management.
+Færslur verða að uppfylla tiltekin skilyrði áður en hægt er að bakfæra þær. Eftirstandandi hlutar í þessu efnisatriði bjóða upp á staðfestingu á hverri einingu fyrir sig. Þó að þetta efni einblíni á viðskipti í Microsoft Dynamics 365 Finance, sum hugtaka og staðfestingu er hægt að beita á önnur öpp, svo sem Dynamics 365 Supply Chain Management.
 
 Að auki getur staðurinn þar sem færslan er bakfærð haft áhrif á hvort hægt sé að bakfæra hana. Til dæmis er aðeins hægt að bakfæra greiðslu lánardrottins sem er ávísun í hlutanum **Ávísanir** á færslusíðunni fyrir bankareikninganna. Ekki er hægt að bakfæra hana á síðunni **Færslur fylgiskjals** í fjárhag.
 

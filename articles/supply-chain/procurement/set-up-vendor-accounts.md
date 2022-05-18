@@ -1,7 +1,7 @@
 ---
 title: Setja upp lánardrottnalykla
 description: Þetta efnisatriði lýsir gerðir upplýsinga sem þarf að tilgreina þegar þú stofnar nýjan lykil lánardrottins.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9cbfd3a3c1afd794814bbbae07e1dc31eb9f181
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5d524ff99cba733fdd607d9708abba440248d6cc
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565472"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676975"
 ---
 # <a name="set-up-vendor-accounts"></a>Setja upp lánardrottnalykla
 
@@ -63,7 +63,7 @@ Hægt er að stofna tengiliði lánardrottins frá grunni. Einnig er hægt að a
 
 Ekki er hægt að eyða færslu tengiliðar ef vísað er til tengiliðs í skjali. Í staðinn er hægt að óvirkja tengiliðinn.  
 
-Hægt er að bæta við tengiliðum lánardrottins við persónulega tengiliði í Microsoft 365. Hins vegar verður fyrst að setja upp samstillingu milli Supply Chain Management og Microsoft 365 í bæði Microsoft Exchange Server og Microsoft Outlook uppsetningarleiðsögn.
+Hægt er að bæta við tengiliðum lánardrottins við persónulega tengiliði í Microsoft 365. Hins vegar verður fyrst að setja upp samstillingu milli Supply Chain Management og Microsoft 365 og Microsoft Exchange Server í bæði samstillingu og uppsetningarleiðsögn Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Lánardrottnar í öðrum lögaðilum
 Ef lánardrottinn er skráð aðeins fyrir einn lögaðila í fyrirtækinu, og aðrir lögaðilar þurfa að skrá sama lánardrottin, er hægt að nota **Bæta lánardrottni við annan lögaðila** síðu til að skilgreina lánardrottinn til að geta átt viðskipti við annan lögaðila. Þú verður að velja lánardrottnaflokk, gjaldmiðill, biðstöðu fyrir lánardrottinn í völdum lögaðila.  

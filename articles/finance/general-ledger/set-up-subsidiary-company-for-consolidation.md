@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: fbec5ad8fa5e17b75859c07ee64a66c9568c97d3d18b6a7616a64303d3a33f10
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bfa913ca1778391ce0f5a1b2fdf6e5828b30cb66
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727960"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8724474"
 ---
 # <a name="set-up-a-subsidiary-legal-entity-for-consolidation"></a>Setja upp dótturfyrirtæki lögaðila fyrir sameiningu
 
@@ -29,7 +29,7 @@ Aðferðin sem notuð er til að útbúa reikninga dótturfyrirtækis fyrir sams
 Áður en hafist er handa við samsetninguna sem hluti af lokun í lok tímabils, þarf að klára undirbúningsverkþætti fyrir lokun tímabils, en ekki á að loka dótturfyrirtækjalyklunum þar til samsetningunni er lokið. Frekari upplýsingar um lokun í lok tímabils er að finna í [Loka fjárhag í lok tímabils](close-general-ledger-at-period-end.md) og [Loka reikningsárinu](tasks/close-fiscal-year.md).
 
 > [!NOTE]
->  Mælt er með því að nota Management reporter fyrir Microsoft Dynamics 365 Finance til að sameina fjárhagsniðurstöður fyrir marga lögaðila á sameinuðu sniði. Management Reporter gerir kleift að stofna sameinaðar fjárhagsskýrslur yfir alla lögaðila, nota Excel til að flytja inn samstæðugögn frá öðrum upprunum og umbreyta upphæðum í hvaða fjölda skýrslugjaldmiðla sem er án þess að þurfa að keyra sameiningarferlið í Dynamics 365 Finance.
+>  Við mælum með að þú notir Management Reporter fyrir Microsoft Dynamics 365 Fjármál til að sameina fjárhagsniðurstöður margra lögaðila á samstæðusniði. Stjórnunarskýrsla gerir þér kleift að búa til samstæðufjárhagsskýrslur þvert á lögaðila, nota Excel til að flytja inn samstæðugögn frá öðrum aðilum og þýða upphæðir í hvaða fjölda skýrslugjaldmiðla sem er án þess að þurfa að keyra samstæðuferlið í Dynamics 365 Finance.
 
 ## <a name="map-subsidiary-main-accounts-to-consolidated-main-accounts"></a>Aðallyklum dótturfyrirtækis varpað í sameinaða aðallykla
 

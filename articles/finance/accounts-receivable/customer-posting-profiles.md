@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustPosting, CustVendExternalItem
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 24651
 ms.assetid: cb82245e-8c02-429c-b36e-8db0e3e6f7e5
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 91432a401a8f8a499e9f5e2bbe7157408faac822
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 1ed5ab24e37c75222080bd242aa72a39ecb476bf
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952572"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734633"
 ---
 # <a name="customer-posting-profiles"></a>Bókunarreglur viðskiptavina
 
@@ -30,7 +30,7 @@ ms.locfileid: "7952572"
 
 ## <a name="customer-posting-profiles"></a>Bókunarreglur viðskiptavina
 
-Bókunarsnið viðskiptavina gerir þér kleift að úthluta fjárhagsreikningum og skjalastillingum til allra viðskiptavina, hóps viðskiptavina eða eins viðskiptamanns. Þessar stillingar verða notaðar þegar þú býrð til sölupöntunarreikninga, frítextareikninga, verkreikninga, greiðslubækur, innheimtubréf og vaxtanótur. 
+Bókunarsnið viðskiptavina gerir þér kleift að úthluta aðalbókareikningum og skjalastillingum til allra viðskiptavina, hóps viðskiptavina eða eins viðskiptamanns. Þessar stillingar verða notaðar þegar þú býrð til sölupöntunarreikninga, frítextareikninga, verkreikninga, greiðslubækur, innheimtubréf og vaxtanótur. 
 
 Sjálfgefið póstsnið er skilgreint á **Fjárhagsbók og söluskattur** flipi á **Færibreytur viðskiptakrafna** síðu. Það er síðan sjálfkrafa innifalið í haus nýrra skjala. Þú getur breytt því þar ef annað færslusnið er krafist. 
 
@@ -45,7 +45,7 @@ Tilgreinið fjárhagslyklana sem eru notaðir við bókun færsla sem nota valda
 |--------------------------|-------------------------------------------------|-----------------|
 | Tafla                    | Tiltekinn viðskiptavinareikningur.                       | 1               |
 | Hópur                    | Viðskiptavinarflokkur sem er úthlutað á viðskiptavininn | 2               |
-| Öll                      | Autt                                           | 3               |
+| Allir                      | Autt                                           | 3               |
 
 Ef þú vilt að allar færslur viðskiptavina séu með sama bókunarprófíl skaltu aðeins setja upp eitt bókunarsnið, hvar **Allt** er fært inn í **Reikningskóði** sviði. Tilgreindu eftirfarandi gildi til að setja upp bókunarregluna.
 
@@ -114,10 +114,10 @@ Eftirfarandi tafla sýnir dæmi um sjálfgefnar bókunargerðir með sýnishorn 
 
 | Bókunargerð | Dæmi um aðalreikning | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit | Millireikningur | Lýsing |
 |--------------|----------------------|---------------------------|--------------|--------------|------------------|-------------|
-| Staða viðskiptavinar | 130100 | Viðskiptakröfur | Eign | Hvort tveggja | Nei | Tilgreindu reikninginn í **Yfirlitsreikningur** sviði.|
-| Ekkert | 110110 | Bankareikningur | Eign | Hvort tveggja | Nei | Tilgreindu aðalreikninginn í **Lausafjárreikningur fyrir greiðslur** sviði. Þessi reikningur er ekki notaður til að birta. Það er aðeins notað til að spá fyrir um sjóðstreymi. |
-| Fyrirframgreiðslur virðisauka | 202900 | Afgreiðsla söluskatts | Skuld | Hvort tveggja | Já | Færið inn lykil fyrir virðisaukaskatt fyrir fyrirframgreiðslur. |
-| Skuldbindingar vegna afsláttarlykils | 250600 | Frestað tekjur og afslættir | Skuld | Hvort tveggja | Já | Veljið fjárhagsreikning fyrir skuldir afslætti.|     
+| Staða viðskiptavinar | 130100 | Viðskiptakröfur | Eign | Bæði | Nr. | Tilgreindu reikninginn í **Yfirlitsreikningur** sviði.|
+| Ekkert | 110110 | Bankareikningur | Eign | Bæði | Nr. | Tilgreindu aðalreikninginn í **Lausafjárreikningur fyrir greiðslur** sviði. Þessi reikningur er ekki notaður til að birta. Það er aðeins notað til að spá fyrir um sjóðstreymi. |
+| Fyrirframgreiðslur virðisauka | 202900 | Afgreiðsla söluskatts | Skuld | Bæði | Já | Færið inn lykil fyrir virðisaukaskatt fyrir fyrirframgreiðslur. |
+| Skuldbindingar vegna afsláttarlykils | 250600 | Frestað tekjur og afslættir | Skuld | Bæði | Já | Veljið fjárhagsreikning fyrir skuldir afslætti.|     
 
 ### <a name="table-restrictions"></a>Töflutakmarkanir
 

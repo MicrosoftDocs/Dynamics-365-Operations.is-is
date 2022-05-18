@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: intro-internal
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 61ee15901a091ee733b83c8cbaa5b84801fa8e5d
-ms.sourcegitcommit: 4afd1e0b325d27cd7c4e0d9a198400b038262ac7
+ms.openlocfilehash: 0ab9c0cf974114c4fa9b673e5601e138acef534d
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/09/2022
-ms.locfileid: "8558314"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685912"
 ---
 # <a name="get-started-with-tax-calculation"></a>Hafist handa með skattaútreikning
 
@@ -69,7 +68,7 @@ Eftirfarandi skref veita yfirlit á háu stigi yfir stillingarferlið fyrir skat
     5. Valfrjálst: Stofna nothæfi skattaflokks ef þú vilt hnekkja sjálfgefnum söluskattsflokki sem færður er inn úr aðalgögnum viðskiptavinar eða lánardrottins.
     6. Valfrjálst: Stofna nothæfni vöruflokks ef þú vilt hnekkja sjálfgefnum vörusöluskattsflokki sem færður er inn úr stofngögnum vöru.
 
-4. Í RCS, kláraðu og birtu **Skattútreikningur** eiginleiki.
+4. Í RCS, fylltu út og birtu **Skattútreikningur** eiginleiki.
 5. Í Finance, veldu útgefið **Skattútreikningur** eiginleiki.
 
 Eftir að þú hefur lokið þessum skrefum eru eftirfarandi uppsetningar sjálfkrafa samstilltar frá RCS við Finance.
@@ -82,7 +81,7 @@ Hlutarnir sem eftir eru í þessu efni veita ítarlegri stillingarskref.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en þú getur klárað þær aðferðir sem eftir eru í þessu efni verða eftirfarandi forsendur að vera uppfylltar:<!--TO HERE-->
+Áður en þú getur klárað þær aðferðir sem eftir eru í þessu efni verða að uppfylla eftirfarandi forsendur:<!--TO HERE-->
 
 - Þú verður að hafa aðgang að LCS-reikningnum þínum og þú verður að hafa virkjað LCS-verk með umhverfi í lagi 2 (eða ofar) sem keyrir Dynamics 365 útgáfu 10.0.21 eða nýrri.
 - Þú verður að búa til RCS umhverfi fyrir fyrirtækið og þú verður að hafa aðgang að reikningnum þínum. Nánari upplýsingar um hvernig á að stofna RCS-umhverfi er að finna í [Yfirlit Regulatory configuration service](rcs-overview.md).

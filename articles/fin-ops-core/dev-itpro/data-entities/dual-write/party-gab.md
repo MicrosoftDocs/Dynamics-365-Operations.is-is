@@ -2,19 +2,19 @@
 title: Aðili og altæk aðsetursbók
 description: Þetta efnisatriði lýsir virkni aðila og altækrar aðsetursbókar tvöfaldrar skráningar.
 author: RamaKrishnamoorthy
-ms.date: 03/10/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 1e2dcfa69308f6691e787a1ff1893f9080dcaef1
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407766"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717447"
 ---
 # <a name="party-and-global-address-book"></a>Aðili og altæk aðsetursbók
 
@@ -30,7 +30,7 @@ Aðili er einstaklingur eða fyrirtæki sem stundar viðskipti. Þegar aðilahug
 
 + **Starfskraftur** – Starfsmaður. Sem dæmi má nefna starfsmann Contoso.
 + **Lánardrottinn** – Fyrirtæki birgja eða í einkaeigu sem veitir fyrirtæki eða þjónustu vöru eða þjónustu. Til dæmis, ef Fabrikam selur birgðir til Contoso, er Fabrikam söluaðili Contoso.
-+ **Tengiliður** – Einstaklingur til að hafa samband við. Til dæmis, ef Contoso kaupir vistir frá Fabrikam, munu starfsmenn hjá Contoso hafa samband við tengiliðinn hjá Fabrikam.
++ **Tengiliður** – Einstaklingur til að hafa samband við. Til dæmis, ef Contoso kaupir birgðir af Fabrikam, munu starfsmenn hjá Contoso hafa samband við tengiliðinn hjá Fabrikam.
 + **Viðskiptavinur** – Einstaklingur eða fyrirtæki sem kaupir hluti frá fyrirtæki. Til dæmis, ef Contoso kaupir vörur frá Fabrikam, er Contoso viðskiptavinur Fabrikam.
 
 Aðilalíkanið er oft notað til að tákna miðlungsflókin eða flókin tengsl milli fyrirtækja og fólks, sérstaklega þegar aðili spilar fleiri en eitt hlutverk. Hér eru nokkur algeng dæmi:
@@ -139,7 +139,7 @@ Netið inniheldur eftirfarandi dálka:
 
 Hægt er að nota hnappinn **Nýtt rafrænt aðsetur** fyrir ofan hnitanetið til að búa til eins mörg aðsetur eins og þörf er á.
 
-Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum verða allir reitir póstfangs og rafræns aðseturs fjarlægðir úr öðrum flipum (t.d. flipunum **Samantekt** og **Upplýsingar**). Samskiptaupplýsingar sem birtast í flipanum **Upplýsingar** eru skrifvarin afrit af rafrænu aðalaðsetri eins og aðalsímanúmeri, aðalnetfangi, aðalsíma, aðalfaxnúmeri og aðalaðgangs að Twitter. Í hæfnisferlinu getur þú gefið bæði upp símanúmer á vinnustað og farsímanúmer. Símanúmer fyrirtækis telst aðalsími ef **IsMobile=Nei** og farsímanúmer telst aukasími ef **IsMobile=Já**.
+Meðan á leiðarahæfisferlinu stendur geturðu gefið upp bæði viðskiptasímanúmer og farsímanúmer. Fyrirtækjasímanúmerið er talið aðalsímanúmer ef **IsMobile=Nei**, og farsímanúmerið er talið aukasímanúmer ef **IsMobile=Já**.
 
 > [!TIP]
 > Notaðu flipana **Aðsetur** og **Rafræn aðsetur** í skjámyndunum **Reikningur** og **Tengiliður** til að stjórna gáttum og rafrænum aðsetrum. Þetta tryggir að heimilisfangsgögn samstillast við fjármála- og rekstraröpp.
@@ -148,7 +148,7 @@ Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum
 
 1. Opna umhverfi í forriti viðskiptavinar.
 
-2. Setjið upp nýjustu útgáfu (2.2.2.60 eða nýrri) af [Niðurröðunarþjónusta tvöföldrar skráningar](https://aka.ms/dual-write-app).
+2. Settu upp allar nauðsynlegar lausnir, eins og lýst er í [Aðskilinn Dual-Write Application Orchestration pakki](separated-solutions.md).
 
 3. Setjið upp [Lausn tvöfaldrar skráningar á aðila og altækri aðsetursbók](https://aka.ms/dual-write-gab).
 
@@ -165,8 +165,8 @@ Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum
 
     Varpa | Uppfæra þessa útgáfu | Breytingar
     ---|---|---
-    `CDS Parties (msdyn_parties)`| 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
-    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.5 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `CDS Parties (msdyn_parties)`| 1.0.0.2 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.6 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
     `Customers V3 (accounts)` | 1.0.0.5 |Fjarlægði `PartyNumber` og aðra aðilatengda reiti eins og heiti, persónulegar upplýsingar, póstfang, rafrænt aðsetur tengiliðar.
     `Customer V3 (contacts)` | 1.0.0.5 | Fjarlægði `PartyNumber` og aðra aðilatengda reiti eins og heiti, persónulegar upplýsingar, póstfang, rafrænt aðsetur tengiliðar.
     `Vendors V2 (msdyn_vendors)` | 1.0.0.6 | Fjarlægði `PartyNumber` og aðra aðilatengda reiti eins og heiti, persónulegar upplýsingar, póstfang, rafrænt aðsetur tengiliðar.
@@ -174,16 +174,17 @@ Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum
     `Sales invoice headers V2 (invoices)` | 1.0.0.4 | Skipti út tengiliðnum fyrir `ContactforParty`-tilvísun.
     `CDS Sales order headers (salesorders)` | 1.0.0.5 | Skipti út tengiliðnum fyrir `ContactforParty`-tilvísun.
     `CDS Party postal address locations (msdyn_partypostaladdresses)` | 1.0.0.1  | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
-    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.1 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.2 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
     `CDS postal address locations (msdyn_postaladdresscollections)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
     `Party Contacts V3 (msdyn_partyelectronicaddresses)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
-    `Complimentary Closings ( msdyn_compliemntaryclosings)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `Complimentary Closings (msdyn_compliemntaryclosings)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
     `Decision making roles (msdyn_decisionmakingroles)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
     `Loyalty levels (msdyn_loyaltylevels)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
     `Contact person titles (msdyn_salescontactpersontitles)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
     `Personal character types (msdyn_personalcharactertypes)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
+    `CDS Address roles (msdyn_addressroles)` | 1.0.0.0 | Þetta er nýtt kort sem var bætt við sem hluta af þessari útgáfu.
 
 8. Áður en ofangreind kort eru keyrð verður að uppfæra samþættingarlyklana handvirkt eins og lýst er í eftirfarandi skrefum. Veldu síðan **Vista**.
 
@@ -228,7 +229,7 @@ Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum
 
 11. Ef þú ert núverandi notandi tvöfaldrar skráningar skaltu fylgja leiðbeiningunum í [Uppfæra í altæka aðila- og aðsetursbókarlíkanið](upgrade-party-gab.md) og uppfæra gögnin þín. **Ekki halda áfram í skref 12 án þess að klára þetta skref.** Ef þú ert nýr tvískrifaður notandi, haltu áfram í skref 12.
 
-12. Ef þú ert núverandi tvískrifaður notandi, kláraðu skref 11 og þá geturðu keyrt kortin í eftirfarandi röð. Ef þú ert nýr viðskiptavinur með tvískrifa geturðu haldið áfram beint. Ef þú færð villuboð sem segir „Staðfesting verkefnis mistókst. Vantar áfangastað...", opnaðu kortið og veldu **Endurnýja töflur**, keyrðu síðan kortið.
+12. Ef þú ert fyrirliggjandi notandi með tvöföldum skrifum, kláraðu skref 11 og þá geturðu keyrt kortin í eftirfarandi röð. Ef þú ert nýr viðskiptavinur með tvískrifa geturðu haldið áfram beint. Ef þú færð villuboð sem segir „Staðfesting verkefnis mistókst. Vantar áfangastað...", opnaðu kortið og veldu **Endurnýja töflur**, keyrðu síðan kortið.
 
     App fyrir fjármál og rekstur | Forrit viðskiptavinatengsla  
     ----------------------------|------------------------
@@ -251,14 +252,15 @@ Rafræn aðsetur eru aðeins í boði í þessu hnitaneti. Í síðari útgáfum
     [CDS-sölutilboðshaus](mapping-reference.md#215) | tilboð
     [Hausar CDS-sölupöntunar](mapping-reference.md#217) | salesorders
     [Sölureikningshausar V2](mapping-reference.md#118) | reikningar
+    [CDS heimilisfang hlutverk](mapping-reference.md#301) | msdyn_addressroles
 
 > [!NOTE]
-> `CDS Contacts V2 (contacts)` kortið er kortið sem var stöðvað í skrefi 1. Þegar reynt er að keyra önnur kort gætu þessi tvö kort birst í listanum yfir háða. Ekki keyra þessi kort.
+> The`CDS Contacts V2 (contacts)` kort er kortið sem þú stöðvaðir í skrefi 1. Þegar reynt er að keyra önnur kort gætu þessi tvö kort birst í listanum yfir háða. Ekki keyra þessi kort.
 >
-> Ef aðilabók og altæk aðsetursbók eru uppsettar þarf að slökkva á viðbótinni sem heitir `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Ef lausn aðilabókar og altækrar aðsetursbókar er fjarlægð þarf að endurvirkja viðbótina.
+> Ef aðila og alþjóðlegt heimilisfangabókarlausn er uppsett verður þú að slökkva á viðbótinni sem nefnt er `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Ef lausn aðilabókar og altækrar aðsetursbókar er fjarlægð þarf að endurvirkja viðbótina.
 >
 > Ekki ætti að nota reitinn `msdyn_*partynumber` (textareitur í einni línu) sem er með í töflunum **Reikningur**, **Tengiliður** og **Lánardrottinn** frá og með þessu. Heiti merkis er með forskeytið **(Úrelt)** til glöggvunar. Í staðinn skal nota **msdyn_partyid** reitinn. Þessi reitur er leit í **msdyn_party** töflunni.
-
+>
 > Töfluheiti | Gamall reitur | Nýr reitur
 > --------|-------|--------
 > Lykill | `msdyn_partynumber` | `msdyn_partyid`
@@ -290,21 +292,22 @@ Safn af töflukortum vinna saman fyrir samskipti aðila og altækrar aðsetursb�
 | [Sölureikningshausar V2](mapping-reference.md#118) | reikningar |
 | [Ávörp](mapping-reference.md#228) | msdyn\_salutations |
 | [Lánardrottnar V2](mapping-reference.md#202) | msdyn\_vendors |
+| [CDS heimilisfang hlutverk](mapping-reference.md#301) |msdyn\_ heimilisfangahlutverk|
 
 Frekari upplýsingar er að finna í [Tilvísun vörpunar á tvöfaldri skráningu](mapping-reference.md).
 
+## <a name="address-roles-as-a-multi-select-drop-down-list"></a>Fylgstu með hlutverkum sem fjölvals fellilista
+Póstfang eða rafrænt heimilisfang getur þjónað fleiri en einum tilgangi. Til dæmis getur póstfang þjónað bæði sem reikningsfang og afhendingarfang. Í þessum tilvikum getur notandi valið bæði **Reikningur** og **Afhending** í fellilistanum, eins og sýnt er á eftirfarandi mynd. 
+
+![Tilgangur/Hlutverk fellilisti.](media/purpose.png)
+
 ## <a name="known-issues-and-limitations"></a>Þekkt vandamál og takmarkanir
 
-+ Í fjármála- og rekstraröppum, þegar þú býrð til viðskiptavin ásamt heimilisfangi og vistar það, gæti heimilisfangið ekki samstillst við **Heimilisfang** borð. Þetta er vegna vandamáls varðandi röðun á verkvangi tvöfaldrar skráningar. Sem hjáleið skal stofna viðskiptavininn fyrst og vista hann. Bætið síðan aðsetrinu við.
-+ Í fjármála- og rekstraröppum, þegar viðskiptamannaskrá er með aðalheimilisfang og þú býrð til nýjan tengilið fyrir þann viðskiptavin, þá erfir tengiliðaskráin aðalheimilisfang úr tilheyrandi viðskiptamannaskrá. Þetta gerist einnig fyrir tengilið lánardrottins. Dataverse styður ekki þessa hegðun sem stendur. Ef tvískrifað er virkt er tengiliður viðskiptavinar sem er arfur með aðalnetfangi úr fjármála- og rekstrarappinu samstilltur við Dataverse ásamt heimilisfangi þess.
-+ Rafræn aðsetur sem stillt eru í flipanum rafræn aðsetur í skjámyndunum **Reikningur**, **Tengiliður** og **Lánardrottinn** koma úr `msdyn_partyelectronicaddress`-töflunni. Þessar upplýsingar renna ekki til tengdra færslna eins og sölupöntunar, tilboða og innkaupapöntunar. Við ætlum að laga þetta vandamál í stigvaxandi útgáfu. Fyrirliggjandi gögn í reitum rafræns aðseturs í færslum reiknings og tengiliðar munu halda áfram að virka í færslum eins og sölupöntun, tilboði og innkaupapöntun.
++ Í fjármála- og rekstraröppum, þegar þú býrð til viðskiptavin ásamt heimilisfangi og vistar það gæti heimilisfangið ekki samstillt við **Heimilisfang** borð. Þetta er vegna vandamáls varðandi röðun á verkvangi tvöfaldrar skráningar. Sem hjáleið skal stofna viðskiptavininn fyrst og vista hann. Bætið síðan aðsetrinu við.
++ Í fjármála- og rekstraröppum, þegar viðskiptamannaskrá er með aðalheimilisfang og þú býrð til nýjan tengilið fyrir þann viðskiptavin, þá erfir tengiliðaskráin aðalheimilisfang úr tilheyrandi viðskiptamannaskrá. Þetta gerist einnig fyrir tengilið lánardrottins. Dataverse styður ekki þessa hegðun eins og er. Ef tvískrifað er virkt er tengiliður viðskiptavinar sem er arfur með aðalnetfangi úr fjármála- og rekstrarappinu samstilltur við Dataverse ásamt heimilisfangi þess.
 + Í fjármála- og rekstrarforritum geturðu búið til tengiliðaskrá úr **Bæta við tengilið** formi. Þegar reynt er að stofna nýjan tengilið úr skjámyndinni **Skoða tengilið** mistekst aðgerðin. Þetta er þekkt vandamál.
 
     ![Þekkt vandamál með Bæta við tengilið.](media/party-gab-contact-issue.png)
 
-+ **Upphafleg samstilling** styður ekki tímareitina **Tiltækt frá** og **Tiltækt til** í **ContactForParty** vegna þess að DIXF breytir gildinu í streng í stað heiltölu. Breytingin leiðir til villunnar `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
-+ Þegar póstfang er notað af fleiri en einni ástæðu, til dæmis heimilisfang fyrirtækjasamskipta og reikningsheimilisfang, skal það birtast sem `Business;Invoice` eins og sýnt er á eftirfarandi mynd. Ef bili er bætt við á milli gildanna kemur upp villa.
-
-    ![Þekkt vandamál með heimilisfang.](media/party-gab-address-issue.png)
-
++ **Upphafleg samstilling** styður ekki tímareitina **Tiltækt frá** og **Tiltækt til** í **ContactForParty** vegna þess að DIXF breytir gildinu í streng í stað heiltölu. Breytingin leiðir til villunnar `Cannot convert the literal '<say 08:00:00>' to the expected type edm.int32`.
 + Þú getur ekki slegið inn framsenda dagsett póstfang með því að nota fjármála- og rekstrarapp með tvískrift, vegna þess að Dataverse styður ekki dagsetningarvirkni. Ef þú slærð inn framtíðardagspóstfang með því að nota fjármála- og rekstrarapp samstillast það við Dataverse að fullu og þú munt sjá heimilisfangið strax í notendaviðmótinu. Allar uppfærslur á þessari skrá munu leiða til villu þar sem hún er framtíðardagsett og ekki núverandi í fjármála- og rekstrarappinu.

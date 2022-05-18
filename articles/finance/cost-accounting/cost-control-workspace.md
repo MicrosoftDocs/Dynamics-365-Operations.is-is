@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 36e94ff2cd499a827c631d6836a6c976af53dfa1
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763191"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734605"
 ---
 # <a name="cost-control-workspace"></a>Vinnusvæði kostnaðarstýringar 
 
@@ -54,7 +54,7 @@ Ef skilgreina á vinnusvæði kostnaðarstýringar, smelltu á **Kostnaðarbókh
 | Fjárhagur kostnaðarbókhalds                                            | **Fjárhagur kostnaðarbókhalds** sem skýrslan byggir á. Gildið er sótt í reitinn **Stýrieining kostnaðar**. |
 | Stýrieining kostnaðar                                                 | Gildið sem þú velur ákvarðar fjárhag kostnaðarbókhalds og kostnaðarhluti sem þessi skýrsla byggir á. |
 | Tölfræðilegt víddarstigveldi, víddarstigveldi kostnaðareiningar | Skilgreiningarfærslur vinnusvæðisins **Kostnaðarstýring** geta annaðhvort skráð ópeningaleg eða peningaleg gildi, en ekki í sama útlitinu. Veldu gildi í reitnum **Víddarstigveldi kostnaðareiningar** til að skrá peningaleg gildi. Veldu gildi í reitnum **Tölfræðilegt víddarstigveldi** til að skrá ópeningaleg gildi. Sú skráning víddarstigveldis sem þú velur ákvarðar uppbyggingu skýrslugerðar og flokkunarstig.<blockquote>[!NOTE]<br>Til að skoða ekki fjárhagsleg og fjárhagsleg gildi hlið við hlið er hægt að flytja út gögn í Microsoft Excel fyrir Microsoft Power BI efnispakkann.</blockquote> |
-| Víddarstigveldi kostnaðarhlutar                                   | Veldu það víddarstigveldi kostnaðarhlutarvíddar sem hæfir þeirri skýrslugerð sem þú ert að skilgreina. |
+| Víddarstigveldi kostnaðarhlutar      | Veldu það víddarstigveldi kostnaðarhlutarvíddar sem hæfir þeirri skýrslugerð sem þú ert að skilgreina. |
 | Upprunaleg útgáfa fjárhagsáætlunar                                           | Veldu það auðkenni útgáfu fjárhagsáætlunar sem þjónar hlutverki upphaflegrar fjárhagsáætlunar í samhengi þessarar skýrslu. |
 | Endurskoðuð útgáfa fjárhagsáætlunar                                            | Veldu það auðkenni útgáfu fjárhagsáætlunar sem þjónar hlutverki endurskoðaðrar fjárhagsáætlunar í samhengi þessarar skýrslu. |
 

@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 222bac97d461cd0a090c3e5d99594c07724818ff
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: eb387577e4121e890a5836fdf404714eef0f0cb1
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066977"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688261"
 ---
 # <a name="create-a-new-benefit"></a>Stofna ný fríðindi
 
@@ -34,7 +33,7 @@ ms.locfileid: "8066977"
 
 1. Fara til **Mannauður \> Kostir \> Uppsetning \> Ávinningsþættir**.
 2. Veljið **Nýtt**.
-3. Í **Tegund** reit, sláðu inn nafn tegundar ávinnings sem þú ert að búa til.
+3. Í **Gerð** reit, sláðu inn nafn tegundar ávinnings sem þú ert að búa til.
 4. Sláið inn gildi í reitnum **Lýsing**.
 5. Í **Samhliða innritun** reit, veldu valkost.
 
@@ -44,7 +43,7 @@ ms.locfileid: "8066977"
 7. Á **Áætlanir** flipa, veldu **Nýtt**.
 8. Í reitinn **Fyrirkomulag** skal slá inn gildi.
 9. Sláið inn gildi í reitnum **Lýsing**.
-10. Í **Tegund** reit, sláðu inn eða veldu gildi.
+10. Í **Gerð** reit, sláðu inn eða veldu gildi.
 11. Í **Launaáhrif** reit, veldu valkost.
 12. Veldu **Vista**.
 

@@ -1,23 +1,23 @@
 ---
 title: Stofna stigveldi fyrirtækis fyrir skýrslur
 description: Nota þetta ferli til að stofna skýrslustigveldi fyrir skýrslugerð fyrirtækis.
-author: ShylaThompson
+author: twheeloc
 ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e9d5cc6fd6188c988a433fcd7f2bf81bf31668edf762c0ed3bcbf67477a4e35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e247ad7ac79607ce5f7209c343aabc5e3b66163a
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719271"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734720"
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Stofna stigveldi fyrirtækis fyrir skýrslur
 
@@ -25,72 +25,72 @@ ms.locfileid: "6719271"
 
 Nota þetta ferli til að stofna skýrslustigveldi fyrir skýrslugerð fyrirtækis. Tilgangur þessarar skráningar er að leiða þig í gegnum víddarstigveldið svo þú getir haldið áfram þar til öll skipan skýrslugerðar fyrirtækisins hefur verið stofnuð. Þessi skráning notar USP2-sýnigagnafyrirtæki.
 
-1. Fara í kostnaðarbókhald > Víddir > Stigveldi vídda.
-2. Smellið á „Nýtt“.
-3. Velja „Stigveldi víddarflokkunar“ í reitnum HierarchyTypeComboBox.
+1. Fara til **Kostnaðarbókhald > Víddir > Víddarstigveldi**.
+2. Smellt er á **Nýtt**.
+3. Í **HierarchyTypeComboBox** reit, veldu 'Víddarflokkunarstigveldi'.
     * Velja Stigveldi víddaflokkunar. Gerðin Flokkunarstigveldi víddar er notuð til að skilgreina reglur og til skýrslugerðar. Hún styður allar víddir á borð við kostnaðarhluti, kostnaðareiningar og tölfræðilegar víddir.  
-4. Smellið á „Stofna“.
-5. Í reitinn Heiti stigveldi víddar skal slá inn „Fyrirtæki USP2“.
-6. Sláið inn eða veljið gildi í reitnum Vídd.
+4. Smellið á **Stofna**.
+5. Í **Heiti víddarstigveldis** reit, sláðu inn 'Oganization USP2'.
+6. Í **Stærð** reit, sláðu inn eða veldu gildi.
     * Velja kostnaðarstaði.  
-7. Smellið á „Vista“.
-8. Smella á Skoða stigveldi
-9. Smellið á „Nýtt“.
-10. Í svæðið Heiti hnútar, færðu inn „Framkvæmdastjóri“.
-11. Smellið á „Vista“.
-12. Smellið á „Nýtt“.
-13. Í svæðið Heiti hnútar, færðu inn „Kostnaðarstaðir Framkvæmdastjóri“.
-14. Smellið á „Vista“.
-15. Smellið á „Nýtt“.
-16. Í svæðið Heiti hnútar, færðu inn „Svæði Austur“.
-17. Smellið á „Vista“.
-18. Smellið á „Nýtt“.
+7. Smelltu á **Vista**.
+8. Smellur **Skoða stigveldi**.
+9. Smellt er á **Nýtt**.
+10. Í **Nafn hnúts** reit, sláðu inn 'forstjóri'.
+11. Smelltu á **Vista**.
+12. Smellt er á **Nýtt**.
+13. Í **Nafn hnúts** reit, sláðu inn 'kostnaðarstaðir forstjóra'.
+14. Smelltu á **Vista**.
+15. Smellt er á **Nýtt**.
+16. Í **Nafn hnúts** reit, sláðu inn 'Region East'.
+17. Smelltu á **Vista**.
+18. Smellt er á **Nýtt**.
 19. Í listanum skal merkja valda línu.
-20. Sláið inn eða veldu gildi í reitnum Frá víddarstak.
+20. Í **Frá víddarmeðlim** reit, sláðu inn eða veldu gildi.
     * Velja víddarstakið sem samsvarar hnútinum.  
-21. Smellið á „Vista“.
+21. Smelltu á **Vista**.
 22. Í trénu skal velja „Fyrirtæki USP2\CEO\CEO Kostnaðarstaðir“.
-23. Smellið á „Nýtt“.
-24. Í svæðið Heiti hnútar, færðu inn „Svæði Vestur“.
-25. Smellið á „Vista“.
-26. Smellið á „Nýtt“.
+23. Smellt er á **Nýtt**.
+24. Í **Nafn hnúts** reit, sláðu inn 'Region West'.
+25. Smelltu á **Vista**.
+26. Smellt er á **Nýtt**.
 27. Í listanum skal merkja valda línu.
-28. Sláið inn eða veldu gildi í reitnum Frá víddarstak.
+28. Í **Frá víddarmeðlim** reit, sláðu inn eða veldu gildi.
     * Velja víddarstakið sem samsvarar hnútinum.  
-29. Smellið á „Vista“.
+29. Smelltu á **Vista**.
 30. Í trénu skal velja „Fyrirtæki USP2\CEO“.
-31. Smellið á „Nýtt“.
-32. Í svæðið Heiti hnútar, færðu inn „Kostnaðarstaðir Framkvæmdastjóri“.
-33. Smellið á „Vista“.
-34. Smellið á Nýtt.
-35. Í svæðið Heiti hnútar, færðu inn „Markaðsherf“.
-36. Í svæðið Heiti hnútar, færðu inn „Markaðsherferð“.
-37. Smellið á „Vista“.
-38. Smellið á Nýtt.
+31. Smellt er á **Nýtt**.
+32. Í **Nafn hnúts** reit, sláðu inn 'kostnaðarstaðir fjármálastjóra'.
+33. Smelltu á **Vista**.
+34. Smellt er á **Nýtt**.
+35. Í **Nafn hnúts** reit, sláðu inn 'Markaðssetning herferð'.
+36. Í **Nafn hnúts** reit, sláðu inn 'Markaðsherferð'.
+37. Smelltu á **Vista**.
+38. Smellt er á **Nýtt**.
 39. Í listanum skal merkja valda línu.
-40. Sláið inn eða veldu gildi í reitnum Frá víddarstak.
+40. Í **Frá víddarmeðlim** reit, sláðu inn eða veldu gildi.
     * Velja víddarstakið sem samsvarar hnútinum.  
-41. Smellið á „Vista“.
+41. Smelltu á **Vista**.
 42. Í trénu skal velja „Fyrirtæki USP2\CEO\CFO Kostnaðarstaðir“.
-43. Smellið á „Nýtt“.
-44. Í svæðið Heiti hnútar, færðu inn „Vörusýningar“.
-45. Smellið á „Vista“.
-46. Smellið á „Nýtt“.
+43. Smellt er á **Nýtt**.
+44. Í **Nafn hnúts** reit, sláðu inn 'Viðskiptasýningar'.
+45. Smelltu á **Vista**.
+46. Smellt er á **Nýtt**.
 47. Í listanum skal merkja valda línu.
-48. Sláið inn eða veldu gildi í reitnum Frá víddarstak.
+48. Í **Frá víddarmeðlim** reit, sláðu inn eða veldu gildi.
     * Velja víddarstakið sem samsvarar hnútinum.  
-49. Smellið á „Vista“.
+49. Smelltu á **Vista**.
 50. Í trénu skal velja „Fyrirtæki USP2\CEO“.
-51. Í svæðið Heiti hnútar, færðu inn „Kostnaðarstaðir Framkvæmdastjóri“.
-52. Smellið á „Vista“.
-53. Smellið á „Nýtt“.
-54. Í svæðið Heiti hnútar, færðu inn „Símaver“.
-55. Smellið á „Vista“.
-56. Smellið á „Nýtt“.
+51. Í **Nafn hnúts** reit, sláðu inn 'CIO kostnaðarstöðvar'.
+52. Smelltu á **Vista**.
+53. Smellt er á **Nýtt**.
+54. Í **Nafn hnúts** reit, sláðu inn 'Símaver'.
+55. Smelltu á **Vista**.
+56. Smellt er á **Nýtt**.
 57. Í listanum skal merkja valda línu.
-58. Sláið inn eða veldu gildi í reitnum Frá víddarstak.
+58. Í **Frá víddarmeðlim** reit, sláðu inn eða veldu gildi.
     * Velja víddarstakið sem samsvarar hnútinum.  
-59. Smellið á „Vista“.
+59. Smelltu á **Vista**.
 
 
 

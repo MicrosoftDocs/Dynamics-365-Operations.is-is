@@ -1,6 +1,6 @@
 ---
-title: Atburðarás fyrir jöfnunardagsetningu
-description: Þetta efnisatriði gefur dæmi sem sýna hvernig jöfnunardagsetningar virka í áskriftarreikningi.
+title: Aðstæður fyrir dagsetningu röðunar
+description: Þetta efnisatriði gefur dæmi sem sýna hvernig jöfnunardagsetningar virka í innheimtu áskriftar.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -9,22 +9,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e80797e8dd532bb4b2ef78422b459487430d83d6
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
-ms.translationtype: HT
+ms.openlocfilehash: 91480fecd16cf8417722df73c28bbd81d029fb07
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629716"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690474"
 ---
-# <a name="alignment-date-scenarios"></a>Atburðarás fyrir jöfnunardagsetningu
+# <a name="alignment-date-scenarios"></a>Aðstæður fyrir dagsetningu röðunar
 
-Þetta efnisatriði gefur dæmi sem sýna hvernig jöfnunardagsetningar virka í áskriftarreikningi.
+Þetta efnisatriði gefur dæmi sem sýna hvernig jöfnunardagsetningar virka í innheimtu áskriftar.
 
 Fyrir þessi dæmi, innheimtuupplýsingar fyrir innheimtuáætlun hefur jöfnunardagsetningu 31. október 2019. Fyrstu innheimtuupplýsingar fyrir línuna lýkur 31. október 2019 og er hlutfallslegt í samræmi við það. Línan endurnýjast sjálfkrafa með því að nota upphafsdag endurnýjunar 11. nóvember.
 

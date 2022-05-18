@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3e6c4d966f2720339941fb848ff9ac79e4593868ce10d3712efbb1ad18a9ceea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 38c4364c47915cc0019cb6b3d471d3e60d413bf0
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712220"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711549"
 ---
 # <a name="configure-ledgers"></a>Grunnstilla fjárhag
 
@@ -28,7 +28,7 @@ ms.locfileid: "6712220"
 
 ## <a name="selecting-the-chart-of-accounts"></a>Val bókhaldslykils
 
-Fyrir hvern lögaðila í Microsoft Dynamics 365 Finance þarf að grunnstilla upplýsingar um fjárhaginn. Síðan **Fjárhagur** gerir þér kleift að velja bókhaldslykilinn og skipulag lykla sem verður notað fyrir valinn lögaðila. Hægt er að deila bókhaldslyklunum og lykilskipulaginu með því að skilgreina síðuna **Fjárhagur** í hverjum lögaðila til að nota sama bókhaldslykil og lykilskipulag. Einnig er hægt að samnýta hluta grunnstillingarinnar í hverjum lögaðila fyrir sig og hafa tilteknar grunnstillingar í hverjum lögaðila.
+Fyrir hvern lögaðila í Microsoft Dynamics 365 Fjármál, þarf að stilla upplýsingar um fjárhagsbókina. Síðan **Fjárhagur** gerir þér kleift að velja bókhaldslykilinn og skipulag lykla sem verður notað fyrir valinn lögaðila. Hægt er að deila bókhaldslyklunum og lykilskipulaginu með því að skilgreina síðuna **Fjárhagur** í hverjum lögaðila til að nota sama bókhaldslykil og lykilskipulag. Einnig er hægt að samnýta hluta grunnstillingarinnar í hverjum lögaðila fyrir sig og hafa tilteknar grunnstillingar í hverjum lögaðila.
 
 Ef lögaðilarnir þurfa að vera með mismunandi bókhaldslykla eða lykilskipulag, gæti hnekkingareiginleiki lögaðilans komið að gagni. Með því að nota sama bókhaldslykil og lykilskipulag fyrir marga lögaðila og hafa síðan umsjón með öllum undantekningum í gegnum hnekkingar lögaðila, er hægt að einfalda viðhald með tímanum.
 
@@ -38,7 +38,7 @@ Frekari upplýsingar um hvernig á að skipuleggja og grunnstilla bókhaldslykla
 
 ## <a name="selecting-account-structures"></a>Lykilskipulag valið
 
-Hægt er að skilgreina hvern lögaðila í Dynamics 365 Finance til að nota eitt eða fleiri lykilskipulag. Hvert lykilskipulag skilgreinir fjárhagsvíddirnar og samsetningar aðallykla og fjárhagsvídda, sem verða heimilaðar þegar færslur eru bókaðar. Hægt er að nota sama lykilskipulagið í fleiri en einum lögaðila.
+Hægt er að stilla hvern lögaðila í Dynamics 365 Finance til að nota eina eða fleiri reikningsuppbyggingar. Hvert lykilskipulag skilgreinir fjárhagsvíddirnar og samsetningar aðallykla og fjárhagsvídda, sem verða heimilaðar þegar færslur eru bókaðar. Hægt er að nota sama lykilskipulagið í fleiri en einum lögaðila.
 
 Hafa skal í huga að ef fleiri en eitt lykilskipulag er til staðar er aðeins hægt að velja lykilskipulag sem ekki er með samsetningar aðallykla og fjárhagsvídda sem skarast. Til dæmis er eitt lykilskipulagið þitt skilgreint til að bæta við viðskiptaeiningu fyrir aðallykla á milli 1000 og 1999. Í öðru lykilskipulagi hefurðu bætt við fjárhagsvídd deildar fyrir aðallykla sem hefjast á 1. Í þessu tilfelli er aðeins hægt að bæta við einu lykilskipulagi í sama lögaðilanum.
 

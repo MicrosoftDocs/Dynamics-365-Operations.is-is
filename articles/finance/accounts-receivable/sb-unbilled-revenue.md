@@ -9,22 +9,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 4a5bd016649957d90876d4eb50c358cd9d6fba80
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
-ms.translationtype: HT
+ms.openlocfilehash: a70786291822a85ec41c98ab8ce706f2ad79b08d
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629711"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691246"
 ---
 # <a name="unbilled-revenue"></a>Óreikningsfærðar tekjur
 
-Þetta efnisatriði lýsir óinnheimtu teknaeiginleikanum sem gerir þér kleift að hafa upphæðir fyrir heilar innheimtuáætlanir á efnahagsreikninginn. Þessar upphæðir eru innifaldar á óinnheimtu tekjureikningi og óinnheimtu tekjujöfnunarreikningi og samningurinn er innheimtur með raðgreiðslum.
+Þetta efnisatriði lýsir óinnheimtu teknaeiginleikanum sem gerir þér kleift að taka með upphæðir fyrir heilar innheimtuáætlanir á efnahagsreikninginn. Þessar upphæðir eru innifaldar á óinnheimtu tekjureikningi og óinnheimtu tekjujöfnunarreikningi og samningurinn er innheimtur með raðgreiðslum.
 
 ## <a name="set-up-unbilled-revenue"></a>Settu upp óinnheimtar tekjur
 
@@ -93,7 +92,7 @@ Til að nota óinnheimtaðar tekjur með beinni frestunaráætlun skaltu fylgja 
 6. Á innheimtuáætlun, skv **Óinnheimt tekjuvinnsla**, veldu **Stofna dagbókarfærslu**. Að öðrum kosti skaltu nota **Óreikningsfærð tekjur fjöldavinnsla** síðu til að búa til dagbókarfærsluna.
 7. Frestunaráætlun er búin til. Þú getur skoðað upplýsingarnar á **Allar frestunaráætlanir** síðu. Eftir að frestunaráætlunin er búin til er hægt að breyta ýmsum gildum fyrir línuatriði innheimtuáætlunar. Til dæmis er hægt að breyta einingaverði, magni eða dagsetningum.
 
-### <a name="unbilled-revenue-with-event-based-deferrals"></a>Óinnheimtar tekjur með frestun á viðburðum
+### <a name="unbilled-revenue-with-event-based-deferrals"></a>Óinnheimtar tekjur með frestun sem byggist á viðburðum
 
 Fylgdu þessum skrefum til að nota óinnheimtar tekjur með frestunaráætlanir sem byggjast á atburðum.
 
@@ -144,7 +143,7 @@ Frá og með útgáfu 10.0.27 er nýr reikningur tekinn upp þegar óinnheimtar 
 
 #### <a name="steps"></a>Skref
 
-1. Setjið út vörurnar tvær sem óinnheimtar vörur. Nota **Uppsetning óinnheimtutekna** síðu til að setja upp þá hluti og reikninga sem nota óinnheimtar tekjur.
+1. Settu út vörurnar tvær sem óinnheimtar vörur. Nota **Uppsetning óinnheimtutekna** síðu til að setja upp þá hluti og reikninga sem nota óinnheimtar tekjur.
 2. Í þessu dæmi er viðhaldsgjaldinu frestað. Hluturinn krefst frestunarsniðmáts, sem er sett upp á **Frestun sniðmát** síðu. Sniðmátið hefur a **Mánaðarlega** tímabilstíðni og viðurkenningartímabilslengd 36 mánuðir. Þess vegna eru tekjur á mánuði $2.50.
 3. Á **Hlutum frestað sjálfgefið** síðu, stilltu **Viðhaldsgjald** sviði til **Frestunarhæfur hlutur**. Þetta skref og það næsta mun valda því að viðhaldsgjaldshluturinn verður frestað þegar hann er seldur eða innifalinn í innheimtuáætlun.
 4. Veldu **Frestun vanskil** \> **Sniðmát**, og bættu við hlutnum fyrir viðhaldsgjaldið og beinlínusniðmátinu frá skrefi 2. Liðurinn viðhaldsgjald verður tengdur 36 mánaða frestunaráætlun.
@@ -169,7 +168,7 @@ Tvær dagbókarfærslur eru búnar til, ein fyrir hverja línu á innheimtuáæt
 | Lykill óreikningsfærðra tekna | | $90.00 | |
 | |Frestað viðhaldstekjur | | $90.00 |
 
-Fyrsta dagbókarfærslan er bókuð á óreikningsfærðan tekjujöfnunarreikning og sú síðari er bókuð á frestað tekjureikning. Ef innheimtulínan hefur bæði óinnheimtaðar tekjur og frestar tekjur, er frestaða teknareikningurinn notaður, ekki óreikningsfærða tekjujöfnunin. Samningurinn krefst þess að reikningur fyrir viðskiptavininn sé búinn til í upphafi hvers árs. Nota **Búðu til reikning** ferli til að búa til reikninginn. Þegar reikningurinn er búinn til eru eftirfarandi dagbókarfærslur búnar til.
+Fyrsta dagbókarfærslan er bókuð á óreikningsfærðan tekjujöfnunarreikning og sú síðari er bókuð á frestað tekjureikning. Ef innheimtulínan hefur bæði óinnheimtaðar tekjur og frestar tekjur, er frestað teknareikningurinn notaður, ekki óreikningsfærða tekjujöfnunin. Samningurinn krefst þess að reikningur fyrir viðskiptavininn sé búinn til í upphafi hvers árs. Nota **Búðu til reikning** ferli til að búa til reikninginn. Þegar reikningurinn er búinn til eru eftirfarandi dagbókarfærslur búnar til.
 
 | Aðallykill | Lykill óreikningsfærðra tekna | Debetupphæð | Kreditupphæð |
 |---|---|---|---|

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcc69cbf418131d0b1747f1c904de3188d7ba84216cb3145607b45553263244c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757220"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711321"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Hvað er nýtt eða breytt í Dynamics AX 7.0 (febrúar 2016)
 
@@ -969,7 +969,7 @@ Til staðar er bætt "lágsnertingar" uppsetning á íhlut biðlara í gegnum sj
 </tr>
 <tr>
 <td>Fylgjast með ástandi kerfisins og greina villur og vandamál.</td>
-<td>Þessi aðgerð krefst <a href="https://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack fyrir Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>Þessi aðgerð krefst <a href="https://www.microsoft.com/en-us/download/details.aspx?id=58205">System Center 2012 Management Pack fyrir Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>Eftirlit og greining fyrir íhluti Smásölu er nú tiltækt gegnum í <strong>innsýn í aðgerðir</strong> yfirlit í LCS.</td>
 <td><strong>Innsýn í aðgerðir</strong> yfirlit er í vöktunartengi sem byggist á skýi sem kemur í stað þarfarinnar að setja upp uppbyggingu System Center Operations Manager (SCOM).</td>
 </tr>
@@ -1028,7 +1028,7 @@ Engum nýjum eiginleikum hefur verið bætt við.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Nýjungar eða breytingar í Finance and Operations heimasíða](whats-new-changed.md)
+[Nýjungar eða breytingar á heimasíðu Finance and Operations](whats-new-changed.md)
 
 [Nýjar verkefnaleiðbeiningar (febrúar 2016)](new-task-guides-available-february-2016.md)
 

@@ -8,23 +8,22 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d574f760960241e4d79a988b1b671f224cb345f
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: bf7ce43785e3ef485074f2b0294caea381f8f726
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487795"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8688093"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Dynamics 365 Human Resources sameining innviða - Útgáfa 10.0.25 uppfærsla
 
-Útgáfan 10.0.25 kemur með fyrstu bylgju getu í samruna innviða. Við samruna innviða, Microsoft Dynamics 365 Human Resources verður sameinað innviðum Fjármála- og rekstrarsviðs. Hins vegar verður það áfram leyfilegt sem sjálfstæð umsókn, eins og Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Fyrir frekari upplýsingar um innviðasamruna, sjá [Dynamics 365 Human Resources Algengar spurningar um sameiningu innviða](../human-resources/hr-infrastructure-merge-faq.md).
+Útgáfan 10.0.25 kemur með fyrstu bylgju getu í samruna innviða. Við samruna innviða, Microsoft Dynamics 365 Human Resources verður sameinað innviðum Fjármála- og rekstrarsviðs. Hins vegar mun það halda áfram að vera með leyfi sem sjálfstætt forrit, eins og Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Fyrir frekari upplýsingar um innviðasamruna, sjá [Dynamics 365 Human Resources Algengar spurningar um sameiningu innviða](../human-resources/hr-infrastructure-merge-faq.md).
 
 Sameiningin mun veita mannauðsnotendum samræmi á eftirfarandi hátt:
 
@@ -72,8 +71,8 @@ Sameiningin mun veita mannauðsnotendum samræmi á eftirfarandi hátt:
 | **Starfsmenn án atvinnu** síðu | Síða sýnir lista yfir starfsmenn sem ekki hafa starfsskrá. | 
 | Uppfærsla notendaupplifunar á stöðuvídd | Það er aukin notendaupplifun til að úthluta stöðuvíddum fyrir hvern lögaðila. | 
 | Heimilisfangsbreytingar í **Starfsmannastjórnun** vinnurými | Þessi eiginleiki gefur upp talningu á öllum heimilisfangsbreytingum sem áttu sér stað á tilteknum fjölda daga, eins og skilgreint er á **Stærðir mannauðs** síðu. | 
-| Skrár að renna út í **Starfsmannastjórnun** vinnurými | Þessi eiginleiki veitir lista yfir hluti sem eru útrunnir eða munu renna út fyrir skírteini, auðkenni, skilorð, skimun eða próf. | 
+| Skrár að renna út í **Starfsmannastjórnun** vinnurými | Þessi eiginleiki gefur upp lista yfir hluti sem eru útrunnir eða munu renna út fyrir skírteini, auðkenningar, skilorð, skimun eða próf. | 
 | **Staðfesting stigveldis** síðu | Athugun er gerð fyrir hringlaga tilvísanir í stigveldi stöðulínu. | 
 | Landssértækar launaupplýsingar | Fleiri launareitir eru fáanlegir á **Atvinna verkamanna** síðu, allt eftir landi eða svæði lögaðilans þar sem starfsmenn eru starfandi. | 
-| Endurbætur á reglufylgni | Viðbótartilkynningarmöguleikar eru í boði fyrir EEO-1, Vets 4212 og OSHA300a. | 
+| Endurbætur á regluvörsluskýrslu | Viðbótartilkynningarmöguleikar eru í boði fyrir EEO-1, Vets 4212 og OSHA300a. | 
 | Uppfærslur á **Starfsmannastjórnun** vinnurými | Uppfærslur hafa verið gerðar til að fylgjast með breytingum á heimilisfangi og skrám sem renna út. Að auki birta nýir flipar starfsmanns- og stöðuaðgerðir. | 

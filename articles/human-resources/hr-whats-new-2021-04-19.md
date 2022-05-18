@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fadad34be31f6522654bc3af47a4f71695dcc5fea7f0b3e760ff26d79d88eb4c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6734069b1448999c62a8c538f97d786fc10995e5
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722512"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685743"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-19-2021"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources 19. apríl 2021
 
@@ -42,7 +41,7 @@ Eftirfarandi eiginleikar eru almennt aðgengilegur með þessari útgáfu.
 
 | Eiginleiki | Útgáfuáætlun | Fylgiskjöl |
 | --- | --- | --- |
-| Verkvangsuppfærsla 10.0.17 (41) | -- | [Verkvangsuppfærslur fyrir útgáfu 10.0.17 á forritum Finance and Operations (apríl 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
+| Verkvangsuppfærsla 10.0.17 (41) | -- | [Palluppfærslur fyrir útgáfu 10.0.17 af Finance and Operations forritum (apríl 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md) |
 | Stuðningur við sérstillta reiti í skjámyndum fríðindastjórnunar | [Stuðningur við sérstillta reiti í fríðindastjórnun](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-benefits-management)| [Yfirlit fríðindastjórnunar](hr-benefits-management-overview.md)|
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
@@ -78,7 +77,7 @@ Eftirfarandi nýir eiginleikar eru í kynningarútgáfu. Nánari upplýsingar um
 | Eiginleiki | Upplýsingar |
 | --- | --- |
 | Hæfni sem yfirmaður færir inn fyrir starfsmenn sína getur verið sjálfkrafa samþykkt af verkferlinu | Væntanlegt. |
-| Verkvangsuppfærsla 10.0.18 (42) | Verkvangsuppfærsla 10.0.18 á að fara af stað í útgáfu 17. maí 2021. Frekari upplýsingar er að finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.18 af Finance and Operations -forritum (maí 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
+| Verkvangsuppfærsla 10.0.18 (42) | Verkvangsuppfærsla 10.0.18 á að fara af stað í útgáfu 17. maí 2021. Fyrir frekari upplýsingar, sjá [Palluppfærslur fyrir útgáfu 10.0.18 af Finance and Operations forritum (maí 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18). |
 | Stuðningur við sérstillta reiti í hæfnireglum fríðindastjórnunar  | [Stuðningur við sérstillta reiti fyrir vinnslu á hæfni](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 
 Fyrir ítarlegan lista yfir áætlaða eiginleika og áætlaðar útgáfur þeirra skal skoða [Yfirlit yfir Dynamics 365 Human Resources 2021 losunarbylgju 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).

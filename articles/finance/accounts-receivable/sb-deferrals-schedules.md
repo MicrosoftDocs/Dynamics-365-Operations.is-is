@@ -9,24 +9,23 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 953347500f83a4a16f43331b572d2029027a5f59
-ms.sourcegitcommit: d0e99545d722c924db57ae2bd06f72154a1f1f97
+ms.openlocfilehash: 9135ac733496a0c5d79669c35972c273c209f81d
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557973"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685978"
 ---
 # <a name="deferral-schedules"></a>Frestunaráætlanir
 
 Frestunaráætlanir eru búnar til eftir að færsla hefur verið bókuð.
 
-Þú getur notað **Allar frestunaráætlanir** eða **Virkar frestunaráætlanir** síðu til að fara yfir upplýsingar um frestunaráætlun. Upplýsingarnar sem eru sýndar fer eftir tegund frestunaráætlunar (bein lína eða atburðamiðuð) og færslugerð. Það inniheldur frestunaráætlunarlínur og heildarupphæðir fyrir frestunaráætlunina. Þú getur notað síðuna til að breyta frestunaráætluninni.
+Þú getur notað **Allar frestunaráætlanir** eða **Virkar frestunaráætlanir** síðu til að fara yfir upplýsingar um frestunaráætlun. Upplýsingarnar sem birtast eru háðar tegund frestunaráætlunar (bein lína eða atburðamiðuð) og færslugerð. Það inniheldur frestunaráætlunarlínur og heildarupphæðir fyrir frestunaráætlunina. Þú getur notað síðuna til að breyta frestunaráætluninni.
 
 ## <a name="recognize-revenue"></a>Skrá tekjur
 
@@ -47,7 +46,7 @@ Frestunaráætlanir eru búnar til eftir að færsla hefur verið bókuð.
 
 ## <a name="modify-a-schedule"></a>Breyta áætlun
 
-Til að breyta frestunaráætlun skaltu fylgja þessum skrefum.
+Fylgdu þessum skrefum til að breyta frestunaráætlun.
 
 1. Á **Allar frestunaráætlanir** síðu, veldu frestunaráætlunina og veldu síðan **Bókhald \> Breyta áætlun**.
 2. Á **Breyta áætlun** síðu, breyttu valkostunum sem þú vilt breyta. Það fer eftir frestunaráætluninni, þú munt ekki geta breytt öllum valkostunum.
@@ -56,7 +55,7 @@ Til að breyta frestunaráætlun skaltu fylgja þessum skrefum.
 
 ### <a name="straight-line-deferral-schedules"></a>Bein lína frestunaráætlanir
 
-Ef frestunaráætlunin hefur engar viðurkenndar eða ytra bókaðar línur, er hægt að breyta allri frestunaráætluninni, þar með talið upphafsdagsetningu.
+Ef frestunaráætlunin hefur engar viðurkenndar eða ytra bókaðar línur er hægt að breyta allri frestunaráætluninni, þar með talið upphafsdagsetningu.
 
 Ef frestunaráætlunin hefur einhverjar viðurkenndar línur eða bókaðar ytra, og þú breytir frestunaráætluninni, fer framkoma frestunaráætlunarinnar eftir endurútreikningsdegi og lokadagsetningu frestunar viðurkenndra lína. Sjálfgefið er að fyrsta tímabilið sem var ekki viðurkennt ákvarðar lokadagsetningu frestunarinnar.
 
@@ -64,7 +63,7 @@ Til að nota dagsetningu viðurkenningar skaltu velja eitt af eftirfarandi gildu
 - **Náðu þér** – Upphæðin eftir að allar viðurkenndar línur eru endurreiknaðar.
 - **Viðsnúningur** – Allar línur eftir endurútreikningsdagsetningu eru bakfærðar með því að nota tilgreint færslubókarheiti og bókunardagsetningu. Upphæðin eftir endurútreikningsdaginn er síðan endurreiknuð.
 
-Ef sniðmát er notað, er sleppt tímabilum hunsað og sniðmátið er aðeins notað til að reikna út lokadagsetningu.
+Ef sniðmát er notað er sleppt tímabil hunsuð og sniðmátið er aðeins notað til að reikna út lokadagsetningu.
 
 ### <a name="event-based-deferral-schedules"></a>Áætlanir um frestun á viðburðum
 
@@ -152,7 +151,7 @@ Til að nota inneignarnótu skaltu fylgja þessum skrefum.
 
 1. Á **Allar frestunaráætlanir** síðu, veldu frestunaráætlun.
 2. Í **Lánsfjárleiðréttingar** lista, veldu línu og veldu síðan **Sækja um**.
-3. Á **Sækja um inneignarnótu (frestun)** síðu, tilgreindu endurútreikningsdaginn í **Endurútreikningsdagur** reit og lokadagsetning í **Loka dagsetning** sviði.
+3. Á **Sækja um inneignarnótu (frestun)** síðu, tilgreinið endurútreikningsdaginn í **Endurútreikningsdagur** reit og lokadagsetning í **Loka dagsetning** sviði.
 4. Í **Fyrirsögn** lista, veldu **Sölupöntun** sem er með inneignarnótum.
 5. Í **Línur** lista, veldu línuna.
 6. Veldu **Í lagi**.
@@ -192,7 +191,7 @@ The **Allar frestunaráætlanir** síða inniheldur eftirfarandi reiti.
 | Númer greiðsluáætlunar | Númer samsvarandi innheimtuáætlunar. |
 | Staða reikningsfærslulínu | Staða samsvarandi greiðsluáætlunarlínu. |
 | Ytri tilvísanir | Upplýsingar um ytri tilvísanir úr innheimtuáætlun: **Ytri** og **Línunúmer**. |
-| Samtala | <p>Heildarupphæðir fyrir frestunaráætlun:</p><ul><li>**Langtíma** – Samtala langtíma frestaðra fjárhæða. Þetta gildi er aðeins tiltækt þegar **Skammtíma frestun aðferð** reiturinn er stilltur á **Enginn** á **Færslur tekna og gjalda frestun** síðu, eða skammtímaupphæðin er meira en 0 (núll).</li><li>**Skammtíma** – Samtala skammtíma frestaðra fjárhæða. Þetta gildi er aðeins tiltækt þegar **Skammtíma frestun aðferð** reiturinn er stilltur á **Enginn** á **Færslur tekna og gjalda frestun** síðu, eða skammtímaupphæðin er meira en 0 (núll).</li><li>**Óþekkt** – Summa ófærðra upphæða fyrir allar línur.</li><li>**Stubbaður** – Samtala utanbókaðra upphæða fyrir allar línur.</li><li>**Viðurkennd** – Summa viðurkenndra fjárhæða fyrir allar línur.</li><li>**Sett að utan og viðurkennd** – Samtala utanaðkomandi bókaða og færðra upphæða fyrir allar línur.</li><li>**Heildarupphæð** – Summa upphæða fyrir allar línur.</li></ul> |
+| Samtala | <p>Heildarupphæðir fyrir frestunaráætlun:</p><ul><li>**Langtíma** – Samtala langtíma frestaðra fjárhæða. Þetta gildi er aðeins tiltækt þegar **Skammtíma frestun aðferð** reiturinn er stilltur á **Enginn** á **Færslur tekna og gjalda frestun** síðu, eða skammtímaupphæðin er meira en 0 (núll).</li><li>**Skammtíma** – Samtala skammtíma frestaðra fjárhæða. Þetta gildi er aðeins tiltækt þegar **Skammtíma frestun aðferð** reiturinn er stilltur á **Enginn** á **Færslur tekna og gjalda frestun** síðu, eða skammtímaupphæðin er meira en 0 (núll).</li><li>**Óþekkt** – Summa ófærðra upphæða fyrir allar línur.</li><li>**Stubbaður** – Samtala utanbókaðra upphæða fyrir allar línur.</li><li>**Viðurkennd** – Summa viðurkenndra fjárhæða fyrir allar línur.</li><li>**Að utan og viðurkennd** – Samtala utanaðkomandi bókaða og færðra upphæða fyrir allar línur.</li><li>**Heildarupphæð** – Summa upphæða fyrir allar línur.</li></ul> |
 | **Áætlunarlínur** | |
 | Lína | Línuraðarnúmerið. |
 | Upphafsdagsetning frestunar | Upphafsdagur frestunaráætlunar. |
@@ -206,7 +205,7 @@ The **Allar frestunaráætlanir** síða inniheldur eftirfarandi reiti.
 | Reikningur | <p>Reikningsnúmerið.</p><p>Gildið gefur til kynna reikninginn fyrir leiðréttingu kreditnótu sem þegar hefur verið beitt á frestunaráætlun.</p> |
 | Upphæð sem notuð er | Fjárhæð lánaleiðréttingar sem þegar hefur verið notuð á frestunaráætlun. |
 | Dagsetning skráningar | Dagsetningin þegar lánaleiðréttingunni var beitt. |
-| **Leiðrétting** | Leiðréttingargildin birtast aðeins ef unnið var með kreditreikning fyrir frestunaráætlunina. Ef engin inneignarnóta var unnin eru þessi gildi falin. |
+| **Leiðrétting** | Leiðréttingargildin birtast aðeins ef unnið var úr kreditreikningi fyrir frestunaráætlunina. Ef engin inneignarnóta var unnin eru þessi gildi falin. |
 | Leiðréttingarupphæð | Heildarleiðréttingarfjárhæð, reiknuð sem *Upprunaleg upphæð* –*Áætlunarupphæð*. |
 | Upprunaleg lokadagsetning | Upprunaleg lokadagsetning frestunaráætlunar. |
 | Upphafleg áætlunarupphæð | Heildarupphæð upphaflegrar frestunaráætlunar. |

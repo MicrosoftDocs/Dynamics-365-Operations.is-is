@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4057740fc4c6ddd696b37b6373dcfcd43881305e
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: f75176781620cd6f845c002876eba6e34d5793e7
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8534218"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692227"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Fínstilla Dataverse sýndartöflufyrirspurnir
 
@@ -50,7 +49,7 @@ Ein orsök á hægum afköstum með Dataverse sýndartöflur fyrir Human Resourc
 Dæmi þar sem þú gætir séð þessi áhrif er í fyrirspurnum gegn starfsmanninum (**mshr_hcmworkerentity**) eða einingu grunnstarfskrafts (**mshr_hcmworkerbaseentity**). Frammistöðuvandamál gætu birtst á nokkra mismunandi vegu:
 
 - **Hæg fyrirspurnarkeyrsla**: Fyrirspurn vegna sýndartöflu gæti skilað eðlilegum niðurstöðum en tekið lengri tíma en vanalega að ljúka keyrslu fyrirspurnarinnar.
-- **Tímamörk fyrirspurna** : Fyrirspurnin gæti runnið út á tíma og skilað eftirfarandi villu: "Táknið var fengið til að hringja í Finance and Operations, en Finance and Operations skilaði villu af gerðinni InternalServerError."
+- **Tímamörk fyrirspurnar** : Fyrirspurnin gæti runnið út á tíma og skilað eftirfarandi villu: "Táknið var fengið til að hringja í Finance and Operations, en Finance and Operations skilaði villu af gerðinni InternalServerError."
 - **Óvænt villa**: Fyrirspurnin gæti skilað villu af gerðinni 400 með eftirfarandi skilaboðum: „Óvænt villa kom upp.“
 
   ![Villugerð 400 á HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)

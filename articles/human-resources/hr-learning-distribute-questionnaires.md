@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters, HcmLearningWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dbb069110b46c38a994a7be6276137360b14397a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3a543d9b85edd493f9b5d5a0449302769c3592f7
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069530"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695901"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Dreifa og tímasetja spurningalista
 
@@ -88,7 +87,7 @@ Hægt er að tilgreina gerðir fyrir áætlun spurningalista á **áætlanir Spu
 
 Hægt er að nota tilvísunargerðir til að færa inn skilyrði fyrir svarendur sem þú velur hugsanlega þegar spurningalista er raðað. 
 
-Nota skal **Tilvísunargerðir** síðu til að setja upp gerð tilvísunar fyrir spurningalista. Hvert gerð tilvísunar samsvara til tafla í Microsoft Dynamics 365 Finance. Þegar áætlanir spurningalista er stofnað, er hægt að tilgreina einstaka færslum í töflunni eða svið færsla sem spurningalistinn verður að tengjast. 
+Nota skal **Tilvísunargerðir** síðu til að setja upp gerð tilvísunar fyrir spurningalista. Hver tilvísunartegund samsvarar töflu í Microsoft Dynamics 365 Fjármál. Þegar áætlanir spurningalista er stofnað, er hægt að tilgreina einstaka færslum í töflunni eða svið færsla sem spurningalistinn verður að tengjast. 
 
 Til dæmis, ef taflan Námskeið er valin, er hægt að ákveða hvaða námskeiða spurningalista verður fyrir. Þegar sett er upp tilvísun fyrir Námskeiðstöfluna eru sum svæði og hnappar á **Námskeið** síðunni verða tiltækar.
 
@@ -111,7 +110,7 @@ Ef notuð er áætluð svarseta tilkynna þarf að tilkynna einstaklingurinn bei
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Tilkynna svarendum um röðun
 
-Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann. Sláðu inn tölvupóststextann á **Tölvupóstur fyrir sjálfsafgreiðslu starfsmanna** flipa. Eftir að áætlun hefur verið hafin, smelltu **Aðgerðir** &gt; **Senda tölvupóst** að búa til og senda tölvupóstinn til svarenda. Svarendur geta síðan innskráð sig á vefsvæðið og svarað spurningalistanum. 
+Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann. Sláðu inn tölvupóststextann á **Tölvupóstur fyrir sjálfsafgreiðslu starfsmanna** flipa. Eftir að áætlunin hefur verið hafin skaltu smella **Aðgerðir** &gt; **Senda tölvupóst** að búa til og senda tölvupóstinn til svarenda. Svarendur geta síðan innskráð sig á vefsvæðið og svarað spurningalistanum. 
 
 > [!NOTE]
 > Áður en þú getur notað tölvupóstvirknina verður upplýsingatæknistjórinn þinn að slá inn tölvupóstsstillingarnar á **Tölvupóstfæribreytur** síðu.

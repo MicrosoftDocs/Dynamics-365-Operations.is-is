@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 253da3d5cf894820e516b6b4f8d2a4fce40c92db
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 3e49d101bbbe576e0fcf2e9b243f4f29124fbd85
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7727018"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722270"
 ---
 # <a name="ledger-journal-types"></a>Færslubókargerðir fjárhags
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir þær gerðir sem hægt er að setja upp fyrir fjárhagsbækur. Nota skal síðuna **Heiti færslubókar** til að setja upp færslubækur sem hægt er að nota í gegnum Dynamics 365 Finance.
+Þetta efnisatriði lýsir þær gerðir sem hægt er að setja upp fyrir fjárhagsbækur. Nota **Dagbókarnöfn** síðu til að setja upp færslubækur sem þú getur notað í gegnum Dynamics 365 Finance.
 
-| Færslubókargerð                      | Málefni                       | Færa inn færslur á þessari síðu                                |
+| Færslubókargerð                      | Notkun                       | Færa inn færslur á þessari síðu                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
 | Úthlutun                        | Stofna úthlutun færslur í færslubók. Áður en hægt er að stofna úthlutunarbók verður að stofna úthlutunarreglu í síðunni **úthlutunarregla fjárhags**      | Vinna úr beiðni um úthlutun             |
 | Samþykki                          | Bóka samþykkta reikninga lánardrottna í rétta fjárhagslykla.  | Staðfestingarbók                                       |

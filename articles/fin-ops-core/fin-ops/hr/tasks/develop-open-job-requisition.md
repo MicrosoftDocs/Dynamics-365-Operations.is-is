@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e3287fc824f2f7eb725b11c990a1c457d45439f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 364117133cb7a868e613088b14a33869fd9fedb1
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075150"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735347"
 ---
 # <a name="develop-and-open-job-requisition"></a>Þróa og opna tilkynningar um lausar stöður
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> Virknin sem bent er á í þessu efnisatriði er eins og er í boði fyrir mannauðsviðskiptavini á fjármálainnviðum.  
+> Ráðningarvirkni í þessu efni verður nefnd ráðningarverkefni og beinist að umsækjendum, umsóknum og ráðningarverkefnum.  
 
 
 Ráðningarverk hjálpa til við að stjórna ráðningarferlið. Fyrir hvert ráðningarverkefni er hægt að setja upp upplýsingar eins og starfið sem ráðið er í, nafn ráðningaraðila, stöðu verkefnisins og deild þar sem starfið verður staðsett. Eftir að þú hefur búið til ráðningarverkefni geturðu skrifað atvinnuauglýsingu fyrir það, birt auglýsinguna á **Sjálfsafgreiðsla starfsmanna** síðu, tengja umsóknir um ráðningu við verkefnið og fylgjast með starfsemi þess verkefnis. The **USMF** kynningargagnafyrirtæki var notað til að búa til þessa aðferð.

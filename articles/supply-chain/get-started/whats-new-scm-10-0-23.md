@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570479"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691471"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.23 (janúar 2022)
 
@@ -75,7 +75,9 @@ Nýlega hefur eftirfarandi hjálparatriðum verið bætt við eða þau uppfær�
 | Vöruhúsakerfi | [Altækar færibreytur fartækja](../warehousing/mobile-device-parameters.md) |
 | Vöruhúsakerfi | [Festing](../warehousing/anchoring.md) |
 | Sala og markaðsstarf | Viðskiptum innan samstæðu er nú lýst í þaula og byrjar á [Setja upp samstæðuviðskipti](../sales-marketing/intercompany-trade-set-up.md) og tengdum efnisatriðum. |
+| Sala og markaðsstarf | [Endurbætur á afköstum hreinsunar á söluferli](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | Birgðir | Fylgigögn birgðasýnileika hafa verið stækkuð og uppfærð og byrja á [Yfirlit viðbótar fyrir sýnileika birgða](../inventory/inventory-visibility.md) og tengdum efnisatriðum. |
+| Vöruhúsakerfi | [Notandareikningar fartækis](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

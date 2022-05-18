@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerSystemSetup, CustPosting, VendPosting, InventPosting, AssetPosting, ProjPosting, AssetLeasePostingAccounts, ProjCategory, ITMCostTypeTable, ProdGroup, WrkCtrTable, WrkCtrResourceGroup, MainAccount, SysDatabaseLogSetup, CustGroup, VendGroup, InventItemGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 097d1c6d1fbe64dadc69cdb275a0aef38922036d
-ms.sourcegitcommit: 5bfd6511d710deb539b4030eb0e9c48d25513595
+ms.openlocfilehash: 211dc42b80089eb1f59a435f09d6e9d9f956736b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8014112"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734276"
 ---
 # <a name="recommended-practices-for-posting-profiles"></a>Ráðlagðar aðferðir við að birta prófíla
 
-Það eru nokkrar ráðlagðar venjur sem þú ættir að fylgja þegar þú stillir póstsnið í öllu kerfinu. Þetta efni lýsir mismunandi atburðarásum og samsvarandi ráðlögðum aðferðum.
+Það eru nokkrar ráðlagðar venjur sem þú ættir að fylgja þegar þú stillir póstsnið um allt kerfið. Þetta efni lýsir mismunandi atburðarásum og samsvarandi ráðlögðum aðferðum.
 
 ## <a name="setting-the-do-not-allow-manual-entry-flag"></a>Stilling á Ekki leyfa handvirka færslu fána
 
-Á **Aðalreikningar** síðu, the **Ekki leyfa handvirka innslátt** gátreiturinn ætti að vera valinn fyrir hvaða aðalreikning sem er notaður fyrir færslusnið. Þessi stilling kemur í veg fyrir að notendur geti bókað dagbókarfærslu handvirkt á aðalreikninginn. Þess vegna hjálpar það að tryggja að undirbókin haldist í jafnvægi við aðalbókina og hjálpar til við að gera afstemmingarferlið auðveldara.
+Á **Aðalreikningar** síðu, the **Ekki leyfa handvirka innslátt** gátreiturinn ætti að vera valinn fyrir hvaða aðalreikning sem er notaður fyrir færslusnið. Þessi stilling kemur í veg fyrir að notendur geti bókað dagbókarfærslu handvirkt á aðalreikninginn. Þess vegna hjálpar það til við að tryggja að undirbókin haldist í jafnvægi við aðalbókina og hjálpar til við að gera afstemmingarferlið auðveldara.
 
 Ef leiðréttingar er þörf á reikningi sem er stjórnað af kerfinu og bókaður sjálfkrafa geturðu notað eina af þessum aðferðum:
 
@@ -37,7 +37,7 @@ Ef leiðréttingar er þörf á reikningi sem er stjórnað af kerfinu og bóka�
 
 ## <a name="changing-posting-profiles-after-transactions-exist"></a>Að breyta bókunarsniðum eftir að færslur eru til
 
-Ef þú breytir bókunarsniði eftir að færslur eru til, getur afstemmingin mistekist og undirbók og höfuðbók geta farið úr jafnvægi. Almennt mælum við með því að þú **ekki** breyta bókunarsniðinu eftir að færslur eru til staðar.
+Ef þú breytir bókunarsniði eftir að færslur eru til, getur afstemmingin mistekist og undirbók og fjárhagur getur farið úr jafnvægi. Almennt mælum við með því að þú **ekki** breyta bókunarsniðinu eftir að færslur eru til staðar.
 
 Ef breytinga er þörf, notaðu eftirfarandi leiðbeiningar til að tryggja heilleika kerfisins:
 
@@ -45,7 +45,7 @@ Ef breytinga er þörf, notaðu eftirfarandi leiðbeiningar til að tryggja heil
 - Gerðu breytingarnar þegar engar aðrar færslur eiga sér stað í kerfinu.
 - Staðfestu höfuðbókina og samræmdu hana við undirbók fyrir og eftir að þú gerir breytingarnar.
 - Bókaðar færslur eru ekki uppfærðar ef þú breytir færslusniðinu. Íhugaðu vandlega hvort einhverjar aðlögunarfærslur séu nauðsynlegar fyrir breytinguna þína.
-- Ef þú ert að breyta birgðabókunarsniðum skaltu íhuga hvernig breytingarnar munu hafa áhrif á birgðabirgðir þínar og fjárhagsstöðu. Sumar breytingar gætu krafist þess að þú færð birgðina í 0 (núll), lokar birgðum og færðu birgðina aftur inn eftir að breytingarnar eru gerðar.
+- Ef þú ert að breyta birgðabókunarsniðum skaltu íhuga hvernig breytingarnar munu hafa áhrif á birgðastöðu þína og fjárhagsstöðu. Sumar breytingar gætu krafist þess að þú færð birgðina í 0 (núll), lokar birgðum og færðu birgðina aftur inn eftir að breytingarnar eru gerðar.
 - Prófaðu alltaf breytingar þínar í umhverfi sem ekki er í framleiðslu áður en þú gerir þær í framleiðslu.
 
 ## <a name="using-database-logging-to-audit-changes-to-posting-profiles"></a>Notkun gagnagrunnsskráningar til að endurskoða breytingar á færslusniðum
@@ -54,9 +54,9 @@ Ef breytinga er þörf, notaðu eftirfarandi leiðbeiningar til að tryggja heil
 
 Fyrir frekari upplýsingar, sjá [Stilla gagnagrunnsskráningu](../../fin-ops-core/dev-itpro/sysadmin/configure-manage-database-log.md).
 
-Notaðu eftirfarandi töflu sem viðmið fyrir algeng töfluheiti sem tengjast færslusniðum og tengdum færslubreytum.
+Notaðu eftirfarandi töflu sem tilvísun fyrir algeng töfluheiti sem tengjast færslusniðum og tengdum færslubreytum.
 
-| Heiti síðu | Slóð | Töfluheiti |
+| Síðuheiti | Slóð | Töfluheiti |
 |-----------|-----------------|------------|
 | Færibreytur viðskiptaskulda | Viðskiptaskuldir&gt; Uppsetning&gt; Færibreytur viðskiptaskulda | VendParm |
 | Bókunarregla lánardrottna | Viðskiptaskuldir&gt; Uppsetning&gt; Birtingarsnið söluaðila | VendPosting |
@@ -89,7 +89,7 @@ Notaðu eftirfarandi töflu sem viðmið fyrir algeng töfluheiti sem tengjast f
 | Verkflokkar | Verkefnastjórnun og bókhald&gt; Uppsetning&gt; Birting&gt; Verkefnahópar | ProjGroup |
 | Uppsetning fjárhagsbókunar (Verkefni) | Verkefnastjórnun og bókhald&gt; Uppsetning&gt; Birting&gt; Uppsetning fjárhagsbókunar | ProjPosting |
 | Sjálfgefnir mótlyklar fyrir kostnað | Verkefnastjórnun og bókhald&gt; Uppsetning&gt; Birting&gt; Sjálfgefin jöfnunarreikningur fyrir útgjöldum | ProjDefaultOffsetSetup |
-| Afsláttarstjórnunarprófílar | Stjórnun afsláttar&gt; Uppsetning afsláttarstjórnunar&gt; Afsláttarstjórnunarprófílar | TAMRebatePosting |
+| Bókunarreglur fyrir stjórnun eftirágreidds afsláttar | Stjórnun afsláttar&gt; Uppsetning afsláttarstjórnunar&gt; Afsláttarstjórnunarprófílar | TAMRebatePosting |
 | Fjárhagsbókunarhópur (skattur) | Skattur&gt; Uppsetning&gt; Söluskattur&gt; Fjárhagsbókunarhópur | Tax Account Group |
 
 ## <a name="changing-groups-after-transactions-exist"></a>Að breyta hópum eftir að færslur eru til

@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
-ms.author: shpandey
+ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: fc616e5fce6bbfeaa3b36ccc35f1b1cf407af4a6
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 5669b414283013ae1de095de2201df066ab588dd
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109861"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725906"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Úrræðaleit fyrir vandamál varðandi uppsetningu fjármálainnsýnar
 
@@ -34,7 +34,7 @@ ms.locfileid: "8109861"
 
 ### <a name="resolution"></a>Upplausn
 
-Þú gætir verið að nota sniðmát fyrir eldri útgáfu. Áður en útgáfa 10.0.17 er gefin út, hafa viðskiptavinir forskoðað og stillt sniðmát gagnasamþættingar (DI) **Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops)** með því að nota eininguna **Niðurstaða greiðsluspár (forskoðun)**. Eftir uppfærslu í 10.0.17 og síðar ættir þú að nota DI-sniðmátið fyrir **Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops útgáfu 10.0.17 og síðar)** til að ljúka vörpuninni. Ekki er víst að þú getir varpað viðtökudálki DI-sniðmáts fyrr en einingalisti gagnastjórnunar er uppfærður og einingin **Niðurstaða greiðsluspár** birtist þar. Til að uppfæra einingalistann og sýna niðurstöðu greiðsluspár lýkurðu við skref í bæði Microsoft Dynamics 365 Finance og Dataverse (áður þekkt sem Common Data Service \[CDS\] stjórnendagátt).
+Þú gætir verið að nota sniðmát fyrir eldri útgáfu. Áður en útgáfa 10.0.17 er gefin út, hafa viðskiptavinir forskoðað og stillt sniðmát gagnasamþættingar (DI) **Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops)** með því að nota eininguna **Niðurstaða greiðsluspár (forskoðun)**. Eftir uppfærslu í 10.0.17 og síðar ættir þú að nota DI-sniðmátið fyrir **Niðurstöður innsýnar í greiðslur viðskiptavinar (CDS til Fin og Ops útgáfu 10.0.17 og síðar)** til að ljúka vörpuninni. Ekki er víst að þú getir varpað viðtökudálki DI-sniðmáts fyrr en einingalisti gagnastjórnunar er uppfærður og einingin **Niðurstaða greiðsluspár** birtist þar. Til að endurnýja aðilalistann og sýna niðurstöðu greiðsluspár, muntu ljúka skrefum í báðum Microsoft Dynamics 365 Fjármál og Dataverse (áður þekkt sem Common Data Service\[ Geisladiskar\] stjórnendagátt).
 
 ### <a name="in-finance"></a>Í Finance
 
@@ -85,7 +85,7 @@ Ef réttu öryggishlutverki verkefnisins er úthlutað þér gætirðu þurft a�
 Eftirfarandi skref ætti að hafa verið lokið.
 
 - Staðfestu að þú hafir **Kerfisstjóri** og **Kerfisaðlögun** aðgang í Power Portal stjórnunarmiðstöðinni.
-- Staðfestu að a Dynamics 365 Finance eða sambærilegt leyfi er beitt fyrir notandann sem er að setja upp viðbótina.
+- Staðfestu að Dynamics 365 Finance eða sambærilegt leyfi sé notað fyrir notandann sem er að setja upp viðbótina.
 - Staðfestu að eftirfarandi Azure AD app er skráð í Azure AD: 
 
   | Forrit                  | Auðkenni forrits           |
@@ -96,7 +96,7 @@ Eftirfarandi skref ætti að hafa verið lokið.
 
 ### <a name="resolution"></a>Upplausn
 
-Athugaðu uppsetningu gagnasamþættingar til að sannreyna að hún virki eins og búist var við og bætir gögnum frá AI Builder aftur í Fjármál.  
+Athugaðu gagnasamþættingaruppsetninguna til að sannreyna að hún virki eins og búist var við og bætir gögnunum frá AI Builder aftur í Fjármál.  
 Fyrir frekari upplýsingar, sjá [Búðu til gagnasamþættingarverkefni](../finance-insights/create-data-integrate-project.md).
 
 ## <a name="symptom-customer-payment-prediction-training-failed-and-the-ai-builder-error-states-prediction-should-have-only-2-distinct-outcome-values-to-train-the-model-map-to-two-outcomes-and-retrain-training-report-issue-isnotminrequireddistinctnonnullvalues"></a>Einkenni: Þjálfun viðskiptavina greiðsluspá mistókst og AI Builder villa segir, "Spá ætti að hafa aðeins 2 aðgreind útkomugildi til að þjálfa líkanið. Kortið að tveimur útkomum og endurmenntuð“, „Málfræði um þjálfunarskýrslu: IsNotMinRequiredDistinctNonNullValues“.

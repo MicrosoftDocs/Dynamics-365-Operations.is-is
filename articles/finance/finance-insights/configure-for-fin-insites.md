@@ -8,35 +8,35 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b9bad6445e9e77688f66c6c4186422d7a898edd7
-ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
+ms.openlocfilehash: 6ec7e6a7e616e239128281ba669c8bbbfc5e3c7a
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8051371"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710615"
 ---
 # <a name="configuration-for-finance-insights"></a>Stillingar fyrir innsýn í fjármálum
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Fjármálainnsýn sameinar virkni frá Microsoft Dynamics 365 Finance með Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtæki þitt. Þetta efnisatriði útskýrir grunnstillingarskref sem mun gera kerfinu kleift að nota þá eiginleika sem eru í boði í Fjármálainnsýn. Til að ljúka aðferðunum í þessu efni með góðum árangri verður þú að hafa aðgang að kerfisstjóra og kerfissérstillingu í [Power Portal stjórnunarmiðstöð](https://admin.powerplatform.microsoft.com/), Kerfisstjóraaðgangur inn Dynamics 365 Finance, og aðgangur til að búa til umhverfi í Microsoft Dynamics Lífsferilsþjónusta (LCS).
+Fjármálainnsýn sameinar virkni frá Microsoft Dynamics 365 Fjármál með Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtæki þitt. Þetta efnisatriði útskýrir grunnstillingarskref sem mun gera kerfinu kleift að nota þá eiginleika sem eru í boði í Fjármálainnsýn. Til að ljúka aðferðunum í þessu efni með góðum árangri verður þú að hafa aðgang að kerfisstjóra og kerfissérstillingu í [Power Portal stjórnunarmiðstöð](https://admin.powerplatform.microsoft.com/), Kerfisstjóraaðgangur í Dynamics 365 Finance og aðgangur til að búa til umhverfi í Microsoft Dynamics Lífsferilsþjónusta (LCS).
 
 > [!NOTE]
-> Eftirfarandi aðferðir við að setja upp innsýn í fjármál gilda fyrir útgáfur af Dynamics 365 Finance útgáfu 10.0.21 og síðar.
+> Eftirfarandi aðferðir til að setja upp Finance Insights gilda fyrir útgáfur af Dynamics 365 Finance útgáfu 10.0.21 og síðar.
 
-## <a name="deploy-dynamics-365-finance"></a>Virkja Dynamics 365 Finance
+## <a name="deploy-dynamics-365-finance"></a>Settu upp Dynamics 365 Finance
 
 Fylgja skal eftirfarandi skrefum til að setja upp umhverfin.
 
-1. Í LCS, búðu til eða uppfærðu a Dynamics 365 Finance umhverfi. Umhverfið krefst app útgáfu 10.0.21 eða nýrri.
+1. Í LCS skaltu búa til eða uppfæra Dynamics 365 Finance umhverfi. Umhverfið krefst app útgáfu 10.0.21 eða nýrri.
 
     > [!NOTE]
     > Umhverfið verður að vera háaðgengilegt (HA) umhverfi. (Þessi tegund umhverfis er einnig þekkt sem umhverfi í tveggja laga umhverfi.) Frekari upplýsingar er að finna í [Umhverfisskipulagning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
@@ -50,7 +50,7 @@ Azure Active Directory(Azure AD) verður að stilla þannig að hægt sé að no
 Staðfestu að eftirfarandi uppsetningu sé lokið:
 
 - Þú hefur **Kerfisstjóri** og **Kerfisaðlögun** aðgang í Power Portal stjórnunarmiðstöðinni.
-- A Dynamics 365 Finance eða samsvarandi leyfi er beitt fyrir notandann sem er að setja upp Finance Insights viðbótina.
+- Dynamics 365 Finance eða sambærilegt leyfi er notað fyrir notandann sem er að setja upp Finance Insights viðbótina.
 
 Eftirfarandi Azure AD öpp eru skráð í Azure AD.
 
@@ -77,7 +77,7 @@ Fylgdu eftirfarandi skrefum til að stilla Dataverse fyrir fjármálainnsýn.
 Ef þú hefur áður sett upp Finance Insights viðbótina skaltu fjarlægja hana áður en þú lýkur eftirfarandi ferli.
 
 > [!NOTE]
-> Ef þú hefur þegar sett upp gagnavatnsaukinn í LCS, mun Finance Insights nota hana til að vista gögn sem eru nauðsynleg fyrir spár. Ef þú hefur ekki enn sett upp gagnavatnsaukinn í LCS, mun Finance Insights viðbótin búa til stýrt gagnavatn fyrir þig.
+> Ef þú hefur þegar sett upp gagnavatnsaukinn í LCS mun Finance Insights nota hana til að vista gögn sem eru nauðsynleg fyrir spár. Ef þú hefur ekki enn sett upp gagnavatnsaukinn í LCS, mun Finance Insights viðbótin búa til stýrt gagnavatn fyrir þig.
 
 Fylgið þessum skrefum til að setja upp innbót fjármálainnsýnar.
 
@@ -90,9 +90,9 @@ Fylgið þessum skrefum til að setja upp innbót fjármálainnsýnar.
 
 ## <a name="one-last-thing"></a>Eitt að lokum...
 
-Eftir að viðbótin hefur verið sett upp gæti það tekið allt að klukkutíma áður en þú getur virkjað Finance Insights eiginleika í **Eiginleikastjórnun** vinnurými í Dynamics 365 Finance. Ef þú vilt ekki bíða svona lengi geturðu keyrt handvirkt **Athugun á stöðu úthlutunar innsýnar** ferli. 
+Eftir að viðbótin hefur verið sett upp gæti það tekið allt að klukkutíma áður en þú getur virkjað Finance Insights eiginleika í **Eiginleikastjórnun** vinnusvæði í Dynamics 365 Finance. Ef þú vilt ekki bíða svona lengi geturðu keyrt handvirkt **Athugun á stöðu úthlutunar innsýnar** ferli. 
 
-1. Í Dynamics 365 Finance, fara til **Kerfisstjórnun \> Uppsetning \> Sjálfvirkni ferlisins**.
+1. Í Dynamics 365 Finance, farðu í **Kerfisstjórnun \> Uppsetning \> Sjálfvirkni ferlisins**.
 2. Á **Bakgrunnsferli** flipa, finna **Athugun á stöðu úthlutunar innsýnar**, og veldu **Breyta**.
 3. Stilltu **Næsta framkvæmd** reit í 30 mínútur fyrir núverandi tíma.
 
@@ -101,7 +101,7 @@ Eftir að viðbótin hefur verið sett upp gæti það tekið allt að klukkutí
    Eftir **Athugun á stöðu úthlutunar innsýnar** ferli er keyrt með góðum árangri geturðu virkjað Finance Insights eiginleika í **Eiginleikastjórnun** vinnurými.
 
 > [!NOTE]
-> Ef **Athugun á stöðu úthlutunar innsýnar** ferlið keyrir ekki, farðu til **Kerfisstjórnun** > **Fyrirspurnir** > **Lotustörf**. Í **Könnunarkerfi sjálfvirkt ferli** reit, breyttu gildinu í **Að bíða** að hefja ferlið. 
+> Ef **Athugun á stöðu úthlutunar innsýnar** ferlið keyrir ekki, farðu til **Kerfisstjórnun** > **Fyrirspurnir** > **Lotustörf**. Í **Aðferðasjálfvirkni skoðanakerfi** reit, breyttu gildinu í **Að bíða** að hefja ferlið. 
 > 
 ## <a name="feedback-and-support"></a>Ábendingar og stuðningur
 

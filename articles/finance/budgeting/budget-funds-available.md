@@ -1,14 +1,14 @@
 ---
 title: Tiltækt fjármagn úr fjárhagsáætlun
 description: Þetta efni kynnir tiltæka eiginleika fjárhagsáætlunarfjár og veitir upplýsingar sem geta hjálpað þér að stilla fjárhagsáætlunarstýringu til að hámarka stjórnun á fjárhag fyrirtækisins.
-author: rcarlson
+author: RyanCCarlson2
 ms.date: 11/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "60493"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2021-11-28
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: a8279ae9b08c7537548c1c8b71e6e978fee2b8a1
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: 1e7b2bf7ef7bd1bca6db27371f87dfddcdceef89
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891358"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710250"
 ---
 # <a name="budget-funds-available"></a>Tiltækt fjármagn úr fjárhagsáætlun
 
@@ -41,8 +41,8 @@ Sumir stillingarvalkostir fjárhagsáætlunarstýringar verða að hafa sérstak
 | ------------------------- | -------------------------------- |
 | Frátektir fjárhagsáætlunar fyrir áætlaðar fjárúthlutanir | Fjárhagsfyrirvarar vegna kvaða *og* Raunveruleg útgjöld |
 | Frátektir fjárhagsáætlunar fyrir fjárúthlutanir | Raunútgjöld |
-| Fráteknir fjárhagsáætlana fyrir kvaðir með skjölum af gerð innkaupabeiðni | Frátektir fjárhagsáætlunar fyrir áætlaðar fjárúthlutanir |
+| Fráteknir fjárhagsáætlunar fyrir kvaðir með skjölum af gerð innkaupabeiðni | Frátektir fjárhagsáætlunar fyrir áætlaðar fjárúthlutanir |
 
 Þessi eiginleiki hefur aðeins áhrif á ný skjöl. Upphæðir fyrir núverandi skjöl verða áfram raktar og sýndar í fyrirspurn um tölfræði fjárhagsáætlunarstýringar þar til stillingu fjárhagsáætlunarfjár tiltækt er breytt og nýja stillingar fjárhagsáætlunarstýringar er virkjuð. Á þeim tímapunkti verða rakningargögn fjárhagsáætlunar fjarlægð fyrir skjöl sem voru fjarlægð úr tiltækum útreikningi fjárhagsáætlunarfjár.
 
-Við mælum með að þú yfirgefur **Óbókuð raunútgjöld** valkostur hreinsaður. Ef það er valið verður tímafrekur útreikningur fjárhagsáætlunargerðar á óbókuðum skjölum, svo sem reikningum lánardrottins í bið.
+Við mælum með að þú yfirgefur **Óbókuð raunútgjöld** valkostur hreinsaður. Ef það er valið verður tímafrekur útreikningur fjárhagsáætlunarstýringar gerður á óbókuðum skjölum, eins og biðreikningum lánardrottins.

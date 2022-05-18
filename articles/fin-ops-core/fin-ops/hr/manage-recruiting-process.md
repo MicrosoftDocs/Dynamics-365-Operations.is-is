@@ -1,31 +1,31 @@
 ---
 title: Stjórna ráðningarferlum
 description: Þetta efni lýsir hugtaki sem ráðningaraðilar geta notað til að fylgjast með skrefum í ráðningarferli.
-author: andreabichsel
+author: twheeloc
 ms.date: 01/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
-ms.reviewer: anbichse
+ms.reviewer: twheeloc
 ms.custom: 7501
 ms.assetid: 1ad725bf-20e2-42a1-8068-111f7ddddad9
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa1d5201fcc52d49b9d954356f1ca39b7619cd2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: eb7cc1db906ba0cd07caaa1d82a12182f78b19ba
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075476"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735375"
 ---
 # <a name="manage-recruiting-processes"></a>Stjórna ráðningarferlum
 
 > [!IMPORTANT]
-> Virknin sem bent er á í þessu efnisatriði er eins og er í boði fyrir mannauðsviðskiptavini á fjármálainnviðum.  
+> Ráðningarvirkni í þessu efni verður nefnd ráðningarverkefni og beinist að umsækjendum, umsóknum og ráðningarverkefnum. 
 
 
 Þetta efnisatriðilýsir hugmyndinni sem ráðningaraðilar geta nota til að rekja skref í ráðningarferli, þar með talið viðleitni til að auglýsa opnar stöður og ráða umsækjendur, rekja upplýsingar um umsækjandann og umsóknina, taka viðtöl við umsækjendur og að velja einn eða fleiri umsækjendur að fylla opnar stöður í fyrirtækinu.
@@ -44,7 +44,7 @@ Ráðningarverk leyfa ráðningaraðilum að rekja framvindu gegn fyllingu einna
 - Tímamörk umsóknar
 - Áætlaður upphafsdagur
 
-Ráðningarverkefnið inniheldur **Atvinnuauglýsing** gildi sem er notað á **Sjálfsafgreiðsla starfsmanna** síðu til að auglýsa opnunina. Aðeins er hægt að sýna starfsmönnum opnunina ef ráðningarverkefnið hefur a **Atvinnuauglýsing** gildi, the **Birting á sjálfsafgreiðslu starfsmanna** reiturinn er stilltur á **Já**, hinn **Umsóknarfrestur** reit er stillt á framtíðardagsetningu og ráðningarverkefnið hefur a **Staða verkefnisins** verðmæti á **Byrjað**. Í eftirfarandi töflu er listi yfir möguleg ráðningarverk verkstöðu og lýsingu þeirra.
+Ráðningarverkefnið inniheldur **Atvinnuauglýsing** gildi sem er notað á **Sjálfsafgreiðsla starfsmanna** síðu til að auglýsa opnunina. Aðeins er hægt að sýna starfsmönnum opnunina ef ráðningarverkefnið hefur a **Atvinnuauglýsing** gildi, the **Birting á sjálfsafgreiðslu starfsmanna** reiturinn er stilltur á **Já**, hinn **Umsóknarfrestur** sviði er stillt á framtíðardagsetningu og ráðningarverkefnið hefur a **Staða verkefnisins** verðmæti á **Byrjað**. Í eftirfarandi töflu er listi yfir möguleg ráðningarverk verkstöðu og lýsingu þeirra.
 
 | Staða    | Gefur til kynna að...                                                                         |
 |-----------|-----------------------------------------------------------------------------------------|

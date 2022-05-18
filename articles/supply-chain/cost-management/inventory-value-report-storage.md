@@ -1,28 +1,28 @@
 ---
 title: Birgðavirðisskýrslur
 description: Þetta efnisatriði útskýrir hvernig á að setja upp, búa til og nota birgðavirðisskýrslur. Þessar skýrslur veita upplýsingar um efnislegt og fjárhagslegt magn og magn birgða þinna.
-author: banluo-ms
+author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: banluo
+ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: d78cde26d238d18744adde9a576552588736e619
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 4f710ff308bac42a284cd506143dd0ae21ff2ec7
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384696"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676160"
 ---
 # <a name="inventory-value-reports"></a>Birgðavirðisskýrslur
 
 [!include [banner](../includes/banner.md)]
 
-Birgðavirðisskýrslur veita upplýsingar um efnislegt og fjárhagslegt magn og fjárhæðir birgða þinna. Hægt er að skoða skýrslurnar á marga mismunandi vegu. Til dæmis er hægt að sýna samtölur eða færslur, eða sía eftir hlutum eða tímabili. Þú getur skoðað kostnað seldra vara (COGS) gildi eða vinnu í vinnslu (WIP) gildi og stillt aðra valkosti.
+Birgðavirðisskýrslur veita upplýsingar um efnislegt og fjárhagslegt magn og fjárhæðir birgða þinna. Þú getur skoðað skýrslurnar á marga mismunandi vegu. Til dæmis er hægt að sýna samtölur eða færslur, eða sía eftir hlutum eða tímabili. Þú getur skoðað kostnað seldra vara (COGS) gildi eða vinnu í vinnslu (WIP) gildi og stillt aðra valkosti.
 
 Birgðavirðisskýrslur gera þér kleift að framkvæma eftirfarandi verkefni:
 
@@ -36,11 +36,11 @@ Birgðavirðisskýrslur gera þér kleift að framkvæma eftirfarandi verkefni:
 
 Það eru tvær tegundir af skýrslum um birgðavirði: **Birgðaverðmæti** (staðlaða skýrslan) og **Geymsla birgðavirðisskýrslu**.
 
-### <a name="standard-inventory-value-report"></a>Staðlað birgðavirðisskýrsla
+### <a name="standard-inventory-value-report"></a>Skýrsla um staðlað birgðavirði
 
 Staðallinn **Birgðaverðmæti** skýrsla er einföld skýrsla sem gerir þér kleift að velja upplýsingarnar sem fylgja með og sýna þær síðan á skjánum. Það bjargar ekki niðurstöðunum. Það býður heldur ekki upp á gagnvirka eiginleika til að sía, bora niður, vafra eða flytja út. Af þessum ástæðum mælum við með að þú notir **Geymsla birgðavirðisskýrslu** tilkynna þess í stað í flestum tilfellum.
 
-### <a name="inventory-value-report-storage-report"></a>Birgðavirðisskýrsla geymsluskýrsla
+### <a name="inventory-value-report-storage-report"></a>Geymsluskýrsla um birgðaverðmæti
 
 The **Geymsla birgðavirðisskýrslu** skýrsla veitir úttak annað hvort sem gagnvirka síðu í Microsoft Dynamics 365 Supply Chain Management eða sem útflutt skjal á einu af nokkrum sniðum.
 
@@ -97,7 +97,7 @@ Nota **Birgðavirðisskýrslur** síðu til að setja upp innihaldið sem er inn
         - **COGS reikning** – Tilgreindu fjárhagsreikninginn til að sýna COGS upplýsingar fyrir. (Bæði **COGS** valmöguleika og **Prentaðu uppsöfnuð reikningsgildi til samanburðar** valkostur verður að vera stilltur á *Já* .)
 
     - **Taktu saman líkamleg og fjárhagsleg gildi** – Stilltu þennan valkost á *Já* til að birta dálk sem sýnir heildarbirgðamagn og birgðaupphæð (yfirlit yfir bæði efnisleg og fjárhagsleg birgðagildi). Ef þessi valkostur er stilltur á *Nei*, mun skýrslan sýna bæði efnisleg og fjárhagsleg birgðagildi.
-    - **Hafa ekki bókað í höfuðbók** Stilltu þennan valkost á *Já* til að birta dálk sem sýnir þær færslur sem aldrei voru bókaðar í fjárhag. Færslur fyrir eftirfarandi vörutegundir eru hugsanlega ekki bókaðar í fjárhag:
+    - **Hafa ekki bókað í höfuðbók** Stilltu þennan valkost á *Já* til að birta dálk sem sýnir þær færslur sem aldrei voru bókaðar í fjárhag. Færslur fyrir eftirfarandi tegundir vara eru hugsanlega ekki bókaðar í fjárhag:
 
         - Mótteknar og ekki enn reikningsfærðar vörur þegar **Bókaðu efnislegar birgðir** valkostur er hreinsaður fyrir viðkomandi vörulíkanaflokk.
         - Mótteknar og ekki enn reikningsfærðar vörur þegar **Bókaðu innhreyfingu vöru í höfuðbók** valkostur er hreinsaður á **Vörukvittun** Flýtiflipi á **Almennt** flipi á **Færibreytur viðskiptaskulda** síða (**Viðskiptaskuldir \> Uppsetning \> Færibreytur viðskiptaskulda**).
@@ -157,7 +157,7 @@ Fylgdu þessum skrefum til að búa til og geyma **Geymsla birgðavirðisskýrsl
 Eftir að runuvinnslunni er lokið birtist skýrslan á síðu **Skýrslu um birgðarvirði í geymslu**. Hugsanlega verður að endurhlaða síðuna til að skýrslan birtist.
 
 > [!IMPORTANT]
-> Í völdum uppsetningu birgðavirðisskýrslu gætirðu fengið ranga upphafsstöðu ef þú velur sömu dagsetningu í báðum **Frá dags** sviði og **Til dagsins í dag** reit, og ef þú stillir líka **Hafa upphafsjöfnuð með** valmöguleika til *Já*.
+> Í völdum uppsetningu birgðavirðisskýrslu gætirðu fengið ranga upphafsstöðu ef þú velur sömu dagsetningu í báðum **Frá dags** sviði og **Hingað til** reit, og ef þú stillir líka **Hafa upphafsjöfnuð með** valmöguleika til *Já*.
 
 ## <a name="explore-an-inventory-value-report-storage-report"></a>Skoðaðu geymsluskýrslu um birgðagildi
 
@@ -242,9 +242,9 @@ Aðfangakeðjustjórnun styður eftirfarandi tvö mikilvæg hugtök sem tengjast
 
 Venjulega muntu nota birgðavirðisskýrslu til að skoða birgðaverðmæti og magn. Hins vegar sýnir skýrslan stundum ekki allar viðeigandi birgðavíddir. Ef þú sérð ekki stærðirnar sem þú býst við skaltu staðfesta eftirfarandi stillingar:
 
-- Skoðaðu vörugeymslu- og rakningarvíddarhópana. Aðeins stærðir þar sem **Fjárhagsskrá** valkostur er virkur er hægt að sýna á skýrslunni.
+- Skoðaðu vörugeymslu- og rakningarvíddarhópana. Aðeins stærðir þar sem **Fjárhagsskrá** valkosturinn er virkur er hægt að sýna á skýrslunni.
 - Fara til **Kostnaðarstjórnun \> Uppsetning reikningsskilaaðferða birgða \> Birgðavirðisskýrslur**, veldu skýrslustillinguna sem þú notaðir til að búa til skýrsluna og vertu viss um að nauðsynlegar birgðavíddir séu valdar í **Útsýni** dálki.
 
-Til dæmis ertu með vöru sem hefur vörunúmerið *A0001*. Í geymsluvíddarhópnum er aðeins vefsvæðið virkt fyrir fjárhagslegar birgðir. Staðurinn og vöruhúsið eru bæði virkjuð fyrir efnislega birgðahald. Í rakningarvíddarhópnum er rununúmerið virkt fyrir efnislegar birgðir en ekki fyrir fjárhagslegar birgðir. Þú notar síðan skýrslustillingu þar sem staður, vöruhús og lotunúmer eru öll valin. Þegar þú skoðar skýrsluna sérðu aðeins gildi fyrir síðuna. Dálkarnir fyrir vöruhús og lotunúmer eru auðir. Eins og þetta dæmi sýnir geta birgðavirðisskýrslur aðeins sýnt birgðavídd sem eru virkjuð fyrir fjárhagslegar birgðir.
+Til dæmis ertu með vöru sem hefur vörunúmerið *A0001*. Í geymsluvíddarhópnum er aðeins vefsvæðið virkt fyrir fjárhagslegar birgðir. Staðurinn og vöruhúsið eru bæði virkjuð fyrir efnislegar birgðir. Í rakningarvíddarhópnum er rununúmerið virkt fyrir efnislegar birgðir en ekki fyrir fjárhagslegar birgðir. Þú notar síðan skýrslustillingu þar sem svæði, vöruhús og lotunúmer eru öll valin. Þegar þú skoðar skýrsluna sérðu aðeins gildi fyrir síðuna. Dálkarnir fyrir vöruhús og lotunúmer eru auðir. Eins og þetta dæmi sýnir geta birgðavirðisskýrslur aðeins sýnt birgðavídd sem eru virkjuð fyrir fjárhagslegar birgðir.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

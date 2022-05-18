@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7d12ffa90bde30518780d750e74d20db89f007044f8622480b8bd6e629e00dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ff5a5622fa63b6058b9e768f1fd1bc776a48962
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728746"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734840"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Setja upp skýrslugerðarkóða virðisaukaskatts
 
 [!include [banner](../../includes/banner.md)]
 
-Skýrslugerðakóðar söluskatts vísa í númer svæða sem má finna í söluskattskýrslu. Þær eru notaðar við skýrsluútlit tiltekinna landa. Þær eru einnig notaðar á VSK-greiðslu eftir kóðaskýrslu. Þessi skýrsla sýnir upphæð virðisaukaskatts fyrir jöfnunartímabil sem er sundurliðuð fyrir hvern skýrslugerðarkóða. Eftir að skýrslugerðarkóðar söluskatts eru stofnaðir er hægt að vísa í þá á flipa skýrsluuppsetningar sem hægt er að opna á síðunni **VSK-kóði**. 
+The **Vöruskattsskýrslukóðar** vísa til svæðisnúmers sem er skráð á söluskattskýrslu. Þær eru notaðar við skýrsluútlit tiltekinna landa. Þær eru einnig notaðar á VSK-greiðslu eftir kóðaskýrslu. Þessi skýrsla sýnir upphæð virðisaukaskatts fyrir jöfnunartímabil sem er sundurliðuð fyrir hvern skýrslugerðarkóða. Eftir að þú býrð til **Vöruskattsskýrslukóðar**, þú getur vísað til þessara kóða á **Uppsetning skýrslu** Hraðflipar, sem þú getur fengið aðgang að frá **Vöruskattskóði** síðu. 
 
 Þessi skráning notar sýnigögn DEMF fyrirtækis
 

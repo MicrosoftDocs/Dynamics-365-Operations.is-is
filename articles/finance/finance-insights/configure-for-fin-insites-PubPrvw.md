@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 ROBOTS: noindex,nofollow
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: cea6258d3a99ba33e73acd2508ec7b6c11d15859
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 61cc002395ac3bc946fa03a04833a7b6d4820194
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061755"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711605"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Stillingar fyrir fjármálainnsýn - útgáfa 10.0.20 og síðar
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061755"
 
 
 
-Fjármálainnsýn sameinar virkni frá Microsoft Dynamics 365 Finance með Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtæki þitt. Þetta efni útskýrir hvernig á að stilla Dynamics 365 Finance útgáfu 10.0.20 svo að kerfið þitt geti notað þá möguleika sem eru í boði í Finance Insights.
+Fjármálainnsýn sameinar virkni frá Microsoft Dynamics 365 Fjármál með Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtæki þitt. Þetta efnisatriði útskýrir hvernig á að stilla Dynamics 365 Finance útgáfu 10.0.20 þannig að kerfið þitt geti notað þá möguleika sem eru tiltækir í Finance Insights.
 
 > [!NOTE]
 > Skrefum skilgreiningarinnar sem lýst í þessu efnisatriði eiga aðeins við um útgáfu 10.0.20 og nýrri af Finance. Til að setja upp fjármálainnsýn á útgáfu 10.0.19 og eldri skal sjá [Stilling fjármálainnsýnar - útgáfur fram að 10.0.19](configure-for-fin-insites.md).

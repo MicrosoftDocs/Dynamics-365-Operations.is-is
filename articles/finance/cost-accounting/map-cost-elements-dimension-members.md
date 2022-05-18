@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimension, CAMDimensionMember, CAMDimensionMapping
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 223234
 ms.assetid: 4c66a231-aed2-48b5-9727-b3eb4fe6e6aa
 ms.search.region: global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b9ac59f305afd55edfcfb3b47bf38ddd44d92a706904f55a069a6a9fc9050825
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7654f748fb0cfc70d76718f03a235c5d4d13a908
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728032"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735465"
 ---
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Varpa víddarstökum kostnaðareiningar á almennt safn víddarstaka
 
@@ -33,12 +33,12 @@ Ef þú ert alþjóðlegt fyrirtæki og uppfylli lögboðnar kröfur um bókhald
 ## <a name="map-cost-element-dimension-members-to-a-common-format"></a>Varpa víddarstök kostnaðareiningar á almennt snið
 Eftirfarandi dæmi sýnir hvernig þú, sem fjármálastjóri, getur stofnað nýja vídd kostnaðareiningar í kostnaðarbókhaldi sem varpar víddarstök kostnaðareiningar úr Bandarísk skipulag bókhaldslykils og Franska skipulag bókhaldslykils í almenn sett víddarstaka kostnaðareiningar. Síðan er hægt að nota almennt safn víddarstök kostnaðareiningar til að greina kostnaðargögn úr tveimur lögaðila í fjárhag kostnaðarbókhalds.
 
-| Uppspretta: Bandaríkin bókhaldslykil                                          | Uppspretta: franska bókhaldslykil                                          | Ný almennt sett víddarstaka kostnaðareiningar                        |
-|-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Uppspretta: Bandaríkin bókhaldslykil          | Uppspretta: franska bókhaldslykil           | Ný almennt sett víddarstaka kostnaðareiningar                        |
+|------------------------------------|----------------------------------------------|-------------------------------------------------------------------------|
 | Innflutt víddarstök kostnaðareiningar úr bandaríska bókhaldslykli | Innflutt víddarstök kostnaðareiningar úr franska bókhaldslykli | Varpa bandaríska og franska víddarstök kostnaðareiningar á almennt sett |
-| 5001: Sala                                                           | 5001: Sala og auglýsingar                                               | 5000: Sala og auglýsingar                                             |
-| 5030: Auglýsingar                                                     | 6390: birgðakaup\*                                                    | 7000: Ræstikostnaður                                                 |
-| 7001: Ræstikostnaður                                               | 7001: Ferðakostnaður                                                      | 7001: Ferðakostnaður                                                   |
+| 5001: Sala                   | 5001: Sala og auglýsingar                      | 5000: Sala og auglýsingar                               |
+| 5030: Auglýsingar             | 6390: birgðakaup\*                          | 7000: Ræstikostnaður                                   |
+| 7001: Ræstikostnaður              | 7001: Ferðakostnaður                     | 7001: Ferðakostnaður                                                   |
 
 \*Franska víddarstak kostnaðareiningar fyrir birgðakaup er ekki varpað.
 

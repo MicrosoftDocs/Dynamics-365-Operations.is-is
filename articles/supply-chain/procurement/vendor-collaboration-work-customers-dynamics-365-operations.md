@@ -1,7 +1,7 @@
 ---
 title: Samstarf lánardrottna með viðskiptavinum
 description: Í þessu efnisatriði er því lýst hvernig hægt er að nota samstarf lánardrottna til að vinna með innkaupapantanir og fylgjast með vörusendingabirgðum.
-author: TaylorVH
+author: GalynaFedorova
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
-ms.author: v-savanh
+ms.author: gfedorova
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f699b00ab7ea2d043e12824015c54439caf8e63c
-ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
+ms.openlocfilehash: 5690630d4dde947798c925af66c73122c2efad3d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8022975"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673775"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Samstarf lánardrottna með viðskiptavinum
 
@@ -110,7 +110,7 @@ Fólk sem starfar hjá hinu opinbera getur séð opnar og útrunnar beiðnir um 
     Þú getur aukið aðgengi að **Opna birtar beiðnir um tilboð** tengilinn með því að kveikja á *Birta hlekkinn „Opna birtar beiðnir um tilboð“ sem flís* eiginleiki. Þessi eiginleiki breytir hlekknum í flís og færir hann á áberandi stað svo auðvelt sé að finna hann. Stjórnendur geta notað **Eiginleikastjórnun** vinnusvæði til að athuga stöðu þessa eiginleika og kveikja á honum ef þess er krafist. (Frá og með Supply Chain Management útgáfu 10.0.21 er kveikt á eiginleikanum sjálfgefið.) Þar er eiginleikinn skráður á eftirfarandi hátt:
 
     - **Eining:** *Innkaup og uppruni*
-    - **Eiginleikaheiti:** *Birta "Opna birtar beiðnir um tilboð" hlekkinn sem flís*
+    - **Eiginleikaheiti:** *Birta hlekkinn „Opna birtar beiðnir um tilboð“ sem flís*
 
 - Velja **Lokaðar opinberar tilboðsbeiðnir** hlekkur til að sjá lista yfir lokaðar beiðnir um tilboð sem eru opinberar. Lokuð tilboðsbeiðni er útrunnin tilboðsbeiðni. Á haus tilboðsbeiðninnar er að finna dag- og tímasetningu gildisloka.
 

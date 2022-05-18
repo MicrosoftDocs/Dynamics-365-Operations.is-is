@@ -8,21 +8,21 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "17251"
 - intro-internal
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 391f62f42e482f79420bbe1bbd4cec4930790229
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d69d3d1620616bd7a136645d6f28f638e8bcf199
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982066"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711744"
 ---
 # <a name="budget-planning-overview"></a>Yfirlit fjárhagsáætlunargerðar
 
@@ -32,7 +32,7 @@ ms.locfileid: "7982066"
 
 ## <a name="overview-of-budget-planning"></a>Yfirlit fjárhagsáætlunargerðar
 
-Fyrirtæki getur skilgreint fjárhagsáætlunargerðar og sett síðan upp ferli fjárhagsáætlunargerðar til að uppfylla þeirra fyrirtækisreglur, ferlum og kröfur fyrir undirbúning fjárhagsáætlunar. Þegar þú skilur hugtök og orðaforða sem eru notuð í Microsoft Dynamics 365 Finance, verður auðveldara fyrir þig að innleiða gerð fjárhagsáætlunar í þínu fyrirtæki.
+Fyrirtæki getur skilgreint fjárhagsáætlunargerðar og sett síðan upp ferli fjárhagsáætlunargerðar til að uppfylla þeirra fyrirtækisreglur, ferlum og kröfur fyrir undirbúning fjárhagsáætlunar. Með því að skilja hugtökin og hugtökin sem notuð eru í Microsoft Dynamics 365 Finance, þú getur innleitt fjárhagsáætlun á auðveldari og skilvirkari hátt í fyrirtækinu þínu.
 
 ### <a name="key-terms"></a>Lykilhugtök
 
@@ -57,7 +57,7 @@ Fjárhagsáætlunargerð er samþætt við aðrar einingar. Því er hægt að h
 
 ## <a name="configuring-budget-planning"></a>Skilgreining fjárhagsáætlunargerðar
 
-Virkni sem kynnt var í Dynamics 365 Finance útgáfu 10.0.9 (apríl 2020) inniheldur eiginleika sem hjálpar til við að bæta afköst þegar þú notar hnappinn **Birta** til að uppfæra núverandi skrár í Excel og birta þær síðan aftur til viðskiptavinarins. Þessi aðgerð flýtir fyrir uppfærsluferlinu og hjálpar einnig til við að draga úr líkum á því að lokað verði á uppfærslu þegar þú uppfærir margar skrár í einu. Til að gera þennan möguleika tiltækan skaltu fara í vinnusvæðið **Stjórnun eiginleika** og kveikja á eiginleikanum **Fínstilling fyrirspurnar fjárhagsáætlunar um afköst** undir **Fjárhagsáætlanir**. Við mælum með að þú kveikir á þessum eiginleika.
+Virkni sem var kynnt í Dynamics 365 Finance útgáfu 10.0.9 (apríl 2020) inniheldur eiginleika sem hjálpar til við að bæta árangur þegar þú notar **Birta** hnappinn til að uppfæra núverandi færslur í Excel og birta þær síðan aftur til viðskiptavinarins. Þessi aðgerð flýtir fyrir uppfærsluferlinu og hjálpar einnig til við að draga úr líkum á því að lokað verði á uppfærslu þegar þú uppfærir margar skrár í einu. Til að gera þennan möguleika tiltækan skaltu fara í vinnusvæðið **Stjórnun eiginleika** og kveikja á eiginleikanum **Fínstilling fyrirspurnar fjárhagsáætlunar um afköst** undir **Fjárhagsáætlanir**. Við mælum með að þú kveikir á þessum eiginleika.
 
 Síðan **Skilgreining fjárhagsáætlunargerðar** inniheldur flestar stillingar sem þarf til að setja upp fjárhagsáætlunargerð. Eftirfarandi kaflar lýsa sumum af þáttunum sem ætti að íhuga þegar þú skilgreina fjárhagsáætlunargerðar. Þegar þú hefur lokið skilgreiningunni, geturðu sett upp ferli fjárhagsáætlunargerðar.
 
@@ -87,7 +87,7 @@ Fjárhagsáætlunargerð getur farið að einu af tveimur öryggislíkönum til 
 
 Verkflæði fjárhagsáætlunargerðar eru notuð með verkflæði fyrir Fjárhagsáætlun til að stjórna stofnun og þróun fjárhagsáætlana.
 
-Verkflæði fjárhagsáætlunargerðar samanstendur af röð stiga sem fjárhagsáætlunargerð færist í gegnum. Hvert verkflæði fjárhagsáætlunargerðar er tengt við verkflæði fyrir fjárhagsáætlun. Verkflæði fjárhagsáætlunar eru ein gerð af verkflæði sem eru notuð alls staðar í Dynamics 365 Finance. Þau beina fjárhagsáætlunum, ásamt vinnublöðum, réttlætingum og viðhengjum, í gegnum fyrirtækið til yfirferðar og samþykkis.
+Verkflæði fjárhagsáætlunargerðar samanstendur af röð stiga sem fjárhagsáætlunargerð færist í gegnum. Hvert verkflæði fjárhagsáætlunargerðar er tengt við verkflæði fyrir fjárhagsáætlun. Verkflæði fjárhagsáætlunargerðar eru ein af þeim gerðum verkflæðis sem er notað í gegnum Dynamics 365 Finance. Þau beina fjárhagsáætlunum, ásamt vinnublöðum, réttlætingum og viðhengjum, í gegnum fyrirtækið til yfirferðar og samþykkis.
 
 Þú stofnar verkflæði fjárhagsáætlunargerðar í hlutanum **verkflæðisstig** á síðunni **Skilgreining fjárhagsáætlunargerðar**. Þar er hægt að velja stig og verkflæði fjárhagsáætlunar sem verður notuð og skilgreina viðbótarstillingar.
 

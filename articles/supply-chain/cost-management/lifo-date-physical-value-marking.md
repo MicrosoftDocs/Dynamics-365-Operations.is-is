@@ -1,7 +1,7 @@
 ---
-title: LIFO dagsetning með líkamlegu gildi og merkingu
+title: Dagsetning LIFO (síðast inn - fyrst út) með efnislegt virði og merkingu
 description: Síðast inn, fyrst út dagsetning (LIFO dagsetning) er birgðalíkan sem byggir á LIFO meginreglunni. Úthreyfingar úr birgðum eru jafnaðar á móti síðustu innhreyfingu í birgðir, samkvæmt dagsetningu birgðafærslunnar. Með því að nota LIFO dagsetningu, ef það er engin kvittun fyrir útgáfu, er málið jafnað á móti öllum kvittunum sem eiga sér stað eftir útgáfudegi. Fleiri en eina úthreyfingu innan sama dags má jafna í þeirri röð að sú síðasta jafnist við síðustu innhreyfingu.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 02/21/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,17 +9,17 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 51592
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6f5f447724ace473bece3007a96c4b56e90a908
-ms.sourcegitcommit: addae271ddfc5a8b0721c23337f69916153db4cd
+ms.openlocfilehash: 8ca344e6ca81814e787046f6ece97625d035346d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/21/2022
-ms.locfileid: "8330277"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671451"
 ---
-# <a name="lifo-date-with-physical-value-and-marking"></a>LIFO dagsetning með líkamlegu gildi og merkingu
+# <a name="lifo-date-with-physical-value-and-marking"></a>Dagsetning LIFO (síðast inn - fyrst út) með efnislegt virði og merkingu
 
 [!include [banner](../includes/banner.md)]
 
@@ -70,7 +70,7 @@ Eftirfarandi mynd sýnir áhrif LIFO dagsetningabirgðalíkans þegar **Taktu me
 
 ## <a name="lifo-date-with-the-include-physical-value-option"></a>LIFO dagsetning með valkostinum Innifalið líkamlegt virði
 
-Ef **Taktu með líkamlegt gildi** gátreiturinn er valinn fyrir hlut á **Vörulíkanaflokkar** síðu notar kerfið bæði efnislegar og fjárhagslegar kvittunarfærslur til að reikna út hlaupandi meðalkostnaðarverð. Þar sem við á, lagar kerfið einnig líkamlega uppfærða útgáfufærslu. Þegar **Taktu með líkamlegt gildi** gátreiturinn er hreinsaður, birgðalokun sem notar LIFO dagsetningu birgðalíkansins gerir uppgjör aðeins fyrir færslur sem eru fjárhagslega uppfærðar.
+Ef **Taktu með líkamlegt gildi** gátreiturinn er valinn fyrir hlut á **Hlutamódelhópar** síðu notar kerfið bæði efnislegar og fjárhagslegar kvittunarfærslur til að reikna út meðaltalskostnaðarverð. Þar sem við á, lagar kerfið einnig líkamlega uppfærða útgáfufærslu. Þegar **Taktu með líkamlegt gildi** gátreiturinn er hreinsaður, birgðalokun sem notar LIFO dagsetningu birgðalíkansins gerir uppgjör aðeins fyrir færslur sem eru fjárhagslega uppfærðar.
 
 Í þessu dæmi, er birgðalíkanaflokkurinn merktur til að innihalda efnislega virðið. 
 
@@ -80,12 +80,12 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 - 1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 - 2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
 - 2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 22,00 USD á hverja.
-- 3a. Raunveruleg útgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 16.00 (hlaupandi meðaltal líkamlegra og fjárhagslegra bókaða færslna).
-- 3b. Fjárhagsútgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 16.00 (hlaupandi meðaltal líkamlegra og fjárhagslegra færslna).
+- 3a. Raunveruleg útgáfa birgða fyrir magn sem er 1 á kostnaðarverði USD 16.00 (hlaupandi meðaltal af líkamlegum og fjárhagslegum bókuðum færslum).
+- 3b. Fjárhagsútgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 16.00 (hlaupandi meðaltal líkamlegra og fjárhagslegra bókaða færslna).
 - 4a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 - 5a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 - 5b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.
-- 6a. Raunveruleg útgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 23.67 (hlaupandi meðaltal líkamlegra og fjárhagslega bókfærðra færslna).
+- 6a. Raunveruleg útgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 23.67 (hlaupandi meðaltal líkamlegra og fjárhagslegra bókaða færslur).
 - 7\. Birgðalokun er framkvæmd. Byggt á LIFO dagsetningaraðferðinni verður fyrsta fjárhagslega uppfærða útgáfan jöfnuð á móti síðustu fjárhagslega uppfærðu kvittuninni fyrir hverja dagsetningu sem hefst á fyrstu dagsetningu og svo framvegis. Í þessu dæmi er ein uppgjör búin til á milli 2b og 3b. Leiðrétting á USD 6.00 verður gerð í 3b og endanlegur kostnaður verður USD 22.00. Að auki verður færsla 6a aðlöguð að kvittunarfærslukostnaði 5b. Kerfið mun ekki jafna þessar færslur vegna þess að kvittunin er uppfærð líkamlega en ekki fjárhagslega. Þess í stað verður aðeins leiðrétting á USD 6.33 bókuð á efnislega útgáfufærsluna og leiðréttur kostnaður sem myndast verður USD 30.00.
 
 Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans Lifo þegar **Taka efnislegt virði með** valkosturinn er notuð.

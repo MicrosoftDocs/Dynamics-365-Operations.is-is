@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a8fdeb109204557f0e44457e23a60224e662474f
-ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
-ms.translationtype: HT
+ms.openlocfilehash: a55a5d4c9dbf7909af5219843fc4310b6cdd4ed7
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8616833"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689638"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Skilgreina greiðslumáta viðskiptavinalykils fyrir B2B-svæði fyrir rafræn viðskipti
 
@@ -88,14 +88,14 @@ The **Inneign og innheimtur** mát hefur nýja möguleika á lánastjórnun. Til
 
 Burtséð frá því hvort **Útlánastjórnun** eiginleiki er virkjaður, ef inneign viðskiptavina fer yfir lánsfjárhámarkið meðan á pöntun stendur, fara sölupantanir ekki í bið. Þess í stað mun Commerce búa til annað hvort viðvörunarskilaboð eða villuboð, allt eftir gildi **Skilaboð þegar farið er yfir lánamörk** sviði á **Lánamörk** Flýtiflipi.
 
-The **Útiloka frá lánastýringu** eign sem kemur í veg fyrir að Commerce sölupantanir haldist í bið er staðsett á sölupöntunarhaus (**Verslun og verslun \> Viðskiptavinir \> Allar sölupantanir**). Ef þessi eign er stillt á **Já** (sjálfgefið gildi) fyrir Commerce sölupantanir, pantanir verða útilokaðar frá biðvinnuflæði lánastýringar. Þó að eignin sé nefnd **Útiloka frá lánastýringu**, skilgreint lánsfjárhámark verður enn notað meðan á pöntun stendur. Pantanir fara bara ekki í bið.
+The **Útiloka frá lánastýringu** eign sem kemur í veg fyrir að Commerce sölupantanir haldist í bið er staðsett á sölupöntunarhaus (**Verslun og verslun \> Viðskiptavinir \> Allar sölupantanir**). Ef þessi eign er stillt á **Já** (sjálfgefið gildi) fyrir Commerce sölupantanir, pantanir verða útilokaðar frá biðvinnuflæði lánastýringar. Þó að eignin sé nefnd **Útiloka frá lánastýringu**, skilgreint lánahámark verður enn notað meðan á pöntun stendur. Pantanir fara bara ekki í bið.
 
 Möguleikinn á að setja Commerce sölupantanir í bið á grundvelli blokkunarreglna er fyrirhuguð fyrir Commerce útgáfur í framtíðinni. Þangað til það er stutt, ef þú verður að þvinga Commerce sölupantanir til að fara í gegnum nýju lánastýringarflæðið, geturðu sérsniðið eftirfarandi XML skrár í Visual Studio lausn. Í skránum skaltu breyta rökfræðinni þannig að **CredManExcludeSalesOrder** fáninn er stilltur á **Nei**. Á þennan hátt er **Útiloka frá lánastýringu** eign verður stillt á **Nei** sjálfgefið fyrir Commerce sölupantanir.
 
 - RetailCreateCustomerOrderExtensions_CredMan_Extension.xml
 - RetailCallCenterOrderExtensions_CredMan_Extension.xml
 
-Ef **CredManExcludeSalesOrder** fáninn er stilltur á **Nei**, og B2B viðskiptavinur getur keypt í verslunum með því að nota sölustað (POS) forritið, bókun á reiðufé og flutningsfærslum gæti mistekist. Til dæmis er lokunarregla á tegund reiðufjárgreiðslu og B2B viðskiptavinurinn keypti suma hluti í versluninni með því að nota reiðufé. Í þessu tilviki verður sölupöntunin sem myndast ekki reikningsfærð vegna þess að hún verður í biðstöðu. Þess vegna mun pósturinn mistakast. Af þessum sökum mælum við með því að þú gerir end-to-end prófun eftir að þú hefur innleitt þessa aðlögun.
+Ef **CredManExcludeSalesOrder** fáninn er stilltur á **Nei**, og B2B viðskiptavinur getur keypt í verslunum með því að nota sölustað (POS) forritið, bókun á reiðufé og flutningsfærslum gæti mistekist. Til dæmis er lokunarregla á tegund reiðufjárgreiðslu og viðskiptavinur B2B keypti suma hluti í versluninni með því að nota reiðufé. Í þessu tilviki verður sölupöntunin sem myndast ekki reikningsfærð vegna þess að hún fer í bið. Þess vegna mun pósturinn mistakast. Af þessum sökum mælum við með því að þú gerir end-til-enda prófun eftir að þú hefur innleitt þessa sérstillingu.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

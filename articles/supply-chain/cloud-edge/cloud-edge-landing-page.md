@@ -1,22 +1,22 @@
 ---
 title: Einingarkvarðar í dreifðri blandaðri grannfræði
 description: Þetta efnisatriði veitir upplýsingar um einingarkvarðar fyrir ský og jaðra fyrir vinnuálag framleiðslu og vöruhúsakerfis
-author: cabeln
+author: Mirzaab
 ms.date: 04/22/2021
 ms.topic: article
 ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: cabeln
+ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30f455f37b5161878cf9c864b92966aa74da051f
-ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
+ms.openlocfilehash: 5ec846b294cd9ca62ff15a5306e012813c77e306
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8376183"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8676329"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Einingarkvarðar í dreifðri blandaðri grannfræði
 
@@ -116,7 +116,7 @@ Mælikvarðar og mælingar sem geta hugsanlega hjálpað til við að velja forr
 
 ### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Gagnavinnsla við stjórnun einingarkvarða
 
-Þegar þú gerir Dynamics 365 umhverfinu þínu kleift að styðja dreifða blendinguna fyrir skýja- og jaðarkvarðaeiningar, verða sum stjórnunarþjónusta aðeins hýst í Bandaríkjunum, eins og fyrir LCS. Þessi hegðun hefur áhrif á flutning og geymslu einhverra stjórnunar- og grunnstillingarupplýsinga sem [Stjórnandagátt einingarkvarða](https://sum.dynamics.com) notar. Hér eru nokkur dæmi:
+Þegar þú gerir Dynamics 365 umhverfinu þínu kleift að styðja við dreifða blendinguna fyrir skýja- og jaðarkvarðaeiningar, verða sum stjórnunarþjónusta aðeins hýst í Bandaríkjunum, eins og fyrir LCS. Þessi hegðun hefur áhrif á flutning og geymslu einhverra stjórnunar- og grunnstillingarupplýsinga sem [Stjórnandagátt einingarkvarða](https://sum.dynamics.com) notar. Hér eru nokkur dæmi:
 
 - Heiti og auðkenni leigjenda
 - LCS-verkkenni
@@ -191,7 +191,7 @@ Til að bæta við einum eða fleiri einingarkvörðum sem eru í boði í áskr
 
 | Vinna | Lýsing |
 |---|---|
-| Gera hlé á samskiptum mælieininga | Gera hlé á leiðsluskilaboðum milli miðstöðvarinnar og mælieininga. Þetta ferli mun stöðva samskiptin og tæma gagnaleiðsluna milli miðstöðvarinnar og mælieininga. Þú verður að keyra þetta ferli áður en þú keyrir Supply Chain Management þjónustuaðgerð á annað hvort miðstöðinni eða mælieiningunni, en þú getur líka notað þetta við aðrar aðstæður. |
+| Gera hlé á samskiptum mælieininga | Gera hlé á leiðsluskilaboðum milli miðstöðvarinnar og mælieininga. Þetta ferli mun stöðva samskiptin og tæma gagnaleiðsluna milli miðstöðvarinnar og mælieininga. Þú verður að keyra þetta ferli áður en þú keyrir Supply Chain Management þjónustuaðgerð á annað hvort miðstöðina eða mælikvarðaeininguna, en þú getur líka notað þetta við aðrar aðstæður. |
 | Haltu áfram samskiptum við mælieiningu | Halda áfram leiðsluskilaboðum milli miðstöðvarinnar og mælieininga. Þú gætir þurft að nota þetta ferli, til dæmis eftir að þú hefur keyrt birgðakeðjustjórnunarþjónustu annað hvort á miðstöðina eða mælieininguna. |
 | Uppfærðu vinnuálag | Samstilltu nýja virkni á milli vinnuálags miðstöðvarinnar og mælieiningar. Þú gætir þurft að nota þetta ferli, til dæmis þegar þjónusta hefur valdið breytingum á gagnaskiptafyrirspurnum og/eða hefur bætt nýjum töflum eða reitum við vinnuálagið. |
 | Flytja vinnuálag yfir á kvarðaeiningu | Tímasettu vinnuálag sem er í gangi á miðstöðinni til að flytja það yfir í mælieiningu. Þegar þetta ferli er keyrt mun samstilling gagna streyma og bæði miðstöðin og mælieiningin verða stillt til að breyta eignarhaldi vinnuálagsins. |
@@ -220,7 +220,7 @@ Til að bæta við einum eða fleiri einingarkvörðum sem eru í boði í áskr
 | Stuðningur kvörðunareiningar fyrir vinnulista vöruhúsaforrits | Vöruhús |
 | Framkvæmd á framleiðslugólfi | Framleiðsla |
 
-Þegar þú setur upp vinnuálag með því að nota [mælitæki fyrir dreifingu eininga fyrir þróunarumhverfi með einum kassa](https://github.com/microsoft/SCMScaleUnitDevTools) eða the [gátt um sviðsstjóra](https://sum.dynamics.com), allir lögboðnir eiginleikar verða sjálfkrafa virkir. Hins vegar, ef þú framkvæmir handvirka prófun sem vantar einn eða fleiri skyldueiginleika, mun uppsetning vinnuálags mistakast og þú færð skilaboð sem skráir þá eiginleika sem vantar. Þú verður síðan að virkja þessa eiginleika handvirkt og endurræsa uppsetningu vinnuálags.
+Þegar þú setur upp vinnuálag með því að nota [mælitæki fyrir dreifingu eininga fyrir þróunarumhverfi með einum kassa](https://github.com/microsoft/SCMScaleUnitDevTools) eða the [gátt um sviðsstjóra](https://sum.dynamics.com), allir lögboðnir eiginleikar verða sjálfkrafa virkir. Hins vegar, ef þú framkvæmir handvirka prófun sem vantar einn eða fleiri skyldueiginleika, mun uppsetning vinnuálags mistakast og þú munt fá skilaboð sem skráir þá eiginleika sem vantar. Þú verður síðan að virkja þessa eiginleika handvirkt og endurræsa uppsetningu vinnuálags.
 
 ### <a name="enabling-or-disabling-features-that-have-data-synchronization-dependencies"></a>Virkja eða slökkva á eiginleikum sem eru háðir gagnasamstillingu
 

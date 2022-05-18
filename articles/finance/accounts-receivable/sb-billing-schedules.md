@@ -1,5 +1,5 @@
 ---
-title: Búðu til innheimtuáætlanir
+title: Stofna greiðsluáætlun
 description: Þetta efni útskýrir hvernig á að búa til, eyða og breyta innheimtuáætlunum.
 author: JodiChristiansen
 ms.date: 02/09/2022
@@ -9,20 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 2c4e3c0edadd00fd3a3f2ae9968248a226147996
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: ed31dd96b0115610cfb74aed69f1acc1055bfe56
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462588"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690446"
 ---
-# <a name="create-billing-schedules"></a>Búðu til innheimtuáætlanir
+# <a name="create-billing-schedules"></a>Stofna greiðsluáætlun
 
 [!include [banner](../includes/banner.md)]
 
@@ -63,8 +62,8 @@ The **Greiðsla** reit sýnir greiðsluupplýsingar viðskiptavinarins frá við
 15. Í **Upplýsingar um tengilið** reiti geturðu slegið inn tengilið, netfang og netfang.
 16. Til að fylgjast með upplýsingum um þóknun samstarfsaðila skaltu stilla **Félagsreikningur** og **Þóknunarhlutfall samstarfsaðila** sviðum. Þessir reitir eru eingöngu til upplýsinga.
 17. Á **Samtals** flipanum er hægt að skoða hinar ýmsu heildartölur sem hafa verið reiknaðar út fyrir innheimtuáætlunina.
-18. Á **Haltu** flipanum er hægt að skoða endurskoðunarupplýsingar um hvenær innheimtuáætlun var sett í bið þegar biðin var fjarlægð.
-19. Á **Uppsögn** flipanum geturðu skoðað feril yfir uppsagnirnar sem voru settar á eða fjarlægðar úr innheimtuáætluninni.
+18. Á **Haltu** flipanum geturðu skoðað endurskoðunarupplýsingar um hvenær innheimtuáætlun var sett í bið þegar biðin var fjarlægð.
+19. Á **Uppsögn** flipanum geturðu skoðað feril uppsagnanna sem voru settar á eða fjarlægðar úr innheimtuáætluninni.
 20. Veldu **Vista**.
 21. Á **Innheimtuáætlunarlínur** Flýtiflipi, veldu **Bæta við línu**.
 22. Í **Vörunúmer** reit, veldu vörunúmerið. Ef varan sem er bætt við er yfirliður í tekjuskiptingu eru línurnar sjálfkrafa uppfærðar með undirliðunum. Þú getur aðeins breytt yfirliðinu í tekjuskiptingu. Allir undirliðir eru síðan uppfærðir í samræmi við það.
@@ -121,7 +120,7 @@ Eftirfarandi upplýsingar eru fáanlegar á **Almennt** flipa.
 
 | Reitur eða hluti | Lýsing |
 |------------------|-------------|
-| Notkun | <p>Þessi hluti veitir upplýsingar um notkunaratriði. Það inniheldur eftirfarandi reiti:</p><ul><li>**Notkunarauðkenni** – Auðkenni mælisins eða notkunarhlutarins.</li><li>**Lestrarvalkostur** - Notkunarlestrarvalkosturinn: **Lestur** eða **Neysla**.</li><li>**Áætluð neysla** – Tilgreindu áætlaða notkun fyrir notkunarvöru sem hefur tímabil þar sem reikningurinn hefur ekki verið búinn til. Á **Innheimtuupplýsingar** síðu, getur þú skoðað línur innheimtuupplýsinga fyrir áætlaða neyslu.</li></ul> |
+| Notkun | <p>Þessi hluti veitir upplýsingar um notkunaratriði. Það inniheldur eftirfarandi reiti:</p><ul><li>**Notkunarauðkenni** – Auðkenni mælisins eða notkunarhlutarins.</li><li>**Lestrarvalkostur** - Notkunarlestrarvalkosturinn: **Lestur** eða **Neysla**.</li><li>**Áætluð neysla** – Tilgreindu áætlaða notkun fyrir notkunarvöru sem hefur tímabil þar sem reikningurinn hefur ekki verið búinn til. Á **Innheimtuupplýsingar** síðu er hægt að skoða línur innheimtuupplýsinga fyrir áætlaða neyslu.</li></ul> |
 | Ytri tilvísanir\* | Þessi hluti inniheldur **Ytri** og **Línunúmer** reiti, þar sem þú getur tilgreint ytri tilvísunarupplýsingar. |
 | Áfangi | <p>Þessi hluti veitir upplýsingar um áfangaatriði. Það inniheldur **Áætlaður verklokadagur** reit, sem sýnir verklokadag.</li></ul> |
 | Texti | Athugasemd fyrir línuna. Textinn er þýddur á sjálfgefið tungumál viðskiptavinar eða lögaðila. |

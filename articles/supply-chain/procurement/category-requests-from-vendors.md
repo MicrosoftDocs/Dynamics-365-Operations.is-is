@@ -1,22 +1,22 @@
 ---
 title: Tegundabeiðnir frá lánardrottnum
 description: Í þessu efnisatriði er lýst hvernig lánardrottnar geta óskað eftir innkaupaflokkum fyrir reikningana þeirra. Þar er einnig lýst samþykktarferlinu sem innkaupafulltrúar ljúka.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 04/19/2021
 ms.topic: article
 ms.search.form: VendRequestNewCategory
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5d06f05ca27ed8fe58a9a24fcde8c0082662b866
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9874151a5d82cc3441741489065877b78bab7bf5
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103113"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671198"
 ---
 # <a name="category-requests-from-vendors"></a>Tegundabeiðnir frá lánardrottnum
 

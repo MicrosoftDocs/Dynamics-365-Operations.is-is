@@ -1,6 +1,6 @@
 ---
 title: Setja upp margþátta tekjuúthlutun
-description: Þetta efnisatriði lýsir því hvernig á að setja upp færibreytur fyrir tekjuúthlutun margra þátta í áskriftarreikningi.
+description: Þetta efnisatriði lýsir því hvernig á að setja upp færibreytur fyrir tekjuúthlutun margra þátta í áskriftarinnheimtu.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: e422b16d1c4505b2837bb282918ecada902b806e
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: bb5b220dd941cbb9f1fda5d0eb821a86a9135309
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566565"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685800"
 ---
 # <a name="set-up-multiple-element-revenue-allocation"></a>Setja upp margþátta tekjuúthlutun
 
@@ -43,11 +42,11 @@ The **Sjálfstætt söluverð uppruna** reit ákvarðar hvaðan sjálfstæða s�
 | Úthluta afgangsupphæð | <p>Uppruni sjálfstæðs söluverðs er reiknaður sem *Heildarsamningsverðmæti yfirliðar* –*Heildar sjálfstætt söluverð á undirvörum*:</p><ul><li>*Heildarsamningsverðmæti yfirliðar* er nettó eða innheimt upphæð.</li><li>*Heildar sjálfstætt söluverð á undirvörum* er summan af framlengdu eða samningslausu söluverði allra undirvara, nema undirvörunnar sem notar þetta sjálfstæða söluverðsuppruna.</li></ul><p>Ef útreiknuð upphæð er neikvætt gildi er upphæðin stillt á 0 (núll).</p><p>**Athugið:** Þessi valkostur er aðeins hægt að velja fyrir einn undirlið í tekjuskiptingu.</p> |
 | Ekkert | Uppruni sjálfstæða söluverðsins byggist á undirhlutunum. Þessi valkostur á við um vörur sem eru skilgreindar sem yfirvörur í tekjuskiptingarsniðmáti. Ef **Tekjuskipting** gátreiturinn er valinn, þessi valkostur er sjálfkrafa valinn og ekki er hægt að breyta stillingunni. |
 | Prósenta af reikningsverði yfireiningar | Uppruni sjálfstæða söluverðsins er hlutfall af reikningsverði móðurvörunnar. Þú getur breytt sjálfgefna gildinu. Þessi valkostur er aðeins tiltækur fyrir undirvörur í tekjuskiptingarsniðmáti. |
-| Prósenta af stöðluðu verði yfireiningar | Uppruni sjálfstæðs söluverðs er hundraðshluti af stöðluðu verði móðurvörunnar. Þú getur breytt sjálfgefna gildinu. Þessi valkostur er aðeins tiltækur fyrir undirvörur í tekjuskiptingarsniðmáti. Það er sjálfgefinn valkostur fyrir undirhluti. Þegar valmöguleika fyrir undirhlut er breytt úr **Hlutfall af staðalverði foreldra** til **Hlutfall af verði móðurreiknings**, eða frá **Hlutfall af verði móðurreiknings** til **Hlutfall af staðalverði foreldra**, eru reiknuð gildi einnig uppfærð. |
+| Prósenta af stöðluðu verði yfireiningar | Uppruni sjálfstæðs söluverðs er hundraðshluti af stöðluðu verði móðurvörunnar. Þú getur breytt sjálfgefna gildinu. Þessi valkostur er aðeins tiltækur fyrir undirvörur í tekjuskiptingarsniðmáti. Það er sjálfgefinn valkostur fyrir barnavörur. Þegar valmöguleika fyrir undirhlut er breytt úr **Hlutfall af staðalverði foreldra** til **Hlutfall af verði móðurreiknings**, eða frá **Hlutfall af verði móðurreiknings** til **Hlutfall af staðalverði foreldra**, eru reiknuð gildi einnig uppfærð. |
 
 ### <a name="account-for-revenue-allocation-rounding-differences"></a>Lykill fyrir sléttunarmismun tekjuúthlutunar
 
-The **Gerðu grein fyrir námundunarmun teknaúthlutunar** reiturinn tilgreinir reikninginn sem er notaður til að skrá allar sléttunarleiðréttingar á samningstekjuupphæð. Það er tiltækt þegar endurtekinn samningsreikningur er notaður.
+The **Gerðu grein fyrir námundunarmun á tekjuúthlutun** reiturinn tilgreinir reikninginn sem er notaður til að skrá allar sléttunarleiðréttingar á samningstekjuupphæð. Það er tiltækt þegar endurtekinn samningsreikningur er notaður.
 
 ## <a name="item-standalone-selling-price"></a>Stakt söluverð vöru
 
@@ -71,7 +70,7 @@ Til að tilgreina sjálfstætt verð fyrir vöru skaltu fylgja þessum skrefum.
 7. Veldu **Tekjuskipting** gátreit.
 8. Í **Atriðatengsl** reit, veldu hluttengsl. Listinn er uppfærður með yfirliðinu og öllum undirliðum.
 9. Breyttu sjálfgefna gildinu fyrir undirhlutinn **Sjálfstætt söluverð uppruna**, **af staðalverði foreldra**, **af verði móðurreiknings**, eða **Úthlutaðu afgangsmagni** reit eins og þú þarfnast.
-10. Til að bæta við nokkrum hlutum í einu skaltu velja **Bæta við hlutum**.
+10. Til að bæta við nokkrum hlutum í einu velurðu **Bæta við hlutum**.
 11. Uppfærðu fyrirspurnina til að velja úrval af atriðum sem þú vilt bæta við.
 12. Veldu **Allt í lagi**, skoðaðu listann yfir atriði sem þú bættir við og veldu **Allt í lagi**.
 
@@ -81,7 +80,7 @@ The **Vara sjálfstætt söluverð** síða inniheldur eftirfarandi reiti.
 
 | Reitur | Lýsing |
 |-------|-------------|
-| Uppruni sjálfstæðs söluverðs | <p>Veldu uppruna sjálfstæða söluverðsins:</p><ul><li>**Magn** – Sjálfstætt söluverð er upphæð sem þú tilgreinir sem er meira en 0 (núll). Upphæðinni er umreiknað á milli virks gjaldmiðils og upprunagjaldmiðils eftir þörfum.</li><li>**Grunnsöluverð** – Sjálfstætt söluverð samsvarar grunnsöluverði vörunnar.</li><li>**Reikningsverð** – Sjálfstætt söluverð passar við reikningsverð vörunnar.</li><li>**Hlutfall af hlut** – Sjálfstætt söluverð er tilgreint sem prósentugildi og er reiknað út frá verði hlutarins. Ef þú velur þennan valkost skaltu tilgreina sjálfgefna prósentuna.</li></ul>**Úthlutaðu afgangsmagni** – Uppruni sjálfstæðs söluverðs er reiknaður sem *Heildarsamningsverðmæti yfirliðar* –*Heildar sjálfstætt söluverð á undirvörum*:</p><ul><li>*Heildarsamningsverðmæti yfirliðar* er nettó eða innheimt upphæð.</li><li>*Heildar sjálfstætt söluverð á undirvörum* er summan af framlengdu eða samningslausu söluverði allra undirvara, nema undirvörunnar sem notar þetta sjálfstæða söluverðsuppruna.</li></ul><p>Ef útreiknuð upphæð er neikvætt gildi er upphæðin stillt á 0 (núll).</p><p>**Athugið:** Þessi valkostur er aðeins hægt að velja fyrir einn undirlið í tekjuskiptingu.</p></li><li>**Enginn** – Uppruni sjálfstæða söluverðsins byggist á undirhlutunum. Þessi valkostur á við um vörur sem eru skilgreindar sem yfirvörur í tekjuskiptingarsniðmáti. Ef **Tekjuskipting** gátreiturinn er valinn, þessi valkostur er sjálfkrafa valinn og ekki er hægt að breyta stillingunni.</li><li>**Hlutfall af verði móðurreiknings** – Uppruni sjálfstæðs söluverðs er hlutfall af reikningsverði móðurvöru. Þú getur breytt sjálfgefna gildinu. Þessi valkostur er aðeins tiltækur fyrir undirvörur í tekjuskiptingarsniðmáti.</li><li>**Hlutfall af staðalverði foreldra** – Uppruni sjálfstæðs söluverðs er hlutfall af stöðluðu verði móðurvörunnar. Þú getur breytt sjálfgefna gildinu. Þessi valkostur er aðeins tiltækur fyrir undirvörur í tekjuskiptingarsniðmáti. Það er sjálfgefinn valkostur fyrir undirhluti. Þegar valmöguleika fyrir undirhlut er breytt úr **Hlutfall af staðalverði foreldra** til **Hlutfall af verði móðurreiknings**, eða frá **Hlutfall af verði móðurreiknings** til **Hlutfall af staðalverði foreldra**, eru reiknuð gildi einnig uppfærð.</li></ul> |
+| Uppruni sjálfstæðs söluverðs | <p>Veldu uppruna sjálfstæða söluverðsins:</p><ul><li>**Magn** – Sjálfstætt söluverð er upphæð sem þú tilgreinir sem er meira en 0 (núll). Upphæðinni er umreiknað á milli virks gjaldmiðils og upprunagjaldmiðils eftir þörfum.</li><li>**Grunnsöluverð** – Sjálfstætt söluverð samsvarar grunnsöluverði vörunnar.</li><li>**Reikningsverð** – Sjálfstætt söluverð passar við reikningsverð vörunnar.</li><li>**Hlutfall af hlut** – Sjálfstætt söluverð er tilgreint sem prósentugildi og er reiknað út frá verði hlutarins. Ef þú velur þennan valkost skaltu tilgreina sjálfgefna prósentuna.</li></ul>**Úthlutaðu afgangsmagni** – Uppruni sjálfstæðs söluverðs er reiknaður sem *Heildarsamningsverðmæti yfirliðar* –*Heildar sjálfstætt söluverð á undirvörum*:</p><ul><li>*Heildarsamningsverðmæti yfirliðar* er nettó eða innheimt upphæð.</li><li>*Heildar sjálfstætt söluverð á undirvörum* er summan af framlengdu eða samningslausu söluverði allra undirvara, nema undirvörunnar sem notar þetta sjálfstæða söluverðsuppruna.</li></ul><p>Ef útreiknuð upphæð er neikvætt gildi er upphæðin stillt á 0 (núll).</p><p>**Athugið:** Þessi valkostur er aðeins hægt að velja fyrir einn undirlið í tekjuskiptingu.</p></li><li>**Enginn** – Uppruni sjálfstæða söluverðsins byggist á undirhlutunum. Þessi valkostur á við um vörur sem eru skilgreindar sem yfirvörur í tekjuskiptingarsniðmáti. Ef **Tekjuskipting** gátreiturinn er valinn, þessi valkostur er sjálfkrafa valinn og ekki er hægt að breyta stillingunni.</li><li>**Hlutfall af verði móðurreiknings** – Uppruni sjálfstæðs söluverðs er hlutfall af reikningsverði móðurvöru. Þú getur breytt sjálfgefna gildinu. Þessi valkostur er aðeins tiltækur fyrir undirvörur í tekjuskiptingarsniðmáti.</li><li>**Hlutfall af staðalverði foreldra** – Uppruni sjálfstæðs söluverðs er hlutfall af stöðluðu verði móðurvörunnar. Þú getur breytt sjálfgefna gildinu. Þessi valkostur er aðeins tiltækur fyrir undirvörur í tekjuskiptingarsniðmáti. Það er sjálfgefinn valkostur fyrir barnavörur. Þegar valmöguleika fyrir undirhlut er breytt úr **Hlutfall af staðalverði foreldra** til **Hlutfall af verði móðurreiknings**, eða frá **Hlutfall af verði móðurreiknings** til **Hlutfall af staðalverði foreldra**, eru reiknuð gildi einnig uppfærð.</li></ul> |
 | Sjálfstætt söluverð | Tilgreindu sjálfstætt söluverð vörunnar. Þessi reitur er tiltækur þegar **Sjálfstætt söluverð uppruna** reiturinn er stilltur á **Magn**. |
 | Prósenta | Tilgreindu hlutfall af sjálfstæðu söluverði. Þessi reitur er tiltækur þegar **Sjálfstætt söluverð uppruna** reiturinn er stilltur á **Hlutfall af hlut**, **af verði móðurreiknings**, eða **Hlutfall af staðalverði foreldra**. |
 | Tekjuskipting | <p>Tilgreindu hvort lína notar tekjuskiptingu:</p><ul><li>**Valið** – Aðeins er hægt að velja hluti sem sniðmát fyrir tekjuskiptingu er sett upp fyrir í **Atriðatengsl** sviði. Þú getur aðeins valið þennan gátreit fyrir yfirliði sniðmáts fyrir skiptingu tekna.</li><li>**Hreinsað** – Liðurinn er staðall liður sem notar ekki tekjuskiptingu.</li></ul> |

@@ -1,6 +1,6 @@
 ---
 title: Listasíða með lánardrottnafærslum
-description: Þetta efnisatriði veitir upplýsingar um listasíðu með lánardrottnafærslum fyrir Microsoft Dynamics 365 Finance.
+description: Þetta efnisatriði veitir upplýsingar um listasíðuna Lánardrottnafærslur fyrir Microsoft Dynamics 365 Fjármál.
 author: sunfzam
 ms.date: 08/24/2018
 ms.topic: article
@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6029e67cbbe72bbe95082cb7146834c0d7318261
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 71f5826c21ef2d9724f9619d474f5e7f09e60e44
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754073"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734489"
 ---
 # <a name="vendor-transactions-list-page"></a>Listasíða með lánardrottnafærslum
 

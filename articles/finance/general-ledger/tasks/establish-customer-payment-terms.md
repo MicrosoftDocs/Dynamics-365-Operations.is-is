@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12c26cfedca3f3b0eec1a3b068184522f87ff8d103a41b81a0775bf5a35d0e03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16d861294a80ddb44c78760b329e544bc4665130
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766959"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716972"
 ---
 # <a name="establish-customer-payment-terms"></a>Setja greiðsluskilmála fyrir viðskiptavin
 
@@ -26,7 +26,7 @@ ms.locfileid: "6766959"
 
 Þetta ferli skilgreinir staðgreiðsluafslátt og uppsetning gjalddaga. Þessi leiðarvísi fyrir verk notar sýnigögn USMF fyrirtækis.
 
-1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Viðskiptakröfur > Greiðsluuppsetning > Greiðsludagar**. Uppsetning **Greiðsluskilmála** er samnýtt fyrir **Viðskiptakröfur** og **Viðskiptaskuldir**. Ef verið er að skilgreina það í kerfinu, hún verður tiltæk í hinu kerfi einnig. Fyrir þennan leiðarvísi fyrir verk set ég upp allar greiðsluskilmála undir **Viðskiptakröfum**.
+1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Viðskiptakröfur > Greiðsluuppsetning > Greiðsludagar**. Uppsetning **Greiðsluskilmála** er samnýtt fyrir **Viðskiptakröfur** og **Viðskiptaskuldir**. Ef verið er að skilgreina það í kerfinu, hún verður tiltæk í hinu kerfi einnig. Fyrir þessa verkefnaleiðbeiningar, allir greiðsluskilmálar skv **Reikningur fáanlegur** eru settar upp.
 2. Smellt er á **Nýtt**. Stofna greiðsludag þarfnist skal greiðsluskilmála þínir tiltekinn dag vikunnar (Mánudegi, Þriðjudegi, o. s. frv) eða á tilteknum degi hvers mánaðar (5., 10., o. s. frv). 
 3. Færið inn kenni í reitnum **Greiðsludagur**.
 4. Færið inn lýsingu á greiðsludegi í reitinn **Lýsing**.

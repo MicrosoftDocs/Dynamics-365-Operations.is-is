@@ -1,6 +1,6 @@
 ---
 title: Yfirlitssíða fjárhagsskýrslugerðar
-description: Þetta efnisatriði lýsir því hvar á að nálgast fjárhagsskýrslur í Microsoft Dynamics 365 Fjármál og hvernig á að nota fjárhagsskýrslugetu.
+description: Þetta efni lýsir því hvar á að fá aðgang að fjárhagsskýrslum Microsoft Dynamics 365 Fjármál og hvernig á að nota fjárhagsskýrslugetu.
 author: aprilolson
 ms.date: 03/31/2022
 ms.topic: article
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "10444"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcdb5a934818468e00be960f9afe541966e5eabf
-ms.sourcegitcommit: e8a2a1e34fa48a42afac9724828f4ec72b6d7085
+ms.openlocfilehash: 8a209390a8424e2ec3d6654b54b36e36fcd349b3
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8573651"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8721900"
 ---
 # <a name="get-started-with-financial-reporting"></a>Hafist handa með fjárhagsskýrslugerð 
 
@@ -150,7 +150,7 @@ Hægt er að stofna ótakmarkaðan fjölda af skipuritum til að sýna gögn fyr
 
 Fjármála- og rekstraröpp eru uppfærð í hverjum mánuði. Aftur á móti er fjárhagsskýrslugerð ekki endilega uppfærð með sömu tíðni. Þar að auki hafa viðskiptavinir fleiri valkosti um hvenær þeir innleiða uppfærslur fyrir Finance and Operations öpp. Uppfærslur fjárhagsskýrslugerðar eru sjálfkrafa settar upp. Fjárhagsskýrslugerð er með uppgefna útgáfu sem er notuð í umhverfi viðskiptavinar þegar þjónustuuppfærsla er innleidd, þegar niðurtími fer í gang eða þegar umhverfi viðskiptavinar er í viðhaldsham. Þetta ferli er þekkt sem *innlimun* eða *jöfnun* vegna þess að allar innleiðingar viðskiptavinar eru stilltar á sömu útgáfu af fjárhagsskýrslugerð.
 
-Breytingar sem eru gefnar út í hverri útgáfu er að finna í [Hvað er nýtt eða breytt í Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Verkvangsuppfærslur og villuleiðréttingar er hægt að finna í hlutanum „Frekari tilföng“ neðst á síðunni fyrir hverja útgáfu.
+Breytingar sem eru gefnar út í hverri útgáfu má finna í [Hvað er nýtt eða breytt í Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Verkvangsuppfærslur og villuleiðréttingar er hægt að finna í hlutanum „Frekari tilföng“ neðst á síðunni fyrir hverja útgáfu.
 
 Valin útgáfa innlimunar er yfirfarin og villuleituð útgáfa fjárhagsskýrslugerðar sem er tilbúin fyrir framleiðslu. Það er samhæft við hvaða fyrri eða framtíðarútgáfu af Dynamics 365 Finance sem er. Fjárhagsskýrslugerð getur til dæmis verið í nýjustu 10.0.19 smíði á meðan viðskiptavinurinn er enn í forritsútgáfu 10.0.16.
 

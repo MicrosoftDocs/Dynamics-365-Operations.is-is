@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 38760879d84d8262cc1e8395c59bcbc0429bc753
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 167db4d836aa754509bb28677916a30901cebbbb
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7347686"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694175"
 ---
 # <a name="tax-calculation-rounding-rules"></a>Sléttunarreglur skattaútreiknings
 
@@ -39,7 +38,7 @@ Reitirnir **Sléttunarnákvæmni** og **Sléttunaraðferð** ákvarða hvernig r
 
 ## <a name="rounding-precision"></a>Sléttunarnákvæmni
 
-Reitirnir **Sléttunarnákvæmni** styðja gildi sem er með allt að sex aukastafi. Ef þú til að mynda stillir reitinn **Sléttunarnákvæmni** á **0,000000** eru reiknaðar upphæðir sléttaðar í sex aukastafi og síðan sendar til Microsoft Dynamics 365 Finance. Ef til dæmis sléttunaraðferðin **Venjuleg sléttun** er notuð, er upphæðin **987,1234567** sléttuð í **987,123457**.
+Reitirnir **Sléttunarnákvæmni** styðja gildi sem er með allt að sex aukastafi. Til dæmis, ef þú stillir **Nákvæmni í námundun** sviði til **0.000000**, eru reiknaðar upphæðir námundaðar að sex aukastöfum og síðan sendar til Microsoft Dynamics 365 Fjármál. Ef til dæmis sléttunaraðferðin **Venjuleg sléttun** er notuð, er upphæðin **987,1234567** sléttuð í **987,123457**.
 
 > [!NOTE]
 > Finance sléttar upphæðir samkvæmt sléttunarreglum gjaldmiðils. Skattupphæðirnar sem eru sýndar og skráðar í færslum verða þar af leiðandi fyrir áhrifum frá bæði sléttunarreglum skattaútreiknings og sléttunarreglum gjaldmiðils.

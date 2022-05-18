@@ -1,24 +1,24 @@
 ---
 title: Breyta eignaflokki
 description: Eignum skal úthlutað á réttan eignaflokk.
-author: saraschi2
-ms.date: 08/29/2018
+author: moaamer
+ms.date: 05/04/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetTable, AssetChangeGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 133998905dd2e7b4d5bfe39333e159757e908bc5aaea609fbf4b465a7f04c7bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fe340a2c0ecf0287911b068d097ecdc1bf13ba90
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762092"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712370"
 ---
 # <a name="change-a-fixed-asset-group"></a>Breyta eignaflokki
 
@@ -27,22 +27,21 @@ ms.locfileid: "6762092"
 Eignum skal úthlutað á réttan eignaflokk. Eignaflokkurinn er notaður þegar þú:
 
  - Gerð fyrirspurna og skýrslna
-
  - Uppsetning nýrra eigna
-
  - - Samþætting fjárhags og bókun eignafærslna í rétta fjárhagslykla
 
-Þessi handbók notar sýnifyrirtækið USMF.
+Eftirfarandi skref nota **USMF** kynningarfyrirtæki.
 
-1. Fara í Eignir > Eignir > Eignir.
+1. Fara til **Fastafjármunir** > **Fastafjármunir** > **Fastafjármunir**.
 2. Velja skal eign til að breyta eignaflokki fyrir.
-3. Smelltu á Breyta eignaflokki.
-4. Í reitinn Nýr flokkur skal slá inn eða velja gildi.
+3. Veldu **Breyta eignaflokki**.
+4. Í **Nýr hópur** reit, sláðu inn eða veldu gildi.
 5. Veljið þennan valkost til að úthluta eignarnúmeri á valdar eignir.
-    * Reiturinn Númer eignar er tiltækur ef valkosturinn Nýtt eignanúmer var valinn.   Ef sjálfvirk tölusetning er sett upp fyrir eignir sýnir svæðið næsta tiltæka eignanúmer. Hægt er að breyta tölunni.   Ef handvirk tölusetning er sett upp er þessi reitur auður og færa þarf inn nýja eignanúmerið.     
-6. Smellið á „Í lagi“.
-7. Smella á Já.
+   
+   The **Fastafjárnúmer** reiturinn er tiltækur ef þú velur **Nýtt eignanúmer**. Ef sjálfvirk tölusetning er sett upp fyrir eignir sýnir svæðið næsta tiltæka eignanúmer. Hægt er að breyta tölunni. Ef handvirk tölusetning er sett upp er þessi reitur auður og færa þarf inn nýja eignanúmerið.     
 
+6. Veldu **Í lagi**.
+7. Velja skal **Já**.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

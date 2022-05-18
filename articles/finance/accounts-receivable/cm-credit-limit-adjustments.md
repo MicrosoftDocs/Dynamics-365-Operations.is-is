@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c171ab99a434e529c48f39be9147ac411fb08b9b
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 4d96f50db4379a44ad8f2b06725db654a27393f9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753899"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734804"
 ---
 # <a name="credit-limit-adjustments"></a>Leiðréttingar á lánamörkum 
 
@@ -27,7 +27,7 @@ Leiðréttingar á lánamörkum gera lánastjórnendum kleift að uppfæra lána
 
 ## <a name="set-up-credit-limit-adjustments"></a>Setja upp leiðréttingar á lánamörkum
 
-Þú getur búið til færslur í leiðréttingabók fyrir lánamörk á síðunni **Leiðrétting lánamarka** (**Lánastjórnun \> Leiðréttingar á lánamörkum \> Leiðréttingar á lánamörkum**).
+Þú getur búið til færslur í **Leiðrétting lánsfjár** dagbók um **Leiðrétting lánsfjár** síða (**Útlánastjórnun \> Leiðréttingar á lánamörkum \> Leiðréttingar á lánamörkum**).
 
 1. Veljið **Nýtt**. Nýr hópur færslna er búinn til með leiðréttingarnúmer lánamarka.
 2. Veldu tegund leiðréttingar útlána:

@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations
 ms.custom: 539093
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: d59eee6e858c4f0051ec103adc4e1e99e79feec9
-ms.sourcegitcommit: 4d7bc52e6cdf6afce3793893ba2aa07176302314
+ms.openlocfilehash: 7de74f2b12e8e7201663ba78d936131b301b1ff9
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "8560512"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685771"
 ---
 # <a name="support-and-renewals"></a>Stuðningur og endurnýjun 
 
@@ -39,8 +38,8 @@ Til dæmis gæti fyrirtæki boðið upp á eftirfarandi stuðnings- og endurnýj
 | Stuðningsstig | Þjónustuhlutfall | Prósenta endurnýjunar |
 |---|---|---|
 | Ótakmarkað | 40% | 30% |
-| Gyllt | 25% | 18% |
-| Silfur | 20% | 14% |
+| Gull | 25% | 18% |
+| Silfurgrátt | 20% | 14% |
 | Brons | 15% | 10% |
 
 Til að búa til stuðnings- eða endurnýjunarstig skaltu fylgja þessum skrefum.
@@ -62,7 +61,7 @@ The **Stuðnings- og endurnýjunarstig** síða inniheldur eftirfarandi reiti.
 | Lýsing | Lýsing á stuðnings- eða endurnýjunarstigi. |
 | Útreikningsaðferð þjónustu | Veldu stuðningsútreikningsaðferð fyrir stigið: **Prósenta** eða **Stöðluð upphæð**. |
 | Þjónustuhlutfall | Ef þú valdir **Prósenta** sem stuðningsútreikningsaðferð, tilgreinið prósentuna sem er notuð til að reikna út verð stuðningshlutarins. Ef þú valdir **Stöðluð upphæð** sem útreikningsaðferð er upphæðin tilgreind þegar færslan er stofnuð. |
-| Útreikningsaðferð endurnýjunar | Veldu endurnýjunarútreikningsaðferð fyrir stigið: **Prósenta** eða **Stöðluð upphæð**. |
+| Útreikningsaðferð endurnýjunar | Veldu endurnýjunarútreikningsaðferð fyrir stigið: **Hlutfall** eða **Stöðluð upphæð**. |
 | Prósenta endurnýjunar | Ef þú valdir **Prósenta** sem endurnýjunarútreikningsaðferð, tilgreinið prósentuna sem er notuð til að reikna út verð endurnýjunarhlutarins. Ef þú valdir **Stöðluð upphæð** sem útreikningsaðferð er upphæðin tilgreind þegar færslan er stofnuð. |
 
 ## <a name="support-and-renewal-process"></a>Þjónustu- og endurnýjunarferli
@@ -96,13 +95,13 @@ Stuðnings- og endurnýjunarferlið er aðeins í boði fyrir sölupöntunina. �
 
 ## <a name="support-and-renewal-audit"></a>Eftirlit með þjónustu og endurnýjun
 
-Á **Stuðnings- og endurnýjunarúttekt** síðu geturðu skoðað upplýsingarnar um innheimtuáætlunarlínur sem eru búnar til úr endurnýjunarvöru í sölupöntun. Þessi valkostur er tiltækur þegar lína innheimtuáætlunar er endurnýjunaratriði.
+Á **Stuðnings- og endurnýjunarúttekt** síðu geturðu skoðað upplýsingarnar um innheimtuáætlunarlínur sem eru búnar til úr endurnýjunarvöru í sölupöntun. Þessi valkostur er tiltækur þegar innheimtuáætlunarlínan er endurnýjunaratriði.
 
 Til að breyta stuðnings- og endurnýjunarupplýsingum fyrir greiðsluáætlunarlínu skaltu fylgja þessum skrefum.
 
 1. Á **Allar innheimtuáætlanir** síðu, veldu númer innheimtuáætlunar.
 2. Í **Innheimtuáætlunarlínur** kafla, veldu línu og veldu síðan **Stuðningur og endurnýjun**.
-3. Farðu yfir allar upplýsingar um stuðnings- eða endurnýjunaratriðið.
+3. Skoðaðu allar upplýsingar um stuðnings- eða endurnýjunaratriðið.
 4. Gerðu allar nauðsynlegar breytingar á stuðningsstigi, eða endurnýjunarprósentu eða upphæð, og sláðu síðan inn gildi í **Ástæða breytinga** sviði.
 5. Veldu **Ferli**.
 
@@ -127,6 +126,6 @@ The **Stuðnings- og endurnýjunarúttekt** síða inniheldur eftirfarandi reiti
 | Upphaflegt þjónustustig | Fyrra stuðningsstig. |
 | Upphafleg prósenta endurnýjunar | Fyrri endurnýjunarprósenta. |
 | Upphafleg upphæð endurnýjunar | Fyrri endurnýjunarupphæð. |
-| Breytt hefur | Notandanafn notandans sem gerði breytinguna. |
+| Breytt af | Notandanafn notandans sem gerði breytinguna. |
 | Breytt dagsetning og tími | Dagsetningin þegar breytingin átti sér stað. |
 | Ástæða | Ástæðan fyrir breytingunni. |

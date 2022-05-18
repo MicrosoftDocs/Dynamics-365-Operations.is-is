@@ -1,7 +1,7 @@
 ---
 title: Stjórna ferðum
 description: Þetta efnisatriði útskýrir hvernig á að vinna með ferðir. Ferð stendur yfirleitt fyrir skip. Það fer hins vegar eftir þínum starfsháttum og venjum og getur hún staðið fyrir lánardrottin, innkaupapöntun eða eitthvað annað atriði sem passar fyrirtækinu þínu.
-author: sherry-zheng
+author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,16 @@ ms.technology: ''
 ms.search.form: ITMTableListPage, ITMTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 996a8b62b59dd27691a1eaa5ed619f94e899e8cf
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 7d85ef86351f5d6ac662bb72c88d464fba82f561
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570425"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8696167"
 ---
 # <a name="manage-voyages"></a>Stjórna ferðum
 

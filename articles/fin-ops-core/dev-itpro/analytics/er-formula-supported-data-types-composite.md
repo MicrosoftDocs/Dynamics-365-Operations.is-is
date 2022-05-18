@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323666"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689243"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Studdar samsettar gagnagerðir fyrir formúlur rafrænnar skýrslugerðar
 
@@ -27,7 +27,7 @@ ms.locfileid: "8323666"
 
 Gagnagerðin *klasi* vísar til opins forritsklasa. Í rafrænni skýrslugerð er hún táknuð sem [*færsla*](#record) sem inniheldur aðskilinn reit fyrir hverja almenna aðferð klasans sem vísað er í. Þegar færibreytur eru stilltar fyrir kall aðferðarinnar þarf einnig að tilgreina nauðsynlegar frumbreytur af viðeigandi gerðum í segð rafrænnar skýrslugerðar sem er stillt til að kalla á aðferðina.
 
-Í ER kortlagningu og sniðhlutum geturðu bætt við **bekk** gagnagjafi sem er sýndur sem gagnagjafi og sem skilar gildi á *bekk* tegund. Þessi gagnagjafi gefur upp almennar aðferðir klasans sem hægt er að kalla á við keyrslu.
+Í ER kortlagningu og sniðhlutum geturðu bætt við **bekk** gagnagjafi sem er sýndur sem gagnagjafi og sem skilar gildi á *bekk* gerð. Þessi gagnagjafi gefur upp almennar aðferðir klasans sem hægt er að kalla á við keyrslu.
 
 > [!NOTE]
 > Aðeins er hægt að kalla á aðferðir úr segðum rafrænnar skýrslugerðar sem skila gildi.
@@ -81,7 +81,7 @@ Nánari upplýsingar um umbreytingu *færslugilda* er að finna í [Listi yfir a
 
 Sjálfgefið er að færslur *færslulista* séu sóttar í réttri röð. Hægt er að nota aðgerðina [INDEX](er-functions-list-index.md) og tilgreina *heiltöluvísinn* til að fá aðgang að tiltekinni færslu.
 
-Sjálfgefið gildi *færslulista* er **autt**. Hægt er að nota aðgerðina [ISEMPTY](/er-functions-list-isempty.md) til að meta hvort *færslulisti* sé auður.
+Sjálfgefið gildi *færslulista* er **autt**. Hægt er að nota aðgerðina [ISEMPTY](er-functions-list-isempty.md) til að meta hvort *færslulisti* sé auður.
 
 > [!NOTE]
 > Ef *færslulisti* er auður leiða allar tilraunir til að sækja reitargildi fyrir *færslu* til þess að undantekning verður sýnd við keyrslu. Til að fá frekari upplýsingar um hvernig hægt er að koma í veg fyrir undantekningar við keyrslu af þessari gerð skal skoða [Taka tillit til tómra listatilvika](er-components-inspections.md#i9).

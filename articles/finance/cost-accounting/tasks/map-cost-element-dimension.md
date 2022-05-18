@@ -1,23 +1,23 @@
 ---
 title: Varpa kostnaðareiningarvídd
 description: Eftirlitsmaður kostnaðar getur notað þetta ferli til að varpa kostnaðareiningarvídd til kostnaðareiningarvíddar í MXMF-lögaðila.
-author: ShylaThompson
+author: twheeloc
 ms.date: 06/28/2017
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81b76d7410de793a9d906677cf2e4e6ce4932a8b66f78a874594818d5c8d0ffe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e980a2b3ae14f5431ba6b22e1f6de257a7b46b01
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754267"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734368"
 ---
 # <a name="map-a-cost-element-dimension"></a>Varpa kostnaðareiningarvídd
 
@@ -25,21 +25,21 @@ ms.locfileid: "6754267"
 
 Eftirlitsmaður kostnaðar getur notað þetta ferli til að varpa kostnaðareiningarvídd til kostnaðareiningarvíddar í MXMF-lögaðila. Þessi skráning notar USP2-sýnigagnafyrirtæki.
 
-1. Fara í kostnaðarbókhald > Víddir > Víddir kostnaðareininga.
+1. Fara til **Kostnaðarbókhald > Víddir > Víddir kostnaðarþáttar**.
 2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
     * Í þessu dæmi skal velja kostnaðareiningar.  
-3. Smellt er á Víddarvarpanir.
-4. Smellt er á Skilgreina varpanir frá þessari vídd.
-5. Smellið á „Nýtt“.
-6. Sláið inn eða veldu gildi í reitnum í Til víddar.
+3. Smellur **Víddarkortanir**.
+4. Smellur **Stilla kortanir** úr þessari vídd.
+5. Smellt er á **Nýtt**.
+6. Í **Að vídda** reit, sláðu inn eða veldu gildi.
     * Í þessu dæmi, velja MXMF kostnaðareiningar.  
-7. Smellið á „Nýtt“.
+7. Smellt er á **Nýtt**.
 8. Í listanum skal merkja valda línu.
-9. Sláið inn eða veldu gildi í reitnum Frá víddarstak.
+9. Í **Frá víddarmeðlim** reit, sláðu inn eða veldu gildi.
     * Í þessu dæmi, velja víddarstak 606400 Síma & Fax útgjöld.  
-10. Sláið inn eða veldu gildi í reitnum í Til víddarstak.
+10. Í **Til að vídda meðlim** reit, sláðu inn eða veldu gildi.
     * Í þessu dæmi, velja víddarstak 6001004 Símanr.  
-11. Smellið á „Vista“.
+11. Smelltu á **Vista**.
 
 
 

@@ -8,17 +8,16 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmJob, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0029745b85927d56c7bb281b327de6bf5c8cdf18
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a57eea3a0531169aabd7189e518a368abc06b84d
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067303"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693641"
 ---
 # <a name="define-new-jobs"></a>Skilgreina ný störf
 
@@ -68,7 +67,7 @@ ms.locfileid: "8067303"
 20. Í **Færni** kafla, taktu eftir því að reitirnir á **Færni**, **·**, og **Skírteini** Flýtiflipar eru auðir. Eftir að þú hefur afritað upplýsingar úr starfssniðmáti verða upplýsingar færðar inn í þessa reiti í einu skrefi.
 21. Veldu **Vista**.
 22. Veldu **Afrita frá**.
-23. Veldu **Afritaðu úr sniðmáti**.
+23. Veldu **Afritaðu af sniðmáti**.
 24. Í **Starfssniðmát** reit, veldu felliörina til að opna leitina.
 25. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 26. Í listanum skal velja tengilinn í valinni línu.

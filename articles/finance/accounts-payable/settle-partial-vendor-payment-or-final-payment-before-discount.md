@@ -1,6 +1,6 @@
 ---
 title: Jafna hlutagreiðsla lánardrottins og endanleg greiðslu að fullu fyrir afsláttardagsetninguna
-description: Þessi grein fer í gegnum aðstæður þar sem hlutagreiðslur eru greiddar fyrir reikning lánardrottins og staðgreiðsluafsláttur er tekinn.
+description: Þetta efni leiðir þig í gegnum atburðarás þar sem hlutagreiðslur eru gerðar fyrir reikning lánardrottins og staðgreiðsluafsláttur er tekinn.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14431
 ms.assetid: 6b8e3420-b4c9-4e02-9588-598fe6d3df0d
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 46d5025af229c9002967973a0d897708cd3d67dd7d22d887cc611c5c8213d2bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04b00c8407ea2fd7d1e4b58db47c392989a20577
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737066"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716244"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Jafna hlutagreiðsla lánardrottins og endanleg greiðslu að fullu fyrir afsláttardagsetninguna
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein fer í gegnum aðstæður þar sem hlutagreiðslur eru greiddar fyrir reikning lánardrottins og staðgreiðsluafsláttur er tekinn.
+Þetta efni leiðir þig í gegnum atburðarás þar sem hlutagreiðslur eru gerðar fyrir reikning lánardrottins og staðgreiðsluafsláttur er tekinn.
 
 Fabrikam kaupir vörur frá lánardrottni 3064. Lánardrottinn veitir Fabrikam 1 prósent staðgreiðsluafslátt ef reikningurinn er greiddur innan 14 daga. Greiða þarf reikninga eftir 30 daga. Lánardrottinn veitir Fabrikam einnig staðgreiðsluafslátt á hlutagreiðslum. Uppgjörsfæribreytur eru staðsettar á síðunni **Færibreytur viðskiptaskulda**. 25. júní færir Apríl inn reikning uppá 1.000,00 fyrir lánardrottinn 3064.
 

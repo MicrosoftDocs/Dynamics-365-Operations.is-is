@@ -2,7 +2,7 @@
 title: Búðu til gagnasamþættingarverkefni
 description: Þetta efnisatriði útskýrir hvernig á að búa til gagnasamþættingarverkefni.
 author: ShivamPandey-msft
-ms.date: 02/09/2022
+ms.date: 05/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 50f435f9d461667a1908baa529d73766085c183a
-ms.sourcegitcommit: 6526acd0300d9c5800d3d7675d54e23090d031df
+ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8107288"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722884"
 ---
 # <a name="create-a-data-integration-project"></a>Búðu til gagnasamþættingarverkefni
 
@@ -28,7 +28,7 @@ ms.locfileid: "8107288"
 
 Þetta efnisatriði útskýrir hvernig á að búa til gagnasamþættingarverkefni.
 
-1. Skrá inn á Microsoft Dynamics 365 Finance.
+1. Skrá inn Microsoft Dynamics 365 Fjármál.
 2. Farið á **Vinnusvæði\> Gagnastjórnun** og veljið **Gagnaeiningar**. Bíða skal þar til allir gagnaeiningarnar hafa verið uppfærðar áður en farið er í næsta skref.
 3. Opnaðu [Power Apps gáttina](https://make.powerapps.com/) og fylgdu eftirfarandi skrefum:
 
@@ -55,11 +55,14 @@ ms.locfileid: "8107288"
 
 5. Opnið [Power Apps umhverfi](https://admin.powerapps.com/environments) og fylgið eftirfarandi skrefum:  
 
-    1. Stofna gagnasamþættingarverk fyrir eftirfarandi sniðmát með því að nota tengingarsett sem var verið að stofna:
+    1. Búðu til eitt gagnasamþættingarverkefni fyrir hvert af eftirfarandi sniðmátum með því að nota tengingarsettið sem þú bjóst til:
 
         - Greiðsla innsýn viðskiptavinar (CDS to Fin and Ops 10.0.17+)
         - Niðurstöður úr tímaröð sjóðsstreymis (CDS til Fin og Ops)
         - Niðurstöður tímaraðar fjárhagsáætlunar (CDS til Fin og Ops)
+
+      > [!NOTE]
+      > Að búa til mörg gagnasamþættingarverkefni fyrir hvert sniðmát getur valdið villum sem loka fyrir uppfærslurnar.
 
     2. Stillið viðeigandi áætlanagerð fyrir hvert verk.
 

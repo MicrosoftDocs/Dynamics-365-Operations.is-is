@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerParameters, LedgerFiscalCloseGroup, LedgerFiscalCloseAddLedger, SysLookupMultiSelectGrid, LedgerFiscalCloseRunGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e1ade9af06848b125fb6253ea1182f6098588150
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: 8eb36cb856d191d64561060e7de4a1f9fd947882
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902508"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717475"
 ---
 # <a name="close-the-fiscal-year"></a>Loka fjárhagsári
 
@@ -30,49 +30,49 @@ ms.locfileid: "7902508"
 ## <a name="validate-year-end-close-parameters"></a>Villuleita færibreytur árslokalokunar
 1. Farðu í **Skoðunarrúðu > Kerfi > Fjárhagur > Fjárhagsuppsetning > Fjárhagsfæribreytur**.
 2. Víkkaðu út hlutann **Lokun fjárhagsárs**.
-3. Veldu „Já“ eða „Nei“ fyrir valkostinn **Eyða lokunarfærslum árs í millifærslu**.
+3. Veldu **Já** eða **Nei** fyrir **Eyða lok árs viðskiptum við flutning** valmöguleika.
     
-    Ef fjárhagsári hefur verið lokað og lokun ársloka er keyrt aftur, er þessa stillingu mikilvæg. Ef stillt á Já, verður fylgiskjali fyrir lok fyrra árs eytt, og nýtt fylgiskjali verða stofnaðar fyrir allar upphafsstöður lykla. Ef stillt á Nei, helst fyrri fylgiskjal og nýju fylgiskjali aðeins verður stofnuð til að leiðrétta færslur sem voru bókaðar eftir síðustu lokun ársloka.
+Ef fjárhagsári hefur verið lokað og lokun ársloka er keyrt aftur, er þessa stillingu mikilvæg. Ef stillt er á **Já**, skírteini fyrir síðustu áramót verður eytt og nýtt skírteini verður búið til fyrir alla reikninga upphafsstöðu. Ef stillt er á **Nei**, fyrri skírteinið verður áfram og nýtt skírteini verður aðeins búið til til að leiðrétta færslur sem voru bókaðar eftir síðustu áramót.
 
-4. Veldu „Já“ eða „Nei“ fyrir valkostinn **Stofna lokunarfærslur í millifærslu**.
+4. Veldu **Já** eða **Nei** fyrir **Búðu til lokafærslur meðan á flutningi stendur** valmöguleika.
 
-    Ef setja á Já tvær færslur eru stofnaðar. Eitt fylgiskjal er búið til á því fjárhagsári sem verið er að loka til að færa stöður allra fjárhagsreikninga niður í núll og annað fylgiskjal er búið til á næsta fjárhagsári fyrir upphafsinnstæður. Ef stillt á Nei, eitt fylgiskjal er stofnuð á næsta fjárhagsári fyrir upphafsstöður.  
+Ef stillt er á **Já**, tvær færslur eru búnar til. Eitt fylgiskjal er búið til á því fjárhagsári sem verið er að loka til að færa stöður allra fjárhagsreikninga niður í núll og annað fylgiskjal er búið til á næsta fjárhagsári fyrir upphafsinnstæður. Ef stillt er á **Nei**, eitt fylgiskjal er búið til á næsta reikningsári fyrir upphafsstöður.  
 
-5. Veldu „Já“ eða „Nei“ fyrir valkostinn **Stilla stöðu fjárhagsárs á lokað fyrir fullt og allt**.
+5. Veldu **Já** eða **Nei** fyrir **Stilltu stöðu fjárhagsárs á varanlega lokað** valmöguleika.
 
-    Ef stillt á Já verður staða fjárhagsárs stillt á Endanlega lokað.  Þar sem ekki er hægt að enduropna varanlega lokað ár, væri bestu venju að þessi valkostur er stilltur á nei.  
+Ef stillt er á **Já**, verður reikningsársstaðan stillt á Lokað varanlega. Vegna þess að ekki er hægt að opna varanlega lokað ár aftur, væri best að setja þennan valkost á **Nei**.  
 
-6. Veldu „Já“ eða „Nei“ fyrir valkostinn **Rita þarf fylgiskjalsnúmer á meðan á lokun árs stendur**.
+6. Veldu **Já** eða **Nei** fyrir **Skráningarnúmer þarf að fylla út í lok árs** valmöguleika.
 
-    Ef stillt á Já, verður að færa inn númer fylgiskjals handvirkt í árslokaferlinu. Númeraröð er ekki notuð til að mynda þetta fylgiskjalsnúmer. Bestu starfsvenjur er að setja þetta á Já.  
+Ef stillt er á **Já**, verður að slá inn fylgiskjalsnúmer handvirkt í lok ársloka. Númeraröð er ekki notuð til að mynda þetta fylgiskjalsnúmer. Það er best að stilla þetta á **Já**.  
 
 7. Lokið síðunni.
 8. Farðu í **Fjárhagur > Tímabil er lokað > Árslokalokun**.
 9. Smelltu á **Nýtt** til að stofna sniðmát árslokalokunar.
 
-    Hægt er ða stofna sniðmát fyrir hóp lögaðila sem á að keyra árslokalokun fyrir. Hægt er að endurnota þetta sniðmát ár eftir ár.  
+Hægt er ða stofna sniðmát fyrir hóp lögaðila sem á að keyra árslokalokun fyrir. Hægt er að endurnota þetta sniðmát ár eftir ár.  
 
-10. Í reitnum **Heiti hóps** færirðu inn sniðmátsheiti árslokalokunar.
+10. Í **Nafn hóps** reit, sláðu inn heiti fyrir lok ársloka.
 11. Í reitnum **Fjárhagsdagatal** velurðu fjárhagsárið sem sniðmátið verður stofnað fyrir.
 
-    Aðeins er hægt að flokka lögaðila sem nota sama fjárhagsárið saman í sniðmáti árslokalokunar . Þetta er vegna þess að árslokalokun er gerð með því að velja fjárhagsár, en ekki dagsetningu.  
+Aðeins er hægt að flokka lögaðila sem nota sama fjárhagsárið saman í sniðmáti árslokalokunar . Þetta er vegna þess að árslokalokun er gerð með því að velja fjárhagsár, en ekki dagsetningu.  
 
 12. Í **Aðgerðasvæðinu** smellirðu á **Vista**.
 13. Í hlutanum **Lögaðilar** smellirðu á **Bæta við** til að velja lögaðila fyrir þetta sniðmát.
     
-    Hægt er að bæta lögaðilar við með því að velja annað hvort lögaðila eða með því að velja stigveldi fyrirtækis.  Aðeins verður bætt við lögaðilum sem eru með stigveldi fyrirtækis með sama fjárhagsdagatal valið.  
+Hægt er að bæta lögaðilar við með því að velja annað hvort lögaðila eða með því að velja stigveldi fyrirtækis. Aðeins verður bætt við lögaðilum sem eru með stigveldi fyrirtækis með sama fjárhagsdagatal valið.  
 
 14. Velja annaðhvort lögaðila eða stigveldisskipan.
 15. Smellt er á **OK**.
-16. Veldu „Já“ eða „Nei“ í **Flytja víddir efnahagsreiknings**.
+16. Veldu **Já** eða **Nei** í **Flutningur efnahagsreikningsvídd**.
 
-    Bestu starfsvenjur eru að stilla þennan valkost á Já fyrir efnahagslykla. Þetta viðheldur fjárhagsvíddum á bókaðar færslur þegar stofnaðir eru upphafsstöður fyrir efnahagslykla. Fyrir rekstrarlykla, er hægt að velja að vinna með fjárhagsvíddir (Loka öllum) þegar stöður eru fluttar yfir á óráðstafað eigið fé eða þú getur valið að hafa fjárhagsvíddir skipt út fyrir annað víddargildi (Loka einum). Ef þú velur Loka einum, geturðu skilgreint tiltekið víddargildi fyrir hverja vídd eða jafnvel valið að skilja eftir autt.  
+Það er best að stilla þennan valkost á **Já** fyrir efnahagsreikninga. Þetta viðheldur fjárhagsvíddum á bókaðar færslur þegar stofnaðir eru upphafsstöður fyrir efnahagslykla. Fyrir rekstrarreikninga geturðu valið að viðhalda fjárhagsvíddum (**Lokaðu öllu**) þegar innstæður eru færðar í Óráðstafað hagnað eða þú getur valið að láta fjárhagsvíddir skipt út fyrir annað víddargildi (**Loka smáskífur**). Ef þú velur **Loka smáskífur**, þú getur skilgreint tiltekið víddargildi fyrir hverja vídd eða jafnvel valið að skilja það eftir autt.  
 
 17. Smellt er á **Vista**.
 18. Hefja árslokalokun með því að velja **Keyra fjárhagslokun** á **Aðgerðarúðunni**. Árslokalokun verður keyrt fyrir valið sniðmát.  
 19. Veldu allt eða hlutmengi lögaðila úr sniðmátinu úr hverju á að keyra árslokalokunina.
 
-    Þegar fyrst er keyrt árslokalokun, þá gætu flest fyrirtæki valið að keyra árslokalokun fyrir alla lögaðila innan þess sniðmáts til að fá upphafsstöður. Ef leiðréttingarfærslur eru gerðar eftir það, geturðu valið að keyra árslokalokun fyrir aðeins þeirra lögaðila sem hafa leiðréttingar.  
+Þegar fyrst er keyrt árslokalokun, þá gætu flest fyrirtæki valið að keyra árslokalokun fyrir alla lögaðila innan þess sniðmáts til að fá upphafsstöður. Ef leiðréttingarfærslur eru gerðar eftir það, geturðu valið að keyra árslokalokun fyrir aðeins þeirra lögaðila sem hafa leiðréttingar.  
 
 20. Smellt er á **OK**.
 21. Velja fjárhagsár sem árslokalokun verður keyrð fyrir.

@@ -1,7 +1,7 @@
 ---
 title: Vegin meðaldagsetning með innihalda líkamlegt gildi og merkingu
 description: Dagsetning vegins meðaltals er birgðalíkan byggt á reglunni um vegið meðaltal þar sem innhreyfingar úr birgðum eru metnar á meðaltalsgildi vara sem tekið er á móti í birgðum fyrir hvern einstakan dag á birgðalokunartímabilinu.
-author: AndersGirke
+author: JennySong-SH
 ms.date: 03/04/2022
 ms.topic: article
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
@@ -9,15 +9,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 28991
 ms.search.region: Global
-ms.author: aevengir
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cf2206863d891eceb9c65ff879da3f9f72032b1
-ms.sourcegitcommit: fcded93fc6c27768a24a3d3dc5cc35e1b4eff22b
+ms.openlocfilehash: 1497cb08f4cc5a455c832b9bf125c309cd90aa3d
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392002"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672123"
 ---
 # <a name="weighted-average-date-with-include-physical-value-and-marking"></a>Vegin meðaldagsetning með innihalda líkamlegt gildi og merkingu
 
@@ -25,9 +25,9 @@ ms.locfileid: "8392002"
 
 *Vegin meðaldagsetning* er birgðalíkan sem byggir á meðaltali sem er reiknað með því að margfalda hvern þátt (vöruviðskipti) með stuðli (kostnaðarverði) sem endurspeglar mikilvægi hans (magn) á hverjum degi á tímabilinu. Með öðrum orðum, þetta birgðalíkan úthlutar kostnaði við útgáfufærslur út frá meðalgildi allra birgða sem berast á hverjum degi, að viðbættum birgðum á lager frá fyrri degi.
 
-Þegar þú keyrir birgðalokun með því að nota vegið meðaltal dagsetningar birgðalíkansins, er hægt að nota tvær aðferðir til að stofna uppgjör. Venjulega eru allar innhreyfingar jafnaðar á móti sýndarútgáfu sem geymir heildarmóttekið magn og gildi. Þetta sýndarmál er með samsvarandi sýndarkvittun sem málin eru gerð upp frá. Þannig fá öll blöð sama meðalkostnað á hverjum degi. Sýndarútgáfan og sýndarkvittunin geta talist sýndarflutningur. Þessi sýndarflutningur er nefndur *vegið meðaltal birgðalokunarflutnings*. Þess vegna er þessi uppgjörsaðferð þekkt sem a *vegið meðaltal yfirlits uppgjörs*. Ef það er aðeins ein kvittun er hægt að gera upp öll mál út frá henni og enginn sýndarflutningur verður til. Þessi uppgjörsaðferð er nefnd *beint uppgjör*. Allar birgðir sem eru til staðar eftir að birgðalokun er framkvæmd eru metnar á vegið meðaltal frá síðasta degi fyrra tímabils og innifalið í útreikningi vegins meðaltals dagsetningar á næsta tímabili.
+Þegar þú keyrir birgðalokun með því að nota vegið meðaltal dagsetningar birgðalíkansins, er hægt að nota tvær aðferðir til að stofna uppgjör. Venjulega eru allar kvittanir jafnaðar á móti sýndarútgáfu sem geymir heildarmóttekið magn og gildi. Þetta sýndarmál er með samsvarandi sýndarkvittun sem málin eru gerð upp frá. Þannig fá öll blöð sama meðalkostnað á hverjum degi. Sýndarútgáfan og sýndarkvittunin geta talist sýndarflutningur. Þessi sýndarflutningur er nefndur *vegið meðaltal birgðalokunarflutnings*. Þess vegna er þessi uppgjörsaðferð þekkt sem a *vegið meðaltal yfirlits uppgjörs*. Ef það er aðeins ein kvittun er hægt að gera upp öll mál út frá henni og enginn sýndarflutningur verður til. Þessi uppgjörsaðferð er nefnd *beint uppgjör*. Allar birgðir sem eru til staðar eftir að birgðalokun er framkvæmd eru metnar á vegið meðaltal frá síðasta degi fyrra tímabils og innifalið í útreikningi vegins meðaltals dagsetningar á næsta tímabili.
 
-Hægt er að hnekkja meginreglunni um vegið meðaltal dagsetningar með því að merkja birgðafærslur þannig að tiltekin vörumóttaka sé jöfnuð á móti tiltekinni útgáfu. Reglubundin birgðalokun er nauðsynleg þegar þú notar vegið meðaltal dagsetningar birgðalíkansins til að stofna uppgjör og leiðrétta verðmæti útgáfur í samræmi við dagsetningarregluna fyrir vegið meðaltal. Þar til þú keyrir birgðalokunina eru útgáfufærslur metnar á hlaupandi meðaltali þegar líkamlegar og fjárhagslegar uppfærslur áttu sér stað. Nema þú sért að nota merkingu er hlaupandi meðaltal reiknað þegar líkamlega eða fjárhagslega uppfærslan er framkvæmd.
+Hægt er að hnekkja meginreglunni um vegið meðaltal dagsetningar með því að merkja birgðafærslur þannig að tiltekin vörumóttaka sé jöfnuð á móti tiltekinni útgáfu. Reglubundin birgðalokun er nauðsynleg þegar þú notar vegið meðaltal dagsetningar birgðalíkansins til að stofna uppgjör og leiðrétta verðmæti útgáfur í samræmi við dagsetningarregluna fyrir vegið meðaltal. Þar til þú keyrir birgðalokunina eru útgáfufærslur metnar á hlaupandi meðaltali þegar líkamlegar og fjárhagslegar uppfærslur áttu sér stað. Nema þú sért að nota merkingu er hlaupandi meðaltal reiknað út þegar líkamleg eða fjárhagsleg uppfærsla er framkvæmd.
 
 Vegið meðaltal birgðakostnaðaraðferðar er reiknað út með því að nota eftirfarandi formúlu á hverjum degi:
 
@@ -77,7 +77,7 @@ Reglan um bein uppgjör stofnar uppgjör beint á milli innhreyfinga og útgáfu
 
 **Dagur 3:**
 
-- 7\. Birgðalokun er framkvæmd. Miðað við dagsetningaraðferðina fyrir vegið meðaltal notar kerfið beina uppgjörsaðferð fyrir 30. desember (30.12.) vegna þess að aðeins ein kvittun er fjárhagslega uppfærð þann 30.12. Í þessu dæmi er ein uppgjör búin til á milli færslu 1b og 3b. Leiðrétting á USD 10.00 er gerð til að færa verðmæti færslu 3b upp í 20.00. Engin leiðrétting eða uppgjör er gerð þann 31. desember (31.12.) vegna þess að engin fjárhagslega uppfærð mál eru 31.12.
+- 7\. Birgðalokun er framkvæmd. Miðað við dagsetningaraðferðina fyrir vegið meðaltal notar kerfið beina uppgjörsaðferð fyrir 30. desember (30.12.) vegna þess að aðeins ein kvittun er fjárhagslega uppfærð þann 30.12. Í þessu dæmi er ein uppgjör búin til á milli færslu 1b og 3b. Leiðrétting á USD 10.00 er gerð til að færa verðmæti færslu 3b upp í 20.00. Engin leiðrétting eða uppgjör er gert 31. desember (31.12.) vegna þess að engin fjárhagslega uppfærð mál eru 31.12.
 
 Eftirfarandi skýringarmynd sýnir þessa röð viðskipta og áhrif þess að nota vegið meðaltal birgðalíkansins og beina uppgjörsregluna án **Taktu með líkamlegt gildi** valmöguleika.
 
@@ -123,14 +123,14 @@ Skýringarmyndin sem fylgir sýnir þessar færslur:
 - 7\. Birgðalokun er framkvæmd.
 - 7a. Vegið meðaltal fjárhagsútgáfu birgðaloka viðskipta er stofnuð til að leggja saman uppgjör allra birgðafjárhagskvittana.
 
-    - Færsla 1b er gerð upp fyrir magnið 1 með uppgert magn af USD 10.00.
-    - Færsla 2b er gerð upp fyrir magnið 1 með uppgjörnu magni USD 22.00.
+    - Færsla 1b er gerð upp fyrir magnið 1 með uppgjörnu magni USD 10.00.
+    - Færsla 2b er gerð upp fyrir magnið 1 með uppgert magn af USD 22.00.
     - Færsla 7a er búin til fyrir magnið 2 með uppgert magn af USD 32.00. Þessi færsla vegur á móti summan af tveimur kvittunarfærslum sem eru fjárhagslega uppfærðar á tímabilinu.
 
 - 7b. Vegin meðaltal fjárhagsleg innhreyfingar birgðaloka er stofnuð sem mótvægi fyrir fjárhagslega bókaðar útgáfur.
 
     - Færsla 3b er gerð upp fyrir magnið 1 með uppgert magn af USD 16.00. Þessi færsla er ekki leiðrétt vegna þess að hún er vegið meðaltal fjárhagslegra færslna 1. desember (12/1).
-    - Færsla 7b er búin til fyrir magnið 2 með fjárhæð USD 32.00 og uppgjöra upphæð USD 16.00 til að vega upp á móti færslu 3b. Þessi færsla vegur á móti summu einu útgáfufærslunnar sem er fjárhagslega uppfærð á tímabilinu. Viðskiptin eru enn opin vegna þess að það er enn einn á hendi.
+    - Færsla 7b er búin til fyrir magnið 2 með fjárhagsupphæðinni USD 32.00 og uppgjörnu upphæðinni USD 16.00 til að vega upp á móti færslu 3b. Þessi færsla vegur á móti summu einu útgáfufærslunnar sem er fjárhagslega uppfærð á tímabilinu. Viðskiptin eru enn opin vegna þess að það er enn einn á hendi.
 
 Eftirfarandi skýringarmynd sýnir þessa röð viðskipta og áhrif þess að nota vegið meðaltal birgðalíkansins og samantekna uppgjörsreglu, en án þess að nota **Taktu með líkamlegt gildi** valmöguleika.
 
@@ -168,7 +168,7 @@ Skýringarmyndin sem fylgir sýnir þessar færslur:
 - 4a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 - 5a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 - 5b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.
-- 6a. Raunveruleg útgáfa birgða fyrir magn 1 á kostnaði USD 21.25 hver (hlaupandi meðaltal líkamlegra og fjárhagslegra færslna).
+- 6a. Raunveruleg útgáfa birgða fyrir magn af 1 á kostnaði USD 21.25 hver (hlaupandi meðaltal líkamlegra og fjárhagslegra færslna).
 
 **Dagur 3:**
 
@@ -203,29 +203,29 @@ Skýringarmyndin sem fylgir sýnir þessar færslur:
 - 1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 - 2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
 - 2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 22,00 USD á hverja.
-- 3a. Raunveruleg útgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 16.00 (hlaupandi meðaltal líkamlegra og fjárhagslegra bókaða færslur).
-- 3b. Fjárhagsútgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 16.00 (hlaupandi meðaltal líkamlegra og fjárhagslegra færslna).
+- 3a. Raunveruleg útgáfa birgða fyrir magn sem er 1 á kostnaðarverði USD 16.00 (hlaupandi meðaltal af líkamlegum og fjárhagslegum bókuðum færslum).
+- 3b. Fjárhagsútgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 16.00 (hlaupandi meðaltal líkamlegra og fjárhagslegra bókaða færslna).
 
 **Dagur 2:**
 
 - 4a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 - 5a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 - 5b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.
-- 6a. Raunveruleg útgáfa birgða fyrir magn sem er 1 á kostnaðarverði USD 23.67 (hlaupandi meðaltal líkamlegra og fjárhagslegra bókaða færslna).
+- 6a. Raunveruleg útgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 23.67 (hlaupandi meðaltal líkamlegra og fjárhagslegra bókaða færslur).
 
 **Dagur 3:**
 
 - 7\. Birgðalokun er framkvæmd.
 - 7a. Vegið meðaltal fjárhagsútgáfu birgðaloka viðskipta er stofnuð til að leggja saman uppgjör allra birgðafjárhagskvittana.
 
-    - Færsla 1b er gerð upp fyrir magnið 1 með uppgert magn af USD 10.00.
-    - Færsla 2b er gerð upp fyrir magnið 1 með uppgjörnu magni USD 22.00.
+    - Færsla 1b er gerð upp fyrir magnið 1 með uppgjörnu magni USD 10.00.
+    - Færsla 2b er gerð upp fyrir magnið 1 með uppgert magn af USD 22.00.
     - Færsla 7a er búin til fyrir magnið 2 með uppgert magn af USD 32.00. Þessi færsla vegur á móti summan af tveimur kvittunarfærslum sem eru fjárhagslega uppfærðar á tímabilinu.
 
 - 7b. Vegin meðaltal fjárhagsleg innhreyfingar birgðaloka er stofnuð sem mótvægi fyrir fjárhagslega bókaðar útgáfur.
 
     - Færsla 3b er gerð upp fyrir magnið 1 með uppgert magn af USD 16.00. Þessi færsla er ekki leiðrétt vegna þess að hún er vegið meðaltal fjárhagslegra færslna 1. desember (12/1).
-    - Færsla 7b er búin til fyrir magnið 2 með fjárhæð USD 32.00 og uppgjöra upphæð USD 16.00 til að vega upp á móti færslu 3b. Þessi færsla vegur á móti summu einu útgáfufærslunnar sem er fjárhagslega uppfærð á tímabilinu. Viðskiptin eru enn opin vegna þess að það er enn einn á hendi.
+    - Færsla 7b er búin til fyrir magnið 2 með fjárhagsupphæðinni USD 32.00 og uppgjörnu upphæðinni USD 16.00 til að vega upp á móti færslu 3b. Þessi færsla vegur á móti summu einu útgáfufærslunnar sem er fjárhagslega uppfærð á tímabilinu. Viðskiptin eru enn opin vegna þess að það er enn einn á hendi.
 
 Eftirfarandi skýringarmynd sýnir þessa röð viðskipta og áhrif þess að nota vegið meðaltal birgðalíkansins og samantekna uppgjörsreglu án **Taktu með líkamlegt gildi** valmöguleika.
 
@@ -250,7 +250,7 @@ Merking er aðferð sem gerir mögulegt að tengja eða merkja úthreyfingarfær
 
 Þjónustudeild fyrir viðskiptavini, hefur til dæmis fengið flýtipöntun frá mikilvægum viðskiptavini. Vegna þess að þetta er flýtipöntun þarftu að borga meira fyrir þennan hlut til að sinna beiðni viðskiptavinarins. Þú verður að vera viss um að kostnaður þessarar birgðavöru endurspeglast í framlegð, eða kostnaði við seldar vörur (COGS), fyrir þennan sölupöntunarreikning.
 
-Þegar innkaupapöntunin er bókuð, eru birgðir mótteknar með kostnaðinum 120,00 USD. Ef sölupöntunarskjalið er merkt við innkaupapöntunina áður en fylgiseðillinn eða reikningurinn er bókaður, verður COGS USD 120.00 í stað núverandi meðalkostnaðar fyrir vöruna. Ef merking á sér stað eftir að fylgiseðill sölupöntunar eða reikningur hefur verið bókaður, verða COGS bókuð á hlaupandi meðalkostnaðarverði.
+Þegar innkaupapöntunin er bókuð, eru birgðir mótteknar með kostnaðinum 120,00 USD. Ef sölupöntunarskjalið er merkt við innkaupapöntunina áður en fylgiseðillinn eða reikningurinn er bókaður, verða COGS USD 120.00 í stað núverandi meðalkostnaðar vörunnar. Ef merking á sér stað eftir að fylgiseðill sölupöntunar eða reikningur hefur verið bókaður, verður COGS bókað á hlaupandi meðalkostnaðarverði.
 
 Áður en birgðalokun er framkvæmd er hægt að merkja þessar tvær færslur, hvora fyrir aðra.
 
@@ -281,7 +281,7 @@ Skýringarmyndin sem fylgir sýnir þessar færslur:
 
 **Dagur 3:**
 
-- 7\. Birgðalokun er framkvæmd. Á grundvelli merkingarreglunnar sem notar vegið meðaltalsaðferð eru mörkuðu færslurnar jafnaðar hver á móti öðrum. Í þessu dæmi er færslu 3b jöfnuð á móti færslu 2b og leiðrétting fyrir USD 6.00 er bókuð á færslu 3b til að færa gildið í USD 22.00. Í þessu dæmi eru engar viðbótaruppgjörir gerðar vegna þess að lokunin skapar aðeins uppgjör fyrir fjárhagslega uppfærðar færslur.
+- 7\. Birgðalokun er framkvæmd. Á grundvelli merkingarreglunnar sem notar vegið meðaltalsaðferð eru mörkuðu færslurnar jafnaðar hver á móti öðrum. Í þessu dæmi er færslu 3b jöfnuð á móti færslu 2b og leiðrétting fyrir USD 6.00 er bókuð á færslu 3b til að færa gildið í USD 22.00. Í þessu dæmi eru engar viðbótaruppgjörir gerðar vegna þess að lokun stofnar aðeins uppgjör fyrir fjárhagslega uppfærðar færslur.
 
 Eftirfarandi skýringarmynd sýnir þessa röð viðskipta og áhrif þess að nota vegið meðaltal birgðalíkansins með merkingu.
 

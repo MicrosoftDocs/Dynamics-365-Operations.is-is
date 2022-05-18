@@ -1,26 +1,26 @@
 ---
 title: Flutningur undirbókar í fjárhag
 description: Þetta efnisatriði lýsir möguleikum sem tengjast flutningsferli undirbókar í fjárhag.
-author: rcarlson
+author: RyanCCarlson2
 ms.date: 12/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: rcarlson
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 213bbc2541c614aa26b0c830431818fb99c7682d
-ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
+ms.openlocfilehash: 70a34fa1f4ee540d89ec05816e4065fb3e1df9ef
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7900731"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727315"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Flutningur undirbókar í fjárhag
 
@@ -28,7 +28,7 @@ ms.locfileid: "7900731"
 
 Þetta efnisatriði lýsir möguleikum sem tengjast reglum um flutning á runum færslna í undirbók.
 
-Í útgáfu 8.1 voru gerðar breytingar til að leyfa flutning á reglum sem úreltu valkostinn **Samstillt**. Nánari upplýsingar er að finna í [Fjarlægðar eða úreltar aðgerðir fyrir Finance and Operations](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20).
+Í útgáfu 8.1 voru gerðar breytingar til að leyfa flutning á reglum sem úreltu valkostinn **Samstillt**. Fyrir frekari upplýsingar, sjá [Fjarlægðir eða úreltir eiginleikar fyrir Finance and Operations](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20).
 
 Eftirfarandi valkostir eru í boði til að flytja runur undirbókar:
 
@@ -39,7 +39,7 @@ Eftirfarandi valkostir eru í boði til að flytja runur undirbókar:
 
 Virknin fyrir ósamstilltan flutning á runum undirbókar hjálpar til við að flytja gögn úr undirbók í fjárhag. Með því að flokka saman safn af minni færslum og flytja færslurnar í hópum afgreiðir virknin færslur á skilvirkari hátt. Þegar færslur eru flokkaðar eru tilföng runuþjónsins notuð á skilvirkari hátt.
 
-Ósamstilltur flutningur á undirbókarlotum krefst þess að runuþjónninn sé settur upp, á netinu og virki vegna þess að runuverkefni eru búin til til að framkvæma strax á runuþjóninum. Þegar **Flutningur undirbókar yfir í hagræðingu afkasta í aðalbók** eiginleiki er virkur, the **Sjálfvirkni ferlisins** kerfislotuvinna nefnd **Vinnu sjálfvirkni í atkvæðagreiðslukerfi** verður einnig að vera virkt. Frekari upplýsingar er að finna í [Sjálfvirkni ferlis](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
+Ósamstilltur flutningur á undirbókarlotum krefst þess að runuþjónninn sé settur upp, á netinu og virki vegna þess að runuverkefni eru búin til til að framkvæma strax á runuþjóninum. Þegar **Flutningur undirbókar yfir í hagræðingu á afköstum aðalbókar** eiginleiki er virkur, the **Sjálfvirkni ferlisins** kerfislotuvinna nefnd **Vinnu sjálfvirkni í atkvæðagreiðslukerfi** verður einnig að vera virkt. Frekari upplýsingar er að finna í [Sjálfvirkni ferlis](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 Breyting á skilvirkni á runustigi notar eina endurtekna runuvinnslu fyrir alla lögaðila í kerfinu. Á keyrslutíma er ný runuvinnsla stofnuð til að afgreiða nauðsynlegar færslur sem hafa ekki verið fluttar. Hægt er að stýra fleiri stillingum á síðunni **Sjálfvirkni ferlis** í kerfisstjórnun. Á þeirri síðu er hægt að breyta bakgrunnsvinnslunni, breyta tíðninni og skilgreina hvíldartíma.
 
