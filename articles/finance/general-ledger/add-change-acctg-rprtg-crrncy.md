@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1fd641d4f60d8ff9710c89f43777f7fd8f378dbc6c73d773ac103f9d9f68e60e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff5c38193e8469cb806c525b77809844847d6c92
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770594"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710891"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Breyta bókhalds- eða skýrslugjaldmiðli
 
@@ -31,7 +31,7 @@ ms.locfileid: "6770594"
 Þú vilt breyta bókhalds- eða skýrslugjaldmiðli eða bæta skýrslugjaldmiðli við fjárhagsuppsetningu. Þetta á sér yfirleitt stað við eftirfarandi aðstæður:
 
 - Rangur bókhalds- eða skýrslugjaldmiðill var tilgreindur þegar lögaðili var settur upp. Nú viltu breyta þeim gjaldmiðli.
-- Skýrslugjaldmiðill var tilgreindur þegar lögaðili var settur upp en fyrirtækið vilja nú fjarlægja skýrslugjaldmiðilinn.
+- Skýrslugjaldmiðill var tilgreindur þegar lögaðili var settur upp en fyrirtækið vill nú fjarlægja skýrslugjaldmiðilinn.
 - Fyrirtækið er að uppfæra eða flytja sig yfir í Microsoft Dynamics 365 Finance og vill breyta bókhalds- eða skýrslugjaldmiðlinum.
 
 Samtök sem notuðu ekki áður möguleikann á tvöföldum gjaldmiðli vill byrja að nota hann. Þetta vandamál á sér yfirleitt stað við eftirfarandi aðstæður.

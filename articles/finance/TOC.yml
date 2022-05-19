@@ -86,9 +86,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
                 - name: Kaupa Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Grunnstilla vöruhús fyrir uppsetningu á staðnum
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-            - name: Skjalatilföng
+            - name: Fylgigagnatilföng
               items:
                 - name: Hjálparkerfi
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/finance/toc.json
@@ -272,6 +270,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Bókunarreglur lánardrottins
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Stofna gjaldakóða
+              href: accounts-receivable/create-charges-codes.md
             - name: Dagsetningar reikninga lánardrottna
               href: accounts-payable/vendor-invoice-dates.md
             - name: Endurmat á erlendum gjaldmiðli fyrir viðskiptaskuldir og viðskiptakröfur
@@ -288,11 +288,13 @@
               href: accounts-payable/royalty-contract.md
             - name: Tilvísun í upprunalega reikninga í kreditnótum (reikningar lánardrottins)
               href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
-            - name: Greiðslur og uppgjör
+            - name: Greiðslur og jöfnun
               items:
                 - name: Miðstýrðar greiðslur fyrir viðskiptaskuldir
                   href: accounts-payable/centralized-payments-accounts-payable.md
-                - name: Skilgreina uppgjör
+                - name: Uppsetning og vinnsla greiðslna á millilykli
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
+                - name: Skilgreina jöfnun
                   href: cash-bank-management/configure-settlement.md
                 - name: Gera upp eftirstöðvar
                   href: cash-bank-management/settle-remainder.md
@@ -352,10 +354,14 @@
               href: accounts-receivable/customer-workflow.md
             - name: Uppsetning og vinnsla endurtekinna reikninga
               href: accounts-receivable/set-up-process-recurring-invoices.md
-            - name: Dreifing á fjárhagsupphæð og færslur í færslubók undirfjárhags fyrir reikninga með frjálsum texta
+            - name: Dreifing á fjárhagsupphæð og færslur í undirbók fyrir reikninga með frjálsum texta
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
+            - name: Bókun á viðskiptakröfum
+              href: general-ledger/accts-recvble-posting.md
             - name: Bókunarreglur viðskiptavina
               href: accounts-receivable/customer-posting-profiles.md
+            - name: Stofna gjaldakóða
+              href: accounts-receivable/create-charges-codes.md
             - name: Yfirlit yfir SEPA-beingreiðslu
               href: accounts-receivable/sepa-direct-debit-overview.md
             - name: Setja upp tilskipun fyrir SEPA-umboð fyrir beint debet
@@ -364,7 +370,7 @@
               href: accounts-receivable/credit-card-authorizations.md
             - name: Stofna reikning með frjálsum texta
               href: accounts-receivable/create-free-text-invoice-new.md
-            - name: Dreifing á fjárhagsupphæð og færslur í færslubók undirfjárhags fyrir reikninga með frjálsum texta
+            - name: Dreifing á fjárhagsupphæð og færslur í undirbók fyrir reikninga með frjálsum texta
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Stofna sniðmát fyrir reikning með frjálsum texta
               href: accounts-receivable/create-free-text-invoice-template-new.md
@@ -434,8 +440,10 @@
                       href: accounts-receivable/cpischedules.md
                     - name: Rifta greiðsluáætlunum
                       href: accounts-receivable/terminate-billing-schedule.md
-                    - name: Aðstæður fyrir dagsetningu röðunar
+                    - name: Aðstæður fyrir dagsetningu stillingar
                       href: accounts-receivable/sb-alignment-date-examples.md
+                    - name: Tekjuskipting
+                      href: accounts-receivable/sb-revenue-split.md
                 - name: Tekju- og kostnaðarfrestanir
                   items:
                     - name: Setja upp tekju- og kostnaðarfrestanir
@@ -448,10 +456,12 @@
                   items:
                     - name: Setja upp margþátta tekjuúthlutun
                       href: accounts-receivable/sb-rev-alloc-setup.md
-            - name: Greiðslur og uppgjör
+            - name: Greiðslur og jöfnun
               items:
                 - name: Greiðsluyfirlit viðskiptavina
                   href: cash-bank-management/tasks/customer-payment-overview.md
+                - name: Uppsetning og vinnsla greiðslna á millilykli
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Miðstýrðar greiðslur fyrir viðskiptakröfur
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: Leggja inn greiðslur viðskiptavina
@@ -1026,11 +1036,19 @@
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: Tvöfaldur gjaldmiðill
                       href: general-ledger/dual-currency.md
+                - name: Bókunarreglur
+                  items:
+                    - name: Yfirlit yfir bókunarreglur
+                      href: general-ledger/pstg-prfles-ovrvw.md
+                    - name: Ráðleggingar um notkun á bókunarreglum
+                      href: general-ledger/recommended-practices-pstg-prfles.md
+                    - name: Lyklar fyrir sjálfvirkar færslur
+                      href: general-ledger/accounts-for-auto-transactions.md
                 - name: Úthlutunarreglur
                   items:
                     - name: Úthlutunarreglur fjárhags
                       href: general-ledger/ledger-allocation-rules.md
-                    - name: Vinna úr færslubók kostnaðarúthlutunar
+                    - name: Vinna úr færslubók fjárhagsúthlutunar
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
             - name: Færslubækur og upprunaskjöl
               items:
@@ -1050,7 +1068,7 @@
                       href: general-ledger/cant-reverse-transctns.md
                     - name: Stofna færslu í færslubók með því að nota sniðmát
                       href: general-ledger/tasks/create-journal-entry-template.md
-                    - name: Vinna úr færslubók kostnaðarúthlutunar
+                    - name: Vinna úr færslubók fjárhagsúthlutunar
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
                     - name: Skoða færslubókarfærslur
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
@@ -1100,7 +1118,7 @@
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Fjárhagslykilstöður
                   href: general-ledger/general-ledger-account-balances.md
-                - name: Vinna úr færslubók kostnaðarúthlutunar
+                - name: Vinna úr færslubók fjárhagsúthlutunar
                   href: general-ledger/tasks/process-ledger-allocation-journal.md
                 - name: Úthlutunarreglur fjárhags
                   href: general-ledger/ledger-allocation-rules.md
@@ -3765,7 +3783,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/finance/toc.json
                     - name: Uppfæra eftirlitsbúnað skjalasendingar
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/finance/toc.json
-                    - name: Setja upp nettengda prentara á staðnum
+                    - name: Setja upp nettengda prentara í innanhússumhverfi
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/finance/toc.json
                     - name: 'Myndun, útgáfa og prentun fylgiskjala í uppsetningu á staðnum'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/finance/toc.json

@@ -86,9 +86,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kaupa Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Grunnstilla vöruhús fyrir uppsetningu á staðnum
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Skjalatilföng
+            - name: Fylgigagnatilföng
               items:
                 - name: Hjálparkerfi
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
@@ -885,7 +883,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Uppfæra eftirlitsbúnað skjalasendingar
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Setja upp nettengda prentara á staðnum
+                    - name: Setja upp nettengda prentara í innanhússumhverfi
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Myndun, útgáfa og prentun fylgiskjala í uppsetningu á staðnum'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/supply-chain/toc.json
@@ -3299,9 +3297,9 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Skrá vörur fyrir vöru með grunnvöruhúsakerfi virkt með því að nota komubók
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Flytja inn ASN á innleið í gegnum V2 gagnaeininguna
-                  href: warehousing/import-asn-v2-data-entity.md
-                - name: Hjáskipa afurðir úr viðtökuvöruhúsi í verslanir
+                - name: Flytja inn ASN á innleið í gegnum V3-gagnaeininguna
+                  href: warehousing/import-asn-data-entity.md
+                - name: Hjáskipa afurðum úr viðtökuvöruhúsi í verslanir
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Setja upp leiðbeiningar um staðsetningu fyrir frágang innkaupapöntunar
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md

@@ -1,5 +1,5 @@
 ---
-title: Eignir – heimasíða
+title: Heimasíða eigna
 description: Þetta efnisatriði veitir aðgang að tilföngum sem geta hjálpað þér að nota eignir fyrir Microsoft Dynamics 365 Finance.
 author: moaamer
 ms.date: 08/31/2017
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "21481"
 - intro-internal
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1a31273e16275750594ef8d9b99f9a4cd2222ef
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: cee27143ca005f2fa42899365933ec3014aa13f6
+ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674852"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8720447"
 ---
-# <a name="fixed-assets-home-page"></a>Eignir – heimasíða
+# <a name="fixed-assets-home-page"></a>Heimasíða eigna
 
 [!include [banner](../includes/banner.md)]
 

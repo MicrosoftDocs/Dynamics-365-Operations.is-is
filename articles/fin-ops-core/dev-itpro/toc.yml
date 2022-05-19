@@ -50,10 +50,6 @@
           items:
             - name: Samþætting milli fjármála- og rekstrarforrita og þjónustu þriðju aðila
               href: data-entities/integration-overview.md
-            - name: Takmörkun byggð á forgangi
-              hreF: data-entities/priority-based-throttling.md
-            - name: Algengar spurningar um forgangsröðun takmarkana
-              href: data-entities/throttling-faq.md
             - name: API samþættingar gagna
               items:
                 - name: REST API-gagnastjórnunarpakki
@@ -74,6 +70,18 @@
                   href: data-entities/recurring-integrations.md
                 - name: Prófa þjónustu með hjálparforriti þriðju aðila
                   href: data-entities/third-party-service-test.md
+            - name: Mörk þjónustuverndar
+              items:
+                - name: API-mörk þjónustuverndar
+                  href: data-entities/service-protection-api-limits.md
+                - name: Forgangsröðun takmörkunar
+                  href: data-entities/priority-based-throttling.md
+                - name: Reyna aðgerðir aftur
+                  href: data-entities/service-protection-retry-operations.md
+                - name: Fylgjast með API-takmörkunum
+                  href: data-entities/service-protection-monitoring.md
+                - name: Hámarka API-gegnumstreymi
+                  href: data-entities/service-protection-maximizing-api-throughput.md
             - name: Tengill Finance and Operations
               href: data-entities/fin-ops-connector.md
             - name: Þróun fyrir samþættingu
@@ -398,7 +406,9 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Skilgreina staðgengla fyrir innanhússumhverfi
                       href: deployment/onprem-reverseproxy.md
-                    - name: Setja upp nettengda prentara á staðnum
+                    - name: Skilgreina vöruhúsaforritið fyrir uppsetningu á staðnum
+                      href: deployment/warehousing-for-on-premise-deployments.md
+                    - name: Setja upp nettengda prentara í innanhússumhverfi
                       href: analytics/install-network-printer-onprem.md
                     - name: Greining á staðnum
                       href: deployment/on-premises-diagnostics.md
@@ -472,16 +482,14 @@
                   href: help/language-locale.md
                 - name: 'Stækka, sérstilla og vinna saman með hjálpinni'
                   href: help/contributor-guide.md
-            - name: Hvað skal hafa í huga við uppsetningu
+            - name: Svæðisþjónusta fyrir fjármála- og rekstrarforrit
               items:
-                - name: Innleiðingarvalkostir skýs fyrir opinbera geirann og staðbundna notendur fyrir Dynamics 365 Finance og Dynamics 365 Supply Chain Management
+                - name: Staðbundin landsvæði
                   href: deployment/deployment-options-geo.md
-                - name: Finance og Supply Chain Management í Government Community Cloud (GCC) fyrir Bandaríkin
+                - name: US Government Community Cloud (GCC)
                   href: deployment/us-gcc-deployment.md
-                - name: Finance og Supply Chain Management rekið af 21Vianet í Kína
+                - name: Rekið í Kína af 21Vianet
                   href: deployment/china-local-deployment.md
-                - name: Fjármála- og rekstrarforrit í Frakklandi
-                  href: deployment/france-local-deployment.md
         - name: Þróa og sérstilla
           items:
             - name: Þróa og sérstilla heimasíðu
@@ -559,7 +567,7 @@
                     - name: Búa til yfirlit yfir líkön og gagnalíkanseiningar
                       href: dev-tools/create-data-model-elements.md
                     - name: Leiðbeiningar um heiti viðbóta
-                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                      href: /dynamics365/fin-ops-core/dev-itpro/extensibility/naming-guidelines-extensions
                     - name: Slökkva á sérstillingu líkans og afskriftavirkni
                       href: dev-tools/lock-models.md
                 - name: Skýrsla um greiningu sérstillinga
