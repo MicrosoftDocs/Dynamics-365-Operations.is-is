@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 20e48fee237615c7b1acdb564e5e524d393f8eba
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
+ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469898"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809096"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Flutningur yfir í fínstillingu skipulagningar fyrir aðaláætlanagerð
 
@@ -47,7 +47,7 @@ Eins og hefur verið getið birtast villuboð í útgáfu 10.0.16 og nýrri útg
 
 ### <a name="new-deployments"></a>Nýjar uppsetningar
 
-Fínstilling áætlanagerðar ætti að nota sem sjálfgefna aðaláætlunarvél fyrir allar nýjar uppsetningar í skýinu. Almennt ætti að nota fínstillingu skipulagningar fyrir allar nýjar uppsetningar sem búa ekki til áætlaðar framleiðslupantanir meðan á aðaláætlanagerð stendur. Þegar ný uppsetning er háð virkni fínstilling skipulagningar styður ekki eins og stendur, er hægt að biðja um undantekningu þannig að hægt sé að halda áfram að nota innbyggðu aðaláætlunarvélina áfram.
+Hagræðing áætlanagerðar verður að teljast sjálfgefin aðalskipulagsvél fyrir allar nýjar dreifingar í skýinu. Almennt ætti að nota fínstillingu skipulagningar fyrir allar nýjar uppsetningar sem búa ekki til áætlaðar framleiðslupantanir meðan á aðaláætlanagerð stendur. Þegar ný uppsetning er háð virkni fínstilling skipulagningar styður ekki eins og stendur, er hægt að biðja um undantekningu þannig að hægt sé að halda áfram að nota innbyggðu aðaláætlunarvélina áfram.
 
 ### <a name="existing-deployments"></a>Fyrirliggjandi uppsetningar
 
@@ -63,7 +63,7 @@ Hægt er að biðja um undantekningu ef nauðsynlegt er að halda þarf áfram a
 
 Um leið og áskildir eiginleikar verða tiltækir veitir Microsoft reynslutíma þar til undantekningin rennur út. Stjórnandi umhverfisins fær upplýsingar um hvenær áskildir eiginleikar eru tiltækir og þegar reynslutíminn hefst.
 
-Eftirfarandi flæðirit tekur saman upplýsingarnar sem veittar eru í þessu efnisatriði þannig að hægt sé að finna út á fljótlegan hátt hvort þurfi að biðja um undanþágu. Ef óska þarf eftir undanþágu skal fylla út og senda inn [Fínstilling áætlanagerðar, yfirfærsla og spurningalisti undantekningar](https://go.microsoft.com/fwlink/?linkid=2144962).
+Eftirfarandi flæðirit tekur saman upplýsingarnar sem veittar eru í þessu efnisatriði þannig að hægt sé að finna út á fljótlegan hátt hvort þurfi að biðja um undanþágu. Ef óska þarf eftir undanþágu skal fylla út og senda inn [Fínstilling áætlanagerðar, yfirfærsla og spurningalisti undantekningar](https://go.microsoft.com/fwlink/?linkid=2144962). Vöruflokkurinn ber ábyrgð á því að meta og samþykkja hverja undantekningarbeiðni, svo vinsamlegast sendu beiðni þína beint til vöruhópsins með því að nota tengilinn sem gefinn er upp og ekki búa til stuðningsmiða fyrir hana. Ef beiðni þinni er hafnað skaltu ekki búa til stuðningsmiða því Microsoft Support getur ekki endurmetið eða veitt undanþágur.
 
 ![Flæðirit undantekningar.](media/exception-diagram.png "Flæðirit undantekningar")
 

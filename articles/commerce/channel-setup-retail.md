@@ -2,7 +2,7 @@
 title: Setja upp smásölurás
 description: Í þessu efnisatriði er lýst hvernig eigi að stofna nýja smásölurás í Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 04/23/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6a8db8bb4b42c7ad6c0c0e0c257bc03e356de7d525f524c22eab46e38c018d49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74a4f0f61e0bbfd73d0006d3cf45863af6fef18f
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745407"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770222"
 ---
 # <a name="set-up-a-retail-channel"></a>Setja upp smásölurás
 
@@ -90,6 +90,13 @@ Fylgdu þessum skrefum til að setja upp greiðslumáta fyrir hverja greiðsluge
 Eftirfarandi mynd sýnir dæmi um greiðsluaðferð í reiðufé.
 
 ![Dæmi um greiðslumáta.](media/channel-setup-retail-5.png)
+
+Eftirfarandi mynd sýnir dæmi um greiðslumáta í reiðufé og **Magn** stillingar flipa.
+
+![Dæmi um uppsetningu greiðslumáta fyrir upphæðir.](media/payment-methods-recount.png)
+
+> [!NOTE]
+> Gildi fyrir **Magn** flipann eru í skyndiminni í Retail Server og munu ekki taka gildi strax eftir að þú keyrir dreifingaráætlunarstörfin. Þú gætir þurft að endurræsa Cloud Scale Unit til að nota þessi gildi strax til prófunar.
 
 ### <a name="set-up-cash-declaration"></a>Setja upp skilgreiningar reiðufjár
 

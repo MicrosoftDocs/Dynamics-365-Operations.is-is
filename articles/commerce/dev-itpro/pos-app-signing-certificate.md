@@ -1,8 +1,8 @@
 ---
-title: Skrifaðu undir MPOS með kóða undirritunarskírteini
+title: Undirritaðu MPOS .appx skrána með kóða undirritunarskírteini
 description: Þetta efnisatriði útskýrir hvernig á að undirrita MPOS með kóða undirritunarskírteini.
 author: mugunthanm
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
@@ -10,16 +10,17 @@ ms.custom: 28021
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: e45961cf1ddb385d914b700d03bc95d07de47b68
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 38c094de6f94381a809fdb68d2e76d410e406934
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8742584"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811086"
 ---
-# <a name="sign-mpos-appx-with-a-code-signing-certificate"></a>Undirrita MPOS-appx með kóðaundirritunarvottorði
+# <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>Undirritaðu MPOS .appx skrána með kóða undirritunarskírteini
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Til að setja upp Modern POS (MPOS) verður þú að undirrita MPOS appið með kóða undirritunarskírteini frá traustum veitanda og setja upp sama vottorð á öllum vélunum þar sem MPOS er sett upp undir traustri rótarmöppu fyrir núverandi notanda.
 
@@ -35,14 +36,14 @@ Til að undirrita MPOS appið með vottorði skaltu nota einn af þessum valkost
 ## <a name="use-a-secure-file-task-for-universal-windows-platform-app-signing"></a>Notaðu Secure File verkefni fyrir Universal Windows Platform app undirskrift
 
 > [!NOTE]
-> Þú getur líka notað Azure Key Vault til að geyma skírteinið og notað Azure sign tólið til að undirrita Modern POS .appx skrána og sjálfsafgreiðsluuppsetningar. Fyrir sýnishorn af leiðsluforskriftum og frekari upplýsingar, sjá [Settu upp byggingarleiðslu í Azure DevOps að búa til smásölu sjálfsafgreiðslupakka](build-pipeline.md#set-up-a-build-pipeline-in-azure-devops-to-generate-retail-self-service-packages).
+> Þú getur líka notað Azure Key Vault til að geyma skírteinið og notað Azure sign tólið til að undirrita Modern POS .appx skrána og sjálfsafgreiðsluuppsetningar. Fyrir sýnishorn af leiðsluforskriftum og frekari upplýsingar, sjá [Settu upp byggingarleiðslu í Azure DevOps til að búa til smásölu sjálfsafgreiðslupakka](build-pipeline.md#set-up-a-build-pipeline-in-azure-devops-to-generate-retail-self-service-packages).
 
 Notkun öryggisskrárverkefnis er ráðlögð nálgun fyrir undirritun Universal Windows Platform (UWP) forrita. Fyrir frekari upplýsingar um undirritun pakka, sjá [Stilltu undirritun pakka](/windows/uwp/packaging/auto-build-package-uwp-apps#configure-package-signing). Þetta ferli er sýnt á eftirfarandi mynd.
 
 ![MPOS app undirritunarflæði.](media/POSSigningFlow.png)
 
 > [!NOTE]
-> Eins og er styður OOB umbúðirnar aðeins undirritun á appx skránni, mismunandi sjálfsafgreiðsluuppsetningar eins og MPOIS, RSSU og HWS eru ekki undirritaðir af þessu ferli. Þú þarft að undirrita það handvirkt með SignTool eða öðrum undirritunarverkfærum. Vottorðið sem notað er til að undirrita appx skrána verður að vera uppsett í vélinni þar sem Modern POS er uppsett.
+> Eins og er styður OOB umbúðirnar aðeins undirritun á .appx skránni, mismunandi sjálfsafgreiðsluuppsetningartæki eins og MPOIS, RSSU og HWS eru ekki undirrituð af þessu ferli. Þú þarft að undirrita það handvirkt með SignTool eða öðrum undirritunarverkfærum. Vottorðið sem notað er til að undirrita .appx skrána verður að vera uppsett í vélinni þar sem Modern POS er uppsett.
 
 ## <a name="steps-to-configure-the-certificate-for-signing-in-azure-pipelines"></a>Skref til að stilla vottorðið fyrir innskráningu í Azure Pipelines
 
@@ -51,21 +52,22 @@ Notkun öryggisskrárverkefnis er ráðlögð nálgun fyrir undirritun Universal
 Sækja [Sækja skrá verkefni](/visualstudio/msbuild/downloadfile-task) og bættu því við sem fyrsta skrefið í byggingarferlinu. Kosturinn við að nota Secure File verkefnið er að skráin er dulkóðuð og sett á diskinn meðan á smíði stendur, sama hvort byggingaleiðslan heppnast, mistekst eða er hætt við. Skránni er eytt af niðurhalsstaðnum eftir að byggingarferlinu er lokið.
 
 1. Sæktu og bættu við Secure File verkefninu sem fyrsta skrefið í Azure-byggingarleiðslunni. Þú getur halað niður öryggisskráarverkefninu frá [Hlaða niður skrá](https://marketplace.visualstudio.com/items?itemName=automagically.DownloadFile).
-2. Hladdu upp vottorðinu í Secure File verkefnið og stilltu tilvísunarnafnið undir Output Variables, eins og sýnt er á eftirfarandi mynd.
+1. Hladdu upp vottorðinu í Secure File verkefnið og stilltu tilvísunarnafnið undir Output Variables, eins og sýnt er á eftirfarandi mynd.
     > [!div class="mx-imgBorder"]
     > ![Öruggt skráarverkefni.](media/SecureFile.png)
-3. Búðu til nýja breytu í Azure Pipelines með því að velja **Ný breyta** undir **Breytur** flipa.
-4. Gefðu upp heiti fyrir breytuna í gildisreitnum, til dæmis, **MySigningCert**.
-5. Vistaðu breytuna.
-6. Opnaðu **Customization.settings** skrá frá **RetailSDK\\ Byggingarverkfæri** og uppfærðu **ModernPOSPackageCertificateKeyFile** með breytuheitinu sem búið var til í leiðslunni (skref 3). Dæmi:
+1. Búðu til nýja breytu í Azure Pipelines með því að velja **Ný breyta** undir **Breytur** flipa.
+1. Gefðu upp heiti fyrir breytuna í gildisreitnum, til dæmis, **MySigningCert**.
+1. Vistaðu breytuna.
+1. Opnaðu **Customization.settings** skrá frá **RetailSDK\\ Byggingarverkfæri** og uppfærðu **ModernPOSPackageCertificateKeyFile** með breytuheitinu sem búið var til í leiðslunni (skref 3). Dæmi:
 
     ```Xml
     <ModernPOSPackageCertificateKeyFile Condition="'$(ModernPOSPackageCertificateKeyFile)' ==''">$(MySigningCert)</ModernPOSPackageCertificateKeyFile>
     ```
     Þetta skref er nauðsynlegt ef vottorðið er ekki varið með lykilorði. Ef vottorðið er varið með lykilorði skaltu halda áfram með eftirfarandi skrefum.
- 
-7. Á leiðslunni **Breytur** flipa, bættu við nýrri öruggri textabreytu. Stilltu nafnið á **MySigningCert.secret** og stilltu gildi lykilorðsins fyrir vottorðið. Veldu lástáknið til að tryggja breytuna.
-8. Bæta við a **Powershell Script** verkefni í leiðsluna (eftir niðurhalið örugga skrá og fyrir smíða skrefið). Gefðu upp **Skjár** heiti og stilltu Tegund sem **Í röð**. Afritaðu og límdu eftirfarandi inn í handritshlutann.
+    
+1. Ef þú vilt tímastimpla MPOS .appx skrána þegar þú undirritar hana með vottorði skaltu opna **Smásölu SDK\\ Byggja tól\\ Customization.settings** skrá og uppfæra **ModernPOSPackageCertificateTimestamp** breyta með tímastimplaveitunni (til dæmis,`http://timestamp.digicert.com`).
+1. Á leiðslunni **Breytur** flipa, bættu við nýrri öruggri textabreytu. Stilltu nafnið á **MySigningCert.secret** og stilltu gildi lykilorðsins fyrir vottorðið. Veldu lástáknið til að tryggja breytuna.
+1. Bæta við a **Powershell Script** verkefni í leiðsluna (eftir niðurhalið örugga skrá og fyrir smíða skrefið). Gefðu upp **Skjár** heiti og stilltu Tegund sem **Í línu**. Afritaðu og límdu eftirfarandi inn í handritshlutann.
 
     ```powershell
     Write-Host "Start adding the PFX file to the certificate store."
@@ -74,7 +76,7 @@ Sækja [Sækja skrá verkefni](/visualstudio/msbuild/downloadfile-task) og bætt
     Import-PfxCertificate -FilePath $pfxpath -CertStoreLocation Cert:\CurrentUser\My -Password $secureString
     ```
 
-9. Opnaðu **Customization.settings** skrá frá **RetailSDK\\ Byggingarverkfæri** og uppfærðu **ModernPOSPackageCertificateThumbprint** með þumalfingursgildi vottorðsins.
+1. Opnaðu **Customization.settings** skrá frá **RetailSDK\\ Byggingarverkfæri** og uppfærðu **ModernPOSPackageCertificateThumbprint** með þumalfingursgildi vottorðsins.
 
     ```Xml
        <ModernPOSPackageCertificateThumbprint Condition="'$(ModernPOSPackageCertificateThumbprint)' == ''"></ModernPOSPackageCertificateThumbprint>
@@ -82,7 +84,6 @@ Sækja [Sækja skrá verkefni](/visualstudio/msbuild/downloadfile-task) og bætt
  
 Fyrir upplýsingar um hvernig á að fá þumalfingur fyrir skírteini, sjá [sækja þumalfingur skírteinis](/dotnet/framework/wcf/feature-details/how-to-retrieve-the-thumbprint-of-a-certificate#to-retrieve-a-certificates-thumbprint). 
 
- 
 ## <a name="download-or-generate-a-certificate-to-sign-the-mpos-app-manually-using-msbuild-in-sdk"></a>Sæktu eða búðu til vottorð til að undirrita MPOS appið handvirkt með því að nota msbuild í SDK
 
 Ef niðurhalað eða búið til vottorð er notað til að undirrita MPOS appið, þá er uppfærsla **ModernPOSPackageCertificateKeyFile** hnút í **Byggingarverkfæri\\ Customization.settings** skrá til að benda á pfx skráarstaðsetningu (**$(SdkReferencesPath)\\ appxsignkey.pfx**). Dæmi:

@@ -2,7 +2,7 @@
 title: Stafræn gjafakort rafrænna viðskipta
 description: Þetta efnisatriði lýsir því hvernig stafræn gjafakort virka í innleiðingu rafrænna viðskipta Microsoft Dynamics 365 Commerce. Það veitir einnig yfirlit yfir mikilvæg skilgreiningarskref.
 author: anupamar-ms
-ms.date: 12/15/2020
+ms.date: 05/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e0cbab05cfd9dcde8ec5caf802d13cd10bc9123716b46307616b0e3e66f0f061
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: de8811b3265bc582a055aaad1f3dea32def552f4
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727558"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809588"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Stafræn gjafakort rafrænna viðskipta
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Þetta efnisatriði lýsir því hvernig stafræn gjafakort virka í innleiðingu rafrænna viðskipta Microsoft Dynamics 365 Commerce. Það veitir einnig yfirlit yfir mikilvæg skilgreiningarskref.
 
@@ -51,15 +50,18 @@ Stafrænar afurðir gjafakorta ættu að vera skilgreindar í Commerce Headquart
 
     ![Reitur gjafakortsafurðar í Commerce Headquarters.](./media/PostGiftcard.png)
 
-- Ef gjafakort verður að styðja margar fyrirframskilgreindar upphæðir (til dæmis, $25, $50 og $100) ætti að nota víddina **Stærð** til að setja upp þessar fyrirframskilgreindu upphæðir. Hver fyrirframskilgreind upphæð verður afbrigði. Frekari upplýsingar er að finna í [Afurðarvíddir](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
-- Ef viðskiptavinir verða að geta tilgreint sérstaka upphæð fyrir gjafakort skal fyrst setja upp afbrigði sem leyfir sérsniðna upphæð. Næst er afurðin opnuð á síðunni **Útgefnar afurðir í flokki** og síðan, í flýtiflipanum **Commerce**, skal stilla reitinn **Slá inn verð** á **Verður að slá inn nýtt verð** eins og sýnt er á eftirfarandi mynd. Þessi stilling tryggir að viðskiptavinir geti fært inn verð þegar þeir fletta upp afurðinni á upplýsingasíðu hennar.
+- Ef gjafakort verður að styðja margar fyrirframskilgreindar upphæðir (til dæmis, $25, $50 og $100) ætti að nota víddina **Stærð** til að setja upp þessar fyrirframskilgreindu upphæðir. Hvert fyrirfram skilgreint magn verður vöruafbrigði. Frekari upplýsingar er að finna í [Afurðarvíddir](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
+- Ef viðskiptavinir verða að geta tilgreint sérsniðna upphæð fyrir gjafakort til viðbótar við fyrirfram skilgreindar upphæðir skaltu fyrst setja upp afbrigði sem gerir ráð fyrir sérsniðinni upphæð. The **Stærð** eiginleiki styður sérsniðin magnafbrigði. Næst skaltu opna vöruna frá **Gefnar vörur í flokki** síðu og síðan á **Verslun** flýtiflipann, stilltu **Sláðu inn verð** sviði til **Þarf að slá inn nýtt verð**, eins og sýnt er í eftirfarandi dæmi. Þessi stilling tryggir að viðskiptavinir geti fært inn verð þegar þeir fletta upp afurðinni á upplýsingasíðu hennar.
 
     ![Reitur fyrir innslátt verðs í Commerce Headquarters.](./media/KeyInPrice.png)
+    
+    Eftirfarandi dæmi sýnir lista yfir afbrigði af stafrænum gjafakortum í höfuðstöðvum Commerce, þar á meðal tvö sérsniðin verðafbrigði.
+    ![Stafræn gjafakortavöruafbrigði með sérsniðnu verðafbrigði dæmi](./media/DigitalGiftCards_ProductVariantsWithCustom.png)
 
 - Afhendingarmáti fyrir stafrænt gjafakort verður að vera stilltur á **Rafrænn**. Á síðunni **Afhendingarmáti** (**Smásala og viðskipti \> Uppsetning rásar \> Afhendingarmáti**) skal velja afhendingarmátann **Rafrænn** á listasvæðinu og síðan bæta stafrænni gjafakortsafurð við hnitanetið í flýtiflipanum **Afurðir** eins og sýnt er á eftirfarandi mynd. Frekari upplýsingar er að finna í [Setja upp afhendingarmáta](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
     ![Stafrænar gjafakortsafurðir á síðu afhendingarmáta í Commerce Headquarters.](./media/ElectronicMode.PNG)
-
+    
 - Ganga skal úr skugga um að virkniforstilling á netinu hafi verið búin til og tengd við netverslunina í Commerce Headquarters. Í virkniforstillingunni skal stilla valkostinn **Safna saman afurðum** á **Já**. Þessi stilling tryggir að allar vörur að frátöldum gjafakortum séu lagðar saman. Frekari upplýsingar er að finna í [Búa til virkniforstillingu á netinu](online-functionality-profile.md).
 - Til að tryggja að viðskiptavinir fái tölvupóst eftir að gjafakort er reikningsfært skal stofna nýja gerð tilkynningar í tölvupósti á síðunni **Forstillingar tilkynningar í tölvupósti** og stilla reitinn **Gerð tilkynningar í tölvupósti** á **Gefa út gjafakort**. Frekari upplýsingar er að finna í [Setja upp forstillingu tilkynningar í tölvupósti](email-notification-profiles.md).
 

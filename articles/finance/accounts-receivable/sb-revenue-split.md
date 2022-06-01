@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 5c2eb6c8e18770eb149c445f662ab7a90aad81a7
-ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
+ms.openlocfilehash: 73dbc2242639a54d687506e7c325fec4b9a95d12
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8660515"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770155"
 ---
 # <a name="revenue-split-templates-in-subscription-billing"></a>Sniðmát fyrir tekjuskiptingu í innheimtu áskriftar
 
@@ -99,3 +99,54 @@ Til að búa til innheimtuáætlun sem hefur vöru sem er sett upp fyrir tekjusk
 > - Undirvörur eru sjálfkrafa færðar inn á sölupöntun eða innheimtuáætlunarlínu.
 >
 > Ef **Búðu til tekjuskiptingu sjálfkrafa** valkostur er stilltur á **Nei**, hegðunin er eins og útskýrt var áðan.
+
+## <a name="additional-revenue-split-information"></a>Viðbótarupplýsingar um skiptingu tekna
+
+Þegar þú bætir við hlut sem er hluti af tekjuskiptingu skaltu athuga eftirfarandi upplýsingar: 
+
+- Ekki er hægt að fresta foreldrisupphæðinni.
+- Upphafsdagsetning, lokadagsetning, magn, eining, staður og vöruhús gildi undirvöru eru byggð á yfirvörunni. Ekki er hægt að breyta þessum gildum fyrir undiratriðin. Allar breytingar verða að gera á yfirliðnum. 
+- Verðlagningaraðferðin er **Flat** og er ekki hægt að breyta.
+- Hægt er að bæta við eða fjarlægja barnahluti.
+- Foreldri og undirhlutir verða að nota sama vöruflokk. 
+- Undirhlutir geta haft eina af eftirfarandi uppsetningum:
+
+    - The **Innheimtutíðni** og **Innheimtutímabil** reitirnir eru stilltir á sama gildi og yfirliðurinn. 
+    - The **Innheimtutíðni** reiturinn er stilltur á **Einu sinni**. Í þessu tilviki er **Innheimtutímabil** reiturinn er sjálfkrafa stilltur á **1**. 
+
+- Summa nettófjárhæða undirliðanna jafngildir yfirfjárhæðinni. Ef úthlutunaraðferðin er **Núll upphæðir**, bæði summan af undirliðsupphæðum og yfirupphæð eru 0 (núll). 
+
+    > [!NOTE]
+    > Ef úthlutunaraðferðin er **Núll foreldri upphæð**, summan af undirliðunum (ekki núll) jafngildir ekki yfirupphæð, sem er 0 (núll). Þessi úthlutunaraðferð er notuð í innri tilgangi, þannig að starfsmenn geti séð undirliðina. Hins vegar geta viðskiptavinir aðeins séð móðurhlutinn.
+
+- Ef margfeldisfyrirkomulag (MEA) gerð sölupöntunarinnar er **Einhleypur**, samsvarandi færslulína fyrir tekjuúthlutun margfaldra þátta er búin til þegar yfir- og undirliðum er bætt við. 
+- Ef úthlutunaraðferð fyrir tekjuskiptingu er **Jafnar upphæðir**, og yfirupphæð er breytt, eru upphæðirnar endurreiknaðar fyrir allar undirlínur. 
+- Fyrir tekjuskiptingu þar sem úthlutunaraðferðin er **Breytileg upphæð**, eftirfarandi hegðun á sér stað:
+
+    - Nettófjárhæð yfirliðsins birtist í **Upphæð foreldra** dálki. Þetta gildi er hægt að breyta. Hins vegar er einingarverð, nettóupphæð og afsláttur 0 (núll) og ekki er hægt að breyta þeim.
+    - Einingaverð undirvöru er 0 (núll). Þú getur breytt einingaverði eða nettóupphæð. Þegar þú breytir einu gildinu er hitt gildið sjálfkrafa uppfært.
+
+- Fyrir tekjuskiptingu þar sem úthlutunaraðferðin er **Hlutfall**, eftirfarandi hegðun á sér stað:
+
+    - Nettófjárhæð yfirliðsins birtist í **Upphæð foreldra** dálki. Þetta gildi er hægt að breyta. Hins vegar er einingarverð, nettóupphæð og afsláttur 0 (núll) og ekki er hægt að breyta þeim. 
+    - Nettófjárhæð barnaliða er reiknuð sem *Hlutfall*&times;*Upphæð foreldra*.
+
+- Fyrir tekjuskiptingu þar sem úthlutunaraðferðin er **Jöfn upphæð**, eftirfarandi hegðun á sér stað:
+
+    - Nettófjárhæð yfirliðsins birtist í **Upphæð foreldra** dálki. Þetta gildi er hægt að breyta. Hins vegar er einingarverð, nettóupphæð og afsláttur 0 (núll) og ekki er hægt að breyta þeim. 
+    - Nettóupphæð undirliða er reiknuð með því að skipta yfirupphæðinni jafnt á milli allra undirliða. 
+    - Ef undirliðir eru fjarlægðir eða bætt við er nettóupphæð og einingarverð endurreiknuð þannig að allar undirlínur hafi jafnar upphæðir. 
+    - Ef ekki er hægt að skipta yfirupphæðinni jafnt, gæti nettóupphæð og einingaverð síðasta undirliðar verið aðeins meira eða minna en nettóupphæð og einingaverð hinna undirliðanna. 
+
+- Fyrir tekjuskiptingu þar sem úthlutunaraðferðin er **Núll upphæð**, eftirfarandi hegðun á sér stað:
+
+    - Hægt er að breyta einingaverði, nettóupphæð og afslætti. Foreldrisupphæðin er 0 (núll) og ekki er hægt að breyta henni. 
+    - Magn, eining, staður og vöruhússgildi undirvöru eru byggð á yfirvöru. Þú getur ekki breytt þessum gildum fyrir undiratriðin. Allar breytingar verða að gera á yfirliðnum. 
+    - Einingaverð og nettóverð undirvöru er 0 (núll) og ekki er hægt að breyta þeim. 
+
+- Fyrir tekjuskiptingu þar sem úthlutunaraðferðin er **Núll foreldri upphæð**, eftirfarandi hegðun á sér stað:
+
+    - Einingarverð, móðurupphæð og nettóupphæð móðurliðar eru 0 (núll).
+    - Í innheimtuáætlun birtast undirlínurnar eins og þeim hafi verið bætt við handvirkt og öll gildi eru uppfærð út frá völdum innheimtuáætlunarhópi. Hægt er að breyta þessum gildum. Fyrir barnavörur geturðu fengið aðgang að **Stækkun og afsláttur** og **Ítarleg verðlagning** valkosti með því að nota **Magn slegið inn**, **·**, **·**, og **Virði** sviðum í **Skoða innheimtuupplýsingar**. 
+    - Á sölupöntun hafa undirlínurnar afslátt og afsláttarprósentu 0 (núll). 
+    - Hægt er að breyta innheimtutíðni foreldris og undirliða og hver lína getur haft mismunandi tíðni. Hins vegar er yfirliðið sjálfkrafa uppfært þannig að það notar stystu tíðnina úr undirlínum sínum. Til dæmis, tekjuskipting hefur tvo undirliði, þar af einn sem notar **Mánaðarlega** innheimtutíðni og hinn sem notar **Árlega** innheimtutíðni. Í þessu tilviki er innheimtutíðni yfirliðsins uppfærð í **Mánaðarlega**.

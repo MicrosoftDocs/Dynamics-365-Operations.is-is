@@ -2,7 +2,7 @@
 title: Leitarniðurstöðueining
 description: Þetta efnisatriði fjallar um leitarniðurstöðueiningar og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/21/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 15b3bb50eb0b75fa19ac8e136da83cb362b4cec6
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dcf3dedbb7c499135bbae45b917153854ecd4a28
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644927"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780919"
 ---
 # <a name="search-results-module"></a>Leitarniðurstöðueining
 
@@ -65,23 +65,26 @@ Leitarniðurstöðueiningin styður [flýtiskoðunareininguna](quick-view-module
 
 ## <a name="add-a-search-results-module-to-a-category-page"></a>Bæta leitarniðurstöðueiningu við flokkasíðu
 
-Til að bæta leitarniðurstöðueiningu við flokkasíðu skal fylgja þessum skrefum.
+Fylgdu þessum skrefum til að bæta leitarniðurstöðueiningu við flokkasíðu í vefsíðugerð.
 
 1. Farðu í **Sniðmát** og veldu **Nýtt** til að búa til nýtt sniðmát.
 1. Í svarglugganum **Nýtt sniðmát** skal slá inn heitið **Leitarniðurstöður** og síðan velja **Í lagi**.
-1. Í hólfinu **Meginmál** skal velja úrfellingarmerkið (...) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Sjálfgefin síða** og síðan velja **Í lagi**.
-1. Í hólfinu **Aðalsvæði** í einingunni **Sjálfgefin síða** skal velja úrfellingarmerkið (...) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Hólf** og síðan velja **Í lagi**.
-1. Í hólfinu **Hólf** skal velja úrfellingarmerkið (...) og síðan velja **Bæta við einingu**.
-1. Í svarglugganum **Bæta við einingu** skal velja eininguna **Brauðmylsna** og síðan velja **Í lagi**.
+1. Í **Líkami** rauf, veldu sporbaug (...) og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Sjálfgefin síða** mát og veldu síðan **Allt í lagi**.
+1. Í **Aðal** rifa á **Sjálfgefin síða** mát, veldu sporbaug (...) og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Ílát** mát og veldu síðan **Allt í lagi**.
+1. Í **Ílát** rauf, veldu sporbaug (...) og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Brauðmola** mát og veldu síðan **Allt í lagi**.
 1. Á eiginleikasvæðinu **Brauðmylsna** skal færa inn gildið **1** fyrir **Lágmark atvika**.
-1. Í hólfinu **Hólf** skal velja úrfellingarmerkið (...) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Leitarniðurstöður** og síðan velja **Í lagi**.
+1. Í **Ílát** rauf, veldu sporbaug (...) og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Leitarniðurstöður** mát og veldu síðan **Allt í lagi**.
 1. Á eiginleikasvæðinu **Leitarniðurstöður** skal slá inn gildið **1** fyrir **Lágmark atvika** og síðan stilla alla aðra nauðsynlega eiginleika fyrir leitarniðurstöðueininguna. Með því að stilla þessa eiginleika í sniðmátinu er gengið úr skugga um að allar sérstillingar á tiltekinni flokkasíðu muni sjálfkrafa hafa með þessar stillingar.
 1. Veldu **Ljúka við breytingar** og síðan **Birta** til að birta sniðmátið.
 1. Farðu í **Síður** og veldu **Ný** til að búa til nýja síðu.
-1. Í glugganum **Velja sniðmát** skal velja sniðmátið **Leitarniðurstöður** sem var búið til, slá inn **Flokkasíða** fyrir **Síðuheit** og síðan velja **Í lagi**. Þar sem öll gildin eru stillt í sniðmátinu er síðan tilbúin til birtingar.
+1. Í **Búðu til nýja síðu** svargluggi, undir **Nafn síðu**, koma inn **Flokkasíðu**, og veldu síðan **Næst**.
+1. Undir **Veldu sniðmát**, veldu **Leitarniðurstöður** sniðmát sem þú bjóst til og veldu síðan **Næst**.
+1. Undir **Veldu skipulag**, veldu síðuútlit (til dæmis, **Sveigjanlegt skipulag**), og veldu síðan **Næst**.
+1. Undir **Farið yfir og klárað**, skoðaðu stillingar síðunnar. Ef þú þarft að breyta síðuupplýsingunum skaltu velja **Til baka**. Ef síðuupplýsingarnar eru réttar skaltu velja **Búa til síðu**.
 1. Veldu **Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
 
 ## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Virkja birgðavitneskju fyrir einingu leitarniðurstöðu
@@ -102,7 +105,7 @@ Birgðameðvituð vöruleit notar vörueiginleika til að fá upplýsingar um fr
 
 Til að búa til sérstaka vörueiginleika til að styðja við birgðameðvitaða leitarniðurstöðueiningu skaltu fylgja þessum skrefum.
 
-1. Farðu í **Retail og Commerce \> Upplýsingatækni smásölu og viðskipta \> Afurðir og birgðir**.
+1. Í höfuðstöðvunum, farðu til **Verslun og verslun \> Upplýsingatækni í smásölu og viðskiptum \> Vörur og lager**.
 1. Veldu og opnaðu **Fylltu vörueiginleika með birgðastigi**.
 1. Í svarglugganum skaltu slá inn eftirfarandi upplýsingar:
 
@@ -116,14 +119,14 @@ Til að búa til sérstaka vörueiginleika til að styðja við birgðameðvita�
 
 Til að stilla vörueiginleika fyrir netrás skaltu fylgja þessum skrefum. 
 
-1. Farðu í **Retail og Commerce \> Uppsetning rásar \> Rásarflokkar og afurðareigindir**.
-2. Veldu netrás til að virkja birgðameðvitaða leitarniðurstöðueiningu fyrir.
-3. Veldu og opnaðu tengdan eigindahóp og bættu síðan nýstofnuðu vörueigindinni við hann.
-4. Fyrir viðskiptaútgáfur fyrir útgáfu 10.0.27, veldu **Stilltu lýsigögn eiginda**, veldu nýlega bætta vörueiginleikann og kveiktu síðan á **Sýna eigind á rás**, **að sækja**, **að betrumbæta**, og **Hægt að spyrjast fyrir** valkostir.
-5. Fara til **Verslun og verslun \> Upplýsingatækni í smásölu og viðskiptum \> Dreifingaráætlun**, og keyra **1150 (Vörulisti)** starf. Ef þú tímasetur **Fylltu vörueiginleika með birgðastigi** verk sem runuferli, mælum við með að þú tímasetur einnig 1150 verkið sem runuferli sem keyrir á sömu tíðni.
+1. Í höfuðstöðvunum, farðu til **Verslun og verslun \> Rásaruppsetning \> Rásarflokkar og vörueiginleikar**.
+1. Veldu netrás til að virkja birgðameðvitaða leitarniðurstöðueiningu fyrir.
+1. Veldu og opnaðu tengdan eigindahóp og bættu síðan nýstofnuðu vörueigindinni við hann.
+1. Fyrir viðskiptaútgáfur fyrir útgáfu 10.0.27, veldu **Stilltu lýsigögn eiginda**, veldu nýlega bætta vörueiginleikann og kveiktu síðan á **Sýna eigind á rás**, **að sækja**, **að betrumbæta**, og **Hægt að spyrjast fyrir** valkostir.
+1. Fara til **Verslun og verslun \> Upplýsingatækni í smásölu og viðskiptum \> Dreifingaráætlun**, og keyra **1150 (Vörulisti)** starf. Ef þú tímasetur **Fylltu vörueiginleika með birgðastigi** verk sem runuferli, mælum við með að þú tímasetur einnig 1150 verkið sem runuferli sem keyrir á sömu tíðni.
 
 > [!NOTE]
-> Fyrir vörur sem eru sýndar í leitarniðurstöðueiningunni er birgðastigið sýnt á aðalvörustigi í stað einstaks afbrigðisstigs. Aðeins tvö möguleg gildi eru til: „tiltækt“ og „ekki til á lager“. Raunverulegt merki fyrir gildið er sótt í [birgðastigssnið](inventory-buffers-levels.md) skilgreiningu. Aðalafurð er aðeins talin ekki til á lager þegar öll afbrigði hennar eru ekki til á lager.
+> Fyrir vörur sem eru sýndar í leitarniðurstöðueiningunni er birgðastigið sýnt á aðalvörustigi í stað einstaks afbrigðisstigs. Aðeins tvö möguleg gildi eru til: „tiltækt“ og „ekki til á lager“. Raunverulegt merki fyrir gildið er sótt frá [birgðastigssnið](inventory-buffers-levels.md) skilgreiningu. Aðalafurð er aðeins talin ekki til á lager þegar öll afbrigði hennar eru ekki til á lager.
 
 Eftir að búið er að ljúka öllum fyrri skilgreiningarskrefum munu afmarkanir á síðum leitarniðurstöðu sýna síu sem byggir á birgðum og eining leitarniðurstöðu mun sækja birgðaupplýsingar í bakgrunni. Síðan er hægt að skilgreina stillinguna **Birgðastillingar fyrir afurðalistasíður** í vefsmið Commerce til að stýra því hvernig eining leitarniðurstöðu sýnir afurðir sem ekki eru til á lager. Nánari upplýsingar er að finna í [Nota birgðastillingar](inventory-settings.md).
 

@@ -2,7 +2,7 @@
 title: Formúluhönnuður í rafrænni skýrslugerð (ER)
 description: Þetta efni inniheldur upplýsingar um hvernig á að nota formúluhönnuðinn í rafrænni skýrslugerð (ER).
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eec63fb1782c5afed0320eb841b6bfc92af31a691731ef6bac5d00ed442c0dcd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 606532411aa8297654d8d20a9061472597e773da
+ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777405"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782205"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formúluhönnuður í rafrænni skýrslugerð (ER)
 
@@ -41,7 +41,8 @@ Rafræn skýrslugerð styður formúluhönnuðinn. Á hönnunartíma er því h�
 - Bindingu gagnaveituvöru við þætti gagnalíkans.
 - Bindingu gagnaveituvöru við þætti til að sníða.
 - Alhliða viðhald reiknaðra svæða sem eru hluti af gagnagjöfum.
-- Skilgreining sýnileikaskilyrða fyrir innsláttarfæribreytur notanda
+- Skilgreindu sýnileika- og breytanleg skilyrði fyrir innsláttarfæribreytur notanda.
+- Skilgreindu sjálfgefin gildi fyrir inntaksfæribreytur notanda.
 - Hönnun á umbreytingum sniðsins
 - Skilgreining á virkjun skilyrða fyrir þætti sniðsins.
 - Skilgreining á skrárheiti fyrir FILE-þætti sniðsins.

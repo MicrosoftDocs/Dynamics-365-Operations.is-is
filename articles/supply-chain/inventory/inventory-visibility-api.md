@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524466"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786866"
 ---
 # <a name="inventory-visibility-public-apis"></a>Opin API fyrir sýnileika birgða
 
@@ -41,17 +41,22 @@ Eftirfarandi tafla sýnir API sem eru í boði eins og er:
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Bóka | [Stilla/hnekkja lagermagni](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Bóka | [Stofna eitt tilvik frátekningar](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Bóka | [Stofna mörg tilvik frátekningar](#create-multiple-reservation-events) |
-| /api/umhverfi/{environmentId} /á hendi/breytingaáætlun | Bóka | [Búðu til eina áætlaða breytingu á hendi](inventory-visibility-available-to-promise.md) |
-| /api/umhverfi/{environmentId} /á hendi/breyta áætlun/magn | Bóka | [Búðu til margar áætlaðar breytingar á hendi](inventory-visibility-available-to-promise.md) |
+| /api/umhverfi/{environmentId} /áhandar/breyta dagskrá | Bóka | [Búðu til eina áætlaða breytingu á hendi](inventory-visibility-available-to-promise.md) |
+| /api/umhverfi/{environmentId} /áhandar/breyta áætlun/magn | Bóka | [Búðu til margar áætlaðar breytingar á hendi](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Bóka | [Senda fyrirspurn með bókunaraðferðinni](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Sækja | [Senda fyrirspurn með aðferðinni sækja](#query-with-get-method) |
+| /api/umhverfi/{environmentId} /úthlutun/úthluta | Bóka | [Búðu til einn úthlutunarviðburð](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/umhverfi/{environmentId} /úthlutun/afúthluta | Bóka | [Búðu til einn atburð sem ekki var úthlutað](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/umhverfi/{environmentId} /úthlutun/endurúthluta | Bóka | [Búðu til einn endurúthluta atburði](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/umhverfi/{environmentId} /úthlutun/neyta | Bóka | [Búðu til einn neysluviðburð](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/umhverfi/{environmentId} /úthlutun/fyrirspurn | Bóka | [Niðurstaða fyrirspurnaúthlutunar](inventory-visibility-allocation.md#using-allocation-api) |
 
 > [!NOTE]
 > {environmentId} hluti slóðarinnar er umhverfiskennið í Microsoft Dynamics Lifecycle Services (LCS).
 > 
 > Magn API getur skilað að hámarki 512 færslum fyrir hverja beiðni.
 
-Microsoft hefur útvegað tilbúið beiðnasafn *Postman*. Þú getur flutt þetta safn inn í *Postman* hugbúnaðinn með því að nota eftirfarandi samnýttan tengil: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
+Microsoft hefur útvegað tilbúið beiðnasafn *Postman*. Þú getur flutt þetta safn inn í *Postman* hugbúnaðinn með því að nota eftirfarandi samnýttan tengil: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Finna endastöðin samkvæmt umhverfi Lifecycle Services
 
@@ -84,7 +89,7 @@ Microsoft hefur skapað notandaviðmót í Power Apps svo þú getir fengið ful
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Sannvottun
 
-Öryggistákn verkvangsins er notað til að kalla á opið API birgðasýnileika. Þess vegna þarf að búa til _Azure Active Directory (Azure AD) tákn_ með því að nota Azure AD-forritið. Þá þarf að nota Azure AD táknið til að fá _aðgangsmerkið_ úr öryggisþjónustunni.
+Öryggistákn verkvangsins er notað til að kalla á opið API birgðasýnileika. Þess vegna verður þú að búa til _Azure Active Directory (Azure AD) tákn_ með því að nota þitt Azure AD umsókn. Þá þarf að nota Azure AD táknið til að fá _aðgangsmerkið_ úr öryggisþjónustunni.
 
 Microsoft útvegar tilbúið merkjasafn *Postman*. Þú getur flutt þetta safn inn í *Postman* hugbúnaðinn með því að nota eftirfarandi samnýttan tengil: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
 
@@ -539,7 +544,7 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls.
 }
 ```
 
-Eftirfarandi dæmi sýna hvernig á að spyrjast fyrir um allar afurðir á tilteknu svæði og staðsetningu.
+Eftirfarandi dæmi sýnir hvernig á að spyrjast fyrir um allar vörur á tiltekinni síðu og staðsetningu.
 
 ```json
 {
@@ -580,6 +585,10 @@ Hér er sýnishorn af sækja-vefslóð. Þessi beiðni um að sækja er nákvæm
 
 ## <a name="available-to-promise"></a>ATP-afhendingarspá
 
-Þú getur sett upp Birgðasýnileika til að leyfa þér að skipuleggja framtíðar breytingar á hendi og reikna út ATP magn. ATP er magn vöru sem er tiltækt og hægt er að lofa viðskiptavinum á næsta tímabili. Notkun ATP útreiknings getur aukið getu þína til að uppfylla pöntunina til muna. Fyrir upplýsingar um hvernig á að virkja þennan eiginleika og hvernig á að hafa samskipti við birgðasýnileika í gegnum API þess eftir að eiginleikinn er virkjaður, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa](inventory-visibility-available-to-promise.md).
+Þú getur sett upp Birgðasýnileika til að leyfa þér að skipuleggja framtíðar breytingar á hendi og reikna út ATP magn. ATP er magn vöru sem er tiltækt og hægt er að lofa viðskiptavinum á næsta tímabili. Notkun ATP útreiknings getur aukið getu þína til að uppfylla pöntunina til muna. Fyrir upplýsingar um hvernig á að virkja þennan eiginleika og hvernig á að hafa samskipti við birgðasýnileika í gegnum API þess eftir að eiginleikinn er virkjaður, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa](inventory-visibility-available-to-promise.md#api-urls).
+
+## <a name="allocation"></a>Úthlutun
+
+Úthlutunartengd API eru staðsett í [Úthlutun birgðasýnileika](inventory-visibility-allocation.md#using-allocation-api).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

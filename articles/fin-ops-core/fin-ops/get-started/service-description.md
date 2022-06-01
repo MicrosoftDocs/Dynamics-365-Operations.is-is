@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
-ms.translationtype: HT
+ms.openlocfilehash: 3385edf8961d04cf8bfc4ca06299f1911b76a4f5
+ms.sourcegitcommit: 2b119aec0e6f49bfd36125d9660f49cde5394446
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740653"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8758770"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Þjónustulýsing fyrir Finance and Operations öpp
 
@@ -132,9 +132,9 @@ Fyrir fjármála- og rekstrarforrit virkar Microsoft sem vinnsluaðili. Sem gagn
 
 LCS veitir [sjálfsafgreiðsluverkfæri](../../dev-itpro/deployment/infrastructure-stack.md) og [gagnagrunnsaðgerðir](../../dev-itpro/database/dbmovement-operations.md) sem eru notuð til að sinna verkefnum í umhverfi og gagnaumsýslu. Hér eru nokkur dæmi:
 
-**Viðburður:** [Óskað eftir framleiðslutilviki](../imp-lifecycle/prepare-go-live.md#requesting-the-production-environment)
+**Viðburður:** [Óskað eftir framleiðslutilviki](../imp-lifecycle/go-live-faq.md#when-can-i-configure-and-request-my-production-environment)
 
-- Fyllið út [Keyrslugátlistann](../imp-lifecycle/prepare-go-live.md) og sendið hann til starfsfólks [Microsoft FastTrack](/dynamics365/fasttrack/).
+- Ljúktu við [Endurskoðun á reiðubúningi til að fara í beina](../imp-lifecycle/prepare-go-live.md), og leggja það fyrir [Microsoft FastTrack](/dynamics365/fasttrack/) lið.
 - Fylltu út [LCS-áskriftarmatstækið](../../dev-itpro/lifecycle-services/subscription-estimator.md) áður en þú biður um framleiðslutilvik.
 - Ljúka öllum innleiðingarverkefnum sem tilgreind eru í [LCS aðferðafræðinni](../../dev-itpro/lifecycle-services/create-methodology.md).
 

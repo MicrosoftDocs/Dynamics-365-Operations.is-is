@@ -2,7 +2,7 @@
 title: Flipaeining
 description: Þetta efnisatriði fjallar um flipaeiningar og útskýrir hvernig á að bæta þeim við síður svæða í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9062e584d159e0f1986c46140d535f06f5d2817af048f30e812f9049bd52d4f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 104fb57cfdcd96a0da50899c0eac576074282017
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723288"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780615"
 ---
 # <a name="tab-module"></a>Flipaeining
 
@@ -54,17 +54,17 @@ Eftirfarandi mynd sýnir dæmi um flipaeiningu á síðusvæði. Í þessu dæmi
 Til að bæta flipaeiningu við síðu og stilla eiginleikana skal fylgja þessum skrefum.
 
 1. Notið markaðssniðmát Fabrikam (eða annað sniðmát sem er með engum takmörkunum) til að búa til nýja síðu sem heitir **Reglusíða verslunar**.
-1. Í hólfinu **Aðalsvæði** á **Sjálfgefin síða** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Hólf** og síðan velja **Í lagi**.
-1. Í hólfinu **Hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Flipi** og síðan velja **Í lagi**.
+1. Í **Aðal** rifa á **Sjálfgefin síða**, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Ílát** mát og veldu síðan **Allt í lagi**.
+1. Í **Ílát** rauf, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Tab** mát og veldu síðan **Allt í lagi**.
 1. Á eiginleikasvæði flipaeiningar skal velja **Fyrirsögn** við hliðina á blýantstákninu.
 1. Í glugganum **Fyrirsögn**, undir **Texti fyrirsagnar**, skal færa inn texta fyrirsagnar (til dæmis **Reglur**). Veljið síðan **Í lagi**.
-1. Í hólfinu **Flipi**, skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Flipaatriði** og síðan velja **Í lagi**.
+1. Í **Tab** rauf, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Flipi atriði** mát og veldu síðan **Allt í lagi**.
 1. Á eiginleikasvæði flipaeiningaratriðis, undir **Titill**, skal færa inn titiltexta (til dæmis **Afhending**).
-1. Í hólfinu **Flipaatriði**, skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Textabálkur** og síðan velja **Í lagi**.
+1. Í **Flipi atriði** rauf, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Textablokk** mát og veldu síðan **Allt í lagi**.
 1. Á eiginleikasvæði textabálkseiningar, undir **Sniðinn texti**, skal slá inn stuttan texta.
 1. Í hólfinu **Flipi** skal bæta við nokkrum flipaeiningaratriðum til viðbótar sem eru með titlum. Í hverju flipaeiningaratriði skal bæta við textabálkseiningu með innihaldi.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna. Síðan birtir flipaeningu sem inniheldur flipaeiningaratriði með innihaldinu sem var bætt við.

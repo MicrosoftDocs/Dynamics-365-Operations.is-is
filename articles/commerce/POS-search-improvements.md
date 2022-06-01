@@ -2,7 +2,7 @@
 title: Leit að vöru og leit að viðskiptavinum í sölustað (POS)
 description: Þetta efnisatriði gefur yfirlit yfir úrbætur sem hafa verið gerðar á vöru og viðskiptahugbúnaði í Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 10/26/2021
+ms.date: 05/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 460c7d3b00421ba43414f7343887edf9b8adad9c
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700090"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806428"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Leit að vöru og leit að viðskiptavinum í sölustað (POS)
 
@@ -106,6 +106,8 @@ Til að stilla leitarskilyrði sem flýtileiðir verður stjórnandinn að opna 
 > Ef þú bætir við of mörgum flýtileiðum verður fellivalmyndin á leitarstikunni í POS ofhlaðin og það getur haft áhrif á reynslu starfsmanns af leitinni. Við mælum með að þú bætir aðeins við eins mörgum flýtileiðum og nauðsynlegt er.
 
 Reiturinn **Birta röð** ákvarðar röðina sem flýtileiðir eru sýndar í POS. Skilyrðin sem eru sýnd eru innbyggðir eiginleikar sem reiknirit viðskiptavinaleitar notar til að leita að viðskiptavinum. Hins vegar geta samstarfsaðilar bætt við sérsniðnum eiginleikum sem flýtivísunum. Til að bæta við sérsniðnum eiginleikum sem flýtivísunum þarf kerfisstjórinn að lengja framlengjanlega upptalningu (fasttexti) sem er notuð við leitarskilyrði viðskiptavinar og síðan merkja sérsniðna eiginleika samstarfsaðila sem flýtileiðir. Samstarfsaðilar bera ábyrgð á að skrifa kóðann til að finna niðurstöður þegar sérsniðnar flýtileiðir eru notaðar við leitir.
+
+Þýðingar fyrir flýtileiðir eru nauðsynlegar ef þú vilt að flýtileiðir séu birtar á POS. Ef tungumál rásarinnar er annað en sjálfgefið tungumál kerfisins verður þú að skilgreina þýðinguna fyrir hverja flýtileið á væntanlegu tungumáli. Þú getur skilgreint þýðingar með því að velja **Þýða** fyrir hverja flýtileið. 
 
 > [!NOTE]
 > Sérsniðnum eiginleika sem er bætt við fasttextann hefur ekki áhrif á staðlað reiknirit viðskiptavinaleitar. Með öðrum orðum mun reiknirit viðskiptavinaleitar ekki leita í sérsniðnum eiginleikum. Notendur geta aðeins notað sérsniðna eiginleika fyrir leitir ef þessum sérsniðna eiginleika er bætt við sem flýtileið eða ef sjálfgefnu reikniriti leitar er hnekkt.

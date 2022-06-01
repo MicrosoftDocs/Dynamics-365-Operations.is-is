@@ -1,22 +1,22 @@
 ---
-title: Viðskiptabækur fyrir B2B Algengar spurningar
+title: Algengar spurningar um Commerce-vörulista fyrir B2B
 description: Þetta efni veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce vörulista.
 author: ashishmsft
-ms.date: 04/28/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 776820e8e77cd0884b3df5412bb95e6e80ca4fc7
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 5bdc7dfcb0e48aa85db2db4d178c5bf62ea0411b
+ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8657190"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782863"
 ---
-# <a name="commerce-catalogs-for-b2b-faq"></a>Viðskiptabækur fyrir B2B Algengar spurningar
+# <a name="commerce-catalogs-for-b2b-faq"></a>Algengar spurningar um Commerce-vörulista fyrir B2B
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
@@ -25,7 +25,7 @@ ms.locfileid: "8657190"
 
 ## <a name="why-cant-i-configure-a-catalog-specific-navigation-hierarchy-or-see-an-option-to-associate-a-customer-hierarchy"></a>Af hverju get ég ekki stillt vörulistasérhæft leiðsögustigveldi eða séð möguleika á að tengja stigveldi viðskiptavina?
 
-Gakktu úr skugga um að **Virkjaðu notkun margra vörulista á smásölurásum** eiginleiki er virkjaður í **Eiginleikastjórnun** vinnurými í höfuðstöðvum Commerce. Gakktu úr skugga um að umhverfið þitt noti Commerce útgáfu 10.0.26 eða nýrri útgáfu.
+Gakktu úr skugga um að **Virkjaðu notkun margra vörulista á smásölurásum** eiginleiki er virkjaður í **Eiginleikastjórnun** vinnurými í höfuðstöðvum Commerce. Gakktu úr skugga um að umhverfið þitt noti Commerce útgáfu 10.0.27 eða nýrri útgáfu.
 
 ## <a name="can-i-view-the-catalog-specific-hierarchy-and-enrich-category-pages-in-commerce-site-builder"></a>Get ég skoðað vörulistasérhæft stigveldi og auðgað flokkasíður í Commerce site builder?
 
@@ -81,6 +81,6 @@ Nr. Kóðar vörulista eru aðeins studdir fyrir rásir símavera.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Búðu til viðskiptabæklinga fyrir B2B síður](catalogs-b2b-sites.md)
+[Stofna Commerce-vörulista fyrir B2B-svæði](catalogs-b2b-sites.md)
 
-[Stækkanleikaáhrif viðskiptaskráa fyrir B2B aðlögun](catalogs-b2b-sites-dev.md)
+[Stækkunarhæfniáhrif Commerce-vörulista fyrir B2B-sérstillingar](catalogs-b2b-sites-dev.md)

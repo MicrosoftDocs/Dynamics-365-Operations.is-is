@@ -2,7 +2,7 @@
 title: Brauðmylsnueining
 description: Þetta efnisatriði fjallar um brauðmylsnueiningar og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f387b6353e58ebb454b74568ddc17ae6d25d7e36
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: aa7f6e2f2b15c3e5d89cd645b3f1cc4c83c5b8d9
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109733"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780335"
 ---
 # <a name="breadcrumb-module"></a>Brauðmylsnueining
 
@@ -63,12 +63,12 @@ Til að bæta brauðmylsnueiningu við upplýsingasíðu afurðar og stilla nau�
 
 1. Farið í **Stillingar svæðis \> Viðbætur** og síðan, fyrir stillinguna **Birtingargerð brauðmylsnu á upplýsingasíðu afurðar**, skal velja **Sýna tegundastigveldi**.
 1. Opnið **Sniðmát** og veljið sniðmát upplýsingasíðu afurðar.
-1. Í hólfinu **Geymsla** sem inniheldur kaupgluggaeininguna skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í svarglugganum **Bæta við einingu** skal velja eininguna **Brauðmylsna** og síðan velja **Í lagi**.
+1. Í **Ílát** rauf sem inniheldur kaupboxseininguna, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Brauðmola** mát og veldu síðan **Allt í lagi**.
 1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
 1. Farið á **Síður**, og Opnið PDP sem notar PDP-sniðmátið. Ef PDP er ekki til staðar skal stofna eitt.
-1. Í hólfinu **Geymsla** sem inniheldur kaupgluggaeininguna skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í svarglugganum **Bæta við einingu** skal velja eininguna **Brauðmylsna** og síðan velja **Í lagi**.
+1. Í **Ílát** rauf sem inniheldur kaupboxseininguna, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Brauðmola** mát og veldu síðan **Allt í lagi**.
 1. Á eiginleikasvæði hólfsins **Brauðmylsna**, undir **Rót**, skal velja **Texti tengils**.
 1. Í svarglugganum **Texti tengils** skal slá inn **Heim** og síðan, undir **Viðtökustaður tengils**, skal velja **Bæta við tengli**.
 1. Í svarglugganum **Bæta við tengli** skal velja tengil fyrir brauðmylsnurótina og síðan velja **Í lagi**.

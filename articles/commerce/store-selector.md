@@ -3,7 +3,7 @@ title: Vista valeiningu
 description: Þetta efni fjallar um verslunarvalseininguna og lýsir því hvernig á að bæta henni við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/04/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 76682f26f62fe4686f5102e3099f038a50005f5e
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710781"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780641"
 ---
 # <a name="store-selector-module"></a>Eining til að velja verslun
 
@@ -60,7 +60,7 @@ Til að færa inn gildi fyrir lengdar- og breiddargráðu fyrir staðsetningu ve
 
 1. Í aðgerðarúðunni skal velja **Vista**. 
 
-### <a name="hide-a-store-from-the-store-selector-module"></a>Fela verslun frá verslunareiningunni
+### <a name="hide-a-store-from-the-store-selector-module"></a>Fela verslun frá verslunarvalseiningunni
 
 Sumar verslanir í uppfyllingarhópi eru hugsanlega ekki gildar afhendingarstaðir. Til að tryggja að aðeins gildar afhendingarstaðir birtist sem valmöguleikar í verslunareiningunni skaltu fylgja þessum skrefum í höfuðstöðvum Commerce.
 
@@ -135,26 +135,29 @@ Aðeins er hægt að nota eininguna **Sækja í verslun** á upplýsingasíðu a
 Til að skilgreina verslunarvaleininguna til að sýna tiltækar verslanir fyrir staðsetningarsíðu verslana, eins og á skýringarmyndinni sem sýnd var fyrr í þessu efnisatriði, skal fylgja þessum skrefum.
 
 1. Farðu í **Sniðmát** og veldu **Nýtt** til að búa til nýtt sniðmát.
-1. Í svarglugganum **Nýtt sniðmát**, undir **Heiti sniðmáts**, skal slá inn **Markaðssniðmát** og velja síðan **Í lagi**.
+1. Í **Nýtt sniðmát** svargluggi, undir **Nafn sniðmáts**, koma inn **Markaðssetning sniðmát**, og veldu síðan **Allt í lagi**.
 1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
 1. Farðu í **Síður** og veldu **Ný** til að búa til nýja síðu.
-1. Í svarglugganum **Velja sniðmát** skal velja sniðmátið **Markaðssniðmát**. Undir **Síðuheiti** skal færa inn **Staðsetningar verslana** og síðan velja **Í lagi**.
-1. Í hólfinu **Aðalsvæði** á nýju síðunni skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Hólf** og síðan velja **Í lagi**.
-1. Í hólfinu **Hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Hólf með tveimur dálkum** og síðan velja **Í lagi**.
+1. Í **Búðu til nýja síðu** svargluggi, undir **Nafn síðu**, koma inn **Staðsetningar verslana**, og veldu síðan **Næst**.
+1. Undir **Veldu sniðmát**, veldu **Markaðssetning sniðmát** sem þú bjóst til og veldu síðan **Næst**.
+1. Undir **Veldu skipulag**, veldu síðuútlit (til dæmis, **Sveigjanlegt skipulag**), og veldu síðan **Næst**.
+1. Undir **Farið yfir og klárað**, skoðaðu stillingar síðunnar. Ef þú þarft að breyta síðuupplýsingunum skaltu velja **Til baka**. Ef síðuupplýsingarnar eru réttar skaltu velja **Búa til síðu**. 
+1. Í **Aðal** rauf á nýju síðunni, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Ílát** mát og veldu síðan **Allt í lagi**.
+1. Í **Ílát** rauf, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Gámur með 2 súlum** mát og veldu síðan **Allt í lagi**.
 1. Á eiginleikasvæði einingarinnar skal stilla gildið **Breidd** á **Fylla hólf**.
 1. Stillið gildið **Dálkaskilgreining mjög lítillar yfirlitsgáttar** á **100%**.
 1. Stillið gildið **Dálkaskilgreining lítillar yfirlitsgáttar** á **100%**.
 1. Stillið gildið **Dálkaskilgreining meðalstórrar yfirlitsgáttar** á **33% 67%**.
 1. Stillið gildið **Dálkaskilgreining stórrar yfirlitsgáttar** á **33% 67%**.
-1. Í hólfinu **Hólf með tveimur dálkum** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Verslunarval** og síðan velja **Í lagi**.
+1. Í **Gámur með 2 súlum** rauf, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Verslunarval** mát og veldu síðan **Allt í lagi**.
 1. Á eiginleikasvæði einingarinnar skal stilla gildið **Snið** á **Finna verslanir**.
 1. Stillið gildið **Leitarradíus** á mílur.
 1. Stillið aðra eiginleika, t.d. **Velja sem æskilega verslun**, **Sýna allar verslanir** og **Virkja sjálfvirkar tillögur** eftir þörfum.
-1. Í hólfinu **Hólf með tveimur dálkum** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Kort** og síðan velja **Í lagi**.
+1. Í **Gámur með 2 súlum** rauf, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Kort** mát og veldu síðan **Allt í lagi**.
 1. Á eiginleikasvæði einingarinnar skal stilla alla frekari eiginleika eftir þörfum.
 1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila síðunni og veldu síðan **Birta** til að birta hana.
  

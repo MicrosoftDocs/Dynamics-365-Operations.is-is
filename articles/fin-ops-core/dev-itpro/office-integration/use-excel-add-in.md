@@ -2,7 +2,7 @@
 title: Skoða og uppfæra einingagögn með Excel
 description: Í þessu efnisatriði er útskýrt hvernig opna skal einingagögn í Microsoft Excel og síðan skoða, uppfæra og breyta gögnum með því að nota Microsoft Dynamics Excel-innbót.
 author: jasongre
-ms.date: 10/01/2021
+ms.date: 05/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
+ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464938"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8762640"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Skoða og uppfæra einingagögn með Excel 
 
@@ -57,7 +57,7 @@ Excel-innbót les sjálfkrafa gögn fyrir eininguna sem er valin. Athugið að �
 2. Í Office-Verslun er leitað með í leitað með lykilorðinu **Dynamics** og svo valið **Bæta við** við hliðina á **Microsoft Dynamics Office-innbót** (Excel innbótin).
 3. Ef verið er að keyra í Excel-innbót í fyrsta sinn, er valið **Treysta þessari innbót**. Í Excel-innbót keyrir í rúða hægra megin í Excel-glugga.
 4. Veljið **Bæta þjónsupplýsingar** til að opna rúðuna **Valkostir**.
-5. Í vafranum þínum skaltu afrita vefslóðina á tilvikinu þínu fyrir Finance and Operations appið þitt, límdu það inn í **Vefslóð netþjóns** reit og eyddu síðan öllu á eftir hýsilnafninu. Meðfylgjandi Vefslóð ætti aðeins að hafa bara hýsilheiti.
+5. Í vafranum þínum, afritaðu vefslóðina á tilvikinu þínu fyrir Finance and Operations appið þitt, límdu það inn í **Vefslóð netþjóns** reit og eyddu síðan öllu á eftir hýsilheitinu. Meðfylgjandi Vefslóð ætti aðeins að hafa bara hýsilheiti.
 
     Ef slóðin er t.d. `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage` skal eyða öllu nema `https://xxx.dynamics.com`.
 
@@ -76,7 +76,7 @@ Excel-innbót les sjálfkrafa gögn fyrir eininguna sem er valin. Athugið að �
 Eftir að Excel-innbót les gögn um einingar inn í vinnubókina, er hægt að uppfæra gögnin hvenær sem er með því að velja **Endurnýja** í Excel-innbót.
 
 ## <a name="edit-entity-data-in-excel"></a>Breyta einingagögnum í Excel
-Þú getur breytt einingagögnum eins og þú þarfnast og birt þau síðan aftur í Finance and Operations forrit með því að velja **Birta** í Excel viðbótinni. Til að breyta færslu, skal velja hólf í vinnublaðinu og breyta síðan gildi hólfsins. Til að bæta við nýrri færslu, skal fylgja einu af eftirfarandi skrefum:
+Þú getur breytt einingargögnum eftir þörfum og birt þau síðan aftur í Finance and Operations forrit með því að velja **Birta** í Excel viðbótinni. Til að breyta færslu, skal velja hólf í vinnublaðinu og breyta síðan gildi hólfsins. Til að bæta við nýrri færslu, skal fylgja einu af eftirfarandi skrefum:
 
 - Smellið einhvers staðar í gagnagjafatöflunni, og velja svo **Nýtt** í Excel-innbót.
 - Smellið hvar sem er í síðustu línu í gagnagjafatöflunni og ýttu síðan á flipalykil þar til að bendillinn fer út úr síðasta dálki þeirrar línu og ný lína er stofnuð.
@@ -110,7 +110,7 @@ Hægt er að nota hönnuðinn til að leiðrétta dálka sem er sjálfkrafa bæt
 5. Ef svæði (dálk) var bætt við, veljið **Endurnýja** til að sækja uppfærð gagnamengi.
 
 ## <a name="change-the-publish-batch-size"></a>Breyta runustærð birtingar
-Þegar notendur birta breytingar á gagnafærslum með því að nota Excel-innbótina eru uppfærslurnar sendar inn í runur. Sjálfgefin runustærðarstærð útgáfu er 100 línur. Í útgáfu 10.0.17 og nýrri mun eiginleikinn **Leyfa skilgreiningu á runustærð birtingar í Excel innbótinni** veita sveigjanlegri stjórnun á runustærð birtingar.
+Þegar notendur birta breytingar á gagnafærslum með því að nota Excel-innbótina eru uppfærslurnar sendar inn í runur. Sjálfgefin (og hámarks) birtingarlotustærð er 100 línur; hins vegar **Leyfa stillingu á birtingarlotustærð í Excel viðbótinni** eiginleiki gefur þér sveigjanleika við að lækka birtingarlotustærð, sérstaklega ef þú sérð tímafrest þegar þú reynir að birta uppfærslur úr Excel.
 
 Kerfisstjórar geta tilgreint takmörk fyrir allt kerfið í runustærð birtingar fyrir „Opna í Excel“ vinnubækur með því að stilla reitinn **Takmörk runubirtingar** í hlutanum **Færibreytur forrits** á síðunni **Færibreytur Office-forrits**.
 

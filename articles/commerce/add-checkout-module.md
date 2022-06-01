@@ -2,7 +2,7 @@
 title: Greiðsluferliseining
 description: Þetta efni lýsir hvernig bæta skal greiðsluferliseiningu við nýja síðu og stilla nauðsynlega eiginleika.
 author: anupamar-ms
-ms.date: 08/31/2020
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 031c70181e0dff9bc81450d2454f21e1dbaf1285d41b38ff6f7df6045923c27c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0d022ad98603b489a133a5b9f2326677e9ebb307
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715507"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780515"
 ---
 # <a name="checkout-module"></a>Greiðsluferliseining
 
@@ -91,14 +91,14 @@ Flestar greiðsluupplýsingar, svo sem póstfang og sendingaraðferð, eru geymd
 Fylgdu þessum skrefum til að bæta greiðsluferliseiningu við nýja síðu og stilla nauðsynlega eiginleika.
 
 1. Farðu í **Brot** og veldu **Nýtt** til að búa til nýtt brot.
-1. Í svarglugganum **Nýtt brot** skal velja eininguna **Greiðsluferli**.
+1. Í **Veldu brot** valmynd, veldu **Athuga** mát.
 1. Undir **Heiti brots** skal slá inn heitið **Greiðsluferlisbrot** og síðan velja **Í lagi**.
 1. Veldu hólfið **Greiðsluferliseining**.
 1. Hægra megin á eiginleikasvæðinu skal velja blýantstáknið, slá inn texta fyrirsagnar í reitinn og síðan velja gátmerkistáknið.
-1. Í hólfinu **Upplýsingar um greiðsluferli** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í svarglugganum **Bæta við einingu** skal velja einingarnar **Sendingaraðsetur**, **Afhendingarvalkostir**, **Hólf greiðsluferlishluta** og **Samskiptaupplýsingar** og síðan velja **Í lagi**.
-1. Í einingunni **Hólf greiðsluferlishluta** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja einingarnar **Gjafakort**, **Vildarkerfi** og **Greiðsla** og síðan velja **Í lagi**. Með þessum hætti tryggirðu að allir greiðslumáta birtist saman í hluta.
+1. Í **Útskráningarupplýsingar** rauf, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Heimilisfang sendingar**, **·**, **úttektarhluta**, og **Samskiptaupplýsingar** einingar, og veldu síðan **Allt í lagi**.
+1. Í **Gámur úttektarhluta** mát, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Gjafakort**, **·**, og **Greiðsla** einingar, og veldu síðan **Allt í lagi**. Með þessum hætti tryggirðu að allir greiðslumáta birtist saman í hluta.
 1. Í hólfinu **Skilmálar** skal bæta við **Skilmálar greiðsluferlis** einingu ef þess gerist þörf. Í eiginleikasvæði einingarinnar skal stilla skilmálatextann eins og er við hæfi.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðubrotið. Ekki er víst að sumar einingar sem ekki eru með körfusamhengi séu sýndar í forskoðuninni.
 1. Veldu **Ljúka við breytingar** til að skila brotinu og veldu síðan **Birta** til að birta það.

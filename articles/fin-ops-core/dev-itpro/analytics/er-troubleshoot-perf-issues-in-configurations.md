@@ -2,7 +2,7 @@
 title: Úrræðaleita vandamál sem tengjast afköstum í skilgreiningum rafrænnar skýrslugerðar
 description: Þetta efnisatriði útskýrir hvernig á að finna og laga vandamál sem tengjast afköstum í skilgreiningum rafrænnar skýrslugerðar.
 author: NickSelin
-ms.date: 06/08/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: maximbel
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: b5f5308f171b6cd4224debec897dbde133e6d8424673aabfab51e6b83b9014e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e727e06c73ff445bf4219ac5a9eee7bec25740d9
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744387"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811681"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>Úrræðaleita vandamál sem tengjast afköstum í skilgreiningum rafrænnar skýrslugerðar
 
@@ -55,7 +55,7 @@ Stundum koma upp afkastavandamál sem tengjast ekki skilgreiningu rafræns skýr
 
 Undirbúið lítið sýnishorn eða safnið saman nokkrum rakningum á handahófskenndum tímapunktum skýrslumyndunar.
 
-Gerið síðan hefðbundna alhliða greiningu í [Rakningarþáttara](#trace-parser) og svarið eftirfarandi spurningum:
+Síðan, í [Rekjagreiningartæki](#trace-parser), gerðu staðlaða botn-upp greiningu og svaraðu eftirfarandi spurningum:
 
 - Hverjar eru helstu aðferðirnar hvað varðar tímanotkun?
 - Hvaða hluta af heildartímanum nota þessar aðferðir?
@@ -82,7 +82,7 @@ Opnið síðan rakninguna í hönnuði líkanavörpunar rafrænnar skýrslugerð
 
 - Samræmist fjöldi fyrirspurna og sóttra færslna heildarfjölda gagna? Ef skjal hefur t.d. 10 línur, sýnir tölfræðin að skýrslan dragi út 10 línur eða 1000 línur? Ef talsverður fjöldi færslna er sóttur skal íhuga eina af eftirfarandi lagfæringum:
 
-    - [Notið **FILTER** aðgerðina í stað **WHERE** aðgerðarinnar](#filter) til að vinna úr gögnum hjá SQL Server.
+    - [Nota **SÍA** fall í stað **HVAR** virka](#filter) að vinna úr gögnum um Microsoft SQL Server hlið.
     - Notið vistun í skyndiminni til að forðast að sækja sömu gögnin.
     - [Notið söfnuð gögn](#collected-data) til að forðast að sækja sömu gögnin fyrir samantekt.
 
@@ -191,6 +191,10 @@ Nokkrar takmarkanir eru á þessari nálgun. Þú verður að hafa stjórnandaa�
 
 Þrátt fyrir að vistun í skyndiminni dregur úr tímanum sem þarf til að sækja gögn aftur, kostar það minni. Notið vistun í skyndiminni í tilvikum þar sem fjöldi sóttra gagna er ekki mjög mikill. Frekari upplýsingar og dæmi sem sýnir hvernig á að nota vistun í skyndiminni er að finna í [Bæta líkanavörpun á grundvelli upplýsinga úr framkvæmdarakningu](trace-execution-er-troubleshoot-perf.md#improve-the-model-mapping-based-on-information-from-the-execution-trace).
 
+#### <a name="reduce-volume-of-data-fetched"></a><a name="reduce-fetched-data"></a> Draga úr magni sóttra gagna
+
+Þú getur dregið úr minnisnotkun fyrir skyndiminni með því að takmarka fjölda reita í skrám forritatöflu sem þú sækir á keyrslutíma. Í þessu tilviki muntu aðeins sækja þau svæðisgildi í forritatöflu sem þú þarft í ER líkanakortlagningu þinni. Aðrir reitir í þeirri töflu verða ekki sóttir. Þess vegna minnkar minnismagnið sem þarf til að vista sóttar færslur í skyndiminni. Fyrir frekari upplýsingar, sjá [Bættu frammistöðu ER lausna með því að fækka töflureitum sem eru sóttir á keyrslutíma](er-reduce-fetched-fields-number.md).
+
 #### <a name="use-a-cached-parameterized-calculated-field"></a><a name="cached-parameterized"></a>Nota færibreytustilltan reiknaðan reit sem vistaður er í skyndiminni
 
 Stundum þarf að fletta upp gildum ítrekað. Sem dæmi má nefna reikningsheiti og reikningsnúmer. Til að spara tíma er hægt að búa til reiknaðan reit með færibreytum á efsta stigi og bæta svo reitnum við skyndiminnið.
@@ -218,4 +222,4 @@ Rafræn skýrslugerð getur notað gögn frá eftirfarandi upprunum:
 - Klösum (**hlutar** og **klasa** gagnagjöfum)
 - Töflum (**töflu** og **töflufærslna** gagnagjöfum)
 
-[API rafrænnar skýrslugerðar](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) býður einnig upp á leið til að senda fyrirframreiknuð gögn úr köllunarkóðanum. Forritapakkinn inniheldur fjölmörg dæmi um þessa nálgun.
+The [ER forritunarviðmót (API)](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) býður einnig upp á leið til að senda fyrirfram útreiknuð gögn úr símanúmerinu. Forritapakkinn inniheldur fjölmörg dæmi um þessa nálgun.

@@ -2,24 +2,19 @@
 title: Hugsanleg leitarvélabestun (SEO) fyrir vefsvæðið þitt
 description: Þetta efni nær yfir sjónarmið leitarvélabestun (SEO) fyrir síðuna þína frá þróun til framleiðslu.
 author: psimolin
-ms.date: 10/01/2019
+ms.date: 05/25/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application user
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
-ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: df92aeae967bbf248b90dffc6bc2239a8d2959183acb9e9181bc344b9e3eff8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2f90581766dba3d3a671df52ec08339a1a0fd7dc
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716858"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806406"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Hugsanleg leitarvélabestun (SEO) fyrir vefsvæðið þitt
 
@@ -30,11 +25,15 @@ ms.locfileid: "6716858"
 
 ## <a name="a-site-that-is-under-development"></a>Síða sem er í þróun
 
-Þó að vefsvæði sé í þróun ættu allar vefsíður að vera með **NOINDEX** og **NOFOLLOW** lýsimerki, svo að leitarvélar skrái ekki síðurnar og geymi þróunarútgáfur af síðunni þinni í skyndiminni. Til að gera þessa stillingu verður þú að bæta við sjálfgefinni lýsimerkjaeiningu við sniðmát vefsíðunnar. Sjálfgefnir lýsimerkjaeiginleikar verða síðan aðgengilegir í SEO eiginleikahlutanum í ritlinum. Þú getur notað þessa eiginleika til að stjórna lýsimerkjunum.
+Til að tryggja að leitarvélar skrái ekki síðu sem er í þróun ættu allar síður að hafa **engin vísitala** og **nofollow** meta tags. Góð æfing er að búa til brot byggt á [MetaTags mát](metatags-module.md) sem inniheldur eftirfarandi meta tag færslu og tryggðu að brotinu sé bætt við HTML\<head\> hluta allra sniðmáta sem notuð eru á síðunni þinni.
+
+```html
+<meta name="robots" content="noindex,nofollow" /> 
+```
 
 ## <a name="soft-launch-of-a-site"></a>Óbundin ræsing svæðis
 
-Við „óbundna ræsingu“ er vefsíða gerð aðgengileg fyrir takmarkaðan markhóp eða markað áður en full kynning fer fram. Ef þú setur óbundna ræsingu á vefsíðuna þína ættir þú að íhuga að hreyfa ekki við lýsimerkjunum **NOINDEX**. Á þennan hátt hjálpar þú til við að tryggja að óbundin ræsing sé áfram takmörkuð við þann takmarkaða markhóp sem þú vilt ná til.
+Við „óbundna ræsingu“ er vefsíða gerð aðgengileg fyrir takmarkaðan markhóp eða markað áður en full kynning fer fram. Ef þú setur vefsíðuna þína á mjúkan hátt ættir þú að íhuga að yfirgefa **engin vísitala** meta tags á sínum stað. Á þennan hátt hjálpar þú til við að tryggja að óbundin ræsing sé áfram takmörkuð við þann takmarkaða markhóp sem þú vilt ná til.
 
 ## <a name="a-site-that-is-in-production"></a>Vefsvæði sem er í framleiðslu
 
@@ -44,7 +43,7 @@ Til að hámarka flokkun leitarvéla notar flutningsramma báðar upplýsingar f
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>Stillingar á síðu SEO fyrir innri forsýningu, takmarkaða markhóp og alla markhópa
 
-Vegna þess að Dynamics 365 Commerce styður „það sem þú sérð er það sem þú færð“ sannvottaðar forskoðanir í sjónrænum vefsmið, höfundar geta undirbúið efni síðunnar þeirra án þess að þurfa að hafa áhyggjur af því að upplýsingarnar verða sýnilegar gestum svæðisins. Ef birta verður síðu en útsetning hennar verður að vera takmörkuð ætti hún að hafa lýsimerkið **NOINDEX**, svo að það verði ekki skráð af leitarvélum. Þegar síðan er tilbúin fyrir alla markhópa ættu öll grunnlýsigögn SEO að vera til staðar til að hámarka skilvirkni flokkunar leitarvéla. Að auki ætti að fjarlægja lýsimerkið **NOLIMIT**.
+Vegna þess að Dynamics 365 Commerce styður „það sem þú sérð er það sem þú færð“ sannvottaðar forskoðanir í sjónrænum vefsmið, höfundar geta undirbúið efni síðunnar þeirra án þess að þurfa að hafa áhyggjur af því að upplýsingarnar verða sýnilegar gestum svæðisins. Ef síðu verður að birta, en útsetning hennar verður að vera takmörkuð, ætti hún að hafa **engin vísitala** meta tag, svo að það verði ekki skráð af leitarvélum. Þegar síðan er tilbúin fyrir alla markhópa ættu öll grunnlýsigögn SEO að vera til staðar til að hámarka skilvirkni flokkunar leitarvéla. Að auki er **engin takmörk** meta tag ætti að fjarlægja.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

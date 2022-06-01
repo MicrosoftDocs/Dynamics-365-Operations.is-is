@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547789"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786839"
 ---
 # <a name="configure-inventory-visibility"></a>Stilla sýnileika birgða
 
@@ -47,20 +47,20 @@ ms.locfileid: "8547789"
 
 ## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Virkja eiginleika birgðasýnileika í Power Apps eiginleikastjórnun
 
-Innbót birgðasýnileika bætir ýmsum nýjum eiginleika við Power Apps uppsetninguna þína. Sjálfgefið er slökkt á þessum eiginleikum. Til að nota þá skaltu opna **Stillingar** síðu og síðan á **Eiginleikastjórnun** flipann, kveiktu á eftirfarandi eiginleikum eftir þörfum.
+Innbót birgðasýnileika bætir ýmsum nýjum eiginleika við Power Apps uppsetninguna þína. Sjálfgefið er slökkt á þessum eiginleikum. Til að nota þá skaltu opna **Stillingar** síðu og síðan á **Eiginleikastjórnun** flipann, kveiktu á eftirfarandi eiginleikum eins og þú þarft.
 
 | Heiti eiginleikastjórnunar | Lýsing |
 |---|---|
 | *OnHandReservation* | Þessi eiginleiki gerir þér kleift að búa til pantanir, neyta bókana og/eða afpanta tiltekið birgðamagn með því að nota Birgðasýnileika. Frekari upplýsingar er að finna í [Frátekningar birgðasýnileika](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Þessi eiginleiki veitir birgðayfirlit fyrir vörur, ásamt öllum víddum. Gögn birgðasamantektar verða samstillt reglulega úr birgðasýnileika. Fyrir frekari upplýsingar, sjá [Birgðayfirlit](inventory-visibility-power-platform.md#inventory-summary). |
-| *OnhandChangeSchedule* | Þessi valfrjálsi eiginleiki gerir kleift að breyta áætluninni við höndina og aðgerðum sem hægt er að lofa (ATP). Fyrir frekari upplýsingar, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlun og hægt að lofa](inventory-visibility-available-to-promise.md). |
-| *Virkja vörur vöruhúss í birgðasýnileika* | Þessi valfrjálsi eiginleiki gerir birgðasýnileika kleift að styðja við vörur sem eru virkjaðar fyrir háþróaða vöruhúsaferli (WHS vörur). Fyrir frekari upplýsingar, sjá [Stuðningur við birgðasýnileika fyrir WHS hluti](inventory-visibility-whs-support.md). |
+| *OnhandChangeSchedule* | Þessi valfrjálsi eiginleiki gerir kleift að breyta áætluninni við höndina og eiginleika sem hægt er að lofa (ATP). Fyrir frekari upplýsingar, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlun og hægt að lofa](inventory-visibility-available-to-promise.md). |
+| *Virkja vörur vöruhúss í birgðasýnileika* | Þessi valfrjálsi eiginleiki gerir birgðasýnileika kleift að styðja við vörur sem eru virkjaðar fyrir háþróaða vöruhúsaferla (WHS vörur). Fyrir frekari upplýsingar, sjá [Stuðningur við birgðasýnileika fyrir WHS hluti](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Finna endastöð þjónustu
 
 Ef þú veist ekki rétta endastöð fyrir þjónustu birgðasýnileika skaltu opna síðuna **Skilgreining** í Power Apps og því næst velja **Sýna endastöð þjónustu** efst í hægra horninu. Síðan mun sýna rétta endastöð þjónustu.
 
-## <a name="data-source-configuration"></a>Skilgreining gagnagjafa
+## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Skilgreining gagnagjafa
 
 Hver gagnagjafi táknar kerfi sem gögnin þín koma úr. Dæmi um heiti gagnagjafa innihalda`fno` (sem þýðir "Dynamics 365 Finance and Operations forrit") og`pos` (sem þýðir "sölustaður"). Supply Chain Management er sjálfgefið sett upp sem sjálfgefinn gagnagjafi (`fno`) í birgðasýnileika.
 
@@ -141,7 +141,7 @@ Til að bæta við víddarvörpunum skal fylgja þessum skrefum.
 
 Ef til dæmis gagnagjafinn þinn inniheldur litavídd afurðar getur þú varpað hennir í `ColorId` grunnvíddina til að bæta við `ProductColor` sérstilltri vídd í `exterchannel` gagnagjafanum. Henni er síðan varpað í `ColorId` grunnvíddina.
 
-### <a name="physical-measures"></a>Efnislegar mælingar
+### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>Efnislegar mælingar
 
 Þegar gagnagjafi bókar birgðabreytingu í birgðasýnileika bókar hann þá breytingu með því að nota *efnislegar mælingar*. Efnislegar mælingar breyta magninu og endurspegla birgðastöðuna. Þú getur skilgreint þínar eigin efnislegu mælingar samkvæmt þínum kröfum. Hægt er að byggja fyrirspurnir á efnislegum mælingum.
 
@@ -176,6 +176,9 @@ Ef gagnagjafinn er Supply Chain Management þarftu ekki að búa aftur til sjál
 
 Þú getur notað birgðasýnileika til að senda fyrirspurn á bæði efnislegar mælingar birgða og *sérstilltar reiknaðar mælingar*. Reiknaðar mælingar bjóða upp á sérstillta reikniformúlu sem samanstendur af samsetningu efnislegra mælieininga. Þessi virkni gerir þér kleift að skilgreina safn efnislegra mælieininga sem verður bætt við og/eða safn efnislegra mælieininga sem verða dregnar frá, til að búa til sérstillta mælingu.
 
+> [!IMPORTANT]
+> Reiknaður mælikvarði er samsetning líkamlegra mælikvarða. Formúla hennar getur aðeins innihaldið líkamlegar mælingar án afrita, ekki reiknaðar mælikvarða.
+
 Stillingin gerir þér kleift að skilgreina safn af breytilyklum sem er bætt við eða dregnir frá til að fá samtals uppsafnað magn úttaks.
 
 Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
@@ -191,9 +194,9 @@ Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
 1. Veldu **Bæta við** til að bæta við breytu við nýja reiknaða mælinguna.
 1. Stilltu eftirfarandi reiti fyrir nýja breytimanninn:
 
-    - **Breytir** – Veldu gerð breytibúnaðar (*Viðbót* eða *Frádráttur*).
+    - **Breytir** – Veldu breytigerð (*Viðbót* eða *Frádráttur*).
     - **Uppspretta gagna** – Veldu gagnagjafann þar sem mælikvarðinn sem gefur breytigildið á að finnast.
-    - **Mæla** – Veldu heiti mælingar (frá völdum gagnagjafa) sem gefur upp gildi fyrir breytileikann.
+    - **Mæla** – Veldu heiti mælingar (frá völdum gagnagjafa) sem gefur upp gildi fyrir breytimann.
 
 1. Endurtaktu skref 5 til 6 þar til þú hefur bætt við öllum nauðsynlegum breytingum.
 1. Veldu **Vista**.
@@ -283,7 +286,7 @@ Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Skilgreining þáttunar
 
-Sem stendur samanstendur skiptingin af tveimur grunnvíddum (`SiteId` og`LocationId`) sem gefa til kynna hvernig gögnunum er dreift. Aðgerðir undir sama skipting geta skilað meiri afköstum með lægri kostnaði. Eftirfarandi tafla sýnir sjálfgefna skiptingastillingu sem Inventory Visibility Add-in veitir.
+Eins og er samanstendur skiptingin af tveimur grunnvíddum (`SiteId` og`LocationId`) sem gefa til kynna hvernig gögnunum er dreift. Aðgerðir undir sama skipting geta skilað meiri afköstum með lægri kostnaði. Eftirfarandi tafla sýnir sjálfgefna skiptingarstillingu sem Inventory Visibility Add-in veitir.
 
 | Grunnvídd | Stigveldi |
 |---|---|
@@ -297,7 +300,7 @@ Lausnin inniheldur þessa skiptingastillingu sjálfgefið. Þess vegna, *þú þ
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Skilgreining á stigveldi atriðaskráar
 
-Oftast verður fyrirspurn um lagerbirgðir ekki eingöngu á hæsta stigi „samtölu“. Þess í stað gætirðu einnig viljað sjá niðurstöður sem eru teknar saman samkvæmt birgðavíddum.
+Oftast verður fyrirspurn um lagerbirgðir ekki eingöngu á hæsta stigi „samtölu“. Í staðinn gætirðu líka viljað sjá niðurstöður sem eru teknar saman út frá birgðavíddum.
 
 Birgðavíddir bjóða upp á sveigjanleika með því að leyfa þér að setja upp _atriðaskrár_. Þessar atriðaskrár byggja á vídd eða samsetningu vídda. Atriðaskrá samanstendur af *stilltu númeri*, *vídd* og *stigveldu* eins og er skilgreint í eftirfarandi töflu.
 

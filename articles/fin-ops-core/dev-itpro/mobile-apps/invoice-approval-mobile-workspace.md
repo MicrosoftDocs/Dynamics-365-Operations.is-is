@@ -2,7 +2,7 @@
 title: Reikningssamþykktir á fartækjavinnusvæðum
 description: Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið Reikningssamþykktir.
 author: abruer
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,16 +12,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0d19e99776f04eab28eb7371bc0ac90ac046b62af0ad785fd3ab28309cae43ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08775a574bcd57948c6bf6a634d822b32112f782
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759981"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811359"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Reikningssamþykktir á fartækjavinnusvæðum
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Reikningsssamþykktir**. Þessi vinnusvæði gefur lista yfir reikninga sem hafa verið úthlutaðir þér í gegnum verkflæði reikningshauss lánardrottins. 
 
@@ -45,7 +46,7 @@ Fartækjavinnusvæðið **Reikningssamþykktir** gerir gjaldkerum og stjórnendu
 </thead>
 <tbody>
 <tr class="odd">
-<td>Microsoft Dynamics 365 Finance verður að vera innleitt í fyrirtækinu.</td>
+<td>Microsoft Dynamics 365 Finance verður að vera notað í fyrirtækinu þínu.</td>
 <td>Kerfisstjóri</td>
 <td>Sjá <a href="../deployment/deploy-demo-environment.md">Uppsetning sýniútgáfuumhverfis</a>.
 </td>
@@ -60,7 +61,7 @@ Fartækjavinnusvæðið **Reikningssamþykktir** gerir gjaldkerum og stjórnendu
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
 
-Sæktu og settu upp fartækjaforritið Finance and Operations:
+Sæktu og settu upp fyrir Finance and Operations farsímaforritið:
 
 -   [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)

@@ -1,22 +1,22 @@
 ---
-title: Búðu til viðskiptabæklinga fyrir B2B síður
+title: Stofna Commerce-vörulista fyrir B2B-svæði
 description: Þetta efnisatriði lýsir því hvernig á að búa til Commerce vörulista fyrir Microsoft Dynamics 365 Commerce fyrirtæki-til-fyrirtæki (B2B) síður.
 author: ashishmsft
-ms.date: 04/28/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 868f6bbeefeb1698bb136d52c09cebf293c95731
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 7382062706c2de01c499ee05aeb0b45ff6fb37cb
+ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8657193"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782838"
 ---
-# <a name="create-commerce-catalogs-for-b2b-sites"></a>Búðu til viðskiptabæklinga fyrir B2B síður
+# <a name="create-commerce-catalogs-for-b2b-sites"></a>Stofna Commerce-vörulista fyrir B2B-svæði
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
@@ -24,14 +24,14 @@ ms.locfileid: "8657193"
 Þetta efnisatriði lýsir því hvernig á að búa til Commerce vörulista fyrir Microsoft Dynamics 365 Commerce fyrirtæki-til-fyrirtæki (B2B) síður. Fyrir svör við algengum spurningum um verslunarskrár fyrir B2B síður, sjá [Viðskiptabækur fyrir B2B Algengar spurningar](catalogs-b2b-sites-FAQ.md).
 
 > [!NOTE]
-> Þetta efni á við um Dynamics 365 Commerce útgáfa 10.0.26 og síðari útgáfur.
+> Þetta efni á við um Dynamics 365 Commerce útgáfu 10.0.27 og síðari útgáfur.
 
 Þú getur notað Commerce vörulista til að bera kennsl á vörurnar sem þú vilt bjóða í B2B netverslunum þínum. Þegar þú býrð til vörulista auðkennirðu netverslanir sem vörurnar eru boðnar í, bætir við vörunum sem þú vilt hafa með og bætir vöruframboðið með því að bæta við vöruupplýsingum. Þú getur búið til marga vörulista fyrir hverja B2B netverslun.
 
 Viðskiptavörubæklingar gera þér kleift að skilgreina eftirfarandi upplýsingar:
 
-- **Vörulistasértæk leiðsögn stigveldi** – Stofnanir geta búið til sérstaka flokkaskipan fyrir tiltekna vörulista.
-- **Lýsigögn eiginda tiltekinna vörulista** – Eiginleikar innihalda upplýsingar um vöru. Með því að úthluta eiginleikum til flokks leiðsögustigveldis er hægt að skilgreina gildi fyrir þá eiginleika á stigi vara sem eru úthlutaðar í þann flokk. Stofnanir geta síðan klárað þessi verkefni:
+- **Skipulagssértækt leiðsögustigveldi** – Stofnanir geta búið til sérstaka flokkaskipan fyrir tiltekna vörulista.
+- **Lýsigögn eiginda tiltekinna vörulista** - Eiginleikar innihalda upplýsingar um vöru. Með því að úthluta eiginleikum til flokks leiðsögustigveldis er hægt að skilgreina gildi fyrir þá eiginleika á stigi vara sem eru úthlutaðar í þann flokk. Stofnanir geta síðan klárað þessi verkefni:
 
     - Skilgreindu vörulistasértæk eigindagildi.
     - Stjórna sýnileika eiginda á vörulistastigi.
@@ -42,7 +42,7 @@ Viðskiptavörubæklingar gera þér kleift að skilgreina eftirfarandi upplýsi
 - **Verðflokkar** - Þú getur stillt verð og kynningar sem eru sértækar fyrir tiltekinn vörulista. Þessi hæfileiki er kjarnaástæða þess að skilgreina vörulista fyrir B2B rás. Verðflokkar fyrir vörulista gera stofnunum kleift að gera vörur aðgengilegar fyrir fyrirhugaðar B2B stofnanir og beita valinn verðlagningu og afslætti. B2B viðskiptavinir sem panta úr stilltum vörulista geta notið góðs af sérstökum verðum og kynningum eftir að þeir hafa skráð sig inn á Commerce B2B síðu. Til að stilla vörulistasértæk verð skaltu velja **Verðflokkar** á **Vörulistar** flipa til að tengja einn eða fleiri verðflokka við vörulistann. Allir viðskiptasamningar, verðleiðréttingarbækur og háþróaðir afslættir sem hafa verið tengdir við sama verðflokk verða notaðir þegar viðskiptavinir panta úr þeim vörulista. (Ítarlegir afslættir fela í sér þröskuld, magn og afslætti.) Fyrir frekari upplýsingar um verðflokka, sjá [Verðflokkar](price-management.md#price-groups).
 
 > [!NOTE]
-> Þessi eiginleiki er fáanlegur frá og með Dynamics 365 Commerce útgáfu 10.0.26 útgáfu. Til að stilla vörulistasértækar stillingar eins og leiðsögustigveldi og stigveldi viðskiptavina, í höfuðstöðvum Commerce, opnaðu **Eiginleikastjórnun** vinnusvæði (**Kerfisstjórnun \> Vinnurými \> Eiginleikastjórnun**), virkjaðu **Virkjaðu notkun margra vörulista á smásölurásum** lögun og keyrðu síðan **1110 CDX** starf.
+> Þessi eiginleiki er fáanlegur frá og með Dynamics 365 Commerce útgáfu 10.0.27 útgáfu. Til að stilla vörulistasértækar stillingar eins og leiðsögustigveldi og stigveldi viðskiptavina, í höfuðstöðvum Commerce, opnaðu **Eiginleikastjórnun** vinnusvæði (**Kerfisstjórnun \> Vinnurými \> Eiginleikastjórnun**), virkjaðu **Virkjaðu notkun margra vörulista á smásölurásum** lögun og keyrðu síðan **1110 CDX** starf.
 
 ## <a name="catalog-process-flow"></a>Skráarferlisflæði
 
@@ -112,7 +112,7 @@ Til að tengja sjálfgefna víddareigindahóp fyrir hreinsunartæki eins og stæ
 
 #### <a name="set-attribute-metadata"></a>Stilla eigind lýsigagna
 
-Til að stilla lýsigögn eiginda, í höfuðstöðvum Commerce, farðu á **Verslun og verslun \> Vörulistar og úrval \> Allir vörulistar**. Síðan, á **Vörulistar** flipi, undir **Eiginleikar**, veldu **Stilltu lýsigögn eiginda**. Til að velja eiginleikana sem ættu að vera sýnilegir og fínstillanlegir, veldu flokk í tilheyrandi vörulistasértæku leiðsögustigveldi og síðan, undir **Skrá vörueiginleika**, veldu eigind. Veldu síðan **Sýna eigind á rás**. Sjálfgefið er að allir sýnilegir eiginleikar eru einnig leitartækir. Veldu **Hægt að betrumbæta**.
+Til að stilla lýsigögn eiginda, í höfuðstöðvum Commerce, farðu á **Verslun og verslun \> Vörulistar og úrval \> Allir vörulistar**. Síðan, á **Vörulistar** flipi, undir **Eiginleikar**, veldu **Stilltu lýsigögn eiginda**. Til að velja eiginleikana sem ættu að vera sýnilegir og fínstillanlegir skaltu velja flokk í tilheyrandi vörulistasértæku leiðsögustigveldi og síðan, undir **Skrá vörueiginleika**, veldu eigind. Veldu síðan **Sýna eigind á rás**. Sjálfgefið er að allir sýnilegir eiginleikar eru einnig leitartækir. Veldu **Hægt að betrumbæta**.
 
 ### <a name="validate-the-catalog"></a>Staðfesta vörulistann
 
@@ -141,6 +141,6 @@ Eftir að vörulisti er í an **Samþykkt** stöðu, þú getur birt hana með �
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Stækkanleikaáhrif viðskiptaskráa fyrir B2B aðlögun](catalogs-b2b-sites-dev.md)
+[Stækkunarhæfniáhrif Commerce-vörulista fyrir B2B-sérstillingar](catalogs-b2b-sites-dev.md)
 
-[Viðskiptabækur fyrir B2B Algengar spurningar](catalogs-b2b-sites-FAQ.md)
+[Algengar spurningar um Commerce-vörulista fyrir B2B](catalogs-b2b-sites-FAQ.md)

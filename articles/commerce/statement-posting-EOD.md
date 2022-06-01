@@ -2,19 +2,19 @@
 title: Endurbætur á virkni yfirlitsbókunar
 description: Þetta efnisatriði lýsir endurbótum sem hafa verið gerðar á bókun uppgjörs eiginleikanum.
 author: analpert
-ms.date: 04/27/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649020"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770170"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Endurbætur á virkni yfirlitsbókunar
 
@@ -151,6 +151,9 @@ Uppsöfnuð færsluyfirlit veitir eftirfarandi kosti:
 - Notandinn hefur sýnileika í hvernig færslum er safnað saman.
 - Notandinn hefur fulla endurskoðunarslóð, frá færslum, til sölupantana, til sölureikninga. Þessi endurskoðunarslóð var ekki tiltæk í eldri eiginleikanum fyrir bókun uppgjörs.
 - Samanlögð XML skrá gerir það auðveldara að bera kennsl á vandamál við stofnun sölupöntunar og reikningagerð.
+
+> [!NOTE]
+> Þegar færslur eru teknar saman er starfsmaðurinn sem úthlutað er færslunni ekki lengur tiltækur fyrir **Helsta söluskýrsla starfsmanna**, sem þýðir að **Helsta söluskýrsla starfsmanna** mun ekki sýna allar færslur. Við mælum með að þú notir ekki **Topp söluskýrsla starfsmanna** með samanlögðum viðskiptum.
 
 ### <a name="journal-vouchers"></a>Færslubókarfylgiskjöl
 

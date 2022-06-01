@@ -2,7 +2,7 @@
 title: Hanna skýrslur á mörgum tungumálum í rafrænni skýrslugerð
 description: Þetta efnisatriði útskýrir hvernig hægt er að nota merki rafrænnar skýrslugerðar til að hanna og búa til skýrslur á mörgum tungumálum.
 author: NickSelin
-ms.date: 11/30/2021
+ms.date: 04/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eab17635494657740fe46364bde0773dae5b9e4b
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313692"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811608"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Hanna skýrslur á mörgum tungumálum í rafrænni skýrslugerð
 
@@ -46,7 +46,7 @@ Hægt er að stilla tungumálaháð tilföng sem merki rafrænnar skýrslugerða
 
 Hægt er að stilla merki rafrænnar skýrslugerðar í öllum [skilgreiningum](general-electronic-reporting.md#Configuration) rafrænnar skýrslugerðar sem innihalda mismunandi hluta. Hægt er að vinna með merkin óháð skilgreindum reglum gagnalíkana og líkanavarpana rafrænnar skýrslugerðar og hluta rafræns skýrslugerðarsniðs.
 
-Sérhvert merki rafrænnar skýrslugerðar þekkist á auðkenni sem er einkvæmt innan umfangs skilgreiningar rafrænnar skýrslugerðar sem er með merkið. Sérhvert merki getur innihaldið texta fyrir öll tungumál sem eru studd í núverandi tilviki af Microsoft Dynamics 365 Finance. Þessi studdu tungumál fela í sér tungumál uppsettra sérstillinga.
+Sérhvert merki rafrænnar skýrslugerðar þekkist á auðkenni sem er einkvæmt innan umfangs skilgreiningar rafrænnar skýrslugerðar sem er með merkið. Sérhver merkimiði getur innihaldið merkitexta fyrir hvert tungumál sem er stutt í núverandi tilviki Microsoft Dynamics 365 Fjármál. Þessi studdu tungumál fela í sér tungumál uppsettra sérstillinga.
 
 ## <a name="entry"></a>Færsla
 
@@ -81,7 +81,7 @@ Hægt er að vísa til merkja rafrænnar skýrslugerðar í nokkrum þýðanlegu
 
 ### <a name="model-mapping-component"></a>Hluti líkanavörpunar
 
-Vegna þess að líkanavörpun rafrænnar skýrslugerðar er byggð á gagnalíkani rafrænnar skýrslugerðar, birtast gagnalíkanseiningarnar sem átt er við á kjörtungumáli notanda í hönnuði líkanavörpunar. Eftirfarandi skýringarmynd sýnir hvernig merking reitsins **PurchaseOrder** er útskýrð í breytanlegri líkanavörpun með því að nota merki eigindarinnar **Lýsing** sem bætt hefur verið við skilgreint gagnalíkan. Takið eftir að þetta merki er sýnt á kjörtungumáli notanda (DE-AT í þessu dæmi).
+Vegna þess að ER líkanavörpun er byggð á ER gagnalíkani, birtast merkimiðar gagnalíkanaþátta sem vísað er til á ákjósanlegu tungumáli notandans í líkanavörpunarhönnuðinum. Eftirfarandi skýringarmynd sýnir hvernig merking reitsins **PurchaseOrder** er útskýrð í breytanlegri líkanavörpun með því að nota merki eigindarinnar **Lýsing** sem bætt hefur verið við skilgreint gagnalíkan. Takið eftir að þetta merki er sýnt á kjörtungumáli notanda (DE-AT í þessu dæmi).
 
 ![Útlit hönnuðar líkanavörpunar rafrænnar skýrslugerðar fyrir notanda með DE-AT stillt sem kjörtungumál.](./media/er-multilingual-labels-show-mapping.png)
 
@@ -89,7 +89,7 @@ Vegna þess að líkanavörpun rafrænnar skýrslugerðar er byggð á gagnalík
 
 ### <a name="format-component"></a>Sniðsþáttur
 
-Þegar snið rafrænnar skýrslugerðar er skilgreint er hægt að bæta við merkjum rafrænnar skýrslugerðar fyrir það. Eigindirnar **Merki** og **Hjálpartexti** fyrir alla skilgreinda gagnagjafa er hægt að tengja við merki rafrænnar skýrslugerðar sem bætt er við snið rafrænnar skýrslugerðar. Eigindirnar **Merki** og **Lýsing** allra <a id="LinkFormatEnum"></a>tölusetningargilda sniðs er einnig hægt að tengja við merki rafrænnar skýrslugerðar sem er aðgengilegt úr breytanlegu sniði rafrænnar skýrslugerðar.
+Þegar snið rafrænnar skýrslugerðar er skilgreint er hægt að bæta við merkjum rafrænnar skýrslugerðar fyrir það. Eigindirnar **Merki** og **Hjálpartexti** fyrir alla skilgreinda gagnagjafa er hægt að tengja við merki rafrænnar skýrslugerðar sem bætt er við snið rafrænnar skýrslugerðar. The **Merki** og **Lýsing** eiginleika hvers og eins<a id="LinkFormatEnum"></a> sniðupptalningargildi er einnig hægt að tengja við ER merki sem er aðgengilegt frá breytanlegu ER sniði.
 
 > [!NOTE]
 > Einnig er hægt að tengja þessar eigindir við merki rafrænnar skýrslugerðar fyrir yfirgagnalíkan rafrænnar skýrslugerðar sem notar aftur merki líkansins í öllum sniðum rafrænnar skýrslugerðar sem skilgreint er fyrir þetta gagnalíkan rafrænnar skýrslugerðar.
@@ -218,6 +218,11 @@ Merki fyrir hluta rafrænnar skýrslugerðar sem hægt er að breyta eru geymd, 
 
 Merki grunnhluta rafrænnar skýrslugerðar er hægt að vísa til í afleiddri útgáfu af hluta rafrænnar skýrslugerðar sem búin er til til að kynna breytingarnar.
 
+> [!TIP]
+> Þegar þú hannar ER lausn geturðu fengið þína eigin ER [gagnalíkan](er-overview-components.md#data-model-component) hluti úr þeim sem er veittur. Í þessu afleidda gagnalíkani geturðu kynnt eigin ER merki og notað þau á öllum ER sniðum sem munu nota gagnalíkanið sem gagnagjafa. Þú getur síðan fengið þitt eigið ER [sniði](er-overview-components.md#format-component) hluti úr þeim sem er veittur með því að velja afleitt ER gagnalíkan þitt í stað þess sem fylgir. Í útgáfu 10.0.28 og síðar geturðu virkjað **Aukinn aðgangur að merkimiðum hækkandi ER gagnalíkans** eiginleiki til að fá aðgang að merkimiða fyrir hækkandi ER gagnalíkan í afleiddum ER sniði hlutum, jafnvel þegar ER gagnalíkanið sem þú valdir fyrir afleidda ER íhlutinn er frábrugðið því sem var notað í grunn ER íhlutnum.
+>
+> Þegar sama heiti merkimiða er notað í afleiddum íhlut þínum og stígandi íhlutum hans, er þýðing þín á því merki notuð sem mikilvægasta.
+
 Útgáfustjórnun rafrænnar skýrslugerðar stýrir úthlutun merkja til allra eiginda í hluta rafrænnar skýrslugerðar. Breytingar á úthlutun merkis eru geymdar í lista yfir breytingar (delta) fyrir breytanlega hluta rafrænnar skýrslugerðar sem hefur verið búinn til sem afleidd útgáfa af uppgefnum hluta rafrænnar skýrslugerðar. Þessar breytingar verða staðfestar þegar afleidd útgáfa er flutt í nýja grunnútgáfu.
 
 ## <a name="functions"></a>Aðgerðir
@@ -236,11 +241,11 @@ Eins og lýst hefur verið hér áður í þessu efnisatriði er hægt að tengj
 Þegar þú breytir stöðu ER uppsetningarútgáfu frá **Drög** til **Lokið**, ef stillingarútgáfan inniheldur ER merki eru þessi merki geymd í gagnagrunni forritsins. Geymsluskema fer eftir ástandi **Flýttu fyrir geymslu ER merkimiða** eiginleiki:
 
 - Ef eiginleikinn er ekki virkur eru öll merki geymd í **LABELXML** sviði á **ÚTLÖNSKUVERSIONTAFLA** töflu sem einn XML bút.
-- Ef aðgerðin er virkjuð er sérstök færsla búin til fyrir hvert tungumál í **ÚTLÖNSUN ÚTGÁFAMERKIÐARSTÖÐUR** borð. The **INNIHALD** reit þessarar töflu geymir merki fyrir hvert tungumál sem þjappað XML bút.
+- Ef aðgerðin er virkjuð er sérstök færsla búin til fyrir hvert tungumál í **ÚTLÖNSUNÚTGÁFAMERKIÐARSTÖÐUR** borð. The **INNIHALD** reit þessarar töflu geymir merki fyrir hvert tungumál sem þjappað XML bút.
 
 Við mælum með að þú kveikir á **Flýttu fyrir geymslu ER merkimiða** eiginleiki í **Eiginleikastjórnun** vinnurými. Þessi eiginleiki hjálpar til við að bæta netbandbreiddarnýtingu og heildarafköst kerfisins vegna þess að í flestum tilfellum eru ER merki á einu tungumáli notuð þegar þú vinnur með einni ER uppsetningu.
 
-Ljúktu við eftirfarandi skrefum til að nota valið geymsluskemu til að geyma merki fyrir allar ER stillingar í núverandi Finance tilviki.
+Ljúktu við eftirfarandi skrefum til að nota valið geymsluskema til að halda merkjum yfir allar ER stillingar í núverandi Finance tilviki.
 
 1. Fara til **Stjórn stofnunarinnar** > **Reglubundið** > **Notaðu valda merki sem geymir skema fyrir allar ER stillingar**.
 2. Veldu **Í lagi**.

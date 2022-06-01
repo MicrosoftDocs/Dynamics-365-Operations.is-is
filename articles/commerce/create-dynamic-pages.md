@@ -2,35 +2,32 @@
 title: Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða
 description: Þetta efnisatriði lýsir því hvernig setja á upp Microsoft Dynamics 365 Commerce-síðu rafrænna viðskipta sem getur þjónað gagnvirku efni, byggt á færibreytum vefslóða.
 author: StuHarg
-ms.date: 01/28/2021
+ms.date: 05/27/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ROBOTS: ''
-audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 348fdb30f4d0104e80bea5235c1e337b9f977311
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694341"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811032"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Þetta efnisatriði lýsir því hvernig setja á upp Microsoft Dynamics 365 Commerce-síðu rafrænna viðskipta sem getur þjónað gagnvirku efni, byggt á færibreytum vefslóða.
 
-Hægt er að stilla síður rafrænna viðskipta til að þjóna mismunandi efni byggt á hluta vefslóðar. Þess vegna er síðan þekkt sem gagnvirk síða. Hlutinn er notaður sem færibreyta til að sækja efni síðunnar. Til dæmis er síða sem heitir **blogg\_yfirlit** stofnuð og tengd við vefslóðina `https://fabrikam.com/blog`. Síðan er hægt að nota þessa síðu til að sýna mismunandi efni byggt á síðasta hlutanum vefslóðinni. Til dæmis er síðasti hlutinn í vefslóð `https://fabrikam.com/blog/article-1` **article-1**.
+Hægt er að stilla síður rafrænna viðskipta til að þjóna mismunandi efni byggt á hluta vefslóðar. Þess vegna er síðan þekkt sem gagnvirk síða. Hlutinn er notaður sem færibreyta til að sækja efni síðunnar. Til dæmis síða sem er búin til í Site builder og nefnd **blogg\_ áhorfandi** er varpað á slóðina `https://fabrikam.com/blog`. Síðan er hægt að nota þessa síðu til að sýna mismunandi efni byggt á síðasta hlutanum vefslóðinni. Til dæmis er síðasti hlutinn í vefslóð `https://fabrikam.com/blog/article-1` **article-1**.
 
-Aðskildar sérsniðnar síður sem hnekkja gagnvirku síðunni geta einnig verið tengdar við hluta í vefslóðinni. Til dæmis er síða sem heitir **blogg\_samantekt** stofnuð og tengd við vefslóðina `https://fabrikam.com/blog/about-this-blog`. Þegar beðið er um þessa vefslóð kemur upp síðan **blogg\_samantekt** sem tengist færibreytunni **/about-this-blog** í staðinn fyrir síðuna **blogg\_yfirlit**.
+Þú getur líka hnekið færibreytum vefslóðahluta með síðugerðarsíðu. Til dæmis síða sem er búin til í Site builder og nefnd **blogg\_ samantekt** hægt að kortleggja á slóðina `https://fabrikam.com/blog/about-this-blog`. Þegar`https://fabrikam.com/blog` Slóð er beðin með`/about-this-blog` hluti á endanum, the **blogg\_ samantekt** innihald síðu er skilað í stað þess`/about-this-blog` hluti sem er túlkaður sem færibreyta til að nota af`https://fabrikam.com/blog` síðu. 
+
+Þegar nöfn eru valin fyrir færibreyturnar sem á að senda á kviku síðuna, nafn kviku síðunnar eins og það birtist í vefslóðinni (`/blog` í dæminu hér að ofan) er ekki hægt að nota sem færibreytuheiti eða undirstreng færibreytuheiti. 
 
 > [!NOTE]
 > Virknin til að hýsa, sækja og sýna efni gagnvirkrar síðu er innleidd með því að nota sérsniðna einingu. Frekari upplýsingar er að finna í [Stækkunarhæfni rásar á netinu](e-commerce-extensibility/overview.md).
@@ -60,7 +57,7 @@ Til að skilgreina leiðina á gagnvirka síðu í Commerce-vefsmið skal fylgja
 1. Undir **Færibreytustilltar vefslóðir** skal velja **Bæta við** og síðan færa inn vefslóðina sem slegin var inn þegar vefslóðin var búin til (í þessu dæmi **/blog**).
 1. Veljið **Vista og birta**.
 
-Þegar leiðin er skilgreind munu allar beiðnir til færibreytustilltu vefslóðarinnar skila síðunni sem tengist þeirri vefslóð. Ef einhver beiðni inniheldur viðbótarhluta verður tengdri síðu skilað og efni síðunnar verður sótt með því að nota hlutann sem færibreytu. Til dæmis mun `https://fabrikam.com/blog/article-1` skila síðunni **blogg\_samantekt** og efni síðunnar verður sótt með því að nota færibreytuna **/article-1**.
+Þegar leiðin er skilgreind munu allar beiðnir til færibreytustilltu vefslóðarinnar skila síðunni sem tengist þeirri vefslóð. Ef einhver beiðni inniheldur viðbótarhluta verður tengdri síðu skilað og efni síðunnar verður sótt með því að nota hlutann sem færibreytu. Til dæmis,`https://fabrikam.com/blog/article-1` mun skila`https://fabrikam.com/blog` síða sem sýnir efnið sem það sótti með því að nota **/grein-1** breytu.
 
 ## <a name="override-a-parameterized-url-with-a-custom-page"></a>Hnekkja færibreytustilltri vefslóð með sérsniðinni síðu
 

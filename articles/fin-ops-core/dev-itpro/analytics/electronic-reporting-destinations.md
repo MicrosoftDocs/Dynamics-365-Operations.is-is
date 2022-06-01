@@ -2,7 +2,7 @@
 title: Áfangastaðir fyrir rafræna skýrslugerð
 description: Í þessu efnisatriði er að finna upplýsingar um stjórnun á áfangastöðum rafrænnar skýrslugerðar, gerðir studdra áfangastaða og öryggissjónarmið.
 author: nselin
-ms.date: 09/16/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: e3154cb62531bf956365b420b454c98ead7f7335
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647094"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780461"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Áfangastaðir fyrir rafræna skýrslugerð
 
@@ -45,7 +45,7 @@ Einnig er hægt að setja upp einn af eftirfarandi skilyrðum. Hins vegar þarft
 - Microsoft Dynamics AX-forrit, útgáfa 7.0.1 (maí 2016)
 - [Leiðbeiningar um bráðabót skýrslugjafar ákvörðunarstaðar](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
-Það er líka a [Prenta](er-destination-type-print.md) tegund ákvörðunarstaðar. Til að nota það verður þú að setja upp Microsoft Dynamics 365 Finance útgáfu 10.0.9 (apríl 2020).
+Það er líka a [Prenta](er-destination-type-print.md) tegund ákvörðunarstaðar. Til að nota það verður þú að setja upp Microsoft Dynamics 365 Finance útgáfa 10.0.9 (apríl 2020).
 
 ## <a name="overview"></a>Yfirlit
 
@@ -173,11 +173,11 @@ Til að gera PDF umbreytingarvalkostinn tiltækan í núverandi tilviki Finance,
 
 ### <a name="limitations"></a>Takmarkanir
 
-Valkostur PDF-umbreytingar er aðeins í boði fyrir uppsetningar í skýi.
+Frá og með fjármálum **útgáfa 10.0.9**, PDF umbreytingarvalkosturinn er aðeins í boði fyrir skýjauppfærslur. Byrjar í Finance útgáfu **10.0.27**, PDF umbreytingarmöguleikinn er tiltækur fyrir hvaða innleiðingu sem er á staðnum sem hefur [Nettenging](../user-interface/client-disconnected.md) virkt.
 
 PDF-skjalið sem verður til takmarkast við að hámarki 300 blaðsíður.
 
-Í Finance, **útgáfu 10.0.9**, er aðeins langsnið á síðum stutt í PDF-skjalinu sem er búið til úr Excel-úttaki. Í Finance, **útgáfu 10.0.10 (maí 2020) og nýrri**, er hægt að [tilgreina hvernig blaðsíðan á að snúa](#SelectPdfPageOrientation) fyrir PDF-skjal sem er búið til úr Excel-úttaki á meðan staðsetning rafrænnar skýrslugerðar er skilgreind.
+Frá og með fjármálum **útgáfa 10.0.9**, aðeins landslagssíðustilling er studd í PDF skjalinu sem er framleitt úr Excel úttaki. Byrjar í fjármálum **útgáfa 10.0.10**, þú getur [tilgreindu stefnu síðunnar](#SelectPdfPageOrientation) af PDF skjalinu sem er framleitt úr Excel úttaki á meðan þú stillir ER áfangastað.
 
 Aðeins algengar leturgerðir Windows-stýrikerfisins eru notaðar til að umbreyta úttaki sem inniheldur engar innfelldar leturgerðir.
 

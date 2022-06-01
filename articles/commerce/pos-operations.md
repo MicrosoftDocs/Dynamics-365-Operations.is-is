@@ -2,7 +2,7 @@
 title: Aðgerðir sölustaðar (POS) með og án nettengingar
 description: Þetta efnisatriði veitir upplýsingar um rekstur sölustaðs (POS) í Dynamics 365 Commerce. Það tilgreinir hvar í forritinu má kalla fram aðgerðir og hvort þær séu tiltæk í ótengdum ham.
 author: jblucher
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dc281a691b34731fb0b5986222b41b436912c782
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 7e4556ad11cbea0cb8fb3c5447116a1b54576e17
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740683"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811203"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Aðgerðir sölustaðar (POS) með og án nettengingar
 
@@ -44,7 +44,7 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 > [!NOTE]
 > Aðgerðirnar sem taldar eru upp hér að neðan eiga við um nýjustu útgáfuna af Commerce. Sumar aðgerðir kunna að hafa breyst eða kunna ekki að vera í boði í fyrri útgáfum.
 
-| KENNI   | Aðgerð                                         | Lýsing                                                                                                                                                                                                    | Notendaaðgerð?    | Færsluskjár | Upphafsskjár | Í boði án nettengingar? | Tekur sérstaklega mið af staðsetningu |
+| KENNI   | Aðgerð                                         | Lýsing                                                                                                                                                                                                    | Notendaaðgerðir    | Færsluskjár | Upphafsskjár | Í boði án nettengingar? | Tekur sérstaklega mið af staðsetningu |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |
 | 10.000  | Afurðarsala                                      | Bæta tilgreindri afurð við færsluna.                                                                                                                                                                    | Já            | Já                | Já            | Já               | Nr.              |
 | 101  | Verðathugun                                       | Leitaðu upp verð fyrir tiltekna vöru.                                                                                                                                        | Já            | Já                | Já            | Já               | Nr.              |
@@ -238,7 +238,7 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 917  | Staða gagnagrunnstengingar                        | Skoðaðu núverandi tengistillingar og skiptu á milli nettengingar og ótengdra stillinga.                                                                                                                             | Já            | Já                | Já            | Já               | Nr.              |
 | 918  | Stjórna vöktum                                     | Sýna lista yfir vaktir sem eru virkar, frestaðar og lokaðar blint.                                                                                                                                                     | Já            | Já                | Já            | Nr.                | Nr.              |
 | 919  | Löng innskráning                                   | Úthluta eða fjarlægja heimild til að skrá sig inn með því að skanna strikamerki eða nota kort.                                                                                                                               | Já            | Já                | Já            | Já               | Nr.              |
-| 920  | Stimpilklukka                                        | Kýla inn og kýla út vinnuvaktir og pásur.                                                                                                                                                              | Já            | Já                | Já            | Nr.                | Nr.              |
+| 920  | Stimpilklukka                                        | Kýla inn og kýla úr vinnuvöktum og pásum.                                                                                                                                                              | Já            | Já                | Já            | Nr.                | Nr.              |
 | 921  | Skoða færslur stimpilklukku                           | Sýna tímaklukkufærslur fyrir alla starfsmenn í versluninni.                                                                                                                                                      | Já            | Já                | Já            | Nr.                | Nr.              |
 | 922  | Skoða upplýsingar um afurð                              | Opna afurðarupplýsingasíðuna fyrir línuatriðið sem valið er núna.                                                                                                                                            | Já            | Já                | Nr.             | Já               | Nr.              |
 | 923  | Staðfesting bankasamtalna                          | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
@@ -273,11 +273,11 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 1219 | Opna vefslóð í sölustað                                   | Opnaðu vefslóð sem er stillt af stjórnanda í POS.                                                                                                                                                                           | Já            | Já                | Já            | Já               | Nr.              |
 | 1220 | Stjórna Safe                                       | Hafa umsjón með öryggishólfinu fyrir mismunandi skrár.                                                                                                                                                                       | Já            | Já                | Já            | Já               | Nr.              |
 | 1221 | Ógilda frestað viðskipti                       | Ógilda frestað viðskipti.                                                                                                                                                                               | Já            | Já                | Já            | Já               | Nr.              |
-| 1300 | Sleppa fjárhagsskráningu                          | Slepptu skattskráningu.                                                                                                                                                                                       | Já            | Já                | Já            | Já               | Já             |
-| 1301 | Merkja fjárhagstilvik sem skráð                      |  Merktu fjárhagsatburð sem skráðan.                                                                                                                                                                                  | Já            | Já                | Já            | Já               | Já             |
-| 1302 | Ljúka skráningarferli fjárhags              | Ljúktu við fjárhagsskráningarferlið.                                                                                                                                                                           | Já            | Já                | Já            | Já               | Já             |
-| 1303 | Sleppa villu í ástandsskoðun                           | Slepptu villu í heilsuskoðun.                                                                                                                                                                                        | Já            | Já                | Já            | Já               | Já             |
-| 1304 |  Fresta fjárhagsskráningu                     | Fresta skattskráningu.                                                                                                                                                                                  | Já            | Já                | Já            | Já               | Já             |
+| 1300 | Sleppa fjárhagsskráningu                          | Slepptu skattskráningu.                                                                                                                                                                                       | Nr.            | Nr.                | Nr.            | Já               | Nr.             |
+| 1301 | Merkja fjárhagstilvik sem skráð                      |  Merktu fjárhagsatburð sem skráðan.                                                                                                                                                                                  | Nr.            | Nr.                | Nr.            | Já               | Nr.             |
+| 1302 | Ljúka skráningarferli fjárhags              | Ljúktu við fjárhagsskráningarferlið.                                                                                                                                                                           | Nr.            | Nr.                | Já            | Já               | Já             |
+| 1303 | Sleppa villu í ástandsskoðun                           | Slepptu villu í heilsuskoðun.                                                                                                                                                                                        | Já            | Já                | Já            | Já               | Nr.             |
+| 1304 |  Fresta fjárhagsskráningu                     | Fresta skattskráningu.                                                                                                                                                                                  | Nr.            | Nr.                | Nr.            | Já               | Nr.             |
 | 1400 | Stjórna gátlistum og verkefnum                       | Hafa umsjón með gátlista starfsmanna og verkefnum.                                                                                                                                                                        | Nr.             | Nr.                 | Já            | Nr.                | Nr.              |
 | 2000 | Áætla stjórnun                               | Þessi aðgerð er ekki enn studd.                                                                                                                                                                           | Já            | Já                | Já            | Nei                | Nei              |
 | 2001 | Áætla beiðnir                                 | Þessi aðgerð er ekki enn studd.                                                                                                                                                                           | Já            | Já                | Já            | Nr.                | Nr.              |

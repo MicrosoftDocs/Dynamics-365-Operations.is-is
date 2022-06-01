@@ -2,7 +2,7 @@
 title: Neðanmálseining
 description: Þetta efni fjallar um neðanmálseiningar og hvernig á að stofna þær í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 03/02/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 81db5cf32f23b7ee1ca8325eeec2e6ceafda55e0
-ms.sourcegitcommit: 90a553e271e7cd471fed2e4f006d753fdb67b47d
+ms.openlocfilehash: 542796ffce08694954d03878cd7782b01c2c6b27
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8374832"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780260"
 ---
 # <a name="footer-module"></a>Neðanmálseining  
 
@@ -39,22 +39,22 @@ Eins og á við um flesta gáma, styður neðanmálseiningin eiginleika fyrir fy
 
 ## <a name="modules-available-in-a-footer-module"></a>Einingar eru fáanlegar í neðanmálseiningunni
 
-**Fótur atriði** – Fóthlutaeining getur innihaldið annað hvort fyrirsögn eða tengil. Fyrirsögnin er almennt notuð sem heiti fótahluta.  Hægt er að stilla hvern tengil í neðanmálinu þannig að hann hafi bara texta (til dæmis tenglana „Hafðu samband“ og „Persónuvernd“), eða þannig að hann hafi bæði texta og mynd (til dæmis tengla á samfélagsmiðlum). Ef bæði fyrirsögn og tengill eru gefin upp mun fyrirsagnareiginleikinn hafa forgang yfir tengilinn. 
+**Fótur atriði** – Fóthlutaeining getur innihaldið annað hvort fyrirsögn eða tengil. Fyrirsögnin er almennt notuð sem heiti fótahluta.  Hægt er að stilla hvern tengil í neðanmálinu þannig að hann hafi bara texta (til dæmis tenglana „Hafðu samband“ og „Persónuvernd“), eða þannig að hann hafi bæði texta og mynd (til dæmis tengla á samfélagsmiðlum). Ef bæði fyrirsögn og hlekkur er til staðar mun fyrirsagnareiginleikinn hafa forgang yfir hlekkinn. 
 
 **Efst á síðu** - Einingin Efst á síðu veitir tengil fyrir fljótlega flettingu efst á síðuna. Áfangastaðar er krafist. Sjálfgefið gildi áfangastaðar er \#, sem fer með notandann efst á síðuna.
 
 ## <a name="create-a-footer-module"></a>Búa til neðanmálseiningu
 
 1. Farðu í **Brot** og veldu **Nýtt** til að búa til nýtt brot.
-1. Í glugganum **Nýtt brot** skal velja eininguna **Hólf**, slá inn heiti fyrir brotið og síðan velja **Í lagi**.
-1. Í hólfinu **Sjálfgefið hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Neðanmálsflokkur** og síðan velja **Í lagi**.
-1. Í hólfinu **Neðanmálsflokkur** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Neðanmálsatriði** og síðan velja **Í lagi**.
+1. Í **Veldu brot** valmynd, veldu **Ílát** mát, sláðu inn heiti fyrir brotið og veldu síðan **Allt í lagi**.
+1. Í **Sjálfgefinn gámur** rauf, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Fótur flokkur** mát og veldu síðan **Allt í lagi**.
+1. Í **Fótur flokkur** rauf, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Fótur atriði** mát og veldu síðan **Allt í lagi**.
 1. Veldu hólfið **Neðanmálsatriði** og síðan, hægra megin á eiginleikasvæðinu, skal stilla fyrirsögnina, tengil og texta tengils og mynd eftir því sem þörf krefur.
 1. Til að bæta við fleiri neðanmálsatriðum skal endurtaka skref 5 til 7.
-1. Til að bæta tenglinum „efst á síðu“ í neðanmáli skal velja úrfellingarmerkið (**...**) í hólfinu **Neðanmálsflokkur** og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Efst á síðu** og síðan velja **Í lagi**.
+1. Til að bæta „aftur efst“ tengil við fótinn þinn skaltu velja sporbaug (**...**) í **Fótur flokkur** rauf og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Aftur á toppinn** mát og veldu síðan **Allt í lagi**.
 1. Veldu hólfið **Efst á síðu** og síðan, hægra megin á eiginleikasvæðinu, skal stilla textann og aðrar eiginleikaeiningar eftir því sem þörf krefur.
 1. Veldu **Ljúka við breytingar** til að skila brotinu og veldu síðan **Birta** til að birta það.
 

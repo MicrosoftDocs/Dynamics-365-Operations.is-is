@@ -2,7 +2,7 @@
 title: Nota fartækjavinnusvæði eignastýringar
 description: Í þessu efnisatriði er að finna upplýsingar um fartækjavinnusvæði eignastýringar.
 author: johanhoffmann
-ms.date: 01/15/2021
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 62bb178e714611367c825c87044a31275f5540accc9363137c7cecbcec1bec65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b874237721d9252e7102c2611414a2cc74026c3
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771540"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811505"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Nota fartækjavinnusvæði eignastýringar
 
 [!include [banner](../../includes/banner.md)]
+[!include [mobile app deprecated](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Eignastýringar**. Þetta vinnusvæði gerir notendum kleift að skoða og búa til viðhaldsbeiðnir og verkbeiðnir. Notendur geta einnig skoðað úthlutað verkbeiðnivinnslur í dagatali eða listaskjá. Einnig er hægt að skoða og leita að eignum og hagnýtum stöðum.
 
@@ -45,7 +46,7 @@ Nánar tiltekið gerir fartækjavinnusvæðið **Eignastýring** notendum kleift
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
 
-Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
+Sæktu og settu upp Finance and Operations (Dynamics 365) farsímaforritið:
 
 - [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)

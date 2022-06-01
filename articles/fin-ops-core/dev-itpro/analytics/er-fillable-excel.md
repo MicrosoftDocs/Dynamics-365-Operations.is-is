@@ -2,7 +2,7 @@
 title: Hanna skilgreiningu fyrir myndun skjala á Excel-sniði
 description: Í þessu efni er útskýrt hvernig á að hanna snið rafrænnar skýrslugerðar til að fylla út Excel-sniðmát og síðan mynda skjöl á Excel-sniði á útleið.
 author: NickSelin
-ms.date: 03/25/2022
+ms.date: 05/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645136"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811421"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Hanna skilgreiningu fyrir myndun skjala á Excel-sniði
 
@@ -110,11 +110,11 @@ The **Svið** Hægt er að stilla hluti sem lóðrétt endurtekinn, þannig að 
 >
 > The **Haltu röðum saman** valkosturinn á aðeins við um **Excel \> Skrá** íhlutir sem eru stilltir til að nota Excel vinnubókarsniðmát.
 >
-> The **Haltu röðum saman** valkostinn er aðeins hægt að nota þegar **Virkjaðu notkun á EPPlus bókasafni í rafrænum skýrslugerð** eiginleiki er virkjaður.
+> The **Haltu röðum saman** valkostinn er aðeins hægt að nota þegar **Virkjaðu notkun EPPlus bókasafns í rafrænum skýrslugerð** eiginleiki er virkur.
 >
 > Hægt er að nota þennan eiginleika fyrir **Svið** íhlutir sem eru undir **Síða** hluti. Hins vegar er engin trygging fyrir því [síðufæti samtals](er-paginate-excel-reports.md#add-data-sources-to-calculate-page-footer-totals) verður rétt reiknað með því að nota [Gagnasafn](er-data-collection-data-sources.md) gagnaheimildir.
 
-Til að læra hvernig á að nota þennan valmöguleika skaltu fylgja dæmisskrefunum í [Hannaðu ER snið til að halda línum saman á sömu Excel síðu](er-keep-excel-rows-together.md).
+Til að læra hvernig á að nota þennan valmöguleika, fylgdu dæmi skrefunum í [Hannaðu ER snið til að halda línum saman á sömu Excel síðu](er-keep-excel-rows-together.md).
 
 ### <a name="replication"></a>Gagnaspeglun
 
@@ -152,7 +152,7 @@ Til að byrja að nota þessa virkni þegar þú keyrir einhver ER snið sem vor
 2. Á síðunni **Skilgreiningar þýðingar**, í hlutanum **Tengdir tenglar**, skal velja **Færibreytur rafrænnar skýrslugerðar**.
 3. Á **Rafrænar skýrslubreytur** síðu, á **Runtime** flipann, stilltu **Sjálfvirk raðhæð** valmöguleika til **Já**.
 
-Þegar þú vilt breyta þessari reglu fyrir eitt ER-snið skaltu uppfæra drög að útgáfu þess sniðs með því að fylgja þessum skrefum.
+Þegar þú vilt breyta þessari reglu fyrir eitt ER snið skaltu uppfæra drög að útgáfu þess sniðs með því að fylgja þessum skrefum.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 2. Á síðunni **Skilgreiningar skýrslugerðar**, í hlutanum **Skilgreiningar**, skal velja **Skilgreiningar skýrslugerðar**.
@@ -164,7 +164,7 @@ Til að byrja að nota þessa virkni þegar þú keyrir einhver ER snið sem vor
 
     - **Sjálfgefið** – Notaðu almennu stillinguna sem er stillt í **Sjálfvirk raðhæð** sviði á **Rafrænar skýrslubreytur** síðu.
     - **Já** – Hnekkja almennu stillingu og breyta línuhæð á keyrslutíma.
-    - **Nei** – Hneka almennu stillingu og ekki breyta línuhæð á keyrslutíma.
+    - **Nei** – Hnekkja almennu stillingunni og ekki breyta línuhæðinni á keyrslutíma.
 
 ## <a name="cell-component"></a>Þáttur hólfs
 
@@ -288,6 +288,16 @@ Hægt er að velja **Uppfæra úr Excel** á flipanum **Innflutningur** á aðge
 
 ![Valkosturinn „Stofna sniðseiningu Excel-vinnublaðs“ í svarglugganum Uppfæra úr Excel.](./media/er-excel-format-update-template.png)
 
+Í útgáfu 10.0.28 og síðar geturðu notað **Uppfærðu snið fyrir Excel haus og Excel fætur** valmöguleika.
+
+- Þegar þú stillir þennan valkost á **Nei**, Excel haus- og Excel-fótursniðsþættirnir haldast óbreyttir, jafnvel þótt samsvarandi hausar eða síðufætur hafi verið uppfærðir í vinnublöðum innflutts sniðmáts á Excel vinnubókarsniði.
+- Þegar þú stillir þennan valkost á **Já**, Excel Header og Excel Footer sniðþættir munu breytast þegar samsvarandi hausar eða fótar eru uppfærðir í vinnublöðum innflutts sniðmáts á Excel vinnubókarsniði.
+
+    - Ef uppbyggingu haus eða fótar vinnublaðs hefur ekki verið breytt, eða ef honum hefur aðeins verið bætt við, er uppbygging samsvarandi Excel-haus- eða Excel-fótsniðshluta uppfærð. Bindingar sniðþátta sem eru hreiður undir þessum Excel haus- eða Excel-fótsniði verða varðveittar.
+    - Ef uppbyggingu verkefnablaðshauss eða -fóts hefur verið breytt er samsvarandi Excel-haus- eða Excel-fótsniðsþáttur endurgerður. Bindingar sniðþátta sem eru hreiður undir þessum Excel haus- eða Excel-fótsniði verða fjarlægðar.
+
+![Uppfæra Excel haus- og Excel-fótsniðsvalkosti í Uppfæra úr Excel valmyndinni.](./media/er-excel-format-update-template2.png)
+
 Til að fá frekari upplýsingar um þennan eiginleika skal fylgja skrefunum í [Breyta rafrænum skýrslugerðarsniðum með því að endurnýta Excel-sniðmát](modify-electronic-reporting-format-reapply-excel-template.md).
 
 ## <a name="validate-an-er-format"></a>Villuleita snið rafrænnar skýrslugerðar
@@ -355,7 +365,7 @@ Til að fá frekari upplýsingar um þennan eiginleika skal fylgja skrefunum í 
 
 ## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a> Dæmi 2: Lagað EPPlus vandamálið með sameinuðum frumum
 
-Þú getur keyrt ER snið til að búa til skjal á útleið á Excel vinnubókarsniði. Þegar **Virkjaðu notkun á EPPlus bókasafni í rafrænum skýrslugerð** eiginleiki er virkjaður í **Eiginleikastjórnun** vinnurými, the [EPPlus bókasafn](https://www.nuget.org/packages/epplus/4.5.2.1) er notað til að búa til Excel úttak. Hins vegar vegna þekktra [Excel hegðun](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) og takmörkun á EPPlus bókasafninu, gætirðu lent í eftirfarandi undantekningu: "Get ekki eytt/skrifað yfir sameinuð hólf. Svið er að hluta sameinað hinu sameinaða sviðinu.“ Til að læra hvers konar Excel sniðmát gætu valdið þessari undantekningu og hvernig þú getur lagað vandamálið skaltu klára eftirfarandi dæmi.
+Þú getur keyrt ER snið til að búa til skjal á útleið á Excel vinnubókarsniði. Þegar **Virkjaðu notkun EPPlus bókasafns í rafrænum skýrslugerð** eiginleiki er virkur í **Eiginleikastjórnun** vinnurými, the [EPPlus bókasafn](https://www.nuget.org/packages/epplus/4.5.2.1) er notað til að búa til Excel úttak. Hins vegar vegna þekktra [Excel hegðun](https://answers.microsoft.com/en-us/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) og takmörkun á EPPlus bókasafninu gætirðu lent í eftirfarandi undantekningu: „Get ekki eytt/skrifað yfir sameinuð hólf. Svið er að hluta sameinað hinu sameinaða sviðinu.“ Til að læra hvers konar Excel sniðmát gætu valdið þessari undantekningu og hvernig þú getur lagað vandamálið skaltu klára eftirfarandi dæmi.
 
 1. Í Excel skjáborðsforritinu skaltu búa til nýja Excel vinnubók.
 2. Á vinnublaði **Blað 1**, bætið við **Titill skýrslu** heiti á frumu **A2**.
@@ -365,7 +375,7 @@ Til að fá frekari upplýsingar um þennan eiginleika skal fylgja skrefunum í 
 
 3. Á **Stillingar** síða, [bæta við nýju ER sniði](er-fillable-excel.md#add-a-new-er-format) til að búa til útleið skjal á Excel vinnubókarsniði.
 4. Á **Sniðhönnuður** síða, [flytja inn](er-fillable-excel.md#template-import) hönnuð Excel vinnubók í bætt ER sniði sem nýtt sniðmát fyrir skjöl á útleið.
-5. Á **Kortlagning** flipann, stilltu bindinguna fyrir **Titill skýrslu** hluti af [Cell](er-fillable-excel.md#cell-component) gerð.
+5. Á **Kortlagning** flipann, stilltu bindinguna fyrir **Titill skýrslu** hluti af [Cell](er-fillable-excel.md#cell-component) tegund.
 6. Keyrðu uppsett ER snið. Taktu eftir að eftirfarandi undantekning er hent: "Get ekki eytt/skrifað yfir sameinuð hólf. Svið er að hluta sameinað hinu sameinaða sviðinu.“
 
     ![Skoðaðu niðurstöðurnar af því að keyra uppsett ER sniðið á síðunni Format designer.](./media/er-fillable-excel-example2-2.png)
@@ -393,7 +403,7 @@ Til að fá frekari upplýsingar um þennan eiginleika skal fylgja skrefunum í 
 
 #### <a name="external-data-sources"></a>Ytri gagnagjafar
 
-Ef eitt af sniðmátunum þínum inniheldur PivotTable sem er byggð á a PowerPivot líkan sem vísar til [ytri gagnagjafa](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b), og **Virkjaðu notkun EPPlus bókasafns í rafrænum skýrslugerð** eiginleiki er virkjaður færðu eftirfarandi villuskilaboð þegar þú keyrir ER snið sem notar það sniðmát til að búa til skjal á útleið á Excel sniði: "Skiminnisuppspretta er ekki vinnublað." Til að laga þetta vandamál hefurðu eftirfarandi valkosti:
+Ef eitt af sniðmátunum þínum inniheldur PivotTable sem er byggð á a PowerPivot líkan sem vísar til [ytri gagnagjafa](https://support.microsoft.com/office/create-a-pivottable-with-an-external-data-source-db50d01d-2e1c-43bd-bfb5-b76a818a927b), og **Virkjaðu notkun á EPPlus bókasafni í rafrænum skýrslugerð** eiginleiki er virkjaður færðu eftirfarandi villuskilaboð þegar þú keyrir ER snið sem notar það sniðmát til að búa til skjal á útleið á Excel sniði: "Skiminnisuppspretta er ekki vinnublað." Til að laga þetta vandamál hefurðu eftirfarandi valkosti:
 
 - **Mælt með:** Endurhannað Excel lausnina sem þú ert að nota:
 

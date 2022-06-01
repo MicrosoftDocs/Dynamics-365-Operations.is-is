@@ -2,7 +2,7 @@
 title: Gagnvirk eiginleikaeining
 description: Þetta efnisatriði fjallar um gagnvirkar eiginleikaeiningar og útskýrir hvernig á að bæta þeim við síður svæða í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5b18a29ce43e69ec0578602535f21e52388fe3d04ac14673bbdefed9ec8ea161
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ab325189812289390740e31fd673ee9892f9759
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749851"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780740"
 ---
 # <a name="interactive-feature-module"></a>Gagnvirk eiginleikaeining
 
@@ -64,16 +64,16 @@ Eining gagnvirks eiginleika getur stutt ýmis útlit og stíla út frá þema. �
 Til að bæta einingu gagnvirks eiginleika við nýja síðu og stilla nauðsynlega eiginleika í vefsmið Commerce skal fylgja þessum skrefum.
 
 1. Farðu í **Sniðmát** og opnaðu markaðssetningarsniðmátið fyrir heimasíðu vefsvæðisins (eða búðu til nýtt sniðmát markaðssetningar).
-1. Í hólfinu **Aðalsvæði** á Sjálfgefin síða skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Gagnvirkur eiginleiki** og síðan velja **Í lagi**.
+1. Í **Aðal** rauf sjálfgefna síðunnar, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Gagnvirkur eiginleiki** mát og veldu síðan **Allt í lagi**.
 1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
 1. Farðu í **Síður** og opnaðu heimasíðu vefsvæðisins (eða búðu til nýja heimasíðu með sniðmáti markaðssetningar).
-1. Í hólfinu **Aðal** á sjálfgefnu síðunni velurðu úrfellingarhnappinn (**...**) og velur síðan **Bæta við einingu**.
-1. Í svarglugganum **Bæta við einingu** undir **Velja einingar** skal velja eininguna **Gagnvirkur eiginleiki** og síðan velja **Í lagi**.
+1. Í **Aðal** rauf sjálfgefna síðunnar, veldu sporbaug hnappinn (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** svargluggi, undir **Veldu Modules**, veldu **Gagnvirkur eiginleiki** mát og veldu síðan **Allt í lagi**.
 1. Í eiginleikaglugga einingar fyrir gagnvirkan eiginleika skal bæta við fyrirsögn.
-1. Í hólfinu **Gagnvirkur eiginleiki** velurðu úrfellingarhnappinn (**...**) og velur síðan **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Gagnvirkt eiginleikaatriði** og síðan velja **Í lagi**.
-1. Í eiginleikaglugga einingar fyrir gagnvirkt eiginleikaatriði skal bæta við mynd, texta í fyrirsögn, efnisgrein og vefslóð.
+1. Í **Gagnvirkur eiginleiki** rauf, veldu sporbaughnappinn (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Gagnvirkt atriði** mát og veldu síðan **Allt í lagi**.
+1. Bættu við mynd, fyrirsagnartexta, málsgreinatexta og vefslóð í eiginleikarúðu gagnvirku eiginleikahlutareiningarinnar.
 1. Bættu við og skilgreindu fleiri einingar fyrir gagnvirkt eiginleikaatriði eftir þörfum.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna.
 1. Veldu **Ljúka við breytingar** til að athuga með sniðmátið og veldu síðan **Birta** til að birta það.

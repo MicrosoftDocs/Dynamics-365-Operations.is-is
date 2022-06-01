@@ -2,7 +2,7 @@
 title: Afurðasafnseiningar
 description: Þetta efnisatriði veitir yfirlit yfir vörusafnseiningar í Microsoft Dynamics 365 Commerce.
 author: v-chgri
-ms.date: 01/28/2021
+ms.date: 05/18/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7bc76aa8d5728005711ee8f9758532a989e3568c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 4ff891eef79835fb4a65535ce8152e5b17023b9c
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984545"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780410"
 ---
 # <a name="product-collection-modules"></a>Afurðasafnseiningar
 
@@ -70,11 +70,14 @@ Vörusafnseiningin styður [flýtiskoðunareininguna](quick-view-module.md), sem
 Til að bæta afurðasafnseiningu við flokksíðu skaltu fylgja þessum skrefum.
 
 1. Farðu í **Síður** og veldu **Ný** til að búa til nýja síðu.
-1. Veljið sama sniðmát og er notað á sjálfgefnu flokkasíðunni í glugganum **Velja sniðmát**. Undir **Síðuheiti** skal færa inn viðeigandi heiti og velja síðan **Í lagi**.
-1. Í hólfinu **Undirsvæði síðufótar**, skal velja úrfellingarmerkið (**...**) og síðan **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Hólf** og síðan velja **Í lagi**.
-1. Í hólfinu **Hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
-1. Í glugganum **Bæta við einingu** skal velja eininguna **Vörusafn** og síðan velja **Í lagi**.  
+1. Í **Búðu til nýja síðu** svargluggi, undir **Nafn síðu**, sláðu inn viðeigandi síðuheiti og veldu síðan **Næst**.
+1. Undir **Veldu sniðmát**, veldu sama sniðmát og notað er á sjálfgefna flokkasíðunni þinni og veldu síðan **Næst**.
+1. Undir **Veldu skipulag**, veldu síðuútlit (til dæmis, **Sveigjanlegt skipulag**), og veldu síðan **Næst**.
+1. Undir **Farið yfir og klárað**, skoðaðu stillingar síðunnar. Ef þú þarft að breyta síðuupplýsingunum skaltu velja **Til baka**. Ef síðuupplýsingarnar eru réttar skaltu velja **Búa til síðu**. 
+1. Í **Undirfótur** rauf, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Ílát** mát og veldu síðan **Allt í lagi**.
+1. Í **Ílát** rauf, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Vörusöfnun** mát og veldu síðan **Allt í lagi**.  
 1. Í eiginleikaglugganum fyrir afurðasafnseininguna velurðu **Bæta við afurðalista**.
 1. Í glugganum **Velja grunnstillingu afurðalista** skal velja gerð listans og uppruna listans og slá inn fjölda vara. Grunnstillið aðra valkosti sem eru í boði fyrir listagerðina. Nánari upplýsingar um listagerðir er að sjá í töflunni sem fylgir. 
 1. Veljið **Í lagi**.

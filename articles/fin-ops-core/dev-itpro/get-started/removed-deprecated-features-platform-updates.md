@@ -2,7 +2,7 @@
 title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í vettvangsuppfærslum á Finance and Operations forritum.
 author: sericks007
-ms.date: 04/26/2022
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644608"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811247"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eiginleikar verkvangs sem hafa verið fjarlægðir eða eru úreltir
 
@@ -31,6 +31,33 @@ ms.locfileid: "8644608"
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
 Ítarlegar upplýsingar um hluti í Finance and Operations öppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/global/axtechrefrep_61). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af Finance and Operations forritum.
+
+
+## <a name="feature-deprecation-effective-june-2022"></a>Afskrift eiginleiki gildir í júní 2022
+
+### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>Fjármál og rekstur (Dynamics 365) farsímaforrit og farsímavettvangur 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Við erum að afnema Finance and Operations (Dynamics 365) farsímaforritið og vettvanginn til að sameinast í einn farsímavettvang, sem er Power Apps. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, hægt er að byggja upp farsímaupplifun yfir Finance and Operations appgögn með Power Platform sameining. Sjáðu [Að byggja upp farsímaupplifun](../power-platform/build-mobile-experiences.md) fyrir frekari upplýsingar. |
+| **Afurðasvæði sem haft er áhrif á**         | Forrit Finance and Operations |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt. Lokadagsetning stuðnings er miðuð við október 2024. |
+
+
+## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>Palluppfærslur fyrir útgáfu 10.0.29 af Finance and Operations forritum
+
+### <a name="panorama-tab-style"></a>Víðmyndarflipastíll
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Síður sem fletta lárétt í takt við úrelt útlitsmynstur sem hefur þekkt notagildi og aðgengisvandamál.  |
+| **Skipt út fyrir aðra eiginleika?**   | Nei, en aðrir flipastílar eru enn fáanlegir. |
+| **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt. |
+
 
 ## <a name="feature-deprecation-effective-april-2022"></a>Afskrift eiginleiki gildir í apríl 2022
 
@@ -98,7 +125,7 @@ ms.locfileid: "8644608"
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Engin stýring er til að framvkæma þetta tilvik. |
-| **Skipt út fyrir aðra eiginleika?**   | Já, færa núverandi aðferðir sem eru áskrifendur að **OnDBSynchronize** viðburður í SysSetup aukinn bekk. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, færa núverandi aðferðir sem eru áskrifendur að **OnDBSynchronize** atburður í SysSetup aukinn bekk. |
 | **Afurðasvæði sem haft er áhrif á**         | Gagnagrunnssamstilling |
 | **Dreifingarvalkostur**              | Öll |
 | **Staða**                         | Úrelt. Fyrirhugaður lokadagur er í október 2022. |
