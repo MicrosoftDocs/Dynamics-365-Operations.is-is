@@ -12,6 +12,8 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.28 (júlí 2022)
+                  href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (júlí 2022)
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (maí 2022)
@@ -1300,6 +1302,10 @@
               items:
                 - name: Búa til sérstilltar svarsíður fyrir 4xx/5xx stöðukóðunarvillur
                   href: build-pages-400-500-errors.md
+            - name: Samþætting þjónustu
+              items:
+                - name: Samþætta Customer Voice í svæði fyrir rafræn viðskipti
+                  href: customer-voice-integration.md
         - name: Svikavörn
           items:
             - name: Dynamics 365 Fraud Protection samþætting við Dynamics 365 Commerce
@@ -2118,6 +2124,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Nota gagnagjafa fyrir GAGNASÖFNUN í sniðum rafrænnar skýrslugerðar
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: Nota USER INPUT PARAMETER gagnagjafa til að tilgreina færibreytur fyrir skýrslu sem á að búa til
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Kemba gagnagjafa
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina gagnalíkön
@@ -2728,6 +2736,8 @@
                               href: e-commerce-extensibility/interactive-components.md
                             - name: Herma eftir innskráningarstöðu við staðbundna þróun
                               href: e-commerce-extensibility/mock-sign-in.md
+                            - name: Setja upp API-vefsannvottun með því að nota Azure Active Directory B2C
+                              href: e-commerce-extensibility/web-api-auth-trans-aad-b2c.md
                             - name: Grunnstilla eiginleika einingar sem á að sýna út frá samhengi
                               href: e-commerce-extensibility/configure-properties-context.md
                             - name: Gera einingar alþjóðlegar með því að nota klasann CultureInfoFormatter
@@ -2944,6 +2954,8 @@
                   href: troubleshoot/items-without-inventory-checked-out.md
                 - name: Afmörkun einkunna birtist á síðum leitarniðurstaðna og flokka þegar lausn einkunna og umsagna er ekki virkjuð
                   href: troubleshoot/hide-ratings-refiner.md
+                - name: Millisamtala pöntunaryfirlits inniheldur ekki skatta eða gjöld þegar notaðar eru sérsniðnar einingar pöntunaryfirlits
+                  href: troubleshoot/summary-taxes-custom-modules-10.0.27.md
             - name: Umsjón viðskiptavina
               items:
                 - name: Kynningartölvupóstur er ekki sendur þegar nýir viðskiptavinir eru stofnaðir

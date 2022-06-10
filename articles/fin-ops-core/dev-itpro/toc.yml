@@ -14,9 +14,11 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu verkvangsuppfærslna
                   href: get-started/whats-new-home-page.md
-                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.27 (júlí 2022)
+                - name: Verkvangsuppfærsla fyrir útgáfu 10.0.28 (ágúst 2022)
+                  href: get-started/whats-new-platform-updates-10-0-28.md
+                - name: Verkvangsuppfærsla fyrir útgáfu 10.0.27 (júlí 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.26 (maí 2022)
+                - name: Verkvangsuppfærsla fyrir útgáfu 10.0.26 (maí 2022)
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: Verkvangsuppfærslur fyrir útgáfu 10.0.25 (apríl 2022)
                   href: get-started/whats-new-platform-updates-10-0-25.md
@@ -1018,6 +1020,8 @@
                   href: lifecycle-services/azure-data-explorer.md
             - name: Endurræsa umhverfisþjónustu
               href: lifecycle-services/restart-environment-services.md
+            - name: Uppfæra umhverfisstjórnanda
+              href: lifecycle-services/update-environment-admin.md
             - name: Tilkynna framleiðslustöðvun
               href: lifecycle-services/report-production-outage.md
             - name: Rekja innskráningar notenda
@@ -1266,6 +1270,8 @@
               items:
                 - name: Yfirlit innbóta
                   href: power-platform/add-ins-overview.md
+            - name: Að byggja upp farupplifun
+              href: power-platform/build-mobile-experiences.md
             - name: Reglur og samskipti
               href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Fartækjaverkvangur
