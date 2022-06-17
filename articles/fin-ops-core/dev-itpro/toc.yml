@@ -410,6 +410,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: Skilgreina vöruhúsaforritið fyrir uppsetningu á staðnum
                       href: deployment/warehousing-for-on-premise-deployments.md
+                    - name: Virkja RSAT í Finance + Operations (on-premises) umhverfi
+                      href: deployment/onprem-rsat-configuration.md
                     - name: Setja upp nettengda prentara í innanhússumhverfi
                       href: analytics/install-network-printer-onprem.md
                     - name: Greining á staðnum
@@ -1048,6 +1050,8 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Leiðsögn fyrir Azure DevOps-viðbót (opin forútgáfa)
                   href: lifecycle-services/dts-ado-tutorial.md
+                - name: Dynamics 365 Translation Service Visual Studio Code-viðbót (opin forútgáfa)
+                  href: lifecycle-services/dts-vscode-doc.md
         - name: Samþætting Microsoft Power Platform
           items:
             - name: Yfirlit

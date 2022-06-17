@@ -1,6 +1,6 @@
 ---
 title: Tekjuskráning í sölupöntunum
-description: Þetta efnisatriði lýsir grunnvirkni við samþykki á tekjum í sölupöntunum og reikningum. Tekjuskráning er tiltæk í sölupöntuninni og á samsvarandi reikningi sem er búinn til út frá sölupöntuninni.
+description: Þessi grein lýsir grunnvirkni við samþykki á tekjum í sölupöntunum og reikningum. Tekjuskráning er tiltæk í sölupöntuninni og á samsvarandi reikningi sem er búinn til út frá sölupöntuninni.
 author: kweekley
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 7aaa5e7c3b568400c72a1a84b5f29082579aeeae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5df7341160940f5c5db0dd4c5d86e4d9698d22e2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725485"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899958"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Tekjuskráning í sölupöntunum
 
@@ -27,10 +27,10 @@ ms.locfileid: "8725485"
 > [!NOTE]
 > Ekki er hægt að kveikja á tekjuskráningareiginleikanum í gegnum eiginleikastjórnun. Nota verður skilgreiningarlykil til að kveikja á honum.
 
-Þetta efnisatriði lýsir grunnvirkni við samþykki á tekjum í sölupöntunum og reikningum. Tekjuskráning er tiltæk í sölupöntun og á samsvarandi reikningi sem er búinn til út frá sölupöntuninni. Einnig er hægt að stofna sölupöntunina í gegnum tíma- og efnisverk.
+Þessi grein lýsir grunnvirkni við samþykki á tekjum í sölupöntunum og reikningum. Tekjuskráning er tiltæk í sölupöntun og á samsvarandi reikningi sem er búinn til út frá sölupöntuninni. Einnig er hægt að stofna sölupöntunina í gegnum tíma- og efnisverk.
 
 > [!NOTE]
-> Á skýringarmyndum í þessu efnisatriði hafa dálkar verið faldir eða þeim bætt við hnitanet til að skýra hugtök betur. Þar af leiðandi gætu síður og gögn á skýringarmyndum verið frábrugðnar því sem sést í vörunni.
+> Á skýringarmyndum í þessari grein hafa dálkar verið faldir eða þeim bætt við hnitanet til að skýra hugtök betur. Þar af leiðandi gætu síður og gögn á skýringarmyndum verið frábrugðnar því sem sést í vörunni.
 
 ## <a name="enter-a-sales-order"></a>Færa inn sölupöntun
 

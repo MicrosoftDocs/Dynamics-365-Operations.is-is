@@ -1,6 +1,6 @@
 ---
-title: Opnar innistæður vantar í árslokalokun
-description: Þetta efnisatriði útskýrir hvers vegna opna stöður kann að vanta þegar þú lokar ári og hvernig á að endurbyggja þær stöður ef þær vantar.
+title: Opnunarstöður vantar í lokun í árslok
+description: Þessi grein útskýrir hvers vegna opna stöður kann að vanta þegar þú lokar ári og hvernig á að endurbyggja þær stöður ef þær vantar.
 author: kweekley
 ms.date: 05/12/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 582363ba6c5f6e63e695d41e73ee2f0b382cf26e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9b64118fc3ff368e21ea8935c1e706f2161c620f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727173"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894849"
 ---
-# <a name="year-end-close-missing-opening-balances"></a>Opnar innistæður vantar í árslokalokun
+# <a name="year-end-close-missing-opening-balances"></a>Opnunarstöður vantar í lokun í árslok
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvers vegna opna stöður kann að vanta þegar þú lokar ári og hvernig á að endurbyggja þær stöður ef þær vantar.
+Þessi grein útskýrir hvers vegna opna stöður kann að vanta þegar þú lokar ári og hvernig á að endurbyggja þær stöður ef þær vantar.
 
 ### <a name="symptom"></a>Einkenni
 
@@ -36,7 +36,7 @@ Hér eru nokkur atriði sem skal athuga ef þú hefur lokað ári í Fjárhag og
 
 Ef reiturinn **Afturkalla fyrri lokun** er stilltur á **Já** er verið að afturkalla fyrri árslokalokun fyrir sama fjárhagsár. Þegar keyra á ferli til að bakfæra árslokalokun verður öllum færslum fyrir bæði lokunar- og opnunarstöður eytt rétt eins og árinu hafi aldrei verið lokað. Fylgiskjölunum er einnig eytt. Ferlið fyrir lokun í árslok verður ekki keyrt aftur sjálfkrafa. Hefja þarf ferlið aftur og í þetta skipti uppfæra **Afturkalla fyrri lokun** valkostinn í **Nei**.
 
-Fjallað er um þessar aðstæður í algengum spurningum um árslokalokun. Frekari upplýsingar eru í [Algengar spurningar um verkþætti árslokunar](faq-year-end-activities.md).
+Fjallað er um þessar aðstæður í grein um algengar spurningar um árslokalokun. Frekari upplýsingar eru í [Algengar spurningar um verkþætti árslokunar](faq-year-end-activities.md).
 
 ### <a name="symptom"></a>Einkenni
 

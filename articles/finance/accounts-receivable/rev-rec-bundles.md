@@ -1,6 +1,6 @@
 ---
 title: Búnt tekjuskráningar
-description: Þetta efnisatriði lýsir búntaðgerðinni sem er hluti af tekjuskráningarmöguleikanum í viðskiptakröfum. Búnt samanstendur af yfirvöru og mörgum hlutum vöru.
+description: Þessi grein lýsir búntaðgerðinni sem er hluti af tekjuskráningarmöguleikanum í viðskiptakröfum. Búnt samanstendur af yfirvöru og mörgum hlutum vöru.
 author: kweekley
 ms.date: 01/04/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 62a4d7f36ad0b36edeaec75e9b670e2aad143703
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 478fdfc69514fba829deb63b4e2904ff3fe1e199
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725820"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876297"
 ---
 # <a name="revenue-recognition-bundles"></a>Búnt tekjuskráningar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir búntaðgerðinni sem er hluti af tekjuskráningarmöguleikanum í viðskiptakröfum. Búnt samanstendur af yfirvöru og mörgum hlutum vöru. Yfirvaran er færð inn á sölupöntun þannig að pöntunarfærsla verði skilvirkari. Hún er aftur á móti brotin niður í vöruhlutana. Innri skjöl, svo sem fylgiseðill, munu sýna vöruhlutana. Ytri skjöl sýna hins vegar aðeins yfirvöruna.
+Þessi grein lýsir búntaðgerðinni sem er hluti af tekjuskráningarmöguleikanum í viðskiptakröfum. Búnt samanstendur af yfirvöru og mörgum hlutum vöru. Yfirvaran er færð inn á sölupöntun þannig að pöntunarfærsla verði skilvirkari. Hún er aftur á móti brotin niður í vöruhlutana. Innri skjöl, svo sem fylgiseðill, munu sýna vöruhlutana. Ytri skjöl sýna hins vegar aðeins yfirvöruna.
 
 > [!NOTE]
 > Rásir Microsoft Dynamics 365 Commerce, t.d. á netinu, sölustaður og símaver, styðja ekki tekjuskráningu (þ.m.t. búntaðgerðina). Þetta inniheldur einnig PTC-lausnina fyrir Dynamics 365 Supply Chain Management og Dynamics 365 Sales. Ekki skal bæta vörum, sem eru skilgreindar til að nota tekjuskráningu, við pantanir eða færslur sem eru stofnaðar í Commerce-rásum eða í PTC-lausninni.

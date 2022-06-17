@@ -1,6 +1,6 @@
 ---
 title: Uppsetning tekjuskráningar
-description: Þetta efnisatriði lýsir uppsetningarkostum fyrir tekjuskráningu og þýðingu þeirra.
+description: Þessi grein lýsir uppsetningarkostum fyrir tekjuskráningu og þýðingu þeirra.
 author: kweekley
 ms.date: 04/28/2022
 ms.topic: index-page
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 86690af303eb87335c980bd7dae3ae34ce06a2a0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: ef294af8d3a8f39a80b98aeba293267dcca1f29b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725512"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900014"
 ---
 # <a name="revenue-recognition-setup"></a>Uppsetning tekjuskráningar
 [!include [banner](../includes/banner.md)]
 
-Nýrri einingu **Tekjuskráningar** hefur verið bætt við sem inniheldur valmyndaratriði fyrir alla uppsetningu sem er nauðsynleg. Þetta efnisatriði lýsir uppsetningarvalkostunum og þýðingu þeirra.
+Nýrri einingu **Tekjuskráningar** hefur verið bætt við sem inniheldur valmyndaratriði fyrir alla uppsetningu sem er nauðsynleg. Þessi grein lýsir uppsetningarvalkostunum og þýðingu þeirra.
 
 > [!NOTE]
 > Núna er sjálfgefið kveikt á tekjuskráningareiginleikanum í gegnum eiginleikastjórnun. Ef fyrirtækið notar ekki þennan eiginleika er hægt að slökkva á honum á vinnusvæði **eiginleikastjórnunar**.

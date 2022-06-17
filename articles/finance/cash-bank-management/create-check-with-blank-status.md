@@ -1,6 +1,6 @@
 ---
 title: Búa til auðar ávísanir
-description: Þetta efnisatriði útskýrir hvernig á að búa til auðar ávísanir fyrir bankareikning.
+description: Þessi grein útskýrir hvernig á að búa til auðar ávísanir fyrir bankareikning.
 author: abruer
 ms.date: 10/26/2017
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b3a0fbb26f135e567bf6af7b2f10b39a28be4c9e
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 834e11e0e359521c674e2b6fd78c93dcb23961a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861445"
 ---
 # <a name="create-checks-that-have-blank-status"></a>Búa til auðar ávísanir
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að búa til auðar ávísanir. Til dæmis væri hægt að stofna auða ávísun til að skrá ávísun sem hefur skemmst og er ekki hægt að nota til greiðslu.
+Þessi grein útskýrir hvernig á að búa til auðar ávísanir. Til dæmis væri hægt að stofna auða ávísun til að skrá ávísun sem hefur skemmst og er ekki hægt að nota til greiðslu.
 
 Á síðunni **Ávísanir** er hægt að framkvæma viðhaldsverk fyrir ávísanir. Til dæmis er hægt að búa til ný ávísunarnúmer og eyða ávísunum. Einnig er hægt að búa til ávísanir með stöðuna **Auð**. Eftir að auðar ávísanir eru stofnaðar er ekki hægt að eyða þeim eða endurnýta þær í kerfinu.
 

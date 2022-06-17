@@ -1,6 +1,6 @@
 ---
 title: Villuleita í færslum verslunar fyrir útreikning uppgjörs
-description: Þetta efnisatriði lýsir virkni til að villuleita færslur verslunar í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir virkni til að villuleita færslur verslunar í Microsoft Dynamics 365 Commerce.
 author: analpert
 ms.date: 01/31/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: analpert
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f51b1f39aa212fe8587761721194db7791bec5bc
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 4be40189777a37495f185467050b61af47b684d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087450"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890514"
 ---
 # <a name="validate-store-transactions-for-statement-calculation"></a>Villuleita í færslum verslunar fyrir útreikning uppgjörs
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir virkni til að villuleita færslur verslunar í Microsoft Dynamics 365 Commerce. Villuleitarferlið auðkennir og merkir færslur sem munu valda villum við bókun, áður en þær eru teknar inn í bókunarferli uppgjörsins.
+Þessi grein lýsir virkni til að villuleita færslur verslunar í Microsoft Dynamics 365 Commerce. Villuleitarferlið auðkennir og merkir færslur sem munu valda villum við bókun, áður en þær eru teknar inn í bókunarferli uppgjörsins.
 
 Þegar reynt er að bóka uppgjör getur villuleitarferlið mistekist vegna ósamræmis í gögnum í færslutöflum viðskiptanna. Hér eru nokkur dæmi um þætti sem geta valdið þessu ósamræmi:
 

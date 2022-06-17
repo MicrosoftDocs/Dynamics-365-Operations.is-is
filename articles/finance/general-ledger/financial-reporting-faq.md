@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um fjárhagsskýrslugerð
-description: Þetta efnisatriði veitir svör við nokkrum algengum spurningum um fjárhagsskýrslugerð.
+description: Þessi grein veitir svör við nokkrum algengum spurningum um fjárhagsskýrslugerð.
 author: jinniew
 ms.date: 07/07/2021
 ms.topic: index-page
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b5e0702864815c630f35e3f5b753ece1cb1daa71
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 5981946a4bba2c58402f4cf566bfa008de67363b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722297"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901371"
 ---
 # <a name="financial-reporting-faq"></a>Algengar spurningar um fjárhagsskýrslugerð
 
-Þetta efnisatriði veitir svör við algengum spurningum um fjárhagsskýrslugerð.
+Þessi grein veitir svör við algengum spurningum um fjárhagsskýrslugerð.
 
 ## <a name="how-do-i-restrict-access-to-a-report-by-using-tree-security"></a>Hvernig takmarka ég aðgang að skýrslu með öryggistré?
 

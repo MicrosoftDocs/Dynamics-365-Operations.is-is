@@ -56,10 +56,12 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/finance/toc.json
                 - name: Nota uppfærslur á skýjaumhverfi
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/finance/toc.json
-                - name: Virkja uppfærslur í uppsetningum á staðnum
+                - name: Virkja uppfærslur í uppsetningu á staðnum
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Skilgreina þjónustuuppfærslur
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
+                - name: Forvinnsla og eftirvinnsla
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/finance/toc.json
                 - name: Gera hlé á þjónustuuppfærslum
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Fá tilkynningar um þjónustuuppfærslur
@@ -1684,6 +1686,8 @@
                       href: general-ledger/sales-tax-calculation-methods-origin-field.md
                     - name: Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: VSK-útreikningur og sléttun
+                      href: general-ledger/sales-tax-calculation-rounding.md
                     - name: VSK-útreikningur í almennum færslubókarlínum
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Reikna og stilla virðisaukaskatt á reikningi lánardrottins
@@ -2168,6 +2172,8 @@
                   href: localizations/emea-est-vat-statement-details.md
                 - name: Eistneskt Intrastat
                   href: localizations/emea-est-intrastat.md
+                - name: ESB-sölulisti
+                  href: localizations/emea-est-eu-sales-list.md
             - name: Evrópa
               items:
                 - name: Yfirlit yfir Evrópu
@@ -2452,6 +2458,8 @@
                   href: localizations/emea-hun-online-invoicing.md
                 - name: VSK-skýrsla fyrir Ungverjaland
                   href: localizations/emea-hun-sales-tax-reports.md
+                - name: Ungverskt Intrastat
+                  href: localizations/emea-hun-intrastat.md
                 - name: Frestaður VSK-útreikningur
                   href: localizations/emea-hun-deferred-vat.md
             - name: Ísland
@@ -3112,6 +3120,8 @@
                   href: localizations/emea-lva-vat-statement-details.md
                 - name: Lettneskt Intrastat
                   href: localizations/emea-lva-intrastat.md
+                - name: ESB-sölulisti
+                  href: localizations/emea-lva-eu-sales-list.md
             - name: Litháen
               items:
                 - name: Yfirlit yfir Litháen
@@ -3130,6 +3140,8 @@
                   href: localizations/emea-ltu-saf-t.md
                 - name: Setja upp flutningsskjöl fyrir vöruflutninga innan fyrirtækis
                   href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
+                - name: ESB-sölulisti
+                  href: localizations/emea-ltu-eu-sales-list.md
             - name: Malasía
               items:
                 - name: Yfirlit yfir Malasíu
@@ -4483,6 +4495,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Leita að vandamálum sem tengjast afköstum í skilgreiningum rafrænnar skýrslugerðar
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
+                    - name: Minnka fjölda töflureita sem eru sóttir við keyrslu
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/finance/toc.json
                 - name: Stjórnun viðskiptaskjala (BDM)
                   items:
                     - name: Yfirlit viðskiptaskjalastjórnunar

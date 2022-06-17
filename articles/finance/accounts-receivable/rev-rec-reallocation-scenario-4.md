@@ -1,6 +1,6 @@
 ---
 title: Endurúthlutun tekjuskráningar – Aðstæður 4
-description: Þetta efnisatriði fer í gegnum aðstæður endurúthlutunar þar sem lína er fjarlægð úr fyrirliggjandi sölupöntun sem er reikningsfærð að hluta til. Þessar aðstæður leiða til sömu niðurstöðu burtséð frá því hvort línan er fjarlægð úr sölupöntuninni eða fær stöðu afturköllunar.
+description: Þessi grein fer í gegnum aðstæður endurúthlutunar þar sem lína er fjarlægð úr fyrirliggjandi sölupöntun sem er reikningsfærð að hluta til. Þessar aðstæður leiða til sömu niðurstöðu burtséð frá því hvort línan er fjarlægð úr sölupöntuninni eða fær stöðu afturköllunar.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7d37877e914856baf5e5e38871f5b0b1c1eff526
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 06e6322ff55259b5c59d570b73199591ab46c767
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725736"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891667"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>Endurúthlutun tekjuskráningar – Aðstæður 4
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði fer í gegnum aðstæður endurúthlutunar þar sem lína er fjarlægð úr fyrirliggjandi sölupöntun sem er reikningsfærð að hluta til. Þessar aðstæður leiða til sömu niðurstöðu burtséð frá því hvort línan er fjarlægð úr sölupöntuninni eða fær stöðu afturköllunar.
+Þessi grein fer í gegnum aðstæður endurúthlutunar þar sem lína er fjarlægð úr fyrirliggjandi sölupöntun sem er reikningsfærð að hluta til. Þessar aðstæður leiða til sömu niðurstöðu burtséð frá því hvort línan er fjarlægð úr sölupöntuninni eða fær stöðu afturköllunar.
 
 Í þessum aðstæðum er valkosturinn **Bóka leiðréttingar reiknings á viðskiptakröfur** stilltur á **Nei** í flipanum **Tekjuskráning** á síðunni **Fjárhagsfæribreytur** (**Tekjuskráning \> Uppsetning \> Fjárhagsfæribreytur**).
 

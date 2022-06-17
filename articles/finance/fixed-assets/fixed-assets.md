@@ -1,6 +1,6 @@
 ---
 title: Heimasíða eigna
-description: Þetta efnisatriði veitir aðgang að tilföngum sem geta hjálpað þér að nota eignir fyrir Microsoft Dynamics 365 Finance.
+description: Þessi grein veitir aðgang að tilföngum sem geta hjálpað þér að nota eignir fyrir Microsoft Dynamics 365 Finance.
 author: moaamer
 ms.date: 08/31/2017
 ms.topic: index-page
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cee27143ca005f2fa42899365933ec3014aa13f6
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 57e81aaefd61eb9e695d8fe0d1c7cac4091bece7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720447"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880817"
 ---
 # <a name="fixed-assets-home-page"></a>Heimasíða eigna
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir aðgang að tilföngum sem geta hjálpað þér að nota eignir fyrir Microsoft Dynamics 365 Finance. Eignir eru atriði sem eru einhvers virði og eru í eigu einstaklings eða fyrirtækis. Atriði eru t.d. byggingar, ökutæki, land og búnaður. 
+Þessi grein veitir aðgang að tilföngum sem geta hjálpað þér að nota eignir fyrir Microsoft Dynamics 365 Finance. Eignir eru atriði sem eru einhvers virði og eru í eigu einstaklings eða fyrirtækis. Atriði eru t.d. byggingar, ökutæki, land og búnaður. 
 
 Hægt er að setja upp og færa inn yfirtökuupplýsingar fyrir eignir. Síðan er hægt að stjórna þeim með því að afskrifa þær og stilla eignafærsluþröskuld til að ákvarða afskriftir. Hægt er að reikna út breytingar á eignum en líka losna við þær. Þegar „Fjárhagur“ er notaður ásamt „Eignum“ er hægt að skoða núgildandi virði allra eigna. Aðferðin sem notuð er til að meðhöndla eignir verður að samræmast bæði alþjóðlegum bókhaldsstöðlum og viðeigandi löggjöf í hverju landi/svæði. Kröfurnar geta falið í sér reglur fyrir skráningu kaup- og losunarfærslna, afskriftir, líftíma, uppfærslur og niðurfærslur eigna. Virkni „Eigna“ felur í sér marga af þessum stöðlum og reglum.
 

@@ -1,6 +1,6 @@
 ---
 title: Sjálfgefnar fjárhagsvíddir í fjárhagsbókum
-description: Þetta efnisatriði lýsir reglunum sem skilgreina það hvernig fjárhagsvíddargildi eru stillt í færslum sem eru færðar inn í gegnum fjárhagsbækur. Þar er einnig að finna upplýsingar um aðstæður þar sem fastar víddir eru notaðar.
+description: Þessi grein lýsir reglunum sem skilgreina það hvernig fjárhagsvíddargildi eru stillt í færslum sem eru færðar inn í gegnum fjárhagsbækur. Þar er einnig að finna upplýsingar um aðstæður þar sem fastar víddir eru notaðar.
 author: kweekley
 ms.date: 09/04/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 51235b8a5dac50aad5031456760c970e50506d66
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 8d0fcf836e22207baae562801fb082d735df0f96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713107"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907923"
 ---
 # <a name="default-financial-dimensions-on-financial-journals"></a>Sjálfgefnar fjárhagsvíddir í fjárhagsbókum
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir reglunum sem skilgreina það hvernig fjárhagsvíddargildi eru stillt í færslum sem eru færðar inn í gegnum fjárhagsbækur (en ekki í gegnum birgða- eða verkbækur). Þar er einnig að finna upplýsingar um aðstæður þar sem fastar víddir eru notaðar.
+Þessi grein lýsir reglunum sem skilgreina það hvernig fjárhagsvíddargildi eru stillt í færslum sem eru færðar inn í gegnum fjárhagsbækur (en ekki í gegnum birgða- eða verkbækur). Þar er einnig að finna upplýsingar um aðstæður þar sem fastar víddir eru notaðar.
 
 ## <a name="symptom"></a>Einkenni
 

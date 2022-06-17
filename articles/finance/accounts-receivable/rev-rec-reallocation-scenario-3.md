@@ -1,6 +1,6 @@
 ---
 title: Endurúthlutun tekjuskráningar – Aðstæður 3
-description: Þetta efnisatriði fer í gegnum aðstæður endurúthlutunar þar sem nýrri línu er bætt við fyrirliggjandi, reikningsfærða sölupöntun. Þegar nýrri vöru er bætt við samning er hægt að bæta henni við annaðhvort nýja sölupöntun eða fyrirliggjandi sölupöntun.
+description: Þessi grein fer í gegnum aðstæður endurúthlutunar þar sem nýrri línu er bætt við fyrirliggjandi, reikningsfærða sölupöntun. Þegar nýrri vöru er bætt við samning er hægt að bæta henni við annaðhvort nýja sölupöntun eða fyrirliggjandi sölupöntun.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3b3b41b09cc9f4c56fdb04f6a2c4156bc1637699
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7aa62406a80eb3381206172caaae457ec71b7bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726578"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904817"
 ---
 # <a name="revenue-recognition-reallocation--scenario-3"></a>Endurúthlutun tekjuskráningar – Aðstæður 3
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði fer í gegnum aðstæður endurúthlutunar þar sem nýrri línu er bætt við fyrirliggjandi, reikningsfærða sölupöntun. Þegar nýrri vöru er bætt við samning er hægt að bæta henni við annaðhvort nýja sölupöntun eða fyrirliggjandi sölupöntun. Þessar aðstæður sýna einnig hvað gerist þegar viðskiptakröfur eru uppfærðar vegna endurúthlutunar.
+Þessi grein fer í gegnum aðstæður endurúthlutunar þar sem nýrri línu er bætt við fyrirliggjandi, reikningsfærða sölupöntun. Þegar nýrri vöru er bætt við samning er hægt að bæta henni við annaðhvort nýja sölupöntun eða fyrirliggjandi sölupöntun. Þessar aðstæður sýna einnig hvað gerist þegar viðskiptakröfur eru uppfærðar vegna endurúthlutunar.
 
 Í þessum aðstæðum er valkosturinn **Bóka leiðréttingar reiknings á viðskiptakröfur** stilltur á **Já** í flipanum **Tekjuskráning** á síðunni **Fjárhagsfæribreytur** (**Tekjuskráning \> Uppsetning \> Fjárhagsfæribreytur**).
 

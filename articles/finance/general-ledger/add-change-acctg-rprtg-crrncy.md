@@ -1,6 +1,6 @@
 ---
 title: Breyta bókhalds- eða skýrslugjaldmiðli
-description: Þetta efnisatriði útskýrir hvernig á að breyta bókhalds- eða skýrslugjaldmiðli eða bæta skýrslugjaldmiðli við fjárhagsuppsetningu.
+description: Í þessari grein er útskýrt hvernig á að breyta bókhalds- eða skýrslugjaldmiðli eða bæta skýrslugjaldmiðli við fjárhagsuppsetningu.
 author: kweekley
 ms.date: 05/05/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ff5c38193e8469cb806c525b77809844847d6c92
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b02432c8e0bdf52c2a588f67a581b78e682b1bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904615"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Breyta bókhalds- eða skýrslugjaldmiðli
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að breyta bókhalds- eða skýrslugjaldmiðli eða bæta skýrslugjaldmiðli við fjárhagsuppsetningu.
+Í þessari grein er útskýrt hvernig á að breyta bókhalds- eða skýrslugjaldmiðli eða bæta skýrslugjaldmiðli við fjárhagsuppsetningu.
 
 ## <a name="symptom"></a>Einkenni
 
@@ -73,7 +73,7 @@ Fylgdu þessum skrefum til að afrita uppsetningu og aðalgögn úr núverandi l
 10. Í **Valdar einingar** svæðinu skaltu velja **Bæta við sniðmáti**.
 11. Velja sniðmátin sem á að nota. Tillögur að sniðmátum fyrir nýjan lögaðila eru m.a. **025 - Fjárhagur** og **Fjármál**. Við ráðleggjum þér að fara yfir öll hin sniðmátin sem eru í boði til að finna út hvort einhver þeirra uppfylli kröfur þínar.
 12. Veldu **Afrita í lögaðila** til að hefja runuvinnslu sem býr til valdar einingar og afritar þær í marklögaðilann.
-13. Eftir að ferlinu er lokið, en áður en færslur eru bókaðar, skaltu fara í fjárhaginn og uppfæra bókhalds- og skýrslugjaldmiðla eins og lýst var fyrr í þessu efnisatriði.
+13. Eftir að ferlinu er lokið, en áður en færslur eru bókaðar, skaltu fara í fjárhaginn og uppfæra bókhalds- og skýrslugjaldmiðla eins og lýst var fyrr í þessari grein.
 
 Ef þú stofnaðir nýjan lögaðila svo þú getir breytt bókhalds- eða skýrslugjaldmiðli skaltu ganga úr skugga um að upphafsstöðurnar séu umreiknaðar úr gjaldmiðlum gamla lögaðilans og yfir í nýju gjaldmiðlana.
 

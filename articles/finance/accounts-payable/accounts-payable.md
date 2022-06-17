@@ -1,6 +1,6 @@
 ---
 title: Viðskiptaskuldir – heimasíða
-description: Í þessu efnisatriði er að finna yfirlit yfir viðskiptaskuldir.
+description: Í þessari grein er að finna yfirlit yfir viðskiptaskuldir.
 author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "21901"
 - intro-internal
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 5ed6aacb94de14bdb72185cd528f62e74cd3cc15
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595288"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946102"
 ---
 # <a name="accounts-payable-home-page"></a>Viðskiptaskuldir – heimasíða
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna yfirlit yfir viðskiptaskuldir. 
+Í þessari grein er að finna yfirlit yfir viðskiptaskuldir. 
 
 Hægt er að færa inn reikninga lánardrottins handvirkt eða fá þá rafrænt í gegnum gagnaeiningu. Þegar reikningarnir hafa verið færðir inn eða mótteknir er hægt að skoða og samþykkja þá í gegnum færslubókarsamþykkt eða síðuna **Reikningur lánardrottnins**. Nota má reikningsjöfnun, reikningsreglur lánardrottins og verkflæði til að gera endurskoðunarferlið sjálfvirkt þannig að reikningar sem uppfylla ákveðin skilyrði eru sjálfkrafa samþykktir en aðrir merktir fyrir yfirferð af notanda með heimild.
 
@@ -126,7 +126,7 @@ Eftirfarandi efnisatriði veita upplýsingar um uppgjör. Uppgjör er það ferl
 
 #### <a name="blogs"></a>Blogg
 
-Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoft Dynamics 365 Finance - Financials-blogginu](https://community.dynamics.com/365/financeandoperations/b/financials) er að finna umfjöllun, fréttir og aðrar upplýsingar um viðskiptaskuldir og aðrar lausnir.
+Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)og [Microsoft Dynamics 365 Finance - Financials-blogginu](https://community.dynamics.com/365/financeandoperations/b/financials) er að finna umfjöllun, fréttir og aðrar upplýsingar um viðskiptaskuldir og aðrar lausnir.
 
 Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika Dynamics 365 á einum stað.
 

@@ -1,6 +1,6 @@
 ---
 title: Dreifingarstjórnun pöntunar (DOM)
-description: Þetta efnisatriði lýsir virkni dreifingarstjórnunar pöntunar (DOM) í Dynamics 365 Commerce.
+description: Þessi grein lýsir virkni dreifingarstjórnunar pöntunar (DOM) í Dynamics 365 Commerce.
 author: josaw1
 ms.date: 02/08/2022
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f19fbe2a9f768a91c495a6a4bcb0e475adb867ae
-ms.sourcegitcommit: 8bea5a0c232ac31dcafddfcc0d715c496d8dd445
+ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102010"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878513"
 ---
 # <a name="distributed-order-management-dom"></a>Dreifingarstjórnun pöntunar (DOM)
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir virkni dreifingarstjórnunar pöntunar (DOM) í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir virkni dreifingarstjórnunar pöntunar (DOM) í Microsoft Dynamics 365 Commerce.
 
 DOM er alhliða fínstillingalausn fyrir uppfyllingar sem hjálpar til við að hámarka skilvirkni við uppfyllingu pantana í aðfangakeðjuneti. DOM hjálpar til við að tryggja að vörur séu afhentar viðskiptavinum í réttu magni, frá réttum upprunastað og á réttum tíma. DOM getur einnig hjálpað til við að hámarka hagnað, lágmarka kostnað og uppfylla kröfur um þjónustustig.
 

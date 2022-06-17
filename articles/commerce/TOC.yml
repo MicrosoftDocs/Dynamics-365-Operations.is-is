@@ -54,10 +54,12 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
                 - name: Nota uppfærslur á skýjaumhverfi
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
-                - name: Virkja uppfærslur í uppsetningum á staðnum
+                - name: Virkja uppfærslur í uppsetningu á staðnum
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina þjónustuuppfærslur
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
+                - name: Forvinnsla og eftirvinnsla
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/commerce/toc.json
                 - name: Gera hlé á þjónustuuppfærslum
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Fá tilkynningar um þjónustuuppfærslur
@@ -394,6 +396,8 @@
                   items:
                     - name: Store Commerce-forrit
                       href: dev-itpro/store-commerce.md
+                    - name: Sameina Modern POS við Store Commerce
+                      href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Leiðbeiningar við innleiðingu tækjastjórnunar
                       href: implementation-considerations-devices.md
                     - name: Veldu á milli Store Commerce og sölukerfis í skýinu
@@ -2222,6 +2226,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
                     - name: Leita að vandamálum sem tengjast afköstum í skilgreiningum rafrænnar skýrslugerðar
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Minnka fjölda töflureita sem eru sóttir við keyrslu
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/commerce/toc.json
                 - name: Stjórnun viðskiptaskjala (BDM)
                   items:
                     - name: Yfirlit viðskiptaskjalastjórnunar
@@ -2476,6 +2482,8 @@
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Flutningar á sígildu Retail SDK
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
+                    - name: 'Úrelt og fjarlægð API, klasar og aðferðir'
+                      href: dev-itpro/obsolete-apis-classes-methods.md
                     - name: Nútímavæðing tæknistafla verslunar fyrir Commerce (hvítbók)
                       href: 'https://www.microsoft.com/download/details.aspx?id=103896'
                 - name: Uppsetning á umhverfi
@@ -2560,6 +2568,8 @@
                   items:
                     - name: Stofna viðbótarpakka kvörðunareiningar í skýinu
                       href: dev-itpro/CSU-packaging.md
+                    - name: Sameina viðbót kvörðunareiningar í skýinu fyrir uppsetningu
+                      href: dev-itpro/merge-csu-extensions.md
                     - name: Fjarlægja viðbætur Cloud Scale Unit
                       href: dev-itpro/retail-sdk/remove-csu-package.md
             - name: Store Commerce
@@ -2908,6 +2918,14 @@
                       href: dev-itpro/create-retail-experience-app.md
         - name: Úrræðaleit
           items:
+            - name: Store Commerce
+              items:
+                - name: Vandamál við uppsetning og innleiðingu
+                  href: troubleshoot/store-commerce-setup-installation.md
+                - name: Vandamál með afköst
+                  href: troubleshoot/store-commerce-performance.md
+                - name: Vandamál við viðbætur
+                  href: troubleshoot/store-commerce-extensions.md
             - name: Vinnsla pantana
               items:
                 - name: Villa þar sem greiðslugerð er ekki kreditkort

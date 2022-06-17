@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um verkþætti árslokunar
-description: Þetta efnisatriði inniheldur spurningar sem geta komið upp við lokun árs, sem og svör sem kunna að koma að gagni við verkþætti lokunar í árslok.
+description: Í þessari grein er að finna spurningar sem geta komið upp við lokun árs, sem og svör sem kunna að koma að gagni við verkþætti lokunar í árslok.
 author: moaamer
 ms.date: 12/21/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1c5aca6180821dfc9fd1d475d4726c82acdf4d78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865741"
 ---
 # <a name="year-end-activities-faq"></a>Algengar spurningar um verkþætti árslokunar 
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði inniheldur spurningar sem geta komið upp við lokun árs, sem og svör sem kunna að koma að gagni við verkþætti lokunar í árslok. Upplýsingarnar í þessu efnisatriði eru fyrst og fremst tengdar spurningum sem varða verkþætti lokunar í árslok fyrir fjárhag og viðskiptaskuldir.
+Í þessari grein er að finna spurningar sem geta komið upp við lokun árs, sem og svör sem kunna að koma að gagni við verkþætti lokunar í árslok. Upplýsingarnar í þessari grein eru fyrst og fremst tengdar spurningum sem varða verkþætti lokunar í árslok fyrir fjárhag og viðskiptaskuldir.
 
 ## <a name="general-ledger-year-end-enhancements"></a>Viðbætur fjárhags í árslok 
 Útgáfu 10.0.20 fylgdu endurbætur fyrir lokun í árslok, sem eru sjálfgefið virkar frá og með útgáfu 10.0.25. Ef fyrirtækið notar eldri útgáfu en 10.0.25 er mælt með að þessi eiginleiki sé virkjaður áður en lokun í árslok hefst. Kveikja þarf á þessum eiginleika í kerfinu til að hægt sé að nota hann. Stjórnendur geta notað vinnusvæðið „Eiginleikastjórnun“ til að skoða stöðu eiginleikans og kveikja á honum ef þess er krafist. Þar er eiginleikinn skráður á eftirfarandi hátt:
@@ -75,7 +75,7 @@ Hægt er að gera nokkrar breytingar til að bæta frammistöðu við lokun í �
 [![Fjárhagsvíddasamstæður.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Sniðmátsskilgreining árslokalokunar
-Sniðmát árslokalokunar gerir fyrirtækjum kleift að velja fjárhagsvíddarstigið sem vinna á með þegar stöður hagnaðar og taps eru fluttar í óráðstafað eigið fé. Stillingarnar gera fyrirtækinu kleift að vinna með ítarlegar fjárhagsvíddir (**Loka öllum**) þegar stöðurnar eru fluttar í óráðstafað eigið fé eða velja að taka saman upphæðirnar í eitt víddargildi (**Loka einni**). Hægt er að skilgreina þetta fyrir hverja fjárhagsvídd. Frekari upplýsingar um þessar stillingar er að finna í efnisatriðinu [Lokun í árslok](year-end-close.md).
+Sniðmát árslokalokunar gerir fyrirtækjum kleift að velja fjárhagsvíddarstigið sem vinna á með þegar stöður hagnaðar og taps eru fluttar í óráðstafað eigið fé. Stillingarnar gera fyrirtækinu kleift að vinna með ítarlegar fjárhagsvíddir (**Loka öllum**) þegar stöðurnar eru fluttar í óráðstafað eigið fé eða velja að taka saman upphæðirnar í eitt víddargildi (**Loka einni**). Hægt er að skilgreina þetta fyrir hverja fjárhagsvídd. Frekari upplýsingar um þessar stillingar er að finna í greininni [Lokun í árslok](year-end-close.md).
 
 Mælt er með að þú metir kröfur fyrirtækisins og, ef mögulegt, loka eins mörgum víddum og hægt er með valkostinum **Loka einni** fyrir árslok til að bæta afköst. Með því að loka í einu víddargildi (sem má einnig vera autt gildi) reiknar kerfið út færri atriði þegar stöður eru ákvarðaðar fyrir lykilfærslur óráðstafaðs eigin fjár.
 

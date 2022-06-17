@@ -1,6 +1,6 @@
 ---
 title: Skýrslugerð og greining með heimasíðu Power BI
-description: Í þessu efnisatriði er bent á tilföng sem hægt er að nota til að fá frekari upplýsingar um viðskiptagreind og skýrslugerðarverkfæri sem eru í boði.
+description: Í þessari grein er bent á tilföng sem hægt er að nota til að fá frekari upplýsingar um viðskiptagreind og skýrslugerðarverkfæri sem eru í boði.
 author: sericks007
 ms.date: 10/02/2019
 ms.topic: index-page
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1c0ee254a5300cfc84eb434e4785b6eceacf0375b983b33991445443957a33
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4be3c576cd0fac1239113efcdd7e97810b193a88
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712737"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906634"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Skýrslugerð og greining með heimasíðu Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er bent á tilföng sem nota má til að fræðast um viðskiptagreind og skýrslugerðarverkfæri sem eru í boði.
+Í þessari grein er bent á tilföng sem nota má til að fræðast um viðskiptagreind og skýrslugerðarverkfæri sem eru í boði.
 
 ## <a name="get-started"></a>Hefjast handa
 - [Aðgangsupplýsingar og skýrslugerð](information-access-reporting.md)

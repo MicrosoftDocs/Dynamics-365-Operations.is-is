@@ -1,6 +1,6 @@
 ---
 title: Endurúthlutun tekjuskráningar
-description: Í þessu efnisatriði er að finna upplýsingar um endurúthlutun sem gerir fyrirtækjum kleift að endurreikna tekjuupphæðir þegar skilmálum samningsbundinnar sölu er breytt. Þar er að finna tengla á önnur efnisatriði sem útskýra hvernig á að skrá tekjur í ýmsum aðstæðum.
+description: Í þessari grein er að finna upplýsingar um endurúthlutun sem gerir fyrirtækjum kleift að endurreikna tekjuupphæðir þegar skilmálum samningsbundinnar sölu er breytt. Þar er að finna tengla á önnur efnisatriði sem útskýra hvernig á að skrá tekjur í ýmsum aðstæðum.
 author: kweekley
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7528202ed140dc2c0a7fc8c595178f155c3c1f75
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a79288fd69a2e7780ff03952b05b99db2ed88e41
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726128"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903421"
 ---
 # <a name="revenue-recognition-reallocation"></a>Endurúthlutun tekjuskráningar
 
@@ -58,7 +58,7 @@ Ein færibreyta hefur áhrif á endurúthlutunarferlið.
 
 Vegna þess að hægt er að endurúthluta sölupöntun sem er reikningsfærð að hluta til eða í heild sinni, verður að leiðrétta allar fyrri bókhaldsfærslur fyrir reikninginn með því að nota nýju endurúthlutuðu tekjuupphæðirnar. Leiðréttingin er gerð með því að bakfæra upprunalega bókhaldsfærslu reikningsins og bóka nýja bókhaldsfærslu sem byggir á endurúthlutuðum tekjuupphæðum.
 
-Hvert fyrirtæki fyrir sig verður að ákveða hvort leiðréttingin eigi að uppfæra fjárhag eða hvort hún eigi einnig að uppfæra viðskiptakröfur. Ákvörðunin sem er tekin ákvarðar viðeigandi stillingu á valkostinum **Bóka leiðréttingar reiknings á viðskiptakröfur** í flipanum **Tekjuskráning** á síðunni **Fjárhagsfæribreytur** (**Tekjuskráning \> Uppsetning \> Fjárhagsfæribreytur**). Viðeigandi stilling veltur á tilteknum aðstæðum. Fyrir frekari upplýsingar um mögulegar aðstæður skal nota tenglana í hlutanum [Aðstæður endurúthlutunar](#scenarios-for-reallocation) síðar í þessu efnisatriði.
+Hvert fyrirtæki fyrir sig verður að ákveða hvort leiðréttingin eigi að uppfæra fjárhag eða hvort hún eigi einnig að uppfæra viðskiptakröfur. Ákvörðunin sem er tekin ákvarðar viðeigandi stillingu á valkostinum **Bóka leiðréttingar reiknings á viðskiptakröfur** í flipanum **Tekjuskráning** á síðunni **Fjárhagsfæribreytur** (**Tekjuskráning \> Uppsetning \> Fjárhagsfæribreytur**). Viðeigandi stilling veltur á tilteknum aðstæðum. Fyrir frekari upplýsingar um mögulegar aðstæður skal nota tenglana í hlutanum [Aðstæður endurúthlutunar](#scenarios-for-reallocation) síðar í þessari grein.
 
 [![Tekjuskráningarflipi á síðunni Fjárhagsfæribreytur.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
@@ -90,7 +90,7 @@ Til að hefja endurúthlutunarferlið skal velja **Endurúthluta verði með ný
 
 [![Endurúthluta verði með nýrri síðu pöntunarlína.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-Efra hnitanetið á síðunni **Endurúthluta verði með nýjum pöntunarlínum** heitir **Sala**. Þar er að finna sölupantanir fyrir viðskiptavinina. Velja skal sölupantanirnar sem þarf að endurúthluta. Ef sölupöntun er með kenni endurúthlutunar hefur annar notandi þegar merkt hana til endurúthlutunar. Ef einni eða fleiri sölupöntunum var áður endurúthlutað og þær verða að fylgja með í annarri endurúthlutun þarf fyrst að afturkalla endurúthlutun þessara sölupantana. Þá er hægt að hafa hana með í nýrri endurúthlutun. Nákvæmari upplýsingar er að finna í hlutunum [Afturkalla endurúthlutun](#undo-a-reallocation) og [Endurúthluta mörgum sinnum](#reallocate-multiple-times) síðar í þessu efnisatriði.
+Efra hnitanetið á síðunni **Endurúthluta verði með nýjum pöntunarlínum** heitir **Sala**. Þar er að finna sölupantanir fyrir viðskiptavinina. Velja skal sölupantanirnar sem þarf að endurúthluta. Ef sölupöntun er með kenni endurúthlutunar hefur annar notandi þegar merkt hana til endurúthlutunar. Ef einni eða fleiri sölupöntunum var áður endurúthlutað og þær verða að fylgja með í annarri endurúthlutun þarf fyrst að afturkalla endurúthlutun þessara sölupantana. Þá er hægt að hafa hana með í nýrri endurúthlutun. Nákvæmari upplýsingar er að finna í hlutunum [Afturkalla endurúthlutun](#undo-a-reallocation) og [Endurúthluta mörgum sinnum](#reallocate-multiple-times) síðar í þessari grein.
 
 Neðra hnitanetið á síðunni kallast **Línur**. Þegar búið er að velja eina eða fleiri sölupantanir í hnitanetinu **Sala** sýnir hnitanetið **Línur** sölupöntunarlínurnar. Velja skal sölupöntunarlínurnar sem á að endurúthluta. Ef aðeins ein sölupöntun er valin verður að endurúthluta línum sömu sölupöntunarinnar. Þessi staða getur komið upp þegar ein af sölupöntunarlínunum var áður reikningsfærð og síðan var nýrri línu bætt við eða fyrirliggjandi lína var fjarlægð eða hætt við hana. Ef lína var fjarlægð birtist hún ekki í hnitanetinu. Þess vegna er ekki hægt að velja hana. Hins vegar verður hún samt tekin til greina þegar endurúthlutunarferlið er keyrt.
 
