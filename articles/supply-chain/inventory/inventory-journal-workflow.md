@@ -1,6 +1,6 @@
 ---
 title: Samþykktarverkflæði birgðabókar
-description: Þetta efnisatriði lýsir því hvernig setja á upp og nota samþykktarverkflæði birgðabókar fyrir ýmsar gerðir efnislegra birgðafærslna. Verkflæði birgðabókar tryggja að aðeins er hægt að bóka samþykktar birgðabækur í færslum.
+description: Þessi grein lýsir því hvernig á að setja upp og nota verkflæði fyrir samþykki birgðabókar fyrir ýmsar gerðir af efnislegum birgðafærslum. Verkflæði birgðabókar tryggja að aðeins er hægt að bóka samþykktar birgðabækur í færslum.
 author: yufeihuang
 ms.date: 07/21/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778306"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873986"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Samþykktarverkflæði birgðabókar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig setja á upp og nota samþykktarverkflæði birgðabókar fyrir ýmsar gerðir efnislegra birgðafærslna, t.d. úthreyfingar og innhreyfingar, birgðahreyfingar, uppskriftir og afstemming efnislegra birgða. Verkflæði birgðabókar tryggja að aðeins er hægt að bóka samþykktar birgðabækur í færslum.
+Þessi grein lýsir því hvernig á að setja upp og nota samþykkisvinnuflæði birgðabókar fyrir ýmsar gerðir birgðafærslur, svo sem útgáfur og kvittanir, birgðahreyfingar, efnisseðla (uppskriftir) og afstemmingu efnislegra birgða. Verkflæði birgðabókar tryggja að aðeins er hægt að bóka samþykktar birgðabækur í færslum.
 
 > [!NOTE]
 > Samþykktarverkflæði birgðabókar á aðeins við um færslur sem skráðar eru með birgðastjórnunareiningunni. Þau vinna ekki með birgðabækur sem ræsast í einingu vöruhúsakerfis.
@@ -44,7 +44,7 @@ Verkflæði styðja útgáfustýringu og hvert þeirra er með auðkenni verkfl�
 
 Til að stofna samþykktarverkflæði birgðabókar:
 
-1. Opnið **Birgðastjórnun \> Uppsetning \> Verkflæði birgðastjórnunar**.
+1. Opnið **Birgðastjórnun \> Uppsetning\> Verkflæði birgðastjórnunar**.
 1. Veljið **Nýtt** á aðgerðasvæðinu.
 1. Veljið gerð birgðabókar þar sem setja á upp verkflæði:
     - **Birgðatalningarbók**

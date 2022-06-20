@@ -1,6 +1,6 @@
 ---
 title: Stjórnunaryfirlit gæða og ósamkvæmni
-description: Þetta efnisatriði kynnir stjórnunareiginleika gæða og ósamkvæmni í Microsoft Dynamics 365 Supply Chain Management og útskýrir hvernig þeir geta hjálpað til við að bæta gæði afurða í aðfangakeðjunni.
+description: Þessi grein kynnir gæða- og ósamræmisstjórnunareiginleikana í Microsoft Dynamics 365 Supply Chain Management og útskýrir hvernig þau geta hjálpað til við að bæta vörugæði í aðfangakeðjunni þinni.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb4bcb7f554c22b4e1ab1b41867bd2d3dcca4d4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510dee78f6fed02e6511aedad00fcb1b15195470
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985521"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907494"
 ---
 # <a name="quality-and-nonconformance-management-overview"></a>Stjórnunaryfirlit gæða og ósamkvæmni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði kynnir stjórnunareiginleika gæða og ósamkvæmni í Microsoft Dynamics 365 Supply Chain Management og útskýrir hvernig þeir geta hjálpað til við að bæta gæði afurða í aðfangakeðjunni.
+Þessi grein kynnir gæða- og ósamræmisstjórnunareiginleikana í Microsoft Dynamics 365 Supply Chain Management og útskýrir hvernig þau geta hjálpað til við að bæta vörugæði í aðfangakeðjunni þinni.
 
 Gæðaeftirlit felur í sér prófun á vörum og umsjón með ósamkvæmu efni. Gæðastjórnunarferli hjálp að tryggja mikinn vörugæði í birgðakeðjunni. Þessar ferli hjálpa einnig að besta birgðakeðjuferli og auka ánægju viðskiptavina. Gæðastjórnun getur hjálpað við að stjórna biðtíma þegar ósamkvæmar afurðir eru meðhöndlaðar, óháð uppruna þeirra. Hægt er að tengja niðurstöður greiningar við leiðréttingarverkefni. Kerfið getur raðað verkefni til að leiðrétta vandamál og því að koma í veg endurtekningar af þeim vandamálum í framtíðinni. Gæðastjórnun leyfir þér einnig að rekja vandamál (þ.m.t innri vandamál) eftir gerð vandamáls, og leyfir þér að bera kennsl lausnir sem annaðhvort til skamms tíma eða lengri tíma. Upplýsingar um afkastavísi (KPI) veita innsýn í vandamál með ósamkvæmi sem hafa áður komið upp og þeirra lausna sem voru notuð til að leiðrétta þau. Hægt er að nota söguleg gögn hjálpa til að fara yfir skilvirkni fyrri gæðaráðstafana og til að ákvarða viðeigandi mælieiningar sem nota á í framtíðinni.
 

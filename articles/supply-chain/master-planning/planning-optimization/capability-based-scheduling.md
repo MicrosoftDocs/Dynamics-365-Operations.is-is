@@ -1,6 +1,6 @@
 ---
 title: Röðun með vali á tilföngum út frá getu
-description: Þetta efnisatriði lýsir val á tilfangi í áætlanagerð ótakmarkaðrar afkastagetu þegar möguleikar eru tilgreindir sem tilfangaþarfir fyrir aðgerð.
+description: Þessi grein lýsir tilfangavali við óendanlega getu tímasetningu þegar þú tilgreinir getu sem tilfangaþörf fyrir aðgerð.
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: d1ecdfdbdd605fca953e799ec3f6a82d244bc9f7
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 26b2b65a2d565052b188f4d70f0cc0a773cd7b43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469786"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847963"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Röðun með vali á tilföngum út frá getu
 
 [!include [banner](../../includes/banner.md)]
 
-Með því að tilgreina tilfangaþarfir fyrir aðgerð framleiðsluleiðar skilgreinir þú það sem þarf til að framkvæma aðgerðina. Til dæmis gæti aðgerð þurft tiltekið tilfang eða tilfangaflokk eða samsetningu af hæfni eða getu. Þetta efnisatriði lýsir val á tilfangi í áætlanagerð ótakmarkaðrar afkastagetu þegar möguleikar eru tilgreindir sem tilfangaþarfir fyrir aðgerð.
+Með því að tilgreina tilfangaþarfir fyrir aðgerð framleiðsluleiðar skilgreinir þú það sem þarf til að framkvæma aðgerðina. Til dæmis gæti aðgerð þurft tiltekið tilfang eða tilfangaflokk eða samsetningu af hæfni eða getu. Þessi grein lýsir tilfangavali við óendanlega getu tímasetningu þegar þú tilgreinir getu sem tilfangaþörf fyrir aðgerð.
 
 ## <a name="turn-on-the-capability-based-scheduling-feature"></a>Kveikja á eiginleikanum fyrir áætlanagerð sem byggir á getu
 

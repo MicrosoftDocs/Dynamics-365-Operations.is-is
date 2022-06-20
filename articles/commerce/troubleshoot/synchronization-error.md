@@ -1,6 +1,6 @@
 ---
 title: Samstillingarvilla pöntunar tengist sjálfgefinni greiðsluþjónustu
-description: Þetta efnisatriði inniheldur leiðbeiningar sem geta hjálpað til við að leysa úr villu sem kann að koma upp þegar netpöntun er samstillt.
+description: Þessi grein veitir leiðbeiningar um bilanaleit sem geta hjálpað til við að laga villu sem gæti komið upp þegar netpöntun er samstillt.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 6f8e0ea7675ffc5cbada36207422b410234e33afcaec90636e90e573a90ac484
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 49d16c39fdcee0a22d1cabe14cd9b6d124d6f04d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715237"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901677"
 ---
 # <a name="order-synchronization-error-related-to-the-default-payment-service"></a>Samstillingarvilla pöntunar tengist sjálfgefinni greiðsluþjónustu
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði inniheldur leiðbeiningar sem geta hjálpað til við að leysa úr villu sem kann að koma upp þegar netpöntun er samstillt.
+Þessi grein veitir leiðbeiningar um bilanaleit sem geta hjálpað til við að laga villu sem gæti komið upp þegar netpöntun er samstillt.
 
 ## <a name="description"></a>lýsing
 

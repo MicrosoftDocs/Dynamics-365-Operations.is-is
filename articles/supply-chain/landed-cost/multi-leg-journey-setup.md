@@ -1,6 +1,6 @@
 ---
 title: Uppsetning ferðar með mörgum leggjum
-description: Þetta efnisatriði lýsir því hvernig setja á upp ferðir með mörgum leggjum í gegnum Heildarkostnaður eininguna.
+description: Þessi grein lýsir því hvernig á að setja upp fjölþætta ferðir fyrir landaða kostnaðareininguna.
 author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c65a3d3971593ccf832a6af3c8c27d56a68b46c8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dcb536c03d09d51b247d9060d87db64e2b80383b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689720"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905835"
 ---
 # <a name="multi-leg-journey-setup"></a>Uppsetning ferðar með mörgum leggjum
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig setja á upp ferðir með mörgum leggjum í gegnum **Heildarkostnaður** eininguna.
+Þessi grein lýsir því hvernig á að setja upp fjölfarna ferðir fyrir **Landaður kostnaður** mát.
 
 ## <a name="legs"></a>Leggir
 

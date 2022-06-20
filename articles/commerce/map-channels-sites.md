@@ -1,6 +1,6 @@
 ---
-title: Kortaðu rásir á netviðskiptasíður
-description: Þetta efni lýsir nokkrum af algengari atburðarásum fyrir kortlagningu rása í Microsoft Dynamics 365 Commerce sem hægt er að framreikna fyrir flestar aðrar viðskiptakröfur.
+title: Tengja rásir við svæði fyrir rafræn viðskipti
+description: Þessi grein lýsir nokkrum af algengari atburðarásum fyrir kortlagningu rása í Microsoft Dynamics 365 Commerce sem hægt er að framreikna fyrir flestar aðrar viðskiptakröfur.
 author: samjarawan
 ms.date: 05/11/2022
 ms.topic: article
@@ -14,34 +14,34 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8ce272d63b4a37f99661333a02434708205ea19a
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: 94c43df26e8d6e55a5b6d459b65066d5873e1063
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902764"
 ---
-# <a name="map-channels-to-e-commerce-sites"></a>Kortaðu rásir á netviðskiptasíður
+# <a name="map-channels-to-e-commerce-sites"></a>Tengja rásir við svæði fyrir rafræn viðskipti
 
-Þetta efni lýsir nokkrum af algengari atburðarásum fyrir kortlagningu rása í Microsoft Dynamics 365 Commerce sem hægt er að framreikna fyrir flestar aðrar viðskiptakröfur.
+Þessi grein lýsir nokkrum af algengari atburðarásum fyrir kortlagningu rása í Microsoft Dynamics 365 Commerce sem hægt er að framreikna fyrir flestar aðrar viðskiptakröfur.
 
 Dynamics 365 Commerce styður margar viðskiptasviðsmyndir fyrir kortlagningu [rásir á netinu](#channels) sem hafa stillt sett af vörum, verði og afslætti til [rafræn viðskipti síða](#e-commerce-sites) upplifun fyrir viðskiptavini.
 
-Þetta efni nær yfir eftirfarandi aðstæður:
+Þessi grein fjallar um eftirfarandi aðstæður:
 
 - **Rás á einu tungumáli sem hefur eina upplifun af rafrænum viðskiptum.** Til dæmis gæti þessi atburðarás falið í sér eina vörumerkjasíðu sem er stillt fyrir bandarískan enskan markað.
 - **Fjöltungumálarás sem hefur eina staðbundna upplifun á vefsvæði.** Til dæmis gæti þessi atburðarás falið í sér eina vörumerkjasíðu sem er stillt fyrir Kanada með stuðningi á frönsku og ensku. Í þessari atburðarás hafa notendur sem velja mismunandi tungumál sömu síðuupplifun, en hún er staðfærð á valið tungumál hvers notanda.
 - **Fjöltungumálarás sem hefur mismunandi upplifun á síðuna á hverju tungumáli.** Til dæmis gæti þessi atburðarás falið í sér eina vörumerkjasíðu sem er stillt fyrir Kanada með stuðningi á frönsku og ensku. Í þessari atburðarás er einstök síðaupplifun fyrir hvert tungumál.
-- **Margar rásir (eitt tungumál og/eða fjöltungumál) sem hafa eina staðbundna upplifun á vefsvæði.** Til dæmis gæti þessi atburðarás falið í sér eina vörumerkjasíðu sem er stillt fyrir Ástralíu og Nýja Sjáland. Í þessari atburðarás deila bæði löndin sömu síðuupplifun á ensku, en hvert land er stillt með mismunandi vörur, gjaldmiðil, verð, afslætti og sendingaraðferðir.
+- **Margar rásir (eitt tungumál og/eða fjöltungumál) sem hafa eina staðbundna upplifun af vefsvæði.** Til dæmis gæti þessi atburðarás falið í sér eina vörumerkjasíðu sem er stillt fyrir Ástralíu og Nýja Sjáland. Í þessari atburðarás deila bæði löndin sömu síðuupplifun á ensku, en hvert land er stillt með mismunandi vörur, gjaldmiðil, verð, afslætti og sendingaraðferðir.
 - **Margar rásir (eitt tungumál og/eða fjöltungumál) sem hafa mismunandi upplifun á vefnum á hverja rás.** Til dæmis gæti þessi atburðarás falið í sér eina vörumerkjasíðu sem er stillt fyrir Ástralíu, Kanada og Þýskaland á mörgum tungumálum. Í þessari atburðarás hefur hvert land einstaka vefupplifun sem er stillt með mismunandi vörum, gjaldmiðli, verði, afslætti og sendingarmáta.
 
 ## <a name="channels"></a>Rásir
 
-Rás (einnig þekkt sem netverslun eða netrás) táknar netverslun sem er notuð til að kortleggja vörur, verð, afslætti, tungumál, greiðslumáta, afhendingarmáta, uppfyllingarmiðstöðvar og aðra þætti netupplifunar sem verður í boði fyrir viðskiptavini þína í rafrænum viðskiptum. Rásir eru búnar til og stjórnað í höfuðstöðvum Commerce og kortlagðar á eina [lögaðili](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json#legal-entities). Lögaðilinn er venjulega staðsettur í einu landi sem krefst skattskýrslu fyrir rásina og hægt er að stilla hann með aðeins einum gjaldmiðli.
+Rás (einnig þekkt sem netverslun eða netrás) táknar netverslun sem er notuð til að kortleggja vörur, verð, afslætti, tungumál, greiðslumáta, afhendingarmáta, uppfyllingarmiðstöðvar og aðra þætti netupplifunar sem verður í boði fyrir viðskiptavini þína í rafrænum viðskiptum. Rásir eru búnar til og stjórnað í höfuðstöðvum Commerce og kortlagðar á einn [lögaðili](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json#legal-entities). Lögaðilinn er venjulega staðsettur í einu landi sem krefst skattskýrslu fyrir rásina og hægt er að stilla hann með aðeins einum gjaldmiðli.
 
 Fyrir frekari upplýsingar um rásir, sjá [Rásaryfirlit](channels-overview.md). Fyrir frekari upplýsingar um hvernig á að búa til netrás, sjá [Settu upp netrás](channel-setup-online.md).
 
-Eftirfarandi dæmi frá höfuðstöðvum Commerce sýnir sjálfgefnar netrásir sem eru notaðar með Dynamics 365 Commerce ef kynningargagnavalkosturinn er valinn.
+Eftirfarandi dæmi frá höfuðstöðvum Commerce sýnir sjálfgefnar netrásir sem eru notaðar með Dynamics 365 Commerce ef valkostur kynningargagna er valinn.
 
 ![Sjálfgefnar kynningargagnarásir í höfuðstöðvum Commerce.](media/channel-mapping-1.png)
 
@@ -53,7 +53,7 @@ Fyrir frekari upplýsingar um hvernig á að búa til og hafa umsjón með vefsv
 
 ## <a name="common-channel-mapping-scenarios"></a>Algengar aðstæður fyrir kortlagningu rása
 
-Dynamics 365 Commerce styður mikið úrval af rásakortlagningaratburðarás. Atburðarás rásakortlagningar sem á eftir fylgja eru aðeins undirmengi allra mögulegra rásakortunaratburðarása. Þau eru ætluð sem leiðarvísir til að hjálpa þér að skipuleggja allar einstöku viðskiptaaðstæður sem þú hefur. Hin tilbúna Adventure Works íþróttavöruverslun sem fylgir Dynamics 365 Commerce kynningargögn eru notuð sem dæmi fyrir hverja atburðarás.
+Dynamics 365 Commerce styður mikið úrval af rásakortlagningaratburðarás. Atburðarás rásakortlagningar sem á eftir fylgja eru aðeins undirmengi allra mögulegra rásakortunaratburðarása. Þær eru hugsaðar sem leiðbeiningar til að hjálpa þér að skipuleggja allar einstöku viðskiptaaðstæður sem þú hefur. Hin tilbúna Adventure Works íþróttavöruverslun sem fylgir Dynamics 365 Commerce kynningargögn eru notuð sem dæmi fyrir hverja atburðarás.
 
 ### <a name="single-language-channel-that-has-a-single-e-commerce-site-experience"></a>Rás á einu tungumáli sem hefur eina upplifun af rafrænum viðskiptum
 
@@ -63,7 +63,7 @@ Eftirfarandi dæmi sýnir rásaruppsetningu í höfuðstöðvum Commerce. Í þe
 
 ![Gildi lögaðila, gjaldmiðils og tungumáls fyrir Adventure Works vefverslunina auðkennd í höfuðstöðvum Commerce.](media/channel-mapping-3.png)
 
-Hægt er að kortleggja eina netrásina á eina netverslunarsíðu í vefsvæðisgerðinni. Fyrir upplýsingar um hvernig á að búa til nýja síðu og kortleggja hana á rás, sjáðu [Kortaðu rás á síðu í Site builder](#map-a-channel-to-a-site-in-site-builder) kafla þessa efnis.
+Hægt er að kortleggja eina netrásina á eina netverslunarsíðu í vefsvæðisgerðinni. Fyrir upplýsingar um hvernig á að búa til nýja síðu og kortleggja hana á rás, sjáðu [Kortaðu rás á síðu í Site builder](#map-a-channel-to-a-site-in-site-builder) kafla þessarar greinar.
 
 ### <a name="multi-language-channel-that-has-a-single-localized-site-experience"></a>Fjöltungumálarás sem hefur eina staðbundna upplifun á vefsvæði
 
@@ -71,9 +71,9 @@ Hægt er að kortleggja eina netrásina á eina netverslunarsíðu í vefsvæði
 
 Takmörkun þessarar atburðarásar er að hægt er að stilla eina rás með aðeins einum gjaldmiðli, einum lögaðila og einu setti af vörum og verði. Þessi uppsetning virkar best fyrir lönd sem hafa einn gjaldmiðil og mörg tungumál (til dæmis Kanada, sem hefur ensku og frönsku), einn lögaðila og eitt sett af vörum og verðum.
 
-Hægt er að stilla hvert tungumál á rás með sínu eigin lén. Til dæmis, the`www.adventure-works.ca` lén er hægt að stilla fyrir Kanada ensku útgáfuna, og`www.adventure-works-fr.ca` lén er hægt að stilla fyrir frönsku útgáfuna í Kanada. Að öðrum kosti er hægt að stilla mismunandi tungumál á rás á einu léni og þá er hægt að nota mismunandi slóð fyrir hvert tungumál. Til dæmis, the`www.adventure-works.ca` lén er hægt að stilla fyrir Kanada ensku útgáfuna og síðan`www.adventure-works.ca/fr` slóð er hægt að nota fyrir frönsku útgáfuna í Kanada. [Geo uppgötvun](geo-detection-redirection.md) Einnig er hægt að virkja til að vísa notanda sjálfkrafa á rétta síðu, byggt á staðsetningu notandans.
+Hægt er að stilla hvert tungumál á rás með sínu eigin lén. Til dæmis, the`www.adventure-works.ca` lén er hægt að stilla fyrir Kanada ensku útgáfuna og`www.adventure-works-fr.ca` lén er hægt að stilla fyrir frönsku útgáfuna í Kanada. Að öðrum kosti er hægt að stilla mismunandi tungumál á rás á einu léni og þá er hægt að nota mismunandi slóð fyrir hvert tungumál. Til dæmis, the`www.adventure-works.ca` lén er hægt að stilla fyrir ensku útgáfuna í Kanada og síðan`www.adventure-works.ca/fr` slóð er hægt að nota fyrir Kanada frönsku útgáfuna. [Geo uppgötvun](geo-detection-redirection.md) Einnig er hægt að virkja til að vísa notanda sjálfkrafa á rétta síðu, byggt á staðsetningu notandans.
 
-Fyrir upplýsingar um hvernig á að gera viðskiptavinum kleift að skipta handvirkt á milli tungumála, sjá [Bættu við og stilltu vefvalseininguna](#add-and-configure-the-site-picker-module) kafla þessa efnis. Fyrir upplýsingar um hvernig á að sérsníða staðfærðar síður og brot, sjáðu [Hafa umsjón með efni vefsvæðis sem hefur margar rásir og tungumál](#manage-site-content-that-has-multiple-channels-and-languages) kafla.
+Fyrir upplýsingar um hvernig á að gera viðskiptavinum kleift að skipta handvirkt á milli tungumála, sjá [Bættu við og stilltu vefvalseininguna](#add-and-configure-the-site-picker-module) kafla þessarar greinar. Fyrir upplýsingar um hvernig á að sérsníða staðfærðar síður og brot, sjáðu [Hafa umsjón með efni vefsvæðis sem hefur margar rásir og tungumál](#manage-site-content-that-has-multiple-channels-and-languages) kafla.
 
 ### <a name="multi-language-channel-that-has-a-different-site-experience-per-language"></a>Fjöltungumálarás sem hefur mismunandi vefupplifun á hverju tungumáli
 
@@ -83,11 +83,11 @@ Fyrir upplýsingar um hvernig á að gera viðskiptavinum kleift að skipta hand
 
 ### <a name="multiple-channels-single-language-andor-multi-language-that-have-a-single-localized-site-experience"></a>Margar rásir (eitt tungumál og/eða fjöltungumál) sem hafa eina staðbundna upplifun af vefsvæði
 
-Vörumerkjasíða gæti þurft margar netrásir á hverju svæði til að styðja mismunandi gjaldmiðil, vörusett og verðsett fyrir hverja rás á einni síðu. Til dæmis gæti Adventure Works síða verið með netrás fyrir kanadíska markaðinn sem hefur mörg tungumál, rás fyrir bandaríska markaðinn sem hefur eitt tungumál og rás fyrir þýska markaðinn sem hefur eitt tungumál. Í þessari atburðarás verður hver netrás stillt fyrir svæðissértækan lögaðila og hún getur haft sama vörusafn og aðrar rásir hafa, undirmengi þessara vara eða annað vörusett. Hver rás mun einnig hafa sín verð í svæðisgjaldmiðli, sköttum, afslætti og sendingarmáta.
+Vörumerkjasíða gæti þurft margar netrásir á hverju svæði til að styðja mismunandi gjaldmiðil, vörusett og verðsett fyrir hverja rás á einni síðu. Til dæmis gæti Adventure Works síða verið með netrás fyrir kanadíska markaðinn sem hefur mörg tungumál, rás fyrir bandaríska markaðinn sem hefur eitt tungumál og rás fyrir þýska markaðinn sem hefur eitt tungumál. Í þessari atburðarás verður hver netrás stillt fyrir svæðissértækan lögaðila og hún getur haft sama vörusafn og aðrar rásir hafa, undirmengi þessara vara eða annað vörusett. Hver rás mun einnig hafa sitt eigið verð í svæðisgjaldmiðli, sköttum, afslætti og sendingaraðferðum.
 
 Í þessari atburðarás er hægt að stilla hvern markað með eigin lén. Til dæmis, the`www.adventure-works.com` lén er hægt að stilla fyrir Bandaríkjamarkað og`www.adventure-works.de` lén er hægt að stilla fyrir þýska markaðinn. Að öðrum kosti er hægt að stilla hvern markað til að nota aðra leið. Til dæmis, the`www.adventure-works.com` lén er hægt að stilla fyrir Bandaríkjamarkað, og þá`www.adventure-works.com/de` slóð er hægt að nota fyrir þýska markaðinn. [Geo uppgötvun](geo-detection-redirection.md) Einnig er hægt að virkja til að vísa notendum sjálfkrafa á rétta síðu, byggt á svæði þeirra.
 
-Þú gætir líka viljað að vefsvæðið þitt bjóði upp á fellilista sem gerir notendum kleift að skipta handvirkt yfir á ákveðinn markað. Fyrir frekari upplýsingar, sjá [Bættu við og stilltu vefvalseininguna](#add-and-configure-the-site-picker-module) kafla þessa efnis.
+Þú gætir líka viljað að vefsvæðið þitt bjóði upp á fellilista sem gerir notendum kleift að skipta handvirkt yfir á ákveðinn markað. Fyrir frekari upplýsingar, sjá [Bættu við og stilltu vefvalseininguna](#add-and-configure-the-site-picker-module) kafla þessarar greinar.
 
 Fyrir upplýsingar um hvernig á að stilla margar rásir á einni síðu, sjáðu [Stilltu margar rásir á netverslunarsíðu](#configure-multiple-channels-on-an-e-commerce-site) kafla.
 
@@ -112,7 +112,7 @@ Deiling milli rása er gagnleg þegar margar rásir á einu svæði geta deilt e
 
 ![Að búa til nýja rás í Site Builder.](media/channel-mapping-4.png)
 
-Síðan sem þú býrð til á þennan hátt verður tóm og mun ekki innihalda neinar síður (til dæmis heimasíða, flokkasíður og vörusíður).
+Síðan sem þú býrð til á þennan hátt verður tóm og mun ekki innihalda neinar síður (til dæmis heimasíðu, flokkasíður og vörusíður).
 
 Frekari upplýsingar eru í [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md).
 
@@ -120,7 +120,7 @@ Frekari upplýsingar eru í [Stofna svæði fyrir rafræn viðskipti](create-eco
 
 Í stað þess að búa til glænýja, tóma síðu eins og lýst er í fyrri hlutanum, er betra að byrja með afrit af einni af upphafssíðunum sem eru til staðar í Commerce einingasafninu, eins og Fabrikam eða Adventure Works síðuna.
 
-Til að afrita núverandi síðu, farðu á **Síður** listasíðu í vefsíðugerð og veldu **Afritaðu síðuna**. Þá, í **Afritaðu síðuna** valmynd sem birtist geturðu valið upprunasíðuna og tilgreint nafn áfangastaðarins.
+Til að afrita núverandi síðu skaltu fara á **Síður** listasíðu í vefsíðugerð og veldu **Afritaðu síðuna**. Þá, í **Afritaðu síðuna** valmynd sem birtist geturðu valið upprunasíðuna og tilgreint nafn áfangastaðarins.
 
 Á þessum tímapunkti geturðu ekki enn valið sjálfgefna netrás og tungumál fyrir síðuna. Hins vegar geturðu stillt þessa eiginleika eftir að afritunaraðgerðinni hefur verið lokið. Þegar þú velur fyrst síðuna á **Síður** listasíða í Site Builder, the **Settu upp síðuna þína** svargluggi birtist þar sem þú getur valið sjálfgefna rás og tungumál.
 
@@ -128,7 +128,7 @@ Fyrir frekari upplýsingar um afritunaraðgerðina, sjá [Afritaðu netverslunar
 
 ### <a name="manage-an-existing-site-channel"></a>Hafa umsjón með núverandi vefrás
 
-Eftir að síða hefur verið stillt með rás geturðu stjórnað og uppfært rásina innan valinnar síðu í vefsmiði á **Vefstillingar \> Rásir**, eins og sýnt er á eftirfarandi dæmi.
+Eftir að síða hefur verið stillt með rás geturðu stjórnað og uppfært rásina innan valinnar síðu í vefsvæðisgerðinni á **Vefstillingar \> Rásir**, eins og sýnt er á eftirfarandi dæmi.
 
 ![Umsjón með rásarkortlagningu í vefsvæðisgerð.](media/channel-mapping-7.png)
 
@@ -166,7 +166,7 @@ Fyrir frekari upplýsingar um hvernig á að bæta við og stilla vefvalseiningu
 
 ![Breyting á tungumáli fyrir síðu í Site builder.](media/channel-mapping-14.png)
 
-Ef afbrigðið fyrir valda síðu eða brot hefur ekki enn verið búið til færðu viðvörunarskilaboð, eins og sýnt er á eftirfarandi dæmi. Í þessu tilviki skaltu velja **Búðu til síðuafbrigði** tengilinn í skilaboðatextanum. Glugginn sem birtist býður upp á valkosti sem gera þér kleift að byrja á afriti af núverandi afbrigði eða búa til glænýja síðu úr sniðmáti.
+Ef afbrigðið fyrir valda síðu eða brot hefur ekki enn verið búið til færðu viðvörunarskilaboð, eins og sýnt er á eftirfarandi dæmi. Í þessu tilviki skaltu velja **Búðu til síðuafbrigði** hlekkur í skilaboðatextanum. Glugginn sem birtist býður upp á valkosti sem gera þér kleift að byrja á afriti af núverandi afbrigði eða búa til glænýja síðu úr sniðmáti.
 
 ![Biðja um að búa til síðuafbrigði í vefsvæðisgerð](media/channel-mapping-16.png)
 
@@ -180,7 +180,7 @@ Ef þú býrð ekki til afbrigði er upprunalega síðan birt og sýnir viðeiga
 
 Vefsvæði sem hefur margar rásir og/eða tungumál geymir einstakt afbrigði af hverri síðu og brot fyrir hverja samsetningu rásar og tungumáls. Þessi hegðun gerir síðuafbrigðum kleift að innihalda staðbundin gögn en gefur þér einnig sveigjanleika til að breyta útliti og yfirbragði síðu fyrir tiltekið afbrigði.
 
-Sjá upplýsingar um hvernig á að vinna með síðuafbrigði [Innleiða síðuafbrigði fyrir hvert tungumál](#implement-page-variants-for-each-language) kafla þessa efnis.
+Sjá upplýsingar um hvernig á að vinna með síðuafbrigði [Innleiða síðuafbrigði fyrir hvert tungumál](#implement-page-variants-for-each-language) kafla þessarar greinar.
 
 ## <a name="configure-multiple-channels-on-an-e-commerce-site"></a>Stilltu margar rásir á netverslunarsíðu
 

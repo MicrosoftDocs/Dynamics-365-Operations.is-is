@@ -1,6 +1,6 @@
 ---
 title: Engin samsvarandi niðurstaða fannst
-description: Þetta efnisatriði útskýrir hvernig á að leysa villuna "Engin samsvarandi niðurstaða fannst" í skattaútreikningsþjónustunni.
+description: Þessi grein útskýrir hvernig á að leysa villuna "Engin samsvarandi niðurstaða fannst" í skattaútreikningsþjónustunni.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: c1a343b0b74645d40b0a2582749968cc0a56afd7
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: d3bbc76741fdd018d1b2987538b8de7f6d92ee53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648145"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845145"
 ---
 # <a name="no-matching-result-could-be-found"></a>Engin samsvarandi niðurstaða fannst
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir úrræðaleitarskref sem þú getur tekið ef þú færð "Engin samsvarandi niðurstaða fannst" villu í skattaútreikningsþjónustunni.
+Þessi grein útskýrir úrræðaleitarskref sem þú getur tekið ef þú færð "Engin samsvarandi niðurstaða fannst" villu í skattaútreikningsþjónustunni.
 
 ## <a name="symptom"></a>Einkenni
 
@@ -102,10 +102,10 @@ Vandamálið kemur upp þegar eiginleikauppsetningin í Regulatory Configuration
     | Færslubók                 |                     |                           | A hópur   |
     | Sala                   |                     | 30160                     | Flokkur B   |
 
-    Samkvæmt útreikningi skattaþjónustunnar er **Viðskiptaferli** gildi á hausnum er **Sala**, og **Senda frá póstnúmeri** gildi á hausnum er **30159**. Þetta inntak er byggt á uppsetningu gildandi reglna í RCS. Vegna þess að það er engin samsvarandi lína, kemur villan upp.
+    Samkvæmt útreikningi skattaþjónustunnar er **Viðskiptaferli** gildi á hausnum er **Sala**, og **Senda frá póstnúmeri** gildi á hausnum er **30159**. Þetta inntak er byggt á uppsetningu gildandi reglna í RCS. Vegna þess að það er engin samsvarandi lína kemur villan upp.
 
     > [!NOTE]
-    > Ef gildið í nothæfisreglunni er autt gildir reglan um hvaða gildi sem er.
+    > Ef gildið í nothæfisreglunni er autt, gildir reglan um hvaða gildi sem er.
 
 ## <a name="mitigation"></a>Mildun
 

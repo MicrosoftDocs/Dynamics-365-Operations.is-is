@@ -1,6 +1,6 @@
 ---
 title: Ráða Power BI-efni
-description: Þetta efnisatriði lýsir Power BI-efni ráðningar.
+description: Þessi grein lýsir ráðningunni Power BI efni.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 36ea9f204b50b3d7a6c8e33e69a9c3fd7d82cd79d466e2b9547c6733aa294aea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3240b92993986b32a739b7a6e5c7f7c2df3ed71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765123"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890097"
 ---
 # <a name="recruiting-power-bi-content"></a>Ráða Power BI-efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir **Ráðningar** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þessi grein lýsir **Ráðningar** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
 **Ráðning** Power BI-efni er sýnt í vinnusvæðinu **Umsjón með ráðningum**.

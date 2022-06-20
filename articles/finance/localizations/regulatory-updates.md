@@ -1,6 +1,6 @@
 ---
 title: Regluuppfærslur
-description: Þetta efni gefur lista yfir fyrirhugaðar og gefnar reglugerðaruppfærslur fyrir Microsoft Dynamics 365 Fjármál.
+description: Þessi grein veitir lista yfir fyrirhugaðar og gefnar reglugerðaruppfærslur fyrir Microsoft Dynamics 365 Fjármál.
 author: VStamberg
 ms.date: 04/18/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 04cc8b4272bcedc7db27b0d76eccdc6375641933
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711915"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904282"
 ---
 # <a name="regulatory-updates"></a>Regluuppfærslur
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði listar upp reglugerðaruppfærslur sem eru skipulagðar og gefnar út í Dynamics 365 Finance studdar staðsetningar. Tímalínur afhendingar geta breyst og áætluð virkni getur breyst eða ekki verið gefin út. Frekari upplýsingar er að finna í [Microsoft-reglur](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
+Þessi grein listar upp reglugerðaruppfærslur sem eru skipulagðar og gefnar út í Dynamics 365 Finance studdum staðfærslum. Tímalínur afhendingar geta breyst og áætluð virkni getur breyst eða ekki verið gefin út. Frekari upplýsingar er að finna í [Microsoft-reglur](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
 Regluuppfærslur eru eiginleikar sem eru innleiddir til að styðja nýjar eða breyttar landsbundnar reglugerðir. Fyrir frekari upplýsingar um fyrirhugaða og gefna landssértæka eiginleika, sjá [Dynamics 365 og Power Platform útgáfuáætlanir](/business-applications-release-notes/index).
 
@@ -56,8 +56,8 @@ Fyrir nýjustu áætlanir á uppfærslu á reglum skal skoða eftirfarandi töfl
 |      Mexíkó         |   2022. mars      | 10.0.25, 10.0.26, 10.0.27      |   CFDI snið útgáfa 4.0 (staðgreiðsla)  |
 |      Pólland          |   2022. apríl     | 10.0.25HF, 10.0.26HF, 10.0.27HF     |   JPK_FA útgáfa 4 frá 1. apríl 2022JPK_V7M - ný skemaútgáfa frá janúar 2022 |
 |      Rússland          |   2022. janúar     | 10.0.25    |   Virkja rafræna skýrslugerð (ER) áfangastað til að geyma rússnesk bókhaldsskjöl (aðalskjöl og bókhaldsskýrslur)|
-|      Rússland          |   2021. desember     | 10.0.25    |   Sameining fastafjármunir (Rússland) eining með eignastýringareiningu|
-|      Rússland          |   Mars - apríl 2022     | 10.0.25, 10.0.26    |  Nýtt snið flutningsreiknings (tilskipun stjórnvalda N 2116 30.11.2021)|
+|      Rússland          |   2021. desember     | 10.0.25    |   Sameining fastafjármuna (Rússland) eining með eignastýringareiningu|
+|      Rússland          |   Mars - apríl 2022     | 10.0.25, 10.0.26    |  Nýtt snið flutningsreiknings (stjórnvaldsúrskurður N 2116 30.11.2021)|
 |      Spánn      |   2022. mars| 10.0.25HF, 10.0.26HF, 10.0.27 | VSK yfirlýsing líkan 303 breytingar 1. janúar 2022 í Dynamics 365 Finance|
 
 

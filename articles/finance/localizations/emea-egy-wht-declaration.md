@@ -1,6 +1,6 @@
 ---
-title: Staðgreiðsluskattsskýrsla fyrir Egyptaland
-description: Þetta efnisatriði útskýrir hvernig á að skilgreina og mynda staðgreiðsluskattsskýrslu fyrir Egyptaland.
+title: Staðgreiðsluskattskýrsla fyrir Egyptaland
+description: Þessi grein útskýrir hvernig á að stilla og búa til staðgreiðsluskýrslur fyrir Egyptaland.
 author: sndray
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 505eb8a907ec8cc74b897695ddd90eee3abb0ed6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907688"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Staðgreiðsluskattsskýrsla fyrir Egyptaland (EG-00005)
 
@@ -26,11 +26,11 @@ ms.locfileid: "7403892"
 [!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Yfirlit
-Þetta efnisatriði útskýrir hvernig á að setja upp og mynda staðgreiðsluskattskýrslu og eyðublöð staðgreiðsluskattskýrslu 41 og 11 fyrir lögaðila í Egyptalandi 
+Þessi grein útskýrir hvernig á að setja upp og búa til staðgreiðsluskýrslu og staðgreiðsluskýrslueyðublöð 41 og 11 fyrir lögaðila í Egyptalandi 
 
 Allar egypskar einingar verða að undirbúa eyðublað 41, sem tekur saman alla skatta sem eru varðveittir frá staðbundnum birgjum og þjónustuveitum. Til viðbótar við eyðublað 41 verður eyðublað 11 að vera myndað til að gefa upplýsingar um alla varðveitta skatta frá erlendum aðilum. 
 
-Skýrslan **Staðgreiðsluskattsskýrsla** í Dynamics 365 Finance inniheldur eftirfarandi skýrslur:
+The **Staðgreiðsluskýrsla** skýrsla í Dynamics 365 Finance inniheldur eftirfarandi skýrslur:
 
 - Framtalseyðublað nr. 41
 - Framtalseyðublað nr. 11
@@ -58,7 +58,7 @@ Frekari upplýsingar um hvernig á að flytja inn skilgreiningar rafrænnar ský
 
 Innleiðing framtalseyðublaða staðgreiðsluskatts fyrir Egyptaland byggir á skilgreiningum rafrænnar skýrslugerðar. Frekari upplýsingar um möguleika og hugmyndir á bak við stillanlega skýrslugerð er að finna í [Rafræn skýrslugerð](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
-Fyrir umhverfi framleiðslu og samþykkisprófun notanda skal fylgja leiðbeiningum í efnisatriðinu [Hlaða niður skilgreiningum rafrænnar skýrslugerðar úr Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Fyrir framleiðslu- og notendaviðurkenningarprófun (UAT) umhverfi skaltu fylgja leiðbeiningunum í greininni, [Hladdu niður rafrænum skýrslustillingum frá Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 Til að búa til staðgreiðsluskattsskýrslur í egypskum lögaðila þarf að hlaða upp eftirfarandi skilgreiningum:
 

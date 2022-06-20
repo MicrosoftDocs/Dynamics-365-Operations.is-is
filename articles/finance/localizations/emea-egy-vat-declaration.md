@@ -1,6 +1,6 @@
 ---
-title: Vsk-skýrsla fyrir Egyptaland
-description: Þetta efnisatriði útskýrir hvernig á að skilgreina og mynda eyðublað VSK-framtals fyrir Egyptaland.
+title: VSK-skýrsla fyrir Egyptaland
+description: Þessi grein útskýrir hvernig á að stilla og búa til virðisaukaskattsskýrslueyðublað fyrir Egyptaland.
 author: sndray
 ms.date: 06/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a67c6e00b94d49b3eb279416407f603923e53b2e
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 1d5788b2328a49f4725a6c689e29a7e784032fae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870036"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Vsk-skýrsla fyrir Egyptaland (EG-00002)
 
@@ -26,11 +26,11 @@ ms.locfileid: "7403949"
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja upp og mynda snið VSK-framtals og sölu- og innkaupabækur fyrir lögaðila í Egyptalandi.
+Þessi grein útskýrir hvernig á að setja upp og búa til virðisaukaskattsskýrslueyðublaðið og sölu- og innkaupabækur fyrir lögaðila í Egyptalandi.
 
 Eyðublað VSK-framtals fyrir Egyptaland er opinbera skjalið sem tekur saman samtals skattupphæð útskatts til greiðslu, samtals endurheimtanlega skattupphæð innskatts og tengda skuldaupphæð VSK. Eyðublaðið er notað fyrir alla skattgreiðendur og á að klára handvirkt í gegnum gátt skattyfirvalda. Yfirleitt er talað um eyðublað VSK-framtals sem útfyllingu VSK-framtals.
 
-Eyðublað VSK-framtals í Dynamics 365 Finance inniheldur eftirfarandi skýrslur:
+VSK skilaeyðublaðið í Dynamics 365 Finance inniheldur eftirfarandi skýrslur:
 
 - VSK-framtalseyðublað númer 10 sem býður upp á sundurliðun upphæða, leiðréttingar og VSK-upphæð fyrir hvert línuatriði í framtalseyðublaði VSK eins og lýst er í reglugerðinni.
 - Sölufærslubók

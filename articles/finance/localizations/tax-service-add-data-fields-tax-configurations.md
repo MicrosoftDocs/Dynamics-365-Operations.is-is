@@ -1,6 +1,6 @@
 ---
 title: Bæta við gagnareitum í skattaskilgreiningum
-description: Þetta efnisatriði útskýrir hvernig á að sérsníða skattaskilgreiningar með því að bæta við gagnasvæðum.
+description: Þessi grein útskýrir hvernig á að sérsníða skattastillingar með því að bæta við gagnareitum.
 author: Kai-Cloud
 ms.date: 10/21/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: deb19c8ddf20b416864ed8c3f816f92e43309f71
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 894c42f444d27b807288b84c7b9c620ad0121fa9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694094"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872327"
 ---
 # <a name="add-data-fields-in-tax-configurations"></a>Bæta við gagnareitum í skattaskilgreiningum
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að sérstilla skattaskilgreiningar [gagnareiti sem er bætt við í skattasamþættingu](tax-service-add-data-fields-tax-integration-by-extension.md).
+Þessi grein útskýrir hvernig á að sérsníða skattastillingar með því að nota [gagnareitum sem bætt er við í skattasamþættingunni](tax-service-add-data-fields-tax-integration-by-extension.md).
 
 ## <a name="customize-the-tax-data-model"></a>Sérstilla skattgagnalíkan
 

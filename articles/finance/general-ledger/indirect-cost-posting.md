@@ -1,6 +1,6 @@
 ---
 title: Óbein kostnaðarbókun
-description: Þetta efnisatriði útskýrir hvernig á að bóka óbeinan kostnað, stofna kostnaðarflokka og bæta við hnútum við kostnaðarblaðið fyrir óbeinan kostnað.
+description: Þessi grein útskýrir hvernig á að bóka óbeinan kostnað, stofna kostnaðarflokka og bæta við hnútum við kostnaðarblaðið fyrir óbeinan kostnað.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: CostSheetDesigner, BOMCostGroup, ProjCategory, CostingVersion, C
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: d7f4753f69d83d172993e1c9b04be2220fdf253f
-ms.sourcegitcommit: 1ea145dc606e243c7f51d91a5c0dd9e385bbda4a
+ms.openlocfilehash: 04af10760ec50d60cbbc31c233109dffb786933c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8804646"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868432"
 ---
 # <a name="indirect-cost-posting"></a>Óbein kostnaðarbókun
 
@@ -97,7 +97,7 @@ Til dæmis, þú notar magnið til að reikna 1.50 USD af vélaafskriftum fyrir 
 
 #### <a name="input-unit-based"></a>Byggir á inntakseiningu
 
-Óbeinn kostnaður við **Inntakseining byggð** gerð er reiknuð með því að margfalda magn hráefna sem er neytt í framleiðslupöntun með magni. Hægt er að nota þyngd eða rúmmál aðfönganna á framleiðslupöntuninni til að reikna út heildina. Þú getur takmarkað útreikninginn við undirmengi efna með því að velja einn eða fleiri kostnaðarflokka á **Frásogsgrundvöllur** Flýtiflipi kostnaðarblaðsins.
+Óbeinn kostnaður við **Inntakseining byggð** gerð er reiknuð út með því að margfalda magn hráefna sem er neytt í framleiðslupöntun með upphæð. Hægt er að nota þyngd eða rúmmál aðfönganna á framleiðslupöntuninni til að reikna út heildina. Þú getur takmarkað útreikninginn við undirmengi efna með því að velja einn eða fleiri kostnaðarflokka á **Frásogsgrundvöllur** Flýtiflipi kostnaðarblaðsins.
 
 Til dæmis, þú notar magn inntaks fyrir tiltekinn kostnaðarflokk sem er tengdur við kældar vörur til að bæta 1.00 USD við framleiðslupöntunina.
 

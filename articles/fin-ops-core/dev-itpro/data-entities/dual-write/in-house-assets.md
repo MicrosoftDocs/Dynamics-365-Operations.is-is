@@ -1,6 +1,6 @@
 ---
 title: Eignir til þjónustu innanhúss
-description: Í þessu efnisatriði er lýst hvernig hægt er að nota Microsoft Dynamics 365 Field Service til að þjónusta bæði eignir viðskiptavinar og eigin eignir.
+description: Þessi grein lýsir því hvernig þú getur notað Microsoft Dynamics 365 Field Service að þjónusta bæði eignir viðskiptavina og eignir innanhúss.
 author: RamaKrishnamoorthy
 ms.date: 01/27/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 8048a99951eea3fbae34e56c1b444c75ad3d199d
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: c946af11737a77c4dadd824893e6cc1e4c77b587
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858623"
 ---
 # <a name="in-house-assets-for-servicing"></a>Eignir til þjónustu innanhúss
 

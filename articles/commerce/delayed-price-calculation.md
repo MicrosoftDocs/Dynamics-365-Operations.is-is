@@ -1,6 +1,6 @@
 ---
 title: Seinka nákvæmum útreikningi á verði og afslætti til að bæta afköst
-description: Þetta efnisatriði lýsir möguleika seinkaðs verðútreiknings sem er í boði í Microsoft Dynamics 365 Commerce sölustað (POS) og símaveri.
+description: Þessi grein lýsir seinkuðum verðútreikningsgetu sem er tiltæk í Microsoft Dynamics 365 Commerce sölustaður (POS) og símaver.
 author: boycezhu
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 8c4264c3a4c71e6aab0e1ef8d7d8cfffad065a46
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6926c288a91dbe66b6ffc2e6c06f866d3ebd7652
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488364"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845898"
 ---
 # <a name="delay-exact-price-and-discount-calculation-for-improved-performance"></a>Seinka nákvæmum útreikningi á verði og afslætti til að bæta afköst
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir möguleika seinkaðs verðútreiknings sem er í boði í Microsoft Dynamics 365 Commerce sölustað (POS) og símaveri.
+Þessi grein lýsir seinkuðum verðútreikningsgetu sem er tiltæk í Microsoft Dynamics 365 Commerce sölustaður (POS) og símaver.
 
 Dynamics 365 Commerce styður stofnun samvalsafsláttar sem er notaður þegar margar sölulínur sölupöntunar eða sölutilboðs eru sameinaðar. Þessir afslættir fela í sér blöndu og samsvörun, þröskuld og magnafslætti.
 

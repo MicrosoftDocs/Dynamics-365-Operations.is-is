@@ -1,6 +1,6 @@
 ---
 title: Hafist handa með eignarleigu
-description: Í þessu efnisatriði er lýst möguleikum eignarleigu og farið í gegnum skrefin til að búa til leigusamning eignar og skoða upplýsingar fyrir þessa leigusamninga.
+description: Þessi grein lýsir eignaleigumöguleikanum og fer í gegnum skrefin til að búa til eignaleigusamning og skoða upplýsingar um þá leigusamninga.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 991685f50a00e60026331bf573561be904c7f9ab
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: df4343031b3b116318f798f31adb4d1f6bed1db9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710330"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895139"
 ---
 # <a name="asset-leasing-get-started"></a>Hafist handa með eignarleigu
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er lýst möguleikum eignarleigu og farið í gegnum skrefin til að búa til leigusamning eignar og skoða upplýsingar fyrir þessa leigusamninga. Í efnisatriðinu eru einnig skilgreind hugtökin sem notuð eru í notandaviðmóti og fylgigögnum. Eignaleiga er háþróuð möguleiki til að stjórna, rekja og gera sjálfvirkan fjármálaviðskipti fyrir leigðar eignir í Microsoft Dynamics 365 Fjármál. Eignarleiga samræmist alþjóðlegum reikningsskilastöðlum (IFRS 16) og US GAAP-stöðlum (ASC 842). Eignarleiga nær í og vinnur úr upplýsingum um leigusamningana og hjálpar til við að búa til færslur í færslubók í gegnum gildistíma leigusamningsins, frá upphaflegri skráningu, mánaðarlegum færslum í færslubók, til virðisrýrnunar og lok leigusamningsins. Eignaleiga samþættist óaðfinnanlega öðrum hlutum Dynamics 365 Finance, þar á meðal fastafjármunir, viðskiptaskuldir og fjárhag.
+Þessi grein lýsir eignaleigumöguleikanum og fer í gegnum skrefin til að búa til eignaleigusamning og skoða upplýsingar um þá leigusamninga. Greinin skilgreinir einnig hugtök sem notuð eru í notendaviðmótinu og skjölunum. Eignaleiga er háþróuð möguleiki til að stjórna, rekja og gera sjálfvirkan fjármálaviðskipti fyrir leigðar eignir í Microsoft Dynamics 365 Fjármál. Eignarleiga samræmist alþjóðlegum reikningsskilastöðlum (IFRS 16) og US GAAP-stöðlum (ASC 842). Eignarleiga nær í og vinnur úr upplýsingum um leigusamningana og hjálpar til við að búa til færslur í færslubók í gegnum gildistíma leigusamningsins, frá upphaflegri skráningu, mánaðarlegum færslum í færslubók, til virðisrýrnunar og lok leigusamningsins. Eignaleiga samþættist óaðfinnanlega öðrum hlutum Dynamics 365 Finance, þar á meðal fastafjármunir, viðskiptaskuldir og fjárhag.
 
 Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað vinnusvæði **Eiginleikastjórnun** til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** skal finna og velja eiginleika sem kallast **Eignarleiga** og smella svo á hnappinn **Virkja núna**.
 

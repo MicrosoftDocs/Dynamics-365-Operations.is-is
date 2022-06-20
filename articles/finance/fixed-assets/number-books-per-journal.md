@@ -1,6 +1,6 @@
 ---
 title: Fjöldi bóka í hverri færslubók
-description: Í þessu efnisatriði er lýst venslum á milli færslubóka og eignabóka þegar eignakaup eða afskriftartillaga er stofnuð í gegnum runuvinnslu. Hægt er að skilgreina hámarksfjölda bóka sem eru innifaldar fyrir hver kaup og fyrir afskriftir.
+description: Þessi grein lýsir tengslum milli færslubóka og eignabóka þegar þú stofnar eignaöflun eða afskriftatillögu í gegnum runuvinnu. Hægt er að skilgreina hámarksfjölda bóka sem eru innifaldar fyrir hver kaup og fyrir afskriftir.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1e37d40c30d784eea5ba097447f2b2e69920830a
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2dbd50963cf13f00e09b82e884cd8ebc0b67d424
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722381"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883330"
 ---
 # <a name="number-of-books-per-journal"></a>Fjöldi bóka í hverri færslubók
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er lýst venslum á milli færslubóka og eignabóka þegar eignakaup eða afskriftartillaga er stofnuð í gegnum runuvinnslu. Hægt er að skilgreina hámarksfjölda bóka sem eru teknar með fyrir hver kaup og fyrir afskriftir með því að nota svæðin í hlutanum **Fjölda bóka á færslubók** á flipanum **Almennt** á síðunni **Eignafæribreytur** (**Eignir \> Uppsetning \> Eignafæribreytur**). Þessi svæði gera þér kleift að dreifa fjölda eignabóka á hverja kaupabók og afskriftarbók.
+Þessi grein lýsir tengslum milli færslubóka og eignabóka þegar þú stofnar eignaöflun eða afskriftatillögu í gegnum runuvinnu. Hægt er að skilgreina hámarksfjölda bóka sem eru teknar með fyrir hver kaup og fyrir afskriftir með því að nota svæðin í hlutanum **Fjölda bóka á færslubók** á flipanum **Almennt** á síðunni **Eignafæribreytur** (**Eignir \> Uppsetning \> Eignafæribreytur**). Þessi svæði gera þér kleift að dreifa fjölda eignabóka á hverja kaupabók og afskriftarbók.
 
 Fyrir kauptillögu er sjálfgefið gildi að minnsta kosti 10.000 bækur. Fyrir afskriftartillögu er sjálfgefið gildi að minnsta kosti 2.000 bækur.
 

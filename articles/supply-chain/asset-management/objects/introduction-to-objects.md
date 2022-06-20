@@ -1,6 +1,6 @@
 ---
 title: Kynning á eignum
-description: Þetta efni veitir yfirlit yfir eignir í eignastýringu.
+description: Þessi grein veitir yfirlit yfir eignir í eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43a5646bc4a1301922781d8b083dfa709befe3dca0fad1074b5433c6e02f5c66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874189"
 ---
 # <a name="introduction-to-assets"></a>Kynning á eignum
 
@@ -30,9 +30,9 @@ ms.locfileid: "6767509"
 
  
 
-Þetta efni veitir yfirlit yfir eignir í eignastýringu. *Eign* er hvers konar búnaður, svo sem vél eða vélahlutur, sem krefst viðhalds, þjónustu eða viðgerða.
+Þessi grein veitir yfirlit yfir eignir í eignastýringu. *Eign* er hvers konar búnaður, svo sem vél eða vélahlutur, sem krefst viðhalds, þjónustu eða viðgerða.
 
-Eign er sjálfkrafa uppfærð með tengdum upplýsingum. Til dæmis gætu þessar tengdar upplýsingar snúist um nýjar eða uppfærðar verkbeiðnir. Þú getur búið til eignir með því að nota annaðhvort valmyndaratriðið **Allar eignir** eða valmyndaratriðið **Eignir í bið**. Þetta efni útskýrir hvernig á að búa til eignir með því að nota valmyndaratriðið **Allar eignir**. Fyrir upplýsingar um hvernig á að búa til eignir með því að nota valmyndaratriðið **Eignir í bið**, sjá [Stofna eignir byggðar á innkaupapöntunum](../objects/create-objects-based-on-purchase-orders.md).
+Eign er sjálfkrafa uppfærð með tengdum upplýsingum. Til dæmis gætu þessar tengdar upplýsingar snúist um nýjar eða uppfærðar verkbeiðnir. Þú getur búið til eignir með því að nota annaðhvort valmyndaratriðið **Allar eignir** eða valmyndaratriðið **Eignir í bið**. Þessi grein útskýrir hvernig á að búa til eignir með því að nota **Allar eignir** valmyndaratriði. Fyrir upplýsingar um hvernig á að búa til eignir með því að nota valmyndaratriðið **Eignir í bið**, sjá [Stofna eignir byggðar á innkaupapöntunum](../objects/create-objects-based-on-purchase-orders.md).
 
 ## <a name="all-assets"></a>Allar eignir
 

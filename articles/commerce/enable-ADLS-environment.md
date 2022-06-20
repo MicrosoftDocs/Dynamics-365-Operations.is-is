@@ -1,6 +1,6 @@
 ---
 title: Virkja Azure Data Lake Storage í Dynamics 365 Commerce-umhverfi
-description: Í þessu efnisatriði eru leiðbeiningar um hvernig á að tengja Azure Data Lake Storage Gen 2 lausn við einingaverslun Dynamics 365 Commerce umhverfis. Þetta er nauðsynlegt skref áður en tillögur um afurðir eru virkjaðar.
+description: Þessi grein veitir leiðbeiningar um hvernig á að tengja Azure Data Lake Storage Gen 2 lausn á a Dynamics 365 Commerce Entity verslun umhverfisins. Þetta er nauðsynlegt skref áður en tillögur um afurðir eru virkjaðar.
 author: bebeale
 ms.date: 08/31/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c96c29a4d9639b02e6a60ad938b7e06f7d500c68
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
+ms.openlocfilehash: 6e0c84dd6b173a111b70a8adb6036be946149f7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466293"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885172"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Virkja Azure Data Lake Storage í Dynamics 365 Commerce-umhverfi
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði eru leiðbeiningar um hvernig á að tengja Azure Data Lake Storage Gen2 lausn við einingaverslun Dynamics 365 Commerce umhverfis. Þetta er nauðsynlegt skref áður en tillögur um afurðir eru virkjaðar.
+Þessi grein veitir leiðbeiningar um hvernig á að tengja Azure Data Lake Storage Gen2 lausn á a Dynamics 365 Commerce Entity verslun umhverfisins. Þetta er nauðsynlegt skref áður en tillögur um afurðir eru virkjaðar.
 
 Í Dynamics 365 Commerce lausninni er gögnum sem eru nauðsynleg til að reikna út tillögur, afurðir og færslur safnað saman í einingaverslun umhverfisins. Til að gera þessi gögn aðgengileg öðrum þjónustum Dynamics 365, t.d. gagnagreiningu, viðskiptagreind og sérsniðnum tillögum, er nauðsynlegt að tengja umhverfið við Azure Data Lake Storage Gen 2 lausn í eigu viðskiptavinar.
 

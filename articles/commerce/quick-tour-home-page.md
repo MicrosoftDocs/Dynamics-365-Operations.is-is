@@ -1,6 +1,6 @@
 ---
 title: Yfirlit heimasíðu
-description: Þetta efnisatriði veitir yfirlit yfir heimasíðuna í Microsoft Dynamics 365 Commerce.
+description: Þessi grein veitir yfirlit yfir heimasíðuna í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4c65d040696a72a42c89934533bad6a69c5923f5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ce94dce081957af620e3ab85e466877c0bcc5bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984495"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844673"
 ---
 # <a name="home-page-overview"></a>Yfirlit heimasíðu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir yfirlit yfir heimasíðuna í Microsoft Dynamics 365 Commerce.
+Þessi grein veitir yfirlit yfir heimasíðuna í Microsoft Dynamics 365 Commerce.
 
 Heimasíðan er sjálfgefna vefsíðan sem kaupendur fara á þegar þeir heimsækja netverslunarsíðu. Venjulega sýnir þessi síða vörur og kynningar með því að nota blöndu af markaðsseiningum. Heimasíðan ætti að vera rík af myndum og texta til að halda athygli kaupenda.
 
@@ -33,7 +33,7 @@ Eftirfarandi mynd sýnir dæmi um heimasíðu sem var byggð með einingarsafnin
 
 ![Dæmi um heimasíðu.](./media/Homepage2.PNG)
 
-Efst á heimasíðunni er haus sem sýnir alla vöruflokka og aðrar síður sem smásalinn vill að viðskiptavinir skoði. Neðst á heimasíðunni er síðufótur sem inniheldur fljótlega tengla á ýmis efni sem kaupendur gætu haft áhuga á.
+Efst á heimasíðunni er haus sem sýnir alla vöruflokka og aðrar síður sem smásalinn vill að viðskiptavinir skoði. Neðst á heimasíðunni er fótur sem inniheldur fljótlega tengla á ýmsar greinar sem gætu vakið áhuga viðskiptavina.
 
 Aðalhluti heimasíðunnar getur bent á vörur, flokka eða kynningar með því að nota ýmsar Dynamics 365 Commerce einingar:
 
@@ -49,8 +49,8 @@ Aðalhluti heimasíðunnar getur bent á vörur, flokka eða kynningar með þv�
 
     ![Dæmi um eiginleikaeiningar.](./media/Feature.PNG)
 
-- **Reitur** - Reitauppsetning á innihaldsbálkseiningu er notuð til að sýna margar vörur eða vöruflokk með því að nota blöndu af myndum og texta í margdálka útliti. Í myndskreytingu heimasíðunnar sem birtist fyrr í þessu efni er reitauppsetning notuð fyrir þriggja dálka útlit varanna í **Versla konur**, **Versla karlmenn** og **Versla aukabúnað**.
-- **Myndspilari** – Hægt er að nota myndspilarann til að sýna myndefni á heimasíðunni. Myndskreytingin á heimasíðu sem birtist fyrr í þessu efni inniheldur myndspilaraeiningu.
+- **Reitur** - Reitauppsetning á innihaldsbálkseiningu er notuð til að sýna margar vörur eða vöruflokk með því að nota blöndu af myndum og texta í margdálka útliti. Í mynd af heimasíðu sem birtist fyrr í þessari grein er flísarútlit notað fyrir þriggja dálka flutning á **Verslun Konur**, **karla**, og **Versla fylgihluti** hlutir.
+- **Myndspilari** – Hægt er að nota myndspilarann til að sýna myndefni á heimasíðunni. Myndskreytingin af heimasíðu sem birtist fyrr í þessari grein inniheldur myndbandsspilaraeiningu.
 - **Textabálkur** – Hægt er að nota bálkseiningu með fjölbreyttu efni til að kynna textainnihald á heimasíðunni í einum dálki eða mörgum dálkum.
 - **Afurðatillögur** – Afurðatillögueiningar eru notaðar til að sýna lista eins og **Nýtt**, **Vinsælt** og **Mest selt** á heimasíðunni. Þessir listar sýna vörur byggðar á verslunarþróun og hægt er að búa þær til á reiknirit eða setja handvirkt saman. Þeir hjálpa viðskiptavinum fljótt að uppgötva helstu vörur og halda síðan áfram að versla.
 

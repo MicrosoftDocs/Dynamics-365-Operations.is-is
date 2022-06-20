@@ -1,6 +1,6 @@
 ---
 title: Fjárhagsvíddir og bókanir
-description: Þegar þú áætlar og setur upp bókhaldslykil, þarftu að íhuga hvernig hinir ýmsu hlutar koma til með að vinna saman þegar þú bókar skjal eða færslu. Á meðal þessara hluta eru lykilskipulag, ítarlegar reglur, og afstemmdar og fastar víddir. Þetta efnisatriði útskýrir hvað hlutinn er og hvernig hlutarnir vinna saman.
+description: Þegar þú áætlar og setur upp bókhaldslykil, þarftu að íhuga hvernig hinir ýmsu hlutar koma til með að vinna saman þegar þú bókar skjal eða færslu. Á meðal þessara hluta eru lykilskipulag, ítarlegar reglur, og afstemmdar og fastar víddir. Þessi grein útskýrir hvað hver íhluti er og hvernig íhlutirnir vinna saman.
 author: aprilolson
 ms.date: 08/04/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a612f3b703349e1cffe300b75afd44e72ae63b2c
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: a165c4084a9f2075a54c99a7e4913a4e3c3dfe55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722800"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910114"
 ---
 # <a name="financial-dimensions-and-posting"></a>Fjárhagsvíddir og bókanir 
 
 [!include [banner](../includes/banner.md)]
 
-Þegar þú áætlar og setur upp bókhaldslykil, þarftu að íhuga hvernig hinir ýmsu hlutar koma til með að vinna saman þegar þú bókar skjal eða færslu. Á meðal þessara hluta eru lykilskipulag, ítarlegar reglur, og afstemmdar og fastar víddir. Þetta efnisatriði útskýrir hvað hlutinn er og hvernig hlutarnir vinna saman.
+Þegar þú áætlar og setur upp bókhaldslykil, þarftu að íhuga hvernig hinir ýmsu hlutar koma til með að vinna saman þegar þú bókar skjal eða færslu. Á meðal þessara hluta eru lykilskipulag, ítarlegar reglur, og afstemmdar og fastar víddir. Þessi grein útskýrir hvað hver íhluti er og hvernig íhlutirnir vinna saman.
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Bókhaldslykill og hlutar fjárhagsvídda
 
@@ -46,7 +46,7 @@ Krafist er lykilskipulags þegar þú setur upp fjárhaginn þinn. Nauðsynlegt 
 
 ### <a name="defaultfixed-financial-dimensions-on-the-main-account"></a>Sjálfgefin/föst fjárhagsvídd á aðallyklinum
 
-Sjálfgefnar víddir koma frá ýmsum stöðum, eins og aðalfærslur (t.d. viðskiptamanna- eða lánadrottnafærslum), skjalahausum og aðallyklinum. Þetta efnisatriði leggur áherslu á sjálfgefnar víddir á aðallyklinum frá lögaðilum. Hægt er að skilgreina hvort aðallykill hefur **Ekki fast** eða **Fast** gildi fyrir hverja fjárhagsvídd sem er notuð í öllu lykilskipulagi fyrir fjárhaginn. Ef fjárhagsvídd er **Ekki fast** nota hún sjálfgildi, en það gildi er hægt að skrifa yfir. Þessi hegðun á við öll sjálfgildi í kerfinu, jafnvel sjálfgildi sem koma frá aðalfærslum. Ef fjárhagsvídd er stillt á **Fast** gildi, er það gildi alltaf notað, hvort sem það kom einhversstaðar frá sem sjálfgildi eða notandinn færði það inn.
+Sjálfgefnar víddir koma frá ýmsum stöðum, eins og aðalfærslur (t.d. viðskiptamanna- eða lánadrottnafærslum), skjalahausum og aðallyklinum. Þessi grein fjallar um sjálfgefnar víddir á aðalreikningi eftir lögaðila. Hægt er að skilgreina hvort aðallykill hefur **Ekki fast** eða **Fast** gildi fyrir hverja fjárhagsvídd sem er notuð í öllu lykilskipulagi fyrir fjárhaginn. Ef fjárhagsvídd er **Ekki fast** nota hún sjálfgildi, en það gildi er hægt að skrifa yfir. Þessi hegðun á við öll sjálfgildi í kerfinu, jafnvel sjálfgildi sem koma frá aðalfærslum. Ef fjárhagsvídd er stillt á **Fast** gildi, er það gildi alltaf notað, hvort sem það kom einhversstaðar frá sem sjálfgildi eða notandinn færði það inn.
 
 ## <a name="order-in-which-default-dimensions-are-applied-during-posting"></a>Sjálfgefnar víddir eru notaðar í ákveðinni röð á meðan bókun stendur
 

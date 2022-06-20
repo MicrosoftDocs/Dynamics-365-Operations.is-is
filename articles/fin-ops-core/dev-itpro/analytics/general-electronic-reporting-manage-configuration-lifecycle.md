@@ -1,6 +1,6 @@
 ---
-title: Stjórnun á lífsferli grunnstillingar fyrir rafræna skýrslugerð
-description: Þetta efnisatriði lýsir hvernig á að stjórna lífsferli skilgreininga rafrænnar skýrslugerðar (ER) fyrir Dynamics 365 Finance.
+title: Stjórnun líftíma skilgreiningar fyrir rafræna skýrslugerð
+description: Þessi grein lýsir því hvernig á að stjórna líftíma rafrænna skýrslugerðar (ER) stillinga fyrir Dynamics 365 Finance.
 author: NickSelin
 ms.date: 07/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8b61082cf17707c952b6e07613769a671c349bb8fa92c21e3fe8524ef62dcb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0220fa03283119471b3d1f78a23a04ed4036264e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767780"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906798"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Stjórnun líftíma skilgreiningar fyrir rafræna skýrslugerð
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig á að stjórna lífsferli skilgreininga rafrænnar skýrslugerðar (ER) fyrir Dynamics 365 Finance.
+Þessi grein lýsir því hvernig á að stjórna líftíma rafrænna skýrslugerðar (ER) stillinga fyrir Dynamics 365 Finance.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -73,7 +73,7 @@ Eftirfarandi hlutverk og tengdar aðgerðir tengjast lífsferli skilgreiningar r
 | Starfsmaður viðskiptaskuldagreiðslna            | Notar ER gervinga í tilteknu viðskiptaferli.                | Til dæmis hlutverk **Starfsmanns viðskiptaskuldagreiðslna** sem leyfir að mynda rafræn greiðsluskilaboð fyrir úrvinnslu reikninga, byggt á sniði rafrænnar skýrslugerðar sem er skilgreint fyrir tiltekinn greiðslumáta. |
 
 ## <a name="er-configuration-development-lifecycle"></a>Þróunarlífsferill ER skilgreiningar.
-Af eftirfarandi ER-tengdum ástæðum er mælt með að hanna ER skilgreiningar í þróunarumhverfi sem aðskilið tilvik af Finance and Operations:
+Mælt er með að hanna ER skilgreiningar í þróunarumhverfi sem aðskilið tilvik af Finance and Operations fyrir eftirfarandi ER málefni:
 
 - Notendur í hlutverkum annaðhvort **Þróunaraðila rafrænnar skýrslugerðar** eða **Hagnýts ráðgjafa vegna rafrænnar skýrslugerðar** geta breytt stillingum og keyrt þær vegna prófunar. Það getur valdið köllun eftir aðferðum flokka og töflum sem geta hugsanlega verið skaðleg fyrir viðskiptagögn og árangur af notkun tilviks.
 - Köllun eftir aðferðum flokka og tafla sem ER gagnagjafa fyrir ER skilgreiningar eru ekki takmarkaðar af aðgangsstað og skráðu efni fyrirtækis. Því geta notendur sem eru í hlutverkum **Þróunaraðila rafrænnar skýrslugerðar** eða **Hagnýts ráðgjafa vegna rafrænnar skýrslugerðar** fengið aðgang að viðkvæmum gögnum fyrirtækis.

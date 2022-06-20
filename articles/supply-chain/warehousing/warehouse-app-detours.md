@@ -1,6 +1,6 @@
 ---
 title: Skilgreina hjáleiðir fyrir skref í valmyndaratriðum fartækis
-description: Þetta efnisatriði lýsir því hvernig á að skilgreina hjáleiðir fyrir valmyndaratriði þannig að starfsmenni geta sett núverandi verk í bið, sinnt öðru verki og farið svo aftur í upprunalegt verk án þess að glata upplýsingum.
+description: Þessi grein lýsir því hvernig á að stilla krókaleiðir fyrir valmyndaratriði þannig að starfsmenn geti lagt núverandi verkefni, framkvæmt annað verk og farið síðan aftur í upprunalega verkefnið án þess að tapa neinum upplýsingum.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 874abbdf7c0938a7ad4cc66e23dd01d901a1f0d3
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920349"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863593"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Skilgreina hjáleiðir fyrir skref í valmyndaratriðum fartækis
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Eiginleikarnir sem lýst er í þessu efnisatriði eiga aðeins við um nýja farsímaforrit Warehouse Management. Þeir hafa ekki áhrif á gamla vöruhúsaforrið, sem nú er úrelt.
+> Eiginleikarnir sem lýst er í þessari grein eiga aðeins við um nýja vöruhússtjórnun farsímaforritið. Þeir hafa ekki áhrif á gamla vöruhúsaforrið, sem nú er úrelt.
 
-Þetta efnisatriði lýsir því hvernig á að skilgreina hjáleiðir fyrir valmyndaratriði þannig að starfsmenni geta sett núverandi verk „í bið“, sinnt öðru verki og farið svo aftur í upprunalegt verk án þess að glata upplýsingum.
+Þessi grein lýsir því hvernig á að stilla krókaleiðir fyrir valmyndaratriði þannig að starfsmenn geti "parkað" núverandi verkefni, framkvæmt annað verkefni og farið síðan aftur í upprunalega verkefnið án þess að tapa neinum upplýsingum.
 
 Hjáleið er aðskilið valmyndaratriði sem hægt er að opna í skrefi í aðalverki. Undir lok hjáleiðar er starfsmaður sendur aftur á staðinn þar sem hann fór úr aðalverkinu. Í grunnstillingunni tilgreinir þú valmyndaratriðið sem á að vera hjáleið. Einnig velur þú hvaða reitargildi á að framsenda (afrita) sjálfkrafa úr aðalverkinu í hjáleiðina og færa inn þar. Þar af leiðandi verður þú að skilja hvar í verkflæðinu þú vilt að hjáleiðin sé tiltæk starfsmönnum. Þú verður einnig að tryggja að upplýsingarnar sem á að afrita í hjáleiðina séu tiltækar fyrir það skref verkflæðisins.
 
@@ -46,7 +46,7 @@ Hjáleið er aðskilið valmyndaratriði sem hægt er að opna í skrefi í aða
     - **Eining:** *Vöruhúsakerfi*
     - **Heiti eiginleika:** *Hjáleiðir forrits vöruhúsakerfis*
 
-    Þessi eiginleiki er eiginleikinn sem lýst er í þessu efnisatriði.
+    Þessi eiginleiki er sá eiginleiki sem lýst er í þessari grein.
 
 1. Uppfærðu heiti reita í farsímaforriti Warehouse Management með því að fara í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Reitarheiti vöruhúsaforrits** og veldu **Búa til sjálfgefna uppsetningu**. Frekari upplýsingar eru í [Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis](configure-app-field-names-priorities-warehouse.md).
 1. Endurtaktu fyrra skrefið fyrir hvern lögaðila (fyrirtæki) þar sem þú notar farsímaforrit Warehouse Management.
@@ -57,7 +57,7 @@ Notaðu eftirfarandi ferli til að setja upp hjáleið úr hnekkingu valmyndar.
 
 1. Búðu til hnekkingu valmyndar fyrir tiltekna valmynd og skref eins og lýst er í [Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management](mobile-app-titles-instructions.md).
 1. Finndu samsetningu gilda fyrir **Kenni skrefs** og **Heiti valmyndaratriðis** sem þú vilt breyta og veldu síðan gildið í dálknum **Kenni skrefs**.
-1. Á síðunni sem birtist, á flýtiflipanum **Hjáleiðir í boði (valmyndaratriði)**, er hægt að tilgreina valmyndaratriðið sem á að vera hjáleið. Einnig er hægt að velja hvaða reitargildi úr aðalverkinu eigi að vera sjálfkrafa afrituð í og úr hjáleiðinni. Dæmi sem sýna hvernig á að nota þessar stillingar er að finna í aðstæðum síðar í þessu efnisatriði.
+1. Á síðunni sem birtist, á flýtiflipanum **Hjáleiðir í boði (valmyndaratriði)**, er hægt að tilgreina valmyndaratriðið sem á að vera hjáleið. Einnig er hægt að velja hvaða reitargildi úr aðalverkinu eigi að vera sjálfkrafa afrituð í og úr hjáleiðinni. Fyrir dæmi sem sýna hvernig á að nota þessar stillingar, sjá aðstæður síðar í þessari grein.
 
 ## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>Sýnidæmi 1: Tiltekt sölu þar sem fyrirspurn staðsetningar virkar sem hjáleið
 

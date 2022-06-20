@@ -1,6 +1,6 @@
 ---
 title: Ráða umsækjendur
-description: Þetta efni lýsir því hvernig á að ráða umsækjendur í Dynamics 365 Human Resources.
+description: Þessi grein lýsir því hvernig á að ráða umsækjendur í Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 743c78d3526db2707630229d4cf21531f9641dd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733986"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879251"
 ---
 # <a name="recruit-job-candidates"></a>Ráða umsækjendur
 
@@ -47,18 +47,19 @@ Ef þú vilt senda inn ráðningarbeiðnir í mannaráðningum verður þú fyrs
 
 Þegar kveikt hefur verið á eiginleikum skaltu velja virknina með eftirfarandi skrefum: 
 1. Fara til **Mannauður** > **Uppsetning** > **Stærðir mannauðs**.
-2. Á  **Ráðningar**  flipann, stilltu **Ráðningar óvirkar** sviði til **Nei**.
-3. Í **Reynsla af ráðningum** fellivalmynd, veldu **HR ráðningar**.   
+2. Á  **Ráðningar**  flipann, stilltu **Ráðning virkjuð** sviði til **Já**.
+3. Í **Reynsla af ráðningum** fellivalmynd, veldu **HR ráðningar**.  
+4. Smelltu á **Vista**. 
 
 > [!Note] 
-> Einu sinni **HR ráðningar** er valið, **Ráðningarverkefni** (arfleifð) verður eingöngu lesin. 
+> Einu sinni **HR ráðningar** er valið, **Ráðningarverkefni** (arfleifð) verður ekki í boði. 
 
 
 ## <a name="add-a-recruiting-request-location"></a>Bæta við staðsetningu í ráðningarbeiðni
 
 Ef fyrirtækið er með margar staðsetningar er hægt að bæta þeim við til að beiðendur geti valið staðsetningarnar þar sem nýi starfsmaðurinn á að starfa. Staðsetningin verður höfð með í starfsauglýsingunni.
 
-1. Sláðu inn í leitarstikuna **Staðsetning ráðningarbeiðni**.
+1. Í leitarstikunni, sláðu inn **Staðsetning ráðningarbeiðni**.
 2. Veljið **Nýtt**.
 3. Sláðu inn heiti staðsetningarinnar í svæðið **Staðsetning ráðningarbeiðni**.
 

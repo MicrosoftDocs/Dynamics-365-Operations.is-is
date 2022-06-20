@@ -1,6 +1,6 @@
 ---
 title: Skilgreina einkunnir og umsagnir
-description: Þetta efnisatriði lýsir því hvernig á að grunnstilla svæði fyrir rafræn viðskipti til að sýna einkunnir og umsagnir viðskiptavina í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að stilla e-Commerce síðuna þína til að sýna einkunnir viðskiptavina og umsagnir í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/17/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e3f9ff4b0654ec5fa7548ac62e16ae64f44383e7
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 56325eb0d6298f3b30316e104a4b3913ef860366
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968103"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862256"
 ---
 # <a name="configure-ratings-and-reviews"></a>Skilgreina einkunnir og umsagnir
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að grunnstilla svæði fyrir rafræn viðskipti til að sýna einkunnir og umsagnir viðskiptavina í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að stilla e-Commerce síðuna þína til að sýna einkunnir viðskiptavina og umsagnir í Microsoft Dynamics 365 Commerce.
 
 Mat og umsagnir á vefsíðum um netverslun hjálpa viðskiptavinum að fræðast um vörur áður en þeir taka kaupákvörðun með því að sýna þeim hvað öðrum viðskiptavinum finnst um þessar vörur. Fyrir vefsíður í netverslun eru einkunnir og umsagnir einnig búnaður til að safna endurgjöf viðskiptavina um vörur. 
 
@@ -91,9 +91,9 @@ Sjá upplýsingar um stillingar á einkunna- og umsagnaeiningum á upplýsingas�
 
 [Virkja handvirka birtingu einkunna og umsagna hjá stjórnanda](manual-publish-rating-reviews.md)
 
-[Inn- og útflutnings einkunnir og umsagnir](import-export-reviews.md)
+[Flytja einkunnir og umsagnir inn og út](import-export-reviews.md)
 
-[Stilla þjónustu-til-þjónustu auðkenningu](service-to-service-auth.md)
+[Stilla sannvottun milli þjónusta](service-to-service-auth.md)
 
 [Algengar spurningar um einkunnir og umsagnir](ratings-reviews-faq.md)
 

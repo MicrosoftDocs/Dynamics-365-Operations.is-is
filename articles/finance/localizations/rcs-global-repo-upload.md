@@ -1,6 +1,6 @@
 ---
 title: Stofna skilgreiningar rafrænnar skýrslugerðar í RCS og hlaða þeim upp í altæka geymslu
-description: Þetta efnisatriði útskýrir hvernig á að stofna rafræna skýrslugerð (ER) í Microsoft Regulatory Configuration Services (RCS) og hlaða henni upp í altæku geymsluna.
+description: Þessi grein útskýrir hvernig á að búa til rafræna skýrslugerð (ER) stillingar í Microsoft Regulatory Configuration Services (RCS) og hlaða henni upp í alþjóðlegu geymsluna.
 author: JaneA07
 ms.date: 01/11/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: eb04362d6d7261af56d2940b085fbc8d43c9d662
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 8cfbcfea3c6056d87eb600c9a2f9e0d1727c30ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7965090"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894744"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>Stofna skilgreiningar rafrænnar skýrslugerðar í Regulatory Configuration Services (RCS) og hlaða þeim upp í altæka geymslu
 
@@ -45,7 +45,7 @@ Ef RCS umhverfi hefur þegar verið útvegað fyrir fyrirtæki þitt skaltu nota
 ## <a name="create-a-derived-version-of-a-configuration-in-rcs"></a>Búa til afleidda útgáfu af skilgreiningu í RCS
 
 > [!NOTE]
-> Ef þetta er í fyrsta skipti sem þú notar RCS muntu ekki hafa neina uppsetningu tiltæka fyrir þig til að útvega þér. Þú þarft að flytja inn stillingu úr alþjóðlegu geymslunni. Frekari upplýsingar er að finna í [Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
+> Ef þetta er í fyrsta skiptið sem þú notar RCS muntu ekki hafa neina uppsetningu tiltæka fyrir þig. Þú þarft að flytja inn stillingu úr alþjóðlegu geymslunni. Frekari upplýsingar er að finna í [Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
 1. **Skráðu þig inn** til RCS og veldu **Rafræn skýrslugerð** vinnurými.
 2. Staðfestu að þú sért með virka stillingaveitu fyrir fyrirtæki þitt sem er stillt á virk (sjá forsendur). 

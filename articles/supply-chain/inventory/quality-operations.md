@@ -1,6 +1,6 @@
 ---
 title: Aðgerðir fyrir ósamkvæmni.
-description: Í þessu efnisatriði er lýst hvernig á að stofna og nota aðgerðir vegna ósamkvæmni.
+description: Þessi grein lýsir því hvernig á að búa til og nota aðgerðir fyrir ósamræmi.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35619454af8b1cb1b7d383d393362f58d9dd0ea6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d2e63156dd2b230da7f1ea89e2c2006c1b4f3eeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847992"
 ---
 # <a name="operations-for-nonconformances"></a>Aðgerðir fyrir ósamkvæmni.
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er lýst hvernig á að stofna og nota aðgerðir vegna ósamkvæmni.
+Þessi grein lýsir því hvernig á að búa til og nota aðgerðir fyrir ósamræmi.
 
 Notið síðuna **Aðgerðir** til þess að skilgreina flokkun á vinnu sem hægt er að framkvæmda fyrir samþykkta ósamkvæmni. Þegar tengdri aðgerð er úthlutað á ósamkvæmni, er hægt að gefa upp upplýsingar eins og um tengt efni, vinnustundir og gjöld sem eru nauðsynleg til þess að framkvæma aðgerðina. Kerfið notar þessar upplýsingar til að reikna út áætlaðan kostnað fyrir aðgerðina. Upplýsingarnar og áætlaður kostnaður er notaður fyrir tilvísanir. Tengdar aðgerðir varðandi gæði eru öðruvísi en aðgerðir sem hægt er að skilgreina fyrir framleiðsluleið.
 

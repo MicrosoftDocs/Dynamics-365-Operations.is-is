@@ -1,6 +1,6 @@
 ---
 title: Nýjungar eða breytingar í Dynamics 365 Human Resources 6. september 2021
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 6. september 2021.
+description: Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Human Resources fyrir 6. september 2021.
 author: marcelbf
 ms.date: 09/06/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 314d836db9b7560c2ed95ad1b9d2eba753e39d2b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 776498b32f8323b1a06f39b518cdc1ae534f9bcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872153"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-6-2021"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources 6. september 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Í þessu efnisatriði er lýst nýjum, breyttum eða væntanlegum eiginleikum í Microsoft Dynamics 365 Human Resources.
+Þessi grein lýsir eiginleikum sem eru nýir, breyttir eða væntanlegar í Microsoft Dynamics 365 Human Resources.
 
 Frekari upplýsingar um uppfærsluferlið okkar og áætlun er að finna í [Uppfærsluferli](hr-admin-setup-update-process.md).
 
@@ -50,9 +50,9 @@ Eftirfarandi eiginleikar eru almennt aðgengilegur með þessari útgáfu.
 Eftirfarandi villuleiðréttingar eru innifaldar í þessari útgáfu.
 
 > [!NOTE]
-> Markmiðið okkar er að koma þessum upplýsingum til þín eins fljótt og auðið er. Við gætum uppfært þetta efnisatriði til að hafa með leiðréttingar á villum sem slæddust með smíðinni eftir að þetta efnisatriði var gefið út upphaflega.
+> Markmiðið okkar er að koma þessum upplýsingum til þín eins fljótt og auðið er. Við gætum uppfært þessa grein til að innihalda villuleiðréttingar sem komu inn í bygginguna eftir að þessi grein var upphaflega birt.
 
-| Númer úthreyfingar | Gefa út | lýsing |
+| Númer úthreyfingar | Gefa út | Lýsing |
 |---|---|---|
 | 610128 | Villa við birtingu gagna þegar HcmDiscussionOverallCommentEntity var notað | Þegar gögn eru birt úr Excel-vinnubók í einingu HcmDiscussionOverralCommentEntity kemur upp eftirfarandi villa: „Get ekki fundið færslu gagnagjafa af gerðinni HcmTopicOverrall.“ |
 | 589073 | EEO-1 skýrsla lítur á „Ótilgreint" og auð gildi fyrir reitinn **Kyn** sem „Kona“. | Ef **Karl** er ekki tilgreindur fyrir reitinn **Kyn** býr EEO-1 skýrslan til sjálfgefið gildi fyrir **Konu**. |

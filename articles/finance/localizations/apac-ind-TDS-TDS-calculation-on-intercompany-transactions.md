@@ -1,6 +1,6 @@
 ---
 title: TDS-útreikningur á færslum innan samstæðu
-description: Þetta efnisatriði lýsir ferlinu sem er notað til að reikna út frádrátt skatt sem dreginn er frá í uppruna (TDS) á færsla milli fyrirtækja í áföngum.
+description: Þessi grein lýsir ferlinu sem er notað til að reikna út skatt sem dreginn er frá við uppruna (TDS) á færslum milli fyrirtækja í áföngum.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 381b00c64e3e3a09a245c82cbe1f1599986a49aa
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: c27bea997804f2c5eff6be2b20064b272ccd062f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726978"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888974"
 ---
 # <a name="tds-calculation-on-intercompany-transactions"></a>TDS-útreikningur á færslum innan samstæðu
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir ferlinu sem er notað til að reikna út frádrátt skatt sem dreginn er frá í uppruna (TDS) á færsla milli fyrirtækja í áföngum.
+Þessi grein lýsir ferlinu sem er notað til að reikna út skatt sem dreginn er frá við uppruna (TDS) á færslum milli fyrirtækja í áföngum.
 
 Þegar innkaupapöntun eða sölupöntun samstæðu er stofnuð er sjálfgefinn TDS-hópur sem er skilgreindur fyrir viðskiptavininn eða lánardrottinn notaður til að reikna út TDS-fjárhæðina. TDS-upphæðin er bókuð á reikninga sem hægt er að endurheimta eða greiða eftir bókun reikningsins.
 

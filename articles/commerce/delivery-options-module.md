@@ -1,6 +1,6 @@
 ---
-title: Eining afhendingarvalkosta
-description: Þetta efnisatriði fjallar um einingar afhendingarvalkosta og lýsir því hvernig á að skilgreina þær í Microsoft Dynamics 365 Commerce.
+title: Afhendingarkostaeining
+description: Þessi grein fjallar um einingar fyrir afhendingarvalkosti og útskýrir hvernig á að stilla þær í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 02/24/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9b9a7ad05974b98511cfc582af62c19c5fb4dbf5
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 554a17cf1c90f7fdaa20de74c3f6726910ab815d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894559"
 ---
 # <a name="delivery-options-module"></a>Afhendingarkostaeining
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði fjallar um einingar afhendingarvalkosta og lýsir því hvernig á að skilgreina þær í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um einingar fyrir afhendingarvalkosti og útskýrir hvernig á að stilla þær í Microsoft Dynamics 365 Commerce.
 
 Einingar afhendingarvalkosta leyfir viðskiptavinum að velja afhendingarmáta á borð við senda eða sækja fyrir pöntun á netinu. Heimilisfang viðtakanda er nauðsynlegt til að ákvarða afhendingarmáta. Ef heimilisfang viðtakanda breytist, þarf að sækja afhendingarvalkostina aftur. Ef pöntun inniheldur aðeins vörur sem verða sóttar í verslun, verður þessi eining sjálfkrafa falin.
 
@@ -57,7 +57,7 @@ Eftirfarandi mynd sýnir dæmi um einingu afhendingarvalkosts á greiðsluferlis
 Aðeins er hægt að bæta einingu afhendingarvalkosta við greiðsluferliseiningu. Frekari upplýsingar um hvernig skilgreina á einingu afhendingarvalkosta og bæta henni við greiðsluferlissíðu er að finna í [Greiðsluferliseining](add-checkout-module.md).
 
 > [!NOTE]
-> Þú gætir fundið fyrir ósamræmi meðhöndlun á afhendingu, eða þú gætir ekki séð gjöld á haus sem ekki eru hlutfallsleg á rafrænu viðskiptarásinni þinni. Fyrir leiðbeiningar um hvernig eigi að laga þessi vandamál, sjá [Virkjaðu samræmda afhendingarham meðhöndlun í rafrænum viðskiptarásum](consistent-delivery-mode-handling.md).
+> Þú gætir fundið fyrir ósamkvæmri afgreiðslu meðhöndlunar, eða þú gætir ekki séð óhlutfallsbundnar hausagjöld á rafrænu viðskiptarásinni þinni. Fyrir leiðbeiningar um hvernig eigi að laga þessi vandamál, sjá [Virkjaðu samræmda afhendingarham meðhöndlun í rafrænum viðskiptarásum](consistent-delivery-mode-handling.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

@@ -1,6 +1,6 @@
 ---
 title: Innhreyfingarskjal jafnað við innkaupapantanir
-description: Þetta efnisatriði lýsir ýmsum valkostum til að skrá afurðir sem mótteknar.
+description: Þessi skrá lýsir mismunandi valkostir til að skrá vörur sem mótteknar.
 author: GalynaFedorova
 ms.date: 11/15/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ea22357b4d966f50ef2021ba7534ae633859455
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 53925426b5df6000617b0d8cee757a551fb89c95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904044"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Innhreyfingarskjal jafnað við innkaupapantanir
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir ýmsum valkostum til að skrá afurðir sem mótteknar.
+Þessi skrá lýsir mismunandi valkostir til að skrá vörur sem mótteknar.
 
 Innhreyfingarskjal afurða er ferli við að skrá afurðir sem hafa verið pantaðar,svo hægt sé að vinna innkaupapöntunarlínur (PO) fyrir reikningsfærslu. Í sumum tilvikum, fara afurðir í gegnum forskráningu, þar sem viðbótarupplýsingar frá birgi er skráð áður en afurðirnar eru mótteknar. Þegar afurðirnar berast, eru þær fyrstu merkt **Skráð**. Afurðir gæti síðan fara gegnum fleiri ferli, eins og gæðastjórnun, áður en þeir eru að lokum merkt **Móttekið**.
 

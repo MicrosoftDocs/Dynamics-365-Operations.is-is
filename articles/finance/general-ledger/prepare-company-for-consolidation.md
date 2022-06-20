@@ -1,6 +1,6 @@
 ---
 title: Undirbúa lögaðila fyrir sameiningarferlið
-description: Við sameiningu er færslum safnað saman úr nokkrum settum af lyklum lögaðila í eitt sett af lyklum lögaðila. Þetta efnisatriði útskýrir hvernig á að undirbúa lögaðila undir sameiningu.
+description: Við sameiningu er færslum safnað saman úr nokkrum settum af lyklum lögaðila í eitt sett af lyklum lögaðila. Þessi grein útskýrir hvernig á að undirbúa lögaðila fyrir sameiningu.
 author: jinniew
 ms.date: 10/30/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0ef6736046748b92357c41d27eeedfc88c610d33
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2a3d4645c79ec30df2bbb7a32a82a59fdb7016e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894027"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>Undirbúa lögaðila fyrir sameiningarferlið
 
 [!include [banner](../includes/banner.md)]
 
-Við sameiningu er færslum safnað saman úr nokkrum settum af lyklum lögaðila í eitt sett af lyklum lögaðila. Þetta efnisatriði útskýrir hvernig á að undirbúa lögaðila undir sameiningu.
+Við sameiningu er færslum safnað saman úr nokkrum settum af lyklum lögaðila í eitt sett af lyklum lögaðila. Þessi grein útskýrir hvernig á að undirbúa lögaðila fyrir sameiningu.
 
 > [!NOTE]
 > Við mælum með að þú notir Management Reporter fyrir Microsoft Dynamics 365 Fjármál til að sameina fjárhagsniðurstöður margra lögaðila á samstæðusniði. Stjórnunarskýrsla gerir þér kleift að búa til samstæðufjárhagsskýrslur þvert á lögaðila, nota Excel til að flytja inn samstæðugögn frá öðrum aðilum og þýða upphæðir í hvaða fjölda skýrslugjaldmiðla sem er án þess að þurfa að keyra samstæðuferlið í Dynamics 365 Finance.

@@ -1,6 +1,6 @@
 ---
 title: Leyfisstaða
-description: Þetta efnisatriði veitir upplýsingar og dæmi um fyrirspurn fyrir einingu launastöðu í Dynamics 365 Human Resources.
+description: Þessi grein veitir upplýsingar og dæmi um fyrirspurn fyrir orlofsstöðueininguna í Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d26d9624ae8d99b208f77d12137262983499c51
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 4792c316b8b7af3e86b097029eb281af4a10d113
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064817"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899702"
 ---
 # <a name="leave-balance"></a>Leyfisstaða
 
@@ -27,9 +27,9 @@ ms.locfileid: "8064817"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þetta efnisatriði lýsir einingu leyfisstöðu fyrir Dynamics 365 Human Resources.
+Þessi grein lýsir orlofsstöðueiningunni fyrir Dynamics 365 Human Resources.
 
-### <a name="description"></a>lýsing
+### <a name="description"></a>Lýsing
 
 Þessi eining sýnir leyfisstöðu á hverja leyfisgerð fyrir tiltekinn starfsmann.
 

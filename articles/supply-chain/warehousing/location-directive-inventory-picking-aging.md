@@ -1,6 +1,6 @@
 ---
 title: Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu
-description: Þetta efnisatriði útskýrir hvernig á að nota fyrst inn, fyrst út (FIFO) og síðast inn , fyrst út (LIFO) aðferðir staðsetningarleiðbeiningarinnar við tiltekt.
+description: Þessi grein útskýrir hvernig á að nota fyrst inn, fyrst út (FIFO) og síðast inn, fyrst út (LIFO) staðsetningarleiðbeiningar við tínslu.
 author: Mirzaab
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 229dd0033e3eae4bdd33acca6736b7a9feec8c9b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 34ce119ca70596f0e40797c4b44a8fba4d5b7e0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885697"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að nota fyrst inn, fyrst út (FIFO) og síðast inn , fyrst út (LIFO) aðferðir staðsetningarleiðbeiningarinnar við tiltekt. Þessar aðferðir vinna saman með aldursdagsetningarnar sem eru skráðar fyrir staðsetningar til að rekja þegar birgðir voru fyrst færðar inn í vöruhúsið. Eiginleikinn *Staðsetningarleiðbeining fyrir aldursgreiningu birgðatínslu* notar dagsetningu í staðsetningunni til að ákvarða aldur. Eiginleikinn *Staðsetningarstaða vöruhúss* uppfærir dagsetninguna í staðsetningunni út frá dagsetningunni í númeraplötunni.
+Þessi grein útskýrir hvernig á að nota fyrst inn, fyrst út (FIFO) og síðast inn, fyrst út (LIFO) staðsetningarleiðbeiningar við tínslu. Þessar aðferðir vinna saman með aldursdagsetningarnar sem eru skráðar fyrir staðsetningar til að rekja þegar birgðir voru fyrst færðar inn í vöruhúsið. Eiginleikinn *Staðsetningarleiðbeining fyrir aldursgreiningu birgðatínslu* notar dagsetningu í staðsetningunni til að ákvarða aldur. Eiginleikinn *Staðsetningarstaða vöruhúss* uppfærir dagsetninguna í staðsetningunni út frá dagsetningunni í númeraplötunni.
 
 Hægt er að nota FIFO og LIFO-áætlanir til að senda bæði runuraktar vörur og ekki runuraktar vörur, byggt á dagsetningunni þegar birgðir voru færðar inn í vöruhúsið. Þessi eiginleiki getur verið mjög gagnlegur fyrir birgðir án runurakningar þar sem enga lokadagsetningu er hægt að nota til að raða eftir.
 

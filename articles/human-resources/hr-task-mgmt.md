@@ -1,6 +1,6 @@
 ---
 title: Verkstjórnun
-description: Þetta efnisatriði útskýrir verkefnastjórnunarvirknina sem er fáanleg í Microsoft Dynamics 365 Human Resources.
+description: Þessi grein útskýrir verkefnastjórnunarvirknina sem er fáanleg í Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 12/20/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae453bd57217f272038decc7e40ed373f618ae03
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: c567f6d74e6ff87a72ff3b8663ca3a291dff3abb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710222"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897865"
 ---
 # <a name="task-management"></a>Verkstjórnun
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
-Verkefnastjórnun gerir þér kleift að búa til verkefni sem þarf að klára til að ráða (inn um borð), segja upp (fyrir utan) og flytja (skipti) starfsmenn. Verkefnastjórnun notar hugtakið gátlista. Gátlisti er yfir lista yfir verkefni um borð, brottför eða umskipti. Verkefnastjórnun notar gátlista til að flokka verkefni saman og úthluta þeim á einstaklinga eða hópa. Virkni gátlistans fyrir um borð, brottför og umskipti er svipuð.
+Verkefnastjórnun gerir þér kleift að búa til verkefni sem þarf að ljúka til að ráða (um borð), segja upp (fyrir utan) og flytja (skipti) starfsmenn. Verkefnastjórnun notar hugtakið gátlista. Gátlisti er yfir lista yfir verkefni um borð, brottför eða umskipti. Verkefnastjórnun notar gátlista til að flokka verkefni saman og úthluta þeim á einstaklinga eða hópa. Virkni gátlistans fyrir um borð, brottför og umskipti er svipuð.
 
 ## <a name="checklist-overview"></a>Yfirlit yfir gátlista
 
@@ -39,7 +39,7 @@ Sem hluti af inngönguferlinu geta starfsmenn mannauðs (HR) búið til verkefni
 
 **Dæmi 1**
 
-Sérhver starfsmaður sem er ráðinn í Bandaríkjunum verður að ljúka verkefnum eins og að fylla út eyðublöð fyrir staðgreiðslu skatta. Hins vegar gætu verkefni eins og úthlutun fyrirtækjabíls aðeins átt við um starfsfólk á stjórnendastigi. Í þessu tilviki er hægt að búa til tvo gátlista um borð: **Starfsmenn með aðsetur í Bandaríkjunum** og **Aðeins stjórnendur**. Síðan, þegar miðstigsstjóri er ráðinn í Bandaríkjunum, þá **Starfsmenn með aðsetur í Bandaríkjunum** gátlisti er valinn. Hins vegar, þegar framkvæmdastjóri er ráðinn í Bandaríkjunum, eru báðir gátlistarnir valdir til að tryggja að öllum nauðsynlegum um borðsverkefnum sé lokið.
+Sérhver starfsmaður sem er ráðinn í Bandaríkjunum verður að ljúka verkefnum eins og að fylla út eyðublöð fyrir staðgreiðslu skatta. Hins vegar gætu verkefni eins og úthlutun fyrirtækjabíls aðeins átt við um starfsfólk á stjórnendastigi. Í þessu tilviki er hægt að búa til tvo gátlista um borð: **Starfsmenn með aðsetur í Bandaríkjunum** og **Aðeins stjórnendur**. Síðan, þegar miðstigsstjóri er ráðinn í Bandaríkjunum, þá **Starfsmenn með aðsetur í Bandaríkjunum** gátlisti er valinn. Hins vegar, þegar framkvæmdastjóri er ráðinn til starfa í Bandaríkjunum, eru báðir gátlistarnir valdir til að tryggja að öll tilskilin verkefni um borð séu unnin.
 
 **Dæmi 2**
 
@@ -69,7 +69,7 @@ The **Umskipti** flipi inniheldur **Öll verkefni** listi sem sýnir öll verkef
 
 Þú getur búið til verkefni fyrir sig og síðan endurnýtt þau í mörgum gátlistum. Til að búa til verkefni, á **Uppsetning um borð** síðu, á **Verkefni** flipa, veldu **Nýtt**.
 
-Að öðrum kosti geturðu bætt verkefnum beint við gátlista. Til að bæta verkefni við gátlista, á **Uppsetning um borð** síðu, á **Tékklisti** flipa, búðu annaðhvort til nýjan gátlista til að bæta verkefninu við eða bæta verkefninu við núverandi gátlista.
+Að öðrum kosti geturðu bætt verkefnum beint við gátlista. Til að bæta verkefni við gátlista, á **Uppsetning um borð** síðu, á **Tékklisti** flipa, búðu til annað hvort nýjan gátlista til að bæta verkefninu við eða bæta verkefninu við núverandi gátlista.
 
 > [!NOTE]
 > Ef þú bætir verkefni beint á gátlista geturðu ekki endurnýtt það í öðrum gátlistum.
@@ -93,11 +93,11 @@ Eftirfarandi tafla lýsir reitunum sem eru tiltækir þegar þú býrð til verk
 Verkatengill veitir tengil á ytri vefsíðu eða síðu í Dynamics 365 appinu. Þú getur tilgreint verktengil ef sá sem er úthlutað verki ætti að fara á tiltekna vefsíðu eða ákveðna síðu í Dynamics 365 appinu til að klára það verkefni. Þegar þú býrð til verktengil geturðu valið einn af eftirfarandi valkostum:
 
 - **Valmyndaratriði** – Ef þú velur þennan valkost birtist listi yfir allar síður í Dynamics 365 appinu. Veldu síðu á listanum.
-- **URL** – Ef þú velur þennan valkost skaltu slá inn slóð vefsíðunnar sem þú vilt að sá sem er úthlutað til að fara á. Tilgreind síða getur verið síða sem er ekki hluti af Dynamics 365 appinu.
+- **URL** – Ef þú velur þennan valkost skaltu slá inn vefslóð vefsíðunnar sem þú vilt að sá sem er úthlutað verkefninu fari á. Tilgreind síða getur verið síða sem er ekki hluti af Dynamics 365 appinu.
 - **Upplýsingar um starfsmann** – Ef þú velur þennan valkost skaltu velja einn af eftirfarandi valkostum:
 
     - **Sjálfsafgreiðsluaðgerðir starfsmanna** – Þessi valkostur sýnir lista yfir síður sem eru tiltækar á **Sjálfsafgreiðsla starfsmanna**. Notaðu það ef verkefnið sem var úthlutað starfsmanni um borð þarf að vera lokið í **Sjálfsafgreiðsla starfsmanna**. Til dæmis, ef þú vilt að starfsmaðurinn slær inn persónulegar tengiliðaupplýsingar sínar skaltu velja **Sjálfsafgreiðsluaðgerðir starfsmanna**, og veldu síðan **Persónulegar upplýsingar&gt; Persónuupplýsingar**.
-    - **Aðgerðir starfsmannastjórnunar** – Þessi valkostur sýnir lista yfir síður sem tengjast skráningu starfsmanns, en eru ekki aðgengilegar starfsmanninum. Til dæmis, ef þú vilt að eigandi verkefna slær inn upplýsingar sem eru sérstakar fyrir starfsmann um borð, svo sem upplýsingar um launakjör, veldu **Aðgerðir starfsmannastjórnunar**, og veldu síðan **Bætur&gt; Fastar bætur**.
+    - **Aðgerðir starfsmannastjórnunar** – Þessi valkostur sýnir lista yfir síður sem tengjast skráningu starfsmanns, en eru ekki aðgengilegar starfsmanninum. Til dæmis, ef þú vilt að eigandi verkefna setji inn upplýsingar sem eru sérstakar fyrir starfsmann um borð, svo sem upplýsingar um launakjör, veldu **Aðgerðir starfsmannastjórnunar**, og veldu síðan **Bætur&gt; Fastar bætur**.
 
 ### <a name="assignment-types"></a>Verkefnagerðir
 
@@ -114,13 +114,13 @@ Verkatengill veitir tengil á ytri vefsíðu eða síðu í Dynamics 365 appinu.
 - **Framkvæmdastjóri** – Úthlutaðu verkefninu til yfirmanns starfsmanns sem verið er að ráða, segja upp eða flytja til.
 
     > [!IMPORTANT]
-    > Þegar gátlisti er notaður, ef engin staða er úthlutað starfsmanni sem ráðinn var, sagði upp eða fluttur, er ekki hægt að ákvarða yfirmanninn. Í þessu tilviki er verkefninu úthlutað eiganda gátlistans. Fyrir frekari upplýsingar, sjá [Að setja upp gátlista](#setting-up-checklists) kafla.
+    > Þegar gátlisti er notaður, ef engin staða er í augnablikinu úthlutað starfsmanni sem ráðinn var, sagt upp eða fluttur, er ekki hægt að ákvarða yfirmanninn. Í þessu tilviki er verkefninu úthlutað eiganda gátlistans. Fyrir frekari upplýsingar, sjá [Að setja upp gátlista](#setting-up-checklists) kafla.
 
 - **Starfsmaður** – Úthluta starfsmanninum sem verið er að ráða, segja upp eða flytja til.
 
 ### <a name="task-due-dates-and-the-due-date-offset-field"></a>Gjalddagar verks og reiturinn Gjalddagajöfnun
 
-Gjalddagar verkefna eru byggðir á upphafsdegi ráðningar, uppsagnardegi eða umbreytingardagsetningu. Sumum verkefnum verður að ljúka fyrir upphafsdag starfsmanns, en öðrum verkefnum er hægt að ljúka eftir. Þegar þú skilgreinir verkefni stillirðu **Gjalddagajöfnun** reit til að tilgreina gjalddaga sem er miðað við upphafsdag, uppsagnardagsetningu eða umbreytingardagsetningu. Til dæmis þarf upplýsingatæknifræðingur að útbúa fartölvu fyrir nýjan starfsmann tveimur dögum fyrir upphafsdag þess starfsmanns. Í þessu tilviki, þegar þú býrð til fartölvustillingarverkefnið skaltu stilla **Gjalddagajöfnun** sviði til **-2**. Síðan, ef upphafsdagur starfsmanns er 5. maí, á verkefnið að skila 3. maí.
+Gjalddagar verkefna eru byggðir á upphafsdegi ráðningar, uppsagnardegi eða umbreytingardagsetningu. Sumum verkefnum þarf að ljúka fyrir upphafsdag starfsmanns, en öðrum verkefnum er hægt að ljúka eftir. Þegar þú skilgreinir verkefni stillirðu **Gjalddagajöfnun** reit til að tilgreina gjalddaga sem er miðað við upphafsdag, uppsagnardagsetningu eða umbreytingardagsetningu. Til dæmis þarf upplýsingatæknifræðingur að útbúa fartölvu fyrir nýjan starfsmann tveimur dögum fyrir upphafsdag þess starfsmanns. Í þessu tilviki, þegar þú býrð til fartölvustillingarverkefnið skaltu stilla **Gjalddagajöfnun** sviði til **-2**. Síðan, ef upphafsdagur starfsmanns er 5. maí, á verkefnið að skila 3. maí.
 
 > [!NOTE]
 > Gjalddaga er hægt að breyta eftir að verkefnið er búið til.
@@ -145,7 +145,7 @@ Dagatalið sem er tilgreint fyrir gátlista er notað til að reikna út gjaldda
 
 Eftir að dagatal er sett upp er það tengt við gátlistasniðmát. Þannig er gjalddagi hvers verks á gátlistanum reiknaður út á sama hátt. Þú getur sett upp mörg dagatöl, en aðeins eitt dagatal getur verið tengt hverjum gátlista.
 
-## <a name="setting-up-assignment-groups-optional"></a>Uppsetning verkefnahópa (valfrjálst)
+## <a name="setting-up-assignment-groups-optional"></a>Setja upp verkefnahópa (valfrjálst)
 
 Stundum ber hópur einstaklinga ábyrgð á verkefni. Til dæmis gæti hópur upplýsingatæknistarfsmanna verið ábyrgur fyrir því að undirbúa fartölvur fyrir nýráðningar.
 
@@ -164,7 +164,7 @@ Eftir að verkefnahópur er búinn til er hann tiltækur fyrir val þegar verkef
 
 ## <a name="setting-up-task-groups-optional"></a>Uppsetning verkefnahópa (valfrjálst)
 
-Um borð, brottför eða umbreytingarferli geta falið í sér mörg verkefni. Til að gera það auðveldara að úthluta öllum nauðsynlegum verkefnum á gátlista geturðu búið til valfrjálsa verkefnahópa til að flokka tengd verkefni. Til dæmis verða starfsmanna-, upplýsingatækni- og launadeildir hver um sig að ljúka sérstökum verkefnum til að ráða nýjan starfsmann. Þess vegna býrðu til eftirfarandi verkefnahópa: **HR**, **·**, og **Launaskrá**. Síðan, þegar þú býrð til verkefni, geturðu tengt einn af þessum verkhópum við það.
+Um borð, brottför eða umbreytingarferli geta falið í sér mörg verkefni. Til að auðvelda þér að úthluta öllum nauðsynlegum verkefnum á gátlista geturðu búið til valfrjálsa verkefnahópa til að flokka tengd verkefni. Til dæmis verða starfsmanna-, upplýsingatækni- og launadeildir hver um sig að ljúka sérstökum verkefnum til að ráða nýjan starfsmann. Þess vegna býrðu til eftirfarandi verkefnahópa: **HR**, **·**, og **Launaskrá**. Síðan, þegar þú býrð til verkefni, geturðu tengt einn af þessum verkhópum við það.
 
 Þegar þú vilt bæta verki við gátlista geturðu síað verkefnalistann eftir verkefnahópnum sem viðkomandi verkefni er úthlutað. Til dæmis, þegar þú býrð til gátlistasniðmát geturðu síað listann þannig að aðeins upplýsingatækniverkefnum sem eru úthlutað til **ÞAÐ** verkefnahópar eru sýndir. Þess vegna getur þú tryggt að aðeins viðkomandi upplýsingatækniverkefni séu valin.
 
@@ -176,21 +176,21 @@ Gjalddagi er úthlutað á hvert verkefni með því að bæta við eða draga f
 
 Ef þú ert að nota starfsmannaaðgerðir eru verkefnin búin til þegar **Heill** hnappur er valinn eða aðgerðin er samþykkt.
 
-Í **Verkefnastjórnun** vinnusvæði, þú getur sett gátlista á starfsmann með því að velja starfsmanninn á einföldu listasíðunni eða upplýsingasíðunni og velja síðan **Notaðu gátlista**. Verðmæti **Áætluð dagsetning** reiturinn verður notaður til að reikna út gjalddaga verkefna. Venjulega ætti markdagsetningin að passa við ráðningar-, uppsagnar- eða breytingadag starfsmanns.
+Í **Verkefnastjórnun** vinnusvæði, þú getur sett gátlista á starfsmann með því að velja starfsmann á einföldu listasíðunni eða upplýsingasíðunni og velja síðan **Notaðu gátlista**. Verðmæti **Áætluð dagsetning** reiturinn verður notaður til að reikna út gjalddaga verkefna. Venjulega ætti markdagsetningin að passa við ráðningar-, uppsagnar- eða breytingadag starfsmanns.
 
 Einnig er hægt að setja gátlista fyrir starfsmann með því að opna þeirra **Vinnumaður** síðu og velja **Gátlistar** á matseðlinum.
 
 ## <a name="completing-tasks"></a>Að klára verkefni
 
-Á **Sjálfsafgreiðsla starfsmanna** síðu getur starfsmaður skoðað öll þau verkefni sem honum eru úthlutað. Fyrir hvert úthlutað verkefni, **Verkefni**, **·**, **·**, og **Tengiliður** gildi eru sýnd. Að auki, fyrir hvert verkefni, getur starfsmaðurinn opnað tengda ytri vefsíðu eða tengda síðu í Dynamics 365 appinu.
+**Á síðunni Sjálfsafgreiðsla** starfsmanns getur starfsmaður skoðað öll verk sem þeim er úthlutað. Fyrir hvert úthlutuð verk **eru gildi verks**, **lýsingar**, **leiðbeininga** og **tengiliðar** sýnd. Að auki, fyrir hvert verk, getur starfsmaðurinn opnað tengda ytri vefsíðu eða tengda síðu í forritinu Dynamics 365.
 
-Einnig er hægt að birta verkefni á sjálfgefna mælaborðinu. Til að birta verkefni á sjálfgefna mælaborðinu:
-1. Fara til **Notendavalkostir – Stillingar – Verkefnastjórnun** 
-2. Veldu **Sýna verkefni á sjálfgefnu mælaborði** til **Á**.  
+Einnig er hægt að birta verk á sjálfgefna mælaborðinu. Verk birt á sjálfgefna mælaborðinu:
+1. Fara í **notendavalkosti – Kjörstillingar – Verkefnastjórnun** 
+2. Velja skal skjáverkin **á sjálfgefnu mælaborði** í **Á**.  
 
 >[!Note] 
->The **Verkefnastjórnun** kveikt verður á eiginleikanum í **Eiginleikastjórnun** fyrir möguleika á að birta í **Notendavalkostir**.
+>**Kveikja verður á eiginleikanum Verkstjórnun** í **Eiginleikastjórnun** til að hægt sé að birta valkostinn í **valkostum** notanda.
 
-Verkefni má merkja sem **Í vinnslu**, **við**, eða **Lokið**. Ef verkefni var úthlutað hópi verður það merkt sem **Lokið** þegar einn aðili í hópnum klárar það.
+Hægt er að merkja verk sem **Í vinnslu**, **Hætt við** eða **Lokið**. Ef verki var úthlutað á flokk verður það merkt sem **Lokið** þegar einn aðili í hópnum lýkur því.
 
 Einnig er hægt að endurúthluta verkefnum.

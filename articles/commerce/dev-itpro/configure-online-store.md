@@ -1,6 +1,6 @@
 ---
 title: Skilgreina verslanir á netinu
-description: Þessi grein veitir tengla í efni sem mun hjálpa þér að stilla miðlægt og stjórna netverslun.
+description: Þessi grein veitir tengla á greinar sem hjálpa þér að stilla og stjórna netverslun miðlægt.
 author: kfend
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87607e2c42ee67d62a7ce2e87744e9d9143dcf81
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c8a5b13189eb93d4df81a427a932b81ab8d830be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734105"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861880"
 ---
 # <a name="configure-online-stores"></a>Skilgreina verslanir á netinu
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir tengla í efni sem mun hjálpa þér að stilla miðlægt og stjórna netverslun.
+Þessi grein veitir tengla á greinar sem hjálpa þér að stilla og stjórna netverslun miðlægt.
 
-Efnisatriðin í eftirfarandi töflu lýsa skilgreiningu Commerce-þátta og netversluninni í biðlaranum.
+Greinarnar sem taldar eru upp í eftirfarandi töflu hjálpa þér að stilla Commerce hluti og netverslunina í biðlaranum.
 
 ## <a name="configure-an-online-store"></a>Skilgreina netverslun
 
-| Verk                                                | Upplýsingar                                                                                                                                                                                                                                                                                                                                                   | Efni                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Verk                                                | Upplýsingar                                                                                                                                                                                                                                                                                                                                                   | Greinar                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Skilgreina íhluti.                        | Setja upp og viðhalda upplýsingum um Commerce-aðgerðir. Þessar upplýsingar taka til verslana, skatta, afurða, gjafakorta, kynningartilboða og afsláttar.                                                                                                                                                                                                          | [Uppsetning og viðhald smásölu](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-retail) (TechNet-efni fyrir Microsoft Dynamics AX 2012)                                                                                                                                                                                                                                                                                          |
 | Grunnstilla skoðunarstigveldi rásar.    | Stofna skoðunarstigveldi rásar til að setja upp tegundaskipulag fyrir afurðir sem boðnar eru til sölu í netverslun. Þú skilgreinir tegundastigveldi og úthlutar afurð, afurðareigindaflokkum og eigindargildum í tegundrnar. Síðan er hægt að úthluta tegundastigveldinu á netverslunina.                            | [Setja upp smásölustigveldi](/dynamicsax-2012/appuser-itpro/set-up-a-retail-hierarchy)</br> (TechNet efni fyrir AX 2012)</br> [Settu upp eiginleika og eigindategundir](/dynamicsax-2012/appuser-itpro/set-up-attributes-and-attribute-types) (TechNet efni fyrir AX 2012)</br> [Settu upp smásölu eigindahópa](/dynamicsax-2012/appuser-itpro/set-up-retail-attribute-groups) (TechNet efni fyrir AX 2012) |
@@ -41,7 +41,7 @@ Efnisatriðin í eftirfarandi töflu lýsa skilgreiningu Commerce-þátta og net
 
 ## <a name="configure-online-store-products"></a>Grunnstilla afurðum netverslunar
 
-| Verk                                 | Upplýsingar                                                                                                                                           | Efni                                                                                                                                                                                                                                                                            |
+| Verk                                 | Upplýsingar                                                                                                                                           | Greinar                                                                                                                                                                                                                                                                            |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bæta úrvali við netverslun. | Bæta við vöruúrval sem hafa með afurð sem þú býður í netverslun.                                                                  | [Setja upp netverslun](/dynamicsax-2012/appuser-itpro/set-up-an-online-store) (TechNet-efni fyrir AX 2012)                                                                                                                                              |
 | Stjórna vörulistum.                     | Notaðu vörulista til að auðkenna afurðirnar sem óskað er eftir að bjóða upp í verslunum.                                                              | [Lykilverkefni: Stofna smásöluvörulista](/dynamicsax-2012/appuser-itpro/key-tasks-create-retail-product-catalogs) (TechNet-efni fyrir AX 2012)                                                                                                                           |
@@ -52,7 +52,7 @@ Efnisatriðin í eftirfarandi töflu lýsa skilgreiningu Commerce-þátta og net
 
 ## <a name="set-up-data-exchange-between-commerce-and-the-online-store"></a>Setja upp gagnaskipti á milli Commerce og netverslunar
 
-| Verk                                 | Upplýsingar                                                                                                                               | Efni                                                                                                                                                                                                                                                                                  |
+| Verk                                 | Upplýsingar                                                                                                                               | Greinar                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Setja upp samþættingarreglur rása. | Forstilling gera virkjar íhluti til að hafa samskipti sín á milli. Setja upp forstillingar áður en stillingar gagnaskipta eru grunnstilltar. | [Settu upp rauntíma þjónustusnið](/dynamicsax-2012/appuser-itpro/set-up-a-real-time-service-profile) (TechNet efni fyrir AX 2012)</br> [Settu upp rásarforstillingar](/dynamicsax-2012/appuser-itpro/set-up-a-channel-profile) (TechNet efni fyrir AX 2012) |
 

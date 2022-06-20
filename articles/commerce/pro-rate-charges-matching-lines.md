@@ -1,6 +1,6 @@
 ---
-title: Hlutfallsskipting hausagjalda á samsvarandi sölulínur
-description: Þetta efnisatriði lýsir viðbótarmöguleikum til að reikna út og nota sjálfvirk gjöld í pantanir Commerce-rásar með því að nota ítarlegan eiginleika sjálfvirkra gjalda.
+title: Skipta gjöldum í haus í hlutfalli við samsvarandi sölulínur
+description: Þessi grein lýsir viðbótarmöguleikum til að reikna út og beita sjálfvirkum gjöldum á verslunarrásarpantanir með því að nota háþróaða sjálfvirka greiðslueiginleikann.
 author: hhaines
 ms.date: 03/30/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0de29e1817840c172f9235f2ee48251c4878a0573d270a60fde5b42ba6f88d31
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b41aa7b012b161626a98fc4aa2d37134552a57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886933"
 ---
-# <a name="prorate-header-charges-to-matching-sales-lines"></a>Hlutfallsskipting hausagjalda á samsvarandi sölulínur
+# <a name="prorate-header-charges-to-matching-sales-lines"></a>Skipta gjöldum í haus í hlutfalli við samsvarandi sölulínur
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir virkninni fyrir flokkun á sjálfvirkum gjöldum á hausstigi og hlutfallsskipting þeirra á sölulínur Commerce. Þessi virkni er tiltæk fyrir færslur sem eru búnar til á sölustað (POS) í Retail útgáfu 10.0.1 og sölur sem eru búnar til í símaveri í Retail útgáfu 10.0.2.
+Þessi grein lýsir virkni til að flokka sjálfvirk gjöld á hausstigi og skipta þeim í hlutfallslega við sölulínur í viðskiptum. Þessi virkni er tiltæk fyrir færslur sem eru búnar til á sölustað (POS) í Retail útgáfu 10.0.1 og sölur sem eru búnar til í símaveri í Retail útgáfu 10.0.2.
 
 Þessi virkni er aðeins tiltæk ef kveikt er á eiginleikanum [ítarleg sjálfvirk gjöld](/dynamics365/unified-operations/retail/omni-auto-charges) með því að nota valkostinn á síðunni **Færibreytur Commerce**. Auk þess má nota ítarlega reikningsaðferð fyrir sjálfvirk gjöld eingöngu fyrir sölupantanir sem eru búnar til í gegnum Commerce-rásir (POS, símaver og verkvang rafrænna viðskipta Dynamics).
 

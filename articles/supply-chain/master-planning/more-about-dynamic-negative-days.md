@@ -1,6 +1,6 @@
 ---
 title: Neikvæðir dagar og gagnvirkir neikvæðir dagar
-description: Þetta umræðuefni veitir upplýsingar um neikvæða daga og kvika neikvæða daga og hvernig þú getur notað þá til að hjálpa fyrirtækinu.
+description: Þessi grein veitir upplýsingar um neikvæða daga og kraftmikla neikvæða daga og hvernig þú getur notað þá til að hjálpa fyrirtækinu þínu.
 author: t-benebo
 ms.date: 05/25/2021
 ms.topic: article
@@ -10,27 +10,27 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d88517c99a274911e8abd8de4bcd318139822a5
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: d83aab9b7d3d30d519e8b313a57f2802de3cfb72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469870"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846128"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Neikvæðir dagar og gagnvirkir neikvæðir dagar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta umræðuefni veitir upplýsingar um neikvæða daga og kvika neikvæða daga og hvernig þú getur notað þá til að hjálpa fyrirtækinu. *Tímamörk neikvæðra daga* tákna þann fjölda daga sem þú ert tilbúin/n að bíða áður en þú pantar nýja áfyllingu þegar þú ert með neikvæðan lager.
+Þessi grein veitir upplýsingar um neikvæða daga og kraftmikla neikvæða daga og hvernig þú getur notað þá til að hjálpa fyrirtækinu þínu. *Tímamörk neikvæðra daga* tákna þann fjölda daga sem þú ert tilbúin/n að bíða áður en þú pantar nýja áfyllingu þegar þú ert með neikvæðan lager.
 
-Í þessu efnisatriði muntu læra eftirfarandi upplýsingar:
+Í þessari grein muntu læra eftirfarandi upplýsingar:
 
 - Hvernig pantanatillögur eru stofnaðar
 - Samsvörunin á milli tímamarka neikvæðra daga tímabilsins og afhendingartíma vörunnar
 - Hvernig kvikir neikvæðir dagar eru reiknaðir út og hvernig afhendingartími vörunnar er tekinn með í útreikninginn
 - Hvernig túlka á [tillögur til að bæta keyrslutíma fyrir áætlun efnisþarfa (MRP) (aðaláætlanagerð)](https://blogs.msdn.com/b/axmfg/archive/2015/01/02/checklist-for-improving-mrp-performance-part-2-how-to-setup-planning-parameters.aspx) sem tengjast neikvæðum dögum
 
-Þetta efni notar þrjár fræðilegar aðstæður til að hjálpa þér að skilja þessar upplýsingar. Munurinn á aðstæðunum er sá staður þar sem þú færð eftirspurn: fyrir, á meðan eða eftir afhendingartímabilið.
+Þessi grein notar þrjár ímyndaðar aðstæður til að hjálpa þér að skilja þessar upplýsingar. Munurinn á aðstæðunum er sá staður þar sem þú færð eftirspurn: fyrir, á meðan eða eftir afhendingartímabilið.
 
 ## <a name="scenario-1-you-get-demand-before-the-items-lead-time-period"></a>Aðstæður 1: Þú færð eftirspurn fyrir afhendingartímabil vörunnar
 
@@ -93,7 +93,7 @@ Eftirfarandi skýringarmynd sýnir myndrænt yfirlit yfir það sem gerist í þ
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Mál E: Notaðu bæði neikvæðu dagana sem eru hærri en tímamörk afhendingartími og tímamörk kvikra neikvæðra daga
 
-Ef þú stillir neikvæðu dagana á tölu sem er hærri en afhendingartími vörunnar og ef þú notar einnig tímamörk kvikra neikvæðra daga eru tímamörk kvikra neikvæðra daga 6 + 6 + 0 = 12 dagar. Þessi nálgun gæti valdið afar löngum tímamörkum sem MRP verður að leita að niðurstöðum í. Til að fá upplýsingar um hvernig mál E er tengt við aðstæður þar sem þú stillir neikvæða daga á löng tímamörk skaltu fara í hlutann [Niðurstaða](#conclusion) í þessu efni.
+Ef þú stillir neikvæðu dagana á tölu sem er hærri en afhendingartími vörunnar og ef þú notar einnig tímamörk kvikra neikvæðra daga eru tímamörk kvikra neikvæðra daga 6 + 6 + 0 = 12 dagar. Þessi nálgun gæti valdið afar löngum tímamörkum sem MRP verður að leita að niðurstöðum í. Fyrir upplýsingar um hvernig tilvik E tengist aðstæðum þar sem þú stillir neikvæða daga á langtíma girðingu, sjáðu [Niðurstaða](#conclusion) kafla þessarar greinar.
 
 ## <a name="scenario-2-you-get-demand-during-the-items-lead-time-period"></a>Aðstæður 2: Þú færð eftirspurn á afhendingartímabili vörunnar
 
@@ -142,7 +142,7 @@ Ef þú stillir neikvæða daga á **0** (núll) og notar aðeins tímamörk kvi
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Mál E: Notaðu bæði neikvæðu dagana sem eru hærri en tímamörk afhendingartími og tímamörk kvikra neikvæðra daga
 
-Ef þú stillir neikvæðu dagana á tölu sem er hærri en afhendingartími vörunnar og ef þú notar einnig tímamörk kvikra neikvæðra daga eru tímamörk kvikra neikvæðra daga 6 + 6 – 4 = 8 dagar. Þessi nálgun gæti valdið afar löngum tímamörkum sem MRP verður að leita að niðurstöðum í. Til að fá upplýsingar um hvernig mál E er tengt við aðstæður þar sem þú stillir neikvæða daga á löng tímamörk skaltu fara í hlutann [Niðurstaða](#conclusion) í þessu efni.
+Ef þú stillir neikvæðu dagana á tölu sem er hærri en afhendingartími vörunnar og ef þú notar einnig tímamörk kvikra neikvæðra daga eru tímamörk kvikra neikvæðra daga 6 + 6 – 4 = 8 dagar. Þessi nálgun gæti valdið afar löngum tímamörkum sem MRP verður að leita að niðurstöðum í. Fyrir upplýsingar um hvernig tilvik E tengist aðstæðum þar sem þú stillir neikvæða daga á langtíma girðingu, sjáðu [Niðurstaða](#conclusion) kafla þessarar greinar.
 
 ## <a name="scenario-3-you-get-demand-after-the-items-lead-time-period"></a>Aðstæður 3: Þú færð eftirspurn eftir afhendingartímabil vörunnar
 
@@ -204,7 +204,7 @@ Ef þú stillir neikvæða daga á **0** (núll) og notar aðeins tímamörk kvi
 
 ## <a name="conclusion"></a>Niðurstaða
 
-Eins og aðstæðurnar þrjár í þessu efni sýna er góð hugmynd að stilla neikvæða daga á tölu sem er hærri en afhendingartími varanna í þekjuflokknum. Það er líka góð hugmynd að nota aðeins kvika neikvæða daga og til að stilla neikvæðu dagana á þann fjölda daga sem þú ert tilbúin/n að bíða áður en þú pantar nýja áfyllingu þegar þú ert með neikvæðar birgðir (með öðrum orðum, fjölda daga sem þú ert tilbúin/n að seinka eftirspurn frekar). Að auki skulu vörur í sama þekjuflokki hafa svipaða afhendingartíma.
+Eins og sviðsmyndirnar þrjár í þessari grein sýna er góð hugmynd að stilla neikvæða daga á tölu sem er lengri en afgreiðslutími hlutanna í umfjöllunarhópnum. Það er líka góð hugmynd að nota aðeins kvika neikvæða daga og til að stilla neikvæðu dagana á þann fjölda daga sem þú ert tilbúin/n að bíða áður en þú pantar nýja áfyllingu þegar þú ert með neikvæðar birgðir (með öðrum orðum, fjölda daga sem þú ert tilbúin/n að seinka eftirspurn frekar). Að auki skulu vörur í sama þekjuflokki hafa svipaða afhendingartíma.
 
 Ef þú stillir neikvæða daga á **0** (núll) og notar ekki kvika neikvæða daga stofnar MRP alltaf nýja tillögu til að uppfylla eftirspurn. Í þessum aðstæðum er mikilvægt að þú vinnir með aðgerðaboð til að ganga úr skugga um að þú safnir ekki upp birgðum.
 

@@ -1,8 +1,8 @@
 ---
 title: Sérsníða notandaupplifun
-description: Þessi grein útskýrir hvernig hægt er að sérsníða forritið.
+description: Þessi grein útskýrir hvernig þú getur sérsniðið appið.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b922d68fcf3e83be57140cf8c54c4bacd2b75f56
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: c326e51dc127d8b82ccef28146ec223ca5169c5e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602991"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845443"
 ---
 # <a name="personalize-the-user-experience"></a>Sérsníða notandaupplifun
 
@@ -28,7 +28,7 @@ ms.locfileid: "8602991"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þetta efnisatriði útskýrir hvernig hægt er að sérsníða forritið og fjallar um eftirfarandi viðfangsefni: 
+Þessi grein útskýrir hvernig þú getur sérsniðið appið og fjallar um eftirfarandi efni: 
 
 - **Valkostir fyrir allt kerfið** – Þessir sérstillingarmöguleikar eru gerðir á uppsetningarsíðu og eru í boði fyrir alla notendur. Til dæmis stillingar á litaþema og tímabelti. 
 - **Takmarkaður aðgangur að sérstillingum** – Á þessu aðgangsstigi eru aðgerðir notanda sem tengjast dæmigerðri síðunotkun vistaðar sjálfkrafa af forritinu og endurheimtar í næsta skipti sem farið er inn á síðuna. Til dæmis vistar forritið breidd dálka í hnitaneti ef þær eru stilltar og hvort flýtiflipar eru útvíkkaðir eða samandregnir. 
@@ -58,7 +58,7 @@ Hér er listi yfir aðgerðirnar sem falla undir dæmigerða síðunotkun og hey
 
 - **Breidd dálka í hnitaneti** - Hægt er að stilla breidd dálks í hnitaneti með því að velja stækkunarstikuna vinstra eða hægra megin við dálkhausinn og síðan renna henni til vinstri eða hægri þar til dálkurinn nær ákjósanlegri breidd. Fottirtið geymir breiddina sem þú stillir fyrir dálk. Næst þegar þessi síða er opnuð verður dálknum breytt í þessa breidd.
 - **Síðufótur hnitanets og samtölur dálks** – *(Aðeins í boði þegar kveikt er á nýju hnitanetsstýringunni)* Hægt er að velja hvort sýna eigi samtölu neðst í einhverjum töludálki í hnitanetinu og hvort sýna eigi síðufót hnitanetsins. Forritið vistar þessar kjörstillingar og notar þær næst þegar síðan er opnuð. Nánari upplýsingar eru að finna í [Möguleikar hnitanets](grid-capabilities.md). 
-- **Flýtiflipar** - Sumar síður hafa stækkanlega hluta sem eru þekktir sem *Flýtiflipar*. Forritið vistar upplýsingar um flýtiflipana sem hafa verið stækkaðir eða minnkaðir. Í næsta skipti sem síðan er opnuð verða sömu flýtifliparnir annaðhvort útvíkkaðir eða samandregnir, byggt á síðustu samskiptum á síðunni. Í sumum tilfellum geturðu hjálpað til við að auka afköst kerfisins með því að draga saman flýtiflipa, því forritið þarf ekki að sækja upplýsingar um þá flýtiflipa þar til þeir eru stækkaðir. Eins og útskýrt er síðar í þessu efnisatriði, er einnig hægt að breyta röð flýtiflipanna á síðu.
+- **Flýtiflipar** - Sumar síður hafa stækkanlega hluta sem eru þekktir sem *Flýtiflipar*. Forritið vistar upplýsingar um flýtiflipana sem hafa verið stækkaðir eða minnkaðir. Í næsta skipti sem síðan er opnuð verða sömu flýtifliparnir annaðhvort útvíkkaðir eða samandregnir, byggt á síðustu samskiptum á síðunni. Í sumum tilfellum geturðu hjálpað til við að auka afköst kerfisins með því að draga saman flýtiflipa, því forritið þarf ekki að sækja upplýsingar um þá flýtiflipa þar til þeir eru stækkaðir. Eins og útskýrt er síðar í þessari grein geturðu líka breytt röð flýtiflipanna á síðu.
 - **Upplýsingakassar** – Sumar síður eru með svæði fyrir **Tengdar upplýsingar** sem sýnir skrifvarðar upplýsingar sem tengjast viðfangsefni síðunnar. Sérhver hluti á svæðinu **Tengdar upplýsingar** er þekktur sem *Upplýsingakassi*. Hægt er að víkka út eða draga saman svæðið **Tengdar upplýsingar** og einnig er hægt að víkka út og draga saman einstaka upplýsingakassa. Forritið geymir þetta kjörval. Í næsta skipti sem síðan er opnuð verður svæðið **Tengdar upplýsingar** og einstakir upplýsingakassar annaðhvort útvíkkaðir eða samandregnir, byggt á síðustu samskiptum á síðunni. Í sumum tilfellum er hægt að hjálpa til við að auka afköst kerfisins með því að fella niður draga saman svæðið **Tengdar upplýsingar** eða upplýsingakassa, því að forritið þarf ekki að sækja upplýsingarnar fyrir upplýsingakassa fyrr en þeir eru stækkaðir.
 - **Aðgerðarsvæði** - *Aðgerðarsvæði* birtist ofarlega á flestum síðum. Aðgerðarsvæðið inniheldur hnappa fyrir margar af aðgerðunum sem þú getur framkvæmt á þessari síðu. Þessum hnöppum er oft raðað niður á flipa. Hægt er að *festa* allt aðgerðasvæðið sem opið, eða hafa það sjálfgefið samandregið. Í næsta skipti sem síðan er opnuð verða aðgerðasvæðið annaðhvort opið eða samandregið, byggt á síðustu samskiptum á síðunni. Ef aðgerðasvæðið var fest sem opið, verður síðasti notaði flipinn sýndur.
 - **QuickFilters** - A *QuickFilter* birtist fyrir ofan mörg hnitanet. QuickFilters býður upp á að sía hnitanetið út frá einum dálki sem var valinn. Forritið geymir dálkinn sem þú byggðir afmörkunina á. Næst þegar þessi síða er opnuð mun hnitanetið sjálfgefið nota þennan sama dálk til að sía. Hins vegar er enn hægt að velja annan dálk til að sía hnitanetið.
@@ -173,14 +173,14 @@ Frá og með útgáfu 10.0.26, **Leyfa notendum að velja og breyta flísastær�
 
 ### <a name="personalizing-your-dashboard"></a>Sérsníða yfirlitið þitt
 
-Yfirlitið er iðulega fyrsta síða sem þú sérð þegar þú opnar forritið. Hægt er að sérsníða það eins og aðra síðu í kerfinu með því að nota sömu leiðirnar og lýst var fyrr í þessu efnisatriði. 
+Yfirlitið er iðulega fyrsta síða sem þú sérð þegar þú opnar forritið. Það er hægt að sérsníða hana eins og hverja aðra síðu í kerfinu, með því að nota sömu aðferðir og lýst er fyrr í þessari grein. 
 
 > [!WARNING]
 > Sem stendur, þegar efni er falið í yfirlitinu, er mikilvægt að velja þann reit, en ekki svæðið í kring. Ef hópurinn í kringum reit er falinn, gætu óvæntar niðurstöður komið ef fleiri reitum er bætta við seinna meir, eða ef skipt er yfir í annað tungumál í kerfinu.
 
 Einn ákveðinn sérstillingarmöguleiki sem er í boði í yfirlitinu er möguleikinn á því að bæta við reitum. 
 
-- Ef slökkt er á eiginleikanum **Heilsíðuforrit** er bætt við nýjum reit með því að hægrismella á einingu í yfirlitinu og síðan velja **Bæta við vinnusvæði**. Ný vinnusvæðisflís er búin til neðst á yfirlitinu. Þú getur endurnefnt þennan nýja vinnusvæðisflís eins og þú vilt. Einnig er hægt að bæta listum, reitum og tenglum við vinnusvæðið, eins og lýst er í hlutanum [Bæta reitum, listum og tenglum við vinnusvæði](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) í þessu efnisatriði.
+- Ef slökkt er á eiginleikanum **Heilsíðuforrit** er bætt við nýjum reit með því að hægrismella á einingu í yfirlitinu og síðan velja **Bæta við vinnusvæði**. Ný vinnusvæðisflís er búin til neðst á yfirlitinu. Þú getur endurnefnt þennan nýja vinnusvæðisflís eins og þú vilt. Þú getur líka bætt listum, flísum og tenglum við vinnusvæðið, eins og lýst er í [Bætir flísum, listum og tenglum við vinnusvæði](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) kafla þessarar greinar.
 - Ef kveikt er á eiginleikanum **Heilsíðuforrit**, er bætt við nýjum reit með því að hægrismella á einingu í yfirlitinu og síðan velja **Bæta við forriti**. Í svarglugganum skal velja hvort bæta eigi reiti við nýtt vinnusvæði eða reiti sem er með efni frá Power Apps eða vefsvæði. Fylgið því næst skrefunum til að skilgreina valkostina sem voru valdir. Nýr reitur er búinn til neðst í yfirlitinu. Frekari upplýsingar um hvernig á að bæta við, breyta, eyða og deila þessum innfelldu forritum er að finna í [Innfelld vinnuforrit frá Power Apps](embed-power-apps.md) og [Innfella forrit þriðja aðila](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Sérstillingar samnýttar
@@ -236,7 +236,7 @@ Ef vistuð yfirlit eru ekki virk skal fylgja eftirfarandi skrefum til að afrita
 
 #### <a name="export"></a>Flytja út
 
-Almennt er hægt að flytja út eitt eigið yfirlit eða sérstillingar með því að opna viðeigandi síðu, opna tækjastikuna **Sérstillingar** og velja síðan **Flytja út**. Nánari upplýsingar um tækjastikun er að finna í hlutanum [Tækjastika sérstillinga](#personalization-toolbar) fyrr í þessu efnisatriði. Ef [vistuð yfirlit](saved-views.md) eru virk er einnig hægt að fara í **Stillingar \> Valkostir fyrir notendur \> Sérstillingar** til að skoða lista yfir allar sérstillingar í kerfinu. Þaðan er hægt að velja yfirlit eða sérstillingar sem á að flytja út og síðan velja **Flytja út**.
+Almennt er hægt að flytja út eitt eigið yfirlit eða sérstillingar með því að opna viðeigandi síðu, opna tækjastikuna **Sérstillingar** og velja síðan **Flytja út**. Fyrir frekari upplýsingar um tækjastikuna, sjáðu [Sérsníða tækjastika](#personalization-toolbar) kafla fyrr í þessari grein. Ef [vistuð yfirlit](saved-views.md) eru virk er einnig hægt að fara í **Stillingar \> Valkostir fyrir notendur \> Sérstillingar** til að skoða lista yfir allar sérstillingar í kerfinu. Þaðan er hægt að velja yfirlit eða sérstillingar sem á að flytja út og síðan velja **Flytja út**.
 
 Auk þess geta stjórnendur flutt út sérstillingar annarra notenda á eftirfarandi hátt.
 
@@ -277,7 +277,7 @@ Ef vistuð yfirlit eru ekki virk skal fylgja eftirfarandi skrefum.
 
 Síðan **Sérstillingar** er miðstöð stjórnunar sérstillinga á fyrirtækisstigi. Innihald og möguleikar á þessari síðu fara eftir því hvort eiginleikinn **Vistuð yfirlit** hafi verið virkjaður.
 
-Fyrir viðskiptavini sem hafa kveikt á eiginleikanum **Vistuð yfirlit** skal skoða „Stjórna yfirlitum á altækan hátt“ í efnisatriðinu [Vistuð yfirlit](saved-views.md).
+Fyrir viðskiptavini sem hafa kveikt á **Vistaðar skoðanir** eiginleika, sjá hlutann „Stjórna skoðunum á heimsvísu“ í [Vistaðar skoðanir](saved-views.md) grein.
 
 Fyrir viðskiptavini sem hafa ekki enn kveikt á eiginleikanum [Vistuð yfirlit](saved-views.md) hefur þessi síða fjóra flipa:
 
@@ -285,6 +285,9 @@ Fyrir viðskiptavini sem hafa ekki enn kveikt á eiginleikanum [Vistuð yfirlit]
 - **Hreinsa** - Þú getur hreinsað allar sérstillingar fyrir síðu eða vinnusvæði fyrir einn eða fleiri notendur. Veldu fyrst síðu eða vinnusvæði til að sjá lista yfir notendur sem hafa notað sérstillingu á það. Veldu síðan þá notendur sem hreinsa skal sérstillingar síðu eða vinnusvæðis hjá og veldu **Hreinsa**. Allar sérstillingar sem völdu notendur hafa virkjað á valdri síðu eða vinnusvæði er eytt. Ekki er hægt að afturkalla þessa aðgerð. Ef sérstilling var hins vegar var vistuð fyrir síðuna eða vinnusvæðið, er hægt að flytja þá sérstillingu inn aftur.
 - **Notendur** - Veldu notanda til að sjá lista yfir síður sem notandinn hefur sérstillt. Síðan geturðu kveikt eða slökkt á getu valins notanda til að nota sérstillingar fyrir tilteknar síður eða fyrir allt kerfið. Þú getur einnig flutt inn, flutt út eða hreinsað sérstillingar notanda. Að auki geturðu endurstillt skýringartexta eiginleika fyrir notandann. Í þessu tilfelli, ef notandi hefur áður sagt upp öllum sprettigluggum sem kynna nýja eiginleika, munu þeir birtast aftur næst þegar notandinn lendir í þessum aðgerðum.
 - **Kerfi** - Einnig er hægt að slökkva á sérstillingum allra notendur kerfisins tímabundið. Í þessu tilfelli er öllum sérstillingum eytt fyrir alla notendur og allar síður eru endurstilltar í sjálfgefna stöðu. Ef þú kveikir aftur á sérstillingum verður öllum sérstillingumaftur beitt. Einnig er hægt að eyða öllum sérstillingum endanlega fyrir alla notendur kerfisins. Ekki er hægt að endurheimta sérstillingar sem hefur verið eytt. Áður en þú framkvæmir þetta verkefni skaltu þess vegna vera viss um að flytja út allar sérstillingar sem þú gætir viljað síðar.
+
+### <a name="service-updates-and-personalization"></a>Þjónustuuppfærslur og sérstillingar
+Ekki þarf að hreinsa eða endurstilla sérstillingargögn þegar farið er yfir í nýja útgáfu af vörunni. Sérstillingar og vistuð áhorfsgögn munu halda áfram að virka þvert á uppfærslur. Undantekningar frá þessu myndu fela í sér breytingar á eyðublaðinu sjálfu sem ógilda sérstillingu (eins og fjarlægt eftirlit) eða breytingar á grunnfyrirspurn eyðublaðsins sem breytir gagnauppsprettu undirtré þess þannig að það passar ekki lengur við undirtré gagnagjafa sem tengist skoðunarfyrirspurninni.
 
 ## <a name="personalizing-inventory-dimensions"></a>Sérstilling birgðavídda
 

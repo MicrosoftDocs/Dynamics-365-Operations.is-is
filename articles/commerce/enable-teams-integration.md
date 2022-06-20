@@ -1,6 +1,6 @@
 ---
 title: Gera Dynamics 365 Commerce og Microsoft Teams samþættingu virka
-description: Þetta efnisatriði lýsir hvernig á að virkja Microsoft Dynamics 365 Commerce og Microsoft Teams samþættingu.
+description: Þessi grein lýsir því hvernig á að virkja Microsoft Dynamics 365 Commerce og Microsoft Teams sameining.
 author: gvrmohanreddy
 ms.date: 02/17/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: dfada577ab97fdb9912c22d2399529f934b25d54
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 505e3854818e4d5b73fc1a22724be16036300c3b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695735"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872829"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Gera Dynamics 365 Commerce og Microsoft Teams samþættingu virka
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig á að virkja Microsoft Dynamics 365 Commerce og Microsoft Teams samþættingu.
+Þessi grein lýsir því hvernig á að virkja Microsoft Dynamics 365 Commerce og Microsoft Teams sameining.
 
 Til að úthluta Teams með upplýsingum frá Dynamics 365 Commerce og samstilla eiginleika verkstjórnunar milli Teams og forrits sölustaðar, þarf að virkja samþættingareiginleikana í Commerce Headquarters.
 
@@ -38,7 +38,7 @@ Til að skrá Teams-forritið með leigjandanum í Azure-gáttinni skal fylgja �
 
 1. Fylgið skrefunum í [Stuttar leiðbeiningar: Skrá forrit á verkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app) til að skrá Teams-forritið með leigjandanum í Azure-gáttinni.
 1. Á **App Skráning** flipanum, veldu forritið sem þú bjóst til í fyrra skrefi. Síðan, á **Auðkenning** flipa, veldu **Bættu við vettvangi**.
-1. Veldu í glugganum **Vefur**. Þá, í **Tilvísunarslóðir** reit, sláðu inn vefslóð á sniðinu **\<HQUrl\> /oauth**. Skipta um **\<HQUrl\>** með slóð höfuðstöðva viðskipta (til dæmis,`https://hxennugbjtweufmdeo385f47fadb6aa9a0aos.cloudax.int.dynamics.com/oauth`).
+1. Veldu í glugganum **vefur**. Þá, í **Tilvísunarslóðir** reit, sláðu inn vefslóð á sniðinu **\<HQUrl\> /oauth**. Skipta um **\<HQUrl\>** með slóð höfuðstöðva viðskipta (til dæmis,`https://hxennugbjtweufmdeo385f47fadb6aa9a0aos.cloudax.int.dynamics.com/oauth`).
 1. Á **Yfirlit** síðu skráða appsins, afritaðu **Auðkenni umsóknar (viðskiptavinar).** gildi. Þú verður að gefa upp þetta gildi til að virkja Teams samþættingu í höfuðstöðvum Commerce í næsta hluta.
 1. Fylgdu leiðbeiningunum í [Bættu við leyndarmáli viðskiptavinar](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret) til að bæta við leyndarmáli viðskiptavinar. Afritaðu síðan **Leynilegt gildi** gildi fyrir viðskiptavininn. Þú verður að gefa upp þetta gildi til að virkja Teams samþættingu í höfuðstöðvum Commerce í næsta hluta.
 1. Veldu **API heimildir**, og veldu síðan **Bættu við heimild**.

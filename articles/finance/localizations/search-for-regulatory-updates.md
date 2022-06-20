@@ -1,6 +1,6 @@
 ---
 title: Leitaðu að landssértækum reglugerðaruppfærslum
-description: Þetta efni veitir tengla á fyrirhugaðar og gefnar landssértækar reglugerðaruppfærslur fyrir Microsoft Dynamics 365 Finance.
+description: Þessi grein veitir tengla á fyrirhugaðar og gefnar landssértækar reglugerðaruppfærslur fyrir Microsoft Dynamics 365 Fjármál.
 author: AKroshkina
 ms.date: 01/20/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c86f93ca76168e04a3152de67f40ef408bc096a6
-ms.sourcegitcommit: d58a891d9fe0aa0e6b2c20329250c8d74ffbee90
+ms.openlocfilehash: 2a272c5310375007b65f54501b9770610504f72a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8022950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896183"
 ---
 # <a name="search-for-country-specific-regulatory-updates"></a>Leitaðu að landssértækum reglugerðaruppfærslum
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni veitir tengla á fyrirhugaðar og gefnar landssértækar reglugerðaruppfærslur fyrir Microsoft Dynamics 365 Finance. Þú verður að skrá þig inn á Microsoft Dynamics Lifecycle Services (LCS) til að fá aðgang að þessum upplýsingum.
+Þessi grein veitir tengla á fyrirhugaðar og gefnar landssértækar reglugerðaruppfærslur fyrir Microsoft Dynamics 365 Fjármál. Þú verður að skrá þig inn á Microsoft Dynamics Lifecycle Services (LCS) til að fá aðgang að þessum upplýsingum.
 
 | Land eða svæði    | Mál í LCS Málaleit |
 |----------------------|---------------------------|

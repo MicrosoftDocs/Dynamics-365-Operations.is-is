@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8068850ee143540ff9f3b6222485d3ecd2a2a82020063f34cfd7b5a69826eda3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83fbcd2cedab02643f8a2b22a098343ff065047d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756382"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884171"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Hanna grunnstillingar rafrænnar skýrslugerðar til að þátta skjöl á innleið
 
@@ -27,7 +27,7 @@ Ferlið sýnir hvernig skal hanna grunnstillingar rafrænnar skýrslugerðar til
 
 Þetta ferli er hugsað fyrir þá notendur sem hefur verið úthlutað hlutverkum Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar.
 
-Skrefin er hægt að klára með því að nota hvaða gagnasafn sem er. Áður en hafist er handa skal hlaða niður og vista skrárnar sem eru tilteknar í efnisatriðinu ([Þátta móttekin skjöl til að uppfæra forritsgögn](../parse-incoming-electronic-documents.md)). Skrárnar eru: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Skrefin er hægt að klára með því að nota hvaða gagnasafn sem er. Áður en þú byrjar skaltu hlaða niður og vista skrárnar sem taldar eru upp í greininni, "Þjalda skjöl sem berast til að uppfæra forritsgögn" ([Skoðaðu skjöl sem berast](../parse-incoming-electronic-documents.md)). Skrárnar eru: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
     * Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt Virk. Ef þú sérð skilgreiningarveituna ekki, skal klára skrefin í ferlinu, „Stofna skilgreiningarveitu og merkja hana sem virka”.

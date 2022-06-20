@@ -1,6 +1,6 @@
 ---
-title: Yfirlit yfir færslusnið
-description: Þetta efni útskýrir hvernig póstprófílar eru notaðir í gegn Microsoft Dynamics 365 forrit.
+title: Yfirlit yfir bókunarreglur
+description: Þessi grein útskýrir hvernig póstprófílar eru notaðir í gegn Microsoft Dynamics 365 forrit.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c29597155e525638e7c2ded7d641017f2189c49
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: e7ef3be13e82ff3722fc81247b5cd581b0b571b0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876125"
 ---
-# <a name="posting-profiles-overview"></a>Yfirlit yfir færslusnið
+# <a name="posting-profiles-overview"></a>Yfirlit yfir bókunarreglur
 
 Í fjármála- og rekstraröppum er hugtakið *birta prófíla* er notað til að lýsa þeim stillingum sem stjórna því hvernig undirbókalykla er breytt í aðallykla svo hægt sé að nota þá í færslum sem eru bókaðar í aðalbók. Til dæmis stjórna þeir því hvernig viðskiptamanni er breytt í aðalreikning viðskiptakrafna þegar reikningur er bókaður.
 
@@ -47,7 +47,7 @@ Eitt fylgiskjal getur verið með eina eða fleiri bókunargerðir. Til dæmis f
 
 Þegar þú stillir póstsnið, **Reikningskóði** reitinn skilgreinir stig stillingarinnar. Eftirfarandi valkostir eru í boði: **Tafla**, **·**, og **Allt**. Samsvörunin hættir eftir fyrstu viðureignina og röðin er frá ákveðnasta stigi til minnsta stigi. Þó að **Reikningskóði** reiturinn gæti haft aðeins annað nafn í sumum tilfellum, hegðun og virkni reitsins eru þau sömu. Til dæmis inniheldur birgðabókunarsniðið an **Vörukóði** sviði og an **Reikningskóði** sviði. Báðir vellir hafa **Tafla**, **·**, og **Allt** gildi.
 
-Ef **Aðalreikningur** reiturinn er skilinn eftir auður fyrir færslusnið og þú hefur ekki stillt aðalreikning á **Reikningar fyrir sjálfvirk viðskipti** síðu eða á sértækri einingu eða eiginleikasértækri síðu færðu villuboð þegar þú bókar færslu sem notar bókunargerðina. Venjulega verða skilaboðin: „Reikningurinn fyrir\[ Tegund færslu\] er ekki að finna."
+Ef **Aðalreikningur** reiturinn er skilinn eftir auður fyrir færslusnið og þú hefur ekki stillt aðalreikning á **Reikningar fyrir sjálfvirk viðskipti** síðu eða á sértækri einingu eða eiginleikasértækri síðu færðu villuboð þegar þú bókar færslu sem notar bókunargerðina. Venjulega munu skilaboðin vera „Reikningurinn fyrir\[ Tegund færslu\] er ekki að finna."
 
 ### <a name="table-value"></a>Töflugildi
 
@@ -69,7 +69,7 @@ Til dæmis, ef þú ert að vinna með færslusnið viðskiptavinar og þú velu
 
 Ef þú verður að fylgjast með mörgum aðalreikningum fyrir tiltekna færslutegund mælum við með að þú notir **Hópur** gildi. Til dæmis, þú ert með þrjá aðalreikninga viðskiptakrafna: einn fyrir fasta viðskiptavini, einn fyrir starfsmenn og einn fyrir innbyrðis sölu. Í þessu tilviki mælum við með að þú stofnir þrjá viðskiptavinahópa til að skipta viðskiptavinunum upp. Kortleggðu síðan hvern viðskiptavinahóp á réttan aðalreikning í bókunarsniði viðskiptavina. Eftirfarandi tafla sýnir viðskiptamannahópana þrjá fyrir þetta dæmi.
 
-| Viðskiptavinaflokkur | Nafn | Lýsing |
+| Flokkur viðskiptavinar | Nafn | Lýsing |
 |----------------|------|-------------|
 | EXT | Ytri viðskiptavinur | Þessi hópur er notaður fyrir alla venjulega viðskiptavini sem snúa út á við. |
 | EMP | Starfsmenn | Þessi hópur er notaður fyrir alla starfsmenn sem gera innkaup frá fyrirtækinu þínu. |
@@ -102,22 +102,22 @@ Hugtakið *hreinsunarreikning* er oft notað í bókhaldi. Sumar birtingartegund
 Margar einingar í Dynamics 365 Finance,Dynamics 365 Supply Chain Management,Dynamics 365 Commerce, og Dynamics 365 Project Operations hafa bókunarsnið eða viðbótarstillingar sem stjórna því hvernig bókun í aðalbók virkar. Notaðu eftirfarandi efnisatriði til að læra meira um póstsniðin og póstuppsetningarnar í hverri einingu:
 
 - [Lyklar fyrir sjálfvirkar færslur](accounts-for-auto-transactions.md)
-- [Bókun viðskiptaskulda](accts-payble-posting.md)
+- [Bókun lánardrottnalykils](accts-payble-posting.md)
 - [Bókun reikningsskila](accts-recvble-posting.md)
-- [Bókun eignaleigu](../asset-leasing/set-up-lease-posting-accts.md)
+- [Færsla eignarleigu](../asset-leasing/set-up-lease-posting-accts.md)
 - Birting eignastýringar (kemur bráðum)
 - Reiðufé og bankastjórnun (kemur bráðum)
 - Gjaldeyrisendurmatsbókunarreikningar (kemur bráðum)
 - Færsla um kostnaðarstjórnun (kemur bráðum)
 - [Bókunarregla eigna](../fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md)
 - Bókhald milli fyrirtækja (kemur bráðum)
-- Skráningarsnið (kemur bráðum)
+- Birgðafærslusnið (kemur bráðum)
 - [Landað kostnaðarbókun](../../supply-chain/landed-cost/costing-parameters-setup.md)
 - [Yfirlit yfir færsluskilgreiningar](posting-definitions.md)
 - Birting framleiðslustýringar (kemur bráðum)
 - Verkefnastjórnun og bókhaldsfærsla (kemur bráðum)
 - Birting þjónustustjórnunar (kemur bráðum)
 - Skattskráning (kemur bráðum)
-- Tíma- og mætingartilkynning (kemur bráðum)
+- Skráning á tíma og mætingu (kemur bráðum)
 - Færsla um flutningastjórnun (kemur bráðum)
 - Birtingarprófílar afsláttarstjórnunar (kemur bráðum)

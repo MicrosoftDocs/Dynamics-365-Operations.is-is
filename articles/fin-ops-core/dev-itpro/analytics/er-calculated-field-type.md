@@ -1,8 +1,8 @@
 ---
 title: Stuðningur við færibreytur kallar á ER gagnagjafa af reitagerðinni Reiknað
-description: Þetta efni veitir upplýsingar um hvernig skal nota reitagerðina Reiknað fyrir ER-gagnagjafa.
+description: Þessi grein veitir upplýsingar um hvernig á að nota reiknað svæðisgerð fyrir ER gagnagjafa.
 author: NickSelin
-ms.date: 08/06/2020
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
-ms.translationtype: HT
+ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349161"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934724"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Stuðningur við færibreytur kallar á ER gagnagjafa af reitagerðinni Reiknað
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni útskýrir hvernig þú getur hannað gagnagjafa rafrænnar skýrslugerðar (ER) með því að nota gerðina **Reiknaður reitur**. Þessi gagnagjafi getur innihaldið ER-segð sem, þegar hún er keyrð, er hægt að stjórna með gildum færibreytufrumbreytanna sem eru skilgreind í bindingu sem kallar þennan gagnagjafa. Með því að skilgreina köll í færibreytur af slíkum gagnagjöfum er hægt að endurnýta staka gagnagjafa í mörgum bindingum, sem dregur úr heildarfjölda gagnagjafa sem verður að skilgreina í ER-líkanavörpunum eða ER-sniðmátum. Það einfaldar einnig skilgreinda ER-íhluti, sem dregur úr viðhaldskostnaði og notkunarkostnaði annarra neytenda.
+Þessi grein útskýrir hvernig þú getur hannað rafræna skýrslugjöf (ER) gagnagjafa með því að nota **Reiknaður reitur** tegund. Þessi gagnagjafi getur innihaldið ER-segð sem, þegar hún er keyrð, er hægt að stjórna með gildum færibreytufrumbreytanna sem eru skilgreind í bindingu sem kallar þennan gagnagjafa. Með því að skilgreina köll í færibreytur af slíkum gagnagjöfum er hægt að endurnýta staka gagnagjafa í mörgum bindingum, sem dregur úr heildarfjölda gagnagjafa sem verður að skilgreina í ER-líkanavörpunum eða ER-sniðmátum. Það einfaldar einnig skilgreinda ER-íhluti, sem dregur úr viðhaldskostnaði og notkunarkostnaði annarra neytenda.
 
 ## <a name="prerequisites"></a>Forkröfur
-Til að ljúka dæmunum í þessu efnisatriði þarftu að hafa eftirfarandi aðgang:
+Til að klára dæmin í þessari grein verður þú að hafa eftirfarandi aðgang:
 
 - Aðgangur að einu af þessum hlutverkum:
 
@@ -36,7 +36,7 @@ Til að ljúka dæmunum í þessu efnisatriði þarftu að hafa eftirfarandi að
     - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
     - Kerfisstjóri
 
-- Aðgangur að tilviki Regulatory Configuration Service (RCS) sem hefur verið úthlutaður fyrir sama leigjandann sem Finance and Operations fyrir eitt af eftirfarandi hlutverkum:
+- Aðgang að tilviki Regulatory Configuration Service (RCS) sem hefur verið úthlutað fyrir sama leigjandann og fyrir Finance and Operations, fyrir eitt af eftirfarandi hlutverkum:
 
     - Þróunaraðili rafrænnar skýrslulausnar
     - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
@@ -46,10 +46,10 @@ Einnig verður að sækja og geyma staðbundið eftirfarandi skrár.
 
 | **Efni**                           | **Skrárnafn**                                        |
 |---------------------------------------|------------------------------------------------------|
-| Sýnishorn af skilgreiningu gagnalíkans rafrænnar skýrslugerðar    | [Líkan til að læra breytur á calls.version.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
-| Sýnishorn af skilgreiningu lýsigagna rafrænnar skýrslugerðar      | [Lýsigögn til að læra breytur á calls.version.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
-| Sýnishorn af skilgreiningu líkanavörpunar rafrænnar skýrslugerðar | [Vörpun til að læra breytur á calls.version.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Sýnishorn af skilgreiningu á sniði rafrænnar skýrslugerðar        | [Snimát til að læra breytur á calls.version.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| Sýnishorn af skilgreiningu gagnalíkans rafrænnar skýrslugerðar    | [Líkan til að læra breytur á calls.version.1.xml](https://download.microsoft.com/download/e/5/c/e5c0d3f9-1818-47c7-ae75-46efcbb1314f/Modeltolearnparameterizedcallsversion.1.xml)     |
+| Sýnishorn af skilgreiningu lýsigagna rafrænnar skýrslugerðar      | [Lýsigögn til að læra breytur á calls.version.1.xml](https://download.microsoft.com/download/8/3/a/83a910a5-bf65-4509-bec4-6737a81ecc45/Metadatatolearnparameterizedcalls.version.1.xml)  |
+| Sýnishorn af skilgreiningu líkanavörpunar rafrænnar skýrslugerðar | [Vörpun til að læra breytur á calls.version.1.1.xml](https://download.microsoft.com/download/b/f/d/bfd8cbd8-0370-44d1-a1b1-66d021c580ca/Mappingtolearnparameterizedcalls.version.1.1.xml) |
+| Sýnishorn af skilgreiningu á sniði rafrænnar skýrslugerðar        | [Snimát til að læra breytur á calls.version.1.1.xml](https://download.microsoft.com/download/8/1/d/81deb6d8-a768-4fcf-bbbe-8f84d2dac3eb/Formattolearnparameterizedcalls.version.1.1.xml)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Skráðu þig inn á RCS tilvikið
 Í þessu dæmi mun notandi stofna skilgreiningu fyrir sýnifyrirtækið Litware, Inc. Í RCS verður fyrst að ljúka skrefum ferlisins [Stofna skilgreiningaveitur og merkja þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md):
@@ -84,7 +84,7 @@ Einnig verður að sækja og geyma staðbundið eftirfarandi skrár.
             - Summa skattgilda.
             - Lágmarksgildi beitts skatthlutfalls.
 
-    Líkanavörpun í þessari skilgreiningu innleiðir grunngagnalíkanið fyrir eitthvert snið rafrænnar skýrslugerðar sem búið var til fyrir þetta líkan og keyrt í Finance and Operations. Fyrir vikið verður innihald gagnafjafanna **Tax** og **Gr** berskjaldað fyrir ER-sniðum eins og óhlutbundnum gagnagjöfum.
+    Vörpun líkansins í þessari stillingu útfærir grunngagnalíkanið fyrir hvaða ER-snið sem er búið til fyrir þetta líkan og keyrt í Finance and Operations. Fyrir vikið verður innihald gagnafjafanna **Tax** og **Gr** berskjaldað fyrir ER-sniðum eins og óhlutbundnum gagnagjöfum.
 
     ![Hönnuðarsíða líkanavörpunar sem sýnir Tax- og Gr-gagnagjafa.](media/er-calculated-field-type-01.png)
 
@@ -306,7 +306,7 @@ Endurtekin köll í reiknaða reiti með færibreytu eru ekki studd.
 Þú getur keyrt upphafsuppbót og endurbætt ER snið til að ganga úr skugga um að skilgreindir útreiknaðir reitir með færibreytur virki rétt.
 
 ### <a name="import-er-configurations"></a>Flytja inn rafræn skýrslugerð grunnstillingar
-Þú getur flutt inn yfirfarnar stillingar úr RCS með því að nota ER-geymslu af gerðinni **RCS**. Ef þú hefur þegar gengið í gegnum skrefin í efninu, [Flytja inn rafrænar skýrslustillingar (ER) úr Regulatory Configuration Services (RCS)](rcs-download-configurations.md), notaðu stilla ER geymslu til að flytja inn stillingar sem fjallað var um áður í þessu efni til umhverfisins. Að ð öðrum kosti skal fylgja þessum skrefum:
+Þú getur flutt inn yfirfarnar stillingar úr RCS með því að nota ER-geymslu af gerðinni **RCS**. Ef þú hefur þegar farið í gegnum skrefin í greininni, [Flytja inn rafrænar skýrslur (ER) stillingar frá Regulatory Configuration Services (RCS)](rcs-download-configurations.md), notaðu stilltu ER geymsluna til að flytja inn stillingar sem fjallað var um fyrr í þessari grein í umhverfið þitt. Að ð öðrum kosti skal fylgja þessum skrefum:
 
 1. Veldu fyrirtækið **DEMF** og veldu á sjálfgefna yfirlitinu **Rafræn skýrsla**.
 2. Veldu **Skilgreiningar skýrslugerðar**.

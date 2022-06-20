@@ -1,6 +1,6 @@
 ---
 title: Búa til fylgiskjöl eða þjálfun með verkskráningu
-description: Í þessu efnisatriði er útskýrt hvað verkskráning og leiðbeiningar um verkið eru, hvernig á að stofna skráningar, og hvernig á að sérsníða verkefni í Microsoft leiðir og hafa þau með í þínu Hjálp.
+description: Þessi grein útskýrir hvað Verkefnaskráning og verkefnaleiðbeiningar eru, hvernig á að búa til upptökur og hvernig á að sérsníða Microsoft verkefnaleiðbeiningar og hafa þær með í hjálpinni þinni.
 author: josaw1
 ms.date: 03/24/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 448c2b302136e595852c423d53e49adfcc40d12d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b556003edf2fe186f6b095e538f142fcf5a0bba5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070527"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891815"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Búa til fylgiskjöl eða þjálfun með verkskráningu
 
@@ -29,7 +29,7 @@ ms.locfileid: "8070527"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Í þessu efnisatriði er útskýrt hvað verkskráning og leiðbeiningar um verkið eru, hvernig á að stofna verkskráningu, og hvernig á að sérsníða verkefni í Microsoft leiðir og hafa þau með í þínu Hjálp.
+Þessi grein útskýrir hvað Verkefnaskráning og verkefnaleiðbeiningar eru, hvernig á að búa til verkupptökur og hvernig á að sérsníða Microsoft verkefnaleiðbeiningar og hafa þær með í hjálpinni þinni.
 
 > [!IMPORTANT]
 > Þú getur tekið upp þínar eigin verkefnaleiðbeiningar fyrir Dynamics 365 Human Resources en þú munt ekki geta vistað þær í BPM-bókasafni (Business Process Modeler) eða opnað þau úr hjálparsvæðinu á þessum tíma. Þú getur vistað þær á staðnum eða á staðarnetinu, og þá opna og endurspila þær með því að nota Verkskráningu. 

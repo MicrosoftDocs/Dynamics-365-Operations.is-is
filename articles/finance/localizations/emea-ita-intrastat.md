@@ -1,6 +1,6 @@
 ---
 title: Ítalskt Intrastat
-description: Þetta efnisatriði inniheldur upplýsingar um Intrastat-skýrslugjöf á Ítalíu.
+description: Þessi grein inniheldur upplýsingar um Intrastat skýrslur á Ítalíu.
 author: anasyash
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 3b676ba754cded03fdc6d566ffbfbb35c204b03a
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: a4531baf29759607c877c815b849067f718851b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874364"
 ---
 # <a name="italian-intrastat"></a>Ítalskt Intrastat
 
@@ -631,7 +631,7 @@ Fylgdu þessum skrefum til að setja upp sérstaka ítalska valkosti svo að hæ
 
     Frekari upplýsingar eru í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-2. Í Dynamics 365 Finance skal fara í **Skattur** > **Uppsetning** > **Færibreytur erlendra viðskipta**.
+2. Í Dynamics 365 Finance, farðu í **Skattur** > **Uppsetning** > **Staðlar utanríkisviðskipta**.
 3. Í flipanum **Intrastat**, í flýtiflipanum **Almennt**, skal stilla eftirfarandi reiti:
 
     - **Sýsla uppruna/áfangastaðar**: Veldu sýslu fyrirtækisins. Þessi sýsla verður notuð í sendingum.
@@ -650,7 +650,7 @@ Fylgdu þessum skrefum til að setja upp sérstaka ítalska valkosti svo að hæ
 6. Í flýtiflipanum **Tölfræðilegt gildi** skal stilla valkostinn **Prenta og flytja út talnagögn** á **Já** ef nauðsyn krefur. Þessi stilling virkjar flutning tölfræðihlutans. Tölfræðihlutinn samanstendur af gögnum um þyngd, viðbótareiningar, tölfræðileg gildi, afhendingarskilmála, afhendingaráætlanir, flutningsmáta og upprunasvæði.
 
     > [!NOTE]
-    > Í ársfjórðungsyfirlýsingu mun Intrastat skýrslan ekki innihalda tölfræðihlutann eða upplýsingar um afhendingarskilmála og flutningsmáta. Frekari upplýsingar er að finna í töflunni í hlutanum [Yfirlit](#overview) í þessu efnisatriði.
+    > Í ársfjórðungsyfirlýsingu mun Intrastat skýrslan ekki innihalda tölfræðihlutann eða upplýsingar um afhendingarskilmála og flutningsmáta. Fyrir frekari upplýsingar, sjá töfluna í [Yfirlit](#overview) kafla þessarar greinar.
 
 7. Í flipanum **Eiginleikar lands/svæðis** skal gefa upp öll lönd eða svæði sem fyrirtækið þitt á í viðskiptum við. Fyrir hvert land eða svæði skal setja eftirfarandi reiti:
 

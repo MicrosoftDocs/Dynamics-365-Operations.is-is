@@ -1,6 +1,6 @@
 ---
 title: Eignakaup
-description: Þetta efnisatriði lýsir því hvernig hægt er að setja upp samþættingu á milli eigna og viðskiptaskulda til að búa sjálfkrafa til eignir úr innkaupapöntunum eða reikningum lánardrottins, eða bóka sjálfkrafa kaup og leiðréttingarfærslur kaupa fyrir eignir.
+description: Þessi grein lýsir því hvernig hægt er að setja upp samþættingu á milli eigna og viðskiptaskulda til að búa sjálfkrafa til eignir úr innkaupapöntunum eða reikningum lánardrottins, eða bóka sjálfkrafa kaup og leiðréttingarfærslur kaupa fyrir eignir.
 author: moaamer
 ms.date: 03/05/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b654dbf97f8d91e0a3233803ee182b1383ad317d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ac25114fe8036a474d637e9ad9ede5e46b50d92e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712091"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891581"
 ---
 # <a name="acquire-assets-through-procurement"></a>Eignakaup
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig hægt er að setja upp samþættingu á milli eigna og viðskiptaskulda til að búa sjálfkrafa til eignir úr innkaupapöntunum eða reikningum lánardrottins, eða bóka sjálfkrafa kaup og leiðréttingarfærslur kaupa fyrir eignir. Ein innkaupalína býr til eina eign, óháð magninu í innkaupalínunni. Ef þörf er á að stofna fleiri en eina eign verður að stofna margar innkaupalínur.
+Þessi grein lýsir því hvernig hægt er að setja upp samþættingu á milli eigna og viðskiptaskulda til að búa sjálfkrafa til eignir úr innkaupapöntunum eða reikningum lánardrottins, eða bóka sjálfkrafa kaup og leiðréttingarfærslur kaupa fyrir eignir. Ein innkaupalína býr til eina eign, óháð magninu í innkaupalínunni. Ef þörf er á að stofna fleiri en eina eign verður að stofna margar innkaupalínur.
 
  Eftirfarandi leiðir eru tiltækar til þess að samþætta eignir og viðskiptaskuldir og þú verður að nota sömu aðferðina fyrir allar eignir:
 -   Stofna verður eign handvirkt áður en númeri eignar er bætt við línu í innkaupapöntun eða reikningi lánardrottins. Kaupvirðisfærsla er sjálfkrafa bókuð fyrir eignina þegar reikningur lánardrottins er bókaður. Þetta er sjálfgefin aðferð.
@@ -38,7 +38,7 @@ Veljið eina af fyrstu tveimur aðferðunum ef kosin er að stofna eignir handvi
 
 Hvort sem eignir eru stofnaðar handvirkt eða notuð sveigjanlegri nálgun, þarf að taka ákvörðun um hvort að kaupfærsla skuli einungis bókuð í Eignum, eða hvort að mögulegt skuli vera að bóka hana um leið og reikningur lánardrottins er bókaður. Sum fyrirtæki kjósa að notendur stofni kaup og kaupfærslur handvirkt í Eignum með því að nota handvirka skráningu í færslubók eða tillögur. 
 
-Þetta efnisatriði fjallar nánar um hverja aðferð í smáatriðum.
+Þessi grein fjallar um upplýsingar um hverja aðferð.
 
 ## <a name="methods-for-manually-creating-fixed-assets"></a>Aðferðir fyrir að stofna eign handvirkt
 Þegar reikningur lánardrottins er bókaður þar sem númer eignar hefur verið fært inn í línu og ef gátreiturinn Leyfa eignakaup úr innkaupum hefur verið valinn á síðunni Eignafæribreytur, bókfærast kaup sjálfkrafa og staða eignar breytist í opið. 

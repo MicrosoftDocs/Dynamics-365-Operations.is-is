@@ -1,6 +1,6 @@
 ---
-title: Vista valeiningu
-description: Þetta efni fjallar um verslunarvalseininguna og lýsir því hvernig á að bæta henni við vefsíður hjá Microsoft Dynamics 365 Commerce.
+title: Eining til að velja verslun
+description: Þessi grein fjallar um verslunarvalseininguna og lýsir því hvernig á að bæta henni við vefsíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 05/18/2022
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76682f26f62fe4686f5102e3099f038a50005f5e
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: a91b50d2177483615cf45276cf342be381814717
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780641"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881684"
 ---
 # <a name="store-selector-module"></a>Eining til að velja verslun
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni fjallar um verslunarvalseininguna og lýsir því hvernig á að bæta henni við vefsíður hjá Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um verslunarvalseininguna og lýsir því hvernig á að bæta henni við vefsíður í Microsoft Dynamics 365 Commerce.
 
 Viðskiptavinir geta notað valeiningu verslunar til að sækja vöru í valdri verslun eftir kaup á netinu. Í Commerce-útgáfu 10.0.13 felur valeining verslunar einnig í sér fleiri möguleika sem geta birt **Finna verslun** síðu sem sýnir nálægar verslanir.
 
@@ -132,7 +132,7 @@ Aðeins er hægt að nota eininguna **Sækja í verslun** á upplýsingasíðu a
 - Nánari upplýsingar um hvernig á að bæta verslunareiningareiningunni við innkaupakassaeiningar, sjá [Kaupkassaeiningu](add-buy-box.md). 
 - Nánari upplýsingar um hvernig á að bæta verslunareiningareiningunni við körfueiningar, sjá [Körfueiningu](add-cart-module.md).
 
-Til að skilgreina verslunarvaleininguna til að sýna tiltækar verslanir fyrir staðsetningarsíðu verslana, eins og á skýringarmyndinni sem sýnd var fyrr í þessu efnisatriði, skal fylgja þessum skrefum.
+Til að stilla verslunareininguna til að sýna tiltækar verslanir fyrir verslunarstaðsetningarsíðu, eins og á myndinni sem birtist fyrr í þessari grein, skal fylgja þessum skrefum.
 
 1. Farðu í **Sniðmát** og veldu **Nýtt** til að búa til nýtt sniðmát.
 1. Í **Nýtt sniðmát** svargluggi, undir **Nafn sniðmáts**, koma inn **Markaðssetning sniðmát**, og veldu síðan **Allt í lagi**.

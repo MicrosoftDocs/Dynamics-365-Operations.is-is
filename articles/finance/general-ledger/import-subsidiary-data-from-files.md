@@ -1,6 +1,6 @@
 ---
 title: Flytja inn gögn dótturfyrirtækis úr skrám
-description: Þetta efni útskýrir hvernig á að undirbúa gögn úr ytri kerfum svo hægt sé að flytja þau inn í Microsoft Dynamics 365 Fjármál.
+description: Þessi grein útskýrir hvernig á að undirbúa gögn frá ytri kerfum svo hægt sé að flytja þau inn í Microsoft Dynamics 365 Fjármál.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733820"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846771"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Flytja inn gögn dótturfyrirtækis úr skrám
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að undirbúa gögn úr ytri kerfum svo hægt sé að flytja þau inn í Microsoft Dynamics 365 Fjármál. Síðan **Sameina við innflutning** (**Sameiningar \> Sameina við innflutning**) er notuð til að undirbúa flutning gagna dótturfyrirtækis úr ytri kerfum.
+Þessi grein útskýrir hvernig á að undirbúa gögn frá ytri kerfum svo hægt sé að flytja þau inn í Microsoft Dynamics 365 Fjármál. Síðan **Sameina við innflutning** (**Sameiningar \> Sameina við innflutning**) er notuð til að undirbúa flutning gagna dótturfyrirtækis úr ytri kerfum.
 
 1. Stofna lögaðila dótturfyrirtækis fyrir sameininguna. Frekari upplýsingar um hvernig á að stofna lögaðila er að finna í [Stofna lögaðila](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Frekari upplýsingar er að finna í [Undirbúa lögaðila til að nota í sameiningarferlinu](prepare-company-for-consolidation.md) og [Setja upp dótturfyrirtæki lögaðila fyrir sameiningu](set-up-subsidiary-company-for-consolidation.md).
 

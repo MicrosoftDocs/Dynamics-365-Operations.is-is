@@ -1,6 +1,6 @@
 ---
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
-description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir úr Dynamics 365 Finance.
+description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja úr Dynamics 365 Finance.
 author: kfend
 ms.date: 03/21/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6df84e5c2d530e708560495bceaeb23e2ee0dd4b
-ms.sourcegitcommit: acac5e59be7c8f4e9a7ae9be58c636c70342e784
+ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8466835"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846655"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir úr Dynamics 365 Finance.
+Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja úr Dynamics 365 Finance.
 
 - *Fjarlægður* eiginleiki er ekki lengur tiltækur í vörunni.
 - *Úreltur* eiginleiki er ekki í virkri þróun og getur verið fjarlægður úr uppfærslum í framtíðinni.
@@ -71,7 +71,7 @@ ms.locfileid: "8466835"
 | **Skipt út fyrir aðra eiginleika?**   | Já |
 | **Afurðasvæði sem haft er áhrif á**         | Forrit |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Úrelt: Fyrir 1. desember 2022 ætlum við að styðja ekki lengur **VSK yfirlýsing (AT)** Rafræn skýrslugerð (ER) snið undir **Fyrirmynd virðisaukaskattsskýrslu**. Nýtt **VSK yfirlýsing XML (AT)** og **VSK yfirlýsing Excel (AT)** snið eru kynnt undir **Skattskýrsla** fyrirmynd. |
+| **Staða**                         | Úrelt: Fyrir 1. desember 2022 ætlum við að styðja ekki lengur **VSK yfirlýsing (AT)** Rafræn skýrslugerð (ER) snið undir **VSK framtalslíkan**. Nýtt **VSK yfirlýsing XML (AT)** og **VSK yfirlýsing Excel (AT)** snið eru kynnt undir **Skattskýrsla** fyrirmynd. |
 
 ### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>ELSTER yfirlýsing fyrir Þýskaland (hönnun byggð á skýrslukóðum)
 

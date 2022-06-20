@@ -1,6 +1,6 @@
 ---
 title: Þægilegur rofi án nettengingar fyrir gjafakorta- og kreditreikningsaðgerðir
-description: Þetta efni veitir yfirlit yfir úrbætur sem bjóða upp á þægilegan rofa án nettengingar fyrir tilteknar tegundir greiðslu.
+description: Þessi grein veitir yfirlit yfir endurbætur sem veita óaðfinnanlegur rofi án nettengingar fyrir sérstakar greiðslugerðir.
 author: BrianShook
 ms.date: 02/11/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 59f1a0b213bd22906ba8b2c3e7da38a9818f6d4f
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: e0416a61bd5fd3b875b427ad8a6313d0e9936f0d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779493"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869162"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Þægilegur rofi án nettengingar fyrir gjafakorta- og kreditreikningsaðgerðir
 
 [!include [banner](../includes/banner.md)]
 
-Ef sölustaður (POS) tæki missir tengingu sína við rásagagnagrunninn geta flestar POS aðgerðir og færslur sem voru í gangi haldið áfram eftir að gjaldkerinn fær viðvörunarskilaboð um tap tengingarinnar. Í sumum tilvikum hafa færslur þó þætti sem treysta á rauntímaþjónustuna og þeir þættir eru ekki studdir þegar POS er ekki tengt. Þetta efni lýsir nokkurri virkni sem hjálpar til við að draga úr áhrifum týndrar tengingar í þessum atburðarásum.
+Ef sölustaður (POS) tæki missir tengingu sína við rásagagnagrunninn geta flestar POS aðgerðir og færslur sem voru í gangi haldið áfram eftir að gjaldkerinn fær viðvörunarskilaboð um tap tengingarinnar. Í sumum tilvikum hafa færslur þó þætti sem treysta á rauntímaþjónustuna og þeir þættir eru ekki studdir þegar POS er ekki tengt. Þessi grein lýsir nokkurri virkni sem hjálpar til við að draga úr áhrifum glataðrar tengingar í þessum aðstæðum.
 
 ## <a name="completing-gift-card-transactions-in-offline-mode"></a>Lokið við gjafakortafærslur án tengingar
 
@@ -50,7 +50,7 @@ Til að virkja virknina að ljúka kreditreikningsfærslum þegar skipt hefur ve
 
 Færibreytur Commerce eru venjulega í skyndiminni. Þess vegna getur þetta tekið allt að sólarhring að taka gildi eftir að stilling þessa stika er uppfærð og dreifingaráætlunin er hafin til að samstilla breytinguna við rásina. Til að virkja breytinguna strax skaltu endurstilla IIS.
 
-## <a name="related-topics"></a>Tengd efnisatriði
+## <a name="related-articles"></a>Tengdar greinar
 
 - [Virkni sölustaðar án nettengingar](../pos-offline-functionality.md)
 - [Aðgerðir sölustaðar (POS) með og án nettengingar](../pos-operations.md)

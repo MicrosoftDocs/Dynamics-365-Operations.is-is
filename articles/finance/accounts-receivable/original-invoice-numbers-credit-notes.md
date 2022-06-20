@@ -1,6 +1,6 @@
 ---
 title: Tilvísanir í upprunalega reikninga í kreditnótum
-description: Þetta efnisatriði útskýrir hvernig á að setja upp og prenta upprunaleg reikningsnúmer í tengdum kreditnótum.
+description: Þessi grein útskýrir hvernig á að setja upp og prenta upprunalegu reikningsnúmerin í tengdum kreditnótum.
 author: ilkond
 ms.date: 10/26/2021
 ms.topic: article
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1362bf41416202631dc4b966338e8166b26a67f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ebfeb43aaf137ef336b460f340fbda50f5918d08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861532"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Tilvísanir í upprunalega reikninga í kreditnótum
 
 [!include [banner](../includes/banner.md)]
 
 
-Í sumum löndum og svæðum er lagaleg krafa um að prentaðar kreditnótur innihaldi tilvísanir í upprunalega reikninga. Þetta efnisatriði útskýrir hvernig á að setja upp og prenta upprunaleg reikningsnúmer í tengdum kreditnótum.
+Í sumum löndum og svæðum er lagaleg krafa um að prentaðar kreditnótur innihaldi tilvísanir í upprunalega reikninga. Þessi grein útskýrir hvernig á að setja upp og prenta upprunalegu reikningsnúmerin í tengdum kreditnótum.
 
 ## <a name="prerequisites"></a>Forkröfur
 
 - Á vinnusvæðinu **Eiginleikastjórnun** skal kveikja á eiginleikanum **Útlit kreditreikningsfærslu fyrir sölu- og verkreikningsskýrslur**. Frekari upplýsingar er að finna í [Eiginleikastjórnunaryfirlit](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Skilgreina þarf prentsnið fyrir nauðsynleg skjöl í Prentstýring.
 
-Virknin sem lýst er í þessu efnisatriði gildir um eftirfarandi skjöl:
+Virknin sem lýst er í þessari grein á við um eftirfarandi skjöl:
 
 **Viðskiptakröfur**
 

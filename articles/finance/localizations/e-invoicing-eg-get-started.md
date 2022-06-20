@@ -1,6 +1,6 @@
 ---
 title: Rafræn reikningur fyrir Egyptaland
-description: Þetta efni veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Egyptaland í Microsoft Dynamics 365 Fjármál og Dynamics 365 Supply Chain Management.
+description: Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Egyptaland í Microsoft Dynamics 365 Fjármál og Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: c2a46ef938c5dee62c0d0acd1648584df344c81a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661723"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904413"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>Rafræn reikningur fyrir Egyptaland
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Egyptaland. Það leiðir þig í gegnum stillingarskrefin sem eru háð landinu í Regulatory Configuration Service (RCS). Þessi skref eru viðbót við þau skref sem lýst er í [Settu upp rafræna reikningagerð](e-invoicing-set-up-overview.md).
+Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Egyptaland. Það leiðir þig í gegnum stillingarskrefin sem eru háð landinu í Regulatory Configuration Service (RCS). Þessi skref eru viðbót við þau skref sem lýst er í [Settu upp rafræna reikningagerð](e-invoicing-set-up-overview.md).
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en þú byrjar aðgerðir í þessu efni skaltu ljúka eftirfarandi forsendum:
+Áður en þú byrjar aðgerðir í þessari grein skaltu ljúka eftirfarandi forsendum:
 
 - Kynntu þér rafræna reikningagerð eins og henni er lýst í [Yfirlit rafrænna reikninga](e-invoicing-service-overview.md).
 - Skráðu þig í RCS og settu upp rafræna reikninga. Frekari upplýsingar er hægt að finna í eftirfarandi efni:
@@ -96,7 +96,7 @@ Fyrir báða valkostina eru færibreyturnar þær sömu. Ef þú ert að setja u
 22. Veljið **Vista** og lokið skjámyndinni.
 23. Lokið síðunni.
 
-Til að dreifa eiginleikum í þjónustuumhverfið og uppsetningu forrits í tengda forritið Finance eða Supply Chain Management, sjá [Ljúktu við, birtu og settu í notkun hnattvæðingareiginleika](e-invoicing-complete-publish-deploy-globalization-feature.md)
+Til að dreifa eiginleikum í þjónustuumhverfið og uppsetningu forrits í tengda forritið Finance eða Supply Chain Management, sjá [Ljúktu við, birtu og settu upp hnattvæðingareiginleika](e-invoicing-complete-publish-deploy-globalization-feature.md)
 
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
 

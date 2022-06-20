@@ -1,6 +1,6 @@
 ---
 title: Heimasíða Innkaupa og aðfanga
-description: Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng sem eru tiltæk fyrir „Innkaup og aðföng“.
+description: Þessi grein veitir lista yfir hjálpargreinar og önnur úrræði sem eru tiltæk fyrir innkaup og innkaup.
 author: GalynaFedorova
 ms.date: 09/27/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdf56084147edcdf8951d4a267611c10dc7eb6dd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 68409b15a3f4874d05a43931136ce91097c4f904
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673019"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885871"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Heimasíða Innkaupa og aðfanga
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng sem eru tiltæk fyrir „Innkaup og aðföng“.
+Þessi grein veitir lista yfir hjálpargreinar og önnur úrræði sem eru tiltæk fyrir innkaup og innkaup.
 
 Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyrir vöru og þjónustu þar til afurð er keypt, innhreyfingar, reiknings og vinnsla á greiðslu með lánardrottnum. Hægt er að stilla innkaupaferli að þörfum tiltekins fyrirtækis með því að skilgreina innkaupa reglur og verkflæði. Almennar upplýsingar sjá [yfirlit Innkaupa og aðfanga](procurement-sourcing-overview.md). Viðbótartilföng eru að skráð að neðan.
 

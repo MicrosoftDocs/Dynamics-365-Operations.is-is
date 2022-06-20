@@ -1,6 +1,6 @@
 ---
-title: Samþættu rödd viðskiptavinar inn á vefsíður rafrænna viðskipta
-description: Þetta efni lýsir því hvernig á að samþætta Microsoft Dynamics 365 Customer Voice inn í Dynamics 365 Commerce síðum rafrænna viðskipta.
+title: Samþætta Customer Voice í svæði fyrir rafræn viðskipti
+description: Þessi grein lýsir því hvernig á að samþætta Microsoft Dynamics 365 Customer Voice inn í Dynamics 365 Commerce síðum rafrænna viðskipta.
 author: samjarawan
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
-ms.openlocfilehash: 272ec1a59ed45b2d2336dcfea16051d27011360f
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: c8c67ecf4950c92fc91c8d119e06e5e8afff0ddf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767924"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850331"
 ---
-# <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>Samþættu rödd viðskiptavinar inn á vefsíður rafrænna viðskipta
+# <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>Samþætta Customer Voice í svæði fyrir rafræn viðskipti
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að samþætta Microsoft Dynamics 365 Customer Voice inn í Dynamics 365 Commerce síðum rafrænna viðskipta.
+Þessi grein lýsir því hvernig á að samþætta Microsoft Dynamics 365 Customer Voice inn í Dynamics 365 Commerce síðum rafrænna viðskipta.
 
 Þú getur samþætt [Rödd viðskiptavinar](https://dynamics.microsoft.com/customer-voice/overview/) inn á netverslunarsíðuna þína til að safna, greina og fylgjast með viðbrögðum viðskiptavina í rauntíma. Til að byrja með samþættinguna verður þú að búa til reikning og velja Customer Voice verkefnasniðmát fyrir þá tegund endurgjafar sem þú vilt safna.
 
@@ -37,7 +37,7 @@ Til að velja Customer Voice verkefnasniðmát skaltu fylgja þessum skrefum.
 1. Veldu verkefnissniðmát fyrir þá tegund endurgjöfar sem þú vilt safna og veldu síðan **Næst**.
 1. Á **Senda** flipi, undir **Veldu innfellda snið**, veldu innfellingarsnið. The **Innbyggður kóða** reiturinn sýnir kóðann sem verður að vera felldur inn í Commerce site builder.
 
-Dæmin í þessu efni nota **Reglubundin viðskiptavinakönnun** verkefnissniðmát og **Takki** embed snið.
+Dæmin í þessari grein nota **Reglubundin viðskiptavinakönnun** verkefnissniðmát og **Takki** embed snið.
 
 Eftirfarandi sýnishorn sýnir **Reglubundin viðskiptavinakönnun** verkefni sniðmát síða, þar sem valkostur fyrir **Takki** embed snið er valið og innfellingskóðinn fyrir þann valkost birtist í **Innbyggður kóða** sviði. Þrjár aðskildar aðgerðir eru nauðsynlegar til að fella kóðann inn á síðurnar þínar, eins og lýst er í eftirfarandi köflum.
 
@@ -45,7 +45,7 @@ Eftirfarandi sýnishorn sýnir **Reglubundin viðskiptavinakönnun** verkefni sn
 
 ### <a name="embed-the-external-script-url"></a>Fella inn ytri skriftu slóðina
 
-Á öllum síðum vefsvæðis sem ættu að vera með Customer Voice könnun, verður þú að fella inn ytri handritsslóðina sem Customer Voice gaf upp í innfellingarkóðanum. Besta leiðin til að fella handritið inn á margar síður er að búa til brot í vefsvæðisgerð sem inniheldur ytri handritsslóðina og bæta síðan brotinu við viðeigandi síðusniðmát. Eftir að þú hefur birt uppfært sniðmát mun innfelldi ytri forskriftarkóðinn líkjast eftirfarandi dæmi á vefsvæðissíðum sem verða fyrir áhrifum.
+Á öllum síðum sem ættu að vera með Customer Voice könnun, verður þú að fella ytri handritsslóðina sem Customer Voice gaf upp í innfellingarkóðanum. Besta leiðin til að fella handritið inn á margar síður er að búa til brot í vefsmiði sem inniheldur ytri handritsslóðina og bæta síðan brotinu við viðeigandi síðusniðmát. Eftir að þú hefur birt uppfært sniðmát mun innfelldi ytri forskriftarkóðinn líkjast eftirfarandi dæmi á vefsvæðissíðum sem verða fyrir áhrifum.
 
 ```html
 <script src=https://mfpembedcdnmsit.azureedge.net/mfpembedcontmsit/Embed.js type="text/javascript"></script>

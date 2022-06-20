@@ -1,6 +1,6 @@
 ---
 title: Eiginleikastjórnunaryfirlit
-description: Þetta efni lýsir eiginleikastjórnun og hvernig þú getur notað hana.
+description: Þessi grein lýsir eiginleikastjórnun og hvernig þú getur notað hana.
 author: Peakerbl
 ms.date: 01/10/2022
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0691bc34ac8b57d20cfbeb58b6a2e2a03a57d067
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068010"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850053"
 ---
 # <a name="feature-management-overview"></a>Eiginleikastjórnunaryfirlit
 
@@ -41,7 +41,7 @@ Eiginleikalistinn inniheldur eftirfarandi upplýsingar:
 - **Staða** - Tákn tilgreinir hvort kveikt er á eiginleika (gátmerki), slökkt (autt), er áætlað að verði kveikt á (klukka), er áskilið (lás), þarfnast athugunar áður en kveikt er á honum (viðvörunartákn) eða ekki hægt að kveikja á (X). Stillingin sem er sýnd er notuð fyrir alla lögaðila. Athugið að jafnvel þegar kveikt hefur verið á eiginleika er honum samt stjórnað af öryggi. Eiginleikinn verður þar af leiðandi aðeins tiltækur notendum sem eru með aðgang að honum, samkvæmt öryggishlutverki þeirra. Hann verður einnig eingöngu tiltækur í lögaðila sem notandi hefur aðgang að.
 - **Virkja dagsetningu** - Dagsetningin þegar kveikt var á eiginleikanum eða verður kveikt á samkvæmt áætlun.
 - **Eiginleika bætt við** - Dagsetningin þegar eiginleikanum var bætt við umhverfið þitt. Þessi dagsetning er slegin inn sjálfvirkt þegar umhverfið er uppfært í mánaðarlega útgáfuferlinu.
-- **Staða eiginleika** – Núverandi líftímastaða eiginleikans: **Forútgáfa**, **Útgefið** (sýnt sem autt), **Sjálfgefið kveikt** og **Áskilið**. Fjallað er betur um stöðurnar síðar í þessu efnisatriði. 
+- **Staða eiginleika** – Núverandi líftímastaða eiginleikans: **Forútgáfa**, **Útgefið** (sýnt sem autt), **Sjálfgefið kveikt** og **Áskilið**. Nánar er fjallað um ríkin síðar í þessari grein. 
 - **Eining** - Einingin sem nýja útgáfan hefur áhrif á.
 
 > [!NOTE]
@@ -72,7 +72,7 @@ Dálkurinn **Staða eiginleika** fyrir þessa eiginleika er auður. Ekki er sjá
 
 ### <a name="on-by-default-features-optional"></a>Eiginleikar sem er sjálfgefið kveikt á (valfrjálst)
 
-Sjálfgefið er kveikt á eiginleikum sem eru uppfærðir í **Sjálfgefið kveikt**, en hægt er að slökkva á þeim. Eftir að eiginleikar sem hægt er að slökkva á hafa verið með stöðuna **Útgefið** í a.m.k. sex mánuði er gert ráð fyrir að þeir fari í þessa stöðu í næstu stóru útgáfu. Gert er ráð fyrir að eiginleikar sem fara yfir í **Sjálfgefið kveikt** verði í efnisatriðinu [Nýjungar](../whats-new-changed.md) fyrir útgáfuna. Uppfærslan er hafin af vöruteymi sem á vöruna.
+Sjálfgefið er kveikt á eiginleikum sem eru uppfærðir í **Sjálfgefið kveikt**, en hægt er að slökkva á þeim. Eftir að eiginleikar sem hægt er að slökkva á hafa verið með stöðuna **Útgefið** í a.m.k. sex mánuði er gert ráð fyrir að þeir fari í þessa stöðu í næstu stóru útgáfu. Eiginleikar sem skipta yfir í **Kveikt sjálfgefið** er gert ráð fyrir að tilkynnt verði í [Hvað er nýtt](../whats-new-changed.md) grein fyrir útgáfuna. Uppfærslan er hafin af vöruteymi sem á vöruna.
 
 > [!NOTE]
 > Þar sem þessir eiginleikar verða sjálfkrafa virkir er mikilvægt að þú ákveðir hvort fyrirtækið þitt sé tilbúið að taka upp þessa eiginleika, eða hvort þurfti meiri tíma. Ef þörf er á lengri tíma kann að reynast nauðsynlegt að slökkva tímabundið á þessum eiginleikum. Athugaðu að flutningur á eiginleika í **Sjálfgefið kveikt** er yfirleitt gerður í stórri útgáfu áður en stefnt er að því að gera eiginleikann **Áskilinn**. Á þeim tímapunkti verður ekki hægt að slökkva á eiginleikanum. 

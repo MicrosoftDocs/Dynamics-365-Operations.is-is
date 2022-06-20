@@ -1,6 +1,6 @@
 ---
 title: Greina yfirgefnar körfur og senda tilkynningar til viðskiptavina
-description: Þetta efni lýsir því hvernig á að sérsníða Microsoft Dynamics 365 Commerce sýnishornsapp fyrir forláta körfutengi til að greina yfirgefnar kerrur og senda áminningar í tölvupósti til viðskiptavina.
+description: Þessi grein lýsir því hvernig á að sérsníða Microsoft Dynamics 365 Commerce sýnishornsapp fyrir forláta körfutengi til að greina yfirgefnar kerrur og senda áminningar í tölvupósti til viðskiptavina.
 author: bicyclingfool
 ms.date: 02/25/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
-ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
+ms.openlocfilehash: 707640ca211e997533d0f5a0b4e6d52cb5be9db4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "8489031"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899211"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Greina yfirgefnar körfur og senda tilkynningar til viðskiptavina
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að sérsníða Microsoft Dynamics 365 Commerce sýnishornsapp fyrir forláta körfutengi til að greina yfirgefnar kerrur og senda áminningar í tölvupósti til viðskiptavina.
+Þessi grein lýsir því hvernig á að sérsníða Microsoft Dynamics 365 Commerce sýnishornsapp fyrir forláta körfutengi til að greina yfirgefnar kerrur og senda áminningar í tölvupósti til viðskiptavina.
 
 Getan til að endurheimta tekjur og halda viðskiptavinum með tilkynningum um yfirgefin körfu er mikilvægur hæfileiki sem Dynamics 365 Commerce styður. Með því að sérsníða sýnishornsappið fyrir tengi fyrir Commerce yfirgefin körfu geta smásalar fengið aðgang að innkaupakörfum á Retail Server sem hefur ekki verið breytt á tímaglugga sem smásalarnir skilgreina. Þessar kerrur er síðan hægt að sækja, auka með vöru- og viðskiptavinagögnum og senda þeim til þriðja aðila markaðssetningaraðila í tölvupósti sem getur búið til tölvupósttilkynningar og sent þeim viðskiptavinum.
 
@@ -89,7 +89,7 @@ Til að setja upp lyklageymslu skaltu fylgja þessum skrefum.
     - Emarsys forritunarviðmót (API) notendanafn og API leyndarmál
     - Auðkenni og leyndarmál yfirgefin körfuforrit
 
-Dæmi um sýniskóða körfutengis sem er yfirgefin notar Azure sjálfgefna skilríki til að fá aðgang að Key Vault. Þú verður að veita **Listi** og **Lestu** heimildir fyrir auðkenninu sem þú ætlar að nota til að fá aðgang að Key Vault.
+Dæmiskóði fyrir yfirgefin körfutengi notar sjálfgefna Azure skilríki til að fá aðgang að Key Vault. Þú verður að veita **Listi** og **Lesið** heimildir fyrir auðkenninu sem þú ætlar að nota til að fá aðgang að Key Vault.
 
 Fyrir frekari upplýsingar um sjálfgefna Azure skilríki, sjá [DefaultAzureCredential Class](/dotnet/api/azure.identity.defaultazurecredential?view=azure-dotnet&preserve-view=true).
 
@@ -99,11 +99,11 @@ Fyrir frekari upplýsingar um sjálfgefna Azure skilríki, sjá [DefaultAzureCre
 
 ## <a name="add-the-abandoned-cart-connector-sample-app-application-id-to-the-allow-list-for-the-retail-server-api"></a>Bættu auðkenni forritaforrits fyrir forláta körfutengi við leyfislistann fyrir Retail Server API
 
-Næst verður þú að bæta auðkenni forritaforrits fyrir yfirgefin körfutengi við leyfislistann fyrir Retail Server API. Fyrir upplýsingar um hvernig á að bæta forritaauðkenni við leyfislistann í Azure, sjá [Stuðningur við þjónustu til þjónustu auðkenningar í smásöluþjóni](https://community.dynamics.com/ax/b/axforretail/posts/support-for-service-to-service-authentication-in-retail-server).
+Næst verður þú að bæta auðkenni forritaforrits fyrir yfirgefin körfutengi við leyfislistann fyrir smásöluþjóna API. Fyrir upplýsingar um hvernig á að bæta forritaauðkenni við leyfislistann í Azure, sjá [Stuðningur við þjónustu til þjónustu auðkenningar í smásöluþjóni](https://community.dynamics.com/ax/b/axforretail/posts/support-for-service-to-service-authentication-in-retail-server).
 
 ## <a name="configure-the-abandoned-cart-connector-sample-app"></a>Stilltu sýnishornsforritið fyrir yfirgefin körfutengi
 
-Til að stilla sýnishornsappið fyrir forláta körfutengi skaltu breyta **appSettings.json** stillingarskrá sem er staðsett í rótinni á **AbandonedCartDetectionSample** Skrá. Eftirfarandi töflur lýsa eiginleikum stillingarskrár.
+Til að stilla sýnishornaforritið fyrir yfirgefin körfutengi skaltu breyta **appSettings.json** stillingarskrá sem er staðsett í rótinni á **AbandonedCartDetectionSample** Skrá. Eftirfarandi töflur lýsa eiginleikum stillingarskrár.
 
 ### <a name="keyvaultoptions"></a>KeyVaultOptions
 
@@ -115,7 +115,7 @@ Til að stilla sýnishornsappið fyrir forláta körfutengi skaltu breyta **appS
 
 | Eiginleiki                                      | Lýsing |
 | --------------------------------------------- | ----------- |
-| TenantId                                      | The Azure AD leigjandaauðkenni Azure leigjanda þíns. |
+| TenantId                                      | The Azure AD leigjanda auðkenni Azure leigjanda þíns. |
 | RetailServerAudienceId                        | Áhorfendaauðkenni smásöluþjónsins. Þú getur skilið eftir sjálfgefið gildi. |
 | AppIdKeyVaultSecretName                       | Heiti leyndarmálsins sem þú bjóst til fyrir forláta körfutengi sýnishorn forritaforrits. |
 | AppSecretKeyVaultSecretName                   | Nafn leyndarmálsins sem geymir forritsleyndarmálið fyrir yfirgefin körfutengi sýnishorn appauðkennis. |

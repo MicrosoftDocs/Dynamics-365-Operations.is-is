@@ -1,6 +1,6 @@
 ---
 title: Sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt
-description: Þetta efnisatriði sýnir aðstæður þar sem losa þarf handvirkt eina eða fleiri sölulínur í vöruhúsið af síðunni „Losa í vöruhús“ og hnekkja þarf kerfisskilgreindri samstæðureglu sendingar áður en hún er losuð.
+description: Þessi grein sýnir atburðarás þar sem eina eða fleiri sölulínur verða að losa handvirkt í vöruhúsið frá síðunni Losa í vöruhús og kerfisskilgreinda samþjöppunarstefnu fyrir sendingu verður að hnekkja fyrir losun.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 8b1c8ac41fe0941c9bbfce20ce593eafe5699ef1
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 680941adeba1fc1cd54a02fb366d3d5903938d77
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675460"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878701"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>Sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði sýnir aðstæður þar sem losa þarf handvirkt eina eða fleiri sölulínur í vöruhúsið af síðunni **Losa í vöruhús** og hnekkja þarf kerfisskilgreindri samstæðureglu sendingar áður en hún er losuð. Hugsanlega þarf að hnekkja samstæðureglu sendingar, t.d. ef sameina þarf pöntun sem er ekki vanalega sameinuð með opnum sendingum við opnar sendingar.
+Þessi grein sýnir atburðarás þar sem eina eða fleiri sölulínur verður að losa handvirkt í vöruhúsið frá **Losa á lager** síðu, og kerfisskilgreindri sendingarsamstæðustefnu verður að hnekkja fyrir útgáfu. Hugsanlega þarf að hnekkja samstæðureglu sendingar, t.d. ef sameina þarf pöntun sem er ekki vanalega sameinuð með opnum sendingum við opnar sendingar.
 
 Við aðstæðurnar er stofnarðu sölupantanir og hnekkir svo sjálfgefinni samstæðureglu sendingar áður en pöntunum er sleppt í vöruhúsið.
 
 ## <a name="make-demo-data-available"></a>Bjóða upp á sýnigögn
 
-Aðstæður í þessu efnisatriði vísa í gildi og færslur sem eru innifaldar í stöðluðum sýnigögnum fyrir Microsoft Dynamics 365 Supply Chain Management. Ef nota á gildin sem er boðið upp á hér eins og í æfingunum skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett og stilla lögaðilann á **USMF** áður en hafist er handa.
+Atburðarásin í þessari grein vísar til gilda og skráa sem eru innifalin í stöðluðum kynningargögnum sem eru veitt fyrir Microsoft Dynamics 365 Supply Chain Management. Ef nota á gildin sem er boðið upp á hér eins og í æfingunum skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett og stilla lögaðilann á **USMF** áður en hafist er handa.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Setja upp samstæðureglur sendingar og afurðarsíur
 

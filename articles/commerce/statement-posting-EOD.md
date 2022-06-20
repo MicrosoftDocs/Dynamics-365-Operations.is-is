@@ -1,6 +1,6 @@
 ---
-title: Endurbætur á virkni yfirlitsbókunar
-description: Þetta efnisatriði lýsir endurbótum sem hafa verið gerðar á bókun uppgjörs eiginleikanum.
+title: Endurbætur á virkni uppgjörsbókunar
+description: Þessi grein lýsir endurbótum sem gerðar hafa verið á aðgerðinni til að birta yfirlýsingar.
 author: analpert
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: a7f25a7cc1e214b5c08013055126728b2ad10f3f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770170"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886907"
 ---
-# <a name="improvements-to-statement-posting-functionality"></a>Endurbætur á virkni yfirlitsbókunar
+# <a name="improvements-to-statement-posting-functionality"></a>Endurbætur á virkni uppgjörsbókunar
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir fyrsta safni endurbóta sem hafa verið gerðar á bókun uppgjörs eiginleikanum. Þessar endurbætur eru í boði í Microsoft Dynamics 365 for Finance and Operations 7.3.2.
+Þessi grein lýsir fyrsta settinu af endurbótum sem hafa verið gerðar á færslueiginleika yfirlýsingar. Þessar endurbætur eru í boði í Microsoft Dynamics 365 for Finance and Operations 7.3.2.
 
 ## <a name="activation"></a>Virkjun
 
@@ -141,7 +141,7 @@ The **Upplýsingar um viðskipti** Flýtiflipi uppsafnaðrar færslu sýnir alla
 
 ![Hnappurinn Flytja út samansafn gagna á síðunni Samanlögð færslur.](media/aggregated-transactions-export.png)
 
-Ef þú getur ekki lagað villuna með því að leiðrétta gögn á sölupöntun eða gögn sem styðja sölupöntunina, **Eyða pöntun viðskiptavina** hnappur er tiltækur. Til að eyða pöntun velurðu samansafnaða færsluna sem mistókst og velur síðan **Eyða pöntun viðskiptavina**. Bæði samanlagðri færslu og samsvarandi sölupöntun verður eytt. Þú getur nú skoðað færslurnar með því að nota breytinga- og endurskoðunaraðgerðina. Að öðrum kosti er hægt að endurvinna þau með nýrri yfirlýsingu. Eftir að allar bilanir hafa verið lagaðar er hægt að halda áfram færslu yfirlits með því að keyra post statement fallið fyrir viðkomandi yfirlit.
+Ef þú getur ekki lagað villuna með því að leiðrétta gögn á sölupöntuninni eða gögnum sem styðja sölupöntunina, **Eyða pöntun viðskiptavina** hnappur er tiltækur. Til að eyða pöntun velurðu samansafnaða færsluna sem mistókst og velur síðan **Eyða pöntun viðskiptavina**. Bæði samanlagðri færslu og samsvarandi sölupöntun verður eytt. Þú getur nú skoðað færslurnar með því að nota breytinga- og endurskoðunaraðgerðina. Að öðrum kosti er hægt að endurvinna þau með nýrri yfirlýsingu. Eftir að allar bilanir hafa verið lagaðar er hægt að halda áfram færslu yfirlits með því að keyra post statement fallið fyrir viðkomandi yfirlit.
 
 ![Eyða pöntun viðskiptavinar hnappur í uppsafnaðar færsluskjánum.](media/aggregated-transactions-delete-cust-order.png)
 
@@ -153,7 +153,7 @@ Uppsöfnuð færsluyfirlit veitir eftirfarandi kosti:
 - Samanlögð XML skrá gerir það auðveldara að bera kennsl á vandamál við stofnun sölupöntunar og reikningagerð.
 
 > [!NOTE]
-> Þegar færslur eru teknar saman er starfsmaðurinn sem úthlutað er færslunni ekki lengur tiltækur fyrir **Helsta söluskýrsla starfsmanna**, sem þýðir að **Helsta söluskýrsla starfsmanna** mun ekki sýna allar færslur. Við mælum með að þú notir ekki **Topp söluskýrsla starfsmanna** með samanlögðum viðskiptum.
+> Þegar færslur eru teknar saman er starfsmaðurinn sem úthlutað er færslunni ekki lengur tiltækur fyrir **Topp söluskýrsla starfsmanna**, sem þýðir að **Topp söluskýrsla starfsmanna** mun ekki sýna allar færslur. Við mælum með að þú notir ekki **Topp söluskýrsla starfsmanna** með samanlögðum viðskiptum.
 
 ### <a name="journal-vouchers"></a>Færslubókarfylgiskjöl
 

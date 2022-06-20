@@ -1,6 +1,6 @@
 ---
-title: Setja upp númeraraðir fyrir smásöluyfirlit
-description: Þetta efnisatriði lýsir því hvernig á að stilla númeraraðirnar sem eru nauðsynlegar fyrir smásöluyfirlit í Microsoft Dynamics 365 Commerce.
+title: Setja upp númeraraðir fyrir smásöluuppgjör
+description: Þessi grein lýsir því hvernig á að stilla númeraraðirnar sem eru nauðsynlegar fyrir smásöluyfirlit í Microsoft Dynamics 365 Commerce.
 author: analpert
 ms.date: 04/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2022-04-12
-ms.openlocfilehash: db47ca4ee8bac0d55b9a9c732183d2734bce660f
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
-ms.translationtype: MT
+ms.openlocfilehash: 5c4eb872ec2151a9f4ac5462ad43dd03a6705487
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649184"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880004"
 ---
-# <a name="set-up-number-sequences-for-retail-statements"></a>Setja upp númeraraðir fyrir smásöluyfirlit
+# <a name="set-up-number-sequences-for-retail-statements"></a>Setja upp númeraraðir fyrir smásöluuppgjör
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að stilla númeraraðirnar sem eru nauðsynlegar fyrir smásöluyfirlit í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að stilla númeraraðirnar sem eru nauðsynlegar fyrir smásöluyfirlit í Microsoft Dynamics 365 Commerce.
 
 Tvær tegundir smásöluyfirlita eru notaðar í Dynamics 365 Commerce: 
 

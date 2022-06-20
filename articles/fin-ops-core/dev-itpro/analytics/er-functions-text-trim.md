@@ -1,6 +1,6 @@
 ---
 title: TRIM ER-aðgerð
-description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin TRIM í rafrænni skýrslugerð (ER) er notuð.
+description: Þessi grein veitir upplýsingar um hvernig TRIM rafræn skýrslugerð (ER) aðgerðin er notuð.
 author: NickSelin
 ms.date: 02/28/2022
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 816f6d6623bb778c9186d294c9b67db7edddd671
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: deadf89641771efa864e701af9dad57c5e62ea37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367793"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864645"
 ---
 # <a name="trim-er-function"></a>TRIM ER-aðgerð
 
 [!include [banner](../includes/banner.md)]
 
-The`TRIM` fall skilar tilgreindum textastreng sem a *Strengur* Gildi á eftir flipa, vagnsskila, línustreymi og formstraumstöfum hefur verið skipt út fyrir eitt bilstaf, eftir að fremstu og aftari bil hafa verið stytt og eftir að mörg bil milli orða hafa verið fjarlægð.
+The`TRIM` fall skilar tilgreindum textastreng sem a *Strengur* Gildi á eftir flipa, vagnsskila, línustreymis og formstraumstöfum hefur verið skipt út fyrir eitt bilstaf, eftir að fremstu og aftari bil hafa verið stytt og eftir að mörg bil milli orða hafa verið fjarlægð.
 
 ## <a name="syntax"></a>Málskipun
 

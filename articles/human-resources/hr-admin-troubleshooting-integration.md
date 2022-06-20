@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um samþættingu við Finance
-description: Þetta efnisatriði útskýrir hvaða gögn eru samstillt í samþættingu á Human Resources og Finance.
+description: Þessi grein útskýrir hvaða gögn eru samstillt í samþættingu á Human Resources og Finance.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9b83250bdb54ea6e78709dd3a3ea434a994f6211
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694005"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879280"
 ---
 # <a name="integration-with-finance-faq"></a>Algengar spurningar um samþættingu við Finance
 
@@ -29,7 +29,7 @@ ms.locfileid: "8694005"
 
 
 
-Þetta efni svarar algengum spurningum um hvaða gögn eru samstillt hvenær Dynamics 365 Human Resources er samþætt við Dynamics 365 Finance.
+Þessi grein svarar algengum spurningum um hvaða gögn eru samstillt hvenær Dynamics 365 Human Resources er samþætt við Dynamics 365 Finance.
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Get ég breytt Dynamics 365 Talent notanda í Power Apps?
 
@@ -88,7 +88,7 @@ Ekki er krafist sérstakrar uppsetningar fyrir meðhöndlun frávika. Data Integ
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Get ég sett upp samþættingu í báðar áttir?
 
-Nei, samþætting er eins og er í einstefnu (mannauðs til fjármögnunar og rekstrar). Hins vegar er sjálfgefið sniðmát í boði til að senda gögn frá Human Resources til Finance.
+Nei, samþætting er eins og er í einstefnu (mannauðs til fjármála og rekstrar). Hins vegar er sjálfgefið sniðmát í boði til að senda gögn frá Human Resources til Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Get ég leyft skráareyðingu sem hluta af samþættingu minni?
 
@@ -156,7 +156,7 @@ Við innleiðingu á Human Resources skal staðfesta að númeraraðirnar séu e
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Þegar ég er bý til tengistillinguna mína, get ég ekki séð tenginguna í fellilista tengingarinnar. Hvað geri ég?
 
-Gakktu úr skugga um að þegar þú stofnar tengingar þínar velurðu Dynamics 365 Finance og Dataverse.
+Gakktu úr skugga um að þegar þú býrð til tengingar þínar velurðu Dynamics 365 Finance og Dataverse.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Við samstillingu starfsmanna fæ ég villurnar „CompanyInfo_FL er ekki til“ eða „Gildið '12/31/2154 11:59:59 pm‘ í reitnum „Lokadagur starfsmanns finnst ekki í tengdri töflu „Starfsmaður“.“ Hvað ætti ég að gera?
 

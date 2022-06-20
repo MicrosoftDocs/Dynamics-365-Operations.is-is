@@ -1,6 +1,6 @@
 ---
 title: Hanna snið rafrænnar skýrslugerðar til að búa til skýrslu á Excel-sniði með myndum sem eru felldar inn í síðuhausa eða -fætur
-description: Þetta efnisatriði útskýrir hvernig á að nota rafræna skýrslugerð (ER) til að búa til viðskiptaskjöl sem eru með myndum og formum sem eru felld inn í síðuhausa eða síðufætur á síðum.
+description: Þessi grein útskýrir hvernig á að nota rafræna skýrslugerð (ER) til að búa til viðskiptaskjöl sem hafa myndir og form innbyggðar í síðuhausa eða -fætur.
 author: NickSelin
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854844"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Hanna snið rafrænnar skýrslugerðar til að búa til skýrslu á Excel-sniði með myndum sem eru felldar inn í síðuhausa eða -fætur
 
 [!include[banner](../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig notandi í hlutverki kerfisstjóra eða í hagnýtu ráðgjafahlutverki rafrænnar skýrslugerðar getur framkvæmt þessi verk:
+Þessi grein útskýrir hvernig notandi í hlutverki kerfisstjóra eða rafrænnar skýrslugerðar ráðgjafa getur framkvæmt þessi verkefni:
 
 - Skilgreinið færibreytur fyrir ramma [Rafrænnar skýrslugerðar](general-electronic-reporting.md).
 - Flytja inn [skilgreiningar](general-electronic-reporting.md#Configuration) ER sem Microsoft [býður upp á](general-electronic-reporting.md#Provider) og eru notaðar til að búa til [reikninga með frjálsum texta](../../../finance/accounts-receivable/create-free-text-invoice-new.md) samkvæmt [sniðmáti](er-fillable-excel.md#excel-file-component) á Microsoft Excel sniði.
 - Búið til [sérsniðna (afleidda)](general-electronic-reporting.md#building-a-format-selecting-another-format-as-a-base-customization) útgáfu af staðlaðri skilgreiningu rafræns skýrslugerðarsniðs sem Microsoft býður upp á.
 - Breytið sérstilltri skilgreiningu ER-sniðs þannig að hún myndi skýrslu um reikning með frjálsum texta sem er með mynd af fyrirtækislógói í síðufætinum.
 
-Hægt er að ljúka ferlunum í þessu efnisatriði í fyrirtækinu **USMF**. Ekki er þörf á neinni kóðun. Áður en hafist er handa skal sækja og vista eftirfarandi skrá.
+Verklagsreglurnar í þessari grein er hægt að ljúka í **USMF** fyrirtæki. Ekki er þörf á neinni kóðun. Áður en hafist er handa skal sækja og vista eftirfarandi skrá.
 
 | lýsing        | Skrárnafn |
 |--------------------|-----------|
@@ -132,7 +132,7 @@ Nánari upplýsingar um skilgreiningarveitur rafrænnar skýrslugerðar er að f
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat"></a>Flytja inn staðlaðar skilgreiningar rafrænnar skýrslugerðar
 
-Til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núverandi tilvik af Dynamics 365 Finance, þarf að flytja þær inn úr [gagnageymslu](general-electronic-reporting.md#Repository) rafrænnar skýrslugerðar sem var skilgreind fyrir það tilvik.
+Til að bæta stöðluðum ER stillingum við núverandi tilvik þitt af Dynamics 365 Finance verður þú að flytja þær inn úr ER [geymsla](general-electronic-reporting.md#Repository) sem var stillt fyrir það tilvik.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 2. Á síðunni **Skilgreiningar þýðingar**, í hlutanum **Skilgreiningarveitur**, skal velja reitinn **Microsoft** og síðan velja **Gagnageymslur** til að skoða lista yfir gagnageymslur fyrir **Microsoft** veituna.

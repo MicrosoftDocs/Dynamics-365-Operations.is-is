@@ -1,6 +1,6 @@
 ---
 title: Áætlanagerð innan samstæðu
-description: Þetta efnisatriði lýsir áætlanagerð innan samstæðu og útskýrir hvernig á að skilgreina áætlanagerð innan samstæðu með fínstillingu skipulagningar í Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir áætlanagerð milli fyrirtækja og útskýrir hvernig á að stilla áætlanagerð milli fyrirtækja með áætlanagerð fínstillingu í Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: de9f9679bfaf9491c6b69c11448306627c8a42f9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c13ecca9523707ef3df5fdb97dc4cbd79478258d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468497"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850671"
 ---
 # <a name="intercompany-planning"></a>Áætlanagerð innan samstæðu
 
@@ -29,9 +29,9 @@ ms.locfileid: "8468497"
 
 Í sumum fyrirtækjum eru aðgerðir vörustjórnunar háðar öðrum lögaðilum (fyrirtækjum) innan fyrirtækisins. Þessar aðgerðir eru meðhöndlaðar með sölu og innkaupum innan samstæðu, vegna þess að hver lögaðili hefur aðskilda bókhaldslykla.
 
-Þetta efnisatriði lýsir áætlanagerð innan samstæðu og útskýrir hvernig á að skilgreina áætlanagerð innan samstæðu með fínstillingu skipulagningar í Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein lýsir áætlanagerð milli fyrirtækja og útskýrir hvernig á að stilla áætlanagerð milli fyrirtækja með áætlanagerð fínstillingu í Microsoft Dynamics 365 Supply Chain Management.
 
-Í þessu efnisatriði er notast við eftirfarandi mikilvæga samstæðuskilmála:
+Þessi grein notar eftirfarandi mikilvæga samstæðuskilmála:
 
 - **Fyrir ofan** – Afstæð tilvísun í fyrirtæki eða aðfangakeðju. Gefur til kynna hreyfingu í áttina að hráefnisbirgi.
 - **Fyrir neðan** – Afstæð tilvísun í fyrirtæki eða aðfangakeðju. Gefur til kynna hreyfingu í áttina að viðskiptavininum.

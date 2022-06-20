@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 9fed5f93441bbc29b039bd1562821b999a58e5e1
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2a87e1aa27085f1b4821d27cece782dffbcd2096
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851363"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA-upprunavottorð
 
@@ -53,7 +53,7 @@ Skjal USMCA-upprunavottorðsins inniheldur eftirfarandi gagnastök:
 - Undirskrift vottunaraðila
 - Blaðsíðufjöldi
 
-Frekari upplýsingar um hverja þessa einingu og hvernig skal finna gildi þeirra er að finna í köflum þessa efnisatriðis hér á eftir.
+Fyrir frekari upplýsingar um hvern þessara þátta og hvernig gildi þeirra finnast, sjá þá hluta sem eftir eru í þessari grein.
 
 ## <a name="print-a-usmca-certification-of-origin-document"></a>Prenta skjal USMCA-upprunavottorðs
 

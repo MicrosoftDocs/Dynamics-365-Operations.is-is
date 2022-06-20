@@ -1,6 +1,6 @@
 ---
 title: Undirbúa forritasértæk lýsigögn fyrir RCS og ER
-description: Þetta efni útskýrir hvernig á að undirbúa forritasértæk lýsigögn fyrir Regulatory Configuration Service (RCS) og Rafræna skýrslugerð (ER).
+description: Þessi grein útskýrir hvernig á að undirbúa forritssértæk lýsigögn fyrir reglugerðarstillingarþjónustu (RCS) og rafræna skýrslugerð (ER).
 author: NickSelin
 ms.date: 04/04/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9136bd3db2aee1447d6af3b3c47b908177cee966aba630490cc6e72072525d29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d41069cf03e9ce49a3faa4f3933d91edd3b7d360
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735599"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864637"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Undirbúa forritasértæk lýsigögn fyrir RCS og ER
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efni fer með þig í gegnum dæmi um eftirfarandi verk:
+Þessi grein leiðir þig í gegnum dæmi um eftirfarandi verkefni:
 
 - [Undirbúa lýsigögn forrits sem hægt er að nota í RCS](#prepare-application-metadata-that-can-be-used-in-rcs)
 - [Aðgangur að lýsigögnum forrits með ER-skilgreiningu](#access-application-metadata-by-using-an-er-configuration)
@@ -97,7 +97,7 @@ Eftirfarandi ferli sýnir hvernig RCS-notandi sem er með hlutverkið **Kerfisst
 
 1. Farðu í **Öll vinnusvæði \> Rafræn skýrslugerð**.
 2. Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt **Virk**. Ef þú sérð skilgreiningarveituna ekki skaltu klára skrefin í ferlinu [Stofna skilgreiningaveitur og merkja þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
-3. Flyttu inn lýsigögn rafrænnar skýrslugerðar sem inniheldur lýsigögn fyrir forritið og sem eru stillt til að búa til rafræn skjöl fyrir lén utanríkisviðskipta. Þú stofnaðir þessa skilgreiningu ER-lýsigagna og fluttir það sem XML-skrá í [Undirbúa lýsigögn forrits sem hægt er að nota í RCS-ferlinu](#prepare-application-metadata-that-can-be-used-in-rcs) fyrr í þessu efnisatriði.
+3. Flyttu inn lýsigögn rafrænnar skýrslugerðar sem inniheldur lýsigögn fyrir forritið og sem eru stillt til að búa til rafræn skjöl fyrir lén utanríkisviðskipta. Þú bjóst til þessa ER lýsigagnastillingu og fluttir hana út sem XML skrá í [Undirbúa lýsigögn forrita sem hægt er að nota í RCS](#prepare-application-metadata-that-can-be-used-in-rcs) málsmeðferð fyrr í þessari grein.
 
     1. Veldu **Skilgreiningar lýsigagna**.
     2. Veldu **Gengi**.
@@ -198,12 +198,12 @@ Eftirfarandi ferli sýnir hvernig RCS-notandi sem er með hlutverkið **Kerfisst
 
 Eftirfarandi ferli sýnir hvernig RCS-notandi sem er með hlutverkið **Kerfisstjóri** eða **Þróunaraðili rafrænnar skýrsluhönnunar** getur sett upp nýja ER-líkanavörpun með því að nota lýsigögn úr forritinu. Lýsigögn hugbúnaðar verða skoðuð á netinu með því að nota RCS -tengda forritið. Dæmi um ER-líkanavörpun verður skilgreint til að fá aðgang að utanríkisviðskiptafærslum.
 
-Til að ljúka þessu ferli verður fyrst að ljúka ferlinu [Stofna skilgreiningarveitur og merkja þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md) í RCS. Ef þú hefur ekki þegar lokið við ferlið [Aðgangur að lýsigögnum forrits með ER-skilgreiningu](#access-application-metadata-by-using-an-er-configuration) fyrri í þessu efnisatriði, skaltu fara á síðuna [Verkefnaleiðbeiningar rafrænnar skýrslugerðar fyrir Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739) til að sækja eftirfarandi ER-skilgreiningarskrár fyrirfram og vista þær staðbundið: **Foreign trade metadata.xml**, **Foreign trade model.xml** og **Foreign trade mapping.xml**.
+Til að ljúka þessu ferli verður fyrst að ljúka ferlinu [Stofna skilgreiningarveitur og merkja þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md) í RCS. Ef þú hefur ekki enn lokið við [Fáðu aðgang að lýsigögnum forrita með því að nota ER stillingar](#access-application-metadata-by-using-an-er-configuration) málsmeðferð fyrr í þessari grein, farðu til [Verkefnaleiðbeiningar fyrir rafrænar skýrslur fyrir Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739) síðu til að hlaða niður eftirfarandi ER stillingarskrám fyrirfram og vista þær á staðnum: **Lýsigögn utanríkisviðskipta.xml**, **utanríkisviðskipta.xml**, og **Kortlagning utanríkisviðskipta.xml**.
 
 
 ### <a name="get-required-er-configurations"></a>Sækja umbeðnar ER-skilgreiningar
 
-Ef þú hefur þegar lokið við í ferlið [Fá aðgang að lýsigögnum hugbúnaðar með notkun á ER-skilgreiningum](#access-application-metadata-by-using-an-er-configuration) fyrr í þessu efnisatriði, hefurðu nú þegar allar umbeðnar ER-skilgreiningar (skilgreiningar lýsigagna utanríkisviðskipta, líkans og vörpunar) í gildandi RCS-tilviki. Í því tilfelli getur þú sleppt þessu ferli.
+Ef þú hefur þegar lokið við [Fáðu aðgang að lýsigögnum forrita með því að nota ER stillingar](#access-application-metadata-by-using-an-er-configuration) aðferð fyrr í þessari grein, þú ert nú þegar með allar nauðsynlegar ER stillingar (lýsigögn utanríkisviðskipta, líkan og kortlagningarstillingar) í núverandi RCS tilviki. Í því tilfelli getur þú sleppt þessu ferli.
 
 1. Farðu í **Öll vinnusvæði \> Rafræn skýrslugerð**.
 2. Veldu **Skilgreiningar skýrslugerðar**.

@@ -1,6 +1,6 @@
 ---
 title: Flytja inn eiginleika frá alþjóðlegu geymslunni
-description: Þetta efnisatriði útskýrir hvernig á að flytja inn hnattvæðingareiginleika úr alþjóðlegu geymslunni.
+description: Þessi grein útskýrir hvernig á að flytja inn hnattvæðingareiginleika úr alþjóðlegu geymslunni.
 author: dkalyuzh
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ff3019986d089a286f7aef94346398b3d328ad54
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: bc8f346cdef4aa0b909d75b016b37cbbe3248ebf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865556"
 ---
 # <a name="import-features-from-the-global-repository"></a>Flytja inn eiginleika frá alþjóðlegu geymslunni
 
@@ -30,7 +30,7 @@ Alþjóðlega geymslan inniheldur rafræna reikningseiginleika sem er deilt með
 
 Til að byrja að vinna með eiginleika rafrænna reikninga sem er deilt með stillingaveitunni þinni skaltu flytja þá inn í tilvikið þitt af Regulatory Configuration Service (RCS) frá alþjóðlegu geymslunni. Skoðaðu síðan eiginleikaupplýsingarnar, svo sem rafræna skýrslugerð (ER) stillingar og vinnsluleiðslur.
 
-## <a name="import-a-feature-from-the-global-repository"></a>Flytja inn eiginleika úr alþjóðlegu geymslunni
+## <a name="import-a-feature-from-the-global-repository"></a>Flytja inn eiginleika úr altækri geymslu
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
 2. Á vinnusvæðinu **Altækur eiginleiki**, í hlutanum **Eiginleikar**, skal velja reitinn **Rafræn reikningsfærsla**.

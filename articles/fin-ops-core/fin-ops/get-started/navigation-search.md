@@ -1,6 +1,6 @@
 ---
 title: Flettingaleit
-description: Flettingaleit - Þetta efnisatriði útskýrir hvernig skuli nota leitarvirknina til að fara inn á síður.
+description: Þessi grein útskýrir hvernig á að nota leitaraðgerðina til að fara á síður.
 author: aneesmsft
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e689bef43930dbe364baefaa9f4d0231394ff4f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: d45ad1d2a85efa561380912e82d38689fabbe119
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872679"
 ---
 # <a name="navigation-search"></a>Flettingaleit
 
@@ -28,7 +28,7 @@ ms.locfileid: "8069985"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Flettingaleit - Þetta efnisatriði útskýrir hvernig skuli nota leitarvirknina til að fara inn á síður.
+Þessi grein útskýrir hvernig á að nota leitaraðgerðina til að fara á síður.
 
 Forritið felur í sér fjölda svæða og síður til að hjálpa þér að framkvæma ýmis verk. Til að finna fljótt þær síður sem þú þarft til að ljúka verkefnum þínum skaltu nota eiginleikann flettingaleit.
 

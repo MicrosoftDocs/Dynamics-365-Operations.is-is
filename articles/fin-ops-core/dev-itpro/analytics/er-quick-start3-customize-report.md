@@ -1,6 +1,6 @@
 ---
 title: Sérstilla skilgreiningar rafrænnar skýrslugerðar til að búa til rafrænt skjal
-description: Í þessu efnisatriði er útskýrt hvernig á að sérstilla skilgreiningar Microsoft á rafrænni skýrslugerð sem eru notaðar til að búa til sérstillt rafrænt skjal.
+description: Þessi grein útskýrir hvernig á að sérsníða rafræn skýrslugerð (ER) sem Microsoft útvegar, sem eru notaðar til að búa til sérsniðið rafrænt skjal.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854699"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Sérstilla skilgreiningar rafrænnar skýrslugerðar til að búa til rafrænt skjal
 
@@ -32,9 +32,9 @@ The [Rafræn skýrslugerð (ER) ramma](general-electronic-reporting.md) gerir þ
 
 ## <a name="overview"></a>Yfirlit
 
-Í þessu efnisatriði þarf til dæmis að tilgreina auðkenniskóða alríkisskatts sem nýja sérstillta eigind fyrir hvern viðskiptavin sem þú sendir rafræna reikninga til. Þess vegna þarf að sérstilla skipulag reikningsins sem er nú í notkun með því að bæta við nýrri vöru sem verður að fylla út með skattkóðanum í öllum rafrænum reikningum sem eru búnir til.
+Fyrir dæmið í þessari grein verður þú að tilgreina alríkisskattaauðkenniskóða sem nýja sérsniðna eigind hvers viðskiptavinar sem þú reikningsfærir rafrænt. Þess vegna þarf að sérstilla skipulag reikningsins sem er nú í notkun með því að bæta við nýrri vöru sem verður að fylla út með skattkóðanum í öllum rafrænum reikningum sem eru búnir til.
 
-Aðferðirnar í þessu efnisatriði útskýra hvernig notandi í hlutverki kerfisstjóra, þróunaraðila rafrænnar skýrslugerðar eðaí hagnýtu ráðgjafahlutverki rafrænnar skýrslugerðar getur framkvæmt þessi verk í Finance-tilvikinu þínu:
+Verklagsreglurnar í þessari grein útskýra hvernig notandi í hlutverki kerfisstjóra, rafrænnar skýrslugerðaraðila eða rafrænnar skýrslugerðarráðgjafa getur framkvæmt eftirfarandi verkefni í þínu fjármálatilviki:
 
 - [Skilgreina lágmarkssafn af færibreytum rafrænnar skýrslugerðar sem þarf til að byrja að nota ramma rafrænnar skýrslugerðar](#ConfigureER).
 - [Flytja inn upphaflegar útgáfur af stöðluðum skilgreiningum rafrænnar skýrslugerðar sem gefnar eru upp til að búa til rafræna reikninga](#ImportERConfigurations1).

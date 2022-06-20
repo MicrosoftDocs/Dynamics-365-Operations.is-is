@@ -1,6 +1,6 @@
 ---
-title: Vinna úr færslubók kostnaðarúthlutunar
-description: Þetta efnisatriði útskýrir hvernig á að vinna úr úthlutunarbeiðni í Dynamics 365 Finance.
+title: Vinna úr færslubók fjárhagsúthlutunar
+description: Þessi grein útskýrir hvernig á að vinna úr úthlutunarbeiðni í Dynamics 365 Finance.
 author: aprilolson
 ms.date: 07/26/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ec3653085aed278eb5d13d47f345c713cd39f1f
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: b86f8f5d090d624e812d9e7e6c0bc0212e5e9716
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722153"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902430"
 ---
-# <a name="process-ledger-allocation-journal"></a>Vinna úr færslubók kostnaðarúthlutunar
+# <a name="process-ledger-allocation-journal"></a>Vinna úr færslubók fjárhagsúthlutunar
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að vinna úr úthlutunarbeiðni. Notaðu síðuna Vinna úr úthlutunarbeiðni til að stofna úthlutunarbók sem hægt er að yfirfara og samþykki áður en bókað er í Fjárhag eða bóka beint í Fjárhag. Áður en hægt er að stofna úthlutunarfærslubók verður að vera að minnsta kosti ein virk úthlutunarregla fjárhags. Þetta verkefni notar USMF-sýnifyrirtækið.
+Þessi grein útskýrir hvernig á að vinna úr úthlutunarbeiðni. Notaðu síðuna Vinna úr úthlutunarbeiðni til að stofna úthlutunarbók sem hægt er að yfirfara og samþykki áður en bókað er í Fjárhag eða bóka beint í Fjárhag. Áður en hægt er að stofna úthlutunarfærslubók verður að vera að minnsta kosti ein virk úthlutunarregla fjárhags. Þetta verkefni notar USMF-sýnifyrirtækið.
 
 1. Í yfirlitsrúðunni, farðu í **Fjárhagur > Úthlutanir > Vinnsla úthlutunarbeiðni**.
 2. Í reitnum **Regla** velurðu skrána sem óskað er eftir af fellilistanum.

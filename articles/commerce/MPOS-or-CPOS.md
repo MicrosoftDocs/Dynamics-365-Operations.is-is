@@ -1,6 +1,6 @@
 ---
-title: Veldu á milli Store Commerce og Cloud POS
-description: Þetta efni útskýrir lykilmuninn á Store Commerce og Cloud POS og lýsir ýmsum þáttum sem smásalar sem innleiða Dynamics 365 Commerce ætti að íhuga að hjálpa þeim að velja besta valið fyrir kröfur þeirra.
+title: Veldu á milli Store Commerce og sölukerfis í skýinu
+description: Þessi grein útskýrir lykilmuninn á Store Commerce og Cloud POS og lýsir ýmsum þáttum sem smásalar sem innleiða Dynamics 365 Commerce ætti að íhuga að hjálpa þeim að velja besta valið fyrir kröfur þeirra.
 author: jblucher
 ms.date: 04/21/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b62e1737bc9e3b9d9e25a7a88e693a9aece80776
-ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
+ms.openlocfilehash: 26f6e94b13b3058ac42c4c7b83dcf7179bae18e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8629291"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854007"
 ---
-# <a name="choose-between-store-commerce-and-cloud-pos"></a>Veldu á milli Store Commerce og Cloud POS
+# <a name="choose-between-store-commerce-and-cloud-pos"></a>Veldu á milli Store Commerce og sölukerfis í skýinu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni útskýrir lykilmuninn á Store Commerce og Cloud POS og lýsir ýmsum þáttum sem smásalar sem innleiða Dynamics 365 Commerce ætti að íhuga að hjálpa þeim að velja besta valið fyrir kröfur þeirra. Það gefur einnig framkvæmdaaðilum viðbótarbakgrunn, ábendingar og leiðbeiningar um þætti sem þeir ættu að hafa í huga þegar þeir nota Dynamics 365 Commerce. Með því að skoða og fylgja þessum leiðbeiningum sem hluta af virkjunarferlinu geta þeir sem innleiða forðast vandamál sem gætu haft áhrif á ánægju notanda eða afköst.
+Þessi grein útskýrir lykilmuninn á Store Commerce og Cloud POS og lýsir ýmsum þáttum sem smásalar sem innleiða Dynamics 365 Commerce ætti að íhuga að hjálpa þeim að velja besta valið fyrir kröfur þeirra. Það gefur einnig framkvæmdaaðilum viðbótarbakgrunn, ábendingar og leiðbeiningar um þætti sem þeir ættu að hafa í huga þegar þeir nota Dynamics 365 Commerce. Með því að skoða og fylgja þessum leiðbeiningum sem hluta af virkjunarferlinu geta þeir sem innleiða forðast vandamál sem gætu haft áhrif á ánægju notanda eða afköst.
 
 ## <a name="insights"></a>Innsýn
 
@@ -44,8 +44,8 @@ Commerce styður eftirfarandi valkosti fyrir sölustað (POS):
 Í öllum tilvikum deilir POS (Store Commerce og CPOS) sama kjarnaforritakóða. Þetta atriði er mikilvægt af eftirfarandi ástæðum:
 
 - Notendaviðmótið (UI) er sjálfkvæmt, án tillits til vettvangs eða formþáttar.
-- Meirihluti virknieiginleikanna er sá sami, án tillits til vettvangs eða formþáttar. Þó er til staðar mikilvægur munur. Munurinn er skýrður í þessu efnisatriði.
-- Í hverri verslun er hægt að sameina POS-afbrigðin og geta keyrt samtímis. Til dæmis, fyrir helstu skrár sínar, getur smásali notað Store Commerce á tölvum sem keyra Windows. Hins vegar getur smásalinn bætt við þeim skrám með afgreiðslustöðvum eða farsímum sem tengjast vafra.
+- Meirihluti virknieiginleikanna er sá sami, án tillits til vettvangs eða formþáttar. Þó er til staðar mikilvægur munur. Þessi munur kemur fram í þessari grein.
+- Í hverri verslun er hægt að sameina POS-afbrigðin og geta keyrt samtímis. Til dæmis, fyrir aðalskrár sínar, getur smásali notað Store Commerce á tölvum sem keyra Windows. Hins vegar getur smásalinn bætt við þeim skrám með afgreiðslustöðvum eða farsímum sem tengjast vafra.
 - Sérstillingar og viðbætur geta hæglega verið notaðar yfir vettvang og formþætti. Vegna þess að kjarnaforritskóðanum er deilt, er hægt að innleiða flestar sérstillingar einu sinni í staðinn fyrir mörgum sinnum.
 
 ### <a name="store-commerce-vs-cpos"></a>Verslun vs CPOS
@@ -111,7 +111,7 @@ Frekari upplýsingar um vélbúnaðarstöðvar, sjá [Grunnstilling og uppsetnin
 
 - **Vélbúnaður tæki/jaðartæki** - Einn mikilvægur þáttur í Retail POS kerfi er hæfni þess til að nota POS jaðartæki eins og prentara, reiðufjárskúffur og greiðslustöðvar. Þó að allir tiltækir POS valkostir geti notað jaðartæki, þá styður aðeins Store Commerce fyrir Windows þá beint. Fyrir öll önnur forrit þarf eina eða fleiri vélbúnaðarstöðvar. Þrátt fyrir að þessi nálgun bætir sveigjanleika, verða fleiri einingar að vera uppsett, grunnstilltir og þjónustaðir.
 - **Kerfisskilyrði** - Kerfisskilyrðin fyrir POS forritið eru mismunandi. Vertu viss um að athuga nýjustu upplýsingar áður en þú velur. Til dæmis, vegna þess að CPOS keyrir í vafra styður það fjölbreyttar stýrikerfi. Fyrir frekari upplýsingar um kerfisskilyrði, sjá [Kerfisskilyrði fyrir uppsetningu í skýi](../fin-ops-core/fin-ops/get-started/system-requirements.md).
-- **Uppsetning og þjónusta** - Flækjustig uppsetningar- og þjónustuskilyrði geta verið breytilegt eftir því hvaða forrit og uppsetning eru valin. Til dæmis, fyrir ský-hýst CPOS uppsetningu, þú þarft ekki að setja upp og uppfæra í hverju tæki. Þess vegna minnkar þessi aðferð flækjustig og kostnað mikið. Hins vegar, ef þú setur upp Store Commerce á hverja skrá og virkjar ótengda stillingu, og þú setur einnig upp sameiginlegar vélbúnaðarstöðvar, fjölgar þú til muna fjölda endapunkta sem þarf að hafa umsjón með.
+- **Uppsetning og þjónusta** - Flækjustig uppsetningar- og þjónustuskilyrði geta verið breytilegt eftir því hvaða forrit og uppsetning eru valin. Til dæmis, fyrir ský-hýst CPOS uppsetningu, þú þarft ekki að setja upp og uppfæra í hverju tæki. Þess vegna minnkar þessi aðferð flækjustig og kostnað mikið. Hins vegar, ef þú setur upp Store Commerce á hverja skrá og virkjar ótengda stillingu, og þú setur einnig upp sameiginlegar vélbúnaðarstöðvar, fjölgar þú til muna fjölda endapunkta sem þarf að stjórna.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

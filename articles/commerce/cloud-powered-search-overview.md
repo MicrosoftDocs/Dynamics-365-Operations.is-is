@@ -1,6 +1,6 @@
 ---
 title: Leitaryfirlit í skýinu
-description: Þetta efnisatriði sýnir yfirlit yfir leit í skýinu í Microsoft Dynamics 365 Commerce.
+description: Þessi grein gefur yfirlit yfir skýknúna leit í Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 02/28/2022
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9116dd415d44a56fbe8c7852382c413b0a75872c
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 8a3ab869eb9ddc0e73061bd2363cf9b3962da1e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850357"
 ---
 # <a name="cloud-powered-search-overview"></a>Leitaryfirlit í skýinu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði sýnir yfirlit yfir leit í skýinu í Microsoft Dynamics 365 Commerce.
+Þessi grein gefur yfirlit yfir skýknúna leit í Microsoft Dynamics 365 Commerce.
 
 Vöruuppgötvun hjálpar til við að tryggja að viðskiptavinir geti fundið vörur fljótt og auðveldlega með því að vafra um flokka, leita og sía. Söluaðilar líta á vöruuppgötvun sem aðalverkfæri fyrir samskipti viðskiptavina þvert á rásir knúnar af Cloud Scale Unit (CSU), eins og rafræn viðskipti og sölustað (POS).
 

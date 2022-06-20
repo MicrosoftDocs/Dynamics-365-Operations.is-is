@@ -1,6 +1,6 @@
 ---
 title: Laun byggð á skráningum
-description: Þetta efnisatriði útskýrir hvernig laun eru reiknuð út frá starfsmannaskráningum.
+description: Þessi grein útskýrir hvernig laun eru reiknuð út frá starfsmannaskráningum.
 author: johanhoffmann
 ms.date: 03/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 58ff2629c2894e85ca5529df5f995ffa5273de67e1c22564f5f9911ea86fbd95
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 729e2f6c7c2dac598154b342244ab3d8eccaf4d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715723"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844381"
 ---
 # <a name="pay-based-on-registrations"></a>Laun byggð á skráningum
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir ítarlega hvernig laun eru reiknuð út frá starfsmannaskráningum. Það felur í sér dæmi sem sýna hvernig hinar ýmsu samsetningar á möguleikum uppsetningar sem eru tiltækar fyrir útreikninginn hafa áhrif á niðurstöðuna. Hér eru nokkur af þeim sviðum sem verður farið yfir:
+Þessi grein útskýrir ítarlega hvernig laun eru reiknuð út frá starfsmannaskráningum. Það felur í sér dæmi sem sýna hvernig hinar ýmsu samsetningar á möguleikum uppsetningar sem eru tiltækar fyrir útreikninginn hafa áhrif á niðurstöðuna. Hér eru nokkur af þeim sviðum sem verður farið yfir:
 
 - Sveigjanlegur tími
 - Yfirvinna

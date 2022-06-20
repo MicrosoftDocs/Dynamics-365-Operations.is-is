@@ -1,6 +1,6 @@
 ---
 title: Lagaðu „Ekki nóg af afkastagetu fannst“ í tímasetningarvélarvillu og endanlegri getu
-description: Í þessu efnisatriði er að finna upplýsingar um ástæður og úrlausnir fyrir „Ekki var hægt að tímasetja framleiðslupöntun %1. Nægileg afköst fundust ekki“ - Villa röðunarvélar.
+description: Þessi grein veitir upplýsingar um ástæður og úrlausnir fyrir 'Framleiðslupöntun%1 ekki hægt að skipuleggja. Nægileg afköst fundust ekki“ - Villa röðunarvélar.
 author: t-benebo
 ms.date: 7/29/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a3c08dc72c7133a2ebb148a2f88f83fee282717b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469842"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891032"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Laga villu röðunarvélar: „Nægileg afköst fundust ekki“
 
@@ -26,7 +26,7 @@ ms.locfileid: "8469842"
 
 > Ekki tókst að raða framleiðslupöntun %1. Nægileg afköst fundust ekki.
 
-Nokkrar ástæður geta verið fyrir því að röðunarvél gæti bilað og gefið út þessi villuboð. Í þessu efnisatriði er að finna leiðarvísa sem hjálpa þér að finna orsök villunnar og draga síðan úr henni.
+Nokkrar ástæður geta verið fyrir því að röðunarvél gæti bilað og gefið út þessi villuboð. Þessi grein veitir leiðbeiningar sem hjálpa þér að finna undirrót villunnar og draga úr henni.
 
 ## <a name="review-the-applicable-resources"></a>Yfirfara viðeigandi úrræði
 

@@ -1,6 +1,6 @@
 ---
 title: Uppflettieining pantana
-description: Þetta efnisatriði fjallar um uppflettieiningu pantana og útskýrir hvernig á að skilgreina hana í Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um pöntunareininguna og útskýrir hvernig á að stilla hana í Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 09/01/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c83463d9a0ece9605b0d22bee2a1c76057c8ed05
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675118"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869431"
 ---
 # <a name="order-lookup-module"></a>Uppflettieining pantana
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði fjallar um uppflettieiningu pantana og útskýrir hvernig á að skilgreina hana í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um pöntunareininguna og útskýrir hvernig á að stilla hana í Microsoft Dynamics 365 Commerce.
 
 Uppflettieining pantana býður upp á skjámynd sem viðskiptavinir geta notað til að fletta upp á pöntunum sem þeir gera á vefsvæði rafrænna viðskipta. Hún er notuð sem hluti af eiginleikanum [Virkja uppflettingu pöntunar fyrir gestakaup](order-lookup-guest.md). Uppflettieining pantana er hægt að nota til að fletta upp á pöntunum sem voru sendar inn gegnum vefsvæði rafrænna viðskipta, sölustað smásölu eða símaver. Skjámyndin getur sótt pantanir sem bæði gestanotendur og skráðir notendur sendu inn.
 

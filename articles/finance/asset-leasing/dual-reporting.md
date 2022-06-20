@@ -1,6 +1,6 @@
 ---
 title: Tvískipt skýrslugjöf
-description: Þetta efnisatriði leiðir notandann í gegnum dæmi sem sýnir hvernig hægt er að uppfylla skilyrði bæði um skýrslugerð samkvæmt alþjóðlegum reikningsskilastaðli (IFRS) og lögboðinnar skýrslugerðar um eignaleigu.
+description: Þessi grein leiðir þig í gegnum dæmi sem sýnir hvernig þú getur uppfyllt kröfur um bæði alþjóðlega reikningsskilastaðla (IFRS) og lögbundna skýrslugerð í eignaleigu.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9c96730bea52a69f672f8936ebbcb24449940636
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 9941d0bb251a95a71338c59f6eaa4bb9a505a5b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713390"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886372"
 ---
 # <a name="dual-reporting"></a>Tvískipt skýrslugjöf
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði leiðir notandann í gegnum dæmi sem sýnir hvernig hægt er að uppfylla skilyrði bæði um skýrslugerð samkvæmt alþjóðlegum reikningsskilastaðli (IFRS) og lögboðinnar skýrslugerðar um eignaleigu. Þekking á að birta lög í Microsoft Dynamics 365 Fjármál er krafist og mun gera dæmið auðveldara að skilja.
+Þessi grein leiðir þig í gegnum dæmi sem sýnir hvernig þú getur uppfyllt kröfur um bæði alþjóðlega reikningsskilastaðla (IFRS) og lögbundna skýrslugerð í eignaleigu. Þekking á að birta lög í Microsoft Dynamics 365 Fjármál er krafist og mun gera dæmið auðveldara að skilja.
 
 ## <a name="example"></a>Dæmi
 

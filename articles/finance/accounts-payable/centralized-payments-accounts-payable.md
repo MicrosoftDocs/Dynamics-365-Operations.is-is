@@ -1,6 +1,6 @@
 ---
 title: Miðstýrðar greiðslur fyrir viðskiptaskuldir
-description: Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu greiðslur í marga lögaðila. Þetta efnisatriði gefur dæmi sem sýna hvernig bókun fyrir miðlægar greiðslur er meðhöndluð í ýmsum aðstæðum.
+description: Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu greiðslur í marga lögaðila. Þessi grein gefur dæmi sem sýna hvernig bókanir fyrir miðstýrðar greiðslur eru meðhöndlaðar í mismunandi aðstæðum.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df0d2178d1ebd3dcb154e2c4f7821a4007da55d4
-ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.openlocfilehash: 5478a2ac61fb7304bc617f3d2614e68cda6154de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8331743"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903450"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Miðstýrðar greiðslur fyrir viðskiptaskuldir
 
 [!include [banner](../includes/banner.md)]
 
-Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu greiðslur í marga lögaðila. Þetta efnisatriði gefur dæmi sem sýna hvernig bókun fyrir miðlægar greiðslur er meðhöndluð í ýmsum aðstæðum.
+Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu greiðslur í marga lögaðila. Þessi grein gefur dæmi sem sýna hvernig bókanir fyrir miðstýrðar greiðslur eru meðhöndlaðar í mismunandi aðstæðum.
 
 Í miðstýrðum greiðslusamtökum eru margir lögaðilar fyrir aðgerðir og hver rekstrareining lögaðila stjórnar eigin reikningum lánardrottins. Greiðslur fyrir allar rekstrareiningar lögaðila eru myndaðar úr einum lögaðila, sem kallast lögaðili greiðslunnar. Á meðan á jöfnunarferli stendur eru viðeigandi færslur til og frá eru myndaðar. Hægt er að tilgreina hvaða lögeining innan fyrirtækisins fái innleystar hagnaðar- eða innleystar tapfærslurnar og hvernig færslur staðgreiðsluafsláttar sem eru tengdar greiðslum á milli fyrirtækja eru meðhöndlaðar. Í miðstýrðri greiðslubókarlínu skal stilla **Gerð lykils** á Lánardrottin. **Gerð mótlykil** s skal stillt á Banki eða Fjárhagur. Bankareikningurinn skal vera í núverandi fyrirtæki. 
 

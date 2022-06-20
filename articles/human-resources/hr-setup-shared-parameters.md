@@ -1,6 +1,6 @@
 ---
 title: Skilgreina sameiginlegar færibreytur
-description: Þetta efnisatriði útskýrir hvernig á að setja upp mannauðsfæribreytur þvert á lögaðila.
+description: Í þessari grein er því lýst hvernig á að setja upp færibreytur Mannauðs á milli lögaðila.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,27 +14,27 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e59745e01905be50e6908fb9587b8afc17604382
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c0d8dbca302d90cc402feb4715a6fcc2b935d8b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692115"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906183"
 ---
 # <a name="configure-shared-parameters"></a>Skilgreina sameiginlegar færibreytur
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þú verður að setja upp samnýttar færibreytur fyrir færslur sem deilt er á milli fyrirtækja, svo sem **Staða** skrár. Þetta efnisatriði útskýrir hvernig á að setja upp mannauðsfæribreytur þvert á lögaðila.
+Þú verður að setja upp samnýttar færibreytur fyrir færslur sem er deilt á milli fyrirtækja, svo sem **Staða** skrár. Í þessari grein er því lýst hvernig á að setja upp færibreytur Mannauðs á milli lögaðila.
 
 Sumar tegundir af skrám, svo sem **Staða** skrám, er deilt á milli fyrirtækja. Fyrir°þessar færslur þarf að setja upp samnýttar færibreytur. Til dæmis, the **Mannauður sameiginlegar breytur** síða er notuð til að setja upp mannauðsfæribreytur þvert á lögaðila. 
 
 Á síðunni **Samnýttar færibreytur fyrir mannauð** eru færibreyturnar flokkaðar í svæði,°byggt á virkni þeirra. 
 
 ### <a name="settings"></a>Stillingar
-Á flipanum **Auðkenni** verður að velja auðkenningargerðir sem tákna auðkennisnúmer sem skráð°eru á síðunni. Setja verður upp gerð auðkennis áður en hægt er að færa inn auðkennisupplýsingar fyrir starfsmenn. Upplýsingar um kennitölu, þjóðkennisnúmer, auðkenni útlendinga og persónulegan auðkennikóða eru á síðunni **Gerð auðkennis**. Til að skilgreina nýja auðkenningartegund eða skoða listann yfir núverandi gerðir, farðu á **Starfsmannastjórnun** &gt; **Tenglar** &gt; **Uppsetning** &gt; **Auðkennisgerðir**. Hægt er að færa inn einfaldan kóða og lýsingu. 
+Á flipanum **Auðkenni** verður að velja auðkenningargerðir sem tákna auðkennisnúmer sem skráð°eru á síðunni. Setja verður upp gerð auðkennis áður en hægt er að færa inn auðkennisupplýsingar fyrir starfsmenn. Upplýsingar um kennitölu, þjóðkennisnúmer, auðkenni útlendinga og persónulegan auðkennikóða eru á síðunni **Gerð auðkennis**. Til að skilgreina nýja auðkennistegund eða skoða listann yfir núverandi gerðir, farðu á **Starfsmannastjórnun** &gt; **Tenglar** &gt; **Uppsetning** &gt; **Auðkennisgerðir**. Hægt er að færa inn einfaldan kóða og lýsingu. 
 
-Á **Númeraraðir** flipanum geturðu valið númeraraðirnar sem eru notaðar fyrir eftirfarandi færslur: **Starfsmannanúmer**, **·**, **notandabeiðni**, **-9 skjal**, **·**, **·**, **bóta**, og **Starfsmannaaðgerðir** (ef þessi skráargerð er virkjuð). Til að viðhalda tilvísunum og kóða númeraraða skal nota listasíðuna **Númeraraðir**. Notið síðuleitar eiginleikann til að finna þessa síðu. 
+Á **Númeraraðir** flipanum geturðu valið töluröðina sem eru notaðar fyrir eftirfarandi færslur: **Starfsmannanúmer**, **·**, **notandabeiðni**, **-9 skjal**, **·**, **·**, **bóta**, og **Starfsmannaaðgerðir** (ef þessi skráargerð er virkjuð). Til að viðhalda tilvísunum og kóða númeraraða skal nota listasíðuna **Númeraraðir**. Notið síðuleitar eiginleikann til að finna þessa síðu. 
 
 Á flipanum **Stöður** skal gefa til kynna hvort nýjar stöður eru tiltækar fyrir sjálfgefna úthlutun:
 

@@ -1,6 +1,6 @@
 ---
 title: Breyta röðun fyrir smásölueiningar
-description: Þetta efni útskýrir hugtök sem tengjast stjórnun birtingarraðar fyrir ýmsar smásölueiningar í Dynamics 365 Commerce.
+description: Þessi grein útskýrir hugtökin sem tengjast því að stjórna birtingarpöntun fyrir ýmsar sölutengdar einingar í Dynamics 365 Commerce.
 author: josaw1
 ms.date: 08/05/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779543"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847655"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Breyta röðun fyrir smásölueiningar
 
@@ -29,7 +29,7 @@ ms.locfileid: "7779543"
 
 Smásalar líta á vöruuppgötvun sem aðalverkfæri til að hafa samskipti við viðskiptavini á öllum rásum. Ýmis virkni geta hjálpað viðskiptavinum að uppgötva vörur á auðveldan hátt. Til dæmis geta þeir skoðað flokka, leitað og síað.
 
-Þetta efni útskýrir hugtök sem tengjast stjórnun birtingarraðar fyrir ýmsar smásölueiningar. Það útskýrir einnig hvernig á að breyta röðuninni.
+Þessi grein útskýrir hugtökin sem tengjast því að stjórna birtingarpöntuninni fyrir ýmsar sölutengdar einingar. Það útskýrir einnig hvernig á að breyta röðuninni.
 
 ## <a name="overview"></a>Yfirlit
 

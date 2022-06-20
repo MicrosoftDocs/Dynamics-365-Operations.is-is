@@ -1,6 +1,6 @@
 ---
 title: Stafræn gjafakort rafrænna viðskipta
-description: Þetta efnisatriði lýsir því hvernig stafræn gjafakort virka í innleiðingu rafrænna viðskipta Microsoft Dynamics 365 Commerce. Það veitir einnig yfirlit yfir mikilvæg skilgreiningarskref.
+description: Þessi grein lýsir því hvernig stafræn gjafakort virka í innleiðingu rafrænna viðskipta á Microsoft Dynamics 365 Commerce. Það veitir einnig yfirlit yfir mikilvæg skilgreiningarskref.
 author: anupamar-ms
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: de8811b3265bc582a055aaad1f3dea32def552f4
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 60de6988f14a0dcbbb881e84a9e4d8a45ca1289a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884905"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Stafræn gjafakort rafrænna viðskipta
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig stafræn gjafakort virka í innleiðingu rafrænna viðskipta Microsoft Dynamics 365 Commerce. Það veitir einnig yfirlit yfir mikilvæg skilgreiningarskref.
+Þessi grein lýsir því hvernig stafræn gjafakort virka í innleiðingu rafrænna viðskipta á Microsoft Dynamics 365 Commerce. Það veitir einnig yfirlit yfir mikilvæg skilgreiningarskref.
 
 Í Dynamics 365 Commerce fylgja kaup stafrænna gjafakorta sama ferli og kaup á öðrum afurðum í kerfinu. Engar viðbótareiningar verða að vera skilgreindar. Ef mörgum gjafakortum er bætt við körfuna, er vörum gjafakortsins ekki safnað saman í eina sölulínu. Þessi hegðun er nauðsynleg vegna þess að hver sölulína er reikningsfærð með því að nota aðskilið gjafakortsnúmer.
 

@@ -1,6 +1,6 @@
 ---
 title: Stjórnun smásöluverðs
-description: Þetta efnisatriði lýsir hugmyndum um stofnun og stjórnun á söluverðum í Dynamics 365 Commerce.
+description: Þessi grein lýsir hugtökum til að búa til og stjórna söluverði í Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 ms.date: 07/28/2021
 ms.topic: article
@@ -14,29 +14,29 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f78a4f328d6962db373990ea60dc03cec35718dc719aa0b284b319db5bc059ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16c948e6e14309f4e340bf622fac42b14e6ee591
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759286"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887011"
 ---
-# <a name="retail-sales-price-management"></a>Retail-verðstjórnun
+# <a name="retail-sales-price-management"></a>Stjórnun smásöluverðs
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um ferlið við stofnun og stjórnun á söluverðum í Dynamics 365 Commerce. Það leggur áherslu á hugmyndunum sem eru hluti af þessu ferli og áhrifin hinna ýmsu stillingamöguleika fyrir söluverð.
+Þessi grein veitir upplýsingar um ferlið við að búa til og stjórna söluverði í Dynamics 365 Commerce. Það leggur áherslu á hugmyndunum sem eru hluti af þessu ferli og áhrifin hinna ýmsu stillingamöguleika fyrir söluverð.
 
 ## <a name="terminology"></a>Orðalisti
 
-Eftirfarandi hugtök eru notuð í þessu efnisatriði.
+Eftirfarandi hugtök eru notuð í þessari grein.
 
 | Hugtak | Skilgreining, notkun og athugasemdir |
 |---|---|
-| Verð | Stök einingarupphæð sem vara selst fyrir á biðlara sölustaðar (POS) eða í sölupöntun. Í þessu efnisatriði vísar hugtakið *verð* alltaf til söluverðs, ekki birgðaverðs eða kostnaðarverðs. |
+| Verð | Stök einingarupphæð sem vara selst fyrir á biðlara sölustaðar (POS) eða í sölupöntun. Í þessari grein er hugtakið *verð* er alltaf átt við söluverð, ekki birgðaverð eða kostnaðarverð. |
 | Grunnverð | Verðið sem er sett í reitinn **Verð** á útgefinni vöru. |
 | Verð viðskiptasamnings | Verðið sem sett er á vöru eða afbrigði með því að nota viðskiptasamning af gerðinni **Vara (sölur)**. |
-| Besta verð | Þegar hægt er að beita fleiri en einu verði eða afslætti á vöru, minnstu verðupphæð og/eða mestu afsláttarupphæð sem býr til lægstu mögulegu nettóupphæð sem viðskiptavinurinn verður að greiða. Í þessu efnisatriði er hugmyndin á bak við besta verð alltaf vísað til sem „besta verðið“. Þetta besta verð er frábrugðið og ætti ekki að vera ruglað saman við upptalningargildið **Besta verð** fyrir samvinnslusnið. |
+| Besta verð | Þegar hægt er að beita fleiri en einu verði eða afslætti á vöru, minnstu verðupphæð og/eða mestu afsláttarupphæð sem býr til lægstu mögulegu nettóupphæð sem viðskiptavinurinn verður að greiða. Í þessari grein er hugtakið besta verðið alltaf nefnt „besta verðið“. Þetta besta verð er frábrugðið og ætti ekki að vera ruglað saman við upptalningargildið **Besta verð** fyrir samvinnslusnið. |
 
 ## <a name="price-groups"></a>Verðflokkar
 
@@ -97,7 +97,7 @@ Til að nota verðlagningarforgang fyrir verð þarf að úthluta honum á verð
 
 Eiginleikinn verðlagningarforgangur var kynntur til að styðja við atburðarás þar sem smásali vill setja á hærri verð í tilteknu safni verslana. Til dæmis hefur smásali skilgreint svæðisbundin verð fyrir austurströnd Bandaríkjanna en vill hærra verð fyrir sumar vörur í verslunum í New York því það kostar meira að selja sumar vörur í borginni og/eða vegna þess að staðbundni markaðurinn er með hærri verð.
 
-Eins og lýst var í kaflanum „Besta verð“ í þessu efnisatriði, velur verðlagningarvél viðskipta venjulega lægra verðið milli tveggja verða. Þess vegna er vanalega komið í veg fyrir að smásalinn geti notað hærra verðið af tveimur verðum í verslun sem hefur bæði verðflokka austurstrandar og New York. Til að leysa þetta mál áður en eiginleiki verðlagningarforgangs var kynntur til sögunnar þurfti smásalinn að skilgreina verð fyrir hverja vöru tvisvar sinnum og ekki úthluta báðum verðflokkum. Að auki þurfti smásalinn að búa til fleiri verðflokka til að einangra vörurnar sem eru með hærra verð frá vörum sem eru með venjulegu, lægri verðin.
+Eins og lýst var í hlutanum „Besta verð“ í þessari grein, velur verðlagningarvélin venjulega lægsta verðið af tveimur. Þess vegna er vanalega komið í veg fyrir að smásalinn geti notað hærra verðið af tveimur verðum í verslun sem hefur bæði verðflokka austurstrandar og New York. Til að leysa þetta mál áður en eiginleiki verðlagningarforgangs var kynntur til sögunnar þurfti smásalinn að skilgreina verð fyrir hverja vöru tvisvar sinnum og ekki úthluta báðum verðflokkum. Að auki þurfti smásalinn að búa til fleiri verðflokka til að einangra vörurnar sem eru með hærra verð frá vörum sem eru með venjulegu, lægri verðin.
 
 Hins vegar gerir eiginleiki verðlagningarforgangs smásalanum kleift að búa til verðlagningarforgang fyrir verð í verslunum sem er hærra en verðlagningarforgangur svæðibundinna verða. Að auki getur smásalinn búið til verðlagningarforgang eingöngu fyrir verð í verslunum og haft svæðisbundin verð á sjálfgefnum verðlagningarforgangi, sem er 0 (núll). Báðar uppsetningar hjálpa til við að tryggja að verð í verslunum verði alltaf notað á undan svæðisbundnum verðum.
 
@@ -151,7 +151,7 @@ Með því að nota færslubók viðskiptasamnings er hægt að búa til viðski
 
 **Tafla** viðskiptasamnings söluverðs er fyrir einn viðskiptavin sem er settur beint á viðskiptasamninginn. Þessi atburðarás er ekki dæmigerð viðskipti til neytanda. Hins vegar, ef það gerist, notar verðlagningarvélinni viðskiptasamninginn **Tafla** þegar hún ákveður verð.
 
-**Flokkur** viðskiptasamnings söluverðs er sú gerð sem oftast er notuð með. Utan Commerce, **Flokkur** viðskiptasamnings söluverðs er fyrir einfaldan viðskiptavinaflokk. Hins vegar, í Commerce, hefur hugtakið viðskiptavinaflokkur verið víkkað út þannig að það er orðið að almennari verðsflokki. Hægt er að tengja verðflokk við rás, tengsl, vildarkerfi eða vörulista. Nánari upplýsingar um verðflokka er að finna í kaflanum „Verðflokkar“ fyrr í þessu efnisatriði.
+**Flokkur** viðskiptasamnings söluverðs er sú gerð sem oftast er notuð með. Utan Commerce, **Flokkur** viðskiptasamnings söluverðs er fyrir einfaldan viðskiptavinaflokk. Hins vegar, í Commerce, hefur hugtakið viðskiptavinaflokkur verið víkkað út þannig að það er orðið að almennari verðsflokki. Hægt er að tengja verðflokk við rás, tengsl, vildarkerfi eða vörulista. Fyrir nákvæmar upplýsingar um verðflokka, sjá kaflann "Verðflokkar" fyrr í þessari grein.
 
 > [!NOTE]
 > Verð viðskiptasamnings er alltaf notað á undan grunnverðinu.

@@ -1,6 +1,6 @@
 ---
 title: Setja upp vöruhús fyrir flutningspantanir
-description: Þetta efnisatriði lýsir því hvernig hægt er að setja upp vöruhús fyrir flutningspantanir.
+description: Þessi grein lýsir því hvernig hægt er að setja upp vöruhús fyrir flutningspantanir.
 author: Mirzaab
 ms.date: 01/18/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 6de9df2749836c68bc4e9f92a6934516ff9c1d469374f0d63173a209c841ba38
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 984f90343805d35833b7ddd1a175af5833c23dd5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756728"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905516"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Setja upp vöruhús fyrir flutningspantanir 
 

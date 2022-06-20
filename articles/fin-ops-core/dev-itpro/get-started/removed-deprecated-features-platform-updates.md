@@ -1,6 +1,6 @@
 ---
-title: Fjarlægðir eða úreltir eiginleikar verkvangs
-description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í vettvangsuppfærslum á Finance and Operations forritum.
+title: Eiginleikar verkvangs sem hafa verið fjarlægðir eða eru úreltir
+description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í vettvangsuppfærslum á Finance and Operations forritum.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
+ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811247"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945805"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eiginleikar verkvangs sem hafa verið fjarlægðir eða eru úreltir
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í vettvangsuppfærslum á Finance and Operations forritum.
+Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í vettvangsuppfærslum á Finance and Operations forritum.
 
 - *Fjarlægður* eiginleiki er ekki lengur tiltækur í vörunni.
 - *Úreltur* eiginleiki er ekki í virkri þróun og getur verið fjarlægður úr uppfærslum í framtíðinni.
@@ -40,7 +40,7 @@ ms.locfileid: "8811247"
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Við erum að afnema Finance and Operations (Dynamics 365) farsímaforritið og vettvanginn til að sameinast í einn farsímavettvang, sem er Power Apps. |
-| **Skipt út fyrir aðra eiginleika?**   | Já, hægt er að byggja upp farsímaupplifun yfir Finance and Operations appgögn með Power Platform sameining. Sjáðu [Að byggja upp farsímaupplifun](../power-platform/build-mobile-experiences.md) fyrir frekari upplýsingar. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, hægt er að byggja upp farsímaupplifun yfir Finance and Operations appgögn með Power Platform sameining. Sjáðu [bloggfærsla](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) og [Að byggja upp farsímaupplifun](../power-platform/build-mobile-experiences.md) fyrir frekari upplýsingar. |
 | **Afurðasvæði sem haft er áhrif á**         | Forrit Finance and Operations |
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Úrelt. Lokadagsetning stuðnings er miðuð við október 2024. |

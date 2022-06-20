@@ -1,6 +1,6 @@
 ---
 title: Uppsetningarhjálp fyrir aðalskipulag (inniheldur myndband)
-description: Í þessu efnisatriði er því lýst hvernig á að keyra leiðsagnarforrit fyrir uppsetningu aðaláætlanagerðar til að setja upp aðaláætlanagerð.
+description: Þessi grein lýsir því hvernig á að keyra uppsetningarhjálp aðalskipulags til að setja upp aðalskipulagningu.
 author: t-benebo
 ms.date: 10/21/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: a5914f63de654acd076048240c6e37d5b67f4ffa
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1c79e1df53dfabc33aeacb56096b113e62b765d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875334"
 ---
 # <a name="master-planning-setup-wizard"></a>Leiðsagnarforrit fyrir uppsetningu áætlanagerðar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni veitir leiðbeiningar fyrir **Leiðsagnarforrit fyrir uppsetningu áætlanagerðar**. Það útskýrir hvernig færibreytutillögur eru reiknaðar og einnig eru dæmi sem sýna hvernig mismunandi fyrirtæki setja upp aðalskipulagningu, byggt á viðskiptaþörf þeirra.
+Þessi grein veitir leiðbeiningar fyrir **Uppsetningarhjálp fyrir aðalskipulagningu**. Það útskýrir hvernig færibreytutillögur eru reiknaðar og einnig eru dæmi sem sýna hvernig mismunandi fyrirtæki setja upp aðalskipulagningu, byggt á viðskiptaþörf þeirra.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 

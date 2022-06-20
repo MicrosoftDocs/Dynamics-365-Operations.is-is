@@ -1,6 +1,6 @@
 ---
-title: Viðvörunarreglur stofnaðar
-description: Þetta efnisatriði veitir upplýsingar um viðvaranir og útskýrir hvernig á að búa til viðvörunarreglu.
+title: Stofna viðvörunarreglur
+description: Þessi grein veitir upplýsingar um viðvaranir og útskýrir hvernig á að búa til viðvörunarreglu.
 author: RichdiMSFT
 ms.date: 10/08/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 597785e65f127794ca84fe3053a664f717b056bd7374e0396732d4bcf59a743c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f523680f3d71ffd75c6cd2df284d2fd3610cef96
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736199"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853618"
 ---
 # <a name="create-alert-rules"></a>Stofna viðvörunarreglur
 
@@ -75,7 +75,7 @@ Næst verður þú að ákveða hvaða innkaupapantanir þú vilt fá viðvarani
 
 ## <a name="alerts-as-business-events"></a>Viðvaranir sem viðskiptatilvik
 
-Hægt er að senda viðvaranir út með ramma viðskiptatilvika. Þegar þú býrð til viðvörun skaltu stilla **Í öllu fyrirtækinu** á **Nei** og stilla **Senda að utan** á **Já**. Þegar viðvörunin hefur komið viðskiptatilvikinu af stað er hægt að virkja flæði sem er innbyggt í Power Automate með virkjanum **Þegar viðskiptatilvik á sér stað** í tengi Finance and Operations eða senda tilvikið beint á endastöð viðskiptatilvika í gegnum **Lista yfir viðskiptatilvik**.
+Hægt er að senda viðvaranir út með ramma viðskiptatilvika. Þegar þú býrð til viðvörun skaltu stilla **Í öllu fyrirtækinu** á **Nei** og stilla **Senda að utan** á **Já**. Eftir að þú hefur fengið viðvörunina sem kallar fram viðskiptaviðburðinn geturðu sett inn flæði innbyggt Power Automate með því að nota **Þegar viðskiptaviðburður á sér stað** kveikja á Finance and Operations tenginu, eða senda viðburðinn beinlínis til endapunkts viðskiptaviðburða í gegnum **Viðskiptaviðburðaskrá**.
 
 ## <a name="create-an-alert-rule"></a>Búa til viðvörunarreglu
 

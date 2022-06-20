@@ -1,6 +1,6 @@
 ---
 title: Leiðbeinigar fyrir uppsetningu tvöfaldra skrifa
-description: Þetta efni lýsir atburðarásum sem eru studdar fyrir tvískipt skrifun.
+description: Þessi grein lýsir atburðarásum sem eru studdar fyrir uppsetningu með tvískrift.
 author: RamaKrishnamoorthy
 ms.date: 10/12/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6de449b14bcdd82336e3e255bf62ad069d3daaf5
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a0d1b4e1f093874a8fd37cf7aadb331cd1e7adc4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873150"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Leiðbeinigar fyrir uppsetningu tvöfaldra skrifa
 
@@ -26,18 +26,18 @@ ms.locfileid: "8061605"
 
 Þú getur sett upp tvískrifaða tengingu milli Finance and Operations umhverfi og a Dataverse umhverfi.
 
-+ A **Fjármál og rekstrarumhverfi** veitir undirliggjandi vettvang fyrir **Fjármála- og rekstrarforrit** (td Microsoft Dynamics 365 Finance,Dynamics 365 Supply Chain Management,Dynamics 365 Commerce, og Dynamics 365 Human Resources).
++ A **Fjármál og rekstrarumhverfi** veitir undirliggjandi vettvang fyrir **Fjármála- og rekstrarforrit** (til dæmis,Microsoft Dynamics 365 Fjármál,Dynamics 365 Supply Chain Management,Dynamics 365 Commerce, og Dynamics 365 Human Resources).
 + **Dataverse Umhverfi** veitir undirliggjandi verkvang fyrir **forrit viðskiptavina** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 column Service, Dynamics 365 Marketing og Dynamics 365 Project Service Automation).
 
 > [!IMPORTANT]
-> Mannauðseiningin í Dynamics 365 Finance styður tengingu tvískiptra skrifa, en Dynamics 365 Human Resources-forritið gerir það ekki.
+> Mannauðseiningin í Dynamics 365 Finance styður tvískrifa tengingar, en Dynamics 365 Human Resources app gerir það ekki.
 
 Uppsetningarkerfi er breytilegt, allt eftir áskrift þinni og umhverfi:
 
 + Fyrir ný tilvik af Finance and Operations forritum hefst uppsetning tvískrifaðrar tengingar í Microsoft Dynamics Lífsferilsþjónusta (LCS). Ef þú ert með leyfi fyrir Microsoft Power Platform geturðu fengið nýtt umhverfi Dataverse ef leigjandi þinn hefur ekki slíkt.
 + Fyrir núverandi tilvik Finance and Operations forrit hefst uppsetning tvískrifaðrar tengingar í Finance and Operations umhverfinu.
 
-Áður en þú byrjar tvískrift á einingu geturðu keyrt fyrstu samstillingu til að meðhöndla núverandi gögn á báða bóga: Fjármála- og rekstrarforrit og öpp fyrir þátttöku viðskiptavina. Hægt er að sleppa upphaflegu samstillingunni ef ekki þarf að samstilla gögn á milli umhverfanna tveggja.
+Áður en þú byrjar tvískrift á einingu geturðu keyrt fyrstu samstillingu til að meðhöndla núverandi gögn á báða bóga: Fjármála- og rekstraröpp og öpp fyrir þátttöku viðskiptavina. Hægt er að sleppa upphaflegu samstillingunni ef ekki þarf að samstilla gögn á milli umhverfanna tveggja.
 
 Upphafleg samstilling gerir notanda kleift að afrita fyrirliggjandi gögn úr einu forriti í annað. Nokkrar uppsetningaraðstæður eru til staðar, allt eftir því umhverfi sem er þegar til staðar og gerð gagna í þeim.
 
@@ -63,7 +63,7 @@ Bæði umhverfin eru síðan tilbúin fyrir samstillingu á gögnum í rauntíma
 
 ## <a name="a-new-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="new-existing"></a> Nýtt Finance and Operations app tilvik og núverandi tilvik viðskiptavina þátttöku app
 
-Til að setja upp tvískrifaða tengingu á milli nýs tilviks af Finance and Operations forriti sem hefur engin gögn og núverandi tilviks af forriti fyrir þátttöku viðskiptavina skaltu fylgja skrefunum í [Dual-write uppsetning frá Lifecycle Services](lcs-setup.md). Þegar uppsetningu tengingar er lokið eiga eftirfarandi aðgerðir sér stað sjálfkrafa:
+Til að setja upp tvískrifaða tengingu á milli nýs tilviks af Finance and Operations forriti sem hefur engin gögn og núverandi tilviks af samskiptaforriti viðskiptavina, skaltu fylgja skrefunum í [Dual-write uppsetning frá Lifecycle Services](lcs-setup.md). Þegar uppsetningu tengingar er lokið eiga eftirfarandi aðgerðir sér stað sjálfkrafa:
 
 - Nýtt tómt fjármála- og rekstrarumhverfi er útvegað.
 - Tvískiptri tengingu er komið á fyrir DAT-gögn fyrirtækja.
@@ -78,11 +78,11 @@ Til að samstilla núverandi Dataverse gögnum í Finance and Operations appið,
 3. [Ræstu](bootstrap-company-data.md) Dataverse-gögnin með því að nota þriggja stafa fyrirtækjakóða Alþjóðlegu staðlastofnunarinnar (ISO).
 4. Keyrið virknina **Upphafleg samstilling** fyrir töflurnar sem á að samstilla gögn fyrir.
 
-Tengla í dæmi og aðra nálgun má finna í hlutanum [Dæmi](#example) síðar í þessu efnisatriði.
+Sjá tengla á dæmi og aðra nálgun [Dæmi](#example) kafla síðar í þessari grein.
 
 ## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a> Nýtt Finance and Operations app tilvik sem hefur gögn og nýtt tilvik viðskiptavina þátttöku app
 
-Til að setja upp tvískrifaða tengingu á milli nýs tilviks af Finance and Operations forriti sem hefur gögn og nýs tilviks af samskiptaforriti viðskiptavina, skaltu fylgja skrefunum í [Nýtt Finance and Operations app tilvik og nýtt tilvik viðskiptavina þátttöku app](#new-new) kafla fyrr í þessu efni. Þegar uppsetningu tengingar er lokið, ef samstilla á gögnin við viðskiptaforrit fyrir Customer Engagement skal fylgja þessum skrefum.
+Til að setja upp tvískrifaða tengingu á milli nýs tilviks af Finance and Operations forriti sem hefur gögn og nýs tilviks viðskiptaforrits skaltu fylgja skrefunum í [Nýtt Finance and Operations app tilvik og nýtt tilvik viðskiptavina þátttöku app](#new-new) kafla fyrr í þessari grein. Þegar uppsetningu tengingar er lokið, ef samstilla á gögnin við viðskiptaforrit fyrir Customer Engagement skal fylgja þessum skrefum.
 
 1. Opnaðu Finance and Operations appið frá LCS síðunni, skráðu þig inn og farðu síðan á **Gagnastjórnun \> Tvöfalt skrifa**.
 2. Keyrið virknina **Upphafleg samstilling** fyrir töflurnar sem á að samstilla gögn fyrir.
@@ -91,7 +91,7 @@ Tengla í dæmi og aðra nálgun má finna í hlutanum [Dæmi](#example).
 
 ## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a> Nýtt Finance and Operations forritatilvik sem hefur gögn og núverandi forrit fyrir þátttöku viðskiptavina
 
-Til að setja upp tvískrifaða tengingu á milli nýs tilviks af Finance and Operations forriti sem hefur gögn og núverandi tilviks af samskiptaforriti viðskiptavina, skaltu fylgja skrefunum í [Nýtt Finance and Operations app tilvik og núverandi tilvik viðskiptavina þátttöku app](#new-existing) kafla fyrr í þessu efni. Þegar uppsetningu tengingar er lokið, ef samstilla á gögnin við viðskiptaforrit fyrir Customer Engagement skal fylgja þessum skrefum.
+Til að setja upp tvískrifaða tengingu á milli nýs tilviks af Finance and Operations forriti sem hefur gögn og núverandi tilviks af samskiptaforriti viðskiptavina, skaltu fylgja skrefunum í [Nýtt Finance and Operations app tilvik og núverandi tilvik viðskiptavina þátttöku app](#new-existing) kafla fyrr í þessari grein. Þegar uppsetningu tengingar er lokið, ef samstilla á gögnin við viðskiptaforrit fyrir Customer Engagement skal fylgja þessum skrefum.
 
 1. Opnaðu Finance and Operations appið frá LCS síðunni, skráðu þig inn og farðu síðan á **Gagnastjórnun \> Tvöfalt skrifa**.
 2. Keyrið virknina **Upphafleg samstilling** fyrir töflurnar sem á að samstilla gögn fyrir.

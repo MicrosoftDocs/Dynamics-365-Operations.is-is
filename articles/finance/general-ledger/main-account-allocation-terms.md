@@ -1,6 +1,6 @@
 ---
 title: Úthlutunarskilmálar
-description: Í þessu efnisatriði er að finna upplýsingar um hvernig á að nota úthlutunarskilmála á aðallykli.
+description: Þessi grein veitir upplýsingar um notkun úthlutunarskilmála á aðalreikningi.
 author: rachel-profitt
 ms.date: 06/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-06-15
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab3f797505e2c3d7521d3af5c231f5985e6efaa5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d62c0cc79c9d61e0ebb1c2c62a345ad47412d0d2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859828"
 ---
 # <a name="allocation-terms"></a>Úthlutunarskilmálar
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna upplýsingar um hvernig á að nota úthlutunarskilmála á aðallykli. Úthlutunarskilmálar eru notaðir til að dreifa upphæðum á margar samsetningar fjárhagslykla. Þær auðvelda að tryggja að tekjur eða útgjöld séu innheimtar frá rétta viðfanginu í bókhaldi.
+Þessi grein veitir upplýsingar um notkun úthlutunarskilmála á aðalreikningi. Úthlutunarskilmálar eru notaðir til að dreifa upphæðum á margar samsetningar fjárhagslykla. Þær auðvelda að tryggja að tekjur eða útgjöld séu innheimtar frá rétta viðfanginu í bókhaldi.
 
 Hvert úthlutunarskilmáli sem er búinn til á aðallykli skilgreinir hlutfallsprósentu fylgiskjals sem á að úthluta úr aðallykli með einn uppruna og samsetningu fjárhagsvídda. Að auki er áfangastaður aðallykils og fjárhagsvíddir skilgreindar þar sem upphæðinni verður úthlutað. 
 

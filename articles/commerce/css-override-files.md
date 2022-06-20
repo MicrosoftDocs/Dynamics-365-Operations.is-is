@@ -1,6 +1,6 @@
 ---
 title: Vinna með CSS-hnekkingarskrár
-description: Þetta efnisatriði lýsir því hvers vegna, hvenær, og hvernig nota á stallað stílblað (CSS) hnekkingu skráa í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir hvers vegna, hvenær og hvernig á að nota Cascading Style Sheets (CSS) hnekkja skrám í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: eaeeee4c9de7293ba94cc836c4d7b62787eca81d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892861"
 ---
 # <a name="work-with-css-override-files"></a>Vinna með CSS-hnekkingarskrár
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvers vegna, hvenær, og hvernig nota á stallað stílblað (CSS) hnekkingu skráa í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir hvers vegna, hvenær og hvernig á að nota Cascading Style Sheets (CSS) hnekkja skrám í Microsoft Dynamics 365 Commerce.
 
 Varanlegir svæðisstílar ættu venjulega að vera meðhöndlaðir með þema svæðisins. Þemu veita grunninn að CSS og stílstillingar fyrir einingarnar á hvaða síðu sem er á svæðinu. Þemu eru búin til með því að nota Dynamics 365 Commerce hugbúnaðarþróunarbúnað (SDK) á netinu og þau eru send á vefsíður þínar í gegnum Microsoft Dynamics Lifecycle Services (LCS). Kembigeta fyrir þemu og stillingar á einingaviðmótum í SDK hjálpa vefhönnuðum við að skapa sérsníðanlega og samloðandi vefhönnunarpakka. Þegar þessir hönnunarpakkar eru settir á vefsvæði geta höfundar vefsvæðisins lagt áherslu á að búa til, breyta og birta efni í stað þess að þróa vefinn.
 

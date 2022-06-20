@@ -1,8 +1,8 @@
 ---
 title: Rafræn skilaboð
-description: Þetta efnisatriði veitir yfirlit og upplýsingar um uppsetningu fyrir rafræn skilaboð í Microsoft Dynamics 365 Finance.
+description: Þessi grein veitir yfirlit og uppsetningarupplýsingar fyrir rafræn skilaboð í Microsoft Dynamics 365 Fjármál.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: HT
+ms.openlocfilehash: cf9ee77b2588283f0b34f2099d6f8d78e15a5af5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768340"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934718"
 ---
 # <a name="electronic-messaging"></a>Rafræn skilaboð
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna yfirlit og upplýsingar um uppsetningu fyrir virknina **Rafræn skilaboð** (EM).
+Þessi grein veitir yfirlit og uppsetningarupplýsingar fyrir **Rafræn skilaboð** (EM) virkni.
 
 Ríkisstjórnir og löggjafarvald í hinum ýmsu löndum og svæðum um allan heim hafa nýlega innleitt skýrslukröfur fyrir fyrirtæki sem eru skráð í þessum löndum og svæðum. Tilgangur kröfunnar er að gera það mögulegt að fá gögn frá þessum fyrirtækjum á rafrænu formi, beint frá kerfinu þar sem þau voru skráð, vistuð og unnin.
 
-Virknin fyrir rafræn skilaboð í Microsoft Dynamics 365 Finance styður ýmsa ferla rafrænnar samaðgerðar milli Finance og kerfanna sem ríkisstjórnir og löggjafarvald bjóða upp á hvað varðar skýrslugerð, afhendingu og móttöku á opinberum upplýsingum.
+EM virkni í Microsoft Dynamics 365 Finance styður ýmis ferli fyrir rafræna samvirkni milli Finance og þeirra kerfa sem stjórnvöld og löggjafaryfirvöld bjóða upp á til að tilkynna, senda inn og taka við opinberum upplýsingum.
 
 Virknin fyrir rafræn skilaboð er samþætt við eininguna **Rafræn skýrslugerð**. Hægt er að setja upp snið rafrænnar skýrslugerðar fyrir rafræn skilaboð. Frekari upplýsingar eru í [Rafræn skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
 
@@ -58,6 +58,16 @@ Virkni rafrænna skilaboða styður eftirfarandi aðstæður:
 - Geyma og yfirfara allar kladdaupplýsingar sem tengjast aðgerðum sem eru keyrðar fyrir skilaboð eða skilaboðaatriði.
 - Stjórna vinnslu í gegnum ýmsar stöður skilaboða og skilaboðaatriða.
 
+## <a name="security-privileges"></a>Öryggisréttindi
+
+Eftirfarandi öryggisréttindi eru í boði fyrir rafræn skilaboð.
+
+| Öryggisréttindi           | Aðgangsstig | Tengingar |
+|------------------------------|--------------|-------------|
+| Vinna með rafræn skilaboð | Þessi réttindi veita fullan aðgang að virkni rafrænna skilaboða. Ef þú ert með þessi réttindi getur þú sett upp rafræn skilaboð og keyrt alla úrvinnsluna. | Þessi réttindi eru innifalin í öryggisheimildinni **Vinna með VSK-færslur**. Sú aðgangsheimild er á móti einnig innifalin í öryggishlutverkinu **Bókhaldari**. |
+| Skoða rafræn skilaboð     | Þessi réttindi veita skrifvarinn aðgang að virkni rafrænna skilaboða. Ef þú ert með þessi réttindi getur þú skoðað stillingar rafrænna skilaboða og skilaboð. Hins vegar er ekki hægt að setja upp eða keyra neitt. | Þessi réttindi eru innifalin í öryggisheimildinni **Spyrjast fyrir um stöðu VSK-færslu**. Sú aðgangsheimild er á móti einnig innifalin í eftirfarandi öryggishlutverkum:<ul><li>Innheimtustjóri</li><li>Starfsmaður viðskiptakrafa</li><li>Viðskiptakröfustjóri</li><li>Skattaendurskoðandi</li><li>Bókhaldari</li><li>Bókhaldsstjóri</li><li>Yfirmaður bókhalds</li><li>Sölustjóri</li><li>Afgreiðslumaður viðskiptaskulda</li></ul> |
+| Keyra rafræn skilaboð  | Þessi réttindi veita aðeins aðgang að síðunum **Rafræn skilaboð** og **Rafræn skilaboðaatriði**. Ef þú ert með þessi réttindi getur þú keyrt alla úrvinnsluna sem kallað er á af þessum síðum. | Þessi réttindi eru innifalin í öryggisheimildinni **Stjórna rafrænum skilaboðum**. Sú aðgangsheimild er á móti einnig innifalin í öryggishlutverkinu **Stjórnandi rafrænna skilaboða**. |
+
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>Eftirlitseiginleikar ákveðins lands studdar af virkni rafrænna skilaboða
 
 Í eftirfarandi töflu eru upplýsingar um eftirlitseiginleika tiltekins lands sem eru studdir af virkni rafrænna skilaboða.
@@ -66,9 +76,9 @@ Virkni rafrænna skilaboða styður eftirfarandi aðstæður:
 |-------------|--------------|------------------------|
 | Spánn       | [Tafarlaus afhending upplýsinga um VSK (Suministro Inmediato de Información del IVA, SII)](../localizations/emea-esp-sii.md) | |
 | Ungverjaland     | [Reikningsfærslukerfi á netinu](../localizations/emea-hun-online-invoicing.md) | |
-| Bretland | [Skattur gerður stafrænn (MTD) – Innsending VSK-yfirlits](../localizations/emea-gbr-mtd-vat-integration.md) | [Finance and Operations: UK Digital Tax - VSK-skýrsla í Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
+| Bretland | [Skattur gerður stafrænn (MTD) – Innsending VSK-yfirlits](../localizations/emea-gbr-mtd-vat-integration.md) | [Fjármál og rekstur: stafrænn skattur í Bretlandi - VSK-yfirlýsing í Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
 | Litháen   | [i.SAF skýrslugerð](../localizations/emea-ltu-isaf.md) | |
-| Pólland      | [VSK-skýrsla ásamt afgreiðslukössum (JPK_V7M, VDEK)](../localizations/emea-pol-vdek.md) | [Dynamics 365 Finance: SAF/JPK VSK-eftirlitsskrár](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
+| Pólland      | [VSK-skýrsla ásamt afgreiðslukössum (JPK_V7M, VDEK)](../localizations/emea-pol-vdek.md) | [Dynamics 365 Finance: SAF/JPK VSK endurskoðunarskrár](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
 | Holland | [VSK-skýrsla fyrir Holland](../localizations/emea-nl-vat-declaration-netherlands.md) | |
 | Tékkland | [VSK-skýrsla](../localizations/emea-cze-vat-declaration-tax-declaration-model.md) | |
 | Brasilía      | [SPED-Reinf](../localizations/latam-bra-sped-reinf-overview.md) | |
@@ -78,7 +88,13 @@ Virkni rafrænna skilaboða styður eftirfarandi aðstæður:
 | Rússland      | [Áætluð skattskýrsla](../localizations/rus-assessed-tax-declaration.md) | |
 | Rússland      | [Flutningsskattsskýrsla](../localizations/rus-transport-tax-declaration.md) | |
 | Rússland      | [Lóðarskattsskýrsla](../localizations/rus-land-tax-declaration.md) | |
-
+| Noregur      | [VSK-skilagrein með beinni innsendingu til Altinn](../localizations/emea-nor-vat-return.md) | [Ný virðisaukaskattsskýrsla með beinni skilum til Altinn í Dynamics 365 Finance](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/new-vat-return-with-direct-submission-to-altinn-in-dynamics-365-finance-december-1-2021) |
+| Frakkland      | [VSK yfirlýsing (Frakkland)](../localizations/emea-fra-VAT-declaration-preview-France.md) | |
+| Austurríki     | [VSK yfirlýsing (Austurríki)](../localizations/emea-aut-vat-declaration-austria.md) | |
+| Þýskaland     | [VSK yfirlýsing (Þýskaland)](../localizations/emea-deu-vat-declaration-germany.md) | |
+| Holland | [VSK-skýrsla fyrir Holland](../localizations/emea-nl-vat-declaration-netherlands.md) | |
+| Svíþjóð      | [VSK yfirlýsing (Svíþjóð)](../localizations/emea-swe-VAT-declaration-Sweden.md) | |
+| Sviss | [VSK yfirlýsing (Sviss)](../localizations/emea-che-vat-declaration-switzerland.md) | |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

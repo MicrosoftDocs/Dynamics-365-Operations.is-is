@@ -1,6 +1,6 @@
 ---
 title: Tengja jaðarbúnað við sölustað (POS)
-description: Þessi efnisgrein fjallar um hvernig á að tengja jaðartæki við Retail POS.
+description: Þessi grein fjallar um hvernig á að tengja jaðartæki við Retail POS þinn.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f1c53c7215d3a5a182f345d5e040274ae06f9b12
-ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
+ms.openlocfilehash: ffee75e1713c7c9d31b1d023cd055c2f1a3fc43d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897109"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Tengja jaðarbúnað við sölustað (POS)
 
 [!include [banner](includes/banner.md)]
 
-Þessi efnisgrein fjallar um hvernig á að tengja jaðartæki við Retail POS.
+Þessi grein fjallar um hvernig á að tengja jaðartæki við Retail POS þinn.
 
 > [!NOTE]
 > Fyrir sérstakar leiðbeiningar um uppsetningu skal sjá [Stilla og setja upp Retail vélbúnaðarstöð](retail-hardware-station-configuration-installation.md) og [Stilla, setja upp og virkja Modern POS (MPOS)](retail-modern-pos-device-activation.md).
@@ -68,7 +68,7 @@ Leiðsögn: Farðu á **Verslun og verslun \> Rásir \> Búðir \> Allar verslan
 
 Vélbúnaðarstöð er tilvik af viðskiptagrunninn sem keyrir jaðartæki sölustaðar. Vélbúnaðarstöð er sjálfkrafa sett upp ásamt MPOS. Einnig er hægt að setja upp vélbúnaðarstöð sem stakan sjálfstæðan íhlut, og fá aðgagng með MPOS eða Cloud POS í gegnum vefþjónusta. Vélbúnaðarstöð þarf að skilgreina á stigi rásar.
 
-## <a name="scenarios"></a>Sviðsmyndir
+## <a name="scenarios"></a>Aðstæður
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>MPOS með tengda jaðartæki
 
@@ -80,7 +80,7 @@ Eftir að vélbúnaðarreglunni hefur verið úthlutað skal samstilla breytinga
 
 Næst skaltu setja upp sérstaka vélbúnaðarstöð á rásinni. Fara til **Verslun og verslun \> Rásir \> Búðir \> Allar verslanir**, og veldu verslun. 
 
-Síðan, á **Vélbúnaðarstöðvar** Flýtiflipi, veldu **Bæta við** að bæta við vélbúnaðarstöð. Veldu **Hollur** sem tegund vélbúnaðarstöðvar og sláðu síðan inn lýsingu. The **Vélbúnaðarsnið** má skilja reitinn eftir auð, vegna þess að vélbúnaðarsniðið sem er notað í þessari atburðarás kemur frá POS skránni sjálfri. Samstilltu síðan breytingarnar við rásina með því að nota **Rásarstillingar** dreifingaráætlun. Þú getur fundið dreifingaráætlanir á **Verslun og verslun \> Upplýsingatækni í smásölu og viðskiptum \> Dreifingaráætlun**. 
+Síðan, á **Vélbúnaðarstöðvar** Flýtiflipi, veldu **Bæta við** að bæta við vélbúnaðarstöð. Veldu **Hollur** sem tegund vélbúnaðarstöðvar, og sláðu síðan inn lýsingu. The **Vélbúnaðarsnið** má skilja reitinn eftir auð, vegna þess að vélbúnaðarsniðið sem er notað í þessari atburðarás kemur frá POS skránni sjálfri. Samstilltu síðan breytingarnar við rásina með því að nota **Rásarstillingar** dreifingaráætlun. Þú getur fundið dreifingaráætlanir á **Verslun og verslun \> Upplýsingatækni í smásölu og viðskiptum \> Dreifingaráætlun**. 
 
 Að lokum, í MPOS, notaðu **Veldu vélbúnaðarstöð** aðgerð til að velja vélbúnaðarstöðina sem passar við gildið sem þú slóst inn áður fyrir lýsinguna og stilltu vélbúnaðarstöðina á **Virkur**. 
 
@@ -157,7 +157,7 @@ Kvittunarsnið er úthlutað til prentara innan vélbúnaðarsniðsins. Þær er
 
 #### <a name="hardware-profiles"></a>Vélbúnaðarreglur
 
-Vélbúnaðarsnið eru útskýrð sem hluti fyrir uppsetningu viðskiptavinar fyrr í þessu efni. Vélbúnaðarsnið er úthlutað beint á POS skrána eða á sameiginlega vélbúnaðarstöð og eru notuð til að tilgreina gerðir tækja sem ákveðin POS skrá eða vélbúnaðarstöð notar. Vélbúnaðarreglur eru einnig notaðar til að tilgreina stillingar KORTAMILLIFÆRSLU sem eru notaðar til að eiga samskipti við greiðslu SDK.
+Vélbúnaðarreglur eru útskýrð sem íhlutur fyrir uppsetningu biðlara fyrr í þessum grein. Vélbúnaðarsnið er úthlutað beint á POS skrána eða á sameiginlega vélbúnaðarstöð og eru notuð til að tilgreina gerðir tækja sem ákveðin POS skrá eða vélbúnaðarstöð notar. Vélbúnaðarreglur eru einnig notaðar til að tilgreina stillingar KORTAMILLIFÆRSLU sem eru notaðar til að eiga samskipti við greiðslu SDK.
 
 #### <a name="visual-profiles"></a>Sjónrænar reglur
 

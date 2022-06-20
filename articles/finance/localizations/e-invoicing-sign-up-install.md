@@ -1,6 +1,6 @@
 ---
 title: Skráðu þig í og settu upp rafræna reikningaþjónustu
-description: Þetta efni veitir upplýsingar um hvernig á að skrá sig í og setja upp rafræna reikningaþjónustu.
+description: Þessi grein veitir upplýsingar um hvernig á að skrá sig í og setja upp rafræna reikningaþjónustu.
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ab16652e4a50dd71a5d0b2b49b4dd79e327f7a8
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 57314058883e60599bc51d91a65b0daeae724bb7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865527"
 ---
 # <a name="sign-up-for-and-install-the-electronic-invoicing-service"></a>Skráðu þig í og settu upp rafræna reikningaþjónustu
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni veitir upplýsingar um hvernig á að skrá sig í og setja upp rafræna reikningaþjónustu. Það eru fjögur skref í þessu ferli. Skref 1 til 3 eru nauðsynleg og skref 4 er valfrjálst.
+Þessi grein veitir upplýsingar um hvernig á að skrá sig í og setja upp rafræna reikningaþjónustu. Það eru fjögur skref í þessu ferli. Skref 1 til 3 eru nauðsynleg og skref 4 er valfrjálst.
 
 ### <a name="step-1-sign-up-for-regulatory-configuration-service"></a>Skref 1: Skráðu þig í Regulatory Configuration Service
 
@@ -38,7 +38,7 @@ Til að skrá þig í RCS skaltu fara á [Regulatory Configuration Service](http
 
 ### <a name="step-2-install-the-add-in-for-microservices-in-microsoft-dynamics-lifecycle-services"></a>Skref 2: Settu upp viðbótina fyrir örþjónustur í Microsoft Dynamics Lífsferilsþjónusta
 
-Rafræn reikningaþjónusta er safn örþjónustu sem er hýst í gagnaverum Microsoft. Sjálfgefið er að viðskiptavinir af Dynamics 365 Finance og Dynamics 365 Supply Chain Management hafa ekki aðgang að rafrænum reikningaþjónustu. Þú verður að setja það upp sem viðbót Microsoft Dynamics Lífsferilsþjónusta (LCS). Þegar þú setur upp viðbótina er fjármála- eða framboðskeðjuumhverfi þitt skráð í skrá yfir forrit sem hafa leyfi til að tengjast rafrænum reikningaþjónustu.
+Rafræn reikningaþjónusta er safn örþjónustu sem er hýst í gagnaverum Microsoft. Sjálfgefið er að viðskiptavinir Dynamics 365 Finance og Dynamics 365 Supply Chain Management hafa ekki aðgang að rafrænum reikningaþjónustu. Þú verður að setja það upp sem viðbót Microsoft Dynamics Lífsferilsþjónusta (LCS). Þegar þú setur upp viðbótina er fjármála- eða framboðskeðjuumhverfi þitt skráð í skrá yfir forrit sem hafa leyfi til að tengjast rafrænum reikningaþjónustu.
 
 Til að ljúka þessu skrefi, sjá [Settu upp viðbótina fyrir örþjónustur í Lifecycle Services](e-invoicing-install-add-in-microservices-lcs.md).
 

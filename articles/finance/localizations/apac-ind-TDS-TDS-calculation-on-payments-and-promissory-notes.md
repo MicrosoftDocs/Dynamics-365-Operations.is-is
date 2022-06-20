@@ -1,6 +1,6 @@
 ---
 title: TDS-útreikningur á greiðslum og eigin víxlum
-description: Í þessu efnisatriði eru veittar tilvísunarupplýsingar um mismunandi greiðslufærslur sem skattur dreginn frá upprunalegri greiðslu (TDS) er reiknaður fyrir.
+description: Þessi grein veitir tilvísunarupplýsingar um mismunandi greiðslufærslur sem Skattdreginn við uppruna (TDS) er reiknaður út frá.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7f38a8c4b0416abb10bfdaf95c3379e964e9a41e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: f5e9447924a17b96b7a4a5cdd1ef1547145d6ea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726463"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906319"
 ---
 # <a name="tds-calculation-on-payments-and-promissory-notes"></a>TDS-útreikningur á greiðslum og eigin víxlum
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði eru veittar tilvísunarupplýsingar um mismunandi greiðslufærslur sem skattur dreginn frá upprunalegri greiðslu (TDS) er reiknaður fyrir.
+Þessi grein veitir tilvísunarupplýsingar um mismunandi greiðslufærslur sem Skattdreginn við uppruna (TDS) er reiknaður út frá.
 
 | Raðnúmer | Færslugerð | Færsluupphæð | Síðuheiti og slóð | Gerð lykils og gerð mótlykils |
 |---------------|------------------|--------------------|--------------------|--------------------------------------|

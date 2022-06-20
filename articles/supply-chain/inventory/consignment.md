@@ -1,6 +1,6 @@
 ---
 title: Uppsetning vörusendingar
-description: Í þessu efnisatriði er útskýrt hvernig á að nota ferli vörusendingabirgða á innleið.
+description: Þessi grein útskýrir hvernig á að nota birgðaferla sendingar á innleið.
 author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4a1b96d18048a1ae6e380374f32d2bfa2270ae24
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
-ms.translationtype: MT
+ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577721"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872037"
 ---
 # <a name="set-up-consignment"></a>Uppsetning vörusendingar
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að nota ferli vörusendingabirgða á innleið.
+Þessi grein útskýrir hvernig á að nota birgðaferla sendingar á innleið.
 
-Vörusendingarbirgðir eru birgðir sem eru í eigu lánardrottinn en geymd á þínu svæði. Þegar þú ert tilbúinn að nota eða neyta birgða, tekurðu yfir eignarhald birgðanna. Þetta efni inniheldur upplýsingar um hvernig á að efnislega að taka á móti birgðum á lager í eigu lánardrottins án þess að stofna almenna fjárhagsfærslur, hvernig á að hefja framleiðsluferli þar sem birgðir í eigu lánardrottins má taka efnislega frá. og hvernig á að breyta eignarhaldi á hráefni til að vera fær um að vinna úr notkun sem hluta af vinnslu framleiðslupöntunar. Það er líka einhverjar upplýsingar um hvernig lánardrottinn getur fylgst notkun á birgðum þeirra með því að nota viðmót fyrir samstarf lánardrottna.
+Vörusendingarbirgðir eru birgðir sem eru í eigu lánardrottinn en geymd á þínu svæði. Þegar þú ert tilbúinn að nota eða neyta birgða, tekurðu yfir eignarhald birgðanna. Þessi grein inniheldur upplýsingar um hvernig eigi að taka á móti birgðum í eigu lánardrottins á hendi án þess að stofna fjárhagsfærslur, hvernig eigi að hefja framleiðsluferli þar sem birgðahald í eigu lánardrottins er efnislega frátekið. og hvernig á að breyta eignarhaldi á hráefni til að vera fær um að vinna úr notkun sem hluta af vinnslu framleiðslupöntunar. Það er líka einhverjar upplýsingar um hvernig lánardrottinn getur fylgst notkun á birgðum þeirra með því að nota viðmót fyrir samstarf lánardrottna.
 
 ## <a name="overview-of-the-consignment-process"></a>Yfirlit yfir ferli vörusendingar
 

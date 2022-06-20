@@ -1,6 +1,6 @@
 ---
 title: Aðferð við hálfsársafskriftir
-description: Þetta efnisatriði lýsir aðferðinni sem eignir nota til að reikna út afskriftir með hálfs ár reglu, sem reiknar út sex mánaða afskrift á fyrsta og síðasta þjónustuári eignarinnar.
+description: Þessi grein lýsir aðferðinni sem fastafjármunir nota til að reikna út afskriftir með hálfsársreglu, sem reiknar sex mánaða afskrift á fyrsta og síðasta ári eignar í notkun.
 author: moaamer
 ms.date: 08/17/2019
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: fb15a293bb8cec1b4faba7bcbd29eb4df7916786
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: fac20f7a31eca7922ed079f9554437f28448620d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720393"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879596"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Aðferð við hálfsársafskriftir
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Þetta efnisatriði lýsir aðferðinni sem er notuð í eignum til að reikna afskriftir með hálfs árs reglu. Hálfs ára regla reiknar út sex mánaða afskrift á fyrsta og síðasta þjónustuári eignarinnar. Frekari upplýsingar um afskriftarreglur eru í [Afskriftaaðferðir og hefðir](Fixed-asset-depreciation-conventions.md). 
+Þessi grein lýsir aðferðinni sem notuð er í varanlegum rekstrarfjármunum til að reikna út afskriftir með hálfsársreglu. Hálfs ára regla reiknar út sex mánaða afskrift á fyrsta og síðasta þjónustuári eignarinnar. Frekari upplýsingar um afskriftarreglur eru í [Afskriftaaðferðir og hefðir](Fixed-asset-depreciation-conventions.md). 
 
 Þegar þú notar sex mánaða afskriftarreglu notar kerfið kaupár eða það ár sem eignin var sett í þjónustu og reiknar síðan út fimm ára afskrift frá því ári og bætir svo við sex mánuðum.. Til að skýra þetta ferli skaltu ímynda þér eign sem var keypt fyrir 50.000 og sett í þjónustu í apríl 2020. Einnig skal gera ráð fyrir að eignin sé með fimm ára þjónustutíma.
 

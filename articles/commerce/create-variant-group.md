@@ -1,6 +1,6 @@
 ---
-title: Stofna afbrigðaflokk
-description: Þetta efnisatriði lýsir því hvernig á að stofna stærð, stíl eða litaafbrigðaflokk fyrir afurð í Microsoft Dynamics 365 Commerce.
+title: Búa til afbrigðaflokk
+description: Þessi grein lýsir því hvernig á að búa til stærð, stíl eða litafbrigðishóp fyrir vöru í Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 49e6860fa22bbfba8b86a8243fa29b831e22b489d967a45310648e5debd7512b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a46dc9fd5cdb848818964e771d373924b217147a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874962"
 ---
 # <a name="create-a-variant-group"></a>Búa til afbrigðaflokk
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að stofna stærð, stíl eða litaafbrigðaflokk fyrir afurð í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að búa til stærð, stíl eða litafbrigðishóp fyrir vöru í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
 Dynamics 365 Commerce styður mörg afbrigði fyrir vörur. Það er kjörið að setja upp afbrigðishópa fyrir mismunandi vöruflokka. Til dæmis er hægt að búa til stærðarhóp fyrir stuttermaboli með stærðunum extra small, small, medium, large og extra large, eða búa til litahóp til að innihalda alla tiltæka liti á vöru. Bæta skal við afbrigðishópum áður en afurðum er bætt við.
 
-Í þessu efni verður stærðarhópur búinn til og stilltur. Hægt er að nota svipaðar aðferðir til að bæta við og stilla stílahópa og litahópa.
+Í þessari grein verður stærðarhópur búinn til og stilltur. Hægt er að nota svipaðar aðferðir til að bæta við og stilla stílahópa og litahópa.
 
 ## <a name="create-a-size-group"></a>Stofna stærðarflokk
 

@@ -1,6 +1,6 @@
 ---
 title: Tillaga að riftun leigusamnings
-description: Í þessu efnisatriði er útskýrt hvernig á að leggja til riftun leigusamnings.
+description: Þessi grein útskýrir hvernig á að leggja til leigusamning til uppsagnar.
 author: moaamer
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2f6990177251418bece8c99a0f9befa333d6549f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: a5939f165943ff76ba453fb49d8c0c376c8ce4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720503"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879654"
 ---
 # <a name="propose-a-lease-for-termination"></a>Leggja til riftun á leigusamningi
 
 [!include [banner](../includes/banner.md)]
 
-Ef leigusamningi er rift snemma getur eignarleiga skráð riftunarfærslu í færslubók til að afskrifa leiguskuldbindinguna, afnotarétt af eign og uppsafnaðar afskriftir og bóka hagnað og tap. Snemmbúna riftunarferlið riftir leigusamningi og tengum leigubókum. Það riftir ekki einstökum leigubókum. Í þessu efnisatriði er lýst virkni sem gerir þér kleift að leggja til riftun á leigusamningi og vinna úr riftunarfærslu leigusamnings í færslubókinni.
+Ef leigusamningi er rift snemma getur eignarleiga skráð riftunarfærslu í færslubók til að afskrifa leiguskuldbindinguna, afnotarétt af eign og uppsafnaðar afskriftir og bóka hagnað og tap. Snemmbúna riftunarferlið riftir leigusamningi og tengum leigubókum. Það riftir ekki einstökum leigubókum. Þessi grein lýsir virkninni sem gerir þér kleift að leggja til leigusamning til uppsagnar og vinna úr færslubókarfærslu leigusamnings.
 
 Ef leigusamningur er ekki flokkaður sem frestaðar leigugreiðslur leigusamnings og tengist ekki eign mun eignarleiga búa til eftirfarandi riftunarfærslu í færslubók.
 
@@ -121,7 +121,7 @@ Eftirfarandi töflur sýna gildin sem eru stillt á flipunum **Almennt** og **Gr
 
 ### <a name="steps-for-terminating-the-lease"></a>Leiðbeiningar um riftun leigusamnings
 
-1. Þegar lokið er við að stofna leigusamninginn eins og lýst er fyrr í þessu efnisatriði er leigubókin opnuð og greiðsluáætlunin staðfest. Bókið síðan upphaflegu skráninguna í færslubókina. Upphaflegur afnotaréttur af eign er $71.235,81 og leiguskuldbinding á að vera $70.235,81. Í þessu dæmi var leigusamningurinn flokkaður sem rekstrarleigusamningur samkvæmt efnisatriði um skráningarkerfi reikningsskilastaðla 842 (ASC 842).
+1. Eftir að þú hefur búið til leigusamninginn eins og lýst er fyrr í þessari grein skaltu fara í leigubókina og staðfesta greiðsluáætlunina. Bókið síðan upphaflegu skráninguna í færslubókina. Upphaflegur afnotaréttur af eign er $71.235,81 og leiguskuldbinding á að vera $70.235,81. Í þessu dæmi var leigusamningurinn flokkaður sem rekstrarleigusamningur samkvæmt efnisatriði um skráningarkerfi reikningsskilastaðla 842 (ASC 842).
 2. Keyrið runubókarferlið þrisvar sinnum til að herma eftir framrás þriggja ára vegna leigugreiðslna, vaxtakostnaðar og afskriftarkostnaðar.
 3. Þegar keyrslu allra þriggja runuvinnslanna er lokið skal fara aftur í leigubókina og opna töflur skulda og eignarfærslna til að skoða núverandi bókfært virði afnotaréttar af eign og leiguskuldbindingar. Eftir þrjú ár ætti virði skuldarinnar að vera um -53.893,00 USD og virði eignarinnar að vera u.þ.b. 54.593,00 USD.
 

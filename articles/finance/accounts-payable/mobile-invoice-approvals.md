@@ -1,42 +1,42 @@
 ---
 title: Reikningssamþykktir í fartækjum
-description: Í þessu efnisatriði er ætlað að gefa praktíska nálgun til að hanna farsímaaðstæður með því að taka reikningssamþykktir fyrir fartæki sem notkunartilvik.
+description: Þessari grein er ætlað að veita hagnýta nálgun við hönnun farsímaatburða með því að taka samþykki lánardrottins reikninga fyrir farsíma sem notkunartilvik.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 83d95ef6d9fcff060ac992b11ab5773af075fea5409e43430b4826dc097570c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f635891e3d92fbd5978e10fe01eb67c0a28542c5
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737356"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946275"
 ---
 # <a name="mobile-invoice-approvals"></a>Reikningssamþykktir í fartækjum
 
 [!include [banner](../includes/banner.md)]
 
-Farsímageta gerir fyrirtækjanotenda kleift að hanna farsímaupplifun. Fyrir ítarlegri dæmi leyfir kerfið forriturum einnig að framlengja getu eins og þeir vilja. Skilvirkasta leiðin til að læra sum af nýju hugtökunum í fartæki er að fara gegnum ferlið að hanna ný dæmi. Í þessu efnisatriði er ætlað að gefa praktíska nálgun til að hanna farsímaaðstæður með því að taka reikningssamþykktir fyrir fartæki sem notkunartilvik. Þetta efnisatriði á að aðstoða við hönnun á öðrum frávikum á aðstæðum og einnig er hægt að nota það í öðrum aðstæðum sem eru ekki eru tengdar reikningum lánardrottins.
+Farsímageta gerir fyrirtækjanotenda kleift að hanna farsímaupplifun. Fyrir ítarlegri dæmi leyfir kerfið forriturum einnig að framlengja getu eins og þeir vilja. Skilvirkasta leiðin til að læra sum af nýju hugtökunum í fartæki er að fara gegnum ferlið að hanna ný dæmi. Þessari grein er ætlað að veita hagnýta nálgun við hönnun farsímaatburða með því að taka samþykki lánardrottins reikninga fyrir farsíma sem notkunartilvik. Þessi grein ætti að hjálpa þér að hanna önnur afbrigði af atburðarásinni og einnig er hægt að nota hana á aðrar aðstæður sem tengjast ekki reikningum lánardrottins.
 
 ## <a name="prerequisites"></a>Frumskilyrði
 
-| Skilyrði                                                                                            | lýsing                                                                                                                                                          |
-|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Skilyrði                                                                                            | Lýsing                       |
+|---------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | Fyrirframlestur farsímahandbókar                                                                                |[Fartækjaverkvangur](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Vertu viss um að þú sért að nota umhverfi sem er með útgáfu 1611 og uppfærslu verkvangs 3 (nóvember 2016).                   |
 | Setja upp bráðabót KB 3204341.                                                                              | Verkskráning getur skráð rangt tvær Loka skipanir fyrir felliglugga; þetta er innifalið í uppfærslu verkvangs 3 (uppfærsla nóvember 2016). |
 | Setja upp bráðabót KB 3207800.                                                                              | Þessi bráðabót leyfir að viðhengi séu skoðuð í farsímabiðlara; þetta er innifalið í uppfærslu verkvangs 3 (uppfærsla í nóvember 2016).           |
 | Setja upp bráðabót KB 3208224.                                                                              | Forritakóði fyrir farsímasamþykkt reiknings lánardrottins; þetta er innifalið í útgáfu 7.0.1 (maí 2016).                          |
-| Í tæki með Android eða iOS eða Windows sem er með farsímaforritið sem er uppsett. | Leita að forritinu í viðeigandi forritaverslun.                                                                                                                     |
+| Í tæki með Android eða iOS eða Windows sem er með farsímaforritið sem er uppsett. | Leita að forritinu í viðeigandi forritaverslun.                            |
 
 ## <a name="introduction"></a>Inngangur
 Farsímasamþykktir fyrir reikninga lánardrottins þurfa þrjár bráðabætur sem nefndar eru í hlutanum „Forkröfur“. Þessar bráðabætur veita ekki vinnusvæði fyrir reikningssamþykki. Til að læra hvað vinnusvæði er í samhengi við fartæki, skaltu lesa farsímahandbókina sem er nefnd í hlutanum „Forkröfur“. Vinnusvæði reikningssamþykkta verður að vera hannað. 
@@ -51,11 +51,11 @@ Hvert fyrirtæki skipuleggur og skilgreinir mismunandi viðskiptaferli fyrir rei
     -   Eru reikningarnir einnig með dreifingu fjárhagsupphæða í haus reiknings? Ef svo er, ættu þessar dreifingar á fjárhagsupphæð að vera tiltækar í tækinu?
 
     > [!NOTE]
-    > Þetta efnisatriði útskýrir ekki hvernig á að breyta dreifingu fjárhagsupphæða þar sem þessi virkni er ekki studd eins og stendur fyrir farsímaaðstæður.
+    > Þessi grein útskýrir ekki hvernig á að breyta bókhaldsdreifingum, vegna þess að þessi virkni er ekki studd eins og er fyrir farsímaatburðarás.
 
 -   Munu notendur vilja sjá viðhengi fyrir reikninginn í tækinu?
 
-Hönnun farsímareynslu fyrir reikningssamþykktir verður mismunandi, eftir því hver svörin verða við þessum spurningum. Markmiðið er að fínstilla reynslu notanda fyrir viðskiptaferli í fartæki innan fyrirtækisins. Í afganginum af þessu efnisatriði skoðum við tvær frávikaaðstæður sem byggjast á mismunandi svörum við spurningunum hér á undan. 
+Hönnun farsímareynslu fyrir reikningssamþykktir verður mismunandi, eftir því hver svörin verða við þessum spurningum. Markmiðið er að fínstilla reynslu notanda fyrir viðskiptaferli í fartæki innan fyrirtækisins. Í restinni af þessari grein munum við skoða tvö sviðsmyndafbrigði sem byggjast á mismunandi svörum við spurningunum á undan. 
 
 Almennt séð, þegar unnið er með farsímahönnuði, þarf að ganga úr skugga um að 'birta' breytingarnar til að koma í veg fyrir uppfærslur mistakist.
 

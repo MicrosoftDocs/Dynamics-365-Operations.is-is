@@ -1,6 +1,6 @@
 ---
 title: Vinnusvæði fyrir sjálfvirkni reiknings lánardrottins
-description: Þetta efnisatriði útskýrir hvernig á að setja upp vinnusvæðið sem tengist reikningum lánardrottna og sýnir upplýsingarnar sem eru í boði í gegnum Microsoft Power BI.
+description: Þessi grein útskýrir hvernig á að setja upp vinnusvæðið sem tengist reikningum lánardrottins og sem sýnir upplýsingarnar sem eru tiltækar í gegnum Microsoft Power BI.
 author: abruer
 ms.date: 02/14/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 2b74731a3283badad941e567e85f8a1644f6ad18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865802"
 ---
 # <a name="vendor-invoice-automation-workspace"></a>Vinnusvæði fyrir sjálfvirkni reiknings lánardrottins
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja upp vinnusvæðið sem tengist reikningum lánardrottna og sýnir upplýsingarnar sem eru í boði í gegnum Microsoft Power BI. Upplýsingar um reikning lánardrottins á þessu vinnusvæði eru afmarkaðar fyrir tiltekna notendur og eru sýndar á myndrænu sniði.
+Þessi grein útskýrir hvernig á að setja upp vinnusvæðið sem tengist reikningum lánardrottins og sem sýnir upplýsingarnar sem eru tiltækar í gegnum Microsoft Power BI. Upplýsingar um reikning lánardrottins á þessu vinnusvæði eru afmarkaðar fyrir tiltekna notendur og eru sýndar á myndrænu sniði.
 
 ## <a name="overview"></a>Yfirlit
 

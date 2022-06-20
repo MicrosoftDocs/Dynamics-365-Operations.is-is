@@ -1,6 +1,6 @@
 ---
 title: Stinga upp á eignakaupum
-description: Þetta efni lýsir hvernig á að kaupa eignir með því að nota kauptillögu í færslubók eigna.
+description: Þessi grein lýsir því hvernig á að eignast fastafjármuni með því að nota yfirtökutillöguna í Fastafjármunabókinni.
 author: moaamer
 ms.date: 03/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd54642e5ec6c56fbc3a5ebb07fc8fdaf5545926
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 35d2171dc828cb0227f310e81be1d3e3359f41c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725681"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909070"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>Stinga upp á eignakaupum
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni lýsir hvernig á að kaupa eignir með því að nota kauptillögu í færslubók eigna. Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila. Til að komast yfir eign í gegnum tillögubók eignar, þarf fyrst að stofna eignafærsluna og síðan skilgreina kaupverð í eignabókinni.
+Þessi grein lýsir því hvernig á að eignast fastafjármuni með því að nota yfirtökutillöguna í Fastafjármunabókinni. Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila. Til að komast yfir eign í gegnum tillögubók eignar, þarf fyrst að stofna eignafærsluna og síðan skilgreina kaupverð í eignabókinni.
 
 ## <a name="create-an-asset-acquisition-proposal"></a>Stofna tillögu að eignakaupum
 

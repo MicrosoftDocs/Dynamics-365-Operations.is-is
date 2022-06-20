@@ -1,6 +1,6 @@
 ---
 title: Bæta frammistöðu röðunarvélar
-description: Í þessu efnisatriði er að finna upplýsingar um röðunarvélina og hvernig á að bæta afköst.
+description: Þessi grein veitir upplýsingar um tímasetningarvélina og hvernig á að bæta árangur.
 author: t-benebo
 ms.date: 09/03/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 972e566153b7423398b2ad4a4e70b264f02c40cd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469007"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854298"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Bæta frammistöðu röðunarvélar
 
@@ -29,7 +29,7 @@ ms.locfileid: "8469007"
 
 Röðunarvél tilfanga er notuð þegar leiðir eru tímasettar fyrir áætlaðar og útgefnar framleiðslupantanir. Vélin var upphaflega gefin út sem hluti af Dynamics AX 2012 og hefur farið í gegnum nokkrar úrbætur frá útgáfu hennar.
 
-[Vandamál við tímasetningu verka](https://en.wikipedia.org/wiki/Job_shop_scheduling) er gríðarlega flókið vandamál samsetningar þar sem úrlausnartíminn tekur veldisvöxt með fjölda ákvörðunarbreyta. Oft og tíðum setja viðskiptavinir upp framleiðsluleiðir og tengd gögn þannig að úr verði vandamál við tímasetningu sem ekki er hægt að leysa innan viðunandi tíma, jafnvel fyrir nýjasta vélbúnaðinn. Þetta efnisatriði varpar betra ljósi á röðunarvélina og hvernig tiltekin uppsetning getur haft áhrif á afköstin.
+[Vandamál við tímasetningu verka](https://en.wikipedia.org/wiki/Job_shop_scheduling) er gríðarlega flókið vandamál samsetningar þar sem úrlausnartíminn tekur veldisvöxt með fjölda ákvörðunarbreyta. Oft og tíðum setja viðskiptavinir upp framleiðsluleiðir og tengd gögn þannig að úr verði vandamál við tímasetningu sem ekki er hægt að leysa innan viðunandi tíma, jafnvel fyrir nýjasta vélbúnaðinn. Þessi grein mun hjálpa þér að skilja tímasetningarvélina og hvernig tiltekin uppsetning getur haft áhrif á frammistöðu.
 
 Þegar kemur að því að bæta afköst áætlunargerðar mæla almennar viðmiðunarreglur með því að draga úr margbreytileika vandans sem vélin þarf að leysa. Sumir helstu þættir sem geta haft áhrif á afköst eru:
 

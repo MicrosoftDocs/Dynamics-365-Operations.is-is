@@ -1,6 +1,6 @@
 ---
-title: Losunarreglur
-description: Þetta efnisatriði veitir upplýsingar um losunarreglur og mismunandi valkosti fyrir skýrslugerð um losanir.
+title: Niðurfellingarreglur
+description: Þessi grein veitir upplýsingar um losunarreglur og mismunandi valkosti fyrir skýrslugerð um losanir.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e062e7541871d77803cbed475d715621b19537f1
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3eb3ea117959dbc51eb5666aad60299210ff3ac5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722634"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864311"
 ---
-# <a name="elimination-rules"></a>Losunarreglur
+# <a name="elimination-rules"></a>Niðurfellingarreglur
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um losunarreglur og mismunandi valkosti fyrir skýrslugerð um losanir.
+Þessi grein veitir upplýsingar um losunarreglur og mismunandi valkosti fyrir skýrslugerð um losanir.
 
 Útilokunarfærslna er krafist þegar yfirlögaðili stundar viðskipti við einn eða fleiri undirlögaðila og notar sameinaðar fjárhagsskýrslur. Samstæðureikningsskil verða að innihalda eingöngu færslur sem verða á milli sameinaðs fyrirtækis og annarra eininga utan þess fyrirtækis. Þess vegna verður að fjarlægja færslur á milli lögaðila sem eru hluti af sömu samstæðu eða sleppa þeim úr fjárhag svo að þær birtist ekki í fjárhagsskýrslum. Það eru margar leiðir til að tilkynna um losun:
 
@@ -34,7 +34,7 @@ ms.locfileid: "8722634"
 -   Fjárhagsskýrslu má nota til að sýna útilokunarlykla og víddir á tiltekinni röð eða dálki.
 -   Sérstakan lögaðila má nota til að bóka færslur handvirkt til að rekja losun.
 
-Þetta viðfangsefni leggur áherslu á losunarreglur sem eru myndaðar í samstæðu- eða losunarfyrirtæki. Þú getur sett upp losunarreglur til að búa til losunarfærslur í lögaðila sem er tilgreindur sem ákvörðunarlögaðili fyrir losun. Viðtökulögaðilann er einnig þekktur sem losunarlögaðili. Hægt er að mynda útilokunarbækur annaðhvort í samstæðuferlinu eða með því að nota tillögu útilokunarbókar. Áður en losunarreglur eru settar upp er gott að þekkja eftirfarandi hugtök:
+Þessi grein fjallar um afnámsreglur sem eru unnar í samstæðu- eða brottnámsfyrirtæki. Þú getur sett upp losunarreglur til að búa til losunarfærslur í lögaðila sem er tilgreindur sem ákvörðunarlögaðili fyrir losun. Viðtökulögaðilann er einnig þekktur sem losunarlögaðili. Hægt er að mynda útilokunarbækur annaðhvort í samstæðuferlinu eða með því að nota tillögu útilokunarbókar. Áður en losunarreglur eru settar upp er gott að þekkja eftirfarandi hugtök:
 
 -   **Upprunalegur lögaðili** - Lögaðili þar sem upphæðir sem á að eyða voru bókaðar.
 -   **Viðtökulögaðili** – Lögaðili þar sem losunarreglur eru bókaðar.

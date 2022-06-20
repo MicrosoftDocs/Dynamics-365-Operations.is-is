@@ -1,6 +1,6 @@
 ---
 title: Breyta líkani og vörpun til að búa til skjöl sem eru með forritsgögnum
-description: Í þessu efni er útskýrt hvernig á að hanna skilgreiningar skýrslugerðar til að mynda rafrænt skjal og uppfæra forritsgögn. (Hluti 2 - Mynda skjöl).
+description: Þessi grein lýsir því hvernig á að hanna skýrslustillingar til að búa til rafrænt skjal og uppfæra forritsgögn. (Hluti 2 - Mynda skjöl).
 author: NickSelin
 ms.date: 06/19/2017
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d7df46bab244d11509b86a27eeed3c2725400b5eb4d0fbf50af1750e7de45d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 797057112e9476389655b870fd729acd33d57e43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908298"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Breyta líkani og vörpun til að búa til skjöl sem eru með forritsgögnum
 

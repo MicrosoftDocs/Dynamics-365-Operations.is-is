@@ -1,6 +1,6 @@
 ---
 title: Sérstilla yfirlit svæðis
-description: Þetta efnisatriði lýsir því hvernig á að búa til sérsniðið yfirlitsstigveldi á netinu til að skipuleggja vörur fyrir vafra á Microsoft Dynamics 365 Commerce svæðinu.
+description: Þessi grein lýsir því hvernig á að búa til sérsniðið leiðsagnarstigveldi á netinu til að skipuleggja vörurnar þínar til að vafra á þínum Microsoft Dynamics 365 Commerce síða.
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8af68fff17f2f92356ade356da0e75867ed54950d744c6cbe730ad8db4ac3975
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 60aaae397501269be55f5ef75e4314b4e1f0b252
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755883"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863462"
 ---
 # <a name="customize-site-navigation"></a>Sérstilla yfirlit svæðis
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að búa til sérsniðið yfirlitsstigveldi á netinu til að skipuleggja vörur fyrir vafra á Microsoft Dynamics 365 Commerce svæðinu.
+Þessi grein lýsir því hvernig á að búa til sérsniðið leiðsagnarstigveldi á netinu til að skipuleggja vörurnar þínar til að vafra á þínum Microsoft Dynamics 365 Commerce síða.
 
 Vefverslanir á netinu láta viðskiptavini gjarnan uppgötva og skoða vörur með því að fletta í gegnum vöruflokka. Þessi geta er yfirleitt til staðar með flipum efst á síðunni eða með stýristiku vinstra megin. Í Dynamics 365 Commerce geturðu stofnað og stjórnað stigveldisskipulagi flokksleiðsagnar þinna og vörunum sem eru í ýmsum flokkum.
 

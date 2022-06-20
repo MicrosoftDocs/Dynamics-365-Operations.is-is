@@ -1,6 +1,6 @@
 ---
 title: Hafist handa með rafrænar reikningsfærslur fyrir Ítalíu
-description: Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Ítalíu.
+description: Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Ítalíu.
 author: gionoder
 ms.date: 09/22/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c0197ff9d93833aa50fef56ec597fa0c904d792d
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: a04866cef56aaa6f52a0177fae8c1e4f8fc6e70e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313647"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908983"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Hafist handa með rafrænar reikningsfærslur fyrir Ítalíu
 
@@ -30,13 +30,13 @@ ms.locfileid: "8313647"
 
 
 > [!IMPORTANT]
-> Rafræn reikningsfærsla fyrir Ítalíu styður eins og er hugsanlega ekki allar aðgerðir sem eru í boði fyrir rafræna reikningsfærslu í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management. 
+> Rafræn reikningagerð fyrir Ítalíu styður ef til vill ekki allar aðgerðir sem eru tiltækar fyrir rafræna reikninga í Microsoft Dynamics 365 Fjármál og Dynamics 365 Supply Chain Management. 
 
-Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Ítalíu. Það leiðir notandann í gegnum grunnstillingarskrefin sem fara eftir hverju landi fyrir sig í Regulatory Configuration Services (RCS) og Finance. Það leiðir notandann einnig í gegnum ferlið til að senda inn rafræna reikninga sem eru myndaðir á ítalska sniðinu **FatturaPA** í gegnum þjónustuna og það útskýrir hvernig á að yfirfara niðurstöður vinnslunnar.
+Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Ítalíu. Það leiðir notandann í gegnum grunnstillingarskrefin sem fara eftir hverju landi fyrir sig í Regulatory Configuration Services (RCS) og Finance. Það leiðir notandann einnig í gegnum ferlið til að senda inn rafræna reikninga sem eru myndaðir á ítalska sniðinu **FatturaPA** í gegnum þjónustuna og það útskýrir hvernig á að yfirfara niðurstöður vinnslunnar.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en farið er í gegnum skrefin í þessu efnisatriði þarf að ljúka skrefunum í [Hafist handa með rafrænni reikningsfærslu](e-invoicing-get-started.md).
+Áður en þú lýkur skrefunum í þessari grein verður þú að klára skrefin í [Byrjaðu með rafræna reikningagerð](e-invoicing-get-started.md).
 
 ## <a name="rcs-setup"></a>RCS-uppsetning
 
@@ -203,7 +203,7 @@ Við úrvinnslu í Finance verður lokið við þessi verk:
 Hægt er að senda skjölin inn handvirkt, út frá eftirspurn eftir skjölum rafrænna reikninga.
 
 > [!NOTE]
-> Áður en haldið er áfram skal ganga úr skugga um að uppsetningunni sem krafist er fyrir ítalska rafræna reikninga sé lokið. Frekari upplýsingar er að finna í [Rafrænir reikningar viðskiptavinar](./emea-ita-e-invoices.md). Hafa skal í huga að einhver uppsetningarskref sem lýst er í því efnisatriði kunna að vera ekki í boði vegna virkjunar á rafrænni reikningsfærslu.
+> Áður en haldið er áfram skal ganga úr skugga um að uppsetningunni sem krafist er fyrir ítalska rafræna reikninga sé lokið. Frekari upplýsingar er að finna í [Rafrænir reikningar viðskiptavinar](./emea-ita-e-invoices.md). Athugaðu að sum uppsetningarskrefanna sem lýst er í þeirri grein gætu verið ekki tiltæk vegna rafrænnar reikningsvirkjunar.
 
 1. Farið í **Fyrirtækisstjórnun \> Reglubundið \> Rafræn skjöl \> Senda inn rafræn skjöl**.
 2. Fyrir fyrstu innsendingu á skjali skal stilla valkostinn **Senda skjöl inn aftur** á **Nei**. Ef senda þarf skjal inn aftur í gegnum þjónustuna skal stilla þennan valkost á **Já**.

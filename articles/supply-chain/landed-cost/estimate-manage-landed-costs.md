@@ -1,6 +1,6 @@
 ---
 title: Áætla og stjórna heildarkostnaði
-description: Kerfið notar sjálfvirka kostnaðaruppsetningu til að ákvarða mat fyrir heildarkostnað. Þetta efnisatriði útskýrir hvernig hægt er að skilgreina ýmsar aðstæður til að skila nákvæmari áætlun.
+description: Kerfið notar sjálfvirka kostnaðaruppsetningu til að ákvarða mat fyrir heildarkostnað. Þessi grein útskýrir hvernig þú getur skilgreint ýmsar aðstæður til að skila nákvæmara mati.
 author: Weijiesa
 ms.date: 01/26/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 630fb9dc8e7954fcbc4f54941d81de1caa657676
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2e7cdd7c7439a24ec75a59bcee1e8f42f37bb2cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854442"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Áætla og stjórna heildarkostnaði
 
@@ -50,7 +50,7 @@ Eftirfarandi tafla lýsir eritinum sem eru tiltæk fyrir hvert sniðmát.
 
 Nota skal svarglugga **Kostnaðarmats** til að mynda nýja kostnaðaráætlun sem byggir á völdu kostnaðarsniðmáti, völdum vörum og öðrum upplýsingum um ferð. Þessar stillingar eru svo notaðar til að ákvarða áætlaðan heildarkostnað á vörum. Þetta kostnaðarmat er aðallega notað til að vinna með staðlaðar kostnaðarvörur. Með því að bæta áætluðum heildarkostnaði við staðalkostnað á vörum í birgðum ættu minni fráviksfærslur að koam upp þegar vörunum er bætt við ferð vegna þess að staðalkostnaðurinn endurspeglar áætlanir fyrir þennan heildarkostnað.
 
-Til að opna svargluggann **Kostnaðarmat** skal fara í **Heildarkostnaður \> Reglubundin verk \> Kostnaðarmat**. Síðan skal stilla reitina sem lýst er í eftirfarandi undirköflum. Veljið **Í lagi** til að búa til matið. Síðan **Kostnaðarmat** (**Heildarkostnaður \> Fyrirspurnir \> Kostnaðarmat**) birtist þá og sýnir nýja matið eins og lýst er síðar í þessu efnisatriði.
+Til að opna svargluggann **Kostnaðarmat** skal fara í **Heildarkostnaður \> Reglubundin verk \> Kostnaðarmat**. Síðan skal stilla reitina sem lýst er í eftirfarandi undirköflum. Veljið **Í lagi** til að búa til matið. The **Kostnaðaráætlun** síða (**Landaður kostnaður \> Fyrirspurnir \> Kostnaðaráætlanir**) birtist síðan og sýnir nýja matið þitt, eins og lýst er síðar í þessari grein.
 
 ### <a name="settings-on-the-parameters-tab"></a>Stillingar á flipanum færibreytur
 
@@ -91,7 +91,7 @@ Til að skoða eða breyta upplýsingum um rúmmál og/eða þyngd fyrir vöru s
 
 ## <a name="manage-estimated-costs"></a>Stjórna áætluðum kostnaði
 
-Til að skoða og breyta kostnaðarmati sem hefur verið stofnað skal fara í **Heildarkostnaður \> Fyrirspurnir \> Kostnaðarmat**. Á síðunni **Kostnaðarmat** sýnir listasvæðið vinstra megin allt kostnaðarmat. Hægt er að nota hnappana á aðgerðasvæðinu til að vinna með valið mat. Athugið að ekki er hægt að stofna nýja kostnaðaráætlun af síðunni **Kostnaðarmat**. Í staðinn skal nota svargluggann **Kostnaðarmat** (**Heildarkostnaður \> Reglubundin verk \> Kostnaðarmat**) eins og lýst var fyrr í þessu efnisatriði.
+Til að skoða og breyta kostnaðarmati sem hefur verið stofnað skal fara í **Heildarkostnaður \> Fyrirspurnir \> Kostnaðarmat**. Á síðunni **Kostnaðarmat** sýnir listasvæðið vinstra megin allt kostnaðarmat. Hægt er að nota hnappana á aðgerðasvæðinu til að vinna með valið mat. Athugið að ekki er hægt að stofna nýja kostnaðaráætlun af síðunni **Kostnaðarmat**. Í staðinn skaltu nota **Kostnaðaráætlun** svargluggi (**Landaður kostnaður \> Reglubundin verkefni \> Kostnaðaráætlun**), eins og lýst er fyrr í þessari grein.
 
 Síðan **Kostnaðarmat** sýnir hvernig hver áætlaður kostnaður var afleiddur. Hún sýnir einnig áætlaðan heildarkostnað fyrir hverja vöru. Hægt er að breyta kostnaðaráætlun með því að breyta kostnaðarverði og/eða gjaldmiðli sem tengist hinum ýmsu vörum. Einnig er hægt að breyta tengdum ferðakostnaði á öllum stigum ferðar og gáma. Þegar þessi síða er notuð til að breyta kostnaði er beðið um að endurreikna áætlaðan kostnað fyrir vörurnar í kostnaðarmatinu. Þegar þetta er tilbúið er hægt að nota áætlanir til að uppfæra kostnaðarverð varanna í kostnaðarsniðmátinu.
 

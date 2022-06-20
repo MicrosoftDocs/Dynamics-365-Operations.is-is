@@ -1,6 +1,6 @@
 ---
 title: Setja upp rafræn skilaboð
-description: Þetta efnisatriði veitir upplýsingar um hvernig á að setja upp virkni rafrænna skilaboða.
+description: Þessi grein veitir upplýsingar um hvernig á að setja upp rafræn skilaboð (EM) virkni.
 author: liza-golub
 ms.date: 11/18/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 652d8684473d1c1505a80eb1d860c57a214b9488
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6ac6e4fbc37165a3126de3b1f937a43c980410b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734220"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874552"
 ---
 # <a name="set-up-electronic-messages"></a>Setja upp rafræn skilaboð
 
@@ -66,7 +66,7 @@ Eftirfarandi tafla lýsir reitunum á síðunni **Skilaboðastöður**.
 |---------------------|-------------|
 | Staða boða      | Færið inn einkvæmt heiti fyrir stöðu skilaboðs. Skilaboðastöður eru notaðar til að einkenna stöðu rafrænna skilaboða á hverju augnabliki fyrir sig. Nafnið sem þú slærð inn birtist á síðunni **Rafræn skilaboð** og í kladda sem tengist rafrænum skilaboðum. |
 | Lýsing         | Færa inn lýsingu á skilaboðastöðunni. |
-| Gerð svars       | Veldu svargerðina fyrir skilaboðastöðuna. Sumar aðgerðir í vinnslu geta gefið af sér fleiri en eina gerð svars. Til dæmis getur aðgerð af gerðinni **Vefþjónusta** gefið svör af annaðhvort gerðinni **Framkvæmd heppnaðist** eða gerðinni **Tæknileg villa**, fer eftir niðurstöðu keyrslunnar. Í þessu tilviki skal skilgreina skilaboðastöður fyrir báðar svargerðirnar. Frekari upplýsingar um gerðir aðgerða og gerðir svara sem tengjast þeim er að finna í [Gerðir úrvinnsluaðgerðar skilaboða](#action-types) síðar í þessu efnisatriði. |
+| Gerð svars       | Veldu svargerðina fyrir skilaboðastöðuna. Sumar aðgerðir í vinnslu geta gefið af sér fleiri en eina gerð svars. Til dæmis getur aðgerð af gerðinni **Vefþjónusta** gefið svör af annaðhvort gerðinni **Framkvæmd heppnaðist** eða gerðinni **Tæknileg villa**, fer eftir niðurstöðu keyrslunnar. Í þessu tilviki skal skilgreina skilaboðastöður fyrir báðar svargerðirnar. Fyrir frekari upplýsingar um gerðir aðgerða og tegundir svara sem tengjast þeim, sjáðu [Gerðir aðgerða fyrir skilaboðavinnslu](#action-types) kafla síðar í þessari grein. |
 | Staða skilaboðaatriðis | Stundum verður staða á rafrænum skilaboðum að hafa áhrif á stöðu tengdra skilaboðaatriða. Veldu stöðu skilaboðaatriðis í þessum reit til að tengja hana við skilaboðastöðu. |
 | Leyfa eyðingu        | Veldu þennan reit ef notendur ættu að geta eytt rafrænum skilaboðum sem hafa þessa stöðu á síðunni **Rafræn skilaboð**. |
 
@@ -240,7 +240,7 @@ Eftirfarandi töflur lýsa svæðunum á síðunni **Úrvinnsluaðgerðir skilab
 
 | Svæði                                     | lýsing |
 |-------------------------------------------|-------------|
-| Gerð aðgerðar                               | Veljið þessa gerð aðgerðar. Upplýsingar um tiltæka valkosti eru í kaflanum [Gerðir úrvinnsluaðgerða skilaboða](#action-types) seinna í þessu efnisatriði. |
+| Gerð aðgerðar                               | Veljið þessa gerð aðgerðar. Fyrir upplýsingar um tiltæka valkosti, sjá [Gerðir aðgerða fyrir skilaboðavinnslu](#action-types) kafla síðar í þessari grein. |
 | Sniðsvörpun                            | Veljið snið rafrænnar skýrslugerðar sem á að kalla á fyrir aðgerðina. Þetta svæði er aðeins í boði fyrir aðgerðir af gerðunum **Útflutningur á rafrænum skýrslum**, **Innflutningur á rafrænum skýrslum** og **Útflutningsskilaboð rafrænna skýrslna**. |
 | Sniðsvörpun fyrir vefslóð               | Veljið snið rafrænnar skýrslugerðar sem á að kalla á fyrir aðgerðina. Þetta snið er notað til að búa til slóð vefslóðarinnar sem verður bætt við grunnveffangið sem er tilgreint fyrir valinn vefþjón. Þetta svæði er aðeins í boði fyrir aðgerðir af gerðinni **Vefþjónusta**. |
 | Gerð skilaboðaatriðis                         | Veljið færslugerðir sem meta á aðgerðina fyrir. Þetta svæði er aðeins í boði fyrir aðgerðir af gerðunum **Framkvæmdastig skilaboðaatriða**, **Útflutningur á rafrænum skýrslum**, **Innflutningur á rafrænum skýrslum** og **Vefþjónusta** og fyrir aðrar gerðir. Ef þetta svæði er skilið eftir autt verða allar gerðir skilaboðaatriða metnar sem eru skilgreindar fyrir úrvinnslu skilaboða. |

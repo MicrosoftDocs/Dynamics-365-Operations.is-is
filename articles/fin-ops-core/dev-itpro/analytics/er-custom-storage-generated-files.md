@@ -1,6 +1,6 @@
 ---
 title: Tilgreina sérsniðinn geymslustað fyrir mynduð skjöl
-description: Þetta efnisatriði útskýrir hvernig á að stækka listann yfir geymslustaði fyrir skjöl sem snið rafrænnar skýrslugerðar myndar.
+description: Þessi grein útskýrir hvernig á að lengja listann yfir geymslustaðsetningar fyrir skjöl sem eru búin til með rafrænum skýrslugerðum (ER).
 author: NickSelin
 ms.date: 10/29/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 103a7e51fc6042e19b1db3b3d6b00436df15fd89
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594910"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898857"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Tilgreina sérsniðinn geymslustað fyrir mynduð skjöl
 
 [!include[banner](../includes/banner.md)]
 
-Forritunarviðmót forritsins (API) fyrir ramma rafrænnar skýrslugerðar gerir þér kleift að stækka listann yfir geymslustaði fyrir skjöl sem snið rafrænnar skýrslugerðar myndar. Þetta efnisatriði útskýrir hvernig á að bæta við sérstilltum geymslustað fyrir mynduð skjöl með því að úthluta verkinu fyrir stofnun viðtökustaða rafrænnar skýrslugerðar í sjálfgefinni staðsetningu verksmiðju og síðan innleiða sérstilltan klasa sem er með sína eigin reglu um endastað.
+Forritunarviðmót forritsins (API) fyrir ramma rafrænnar skýrslugerðar gerir þér kleift að stækka listann yfir geymslustaði fyrir skjöl sem snið rafrænnar skýrslugerðar myndar. Þessi grein útskýrir hvernig á að bæta við sérsniðnum geymslustað fyrir mynduð skjöl með því að framselja það verkefni að búa til ER áfangastaði til sjálfgefna áfangastaðsverksmiðjunnar og útfæra síðan sérsniðna flokk sem hefur sína eigin áfangastaðarfræði.
 
 ## <a name="prerequisites"></a>Forkröfur
 
@@ -35,7 +35,7 @@ Setja upp grannfræði sem styður samfellda smíði. Nánari upplýsingar er a�
 
 Þú verður einnig að hafa aðgang að þróunarumhverfi fyrir þessa grannfræði.
 
-Hægt er að ljúka verkunum í þessu efnisatriði í fyrirtækinu **USMF**.
+Öll verkefnin í þessari grein er hægt að klára í **USMF** fyrirtæki.
 
 ## <a name="import-the-fixed-asset-roll-forward-er-format"></a>Flytja inn rafrænt skýrslugerðarsnið fyrir framlengingu eignar
 

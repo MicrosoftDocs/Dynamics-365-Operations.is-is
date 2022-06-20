@@ -1,6 +1,6 @@
 ---
 title: Leitarniðurstöðueining
-description: Þetta efnisatriði fjallar um leitarniðurstöðueiningar og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um einingar fyrir leitarniðurstöður og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: dcf3dedbb7c499135bbae45b917153854ecd4a28
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
-ms.translationtype: MT
+ms.openlocfilehash: d026de098ec182e3f7631c1c19e54b3b36db341f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886959"
 ---
 # <a name="search-results-module"></a>Leitarniðurstöðueining
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Þetta efnisatriði fjallar um leitarniðurstöðueiningar og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um einingar fyrir leitarniðurstöður og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 
 Leitarniðurstöðueiningin skilar leitarniðurstöðum afurðar og lista yfir viðeigandi afmarkanir fyrir afurðirnar. Hægt er að nota leitarniðurstöðueiningar á svæðinu Dynamics 365 Commerce til að birta síður fyrir eftirfarandi aðstæður:
 
@@ -89,7 +89,7 @@ Fylgdu þessum skrefum til að bæta leitarniðurstöðueiningu við flokkasíð
 
 ## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Virkja birgðavitneskju fyrir einingu leitarniðurstöðu
 
-Viðskiptavinir búast almennt við að vefsíðan fyrir rafræn viðskipti sé meðvituð um birgðahald í gegnum vafraupplifunina, svo að þeir geti ákveðið hvað þeir eigi að gera ef engar birgðir eru fyrir vöru. Hægt er að stilla leitarniðurstöðueininguna til að fella inn birgðagögn og veita eftirfarandi upplifun:
+Viðskiptavinir búast almennt við að vefsíðan fyrir rafræn viðskipti sé meðvituð um birgðahald í gegnum vafraupplifunina, svo að þeir geti ákveðið hvað þeir eigi að gera ef engar birgðir eru til fyrir vöru. Hægt er að stilla leitarniðurstöðueininguna til að fella inn birgðagögn og veita eftirfarandi reynslu:
 
 - Sýndu birgðamiða ásamt vörunni.
 - Fela vörur sem eru ekki á lager af vörulistanum.
@@ -110,7 +110,7 @@ Til að búa til sérstaka vörueiginleika til að styðja við birgðameðvita�
 1. Í svarglugganum skaltu slá inn eftirfarandi upplýsingar:
 
     1. Í **Vörueiginleiki og tegundarheiti** reit, tilgreindu heiti fyrir sérstaka vörueigind sem verður búin til til að fanga birgðagögn.
-    1. Í **Birgðaframboð byggt á** reit, veldu magntegundina sem útreikningur birgðastigs ætti að byggja á (td.**Í boði líkamlegt**). 
+    1. Í **Birgðaframboð byggt á** reit skaltu velja magntegundina sem útreikningur birgðastigs ætti að byggja á (td.**Í boði líkamlegt**). 
 
 1. Keyrðu verkið í bakgrunni. Vegna þess að vörubirgðir breytast stöðugt í umnichannel umhverfi, mælum við eindregið með því að þú tímasetur þetta verk sem runuferli.
 

@@ -1,6 +1,6 @@
 ---
 title: Prentari ER-gerð áfangastaðar
-description: Þetta efnisatriði útskýrir hvernig á að skilgreina viðtökuprentara tölvupósts fyrir hvern MÖPPU- eða SKRÁARHLUTA rafræns skýrslugerðarsniðs.
+description: Þessi grein útskýrir hvernig þú getur stillt áfangastað fyrir prentara fyrir hvern Möppu eða SKRÁ hluta á rafrænu skýrslusniði (ER).
 author: NickSelin
 ms.date: 02/14/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2513fc4f86519c71602089cd46e9757813b1a708
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 826455d0901a45ef26755fd323ee2a2737b5eec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388289"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845571"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Viðtökustaður prentara
 
@@ -34,7 +34,7 @@ ms.locfileid: "8388289"
 
 ## <a name="make-the-printer-destination-available"></a>Gerðu prentaramiðstöðina tiltækan
 
-Til að gera **Prentari** ákvörðunarstaður í boði í núverandi tilviki Microsoft Dynamics 365 Finance, farðu á vinnusvæði **Stjórnun eiginleika** og kveiktu á eftirfarandi aðgerðum, í þessari röð:
+Til að gera **Prentari** áfangastaður í boði í núverandi tilviki Microsoft Dynamics 365 Fjármál, farðu í **Eiginleikastjórnun** vinnusvæði og kveiktu á eftirfarandi eiginleikum, í þessari röð:
 
 1. Umbreyta fylgiskjölum rafrænnar skýrslugerðar á útleið úr Microsoft Office-sniði í PDF
 2. Miðlari skjalasendingar sem viðtökustaður rafrænnar skýrslugerðar fyrir fylgiskjöl á útleið
@@ -45,20 +45,20 @@ Til að gera **Prentari** ákvörðunarstaður í boði í núverandi tilviki Mi
 
 #### <a name="pdf-printing"></a>PDF prentun
 
-Í útgáfum af Finance fyrir útgáfu 10.0.18 er **Prentari** áfangastað er aðeins hægt að stilla fyrir skráaríhluti sem eru notaðir til að búa til úttak á prentanlegu PDF sniði (**PDF samruni** eða **PDF skjal** sniðsþættir) eða Microsoft Office Excel og Word sniði (**Excel skrá** sniðþáttur). Þegar úttakið er búið til á PDF formi er það sent í prentara. Þegar úttakið er búið til á Office sniði með því að nota **Excel skrá** Format frumefni, er því sjálfkrafa breytt í PDF snið og síðan sent í prentara.
+Í útgáfum af Finance fyrir útgáfu 10.0.18 er **Prentari** áfangastað er aðeins hægt að stilla fyrir skráaríhluti sem eru notaðir til að búa til úttak á prentanlegu PDF sniði (**PDF samruni** eða **PDF skjal** sniðsþættir) eða Microsoft Office Excel og Word sniði (**Excel skrá** sniðþáttur). Þegar úttakið er búið til á PDF formi er það sent í prentara. Þegar úttakið er búið til á Office sniði með því að nota **Excel skrá** format frumefni, er því sjálfkrafa breytt í PDF snið og síðan sent í prentara.
 
-Hins vegar, frá og með útgáfu 10.0.18, geturðu stillt **Prentari** áfangastaður fyrir **Algeng skrá** sniðþáttur. Þessi sniðþáttur er aðallega notaður til að búa til úttak á annað hvort TXT eða XML sniði. Þú getur stillt ER snið sem inniheldur **Algeng skrá** sniðsþáttur sem rótsniðsþáttur og **Tvöfaldur innihald** sniðeining sem eina hreiðra þátturinn undir því. Í þessu tilviki er **Algeng skrá** format frumefni mun framleiða úttak á því sniði sem er tilgreint af bindingunni sem þú stillir fyrir **Tvöfaldur innihald** sniðþáttur. Til dæmis geturðu stillt þessa bindingu til [fylla út](tasks/er-document-management-files-5.md#modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format) þessi þáttur með innihaldi a [Skjalastjórnun](../../fin-ops/organization-administration/configure-document-management.md) viðhengi á PDF eða Office (Excel eða Word) formi. Þú getur prentað út úttakið með því að nota stillt **Prentari** áfangastað. 
+Hins vegar, frá og með útgáfu 10.0.18, geturðu stillt **Prentari** áfangastaður fyrir **Algeng skrá** sniðþáttur. Þessi sniðþáttur er aðallega notaður til að búa til úttak á annað hvort TXT eða XML sniði. Þú getur stillt ER snið sem inniheldur **Algeng skrá** sniðsþáttur sem rótsniðsþáttur og **Tvöfaldur innihald** sniðeining sem eina hreiðra þátturinn undir því. Í þessu tilviki er **Algeng skrá** format frumefni mun framleiða úttak á því sniði sem er tilgreint af bindingunni sem þú stillir fyrir **Tvöfaldur innihald** sniðþáttur. Til dæmis geturðu stillt þessa bindingu á [fylla út](tasks/er-document-management-files-5.md#modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format) þessi þáttur með innihaldi a [Skjalastjórnun](../../fin-ops/organization-administration/configure-document-management.md) viðhengi á PDF eða Office (Excel eða Word) formi. Þú getur prentað út úttakið með því að nota stillt **Prentari** áfangastað. 
 
 > [!NOTE]
 > Þegar þú velur **Sameiginlegt\\ Skrá** sniðþáttur til að stilla **Prentari** áfangastað, er engin leið til að tryggja, á hönnunartíma, að valinn þáttur muni framleiða úttak á PDF formi eða úttak sem hægt er að breyta í PDF formi. Þess vegna færðu eftirfarandi viðvörunarskilaboð: "Vinsamlegast, vertu viss um að hægt sé að breyta úttakinu sem er búið til af völdum sniði í PDF. Annars skaltu taka hakið úr 'Breyta í PDF' valkostinn." Þú verður að gera ráðstafanir til að koma í veg fyrir vandamál með keyrslutíma þegar úttak sem ekki er PDF- eða PDF-breytanlegt er gefið til prentunar á keyrslutíma. Ef þú býst við að fá úttak á Office (Excel eða Word) sniði, **Umbreyta í PDF** valkostur verður að vera valinn.
 >
-> Í útgáfu 10.0.26 og síðar, til að nota **Umbreyta í PDF** valmöguleika, þú verður að velja **PDF** fyrir **Tegund skjalaleiðar** færibreytu stillingarinnar **Prentari** áfangastað.
+> Í útgáfu 10.0.26 og síðar, til að nota **Umbreyta í PDF** valmöguleika, þú verður að velja **PDF** fyrir **Tegund skjalaleiðar** færibreytu stilltu **Prentari** áfangastað.
 
 #### <a name="zpl-printing"></a>ZPL prentun
 
 Í útgáfu 10.0.26 og síðar geturðu stillt **Prentari** áfangastaður fyrir **Sameiginlegt\\ Skrá** snið frumefni með því að velja **ZPL** fyrir **Tegund skjalaleiðar** breytu. Í þessu tilviki er **Umbreyta í PDF** valkosturinn er hunsaður á keyrslutíma og TXT eða XML úttakið er sent beint á valinn prentara með því að nota Zebra Programming Language (ZPL) samninginn [Document routing agent (DRA)](install-document-routing-agent.md). Notaðu þennan eiginleika fyrir ER snið sem táknar ZPL II merkimiðaútlit til að prenta ýmis merki.
 
-[![Stilling færibreytunnar Document routing type í valmyndinni Destination settings.](./media/ER_Destinations-SetDocumentRoutingType.png)](./media/ER_Destinations-SetDocumentRoutingType.png)
+[![Stilling á færibreytu fyrir gerð skjalaleiðar í valmyndinni Áfangastaðastillingar.](./media/ER_Destinations-SetDocumentRoutingType.png)](./media/ER_Destinations-SetDocumentRoutingType.png)
 
 Fyrir frekari upplýsingar um þennan eiginleika, sjá [Hannaðu nýja ER lausn til að prenta ZPL merki](er-design-zpl-labels.md).
 

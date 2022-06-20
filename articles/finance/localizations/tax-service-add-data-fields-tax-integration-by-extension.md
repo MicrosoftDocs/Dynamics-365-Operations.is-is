@@ -1,6 +1,6 @@
 ---
-title: Bæta við gagnareitum í samþættingu skatts með því að nota viðbætur
-description: Þetta efnisatriði útskýrir hvernig á að nota X++ viðbætur til að bæta við gagnareitum í skattasamþættingu.
+title: Bæta við gagnareitum í skattasamþættingu með því að nota viðbætur
+description: Þessi grein útskýrir hvernig á að nota X++ viðbætur til að bæta við gagnareitum í skattsamþættingu.
 author: qire
 ms.date: 04/27/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 184012dcc0b68e017bb28d8d73caa9e8415bdbfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695389"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871050"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Bæta við gagnareitum í samþættingu skatts með því að nota viðbót
 
 [!include [banner](../includes/banner.md)]
 
 
-Þetta efnisatriði útskýrir hvernig á að nota X++ viðbætur til að bæta við gagnareitum í skattasamþættingu. Hægt er að stækka þessa reiti í skattgagnalíkan skattþjónustunnar og nota þá til að ákveða skattkóða. Frekari upplýsingar eru í [Bæta við gagnareitum í skattaskilgreiningum](tax-service-add-data-fields-tax-configurations.md).
+Þessi grein útskýrir hvernig á að nota X++ viðbætur til að bæta við gagnareitum í skattsamþættingu. Hægt er að stækka þessa reiti í skattgagnalíkan skattþjónustunnar og nota þá til að ákveða skattkóða. Frekari upplýsingar eru í [Bæta við gagnareitum í skattaskilgreiningum](tax-service-add-data-fields-tax-configurations.md).
 
 ## <a name="data-model"></a>Gagnalíkan
 
@@ -359,7 +359,7 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 Í þessum kóða,`_destination` er umbúðir hluturinn sem er notaður til að búa til beiðnina, og`_source` er`TaxIntegrationLineObject` mótmæla.
 
 > [!NOTE]
-> Skilgreindu svæðisheitið sem er notað í beiðninni sem **einkakonst str**. Strenginn ætti að vera nákvæmlega eins og nafn hnútsins (ekki merkið) sem bætt er við í efninu [Bættu við gagnareitum í skattastillingar](tax-service-add-data-fields-tax-configurations.md).
+> Skilgreindu svæðisheitið sem er notað í beiðninni sem **einkakonst str**. Strenginn ætti að vera nákvæmlega eins og nafn hnútsins (ekki merkið) sem bætt er við í greininni [Bættu við gagnareitum í skattastillingar](tax-service-add-data-fields-tax-configurations.md).
 > 
 > Stilltu reitinn í **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** aðferð með því að nota **SetField** aðferð. Gagnategund seinni færibreytunnar ætti að vera **strengur**. Ef gagnategundin er það ekki **strengur**, breyttu því í streng.
 > Ef gagnategundin er X++**enum gerð**, við mælum með því að þú notir **enum2Tákn** aðferð til að breyta enum gildinu í streng. Enum virðisaukinn í skattstillingunni ætti að vera nákvæmlega það sama og enum nafnið. Eftirfarandi er listi yfir muninn á enum gildi, merki og nafni.
@@ -385,7 +385,7 @@ Eftir að þú hefur lokið fyrri skrefum geturðu staðfest breytingarnar þín
 1. Í Fjármálum, farðu til **Viðskiptaskuldir** og bæta við **&debug=vs%2 CconfirmExit&** á slóðina. Til dæmis,`https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&`. Loka **&** er ómissandi.
 2. Opnaðu **Pöntun** síðu og veldu **Nýtt** til að búa til innkaupapöntun.
 3. Stilltu gildið fyrir sérsniðna reitinn og veldu síðan **Söluskattur**. Úrræðaleitarskrá með forskeyti, **TaxService Bilanaleit** er hlaðið niður sjálfkrafa. Þessi skrá inniheldur færsluupplýsingarnar sem eru færðar til skattreikningsþjónustunnar. 
-4. Athugaðu hvort sérsniði reiturinn sem bætt var við sé til staðar í **Skattaþjónustuútreikningsinntak JSON** kafla og ef gildi hans er rétt. Ef gildið er ekki rétt skaltu athuga skrefin í þessu skjali.
+4. Athugaðu hvort sérsniði reiturinn sem bætt var við sé til staðar í **Útreikningur skattaþjónustu JSON** kafla og ef gildi hans er rétt. Ef gildið er ekki rétt skaltu athuga skrefin í þessu skjali.
 
 Dæmi um skrá:
 

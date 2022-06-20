@@ -1,6 +1,6 @@
 ---
 title: Setja upp greiningu nýleika-, tíðni- og peningastigs (RFM)
-description: Í þessu efnisatriði er útskýrt hvernig til að setja upp Nýleikastig, Tíðnistig og Peningastig (RFM) greiningar viðskiptavinum.
+description: Þessi grein útskýrir hvernig á að setja upp nýliða-, tíðni- og peningagreiningu (RFM) á viðskiptavinum þínum.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d058401541d37dac55d0a500835ce9c357468656e467951f789207452f798d94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 153759ac6b70235b79c080e934819536c2861371
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765220"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850172"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Setja upp greiningu nýleika-, tíðni- og peningastigs (RFM)
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig til að setja upp Nýleikastig, Tíðnistig og Peningastig (RFM) greiningar viðskiptavinum.
+Þessi grein útskýrir hvernig á að setja upp nýliða-, tíðni- og peningagreiningu (RFM) á viðskiptavinum þínum.
 
 Greiningin Nýleikastig, Tíðnistig og Peningastig (RFM) er markaðssetningarverkfæri sem fyrirtæki þitt getur notað til að meta gögn sem myndast við innkaup viðskiptavina. Eftir að þú sett upp RFM-greiningu, eru viðskiptavinir úthlutað reiknað RFM-stigum þegar þeir gera innkaup. Rfm-stig getur þriggja stafa einkunn eða steypa saman núver, eftir því hvernig fyrirtæki þitt hefur skilgreint rfm-greining. Svona virkar einkunnargjöfin ef fyrirtækið notar þriggja stafa einkunn fyrir stigaskor:
 

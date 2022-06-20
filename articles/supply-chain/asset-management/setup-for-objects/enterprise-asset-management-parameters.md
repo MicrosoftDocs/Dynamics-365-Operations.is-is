@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1659fd3b4c173ffe09f245631309d329bba5b1bd
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
-ms.translationtype: MT
+ms.openlocfilehash: a1e2c79a621cf4bd1212c006e1c8967d85bd716b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870812"
 ---
 # <a name="asset-management-parameters"></a>Færibreytur eignastýringar
 
 [!include [banner](../../includes/banner.md)]
 
-Í eignastýringu verður að setja upp almennar breytur sem varða eignir, verkbeiðnir og tímasetningu vinnutilboða. Í þessu efnisatriði er útskýrt hvernig á að setja þær upp. Veldu **Eignastýringu** > **Uppsetningu** > **Færibreytur eignastýringar** til að opna síðuna.
+Í eignastýringu verður að setja upp almennar breytur sem varða eignir, verkbeiðnir og tímasetningu vinnutilboða. Þessi grein útskýrir hvernig á að setja þau upp. Veldu **Eignastýringu** > **Uppsetningu** > **Færibreytur eignastýringar** til að opna síðuna.
 
 > [!NOTE]
 > Ef þú vilt setja upp kerfi sem inniheldur kynningu gagna til að prófa eiginleika Eignastýringar, sjá [Uppsetning sýniútgáfuumhverfis](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) fyrir leiðbeiningar.

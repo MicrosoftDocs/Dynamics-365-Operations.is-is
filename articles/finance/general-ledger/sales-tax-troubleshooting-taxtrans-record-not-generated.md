@@ -1,6 +1,6 @@
 ---
 title: TaxTrans færsla er ekki mynduð
-description: Í þessu efni eru upplýsingar um villuleit sem geta hjálpað þegar TaxTrans færsla er ekki búin til.
+description: Þessi grein veitir upplýsingar um úrræðaleit sem geta hjálpað þegar TaxTrans skrá er ekki búin til.
 author: qire
 ms.date: 04/13/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 969d086c77b40b59495ae0d9e631579abf5e0ec6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 402b1200e96ec8130034a03447ca071477544a88
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686408"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846713"
 ---
 # <a name="taxtrans-record-isnt-generated"></a>TaxTrans færsla er ekki mynduð
 

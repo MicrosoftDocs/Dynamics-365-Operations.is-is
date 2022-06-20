@@ -1,6 +1,6 @@
 ---
 title: Nota verkflæði til að haga starfsmannaupplýsingum
-description: Þetta efnisatriði útskýrir hvernig þú getur notað verkflæði til að stjórna starfsmannaupplýsingum.
+description: Þessi grein útskýrir hvernig þú getur notað verkflæði til að stjórna starfsmannaupplýsingum.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7c416a82976bc39464006325f02f1af4d2f32ea4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2fcbacc3cb891043560fabf28487bfeb12d1b77b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691527"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908802"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Nota verkflæði til að haga starfsmannaupplýsingum
 
@@ -27,7 +27,7 @@ ms.locfileid: "8691527"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Í þessu efnisatriði er útskýrt hvernig hægt er að nota verkflæðisgetu fyrir mannauð til að stjórna upplýsingum starfsmanns. Til dæmis er hægt að tengja verkflæði við stöðu og skilgreina samþykkisverkflæði sem er ræst þegar starfsmenn breyta skráningu sinni.
+Í þessari grein er útskýrt hvernig hægt er að nota verkflæðisgetu fyrir mannauð til að stjórna upplýsingum starfsmanns. Til dæmis er hægt að tengja verkflæði við stöðu og skilgreina samþykkisverkflæði sem er ræst þegar starfsmenn breyta skráningu sinni.
 
 Verkflæðisgeta fyrir mannauð veitir fjölda verkflæða fyrir stjórnun mannauðsaðgerða. Þar að auki eru fjölmargir valkostir tiltækir svo að hægt er að breyta tilteknum verkflæðum og tengja þau við skýrslustigveldi. Verkflæði eru tiltæk til að hjálpa til við að stjórna breytingum á nokkrum tegundum starfsmannaupplýsinga. Hægt er að tengja verkflæði við stöðu. Síðan, ef starfsmenn breyta skráningu sinni, er verkflæði hafið sem þarfnast samþykkis áður en nýju upplýsingarnar eru vistaðar. Verkflæði eru fyrirfram skilgreind fyrir eftirfarandi tegundir upplýsinga til að hjálpa þér að stjórna breytingum á skilvirkan hátt og halda gögnum starfsmanna þinna nákvæmum:
 

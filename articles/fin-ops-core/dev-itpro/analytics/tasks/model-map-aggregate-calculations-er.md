@@ -1,6 +1,6 @@
 ---
 title: Nota grunnstillingar líkanavörpunar fyrir samanlagða útreikninga á gagnagrunnsstigi
-description: Þetta efnisatriði lýsir því hvernig á að hanna nýja stillingu fyrir líkanavörpun rafrænnar skýrslugerðar og nota innbyggða eiginleika Rafrænnar skýrslugerðar fyrir skilvirka samanlagða útreikninga.
+description: Þessi grein lýsir því hvernig á að hanna nýja rafræna skýrslugerð líkanskortsstillingar og nota innbyggðar ER aðgerðir fyrir skilvirka uppsafnaða útreikninga.
 author: NickSelin
 ms.date: 12/12/2017
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9f4ca926414e36e04e6e908a55eebeca8c24a696da4bca0c1c3a6f836373627d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 103a184c33b00e0f4d86846f11f1c5ec4dfbc2f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847222"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Nota grunnstillingar líkanavörpunar fyrir samanlagða útreikninga á gagnagrunnsstigi
 

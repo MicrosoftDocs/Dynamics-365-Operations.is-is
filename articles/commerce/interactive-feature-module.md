@@ -1,6 +1,6 @@
 ---
 title: Gagnvirk eiginleikaeining
-description: Þetta efnisatriði fjallar um gagnvirkar eiginleikaeiningar og útskýrir hvernig á að bæta þeim við síður svæða í Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um gagnvirkar eiginleikaeiningar og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3ab325189812289390740e31fd673ee9892f9759
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: deee7c35cfc4293480fda74665429121b71bbfab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898520"
 ---
 # <a name="interactive-feature-module"></a>Gagnvirk eiginleikaeining
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði fjallar um gagnvirkar eiginleikaeiningar og útskýrir hvernig á að bæta þeim við síður svæða í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um gagnvirkar eiginleikaeiningar og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 
 Gagnvirkar einingar eiginleika eru mósaíklíkar einingar sem hægt er að nota til að markaðssetja marga vöruflokka eða vörumerki með því að nota samsetningu mynda og texta. Til dæmis getur smásali bætt gagnvirkri einingu eiginleika við heimasíðu rafræns viðskiptasvæðis til að auglýsa flokka með mest seldu vörurnar. Gagnvirk eining eiginleikans líkist reitalistaeiningunni en er með öðruvísi útlit og aðrar samskiptaaðgerðir.
 
@@ -68,7 +68,7 @@ Til að bæta einingu gagnvirks eiginleika við nýja síðu og stilla nauðsynl
 1. Í **Veldu einingar** valmynd, veldu **Gagnvirkur eiginleiki** mát og veldu síðan **Allt í lagi**.
 1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
 1. Farðu í **Síður** og opnaðu heimasíðu vefsvæðisins (eða búðu til nýja heimasíðu með sniðmáti markaðssetningar).
-1. Í **Aðal** rauf sjálfgefna síðunnar, veldu sporbaug hnappinn (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Aðal** rauf sjálfgefna síðunnar, veldu sporbaughnappinn (**...**), og veldu síðan **Bæta við einingu**.
 1. Í **Veldu einingar** svargluggi, undir **Veldu Modules**, veldu **Gagnvirkur eiginleiki** mát og veldu síðan **Allt í lagi**.
 1. Í eiginleikaglugga einingar fyrir gagnvirkan eiginleika skal bæta við fyrirsögn.
 1. Í **Gagnvirkur eiginleiki** rauf, veldu sporbaughnappinn (**...**), og veldu síðan **Bæta við einingu**.

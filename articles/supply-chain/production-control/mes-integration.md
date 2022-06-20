@@ -1,6 +1,6 @@
 ---
 title: Samþætta við kerfi þriðju aðila fyrir framkvæmd framleiðslu
-description: Þetta efni útskýrir hvernig þú getur samþætt Microsoft Dynamics 365 Supply Chain Management með þriðju aðila framleiðslukerfi (MES).
+description: Þessi grein útskýrir hvernig þú getur samþætt Microsoft Dynamics 365 Supply Chain Management með þriðju aðila framleiðslukerfi (MES).
 author: johanhoffmann
 ms.date: 10/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: c7633ba32f9265aa0fd8f702552f48dbf675375d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678688"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860639"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Samþætta við kerfi þriðju aðila fyrir framkvæmd framleiðslu
 
@@ -57,7 +57,7 @@ Eftirfarandi mynd sýnir dæmigert safn viðskiptaviðburða, ferla og skilaboð
 |---|---|
 | Losa framleiðslupantanir og framleiðslupöntunarstöðu breyta viðskiptaviðburðum | Þetta ferli veitir viðskiptaviðburð sem MES getur hlustað á, til að fá upplýsingar um framleiðslupantanir sem ætti að framleiða. Búist er við að tilvísunargögnum sem tengjast framleiðslupöntuninni verði deilt frá Supply Chain Management til MES í gegnum Open Data Protocol (OData) eða gagnaeiningar. |
 | Hefja framleiðslupöntun | Þetta ferli veitir Supply Chain Management upplýsingar um framleiðslupantanir sem verið er að hefja með því að nota MES. Það tryggir að bæði kerfin hafi uppfærða sýn á alla framleiðslustarfsemi. |
-| Tilkynntu framleitt eða eytt magn | Þetta ferli veitir Supply Chain Management upplýsingar um vöru- og villumagnið sem tilkynnt er um framleiðsluverk með því að nota MES. Það tryggir að umsjónarmenn á verkstæði hafi uppfærða sýn á framvindu framleiðsluáætlunar. |
+| Tilkynntu framleitt eða eytt magn | Þetta ferli veitir Supply Chain Management upplýsingar um vöru- og villumagn sem er tilkynnt um framleiðsluverk með því að nota MES. Það tryggir að umsjónarmenn á verkstæði hafi uppfærða sýn á framvindu framleiðsluáætlunar. |
 | Tilkynna efnisnotkun | Þetta ferli veitir Supply Chain Management upplýsingar frá MES um magn efna sem er neytt. Það gerir uppfærðar birgðaskrár aðgengilegar öðrum mikilvægum ferlum, svo sem áætlanagerð og sölu. |
 | Tilkynna tíma sem notaður hefur verið í aðgerðina | Þetta ferli veitir Supply Chain Management upplýsingar um þann tíma sem er notaður í tiltekna aðgerð. |
 | Ljúka framleiðslupöntun | Þetta ferli upplýsir Supply Chain Management um að MES hafi uppfært framleiðslupöntun í lokastöðu *Lokað*. Þessi staða gefur til kynna að ekki verði meira magn framleitt á framleiðslupöntuninni. |
@@ -238,20 +238,20 @@ Fyrir *enda framleiðslupöntun* skilaboð, the`_messageType` gildi er `ProdProd
 
 ## <a name="other-production-information"></a>Aðrar framleiðsluupplýsingar
 
-Skilaboðin styðja aðgerðir eða atburði sem gerast á verslunargólfinu. Þær eru unnar með því að nota MES samþættingarrammann sem lýst er í þessu efni. Hönnunin gerir ráð fyrir að aðrar tilvísunarupplýsingar sem á að deila með MES (svo sem vörutengdar upplýsingar, eða efnisskrá eða leið (með tilteknum uppsetningar- og uppsetningartímum) sem notaðar eru í tiltekinni framleiðslupöntun) verði sóttar úr kerfinu nota [gagnaeiningar](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) með skráaflutningi eða OData.
+Skilaboðin styðja aðgerðir eða atburði sem gerast á verslunargólfinu. Þær eru unnar með því að nota MES samþættingarrammann sem lýst er í þessari grein. Hönnunin gerir ráð fyrir að aðrar tilvísunarupplýsingar sem á að deila með MES (svo sem vörutengdar upplýsingar, eða efnisskrá eða leið (með tilteknum uppsetningar- og uppsetningartímum) sem notaðar eru í tiltekinni framleiðslupöntun) verði sóttar úr kerfinu nota [gagnaeiningar](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) með skráaflutningi eða OData.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>Fáðu endurgjöf um stöðu skilaboða
 
 Eftir að MES hefur sent skilaboð til Supply Chain Management gæti verið viðeigandi fyrir Supply Chain Management að skila endurgjöf um stöðu skilaboðanna. Hér eru nokkur dæmi um tilvik þar sem þessi hegðun gæti átt við:
 
-- Það er enginn aðili sem ber ábyrgð á stöðugu eftirliti með MES samþættingu.
+- Það er enginn aðili sem ber ábyrgð á því að hafa stöðugt eftirlit með MES samþættingu.
 - Sá sem ber ábyrgð á eftirliti með MES samþættingu vill fá tilkynningu í tölvupósti þegar skilaboð mistekst, svo hann viti að hann þurfi að grípa til aðgerða.
 - MES verður að sýna villuboð til að tilkynna rekstraraðila verkstæðisgólfs eða einhvern úr upplýsingatæknideild að þeir verði að grípa til aðgerða.
 - MES verður að endurreikna pöntunaráætlunina eftir að hann fær bilunarskilaboð (til dæmis vegna þess að framleiðslupöntun tókst ekki að hefjast).
 
 Í þessum tilvikum geturðu nýtt þér staðlaða viðvörunareiginleikann í Supply Chain Management. Fyrir upplýsingar um hvernig staðlaðar viðvaranir virka, sjá eftirfarandi úrræði:
 
-- Hjálparefni: [Yfirlit yfir viðvaranir](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
+- Hjálpargrein: [Yfirlit yfir viðvaranir](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
 - Myndband: [Valkostir viðvörunarreglu í Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 Til dæmis gætirðu sett upp eftirfarandi viðvaranir til að veita endurgjöf um stöðu skilaboða:

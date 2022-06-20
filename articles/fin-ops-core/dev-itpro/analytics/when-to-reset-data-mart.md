@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um endurstillingar gagnaskemmu
-description: Þetta efnisatriði veitir svör við nokkrum algengum spurningum um endurstillingar gagnaskemmu.
+description: Þessi grein veitir svör við nokkrum algengum spurningum um endurstillingar gagnamerkja.
 author: jinniew
 ms.date: 03/21/2022
 ms.topic: article
@@ -13,16 +13,16 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 61c7047096f42e71cde5e9ba1ddc59785383795a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: d2b20ec7af9f0c6b7899617c2b8fdbf0992d7397
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714130"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892393"
 ---
 # <a name="data-mart-resets-faq"></a>Algengar spurningar um endurstillingar gagnaskemmu
 
-Þetta efnisatriði veitir svör við nokkrum algengum spurningum um endurstillingar gagnaskemmu. Endurstilling á gagnaskemmunni getur verið tímafrekt ferli og það fer eftir aðstæðum hvort það sé rétta lausnin. Í þessu efnisatriði er því að finna upplýsingar um aðstæður þar sem endurstilling gagnaskemmu gæti hjálpað og einnig aðstæður þar sem ólíklegt er að hún komi að gagni.
+Þessi grein veitir svör við nokkrum algengum spurningum um endurstillingar gagnamerkja. Endurstilling á gagnaskemmunni getur verið tímafrekt ferli og það fer eftir aðstæðum hvort það sé rétta lausnin. Þess vegna inniheldur þessi grein upplýsingar um aðstæður þar sem endurstilling gagnamerkja gæti hjálpað og einnig aðstæður þar sem ólíklegt er að það hjálpi.
 
 ## <a name="what-is-a-data-mart-reset"></a>Hvað er endurstilling gagnaskemma?
 
@@ -49,7 +49,7 @@ Hér eru nokkrar aðstæður þar sem við mælum ekki með því að þú endur
 - Financial Reporter samþætting þín er ekki virkjuð. 
 
     - Þetta þýðir að ekki er lengur verið að samstilla gögn fjárhagsskýrslu við fjárhagsskýrslugagnamarkaðinn þinn. Fjárhagsskýrslan þín er hugsanlega ekki að fá uppfærðar tölur fyrir fjárhagsskýrslur þínar. Þetta gerist venjulega ef þú hefur ekki notað Financial Reporter í langan tíma.
-    - Þú verður beðinn um að virkja samþættingu með því að endurstilla gagnamarkaðinn. Þú getur haldið áfram með því að velja **Já**. Þú getur líka valið að endurstilla gagnamarkaðinn síðar. Eftir að samþætting er virkjuð eru fjárhagsgögn þín samstillt í Financial Reporter aftur. 
+    - Þú verður beðinn um að virkja samþættingu með því að endurstilla gagnamarkaðinn. Þú getur haldið áfram með því að velja **Já**. Þú getur líka valið að endurstilla gagnamarkaðinn síðar. Eftir að samþætting hefur verið virkjuð eru fjárhagsgögn þín samstillt í Financial Reporter aftur. 
 - Mynstur endurtekinnar endurstillingar á sér stað af einhverjum eftirfarandi ástæðum:
 
     - **Vantar eða óvænt gögn í skýrslunni** – Ef þú tekur eftir því að gögn vantar skaltu opna stuðningsmiða hjá Microsoft til að skoða skýrslusniðið þitt og hugsanleg vandamál við samstillingu gagna.

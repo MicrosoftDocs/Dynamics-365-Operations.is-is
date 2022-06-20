@@ -1,6 +1,6 @@
 ---
-title: Settu upp skattakóða
-description: Þetta efnisatriði útskýrir hvernig á að setja upp skattkóða í skattreikningsþjónustunni.
+title: Setja upp skattakóða
+description: Þessi grein útskýrir hvernig á að setja upp skattkóða í skattreikningsþjónustunni.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 8bdb194e7d8b704d1e58d3c25bf2e1f6bff1ba00
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 1bc250716763ce9d8e25c8850c8a3676bf65fb0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883904"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862929"
 ---
-# <a name="set-up-tax-codes"></a>Settu upp skattakóða
+# <a name="set-up-tax-codes"></a>Setja upp skattakóða
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja upp skattkóða í skattaútreikningsþjónustunni. Það felur í sér uppsetningu fyrir einfalda atburðarás til að láta skattkóðann virka og upplýsingar um háþróaða skattakóðavirkni fyrir flóknar aðstæður.
+Þessi grein útskýrir hvernig á að setja upp skattkóða í skattaútreikningsþjónustunni. Það felur í sér uppsetningu fyrir einfalda atburðarás til að láta skattkóðann virka og upplýsingar um háþróaða skattakóðavirkni fyrir flóknar aðstæður.
 
 > [!IMPORTANT]
-> Uppsetning skattkóða í skattútreikningsþjónustunni er lögaðili-agnostic. Þú getur klárað þessa uppsetningu í Regulatory Configuration Service (RCS) aðeins einu sinni. Skattkóðar eru sjálfkrafa samstilltir við Microsoft Dynamics 365 Finance þegar þú virkjar skattreikningsþjónustuna fyrir valinn lögaðila í Fjármálum.
+> Uppsetning skattkóða í skattútreikningsþjónustunni er lögaðili-agnostic. Þú getur aðeins klárað þessa uppsetningu í Regulatory Configuration Service (RCS) einu sinni. Skattkóðar eru sjálfkrafa samstilltir við Microsoft Dynamics 365 Fjármál þegar þú virkjar skattreikningsþjónustuna fyrir valinn lögaðila í Fjármálum.
 
 ## <a name="simple-setup"></a>Einföld uppsetning
 
@@ -40,12 +40,12 @@ Fylgdu þessum skrefum til að nota skattkóða í einfaldri atburðarás, eins 
 5. Í flipanum **Skattkóðar** skal velja **Bæta við** og slá inn skattkóðann og lýsingu.
 6. Veldu **Uppruni útreiknings**. Uppruni útreiknings er hópur aðferða sem eru skilgreindar í skattstillingarútgáfunni sem þú valdir. Fyrir þessa einföldu atburðarás skaltu velja **Eftir nettóupphæð**.
 7. Veldu **Vista**. Fleiri reitir verða tiltækir, byggt á uppruna útreikningsins sem þú valdir.
-8. Á **Verð** Flýtiflipi, veldu **Bæta við** að bæta við einu skatthlutfalli fyrir þennan skattakóða.
+8. Á **Verð** Flýtiflipi, veldu **Bæta við** að bæta við einu skatthlutfalli fyrir þennan skattkóða.
 9. Veldu **Vista**.
 
 ## <a name="calculation-origin"></a>Uppruni útreiknings
 
-Uppruni útreiknings skilgreinir hvernig skattstofnfjárhæð og skattfjárhæð eru reiknuð út. Það er stillt með skattstillingu í **Rafræn skýrslugerð** vinnurými. Eftirfarandi gildi eru fáanleg í **Uppruni útreiknings** reit:
+Uppruni útreiknings skilgreinir hvernig skattstofnfjárhæð og skattfjárhæð eru reiknuð út. Það er stillt með skattastillingu í **Rafræn skýrslugerð** vinnurými. Eftirfarandi gildi eru fáanleg í **Uppruni útreiknings** reit:
 
 - Eftir nettóupphæð
 - Eftir brúttóupphæð
@@ -70,7 +70,7 @@ Ef þú velur **Með brúttóupphæð** í **Uppruni útreiknings** reit er skat
 Til dæmis hefur skattyfirvöld lagt sérstaka tolla á hlut. Tollfjárhæðirnar bætast við nettóupphæðina áður en skattur er reiknaður. Eftirfarandi skattakóðar eru notaðir:
 
 - **Skylda 1** – Gengið er 10 prósent, og **Eftir nettóupphæð** reikningsaðferð er notuð.
-- **Skylda 2** – Gengið er 20 prósent, og **Eftir nettóupphæð** reikningsaðferð er notuð.
+- **Skylda 2** - Hlutfallið er 20 prósent, og **Eftir nettóupphæð** reikningsaðferð er notuð.
 - **Skatthlutfall** - Hlutfallið er 25 prósent, og **Með brúttóupphæð** reikningsaðferð er notuð.
 
 Ef nettóupphæðin er 10,00 er tollur 1 upphæð 1.00 (10.00 × 10 prósent) og tollur 2 upphæð 2.00 (10.00 × 20 prósent). Í þessu tilviki eru upphæðir reiknaðar á eftirfarandi hátt: 
@@ -90,7 +90,7 @@ Til dæmis er skattanúmerið sett upp sem 1,20 á hverja einingu. Á sölureikn
 
 Ef þú velur **Með framlegð** í **Uppruni útreiknings** reit er skattupphæð reiknuð sem hlutfall af söluframlegð. Söluframlegð er söluupphæð að frádregnum kostnaðarupphæð. Þessi útreikningsaðferð á aðeins við um sölufærslur.
 
-Til dæmis er skatthlutfallið 25 prósent, reikningslínan sýnir magn af 10 hlutum á 10,00 hver og kostnaður á hverja vöru er 6. Í þessu tilviki eru upphæðir reiknaðar á eftirfarandi hátt:
+Til dæmis er skatthlutfallið 25 prósent, reikningslínan sýnir magn af 10 hlutum á 10.00 hver og kostnaður á hverja vöru er 6. Í þessu tilviki eru upphæðir reiknaðar á eftirfarandi hátt:
 
 - **Söluhlutfall:** 10 × ( 10.00 – 6.00) = 40.00
 - **Skattupphæð:** 40,00 × 25 prósent = 10,00
@@ -103,7 +103,7 @@ Ef þú velur **Skattur á skatt** í **Uppruni útreiknings** reitnum er sölus
 Til dæmis eru eftirfarandi skattakóðar notaðir:
 
 - **Skylda 1** – Gengið er 10 prósent, og **Eftir nettóupphæð** reikningsaðferð er notuð.
-- **Skylda 2** – Gengið er 20 prósent, og **Eftir nettóupphæð** reikningsaðferð er notuð.
+- **Skylda 2** - Hlutfallið er 20 prósent, og **Eftir nettóupphæð** reikningsaðferð er notuð.
 - **Skattur á toll** - Hlutfallið er 25 prósent, og **Skattur á skatt** reikningsaðferð er notuð.
 
 Í þessu tilviki eru upphæðir reiknaðar á eftirfarandi hátt:
@@ -121,13 +121,13 @@ Til dæmis eru eftirfarandi skattakóðar notaðir:
 
 ### <a name="tax-exemption"></a>Skattundanþága
 
-Ef þú stillir **Er undanþegin** valmöguleika til **Já** á **Almennt** Flýtiflipa, skattupphæðinni verður alltaf hnekkt í 0 (núll), óháð raunverulegu skatthlutfalli.
+Ef þú stillir **Er undanþegin** valmöguleika til **Já** á **Almennt** Flýtiflipi, skattupphæðinni verður alltaf hnekkt í 0 (núll), óháð raunverulegu skatthlutfalli.
 
 Þú getur stillt **Undanþágukóði** reit til að tilgreina ástæðu undanþágunnar. 
 
 Þú getur virkjað aðalgagnaleit fyrir **Undanþágukóði** sviði. Þannig geturðu valið meðal undanþágukóðagilda sem eru skilgreind í Finance. Fyrir upplýsingar um hvernig á að virkja aðalgagnaleit, sjá [Virkja aðalgagnaleit fyrir skattaútreikningsstillingar](tax-service-set-up-environment-master-data-lookup.md).
 
-Til dæmis er skatthlutfallið 25 prósent og **Er undanþegin** valkostur er stilltur á **Já** á skattalögum. Reikningslínan sýnir magn af 10 hlutum á 1,00 hver og viðskiptavinurinn fær 10 prósent línuafslátt. Í þessu tilviki eru upphæðir reiknaðar á eftirfarandi hátt:
+Til dæmis er skatthlutfallið 25 prósent og **Er undanþegin** valkostur er stilltur á **Já** á skattalögum. Reikningslínan sýnir magn af 10 hlutum á 1,00 hver og viðskiptavinurinn fær 10 prósenta línuafslátt. Í þessu tilviki eru upphæðir reiknaðar á eftirfarandi hátt:
 
 - **Virði:** (10 × 1,00) – 10 prósent = 9,00 
 - **Söluskattur:** 0,00 
@@ -137,7 +137,7 @@ Til dæmis er skatthlutfallið 25 prósent og **Er undanþegin** valkostur er st
 
 Ef þú stillir **Er Notkunarskattur** valmöguleika til **Já** á **Almennt** Flýtiflipi, skattupphæðin verður færð á **Notaðu gjaldskyldan skatt** reikning í stað **Samantekt söluaðila** reikning.
 
-Til dæmis er skatthlutfallið 25 prósent og **Er Notkunarskattur** valkostur er stilltur á **Já** á skattalögum. Reikningslínan sýnir magn af 10 hlutum á 1,00 hver og viðskiptavinurinn fær 10 prósent línuafslátt. Í þessu tilviki eru upphæðir reiknaðar á eftirfarandi hátt:
+Til dæmis er skatthlutfallið 25 prósent og **Er Notkunarskattur** valkostur er stilltur á **Já** á skattalögum. Reikningslínan sýnir magn af 10 hlutum á 1,00 hver og viðskiptavinurinn fær 10 prósenta línuafslátt. Í þessu tilviki eru upphæðir reiknaðar á eftirfarandi hátt:
 
 - **Virði:** (10 × 1,00) – 10 prósent = 9,00 
 - **Notaðu skatt:** 9,00 × 25 prósent = 2,25
@@ -148,7 +148,7 @@ Til dæmis er skatthlutfallið 25 prósent og **Er Notkunarskattur** valkostur e
 
 ### <a name="reverse-charges"></a>Bakfærð gjöld
 
-Ef þú stillir **Er Reverse Charge** valmöguleika til **Já** á **Almennt** Flýtiflipa, skatthlutfallið er hægt að stilla sem neikvætt. Fyrir öfuga gjaldfærslu mælum við með því að þú setjir upp tvo skattkóða: einn sem hefur jákvætt skatthlutfall og einn sem hefur neikvætt skatthlutfall. Báðir skattakóðar ættu að hafa sama taxtagildi og **Er Reverse Charge** valkostur ætti að vera stilltur á **Já** á skattalögum sem hefur neikvæða skatthlutfall. Frekari upplýsingar um lausn bakfærðs gjalds í Finance er að finna í [Virkni bakfærðs gjalds fyrir skema VSK/VÞS](emea-reverse-charge.md).
+Ef þú stillir **Er Reverse Charge** valmöguleika til **Já** á **Almennt** Flýtiflipa, skatthlutfallið er hægt að stilla sem neikvætt. Fyrir öfuga gjaldfærslu mælum við með því að þú setjir upp tvo skattkóða: einn sem hefur jákvætt skatthlutfall og einn sem hefur neikvæða skattprósentu. Báðir skattakóðar ættu að hafa sama taxtagildi og **Er Reverse Charge** valkostur ætti að vera stilltur á **Já** á skattalögum sem hefur neikvæða skatthlutfall. Frekari upplýsingar um lausn bakfærðs gjalds í Finance er að finna í [Virkni bakfærðs gjalds fyrir skema VSK/VÞS](emea-reverse-charge.md).
 
 Til dæmis eru tveir skattakóðar ákvarðaðir á einni reikningslínu. Eitt skatthlutfall er 25 prósent. Annað skatthlutfall er -25 prósent, og **Er Reverse Charge** valkostur er stilltur á **Já** á öðrum skattalögum. Reikningslínan sýnir magn af 10 hlutum á 1,00 hver. Í þessu tilviki eru upphæðirnar reiknaðar á eftirfarandi hátt:
 
@@ -179,18 +179,18 @@ Til dæmis gætu skatthlutföll verið stillt eins og sýnt er í eftirfarandi t
 Í þessu tilviki er skattfjárhæð reiknuð á eftirfarandi hátt:
 
 - Ef skattstofnfjárhæðin er 300,00 er skatthlutfallið 10 prósent og skattupphæðin er 300,00 × 10 prósent = 30,00.
-- Ef skattstofnfjárhæð er 3.000,00 er skatthlutfallið 15 prósent og skattfjárhæðin er 3.000,00 × 15 prósent = 450,00.
+- Ef skattstofnfjárhæðin er 3.000,00 er skatthlutfallið 15 prósent og skattupphæðin er 3.000,00 × 15 prósent = 450,00.
 - Ef skattstofnfjárhæðin er 6.000,00 er skatthlutfallið 20 prósent og skattfjárhæðin er 6.000,00 × 10 prósent = 1.200,00.
 - Ef skattstofnupphæðin er 20,000.00 er skatthlutfallið 30 prósent og skattupphæðin er 20,000.00 × 30 prósent = 6.000,00.
 
 > [!NOTE]
-> Ef skattstofnfjárhæð getur jafnast við bæði hámarksfjárhæð á annarri línu og lágmarksfjárhæð á hinni línunni mun stofninn nota það skatthlutfall sem samsvarar lágmarksgrunnfjárhæðinni. Til dæmis, ef skattstofnupphæðin er 1000,00, þá er skatthlutfallið 15 prósent og skattupphæðin er 1.000,00 × 15 prósent = 150,00.
+> Ef skattstofnfjárhæð getur jafnast við bæði hámarksfjárhæð á annarri línu og lágmarksfjárhæð á hinni línunni mun stofninn nota það skatthlutfall sem samsvarar lágmarksgrunnfjárhæðinni. Til dæmis, ef skattstofnupphæðin er 1000,00 er skatthlutfallið 15 prósent og skattupphæðin er 1.000,00 × 15 prósent = 150,00.
 
 ### <a name="limits"></a>Mörk
 
 Á **Takmörk** Flýtiflipa, þú getur skilgreint skattamörk til að hnekkja reiknaðri skattupphæð ef skattupphæðin fellur innan lágmarks/hámarksbilsins.
 
-- Ef reiknuð skattupphæð er hærri en eða jöfn hámarksskattupphæðinni sem er stillt á **Takmörk** Flýtiflipi, endanleg skattupphæð er jöfn hámarksskattupphæð.
+- Ef reiknuð skattupphæð er hærri en eða jöfn hámarksskattsupphæðinni sem er stillt á **Takmörk** Flýtiflipi, endanleg skattupphæð er jöfn hámarksskattupphæð.
 - Ef útreiknuð skattupphæð er lægri en lágmarksskattupphæðin sem er stillt á **Takmörk** Flýtiflipi, endanleg skattupphæð er 0 (núll).
 
 Til dæmis eru skattamörk stillt á eftirfarandi hátt:

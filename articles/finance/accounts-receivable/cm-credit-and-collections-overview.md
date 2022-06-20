@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir skuldir og innheimtu
-description: Þetta efnisatriði gefur yfirlit yfir virkni fyrir skuldir og innheimtu.
+description: Þessi grein veitir yfirlit yfir virkni lána og innheimtu.
 author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2cf6f6d1f76280698571eac3f023667d29723585
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 72a5ae9330be1b5b8284c12dd7974e1b7e479ebb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735550"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845346"
 ---
 # <a name="credit-and-collections-overview"></a>Yfirlit yfir skuldir og innheimtu
 

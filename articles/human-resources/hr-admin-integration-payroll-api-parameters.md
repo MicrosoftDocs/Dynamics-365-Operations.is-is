@@ -1,6 +1,6 @@
 ---
 title: Samþættingarfæribreytur launaskrár
-description: Þetta efnisatriði lýsir samþættingarfæribreytum Dynamics 365 Human Resources launaskrár.
+description: Þessi grein lýsir Dynamics 365 Human Resources Samþættingarbreytur launaskrár.
 author: marcelbf
 ms.date: 06/17/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-17
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 37d4dc52e7fe5ddd95f43d98267db819a275bd92
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7d784909fc8c5fa05557566b62b19802cd2acece
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069858"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896098"
 ---
 # <a name="payroll-integration-parameters"></a>Samþættingarfæribreytur launaskrár
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069858"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Áður en samþætting Dynamics 365 Human Resources launaskrár er notuð þarf að setja upp færibreyturnar sem lýst er í þessu efnisatriði.
+Áður en þú notar Dynamics 365 Human Resources Samþætting launaskrár, þú verður að setja upp breytur sem lýst er í þessari grein.
 
 ## <a name="enable-payroll-address"></a>Virkja aðsetur launaskrár
 

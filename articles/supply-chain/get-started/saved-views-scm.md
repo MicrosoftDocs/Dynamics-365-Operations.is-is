@@ -1,6 +1,6 @@
 ---
 title: Stöðluð vistuð yfirlit fyrir Supply Chain Management
-description: Þetta efnisatriði lýsir stöðluðum vistuðum yfirlitum sem eru tiltæk og útskýrir hvernig á að gera þau virk.
+description: Þessi grein lýsir stöðluðum vistuðum sýnum sem eru tiltækar og útskýrir hvernig á að virkja þær.
 author: kamaybac
 ms.date: 02/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0709574ea44fcf841321044da31781862fcf1420
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 92ff2dfc9cd8b742a7b086e540bd2c527833254d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103689"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887559"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Stöðluð vistuð yfirlit fyrir Supply Chain Management
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management inniheldur nokkur vistuð yfirlit sem hægt er að kveikja á og nota eftir þörfum. Eitthvað af þessum stöðluðu vistuðum yfirlitum eru fínstillt og nefnd fyrir tiltekið hlutverk eða verkefni (til dæmis, „Gæðastjórnun“ eða „Móttöku“). Önnur eru fínstillt þannig að þau innihalda aðeins reiti og stillingar sem talnagögn Microsoft gefa til kynna að er oftast notað af viðskiptavinum. Þessi vistuðu yfirlit eru yfirleitt nefnd *einfölduð* yfirlit. Þetta efnisatriði lýsir stöðluðum vistuðum yfirlitum sem eru tiltæk og útskýrir hvernig á að gera þau virk og sérsníða þau.
+Microsoft Dynamics 365 Supply Chain Management inniheldur nokkur vistuð yfirlit sem hægt er að kveikja á og nota eftir þörfum. Eitthvað af þessum stöðluðu vistuðum yfirlitum eru fínstillt og nefnd fyrir tiltekið hlutverk eða verkefni (til dæmis, „Gæðastjórnun“ eða „Móttöku“). Önnur eru fínstillt þannig að þau innihalda aðeins reiti og stillingar sem talnagögn Microsoft gefa til kynna að er oftast notað af viðskiptavinum. Þessi vistuðu yfirlit eru yfirleitt nefnd *einfölduð* yfirlit. Þessi grein lýsir stöðluðum vistuðum sýnum sem eru tiltækar og útskýrir hvernig á að virkja og sérsníða þau.
 
 Ítarlegar upplýsingar um hvernig á að vinna með vistuð yfirlit, þ.m.t. stöðluðu vistuð yfirlit, eftir að þau eru virkjuð er að finna í [Vistuð yfirlit](../../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json).
 
@@ -39,7 +39,7 @@ Frekari upplýsingar um hvernig á að sérstilla og endurnefna vistuð yfirlit 
 
 Til að nota einhverjar vistaðar skoðanir, burtséð frá því hvort þú notar staðlaðar vistaðar skoðanir, verður þú að kveikja á *Vistaðar skoðanir* lögun í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (frá og með útgáfu 10.0.21 er þessi eiginleiki sjálfgefið virkur).
 
-Eftirstandandi hlutar í þessu efnisatriði innihalda töflur sem lýsa stöðluðum vistuðum yfirlitum sem eru í boði fyrir hverja viðeigandi einingu. Hver tafla sýnir heiti á hverju vistuðu yfirliti, síðuna þar sem hægt er að finna það og lýsingu á því. Hver tafla sýnir einnig heiti eiginleika sem felur í sér vistað yfirlit. Til að sjá staðlað vistað yfirlit í kerfinu verður að kveikja á tilgreindum eiginleika í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Frá og með útgáfu 10.0.25 er sjálfgefið kveikt á öllum sýnum á listanum.
+Hinir hlutar þessarar greinar veita töflur sem lýsa stöðluðum vistuðum sýnum sem eru tiltækar fyrir hverja viðeigandi einingu. Hver tafla sýnir heiti á hverju vistuðu yfirliti, síðuna þar sem hægt er að finna það og lýsingu á því. Hver tafla sýnir einnig heiti eiginleika sem felur í sér vistað yfirlit. Til að sjá staðlað vistað yfirlit í kerfinu verður að kveikja á tilgreindum eiginleika í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Frá og með útgáfu 10.0.25 er sjálfgefið kveikt á öllum sýnum á listanum.
 
 ## <a name="saved-views-for-the-inventory-management-module"></a>Vistuð yfirlti fyrir einingu birgðastjórnunarkerfis
 

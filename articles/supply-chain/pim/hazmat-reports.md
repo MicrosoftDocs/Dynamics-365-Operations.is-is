@@ -1,6 +1,6 @@
 ---
 title: Fyrirspurnir og skýrslur um hættuleg efni
-description: Þetta efnisatriði útskýrir hvernig á að vinna með ýmsar skýrslur sem tengjast hættulegum efnum. Margar þessara skýrslna eru nauðsynlegar svo að þú fylgir ýmsum reglugerðum varðandi hættuleg efni við sendingu og geymslu.
+description: Þessi grein útskýrir hvernig á að vinna með hinar ýmsu skýrslur sem tengjast hættulegum efnum. Margar þessara skýrslna eru nauðsynlegar svo að þú fylgir ýmsum reglugerðum varðandi hættuleg efni við sendingu og geymslu.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 782b1b4995af09a63c483d2b81ed255a5c11803a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568544"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846041"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Fyrirspurnir og skýrslur um hættuleg efni
 
@@ -63,7 +63,7 @@ Til að skoða þessa skýrslu skal fara á **Afurðarupplýsingastjórnun \> Fy
 
 Frekari upplýsingar um hvernig á að stilla birgðamörk á útgefna afurð er að finna á [Stilla birgðamörk fyrir hættulegar afurðir](hazmat-items.md#stock-limits).
 
-Reglugerðin sem er notuð fyrir birgðamörk er skilgreind á síðunni **Færibreytur vöruhúsakerfis**. Farið í **Vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsastjórnunar** og síðan, í **Skýrslur** , í **Birgðamörk hættulegra efna** skal tilgreina reglukóða. Frekari upplýsingar er að finna í hlutanum [Setja upp skýrslur fyrir hættuleg efni](#set-up) fyrr í þessu efnisatriði.
+Reglugerðin sem er notuð fyrir birgðamörk er skilgreind á síðunni **Færibreytur vöruhúsakerfis**. Farið í **Vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsastjórnunar** og síðan, í **Skýrslur** , í **Birgðamörk hættulegra efna** skal tilgreina reglukóða. Fyrir frekari upplýsingar, sjá [Settu upp tilkynningar um hættuleg efni](#set-up) kafla fyrr í þessari grein.
 
 ## <a name="verified-gross-mass-report"></a>Staðfest skýrsla brúttómassa
 

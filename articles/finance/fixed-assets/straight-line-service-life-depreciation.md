@@ -1,6 +1,6 @@
 ---
-title: Línuleg afskrift líftíma
-description: Þetta efnisatriði gefur yfirlit yfir afskriftaaðferðina Línulegar líftímaafskriftir.
+title: Línulegar líftímaafskriftir
+description: Þessi grein gefur yfirlit yfir afskriftaaðferðina Línulegar líftímaafskriftir.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d39bfea3f222d83d3b3d47e4ba931521b8e1aed0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 8766d38958ccb17142132fb78d04368f1b73af71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896464"
 ---
-# <a name="straight-line-service-life-depreciation"></a>Línuleg afskrift líftíma
+# <a name="straight-line-service-life-depreciation"></a>Línulegar líftímaafskriftir
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði gefur yfirlit yfir afskriftaaðferðina Línulegar líftímaafskriftir.
+Þessi grein gefur yfirlit yfir afskriftaaðferðina Línulegar líftímaafskriftir.
 
 Þegar afskriftaregla fyrir eignir er sett upp og velur og línulegur líftími í reitnum Aðferð í síðunni afskriftareglu, eru eignirnar sem hafa þessa afskriftarreglu úthlutaða á sig afskrifaðar byggt á heildar líftíma eignar. Þetta er að öllu jöfnu sama afskriftarupphæðin á hverju afskriftatímabili. 
 
@@ -41,7 +41,7 @@ Hægt er að velja annað hvort Dagatal eða Fjárhagsár á svæði fyrir afskr
 
 Ef Dagatal er valið er gert ráð fyrir ári sem er 1. Janúar til 31. Desember , jafnvel ef fjárhagsdagatalið hefur verið skilgreint annan hátt. 
 
-Valmöguleikinn dagatal uppfærir afskriftagrunninn (vanalega bókað nettóverð að frádregnu hrakvirði) þann 1. janúar ár hvert. Í dæmunum hér að neðan er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. 
+Valmöguleikinn dagatal uppfærir afskriftagrunninn (vanalega bókað nettóverð að frádregnu hrakvirði) þann 1. janúar ár hvert. Í dæmunum síðar í þessari grein er afskriftagrunnurinn teljarinn í fyrstu tjáningu í útreikningsdálknum. 
 
 Ef dagatal er valið eru eftirfarandi valkostir á svæðinu tímabilstíðni, sem skilgreinir bókunardagsetningar uppsafnaðra afskrifta og upphæðir yfir allt almanaksárið:
 - Árleg upphæð bókar 31. Desember.

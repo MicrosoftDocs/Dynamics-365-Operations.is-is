@@ -1,6 +1,6 @@
 ---
 title: Virkni samsetts tímabils
-description: Þetta efnisatriði veitir upplýsingar sem gera notanda kleift að velja á milli mánaðarlegra, ársfjórðungslegra, hálfsárslegra og árslegra tímabila.
+description: Þessi grein veitir upplýsingar sem hjálpa þér að velja á milli mánaðarlegra, ársfjórðungslega, hálfsárs og árlegra samsetningar.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d1b8af3d5f8f6a6812fe309f57f682d0c5023d00
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 2de5f1e9d52de41388298031a03fbc487a1b1cde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710443"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886415"
 ---
 # <a name="compounding-interval-functionality"></a>Virkni samsetts tímabils
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Þetta efnisatriði veitir upplýsingar sem gera notanda kleift að velja á milli mánaðarlegra, ársfjórðungslegra, hálfsárslegra og árslegra tímabila. Samsett tímabil eru notuð til að ákvarða fjölda samsettra tímabila á ári í greiðsluáætlun leigusamnings. Hvert af fjórum dæmunum í þessu efnisatriði sýnir hvernig greiðsluáætlun leigu mun líta út fyrir annað tímabil.
+Þessi grein veitir upplýsingar sem hjálpa þér að velja á milli mánaðarlegra, ársfjórðungslega, hálfsárs og árlegra samsetningar. Samsett tímabil eru notuð til að ákvarða fjölda samsettra tímabila á ári í greiðsluáætlun leigusamnings. Hvert af dæmunum fjórum í þessari grein sýnir hvernig greiðsluáætlun leigusamnings mun líta út með mismunandi millibili.
 
 Ekki er hægt að velja samsett tímabil sem er sjaldnar en greiðslutíðni leigusamningsins. Til dæmis er ekki hægt að nota ársfjórðungsleg samsett tímabil með mánaðarlegri greiðslu og ekki er hægt að nota árlegt samsett tímabil með hálfsárslegri greiðslu. Ef reynt er að velja samsett tímabil sem er sjaldnar en greiðslutíðni leigusamnings birtast villuboð.
 
 > [!NOTE]
-> Í öllum fjórum dæmum í þessu efnisatriði passar samsett tímabil við greiðslutíðnina.
+> Í öllum fjórum dæmunum í þessari grein passar samsetningarbilið við greiðslutíðni.
 
 ## <a name="examples"></a>Dæmi
 

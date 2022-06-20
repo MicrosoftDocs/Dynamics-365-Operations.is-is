@@ -1,6 +1,6 @@
 ---
 title: Tölvupóstur ER-gerð áfangastaðar
-description: Þetta efnisatriði útskýrir hvernig á að skilgreina áfangastað tölvupósts fyrir hverja MÖPPU eða SKRÁARHLUTA rafræns skýrslugerðarsniðs.
+description: Þessi grein útskýrir hvernig á að stilla áfangastað fyrir tölvupóst fyrir hvern Möppu eða SKRÁ hluta á rafrænu skýrslusniði (ER).
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 08d64b0f21e4957727de1e8f5f13f9067c0fbc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324009"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845658"
 ---
 # <a name="email-er-destination-type"></a>Tölvupóstur ER-gerð áfangastaðar
 
@@ -120,7 +120,7 @@ Til dæmis til að grunnstilla viðtökustað tölvupósts fyrir ER-snið sem er
 
 ![Skilgreining uppruna tölvupóstfangs.](./media/er_destinations-emaildefineaddresssource.gif)
 
-Ef lykilnúmer skilgreinda hlutverksins eru einkvæm fyrir allt tilvik Microsoft Dynamics 365 Finance, má reiturinn **Fyrirtæki tölvupóstsuppruna** í svarglugganum **Senda tölvupóst til** vera áfram auður.
+Ef reikningsnúmer stillta hlutverksins eru einstök fyrir allt tilvikið af Microsoft Dynamics 365 Fjármál, the **Fyrirtæki sem er uppspretta tölvupósts** sviði í **Tölvupóstur á** svarglugginn getur verið auður.
 
 Einnig gæti komið um sú staða þar sem mismunandi aðilar í [Altækri aðsetursbók](../../fin-ops/organization-administration/overview-global-address-book.md) hafi verið skráðir í mismunandi fyrirtæki ([lögaðilar](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) á þann hátt að þeir nota allir sama lykilnúmerið til að fylla út skilgreint hlutverk. Í þessu tilviki eru lykilnúmer fyrir skilgreint hlutverk ekki einkvæm fyrir allt Finance-tilvikið. Til að velja ákveðinn aðila er þess vegna ekki hægt að tilgreina aðeins lykilnúmer. Einnig þarf að tilgreina fyrirtækið sem aðilinn hefur verið skráður í til að fylla út skilgreint hlutverk. Velja skal hnappinn **Binda** (keðjutáknið) við hliðina á reitnum **Fyrirtæki tölvupóstsuppruna** í svarglugganum **Senda tölvupóst til** til að opna síðuna [Formúluhönnuður](general-electronic-reporting-formula-designer.md). Síðan er hægt að nota þessa síðu til að skilgreina formúlu sem skilar við keyrslu kóða fyrirtækisins sem æskilegur uppruni verður að finnast í.
 
@@ -162,7 +162,7 @@ Eftirfarandi mynd sýnir skipulag á sniði rafrænnar skýrslugerðar sem var s
 
 [![Skiplag á sniði rafrænnar skýrslugerðar sem myndar skjöl á útleið.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
-Eftirfarandi mynd sýnir ferlið, eins og lýst er í þessu efnisatriði, um flokkun einstakra hluta og virkjun á viðtökustað **Tölvupósts** fyrir nýja flokkinn þannig að athugasemd innheimtubréfs er sent ásamt viðeigandi reikningum viðskiptavinar sem tölvupóstviðhengi.
+Eftirfarandi mynd sýnir ferlið, eins og lýst er í þessari grein, við að flokka einstaka íhluti og virkja **Tölvupóstur** áfangastaður fyrir nýja hópinn, þannig að innheimtubréfsseðill er sendur ásamt viðeigandi reikningum viðskiptavina sem viðhengi í tölvupósti.
 
 [![Flokkun einstakra hluta og virkjun á viðtökustað tölvupósts.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 

@@ -1,8 +1,8 @@
 ---
-title: Stilla sýnileika birgða
-description: Þetta efnisatriði lýsir hvernig á að skilgreina birgðasýnileika.
+title: Skilgreina Inventory Visibility
+description: Þessi grein lýsir því hvernig á að stilla birgðasýnileika.
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786839"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895816"
 ---
-# <a name="configure-inventory-visibility"></a>Stilla sýnileika birgða
+# <a name="configure-inventory-visibility"></a>Skilgreina Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-Þetta efnisatriði lýsir hvernig á að skilgreina birgðasýnileika með forriti birgðasýnileika í Power Apps.
+Þessi grein lýsir því hvernig á að stilla Birgðasýnileika með því að nota Birgðasýnileika appið í Power Apps.
 
 ## <a name="introduction"></a><a name="introduction"></a>Kynning
 
-Áður en byrjað er að vinna með birgðasýnileika þarf að ljúka eftirfarandi skilgreiningu eins og lýst er í þessu efnisatriði:
+Áður en þú byrjar að vinna með Birgðasýnileika verður þú að ljúka eftirfarandi uppsetningu eins og lýst er í þessari grein:
 
 - [Skilgreining gagnagjafa](#data-source-configuration)
 - [Skilgreining þáttunar](#partition-configuration)
@@ -41,20 +41,21 @@ ms.locfileid: "8786839"
 
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>Skilgreiningasíða forrits birgðasýnileika
 
-Í Power Apps hjápar síðan **Skilgreining** [Birgðasýnileikaforrits](inventory-visibility-power-platform.md) til við að setja upp lagerskilgreiningu og skilgreiningu mjúkrar frátekningar. Eftir að viðbótin hefur verið sett upp inniheldur sjálfgefna stillingin gildið frá Microsoft Dynamics 365 Supply Chain Management (`fno` gagnagjafinn). Hægt er að fara yfir sjálfgefnu stillingarnar. Byggt á viðskiptaþörfum þínum og þörfum birgðabókunar ytra kerfisins geturðu auk þess breytt skilgreiningunni til að staðla leiðina sem hægt er að bóka, skipuleggja og senda fyrirspurn á birgðabreytingar í hinum ýmsu kerfum. Eftirstandandi hlutar þessa efnisatriðis útskýra hvernig á að nota hvern hluta **Skilgreiningarsíðunnar**.
+Í Power Apps hjápar síðan **Skilgreining** [Birgðasýnileikaforrits](inventory-visibility-power-platform.md) til við að setja upp lagerskilgreiningu og skilgreiningu mjúkrar frátekningar. Eftir að viðbótin hefur verið sett upp inniheldur sjálfgefna stillingin gildið frá Microsoft Dynamics 365 Supply Chain Management (`fno` gagnagjafinn). Hægt er að fara yfir sjálfgefnu stillingarnar. Byggt á viðskiptaþörfum þínum og þörfum birgðabókunar ytra kerfisins geturðu auk þess breytt skilgreiningunni til að staðla leiðina sem hægt er að bóka, skipuleggja og senda fyrirspurn á birgðabreytingar í hinum ýmsu kerfum. Hinir hlutar þessarar greinar útskýra hvernig á að nota hvern hluta af **Stillingar** síðu.
 
 Þegar skilgreiningunni er lokið skal ganga úr skugga um að velja **Uppfæra skilgreiningu** í forritinu.
 
 ## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Virkja eiginleika birgðasýnileika í Power Apps eiginleikastjórnun
 
-Innbót birgðasýnileika bætir ýmsum nýjum eiginleika við Power Apps uppsetninguna þína. Sjálfgefið er slökkt á þessum eiginleikum. Til að nota þá skaltu opna **Stillingar** síðu og síðan á **Eiginleikastjórnun** flipann, kveiktu á eftirfarandi eiginleikum eins og þú þarft.
+Innbót birgðasýnileika bætir ýmsum nýjum eiginleika við Power Apps uppsetninguna þína. Sjálfgefið er slökkt á þessum eiginleikum. Til að nota þá skaltu opna **Stillingar** síðu og síðan á **Eiginleikastjórnun** flipann, kveiktu á eftirfarandi eiginleikum eftir þörfum.
 
 | Heiti eiginleikastjórnunar | Lýsing |
 |---|---|
 | *OnHandReservation* | Þessi eiginleiki gerir þér kleift að búa til pantanir, neyta bókana og/eða afpanta tiltekið birgðamagn með því að nota Birgðasýnileika. Frekari upplýsingar er að finna í [Frátekningar birgðasýnileika](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Þessi eiginleiki veitir birgðayfirlit fyrir vörur, ásamt öllum víddum. Gögn birgðasamantektar verða samstillt reglulega úr birgðasýnileika. Fyrir frekari upplýsingar, sjá [Birgðayfirlit](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | Þessi valfrjálsi eiginleiki gerir kleift að breyta áætluninni við höndina og eiginleika sem hægt er að lofa (ATP). Fyrir frekari upplýsingar, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlun og hægt að lofa](inventory-visibility-available-to-promise.md). |
-| *Virkja vörur vöruhúss í birgðasýnileika* | Þessi valfrjálsi eiginleiki gerir birgðasýnileika kleift að styðja við vörur sem eru virkjaðar fyrir háþróaða vöruhúsaferla (WHS vörur). Fyrir frekari upplýsingar, sjá [Stuðningur við birgðasýnileika fyrir WHS hluti](inventory-visibility-whs-support.md). |
+| *Úthlutun* | Þessi valfrjálsi eiginleiki gerir Birgðasýnileika kleift að hafa möguleika á birgðavörn (hringgirðingu) og yfirsölustýringu. Fyrir frekari upplýsingar, sjá [Birgðasýnileiki birgðaúthlutun](inventory-visibility-allocation.md). |
+| *Virkja vörur vöruhúss í birgðasýnileika* | Þessi valfrjálsi eiginleiki gerir birgðasýnileika kleift að styðja við vörur sem eru virkjaðar fyrir háþróaða vöruhúsaferli (WHS vörur). Fyrir frekari upplýsingar, sjá [Stuðningur við birgðasýnileika fyrir WHS hluti](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Finna endastöð þjónustu
 
@@ -116,7 +117,7 @@ Tilgangur víddarskilgreiningar er að staðla samþættingu margra kerfa fyrir 
 >
 > Birgðavíddir (sérstilltar) kunna að vera fráteknar fyrir Supply Chain Management. Í því tilviki er hægt að nota útvíkkaðar víddir í staðinn.
 
-Ytri kerfi geta fengið aðgang að birgðasýnileika í gegnum RESTful API. Fyrir samþættinguna gerir birgðasýnileiki þér kleift að skilgreina _ytri gagnagjafa_ og vörpunina úr _ytri víddum_ í _grunnvíddir_. Hér er dæmi um töflu víddarvörpunar.
+Ytri kerfi geta fengið aðgang að birgðasýnileika í gegnum RESTful API. Fyrir samþættinguna gerir birgðasýnileiki þér kleift að skilgreina _ytri gagnagjafa_ og vörpunina úr _ytri víddum_ í _grunnvíddir_. Hér er dæmi um víddarkortatöflu.
 
 | Ytri vídd | Grunnvídd |
 |---|---|
@@ -194,9 +195,9 @@ Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
 1. Veldu **Bæta við** til að bæta við breytu við nýja reiknaða mælinguna.
 1. Stilltu eftirfarandi reiti fyrir nýja breytimanninn:
 
-    - **Breytir** – Veldu breytigerð (*Viðbót* eða *Frádráttur*).
+    - **Breytir** – Veldu gerð breytibúnaðar (*Viðbót* eða *Frádráttur*).
     - **Uppspretta gagna** – Veldu gagnagjafann þar sem mælikvarðinn sem gefur breytigildið á að finnast.
-    - **Mæla** – Veldu heiti mælingar (frá völdum gagnagjafa) sem gefur upp gildi fyrir breytimann.
+    - **Mæla** – Veldu heiti mælingar (frá völdum gagnagjafa) sem gefur upp gildi fyrir breytileikann.
 
 1. Endurtaktu skref 5 til 6 þar til þú hefur bætt við öllum nauðsynlegum breytingum.
 1. Veldu **Vista**.
@@ -286,7 +287,7 @@ Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Skilgreining þáttunar
 
-Eins og er samanstendur skiptingin af tveimur grunnvíddum (`SiteId` og`LocationId`) sem gefa til kynna hvernig gögnunum er dreift. Aðgerðir undir sama skipting geta skilað meiri afköstum með lægri kostnaði. Eftirfarandi tafla sýnir sjálfgefna skiptingarstillingu sem Inventory Visibility Add-in veitir.
+Eins og er samanstendur skiptingin af tveimur grunnvíddum (`SiteId` og`LocationId`) sem gefa til kynna hvernig gögnunum er dreift. Aðgerðir undir sama skipting geta skilað meiri afköstum með lægri kostnaði. Eftirfarandi tafla sýnir sjálfgefna skiptingastillingu sem Inventory Visibility Add-in veitir.
 
 | Grunnvídd | Stigveldi |
 |---|---|
@@ -318,7 +319,14 @@ Til að setja upp atriðaskrá afurðastigveldis skal fylgja þessum skrefum.
 1. Listi yfir atriðaskrár er sjálfgefið gefinn upp. Til að breyta núverandi atriðaskrá skal velja **Breyta** eða **Bæta við** í hlutanum fyrir viðeigandi atriðaskrá. Til að búa til nýja atriðaskrá skal velja **Nýtt safn atriðaskráar**. Fyrir hverja línu í hverju safni atriðaskráar, í reitnum **Vídd**, skal velja úr listanum yfir grunnvíddir. Gildi fyrir eftirfarandi reiti eru sjálfkrafa búin til:
 
     - **Stilla númer** – Víddir sem tilheyra sama flokknum (atriðaskrá) verða flokkaðar saman og þeim verður úthlutað sama stillta númerinu.
-    - **Stigveldi** – Stigveldið er notað til að skilgreina studdar víddarsamsetningar sem hægt er að senda fyrirspurn á í víddaflokki (atriðaskrá). Ef til dæmis er settur upp víddaflokkur sem er með stigveldisröðina *Stíll*, *Litur* og *Stærð* styður kerfið niðurstöðu þriggja fyrirspurnarflokka. Fyrsti hópurinn er eingöngu stíll. Annar hópurinn er sambland af stíl og lit. Og þriðji hópurinn er sambland af stíl, lit og stærð. Aðrar samsetningar eru ekki studdar.
+    - **Stigveldi** – Stigveldið er notað til að skilgreina studdar víddarsamsetningar sem hægt er að senda fyrirspurn á í víddaflokki (atriðaskrá). Til dæmis, ef þú setur upp víddarhóp sem hefur stigveldisröð af *Stíll*, *·*, og *Stærð*, kerfið styður niðurstöðu þriggja fyrirspurnahópa. Fyrsti hópurinn er eingöngu stíll. Annar hópurinn er sambland af stíl og lit. Og þriðji hópurinn er sambland af stíl, lit og stærð. Aðrar samsetningar eru ekki studdar.
+
+> [!TIP]
+> Hér eru nokkur ráð til að hafa í huga þegar þú setur upp vísitölustigveldið þitt:
+>
+> - Grunnvíddir sem eru skilgreindar í skiptingarstillingunni ættu ekki að vera skilgreindar í vísitölustillingum. Ef grunnvídd er skilgreind aftur í vísitölustillingunni muntu ekki geta spurt eftir þessari vísitölu.
+> - Ef þú þarft aðeins að spyrjast fyrir um birgðahald sem er safnað saman af öllum víddarsamsetningum skaltu setja upp eina vísitölu sem inniheldur grunnvíddina `Empty`.
+> - Þú verður að hafa að minnsta kosti eitt vísitölustigveldi (til dæmis sem inniheldur grunnvíddina`Empty`), annars mistakast fyrirspurnir með villunni "Ekkert vísitölustigveldi hefur verið stillt."
 
 ### <a name="example"></a>Dæmi
 
@@ -372,11 +380,6 @@ Atriðaskráin gerir þér kleift að senda fyrirspurn á lagerbirgðirnar á ef
     - Bolur, rauður, lítill, venjulegur, 6
     - Bolur, rauður, stór, venjulegur, 7
 
-> [!NOTE]
-> Grunnvíddir sem eru skilgreindar í skilgreiningu þáttunar eiga ekki að vera skilgreindar í skilgreiningum atriðaskráar.
-> 
-> Ef þú verður að spyrjast eingöngu fyrir um birgðir sem eru teknar saman eftir öllum víddarsamsetningum, geturðu sett upp eina vísun sem inniheldur grunnvíddina `Empty`.
-
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Skilgreining frátekningar (valfrjálst)
 
 Skilgreining bókunar er nauðsynleg ef þú vilt nota eiginleika mjúkrar frátekningar. Skilgreiningin samanstendur af tveimur grunnþáttum:
@@ -390,7 +393,7 @@ Skilgreining bókunar er nauðsynleg ef þú vilt nota eiginleika mjúkrar frát
 
 Með því að setja upp vörpun úr efnislegri mælingu í reiknaða mælingu gerir þú þjónustu birgðasýnileika kleift að sjálfkrafa staðfesta stöðu frátekningar samkvæmt efnislegu mælingunni.
 
-Áður en þessi vörpun er sett upp þarf að skilgreina efnislegar mælingar, reiknaðar mælingar og gagnagjafa þeirra í flipunum **Gagnagjafi** og **Reiknuð mæling** á síðunni **Skilgreining** í Power Apps (eins og lýst er fyrr í þessu efnisatriði).
+Áður en þú setur upp þessa kortlagningu verður að skilgreina líkamlegu mælikvarðana, reiknaða mælikvarðana og gagnagjafa þeirra á **Uppspretta gagna** og **Reiknaður mælikvarði** flipa á **Stillingar** síðu inn Power Apps (eins og lýst er fyrr í þessari grein).
 
 Til að skilgreina vörpun mjúkrar frátekningar skal fylgja þessum skrefum.
 
@@ -460,7 +463,7 @@ Frátekningarstigveldið útskýrir röð vídda sem þarf að tilgreina þegar 
 
 Frátekningarstigveldið er óháð stigveldi atriðaskráar. Þetta sjálfstæði gerir þér kleift að innleiða flokkastjórnun þar sem notendur sundurliðað víddirnar í smáatriði til að tilgreina kröfurnar við að gera nákvæmari frátekningar. Mjúka frátekningastigveldið ætti að innihalda `SiteId` og `LocationId` sem þætti vegna þess að þeir setja saman skilgreiningu þáttunarinnar. Þegar frátekningin er gerð þarftu að tilgreina þáttun fyrir afurðina.
 
-Hér er dæmi um mjúkt frátekningastigveldi.
+Hér er dæmi um mjúkt pöntunarstigveldi.
 
 | Grunnvídd | Stigveldi |
 |---|---|
@@ -508,7 +511,7 @@ Gild víddarröð ætti að fylgja nákvæmlega frátekningastigveldinu, vídd e
 
 Í þessum kafla er lýst hvernig `iv` gagnagjafinn er skilgreindur.
 
-##### <a name="physical-measures-configured-for-the-iv-data-source"></a>Efnislegar mælingar skilgreindar fyrir iv gagnagjafann
+##### <a name="physical-measures-configured-for-the-iv-data-source"></a>Líkamlegar ráðstafanir stilltar fyrir „iv“ gagnagjafann
 
 Eftirfarandi efnislegar mælingar eru skilgreindar fyrir `iv` gagnagjafann:
 
@@ -646,16 +649,16 @@ Reiknuð mæling `InventoryDemand` er skilgreind fyrir `iv` gagnagjafann eins og
 | samlagning | `iom` | `OnOrder` |
 | samlagning | `iv` | `SoftReservPhysical` |
 | samlagning | `iv` | `SoftReservOrdered` |
-| samlagning | `fno` | `ReservPhysical` |
-| samlagning | `fno` | `ReservOrdered` |
-| samlagning | `iv` | `ReservPhysical` |
-| samlagning | `iv` | `ReservOrdered` |
+| Viðbót | `fno` | `ReservPhysical` |
+| Viðbót | `fno` | `ReservOrdered` |
+| Viðbót | `iv` | `ReservPhysical` |
+| Viðbót | `iv` | `ReservOrdered` |
 
-#### <a name="configuration-of-the-fno-data-source"></a>Skilgreining fno gagnagjafa
+#### <a name="configuration-of-the-fno-data-source"></a>Stilling „fno“ gagnagjafans
 
 Í þessum kafla er lýst hvernig `fno` gagnagjafinn er skilgreindur.
 
-##### <a name="dimension-mappings-for-the-fno-data-source"></a>Vörpun vídda fyrir fno gagnagjafann
+##### <a name="dimension-mappings-for-the-fno-data-source"></a>Víddarkortanir fyrir „fno“ gagnagjafann
 
 Vörpun vídda sem er sýnd í eftirfarandi töflu er skilgreind fyrir `fno` gagnagjafann.
 
@@ -687,7 +690,7 @@ Vörpun vídda sem er sýnd í eftirfarandi töflu er skilgreind fyrir `fno` gag
 | `InventDimension11` | `CustomDimension11` |
 | `InventDimension12` | `CustomDimension12` |
 
-##### <a name="physical-measures-configured-for-the-fno-data-source"></a>Efnislegar mælingar skilgreindar fyrir fno gagnagjafann
+##### <a name="physical-measures-configured-for-the-fno-data-source"></a>Líkamlegar ráðstafanir stilltar fyrir „fno“ gagnagjafann
 
 Eftirfarandi efnislegar mælingar eru skilgreindar fyrir `fno` gagnagjafann:
 
@@ -699,11 +702,11 @@ Eftirfarandi efnislegar mælingar eru skilgreindar fyrir `fno` gagnagjafann:
 - `ReservOrdered`
 - `OnOrder`
 
-#### <a name="configuration-of-the-pos-data-source"></a>Skilgreining pos gagnagjafans
+#### <a name="configuration-of-the-pos-data-source"></a>Stilling „pos“ gagnagjafans
 
 Í þessum kafla er lýst hvernig gagnagjafinn `pos` er skilgreindur.
 
-##### <a name="physical-measures-for-the-pos-data-source"></a>Efnislegar mælingar fyrir pos gagnagjafann
+##### <a name="physical-measures-for-the-pos-data-source"></a>Líkamlegar mælingar fyrir „pos“ gagnagjafann
 
 Eftirfarandi efnislegar mælingar eru skilgreindar fyrir `pos` gagnagjafann:
 
@@ -716,18 +719,18 @@ Reiknuð mæling `AvailQuantity` er skilgreind fyrir `pos` gagnagjafann eins og 
 
 | Reiknigerð | Gagnaveita | Efnisleg mæling |
 |---|---|---|
-| samlagning | `fno` | `AvailPhysical` |
-| samlagning | `pos` | `PosInbound` |
+| Viðbót | `fno` | `AvailPhysical` |
+| Viðbót | `pos` | `PosInbound` |
 | Frádráttur | `pos` | `PosOutbound` |
 
-#### <a name="configuration-of-the-iom-data-source"></a>Skilgreining iom gagnagjafans
+#### <a name="configuration-of-the-iom-data-source"></a>Stilling "iom" gagnagjafans
 
 Eftirfarandi efnislegar mælingar eru skilgreindar fyrir `iom` (snjalla pantanastjórnun) gagnagjafann:
 
 - `OnOrder`
 - `OnHand`
 
-#### <a name="configuration-of-the-erp-data-source"></a>Skilgreining erp gagnagjafans
+#### <a name="configuration-of-the-erp-data-source"></a>Stilling „erp“ gagnagjafans
 
 Eftirfarandi efnislegar mælingar eru skilgreindar fyrir `erp` (skipulagsáætlun fyrirtækis) gagnagjafann:
 

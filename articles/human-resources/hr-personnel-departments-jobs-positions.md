@@ -1,6 +1,6 @@
 ---
 title: Skipuleggja starfsfólk með því að nota deildir, störf og stöður
-description: Þetta efnisatriði lýsir hugmyndafræðilegum upplýsingum um deildir, störf og stöður, sem eru skipulagsþættir sem viðhaldið er innan mannauðs.
+description: Þessi grein lýsir hugmyndafræðilegum upplýsingum um deildir, störf og stöður, sem eru skipulagsþættir sem viðhaldið er innan mannauðs.
 author: twheeloc
 ms.date: 01/03/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 717bf7dcbd9a7e19a6dc960648655fdbd3e2465a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0cb4e745eb6531d90a02778ba85e6caf790f2d46
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694824"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874276"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Skipuleggja starfsfólk með því að nota deildir, störf og stöður
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694824"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Deildir, störf og stöður eru fyrirtækjaeiningar sem er viðhaldið innan Mannauðs. Þetta efnisatriði gefur upplýsingar um merkingu þessara hugtaka. 
+Deildir, störf og stöður eru fyrirtækjaeiningar sem er viðhaldið innan Mannauðs. Þessi grein gefur upplýsingar um merkingu þessara hugtaka. 
 
 Eftirfarandi dæmi er notuð til að sýna hugtök sem lýst er í þessari grein.
 
@@ -101,7 +101,7 @@ Hvert stöðu hefur lengd tímans sem staðan er virk. Þessi tímalengd kallast
 ### <a name="reporting-relationships"></a>Skýrslugerð um vensl
 Stöður eru mikilvægar einingar í lægri stig í stigveldi fyrirtækis. Á síðunni **Staða** er hægt að tilgreina stöðuna sem staða heyrir undir. Þegar starfsmanni er úthlutað á stöðu sem veitir skýrslur í aðra stöðu, þú stofna skýrslugerðarsambandi milli starfsmanna sem úthlutað er á þessar tveimur stöður. Til dæmis stöðu "Bókari-A" veitir skýrslur til "Yfirmaður bókhalds" Ana Bowman er skipað í stöðu „bókhaldsstjóra“ og Felix Henderson er skipað í stöðu „bókhaldara-A“. Þetta þýðir að Felix Henderson heyrir undir Ana Bowman. 
 
-Ef fyrirtækið notar fylkisstigveldi eða annað sérsniðna stigveldi, geturðu setja upp stigveldisgerðir staða og bæta síðan skýrslugerðarvensl við stöður fyrir hverja gerð stigveldis sem er sett upp. Til dæmis er Olivia Wilson framkvæmdastjóri hjá Adventure Works og er skipað í stöðuna „General Manager“. Olivia stýrir þróun vöru sem er notuð til að þrífa græjur. Olivia krefst endurskoðanda til að aðstoða við fjármál við þróun vörunnar. Þess vegna hefur hún ráðið Felix Henderson sem endurskoðanda. Felix heyrir beint undir Ana Bowman, en vinnur einnig með Olivia Wilson í starfi hans sem tengist fjármálum við þróun græjuhreinsiefnisins. 
+Ef fyrirtækið notar fylkisstigveldi eða annað sérsniðna stigveldi, geturðu setja upp stigveldisgerðir staða og bæta síðan skýrslugerðarvensl við stöður fyrir hverja gerð stigveldis sem er sett upp. Til dæmis er Olivia Wilson framkvæmdastjóri hjá Adventure Works og er skipað í stöðuna „General Manager“. Olivia stýrir þróun vöru sem er notuð til að þrífa græjur. Olivia krefst endurskoðanda til að aðstoða við fjármál við þróun vörunnar. Því hefur hún ráðið Felix Henderson sem endurskoðanda. Felix heyrir beint undir Ana Bowman, en vinnur einnig með Olivia Wilson í starfi hans sem tengist fjármálum við þróun græjuhreinsiefnisins. 
 
 Fyrir fyrra dæmið myndirðu klára eftirfarandi verkefni til að setja upp vinnusamband milli Felix Henderson og Ana Bowman:
 1.  Búa til sérsniðnar stöðu fyrir gerð stigveldis sem heitir "Widget" til að búa til stigveldi sem felur í sér stöðu sem bera ábyrgð fyrir að vinna á vöru til að hreinsa búnað..

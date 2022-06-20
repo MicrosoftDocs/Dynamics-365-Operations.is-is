@@ -1,6 +1,6 @@
 ---
 title: Minnkunarlyklar samkvæmt spá
-description: Þetta efnisatriði veitir dæmi sem sýna hvernig á að setja upp minnkunarlykil. Hún felur í sér upplýsingar um mismunandi stillingar minnkunarlykla og niðurstöður hverrar fyrir sig. Hægt er að nota minnkunarlykil til að skilgreina hvernig á að lækka spárþarfir.
+description: Þessi grein gefur dæmi sem sýna hvernig á að setja upp minnkunarlykil. Hún felur í sér upplýsingar um mismunandi stillingar minnkunarlykla og niðurstöður hverrar fyrir sig. Hægt er að nota minnkunarlykil til að skilgreina hvernig á að lækka spárþarfir.
 author: t-benebo
 ms.date: 04/15/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 054eb28044e532ed2850cde21cb2f9fb5181ae02
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 5cf84598b731e9750e3cf79d312bf0bbf4f8bd81
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468979"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854269"
 ---
 # <a name="forecast-reduction-keys"></a>Minnkunarlyklar samkvæmt spá
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um ólíkar aðferðir sem eru notaðar til að minnka þarfir samkvæmt spá. Það inniheldur dæmi um niðurstöður hverrar aðferðar. Það útskýrir einnig hvernig á að búa til, setja upp og nota minnkunarlykil samkvæmt spá. Hægt er að nota minnkunarlykil samkvæmt spá til að draga úr þörfum samkvæmt spá.
+Þessi grein veitir upplýsingar um mismunandi aðferðir sem eru notaðar til að draga úr spákröfum. Það inniheldur dæmi um niðurstöður hverrar aðferðar. Það útskýrir einnig hvernig á að búa til, setja upp og nota minnkunarlykil samkvæmt spá. Hægt er að nota minnkunarlykil samkvæmt spá til að draga úr þörfum samkvæmt spá.
 
 ## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>Aðferðir sem eru notaðar til að draga úr þörfum samkvæmt spá
 

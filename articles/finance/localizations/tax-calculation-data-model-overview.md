@@ -1,6 +1,6 @@
 ---
 title: Gagnalíkan skattaútreiknings
-description: Þetta efnisatriði veitir upplýsingar um skattagagnalíkanið og hvernig reitargildi hvers gagnalíkans ákvarðast af samhengi skattaútreikningsfærslna.
+description: Þessi grein veitir upplýsingar um skattgagnalíkanið og hvernig svæðisgildi hvers gagnalíkans eru ákvörðuð af samhengi skattútreikningsfærslna.
 author: kailiang
 ms.date: 10/15/2021
 ms.topic: overview
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 759803767111c27cba76b68430e09a0d9dd6110f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694257"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859696"
 ---
 # <a name="tax-calculation-data-model"></a>Gagnalíkan skattaútreiknings
 
-Þetta efnisatriði veitir upplýsingar um hvernig reitargildi hvers gagnalíkans ákvarðast í skattaútreikningsfærslum.
+Þessi grein veitir upplýsingar um hvernig svæðisgildi í skattgagnalíkani eru ákvörðuð í skattútreikningsfærslum.
 
 *Skattagagnalíkanið* samanstendur af reitum sem eru nauðsynlegir fyrir útreikninga á skatti. Microsoft veitir *skattreikningsgagnalíkan*, sem inniheldur hausreit og línureit færsluskjala í Finance and Operations forritum. Reitirnir sem eru skilgreindir í skattaútreikningsgagnalíkaninu eru tiltækir dálkar í töflunum fyrir reglur um nothæfi í uppsetningu eiginleikastillingarinnar fyrir skattaútreikning.
 
@@ -54,7 +54,7 @@ Einnig er hægt að skoða skattaútreikningsgagnalíka og dálkana sem eru tilt
 
     [![Stjórna dálkum.](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-Skattreikningsgagnalíkanið er samþætt við Finance and Operations öpp. Við hverja færslu sem tengist skattaútreikningi eru gildi þeirra reita sem skilgreindir eru í töflunum fyrir reglur um gildissvið innheimt og send skattaútreikningsþjónustunni til útreiknings. Í útgáfu 40.46 eru 57 fyrirframskilgreind gagnalíkön tiltæk fyrir eftirfarandi færslur: innkaupapantanir, sölupantanir, millifærslupantanir, innkaupabeiðnir, beiðnir um verðtilboð og sölutilboð.
+Skattareikningsgagnalíkanið er samþætt við Finance and Operations öpp. Við hverja færslu sem tengist skattaútreikningi eru gildi þeirra reita sem skilgreindir eru í töflunum fyrir reglur um gildissvið innheimt og send skattaútreikningsþjónustunni til útreiknings. Í útgáfu 40.46 eru 57 fyrirframskilgreind gagnalíkön tiltæk fyrir eftirfarandi færslur: innkaupapantanir, sölupantanir, millifærslupantanir, innkaupabeiðnir, beiðnir um verðtilboð og sölutilboð.
 
 ## <a name="version-updates-and-restrictions"></a>Útgáfuuppfærslur og takmarkanir
 
@@ -67,7 +67,7 @@ Skattreikningsgagnalíkanið er samþætt við Finance and Operations öpp. Við
 
 ## <a name="field-mapping"></a>Vörpun svæðis
 
-Þrjátíu og tvö gagnalíkön geta verið með sem reiti í haus færslu. Hins vegar eiga ekki allir reitir við um allar færslugerðir. Eftirfarandi tafla sýnir hvaða hausareitir eru tiltækir fyrir tilteknar færslutegundir. Í sumum tilvikum þarf að ákvarða reitavörpun með fyrirframskilgreindum rökum. Þar sem það á við eru rökin til staðar.
+Þrjátíu og tvö gagnalíkön geta verið innifalin sem reiti í haus færslu. Hins vegar eiga ekki allir reitir við um allar færslugerðir. Eftirfarandi tafla sýnir hvaða hausareitir eru tiltækir fyrir tilteknar færslutegundir. Í sumum tilvikum þarf að ákvarða reitavörpun með fyrirframskilgreindum rökum. Þar sem það á við eru rökin til staðar.
 
 | Fyrirsagnasvæði                            | Gerð viðskiptafærslna og vörpun reita |
 |----------------------------------|---------------------------------------------|
@@ -99,7 +99,7 @@ Skattreikningsgagnalíkanið er samþætt við Finance and Operations öpp. Við
 | Hérað/ríki móttakanda          | <ul><li>**Sölupöntun:**<ol><li>Haus &gt; Afhendingaraðsetur &gt; Ríki</li></ol></li><li>**Innkaupapöntun:**<ol><li>Haus &gt; Afhendingaraðsetur &gt; Ríki</li></ol></li><li>**Flutningspantanir - senda:**<ol><li>Haus &gt; Í vöruhús &gt; Aðalaðsetur &gt; Ríki</li><li>Haus &gt; Á svæði &gt; Aðalaðsetur &gt; Ríki</li></ol></li><li>**Flutningspöntunar – móttaka:**<ol><li>Haus &gt; Í vöruhús &gt; Aðalaðsetur &gt; Ríki</li><li>Haus &gt; Á svæði &gt; Aðalaðsetur &gt; Ríki</li></ol></li><li>**Beiðni um tilboð:**<ol><li>Haus &gt; Afhendingaraðsetur &gt; Ríki</li></ol></li><li>**Sölutilboð:**<ol><li>Haus &gt; Afhendingaraðsetur &gt; Ríki</li></ol></li><li>**Reikningur með frjálsum texta:**<ol><li>Haus &gt; Viðskiptavinalykill &gt; Sjálfgefið afhendingaraðsetur &gt; Ríki</li><li>Haus &gt; Viðskiptavinalykill &gt; Aðalaðsetur &gt; Ríki</li></ol></li><li>**Dagbók (viðskiptavinur):**<ol><li>Viðskiptavinareikningur&gt; Sjálfgefið afhendingarfang&gt; Ríki</li><li>Viðskiptavinareikningur&gt; Aðal heimilisfang&gt; Ríki</li></ol></li><li>**Dagbók (seljandi):**<ol><li>Lögaðili &gt; Sjálfgefið afhendingaraðsetur lögaðila &gt; Ríki</li><li>Lögaðili &gt; Aðalaðsetur &gt; Ríki</li></ol></li></ul> |
 | Póstnúmer móttakanda                 | <ul><li>**Sölupöntun:**<ol><li>Haus &gt; Afhendingaraðsetur &gt; ZIP/póstnúmer</li></ol></li><li>**Innkaupapöntun:**<ol><li>Haus &gt; Afhendingaraðsetur &gt; ZIP/póstnúmer</li></ol></li><li>**Flutningspantanir - senda:**<ol><li>Haus &gt; Í vöruhús &gt; Aðalaðsetur &gt; Póstnúmer</li><li>Haus &gt; Á svæði &gt; Aðalaðsetur &gt; Póstnúmer</li></ol></li><li>**Flutningspöntunar – móttaka:**<ol><li>Haus &gt; Í vöruhús &gt; Aðalaðsetur &gt; Póstnúmer</li><li>Haus &gt; Á svæði &gt; Aðalaðsetur &gt; Póstnúmer</li></ol></li><li>**Beiðni um tilboð:**<ol><li>Haus &gt; Afhendingaraðsetur &gt; ZIP/póstnúmer</li></ol></li><li>**Sölutilboð:**<ol><li>Haus &gt; Afhendingaraðsetur &gt; ZIP/póstnúmer</li></ol></li><li>**Reikningur með frjálsum texta:**<ol><li>Haus &gt; Viðskiptavinalykill &gt; Sjálfgefið afhendingaraðsetur &gt; Póstnúmer</li><li>Haus &gt; Viðskiptavinalykill &gt; Aðalaðsetur &gt; Póstnúmer</li></ol></li><li>**Dagbók (viðskiptavinur):**<ol><li>Viðskiptavinareikningur&gt; Sjálfgefið afhendingarfang&gt; Póstnúmer</li><li>Viðskiptavinareikningur&gt; Aðal heimilisfang&gt; Póstnúmer</li></ol></li><li>**Dagbók (seljandi):**<ol><li>Lögaðili &gt; Sjálfgefið afhendingaraðsetur lögaðila &gt; Póstnúmer</li><li>Lögaðili &gt; Aðalaðsetur &gt; Póstnúmer</li></ol></li></ul> |
 | Svæði                             | <ul><li>**Sölupöntun:** svæði</li><li>**Innkaupapöntun:** svæði</li><li>**Flutningspöntun - senda:** Svæði „Frá vöruhúsi“</li><li>**Flutningspöntun - Móttaka:** Svæði „Í vöruhús“</li><li>**Beiðni um tilboð:** svæði</li><li>**Sölutilboð:** svæði</li></ul> |
-| Skattastefna                    | <ul><li>**Sölupöntun:** úttak</li><li>**Innkaupapöntun:** inntak</li><li>**Flutningspantanir - senda:** úttak</li><li>**Flutningspöntun – móttaka:** inntak</li><li>**Innkaupabeiðni:** inntak</li><li>**Beiðni um tilboð:** inntak</li><li>**Sölutilboð:** úttak</li><li>**Reikningur með frjálsum texta:** Úttak</li></ul> |
+| Skattastefna                    | <ul><li>**Sölupöntun:** úttak</li><li>**Innkaupapöntun:** inntak</li><li>**Flutningspantanir - senda:** úttak</li><li>**Flutningspöntun – móttaka:** inntak</li><li>**Innkaupabeiðni:** inntak</li><li>**Beiðni um tilboð:** inntak</li><li>**Sölutilboð:** úttak</li><li>**Reikningur með frjálsum texta:** Úttak</li><li>**Dagbók:** Framleiðsla</li></ul> |
 | Lykill lánardrottins                   | <ul><li>**Innkaupapöntun:** lánardrottnalykill</li><li>**Dagbók (seljandi):** Reikningur söluaðila</li></ul> |
 | Reikningslykill lánardrottins           | <ul><li>**Innkaupapöntun:** reikningslykill</li><li>**Dagbók (seljandi):**<ol><li>Sölumeistari&gt; Reikningsreikningur</li><li>Lykill lánardrottins</li></ol></li></ul> |
 | Vöruhús                        | <ul><li>**Sölupöntun:** vöruhús</li><li>**Innkaupapöntun:** vöruhús</li><li>**Flutningspantanir - senda:** frá vöruhúsi</li><li>**Flutningspantanir – móttaka:** í vöruhús</li><li>**Beiðni um tilboð:** vöruhús</li><li>**Sölutilboð:** vöruhús</li></ul> |

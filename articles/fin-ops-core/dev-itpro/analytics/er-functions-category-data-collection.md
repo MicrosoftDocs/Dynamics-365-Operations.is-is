@@ -1,6 +1,6 @@
 ---
 title: Listi yfir ER-aðgerðir í gagnasafnsflokknum
-description: Þetta efni veitir upplýsingar um gagnasafnsaðgerðir sem eru studdar í rafrænni skýrslugerð (ER).
+description: Þessi grein veitir upplýsingar um gagnasöfnunaraðgerðir sem eru studdar í rafrænum skýrslum (ER).
 author: NickSelin
 ms.date: 12/04/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2046931732f2d1c1ca040c1c84d4b182c2214f2f44a5a90fceda49298445b743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a8d4f5068bedcf1f15ae5257e29004a4773ef84c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760075"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908562"
 ---
 # <a name="list-of-er-functions-in-the-data-collection-category"></a>Listi yfir ER-aðgerðir í gagnasafnsflokknum
 
 [!include [banner](../includes/banner.md)]
 
-Gagnasafnsaðgerðir rafrænna skýrslugerða (ER) eru notaðar til að telja og leggja saman á ER-sniði sem er verið að keyra, byggt á gögnum um frálags sem þegar er búið til á sniðinu **Texti** eða **Xml**. Þessi aðferð er notuð til að bæta afköst ER-sniðs sem er keyrt, til að færa inn gildi hlaupatölur í mynduðum skjölum og í öðrum tilgangi. Þetta efni gefur yfirlit yfir þessar aðgerðir.
+Gagnasafnsaðgerðir rafrænna skýrslugerða (ER) eru notaðar til að telja og leggja saman á ER-sniði sem er verið að keyra, byggt á gögnum um frálags sem þegar er búið til á sniðinu **Texti** eða **Xml**. Þessi aðferð er notuð til að bæta afköst ER-sniðs sem er keyrt, til að færa inn gildi hlaupatölur í mynduðum skjölum og í öðrum tilgangi. Þessi grein gefur yfirlit yfir þessar aðgerðir.
 
 ## <a name="list-of-supported-functions"></a>Listi yfir studdar aðgerðir
 

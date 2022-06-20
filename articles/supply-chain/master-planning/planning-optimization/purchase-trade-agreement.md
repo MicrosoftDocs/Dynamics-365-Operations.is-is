@@ -1,6 +1,6 @@
 ---
-title: Áætlanagerð með innkaupaverðsamningum
-description: Þetta efnisatriði lýsir því hvernig fínstilling áætlanagerðar getur fundið lánardrottin og/eða afhendingartíma fyrir áætlaða pöntun samkvæmt besta verðinu eða afhendingartíma sem er að finna í innkaupasamningum.
+title: Aðaláætlanagerð með innkaupaverðsamningum
+description: Þessi grein lýsir því hvernig áætlanagerð fínstilling getur fundið lánardrottinn og/eða afgreiðslutíma fyrir áætlaða pöntun, byggt á besta verði eða afgreiðslutíma sem er að finna í innkaupaviðskiptasamningum.
 author: t-benebo
 ms.date: 06/29/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: cb790836042506ed6676ee7edbd8bba58191519b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468414"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873754"
 ---
-# <a name="master-planning-with-purchase-trade-agreements"></a>Áætlanagerð með innkaupaverðsamningum
+# <a name="master-planning-with-purchase-trade-agreements"></a>Aðaláætlanagerð með innkaupaverðsamningum
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig fínstilling áætlanagerðar getur fundið lánardrottin og/eða afhendingartíma fyrir áætlaða pöntun samkvæmt besta verðinu eða afhendingartíma sem er að finna í öllum innkaupasamningum sem hafa verið tilgreindir fyrir tiltekna afurð.
+Þessi grein lýsir því hvernig áætlanagerð fínstilling getur fundið lánardrottinn og/eða afgreiðslutíma fyrir áætlaða pöntun, byggt á besta verðinu eða afgreiðslutíma sem er að finna meðal allra innkaupaviðskiptasamninga sem hafa verið tilgreindir fyrir tiltekna vöru.
 
 ## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>Kveikja á innkaupasamningum fyrir eiginleika fínstillingar áætlanagerðar
 

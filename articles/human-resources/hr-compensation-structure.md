@@ -1,6 +1,6 @@
 ---
 title: Þróa launaskipulag
-description: Þetta efnisatriði útskýrir hvernig á að búa til launafyrirkomulag fastra launa og skrá starfsmenn í áætlun í gegnum hæfnireglur.
+description: Þessi grein útskýrir hvernig á að búa til fasta launaáætlun og skrá starfsmenn í áætlunina í gegnum hæfisreglur.
 author: twheeloc
 ms.date: 08/25/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f069d4e982a9c02070c2010b894b2ec7a9c7f6ab
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 86953e6d54843f17d0d6090a9def8bc256624f21
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693088"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902972"
 ---
 # <a name="develop-a-compensation-structure"></a>Þróa launaskipulag
 
@@ -26,7 +26,7 @@ ms.locfileid: "8693088"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þetta efnisatriði lýsir því hvernig á að búa til launafyrirkomulag fastra launa og skrá starfsmenn í áætlun í gegnum hæfnireglur. Þetta efnisatriði notar sýnigögn USMF og á við um launastjóra og fríðindastjóra.
+Þessi grein lýsir því að búa til fasta launaáætlun og skrá starfsmenn í áætlunina í gegnum hæfisreglur. Þessi grein notar USMF kynningargögnin og á við um bóta- og fríðindastjóra.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Setja upp fasta launaáætlun
 

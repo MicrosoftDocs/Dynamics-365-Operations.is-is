@@ -1,6 +1,6 @@
 ---
 title: Vinna ótengdar endurgreiðslur með Dynamics 365 Commerce Payment Connector fyrir Adyen
-description: Þetta efnisatriði lýsir hvernig aftengdar endurgreiðslur virka þegar Microsoft Dynamics 365 Payment Connector fyrir Adyen er notaður.
+description: Þessi grein lýsir því hvernig ótengdar endurgreiðslur virka þegar Microsoft Dynamics 365 greiðslutengi fyrir Adyen er notað.
 author: BrianShook
 ms.date: 10/07/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c137dcf7d35031a293c88d8c4f5dc1e5f3d9e2f9
-ms.sourcegitcommit: a21a664cd35b95c8600c5af0aac588a64e892902
+ms.openlocfilehash: 634b30de7adbfb0c316fe14456581ea8eb89d070
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885198"
 ---
 # <a name="process-unlinked-refunds-with-the-dynamics-365-commerce-payment-connector-for-adyen"></a>Vinna ótengdar endurgreiðslur með Dynamics 365 Commerce Payment Connector fyrir Adyen
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig aftengdar endurgreiðslur virka þegar [Microsoft Dynamics 365 Payment Connector fyrir Adyen](adyen-connector.md) er notaður. Það yfirfer einnig getu til að vinna endurgreiðslu gegn nýjum greiðslumátum á sölustað eða í símaveri.
+Þessi grein lýsir því hvernig ótengdar endurgreiðslur virka þegar [Microsoft Dynamics 365 greiðslutengi fyrir Adyen](adyen-connector.md) er notað. Það yfirfer einnig getu til að vinna endurgreiðslu gegn nýjum greiðslumátum á sölustað eða í símaveri.
 
 Dynamics 365 Payment Connector fyrir Adyen styður getuna til að vinna endurgreiðslur með því að nota annan greiðslumáta en var notaður fyrir upprunalegu færsluna. Þótt við mælum með að nota [tengdar endurgreiðslur](linked-refunds.md) til að vinna endurgreiðslu gegn upprunalegum greiðslumáta sem var veittur þarf við sumar aðstæður að endurgreiða á annan greiðslumáta. Til dæmis gæti kortið sem var notað fyrir upprunalegu greiðsluna verið útrunnið eða týnt, eða notandi kann að hafa lokað því.
 

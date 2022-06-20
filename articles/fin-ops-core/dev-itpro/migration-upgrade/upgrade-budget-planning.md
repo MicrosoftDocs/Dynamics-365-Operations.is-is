@@ -1,6 +1,6 @@
 ---
 title: Uppfæra fjárhagsáætlunargerð
-description: Í þessu efnisatriði er útskýrt hvað verður að vera endurstillt og er einnig lýst nýjum aðgerðum sem ætti að líta á eftir að uppfærslu er lokið.
+description: Þessi grein útskýrir hvað þarf að endurstilla og lýsir einnig nýjum eiginleikum sem ætti að íhuga eftir að uppfærslunni er lokið.
 author: panolte
 ms.date: 04/10/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c52de15faddd797d31d0875882863b8fe37a7d173b38be058e51a06b2e7fe078
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769192"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890407"
 ---
 # <a name="upgrade-budget-planning"></a>Uppfæra fjárhagsáætlunargerð
 
 [!include [banner](../includes/banner.md)]
 
-Það er verulegur mismunur á fjárhagsáætlunargerð milli Microsoft Dynamics AX 2012 og Dynamics 365 Finance. Sumir eiginleika voru ekki uppfærðir og þurfa þess vegna að vera stilltir aftur. Í þessu efnisatriði er útskýrt hvað verður að vera endurstillt og er einnig lýst nýjum aðgerðum sem ætti að líta á eftir að uppfærslu er lokið.  
+Það er verulegur munur á fjárhagsáætlun á milli Microsoft Dynamics AX 2012 og Dynamics 365 Finance. Sumir eiginleika voru ekki uppfærðir og þurfa þess vegna að vera stilltir aftur. Þessi grein útskýrir hvað þarf að endurstilla og lýsir einnig nýjum eiginleikum sem ætti að íhuga eftir að uppfærslunni er lokið.  
 
-Fjárhagsáætlunargerð í Finance hefur margar endurbætur sem ekki voru tiltækar í Dynamics AX 2012. Í þessu efnisatriði er fjallað um breytingar sem viðskiptavinir sem uppfæra þurfa að velja. Það kemur einnig inn á nýja eiginleika sem ætti að líta á í uppfærsluferlinu. Vegna umfangi breytinganna, verður ekki hægt að opna fyrirliggjandi fjárhagsáætlun fyrr en breytingunum sem lýst er í þessu efnisatriði eru gerðar. Hins vegar ættu skýrslur að halda áfram að virka og ekki er þörf á frekari breytingum.
+Fjárhagsáætlunargerð í Finance hefur margar endurbætur sem ekki voru tiltækar í Dynamics AX 2012. Þessi grein útskýrir breytingarnar sem viðskiptavinir sem uppfæra verða að gera. Það kemur einnig inn á nýja eiginleika sem ætti að líta á í uppfærsluferlinu. Vegna umfangs breytinganna verður ekki hægt að opna fyrirliggjandi fjárhagsáætlanir fyrr en þær breytingar sem lýst er í þessari grein hafa verið gerðar. Hins vegar ættu skýrslur að halda áfram að virka og ekki er þörf á frekari breytingum.
 
 ## <a name="overview-of-changes"></a>Yfirlit yfir breytingar
 Margar verulegar breytingar hafa verið gerðar í Fjárhagsáætlun fyrir Finance and Operations. Þessum breytingum er ætlað að gera fjárhagsáætlunargerð aðveldari til að skilgreina og endurnýtanlegri, til að minnka árlegt viðhald og uppsetningu. Eftirfarandi svæði í AX 2012 eru ekki lengur til staðar í Finance:
@@ -58,7 +58,7 @@ Ferli fjárhagsáætlunargerðar eru að mestu hin sömu og AX 2012. Helsta veru
 Í AX 2012 voru réttlætingarskjöl vistuð í viðhengjamöppu. Engin fyrri réttlætingarskjöl eru uppfærð. Réttlætingarskjöl verða geymd í gagnagrunninum. Ef vista á þessar upplýsingar í uppfærðu útgáfunni, er hægt að hlaða upp síðustu réttlætingarskjölum fyrir hverja áætlun sem viðhengi með því að nota í **Jöfnun** hnappinn í Aðgerðarúðunni. Í AX 2012 voru Excel vinnublöð fyrir hverja fjárhagsáætlun stofnuð á grundvelli sniðmáts. Í Finance opna allar áætlanir afrit útlitsins. Hins vegar eru engar breytingar Excel skrána vistaðar. Allar formúlur eða stuðningsupplýsingar sem voru notaðir í áætlun á ári verður bætt í athugasemd, jöfnunarskjal eða eitthvað annað aukaferli.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>Skilgreining uppfærðs umhverfi úr AX 2012
-Til að hjálpa til við að ákvarða hvernig stilla á uppfærða kerfið nota eftirfarandi dæmi uppfærða fjárhagsáætlunarferli úr sýnigögnum AX 2012. Sjálfgefin skilgreiningargögn fyrir dálka sem stofnaðuð til að aðstoða við uppfærsluferlið. Hægt er að uppfæra eða eyða sjálfgefnu gögnunum ef þau uppfylla ekki skilgreiningarkröfur. **Athugið:** Ný áskilin svæði eru til staðar sem ekki verða stillt í kerfinu. Ef þú festist á síðu, líkt og **Skilgreining fjárhagsáætlunargerðar** og kemst ekki af henni geturðu lokað vafranum og svo opnað hann aftur á annarri síðu ti lað slá inn upplýsingar í réttri röð. Það eru nauðsynleg svæði sem ekki eru stillt. Þar af leiðandi kunna vandamál að koma upp þar til allt hefur verið stillt og öll skyldusvæði valin. Þetta efnisatriði útskýrir hvernig stilla á þessi svæði eins og nauðsynlegt er. Hér eru nokkur dæmi um þessi svæði:
+Til að hjálpa til við að ákvarða hvernig stilla á uppfærða kerfið nota eftirfarandi dæmi uppfærða fjárhagsáætlunarferli úr sýnigögnum AX 2012. Sjálfgefin skilgreiningargögn fyrir dálka sem stofnaðuð til að aðstoða við uppfærsluferlið. Hægt er að uppfæra eða eyða sjálfgefnu gögnunum ef þau uppfylla ekki skilgreiningarkröfur. **Athugið:** Ný áskilin svæði eru til staðar sem ekki verða stillt í kerfinu. Ef þú festist á síðu, líkt og **Skilgreining fjárhagsáætlunargerðar** og kemst ekki af henni geturðu lokað vafranum og svo opnað hann aftur á annarri síðu ti lað slá inn upplýsingar í réttri röð. Það eru nauðsynleg svæði sem ekki eru stillt. Þar af leiðandi kunna vandamál að koma upp þar til allt hefur verið stillt og öll skyldusvæði valin. Þessi grein útskýrir hvernig á að stilla þessa reiti eftir þörfum. Hér eru nokkur dæmi um þessi svæði:
 
 -   **Ferli fjárhagsáætlunargerðar** síðan: **Sjálfgefin lykilskipulagi** svæði
 -   **Ferli fjárhagsáætlunargerðar** síðan: **Útlit** reiturinn á flýtiflipa **Reglur og útlit fjárhagsáætlunargerðar**

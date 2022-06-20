@@ -1,6 +1,6 @@
 ---
 title: Yfirlit viðbótar fyrir sýnileika birgða
-description: Í þessu efnisatriði er útskýrt hvað birgðasýnileiki er og eiginleikum hans er lýst.
+description: Þessi grein útskýrir hvað birgðasýnileiki er og lýsir eiginleikum þess.
 author: yufeihuang
 ms.date: 03/18/2022
 ms.topic: overview
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9eb8a135d2415c867c746a1c40a80cdb84819c0e
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 782545ea38a209eb4430607f5bca96e4e930efdc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897633"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Yfirlit viðbótar fyrir sýnileika birgða
 
@@ -31,7 +31,7 @@ Birgðasýnileikaviðbótin (einnig nefnd *Birgðasýnileikaþjónusta*) býður
 
 ## <a name="extensibility"></a>Stækkunarhæfni
 
-Birgðasýnileiki þjónustan er mjög stækkanleg vegna þess að inntak og úttak gagna er ekki bundið við Microsoft forrit. Ytri kerfi geta nálgast þjónustuna í gegnum RESTful forritunarviðmót (API). Auk þess að nota út-af-kassa kortlagningar sem eru veittar fyrir gagnagjafa og víddir Supply Chain Management, geturðu samþætt birgðasýnileika við mörg þriðja aðila kerfi með því að setja upp viðbótargagnagjafa, mælikvarða á birgðastöðu (vísað til sem *líkamlegar ráðstafanir* í birgðasýnileikaþjónustu), og birgðavíddir í gegnum stillingarforritið. Á þennan hátt geturðu á sveigjanlegan hátt spurt og breytt mörgum gagnaveitum þínum og fyrirfram skilgreindum birgðavíddum.
+Birgðasýnileiki þjónustan er mjög stækkanleg vegna þess að inntak og úttak gagna er ekki bundið við Microsoft forrit. Ytri kerfi geta nálgast þjónustuna í gegnum RESTful forritunarviðmót (API). Auk þess að nota út-af-kassa kortlagningu sem eru veittar fyrir gagnagjafa og víddir Supply Chain Management, geturðu samþætt birgðasýnileika við mörg þriðja aðila kerfi með því að setja upp viðbótargagnagjafa, mælikvarða á birgðastöðu (vísað til sem *líkamlegar ráðstafanir* í birgðasýnileikaþjónustu), og birgðavíddir í gegnum stillingarforritið. Á þennan hátt geturðu á sveigjanlegan hátt spurt og breytt mörgum gagnaveitum þínum og fyrirfram skilgreindum birgðavíddum.
 
 Auk þess vegna þess að birgðasýnileiki er byggður á Microsoft Dataverse, gögn þess er hægt að nota til að byggja upp og samþætta við Power Apps. Þú getur líka notað Power BI til að búa til sérsniðin mælaborð sem uppfylla kröfur fyrirtækisins.
 
@@ -43,7 +43,7 @@ Hægt er að stækka birgðasýnileikaþjónustuna upp eða niður, allt eftir g
 
 ### <a name="get-a-global-view-of-real-time-inventory"></a>Fáðu heildarsýn yfir rauntíma birgðahald
 
-Birgðasýnileiki tryggir að þú hafir aðgang að nýjustu birgðamagninu hverju sinni, á öllum rásum þínum, staðsetningum og vöruhúsum. Þú munt hagnast mest á því að nota það til að styðja við daglegan rekstur þinn hvenær sem þú verður að fá birgðaskrár. Líkamleg lagerbirgðir, selt magn og keypt magn er allt fáanlegt úr kassanum. Þú getur líka stillt aðrar efnislegar mælingar (svo sem skilað, sett í sóttkví og sett gögn) eins og þú þarfnast, til að fá þessar upplýsingar í rauntíma. Birgðasýnileiki getur unnið úr milljónum birgðabreytinga á skilvirkan hátt. Hægt er að safna þessum gögnum saman og endurspeglast í nýjasta birgðamagninu í þjónustunni strax, á sekúndu eða á mínútu, allt eftir því á hvaða bili gögnin eru birt. Fyrir frekari upplýsingar, sjá [Birgðasýnileiki opinber API](inventory-visibility-api.md).
+Birgðasýnileiki tryggir að þú hafir aðgang að nýjustu birgðamagninu hverju sinni, á öllum rásum þínum, staðsetningum og vöruhúsum. Þú munt hagnast mest á því að nota það til að styðja við daglegan rekstur þinn hvenær sem þú verður að fá birgðaskrár. Líkamleg lagerbirgðir, selt magn og keypt magn er allt fáanlegt úr kassanum. Þú getur líka stillt aðrar efnislegar birgðaráðstafanir (svo sem skilað, sett í sóttkví og sett gögn) eins og þú þarfnast, til að fá þessar upplýsingar í rauntíma. Birgðasýnileiki getur unnið úr milljónum birgðabreytinga á skilvirkan hátt. Hægt er að safna þessum gögnum saman og endurspeglast í nýjasta birgðamagninu í þjónustunni strax, á sekúndu eða á mínútu, allt eftir því á hvaða bili gögnin eru birt. Fyrir frekari upplýsingar, sjá [Birgðasýnileiki opinber API](inventory-visibility-api.md).
 
 ### <a name="soft-reservation-to-avoid-overselling-across-all-order-channels"></a>Mjúk fyrirvara til að forðast ofsölu á öllum pöntunarrásum
 
@@ -59,7 +59,7 @@ Sýnileiki á áætluðum birgðum þínum í náinni framtíð (þar á meðal 
 - Auðvelda innri pöntunarvinnslu, þannig að sölumenn geti reiknað út sendingar- og afhendingardagsetningar, byggt á framboði á vörum sem pantaðar eru.
 - Veittu gagnsæi um hvenær viðskiptavinir geta búist við að vara sem er ekki til á lager verði fáanleg, með því að gefa upp næsta dagsetningu.
 
-ATP eiginleikann er auðvelt að samþykkja í daglegu pöntunarferlinu þínu. Mikilvægast er, eins og önnur tilboð á birgðasýnileika, þá er ATP eiginleikinn *alheims og rauntíma*. Þess vegna getur þú sett upp margar ATP útreikningsformúlur til að hafa allar fyrirspurnir um framboð á birgðum sem ná yfir allar viðskiptarásir þínar og gagnaveitur. Fyrir frekari upplýsingar, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa](inventory-visibility-available-to-promise.md).
+ATP eiginleikann er auðvelt að samþykkja í daglegu pöntunarferlinu þínu. Mikilvægast er, eins og önnur tilboð á birgðasýnileika, þá er ATP eiginleikinn *alheims og rauntíma*. Þess vegna geturðu sett upp margar ATP útreikningsformúlur til að hafa allar fyrirspurnir um framboð á birgðum sem ná yfir allar viðskiptarásir þínar og gagnaveitur. Fyrir frekari upplýsingar, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa](inventory-visibility-available-to-promise.md).
 
 ### <a name="compatibility-with-advanced-warehouse-management-items"></a>Samhæfni við háþróaða vöruhússtjórnunarhluti
 
@@ -69,7 +69,7 @@ Microsoft stefnir að því að bjóða upp á samþættingu úr kassanum við h
 
 Birgðasýnileiki þjónustan er fáanleg í eftirfarandi útgáfum:
 
-- **Birgðasýnileikaviðbót fyrir Microsoft Dynamics 365 Supply Chain Management** – Fyrir fyrirtæki sem hafa gilt leyfi fyrir birgðakeðjustjórnun er birgðasýnileiki fáanlegur án auka leyfiskostnaðar. Þú getur byrjað að prófa það í dag. Fyrir upplýsingar um uppsetningu, sjá [Settu upp og settu upp Birgðasýnileika](inventory-visibility-setup.md).
+- **Birgðasýnileikaviðbót fyrir Microsoft Dynamics 365 Supply Chain Management** – Fyrir fyrirtæki sem hafa gilt leyfi fyrir birgðakeðjustjórnun er birgðasýnileiki í boði án aukaleyfiskostnaðar. Þú getur byrjað að prófa það í dag. Fyrir upplýsingar um uppsetningu, sjá [Settu upp og settu upp Birgðasýnileika](inventory-visibility-setup.md).
 - **Birgðasýnileikaþjónusta sem hluti af IOM** – Þessi útgáfa er annað hvort fyrir Intelligent Order Management (IOM) viðskiptavini eða fyrirtæki sem eru ekki að nota Supply Chain Management sem ERP kerfi sitt. Leyfið er innifalið í IOM pakkanum. Fyrir frekari upplýsingar, sjá [Greindur pöntunarstjórnun yfirlit](/dynamics365/intelligent-order-management/overview).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

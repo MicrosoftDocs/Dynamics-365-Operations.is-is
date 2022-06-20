@@ -1,6 +1,6 @@
 ---
 title: Fyrirtækisstjórnun – heimasíða
-description: Þessi efnisgrein vísar á tilföng sem munu hjálpa þér í fyrirtækinu.
+description: Þessi grein bendir á úrræði sem munu hjálpa þér í fyrirtækinu þínu.
 author: sericks007
 ms.date: 08/18/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04d188b0bf7d7fc7064467e1e05199d0eb90b4d0276a3c0c01ad8f9be78e76e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f6d4320fb22f0354b33b44e731d22f3f763789ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759897"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882050"
 ---
 # <a name="organization-administration-home-page"></a>Fyrirtækisstjórnun – heimasíða
 
 [!include [banner](../includes/banner.md)]
 
-Þetta umræðuefni bendir á efni sem mun hjálpa yfirnotendum og stjórnendum að skilgreina kerfið til að vinna vel og skilvirkt fyrir fyrirtæki þitt og rekstur.
+Þessi grein bendir á efni sem mun hjálpa stórnotendum og stjórnendum að stilla kerfið þannig að það virki vel og skilvirkt fyrir fyrirtæki þitt og fyrirtæki.
 
 Mikið af því efni sem hér er að finna gildir um aðgerðir í einingunni **Stjórnun fyrirtækis** Hins vegar eru nokkrar verkefni, svo sem að búa til og nota skráarsniðmát, sem hægt er að framkvæma í hvaða mát sem er til að hjálpa fyrirtækinu að keyra á skilvirkan hátt.
 

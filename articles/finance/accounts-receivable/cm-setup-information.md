@@ -1,6 +1,6 @@
 ---
 title: Uppsetning á lánastýringu
-description: Þetta efni lýsir uppsetningunni sem krafist er fyrir lánamálastjórnun.
+description: Þessi grein lýsir uppsetningunni sem þarf fyrir lánastýringu.
 author: JodiChristiansen
 ms.date: 02/15/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6977789b039c3e77e6d697e32bf4cac69c35a901
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: cc46faa3c5da590fe5ec574fabe452e547044eac
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886488"
 ---
 # <a name="credit-management-setup"></a>Uppsetning á lánastýringu 
 
@@ -39,7 +39,7 @@ Fara til **Skuldir og innheimta \> Uppsetning \> Verkflæði lánaumsýslu** til
 
 Ef röðun greiðsluskilmála er virk og ef greiðsluskilmálar pöntunarinnar eru hærri en sjálfgefnir greiðsluskilmálar viðskiptavinarins verður sölupöntunin sett í bið.
 
-Til að setja upp röðun greiðsluskilmála fara til **Inneign og innheimtur \> Uppsetning \> Uppsetning lánastýringar \> Rank greiðsluskilmálar**.  
+Til að setja upp röðun greiðsluskilmála skaltu fara á **Inneign og innheimtur \> Uppsetning \> Uppsetning lánastýringar \> Rank greiðsluskilmálar**.  
 
 ### <a name="ranking-settlement-discounts"></a>Röðun uppgjörsafsláttar
 

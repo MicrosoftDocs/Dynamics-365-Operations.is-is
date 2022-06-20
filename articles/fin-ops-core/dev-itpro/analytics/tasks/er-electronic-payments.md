@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð Mynda rafræn skjöl fyrir greiðslur með skilgreiningu á sniði
-description: Í þessu efni er útskýrt hvernig á að nota nýja skilgreiningu rafræns skýrslugerðarsniðs til að mynda rafræn skjöl fyrir úrvinnslu greiðslna.
+description: Þessi grein lýsir því hvernig á að nota nýja rafræna skýrslugerð (ER) sniðstillingu til að búa til rafræn skjöl til að vinna úr greiðslum.
 author: NickSelin
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05295ff36ffd194b3f50fcdd9d7528c787c80f39104f46f9c51890a75a852735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a79c32372402fcd49f20c855cbfa8d9bcd8ba524
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712665"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864602"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>Rafræn skýrslugerð Mynda rafræn skjöl fyrir greiðslur með skilgreiningu á sniði
 

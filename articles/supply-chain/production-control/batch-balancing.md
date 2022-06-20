@@ -1,6 +1,6 @@
 ---
 title: Röðun virkra efna í uppskrift
-description: Í þessu efnisatriði er lýst röðunarferli virkra efna í uppskrift.
+description: Þessi grein lýsir lotujöfnunarferlinu.
 author: johanhoffmann
 ms.date: 01/04/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a9e69b4d9213e57e5a920c7adda934ba845d17410c17d9c8a6356d717870ac23
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780077"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856049"
 ---
 # <a name="batch-balancing"></a>Röðun virkra efna í uppskrift
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er því lýst hvernig röðunarferli virkra efna í uppskrift er studd.
+Þessi grein lýsir því hvernig runujöfnunarferlið er stutt.
 
 Fyrir frekari upplýsingar skaltu horfa á [myndband um jöfnun virkra efna í uppskrift](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
@@ -149,7 +149,7 @@ Jafnað magn fylliefnisins er reiknað sem mismunurinn á lotustærðinni 100 l�
 Röðunarferli virkra efna í uppskrift er framkvæmt á síðunni **Röðun virkra efna í uppskrift**.
 Veljið **Kostnaðarstjórnun \> Runupantanir** og þá á flipanum **Ferli** skal velja **Röðun virkra efna í uppskrift**. Röðun virkra efna í uppskrift er tiltæk fyrir runupantanir sem hafa stöðuna **Byrjað**.
 
-Almennt er hægt að nota röðun virkra efna í uppskrift á runupantanir ef formúlan hefur a.m.k. eina formúlulínu þar sem **Gerð innihaldsefnis** er *Virk*. (Fyrir utantekningar á þessari reglu, sjáðu kaflann „Runupantanir sem ekki eiga við um runujöfnun“ seinna í þessu efni.)
+Almennt er hægt að nota röðun virkra efna í uppskrift á runupantanir ef formúlan hefur a.m.k. eina formúlulínu þar sem **Gerð innihaldsefnis** er *Virk*. (Fyrir undantekningu frá þessari reglu, sjá kaflann „Runnupantanir sem eiga ekki við um runujöfnun“ síðar í þessari grein.)
 
 Röðunarferli virkra efna í uppskrift er hægt að skipta niður í tvo undirferla:
 

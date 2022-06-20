@@ -1,6 +1,6 @@
 ---
 title: Skilgreina greiðsluskilmála lánardrottna
-description: Í þessu efnisatriði er útskýrt hvernig á að setja upp greiðsluskilmála fyrir lánardrottnareikninga.
+description: Þessi grein útskýrir hvernig á að setja upp greiðsluskilmála fyrir reikninga lánardrottins.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2199c12e92d631d3eb058637c48b53335d779f2d
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: a676856ed43bf1b78684eac0682e0fdef9c84083
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109808"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906472"
 ---
 # <a name="define-vendor-payment-terms"></a>Skilgreina greiðsluskilmála lánardrottna
 
 [!include [banner](../../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að setja upp greiðsluskilmála fyrir lánardrottnareikninga. Þetta verkefni notar USMF-sýnifyrirtækið.
+Þessi grein útskýrir hvernig á að setja upp greiðsluskilmála fyrir reikninga lánardrottins. Þetta verkefni notar USMF-sýnifyrirtækið.
 
 1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Viðskiptaskuldir > Greiðsluuppsetning > Greiðsluskilmálar**.
 2. Veljið **Nýtt**. The **Greiðsluskilmálar** síða er notuð til að skilgreina hvernig gjalddagi verður reiknaður út. Það er ekki notuð til að skilgreina hvernig dagsetning staðgreiðsluafsláttar reiknaðar.  

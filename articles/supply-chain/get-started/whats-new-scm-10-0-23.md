@@ -1,6 +1,6 @@
 ---
 title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.23 (janúar 2022)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Supply Chain Management 10.0.23.
+description: Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management 10.0.23.
 author: kamaybac
 ms.date: 10/15/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: acffe97cf1844f16a70c716a7f2078b1e9a072d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691471"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849475"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.23 (janúar 2022)
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfu 10.0.23. Þessi útgáfa er með byggingarnúmer 10.0.1037 og er fáanlegt á eftirfarandi hátt:
+Þessi grein sýnir eiginleika sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfa 10.0.23. Þessi útgáfa er með byggingarnúmer 10.0.1037 og er fáanlegt á eftirfarandi hátt:
 
 - **Forskoðun forútgáfu:** Október 2021
 - **Almennt framboð útgáfu (sjálfvirk uppfærsla):** Desember 2021
@@ -29,7 +29,7 @@ ms.locfileid: "8691471"
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Í eftirfarandi töflu er listi yfir eiginleikana sem eru í þessari útgáfu. Í dálknum *Eiginleikar* eru tenglar í [útgáfuáætlunina](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) þar sem hægt er að skoða opinberar útgáfudagsetningar hvers eiginleika. Í dálknum *Frekari upplýsingar* eru frekari upplýsingar og/eða tenglar á tengd fylgiskjöl. Til að ákvarða hvernig eigi að virkja eiginleikann, sjá dálkinn *Virkjað af*. Nánari upplýsingar um notkun stjórnunar eiginleika er að finna í [Eiginleikastjórnunaryfirlit](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Við gætum uppfært þetta efnisatriði til að hafa með eiginleika sem voru hafðir í smíðinni eftir að þetta efnisatriði var gefið út upphaflega.
+Í eftirfarandi töflu er listi yfir eiginleikana sem eru í þessari útgáfu. Í dálknum *Eiginleikar* eru tenglar í [útgáfuáætlunina](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) þar sem hægt er að skoða opinberar útgáfudagsetningar hvers eiginleika. Í dálknum *Frekari upplýsingar* eru frekari upplýsingar og/eða tenglar á tengd fylgiskjöl. Til að ákvarða hvernig eigi að virkja eiginleikann, sjá dálkinn *Virkjað af*. Nánari upplýsingar um notkun stjórnunar eiginleika er að finna í [Eiginleikastjórnunaryfirlit](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Við gætum uppfært þessa grein til að innihalda eiginleika sem komust inn í bygginguna eftir að þessi grein var upphaflega birt.
 
 | Eiginleikasvæði | Eiginleiki | Meiri upplýsingar | Virkjað af   |
 |---|---|---|---|
@@ -63,9 +63,9 @@ Ef á að kveikja eða slökkva á einhverjum af þessum eiginleikum þarf að g
 
 ## <a name="new-and-updated-documentation-resources"></a>Tilföng fyrir ný og uppfærð skjöl
 
-Nýlega hefur eftirfarandi hjálparatriðum verið bætt við eða þau uppfærð. Þessi efnisatriði eru ekki endilega tengd við nýja eiginleika sem var bætt við fyrir þessa útgáfu, eins og kemur fram í fyrri hluta. Þær gætu hins vegar hjálpað þér að fá meira út úr þeim eiginleikum sem eru til staðar.
+Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargreinar. Þessar greinar eru ekki endilega tengdar nýjum eiginleikum sem bætt var við fyrir þessa útgáfu, eins og fram kemur í fyrri hlutanum. Þær gætu hins vegar hjálpað þér að fá meira út úr þeim eiginleikum sem eru til staðar.
 
-| Eiginleikasvæði | Nýtt eða uppfært efni |
+| Eiginleikasvæði | Nýjar eða uppfærðar greinar |
 |---|---|
 | Umsjón hönnunarbreytinga | [Hönnunareigindir og leit að hönnunareigind](../engineering-change-management/engineering-attributes-and-search.md) lýsir nú hvernig erfðir hönnunareigindar virkar. |
 | Áætlanagerð | [Aðaláætlanagerð með eftirspurnarspám](../master-planning/planning-optimization/demand-forecast.md) og [Minnkunarlyklar spár](../master-planning/reduction-keys.md) veita nú meiri upplýsingar um hvernig á að vinna með minnkunarlykla. |
@@ -74,16 +74,16 @@ Nýlega hefur eftirfarandi hjálparatriðum verið bætt við eða þau uppfær�
 | Áætlanagerð | [Framboðsáætlun](../master-planning/supply-schedule.md) |
 | Vöruhúsakerfi | [Altækar færibreytur fartækja](../warehousing/mobile-device-parameters.md) |
 | Vöruhúsakerfi | [Festing](../warehousing/anchoring.md) |
-| Sala og markaðsstarf | Viðskiptum innan samstæðu er nú lýst í þaula og byrjar á [Setja upp samstæðuviðskipti](../sales-marketing/intercompany-trade-set-up.md) og tengdum efnisatriðum. |
+| Sala og markaðsstarf | Viðskiptum milli fyrirtækja er nú lýst í smáatriðum og byrjað á [Settu upp viðskipti milli fyrirtækja](../sales-marketing/intercompany-trade-set-up.md) og það eru tengdar greinar. |
 | Sala og markaðsstarf | [Endurbætur á afköstum hreinsunar á söluferli](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
-| Birgðir | Fylgigögn birgðasýnileika hafa verið stækkuð og uppfærð og byrja á [Yfirlit viðbótar fyrir sýnileika birgða](../inventory/inventory-visibility.md) og tengdum efnisatriðum. |
+| Birgðir | Birgðasýnileikaskjöl hafa verið stækkuð og uppfærð, frá og með [Yfirlit yfir birgðasýnileika viðbót](../inventory/inventory-visibility.md) og það eru tengdar greinar. |
 | Vöruhúsakerfi | [Notandareikningar fartækis](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir Finance and Operations öpp
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.23 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.23 af Finance and Operations forritum (nóvember 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.23 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Palluppfærslur fyrir útgáfu 10.0.23 af Finance and Operations forritum (nóvember 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 
@@ -97,12 +97,12 @@ Kíktu á [Dynamics 365 og rekstrarský: 2021 útgáfubylgja 2 áætlun](/dynami
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fjarlægðir og úreltir eiginleikar Supply Chain Management
 
-Efnið [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) lýsir eiginleikum sem hafa verið eða á að fjarlægja eða úrelda fyrir Supply Chain Management.
+The [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) grein lýsir eiginleikum sem hafa verið eða áætlað er að verði fjarlægðir eða úreltir fyrir Supply Chain Management.
 
 - *Fjarlægður* eiginleiki er ekki lengur tiltækur í vörunni.
 - *Úreltur* eiginleiki er ekki í virkri þróun og getur verið fjarlægður úr uppfærslum í framtíðinni.
 
-Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um afskriftir tilkynnt í efninu [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mánuðum fyrir fjarlægingu.
+Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um úreldingu tilkynnt í [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) grein 12 mánuðum fyrir brottnám.
 
 Til að brjóta breytingar sem hafa aðeins áhrif á samantektartíma, en eru tvöfaldar samhæfðir við sandkassa og framleiðsluumhverfi, verður afskriftartíminn innan við 12 mánuði. Venjulega eru þetta hagnýtar uppfærslur sem þarf að gera við þýðandann.
 

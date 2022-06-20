@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir skilgreiningu viðskiptaskulda
-description: Þetta efnisatriði lýsir síðunum sem þú notar til að setja upp grunn- og valfrjálsa virkni fyrir viðskiptaskuldir. Hún lýsir einnig uppsetningarskrefum sem þú verður að ljúka áður en þú byrjar að setja upp viðskiptaskuldir.
+description: Þessi grein lýsir þeim síðum sem þú notar til að setja upp grundvallaraðgerðir og valfrjálsar aðgerðir fyrir viðskiptaskuldir. Hún lýsir einnig uppsetningarskrefum sem þú verður að ljúka áður en þú byrjar að setja upp viðskiptaskuldir.
 author: abruer
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ed5664b5be11f013900d6411d4307692d5e8334
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: bce5da0c9593bcfcfb9589f8fe7e09b8acd63726
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358169"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906533"
 ---
 # <a name="configure-accounts-payable-overview"></a>Yfirlit yfir skilgreiningu viðskiptaskulda
 
@@ -46,7 +46,7 @@ Notið eftirfarandi síður til þess að setja upp grundvallaraðgerðir viðsk
 2.  Á **Greiðslumáti - söluaðilar** síðu, búa til og viðhalda upplýsingum um hvernig fyrirtækið greiðir söluaðilum sínum.
 3.  Á **Seljendahópar** síðu, búa til og viðhalda hópum lánardrottna sem deila mikilvægum færibreytum fyrir bókun, uppgjör og greiðslu, skýrslugerð og spá.
 4.  Á **Birtingasnið söluaðila** síðu, skilgreina hvernig lánardrottnafærslur eru bókaðar í fjárhag.
-5.  Á **Færibreytur viðskiptaskulda** síðu, setja upp sjálfgefnar stillingar sem eru notaðar ef ekki er tilgreind nákvæmari stilling, færibreytur fyrir ýmiss konar virkni og ýmsar númeraraðir fyrir viðskiptaskuldir.
+5.  Á **Færibreytur viðskiptaskulda** síðu, setja upp sjálfgefnar stillingar sem eru notaðar ef ekki er tilgreind nákvæmari stilling, færibreytur fyrir ýmiss konar virkni og hinar ýmsu númeraraðir fyrir viðskiptaskuldir.
 6.  Á **Uppsetning eyðublaðs** síðu, skilgreina snið ýmissa skjala sem tengjast lánardrottnum og sem fyrirtækið notar til að halda utan um kvittanir frá lánardrottnum og færa inn ástæður fyrir flæði greiðslna til lánardrottna.
 7.  Á **Söluaðilar** síðu, stofna og viðhalda lánardrottinsreikningum og einnig skattyfirvöldum sem fyrirtæki þitt tilkynnir söluskatta til.
 
@@ -140,7 +140,7 @@ Viðbótar uppsetningarsíður eru skipulagðar eftir aðgerðum.
 
 **Reiðufjár- og bankastjórnun**
 
--   Á **Greiðslumarkmiðskóðar** síðu, settu upp **tilgangskóði Seðlabankans**.
+-   Á **Tilgangskóðar greiðslu** síðu, settu upp **tilgangskóði Seðlabankans**.
 
 
 

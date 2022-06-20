@@ -1,6 +1,6 @@
 ---
 title: Sérstilla tölvupósta vegna færslna eftir afhendingarmáta
-description: Þetta efnisatriði lýsir því hvernig setja á upp sérsniðin sniðmát fyrir tölvupóst fyrir tilteknar tilkynningagerðir og afhendingarmáta í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að setja upp sérsniðin tölvupóstsniðmát fyrir sérstakar tilkynningagerðir og afhendingarmáta í Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 11/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: d15e7c5c7050ad373cb45da72de59416e85a5f2034f7a11b007d497b2e2b98bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f16bc23e3527f57bd61d73e92506946067c6eeb9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749908"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850305"
 ---
 # <a name="customize-transactional-emails-by-mode-of-delivery"></a>Sérstilla tölvupósta vegna færslna eftir afhendingarmáta
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig setja á upp sérsniðin sniðmát fyrir tölvupóst fyrir tilteknar tilkynningagerðir og afhendingarmáta í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að setja upp sérsniðin tölvupóstsniðmát fyrir sérstakar tilkynningagerðir og afhendingarmáta í Microsoft Dynamics 365 Commerce.
 
 Nú er hægt að sérstilla tölvupóst færslna fyrir samsetningu tilkynningagerðar (til dæmis, **Pöntun stofnuð**, **Pöntun pakkað** eða **Pöntun reikningsfærð**) og afhendingarmáta (til dæmis yfir nótt, sótt í verslun eða sótt fyrir utan verslun). Sérsniðinn tölvupóstur færslna gerir söluaðilum kleift að leyfa viðskiptavinum sínum að panta með afgreiðsluupplifun sem er sérsniðin að afhendingarmáta pöntunarinnar. Hægt er t.d. að sérsníða tilvikið „pöntun pakkað“ til að veita leiðbeiningar um afhendingu fyrir utan verslun fyrir viðskiptavini sem velja að sækja fyrir utan verslun. Einnig getur tilvikið veitt upplýsingar um farmflytjanda og afhendingarupplýsingar fyrir viðskiptavini sem velja að fá pöntunina sína senda.
 

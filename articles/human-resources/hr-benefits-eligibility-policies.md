@@ -1,6 +1,6 @@
 ---
 title: Hæfnireglur fríðinda
-description: Þetta efnisatriði veitir upplýsingar um skilyrði fyrir veitingu fríðinda, sem hjálpar þér að skilgreina hver er hæfur til að fá tilgreind fríðindi.
+description: Þessi grein veitir upplýsingar um bótahæfisstefnur, sem skilgreina hverjir eiga rétt á sérstökum bótum.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e36235e089fef70bc0d33815cd855628836f58db
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f0b373679690715ddbc518e4df79b81dbb000059
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689551"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877775"
 ---
 # <a name="benefit-eligibility-policies"></a>Hæfnireglur fríðinda
 
@@ -28,7 +28,7 @@ ms.locfileid: "8689551"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þetta efnisatriði veitir upplýsingar um skilyrði fyrir veitingu fríðinda, sem hjálpar þér að skilgreina hver er hæfur til að fá tilgreind fríðindi.
+Þessi grein veitir upplýsingar um bótahæfisstefnur, sem skilgreina hverjir eiga rétt á sérstökum bótum.
 
 Þegar fríðindi eru stofnuð þarf að ákveða hvaða fríðindi verða tiltæk fyrir hvaða starfsmenn. Eftirfarandi tafla sýnir dæmi um fríðindi sem gætu verið gerð tiltæk fyrir ákveðna starfsmenn.
 

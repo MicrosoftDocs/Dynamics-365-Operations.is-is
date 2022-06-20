@@ -1,6 +1,6 @@
 ---
 title: Endurbæta rakningu niðurstaðna myndaðra rafrænna skýrslna til samanburðar við grunnlínugildi
-description: Í þessu efnisatriði eru endurbætur á grunnlínueiginleikum rafrænnar skýrslugerðar í Microsoft Dynamics 365 for Finance and Operations útgáfu 10.0.3 (júní 2019) útskýrðar.
+description: Þessi grein lýsir endurbótum á grunnlínueiginleika ER í Microsoft Dynamics 365 for Finance and Operations útgáfa 10.0.3 (júní 2019).
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b6e8299dd57730486c731cd38578bd5ff6b8a1754f145432e300c1217c6dd640
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847402"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Endurbæta rakningu niðurstaðna myndaðra rafrænna skýrslna til samanburðar við grunnlínugildi
 
 [!include[banner](../includes/banner.md)]
 
-Í þessu efni er fjallað um fyrsta sett endurbóta sem hafa verið gerðar á grunnlínueiginleika á ramma rafrænnar skýrslugerðar (ER). Þessar endurbætur eru fáanlegar í Microsoft Dynamics 365 for Finance and Operations útgáfu 10.0.3 (júní, 2019) og nýrri.
+Þessi grein lýsir fyrsta settinu af endurbótum sem gerðar hafa verið á grunneiginleika rafrænnar skýrslugerðar (ER) ramma. Þessar endurbætur eru fáanlegar í Microsoft Dynamics 365 for Finance and Operations útgáfu 10.0.3 (júní, 2019) og nýrri.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Gera skilgreiningu á reglum grunnlína sjálfvirka
 
-Efnisatriðið [Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi](er-trace-reports-compare-baseline.md) útskýrir hvernig á að skilgreina ER-ramma til að safna upplýsingum um framkvæmd ER-sniðs og meta niðurstöður þeirra framkvæmda. Dæmið í þessu efni sýnir skrefin sem verður að vera lokið.
+The [Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunngildi](er-trace-reports-compare-baseline.md) grein útskýrir hvernig á að stilla ER ramma til að safna upplýsingum um ER snið framkvæmdir og meta niðurstöður þeirra framkvæmda. Dæmið í þessari grein sýnir skrefin sem þarf að ljúka.
 
 Hér eru sum af skrefunum:
 
@@ -45,7 +45,7 @@ Hér eru sum af skrefunum:
 
 ## <a name="example-automate-the-setting-of-baseline-rules"></a>Dæmi: Gera skilgreiningu á reglum grunnlína sjálfvirka
 
-Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í dæminu í efnisatriðinu [Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi](er-trace-reports-compare-baseline.md), upp í gegnum kaflann „Bæta við nýrri grunnlínu fyrir uppsett ER-snið“.
+Til að klára skrefin í þessu dæmi verður þú fyrst að klára skrefin í dæminu í [Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunngildi](er-trace-reports-compare-baseline.md) grein, upp í gegnum hlutann „Bæta við nýrri grunnlínu fyrir hannað ER snið“.
 
 ### <a name="review-added-baseline"></a>Skoðaðu viðbótargrunnlínu
 
@@ -80,7 +80,7 @@ Grunnlínugildinu hefur verið bætt við fyrir valið snið **Snið til að læ
 
 ### <a name="run-the-format"></a>Keyrðu sniðið
 
-Núna ertu tilbúin/n til að klára eftirstandandi skref í dæminu í efnisatriðinu [Rekja myndaðar skýrsluniðurstöður og beru þær saman við grunnlínugildi](er-trace-reports-compare-baseline.md), byrjaðu á hlutanum „Keyra uppsett ER-snið og endurskoða kladdann til að greina niðurstöðurnar“.
+Þú ert nú tilbúinn til að klára skrefin sem eftir eru í dæminu í [Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunngildi](er-trace-reports-compare-baseline.md) grein, frá hlutanum „Keyra hannað ER snið og fara yfir annálinn til að greina niðurstöðurnar“.
 
 > [!NOTE]
 > Þegar þú eyðir sjálfvirkt viðbættri reglu grunnlínu á flipann **Grunnlínur** er tilvísuðu viðhengi ekki sjálfkrafa eytt.
@@ -91,7 +91,7 @@ Núna ertu tilbúin/n til að klára eftirstandandi skref í dæminu í efnisatr
 
 ## <a name="example-configure-the-baseline-so-that-it-ignores-constantly-changing-parts-of-the-er-output"></a>Dæmi: Skilgreina grunnlínuna þannig að hún hunsar stöðugt að breyta hlutum ER-úttaks
 
-Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í dæminu í efnisatriðinu [Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi](er-trace-reports-compare-baseline.md).
+Til að klára skrefin í þessu dæmi verður þú fyrst að klára skrefin í dæminu í [Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunngildi](er-trace-reports-compare-baseline.md) grein.
 
 ### <a name="modify-a-configured-er-format"></a>Breyta skilgreindu ER-sniði
 
@@ -142,7 +142,7 @@ Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í d
 
 ### <a name="make-a-new-baseline-rule"></a>Gera nýja grunnlínureglu
 
-Fylgdu leiðbeiningunum í „Dæmi: Gera skilgreiningu grunnlínureglna sjálfvirka“ sem er fyrr í þessu efni. Tilkynning varar við því að skrá á útleið hafi verið mynduð með því að nota grunnlínustillingar og að þvinguð endurnýjun á bindingum sniðs hafi átt sér stað.
+Fylgdu skrefunum í hlutanum „Dæmi: Gerðu sjálfvirkan stillingu grunnlínureglna“ fyrr í þessari grein. Tilkynning varar við því að skrá á útleið hafi verið mynduð með því að nota grunnlínustillingar og að þvinguð endurnýjun á bindingum sniðs hafi átt sér stað.
 
 ![Tilkynning á skilgreiningasíðunni.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Skjámynd af tilkynningu á síðunni Skilgreiningar")
 

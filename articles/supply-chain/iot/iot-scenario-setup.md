@@ -1,6 +1,6 @@
 ---
 title: Uppsetning á aðstæðum fyrir IoT gervigreind
-description: Þetta efnisatriði útskýrir hvernig á að skilgreina atburðarásir fyrir IoT-gervigreind í Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein útskýrir hvernig á að stilla aðstæður fyrir IoT Intelligence í Microsoft Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dddc282ef3e479d524b1dfa0c60091cad1c231e0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3172bdb81e00d20c5b1d1f3f8e4299ca69c59434
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675178"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889607"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Uppsetning á aðstæðum fyrir IoT gervigreind
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að skilgreina atburðarásir fyrir IoT-gervigreind í Microsoft Dynamics 365 Supply Chain Management. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
+Þessi grein útskýrir hvernig á að stilla aðstæður fyrir IoT Intelligence í Microsoft Dynamics 365 Supply Chain Management. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
 
-Í þessu efnisatriði er hægt að skilgreina aðstæðurnar **Niðurtími búnaðar** þannig að tilkynning er búin til í Supply Chain Management þegar vél verður óvirk. Í efnisatriðinu er einnig sýnt hvernig á að skilgreina aðstæðurnar **Gæði afurðar** þannig að tilkynning er búin til ef eigind vöru er utan tiltekins sviðs og hvernig á að skilgreina aðstæðurnar **Tafir á framleiðslu** þannig að tilkynning er búin til ef gegnumstreymi framleiðslunnar fellur undir þröskuldsgildi.
+Í þessari grein muntu stilla **Niðurtími búnaðar** atburðarás þannig að tilkynning er búin til í Supply Chain Management þegar vél fer niður. Greinin sýnir einnig hvernig á að stilla **Vörugæði** atburðarás þannig að tilkynning myndast ef eiginleiki hlutar er utan tiltekins sviðs og hvernig á að stilla **Framleiðslutafir** atburðarás þannig að tilkynning myndast ef framleiðsla fer undir viðmiðunarmörk.
 
 ## <a name="configure-the-equipment-downtime-scenario-in-supply-chain-management"></a>Skilgreina Niðurtími búnaðar aðstæður í Supply Chain Management
 

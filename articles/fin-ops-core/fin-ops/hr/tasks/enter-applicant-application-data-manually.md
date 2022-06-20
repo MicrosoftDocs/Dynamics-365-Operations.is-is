@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a00e20569f05730296ef611938a94b73ebb7f6f5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d59b5a2c99813fee2e12e30e8694edf6da7391d9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735319"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909250"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Færa inn umsækjanda og umsóknargögn handvirkt
 
 > [!NOTE]
-> Ráðningarvirkni í þessu efni verður nefnd ráðningarverkefni og beinist að umsækjendum, umsóknum og ráðningarverkefnum.  
+> Ráðningarvirknin í þessari grein verður nefnd ráðningarverkefni og beinist að umsækjendum, umsóknum og ráðningarverkefnum.  
 
 
 Þessi verklýsing sýnir hvernig á að viðhalda handvirkt upplýsingum um umsækjendur og umsóknina. Hægt er að færa inn og viðhalda persónulegum upplýsingum, viðtal dagsetningar og tilvísanir, hæfni og beiðnir um aðlögun fyrir umsækjendur. Þú getur líka uppfært stöðu umsókna umsækjenda um ráðningu og búið til bréf eða tölvupóst til að hafa samskipti við umsækjendur. Þegar færsla umsækjanda er stofnuð, tengiliðafærslu fyrir umsækjanda er stofnuð í altæku aðsetursbókinni. The **USMF** kynningargagnafyrirtæki var notað til að búa til þessa aðferð.

@@ -1,6 +1,6 @@
 ---
 title: Launafyrirkomulag fastra launa
-description: Þetta efnisatriði veitir upplýsingar og dæmi um fyrirspurn fyrir einingu launafyrirkomulags fastra launa í Dynamics 365 Human Resources.
+description: Þessi grein veitir upplýsingar og dæmi um fyrirspurn fyrir eininguna Launagreiðsluáætlun í Dynamics 365 Human Resources.
 author: jcart
 ms.date: 08/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 14829f18fb5e3adde83e265cd6e70b60e1ff03ac
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 83fa8aeb38cc44191242cf029022939cefb22cb8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069097"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909847"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Launafyrirkomulag fastra launa
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069097"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þetta efnisatriði lýsir einingu fyrir launafyrirkomulag fastra launa fyrir Dynamics 365 Human Resources.
+Þessi grein lýsir launaskrá föstum bótaáætlun fyrir Dynamics 365 Human Resources.
 
 ### <a name="description"></a>lýsing
 

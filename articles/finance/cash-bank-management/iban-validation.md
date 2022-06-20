@@ -1,6 +1,6 @@
 ---
 title: Stjórna villuleit á reikningi með alþjóðlegt bankareikningsnúmer (IBAN)
-description: Þetta efnisatriði útskýrir hvernig á að stjórna villuleit á reikningi með alþjóðlegt bankareikningsnúmer (IBAN).
+description: Þessi grein útskýrir hvernig á að stjórna staðfestingu á alþjóðlegum bankareikningsnúmerum (IBAN) reikningi.
 author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 3d825e8699fbe10e080cd85f15d3d86f8c780f15
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462765"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880900"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>Stjórna villuleit á reikningi með alþjóðlegt bankareikningsnúmer (IBAN)
 
@@ -25,7 +25,7 @@ ms.locfileid: "8462765"
 
 Villuleit með alþjóðlegu bankareikningsnúmeri (IBAN) eykur fjölda villuleita sem gerðar eru þegar þú bætir IBAN við bankareikning.
 
-Upplýsingar um uppbyggingu IBAN eru geymdar í Microsoft Dynamics 365 Finance og hlaðast sjálfkrafa þegar þú notar IBAN-númerið á bankareikningum í fyrsta sinn. Það inniheldur lengd IBAN, upphafsstöðu bankareikningsrnúmers og leiðarrnúmer og lengd bankareikningsnúmersins og leiðarrnúmersins.
+Upplýsingar um uppbyggingu IBAN eru geymdar í Microsoft Dynamics 365 Finance og hlaðast sjálfkrafa inn þegar þú notar IBAN fyrst á bankareikningum. Það inniheldur lengd IBAN, upphafsstöðu bankareikningsrnúmers og leiðarrnúmer og lengd bankareikningsnúmersins og leiðarrnúmersins.
 
 ## <a name="set-up-iban-structures"></a>Setja upp IBAN-skipulag
 

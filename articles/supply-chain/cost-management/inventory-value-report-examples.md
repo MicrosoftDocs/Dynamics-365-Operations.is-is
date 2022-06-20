@@ -1,6 +1,6 @@
 ---
 title: Dæmi og rök fyrir birgðavirðisskýrslu
-description: Þetta efnisatriði gefur nokkur dæmi um niðurstöður sem eru kynntar á hverri tegund birgðavirðisskýrslu. Birgðavirðisskýrslur veita upplýsingar um efnislegt og fjárhagslegt magn og fjárhæðir birgða þinna.
+description: Þessi grein gefur nokkur dæmi um niðurstöður sem eru kynntar á hverri tegund birgðavirðisskýrslu. Birgðavirðisskýrslur veita upplýsingar um efnislegt og fjárhagslegt magn og fjárhæðir birgða þinna.
 author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0d594fc18a104c434a334a5b6d1d249330a6be9a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6c6387be5204fde6ebc7a4983567801900974af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675320"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877654"
 ---
 # <a name="inventory-value-report-examples-and-logic"></a>Dæmi og rök fyrir birgðavirðisskýrslu
 
 [!include [banner](../includes/banner.md)]
 
-Birgðavirðisskýrslur veita upplýsingar um efnislegt og fjárhagslegt magn og fjárhæðir birgða þinna. Þetta efnisatriði gefur nokkur dæmi um niðurstöður sem eru kynntar á hverri tegund birgðavirðisskýrslu.
+Birgðavirðisskýrslur veita upplýsingar um efnislegt og fjárhagslegt magn og fjárhæðir birgða þinna. Þessi grein gefur nokkur dæmi um niðurstöður sem eru kynntar á hverri tegund birgðavirðisskýrslu.
 
 Fyrir frekari upplýsingar um hvernig á að búa til og nota hverja gerð birgðavirðisskýrslu, sjá [Birgðavirðisskýrslur](inventory-value-report-storage.md).
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Sýnidæmi sem er notað í þessum dæmum
 
-Dæmin í þessu efnisatriði byggja á dæmi um birgðafærslugögnin sem lýst er í þessum hluta.
+Dæmin í þessari grein eru byggð á sýnishorni birgðafærslugagna sem lýst er í þessum hluta.
 
 ### <a name="storage-dimension-setup"></a>Uppsetning geymsluvíddar
 
@@ -70,11 +70,11 @@ Dæmikerfið inniheldur uppsetningu birgðagildisskýrslu sem hefur eftirfarandi
 
 ## <a name="inventory-value-report-example-1"></a>Dæmi um birgðavirðisskýrslu 1
 
-Eftirfarandi tafla og myndir sýna niðurstöðurnar þegar þú notar sýnishornsgögn og skýrslustillingar sem lýst er fyrr í þessu efnisatriði.
+Eftirfarandi tafla og myndir sýna niðurstöðurnar þegar þú notar sýnishornsgögn og skýrslustillingar sem lýst er fyrr í þessari grein.
 
 | Gerð forða | Tilföng | Svæði | Tilvísun | Birgðir: Fjárhagslegt magn | Birgðir: Fjárhagsleg upphæð | Birgðir: Bókað efnislegt magn | Birgðir: Bókuð efnisleg upphæð | Birgðir: Magn | Birgðir: Upphæð | Meðalverð á einingu |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Efni | B0001 | 1 | Lokastaða | 9.00 | 908.33 | 5.00 | 375.00 | 14.00 | 1,283.33 | 91.67 |
+| Efni | B0001 | 1 | Lokastaða | 9.00 | 908,33 | 5.00 | 375,00 | 14.00 | 1,283.33 | 91.67 |
 | Efni | B0001 | 2 | Lokastaða | 10,00 | 2,000.00 | 0,00 | 0,00 | 10,00 | 2,000.00 | 200.00 |
 
 ### <a name="standard-inventory-value-report-for-example-1"></a>Staðlað birgðavirðisskýrsla til dæmis 1
@@ -91,13 +91,13 @@ Eftirfarandi mynd sýnir **Geymsla birgðavirðisskýrslu** skýrslu til dæmis 
 
 ## <a name="inventory-value-report-example-2"></a>Dæmi um birgðavirðisskýrslu 2
 
-Eftirfarandi tafla og myndir sýna niðurstöðurnar þegar þú notar sýnishornsgögnin sem lýst er fyrr í þessu efni, en þú breytir gildi **Stig** sviði til *Viðskipti* í skýrslustillingunni og þú stillir **Frá dags** sviði til *15. mars* þegar þú keyrir skýrsluna.
+Eftirfarandi tafla og myndir sýna niðurstöðurnar þegar þú notar sýnishornsgögnin sem lýst er fyrr í þessari grein, en þú breytir gildi **Stig** sviði til *Viðskipti* í skýrslustillingunni og þú stillir **Frá dags** sviði til *15. mars* þegar þú keyrir skýrsluna.
 
 | Gerð forða | Tilföng | Svæði | Dagsetning | Númer | Tilvísun | Birgðir: Fjárhagslegt magn | Birgðir: Fjárhagsleg upphæð | Birgðir: Bókað efnislegt magn | Birgðir: Bókuð efnisleg upphæð | Birgðir: Magn | Birgðir: Upphæð |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Efni | B0001 | 1 | 3/15/2021 | 00000126 | Innkaupapöntun | 0,00 | 0,00 | 10,00 | 1,000.00 | **10.00** | **1,000.00** |
 | Efni | B0001 | 1 | 3/15/2021 | 00000126 | Innkaupapöntun | 10,00 | 1,000.00 | -10,00 | -1.000,00 | **0.00** | **0.00** |
-| Efni | B0001 | 1 | 4/15/2021 | 00000128 | Innkaupapöntun | 0,00 | 0,00 | 5.00 | 375.00 | **5.00** | **375.00** |
+| Efni | B0001 | 1 | 4/15/2021 | 00000128 | Innkaupapöntun | 0,00 | 0,00 | 5.00 | 375,00 | **5.00** | **375.00** |
 | Efni | B0001 | 1 | 5/2/2021 | 000003 | Flutningspöntunarsending | -5,00 | -458,33 | 0,00 | 0,00 | **-5.00** | **-458.33** |
 | Efni | B0001 | 1 | 5/2/2021 | 000003 | Móttaka flutningspöntunar | 5.00 | 458.33 | 0,00 | 0,00 | **5.00** | **458.33** |
 | Efni | B0001 | 1 | 5/3/2021 | 000835 | Sölupöntun | 0,00 | 0,00 | 1.00 | -91,67 | **-1.00** | **-91.67** |
@@ -127,32 +127,32 @@ Eftirfarandi undirkaflar sýna birgðavirðisskýrslur sem eru búnar til eftir 
 
 ### <a name="example-3-when-the-totals-level-is-used"></a>Dæmi 3 þegar heildarstigið er notað
 
-Eftirfarandi tafla sýnir niðurstöðurnar þegar þú notar sýnishornsgögn og skýrslustillingar sem lýst er fyrr í þessu efnisatriði. (Í þeirri skýrslustillingu er **Stig** reiturinn er stilltur á *Samtals* .)
+Eftirfarandi tafla sýnir niðurstöðurnar þegar þú notar sýnishornsgögn og skýrslustillingar sem lýst er fyrr í þessari grein. (Í þeirri skýrslustillingu er **Stig** reiturinn er stilltur á *Samtals* .)
 
 | Gerð forða | Tilföng | Svæði | Tilvísun | Birgðir: Fjárhagslegt magn | Birgðir: Fjárhagsleg upphæð | Birgðir: Bókað efnislegt magn | Birgðir: Bókuð efnisleg upphæð | Birgðir: Magn | Birgðir: Upphæð | Meðalverð á einingu |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Efni | B0001 | 1 | Lokastaða | 9.00 | 900.00 | 5.00 | 375.00 | 14.00 | 1,275.00 | 91.07 |
+| Efni | B0001 | 1 | Lokastaða | 9.00 | 900,00 | 5.00 | 375,00 | 14.00 | 1,275.00 | 91.07 |
 | Efni | B0001 | 2 | Lokastaða | 10,00 | 2,000.00 | 0,00 | 0,00 | 10,00 | 2,000.00 | 200.00 |
 
 ### <a name="example-3-when-the-transactions-level-is-used"></a>Dæmi 3 þegar viðskiptastigið er notað
 
-Eftirfarandi tafla sýnir niðurstöðurnar þegar þú notar sýnishornsgögnin sem lýst er fyrr í þessu efni, en þú breytir gildi **Stig** sviði til *Viðskipti* í skýrslustillingunni.
+Eftirfarandi tafla sýnir niðurstöðurnar þegar þú notar sýnishornsgögnin sem lýst er fyrr í þessari grein, en þú breytir gildinu **Stig** sviði til *Viðskipti* í skýrslustillingunni.
 
 | Gerð forða | Tilföng | Svæði | Dagsetning | Númer | Tilvísun | Birgðir: Fjárhagslegt magn | Birgðir: Fjárhagsleg upphæð | Birgðir: Bókað efnislegt magn | Birgðir: Bókuð efnisleg upphæð | Birgðir: Magn | Birgðir: Upphæð |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Efni | B0001 | 1 | 3/15/2021 | 00000126 | Innkaupapöntun | 0,00 | 0,00 | 10,00 | 1,000.00 | 10,00 | 1,000.00 |
 | Efni | B0001 | 1 | 3/15/2021 | 00000126 | Innkaupapöntun | 10,00 | 1,000.00 | -10,00 | -1.000,00 | 0,00 | 0,00 |
-| Efni | B0001 | 1 | 4/15/2021 | 00000128 | Innkaupapöntun | 0,00 | 0,00 | 5.00 | 375.00 | 5.00 | 375.00 |
+| Efni | B0001 | 1 | 4/15/2021 | 00000128 | Innkaupapöntun | 0,00 | 0,00 | 5.00 | 375,00 | 5.00 | 375,00 |
 | Efni | B0001 | 1 | 5/2/2021 | 000003 | Flutningspöntunarsending | -5,00 | -458,33 | 0,00 | 0,00 | -5,00 | -458,33 |
 | Efni | B0001 | 1 | 5/2/2021 | 000003 | Móttaka flutningspöntunar | 5.00 | 458.33 | 0,00 | 0,00 | 5.00 | 458.33 |
 | Efni | B0001 | 1 | 5/3/2021 | 000835 | Sölupöntun | 0,00 | 0,00 | 1.00 | -91,67 | 1.00 | -91,67 |
 | Efni | B0001 | 1 | 5/3/2021 | 000835 | Sölupöntun | 1.00 | -91,67 | 1.00 | 91.67 | 0,00 | 0,00 |
 | Efni | B0001 | 1 | 5/31/2021 | 000835 | Sölupöntun | 0,00 | -8.33 | 0,00 | 0,00 | 0,00 | -8.33 |
 | Efni | B0001 | 1 | 5/31/2021 | 000003 | Flutningspöntunarsending | 0,00 | -41,67 | 0,00 | 0,00 | 0,00 | -41,67 |
-| Efni | B0001 | 1 | 5/31/2021 | 000003 | Móttaka flutningspöntunar | 0,00 | 41.67 | 0,00 | 0,00 | 0,00 | 41.67 |
+| Efni | B0001 | 1 | 5/31/2021 | 000003 | Móttaka flutningspöntunar | 0,00 | 41,67 | 0,00 | 0,00 | 0,00 | 41,67 |
 | Efni | B0001 | 2 | 3/15/2021 | 00000127 | Innkaupapöntun | 0,00 | 0,00 | 10,00 | 2,000.00 | 10,00 | 2,000.00 |
 | Efni | B0001 | 2 | 3/15/2021 | 00000127 | Innkaupapöntun | 10,00 | 2,000.00 | -10,00 | -2.000,00 | 0,00 | 0,00 |
 | Efni | B0001 | 2 | 5/2/2021 | 000003 | Flutningspöntunarsending | 5.00 | 458.33 | 0,00 | 0,00 | 5.00 | 458.33 |
 | Efni | B0001 | 2 | 5/2/2021 | 000003 | Móttaka flutningspöntunar | -5,00 | -458,33 | 0,00 | 0,00 | -5,00 | -458,33 |
-| Efni | B0001 | 2 | 5/31/2021 | 000003 | Flutningspöntunarsending | 0,00 | 41.67 | 0,00 | 0,00 | 0,00 | 41.67 |
+| Efni | B0001 | 2 | 5/31/2021 | 000003 | Flutningspöntunarsending | 0,00 | 41,67 | 0,00 | 0,00 | 0,00 | 41,67 |
 | Efni | B0001 | 2 | 5/31/2021 | 000003 | Móttaka flutningspöntunar | 0,00 | -41,67 | 0,00 | 0,00 | 0,00 | -41,67 |

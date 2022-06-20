@@ -1,6 +1,6 @@
 ---
-title: Búa til útflutningsforrit fyrir endurtekin gögn
-description: Í þessu efnisatriði er lýst hvernig á að búa til Microsoft Azure rökfræðiforrit sem flytur gögn úr Microsoft Dynamics 365 Human Resources með reglulegu millibili.
+title: Stofna forrit fyrir útflutning endurtekinna gagna
+description: Þessi grein lýsir því hvernig á að búa til a Microsoft Azure rökfræðiforrit sem flytur út gögn frá Microsoft Dynamics 365 Human Resources á endurtekinni dagskrá.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c53adc56c19acae05904edcf4109a134566d30b7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9c840dbf4f717da3359640ee5c8231ccd129ebb2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688772"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875830"
 ---
-# <a name="create-a-recurring-data-export-app"></a>Búa til útflutningsforrit fyrir endurtekin gögn
+# <a name="create-a-recurring-data-export-app"></a>Stofna forrit fyrir útflutning endurtekinna gagna
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Í þessu efnisatriði er lýst hvernig á að búa til Microsoft Azure rökfræðiforrit sem flytur gögn úr Microsoft Dynamics 365 Human Resources með reglulegu millibili. Kennslan nýtir sér DMF pakka REST forritunarviðmóts mannauðsmála (API) til að flytja gögnin út. Eftir að gögnin hafa verið flutt út vistar rökfræðiforritið útflutta gagnapakkann til Microsoft OneDrive fyrir viðskiptamöppu.
+Þessi grein lýsir því hvernig á að búa til a Microsoft Azure rökfræðiforrit sem flytur út gögn frá Microsoft Dynamics 365 Human Resources á endurtekinni dagskrá. Kennslan nýtir sér DMF pakka REST forritunarviðmóts mannauðsmála (API) til að flytja gögnin út. Eftir að gögnin hafa verið flutt út vistar rökfræðiforritið útflutta gagnapakkann til Microsoft OneDrive fyrir viðskiptamöppu.
 
 ## <a name="business-scenario"></a>Sviðsmynd fyrirtækis
 

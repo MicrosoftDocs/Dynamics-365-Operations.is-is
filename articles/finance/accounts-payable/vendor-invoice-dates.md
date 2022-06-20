@@ -1,6 +1,6 @@
 ---
 title: Dagsetningar reiknings lánardrottins
-description: Þetta efnisatriði lýsir dagsetningunum sem koma fram á reikningum lánardrottins. Einnig er útskýrt hvernig kerfið er sett upp þannig að það stilli sjálfkrafa bókunardagsetninguna.
+description: Þessi grein lýsir dagsetningum sem birtast á reikningum lánardrottins. Einnig er útskýrt hvernig kerfið er sett upp þannig að það stilli sjálfkrafa bókunardagsetninguna.
 author: sunfzam
 ms.date: 2/09/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: 943a84407d022c2c05bc534a35a2b5d44a94653e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105465"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876413"
 ---
 # <a name="vendor-invoice-dates"></a>Dagsetningar reiknings lánardrottins
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir dagsetningunum sem koma fram á reikningum lánardrottins. Einnig er útskýrt hvernig kerfið er sett upp þannig að það stilli sjálfkrafa bókunardagsetninguna.
+Þessi grein lýsir dagsetningum sem birtast á reikningum lánardrottins. Einnig er útskýrt hvernig kerfið er sett upp þannig að það stilli sjálfkrafa bókunardagsetninguna.
 
 Á síðunni **Upplýsingar um reikning lánardrottins í bið** sýnir reikningshausinn fjórar dagsetningar: móttökudagsetningu reiknings, reikningsdagsetningu, bókunardagsetningu og gjalddaga. Þegar reikningur lánardrottins er búinn til eru eftirfarandi dagsetningar slegnar inn sjálfgefið:
 
@@ -37,7 +37,7 @@ ms.locfileid: "8105465"
 
 Stundum gæti reikningur lánardrottins verið í biðstöðu í langan tíma eftir að tímabilinu lýkur. Þegar hann er tilbúinn til bókunar er gamla bókunardagsetning síðasta bókunartímabils áfram notuð. Því tímabili hefur hinsvegar verið lokað. Þar af leiðandi verður starfsmaður viðskiptaskulda að breyta öllum bókunardagsetningum handvirkt í nýja bókunartímabilið fyrir alla reikninga í bið sem voru búnir til áður.
 
-Eiginleikanum sem lýst er í þessu efnisatriði gerir þér kleift að setja kerfið upp þannig að það stilli sjálfkrafa bókunardagsetninguna í samræmi við viðskiptakröfur.
+Eiginleikinn sem lýst er í þessari grein gerir þér kleift að setja kerfið upp þannig að það stilli sjálfkrafa bókunardagsetningu í samræmi við kröfur fyrirtækisins.
 
 ## <a name="parameter-for-automatically-adjusting-the-vendor-invoice-posting-date"></a>Færibreytur til að breyta sjálfkrafa bókunardagsetningu lánardrottnareiknings
 
@@ -52,7 +52,7 @@ Fylgdu þessum skrefum til að gera kerfinu kleift að breyta bókunardagsetning
     - **Breyta bókunardagsetningu í fyrsta dag nýs tímabils þegar bókunardagsetningartímabil er lokað eða í bið** – Kerfið breytir bókunardagsetningu í fyrsta dag nýs opins tímabils, en aðeins ef samsvarandi tímabil bókunardagsetningar er með stöðuna **Lokið** eða **Í bið**.
 
 > [!NOTE]
-> Ef nýja bókunardagsetningin sem var sjálfvirk leiðrétt er á nýju reikningsári verður bókunardagsetning reikningsins ekki uppfærð. Notandinn mun fá villuna „Fjárhagsárið hefur breyst. Vinsamlegast athugaðu og sláðu inn birtingardagsetninguna aftur." Bókunardagsetning reiknings verður að uppfæra í nýja dagsetningu reikningsárs til að geta bókað.
+> Ef nýja bókunardagsetningin sem var sjálfvirk leiðrétt er á nýju reikningsári verður bókunardagsetning reikningsins ekki uppfærð. Notandinn mun fá villuna „Fjárhagsárið hefur breyst. Vinsamlegast athugaðu og sláðu inn birtingardagsetninguna aftur." Bókunardagsetning reiknings verður að vera uppfærð í nýja dagsetningu reikningsárs til að geta bókað.
 
 ## <a name="impact-of-posting-date-changes"></a>Áhrif breytinga á bókunardagsetningu
 

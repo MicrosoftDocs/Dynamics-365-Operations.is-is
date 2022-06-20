@@ -1,6 +1,6 @@
 ---
 title: Bæta lendingarsíðu flokks
-description: Þetta efni fjallar um auðgun flokksíðna í Dynamics 365 Commerce.
+description: Þessi grein fjallar um auðgun flokkasíðna í Dynamics 365 Commerce.
 author: v-chgri
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5bb28c3b5fbb1133d32219b9c47dd1477ae2ac982ee035321dafd77c53dc910b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bfee3b09768fa19ab95c880d7f7cbf330a8c58d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771008"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856965"
 ---
 # <a name="enrich-a-category-landing-page"></a>Bæta lendingarsíðu flokks
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni fjallar um auðgun flokksíðna í Dynamics 365 Commerce.
+Þessi grein fjallar um auðgun flokkasíðna í Dynamics 365 Commerce.
 
 Commerce býður upp á sjálfgefna áfangasíðu flokks sem er notuð þegar flokkagögn eru sýnd. Sjálfgefin flokksíða inniheldur nauðsynlega þætti, svo sem hreinsara, flokkaða afurðastaðsetningu, flokkunarvalkosti, yfirlit yfir val og síðuskiptingarstýringar. 
 

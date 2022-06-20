@@ -1,6 +1,6 @@
 ---
 title: Stofna flutningspantanir úr vöruhúsaforriti
-description: Í þessu efnisatriði er því lýst hvernig á að stofna og vinna úr flutningspöntunum úr farsímaforriti Warehouse Management
+description: Þessi grein lýsir því hvernig á að búa til og vinna flutningspantanir úr vöruhúsastjórnun farsímaforritinu
 author: perlynne
 ms.date: 09/02/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: cbaeb120032bf2239fd9a5bce39fd7936229b308
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877451"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Stofna flutningspantanir úr vöruhúsaforriti
 
@@ -33,7 +33,7 @@ ms.locfileid: "8102939"
 1. Virkjaðu eftirfarandi tvo eiginleika (í röð) í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými. Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á báðum þessum eiginleikum.
     1. *Vinna úr viðburðum vöruhúsaforrits*
     1. *Stofna og vinna úr flutningspöntunum úr vöruhúsaforriti*
-1. Til að gera sjálfvirka vinnslu á útsendingum verður þú einnig að virkja [Staðfestu sendingar á útleið frá runuvinnu](confirm-outbound-shipments-from-batch-jobs.md) eiginleiki.
+1. Til að gera sjálfvirka vinnslu á sendingar á útleið verður þú einnig að virkja [Staðfestu sendingar á útleið frá runuvinnu](confirm-outbound-shipments-from-batch-jobs.md) eiginleiki.
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Setja upp valmyndaratriði fartækis til að stofna flutningspantanir
 

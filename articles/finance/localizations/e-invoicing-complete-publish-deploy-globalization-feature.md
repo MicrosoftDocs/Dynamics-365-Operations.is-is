@@ -1,6 +1,6 @@
 ---
 title: Ljúka við, birta og setja upp altækan eiginleika
-description: Þetta efni veitir upplýsingar um líftíma hnattvæðingareiginleika.
+description: Þessi grein veitir upplýsingar um líftíma hnattvæðingareiginleika.
 author: dkalyuzh
 ms.date: 12/15/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 21e03660387c7e715bc0f4cb1dbcd3ec9ec6cee2
-ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
+ms.openlocfilehash: 469fd66a5eaa779ea28ecfe4a29dd34d3ef748f5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8554562"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846527"
 ---
 # <a name="complete-publish-and-deploy-a-globalization-feature"></a>Ljúka við, birta og setja upp altækan eiginleika
 
@@ -32,7 +32,7 @@ Aðgerðir rafrænna reikninga eru útfærðar. Þegar ný útgáfa er búin til
 
 Eiginleikaútgáfur rafrænnar reikningsfærslu fylgja stuðningstíma sem er með allt að þrjár stöður:
 
-- **Drög** – Þegar eiginleikaútgáfa hefur þessa stöðu geturðu breytt stillingareigindum hennar og gripum hennar (til dæmis stillingum skráarsniðs).
+- **Drög** – Þegar eiginleikaútgáfa hefur þessa stöðu geturðu breytt stillingareiginleikum hennar og gripum hennar (til dæmis stillingum skráarsniðs).
 - **Heill** – Þessi staða gefur til kynna að þú hafir lokið við að breyta eiginleika útgáfunni og ætlar ekki að gera fleiri uppfærslur á henni. Þegar eiginleikaútgáfa hefur þessa stöðu geturðu ekki lengur breytt henni eða einhverjum af íhlutum hennar.
 - **Birt** – Þessi staða gefur til kynna að eiginleikaútgáfan hafi verið birt í alþjóðlegu geymslunni sem tengist fyrirtækinu þínu. Þegar eiginleikaútgáfa hefur þessa stöðu geturðu ekki lengur breytt henni eða einhverjum af íhlutum hennar.
 
@@ -44,7 +44,7 @@ Fylgdu þessum skrefum til að breyta stöðu eiginleika útgáfu rafrænna reik
 2. Á vinnusvæðinu **Altækur eiginleiki**, í hlutanum **Eiginleikar**, skal velja reitinn **Rafræn reikningsfærsla**.
 3. Vinstra megin við **Eiginleikar rafrænna reikninga** síðu, veldu rafræna reikningseiginleikann.
 4. Á **Útgáfur** flipann hægra megin á síðunni, veldu útgáfuna.
-5. Veldu **Breyta stöðu**, og veldu síðan **Heill** (ef núverandi staða er **Drög**) eða **Birt** (ef núverandi staða er **Fullbúið**).
+5. Veldu **Breyta stöðu**, og veldu síðan **Heill** (ef núverandi staða er **Drög**) eða **Birt** (ef núverandi staða er **Heill**).
 6. Veldu í skilaboðareitnum **Já** til að staðfesta beiðnina.
 
 Handbók breyting frá **Heill** stöðu til **Birt** staða er valkvæð. Útgáfur rafrænna reikningaeiginleika eru sjálfkrafa uppfærðar í **Birt** stöðu þegar þeim er dreift í þjónustuumhverfið.
@@ -53,13 +53,13 @@ Handbók breyting frá **Heill** stöðu til **Birt** staða er valkvæð. Útg�
 
 ## <a name="deploy-feature-versions"></a>Settu upp eiginleika útgáfur
 
-Í RCS notarðu **Dreifa** skipun til að birta eiginleika útgáfu rafrænna reikninga í markþjónustuumhverfið eða tengda forritið.
+Í RCS notarðu **Senda út** skipun til að birta eiginleika útgáfu rafrænna reikninga í markþjónustuumhverfið eða tengda forritið.
 
 1. Vinstra megin við **Eiginleikar rafrænna reikninga** síðu, veldu rafræna reikningseiginleikann.
 2. Á **Útgáfur** flipann hægra megin á síðunni, veldu útgáfu rafrænna reikningaeiginleika sem þú vilt nota í þjónustuumhverfið eða tengda forritið. Valin útgáfa verður að hafa stöðuna **Heill** eða **Birt**.
 3. Veldu **Senda út**, og veldu síðan einn eða báða eftirfarandi valkosta til að skilgreina markmið dreifingarinnar:
 
-    - **Tengt forrit** – Stillingin sem fylgir uppsetningu forritsins er skrifuð í tilviki af Microsoft Dynamics 365 Fjármál eða Dynamics 365 Supply Chain Management sem áður tengdist því.
+    - **Tengt forrit** – Stillingin sem fylgir uppsetningu forritsins er skrifuð í tilviki af Microsoft Dynamics 365 Fjármál eða Dynamics 365 Supply Chain Management sem áður var tengdur því.
     - **Þjónustuumhverfi** – Útgáfa rafrænna reikningaeiginleikans er notuð í þjónustuumhverfið. Rafrænn reikningur er þá tilbúinn til að taka á móti og vinna úr rafrænum skjölum sem fjármála- eða birgðakeðjustjórnun sendir.
 
 > [!NOTE]

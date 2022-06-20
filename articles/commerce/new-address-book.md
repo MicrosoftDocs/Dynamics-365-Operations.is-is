@@ -1,6 +1,6 @@
 ---
 title: Stofna nýja aðsetursbók
-description: Þetta efnisatriði lýsir hvernig á að stofna aðsetursbækur í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að búa til heimilisfangabækur í Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f28e9d301b0a3c30f903ccc32e785ae09f0d702f3625f5febe03817ba44046ce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7bee4999255e063da946d38561146f5beb98dbc8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889369"
 ---
 # <a name="create-new-address-book"></a>Stofna nýja aðsetursbók
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er lýst hvernig eigi að stofna nýja aðsetursbók í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að búa til nýja heimilisfangaskrá í Microsoft Dynamics 365 Commerce.
 
 Heimilisfangabækur eru notaðar í verslun af ýmsum ástæðum, þar með talið að geyma viðskiptavinalista og starfsmannalista fyrir rás. Hægt er að nota netföng fyrir eina rás eða deila þeim milli rásanna.
 

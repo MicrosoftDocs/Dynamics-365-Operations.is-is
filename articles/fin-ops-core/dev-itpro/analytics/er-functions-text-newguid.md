@@ -1,6 +1,6 @@
 ---
 title: NEWGUID-aðgerð rafrænnar skýrslugerðar
-description: Þetta efnisatriði inniheldur upplýsingar um hvernig NEWGUID-aðgerð rafrænnar skýrslugerðar er notuð.
+description: Þessi grein veitir upplýsingar um hvernig aðgerðin NEWGUID rafræn skýrslugerð (ER) er notuð.
 author: NickSelin
 ms.date: 09/09/2021
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-09-08
 ms.dyn365.ops.version: AX 10.0.23
-ms.openlocfilehash: 5856a4d765f5136ecb11a34e0255c1ba88818f2c
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: 321e2eda4accf9c8fe33b5a4c092c7be55276f26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861817"
 ---
 # <a name="newguid-er-function"></a>NEWGUID-aðgerð rafrænnar skýrslugerðar
 

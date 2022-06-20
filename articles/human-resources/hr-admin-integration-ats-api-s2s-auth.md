@@ -1,6 +1,6 @@
 ---
 title: Sannvottun frá þjóni til þjóns fyrir API samþættingu ATS
-description: Í þessu efnisatriði er útskýrt hvernig á að setja upp sannvottun frá þjóni til þjóns fyrir samþættingar gagnvart Dynamics 365 Human Resources API samþættingu ATS.
+description: Þessi grein lýsir því hvernig á að setja upp auðkenningu miðlara til netþjóns fyrir samþættingu gegn Dynamics 365 Human Resources API fyrir samþættingu umsækjanda rakningarkerfis (ATS).
 author: jaredha
 ms.date: 06/30/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: de3dc29c5366996276c02576eba27f7e831e4ccf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743542"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879367"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>Sannvottun frá þjóni til þjóns fyrir API samþættingu ATS
 
@@ -27,7 +27,7 @@ ms.locfileid: "8743542"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að setja upp sannvottun frá þjóni til þjóns fyrir samþættingar forrits gagnvart Dynamics 365 Human Resources API samþættingu ATS. Stjórna þarf nokkrum öryggislögum fyrir þjónustueininguna til að fá aðgang að Microsoft Dataverse sýndartöflunni og tengdum gögnum. Veita þarf notandanum aðgang að Dataverse sýndartöflunni í Microsoft Power Platform og aðgang að gögnunum í Dynamics 365 Human Resources.
+Þessi grein lýsir því hvernig á að setja upp auðkenningu miðlara til miðlara fyrir samþættingu forrita gegn Dynamics 365 Human Resources API fyrir samþættingu umsækjanda rakningarkerfis (ATS). Stjórna þarf nokkrum öryggislögum fyrir þjónustueininguna til að fá aðgang að Microsoft Dataverse sýndartöflunni og tengdum gögnum. Veita þarf notandanum aðgang að Dataverse sýndartöflunni í Microsoft Power Platform og aðgang að gögnunum í Dynamics 365 Human Resources.
 
 ## <a name="enable-access-to-dataverse-virtual-tables-in-power-platform"></a>Virkja aðgang að Dataverse sýndartöflum í Power Platform
 

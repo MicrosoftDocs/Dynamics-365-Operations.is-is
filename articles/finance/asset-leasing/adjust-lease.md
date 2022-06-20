@@ -1,6 +1,6 @@
 ---
 title: Leiðrétta leigusamninga
-description: Þetta efnisatriði útskýrir hvernig á að leiðrétta leigusamning. Leiðrétting gæti verið nauðsynleg ef leiguskilmálum er breytt, leigan framlengd eða aðrar aðstæður breytast.
+description: Greinin útskýrir hvernig á að laga leigusamning. Leiðrétting gæti verið nauðsynleg ef leiguskilmálum er breytt, leigan framlengd eða aðrar aðstæður breytast.
 author: moaamer
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 89ec876c9bd967107635eb2955209a4dcb95cde5
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 48d1a261a43d6e3a68dfc0aae6f06c0d7d6b82db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712175"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898328"
 ---
 # <a name="adjust-leases"></a>Leiðrétta leigusamninga
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að leiðrétta leigusamning. Leiðrétting gæti verið nauðsynleg ef leiguskilmálum er breytt, leigan framlengd eða aðrar aðstæður breytast. Eignarleiga uppfyllir leiðbeiningar sem efnisatriði um skráningarkerfi reikningsskilastaðla 842 (ASC 842) og alþjóðlegan reikningsskilastaðal 16 (IFRS 16) kveður á um varðandi breytingar á leigusamningum. ASC 842-20-15-1 skilgreinir breytingar á leigusamningi sem allar breytingar á skilmálum samnings sem valda breytingu á umfangi, eða meðferð á leigusamningi. Málsgrein 39 í IFRS 16 segir að leigjandi þurfi að endurmeta leiguskuldbindingu þannig að hún endurspegli breytingar á leigugreiðslum.
+Greinin útskýrir hvernig á að laga leigusamning. Leiðrétting gæti verið nauðsynleg ef leiguskilmálum er breytt, leigan framlengd eða aðrar aðstæður breytast. Eignarleiga uppfyllir leiðbeiningar sem efnisatriði um skráningarkerfi reikningsskilastaðla 842 (ASC 842) og alþjóðlegan reikningsskilastaðal 16 (IFRS 16) kveður á um varðandi breytingar á leigusamningum. ASC 842-20-15-1 skilgreinir breytingar á leigusamningi sem allar breytingar á skilmálum samnings sem valda breytingu á umfangi, eða meðferð á leigusamningi. Málsgrein 39 í IFRS 16 segir að leigjandi þurfi að endurmeta leiguskuldbindingu þannig að hún endurspegli breytingar á leigugreiðslum.
 
 Fyrir fyrirtæki sem fylgja ASC 842 eða IFRS 16 er leigusamningur endurmetinn aftur til að endurspegla breytingu á núvirði á lágmarksgreiðslum á leigu í framtíðinni (PVFMLP). Þegar PVFMLP eykst er til staðar mun bókarfærslan sem er stofnuð vera debetfærsla á lykli afnotaréttar af eign og kreditfærsla á lykli leiguskuldbindingar fyrir mismuninn á milli nýja PVFMLP og eldri PVFMLP. Ef PVFMLP lækkar verður bókarfærslan debetfærsla á lykli leiguskuldbindingar og kreditfærsla á lykli afnotaréttar af eign fyrir mismuninum.
 
@@ -136,7 +136,7 @@ Ef leigusamningur hefur verið leiðréttur er hægt að skoða mismunandi útg�
 
 ## <a name="adjust-a-lease-book"></a>Stilla leigubók
 
-Fylgdu þessum skrefum til að breyta aðeins leigubók.
+Fylgdu þessum skrefum til að breyta eingöngu leigubók.
 
 1. Fara til **Eignaleiga** \> **Leigusamningar** \> **Leiguyfirlit**.
 2. Veldu og opnaðu leigusamning.

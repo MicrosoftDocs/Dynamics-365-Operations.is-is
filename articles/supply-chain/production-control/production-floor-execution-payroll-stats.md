@@ -1,6 +1,6 @@
 ---
-title: Sýna orlofsstöður í framkvæmdarviðmóti framleiðslugólfs
-description: Þetta efni gefur dæmi um atburðarás sem sýnir hvernig á að setja upp Microsoft Dynamics 365 Supply Chain Management þannig að það notar launatölfræði til að veita starfsmönnum yfirsýn yfir orlofsstöðu sína á yfirstandandi ári.
+title: Sýna stöðu frís í viðmóti fyrir framkvæmd á framleiðslugólfi
+description: Þessi grein veitir dæmi um atburðarás sem sýnir hvernig á að setja upp Microsoft Dynamics 365 Supply Chain Management þannig að það noti launatölfræði til að veita starfsmönnum yfirsýn yfir orlofsstöðu sína á yfirstandandi ári.
 author: johanhoffmann
 ms.date: 04/22/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-04-22
 ms.dyn365.ops.version: 10.0.XX
-ms.openlocfilehash: a97858c72b0be50609cee552bd0635e2d68ea478
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 2a6b6f52bfa7539b7c9bb5841536b0d564d0274c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648167"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852274"
 ---
-# <a name="show-vacation-balances-in-the-production-floor-execution-interface"></a>Sýna orlofsstöður í framkvæmdarviðmóti framleiðslugólfs
+# <a name="show-vacation-balances-in-the-production-floor-execution-interface"></a>Sýna stöðu frís í viðmóti fyrir framkvæmd á framleiðslugólfi
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni gefur dæmi um atburðarás sem sýnir hvernig á að setja upp Microsoft Dynamics 365 Supply Chain Management þannig að það notar launatölfræði til að veita hverjum starfsmanni yfirsýn yfir orlofsstöðu sína á yfirstandandi ári. Starfsmenn munu geta séð orlofsstöðu sína í **Minn dagur** svargluggi í framkvæmdarviðmóti framleiðslugólfs.
+Þessi grein veitir dæmi um atburðarás sem sýnir hvernig á að setja upp Microsoft Dynamics 365 Supply Chain Management þannig að það noti launatölfræði til að veita hverjum starfsmanni yfirsýn yfir orlofsstöðu sína á yfirstandandi ári. Starfsmenn munu geta séð orlofsstöðu sína í **Minn dagur** svargluggi í framkvæmdarviðmóti framleiðslugólfs.
 
 Þessi atburðarás notar dönsku orlofslögin, þar sem orlofsárið er frá 1. september til 31. ágúst. Í þessari atburðarás hefur fyrirtækið þitt ráðið nýjan starfsmann og mun veita þeim starfsmanni eftirstöðvar 10 orlofsdaga það sem eftir er af yfirstandandi orlofsári.
 
@@ -52,7 +52,7 @@ Byrjaðu á því að búa til nýtt *launategund* sem mun fylgjast með áunnnu
 
 1. Fara til **Tími og mæting \> Uppsetning \> Launaskrá \> Launasamningar**.
 1. Veldu launasamninginn þar sem þú vilt setja upp orlofsstefnuna. (Ef þú ert að vinna með venjuleg USMF sýnishornsgögn, þá er aðeins einn launasamningur, *Maður* .)
-1. Gakktu úr skugga um að valinn launasamningur gildi fyrir núverandi dagsetningu. Ef þú ert að vinna með stöðluð USMF sýnishornsgögn, þá **Hingað til** sviði á *Maður* launasamningur gæti verið stilltur á dagsetningu sem er í fortíðinni. Breyttu gildinu þannig að það sé eitt eða tvö ár fram í tímann, eftir þörfum.
+1. Gakktu úr skugga um að valinn launasamningur gildi fyrir núverandi dagsetningu. Ef þú ert að vinna með stöðluð USMF sýnishornsgögn, þá **Til dagsins í dag** sviði á *Maður* launasamningur gæti verið stilltur á dagsetningu sem er í fortíðinni. Breyttu gildinu þannig að það sé eitt eða tvö ár fram í tímann, eftir þörfum.
 1. Á aðgerðarrúðunni velurðu **Samningslínur**.
 1. Á **Greiðslusamningslínur** síðu, á **Yfirlit** Flýtiflipi, stilltu eftirfarandi gildi á tækjastikunni:
 
@@ -60,7 +60,7 @@ Byrjaðu á því að búa til nýtt *launategund* sem mun fylgjast með áunnnu
     - Í seinni fellilistanum skaltu velja **Fjarvera**.
 
 1. Á aðgerðasvæðinu skal velja **Ný** til að bæta línu við hnitanetið.
-1. Á nýju röðinni skaltu stilla **Greiðsla** reitnum við launategundina sem þú bjóst til fyrir þessa atburðarás (*5151-1*). Láttu alla aðra reiti vera stillta á sjálfgefin gildi.
+1. Á nýju röðinni skaltu stilla **Launategund** reitnum við launategundina sem þú bjóst til fyrir þessa atburðarás (*5151-1*). Láttu alla aðra reiti vera stillta á sjálfgefin gildi.
 1. Á meðan nýja röðin er enn valin, á **Almennt** Flýtiflipi, stilltu eftirfarandi gildi:
 
     - **Fjarvistarkóði:** *Frí*

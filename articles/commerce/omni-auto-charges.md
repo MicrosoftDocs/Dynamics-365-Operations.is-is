@@ -1,6 +1,6 @@
 ---
 title: Ítarleg sjálfvirk gjöld fyrir omni-rás
-description: Þetta efnisatriði lýsir möguleikunum til að stjórna gjaldfærslum vegna annarra gjalda fyrir pantanir Commerce-rásar með því að nota eiginleika fyrir ítarleg sjálfvirk gjöld.
+description: Þessi grein lýsir möguleikum til að stjórna öðrum pöntunargjöldum fyrir pantanir á viðskiptarásum með því að nota háþróaða sjálfvirka gjaldtökueiginleika.
 author: hhaines
 ms.date: 03/24/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
-ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
+ms.openlocfilehash: 412f5befa255d12914444b57918f14ab51243bfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "8489619"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851132"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Ítarleg sjálfvirk gjöld fyrir omni-rás
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um stillingar og uppsetningu á eiginleika ítarlegra sjálfvirkra gjalda sem eru í boði í Dynamics 365 for Retail útgáfu 10.0.
+Þessi grein veitir upplýsingar um uppsetningu og uppsetningu á háþróaðri eiginleikum sjálfvirkra gjalda sem eru fáanlegir í Dynamics 365 for Retail útgáfa 10.0.
 
 Þegar eiginleikinn fyrir ítarlega sjálfvirk gjöld er virkjaður geta pantanir, sem eru stofnaðar í hvaða studdu Commerce rás sem er (sölustaður (POS), símaver og á netinu), nýtt sér stillingarnar [sjálfvirk gjöld](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) sem eru skilgreind í ERP-forritinu fyrir gjöld sem tengjast bæði haus og línustigi.
 

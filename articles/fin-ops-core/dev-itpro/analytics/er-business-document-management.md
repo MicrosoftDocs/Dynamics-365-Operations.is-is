@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir stjórnun viðskiptaskjala
-description: Þetta efni veitir upplýsingar um hvernig á að nota viðskiptaskjalastjórnunaraðgerð ER-ramma.
+description: Þessi grein veitir upplýsingar um hvernig á að nota viðskiptaskjalastjórnunareiginleika ER ramma.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9147a2e81329d5bf9103b6bfe067d166c1471835
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903618"
 ---
 # <a name="business-document-management-overview"></a>Yfirlit yfir stjórnun viðskiptaskjala
 
@@ -50,7 +50,7 @@ Fyrir heildarlista yfir allar skýrslur sem áætlaðar eru fyrir október 2020 
 
 Fleiri skýrslur verða í boði í síðari útgáfum. Sérstakar tilkynningar um viðbótarskýrslur verða sendar sérstaklega. Frekari upplýsingar um hvernig á að fara yfir lista yfir skýrslur sem eru í boði er að finna í kaflanum [Listi yfir skilgreiningar rafrænnar skýrslugerðar sem hafa verið gefnar út í Finance til að styðja skilgreinanleg viðskiptaskjöl](#list-of-configurations-cbd) hér að neðan.
 
-Til að fá frekari upplýsingar um þennan eiginleika skaltu ljúka dæminu í þessu efni.
+Til að læra meira um þennan eiginleika skaltu klára dæmið í þessari grein.
 
 ## <a name="configure-er-parameters"></a>Skilgreina færibreytur Rafræn skýrslugerðar
 
@@ -60,7 +60,7 @@ Til að fá frekari upplýsingar um þennan eiginleika skaltu ljúka dæminu í 
 
 ## <a name="import-er-solutions"></a>Flytja inn ER-lausnir
 
-Dæmi um ER-stillingar eru notaðar í dæminu um þetta ferli. Þú verður að flytja inn í núverandi tilvik af Dynamics 365 Finance, ER stillingar sem innihalda viðskiptaskjalasniðmát sem hægt er að breyta með því að nota viðskiptaskjalastjórnun. Hladdu niður og geymdu síðan eftirfarandi skrár til að ljúka þessu ferli.
+Dæmi um ER-stillingar eru notaðar í dæminu um þetta ferli. Þú verður að flytja inn, inn í núverandi tilvik þitt af Dynamics 365 Finance, ER stillingar sem innihalda viðskiptaskjalasniðmát sem hægt er að breyta með því að nota viðskiptaskjalastjórnun. Hladdu niður og geymdu síðan eftirfarandi skrár til að ljúka þessu ferli.
 
 **Dæmi um reikningslausn viðskiptavina í ER**
 
@@ -231,7 +231,7 @@ Fyrirtækjanotendur geta nálgast sniðmát viðskiptaskjala til að breyta þei
 - Notendur sem er úthlutað á hlutverkið **Kerfisstjóri**.
 - Notendur sem er úthlutað í hlutverk sem er skilgreint til að gegna skyldunni, **Stjórna sniðmátum viðskiptaskjala** (AOT-heiti **ERBDManageTemplates**).
 
-Notaðu eftirfarandi ferli til að breyta sniðmátum frjáls texta í vinnusvæði Stjórnunar viðskiptaskjala. Áður en þú lýkur þessu ferli verður þú að hafa lokið öllum fyrri ferlum um þetta efni.
+Notaðu eftirfarandi ferli til að breyta sniðmátum frjáls texta í vinnusvæði Stjórnunar viðskiptaskjala. Áður en þú klárar þessa aðferð verður þú að hafa lokið öllum fyrri aðferðum í þessari grein.
 
 1. Skráðu þig inn sem notandi með aðgang að vinnusvæðinu Stjórnun viðskiptaskjala.
 2. Opnaðu vinnusvæðið Stjórnun viðskiptaskjala.

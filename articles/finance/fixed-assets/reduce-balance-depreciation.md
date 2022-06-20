@@ -1,6 +1,6 @@
 ---
-title: Afskrift lækkandi stöðu
-description: Þetta efnisatriði gefur yfirlit yfir afskriftaraðferð lækkandi stöðu.
+title: Minnka bókfært virði
+description: Þessi grein gefur yfirlit yfir afskriftaraðferðina bókfært virði.
 author: moaamer
 ms.date: 04/25/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a81a8f926c30ac26d10c8763f43f39504249616f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 52bf9d4e9cbc9cabda5d5ab17c1a00ecea0d0348
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725318"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883272"
 ---
-# <a name="reduce-balance-depreciation"></a>Afskrift lækkandi stöðu
+# <a name="reduce-balance-depreciation"></a>Minnka bókfært virði
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði gefur yfirlit yfir afskriftaraðferð lækkandi stöðu.
+Þessi grein gefur yfirlit yfir afskriftaraðferðina bókfært virði.
 
 Þegar afskriftaregla fyrir eignir er sett upp og bókfært virði er valið í á svæðinu **Aðferð** á skjámyndinni **afskriftarregla** verða eignir sem hafa þessa afskriftareglu afskrifaðar um sama hlutfall af hundraði á hverju afskriftatímabili.
 
@@ -41,7 +41,7 @@ Hægt er að velja annað hvort **Dagatal** eða **reikningsár** í svæðinu *
 
 ### <a name="calendar"></a>Dagatal
 
-Valmöguleikinn **dagatal** uppfærir afskriftagrunninn (vanalega bókað nettóverð að frádregnu hrakvirði) þann 1. janúar ár hvert. Í dæminu um afskriftir fyrir bókfært virði hér að neðan er afskriftargrunnurinn deilistofninn í fyrstu segðinni í útreikningsdálkinum. 
+Valmöguleikinn **dagatal** uppfærir afskriftagrunninn (vanalega bókað nettóverð að frádregnu hrakvirði) þann 1. janúar ár hvert. Í dæminu um afskriftir á afskriftarstöðu síðar í þessari grein er afskriftargrunnurinn teljarinn í fyrstu tjáningu í útreikningsdálknum. 
 
 Ef **dagatal** er valið eru eftirfarandi valkostir á svæðinu **tímabilstíðni**, sem skilgreinir bókunardagsetningar uppsafnaðra afskrifta og upphæðir yfir allt almanaksárið:
 

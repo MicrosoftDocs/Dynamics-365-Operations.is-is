@@ -1,6 +1,6 @@
 ---
-title: Settu upp færibreytur ER sniðs á hvern lögaðila
-description: Þetta efni útskýrir hvernig þú getur sett upp færibreytur í snið fyrir rafræna skýrslugerð (ER) á lögaðila.
+title: Setja upp færibreytur á sniði rafrænnar skýrslugerðar fyrir hvern lögaðila
+description: Þessi grein útskýrir hvernig þú getur sett upp færibreytur rafrænnar skýrslugerðar (ER) sniðs fyrir hvern lögaðila.
 author: NickSelin
 ms.date: 03/25/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dbcf968dde432da182b5bd2d6a7bcb9f83dad6fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644500"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890213"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Settu upp færibreytur ER sniðs á hvern lögaðila
 
@@ -30,7 +30,7 @@ ms.locfileid: "8644500"
 
 Til að ljúka þessum skrefum þarf fyrst að ljúka skrefunum í [Grunnstilla ER-snið til að nota færibreytur sem eru tilgreindar fyrir hvern lögaðila](er-app-specific-parameters-configure-format.md).
 
-Til að klára dæmin í þessu efni verður þú að hafa aðgang að Microsoft Dynamics 365 Fjármál fyrir eitt af eftirfarandi hlutverkum:
+Til að klára dæmin í þessari grein verður þú að hafa aðgang að Microsoft Dynamics 365 Fjármál fyrir eitt af eftirfarandi hlutverkum:
 
 - Þróunaraðili rafrænnar skýrslulausnar
 - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
@@ -221,7 +221,7 @@ Færibreytur forritsins fyrir ER-snið eru háðar lögaðila. Til að endurnýt
 
 Einnig er hægt að nota þessa útflutnings-innflutningsaðferð til að flytja forritsfæribreytur ER-sniðs sem voru upprunalega skilgreindar í einu tilviki af Finance í annað tilvik af Finance.
 
-Ef þú stillir færibreytur tiltekins forrits fyrir eina útgáfu af ER-sniði og flytur síðan inn nýrri útgáfu af sama sniðinu í núverandi Finance-tilvik verða fyrirliggjandi færibreytur tiltekins forrits ekki notaður í innfluttu útgáfunni nema þú notir eiginleikann **Nota sértækar færibreytur fyrir forrit úr fyrri útgáfum sniða rafrænnar skýrslugerðar**. Nánari upplýsingar er að finna í hlutanum [Endurnota fyrirliggjandi færibreytur](#reuse-existing-parameters) síðar í þessu efnisatriði.
+Ef þú stillir færibreytur tiltekins forrits fyrir eina útgáfu af ER-sniði og flytur síðan inn nýrri útgáfu af sama sniðinu í núverandi Finance-tilvik verða fyrirliggjandi færibreytur tiltekins forrits ekki notaður í innfluttu útgáfunni nema þú notir eiginleikann **Nota sértækar færibreytur fyrir forrit úr fyrri útgáfum sniða rafrænnar skýrslugerðar**. Fyrir frekari upplýsingar, sjá [Endurnotaðu núverandi færibreytur](#reuse-existing-parameters) kafla síðar í þessari grein.
 
 Þegar þú velur skrá til að flytja inn er skipulag færibreyta tiltekins forrits í þeirri skrá borið saman við skipulag samsvarandi gagnagjafa af gerðinni **Uppfletting** í ER-sniðinu sem er valið fyrir innflutning. Innflutningi er sjálfgefið aðeins lokið ef skipulag allra færibreyta tiltekins forrits passar við skipulag samsvarandi gagnagjafa í ER-sniðinu sem er valið fyrir innflutning. Ef skipulagið passar ekki saman koma upp viðvörunarboð sem gefa til kynna að ekki sé hægt að ljúka innflutningi. Ef þú þvingar innflutninginn hreinsast upp fyrirliggjandi færibreytur tiltekins forrits fyrir valið ER-snið og þú verður að setja þær upp frá grunni.
 

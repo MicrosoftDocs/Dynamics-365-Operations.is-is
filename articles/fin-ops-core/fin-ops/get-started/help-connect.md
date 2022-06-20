@@ -1,6 +1,6 @@
 ---
 title: Stilltu hjálparupplifunina fyrir Finance and Operations forrit
-description: Þetta efnisatriði lýsir þáttum hjálparkerfisins fyrir sum Microsoft Dynamics 365-forrit.
+description: Þessi grein veitir upplýsingar um íhluti hjálparkerfisins fyrir suma Microsoft Dynamics 365 forrit.
 author: margoc
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071009"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900130"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Stilltu hjálparupplifunina fyrir Finance and Operations forrit
 
@@ -29,7 +29,7 @@ ms.locfileid: "8071009"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Í þessu efni finnurðu yfirlit yfir íhluti hjálparkerfisins fyrir fjármála- og rekstraröpp, eins og Microsoft Dynamics 365 Finance,Dynamics 365 Supply Chain Management,Dynamics 365 Commerce, og Dynamics 365 Human Resources. Efnisatriðið útskýrir einnig hvernig á að tengja þessa þætti og býður upp á samantekt yfir ferlið til að búa til sérstillta hjálp.
+Í þessari grein finnur þú yfirlit yfir íhluti hjálparkerfisins fyrir fjármála- og rekstraröpp, svo sem Microsoft Dynamics 365 Fjármál,Dynamics 365 Supply Chain Management,Dynamics 365 Commerce, og Dynamics 365 Human Resources. Greinin útskýrir einnig hvernig á að tengja þessa íhluti og gefur yfirlit yfir ferlið við að búa til sérsniðna hjálp.
 
 ## <a name="help-architecture"></a>Högun Hjálpar
 

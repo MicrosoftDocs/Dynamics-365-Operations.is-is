@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1ef722eabc3c3bc740f9ff5d959cfa005862a9b
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 28caacaafa5ef20a3d8e1ce93851c48bd4af89a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735724"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848195"
 ---
 # <a name="performance-management"></a>Árangursstjórnun
 
@@ -79,9 +79,9 @@ Frammistöðudagbókin þín mun lýsa<!--note from editor: Suggested.--> Starfs
 
 Ef þú vilt festa skjal við markmiðið, eins og fullnustuvottorð, getur þú fest það í **Viðhengi** hlutanum í **frammistöðumarkmið** síðu. Skjalasýnir fylgir svo þú getur fljótt skoðað efni viðhengdra skjala. 
 
-Þú getur stofnað sniðmát úr markmiði og notað sniðmát til að búa til ný markmið sem byggð eru á sniðmátinu. Þegar sniðmát er stofnað í markmiði eru lýsing, umræðuefni og markmið mælingar vistaðar. Hins vegar, allar raunmælingar, lokadagsetningar, og efnisatriði ummæli eru fjarlægt.
+Þú getur stofnað sniðmát úr markmiði og notað sniðmát til að búa til ný markmið sem byggð eru á sniðmátinu. Þegar sniðmát er stofnað í markmiði eru lýsing, umræðuefni og markmið mælingar vistaðar. Hins vegar eru allar raunverulegar mælingar, lokadagsetningar og athugasemdir við greinar fjarlægðar.
 
-## <a name="performance-reviews"></a>Frammistöðurýni
+## <a name="performance-reviews"></a>Endurskoðun á frammistöðu
 
 Frammistöðurýni er formlega þekkt sem umfjöllun. Þau eru nú nógu sveigjanleg til að styðja við stöðuga endurgjöf, þróunaráætlanir og formlegri endurskoðun. Þú getur fljótt búið til litla fundi fyrir tvo<!--note from editor: I think "one-on-one meeting" is implied by "two people."--> Eða þú getur byggt upp flóknari umsögn sem passar við endurskoðunarferli fyrirtækisins. 
 
@@ -162,6 +162,6 @@ Nota **Mælingar** síðu til<!--note from editor: Via Writing Style Guide, http
 
 ### <a name="review-types"></a>Gerðir yfirferðar
 
-**Endurskoðunargerðir** stjórna hegðun endurskoðunar. Hægt er að gera verkflæði virka eða óvirka fyrir yfirferð. Ef umsögnin notar ekki verkflæði geturðu skilgreint sjálfgefna stöðu sem verður notuð þegar umsögnin er búin til. Þú getur einnig ákveðið hvort starfsmaður, yfirmaður eða bæði verði krafist að staðfesting umsögn.
+**Endurskoðunargerðir** stjórna hegðun endurskoðunar. Hægt er að gera verkflæði virka eða óvirka fyrir yfirferð. Ef yfirferðin notar ekki verkflæði er hægt að skilgreina sjálfgefna stöðu sem verður notuð þegar umsögnin er búin til. Þú getur einnig ákveðið hvort starfsmaður, yfirmaður eða bæði verði krafist að staðfesting umsögn.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir einkunnir og umsagnir
-description: Þetta efnisatriði lýsir einkunnum og umsögnum í Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um einkunnir og umsagnir í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 10/01/2019
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb68652e0d3ecd8d75f2bc0fe9c243749d7de284
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9fff5100dd1bebdd19fb7306980e98ca84027acd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982253"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898911"
 ---
 # <a name="ratings-and-reviews-overview"></a>Yfirlit yfir einkunnir og umsagnir
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir einkunnum og umsögnum í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um einkunnir og umsagnir í Microsoft Dynamics 365 Commerce.
 
 Einkunnir og umsagnir skipta sköpum fyrir viðskiptavini netverslunar sem vilja vita hvernig aðrir viðskiptavinir skynja afurð. Þær geta einnig hjálpað neytendum að taka ákvarðanir um kaup. Í Dynamics 365 Commerce gerir einkunna- og umsagnalausnin smásölum kleift að sækja umsagnir og einkunnir um afurðir frá viðskiptavinum. Smásalar geta síðan sýnt meðaleinkunn og farið yfir upplýsingar á vefsvæði netverslunar sinnar.
 
@@ -55,9 +55,9 @@ Einkunna- og umsagnalausnin býður einnig upp á sniðmát fyrir viðskiptagrei
 
 [Virkja handvirka birtingu einkunna og umsagna hjá stjórnanda](manual-publish-rating-reviews.md)
 
-[Inn- og útflutnings einkunnir og umsagnir](import-export-reviews.md)
+[Flytja einkunnir og umsagnir inn og út](import-export-reviews.md)
 
-[Stilla þjónustu-til-þjónustu auðkenningu](service-to-service-auth.md)
+[Stilla sannvottun milli þjónusta](service-to-service-auth.md)
 
 [Algengar spurningar um einkunnir og umsagnir](ratings-reviews-faq.md)
 

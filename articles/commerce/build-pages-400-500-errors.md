@@ -1,6 +1,6 @@
 ---
 title: Búa til sérstilltar svarsíður fyrir 4xx/5xx stöðukóðunarvillur
-description: Þetta efnisatriði lýsir því hvernig á að búa til sérstilltar svarsíður fyrir 4xx og 5xx stöðukóðavillur með því að nota höfundarverkfæri í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að búa til sérsniðnar svarsíður fyrir 4xx og 5xx stöðukóðavillur með því að nota höfundarverkfærin í Microsoft Dynamics 365 Commerce.
 author: v-chgri
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 16cd6c3dab5502826119b6a517414d23e168e79708e306897b04c7ba8c80404b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b56d7a58659205ce4483480fd85d1c91ae52a0f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882260"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Búa til sérstilltar svarsíður fyrir 4xx/5xx stöðukóðunarvillur
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að búa til sérstilltar svarsíður fyrir 4xx og 5xx stöðukóðavillur með því að nota höfundarverkfæri í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að búa til sérsniðnar svarsíður fyrir 4xx og 5xx stöðukóðavillur með því að nota höfundarverkfærin í Microsoft Dynamics 365 Commerce.
 
 Ef beiðni tekst ekki, gefur þjónninn út svör við HTTP stöðukóða. 404 stöðukóðinn er sóttur og skilað ef síðu er ekki að finna og 500 stöðukóðinn er sóttur og honum skilað ef villu á netþjóni kemur upp. Í Dynamics 365 Commerce geta notendur forrita smíðað sérsniðnar villusvarsíður stöðukóða sem eru sýndar notendum vegna þessara villusvörunar við stöðukóða.
 

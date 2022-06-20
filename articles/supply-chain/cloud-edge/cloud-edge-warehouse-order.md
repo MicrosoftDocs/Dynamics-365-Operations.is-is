@@ -1,6 +1,6 @@
 ---
 title: Vöruhúsapantanir fyrir einingakvarða skýja og jaðra
-description: Í þessu efnisatriði er að finna upplýsingar um getu vöruhúsapöntunar sem er notuð sem hluti vinnuálags einingarkvarða í vöruhúsi.
+description: Þessi grein veitir upplýsingar um vöruhúsapöntunargetu sem er notuð sem hluti af vinnuálagi vöruhúsakvarðaeininga.
 author: perlynne
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: db254216e6c34b81f83c87a8fda454d0aeb1cece
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471693"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893527"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Vöruhúsapantanir fyrir einingakvarða skýja og jaðra
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> Ekki eru allar viðskiptaaðgerðir studdar að fullu í opinni forútgáfu þegar vinnuálag einingarkvarða er notað. Ef einingarkvarðar eru notaðir skal gæta þess að nota aðeins þau ferli sem þetta efnisatriði lýsir sérstaklega sem studd ferli.
+> Ekki eru allar viðskiptaaðgerðir studdar að fullu í opinni forútgáfu þegar vinnuálag einingarkvarða er notað. Ef þú ert að nota kvarðaeiningar, vertu viss um að nota aðeins þau ferli sem þessi grein lýsir beinlínis sem studdum.
 
 ## <a name="what-are-warehouse-orders"></a>Hvað eru vöruhúsapantanir?
 

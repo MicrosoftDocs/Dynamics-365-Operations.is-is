@@ -1,6 +1,6 @@
 ---
 title: ORDERBY ER-aðgerð
-description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin ORDERBY í rafrænni skýrslugerð (ER) er notuð.
+description: Þessi grein veitir upplýsingar um hvernig ORDERBY rafræn skýrslugerð (ER) aðgerðin er notuð.
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 963d55bcf98a9109c8b6ceb57edf5b55f15a2b0f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 1a922405ea23d2b1ff5ac062785e68626edbc8f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075175"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883760"
 ---
 # <a name="orderby-er-function"></a>ORDERBY ER-aðgerð
 
@@ -40,7 +40,7 @@ ORDERBY (location, list, expression 1[, expression 2, …, expression N])
 ```
 
 > [!NOTE]
-> Þessi setningafræði er studd fyrir Microsoft Dynamics 365 Finance útgáfu 10.0.25 og síðar.
+> Þessi setningafræði er studd fyrir Microsoft Dynamics 365 Finance útgáfa 10.0.25 og síðar.
 
 ## <a name="arguments"></a>Frumbreytur
 
@@ -79,7 +79,7 @@ Gagnaflokkun fer alltaf fram í minni forritaþjónsins. Fyrir frekari upplýsin
 
 ### <a name="sorting-in-memory"></a>Flokkun í minni
 
-Þegar`location` rök eru tilgreind sem **InMemory**, gagnaflokkun fer fram í minni forritaþjóns. Fyrir frekari upplýsingar, sjá [dæmi 2](#example-2).
+Þegar`location` rök eru tilgreind sem **InMemory**, gagnaflokkun er gerð í minni forritaþjóns. Fyrir frekari upplýsingar, sjá [dæmi 2](#example-2).
 
 ### <a name="sorting-in-database"></a>Flokkun í gagnagrunni
 
@@ -118,7 +118,7 @@ Ef **Seljandi** er stillt sem ER gagnagjafi *Taflaskrár* gerð sem vísar til *
 
 Ef **Skattaviðskipti** er stillt sem ER gagnagjafi *Taflaskrár* gerð sem vísar til **TaxTrans** borð, tjáningin`ORDERBY ("Query", TaxTransaction, TaxTransaction.TaxCode)` flokkar færslur á stigi umsóknargagnagrunnsins og skilar lista yfir skattfærslur sem eru flokkaðar eftir skattkóða í hækkandi röð.
 
-## <a name="example-4-queryable-data-sources"></a><a name="example-4"></a> Dæmi 4: Fyrirspurnar gagnaheimildir
+## <a name="example-4-queryable-data-sources"></a><a name="example-4"></a> Dæmi 4: gagnaheimildir sem hægt er að spyrja um
 
 Ef **Skattaviðskipti** er stillt sem ER gagnagjafi *Taflaskrár* gerð sem vísar til **TaxTrans** borð, the **TaxTransactionFiltered** Hægt er að stilla ER gagnagjafa þannig að hann innihaldi tjáninguna`FILTER(TaxTransaction, TaxCode="VAT19")` sem mun sækja færslur fyrir tiltekinn skattkóða. Vegna þess að stillt **TaxTransactionFiltered** ER gagnagjafinn er hægt að spyrjast fyrir, tjáningin`ORDERBY ("Query", TaxTransactionFiltered, TaxTransactionFiltered.TransDate)` er hægt að stilla til að skila lista yfir síaðar skattfærslur sem er raðað eftir færsludegi í hækkandi röð.
 

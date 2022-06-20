@@ -1,6 +1,6 @@
 ---
 title: Settu upp og búðu til jákvæðar launaskrár með því að nota rafræna skýrslugerð
-description: Þetta efnisatriði útskýrir hvernig á að setja upp jákvæð laun með því að nota rafræna skýrslugerð.
+description: Þessi grein útskýrir hvernig á að setja upp jákvæð laun með því að nota rafræna skýrslugerð.
 author: panolte
 ms.date: 03/20/2022
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc2f17d62b429b599d5ac5f2a521819275d36b64
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 491048c7274ba6bb52e0a4b7a6ea5cd0f5ff4741
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770248"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878219"
 ---
 # <a name="set-up-positive-pay-files-by-using-electronic-reporting"></a>Settu upp jákvæðar launaskrár með því að nota rafræna skýrslugerð
 
-Þetta efnisatriði útskýrir hvernig á að setja upp jákvæð laun og búa til jákvæðar launaskrár með því að nota rafræna skýrslugerð.
+Þessi grein útskýrir hvernig á að setja upp jákvæð laun og búa til jákvæðar launaskrár með því að nota rafræna skýrslugerð.
 
 > [!NOTE] 
 > Áður en þú notar **Búðu til jákvæða launaskrá banka** virka, þú þarft að endurnýja aðilalistann fyrst.
@@ -83,7 +83,7 @@ Jákvæðu greiðsluskránni geta innihaldið viðkvæmar upplýsingar um greið
 1. Fara til **Vinnurými \> Rafræn skýrslugerð**.
 2. Á flísum fyrir **Microsoft** stillingarveita, veldu **Geymslur**.
 3. Veldu **Altækt** og síðan **Opna**.
-4. Ef það þarf að koma á tengingu við geymsluna skaltu velja bláa tengilinn í svarglugganum.
+4. Ef tenging við geymsluna þarf að koma á, velurðu bláa tengilinn í svarglugganum.
 5. Finndu og veldu á stillingalistanum **Jákvæð launalíkan \> Jákvæð launaform**.
 6. Á **Útgáfur** Flýtiflipi, veldu nýjustu útgáfuna og veldu síðan **Flytja inn**.
 

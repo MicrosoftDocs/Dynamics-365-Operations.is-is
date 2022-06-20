@@ -1,6 +1,6 @@
 ---
 title: Virkja frestun skattaútreiknings á dagbókum
-description: Þetta efni útskýrir hvernig á að kveikja á eiginleikanum Frestun skattaútreiknings að bæta afköst skattaútreikninga þegar fjöldi dagbókarlína er afar mikið.
+description: Þessi grein útskýrir hvernig á að kveikja á eiginleikanum Seinkaður skattútreikningur til að hjálpa til við að bæta frammistöðu skattaútreikninga þegar fjöldi færslubókarlína er mjög mikill.
 author: EricWang
 ms.date: 09/18/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: fddb6d3a9850b8f2f88f813f9591006637c7e535
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 02a038318d4c0fb44b6fcc4bb159ea87c2e9368a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713135"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887920"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Virkja frestun skattaútreiknings á dagbókum
 [!include [banner](../includes/banner.md)]
 
 
-Þetta efni útskýrir hvernig þú getur seinkað útreikningi á söluskatti í færslubókum. Þessi geta hjálpar til við að bæta afköst skattaútreikninga þegar margar færslubókarlínur eru til staðar.
+Þessi grein útskýrir hvernig þú getur seinkað útreikningi söluskatts á dagbækur. Þessi geta hjálpar til við að bæta afköst skattaútreikninga þegar margar færslubókarlínur eru til staðar.
 
 Sjálfgefið er að fjárhæðir söluskatts í færslubókarlínum eru reiknaðar út í hvert skipti sem skattatengdir reitir eru uppfærðir. Þessir reitir innihalda reiti fyrir VSK-flokka og VSK-flokka vöru. Sérhver uppfærsla á færslubókarlínu veldur því að skattfjárhæðir eru endurreiknaðar fyrir allar dagbókarlínur. Þrátt fyrir að þessi hegðun hjálpi notendum að sjá skattaupphæðir reiknaðar í rauntíma getur það einnig haft áhrif á afköst ef fjöldi færslubókarlína er mjög mikill.
 

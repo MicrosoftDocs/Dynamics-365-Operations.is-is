@@ -1,6 +1,6 @@
 ---
 title: Áætlaðar pantanir einfaldaðar
-description: Þetta efnisatriði lýsir því hvernig þú getur skoðað, stjórnað og staðfest áætlaðar pantanir með því að nota einfaldaða síðuna Fyrirhugaðar pantanir.
+description: Þessi grein lýsir því hvernig þú getur skoðað, stjórnað og staðfest áætlaðar pantanir með því að nota einfaldaða síðuna Fyrirhugaðar pantanir.
 author: t-benebo
 ms.date: 01/24/2022
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-01-24
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: b039aa5481b835d3523b86c4ea88afff6a96ba8b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 5f207fa1edb11d05910e22732cf54e100e4e3489
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887371"
 ---
 # <a name="planned-orders-simplified"></a>Áætlaðar pantanir einfaldaðar
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig þú getur skoðað, stjórnað og staðfest fyrirhugaðar pantanir með því að nota **Skipulagðar pantanir einfaldaðar** síðu.
+Þessi grein lýsir því hvernig þú getur skoðað, stjórnað og staðfest fyrirhugaðar pantanir með því að nota **Skipulagðar pantanir einfaldaðar** síðu.
 
 The **Skipulagðar pantanir einfaldaðar** síða er einfölduð útgáfa af **Skipulagðar pantanir** síðu. Það veitir færri valkosti en er fljótlegra að vinna með þegar allt sem þú þarft að gera er að skoða, samþykkja og staðfesta fyrirhugaðar pantanir.
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Kveikja á þessum eiginleika fyrir kerfið
 
-Ef kerfið þitt inniheldur ekki þá eiginleika sem lýst er í þessu efni, farðu á [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), og kveiktu á *Skipulagðar pantanir einfaldaðar* eiginleiki.
+Ef kerfið þitt inniheldur ekki þá eiginleika sem lýst er í þessari grein, farðu á [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), og kveiktu á *Skipulagðar pantanir einfaldaðar* eiginleiki.
 
 ## <a name="view-manage-and-firm-planned-orders"></a>Skoðaðu, stjórnaðu og staðfestu skipulagðar pantanir
 
@@ -40,7 +40,7 @@ Til að opna **Skipulagðar pantanir einfaldaðar** síðu, farðu á **Aðalski
 - Búðu til nýjar skipulagðar pantanir.
 - Eyða einni eða mörgum skipulögðum pöntunum.
 - Fastar stakar eða margar skipulagðar pantanir.
-- Breyta áætlaðri pöntunarstöðu fyrir stakar eða margar áætlaðar pantanir.
+- Breyta áætlunarstöðu fyrir stakar eða margar áætlaðar pantanir.
 - Opnaðu óaðfinnanlega upplýsingar um skipulagða pöntun fyrir einstaka fyrirhugaða pöntun til að skoða allar upplýsingar um pöntunina.
 - Búðu til sérsniðnar skoðanir með því að nota vistaðar skoðanir.
 

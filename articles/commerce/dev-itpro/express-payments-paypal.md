@@ -1,6 +1,6 @@
 ---
-title: Stilltu hraðgreiðslur fyrir PayPal
-description: Þetta efnisatriði lýsir því hvernig á að stilla hraðgreiðslur fyrir PayPal til að virkja hraðari útgreiðslumöguleika í Microsoft Dynamics 365 Commerce.
+title: Skilgreina hraðgreiðslur fyrir PayPal
+description: Þessi grein lýsir því hvernig á að stilla hraðgreiðslur fyrir PayPal til að virkja hraðari útgreiðslumöguleika í Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 5fff17959e7ed9299df169c68b2ed07f6b7c7d2c
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: b69b7384992fb86370ff6881824a7d2c9a77d2c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905283"
 ---
-# <a name="configure-express-payments-for-paypal"></a>Stilltu hraðgreiðslur fyrir PayPal
+# <a name="configure-express-payments-for-paypal"></a>Skilgreina hraðgreiðslur fyrir PayPal
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að stilla hraðgreiðslur fyrir PayPal til að virkja hraðari útgreiðslumöguleika í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að stilla hraðgreiðslur fyrir PayPal til að virkja hraðari útgreiðslumöguleika í Microsoft Dynamics 365 Commerce.
 
 ## <a name="key-terms"></a>Lykilhugtök
 
@@ -28,7 +28,7 @@ ms.locfileid: "8743601"
 |---|---|
 | PayPal veski | Upplifun viðskiptavina og samþætting sem er studd af PayPal tenginu. Það er einnig þekkt sem PayPal hnappurinn. |
 | Veski | Greiðslutegund sem inniheldur ekki hefðbundna greiðslueiginleika, eins og bankakenninúmer (BIN) svið og gildistíma, sem eru notuð til að greina á milli kredit- og debetkortategunda. |
-| Greiðsla tjá | Viðskiptaeining sem styður hraðari greiðsluhegðun þegar studdir greiðslumátar eru notaðir. Þetta efni fjallar um notkun hraðgreiðslueiningarinnar með PayPal. |
+| Greiðsla tjá | Viðskiptaeining sem styður hraðari greiðsluhegðun þegar studdir greiðslumátar eru notaðir. Þessi grein fjallar um notkun á hraðgreiðslueiningunni með PayPal. |
 
 Dynamics 365 Commerce býður upp á samþættingu úr kassanum fyrir PayPal veski. Þegar Dynamics 365 Payment Connector fyrir PayPal er stillt birtist PayPal hnappurinn sem valinn greiðslumáti við greiðslu á netinu. Þegar notendur velja PayPal er þeim bent á að ganga frá greiðslu beint í gegnum PayPal og er síðan skilað í netverslunina til að ganga frá pöntun sinni. PayPal greiðslukörfu gerir viðskiptavinum kleift að nota greiðslureikningsupplýsingarnar sínar til að fylla út greiðslueyðublaðið fyrirfram, svo að þeir geti klárað greiðsluferlið hraðar.
 

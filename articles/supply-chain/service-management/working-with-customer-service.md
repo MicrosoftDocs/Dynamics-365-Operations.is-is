@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd8ba10441c1300c913827122c09741c58a42973
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: af1e443078b6a7832388b38f2b99a438af461ba3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844352"
 ---
 # <a name="work-with-customer-service-overview"></a>Yfirlit yfir þjónustudeildir sem unnið er með
 
@@ -41,7 +41,7 @@ Viðskiptavinarþjónusta styður fagleg, þjónustugrundvölluð fyrirtæki og 
 
   - Þjónustustigssamningar sem styðja fjölbreytta flóru viðskiptamanna
 
-Efnisatriðin í þessum hluta veita yfirlit yfir viðskiptaferil þjónustudeildar og hvern þátt viðskiptaferlisins fyrir sig. Í þeim eru líka taldar upp skjámyndirnar sem tengjast hverjum þætti viðskiptaferlisins fyrir sig og í þeim er rætt um verkefni sem tengjast hverjum þætti viðskiptaferlisins.
+Greinarnar í þessum hluta veita yfirlit yfir viðskiptaferli viðskiptavinaþjónustunnar og hvern viðskiptaferlishluta. Í þeim eru líka taldar upp skjámyndirnar sem tengjast hverjum þætti viðskiptaferlisins fyrir sig og í þeim er rætt um verkefni sem tengjast hverjum þætti viðskiptaferlisins.
 
 
 

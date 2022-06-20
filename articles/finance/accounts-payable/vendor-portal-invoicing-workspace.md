@@ -1,6 +1,6 @@
 ---
 title: Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna
-description: Í þessu efnisatriði er útskýrt hvernig á að skoða reikninga lánardrottins og senda reikninga frá úr vinnusvæði fyrir reikningsfærslu fyrir samstarf lánardrottna.
+description: Þessi grein útskýrir hvernig þú getur skoðað reikninga lánardrottins og sent inn reikninga frá vinnusvæði lánardrottnasamvinnureikninga.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1d9415b7118efb06099b775f68ce7ca9fb6673ed
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 9ef4204e0be437b50af047704e07600653c877c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182630"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896551"
 ---
 # <a name="vendor-collaboration-invoicing-workspace"></a>Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni útskýrir hvernig þú getur skoðað reikninga lánardrottins og sent inn reikninga frá **Samvinnureikningur söluaðila** vinnurými.
+Þessi grein útskýrir hvernig þú getur skoðað reikninga lánardrottins og sent inn reikninga frá **Samvinnureikningur söluaðila** vinnurými.
 
 Vinnusvæðið **Reikningsfærslur fyrir samstarf lánardrottna** er hægt að nota til að skoða upplýsingar um reikning lánardrottins og senda reikninga í kerfið með því að nota getu verkflæðis.
 

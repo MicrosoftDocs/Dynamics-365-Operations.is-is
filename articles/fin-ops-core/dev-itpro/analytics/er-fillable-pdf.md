@@ -1,6 +1,6 @@
 ---
 title: Hanna skilgreiningar rafrænnar skýrslugerðar til að fylla inn í PDF-sniðmát
-description: Þetta efnisatriði veitir upplýsingar um hvernig á að hanna snið rafrænnar skýrslugerðar til að fylla út PDF-sniðmát.
+description: Þessi grein veitir upplýsingar um hvernig á að hanna rafræn skýrslugerð (ER) snið til að fylla út PDF sniðmát.
 author: NickSelin
 ms.date: 03/18/2022
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: ef9b650e9b676d79af8839c08cfbb1000a5aee5f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645108"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908591"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Hanna skilgreiningar rafrænnar skýrslugerðar til að fylla inn í PDF-sniðmát
 
 [!include[banner](../includes/banner.md)]
 
-Ferlin í þessu efnisatriði eru dæmi sem sýna hvernig notandi í annaðhvort hlutverkinu **Kerfisstjóri** eða **Þróunaraðili rafrænnar skýrslugerðar** getur skilgreint snið rafrænnar skýrslugerðar sem býr til skýrslur sem PDF-skrár með því að nota útfyllanleg PDF-skjöl sem skýrslusniðmát. Þessi skref er hægt að framkvæma í hvaða fyrirtæki sem er í Dynamics 365 Finance eða Regulatory Configuration Services (RCS).
+Verklagsreglurnar í þessari grein eru dæmi sem sýna hvernig notandi í annaðhvort **Kerfisstjóri** hlutverk eða **Framkvæmdaraðili rafrænna skýrslugerðar** hlutverk getur stillt rafræna skýrslugerð (ER) snið sem býr til skýrslur sem PDF skrár með því að nota útfyllanleg PDF skjöl sem skýrslusniðmát. Þessi skref er hægt að framkvæma í hvaða fyrirtæki sem er í Dynamics 365 Finance eða Regulatory Configuration Services (RCS).
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en hafist er handa verður einn af eftirfarandi aðgangsgerðum að vera fyrir hendi, háð þjónustunni sem er notuð til að ljúka ferlunum í þessu efnisatriði:
+Áður en þú byrjar verður þú að hafa eina af eftirfarandi tegundum aðgangs, allt eftir þjónustunni sem þú notar til að klára ferlið í þessari grein:
 
 - Aðgangur að Finance fyrir eitt af eftirfarandi hlutverkum:
 
@@ -257,7 +257,7 @@ Vegna þess að báðir eiginleikarnir eru valkvæðir fyrir sniðseininguna **R
 > - Samsvarandi **Field** sniðsþáttur er bundinn við gagnauppspretta reit í *[Boolean](er-formula-supported-data-types-primitive.md#boolean)* gagnategund sem hefur gildið **Satt**.
 > - Samsvarandi **Field** sniðþáttur inniheldur hreiður **Strengur** sniðþáttur sem er bundinn við reit gagnagjafa sem hefur textagildið á **1**, **·**, eða **Já**.
 >
-> Sniðmátið þitt getur innihaldið hóp af gátreitum þar sem aðeins er hægt að velja einn gátreit í einu. Þessir gátreitir eru sýndir í PDF sniðmáti sem margir eyðublaðareitir *GÉTTARÚT* gerð. Hver reitur hefur sama nafn en mismunandi útflutningsgildi. Þegar þú flytur sniðmátið inn í breytanlega ER sniðið, verður hver gátreitur sýndur í stigveldisskipulagi sniðsins sem **Atriði í gátreit hóp** þáttur sem er hreiður undir það sama **Gátreit hópur** þáttur. Nafnið á **Gátreit hópur** þáttur mun jafna nafni gátreitarreitanna í PDF sniðmátinu. Nafn hvers og eins **Atriði í gátreit hóp** þáttur jafngildir útflutningsgildi samsvarandi gátreitarreits í PDF sniðmátinu.
+> Sniðmátið þitt getur innihaldið hóp af gátreitum þar sem aðeins er hægt að velja einn gátreit í einu. Þessir gátreitir eru sýndir í PDF sniðmáti sem margir eyðublaðareitir *GÉTTARÚT* tegund. Hver reitur hefur sama nafn en mismunandi útflutningsgildi. Þegar þú flytur sniðmátið inn í breytanlega ER sniðið, verður hver gátreitur sýndur í stigveldisskipulagi sniðsins sem **Atriði í gátreit hóp** þáttur sem er hreiður undir það sama **Gátreit hópur** þáttur. Nafnið á **Gátreit hópur** þáttur mun jafna nafni gátreitarreitanna í PDF sniðmátinu. Nafn hvers og eins **Atriði í gátreit hóp** þáttur jafngildir útflutningsgildi samsvarandi gátreitarreits í PDF sniðmátinu.
 >
 > Þú getur bundið a **Atriði í gátreit hóp** þáttur í reit gagnagjafa í *Boolean* eingöngu gagnategund.
 

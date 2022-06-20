@@ -1,6 +1,6 @@
 ---
 title: Vinna með forstillta stíla
-description: Þetta efnisatriði lýsir því hvernig á að vinna með forstillt stílsnið í svæðissmið Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að vinna með forstillingar vefstíls í Microsoft Dynamics 365 Commerce vefsmiður.
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 0a06052ab29502c57a2ad5a25e5bec870585ef4a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900361"
 ---
 # <a name="work-with-style-presets"></a>Vinna með forstillta stíla
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að vinna með forstillt stílsnið í svæðissmið Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að vinna með forstillingar vefstíls í Microsoft Dynamics 365 Commerce vefsmiður.
 
 Forstilltur stíll er safn af öllum höfundarlegum stílgildum í þema svæðisins. Hægt er að nota hann til að breyta strax útliti svæðis úr svæðissmið. Forstilltir stílar gera höfundum Commerce-svæðissmið kleift að breyta, forskoða og virkja safn stílgilda á svæðinu þeirra, án þess að þurfa að nota stallað stílblað (CSS) eða nota þemu. Leturstílar, hnappastílar og litir á svæði eru góð dæmi um stílbreytur sem hægt er að stjórna í gegnum forstillta stíla.
 

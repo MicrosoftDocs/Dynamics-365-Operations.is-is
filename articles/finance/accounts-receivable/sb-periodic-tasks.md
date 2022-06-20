@@ -1,6 +1,6 @@
 ---
 title: Reglubundin verkefni í Endurteknum samningsreikningum
-description: Þetta efnisatriði lýsir reglubundnum verkefnum sem eru tiltæk í Endurteknum samningsreikningum.
+description: Þessi grein lýsir reglubundnum verkefnum sem eru tiltæk í Endurteknum samningsreikningum.
 author: JodiChristiansen
 ms.date: 04/29/2022
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 80f65d82881bb000f626c4225b3eac7dd1a2a44a
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: d834d1d7aa34448b4ef21606974538eb294b5d7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904789"
 ---
 # <a name="periodic-tasks-in-recurring-contract-billing"></a>Reglubundin verkefni í Endurteknum samningsreikningum
 
-Þetta efnisatriði lýsir reglubundnum verkefnum sem eru tiltæk í Endurteknum samningsreikningum.
+Þessi grein lýsir reglubundnum verkefnum sem eru tiltæk í Endurteknum samningsreikningum.
 
 ## <a name="generate-invoice"></a>Mynda reikning
 
@@ -36,7 +36,7 @@ Nota **Búðu til lotuvinnslu reikninga** síðu til að búa til endurtekna rei
 
 ## <a name="price-update"></a>Verðuppfærsla
 
-Notaðu Verðuppfærslu tólið til að uppfæra verð nokkurra vara á mörgum innheimtuáætlunum í einni aðgerð. Verðin geta verið uppfærð miðað við annað hvort tiltekna prósentu eða tiltekna upphæð. Listi yfir línur sýnir aðeins núverandi einingarverð vörunnar. Það sýnir ekki verðin eftir verðuppfærsluna.
+Notaðu Verðuppfærslutólið til að uppfæra verð nokkurra vara á mörgum innheimtuáætlunum í einni aðgerð. Verðin geta verið uppfærð miðað við annað hvort tiltekna prósentu eða tiltekna upphæð. Listi yfir línur sýnir aðeins núverandi einingarverð vörunnar. Það sýnir ekki verðin eftir verðuppfærsluna.
 
 Athugaðu eftirfarandi atriði um verðuppfærslutólið:
 
@@ -46,7 +46,7 @@ Athugaðu eftirfarandi atriði um verðuppfærslutólið:
 
 ### <a name="price-update-example"></a>Dæmi um verðuppfærslu
 
-Innheimtuáætlun er búin til og endurnýjunaratriði er bætt við. Einingaverðið er $750. Fyrsta ár hlutarins er greitt 15. desember 2021. Innheimtuáætlun er búin til fyrir tímabilið frá 1. janúar til 31. desember 2022.
+Innheimtuáætlun er búin til og endurnýjunaratriði er bætt við. Einingaverðið er $750. Fyrsta ár hlutarins er greitt 15. desember 2021. Innheimtuáætlunin er búin til fyrir tímabilið frá 1. janúar til 31. desember 2022.
 
 Á endurnýjunartíma er **Búðu til reikning** ferli býr til sölupöntun fyrir árið 2022. Eftir að verðuppfærsluforritið er keyrt er verðið uppfært úr $750 í $800.
 
@@ -56,7 +56,7 @@ Sölupöntun og innheimtuáætlun fyrir árið 2022 hefur ekki áhrif og eininga
 
 Þegar þú uppfærir verð fyrir vörur sem nota flata verðlagningaraðferð geturðu tilgreint prósentu eða upphæð til að hækka verðið.
 
-Til að keyra verðuppfærsluforritið fyrir vörur sem nota fasta verðlagningu, fylgdu þessum skrefum.
+Til að keyra verðuppfærslutólið fyrir vörur sem nota fasta verðlagningu, fylgdu þessum skrefum.
 
 1. Á **Verðuppfærsla** tólasíðu, veldu **Flat** verðlagningaraðferð.
 2. Í **Auka aðferð** reit, veldu hækkunaraðferðina sem er notuð til að uppfæra verð vörunnar.
@@ -112,7 +112,7 @@ Fylgdu þessum skrefum til að stöðva nokkrar innheimtuáætlanir.
 8. Veldu **Í lagi**.
 
 > [!NOTE]
-> Til að fjarlægja bið verður þú að stilla **Fjarlægja hnekkingu bið notendahóps** gildi á **Endurteknar innheimtufæribreytur samnings** síðu.
+> Til að fjarlægja bið verður þú að stilla á **Fjarlægja hnekkingu bið notendahóps** gildi á **Endurteknar innheimtufæribreytur samnings** síðu.
 
 Til dæmis hefur innheimtulína upphafsdagsetninguna 1. febrúar 2022 og lokadagsetninguna 28. febrúar 2022. Innheimtuupphæðin er $200. The **Haltu dagsetningu** reiturinn er stilltur á 10. febrúar 2022. Þess vegna er febrúartímabilið leiðrétt til að útiloka hvaða dagsetningu sem er eftir 10. febrúar. Nýja tímabilið er frá 1. febrúar til og með 9. febrúar og upphæðin er $64.29 (með daglegum hlutföllum). Allar innheimtuáætlunarlínur 10. febrúar eða síðar eru fjarlægðar.
 
@@ -129,7 +129,7 @@ Innheimtuáætlanir sem nota margfeldisúthlutun (MEA) virkni birtast ekki á **
 > [!NOTE]
 > Innheimtuáætlunarlínur sem nú eru innifalin í a **Búðu til reikning** lotur eru ekki tiltækar fyrir þetta ferli.
 
-Fyrir upplýsingar um hvern reit og ferlið, sjá [Hætta innheimtuáætlanir](terminate-billing-schedule.md).
+Fyrir upplýsingar um hvern reit og ferlið, sjá [Hætta innheimtuáætlunum](terminate-billing-schedule.md).
 
 ## <a name="mass-archive-process"></a>Ferli fjöldasafnvistunar
 
@@ -170,7 +170,7 @@ Nota **Massa stubbur** síðu til að merkja allar valdar innheimtuáætlunarlí
 2. Í **Lokadagur** reit, stilltu lokadagsetningu til að tilgreina línurnar sem þú vilt nota ferlið á. Aðeins færslur þar sem upphafsdagur innheimtu er á eða fyrir tilgreindan lokadag verða sýndar.
 3. Veldu **Skoða forskoðun** til að sýna línurnar sem þú vilt snúa við stubbnum.
 4. Til að útiloka línu frá ferlinu skaltu merkja hana og velja síðan **Fjarlægja**.
-5. Veldu **Ferli** til að snúa línunum við.
+5. Veldu **Ferli** að snúa við stubbnum línum.
 
 ## <a name="update-completion-date-process"></a>Uppfæra ferli fyrir dagsetningu loka
 
@@ -184,11 +184,11 @@ Nota **Lokadagur uppfærslu** síðu til að uppfæra lokadagsetningu fyrir ákv
 
 ## <a name="unbilled-revenue-mass-processing"></a>Fjöldavinnsla óreikningsfærðra tekna
 
-Nota **Fjölvinnsla tekna án innheimtu** síðu til að búa til óinnheimtu tekjubókarfærsluna eða stubba færslubókina fyrir eina eða fleiri valdar innheimtuáætlanir eða innheimtuupplýsingarlínur.
+Nota **Óreikningsfærð tekjur fjöldavinnsla** síðu til að búa til óinnheimtu tekjubókarfærsluna eða stubba færslubókina fyrir eina eða fleiri valdar innheimtuáætlanir eða innheimtuupplýsingarlínur.
 
 - **Stofna dagbókarfærslu** – Búðu til óinnheimtar tekjubókarfærslur fyrir margar innheimtuáætlunarlínur. Nota **Sía** hnappinn á **Skrár til að hafa með** Flýtiflipa til að velja svið skráa sem birtast á listanum. Listinn sýnir aðeins innheimtuáætlunarlínur sem óinnheimtar tekjubókarfærslur hafa ekki verið stofnaðar fyrir. Fyrstu dagbókarfærslurnar eru búnar til. Fyrir frestunarliði eru frestunaráætlanir einnig búnar til.
 - **Stubbur dagbókarfærsla** – Merktu innheimtuáætlunarlínurnar sem óinnheimtu færslubókarfærslurnar hafa þegar verið stofnaðar fyrir. Þessi valkostur er notaður ef óinnheimta færslubókarfærslan var þegar bókuð í öðru kerfi. Það merkir óinnheimtu tekjubókina sem stubbað og bókar ekki færslu í fjárhag.
-- **Snúið dagbókarfærslu stubbs** – Bakfæra stubbabókarfærslur sem hafa verið unnar. Ef mistök urðu við vinnslu fyrir **Stubbur dagbókarfærsla**, mun þessi valkostur hreinsa **Stubbaður** gátreit fyrir innheimtuáætlunarlínuna.
+- **Snúið dagbókarfærslu stubbs** – Bakfæra stubbabókarfærslur sem hafa verið unnar. Ef mistök urðu við vinnslu fyrir **Stubbur dagbókarfærsla**, þessi valkostur mun hreinsa **Stubbaður** gátreit fyrir innheimtuáætlunarlínuna.
 - **Stubbur innheimtuupplýsingalína** – Notaðu þetta ferli þegar óinnheimtar tekjur voru unnar í ytra kerfi og sumar reikningsupplýsingalínanna hafa þegar verið innheimtar. Þetta ferli mun tryggja að rétt upphæð birtist á óinnheimtu tekjureikningunum.
 - **Snúið innheimtuupplýsingar línu** – Snúa einhverju við **Stubbur innheimtuupplýsingalína** aðgerðir.
 

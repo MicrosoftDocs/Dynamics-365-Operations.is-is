@@ -1,6 +1,6 @@
 ---
-title: Ráðlagðar aðferðir við að birta prófíla
-description: Þetta efni lýsir ráðlögðum aðferðum við að stilla færslusnið.
+title: Ráðleggingar um notkun á bókunarreglum
+description: Þessi grein lýsir ráðlögðum aðferðum við að stilla færslusnið.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 211dc42b80089eb1f59a435f09d6e9d9f956736b
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: fb0e321f447b78b88c065e52bb7fad1c445e47b6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734276"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849903"
 ---
-# <a name="recommended-practices-for-posting-profiles"></a>Ráðlagðar aðferðir við að birta prófíla
+# <a name="recommended-practices-for-posting-profiles"></a>Ráðleggingar um notkun á bókunarreglum
 
-Það eru nokkrar ráðlagðar venjur sem þú ættir að fylgja þegar þú stillir póstsnið um allt kerfið. Þetta efni lýsir mismunandi atburðarásum og samsvarandi ráðlögðum aðferðum.
+Það eru nokkrar ráðlagðar venjur sem þú ættir að fylgja þegar þú stillir póstsnið í öllu kerfinu. Þessi grein lýsir mismunandi aðstæðum og samsvarandi ráðlögðum aðferðum.
 
 ## <a name="setting-the-do-not-allow-manual-entry-flag"></a>Stilling á Ekki leyfa handvirka færslu fána
 
-Á **Aðalreikningar** síðu, the **Ekki leyfa handvirka innslátt** gátreiturinn ætti að vera valinn fyrir hvaða aðalreikning sem er notaður fyrir færslusnið. Þessi stilling kemur í veg fyrir að notendur geti bókað dagbókarfærslu handvirkt á aðalreikninginn. Þess vegna hjálpar það til við að tryggja að undirbókin haldist í jafnvægi við aðalbókina og hjálpar til við að gera afstemmingarferlið auðveldara.
+Á **Aðalreikningar** síðu, the **Ekki leyfa handvirka innslátt** gátreiturinn ætti að vera valinn fyrir hvaða aðalreikning sem er notaður fyrir færslusnið. Þessi stilling kemur í veg fyrir að notendur geti bókað dagbókarfærslu handvirkt á aðalreikninginn. Þess vegna hjálpar það að tryggja að undirbókin haldist í jafnvægi við aðalbókina og hjálpar til við að gera afstemmingarferlið auðveldara.
 
 Ef leiðréttingar er þörf á reikningi sem er stjórnað af kerfinu og bókaður sjálfkrafa geturðu notað eina af þessum aðferðum:
 
@@ -37,7 +37,7 @@ Ef leiðréttingar er þörf á reikningi sem er stjórnað af kerfinu og bóka�
 
 ## <a name="changing-posting-profiles-after-transactions-exist"></a>Að breyta bókunarsniðum eftir að færslur eru til
 
-Ef þú breytir bókunarsniði eftir að færslur eru til, getur afstemmingin mistekist og undirbók og fjárhagur getur farið úr jafnvægi. Almennt mælum við með því að þú **ekki** breyta bókunarsniðinu eftir að færslur eru til staðar.
+Ef þú breytir bókunarsniði eftir að færslur eru til, getur afstemmingin mistekist og undirbók og höfuðbók geta farið úr jafnvægi. Almennt mælum við með því að þú **ekki** breyta bókunarsniðinu eftir að færslur eru til staðar.
 
 Ef breytinga er þörf, notaðu eftirfarandi leiðbeiningar til að tryggja heilleika kerfisins:
 
@@ -54,7 +54,7 @@ Ef breytinga er þörf, notaðu eftirfarandi leiðbeiningar til að tryggja heil
 
 Fyrir frekari upplýsingar, sjá [Stilla gagnagrunnsskráningu](../../fin-ops-core/dev-itpro/sysadmin/configure-manage-database-log.md).
 
-Notaðu eftirfarandi töflu sem tilvísun fyrir algeng töfluheiti sem tengjast færslusniðum og tengdum færslubreytum.
+Notaðu eftirfarandi töflu sem viðmið fyrir algeng töfluheiti sem tengjast færslusniðum og tengdum færslubreytum.
 
 | Síðuheiti | Slóð | Töfluheiti |
 |-----------|-----------------|------------|
@@ -65,7 +65,7 @@ Notaðu eftirfarandi töflu sem tilvísun fyrir algeng töfluheiti sem tengjast 
 | Staðgreiðsluafslættir | Viðskiptaskuldir&gt; Uppsetning greiðslu&gt; Staðgreiðsluafsláttur eða viðskiptakröfur&gt; Uppsetning greiðslu&gt; Staðgreiðsluafsláttur | CashDisc |
 | Greiðslugjald (seljandi) | Viðskiptaskuldir&gt; Uppsetning greiðslu&gt; Greiðslugjald | VendPaym Fee |
 | Færibreytur viðskiptakrafa | Reikningur fáanlegur&gt; Uppsetning&gt; Færibreytur viðskiptakrafna | CustParm |
-| Bókunarreglur viðskiptavina | Reikningur fáanlegur&gt; Uppsetning&gt; Færslusnið viðskiptavinar | CustPosting |
+| Bókunarreglur viðskiptavina | Reikningur fáanlegur&gt; Uppsetning&gt; Færsluprófíl viðskiptavinar | CustPosting |
 | Greiðsluhættir | Reikningur fáanlegur&gt; Uppsetning greiðslu&gt; Greiðslumáti | CustPaymMode |
 | Greiðslugjald (viðskiptavinur) | Reikningur fáanlegur&gt; Uppsetning greiðslu&gt; Greiðslumáti | CustPaym Fee |
 | Færibreytur fyrir útleigu eignar | Eignaleiga&gt; Uppsetning&gt; Eignaleiga færibreytur | AssetLeasePosting Accounts<br>AssetLeaseJournalParameters<br>AssetLeaseExecutoryCostPostingAccounts |
@@ -77,7 +77,7 @@ Notaðu eftirfarandi töflu sem tilvísun fyrir algeng töfluheiti sem tengjast 
 | Bókunarreglur eigna | Fastafjármunir&gt; Uppsetning&gt; Birtingarsnið eigna | AssetLedger Accounts<br>Eignaráðstöfunarstærðir |
 | Gjaldmiðilsendurmatslyklar | Aðalbók&gt; Gjaldmiðlar&gt; Gjaldeyrisendurmatsreikningar | CurrencyLedgerGainLoss Account |
 | Lyklar fyrir sjálfvirkar færslur | Aðalbók&gt; Uppsetning færslu&gt; Reikningar fyrir sjálfvirkar færslur | LedgerSystemAccounts |
-| Samstæðulyklar | Aðalbók&gt; Uppsetning færslu&gt; Innbyrðis reikningar | LedgerIntercompany |
+| Samstæðulyklar | Aðalbók&gt; Uppsetning færslu&gt; Millifélagareikningar | LedgerIntercompany |
 | Skilgreiningar færslubókana | Aðalbók&gt; Uppsetning færslu&gt; Færslubókunarskilgreiningar | JournalizingDefinitionTrans |
 | Bókunarskilgreiningar | Aðalbók&gt; Uppsetning færslu&gt; Skilgreiningar á færslu | JournalizingDefinition |
 | Bókun (birgðahald) | Vörustjórnun&gt; Uppsetning&gt; Birting&gt; Birting | InventPosting |
@@ -98,13 +98,13 @@ Farðu varlega þegar þú skiptir um hópa í aðalgögnum. Ef þú ert að not
 
 ## <a name="testing-posting-profiles"></a>Prófa póstsnið
 
-Áður en þú byrjar í notkun, og eftir að þú gerir breytingar eða viðbætur við færslusniðið þitt eða tengdar færibreytur, ættir þú að prófa hverja atburðarás. Að minnsta kosti ættir þú að prófa hverja færslutegund til að sannreyna að færslan virki rétt. Hins vegar er mælt með því að prófa hverja bókunarprófílfærslu og samsetningu.
+Áður en þú byrjar í notkun, og eftir að þú gerir einhverjar breytingar eða viðbætur við póstsniðið þitt eða tengdar færibreytur, ættir þú að prófa hverja atburðarás. Að minnsta kosti ættir þú að prófa hverja færslutegund til að sannreyna að færslan virki rétt. Hins vegar er mælt með því að prófa hverja bókunarprófílfærslu og samsetningu.
 
-Til dæmis, þú ert með tvö viðskiptamannsbókunarsnið, sem hver um sig hefur þrjár færslur sem eru sértækar fyrir viðskiptavinahópa. Í þessu tilviki ættir þú að prófa hverja tegund viðskipta.
+Til dæmis, þú ert með tvö viðskiptamannsbókunarsnið, sem hvert um sig hefur þrjár færslur sem eru sértækar fyrir viðskiptavinahópa. Í þessu tilviki ættir þú að prófa hverja tegund viðskipta.
 
 **Birta prófílar:**
 
-- **GEN** – Almenna færslusniðið sem hefur einn hóp fyrir starfsmenn, einn fyrir viðskiptavini og einn fyrir millifyrirtæki. Hver hópur bendir á annan viðskiptareikning viðskiptakrafna.
+- **GEN** – Almenna bókunarsniðið sem hefur einn hóp fyrir starfsmenn, einn fyrir viðskiptavini og einn fyrir millifyrirtæki. Hver hópur bendir á annan viðskiptareikning viðskiptakrafna.
 - **PRE** – Fyrirframgreiðslubókunarsniðið sem hefur eina skrá fyrir allar fyrirframgreiðslur sem vísar á fyrirframgreiðslureikninga viðskiptavinarins.
 
 ### <a name="testing-scenarios"></a>Prófunarsviðsmyndir
@@ -122,4 +122,4 @@ Fyrir fyrra dæmi, endurtakið eina prófunaratburðarás fyrir hvern viðskipta
 
 Höfuðbók ætti að samræma við undirbók á hverju tímabili. Margar einingar innihalda útbúnar skýrslur sem hægt er að nota til að gera þessa afstemmingu. Hins vegar, allt eftir staðbundnum þörfum þínum, gætirðu þurft að þróa sérsniðnar skýrslur eða stækka núverandi skýrslur til að uppfylla skýrslukröfur þínar.
 
-Við mælum með því að þú látir loka og samræma hverja undirbók þína við höfuðbókina áður en þú ferð í notkun. Við mælum líka með því að þú klippir út allar opnar inneignir og opnar viðskipti áður en þú byrjar í notkun. Sem hluti af þessu ferli ættir þú að keyra fullkomna afstemmingu til að tryggja að flutningur á stöðu og opnum færslum sé í jafnvægi við eldri kerfin og að allar undirbækur séu í jafnvægi við höfuðbókina áður en nýjar færslur eru stofnaðar.
+Við mælum með því að þú látir loka og samræma hverja undirbók þína við höfuðbókina áður en þú ferð í notkun. Við mælum líka með því að þú klippir út allar opnar inneignir og opnar færslur áður en þú byrjar í notkun. Sem hluti af þessu ferli ættir þú að keyra fullkomna afstemmingu til að tryggja að flutningur á stöðu og opnum færslum sé í jafnvægi við eldri kerfin og að allar undirbækur séu í jafnvægi við höfuðbókina áður en nýjar færslur eru stofnaðar.

@@ -1,6 +1,6 @@
 ---
-title: Stilla birgðabiðminni og birgðastöðu
-description: Þetta efnisatriði útskýrir hvernig á að skilgreina birgðabiðminni og birgðastöðu sem ákvarða skilaboð birgðaframboðs á Microsoft Dynamics 365 Commerce-svæðum.
+title: Skilgreina birgðabiðminni og birgðastöðu
+description: Þessi grein útskýrir hvernig á að stilla birgðastuðla og birgðastig sem ákvarða birgðatilboðsskilaboð á Microsoft Dynamics 365 Commerce síður.
 author: boycezhu
 ms.date: 06/01/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: acfe71f7fb55f1bc701297bb3949e91d6450d9e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727534"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853794"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Skilgreina birgðabiðminni og birgðastöðu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að skilgreina birgðabiðminni og birgðastöðu sem ákvarða skilaboð um birgðaframboð á Microsoft Dynamics 365 Commerce-svæðum.
+Þessi grein útskýrir hvernig á að stilla birgðajafna og birgðastig sem ákvarða skilaboðin um framboð á birgðum á Microsoft Dynamics 365 Commerce síður.
 
 Dynamics 365 Commerce höfuðstöðvar geyma birgðagögn og ýmsar rásir á borð við forrit sölustaðar, netverslanir og önnur sérstillt, samþætt forrit sem færa birgðir til og frá á ósamstilltan hátt. Þess vegna er tiltækt birgðavirði sem fengið er í gegnum síðu lagerbirgða í höfuðstöðvum Commerce í gegnum notandaviðmót sölustaðar og í gegnum rafrænt API birgðaframboð ekki alltaf hárnákvæmt í rauntíma.
 

@@ -1,6 +1,6 @@
 ---
 title: Sniðmát fyrir tekjuskiptingu í innheimtu áskriftar
-description: Þetta efnisatriði útskýrir hvernig á að setja upp tekjuskiptingarsniðmát fyrir vörur sem eru seldar sem búntar.
+description: Þessi grein útskýrir hvernig á að setja upp tekjuskiptingarsniðmát fyrir vörur sem eru seldar sem búntar.
 author: JodiChristiansen
 ms.date: 04/21/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 73dbc2242639a54d687506e7c325fec4b9a95d12
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 145ca6e6f0673a5a09fe9a23cf5e163421617fd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904760"
 ---
 # <a name="revenue-split-templates-in-subscription-billing"></a>Sniðmát fyrir tekjuskiptingu í innheimtu áskriftar
 
@@ -48,7 +48,7 @@ Til dæmis er hægt að búa til tölvuhlut á eftirfarandi hátt:
 Fylgdu þessum skrefum til að búa til yfirvöru sem hefur undiratriði.
 
 1. Á **Sniðmát fyrir skiptingu tekna** síðu, veldu **Nýtt**.
-1. Í **Foreldri atriði** reit, veldu yfirlið. The **Afbrigðisnúmer** reiturinn er sjálfkrafa uppfærður. Þú getur breytt gildinu eins og þú vilt.
+1. Í **Foreldri atriði** reit, veldu yfirlið. The **Afbrigðisnúmer** reiturinn er sjálfkrafa uppfærður. Þú getur breytt gildinu eins og þú þarft.
 1. Í **Úthlutunaraðferð** reit, veldu úthlutunaraðferð.
 1. Í **Íhlutir** lista, veldu **Bæta við** til að bæta við barnahlutum.
 1. Ef þú valdir **Hlutfall** í **Úthlutunaraðferð** reit, tilgreindu prósentu í **Hlutfall** sviði.
@@ -69,7 +69,7 @@ The **Sniðmát fyrir skiptingu tekna** síða inniheldur eftirfarandi reiti.
 | Úthlutunaraðferð | <p>Veldu úthlutunaraðferð:</p><ul><li>**Jöfn upphæð** – Úthlutunarprósenturnar eru sjálfkrafa reiknaðar og skipt jafnt á milli allra atriða í sniðmátinu.</li><li>**Hlutfall** – Hægt er að tilgreina prósentuupphæð fyrir úthlutunina. Summa allra prósenta verður að vera 100.</li><li>**Breytileg upphæð** – Undirliðir sem bætt er við hafa nettóupphæð 0 (núll). Verð á undirvörum verður að tilgreina á færslustigi.</li><li>**Núll upphæð** – Móðurliður heldur einingaverði sínu og nettóupphæð. Allir undirliðir hafa nettóupphæðina 0 (núll).</li><li>**Núll foreldri upphæð** – Móðurliðurinn hefur fasta nettófjárhæð 0 (núll). Meðhöndlað er með alla undirliði eins og staðlaða hluti. Engin fullgilding er gerð til að sannreyna að summan af fjárhæðum undirliðar sé jöfn upphæð yfirliðar.</li></ul> |
 | **Vöruhlutir** | |
 | Hlutur vöru | Veldu vörunúmer. Þessi vara er undirhlutur. |
-| Númer vöruvíddasamsetningar | Veldu afbrigðisnúmer fyrir hlutinn. |
+| Númer vöruvíddasamsetningar | Veldu afbrigðisnúmer vörunnar. |
 | Afurðarheiti | Vöruheitið. |
 | Prósenta | <p>Úthlutunarprósenta fyrir áfangann:</p><ul><li>Ef **Úthlutunaraðferð** reiturinn er stilltur á **Hlutfall**, þú getur tilgreint hlutfallið.</li><li>Ef **Úthlutunaraðferð** reiturinn er stilltur á **Jöfn upphæð**, prósentan er sjálfkrafa reiknuð þannig að hvert atriði í sniðmátinu hefur jafnt hlutfall.</li><li>Ef **Úthlutunaraðferð** reiturinn er stilltur á **Breytileg upphæð**, **foreldri upphæð**, eða **Núll upphæð**, prósentan er 0 (núll) og ekki er hægt að breyta því.</li></ul><p>Gildi þessa reits getur verið hvaða jákvæð tala sem er á milli 0 (núll) og 100. Summa allra prósentanna verður að vera 100.</p> |
 | Prósentusamtala | <p>Summa gilda í **Hlutfall** dálki.</p><ul><li>Ef **Úthlutunaraðferð** reiturinn er stilltur á **Jöfn upphæð** eða **Hlutfall**, summan af öllum prósentum verður að vera 100.</li><li>Ef **Úthlutunaraðferð** reiturinn er stilltur á **Breytileg upphæð**, **foreldri upphæð**, eða **Núll upphæð**, heildarhlutfallið er 0 (núll).</li></ul> |
@@ -105,7 +105,7 @@ Til að búa til innheimtuáætlun sem hefur vöru sem er sett upp fyrir tekjusk
 Þegar þú bætir við hlut sem er hluti af tekjuskiptingu skaltu athuga eftirfarandi upplýsingar: 
 
 - Ekki er hægt að fresta foreldrisupphæðinni.
-- Upphafsdagsetning, lokadagsetning, magn, eining, staður og vöruhús gildi undirvöru eru byggð á yfirvörunni. Ekki er hægt að breyta þessum gildum fyrir undiratriðin. Allar breytingar verða að gera á yfirliðnum. 
+- Upphafsdagsetning, lokadagsetning, magn, eining, staður og vöruhússgildi undirvöru eru byggð á yfirvörunni. Ekki er hægt að breyta þessum gildum fyrir undiratriðin. Allar breytingar verða að gera á yfirliðnum. 
 - Verðlagningaraðferðin er **Flat** og er ekki hægt að breyta.
 - Hægt er að bæta við eða fjarlægja barnahluti.
 - Foreldri og undirhlutir verða að nota sama vöruflokk. 

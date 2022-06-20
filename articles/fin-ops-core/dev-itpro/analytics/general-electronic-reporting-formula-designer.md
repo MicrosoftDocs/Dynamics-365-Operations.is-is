@@ -1,6 +1,6 @@
 ---
 title: Formúluhönnuður í rafrænni skýrslugerð (ER)
-description: Þetta efni inniheldur upplýsingar um hvernig á að nota formúluhönnuðinn í rafrænni skýrslugerð (ER).
+description: Þessi grein veitir upplýsingar um hvernig á að nota formúluhönnuðinn í rafrænum skýrslum (ER).
 author: NickSelin
 ms.date: 04/08/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 606532411aa8297654d8d20a9061472597e773da
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 6b03613cb40c5ca718f45e69740d29059fcfb70b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782205"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894296"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formúluhönnuður í rafrænni skýrslugerð (ER)
 
 [!include [banner](../includes/banner.md)]
 
-Þessi Umfjöllunarefni útskýrir hvernig nota á formúluhönnuður í Rafræna skýrslugerð (ER). Þegar þú hannar snið fyrir tiltekið rafrænt skjal í ER má nota formúlur til að umbreyta gögnum þannig að þau uppfylli kröfur um gerð og snið skjalsins. Þessar formúlur líkjast formúlum í Microsoft Excel. Ýmsar tegundir aðgerða eru studdar í formúlunum: texti, dagsetning og tími, stærðfræðilegar, röklegar, upplýsingar og umbreytingaraðgerðir gagnagerðar og einnig aðrar aðgerðir sem eru lénsértækar fyrir viðskipti.
+Þessi grein útskýrir hvernig nota á formúluhönnuður í Rafræna skýrslugerð (ER). Þegar þú hannar snið fyrir tiltekið rafrænt skjal í ER má nota formúlur til að umbreyta gögnum þannig að þau uppfylli kröfur um gerð og snið skjalsins. Þessar formúlur líkjast formúlum í Microsoft Excel. Ýmsar tegundir aðgerða eru studdar í formúlunum: texti, dagsetning og tími, stærðfræðilegar, röklegar, upplýsingar og umbreytingaraðgerðir gagnagerðar og einnig aðrar aðgerðir sem eru lénsértækar fyrir viðskipti.
 
 ## <a name="formula-designer-overview"></a>Yfirlit Formúluhönnuður.
 

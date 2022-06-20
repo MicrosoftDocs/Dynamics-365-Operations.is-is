@@ -1,6 +1,6 @@
 ---
 title: Biðlari rýfur tengingu
-description: Þetta efnisatriði hvað eigi að gera ef viðskiptamaður aftengist umhverfi sínu.
+description: Þessi grein útskýrir hvað á að gera ef viðskiptavinurinn er aftengdur umhverfinu.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3093f11b0833812f6420f67a4b8bf405e550e974
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 40605fd14384dbeed933057621d0160b698c938a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690114"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869866"
 ---
 # <a name="client-disconnects"></a>Biðlari rýfur tengingu
 

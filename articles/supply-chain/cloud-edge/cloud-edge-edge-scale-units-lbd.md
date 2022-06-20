@@ -1,6 +1,6 @@
 ---
 title: Nota jaðareiningakvarða í sérsniðnum vélbúnaði með LBD
-description: Þetta efnisatriði útskýrir hvernig hægt er að úthluta kvörðunareiningu jaðars á staðnum með því að nota sérsniðinn vélbúnað og uppsetningu sem byggir á staðbundnum viðskiptagögnum (LBD).
+description: Þessi grein útskýrir hvernig á að útvega á staðnum brúnskalaeiningar með því að nota sérsniðinn vélbúnað og uppsetningu sem er byggð á staðbundnum viðskiptagögnum (LBD).
 author: Mirzaab
 ms.date: 01/24/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540ac1f6d69d869256f49b8501e18966575903fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 794de8c0d77949789e4046418ac2b55dba1bee02
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674087"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882751"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Nota jaðareiningakvarða í sérsniðnum vélbúnaði með LBD
 
@@ -27,7 +27,7 @@ Kvörðunareiningar jaðars gegna mikilvægu hlutverki í dreifingu á blandaðr
 
 Hægt er að setja upp kvörðunareiningar jaðars með því að búa til staðbundin viðskiptagögn (LBD) í [innanhússumhverfi](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) og stilla það svo þannig að það virki sem kvörðunareining í dreifðri blandaðri grannfræði þinni fyrir aðfangakeðjustjórnun. Þetta er gert með því að tengja LBD-umhverfið á staðnum við umhverfi Supply Chain Management í skýinu, sem hefur verið stillt þannig að það virki sem miðstöð.  
 
-Þetta efnisatriði lýsir því hvernig á að setja upp LBD-umhverfi á staðnum sem jaðarkvörðunareiningu og síðan tengja það við miðstöð.
+Þessi grein lýsir því hvernig á að setja upp LBD umhverfi á staðnum sem brúnskalaeiningu og tengja það síðan við miðstöð.
 
 ## <a name="infrastructure-considerations"></a>Innviðasjónarmið
 
@@ -44,21 +44,21 @@ Hér er yfirlit uppsetningarferlisins.
 
 1. **Setja upp og nota LBD-umhverfi með *tómum* gagnagrunni.**
 
-    Notaðu LCS til að útfæra LBD-umhverfið með nýjustu grannfræði og tómum gagnagrunni. Frekari upplýsingar er að finna í hlutanum [Setja upp og nota LBD-umhverfi með tómum gagnagrunni](#set-up-deploy) síðar í þessu efnisatriði. Þú verður að nota Supply Chain Management útgáfu 10.0.21 eða nýrri yfir miðstöð og mælieiningaumhverfi.
+    Notaðu LCS til að útfæra LBD-umhverfið með nýjustu grannfræði og tómum gagnagrunni. Fyrir frekari upplýsingar, sjá [Settu upp og settu upp LBD umhverfi með tómum gagnagrunni](#set-up-deploy) kafla síðar í þessari grein. Þú verður að nota Supply Chain Management útgáfu 10.0.21 eða nýrri yfir miðstöð og mælieiningaumhverfi.
 
 1. **Hlaða markpökkum upp í eignir LBD-verks í LCS.**
 
-    Undirbúðu forrit, verkvang og sérstillingarpakka sem þú notar í miðstöðinni og jaðarkvörðunareiningu. Frekari upplýsingar er að finna í hlutanum [Hlaða markpökkum upp í eignir LBD-verks í LCS](#upload-packages) síðar í þessu efnisatriði.
+    Undirbúðu forrit, verkvang og sérstillingarpakka sem þú notar í miðstöðinni og jaðarkvörðunareiningu. Fyrir frekari upplýsingar, sjá [Hladdu upp markpakka í LBD verkefnaeignir í LCS](#upload-packages) kafla síðar í þessari grein.
 
 1. **Þjónusta LBD-umhverfið með markpökkunum.**
 
-    Þetta skref tryggir að sama smíði og sérstillingar séu notaðar í miðstöðinni og spoke. Nánari upplýsingar er að finna í hlutanum [Þjónusta LBD-umhverfi með markpökkum](#service-target-packages) síðar í þessu efnisatriði.
+    Þetta skref tryggir að sama smíði og sérstillingar séu notaðar í miðstöðinni og spoke. Fyrir frekari upplýsingar, sjá [Þjónustu LBD umhverfið með miðapökkum](#service-target-packages) kafla síðar í þessari grein.
 
 1. **Klára grunnstillingu kvörðunareiningar og úthlutun vinnuálags.**
 
-    Frekari upplýsingar er að finna í hlutanum [Úthluta LBD-jaðarkvörðunareiningu á miðstöð](#assign-edge-to-hub) síðar í þessu efnisatriði.
+    Fyrir frekari upplýsingar, sjá [Úthlutaðu LBD brúnkvarðaeiningunni þinni við miðstöð](#assign-edge-to-hub) kafla síðar í þessari grein.
 
-Í eftirstandandi hlutum þessa efnisatriðis er að finna frekari upplýsingar um hvernig á að ljúka þessum skrefum.
+Hinir hlutar þessarar greinar veita frekari upplýsingar um hvernig á að ljúka þessum skrefum.
 
 ## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a>Setja upp og nota LBD-umhverfi með tómum gagnagrunni
 
@@ -67,7 +67,7 @@ Hér er yfirlit uppsetningarferlisins.
 1. Fylgdu leiðbeiningunum í [Setja upp og innleiða umhverfi á staðnum (verkvangsuppfærsla 41 og nýrri)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Þú verður að nota Supply Chain Management útgáfu 10.0.21 eða nýrri yfir miðstöð og mælieiningaumhverfi. Að auki verður þú að nota útgáfu 2.12.0 eða nýrri af innviðaforskriftunum. 
 
     > [!IMPORTANT]
-    > Lestu afganginn af þessum hluta **áður en** þú lýkur við skrefin í því efnisatriði.
+    > Lestu restina af þessum kafla **áður** þú klárar skrefin í þeirri grein.
 
 1. Keyrðu eftirfarandi forskrift áður en þú lýsir grunnstillingu þinni í tölvukerfinu\\ConfigTemplate.xml-skránni:
 
@@ -90,14 +90,14 @@ Hér er yfirlit uppsetningarferlisins.
 
     Initialize-Database.ps1 forskriftin framkvæmir eftirfarandi aðgerðir:
 
-    1. Búðu til tóman gagnagrunn sem er nefndur **ScaleUnitAlmDb**.
+    1. Búðu til tóman gagnagrunn sem heitir **ScaleUnitAlmDb**.
     2. Settu notendur á gagnagrunnshlutverk, byggt á eftirfarandi töflu.
 
         | Notandi            | Gerð | Gagnagrunnshlutverk |
         |-----------------|------|---------------|
         | svc-LocalAgent$ | gMSA | db\_ eiganda     |
 
-1. Haltu áfram að fylgja leiðbeiningunum í [Settu upp og settu upp umhverfi á staðnum (Platform update 41 og síðar)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md).
+1. Haltu áfram að fylgja leiðbeiningunum í [Settu upp og dreifðu umhverfi á staðnum (Platform update 41 og nýrri)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md).
 1. Eftir að þú hefur lokið við [Stilla AD FS](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md#configuredb) skref, fylgdu þessum skrefum:
 
     1. Búðu til nýtt Active Directory Federation Services (AD FS) forrit sem gerir Alm Orchestration þjónustunni kleift að eiga samskipti við Application Object Server (AOS).
@@ -116,7 +116,7 @@ Hér er yfirlit uppsetningarferlisins.
                                        -ApplicationDisplayName '<Whichever name you want the Azure AD app to have>'
         ```
 
-1. Haltu áfram að fylgja leiðbeiningunum í [Settu upp og settu upp umhverfi á staðnum (Platform update 41 og síðar)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Þegar þú verður að slá inn stillingu fyrir staðbundinn umboðsmann skaltu ganga úr skugga um að þú virkjar Edge Scale Unit Features og gefur upp allar nauðsynlegar færibreytur.
+1. Haltu áfram að fylgja leiðbeiningunum í [Settu upp og dreifðu umhverfi á staðnum (Platform update 41 og nýrri)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). Þegar þú verður að slá inn stillingu fyrir staðbundinn umboðsmann skaltu ganga úr skugga um að þú virkjar Edge Scale Unit Features og gefur upp allar nauðsynlegar færibreytur.
 
     ![Virkja Edge Scale Unit eiginleika.](media/EnableEdgeScaleUnitFeatures.png "Virkja eiginleika Edge Scale Unit.")
 

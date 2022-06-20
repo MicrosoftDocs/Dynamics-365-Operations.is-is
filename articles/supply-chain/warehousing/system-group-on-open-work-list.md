@@ -1,6 +1,6 @@
 ---
 title: Kerfisflokkun á opnum verkefnalista
-description: Í þessu efnisatriði er lýst hvernig eigi að sía opna vinnu í fartæki.
+description: Þessi grein lýsir því hvernig á að sía opna vinnulistann í farsíma.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 588744ea19f387b57405030618a6ff176161a8a3639bd58232a657bdaf064a04
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 42e5862392cff57886c36bcbe138e13a8ce7ef23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849098"
 ---
 # <a name="system-grouping-on-an-open-work-list"></a>Kerfisflokkun á opnum verkefnalista
 

@@ -1,6 +1,6 @@
 ---
 title: Birgðaleit á sölustað
-description: Í þessu efnisatriði er því lýst hvernig á að nota aðgerð birgðauppflettingar í Dynamics 365 Commerce sölustað til að skoða stöðu lagerbirgða á afurðum í verslunum og vöruhúsum.
+description: Þessi grein lýsir því hvernig á að nota birgðaleitaraðgerðina í Dynamics 365 Commerce sölustaður (POS) til að skoða birgðaframboð á vörum í verslunum og vöruhúsum.
 author: boycezhu
 ms.date: 08/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: ded7c0aa00d0806dfe4eb4e182abbbf66fd76d5b
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 01f10c348c61ffbcb30be26a57b3edd436aacc8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850250"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Birgðaleit á sölustað
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er því lýst hvernig á að nota aðgerð birgðauppflettingar í Dynamics 365 Commerce sölustað til að skoða stöðu lagerbirgða á afurðum í verslunum og vöruhúsum.
+Þessi grein lýsir því hvernig á að nota birgðaleitaraðgerðina í Dynamics 365 Commerce sölustaður (POS) til að skoða birgðaframboð á vörum í verslunum og vöruhúsum.
 
 Nákvæmt yfirlit yfir í fyrirtækjum hjálpar starfsfólki verslunar að veita tímanlega og góða þjónustu við viðskiptavini. Augnablikið sem skiptir mestu máli er þegar viðskiptavinurinn er tilbúinn til að taka ákvörðun um kaup. Mikilvægt er að gjaldkeri í smásöluverslun hafi birgðaupplýsingar í rauntíma eða nálægt rauntíma innan seilingar svo þeir geti lofað með nákvæmni afhendingu afurðar.
 

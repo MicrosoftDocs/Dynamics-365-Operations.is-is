@@ -1,6 +1,6 @@
 ---
-title: Innskráning á upphafsstöðu launa
-description: Þetta efnisatriði lýsir skrefum fyrir innskráningu á upphafsstöðu fyrir tekjukóða, frádrátt, fríðindi og skatta.
+title: Slá inn upphafsstöður launa
+description: Greinin lýsir skrefunum til að slá inn upphafsstöður fyrir ávinningskóða, frádrátt, fríðindi og skatta.
 author: andreabichsel
 ms.date: 11/20/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a5529e3268727dce022daebb853e50710e5bde84811014febe30e80afee9ed6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d14e7e0772c5b365818d3a8a230abe9f674a077e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850019"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Slá inn upphafsstöður launa
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði lýsir skrefum fyrir innskráningu á upphafsstöðu fyrir tekjukóða, frádrátt, fríðindi og skatta. Þessar upplýsingar eru mikilvægar fyrir samstarfsaðila sem flytja gögn fyrir nýja launainnleiðingu úr öðru kerfi. Til að undirbúa innskráningu launastöðu, staðfestum við eftirfarandi upplýsingar:
+Greinin lýsir skrefunum til að slá inn upphafsstöður fyrir ávinningskóða, frádrátt, fríðindi og skatta. Þessar upplýsingar eru mikilvægar fyrir samstarfsaðila sem flytja gögn fyrir nýja launainnleiðingu úr öðru kerfi. Til að undirbúa innskráningu launastöðu, staðfestum við eftirfarandi upplýsingar:
 
 - Starfsmannafærslur eru innskráðar og tiltækar í kerfinu
 - Eftirfarandi gögn eru sett upp og úthlutuð starfsmönnum:

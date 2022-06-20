@@ -1,6 +1,6 @@
 ---
-title: Dreifa og tímasetja spurningalista
-description: Þetta efnisatriði útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær.
+title: Dreifa spurningalistum á ákveðnum tímum
+description: Þessi skrá útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a543d9b85edd493f9b5d5a0449302769c3592f7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 91b2c94c74fd51765a2545424504149fff1f4bfd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908862"
 ---
-# <a name="distribute-and-schedule-questionnaires"></a>Dreifa og tímasetja spurningalista
+# <a name="distribute-and-schedule-questionnaires"></a>Dreifa spurningalistum á ákveðnum tímum
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þetta efnisatriði útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær. 
+Þessi skrá útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær. 
 
 Það eru margar leiðir til að Dreifa spurningarlista:
 
@@ -110,7 +110,7 @@ Ef notuð er áætluð svarseta tilkynna þarf að tilkynna einstaklingurinn bei
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Tilkynna svarendum um röðun
 
-Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann. Sláðu inn tölvupóststextann á **Tölvupóstur fyrir sjálfsafgreiðslu starfsmanna** flipa. Eftir að áætlunin hefur verið hafin skaltu smella **Aðgerðir** &gt; **Senda tölvupóst** að búa til og senda tölvupóstinn til svarenda. Svarendur geta síðan innskráð sig á vefsvæðið og svarað spurningalistanum. 
+Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann. Sláðu inn tölvupóststextann á **Tölvupóstur fyrir sjálfsafgreiðslu starfsmanna** flipa. Eftir að áætlun hefur verið hafin, smelltu **Aðgerðir** &gt; **Senda tölvupóst** að búa til og senda tölvupóstinn til svarenda. Svarendur geta síðan innskráð sig á vefsvæðið og svarað spurningalistanum. 
 
 > [!NOTE]
 > Áður en þú getur notað tölvupóstvirknina verður upplýsingatæknistjórinn þinn að slá inn tölvupóstsstillingarnar á **Tölvupóstfæribreytur** síðu.

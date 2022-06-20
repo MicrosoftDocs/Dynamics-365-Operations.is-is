@@ -1,6 +1,6 @@
 ---
 title: Virkja greiðsluspár viðskiptavinar
-description: Þetta efnisatriði útskýrir hvernig á að kveikja á og skilgreina eiginleika greiðsluspár viðskiptavinar í fjármálainnsýn.
+description: Þessi grein útskýrir hvernig á að kveikja á og stilla eiginleikann greiðsluspá viðskiptavina í Finance Insights.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a52d38e8fb842c7fbc8adf60a6daaef6cdc9d5ec
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f04ee9db5efe3595dea30d641c5097d6b90c0d77
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713361"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898208"
 ---
 # <a name="enable-customer-payment-predictions"></a>Virkja greiðsluspár viðskiptavinar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að kveikja á og skilgreina eiginleika greiðsluspár viðskiptavinar í fjármálainnsýn. Þú kveikir á eiginleikanum í **Eiginleikastjórnun** vinnusvæði og sláðu inn stillingar á **Uppsetning fjármálainnsýnar** síðu. Þetta efnisatriði inniheldur einnig upplýsingar sem geta aðstoðað þig við að nota eiginleikann á skilvirkan hátt.
+Þessi grein útskýrir hvernig á að kveikja á og stilla eiginleikann greiðsluspá viðskiptavina í Finance Insights. Þú kveikir á eiginleikanum í **Eiginleikastjórnun** vinnusvæði og sláðu inn stillingar á **Uppsetning fjármálainnsýnar** síðu. Þessi grein inniheldur einnig upplýsingar sem geta hjálpað þér að nota eiginleikann á áhrifaríkan hátt.
 
 > [!NOTE]
-> Áður en eftirfarandi skrefum er lokið skal ganga úr skugga um að ljúka undirbúningsskrefunum í efnisatriðinu [Skilgreining fyrir fjármál](configure-for-fin-insites.md).
+> Áður en þú lýkur eftirfarandi skrefum skaltu ganga úr skugga um að þú hafir lokið forsendum skrefum í [Stilla fyrir innsýn í fjármálum](configure-for-fin-insites.md) grein.
 
 1. Kveiktu á eiginleikanum fyrir greiðsluspá viðskiptavina:
 

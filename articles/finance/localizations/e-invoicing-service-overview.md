@@ -1,6 +1,6 @@
 ---
 title: Yfirlit rafrænna reikninga
-description: Þetta efni veitir yfirlit yfir rafræna reikninga í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
+description: Þessi grein veitir yfirlit yfir rafræna reikninga í Microsoft Dynamics 365 Fjármál og Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 01/21/2022
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23a98706bc2ab0abc2c72e9f20d8e8fbff56b2b9
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 4ce5776216855fc664b9beba68036d41920ae602
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861297"
 ---
 # <a name="electronic-invoicing-overview"></a>Yfirlit rafrænna reikninga
 
 [!include [banner](../includes/banner.md)]
 
-Rafræn reikningur fyrir Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management er hástigstærð fjölleigjendaþjónusta sem gerir kleift að stilla vinnslu rafrænna reikninga og stillanleg rafræn skjalaskipti. Vinnslan og samþættingarreglurnar eru hægt að stilla að vild og reiknireglurnar eru keyrðar utan Finance og Supply Chain Management. Þjónustan beinist aðallega að vinnslu rafrænna reikningaskjala í sviðum fyrirtækja til ríkis. Hins vegar er hægt að sérsníða það í öðrum tilgangi, svo sem atburðarás milli fyrirtækja fyrir mismunandi gerðir skjala.
+Rafræn reikningur fyrir Microsoft Dynamics 365 Fjármál og Dynamics 365 Supply Chain Management er hástigstærð fjölleigjendaþjónusta sem gerir stillanleg vinnslu rafrænna reikninga og stillanleg rafræn skjalaskipti. Vinnslan og samþættingarreglurnar eru hægt að stilla að vild og reiknireglurnar eru keyrðar utan Finance og Supply Chain Management. Þjónustan beinist aðallega að vinnslu rafrænna reikningaskjala í sviðum fyrirtækja til ríkis. Hins vegar er hægt að sérsníða það í öðrum tilgangi, svo sem atburðarás milli fyrirtækja fyrir mismunandi gerðir skjala.
 
 Rafræn reikningsfærsla getur auðveldað þér að ná eftirfarandi markmiðum:
 
@@ -44,7 +44,7 @@ Rafræn reikningsfærsla getur auðveldað þér að ná eftirfarandi markmiðum
 
 ## <a name="service-availability"></a>Framboð þjónustu
 
-Eins og er, er rafræn reikningsfærsla í boði fyrir viðskiptavini fjármála- og birgðakeðjustjórnunar. Fyrir frekari upplýsingar, skoðaðu leyfisskilmálana fyrir umsókn þína.
+Eins og er, er rafræn reikningavirkni í boði fyrir viðskiptavini fjármála- og birgðakeðjustjórnunar. Fyrir frekari upplýsingar, skoðaðu leyfisskilmálana fyrir umsókn þína.
 
 Vegna þess að virkni sem tekur á lands-/svæðissértækum kröfum gæti verið takmörkuð á mismunandi stigum útgáfunnar, ættir þú alltaf að skoða nýjustu skjölin sem undirstrika umfang og umfang studdra landa/svæðissértækra lausna.
 
@@ -65,7 +65,7 @@ Rafræn reikningsfærsla er sett upp á eftirfarandi staðsetningum Azure:
 - Stilling þjónustunnar með uppsetningu á Regulatory Configuration Service (RCS) og hnattvæðingareiginleikum
 - Umbreyting viðskiptagagna í mörg rafræn reikningssnið (XML, JavaScript Object Notation\[ JSON\], TXT og kommuaðskilin gildi\[ CSV\]) með því að nota stillingar sem eru skilgreindar í RCS:
 
-    - Rafræn skýrslugerð (ER) snið sem eru tiltæk fyrir lönd og svæði þar sem stillingarhæfni fyrir rafræna reikningsumbreytingu er ekki tiltæk
+    - Rafræn skýrslugerð (ER) snið sem eru fáanleg fyrir lönd og svæði þar sem stillingarhæfni fyrir rafræna reikningsumbreytingu er ekki tiltæk
 
 - Stillanleg innsending rafrænna reikninga til ytri vefþjónustu, þar með talið vottunarmeðhöndlun með stafrænum undirskriftum:
 
@@ -76,7 +76,7 @@ Rafræn reikningsfærsla er sett upp á eftirfarandi staðsetningum Azure:
 - Getan til að senda skjöl í tölvupósti og geyma þau í SharePoint
 - Hópvinnsla rafrænna reikningsskilaboða
 - Stillanleg umbreyting á komandi skjölum og vinnsla þeirra skjala í fjármála- og birgðakeðjustjórnun
-- Hæfni til að taka á móti skjölum sem berast frá rásum eins og tölvupósti og SharePoint
+- Möguleikinn á að taka á móti skjölum sem berast frá rásum eins og tölvupósti og SharePoint
 
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
 

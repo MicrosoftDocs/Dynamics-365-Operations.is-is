@@ -1,6 +1,6 @@
 ---
 title: Takmarkanir á kostnaðarútgáfum fyrir staðalkostnað
-description: Þetta efnisatriði fjallar um þær takmarkanir sem gilda um kostnaðarútgáfu fyrir staðalkostnað.
+description: Þessi grein lýsir takmörkunum sem gilda um kostnaðarútgáfu fyrir staðalkostnað.
 author: JennySong-SH
 ms.date: 01/17/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11bf14b2926fd4ff053697bef8b7dad781948a2c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8c5c00ae8952e2c80d97d039271a6f5c63e9a72f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672207"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867986"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Takmarkanir á kostnaðarútgáfum fyrir staðalkostnað
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði fjallar um þær takmarkanir sem gilda um kostnaðarútgáfu fyrir staðalkostnað. 
+Þessi grein lýsir takmörkunum sem gilda um kostnaðarútgáfu fyrir staðalkostnað. 
 
 Eftirfarandi takmarkanir stuðla að því að reglum um staðalkostnað sé fylgt:
 
@@ -37,9 +37,9 @@ Eftirfarandi takmarkanir stuðla að því að reglum um staðalkostnað sé fyl
 
 -  Útreikningar uppskrifta verður að framkvæma með eins stigs niðurbroti.
 
-Hægt er að afrita kostnaðargögn vöru fyrir staðlaðan kostnað í aðra kostnaðarútgáfu sem inniheldur staðlaðan kostnað eða áætlaðan kostnað. Hins vegar er ekki hægt að afrita kostnaðargögn vöru yfir í kostnaðarútgáfu sem inniheldur staðalkostnað, þar sem takmarkanirnar sem er lýst fyrr í þessu efnisatriði eiga ekki við áætlaðan kostnað.
+Hægt er að afrita kostnaðargögn vöru fyrir staðlaðan kostnað í aðra kostnaðarútgáfu sem inniheldur staðlaðan kostnað eða áætlaðan kostnað. Hins vegar er ekki hægt að afrita vörukostnaðargögn fyrir áætlaðan kostnað í kostnaðarútgáfu sem inniheldur staðlaðan kostnað, vegna þess að takmarkanirnar sem eru taldar upp fyrr í þessari grein eiga ekki við um áætlaðan kostnað.
 
-## <a name="related-topics"></a>Tengd efnisatriði
+## <a name="related-articles"></a>Tengdar greinar
 
 [Yfirlit kostnaðarútgáfa](costing-versions.md)
 

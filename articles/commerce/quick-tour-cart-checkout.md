@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir síður körfu og greiðsluferlis
-description: Þetta efnisatriði veitir yfirlit yfir síður körfu og greiðsluferli í Microsoft Dynamics 365 Commerce.
+description: Þessi grein veitir yfirlit yfir körfu- og afgreiðslusíðurnar í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e911a1be1f06fcb3c2af08bab835a2b1ab5590f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853768"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Yfirlit yfir síður körfu og greiðsluferlis
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir yfirlit yfir síður körfu og greiðsluferli í Microsoft Dynamics 365 Commerce.
+Þessi grein veitir yfirlit yfir körfu- og afgreiðslusíðurnar í Microsoft Dynamics 365 Commerce.
 
 Körfusíðan á vef netverslunar sýnir alla hluti sem viðskiptavinur hefur bætt við körfuna. Körfusíðan er smíðuð með því að nota körfueininguna. Körfueiningin er gámur sem er hýsir allar einingar sem þarf til að sýna hluti sem eru í körfunni. Körfueiningin getur einnig notað aðrar einingar til að sýna pöntunaryfirlitið og alla kynningarkóða sem hefur verið beitt á pöntun viðskiptavinarins.
 

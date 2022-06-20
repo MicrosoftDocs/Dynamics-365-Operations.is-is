@@ -1,6 +1,6 @@
 ---
 title: Varpa verslunum og teymum ef fyrirliggjandi teymi eru í Microsoft Teams
-description: Þetta efnisatriði fjallar um hvernig á að varpa verslunum og samsvarandi teymum í Dynamics 365 Commerce höfuðstöðvar ef fyrirtækið hefur þegar stofnað teymi í Microsoft Teams á undan Commerce-samþættingu.
+description: Þessi grein fjallar um hvernig á að kortleggja verslanir og samsvarandi teymi í Dynamics 365 Commerce höfuðstöðvar ef stofnunin þín hefur þegar stofnað teymi í Microsoft Teams fyrir viðskiptasamþættingu.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: aafeaa1da3c3dab5d76a6bfcee06db34a6afba91
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4cb18affd0df59dc986602a684a3fe3d418644fd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691106"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902738"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Varpa verslunum og teymum ef fyrirliggjandi teymi eru í Microsoft Teams
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði fjallar um hvernig á að varpa verslunum og samsvarandi teymum í Dynamics 365 Commerce höfuðstöðvar ef fyrirtækið hefur þegar stofnað teymi í Microsoft Teams á undan Commerce-samþættingu.
+Þessi grein fjallar um hvernig á að kortleggja verslanir og samsvarandi teymi í Dynamics 365 Commerce höfuðstöðvar ef stofnunin þín hefur þegar stofnað teymi í Microsoft Teams fyrir viðskiptasamþættingu.
 
 Fyrirtækið gæti stofnað teymi fyrir sumar eða allar verslanirnar áður en Dynamics 365 Commerce og Microsoft Teams er samþætt. Ef svo er þarf að gefa upp vörpun verslana og samsvarandi teymis í Commerce Headquarters til að koma á samstillingu verks milli sölustaðar Commerce og Microsoft Teams.
 

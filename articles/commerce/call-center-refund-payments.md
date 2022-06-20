@@ -1,6 +1,6 @@
 ---
 title: Úrvinnsla endurgreiðslu í símaverum
-description: Þetta efnisatriði útskýrir hvernig endurgreiðslur eru gerðar gegnum símaver þegar skil eru stofnuð eða þegar hætt er við pantanir eða pöntunarlínur.
+description: Þessi grein útskýrir hvernig greiðsluendurgreiðslur verða til í gegnum símaver þegar skil eru búnar til, eða þegar pantanir eða pöntunarlínur eru afturkallaðar.
 author: hhainesms
 ms.date: 01/05/2020
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 330674a31dc59e99ffedb82d0896c64214562eb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944714"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880115"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Úrvinnsla endurgreiðslu í símaverum
 
-Þetta efnisatriði útskýrir hvernig endurgreiðslur eru gerðar gegnum símaver þegar skil eru stofnuð eða þegar hætt er við pantanir eða pöntunarlínur.
+Þessi grein útskýrir hvernig greiðsluendurgreiðslur verða til í gegnum símaver þegar skil eru búnar til, eða þegar pantanir eða pöntunarlínur eru afturkallaðar.
 
 Notandi sem stofnar skilapöntun fyrir viðskiptavin sem notandi símavers í höfuðstöðvum Microsoft Dynamics 365 Commerce notar síðuna **Skilapöntun** til að stofna upprunalega vöruskilaheimild. Vöruskilaheimildin skilgreinir afurðirnar sem viðskiptavinurinn vill skila eða skipta og hún stofnar tengda skilasölupöntun sem er með pöntunargerðina **Skilapöntun**. Þessi tengda skilapöntun er notuð til að rekja bókun á skiluðum birgðum og öllum kreditnótum eða endurgreiðslum sem eru bókaðar.
 
@@ -92,7 +92,7 @@ Stillingin **Já** fyrir valkostinn **Nota kredit** er aðeins í boði þegar s
 
 ## <a name="payment-overrides-for-call-center-returns"></a>Greiðsluhnekkingar fyrir skil símavers
 
-Þó svo að regla símavers ákvarðar á kerfisbundinn hátt greiðslumáta endurgreiðslu eins og lýst er fyrr í þessu efnisatriði, gætu notendur stundum viljað hnekkja þessum greiðslum. Til dæmis gæti notandi breytt eða fjarlægt fyrirliggjandi endurgreiðslulínur og sett inn nýjar greiðslulínur. Aðeins notandi, sem er með réttar hnekkingarheimildir, getur breytt endurgreiðslum sem kerfið reiknar út. Þessar heimildir geta verið skilgreindar á síðunni **Hnekkingarheimildir** í Smásala og viðskipti. Til að hnekkja endurgreiðslu verður notandinn að vera tengdur við öryggishlutverk þar sem valkosturinn **Leyfa aðra greiðslu** er stilltur á **Já** á síðunni **Hnekkingarheimildir**.
+Þó að rökfræði símavera ákveði kerfisbundið greiðslumáta endurgreiðslu á þann hátt sem lýst er fyrr í þessari grein, gætu notendur stundum viljað hnekkja þeim greiðslum. Til dæmis gæti notandi breytt eða fjarlægt fyrirliggjandi endurgreiðslulínur og sett inn nýjar greiðslulínur. Aðeins notandi, sem er með réttar hnekkingarheimildir, getur breytt endurgreiðslum sem kerfið reiknar út. Þessar heimildir geta verið skilgreindar á síðunni **Hnekkingarheimildir** í Smásala og viðskipti. Til að hnekkja endurgreiðslu verður notandinn að vera tengdur við öryggishlutverk þar sem valkosturinn **Leyfa aðra greiðslu** er stilltur á **Já** á síðunni **Hnekkingarheimildir**.
 
 ![Leyfa annan greiðslukost á síðu hnekkingarheimilda.](media/overridepermissions.png)
 

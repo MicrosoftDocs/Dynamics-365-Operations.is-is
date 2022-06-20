@@ -1,6 +1,6 @@
 ---
-title: Algengar spurningar um afurðaráðleggingar
-description: Þetta efni veitir upplýsingar um ferla og verkfæri sem þú getur notað til að leysa vandamál sem tengjast afurðatillögum eða niðurstöðum þeirra.
+title: Algengar spurningar um afurðatillögur
+description: Þessi grein veitir upplýsingar um ferla og verkfæri sem þú getur notað til að leysa vandamál sem tengjast vöruráðleggingum eða niðurstöðum þeirra.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88ad0efd8f678c3082c31b1c3162b8288e14fc9edb69e8756f1641461b808e07
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77a5532ab1ae3b630bb335aa7cff6dc747184994
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733966"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900448"
 ---
-# <a name="product-recommendations-faq"></a>Algengar spurningar um afurðaráðleggingar
+# <a name="product-recommendations-faq"></a>Algengar spurningar um afurðatillögur
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni veitir upplýsingar um ferla og verkfæri sem þú getur notað til að leysa vandamál sem tengjast [afurðatillögum](product-recommendations.md) eða niðurstöðum þeirra.
+Þessi grein veitir upplýsingar um ferla og verkfæri sem þú getur notað til að leysa vandamál sem tengjast [ráðleggingar um vörur](product-recommendations.md) eða niðurstöður þeirra.
 
 ## <a name="best-practices"></a>Bestu starfsvenjur
 Það er mjög mikilvægt að nýta hugtakið afurðarsniðmát og afbrigði. Skynsamleg flokkun afbrigða í yfirafurðarsniðmát hjálpar listum reiknirita og þjónustu við að búa til betri líkön. Að auki getur þjónustan þjónað aðeins einu afurðatilviki í stað þess að setja öll náskyld afbrigði á lista. Þegar öll náskyld afbrigði eru sett á lista geta rangar eða afritaðar niðurstöður komið fram.

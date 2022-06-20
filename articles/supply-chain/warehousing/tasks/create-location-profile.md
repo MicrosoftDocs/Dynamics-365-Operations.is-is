@@ -1,6 +1,6 @@
 ---
 title: Stofna staðsetningarforstillingu
-description: Í þessu efnisatriði er útskýrt hvernig á að stofna staðsetningarforstillingu í Dynamics 365 Supply Chain Management.
+description: Þessi grein útskýrir hvernig á að búa til staðsetningarprófíl í Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74141cdad6841a602c7fb061e897646fae072a73
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 98537f3ad45d66e348ecd489c60d95ef875e5c07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580001"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875044"
 ---
 # <a name="create-a-location-profile"></a>Stofna staðsetningarforstillingu
 
 [!include [banner](../../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að stofna staðsetningarforstillingu í Dynamics 365 Supply Chain Management. Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu tengda sem lýsir eiginleikum staðsetningar, t.d. hvort staðsetning heimilar blandaðar vörur. Í þessu ferli munum við stofna forstillingu fyrir staðsetningu sem ekki þarf stýringu númeraplötu. Við munum virkja blandaðar vörur og blandaða birgðastöðu, og leyfa reglulega talningu. Hægt er að nota þetta ferli í sýnigögn fyrirtækisins USMF.
+Þessi grein útskýrir hvernig á að búa til staðsetningarprófíl í Dynamics 365 Supply Chain Management. Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu tengda sem lýsir eiginleikum staðsetningar, t.d. hvort staðsetning heimilar blandaðar vörur. Í þessu ferli munum við stofna forstillingu fyrir staðsetningu sem ekki þarf stýringu númeraplötu. Við munum virkja blandaðar vörur og blandaða birgðastöðu, og leyfa reglulega talningu. Hægt er að nota þetta ferli í sýnigögn fyrirtækisins USMF.
 
 
 1. Í skoðunarrúðunni ferðu í **Kerfi > Vöruhúsakerfi > Uppsetning > Vöruhús > Staðsetningarforstillingar**.

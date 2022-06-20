@@ -1,6 +1,6 @@
 ---
 title: Losa fasta eign sem rýrnun
-description: Umræðuefnið lýsir ferli úthlutunar á losunarfærslum fyrir fasta eign sem var losuð sem rýrnun.
+description: Greinin lýsir ferlinu við að útrýma viðskiptum fyrir fastafjármuni sem var fargað sem rusl.
 author: moaamer
 ms.date: 08/14/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: c30837da84bff67bbab80ff5116135e2533a867d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 6564314c70de1880e437c3c493689f12d96d91ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713078"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855434"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Losa fasta eign sem rýrnun
 
 [!include [banner](../includes/banner.md)]
 
-Umræðuefnið lýsir ferli úthlutunar á losunarfærslum fyrir fasta eign sem var losuð sem rýrnun. Færslutegundir sem hægt er að losa eru m.a. yfirtaka eignar og uppsafnaðar afskriftarfærslur og aðrar færslur fastra eigna. Losun þessara færslna hefur áhrif á efnahagsreikninga, svo sem aðlögun yfirtöku, afskriftarleiðréttingu, endurmat, niðurfærslu og niðurfærslu reikninga.
+Greinin lýsir ferlinu við að útrýma viðskiptum fyrir fastafjármuni sem var fargað sem rusl. Færslutegundir sem hægt er að losa eru m.a. yfirtaka eignar og uppsafnaðar afskriftarfærslur og aðrar færslur fastra eigna. Losun þessara færslna hefur áhrif á efnahagsreikninga, svo sem aðlögun yfirtöku, afskriftarleiðréttingu, endurmat, niðurfærslu og niðurfærslu reikninga.
 
 | Færsla                                         | Debet (Dr.) | Kredit (Cr.) |
 |-----------------------------------------------------|-------------|--------------|

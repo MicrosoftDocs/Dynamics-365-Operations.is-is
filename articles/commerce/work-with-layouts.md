@@ -1,6 +1,6 @@
 ---
 title: Vinna með forstillt útlit
-description: Þetta efnisatriði útskýrir hvernig á að vinna með forstillt útlit í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að vinna með forstillt útlit í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 34b9cb15dd77e6317208e6468fbfb60e804f5e8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896835"
 ---
 # <a name="work-with-preset-layouts"></a>Vinna með forstillt útlit
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að vinna með forstillt útlit í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að vinna með forstillt útlit í Microsoft Dynamics 365 Commerce.
 
-Áður en þú lýkur við ferlin í þessu efni skaltu passa að lesa [Forstillt og sérsniðið skipulag](templates-layouts-overview.md#preset-and-custom-layouts). Fyrir almenna yfirsýn skal sjá [Yfirlit yfir sniðmát og skipulag](templates-layouts-overview.md).
+Áður en þú lýkur aðferðunum í þessari grein, vertu viss um að lesa [Forstillt og sérsniðið skipulag](templates-layouts-overview.md#preset-and-custom-layouts). Fyrir almenna yfirsýn skal sjá [Yfirlit yfir sniðmát og skipulag](templates-layouts-overview.md).
 
 ## <a name="create-a-new-preset-layout"></a>Búa til nýtt forstillt skipulag
 
@@ -100,7 +100,7 @@ Eftir að þú hefur forskoðað breytingarnar á forstilltu skipulagi skaltu fy
 
 ## <a name="rename-a-preset-layout"></a>Endurnefna forstillt útlit
 
-Fylgdu þessum skrefum til að endurnefna forstillt skipulag í vefsvæðisgerð.
+Fylgdu þessum skrefum til að endurnefna forstillt útlit í vefsmiðju.
 
 1. Í vinstri yfirlitsrúðunni, veldu **Skipulag**.
 1. Veldu útlitsheiti útlitsins sem þú vilt endurnefna.

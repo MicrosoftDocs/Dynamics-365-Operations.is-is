@@ -1,6 +1,6 @@
 ---
 title: Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða
-description: Þetta efnisatriði lýsir því hvernig setja á upp Microsoft Dynamics 365 Commerce-síðu rafrænna viðskipta sem getur þjónað gagnvirku efni, byggt á færibreytum vefslóða.
+description: Þessi grein lýsir því hvernig á að setja upp a Microsoft Dynamics 365 Commerce Netverslunarsíða sem getur þjónað kraftmiklu efni, byggt á breytum vefslóða.
 author: StuHarg
 ms.date: 05/27/2022
 ms.topic: article
@@ -9,25 +9,25 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: e2b13403ffb316059476a03857c849b4f9f8cb9c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811032"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884664"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Þetta efnisatriði lýsir því hvernig setja á upp Microsoft Dynamics 365 Commerce-síðu rafrænna viðskipta sem getur þjónað gagnvirku efni, byggt á færibreytum vefslóða.
+Þessi grein lýsir því hvernig á að setja upp a Microsoft Dynamics 365 Commerce Netverslunarsíða sem getur þjónað kraftmiklu efni, byggt á breytum vefslóða.
 
 Hægt er að stilla síður rafrænna viðskipta til að þjóna mismunandi efni byggt á hluta vefslóðar. Þess vegna er síðan þekkt sem gagnvirk síða. Hlutinn er notaður sem færibreyta til að sækja efni síðunnar. Til dæmis síða sem er búin til í Site builder og nefnd **blogg\_ áhorfandi** er varpað á slóðina `https://fabrikam.com/blog`. Síðan er hægt að nota þessa síðu til að sýna mismunandi efni byggt á síðasta hlutanum vefslóðinni. Til dæmis er síðasti hlutinn í vefslóð `https://fabrikam.com/blog/article-1` **article-1**.
 
 Þú getur líka hnekið færibreytum vefslóðahluta með síðugerðarsíðu. Til dæmis síða sem er búin til í Site builder og nefnd **blogg\_ samantekt** hægt að kortleggja á slóðina `https://fabrikam.com/blog/about-this-blog`. Þegar`https://fabrikam.com/blog` Slóð er beðin með`/about-this-blog` hluti á endanum, the **blogg\_ samantekt** innihald síðu er skilað í stað þess`/about-this-blog` hluti sem er túlkaður sem færibreyta til að nota af`https://fabrikam.com/blog` síðu. 
 
-Þegar nöfn eru valin fyrir færibreyturnar sem á að senda á kviku síðuna, nafn kviku síðunnar eins og það birtist í vefslóðinni (`/blog` í dæminu hér að ofan) er ekki hægt að nota sem færibreytuheiti eða undirstreng færibreytuheiti. 
+Þegar þú velur nöfn fyrir færibreyturnar sem á að senda á kviku síðuna, nafn kviku síðunnar eins og það birtist í vefslóðinni (`/blog` í dæminu hér að ofan) er ekki hægt að nota sem færibreytuheiti eða undirstreng færibreytuheiti. 
 
 > [!NOTE]
 > Virknin til að hýsa, sækja og sýna efni gagnvirkrar síðu er innleidd með því að nota sérsniðna einingu. Frekari upplýsingar er að finna í [Stækkunarhæfni rásar á netinu](e-commerce-extensibility/overview.md).

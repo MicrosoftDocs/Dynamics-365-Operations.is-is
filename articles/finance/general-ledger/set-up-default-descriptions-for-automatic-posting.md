@@ -1,6 +1,6 @@
 ---
 title: Setja upp sjálfgefnar lýsingar fyrir sjálfvirka bókun
-description: Þetta efnisatriði útskýrir hvernig hægt er að setja upp sjálfgefinn texta sem er notaður til að fylla í svæðið fyrir bókhaldsfærslur sem eru bókaðar sjálfkrafa í fjárhag. Fyrir allar færslugerðir er hægt að setja upp sjálfgefna lýsingu með því að nota frjálsan texta eða með því að velja fastar breytur.
+description: Þessi grein útskýrir hvernig á að setja upp sjálfgefinn texta sem er notaður til að lýsa bókhaldsfærslum sem eru bókaðar sjálfkrafa í fjárhag. Fyrir allar færslugerðir er hægt að setja upp sjálfgefna lýsingu með því að nota frjálsan texta eða með því að velja fastar breytur.
 author: aprilolson
 ms.date: 07/23/2019
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 772c754e9980e693daf7542de273cbe278ca7038
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 71982a7d5b1bb08d3e238646ea0b15f17260bdcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904500"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Setja upp sjálfgefnar lýsingar fyrir sjálfvirka bókun
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig hægt er að setja upp sjálfgefinn texta sem er notaður til að fylla í svæðið fyrir bókhaldsfærslur sem eru bókaðar sjálfkrafa í fjárhag. Fyrir allar færslugerðir er hægt að setja upp sjálfgefna lýsingu með því að nota frjálsan texta eða með því að velja fastar breytur.
+Þessi grein útskýrir hvernig á að setja upp sjálfgefinn texta sem er notaður til að lýsa bókhaldsfærslum sem eru bókaðar sjálfkrafa í fjárhag. Fyrir allar færslugerðir er hægt að setja upp sjálfgefna lýsingu með því að nota frjálsan texta eða með því að velja fastar breytur.
 
 > [!NOTE]
-> Fyrir sumar færslugerðir í sumum löndum eða svæðum er einnig hægt að setja texta úr reitum sem tengjast þessum færslutegundum. Sjá lista yfir færslugerðir og lönd og svæði í kaflanum [Valfrjálst: Bæta öðrum texta við að sjálfgildar lýsingar](#optional-add-other-text-to-default-descriptions) síðar í þessu efni.
+> Fyrir sumar færslugerðir í sumum löndum eða svæðum geturðu einnig haft texta úr reitum sem tengjast þessum færslutegundum. Fyrir lista yfir færslugerðir, og lönd og svæði, sjá [Valfrjálst: Bættu öðrum texta við sjálfgefnar lýsingar](#optional-add-other-text-to-default-descriptions) kafla síðar í þessari grein.
 
 ## <a name="set-up-default-descriptions"></a>Setja upp sjálfgefnar lýsingar
 
@@ -78,7 +78,7 @@ Hægt er að bæta öðrum texta við sjálfgefnar lýsingar fyrir færslugerði
 
 ### <a name="add-text-to-default-descriptions"></a>Bæta texta við sjálfgefnar lýsingar
 
-Eftir að þú hefur lokið við skrefin í kaflanum [Setja upp sjálfgefnar lýsingar](#set-up-default-descriptions) fyrr í þessu efnisatriði, skaltu fylgja þessum leiðbeiningum til að bæta öðrum texta við upphaflegar lýsingar.
+Eftir að þú hefur lokið skrefunum í [Settu upp sjálfgefnar lýsingar](#set-up-default-descriptions) kafla fyrr í þessari grein, fylgdu þessum skrefum til að bæta öðrum texta við sjálfgefnar lýsingar.
 
 1. Á flýtiflipanum **Færibreytur** velurðu **Bæta við**.
 2. Í reitnum **Tilvísunartafla** skal velja tölfu gagnagrunns, þar sem bæta á færibreytugögnum við lýsinguna.

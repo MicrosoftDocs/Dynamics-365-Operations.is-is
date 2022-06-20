@@ -1,6 +1,6 @@
 ---
 title: Útreikningar afbrigðalíkans afurðar
-description: Þetta efnisatriði lýsir því hvernig á að stofna útreikninga fyrir einingar í afbrigðalíkani afurðar
+description: Þessi grein lýsir því hvernig á að búa til útreikninga fyrir eiginleika í vörustillingarlíkani
 author: t-benebo
 ms.date: 03/18/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-18
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 349fed3ca75b94db2f421a1ff3c3553c96c202c37d59857a3d973f3de8f995ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 35057a4fc59732fea24e4d953cafed633a936ec1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878933"
 ---
 # <a name="product-configuration-model-calculations"></a>Útreikningar afbrigðalíkans afurðar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að stofna útreikninga fyrir einingar í afbrigðalíkani afurðar.
+Þessi grein lýsir því hvernig á að búa til útreikninga fyrir eiginleika í vörustillingarlíkani.
 
 ## <a name="prerequisites"></a>Forkröfur
 

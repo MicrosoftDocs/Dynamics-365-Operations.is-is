@@ -1,6 +1,6 @@
 ---
 title: Yfirlit fjárhagsáætlunarstýringar
-description: Í þessu efnisatriði er kynntur eiginleiki fjárhagsáætlunarstýringar og veittar upplýsingar sem hjálpa til við að stilla fjárhagsáætlunarstýringu til að ná sem mest út úr stjórnun á fjárhagslegum tilföngum fyrirtækisins.
+description: Þessi grein kynnir eiginleiki fjárhagsáætlunarstýringar og veitir upplýsingar til að hjálpa þér að stilla fjárhagsáætlunarstýringu til að hámarka stjórnun á fjárhag fyrirtækisins.
 author: panolte
 ms.date: 03/28/2022
 ms.topic: overview
@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e36ecacc621b4ecb8cc71e42b7a306c4494f625a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 27eb31919937e7f43a785616b547e3d6952eaaf2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898299"
 ---
 # <a name="budget-control-overview"></a>Yfirlit fjárhagsáætlunarstýringar
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Í þessu efnisatriði er kynntur eiginleiki fjárhagsáætlunarstýringar og veittar upplýsingar sem hjálpa til við að stilla fjárhagsáætlunarstýringu til að ná sem mest út úr stjórnun á fjárhagslegum tilföngum fyrirtækisins.
+Þessi grein kynnir eiginleiki fjárhagsáætlunarstýringar og veitir upplýsingar til að hjálpa þér að stilla fjárhagsáætlunarstýringu til að hámarka stjórnun á fjárhag fyrirtækisins.
 
-Fjárhagsstýring styður stjórnun á fjármögnun stofnunar með reikningsskilum, verkflæði, notendahópum, upprunaskjölum og dagbókum, stillanlegum útreikningum á tiltækum fjármunum, fjárhagsáætlunarlotum og viðmiðunarmörkum. Þegar stýringar eru á sínum stað, getur fyrirtæki áætlað, mæla, stjórna og spá fyrir um hennar fjárhagslegar tilföng gegnum fjárhagsársins. 
+Fjárhagsstýring styður stjórnun á fjármögnun stofnunar með reikningsskilaskrá, verkflæði, notendahópum, upprunaskjölum og dagbókum, stillanlegum útreikningum á tiltækum fjármunum, fjárhagsáætlunarlotum og viðmiðunarmörkum. Þegar stýringar eru á sínum stað, getur fyrirtæki áætlað, mæla, stjórna og spá fyrir um hennar fjárhagslegar tilföng gegnum fjárhagsársins. 
 
 Eftir að áætlun hefur verið samþykkt í kerfinu geturðu notað fjárhagsáætlanir til að mynda færslur í fjárhagsáætlunarskrá til að skrá útgjöld fjárhagsáætlunar fyrir fyrirtæki. Einnig er hægt að stofna eða flytja inn færslur í fjárhagsáætlunarskrá úr hugbúnaði þriðja aðila án þess að nota virkni fjárhagsáætlunargerðar. 
 

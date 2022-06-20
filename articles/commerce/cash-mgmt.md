@@ -1,6 +1,6 @@
 ---
 title: Endurbætur á reiðufjárstjórnun
-description: Þetta efnisatriði útskýrir endurbætur á reiðufjárstjórnun á sölustað fyrir Dynamics 365 Commerce.
+description: Þessi grein lýsir endurbótum á peningastjórnun í POS fyrir Dynamics 365 Commerce.
 author: anpurush
 ms.date: 05/21/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f878f39e8e9913edbe1da192e199090139a88adb6b7ed9a1e9b779c5748171b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1719e309183042cd7f56be3df8cbbec31cea7c79
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735655"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849068"
 ---
 # <a name="cash-management-improvements"></a>Endurbætur á reiðufjárstjórnun
 

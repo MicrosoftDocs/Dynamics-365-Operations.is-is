@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2964be0b02d6a5553bad9a1b3788a5f1efb208ee
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: be8001428cf2df111458fddd0ecbcdae0daf9b25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863073"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Setja upp bókunarreglur fyrir eignir
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta ferli sýnir hvernig á að setja upp bókunarsnið eigna. Dæmin sem gefin eru í efninu eru fyrir grunnbókunarsnið, þó að færslusnið verði að vera búið til fyrir tiltekna reikningsyfirlit og kröfur um fjárhagsskýrslu.
+Þetta ferli sýnir hvernig á að setja upp bókunarsnið eigna. Dæmin sem gefin eru í greininni eru fyrir grunn færslusnið, þó að færslusnið verði að vera búið til fyrir tiltekna reikningsyfirlit og kröfur um fjárhagsskýrslu.
 
 1. Í skoðunarrúðnni ferðu í **Kerfseiningar > Fastafjármunir > Uppsetning > Bókunarreglur fastafjármuna**.
 2. Smellt er á **Nýtt**.

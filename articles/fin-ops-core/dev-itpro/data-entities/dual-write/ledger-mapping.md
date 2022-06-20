@@ -1,6 +1,6 @@
 ---
 title: Samþættur fjárhagur
-description: Þetta efni lýsir samþættingu fjárhagsupplýsinga milli Finance and Operations og annarra forrita Dynamics 365 með Dataverse.
+description: Þessi grein lýsir samþættingu fjárhagsgagna milli Finance and Operations og annarra Dynamics 365 forrita sem nota Dataverse.
 author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 0deb4198acb59b90bf06e4050889d028df2223e3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e83d66f3f8c8927b9baaf99838a4e242e7e011dc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847190"
 ---
 # <a name="integrated-ledger"></a>Samþættur fjárhagur
 
@@ -22,7 +22,7 @@ ms.locfileid: "8063648"
 
 
 
-Í viðskiptaforriti skilgreina fjárhagsgögn kjarna sem settur er upp fyrir hvernig fyrirtæki stundar viðskipti. Til dæmis lýsa fjárhagsupplýsingar fjárhagsárinu sem fyrirtækið fylgir, gjaldmiðlinum sem það stundar viðskipti í og reikninga sem það notar. Þetta efni lýsir samþættingu þessara grunnupplýsinga.
+Í viðskiptaforriti skilgreina fjárhagsgögn kjarna sem settur er upp fyrir hvernig fyrirtæki stundar viðskipti. Til dæmis lýsa fjárhagsupplýsingar fjárhagsárinu sem fyrirtækið fylgir, gjaldmiðlinum sem það stundar viðskipti í og reikninga sem það notar. Þessi grein lýsir samþættingu þessara fjárhagslegra kjarnagagna.
 
 ## <a name="templates"></a>Sniðmát
 

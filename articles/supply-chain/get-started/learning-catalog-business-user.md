@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a8324fe183efd956fa39ddd97f562e4c33630580
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 298eb62b555f020e8ca6c3220e57b36ecbe386c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673187"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870725"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Námslisti fyrir notendur Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 |---------|-------------|--------|--------|
 | [Lærðu viðskiptaverðmæti Microsoft Dynamics 365 og Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Hefur þú áhuga á að læra um viðskiptaforrit? Þú veist ef til vill ekki hvar þú átt að byrja á Microsoft Dynamics 365 og Power Platform forritum? Kynntu þér hvernig þú nýtir forrit fyrir fyrirtæki til að breyta viðskiptum þínum. | Ókeypis, sjálfstýr skref á námsleið | 8 klst. |
 | [Dynamics 365 og Power Platform grundvallaratriði](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Hefur þú áhuga á að læra um viðskiptaforrit? Byrjaðu á þessari námsleið til að sjá hvernig Dynamics 365 forrit eru notuð. Lærðu um skýjahugtök, Power Platform og hvernig hægt er að byrja með Dynamics 365 forrit. | Ókeypis, sjálfstýr skref á námsleið | 5.5 klst. |
-| [Byrjaðu með Finance and Operations öppum](/learn/paths/get-started-finance-operations/) | Lærðu hvernig Finance and Operations öpp styðja fyrirtæki við að stjórna alþjóðlegum fjármálakerfum sínum, rekstri viðskiptaferlum og straumlínulagaða aðfangakeðjur til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir. Sem fyrsta skrefið á ferli þínum við að vinna með Finance and Operations forritum, verður þú að kynna þér eiginleika þess og virkni, hvaða hlutverki sem þú vilt. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
+| [Byrjaðu með Finance and Operations öppum](/learn/paths/get-started-finance-operations/) | Lærðu hvernig Finance and Operations öpp styðja fyrirtæki við að stjórna alþjóðlegum fjármálakerfum sínum, rekstri viðskiptaferla og straumlínulagaðar aðfangakeðjur til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir. Sem fyrsta skrefið á ferli þínum við að vinna með Finance and Operations forritum, verður þú að kynna þér eiginleika þess og virkni, hvaða hlutverki sem þú vilt. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
 | [Hafist handa með eignastýringu fyrir Dynamics 365 Supply Chain Management](/learn/modules/get-started-asset-management/index) | Eignastýring er eining til að stjórna eignum og viðhaldsvinnslum í Dynamics 365 Supply Chain Management. Eignastýring gerir þér kleift að stjórna og framkvæma verkefni sem tengjast stjórnun og þjónustu á mörgum gerðum búnaðar í fyrirtækinu þínu, til dæmis vélar, framleiðslutæki og farartæki. Eignastjórnun styður lausnir í fjölmörgum atvinnugreinum. | Ókeypis námseining á netinu á eigin hraða | 1 klukkustund |
 | [Hafist handa með innbót fyrir umsjón hönnunarbreytinga fyrir Dynamics 365 Supply Chain Management](/learn/modules/get-started-engineering-change-management/) | Dynamics 365 Supply Chain Management gerir starfsfólki og fyrirtækjum kleift að sjá samræmt yfirlit yfir birgðahald, vöruhús, framleiðslu, þjónustu og vörustjórnun með forspárgreiningu sem veitir stjórnendum innsýn í reksturinn og gerir þeim kleift að taka betri ákvarðanir | Ókeypis námseining á netinu á eigin hraða | 2 klst. |
 | [Hafist handa með Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Með Dynamics 365 Intelligent Order Management geta viðskiptavinir stjórnað skipulagi pantana í gegnum uppfyllingu. Þessir möguleikar gera fyrirtækjum kleift að skipuleggja flæði pantana yfir mismunandi verkvanga og forrita. | Ókeypis námseining á netinu á eigin hraða | 4 klst. |
@@ -41,7 +41,7 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 
 | Efni | Lýsing | Snið | Lengd |
 |---------|-------------|--------|--------|
-| [Stilltu fyrirtæki þitt í Finance and Operations forritum](/learn/paths/configure-your-organization-finance-ops/) | Sem starfhæfur ráðgjafi sem vinnur með fjármála- og rekstraröppum verður þú að skilja hvernig á að setja upp stofnun fyrir viðskiptavininn þinn. Þessi námsleið sýnir þér meðal annars hvernig á að setja upp lögaðila, innleiða öryggisstillingar, sérsníða notendaviðmót notenda, hanna og smíða farsímaforrit og innleiða sameiginlega samþættingu. | Ókeypis, sjálfstýr skref á námsleið | 12 klst. |
+| [Stilltu fyrirtækið þitt í Finance and Operations forritum](/learn/paths/configure-your-organization-finance-ops/) | Sem starfhæfur ráðgjafi sem vinnur með fjármála- og rekstraröppum verður þú að skilja hvernig á að setja upp stofnun fyrir viðskiptavininn þinn. Þessi námsleið sýnir þér meðal annars hvernig á að setja upp lögaðila, innleiða öryggisstillingar, sérsníða notendaviðmót notenda, hanna og smíða farsímaforrit og innleiða sameiginlega samþættingu. | Ókeypis, sjálfstýr skref á námsleið | 12 klst. |
 | [Stilltu og vinndu með greiningar og skýrslugerð í Finance and Operations öppum](/learn/paths/configure-analytics-reporting-finance-operations/) | Leiðtogar fyrirtækja geta tekið mikilvægar ákvarðanir í fyrirtæki sínu ef þeir hafa nákvæma innsýn í undirliggjandi fjárhags- og rekstrargögn. Viðskiptanotandi getur einnig grunnstillt og notað verkfæri fyrir rafræna skýrslugerð án þess að nota neinn kóða,til að taka í gagnið nýja kröfu samkvæmt reglum og mynda viðskiptaskjöl í nauðsynlegu sniði til að skiptast rafrænt á upplýsingum við stjórnvöld, banka og aðrar aðilum. | Ókeypis, sjálfstýr skref á námsleið | 4 klst. |
 
 ## <a name="supply-chain-management"></a>Birgðakeðjustjórnun<a name="supply-chain-management"></a>

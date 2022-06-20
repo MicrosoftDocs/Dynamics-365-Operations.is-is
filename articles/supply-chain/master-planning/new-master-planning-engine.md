@@ -1,6 +1,6 @@
 ---
 title: Flutningur yfir í fínstillingu skipulagningar fyrir aðaláætlanagerð
-description: Í þessu efnisatriði er að finna upplýsingar um nýja aðaláætlunarvélina, fínstillingu skipulagningar og um yfirfærslu úr fyrirliggjandi vél.
+description: Þessi grein veitir upplýsingar um nýju aðalskipulagsvélina, Áætlanagerð fínstillingu, og um flutning frá núverandi vél.
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: a94b424ad1a454feecede8a7b037171b2984504f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846099"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Flutningur yfir í fínstillingu skipulagningar fyrir aðaláætlanagerð
 
 [!include [banner](../includes/banner.md)]
 
-Áætlað er að innbyggða aðaláætlunarvélin sé úrelduð (úrelt). Verið er að skipta um viðbót fínstillingar skipulagningar fyrir Microsoft Dynamics 365 Supply Chain Management. Í þessu efnisatriði er að finna upplýsingar um áhrif á nýjar og fyrirliggjandi uppsetningar. Þar eru upplýsingar um nauðsynlegar aðgerðir.
+Áætlað er að innbyggða aðaláætlunarvélin sé úrelduð (úrelt). Verið er að skipta um viðbót fínstillingar skipulagningar fyrir Microsoft Dynamics 365 Supply Chain Management. Þessi grein veitir upplýsingar um áhrifin á nýja og núverandi uppsetningu. Þar eru upplýsingar um nauðsynlegar aðgerðir.
 
 Fínstilling skipulagningar greiðir fyrir því að útreikningar aðaláætlanagerðar eigi sér stað kleift að eiga sér stað utan Supply Chain Management og Azure SQL gagnagrunns hennar. Kostirnir við fínstillingu áætlanagerðar eru m.a. bætt afkastageta og minni áhrifum á SQL-gagnagrunninn við keyrslur aðaláætlanagerðar. Vegna þess hægt er að keyra hraða áætlanagerð jafnvel á skrifstofutíma geta skipuleggjendur strax brugðist við eftirspurn eða breytingum á færibreytum.
 
@@ -63,7 +63,7 @@ Hægt er að biðja um undantekningu ef nauðsynlegt er að halda þarf áfram a
 
 Um leið og áskildir eiginleikar verða tiltækir veitir Microsoft reynslutíma þar til undantekningin rennur út. Stjórnandi umhverfisins fær upplýsingar um hvenær áskildir eiginleikar eru tiltækir og þegar reynslutíminn hefst.
 
-Eftirfarandi flæðirit tekur saman upplýsingarnar sem veittar eru í þessu efnisatriði þannig að hægt sé að finna út á fljótlegan hátt hvort þurfi að biðja um undanþágu. Ef óska þarf eftir undanþágu skal fylla út og senda inn [Fínstilling áætlanagerðar, yfirfærsla og spurningalisti undantekningar](https://go.microsoft.com/fwlink/?linkid=2144962). Vöruflokkurinn ber ábyrgð á því að meta og samþykkja hverja undantekningarbeiðni, svo vinsamlegast sendu beiðni þína beint til vöruhópsins með því að nota tengilinn sem gefinn er upp og ekki búa til stuðningsmiða fyrir hana. Ef beiðni þinni er hafnað skaltu ekki búa til stuðningsmiða því Microsoft Support getur ekki endurmetið eða veitt undanþágur.
+Eftirfarandi flæðirit tekur saman upplýsingarnar sem gefnar eru upp í þessari grein svo að þú getir fljótt komist að því hvort þú ættir að biðja um undanþágu. Ef óska þarf eftir undanþágu skal fylla út og senda inn [Fínstilling áætlanagerðar, yfirfærsla og spurningalisti undantekningar](https://go.microsoft.com/fwlink/?linkid=2144962). Vöruflokkurinn ber ábyrgð á því að meta og samþykkja hverja undantekningarbeiðni, svo vinsamlegast sendu beiðni þína beint til vöruhópsins með því að nota tengilinn sem gefinn er upp og ekki búa til stuðningsmiða fyrir hana. Ef beiðni þinni er hafnað skaltu ekki búa til stuðningsmiða því Microsoft Support getur ekki endurmetið eða veitt undanþágur.
 
 ![Flæðirit undantekningar.](media/exception-diagram.png "Flæðirit undantekningar")
 

@@ -1,6 +1,6 @@
 ---
-title: Yfirlýt upplýsingasíðu afurða
-description: Þetta efnisatriði inniheldur yfirlit yfir upplýsingasíður afurða í Microsoft Dynamics 365 Commerce.
+title: Yfirlit fyrir upplýsingasíðu afurða
+description: Þessi grein veitir yfirlit yfir vöruupplýsingasíður (PDP) í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 01/23/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7b7630a15f98da4a1454f7c9b0d3501d4f035649
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986202"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884286"
 ---
 # <a name="product-details-pages-overview"></a>Yfirlit fyrir upplýsingasíðu afurða
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði inniheldur yfirlit yfir upplýsingasíður afurða í Microsoft Dynamics 365 Commerce.
+Þessi grein veitir yfirlit yfir vöruupplýsingasíður (PDP) í Microsoft Dynamics 365 Commerce.
 
 PDP veitir nákvæmar upplýsingar um afurð og gerir viðskiptavinum kleift að velja afurðakosti eins og stærð, stíl og lit. PDP ætti að sýna allar vöruupplýsingar sem viðskiptavinur þarfnast til að taka ákvörðun um kaup.
 
@@ -35,9 +35,9 @@ Eftirfarandi skýringarmynd sýnir dæmi um PDP.
 
 ## <a name="header-and-footer-modules"></a>Einingar síðuhauss og síðufótar
 
-Efst á PDP er haus sem sýnir alla vöruflokka og aðrar síður sem smásalinn vill að viðskiptavinir skoði. Neðst á síðunni er síðufótur sem inniheldur fljótlega tengla á ýmis efni sem kaupendur gætu haft áhuga á.
+Efst á PDP er haus sem sýnir alla vöruflokka og aðrar síður sem smásalinn vill að viðskiptavinir skoði. Neðst á síðunni er fótur sem inniheldur fljótlega tengla á ýmsar greinar sem gætu vakið áhuga viðskiptavina.
 
-## <a name="buy-box-module"></a>Kaupgluggaeining
+## <a name="buy-box-module"></a>Kaupkassaeining
 
 Mikilvægasta einingin á PDP er kaupboxeiningin, sem birtist sem fyrsta atriðið í aðalhluta síðunnar. Eining innkaupakassa sýnir mikilvægar vöruupplýsingar, svo sem vöruheiti, vörulýsingu, vöruverð, afurðamyndir og vörueinkunn.
 

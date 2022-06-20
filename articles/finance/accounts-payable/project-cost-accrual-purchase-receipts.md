@@ -1,6 +1,6 @@
 ---
-title: Uppsöfnun á kostnaði verks á innkaupapöntunum
-description: Þetta efnisatriði lýsir því hvernig hægt er að rekja uppsafnaðan verkkostnað frá innkaupakvittunum Microsoft Dynamics 365 Fjármál.
+title: Uppsöfnun kostnaðar verks á innkaupakvittunum
+description: Þessi grein lýsir því hvernig hægt er að rekja uppsafnaðan verkkostnað frá innkaupakvittunum Microsoft Dynamics 365 Fjármál.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e435002bca8fd4deb58c16c50db55237a3e9053
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: a138fd41269fad2e9ac489664ca81c3ee12f830d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735111"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856858"
 ---
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Uppsöfnun kostnaðar verks á innkaupakvittunum
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig hægt er að rekja uppsafnaðan verkkostnað frá innkaupakvittunum Microsoft Dynamics 365 Fjármál. 
+Þessi grein lýsir því hvernig hægt er að rekja uppsafnaðan verkkostnað frá innkaupakvittunum Microsoft Dynamics 365 Fjármál. 
 
 Reikningar fyrir verk berast oft síðar en vörur og þjónusta eru afhent, sem kann að hafa töluverð áhrif á afkastavísa verkefna (Afkastavísa). Mikilvægt er að það sé hægt að rekja þessar færslur í bæði fjárhags- og verkefnaskýrslum.
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 508723752ec7ae5f48e52c728b6ef526ec49e4e2
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f1e6932740c33ae418ac633623680eda6af7a592
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858525"
 ---
 # <a name="collections-management-key-concepts"></a>Lykilhugtök innheimtustýringar
 
@@ -34,7 +34,7 @@ ms.locfileid: "8723024"
 - Afskriftafærslur er hægt að stofna í einu þrepi.
 - Innistæðulausar (NSF) greiðslur er hægt að vinna í einu þrepi.
 
-Þetta efni lýsir hverju hugtaki.
+Þessi grein lýsir hverju hugtaki.
 
 ## <a name="customer-aging-snapshots"></a>Aldursgreiningarmynd viðskiptavinar
 
@@ -86,7 +86,7 @@ Aðgerðaglugginn inniheldur hnappa sem sýna þér tengdar upplýsingar fyrir v
 
 Hægt er að fella niður, endurskipa eða bakfæra heilar vaxtanótur eða þóknanir og vexti á færslur sem eru hluti af vaxtanótum. Á flipanum **Innheimta** í aðgerðaglugganum á listasíðunni **Allir viðskiptavinir** velurðu **Vaxtanótu**, **Færsluvextir** eða **Þóknanir**.
 
-Þessar leiðréttingar hafa aðeins áhrif á vaxtanótur, og vexti og gjöld sem þær hafa. Upplýsingar um hvernig á að afskrifa öll gjöld sem viðskiptavinur skuldar er að finna í hlutanum [Stofnun á afskriftarfærslum](#creating-write-off-transactions) í þessu efni.
+Þessar leiðréttingar hafa aðeins áhrif á vaxtanótur, og vexti og gjöld sem þær hafa. Fyrir upplýsingar um hvernig á að afskrifa öll gjöld sem viðskiptavinur skuldar, sjá [Að búa til afskriftarfærslur](#creating-write-off-transactions) kafla þessarar greinar.
 
 Frekari upplýsingar, sjá Stofna vaxtakóða með sviði og Reikna vexti.
 

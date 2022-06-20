@@ -1,6 +1,6 @@
 ---
 title: Óreikningsfærðar tekjur
-description: Þetta efnisatriði útskýrir hvernig á að setja upp vörur og reikninga til að nota óinnheimtu teknaeiginleikann í áskriftarinnheimtu.
+description: Þessi grein útskýrir hvernig á að setja upp vörur og reikninga til að nota óinnheimtu teknaeiginleikann í innheimtu áskriftar.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a70786291822a85ec41c98ab8ce706f2ad79b08d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b3fe58fc06df3f61433c8457b337ae895283e12b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691246"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879683"
 ---
 # <a name="unbilled-revenue"></a>Óreikningsfærðar tekjur
 
-Þetta efnisatriði lýsir óinnheimtu teknaeiginleikanum sem gerir þér kleift að taka með upphæðir fyrir heilar innheimtuáætlanir á efnahagsreikninginn. Þessar upphæðir eru innifaldar á óinnheimtu tekjureikningi og óinnheimtu tekjujöfnunarreikningi og samningurinn er innheimtur með raðgreiðslum.
+Þessi grein lýsir óinnheimtu teknaeiginleikanum sem gerir þér kleift að taka með upphæðir fyrir heilar innheimtuáætlanir á efnahagsreikninginn. Þessar upphæðir eru innifaldar á óinnheimtu tekjureikningi og óinnheimtu tekjujöfnunarreikningi og samningurinn er innheimtur með raðgreiðslum.
 
 ## <a name="set-up-unbilled-revenue"></a>Settu upp óinnheimtar tekjur
 
@@ -94,7 +94,7 @@ Til að nota óinnheimtaðar tekjur með beinni frestunaráætlun skaltu fylgja 
 
 ### <a name="unbilled-revenue-with-event-based-deferrals"></a>Óinnheimtar tekjur með frestun sem byggist á viðburðum
 
-Fylgdu þessum skrefum til að nota óinnheimtar tekjur með frestunaráætlanir sem byggjast á atburðum.
+Fylgdu þessum skrefum til að nota óinnheimtar tekjur með frestunaráætlanir sem byggjast á viðburðum.
 
 1. Á **Allar innheimtuáætlanir** síðu, búðu til innheimtuáætlun.
 2. Bættu hlut við innheimtuáætlunarlínurnar.
@@ -143,7 +143,7 @@ Frá og með útgáfu 10.0.27 er nýr reikningur tekinn upp þegar óinnheimtar 
 
 #### <a name="steps"></a>Skref
 
-1. Settu út vörurnar tvær sem óinnheimtar vörur. Nota **Uppsetning óinnheimtutekna** síðu til að setja upp þá hluti og reikninga sem nota óinnheimtar tekjur.
+1. Setjið út vörurnar tvær sem óinnheimtar vörur. Nota **Uppsetning óinnheimtutekna** síðu til að setja upp þá hluti og reikninga sem nota óinnheimtar tekjur.
 2. Í þessu dæmi er viðhaldsgjaldinu frestað. Hluturinn krefst frestunarsniðmáts, sem er sett upp á **Frestun sniðmát** síðu. Sniðmátið hefur a **Mánaðarlega** tímabilstíðni og viðurkenningartímabilslengd 36 mánuðir. Þess vegna eru tekjur á mánuði $2.50.
 3. Á **Hlutum frestað sjálfgefið** síðu, stilltu **Viðhaldsgjald** sviði til **Frestunarhæfur hlutur**. Þetta skref og það næsta mun valda því að viðhaldsgjaldshluturinn verður frestað þegar hann er seldur eða innifalinn í innheimtuáætlun.
 4. Veldu **Frestun vanskil** \> **Sniðmát**, og bættu við hlutnum fyrir viðhaldsgjaldið og beinlínusniðmátinu frá skrefi 2. Liðurinn viðhaldsgjald verður tengdur 36 mánaða frestunaráætlun.
@@ -288,7 +288,7 @@ Eftirfarandi tafla sýnir upphaflega færslubók fyrir vörurnar og reikninginn.
 
 Til dæmis er einingaverði fyrir vöru 1000 breytt úr $1,500 í $1,600. Í þessu tilviki er upphæð samningstekna sjálfkrafa endurreiknuð sem $1,549.47. Samningstekjur fyrir lið S0021 eru endurreiknaðar sem $290.53.
 
-Þegar breytingin er staðfest og framkvæmd, er upphafsfærslubókarfærslum fyrir báðar færslur bakfærðar og nýjar færslubókarfærslur eru búnar til:
+Þegar breytingin er staðfest og framkölluð, er upphafsfærslubókarfærslum fyrir báðar færslur bakfærðar og nýjar færslubókarfærslur eru búnar til:
 
 - **Atriði 1000:** Upprunalegri dagbókarfærslu $1,465.26 er snúið við. Ný dagbókarfærsla fyrir $1,549.47 er búin til.
 - **Liður S0021:** Upprunalegri dagbókarfærslu $274.74 er snúið við. Ný dagbókarfærsla fyrir $290.53 er búin til.
@@ -300,7 +300,7 @@ Hlutur S0021 hefur upphafsdag í janúar 2020 og lokadagsetningu í desember 202
 - **Atriði 1000:** Samningstekjurnar eru endurreiknaðar sem $1,567.67.
 - **Liður S0021:** Samningstekjurnar eru endurreiknaðar sem $124.00.
 
-Leiðréttingarbókarfærsla er búin til fyrir línuna sem er hætt. Dagbókarfærslunni fyrir línuna sem tilheyrir sömu MEA-númerinu (multiple element arrangement) er snúið við og ný færslubók er búin til:
+Leiðréttingarbókarfærsla er búin til fyrir línuna sem er hætt. Dagbókarfærslunni fyrir línuna sem tilheyrir sama MEA-númeri (multiple element arrangement) er snúið við og ný dagbókarfærsla er búin til:
 
 - **Atriði 1000:** Upprunalegri dagbókarfærslu $1,465.26 er snúið við. Leiðréttingarbókarfærsla fyrir $1,549.47 er búin til.
 - **Liður S0021:** Upprunalegri dagbókarfærslu $274.74 er snúið við. Ný dagbókarfærsla fyrir $124.00 er búin til.

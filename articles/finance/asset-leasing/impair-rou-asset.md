@@ -1,6 +1,6 @@
 ---
 title: Draga úr afnotarétti af eignum
-description: Þetta efnisatriði lýsir virkninni sem skráir vi og leiðréttir afskriftaráætlun eigna fyrir efnisatriði um skráningarkerfi reikningsskilastaðla 842 (ASC 842) rekstrarleigusamninga.
+description: Þessi grein lýsir virkninni sem skráir virðisrýrnun og aðlagar afskriftaáætlun eigna í rekstrarleigusamningi reikningsskilastaðla Codification Topic 842 (ASC 842).
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 497739e56c6ce0f4fe0bd4aec889f0782d08fc4a
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f953b3a351859c6becba10a129bbb17b49be6290
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720168"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894114"
 ---
 # <a name="impair-right-of-use-assets"></a>Draga úr afnotarétti af eignum
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Þegar bókfært verð afnotaréttar af eign er ekki endurheimtanlegt verður hugsanlega að prófa hvort virðisrýrnun verði á eigninni. Þegar ákvarðað er að virðisrýrnun verði á eigninni getur eignarleiga skráð virðisrýrnun og leiðrétt afskriftaráætlunina samkvæmt því. Þetta efnisatriði lýsir virkninni sem skráir virðisrýrnun og leiðréttir afskriftaráætlun fyrir efnisatriði um skráningarkerfi reikningsskilastaðla 842 (ASC 842) rekstrarleigusamninga. Sama aðferð gildir einnig fyrir leigusamning samkvæmt alþjóðlegum reikningsskilastaðli 16 (IFRS 16).
+Þegar bókfært verð afnotaréttar af eign er ekki endurheimtanlegt verður hugsanlega að prófa hvort virðisrýrnun verði á eigninni. Þegar ákvarðað er að virðisrýrnun verði á eigninni getur eignarleiga skráð virðisrýrnun og leiðrétt afskriftaráætlunina samkvæmt því. Þessi grein lýsir virkninni sem skráir virðisrýrnunina og aðlagar afskriftaáætlun rekstrarleigusamnings reikningsskilastaðla Codification Topic 842 (ASC 842). Sama aðferð gildir einnig fyrir leigusamning samkvæmt alþjóðlegum reikningsskilastaðli 16 (IFRS 16).
 
 Eftirstöðvar afnotaréttar af eign verða afskrifaðar á samkvæmt línulegri aðferð fyrir fjölda tímabila sem eftir eru, óháð því hvort leigusamningurinn var flokkaður sem fjármögnunarleigusamningur samkvæmt IFRS 16 eða rekstrarleigusamningur samkvæmt ASC 842.
 
@@ -83,7 +83,7 @@ Eftirfarandi töflur sýna gildin sem eru stillt á flipunum **Almennt** og **Gr
 
 ### <a name="steps"></a>Skref
 
-1. Þegar lokið er við að stofna leigusamninginn eins og lýst er fyrr í þessu efnisatriði er leigubókin opnuð og greiðsluáætlunin staðfest. Bókið síðan upphaflegu skráninguna í færslubókina. Upphaflegur afnotaréttur af eign og leiguskuldbinding ættu að vera 70.235,81 USD. Í þessu dæmi var leigusamningurinn flokkaður sem rekstrarleiga samkvæmt ASC 842.
+1. Eftir að þú hefur búið til leigusamninginn eins og lýst er fyrr í þessari grein skaltu fara í leigubókina og staðfesta greiðsluáætlunina. Bókið síðan upphaflegu skráninguna í færslubókina. Upphaflegur afnotaréttur af eign og leiguskuldbinding ættu að vera 70.235,81 USD. Í þessu dæmi var leigusamningurinn flokkaður sem rekstrarleiga samkvæmt ASC 842.
 2. Keyrið runubókarferlið þrisvar sinnum til að herma eftir framrás þriggja ára vegna leigugreiðslna, vaxtakostnaðar og afskriftarkostnaðar.
 3. Þegar keyrslu allra þriggja runuvinnslanna er lokið skal opna leigubókina að nýju og opna síðan töflur skulda og eignarfærslna til að skoða núverandi bókfært virði afnotaréttar af eign og leiguskuldbindingar. Eftir þrjú ár ætti virði skuldarinnar að vera um -53.893,00 USD og virði eignarinnar að vera u.þ.b. 53.893,00 USD. 
 

@@ -1,6 +1,6 @@
 ---
-title: Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða
-description: Þetta efnisatriði útskýrir hvernig valkostir fyrir svæðið Útreikningsaðferðir hafa áhrif á virðisaukaskattskóða og hvernig virðisaukaskattur er reiknaður fyrir tímabil og fullar upphæðir.
+title: Útreikningsaðferð heildarupphæðar og tímabils fyrir vsk-kóða
+description: Þessi grein útskýrir hvernig valkostir fyrir svæðið Útreikningsaðferðir hafa áhrif á virðisaukaskattskóða og hvernig virðisaukaskattur er reiknaður fyrir tímabil og fullar upphæðir.
 author: kailiang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f06c92f2151f54a7d9b684b9687b786d1e4cd7a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5b02a0ced8b556cfc5a984d24ceaf982629fd69c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874462"
 ---
-# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða
+# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Útreikningsaðferð heildarupphæðar og tímabils fyrir vsk-kóða
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig valkostir fyrir svæðið **Útreikningsaðferðir** hafa áhrif á virðisaukaskattskóða og hvernig virðisaukaskattur er reiknaður fyrir tímabil og fullar upphæðir.
+Þessi grein útskýrir valkostina fyrir **Reikniaðferð** reit um vsk-kóða og hvernig söluskattur er reiknaður fyrir millibili og heilar upphæðir.
 
 Hægt er að setja upp vsk-kóða til að reikna út byggt á heildarupphæð eða tímabilsupphæð. Á síðunni **VSK-kóðar** skal nota reitinn **Útreikningsaðferð** á flýtiflipanum **Útreikningur** til að velja reikningsaðferðina fyrir VSK-kóða.
 - Heildarupphæð – Skatthlutfall er notað fyrir alla skattskyldu upphæðina.

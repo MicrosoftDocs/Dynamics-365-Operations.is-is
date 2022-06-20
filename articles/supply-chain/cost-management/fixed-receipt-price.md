@@ -1,6 +1,6 @@
 ---
 title: Fast kostnaðarverð
-description: Þetta efni útskýrir hvernig þú getur stillt og notað föst kvittunarverð í Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein útskýrir hvernig þú getur stillt og notað föst kvittunarverð í Microsoft Dynamics 365 Supply Chain Management.
 author: raprofit
 ms.date: 04/25/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-04-25
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 8e26d84ddc309249d8bd6e54987ad3ae8eed68f0
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
-ms.translationtype: MT
+ms.openlocfilehash: 2630952f395d1a18202698b4d73b67ef4b760194
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770338"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907581"
 ---
 # <a name="fixed-receipt-price"></a>Fast kostnaðarverð
 
 [!include [banner](../includes/banner.md)]
 
-**Fast kvittunarverð** er valkostur sem þú getur valið á vörulíkanflokki þegar þú notar annað birgðalíkan en *Staðalkostnaður* eða *Vegið meðaltal á hreyfingu*. Í fyrstu útgáfum af Microsoft Dynamics AX, var þessi valkostur nefndur **Staðalkostnaður**. Það var endurnefnt **Fast kvittunarverð** þegar nýja staðalkostnaðarbirgðalíkanið var kynnt í Dynamics AX 2012. Þetta efni útskýrir hvernig þú getur stillt og notað föst kvittunarverð í Dynamics 365 Supply Chain Management.
+**Fast kvittunarverð** er valkostur sem þú getur valið á vörulíkanaflokki þegar þú notar annað birgðalíkan en *Staðalkostnaður* eða *Vegið meðaltal á hreyfingu*. Í fyrstu útgáfum af Microsoft Dynamics AX, var þessi valkostur nefndur **Staðalkostnaður**. Það var endurnefnt **Fast kvittunarverð** þegar nýja staðalkostnaðarbirgðalíkanið var kynnt í Dynamics AX 2012. Þessi grein útskýrir hvernig þú getur stillt og notað föst kvittunarverð í Dynamics 365 Supply Chain Management.
 
 ## <a name="about-fixed-receipt-prices"></a>Um föst kvittunarverð
 
@@ -52,14 +52,14 @@ Eftir að þú hefur virkjað **Fast kvittunarverð** valkostur, verður þú a�
 1. Opnið **Birgðastjórnun \> Uppsetning \> Bókun \> Bókun**.
 1. Á **Pöntun** flipa, í **Veldu** dálk, veldu **Fastur kvittunarverð hagnaður**.
 1. Á aðgerðasvæðinu skal velja **Ný** til að bæta línu við hnitanetið.
-1. Settu upp nýju línuna þannig að hún eigi við vörulíkanaflokkinn sem þú virkjaðir fasta innhreyfingarverðlagningu fyrir og tilgreindu aðalreikninginn sem er notaður til að skrá fasta innhreyfingarverðshagnað fyrir innkaupapantanir. Stilltu aðrar stillingar eftir þörfum.
-1. Í **Veldu** dálk, veldu **Fast verðtap kvittunar**. Bættu við nýrri línu sem á við vörulíkanaflokkinn sem þú virkjaðir fasta innhreyfingarverðlagningu fyrir og tilgreindu aðalreikninginn sem er notaður til að skrá fast innhreyfingarverðtap fyrir innkaupapantanir. Stilltu aðrar stillingar eftir þörfum.
-1. Í **Veldu** dálk, veldu **Föst kvittun verðjöfnun**. Bættu við nýrri línu sem á við vörulíkanaflokkinn sem þú virkjaðir fasta innhreyfingarverðlagningu fyrir og tilgreindu aðalreikninginn sem er notaður til að skrá fasta móttökuverðsjöfnun fyrir innkaupapantanir. Stilltu aðrar stillingar eftir þörfum.
-1. Á **Birgðir** flipa, í **Veldu** dálk, veldu **Fastur kvittunarverð hagnaður**. Bættu við nýrri línu sem á við vörulíkanaflokkinn sem þú virkjaðir fasta innhreyfingarverðlagningu fyrir, og tilgreindu aðalreikninginn sem er notaður til að skrá fasta innhreyfingarverðshagnað fyrir birgðahald. Stilltu aðrar stillingar eftir þörfum.
-1. Í **Veldu** dálk, veldu **Fast verðtap kvittunar**. Bættu við nýrri línu sem á við vörulíkanaflokkinn sem þú virkjaðir fasta innhreyfingarverðlagningu fyrir og tilgreindu aðalreikninginn sem er notaður til að skrá fast innhreyfingarverðtap fyrir birgðahald. Stilltu aðrar stillingar eftir þörfum.
+1. Settu upp nýju línuna þannig að hún eigi við vörulíkanaflokkinn sem þú virkjaðir fasta innhreyfingarverðlagningu fyrir og tilgreindu aðalreikninginn sem er notaður til að skrá fasta innhreyfingarverðshagnað fyrir innkaupapantanir. Stilltu aðrar stillingar eins og þú þarft.
+1. Í **Veldu** dálk, veldu **Fast verðtap kvittunar**. Bættu við nýrri línu sem á við vörulíkanaflokkinn sem þú virkjaðir fasta innhreyfingarverðlagningu fyrir og tilgreindu aðalreikninginn sem er notaður til að skrá fast innhreyfingarverðtap fyrir innkaupapantanir. Stilltu aðrar stillingar eins og þú þarft.
+1. Í **Veldu** dálk, veldu **Föst kvittunarverð á móti**. Bættu við nýrri línu sem á við vörulíkanaflokkinn sem þú virkjaðir fasta innhreyfingarverðlagningu fyrir og tilgreindu aðalreikninginn sem er notaður til að skrá fasta móttökuverðsjöfnun fyrir innkaupapantanir. Stilltu aðrar stillingar eins og þú þarft.
+1. Á **Birgðir** flipa, í **Veldu** dálk, veldu **Fastur kvittunarverð hagnaður**. Bættu við nýrri línu sem á við vörulíkanaflokkinn sem þú virkjaðir fasta innhreyfingarverðlagningu fyrir, og tilgreindu aðalreikninginn sem er notaður til að skrá fasta innhreyfingarverðshagnað fyrir birgðahald. Stilltu aðrar stillingar eins og þú þarft.
+1. Í **Veldu** dálk, veldu **Fast verðtap kvittunar**. Bættu við nýrri línu sem á við vörulíkanaflokkinn sem þú virkjaðir fasta innhreyfingarverðlagningu fyrir og tilgreindu aðalreikninginn sem er notaður til að skrá fast innhreyfingarverðtap fyrir birgðahald. Stilltu aðrar stillingar eins og þú þarft.
 
 > [!NOTE]
 > Við mælum venjulega með því að **Fastur kvittunarverð hagnaður** og **Fast verðtap kvittunar** reitirnir nota sama aðalreikninginn fyrir bæði innkaupapantanir og birgðir.
 
 > [!IMPORTANT]
-> Þegar þú breytir gildinu í **Verð** sviði á **Stjórna kostnaði** Flýtiflipi á **Útgefnar vörur** síðu endurmetur kerfið ekki sjálfkrafa þær birgðir sem eru til staðar. Sem handvirk lausn skaltu opna **Lokun og aðlögun** síðu og veldu **Aðlögun \> Á hendi** á aðgerðasvæðinu. Veldu síðan hlutina sem eru til staðar og stilltu þá að núverandi verði. Einn skýr kostur við að nota staðlaða kostnaðarbirgðalíkanið er að það veldur því að kerfið endurmetur sjálfkrafa á lager.
+> Þegar þú breytir gildinu í **Verð** sviði á **Stjórna kostnaði** Flýtiflipi á **Útgefnar vörur** síðu endurmetur kerfið ekki sjálfkrafa þær birgðir sem eru til staðar. Sem handvirk lausn skaltu opna **Lokun og aðlögun** síðu og veldu **Aðlögun \> Á hendi** á aðgerðasvæðinu. Veldu síðan þá hluti sem eru til staðar og stilltu þá að núverandi verði. Einn skýr kostur við að nota staðlaða kostnaðarbirgðalíkanið er að það veldur því að kerfið endurmetur sjálfkrafa á lager.

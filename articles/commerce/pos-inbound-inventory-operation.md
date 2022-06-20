@@ -1,6 +1,6 @@
 ---
-title: Innleið birgðaaðgerð í POS
-description: Þetta efni lýsir getu sölustaðar (POS) á heimleið birgðaaðgerð.
+title: Birgðaaðgerð á innleið á sölustað
+description: Þessi grein lýsir getu sölustaðarins (POS) birgðaaðgerða á innleið.
 author: hhaines
 ms.date: 09/17/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741783"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858883"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Birgðaaðgerð á innleið á sölustað
 
@@ -215,7 +215,7 @@ Eftir að drögum að skjali hefur verið skilað til Commerce Headquarters birt
 
 Þegar skjalið er komið í stöðuna **Umbeðið** er það sýnilegt á flipnum **Virkt**. Hins vegar er ekki enn hægt að taka á móti því í verslun eða vöruhús á innleið. Þegar vöruhús á útleið hefur sent hluta eða alla flutningspöntunina getur verslunin eða vöruhúsið á innleið bókað innhreyfingar í POS. Þegar útleiðarhliðin keyrir flutningspöntunargögnin er staða þeirra uppfærð úr **Umbeðið** á **Sent** eða **Sent að hluta**. Þegar skjölin eru komin í stöðuna **Sent** eða **Afhent að hluta** getur verslun eða vöruhús á innleið sent kvittanir á móti þeim með því að nota móttökuferli aðgerðar á innleið.
 
-## <a name="related-topics"></a>Tengd efnisatriði
+## <a name="related-articles"></a>Tengdar greinar
 
 [Birgðaaðgerð á útleið á sölustað](pos-outbound-inventory-operation.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Skráningarsnið
-description: Þetta efni veitir yfirlit yfir birgðafærslusnið.
+description: Þessi grein veitir yfirlit yfir birgðafærslusnið.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28e3a3051978f921e01a929496e96909e6c32429
-ms.sourcegitcommit: 00b39900d3cbdbc9ca1ab3145265007f5dc98a3f
+ms.openlocfilehash: cae5b39ef8e6e153fe522dee1874deae2a2cb86e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8806387"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901343"
 ---
 # <a name="inventory-posting-profiles"></a>Skráningarsnið
 
@@ -81,7 +81,7 @@ The **Birgðaviðskipti** síða inniheldur eftirfarandi reiti.
 | Vörunúmer      | Vörunúmerið sem tengist viðskiptunum.                                                                  |
 | Efnisleg dagsetning    | Dagsetningin sem birgðahaldið kemur í vöruhúsið, fer úr vöruhúsinu, er notað í framleiðslu eða framleitt. Til dæmis, birtingardagsetning á
 Bókun fylgiseðils fyrir sölupöntun eða vörukvittunarbókun fyrir innkaupapöntun.                             |
-| Fjárhagsdagsetning   | Dagsetningin sem birgðafærslunni er lokað og kostnaðurinn er skráður í fjárhag. Til dæmis bókunardagsetningin á reikningnum 
+| Fjárhagsdagsetning   | Dagsetningin sem birgðafærslunni er lokað og kostnaðurinn er skráður í fjárhag. Til dæmis, bókunardagsetningin á reikningnum 
 Kynslóð fyrir sölu- eða innkaupapöntun. Uppfærslur á tilvísunarskjalinu eru ekki leyfðar eftir að fjárhagsdagsetning er fyllt út. |
 | Tilvísun        | Gefur til kynna uppruna færslunnar og tegund skjals sem birtist í **Númer** sviði. Til dæmis sölupöntun, innkaupapöntun eða kvittun fyrir flutningspöntun.                                                 |
 | Númer           | Gefur tilvísunarauðkenni fyrir færslu. Til dæmis, ef **Tilvísun** reiturinn sýnir sölupöntun, sem **Númer** reiturinn sýnir sölupöntunarnúmerið.                                                       |
@@ -106,7 +106,7 @@ Eftirfarandi tafla lýsir **Kvittun** stöðu.
 | Raðað            | Upphafsstaða hvers kyns birgðafærslu sem táknar kvittun. Þetta felur í sér innkaupapantanir með jákvætt magn, framleiðslupantanir eða sölupöntunarskil með neikvætt magn.                                                   |
 | Skráð         | Þessi staða er notuð þegar tveggja þrepa móttökuferli er til staðar eða þegar vörukoma er notuð til að gefa til kynna að vara sé komin. Það er notað þegar lotu- eða raðnúmerum er „úthlutað“ eða skráð á pöntunina. Fyrir frekari upplýsingar um komu vöru, farðu á [Yfirlit um komu](/supply-chain/inventory/arrival-overview.md). |
 | Móttekið           | Þessi staða er notuð þegar færslan er líkamlega uppfærð. Fyrir innkaupapöntun er þetta þegar vörukvittun er bókuð. Fyrir skil á sölupöntun er þetta þegar fylgiseðillinn er bókaður.                                                                            |
-| Keypt          | Þessi staða er notuð þegar færslan er fjárhagslega uppfærð. Fyrir innkaupapöntun eða skilapöntun sölupöntunar er þetta þegar reikningurinn er búinn til.                                                                                             |
+| Keypt          | Þessi staða er notuð þegar færslan er fjárhagslega uppfærð. Fyrir innkaupapöntun eða skilapöntun er þetta þegar reikningurinn er búinn til.                                                                                             |
 
 ### <a name="issue-status"></a>Staða úthreyfingar
 
@@ -129,7 +129,7 @@ Til að stilla birgðafærslusnið skaltu fylgja þessum skrefum:
 
 1.  Opið **Vörustjórnun** > **Uppsetning** > **Birting** > **Birting**.
 2.  Veldu flipann fyrir tegund viðskipta. Til dæmis, veldu **Pöntun**.
-3.  Veldu valhnappinn fyrir færslugerðina. Til dæmis, veldu **Kaup útgjöld fyrir kostnað**.
+3.  Veldu valhnappinn fyrir gerð færslunnar. Til dæmis, veldu **Kaup útgjöld fyrir kostnað**.
 4.  Veljið **Nýtt**.
 5.  Í **Vörukóði** reit, veldu valkost fyrir **Tafla**, **·**, **·**, eða **Flokkur**. Til dæmis, til að stilla færslusnið fyrir tiltekinn vöruflokk, veldu **Hópur**.
      - Ef þú valdir **Tafla** í skrefi 5, veldu tiltekið vörunúmer fyrir færslusniðið í **Atriðatengsl** sviði.
@@ -142,8 +142,8 @@ Til að stilla birgðafærslusnið skaltu fylgja þessum skrefum:
      - Ef þú valdir **Hópur** í skrefi 5, veldu lánardrottnahópinn fyrir bókunarsniðið í **Reikningstengsl** sviði.
      - Ef þú valdir **Allt** í skrefi 5, sem **Reikningstengsl** reiturinn verður auður.
 
-7.  Til að tengja tiltekinn skattflokk sem hefur valda bókunargerð skaltu velja a **Vöruskattshópur**. Ef þessi reitur er auður gildir bókunargerðin fyrir alla skattaflokka sem fyrir eru. Bókun sem er tilgreind fyrir skattflokka á aðeins við um sölu- og innkaupafærslur.
-8.  Tilgreindu reikningsnúmerið til að bóka reikningsgerðina á **Aðalreikningur** sviði. Ef reikningsnúmer hefur ekki verið búið til til að nota sem bókhaldsgerð geturðu búið til nýjan reikning. Þú býrð til nýjan reikning í **Aðalreikningsupplýsingar** síðu í aðalbók.
+7.  Til að tengja tiltekinn skattflokk sem hefur valda bókunargerð, veldu a **Vöruskattshópur**. Ef þessi reitur er auður gildir bókunargerðin fyrir alla skattaflokka sem fyrir eru. Bókun sem er tilgreind fyrir skattflokka á aðeins við um sölu- og innkaupafærslur.
+8.  Tilgreindu reikningsnúmerið til að bóka reikningsgerðina á **Aðalreikningur** sviði. Ef reikningsnúmer hefur ekki verið búið til til að nota sem bókhaldstegund geturðu búið til nýjan reikning. Þú býrð til nýjan reikning í **Aðalreikningsupplýsingar** síðu í aðalbók.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

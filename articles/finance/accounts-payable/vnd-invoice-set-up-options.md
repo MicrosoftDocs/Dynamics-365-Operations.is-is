@@ -1,6 +1,6 @@
 ---
 title: Uppsetningarvalkostir fyrir sjálfvirkni reiknings lánardrottins (forskoðun)
-description: Í þessu efnisatriði er lýst valkostunum sem eru tiltækir til að setja upp og skilgreina sjálfvirkni reikninga lánardrottins.
+description: Þessi grein lýsir þeim valkostum sem eru tiltækir til að setja upp og stilla sjálfvirkni reiknings lánardrottins.
 author: sunfzam
 ms.date: 02/14/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c1dc443e4225a3ffc6b88cedf7add396a66ec25d
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86ad68b3dc08bf2c57ab5f9bc6c65bc37c0901e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182439"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874842"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Uppsetningarvalkostir fyrir sjálfvirkni reiknings lánardrottins
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er lýst valkostunum sem eru tiltækir til að setja upp og skilgreina sjálfvirkni reikninga lánardrottins. Eiginleikar fyrir sjálfvirkni reiknings nota eftirfarandi gerðir af færibreytum uppsetningar:
+Þessi grein lýsir þeim valkostum sem eru tiltækir til að setja upp og stilla sjálfvirkni reiknings lánardrottins. Eiginleikar fyrir sjálfvirkni reiknings nota eftirfarandi gerðir af færibreytum uppsetningar:
 
 - Færibreytur fyrir að sjálfkrafa nota fyrirframgreiðslur í innfluttum reikningum.
 - Færibreytur fyrir innsendingu reikninga lánardrottins í verkflæðiskerfið og jafna bókaðar innhreyfingarlínur afurða við reikningslínur lánardrottins í bið.
@@ -55,7 +55,7 @@ Eftirfarandi færibreytur eru tiltækar:
 
 - **Jafna innhreyfingarskjöl afurða við reikningslínur áður en sent er inn sjálfkrafa** - Ef þessi valkostur er stilltur á **Já**, er ekki hægt að senda innfluttan reikning sjálfkrafa í verkflæðiskerfið fyrr en jafnað magn innhreyfingarskjals samsvarar reikningsmagninu. Með því að stilla þenna valkost á **Já** er virkjuð sjálfvirk jöfnun á bókuðu innhreyfingarskjali við reikningslínur sem þríhliða jöfnunarregla er skilgreind fyrir. Þetta ferli keyrir þangað til magn jafnaðs innhreyfingarskjals afurðar jafngildir magni reiknings. Á þeim tímapunkti er reikningur sjálfkrafa sendur í verkflæðiskerfið.
 
-    The **Passaðu vörukvittanir við reikningslínur áður en þær eru sendar sjálfkrafa** valkostur er aðeins í boði ef **Virkja reikningssamsvörun** valkostur er valinn. Þegar þessi valkostur er valinn mun valkosturinn **Jafna sjálfkrafa innhreyfingarskjöl afurða við reikningslínur** verða valinn sjálfkrafa.
+    The **Passaðu vörukvittanir við reikningslínur áður en þær eru sendar sjálfkrafa** valkosturinn er aðeins í boði ef **Virkja reikningssamsvörun** valkostur er valinn. Þegar þessi valkostur er valinn mun valkosturinn **Jafna sjálfkrafa innhreyfingarskjöl afurða við reikningslínur** verða valinn sjálfkrafa.
 
 - **Krefjast þess að útreiknaðar samtölur jafngildi innfluttum samtölum fyrir sjálfvirkri innsendingu í verkflæði** - Ef þessi valkostur er stilltur á **Já**, er ekki hægt að senda reikninginn sjálfkrafa inn í verkflæðiskerfið fyrr en samtölurnar sem eru reiknaðar fyrir reikninginn jafngilda innfluttum samtölum. Ef þessi valkostur er stilltur á **Nei**, er sjálfkrafa hægt að senda reikninginn í verkflæðiskerfið, en ekki er hægt að bóka hann fyrr en útreiknaðar samtölur eru leiðréttar þannig að þær stemmi við innfluttar samtölur. Ef reikningsupphæðin eða upphæð virðisaukaskatts er ekki flutt inn, á að stilla þennan valkost á **Nei**.
 - **Jafna sjálfkrafa innhreyfingarskjöl afurða við reikningslínur** - Ef þessi valkostur er stilltur á **Já**, verður hægt að nota bakgrunnsvinnslur til að gera sjálfvirka jöfnun á bókuðum innhreyfingarskjölum við reikningslínur sem þríhliða jöfnunarregla er skilgreind fyrir. Þetta ferli keyrir þangað til magn jafnaðs innhreyfingarskjals afurðar jafngildir magni reiknings, eða þar til gildinu í reitnum **Fjöldi skipta sem á að reyna sjálfvirka jöfnun** er náð. Hægt er að keyra ferlið þar til reikningur hefur verið sendur inn í verkflæðiskerfið.

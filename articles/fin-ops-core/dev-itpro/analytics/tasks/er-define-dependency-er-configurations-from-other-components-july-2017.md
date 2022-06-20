@@ -1,6 +1,6 @@
 ---
 title: Skilgreina hversu mikil áhrif skilgreiningar rafrænnar skýrslugerðar hafa á aðra hluta
-description: Í þessu efnisatriði er útskýrt hvernig á að hanna skilgreiningu rafrænnar skýrslugerðar og tilgreina sjálfstæði hennar frá öðrum hugbúnaðarþáttum.
+description: Þessi grein lýsir því hvernig á að hanna rafræna skýrslugerð (ER) stillingar og tilgreina háð hennar frá öðrum hugbúnaðarhlutum.
 author: NickSelin
 ms.date: 07/23/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 525e9be1655bdf0c0328ec53509ab1966abd7bde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717595"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883569"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Skilgreina hversu mikil áhrif skilgreiningar rafrænnar skýrslugerðar hafa á aðra hluta
 
@@ -46,7 +46,7 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefn
 7. Velja Microsoft Dynamics 365 for Operations (1611).
 8. Í reitinn Útgáfa skal slá inn „[7.1.1541.3036,8)“.
     * [7.1.1541.3036,8)  
-    * Fylgni sem þú færir inn verður metin þegar þessi grunnstilling er hlaðið niður frá einhverri Rafræn skýrslugerð geymslu. Þessi útgáfa grunnstillingu verður halað niður frá Rafræn skýrslugerð geymslu þegar útgáfa 1 af „Sýnigagnalíkani“ grunnstillingu er annað hvort þegar til staðar eða fyrirfram hlaðið niður. Ef henni er fyrirfram hlaðið niður, verður að ljúka því í Finance and Operations, útgáfu 7.1.1541.3036 eða nýrri, en má ekki fara fram úr útgáfu 8.   
+    * Fylgni sem þú færir inn verður metin þegar þessi grunnstilling er hlaðið niður frá einhverri Rafræn skýrslugerð geymslu. Þessi útgáfa grunnstillingu verður halað niður frá Rafræn skýrslugerð geymslu þegar útgáfa 1 af „Sýnigagnalíkani“ grunnstillingu er annað hvort þegar til staðar eða fyrirfram hlaðið niður. Ef það er hlaðið niður fyrirfram verður það að vera lokið í Finance and Operations útgáfu 7.1.1541.3036 eða nýrri, en má ekki fara yfir helstu útgáfu 8.   
 9. Smellið á „Vista“.
 10. Lokið síðunni.
 11. Smellið á „Breyta stöðu“.
@@ -136,7 +136,7 @@ Við munum eyða stofnuðum grunnstillingum úr kerfinu og hlaða þeim aftur ni
 25. Fara í Fyrirtækisstjórnun > Rafræn skýrslugerð > Grunnstillingar.
 26. Stækkið „Sýnigagnalíkan“, í trénu.
     * Athugið að grunnstillingum líkans „Sýnivörpun“ vörpun hefur verið hlaðið niður með völdum grunnstillingum gagnalíkans. Þessum tveimur skrám er hlaðið saman niður vegna þess að „Sýnivörpun“ hefur verið skilgreind sem framkvæmd valins gagnalíkans, og vegna þess að þær eru nothæfar í forritinu. Grunnstillingu „Sýnivörpun (valmöguleiki)“ hefur ekki verið hlaðið niður vegna þess að skilyrði fyrir útgáfu forritsins sem er krafist eru ekki uppfyllt.   
-    * Ef þú skráir þig inn í Finance and Operations, skráir sömu veitu, færð aðgang að sama LCS verkinu, og hleður niður sömu grunnstillingum fyrir gagnalíkan, mun „Sýnivörpun (valmöguleiki)“ grunnstillingar hlaðast niður, en „Sýnivörpun“ grunnstillingar verður sleppt.  
+    * Ef þú skráir þig inn á Finance and Operations, skráir sömu þjónustuaðila, opnar sama LCS verkefnið og hleður niður sömu gagnalíkönstillingu, mun stillingunni 'Sample mapping (val)' hlaðast niður, en 'Sample mapping' stillingunni verður sleppt.  
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

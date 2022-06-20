@@ -1,6 +1,6 @@
 ---
 title: Færibreytur framleiðslu í framkvæmd framleiðslu
-description: Þetta efnisatriði veitir upplýsingar um uppsetningu framleiðslufæribreytna í Framkvæmd framleiðslu.
+description: Þessi grein veitir upplýsingar um uppsetningu framleiðslufæribreyta í Framleiðsluframkvæmd.
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ce0dadd353df756a468384e3bf8e68c0ad2033a7042b4986fce41aa0764afdbc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752731"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873667"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Færibreytur framleiðslu í framkvæmd framleiðslu
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um uppsetningu framleiðslufæribreytna í Framkvæmd framleiðslu.
+Þessi grein veitir upplýsingar um uppsetningu framleiðslufæribreyta í Framleiðsluframkvæmd.
 
 Einingin **Framkvæmd framleiðslu** er fyrst og fremst ætluð framleiðslufyrirtækjum. Hana er hægt að nota til að skrá tíma og vörunotkun í framleiðsluvinnslum eða verkum. Áður en byrjað er að nota Framkvæmd framleiðslu fyrir vinnuskráningu verður þú að setja upp ýmsar framleiðslufæribreytur sem skilgreina hvernig og hvenær skráningar eru bókaðar á meðan á framleiðsluferli stendur. Stilling á framleiðslufæribreytum hefur áhrif á birgðastjórnun, framleiðslustjórnun og kostnaðarútreikning.
 

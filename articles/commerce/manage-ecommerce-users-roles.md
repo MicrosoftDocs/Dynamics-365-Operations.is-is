@@ -1,6 +1,6 @@
 ---
 title: Stjórna notendum og hlutverkum rafrænna viðskipta
-description: Þetta efnisatriði útskýrir hvernig á að veita notendum aðgang að höfundarumhverfi á Microsoft Dynamics 365 Commerce svæði.
+description: Þessi grein útskýrir hvernig á að veita notendum aðgang að höfundarumhverfi þínu Microsoft Dynamics 365 Commerce síða.
 author: bicyclingfool
 ms.date: 10/01/2019
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ff0d3e607eb905eb9264bbb9ba151fbd527a81a2c72252252f2a45edc201e1b4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac4342e4439db229997d9d4a0ad32f3664a795b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868962"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>Stjórna notendum og hlutverkum rafrænna viðskipta
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að veita notendum aðgang að höfundarumhverfi á Microsoft Dynamics 365 Commerce svæði.
+Þessi grein útskýrir hvernig á að veita notendum aðgang að höfundarumhverfi þínu Microsoft Dynamics 365 Commerce síða.
 
 Til að aðstoða við að stjórna aðgangi notenda og veita notendum leyfi til að framkvæma tiltekin verk notar höfundarumhverfi svæðisins öryggishópa sem þú býrð til í Microsoft Azure Active Directory (Azure AD). Þú úthlutar fyrst nýjum eða núverandi öryggishópi frá Azure AD á hvert hlutverk í höfundarumhverfinu. Þú veitir eða afturkallar síðan leyfi fyrir einstaka notendur með því að annaðhvort bæta þeim notendum við viðeigandi öryggishóp eða fjarlægja þá úr öryggishópi.
 
@@ -50,7 +50,7 @@ The Dynamics 365 for Commerce höfundarumhverfi styður eftirfarandi hlutverk.
 
 ## <a name="administrator-role"></a>Hlutverk stjórnanda
 
-Þegar þú býrð til nýja síðu í Commerce ertu beðinn um að útvega öryggishóp fyrir hlutverkið **Stjórnandi**. Sjá töfluna fyrr í þessu efni fyrir yfirlit yfir heimildir sem þetta hlutverk veitir.
+Þegar þú býrð til nýja síðu í Commerce ertu beðinn um að útvega öryggishóp fyrir hlutverkið **Stjórnandi**. Sjá töfluna fyrr í þessari grein fyrir yfirlit yfir þær heimildir sem þetta hlutverk veitir.
 
 ## <a name="add-or-update-security-groups"></a>Bættu við eða uppfærðu öryggishópa
 

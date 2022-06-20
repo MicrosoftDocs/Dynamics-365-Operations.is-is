@@ -1,6 +1,6 @@
 ---
 title: Stofna sniðmát fyrir tölvupóst fyrir færslutilvik
-description: Þetta efnisatriði lýsir því hvernig á að búa til, hlaða upp og skilgreina tölvupóstssniðmát fyrir færslutilvik í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að búa til, hlaða upp og stilla tölvupóstsniðmát fyrir viðskiptaviðburði í Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722520"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910551"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Stofna sniðmát fyrir tölvupóst fyrir færslutilvik
 
 [!include [banner](includes/banner.md)]
 
 
-Þetta efnisatriði lýsir því hvernig á að búa til, hlaða upp og skilgreina tölvupóstssniðmát fyrir færslutilvik í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að búa til, hlaða upp og stilla tölvupóstsniðmát fyrir viðskiptaviðburði í Microsoft Dynamics 365 Commerce.
 
-Dynamics 365 Commerce býður upp á tilbúna lausn fyrir tölvupóstsendingar sem tilkynna viðskiptavini um færslutilvik. Til dæmis er hægt að senda tölvupósta þegar pöntun er gerð, er tilbúin til afhendingar eða hefur verið send. Þetta efnisatriði lýsir skrefum til að búa til, hlaða upp og skilgreina sniðmát fyrir tölvupóst sem eru notuð til að senda færslutengdan tölvupóst.
+Dynamics 365 Commerce býður upp á tilbúna lausn fyrir tölvupóstsendingar sem tilkynna viðskiptavini um færslutilvik. Til dæmis er hægt að senda tölvupósta þegar pöntun er gerð, er tilbúin til afhendingar eða hefur verið send. Þessi grein lýsir skrefunum til að búa til, hlaða upp og stilla tölvupóstsniðmát sem eru notuð til að senda viðskiptapóst.
 
 ## <a name="notification-types"></a>Tilkynningagerðir
 
@@ -102,7 +102,7 @@ Tilkynningagerðin Gefa út gjafakort styður eftirfarandi viðbótarstaðgengla
 | Staðgengilsheiti      | Notkun |
 | --------------------- | ------- |
 | `giftcardnumber`        | Gjafakortsnúmer, fyrir afurðir af gerðinni gjafakort. |
-| `availablebalance` | Eftirstöðvarnar á gjafakortinu. |
+| `availablebalance` | Eftirstöðvar á gjafakortinu. |
 | `giftcardmessage`       | Gjafakortsskilaboð, fyrir afurðir af gerðinni gjafakort. |
 | `giftcardpin`         | PIN-númer gjafakortsins, fyrir afurðir af gerðinni gjafakort. (Þessi staðgengill er tilgreindur fyrir ytri gjafakort.) |
 | `giftcardexpiration`    | Lokadagur gjafakortsins, fyrir afurðir af gerðinni gjafakort. (Þessi staðgengill er tilgreindur fyrir ytri gjafakort.) |

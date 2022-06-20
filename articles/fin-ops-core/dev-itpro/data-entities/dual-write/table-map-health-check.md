@@ -1,20 +1,20 @@
 ---
 title: Villukóðar fyrir ástandsskoðun töfluvörpunar
-description: Þetta efnisatriði lýsir villukóðum fyrir ástandsskoðun töfluvörpunar.
-author: nhelgren
-ms.date: 10/04/2021
+description: Þessi grein lýsir villukóðum fyrir heilsuathugun töflukortsins.
+author: RamaKrishnamoorthy
+ms.date: 05/31/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
-ms.author: nhelgren
+ms.author: ramasri
 ms.search.validFrom: 2021-10-04
-ms.openlocfilehash: 916f3cfca3bae7a073ce4e956a12080ee01c8d31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3ae78077fc716311c38620b14665af3983a44c2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061279"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884084"
 ---
 # <a name="errors-codes-for-the-table-map-health-check"></a>Villukóðar fyrir ástandsskoðun töfluvörpunar
 
@@ -22,7 +22,7 @@ ms.locfileid: "8061279"
 
 
 
-Þetta efnisatriði lýsir villukóðum fyrir ástandsskoðun töfluvörpunar.
+Þessi grein lýsir villukóðum fyrir heilsuathugun töflukortsins.
 
 ## <a name="error-100"></a>Villa 100
 
@@ -32,11 +32,11 @@ Eiginleikinn krefst uppfærslu á vettvangi fyrir útgáfu 10.0.19 eða nýrri a
 
 ## <a name="error-400"></a>Villa 400
 
-Villuboðin eru: „Engin skráningargögn fyrirtækjaviðburða fundust fyrir eininguna\{ Fjármál og rekstur UniqueEntityName\} sem þýðir að annað hvort er kortið ekki í gangi eða öll sviðskortlagningin er einátta."
+Villuboðin eru: „Engin skráningargögn fyrirtækjaviðburða fundust fyrir eininguna\{ Fjármál og rekstur UniqueEntityName\} sem þýðir að annað hvort er kortið ekki í gangi eða öll sviðskortlagningin er einstefnu.“
 
 ## <a name="error-500"></a>Villa 500
 
-Villuboðin eru: „Engar grunnstillingar verks fundust fyrir verk \{verkheit\}. Þetta gæti annaðhvort verið að verkefnið sé ekki virkt eða öll sviðskortin eru einstefnu frá þátttöku viðskiptavina til fjármála og rekstrar.“
+Villuboðin eru: „Engar grunnstillingar verks fundust fyrir verk \{verkheit\}. Þetta gæti annaðhvort verið að verkefnið sé ekki virkt eða að öll sviðskortin séu einstefnu frá þátttöku viðskiptavina til fjármála og rekstrar.“
 
 Athugaðu varpanir fyrir töfluvörpunina. Ef þau eru einátta frá þátttökuforritum viðskiptavina yfir í Finance and Operations forrit myndast engin umferð fyrir samstillingu í beinni frá Finance and Operations forritum til Dataverse.
 
@@ -79,5 +79,20 @@ select * from <EntityName> where <filter criteria for the records> on SQL.
 Villuboðin eru: „Tafla: \{datasourceTable.Key.subscribedTableName\} fyrir einingu \{datasourceTable.Key.entityName\} er rakin fyrir einingu \{origTableToEntityMaps.EntityName\}. Sömu töflur raktar fyrir margar einingar geta haft áhrif á kerfisafköst fyrir færslur í samstillingu í rauntíma.“
 
 Ef sama taflan er rakin eftir mörgum einingum geta allar breytingar á töflunni ræst mat á tvöfaldri skráningu fyrir tengdar einingar. Þótt síuákvæðin muni aðeins senda gildar færslur gæti matið valið vandamálum með afköst ef til staðar eru fyrirspurnir seinlegar í keyrslu eða óstilltar áætlanir fyrirspurnar. Ekki er víst að hægt sé að koma í veg fyrir þetta vandamál frá sjónarhóli viðskipta. Ef hinsvegar eru margar töflur sem tengjast yfir margar einingar ætti hugsanlega að einfalda eininguna eða athuga fínstillingar fyrir fyrirspurnir um einingu.
+
+## <a name="error-1800"></a>Villa 1800
+Villuboðin eru: "Gagnaheimild:{} fyrir einingu CustCustomerV3Entity inniheldur sviðsgildi. Skrá á heimleið upserts frá Dataverse to Finance and Operations geta orðið fyrir áhrifum af sviðsgildum á einingu. Vinsamlega prófaðu skráaruppfærslur frá Dataverse til Finance and Operations með skrár sem passa ekki við síuskilyrðin til að sannreyna stillingarnar þínar."
+
+Ef það er svið tilgreint á einingunni í fjármála- og rekstrarforritum, þá er samstilling á heimleið frá Dataverse til að fjármagna og rekstrarforrit ættu að vera prófuð með tilliti til uppfærsluhegðunar á skrám sem passa ekki við þetta sviðsviðmið. Sérhver skrá sem passar ekki við svið verður meðhöndluð sem innsetningaraðgerð af einingunni. Ef það er fyrirliggjandi skrá í undirliggjandi töflu, þá mun innsetningin mistakast. Við mælum með því að þú prófir þetta notkunartilvik fyrir allar aðstæður áður en þú ferð í framleiðslu.
+
+## <a name="error-1900"></a>Villa 1900
+Villuskilaboðin eru: „Entity: has{} gagnagjafar sem ekki er rakið fyrir tvískrifað á útleið. Þetta getur haft áhrif á árangur samstillingarfyrirspurna í beinni. Endurgerðu eininguna í Finance and Operations til að fjarlægja ónotaða gagnagjafa og töflur eða innleiða getEntityRecordIdsImpactedByTableChange til að fínstilla keyrslufyrirspurnirnar."
+
+Ef það eru margir gagnagjafar sem eru ekki notaðir til að rekja í raunverulegri samstillingu í beinni frá fjármála- og rekstrarforritum, þá er möguleiki á að frammistaða einingarinnar geti haft áhrif á samstillingu í beinni. Til að fínstilla raktar töflur, notaðu aðferðina getEntityRecordIdsImpactedByTableChange.
+
+## <a name="error-5000"></a>Villa 5000
+Villuboðin eru: „Samstillar viðbætur eru skráðar fyrir gagnastjórnunarviðburði fyrir einingareikninga. Þetta getur haft áhrif á upphaflega samstillingu og árangur samstillingar í beinni Dataverse. Til að ná sem bestum árangri, vinsamlegast breyttu viðbótunum í ósamstillta vinnslu. Listi yfir skráð viðbætur{} ."
+
+Samstilltar viðbætur á a Dataverse eining getur haft áhrif á samstillingu í beinni og fyrstu samstillingarafköstum þar sem það eykur álag á færslur. Mælt er með því að slökkva á viðbæturnar eða gera þessar viðbætur ósamstilltar ef þú stendur frammi fyrir hægum hleðslutíma í fyrstu samstillingu eða samstillingu í beinni fyrir tiltekna aðila.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

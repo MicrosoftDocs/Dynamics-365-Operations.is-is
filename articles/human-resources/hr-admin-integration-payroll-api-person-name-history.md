@@ -1,6 +1,6 @@
 ---
 title: Ferill einstaklingsheitis
-description: Þetta efnisatriði veitir upplýsingar og dæmi um fyrirspurn fyrir ferilseiningu einstaklingsheitis í Dynamics 365 Human Resources.
+description: Þessi grein veitir upplýsingar og dæmi um fyrirspurn fyrir persónuheitasögueininguna í Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 09/01/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: db22a602c782cef15b6e5769b9c0726dff158160
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: e34b0d7bebd1c4037347161087ff3a4485a58878
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533599"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875772"
 ---
 # <a name="person-name-history"></a>Ferill einstaklingsheitis
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533599"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þetta efnisatriði lýsir ferilseiningu einstaklingsheitis í Dynamics 365 Human Resources.
+Þessi grein lýsir persónunafnasögueiningunni í Dynamics 365 Human Resources.
 
 Raunlægt heiti: mshr_dirpersonnamehistoricalentity.
 

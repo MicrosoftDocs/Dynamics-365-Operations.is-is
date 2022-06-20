@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81ec9b988cee7023c343df1fa8c86858eb0cfe58
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 531909bb8de892b012ffff347e58f23f997705ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713839"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865713"
 ---
 # <a name="financial-period-close-workspace"></a>Vinnusvæði lokunar fjárhagstímabils
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir yfirlit yfir vinnusvæðið **Lokun fjárhagstímabils** og tengdar skilgreiningar.
+Þessi grein veitir yfirlit yfir **Fjárhagstímabili lokið** vinnusvæði og tilheyrandi uppsetningu.
 
 Vinnusvæði lokunar fjárhagstímabils
 

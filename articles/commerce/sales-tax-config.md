@@ -1,6 +1,6 @@
 ---
 title: Skilgreina söluskatt fyrir pantanir á netinu
-description: Þetta efnisatriði veitir yfirlit yfir val á VSK-flokki fyrir mismunandi gerðir pantana á netinu í Dynamics 365 Commerce.
+description: Þessi grein veitir yfirlit yfir val á söluskattsflokkum fyrir mismunandi pöntunargerðir á netinu í Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 04/02/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 5801bbfb5b5850cb4c9ae06140bff5adca9b368febdc06d69c538fc49f9ee40a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac9fefe68663d76b3461d3209530976f66b113ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906887"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Skilgreina söluskatt fyrir pantanir á netinu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir yfirlit yfir val á VSK-flokki fyrir mismunandi gerðir pantana á netinu með því að nota annaðhvort skattstillingar sem byggja á staðsetningu eða viðskiptavinalykli. 
+Þessi grein veitir yfirlit yfir val á söluskattsflokkum fyrir mismunandi pöntunargerðir á netinu með því að nota annað hvort skattastillingar sem eru byggðar á áfangastað eða viðskiptareikningi. 
 
 Hugsanlega viltu að rafræna viðskiptarásin styðji valkosti eins og sendingu eða afhendingu pantana á netinu. Notkun virðisaukaskatts miðast við val viðskiptavina þinna á netinu. 
 

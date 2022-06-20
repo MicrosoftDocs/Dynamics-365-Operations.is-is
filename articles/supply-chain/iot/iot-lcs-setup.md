@@ -1,6 +1,6 @@
 ---
 title: Setja upp IoT-gervigreindarinnbótina í LCS
-description: Þetta efnisatriði útskýrir hvernig á að setja upp IoT-gervigreind viðbótina í Microsoft Dynamics Lifecycle Services (LCS).
+description: Þessi grein útskýrir hvernig á að setja upp IoT Intelligence viðbótina Microsoft Dynamics Lífsferilsþjónusta (LCS).
 author: johanhoffmann
 ms.date: 07/07/2020
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 12ffa71dc1c2badaffdc2e419a47d855635016f2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 52fe4c4a79378aca5f1e64c8b3f4fa85199c9911
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887487"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>Setja upp IoT-gervigreindarinnbótina í LCS
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja upp IoT-gervigreind viðbótina í Microsoft Dynamics Lifecycle Services (LCS). Athugaðu að ekki er hægt að setja innbætur í kynningu/prufuumhverfi. Áður en hægt er að setja upp viðbótina þarf [að stofna Azure tilföng](iot-azure-setup.md).
+Þessi grein útskýrir hvernig á að setja upp IoT Intelligence viðbótina Microsoft Dynamics Lífsferilsþjónusta (LCS). Athugaðu að ekki er hægt að setja innbætur í kynningu/prufuumhverfi. Áður en hægt er að setja upp viðbótina þarf [að stofna Azure tilföng](iot-azure-setup.md).
 
 Hægt er að setja upp og stilla IoT-gervigreind án þess að skrifa kóða. Hér eru grunnskrefin.
 
 1. [Setja upp Azure-tilföng](iot-azure-setup.md) – Búðu til IoT-miðstöð, Redis-skyndiminni og lyklageymslu sem hægt er að fara í úr Supply Chain Management.
 2. [Snið skilaboðaskema fyrir IoT-miðstöð](iot-schema-format.md) – Stilltu tækin þín á að senda skilaboð til IoT Hub og skilgreindu skilaboðasnið JavaScript Object Notation (JSON).
 3. Í eiginleikastjórnun skal virkja eiginleikaflagg IoT-gervigreindar.
-4. Settu upp IoT Intelligence viðbótina Microsoft Dynamics Lifecycle Services (LCS) – Settu upp viðbótina í LCS og stilltu Azure leyndarmálin (eins og lýst er í þessu efni).
+4. Settu upp IoT Intelligence viðbótina Microsoft Dynamics Lifecycle Services (LCS) – Settu upp viðbótina í LCS og stilltu Azure leyndarmálin (eins og lýst er í þessari grein).
 5. [Setja upp mælieiningar](iot-metrics-setup.md) – Settu upp mælieiningar í Supply Chain Management.
 6. [Uppsetning atburðarásar](iot-scenario-setup.md) – Settu upp atburðarásirnar í Supply Chain Management.
 

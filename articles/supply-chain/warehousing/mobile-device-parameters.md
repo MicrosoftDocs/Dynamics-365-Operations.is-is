@@ -1,6 +1,6 @@
 ---
-title: Færibreytur fyrir farsíma á heimsvísu
-description: Þetta efnisatriði útskýrir hvernig á að setja upp stillingar fartækis á færibreytusíðu vöruhúsakerfis.
+title: Altækar færibreytur fartækja
+description: Þessi grein útskýrir hvernig á að setja upp farsímastillingar á síðunni Vöruhússtjórnunarfæribreytur.
 author: Mirzaab
 ms.date: 08/13/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ae04c86ff1eafb649fcef7c34ace66bdc3e5cb8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6e03414edd9243fcc4156195928455b30a7cee9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679166"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847760"
 ---
-# <a name="global-mobile-device-parameters"></a>Færibreytur fyrir farsíma á heimsvísu
+# <a name="global-mobile-device-parameters"></a>Altækar færibreytur fartækja
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja upp altækar færibreytur vöruhúsakerfis sem hafa áhrif á hvernig kerfið á í samskiptum við fartækin.
+Þessi grein útskýrir hvernig á að setja upp alþjóðlegar vöruhúsastjórnunarfæribreytur sem hafa áhrif á hvernig kerfið hefur samskipti við fartæki.
 
 Frekari upplýsingar um hvernig á að setja upp starfsmenn vöruhúss er að finna í [Stjórna starfsmanni vöruhúss](manage-warehouse-workers.md). Frekari upplýsingar um meðhöndlun númeraplötu á fartækjum er að finna í [Móttaka númeraplötu í gegnum farsímaforrit vöruhúsakerfis](warehousing-mobile-device-app-license-plate-receiving.md). Frekari upplýsingar um ferli reglulegrar talningar er að finna í [Regluleg talning](cycle-counting.md) og [Sýnidæmi reglulegrar talningar](cycle-counting-scenarios.md).
 
 ## <a name="open-the-warehouse-management-parameters-page"></a>Opna færibreytusíðu vöruhúsakerfis
 
-Til að opna síðuna **Færibreytur vöruhúsakerfis** skal fara í **Vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsakerfis**. Síðan er hægt að stilla reitina sem tengjast vinnu fartækis eins og lýst er í næsta hluta þessa efnisatriðis.
+Til að opna síðuna **Færibreytur vöruhúsakerfis** skal fara í **Vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsakerfis**. Þú getur síðan stillt reiti sem tengjast vinnu farsíma, eins og lýst er í næsta hluta þessarar greinar.
 
 ## <a name="mobile-device-fasttab-on-the-general-tab"></a>Flýtiflipi fartækis í almenna flipanum
 

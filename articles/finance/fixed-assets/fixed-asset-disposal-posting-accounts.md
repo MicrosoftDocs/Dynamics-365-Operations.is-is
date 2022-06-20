@@ -1,6 +1,6 @@
 ---
 title: Bókunarlyklar eignaafskráningar
-description: Þetta efnisatriði útskýrir hvernig á að setja upp almenna bókunarreikninga til að losna við eignir.
+description: Þessi grein útskýrir hvernig á að setja upp fjárhagsreikninga til að ráðstafa eignum.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8501bbb0fc47fb52e100d9086054db4831dae178
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1272cdb16396d24b5495f023e7b9fe3dee341507
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871334"
 ---
 # <a name="fixed-asset-disposal-posting-accounts"></a>Bókunarlyklar eignaafskráningar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja upp almenna bókunarreikninga þegar losna á við eignir.
+Þessi grein útskýrir hvernig á að setja upp Fjárhagsbókunarreikninga þegar verið er að ráðstafa eignum.
 
 Til að setja upp almenna bókunarreikninga til að nota þegar losna á við eign skal velja **Losun - sala** og **Losun - rýrnun** á flýtiflipanum **Fjárhagslyklar** á síðunni **Bókunarreglur eigna**.
 

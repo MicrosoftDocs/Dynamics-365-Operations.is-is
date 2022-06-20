@@ -1,6 +1,6 @@
 ---
 title: Skila raðnúmerastýrðum afurðum á sölustað
-description: Í þessu efnisatriði eru útskýrðir möguleikarnir á að staðfesta röðuðum vörum sem hluti af skilaferlinu í Microsoft Dynamics 365 Commerce forriti sölustaðar.
+description: Þessi grein lýsir getu til að staðfesta raðgreinar vörur sem hluta af skilaferlinu í Microsoft Dynamics 365 Commerce umsókn um sölustað (POS).
 author: hhainesms
 ms.date: 06/01/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 179d66e19c7fa81d587ea920b1c71468ec070177d7e7e68e45c2b58da2f9f5af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2af301180dc2284400b887ce36357660bdd86fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716349"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860322"
 ---
 # <a name="return-serial-numbercontrolled-products-in-pos"></a>Skila raðnúmerastýrðum afurðum á sölustað
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði eru útskýrðir möguleikarnir á að staðfesta röðuðum vörum sem hluti af skilaferlinu í Microsoft Dynamics 365 Commerce forriti sölustaðar.
+Þessi grein lýsir getu til að staðfesta raðgreinar vörur sem hluta af skilaferlinu í Microsoft Dynamics 365 Commerce umsókn um sölustað (POS).
 
 > [!NOTE]
 > Í Commerce-útgáfu 10.0.20 og nýrri er boðið upp á nýjan eiginleika sem heitir **Upplifun samræmdrar skilavinnslu á sölustað**. Til að nota staðfestingu raðnúmers við vinnslu á skilapöntun á sölustað þarf að kveikja á þessum eiginleika. Upplýsingar um möguleika annarra sem þessi eiginleiki veitir þegar kveikt er á honum er að finna í [Stofna skil á sölustað](POS-returns.md).
