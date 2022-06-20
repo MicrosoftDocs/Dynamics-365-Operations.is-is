@@ -1,6 +1,6 @@
 ---
 title: Setja upp eignir á virkum staðsetningum
-description: Þetta efni útskýrir hvernig á að setja upp eignir á virkum staðsetningum í eignastjórnun.
+description: Þessi grein útskýrir hvernig á að setja upp eignir á virkum stöðum í eignastýringu.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc278564b02335b44a0b35d6a3a981125e6f456b08893be2b5886f0a55396d52
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 8a35f2494c616c2e456f92409d012cc434a32bd8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894502"
 ---
 # <a name="install-assets-on-functional-locations"></a>Setja upp eignir á virkum staðsetningum
 
@@ -28,7 +28,7 @@ ms.locfileid: "6775748"
 
  
 
-Eftir að þú hefur búið til skipulag virkra staðsetninga er næsta skref að setja upp eignir á viðkomandi virkum staðsetningum. Þetta efni útskýrir hvernig á að setja upp eignir á þessum virku staðsetningum í eignastjórnun. Nánari upplýsingar um hvernig stofna eigi aðallykla, sjá [Kynning á eignum](../objects/introduction-to-objects.md).
+Eftir að þú hefur búið til skipulag virkra staðsetninga er næsta skref að setja upp eignir á viðkomandi virkum staðsetningum. Þessi grein útskýrir hvernig á að setja upp eignir á þessum virkum stöðum í eignastýringu. Nánari upplýsingar um hvernig stofna eigi aðallykla, sjá [Kynning á eignum](../objects/introduction-to-objects.md).
 
 Ef þú hefur búið til eignaskipulag verður að setja upp alla eignaskipan á virka staðsetningu. Þess vegna er aðeins hægt að velja yfireignir (efstu eignir sem hafa enga yfireign) á virkri staðsetnigu. Allar tengdar undireignir (undireignir) verða einnig settar upp á virkri staðsetningu. Þegar þú setur upp eignir á virkri staðsetningu, gætu fjárhagsvíddir virkrar staðsetningar verið fluttar sjálfkrafa yfir á þær, allt eftir uppsetningu á gerð virkrar staðsetningar sem er valin fyrir virka staðsetningu. Nánari upplýsingar um hvernig setja skal upp gerðir virkra staðsetinga er að finna í [Gerðir virkra staðsetninga](../setup-for-functional-locations/functional-location-types.md).
 

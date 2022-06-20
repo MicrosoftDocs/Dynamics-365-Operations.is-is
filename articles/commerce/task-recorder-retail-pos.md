@@ -1,6 +1,6 @@
 ---
 title: Verkskráning og hjálp fyrir Retail Modern POS (MPOS) og sölukerfi í skýinu
-description: Þetta efnisatriði lýsir hvernig á að nota verkskráningu í Retail Modern POS og Cloud POS.
+description: Þessi grein lýsir því hvernig á að nota Task recorder í Retail Modern POS og Cloud POS.
 author: mugunthanm
 ms.date: 06/19/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aedf18ef8b3d7266f3e5c7acd676241f9ec8b900f061f5363cd8d581062e83ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730756"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847601"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Verkskráning og hjálp fyrir Retail Modern POS (MPOS) og sölukerfi í skýinu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig á að nota verkskráningu í Retail Modern POS og Cloud POS.
+Þessi grein lýsir því hvernig á að nota Task recorder í Retail Modern POS og Cloud POS.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -139,7 +139,7 @@ Til að sýna þínar eigin sérsniðnu verkskráningar í hjálparsvæðinu á 
 
 [![Hnappurinn Hjálp.](./media/help.jpg)](./media/help.jpg)
 
-Þegar smellt er á Verkefnaleiðberiningar í leitarniðurstöðum er hægt að skoða þrepin sem hjálparefni eða flytja út þrepin í Word-skjal.
+Þegar þú smellir á Verkefnaleiðbeiningar í leitarniðurstöðum geturðu annað hvort skoðað skrefin sem hjálpargrein eða flutt skrefin út í Word skjal.
 
 > [!NOTE]
 > Hjálp í Retail Modern POS og sölukerfi í skýinu mun ekki sýna verkefnaleiðbeiningar í samræmi við skjámyndina sem þú ert í eða aðgerðina sem þú ert að framkvæma. Hafa við vinnslu nafn í reitnum leit og smellið síðan á **Leit**.

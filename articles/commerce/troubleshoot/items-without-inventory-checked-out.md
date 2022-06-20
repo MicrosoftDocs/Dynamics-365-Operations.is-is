@@ -1,6 +1,6 @@
 ---
 title: Vörur án birgðastöðu er hægt að skrá út
-description: Þetta efnisatriði býður upp á leiðsögn úrræðaleitar sem getur reynst hjálpleg þegar viðskiptavinir geta bætt vörum sem ekki eru til í birgðum við körfuna sína og farið á greiðslusíðuna.
+description: Þessi grein veitir leiðbeiningar um bilanaleit sem geta hjálpað þegar viðskiptavinir geta bætt hlutum sem eru ekki til á lager í körfuna sína og haldið áfram að greiða.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1458328056a3ace8e5600a4c2d188e05b66c8110acbe44c869294a6b6e251e84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 24400953d2a17384be8ab3000aa829bf2bcb7192
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753695"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877186"
 ---
 # <a name="items-without-inventory-can-be-checked-out"></a>Vörur án birgðastöðu er hægt að skrá út
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði býður upp á leiðsögn úrræðaleitar sem getur reynst hjálpleg þegar viðskiptavinir geta bætt vörum sem ekki eru til í birgðum við körfuna sína og farið á greiðslusíðuna.
+Þessi grein veitir leiðbeiningar um bilanaleit sem geta hjálpað þegar viðskiptavinir geta bætt hlutum sem eru ekki til á lager í körfuna sína og haldið áfram að greiða.
 
 ## <a name="description"></a>lýsing
 

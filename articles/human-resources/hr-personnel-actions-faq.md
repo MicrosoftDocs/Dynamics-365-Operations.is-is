@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um aðgerðir starfsfólks
-description: Þetta efnisatriði inniheldur svörum við spurningum sem gæti verið ef fyrirtækið notar aðgerðir starfsfólks.
+description: Þessi grein inniheldur svörum við spurningum sem gæti verið ef fyrirtækið notar aðgerðir starfsfólks.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -13,21 +13,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 0782f686c9c91d434214724e2f621225a9e268b3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8882fd00c68dc3cafcb4ecf1b2fe351a9e7f5741
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874308"
 ---
-# <a name="personnel-actions-faq"></a>Algengar spurningar um aðgerðir starfsfólks
+# <a name="personnel-actions-faq"></a>Algengar spurningar um starfsmannaaðgerðir
 
 
 [!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þetta efnisatriði inniheldur svörum við spurningum sem gæti verið ef fyrirtækið notar aðgerðir starfsfólks. Aðgerðir starfsfólks eru viðbótarskref sem þarf að ljúka þegar þú framkvæmt ákveðnum verkefni tengdar starfsfólks. 
+Þessi grein inniheldur svörum við spurningum sem gæti verið ef fyrirtækið notar aðgerðir starfsfólks. Aðgerðir starfsfólks eru viðbótarskref sem þarf að ljúka þegar þú framkvæmt ákveðnum verkefni tengdar starfsfólks. 
 
 Dæmi um verkefni sem gætu krafist aðgerða starfsmanna eru:
  - Þegar þú býrð til nýjar stöður. 

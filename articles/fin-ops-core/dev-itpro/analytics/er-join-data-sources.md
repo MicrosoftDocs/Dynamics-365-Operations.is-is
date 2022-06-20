@@ -1,6 +1,6 @@
 ---
 title: Notaðu JOIN gagnaheimildir í ER-líkanavörpun til að fá gögn úr mörgum töflum forrita
-description: Þetta efnisatriði útskýrir hvernig hægt er að nota gagnagjafa af JOIN-gerð í rafrænni skýrslugerð (ER).
+description: Þessi grein útskýrir hvernig þú getur notað JOIN gerð gagnagjafa í rafrænni skýrslugerð (ER).
 author: NickSelin
 ms.date: 04/26/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: c9a06c048e98676e30a6652cad6634c2e13531d4ebc6d35f325f4c7153cd82ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0994c19ad79a3e73dc787ef8d82716db637f9ab0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845542"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Notaðu JOIN gagnaheimildir til að fá gögn úr mörgum forritatöflum í líkanavörpun í rafrænni skýrslugerð (ER)
 
@@ -40,15 +40,15 @@ Eftirfarandi samtengingar eru studdar eins og stendur:
 > [!NOTE]
 > Notkun á virkninni **VALUEIN** í ER-segðum sem tilgreina skilyrði fyrir sameiningu á skrám í gagnagjöfum af gerðinni Join er ekki enn studd. Farið á síðuna [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md) til að fá frekari upplýsingar um þessa virkni.
 
-Til að fá frekari upplýsingar um þennan eiginleika skaltu ljúka dæminu í þessu efni.
+Til að læra meira um þennan eiginleika skaltu klára dæmið í þessari grein.
 
 ## <a name="example-use-join-data-sources-in-er-model-mappings"></a>Dæmi: Notaðu JOIN gagnagjafa í ER-líkanavörpun
 
-Eftirfarandi skref útskýra hvernig kerfisstjóri eða þróunaraðili rafrænnar skýrslugerðar getur stillt líkanavörpun rafrænnar skýrslugerðar (ER) til að sækja gögn úr mörgum forritatöflum í einu með því að nota gagnagjafa af gerðinni **Join** til að bæta afköst gagnaaðgangs. Hægt er að framkvæma þessi skref fyrir eitthvert fyrirtæki Dynamics 365 Finance eða Regulatory Configuration Service (RCS).
+Eftirfarandi skref útskýra hvernig kerfisstjóri eða þróunaraðili rafrænnar skýrslugerðar getur stillt líkanavörpun rafrænnar skýrslugerðar (ER) til að sækja gögn úr mörgum forritatöflum í einu með því að nota gagnagjafa af gerðinni **Join** til að bæta afköst gagnaaðgangs. Þessi skref er hægt að framkvæma fyrir hvaða fyrirtæki sem er í Dynamics 365 Finance eða Regulatory Configuration Services (RCS).
 
 ### <a name="prerequisites"></a>Forkröfur
 
-Til að ljúka dæmunum í þessu efni verður þú að hafa aðgang að einu af eftirtöldu eftir því hvaða þjónusta er notuð til að ljúka þessum skrefum:
+Til að klára dæmin í þessari grein verður þú að hafa aðgang að einu af eftirfarandi eftir því hvaða þjónusta er notuð til að keppa í þessum skrefum:
 
 **Aðgangur að Finance fyrir eitt af eftirfarandi hlutverkum:**
 
@@ -257,9 +257,9 @@ Yfirfara stillingar á hlut líkanavörpunar rafrænnar skýrslugerðar. Íhlutu
 
 ## <a name="limitations"></a>Takmarkanir
 
-Eins og sjá má í dæminu í þessu efnisatriði er hægt að smíða gagnagjafann **TENGJAST** úr ýmsum gagnagjöfum sem útskýra hvert gagnasafn færslanna fyrir sig sem þarf að lokum að tengja saman. Hægt er að skilgreina þessa gagnagjafa með því að nota innbyggðu rafrænu skýrslugerðarvirknina [SÍA](er-functions-list-filter.md). Þegar gagnagjafinn er skilgreindur þannig að hann er kallaður fram yfir gagnagjafann **TENGJAST** er hægt að nota fyrirtækjasvið sem hluta af skilyrðinu fyrir gagnavalið. Fyrsta innleiðingin á gagnagjafanum **TENGJAST** styður ekki gagnagjafa af þessari gerð. Til dæmis þegar kallað er á gagnagjafa sem byggir á [SÍU](er-functions-list-filter.md) innan umfangs keyrslunnar á gagnagjafa **TENGJAST**, ef gagnagjafinn sem kallað er á inniheldur fyrirtækjasvið sem hluta af skilyrðinu fyrir gagnavalinu, á undantekning sér stað.
+Eins og þú sérð af dæminu í þessari grein, er **GANGA TIL** Hægt er að byggja gagnagjafa úr nokkrum gagnaveitum sem lýsa einstökum gagnasöfnum gagna sem verða að lokum að sameinast. Hægt er að skilgreina þessa gagnagjafa með því að nota innbyggðu rafrænu skýrslugerðarvirknina [SÍA](er-functions-list-filter.md). Þegar gagnagjafinn er skilgreindur þannig að hann er kallaður fram yfir gagnagjafann **TENGJAST** er hægt að nota fyrirtækjasvið sem hluta af skilyrðinu fyrir gagnavalið. Fyrsta innleiðingin á gagnagjafanum **TENGJAST** styður ekki gagnagjafa af þessari gerð. Til dæmis þegar kallað er á gagnagjafa sem byggir á [SÍU](er-functions-list-filter.md) innan umfangs keyrslunnar á gagnagjafa **TENGJAST**, ef gagnagjafinn sem kallað er á inniheldur fyrirtækjasvið sem hluta af skilyrðinu fyrir gagnavalinu, á undantekning sér stað.
 
-Í Microsoft Dynamics 365 Finance útgáfu 10.0.12 (ágúst 2020) er hægt að nota fyrirtækjasvið sem hluta af skilyrðinu fyrir gagnavali í gagnagjöfum sem byggja á [SÍU](er-functions-list-filter.md) sem er kallað á innan umfangs keyrslunnar á gagnagjafa **TENGJAST**. Vegna takmarkanna á smið [fyrirspurnar](../dev-ref/xpp-library-objects.md#query-object-model) í forritinu eru fyrirtækjasviðin aðeins studd fyrir fyrsta gagnagjafa af gagnagjafanum **TENGJAST**.
+Í Microsoft Dynamics 365 Finance útgáfu 10.0.12 (ágúst 2020), er hægt að nota fyrirtækjasvið sem hluta af skilyrði fyrir gagnavali í [SÍA](er-functions-list-filter.md) -byggðar gagnaheimildir sem kallaðar eru innan framkvæmdasviðs a **GANGA TIL** gagnagjafa. Vegna takmarkanna á smið [fyrirspurnar](../dev-ref/xpp-library-objects.md#query-object-model) í forritinu eru fyrirtækjasviðin aðeins studd fyrir fyrsta gagnagjafa af gagnagjafanum **TENGJAST**.
 
 ### <a name="example"></a>Dæmi
 

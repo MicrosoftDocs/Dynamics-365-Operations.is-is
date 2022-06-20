@@ -1,6 +1,6 @@
 ---
 title: Stofna upprunalega fjárhagsáætlun og bakfæra síðan færslur bráðabirgðafjárhagsáætlunar í opinbera geiranum
-description: Í þessu efnisatriði er að finna upplýsingar um hvernig á að stofna og bakfæra upprunalega fjárhagsáætlunarfærslu með því að nota fjárhagsáætlunarlíkan og víddargildi sem eru með bráðabirgðaupphæðir.
+description: Þessi grein veitir upplýsingar um hvernig á að stofna og bakfæra upprunalega fjárhagsáætlunarfærslu með því að nota fjárhagsáætlunarlíkan og víddargildi sem hafa bráðabirgðafjárhæðir.
 author: twheeloc
 ms.date: 02/14/2022
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7758a1c9edfa129ba8b63a146b38ed3f119fd051
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 1efb6363be881b0a35f356c2cb2334e5a37e43ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119427"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848405"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>Stofna upprunalega fjárhagsáætlun og bakfæra síðan færslur bráðabirgðafjárhagsáætlunar í opinbera geiranum
 
@@ -29,9 +29,9 @@ ms.locfileid: "8119427"
 
 1. Fara til **Fjárhagsáætlun > Færslur fjárhagsáætlunarskrár**.
 2. Smellt er á **Nýtt**.
-3. Í **Fjárhagsáætlunarlíkan** reit, smelltu á fellilistann til að opna leitina.
+3. Í **Fjárhagsáætlunarlíkan** reit, smelltu á fellilistahnappinn til að opna leitina.
 4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-5. Í **Kostnaðarkóði** reit, smelltu á fellilistann til að opna leitina.
+5. Í **Kostnaðarkóði** reit, smelltu á fellilistahnappinn til að opna leitina.
 6. Í listanum, smelltu **Upprunaleg fjárhagsáætlun**.
 7. Smelltu á **Vista**.
 8. Smella á **Bæta við línu**.
@@ -40,7 +40,7 @@ ms.locfileid: "8119427"
 11. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 12. Í **Víddargildi** reit, tilgreindu þau gildi sem þú vilt.
 13. Í **Magn** reit, sláðu inn númer.
-14. Í **Gjaldmiðill** reit, smelltu á fellilistann til að opna leitina.
+14. Í **Gjaldmiðill** reit, smelltu á fellilistahnappinn til að opna leitina.
 15. Í listanum skal smella á tengilinn í valinni línu.
 16. Smelltu á **Vista**.
 17. Smellur **Uppfærðu stöðu fjárlaga**.

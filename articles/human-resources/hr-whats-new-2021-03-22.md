@@ -1,6 +1,6 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Human Resources 22. mars 2021
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 22. mars 2021.
+description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 22. mars 2021.
 author: marcelbf
 ms.date: 03/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-03-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 13520ca55c98fb1acb6185af393550b12fbc2072
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2cfdd0fc1ca7ba206b0f447ecabd801a5a4e8c57
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693529"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859489"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-22-2021"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources 22. mars 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Í þessu efnisatriði er lýst nýjum, breyttum eða væntanlegum eiginleikum í Dynamics 365 Human Resources.
+Þessi grein lýsir eiginleikum sem eru nýir, breyttir eða koma fljótlega í Dynamics 365 Human Resources.
 
 Frekari upplýsingar um uppfærsluferlið okkar og áætlun er að finna í [Uppfærsluferli](hr-admin-setup-update-process.md).
 
@@ -49,9 +49,9 @@ Eftirfarandi eiginleikar eru almennt aðgengilegur með þessari útgáfu.
 Eftirfarandi villuleiðréttingar eru innifaldar í þessari útgáfu.
 
 > [!NOTE]
-> Markmiðið okkar er að koma þessum upplýsingum til þín eins fljótt og auðið er. Við gætum uppfært þetta efnisatriði til að hafa með leiðréttingar á villum sem slæddust með smíðinni eftir að þetta efnisatriði var gefið út upphaflega.
+> Markmiðið okkar er að koma þessum upplýsingum til þín eins fljótt og auðið er. Við gætum uppfært þessa grein til að innihalda villuleiðréttingar sem komu inn í bygginguna eftir að þessi grein var upphaflega birt.
 
-| Númer úthreyfingar | Úthreyfing |  lýsing |
+| Númer úthreyfingar | Gefa út |  Lýsing |
 | --- | --- | --- |
 | 554239 | Afkastaumbætur fyrir einingar sem tengjast **BusinessProcessTaskAssignment** töflunni | Bætt afköst eininga sem tengjast **BusinessProcessTaskAssignment** töflunni með því að bæta við tillögum að atriðaskrá við töfluna. |
 | 566061 | Fjarlægja V2 varakóða eininga úr samstillingu að næturlagi | Fjarlægja V2 varakóða eininga úr Dataverse samstillingu að næturlagi. Varakóðinn er ekki lengur nauðsynlegur og kemur í veg fyrir því að síaðar samstillingar virki sem skyldi. Breytingin eykur samræmi við Dataverse samstillingu gagna. |

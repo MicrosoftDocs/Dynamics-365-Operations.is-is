@@ -1,6 +1,6 @@
 ---
 title: Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa
-description: Þetta efnisatriði lýsir því hvernig á að tímasetja framtíðar breytingar á hendi og reikna út magn sem hægt er að lofa (ATP).
+description: Þessi grein lýsir því hvernig á að tímasetja framtíðar breytingar á hendi og reikna út magn sem er tiltækt til að lofa (ATP).
 author: yufeihuang
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
-ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
+ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "8763254"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856194"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að setja upp *Skiptaáætlun fyrir hendi* eiginleiki til að skipuleggja breytingar á hendi í framtíðinni og reikna út magn sem hægt er að lofa (ATP). ATP er magn vöru sem er tiltækt og hægt er að lofa viðskiptavinum á næsta tímabili. Notkun þessa útreiknings getur aukið getu þína til að uppfylla pöntunina til muna.
+Þessi grein lýsir því hvernig á að setja upp *Skiptaáætlun fyrir hendi* eiginleiki til að skipuleggja breytingar á hendi í framtíðinni og reikna út magn sem hægt er að lofa (ATP). ATP er magn vöru sem er tiltækt og hægt er að lofa viðskiptavinum á næsta tímabili. Notkun þessa útreiknings getur aukið getu þína til að uppfylla pöntunina til muna.
 
 Fyrir marga framleiðendur, smásala eða seljendur er það ekki nóg bara að vita hvað er til staðar. Þeir verða að hafa fullan sýnileika í framtíðinni. Þetta framtíðarframboð ætti að taka tillit til framtíðarframboðs, framtíðareftirspurnar og ATP.
 
@@ -71,7 +71,7 @@ Fylgdu þessum skrefum til að kveikja á *Skiptaáætlun fyrir hendi* lögun í
     - **Dagskrá Tímabil** – Sláðu inn fjölda daga sem notendur geta skoðað og sent inn áætlaðar breytingar á hendi þegar valinn reiknaður mælikvarði er notaður. Notendur sem biðja um hlutabréfaupplýsingar munu fá birgðamagn, áætlaðar breytingar á hendi og ATP fyrir hvern dag á þessu tímabili, frá og með núverandi dagsetningu. Veldu heiltölu á milli 1 og 7.
 
     > [!IMPORTANT]
-    > Áætlunartímabilið inniheldur núverandi dagsetningu. Þess vegna geta notendur tímasett breytingar á hendi til að eiga sér stað hvenær sem er frá núverandi dagsetningu (deginum þegar breytingin er send) í gegnum (áætlunartímabil - 1) daga í framtíðinni.
+    > Áætlunartímabilið inniheldur núverandi dagsetningu. Þess vegna geta notendur tímasett breytingar á hendi til að eiga sér stað hvenær sem er frá núverandi dagsetningu (deginum þegar breytingin er send) til (áætlunartímabil - 1) daga í framtíðinni.
 
 1. Veldu **Vista**.
 1. Endurtaktu skref 5 til 7 þar til þú hefur bætt við öllum reiknuðum mælikvarða sem þú þarft fyrir ATP.
@@ -210,9 +210,9 @@ Fyrir frekari upplýsingar, sjá [Birgðasýnileiki opinber API](inventory-visib
 
 ### <a name="create-one-on-hand-change-schedule"></a>Búðu til eina breytingaáætlun fyrir hendi
 
-Stundabreytingaáætlun er búin til með því að senda inn a`POST` beiðni til viðkomandi vefslóðar birgðasýnileikaþjónustu (sjá [Sendu breytingaráætlanir, breyttu atburði og ATP fyrirspurnir í gegnum API](#api-urls) kafla). Þú getur líka sent inn magnbeiðnir.
+Stundabreytingaáætlun er búin til með því að senda inn a`POST` beiðni til viðeigandi vefslóð birgðasýnileikaþjónustu (sjá [Sendu breytingaráætlanir, breyttu atburði og ATP fyrirspurnir í gegnum API](#api-urls) kafla). Þú getur líka sent inn magnbeiðnir.
 
-Einungis er hægt að búa til breytingaáætlun fyrir hendi ef áætluð dagsetning er á milli núverandi dagsetningar og loka núverandi áætlunartímabils. Datetime sniðið ætti að vera *ár-mánaðar-dagur* (til dæmis, **2022-02-01**). Tímasniðið verður að vera nákvæmt aðeins til dags.
+Aðeins er hægt að búa til breytingaáætlun fyrir hendi ef áætluð dagsetning er á milli núverandi dagsetningar og loka núverandi áætlunartímabils. Datetime sniðið ætti að vera *ár-mánaðar-dagur* (til dæmis, **2022-02-01**). Tímasniðið verður að vera nákvæmt aðeins til dags.
 
 Þetta API býr til eina breytingaáætlun fyrir hendi.
 

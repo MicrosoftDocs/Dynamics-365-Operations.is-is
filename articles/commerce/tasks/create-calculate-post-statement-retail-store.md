@@ -1,6 +1,6 @@
 ---
-title: Stofna, reikna og bóka yfirlit fyrir smásöluverslun
-description: Þetta efni lýsir handvirkum skrefum fyrir stofnun, útreikning og bókun á uppgjöri fyrir verslun.
+title: Stofna, reikna og bóka uppgjör fyrir smásöluverslun
+description: Þessi grein lýsir handvirkum skrefum til að búa til, reikna út og bóka yfirlit fyrir verslun.
 author: jashanno
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a3d82daed16c1b37d10653f04c1dc473cd5c5abc3a6443972da6e8ecf9820f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 740857e6a902e21588855eef5e36cac68e560898
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719873"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873279"
 ---
-# <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Stofna, reikna og bóka yfirlit fyrir smásöluverslun
+# <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Stofna, reikna og bóka uppgjör fyrir smásöluverslun
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni lýsir handvirkum skrefum fyrir stofnun, útreikning og bókun á uppgjöri fyrir verslun. Einnig eru runuvinnslur sem hægt er að skilgreina fyrir sama verk. Skrefin til að skilgreina og keyra sem runuvinnslur er að finna í öðrum efnisatriði. Til að ljúka þessu ferli, verður að hafa færslur sem voru fylltir út á sölustað og draga þær síðan inn í Dynamics 365 Commerce. Þessi skráning notar sýnigögn fyrirtæki USRT .
+Þessi grein lýsir handvirkum skrefum til að búa til, reikna út og bóka yfirlit fyrir verslun. Einnig eru runuvinnslur sem hægt er að skilgreina fyrir sama verk. Skrefin til að stilla og keyra runuvinnuna má finna í öðrum greinum. Til að ljúka þessu ferli, verður að hafa færslur sem voru fylltir út á sölustað og draga þær síðan inn í Dynamics 365 Commerce. Þessi skráning notar sýnigögn fyrirtæki USRT .
 
 1. Veldu **Fjárhagur verslunar** af heimasíðunni.
 2. Veldu **Nýtt yfirlit**.

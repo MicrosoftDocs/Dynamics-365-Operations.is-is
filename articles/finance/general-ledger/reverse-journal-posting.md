@@ -1,6 +1,6 @@
 ---
-title: Bókun í bakfærslubók
-description: Þetta efni lýsir getu sem gerir þér kleift að bakfæra fylgiskjöl af færslulista fylgiskjala eða úr fjárhagsfærslubókum.
+title: Bakfæra bókun í færslubók
+description: Þessi grein lýsir getu sem gerir þér kleift að bakfæra fylgiskjöl úr fylgiskjalsfærslulistanum eða úr fjárhagsbókum.
 author: kweekley
 ms.date: 10/08/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb1615312e9fd1786a5a0050dda3e9e9b20fe710
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: bec7d5d0dd64a2d89b00e2aa630a4fe670feaa2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753779"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868403"
 ---
-# <a name="reverse-journal-posting"></a>Bókun í bakfærslubók
+# <a name="reverse-journal-posting"></a>Bakfæra bókun í færslubók
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni lýsir getu Microsoft Dynamics 365 Finance sem gerir þér kleift að bakfæra heila færslubók eða bakfæra eitt eða fleiri fylgiskjöl af færslulistum fylgiskjala án tillits til uppruna. 
+Þessi grein lýsir getu Microsoft Dynamics 365 Fjármál sem gerir þér kleift að bakfæra heila færslubók, eða bakfæra eitt eða fleiri fylgiskjöl af fylgiskjalsfærslulistanum, óháð uppruna þeirra. 
 
-Áður en hægt er að nota eiginleikann sem lýst er í þessu efnisatriði þarf að vera kveikt á honum í kerfinu. Stjórnendur geta notað vinnusvæði **Eiginleikastjórnun** til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
+Áður en þú getur notað einn af þeim eiginleikum sem lýst er í þessari grein verður að kveikja á honum í kerfinu þínu. Stjórnendur geta notað vinnusvæði **Eiginleikastjórnun** til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
  - Eining: fjárhagur
  - Heiti eiginleika: **Fjöldabakfærslur fyrir mörg skjöl**
 
@@ -69,7 +69,7 @@ Ef það eru yfir 100 fylgiskjalalínur verður bakfærsluferlið keyrt með run
 
 Ef fjöldi fylgiskjala er 100 línur eða færri mun bakfærsluvinnslan keyra þegar í stað. Niðurstöðurnar munu birtast í glugga sem sýnir öll fylgiskjöl sem ekki var hægt að bakfæra, ásamt ástæðu þess. Veldu **Í lagi** til að loka svarglugganum.
 
-Aðeins er hægt að bakfæra færslur ef þær uppfylla viðskiptareglur um bakfærslur. Ekki er hægt að bakfæra lánardrottnagreiðslum með því að nota getu sem lýst er í þessu efni. Lánardrottnagreiðslur verður að bakfæra með því að fylgja skrefunum sem talin eru upp í [Bakfæra lánardrottnagreiðslu](../accounts-payable/reverse-vendor-payment.md).
+Aðeins er hægt að bakfæra færslur ef þær uppfylla viðskiptareglur um bakfærslur. Ekki er hægt að bakfæra greiðslur lánardrottins með því að nota möguleikann sem lýst er í þessari grein. Lánardrottnagreiðslur verður að bakfæra með því að fylgja skrefunum sem talin eru upp í [Bakfæra lánardrottnagreiðslu](../accounts-payable/reverse-vendor-payment.md).
 
 
 

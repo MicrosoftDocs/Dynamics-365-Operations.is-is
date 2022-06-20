@@ -1,6 +1,6 @@
 ---
 title: Altækur staðgreiðsluskattur
-description: Þetta efnisatriði veitir upplýsingar um virkni altæks staðgreiðsluskatts og hvernig á að setja hana upp. Virkni altæks staðgreiðsluskatts er bætt fyrir færslur lánardrottins og viðskiptavinar þannig að staðgreiðsluskattur er reiknaður á vörustigi.
+description: Þessi grein veitir upplýsingar um virkni staðgreiðsluskatts á heimsvísu og hvernig á að setja hana upp. Virkni altæks staðgreiðsluskatts er bætt fyrir færslur lánardrottins og viðskiptavinar þannig að staðgreiðsluskattur er reiknaður á vörustigi.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 9cb02ba77fa33c839bc2a74811131973d1e5877f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 49d5048b9df30e94d959cf9f22b8ae837b74abdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720224"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846829"
 ---
 # <a name="global-withholding-tax"></a>Altækur staðgreiðsluskattur
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um virkni altæks staðgreiðsluskatts og útskýrir hvernig á að setja hana upp. Nýja virknin er í boði í útgáfu 10.0.17 og nýrri.
+Þessi grein veitir upplýsingar um virkni staðgreiðsluskatts á heimsvísu og útskýrir hvernig á að setja hana upp. Nýja virknin er í boði í útgáfu 10.0.17 og nýrri.
 
 Virkni altæks staðgreiðsluskatts er bætt fyrir færslur lánardrottins og viðskiptavinar þannig að staðgreiðsluskattur er reiknaður á vörustigi. Staðan í staðgreiðsluskattslykli frá innkaupafærslum er hægt að jafna með því að keyra greiðsluvinnslu staðgreiðsluskatts á móti jöfnunarlykli staðgreiðsluskatts.
 

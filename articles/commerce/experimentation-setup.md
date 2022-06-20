@@ -1,30 +1,24 @@
 ---
 title: Setja upp tilraun
-description: Í þessu efnisatriði er lýst hvernig á að setja upp tilraun í þjónustu þriðja aðila.
+description: Þessi grein lýsir því hvernig á að setja upp tilraun í þjónustu þriðja aðila.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/08/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 870bcb9cc63fd4dbf6d7b40d730edfad7783540d5d943896e0129d29572fa875
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1073cdc509622279ce7388b8b406079a4e6e9e09
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769396"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946167"
 ---
 # <a name="set-up-an-experiment"></a>Setja upp tilraun
 
-Þegar búið er að [skilgreina og ákvarða hvaða árangursmælingar á að nota](experimentation-identify.md) þarf að setja upp tilraunina í þjónustu þriðja aðila. Eftirfarandi skýringarmynd sýnir öll skrefin sem taka þátt í uppsetningu og vinnslu á tilraun á vefsvæði rafrænna viðskipta í Dynamics 365 Commerce. Önnur skref eru afgreidd í aðskildum efnisatriðum.
+Þegar búið er að [skilgreina og ákvarða hvaða árangursmælingar á að nota](experimentation-identify.md) þarf að setja upp tilraunina í þjónustu þriðja aðila. Eftirfarandi skýringarmynd sýnir öll skrefin sem taka þátt í uppsetningu og vinnslu á tilraun á vefsvæði rafrænna viðskipta í Dynamics 365 Commerce. Fjallað er um fleiri skref í aðskildum greinum.
 
 [ ![Tilraunaferli notanda - Uppsetning.](./media/experimentation_setup.svg) ](./media/experimentation_setup.svg#lightbox)
 
@@ -37,13 +31,55 @@ Fylgið skrefunum sem þarf til að búa til tilraunir í þjónustu þriðja a�
 ## <a name="set-up-your-success-metrics"></a>Setja upp árangursmælingar
 Sérhver tilraun þarf mælingar til að mæla áhrif afbrigðanna og til að sannprófa tilgátuna. Fylgið skrefunum hér að neðan til að virkja útreikning á mælingum í þjónustu þriðja aðila með virkum tilvikum fjarmælinga úr Dynamics 365 Commerce.
 
-Til að setja upp árangursmælingar skaltu fylgja þessum skrefum.
+Fylgdu þessum skrefum til að setja upp árangursmælingar þínar fyrir útbúnar einingar.
 
 1. Í vefsmið Commerce skal velja **Síður** á vinstra yfirlitssvæðinu og síðan velja síðuna sem á að safna mælingum fyrir. 
 1. Farið í hlutann **Kenni tilvika til að fylgjast með** á eiginleikasvæðinu hægra megin á síðunni eða einingunni sem á að fylgjast með.
-1. Velja **Skoða**. Listi yfir öll tilvikskenni birtist. Afritið tilvikið sem á að rekja, og límið tilvikslykilinn á tilgreindan stað í þjónustu þriðja aðila. Ef þörf er á fleiri en einu tilviki skal afrita lyklana einn í einu. 
-    - Til að fá upplýsingar um öll tiltæk tilvik og eigindir, þar á meðal síðuyfirlit og tekjurakningu, skal skoða [Tilvik Commerce-íhluta fyrir greiningu og bilanaleit](dev-itpro/retail-component-events-diagnostics-troubleshooting.md).
+1. Velja **Skoða**. Listi yfir öll auðkenni smellaviðburða birtist. Afritaðu viðburðinn sem þú vilt fylgjast með og límdu síðan viðburðarlykilinn inn á tilgreindan stað í þjónustu þriðja aðila. Ef þörf er á fleiri en einu tilviki skal afrita lyklana einn í einu. 
+1. Fyrir síðuskoðanir, notaðu SHA-256 kjötkássagildi síðuheitisins í vefsvæðisgerð sem bætt er við `.PageView`. Til dæmis, auðkenni viðburðar fyrir`Homepage.PageView` væri `e217eb66c7808ecc43b0f5c517c6a83b39d72b91412fbd54a485da9d8e186a9`.
 1. Farið í gegnum öll önnur skref til að rekja mælingar eins og krafist er í þjónustu þriðja aðila.
+
+Fylgdu þessum skrefum fyrir smelli á sérsniðnum einingum til að mæla smellitilvikin:
+
+1. Undirbúa a **TelemetryContent** hlut fyrir eininguna með því að nota aðgerðina hér að neðan. Þessi aðgerð tekur síðuheitið, heiti einingarinnar og SDK-útvegaðan sjálfgefinn fjarmælingarhlut sem inntak.
+
+    ```TypeScript
+    getTelemetryObject(pageName: string, moduleName: string, telemetry: ITelemetry): ITelemetryContent
+    ```
+    
+    Eftirfarandi er dæmi: 
+    
+    ```TypeScript
+    private readonly telemetryContent: ITelemetryContent = getTelemetryObject(this.props.context.request.telemetryPageName!, this.props.friendlyName, this.props.telemetry);
+    ```
+    
+1. Búðu til farmgögnin sem innihalda upplýsingar um það sem þarf að fanga. Fyrir hnappa og aðrar kyrrstöðustýringar geturðu látið fylgja með **texti** eins og "Verslaðu núna" eða "Leita". Og fyrir íhluti með smelli eins og að smella á vörukort geturðu sent **endurtaka** sem er skráningarauðkenni vörunnar eða vöruauðkenni.
+
+    ```TypeScript
+    getPayloadObject(eventType: string, telemetryContent: ITelemetryContent, etext: string, recid?: string): IPayLoad
+    ```
+    Sem dæmi um kyrrstöðustýringar, sendu textastreng hnappsins eins og sýnt er hér að neðan:
+
+    ```TypeScript
+    const payLoad = getPayloadObject('click', this.props.telemetryContent, 'Shop Now', '');
+    ```
+    Sem dæmi um vörusmelli, sendu vöruskráningarnúmerið eins og sýnt er hér að neðan:
+
+    ```TypeScript
+    const payLoad = getPayloadObject('click', telemetryContent!, '', product.RecordId.toString());
+    ```
+    
+1. Hringdu í **OnClick** aðgerð til að skrá viðburðinn.
+
+    ```TypeScript
+    onTelemetryClick = (telemetryContent: ITelemetryContent, payLoad: IPayLoad, linkText: string) => () =>
+    ```
+
+    Eftirfarandi er dæmi:
+
+    ```TypeScript
+    onClick: onTelemetryClick(this.props.telemetryContent, payLoad, linkText)
+    ```
 
 ## <a name="previous-step"></a>Fyrra skref
 [Auðkenna tilgátu og ákvarða mælieiningar fyrir tilraun](experimentation-identify.md) 

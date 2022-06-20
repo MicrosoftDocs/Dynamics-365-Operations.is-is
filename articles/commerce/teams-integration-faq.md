@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um samþættingu Dynamics 365 Commerce og Microsoft Teams
-description: Þetta efnisatriði veitir svör við algengum spurningum um samþættingu Microsoft Dynamics 365 Commerce og Microsoft Teams.
+description: Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce og Microsoft Teams sameining.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 16ad6cec0fb852d863039740e9f2c3406467e899
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 02f10e446349803ce5629fed0be4176f2df2be0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869128"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-faq"></a>Algengar spurningar um samþættingu Dynamics 365 Commerce og Microsoft Teams
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir svör við algengum spurningum um samþættingu Microsoft Dynamics 365 Commerce og Microsoft Teams.
+Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce og Microsoft Teams sameining.
 
 ### <a name="who-in-the-store-becomes-an-owner-of-a-team-while-provisioning-teams-from-commerce"></a>Hver í verslun verður eigandi teymis við úthlutun Teams úr Commerce? 
 

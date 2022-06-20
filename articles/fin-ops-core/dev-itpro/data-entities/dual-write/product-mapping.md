@@ -1,6 +1,6 @@
 ---
-title: Sameinuð vöruupplifun
-description: Þetta efni lýsir samþættingu afurðargagna milli forrita Finance and Operations og Dataverse.
+title: Samræmd afurðaupplifun
+description: Þessi grein lýsir samþættingu vörugagna milli Finance and Operations forrita og Dataverse.
 author: t-benebo
 ms.date: 12/12/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1b3dc1d16fc34992df0c9478b8b4d163c310b67b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a8071887678f16a0b8ee075d2aa24a07e4df5319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062599"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884999"
 ---
 # <a name="unified-product-experience"></a>Sameinuð vöruupplifun
 
@@ -61,7 +61,7 @@ Forrit Finance and Operations | Önnur Dynamics 365 forrit | Lýsing
 [Stílar afurðarsniðmáts](mapping-reference.md#191) | msdyn_sharedproductstyles | Taflan **Sameiginlegur afurðastíll** gefur til kynna stíla sem sérstakt afurðarsniðmát getur haft. Þetta hugtak er flutt í Dataverse til að halda gögnum samkvæmum.
 [Afurðarnúmer sem eru auðkennd með strikamerki](mapping-reference.md#164) | msdyn\_productbarcodes | Strikamerki afurða eru notuð til að bera kennsl á afurðir á einkvæman hátt.
 [Afurðartengdur umreikningur eininga](mapping-reference.md#176) | msdyn_productspecificunitofmeasureconversions |
-[Útgefnar afurðir V2](mapping-reference.md#189) | msdyn\_sharedproductdetails | The **msdyn\_ samnýtt vöruupplýsingar** taflan inniheldur dálka úr Finance and Operations forritum sem skilgreina vöruna og innihalda fjárhags- og stjórnunarupplýsingar vörunnar.
+[Útgefnar afurðir V2](mapping-reference.md#189) | msdyn\_sharedproductdetails | The **msdyn\_ samnýtt vöruupplýsingar** taflan inniheldur dálka úr Finance and Operations forritum sem skilgreina vöruna og sem innihalda fjárhags- og stjórnunarupplýsingar vörunnar.
 [Stærðir](mapping-reference.md#174) | msdyn\_productsizes
 [Geymsluvíddarflokkar](mapping-reference.md#177) | msdyn_productstoragedimensiongroups | Víddarhópur afurðageymslu táknar aðferðina sem notuð er til að skilgreina staðsetningu afurðarinnar í vöruhúsinu.
 [Stílar](mapping-reference.md#178) | msdyn\_productsytles
@@ -126,7 +126,7 @@ Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla |
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Sjálfgefnar pöntunarstillingar og afurðatengdar sjálfgefnar pöntunarstillingar
 
-Sjálfgefið pöntunarstillingar skilgreina svæði og vöruhús þar sem afurðir verða upprunnin frá eða geymdar, í lágmarks, hámarks, margar og staðlaðs magns sem verða notuð fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg, og aðferðina pöntun lofað. Þessar upplýsingar eru aðgengilegar í Dataverse með því að nota sjálfgefnu pöntunarstillingarnar og afurðatengda sjálfgefnr pöntunarstillingaeiningu. Þú getur lesið frekari upplýsingar um virkni í efninu [Sjálfgefnar pöntunarstillingar](../../../../supply-chain/production-control/default-order-settings.md).
+Sjálfgefið pöntunarstillingar skilgreina svæði og vöruhús þar sem afurðir verða upprunnin frá eða geymdar, í lágmarks, hámarks, margar og staðlaðs magns sem verða notuð fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg, og aðferðina pöntun lofað. Þessar upplýsingar eru aðgengilegar í Dataverse með því að nota sjálfgefnu pöntunarstillingarnar og afurðatengda sjálfgefnr pöntunarstillingaeiningu. Þú getur lesið frekari upplýsingar um virknina í [Grein um sjálfgefnar pöntunarstillingar](../../../../supply-chain/production-control/default-order-settings.md).
 
 Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla |
 ---|---

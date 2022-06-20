@@ -1,6 +1,6 @@
 ---
 title: Vinnusvæði Starfsmannastjórnunar
-description: Þetta efnisatriði lýsir hugmyndunum á bak við vinnusvæði starfsmannastjórnunar.
+description: Þessi grein lýsir hugmyndaþáttum vinnusvæðis starfsmannastjórnunar.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8b7493aa2df65b42d0da8a451c40cccafbc1cda8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: fc424905bc9311662859b900636a68de2f7ee3cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689467"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888760"
 ---
 # <a name="personnel-management-workspace"></a>Vinnusvæði Starfsmannastjórnunar
 
@@ -29,7 +29,7 @@ ms.locfileid: "8689467"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Vinnusvæði **Starfsmannastjórnunar** inniheldur mikið efni. Það inniheldur starfsmannahreyfingar, fylgist með breytingum starfsmanna, opnar stöður, heimilisfangsbreytingar, skráningar sem renna út og greiningar og veitir tengla á sérstakar upplýsingar. Í þessu efnisatriði er að finna ítarlegar upplýsingar um hvern hluta vinnusvæðisins.
+Vinnusvæði **Starfsmannastjórnunar** inniheldur mikið efni. Það inniheldur starfsmannahreyfingar, fylgist með breytingum starfsmanna, opnar stöður, heimilisfangsbreytingar, skráningar sem renna út og greiningar og veitir tengla á sérstakar upplýsingar. Þessi grein veitir nákvæmar upplýsingar um hvern hluta vinnusvæðisins.
 
 ## <a name="activity-tab"></a>Aðgerðarflipi
 
@@ -67,7 +67,7 @@ Hlutinn **Umsækjendur til að ráða** á vinnusvæði er fylltur út frá mör
 Ef stjórnandinn kemur ekki fram á spjaldinu hefur ekki verið úthlutað stöðu fyrir starfsmanninn.
 
 > [!NOTE] 
-> Við mælum með því að þú úthlutar starfsmanni stöðu áður en þú notar gátlista. Stundum er inngönguverkefnum úthlutað til yfirmanns nýráðins starfsmanns. Ef engu starfi er úthlutað er hins vegar ekki hægt að ákvarða yfirmann nýja starfsmannsins. Í því tilfelli verða ráðningarverk sem yfirmenn eiga að sjá um úthlutað á eiganda gátlistans í staðinn.
+> Við mælum með því að þú úthlutar starfsmanni stöðu áður en þú notar gátlista. Stundum er umboðsverkefnum úthlutað til yfirmanns nýráðins starfsmanns. Ef engu starfi er úthlutað er hins vegar ekki hægt að ákvarða yfirmann nýja starfsmannsins. Í því tilfelli verða ráðningarverk sem yfirmenn eiga að sjá um úthlutað á eiganda gátlistans í staðinn.
 
 Þegar starfskraftar birtast í hlutanum **Byrja bráðlega** eru eftirfarandi aðgerðir í boði fyrir þá:
 
@@ -87,7 +87,7 @@ Ef stjórnandinn kemur ekki fram á spjaldinu hefur ekki verið úthlutað stö�
 Listinn sýnir sjálfgefið starfsmenn sem voru ráðnir á síðustu sjö dögum. Til að breyta þessari stillingu, á síðunni **Færibreytur Human Resources**, í flipanum **Almennt**, skal skilgreina tímaramma fyrir **Nýlegar ráðningar**. Gögnin í hlutanum **Nýlegar ráðningar** er hægt að sýna fyrir tiltekinn fjölda daga, mánaða eða ára. Til að skoða til dæmis lista yfir starfskrafta sem voru ráðnir á síðustu 14 dögum skal stilla reitinn **Tímabil** á **14** og reitinn **Eining** á **Dagar**.
 
 > [!NOTE]
-> Stillingarnar á síðunni **Færibreytur Human Resources** eru sértækar fyrirtækinu. Þess vegna getur tímaramminn sem þú skoðar fyrir nýlegar ráðningar verið mismunandi eftir fyrirtækjum. Í USMF-fyrirtækinu er til dæmis hægt að skoða allar nýjar ráðningar frá síðustu sjö dögum. Hins vegar, í USSI fyrirtækinu, gætirðu viljað skoða allar nýráðningar síðustu 14 daga. Í þessu tilviki skaltu opna **Stærðir mannauðs** síðu í hverju fyrirtæki og stilltu færibreyturnar eftir þörfum.
+> Stillingarnar á síðunni **Færibreytur Human Resources** eru sértækar fyrirtækinu. Þess vegna getur tímaramminn sem þú skoðar fyrir nýlegar ráðningar verið mismunandi eftir fyrirtækjum. Í USMF-fyrirtækinu er til dæmis hægt að skoða allar nýjar ráðningar frá síðustu sjö dögum. Hins vegar, í USSI fyrirtækinu, gætirðu viljað skoða allar nýráðningar síðustu 14 daga. Í þessu tilviki skaltu opna **Mannauðsbreytur** síðu í hverju fyrirtæki og stilltu færibreyturnar eftir þörfum.
 
 Ef stjórnandinn kemur ekki fram á spjaldinu hefur ekki verið úthlutað stöðu fyrir starfsmanninn.
 

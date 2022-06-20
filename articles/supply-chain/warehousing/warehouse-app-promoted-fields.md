@@ -1,6 +1,6 @@
 ---
 title: Skilgreina stighækkaða reiti fyrir skref í farsímaforriti Warehouse Management
-description: Í þessu efnisatriði er lýst hvernig á að stighækka og auðkenna tilteknar upplýsingar fyrir hvaða skref sem er í verkflæðum fyrir farsímaforrit Warehouse Management.
+description: Þessi grein lýsir því hvernig á að kynna og auðkenna sérstakar upplýsingar fyrir hvaða skref sem er í verkefnaflæði fyrir vöruhúsastjórnun farsímaforritsins.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 0ce3fb829d349a35c6c2f29838a2c725f7b61c55
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857055"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Skilgreina stighækkaða reiti fyrir skref í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Eiginleikarnir sem lýst er í þessu efnisatriði eiga aðeins við um nýja farsímaforrit Warehouse Management. Þeir hafa ekki áhrif á gamla vöruhúsaforrið, sem nú er úrelt.
+> Eiginleikarnir sem lýst er í þessari grein eiga aðeins við um nýja vöruhússtjórnun farsímaforritið. Þeir hafa ekki áhrif á gamla vöruhúsaforrið, sem nú er úrelt.
 
-Í þessu efnisatriði er lýst hvernig á að stighækka og auðkenna tilteknar upplýsingar fyrir hvaða skref sem er í verkflæðum fyrir farsímaforrit Warehouse Management. Þessi möguleiki getur hjálpað starfsmönnum að einblína á mikilvægustu reitina þegar þeir vinna sig í gegnum flæði. Fyrir hvert skref í öllum ferlum geta stjórnendur valið hvaða reiti á að stighækka og auðkenna.
+Þessi grein lýsir því hvernig á að kynna og auðkenna sérstakar upplýsingar fyrir hvaða skref sem er í verkefnaflæði fyrir vöruhúsastjórnun farsímaforritsins. Þessi möguleiki getur hjálpað starfsmönnum að einblína á mikilvægustu reitina þegar þeir vinna sig í gegnum flæði. Fyrir hvert skref í öllum ferlum geta stjórnendur valið hvaða reiti á að stighækka og auðkenna.
 
 ## <a name="enable-promoted-fields-in-your-system"></a>Virkja stighækkaða reiti í kerfinu þínu
 
@@ -44,7 +44,7 @@ ms.locfileid: "7920324"
     - **Eining:** *Vöruhúsakerfi*
     - **Heiti eiginleika:** *Stighækkaðir reitir vöruhúsaforrits*
 
-    Þessi eiginleiki er eiginleikinn sem lýst er í þessu efnisatriði.
+    Þessi eiginleiki er sá eiginleiki sem lýst er í þessari grein.
 
 1. Uppfærðu heiti reita í farsímaforriti Warehouse Management með því að fara í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Reitarheiti vöruhúsaforrits** og veldu **Búa til sjálfgefna uppsetningu**. Frekari upplýsingar eru í [Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis](configure-app-field-names-priorities-warehouse.md).
 1. Endurtaktu fyrra skrefið fyrir hvern lögaðila (fyrirtæki) þar sem þú notar farsímaforrit Warehouse Management.
@@ -56,7 +56,7 @@ Notaðu eftirfarandi ferli til að setja upp stighækkaða reiti.
 1. Búðu til hnekkingu valmyndar fyrir tiltekna valmynd og skref eins og lýst er í [Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management](mobile-app-titles-instructions.md).
 1. Finndu samsetningu gilda fyrir **Kenni skrefs** og **Heiti valmyndaratriðis** sem þú vilt breyta og veldu síðan gildið í dálknum **Kenni skrefs**.
 1. Á síðunni sem birtist, á flýtiflipanum **Velja stighækkaða reiti**, skal velja **Velja reiti** á tækjastikunni.
-1. Í svarglugganum **Stighækkaðir reitir** skal velja reitina sem á að stighækka. Þú getur einnig auðkennt allt að tvo stighækkaða reiti. Auðkenndir reitir verða sýndir feitletraðir í farsímaforriti Warehouse Management. Þegar þú velur reiti skaltu hafa í huga þá staðreynd að sumir skjáir geta verið nógu stórir til að sýna aðeins efstu einn eða tvo stighækkaða reiti. Dæmi sem sýnir hvernig á að nota þessar stillingar er að finna í aðstæðunum síðar í þessu efnisatriði.
+1. Í svarglugganum **Stighækkaðir reitir** skal velja reitina sem á að stighækka. Þú getur einnig auðkennt allt að tvo stighækkaða reiti. Auðkenndir reitir verða sýndir feitletraðir í farsímaforriti Warehouse Management. Þegar þú velur reiti skaltu hafa í huga þá staðreynd að sumir skjáir geta verið nógu stórir til að sýna aðeins efstu einn eða tvo stighækkaða reiti. Fyrir dæmi sem sýnir hvernig á að nota þessar stillingar, sjá atburðarás síðar í þessari grein.
 
     > [!NOTE]
     > Listinn **Tiltækir reitir** takmarkast við reitina sem geta birst fyrir valmyndaratriðið. Aðrir þættir (t.d. vörusamsetning) skera hinsvegar úr um hvort reitur birtist í raun í farsímaforriti Warehouse Management. Ef þú hefur skilgreint stighækkaða reiti munu aðeins valdir reitir birtast á aðalsíðu farsímaforrits Warehouse Management. Starfsmenn geta hinsvegar enn skoðað hina reitina með því að pikka á upplýsingasíðuna.

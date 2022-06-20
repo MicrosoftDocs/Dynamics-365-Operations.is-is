@@ -1,6 +1,6 @@
 ---
 title: Uppfæra númer og dagsetningar vottorða fyrir TDS-færslur
-description: Í þessu efnisatriði er útskýrt hvernig á að uppfæra endurheimtanleg vottorðanúmer og dagsetningar sem voru skráðar fyrir lánardrottin, viðskiptavin og fjárhagslykil fyrir skatt sem dreginn er frá í upphafi (TDS).
+description: Þessi grein útskýrir hvernig á að uppfæra endurheimtanlegt skírteinisnúmer og dagsetningar sem voru skráðar fyrir lánardrottna-, viðskiptamanna- og fjárhagsreikninga fyrir frádráttarskatt frá uppruna (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7f8b5713e8ce3f9e9c89b8b3bc6ea84fe1f0fa54
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 147a27261a4a282550f0bacede78c9edd38b4fe6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724812"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904442"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>Uppfæra númer og dagsetningar vottorða fyrir TDS-færslur
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að uppfæra endurheimtanleg vottorðanúmer og dagsetningar sem voru skráðar fyrir lánardrottin, viðskiptavin og fjárhagslykil fyrir skatt sem dreginn er frá í upphafi (TDS). Hægt er að skoða vottorðin fyrir TDS-færslur á síðunni **Endurheimtanleg vottorð**. Hægt er að uppfæra vottorðin með því að nota síðuna **Uppfæra vottorð**.
+Þessi grein útskýrir hvernig á að uppfæra endurheimtanlegt skírteinisnúmer og dagsetningar sem voru skráðar fyrir lánardrottna-, viðskiptamanna- og fjárhagsreikninga fyrir frádráttarskatt frá uppruna (TDS). Hægt er að skoða vottorðin fyrir TDS-færslur á síðunni **Endurheimtanleg vottorð**. Hægt er að uppfæra vottorðin með því að nota síðuna **Uppfæra vottorð**.
 
 Fylgið þessum skrefum til að uppfæra vottorðanúmerin og dagsetningarnar fyrir TDS-færslur.
 

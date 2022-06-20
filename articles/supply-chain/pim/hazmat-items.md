@@ -1,6 +1,6 @@
 ---
 title: Hættuleg efni í afurðum, pöntunum, sendingum og förmum
-description: Þetta efnisatriði útskýrir hvernig á að stilla eiginleika hættulegra efna fyrir útgefnar afurðir, hvernig á að setja birgðamörk á hættulegar vörur og hvernig á að taka með hættuleg efni í sölupöntun, sendingu eða farmi.
+description: Þessi grein útskýrir hvernig á að stilla hættulega efniseiginleika fyrir losaðar vörur, hvernig á að setja birgðatakmarkanir á hættulega hluti og hvernig á að setja hættuleg efni í sölupöntun, sendingu eða farm.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eaae3ce4916465cd57da65eaa217c40f9c3ea88a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570706"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860697"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Hættuleg efni í afurðum, pöntunum, sendingum og förmum
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að stilla eiginleika hættulegra efna fyrir útgefnar afurðir, hvernig á að setja birgðamörk á hættulegar vörur og hvernig á að taka með hættuleg efni í sölupöntun, sendingu eða farmi.
+Þessi grein útskýrir hvernig á að stilla hættulega efniseiginleika fyrir losaðar vörur, hvernig á að setja birgðatakmarkanir á hættulega hluti og hvernig á að setja hættuleg efni í sölupöntun, sendingu eða farm.
 
 ## <a name="set-hazardous-material-specifications-for-products"></a>Setja verklýsingar hættulegra efna fyrir afurðir
 
@@ -109,11 +109,11 @@ Hér eru útskýringar á formúlunni:
 - *&lt;UnitConversion&gt;* er umreiknistuðull til að umreikna eininguna sem notuð er fyrir magn farmlínunnar yfir í eininguna sem er tilgreind fyrir afurð í reitnum **Eining** í flýtiflipanum **Stjórnun efna**.
 - *&lt;Multiplier&gt;* er margfaldari sem tilgreindur er fyrir afurð í reitnum **Margfaldari** í flýtiflipanum **Stjórnun efna**.
 
-Þetta stigaskor er gefið upp fyrir hverja farmlínu sem inniheldur afurð þar sem þessi gildi eru tilgreind. Frekari upplýsingar er að finna í hlutunum [Sendingar sem innihalda hættuleg efni](#hazmat-shipments) og [Farmar sem innihalda hættuleg efni](#hazmat-loads) síðar í þessu efnisatriði.
+Þetta stigaskor er gefið upp fyrir hverja farmlínu sem inniheldur afurð þar sem þessi gildi eru tilgreind. Fyrir frekari upplýsingar, sjá [Sendingar sem innihalda hættuleg efni](#hazmat-shipments) og [Álag sem inniheldur hættuleg efni](#hazmat-loads) kafla síðar í þessari grein.
 
 #### <a name="how-the-hazardous-material-weight-is-calculated"></a>Hvernig þyngd á hættulegum efnum er reiknuð út
 
-Farmar og farmlínur sem innihalda afurðir þar sem valkosturinn **Takmarkað magn** í flýtiflipanum **Stjórnun efna** er stilltur á **Já** munu sýna heildarþyngd hættulegs efnis eins og lýst er í hlutunum [Sendingar sem innihalda hættuleg efni](#hazmat-shipments) og [Farmar sem innihalda hættuleg efni](#hazmat-loads) síðar í þessu efnisatriði. Þyngd hættulegs efnis er reiknuð út með því að nota eftirfarandi formúlu:
+Hleðslur og hleðslulínur sem innihalda vörur þar sem **Takmarkað magn** valmöguleika á **Efnisstjórnun** Flýtiflipi er stilltur á **Já** mun sýna heildarþyngd hættulegs efnis, eins og lýst er í [Sendingar sem innihalda hættuleg efni](#hazmat-shipments) og [Álag sem inniheldur hættuleg efni](#hazmat-loads) kafla síðar í þessari grein. Þyngd hættulegs efnis er reiknuð út með því að nota eftirfarandi formúlu:
 
 Þyngd hættulegs efnis = *&lt;LineQty&gt;* × *&lt;ProductWeight&gt;* × *&lt;UnitConversion&gt;*
 

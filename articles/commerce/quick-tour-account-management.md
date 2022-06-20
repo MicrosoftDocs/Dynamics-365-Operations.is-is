@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir síður fyrir stjórnun reikninga
-description: Í þessu efnisatriði er að finna yfirlit yfir síður fyrir stjórnun reikninga í Microsoft Dynamics 365 Commerce.
+description: Þessi grein veitir yfirlit yfir reikningsstjórnunarsíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9cc70f48371fb90f4e3529173d30baffd6fe4e14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984520"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868884"
 ---
 # <a name="account-management-pages-overview"></a>Yfirlit yfir síður fyrir stjórnun reikninga
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna yfirlit yfir síður fyrir stjórnun reikninga í Microsoft Dynamics 365 Commerce.
+Þessi grein veitir yfirlit yfir reikningsstjórnunarsíður í Microsoft Dynamics 365 Commerce.
 
 Reikningsstjórnunarsíður leyfa viðskiptavinum að skoða upplýsingar sem tengjast reikningi þeirra og pöntunum. Reikningsstjórnunarsíður innihalda lendingasíðu reikningsstjórnunar og síður fyrir notandaforstillingu, heimilisföng, pöntunarferil, pöntunarupplýsingar, vildarpunkta og óskalista.
 

@@ -1,6 +1,6 @@
 ---
 title: Fjárhagsdagatal, fjárhagsár og tímabil
-description: Í þessu efni er fjallað um fjárhagsdagatöl, fjárhagsár og tímabil og hvernig nýta megi þau fyrir lögaðila, fastafjármuni og fjárhagsáætlunargerð.
+description: Þessi grein fjallar um fjárhagsdagatöl, reikningsár og tímabil og hvernig á að nýta þau fyrir lögaðila, eignir og fjárhagsáætlanir.
 author: aprilolson
 ms.date: 03/05/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d50db3a96d6267f59dd5a99c039dd8fc8b44079a
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: a1583df4650d0b36ecc2cb0d3e2d3a410aa807ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717391"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909099"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Fjárhagsdagatal, fjárhagsár og tímabil
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efni er fjallað um fjárhagsdagatöl, fjárhagsár og tímabil og hvernig nýta megi þau fyrir lögaðila, fastafjármuni og fjárhagsáætlunargerð.
+Þessi grein fjallar um fjárhagsdagatöl, reikningsár og tímabil og hvernig á að nýta þau fyrir lögaðila, eignir og fjárhagsáætlanir.
 
 Fjárhagsdagatöl veita ramma fjárhagslegar verkþáttar fyrirtækis. Hvert fjárhagsdagatal inniheldur eitt eða fleiri fjárhagsár og hvert fjárhagsár inniheldur mörg tímabil. Hægt er að byggja fjárhagsdagatöl á 1. Janúar til almanaksárs 31. Desember eða á hvaða dagsetningar sem er valin. Till dæmis velja sum fyrirtæki fjárhagsdagatal sem byrjar 1. júlí eins árs og lýkur 30. júní næsta ár á eftir. 
 

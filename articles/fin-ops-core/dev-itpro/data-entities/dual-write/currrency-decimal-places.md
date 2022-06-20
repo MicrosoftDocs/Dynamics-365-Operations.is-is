@@ -1,6 +1,6 @@
 ---
 title: Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif
-description: Þetta efnisatriði lýsir því hvernig á að breyta fjölda aukastafa sem tvöföld skrif styðja fyrir gjaldmiðil.
+description: Þessi grein lýsir því hvernig á að breyta fjölda aukastafa sem tvískrift styður fyrir gjaldmiðil.
 author: RamaKrishnamoorthy
 ms.date: 12/08/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: e9dc3e6c5fbec9636370b64a9bbdcf8a5834d332
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 809906c3926b200e7beac84e780314aec1f8c2ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061837"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855588"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif
 
@@ -90,7 +90,7 @@ Fjöldi aukastafa sem hægt er að stilla fyrir tiltekna gjaldmiðilsdálka takm
 ### <a name="default-currency-decimal-precision"></a>Sjálfgefin tuganákvæmni gjaldmiðils
 Fyrir væntanlega hegðun fyrir sjálfgefna gjaldmiðils aukastafsnákvæmni við flutnings- og óflutningssviðsmyndir, vísa til eftirfarandi töflu. 
 
-| Stofndagsetning  | Gjaldmiðill tugabrotsreitur    | Núverandi stofnun (gjaldmiðilsreitur ekki fluttur) | Núverandi stofnun (gjaldmiðilsreitur fluttur) | Ný stofnun búin til færslubygging 9.2.21062.00134 |
+| Stofnað þann  | Gjaldmiðill tugabrotsreitur    | Núverandi stofnun (gjaldmiðilsreitur ekki fluttur) | Núverandi stofnun (gjaldmiðilsreitur fluttur) | Ný stofnun búin til færslubygging 9.2.21062.00134 |
 |---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
 | Gjaldeyrisreitur búinn til fyrir smíði 9.2.21111.00146  |     |  |       |
 |    | Hámarks nákvæmni sýnileg í notendaviðmóti   | 4 tölustafir    | 10 tölustafir    | Á ekki við    |

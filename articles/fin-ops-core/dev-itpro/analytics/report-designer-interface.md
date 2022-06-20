@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 60b96f4d116d7f8f14226bd792c36c487cc0035763afdff6bbe22fe6e0104e77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2af539e9201456c46d1dd5fef5f31f9c4f225cdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777381"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844591"
 ---
 # <a name="report-designer-interface"></a>Skýrsluhönnunarviðmót
 
@@ -157,9 +157,9 @@ Valmyndin **Gluggi** er í boði fyrir alla notendur og inniheldur eftirfarandi 
 
 **Hjálp** valmyndin er tiltæk fyrir alla notendur og inniheldur eftirfarandi skipanir.
 
-| skipun | Lýsing                                                              |
+| Skipun | Lýsing                                                              |
 |---------|--------------------------------------------------------------------------|
-| Hjálp    | Opna hjálparefnissíðu fyrir fjárhagsskýrslugerð. |
+| Hjálp    | Opnaðu hjálpargreinasíðuna fyrir fjárhagsskýrslur. |
 |         |                                                                          |
 
 ## <a name="report-designer-toolbar-buttons"></a>Skýrsluhönnunarverkfærahnappar

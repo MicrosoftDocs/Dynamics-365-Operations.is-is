@@ -1,6 +1,6 @@
 ---
 title: Myndræn framsetning vinnuálags á útleið
-description: Þetta efnisatriði veitir upplýsingar um myndræn framsetningu á útleið. Þessi virkni gerir stjórnendum vöruhúsa og yfirmönnum kleift að búa til sérsniðin vinnuálagsgröf sem má nota til að fylgjast með framvindu núverandi vinnu og hversu mikið er eftir af vinnunni. Vöruhúsastjórnendur geta búið til mörg yfirlit og sett upp sjálfvirka endurnýjun að vild.
+description: Þessi grein veitir upplýsingar um sjónrænt vinnuálag á útleið. Þessi virkni gerir stjórnendum vöruhúsa og yfirmönnum kleift að búa til sérsniðin vinnuálagsgröf sem má nota til að fylgjast með framvindu núverandi vinnu og hversu mikið er eftir af vinnunni. Vöruhúsastjórnendur geta búið til mörg yfirlit og sett upp sjálfvirka endurnýjun að vild.
 author: Mirzaab
 ms.date: 08/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db6ceb40279e53e9c4751a7ceb3db895e889a7c0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 0e5a2cd2aa458217ff212d45c0dd13c9d0623bd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851334"
 ---
 # <a name="outbound-workload-visualization"></a>Myndræn framsetning vinnuálags á útleið
 

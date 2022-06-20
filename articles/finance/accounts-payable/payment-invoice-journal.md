@@ -1,6 +1,6 @@
 ---
 title: Jafna greiðsluáætlun við reikningabók
-description: Þetta efnisatriði lýsir því hvernig á að bæta greiðslu við reikningsbók lánardrottins.
+description: Þessi grein lýsir því hvernig á að bæta greiðslu við reikningsbók lánardrottins.
 author: sunfzam
 ms.date: 01/31/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: f6481c3fc033acf4bb563bf1716789216646b60b
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: f3ae08ea46be66dd8bf26f7f91bd73f6c5b9192f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358340"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863131"
 ---
 # <a name="apply-a-payment-schedule-to-the-invoice-journal"></a>Jafna greiðsluáætlun við reikningabók
 
 [!include [banner](../includes/preview-banner.md)]
 
-Í Microsoft Dynamics 365 Finance útgáfu 10.0.25, greiðsluáætlun er nú studd á **Reikningsbók lánardrottins**.
+Í Microsoft Dynamics 365 Fjárhagsútgáfa 10.0.25, greiðsluáætlun er nú studd á **Reikningabók lánardrottins**.
 
 Til að nota þessa virkni verður þú að virkja **Notaðu greiðsluáætlun á reikningabók** eiginleiki í Eiginleikastjórnun.
 
@@ -45,4 +45,4 @@ Greiðsluáætlunaraðgerðin er einnig fáanleg í **Reikningaskrá söluaðila
 
 Fyrir reikning lánardrottins í bið, ef greiðsluáætlun er á reikningshaus, er háþróuð síða sem gerir notendum kleift að breyta greiðslulínum. (Til dæmis geta notendur breytt gjalddaga og gildi fyrir hverja greiðslulínu.) Greiðslulínur sem eru búnar til úr reikningsbók munu hafa gildi frá greiðsluáætlun.
 
-Þessi virkni verður í boði fyrir **Reikningsbók lánardrottins** og **Reikningar í bið** í framtíðarútgáfu.
+Þessi virkni verður í boði fyrir **Reikningabók lánardrottins** og **Reikningar í bið** í framtíðarútgáfu.

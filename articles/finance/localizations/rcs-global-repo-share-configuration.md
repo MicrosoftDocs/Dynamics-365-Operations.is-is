@@ -1,6 +1,6 @@
 ---
 title: Deila skilgreiningum rafrænnar skýrslugerðar í RCS/altækri geymslu með utanaðkomandi fyrirtækjum
-description: Þetta efnisatriði útskýrir hvernig á að deila skilgreiningum rafrænnar skýrslugerðar í Microsoft Regulatory Configuration Services (RCS)/altækri geymslu beint með ytri fyrirtækjum.
+description: Þessi grein útskýrir hvernig á að deila rafrænum skýrslugerðum (ER) stillingum í Microsoft Regulatory Configuration Services (RCS)/alþjóðlegu geymslunni beint með ytri stofnunum.
 author: JaneA07
 ms.date: 05/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ee7feef83ffa458e7cbd238d37a0f343d1a202f48002da67823df024bb609d02
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 976a86aee75581d1afa764bea049b6c0eaecf9f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719174"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888924"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Deila skilgreiningum rafrænnar skýrslugerðar í altækri geymslu Regulatory Configuration Services (RCS) með ytri fyrirtækjum
 
@@ -36,7 +36,7 @@ Eftirfarandi ferli útskýra hvernig RCS-notandi getur deilt útgáfu af skilgre
 
 Einnig þarf að ganga úr skugga um að RCS-umhverfi sé úthlutað fyrir fyrirtækið.
 
-1. Í Finance and Operations forriti skal opna **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
+1. Í Finance and Operations app, farðu til **Stjórn stofnunarinnar** \> **Vinnurými** \> **Rafræn skýrslugerð**.
 2. Ef engu RCS-umhverfi er úthlutað fyrir fyrirtækið skaltu velja **Regulatory Services – ytri skilgreining** og fylgja svo leiðbeiningunum til að úthluta einu slíku.
 
 Ef RCS-umhverfi hefur þegar verið útvegað fyrir þitt fyrirtæki, notaðu slóðina á síðunni til að fá aðgang að því með því að velja innskráningarvalkostinn.
@@ -67,7 +67,7 @@ Eftir að skilgreining hefur verið stofnuð í skilgreiningarveitu er hægt að
 
     ![Samnýta skilgreiningarútgáfu með svarglugga ytra fyrirtækis.](media/1_RCS_Repo_for_Share_with_form.JPG)
 
-Skilgreiningunni er deilt með ytra fyrirtækinu og er aðgengileg fyrir það fyrirtæki í altæku geymslunni. Þaðan er hægt að flytja hana inn í tilvik fyrirtækisins í RCS eða í tilvik Finance and Operations-forrita.
+Skilgreiningunni er deilt með ytra fyrirtækinu og er aðgengileg fyrir það fyrirtæki í altæku geymslunni. Þaðan er hægt að flytja það inn í tilvik fyrirtækisins af RCS eða í tilvik þess af Finance and Operations forritum.
 
 6. Til að stöðva samnýtingu skilgreiningar sem áður hefur verið deilt með ytra fyrirtæki skal velja skilgreininguna og smella á **Stöðva samnýtingu** og velja síðan **Í lagi**
 

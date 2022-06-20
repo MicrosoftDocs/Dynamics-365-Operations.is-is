@@ -1,6 +1,6 @@
 ---
 title: Eignauppskriftir
-description: Þetta efni lýsir eignauppskriftum (BOMs) í eignastýringu.
+description: Þessi grein lýsir eignaskrám (BOMs) í eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0430891607ac4558c91b86318aee318d0076007daf59a32eda65cb411d274b3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751986"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882780"
 ---
 # <a name="asset-boms"></a>Eignauppskriftir
 
@@ -28,7 +28,7 @@ ms.locfileid: "6751986"
 
  
 
-Þetta efni lýsir eignauppskriftum (BOMs) í eignastýringu. Síðan **Uppskrift eignar** sýnir lista yfir alla hluti (varahluti og aðra hluti) sem eru notaðir á eign alla sína ævi. Þegar þú býrð til nýja eign, ættir þú að íhuga að setja upp uppskrift eignar sem hluta af uppsetningarferlinu. Á þennan hátt getur þú fylgst með sögu sögu eignarinnar frá stofnunardegi.
+Þessi grein lýsir eignaskrám (BOMs) í eignastýringu. Síðan **Uppskrift eignar** sýnir lista yfir alla hluti (varahluti og aðra hluti) sem eru notaðir á eign alla sína ævi. Þegar þú býrð til nýja eign, ættir þú að íhuga að setja upp uppskrift eignar sem hluta af uppsetningarferlinu. Á þennan hátt getur þú fylgst með sögu sögu eignarinnar frá stofnunardegi.
 
 Eftir að þú hefur lokið viðhaldsstörfum og neysla á hlutum hefur verið skráð í vinnupöntun geturðu fylgst með neyslu varahluta og annarra hluta sem eru notaðir á eignina. Þessi virkni gerir þér kleift að halda fullkomna neysluskrá hluta fyrir allar eignir þínar. Til dæmis er hægt að nota skrána til að fylgjast með því hvort skipt er um ákveðinn varahlut eða oft til að fylgjast með varahlutunum eða öðrum hlutum sem nú eru notaðir á eign.
 

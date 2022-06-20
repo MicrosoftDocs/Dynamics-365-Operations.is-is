@@ -1,6 +1,6 @@
 ---
 title: Setja upp vinnusniðmát fyrir innkaupapantanir
-description: Þetta efni lýsir hvernig setja skal upp einfalt vinnusniðmát sem nota á þegar taka á frá mótteknar vörur.
+description: Þessi grein lýsir því hvernig á að setja upp einfalt vinnusniðmát til að nota þegar þú setur frá mótteknum hlutum.
 author: Mirzaab
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32dbdd8243c6b37cfe0c42d2e7b06adfa32a947a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ee6bc896a979c326001e1596e4a463753005fabf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572290"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877364"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Setja upp vinnusniðmát fyrir innkaupapantanir
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni lýsir hvernig setja skal upp einfalt vinnusniðmát sem nota á þegar taka á frá mótteknar vörur. Vinnusniðmát ákvarða safn leiðbeiningarnar sem birtast starfsmanns vöruhús í farsíma þegar fluttar eru vörur frá móttöku svæði. Hægt er að nota þessi ferli með gögn sem eru nefnd í sýnigögn fyrirtækisins USMF. Áður en byrjað er í þessari handbók, stofna kenni vinnuhóps. Í þessu dæmi er kenni vinnuhóps kallað inn í Á innleið notað. Þetta ferli er ætluð fyrir stjórnanda í vöruhúsi.
+Þessi grein lýsir því hvernig á að setja upp einfalt vinnusniðmát til að nota þegar þú setur frá mótteknum hlutum. Vinnusniðmát ákvarða safn leiðbeiningarnar sem birtast starfsmanns vöruhús í farsíma þegar fluttar eru vörur frá móttöku svæði. Hægt er að nota þessi ferli með gögn sem eru nefnd í sýnigögn fyrirtækisins USMF. Áður en byrjað er í þessari handbók, stofna kenni vinnuhóps. Í þessu dæmi er kenni vinnuhóps kallað inn í Á innleið notað. Þetta ferli er ætluð fyrir stjórnanda í vöruhúsi.
 
 1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Vöruhúsakerfi > Uppsetning > Vinna > Vinnusniðmát**.
 2. Í reitnum **Gerð verkbeiðni** velurðu **Innkaupapantanir**.

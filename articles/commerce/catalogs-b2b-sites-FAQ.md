@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um Commerce-vörulista fyrir B2B
-description: Þetta efni veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce vörulista.
+description: Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce vörulista.
 author: ashishmsft
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 5bdc7dfcb0e48aa85db2db4d178c5bf62ea0411b
-ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
-ms.translationtype: MT
+ms.openlocfilehash: 0cd11b4469e4dbd1205ace785fe857f6c6001480
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782863"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849042"
 ---
 # <a name="commerce-catalogs-for-b2b-faq"></a>Algengar spurningar um Commerce-vörulista fyrir B2B
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Þetta efni veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce [vörulista frá fyrirtæki til fyrirtækja (B2B)](catalogs-b2b-sites.md).
+Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce [vörulista frá fyrirtæki til fyrirtækja (B2B)](catalogs-b2b-sites.md).
 
 ## <a name="why-cant-i-configure-a-catalog-specific-navigation-hierarchy-or-see-an-option-to-associate-a-customer-hierarchy"></a>Af hverju get ég ekki stillt vörulistasérhæft leiðsögustigveldi eða séð möguleika á að tengja stigveldi viðskiptavina?
 
@@ -35,7 +35,7 @@ Já, notendur viðskiptasíðugerðar sem hafa aðgang að **Vörur** síða í 
 
 Já, kaup úr mörgum vörulistum í einni afgreiðslu eru leyfð. B2B kaupendur geta notað vörulistavísirinn í körfuskjánum til að ákvarða hvaða hlutum var bætt við úr hvaða vörulista.
 
-## <a name="if-a-b2b-shopper-purchases-the-same-item-from-different-catalogs-what-is-the-expected-behavior"></a>Ef B2B kaupandi kaupir sömu vöru úr mismunandi vörulistum, hver er þá hegðun sem búist er við?
+## <a name="if-a-b2b-shopper-purchases-the-same-item-from-different-catalogs-what-is-the-expected-behavior"></a>Ef B2B kaupandi kaupir sömu vöruna úr mismunandi vörulistum, hver er þá hegðun sem búist er við?
 
 Þó að tiltekinn notandi gæti haft aðgang að mörgum vörulistum á tilteknum tíma, er búist við því að vörur í þeim vörulistum útiloki hvor aðra. Með öðrum orðum, helst ætti sama vara ekki að vera hluti af fleiri en einum vörulista fyrir tiltekinn notanda.
 

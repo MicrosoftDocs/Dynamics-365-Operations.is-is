@@ -1,6 +1,6 @@
 ---
 title: Stjórna notendum samstarfsaðila á rafrænum B2B-vefsvæðum
-description: Þetta efni lýsir því hvernig á að bæta við, eyða og breyta notendum viðskiptafélaga á Microsoft Dynamics 365 Commerce viðskipti á milli fyrirtækja (B2B) netviðskiptavefsíður og í höfuðstöðvum viðskipta.
+description: Þessi grein lýsir því hvernig á að bæta við, eyða og breyta notendum viðskiptafélaga á Microsoft Dynamics 365 Commerce viðskipti á milli fyrirtækja (B2B) netviðskiptavefsíður og í höfuðstöðvum viðskipta.
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ef8ae583f18048fc6a36adf38ee7be0fb5b02fcd
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4a3d1c7bf7e7ea545590315d9e185fa525b5d5e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860296"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Stjórna notendum samstarfsaðila á rafrænum B2B-vefsvæðum
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að bæta við, eyða og breyta notendum viðskiptafélaga á Microsoft Dynamics 365 Commerce viðskipti á milli fyrirtækja (B2B) netviðskiptavefsíður og í höfuðstöðvum viðskipta.
+Þessi grein lýsir því hvernig á að bæta við, eyða og breyta notendum viðskiptafélaga á Microsoft Dynamics 365 Commerce viðskipti á milli fyrirtækja (B2B) netviðskiptavefsíður og í höfuðstöðvum viðskipta.
 
 > [!NOTE]
-> - The [Stjórna B2B viðskiptafélögum með því að nota stigveldi viðskiptavina](partners-customer-hierarchies.md) efni er forsenda þessa skjals.
+> - The [Stjórna B2B viðskiptafélögum með því að nota stigveldi viðskiptavina](partners-customer-hierarchies.md) grein er forsenda þessa skjals.
 > - Gakktu úr skugga um að þú frumstillir einingu skjalategunda í höfuðstöðvum Commerce með því að opna **Skjalagerðir** form kl **Stjórn stofnunarinnar \> Skjalastjórnun \> Skjalagerðir**.
 
 Rafræn B2B-vefsvæði krefjast þess að fyrirtæki skrái sig til að gerast samstarfsaðilar. Eftir að stofnun hefur sent skráningarupplýsingar á B2B rafræn viðskipti vefsíðu fer skráningarbeiðnin í gegnum hæfisferli. Ef fyrirtækið telst hæft er það tekið inn sem samstarfsaðili.
@@ -53,9 +53,9 @@ Til að samþykkja beiðni viðskiptafélaga í höfuðstöðvum Commerce skaltu
 1. Fara til **Upplýsingatækni í smásölu og viðskiptum \> Dreifingaráætlun**, og keyra **1010 (Viðskiptavinir)** starf til að ýta nýjum viðskiptamanna- og stigveldisskrám viðskiptavina í rásargagnagrunninn.
 
 > [!NOTE]
-> Til að tryggja að nýju viðskiptamannafærslurnar séu sendar í rásargagnagrunninn ætti að minnsta kosti ein af heimilisfangabókunum sem eru tengdar viðskiptavininum að vera með í heimilisfangaskrá viðskiptavinarins sem tengist netversluninni. Hægt er að gera þetta ferli sjálfvirkt með því að stilla heimilisfangabókina á sjálfgefna viðskiptavinum netverslunarinnar þannig að kerfið afritar gildi heimilisfangabókarinnar til hvers nýs viðskiptamanns.
+> Til að tryggja að nýju viðskiptamannafærslurnar séu sendar í rásargagnagrunninn ætti að minnsta kosti ein af heimilisfangabókunum sem eru tengdar viðskiptavininum að vera með í heimilisfangaskrá viðskiptavinarins sem tengist netversluninni. Hægt er að gera þetta ferli sjálfvirkt með því að stilla heimilisfangaskrána á sjálfgefna viðskiptavinum netverslunarinnar þannig að kerfið afritar gildi heimilisfangabókar til hvers nýs viðskiptamanns.
 
-Eftir að stigveldisskrár viðskiptavina hafa verið samstilltar við rásargagnagrunninn getur umsækjandinn skráð sig inn á B2B rafræn viðskipti vefsíðu með því að nota netfangið sem hann gaf upp þegar þeir sendu inn beiðni um inngöngu. Notendur geta notað nýskráningarferlið til að stilla aðgangsorð fyrir reikninginn. Fyrir upplýsingar um hvernig á að virkja Azure Active Directory (Azure AD) Skráning B2C auðkennisveitu til að tengja við B2B viðskiptamannaskrá sem var búin til við samþykki viðskiptavinar, sjá [Virkja sjálfvirka tengingu](../identity-record-linking.md).
+Eftir að stigveldisskrár viðskiptavina hafa verið samstilltar við rásargagnagrunninn getur umsækjandinn skráð sig inn á B2B rafræn viðskipti vefsíðu með því að nota netfangið sem hann gaf upp þegar þeir sendu inn beiðni um inngöngu. Notendur geta notað nýskráningarferlið til að stilla aðgangsorð fyrir reikninginn. Fyrir upplýsingar um hvernig á að virkja Azure Active Directory (Azure AD) Skráning B2C auðkennisveitu til að tengja við B2B viðskiptamannaskrána sem var búin til við samþykki viðskiptavinar, sjá [Virkja sjálfvirka tengingu](../identity-record-linking.md).
 
 ## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>Tilkynna B2B-viðföngum þegar þau eru samþykkt eða þeim hafnað
 
@@ -64,7 +64,7 @@ Eftir að stigveldisskrár viðskiptavina hafa verið samstilltar við rásargag
 Til að setja upp tölvupósttilkynningar í höfuðstöðvum Commerce fyrir viðburði í **B2B tilboð samþykkt** eða **B2B tilboði hafnað** tegund tilkynninga skaltu fylgja þessum skrefum.
 
 1. Búðu til tölvupóstsniðmát fyrir tölvupóst sem verða send til viðskiptavina þegar annað hvort **B2B tilboð samþykkt** eða **B2B tilboði hafnað** tegund tilkynninga er ræst. Fyrir upplýsingar um staðgengla sem þessar tilkynningagerðir styðja, sjá [Tegundir tilkynninga](../email-templates-transactions.md#notification-types). Frekari upplýsingar um hvernig á að búa til sniðmát fyrir tölvupóst skal skoða [Stofna sniðmát fyrir tölvupóst](../email-templates-transactions.md#create-an-email-template).
-1. Bætið við **B2B tilboð samþykkt** og **B2B tilboði hafnað** tilkynningategundir yfir á tilkynningasniðið í tölvupósti og varpa þeim síðan við tölvupóstsniðmátið sem þú bjóst til. Frekari upplýsingar um forstillingar tilkynninga er að finna í [Setja upp forstillingu tilkynningar í tölvupósti](../email-notification-profiles.md).
+1. Bætið við **B2B tilboð samþykkt** og **B2B tilboði hafnað** tilkynningategundir yfir á tilkynningasniðið í tölvupósti og varpa þeim síðan við tölvupóstsniðmátin sem þú bjóst til. Frekari upplýsingar um forstillingar tilkynninga er að finna í [Setja upp forstillingu tilkynningar í tölvupósti](../email-notification-profiles.md).
 
 ## <a name="onboard-additional-business-partner-users"></a>Fleiri notendur samstarfsaðila teknir inn
 
@@ -115,13 +115,13 @@ Til að taka inn samstarfsaðila og notendur í Commerce Headquarters skal fylgj
 1. Færið inn lýsandi nafn í reitinn **Heiti**.
 1. Í reitinn **Fyrirtæki** skal færa inn viðskiptavin samstarfsaðilafyrirtækisins.
 1. Á **Stigveldi** Flýtiflipi, veldu **Bæta við**.
-1. Í **Nafn** reit, veldu viðskiptavin í **Persóna** gerð.
+1. Í **Nafn** reit, veldu viðskiptavin í **Persóna** tegund.
 1. Veldu **Admin** hlutverk fyrir viðskiptavininn sem ætti að vera tilnefndur sem stjórnandi.
 1. Endurtaktu þetta ferli til að bæta fleiri viðskiptavinum við stigveldið.
 
 ## <a name="additional-information"></a>Viðbótarupplýsingar
 
-- Hægt er að skilgreina öll verk sem eru nefnd eru í þessu efnisatriði til að keyra áætlun á runusniði. Búist er við að samstarfsaðilar muni skilgreina runuvinnslur eftir þörfum.
+- Hægt er að stilla öll störf sem nefnd eru í þessari grein til að keyra á áætlun í runusniði. Búist er við að samstarfsaðilar muni skilgreina runuvinnslur eftir þörfum.
 - Sem stendur getur aðeins einn notandi/viðskiptavinafærsla verið stjórnandi og aðeins er hægt að breyta hlutverkinu í Commerce Headquarters. Enginn stuðningur er fyrir sjálfsafgreiðslumöguleika sem gerir samstarfsaðilum kleift að velja marga stjórnendur eða breyta stjórnendum úr rafrænum B2B-vefsvæðum.
 - Þótt hægt sé að skilgreina eyðsluþak fyrir notendur, hefur framfylgni eyðsluþaks í ferli pöntunarfærslunnar ekki enn verið innleidd.
 - Allur viðskiptagrunnur og villuleit fyrir upplifun notanda á rafrænu B2B-vefsvæði byggist á skilgreiningu viðskiptavinafærslunnar sem er varpað á notandann í Commerce Headquarters.

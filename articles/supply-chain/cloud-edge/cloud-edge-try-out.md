@@ -1,6 +1,6 @@
 ---
 title: Prófaðu kvörðunareiningar í dreifðri blandaðri grannfræði
-description: Þetta efnisatriði veitir upplýsingar um hvernig á að prófa skýja- og brúnkvarðaeiningarnar fyrir framleiðslu- og vöruhúsastjórnunarálag.
+description: Þessi grein veitir upplýsingar um hvernig á að prófa skýja- og brúnkvarðaeiningarnar fyrir framleiðslu- og vöruhúsastjórnunarálag.
 author: perlynne
 ms.date: 05/02/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-03-03
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 658948d94cd012b95812a786433967f5cadc3a15
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 5645955109e7a942e617b3b90a27065c2a8fe4a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893585"
 ---
 # <a name="try-out-scale-units-in-a-distributed-hybrid-topology"></a>Prófaðu kvörðunareiningar í dreifðri blandaðri grannfræði
 
@@ -34,7 +34,7 @@ Ferlið við að prófa dreifða blendinguna er einfalt. Á fyrsta stigi ættir 
 
 Til að prófa hina dreifðu blendingu svæðisfræði verður þú að hafa tvö sandkassaumhverfi (tier 2), annað þeirra hefur gögnin þín (fyrirtækjamiðstöð) og hitt er fyrir mælikvarðaeininguna og hefur "tóm gögn."
 
-Þú verður að eignast viðbætur fyrir að minnsta kosti eina skýja- eða brúnkvarðaeiningu. Samsvarandi verkefna- og umhverfistímar verða síðan veittir inn [Microsoft Dynamics Lífsferilsþjónusta (LCS)](https://lcs.dynamics.com/), svo að hægt sé að dreifa mælieiningumhverfinu með því að nota [Gátt Scal Unit Manager](https://aka.ms/SCMSUM).
+Þú verður að eignast viðbætur fyrir að minnsta kosti eina skýja- eða brúnkvarðaeiningu. Samsvarandi verkefna- og umhverfistímar verða síðan veittir inn [Microsoft Dynamics Lífsferilsþjónusta (LCS)](https://lcs.dynamics.com/), svo að hægt sé að beita kvarðaeiningaumhverfinu með því að nota [Gátt Scal Unit Manager](https://aka.ms/SCMSUM).
 
 Hafðu samband við þjónustudeild Microsoft til að biðja um að sandkassaumhverfið verði virkt.
 

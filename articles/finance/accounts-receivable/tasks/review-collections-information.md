@@ -1,6 +1,6 @@
 ---
 title: Fara yfir innheimtuupplýsingar
-description: Þetta efni útskýrir hvernig á að fara yfir upplýsingar um innheimtu auk ýmsar uppsetningar valkostir og innheimtufærslur.
+description: Þessi grein útskýrir hvernig á að fara yfir innheimtuupplýsingar sem og ýmsa uppsetningarvalkosti og innheimtufærslur.
 author: ShivamPandey-msft
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4d0cb09eb6ac455d72e9dd051065625475581416
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6a6916690b9571fcfe103506960032e19fe724df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725038"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876212"
 ---
 # <a name="review-collections-information"></a>Fara yfir innheimtuupplýsingar
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að fara yfir upplýsingar um innheimtu auk ýmsar uppsetningar valkostir og innheimtufærslur. Þessi aðferð notar sýnigögn USMF fyrirtækisins.
+Þessi grein útskýrir hvernig á að fara yfir innheimtuupplýsingar sem og ýmsa uppsetningarvalkosti og innheimtufærslur. Þessi aðferð notar sýnigögn USMF fyrirtækisins.
 
 ## <a name="create-customer-pools"></a>Stofna viðskiptavinahópa
 1. Í skoðunarrúðunni ferðu í **Kerfi > Skuldir og innheimta > Uppsetning > Hópar viðskiptavina**.

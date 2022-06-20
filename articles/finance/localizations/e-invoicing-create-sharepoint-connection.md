@@ -1,6 +1,6 @@
 ---
-title: Stilla a SharePoint Tenging
-description: Þetta efnisatriði útskýrir hvernig á að stilla tengingu þannig að rafræn reikningur geti fengið aðgang að Microsoft SharePoint síða.
+title: Skilgreina SharePoint-tengingu
+description: Þessi grein útskýrir hvernig á að stilla tengingu þannig að rafræn reikningur geti fengið aðgang að Microsoft SharePoint síða.
 author: dkalyuzh
 ms.date: 12/15/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b9fffc1f3525e69792517dd1c6ebdcfbe5a74d2
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: fb4258190b9480c1302060dd7b75145f80bb7f18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371910"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856581"
 ---
-# <a name="configure-a-sharepoint-connection"></a>Stilla a SharePoint Tenging
+# <a name="configure-a-sharepoint-connection"></a>Skilgreina SharePoint-tengingu
 
 [!include [banner](../includes/banner.md)]
 
-Rafræn reikningaþjónusta getur lesið skrár frá Microsoft SharePoint möppur og hlaðið upp skrám í SharePoint. Til að tryggja að rafræn reikningur geti fengið aðgang að tilteknu SharePoint síðu, verður þú að veita síðuskilríki til rafrænna reikningaþjónustunnar. Að auki, til að tryggja að skilríkin séu geymd á öruggan hátt, skaltu ekki gefa þau upp beint. Í staðinn skaltu geyma þau í Azure lyklahólfinu og gefa upp Azure Key Vault leyndarmál.
+Rafræn reikningaþjónusta getur lesið skrár frá Microsoft SharePoint möppur og hlaðið upp skrám í SharePoint. Til að tryggja að rafræn reikningur geti fengið aðgang að tilteknu SharePoint síðu, verður þú að veita síðuskilríki til rafrænna reikningaþjónustunnar. Að auki, til að tryggja að skilríkin séu geymd á öruggan hátt, skaltu ekki veita þau beint. Í staðinn skaltu geyma þau í Azure lyklahólfinu og gefa upp Azure Key Vault leyndarmál.
 
 ## <a name="grant-access-to-a-sharepoint-folder"></a>Veita aðgang að a SharePoint möppu
 
@@ -43,19 +43,19 @@ Rafræn reikningaþjónusta getur lesið skrár frá Microsoft SharePoint möppu
 
     Fylgdu þessum leiðbeiningum:
 
-    - Ekki nota sömu forritaskráninguna fyrir mismunandi þjónustu.
+    - Ekki nota sömu app skráninguna fyrir mismunandi þjónustu.
     - Fylgdu [ráðleggingar um lykilorðastefnu](/microsoft-365/admin/misc/password-policy-recommendations?view=o365-worldwide).
     - Settu upp snúning lykilorða. Meðan á snúningi stendur skaltu búa til nýtt leyndarmál viðskiptavinar fyrir forritaskráninguna, uppfæra lyklahólfið og eyða síðan gamla leyndarmálinu.
 
 2. Vistaðu **App Skráning leyndarmál** og **Auðkenni umsóknar (viðskiptavinar).** gildi sem tvö ný leyndarmál í lyklageymslunni í uppsetningu rafrænna reikningaumhverfisins þíns.
 3. Bættu leyndarmálunum sem þú bjóst til við Key Vault færibreyturnar í uppsetningu rafrænna reikningsumhverfisins í RCS.
-4. Í Azure gáttinni, veita aðgang að SharePoint. Þetta skref ætti að vera lokið af leigjanda stjórnanda.
+4. Í Azure gáttinni, veittu aðgang að SharePoint. Þetta skref ætti að vera lokið af leigjanda stjórnanda.
 
     1. Veldu forritaskráninguna sem þú bjóst til.
     2. Á **API heimildir** flipa, veldu **Bættu við heimild**.
     3. Veldu **Microsoft línurit (forritsheimildir)** \> **Síður.Valið**.
     4. Veldu **Veita samþykki stjórnanda fyrir \<user&nbsp;name\>**.
-    5. Skoðaðu **Staða** reit til að ganga úr skugga um að heimildir séu veittar.
+    5. Skoðaðu **Staða** reitinn til að ganga úr skugga um að heimildir séu veittar.
 
         ![Heimildir veittar á API heimildaflipanum.](media/configured-permissions.jpg)
 

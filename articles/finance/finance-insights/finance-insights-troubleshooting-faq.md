@@ -1,6 +1,6 @@
 ---
 title: Úrræðaleit fyrir vandamál varðandi uppsetningu fjármálainnsýnar
-description: Í þessu efnisatriði eru talin upp vandamál sem geta komið upp þegar möguleikar fjármálainnsýnar eru notaðir. Þar er einnig útskýrt hvernig á að laga þessi vandamál.
+description: Þessi grein listar upp vandamál sem geta komið upp þegar þú notar Finance Insights möguleika. Þar er einnig útskýrt hvernig á að laga þessi vandamál.
 author: panolte
 ms.date: 02/11/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 5669b414283013ae1de095de2201df066ab588dd
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1ee354a1c3d9b45eb12eeb3a6a29f2a6d5e4c34c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725906"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846916"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>Úrræðaleit fyrir vandamál varðandi uppsetningu fjármálainnsýnar
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði eru talin upp vandamál sem geta komið upp þegar möguleikar fjármálainnsýnar eru notaðir. Þar er einnig útskýrt hvernig á að laga þessi vandamál.
+Þessi grein listar upp vandamál sem geta komið upp þegar þú notar Finance Insights möguleika. Þar er einnig útskýrt hvernig á að laga þessi vandamál.
 
 ## <a name="symptom-why-cant-i-map-the-customer-payment-insights-data-integration-template-destination-column"></a>Einkenni: Hvers vegna get ég ekki varpað viðtökudálki fyrir sniðmát gagnasamþættingar greiðsluinnsýnar viðskiptavinar?
 
@@ -96,7 +96,7 @@ Eftirfarandi skref ætti að hafa verið lokið.
 
 ### <a name="resolution"></a>Upplausn
 
-Athugaðu gagnasamþættingaruppsetninguna til að sannreyna að hún virki eins og búist var við og bætir gögnunum frá AI Builder aftur í Fjármál.  
+Athugaðu uppsetningu gagnasamþættingar til að sannreyna að hún virki eins og búist var við og bætir gögnum frá AI Builder aftur í Fjármál.  
 Fyrir frekari upplýsingar, sjá [Búðu til gagnasamþættingarverkefni](../finance-insights/create-data-integrate-project.md).
 
 ## <a name="symptom-customer-payment-prediction-training-failed-and-the-ai-builder-error-states-prediction-should-have-only-2-distinct-outcome-values-to-train-the-model-map-to-two-outcomes-and-retrain-training-report-issue-isnotminrequireddistinctnonnullvalues"></a>Einkenni: Þjálfun viðskiptavina greiðsluspá mistókst og AI Builder villa segir, "Spá ætti að hafa aðeins 2 aðgreind útkomugildi til að þjálfa líkanið. Kortið að tveimur útkomum og endurmenntuð“, „Málfræði um þjálfunarskýrslu: IsNotMinRequiredDistinctNonNullValues“.
@@ -121,4 +121,4 @@ The **Fjárlagafrumvarp** eiginleiki krefst að minnsta kosti þriggja ára fjá
 
 ### <a name="resolution"></a>Upplausn
 
-Umhverfið hefur náð hámarks töflumörkum Data Lake Services. Fyrir frekari upplýsingar um mörkin, sjáðu **Virkja næstum rauntíma gagnabreytingar** kafla efnið, [Flytja út í Azure Data Lake yfirlit](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md).
+Umhverfið hefur náð hámarks töflumörkum Data Lake Services. Nánari upplýsingar um mörkin er að finna í hlutanum **Virkja nærri rauntíma gagnabreytingar** í greininni, [Export to Azure Data Lake overview](../../fin-ops-core/dev-itpro/data-entities/Azure-Data-Lake-GA-version-overview.md).

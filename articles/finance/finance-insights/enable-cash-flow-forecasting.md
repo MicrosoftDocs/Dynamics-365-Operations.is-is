@@ -1,6 +1,6 @@
 ---
 title: Virkja sjóðstreymisspá
-description: Þetta efnisatriði útskýrir hvernig á að kveikja á eiginleikanum „Sjóðstreymisspár“ í fjármálainnsýn.
+description: Þessi grein útskýrir hvernig á að kveikja á eiginleikum sjóðstreymisspár í Finance Insights.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8dba56af53090d5d78632da4d414143b136f8a8d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 253e3ea9c1c44573b37503f167b4cb3860683c10
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713755"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859876"
 ---
 # <a name="enable-cash-flow-forecasting"></a>Virkja sjóðstreymisspá
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að kveikja á eiginleikanum Sjóðstreymisspár í Finance Insights.
+Þessi grein útskýrir hvernig á að kveikja á eiginleikanum Sjóðstreymisspár í Finance Insights.
 
 > [!NOTE]
 > Til að nota greiðsluspár í sjóðstreymi þarf að setja upp greiðsluspár viðskiptavinar eins og lýst er í [Virkja greiðsluspár viðskiptavinar](enable-cust-paymnt-prediction.md).

@@ -1,6 +1,6 @@
 ---
-title: Endurreikningur endurnýjunarverðs og tryggðs virðis fyrir eignaflokka
-description: Þetta efnisatriði útskýrir ferlið að uppfæra endurnýjunarverð og vátryggt virði fyrir eignir.
+title: Endurreikna endurnýjunarverð og vátryggt virði fyrir eignaflokka
+description: Þessi grein útskýrir ferlið að uppfæra endurnýjunarverð og vátryggt virði fyrir eignir.
 author: moaamer
 ms.date: 01/12/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e01e0241117dc69cafb67aeb3f1d10249fe143a0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3b461438ca3fef36e69100379e84f4c0d402e53e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726782"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853468"
 ---
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Endurreikningur endurnýjunarverðs og tryggðs virðis fyrir eignaflokka
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Endurreikna endurnýjunarverð og vátryggt virði fyrir eignaflokka
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir ferlið að uppfæra endurnýjunarverð og vátryggt virði fyrir eignir.
+Þessi grein útskýrir ferlið að uppfæra endurnýjunarverð og vátryggt virði fyrir eignir.
 
 Reglulega geta komið tilkynningar um að kostnaðurinn við að skipta út eða tryggja tiltekna eign hafi breyst. Til dæmis gæti yfirmaður tilkynnt að verðbólgan hafi verð 3 prósent á síðasta ári, þannig að nauðsynlegt væri að hækka endurnýjunarverð allra eigna um 3 prósent. 
 

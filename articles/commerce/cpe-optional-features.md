@@ -1,6 +1,6 @@
 ---
 title: Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce matsumhverfi
-description: Þetta efnisatriði útskýrir hvernig á að grunnstilla valfrjálsa eiginleika Microsoft Dynamics 365 Commerce matsumhverfis.
+description: Þessi grein útskýrir hvernig á að stilla valfrjálsa eiginleika fyrir a Microsoft Dynamics 365 Commerce matsumhverfi.
 author: psimolin
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728292"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861915"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce matsumhverfi
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að grunnstilla valfrjálsa eiginleika Microsoft Dynamics 365 Commerce matsumhverfis.
+Þessi grein útskýrir hvernig á að stilla valfrjálsa eiginleika fyrir a Microsoft Dynamics 365 Commerce matsumhverfi.
 
 ## <a name="prerequisites"></a>Forkröfur
 
@@ -108,7 +108,7 @@ Uppfæra verður tölvupóstsniðmátið fyrir hvert færslutilvik sem þú vilt
     - Umbúðapöntunarsniðmát
     - Tiltektarpöntunarsniðmát
 
-1. Sérsniðið sniðmátin með texta- eða HTML-ritil. Sjá lista yfir [studd tákn](#supported-tokens-in-the-email-template) seinna í þessu efni.
+1. Sérsniðið sniðmátin með texta- eða HTML-ritil. Sjá lista yfir [studd tákn](#supported-tokens-in-the-email-template) síðar í þessari grein.
 1. Innskráning í Commerce.
 1. Notaðu valmyndina til vinstri til að fara í **Einingar \> Fyrirtækisstjórnun \> Uppsetning \> Sniðmát tölvupósts fyrirtækis**.
 1. Stækkaðu listann vinstra megin til að sjá öll sniðmát.

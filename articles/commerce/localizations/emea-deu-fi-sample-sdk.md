@@ -1,6 +1,6 @@
 ---
-title: Dreifingarleiðbeiningar fyrir samþættingarsýnishorn ríkisskráningarþjónustu fyrir Þýskaland (arfleifð)
-description: Þetta efni veitir leiðbeiningar um að dreifa sýnishorni um samþættingu ríkisfjármála fyrir Þýskaland frá Microsoft Dynamics 365 Commerce Smásöluhugbúnaðarþróunarsett (SDK).
+title: Leiðbeiningar um dreifingu fyrir samþættingarsýni skattaskráningarþjónustu fyrir Þýskaland (arfleifð)
+description: Þessi grein veitir leiðbeiningar um að dreifa ríkisfjármálasamþættingarsýninu fyrir Þýskaland frá Microsoft Dynamics 365 Commerce Smásöluhugbúnaðarþróunarsett (SDK).
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: c49e6cedcce1d336486e9fbcc0620bcdf455cc9d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 9f6ecc715e10538806998459b7fd837648494ad7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845838"
 ---
-# <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Dreifingarleiðbeiningar fyrir samþættingarsýnishorn ríkisskráningarþjónustu fyrir Þýskaland (arfleifð)
+# <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-germany-legacy"></a>Leiðbeiningar um dreifingu fyrir samþættingarsýni skattaskráningarþjónustu fyrir Þýskaland (arfleifð)
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir leiðbeiningar um útfærslu samþættingarsýnis fyrir skattaskráningarþjónustu fyrir Þýskaland frá Microsoft Dynamics 365 Commerce Smásöluhugbúnaðarþróunarsett (SDK) á sýndarvél þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar um þetta sýnishorn af samþættingu ríkisfjármála, sjá [Samþættingarsýni skattaskráningarþjónustu fyrir Þýskaland](emea-deu-fi-sample.md). 
+Þessi grein veitir leiðbeiningar um útfærslu samþættingarsýnis fyrir skattaskráningarþjónustu fyrir Þýskaland frá Microsoft Dynamics 365 Commerce Smásöluhugbúnaðarþróunarsett (SDK) á sýndarvél þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar um þetta sýnishorn af samþættingu ríkisfjármála, sjá [Samþættingarsýni skattaskráningarþjónustu fyrir Þýskaland](emea-deu-fi-sample.md). 
 
-Fjármálasamþættingarúrtakið fyrir Þýskaland er hluti af Retail SDK. Fyrir upplýsingar um hvernig á að setja upp og nota SDK, sjá [Smásala hugbúnaðarþróunarsett (SDK) arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md). Þetta sýnishorn samanstendur af viðbótum fyrir Commerce runtime (CRT) og Vélbúnaðarstöð. Til að keyra þetta sýnishorn verður þú að breyta og byggja upp CRT og Vélbúnaðarstöðvarverkefni. Við mælum með því að þú notir óbreytt Retail SDK til að gera þær breytingar sem lýst er í þessu efni. Við mælum líka með því að þú notir heimildastýringarkerfi eins og Azure DevOps þar sem engum skrám hefur verið breytt enn.
+Fjármálasamþættingarúrtakið fyrir Þýskaland er hluti af Retail SDK. Fyrir upplýsingar um hvernig á að setja upp og nota SDK, sjá [Smásala hugbúnaðarþróunarsett (SDK) arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md). Þetta sýnishorn samanstendur af viðbótum fyrir Commerce runtime (CRT) og Vélbúnaðarstöð. Til að keyra þetta sýnishorn verður þú að breyta og byggja upp CRT og Vélbúnaðarstöðvarverkefni. Við mælum með því að þú notir óbreytt Retail SDK til að gera þær breytingar sem lýst er í þessari grein. Við mælum líka með því að þú notir heimildastýringarkerfi eins og Azure DevOps þar sem engum skrám hefur verið breytt ennþá.
 
 ## <a name="development-environment"></a>Þróunarumhverfi
 
@@ -34,7 +34,7 @@ The CRT framlengingaríhlutir eru innifalin í CRT sýnishorn. Til að ljúka ef
 
 #### <a name="documentproviderefrsample-component"></a>DocumentProvider.EFRSample hluti
 
-1. Finndu **Runtime.Extensions.DocumentProvider.EFRSample** verkefni, og byggja það.
+1. Finndu **Runtime.Extensions.DocumentProvider.EFRSample** verkefnið og byggja það.
 2. Í **Runtime.Extensions.DocumentProvider.EFRSample\\ bin\\ Villuleit** möppu, finndu **Contoso.Commerce.Runtime.DocumentProvider.EFRSample.dll** samsetningarskrá.
 3. Afritaðu samsetningarskrána í CRT viðbætur mappa:
 
@@ -54,11 +54,11 @@ The CRT framlengingaríhlutir eru innifalin í CRT sýnishorn. Til að ljúka ef
 
 #### <a name="documentproviderdatamodelefr-component"></a>DocumentProvider.DataModelEFR hluti
 
-1. Finndu **Runtime.Extensions.DocumentProvider.DataModelEFR** verkefni, og byggja það.
+1. Finndu **Runtime.Extensions.DocumentProvider.DataModelEFR** verkefnið og byggja það.
 2. Í **Runtime.Extensions.DocumentProvider.DataModelEFR\\ bin\\ Villuleit** möppu, finndu **Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll** samsetningarskrá.
 3. Afritaðu samsetningarskrána í CRT viðbætur mappa:
 
-    - **Eining viðskiptaskala:** Afritaðu skrána í **\\ bin\\ ext** möppu undir staðsetningu IIS Commerce Scale Unit.
+    - **Commerce Scale Unit:** Afritaðu skrána í hólfið **\\\\ ext** möppuna undir staðsetningu IIS Commerce Scale Unit.
     - **Staðbundið CRT á Modern POS:** Afritaðu skrána í **\\ ext** möppu undir staðnum CRT staðsetningu miðlara viðskiptavina.
 
 4. Finndu stillingarskrá fyrir viðbótina fyrir CRT:
@@ -106,12 +106,12 @@ Viðbótarhlutir vélbúnaðarstöðvar eru innifaldir í sýnishornum fyrir vé
     - **Sameiginleg vélbúnaðarstöð:** Afritaðu skrárnar í **bin** möppu undir staðsetningu IIS vélbúnaðarstöðvar.
     - **Sérstök vélbúnaðarstöð á Modern POS:** Afritaðu skrárnar á miðlarastað Modern POS viðskiptavinar.
 
-4. Finndu stillingarskrá fyrir viðbótina fyrir viðbætur vélbúnaðarstöðvarinnar. Skráin er nefnd **HardwareStation.Extension.config**.
+4. Finna skilgreiningarskrá nafnaukans fyrir viðbætur Vélbúnaðarstöðvarinnar. Skráin heitir **HardwareStation.Extension.config**.
 
     - **Sameiginleg vélbúnaðarstöð:** Skráin er staðsett undir staðsetningu IIS vélbúnaðarstöðvarinnar.
     - **Sérstök vélbúnaðarstöð á Modern POS:** Skráin er staðsett undir miðlarastað Modern POS viðskiptavinar.
 
-5. Bættu eftirfarandi línu við **samsetningu** hluta stillingaskrárinnar.
+5. Bætið eftirfarandi línu við **samsetningarhluta** skilgreiningarskrárinnar.
 
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample.dll" />
@@ -143,11 +143,11 @@ Fylgdu þessum skrefum til að nota sýnishorn af POS viðbótum í eldri SDK.
 
 ### <a name="production-environment"></a>Framleiðsluumhverfi
 
-Í fyrra ferli virkjaðirðu viðbæturnar sem eru hluti af samþættingarsýnishorni fjárhagsskráningarþjónustunnar. Að auki verður þú að fylgja þessum skrefum til að búa til dreifanlega pakka sem innihalda Commerce íhluti og nota þá pakka í framleiðsluumhverfi.
+Í fyrra ferli virkjaðirðu viðbæturnar sem eru hluti af samþættingarsýnishorni fjárhagsskráningarþjónustunnar. Að auki verður að fylgja þessum skrefum til að búa til virkjanlega pakka sem innihalda viðskiptaíhluti og nota þá pakka í framleiðsluumhverfi.
 
-1. Gerðu eftirfarandi breytingar á stillingarskrám pakkans undir **RetailSdk\\ Eignir** mappa:
+1. Gera eftirfarandi breytingar á samskipanarskrám pakka í möppunni **RetailSdk\\ Assets**:
 
-    - Í **commerceruntime.ext.config** og **CommerceRuntime.MPOSOffline.Ext.config** stillingarskrár skaltu bæta eftirfarandi línum við **samsetningu** kafla.
+    - Í skilgreiningarskránum commerceruntime.ext.config og CommerceRuntime.MPOSOffline.Ext.config **skal bæta eftirfarandi línum við samsetningarhlutann** **.** **·**
 
         ``` xml
         <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsGermany" />
@@ -162,7 +162,7 @@ Fylgdu þessum skrefum til að nota sýnishorn af POS viðbótum í eldri SDK.
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR" />
         ```
 
-2. Gerðu eftirfarandi breytingar á **Customization.settings** stillingarskrá fyrir sérsniðna pakka undir **Byggingarverkfæri** mappa:
+2. Gera eftirfarandi breytingar í **customization.settings sérsniðssamstillingarskrá customization.settings** pakkans **undir BuildTools** möppunni:
 
     - Bættu við eftirfarandi línum til að innihalda CRT viðbætur í dreifanlegum pökkum.
 
@@ -178,8 +178,8 @@ Fylgdu þessum skrefum til að nota sýnishorn af POS viðbótum í eldri SDK.
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.DataModelEFR.dll" />
         ```
 
-3. Ræstu MSBuild Command Prompt fyrir Visual Studio gagnsemi, og keyra **msbuild** undir Retail SDK möppunni til að búa til dreianlega pakka.
-4. Notaðu pakkana í gegnum LCS eða handvirkt. Fyrir frekari upplýsingar, sjá [Búðu til dreifanlega pakka](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+3. Ræsa skipanakvaðningu MSBuild fyrir Visual Studio forrit og keyra **msbuild** undir möppunni Retail SDK til að búa til virkjanlega pakka.
+4. Notaðu pakkana með LCS eða handvirkt. Sjá Create deployable packages [fyrir frekari upplýsingar](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
 5. Ljúktu við öll nauðsynleg uppsetningarverk sem lýst er í [Settu upp Commerce fyrir Þýskaland](emea-deu-fi-sample.md#set-up-commerce-for-germany).
 
 ## <a name="design-of-extensions"></a>Hönnun viðbygginga
@@ -192,36 +192,36 @@ Tilgangur framlengingarinnar sem er ríkisfjármálaskjalaveita er að búa til 
 
 The CRT framlenging er **Runtime.Extensions.DocumentProvider.EFRSample**. Fyrir frekari upplýsingar um hönnun fjárhagslegrar samþættingarlausnar, sjá [Yfirlit yfir samþættingu ríkisfjármála fyrir viðskiptarásir](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
-#### <a name="request-handler"></a>Beiðni um stjórnanda
+#### <a name="request-handler"></a>Biðja um rekil
 
-Það er einn meðhöndlun beiðna fyrir skjalaveituna, **DocumentProviderEFRFiscalDEU**. Þessi meðhöndlun er notuð til að búa til fjárhagsskjöl fyrir fjárhagsskráningarþjónustuna. Það er erft frá **INAmedRequestHandler** viðmót. The **HandlerName** aðferð ber ábyrgð á því að skila nafni meðhöndlunar. Nafn meðhöndlunar ætti að passa við heiti tengiskjalsveitu sem er tilgreint í höfuðstöðvum Commerce.
+Það er einn meðhöndlun beiðna fyrir skjalaveituna, **DocumentProviderEFRFiscalDEU**. Þessi meðhöndlun er notuð til að búa til fjárhagsskjöl fyrir fjárhagsskráningarþjónustuna. Það er erft frá **INAmedRequestHandler** viðmót. HandlerName **aðferðin** ber ábyrgð á að skila nafni rekilsins. Heiti rekils ætti að samsvara heiti tengiskjalsveitunnar sem er tilgreint í höfuðstöðvum Commerce.
 
 Tengið styður eftirfarandi beiðnir:
 
-- **GetFiscalDocumentDocumentProviderRequest** – Þessi beiðni inniheldur upplýsingar um hvaða skjal ætti að búa til. Það skilar þjónustusértæku skjali sem ætti að vera skráð í ríkisskráningarþjónustunni.
+- **GetFiscalDocumentDocumentProviderRequest** – Þessi beiðni inniheldur upplýsingar um hvaða skjal á að mynda. Það skilar þjónustusértæku skjali sem ætti að vera skráð í ríkisskráningarþjónustunni.
 - **GetFiscalTransactionExtendedDataDocumentProviderRequest** – Þessi beiðni skilar svarinu ásamt víðtækum gögnum.
 
 #### <a name="configuration"></a>Skilgreining
 
-The **DocumentProviderFiscalEFRSampleGermany** stillingarskrá er staðsett í **Stillingar** möppu framlengingarverkefnisins. Tilgangur þessarar skráar er að gera stillingar fyrir skjalaveituna kleift að stilla frá höfuðstöðvum Commerce. Skráarsniðið er í samræmi við kröfurnar fyrir fjárhagslega samþættingu stillingar.
+The **DocumentProviderFiscalEFRSampleGermany** stillingarskrá er staðsett í **Stillingar** möppu framlengingarverkefnisins. Tilgangur þessarar skrár er að virkja stillingar fyrir skjalaveituna sem skilgreina á úr höfuðstöðvum Commerce. Skráarsniðið er í takt við þarfir fyrir skilgreiningu fjárhagssamþættingar.
 
 Eftirfarandi stillingum er bætt við:
 
 - **Kortlagning virðisaukaskattshlutfalla** – Kortlagning skattprósentugilda sem eru sett upp fyrir vsk-kóða við gildi á **TaxG** (skattflokkur) eigind í beiðnum sem sendar eru til ríkisskattstjóra.
 - **Skattflokkur fyrir gjafakort og innlán** - Verðmæti **TaxG** eiginleiki í beiðnum sem sendar eru til ríkisfjármála, byggt á rekstri sem felur í sér gjafakort eða innborgun.
-- **Útboðsgerð kortlagning** – Kortlagning greiðslumáta við gildi á **BorgaG** (greiðsluhópur) eigind í beiðnum sem sendar eru til ríkisfjármála.
+- **Kortlagning útboðstegunda** – Kortlagning greiðslumáta við gildi á **BorgaG** (greiðsluhópur) eigind í beiðnum sem sendar eru til ríkisfjármála.
 - **Skattflokkur undanþeginn virðisaukaskatti** - Verðmæti **TaxG** eigind í beiðnum sem sendar eru til ríkisfjármála, byggt á rekstri sem er undanþeginn skattskyldu.
 - **Láttu gögn viðskiptavina fylgja með** – Ef kveikt er á þessari færibreytu munu beiðnir til fjárhagsþjónustunnar innihalda upplýsingar um viðskiptavini, svo sem nöfn og heimilisföng, í þeim tilvikum þar sem viðskiptavinur er bætt við færslu.
 
-### <a name="hardware-station-extension-design"></a>Hönnun vélbúnaðarstöðvar viðbyggingar
+### <a name="hardware-station-extension-design"></a>Viðaukahönnun vélbúnaðarstöðvar
 
 Tilgangur framlengingarinnar sem er fjárhagstengi er að hafa samskipti við skattskráningarþjónustuna.
 
 Viðbygging Vélbúnaðarstöðvarinnar er **HardwareStation.Extension.EFRSample**. Það notar HTTP samskiptareglur til að leggja fram skjöl sem CRT framlenging myndar við skattskráningarþjónustuna. Það sér einnig um svör sem berast frá ríkisskráningarþjónustu.
 
-#### <a name="request-handler"></a>Beiðni um stjórnanda
+#### <a name="request-handler"></a>Biðja um rekil
 
-The **EFRHandler** meðhöndlun beiðna er inngangsstaður fyrir meðhöndlun beiðna til skattskráningarþjónustunnar. Þessi meðhöndlari er arfur frá **INAmedRequestHandler** viðmót. The **HandlerName** aðferð ber ábyrgð á því að skila nafni meðhöndlunar. Nafn meðhöndlunar ætti að passa við nafn fjárhagstengis sem tilgreint er í höfuðstöðvum Commerce.
+The **EFRHandler** meðhöndlun beiðna er inngangsstaður fyrir meðhöndlun beiðna til skattskráningarþjónustunnar. Þessi rekill erfist frá viðmótinu **INamedRequestHandler**. HandlerName **aðferðin** ber ábyrgð á að skila nafni rekilsins. Heiti rekils ætti að samsvara heiti fjárhagstengisins sem er tilgreint í höfuðstöðvum Commerce.
 
 Tengið styður eftirfarandi beiðnir:
 
@@ -231,13 +231,13 @@ Tengið styður eftirfarandi beiðnir:
 
 #### <a name="configuration"></a>Skilgreining
 
-Stillingarskráin er staðsett í **Stillingar** möppu framlengingarverkefnisins. Tilgangur skrárinnar er að gera stillingar fyrir fjárhagstengi kleift að stilla frá höfuðstöðvum Commerce. Skráarsniðið er í samræmi við kröfurnar fyrir fjárhagslega samþættingu stillingar.
+Stillingarskráin er staðsett í **Stillingar** möppu framlengingarverkefnisins. Tilgangur skrárinnar er að virkja stillingar fyrir fjárhagstengið sem skilgreina á úr höfuðstöðvum Commerce. Skráarsniðið er í takt við þarfir fyrir skilgreiningu fjárhagssamþættingar.
 
 Eftirfarandi stillingum er bætt við:
 
 - **Heimilisfang endapunkts** – Vefslóð ríkisskráningarþjónustunnar.
 - **Hlé** – Tíminn, í millisekúndum (ms), sem ökumaður bíður eftir svari frá skattskráningarþjónustunni.
-- **Sýna tilkynningar um skattaskráningu** – Ef kveikt er á þessari færibreytu munu tilkynningar frá fjármálaþjónustunni birtast sem notendaskilaboð á POS.
+- **Sýna tilkynningar um skattaskráningu** – Ef kveikt er á þessari færibreytu munu tilkynningar frá fjárhagsþjónustunni birtast sem notendaskilaboð á POS.
 
 ### <a name="pos-fiscal-connector-extension-design"></a>Hönnun POS fjárhagstengisframlengingar
 
@@ -257,7 +257,7 @@ Fjárhagstenging EFR er staðsett í **Pos.Extension\\ Tengi\\ Efr\\ EfrFiscalCo
 
 #### <a name="configuration"></a>Skilgreining
 
-Stillingarskráin er staðsett í **src\\ Fiscal Integration\\ Efr\\ Stillingar\\ Tengi** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla. Tilgangur skrárinnar er að gera stillingar fyrir fjárhagstengi kleift að stilla frá höfuðstöðvum Commerce. Skráarsniðið er í samræmi við kröfurnar fyrir fjárhagslega samþættingu stillingar. Eftirfarandi stillingum er bætt við:
+Stillingarskráin er staðsett í **src\\ FiscalIntegration\\ Efr\\ Stillingar\\ Tengi** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla. Tilgangur skrárinnar er að virkja stillingar fyrir fjárhagstengið sem skilgreina á úr höfuðstöðvum Commerce. Skráarsniðið er í takt við þarfir fyrir skilgreiningu fjárhagssamþættingar. Eftirfarandi stillingum er bætt við:
 
 - **Heimilisfang endapunkts** – Vefslóð ríkisskráningarþjónustunnar.
 - **Hlé** – Tíminn, í millisekúndum, sem tengið bíður eftir svari frá skattskráningarþjónustunni.

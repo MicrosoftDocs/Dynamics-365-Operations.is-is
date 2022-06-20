@@ -1,6 +1,6 @@
 ---
-title: Setja upp og vinna úr brúuðum greiðslum
-description: Þetta efnisatriði útskýrir hvernig á að setja upp og vinna brúaðar greiðslur viðskiptavina. Brúguð greiðsla er greiðsla sem er bókuð í aðalbók í tveimur þrepum.
+title: Uppsetning og vinnsla greiðslna á millilykli
+description: Þessi grein útskýrir hvernig á að setja upp og vinna brúaðar greiðslur viðskiptavina. Brúguð greiðsla er greiðsla sem er bókuð í aðalbók í tveimur þrepum.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca93d99ce04e607b137a2755d507022a33ab1be8
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 4f0609e333fb16ba189b6a971f88fbb5bf900fec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734192"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887978"
 ---
-# <a name="set-up-and-process-bridged-payments"></a>Setja upp og vinna úr brúuðum greiðslum
+# <a name="set-up-and-process-bridged-payments"></a>Uppsetning og vinnsla greiðslna á millilykli
 
 [!include [banner](../includes/banner.md)]
 
 Brúguð greiðsla er greiðsla sem er bókuð í aðalbók í tveimur þrepum. Venjulega er þessi aðferð notuð þegar greiðslumáti er stilltur á **Banki**, og þú verður að bóka færslur á bankareikninginn aðeins þegar færslan hefur hreinsað bankann. Hins vegar geturðu líka notað það fyrir fjárhagsreikning. Í þessu tilviki færir kerfið upphæðina frá einum aðalreikningi yfir á annan aðalreikning þegar brúarbókunin er afgreidd.
 
-Þú getur búið til brúaðar greiðslur úr annað hvort viðskiptaskuldum eða viðskiptakröfum. Þó að þetta efnisatriði útskýri hvernig á að stilla brúarbókun fyrir viðskiptakröfur, eru skrefin fyrir viðskiptaskuldafærslur svipuð.
+Þú getur búið til brúaðar greiðslur úr annað hvort viðskiptaskuldum eða viðskiptakröfum. Þó að þessi grein útskýri hvernig á að stilla brúarbókun fyrir viðskiptakröfur, eru skrefin fyrir viðskiptaskuldafærslur svipuð.
 
 ## <a name="set-up-bridging-posting"></a>Settu upp brúarfærslu
 
@@ -57,5 +57,5 @@ Til að búa til og vinna úr brúarfærslu skaltu fylgja þessum skrefum.
 3. Í **Nafn** reit, veldu nafn.
 4. Veldu **Línur** til að opna dagbókarupplýsingarnar.
 5. Veldu **Aðgerðir&gt; Veldu brúaðar færslur**.
-6. Merktu við hverja greiðslu sem hefur verið hreinsuð og veldu síðan **Samþykkja**.
+6. Merktu við hverja greiðslu sem hefur verið hreinsuð og veldu síðan **Taka**.
 7. Bóka færslubókina.

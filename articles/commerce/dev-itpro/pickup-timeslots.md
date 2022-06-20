@@ -1,6 +1,6 @@
 ---
 title: Stofna og uppfæra tímabil afhendingar til viðskiptavinar
-description: Þetta efnisatriði lýsir því hvernig á að stofna, skilgreina og uppfæra tímahólf fyrir sóttar pantanir viðskiptavinar í Commerce Headquarters.
+description: Þessi grein lýsir því hvernig á að búa til, stilla og uppfæra afhendingartíma viðskiptavina í höfuðstöðvum Commerce.
 author: anupamar-ms
 ms.date: 01/05/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a135f592225e4b388b5c9fdaa5fe23e60baf0185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713422"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882234"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Stofna og uppfæra tímabil afhendingar til viðskiptavinar
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að stofna, skilgreina og uppfæra tímahólf fyrir sóttar pantanir viðskiptavinar í Commerce Headquarters.
+Þessi grein lýsir því hvernig á að búa til, stilla og uppfæra afhendingartíma viðskiptavina í höfuðstöðvum Commerce.
 
 Tímahólfsaðgerðin býður smásölum upp á leið til að skilgreina tímahólf fyrir vörur þar sem kveikt er á afhendingarmátanum fyrir sótta pöntun viðskiptavinar. Tímahólf gera smásölum kleift að skilgreina dagsetningar og tímasetningar þegar hægt er að sækja pöntun í verslun. Einnig er hægt að skilgreina fjölda pantana sem hægt er að sækja á tilteknu tímabili. Á þennan hátt geta smásalar takmarkað fjölda pantana sem hægt verður að sækja á tilteknum degi og tíma. Útkoman er betri gæðaþjónusta fyrir viðskiptavinina.
 

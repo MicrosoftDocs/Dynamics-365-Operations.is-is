@@ -1,6 +1,6 @@
 ---
-title: Setja upp aðallykla flokka
-description: Þetta efnisatriði útskýrir hvernig á að setja upp aðalreikningsflokka í Dynamics 365 Finance.
+title: Setja upp tegundir aðallykla
+description: Þessi grein útskýrir hvernig á að setja upp aðalreikningsflokka í Dynamics 365 Finance.
 author: aprilolson
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb41f1b7200363f8846c406d5c20338f6ea242bd
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: c48011c9988bdca694851476540db574efef7909
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879564"
 ---
 # <a name="set-up-main-account-categories"></a>Setja upp tegundir aðallykla
 
 [!include [banner](../../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að setja upp flokka aðallykla. Flokkar aðallykla eru notaðir fyrir sjálfgefnar skýrslur í fjárhagsskýrslu og Power BI. Hægt er að endurnefna flokka aðallykla sem eru stofnaðir sjálfvirkt en ekki eyða. Hægt er að stofna viðbótar lykilflokka og nota vegna skýrslugerðar og greiningar. Þetta efni notar sýnifyrirtækið USMF.
+Þessi grein útskýrir hvernig á að setja upp aðalreikningaflokka. Flokkar aðallykla eru notaðir fyrir sjálfgefnar skýrslur í fjárhagsskýrslu og Power BI. Hægt er að endurnefna flokka aðallykla sem eru stofnaðir sjálfvirkt en ekki eyða. Hægt er að stofna viðbótar lykilflokka og nota vegna skýrslugerðar og greiningar. Þessi grein notar USMF kynningarfyrirtækið.
 
 ## <a name="create-a-main-account-category"></a>Stofna tegund aðallykils
 1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Fjárhagur > Bókhaldslykill > Lyklar > Flokkar aðallykla**.

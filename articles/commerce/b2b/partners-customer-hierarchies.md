@@ -1,6 +1,6 @@
 ---
 title: Stjórna B2B-viðskiptafélögum með því að nota stigveldi viðskiptavina
-description: Þetta efnisatriði lýsir því hvernig á að nota stigveldi viðskiptavina til að stjórna viðskiptafélögum fyrir Microsoft Dynamics 365 Commerce viðskiptasíður fyrir viðskipti (B2B) rafræn viðskipti.
+description: Þessi grein lýsir því hvernig á að nota stigveldi viðskiptavina til að stjórna viðskiptafélögum fyrir Microsoft Dynamics 365 Commerce viðskiptasíður fyrir viðskipti (B2B) rafræn viðskipti.
 author: josaw1
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 70acdf469be2fcddd9e2bf755e958c1b20ee2fcf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ddd02045b5df3ce20160a4feaa23339475823d3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686572"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864982"
 ---
 # <a name="manage-b2b-business-partners-using-customer-hierarchies"></a>Stjórna B2B-viðskiptafélögum með því að nota stigveldi viðskiptavina
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að nota stigveldi viðskiptavina til að stjórna viðskiptafélögum fyrir Microsoft Dynamics 365 Commerce viðskiptasíður fyrir viðskipti (B2B) rafræn viðskipti.
+Þessi grein lýsir því hvernig á að nota stigveldi viðskiptavina til að stjórna viðskiptafélögum fyrir Microsoft Dynamics 365 Commerce viðskiptasíður fyrir viðskipti (B2B) rafræn viðskipti.
 
 Í höfuðstöðvum viðskipta, a *stigveldi viðskiptavina* eining er notuð til að tákna viðskiptafélagasamtökin sem munu nota B2B rafræn viðskipti síðuna þína. Áður en þú getur byrjað að nota stigveldi viðskiptavina til að stjórna viðskiptafélögum verður þú að virkja B2B rafræn viðskipti í höfuðstöðvum Commerce og skilgreina síðan númeraröð fyrir stigveldi viðskiptavina.
 

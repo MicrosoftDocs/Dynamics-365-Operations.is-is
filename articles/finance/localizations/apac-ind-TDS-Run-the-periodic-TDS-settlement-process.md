@@ -1,6 +1,6 @@
 ---
 title: Keyra reglubundið uppgjörsferli TDS
-description: Í þessu efnisatriði er útskýrt hvernig á að gera upp reglubundinn skatt sem dreginn er frá uppruna (TDS).
+description: Þessi grein útskýrir hvernig á að gera upp reglubundna skatta sem dreginn er frá við uppruna (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6c0aca4d0a916b21ca5ac6ee14e6ab658e0bae26
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1376e2ae342aedb8fe44d95a11dd47f906a4ca48
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726435"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864243"
 ---
 # <a name="run-the-periodic-tds-settlement-process"></a>Keyra reglubundið uppgjörsferli TDS
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að gera upp reglubundinn skatt sem dreginn er frá uppruna (TDS).
+Þessi grein útskýrir hvernig á að gera upp reglubundna skatta sem dreginn er frá við uppruna (TDS).
 
 1. Farið í **Skattur \> Skattskýrslur \> Staðgreiðsluskattur \> Greiðsla staðgreiðsluskatts**.
 

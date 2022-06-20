@@ -1,6 +1,6 @@
 ---
 title: Prófanir gæðastjórnunar
-description: Í þessu efnisatriði er lýst hvernig á að búa til prófanir sem hægt er að nota fyrir gæðapantanir í Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir því hvernig á að búa til próf sem hægt er að nota fyrir gæðapantanir í Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c10b67f86fc29b5e8c08081a9b789d4f42c24cf4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac67ee97a4890c646daefa6b09feae25c4f15d0d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573850"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857606"
 ---
 # <a name="quality-management-tests"></a>Prófanir gæðastjórnunar
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er lýst hvernig á að búa til prófanir sem hægt er að nota fyrir gæðapantanir í Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein lýsir því hvernig á að búa til próf sem hægt er að nota fyrir gæðapantanir í Microsoft Dynamics 365 Supply Chain Management.
 
 Notið síðuna **Prófanir** til að skilgreina og skoða einstök próf sem ákvarða hvort framleiðsluvara fyrirtækisins uppfylli gæðakröfur. Hægt er að úthluta einu eða fleiri einstökum prófum á prófunarflokk. Í þessu tilviki þarf einnig að tilgreina prófunarsértækar upplýsingar, eins og viðunandi mælingargildi. Mæligildi eru notuð fyrir magnbundnar prófanir. Fyrir gæðapróf eru prófbreytur notaðar.
 

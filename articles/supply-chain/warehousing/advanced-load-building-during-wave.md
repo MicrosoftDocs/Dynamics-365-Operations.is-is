@@ -1,6 +1,6 @@
 ---
 title: Ítarleg hleðsluáætlun í bylgju
-description: Í þessu efnisatriði er að finna upplýsingar um ítarlega hleðsluáætlun bylgju, sem úthlutar sjálfkrafa sendingum á fyrirliggjandi bylgjur við bylgjukeyrslu. Þess vegna er hægt að búa til gagnlegar bylgjur sem standa fyrir flutningabíla án þess að þurfa að nota vinnusvæði hleðsluáætlunar.
+description: Þessi grein veitir upplýsingar um háþróaða ölduálagsuppbyggingu, sem úthlutar sendingar sjálfkrafa á núverandi öldur meðan á ölduframkvæmd stendur. Þess vegna er hægt að búa til gagnlegar bylgjur sem standa fyrir flutningabíla án þess að þurfa að nota vinnusvæði hleðsluáætlunar.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0dafac981bcdec307de6dc202f557e7b8837ae2e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3a630a7f388e0bbb6fee96e4de753b2380d305c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670518"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863767"
 ---
 # <a name="advanced-load-building-during-wave"></a>Ítarleg hleðsluáætlun í bylgju
 
@@ -220,7 +220,7 @@ Setja má upp eins mörg sniðmát hleðsluáætlana og þörf er á. En til að
 
 ## <a name="scenario"></a>Aðstæður
 
-Þessar aðstæður sýna hvernig stillingarnar, sem lýst var fyrr í þessu efnisatriði, hafa áhrif á vöruhúsaaðgerðir á meðan unnið er úr sölupöntun. Þessar aðstæður nota sýnigögnin **USMF** ásamt öðrum sýnigildum sem þessar uppsetningarleiðbeiningar bjóða upp á.
+Þessi atburðarás sýnir hvernig stillingarnar sem lýst var fyrr í þessari grein hafa áhrif á vöruhúsarekstur á meðan sölupöntun er unnin. Þessar aðstæður nota sýnigögnin **USMF** ásamt öðrum sýnigildum sem þessar uppsetningarleiðbeiningar bjóða upp á.
 
 ### <a name="create-sales-orders"></a>Stofna sölupöntun
 

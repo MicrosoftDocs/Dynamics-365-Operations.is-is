@@ -1,6 +1,6 @@
 ---
 title: Afgreiðslukassavirkni fyrir Noreg
-description: Þetta efni veitir yfirlit yfir virkni sjóðakassa sem er í boði fyrir Noreg í Microsoft Dynamics 365 Commerce, og veitir leiðbeiningar um uppsetningu virkninnar.
+description: Þessi grein veitir yfirlit yfir virkni peningakassa sem er í boði fyrir Noreg í Microsoft Dynamics 365 Commerce, og veitir leiðbeiningar um uppsetningu virkninnar.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: bb87b3a7405ef3d8435748813fa66db74b8f0971
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 778a947f03866518219e9c0fa44660d66f19f53a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906700"
 ---
 # <a name="cash-register-functionality-for-norway"></a>Afgreiðslukassavirkni fyrir Noreg
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efni veitir yfirlit yfir virkni sjóðsvéla sem er í boði fyrir Noreg í Dynamics 365 Commerce. Það veitir einnig leiðbeiningar um uppsetningu virkninnar. Virknin samanstendur af eftirfarandi hlutum:
+Þessi grein veitir yfirlit yfir virkni peningakassa sem er í boði fyrir Noreg í Dynamics 365 Commerce. Það veitir einnig leiðbeiningar um uppsetningu virkninnar. Virknin samanstendur af eftirfarandi hlutum:
 
 - Algengar sölustaða (POS) eiginleikar sem eru í boði fyrir viðskiptavini í öllum löndum eða svæðum. Sem dæmi má nefna valmöguleika sem gerir þér kleift að koma í veg fyrir að afrit af kvittun sé prentað oftar en einu sinni.
 - Noregssértækir eiginleikar, svo sem stafrænar undirskriftir fyrir söluviðskipti.
@@ -34,7 +34,7 @@ Til að fræðast um POS eiginleika sem eru í boði fyrir viðskiptavini í öl
 Eftirfarandi POS staðsetningareiginleikar sem áður voru innleiddir og gerðir aðgengilegir viðskiptavinum í öllum löndum eða svæðum er nú hægt að nota sérstaklega fyrir Noreg:
 
 - **Prentaðu textareiti á kvittun í stórri leturstærð.** Þú getur notað **Leturstærð** færibreytu í kvittunarsniðshönnuður til að tilgreina að stóra leturstærð ætti að nota fyrir reit á kvittunarsniði. (Stóra leturstærðin er um það bil tvöfalt hærri en venjulega leturstærð.) Til dæmis er hægt að nota þessa færibreytu til að prenta "Copy" vísirinn á afrit af kvittun með stórum stöfum.
-- **Skráðu prentun kvittunarafrita í atburðaskrá POS endurskoðunar.** Þú getur notað **Endurskoðun** færibreytu í POS virknisniðinu til að gera kleift að prenta afrit af kvittunum og skrá aðra POS endurskoðunaratburði. Endurskoðunarviðburðirnir eru skráðir í gagnagrunn rásarinnar og í höfuðstöðvum. Þú getur skoðað endurskoðunarviðburðina á **Endurskoðunarviðburðir** síðu.
+- **Skráðu prentun kvittunarafrita í atburðaskrá POS endurskoðunar.** Þú getur notað **Endurskoðun** færibreytu í aðgerðasniði POS til að gera kleift að prenta afrit af kvittunum og skrá aðra POS endurskoðunaratburði. Endurskoðunarviðburðirnir eru skráðir í gagnagrunn rásarinnar og í höfuðstöðvum. Þú getur skoðað endurskoðunarviðburðina á **Endurskoðunarviðburðir** síðu.
 - **Koma í veg fyrir að afrit af kvittun sé prentað oftar en einu sinni.** Þegar **Endurskoðun** færibreytan í POS-virknisniðinu er virkjuð, the **Leyfa prentun kvittunarafrita** POS heimild stjórnar hvort hægt sé að prenta afrit af kvittunum. Það er líka valkostur sem gerir þér kleift að koma í veg fyrir að afrit af kvittun sé prentað oftar en einu sinni.
 
 Að auki var eftirfarandi POS eiginleiki innleiddur fyrir Noreg en gerður aðgengilegur viðskiptavinum í öllum löndum eða svæðum:
@@ -48,7 +48,7 @@ Að auki var eftirfarandi POS eiginleiki innleiddur fyrir Noreg en gerður aðge
 
 ### <a name="norway-specific-pos-features"></a>Noregs-sértækir POS eiginleikar
 
-Eftirfarandi POS-eiginleikar fyrir Noreg eru virkjaðir þegar **ISO kóða** færibreytan í POS-virknisniðinu er stillt á **Nei**.
+Eftirfarandi POS-eiginleikar fyrir Noreg eru virkjaðir þegar **ISO kóða** færibreyta í POS-virknisniðinu er stillt á **Nei**.
 
 #### <a name="digital-signing-of-sales-transactions"></a>Stafræn undirritun söluviðskipta
 
@@ -56,7 +56,7 @@ Sérhver söluviðskipti eru stafrænt undirrituð. Undirskriftin er búin til o
 
 Aðeins færslur vegna staðgreiðslu eru undirritaðar. Hér eru nokkur dæmi um viðskipti sem eru útilokuð frá undirritunarferlinu:
 
-- Fyrirframgreiðslur (innborgun á viðskiptareikningi)
+- Fyrirframgreiðslur (innborgun viðskiptavinareiknings)
 - Fyrirframgreiðslur fyrir sölupantanir (innborgun viðskiptavinapöntunar)
 - Útgáfa gjafakorts
 - Viðskipti sem ekki eru sölu (flot færsla, fjarlæging tilboðs, og svo framvegis)
@@ -70,7 +70,7 @@ Gögnin sem eru undirrituð eru textastrengur sem samanstendur af eftirfarandi g
 5. Viðskiptaupphæð með skatti
 6. Viðskiptaupphæð án skatts
 
-Stafræna undirskriftarferlið notar RSA 1024-bita lykil sem hefur SHA-1 kjötkássaaðgerð (RSA-SHA1-1024). Vottorð sem er sett upp á Commerce Scale Unit er notað til undirritunar. Einkvæmt auðkenni vottorðsins (fótspor) er skráð ásamt undirskriftinni.
+Stafræna undirskriftarferlið notar RSA 1024 bita lykil sem hefur SHA-1 kjötkássaaðgerð (RSA-SHA1-1024). Vottorð sem er sett upp á Commerce Scale Unit er notað til undirritunar. Einkvæmt auðkenni vottorðsins (fótspor) er skráð ásamt undirskriftinni.
 
 Undirskriftin er geymd í gagnagrunni verslana og gagnagrunni höfuðstöðva (HQ) ásamt viðskiptagögnum. Þú getur skoðað færsluundirskriftina, ásamt færslugögnunum sem voru notuð til að búa hana til, á **Viðskipti í ríkisfjármálum** Flýtiflipi á **Verslunarviðskipti** síðu.
 
@@ -82,7 +82,7 @@ Kvittanir fyrir Noreg geta innihaldið viðbótarupplýsingar sem voru útfærð
 - **Undirritað viðskiptaröðnúmer** – Raðnúmer undirritaðrar færslu getur birst á kvittuninni til að tengja prentaða kvittun við stafræna undirskrift í gagnagrunninum.
 - **Samtölur kvittunar** – Sérsniðnir reitir fyrir heildarupphæðir innhreyfinga útiloka upphæðir sem ekki eru til sölu frá heildarupphæðum færslu. Fjárhæðir sem ekki eru í sölu innihalda upphæðir fyrir eftirfarandi aðgerðir:
 
-    - Fyrirframgreiðslur (innborgun á viðskiptareikningi)
+    - Fyrirframgreiðslur (innborgun viðskiptavinareiknings)
     - Fyrirframgreiðslur fyrir sölupantanir (innborgun viðskiptavinapöntunar)
     - Útgáfa gjafakorts
     - Að bæta fé á gjafakort
@@ -126,11 +126,11 @@ Að auki, á **Upplýsingar um bankareikning** flýtiflipann, í **Leiðarnúmer
 ### <a name="set-up-value-added-tax-vat-per-norwegian-requirements"></a>Settu upp virðisaukaskatt (VSK) í samræmi við norskar kröfur
 
 
-Þú verður að búa til VSK-kóða, VSK-flokka og VSK-flokka vöru. Þú verður einnig að setja upp upplýsingar um söluskatt fyrir vörur og þjónustu. Fyrir frekari upplýsingar um hvernig á að setja upp og nota söluskatt, sjá [Söluskattyfirlit](../../finance/general-ledger/indirect-taxes-overview.md).
+Þú verður að búa til VSK-kóða, VSK-flokka og VSK-flokka vöru. Þú verður einnig að setja upp upplýsingar um söluskatt fyrir vörur og þjónustu. Fyrir frekari upplýsingar um hvernig á að setja upp og nota söluskatt, sjá [Söluskattsyfirlit](../../finance/general-ledger/indirect-taxes-overview.md).
 
 Þú verður einnig að tilgreina VSK-flokka og virkja **Verð eru með söluskatti** valkostur fyrir verslanir sem eru staðsettar í Noregi.
 
-### <a name="set-up-functionality-profiles"></a>Settu upp virknisnið
+### <a name="set-up-functionality-profiles"></a>Virknireglur settar upp
 
 Þú verður að virkja endurskoðun og setja upp númerun kvittunar.
 
@@ -149,17 +149,17 @@ Stilltu **Leyfa prentun kvittunarafrits** leyfi að viðeigandi gildi:
 
 | Kenni tungumáls | Texti                   | Textakenni |
 |-------------|------------------------|---------|
-| en-US       | Titill kvittunar          | 900011  |
-| en-US       | Er gjafakort           | 900012  |
-| en-US       | Samtala (sala)          | 900013  |
-| en-US       | Samtala skatts (sala)      | 900014  |
-| en-US       | Samtala með skatti (sala) | 900015  |
-| en-US       | Skattupphæð (sala)     | 900016  |
-| en-US       | Færsluauðkenni reiðufés    | 900017  |
+| is       | Titill kvittunar          | 900011  |
+| is       | Er gjafakort           | 900012  |
+| is       | Samtala (sala)          | 900013  |
+| is       | Samtala skatts (sala)      | 900014  |
+| is       | Samtala með skatti (sala) | 900015  |
+| is       | Skattupphæð (sala)     | 900016  |
+| is       | Færsluauðkenni reiðufés    | 900017  |
 
 Á **Sérsniðnir reitir** síðu skaltu bæta við eftirfarandi færslum fyrir sérsniðna reiti fyrir útlit kvittunar. Athugið að **Textaauðkenni fyrir texta** gildi verða að samsvara **Textaauðkenni** gildi sem þú tilgreindir á **Tungumálatexti** síðu.
 
-| Heiti                            | Gerð    | Textakenni myndatexta |
+| Nafn                            | Gerð    | Textakenni myndatexta |
 |---------------------------------|---------|-----------------|
 | Titill kvittunar                    | Innhreyfing | 900011          |
 | IsGiftCard                      | Innhreyfing | 900012          |
@@ -196,7 +196,7 @@ Fyrir öll nauðsynleg kvittunarsnið, breyttu gildinu **Prenthegðun** sviði t
 
 Fyrir frekari upplýsingar um hvernig á að vinna með kvittunarsnið, sjá [Setja upp og hanna kvittunarsnið](../receipt-templates-printing.md).
 
-### <a name="configure-the-saf-t-cash-register-export-format"></a>Stilltu útflutningssnið SAF-T Cash Register
+### <a name="configure-the-saf-t-cash-register-export-format"></a>Stilltu útflutningssnið SAF-T kassaskrár
 
 Hægt er að hlaða niður SAF-T sjóðsskránni frá Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar, sjá [Flytja inn rafrænar skýrslustillingar](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md). Þú verður að hlaða niður eftirfarandi stillingum:
 
@@ -204,7 +204,7 @@ Hægt er að hlaða niður SAF-T sjóðsskránni frá Microsoft Dynamics Lífsfe
 - **DMM Retail channel data.version.1.14** – Uppsetning kortlagningar gagnalíkans.
 - **NO SAF T Cash Register.version.1.20** – Sniðstillingin.
 
-Eftir að þú hefur flutt inn stillingarnar, á **Viðskiptabreytur** síðu, á **Rafræn skjöl** flipa, í **SAF-T útflutningssnið fyrir sjóðvélar** reit, veldu nafn sniðstillingarinnar sem var flutt inn.
+Eftir að þú hefur flutt inn stillingarnar, á **Viðskiptabreytur** síðu, á **Rafræn skjöl** flipa, í **SAF-T útflutningssnið sjóðvéla** reit, veldu nafn sniðstillingarinnar sem var flutt inn.
 
 Þú verður einnig að varpa nauðsynlegum aðalgögnum til fyrirframskilgreindra SAF-T staðalkóða. Nánari upplýsingar er að finna í SAF-T sjóðsskrárskjölunum sem norska skattastofnunin veitir. Til að búa til kortlagninguna verður þú að stilla nýja **SAF-T Kóði gjaldkera** reit á eftirfarandi síðum:
 
@@ -212,7 +212,7 @@ Eftir að þú hefur flutt inn stillingarnar, á **Viðskiptabreytur** síðu, �
 - Greiðslumátar
 - VSK-kóðar
 
-### <a name="configure-channel-components"></a>Stilltu rásaríhluti
+### <a name="configure-channel-components"></a>Skilgreina rásaríhluti
 
 Til að virkja Noreg-sértæka virkni verður þú að stilla rásaríhluti. Fyrir frekari upplýsingar, sjá [leiðbeiningar um dreifingu](emea-nor-fi-deployment.md).
 

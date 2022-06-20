@@ -1,6 +1,6 @@
 ---
 title: Framleiðsluáætlun
-description: Þetta efnisatriði lýsir áætlanagerð fyrir framleiðslu og útskýrir hvernig á að breyta áætluðum framleiðslupöntunum með því að nota fínstillingu skipulagningar.
+description: Þessi grein lýsir áætlanagerð fyrir framleiðslu og útskýrir hvernig á að breyta áætluðum framleiðslupöntunum með því að nota áætlanagerð fínstillingu.
 author: t-benebo
 ms.date: 06/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8f23cb62512dfd718fe199867a4b21aaa0eca3fd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873783"
 ---
 # <a name="production-planning"></a>Framleiðsluáætlun
 
@@ -24,11 +24,11 @@ ms.locfileid: "8469059"
 
 Fínstilling skipulagningar styður nokkrar framleiðsluaðstæður. Ef verið er að flytja sig úr fyrirliggjandi innbyggðri aðaláætlunarvél er mikilvægt að gera sér grein fyrir breyttri hegðun.
 
-Eftirfarandi myndband gefur stutta kynningu á sumum þeirra hugtaka sem fjallað er um í þessu efnisatriði: [Dynamics 365 Supply Chain Management: Viðbætur við fínstillingu skipulagningar](https://youtu.be/u1pcmZuZBTw).
+Eftirfarandi myndband gefur stutta kynningu á sumum hugtökum sem fjallað er um í þessari grein: [Dynamics 365 Supply Chain Management : Áætlun Optimization aukahlutir](https://youtu.be/u1pcmZuZBTw).
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Kveikja á þessum eiginleika fyrir kerfið
 
-Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessu efnisatriði skal fara í [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eiginleikanum *Áætlaðar framleiðslutillögur fyrir fínstillingu áætlanagerðar*.
+Ef kerfið þitt inniheldur ekki þá eiginleika sem lýst er í þessari grein skaltu fara á [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveiktu á *Skipulagðar framleiðslupantanir fyrir hagræðingu áætlanagerðar* eiginleiki.
 
 ## <a name="planned-production-orders"></a>Framleiðslutillögur
 
@@ -65,7 +65,7 @@ Ef á að breyta upplýsingum um áætlaða pöntun og sjá áhrifin á tengda e
 2. Samþykkja áætlaða pöntun.
 3. Keyra áætlanagerð.
 
-Þegar aðaláætlanagerð er keyrð ætti ekki að nota síur ef áætlaðar framleiðslupantanir eru teknar með. Nánari upplýsingar er að finna í hlutanum [Síur](#filters) síðar í þessu efnisatriði.
+Þegar aðaláætlanagerð er keyrð ætti ekki að nota síur ef áætlaðar framleiðslupantanir eru teknar með. Fyrir frekari upplýsingar, sjá [Síur](#filters) kafla síðar í þessari grein.
 
 > [!NOTE]
 > Ef afhendingardagsetningu áætlaðrar pöntunar er breytt í síðari dagsetningu gæti eftirspurnin verið fest við nýja áætlaða pöntun. Þessi hegðun á sér stað þegar nýja birgðadagsetningin veldur töfum á festri eftirspurn en, samkvæmt stillingum afhendingartíma, er hægt að komast hjá seinkuninni.

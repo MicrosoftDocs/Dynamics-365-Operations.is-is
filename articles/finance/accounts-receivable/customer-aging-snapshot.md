@@ -1,6 +1,6 @@
 ---
 title: Aldursgreiningarmynd viðskiptavinar
-description: Í þessu efnisatriði er að finna upplýsingar um aldursgreiningarmynd viðskiptavinar. Aldursgreiningarmynd reiknar út aldursgreinda stöður fyrir hóp viðskiptavina á einum tímapunkti.
+description: Þessi grein veitir upplýsingar um skyndimyndir um öldrun viðskiptavina. Aldursgreiningarmynd reiknar út aldursgreinda stöður fyrir hóp viðskiptavina á einum tímapunkti.
 author: JodiChristiansen
 ms.date: 05/05/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 54db3e53cd31936ce80f0cdf1147535216d0d4b4
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: c1a83f2648b52e436d19a11862e58dc33313f341
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722996"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902574"
 ---
 # <a name="customer-aging-snapshots"></a>Aldursgreiningarmynd viðskiptavinar
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna upplýsingar um aldursgreiningarmynd viðskiptavinar. Aldursgreiningarmynd reiknar út aldursgreinda stöður fyrir hóp viðskiptavina á einum tímapunkti. Hægt er að stofna færslur aldursgreiningarmynda fyrir alla viðskiptavini eða fyrir viðskiptavini í viðskiptavinahóp.
+Þessi grein veitir upplýsingar um skyndimyndir um öldrun viðskiptavina. Aldursgreiningarmynd reiknar út aldursgreinda stöður fyrir hóp viðskiptavina á einum tímapunkti. Hægt er að stofna færslur aldursgreiningarmynda fyrir alla viðskiptavini eða fyrir viðskiptavini í viðskiptavinahóp.
 
 Upplýsingar úr aldursgreiningarmyndum eru sýndar á listasíðunni **Aldursgreindar stöður** og á síðunni **Innheimtur**. Það verður að stofna aldursgreiningarmynd áður en hægt er að nota listasíðuna **Aldursgreindar stöður**. Listasíðan sýnir aðeins viðskiptavini sem aldursgreiningarmynd hefur verið stofnuð fyrir.
 

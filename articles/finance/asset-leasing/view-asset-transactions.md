@@ -1,6 +1,6 @@
 ---
 title: Skoða skulda-, eignar- og kostnaðarfærslur
-description: Þetta efnisatriði útskýrir hvernig á að skoða færslur fyrir leigða eign. Þessar færslur innihalda færslur leiguskuldbindingar og færslur rekstrarkostnaðar sem hafa verið bókaðar.
+description: Þessi grein útskýrir hvernig á að skoða færslur fyrir leigða eign. Þessar færslur innihalda færslur leiguskuldbindingar og færslur rekstrarkostnaðar sem hafa verið bókaðar.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: be11250a85d160aa71ab76af9cfdb0258fd7bf11
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 552b5a6044950c4dd7547a5239c1b3f7d355dbce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727483"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906414"
 ---
 # <a name="view-liability-asset-and-expense-transactions"></a>Skoða skulda-, eignar- og kostnaðarfærslur
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að skoða færslur fyrir leigða eign. Þessar færslur innihalda færslur leiguskuldbindingar og færslur rekstrarkostnaðar sem hafa verið bókaðar. Bókfært virði skulda og afnotaréttar af eign er notað í nokkrum skýrslum. Þær eru einnig notaðar til að reikna út leiðréttingargildi.
+Þessi grein útskýrir hvernig á að skoða færslur fyrir leigða eign. Þessar færslur innihalda færslur leiguskuldbindingar og færslur rekstrarkostnaðar sem hafa verið bókaðar. Bókfært virði skulda og afnotaréttar af eign er notað í nokkrum skýrslum. Þær eru einnig notaðar til að reikna út leiðréttingargildi.
 
 ## <a name="liability-transactions"></a>Skuldafærslur
 

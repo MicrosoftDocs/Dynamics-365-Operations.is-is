@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) – altækir eiginleikar
-description: Þetta efnisatriði útskýrir hvernig á að nota Microsoft Regulatory Configuration Services (RCS) og altæku geymsluna til að stofna og nota altæka eiginleika.
+description: Þessi grein útskýrir hvernig á að nota Microsoft Regulatory Configuration Services (RCS) og alþjóðlegu geymsluna til að búa til og nota hnattvæðingareiginleika.
 author: JaneA07
 ms.date: 06/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: e8df8a56d493e58f28699a87dd9dab1f87540a4ee327450384f89e6d426ba1a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf08f25f7d092e0f93284a4019096378543adb9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760632"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888895"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Service (RCS) – altækir eiginleikar
 
@@ -40,7 +40,7 @@ Eftirfarandi ferli útskýra hvernig notandi í RCS getur bætt við altækum ei
 - RCS-tilvik opnað.
 - Stofnun og virkjun skilgreiningarveitu. Nánari upplýsingar er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Í tilviki Finance and Operations-forrita skal fylgja þessum skrefum.
+Í Finance and Operations forritunum þínum skaltu fylgja þessum skrefum.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 2. Ef engu RCS-umhverfi er úthlutað fyrir fyrirtækið skaltu velja **Regulatory Services – Skilgreining** og fylgja leiðbeiningunum til að úthluta einu slíku.
@@ -64,7 +64,7 @@ Til að nota altækan eiginleika verður fyrst að flytja hann inn úr altæku g
 
 ## <a name="access-globalization-features"></a>Aðgangur að altækum eiginleikum
 
-1. Gangið úr skugga um að kveikt sé á eiginleikanum **Altækir eiginleikar** í eiginleikastjórnun eins og lýst er hér á undan í þessu efnisatriði.
+1. Gakktu úr skugga um að **Hnattvæðingareiginleikar** kveikt er á eiginleikanum í Eiginleikastjórnun, eins og lýst er fyrr í þessari grein.
 2. Opnið nýja vinnusvæðið **Altækir eiginleikar** og síðan, undir **Eiginleikar**, skal velja reitinn **Rafræn reikningsfærsla**.
 
     ![Vinnusvæði altækra eiginleika.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
@@ -161,7 +161,7 @@ Eftirtaldar aðgerðir er hægt að stilla:
 - **Skoða** – Skoða undirliggjandi skilgreiningar eiginleika sem krefjast ekki neinnar uppfærslu.
 - **Breyta** – Stofna útgáfudrög af valinni skilgreiningu til að hægt sé að breyta sniði eða sniðsvörpun í sniðshönnuði.
 - **Eyða** – Eyða valinni skilgreiningu úr eiginleikanum.
-- **Endurreikna grunn** – Endurreikna grunn eiginleikans. Nánari upplýsingar er að finna í hlutanum [Endurreikna grunn afleiddra altækra eiginleika](#rebase) síðar í þessu efnisatriði.
+- **Endurreikna grunn** – Endurreikna grunn eiginleikans. Fyrir frekari upplýsingar, sjá [Rebase-afleiddir hnattvæðingareiginleikar](#rebase) kafla síðar í þessari grein.
 
 ### <a name="setups"></a>Uppsetningar
 
@@ -182,7 +182,7 @@ Eftirtaldar aðgerðir eru í boði fyrir uppsetningar eiginleika:
 
 Eftirtaldar aðgerðir eru í boði fyrir umhverfi:
 
-- **Virkja** – Fyrir valda eiginleikaútgáfu skal velja útgefið umhverfi og velja dagsetningu fyrir **Gildir frá** þegar hún á að vera í boði. Nánari upplýsingar er að finna í hlutanum [Skilgreina umhverfi fyrir virkjun](#configureenvironment) síðar í þessu efnisatriði.
+- **Virkja** – Fyrir valda eiginleikaútgáfu skal velja útgefið umhverfi og velja dagsetningu fyrir **Gildir frá** þegar hún á að vera í boði. Fyrir frekari upplýsingar, sjá [Stilltu umhverfi til að virkja](#configureenvironment) kafla síðar í þessari grein.
 - **Hætta við** – Fjarlægja umhverfi fyrir eiginleikauppsetningu.
 
 ### <a name="organizations"></a>Fyrirtæki
@@ -195,7 +195,7 @@ Fylgið eftirfarandi skrefum til að samnýta altæka eiginleika með ytra fyrir
 
     ![Samnýta eiginleika með fyrirtæki.](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
 
-Eiginleikanum er deilt með ytra fyrirtækinu og er aðgengilegur fyrir það fyrirtæki í altæku geymslunni. Þaðan er hægt að flytja hann inn í tilvik fyrirtækisins í RCS eða Dynamics 365 Finance svo hægt sé að nota hann.
+Eiginleikanum er deilt með ytra fyrirtækinu og er aðgengilegur fyrir það fyrirtæki í altæku geymslunni. Þaðan er hægt að flytja eiginleikann inn í tilvik fyrirtækisins RCS eða Dynamics 365 Finance svo hægt sé að nota hann.
 
 ## <a name="rebase-derived-globalization-features"></a><a name="rebase"></a>Endurreikna grunn afleiddra altækra eiginleika
 

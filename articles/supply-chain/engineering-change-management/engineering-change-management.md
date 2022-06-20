@@ -1,6 +1,6 @@
 ---
 title: Vinna með breytingar á hönnunarafurðum
-description: Þetta efnisatriði gefur upplýsingar um umsjón hönnunarbreytinga. Umsjón hönnunarbreytinga býður upp á skipulagða ferla til að stjórna breytingum á hönnunarafurðum, frá því að stinga upp á, leggja fram beiðni og gera breytingar til yfirferðar og samþykktar á breytingum, leggja mat á áhrif þeirra á fyrirliggjandi færslur og fylgja þeim eftir.
+description: Þessi grein veitir upplýsingar um verkfræðilega breytingastjórnun. Umsjón hönnunarbreytinga býður upp á skipulagða ferla til að stjórna breytingum á hönnunarafurðum, frá því að stinga upp á, leggja fram beiðni og gera breytingar til yfirferðar og samþykktar á breytingum, leggja mat á áhrif þeirra á fyrirliggjandi færslur og fylgja þeim eftir.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9af5184da4f9507e3c06464a223f0debaea4430e
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 71b5ec792013ae80be643b9581e388c291d608dd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384669"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849591"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Vinna með breytingar á hönnunarafurðum
 
@@ -219,7 +219,7 @@ Hægt er að nota hnappinn **Vinna með/afrita upplýsingar um breytingu** til a
 
 ## <a name="use-electronic-signatures-to-approve-and-active-boms-and-routes"></a>Notaðu rafrænar undirskriftir til að samþykkja og virka uppskriftir og leiðir
 
-Til að nota rafrænar undirskriftir til að samþykkja og/eða virkja skjöl (BOM) og/eða leiðabreytingar, farðu á **Stjórn stofnunarinnar \> Uppsetning \> Rafræn undirskrift \> Kröfur um rafrænar undirskriftir**. Gakktu úr skugga um að hvert af eftirfarandi hlutum hafi **Undirskrift krafist** stillt á *Já*:
+Til að nota rafrænar undirskriftir til að samþykkja og/eða virkja skjöl (BOM) og/eða leiðabreytingar, farðu á **Stjórn stofnunarinnar \> Uppsetning \> Rafræn undirskrift \> Kröfur um rafrænar undirskriftir**. Gakktu síðan úr skugga um að hver af eftirfarandi hlutum hafi **Undirskrift krafist** stillt á *Já*:
 
 - Virkja uppskrift fyrir afurð hönnunarbreytingaraðar
 - Virkja afurðarleið hönnunarbreytingaraðar

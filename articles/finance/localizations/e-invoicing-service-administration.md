@@ -1,6 +1,6 @@
 ---
 title: Stjórnunarhlutar rafrænna reikninga
-description: Í þessu efnisatriði er að finna upplýsingar um hlutana sem tengjast stjórnun á rafrænni reikningsfærslu.
+description: Þessi grein veitir upplýsingar um þá hluti sem tengjast stjórnun rafrænna reikninga.
 author: gionoder
 ms.date: 08/31/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d187e8a03552258099d7021ff056d0726ea60ca1
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: cdd4d6705730bca967bb1bbff528df6d83a2390d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876001"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Stjórnunarhlutar rafrænna reikninga
 
 [!include [banner](../includes/banner.md)]
 
 
-Í þessu efnisatriði er að finna upplýsingar um hlutana sem tengjast stjórnun á rafrænni reikningsfærslu. Þar er einnig að finna upplýsingar um hvernig eigi að skilgreina rafræna reikningsfærsluþjónustu.
+Þessi grein veitir upplýsingar um þá hluti sem tengjast stjórnun rafrænna reikninga. Þar er einnig að finna upplýsingar um hvernig eigi að skilgreina rafræna reikningsfærsluþjónustu.
 
 ## <a name="azure"></a>Azure
 
@@ -97,7 +97,7 @@ Best er að breyta leynilyklunum með reglulegu millibili. Frekari upplýsingar 
 
 #### <a name="users"></a>Notendur
 
-Hvert þjónustuumhverfi verður að sýna notendurna sem geta tengst frá Dynamics 365 Finance og Dynamics 365 Supply Chain Management í rafræna reikningsfærslu.
+Hvert þjónustuumhverfi verður að skrá þá notendur sem geta tengst frá Dynamics 365 Finance og Dynamics 365 Supply Chain Management í rafrænum reikningum.
 
 #### <a name="publication"></a>Birting
 
@@ -123,7 +123,7 @@ Til að virkja samskipti á milli Finance and Supply Chain Management og rafræn
 
 Endastöð þjónustu er vefslóðin þar sem rafræn reikningsfærsla er staðsett. Áður en hægt er að gefa út rafræna reikninga verður að skilgreina endastöð þjónustunnar í Finance and Supply Chain Management til að leyfa samskipti við þjónustuna.
 
-Til að skilgreina endastöð þjónustunnar skal fara í **Fyrirtækisstjórnun \> Uppsetning \> Færibreyta rafræns skjals** og síðan í flipanum **Rafræn reikningsfærsla**, í reitinn **Vefslóð endastöðvar**, skal færa inn viðeigandi vefslóð úr töflunni í hlutanum [Endastöð þjónustu](#svc-endpoint-uris) fyrr í þessu efnisatriði.
+Til að stilla þjónustuendapunktinn skaltu fara á **Stjórn stofnunarinnar \> Uppsetning \> Færibreytur rafrænna skjala**, og síðan, á **Rafræn reikningagerð** flipa, í **Vefslóð endapunkts** reit, sláðu inn viðeigandi vefslóð úr töflunni í [Þjónustuendapunktur](#svc-endpoint-uris) kafla fyrr í þessari grein.
 
 #### <a name="environments"></a>Umhverfi
 

@@ -1,6 +1,6 @@
 ---
 title: Niðurstöður vélnámslíkana
-description: Í þessu efnisatriði er fjallað um fylkisrugling, flokkunarvandamál og nákvæmni í vélnámslíkönum. Markmiðið er að auka skilning á nákvæmni í niðurstöðum vélnámsspár.
+description: Þessi grein fjallar um ruglingsfylki, flokkunarvandamál og nákvæmni í vélanámslíkönum (ML). Markmiðið er að auka skilning á nákvæmni í niðurstöðum vélnámsspár.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c57a023995e0bb58d4fba0a4fd2f147d07e51348
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 23df5979231fbd6908b6f1e7c3aca5dd3e0e733d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910172"
 ---
 # <a name="results-of-machine-learning-models"></a>Niðurstöður vélnámslíkana
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er fjallað um fylkisrugling, flokkunarvandamál og nákvæmni í vélnámslíkönum. Markmiðið er að auka skilning á nákvæmni í niðurstöðum vélnámsspár. Markhópurinn er meðal annars hönnuðir, greinendur og stjórnendur sem vilja auka þekkingu sína og hæfni í gagnafræðum.
+Þessi grein fjallar um ruglingsfylki, flokkunarvandamál og nákvæmni í vélanámslíkönum (ML). Markmiðið er að auka skilning á nákvæmni í niðurstöðum vélnámsspár. Markhópurinn er meðal annars hönnuðir, greinendur og stjórnendur sem vilja auka þekkingu sína og hæfni í gagnafræðum.
 
 ## <a name="confusion-matrix"></a>Fylkisruglingur
 Þegar stýrt vélnámsvandamál er þjálfað í safni af sögulegum gögnum er það prófað með því að nota gögn sem haldið er frá þjálfunarferlinu. Á þennan hátt er hægt að bera saman spár þjálfaða líkansins við raunveruleg gildi. Fylkisruglingur er leið til að meta hversu árangursríkt flokkunarvandamál er og hvar mistök eru gerð (þ.e. hvar „ruglingur“ á sér stað).
@@ -73,16 +73,16 @@ Nákvæmni er mikilvægt verkfæri til að eiga samskipti við lénasérfræðin
 
 Fyrir aðstæður greiðsluspár er hægt að stilla markmið fyrir vélnámslíkanið sem inniheldur þætti í mismunandi greiðsluhegðunum. Markiðmiðið er að líkanið eigi að bæta sig þegar blind ágiskun er gerð með því að draga úr fjölda rangra svara um að minnsta kosti 50 prósent. Með öðrum orðum er ætlunin að ná nákvæmni sem skiptir muninum á milli nákvæmni blindrar ágiskunar og 100 prósent.
 
-Eftirfarandi tafla tekur saman þessa reglu fyrir ruglingsfylkin í þessu efnisatriði.
+Eftirfarandi tafla dregur saman þessa meginreglu fyrir ruglingsfylkin í þessari grein.
 
-| Tegund   | Blind ágiskun | Mark | Nákvæmni líkans | Er markmiðum náð?                                          |
+| Líkan   | Blind ágiskun | Markhluti | Nákvæmni líkans | Er markmiðum náð?                                          |
 |---------|-------------|--------|----------------|-----------------------------------------------------------|
 | Gerð 1 | 0.50        | 0.75   | 0.73           | Næstum. Þetta líkan bætir sig verulega við ágiskunina. |
 | Gerð 2 | 0.80        | 0.90   | 0.83           | Nei. Betrumbætur eru nauðsynlegar.                              |
 
 ## <a name="classification-f1-accuracy"></a>Nákvæmni F1 flokkunar
 
-Það sem þarf að hafa í huga að lokum í þessu efnisatriði er ítarlegri mæling á afköstum vélnámsflokkunar sem er þekkt sem F1 nákvæmni.
+Síðasta umfjöllunin í þessari grein er fullkomnari mælikvarði á flokkun ML árangur sem er þekktur sem F1 nákvæmni.
 
 Áður en hægt er að skilgreina F1 nákvæmni þarf að kynna tvo frekari mælikvarða: samkvæmni og endurkall. Samkvæmni gefur til kynna hversu mörgum af heildarfjölda spáa sem eru tilgreindar sem jákvæðar eru rétt úthlutaðar. Þessi mæling er einnig þekkt sem jákvætt spágildi. Afturköllun er heildarfjöldi raunverulegum jákvæðum málum sem var spáð rétt. Þessi mæling er einnig þekkt sem næmni.
 
@@ -97,7 +97,7 @@ F1-mælingin sameinar samkvæmni og afturköllun. Niðurstaðan er þýtt meðal
 
 - F1 = 2 × (samkvæmni × afturköllun) ÷ (samkvæmni + afturköllun)
 
-Lítum á dæmi. Fyrr í þessu efnisatriði kom fram dæmi um líkan sem spáði því hvort dýr væri hundur eða köttur. Myndin er endurtekin hér.
+Lítum á dæmi. Fyrr í þessari grein var dæmi um líkan sem spáði fyrir um hvort dýr væri hundur eða köttur. Myndin er endurtekin hér.
 
 [![Dæmi um spá á tegund (endurtekið).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
@@ -111,7 +111,7 @@ Eins og sjá má er F1-gildið á milli gildanna fyrir samkvæmni og afturköllu
 
 Þrátt fyrir að ekki sé eins auðvelt að skilja F1-nákvæmni, bætir hún blæbrigðum við grunntölu nákvæmninnar. Hún getur einnig hjálpað til við ójafnað gagnasafn eins og eftirfarandi umræður sýna.
 
-Hlutinn [Nákvæmni líkans](#model-accuracy) í þessu efnisatriði bar saman eftirfarandi tvö ruglingsfylki. Þrátt fyrir að fyrsta líkanið hafði lægri nákvæmni var það gagnlegra líkan vegna þess að það sýndi meiri framför en sjálfgefin ágiskun um greiðslu á réttum tíma.
+The [Nákvæmni líkans](#model-accuracy) kafla þessarar greinar bar saman eftirfarandi tvö ruglingsfylki. Þrátt fyrir að fyrsta líkanið hafði lægri nákvæmni var það gagnlegra líkan vegna þess að það sýndi meiri framför en sjálfgefin ágiskun um greiðslu á réttum tíma.
 
 ![Dæmi um greiðsluspá í samanburði við rauntölur.](media/payment-prediction-matrix.png)
 

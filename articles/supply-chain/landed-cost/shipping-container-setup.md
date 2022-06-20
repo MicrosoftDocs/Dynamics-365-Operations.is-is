@@ -1,6 +1,6 @@
 ---
 title: Gámar
-description: Þetta efnisatriði lýsir því hvernig eigi að setja upp gáma fyrir Heildarkostnaður eininguna.
+description: Þessi grein lýsir því hvernig á að setja upp sendingargáma fyrir kostnaðareininguna Landað.
 author: Weijiesa
 ms.date: 12/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 96710cf2b5a2e39f9492aadb0ba6f3241f0666f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 345f815a4f85db30db18aba3f8a4d41835c2e3f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860843"
 ---
 # <a name="shipping-container-setup"></a>Uppsetning gáms
 
 [!include [banner](../../includes/banner.md)]
 
-Í þessu efnisatriði er lýst hvernig eigi að setja upp gáma fyrir **Heildarkostnaður** eininguna.
+Þessi grein lýsir því hvernig á að setja upp sendingargáma fyrir **Landaður kostnaður** mát.
 
 ## <a name="set-up-shipping-container-types"></a><a id="shipping-container-types"></a>Setja upp gámagerðir
 
@@ -53,7 +53,7 @@ Til að vinna gáma skal fara í **Heildarkostnaður \> Gámauppsetning \> Gáma
 | Svæði | lýsing |
 |---|---|
 | Gámur | Færið inn einkvæmt auðkennisheiti/númer fyrir gám. |
-| Gámagerð | Velja gerð gáms. Frekari upplýsingar er að finna í hlutanum [Setja upp gámagerðir](#shipping-container-types) fyrr í þessu efnisatriði. |
+| Gámagerð | Velja gerð gáms. Fyrir frekari upplýsingar, sjá [Settu upp gerðir flutningsgáma](#shipping-container-types) kafla fyrr í þessari grein. |
 
 > [!NOTE]
 > - Uppsetning gáms er valfrjáls. Yfirleitt verður hún aðeins notuð ef fyrirtækið á eigin gáma eða notar oft sömu gámana.

@@ -1,6 +1,6 @@
 ---
-title: Viðskiptavinavottorð og leyndarmál
-description: Þetta efni útskýrir hvernig á að setja upp viðskiptavottorð og leyndarmál í rafrænum reikningum.
+title: Vottorð og leynilyklar viðskiptavina
+description: Þessi grein útskýrir hvernig á að setja upp viðskiptavottorð og leyndarmál í rafrænum reikningum.
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1325cad95e9a6dc470691f5f168439fccaaa78e1
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: a4d33135bf352a4c4a245e597e0c3c7467317864
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880661"
 ---
-# <a name="customer-certificates-and-secrets"></a>Viðskiptavinavottorð og leyndarmál
+# <a name="customer-certificates-and-secrets"></a>Vottorð og leynilyklar viðskiptavina
 
 [!include [banner](../includes/banner.md)]
 
@@ -43,7 +43,7 @@ Til að búa til og setja upp vottorð og leyndarmál skaltu fylgja þessum skre
 9. Veldu **Vista**.
 
 > [!NOTE]
-> Í sumum tilfellum verður þú að nota opinber vottorð sem hafa .cer skráarheiti. Hins vegar styður Key Vault ekki innflutning og geymslu vottorða af þessari gerð sem Key Vault vottorð. Í þessum tilfellum ættir þú að vista .cer skrána sem Base-64-kóðaðan X.509 (.CER) streng. Síðan, í Key Vault leyndarmáli, geymdu strenginn sem birtist á milli **BYRJA VIÐSKERT** línan og **LOKASKERT** línu í skránni. Í þjónustuumhverfinu ættir þú samt að búa til tilvísun í Key Vault færsluna og stilla **Tegund** sviði til **Vottorð**.
+> Í sumum tilfellum verður þú að nota opinber vottorð sem hafa .cer skráarheiti. Hins vegar styður Key Vault ekki innflutning og geymslu vottorða af þessari gerð sem Key Vault vottorð. Í þessum tilfellum ættir þú að vista .cer skrána sem Base-64-kóðaðan X.509 (.CER) streng. Síðan, í Key Vault leyndarmáli, geymdu strenginn sem birtist á milli **BYRJA VIÐSKERT** lína og **LOKASKERT** línu í skránni. Í þjónustuumhverfinu ættir þú samt að búa til tilvísun í Key Vault færsluna og stilla **Tegund** sviði til **Vottorð**.
 
 ## <a name="create-a-chain-of-certificates"></a>Búðu til keðju vottorða
 

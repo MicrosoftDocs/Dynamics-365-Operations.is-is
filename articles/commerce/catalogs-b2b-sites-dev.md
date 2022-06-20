@@ -1,6 +1,6 @@
 ---
-title: Stækkanleikaáhrif viðskiptaskráa fyrir B2B aðlögun
-description: Þetta efnisatriði lýsir stækkanleikaáhrifum viðskiptavörulista fyrir B2B eiginleika í Microsoft Dynamics 365 Commerce.
+title: Stækkunarhæfniáhrif Commerce-vörulista fyrir B2B-sérstillingar
+description: Þessi grein lýsir stækkanleikaáhrifum viðskiptaskránna fyrir B2B eiginleika í Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 04/28/2022
 ms.topic: article
@@ -9,21 +9,21 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: aff333bfe8003233dd5d8181aa8c5dd7eaeffcd0
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
-ms.translationtype: MT
+ms.openlocfilehash: f21d3375db69dd412325d00261bfc18e26d0c257
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8657196"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849016"
 ---
-# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>Stækkanleikaáhrif viðskiptaskráa fyrir B2B aðlögun
+# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>Stækkunarhæfniáhrif Commerce-vörulista fyrir B2B-sérstillingar
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Þetta efni lýsir stækkanleikaáhrifum **Viðskiptabækur fyrir B2B** lögun í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir teygjanleikaáhrifum **Viðskiptabækur fyrir B2B** lögun í Microsoft Dynamics 365 Commerce.
 
-Ef þú hefur áhuga á að útvíkka vörulistasamhengið í sérsniðnar aðstæður gæti þurft að uppfæra sérstillingarnar þínar. Þessi uppfærsla fylgir stöðluðu ferli sem viðskiptavinir verða að fylgja, vegna þess að aðlögun þeirra styður kannski ekki sjálfkrafa nýjustu eiginleikana eftir að uppfærslur eru gerðar. Ef sérstillingarnar þínar innihalda nýja eiginleika eða villuleiðréttingar í upplifun þeirra, mælum við með að þú uppfærir sérstillingarkóðann í samræmi við það. Þessi uppfærsla líkist þeim breytingum sem Microsoft gæti hafa gert fyrir kjarnakóðann.
+Ef þú hefur áhuga á að útvíkka vörulistasamhengið í sérsniðnar aðstæður, gæti þurft að uppfæra sérstillingarnar þínar. Þessi uppfærsla fylgir stöðluðu ferli sem viðskiptavinir verða að fylgja, vegna þess að aðlögun þeirra styður kannski ekki sjálfkrafa nýjustu eiginleikana eftir að uppfærslur eru gerðar. Ef sérstillingarnar þínar innihalda nýja eiginleika eða villuleiðréttingar í upplifun þeirra, mælum við með að þú uppfærir sérstillingarkóðann í samræmi við það. Þessi uppfærsla líkist þeim breytingum sem Microsoft gæti hafa gert fyrir kjarnakóðann.
 
 Skoðaðu sérsniðin tilvik sem fylgja til að ákvarða hvort uppfæra þarf sérsniðin þín.
 
@@ -65,6 +65,6 @@ Eftirfarandi aðlögunartilvik krefjast þróunaruppfærslu:
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Búðu til viðskiptabæklinga fyrir B2B síður](catalogs-b2b-sites.md)
+[Stofna Commerce-vörulista fyrir B2B-svæði](catalogs-b2b-sites.md)
 
-[Viðskiptabækur fyrir B2B Algengar spurningar](catalogs-b2b-sites-FAQ.md)
+[Algengar spurningar um Commerce-vörulista fyrir B2B](catalogs-b2b-sites-FAQ.md)

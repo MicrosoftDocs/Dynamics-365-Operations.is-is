@@ -1,6 +1,6 @@
 ---
 title: Virkja breytingastjórnun á fyrirliggjandi afurðum
-description: Þetta efnisatriði útskýrir hvernig hægt er að virkja breytingastjórnun fyrir fyrirliggjandi afurðir. Það lýsir einnig tilvikum þar sem geta notanda til að virkja breytingastjórnun er takmarkaður.
+description: Þessi grein útskýrir hvernig þú getur virkjað breytingastjórnun fyrir núverandi vörur. Það lýsir einnig tilvikum þar sem geta notanda til að virkja breytingastjórnun er takmarkaður.
 author: t-benebo
 ms.date: 02/05/2021
 ms.topic: article
@@ -12,24 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9f99529abebdf5490f158c6f0a7be4519449e9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103614"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893469"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Virkja breytingastjórnun á fyrirliggjandi afurðum
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig hægt er að virkja breytingastjórnun fyrir fyrirliggjandi afurðir. Það lýsir einnig tilvikum þar sem geta notanda til að virkja breytingastjórnun er takmarkaður.
+Þessi grein útskýrir hvernig þú getur virkjað breytingastjórnun fyrir núverandi vörur. Það lýsir einnig tilvikum þar sem geta notanda til að virkja breytingastjórnun er takmarkaður.
 
 Þegar breytingastjórnun er virkjuð fyrir fyrirliggjandi afurð er hægt að búa til útgáfur af þeirri afurð og rekja breytingar sem gerðar eru á henni í gegnum líftíma hennar. Þar af leiðandi er hægt að rekja þær breytingar með því að nota breytingabeiðnir. Til að virkja breytingastjórnun þarf að breyta viðeigandi afurðum í *hönnunarvörur* (einnig þekkt sem hönnunarafurðir). Hönnunarafurðir eru afurðir sem úthlutað er útgáfu og stjórnað í gegnum breytingastjórnun. Leiðsagnarforrit leiðir þig í gegnum umreikningsferlið.
 
 ## <a name="turn-this-feature-on-or-off"></a>Kveiktu eða slökktu á þessum eiginleika
 
-Virknin sem lýst er í þessu efni krefst þess að bæði *Verkfræðibreytingastjórnun* og *Virkjaðu breytingastjórnun á núverandi vörum* kveikt er á eiginleikum fyrir kerfið þitt. Fyrir upplýsingar um hvernig á að kveikja eða slökkva á þessum eiginleikum, sjá [Yfirlit yfir verkfræðibreytingastjórnun](product-engineering-overview.md).
+Virknin sem lýst er í þessari grein krefst þess að bæði *Verkfræðibreytingastjórnun* og *Virkjaðu breytingastjórnun á núverandi vörum* kveikt er á eiginleikum fyrir kerfið þitt. Fyrir upplýsingar um hvernig á að kveikja eða slökkva á þessum eiginleikum, sjá [Yfirlit yfir verkfræðibreytingastjórnun](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Takmarkanir
 
@@ -38,7 +38,7 @@ Ekki er hægt að umbreyta öllum vörutegundum í allar aðrar gerðir. Eftirfa
 - Þegar afurð er breytt í hönnunarafurð er hún enn *afurð*. Það verður ekki *afurðarsniðmát*.
 - Þegar afurðarsniðmáti sem er með tiltekna víddasamstæðu er breytt, er víddunum viðhaldið eftir breytinguna. Ef til dæmis afurðarsniðmáti með stærðarvíddina er breytt mun það halda stærðarvíddinni.
 
-Þar af leiðandi, ef um er að ræða einkvæma afurð, er aðeins hægt að breyta henni í hönnunarafurð sem rekur ekki afurðarvíddina í færslum (þ.e. útgáfuvíddin er ekki notuð). Skoðið þá hluta sem eftir eru í þessum efnisatriði til að fá frekari upplýsingar um þessi mál.
+Þar af leiðandi, ef um er að ræða einkvæma afurð, er aðeins hægt að breyta henni í hönnunarafurð sem rekur ekki afurðarvíddina í færslum (þ.e. útgáfuvíddin er ekki notuð). Sjáðu hluta þessarar greinar sem eftir eru til að fá frekari upplýsingar um þessi mál.
 
 ## <a name="prepare-for-conversion-by-creating-all-required-engineering-product-categories"></a>Undirbúa umbreytingu með því að stofna allar nauðsynlega hönnuarafurðaflokka
 
@@ -81,7 +81,7 @@ Fylgið þessum skrefum til að keyra leiðsögnina **Breyta í hönnunarafurð*
 
     - **Afurðarnúmer** – Afurðarnúmerið.
     - **Vöruheiti** – Nafn vörunnar.
-    - **Flokkur hönnunar** – Veljið afurðarflokk hönnunar sem afurðin á að tilheyra eftir að búið er að breyta henni. Viðeigandi gerð verður þegar að vera til fyrir hverja afurð, eins og var útskýrt í fyrri hluta þessa efnisatriðis. Úthluta verður flokki á hverja afurð.
+    - **Flokkur hönnunar** – Veljið afurðarflokk hönnunar sem afurðin á að tilheyra eftir að búið er að breyta henni. Viðeigandi flokkur verður þegar að vera til fyrir hverja vöru, eins og útskýrt var í fyrri hluta þessarar greinar. Úthluta verður flokki á hverja afurð.
     - **Útgáfa** – Færið inn afurðarútgáfuna sem á að úthluta á afurðina eftir að henni hefur verið umbreytt. Til dæmis væri hægt að velja númer sem passar við númeraröðina sem flokkurinn notar þegar. Sérhver hönnunarútgáfa geymir gögnin sem tengjast hönnuninni sem á sérstaklega við þessa útgáfu. Frekari upplýsingar eru í [Hönnunarútgáfur og flokkar hönnunarafurðar](engineering-versions-product-category.md).
     - **Lífferilsstaða afurðar** – Veljið líftímastöðu afurðar sem afurðin á að vera í eftir að henni hefur verið umbreytt. Líftímastaða afurðar gerir þér kleift að hafa eftirlit með því hvaða færslur eru leyfðar fyrir tiltekna hönnunarútgáfu. Frekari upplýsingar er að finna í [Líftímastöður afurðar og færslur](product-lifecycle-state-transactions.md).
     - **Er með uppskrift** – Valinn gátreitur gefur til kynna að afurðin sé með uppskrift. Stillingin á þessum gátreit getur hjálpað til við að ákveða hvernig á að stilla gátreitinn **Núverandi uppskrift verður hluti af hönnunarafurðinni**.

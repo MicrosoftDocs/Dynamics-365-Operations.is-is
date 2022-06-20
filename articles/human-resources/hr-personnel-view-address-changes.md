@@ -1,6 +1,6 @@
 ---
 title: Skoða og vinna með aðsetursbreytingar
-description: Þetta efnisatriði útskýrir hvernig hægt er að skoða og hafa umsjón með breytingum á aðsetri í Dynamics 365 Human Resources.
+description: Þessi grein útskýrir hvernig þú getur skoðað og stjórnað heimilisfangsbreytingum í Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 819f22c58da485980c38d35dcc6dda6aebacf423
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 744ab532fcc663f25ce376817779924bbef15432
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695845"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899586"
 ---
 # <a name="view-and-manage-address-changes"></a>Skoða og vinna með aðsetursbreytingar
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695845"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þetta efni útskýrir hvernig þú getur skoðað og stjórnað heimilisfangsbreytingum á **Breyttu persónulegum upplýsingum** síðu (sem þú opnar frá **Sjálfsafgreiðsla starfsmanna** vinnusvæði) eða **Vinnumaður** upplýsingasíða í Dynamics 365 Human Resources.
+Þessi grein útskýrir hvernig þú getur skoðað og stjórnað heimilisfangsbreytingum á **Breyttu persónulegum upplýsingum** síðu (sem þú opnar frá **Sjálfsafgreiðsla starfsmanna** vinnusvæði) eða **Vinnumaður** upplýsingasíða í Dynamics 365 Human Resources.
 
 Mörg fyrirtæki vilja að starfsmenn hafi umsjón með persónulegum upplýsingum sínum í gegnum sjálfsafgreiðsluumhverfið. Hægt er að leyfa notendum að uppfæra aðsetur sitt á vinnusvæðinu **Sjálfsafgreiðsla starfsmanna**. Síðan er hægt að fylgjast með þessum breytingum á vinnusvæðinu **Starfsmannastjórnun**. Til að nota þennan eiginleika þarf að tilgreina dagafjöldann sem á að skoða breytingar fyrir á síðunni **Færibreytur mannauðs**.
 

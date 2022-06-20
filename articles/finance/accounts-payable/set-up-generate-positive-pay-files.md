@@ -1,6 +1,6 @@
 ---
-title: Uppsetning og myndun jákvæðra greiðsluskráa launa
-description: Þetta efnisatriði útskýrir hvernig á að setja upp jákvæða greiðslu og mynda jákvæðar greiðsluskrár.
+title: Setja upp og mynda jákvæða greiðsluskrá launa
+description: Þessi skrá útskýrir hvernig á að setja upp jákvæða greiðslu og mynda jákvæðar greiðsluskrár.
 author: panolte
 ms.date: 03/06/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: eb5a9595ea1a93a9b15348eb1b291d744f660d40
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6b3cff1029b02aaabef2ea9795ab9912f20f1129
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727763"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871421"
 ---
-# <a name="set-up-and-generate-positive-pay-files"></a>Uppsetning og myndun jákvæðra greiðsluskráa launa
+# <a name="set-up-and-generate-positive-pay-files"></a>Setja upp og mynda jákvæða greiðsluskrá launa
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja upp jákvæða greiðslu og mynda jákvæðar greiðsluskrár. 
+Þessi skrá útskýrir hvernig á að setja upp jákvæða greiðslu og mynda jákvæðar greiðsluskrár. 
 
 Setja upp jákvæða greiðslu til að búa til rafræna lista yfir ávísanir sem eru gefnar í banka. Þegar ávísun er innleyst í bankanum ber bankinn ávísunina saman við lista yfir ávísanir. Ef ávísunin stemmir við ávísun í listanum samþykkir bankinn ávísunina. Ef ávísunin stemmir ekki við ávísun í listanum heldur bankinn henni eftir til skoðunar.
 

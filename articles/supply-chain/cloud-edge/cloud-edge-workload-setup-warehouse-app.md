@@ -1,6 +1,6 @@
 ---
-title: Stilltu Warehouse Management farsímaforritið fyrir skýja- og brúnkvarðaeiningar
-description: Þetta efni útskýrir hvernig á að setja upp vöruhúsastjórnun farsímaforritin þín fyrir vöruhús sem þjónað er af skýja- eða brúnkvarðaeiningu.
+title: Grunnstilla farsímaforrit Warehouse Management fyrir einingakvarða skýja og jaðra
+description: Þessi grein útskýrir hvernig á að setja upp vöruhúsastjórnun farsímaforritin þín fyrir vöruhús sem þjónað er af skýja- eða brúnkvarðaeiningu.
 author: perlynne
 ms.date: 12/15/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa00b40db2f6246029876964dca9d3229567848
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 86edef2dfa6e9c71c04d50f185148be3a622fea1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071781"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865239"
 ---
-# <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Stilltu Warehouse Management farsímaforritið fyrir skýja- og brúnkvarðaeiningar
+# <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Grunnstilla farsímaforrit Warehouse Management fyrir einingakvarða skýja og jaðra
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að setja upp vöruhúsastjórnun farsímaforritin þín þannig að hægt sé að nota þau í vöruhúsum sem þjónað er af skýja- eða brúnkvarðaeiningu.
+Þessi grein útskýrir hvernig á að setja upp vöruhúsastjórnun farsímaforritin þín þannig að hægt sé að nota þau í vöruhúsum sem þjónað er af skýja- eða brúnkvarðaeiningu.
 
 ## <a name="prerequisites"></a>Forkröfur
 

@@ -1,8 +1,8 @@
 ---
 title: Skoða áætlunarsögu og skipulagsskrár
-description: Þetta efni útskýrir hvernig á að skoða sögu áætlunarvinnsla sem fara af stað vegna virkni fínstillingar áætlunargerðar.
+description: Þessi grein útskýrir hvernig á að skoða feril áætlanagerðarverka sem eru ræst af aðgerðinni áætlanagerð fínstillingu.
 author: t-benebo
-ms.date: 10/30/2019
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,22 +16,22 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 9b4cba4dd94eb198e770d152d4f759a706065dee
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469758"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863941"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Skoða áætlunarsögu og skipulagsskrár
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að skoða sögu áætlunarvinnsla sem fara af stað vegna virkni fínstillingar áætlunargerðar í Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein útskýrir hvernig á að skoða feril áætlanagerðaverka sem eru ræst af virkni skipulagsfínstillingar í Microsoft Dynamics 365 Supply Chain Management.
 
 Til að skoða sögu fyrir áætlun, opnaðu áætlunina með því að fara til **Aðaláætlunargerð** \> **Uppsetning** \> **Áætlanir** \> **Aðaláætlanir** og velja **Saga**. Í sögunni eru allar vinnslur fyrir valda áætlun. Listinn nær yfir loknar og virkar vinnslur.
 
-Verkferillinn fyrir keyrslur aðaláætlanagerðar á fínstillingu skipulagningar geymir að hámarki 60 færslur fyrir hverja aðaláætlun. Í hvert sinn sem nýr útreikningur aðaláætlanagerð verður elstu ferilfærslu áætlunarinnar eytt.
+Kerfið geymir að hámarki 60 söguskrár í hverju aðalskipulagi og eyðir færslum eldri en 30 daga. Í hvert skipti sem þú keyrir nýjan aðalskipulagsútreikning bætir kerfið við nýrri söguskrá og hreinsar síðan upp elstu færslurnar eftir þörfum.
 
 Auk þess að sjá upphafstíma og stöðu á vinnslum geturðu skoðað kladda fyrir tiltekna vinnslu. Í kladdanum eru viðbótarupplýsingar og viðvaranir. Ekki eru allar vinnslur með kladda. Til að skoða kladda fyrir vinnslu velurðu **Kladdi**. Kladdafærslur eru aðeins geymdar í 30 daga frá deginum sem verkið klárast og er eytt sjálfkrafa eftir það.
 

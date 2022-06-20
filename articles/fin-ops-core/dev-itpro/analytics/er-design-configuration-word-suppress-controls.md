@@ -1,6 +1,6 @@
 ---
 title: Fela Word-efnisstýringar í mynduðum skýrslum
-description: Í þessu efni er útskýrt hvernig á að skilgreina snið rafrænnar skýrslugerðar til að mynda skýrslur sem Microsoft Word-skrár þar sem efnisstýringar eru faldar.
+description: Þessi grein útskýrir hvernig á að stilla rafræna skýrslugerð (ER) snið til að búa til skýrslur sem Microsoft Word skrár þar sem innihaldsstýringar eru bældar niður.
 author: NickSelin
 ms.date: 02/11/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 2c2d79c9ea36c42cfc0f6ba0d3c81d063d8d9446
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: e11b697b78c89a1758fa9e81c901bd29fe281539
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782177"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882114"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Fela Word-efnisstýringar í mynduðum skýrslum
 
 [!include [banner](../includes/banner.md)]
 
-Til að búa til skýrslur sem Microsoft Word-skjöl þarf að hanna sniðmát fyrir skýrslurnar sem Word-skjal. Þetta sniðmát verður að innihalda Word-efnisstýringar sem staðgengla fyrir gögn sem verður fyllt út í við keyrslu. Til að nota Word-skjalið sem sniðmát sem er búið til sem sniðmát fyrir skýrslurnar er hægt að [skilgreina](er-design-configuration-word.md) nýja [rafræna skýrslugerðar](general-electronic-reporting.md) [lausn](er-quick-start1-new-solution.md). Lausnin verður að innihalda bráðamóttöku [stillingar](general-electronic-reporting.md#Configuration) sem inniheldur ER-sniðshluta. Þetta snið rafrænnar skýrslugerðar verður að vera skilgreint til að nota hannaða sniðmátið fyrir myndun skýrslu.
+Til að búa til skýrslur sem Microsoft Word-skjöl þarf að hanna sniðmát fyrir skýrslurnar sem Word-skjal. Þetta sniðmát verður að innihalda Word-efnisstýringar sem staðgengla fyrir gögn sem verður fyllt út í við keyrslu. Til að nota Word-skjalið sem sniðmát sem er búið til sem sniðmát fyrir skýrslurnar er hægt að [skilgreina](er-design-configuration-word.md) nýja [rafræna skýrslugerðar](general-electronic-reporting.md) [lausn](er-quick-start1-new-solution.md). Lausnin verður að innihalda bráðamóttöku [uppsetningu](general-electronic-reporting.md#Configuration) sem inniheldur ER-sniðshluta. Þetta snið rafrænnar skýrslugerðar verður að vera skilgreint til að nota hannaða sniðmátið fyrir myndun skýrslu.
 
 Í útgáfu 10.0.6 og síðar af Dynamics 365 Finance geturðu stillt formúlur á ER-sniði þínu til að bæla niður sumar innihaldsstýringar Word í mynduðum skjölum.
 

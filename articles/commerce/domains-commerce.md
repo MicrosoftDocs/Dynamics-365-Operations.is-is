@@ -1,6 +1,6 @@
 ---
 title: Lén í Dynamics 365 Commerce
-description: Þetta efnisatriði lýsir því hvernig lén eru afgreidd í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig lén eru meðhöndluð í Microsoft Dynamics 365 Commerce.
 author: BrShoo
 ms.date: 05/10/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
-ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
+ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8737347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848955"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Lén í Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig lén eru afgreidd í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig lén eru meðhöndluð í Microsoft Dynamics 365 Commerce.
 
-Lén eru vefföng sem eru notuð til að fara á Dynamics 365 Commerce-vefsvæði í netvafra. Þú sérð um stjórnun á léninu þínu með valdri DNS-veitu. Vísað er í lén í gegnum Dynamics 365 Commerce-vefsmið til að samræma hvernig svæði verður opnað þegar það er birt. Þetta efnisatriði fer yfir hvernig lén eru meðhöndluð og vísað í gegnum feril þróunar og útgáfu Commerce-svæðis.
+Lén eru vefföng sem eru notuð til að fara á Dynamics 365 Commerce-vefsvæði í netvafra. Þú sérð um stjórnun á léninu þínu með valdri DNS-veitu. Vísað er í lén í gegnum Dynamics 365 Commerce-vefsmið til að samræma hvernig svæði verður opnað þegar það er birt. Í þessari grein er farið yfir hvernig lén eru meðhöndluð og vísað til í gegnum líftíma þróunar og opnunar viðskiptasíðunnar.
 
 > [!NOTE]
 > Frá og með 6. maí 2022 er allt umhverfi búið til í Dynamics 365 Commerce verður útvegað með`.dynamics365commerce.ms` lén, sem kemur í stað fyrra mynsturs `.commerce.dynamics.com`. Núverandi umhverfi útvegað með`.commerce.dynamics.com` lénið mun halda áfram að virka.

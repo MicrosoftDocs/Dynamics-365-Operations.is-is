@@ -1,6 +1,6 @@
 ---
 title: Úrræðaleita vandamál sem tengjast afköstum í skilgreiningum rafrænnar skýrslugerðar
-description: Þetta efnisatriði útskýrir hvernig á að finna og laga vandamál sem tengjast afköstum í skilgreiningum rafrænnar skýrslugerðar.
+description: Þessi grein útskýrir hvernig á að finna og laga frammistöðuvandamál í rafrænum skýrslum (ER) stillingum.
 author: NickSelin
 ms.date: 05/12/2022
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: maximbel
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: e727e06c73ff445bf4219ac5a9eee7bec25740d9
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 28ff68309bad7a6c1b6009ba03ef4b20aceb5194
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811681"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847341"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>Úrræðaleita vandamál sem tengjast afköstum í skilgreiningum rafrænnar skýrslugerðar
 
-Þetta efnisatriði útskýrir hvernig á að finna og leysa vandamál sem tengjast afköstum í [skilgreiningum](general-electronic-reporting.md#Configuration) [rafrænnar skýrslugerðar](general-electronic-reporting.md).
+Þessi grein útskýrir hvernig á að finna og leysa frammistöðuvandamál í [Rafræn skýrslugerð](general-electronic-reporting.md) (ER) [stillingar](general-electronic-reporting.md#Configuration).
 
 Yfirleitt felur rannsókn á afköstum í sér nokkur skref.
 

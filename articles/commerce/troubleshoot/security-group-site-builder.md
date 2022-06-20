@@ -1,6 +1,6 @@
 ---
 title: Ekki hægt að skilgreina öryggisflokk fyrir vefsmið Commerce við fyrstu uppsetningu
-description: Þetta efnisatriði býður upp á leiðsögn úrræðaleitar sem getur reynst hjálpleg þegar öryggisflokkur Microsoft Azure Active Directory (Azure AD) fyrir vefsmið Commerce birtist ekki sem valkostur þegar þættir rafrænna viðskipta eru stofnaðir í Microsoft Dynamics Lifecycle Services (LCS) við fyrstu uppsetningu á nýjum leigjanda rafrænna viðskipta.
+description: Þessi grein veitir leiðbeiningar um bilanaleit sem geta hjálpað þegar Microsoft Azure Active Directory (Azure AD) öryggishópur fyrir viðskiptasíðugerð birtist ekki sem valkostur þegar þú býrð til rafræna viðskiptahluta í Microsoft Dynamics Lifecycle Services (LCS) við upphaflega dreifingu nýs rafrænnar viðskiptaleiganda.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f930cac61b747037b9fbecc7397a9b1b7db5dabd8a86b63a61c92ac7abe17516
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 797df828df16547eb3aef1f9865a663281fb9224
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765171"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899016"
 ---
 # <a name="cant-configure-a-security-group-for-commerce-site-builder-during-initial-deployment"></a>Ekki hægt að skilgreina öryggisflokk fyrir vefsmið Commerce við fyrstu uppsetningu
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði býður upp á leiðsögn úrræðaleitar sem getur reynst hjálpleg þegar öryggisflokkur Microsoft Azure Active Directory (Azure AD) fyrir vefsmið Commerce birtist ekki sem valkostur þegar þættir rafrænna viðskipta eru stofnaðir í Microsoft Dynamics Lifecycle Services (LCS) við fyrstu uppsetningu á nýjum leigjanda rafrænna viðskipta.
+Þessi grein veitir leiðbeiningar um bilanaleit sem geta hjálpað þegar Microsoft Azure Active Directory (Azure AD) öryggishópur fyrir viðskiptasíðugerð birtist ekki sem valkostur þegar þú býrð til rafræna viðskiptahluta í Microsoft Dynamics Lifecycle Services (LCS) við upphaflega dreifingu nýs rafrænnar viðskiptaleiganda.
 
 ## <a name="description"></a>lýsing
 

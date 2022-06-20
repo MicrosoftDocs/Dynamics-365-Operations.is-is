@@ -1,6 +1,6 @@
 ---
 title: Tilvísun í upprunalega reikninga í kreditnótum (reikningar lánardrottins)
-description: Í þessu efnisatriði er lýst hvernig á að búa til tilvísun í upprunalegan reikning þegar kreditnóta er stofnuð.
+description: Þessi grein lýsir því hvernig á að búa til tilvísun í upprunalegan reikning þegar þú stofnar kreditnótu.
 author: v-oloski
 ms.date: 09/28/2021
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2021-09-23
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 698a23a98f027014c89073203e6d9dfa5539a2f6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e05dddf056d86513d86ea925349f60ca25f191ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901490"
 ---
 # <a name="reference-original-invoices-in-credit-notes-vendor-invoices"></a>Tilvísun í upprunalega reikninga í kreditnótum (reikningar lánardrottins)
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er lýst hvernig á að búa til tilvísun í upprunalegan reikning þegar kreditnóta er stofnuð.
+Þessi grein lýsir því hvernig á að búa til tilvísun í upprunalegan reikning þegar þú stofnar kreditnótu.
 
 ## <a name="prerequisites"></a>Forkröfur
 
 Á vinnusvæðinu **Eiginleikastjórnun** skal virkja eiginleikann **Virkja kreditreikningsfærslu fyrir reikninga lánardrottins**. Frekari upplýsingar er að finna í [Eiginleikastjórnunaryfirlit](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Virknin sem lýst er í þessu efnisatriði gildir um eftirfarandi viðskiptaskjöl.
+Virknin sem lýst er í þessari grein á við um eftirfarandi viðskiptaskjöl.
 
 **Lánardrottnar:**
 

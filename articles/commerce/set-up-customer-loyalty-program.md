@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir vildarkerfi
-description: Í þessu efni er fjallað um vildarkerfi í Dynamics 365 Commerce og samsvarandi uppsetningarþrepum til að hjálpa smásala auðveldlega að byrja með vildarkerfi sín.
+description: Þessi grein lýsir hollustuhæfileikum innan Dynamics 365 Commerce og samsvarandi uppsetningarskref til að auðvelda söluaðilanum að byrja auðveldlega með tryggðarprógrömm sín.
 author: scott-tucker
 ms.date: 07/21/2020
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 57512bbd735e26ba31e00518ca8179f2d9b14bc4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 667c30e52bae34f8ddfdc7b74f271d08612ac594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883904"
 ---
 # <a name="loyalty-overview"></a>Yfirlit yfir vildarkerfi
 
 [!include [banner](includes/banner.md)]
 
-Vildarkerfi geta hjálpað til við að auka viðskiptavinar hollustu með því að umbuna viðskiptavinum fyrir samskipti þeirra við vörumerki smásala. Í Dynamics 365 Commerce er hægt að setja upp einfalda eða flókið vildarkerfi sem gilda á milli lögaðila í hvaða viðskiptarás sem er. Í þessu efni er fjallað um vildarkerfi í Commerce og samsvarandi uppsetningarþrepum til að hjálpa smásala auðveldlega að byrja með vildarkerfi sín.
+Vildarkerfi geta hjálpað til við að auka viðskiptavinar hollustu með því að umbuna viðskiptavinum fyrir samskipti þeirra við vörumerki smásala. Í Dynamics 365 Commerce er hægt að setja upp einfalda eða flókið vildarkerfi sem gilda á milli lögaðila í hvaða viðskiptarás sem er. Þessi grein lýsir vildarmöguleikum innan viðskipta og samsvarandi uppsetningarskrefum til að hjálpa smásalanum að byrja auðveldlega með vildarprógrömm sín.
 
 Þú getur sett upp vildarkerfi þannig að það innihaldi eftirfarandi eiginleika.
 

@@ -1,6 +1,6 @@
 ---
 title: Setja upp forstillingu tilkynningar í tölvupósti
-description: Þetta efnisatriði lýsir hvernig á að stofna forstillingu tilkynningar í tölvupósti í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að búa til tilkynningaprófíl í tölvupósti í Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9f7adffd67e8198d16e4f7ed4fc4aadf59071b1d
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 109adcc4e8b49c665bd14ecab2b7cc56cebd2291
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109632"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878487"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Setja upp forstillingu tilkynningar í tölvupósti
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig á að stofna forstillingu tilkynningar í tölvupósti í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að búa til tilkynningaprófíl í tölvupósti í Microsoft Dynamics 365 Commerce.
 
 Þegar rásir eru búnar til er hægt að setja upp forstillingu tilkynningar í tölvupósti. Tilkynningasniðið í tölvupósti skilgreinir atburði sölufærslu (eins og pöntun búin til, pöntun pakkað og pöntun reikningsfærð atburðir) sem þú munt senda tilkynningar til viðskiptavina þinna. 
 
@@ -79,7 +79,7 @@ Eftirfarandi mynd sýnir nokkur dæmi um stillingar tilkynningar tilviks.
 ![Tilkynningastillingar tilvika.](media/email-notification-profile.png)
 
 > [!NOTE]
-> Tilkynningagerðin sem viðskiptavinurinn stofnaði krefst þess að sérsniðin sé innleidd áður en hægt er að senda tilkynningu í tölvupósti.
+> Tilkynningagerðin sem viðskiptavinurinn hefur búið til krefst að sérsniðin sé innleidd áður en hægt er að senda tilkynningu í tölvupósti.
 
 ### <a name="schedule-a-recurring-email-notification-process-job"></a>Tímasettu endurtekið tilkynningaferli í tölvupósti
 

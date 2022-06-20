@@ -1,6 +1,6 @@
 ---
 title: Stofna skil á sölustað
-description: Í þessu efnisatriði er lýst hvernig á að hefja skil á staðgreiðslufærslum eða viðskiptavinapöntunum í forriti Microsoft Dynamics 365 Commerce sölustaðar.
+description: Þessi grein lýsir því hvernig á að hefja skil fyrir staðgreiðslufærslur eða pantanir viðskiptavina í Microsoft Dynamics 365 Commerce Umsókn um sölustað (POS).
 author: hhainesms
 ms.date: 04/27/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: a49e9abd0143d480cc1cafb05be5e995fb3cebdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648989"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856999"
 ---
 # <a name="create-returns-in-pos"></a>Stofna skil á sölustað
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er lýst hvernig á að hefja skil á staðgreiðslufærslum eða viðskiptavinapöntunum í Microsoft Dynamics 365 Commerce forriti sölustaðar.
+Þessi grein lýsir því hvernig á að hefja skil fyrir staðgreiðslufærslur eða pantanir viðskiptavina í Microsoft Dynamics 365 Commerce sölustaður (POS) app.
 
 > [!NOTE]
 > Í Commerce-útgáfu 10.0.20 og nýrri er boðið upp á nýjan eiginleika sem heitir **Upplifun samræmdrar skilavinnslu á sölustað**. Þessi eiginleiki býður upp á áreiðanlega og samræmda vinnslu á skilum á sölustað burtséð frá færslugerðinni (staðgreiðslu eða viðskiptavinapöntun) eða upprunalegri rás sem pöntunin var stofnuð í. Við mælum með að öll fyrirtæki kveiki á þessum nýja eiginleika til að stuðla að auknum áreiðanleika á vinnslu skila í gegnum sölustað.

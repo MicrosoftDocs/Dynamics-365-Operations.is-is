@@ -1,6 +1,6 @@
 ---
 title: Áfyllingaráætlanir
-description: Þetta efnisatriði veitir upplýsingar um áfyllingaráætlanir og útskýrir hvernig hægt er að nota svæðið áfyllingaráætlun í sniðmátslínum eftirspurnaráfyllingar bylgju til að velja hvernig áfyllingu er háttað.
+description: Þessi grein veitir upplýsingar um áfyllingaraðferðir og útskýrir hvernig þú getur notað reitinn Áfyllingaráætlun á sniðmátslínum fyrir endurnýjun á eftirspurn til að velja hvernig áfylling er gerð.
 author: Mirzaab
 ms.date: 10/29/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1aa48f231c5d98a22fa989fb6e6996b972be9089
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3b4d691bbcf88cc73d10e3bb401710508ec641e1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893150"
 ---
 # <a name="replenishment-strategies"></a>Áfyllingaráætlanir
 

@@ -1,6 +1,6 @@
 ---
-title: Setja upp B2B svæði fyrir rafræn viðskipti
-description: Í þessu efnisatriði er lýst hvernig skal setja upp B2B tengingu (tenging á milli fyrirtækja) á milli svæði fyrir rafræn viðskipti í Microsoft Dynamics 365 Commerce.
+title: Setja upp B2B-svæði fyrir rafræn viðskipti
+description: Þessi grein lýsir því hvernig á að setja upp fyrirtæki til fyrirtækja (B2B) netverslunarsíðu í Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 31266f84270f170e172eadea75a90397c5a6e8e6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0bcd864694ff2ad2aa211c927da4d698c0039715
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881907"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Setja upp B2B svæði fyrir rafræn viðskipti
 
 [!include [banner](../../includes/banner.md)]
 
-B2B-svæði fyrir rafræn viðskipti bjóða upp á lykilmöguleika sem fínstilla verkflæði fyrir B2B-notendur. Í þessu efnisatriði er lýst hvernig skal setja upp B2B tengingu á milli svæði fyrir rafræn viðskipti í Microsoft Dynamics 365 Commerce. Það fer í gegnum einingar og stillingar svæða sem þarf að skilgreina til að virkja aðstæður sem tengjast B2B.
+B2B-svæði fyrir rafræn viðskipti bjóða upp á lykilmöguleika sem fínstilla verkflæði fyrir B2B-notendur. Þessi grein lýsir því hvernig á að setja upp B2B netverslunarsíðu í Microsoft Dynamics 365 Commerce. Það fer í gegnum einingar og stillingar svæða sem þarf að skilgreina til að virkja aðstæður sem tengjast B2B.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-- Til að setja upp B2B-svæði fyrir rafræn viðskipti þarf að virkja og skilgreina tiltekna eiginleika í Commerce Headquarters eins og lýst er í þessu efnisatriði.
+- Til að setja upp B2B netverslunarsíðu verður þú að virkja og stilla sérstaka eiginleika í höfuðstöðvum Commerce, eins og lýst er í þessari grein.
 - Meginupplifanir, t.d. uppgötvun afurðar, upplýsingasíða afurðar, karfan og greiðsluferlið, eru keyrðar af sömu einingunum sem notaðar eru fyrir B2B-svæði fyrir rafræn viðskipti. Síðuhöfundar ættu að þekja allar einingar sem Dynamics 365 Commerce styðja. Frekari upplýsingar er að finna á [Yfirlit einingasafns](../starter-kit-overview.md).
-- Þetta efnisatriði gerir ráð fyrir að síðuhöfundar skilji grunnatriði við smíði viðskiptasvæðis, sniðmát, brot og síður þannig að þeir geti virkjað B2B-eiginleika fyrir svæði rafrænna viðskipta.
+- Þessi grein gerir ráð fyrir að vefsíðahöfundar skilji grunnatriði viðskiptasíðugerðarinnar, sniðmát, brot og síður, svo að þeir geti virkjað B2B eiginleika fyrir netviðskiptasíður.
 
 ## <a name="site-level-settings"></a>Stillingar á svæðisstigi
 

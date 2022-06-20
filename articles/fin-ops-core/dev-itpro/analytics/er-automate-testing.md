@@ -1,6 +1,6 @@
 ---
 title: Sjálfvirk prófun með rafrænni skýrslugerð
-description: Þetta efni útskýrir hvernig hægt er að nota grunnlínueiginleika ramma rafrænnar skýrslugerðar (ER) til að gera sjálfvirka prófun á virkni.
+description: Þessi grein útskýrir hvernig þú getur notað grunneiginleika rafrænnar skýrslugerðar (ER) ramma til að gera sjálfvirkan prófun á virkni.
 author: NickSelin
 ms.date: 07/02/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749801"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892770"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Sjálfvirk prófun með rafrænni skýrslugerð
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efni útskýrir hvernig hægt er að nota ramma rafrænnar skýrslugerðar (ER) til að gera sjálfvirka prófun á sumri virkni. Dæmið í þessu efni sýnir hvernig á að gera sjálfvirka prófun á greiðsluvinnslu lánardrottins.
+Þessi grein útskýrir hvernig þú getur notað rafræna skýrslugerð (ER) ramma til að gera sjálfvirkan prófun á sumum virkni. Dæmið í þessari grein sýnir hvernig á að gera sjálfvirkan prófun á greiðsluvinnslu lánardrottins.
 
 Forritið notar ER ramma til að búa til greiðsluskrár og samsvarandi skjöl meðan á greiðsluvinnslu lánardrottins stendur. ER-ramminn samanstendur af íhlutum gagnalíkans, líkanavörpunum og sniðs sem styðja greiðslu vinnslu fyrir mismunandi gerðir greiðslu og myndun skjala á mismunandi sniðum. Hægt er að sækja þessa þætti úr Microsoft Dynamics Lifecycle Services (LCS) og flytja þá inn í tilvikið.
 
@@ -54,15 +54,15 @@ Virkir kraftnotendur geta keyrt prófanir fyrir notandasamþykki og samþætting
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en hægt er að ljúka þessum verkum í efninu verður að ljúka við eftirfarandi forsendur:
+Áður en þú getur klárað verkefnin í þessari grein þarftu að ljúka eftirfarandi forkröfum:
 
 - Nota grannfræði sem styður prófunarsjálfvirkni. Þú verður að hafa aðgang að tilviki í þessari grannfræði fyrir hlutverkið **Kerfisstjóri**. Þessi grannfræði verður að innihalda kynningargögn sem verða notuð í þessu dæmi. Nánari upplýsingar er að finna [Setja upp og nota umhverfi sem styður samfellda smíði og sjálfvirkni prófunar](../perf-test/continuous-build-test-automation.md).
-- Til að keyra notandasamþykki og samþættingarprófanir sjálfkrafa verður þú að setja upp RSAT í grannfræðinni sem þú notar og skilgreina það á viðeigandi hátt. Upplýsingar um hvernig á að setja upp og skilgreina RSAT og skilgreina það til að vinna með Finance and Operations forritum og Azure DevOps er að finna í [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Gefðu gaum að forsendum fyrir notkun tækisins. Eftirfarandi skýringarmynd sýnir dæmi um stillingar á RSAT. Blái ferhyrningurinn nær utan um breytur sem tilgreina aðgang að Azure DevOps. Græni ferhyrningurinn nær utan um breytur sem tilgreina aðgang að tilvikinu.
+- Til að keyra notandasamþykki og samþættingarprófanir sjálfkrafa verður þú að setja upp RSAT í grannfræðinni sem þú notar og skilgreina það á viðeigandi hátt. Nánari upplýsingar um hvernig á að setja upp og skilgreina RSAT og skilgreina það til að vinna með forritum Finance and Operations og Azure DevOps er að finna í [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Gefðu gaum að forsendum fyrir notkun tækisins. Eftirfarandi skýringarmynd sýnir dæmi um stillingar á RSAT. Blái ferhyrningurinn nær utan um breytur sem tilgreina aðgang að Azure DevOps. Græni ferhyrningurinn nær utan um breytur sem tilgreina aðgang að tilvikinu.
 
     ![RSAT-stillingar.](media/GER-Configure.png "Skjámynd af svarglugganum RSAT-stillingar")
 
 - Til að skipuleggja prófunardæmi í pakka til að tryggja rétta framkvæmdaröð, svo að hægt sé að safna klöddum um framkvæmd prófana til frekari skýrslugerðar og rannsókna, verðurðu að hafa aðgang að Azure DevOps úr notaðri grannfræði.
-- Til að ljúka dæminu í þessu efni mælum við með því að þú sækir [ER-notkun fyrir RSAT-prófanir](https://go.microsoft.com/fwlink/?linkid=874684). Þessi zip-skrá inniheldur eftirfarandi verkleiðbeiningar:
+- Til að klára dæmið í þessari grein mælum við með að þú hleður niður [ER notkun fyrir RSAT próf](https://go.microsoft.com/fwlink/?linkid=874684). Þessi zip-skrá inniheldur eftirfarandi verkleiðbeiningar:
 
     | Efni                                           | Skrárheiti og staðsetning |
     |---------------------------------------------------|------------------------|

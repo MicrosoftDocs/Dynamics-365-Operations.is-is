@@ -1,6 +1,6 @@
 ---
 title: Setja upp skýrslugerðarkóða staðgreiðsluskatts fyrir TDS-skattgerðina
-description: Skýrslukóðar fyrir staðgreiðsluskatt eru notaðir til að stofna eyðublað 26Q og eyðublað 27Q fyrir skattur sem dreginn er frá í uppruna (TDS). Í þessu efnisatriði er útskýrt hvernig staðgreiðslukóðar eru settir upp svo hægt sé að setja upp TDS skýrslukóða.
+description: Skýrslukóðar fyrir staðgreiðsluskatt eru notaðir til að stofna eyðublað 26Q og eyðublað 27Q fyrir skattur sem dreginn er frá í uppruna (TDS). Þessi grein útskýrir hvernig á að setja upp staðgreiðsluskýrslukóðaskref þannig að þú getir sett upp TDS skýrslukóða.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 769159fc10c3edfba8c2f626e7bff702e3e5cd7f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: bdd2e89d29807dc31d8f2d4684ee413470b1dbde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725989"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907799"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>Setja upp skýrslugerðarkóða staðgreiðsluskatts fyrir TDS-skattgerðina
 
 [!include [banner](../includes/banner.md)]
 
-Skýrslukóðar fyrir staðgreiðsluskatt eru notaðir til að stofna eyðublað 26Q og eyðublað 27Q fyrir skattur sem dreginn er frá í uppruna (TDS). Í þessu efnisatriði er útskýrt hvernig staðgreiðslukóðar eru settir upp svo hægt sé að setja upp TDS skýrslukóða.
+Skýrslukóðar fyrir staðgreiðsluskatt eru notaðir til að stofna eyðublað 26Q og eyðublað 27Q fyrir skattur sem dreginn er frá í uppruna (TDS). Þessi grein útskýrir hvernig á að setja upp staðgreiðsluskýrslukóðaskref þannig að þú getir sett upp TDS skýrslukóða.
 
 1. Farið í **Skattur \> Uppsetning \> Staðgreiðsluskattur \> Skýrslugerðarkóðar staðgreiðsluskatts**.
 

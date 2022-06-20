@@ -1,6 +1,6 @@
 ---
 title: Stillingar fyrir innsýn í fjármálum
-description: Þetta efnisatriði útskýrir grunnstillingarskref sem mun gera kerfinu kleift að nota þá eiginleika sem eru í boði í Fjármálainnsýn.
+description: Þessi grein útskýrir stillingarskref sem gera kerfinu þínu kleift að nota þá möguleika sem eru tiltækir í Finance Insights.
 author: ShivamPandey-msft
 ms.date: 01/27/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 6ec7e6a7e616e239128281ba669c8bbbfc5e3c7a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ac0f0cb078b6e202540fadbff337a01379febc8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710615"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861417"
 ---
 # <a name="configuration-for-finance-insights"></a>Stillingar fyrir innsýn í fjármálum
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Fjármálainnsýn sameinar virkni frá Microsoft Dynamics 365 Fjármál með Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtæki þitt. Þetta efnisatriði útskýrir grunnstillingarskref sem mun gera kerfinu kleift að nota þá eiginleika sem eru í boði í Fjármálainnsýn. Til að ljúka aðferðunum í þessu efni með góðum árangri verður þú að hafa aðgang að kerfisstjóra og kerfissérstillingu í [Power Portal stjórnunarmiðstöð](https://admin.powerplatform.microsoft.com/), Kerfisstjóraaðgangur í Dynamics 365 Finance og aðgangur til að búa til umhverfi í Microsoft Dynamics Lífsferilsþjónusta (LCS).
+Fjármálainnsýn sameinar virkni frá Microsoft Dynamics 365 Fjármál með Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtæki þitt. Þessi grein útskýrir stillingarskref sem gera kerfinu þínu kleift að nota þá möguleika sem eru tiltækir í Finance Insights. Til að ljúka aðferðunum í þessari grein með góðum árangri verður þú að hafa aðgang að kerfisstjóra og kerfissérstillingu í [Power Portal stjórnunarmiðstöð](https://admin.powerplatform.microsoft.com/), Kerfisstjóraaðgangur í Dynamics 365 Finance og aðgangur til að búa til umhverfi í Microsoft Dynamics Lífsferilsþjónusta (LCS).
 
 > [!NOTE]
 > Eftirfarandi aðferðir til að setja upp Finance Insights gilda fyrir útgáfur af Dynamics 365 Finance útgáfu 10.0.21 og síðar.
@@ -101,7 +101,7 @@ Eftir að viðbótin hefur verið sett upp gæti það tekið allt að klukkutí
    Eftir **Athugun á stöðu úthlutunar innsýnar** ferli er keyrt með góðum árangri geturðu virkjað Finance Insights eiginleika í **Eiginleikastjórnun** vinnurými.
 
 > [!NOTE]
-> Ef **Athugun á stöðu úthlutunar innsýnar** ferlið keyrir ekki, farðu til **Kerfisstjórnun** > **Fyrirspurnir** > **Lotustörf**. Í **Aðferðasjálfvirkni skoðanakerfi** reit, breyttu gildinu í **Að bíða** að hefja ferlið. 
+> Ef **Athugun á stöðu úthlutunar innsýnar** ferlið keyrir ekki, farðu til **Kerfisstjórnun** > **Fyrirspurnir** > **Lotustörf**. Í **Könnunarkerfi sjálfvirkt ferli** reit, breyttu gildinu í **Að bíða** að hefja ferlið. 
 > 
 ## <a name="feedback-and-support"></a>Ábendingar og stuðningur
 

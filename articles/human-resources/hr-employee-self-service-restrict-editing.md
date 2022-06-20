@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98cb7c2f1f57dacf303e2e9bc7779ce3ede6733e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c82114f6600345ee5e2eb9c1c0629ae6c8f0b9a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695873"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877686"
 ---
 # <a name="restrict-editing-of-personal-information"></a>Takmörkun á breytingu persónuupplýsinga
 
@@ -29,7 +29,7 @@ ms.locfileid: "8695873"
 [!include [applies to](../includes/applies-to-hr.md)]
 [!include [preview feature](./includes/preview-feature.md)]
 
-Þetta efnisatriði lýsir því hvernig á að takmarka getu starfsmanna til að breyta tengiliðaupplýsingum í Dynamics 365 Human Resources. Þú gætir viljað koma í veg fyrir að starfsmenn geti breytt ákvenum samskiptaupplýsingum á borð við staðsetningu fyrirtækis þeirra eða netfang.
+Þessi grein lýsir því hvernig eigi að takmarka starfsmenn í að breyta tengiliðaupplýsingum í Dynamics 365 Human Resources. Þú gætir viljað koma í veg fyrir að starfsmenn geti breytt ákvenum samskiptaupplýsingum á borð við staðsetningu fyrirtækis þeirra eða netfang.
 
 > [!NOTE]
 > Til að nota þennan möguleika þarf fyrist að virkja **(Forskoðun) Takmarka möguleika starfsmanna á að bæta við eða breyta aðsetri og tengiliðaupplýsingum í völdum tilgangi.** í eiginleikastjórnun. Frekari upplýsingar um hvernig forskoðunareiginleikar eru virkjaðir er að finna í [Vinna með eiginleika](hr-admin-manage-features.md).<br><br>![Virkja forskoðunareiginleika.](./media/hr-employee-self-service-restrict-enable.png)

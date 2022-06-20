@@ -1,6 +1,6 @@
 ---
 title: Rakning á vörum og hráefni í birgðum, framleiðslu og sölu
-description: Þetta efnisatriði lýsir því hvernig hægt er að nota vörurakning til að auðkenna þar sem vörur eða hráefni hafa verið notaðar, eru notaðar eða verða notaðar í framleiðslu- og söluferla.
+description: Þessi grein lýsir því hvernig hægt er að nota vörurakningu til að bera kennsl á hvar vörur eða hráefni hafa verið notuð, eru notuð eða verða notuð í framleiðslu- og söluferlum.
 author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95f59a3eca20634d03520ad88f71a3096309e23e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 23d860b86e2eebb520bf2fd472c5655f40dd0ca0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854414"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Rakning á vörum og hráefni í birgðum, framleiðslu og sölu
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig hægt er að nota vörurakning til að auðkenna þar sem vörur eða hráefni hafa verið notaðar, eru notaðar eða verða notaðar í framleiðslu- og söluferla.
+Þessi grein lýsir því hvernig hægt er að nota vörurakningu til að bera kennsl á hvar vörur eða hráefni hafa verið notuð, eru notuð eða verða notuð í framleiðslu- og söluferlum.
 
 Aðgerðin vörurakning er tiltæk á síðunni **Vörurakning**. Eftirfarandi kaflar lýsa því hvernig hægt er að nota vörurakningu og hvaða valkostir og takmarkanir eru.
 

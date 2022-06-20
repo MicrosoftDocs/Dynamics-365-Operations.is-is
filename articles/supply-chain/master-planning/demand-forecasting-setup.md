@@ -1,6 +1,6 @@
 ---
 title: Uppsetning eftirspurnarspár
-description: Þetta efnisatriði lýsir uppsetningarverk sem þarf að framkvæma til að undirbúa eftirspurnarspár.
+description: Þessi grein lýsir uppsetningarverkefnum sem þú verður að framkvæma til að undirbúa eftirspurnarspá.
 author: t-benebo
 ms.date: 11/23/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b52b970a8040dcba5a1fc59d297dc9ce1a3c53
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
-ms.translationtype: MT
+ms.openlocfilehash: 10a211e0e20f22dfbfdb4923841808750b6ed71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470010"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901003"
 ---
 # <a name="demand-forecasting-setup"></a>Uppsetning eftirspurnarspár
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að setja upp eftirspurnarspá.  
+Þessi grein lýsir því hvernig á að setja upp eftirspurnarspá.  
 
 ## <a name="item-allocation-keys"></a>Úthlutunarlyklar vöru
 
@@ -61,15 +61,15 @@ Fylgdu þessum skrefum til að setja upp áætlunarhópa milli fyrirtækja.
     - **Nafn** – Sláðu inn einstakt heiti fyrir skipulagshópinn.
     - **Lýsing** – Færið inn stutta lýsingu á skipulagshópnum.
 
-1. Á **Skipulagshópar innan fyrirtækja** Flýtiflipi, notaðu hnappana á tækjastikunni til að bæta við línu fyrir hvert fyrirtæki (lögaðila) sem ætti að vera hluti af hópnum. Fyrir hverja línu skal stilla eftirfarandi reiti:
+1. Á **Meðlimir skipulagshóps milli fyrirtækja** Flýtiflipi, notaðu hnappana á tækjastikunni til að bæta við línu fyrir hvert fyrirtæki (lögaðila) sem ætti að vera hluti af hópnum. Fyrir hverja línu skal stilla eftirfarandi reiti:
 
     - **Lögaðili** – Veldu nafn fyrirtækis (lögaðila) sem er aðili að völdum hópi.
     - **Tímasetningarröð** – Úthlutaðu röðinni sem fyrirtækið á að vinna í miðað við önnur fyrirtæki. Lág gildi eru unnin fyrst. Þessi röð getur verið mikilvæg þegar eftirspurn eftir einu fyrirtæki hefur áhrif á önnur fyrirtæki. Í þessum tilfellum ætti fyrirtækið sem sinnir eftirspurninni að vera afgreitt síðast.
     - **Snilldaráætlun** – Veldu aðaláætlunina sem á að virkja fyrir núverandi fyrirtæki.
     - **Sjálfvirk afritun í kyrrstæða áætlun** – Veljið þennan gátreit til að afrita niðurstöðu áætlunarinnar í kyrrstæðu áætlunina.
-    - **Sjálfvirk afritun í kraftmikla áætlun** – Veljið þennan gátreit til að afrita niðurstöðu áætlunarinnar í kviku áætlunina.
+    - **Sjálfvirk afrit í kraftmikla áætlun** – Veljið þennan gátreit til að afrita niðurstöðu áætlunarinnar í kviku áætlunina.
 
-1. Að sjálfgefnu, ef engin úthlutunarlykla vöru er úthlutað til aðila áætlanahóps, innan samstæðu, er eftirspurnarspá reiknuð fyrir allar vörur sem er úthlutað til allra úthlutunarlykla vöru frá öllum fyrirtækjum. Viðbótar síunarvalkostir fyrir fyrirtæki og vöruúthlutunarlyklar eru fáanlegir í **Búðu til tölfræðilega grunnspá** svargluggi (**Aðalskipulag \> Spá \> Eftirspurnarspá \> Búðu til tölfræðilega grunnspá**). Til að úthluta vöruúthlutunarlyklum til fyrirtækis í völdum áætlunarhópi milli fyrirtækja, velurðu fyrirtækið og síðan á **Skipulagshópar innan fyrirtækja** Flýtiflipi, veldu **Úthlutunarlyklar vöru** á tækjastikunni.
+1. Að sjálfgefnu, ef engin úthlutunarlykla vöru er úthlutað til aðila áætlanahóps, innan samstæðu, er eftirspurnarspá reiknuð fyrir allar vörur sem er úthlutað til allra úthlutunarlykla vöru frá öllum fyrirtækjum. Viðbótar síunarvalkostir fyrir fyrirtæki og vöruúthlutunarlyklar eru fáanlegir í **Búðu til tölfræðilega grunnspá** svargluggi (**Aðalskipulag \> Spá \> Eftirspurnarspá \> Búðu til tölfræðilega grunnspá**). Til að úthluta vöruúthlutunarlyklum til fyrirtækis í völdum áætlunarhópi milli fyrirtækja, velurðu fyrirtækið og síðan á **Meðlimir skipulagshóps milli fyrirtækja** Flýtiflipi, veldu **Úthlutunarlyklar vöru** á tækjastikunni.
 
 > [!IMPORTANT]
 > Gættu þess að hafa aðeins viðeigandi vöruúthlutunarlykla í hverjum áætlunarhópi milli fyrirtækja. Óþarfa hlutir gætu valdið auknum kostnaði þegar þú notar Azure Machine Learning.
@@ -90,7 +90,7 @@ Nota **Almennt** flipi á **Eftirspurnarspábreytur** síðu til að skilgreina 
 
 Eftirspurnarspá myndar spá í magni. Þess vegna mælieining sem magn skal sýnt í vera tilgreint í á **eining eftirspurnarspár** svæði. Þessi reitur skilgreinir eininguna sem verður notuð fyrir allar eftirspurnarspár, óháð venjulegum birgðaeiningum fyrir hverja vöru. Með því að nota samræmda spáeiningu hjálpar þú til við að tryggja að samansöfnun og prósentudreifing sé skynsamleg. Nánari upplýsingar um uppsöfnun og prósentudreifingu sjá [gera handvirkar Leiðréttingar á grunnlínuspá](manual-adjustments-baseline-forecast.md).
 
-Fyrir hverja mælieiningu sem er notuð fyrir SKU sem eru innifalin í eftirspurnarspá skal ganga úr skugga um að það sé til umreikningsregla fyrir mælieininguna og almennu spá mælieininguna sem þú velur hér. Þegar þú býrð til spá er listi yfir hluti sem eru ekki með umreikning á mælieiningu skráður. Þess vegna geturðu auðveldlega lagað uppsetninguna. Fyrir frekari upplýsingar um mælieiningar og hvernig á að umreikna á milli þeirra, sjá [Stjórna mælieiningum](../pim/tasks/manage-unit-measure.md).
+Fyrir hverja mælieiningu sem er notuð fyrir SKU sem eru innifalin í eftirspurnarspá skal ganga úr skugga um að það sé til umreikningsregla fyrir mælieininguna og almennu spá mælieininguna sem þú velur hér. Þegar þú býrð til spá er listi yfir hluti sem eru ekki með umreikning mælieininga skráður. Þess vegna geturðu auðveldlega lagað uppsetninguna. Fyrir frekari upplýsingar um mælieiningar og hvernig á að umreikna á milli þeirra, sjá [Stjórna mælieiningum](../pim/tasks/manage-unit-measure.md).
 
 #### <a name="transaction-types"></a>Færslugerðir
 
@@ -155,9 +155,9 @@ Ef þú ert nú þegar með tiltækt Azure Machine Learning Studio (klassískt) 
 
 ## <a name="default-parameters-and-values-for-demand-forecasting-models"></a><a name="model-parameters"></a> Sjálfgefnar færibreytur og gildi fyrir eftirspurnarspárlíkön
 
-Þegar þú notar vélanám til að búa til spáskipulagslíkön þín, stjórnar þú valmöguleikum vélanáms með því að stilla gildi fyrir *færibreytur spár reiknirit*. Þessi gildi eru send frá Supply Chain Management til Azure Machine Learning. Nota **Spá reiknirit færibreytur** síðu til að stjórna hvaða tegundir gilda ætti að gefa upp og hvaða gildi hver ætti að hafa.
+Þegar þú notar vélanám til að búa til spáskipulagslíkön þín, stjórnar þú valmöguleikum vélanáms með því að stilla gildi fyrir *færibreytur spár reiknirit*. Þessi gildi eru send frá Supply Chain Management til Azure Machine Learning. Nota **Færibreytur spár reiknirit** síðu til að stjórna hvaða tegundir gilda ætti að gefa upp og hvaða gildi hver ætti að hafa.
 
-Til að setja upp sjálfgefna færibreytur og gildi sem notuð eru fyrir eftirspurnarspárlíkön, farðu á **Aðalskipulag \> Uppsetning \> Eftirspurnarspá \> Spá reiknirit færibreytur**. Staðlað sett af breytum er til staðar. Hver færibreyta hefur eftirfarandi reiti:
+Til að setja upp sjálfgefna færibreytur og gildi sem notuð eru fyrir eftirspurnarspárlíkön, farðu á **Aðalskipulag \> Uppsetning \> Eftirspurnarspá \> Færibreytur spár reiknirit**. Staðlað sett af breytum er til staðar. Hver færibreyta hefur eftirfarandi reiti:
 
 - **Nafn** – Heiti færibreytunnar, eins og það er notað af Azure. Venjulega ættir þú ekki að breyta þessu nafni nema þú hafir sérsniðið tilraunina í Azure Machine Learning.
 - **Lýsing** – Algengt heiti fyrir færibreytuna. Þetta nafn er notað til að auðkenna færibreytuna á öðrum stöðum í kerfinu (til dæmis á **Eftirspurnarspábreytur** síðu).
@@ -168,10 +168,10 @@ Eftirfarandi færibreytur eru sjálfgefnar. (Ef þú verður einhvern tíma að 
 
 - **Prósentuhlutfall öryggisstigs** – Áreiðanleikabil samanstendur af sviði gilda sem virka sem áreiðanlegt mat fyrir eftirspurnarspána. Til dæmis gefur 95% áreiðanleikastig til kynna að það séu 5% líkur á að framtíðareftirspurnar falli utan sviðs áreiðanleikabils.
 - **Þvingaðu fram árstíðarsveiflu** – Tilgreinir hvort neyða eigi líkanið til að nota ákveðna tegund árstíðabundins. Þessi færibreyta á aðeins við um ARIMA og ETS. Valkostir: *AUTO (sjálfgefið)*, *·*, *·*, *·*.
-- **Spálíkan** – Tilgreinir hvaða spálíkan á að nota. Valkostir: *ARIMA*, *·*, *·*, *+ARIMA*, *+STL*, *·*. Til að velja fyrirmynd sem hentar best, notaðu *ALLT*.
+- **Spálíkan** – Tilgreinir hvaða spálíkan á að nota. Valkostir: *ARIMA*, *·*, *·*, *+ARIMA*, *+STL*, *·*. Til að velja fyrirmynd sem hentar best skaltu nota *ALLT*.
 - **Hámarksfjöldi spáðra gilda** – Tilgreinir hámarksgildið sem á að nota fyrir spár. Snið: + 1E [n] eða föst tala.
 - **Lágmarksfjöldi spáðra gilda** – Tilgreinir lágmarksgildið sem á að nota fyrir spár. Snið: - 1E [n] eða föst tala.
-- **Gildisskipti vantar** – Tilgreinir hvernig eyður í sögulegum gögnum eru fylltar. Valkostir: *(tölugildi)*, *·*, *·*, *LÍNÆG*, *·*.
+- **Gildisskipti vantar** – Tilgreinir hvernig eyður í sögulegum gögnum eru fylltar. Valkostir: *(tölugildi)*, *·*, *·*, *LÍNULEGA*, *·*.
 - **Umfang gildissviðs vantar** – Tilgreinir hvort gildisbreytingin eigi einungis við um dagsetningasvið sérhverrar uppskiptingareigindar eða fyrir allt gagnasafnið. Eftirfarandi valkostir eru í boði til að setja á dagsetningabilið sem kerfið notar þegar fyllt er upp í bil í sögulegum gögnum:
 
     - *ALÞJÓÐLEGT* – Kerfið notar allt svið dagsetninga allra granularity eiginleika.
@@ -233,7 +233,7 @@ Til að gera Azure kleift að nota vélanám til að vinna úr spám þínum ver
 
 #### <a name="option-2-manually-set-up-your-machine-learning-workspace"></a><a name="ml-workspace-manual"></a> Valkostur 2: Settu upp vinnusvæðið fyrir vélanám handvirkt
 
-Þessi hluti lýsir því hvernig á að setja upp vinnusvæðið fyrir vélanám handvirkt. Þú verður aðeins að ljúka verklagsreglunum í þessum hluta ef þú ákvaðst að keyra ekki sjálfvirka uppsetningarforskriftina, eins og lýst er í [Valkostur 1: Keyrðu skriftu til að setja upp vinnusvæðið þitt fyrir vélanám](#ml-workspace-script) kafla.
+Þessi hluti lýsir því hvernig eigi að setja upp vinnusvæðið fyrir vélanám handvirkt. Þú verður aðeins að ljúka verklagsreglunum í þessum hluta ef þú ákvaðst að keyra ekki sjálfvirka uppsetningarforskriftina, eins og lýst er í [Valkostur 1: Keyrðu skriftu til að setja upp vinnusvæðið þitt fyrir vélanám](#ml-workspace-script) kafla.
 
 ##### <a name="step-1-create-a-new-workspace"></a><a name="create-workspace"></a> Skref 1: Búðu til nýtt vinnusvæði
 
@@ -245,7 +245,7 @@ Notaðu eftirfarandi aðferð til að búa til nýtt vélrænt vinnusvæði.
 1. Ljúktu við töframanninn með því að fylgja leiðbeiningunum á skjánum. Hafðu eftirfarandi atriði í huga þegar þú vinnur:
 
     - Notaðu sjálfgefnar stillingar nema aðrir punktar á þessum lista mæli með öðrum stillingum.
-    - Vertu viss um að velja landfræðilega svæðið sem passar við svæðið þar sem tilvik þitt af Supply Chain Management er notað. Annars gætu sum gagna þín farið í gegnum svæðismörk. Fyrir frekari upplýsingar, sjá [persónuverndartilkynningu](#privacy) síðar í þessu efni.
+    - Vertu viss um að velja landfræðilega svæðið sem passar við svæðið þar sem tilvik þitt af Supply Chain Management er notað. Annars gætu sum gagna þín farið í gegnum svæðismörk. Fyrir frekari upplýsingar, sjá [persónuverndartilkynningu](#privacy) síðar í þessari grein.
     - Notaðu sérstaka tilföng, svo sem tilföngahópa, geymslureikninga, gámaskrár, Azure lykilhólf og nettilföng.
     - Á **Settu upp tengingarfæribreytur Azure Machine Learning Service** síðu töframannsins, verður þú að gefa upp nafn geymslureiknings. Notaðu reikning sem er tileinkaður eftirspurnarspá. Inntaks- og úttaksgögn eftirspurnarspár verða geymd á þessum geymslureikningi.
 
@@ -255,7 +255,7 @@ Fyrir frekari upplýsingar, sjá [Búðu til vinnusvæðið](/azure/machine-lear
 
 Notaðu eftirfarandi aðferð til að setja upp geymsluna þína.
 
-1. Á GitHub, opnaðu [Sniðmát fyrir Dynamics 365 Supply Chain Management eftirspurnarspá með Azure Machine Learning](https://github.com/microsoft/Dynamics-365-Supply-Chain-Management-Demand-Forecasting-With-Azure-Machine-Learning-Service) endurhverfa og hlaða niður **sampleInput.csv** skrá.
+1. Á GitHub, opnaðu [Sniðmát fyrir Dynamics 365 Supply Chain Management eftirspurnarspá með Azure Machine Learning](https://github.com/microsoft/Dynamics-365-Supply-Chain-Management-Demand-Forecasting-With-Azure-Machine-Learning-Service) endurhverfa og hlaðið niður **sampleInput.csv** skrá.
 1. Opnaðu geymslureikninginn sem þú bjóst til í [Skref 1: Búðu til nýtt vinnusvæði](#create-workspace) kafla.
 1. Fylgdu leiðbeiningunum í [Búðu til ílát](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container) til að búa til ílát sem heitir *demplan-azureml*.
 1. Hladdu upp **sampleInput.csv** skrá sem þú hleður niður í skrefi 1 í ílátið sem þú bjóst til. Þessi skrá er nauðsynleg til að birta leiðsluna og búa til prófspá. Fyrir leiðbeiningar, sjá [Hladdu upp blokkabubbi](/azure/storage/blobs/storage-quickstart-blobs-portal#upload-a-block-blob).
@@ -272,7 +272,7 @@ Notaðu eftirfarandi aðferð til að setja upp sjálfgefna gagnageymsluna þín
 
 Notaðu eftirfarandi aðferð til að setja upp tölvutilföng í Azure Machine Learning Studio til að keyra forskriftirnar þínar til að búa til spár.
 
-1. Opnaðu upplýsingasíðuna fyrir vélanámsvinnusvæðið sem þú bjóst til í [Skref 1: Búðu til nýtt vinnusvæði](#create-workspace) kafla. Finndu **Vefslóð vinnustofu** gildi og veldu hlekkinn til að opna hann.
+1. Opnaðu upplýsingasíðuna fyrir vélnámsvinnusvæðið sem þú bjóst til í [Skref 1: Búðu til nýtt vinnusvæði](#create-workspace) kafla. Finndu **Vefslóð vinnustofu** gildi og veldu hlekkinn til að opna hann.
 1. Veldu **Reikna** á leiðsöguglugganum.
 1. Á **Reiknaðu tilvik** flipa, veldu **Nýtt** til að opna töframann sem hjálpar þér að búa til nýtt tölvutilvik. Fylgdu leiðbeiningunum á skjánum. Reiknitilvikið verður notað til að búa til eftirspurnarspápípuna (hægt að eyða henni eftir að leiðsla er birt.) Notaðu sjálfgefnar stillingar.
 1. Á **Reikna klasa** flipa, veldu **Nýtt** til að opna töframann sem mun hjálpa þér að búa til nýjan tölvuklasa. Fylgdu leiðbeiningunum á skjánum. Reikniklasinn verður notaður til að búa til eftirspurnarspár. Stillingar þess hafa áhrif á frammistöðu og hámarksstig samhliða hlaupsins. Stilltu eftirfarandi reiti, en notaðu sjálfgefnar stillingar fyrir alla aðra reiti:
@@ -319,14 +319,14 @@ Notaðu eftirfarandi aðferð til að tengja Supply Chain Management umhverfið 
 
 1. Skráðu þig inn í Supply Chain Management.
 1. Fara til **Aðalskipulag \> Uppsetning \> Eftirspurnarspá \> Eftirspurnarspábreytur**.
-1. Á **Almennt** flipann, vertu viss um að **Stefna til að búa til spár** reiturinn er stilltur á *Azure Machine Learning Service*.
+1. Á **Almennt** flipa skaltu ganga úr skugga um að **Stefna til að búa til spár** reiturinn er stilltur á *Azure Machine Learning Service*.
 1. Á **Úthlutunarlyklar vöru** flipa skaltu ganga úr skugga um að **Stefna til að búa til spár** reiturinn er stilltur á *Azure Machine Learning Service* fyrir hvern úthlutunarlykil sem ætti að nota Azure Machine Learning Service fyrir eftirspurnarspá.
-1. Á **Azure Machine Learning Service** flipa, stilltu eftirfarandi reiti:
+1. Á **Azure Machine Learning Service** flipanum, stilltu eftirfarandi reiti:
 
     - **Auðkenni leigjanda** – Sláðu inn auðkenni fyrir Azure leigjanda þinn. Aðfangakeðjustjórnun mun nota þetta auðkenni til að auðkenna með Azure Machine Learning Service. Þú getur fundið leigjanda auðkenni þitt á **Yfirlit** síðu fyrir Azure AD í Azure gáttinni.
     - **Auðkenni aðalumsóknar þjónustu** – Sláðu inn auðkenni forritsins fyrir forritið sem þú bjóst til í [Active Directory forrit](#aad-app) kafla. Þetta gildi er notað til að heimila API beiðnir til Azure Machine Learning Service.
     - **Leyndarmál þjónustustjóra** – Sláðu inn leyndarmál þjónustuaðalforritsins fyrir forritið sem þú bjóst til í [Active Directory forrit](#aad-app) kafla. Þetta gildi er notað til að afla aðgangslykilsins fyrir öryggisstjórann sem þú bjóst til til að framkvæma viðurkenndar aðgerðir gegn Azure Storage og Azure Machine Language vinnusvæðinu.
-    - **Heiti geymslureiknings** – Sláðu inn nafn Azure geymslureikningsins sem þú tilgreindir þegar þú keyrðir uppsetningarhjálpina á Azure vinnusvæðinu þínu. (Fyrir frekari upplýsingar, sjá [Settu upp vélanám í Azure](#ml-workspace) kafla.)
+    - **Heiti geymslureiknings** – Sláðu inn nafn Azure geymslureikningsins sem þú tilgreindir þegar þú keyrðir uppsetningarhjálpina á Azure vinnusvæðinu þínu. (Nánari upplýsingar er að finna í [Settu upp vélanám í Azure](#ml-workspace) kafla.)
     - **Heimilisfang leiðsluenda** – Sláðu inn vefslóð REST endapunkts leiðslunnar fyrir Azure Machine Learning þjónustuna þína. Þú bjóst til þessa leiðslu sem síðasta skrefið þegar þú [setja upp vélanám í Azure](#ml-workspace). Til að fá leiðsluslóðina, skráðu þig inn á Azure gáttina þína, veldu **Leiðslur** á siglingum. Á **Leiðsla** flipanum, veldu endapunkt leiðslunnar sem er nefndur **TriggerDemandForecastGeneration**. Afritaðu síðan REST endapunktinn sem er sýndur.
 
     ![Færibreytur á Azure Machine Learning Service flipanum á færibreytum eftirspurnarspár síðunni.](media/azure-ml-service-parameters.png "Færibreytur á Azure Machine Learning Service flipanum á færibreytum eftirspurnarspár síðunni")

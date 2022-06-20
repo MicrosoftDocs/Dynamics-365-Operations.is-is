@@ -1,6 +1,6 @@
 ---
 title: Skilgreina skoðunarmenn útgjalda
-description: Í þessu efnisatriði er lýst hvernig eigi að nota skoðunarmenn útgjalda til að velja á gagnvirkan hátt notandann sem fær úthlutað verkflæði, samþykki eða handvirka ákvörðun.
+description: Þessi grein lýsir því hvernig á að nota útgjaldagagnrýnendur til að velja notandann á virkan hátt sem verkflæðisverki, samþykki eða handvirkri ákvörðun er úthlutað til.
 author: rachel-profitt
 ms.date: 06/25/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 110edf4c2733f899368069c7d215ae5b0882f5cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070147"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863224"
 ---
 # <a name="configure-expenditure-reviewers"></a>Skilgreina skoðunarmenn útgjalda
 [!include[banner](../includes/banner.md)]
@@ -75,7 +75,7 @@ Fjárhagsvíddum er stýrt með lykilskipulaginu í hverjum lögaðila. Fyrir hv
 
 ## <a name="set-up-expenditure-reviewers"></a>Setja upp skoðunarmenn útgjalda
 
-Þetta dæmi sýnir hvernig á að skilgreina skoðunarmann útgjalda vegna innkaupabeiðni. Til að skilgreina aðrar gerðir af skoðunarmönnum útgjalda skal skipta út slóðinni í skrefi 1 fyrir viðeigandi slóð úr töflunni í hlutanum [Gerðir skoðunarmanna útgjalda](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) fyrr í þessu efnisatriði.
+Þetta dæmi sýnir hvernig á að skilgreina skoðunarmann útgjalda vegna innkaupabeiðni. Til að stilla aðrar tegundir útgjaldaskoðunar skaltu skipta út leiðsöguleiðinni í skrefi 1 fyrir viðeigandi slóð úr töflunni í [Tegundir útgjaldagagnrýnenda](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) kafla, fyrr í þessari grein.
 
 1. Farðu í **Innkaup og aðföng \> Uppsetning \> Reglur \> Skoðunarmenn útgjalda vegna innkaupabeiðni**.
 2. Á síðunni **Skoðunarmenn útgjalda vegna innkaupabeiðni** skal velja **Nýr**.

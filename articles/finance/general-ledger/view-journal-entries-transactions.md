@@ -1,6 +1,6 @@
 ---
 title: Skoða færslubókarfærslur og færslur
-description: Þetta efnisatriði útskýrir hinar ýmsu leiðir sem hægt er að skoða dagbókarfærslur og færslur.
+description: Þessi grein útskýrir mismunandi vegu sem hægt er að skoða færslubókarfærslur og færslur
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4e33b1516e780c55f753b32ac5ddd50b6f9560c
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 8549df3fcf65769768e3f7dd41c4d7275a1911b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907864"
 ---
 # <a name="view-journal-entries-and-transactions"></a>Skoða færslubókarfærslur og færslur
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hinar ýmsu leiðir sem hægt er að skoða dagbókarfærslur og færslur. 
+Þessi grein útskýrir mismunandi vegu sem hægt er að skoða færslubókarfærslur og færslur 
 
 Notendur sem vilja skoða færslubækur og færslur hafa nokkrar leiðir til að fá aðgang að gögnum. Þeir geta nýtt fyrirspurnarsíður sem bjóða upp á köfunarmöguleika eða þeir geta notað mismunandi valkosti í fjárhag.
 

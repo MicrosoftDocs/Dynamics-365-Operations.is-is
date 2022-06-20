@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um birgðakostnað
-description: Þetta efni svarar nokkrum algengum spurningum um birgðakostnað í Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein svarar nokkrum algengum spurningum um birgðakostnað í Microsoft Dynamics 365 Supply Chain Management.
 author: rachel-profitt
 ms.date: 05/03/2022
 ms.topic: article
@@ -11,28 +11,28 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 45f65bd4a5cfb9bd0c4eb03ceb56eca452f6ec95
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809304"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850845"
 ---
 # <a name="inventory-costing-faq"></a>Algengar spurningar um birgðakostnað
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni svarar nokkrum algengum spurningum um birgðakostnað í Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein svarar nokkrum algengum spurningum um birgðakostnað í Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="inventory-close-adjustments-and-recalculation"></a>Birgðalokun, leiðréttingar og endurútreikningur
 
 ### <a name="is-the-inventory-close-required"></a>Er þörf á lokun birgða?
 
-Ef þú ætlar að nota birgðageymslueiginleikann er birgðalokun nauðsynleg. Ef þú ætlar ekki að nota birgðageymslueiginleikann, mælum við eindregið með því að þú keyrir birgðann áfram, óháð kostnaðarlíkönunum sem þú notar.
+Ef þú ætlar að nota birgðageymslueiginleikann er birgðalokun nauðsynleg. Ef þú ætlar ekki að nota birgðageymslueiginleikann mælum við eindregið með því að þú keyrir birgðahaldið áfram, óháð kostnaðarlíkönunum sem þú notar.
 
 ### <a name="how-often-should-the-inventory-close-be-run"></a>Hversu oft ætti að keyra birgðalokun?
 
-Birgðalokun ætti að keyra að minnsta kosti einu sinni á hvert fjárhagstímabil. Til dæmis, ef fjárhagsdagatalið þitt er stillt á almanaksmánuð byggt á fjárhagsdagatali, ættir þú að keyra birgðalokunina einu sinni í mánuði.
+Birgðalokun ætti að keyra að minnsta kosti einu sinni á hvert fjárhagstímabil. Til dæmis, ef fjárhagsdagatalið þitt er stillt á almanaksmánuði sem byggir á fjárhagsdagatali, ættir þú að keyra birgðalokunina einu sinni í mánuði.
 
 ### <a name="is-the-inventory-recalculation-required"></a>Er þörf á endurútreikningi birgða?
 
@@ -60,11 +60,11 @@ Já. Innkaupapöntunarkvittun er útgáfa sem er jöfnuð við innhreyfingu í h
 
 ### <a name="what-cost-price-is-used-on-a-sales-order-return"></a>Hvaða kostnaðarverð er notað við skil á sölupöntun?
 
-Þegar þú býrð til skil sem tengist sölupöntun, gildir **Einingaverð** reiturinn er afritaður úr upprunalegu sölupöntuninni og **Skilakostnaðarverð** reiturinn á skilunum er stilltur á leiðrétt kostnaðarverð frá upprunalegu birgðafærslunni fyrir sölupöntunarlínuna sem verið er að skila. Ef **Gildi opið** valkostur fyrir tengda birgðafærslu er stilltur á *Já*, getur birgðalokun valdið uppfærslum á útgáfukostnaði á upprunalegu sölupöntuninni. The **Skilakostnaðarverð** reiturinn er ekki uppfærður í þessari atburðarás. Hins vegar, þegar þú bókar fylgiseðil fyrir skilapöntun, mun kerfið athuga kostnaðarverðið og nota uppfærðan kostnað á skilabirgðafærslunni.
+Þegar þú býrð til skil sem tengist sölupöntun, gildir **Einingaverð** reiturinn er afritaður úr upprunalegu sölupöntuninni og **Skilakostnaðarverð** reiturinn á skilum er stilltur á leiðrétt kostnaðarverð frá upprunalegu birgðafærslunni fyrir sölupöntunarlínuna sem verið er að skila. Ef **Gildi opið** valkostur fyrir tengda birgðafærslu er stilltur á *Já*, getur birgðalokun valdið uppfærslum á útgáfukostnaði á upprunalegu sölupöntuninni. The **Skilakostnaðarverð** reiturinn er ekki uppfærður í þessari atburðarás. Hins vegar, þegar þú bókar fylgiseðil fyrir skilapöntun, mun kerfið athuga kostnaðarverðið og nota uppfærðan kostnað á skilabirgðafærslunni.
 
 Fyrir skil á staðlaðri kostnaðarvöru sem tengist sölupöntun mun kerfið nota staðalkostnað frá upphaflegu sölupöntuninni, jafnvel þótt nýr staðalkostnaður sé virkur fyrir vöruna.
 
-Þegar þú býrð til skil sem er ekki tengd sölupöntun, **Skilakostnaðarverð** reiturinn er stilltur á virka vöruverðið sem þú hefur fyrir vöruna á síðunni sem þú ert að búa til skilapöntun fyrir. Ef þú ert ekki með virkt kostnaðarverð í kostnaðarútgáfu fyrir vöruna verður gildið 0 (núll). Ef þú skilur gildið eftir sem 0 (núll), færðu viðvörun sem segir að skilalotaauðkenni eða skilakostnaðarverð sé ekki tilgreint.
+Þegar þú býrð til skil sem er ekki tengd sölupöntun, **Skilakostnaðarverð** reiturinn er stilltur á virka vöruverðið sem þú hefur fyrir vöruna á síðunni sem þú ert að búa til skilapöntun fyrir. Ef þú ert ekki með virkt kostnaðarverð í kostnaðarútgáfu fyrir vöruna verður gildið 0 (núll). Ef þú skilur gildið eftir sem 0 (núll), færðu viðvörun sem segir að skilalotakenni eða skilakostnaðarverð sé ekki tilgreint.
 
 ### <a name="what-is-the-expected-performance-of-the-inventory-close"></a>Hver er væntanleg frammistaða birgðalokunar?
 
@@ -86,7 +86,7 @@ Nei, þú getur ekki haft mismunandi kostnaðarblað fyrir hverja síðu. Þú g
 
 ### <a name="can-i-deactivate-and-activate-versions-of-the-costing-sheet"></a>Get ég slökkt á og virkjað útgáfur af kostnaðarblaðinu?
 
-Þó að engin nákvæm útgáfusaga sé geymd fyrir kostnaðarblaðið, getur þú gert breytingar á kostnaðarblaðinu og síðan, þegar þú ert tilbúinn, vistað og staðfest það. Það er engin aðferð sem gerir þér kleift að fara aftur í eldri útgáfu af kostnaðarblaðinu eða skoða breytingarnar sem voru gerðar á kostnaðarblaðinu. Ef þú byrjar breytingar og vilt ekki að þær taki gildi geturðu lokað síðunni án þess að vista og staðfesta breytingarnar. Þú verður beðinn um að henda breytingunum.
+Þó að engin nákvæm útgáfasaga sé geymd fyrir kostnaðarblaðið, getur þú gert breytingar á kostnaðarblaðinu og síðan, þegar þú ert tilbúinn, vistað og staðfest það. Það er engin aðferð sem gerir þér kleift að fara aftur í eldri útgáfu af kostnaðarblaðinu eða skoða breytingarnar sem voru gerðar á kostnaðarblaðinu. Ef þú byrjar breytingar og vilt ekki að þær taki gildi geturðu lokað síðunni án þess að vista og staðfesta breytingarnar. Þú verður beðinn um að henda breytingunum.
 
 ### <a name="can-i-create-indirect-costs-for-each-item"></a>Get ég búið til óbeinan kostnað fyrir hvern hlut?
 
@@ -98,7 +98,7 @@ Já. Þú getur búið til óbeinan kostnaðarkóða þar sem **Tegund hnúts** 
 
 ### <a name="can-i-use-the-costing-sheet-to-split-my-production-costs-by-hours-and-materials"></a>Get ég notað kostnaðarblaðið til að skipta framleiðslukostnaði mínum eftir klukkustundum og efni?
 
-Já. Þú getur búið til **Samtals** hnúta á kostnaðarblaðinu þínu til að aðgreina kostnaðinn eftir hvaða flokkun sem þú velur. Til dæmis geturðu búið til einn **Samtals** hnút sem er nefndur *Klukkutímar* og annað sem nefnt er *Efni*. Undir **Klukkutímar** hnút, bættu við hverjum kóðahópi sem tengist tíma þínum. Undir **Efni** hnút, bættu við hverjum kostnaðarflokki sem tengist efninu þínu.
+Já. Þú getur búið til **Samtals** hnúta á kostnaðarblaðinu þínu til að aðgreina kostnaðinn eftir hvaða flokkun sem þú velur. Til dæmis geturðu búið til einn **Samtals** hnút sem er nefndur *Klukkutímar* og annað sem heitir *Efni*. Undir **Klukkutímar** hnút, bættu við hverjum kóðahópi sem tengist tíma þínum. Undir **Efni** hnút, bættu við hverjum kostnaðarflokki sem tengist efninu þínu.
 
 ## <a name="dimension-groups"></a>Víddaflokkar
 
@@ -116,7 +116,7 @@ Ef þú heldur að þú gætir viljað nota háþróaða vöruhússtjórnunareig
 
 ### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-advanced-warehousing"></a>Get ég virkjað Nota vöruhúsastjórnunarferli fyrir geymsluvíddarhópinn jafnvel þó ég ætli ekki að nota háþróaða vörugeymslu?
 
-Já, jafnvel þótt þú ætlir ekki að nota háþróaða vöruhússtjórnunareiginleika, geturðu virkjað **Notaðu vöruhússtjórnunarferli** valkostur fyrir geymsluvíddarhópinn. Til að búa til og vinna úr færslum verður þú að klára lágmarksstillingu, svo sem frátekningarstigveldi og einingaraðahópa. Hins vegar eru stillingar fyrir háþróaða vörugeymslu almennt hunsuð þegar þú vinnur handvirkt úr tínslulistum, fylgiseðlum og vörukvittunum (til dæmis á sölupöntunar- og innkaupapöntunarsíðum).
+Já, jafnvel þótt þú ætlir ekki að nota háþróaða vöruhússtjórnunareiginleika, geturðu virkjað **Notaðu vöruhússtjórnunarferli** valkostur fyrir geymsluvíddarhópinn. Til að búa til og vinna úr færslum verður þú að ljúka lágmarksstillingu, svo sem frátekningarstigveldi og einingaraðahópum. Hins vegar eru stillingar fyrir háþróaða vörugeymslu almennt hunsuð þegar þú vinnur handvirkt úr tínslulistum, fylgiseðlum og vörukvittunum (til dæmis á sölupöntunar- og innkaupapöntunarsíðum).
 
 ### <a name="when-should-i-enable-the-physical-inventory-option-for-a-storage-or-tracking-dimension-group"></a>Hvenær ætti ég að virkja valkostinn Raunverulegar birgðir fyrir geymslu- eða rakningarvíddarhóp?
 
@@ -130,7 +130,7 @@ Já, jafnvel þótt þú ætlir ekki að nota háþróaða vöruhússtjórnunare
 
 Eftir að þú hefur búið til vörulíkanahóp geturðu breytt stillingum á **Þekjuáætlun eftir vídd**, **kaupverð**, og **Fyrir útsöluverð** reiti ef **Virkur** gátreiturinn er valinn fyrir vídd í vörulíkanahópnum. Engar aðrar breytingar eru leyfðar. Til dæmis geturðu ekki virkjað eða slökkt á **Virkur**, **mál leyfilegt**, **kvittun leyfð**, **·**, og **Fjárhagsskrá** valkostir.
 
-### <a name="can-i-change-the-product-storage-or-tracking-dimension-group-for-a-released-product"></a>Get ég breytt vöru-, geymslu- eða rakningarvíddarhópnum fyrir útgefna vöru?
+### <a name="can-i-change-the-product-storage-or-tracking-dimension-group-for-a-released-product"></a>Get ég breytt vöru-, geymslu- eða rakningarvíddarhópi fyrir útgefna vöru?
 
 Ef birgðastaðan fyrir vöru er 0 (núll), og **Gildi opið** valkostur er stilltur á *Nei* fyrir allar birgðafærslur er hægt að breyta geymslu- og rakningarvíddarhópum á útgefnum framleiðslusíðu. Ekki er hægt að breyta vöruvíddarhópnum eftir að færslan er búin til.
 
@@ -138,7 +138,7 @@ Ef birgðastaðan fyrir vöru er 0 (núll), og **Gildi opið** valkostur er stil
 
 ### <a name="when-should-i-enable-the-stocked-product-option"></a>Hvenær ætti ég að virkja valkostinn Birgðavöru?
 
-Þú ættir að virkja **Birgð vara** valkostur fyrir hvaða hlut sem verður rakinn í birgðum þínum. Þegar þessi valkostur er virkur eru ítarlegar birgðafærslur geymdar sem fylgjast með móttöku og útgáfu vörunnar. Þessi valkostur er venjulega virkur fyrir hvaða áþreifanlega hluti sem þú geymir í vöruhúsinu þínu, til dæmis. Þú ættir líka að virkja þennan valmöguleika ef þú ætlar að bæta óáþreifanlegum hlut eins og þjónustuvöru við vörulista (uppskriftir) eða formúlur. Ef þú virkjar ekki **Birgð vara** valkostur, engar birgðafærslur eru raktar í birgðaundirbókinni og kostnaður við hlutina er venjulega gjaldfærður í aðalbókina þína. Þessi valkostur er oft notaður, til dæmis, fyrir verslunarvörur eða þjónustu sem eru ekki innifalin í uppskriftum þínum eða formúlum.
+Þú ættir að virkja **Birgð vara** valkostur fyrir hvaða hlut sem verður rakinn í birgðum þínum. Þegar þessi valkostur er virkur eru ítarlegar birgðafærslur geymdar sem fylgjast með móttöku og útgáfu vörunnar. Þessi valkostur er venjulega virkur fyrir hvaða áþreifanlega hluti sem þú geymir á vöruhúsinu þínu, til dæmis. Þú ættir líka að virkja þennan valmöguleika ef þú ætlar að bæta óáþreifanlegum hlut eins og þjónustuvöru við vörulista (BOM) eða formúlur. Ef þú virkjar ekki **Birgð vara** valkostur, engar birgðafærslur eru raktar í birgðaundirbókinni og kostnaður við hlutina er venjulega gjaldfærður í aðalbókina þína. Þessi valkostur er oft notaður, til dæmis, fyrir verslunarvörur eða þjónustu sem eru ekki innifalin í uppskriftum þínum eða formúlum.
 
 ### <a name="when-should-i-enable-the-post-physical-inventory-option"></a>Hvenær ætti ég að virkja valkostinn Bóka efnislegar birgðir?
 
@@ -166,7 +166,7 @@ The **Bókaðu fjárhagsskrá** valmöguleikinn er venjulega virkur þegar **Bir
 
 ### <a name="how-can-i-prevent-a-user-from-posting-a-sales-order-packing-slip-if-a-sales-order-picking-list-isnt-yet-posted"></a>Hvernig get ég komið í veg fyrir að notandi geti bókað fylgiseðil sölupöntunar ef sölupöntunartínslulisti er ekki enn bókaður?
 
-Þú getur komið í veg fyrir að notandi geti bókað fylgiseðil eða reikning sölupöntunar ef sölupöntunartínslulisti hefur ekki enn komið fram með því að virkja **Kröfur um val** valmöguleika fyrir vörulíkanahópinn. Þessi valkostur er venjulega notaður í fyrirtækjum sem framkvæma efnislegt tínsluferli í vöruhúsinu (til dæmis með því að nota farsímatæki vöruhússins til að gera tínslu). The **Krafa um val** valkostur gildir um *allt* birgðaútgáfur fyrir vöru, ekki bara fyrir sölupantanir. Til dæmis á það við um birgðabók sem hefur neikvætt magn og færslubók framleiðslupöntunartínslulista.
+Þú getur komið í veg fyrir að notandi geti bókað fylgiseðil eða reikning sölupöntunar ef sölupöntunartínslulisti hefur ekki enn átt sér stað með því að virkja **Kröfur um val** valmöguleika fyrir vörulíkanahópinn. Þessi valkostur er venjulega notaður í fyrirtækjum sem framkvæma efnislegt tínsluferli í vöruhúsinu (til dæmis með því að nota farsímatæki vöruhússins til að gera tínslu). The **Krafa um val** valkostur gildir um *allt* birgðaútgáfur fyrir vöru, ekki bara fyrir sölupantanir. Til dæmis á það við um birgðabók sem hefur neikvætt magn og færslubók framleiðslupöntunartínslulista.
 
 ### <a name="how-can-i-prevent-a-user-from-posting-a-sales-order-invoice-if-the-sales-order-packing-slip-isnt-yet-posted"></a>Hvernig get ég komið í veg fyrir að notandi bóki sölupöntunarreikning ef fylgiseðill sölupöntunar er ekki enn bókaður?
 
@@ -287,7 +287,7 @@ Verðgjöld veita leið til að bæta fastri upphæð við einingarverð vöruve
 
 Ef þú slærð inn sjálfgefið verð í **Kaupverð** sviði á **Útgefin vara** síðu er gert ráð fyrir að hún sé í bókhaldsgjaldmiðli höfuðbókarinnar fyrir lögaðilann sem þú ert í. Sömuleiðis, ef þú slærð inn innkaupsverð í kostnaðarútgáfu þar sem **Verðtegund** reiturinn er stilltur á *Kaup*, er gert ráð fyrir að verðið sé í bókhaldsgjaldmiðli lögaðilans þíns. Þegar þú býrð til innkaupapöntun fyrir lánardrottinn sem er með annan gjaldmiðil mun kerfið sjálfkrafa umbreyta gjaldmiðlinum úr bókhaldsgjaldmiðilsupphæðinni í viðskiptagjaldmiðilinn með því að nota gengi sem þú tilgreinir í **Gengistegund bókhaldsgjaldmiðils** reit í bókhaldinu þínu.
 
-Þegar þú býrð til viðskiptasamningsbók geturðu tilgreint gjaldmiðilinn sem þú gefur upp verðið í á hverri línu. Þú getur búið til viðskiptasamninga fyrir marga gjaldmiðla, tiltekna lánardrottna og margar aðrar samsetningar þátta. Ef þú stofnar innkaupapöntun þar sem viðskiptasamningur er til fyrir gjaldmiðilinn sem þú hefur valið mun kerfið nota viðskiptasamninginn sem hefur samsvarandi gjaldmiðil. Þegar þú bókar færslur eins og vörukvittun eða reikninga verður upphæðinni umreiknað í bókhaldsgjaldmiðil fjárhagsins með því að nota bókhaldsgengið sem þú tilgreinir í fjárhagsbókinni.
+Þegar þú býrð til viðskiptasamningsbók geturðu tilgreint gjaldmiðilinn sem þú ert að gefa upp verðið í á hverri línu. Þú getur búið til viðskiptasamninga fyrir marga gjaldmiðla, tiltekna lánardrottna og margar aðrar samsetningar þátta. Ef þú stofnar innkaupapöntun þar sem viðskiptasamningur er til fyrir gjaldmiðilinn sem þú hefur valið mun kerfið nota viðskiptasamninginn sem hefur samsvarandi gjaldmiðil. Þegar þú bókar færslur eins og vörukvittun eða reikninga verður upphæðinni umreiknað í bókhaldsgjaldmiðil fjárhagsins með því að nota bókhaldsgengið sem þú tilgreinir í fjárhagsbókinni.
 
 ### <a name="how-should-i-configure-costs-for-items-that-are-procured-in-multiple-currencies"></a>Hvernig ætti ég að stilla kostnað fyrir vörur sem eru keyptar í mörgum gjaldmiðlum?
 
@@ -315,7 +315,7 @@ Nei, þú getur ekki handvirkt merkt kvittanir eða vandamál þegar þú notar 
 
 ### <a name="how-does-marking-affect-the-profit-and-loss-statement"></a>Hvaða áhrif hefur merking á rekstrarreikning?
 
-Þegar þú merkir útgáfufærslu á móti kvittun mun kostnaðurinn fyrir útgáfuna passa við völdu kvittunina. Þegar þú birtir málið líkamlega og fjárhagslega mun birtingin hafa áhrif á **Kostnaður við seldar vörur, afhentar** og **Kostnaður seldra vara, reikningsfærður** reikninga sem þú tilgreinir í birgðabókunarsniðinu. Ef viðskipti eru merkt eftir líkamlega eða fjárhagslega uppfærslu, *Birgðalokun og aðlögun* ferli mun búa til leiðréttingu sem hefur samsvarandi fylgiskjal sem aðlagar **Kostnaður seldra vara, reikningsfærður** reikning og mótvægi á reikninginn sem þú tilgreinir fyrir **Kostnaður eininga, reikningsfærður** (birgðahald).
+Þegar þú merkir útgáfufærslu á móti kvittun mun kostnaðurinn fyrir útgáfuna passa við völdu kvittunina. Þegar þú birtir málið líkamlega og fjárhagslega mun birtingin hafa áhrif á **Kostnaður við seldar vörur, afhentar** og **Kostnaður seldra vara, reikningsfærður** reikninga sem þú tilgreinir í birgðabókunarsniðinu. Ef viðskipti eru merkt eftir líkamlega eða fjárhagslega uppfærsluna, *Birgðalokun og aðlögun* ferli mun búa til leiðréttingu sem hefur samsvarandi fylgiskjal sem aðlagar **Kostnaður seldra vara, reikningsfærður** reikning og mótvægi á reikninginn sem þú tilgreinir fyrir **Kostnaður eininga, reikningsfærður** (birgðahald).
 
 ### <a name="how-does-marking-affect-master-planning"></a>Hvaða áhrif hefur merking á aðalskipulag?
 
@@ -359,7 +359,7 @@ Við mælum með því að þú fylgist oft með og leiðréttir neikvæðar bir
 
 ### <a name="do-i-have-to-create-a-new-item-if-my-inventory-has-gone-negative-and-i-use-moving-average"></a>Þarf ég að búa til nýjan hlut ef birgðirnar mínar hafa orðið neikvæðar og ég nota hlaupandi meðaltal?
 
-Nr. Ef fyrirtækið þitt leyfir birgðum að verða líkamlega neikvæðar og þú notar hlaupandi meðaltal sem birgðalíkan þitt, mun kerfið nota varakostnaðarröðina sem er úthlutað á **Birgða- og vöruhúsastjórnunarfæribreytur** síðu til að ákvarða hvernig kostnaði verður úthlutað á málefnin þín. Almennt mælum við með því að þú forðast að leyfa birgðum þínum að verða líkamlega neikvæð. Fyrir frekari upplýsingar, sjáðu aðrar spurningar í [Neikvæð birgðahald](#negative-inventory) kafla þessa efnis.
+Nr. Ef fyrirtækið þitt leyfir birgðum að verða líkamlega neikvæðar og þú notar hlaupandi meðaltal sem birgðalíkan þitt, mun kerfið nota varakostnaðarröðina sem er úthlutað á **Birgða- og vöruhúsastjórnunarfæribreytur** síðu til að ákvarða hvernig kostnaði verður úthlutað á málefnin þín. Almennt mælum við með því að þú forðast að leyfa birgðum þínum að verða líkamlega neikvæð. Fyrir frekari upplýsingar, sjáðu aðrar spurningar í [Neikvæð birgðahald](#negative-inventory) kafla þessarar greinar.
 
 ## <a name="not-stocked-products"></a>Vörur sem ekki eru á lager
 
@@ -433,7 +433,7 @@ Hugtökin hlaupandi meðaltal, fljótandi meðaltal og hlaupandi meðaltal eru o
 
 ### <a name="when-i-use-moving-average-what-happens-if-there-is-an-issue-before-the-receipt"></a>Þegar ég nota hlaupandi meðaltal, hvað gerist ef það er vandamál fyrir kvittunina?
 
-Venjulega gæti verið vandamál fyrir móttökuna annaðhvort vegna þess að þú leyfir líkamlegar neikvæðar birgðir fyrir vörulíkanaflokkinn eða vegna þess að útgáfan er afturdagsett. Fyrir frekari upplýsingar, sjá [Neikvætt birgðahald](#negative-inventory) kafla þessa efnis.
+Venjulega gæti verið vandamál fyrir móttökuna annaðhvort vegna þess að þú leyfir líkamlegar neikvæðar birgðir fyrir vörulíkanaflokkinn eða vegna þess að útgáfan er afturdagsett. Fyrir frekari upplýsingar, sjá [Neikvæð birgðahald](#negative-inventory) kafla þessarar greinar.
 
 Ef þú ert að bakfæra viðskipti, mælum við með því að þú íhugir vandlega viðskiptaferlið þitt og rekstur til að ákvarða hvort það sé leið til að forðast þessa atburðarás. Ef þú afturdagar færslu fyrir vöru sem notar hlaupandi meðaltal mun kerfið úthluta núverandi hlaupandi meðaltali til færslunnar. Síðari mál eru ekki leiðrétt. Fyrir frekari upplýsingar um hreyfanlegt meðaltal með bakdagsettum viðskiptum, sjá [Hækkandi meðaltal](moving-average.md).
 

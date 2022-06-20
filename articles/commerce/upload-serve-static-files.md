@@ -1,6 +1,6 @@
 ---
 title: Hlaða upp og þjóna föstum skrám
-description: Þetta efnisatriði lýsir því hvernig á að hlaða upp fastri skrá í Microsoft Dynamics 365 Commerce vefsmið, og hvernig á að búa til sérstillt URL og skráarheiti sem hægt er að nota til að óska eftir skránni.
+description: Þessi grein lýsir því hvernig á að hlaða upp kyrrstæðum skrá inn í Microsoft Dynamics 365 Commerce vefsmiður, og hvernig á að búa til sérsniðna vefslóð og skráarheiti sem hægt er að nota til að biðja um þá skrá.
 author: StuHarg
 ms.date: 11/16/2020
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 389d33189644241dcf98da0c7f3b841e82a4430ac459dc8027284cecc299b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1b14feba1466c3a5efc3b0ea66f20e9e818a8a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714684"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885323"
 ---
 # <a name="upload-and-serve-static-files"></a>Hlaða upp og þjóna föstum skrám
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að hlaða upp fastri skrá í Microsoft Dynamics 365 Commerce vefsmið, og hvernig á að búa til sérstillt URL og skráarheiti sem hægt er að nota til að óska eftir skránni.
+Þessi grein lýsir því hvernig á að hlaða upp kyrrstæðum skrá inn í Microsoft Dynamics 365 Commerce vefsmiður, og hvernig á að búa til sérsniðna vefslóð og skráarheiti sem hægt er að nota til að biðja um þá skrá.
 
-Sumir tenglar þriðja aðila krefjast þess að skrá sé hýst og henni sé miðlað á svæði fyrir rafræn viðskipti. Þessir tenglar búast við því að skránni verði skilað með beiðnum á tiltekna vefslóð svarhringingar og skráarheiti. Þess vegna útskýrir Þetta efnisatriði hvernig á að hlaða upp og setja upp fasta skrá sem er með URL sem notandi getur skilgreint og skráarheiti á Dynamics 365 Commerce svæði fyrir rafræn viðskipti.
+Sumir tenglar þriðja aðila krefjast þess að skrá sé hýst og henni sé miðlað á svæði fyrir rafræn viðskipti. Þessir tenglar búast við því að skránni verði skilað með beiðnum á tiltekna vefslóð svarhringingar og skráarheiti. Þess vegna útskýrir þessi grein hvernig á að hlaða upp og birta kyrrstæða skrá sem hefur notandaskilgreinanlega vefslóð og skráarheiti á Dynamics 365 Commerce rafræn viðskipti síða.
 
 ## <a name="create-a-site-url-that-returns-a-static-file"></a>Stofna vefslóð svæðis sem skilar fastri skrá
 
@@ -86,7 +86,7 @@ Til að uppfæra eignagerð sem vefslóðin bendir á skal fylgja þessum skrefu
 
 Til að breyta vefslóð skal fylgja þessum skrefum.
 
-1. Til að búa til nýtt URL og varpa því á fyrirliggjandi skrá eða annað tilfang skal fylgja leiðbeiningunum í hlutanum [Stofna vefslóð svæðis sem skilar fastri skrá](#create-a-site-url-that-returns-a-static-file) fyrr í þessu efnisatriði.
+1. Til að búa til nýja vefslóð og varpa henni við núverandi skrá eða aðra auðlind skaltu fylgja leiðbeiningunum í [Búðu til vefslóð sem skilar kyrrri skrá](#create-a-site-url-that-returns-a-static-file) kafla fyrr í þessari grein.
 1. Velja skal nýju vefslóðina og velja **Birta** á skipanastikunni. Nýja vefslóðin er birt.
 1. Til að opna gömlu vefslóðina skal velja hana og velja svo **Taka úr birtingu** á skipanastikunni. Nú er hægt að eyða eldri vefslóð ef óskað er.
 

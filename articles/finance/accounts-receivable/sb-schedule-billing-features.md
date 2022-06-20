@@ -1,6 +1,6 @@
 ---
 title: Eiginleikar greiðsluáætlunar
-description: Þetta efnisatriði útskýrir eiginleika innheimtuáætlana, eins og verðlagningaraðferðir, stighækkanir og afslætti, jöfnunardagsetningar, hlutfall, öfuga innheimtu og skiptan vöruflokka.
+description: Þessi grein útskýrir eiginleika innheimtuáætlana, eins og verðlagningaraðferðir, stighækkanir og afslætti, jöfnunardagsetningar, hlutfall, öfuga innheimtu og skiptan vöruflokka.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 0ce323565a94e8e70d90a65b7a3143e984a1c159
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b6cfebc2bbfe06e118bfc96f9ae0df6323805e39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696647"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853584"
 ---
 # <a name="billing-schedule-features"></a>Eiginleikar greiðsluáætlunar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir eiginleika innheimtuáætlana og innheimtuáætlunarlína. Það lýsir mismunandi aðferðum sem eru notaðar við verðlagningu, hvernig á að nota stighækkanir og afslætti og hvernig á að bakfæra innheimtutímabili. Það inniheldur einnig dæmi um hlutfallsútreikninga og skiptan vöruflokka.
+Þessi grein útskýrir eiginleika innheimtuáætlana og innheimtuáætlunarlína. Það lýsir mismunandi aðferðum sem eru notaðar við verðlagningu, hvernig á að nota stighækkanir og afslætti og hvernig á að bakfæra innheimtutímabili. Það inniheldur einnig dæmi um hlutfallsútreikninga og skiptan vöruflokka.
 
 ## <a name="pricing-methods"></a>Verðlagningaraðferðir
 
@@ -53,12 +53,12 @@ Bæði dæmin nota vöru sem hefur eftirfarandi verðflokka.
 | Magn frá | Magn til | U af M | Verð | Verðeining |
 |---|---|---|---|---|
 | 0 | 10.000 | Hvert | 1.50 | 1 |
-| 10.000 | 200 | Hvert | 1.25 | 1 |
+| 10.000 | 200 | Hvert | 1,25 | 1 |
 | 200 | 999999 | Hvert | 1.00 | 1 |
 
 **Dæmi 1**
 
-Reikningsmagnið er 250 og venjuleg verðlagningaraðferð er notuð. Þar sem magnið er á bilinu 200–999.999 verðmagn, er einingarverðið 1,00. 
+Reikningsmagnið er 250 og venjuleg verðlagningaraðferð er notuð. Þar sem magnið er á bilinu 200–999.999 verðmagnsbili er einingarverðið 1,00. 
 
 Nettóupphæðin er reiknuð á eftirfarandi hátt:
 
@@ -82,7 +82,7 @@ Fyrir eftirfarandi dæmi hefur vara eftirfarandi verðflokka.
 | Magn frá | Magn til | U af M | Verð | Verðeining |
 |---|---|---|---|---|
 | 0 | 10.000 | Hvert | 1.50 | 10 |
-| 10.000 | 200 | Hvert | 1.25 | 10 |
+| 10.000 | 200 | Hvert | 1,25 | 10 |
 | 200 | 999999 | Hvert | 1.00 | 10 |
 
 Ef reikningsmagnið er 250, og flokkaverðlagningaraðferðin er notuð, eru verð vörunnar reiknuð út á eftirfarandi hátt miðað við verðflokka:
@@ -134,7 +134,7 @@ An *stigmögnun* er verðhækkun fyrir framtíðarreikningstímabil sem reikning
 Fylgdu þessum skrefum til að nota hækkun eða afslátt á innheimtuáætlun.
 
 1. Veldu innheimtuáætlun eða innheimtuáætlunarlínu.
-2. Veldu **Stækkun og afsláttur** annað hvort á **Stækkun og afsláttur** flipa eða á innheimtuáætlunarlínunni.
+2. Veldu **Stækkun og afsláttur** annað hvort á **Stækkun og afsláttur** flipanum eða á innheimtuáætlunarlínunni.
 3. Ef vísitala neysluverðs er notuð til að reikna út hækkun eða afslátt skal velja gildi í **Útreikningur vísitölu neysluverðs** sviði.
 4. Veldu **Nýtt** til að bæta við stigmögnunar- eða afsláttarlínu.
 5. Til að fá afslátt skaltu velja **Afsláttur** gátreit. Fyrir stigmögnun, farðu frá **Afsláttur** gátreiturinn hreinsaður.
@@ -193,7 +193,7 @@ Hlutfallsaðferðin hefur einnig áhrif á útreikninga á mánaðarlegum endurt
 
     - *Upphafsmánaðarhluti* = (31 – 12 + 1)&divide; 31 = 20&divide; 31
     - *Miðmánuðir* = 3
-    - *Loka mánaðarhluti* = 22&divide; 31
+    - *Lok mánaðarhluti* = 22&divide; 31
     - Hlutfallsleg upphæð = 5.000&divide; 12&times;\[ (20&divide; 31) + 3 + (22&divide; 31)\] = 1814,52
 
 ### <a name="example-2"></a>Dæmi 2
@@ -210,118 +210,118 @@ Hlutfallsaðferðin hefur einnig áhrif á útreikninga á mánaðarlegum endurt
 
     - *Fjöldi mánaða* = 5
     - *Samtals mánuðir* = 12
-    - *Hlutfallsleg upphæð* = (12.000&times; 5)&divide; 12 = 5.000
+    - *Hlutfallsleg upphæð* = (12.000 &times; 5) &divide; 12 = 5.000
 
-## <a name="reversing-a-period-billing"></a>Innheimtu tímabils
+## <a name="reversing-a-period-billing"></a>Bakfærsla tímabilsreiknings
 
-Fyrir þetta dæmi hefur innheimtuáætlun aðeins eina línu:
+Í þessu dæmi hefur innheimtuáætlun aðeins eina línu:
 
 - Innheimta fer fram mánaðarlega í 12 mánuði frá janúar til desember.
-- Reikningar hafa verið búnir til fyrir öll tímabil fram í apríl.
+- Reikningar hafa verið stofnaðir fyrir öll tímabil fram í apríl.
 
-Þú vilt bakfæra reikninginn fyrir reikningstímabilið í apríl.
+Á að bakfæra reikninginn fyrir reikningstímabilið apríl.
 
-Ef sölureikningur hafði ekki enn verið stofnaður fyrir reikningstímabilið í apríl gætirðu eytt sölupöntuninni. Í þessu tilviki er **Innheimt** staða fyrir smáatriðin yrði fjarlægð. Hins vegar, vegna þess að reikningur hefur verið búinn til fyrir reikningstímabilið, er **Innheimt** Ekki er hægt að hreinsa stöðu fyrir smáatriðin. Þess vegna, til að bakfæra innheimtu í apríl, verður þú að búa til jöfnunarkreditnótu fyrir línuna.
+Ef sölureikningur hefði ekki enn verið stofnaður fyrir reikningstímabilið apríl er hægt að eyða sölupöntuninni. Í þessu tilfelli **yrði gjaldfærð** staða fyrir smáatriðin fjarlægð. En þar sem reikningur hefur verið stofnaður fyrir reikningstímabilið **er ekki hægt að hreinsa stöðu reikningsfærðra** upplýsinga fyrir smáatriðin. Þess vegna, til að bakfæra aprílreikninginn, verður að stofna mótkreditnótu fyrir línuna.
 
-1. Á **Allar innheimtuáætlanir** síðu, búðu til áætlunarlínu fyrir sama hlut.
-2. Breyttu **Magn** verðmæti vörunnar að mínus upprunalega magns.
-3. Stilltu **Innheimtutíðni** sviði til **Einu sinni**.
-4. Uppfærðu upphafs- og lokadagsetningar þannig að þær passi við dagsetningar reikningsupplýsingalínunnar sem þú vilt búa til kreditnótu fyrir. Fyrir þetta dæmi skaltu stilla upphafsdagsetningu á 1. apríl 2019 og lokadagsetningu á 30. apríl 2019.
+1. **Á síðunni Allar reikningsáætlanir** skal stofna áætlunarlínu fyrir sömu vöru.
+2. Breyta gildinu **Magn** fyrir vöruna í neikvætt fyrir upprunalega magnið.
+3. Reiturinn **Reikningstíðni er** stilltur á **Einu sinni**.
+4. Uppfæra upphafs- og lokadagsetningar þannig að þær samsvari dagsetningum reikningsupplýsingalínu sem á að stofna kreditnótu fyrir. Til að setja sem dæmi upphafsdagsetninguna á 1. apríl 2019 og lokadagsetninguna til 30. apríl 2019.
 5. Vista breytingarnar.
-6. Opnaðu **Búðu til reikning** síðu og stofnaðu sölupöntunina sem hefur kreditnótu fyrir tilgreint tímabil.
-7. Valfrjálst: Bókaðu reikninginn.
+6. **Opna síðuna Mynda reikning** og stofna sölupöntunina sem er með kreditnótuna fyrir tilgreint tímabil.
+7. Valfrjálst: Bóka reikninginn.
 
-Þegar þú skoðar línurnar fyrir innheimtuáætlun muntu taka eftir því að nýja línan hefur tengil á inneignarnótu. Upprunalega línan mun enn hafa tengil á upprunalega apríl reikninginn.
+Þegar línurnar fyrir innheimtuáætlunina eru skoðaðar kemur í ljós að nýja línan er með tengil á kreditnótuna. Upprunalega línan verður enn með tengil á upphaflega aprílreikninginn.
 
-## <a name="split-item-group-examples"></a>Dæmi um skiptan vöruhóp
+## <a name="split-item-group-examples"></a>Skipta dæmum um vöruflokka
 
 Í þessu dæmi er eftirfarandi uppsetning til staðar:
 
-- Á **Endurteknar innheimtufæribreytur samnings** síða, **Skipt eftir vöruflokki** er valið, og **Einstök áætlunargerð** reiturinn er stilltur á **Viðskiptavinur**.
-- Þrír vöruflokkar hafa verið búnir til: **FORSKIPTI**, **·**, og **SPP**.
-- Viðskiptavinur US-001 hefur margar innheimtuáætlanir þar sem vöruflokkurinn er PREFIX eða DATAHUB.
-- Viðskiptavinur US-002 er með margar innheimtuáætlanir þar sem vöruflokkurinn er PREFIX eða SPP.
+- **Á síðunni** Færibreytur ítrekunarsamnings **er skipt eftir vöruflokki** valið og reiturinn **Gerð einkvæmrar áætlunar** er stilltur á **Viðskiptamaður**.
+- Þrír vöruflokkar hafa verið stofnaðir: **FORSKEYTI**, **DATAHUB** og **SPP**.
+- US-001 viðskiptavinar er með margar reikningsáætlanir þar sem vöruflokkurinn er FORSKEYTI EÐA DATAHUB.
+- US-002 viðskiptavinar er með margar reikningsáætlanir þar sem vöruflokkurinn er FORSKEYTI EÐA SPP.
 
-| Númer greiðsluáætlunar | Viðskiptavinur | Vöruflokkur |
+| Númer greiðsluáætlunar | Viðskiptamaður | Vöruflokkur |
 |---|---|---|
-| SCH001 | US-001 | FORSKIPTI |
+| SCH001 | US-001 | FORSKEYTI |
 | SCH002 | US-001 | DATAHUB |
-| SCH003 | US-002 | FORSKIPTI |
+| SCH003 | US-002 | FORSKEYTI |
 | SCH004 | US-002 | SPP (staðlað greiðslutímabil) |
 
-Viðskiptavinur US-001 kaupir endurnýjunarvöru sem tilheyrir PREFIX vöruflokknum. Þessi færsla er ný sölupöntun.
+Viðskiptavinur US-001 kaupir endurnýjunarvöru sem tilheyrir FORSKEYTISvöruflokknum. Þessi færsla er ný sölupöntun.
 
-| Sölupöntun # | Viðskiptavinur | Aðalatriði | Vara endurnýjunar | Endurnýjunarvöruflokkur | Númer greiðsluáætlunar |
+| Sölupöntun # | Viðskiptamaður | Aðalvara | Vara endurnýjunar | Endurnýjunarvöruflokkur | Númer greiðsluáætlunar |
 |---|---|---|---|---|---|
-| SO0001 | US-001 | D0001 | D0002 | FORSKIPTI | SCH001 |
+| SO0001 | US-001 | D0001 | D0002 | FORSKEYTI | SCH001 |
 
-Þegar reikningur fyrir sölupöntun er bókaður er endurnýjunarliðnum bætt við núverandi greiðsluáætlun (SCH001) fyrir viðskiptamann. Þessi innheimtuáætlun notar PREFIX vöruflokkinn. Allir endurnýjunarliðir sem tilheyra sama vöruflokki eru settir í sömu innheimtuáætlun.
+Þegar reikningurinn fyrir sölupöntunina er bókaður er endurnýjunarvörunni bætt við fyrirliggjandi innheimtuáætlun (SCH001) fyrir viðskiptavininn. Þessi reikningsáætlun notar forskeytisvöruflokkinn. Allar endurnýjunarvörur sem tilheyra sama vöruflokki eru settar í sömu innheimtuáætlun.
 
 **Haus**
  
-| Númer greiðsluáætlunar | Viðskiptavinur | Vöruflokkur |
+| Númer greiðsluáætlunar | Viðskiptamaður | Vöruflokkur |
 |---|---|---| 
-| SCH001 | US-001 | FORSKIPTI |
+| SCH001 | US-001 | FORSKEYTI |
 
 **Lína**
 
-| Númer greiðsluáætlunar | Viðskiptavinur | Vöruflokkur |
+| Númer greiðsluáætlunar | Viðskiptamaður | Vöruflokkur |
 |---|---|---|
 | SCH001 | US-001 | D0002 |
 
-Viðskiptavinur US-001 kaupir nú endurnýjunarvöru sem tilheyrir SPP vöruhópnum. Þessi færsla er ný sölupöntun.
+Viðskiptavinur US-001 kaupir nú endurnýjunarvöru sem tilheyrir SPP vöruflokknum. Þessi færsla er ný sölupöntun.
 
-| Sölupöntun # | Viðskiptavinur | Aðalatriði | Vara endurnýjunar | Endurnýjunarvöruflokkur | Númer greiðsluáætlunar |
+| Sölupöntun # | Viðskiptamaður | Aðalvara | Vara endurnýjunar | Endurnýjunarvöruflokkur | Númer greiðsluáætlunar |
 |---|---|---|---|---|---|
 | SO0002 | US-001 | D0003 | D0004 | SPP (staðlað greiðslutímabil) | |
 
-Eins og er, hefur viðskiptavinur US-001 ekki innheimtuáætlun sem notar SPP vöruhópinn. Þess vegna er ný innheimtuáætlun búin til.
+Eins og er er US-001 viðskiptavinar ekki með innheimtuáætlun sem notar SPP-vöruflokkinn. Þess vegna er ný innheimtuáætlun stofnuð.
 
 **Haus**
 
-| Númer greiðsluáætlunar| Viðskiptavinur | Vöruflokkur |
+| Númer greiðsluáætlunar| Viðskiptamaður | Vöruflokkur |
 |---|---|---|
 | SCH005 | US-001 | SPP (staðlað greiðslutímabil) |
 
 **Lína**
 
-| Númer greiðsluáætlunar | Viðskiptavinur | Vöruflokkur |
+| Númer greiðsluáætlunar | Viðskiptamaður | Vöruflokkur |
 |---|---|---|
 | SCH005 | US-001 | D0004 |
 
-### <a name="multiple-billing-schedules-for-the-same-end-user-and-customer"></a>Margar innheimtuáætlanir fyrir sama notanda og viðskiptavin
+### <a name="multiple-billing-schedules-for-the-same-end-user-and-customer"></a>Margar reikningsáætlanir fyrir sama notanda og viðskiptavin
 
 Í þessu dæmi er eftirfarandi uppsetning til staðar:
 
-- Á **Endurteknar innheimtufæribreytur samnings** síða, **Skipt eftir vöruflokki** er valið, og **Einstök áætlunargerð** reiturinn er stilltur á **Endanotandi**.
-- Á **Endir notendur** síðu er eftirfarandi viðskiptavinur og notendasamband sett upp.
+- **Á síðunni** Færibreytur ítrekunarsamnings **er skipt eftir vöruflokki** valið og reiturinn **Gerð einkvæmrar áætlunar** er stilltur á **Notanda**.
+- **Á síðunni Notendur eru** eftirfarandi tengsl viðskiptavinar og notanda sett upp.
 
     | Viðskiptavinalykill | Notandareikningur |
     |---|---|
     | US-001 | US-221 |
 
-Margar innheimtuáætlanir eru búnar til fyrir samsetningu viðskiptavinar og endanotanda. Vegna þess að **Skipt eftir vöruflokki** er valið á **Endurteknar innheimtufæribreytur samnings** síðu er hægt að búa til margar innheimtuáætlanir fyrir sama viðskiptavin og endanotendasamband.
+Margar reikningsáætlanir eru stofnaðar fyrir samsetningu viðskiptavinar og notanda. Þar sem **Skipt eftir vöruflokki** er valið á síðunni Færibreytur endurtekinna **samningsreikninga** er hægt að stofna margar reikningsáætlanir fyrir sömu tengsl viðskiptavinar og notanda.
 
-| Númer greiðsluáætlunar | Viðskiptavinur | Notandareikningur | Hlutaflokkur fyrir haus |
+| Númer greiðsluáætlunar | Viðskiptamaður | Notandareikningur | Vöruflokkur hauss |
 |---|---|---|---|
 | SCH005 | US-001 | US-221 | IG1 |
 | SCH006 | US-001 | US-221 | IG2 |
 | SCH007 | US-001 | US-221 | IG3 |
 
-Á **Uppsetning hlutar** síðu býrðu til stuðnings- og endurnýjunarsambönd.
+**Á síðunni Uppsetning** vöru eru stofnuð tengsl stuðnings- og endurnýjunarvöru.
 
 | Vörukóði | Vöruvensl | Þjónustuvara | Vara endurnýjunar | Endurnýjunarvöruflokkur |
 |---|---|---|---|---|
-| Tafla | D001 | LIÐUR 27 | D007 | IG1 |
-| Tafla | D002 | LIÐUR 28 | D005 | IG2 |
-| Tafla | D003 | LIÐUR 29 | D006 | IG3 |
+| Tafla | D001 | ATRIÐI27 | D007 | IG1 |
+| Tafla | D002 | ATRIÐI28 | D005 | IG2 |
+| Tafla | D003 | ATRIÐI29 | D006 | IG3 |
 
-Þú stofnar nú sölupöntun fyrir viðskiptavin US-001. Þessi sölupöntun hefur vörur frá **Uppsetning hlutar** síðu. Þegar þú stofnar sölupöntunina skaltu opna **Stuðnings- og endurnýjunarferli** síðu og stilltu **Notendareikningur** reitinn og allar aðrar nauðsynlegar upplýsingar fyrir endurnýjunaratriðið.
+Nú er sölupöntun stofnuð fyrir viðskiptamanninn US-001. Þessi sölupöntun er með vörur af **síðunni Uppsetning** vöru. Þegar sölupöntunin er stofnuð skal opna **síðuna Stuðningur og endurnýjunarferli** og stilla **reitinn Reikningur** notanda og aðrar nauðsynlegar upplýsingar fyrir endurnýjunarvöruna.
 
-Þegar reikningur fyrir færsluna er stofnaður og bókaður, eru mismunandi innheimtuáætlanir búnar til fyrir samsetningu viðskiptavinar/endanotanda og vöruflokks. Hægt er að úthluta fleiri en einni línu í sömu sölupöntun á sömu innheimtuáætlun.
+Þegar reikningurinn fyrir færsluna er stofnaður og bókaður eru mismunandi reikningsáætlanir stofnaðar fyrir samsetningu viðskiptavinar/notanda og vöruflokks. Hægt er að úthluta fleiri en einni línu í sömu sölupöntun á sömu reikningsáætlun.
 
-| Sölupöntun # | Viðskiptavinur | Notandareikningur | Aðalatriði | Þjónustuvara | Vara endurnýjunar | Númer greiðsluáætlunar |
+| Sölupöntun # | Viðskiptamaður | Notandareikningur | Aðalvara | Þjónustuvara | Vara endurnýjunar | Númer greiðsluáætlunar |
 |---|---|---|---|---|---|---|
-| SO0001 | US-001 | US-221 | D001 | LIÐUR 27 | D007 | SCH005 |
-| SO0001 | US-001 | US-221 | D002 | LIÐUR 28 | D005 | SCH006 |
-| SO0001 | US-001 | US-221 | D003 | LIÐUR 29 | D006 | SCH005 |
+| SO0001 | US-001 | US-221 | D001 | ATRIÐI27 | D007 | SCH005 |
+| SO0001 | US-001 | US-221 | D002 | ATRIÐI28 | D005 | SCH006 |
+| SO0001 | US-001 | US-221 | D003 | ATRIÐI29 | D006 | SCH005 |

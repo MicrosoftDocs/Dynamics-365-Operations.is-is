@@ -13,18 +13,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b98c37ad7695e81dbbd9558217287c868e052d08415d6d5c5d6055b5f9755eac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: caf27d3a5dddae0be7029834dce692f1fbc2fee7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769344"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889343"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>Stofna fjárhagsvíddir fyrir smásölurásir og skilgreina víddagildi í verslunum
 
 [!include [banner](../includes/banner.md)]
 
-Þetta ferli fer í gegnum hvernig á að stofna fjárhagsvíddir Commerce-rása með víddargildum og skref til að skilgreina gildi fjárhagsvídda á verslanir. Efnið tekur ekki með önnur tengd skref, s.s. að stofna víddarsamstæður og lykilskipulag. Þetta ferli notar sýnigögn fyrirtæki USRT.
+Þetta ferli fer í gegnum hvernig á að stofna fjárhagsvíddir Commerce-rása með víddargildum og skref til að skilgreina gildi fjárhagsvídda á verslanir. Greinin inniheldur ekki önnur tengd skref, eins og að búa til víddarsett og reikningsuppbyggingu. Þetta ferli notar sýnigögn fyrirtæki USRT.
 
 1. Fara í fjárhag > Línurit yfir lykla > Víddir > Fjárhagsvíddir.
 2. Smellið á Nýtt.

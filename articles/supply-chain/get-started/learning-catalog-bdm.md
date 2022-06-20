@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f5c175fb0b087a6b970ab8e2e8f87f75c1aa3845
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f97244f48cdfde6f9e91a459b123068480b9c80b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671337"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891119"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-supply-chain-management"></a>Námslisti fyrir stjórnendur í fyrirtæki varðandi Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 |---------|-------------|--------|--------|
 | [Lærðu viðskiptaverðmæti Microsoft Dynamics 365 og Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Hefur þú áhuga á að læra um viðskiptaforrit? Þú veist ef til vill ekki hvar þú átt að byrja á Microsoft Dynamics 365 og Power Platform forritum? Kynntu þér hvernig þú nýtir forrit fyrir fyrirtæki til að breyta viðskiptum þínum. | Ókeypis, sjálfstýr skref á námsleið | 7 klst. |
 | [Dynamics 365 og Power Platform grundvallaratriði](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Hefur þú áhuga á að læra um viðskiptaforrit? Byrjaðu á þessari námsleið til að sjá hvernig Dynamics 365 forrit eru notuð. Lærðu um skýjahugtök, Power Platform og hvernig hægt er að byrja með Dynamics 365 forrit. | Ókeypis, sjálfstýr skref á námsleið | 5.5 klst. |
-| [Byrjaðu með Finance and Operations öppum](/learn/paths/get-started-finance-operations/) | Lærðu hvernig Finance and Operations öpp styðja fyrirtæki við að stjórna alþjóðlegum fjármálakerfum sínum, rekstri viðskiptaferlum og straumlínulagaða aðfangakeðjur til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir. Sem fyrsta skrefið á ferli þínum við að vinna með Finance and Operations forritum, verður þú að kynna þér eiginleika þess og virkni, hvaða hlutverki sem þú vilt. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
+| [Byrjaðu með Finance and Operations öppum](/learn/paths/get-started-finance-operations/) | Lærðu hvernig Finance and Operations öpp styðja fyrirtæki við að stjórna alþjóðlegum fjármálakerfum sínum, rekstri viðskiptaferla og straumlínulagaðar aðfangakeðjur til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir. Sem fyrsta skrefið á ferli þínum við að vinna með Finance and Operations forritum, verður þú að kynna þér eiginleika þess og virkni, hvaða hlutverki sem þú vilt. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
 | [Námskeið MB-900T01-A: Grundvallaratriði Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Þetta námskeið kynnir nemandanum Dynamics 365 virkni og viðskiptagildi. Námskeiðið mun fjalla um Dynamics 365 forrit, Power Platform, skýjahugtök, öryggislíkanið og leyfissjónarmið. | Leiðbeinandi í eigin persónu eða þjálfun á netinu, kostnaður er breytilegur eftir svæðum og félagi | 1 dagur |
 | [Hafist handa með eignastýringu fyrir Dynamics 365 Supply Chain Management](/learn/modules/get-started-asset-management/index) | Eignastýring er eining til að stjórna eignum og viðhaldsvinnslum í Dynamics 365 Supply Chain Management. Eignastýring gerir þér kleift að stjórna og framkvæma verkefni sem tengjast stjórnun og þjónustu á mörgum gerðum búnaðar í fyrirtækinu þínu, til dæmis vélar, framleiðslutæki og farartæki. Eignastjórnun styður lausnir í fjölmörgum atvinnugreinum. | Ókeypis námseining á netinu á eigin hraða | 1 klukkustund |
 | [Hafist handa með innbót fyrir umsjón hönnunarbreytinga fyrir Dynamics 365 Supply Chain Management](/learn/modules/get-started-engineering-change-management/) | Dynamics 365 Supply Chain Management gerir starfsfólki og fyrirtækjum kleift að sjá samræmt yfirlit yfir birgðahald, vöruhús, framleiðslu, þjónustu og vörustjórnun með forspárgreiningu sem veitir stjórnendum innsýn í reksturinn og gerir þeim kleift að taka betri ákvarðanir | Ókeypis námseining á netinu á eigin hraða | 2 klst. |

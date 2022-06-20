@@ -1,6 +1,6 @@
 ---
 title: Skrá vörur fyrir vöru með ítarlegt vöruhúsakerfi virkt með því að nota komubók
-description: Þetta efnisatriði lýsir aðstæðum sem sýnir hvernig á að skrá vörur með komubók þegar ítarleg felri vöruhúsastjórnunar eru notuð.
+description: Þessi grein sýnir atburðarás sem sýnir hvernig á að skrá vörur með því að nota komufærslubók vöru þegar verið er að nota háþróaða vöruhúsastjórnunarferli.
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,22 +14,22 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e753897d1e21ffebbcbfac48abab4b0549c3553f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565256"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863622"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Skrá vörur fyrir vöru með ítarlegt vöruhúsakerfi virkt með því að nota komubók
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði lýsir aðstæðum sem sýnir hvernig á að skrá vörur með komubók þegar ítarleg felri vöruhúsastjórnunar eru notuð. Þetta væri yfirleitt gert með af móttöku starfsmaður.
+Þessi grein sýnir atburðarás sem sýnir hvernig á að skrá vörur með því að nota komufærslubók vöru þegar verið er að nota háþróaða vöruhúsastjórnunarferli. Þetta væri yfirleitt gert með af móttöku starfsmaður.
 
 ## <a name="enable-sample-data"></a>Virkja gögn sýnishorna
 
-Til að vinna í gegnum þessar aðstæður með því að nota sýnigögnin og gildin sem eru tilgreind í þessu efnisatriði er nauðsynlegt að nota kerfi þar sem venjuleg sýnigögn eru sett upp og velja þarf lögaðilann *USMF* áður en hafist er handa.
+Til að vinna í gegnum þessa atburðarás með því að nota sýnishornsskrárnar og gildin sem tilgreind eru í þessari grein, verður þú að nota kerfi þar sem staðlað kynningargögn eru sett upp og þú verður að velja *USMF* lögaðila áður en þú byrjar.
 
 Hægt er að vinna með þessar astæður með því að skipta gildum úr eigin gögnum ef eftirfarandi gögn eru tiltæk:
 

@@ -1,6 +1,6 @@
 ---
 title: Nýjungar eða breytingar í farsímaforriti Warehouse Management
-description: Í þessu efnisatriði er að finna lista yfir nýja og breytta eiginleika fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein sýnir nýja og breytta eiginleika fyrir hverja útgefna útgáfu af Warehouse Management farsímaforritinu fyrir Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c79b18d24c8b9cb90a570496882fdfe91dc6ba51
-ms.sourcegitcommit: a4dc7d170f1504631127c3e92af0c6b03468d375
-ms.translationtype: MT
+ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/02/2022
-ms.locfileid: "8661826"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945724"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af farsímaforriti Warehouse Management fyrir Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein sýnir nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af Warehouse Management farsímaforritinu fyrir Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20240"></a>Útgáfa 2.0.24.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+
+- Bættar skannasíður til að virkja skannavalkostinn **Upplýsingar** síður.
+- Bættar bendingar, eins og snerti-/snertiskjár.
+- Bætt frammistöðuvandamál fyrir Android.
+- Föst staðsetning margra hausa til að leyfa fleiri spilum að birtast á **Fyrirspurn** síðu.
+- Bætt skrun þannig að minni fjarlægð til að fletta blaðsíðu er virkjuð.
+- Bætt við löngu ýttu til að birta viðbótartexta á **Fyrirspurn** síðu.
+- Lagað vantar upplýsingar um auðkenni tækis fyrir Android.
+- Aukinn stöðugleiki.
+- Fínstillti innskráningarskipulagið.
+- Bætti við strjúktu til hægri til að loka sprettigluggasíðum á talnaborðinu, **Upplýsingar** síðu og inntakssíður.
 
 ## <a name="version-20220"></a>Útgáfa 2.0.22.0
 
@@ -31,7 +46,7 @@ ms.locfileid: "8661826"
 - Lagaði vandamál þar sem sumir stafir myndu ekki þekkjast þegar verið var að skanna eða slá inn á sjálfgefna síðu.
 - Lagaði vandamál þar sem að slá inn bakhlið á sjálfgefna síðunni myndi eyða tveimur stöfum í einu.
 - Lagaði mál þar sem **Raða eftir** sviði á **Verklisti** síða myndi birta rangt gildi sem samsvaraði ekki raunverulegri röðunarröð kortanna.
-- Lagaði vandamál þar sem rangt skipulag birtist eftir að stærð forritsgluggans var breytt á meðan verið var að keyra á Microsoft Windows.
+- Lagaði vandamál þar sem rangt skipulag birtist eftir að stærð forritsgluggans var breytt á meðan það var keyrt áfram Microsoft Windows.
 - Lagaði vandamál þar sem skrunun í sprettigluggalista gæti leitt til þess að sum listaatriði haldist falin eða brenglast.
 - Endurhannað innskráningarsíðuna til að láta hana birta notendanafn og lykilorð svæði á sömu síðu þegar hún er keyrð á stærri skjám.
 - Bætt hvernig stjórntæki bregðast við hröðum banka.
@@ -73,7 +88,7 @@ ms.locfileid: "8661826"
 - Bætti við stuðningi við almennt gagnafyrirspurnarflæði.
 - Bætti við skilaboðum til að segja notendum frá breytingum á nettengingarstöðu.
 - Samræmdi geymsluheimildir við persónuverndarstefnu geymslu í Android 10.
-- Fyrir flæði sem þarfnast þess inniheldur magnsnúningurinn nú stöðu sem gerir notendum kleift að senda inn autt tölugildi.
+- Fyrir flæði sem þurfa á því að halda inniheldur magnsnúningurinn nú stöðu sem gerir notendum kleift að senda inn autt tölugildi.
 - Lagaði vandamál með stefnu magnsnúnings.
 - Lagaði mál þar sem magnsnúningurinn myndi hoppa á rangt gildi.
 - Lagaði vandamál þar sem inntak á aðalsíðuna glataðist þegar það var fyllt út af upplýsingasíðunni.

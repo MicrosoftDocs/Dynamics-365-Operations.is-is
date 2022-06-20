@@ -1,6 +1,6 @@
 ---
-title: Dæmi og rök fyrir aldursgreiningarskýrslu birgða
-description: Í þessu efnisatriði er að finna dæmi sem sýna hvernig á að túlka niðurstöður aldursgreiningarskýrslu.
+title: Dæmi og rök fyrir skýrslu um aldursgreiningu birgða
+description: Þessi grein sýnir nokkur dæmi sem sýna hvernig á að túlka niðurstöður öldrunarskýrslu birgða.
 author: JennySong-SH
 ms.date: 5/29/2020
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4cfffa49f802c601da391617b123134c435fba92
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40066431ddfb9644c059025eac55d1b36789882e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848021"
 ---
-# <a name="inventory-aging-report-examples-and-logic"></a>Dæmi og rök fyrir aldursgreiningarskýrslu birgða
+# <a name="inventory-aging-report-examples-and-logic"></a>Dæmi og rök fyrir skýrslu um aldursgreiningu birgða
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna dæmi sem sýna hvernig á að túlka niðurstöður skýrslu **Aldursgreiningar**. Þessi skýrsla flokkar lagerbirgðir og birgðavirði fyrir valda vöru eða vöruflokk í nokkra tímaramma. Í þessu efnisatriði eru einnig innri rök skýrslunnar sýnd.
+Þessi grein sýnir nokkur dæmi sem sýna hvernig á að túlka niðurstöður **Öldrun birgða** skýrslu. Þessi skýrsla flokkar lagerbirgðir og birgðavirði fyrir valda vöru eða vöruflokk í nokkra tímaramma. Þessi grein sýnir einnig innri rökfræði skýrslunnar.
 
-Dæmin í þessu efnisatriði sýna niðurstöður sem eru birtar í staðlaðri skýrslu **Aldursgreiningarskýrslu**. Við mælum hinsvegar almennt með því að notuð sé útgáfan [Skýrsla um aldursgreiningu birgða](inventory-aging-report-storage.md) fyrir þessa skýrslu, sérstaklega þegar þarf að vinna úr mörgum vörum og vöruhúsum. Skýrsla um aldursgreiningu birgða vistar hverja skýrslu sem búin er til, sýnir niðurstöðurnar sem gagnvirka síðu og graf, og gerir kleift að flytja út allar vistaðar skýrslur.
+Dæmin í þessari grein sýna niðurstöður sem eru settar fram á staðli **Öldrun birgða** skýrslu. Við mælum hinsvegar almennt með því að notuð sé útgáfan [Skýrsla um aldursgreiningu birgða](inventory-aging-report-storage.md) fyrir þessa skýrslu, sérstaklega þegar þarf að vinna úr mörgum vörum og vöruhúsum. Skýrsla um aldursgreiningu birgða vistar hverja skýrslu sem búin er til, sýnir niðurstöðurnar sem gagnvirka síðu og graf, og gerir kleift að flytja út allar vistaðar skýrslur.
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Sýnidæmi sem er notað í þessum dæmum
 
-Dæmin í þessu efnisatriði byggja á dæmi um birgðafærslugögnin sem lýst er í þessum hluta.
+Dæmin í þessari grein eru byggð á sýnishorni birgðafærslugagna sem lýst er í þessum hluta.
 
 ### <a name="storage-dimension-setup"></a>Uppsetning geymsluvíddar
 

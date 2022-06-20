@@ -1,6 +1,6 @@
 ---
 title: Aðgangsréttindi fyrir stjórnborð kostnaðarhluta
-description: Þetta efnisatriði hefur að geyma upplýsingar um aðgangsréttindi fyrir stjórnborð kostnaðarhlutar.
+description: Þessi grein veitir upplýsingar um aðgangsrétt fyrir kostnaðarhlutastýringaraðila.
 author: AndersGirke
 ms.date: 06/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13d562a4f42644b822c9548d1ea87d44a396b2c2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c40be758c5e5d1d1fb025630ed8321ae46251892
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733879"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903190"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Aðgangsréttindi fyrir stjórnborð kostnaðarhluta
 
@@ -35,10 +35,10 @@ ms.locfileid: "8733879"
 |-------------------------|--------------|
 | Aðalbókari kostnaðarbókhalds | Verkþáttur     |
 | Kostnaðarbókari         | Aðgerðir   |
-| Starfsmaður kostnaðarbókara   | Aðgerðir   |
+| Starfsmaður kostnaðarbókara   | Virkni   |
 | Stjórnborð kostnaðarhlutar  | Hópmeðlimir |
 
-Í þessu efnisatriði er útskýrt hvernig á að úthluta stjórnanda hlutverkinu **Stjórnborð kostnaðarhlutar**.
+Þessi grein útskýrir hvernig á að úthluta **Kostnaðarhlutur stjórnandi** hlutverki yfirmanns.
 
 Þegar hlutverkinu **Stjórnborð kostnaðarhlutar** er úthlutað stjórnanda getur hann framkvæmt eftirfarandi verkefni:
 
@@ -95,7 +95,7 @@ Stillingar fyrir stigveldi aðgangslista eru notaðar til að stjórna gögnunum
 
 > [!IMPORTANT]
 > - Áður en stigveldi aðgangslista getur haft áhrif á gögnin í Power BI, verður að para saman stigveldi og öryggi á línustigi í Power BI. Nánari upplýsingar eru í [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
-> - Þetta efnisatriði sýnir nauðsynlegar forsendur þess að hægt sé að nota vinnusvæðið **Kostnaðarstýring**.
+> - Þessi grein sýnir forsendur sem verða að vera til staðar áður en þú getur notað **Kostnaðareftirlit** vinnurými.
 
 Frekari upplýsingar
 

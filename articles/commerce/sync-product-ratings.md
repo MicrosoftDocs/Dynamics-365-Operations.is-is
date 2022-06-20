@@ -1,6 +1,6 @@
 ---
 title: Samstilla vörueinkunnagjöf í Dynamics 365 Commerce
-description: Þetta efnisatriði lýsir hvernig eigi að samstilla afurðaeinkunnir í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að samstilla vörueinkunnir í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/06/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: ac94a8b4505aba509f0a71ed36d32adac864aedf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909336"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Samstilla vörueinkunnagjöf í Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig eigi að samstilla afurðaeinkunnir í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að samstilla vörueinkunnir í Microsoft Dynamics 365 Commerce.
 
 Til að nota afurðaeinkunnir í alhliða rásum, svo sem á sölustað (POS) og í símaverum, verður að flytja afurðareinkunnir úr einkunna- og umsagnarþjónustunni inn í rásagagnagrunn Commerce. Þegar afurðaeinkunnir eru gerðar aðgengilegar í alhliða rásum geta þær hjálpað viðskiptavinum óbeint við samskipti sín við söluaðila.
 
-Þetta efni lýsir eftirfarandi verkum:
+Þessi grein lýsir eftirfarandi verkefnum:
 
 1. Stilla **Vöruflokkun samstillir starf** sem runuvinnslu til að samstilla vörueinkunnir frá **Mat og umsagnarþjónusta**.
 1. Staðfestu að runuvinnslan fyrir samstillingu afurðaeinkunna hafi gengið.
@@ -135,9 +135,9 @@ Eftirfarandi skýringarmynd sýnir dæmi um afurðaeinkunnir á rásum símavera
 
 [Virkja handvirka birtingu einkunna og umsagna hjá stjórnanda](manual-publish-rating-reviews.md)
 
-[Inn- og útflutnings einkunnir og umsagnir](import-export-reviews.md)
+[Flytja einkunnir og umsagnir inn og út](import-export-reviews.md)
 
-[Stilla þjónustu-til-þjónustu auðkenningu](service-to-service-auth.md)
+[Stilla sannvottun milli þjónusta](service-to-service-auth.md)
 
 [Algengar spurningar um einkunnir og umsagnir](ratings-reviews-faq.md)
 

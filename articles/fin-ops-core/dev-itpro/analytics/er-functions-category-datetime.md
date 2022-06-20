@@ -1,6 +1,6 @@
 ---
 title: Listi yfir ER-aðgerðir í flokknum Dagsetning og tími
-description: Þetta efni veitir upplýsingar um aðgerðir dagsetningar og tíma sem eru studdar í rafrænni skýrslugerð (ER).
+description: Þessi grein veitir upplýsingar um dagsetningar- og tímaaðgerðir sem eru studdar í rafrænum skýrslum (ER).
 author: NickSelin
 ms.date: 09/09/2021
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a0322e5490474e21ad91076ecc486f38a776e32
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: e6e15d143bad016883f03ecf0125ce9429215a71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890778"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880240"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Listi yfir ER-aðgerðir í flokknum Dagsetning og tími
 
 [!include [banner](../includes/banner.md)]
 
-Hægt er að nota dagsetningar- og tímaaðgerðir rafrænnar skýrslugerðar (ER) til að ná upplýsingum úr dagsetningar- og tímagildum og framkvæma aðgerðir á þeim. Þetta efni gefur yfirlit yfir þessar aðgerðir.
+Hægt er að nota dagsetningar- og tímaaðgerðir rafrænnar skýrslugerðar (ER) til að ná upplýsingum úr dagsetningar- og tímagildum og framkvæma aðgerðir á þeim. Þessi grein gefur yfirlit yfir þessar aðgerðir.
 
 ## <a name="list-of-supported-functions"></a>Listi yfir studdar aðgerðir
 
@@ -46,7 +46,7 @@ Hægt er að nota dagsetningar- og tímaaðgerðir rafrænnar skýrslugerðar (E
 | [SessionNow](er-functions-datetime-sessionnow.md) | Þessi aðgerð skilar *DateTime*-gildi sem táknar setudagsetningu og -tíma núverandi hugbúnaðar. |
 | [SessionToday](er-functions-datetime-sessiontoday.md) | Þessi aðgerð skilar *Date*-gildi sem táknar setudagsetningu núverandi hugbúnaðar. |
 | [Í dag](er-functions-datetime-today.md) | Þessi aðgerð skilar *Date*-gildi sem táknar netþjónsdagsetningu núverandi hugbúnaðar. |
-| [VikuNum](er-functions-datetime-weeknum.md) | Þessi aðgerð skilar an *Heiltala* gildi sem táknar viku ársins. |
+| [WeekNum](er-functions-datetime-weeknum.md) | Þessi aðgerð skilar an *Heiltala* gildi sem táknar viku ársins. |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

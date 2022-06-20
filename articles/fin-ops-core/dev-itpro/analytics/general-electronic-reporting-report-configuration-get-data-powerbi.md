@@ -1,6 +1,6 @@
 ---
 title: Skilgreina rafræna skýrslugerð (ER) til að draga gögn inn í Power BI
-description: Þessu efnisatriði útskýrir hvernig nota skal skilgreiningu Rafræna skýrslugerðar (ER) til að sjá um flutning gagna úr tilvikinu til Power BI-þjónustu.
+description: Þessi grein útskýrir hvernig þú getur notað rafræna skýrslugerð (ER) stillingar þínar til að skipuleggja flutning gagna frá tilviki þínu til Power BI þjónusta.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,31 +14,31 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aa9a47c9ee7c76322fd2d9bfcf5fc61a50bf421321891b3c78a782be6a9f8e6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6903513dec4da20dbc4463fbae6a406fc06e1a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896735"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Skilgreina rafræna skýrslugerð (ER) til að draga gögn inn í Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Þessu efnisatriði útskýrir hvernig nota skal skilgreiningu Rafræna skýrslugerðar (ER) til að sjá um flutning gagna úr tilvikinu til Power BI-þjónustu. Sem dæmi, notar þessa efnisatriðis intrastat-færslur sem viðskiptagögn sem verður að flytja. Myndræn útfærsla á korti Power BI notar þessi gögn intrastat-færslu til að birta greiningu á aðgerðum fyrirtækis varðandi inn- og útflutning á Power BI-skýrslu.
+Þessi grein útskýrir hvernig þú getur notað rafræna skýrslugerð (ER) stillingar þínar til að skipuleggja flutning gagna frá tilviki þínu til Power BI þjónusta. Sem dæmi notar þessi grein Intrastat-færslur sem viðskiptagögn sem þarf að flytja. Myndræn útfærsla á korti Power BI notar þessi gögn intrastat-færslu til að birta greiningu á aðgerðum fyrirtækis varðandi inn- og útflutning á Power BI-skýrslu.
 
 ## <a name="overview"></a>Yfirlit
 
-Microsoft Power BI er safn af þjónustu við hugbúnaðar, forritum og tengi sem vinna saman að því að breyta utanaðkomandi gögn í heildstæða, sjónrænar, og gagnvirka innsýn. Rafræna skýrslugerð (ER) gerir notendum kleift að skilgreina gagnagjafa auðveldlega og sjá um flutning gagna úr forritinu yfir í Power BI. Gögn eru flutt sem skrár á sniði OpenXML (Microsoft Excel vinnubókarskrá) vinnublaði. Fluttar skrárnar eru vistaðar í Microsoft SharePoint Server sem hefur verið skilgreindur fyrir þess háttar tilgang. Vistaðar skrár eru notaðar í Power BI til að gera skýrslur sem innihalda sjóræna birtingu (töflur gröf, varpanir og svo framvegis). Power BI skýrslum er deilt með Power BI notendum og þær eru opnaðar í Power BI-yfirlitum og á síðum forritsins. Efnisatriðið útskýrir eftirfarandi Verkhlutar:
+Microsoft Power BI er safn af þjónustu við hugbúnaðar, forritum og tengi sem vinna saman að því að breyta utanaðkomandi gögn í heildstæða, sjónrænar, og gagnvirka innsýn. Rafræna skýrslugerð (ER) gerir notendum kleift að skilgreina gagnagjafa auðveldlega og sjá um flutning gagna úr forritinu yfir í Power BI. Gögn eru flutt sem skrár á sniði OpenXML (Microsoft Excel vinnubókarskrá) vinnublaði. Fluttar skrárnar eru vistaðar í Microsoft SharePoint Server sem hefur verið skilgreindur fyrir þess háttar tilgang. Vistaðar skrár eru notaðar í Power BI til að gera skýrslur sem innihalda sjóræna birtingu (töflur gröf, varpanir og svo framvegis). Power BI skýrslum er deilt með Power BI notendum og þær eru opnaðar í Power BI-yfirlitum og á síðum forritsins. Þessi grein útskýrir eftirfarandi verkefni:
 
-- Stilla Microsoft Dynamics 365 Finance.
+- Stilla Microsoft Dynamics 365 Fjármál.
 - Undirbúðu ER sniðsskilgreiningu þína fyrir móttöku gagna úr Finance-forritinu.
 - Skilgreina umhverfi Rafræn skýrslugerðar til að flytja gögn í Power BI.
 - Nota flutt gögn til að stofna Power BI-skýrsla.
 - Gerðu Power BI-skýrsluna aðgengilega í Finance.
 
 ## <a name="prerequisites"></a>Forkröfur
-Til að ljúka dæminu í þessu efnisatriði þarftu að hafa eftirfarandi aðgang:
+Til að klára dæmið í þessari grein verður þú að hafa eftirfarandi aðgang:
 
 - Aðgengi fyrir eitt af eftirfarandi hlutverkum:
 

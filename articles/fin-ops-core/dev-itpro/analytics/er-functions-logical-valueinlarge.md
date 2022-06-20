@@ -1,6 +1,6 @@
 ---
 title: VALUEINLARGE ER aðgerð
-description: Í þessu efnisatriði er að finna upplýsingar um hvernig VALUEINLARGE rafræn skýrslugerðarvirkni er notuð.
+description: Þessi grein veitir upplýsingar um hvernig virknin VALUEINLARGE rafræn skýrslugerð (ER) er notuð.
 author: NickSelin
 ms.date: 08/17/2020
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 57b2246631b31cce10d086da29e76b729059a64aa6a3c2d8cf864dd70085dbfd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 977c1cd7dac75781677461b288bc8e5e79d13e6f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725261"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888146"
 ---
 # <a name="valueinlarge-er-function"></a>VALUEINLARGE ER aðgerð
 
 [!include [banner](../includes/banner.md)]
 
-`VALUEINLARGE` virknin ákvarðar hvort tilgreindur innsláttur *Int64* eða *Heiltala* passar við hvaða gildi hlutar sem er í tilgreindum lista. Virknin skilar *Boolean* gildið **TRUE** ef tilgreindur innsláttur passar við niðurstöðurnar af því að keyra tilgreinda segð fyrir að minnsta kosti eina færslu. Að öðrum kosti skilar hún *Boolean* gildinu **FALSE**. Til að skilja muninn með aðgerðinni `VALUEIN` skal skoða [Athugasemdir um notkun](#usage_note) síðar í þessu efnisatriði.
+`VALUEINLARGE` virknin ákvarðar hvort tilgreindur innsláttur *Int64* eða *Heiltala* passar við hvaða gildi hlutar sem er í tilgreindum lista. Virknin skilar *Boolean* gildið **TRUE** ef tilgreindur innsláttur passar við niðurstöðurnar af því að keyra tilgreinda segð fyrir að minnsta kosti eina færslu. Að öðrum kosti skilar hún *Boolean* gildinu **FALSE**. Til að skilja muninn á`VALUEIN` virka, sjá [Notkunarskýrsla](#usage_note) kafla síðar í þessari grein.
 
 ## <a name="syntax"></a>Málskipun
 

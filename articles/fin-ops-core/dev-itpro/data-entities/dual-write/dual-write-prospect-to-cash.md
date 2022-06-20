@@ -1,6 +1,6 @@
 ---
 title: Viðfang til sjóðstreymis í tvískiptingu
-description: Þetta efni veitir upplýsingar um viðfang til sjóðstreymis í tvískiptri skrifun.
+description: Þessi grein veitir upplýsingar um horfur til reiðufjár í tvískrift.
 author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781792"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860110"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Viðfang til sjóðstreymis í tvískiptingu
 
@@ -29,7 +29,7 @@ Mikilvægt markmið flestra fyrirtækja er að umbreyta viðföngum í viðskipt
 Frekari upplýsingar um samþættingu viðskiptavinar og tengiliðar er að finna í [Samþætt aðalsniðmát viðskiptavinar](customer-mapping.md). Frekari upplýsingar um samþættingu afurðar er að finna í [Samræmd afurðarupplifun](product-mapping.md).
 
 > [!NOTE]
-> Í Dynamics 365 Sales vísa bæði viðfang og viðskiptavinur í færslu í töflunni **Reikningur** þar sem dálkurinn **RelationshipType** er annaðhvort **Viðfang** eða **Viðskiptavinur**. Ef viðskiptagrunnurinn felur í sér hæfnisferilinn **Reikningur** þar sem færslan **Reikningur** er stofnuð og telst hæf sem viðfang fyrst og síðan sem viðskiptavinur mun sú færsla samstillast við Finance and Operations-forritið þegar hún er viðskiptavinur (`RelationshipType=Customer`). Ef ætlunin er að línan **Reikningur** samstillist sem viðfang þarf að sérstillta vörpun til að samþætta viðfangsgögnin.
+> Í Dynamics 365 Sales vísa bæði viðfang og viðskiptavinur í færslu í töflunni **Reikningur** þar sem dálkurinn **RelationshipType** er annaðhvort **Viðfang** eða **Viðskiptavinur**. Ef viðskiptarökfræði þín felur í sér **Reikningur** hæfisferli þar sem **Reikningur** færsla er búin til og hæfð sem tilvonandi fyrst og síðan sem viðskiptavinur, sú skrá samstillist við Finance and Operations appið aðeins þegar það er viðskiptavinur (`RelationshipType=Customer`). Ef ætlunin er að línan **Reikningur** samstillist sem viðfang þarf að sérstillta vörpun til að samþætta viðfangsgögnin.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Skilyrði og vörpunaruppsetning
 
@@ -96,7 +96,7 @@ Ef þú samstillir úr Supply Chain Management í sölu færðu eftirfarandi ni�
 Nýjum dálkum hefur verið bætt við töfluna **Pöntun** og birtast á síðunni. Flestir þessir da´lkar birtast á flipanum **Samþætting** í Sales. Frekari upplýsingar um hvernig stöðudálkum er varpað er að finna í [Setja upp vörpun fyrir stöðudálka sölupantana](sales-status-map.md).
 
 + Hnapparnir **Stofna reikning** og **Hætta við pöntun** á síðunni **Sölupöntun** eru faldir í Sales.
-+ Gildið **Staða sölupöntunar** verður áfram **Virk** til að tryggja að gjöld úr Supply Chain Management geti flætt í sölupöntun í Sales. Til að stjórna þessu er sjálfgefið **Statecode \[ Status\]** stillt á **Virkt**.
++ Gildið **Staða sölupöntunar** verður áfram **Virk** til að tryggja að gjöld úr Supply Chain Management geti flætt í sölupöntun í Sales. Til að stjórna þessu er sjálfgefið **Statecode \[Status\]** stillt á **Virkt**.
 
 ## <a name="invoices"></a>Reikningar
 
@@ -111,7 +111,7 @@ Sölureikningar eru búnir til í Supply Chain Management og samstilltir við Sa
 
 Viðfang til sjóðstreymis innihalda safn af kjarnatöflukortum sem vinna saman í gagnasamskiptum, eins og sýnt er í eftirfarandi töflu.
 
-| Finance and Operations-smáforrit | Forrit viðskiptavinatengsla | lýsing |
+| Forrit Finance and Operations | Forrit viðskiptavinatengsla | Lýsing |
 |-----------------------------|-----------------------------------|-------------|
 [Allar afurðir](mapping-reference.md#138) | msdyn_globalproducts | |
 [Viðskiptavinir V3](mapping-reference.md#101) | lyklar | |
@@ -122,7 +122,7 @@ Viðfang til sjóðstreymis innihalda safn af kjarnatöflukortum sem vinna saman
 [CDS-sölutilboðshaus](mapping-reference.md#215) | tilboð | |
 [CDS-sölutilboðslínur](mapping-reference.md#214) | quotedetails | |
 [Útgefnar afurðir V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
-[Sölureikningshausar V2](mapping-reference.md#118) | reikningar | Sölureikningshausar V2 í töflu í Finance and Operations-forritinu innihalda reikninga fyrir sölupantanir og reikninga með frjálsum texta. Sía er notuð í Dataverse fyrir tvöfalda skráningu sem mun sía út öll skjöl reikninga með frjálsum texta. |
+[Sölureikningshausar V2](mapping-reference.md#118) | reikningar | Sölureikningshausar V2 taflan í Finance and Operations appinu inniheldur reikninga fyrir sölupantanir og ókeypis textareikninga. Sía er notuð í Dataverse fyrir tvöfalda skráningu sem mun sía út öll skjöl reikninga með frjálsum texta. |
 [Sölureikningslínur V2](mapping-reference.md#117) | invoicedetails | |
 [Upprunakóðar sölupantana](mapping-reference.md#186) | msdyn_salesorderorigins | |
 

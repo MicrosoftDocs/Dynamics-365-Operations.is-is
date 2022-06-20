@@ -1,6 +1,6 @@
 ---
 title: Sýna pöntunartilkynningar á sölustað (POS)
-description: Þetta efnisatriði lýsir því hvernig hægt er að virkja pöntunartilkynningar á sölustað og tilkynningarammann.
+description: Þessi grein lýsir því hvernig á að virkja pöntunartilkynningar á sölustaðnum og tilkynningarammanum.
 author: ShalabhjainMSFT
 ms.date: 03/12/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7166afdb43c7e835170c5768a0767f2943222b19c00c7d0aaf067263845651f8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9e646d6bf48461e78dc75c8a154f2fbf1443393
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853981"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Sýna pöntunartilkynningar á sölustað (POS)
 
@@ -65,10 +65,10 @@ Fyrir bæði tilkynningar um uppfyllingu pöntunar og endurköllun pöntunar, þ
 
 ## <a name="enable-live-content-on-pos-buttons"></a>Virkja beint efni á hnöppum sölustaðar
 
-Hnappar sölustaðar geta nú sýnt fjölda til að auðvelda starfsmönnum að ákvarða hvaða verk krefjast strax athygli. Til að sýna þetta númer á hnappi sölustaðar verður að ljúka tilkynningastillingunni sem lýst er fyrr í þessu efni (þ.e.a.s. þú verður að virkja tilkynningar fyrir aðgerð, setja upp tilkynningamillibil og uppfæra heimildaflokk sölustaðar fyrir starfsmanninn). Að auki verður þú að opna hnappahnit hönnuðar, skoða eiginleika hnappsins og velja gátreitinn **Virkja beint efni**. Í reitnum **Jöfnun efnis** getur þú valið hvort talningin birtist í efra hægra horninu á hnappinn (**Efst til hægri**) eða í miðjunni (**Miðja**).
+Hnappar sölustaðar geta nú sýnt fjölda til að auðvelda starfsmönnum að ákvarða hvaða verk krefjast strax athygli. Til að sýna þetta númer á POS-hnappi verður þú að ljúka tilkynningauppsetningunni sem lýst er fyrr í þessari grein (þ.e. þú verður að virkja tilkynningar um aðgerð, setja upp tilkynningatímabil og uppfæra POS-heimildahópinn fyrir starfsmanninn) . Að auki verður þú að opna hnappahnit hönnuðar, skoða eiginleika hnappsins og velja gátreitinn **Virkja beint efni**. Í reitnum **Jöfnun efnis** getur þú valið hvort talningin birtist í efra hægra horninu á hnappinn (**Efst til hægri**) eða í miðjunni (**Miðja**).
 
 > [!NOTE]
-> Beint efni getur aðeins verið virkjað fyrir aðgerðir ef gátreiturinn **Virkja tilkynningar** hefur verið valinn á síðunni **Aðgerðir sölustaðar** eins og lýst er hér að ofan í þessu efnisatriði.
+> Aðeins er hægt að virkja lifandi efnið fyrir aðgerðir ef **Virkja tilkynningar** gátreiturinn hefur verið valinn fyrir þá á **POS starfsemi** síðu, eins og lýst er fyrr í þessari grein.
 
 Eftirfarandi skýringarmynd sýnir stillingar á beinu efni í hnappahniti hönnuðar.
 

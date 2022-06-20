@@ -1,6 +1,6 @@
 ---
 title: Stigveldi fyrirtækis í Dataverse
-description: Þetta efni lýsir samþættingu stigveldisgagna milli forrita Finance and Operations og Dataverse.
+description: Þessi grein lýsir samþættingu skipulagsgagna milli Finance and Operations forrita og Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9174612743c68595d12dd223f0932ace1857c0fb
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: a4edaf5b9c50e9d8781ff703328ac786d71ee782
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358365"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884733"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Stigveldi fyrirtækis í Dataverse
 
@@ -22,7 +22,7 @@ ms.locfileid: "8358365"
 
 
 
-Vegna þess að Dynamics 365 Finance er fjármálakerfi er *fyrirtæki* kjarnahugtak og kerfisuppsetning byrjar með stillingu fyrirtækisstigveldis. Síðan er hægt að rekja fjárhag fyrirtækja á fyrirtækjastigi og einnig á hvaða stigi sem er í fyrirtækjastigveldinu.
+Vegna þess að Dynamics 365 Finance er fjármálakerfi, *skipulag* er kjarnahugtak og kerfisuppsetning byrjar með uppsetningu á stigveldi fyrirtækis. Síðan er hægt að rekja fjárhag fyrirtækja á fyrirtækjastigi og einnig á hvaða stigi sem er í fyrirtækjastigveldinu.
 
 Þó að Dataverse sé ekki með hugtak fyrirtækjastigveldis er það með nokkur laus hugtök, svo sem heildarsölutekjur. Sem hluti af samþættingu Dataverse er gagnaskipulag stigveldis fyrirtækis er bætt við Dataverse.
 
@@ -32,7 +32,7 @@ Vistkerfi fyrirtækja sem samanstendur af forritum Finance and Operations og Dat
 
 ![Skipulagsmynd.](media/dual-write-data-flow.png)
 
-Skipulagsstigveldistöflukort eru fáanleg fyrir einhliða samstillingu gagna frá Finance and Operations forritum til Dataverse.
+Skipulagsstigveldistöflukort eru fáanleg fyrir einstefnusamstillingu gagna frá Finance and Operations forritum til Dataverse.
 
 ## <a name="templates"></a>Sniðmát
 

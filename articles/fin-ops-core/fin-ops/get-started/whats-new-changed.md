@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 98add33413f38db52b70b9c39c4ebd004ab3dd57
-ms.sourcegitcommit: 1819a11ae22019f1de6991d233c1c51e9950d7a3
+ms.openlocfilehash: 2430e75897a8ddc78a6b1b9288b23458aa44108a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "8457399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908228"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Hvað er nýtt eða breytt á heimasíðu Finance and Operations apps
 
@@ -33,7 +33,7 @@ ms.locfileid: "8457399"
 
 Til að sjá hvað er nýtt eða breytt í hverri útgáfu af Finance and Operations app, skoðaðu eftirfarandi efni:
 
-- **Finance:** [Nýjungar eða breytingar í Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)
+- **Fjármál:**[Hvað er nýtt eða breytt í Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)
 - **Mannauður (sameinaðir innviðir):**[Hvað er nýtt eða breytt í Microsoft Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-26.md)  
 - **Supply Chain Management:** [Nýjunar eða breytingar í Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md) 
 - **Commerce:** [Nýjungar eða breytingar í Dynamics 365 Commerce](../../../commerce/get-started/whats-new-home-page.md)
@@ -41,18 +41,18 @@ Til að sjá hvað er nýtt eða breytt í hverri útgáfu af Finance and Operat
 
 ## <a name="stand-alone-applications"></a>Sjálfstætt forrit
 
-Til að sjá hvað er nýtt eða breytt í sjálfstæðu Dynamics 365 Human Resources, sjá eftirfarandi efni:
+Til að sjá hvað er nýtt eða breytt í sjálfstæðu Dynamics 365 Human Resources, sjá eftirfarandi grein:
 
 - **Human Resources:** [Nýjungar eða breytingar í Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>Verkvangsuppfærslur
 
-Til að sjá hvað er nýtt eða breytt í pallauppfærslum fyrir Finance and Operations forritin, skoðaðu eftirfarandi efnisatriði:
+Til að sjá hvað er nýtt eða breytt í pallauppfærslum fyrir Finance and Operations forritin, skoðaðu eftirfarandi grein:
 
 - [Nýjungar eða breytingar í uppfærslum á verkvangi](../../dev-itpro/get-started/whats-new-home-page.md)
 
 ## <a name="lifecycle-services-releases"></a>Útgáfur á Lifecycle Services
-Til að sjá hvað er nýtt eða breytt í Lifecycle Services, sjá eftirfarandi efni:
+Til að sjá hvað er nýtt eða breytt í Lifecycle Services, skoðaðu eftirfarandi grein:
 
 - [Nýjungar eða breytingar í Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 

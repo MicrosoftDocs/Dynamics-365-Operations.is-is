@@ -1,6 +1,6 @@
 ---
 title: Bæta QR-kóða eða strikamerki við tölvupósta sem tengjast færslum eða kvittunum
-description: Þetta efnisatriði útskýrir hvernig á að setja QR-kóða og strikamerki sem standa fyrir auðkenni pantana inn í tölvupósta sem tengjast færslum og kvittunum í Microsoft Dynamics 365 Commerce.
+description: Þessi grein útskýrir hvernig á að setja QR kóða og strikamerki sem tákna auðkenni pöntunar í viðskipta- og kvittunarpósta í Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 03/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-02-16
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5f7b349700a4b3b43f818b30bb479e630048e8b8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ffa0009c55b5322b209b19692952c2e0704f65c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688966"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872885"
 ---
 # <a name="add-a-qr-code-or-bar-code-to-transactional-and-receipt-emails"></a>Bæta QR-kóða eða strikamerki við tölvupósta sem tengjast færslum eða kvittunum
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja QR-kóða og strikamerki sem standa fyrir auðkenni pantana inn í tölvupósta sem tengjast færslum og kvittunum í Microsoft Dynamics 365 Commerce.
+Þessi grein útskýrir hvernig á að setja QR kóða og strikamerki sem tákna auðkenni pöntunar í viðskipta- og kvittunarpósta í Microsoft Dynamics 365 Commerce.
 
 Auðvelt er að hafa með QR-kóða og strikamerki í tölvupóstum sem tengjast færslum til að flýta fyrir uppflettingu pöntunar í smásöluumhverfi. Til að setja QR-kóða og strikamerki inn í tölvupósta skal nota HTML-merki **\<img\>** sem biður um mynd af QR-kóða og strikamerki frá myndþýðingarþjónustu. Microsoft býður ekki upp á þessa þjónustu. Hins vegar eru til margar ókeypis eða ódýrar þjónustur sem geta afgreitt QR-kóða eða strikamerki sem eru mynduð sjálfkrafa samkvæmt gildi sem gefið er upp í fyrirspurnarstreng.
 

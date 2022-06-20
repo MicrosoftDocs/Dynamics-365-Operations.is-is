@@ -1,6 +1,6 @@
 ---
 title: Kóðar fyrir innlenda flokkun farmflutnings með ökutækjum (NMFC)
-description: Í þessu efnisatriði er lýst hvernig á að vinna með kóða fyrir innlenda flokkun farmflutnings með ökutækjum (NMFC) í Microsoft Dynamics 365 Supply Chain Management
+description: Þessi grein lýsir því hvernig á að vinna með National Motor Freight Classification (NMFC) kóða í Microsoft Dynamics 365 Supply Chain Management
 author: Weijiesa
 ms.date: 04/22/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 5127e132a8c06815e9ecd11338c729cd8bb87f18
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 522e4d4e26b04b5ca1dd317e433c5a20ff3cb12e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670581"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893266"
 ---
 # <a name="national-motor-freight-classification-nmfc-codes"></a>Kóðar fyrir innlenda flokkun farmflutnings með ökutækjum (NMFC)
 
@@ -31,7 +31,7 @@ NMFC-kóði er tengdur við allar vörur sem eru minna en fullhlaðinn trukkur. 
 - Þessi flokkun gæti verið nauðsynleg fyrir fyrirtækið þitt þar sem hún er notuð til að ákvarða kostnað við tiltekinn farm.
 - Fyrirtækið þitt getur greint arðsemi LTL-vörustjórnunar og flutningafyrirtækisins.
 
-Í þessu efnisatriði er lýst hvernig á að vinna með NMFC-kóða í Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein lýsir því hvernig á að vinna með NMFC kóða í Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="prerequisites"></a>Forkröfur
 

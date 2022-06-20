@@ -1,6 +1,6 @@
 ---
 title: Setja upp og tengja vöruhúsaforrit
-description: Þetta efnisatriði útskýrir hvernig á að setja upp vöruhúsaforrit á fartækjum og grunnstilla það til að tengja það við Microsoft Dynamics 365 Supply Chain Management-umhverfið. Hægt er að grunnstilla hvert tæki handvirkt eða flytja inn tengingarstillingar í gegnum skrá eða með því að skanna QR-kóða.
+description: Þessi grein útskýrir hvernig á að setja upp vöruhúsaforritið á hvert fartæki þitt og stilla það til að tengjast Microsoft Dynamics 365 Supply Chain Management umhverfi. Hægt er að grunnstilla hvert tæki handvirkt eða flytja inn tengingarstillingar í gegnum skrá eða með því að skanna QR-kóða.
 author: Mirzaab
 ms.date: 05/25/2020
 ms.topic: article
@@ -16,26 +16,26 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 8ed770e45aa7f9909b98a92b493dd2931c6a3981
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885755"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Setja upp og tengja vöruhúsaforrit
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Þetta efnisatriði lýsir hvernig á að stilla eldra vöruhúsaforrit (sem nú er úrelt): Ef leitað er upplýsinga um hvernig eigi að skilgreina gamla farsímaforritið fyrir Vöruhúsakerfi skal skoða [Setja upp og tengja farsímaforrit vöruhúsakerfis](install-configure-warehouse-management-app.md).
+> Þessi grein lýsir því hvernig á að stilla gamla vöruhúsaforritið (sem er nú úrelt). Ef leitað er upplýsinga um hvernig eigi að skilgreina gamla farsímaforritið fyrir Vöruhúsakerfi skal skoða [Setja upp og tengja farsímaforrit vöruhúsakerfis](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> Þetta efnisatriði lýsir hvernig á að stilla vöruhúsaforrit fyrir uppsetningu í skýi. Ef þú ert að leita að því hvernig eigi að grunnstilla vöruhúsaforrit fyrir virkjun á staðnum skaltu skoða [Vöruhús fyrir virkjun á staðnum](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Þessi grein lýsir því hvernig á að stilla vöruhúsaforritið fyrir skýjauppfærslur. Ef þú ert að leita að því hvernig eigi að grunnstilla vöruhúsaforrit fyrir virkjun á staðnum skaltu skoða [Vöruhús fyrir virkjun á staðnum](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 Vöruhúsaforritið er í boði í Google Play Store og Microsoft Store. Það er gefið út sem sjálfstæður hluti. Þess vegna þarf að sækja það í hvert tæki og stilla það svo á tengingu við Microsoft Dynamics 365 Supply Chain Management -umhverfið.
 
-Þetta efnisatriði útskýrir hvernig á að setja upp vöruhúsaforrit á fartækjum og grunnstilla það til að tengja það við stjórnunarumhverfi Supply Chain Management. Hægt er að grunnstilla hvert tæki handvirkt eða flytja inn tengingarstillingar í gegnum skrá eða með því að skanna QR-kóða.
+Þessi grein útskýrir hvernig á að setja upp vöruhúsaforritið á hvert fartæki þitt og stilla það til að tengjast Supply Chain Management umhverfi þínu. Hægt er að grunnstilla hvert tæki handvirkt eða flytja inn tengingarstillingar í gegnum skrá eða með því að skanna QR-kóða.
 
 ## <a name="system-requirements"></a>Kerfiskröfur
 
@@ -76,11 +76,11 @@ Til að virkja vöruhúsaforritið til að eiga samskipti við tiltekin þjón S
 
     ![Skrá leiðsagnarforrit.](media/app-connect-azure-register-wizard.png "Skrá leiðsagnarforrit")
 
-1. Nýja forritaskráningin er opnuð. Munið gildi **Kenni forrits (biðlari)** því það þarf að nota það síðar. Þetta auðkenni verður nefnt síðar í þessu efnisatriði sem *biðlarakennið*.
+1. Nýja forritaskráningin er opnuð. Munið gildi **Kenni forrits (biðlari)** því það þarf að nota það síðar. Þetta auðkenni verður vísað til síðar í þessari grein sem *auðkenni viðskiptavinar*.
 
     ![Kenni forrits (biðlara).](media/app-connect-azure-app-id.png "Kenni forrits (biðlari)")
 
-1. Á listanum **Stjórna** skal velja **Vottorð og leyniorð**. Næst skal velja einn af eftirfarandi hnöppum, allt eftir því hvernig á að grunnstilla forritið fyrir sannvottun. (Frekari upplýsingar er að finna í hlutanum [Sannvotta með vottorði eða leyniorði biðlara](#authenticate) síðar í þessu efnisatriði.)
+1. Á listanum **Stjórna** skal velja **Vottorð og leyniorð**. Næst skal velja einn af eftirfarandi hnöppum, allt eftir því hvernig á að grunnstilla forritið fyrir sannvottun. (Fyrir frekari upplýsingar, sjá [Staðfestu með því að nota vottorð eða leyndarmál viðskiptavinar](#authenticate) kafla síðar í þessari grein.)
 
     - **Hlaða upp vottorði** – Hlaða upp vottorði til að nota sem leyniorð. Við mælum með þessari nálgun vegna þess að hún er öruggari og getur einnig verið sjálfvirk að fullu. Ef verið er að nota vöruhúsaforritið á Windows-tækjum skal skrá niður gildið **Fingrafar** sem er sýnt eftir að búið er að hlaða upp vottorðinu. Þú þarft þetta gildi þegar þú grunnstillir vottorð í Windows-tækjum.
     - **Nýtt leyniorð biðlara** – Stofnið lykil með því að slá inn lyklalýsingu og lengd í hlutanum **Aðgangsorð** og veljið **Bæta við**. Taktu afrit af lyklinum og geymdu það á öruggum stað.
@@ -90,7 +90,7 @@ Til að virkja vöruhúsaforritið til að eiga samskipti við tiltekin þjón S
 Frekari upplýsingar um hvernig vefþjónustuforrit eru sett upp eru í Azure AD, sjá eftirfarandi tilföng:
 
 - Leiðbeiningar um nota má Windows PowerShell til að setja upp vefþjónustuforrit í Azure AD er að finna í [hvernig á að nota: Azure PowerShell til að stofna þjónustueiningu með vottorði](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
-- Tæmandi upplýsingar um hvernig á að stofna vefþjónustuforrit handvirkt í Azure AD er að finna í eftirfarandi efnisatriðum:
+- Fyrir allar upplýsingar um hvernig eigi að búa til vefþjónustuforrit handvirkt í Azure AD, sjá eftirfarandi greinar:
 
     - [Stuttar leiðbeiningar: Skráið forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app)
     - [Hvernig á að: Nota gáttina til að stofna Azure AD-forrit og þjónustueiningu með aðgang að tilföngum](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -117,7 +117,7 @@ Til að virkja Supply Chain Management til að nota Azure AD-forritið skal fylg
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Sannvotta með því að nota vottorð eða leyniorð biðlara
 
-Sannvottun með Azure AD býður upp á örugga leið til að tengja fartæki við Supply Chain Management. Hægt er að sannvotta með því að nota annaðhvort leyniorð biðlara eða vottorð. Ef fluttar eru inn tengingarstillingar mælum við með að notað sé vottorð í stað leyniorðs biðlara. Þar sem vista þarf leyniorð biðlara á öruggan máta er ekki hægt að flytja það inn úr tengistillingaskrá eða QR-kóða eins og lýst er síðar í þessu efnisatriði.
+Sannvottun með Azure AD býður upp á örugga leið til að tengja fartæki við Supply Chain Management. Hægt er að sannvotta með því að nota annaðhvort leyniorð biðlara eða vottorð. Ef fluttar eru inn tengingarstillingar mælum við með að notað sé vottorð í stað leyniorðs biðlara. Vegna þess að leyndarmál viðskiptavinarins verður alltaf að vera geymt á öruggan hátt er ekki hægt að flytja það inn úr tengistillingaskrá eða QR kóða, eins og lýst er síðar í þessari grein.
 
 Hægt er að nota vottorð sem leyniorð til að sanna auðkenni forrits þegar beðið er um tákn. Almennum hluta vottorðsins er hlaðið upp í forritaskráninguna í Azure-gáttinni en setja verður fullt vottorð upp á öllum tækjum sem eru með vöruhúsaforritið uppsett. Fyrirtækið er ábyrgt fyrir því að hafa umsjón með vottorðinu hvað varðar skipti og þess háttar. Hægt er að nota sjálfskráð vottorð en alltaf ætti að nota óframseljanleg vottorð.
 

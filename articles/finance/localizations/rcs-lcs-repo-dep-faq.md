@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) - Lifecycle Services (LCS) úrelding á geymslu
-description: Í þessu efnisatriði er að finna upplýsingar um úreldingu á Microsoft Dynamics Lifecycle Services (LCS) geymslu sem er hluti af áætlun um uppfærslu á altækri geymslu Regulatory Configuration Service (RCS).
+description: Þessi grein veitir upplýsingar um afskrift Microsoft Dynamics Lifecycle Services (LCS) geymsla sem er fyrirhuguð sem hluti af útfærslu Regulatory Configuration Service (RCS) alþjóðlegrar geymslu.
 author: JaneA07
 ms.date: 10/27/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 4a35941d1521d26f95bacf29213fee42daeb42ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849732"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) úrelding á geymslu
 
@@ -34,7 +34,7 @@ Verið er að úrelda notkun Microsoft Dynamics Lifecycle Services (LCS) sem gag
 
 ## <a name="deprecation-notice"></a>Tilkynning um úreldingu
 
-Frávísun á notkun LCS sem geymslu var tilkynnt í [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Finance - LCS fyrningartilkynning](../get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Fyrirhuguð dagsetning úreldingar er 1. apríl 2022.
+Frávísun á notkun LCS sem geymslu var tilkynnt í [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Finance - LCS úreldingartilkynning](../get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Fyrirhuguð dagsetning úreldingar er 1. apríl 2022.
 
 ## <a name="key-features"></a>Lykileiginleikar
 
@@ -81,11 +81,11 @@ RCS er hönnunarþjónusta til að búa til og breyta skilgreiningum rafrænnar 
 
 ### <a name="without-lcs-what-is-the-suggested-way-to-store-configurations-so-that-test-and-production-configurations-can-easily-be-managed-and-transferred"></a>Án LCS, hvaða leið er mælt með til að geyma skilgreiningar þannig að auðvelt sé að halda utan um og flytja á milli skilgreiningarnar „próf“ og „framleiðsla“?
 
-RCS notar hugmyndina á bak við *tengt forrit*. Tengd umsókn myndar tengingu á milli RCS og hvers kyns Finance and Operations forrita. Vegna þess að hægt er að nota RCS til að breyta stillingum er hægt að nota tengda forritið til að ýta stillingunum beint frá hönnuðinum yfir í Finance and Operations forritaumhverfi. Þar af leiðandi er hægt að breyta og prófa skilgreiningarnar á fljótlegan hátt í staðinn fyrir að fara í gegnum geymslu LCS á verkstigi.
+RCS notar hugmyndina á bak við *tengt forrit*. Tengt forrit myndar tengingu milli RCS og hvers kyns Finance and Operations forrita. Vegna þess að hægt er að nota RCS til að breyta stillingum er hægt að nota tengda forritið til að ýta stillingunum beint frá hönnuðinum yfir í Finance and Operations forritaumhverfi. Þar af leiðandi er hægt að breyta og prófa skilgreiningarnar á fljótlegan hátt í staðinn fyrir að fara í gegnum geymslu LCS á verkstigi.
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Eru einhver dæmi sem sýna uppsetninguna og stjórnunina?
 
-Engin dæmi eru til en hægt er að ljúka skrefunum fyrri í þessu efnisatriði til að flytja skilgreiningarnar í altæka geymslu RCS.
+Það eru engin dæmi, en þú getur lokið skrefunum fyrr í þessari grein til að flytja stillingarnar þínar yfir í RCS Global geymsluna.
 
 ### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>Er RCS skilyrði til að stilla rafræna skýrslugerð?
 

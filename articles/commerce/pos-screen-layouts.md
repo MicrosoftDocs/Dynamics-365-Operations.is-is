@@ -1,6 +1,6 @@
 ---
-title: POS notendaviðmót sjónrænna stillinga
-description: Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás fyrir Dynamics 365 Commerce sölustaður (POS) upplifun.
+title: Sjónrænar skilgreiningar fyrir notandaviðmót sölustaðar
+description: Þessi grein veitir upplýsingar um skjáskipulag fyrir Dynamics 365 Commerce upplifun á sölustöðum (POS).
 author: boycezhu
 ms.date: 09/22/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 17379dc97c7a8b22912482a7aeebd0d8ac08dc496fa7b1661952bca10a21c75b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 22a35d69780a48415076dd70c21c33b1024c217d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871634"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Sjónrænar skilgreiningar fyrir notandaviðmót sölustaðar
 
 [!include [banner](includes/banner.md)]
 
 
-Hægt er að grunnstilla notendaviðmótið Microsoft Dynamics 365 Commerce smásölu með því að nota blöndu af sjónrænum forstillingum og skjáútliti sem eru úthlutað til verslunum, afgreiðslukassa og notendum. Þetta efni veitir upplýsingar um þessa stillingarvalkosti.
+Hægt er að grunnstilla notendaviðmótið Microsoft Dynamics 365 Commerce smásölu með því að nota blöndu af sjónrænum forstillingum og skjáútliti sem eru úthlutað til verslunum, afgreiðslukassa og notendum. Þessi grein veitir upplýsingar um þessa stillingarvalkosti.
 
 Eftirfarandi mynd sýnir tengsl milli hinna ýmsu eininga sem mynda hina stillanlegu útlitsþætti POS notendaviðmótsins (UI).
 

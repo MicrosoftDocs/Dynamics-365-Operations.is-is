@@ -1,6 +1,6 @@
 ---
 title: Úrræðaleit í beinni samstillingarvandamál
-description: Þetta efni veitir bilanaleit sem getur hjálpað þér að laga vandamál með beinni samstillingu.
+description: Þessi grein veitir upplýsingar um úrræðaleit sem geta hjálpað þér að laga vandamál með samstillingu í beinni.
 author: RamaKrishnamoorthy
 ms.date: 08/19/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: df184decdfa900ccb5c2070575e55052b9dfc547
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 9d27331b940a95168810c2f1ec4ae240a9df93a8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062364"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896706"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Úrræðaleit í beinni samstillingarvandamál
 
@@ -22,10 +22,10 @@ ms.locfileid: "8062364"
 
 
 
-Þetta efnisatriði veitir upplýsingar um úrræðaleit fyrir samþættingu tvískrifaðs milli Finance and Operations forrita og Microsoft Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál með beinni samstillingu.
+Þessi grein veitir upplýsingar um bilanaleit fyrir tvískrifa samþættingu milli Finance and Operations forrita og Microsoft Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál með beinni samstillingu.
 
 > [!IMPORTANT]
-> Nokkur þeirra atriða sem þetta efni fjallar um geta krafist annað hvort kerfisstjórans eða Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Í hverjum hluta er útskýrt hvort þörf sé á ákveðnu hlutverki eða tilteknum innskráningarupplýsingum.
+> Sum vandamálin sem þessi grein fjallar um gætu þurft annað hvort kerfisstjórahlutverkið eða Azure Active Directory (Azure AD) leigjanda stjórnanda skilríki. Í hverjum hluta er útskýrt hvort þörf sé á ákveðnu hlutverki eða tilteknum innskráningarupplýsingum.
 
 ## <a name="live-synchronization-shows-an-error-when-you-create-a-row"></a>Samstilling í rauntíma sýnir villu þegar þú býrð til línu
 
@@ -43,7 +43,7 @@ Til að laga vandann fylgirðu skrefunum í [Kerfiskröfur og forsendur](require
 
 *Ekki hægt að vista breytingarnar í gagnagrunninum. Vinnueining getur ekki gert færslu. Ekki er hægt að skrifa gögn í mælieiningar einingar. Skrifun í UnitOfMeasureEntity mistókst með villuboðin Ekki var hægt að samstilla við mælieiningar einingar.*
 
-Til að laga vandamálið skaltu ganga úr skugga um að nauðsynleg tilvísunargögn séu til í bæði Finance and Operations appinu og Dataverse. Ef til dæmis viðskiptavinafærsla tilheyrir ákveðnum viðskiptavinahópi skaltu ganga úr skugga um að færsla viðskiptavinahópsins sé til í Dataverse.
+Til að laga vandamálið skaltu ganga úr skugga um að tilskilin tilvísunargögn séu til í bæði Finance and Operations appinu og Dataverse. Ef til dæmis viðskiptavinafærsla tilheyrir ákveðnum viðskiptavinahópi skaltu ganga úr skugga um að færsla viðskiptavinahópsins sé til í Dataverse.
 
 Fylgdu þessum skrefum ef gögn eru til á báðum stöðum og þú hefur staðfest að vandamálið tengist ekki gögnum.
 
@@ -191,7 +191,7 @@ while(qRun.next())
 
 ## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>Gögn úr Finance and Operations forritum eru ekki samstillt við Dataverse
 
-Við samstillingu í beinni gætirðu lent í vandræðum þar sem aðeins hluti gagna er samstilltur úr Finance and Operations forritum til Dataverse, eða gögn eru alls ekki samstillt.
+Við samstillingu í beinni gætirðu lent í vandamáli þar sem aðeins hluti gagna er samstilltur úr Finance and Operations forritum til Dataverse, eða gögn eru alls ekki samstillt.
 
 > [!NOTE]
 > Þú verður að laga þetta vandamál meðan á þróun stendur.
@@ -206,7 +206,7 @@ Við samstillingu í beinni gætirðu lent í vandræðum þar sem aðeins hluti
 
 ### <a name="troubleshooting-steps"></a>Úrræðaleitarskref
 
-1. Farðu yfir reitavarpanir á stjórnandasíðu tvöfaldra skrifa. Ef reit er ekki kortlagt úr Finance and Operations forritum til Dataverse, það verður ekki rakið. Til dæmis, í eftirfarandi mynd, er **Lýsing** sviði er rakið frá Dataverse, en ekki frá Finance and Operations forritum. Engar breytingar á þeim reit í Finance and Operations forritum verða raktar.
+1. Farðu yfir reitavarpanir á stjórnandasíðu tvöfaldra skrifa. Ef reit er ekki kortlagt úr Finance and Operations forritum til Dataverse, það verður ekki rakið. Til dæmis, í eftirfarandi mynd, er **Lýsing** sviði er rakið frá Dataverse, en ekki frá Finance and Operations forritum. Engar breytingar á því sviði í Finance and Operations forritum verða raktar.
 
     ![Raktir reitir.](media/live-sync-troubleshooting-1.png)
 

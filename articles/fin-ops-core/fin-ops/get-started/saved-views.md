@@ -1,6 +1,6 @@
 ---
 title: Vistuð yfirlit
-description: Þetta efnisatriði lýsir því hvernig á að nota eiginleika fyrir vistuð yfirlit.
+description: Þessi grein lýsir því hvernig á að nota vistaðar skoðanir.
 author: jasongre
 ms.date: 04/25/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644788"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845414"
 ---
 # <a name="saved-views"></a>Vistuð yfirlit
 
@@ -27,7 +27,7 @@ ms.locfileid: "8644788"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-## <a name="introduction"></a>Inngangur
+## <a name="introduction"></a>Kynning
 
 Sérstilling gegnir mikilvægu hlutverki í því að gera notendum og fyrirtækjum kleift að hámarka notendaupplifun til að mæta þörfum þeirra. Frekari upplýsingar um sérstillingu er að finna í [Sérsníða notandaupplifun](personalize-user-experience.md).
 
@@ -196,7 +196,7 @@ Fyrir listann yfir öll birt yfirlit fyrir þessa síðu eru eftirfarandi sett a
 
 ## <a name="managing-views-globally"></a>Stjórna yfirlitum á altækan hátt
 
-Þrátt fyrir að einhverjir stjórnunarmöguleikar komi fram á öllum síðum eins og minnst er á í þessu efnisatriði, geta **kerfisstjórar** og **vistað yfirlit kerfisstjóra** haft betri yfirsýn yfir stjórnun yfirlita fyrir kerfið í gegnum síðuna **Sérstillingar**. Einkum hefur þessi síða eftirfarandi hluta og möguleika: 
+Þó að einhver stjórnunargeta sé að finna á hverri síðu, eins og fram kemur í þessari grein, **kerfisstjórar** og **vistaðir skjástjórar** getur stjórnað skoðunum á heildrænan hátt fyrir kerfið í gegnum **Persónustilling** síðu. Einkum hefur þessi síða eftirfarandi hluta og möguleika: 
 
 - **Birt yfirlit** - Þessi hluti sýnir öll yfirlit sem hafa verið birt fyrir fyrirtækið. Héðan er hægt að endurbirta yfirlit þegar öryggishlutverkum eða lögaðilum hefur verið breytt sem yfirlitið hefur augastað á. Einnig er hægt að flytja út, eyða eða taka yfirlit úr birtingu. Hægt er að nota aðgerðina **Vista sem eigið** til að búa til eigið afrit af yfirlitinu til að geta uppfært yfirlitið eða öðlast betri skilning á efni þess. 
 - **Óbirt yfirlit** – Þessi hluti sýnir öll yfirlit fyrirtækis í kerfinu sem ekki eru þegar birt. Þessi yfirlit koma oftast inn í kerfið í gegnum innflutningsmöguleikann. Þú getur birt, flutt út eða eytt þessum skoðunum. Aðgerðin **Flýtibirting** sem var bætt við í útgáfu 10.0.12 býður upp á að birta mörg yfirlit úr þessum hluta í einni aðgerð með því að nota fyrirliggjandi skilgreiningar öryggishlutverks og lögaðila. Notið aðgerðina **Vista sem eigið** til að búa til eigið afrit af þessum yfirlitum til að öðlast betri skilning á efni þeirra.

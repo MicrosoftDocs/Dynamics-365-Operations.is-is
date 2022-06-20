@@ -1,6 +1,6 @@
 ---
 title: Frestunaráætlanir í tekju- og kostnaðarfrestun
-description: Þetta efnisatriði lýsir frestun áætlunum í tekju- og kostnaðarfrestun.
+description: Þessi grein lýsir frestunaráætlunum í tekju- og kostnaðarfrestun.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9135ac733496a0c5d79669c35972c273c209f81d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 093005f9b66d7ce741689b55612f006fa5123910
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685978"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903364"
 ---
 # <a name="deferral-schedules"></a>Frestunaráætlanir
 
 Frestunaráætlanir eru búnar til eftir að færsla hefur verið bókuð.
 
-Þú getur notað **Allar frestunaráætlanir** eða **Virkar frestunaráætlanir** síðu til að fara yfir upplýsingar um frestunaráætlun. Upplýsingarnar sem birtast eru háðar tegund frestunaráætlunar (bein lína eða atburðamiðuð) og færslugerð. Það inniheldur frestunaráætlunarlínur og heildarupphæðir fyrir frestunaráætlunina. Þú getur notað síðuna til að breyta frestunaráætluninni.
+Þú getur notað **Allar frestunaráætlanir** eða **Virkar frestunaráætlanir** síðu til að fara yfir upplýsingar um frestunaráætlun. Upplýsingarnar sem eru sýndar fer eftir tegund frestunaráætlunar (bein lína eða atburðamiðuð) og færslugerð. Það inniheldur frestunaráætlunarlínur og heildarupphæðir fyrir frestunaráætlunina. Þú getur notað síðuna til að breyta frestunaráætluninni.
 
 ## <a name="recognize-revenue"></a>Skrá tekjur
 
@@ -55,7 +55,7 @@ Fylgdu þessum skrefum til að breyta frestunaráætlun.
 
 ### <a name="straight-line-deferral-schedules"></a>Bein lína frestunaráætlanir
 
-Ef frestunaráætlunin hefur engar viðurkenndar eða ytra bókaðar línur er hægt að breyta allri frestunaráætluninni, þar með talið upphafsdagsetningu.
+Ef frestunaráætlunin hefur engar viðurkenndar eða ytra bókaðar línur, er hægt að breyta allri frestunaráætluninni, þar með talið upphafsdagsetningu.
 
 Ef frestunaráætlunin hefur einhverjar viðurkenndar línur eða bókaðar ytra, og þú breytir frestunaráætluninni, fer framkoma frestunaráætlunarinnar eftir endurútreikningsdegi og lokadagsetningu frestunar viðurkenndra lína. Sjálfgefið er að fyrsta tímabilið sem var ekki viðurkennt ákvarðar lokadagsetningu frestunarinnar.
 
@@ -158,7 +158,7 @@ Til að nota inneignarnótu skaltu fylgja þessum skrefum.
 7. Velja skal **Já**.
 
 > [!NOTE]
-> Til að setja kreditnótu á nokkra einstaka hluti af mismunandi reikningum verður að endurtaka þessi skref.
+> Til að nota kreditnótu á nokkra einstaka hluti af mismunandi reikningum verður að endurtaka þessi skref.
 
 Fylgdu þessum skrefum til að ógilda inneignarnótu.
 
@@ -191,12 +191,12 @@ The **Allar frestunaráætlanir** síða inniheldur eftirfarandi reiti.
 | Númer greiðsluáætlunar | Númer samsvarandi innheimtuáætlunar. |
 | Staða reikningsfærslulínu | Staða samsvarandi greiðsluáætlunarlínu. |
 | Ytri tilvísanir | Upplýsingar um ytri tilvísanir úr innheimtuáætlun: **Ytri** og **Línunúmer**. |
-| Samtala | <p>Heildarupphæðir fyrir frestunaráætlun:</p><ul><li>**Langtíma** – Samtala langtíma frestaðra fjárhæða. Þetta gildi er aðeins tiltækt þegar **Skammtíma frestun aðferð** reiturinn er stilltur á **Enginn** á **Færslur tekna og gjalda frestun** síðu, eða skammtímaupphæðin er meira en 0 (núll).</li><li>**Skammtíma** – Samtala skammtíma frestaðra fjárhæða. Þetta gildi er aðeins tiltækt þegar **Skammtíma frestun aðferð** reiturinn er stilltur á **Enginn** á **Færslur tekna og gjalda frestun** síðu, eða skammtímaupphæðin er meira en 0 (núll).</li><li>**Óþekkt** – Summa ófærðra upphæða fyrir allar línur.</li><li>**Stubbaður** – Samtala utanbókaðra upphæða fyrir allar línur.</li><li>**Viðurkennd** – Summa viðurkenndra fjárhæða fyrir allar línur.</li><li>**Að utan og viðurkennd** – Samtala utanaðkomandi bókaða og færðra upphæða fyrir allar línur.</li><li>**Heildarupphæð** – Summa upphæða fyrir allar línur.</li></ul> |
+| Samtala | <p>Heildarupphæðir fyrir frestunaráætlun:</p><ul><li>**Langtíma** – Samtala langtíma frestaðra fjárhæða. Þetta gildi er aðeins tiltækt þegar **Skammtíma frestun aðferð** reiturinn er stilltur á **Enginn** á **Færslur tekna og gjalda frestun** síðu, eða skammtímaupphæðin er meira en 0 (núll).</li><li>**Skammtíma** – Samtala skammtíma frestaðra fjárhæða. Þetta gildi er aðeins tiltækt þegar **Skammtíma frestun aðferð** reiturinn er stilltur á **Enginn** á **Færslur tekna og gjalda frestun** síðu, eða skammtímaupphæðin er meira en 0 (núll).</li><li>**Óþekkt** – Summa ófærðra upphæða fyrir allar línur.</li><li>**Stubbaður** – Samtala utanbókaðra upphæða fyrir allar línur.</li><li>**Viðurkennd** – Summa viðurkenndra fjárhæða fyrir allar línur.</li><li>**Sett að utan og viðurkennd** – Samtala utanaðkomandi bókaða og færðra upphæða fyrir allar línur.</li><li>**Heildarupphæð** – Summa upphæða fyrir allar línur.</li></ul> |
 | **Áætlunarlínur** | |
 | Lína | Línuraðarnúmerið. |
 | Upphafsdagsetning frestunar | Upphafsdagur frestunaráætlunar. |
 | Lokadagsetning frestunar | Lokadagur frestunaráætlunar. |
-| Upphæð | Frestunarfjárhæðin. |
+| Upphæð | Frestunarupphæðin. |
 | Birt að utan | Gildi sem gefur til kynna hvort línan hafi verið bókuð að utan. |
 | Skráð | Gildi sem gefur til kynna hvort línan hafi verið þekkt. |
 | Rununúmer færslubókar | Lotunúmerið sem magnið var skráð í. |
@@ -205,7 +205,7 @@ The **Allar frestunaráætlanir** síða inniheldur eftirfarandi reiti.
 | Reikningur | <p>Reikningsnúmerið.</p><p>Gildið gefur til kynna reikninginn fyrir leiðréttingu kreditnótu sem þegar hefur verið beitt á frestunaráætlun.</p> |
 | Upphæð sem notuð er | Fjárhæð lánaleiðréttingar sem þegar hefur verið notuð á frestunaráætlun. |
 | Dagsetning skráningar | Dagsetningin þegar lánaleiðréttingunni var beitt. |
-| **Leiðrétting** | Leiðréttingargildin birtast aðeins ef unnið var úr kreditreikningi fyrir frestunaráætlunina. Ef engin inneignarnóta var unnin eru þessi gildi falin. |
+| **Leiðrétting** | Leiðréttingargildin birtast aðeins ef unnið var með kreditreikning fyrir frestunaráætlunina. Ef engin inneignarnóta var unnin eru þessi gildi falin. |
 | Leiðréttingarupphæð | Heildarleiðréttingarfjárhæð, reiknuð sem *Upprunaleg upphæð* –*Áætlunarupphæð*. |
 | Upprunaleg lokadagsetning | Upprunaleg lokadagsetning frestunaráætlunar. |
 | Upphafleg áætlunarupphæð | Heildarupphæð upphaflegrar frestunaráætlunar. |

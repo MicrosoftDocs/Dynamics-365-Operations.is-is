@@ -1,6 +1,6 @@
 ---
 title: Verkflæði tilboða fyrir stjórnun eftirágreidds afsláttar
-description: Í þessu efnisatriði er útskýrt hvernig á að setja upp verkflæði tilboðs fyrir stjórnun eftirágreidds afsláttar til að samþykkja og virkja tilboð.
+description: Þessi grein útskýrir hvernig á að setja upp verkflæði afsláttastjórnunarsamninga til að samþykkja og virkja tilboð.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0fe5bc5af953ee7cbbda3477d75a38261bb2bb10
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2b1611ff7877efc4a2f98b8f84a1ef91971902ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869518"
 ---
 # <a name="rebate-management-deal-workflows"></a>Verkflæði tilboða fyrir stjórnun eftirágreidds afsláttar
 
@@ -35,7 +35,7 @@ Notendur geta ekki samþykkt tilboð handvirkt. Alltaf skal nota verkflæðið.
 
 ## <a name="create-and-manage-rebate-management-deal-workflows"></a>Stofna og hafa umsjón með verkflæði tilboða fyrir stjórnun eftirágreidds afsláttar
 
-Til að vinna með verkflæði tilboða fyrir stjórnun eftirágreidds afsláttar skal fara í **Stjórnun eftirágreidds afsláttar \> Uppsetning \> Verkflæði tilboða fyrir stjórnun eftirágreidds afsláttar**. Þar er hægt að skoða, búa til og uppfæra verkflæði eins og þörf krefur. Aðeins eitt verkflæði af þessari gerð getur verið virkt í einu. Frekari upplýsingar um verkflæði, hvernig á að nota síðuna **Verkflæði fyrir stjórnun eftirágreidds afsláttar** og hvernig á að stofna verkflæði er að finna í [Yfirlit yfir verkflæðiskerfi](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md) og tengdum efnisatriðum.
+Til að vinna með verkflæði tilboða fyrir stjórnun eftirágreidds afsláttar skal fara í **Stjórnun eftirágreidds afsláttar \> Uppsetning \> Verkflæði tilboða fyrir stjórnun eftirágreidds afsláttar**. Þar er hægt að skoða, búa til og uppfæra verkflæði eins og þörf krefur. Aðeins eitt verkflæði af þessari gerð getur verið virkt í einu. Fyrir frekari upplýsingar um verkflæði, hvernig á að vinna með **Verkflæði endurgreiðslustjórnunar** síðu og hvernig á að búa til verkflæði, sjá [Yfirlit yfir verkflæðiskerfi](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md) og það eru tengdar greinar.
 
 ## <a name="use-a-workflow-to-activate-a-deal"></a>Nota verkflæði til að virkja tilboð
 

@@ -1,6 +1,6 @@
 ---
 title: Pantanir viðskiptavina á sölustað
-description: Þetta efnisatriði gefur upplýsingar um pantanir viðskiptavinar á sölustað. Pantanir viðskiptavinar eru einnig þekktar sem sérpantanir. Efnisatriðið inniheldur umræðu um tengdar færibreytur og færsluflæði.
+description: Þessi grein veitir upplýsingar um pantanir viðskiptavina á sölustað (POS). Pantanir viðskiptavinar eru einnig þekktar sem sérpantanir. Í greininni er fjallað um tengdar breytur og færsluflæði.
 author: josaw1
 ms.date: 08/02/2021
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9ebdad47d761f775cf26666dc3e2736818fb4832
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6051e0a18823b354dd9940aac70a086a0f317002
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850383"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Pantanir viðskiptavina á sölustað
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna upplýsingar um hvernig á að stofna og stjórna pöntunum viðskiptavina á sölustað. Hægt er að nota pantanir viðskiptavina til að sækja sölur þar sem kaupendur vilja sækja afurðir á öðrum degi, sækja afurðir á annarri staðsetningu eða fá vörur sendar til sín. 
+Þessi grein veitir upplýsingar um hvernig á að búa til og hafa umsjón með pöntunum viðskiptavina í sölustað (POS) appinu. Hægt er að nota pantanir viðskiptavina til að sækja sölur þar sem kaupendur vilja sækja afurðir á öðrum degi, sækja afurðir á annarri staðsetningu eða fá vörur sendar til sín. 
 
 Í alhliða samskiptum netverslunar veita margir smásalar valkost pantana viðskiptavina eða sérpantana til að mæta ýmsum þörfum afurða og uppfyllingar. Hér eru nokkrar dæmigerðar aðstæður.
 

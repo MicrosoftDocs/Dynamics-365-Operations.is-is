@@ -1,6 +1,6 @@
 ---
 title: Bakfæra stöðu framleiðslupöntunar
-description: Þetta efnisatriði lýsir því skal bakfæra stöðu framleiðslupöntunar.
+description: Þessi grein lýsir því hvernig á að snúa við framleiðslupöntunarstöðu.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0dd17bc48bfb6c78e1baca4faf78d6bc5b3ce426c5f0530174eccd95536a5859
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1d50cbcb4031d5c9f2c814883afd1fb38777d2ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760419"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903957"
 ---
 # <a name="reverse-the-production-order-status"></a>Bakfæra stöðu framleiðslupöntunar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því skal bakfæra stöðu framleiðslupöntunar. 
+Þessi grein lýsir því hvernig á að snúa við framleiðslupöntunarstöðu. 
 
 Ef stöðu framleiðslupöntunar er bakfærð er pöntunin sjálf og allar aðgerðir tengdar leiðunum bakfærðar aftur á fyrra skref í framleiðslulíftímanum. Til dæmis hefur framleiðslupöntunin stöðuna **Áætlað**, og hægt er að breyta stöðu aftur í **Stofnað**. Í þessu tilfelli þarf kerfið fyrst að breyta stöðunni í **Metið**, sem er staða kemur strax á undan væntanlegri **Áætlað**. Það getur þá breytt stöðunni í þá stöðu sem óskað er eftir **Stofnað**. **Athugasemd** Ef pöntunin hefur náð stöðunni **tilkynna sem lokið** er enn hægt að bakfæra hana aftur á fyrra stig. Hins vegar þarf aftur að keyra matið og aðgerðaröðun, vinnsluröðun eða báðar gerðir röðunar til að uppfæra upplýsingarnar um pöntunina. Þetta skref er nauðsynlegt, Ástæðan er sú að hvers kyns frátekningar á eftirstöðvum vörunotkunar og tilfanganotkun aðgerðar þarf að endurstilla. Afgangurinn af þessari grein útskýrir hvað gerist þegar þú bakfærir stöðu framleiðslupöntunaar á eftirfarandi hátt:
 

@@ -1,6 +1,6 @@
 ---
-title: Flyttu inn ASN-númer á heimleið í gegnum V3 gagnaeininguna
-description: Þetta efnisatriði útskýrir hvernig á að stjórna innflutningi á háþróaða sendingartilkynningum á heimleið (ASN) í gegnum ASN gagnaeininguna á heimleið.
+title: Flytja inn ASN á innleið í gegnum V3-gagnaeininguna
+description: Þessi grein útskýrir hvernig á að stjórna innflutningi á háþróaða sendingartilkynningum á heimleið (ASN) í gegnum ASN gagnaeininguna á heimleið.
 author: GalynaFedorova
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 44ec0230236451a413d483b3e9f3ddc58b49a0b0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907117"
 ---
-# <a name="import-inbound-asns-through-the-v3-data-entity"></a>Flyttu inn ASN-númer á heimleið í gegnum V3 gagnaeininguna
+# <a name="import-inbound-asns-through-the-v3-data-entity"></a>Flytja inn ASN á innleið í gegnum V3-gagnaeininguna
 
 [!include [banner](../../includes/banner.md)]
 
@@ -26,7 +26,7 @@ ms.locfileid: "8740056"
 
 ASNs getur hjálpað starfsmönnum vöruhúss að komast að því hvað er á leiðinni og hvenær. Því geta þeir undirbúið sig. Auk þess geta vöruhúsastarfsmenn notað ASN til að bera saman upplýsingar um sendingu við tengda innkaupapöntun sem áður var stofnuð.
 
-Þetta efnisatriði kemur með ýmsar atburðarási sem sýna, með dæmum, hvernig á að vinna með ASN-skrár.
+Þessi grein sýnir safn atburðarása sem sýna, með dæmum, hvernig á að vinna með ASN skrár.
 
 > [!IMPORTANT]
 > Innflutningur *ASN á innleið* á aðeins við um vörur sem eru virkjaðar fyrir ítarlegt vöruhúsakerfi. Áður en þú móttekur ASN verður innkaupapöntun að vera skráð í kerfið gagnvart lánardrottninum sem sendir ASN.

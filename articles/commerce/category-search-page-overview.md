@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir sjálfgefna lendingarsíðu og leitarniðurstöðusíðu
-description: Þetta efni veitir yfirlit yfir sjálfgefna áfangasíðu flokks og leitarniðurstöðusíðu í Dynamics 365 Commerce.
+description: Þessi grein veitir yfirlit yfir sjálfgefna áfangasíðu og leitarniðurstöðusíðu í Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 06/30/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982435"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881853"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Yfirlit yfir sjálfgefna lendingarsíðu og leitarniðurstöðusíðu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni veitir yfirlit yfir sjálfgefna áfangasíðu flokks og leitarniðurstöðusíðu í Microsoft Dynamics 365 Commerce rafræn viðskipti.
+Þessi grein veitir yfirlit yfir sjálfgefna áfangasíðu og leitarniðurstöðusíðu í Microsoft Dynamics 365 Commerce rafræn viðskipti.
 
 ## <a name="default-category-landing-page"></a>Sjálfgefin lendingarsíða flokks
 
@@ -32,7 +32,7 @@ Sjálfgefin lendingasíða flokks er sú síðu sem notendur vefsíðna eru venj
 
 ![Sjálfgefin lendingarsíða flokks.](./media/SimpleCategoryLandingDressCategory.png)
 
-Efst á síðunni er haus sem sýnir alla vöruflokka og aðrar síður sem vörustjórinn hefur flokkað. Stillingar eru gerðar sem hluti af stillingum yfirlitsstigveldis rásar. Neðst á síðunni er fótur sem inniheldur fljótlega tengla á ýmis efni sem kaupandi gæti haft áhuga á.
+Efst á síðunni er haus sem sýnir alla vöruflokka og aðrar síður sem vörustjórinn hefur flokkað. Stillingar eru gerðar sem hluti af stillingum yfirlitsstigveldis rásar. Neðst á síðunni er fótur sem inniheldur skynditengingar á ýmsar greinar sem kaupandi gæti haft áhuga á.
 
 Eftirfarandi þættir eru nauðsynlegir fyrir flokk:
 

@@ -1,6 +1,6 @@
 ---
 title: Yfirlit verkstjórnunar
-description: Þetta efnisatriði inniheldur yfirlit yfir verkefnastjórnun fyrir stjórnendur og starfskrafta í Microsoft Dynamics 365 Commerce.
+description: Þessi grein veitir yfirlit yfir verkefnastjórnun fyrir stjórnendur og starfsmenn í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7cdcc0ba6a9f5a3d9dd4ea781adc9e81c45e3d02
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1a814b76985b9bb7ee47ee287967acbf41ddd0e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900335"
 ---
 # <a name="task-management-overview"></a>Yfirlit verkstjórnunar
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði inniheldur yfirlit yfir verkefnastjórnun fyrir stjórnendur og starfskrafta í Microsoft Dynamics 365 Commerce.
+Þessi grein veitir yfirlit yfir verkefnastjórnun fyrir stjórnendur og starfsmenn í Microsoft Dynamics 365 Commerce.
 
 Í smásöluumhverfi er alltaf erfitt að ganga úr skugga um að verkefnum sé sinnt af réttum aðila á réttum tíma. Smásalar verða að geta tilkynnt starfsmönnum um væntanleg verkefni og veita tengt viðskiptasamhengi svo hægt sé að klára verkefnin rétt og á réttum tíma.
 

@@ -1,6 +1,6 @@
 ---
 title: Stofna eign
-description: Þetta efni lýsir því hvernig á að stofna eign í eignastýringu.
+description: Þessi grein lýsir því hvernig á að búa til eign í eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e9c2b81e97a7b08dfdb596fbf6822ac94c7358dccd0b92c0677467dbc0c2e26
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 90b41b57dfa6db8b5874bbc2d4bcac7b4c634f20
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721512"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860929"
 ---
 # <a name="create-an-asset"></a>Stofna eign
 
@@ -28,7 +28,7 @@ ms.locfileid: "6721512"
 
  
 
-Þetta efni lýsir því hvernig á að stofna eign í eignastýringu.
+Þessi grein lýsir því hvernig á að búa til eign í eignastýringu.
 
 1. Smelltu á **Eignastýring** > **Sameiginlegt** > **Eignir** > **Allar eignir** eða **Virkar eignir**.
 2. Smellið á hnappinn **Nýtt**.

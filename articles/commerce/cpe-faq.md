@@ -1,6 +1,6 @@
 ---
-title: algengar spurningar um Dynamics 365 Commerce matsumhverfi
-description: Þetta efnisatriði veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce matsumhverfi.
+title: Dynamics 365 Commerce algengar spurningar um matsumhverfi
+description: Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce matsumhverfi.
 author: v-chgri
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e8a3e760353b351d42aff82c0d372d2aca350cd2
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
-ms.translationtype: MT
+ms.openlocfilehash: 94717c1b9ff4ec05ee9734e1471a137cef55edfe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861941"
 ---
 # <a name="dynamics-365-commerce-evaluation-environment-faq"></a>Dynamics 365 Commerce algengar spurningar um matsumhverfi
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce matsumhverfi.
+Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce matsumhverfi.
 
 ## <a name="can-we-use-the-commerce-evaluation-environment-as-an-e-commerce-storefront-for-customers-that-currently-implement-retail"></a>Er hægt að nota Commerce-matsumhverfi sem netverslun rafrænna viðskipta fyrir viðskiptavini sem innleiða smásölu eins og er?
 
@@ -37,7 +37,7 @@ Nei (aðallega). Íhlutir Commerce-mats eru aðeins í boði fyrir umhverfi sem 
 
 ## <a name="what-costs-are-involved-in-deploying-the-commerce-evaluation-environment-on-microsoft-azure-via-microsoft-dynamics-lifecycle-services-lcs"></a>Hvaða kostnaður fylgir því að setja upp Commerce-matsumhverfi á Microsoft Azure í gegnum Microsoft Dynamics Lifecycle Services?
 
-Hefðbundið Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce sýniútgáfuumhverfi höfuðstöðva (sýndarvél \[SV\]) verður hýst í Azure-áskriftinni þinni. Þú getur notað [Reiknivél fyrir verðlagningu í Azure](https://azure.microsoft.com/pricing/calculator/) að áætla þennan kostnað.
+Hefðbundið Dynamics 365 Finance/Dynamics 365 Supply Chain Management /Dynamics 365 Commerce kynningarumhverfi höfuðstöðva (sýndarvél\[ VM\]) verður hýst í Azure áskriftinni þinni. Þú getur notað [Reiknivél fyrir verðlagningu í Azure](https://azure.microsoft.com/pricing/calculator/) að áætla þennan kostnað.
 
 Aðrir þættir, svo sem Commerce Scale Unit, Commerce-vefsmiður og rafræna viðskiptasvæðið þitt verða í boði sem SaaS-þjónusta og hýst af Microsoft.
 

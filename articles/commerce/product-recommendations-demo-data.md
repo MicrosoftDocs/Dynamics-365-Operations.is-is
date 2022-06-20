@@ -1,6 +1,6 @@
 ---
 title: Búðu til tillögur með kynningargögnum
-description: Þetta efni veitir leiðbeiningar um hvernig skuldsetja megi ráðleggingar um omni-rás vöru í Tier-1 umhverfi með einum reit með því að nota fyrirfram byggðar, sérhannaðar kynningargögn.
+description: Þessi grein veitir leiðbeiningar um hvernig á að nýta allar rásir vöruráðleggingar í Tier-1 stakkassaumhverfi með því að nota fyrirfram útfyllt, sérhannaðar kynningargögn.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1a9592ee5cae88c6277115ed495b15ec09945e56cad0634fd246b6ee7e5dd048
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a0e6666cc163f97567cf5c6f820d436ef6ef4cca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874896"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Búðu til tillögur með kynningargögnum
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni veitir leiðbeiningar um hvernig skuldsetja megi ráðleggingar um omni-rás vöru í Tier-1 umhverfi með einum reit með því að nota fyrirfram byggðar, sérhannaðar kynningargögn.
+Þessi grein veitir leiðbeiningar um hvernig á að nýta allar rásir vöruráðleggingar í Tier-1 stakkassaumhverfi með því að nota fyrirfram útfyllt, sérhannaðar kynningargögn.
 
 Ráðleggingar með Omni-rásum bjóða upp á safn ritstjóralista eða forritaðs myndaðs lista yfir vörur. Hægt er að nota þessa lista í nokkrum tilfellum, allt eftir viðskiptaþörf. Nánari upplýsingar um afurðatillögur er að finna í [yfirliti yfir afurðatillögur í POS-skjölum](product-recommendations.md).
 

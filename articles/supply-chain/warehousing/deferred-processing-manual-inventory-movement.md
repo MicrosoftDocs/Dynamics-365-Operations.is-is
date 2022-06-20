@@ -1,6 +1,6 @@
 ---
 title: Frestun á úrvinnslu handvirkrar birgðahreyfingar
-description: Í þessu efnisatriði er lýst hvernig eigi að nota frestaða úrvinnslu handvirkrar birgðahreyfingar í Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir því hvernig á að nota frestað vinnslu handvirkrar birgðahreyfingar í Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/27/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c2e7296d77332b665e5d618d39804216f4347ca2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670469"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863738"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Frestun á úrvinnslu handvirkrar birgðahreyfingar
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er lýst hvernig eigi að nota frestaða úrvinnslu handvirkrar birgðahreyfingar í Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein lýsir því hvernig á að nota frestað vinnslu handvirkrar birgðahreyfingar í Microsoft Dynamics 365 Supply Chain Management.
 
 Frestuð úrvinnsla gerir starfsmönnum vöruhúss kleift að sinna annarri vinnu á meðan unnið er úr frágangsaðgerð í bakgrunni. Frestuð úrvinnsla er gagnleg þegar netþjónninn getur verið með tilfallandi eða ófyrirséða aukningu í vinnslutíma og slík aukning á vinnslutíma getur haft áhrif á afköst notanda. Vinnugerðin *Birgðahreyfing* hefur nú verið bætt við safn vinnugerða sem þessi eiginleiki styður.
 

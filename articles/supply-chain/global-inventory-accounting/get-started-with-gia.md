@@ -1,6 +1,6 @@
 ---
 title: Hafist handa með altækt birgðabókhald
-description: Í þessu efnisatriði er lýst hvernig á að hefjast handa með altækt birgðabókhald.
+description: Þessi grein lýsir því hvernig á að byrja með alþjóðlegt birgðabókhald.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 17d4816fc5fcad0b0665640a8347b1f4ea032dd7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891090"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Hafist handa með altækt birgðabókhald
 
@@ -38,12 +38,18 @@ Altækt birgðabókhald er innbót. Til að gera aðgerðir þess aðgengilegar 
 
 Eins og er styður altækt birgðabókhald ekki alla eiginleika kostnaðarstjórnunar sem eru innbyggðir í Supply Chain Management. Þess vegna er mikilvægt að þú metir hvort grunneiginleikarnir sem nú eru tiltækir uppfylli kröfur þínar.
 
-## <a name="how-to-get-the-global-inventory-accounting-public-preview"></a><a name="sign-up"></a>Hvernig á að fá opna forútgáfu altæks birgðabókhalds
+## <a name="how-to-get-the-global-inventory-accounting-add-in"></a><a name="sign-up"></a> Hvernig á að fá Global Inventory Accounting viðbótina
 
 > [!IMPORTANT]
 > Til að nota altækt birgðabókhald verður þú að vera með stöðugt LCS-virkjað umhverfi (ekki OneBox-umhverfi). Auk þess þarf að keyra Supply Chain Management útgáfu 10.0.19 eða nýrri.
 
-Til að skrá sig fyrir opinni forútgáfu altæks birgðabókhalds skal senda LCS-umhverfiskennið í tölvupósti á [Teymi altæks birgðabókhalds](mailto:GlobalInvAccount@microsoft.com). Þegar þú hefur fengið samþykki fyrir forritinu mun teymið senda þér eftirfylgnipóst sem inniheldur beta-lykil altæks birgðabókhalds og endastöðvar þjónustunnar. Þegar þú hefur fengið beta-lykilinn geturðu [sett upp innbótina](#install).
+### <a name="supply-chain-management-version-10019-to-10026"></a>Supply Chain Management útgáfa 10.0.19 til 10.0.26
+
+Til að setja upp Global Inventory Accounting for Supply Chain Management útgáfu 10.0.19 til 10.0.26, byrjaðu kl.[að setja upp viðbótina](#install). Sendu síðan LCS umhverfið þitt og nafn fyrirtækis með tölvupósti til [Alþjóðlegt birgðabókhaldsteymi](mailto:GlobalInvAccount@microsoft.com). Teymið mun senda þér eftirfylgnitölvupóst sem inniheldur endapunkta þína fyrir alþjóðlega birgðabókhaldsþjónustuna.
+
+### <a name="supply-chain-management-version-10027-and-later"></a>Supply Chain Management útgáfa 10.0.27 og síðar
+
+Til að setja upp Global Inventory Accounting for Supply Chain Management útgáfu 10.0.27 og nýrri, bara [setja upp viðbótina](#install). Fyrir þessar útgáfur af Supply Chain Management verða endapunktar birgðabókhaldsþjónustunnar sjálfkrafa settir upp, svo þú þarft ekki að finna þá handvirkt. Ef þú lendir í einhverjum vandræðum við að setja upp viðbótina, vinsamlegast hafðu samband við [Alþjóðlegt birgðabókhaldsteymi](mailto:GlobalInvAccount@microsoft.com).
 
 ## <a name="licensing"></a>Leyfisveiting
 
@@ -84,7 +90,7 @@ Næst skal stofna notendur forrits fyrir altækt birgðabókhald í Dataverse me
 1. Farið í **Ítarleg stilling \> Kerfi \> Öryggi \> Notendur** og stofnið notanda forrits. Notið reitinn **Yfirlit** til að breyta síðuyfirlitinu í *Notendur forrits*.
 1. Veljið **Nýtt**.
 1. Stilltu reitinn **Forritskenni** á *7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9*.
-1. Veljið **Úthluta hlutverki** og veljið því næst *Kerfisstjóri*. Ef til er hlutverk sem heitir *Common Data Service Notandi* skal líka velja það.
+1. Veljið **Úthluta hlutverki** og veljið því næst *Kerfisstjóri*. Ef það er hlutverk sem er nefnt *Common Data Service Notandi*, veldu það líka.
 1. Endurtakið skrefin á undan, en stillið reitinn **Forritskenni** á *5f58fc56-0202-49a8-ac9e-0946b049718b*.
 
 Frekari upplýsingar eru í [Stofna notanda forrits](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
@@ -98,12 +104,7 @@ Ef sjálfgefið tungumál Dataverse-uppsetningar er ekki enska skal fylgja þess
 
 Fylgið þessum skrefum til að setja upp innbótina þannig að hægt sé að nota altækt birgðabókhald.
 
-1. [Skráðu þig](#sign-up) fyrir opinni forútgáfu altæks birgðabókhalds.
 1. Skráðu þig inn í [LCS](https://lcs.dynamics.com/Logon/Index).
-1. Farið í **Stjórnun forskoðunareiginleika**.
-1. Veldu plústáknið (**+**).
-1. Í reitinn **Kóði** skal slá inn beta-lykil innbótar fyrir altækt birgðabókhald. (Þú ættir að hafa fengið beta-lykilinn í tölvupósti þegar þú nýskráðir þig.)
-1. Veldu síðan **Opna fyrir**.
 1. Opnaðu LCS-umhverfi þar sem þú vilt bæta við þjónustunni.
 1. Farðu í **Fullar upplýsingar**.
 1. Farið í **Power Platform samþætting** og veljið **Uppsetning**.
@@ -124,6 +125,8 @@ Fylgið þessum skrefum til að setja upp samþættingu milli altæks birgðabó
 1. Á **Allt** flipa, leitaðu að eiginleikanum sem heitir *(Forskoðun) Alþjóðlegt birgðabókhald*.
 1. Veldu **Virkja núna**.
 1. Farið í **Altækt birgðabókhald \> Uppsetning \> Færibreytur altæks birgðabókhalds \> Færibreytur samþættingar**.
-1. Í reitina **Endastöð gagnaþjónustu** og **Endastöð altæks birgðabókhalds** skal færa inn vefslóðir úr tölvupóstinum sem teymi altæks birgðabókhalds sendi þér þegar þú nýskráðir þig fyrir forútgáfunni.
+1. Það fer eftir því hvaða útgáfu af Supply Chain Management þú ert að keyra, gerðu eitt af eftirfarandi skrefum:
+    - **Supply Chain Management útgáfa 10.0.19 til 10.0.26** : Í **Endapunktur gagnaþjónustu** og **Endapunktur fyrir alþjóðlegt birgðabókhald** reiti, sláðu inn vefslóðirnar sem voru sendar til þín með tölvupósti frá alþjóðlegu birgðabókhaldsteyminu (sjá einnig [Hvernig á að fá Global Inventory Accounting viðbótina](#sign-up)).
+    - **Supply Chain Management útgáfa 10.0.27 og nýrri** : Þú þarft ekki að slá inn endapunktana, svo þú getur sleppt þessu skrefi.
 
 Altækt birgðabókhald er nú tilbúið til notkunar.

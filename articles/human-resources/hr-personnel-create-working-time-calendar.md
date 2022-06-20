@@ -1,6 +1,6 @@
 ---
 title: Stofna dagatöl og mynda vinnutíma
-description: Dagatöl lýsa afkastagetu og vinnutíma í rekstrartilföngum. Þetta efni útskýrir hvernig eigi að skilgreina dagatal vinnu miðað við sniðmát vinnutíma.
+description: Dagatöl lýsa afkastagetu og vinnutíma í rekstrartilföngum. Þessi grein útskýrir hvernig eigi að skilgreina dagatal vinnu miðað við sniðmát vinnutíma.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: business-process
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b49b5393448bc501abd1b96123b64c034d7cc67
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 811f49307a8ae44bbee9906cb40a3ca31101f52b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846330"
 ---
 # <a name="create-calendars-and-generate-working-times"></a>Stofna dagatöl og mynda vinnutíma
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> Virknin sem bent er á í þessu efnisatriði er eins og er í boði fyrir mannauðsviðskiptavini á fjármálainnviðum.  
+> Virknin sem tilgreind er í þessari grein er eins og er í boði fyrir mannauðsviðskiptavini á fjármálainnviðum.  
 
 
-Dagatöl lýsa afkastagetu og vinnutíma í rekstrartilföngum. Þetta efni útskýrir hvernig eigi að skilgreina dagatal vinnu miðað við sniðmát vinnutíma. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.
+Dagatöl lýsa afkastagetu og vinnutíma í rekstrartilföngum. Þessi grein útskýrir hvernig eigi að skilgreina dagatal vinnu miðað við sniðmát vinnutíma. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.
 
 1. Á heimasíðunni velurðu **Líftímastjórnun tilfanga**.
 2. Veldu **Dagatöl**.

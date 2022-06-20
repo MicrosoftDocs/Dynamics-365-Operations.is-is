@@ -1,6 +1,6 @@
 ---
 title: Fjöldalokun fjárhagstímabils
-description: Þetta efni fer í gegnum hvernig setja skal tímabil á bið eða loka varanlega tímabili eða meira en einn lögaðila í einu.
+description: Þessi grein sýnir hvernig á að setja tímabil í bið eða loka tímabil varanlega eða fleiri en einn lögaðila í einu.
 author: aprilolson
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0acaad0d6e89fe7c81537e554b36ffb210e5abad
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 18e2418777e4f8a5f10b946d7cdc217e5e264318
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872442"
 ---
 # <a name="mass-financial-period-close"></a>Fjöldalokun fjárhagstímabils
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni fer í gegnum hvernig setja skal tímabil á bið eða loka varanlega tímabili eða meira en einn lögaðila í einu. Þar að auki sýnir verkið hvernig á að takmarka bókun notandaflokks í ákveðnar kerfiseiningar.
+Þessi grein sýnir hvernig á að setja tímabil í bið eða loka tímabil varanlega eða fleiri en einn lögaðila í einu. Þar að auki sýnir verkið hvernig á að takmarka bókun notandaflokks í ákveðnar kerfiseiningar.
 
 1. Í yfirlitsrúðunni, farðu í **Fjárhagsbók > Lokun tímabils > Fjárhagsdagatöl**. Athugið að lista yfir lögaðila sem birt er háð fjárhagsdagatalinu sem var valin á síðunni. Aðeins lögaðila sem nota valið fjárhagsdagatal birtast.
 2. Veljið **Breyta**.

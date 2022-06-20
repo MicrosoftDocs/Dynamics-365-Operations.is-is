@@ -1,6 +1,6 @@
 ---
 title: 175 prósenta lækkandi afskrift
-description: Þetta efni sýnir yfirlit yfir 175 prósent minnkandi jafnvægisaðferð við afskriftir.
+description: Þessi grein sýnir yfirlit yfir 175 prósent minnkandi jafnvægisaðferð við afskriftir.
 author: moaamer
 ms.date: 10/30/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b9424741fa50034a97e9971dcd2d7416968c964
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 68c10a1fe221731f7304fc0da92ed314b66dc13f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870192"
 ---
 # <a name="175-percent-reducing-balance-depreciation"></a>175 prósenta lækkandi afskrift
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni sýnir yfirlit yfir 175 prósent minnkandi jafnvægisaðferð við afskriftir.
+Þessi grein sýnir yfirlit yfir 175 prósent minnkandi jafnvægisaðferð við afskriftir.
 
 Þegar afskriftaregla fyrir eignir er sett upp og gildið **175% bókfært virði** í reitnum **Aðferð** reitnum á **Afskriftarreglur** síðunni eru eignir sem er úthlutað á þessa afskriftareglu afskrifaðar með sömu prósentu á hverju afskriftatímabili. 
 
@@ -41,7 +41,7 @@ Valið skilgreinir valmöguleikana sem í boði eru á svæðinu **tímabilstí�
 
 Hægt er að velja að halda sjálfgefnum gildum í reitnum **Afskriftarár**, **Dagatal**. 
 
-**Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæmunum hér að neðan er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. 
+**Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæmunum síðar í þessari grein er afskriftagrunnurinn teljarinn í fyrstu tjáningu í útreikningsdálknum. 
 
 Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
 

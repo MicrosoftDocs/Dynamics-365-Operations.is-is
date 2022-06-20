@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir SEPA-kreditfærslur
-description: Þetta efni veitir almennar upplýsingar um ISO 20022 millifærslur, sem fela í sér millifærslur á Single Euro Payments Area (SEPA) og allar aðrar rafrænar greiðslur fyrir söluaðila.
+description: Þessi grein inniheldur almennar upplýsingar um ISO 20022 kreditflutninga, sem innihalda sameiginlegt evrópskt greiðslusvæði (SEPA) kreditfærslur og allar aðrar rafrænar greiðslur til lánardrottna.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c45aa4f22f5044e7c10329dafa76226970b3d
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f3f0c428d9167e9f1a7fb17a292d474448b2d4df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734517"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871450"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Yfirlit yfir SEPA-kreditfærslur
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni veitir almennar upplýsingar um ISO 20022 millifærslur, sem fela í sér millifærslur á Single Euro Payments Area (SEPA) og allar aðrar rafrænar greiðslur fyrir söluaðila. SEPA-kreditfærsla er tiltekin gerð greiðslu (í evrum) frá einu fyrirtæki eða einstaklingi til annars fyrirtækis eða einstaklings. Efnisatriðið lýsir því einnig hvernig á að setja upp og senda greiðsluskrá kreditfærslna.
+Þessi grein inniheldur almennar upplýsingar um ISO 20022 kreditflutninga, sem innihalda sameiginlegt evrópskt greiðslusvæði (SEPA) kreditfærslur og allar aðrar rafrænar greiðslur til lánardrottna. SEPA-kreditfærsla er tiltekin gerð greiðslu (í evrum) frá einu fyrirtæki eða einstaklingi til annars fyrirtækis eða einstaklings. Greinin útskýrir einnig hvernig á að setja upp og senda greiðsluskrá fyrir millifærslu.
 
 ## <a name="what-is-a-credit-transfer-message"></a>Hvað eru kreditfærsluskilaboð?
 Kreditfærsluskilaboð er beiðni sendir aðila sem hóf greiðsluna (þínu fyrirtæki) um að flytja fjármagn af eigin reikningi til lánardrottins. Það eru margar lands/svæðis-bundnar og bankaháðar útfærslur kreditflutningsskilaboða. Sumar þeirra eru notaðar innan eins lands/svæðis, og sumar eru að verða að stöðlum. Einn þekktur altækur staðall er ISO 20022 og upphafsskilaboð hans, eins og kreditfærslur. Eftirfarandi skýringarmynd sýnir tengsl og umfang valinna kreditfærsluskilaboða. 
@@ -53,7 +53,7 @@ SEPA-kreditfærsla er greiðsla frá einu fyrirtæki eða einstaklingi í öðru
 Greiðslusnið millifærsla fyrir Evrópulönd er innleitt með því að nota rafræna skýrslugerð (ER) og greiðslumáta í Microsoft Dynamics 365 Fjármál. Nokkur kreditfærslusnið sem eru notuð eru á öðrum svæðum nota enn eldri greiðsluramma. Meðal margra annara sniða, eru tólf ISO 20022 kreditflutnings skrársnið tiltæk. Þessi útflutningssnið samræmast staðlinum SEPA ISO 20022 XML. Þau eru notuð til að mynda greiðsluflutninga sem eru ekki í evrum fyrir lönd/svæði þar sem þau eru notuð og evrugreiðslur eins og tilgreint er í útgáfu 8.2 í SEPA Credit Transfer Scheme Rulebook sem EPC gefur út. Áður en ekki er hægt að innleiða kreditfærslur verður að hafa samband við bankann til að fá hugbúnaðinn sem er krafist til að senda inn rafrænar bankaskrár. Þú munt nota þennan hugbúnað til að flytja xml-skrár sem innihalda greiðslupantanir til bankans.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported"></a>Hvað millifærslusnið eru studd eins og stendur?
-Alltaf skal fara eignasafnið Samnýtt eign í Microsoft Dynamics Lifecycle Services (LCS) og skoða nýjustu lista yfir tiltækar skrár af eignargerðinni **GER-skilgreining**. Næsti hluti „Hvað þarf að setja upp?“ vietir tengla í efnisatriði þar sem útskýrt er hvernig búa á til LCS-geymslu til að fara yfir tiltækar stillingar og flytja inn valdar stillingar.
+Alltaf skal fara eignasafnið Samnýtt eign í Microsoft Dynamics Lifecycle Services (LCS) og skoða nýjustu lista yfir tiltækar skrár af eignargerðinni **GER-skilgreining**. Næsti hluti, "Hvað þarf ég að setja upp?", veitir tengil á greinina sem útskýrir hvernig á að búa til LCS geymslu til að skoða tiltækar stillingar og flytja inn valdar stillingar.
 
 ## <a name="what-do-i-have-to-set-up"></a>Hvað þarf að setja upp?
 -   Áður en hægt er að kreditfærsluskrár verður að minnsta kosti ein virk skilgreining kreditfærslu að vera flutt inn í skilgreiningar þínar í rafrænni skýrslugerð. Hægt er að skoða leiðbeiningar í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)

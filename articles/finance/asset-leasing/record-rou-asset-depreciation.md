@@ -1,6 +1,6 @@
 ---
 title: Skrá afskriftir afnotaréttar af eign (forskoðun)
-description: Þetta efnisatriði útskýrir hvernig á að stofna bókarfærsluna fyrir þær afskriftir sem eru nauðsynlegar fyrir leigusamninga sem eru viðurkenndir á efnahagsreikningi fyrirtækis.
+description: Þessi grein útskýrir hvernig á að stofna dagbókarfærsluna fyrir afskriftina sem þarf fyrir leigusamninga sem eru færðir á efnahagsreikning fyrirtækis.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ebac6c8d008babec93061071414579eec3a73223
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 93e521cf409af4c01d625f27bdd7a7564e471bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727707"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903277"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Skrá afskriftir afnotaréttar af eign (forskoðun)
 
@@ -28,13 +28,13 @@ ms.locfileid: "8727707"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Fyrir leigur sem eru viðurkenndar á efnahagsreikningi fyrirtækis er afnotaréttur af eign afskrifuð mánaðarlega. Þetta efnisatriði útskýrir hvernig á að stofna bókarfærsluna fyrir afskriftir. Afskrift debetfærir fjárhagslykil kostnaðar og kreditfærir uppsafnaða afskrift fjárhagslykils, byggt á uppsetningu bókunarreglu og gerðar leigusamnings. Hægt er að stofna þessar færslur fyrir hvern leigusamning, en einnig er hægt að stofna þær fyrir marga leigusamninga með því að nota runubókarvirkni.
+Fyrir leigur sem eru viðurkenndar á efnahagsreikningi fyrirtækis er afnotaréttur af eign afskrifuð mánaðarlega. Þessi grein útskýrir hvernig á að stofna dagbókarfærsluna fyrir afskriftina. Afskrift debetfærir fjárhagslykil kostnaðar og kreditfærir uppsafnaða afskrift fjárhagslykils, byggt á uppsetningu bókunarreglu og gerðar leigusamnings. Hægt er að stofna þessar færslur fyrir hvern leigusamning, en einnig er hægt að stofna þær fyrir marga leigusamninga með því að nota runubókarvirkni.
 
 ## <a name="asset-depreciation-schedule"></a>Afskriftaráætlun eignar
 
 1. Á síðunni **Samantekt leigu** skal velja leigusamning. Veljið síðan **Bækur \> Afskriftaráætlun eignar** til að opna síðuna **Afskriftaráætlun eignar**.
 
-    Bókarfærsla afskriftarkostnaðar afnotaréttar af eign er byggð á upphæðinni í dálknum **Afskriftarkostnaður**. Dæmi um leiðbeiningar um reglufylgni við bókunarstaðla er að finna í [útreikningur á afskriftarkostnaði afnotaréttar á eign fyrir fjármögnunarleigusamninga](#calculation-of-rou-asset-amortization-expense-for-finance-leases) hluta síðar í þessu efnisatriði.
+    Bókarfærsla afskriftarkostnaðar afnotaréttar af eign er byggð á upphæðinni í dálknum **Afskriftarkostnaður**. Fyrir dæmi um leiðbeiningar um samræmi við reikningsskilastaðla, sjá [Útreikningur á afskriftakostnaði ROU eigna vegna fjármögnunarleigusamninga](#calculation-of-rou-asset-amortization-expense-for-finance-leases) kafla síðar í þessari grein.
     
 2. Veljið afskriftartímabil og síðan **Stofna færslubók**. Þú færð skilaboð sem segir til um að færslubókin sem verður notuð til að skrá afskriftir hafi verið stofnuð.
 3. Veljið **Færslubækur \> Eignarleigufærslubækur** til að opna **Eignaleigufærslubók** , þar sem hægt er að skoða færslubókarfærsluna fyrir afskriftakostnað sem var stofnaður.

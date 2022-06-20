@@ -1,6 +1,6 @@
 ---
 title: Ábendingar fyrir sýnileika birgða
-description: Þetta efni gefur nokkrar ábendingar sem þú ættir að hafa í huga þegar þú setur upp og notar birgðasýnileikaviðbótina.
+description: Þessi grein veitir nokkur ráð sem þú ættir að hafa í huga þegar þú setur upp og notar birgðasýnileikaviðbótina.
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1f6ade36ac184a3c8bf790fc0d899ea01d90c8d2
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 9f571d353f99c91776424bc2fa3405f73b2bae0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952416"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885958"
 ---
 # <a name="inventory-visibility-tips"></a>Ábendingar fyrir sýnileika birgða
 
@@ -31,8 +31,9 @@ Hér eru nokkur ráð sem þú ættir að hafa í huga þegar þú setur upp og 
 - Magn API getur skilað að hámarki 512 færslum fyrir hverja beiðni.
 - The`fno` gagnauppspretta er frátekin fyrir Supply Chain Management. Ef birgðasýnileikaviðbótin þín er samþætt við Supply Chain Management umhverfi mælum við með að þú eyðir ekki stillingum sem tengjast`fno` í [gagnagjafa](inventory-visibility-configuration.md#data-source-configuration).
 - Birgðasýnileiki getur ekki breytt neinum gögnum fyrir`fno` gagnagjafa. Gagnaflæðið er einstefnu, sem þýðir að allt magn breytist fyrir`fno` gagnagjafi verður að koma frá Supply Chain Management umhverfi þínu. Þess vegna geturðu ekki notað API til að senda breytinga- eða pöntunarbeiðnir fyrir hendi fyrir`fno` gagnagjafa.
-- Ef þú bætir einni eða fleiri nýjum ráðstöfunum við aðfangakeðjustjórnun umhverfið þitt, ættirðu einnig að bæta þeim við í Birgðasýnileika. Hins vegar verða allar magnbreytingar fyrir nýjar ráðstafanir að koma frá Supply Chain Management umhverfi þínu.
+- Ef þú bætir einni eða fleiri nýjum ráðstöfunum við aðfangakeðjustjórnun umhverfið þitt, ættirðu einnig að bæta þeim við í Birgðasýnileika. Hins vegar verða allar magnbreytingar fyrir nýjar ráðstafanir að koma frá Supply Chain Management umhverfinu þínu.
 - The [stillingar skiptingarinnar](inventory-visibility-configuration.md#partition-configuration) samanstendur nú af tveimur grunnvíddum (`SiteId` og`LocationId`) sem gefa til kynna hvernig gögnunum er dreift. Aðgerðir undir sama skipting geta skilað meiri afköstum með lægri kostnaði. Lausnin inniheldur þessa skiptingastillingu sjálfgefið. Þess vegna, *þú þarft ekki að skilgreina það sjálfur*. Ekki sérsníða sjálfgefna skiptinguna. Ef þú eyðir því eða breytir því er líklegt að þú valdi óvæntri villu.
 - Grunnvíddir sem eru skilgreindar í skiptingarstillingunni ættu ekki að vera skilgreindar í [uppsetningu vöruvísitölu stigveldis](inventory-visibility-configuration.md#index-configuration).
+- Þinn [uppsetningu vöruvísitölu stigveldis](inventory-visibility-configuration.md#index-configuration) verður að innihalda að minnsta kosti eitt vísitölustigveldi (til dæmis sem inniheldur grunnvíddina`Empty`), annars mistakast fyrirspurnir með villunni "Ekkert vísitölustigveldi hefur verið stillt."
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

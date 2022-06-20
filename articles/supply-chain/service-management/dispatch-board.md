@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cb13124bb086b3240a41278aac067775663c6ac
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 43d74135f8a18cddcb86f719d4c5ecd6a532cc82
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678179"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878759"
 ---
 #  <a name="dispatch-board"></a>Sendingartafla 
 
@@ -38,7 +38,7 @@ ms.locfileid: "8678179"
 
   - Fara yfir lista yfir þjónustuverkþætti sem hafa ekki verið sendir.
 
-Upplýsingar um hvernig á að framkvæma tiltekið verkefni á sendingarspjaldinu er að finna í efnisatriði  **Sjá einnig** hluta.
+Fyrir upplýsingar um hvernig á að framkvæma tiltekin verkefni í sendingartöflu, sjá greinar í **Sjá einnig** kafla.
 
 ## <a name="see-also"></a>Sjá einnig
 

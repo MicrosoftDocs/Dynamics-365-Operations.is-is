@@ -1,6 +1,6 @@
 ---
-title: Reikningseiningar lánardrottins
-description: Þetta efnisatriði veitir upplýsingar um reikningseiningar lánardrottins, sem gera kleift að stilla kostnaðartegundakóða fyrir innri kostnað eða ytra afleiddan kostnað.
+title: Reikningaeiningar lánardrottins
+description: Þessi grein veitir upplýsingar um reikningseiningar lánardrottins, sem gera kleift að stilla kostnaðartegundakóða fyrir innri kostnað eða ytra afleiddan kostnað.
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 4bbe0fdbf95050ebfa707224f602e5e71ddb3a8f
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: 171b383e1549babd76fd18e4932436a66aa62cc1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813176"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873928"
 ---
-# <a name="vendor-invoice-entities"></a>Reikningseiningar lánardrottins
+# <a name="vendor-invoice-entities"></a>Reikningaeiningar lánardrottins
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
@@ -107,9 +107,9 @@ Gagnaeining kostnaðarúthlutunar millifærslupöntunarlínu lánardrottins geri
 
 ### <a name="reference-table"></a>Tilvísanatafla
 
-Ferðakostnaðarlínur hafa bein tengsl við kostnaðarfærsluskrá. Þessi skrá inniheldur **Auðkenni tilvísunartöflu** gildi. Þetta gildi er einstakt fyrir hvert kostnaðarsvæði (sigling, flutningsgámur og svo framvegis). Þegar vísað er til tiltekinna töflunúmera fyrir gögn sem eru búin til með því að nota gagnaeiningar, er einingunum skipt á grundvelli **Auðkenni tilvísunartöflu** gildi.
+Ferðakostnaðarlínur hafa bein tengsl við kostnaðarfærsluskrá. Þessi skrá inniheldur **Auðkenni tilvísunartöflu** gildi. Þetta gildi er einstakt fyrir hvert kostnaðarsvæði (sigling, flutningsgámur og svo framvegis). Þegar vísað er til tiltekinna töflunúmera fyrir gögn sem eru búin til með því að nota gagnaeiningar, er einingunum skipt út frá **Auðkenni tilvísunartöflu** gildi.
 
-Gildin fyrir viðmiðunartöfluna (`RefTableId`) og viðskiptategund (`TransType`) eru óbein í vali á annaðhvort landaða kostnaðarkaupalínu eða landaða kostnaðarlínueiningu.
+Gildin fyrir viðmiðunartöfluna (`RefTableId`) og tegund viðskipta (`TransType`) eru óbein í vali á annaðhvort landaða kostnaðarkaupalínu eða landaða kostnaðartilfærslulínu.
 
 ## <a name="vendor-invoice-journal-lines-vendorinvoicejournallineentity"></a>Reikningsbókarlínur lánardrottins (VendorInvoiceJournalLineEntity)
 
@@ -129,7 +129,7 @@ Eftirfarandi tafla sýnir reitina sem **Landaður kostnaður** eining bætist vi
 Aðal-/jöfnunarreikningur fyrir reikningsbókarlínu sem er tengd við landaða kostnaðarferð ræðst af kóða kostnaðartegundar. Þegar kostnaðartegundarkóði er innifalinn í reikningsbókarlínunni verður jöfnunarreikningur kóðans notaður sem annað hvort aðalreikningur eða mótreikningur, allt eftir atburðarásinni:
 
 - **Einlínu dagbók** – Ef aðalreikningur (með öðrum orðum lánardrottinsreikningur) er skilgreindur, og kostnaðartegundarkóði er gefinn upp, verður verðmæti reikningsreiknings fyrir þann kostnaðartegundarkóða fært inn á mótreikninginn.
-- **Marglínu dagbók** – Ef aðalreikningur er ekki skilgreindur, en kostnaðartegundarkóði er gefinn upp, verður verðmæti greiðslureiknings fyrir þann kostnaðartegundarkóða fært inn á aðalreikninginn. Færslubókarlínan sem lánar lánardrottinn mun ekki vísa til kostnaðartegundarkóða.
+- **Marglína dagbók** – Ef aðalreikningur er ekki skilgreindur, en kostnaðartegundarkóði er gefinn upp, verður verðmæti greiðslureiknings fyrir þann kostnaðartegundarkóða fært inn á aðalreikninginn. Færslubókarlínan sem lánar lánardrottinn mun ekki vísa til kostnaðartegundarkóða.
 
 ## <a name="sequencing"></a>Röðun
 

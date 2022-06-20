@@ -1,6 +1,6 @@
 ---
 title: Tengill innskráningar framsendir aftur á svæði rafrænna viðskipta
-description: Þetta efnisatriði býður upp á leiðsögn úrræðaleitar sem getur reynst hjálpleg þegar innskráningartengill framsendir aftur á svæði rafrænna viðskipta í stað þess að fara á innskráningarsíðuna.
+description: Þessi grein veitir leiðbeiningar um bilanaleit sem geta hjálpað þegar innskráningartengill vísar aftur á netverslunarsíðuna í stað þess að fara á innskráningarsíðuna.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 94afc339bd156d26c5057c1e401d707aa7d517a041493659a40c7b69ad4d377a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5274599ee5ea23c18648d95431b2e79ebca12dea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860219"
 ---
 # <a name="sign-in-link-redirects-back-to-an-e-commerce-site"></a>Tengill innskráningar framsendir aftur á svæði rafrænna viðskipta
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði býður upp á leiðsögn úrræðaleitar sem getur reynst hjálpleg þegar innskráningartengill framsendir aftur á svæði rafrænna viðskipta í stað þess að fara á innskráningarsíðuna.
+Þessi grein veitir leiðbeiningar um bilanaleit sem geta hjálpað þegar innskráningartengill vísar aftur á netverslunarsíðuna í stað þess að fara á innskráningarsíðuna.
 
 ## <a name="description"></a>lýsing
 

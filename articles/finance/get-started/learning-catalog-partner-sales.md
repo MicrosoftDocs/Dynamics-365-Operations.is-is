@@ -1,6 +1,6 @@
 ---
-title: Námslisti fyrir sölu-og markaðssetningarhlutverk Microsoft Partner fyrir Dynamics 365 Finance
-description: Finndu allar kennsluleiðir fyrir fólk í sölu- og markaðssetningarhlutverkum Microsoft Partner sem vinna með Dynamics 365 Finance.
+title: Námsskrá fyrir Microsoft Partner sölu- og markaðshlutverk fyrir Dynamics 365 Finance
+description: Finndu alla þjálfunarmöguleika fyrir fólk í Microsoft Partner sölu- og markaðshlutverkum sem vinna með Dynamics 365 Finance.
 author: margoc
 ms.topic: article
 ms.date: 07/27/2020
@@ -12,14 +12,14 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 219380f2fe44caa56869da05317cbeb4377cc8be7336d01cd65dc5c7eda05442
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4e49b63bf7c88b40010967a7f8c1de571e6d7485
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768748"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845259"
 ---
-# <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>Námslisti fyrir sölu-og markaðssetningarhlutverk Microsoft Partner fyrir Dynamics 365 Finance
+# <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>Námsskrá fyrir Microsoft Partner sölu- og markaðshlutverk fyrir Dynamics 365 Finance
 
 Berðu ábyrgð á því að hjálpa viðskiptavinum þínum að kaupa réttu lausnina?
 
@@ -31,8 +31,8 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 |-------------|-----------------|-------------|------------|
 | [Lærðu viðskiptaverðmæti Microsoft Dynamics 365 og Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Hefur þú áhuga á að læra um viðskiptaforrit? Þú veist ef til vill ekki hvar þú átt að byrja á Microsoft Dynamics 365 og Power Platform forritum? Kynntu þér hvernig þú nýtir forrit fyrir fyrirtæki til að breyta viðskiptum þínum. | Ókeypis, sjálfstýr skref á námsleið | 7 klst. |
 | [Dynamics 365 og Power Platform grundvallaratriði](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Hefur þú áhuga á að læra um viðskiptaforrit? Byrjaðu á þessari námsleið til að sjá hvernig Dynamics 365 forrit eru notuð. Lærðu um skýjahugtök, Power Platform og hvernig hægt er að byrja með Dynamics 365 forrit. | Ókeypis, sjálfstýr skref á námsleið | 5.5 klst. |
-| [Hafist handa með Finance and Operations forritum](/learn/paths/get-started-finance-operations/) | Lærðu hvernig Finance and Operations forrit styðja fyrirtæki við að stjórna fjármálum sínum á alþjóðavísu, rekstrarferlum og straumlínulagaðri birgðakeðju til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir. Sem fyrsta skrefið á ferli þínum í að vinna með Finance and Operations forrit verður þú að kynna þér eiginleika þeirra og virkni, óháð hlutverki þeirra. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
-| [Hafist handa með Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance hvetur fyrirtækjanotendur til að aðlagast hröðum breytingum í umhverfi fyrirtækja. Það veitir fyrirtækjum allt sem þau þarfnast til að stjórna fjármálum og hafa umsjón með sjóðum með nákvæmum upplýsingum fyrir fjárhagsáætlunargerð og spár og auðveldar þeim að halda sér uppfærðum með greiningarverkfærum. Fyrst að fjármál eru kjarni allra viðskipta, er mikilvægt að kynna sér möguleika Dynamics 365 Finance. | Ókeypis námseining á netinu á eigin hraða | 1 klukkustund |
+| [Byrjaðu með Finance and Operations öppum](/learn/paths/get-started-finance-operations/) | Lærðu hvernig Finance and Operations öpp styðja fyrirtæki við að stjórna alþjóðlegum fjármálakerfum sínum, rekstri viðskiptaferlum og straumlínulagaða aðfangakeðjur til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir. Sem fyrsta skrefið á ferli þínum við að vinna með Finance and Operations forritum, verður þú að kynna þér eiginleika þess og virkni, hvaða hlutverki sem þú vilt. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
+| [Byrjaðu með Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance gerir viðskiptanotendum kleift að laga sig að ört breyttu viðskiptaumhverfi. Það veitir fyrirtækjum allt sem þau þarfnast til að stjórna fjármálum og hafa umsjón með sjóðum með nákvæmum upplýsingum fyrir fjárhagsáætlunargerð og spár og auðveldar þeim að halda sér uppfærðum með greiningarverkfærum. Þar sem fjármál eru kjarninn í hvers kyns viðskiptum er mikilvægt að kynnast getu Dynamics 365 Finance. | Ókeypis námseining á netinu á eigin hraða | 1 klukkustund |
 | [Námskeið MB-900T01-A: Grundvallaratriði Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Þetta námskeið kynnir nemandanum Dynamics 365 virkni og viðskiptagildi. Námskeiðið mun fjalla um Dynamics 365 forrit, Power Platform, skýjahugtök, öryggislíkanið og leyfissjónarmið. | Leiðbeinandi í eigin persónu eða þjálfun á netinu; kostnaður er breytilegur eftir svæðum og félagi | 1 dagur |
 
 ## <a name="exam"></a>Próf<a name="exam"></a>

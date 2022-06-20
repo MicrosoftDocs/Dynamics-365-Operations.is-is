@@ -1,6 +1,6 @@
 ---
 title: Fínstilla BYOD-runuvinnslur á áætlun
-description: Þetta efnisatriði útskýrir hvernig á að fínstilla frammistöðu þegar þú ert að nota eiginleikann Koma með eigin gagnagrunn (BYOD) með Microsoft Dynamics 365 Human Resources.
+description: Þessi grein útskýrir hvernig á að hámarka frammistöðu þegar þú notar eiginleikann koma með eigin gagnagrunn (BYOD) með Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/17/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: 2fcdc89ce65fd123b4cf845acf83070119cc3701
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 4df60a82e016ec8f3ba6ba0d70c261824961d221
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717169"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848314"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>Fínstilla BYOD-runuvinnslur á áætlun
 
@@ -27,7 +27,7 @@ ms.locfileid: "8717169"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þetta efnisatriði útskýrir hvernig á að fínstilla frammistöðu þegar þú ert að nota eiginleikann Koma með eigin gagnagrunn (BYOD). Frekari upplýsingar um BYOD er að finna á [Koma með eigin gagnagrunn (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+Þessi grein útskýrir hvernig á að hámarka frammistöðu þegar þú ert að nota eiginleikann koma með eigin gagnagrunn (BYOD). Frekari upplýsingar um BYOD er að finna á [Koma með eigin gagnagrunn (BYOD)](../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ## <a name="performance-considerations-for-data-export"></a>Afkastaatriði fyrir gagnaútflutning
 

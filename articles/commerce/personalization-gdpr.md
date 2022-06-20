@@ -1,6 +1,6 @@
 ---
 title: Afþakka sérsniðnar tillögur
-description: Þetta efnisatriði útskýrir hvernig hægt er að leyfa viðskiptavinum afþakka móttöku sérsniðinna tillagna í Microsoft Dynamics 365 Commerce.
+description: Þessi grein útskýrir hvernig þú getur leyft viðskiptavinum að afþakka að fá sérsniðnar ráðleggingar í Microsoft Dynamics 365 Commerce.
 author: bebeale
 ms.date: 09/15/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f634e39fe8ca7ffecfd1952933cb82e1bfe7d5a8eec28a61e1d78d21847f95f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47de876a6f304ed5cb35bf075eadaafa4bf0fc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896928"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Afþakka sérsniðnar tillögur
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig hægt er að leyfa viðskiptavinum afþakka móttöku sérsniðinna tillagna í Microsoft Dynamics 365 Commerce.
+Þessi grein útskýrir hvernig þú getur leyft viðskiptavinum að afþakka að fá sérsniðnar ráðleggingar í Microsoft Dynamics 365 Commerce.
 
 Við stofnun reiknings eru nýir viðskiptavinir sjálfkrafa settir upp til að fá persónulega ráðleggingar. Hins vegar Dynamics 365 Commerce veitir smásöluaðilum ýmsar leiðir til að láta notendur afþakka að fá þessar ráðleggingar og takmarka vinnslu persónuupplýsinga sinna. Sannvottir notendur sem afþakka að fá persónulegar ráðleggingar hætta strax að sjá persónulega lista. Að auki verða öll persónuleg gögn sem safnað er til að sérsníða verða fjarlægð úr persónulegum ráðleggingalíkönum.
 

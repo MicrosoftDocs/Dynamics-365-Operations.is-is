@@ -1,6 +1,6 @@
 ---
 title: Dæmi um fyrirspurn fyrir ráðningarbeiðni
-description: Í þessu efnisatriði er að finna dæmi um fyrirspurn fyrir einingu ráðningarbeiðni í Dynamics 365 Human Resources.
+description: Þessi grein veitir dæmi um fyrirspurn fyrir eininguna um ráðningarbeiðni í Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1cc7389403f0362cc005be1df320e63824a3ec3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 55dae805cf9bd1fc641cf6d0e8eb2cc4b6af5d00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066244"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858215"
 ---
 # <a name="example-query-for-recruiting-request"></a>Dæmi um fyrirspurn fyrir ráðningarbeiðni
 
@@ -27,7 +27,7 @@ ms.locfileid: "8066244"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Í þessu efnisatriði er að finna dæmi um fyrirspurn fyrir einingu ráðningarbeiðni í Dynamics 365 Human Resources.
+Þessi grein veitir dæmi um fyrirspurn fyrir eininguna um ráðningarbeiðni í Dynamics 365 Human Resources.
 
 Eftirfarandi fyrirspurn sýnir hvernig hægt er að nota fyrirspurnarmöguleikann $expand í GET-aðgerð til að sækja tilgreinda færslu ráðningarbeiðni og allar tengdar stöður, áskilda hæfni og menntunarkröfur fyrir tilgreinda beiðni. Svarið sýnir ráðningarbeiðni fyrir tvær stöður og áskilda hæfni og menntun fyrir umbeðnar stöður.
 

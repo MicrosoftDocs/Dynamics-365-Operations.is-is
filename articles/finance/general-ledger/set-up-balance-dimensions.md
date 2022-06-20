@@ -1,6 +1,6 @@
 ---
 title: Hvernig set ég upp afstemmingu fjárhagsvídda?
-description: Þetta efnisatriði lýsir valkostum fyrir uppsetningu og notkun eiginleikans „Jöfnunarfjárhagsvídd“.
+description: Þessi grein lýsir valkostum til að setja upp og nota eiginleikann Jöfnun fjárhagsvíddar.
 author: kweekley
 ms.date: 08/25/2021
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-08-17
 ms.dyn365.ops.version: 10.0.210
-ms.openlocfilehash: cb3033a615200a358c1b28b0991bae4b84470ae0
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: dd859629b0eb9f14fa4907699613382f3897d21d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878013"
 ---
 # <a name="how-do-i-set-up-balancing-financial-dimensions"></a>Hvernig set ég upp afstemmingu fjárhagsvídda?
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir valkostum fyrir uppsetningu og notkun eiginleikans „Jöfnunarfjárhagsvídd“.
+Þessi grein lýsir valkostum til að setja upp og nota eiginleikann Jöfnun fjárhagsvíddar.
 
 ## <a name="symptom"></a>Einkenni
 
-Valkostirnir eru tveir til að setja upp jöfnunarfjárhagsvíddir. Fyrsti valkosturinn er að nota reitinn **Jöfnunarfjárhagsvídd** á uppsetningarsíðunni **Fjárhagur** (**Fjárhagur \> Uppsetning fjárhags \> Fjárhagur**). Annar valkosturinn er að nota reitinn **Fara fram á að víddin sé jöfnuð** á síðunni **Fjárhagsvíddir** (**Fjárhagur \> Víddir \> Fjárhagsvíddir**). Þetta efnisatriði útskýrir muninn á þessum tveimur valkostum.
+Valkostirnir eru tveir til að setja upp jöfnunarfjárhagsvíddir. Fyrsti valkosturinn er að nota reitinn **Jöfnunarfjárhagsvídd** á uppsetningarsíðunni **Fjárhagur** (**Fjárhagur \> Uppsetning fjárhags \> Fjárhagur**). Annar valkosturinn er að nota reitinn **Fara fram á að víddin sé jöfnuð** á síðunni **Fjárhagsvíddir** (**Fjárhagur \> Víddir \> Fjárhagsvíddir**). Þessi grein útskýrir muninn á þessum tveimur valkostum.
 
-## <a name="resolution"></a>Lausn
+## <a name="resolution"></a>Upplausn
 
 Stofnanir/fyrirtæki nota yfirleitt jöfnunarvíddir til að búa til efnahagsreikning sem er jafnaður við fjárhagsvíddarstigið. Með því að virkja annan hvorn eiginleikann er ekki hægt að jafna birtar, ójafnaðar víddir. Fyrst þarf að slá inn stillifærslur handvirkt til að jafna efnahagsreikninginn áður en annar hvor eiginleikinn er virkjaður.
 

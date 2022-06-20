@@ -1,6 +1,6 @@
 ---
 title: Yfirlit einingasafns
-description: Þetta efnisatriði sýnir yfirlit yfir Microsoft Dynamics 365 Commerce einingasafnið.
+description: Þessi grein sýnir yfirlit yfir Microsoft Dynamics 365 Commerce mát bókasafn.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94ff18fc34fbfbaee434db12f0d0bc8bb7042c2f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: dbf3754136de62b72938742b7cd4cb3d56532f8b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882171"
 ---
 # <a name="module-library-overview"></a>Yfirlit einingasafns
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði sýnir yfirlit yfir Microsoft Dynamics 365 Commerce einingasafnið.
+Þessi grein sýnir yfirlit yfir Microsoft Dynamics 365 Commerce mát bókasafn.
 
 Dynamics 365 Commerce einingasafnið er safn eininga sem hægt er að nota til að búa til vefsvæði í e-Commerce. Einingar eru bæði með notendaviðmótaþætti og þætti virkrar hegðunar.
 

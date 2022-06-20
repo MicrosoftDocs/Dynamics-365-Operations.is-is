@@ -1,6 +1,6 @@
 ---
 title: Mörk og undantekningarmörk
-description: Í þessu efnisatriði er mörkum og undantekningarmörkum lýst fyrir skatt sem dreginn er frá í upphafi (TDS).
+description: Þessi grein lýsir viðmiðunarmörkum og undanþágumörkum fyrir Tax Deducted at Source (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7fa7d871fdf25f29b003a68cacd9fc0d487dce5b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: aceebad08b5454b64059e7ef374b9634bad35c37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726017"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877937"
 ---
 # <a name="threshold-limit-and-exception-threshold-limit"></a>Mörk og undantekningarmörk
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er mörkum og undantekningarmörkum lýst fyrir skatt sem dreginn er frá í upphafi (TDS). TDS á reikningum og greiðslum er alltaf reiknað með hliðsjón af mörkum og undantekningarmörkum sem skilgreind eru fyrir TDS-skatthluta á síðunni **Staðgreiðsluskattshlutar**. TDS-skatthlutar eru hengdir við TDS-skattkóða sem eru innifaldir í TDS-skattflokkum. TDS-skattflokkar eru hengdir við lánardrottna og viðskiptavinir til að reikna út TDS á reikningsstigi eða greiðslustigi.
+Þessi grein lýsir viðmiðunarmörkum og undanþágumörkum fyrir Tax Deducted at Source (TDS). TDS á reikningum og greiðslum er alltaf reiknað með hliðsjón af mörkum og undantekningarmörkum sem skilgreind eru fyrir TDS-skatthluta á síðunni **Staðgreiðsluskattshlutar**. TDS-skatthlutar eru hengdir við TDS-skattkóða sem eru innifaldir í TDS-skattflokkum. TDS-skattflokkar eru hengdir við lánardrottna og viðskiptavinir til að reikna út TDS á reikningsstigi eða greiðslustigi.
 
 TDS er reiknað ef upphæð fyrir færslu eða uppsafnaðar færslur sem eru bókaðar með tilteknum TDS-flokki fyrir lánardrottin fer umfram mörkin sem tilgreind eru á síðunni **Staðgreiðsluskattshlutar**. TDS verður ekki reiknað fyrr en uppsöfnuð færsluupphæð fer umfram tiltekin mörk.
 

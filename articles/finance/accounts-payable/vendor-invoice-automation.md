@@ -1,6 +1,6 @@
 ---
 title: Sjálfvirkni reiknings fyrir skönnuð skjöl
-description: Í þessu efnisatriði er fjallað um aðgerðir sem eru tiltækar fyrir lok við lok sjálfvirkni reikninga lánardrottins, jafnvel reikninga með viðhengi.
+description: Þessi grein útskýrir eiginleikana sem eru tiltækir fyrir end-to-end sjálfvirkni reikninga lánardrottins, jafnvel reikninga sem innihalda viðhengi.
 author: abruer
 ms.date: 03/24/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716395"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883417"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Sjálfvirkni reiknings fyrir skönnuð skjöl
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er fjallað um gagnaeiningar sem eru tiltækar fyrir lok við lok sjálfvirkni reikninga lánardrottins, þar með talið reikninga með viðhengi.
+Þessi grein útskýrir gagnaeiningarnar sem eru tiltækar fyrir enda-til-enda sjálfvirkni reikninga lánardrottins, þar með talið reikninga með viðhengjum.
 
 Fyrirtæki sem vilja hagræða ferlum Viðskiptaskulda (AP) auðkenna oft reikningsvinnslur sem ein af aðalferlunum sem þurfa að vera skilvirkari. Í mörgum tilvikum láta þessi fyrirtæki ótengdan þjónustuaðila með ljósskynjun stafa (OCR) um vinnslu reikninga á pappír. Þeir fá síðan tölvulesanleganleg lýsigögn reiknings ásamt skannaðri mynd af hverjum reikningi. Til að aðstoða við sjálfvirkni er "síðasta kílómetra" lausn síðan myndað til að auðvelda notkun á þessum hlutum í reikningsfærslukerfinu. Núna er þessi „síðustu metrunum“ sjálfvirkni virkjuð beint úr kassanum með því að nota lausn sjálfvirkra reikninga.
 
@@ -46,7 +46,7 @@ Lausnafótsporið samanstendur af eftirfarandi þáttum:
 + Undantekningavinnsla fyrir reikninga
 + Hlið-við-hlið viðhengjabirtir í reikningum
 
-Afgangurinn af þessu efnisatriði gefur ítarlegar lýsingar á þessum lausnaþáttum.
+Afgangurinn af þessari grein veitir nákvæmar lýsingar á þessum lausnarhlutum.
 
 ## <a name="data-entities"></a>Gagnaeiningar
 

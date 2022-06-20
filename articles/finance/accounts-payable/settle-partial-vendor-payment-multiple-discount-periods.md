@@ -1,6 +1,6 @@
 ---
 title: Jafna hlutagreiðslu lánardrottins sem er með mörg afsláttartímabil
-description: Þetta efni leiðir þig í gegnum atburðarás þar sem margar hlutagreiðslur eru gerðar til lánardrottins sem býður upp á marga staðgreiðsluafslátt.
+description: Þessi grein fer í gegnum aðstæður þar sem margar hlutagreiðslur eru greiddar til lánardrottins sem gefur marga staðgreiðsluafslætti.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d805ce2de866d0073b4bb797eb7ddae0736e8948
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f0599c25d1cd5e07ca5a955ecc96fed2e31383ec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861648"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Jafna hlutagreiðslu lánardrottins sem er með mörg afsláttartímabil
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni leiðir þig í gegnum atburðarás þar sem margar hlutagreiðslur eru gerðar til lánardrottins sem býður upp á marga staðgreiðsluafslátt. 
+Þessi grein fer í gegnum aðstæður þar sem margar hlutagreiðslur eru greiddar til lánardrottins sem gefur marga staðgreiðsluafslætti. 
 
 Lánardrottinn 3054 býður Fabrikam 2 prósent staðgreiðsluafslátt ef reikningur er greiddur innan fimm daga og um 1 prósent staðgreiðsluafslátt ef reikningurinn er greiddur innan 14 daga.
 

@@ -1,6 +1,6 @@
 ---
 title: Afurðarkenni
-description: Þetta efnisatriði veitir upplýsingar um mismunandi tegundir afurðarkenna og útskýrir hvernig hægt er að bæta við afurðarkennum í afurðargögnum þínum.
+description: Þessi grein veitir upplýsingar um hinar ýmsu tegundir vöruauðkenna og útskýrir hvernig þú getur bætt vöruauðkennum við vörugögnin þín.
 author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3fc2d5c01209f15a9cb680e3bb569087f08c08d3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851711"
 ---
 # <a name="product-identifiers"></a>Afurðarkenni
 
@@ -29,7 +29,7 @@ ms.locfileid: "8063342"
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um mismunandi tegundir afurðarkenna og útskýrir hvernig hægt er að bæta við afurðarkennum í afurðargögnum þínum.
+Þessi grein veitir upplýsingar um hinar ýmsu tegundir vöruauðkenna og útskýrir hvernig þú getur bætt vöruauðkennum við vörugögnin þín.
 
 Þegar unnið er með afurðir í vinnusal eða í vöruhúsi í Microsoft Dynamics ERP eða Microsoft Dynamics CRM þarf að hafa góða stefnu til að bera kennsl á afurðir og afurðarafbrigði.
 
@@ -125,7 +125,7 @@ Hægt er að skilgreina ytri kóða fyrir marga aðila. Til dæmis getur þú sk
 | Afurðir V2 | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing | Það fer eftir stillingum á einingu og númeraröð afurðarnúmers hvort hægt sé að stofna sjálfkrafa afurðarnúmer við innflutning. |
 | Afurðarafbrigði | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing | Það fer eftir nafnakerfissniði afurðar hvort hægt sé að stofna sjálfkrafa afurðarnúmerið við innflutning. Þó er hægt að flytja inn einkvæmt afurðarnúmer og það afurðarnúmer þarf ekki að fylgja skipulaginu á nafnakerfissniði afurðar. |
 | Þýðingar afurðar | Afurðarheiti, afurðarlýsing | Afurðarheiti, afurðarlýsing | Þessi eining skrifar yfir hvaða tungumál sem er. Þegar skrifað er yfir heitið eða lýsinguna á aðaltungumáli lögaðila, breytist heitið og lýsingin á sjálfri vörunni. |
-| Útgefin stofnun afurðar V2 | Vörunúmer, afurðarnúmer, leitarheiti vöru| Vörunúmer, afurðarnúmer, leitarheiti vöru, leitarheiti afurðar, afurðarheiti | Þessi eining getur verið áskorun þegar númeraraðir eru notaðar við stofnun á nýjum útgefnum afurðum. Báðar númeraraðirnar **Vörunúmer** og **Afurðarnúmer** hafa áhrif. Hins vegar er númeraröðin **Vörunúmer** fyrir hvern lögaðila, en númeraröðin **Afurðarnúmer** er alþjóðleg. Því mælum við með því að þú notir númeraröðina **Vörunúmer** þegar þú setur upp nýjar útgefnar afurðir. Augljóslega, þegar einingin er notuð til að gefa út fyrirliggjandi afurð verður afurðarnúmerið að vera gefið í einingunni. Nánari upplýsingar er að finna í kaflanum „Afurðar- og vörunúmeraraðir" í þessu efnisatriði. |
+| Útgefin stofnun afurðar V2 | Vörunúmer, afurðarnúmer, leitarheiti vöru| Vörunúmer, afurðarnúmer, leitarheiti vöru, leitarheiti afurðar, afurðarheiti | Þessi eining getur verið áskorun þegar númeraraðir eru notaðar við stofnun á nýjum útgefnum afurðum. Báðar númeraraðirnar **Vörunúmer** og **Afurðarnúmer** hafa áhrif. Hins vegar er númeraröðin **Vörunúmer** fyrir hvern lögaðila, en númeraröðin **Afurðarnúmer** er alþjóðleg. Því mælum við með því að þú notir númeraröðina **Vörunúmer** þegar þú setur upp nýjar útgefnar afurðir. Augljóslega, þegar einingin er notuð til að gefa út fyrirliggjandi afurð verður afurðarnúmerið að vera gefið í einingunni. Fyrir frekari upplýsingar, sjá hlutann "Vöru- og vörunúmeraraðir" í þessari grein. |
 | Útgefin afurðarafbrigði | Vörunúmer, afurðarvíddir, afurðarnúmer | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing, afurðarvíddir | Eins og einingin **Afurðarafbrigði**, er hægt að nota þessa einingu til að stofna nýjar afurðir sem annaðhvort fylgja nafnakerfissniði afurðar eða nota sín eigin afurðarnúmer fyrir afbrigðið. |
 | Ytri vörulýsing fyrir viðskiptavini | Vörunúmer viðskiptavinar, vöruheiti viðskiptavinar, lýsing viðskiptavinar, viðskiptavinalykill | Vörunúmer viðskiptavinar, vöruheiti viðskiptavinar, lýsing viðskiptavinar, viðskiptavinalykill | Hóp af viðskiptavinum (t.d. samtök kaupenda) er hægt að sameina í einn flokk með því að nota eininguna **Viðskiptavinaflokkar ytri vörulýsinga**. |
 | Ytri vörulýsing fyrir lánardrottna | Vörunúmer lánardrottins, vöruheiti lánardrottins, lýsing lánardrottins, lánardrottnalykill | Vörunúmer lánardrottins, vöruheiti lánardrottins, lýsing lánardrottins, lánardrottnalykill | Hóp af lánardrottnum (t.d. samtök lánardrottna eða iðnaðarsamtök) er hægt að safna saman í einn flokk með því að nota eininguna **Lánardrottnaflokkar ytri vörulýsinga**. |
@@ -184,7 +184,7 @@ Fylgdu þessum skrefum til að grunnstilla umhverfið.
 
 Þú getur nú notað gagnaeiningarnar **Afurðareining auðkenniseiningar Common data service**, **Auðkenniskóðar afurðareiningar** og **Umfang auðkennis afurðareiningar** til að flytja út auðkennin fyrir hvaða markkerfi sem er.
 
-## <a name="related-topic"></a>Tengt efni
+## <a name="related-article"></a>Tengd grein
 
 [Leita að afurðum og afurðarafbrigðum við pöntunarfærslu](search-products-product-variants.md)
 

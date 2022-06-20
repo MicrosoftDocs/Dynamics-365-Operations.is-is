@@ -1,6 +1,6 @@
 ---
 title: Almenn úrræðaleit
-description: Þetta efnisatriði veitir almennar upplýsingar um úrræðaleit fyrir tvískrifa samþættingu milli Finance and Operations forrita og Dataverse.
+description: Þessi grein veitir almennar upplýsingar um bilanaleit fyrir tvískrifa samþættingu milli Finance and Operations forrita og Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 620f6f999859eff0ccd8aeb1cff12ddd56fa9926
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853656"
 ---
 # <a name="general-troubleshooting"></a>Almenn úrræðaleit
 
@@ -22,10 +22,10 @@ ms.locfileid: "8614096"
 
 
 
-Þetta efnisatriði veitir almennar upplýsingar um úrræðaleit fyrir tvískrifa samþættingu milli Finance and Operations forrita og Dataverse.
+Þessi grein veitir almennar upplýsingar um bilanaleit fyrir tvískrifa samþættingu milli Finance and Operations forrita og Dataverse.
 
 > [!IMPORTANT]
-> Nokkur þeirra atriða sem þetta efni fjallar um geta krafist annað hvort kerfisstjórans eða Microsoft Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
+> Sum vandamálin sem þessi grein fjallar um gætu þurft annað hvort kerfisstjórahlutverkið eða Microsoft Azure Active Directory (Azure AD) leigjanda stjórnanda skilríki. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Virkið og skoðið rakningarkladda viðbóta í Dataverse til að skoða upplýsingar um villu
 
@@ -132,7 +132,7 @@ Fylgdu þessum skrefum til að gera virkja valkostinn **Upplýsingar** aftur:
 3. Veldu **Upplýsingar** og smelltu á **Virkja öryggishlutverk**.
 4. Breyttu öryggisstillingunni í **Sýna öllum**.
 
-## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Hvernig á að tryggja að gagnasamþætting sé með nýjustu fjármála- og rekstraráætluninni
+## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Hvernig á að tryggja að gagnasamþætting sé með nýjustu fjármála- og rekstrarskemanu
 
 Þú gætir lent í gagnavandamálum við samþættingu gagna ef ekki er verið að nota nýjasta skemað. Eftirfarandi skref munu hjálpa þér að endurnýja aðilalistann í Finance and Operations forritum og einingarnar í Data Integrator.
 
@@ -143,7 +143,7 @@ Fylgdu þessum skrefum til að gera virkja valkostinn **Upplýsingar** aftur:
 4.  Á **Gagnainnflutningur/útflutningur rammafæribreytur** síðu, veldu **Einingastillingar** flipann og veldu **Endurnýja einingarlista**. Þetta getur tekið meira en 30 mínútur að endurnýja, allt eftir fjölda aðila sem taka þátt.
 5.  Siglaðu til **Gagnastjórnun** og veldu **Gagnaeiningar** til að sannreyna að væntanlegir aðilar séu skráðir. Ef væntanlegir einingar eru ekki skráðar, staðfestu að einingarnar birtast í fjármála- og rekstrarumhverfi þínu og endurheimtu þær einingar sem vantar, eftir þörfum.
 
-#### <a name="if-the-refresh-fails-to-resolve-the-issue-delete-and-re-add-the-entities"></a>Ef endurnýjunin tekst ekki að leysa vandamálið skaltu eyða einingunum og bæta þeim við aftur
+#### <a name="if-the-refresh-fails-to-resolve-the-issue-delete-and-re-add-the-entities"></a>Ef endurnýjunin tekst ekki að leysa vandamálið skaltu eyða og bæta við einingunum aftur
 
 > [!NOTE]
 > Þú gætir þurft að stöðva vinnsluhópa sem eru virkir að nota einingarnar áður en þeim er eytt.

@@ -1,6 +1,6 @@
 ---
 title: Hafist handa með skattaútreikning
-description: Í þessu efnisatriði er útskýrt hvernig á að setja upp skattaútreikning.
+description: Þessi grein útskýrir hvernig á að setja upp skattútreikning.
 author: wangchen
 ms.date: 03/25/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ab9c0cf974114c4fa9b673e5601e138acef534d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c2293102057ac055f0958c1c6b1de2a19cb331d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685912"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855284"
 ---
 # <a name="get-started-with-tax-calculation"></a>Hafist handa með skattaútreikning
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um hvernig hafist er handa við skattaútreikning. Hlutarnir í þessu efni leiða þig í gegnum hönnunar- og uppsetningarþrepin á háu stigi í Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance og Dynamics 365 Supply Chain Management. 
+Þessi grein veitir upplýsingar um hvernig á að byrja með skattútreikning. Hlutarnir í þessari grein leiða þig í gegnum hönnunar- og uppsetningarþrepin á háu stigi Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance og Dynamics 365 Supply Chain Management. 
 
 Uppsetningin samanstendur af þremur meginskrefum.
 
@@ -68,7 +68,7 @@ Eftirfarandi skref veita yfirlit á háu stigi yfir stillingarferlið fyrir skat
     5. Valfrjálst: Stofna nothæfi skattaflokks ef þú vilt hnekkja sjálfgefnum söluskattsflokki sem færður er inn úr aðalgögnum viðskiptavinar eða lánardrottins.
     6. Valfrjálst: Stofna nothæfni vöruflokks ef þú vilt hnekkja sjálfgefnum vörusöluskattsflokki sem færður er inn úr stofngögnum vöru.
 
-4. Í RCS, fylltu út og birtu **Skattútreikningur** eiginleiki.
+4. Í RCS, kláraðu og birtu **Skattútreikningur** eiginleiki.
 5. Í Finance, veldu útgefið **Skattútreikningur** eiginleiki.
 
 Eftir að þú hefur lokið þessum skrefum eru eftirfarandi uppsetningar sjálfkrafa samstilltar frá RCS við Finance.
@@ -77,11 +77,11 @@ Eftir að þú hefur lokið þessum skrefum eru eftirfarandi uppsetningar sjálf
 - VSK-flokkar
 - VSK-flokkar vöru
 
-Hlutarnir sem eftir eru í þessu efni veita ítarlegri stillingarskref.
+Hlutarnir sem eftir eru í þessari grein veita ítarlegri stillingarskref.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en þú getur klárað þær aðferðir sem eftir eru í þessu efni verða að uppfylla eftirfarandi forsendur:<!--TO HERE-->
+Áður en þú getur klárað þær aðferðir sem eftir eru í þessari grein verða eftirfarandi skilyrði að vera uppfyllt:<!--TO HERE-->
 
 - Þú verður að hafa aðgang að LCS-reikningnum þínum og þú verður að hafa virkjað LCS-verk með umhverfi í lagi 2 (eða ofar) sem keyrir Dynamics 365 útgáfu 10.0.21 eða nýrri.
 - Þú verður að búa til RCS umhverfi fyrir fyrirtækið og þú verður að hafa aðgang að reikningnum þínum. Nánari upplýsingar um hvernig á að stofna RCS-umhverfi er að finna í [Yfirlit Regulatory configuration service](rcs-overview.md).
@@ -212,7 +212,7 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
     | Sala            | BEL       | FRA     | BEL_EU       |
     
     > [!NOTE]
-    > Ef sjálfgefinn söluskattsflokkur á skattskyldum skjalalínum þínum er réttur skaltu skilja þetta fylki eftir autt. Fyrir frekari upplýsingar, sjá [Runtime hönnun](#runtime) kafla í þessu efni.
+    > Ef sjálfgefinn söluskattsflokkur á skattskyldum skjalalínum þínum er réttur skaltu skilja þetta fylki eftir autt. Fyrir frekari upplýsingar, sjá [Runtime hönnun](#runtime) kafla í þessari grein.
 
 22. Í flipanum **Gildissvið skattkóða vöru** skal velja dálkana sem þarf til að finna út réttan skattkóða og síðan velja **Bæta við**. Sláðu inn eða veldu gildi fyrir hvern dálk. Reiturinn **Skattflokkur vöru** verður úttak fylkisins. Ef þessi flipi er ekki stilltur verður VSK-flokkur vöru í færslulínunni notaður.
 
@@ -224,7 +224,7 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
     | D0003     | Lækkað        |
 
     > [!NOTE]
-    > Ef sjálfgefinn vörusöluskattsflokkur á skattskyldum skjalalínum þínum er réttur skaltu skilja þetta fylki eftir autt. Fyrir frekari upplýsingar, sjá [Runtime hönnun](#runtime) kafla í þessu efni.
+    > Ef sjálfgefinn vörusöluskattsflokkur á skattskyldum skjalalínum þínum er réttur skaltu skilja þetta fylki eftir autt. Fyrir frekari upplýsingar, sjá [Runtime hönnun](#runtime) kafla í þessari grein.
 
     Frekari upplýsingar um hvernig skattkóðar eru ákvarðaðir í skattaútreikningi er að finna í [Rök fyrir VSK-flokk og VSK-flokk vöru](global-sales-tax-group-determination.md).
 
@@ -243,7 +243,7 @@ Lögaðili sér um uppsetningu í þessum hluta. Þú verður að skilgreina han
 2. Á flipanum **Almennt** skal stilla eftirfarandi reiti:
 
     - **Virkja skattaútreikningþjónustu** – Veldu þennan gátreit til að virkja skattaútreikning fyrir lögaðilann. Ef það er ekki virkjað fyrir núverandi lögaðila mun lögaðilinn halda áfram að nota núverandi skattkerfi til að finna út og reikna skatt.
-    - **Uppsetning eiginleika** – Veljið uppsetningu og útgáfu útgefins skattaeiginleika fyrir lögaðilann. Frekari upplýsingar um það hvernig á að setja upp og ljúka við útgefinn skattaeiginleika er að finna í fyrri hluta þessa efnisatriðis.
+    - **Uppsetning eiginleika** – Veljið uppsetningu og útgáfu útgefins skattaeiginleika fyrir lögaðilann. Fyrir frekari upplýsingar um hvernig á að setja upp og klára birtan skatteiginleika, sjá fyrri hluta þessarar greinar.
     - **Viðskiptaferli** – Veljið viðskiptaferlana sem á að virkja.
 
 3. Í flipanum **Útreikningar** skal skilgreina fyrirhugaða sléttunarreglu fyrir lögaðilann. Frekari upplýsingar um sléttunarregluna er að finna í [Sléttunarreglur skattaútreiknings](https://go.microsoft.com/fwlink/?linkid=2166988).

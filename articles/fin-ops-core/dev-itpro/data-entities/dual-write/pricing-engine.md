@@ -1,6 +1,6 @@
 ---
 title: Samstilla eftirspurn við verðlagningarkerfi Supply Chain Management
-description: Þetta efnisatriði lýsir því hvernig á að nota verðlagningarvélina í Microsoft Dynamics 365 Supply Chain Management frá Microsoft Dynamics 365 Sala.
+description: Þessi grein lýsir því hvernig á að nota verðlagningarvélina í Microsoft Dynamics 365 Supply Chain Management frá Microsoft Dynamics 365 Sala.
 author: RamaKrishnamoorthy
 ms.date: 03/10/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6b0cc8f403be866ff00b89a33f6c59089c987bb0
-ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.openlocfilehash: 259bdd5f868945c3857b045fbd3cbd4fceb26951
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "8402831"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862220"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Samstilla eftirspurn við verðlagningarkerfi Supply Chain Management
 
@@ -86,7 +86,7 @@ Hægt er að stilla Supply Chain Management til að annað hvort virða eða hun
 
 1. Í Sales býr notandi til pöntunarlínu sem hefur a **Verð á einingu** gildi 0 USD og a **Línuafsláttur** gildi 0 USD.
 1. Pöntunarlínan er samstillt við Supply Chain Management með söluverðinu 0 USD.
-1. Vegna þess að það fékk pöntunarlínu sem hefur söluverðið 0 (núll), kallar Supply Chain Management verðlagningarvélina, jafnvel þó að **Handvirk færsla** valmöguleikinn er virkur. Verðlagsvélin skilar söluverði 2 USD sem er komið á með viðskiptasamningnum og uppfærir pöntunarlínuna í Supply Chain Management.
+1. Vegna þess að það fékk pöntunarlínu sem hefur söluverðið 0 (núll), kallar Supply Chain Management verðlagningarvélina, jafnvel þó að **Handvirk færsla** valmöguleikinn er virkur. Verðlagningarvélin skilar söluverði 2 USD sem er komið á með viðskiptasamningnum og uppfærir pöntunarlínuna í Supply Chain Management.
 1. Uppfært söluverð er ekki enn samstillt við pöntunarlínuna í sölu.
 1. Í Sölu velur notandinn **Verðpöntun** á aðgerðasvæðinu.
 1. Pöntunarlínan í Supply Chain Management heldur söluverði sínu 2 USD, sem er nú samstillt aftur við sölu. Þess vegna er **Verð á einingu** gildi pöntunarlínunnar í Sales er uppfært úr 0 USD í 2 USD.

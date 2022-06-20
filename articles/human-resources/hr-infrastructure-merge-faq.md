@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um sameiningu Dynamics 365 Human Resources tölvukerfis
-description: Þetta efni svarar algengum spurningum um samruna innviða fyrir Microsoft Dynamics 365 Human Resources og Finance and Operations öpp.
+description: Þessi grein svarar algengum spurningum um samruna innviða fyrir Microsoft Dynamics 365 Human Resources og Finance and Operations öpp.
 author: twheeloc
 ms.date: 08/13/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 766ee49c17749841d8acac6637a0262e87e52e92
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 8c005f677624336b4194bebea6d69667182128b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809614"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880481"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Algengar spurningar um sameiningu Dynamics 365 Human Resources tölvukerfis
 
@@ -27,7 +27,7 @@ ms.locfileid: "8809614"
 
 
 
-Þetta efni svarar algengum spurningum um samruna innviða fyrir Microsoft Dynamics 365 Human Resources og Finance and Operations öpp.
+Þessi grein svarar algengum spurningum um samruna innviða fyrir Microsoft Dynamics 365 Human Resources og Finance and Operations öpp.
 
 ## <a name="what-is-the-dynamics-365-human-resources-infrastructure-merge"></a>Hvað er sameining Dynamics 365 Human Resources tölvukerfis?
 
@@ -181,7 +181,7 @@ Eftir flutninginn munu viðskiptavinir hafa mun meiri sveigjanleika hvað varða
 
 ### <a name="how-will-the-migration-affect-my-lcs-project-for-dynamics-365-human-resources"></a>Hvernig mun flutningurinn hafa áhrif á LCS-verkin fyrir Dynamics 365 Human Resources?
 
-Flutningurinn yfir í nýja innviðina mun færa stjórnun á þínu Dynamics 365 Human Resources umhverfi inn í Finance and Operations innleiðingarverkefni í LCS. Ef flutningurinn er að sameinast Dynamics 365 Human Resources með núverandi fjármála- og rekstrarumhverfi mun LCS verkefnið þitt á mannauðssviði sameinast LCS innleiðingarverkefninu fyrir Finance and Operations appið. Ef þú ert aðeins að nota Dynamics 365 Human Resources verður nýtt LCS-samþættingarverk stofnað og núverandi LCS-verk Human Resources verður flutt í nýja verkið.
+Flutningurinn yfir í nýja innviðina mun færa stjórnun á þínu Dynamics 365 Human Resources umhverfi inn í Finance and Operations innleiðingarverkefni í LCS. Ef flutningurinn er að sameinast Dynamics 365 Human Resources með núverandi fjármála- og rekstrarumhverfi, mun LCS verkefnið þitt á mannauðssviði sameinast LCS innleiðingarverkefninu fyrir Finance and Operations appið. Ef þú ert aðeins að nota Dynamics 365 Human Resources verður nýtt LCS-samþættingarverk stofnað og núverandi LCS-verk Human Resources verður flutt í nýja verkið.
 
 Nýja verkefnið verður sams konar verkefni og Finance and Operations öpp nota. Það mun hafa sömu eiginleika og virkni fyrir umhverfisstjórnun. Frekari upplýsingar er að finna í [Tilföng Lifecycle Services](../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 

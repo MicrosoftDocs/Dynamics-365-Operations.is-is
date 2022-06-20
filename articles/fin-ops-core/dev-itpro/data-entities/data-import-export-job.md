@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644460"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860165"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Yfirlit yfir inn- og útflutningsvinnslu gagna
 
@@ -29,7 +29,7 @@ ms.locfileid: "8644460"
 Til að búa til og stjórna inn- og útflutningsvinnslu gagna í skaltu nota vinnusvæðið **Gagnastjórnun**. Sjálfgefið er að Inn- og útflutningsferli gagna skapi uppsetningartöflu fyrir hverja einingu í markgagnagrunninum. Millistigsvistunartöflu leyfir þér að staðfesta, hreinsa upp eða breyta gögnum áður en þú færir þau.
 
 > [!NOTE]
-> Þetta efni gerir ráð fyrir að þú þekkir [gagnaeiningar](data-entities.md).
+> Þessi grein gerir ráð fyrir að þú þekkir [gagnaeiningar](data-entities.md).
 
 ## <a name="data-importexport-process"></a>Inn- og útflutningsferli gagna
 Hér eru skrefin til að flytja gögn inn eða út.
@@ -48,7 +48,7 @@ Hér eru skrefin til að flytja gögn inn eða út.
 5. Staðfesta að starfið hafi gengið eins og búist var við með því að skoða starfsferilinn.
 6. Hreinsa sviðsetningartöflurnar.
 
-Nánari upplýsingar um hvert skref í ferlinu eru í öðrum hlutum þessa efnisatriðis.
+Eftirstöðvar þessarar greinar veita frekari upplýsingar um hvert skref ferlisins.
 
 > [!NOTE]
 > Til þess að geta endurnýjað skjámyndina fyrir innflutning/útflutning gagna svo hægt sé að sjá nýjustu stöðuna skal nota endurnýjunartáknið. Ekki er mælt með endurnýjun á vafrastigi vegna þess að það truflar innflutnings-/útflutningsvinnslur sem eru ekki keyrðar í runum.

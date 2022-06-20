@@ -1,6 +1,6 @@
 ---
 title: Greiðslutíðni launa
-description: Þetta efnisatriði veitir upplýsingar og dæmi um fyrirspurn fyrir greiðslutíðnieiningu launa í Dynamics 365 Human Resources.
+description: Þessi grein veitir upplýsingar og dæmi um fyrirspurn fyrir eininguna um bótagreiðslutíðni í Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 09/01/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 171b7fb7b361bd1fe2e7e637cd555c88a81a8bcf
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 9afe27776797b2355a32226bbd7fa514b5c5d962
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066144"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894615"
 ---
 # <a name="compensation-pay-frequency"></a>Greiðslutíðni launa
 
@@ -27,7 +27,7 @@ ms.locfileid: "8066144"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þetta efnisatriði lýsir greiðslutíðnieiningu launa í Dynamics 365 Human Resources.
+Þessi grein lýsir bótagreiðslutíðni einingunni í Dynamics 365 Human Resources.
 
 Raunlægt heiti: mshr_hcmpayrateconversionentity.
 

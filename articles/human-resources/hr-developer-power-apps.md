@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4036378ca70089a9978a9bf5fb48c058a2064cdc
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5fe8ecd368bc63eed43c86053084ca67ef9beac6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689495"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859518"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Stækka með Power Apps og Power Automate
 
@@ -33,7 +33,7 @@ ms.locfileid: "8689495"
 Þessi grein lýsir sumum dæmum um atburðarás stækkunarhæfni fyrir Microsoft Dynamics 365 Human Resources sem notar Microsoft Power Apps og Microsoft Power Automate. Hægt er að flytja lausnapakkann sem tengist hverju dæmi inn í Power Apps-umhverfið. Síðan er hægt að nota pakkana annaðhvort sem leiðarvísi eða sem upphafspunkta til að innleiða atburðarásir sem eiga við um fyrirtækið þitt.
 
 > [!IMPORTANT]
-> Ef þú vilt nota sniðmátin og forritin sem lýst er í þessu efnisatriði „eins og það er“, skaltu vera viss um að prófa þau til að ganga úr skugga um þau nái utan um allar atburðarásirnar sem tengjast innleiðingunni þinni.
+> Ef þú vilt nota sniðmátin og öppin sem lýst er í þessari grein "eins og þau eru," vertu viss um að prófa þau til að ganga úr skugga um að þau nái yfir allar aðstæður sem eru sértækar fyrir útfærslu þína.
 
 ## <a name="prerequisites"></a>Forkröfur
 

@@ -1,6 +1,6 @@
 ---
 title: Stofna innkaupastefnu
-description: Þetta efni sýnir hvernig á að stofna innkaupareglur til samræmis við viðskiptaferli þín fyrir innkaup.
+description: Þessi grein sýnir þér hvernig á að búa til innkaupastefnur til að samræmast viðskiptaferlum þínum fyrir innkaup.
 author: GalynaFedorova
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f51c88506044359787257ba0e0a6668213a170d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 011705723466d746fa5b23c5499d03a548f133f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878846"
 ---
 # <a name="create-purchasing-policies"></a>Stofna innkaupastefnu
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni sýnir hvernig á að stofna innkaupareglur til samræmis við viðskiptaferli þín fyrir innkaup. Áður en hægt er að stofna innkaupastefnur þarf að setja upp færibreytur fyrir innkaupastefnu. Hægt er að stofna, breyta og hætta við innkaupastefnu en ekki er hægt að eyða innkaupastefnu. Þetta verk myndi venjulega vera framkvæmt af innkaupaaðila. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.
+Þessi grein sýnir þér hvernig á að búa til innkaupastefnur til að samræmast viðskiptaferlum þínum fyrir innkaup. Áður en hægt er að stofna innkaupastefnur þarf að setja upp færibreytur fyrir innkaupastefnu. Hægt er að stofna, breyta og hætta við innkaupastefnu en ekki er hægt að eyða innkaupastefnu. Þetta verk myndi venjulega vera framkvæmt af innkaupaaðila. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.
 
 
 ## <a name="set-up-policy-parameters"></a>Setja upp færibreytur reglna

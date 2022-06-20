@@ -1,8 +1,8 @@
 ---
 title: Frumstilla Commerce Scale Unit (ský)
-description: Þetta efni útskýrir hvernig á að frumstilla Commerce Scale Unit (ský) í Microsoft Dynamics 365 Commerce.
+description: Þessi grein útskýrir hvernig á að frumstilla Commerce Scale Unit (ský) í Microsoft Dynamics 365 Commerce.
 author: AamirAllaq
-ms.date: 02/04/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,18 +11,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2018-4-30
-ms.openlocfilehash: 84e70515accde161e7efa36755edec68d26be952
-ms.sourcegitcommit: fefe93f3f44d8aa0b7e6d54cc4a3e5eca6e64feb
+ms.openlocfilehash: 969dd220a7b73a676b9cf5ac26223ebd9b3f2296
+ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092223"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8942853"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Frumstilla Commerce Scale Unit (ský)
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að frumstilla Commerce Scale Unit (ský) í Microsoft Dynamics 365 Commerce.
+Þessi grein útskýrir hvernig á að frumstilla Commerce Scale Unit (ský) í Microsoft Dynamics 365 Commerce.
 
 Ef þú ert að nota Tier-2 sandkassa eða framleiðsluumhverfi sem er með forritaútgáfu 8.1.2.x eða nýrri, verður þú að frumstilla Commerce Scale Unit (ský) áður en þú getur notað smásölurásarvirkni annað hvort fyrir sölustaða (POS) starfsemi eða fyrir rafræn viðskipti sem nota Retail Server í skýinu. Frumstilling mun dreifa viðskiptaskalaeiningu (skýi).
 
@@ -32,7 +32,7 @@ Ef þú ert að nota Tier-2 sandkassa eða framleiðsluumhverfi sem er með forr
 ## <a name="prerequisites"></a>Forkröfur
 
 1. Settu upp Tier-2 sandkassa eða framleiðsluumhverfi sem hefur útgáfu 8.1.2.x eða nýrri.
-2. Þú getur sjálfdreifað allt að 2 Commerce Scale Units í hverju umhverfi. Ef þú þarfnast fleiri en 2 Commerce Scale Units í hverju umhverfi, í Microsoft Dynamics Lifecycle Services (LCS), búðu til stuðningsbeiðni og sláðu inn **Beiðni um viðbótareiningu viðskiptaskala** og tilgreinið auðkenni umhverfisins, fjölda viðskiptakvarðaeininga og viðkomandi gagnaverasvæði. Beiðninni verður lokið innan fimm virkra daga. Ef þú þarft ekki meira en 2 Commerce Scale Units í hverju umhverfi þarftu ekki að búa til stuðningsbeiðni. 
+2. Þú getur sjálfdreifað allt að 2 Commerce Scale Units í hverju umhverfi. Ef þú þarfnast fleiri en 2 Commerce Scale Units í hverju umhverfi, í Microsoft Dynamics Lifecycle Services (LCS), búðu til stuðningsbeiðni og sláðu inn **Beiðni um viðbótareiningu viðskiptaskala** og tilgreinið auðkenni umhverfisins, fjölda viðskiptakvarðaeininga og viðkomandi svæði gagnavera. Beiðninni verður lokið innan fimm virkra daga. Ef þú þarft ekki meira en 2 Commerce Scale Units í hverju umhverfi þarftu ekki að búa til stuðningsbeiðni. 
 3. Þú verður að hafa verkefniseigandaheimildir í Lifecycle Services áður en þú getur frumstillt Commerce Scale Unit.
 4. Gakktu úr skugga um að stillingarlyklar fyrir smásöluleyfi séu virkir í umhverfi þínu. Fyrir frekari upplýsingar, sjá [Skýrsla um leyfiskóða og stillingarlykla](../sysadmin/license-codes-configuration-keys-report.md). Þú verður að hafa kveikt á eftirfarandi lyklum til að nota Commerce Scale Unit.
 
@@ -49,32 +49,34 @@ Ef þú ert að nota Tier-2 sandkassa eða framleiðsluumhverfi sem er með forr
 ## <a name="region-availability"></a>Svæðisframboð
 Commerce Scale Unit er fáanlegt til dreifingar á eftirfarandi svæðum.
 
-| Staðsetning á heimsvísu | Svæði              | Framboð        |
-|-----------------|---------------------|---------------------|
-| BANDARÍKIN        | Austurhluti Bandaríkjanna             | Almennt tiltækt |
-| BANDARÍKIN        | Austurhluti Bandaríkjanna 2           | Almennt tiltækt |
-| BANDARÍKIN        | Norður- og miðríki Bandaríkjanna    | Almennt tiltækt |
-| BANDARÍKIN        | Suður- og miðríki Bandaríkjanna    | Almennt tiltækt |
-| BANDARÍKIN        | Miðríki Bandaríkjanna          | Almennt tiltækt |
-| BANDARÍKIN        | Vesturhluti Bandaríkjanna             | Almennt tiltækt |
-| BANDARÍKIN        | Vestur-Bandaríkin 2           | Almennt tiltækt |
-| BANDARÍKIN        | Kanada Mið      | Takmarkað afkastageta    |
-| BANDARÍKIN        | Kanada Austur         | Takmarkað afkastageta    |
-| BANDARÍKIN        | Vestur Mið-Bandaríkin     | Takmarkað afkastageta    |
-| APAC            | Austur-Ástralía      | Almennt tiltækt |
-| APAC            | Suðaustur-Asía      | Almennt tiltækt |
-| APAC            | Austur-Japan          | Almennt tiltækt |
-| APAC            | Vestur-Japan          | Almennt tiltækt |
-| APAC            | Suðaustur-Ástralía | Takmarkað afkastageta    |
-| APAC            | Austur-Asía           | Takmarkað afkastageta    |
-| APAC            | Indland suður         | Takmarkað afkastageta    |
-| APAC            | Miðbær Indlands       | Takmarkað afkastageta    |
-| EMEA            | Vestur-Evrópa         | Almennt tiltækt |
-| EMEA            | Norður-Evrópa        | Almennt tiltækt |
-| EMEA            | Bretland suður            | Takmarkað afkastageta    |
-| EMEA            | Bretland vestur             | Takmarkað afkastageta    |
+| Staðsetning á heimsvísu | Svæði              | Framboð        | Athugasemdir                  |
+|-----------------|---------------------|---------------------|---------------------------|
+| BANDARÍKIN        | Austurhluti Bandaríkjanna             | Almennt tiltækt |                           |
+| BANDARÍKIN        | Austurhluti Bandaríkjanna 2           | Almennt tiltækt |                           |
+| BANDARÍKIN        | Norður- og miðríki Bandaríkjanna    | Takmarkað afkastageta    |                           |
+| BANDARÍKIN        | Suður- og miðríki Bandaríkjanna    | Takmarkað afkastageta    |                           |
+| BANDARÍKIN        | Miðríki Bandaríkjanna          | Almennt tiltækt |                           |
+| BANDARÍKIN        | Vesturhluti Bandaríkjanna             | Almennt tiltækt |                           |
+| BANDARÍKIN        | Vestur-Bandaríkin 2           | Almennt tiltækt |                           |
+| BANDARÍKIN        | Kanada Mið      | Takmarkað afkastageta    |                           |
+| BANDARÍKIN        | Kanada Austur         | Takmarkað afkastageta    |                           |
+| BANDARÍKIN        | Vestur Mið-Bandaríkin     | Takmarkað afkastageta    |                           |
+| APAC            | Austur-Ástralía      | Almennt tiltækt |                           |
+| APAC            | Suðaustur-Asía      | Afkastageta takmarkað | Engin dreifing leyfð    |
+| APAC            | Austur-Japan          | Almennt tiltækt |                           |
+| APAC            | Vestur-Japan          | Almennt tiltækt |                           |
+| APAC            | Suðaustur-Ástralía | Almennt tiltækt |                           |
+| APAC            | Austur-Asía           | Takmarkað afkastageta    |                           |
+| APAC            | Indland suður         | Afkastageta takmarkað | Engin dreifing leyfð    |
+| APAC            | Miðbær Indlands       | Takmarkað afkastageta    | Krefst samþykkisferlis |
+| EMEA            | Vestur-Evrópa         | Almennt tiltækt |                           |
+| EMEA            | Norður-Evrópa        | Almennt tiltækt |                           |
+| EMEA            | Bretland suður            | Takmarkað afkastageta    |                           |
+| EMEA            | Bretland vestur             | Takmarkað afkastageta    |                           |
+| Sviss     | Sviss norður   | Takmarkað afkastageta    | Krefst samþykkisferlis |
+| UAE             | Norður UAE           | Takmarkað afkastageta    | Krefst samþykkisferlis |
 
-Dreifingargeta á svæðum með takmarkaða getu er mjög takmörkuð. Beiðnir um dreifingu eru metnar í hverju tilviki fyrir sig. Ef þú hefur sannfærandi viðskiptaþörf fyrir dreifingu á svæðum með takmarkaða afkastagetu geturðu lagt fram stuðningsbeiðni um að bætast á biðlistann.
+Dreifingargeta á svæðum með takmarkaða getu er mjög takmörkuð. Beiðnir um dreifingu eru metnar í hverju tilviki fyrir sig. Ef þú hefur sannfærandi viðskiptaþörf fyrir dreifingu á svæðum með takmarkaða afkastagetu geturðu lagt fram stuðningsbeiðni um að bætast við biðlistann. Afkastagetusvæði leyfa ekki uppsetningu viðskiptaskalaeiningar eins og er. 
 
 ![Kort sem sýnir framboð svæðis.](media/Commerce-Scale-Unit-Region-Availability.png "Kort sem sýnir framboð svæðis")
 

@@ -1,6 +1,6 @@
 ---
 title: Bakfæra bókaðar leigufærslur
-description: Þetta efnisatriði útskýrir hvernig á að bakfæra bókuð leiguviðskipti. Hægt er að bakfæra allar færslur sem eru stofnaðar í gegnum Eignaleigu.
+description: Þessi grein útskýrir hvernig á að bakfæra bókaða leigufærslu. Hægt er að bakfæra allar færslur sem eru stofnaðar í gegnum Eignaleigu.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1f45a06464962098f8ed98de5ae15080a778ce97
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 4f23b6cca6ddf4da7a0232a5bc61785dbd451d55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724954"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908068"
 ---
 # <a name="reverse-posted-lease-transactions"></a>Bakfæra bókaðar leigufærslur
 

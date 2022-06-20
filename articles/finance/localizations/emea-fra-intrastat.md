@@ -1,6 +1,6 @@
 ---
 title: Franskt Intrastat
-description: Þetta efnisatriði inniheldur upplýsingar um Intrastat-skattskýrslu í Frakklandi.
+description: Þessi grein inniheldur upplýsingar um Intrastat yfirlýsingu í Frakklandi.
 author: anasyash
 ms.date: 07/9/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4d38576e1c6b40242d5c6313fb06f08e170b4466
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e86d7c8f28b1b3df0066a588d380965c21dc98a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887854"
 ---
 # <a name="french-intrastat"></a>Franskt Intrastat
 
@@ -90,14 +90,14 @@ Taflan tilgreinir einnig skýrslustig reitsins. Reiturinn getur verið **4** (ei
 
     Frekari upplýsingar eru í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-2.  Í Dynamics 365 Finance skal fara í **Skattur** > **Uppsetning** >  **Erlend viðskipti** > **Færibreytur erlendra viðskipta** og fylgja þessum skrefum:
+2.  Í Dynamics 365 Finance, farðu í **Skattur** > **Uppsetning** >  **Utanríkisviðskipti** > **Staðlar utanríkisviðskipta**, og fylgdu þessum skrefum:
 
     1. Í flipanum **Intrasta**, í flýtiflipanum **Rafræn skýrslugerð**, í reitnum **Vörpun skráarsniðs**, skal velja **Intrastat-INTRACOM (FR)** eða **Intrastat-SAISUNIC (FR)**.
     2. Í reitnum **Vörpun skýrslusniðs** skal velja **Intrastat skýrslu**.
     3. Í flýtiflipanum **Stigveldi vörukóða**, í reitnum **Tegundastigveldi**, velja **Intrastat**.
     4. Í flýtiflipanum **Almennt**, í reitnum **Færslukóði**, skal velja kóðann sem er notaður fyrir flutning á vörum.
     5. Í reitnum **Kreditreikningur** skal velja kóðann sem er notaður fyrir vöruskil.
-    6. Í reitnum **Skyldustig fyrir útflutning** skal færa inn stig upplýsinga fyrir skýrslu útflutnings. Stigið sem þú velur hefur áhrif á línurnar sem sýndar eru í skýrslunni. Frekari upplýsingar er að finna í töflum í upphafi efnisatriðisins.
+    6. Í reitnum **Skyldustig fyrir útflutning** skal færa inn stig upplýsinga fyrir skýrslu útflutnings. Stigið sem þú velur hefur áhrif á línurnar sem sýndar eru í skýrslunni. Fyrir frekari upplýsingar, sjá töflurnar í upphafi þessarar greinar.
 
 3. Farðu í **Fyrirtækisstjórnun** > **Fyrirtæki** > **Lögaðilar**, veldu fyrirtækið þitt og fylgdu síðan þessum skrefum:
 

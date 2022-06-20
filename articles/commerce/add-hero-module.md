@@ -1,6 +1,6 @@
 ---
-title: Innihaldsbálkseining
-description: Þetta efni fjallar um efnisbálkaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
+title: Eining fyrir bálk með efni
+description: Þessi grein fjallar um efnisblokkareiningar og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 85d101c73e723d246e1f6af61acb51f6d6516a79
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 253600e48bab2ecfb1e744e15d2fe36fa1ec6765
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870611"
 ---
 # <a name="content-block-module"></a>Eining fyrir bálk með efni
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni fjallar um efnisbálkaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um efnisblokkareiningar og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 
 Innihaldsbálkseining er notuð til að markaðssetja vörur eða kynningar með blöndu af myndum og texta. Til dæmis getur smásali bætt innihaldsbálkseiningu á heimasíðu svæðis fyrir rafræn viðskipti til að kynna nýja vöru og vekja athygli viðskiptavina.
 
@@ -77,7 +77,7 @@ Fylgdu þessum skrefum til að bæta hetjueiningu við nýja síðu og stilla na
 1. Í hólfinu **Aðal** á sjálfgefnu síðunni bætirðu við hetjueiningu.
 1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
 1. Notaðu sniðmátið fyrir aðalsíðuna sem þú varst að búa til, til að búa til síðu sem heitir **Síða útilokunar á efni**.
-1. Í **Aðal** rauf sjálfgefna síðunnar, veldu sporbaug hnappinn (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Aðal** rauf sjálfgefna síðunnar, veldu sporbaughnappinn (**...**), og veldu síðan **Bæta við einingu**.
 1. Í **Veldu einingar** valmynd, veldu hetjueininguna og veldu síðan **Allt í lagi**.
 1. Veldu innihaldsbálkseininguna í útlínutrénu til vinstri.
 1. Í eiginleikaglugganum til hægri velurðu **Bæta við mynd**. Veldu þá annaðhvort núverandi mynd eða hladdu upp nýrri mynd.

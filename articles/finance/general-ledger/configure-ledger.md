@@ -1,6 +1,6 @@
 ---
 title: Grunnstilla fjárhag
-description: Í þessu efnisatriði er að finna upplýsingar um hvernig á að grunnstilla fjárhag fyrir hvern lögaðila. Þar eru upplýsingar um hvernig á að velja gjaldmiðla, fjárhagsdagatöl, bókhaldslykla og skipulag lykla sem á að nota í hverjum lögaðila.
+description: Þessi grein veitir upplýsingar um hvernig á að stilla fjárhagsbókhald fyrir hvern lögaðila. Þar eru upplýsingar um hvernig á að velja gjaldmiðla, fjárhagsdagatöl, bókhaldslykla og skipulag lykla sem á að nota í hverjum lögaðila.
 author: kweekley
 ms.date: 09/24/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 38c4364c47915cc0019cb6b3d471d3e60d413bf0
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711549"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864340"
 ---
 # <a name="configure-ledgers"></a>Grunnstilla fjárhag
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna upplýsingar um hvernig á að grunnstilla fjárhag fyrir hvern lögaðila. Þar eru upplýsingar um hvernig á að velja gjaldmiðla, fjárhagsdagatöl, bókhaldslykla og skipulag lykla sem á að nota í hverjum lögaðila.
+Þessi grein veitir upplýsingar um hvernig á að stilla fjárhagsbókhald fyrir hvern lögaðila. Þar eru upplýsingar um hvernig á að velja gjaldmiðla, fjárhagsdagatöl, bókhaldslykla og skipulag lykla sem á að nota í hverjum lögaðila.
 
 ## <a name="selecting-the-chart-of-accounts"></a>Val bókhaldslykils
 

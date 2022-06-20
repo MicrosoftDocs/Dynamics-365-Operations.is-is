@@ -1,6 +1,6 @@
 ---
 title: Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar
-description: Þetta efnisatriði lýsir því hvernig hægt er að bæta skriftarkóða biðlara við síður svæðisins til að styðja söfnun fjarmælinga biðlara.
+description: Þessi grein lýsir því hvernig á að bæta handritakóða við biðlarahlið við vefsíðurnar þínar til að styðja við söfnun á fjarmælingum viðskiptavinarhliðar.
 author: bicyclingfool
 ms.date: 09/29/2020
 ms.topic: article
@@ -14,23 +14,23 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f796a3e10345da41ff461b656d88affb3adbdf9e
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 262216ee99d52e3d53f5f5dae663104bb79757c6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852842"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig hægt er að bæta skriftarkóða biðlara við síður svæðisins til að styðja söfnun fjarmælinga biðlara.
+Þessi grein lýsir því hvernig á að bæta handritakóða við biðlarahlið við vefsíðurnar þínar til að styðja við söfnun á fjarmælingum viðskiptavinarhliðar.
 
 Vefgreining er ómissandi tæki þegar þú vilt skilja hvernig viðskiptavinir þínir hafa samskipti við vefsíðuna og taka ákvarðanir sem munu hjálpa til við að hámarka upplifunina fyrir hámarks umreikning. Margir vefgreiningarpakkar eru í boði til að hjálpa þér að ná þessum markmiðum, eins og Google Analytics, Clicky, Moz Analytics og KISSMetrics. Flestir vefgreiningarpakkar krefjast þess að bætt sé við skriftarkóða biðlaramegin í einingu **\<head\>** í HTML fyrir allar síður á vefsvæðinu þínu.
 
 > [!NOTE]
-> Leiðbeiningarnar í þessu efnisatriði eiga einnig við um aðra sérstillta biðlaravirkni sem Microsoft Dynamics 365 Commerce ekki er hægt að veita í öllum löndum.
+> Leiðbeiningarnar í þessari grein eiga einnig við um aðra sérsniðna virkni viðskiptavinarhliðar sem Microsoft Dynamics 365 Commerce býður ekki upp á native.
 
 ## <a name="create-a-reusable-fragment-for-your-script-code"></a>Stofnaðu endurnýtanlegt brot fyrir skriftarkóðann
 

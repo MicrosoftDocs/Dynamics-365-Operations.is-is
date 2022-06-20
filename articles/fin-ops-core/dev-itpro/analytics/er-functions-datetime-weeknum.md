@@ -1,6 +1,6 @@
 ---
 title: WEEKNUM ER aðgerð
-description: Þetta efnisatriði veitir upplýsingar um hvernig WEEKNUM rafræn skýrslugerð (ER) aðgerðin er notuð.
+description: Þessi grein veitir upplýsingar um hvernig WEEKNUM rafræn skýrslugerð (ER) aðgerðin er notuð.
 author: NickSelin
 ms.date: 01/15/2022
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: 37e62b32896e2030b3322a89ac4acdd6c18d5e3c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 2c6eef0d6e1f90a3f8d382591edad3d568da84ec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982178"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858771"
 ---
 # <a name="weeknum-er-function"></a>WEEKNUM ER aðgerð
 
@@ -41,7 +41,7 @@ Dagsetningargildi sem táknar dagsetninguna sem á að nota til að reikna út v
 
 `culture`:*[Strengur](er-formula-supported-data-types-primitive.md#string)*
 
-Menningin sem á að nota við útreikninginn. Þú getur notað menningarkóða sem eru studdir í samræmi við .NET [staðla](/dotnet/api/system.globalization.cultureinfo.getcultures?view=net-5.0).
+Menningin til að nota við útreikninginn. Þú getur notað menningarkóða sem eru studdir í samræmi við .NET [staðla](/dotnet/api/system.globalization.cultureinfo.getcultures?view=net-5.0).
 
 ## <a name="return-values"></a>Skilagildi
 

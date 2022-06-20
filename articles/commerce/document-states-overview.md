@@ -1,6 +1,6 @@
 ---
-title: Staða skjala og líftíma
-description: Þetta efnisatriði nær yfir mismunandi skjalstöður síðueininga í Microsoft Dynamics 365 Commerce.
+title: Staða og líftími skjala
+description: Þessi grein fjallar um hinar ýmsu skjalastöður síðuþátta í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ad8547fe6b36caf75ce78cb09fb2caf901c63afe43fa4755bb9e5c69427829d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04836ecf80fc86ab6abb96e4255779c8c03988d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909459"
 ---
 # <a name="document-states-and-lifecycle"></a>Staða og líftími skjala
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði nær yfir mismunandi skjalstöður síðueininga í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um hinar ýmsu skjalastöður síðuþátta í Microsoft Dynamics 365 Commerce.
 
 ## <a name="document-state-descriptions"></a>Lýsing skjalastöðu
 
-Efnið [Síðueiningar](page-elements-overview.md) er með lista yfir ýmsar gerðir skjala í efnisstjórnunarkerfinu (CMS). Þessar skjalategundir geta haft nokkrar stöður í höfundatólinu. Skjalastöðurnar hjálpa til við að koma í veg fyrir árekstur gagna og framfylgja útgáfustjórnun. Þær ákvarða hverjir geta breytt skjölunum, hvenær hægt er að breyta skjölunum og hvenær aðrir geta skoðað breytingar.
+The [Síðuþættir](page-elements-overview.md) grein listar upp ýmsar skjalagerðir í vefumsjónarkerfinu (CMS). Þessar skjalategundir geta haft nokkrar stöður í höfundatólinu. Skjalastöðurnar hjálpa til við að koma í veg fyrir árekstur gagna og framfylgja útgáfustjórnun. Þær ákvarða hverjir geta breytt skjölunum, hvenær hægt er að breyta skjölunum og hvenær aðrir geta skoðað breytingar.
 
 Eftirfarandi tafla sýnir mögulegar skjalastöður síðueininga í Commerce.
 

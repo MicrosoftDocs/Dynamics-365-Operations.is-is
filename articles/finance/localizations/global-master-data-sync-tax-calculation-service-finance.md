@@ -1,6 +1,6 @@
 ---
 title: Samstilltu skattauppsetninguna frá skattreikningsþjónustunni við Dynamics 365 Finance
-description: Þetta efnisatriði útskýrir hvernig á að samstilla aðalgögn skattuppsetningar frá skattútreikningsþjónustu við Microsoft Dynamics 365 Fjármál.
+description: Þessi grein útskýrir hvernig á að samstilla aðalgögn skattuppsetningar frá skattreikningsþjónustu við Microsoft Dynamics 365 Fjármál.
 author: wangchen
 ms.date: 01/05/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3a9c11a6f5946d56b9e58a02c37f18adec155661
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b017a19834998e1c493b0a38c1b50accd8c7e630
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687787"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853158"
 ---
 # <a name="sync-the-tax-setup-from-the-tax-calculation-service-to-dynamics-365-finance"></a>Samstilltu skattauppsetninguna frá skattreikningsþjónustunni við Dynamics 365 Finance
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að samstilla aðalgögn skattuppsetningar frá skattútreikningsþjónustu við Microsoft Dynamics 365 Fjármál.
+Þessi grein útskýrir hvernig á að samstilla aðalgögn skattuppsetningar frá skattreikningsþjónustu við Microsoft Dynamics 365 Fjármál.
 
 Eftir að þú hefur lokið nauðsynlegum uppsetningarskrefum inn [Byrjaðu á skattaútreikningi](global-get-started-with-tax-calculation-service.md), eru eftirfarandi skattuppsetningargögn sjálfkrafa samstillt frá skattreikningsþjónustunni við fjármál.
 
@@ -44,8 +44,8 @@ Eftir að þú hefur lokið nauðsynlegum uppsetningarskrefum inn [Byrjaðu á s
 
 | Skattaútreikningsþjónusta | Finance                   |
 | ----------------------- | ------------------------- |
-| Frá-færsludagsetning   | Frá dagsetning                 |
-| Til-færsludagsetning     | Til dagsetning                   |
+| Frá-færsludagsetning   | Frá dags.                 |
+| Til-færsludagsetning     | Til dagsetningar                   |
 | Lágmarksupphæð          | Neðri mörk             |
 | Hámarksupphæð          | Hámarksgildi             |
 | Skatthlutfall                | Gildi                     |
@@ -55,8 +55,8 @@ Eftir að þú hefur lokið nauðsynlegum uppsetningarskrefum inn [Byrjaðu á s
 
 | Skattaútreikningsþjónusta | Finance           |
 | ----------------------- | ----------------- |
-| Frá-færsludagsetning   | Frá dagsetning         |
-| Til-færsludagsetning     | Til dagsetning           |
+| Frá-færsludagsetning   | Frá dags.         |
+| Til-færsludagsetning     | Til dagsetningar           |
 | Lágmarksskattupphæð      | Lágmark VSK |
 | Hámarksskattsupphæð      | Hámark VSK |
 

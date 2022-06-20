@@ -1,6 +1,6 @@
 ---
 title: Mynda og yfirfara launaaðila
-description: Þetta efnisatriði lýsir því hvernig á að mynda og yfirfara launaeiningar.
+description: Þessi grein lýsir því hvernig á að búa til og skoða launaeiningar.
 author: twheeloc
 ms.date: 04/07/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8b69216a2b864645447f27f54319014cb166791c
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 8ad69e1e1b3cbcaeccec7cbbec3493d4244e74a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533853"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856368"
 ---
 # <a name="generate-payroll-entities"></a>Mynda launaeiningar
 

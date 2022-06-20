@@ -1,6 +1,6 @@
 ---
 title: Neðanmálseining
-description: Þetta efni fjallar um neðanmálseiningar og hvernig á að stofna þær í Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um fóteiningar og hvernig á að skrifa þær í Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 542796ffce08694954d03878cd7782b01c2c6b27
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 4e7796d9700eabc923f2bb45187832d5993ae56e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876613"
 ---
 # <a name="footer-module"></a>Neðanmálseining  
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni fjallar um síðufótseiningar og lýsir hvernig á að stofna þær í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um fóteiningar og lýsir því hvernig á að búa þær til í Microsoft Dynamics 365 Commerce.
 
 Neðanmálseiningin er sérstakur gámur sem er notaður til að hýsa einingarnar sem birtast í síðufætinum. Til dæmis getur hún innihaldið tengla á ýmsar síður á vefsvæðinu, eins og síðurnar **Hafa samband** og **Stefna verslunar**.
 
@@ -39,7 +39,7 @@ Eins og á við um flesta gáma, styður neðanmálseiningin eiginleika fyrir fy
 
 ## <a name="modules-available-in-a-footer-module"></a>Einingar eru fáanlegar í neðanmálseiningunni
 
-**Fótur atriði** – Fóthlutaeining getur innihaldið annað hvort fyrirsögn eða tengil. Fyrirsögnin er almennt notuð sem heiti fótahluta.  Hægt er að stilla hvern tengil í neðanmálinu þannig að hann hafi bara texta (til dæmis tenglana „Hafðu samband“ og „Persónuvernd“), eða þannig að hann hafi bæði texta og mynd (til dæmis tengla á samfélagsmiðlum). Ef bæði fyrirsögn og hlekkur er til staðar mun fyrirsagnareiginleikinn hafa forgang yfir hlekkinn. 
+**Fótur atriði** – Fóthlutaeining getur innihaldið annað hvort fyrirsögn eða tengil. Fyrirsögnin er almennt notuð sem heiti fótahluta.  Hægt er að stilla hvern tengil í neðanmálinu þannig að hann hafi bara texta (til dæmis tenglana „Hafðu samband“ og „Persónuvernd“), eða þannig að hann hafi bæði texta og mynd (til dæmis tengla á samfélagsmiðlum). Ef bæði fyrirsögn og tengill eru gefin upp mun fyrirsagnareiginleikinn hafa forgang yfir tengilinn. 
 
 **Efst á síðu** - Einingin Efst á síðu veitir tengil fyrir fljótlega flettingu efst á síðuna. Áfangastaðar er krafist. Sjálfgefið gildi áfangastaðar er \#, sem fer með notandann efst á síðuna.
 

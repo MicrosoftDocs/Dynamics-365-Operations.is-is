@@ -1,6 +1,6 @@
 ---
-title: Lífferilsstöður eigna
-description: Þetta efni skýrir eignalíftímastöður og líftímalíkön í eignastýringu.
+title: Líftímastöður eigna
+description: Þessi grein útskýrir líftíma stöðu eigna og líftímalíkön í eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55139c6458e569b15518f0f11f1c12c3a26cae2f26c6a2046a7ebdc1277cb144
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43b1ff9438437e6c1ff33bab9a7ba0361029cb6d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722464"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901061"
 ---
-# <a name="asset-lifecycle-states"></a>Lífferilsstöður eigna
+# <a name="asset-lifecycle-states"></a>Líftímastöður eigna
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Þetta efni skýrir eignalíftímastöður og líftímalíkön í eignastýringu. Líftímastöður eigna eru notaðar til að skilgreina hvort eignin sé virk eða óvirk. Þú getur til dæmis sett upp eignalífsferilstig eins og **Stofnað**, **Virkur**, og **Hætt**.
+Þessi grein útskýrir líftíma stöðu eigna og líftímalíkön í eignastýringu. Líftímastöður eigna eru notaðar til að skilgreina hvort eignin sé virk eða óvirk. Þú getur til dæmis sett upp eignalífsferilstig eins og **Stofnað**, **Virkur**, og **Hætt**.
 
 > [!NOTE]
 > - Beiðni um líftímastöður er tengd við líftímastöður eigna. Þess vegna, þegar beiðni er breytt í nýja líftímastöðu beiðni þá er eigninni sem fylgir beiðninni breytt í nýja líftímastöðu eignar. Til dæmis, ef líftíma beiðni er breytt í **Á heimleið**, er líftímastöðu meðfylgjandi eignar breytt í líftímastöðuna sem var valin í reitnum **Líftímastaða á innleið** á flýtiflipanum **Líftímastaða eigna** á síðunni **Líkön líftímastöðu eigna**. 

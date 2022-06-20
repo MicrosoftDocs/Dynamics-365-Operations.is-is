@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8f07631b5ba0a1736f532daeda21a2585f3b960
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7aaec8e375b06281e93832eb841e364f09383b2a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886223"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Nýjungar eða breytingar í Mannauði
 
 > [!IMPORTANT]
-> Virknin sem bent er á í þessu efni er nú í boði fyrir viðskiptavini á sjálfstæða Dynamics 365 Human Resources. Sum eða öll virknin verður í boði sem hluti af síðari útgáfu í tölvukerfi Finance eftir útgáfu 10.0.25 af Finance.  
+> Virknin sem getið er um í þessari grein er nú í boði fyrir viðskiptavini á sjálfstæða Dynamics 365 Human Resources. Sum eða öll virknin verður í boði sem hluti af síðari útgáfu í tölvukerfi Finance eftir útgáfu 10.0.25 af Finance.  
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

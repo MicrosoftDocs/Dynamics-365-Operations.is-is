@@ -1,6 +1,6 @@
 ---
-title: Búðu til Azure geymslureikning í Azure gáttinni
-description: Þetta efni útskýrir hvernig á að búa til Azure geymslureikning fyrir rafræna reikninga.
+title: Stofna Azure-geymslureikning í Azure-gáttinni
+description: Þessi grein útskýrir hvernig á að búa til Azure geymslureikning fyrir rafræna reikninga.
 author: dkalyuzh
 ms.date: 02/14/2022
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3d9647e234b3603ef6305ec6031a793b744bbe98
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 4380261140086bcb278162f8dc70b39eaa7078fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898019"
 ---
-# <a name="create-an-azure-storage-account-in-the-azure-portal"></a>Búðu til Azure geymslureikning í Azure gáttinni
+# <a name="create-an-azure-storage-account-in-the-azure-portal"></a>Stofna Azure-geymslureikning í Azure-gáttinni
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,7 +49,7 @@ Allar rafrænar skrár sem eru búnar til af rafrænum reikningaþjónustu eða 
     - Bæta við
     - Búa til
     - Skrifa
-    - Virk útgáfa
+    - Eyða
     - Listi
 
 14. Veljið **Mynda SAS-merki og vefslóð**.

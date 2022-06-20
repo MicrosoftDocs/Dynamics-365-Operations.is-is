@@ -1,6 +1,6 @@
 ---
-title: Selja eign með reikningi með frjálsum texta
-description: Þetta efni útskýrir hvernig á að kaupa eignir með því að nota kauptillögu í færslubók eigna.
+title: Losa eign með reikningi með frjálsum texta
+description: Þessi grein útskýrir hvernig á að eignast fastafjármuni með því að nota yfirtökutillöguna í Fastafjármunum.
 author: moaamer
 ms.date: 08/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 711ab4b4798127ca54d7138b0aae02d71fe8bec3
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: bb930bd35aa86c6bc3b2e7a5577ff16e3feb151a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713567"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896435"
 ---
-# <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Selja eign með reikningi með frjálsum texta
+# <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Losa eign með reikningi með frjálsum texta
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni útskýrir hvernig losnað er við eign með reikningi með frjálsum texta.
+Þessi grein útskýrir hvernig á að ráðstafa fastafjármunum með því að nota reikninginn með frjálsum texta.
 
 1. Í skoðunarrúðunni ferðu í **Einingar > Viðskiptakröfur > Reikningar > Allir frjálsir textareikningar**.
 2. Veljið **Nýtt**.

@@ -1,8 +1,8 @@
 ---
 title: Forrit birgðasýnileika
-description: Í þessu efnisatriði er lýst hvernig á að nota forrit birgðasýnileika.
+description: Þessi grein lýsir því hvernig á að nota Inventory Visibility appið.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 359f89f98ca6954a0bbafd63fffa1d505a43f0c8
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060973"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895758"
 ---
-# <a name="use-the-inventory-visibility-app"></a>Nota forrit birgðasýnileika
+# <a name="use-the-inventory-visibility-app"></a>Nota Inventory Visibility-forritið
 
 [!include [banner](../includes/banner.md)]
 
 
-Í þessu efnisatriði er lýst hvernig á að nota forrit birgðasýnileika.
+Þessi grein lýsir því hvernig á að nota Inventory Visibility appið.
 
 Birgðasýnileiki býður upp á líkanadrifið forrit fyrir myndræna framsetningu. Forritið inniheldur þrjár síður: **Skilgreining**, **Rekstrarsýnileiki** og **Birgðasamantekt**. Það er með eftirfarandi eiginleika:
 
@@ -70,7 +70,10 @@ Til að bóka frátekningarbeiðni þarftu að færa inn gildi í meginmál bei�
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Birgðayfirlit
 
-**Birgðasamantekt** er sérstillt yfirlit fyrir Einingu fyrir *samtölu lagerbirgða*. Þar er að finna birgðasamantekt fyrir afurðir ásamt öllum víddum. Gögn birgðasamantektar verða samstillt reglulega úr birgðasýnileika. Áður en hægt er að sjá gögn í flipanum **Birgðasamantekt** þarf að kveikja á eiginleikanum *OnHandMostSpecificBackgroundService* í flipanum **Eiginleikastjórnun**.
+**Birgðasamantekt** er sérstillt yfirlit fyrir Einingu fyrir *samtölu lagerbirgða*. Þar er að finna birgðasamantekt fyrir afurðir ásamt öllum víddum. Birgðayfirlitsgögn eru samstillt reglulega frá Birgðasýnileika á 15 mínútna fresti. Til að sjá gögn um **Birgðayfirlit** flipann verður þú að kveikja á *OnHandMostSpecificBackgroundService* eiginleiki á **Eiginleikastjórnun** flipann og veldu **Uppfærðu stillingar**.
+
+> [!NOTE]
+> The *OnHandMostSpecificBackgroundService* eiginleiki fylgist aðeins með vörubreytingum sem áttu sér stað eftir að þú kveiktir á eiginleikanum. Gögn fyrir vörur sem hafa ekki breyst síðan þú kveiktir á eiginleikanum verða ekki samstillt úr skyndiminni birgðaþjónustunnar við Dataverse umhverfi. Ef þín **Birgðayfirlit** síða sýnir ekki allar þær upplýsingar sem þú ert að búast við, farðu á **Birgðastjórnun > Reglubundin verkefni > Samþætting birgðasýnileika**, slökktu á runuvinnslunni og virkjaðu það aftur. Þetta mun gera fyrstu ýtuna og öll gögn verða samstillt við *Inventory OnHand Summa* aðila á næstu 15 mínútum. Ef þú vilt nota þennan eiginleika mælum við með því að þú kveikir á honum áður en þú býrð til breytingar á hendi og virkjar **Samþætting birgðasýnileika** lotuvinna.
 
 Með því að nota **Ítarlega sía** sem Dataverse býður upp á getur þú búið til eigið yfirlit sem sýnir línurnar sem skipta þig máli. Ítarlegir síuvalkostir gera þér kleift að búa til margvísleg yfirlit, bæði einföld og flókin. Þeir gera þér einnig kleift að bæta flokkuðum og földuðum skilyrðum við síurnar. Frekari upplýsingar um hvernig á að nota **Ítarlega sía** er að finna í [Breyta eða búa til eigin yfirlit með ítarlegum síum hnitanets](/powerapps/user/grid-filters-advanced).
 

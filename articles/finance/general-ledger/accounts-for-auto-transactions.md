@@ -1,6 +1,6 @@
 ---
 title: Lyklar fyrir sjálfvirkar færslur
-description: Þetta efnisatriði útskýrir hvernig reikningar fyrir sjálfvirkar færslur eru notaðar til að bóka í gegnum Microsoft Dynamics 365, og gefur dæmi um lykilreikninga fyrir sjálfvirkar færslur.
+description: Þessi grein útskýrir hvernig reikningar fyrir sjálfvirkar færslur eru notaðar til að bóka í gegnum Microsoft Dynamics 365, og gefur dæmi um lykilreikninga fyrir sjálfvirkar færslur.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 275c74d673d1ba2468e23c5fa443c9272d13a184
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 74e72840fea1f5d89c908b00e2cf572bce6befbe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735261"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880760"
 ---
 # <a name="accounts-for-automatic-transactions"></a>Lyklar fyrir sjálfvirkar færslur
 
@@ -36,7 +36,7 @@ Eftirfarandi tafla sýnir dæmi um sjálfgefnar færslugerðir sem eru búnar ti
 
 | Bókunargerð | Dæmi um aðalreikning | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit? | Millireikningur | Lýsing |
 |--------------|----------------------|---------------------------|--------------|---------------|------------------|-------------|
-| Auramismunur í skýrslugjaldmiðli | 618160 | Ýmis kostnaður | Kostnaður | Bæði | Nr. | Þessi bókunartegund er notuð þegar eyrismunur á sér stað þegar færsluupphæð í erlendum gjaldmiðli er umreiknuð í skýrslugjaldmiðilinn. |
+| Auramismunur í skýrslugjaldmiðli | 618160 | Ýmis kostnaður | Kostnaður | Bæði | Nr. | Þessi bókunartegund er notuð þegar eyrismunur á sér stað þegar færsluupphæð í erlendum gjaldmiðli er færð yfir í skýrslugjaldmiðilinn. |
 | Auramismunur í bókhaldsgjaldmiðli | 618160 | Ýmis kostnaður | Kostnaður | Bæði | Nr. | Þessi bókunartegund er notuð þegar eyrismunur á sér stað þegar færsluupphæð í erlendum gjaldmiðli er færð yfir á bókhaldsgjaldmiðilinn. |
 | Villulykill | 999999 | Villureikningur | Kostnaður | Bæði | Nr. | Þessi bókunartegund er notuð þegar villa kemur upp í kerfinu. Reikningurinn ætti að vera staðfestur á hverju tímabili og allar villur ætti að leysa. |
 | Niðurstaða í árslok | 300160 | Óráðstafað eigið fé | Eigið fé | Bæði | Nr. | Þessi bókunartegund er notuð þegar lokaferli ársins er keyrt til að færa stöðu reikninga á **Hagnaður og tap** sláðu inn á aðalreikninginn sem er valinn fyrir árslokauppgjör. |
@@ -49,7 +49,7 @@ Eftirfarandi tafla sýnir dæmi um fleiri færslugerðir sem þarf að stilla ef
 
 | Bókunargerð | Dæmi um aðalreikning | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit? | Millireikningur | Lýsing |
 |--------------|----------------------|---------------------------|--------------|---------------|------------------|-------------|
-| Jafnvægisreikningur fyrir samstæðumun | 801200 | Hagnaður og tap - Endurmat | Kostnaður | Bæði | Nr. | Þessi bókunartegund er notuð þegar þú framkvæmir samstæðu sem felur í sér endurmat gjaldmiðils og munur á krónum kemur fram við endurmatið. |
-| Rekstrarreikningur fyrir samstæðumismun | 801200 | Hagnaður og tap - Endurmat | Kostnaður | Bæði | Nr. | Þessi bókunartegund er notuð þegar þú framkvæmir samstæðu sem felur í sér endurmat gjaldmiðils og munur á krónum kemur fram við endurmatið. |
+| Jafnvægisreikningur fyrir samstæðumun | 801200 | Hagnaður og tap - Endurmat | Kostnaður | Bæði | Nr. | Þessi bókunartegund er notuð þegar þú framkvæmir sameiningu sem felur í sér endurmat gjaldmiðils og munur á krónum kemur fram við endurmatið. |
+| Rekstrarreikningur fyrir samstæðumismun | 801200 | Hagnaður og tap - Endurmat | Kostnaður | Bæði | Nr. | Þessi bókunartegund er notuð þegar þú framkvæmir sameiningu sem felur í sér endurmat gjaldmiðils og munur á krónum kemur fram við endurmatið. |
 | Millieiningar – debet | 133500 | Innheimta milli eininga | Eign | Debet | Nr. | Þessi bókunartegund er notuð þegar þú velur jöfnunarvídd á **Fjárhagsbók** síðu og víddin kemur ekki í jafnvægi í færslu sem er bókuð. |
-| Millieining - kredit | 233500 | Greiðsla milli eininga | Skuld | Kredit | Nr. | Þessi bókunartegund er notuð þegar þú velur jöfnunarvídd á **Fjárhagsbók** síðu og víddin kemur ekki í jafnvægi í færslu sem er bókuð. |
+| Millieining - kredit | 233500 | Greiðsla milli eininga | Bótaábyrgð | Kredit | Nr. | Þessi bókunartegund er notuð þegar þú velur jöfnunarvídd á **Fjárhagsbók** síðu og víddin kemur ekki í jafnvægi í færslu sem er bókuð. |

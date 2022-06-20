@@ -1,6 +1,6 @@
 ---
 title: Tengja svæði Dynamics 365 Commerce við netrás
-description: Þetta efni útskýrir hvernig á að binda Microsoft Dynamics 365 Commerce svæðið við eina eða fleiri netverslanir.
+description: Þessi grein útskýrir hvernig á að binda þig Microsoft Dynamics 365 Commerce síðu til einnar eða fleiri netverslana.
 author: bicyclingfool
 ms.date: 07/02/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 60ead45e6e2b7fea8f04371310ff4315205e11f6e0968e5f8bbc6a29c5f26e18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 006c8b60791e0176c808762025f3bfdeaff9c48d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737654"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878674"
 ---
 # <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Tengja svæði Dynamics 365 Commerce við netrás
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að binda Microsoft Dynamics 365 Commerce svæðið við eina eða fleiri netverslanir. 
+Þessi grein útskýrir hvernig á að binda þig Microsoft Dynamics 365 Commerce síðu til einnar eða fleiri netverslana. 
 
 Eftir að þú hefur úthlutað Dynamics 365 Commerce rafræna viðskiptaumhverfinu þínu með því að nota Microsoft Dynamics Lifecycle Services (LCS) gáttina hefurðu þegar búið til fyrstu rafræna vefsvæðinu þínu. Sem hluta af upphaflegri gerð vefsvæðisins tengir þú vefinn við netverslun sem áður var stofnuð. Þetta skref bindur vefinn við netrás og lætur vefinn sýna stigveldi, vörur, flokka, verð, flutningsmöguleika og allt annað sem þú skilgreindir í netversluninni.
 

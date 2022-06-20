@@ -1,6 +1,6 @@
 ---
-title: Innbyggð svæði og vöruhús
-description: Þetta efni lýsir samþættingu svæðis- og vöruhúsgagna milli Finance and Operations og Dataverse.
+title: Samþætt svæði og vöruhús
+description: Þessi grein lýsir samþættingu svæðis- og vöruhúsagagna milli Finance and Operations og Dataverse.
 author: t-benebo
 ms.date: 10/09/2019
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: benebotg
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: 66c5962933387831bbc3f17b9f29128ceaaf750b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cd1293094f670c43eb46bc14b8bfe0f2afe43047
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852599"
 ---
-# <a name="integrated-sites-and-warehouses"></a>Innbyggð svæði og vöruhús
+# <a name="integrated-sites-and-warehouses"></a>Samþætt svæði og vöruhús
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-Þetta efni lýsir samþættingu svæðis- og vöruhúsgagna milli Finance and Operations og Dataverse. Rekstrarsvæði og vöruhús eru algeng hugtök í forritinu Supply Chain Management. Þau eru notuð til að móta aðfangakeðju fyrirtækisins.
+Þessi grein lýsir samþættingu svæðis- og vöruhúsagagna milli Finance and Operations og Dataverse. Rekstrarsvæði og vöruhús eru algeng hugtök í forritinu Supply Chain Management. Þau eru notuð til að móta aðfangakeðju fyrirtækisins.
 
 ## <a name="templates"></a>Sniðmát
 

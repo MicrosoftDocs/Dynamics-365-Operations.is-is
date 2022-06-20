@@ -1,6 +1,6 @@
 ---
 title: Uppsetning númeraraða á einstaklingsgrunni
-description: Þetta efni útskýrir hvernig setja skuli upp númeraraða á einstaklingsgrunni.
+description: Þessi grein útskýrir hvernig á að setja upp númeraraðir á einstaklingsgrundvelli.
 author: SunilGarg
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b95a639c593c0f126a9aa1dd50434838d09ef746
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 7be72d348957c5c6494958276b2baa9c67d63c58
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777914"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904989"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Uppsetning númeraraða á einstaklingsgrunni
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni útskýrir hvernig setja skuli upp númeraraða á einstaklingsgrunni. Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslur aðalgagna og færslur sem krefjast þeirra. Skýrsla aðalgagna eða færslu sem krefst kennis er kölluð Tilvísun. Áður en hægt er að stofna nýjar færslur fyrir tilvísun verður að setja upp númeraröð og tengja hana við tilvísunina. Stofna má bókhald fyrir allar númeraraðir sem þörf er á samtímis með því að nota leiðsagnarforritið **Setja upp númeraraðir** eða hægt er að stofna eða breyta einstaka númeraröðum með því að nota **númeraröð** síða.
+Þessi grein útskýrir hvernig á að setja upp númeraraðir á einstaklingsgrundvelli. Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslur aðalgagna og færslur sem krefjast þeirra. Skýrsla aðalgagna eða færslu sem krefst kennis er kölluð Tilvísun. Áður en hægt er að stofna nýjar færslur fyrir tilvísun verður að setja upp númeraröð og tengja hana við tilvísunina. Stofna má bókhald fyrir allar númeraraðir sem þörf er á samtímis með því að nota leiðsagnarforritið **Setja upp númeraraðir** eða hægt er að stofna eða breyta einstaka númeraröðum með því að nota **númeraröð** síða.
 
 1. Farðu í **Skoðunarrúða > Kerfiseiningar > Fyrirtækjastjórnun > Númeraraðir > Númeraraðir**.
 2. Velja **númeraraðir**.

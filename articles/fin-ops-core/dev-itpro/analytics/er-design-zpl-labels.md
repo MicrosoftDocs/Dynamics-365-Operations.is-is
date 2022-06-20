@@ -1,6 +1,6 @@
 ---
 title: Hanna nýja rafræna skýrslugerðarlausn til að prenta ZPL-merki
-description: Þetta efni útskýrir hvernig á að hanna nýja rafræna skýrslugerð (ER) lausn til að prenta Zebra Programming Language (ZPL) merki.
+description: Þessi grein útskýrir hvernig á að hanna nýja rafræna skýrslugerð (ER) lausn til að prenta Zebra Programming Language (ZPL) merki.
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: f861fe63c6d7d00d0a9f84d33c0d1b1b23735b61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612357"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845716"
 ---
 # <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Hanna nýja rafræna skýrslugerðarlausn til að prenta ZPL-merki
 
 [!include [banner](../includes/banner.md)]
 
 
-Þetta efnisatriði útskýrir hvernig notandi í hlutverki kerfisstjóra, rafrænnar skýrslugerðaraðila eða rafrænnar skýrslugerðarráðgjafa getur stillt færibreytur [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) ramma, hanna nauðsynlega ER [stillingar](general-electronic-reporting.md#Configuration) af nýrri ER lausn til að fá aðgang að gögnum vöruhúsastjórnunarkerfisins og búa til sérsniðna vöruhúsastaðsetningarmerki á Zebra Programming Language (ZPL) II sniði. Hægt er að ljúka skrefunum í **USRT** fyrirtækinu.
+Þessi grein útskýrir hvernig notandi í hlutverki kerfisstjóra, rafrænnar skýrslugerðaraðila eða rafrænnar skýrslugerðarráðgjafa getur stillt færibreytur [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) ramma, hanna nauðsynlega ER [stillingar](general-electronic-reporting.md#Configuration) af nýrri ER lausn til að fá aðgang að gögnum vöruhúsastjórnunarkerfisins og búa til sérsniðna vöruhúsastaðsetningarmerki á Zebra Programming Language (ZPL) II sniði. Hægt er að ljúka skrefunum í **USRT** fyrirtækinu.
 
 ## <a name="business-scenario"></a>Sviðsmynd fyrirtækis
 
@@ -56,7 +56,7 @@ Fylgdu þessum skrefum til að flytja inn nauðsynlegt gagnalíkan úr XML skrá
 
 ![Innflutt ER gagnalíkanstilling á síðunni Stillingar.](./media/er-design-zpl-labels-imported-model.png)
 
-### <a name="create-a-data-model-configuration"></a>Búðu til gagnalíkanstillingu
+### <a name="create-a-data-model-configuration"></a>Búðu til uppsetningu gagnalíkans
 
 Í stað þess að flytja inn gagnalíkanskrána sem Microsoft útvegaði, geturðu búið til gagnalíkan frá grunni. Fyrir dæmi sem sýnir hvernig á að klára þetta verkefni, sjá [Búðu til nýja gagnalíkanstillingu](er-quick-start1-new-solution.md#DesignDataModel).
 
@@ -122,7 +122,7 @@ Fylgdu þessum skrefum til að flytja inn áskilið snið úr XML skrá sem er �
 
 The`model.Location.Label` gagnagjafi á þessu sniði er stilltur til að búa til merki sem innihalda eftirfarandi upplýsingar:
 
-- Vöruhústitillinn sem texti
+- Vöruhúsheitið sem texti
 - Vöruhússtitillinn sem strikamerki
 - Staðsetningarheitið
 - Vartölur
@@ -272,7 +272,7 @@ Undirbúðu ER áfangastað til að senda mynduð merki frá Fjármálum til DRA
 Þú getur breytt núverandi útliti vöruhúsastaðsetningarmerkinga. Eftirfarandi dæmi sýnir hvernig á að breyta útlitinu þannig að myndaðir merkimiðar innihaldi auðkenni staðsetningarsniðs.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Stilltu **Notaðu áfangastaði fyrir stöðu drög**[ER notendafæribreyta](electronic-reporting-destinations.md#applicability) til **Já**.
+2. Stilltu **Notaðu áfangastaði fyrir stöðu dröga**[ER notendafæribreyta](electronic-reporting-destinations.md#applicability) til **Já**.
 3. Á **Stillingar** síðu, í stillingartrénu, stækkaðu **Vöruhús módel**, og veldu **Staðsetningarmerki vöruhúss**.
 4. Veljið **Hönnuður**.
 5. Á **Sniðhönnuður** síðu, á **Kortlagning** flipann, veldu`model.Location.Label` gagnagjafa.
@@ -310,9 +310,9 @@ Undirbúðu ER áfangastað til að senda mynduð merki frá Fjármálum til DRA
 14. Veldu **Í lagi**.
 15. Veldu **Í lagi**. Merki er búinn til og sýndur á forskoðunarsíðunni í prenthermiforritinu.
 
-![Farið yfir myndað merki sem inniheldur auðkenni staðsetningarprófíls á forskoðunarsíðu Zpl Printer hermiforritsins.](./media/er-design-zpl-labels-preview-label2.png)
+![Skoðaðu útbúið merki sem inniheldur auðkenni staðsetningarprófíls á forskoðunarsíðu Zpl Printer hermiforritsins.](./media/er-design-zpl-labels-preview-label2.png)
 
-## <a name="encoding"></a>Dulritun
+## <a name="encoding"></a>Kóðun
 
 > [!NOTE]
 > Þú verður að samstilla kóðunarstillingu **Sameiginlegt\\ Skrá** hluti af breytanlegu ER sniði og viðeigandi stillingu á hönnuðu merkimiðanum. Verðmæti **[Kóðun](er-suppress-bom-characters.md)** sviði á **Sameiginlegt\\ Skrá** hluti ætti ekki að stangast á við ZPL skipun sem er notuð til að stjórna kóðun merkisins (td`^CI` skipun). ER staðfestir ekki að þessar stillingar séu samstilltar.

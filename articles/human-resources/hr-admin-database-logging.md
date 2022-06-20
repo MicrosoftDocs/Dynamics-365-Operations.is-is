@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5b8641655cf31453f6fc11e2056fb6bf96a43cbc
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8faf0be5f094f18b75f2263fa622c9b7f3983274
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899764"
 ---
 # <a name="configure-and-manage-database-logging"></a>Skilgreina og stjórna gagnagrunnsskráningu
 
@@ -28,7 +28,7 @@ ms.locfileid: "8696264"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Hægt er að rekja breytingar til taflna og reita í Dynamics 365 Human Resources með gagnagrunnsskráningu. Þetta efnisatriði lýsir hvernig á að:
+Hægt er að rekja breytingar til taflna og reita í Dynamics 365 Human Resources með gagnagrunnsskráningu. Þessi grein lýsir því hvernig á að:
 
 - Stjórna öryggi og afköstum fyrir skráningu gagnagrunns
 - Setja upp gagnagrunnsskráningu

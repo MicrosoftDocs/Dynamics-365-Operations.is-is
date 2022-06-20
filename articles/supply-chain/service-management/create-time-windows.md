@@ -1,6 +1,6 @@
 ---
 title: Stofna tímaglugga
-description: Í þessu efnisatriði er gefið upp ferli sem sýnir hvernig á að stofna tímaglugga.
+description: Þessi grein veitir aðferð sem sýnir hvernig á að búa til tímaglugga.
 author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fff9e0d6b8a06efbdb89c74f0bdd2edb35629696
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5575102163ea273e5ec8437c027b56368370e09a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677759"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900768"
 ---
 # <a name="create-time-windows"></a>Stofna tímaglugga
 
@@ -34,7 +34,7 @@ Hægt er að nota tímaglugga til að bæta röðun á þjónustupöntunarlínum
 4. Í reitnum **Lýsing** er færð inn lýsing á tímaglugganum.
 5. Í reitnum **Aðferð** er aðferðin stofna sjálfvirkt valin. Ef aðferðin er af gerðinni **Handvirkt** skal tilgreina þann fjölda daga fyrir eða eftir útreiknaða dagsetningu þar sem hægt er að flytja þjónustupöntunarlínuna.
 
-## <a name="related-topics"></a>Tengd efnisatriði
+## <a name="related-articles"></a>Tengdar greinar
 
 [Tímaskjámyndir](time-windows.md)
 

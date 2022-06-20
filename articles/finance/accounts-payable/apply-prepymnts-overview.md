@@ -1,6 +1,6 @@
 ---
 title: Nota fyrirframgreiðslur sjálfkrafa í reikningum lánardrottins
-description: Þetta efnisatriði útskýrir möguleikann á að nota fyrirframgreiðslur sjálfkrafa á reikninga lánardrottins.
+description: Þessi grein lýsir getu til að beita fyrirframgreiðslum sjálfkrafa á reikninga lánardrottins.
 author: sunfzam
 ms.date: 10/19/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8583962c41a7ac5e27463f325ddc2ccd367331cc
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: 547573d187460a900df7f4927ac062bd9d456729
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358220"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900072"
 ---
 # <a name="automatically-apply-to-vendor-invoices"></a>Nota sjálfkrafa á reikninga lánardrottins
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir möguleikann á að nota fyrirframgreiðslur sjálfkrafa á reikninga lánardrottins. Hægt er að stofna fyrirframgreiðslu fyrir innkaupapöntun sem hluta af innkaupasamningi. Eftir að reikningur lánardrottins hefur borist er hægt að nota fyrirframgreiðsluna til að gera upp viðskiptaskuldina í reikningi lánardrottins. Nýi eiginleikinn gerir kerfinu kleift að nota sjálfkrafa innkaupapöntunarnúmer á reikningi lánardrottins til að fletta upp samsvarandi fyrirframgreiðslum þegar reikningur lánardrottins er fluttur inn.
+Þessi grein lýsir getu til að beita fyrirframgreiðslum sjálfkrafa á reikninga lánardrottins. Hægt er að stofna fyrirframgreiðslu fyrir innkaupapöntun sem hluta af innkaupasamningi. Eftir að reikningur lánardrottins hefur borist er hægt að nota fyrirframgreiðsluna til að gera upp viðskiptaskuldina í reikningi lánardrottins. Nýi eiginleikinn gerir kerfinu kleift að nota sjálfkrafa innkaupapöntunarnúmer á reikningi lánardrottins til að fletta upp samsvarandi fyrirframgreiðslum þegar reikningur lánardrottins er fluttur inn.
 
 Ef fyrirframgreiðslur finnast og hægt er að nota þær er línum bætt við fyrirliggjandi reikningslínur til að nota fyrirframgreiðslurnar. Fyrirframgreiðslulínurnar eru aldrei teknar til greina meðan á reikningsjöfnunarferlinu stendur.
 

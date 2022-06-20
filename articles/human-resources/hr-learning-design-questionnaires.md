@@ -1,6 +1,6 @@
 ---
 title: Búa til spurningalista
-description: Þetta efnisatriði lýsir ferlinu við stofnun spurningalista.
+description: Þessi skrá lýsir ferlinu við stofnun spurningalista.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7b2e1316768dc6207c82f08cef4c268ae70648ad
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ef14dfe35e6cffc5ae2351045141d99b2fb53c16
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694852"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899644"
 ---
 # <a name="create-questionnaires"></a>Búa til spurningalista
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694852"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þetta efnisatriði lýsir ferlinu við stofnun spurningalista. Fyrsta skrefið er að hanna spurningalista. Þegar spurningalisti er hannaður þarf ekki aðeins að skrifa spurningar og svör, heldur einnig að stofna skipulag sem leyfir að svör séu skráð og sett upp í töflu. 
+Þessi skrá lýsir ferlinu við stofnun spurningalista. Fyrsta skrefið er að hanna spurningalista. Þegar spurningalisti er hannaður þarf ekki aðeins að skrifa spurningar og svör, heldur einnig að stofna skipulag sem leyfir að svör séu skráð og sett upp í töflu. 
 
 Vandlega hannaður spurningalisti eykur gæði gagnanna sem er safnað. Með vandlegri hönnun er betur hægt að velja viðeigandi valkosti á viðeigandi tíma fyrir spurningalista. Eftirfarandi punktar geta hjálpað þér að áætla skilvirkan spurningalista:
 
@@ -75,7 +75,7 @@ Sumar forsendur verða að vera til staðar áður en hægt er að stofna spurni
 
 **Tegundir spurninga** eru nauðsynlegar og verður að úthluta þeim þegar þú býrð til spurningu. 
 
-Notaðu **Tegundir spurninga** að flokka spurningar til skýrslugerðar. **Tegundir spurninga** einnig auðveldara að finna spurningar, því þú getur notað tegundir sem síur á **Spurningar** síðu. Hér eru nokkur dæmi um gerðir spurninga:
+Notaðu **Tegundir spurninga** til að flokka spurningar til skýrslugerðar. **Tegundir spurninga** einnig auðveldara að finna spurningar, því þú getur notað tegundir sem síur á **Spurningar** síðu. Hér eru nokkur dæmi um gerðir spurninga:
 
 -   Starfsmannahald
 -   Fyrirtækjastjórnun

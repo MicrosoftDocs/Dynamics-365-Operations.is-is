@@ -1,6 +1,6 @@
 ---
 title: Þekjutímamörk
-description: Þetta efnisatriði lýsir því hvernig setja á upp þekjutímamörk þegar verið er að nota fínstillingu skipulagningar. Þekjutímamörk gefa til kynna áætlunartímabilið og mörkin.
+description: Þessi grein lýsir því hvernig á að setja upp þekjutímagirðingar þegar þú ert að nota áætlanagerð fínstillingu. Þekjutímamörk gefa til kynna áætlunartímabilið og mörkin.
 author: t-benebo
 ms.date: 01/18/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 12deca22fd6ff3cb4556e0525ab831e1aea0ee33
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: ebd59e05d2ae227f24e7dae6fae3634aab026c5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468917"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847934"
 ---
 # <a name="coverage-time-fences"></a>Þekjutímamörk
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig setja á upp *þekjutímamörk* þegar verið er að nota fínstillingu skipulagningar. Skipuleggjendur geta skilgreint áætlunartímabilið (þekjutímamörkin í dögum) og sleppt framboði og eftirspurn sem fellur utan tímabilsins. Þekjutímamörk hjálpa þar af leiðandi til við að koma í veg fyrir „hávaða“ af völdum tillagna um framboð sem þarf ekki að bregðast við næstu mánuðina. Sem dæmi má nefna spá næsta ár og pantanir viðskiptavina sem eru settar langt umfram venjulegs afhendingartíma.
+Þessi grein lýsir því hvernig á að setja upp *umfjöllunartíma girðingar* þegar þú ert að nota áætlanagerð fínstillingu. Skipuleggjendur geta skilgreint áætlunartímabilið (þekjutímamörkin í dögum) og sleppt framboði og eftirspurn sem fellur utan tímabilsins. Þekjutímamörk hjálpa þar af leiðandi til við að koma í veg fyrir „hávaða“ af völdum tillagna um framboð sem þarf ekki að bregðast við næstu mánuðina. Sem dæmi má nefna spá næsta ár og pantanir viðskiptavina sem eru settar langt umfram venjulegs afhendingartíma.
 
 Þekjutímamörk er fjöldi daga eftir daginn í dag (m.ö.o. dagsetningin þegar áætlunarkeyrslan er sett í gang) sem framboði og eftirspurn er sleppt. Til að koma í veg fyrir tafir þarf að ganga úr skugga um að tímamörk fyrir umfang séu lengri en afhendingartími alls. Sjálfgefna kerfisgildið er 100 dagar.
 

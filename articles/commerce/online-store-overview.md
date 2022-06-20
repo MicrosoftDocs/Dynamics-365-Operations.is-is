@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir svæði fyrir rafræn viðskipti
-description: Þetta efnisatriði veitir yfirlit yfir stuðning fyrir svæði fyrir rafræn viðskipti í Microsoft Dynamics 365 Commerce.
+description: Þessi grein veitir yfirlit yfir stuðninginn við netviðskiptasíður í Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 11/05/2020
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 90f0f01115b00f231af8d4ae11be1d18d379399b
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 9b7e4d09eaa4f91478d27cbca5eaea48af86e676
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487769"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899122"
 ---
 # <a name="e-commerce-site-overview"></a>Yfirlit yfir svæði fyrir rafræn viðskipti
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir yfirlit yfir stuðning fyrir svæði fyrir rafræn viðskipti í Microsoft Dynamics 365 Commerce. Þar eru upplýsingar um það hvernig netverslanir eru frumstilltar og meðhöndlaðar í Dynamics 365 Commerce. Þar er einnig að finna tengla á frekari upplýsingar um netverslanir og um hvernig á að setja upp og grunnstilla svæði fyrir rafræn viðskipti. Þetta efnisatriði nær yfir mörg grunnatriði en fjallar ekki um öll áskilin atriði varðandi uppsetningu svæðis fyrir rafræn viðskipti. Ítarlegri efnisatriði má finna í fylgiskjölum Dynamics 365 Commerce.
+Þessi grein veitir yfirlit yfir stuðninginn við netviðskiptasíður í Microsoft Dynamics 365 Commerce. Þar eru upplýsingar um það hvernig netverslanir eru frumstilltar og meðhöndlaðar í Dynamics 365 Commerce. Þar er einnig að finna tengla á frekari upplýsingar um netverslanir og um hvernig á að setja upp og grunnstilla svæði fyrir rafræn viðskipti. Þrátt fyrir að þessi grein fjalli um margt af grunnatriðum, þá nær hún ekki yfir allt sem þarf til að setja upp rafræna framleiðslusíðu. Ítarlegri greinar má finna í Dynamics 365 Commerce skjöl.
 
 ## <a name="online-store-channel"></a>Rás netverslunar
 
@@ -74,7 +74,7 @@ Dynamics 365 Commerce notar Azure Active Directory (Azure AD) fyrirtæki-til-ney
 
 ## <a name="overview-of-the-default-site-pages"></a>Yfirlit yfir sjálfgefnar síður
 
-Bæði **sjálfgefnu** og **Fabrikam** svæðin innihalda forstillt sniðmát, brot og síður til að hjálpa þér við að hefjast handa. Frekari upplýsingar er hægt að finna í eftirfarandi efni:
+Bæði **sjálfgefnu** og **Fabrikam** svæðin innihalda forstillt sniðmát, brot og síður til að hjálpa þér við að hefjast handa. Frekari upplýsingar er hægt að finna í eftirfarandi greinum:
 
 - [Yfirlit heimasíðu](quick-tour-home-page.md)
 - [Yfirlit upplýsingasíðu afurða](quick-tour-pdp.md)
@@ -83,7 +83,7 @@ Bæði **sjálfgefnu** og **Fabrikam** svæðin innihalda forstillt sniðmát, b
 
 ## <a name="manage-site-settings"></a>Stjórna stillingum svæðis
 
-Nánari upplýsingar um hvernig á að stjórna stillingum svæðis er að finna í eftirfarandi efnisatriðum:
+Til að fá upplýsingar um hvernig á að stjórna stillingum vefsvæðisins skaltu skoða eftirfarandi greinar:
 
 - [Stjórna notendum og hlutverkum rafrænna viðskipta](manage-ecommerce-users-roles.md)
 - [Hugsanleg leitarvélabestun (SEO) fyrir vefsvæðið þitt](search-engine-optimization-considerations.md)
@@ -92,9 +92,9 @@ Nánari upplýsingar um hvernig á að stjórna stillingum svæðis er að finna
 
 ## <a name="manage-site-content"></a>Stjórna efni svæðis
 
-Nánari upplýsingar um hvernig á að stjórna efni svæðis er að finna í eftirfarandi efnisatriðum:
+Fyrir upplýsingar um hvernig á að hafa umsjón með efni vefsvæðisins, sjá eftirfarandi greinar:
 
-- [Orðalisti síðulíkans](page-elements-overview.md)
+- [Orðalisti blaðsíðna](page-elements-overview.md)
 - [Staða og líftími skjala](document-states-overview.md)
 - [Sniðmát og útlit](templates-layouts-overview.md)
 - [Vinna með brot](work-with-fragments.md)

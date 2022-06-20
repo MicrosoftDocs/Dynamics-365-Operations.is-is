@@ -1,6 +1,6 @@
 ---
 title: Bættu frammistöðu ER lausna með því að fækka töflureitum sem eru sóttir á keyrslutíma
-description: Þetta efnisatriði útskýrir hvernig þú getur hjálpað til við að bæta árangur með því að fækka töflureitum sem eru sóttir á keyrslutíma.
+description: Þessi grein útskýrir hvernig þú getur hjálpað til við að bæta árangur með því að fækka töflureitum sem eru sóttir á keyrslutíma.
 author: NickSelin
 ms.date: 05/12/2022
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd192a7718ac4fd8bcb636ede6c005ca29ee5f08
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: eb76c415da87d421b8135a93b84f4e905f01e70d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811831"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847452"
 ---
 # <a name="improve-performance-of-er-solutions-by-reducing-the-number-of-table-fields-that-are-fetched-at-runtime"></a>Bættu frammistöðu ER lausna með því að fækka töflureitum sem eru sóttir á keyrslutíma
 
 [!include[banner](../includes/banner.md)]
 
-Þú getur hannað [Rafræn skýrslugerð](general-electronic-reporting.md) (ER) [sniðum](er-overview-components.md#format-components-for-outgoing-electronic-documents) sem búa til sendandi skjöl á ýmsum sniðum. Þegar skjal er búið til kallar ER-snið til gagnagjafa sem voru stilltir í samsvarandi ER [módelkortlagningu](er-overview-components.md#model-mapping-component). Til að stilla aðgang að forritatöflum, fyrirspurnum eða einingum til að sækja skrár, geturðu notað ER gagnaheimildir *Taflaskrár* tegund. Sjálfgefið er gagnagjafi á *Taflaskrár* tegund sækir gildi allra reita í umbeðnum færslum. Hins vegar er hægt að stilla þessa tegund gagnagjafa þannig að hún sæki aðeins svæðisgildin sem eru nauðsynleg fyrir ER-sniðið sem er í gangi. Þessi uppsetning hjálpar til við að draga úr minnisnotkun forritaþjónsins sem framkvæmir gagnaöflun og frekari skyndiminni.
+Þú getur hannað [Rafræn skýrslugerð](general-electronic-reporting.md) (ER) [sniðum](er-overview-components.md#format-components-for-outgoing-electronic-documents) sem búa til sendandi skjöl á ýmsum sniðum. Þegar skjal er búið til kallar ER-snið til gagnagjafa sem voru stilltir í samsvarandi ER [módelkortlagningu](er-overview-components.md#model-mapping-component). Til að stilla aðgang að forritatöflum, fyrirspurnum eða einingum til að sækja skrár, geturðu notað ER gagnaheimildir *Taflaskrár* tegund. Sjálfgefið er gagnagjafi á *Taflaskrár* tegund sækir gildi allra reita í umbeðnum færslum. Hins vegar er hægt að stilla þessa tegund gagnagjafa þannig að hún sæki aðeins svæðisgildin sem eru nauðsynleg fyrir ER sniðið sem er í gangi. Þessi uppsetning hjálpar til við að draga úr minnisnotkun forritaþjónsins sem framkvæmir gagnaöflun og frekari skyndiminni.
 
-Til að læra meira um hvernig á að takmarka listann yfir sótta reiti gagnagjafa *Taflaskrár* tegund, kláraðu dæmið í þessu efni.
+Til að læra meira um hvernig á að takmarka listann yfir sótta reiti gagnagjafa *Taflaskrár* tegund, kláraðu dæmið í þessari grein.
 
 ## <a name="example-reduce-the-number-of-table-fields-that-are-fetched-at-runtime"></a>Dæmi: Fækkaðu töflureitum sem eru sóttir á keyrslutíma
 
@@ -41,7 +41,7 @@ Til að klára þetta dæmi verður þú að hafa aðgang að **USMF** fyrirtæk
 - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
 - Kerfisstjóri
 
-Í þessu dæmi muntu nota ER [stillingar](general-electronic-reporting.md#Configuration) sem veitt er fyrir **Litware, Inc.** sýnishorn fyrirtæki. Gakktu úr skugga um að stillingarveitan fyrir **Litware, Inc.** (`http://www.litware.com`) sýnishornsfyrirtæki er skráð fyrir ER ramma og að það sé merkt sem **Virkur**. Ef þessi stillingarveita er ekki á listanum eða ef hún er ekki merkt sem **Virkur**, fylgdu skrefunum í [Búðu til stillingarveitu og merktu hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Í þessu dæmi muntu nota ER [stillingar](general-electronic-reporting.md#Configuration) sem veitt er fyrir **Litware, Inc.** sýnishorn fyrirtæki. Gakktu úr skugga um að stillingarveitan fyrir **Litware, Inc.** (`http://www.litware.com`) sýnishornsfyrirtæki er skráð fyrir ER ramma og að það sé merkt sem **Virkur**. Ef þessi stillingarveita er ekki á listanum eða ef hún er ekki merkt sem **Virkur**, fylgdu skrefunum í [Búðu til stillingarveitu og merktu hana sem virkan](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ### <a name="configure-the-er-framework"></a>Skilgreina ramma rafrænnar skýrslugerðar
 
@@ -49,7 +49,7 @@ Fylgdu skrefunum í [Skilgreina ramma rafrænnar skýrslugerðar](er-quick-start
 
 ### <a name="import-the-sample-er-configurations"></a>Flytja inn sýnishorn af ER-stillingum
 
-Ef þú hefur ekki enn lokið við dæmið í [Hannaðu nýja ER lausn til að prenta sérsniðna skýrslu](er-quick-start1-new-solution.md) efni, hlaðið niður og geymt XML skrárnar á staðnum fyrir eftirfarandi stillingar fyrir ER lausnina sem fylgir.
+Ef þú hefur ekki enn lokið við dæmið í [Hannaðu nýja ER lausn til að prenta sérsniðna skýrslu](er-quick-start1-new-solution.md) grein, hlaðið niður og geymið XML skrárnar á staðnum fyrir eftirfarandi stillingar fyrir ER lausnina sem fylgir.
 
 | Lýsing á efni            | Skráarheiti |
 |--------------------------------|-----------|
@@ -97,7 +97,7 @@ Fylgdu síðan þessum skrefum til að hlaða upp stillingum meðfylgjandi ER la
 
     ![Farið yfir meðfylgjandi líkanavörpun á hönnuðarsíðu líkanakortlagningar þegar kveikt er á hópsýn.](./media/er-reduce-fetched-fields-number-mapping1.png)
 
-7. Á aðgerðarrúðunni velurðu **Hópsýn** aftur til að slökkva **Hópur** skoða og veldu síðan **Sýna allt** \> **Sýna aðeins kortlagt**.
+7. Á aðgerðarrúðunni velurðu **Hópsýn** aftur til að slökkva á **Hópur** skoða og veldu síðan **Sýna allt** \> **Sýna aðeins kortlagt**.
 
     Taktu eftir að nokkrir reitir af`KMCollection` umsóknartafla eru notuð til að fylla út **Spurningalisti** skráningarlisti í ER gagnalíkaninu:
 
@@ -119,7 +119,7 @@ Fylgdu skrefunum í [Keyra hannað snið frá ER](er-quick-start1-new-solution.m
 ### <a name="review-the-execution-trace-of-the-first-run"></a>Farðu yfir framkvæmdarspor fyrstu keyrslu
 
 1. Fara til **Stjórn stofnunarinnar** \> **Rafræn skýrslugerð \> Stillingar**.
-2. Á **Stillingar** síðu, stækkaðu **Fyrirmynd spurningalista**, og veldu **Spurningalistar kortlagning**.
+2. Á **Stillingar** síðu, stækkaðu **Fyrirmynd spurningalista**, og veldu **Kortlagning spurningalista**.
 
     > [!NOTE]
     > Upplýsingarnar á **Útgáfur** Flýtiflipi gefur til kynna að þú hafir valið drög að útgáfu af **Spurningalistar kortlagning** stillingar. Þess vegna geturðu breytt innihaldi þessarar líkanakortlagningar.
@@ -127,7 +127,7 @@ Fylgdu skrefunum í [Keyra hannað snið frá ER](er-quick-start1-new-solution.m
 3. Í aðgerðarúðunni skal velja **Hönnuður**.
 4. Á **Líkan til kortlagningar gagnagjafa** síðu, veldu **Hönnuður**.
 5. Á síðunni **Hönnuður líkanavörpunar**, í aðgerðarúðunni, skal velja **Afkastarakning**.
-6. Í **Stillingar niðurstaðna afkastagetu** valmynd, veldu ummerkin sem var búin til við síðustu sniðkeyrslu.
+6. Í **Stillingar niðurstöður árangursrakningar** valmynd, veldu ummerkin sem var búin til við síðustu sniðkeyrslu.
 
     ![Val á rekningunni í valmyndinni Stillingar niðurstöður árangursrakningar.](./media/er-reduce-fetched-fields-number-select-trace-1.png)
 
@@ -164,7 +164,7 @@ Fylgdu skrefunum í [Keyra hannað snið frá ER](er-quick-start1-new-solution.m
 8. Veldu **Vista** til að geyma breytingarnar sem þú hefur gert á breytanlegu líkanavörpuninni.
 
     > [!NOTE]
-    > Á keyrslutíma greinir ER viðbættu tengslin og bætir öllum reitum sem eru notaðir í þeim við gagnagrunnsfyrirspurnina, jafnvel þótt þeim reitum hafi ekki verið bætt sérstaklega við listann yfir sótta reiti við hönnunartíma.
+    > Á keyrslutíma greinir ER viðbættu tengslin og bætir öllum reitum sem eru notaðir í þeim við gagnagrunnsfyrirspurnina, jafnvel þótt þeim reitum hafi ekki verið sérstaklega bætt við listann yfir sótta reiti við hönnunartíma.
 
 ### <a name="run-the-provided-er-format-by-using-the-updated-model-mapping"></a>Keyrðu uppgefið ER snið með því að nota uppfærða líkanavörpun
 
@@ -173,11 +173,11 @@ Fylgdu skrefunum í [Keyra hannað snið frá ER](er-quick-start1-new-solution.m
 ### <a name="review-the-execution-trace-of-the-second-run"></a>Farðu yfir framkvæmdarferil seinni keyrslunnar
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Á **Stillingar** síðu, stækkaðu **Fyrirmynd spurningalista**, og veldu **Spurningalistar kortlagning**.
+2. Á **Stillingar** síðu, stækkaðu **Fyrirmynd spurningalista**, og veldu **Kortlagning spurningalista**.
 3. Í aðgerðarúðunni skal velja **Hönnuður**.
 4. Á **Líkan til kortlagningar gagnagjafa** síðu, veldu **Hönnuður**.
 5. Á síðunni **Hönnuður líkanavörpunar**, í aðgerðarúðunni, skal velja **Afkastarakning**.
-6. Í **Stillingar niðurstaðna afkastagetu** valmynd, veldu ummerkin sem var búin til við síðustu sniðkeyrslu.
+6. Í **Stillingar niðurstöður árangursrakningar** valmynd, veldu ummerkin sem var búin til við síðustu sniðkeyrslu.
 7. Veldu **Í lagi**.
 8. Á **Upplýsingar** Flýtiflipi, síaðu **Spurningalisti** leið sem vísar til **Spurningalisti** gagnagjafa.
 9. Skoðaðu upplýsingar um gagnagrunnsfyrirspurnina sem var búin til þegar **Spurningalisti** gagnaveita var kallað.

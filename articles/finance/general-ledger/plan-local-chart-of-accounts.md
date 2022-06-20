@@ -1,6 +1,6 @@
 ---
 title: Skipuleggja staðbundna bókhaldslykla
-description: Þetta efnisatriði veitir upplýsingar sem hjálpa til við að skipuleggja bókhaldslykla þegar til staðar eru lagalegar/staðbundnar kröfur fyrir fyrirtækið þitt.
+description: Þessi grein veitir upplýsingar sem hjálpa þér að skipuleggja reikningaskrána þegar þú hefur kröfur um lögbundnar/staðbundnar kröfur fyrir fyrirtæki þitt.
 author: VeselinaE
 ms.date: 10/07/2021
 ms.topic: article
@@ -10,7 +10,7 @@ ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts, Ledge
 ROBOTS: ''
 audience: Application User
 ms.devlang: ''
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.tgt_pltfrm: ''
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: veneva
 ms.search.validFrom: 10/07/2021
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e224a2e24b4ba293c953c6c883307038128e2f04
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 78379fd51cf24985fce83e2b6aa9a475af7df363
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798297"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946246"
 ---
 # <a name="plan-your-local-chart-of-accounts"></a>Skipuleggja staðbundna bókhaldslykla
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar sem hjálpa til við að skipuleggja bókhaldslykla þegar fyrirtækið inniheldur lögaðila sem þurfa að uppfylla kröfur tiltekinna staða þar sem viðskipti eru stunduð. Þetta efnisatriði notar eftirfarandi hugtök til að lýsa bókhaldslyklum:
+Þessi grein veitir upplýsingar sem hjálpa þér að skipuleggja reikningaskrána þegar fyrirtæki þitt inniheldur lögaðila sem verða að uppfylla kröfur fyrir tiltekin svæði þar sem þeir eiga viðskipti. Þessi grein notar eftirfarandi hugtök til að lýsa reikningsyfirlitum:
 
 - **Altækt** – Bókhaldslykill sem fyrirtækið notar alþjóðlega. Í flestum tilvikum sameinar þú í þennan bókhaldslykil.
 - **Staðbundið** – Bókhaldslykill sem lögaðilar í tilteknu landi eða svæði notar.
@@ -54,7 +54,7 @@ Ef fyrirtækið krefst þess að lögaðili noti staðbundinn bókhaldslykil eru
 
 Skipulag fyrirtækis og skýrslugerðar ákvarða valkostinn sem er notaður.
 
-[![ Skýringarmynd sem sýnir hvernig skipulag fyrirtækisins ákvarðar hvort nota á altækan eða staðbundinn bókhaldslykil](./media/local-chart-of-accounts-diagram.png)](./media/local-chart-of-accounts-diagram.png)
+[![Skýringarmynd sem sýnir hvernig skipulag fyrirtækisins ákvarðar hvort nota á altækan eða staðbundinn bókhaldslykil](./media/local-chart-of-accounts-diagram.png)](./media/local-chart-of-accounts-diagram.png)
 
 Ef lögaðila er úthlutað altækum bókhaldslykli eru eftirfarandi valkostir í boði til að uppfylla staðbundnar skýrslukröfur:
 
@@ -154,7 +154,7 @@ Staðbundin sameining er sú aðferð sem mælt er með til að uppfylla staðbu
 
 ### <a name="do-external-mapping-to-the-local-chart-of-accounts"></a>Gera utanaðkomandi vörpun í staðbundinn bókhaldslykil
 
-Innleiðing altæks bókhaldslykils gerir ráð fyrir að þú stjórnir vörpun og staðfæringum utan kerfisins. Í þessari aðferð býrðu bara til einn altækan bókhaldslykil í Microsoft Dynamics 365 Finance og meðhöndlar kröfurnar utan kerfisins.
+Innleiðing altæks bókhaldslykils gerir ráð fyrir að þú stjórnir vörpun og staðfæringum utan kerfisins. Í þessari nálgun býrðu bara til eina alþjóðlega reikninga í Microsoft Dynamics 365 Fjármagna og annast kröfur utan kerfisins.
 
 #### <a name="set-up-external-mapping-to-a-local-chart-of-accounts"></a>Setja upp ytri vörpun í staðbundinn bókhaldslykil
 

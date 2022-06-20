@@ -1,6 +1,6 @@
 ---
 title: Stjórna frádráttum með frádráttarvinnusvæðinu
-description: Þetta efnisatriði lýsir hvernig á að nota frádráttarvinnusvæði til að vinna úr greiðslum viðskiptavina með frádrætti .
+description: Þessi grein lýsir því hvernig á að nota frádráttarvinnubekkinn til að vinna úr greiðslum viðskiptavina sem innihalda frádrátt.
 author: sherry-zheng
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: bf98529176fbed368708ea925f542a70f2936037
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 607ad528b56d1f0c9a78e113f67c920cdae6e620
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873609"
 ---
 # <a name="manage-deductions-using-the-deduction-workbench"></a>Stjórna frádráttum með frádráttarvinnusvæðinu
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig á að nota frádráttarvinnusvæði til að vinna úr greiðslum viðskiptavina með frádrætti .
+Þessi grein lýsir því hvernig á að nota frádráttarvinnubekkinn til að vinna úr greiðslum viðskiptavina sem innihalda frádrátt.
 
 Viðskiptavinur sem er á inni eftirágreiddan afslátt getur ákveðið að bíða ekki eftir að útborgun eftirágreidds afsláttar. Þess í stað getur viðskiptavinurinn sent greiðslu sem inniheldur frádrátt fyrir upphæð eftirágreidds afsláttar. Til að meðhöndla þessa gerð færslu, er hægt að nota frádráttarvinnusvæði til að jafna frádrætti til að opna kreditfærslur, skipta frádrætti, hafna frádrætti og afskrifa frádrátt.
 
 > [!NOTE]
-> Frádráttarvinnusvæðið hefur verið hluti af sölu- og markaðsaðgerðum í Microsoft Dynamics 365 Supply Chain Management í mjög langan tíma. Hins vegar hefur það nú verið aukið þannig að það virkar einnig með nýrri einingu **Stjórnunar eftirágreidds afsláttar**. Í þessu efnisatriði er lýst hvernig á að nota bæði eldri eiginleika og eiginleika vegna stjórnunar eftirágreidds afsláttar á frádráttarvinnusvæðinu. Ef þú hefur hins vegar ekki [kveikt á einingu **Stjórnunar eftirágreidds afsláttar** fyrir kerfið](rebate-management-enable.md) verða sumar aðgerðirnar sem er lýst hér ekki í boði fyrir þig.
+> Frádráttarvinnusvæðið hefur verið hluti af sölu- og markaðsaðgerðum í Microsoft Dynamics 365 Supply Chain Management í mjög langan tíma. Hins vegar hefur það nú verið aukið þannig að það virkar einnig með nýrri einingu **Stjórnunar eftirágreidds afsláttar**. Þessi grein lýsir því hvernig á að nota bæði eldri eiginleika og endurgreiðslustjórnunareiginleika frádráttarvinnubekksins. Ef þú hefur hins vegar ekki [kveikt á einingu **Stjórnunar eftirágreidds afsláttar** fyrir kerfið](rebate-management-enable.md) verða sumar aðgerðirnar sem er lýst hér ekki í boði fyrir þig.
 
 ## <a name="prerequisites"></a>Forkröfur
 
@@ -159,11 +159,11 @@ Til að búa til nýjan frádrátt á frádráttarvinnusvæðinu skal fylgja þe
         - *Magnbundin* – Neikvæð sölupöntun eða skilapöntun verður til.
 
     - **Dagsetning kröfu** – Veljið dagsetningu kröfunnar. Sjálfgefna gildið er dagurinn í dag.
-    - **Ástæða kröfu** – Veldu ástæðukóðann sem á við um núverandi frádrátt. Sá kröfugrunnur sem þú valdir hefur áhrif á valkostina sem gilda. Nánari upplýsingar um hvernig stofna á og stilla ástæður kröfu sem er hægt að velja hér er að finna í hlutanum [Búa til frádráttarástæður](#deduction-reasons) fyrr í þessu efnisatriði.
+    - **Ástæða kröfu** – Veldu ástæðukóðann sem á við um núverandi frádrátt. Sá kröfugrunnur sem þú valdir hefur áhrif á valkostina sem gilda. Fyrir frekari upplýsingar um hvernig á að búa til og stilla kröfuástæðurnar sem hægt er að velja hér, sjáðu [Búðu til frádráttarástæður](#deduction-reasons) kafla fyrr í þessari grein.
     - **Athugasemdir** – Bættu við athugasemdum sem eiga við. Þegar krafan er samþykkt getur samþykkjandinn breytt eða bætt við athugasemdum við kröfuna.
     - **Búa til kröfudagbók** – Veldu þennan valkost til að tilgreina hvort kröfudagbókin eigi að vera búin til þegar krafan eða frádrátturinn er búinn til:
 
-        - *Já* – Kerfið mun búa til og bóka færslubók með því að nota kröfubókina sem er sett upp á síðunni **Færibreytur viðskiptakrafna**. (Frekari upplýsingar eru í hlutanum [Stilla viðskiptakröfur og frádrátt](#accounts-receivable-deductions) fyrr í þessu efnisatriði.) Þegar reikningur er festur við kröfuna er kröfubókin notuð til að lækka stöðu viðkomandi reiknings. Ef kröfunni er síðar hafnað verður kröfubókin og jafnanirnar (ef reikningur var hengdur við) bakfærðar.
+        - *Já* – Kerfið mun búa til og bóka færslubók með því að nota kröfubókina sem er sett upp á síðunni **Færibreytur viðskiptakrafna**. (Nánari upplýsingar er að finna í [Stilla viðskiptakröfur og frádrátt](#accounts-receivable-deductions) kafla fyrr í þessari grein.) Þegar reikningur fylgir kröfunni er kröfudagbókin notuð til að lækka eftirstöðvar viðkomandi reiknings. Ef kröfunni er síðar hafnað verður kröfubókin og jafnanirnar (ef reikningur var hengdur við) bakfærðar.
         - *Nei* – Engin kröfubók er búin til á þessum tímapunkti. Hún verður stofnuð þegar krafan er samþykkt. Enn er hægt að tengja reikning við nýju kröfuna þrátt fyrir að kröfudagbók sé ekki búin til. Hins vegar er ekki hægt að gera upp án kröfudagbókarinnar.
 
 1. Veldu **Í lagi**.
@@ -197,11 +197,11 @@ Ferlið við að búa til frádrátt úr jöfnun viðskiptavinar líkist ferlinu
         - *Magnbundin* – Neikvæð sölupöntun eða skilapöntun verður til.
 
     - **Dagsetning kröfu** – Veljið dagsetningu kröfunnar. Sjálfgefna gildið er dagurinn í dag.
-    - **Ástæða kröfu** – Veldu ástæðukóðann sem á við um núverandi frádrátt. Sá kröfugrunnur sem þú valdir hefur áhrif á valkostina sem gilda. Nánari upplýsingar um hvernig stofna á og stilla ástæður kröfu sem er hægt að velja hér er að finna í hlutanum [Búa til frádráttarástæður](#deduction-reasons) fyrr í þessu efnisatriði.
+    - **Ástæða kröfu** – Veldu ástæðukóðann sem á við um núverandi frádrátt. Sá kröfugrunnur sem þú valdir hefur áhrif á valkostina sem gilda. Fyrir frekari upplýsingar um hvernig á að búa til og stilla kröfuástæðurnar sem hægt er að velja hér, sjáðu [Búðu til frádráttarástæður](#deduction-reasons) kafla fyrr í þessari grein.
     - **Athugasemdir** – Bættu við athugasemdum sem eiga við. Þegar krafan er samþykkt getur samþykkjandinn breytt eða bætt við athugasemdum við kröfuna.
     - **Búa til kröfudagbók** – Veldu þennan valkost til að tilgreina hvort kröfudagbókin eigi að vera búin til þegar krafan eða frádrátturinn er búinn til:
 
-        - *Já* – Kerfið mun búa til og bóka færslubók með því að nota kröfubókina sem er sett upp á síðunni **Færibreytur viðskiptakrafna**. (Frekari upplýsingar eru í hlutanum [Stilla viðskiptakröfur og frádrátt](#accounts-receivable-deductions) fyrr í þessu efnisatriði.) Þegar reikningur er festur við kröfuna er kröfubókin notuð til að lækka stöðu viðkomandi reiknings. Ef kröfunni er síðar hafnað verður kröfubókin og jafnanirnar (ef reikningur var hengdur við) bakfærðar.
+        - *Já* – Kerfið mun búa til og bóka færslubók með því að nota kröfubókina sem er sett upp á síðunni **Færibreytur viðskiptakrafna**. (Nánari upplýsingar er að finna í [Stilla viðskiptakröfur og frádrátt](#accounts-receivable-deductions) kafla fyrr í þessari grein.) Þegar reikningur fylgir kröfunni er kröfudagbókin notuð til að lækka eftirstöðvar viðkomandi reiknings. Ef kröfunni er síðar hafnað verður kröfubókin og jafnanirnar (ef reikningur var hengdur við) bakfærðar.
         - *Nei* – Engin kröfubók er búin til á þessum tímapunkti. Hún verður stofnuð þegar krafan er samþykkt. Enn er hægt að tengja reikning við nýju kröfuna þrátt fyrir að kröfudagbók sé ekki búin til. Hins vegar er ekki hægt að gera upp án kröfudagbókarinnar.
 
 1. Veldu **Í lagi**.
@@ -235,11 +235,11 @@ Ferlið við að búa til frádrátt af síðu viðskiptavinar líkist ferlinu v
         - *Magnbundin* – Neikvæð sölupöntun eða skilapöntun verður til.
 
     - **Dagsetning kröfu** – Veljið dagsetningu kröfunnar. Sjálfgefna gildið er dagurinn í dag.
-    - **Ástæða kröfu** – Veldu ástæðukóðann sem á við um núverandi frádrátt. Sá kröfugrunnur sem þú valdir hefur áhrif á valkostina sem gilda. Nánari upplýsingar um hvernig stofna á og stilla ástæður kröfu sem er hægt að velja hér er að finna í hlutanum [Búa til frádráttarástæður](#deduction-reasons) fyrr í þessu efnisatriði.
+    - **Ástæða kröfu** – Veldu ástæðukóðann sem á við um núverandi frádrátt. Sá kröfugrunnur sem þú valdir hefur áhrif á valkostina sem gilda. Fyrir frekari upplýsingar um hvernig á að búa til og stilla kröfuástæðurnar sem hægt er að velja hér, sjáðu [Búðu til frádráttarástæður](#deduction-reasons) kafla fyrr í þessari grein.
     - **Athugasemdir** – Bættu við athugasemdum sem eiga við. Þegar krafan er samþykkt getur samþykkjandinn breytt eða bætt við athugasemdum við kröfuna.
     - **Búa til kröfudagbók** – Veldu þennan valkost til að tilgreina hvort kröfudagbókin eigi að vera búin til þegar krafan eða frádrátturinn er búinn til:
 
-        - *Já* – Kerfið mun búa til og bóka færslubók með því að nota kröfubókina sem er sett upp á síðunni **Færibreytur viðskiptakrafna**. (Frekari upplýsingar eru í hlutanum [Stilla viðskiptakröfur og frádrátt](#accounts-receivable-deductions) fyrr í þessu efnisatriði.) Þegar reikningur er festur við kröfuna er kröfubókin notuð til að lækka stöðu viðkomandi reiknings. Ef kröfunni er síðar hafnað verður kröfubókin og jafnanirnar (ef reikningur var hengdur við) bakfærðar.
+        - *Já* – Kerfið mun búa til og bóka færslubók með því að nota kröfubókina sem er sett upp á síðunni **Færibreytur viðskiptakrafna**. (Nánari upplýsingar er að finna í [Stilla viðskiptakröfur og frádrátt](#accounts-receivable-deductions) kafla fyrr í þessari grein.) Þegar reikningur fylgir kröfunni er kröfudagbókin notuð til að lækka eftirstöðvar viðkomandi reiknings. Ef kröfunni er síðar hafnað verður kröfubókin og jafnanirnar (ef reikningur var hengdur við) bakfærðar.
         - *Nei* – Engin kröfubók er búin til á þessum tímapunkti. Hún verður stofnuð þegar krafan er samþykkt. Enn er hægt að tengja reikning við nýju kröfuna þrátt fyrir að kröfudagbók sé ekki búin til. Hins vegar er ekki hægt að gera upp án kröfudagbókarinnar.
 
 1. Veldu **Í lagi**.
@@ -280,7 +280,7 @@ Til að jafna frádrátt við kreditfærslu skal fylgja þessum skrefum.
 1. Í aðgerðasvæðinu skal velja **Vinna með \> Jafna**. Kerfið samsvarar frádrátt á kredit. Ef eftirstöðvar eru í frádrættinum eru þær sýndar í reitnum **Eftirstandandi upphæð** í flipanum **Frádrættir**.
 
     > [!NOTE]
-    > Fyrir frádrætti sem voru búnir til með því að nota skipunina **Nýr frádráttur** á frádráttarvinnusvæðinu, jöfnun viðskiptavinar eða síðu viðskiptavinar er skipunin **Vinna með \> Jafna** aðeins í boði ef reiturinn **Staða kröfu** er stilltur á *Samþykkt*. Þessa skipun er hægt að nota til að jafna handvirkt verðbundna eða magnbundna færslu við viðkomandi kreditfærslu í hlutanum **Opnar færslur**. Kreditfærslan er stofnuð annaðhvort þegar frádrátturinn er samþykktur (með því að nota skipunina **Vinna með \> Samþykkja frádrátt**) eða þegar hún er tengd við fyrirliggjandi kreditfærslu eins og lýst er í hlutanum [Kreditfærslur stofnaðar utan við samþykktarferli frádráttar](#credits-outside-approval) síðar í þessu efnisatriði. Einnig er hægt að nota reglubundan verkið *Jafna samþykkta frádrætti* (**Sala og markaðssetning \> Reglubundin verk \> Jafna samþykkta frádrætti**) til að sjálfkrafa jafna frádrætti og kreditfærslur sem eru með samsvarandi gildi fyrir **Frádráttarkenni** og upphæðir.
+    > Fyrir frádrætti sem voru búnir til með því að nota skipunina **Nýr frádráttur** á frádráttarvinnusvæðinu, jöfnun viðskiptavinar eða síðu viðskiptavinar er skipunin **Vinna með \> Jafna** aðeins í boði ef reiturinn **Staða kröfu** er stilltur á *Samþykkt*. Þessa skipun er hægt að nota til að jafna handvirkt verðbundna eða magnbundna færslu við viðkomandi kreditfærslu í hlutanum **Opnar færslur**. Þessi inneign myndast annað hvort þegar frádrátturinn er samþykktur (með því að nota **Viðhalda \> Samþykkja frádrátt** skipun), eða þegar hún er tengd við núverandi inneign eins og lýst er í [Inneignir búnar til utan samþykkisfrádráttarferlisins](#credits-outside-approval) kafla síðar í þessari grein. Einnig er hægt að nota reglubundan verkið *Jafna samþykkta frádrætti* (**Sala og markaðssetning \> Reglubundin verk \> Jafna samþykkta frádrætti**) til að sjálfkrafa jafna frádrætti og kreditfærslur sem eru með samsvarandi gildi fyrir **Frádráttarkenni** og upphæðir.
 
 ### <a name="split-a-deduction"></a>Skipta frádrætti
 

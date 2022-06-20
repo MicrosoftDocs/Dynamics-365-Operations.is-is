@@ -1,6 +1,6 @@
 ---
 title: Uppfærðu vörugeymslu frá Microsoft Dynamics AX 2012 við Supply Chain Management
-description: Í þessu efnisatriði er að finna yfirlit yfir vörur og valkosti flutnings vöruhúsastjórnunar.
+description: Þessi grein veitir yfirlit yfir flutningsvalkosti vöru- og vöruhúsastjórnunar.
 author: perlynne
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ac8c0d8781e5146186fbf71ce619f90ca3556ccefefe7e974efded7e0eb86dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d85f4e5c44db511970b3e22490341228fa0d1abd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775436"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857084"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Uppfærðu vörugeymslu frá Microsoft Dynamics AX 2012 við Supply Chain Management 
 
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir yfirlit yfir uppfærsluferlið frá Microsoft Dynamics AX 2012 R3, sem keyrir WMSII-eininguna, í Supply Chain Management.
+Þessi grein veitir yfirlit yfir ferlið við að uppfæra frá Microsoft Dynamics AX 2012 R3, keyrir WMSII eininguna, til Supply Chain Management.
 
 Supply Chain Management styður ekki lengur eldri einingu **WMSII** frá Microsoft Dynamics AX 2012. Í staðinn er hægt að nota eininguna **Vöruhúsakerfi**. Í WMSII-einingunni var hægt að velja birgðavíddir staðsetningar og brettakennis fyrir fjárhagslegar birgðir, en þó er ekki hægt að nota birgðavíddir brettakennis fyrir fjárhagslegar birgðir í Supply Chain Management.
 

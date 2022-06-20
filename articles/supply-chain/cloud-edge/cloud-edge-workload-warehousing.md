@@ -1,6 +1,6 @@
 ---
-title: Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra
-description: Þetta efnisatriði veitir upplýsingar um eiginleikann sem gera kvörðunareiningum kleift að keyra valin ferli úr vinnuálagi vöruhúsakerfis.
+title: Vörhúsakerfi fyrir einingakvarða skýja og jaðra
+description: Þessi grein veitir upplýsingar um eiginleikann sem gerir mælieiningum kleift að keyra valin ferla úr vinnuálagi vöruhúsastjórnunar.
 author: perlynne
 ms.date: 09/03/2021
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f9839ad9a18eb543734c2ba43a56b568460a64c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384485"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893498"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> Ekki er öll viðskiptavirkni í vöruhúsakerfinu studd fullkomlega fyrir vöruhús sem keyra vinnuálag á einingakvarða. Gætið þess að nota aðeins þau ferli sem Þetta efnisatriði lýsir sérstaklega sem studd ferli.
+> Ekki er öll viðskiptavirkni í vöruhúsakerfinu studd fullkomlega fyrir vöruhús sem keyra vinnuálag á einingakvarða. Vertu viss um að nota aðeins ferla sem þessi grein lýsir beinlínis sem studdum.
 
 ## <a name="warehouse-execution-on-scale-units"></a>Framkvæmd vöruhúss í einingarkvörðum
 
@@ -36,7 +36,7 @@ Vinnuálag vöruhúsakerfis gera einingakvarða skýja og jaðra kleift að keyr
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en þú byrjar að vinna með vinnuálag vöruhúsastjórnunar verður að undirbúa kerfið eins og lýst er í þessum hluta.
+Áður en þú byrjar að vinna með vinnuálag vöruhúsastjórnunar verður kerfið þitt að vera undirbúið eins og lýst er í þessum hluta.
 
 ### <a name="deploy-a-scale-unit-with-the-warehouse-management-workload"></a>Settu upp mælieiningu með vinnuálagi vöruhúsastjórnunar
 
@@ -129,11 +129,11 @@ Vinnuálag vöruhúsastjórnunar styður eftirfarandi þrjú flæði fyrir framl
 
 ### <a name="report-as-finished-and-put-away"></a>Bóka sem tilbúið og ganga frá
 
-Starfsmenn geta notað **Tilkynntu sem lokið og settu í burtu** flæði í vöruhúsastjórnunarappinu til að tilkynna framleiðslu- eða lotupöntun sem lokið. Þeir geta einnig tilkynnt um aukaafurðir og aukaafurðir í lotupöntun sem fullunnar. Þegar tilkynnt er um að verki sé lokið myndar kerfið venjulega frágangsvöruhúsavinnu á mælikvarðaeiningunni. Ef þú þarfnast ekki frágangsvinnu geturðu sett upp vinnustefnu þína til að sleppa því.
+Starfsmenn geta notað **Tilkynntu sem lokið og settu í burtu** flæði í Vöruhússtjórnun appinu til að tilkynna framleiðslu- eða runupöntun sem lokið. Þeir geta einnig tilkynnt um aukaafurðir og aukaafurðir í lotupöntun sem fullunnar. Þegar tilkynnt er um að verki sé lokið myndar kerfið venjulega frágangsvöruhúsavinnu á mælikvarðaeiningunni. Ef þú þarfnast ekki frágangsvinnu geturðu sett upp vinnustefnu þína til að sleppa því.
 
 ### <a name="start-production-order"></a>Hefja framleiðslupöntun
 
-Starfsmenn geta notað **Hefja framleiðslupöntun** flæði í Vöruhússtjórnun appinu til að skrá upphaf framleiðslu- eða lotupöntunar.
+Starfsmenn geta notað **Hefja framleiðslupöntun** flæði í vöruhúsastjórnunarappinu til að skrá upphaf framleiðslu- eða lotupöntunar.
 
 ### <a name="register-material-consumption"></a>Skrá efnisnotkun
 
@@ -184,7 +184,7 @@ Engar aðrar tegundir frumskjalavinnslu eða vöruhúsavinnu eru nú studdar á 
 >
 > Nokkur aukaskref eru nauðsynleg til að setja upp vöruhússtjórnunarfarsímaforritið til að vinna gegn skýja- eða brúnkvarðaeiningu. Fyrir frekari upplýsingar, sjá [Stilltu Warehouse Management farsímaforritið fyrir skýja- og brúnkvarðaeiningar](cloud-edge-workload-setup-warehouse-app.md).
 >
-> Þegar vinnuálag er notað í einingarkvarða er ekki hægt að keyra óstudd ferli fyrir það tiltekna vöruhús í miðstöðinni. Töflurnar sem eru síðar í þessu efnisatriði lýsa studdum eiginleikum.
+> Þegar vinnuálag er notað í einingarkvarða er ekki hægt að keyra óstudd ferli fyrir það tiltekna vöruhús í miðstöðinni. Töflurnar sem gefnar eru upp síðar í þessari grein skjalfesta studda eiginleikana.
 >
 > Valdar vinnugerðir vöruhúss er hægt að stofna bæði í miðstöðinni og einingarkvörðum, en aðeins tilheyrandi miðstöð eða einingarkvarði getur viðhaldið þeim (uppsetningin sem bjó til gögnin).
 >

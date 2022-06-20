@@ -1,6 +1,6 @@
 ---
 title: Endurmat á banka – erlendum gjaldmiðli
-description: Þetta efnisatriði veitir yfirlit yfir endurmatsferli banka á erlendum gjaldmiðli. Það inniheldur upplýsingar um uppsetningu, keyrslu á ferli, útreikning ferlisins og bakfærslu á endurmatsfærslum.
+description: Þessi grein veitir yfirlit yfir ferlið við endurmat á gjaldeyri banka. Það inniheldur upplýsingar um uppsetningu, keyrslu á ferli, útreikning ferlisins og bakfærslu á endurmatsfærslum.
 author: kweekley
 ms.date: 05/16/2019
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a8ce792fdc0c6b441deaead32db04ee0246becc9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d68232af3e87cef2f86213211e6c87f7d654df33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711204"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863102"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Endurmat á banka – erlendum gjaldmiðli
 
 [!include [banner](../includes/banner.md)]
 
 
-Þetta efnisatriði veitir yfirlit yfir endurmatsferli banka á erlendum gjaldmiðli. Það útskýrir hvernig á að setja upp og keyra ferlið og veitir upplýsingar um útreikning ferlisins. Það útskýrir einnig hvernig á að bakfæra endurmatsfærslur, ef bakfærslu er krafist.
+Þessi grein veitir yfirlit yfir ferlið við endurmat á gjaldeyri banka. Það útskýrir hvernig á að setja upp og keyra ferlið og veitir upplýsingar um útreikning ferlisins. Það útskýrir einnig hvernig á að bakfæra endurmatsfærslur, ef bakfærslu er krafist.
 
 Sem hluti af lokum tímabils, krefjast reikningsskilavenjur að staða bankareikninga í erlendum gjaldmiðlum verði endurmetnar með því að nota mismunandi gerðir gengis (núverandi, sögulegt, meðaltal og svo framvegis). Eiginleikann fyrir endurmat banka á erlendum gjaldmiðli er hægt að nota endurmeta einn eða fleiri bankareikninga. Eiginleikinn er einnig altækur. Þar af leiðandi geturðu frá einni síðu endurmetið banka yfir alla lögaðila sem þú hefur aðgang að.
 

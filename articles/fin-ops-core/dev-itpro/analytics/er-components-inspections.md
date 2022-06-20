@@ -1,6 +1,6 @@
 ---
 title: Skoða grunnstilltan hlut rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrslu
-description: Þetta efnisatriði útskýrir hvernig á að skoða grunnstillta íhluti rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrsluna sem gætu komið upp.
+description: Þessi grein útskýrir hvernig á að skoða uppsetta rafræna skýrslugerð (ER) íhluti til að koma í veg fyrir keyrsluvandamál sem gætu komið upp.
 author: NickSelin
 ms.date: 01/03/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074792"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864837"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Skoða grunnstilltan hlut rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrslu
 
@@ -30,7 +30,7 @@ Sérhvert grunnstillt [rafrænt skýrslugerðar](general-electronic-reporting.md
 
 Sjálfgefið er að villuleit er sjálfkrafa notuð í eftirfarandi tilfellum fyrir grunnstillingu rafrænnar skýrslugerðar sem inniheldur fyrrnefnda hluti rafrænnar skýrslugerðar:
 
-- Þú [flytur inn](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) nýja [útgáfu](general-electronic-reporting.md#component-versioning) af skilgreiningu rafrænnar skýrslugerðar í tilvikið þitt af Microsoft Dynamics 365 Finance.
+- Þú [flytja inn](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) nýtt [útgáfu](general-electronic-reporting.md#component-versioning) af ER uppsetningu í tilvikið þitt af Microsoft Dynamics 365 Fjármál.
 - Þú breytir [stöðunni](general-electronic-reporting.md#component-versioning) á breytanlegri skilgreiningu rafrænnar skýrslugerðar úr **Drög** í **Lokið**.
 - Þú [endurreiknar grunn](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) breytanlegrar skilgreiningar rafrænnar skýrslugerðar með því að nota nýja grunnútgáfu.
 
@@ -80,7 +80,7 @@ Rafræn skýrslugerð notar eftirfarandi flokka til að flokka saman eftirlit sa
 
 ## <a name="list-of-inspections"></a>Listi yfir eftirlit
 
-Eftirfarandi tafla veitir yfirlit yfir eftirlit sem rafræn skýrslugerð býður upp á. Frekari upplýsingar um þessi eftirlit skal nota tenglana í fyrsta dálknum til að fara í viðeigandi kafla í þessu efnisatriði. Þessir kaflar útskýra gerðir hluta sem rafræn skýrslugerð veitir eftirlit fyrir og hvernig hægt er að endurskilgreina hluti rafrænnar skýrslugerðar til að koma í veg fyrir vandamál.
+Eftirfarandi tafla veitir yfirlit yfir eftirlit sem rafræn skýrslugerð býður upp á. Fyrir frekari upplýsingar um þessar skoðanir, notaðu tenglana í fyrsta dálki til að fara í viðeigandi hluta þessarar greinar. Þessir kaflar útskýra gerðir hluta sem rafræn skýrslugerð veitir eftirlit fyrir og hvernig hægt er að endurskilgreina hluti rafrænnar skýrslugerðar til að koma í veg fyrir vandamál.
 
 <table>
 <thead>
@@ -925,7 +925,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 8. Gefið nýja faldaða reitnum **$AccNumber** heiti og skilgreinið hann þannig að hann innihaldi segðina `TRIM(Vendor.AccountNum)`.
 9. Veldu **Staðfesta** til að skoða breytanlega líkanakortlagningarhlutann á **Módelkortahönnuður** síðu og staðfestið að tjáningin í **Seljandi** hægt er að spyrjast fyrir um gagnagjafa.
 
-    ![Staðfesta að hægt sé að spyrjast fyrir um tjáninguna í gagnagjafa lánardrottins á síðunni Hönnuður líkanavörpunar.](./media/er-components-inspections-18-2.png)
+    ![Staðfesta að hægt sé að spyrjast fyrir um tjáninguna í gagnagjafa lánardrottins á síðunni Hönnuður líkansvörpunar.](./media/er-components-inspections-18-2.png)
 
 10. Taktu eftir að staðfestingarvilla kemur upp vegna þess að **Seljandi** gagnagjafi inniheldur hreiður reit af **Reiknaður reitur** tegund sem leyfir ekki tjáningu á **Pantaðir söluaðilar** gagnauppspretta sem á að þýða yfir í beina gagnagrunnsyfirlýsingu. Sama villa kemur upp á keyrslutíma ef þú hunsar staðfestingarvilluna og velur **Hlaupa** til að keyra þessa líkanakortlagningu.
 

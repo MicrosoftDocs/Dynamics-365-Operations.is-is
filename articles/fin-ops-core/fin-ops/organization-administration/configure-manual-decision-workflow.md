@@ -1,6 +1,6 @@
 ---
 title: Skilgreina handvirkar ákvarðanir í verkflæði
-description: Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika handvirkrar ákvörðunar.
+description: Þessi grein útskýrir hvernig á að stilla eiginleika handvirkrar ákvörðunar.
 author: ChrisGarty
 ms.date: 06/15/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d54c010c8fe0d8ca6cc8129948392fb56ef85283
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: c143da04c5398190f1f5e4d2ec9eb07c6421459f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910288"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Skilgreina handvirkar ákvarðanir í verkflæði
 
@@ -28,7 +28,7 @@ ms.locfileid: "8065656"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika handvirkrar ákvörðunar.
+Þessi grein útskýrir hvernig á að stilla eiginleika handvirkrar ákvörðunar.
 
 Til að skilgreina handvirka ákvörðun í verkflæðisritlinum, hægrismellt er á handvirk ákvörðun og smellið síðan á **Eiginleika** til að opna **Eiginleika** síðu. Notið síðan eftirfarandi ferli til að stilla eiginleika fyrir handvirk ákvörðun.
 

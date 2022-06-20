@@ -1,6 +1,6 @@
 ---
 title: Búðu til handvirkt myndaðar ráðleggingar
-description: Þetta efnisatriði útskýrir hvernig söluaðilar geta stofnað og stjórnað afurðalistum handvirkt fyrir Microsoft Dynamics 365 Commerce viðskiptavini.
+description: Þessi grein útskýrir hvernig söluaðilar geta búið til og stjórnað vörulistum handvirkt fyrir Microsoft Dynamics 365 Commerce viðskiptavinum.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f8142bb8a23e467ba38e3d22b070c2d275c95f506a3cc263dcd2986f60fb5860
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1a1b402165c5cb35696cf1cf6630770ad07508a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892679"
 ---
 # <a name="manually-create-curated-recommendations"></a>Búðu til handvirkt myndaðar ráðleggingar
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig söluaðilar geta stofnað og stjórnað afurðatillögum handvirkt fyrir Microsoft Dynamics 365 Commerce viðskiptavini.
+Þessi grein útskýrir hvernig söluaðilar geta búið til og stjórnað vörutillögulistum handvirkt fyrir Microsoft Dynamics 365 Commerce viðskiptavinum.
 
 Sérvaldir listar eru safn af einstöku efni sem fólk hefur búið til og sérvalið.  
 

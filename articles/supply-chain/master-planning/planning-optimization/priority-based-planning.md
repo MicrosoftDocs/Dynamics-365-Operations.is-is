@@ -1,6 +1,6 @@
 ---
 title: Forgangsröðuð áætlun
-description: Þetta efnisatriði lýsir forgangsbundinni áætlanagerð Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir forgangstengdri áætlanagerð Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,20 +11,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: bdca7ef99716cebee5c4eb41d1e51793b9468dd4
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873812"
 ---
 # <a name="priority-based-planning"></a>Forgangsröðuð áætlun
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði lýsir forgangsbundinni áætlanagerð Microsoft Dynamics 365 Supply Chain Management. Eiginleikinn bætir við stuðningi við eftirspurnardrifna áætlanagerð, sem er eitt skref í Demand Driven Material Requirements Planning (DDMRP). Forgangsmiðuð áætlanagerð gerir áætlanagerð hagræðingu kleift að búa til skipulagðar pantanir sem eru knúnar áfram af forgangsröðun áætlana í stað kröfudagsetninga.
+Þessi grein lýsir forgangstengdri áætlanagerð Microsoft Dynamics 365 Supply Chain Management. Eiginleikinn bætir við stuðningi við eftirspurnardrifna áætlanagerð, sem er eitt skref í Demand Driven Material Requirements Planning (DDMRP). Forgangsmiðuð áætlanagerð gerir áætlanagerð hagræðingu kleift að búa til skipulagðar pantanir sem eru knúnar áfram af forgangsröðun áætlana í stað kröfudagsetninga.
 
-Forgangsmiðuð áætlanagerð gerir þér kleift að forgangsraða áfyllingarpöntunum til að tryggja að brýnni eftirspurn sé forgangsraðað umfram mikilvægari eftirspurn. Til dæmis verður áfyllingarpöntun á lager sett í forgang fram yfir venjulega áfyllingarpöntun. Kerfið getur sjálfkrafa skipt stærri pöntunum í aðskildar smærri pantanir þar sem pöntunarlínur eru flokkaðar eftir forgangi. Það getur síðan afgreitt allar forgangspantanir fyrst.
+Forgangsmiðuð áætlanagerð gerir þér kleift að forgangsraða áfyllingarpöntunum til að tryggja að brýnni eftirspurn sé forgangsraðað fram yfir mikilvægari eftirspurn. Til dæmis verður áfyllingarpöntun á lager sett í forgang fram yfir venjulega áfyllingarpöntun. Kerfið getur sjálfkrafa skipt stærri pöntunum í aðskildar smærri pantanir þar sem pöntunarlínur eru flokkaðar eftir forgangi. Það getur síðan afgreitt allar forgangspantanir fyrst.
 
 Til að fá fljótt yfirlit yfir þennan eiginleika skaltu skoða eftirfarandi myndband: [Stuðningur við skipulagshagræðingu fyrir forgangsmiðaða áætlanagerð í Dynamics 365 Supply Chain Management](https://youtu.be/GmMHzFETTQc).
 
@@ -88,7 +88,7 @@ Eftirfarandi viðbótarreglur taka gildi þegar **Forgangsreikningsaðferð** re
 
 Forgangsmiðuð áætlanagerð er frábrugðin hefðbundnum tímalínuútreikningum á eftirfarandi hátt:
 
-- Allir venjulegir forskipulagningarvinnsluaðilar eru enn í gildi. Þessir forvinnsluaðilar fela í sér tengingu samþykktra fyrirhugaðra pantana við sölueftirspurn, kortlagningu innkaupabeiðni og pöntunarrökfræði. Aðeins er unnið úr eftirspurn sem ekki er uppfyllt af þessum forvinnslum.
+- Allir venjulegir forskipulagningarvinnsluaðilar eru enn í gildi. Þessir forvinnsluaðilar fela í sér tengingu samþykktra fyrirhugaðra pantana við sölueftirspurn, kortlagningu innkaupabeiðna og pöntunarrökfræði. Aðeins er unnið úr eftirspurn sem ekki er uppfyllt af þessum forvinnslum.
 - Við tengingu er tekið tillit til allt framboðs, óháð forgangi þess. Þetta framboð inniheldur birgðahald á lager, útgefið framboð og ótengda hluta samþykktra fyrirhugaðra pantana.
 - Enga „neikvæða daga“ eftirspurn er hægt að tengja við framboð á öllum umfjöllunartímanum.
 - Þegar framboð er tengt við eftirspurn er framboðið sem hefur mestan forgang (þ.e. lægsta forgangsgildið) notað fyrst. Lánveitingar eru taldar hafa forgangsgildi 0 (núll). Þess vegna verður það neytt sem fyrsta uppspretta.
@@ -114,14 +114,14 @@ Settu upp nýjan umfjöllunarhóp sem þú ætlar að nota fyrir forgangsmiðað
 
 Settu upp stillingar fyrir vöruþekju eins og lýst er í [Þekjustillingar](../coverage-settings.md). Sjálfgefið er **Umfjöllunarkóði** gildi sem er valið fyrir þekjuhópinn er afritað í vöruþekjustillingar. Hins vegar geturðu hnekkt sjálfgefna gildinu eftir þörfum. Í sumum tilfellum er **Umfjöllunarkóði** reit fyrir vöruþekjuskrá er stillt á *Skipulag*, en ekkert áætlunarforgangslíkan er skilgreint fyrir tengda þekjuhópinn. Í þessum tilvikum, hvaða gerð sem er þar sem **Forgangsreikningsaðferð** reiturinn er stilltur á *Hlutfall af hámarks birgðamagni* og **Skipulögð pöntunargerð** reiturinn er stilltur á *Eitt framboð með mikilvægasta forgang* verður beitt sjálfgefið.
 
-Stilltu **Umfjöllunarkóði** sviði til *Forgangur* að gera **Endurraða punkt** reitinn í tiltækum vöruþekjustillingum. Í þessum reit skaltu slá inn endurpöntunarpunktamagnið sem kerfið á að nota á meðan það er að ákvarða hvenær á að leggja inn fyrirhugaðar pantanir sem hafa **Umfjöllunarkóði** verðmæti á *Forgangur*.
+Stilltu **Umfjöllunarkóði** sviði til *Forgangur* að gera **Endurraða punkt** reitinn í tiltækum vöruþekjustillingum. Í þessum reit skal slá inn endurpöntunarpunktamagnið sem kerfið á að nota á meðan það er að ákvarða hvenær á að leggja inn fyrirhugaðar pantanir sem hafa **Umfjöllunarkóði** verðmæti á *Forgangur*.
 
 Magn endurpöntunarpunkta er oft reiknað út sem eftirspurn á afgreiðslutíma auk lágmarksgildis (öryggisbirgða). Það verður að vera gildi á milli **Lágmark** og **Hámark** gildi.
 
 Til dæmis gætirðu stillt reitina á eftirfarandi hátt:
 
 - **Lágmark:** *10*
-- **Endurraða punktur:** *45*
+- **Endurröðunarpunktur:** *45*
 - **Hámark:** *60*
 
 Fyrir þetta dæmi er magn endurpöntunarpunkta byggt á sjö daga afgreiðslutíma og 5 að meðaltali daglega notkun. Þess vegna er eftirspurnin á afgreiðslutíma 35. Lágmarksgildið 10 (öryggisbirgðir) er síðan bætt við til að fá endurpöntunarpunkt upp á 45. Þegar þessi uppsetning er notuð, verður stungið upp á framboði þegar áætluð neyðarstig er undir 45. Pöntunarforgangurinn mun byggjast á uppsetningu skipulagsforgangs.
@@ -141,7 +141,7 @@ Til að vinna með forgangslíkönin þín áætlanagerð. Fylgdu þessum skrefu
         - *Forgangssvið* – Þegar þú velur þetta gildi, **Skipuleggja forgangssvið** rist verður tiltækt. Þar verður þú að setja upp nokkur forgangssvið til að skilgreina áætlunarforgangsgildi.
         - *Prósenta af hámarks birgðamagni* – Reiknaðu áætlunarforgangsgildi sem prósentu, byggt á áætluðu birgðastigi yfir hámarks birgðamagn.
 
-    - **Fyrirhuguð pöntunargerð** – Þessi reitur er tiltækur þegar **Forgangsreikningsaðferð** reiturinn er stilltur á *Forgangssvið*. Veljið eitt af eftirfarandi gildum:
+    - **Skipulögð pöntunargerð** – Þessi reitur er tiltækur þegar **Forgangsreikningsaðferð** reiturinn er stilltur á *Forgangssvið*. Veljið eitt af eftirfarandi gildum:
 
         - *Eitt framboð með mikilvægasta forgang* – Ekki skipta skipulögðum pöntunum út frá forgangssviðinu. Skipulagsforgangur fyrir áætlaða pöntun er byggður á mikilvægasta forgangssviðinu (þ.e. lægsta áætlunarforgangsgildi).
         - *Skiptu í samræmi við forgangssvið* – Skiptu eftirspurninni í margar skipulagðar pantanir, byggt á forgangssviðum áætlanagerðar. Skipulagsforgangur fyrir einstakar áætlaðar pantanir er skilgreindur af áætlunarforgangi tengda áætlunarforgangssviðsins.
@@ -153,7 +153,7 @@ Til að vinna með forgangslíkönin þín áætlanagerð. Fylgdu þessum skrefu
     - **Skipulagsforgangur** – Sláðu inn hvaða gildi sem er á milli 0,00 og 100,00. Þetta gildi táknar áætlunarforganginn sem er notaður fyrir línuna. Lægsta forgangsgildið táknar hæsta forganginn. Sjálfgefnu gildi er úthlutað en þú getur breytt því eftir þörfum. Það sama **Skipulagsforgangur** gildi er ekki hægt að nota fyrir fleiri en eitt áætlunarforgangssvið í sama áætlunarforgangslíkani.
     - **Lýsing** – Sláðu inn lýsingu á forgangssviði áætlanagerðar (svo sem *Endurraðaðu punkt í hámark*).
     - **Frá magni** – Neðri mörk forgangssviðs skipulags. Þetta gildi er skrifvarið og er byggt á **Að magni** og **Hlutfall af til magns** gildi fyrir fyrra forgangssvið áætlanagerðar.
-    - **Að magni** – Veldu reitinn úr vöruþekju sem ætti að nota til að skilgreina efri mörk sviðsins. Eftirfarandi gildi eru studd og munu hafa áhrif á **Frá magni** gildi næsta sviðs:
+    - **Að magni** – Veldu reitinn úr vöruþekju sem ætti að nota til að skilgreina efri mörk sviðsins. Eftirfarandi gildi eru studd og munu hafa áhrif á **Frá magni** gildi næsta bils:
 
         - *Núll* – Þetta gildi táknar neikvætt til núllsvið (*Núll eða minna* til *Núll*). Fyrir línur þar sem þetta gildi er valið er **Prósenta af til magns** reiturinn er skrifvarinn og er alltaf stilltur á *100* prósent.
         - *Lágmarks birgðamagn* – Þetta gildi táknar **Lágmark** gildi fyrir hlut á **Vöruumfjöllun** síðu. Fyrir línur þar sem þetta gildi er valið er **Prósenta af til magns** reiturinn er breytanlegur og er notaður til að stilla **Frá magni** gildi næsta sviðs (til dæmis til *80% af Lágmarks birgðamagni*).

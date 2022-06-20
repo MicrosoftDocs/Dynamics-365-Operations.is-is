@@ -1,6 +1,6 @@
 ---
 title: Viðskiptavinagátt fyrir Dynamics 365 Supply Chain Management yfirlit (inniheldur myndband)
-description: Þetta efnisatriði fjallar um viðskiptavinagáttina og útskýrir hver ætti að nota hana og hvernig hún virkar.
+description: Þessi grein kynnir viðskiptavinagáttina og útskýrir hver ætti að nota hana og hvernig hún virkar.
 author: Henrikan
 ms.date: 06/16/2020
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 50bdbe6c5f5d23f49bdf8040f2c7811a28da3f32
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: ff074e62489fe74f0c2de6dae0e02d1da7e7f6ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062010"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901909"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Viðskiptavinagátt fyrir Dynamics 365 Supply Chain Management-yfirlit
 
@@ -42,7 +42,7 @@ Sniðmát viðskiptavinagáttar er með alla sérstillingarmöguleika sem gátti
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-The [Yfirlit yfir sniðmát viðskiptavinagáttar í Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) myndbandið (sýnt hér að ofan) er innifalið í [Spilunarlisti fyrir fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) í boði á YouTube.
+The [Yfirlit yfir sniðmát viðskiptavinagáttar í Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) myndbandið (sýnt hér að ofan) er innifalið í [Fjármál og rekstur lagalisti](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) í boði á YouTube.
 
 ## <a name="who-should-use-it"></a>Hver ætti að nota hana?
 

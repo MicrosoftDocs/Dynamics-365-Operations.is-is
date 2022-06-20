@@ -1,6 +1,6 @@
 ---
 title: Bókanir viðskiptaskulda
-description: Þetta efnisatriði útskýrir hvernig færslur eru stilltar í Viðskiptaskuldir og gefur dæmi um bókunarstillingar.
+description: Þessi grein útskýrir hvernig færslur eru stilltar í Viðskiptaskuldir og gefur dæmi um bókunarstillingar.
 author: rachel-profitt
 ms.date: 01/19/2022
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb3ebad31c9f41e405b9fc31a0f71df05fa1cc60
-ms.sourcegitcommit: 10b85a09e8a550155a69aa2a8877a7c88b887242
+ms.openlocfilehash: 5b3593e01ed4d0a88b5816803f1d67fa7ed5e0f6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "8014487"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908010"
 ---
-# <a name="accounts-payable-posting"></a>Bókun viðskiptaskulda
+# <a name="accounts-payable-posting"></a>Bókun lánardrottnalykils
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,19 +34,19 @@ Nokkrar bókunarstillingar fyrir utan bókunarsnið lánardrottins eru fáanlega
 
 ## <a name="methods-of-payment-posting-accounts"></a>Aðferðir við greiðslubókun reikninga
 
-Greiðsluaðferðir skilgreina hvernig greiðsla verður bókuð í fjárhag. Þeir stjórna einnig hegðun greiðsluúttaksins. Venjulega er ein greiðslumáti búin til fyrir hverja greiðslutegund sem fyrirtæki þitt gerir (til dæmis reiðufé, ávísun, kreditkort, peningapöntun og vír).
+Greiðsluaðferðir skilgreina hvernig greiðsla verður bókuð í fjárhag. Þeir stjórna einnig hegðun greiðsluúttaksins. Venjulega er ein greiðslumáti búin til fyrir hverja tegund greiðslu sem fyrirtæki þitt gerir (til dæmis reiðufé, ávísun, kreditkort, peningapöntun og vír).
 
 Reitirnir í **Birting** kafla um **Almennt** Flýtiflipi á **Greiðslumáti** síða (**Viðskiptaskuldir > Greiðsluuppsetning > Greiðslumátar**) stjórna því hvernig greiðsla verður bókuð í fjárhag. Þú verður fyrst að velja gildi í **Tegund reiknings** sviði. Reikningstegundin sem þú velur stjórnar hegðun reikningsins **Greiðslureikningur** sviði. Við mælum með að þú veljir **Banki** í **Tegund reiknings** reitnum og veldu síðan bankareikninginn í **Greiðslureikningur** sviði. Ávinningurinn af nálguninni er að kerfið mun bóka greiðsluna í undirbók bankans, sem styður afstemmingu og önnur reiðufjártengd ferli. Eftirfarandi tafla sýnir dæmi um uppsetningu póstsniðs ef þú ert að nota **Handbært fé og bankastjórnun** mát.
 
 | Bókunargerð | Lykilgerð | Dæmi um nafn greiðslureiknings | Lykilgerð | Debet/kredit? | Millireikningur | Lýsing |
 |--------------|--------------|------------------------------|--------------|---------------|------------------|-------------|
-| Banki | Banki | Bank of America | Bankareikningur sem er tengdur við eign | Debet | Nei | Fyrir hvern greiðslumáta skaltu slá inn aðalreikninginn í **Greiðslureikningur** sviði. |
+| Banki | Banki | Bank of America | Bankareikningur sem er tengdur við eign | Debet | Nr. | Fyrir hvern greiðslumáta skaltu slá inn aðalreikninginn í **Greiðslureikningur** sviði. |
 
 Ef þú ætlar ekki að nota reiðufé og bankastjórnun ættir þú að velja **Fjárhagsbók** í **Tegund reiknings** reitnum og veldu síðan aðalreikninginn í **Greiðslureikningur** sviði. Eftirfarandi tafla sýnir dæmi um uppsetningu birtingarsniðs ef þú ert það **ekki** með því að nota reiðufé og bankastjórnun.
 
 | Bókunargerð | Lykilgerð |Dæmi um greiðslureikning | Lykilgerð | Debet/kredit? | Millireikningur | Lýsing |
 |--------------|--------------|------------------------|--------------|---------------|------------------|-------------|
-| Ledger | Ledger | 100100: Bank of America | Eign | Debet | Nei | Fyrir hvern greiðslumáta skaltu slá inn aðalreikninginn í **Greiðslureikningur** sviði. |
+| Fjárhagur | Fjárhagur | 100100: Bank of America | Eign | Debet | Nr. | Fyrir hvern greiðslumáta skaltu slá inn aðalreikninginn í **Greiðslureikningur** sviði. |
 
 ## <a name="bridging-accounts"></a>Brúarreikningar
 
@@ -54,7 +54,7 @@ Brúarbókun er tveggja þrepa ferli sem er notað þegar greiðslur eru bókað
 
 | Bókunargerð | Dæmi um aðalreikning | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit? | Millireikningur | Lýsing |
 |--------------|----------------------|---------------------------|--------------|---------------|------------------|-------------|
-| Færslubók fjárhags | 130725 | Óafgreidd reiðufé | Skuld | Debet | Já | Fyrir hvern greiðslumáta skaltu slá inn aðalreikninginn í **Brúarreikningur** sviði. |
+| Færslubók fjárhags | 130725 | Óafgreidd reiðufé | Bótaábyrgð | Debet | Já | Fyrir hvern greiðslumáta skaltu slá inn aðalreikninginn í **Brúarreikningur** sviði. |
 
 Fyrir frekari upplýsingar, sjá [Setja upp og vinna úr brúuðum greiðslum](../accounts-receivable/set-up-and-process-bridged-payments.md).
 
@@ -75,21 +75,21 @@ Greiðslugjöld gera þér kleift að bæta gjaldi sjálfkrafa við greiðslu l�
 
 | Bókunargerð | Dæmi um aðalreikning | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit? | Millireikningur | Lýsing |
 |--------------|----------------------|---------------------------|--------------|----------------|------------------|-------------|
-| Færslubók fjárhags | 618190 | Bankagjaldskostnaður | Kostnaður | Debet | Nei | Ef **Fjárhagsbók** er valið í **Hleðsla** reit, veldu þennan reikning í **Aðalreikningur** sviði á **Greiðslugjald** síðu. |
+| Færslubók fjárhags | 618190 | Bankagjaldskostnaður | Kostnaður | Debet | Nr. | Ef **Fjárhagsbók** er valið í **Hleðsla** reit, veldu þennan reikning í **Aðalreikningur** sviði á **Greiðslugjald** síðu. |
 
 Nánari upplýsingar er að finna í [Skilgreina greiðsluþóknanir lánardrottna](../accounts-payable/tasks/define-vendor-payment-fees.md).
 
 ## <a name="charges-code-posting-accounts"></a>Gjaldkóðabókunarreikningar
 
-Ef þú verður að fylgjast með innkaupaupphæðum til viðbótar við línuvörur geturðu notað gjaldakóða. Til dæmis gæti birgir þinn rukkað vöruflutninga- og afgreiðslugjöld af þér, eða það gæti kostað eitthvað vöru- og afgreiðslugjald innanhúss. Hægt er að tilgreina hvort þessar upphæðir séu bókaðar á kostnaðarreikninga eða bætt við kostnað hlutanna.
+Ef þú verður að fylgjast með innkaupaupphæðum til viðbótar við línuvörur geturðu notað gjaldakóða. Til dæmis gæti birgir þinn rukkað vöruflutninga- og afgreiðslugjöld af þér, eða það gæti kostað nokkur vöru- og afgreiðslugjöld innanhúss. Hægt er að tilgreina hvort þessar upphæðir séu bókaðar á kostnaðarreikninga eða bætt við kostnað hlutanna.
 
 Þú getur búið til gjaldakóða fyrir Viðskiptakröfur og Viðskiptaskuldir. Þegar þú stillir gjaldkóða verður þú að skilgreina bókunina. Bókunin stjórnar bæði debetreikningi og kreditreikningi. Þegar þú býrð til gjaldakóða geturðu valið bókunartegundina sem er notuð fyrir hvern gjaldkóða. Eftirfarandi tafla sýnir dæmi um dæmigerða gjaldkóða fyrir Viðskiptaskuldir á **Gjaldkóðar** síðu.
 
 | Bókunargerð | Dæmi um aðalreikning | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit? | Millireikningur | Lýsing |
 |--------------|----------------------|---------------------------|--------------|---------------|------------------|-------------|
-| Innkaupagjöld | Skildu reitinn eftir auðan. | Á ekki við | Vara | Debet | Nei | **Dæmi um kaupgjald fyrir vöru:** </p><ul><li>**Debettegund** reit =**Atriði**</li><li>  **Kredittegund** reit =**Viðskiptavinur/seljandi**.</li><li> Vörubókunin notar aðalreikninginn úr birgðabókunarsniðinu. |
-| Pöntun, farmur | 600120 | Senda inn | Tekjur | Debet | Nei | **Dæmi um vöruflutninga sem greiddur er til söluaðila:** </p><ul><li>**Debettegund** reit =**Fjárhagsreikningur**</li><li> **Kredittegund** reit =**Viðskiptavinur/seljandi** |
-| Eftirágreiddur afsláttur\* | 503160 | Söluafsláttur (Contra COGS)| Kostnaður | Kredit | Nei | **Dæmi um afslátt frá söluaðila:**</p><ul><li>**Debettegund** reit =**Viðskiptavinur/seljandi**</li><li>**Kredittegund** reit =**Fjárhagsreikningur** |
+| Innkaupagjöld | Hafið svæðið autt. | Á ekki við | Atriði | Debet | Nr. | **Dæmi um kaupgjald fyrir vöru:** </p><ul><li>**Debettegund** reit =**Atriði**</li><li>  **Kredittegund** reit =**Viðskiptavinur/seljandi**.</li><li> Vörubókunin notar aðalreikninginn úr birgðabókunarsniðinu. |
+| Pöntun, farmur | 600120 | Senda inn | Tekjur | Debet | Nr. | **Dæmi um vöruflutninga sem greiddur er til seljanda:** </p><ul><li>**Debettegund** reit =**Fjárhagsreikningur**</li><li> **Kredittegund** reit =**Viðskiptavinur/seljandi** |
+| Eftirágreiddur afsláttur\* | 503160 | Söluafsláttur (Contra COGS)| Kostnaður | Kredit | Nr. | **Dæmi um afslátt frá seljanda:**</p><ul><li>**Debettegund** reit =**Viðskiptavinur/seljandi**</li><li>**Kredittegund** reit =**Fjárhagsreikningur** |
 
 \* Fyrir afsláttardæmið er bókunin aðeins notuð þegar gjaldkóða er bætt við innkaupapöntunarhaus eða línu. Háþróuð afsláttarvirkni sem er fáanleg í Microsoft Dynamics 365 Supply Chain Management veitir meiri stjórn og sjálfvirkni á afslætti. Fyrir frekari upplýsingar, sjá [Afsláttur söluaðila](../../supply-chain//procurement/vendor-rebates.md).
 

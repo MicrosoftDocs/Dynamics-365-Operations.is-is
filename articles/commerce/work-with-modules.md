@@ -1,6 +1,6 @@
 ---
 title: Vinna með einingar
-description: Þetta efnisatriði lýsir því hvernig og hvenær á að nota einingar í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig og hvenær á að nota einingar í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce16aa98a37cd5dec60bcdbf86f59f74810da9755a6d3514bdd3e38a21afb748
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c393f1e619647795a5ae8da3a78500c1678da9f6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728265"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860193"
 ---
 # <a name="work-with-modules"></a>Vinna með einingar
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig og hvenær á að nota einingar í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig og hvenær á að nota einingar í Microsoft Dynamics 365 Commerce.
 
 Einingar eru rökréttir byggingarreitir sem mynda síðuuppbyggingu þína og þau hafa ýmsan tilgang og gildissvið. Sumir einingar eru hástigs gámar og eini tilgangur þeirra er að halda og skipuleggja aðrar einingar (undireiningar). Aðrar einingar, svo sem einföld myndstaðsetningareining, hafa mjög sérstakan tilgang. Aðrar einingar, svo sem hringekjueining, falla einhvers staðar á milli þessara tveggja flokka.
 
@@ -151,7 +151,7 @@ Fylgdu þessum skrefum til að stilla gámaeiningu á síðu.
 
 1. Veldu gámaeiningu á síðunni (til dæmis hringekju- eða vökvagámaeiningu).
 1. Í eiginleikaglugganum til hægri skaltu stækka ívafðar stýringarnar með því að velja hausana og stilla öll nauðsynleg stjórnunargildi.
-1. Í útlínuglugganum til vinstri velurðu úrfellingarhnappinn við hliðina á heiti annaðhvort gámsins eða hólfa innan í gámnum og síðan velurðu **Bæta við einingu**. Bættu síðan undireiningum við valinn gám. Fyrir frekari upplýsingar, sjá hlutann [Vinna með einingar](#add-a-module) fyrr í þessu efni.
+1. Í útlínuglugganum til vinstri velurðu úrfellingarhnappinn við hliðina á heiti annaðhvort gámsins eða hólfa innan í gámnum og síðan velurðu **Bæta við einingu**. Bættu síðan undireiningum við valinn gám. Fyrir frekari upplýsingar, sjá [Vinna með einingar](#add-a-module) kafla fyrr í þessari grein.
 1. Ef margar undireiningar eru til sem systkini í yfirgámi geturðu breytt skjápöntun þeirra í yfirgámnum. Veldu úrfellingarhnappinn fyrir eininguna og notaðu síðan upp örina og örvatakkana.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar

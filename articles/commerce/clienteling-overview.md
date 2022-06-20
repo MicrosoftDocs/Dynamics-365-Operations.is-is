@@ -1,6 +1,6 @@
 ---
-title: Yfirlit yfir aðgerðir viðskiptavina
-description: Í þessu efnisatriði er að finna yfirlit yfir nýja aðgerðagetu viðskiptavina sem er í boði í verslunarforritinu.
+title: Yfirlit yfir biðlaraþjónustu
+description: Þessi grein veitir yfirlit yfir nýja möguleika á viðskiptavinum sem eru fáanlegir í verslunarforritinu.
 author: bebeale
 ms.date: 02/01/2021
 ms.topic: overview
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984597"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885612"
 ---
 # <a name="clienteling-overview"></a>Yfirlit yfir biðlaraþjónustu
 
@@ -81,7 +81,7 @@ Fylgdu þessum skrefum til að kveikja á viðskiptavinarvirkni í umhverfi þí
     - Stilltu skjáröð fyrir þessa eiginleika. Þessi skjáröð ákvarðar hvaða eiginleikar ættu að birtast á viðskiptavinaspjaldinu í viðskiptavinabókinni. Skjáröð 1 er talin hærri en skjáröð 2. Þess vegna verður eigindin sem hefur skjáröð 1 sýnd á undan eigindinni sem hefur skjáröð 2.
 
     > [!NOTE]
-    > Þú getur gert Customer Insights aðgengileg af sömu síðu. Samt sem áður verður að búa til auðkenni Azure forrits og leyndarmál, til að sannprófa. (Fyrir upplýsingar um kröfurnar, sjá hlutann [Kveikja á samþættingu Customer Insights við Commerce](#turn-on-the-integration-of-customer-insights-with-commerce) síðar í þessu efni.) Ef kveikt er á Customer Insights og þú velur eina eða fleiri ráðstafanir sem ætti að sýna á viðskiptavinaspjaldinu, verða þessar ráðstafanir sýndar fyrst. Næst verða eigindahópar viðskiptavinarbókar sýndir, byggðar á skjáröðuninni. Til dæmis, ef þú velur tvo mælikvarða úr Customer Insights, þá verða þeir tveir mælikvarðar og ein eigind viðskiptavinarbókar sýndir á viðskiptavini kortinu. (Einkenni viðskiptavinarbókarinnar sem er sýndur er eiginleiki sem hefur hæstu skjáröð.)
+    > Þú getur gert Customer Insights aðgengileg af sömu síðu. Samt sem áður verður að búa til auðkenni Azure forrits og leyndarmál, til að sannprófa. (Fyrir upplýsingar um kröfurnar, sjá [Kveiktu á samþættingu Customer Insights við Commerce](#turn-on-the-integration-of-customer-insights-with-commerce) kafla síðar í þessari grein.) Ef kveikt er á Customer Insights og þú velur eina eða fleiri mælikvarða sem eiga að birtast á viðskiptamannaspjaldinu, þá verða þessar mælingar sýndar fyrst. Næst verða eigindahópar viðskiptavinarbókar sýndir, byggðar á skjáröðuninni. Til dæmis, ef þú velur tvo mælikvarða úr Customer Insights, þá verða þeir tveir mælikvarðar og ein eigind viðskiptavinarbókar sýndir á viðskiptavini kortinu. (Einkenni viðskiptavinarbókarinnar sem er sýndur er eiginleiki sem hefur hæstu skjáröð.)
 
 6. Á síðunni **Commerce-færibreytur**, á flipanum **Viðskiptavinir**, í reitnum **Eigindahópur viðskiptavinarbókar**, veldu eigindahópinn sem þú bjóst til.
 

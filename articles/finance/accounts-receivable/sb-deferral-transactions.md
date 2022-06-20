@@ -1,6 +1,6 @@
 ---
 title: Frestunarfærslur í áskriftarreikningi
-description: Þetta efnisatriði lýsir hinum ýmsu færslum sem hægt er að nota í frestunarfærslum sem hluta af frestun tekna og gjalda í áskriftarreikningi.
+description: Þessi grein lýsir hinum ýmsu færslum sem hægt er að nota í frestun sem hluta af tekju- og kostnaðarfrestun í áskriftarreikningi.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 5913308d4ee9fdcb8cf2b862171078f27f651662
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c3862f1a250bf8e56303975b5c6a3560cd84c1e7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872587"
 ---
 # <a name="deferral-default-transactions"></a>Sjálfgefnar frestunarfærslur
 
-Þetta efnisatriði lýsir þeim færslum sem gera ráð fyrir frestun tekna og gjalda. Frestunaráætlanir eru alltaf byggðar á og eru háðar upprunaskjali eða innheimtuáætlun. Frestunaráætlanir eru búnar til á grundvelli sjálfgefna og ekki er hægt að slá inn eða búa til sérstaklega.
+Þessi grein lýsir þeim færslum sem gera ráð fyrir frestun tekna og gjalda. Frestunaráætlanir eru alltaf byggðar á og eru háðar upprunaskjali eða innheimtuáætlun. Frestunaráætlanir eru búnar til á grundvelli sjálfgefna og ekki er hægt að slá inn eða búa til sérstaklega.
 
 ## <a name="sales-order-transaction-deferral"></a>Frestun sölupöntunarfærslu
 
@@ -68,7 +68,7 @@ Ef þú vilt nota frestunaraðgerðina fyrir innkaupapöntun skaltu búa til rei
     Þegar þú slærð inn línu er frestunin sjálfkrafa stillt fyrir vöruna eða innkaupaflokkinn sem þú velur. Þessi frestun er byggð á uppsetningu frestunarinnar á **Frestun vanskil** síðu. Hægt er að breyta frestuninni eða bæta við á dreifingarstigi.
 
 3. Á innkaupalínunni velurðu **Fjármál \> Úthluta upphæðum**.
-4. Veldu fyrir hverja dreifingarupphæð **Frestun**. Þegar reikningurinn er bókaður er búið til frestunaráætlun fyrir hverja dreifingu sem frestun er sett á.
+4. Veldu fyrir hverja dreifingarupphæð **Frestun**. Þegar reikningurinn er bókaður er búið til frestunaráætlun fyrir hverja dreifingu sem frestun er stillt á.
 
 ### <a name="tax"></a>Skattur
 
@@ -118,7 +118,7 @@ The **Frestun viðskipta** síða inniheldur eftirfarandi reiti.
 | Lykill upphaflegrar skráningar | <p>Veldu reikninginn fyrir upphaflega afsláttarviðurkenningu. Sjálfgefið gildi er frá **Frestun vanskil** síðu.</p><p>Þessi reitur er aðeins tiltækur þegar **Frestun bókunaraðferð** reiturinn er stilltur á **Hagnaður og tap** á **Færslur tekna og gjalda frestun** síðu og er afsláttur settur á línuna.</p> |
 | Mótlykill skráningar | <p>Veldu reikninginn fyrir tekjufærslu á móti. Sjálfgefið gildi er frá **Frestun vanskil** síðu.</p><p>Þessi reitur er aðeins tiltækur þegar **Frestun bókunaraðferð** reiturinn er stilltur á **Hagnaður og tap** á **Færslur tekna og gjalda frestun** síðu og er afsláttur settur á línuna.</p> |
 | **Reikningar - Neysla** | Þessi hluti birtist aðeins fyrir frestað atriði. Það er falið fyrir frestað gjöld. |
-| Lykill frestunar | <p>Tilgreindu númer neyslufrestunarreiknings.</p><p>Fyrir staðlaðar vörur eru tvær frestunaráætlanir búnar til:</p><ul><li>**Hefðbundin sala** – Tekjuáætlun sem hefur inneign. Í þessu tilviki skaltu velja neyslufrestunarreikning.</li><li>**Neysla** – Neysla (kostnaður seldra vara\[ COGS\]) kostnaðaráætlun sem hefur debetjöfnuð. Í þessu tilviki skaltu velja neysluviðurkenningarreikninginn.</li></ul><p>Þegar reikningur er bókaður er neysluupphæð bókuð á tilgreindan neyslufrestunarreikning. Þessir reitir eru ekki tiltækir fyrir þjónustuvörur.</p> |
+| Lykill frestunar | <p>Tilgreindu númer neyslufrestunarreiknings.</p><p>Fyrir staðlaðar vörur eru tvær frestunaráætlanir búnar til:</p><ul><li>**Hefðbundin sala** – Tekjuáætlun sem hefur inneign. Í þessu tilviki skaltu velja neyslufrestunarreikning.</li><li>**Neysla** – Neysla (kostnaður við seldar vörur\[ COGS\]) kostnaðaráætlun sem hefur debetjöfnuð. Í þessu tilviki skaltu velja neysluviðurkenningarreikninginn.</li></ul><p>Þegar reikningur er bókaður er neysluupphæð bókuð á tilgreindan neyslufrestunarreikning. Þessir reitir eru ekki tiltækir fyrir þjónustuvörur.</p> |
 | Skráningarlykill | Tilgreindu reikningsnúmer neysluviðurkenningar. |
 | Lykill upphaflegrar skráningar | <p>Tilgreindu reikninginn fyrir upphaflega neysluupphæð. Sjálfgefið gildi er frá **Frestun vanskil** síðu.</p><p>Þessi reitur er aðeins tiltækur þegar **Frestun bókunaraðferð** reiturinn er stilltur á **Hagnaður og tap** á **Færslur tekna og gjalda frestun** síðu.</p> |
 | Mótlykill skráningar | <p>Tilgreindu reikninginn fyrir mótvægisupphæð neyslufærslu. Sjálfgefið gildi er frá **Frestun vanskil** síðu.</p><p>Þessi reitur er aðeins tiltækur þegar **Frestun bókunaraðferð** reiturinn er stilltur á **Hagnaður og tap** á **Færslur tekna og gjalda frestun** síðu.</p> |
@@ -133,10 +133,10 @@ The **Frestun viðskipta** síða inniheldur eftirfarandi reiti.
 | Upphafsdagsetning frestunar | Tilgreindu upphafsdag frestunarinnar. Viðskiptadagsetningin er sjálfgefið gildi. |
 | Lokadagsetning frestunar | <p>Lokadagur frestunarinnar.</p><p>Þessi dagsetning er sjálfkrafa reiknuð út frá frestunarsniðmátinu. Ef ekkert sniðmát er valið verður þú að slá inn dagsetninguna handvirkt.</p> |
 | **Dagskrá - Byggt á viðburðum** | |
-| Sniðmát | <p>Veldu sniðmát sem byggir á viðburðum. Þessi reitur er valfrjáls.</p><p>Ef þú velur sniðmát skrifa gildin úr sniðmátinu yfir öll atburðatengd gögn og atburðarlínur.</p> |
+| Sniðmát | <p>Veldu sniðmát sem byggir á viðburðum. Þessi reitur er valfrjáls.</p><p>Ef þú velur sniðmát skrifa gildin úr sniðmátinu yfir öll gögn sem byggjast á atburðum og atburðalínur.</p> |
 | Úthlutunargerð | <p>Veldu úthlutunartegund fyrir viðburðarlínurnar:</p><ul><li>**Breytileg upphæð** – Ákveðin úthlutunarupphæð er færð inn fyrir hverja línu.</li><li>**Jafnar upphæðir** – Upphæðinni er úthlutað jafnt fyrir hverja línu.</li><li>**Hlutfall** – Upphæð er úthlutað miðað við prósentugildið sem er slegið inn fyrir hverja línu.</li><li>**Prósenta af verklokum** – Uppsafnað fullnaðargildi er slegið inn fyrir hverja línu.</li><p>**Breytilegt magn** – Ákveðið úthlutunarmagn er fært inn fyrir hverja línu.</li></ul><p>**Athugið:** Ef þú vilt velja **Prósenta af verklokum**, dagsetningar verða að vera í hækkandi röð.</p> |
 | **Búa til aðskilin tilvik á hverja einingu** | |
-| Lýsing | <p>Tilgreindu hvort þú vilt aðgreina atburði á hverja einingu:</p><ul><li>**Já** – Aðskilið atburðarlínurnar þannig að ein lína sé á hvert magn.<p>Til dæmis eru þrjár viðburðarlínur og reikningurinn hefur fjórar. Í þessu tilviki hefur frestunaráætlunin 12 línur.</p></li><li>**Nei** – Ekki aðskilja viðburðalínurnar.</li></ul> |
+| Lýsing | <p>Tilgreindu hvort þú vilt aðgreina atburði á hverja einingu:</p><ul><li>**Já** – Aðskilið atburðarlínurnar þannig að ein lína sé á hvert magn.<p>Til dæmis eru þrjár viðburðarlínur og reikningurinn hefur fjórar. Í þessu tilviki hefur frestunaráætlunin sem myndast 12 línur.</p></li><li>**Nei** – Ekki aðskilja viðburðalínurnar.</li></ul> |
 | Lykill gildistíma | <p>Veldu reikninginn sem er notaður fyrir viðurkenndar útrunnar línur. Þú getur valið reikninginn eftir að frestunaráætlunin er búin til.</p><p>Ef fyrningardagur er stilltur fyrir atburð, á meðan á viðurkenningarferlinu stendur, fer viðurkenningarupphæðin á fyrningarreikninginn í stað viðurkenningarreikningsins.</p> |
 | **Dagskrá - Atburðabyggðar línur** | |
 | Lýsing | Lýsing á atburðinum. |

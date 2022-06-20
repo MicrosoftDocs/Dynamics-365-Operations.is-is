@@ -1,6 +1,6 @@
 ---
-title: Útleið birgðaaðgerð í POS
-description: Þetta efni lýsir getu sölustaðar (POS) á útleið birgðaaðgerð.
+title: Birgðaaðgerð á útleið á sölustað
+description: Þessi grein lýsir möguleikum sölustaðar (POS) birgðaaðgerðar á útleið.
 author: hhaines
 ms.date: 07/30/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: dd2c124660643628ca4c19dc3a49366b67f29ad3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850224"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Birgðaaðgerð á útleið á sölustað
 
@@ -187,7 +187,7 @@ Eftir að skjaladrög hafa verið send til Commerce Headquarters, birtast þau �
 
 Flutningsskipanir sem eru að fullu sendar eru fluttar á flipann **Lokið** á skjalalistanum **Aðgerð á útleið**. Þar eru þær áfram sýnilegar notendum verslunar eða vöruhúss á útleið, í skrifvarnarham, í sjö daga.
 
-## <a name="related-topics"></a>Tengd efnisatriði
+## <a name="related-articles"></a>Tengdar greinar
 
 [Innleið birgðaaðgerð í POS](pos-inbound-inventory-operation.md)
 

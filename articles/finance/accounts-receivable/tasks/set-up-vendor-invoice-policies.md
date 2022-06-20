@@ -1,6 +1,6 @@
 ---
-title: Setja upp reglur lánardrottnareikninga
-description: Í þessu efnisatriði er útskýrt hvernig á að setja upp reikningsreglur lánardrottins.
+title: Setja upp reikningsreglur lánardrottins
+description: Þessi grein útskýrir hvernig á að setja upp reikningsreglur lánardrottins.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 049b38b6feba5f4369d79b89b4c81a8195dd7758
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109757"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904731"
 ---
-# <a name="set-up-vendor-invoice-policies"></a>Setja upp reglur lánardrottnareikninga
+# <a name="set-up-vendor-invoice-policies"></a>Setja upp reikningsreglur lánardrottins
 
 [!include [banner](../../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að setja upp reikningsreglur lánardrottins. Reikningsreglur lánardrottins eru keyrðar þegar þú bókar reikning lánardrottins með því að nota **Reikningur seljanda** síðu og þegar þú opnar reikning lánardrottins **Brot á stefnu** síðu. Einnig er hægt að skilgreina verkflæði fyrir reikning lánardrottins til að keyra reikningsreglur lánardrottins í hvert skipti sem er sendur er reikning til verkflæðis. 
+Þessi grein útskýrir hvernig á að setja upp reikningsreglur lánardrottins. Reikningsreglur lánardrottins eru keyrðar þegar þú bókar reikning lánardrottins með því að nota **Reikningur seljanda** síðu og þegar þú opnar reikning lánardrottins **Brot á stefnu** síðu. Einnig er hægt að skilgreina verkflæði fyrir reikning lánardrottins til að keyra reikningsreglur lánardrottins í hvert skipti sem er sendur er reikning til verkflæðis. 
 
 - Reikningsreglur lánardrottins eiga ekki við reikninga sem voru stofnaðar í komubók eða reikningabók.  
 - Samsvörun reikninga notar ekki reikningsreglur lánardrottins, en er þess í stað sett upp í **Færibreytur viðskiptaskulda** síðu.  

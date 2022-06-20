@@ -1,6 +1,6 @@
 ---
 title: Stjórna notandahlutverkum í Microsoft Teams
-description: Þetta efnisatriði lýsir hvernig á að stjórna Microsoft Dynamics 365 Commerce notendahlutverkum í Microsoft Teams.
+description: Þessi grein lýsir því hvernig á að stjórna Microsoft Dynamics 365 Commerce hlutverk notenda í Microsoft Teams.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3bde573456856b6457740587b7e921408285a762
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 478bdc762bbc808b031b3ec160126deb4627b6e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881272"
 ---
 # <a name="manage-user-roles-in-microsoft-teams"></a>Stjórna notandahlutverkum í Microsoft Teams
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig á að stjórna Microsoft Dynamics 365 Commerce notendahlutverkum í Microsoft Teams.
+Þessi grein lýsir því hvernig á að stjórna Microsoft Dynamics 365 Commerce hlutverk notenda í Microsoft Teams.
 
 Þegar teymi er búið til fyrir hverja verslun í Teams er stofnuð hópaðild sem samsvarar teyminu (t.d., `HOUSTON_D365@<YourTenantAzureADDomain>.com`). Allir starfskraftar verlsunar undir hópaðild teymis fá annað af tveimur hlutverkum: **Eigandi** eða **Meðlimur**. Starfskraftar verslunar með hlutverkið **Eigandi** geta framkvæmt aðgerðir á borð við að bæta við einkarás og bætt við eða eytt meðlimum. Yfirleitt hafa verslunarstjórar hlutverkið **Eigandi**.
 

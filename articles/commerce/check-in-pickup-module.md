@@ -1,6 +1,6 @@
 ---
 title: Innskráning í afhendingareiningu
-description: Þetta efnisatriði fjallar um innskráningu fyrir afhendingareiningu og útskýrir hvernig á að skilgreina hana í Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um innritun fyrir afhendingareiningu og útskýrir hvernig á að stilla hana í Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f6359f41f3b97325db4fda083dc32d39839811297a96a1f2d99a93990c00afae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7002db893da1802063148a9b800ffa92f3e5f065
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747466"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885476"
 ---
 # <a name="check-in-for-pickup-module"></a>Innskráning í afhendingareiningu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði fjallar um innskráningu fyrir afhendingareiningu og útskýrir hvernig á að skilgreina hana í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um innritun fyrir afhendingareiningu og útskýrir hvernig á að stilla hana í Microsoft Dynamics 365 Commerce.
 
 Innskráning fyrir afhendingareiningu býður upp á staðfestingarsíðu fyrir viðskiptavini sem nota Dynamics 365 Commerce innskráningarmöguleika viðskiptavinar til að láta verslun vita um komu þeirra. Innskráning fyrir afhendingareiningu gerir einnig kleift að skilgreina snið sem safnar viðbótarupplýsingum frá viðskiptavinum til að auðvelda afhendingu á pöntun. Þessar upplýsingar innihalda bílastæðanúmer viðskiptavinar og tegund bifreiðar. 
 

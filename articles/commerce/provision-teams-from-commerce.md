@@ -1,6 +1,6 @@
 ---
 title: Ákvæði Microsoft Teams frá Dynamics 365 Commerce
-description: Þetta efnisatriði lýsir því hvernig á að úthluta Microsoft Teams með því að nota fyrirtækisgögn frá Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að útvega Microsoft Teams með því að nota skipulagsgögn frá Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 54c85d1b6b51b7b2608200a7fa8e343ac6d008d0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3dc9d0f20ec251f0908dda0017adaaeac1b43856
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690501"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868936"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Ákvæði Microsoft Teams frá Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að úthluta Microsoft Teams með því að nota fyrirtækisgögn frá Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að útvega Microsoft Teams með því að nota skipulagsgögn frá Dynamics 365 Commerce.
 
 Dynamics 365 Commerce býður upp á einfalda leið til að úthluta Teams ef ekki er enn búið að setja upp teymi fyrir smásöluverslanir. Með því að nýta sér vel skilgreindar upplýsingar úr Commerce sem ætlunin er að nota í Teams er hægt að aðstoða starfsfólk verslunar að koma sér af stað í Teams. Þessar upplýsingar fela í sér stigveldi fyrirtækis, heiti verslana, upplýsingar um starfsfólk og Azure Active Directory (Azure AD) reikninga. 
 

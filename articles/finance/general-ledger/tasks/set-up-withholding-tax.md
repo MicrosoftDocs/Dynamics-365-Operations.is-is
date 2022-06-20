@@ -1,6 +1,6 @@
 ---
 title: Setja upp staðgreiðsluskatt
-description: Í þessu efnisatriði er útskýrt hvernig á að setja upp staðgreiðsluskatt.
+description: Þessi grein útskýrir hvernig á að setja upp staðgreiðsluskatt.
 author: twheeloc
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3c4992c7ab02793db3650df5624143d0ec090d0
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 0cc080df587904568796a9d6794987326be3ad26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907951"
 ---
 # <a name="set-up-withholding-tax"></a>Setja upp staðgreiðsluskatt
 
 [!include [banner](../../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að setja upp staðgreiðsluskatt. *Staðgreiðsluskattur* er skattur á lánardrottna sem ekki stofnar VSK-færslur. Staðgreiðsluskattur sem er reiknaður á greiðslur lánardrottins er skuld. Þess vegna eru bara efnahagslyklar eða afsláttarlyklar gildir við bókun á staðgreiðsluskatti. Þessi leiðarvísi fyrir verk sýnir hvernig á að setja upp staðgreiðsluskatt.
+Þessi grein útskýrir hvernig á að setja upp staðgreiðsluskatt. *Staðgreiðsluskattur* er skattur á lánardrottna sem ekki stofnar VSK-færslur. Staðgreiðsluskattur sem er reiknaður á greiðslur lánardrottins er skuld. Þess vegna eru bara efnahagslyklar eða afsláttarlyklar gildir við bókun á staðgreiðsluskatti. Þessi leiðarvísi fyrir verk sýnir hvernig á að setja upp staðgreiðsluskatt.
 
 1. Farðu í **Skoðunarrúða > Kerfiseiningar > Skattur > Óbeinir skattar > Staðgreiðsluskattur- > Kóðar staðgreiðsluskatts**.
 2. Veljið **Nýtt**.

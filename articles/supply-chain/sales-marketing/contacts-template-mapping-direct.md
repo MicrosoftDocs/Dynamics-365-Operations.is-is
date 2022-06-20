@@ -1,6 +1,6 @@
 ---
 title: Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Supply Chain Management
-description: Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla einingar tengiliðar (tengiliða) og tengiliðar (viðskiptavina) úr Dynamics 365 Sales við Dynamics 365 Supply Chain Management.
+description: Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla tengiliði (tengiliðir) og tengiliði (viðskiptavinir) frá Dynamics 365 Sales til Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 57a9c2a860e99855e841f0f4276ba2f92767c2b1
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4ddb91c34816791d8eca80e4798eb46c1b496439
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062516"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857345"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Supply Chain Management
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062516"
 > [!NOTE]
 > Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Microsoft Dataverse fyrir forrit](/powerapps/administrator/data-integrator).
 
-Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla töflur tengiliðs (tengiliða) og tengiliðar (viðskiptavina) beint úr Dynamics 365 Sales við Dynamics 365 Supply Chain Management.
+Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla tengiliðatöflur (tengiliðir) og tengiliðatöflur (viðskiptavinir) beint frá Dynamics 365 Sales til Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gagnaflæði í Prospect to cash
 
@@ -126,7 +126,7 @@ Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþætt
 ![Sniðmátsvörpun tengiliðar í viðskiptavin í gagnasamþættingu.](./media/contacts-direct-template-mapping-data-integrator-2.png)
 
 
-## <a name="related-topics"></a>Tengd efnisatriði
+## <a name="related-articles"></a>Tengdar greinar
 
 [Viðfang til sjóðstreymis](prospect-to-cash.md)
 

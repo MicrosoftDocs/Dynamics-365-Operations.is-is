@@ -1,6 +1,6 @@
 ---
 title: Sérsníða viðmót fyrir framkvæmd á framleiðslugólfi
-description: Þetta efnisatriði útskýrir hvernig á að framlengja núverandi eyðublöð eða búa til ný eyðublöð og hnappa fyrir framkvæmdarviðmót framleiðslugólfs.
+description: Þessi grein útskýrir hvernig á að framlengja núverandi eyðublöð eða búa til ný eyðublöð og hnappa fyrir framkvæmdarviðmót framleiðslugólfs.
 author: johanhoffmann
 ms.date: 05/04/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-11-08
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ad5037442f27a5068b38613655591f1298808eac
-ms.sourcegitcommit: 28537b32dbcdefb1359a90adc6781b73a2fd195e
+ms.openlocfilehash: 13fa6c2f3c30a820585d1b5a758f57ec563664d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845983"
 ---
 # <a name="customize-the-production-floor-execution-interface"></a>Sérsníða viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -32,7 +32,7 @@ Hér eru til dæmis nokkrar mögulegar lausnir ef þörf er á nýjum dálkum í
 
 ## <a name="add-a-new-button-action"></a>Bæta við nýjum hnappi (aðgerð)
 
-Til að bæta við nýjum hnappi (aðgerð) skaltu fylgja þessum skrefum til að búa til flokk sem útfærir sérsniðna aðgerðina þína.
+Til að bæta við nýjum hnappi (aðgerð) skaltu fylgja þessum skrefum til að búa til flokk sem útfærir sérsniðna aðgerð þína.
 
 1. Búðu til nýjan flokk sem heitir`<ExtensionPrefix>_JmgProductionFloorExecution<ActionName>Action`, hvar:
 
@@ -145,7 +145,7 @@ formRun.run();
 
 ## <a name="add-a-date-and-time-controls-to-a-form-or-dialog"></a>Bættu dagsetningar- og tímastýringum við eyðublað eða glugga
 
-Þessi hluti sýnir hvernig á að bæta dagsetningar- og tímastýringum við eyðublað eða glugga. Snertivænu dagsetningar- og tímastýringarnar gera starfsmönnum kleift að tilgreina dagsetningar og tíma. Eftirfarandi skjámyndir sýna hvernig stýringarnar birtast venjulega á síðunni. Tímastýringin veitir bæði 12 tíma og 24 tíma útgáfur; útgáfan sem sýnd er mun fylgja forstillingum fyrir notandareikninginn sem viðmótið er í gangi undir.
+Þessi hluti sýnir hvernig á að bæta dagsetningar- og tímastýringum við eyðublað eða glugga. Snertivænu dagsetningar- og tímastýringarnar gera starfsmönnum kleift að tilgreina dagsetningar og tíma. Eftirfarandi skjámyndir sýna hvernig stýringarnar birtast venjulega á síðunni. Tímastýringin veitir bæði 12 tíma og 24 tíma útgáfur; útgáfan sem sýnd er mun fylgja forstillingunum fyrir notendareikninginn sem viðmótið er í gangi undir.
 
 ![Dæmi um dagsetningarstýringu.](media/pfe-customize-date-control.png "Dæmi um dagsetningarstýringu")
 
@@ -155,7 +155,7 @@ formRun.run();
 
 Eftirfarandi aðferð sýnir dæmi um hvernig á að bæta dagsetningar- og tímastýringum við eyðublað.
 
-1. Bættu stjórnanda við eyðublaðið fyrir hverja dagsetningar- og tímastýringu sem eyðublaðið ætti að innihalda. (Fjöldi stjórnenda verður að vera jafn margir dagsetningar- og tímastýringar á eyðublaðinu.)
+1. Bættu stjórnanda við eyðublaðið fyrir hverja dagsetningar- og tímastýringu sem eyðublaðið ætti að innihalda. (Fjöldi stjórnenda verður að vera jöfn fjölda dagsetningar- og tímastýringa á eyðublaðinu.)
 
     ```xpp
     private JmgProductionFloorExecutionDateTimeController  dateFromController; 
@@ -180,7 +180,7 @@ Eftirfarandi aðferð sýnir dæmi um hvernig á að bæta dagsetningar- og tím
         }
     ```
 
-1. Settu upp hegðun hvers dagsetningarstýringar og tengdu hvern stjórnandi við formhluta. Eftirfarandi dæmi sýnir hvernig á að setja upp gögn fyrir dagsetningu-frá og tíma-frá stýringar. Þú gætir bætt við svipuðum kóða fyrir dagsetningar- og tímastillingar (ekki sýnt).
+1. Settu upp hegðun hvers dagsetningarstýringar og tengdu hvern stjórnanda við formhluta. Eftirfarandi dæmi sýnir hvernig á að setja upp gögn fyrir dagsetningu-frá og tíma-frá stýringar. Þú gætir bætt við svipuðum kóða fyrir dagsetningar- og tímastillingar (ekki sýnt).
 
     ```xpp
     /// <summary>

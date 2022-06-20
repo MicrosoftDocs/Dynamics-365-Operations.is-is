@@ -1,6 +1,6 @@
 ---
 title: Mælikvarðar vinnuafls Power BI efni
-description: Þetta efnisatriði lýsir mælikvörðum vinnuafls Power BI efni.
+description: Þessi grein lýsir vinnuaflsmælingum Power BI efni.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9393b4dcc6cb5f65d38c6904bf38def9d50af281671e0e09314148824f3e6891
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e45e4fb58bd535b66b7ad0dad8c4efa37e4336b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757274"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884489"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Mælikvarðar vinnuafls Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir **Mælikvarðar vinnuafls** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þessi grein lýsir **Mælingar á vinnuafli** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
 **Mælikvarðar vinnuafls** Power BI efni birtist á vinnusvæðinu **Starfsmannastjórnun** ef þú notar eina af þessum vörum:
 
-- Microsoft Dynamics 365 Finance
+- Microsoft Dynamics 365 Fjármál
 - Microsoft Dynamics 365 Human Resources
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI efni

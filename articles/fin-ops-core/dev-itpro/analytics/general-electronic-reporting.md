@@ -1,6 +1,6 @@
 ---
-title: Yfirlit yfir rafræna skýrslugerð (ER)
-description: Í þessari grein er að finna yfirlit yfir verkfærið „Rafræn skýrslugerð“. Þar er lýst lykilhugtökum, studddum aðstæður og sniðum sem eru hluti af lausninni.
+title: Yfirlit yfir rafræna skýrslugerð
+description: Þessi grein veitir yfirlit yfir rafræna skýrslugerðina. Þar er lýst lykilhugtökum, studddum aðstæður og sniðum sem eru hluti af lausninni.
 author: NickSelin
 ms.date: 11/02/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 976a02f51e22c513b988e1ecfcb792d5f93a4b54
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986148"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869258"
 ---
 # <a name="electronic-reporting-er-overview"></a>Yfirlit yfir rafræna skýrslugerð
 
 [!include [banner](../includes/banner.md)]
 
-Í þessari grein er að finna yfirlit yfir verkfærið „Rafræn skýrslugerð“. Þar á meðal er að finna upplýsingar um lykilhugtök, sviðsmyndir sem Rafræn skýrslugerð styður og lista yfir snið sem hafa verið hönnuð og gefin út sem hluti af lausninni.
+Í þessari grein er að finna yfirlit yfir verkfærið Rafræn skýrslugerð. Þar á meðal er að finna upplýsingar um lykilhugtök, sviðsmyndir sem Rafræn skýrslugerð styður og lista yfir snið sem hafa verið hönnuð og gefin út sem hluti af lausninni.
 
 ER er stillanlegt tól sem hjálpar þér að búa til og viðhalda rafrænum skýrslum og greiðslum. Það er byggt á eftirfarandi þremur hugtökum:
 
@@ -39,7 +39,7 @@ ER er stillanlegt tól sem hjálpar þér að búa til og viðhalda rafrænum sk
     - Sjónrænir ritstjórar eru notaðir til að búa til alla íhluti ER uppsetningar.
     - Tungumálið sem er notað fyrir umbreytingu gagna líkist tungumálinu sem er notað í Microsoft Excel.
 
-- Ein stilling fyrir marga Dynamics 365 Finance gefur út:
+- Ein uppsetning fyrir margar Dynamics 365 Finance útgáfur:
 
     - Hafa umsjón með einu lénssértæku gagnalíkani sem er skilgreint í viðskiptaskilmálum.
     - Einangraðu upplýsingar um útgáfu forrits í útgáfuháðum gagnalíkönskortum.

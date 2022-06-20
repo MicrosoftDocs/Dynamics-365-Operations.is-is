@@ -1,6 +1,6 @@
 ---
 title: Víddir kostnaðarhluta
-description: Þegar kostnaður er greindur, notarðu víddir kostnaðareiningar til að ákvarða hvert kostnaður streymir. Víddir kostnaðarhlutar eru notaðar til að ákvarða hvert á að úthluta kostnaði. Þetta efni inniheldur upplýsingar um víddir kostnaðarhlutar.
+description: Þegar kostnaður er greindur, notarðu víddir kostnaðareiningar til að ákvarða hvert kostnaður streymir. Víddir kostnaðarhlutar eru notaðar til að ákvarða hvert á að úthluta kostnaði. Þessi grein veitir upplýsingar um kostnaðarhlutavíddir.
 author: AndersGirke
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf9ebda3ab362112c9354595b7d554355b30f118
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3ee481b9dafe202e0a850a31b6ab036d52a20547
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874639"
 ---
-# <a name="cost-object-dimensions"></a>Víddir kostnaðarhluta
+# <a name="cost-object-dimensions"></a>Víddir kostnaðarhlutar
 
 [!include [banner](../includes/banner.md)]
 
-Þegar kostnaður er greindur, notarðu víddir kostnaðareiningar til að ákvarða hvert kostnaður streymir. Víddir kostnaðarhlutar eru notaðar til að ákvarða hvert á að úthluta kostnaði. Þetta efni inniheldur upplýsingar um víddir kostnaðarhlutar.
+Þegar kostnaður er greindur, notarðu víddir kostnaðareiningar til að ákvarða hvert kostnaður streymir. Víddir kostnaðarhlutar eru notaðar til að ákvarða hvert á að úthluta kostnaði. Þessi grein veitir upplýsingar um kostnaðarhlutavíddir.
 
 Kostnaðarhlutur getur verið hvaða gerð hlutar sem á að áætla, úthluta kostnaði á, eða mæla beint. Dæmigerður kostnaðarhlutur inniheldur afurðir, verk, tilföng, deildir, kostnaðarstaði og landfræðileg svæði. Stjórnun notar kostnaðarhlutur til að magngreina kostnað, en einnig til að keyra arðsemisgreiningu.
 

@@ -1,6 +1,6 @@
 ---
 title: Staðfesta stillingu tvöfaldrar skráningar í fjármála- og rekstrarforritum og Dataverse
-description: Þetta efni útskýrir hvernig þú getur ákvarðað hvort tvískrifað sé stillt í Finance and Operations forritum og í Dataverse.
+description: Þessi grein útskýrir hvernig þú getur ákvarðað hvort tvískrift sé stillt í Finance and Operations forritum og í Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3fa16a450032464e445ae166f0699fe0dc388071
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 7131e6c2c4ca4d9c6bb84ad74bf425faf28bd92c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062801"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884460"
 ---
 # <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Staðfesta stillingu tvöfaldrar skráningar í fjármála- og rekstrarforritum og Dataverse
 
@@ -24,7 +24,7 @@ ms.locfileid: "8062801"
 
 
 
-Þetta efnisatriði veitir upplýsingar um bilanaleit fyrir tvískrifað samþættingu milli Finance and Operations forrita og Dataverse. Nánar tiltekið útskýrir það hvernig þú getur ákvarðað hvort tvískrift sé stillt í Finance and Operations forritum og í Dataverse.
+Þessi grein veitir upplýsingar um bilanaleit fyrir tvískrifa samþættingu milli Finance and Operations forrita og Dataverse. Nánar tiltekið útskýrir það hvernig þú getur ákvarðað hvort tvískrift sé stillt í Finance and Operations forritum og í Dataverse.
 
 ## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Staðfestu að tvískrift sé stillt í Finance and Operations app
 

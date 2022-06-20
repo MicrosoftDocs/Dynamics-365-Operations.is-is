@@ -1,6 +1,6 @@
 ---
 title: Setja upp Azure-geymslureikning og lyklageymslu
-description: Í þessu efnisatriði er útskýrt hvernig á að stofna Azure-geymslureikning og lyklageymslu.
+description: Þessi grein útskýrir hvernig á að búa til Azure geymslureikning og lyklageymslu.
 author: gionoder
 ms.date: 08/17/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23fec7a00d800719e1a7d2c90f9d0977d56be038
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: ae2f21e959e35690ca3d8bd09059cfbf679ab842
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463858"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907762"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Setja upp Azure-geymslureikning og lyklageymslu
 
@@ -28,14 +28,14 @@ ms.locfileid: "7463858"
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en hægt er að ljúka við skrefin í þessu efnisatriði þarf að ganga úr skugga um að eftirfarandi verkum sé lokið:
+Áður en þú getur klárað skrefin í þessari grein verður þú að ganga úr skugga um að eftirfarandi verkum hafi verið lokið:
 
 - Stofna lyklageymslutilfang í Azure. Frekari upplýsingar er að finna í [Um Azure-lyklageymslu](/azure/key-vault/general/overview).
 - Stofna Azure-geymslureikning (Blob-geymsla). Frekari upplýsingar er að finna í [Unnið með Azure-geymslureikning](/azure/storage/blobs/).
 
 ## <a name="overview"></a>Yfirlit
 
-Í þessu efnisatriði verður farið í gegnum tvö aðalskref:
+Í þessari grein muntu ljúka tveimur meginskrefum:
 
 - Setja skal upp Azure-geymslureikning til að fá URI geymslureiknings.
 - Setja skal upp lyklageymslu til að geyma URI geymslureiknings.

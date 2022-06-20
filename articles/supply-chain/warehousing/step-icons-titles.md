@@ -1,6 +1,6 @@
 ---
 title: Úthluta skrefatáknum og titlum fyrir Warehouse Management farsímaforritið
-description: Í þessu efnisatriði er því lýst hvernig á að úthluta skrefatáknum og titlum fyrir ný eða sérstillt verkflæði fyrir Warehouse Management farsímaforritið.
+description: Þessi grein lýsir því hvernig á að úthluta skrefatáknum og titlum fyrir nýtt eða sérsniðið verkflæði fyrir vöruhússtjórnun farsímaforritið.
 author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 361ace454f7125ec86bd99cffefc7d268f81d37f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103314"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890597"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Úthluta skrefatáknum og titlum fyrir Warehouse Management farsímaforritið
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er því lýst hvernig á að úthluta skrefatáknum og skrefatitlum fyrir ný eða sérstillt verkflæði fyrir Warehouse Management farsímaforritið.
+Þessi grein lýsir því hvernig á að úthluta skreftáknum og þrepaheitum fyrir nýtt eða sérsniðið verkflæði fyrir vöruhússtjórnun farsímaforritið.
 
 Eftirfarandi mynd sýnir hvernig skrefatákn og titlar birtast í Warehouse Management farsímaforritinu.
 
@@ -29,7 +29,7 @@ Eftirfarandi mynd sýnir hvernig skrefatákn og titlar birtast í Warehouse Mana
 
 ## <a name="turn-this-feature-on-or-off"></a>Kveiktu eða slökktu á þessum eiginleika
 
-Til að nota virknina sem lýst er í þessu efni, er *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota virknina sem lýst er í þessari grein, *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="standard-step-ids-classes-and-icons"></a>Stöðluð kenni, klasar og tákn skrefa
 
@@ -39,7 +39,7 @@ Hvert skref í verkflæði er auðkennt með skrefakenni og hvert skrefakenni er
 
 Eftirfarandi tafla sýnir hvert skrefakenni sem er í boði eins og er og samsvarandi skrefaklasa. Stýringarheiti aðalfærslureitsins er notað sem skrefakennið.
 
-Fyrir dæmi sem sýnir hvernig þessi skrefakenni og -klasar eru notuð skal sjá innleiðingu `WHSMobileAppStepInfoBuilder.stepId()` aðferðarinnar í hlutanum [Dæmi: Úthluta táknum og titlum skrefa fyrir sérstillt flæði](#example) síðar í þessu efnisatriði.
+Fyrir dæmi sem sýnir hvernig þessi skrefaauðkenni og flokkar eru notuð, sjá útfærslu á`WHSMobileAppStepInfoBuilder.stepId()` aðferð í [Dæmi: Úthlutaðu skrefstáknum og titlum fyrir sérsniðið flæði](#example) kafla síðar í þessari grein.
 
 | Kenni skrefs | Klasi skrefs |
 |-|-|
@@ -373,7 +373,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 Kennimerki skrefatáknsins er geymt í `defaultStepIcon` klasameðlimnum og titill skrefsins er geymt í `defaultStepTitle` klasameðlimnum.
 
-Til að úthluta skrefatákni skal stilla `defaultStepIcon` á eitt af kennum táknsins sem eru sýnd í hlutanum [Tiltæk skrefatákn](#step-icons) fyrr í þessu efnisatriði.
+Til að úthluta skrefstákn skaltu stilla`defaultStepIcon` í eitt af auðkennum táknanna sem eru skráð í [Tiltæk skref tákn](#step-icons) kafla fyrr í þessari grein.
 
 ### <a name="use-a-standard-or-custom-step-icon-and-title-for-the-weight-input"></a>Nota staðlað eða sérstillt tákn og titil skrefs fyrir innslátt þyngdar
 
@@ -405,7 +405,7 @@ public class WHSMobileAppStepInfoBuilderWeighContainer extends WHSMobileAppStepI
 }
 ```
 
-Þú býrð svo til skrefflokk fyrir `NewWeight` skrefið. Kóðinn ætti að líkjast kóðanum fyrir `ContainerId` dæmið sem sýnt var fyrr í þessu efnisatriði.
+Þú býrð svo til skrefflokk fyrir `NewWeight` skrefið. Kóðinn ætti að líkjast kóðanum fyrir`ContainerId` dæmi sem var sýnt fyrr í þessari grein.
 
 #### <a name="override-the-stepinfo-method"></a>Hnekkja stepInfo() aðferðinni
 

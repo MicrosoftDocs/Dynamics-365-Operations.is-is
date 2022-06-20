@@ -1,6 +1,6 @@
 ---
 title: Taka staðgreiðsluafslátt utan tímabilsins staðgreiðsluafsláttar
-description: Þetta efnisatriði gefur upp tvær aðstæður sem sýna hvernig hægt er að taka staðgreiðsluafslátt jafnvel þótt greiðsla fari fram utan staðgreiðsluafsláttartímabilsins.
+description: Þessi grein sýnir tvenns konar aðstæður þar sem hægt er að taka staðgreiðsluafslátt jafnvel þó greiðslan eigi sér stað utan tímabils staðgreiðsluafsláttar.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daafa71dcbe46302fd7b9e8ab068d98e4925fc04
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 0b2d88b7f03a13e0e8229d7b45367f6da17390fd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879712"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Taka staðgreiðsluafslátt utan tímabilsins staðgreiðsluafsláttar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði gefur upp tvær aðstæður sem sýna hvernig hægt er að taka staðgreiðsluafslátt jafnvel þótt greiðsla fari fram utan staðgreiðsluafsláttartímabilsins.
+Þessi grein sýnir tvenns konar aðstæður þar sem hægt er að taka staðgreiðsluafslátt jafnvel þó greiðslan eigi sér stað utan tímabils staðgreiðsluafsláttar.
 
 28. júní býr Apríl til reikning uppá 2.000,00 fyrir lánardrottinn 3052. Reikningurinn er með 1 prósent afslætti ef reikningurinn er greiddur innan 14 daga.
 

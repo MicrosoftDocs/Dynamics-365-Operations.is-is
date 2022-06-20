@@ -1,6 +1,6 @@
 ---
 title: Stuðningur og endurnýjun
-description: Þetta efnisatriði útskýrir hvernig á að setja upp og nota stuðnings- og endurnýjunarferlið á sölupöntunum til að búa til innheimtuáætlun fyrir endurnýjunarvörur.
+description: Þessi grein útskýrir hvernig á að setja upp og nota stuðnings- og endurnýjunarferlið á sölupöntunum til að búa til greiðsluáætlun fyrir endurnýjunarvörur.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 7de74f2b12e8e7201663ba78d936131b301b1ff9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b40e0136883d909755480a3ce101627297bd9ffb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685771"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896522"
 ---
 # <a name="support-and-renewals"></a>Stuðningur og endurnýjun 
 
-Þetta efnisatriði útskýrir hvernig á að færa inn stuðningsvörur eða endurnýjunarvörur þegar sölupantanir eru færðar inn. Þessir liðir eru notaðir til að reikna út gjaldupphæð fyrir upprunalega stuðningssamninginn og/eða endurnýjunarupphæðina sem er notuð þegar innheimtuáætlun er búin til í áskriftarreikningi. Til dæmis selur fyrirtækið þitt netþjón til viðskiptavinar og þú býður upp á gagnaafritunaráskrift fyrsta árið og möguleika á að endurnýja þá áskrift á hverju ári. The *stuðningslið* er áskrift fyrsta árið, og *endurnýjunaratriði* er endurnýjun fyrir hvert ár í röð.
+Þessi grein útskýrir hvernig á að færa inn stuðningsvörur eða endurnýjunarvörur þegar sölupantanir eru færðar inn. Þessir liðir eru notaðir til að reikna út gjaldupphæð fyrir upprunalega stuðningssamninginn og/eða endurnýjunarupphæðina sem er notuð þegar innheimtuáætlun er búin til í áskriftarreikningi. Til dæmis selur fyrirtækið þitt netþjón til viðskiptavinar og þú býður upp á gagnaafritunaráskrift fyrsta árið og möguleika á að endurnýja þá áskrift á hverju ári. The *stuðningslið* er áskrift fyrsta árið, og *endurnýjunaratriði* er endurnýjun fyrir hvert ár í röð.
 
 Þú getur slegið inn upplýsingar fyrir stuðningssamninginn, endurnýjunarsamninginn eða hvort tveggja. Þegar þú slærð inn upplýsingar um stuðningssamninginn er aðeins stuðningsvörunum bætt við sölupöntunina. Þegar þú slærð inn upplýsingar um endurnýjunarsamning er endurnýjunarliðurinn notaður til að búa til innheimtuáætlun.
 
@@ -61,7 +61,7 @@ The **Stuðnings- og endurnýjunarstig** síða inniheldur eftirfarandi reiti.
 | Lýsing | Lýsing á stuðnings- eða endurnýjunarstigi. |
 | Útreikningsaðferð þjónustu | Veldu stuðningsútreikningsaðferð fyrir stigið: **Prósenta** eða **Stöðluð upphæð**. |
 | Þjónustuhlutfall | Ef þú valdir **Prósenta** sem stuðningsútreikningsaðferð, tilgreinið prósentuna sem er notuð til að reikna út verð stuðningshlutarins. Ef þú valdir **Stöðluð upphæð** sem útreikningsaðferð er upphæðin tilgreind þegar færslan er stofnuð. |
-| Útreikningsaðferð endurnýjunar | Veldu endurnýjunarútreikningsaðferð fyrir stigið: **Hlutfall** eða **Stöðluð upphæð**. |
+| Útreikningsaðferð endurnýjunar | Veldu endurnýjunarútreikningsaðferð fyrir stigið: **Prósenta** eða **Stöðluð upphæð**. |
 | Prósenta endurnýjunar | Ef þú valdir **Prósenta** sem endurnýjunarútreikningsaðferð, tilgreinið prósentuna sem er notuð til að reikna út verð endurnýjunarhlutarins. Ef þú valdir **Stöðluð upphæð** sem útreikningsaðferð er upphæðin tilgreind þegar færslan er stofnuð. |
 
 ## <a name="support-and-renewal-process"></a>Þjónustu- og endurnýjunarferli
@@ -89,7 +89,7 @@ Fylgdu þessum skrefum til að beita mismunandi stuðningsstigum á vörur og up
 11. Á **Innheimtuáætlunarlínur** Flýtiflipi, veldu **Stuðningur og endurnýjun** til að fara yfir upplýsingar um línurnar sem voru búnar til.
 
 > [!NOTE]
-> Ef breyta þarf upphafsdegi endurnýjunar fyrir greiðsluáætlunarlínu geturðu breytt **Upphafsdagur** gildi fyrir línuna á **Innheimtuáætlanir** síðu. Þegar þú opnar **Skoða innheimtuupplýsingar** síða fyrir línuna, the **Upphafsdagur innheimtu** reiturinn er uppfærður með nýju dagsetningunni. The **Lokadagur innheimtu** gildi er endurreiknað út frá innheimtutíðni. Aðeins er hægt að uppfæra upphafsdag endurnýjunar ef fyrsti reikningurinn fyrir endurnýjunarreikningsáætlun hefur ekki verið búinn til og bókaður. Eftir að fyrsti reikningurinn er búinn til og bókaður er ekki hægt að breyta upphafsdagsetningunni.
+> Ef breyta þarf upphafsdegi endurnýjunar fyrir greiðsluáætlunarlínu geturðu breytt **Upphafsdagur** gildi fyrir línuna á **Innheimtuáætlanir** síðu. Þegar þú opnar **Skoða innheimtuupplýsingar** síða fyrir línuna, the **Upphafsdagur innheimtu** reiturinn er uppfærður með nýju dagsetningunni. The **Lokadagur innheimtu** gildi er endurreiknað miðað við innheimtutíðni. Aðeins er hægt að uppfæra upphafsdag endurnýjunar ef fyrsti reikningurinn fyrir endurnýjunarreikningsáætlun hefur ekki verið búinn til og bókaður. Eftir að fyrsti reikningurinn er búinn til og bókaður er ekki hægt að breyta upphafsdagsetningunni.
 
 Stuðnings- og endurnýjunarferlið er aðeins í boði fyrir sölupöntunina. Þegar þú bætir stuðnings- og endurnýjunarvörum við sölupöntun geturðu búið til nýja innheimtuáætlun eða bætt endurnýjunaratriðinu við núverandi innheimtuáætlun.
 
@@ -113,7 +113,7 @@ The **Stuðnings- og endurnýjunarúttekt** síða inniheldur eftirfarandi reiti
 |-------|-------------|
 | Vörunúmer | Vörunúmerið fyrir innheimtuáætlunarlínuna. |
 | Afurðarheiti | Vöruheitið. |
-| Stig þjónustuáætlunar | Skoðaðu eða breyttu stuðningsstigi fyrir endurnýjunaratriðið. |
+| Stig þjónustuáætlunar | Skoðaðu eða breyttu stuðningsstigi fyrir endurnýjunarhlutinn. |
 | Prósenta endurnýjunar | Færið inn endurnýjunarprósentuna sem er notuð þegar einingarverð er reiknað fyrir endurnýjunarlið í innheimtuáætlun. |
 | Upphæð endurnýjunar | Færið inn endurnýjunarupphæð sem er notuð þegar einingarverð er reiknað fyrir endurnýjunarlið í innheimtuáætlun. |
 | Ástæða breytingar | Sláðu inn ástæðuna þína fyrir því að breyta stuðnings- og endurnýjunarupplýsingunum. Þú verður að slá inn ástæðu þegar þú breytir **Endurnýjunarprósenta**, **·**, eða **Stuðningsáætlunarstig** gildi. |

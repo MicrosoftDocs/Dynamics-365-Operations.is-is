@@ -1,6 +1,6 @@
 ---
 title: Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management
-description: Þetta efnisatriði lýsir því hvernig á að búa til og sýna sérsniðnar leiðbeiningar fyrir hvert skref verkflæðis sem er sett upp fyrir fartækjaforrit Warehouse Management.
+description: Þessi grein lýsir því hvernig á að búa til og sýna sérsniðnar leiðbeiningar fyrir hvert skref í hverju verkflæði sem þú setur upp fyrir vöruhússtjórnun farsímaforritið.
 author: Mirzaab
 ms.date: 08/11/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ffd433427b2c5011740a7ee54c93713689945df3
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902248"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895497"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management
 
 > [!IMPORTANT]
-> Eiginleikarnir sem lýst er í þessu efnisatriði eiga aðeins við um nýja farsímaforrit Warehouse Management. Þeir hafa ekki áhrif á gamla vöruhúsaforrið, sem nú er úrelt.
+> Eiginleikarnir sem lýst er í þessari grein eiga aðeins við um nýja vöruhússtjórnun farsímaforritið. Þeir hafa ekki áhrif á gamla vöruhúsaforrið, sem nú er úrelt.
 
-Þetta efnisatriði lýsir því hvernig á að búa til og sýna sérsniðnar leiðbeiningar fyrir öll skref allra verkflæða sem eru sett upp fyrir fartækjaforrit Warehouse Management. Þegar starfsmenn vöruhússins fá vel skrifaðar leiðbeiningar geta þeir strax byrjað að nota ný flæði án þess að þurfa neina þjálfun. Þessi eiginleiki veitir eftirfarandi ávinning:
+Þessi grein lýsir því hvernig á að búa til og sýna sérsniðnar leiðbeiningar fyrir hvert skref í hverju verkflæði sem þú setur upp fyrir vöruhússtjórnun farsímaforritið. Þegar starfsmenn vöruhússins fá vel skrifaðar leiðbeiningar geta þeir strax byrjað að nota ný flæði án þess að þurfa neina þjálfun. Þessi eiginleiki veitir eftirfarandi ávinning:
 
 - **Undirbúðu starfsmenn á fljótlegri hátt með því að leyfa þeim að fylgja einföldum leiðbeiningum fyrir hvert skref í verki.** Í hverju skrefi flæðis eru leiðbeiningar sem gera starfsmönnum í framlínu kleift að skilja verkið.
 - **Útvegaðu leiðbeiningar sem passa við þína eigin ferla.** Skrifaðu eigin leiðbeiningar sem passa við viðskipta- og vöruhúsaferli þín. Þú getur til dæmis látið orðalagið passa við þinn raunveruleika og staðbundnar skammstafanir.

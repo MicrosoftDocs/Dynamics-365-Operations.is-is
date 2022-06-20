@@ -1,6 +1,6 @@
 ---
 title: Bylgjuúthlutun
-description: Þetta efnisatriði lýsir hvernig á að setja upp skref bylgjuúthlutunar, þ.á.m. hvernig á að virkja hliðstæðu vinnslu fyrir hana.
+description: Þessi grein lýsir því hvernig á að setja upp bylgjuúthlutunarskrefið, þar á meðal hvernig á að virkja samhliða vinnslu fyrir það.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 08781b26a4e066a026d4efa14670f073b04ec185
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c6b89364afd57b9c4b4413d0319b86e725433594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695536"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906952"
 ---
 # <a name="wave-allocation"></a>Bylgjuúthlutun
 
@@ -25,7 +25,7 @@ ms.locfileid: "8695536"
 
 Bylgjuvinnsla getur reynst tímafrek og meirihluti vinnslutímans fer í úthlutunarskrefið og stofnskref vinnunnar.
 
-Nú er hægt að keyra skrefin samhliða, sem getur aukið afköst bylgjuvinnslunnar og opnað fyrir meira gegnumstreymi af bylgjum í sama vöruhúsið. Þetta efnisatriði útskýrir hvernig á að setja upp úthlutunaraðferð bylgjunnar til að keyra samhliða. Frekari upplýsingar um hvernig á að setja upp stofnun vinnu fyrir samhliða keyrslu er að finna í [Áætla stofnun vinnu í bylgju](configure-wave-schedule-work-creation.md).
+Nú er hægt að keyra skrefin samhliða, sem getur aukið afköst bylgjuvinnslunnar og opnað fyrir meira gegnumstreymi af bylgjum í sama vöruhúsið. Þessi grein útskýrir hvernig á að setja upp bylgjuúthlutunaraðferðina til að keyra samhliða. Frekari upplýsingar um hvernig á að setja upp stofnun vinnu fyrir samhliða keyrslu er að finna í [Áætla stofnun vinnu í bylgju](configure-wave-schedule-work-creation.md).
 
 Áður fyrr var aðeins hægt að úthluta einni bylgju í einu í vöruhúsi. Þessi takmörkun hefur verið fjarlægð og skipt út fyrir nýja takmörkun sem aðeins læsir vörunni og víddunum sem eru fyrir ofan staðsetninguna í frátekningarstigveldinu. Víddir fyrir ofan staðsetninguna eru alltaf með afurðarvíddir. Til dæmis ef vara er skilgreind með því að nota *Lit*, þá er hægt að vinna samhliða úr afbrigðum fyrir *Rauða*, *Bláa* og *Gula*.
 
@@ -66,7 +66,7 @@ Til að setja upp hliðstæða vinnslu:
 
 ## <a name="enable-or-disable-parallelization-across-all-legal-entities"></a>Kveikja eða slökkva á hliðstæðri vinnslu í öllum lögaðilum
 
-Mælt er með að stilla `allocateWave` aðferðina á að keyra hliðstætt yfir alla lögaðila vegna þess að það stuðlar að auknum afköstum bylgjuvinnslunnar. Byrjar í Supply Chain Management útgáfu 10.0.17, the *Bylgjusamsíðaleiðing fyrir Allocate Wave aðferð* Sjálfgefið er kveikt á eiginleikum fyrir allar nýjar og uppfærðar uppsetningar og ekki er hægt að slökkva á honum aftur. Þegar þessi eiginleiki hefur verið virkjaður gerist eftirfarandi:
+Mælt er með að stilla `allocateWave` aðferðina á að keyra hliðstætt yfir alla lögaðila vegna þess að það stuðlar að auknum afköstum bylgjuvinnslunnar. Byrjar í Supply Chain Management útgáfu 10.0.17, the *Bylgjusamsíða fyrir Allocate Wave aðferð* Sjálfgefið er kveikt á eiginleikum fyrir allar nýjar og uppfærðar uppsetningar og ekki er hægt að slökkva á honum aftur. Þegar þessi eiginleiki hefur verið virkjaður gerist eftirfarandi:
 
 - Aðferð `allocateWave` er uppfærð til að hafa með stillingu verkskilgreiningar sem gerir kleift að nota síðuna **Aðferðir bylgjuvinnslu** til að skilgreina fjölda verka sem munu keyra samtímis, sem jafngildir fjölda hliðstæðra vinnsla. Fyrir vikið er tíminn sem notaður er í skrefi bylgjuúthlutunar (sem er yfirleitt 30% til 60% af heildarvinnslutímanum) styttur um því sem nemur í grófum dráttum fjölda verka. Einnig er hægt að velja hvaða runu verður úthlutað til að vinna úr þessum verkum. Mikilvægt er að hafa í huga að allir lögaðilar verða grunnstilltir til að vinna úr bylgjum í runu. Fyrir vöruhúsin sem eru þegar skilgreind til að vinna úr bylgjum í runu og fyrir vöruhúsin sem eru þegar skilgreind til að nota `allocateWave` aðferðina í hliðstæðri vinnslu, verður fyrirliggjandi skilgreiningu haldið.
 - Sjálfgefið er að allir nýju lögaðilarnir séu grunnstilltar til að vinna úr bylgjum í runu. Öll ný vöruhús með valkostinn **Ferli vöruhúsakerfis** virkjaðan verða með `allocateWave` aðferðina skilgreinda til að keyra í hliðstæðri vinnslu að sjálfgefnu.

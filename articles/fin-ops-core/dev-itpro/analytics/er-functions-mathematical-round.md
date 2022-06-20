@@ -1,6 +1,6 @@
 ---
 title: ROUND ER-aðgerð
-description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin ROUND í rafrænni skýrslugerð (ER) er notuð.
+description: Þessi grein veitir upplýsingar um hvernig ROUND rafræn skýrslugerð (ER) aðgerðin er notuð.
 author: NickSelin
 ms.date: 10/21/2020
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0c28ba2faebf117aa008106f8a77f79af8f4de3122df858825aa15a6dae3616
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5dce96077ab25f8e545bb99d4bed8fc5bba61e2a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905200"
 ---
 # <a name="round-er-function"></a>ROUND ER-aðgerð
 

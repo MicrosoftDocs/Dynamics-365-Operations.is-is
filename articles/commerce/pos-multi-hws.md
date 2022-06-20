@@ -1,6 +1,6 @@
 ---
-title: Sérstakar greiðslustöðvar og kvaðningar fyrir prentara og peningaskúffu
-description: Í þessu efnisatriði er að finna upplýsingar um möguleikann á því að vera með sérstaka greiðslustöð og biðja notandann að velja peningaskúffu og kvittanaprentara.
+title: Sérnýttar greiðslustöðvar og kvaðningar fyrir prentara og peningaskúffu
+description: Þessi grein veitir upplýsingar um möguleikann á að hafa sérstaka greiðslustöð og hvetur notandann til að velja peningaskúffu og kvittunarprentara.
 author: BrianShook
 ms.date: 05/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 7c010448e43bbfb1f949508ce1b62bd07f3107e1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779771"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874922"
 ---
-# <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Sérstakar greiðslustöðvar og kvaðningar fyrir prentara og peningaskúffu
+# <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Sérnýttar greiðslustöðvar og kvaðningar fyrir prentara og peningaskúffu
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna upplýsingar um möguleikann á því að vera með sérstaka greiðslustöð og biðja notandann að velja peningaskúffu og kvittanaprentara.
+Þessi grein veitir upplýsingar um möguleikann á að hafa sérstaka greiðslustöð og hvetur notandann til að velja peningaskúffu og kvittunarprentara.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -46,7 +46,7 @@ Microsoft Dynamics 365 Commerce styður þessa þróun með því að virkja að
 
 ## <a name="supported-pos-clients-and-devices"></a>Studdir biðlarar sölustaðar og tæki
 
-Virkninni sem lýst er í þessu efnisatrið er studd af Modern POS fyrir Windows og Modern POS fyrir biðlara Android POS.
+Virknin sem lýst er í þessari grein er studd af Modern POS fyrir Windows og Modern POS fyrir Android POS viðskiptavinir.
 
 Þessi virkni styður nettengdar greiðslustöðvar og kvittanaprentara. Hægt er að bjóða upp á stuðning við peningaskúffu með því að tengja peningaskúffuna við nettengdan kvittanaprentara í gegnum tengi skúffuopnara.
 

@@ -1,6 +1,6 @@
 ---
 title: Reikna tiltækar birgðir fyrir smásölurásir
-description: Þetta efnisatriði lýsir því hvernig fyrirtæki geta notað Microsoft Dynamics 365 Commerce til að skoða áætlað birgðaframboð fyrir afurðir í net- og í verslunarrásum.
+description: Þessi grein lýsir því hvernig fyrirtæki getur notað Microsoft Dynamics 365 Commerce til að skoða áætlað framboð á vörum á netinu og í verslunum.
 author: hhainesms
 ms.date: 09/01/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 1b1e0ea264dd74f6583d3b7fd3ecce551c73fbae
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: 952acf4cc26815822436bb7a5117775a5f12200c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7674676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884112"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Reikna tiltækar birgðir fyrir smásölurásir
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig fyrirtæki geta notað Microsoft Dynamics 365 Commerce til að skoða áætlað birgðaframboð fyrir afurðir í net- og í verslunarrásum.
+Þessi grein lýsir því hvernig fyrirtæki getur notað Microsoft Dynamics 365 Commerce til að skoða áætlað framboð á vörum á netinu og í verslunum.
 
 ## <a name="accuracy-of-inventory-availability"></a>Nákvæmni birgða til ráðstöfunar
 

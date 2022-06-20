@@ -1,6 +1,6 @@
 ---
-title: Vinna með stillingar
-description: Þetta efnisatriði veitir yfirlit yfir helstu atburðarás fyrir vinnu með rafrænum skýrslum (ER) stillingum frá Hnattvæðingareiginleikum vinnusvæðinu.
+title: Vinna með skilgreiningar
+description: Þessi grein veitir yfirlit yfir helstu atburðarás fyrir vinnu með rafrænum skýrslum (ER) stillingum frá Hnattvæðingareiginleikum vinnusvæðinu.
 author: dkalyuzh
 ms.date: 01/26/2022
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4318399ee58ed54b29f8d360345b8930238ea9f2
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 359f00336811efd5f21463a325627df0e01a5f3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875943"
 ---
-# <a name="work-with-configurations"></a>Vinna með stillingar
+# <a name="work-with-configurations"></a>Vinna með skilgreiningar
 
 [!include [banner](../includes/banner.md)]
 

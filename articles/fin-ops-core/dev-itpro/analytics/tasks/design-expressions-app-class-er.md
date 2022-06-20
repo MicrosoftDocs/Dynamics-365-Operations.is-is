@@ -1,6 +1,6 @@
 ---
 title: Hanna segðir rafrænnar skýrslugerðar til að kalla á aðferðir forritaflokka
-description: Þetta efnisatriði lýsir hvernig á að endurnýta núverandi forritaskrár í grunnstillingu rafrænnar skýrslugerðar (ER) með því að kalla á nauðsynlegar aðferðir við forritaflokka.
+description: Þessi grein lýsir því hvernig á að endurnýta núverandi forritsrökfræði í rafrænum skýrslustillingum með því að kalla á nauðsynlegar aðferðir forritaflokka.
 author: NickSelin
 ms.date: 11/02/2021
 ms.topic: business-process
@@ -12,30 +12,30 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81fae8d3603677afd7dd4b09b9073805f73582b4
-ms.sourcegitcommit: e6b4844a71fbb9faa826852196197c65c5a0396f
+ms.openlocfilehash: 0fb0a9725d882fdc330d7adbb49bd3dcadf7805f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7751707"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883626"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Hanna segðir rafrænnar skýrslugerðar til að kalla á aðferðir forritaflokka
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að endurnýta núverandi forritsrökfræði í [Rafræn skýrslugerð (ER)](../general-electronic-reporting.md) stillingar með því að kalla á nauðsynlegar aðferðir við notkunarflokka í ER tjáningum. Gildi röksemda fyrir að kalla flokka er hægt að skilgreina á kraftmikinn hátt á keyrslutíma. Til dæmis geta gildi byggt á upplýsingum í þáttunarskjalinu til að tryggja réttmæti þess.
+Þessi grein lýsir því hvernig á að endurnýta núverandi forritsrökfræði í [Rafræn skýrslugerð (ER)](../general-electronic-reporting.md) stillingar með því að kalla á nauðsynlegar aðferðir við notkunarflokka í ER tjáningum. Gildi röksemda fyrir að kalla flokka er hægt að skilgreina á kraftmikinn hátt á keyrslutíma. Til dæmis geta gildi byggt á upplýsingum í þáttunarskjalinu til að tryggja réttmæti þess.
 
-Fyrir dæmið í þessu efnisatriði muntu hanna ferli sem flokkar innkomnar bankayfirlit fyrir uppfærslu forritsgagna. Þú færð móttekna bankayfirlitið sem textaskrár (.txt) sem innihalda IBAN-kóða (International Bank Account Number). Sem hluti af innflutningsferli bankayfirlita verður þú að sannreyna réttmæti IBAN kóðans með því að nota rökfræðina sem þegar er tiltæk.
+Fyrir dæmið í þessari grein munt þú hanna ferli sem flokkar innkomnar bankayfirlit fyrir uppfærslu forritsgagna. Þú færð móttekna bankayfirlitið sem textaskrár (.txt) sem innihalda IBAN-kóða (International Bank Account Number). Sem hluti af innflutningsferli bankayfirlita verður þú að sannreyna réttmæti IBAN kóðans með því að nota rökfræðina sem þegar er tiltæk.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Verklagsreglurnar í þessu efni eru ætlaðar notendum sem hafa verið úthlutað **Kerfisstjóri** eða **Framkvæmdaraðili rafrænna skýrslugerðar** hlutverki.
+Verklagsreglurnar í þessari grein eru ætlaðar notendum sem hafa verið úthlutað **Kerfisstjóri** eða **Framkvæmdaraðili rafrænna skýrslugerðar** hlutverki.
 
 Hægt er að ljúka verklagsreglunum með því að nota hvaða gagnasett sem er.
 
 Til að ljúka þeim verður þú að hlaða niður og vista eftirfarandi skrá: [SampleIncomingMessage.txt](https://download.microsoft.com/download/8/0/a/80adbc89-f23c-46d9-9241-e0f19125c04b/SampleIncomingMessage.txt).
 
-Í þessu efnisatriði muntu búa til nauðsynlegar ER stillingar fyrir Litware, Inc. sýnishornsfyrirtækið. Þess vegna verður þú að fylgja þessum skrefum áður en þú lýkur aðferðunum í þessu efni.
+Í þessari grein muntu búa til nauðsynlegar ER stillingar fyrir Litware, Inc. sýnishornsfyrirtækið. Þess vegna, áður en þú lýkur aðferðunum í þessari grein, verður þú að fylgja þessum skrefum.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 2. Á **Staðsetningarstillingar** síðu, staðfestu að stillingarveitan fyrir **Litware, Inc.** sýnishornsfyrirtæki er tiltækt og merkt sem virkt. Ef þú sérð ekki þessa stillingarveitu verður þú fyrst að ljúka skrefunum í [Búðu til stillingaveitur og merktu þær sem virkar](er-configuration-provider-mark-it-active-2016-11.md).
@@ -45,7 +45,7 @@ Til að ljúka þeim verður þú að hlaða niður og vista eftirfarandi skrá:
 1. Á **Staðsetningarstillingar** síðu, í **Stillingarveitur** kafla, veldu flísina fyrir **Microsoft** uppsetningarveitu.
 2. Veldu **Geymslur**.
 3. Á **Staðsetningargeymslur** síðu, veldu **Sýna síur**.
-4. Til að velja alþjóðlega geymsluskrána skaltu bæta við a **Nafn** síunarreitur.
+4. Til að velja alþjóðlega geymsluskrá skaltu bæta við a **Nafn** síunarreitur.
 5. Í **Nafn** reit, slá inn **Alþjóðlegt**. Veldu síðan **inniheldur** síu rekstraraðili.
 6. Veljið **Bæta við**.
 7. Veldu **[Opið](../er-download-configurations-global-repo.md#open-configurations-repository)** til að skoða listann yfir ER stillingar í valinni geymslu.
@@ -147,14 +147,14 @@ Hannaðu kortlagningu ER sniðs sem notar upplýsingar úr þáttunarskránni ti
 
     1. Veldu **sniði\\ Rót: Röð (rót)\\ Raðir: Röð 1..\* (Raðir)**.
     2. Veldu **Greiðslur**.
-    3. Veldu **Binda**. Miðað við þessa stillingu verður hver lína í þáttunarskránni talin ein greiðsla.
+    3. Veldu **Binda**. Byggt á þessari stillingu verður hver lína í þáttunarskránni talin ein greiðsla.
     4. Veldu **sniði\\ Rót: Röð (rót)\\ Raðir: Röð 1..\* (Raðir)\\ Reitir: Röð 1..1 (reitir)\\ IBAN: String(IBAN)**.
     5. Veldu **Greiðslur\\ Kröfuhafareikningur (Creditor Account)\\ Auðkenning\\ IBAN**.
     6. Veldu **Binda**. Byggt á þessari stillingu er **IBAN** reit gagnalíkans verður fyllt út með gildinu úr þáttunarskránni.
 
     ![Binding sniðíhluta við reiti gagnalíkana á síðunni Hönnuðir líkanakorta.](../media/design-expressions-app-class-er-02.png)
 
-13. Á **Staðfestingar** flipanum skaltu fylgja þessum skrefum til að bæta við a [löggildingu](../general-electronic-reporting-formula-designer.md#Validation) regla sem sýnir villuboð fyrir hvaða línu sem er í þáttunarskránni sem inniheldur ógildan IBAN kóða:
+13. Á **Staðfestingar** flipa skaltu fylgja þessum skrefum til að bæta við a [löggildingu](../general-electronic-reporting-formula-designer.md#Validation) regla sem sýnir villuboð fyrir hvaða línu sem er í þáttunarskránni sem inniheldur ógildan IBAN kóða:
 
     1. Veldu **Nýtt**, og veldu síðan **Breyta ástandi**.
     2. Á **Formúluhönnuður** síðu, í **Uppspretta gagna** tré, stækkaðu **Athugaðu\_ kóða** gagnagjafi sem táknar **ISO7064** forritaflokki til að skoða tiltækar aðferðir þessa flokks.

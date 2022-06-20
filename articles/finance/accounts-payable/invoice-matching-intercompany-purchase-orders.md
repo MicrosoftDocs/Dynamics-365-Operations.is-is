@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e884e96e1275f9162b642bbe48c2d891c6434002
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: d4be32a7158561bdf00a996831dca7395ce6f331
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879741"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Reikningsjöfnun og samstæðuinnkaupapöntun
 
@@ -28,7 +28,7 @@ ms.locfileid: "8109969"
 
 Innkaupalögaðili sem er þáttakandi í samstæðuviðskiptafærslu gæti verið uppsett til að nota reikningsjöfnun viðskiptaskulda. Þegar **Bókaðu reikning með misræmi** sviði í **Færibreytur viðskiptaskulda** síða er stillt á **Krefjast samþykkis**, reikningssamsvörun verður framkvæmd. Í þessu tilfelli þarf að uppfylla bókunarkröfur bæði fyrir samstæðuviðskipti og reikningsjöfnun viðskiptaskulda áður en hægt er að bóka lánardrottinsreikninga innan samstæðu.
 
-Eftirfarandi uppsetning á samstæðuviðskiptum er notuð í þessum dæmum:
+Dæmin í þessari grein nota eftirfarandi uppsetningu fyrir viðskipti milli fyrirtækja:
 -   Fabrikam Purchase er innkaupalögaðilinn.
 -   Fabrikam Sales er sölulögaðilinn.
 -   Viðskiptavinurinn 4020 er í Fabrikam Sala.

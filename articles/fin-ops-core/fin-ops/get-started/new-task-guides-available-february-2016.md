@@ -1,6 +1,6 @@
 ---
 title: Nýjar verkefnaleiðbeiningar (febrúar 2016)
-description: Þetta efnisatriði sýnir verkleiðbeiningar sem voru settar inn í Microsoft BPM söfn frá febrúar 2016.
+description: Þessi grein sýnir verkefnaleiðbeiningarnar sem voru gefnar út í Microsoft BPM bókasöfnin frá og með febrúar 2016.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1947ec2ef0ef061323f904c739d49a5a2594b9d0e730f19e4d4da322148e473
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb74ce407bd98dbd650804ed337e48986d58911d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725101"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861735"
 ---
 # <a name="new-task-guides-february-2016"></a>Nýjar verkefnaleiðbeiningar (febrúar 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði sýnir verkleiðbeiningar sem voru settar inn í Microsoft BPM söfn frá febrúar 2016. Söfn sem voru birta innihalda (Febrúar 2016) APQC Unified Library fyrir AX Microsoft Dynamics og (Febrúar 2016) Hafist handa.
+Þessi grein sýnir verkefnaleiðbeiningarnar sem voru gefnar út í Microsoft BPM bókasöfnin frá og með febrúar 2016. Söfn sem voru birta innihalda (Febrúar 2016) APQC Unified Library fyrir AX Microsoft Dynamics og (Febrúar 2016) Hafist handa.
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Verkefnaleiðbeiningar í (Febrúar 2016) APQC Unified Library fyrir Microsoft Dynamics AX
 

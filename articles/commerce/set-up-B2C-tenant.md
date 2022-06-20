@@ -1,6 +1,6 @@
 ---
 title: Setja upp B2C-leigjanda í Commerce
-description: Þetta efni lýsir því hvernig á að setja upp þitt Azure Active Directory (Azure AD) leigjendur fyrirtækja til neytenda (B2C) til að auðkenna notendasíðu í Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að setja upp Azure Active Directory (Azure AD) leigjendur fyrirtækja til neytenda (B2C) fyrir auðkenningu notendasíðu í Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 05/05/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 4b1ee8999717d70dfe36baef95921962a1b7be65
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714313"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853742"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Setja upp B2C-leigjanda í Commerce
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að setja upp þitt Azure Active Directory (Azure AD) leigjendur fyrirtækja til neytenda (B2C) til að auðkenna notendasíðu í Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að setja upp Azure Active Directory (Azure AD) leigjendur fyrirtækja til neytenda (B2C) fyrir auðkenningu notendasíðu í Dynamics 365 Commerce.
 
 Dynamics 365 Commerce notar Azure AD B2C til að styðja persónuskilríki notenda og staðfesting. Notandi getur skráð sig, skráð sig inn og endurstillt lykilorð sitt í gegnum þessa flæði. Azure AD B2C geymir viðkvæmar sannvottunarupplýsingar notanda, svo sem notandanafn og lykilorð. Notendaskráin í leigjanda B2C mun geyma annað hvort skrá yfir B2C staðbundna reikninga eða skrá yfir fyrirtækjasamfélag B2C. Þessar B2C skrár munu tengjast aftur viðskiptamannaskránni í Commerce-umhverfi.
 
@@ -391,7 +391,7 @@ Til að slá inn sérsniðið innskráningarlén í vefsíðugerð skaltu fylgja
 1. Í efra hægra horninu á vefsíðugerð, veldu vefskiptarofann og veldu síðan **Stjórna síðum**.
 1. Í vinstri yfirlitsrúðunni, veldu **Stillingar leigjanda \> Auðkenningaruppsetning vefsvæðis**.
 1. Í **Staðfestingarprófílar** kafla, veldu **Stjórna**.
-1. Í valmyndinni til hægri velurðu **Breyta** hnappur (blýantartákn) við hliðina á auðkenningarsniði vefsvæðisins sem þú vilt slá inn sérsniðið lén fyrir.
+1. Í valmyndinni til hægri velurðu **Breyta** hnappinn (blýantartákn) við hliðina á auðkenningarsniði vefsvæðisins sem þú vilt slá inn sérsniðið lén fyrir.
 1. Í **Breyta auðkenningarsniði vefsvæðis** svargluggi, undir **Skráðu þig inn á sérsniðið lén**, sláðu inn sérsniðna innskráningarlénið þitt (til dæmis 'login.fabrikam.com').
 
 > [!WARNING]

@@ -1,6 +1,6 @@
 ---
 title: Stjórnun tíma og viðveru í Retail
-description: Þessi efnisþáttur lýsir aðstæðum sem styður stjórnun á tíma og mætingu í Dynamics 365 Commerce.
+description: Þessi grein lýsir atburðarásum sem eru studdar fyrir tíma- og viðverustjórnun í Dynamics 365 Commerce.
 author: aamirallaqaband
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 68aafc9f397333d88644bb1870bb4e65da32c265decb10e6ac420be99c1e2c4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 75c09d9e98a08bec0697b0b522ba6e647d35b140
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762669"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855729"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Stjórnun tíma og viðveru í Retail
 
 [!include [banner](includes/banner.md)]
 
-Þessi efnisþáttur lýsir aðstæðum sem styður stjórnun á tíma og mætingu í Dynamics 365 Commerce.
+Þessi grein lýsir atburðarásum sem eru studdar fyrir tíma- og viðverustjórnun í Dynamics 365 Commerce.
 
 ## <a name="manage-worker-setup-and-scheduling"></a>Stjórna uppsetningu starfsmanns og áætlun
 

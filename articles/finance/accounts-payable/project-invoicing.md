@@ -1,6 +1,6 @@
 ---
-title: Reikningsfærsla verks
-description: Þetta efnisatriði veitir yfirlit yfir reikningsfærslu verka fyrir tíma- og efnisverk og verkefni á föstu verði. Hún inniheldur upplýsingar um reikningstillögur (bráðabirgðareikningar), reikningsstjórnun, reikningsfærslu áfangareikninga, reikningsfærslu lánardrottna og kreditnótur.
+title: Verkreikningur
+description: Þessi grein veitir yfirlit yfir verkreikninga fyrir Tíma- og efnisverk og fastverðsverk. Hún inniheldur upplýsingar um reikningstillögur (bráðabirgðareikningar), reikningsstjórnun, reikningsfærslu áfangareikninga, reikningsfærslu lánardrottna og kreditnótur.
 author: TaylorVH
 ms.date: 07/10/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: bdb5c9162ab85632c8780a737df0998e4cd34f0c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 4af44127d80c943ed9cebeac21d7e9c8372910f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733849"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861677"
 ---
-# <a name="project-invoicing"></a>Reikningsfærsla verks
+# <a name="project-invoicing"></a>Verkreikningur
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir yfirlit yfir reikningsfærslu verka fyrir tíma- og efnisverk og verkefni á föstu verði. Hún inniheldur upplýsingar um reikningstillögur (bráðabirgðareikningar), reikningsstjórnun, reikningsfærslu áfangareikninga, reikningsfærslu lánardrottna og kreditnótur.
+Þessi grein veitir yfirlit yfir verkreikninga fyrir Tíma- og efnisverk og fastverðsverk. Hún inniheldur upplýsingar um reikningstillögur (bráðabirgðareikningar), reikningsstjórnun, reikningsfærslu áfangareikninga, reikningsfærslu lánardrottna og kreditnótur.
 
 Verkgerðin ákvarðar hvaða reikningsfærsluaðferð skal beitt. Aðeins er hægt að reikningsfæra tvær ytri verkgerðir (Tíma- og efnisverk og fastverðsverk). Tíma- og efnisverk og fastverðsverk eru alltaf tengd við verksamning.
 

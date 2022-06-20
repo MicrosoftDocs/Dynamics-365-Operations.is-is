@@ -1,6 +1,6 @@
 ---
-title: Endurgreiðanleg gjöld eru rangreiknuð út frá því magni sem skilað er
-description: Þetta efnisatriði veitir leiðbeiningar um úrræðaleit sem geta hjálpað þegar gjaldkerar sjá rangt endurgreiðanleg gjöld á sölustað (POS) fyrir magn vara sem er skilað.
+title: Endurgreiðanleg gjöld eru misreiknuð miðað við magnið sem var skilað
+description: Þessi grein veitir leiðbeiningar um bilanaleit sem geta hjálpað þegar gjaldkerar sjá rangt endurgreiðanleg gjöld á sölustað (POS) fyrir magn vara sem er skilað.
 author: gvrmohanreddy
 ms.date: 03/24/2022
 ms.topic: article
@@ -9,24 +9,24 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c8ecaa0cb73d06ac66b57cce815264e841a2259b
-ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
+ms.openlocfilehash: 7a84207f587a826b9acdfd818c64220c5327bde1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "8489726"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890244"
 ---
-# <a name="refundable-charges-are-miscalculated-based-on-the-quantity-returned"></a>Endurgreiðanleg gjöld eru rangreiknuð út frá því magni sem skilað er
+# <a name="refundable-charges-are-miscalculated-based-on-the-quantity-returned"></a>Endurgreiðanleg gjöld eru misreiknuð miðað við magnið sem var skilað
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði veitir leiðbeiningar um úrræðaleit sem geta hjálpað þegar gjaldkerar sjá rangt endurgreiðanleg gjöld á sölustað (POS) fyrir magn vara sem er skilað.
+Þessi grein veitir leiðbeiningar um bilanaleit sem geta hjálpað þegar gjaldkerar sjá rangt endurgreiðanleg gjöld á sölustað (POS) fyrir magn vara sem er skilað.
 
 ## <a name="description"></a>Lýsing
 
 Viðskiptavinur skilar hlutamagni af vörum sem voru keyptar fyrir sölupöntun sem hefur endurgreiðanleg gjöld á línustigi. Hins vegar, í stað þess að sýna endurgreiðslu að hluta, sýnir POS öll gjöld sem endurgreiðanleg.
 
-Til dæmis kaupir viðskiptavinur fimm vörur á $5 fyrir hverja vöru, fyrir heildargjöld upp á $25. Viðskiptavinurinn skilar síðan þremur af fimm hlutum. Hins vegar er gjaldkeranum sýnd $25 endurgreiðanleg gjöld í POS, í stað væntanlegs $15 endurgreiðanlegs gjalds fyrir þá þrjá hluti sem voru skilaðir.
+Til dæmis kaupir viðskiptavinur fimm vörur á $5 fyrir hverja vöru, fyrir heildargjöld upp á $25. Viðskiptavinurinn skilar síðan þremur af fimm hlutum. Hins vegar er gjaldkera sýnd $25 endurgreiðanleg gjöld í POS, í stað væntanlegs $15 endurgreiðanlegs gjalds fyrir þá þrjá hluti sem voru skilaðir.
 
 ## <a name="resolution"></a>Upplausn
 

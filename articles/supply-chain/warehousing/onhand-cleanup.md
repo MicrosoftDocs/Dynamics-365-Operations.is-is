@@ -1,6 +1,6 @@
 ---
-title: Hreinsunarvinnsla lagerbirgðafærslna vöruhúsakerfis
-description: Þetta efnisatriði lýsir hreinsunarvinnslu á lagerbirgðafærslum, sem eykur afköst kerfisins með því að auðkenna og eyða tengdum en ónauðsynlegum færslum.
+title: Hreinsunarvinnsla lagerbirgðafærslna í vöruhúsakerfi
+description: Þessi grein lýsir hreinsunarvinnunni fyrir færslur sem eru á hendi, sem hjálpar til við að bæta afköst kerfisins með því að bera kennsl á og eyða tengdum en óþarfa skrám.
 author: perlynne
 ms.date: 04/23/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900507"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Hreinsunarvinnsla lagerbirgðafærslna vöruhúsakerfis
 
@@ -26,7 +26,7 @@ ms.locfileid: "8103864"
 
 Afköst fyrirspurna sem eru notaðar til að reikna lagerbirgðir verður fyrir áhrifum af færslufjöldanum í töflunum sem koma við sögu. Ein leið til að auka afköst er að draga úr fjölda færslna sem gagnagrunnurinn þarf að hafa í huga.
 
-Þetta efnisatriði lýsir hreinsunarvinnslu á lagerbirgðafærslum, sem eyðir ónauðsynlegum færslum í töflunum InventSum og WHSInventReserve. Þessar töflur geyma upplýsingar um lager fyrir vörur sem eru virkar fyrir vinnslu vöruhúsakerfis. (Þessar vörur nefnast WHS-vörur.) Eyðing þessara færslna getur stóraukið afköst lagerútreikninga.
+Þessi grein lýsir hreinsunarvinnunni fyrir færslur sem eru til staðar, sem eyðir óþarfa skrám í InventSum og WHSInventReserve töflunum. Þessar töflur geyma upplýsingar um lager fyrir vörur sem eru virkar fyrir vinnslu vöruhúsakerfis. (Þessar vörur nefnast WHS-vörur.) Eyðing þessara færslna getur stóraukið afköst lagerútreikninga.
 
 ## <a name="what-the-cleanup-job-does"></a>Hvað gerir hreinsunarvinnslan
 

@@ -1,6 +1,6 @@
 ---
-title: Settu upp vöruskattflokka
-description: Þetta efnisatriði útskýrir hvernig á að setja upp vöruskattflokka í Skattútreikningsþjónustunni.
+title: Setja upp vöruskattsflokka
+description: Þessi grein útskýrir hvernig á að setja upp vöruskattflokka í Skattútreikningsþjónustunni.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 88dd8e2fd9d4d4e5172dcc7b1bd27a70a2f59f03
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 3bc705bc8173ad2bc8ef883e6dc80b0a187314ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883903"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846464"
 ---
-# <a name="set-up-item-tax-groups"></a>Settu upp vöruskattflokka
+# <a name="set-up-item-tax-groups"></a>Setja upp vöruskattsflokka
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja upp vöruskattflokka í Skattútreikningsþjónustunni. Það útskýrir einnig hvernig á að setja upp gildisreglufylki vöruskattaflokks og stilla línur í fylkinu.
+Þessi grein útskýrir hvernig á að setja upp vöruskattflokka í Skattútreikningsþjónustunni. Það útskýrir einnig hvernig á að setja upp gildisreglufylki vöruskattaflokks og stilla línur í fylkinu.
 
-Hugtakið vöruskattsflokkar í Skattútreikningsþjónustunni líkist hugmyndinni um vöruskattsflokka í Microsoft Dynamics 365 Finance. Þetta eru hópar skattakóða. Skattútreikningsþjónustan notar skurðpunkta skattflokks og vöruskattsflokks til að ákvarða skattkóðana.
+Hugtakið vöruskattsflokkar í Skattútreikningsþjónustunni líkist hugtakinu vöruskattsflokkar í Microsoft Dynamics 365 Fjármál. Þetta eru hópar skattakóða. Skattútreikningsþjónustan notar skurðpunkta skattflokks og vöruskattsflokks til að ákvarða skattkóðana.
 
 > [!IMPORTANT]
-> Uppsetning vöruskattsflokka í Skattútreikningsþjónustunni er lögaðili-agnostic. Þú getur klárað þessa uppsetningu í Regulatory Configuration Service (RCS) aðeins einu sinni. Þegar þú virkjar skattreikningaþjónustuna í Finance, eru vöruskattflokkar samstilltir sjálfkrafa fyrir valda lögaðila.
+> Uppsetning vöruskattsflokka í Skattútreikningsþjónustunni er lögaðili-agnostic. Þú getur aðeins klárað þessa uppsetningu í Regulatory Configuration Service (RCS) einu sinni. Þegar þú virkjar skattreikningaþjónustuna í Finance eru vöruskattflokkar samstilltir sjálfkrafa fyrir valda lögaðila.
 
 ## <a name="set-up-an-item-tax-group"></a>Settu upp vöruskattflokk 
 
@@ -39,7 +39,7 @@ Fylgdu þessum skrefum til að setja upp vöruskattflokk.
 2. Fara til **Vinnurými** \> **Hnattvæðingareiginleikar** \> **Skattútreikningur**.
 3. Veldu eiginleikann og útgáfuna sem þú vilt setja upp og veldu síðan **Breyta**.
 4. Á **Almennt** flipa, veldu **Stillingarútgáfa**.
-5. Á **Vöruskattflokkur** flipa, veldu **Stjórna dálki**. Ef þú ert að setja upp vöruskattflokk í fyrsta skipti, munu reitirnir í **Stjórna dálki** svarglugginn er sjálfkrafa stilltur.
+5. Á **Vöruskattflokkur** flipa, veldu **Stjórna dálki**. Ef þú ert að setja upp vöruskattflokk í fyrsta skipti munu reitirnir í **Stjórna dálki** svarglugginn er sjálfkrafa stilltur.
 6. Í listanum til vinstri, stækkaðu **Línur** hnút og veldu gátreitinn fyrir **Hlutaskattshópur**.
 
     ![Vöruskattsflokkur valinn undir línuhnútnum í Stjórna dálkum svarglugganum.](media/select-item-tax-group.png)

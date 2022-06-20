@@ -1,6 +1,6 @@
 ---
 title: Mynda fjárhagsskýrslur
-description: Þetta efni inniheldur almennar upplýsingar um myndum reikningsskila.
+description: Þessi grein veitir upplýsingar um gerð fjárhagsskýrslu.
 author: jinniew
 ms.date: 02/08/2022
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00a860089265800ca1a0058f222d5e85c360501c
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 59ec6978d83f5c51309bc7d90d47366774cb2880
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898828"
 ---
 # <a name="generate-financial-reports"></a>Mynda fjárhagsskýrslur
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni inniheldur almennar upplýsingar um myndum reikningsskila.
+Þessi grein veitir upplýsingar um gerð fjárhagsskýrslu.
 
 Til að búa til skýrslu skaltu opna skýrsluskilgreininguna og velja á tækjastikunni **Mynda**. The **Tilkynna biðröð stöðu** síðan opnast og gefur til kynna staðsetningu skýrslunnar þinnar í biðröðinni.
 
 Þegar líður á skýrslugerðina geta eftirfarandi stöðuvísar skýrsluraðar verið sýnilegir á **Tilkynna biðröð stöðu** síðu.
 
-| Staða          | Ríki | Lýsing|
+| Staða          | Staða | Lýsing|
 |-----------------|--------|--------------------|
 | Í biðröð        | Til bráðabirgða |Skýrsluskilgreiningin er staðfest áður en skýrslan er sett í kynslóðarröðina.                    |
 | Í röð          | Til bráðabirgða | Skýrslan fer inn í biðröð skýrslugerðar og bíður vinnslu.                      |
@@ -74,7 +74,7 @@ Skýrsluhópar eru skilvirk leið til að búa til margar skýrslur samtímis. T
 4. Vistið skýrsluhópinn.
 
 ## <a name="schedule-report-generation"></a>Skýrslumyndun áætluð
-Mörg fyrirtæki eru með grunnsett af skýrslum sem eru keyrð með reglulegu millibili til samræmis við viðskiptaferla þeirra. Notandinn getur látið mynda skýrslu reglulega, eins og daglega, vikulega, mánaðarlega eða árlega. Þetta getur verið stök skýrsla eða skýrsluhópur sem felur í sér mörg fyrirtæki. Færa verður inn skilríki notanda fyrir hvert fyrirtækjanna sem tilgreind eru, eins og þau sem eru í skilgreiningu skipurits. Ef skilríkin eru ekki gild mun skýrslan aðeins birta þær upplýsingar sem þú hefur aðgang að, svo sem fyrirtækið sem þú ert skráður inn á á þeim tíma. Fyrst eru lesnar frálagsupplýsingar úr skýrsluhópnum og síðan úr einstökum skýrslum.
+Mörg fyrirtæki eru með grunnsett af skýrslum sem eru keyrð með reglulegu millibili til samræmis við viðskiptaferla þeirra. Notandinn getur látið mynda skýrslu reglulega, eins og daglega, vikulega, mánaðarlega eða árlega. Þetta getur verið stök skýrsla eða skýrsluhópur sem felur í sér mörg fyrirtæki. Færa verður inn skilríki notanda fyrir hvert fyrirtækjanna sem tilgreind eru, eins og þau sem eru í skilgreiningu skipurits. Ef skilríkin eru ekki gild mun skýrslan birta aðeins þær upplýsingar sem þú hefur aðgang að, eins og fyrirtækið sem þú ert skráður inn á á þeim tíma. Fyrst eru lesnar frálagsupplýsingar úr skýrsluhópnum og síðan úr einstökum skýrslum.
 
 Þegar skýrsluáætlanir eru búnar til og vistaðar birtast þær í yfirlitsrúðunni undir Skýrsluáætlanir. Hægt er að stofna möppur til að skipuleggja skýrslurnar. Ef ein skýrsla í ætlun er ekki keyrð er haldið áfram að keyra allar aðrar skýrslur.
 

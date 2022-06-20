@@ -1,6 +1,6 @@
 ---
 title: Endurmeta leigugreiðslur sem eru tengdar vaxtavísitölu
-description: Þetta efnisatriði lýsir leiðréttingunni sem er gerð á leigusamningnum fyrir afnotarétt af eign þegar breytilegar leigugreiðslur breytast vegna breytinga í vaxtavísitölu.
+description: Í þessari grein er gerð grein fyrir þeirri leiðréttingu sem gerð er til að leigja skuld vegna afnotaréttareignar (ROU) þegar breytilegar leigugreiðslur breytast vegna breytinga á vísitölu.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 8dc2325e9f0651bea0d70d9f66e5d88b741009f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903248"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Endurmeta leigugreiðslur sem eru tengdar vaxtavísitölu
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir leiðréttingunni sem er gerð á leiguskuldbindingu fyrir afnotarétt af eign þegar breytilegar leigugreiðslur breytast vegna breytinga í vaxtavísitölu. Leiguskuldbinding og afnotaréttur af eign verður breytt til samræmis við nýju greiðsluupphæðirnar. Samkvæmt efnisatriði um skráningarkerfi reikningsskilastaðla 842 (ASC 842) sem er staðall fyrir almennt samþykktar reikningsskilareglur í Bandaríkjunum (US GAAP) breytast einungis breytilegar greiðslur þegar greiðslur hækka eða lækka vegna breytinga á vaxtavísitölunni, að því undanskildu að frekari breytingar verði á sjóðstreymi. Slíkar frekari breytingar geta falið í sér breytingar á leigutíma sem tengist vöxtum. Frekari upplýsingar eru í ASC 842-10-55-225 og 42(b). gr. alþjóðlega reikningsskilastaðalsins 16 (IFRS 16).
+Í þessari grein er gerð grein fyrir þeirri leiðréttingu sem gerð er á leiguskuld vegna afnotaréttareignar (ROU) þegar breytilegar leigugreiðslur breytast vegna breytinga á vísitölu. Leiguskuldbinding og afnotaréttur af eign verður breytt til samræmis við nýju greiðsluupphæðirnar. Samkvæmt efnisatriði um skráningarkerfi reikningsskilastaðla 842 (ASC 842) sem er staðall fyrir almennt samþykktar reikningsskilareglur í Bandaríkjunum (US GAAP) breytast einungis breytilegar greiðslur þegar greiðslur hækka eða lækka vegna breytinga á vaxtavísitölunni, að því undanskildu að frekari breytingar verði á sjóðstreymi. Slíkar frekari breytingar geta falið í sér breytingar á leigutíma sem tengist vöxtum. Frekari upplýsingar eru í ASC 842-10-55-225 og 42(b). gr. alþjóðlega reikningsskilastaðalsins 16 (IFRS 16).
 
 ## <a name="adjust-lease-payments"></a>Breyta leigugreiðslum
 
@@ -67,6 +67,6 @@ Til að skoða áhrif endurmatsferlis leigusamnings á IFRS 16-leigusamninga, sk
 Bókarfærslan hefur sjálfkrafa bókað færslu leiðréttingabókarinnar í lykilinn fyrir breytinguna í leigugreiðslum sem tengjast endurmati vísitölunnar.
 
 > [!NOTE]
-> Ef **Greiðsluupphæð sundurliðunar** valkosturinn er virkur á **Almennt** Flýtiflipi á **Upplýsingar um leigusamning** síðu, og tengd bók er IFRS 16, mun endurmatsferlið vísitölu sjálfkrafa bæta við skrá í **Greiðsluupphæð sundurliðuð** valmynd. Upphæðin mun endurspegla þá breytingu sem gerð var á greiðslunni vegna endurmats vísitölu. Skráin verður merkt sem **Notað fyrir endurmat IRFS 16 vísitölu**.
+> Ef **Greiðsluupphæð sundurliðunar** valkostur er virkur á **Almennt** Flýtiflipi á **Upplýsingar um leigusamning** síðu, og tengd bók er IFRS 16, mun endurmatsferlið vísitölu sjálfkrafa bæta við skrá í **Greiðsluupphæð sundurliðuð** valmynd. Upphæðin mun endurspegla þá breytingu sem gerð var á greiðslunni vegna endurmats vísitölu. Skráin verður merkt sem **Notað fyrir endurmat IRFS 16 vísitölu**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

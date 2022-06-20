@@ -1,6 +1,6 @@
 ---
 title: Skipulag afurðarlosunar
-description: Þetta efnisatriði útskýrir hvernig hægt er að losa heildarskipulag afurðar ásamt því að losa afurðir með hönnunarútgáfum þeirra. Á þennan hátt er tryggt að auðvelt sé að endurnota afurðargögn sem tengjast hönnun í mismunandi lögaðilum.
+description: Þessi grein útskýrir hvernig þú getur gefið út heill vöruuppbygging auk þess að gefa út vörur ásamt verkfræðiútgáfum þeirra. Á þennan hátt er tryggt að auðvelt sé að endurnota afurðargögn sem tengjast hönnun í mismunandi lögaðilum.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4dc1b073350044ef8afb765470ed14da88a70fdd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: c8359f86e5123ee40e9673971de626e1b327ac95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567488"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875482"
 ---
 # <a name="release-product-structures"></a>Skipulag afurðarlosunar
 

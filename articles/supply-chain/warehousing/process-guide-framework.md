@@ -1,6 +1,6 @@
 ---
 title: Vinna úr leiðbeiningaramma
-description: Þetta efnisatriði veitir upplýsingar um leiðbeiningaramma úrvinnslu fyrir þróunaraðila sem eru að stækka vöruhúsaferli fartækis í X++.
+description: Þessi grein veitir upplýsingar um ferlaleiðbeiningarrammann fyrir þróunaraðila sem eru að víkka út farsímaferli vöruhússins okkar í X++.
 author: Mirzaab
 ms.date: 11/01/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 6882c979ad9b37eb4f95a04259b6ac0f0a0edcdc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: e88f32e0347a808d03615cf85e50b1592d691670
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902047"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860436"
 ---
 # <a name="process-guide-framework"></a>Vinna úr leiðbeiningaramma
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um leiðbeiningaramma úrvinnslu fyrir þróunaraðila sem eru að stækka vöruhúsaferli fartækis í X++. Vöruhúsaferli fartækis eru stækkanleg vegna þess að ferlarnir eru hlutaðir niður í smærri skref. Smíði viðskiptagrunns og notandaviðmóts fyrir hvert skref hefur verið komið fyrir í stökum klösum, sem gerir stækkunarhæfni mögulega.
+Þessi grein veitir upplýsingar um ferlaleiðbeiningarrammann fyrir þróunaraðila sem eru að víkka út farsímaferli vöruhússins í X++. Vöruhúsaferli fartækis eru stækkanleg vegna þess að ferlarnir eru hlutaðir niður í smærri skref. Smíði viðskiptagrunns og notandaviðmóts fyrir hvert skref hefur verið komið fyrir í stökum klösum, sem gerir stækkunarhæfni mögulega.
 
 ## <a name="overview-of-the-existing-design"></a>Yfirlit yfir fyrirliggjandi hönnun
 
@@ -321,7 +321,7 @@ public class ProdProcessGuideConfirmProductionOrderPageBuilder extends ProcessGu
 ```
 
 > [!NOTE]
-> Hægt er að finna sama frumkóða fyrir X++ aðferðirnar í þessu efnisatriði með því að nota Application Explorer. Síaðu klasaheitið og hægrismelltu svo á það og veldu **Skoða kóða**.
+> Þú getur fundið sama frumkóðann fyrir X++ aðferðirnar í þessari grein með því að nota Application Explorer. Síaðu klasaheitið og hægrismelltu svo á það og veldu **Skoða kóða**.
 
 ### <a name="step-3-start-the-production-order"></a>Skref 3: Hefja framleiðslupöntunina
 
@@ -421,7 +421,7 @@ _page.addButton(step.createAction(#ActionOK), true);
 
 ### <a name="summary"></a>Samantekt
 
-Hér er ítarleg samantekt á kóðanum sem þarf fyrir ferlið til að taka saman allt sem hefur verið útskýrt í þessu efnisatriði:
+Til að draga saman allt sem hefur verið útskýrt í þessari grein, hér er yfirgripsmikil samantekt á kóðanum sem þarf fyrir ferlið:
 
 1.  **ProdProcessGuideProductionStartController**
 
@@ -570,7 +570,7 @@ Hér er ítarleg samantekt á kóðanum sem þarf fyrir ferlið til að taka sam
         ```
 
         > [!NOTE]
-        > Aðferðin **generateItemInfoForProdId()**, sem er notuð til að búa til merki vöruupplýsinga, er undanskilin frá þessu efnisatriði. Þessi aðferð sendir fyrirspurn á nokkrar töflur til að fá vörukenni, lýsingu og víddir. Ef þú vilt fá betri skilning á **generateItemInfoForProdId()** skaltu kíkja á frumkóðann.
+        > The **generItemInfoForProdId()** aðferð, sem er notuð til að búa til upplýsingar um vörumerki, er útilokuð frá þessari grein. Þessi aðferð sendir fyrirspurn á nokkrar töflur til að fá vörukenni, lýsingu og víddir. Ef þú vilt fá betri skilning á **generateItemInfoForProdId()** skaltu kíkja á frumkóðann.
 
 4.  **ProdProcessGuideStartProductionOrderStep**
 
@@ -605,7 +605,7 @@ Hér er ítarleg samantekt á kóðanum sem þarf fyrir ferlið til að taka sam
 
 ### <a name="extending-a-business-process"></a>Að stækka viðskiptaferli
 
-Hingað til hefur þetta efnisatriði lagt áherslu á hvernig hægt er að búa til nýtt ferli með því að nota rammann **ProcessGuide**. Í þessum lokahluta er að finna nokkur dæmi um hvernig hægt er að stækka viðskiptaferlana.
+Hingað til hefur þessi grein bent á hvernig eigi að byggja upp nýtt ferli með því að nota **ProcessGuide** ramma. Í þessum lokahluta er að finna nokkur dæmi um hvernig hægt er að stækka viðskiptaferlana.
 
 ### <a name="add-a-step-in-a-flow-using-processguidenavigationagentdefault"></a>Bæta skrefi við flæði (með ProcessGuideNavigationAgentDefault)
 

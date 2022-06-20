@@ -1,6 +1,6 @@
 ---
 title: Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi
-description: Þetta efnisatriði útskýrir hvernig á að grunnstilla kaup á netinu, sækja í verslun (BOPIS) í Microsoft Dynamics 365 Commerce matsumhverfi eftir að það hefur verið úthlutað.
+description: Þessi grein útskýrir hvernig á að stilla kaupa á netinu, sækja í verslun (BOPIS) í a Microsoft Dynamics 365 Commerce matsumhverfi eftir að það hefur verið útvegað.
 author: BrianShook
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,30 +14,30 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e0aabec196aa1ffd2e4d2f2691c03cf11326ee8
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
-ms.translationtype: MT
+ms.openlocfilehash: 379537fd490be98497b6e7c5cdfbc33798fe28ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861967"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að grunnstilla kaup á netinu, sækja í verslun (BOPIS) í Microsoft Dynamics 365 Commerce matsumhverfi eftir að umhverfinu hefur verið úthlutað.
+Þessi grein útskýrir hvernig á að stilla kaupa á netinu, afhending í verslun (BOPIS) í a Microsoft Dynamics 365 Commerce matsumhverfi eftir að umhverfið hefur verið útvegað.
 
 ## <a name="prerequisite"></a>Skilyrði
 
-Ljúktu aðeins við aðgerðirnar í þessu efnisatriði eftir að matsumhverfi fyrir Commerce hefur verið úthlutað og grunnstillt. Frekari upplýsingar um hvernig á að úthluta og grunnstilla umhverfi þitt, sjá [Útvegun á Dynamics 365 Commerce matsumhverfi](provisioning-guide.md) og [Grunnstilla Dynamics 365 Commerce matsumhverfi](./cpe-post-provisioning.md).
+Ljúktu aðeins við aðferðirnar í þessari grein eftir að viðskiptamatsumhverfið þitt hefur verið útbúið og stillt. Frekari upplýsingar um hvernig á að úthluta og grunnstilla umhverfi þitt, sjá [Útvegun á Dynamics 365 Commerce matsumhverfi](provisioning-guide.md) og [Grunnstilla Dynamics 365 Commerce matsumhverfi](./cpe-post-provisioning.md).
 
-Eftir að Commerce umhverfið þitt hefur verið úthlutað og grunnstillt frá upphafi til enda geturðu notað þetta efnisatriði til að gera BOPIS atburðarás virka.
+Eftir að viðskiptaumhverfið þitt hefur verið útvegað og stillt frá enda til enda geturðu notað þessa grein til að virkja BOPIS aðstæður.
 
 ## <a name="configure-the-pos"></a>Stilla sölustað
 
 ### <a name="configure-modern-pos"></a>Grunnstilla Modern sölustað
 
-BOPIS atburðarásir sem fela í sér kreditkortagreiðslu krefjast vélbúnaðarstöðvar. Vélbúnaðarstöð innbyggð í Modern sölustað fyrir Windows og Android biðlara. Ef þú notar sölukerfi í skýinu eða Modern sölustað fyrir iOS, verður biðlari sölustaðarins (POS) að vera paraður við samnýtta vélbúnaðarstöð. Þetta efnisatriði útskýrir hvernig á að stilla BOPIS fyrir Windows og Android biðlara. Frekari upplýsingar um hvernig á að setja upp vélbúnaðarstöðvar, sjá [Grunnstilling og uppsetning á vélbúnaðarstöð fyrir Retail](./retail-hardware-station-configuration-installation.md).
+BOPIS atburðarásir sem fela í sér kreditkortagreiðslu krefjast vélbúnaðarstöðvar. Vélbúnaðarstöð innbyggð í Modern sölustað fyrir Windows og Android biðlara. Ef þú notar sölukerfi í skýinu eða Modern sölustað fyrir iOS, verður biðlari sölustaðarins (POS) að vera paraður við samnýtta vélbúnaðarstöð. Þessi grein útskýrir hvernig á að stilla BOPIS fyrir Windows og Android viðskiptavinum. Frekari upplýsingar um hvernig á að setja upp vélbúnaðarstöðvar, sjá [Grunnstilling og uppsetning á vélbúnaðarstöð fyrir Retail](./retail-hardware-station-configuration-installation.md).
 
 1. Opnaðu **Smásala og viðskipti \> Uppsetning rásar \> Uppsetning sölustaðar \> Afgreiðslukassar**.
 2. Veldu skráningu **SANFRAN-5** og veldu síðan **Breyta**.
@@ -67,7 +67,7 @@ BOPIS atburðarásir sem fela í sér kreditkortagreiðslu krefjast vélbúnaða
 5. Svargluggi sannvottunar opnast. Veldu reikninginn sem notar netfangið sem áður var tengt starfsmanni **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > Ef þú hefur ekki enn tengt starfsmann auðkennið þitt, þá mun virkjun ekki ná árangri. Í þessu tilfelli skaltu fylgja leiðbeiningunum undir hlutanum „Tengja starfsmann við auðkenni þitt“ í efnisatriðinu [Grunnstilla Dynamics 365 Commerce matsumhverfi](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
+    > Ef þú hefur ekki enn tengt starfsmann auðkennið þitt, þá mun virkjun ekki ná árangri. Í þessu tilviki skaltu fylgja skrefunum undir "Tengdu starfsmann við auðkenni þitt" í hlutanum [Stilla a Dynamics 365 Commerce matsumhverfi](cpe-post-provisioning.md#associate-a-worker-with-your-identity) grein.
     
 6. Þegar þú ert beðin/n um að láta fyrirtæki þitt stjórna tækinu skaltu velja **Aðeins þetta forrit**.
 7. Þegar virkjun er lokið skaltu velja **Hefjast handa**.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e4aa910d92c2905d54d96f656e1d3d1c36388636
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 228c891e8c29cf4309856b90139d0b88805a9812
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886161"
 ---
 # <a name="process-compensation"></a>Launaútreikningur
 
@@ -27,7 +27,7 @@ ms.locfileid: "8693865"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Launaútreikningur gerir þér kleift að reikna nýjar grunnlaunaupphæðir fyrir starfsmenn þína á grundvelli launaleiðréttingar, marka verðleikaaukningar og afkasta. Þetta efnisatriði fer yfir grunnflæði launavinnslu fyrir launafyrirkomulag með föstum launum án þess að tekið sé tillit til afkasta starfsmanns.
+Launaútreikningur gerir þér kleift að reikna nýjar grunnlaunaupphæðir fyrir starfsmenn þína á grundvelli launaleiðréttingar, marka verðleikaaukningar og afkasta. Þessi grein fer yfir grunnflæði launavinnslu fyrir launafyrirkomulag með föstum launum án þess að tekið sé tillit til afkasta starfsmanns.
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a>Áætla nýjar launaupphæðir og setja saman áætlanir
 Til að gefa starfsmönnum þínum verðleikaaukningu verður þú að setja upp fasta hækkun fjárhagsáætlunar fyrir hverja deild þína: **Launastjórnun** > **Tenglar** > **Markhópar verðleikaaukningar**. (Einnig er hægt að opna þessa síðu í gegnum deildina: **Fyrirtæki** > **Deildir**.) Þú getur tilgreint hvort starfsmenn í ákveðnu verkalýðsfélagi eða staðsetningu eigi að fá aðra prósentuhækkun. Reitirnir **Áætlun** og **Gjaldmiðill** eru til upplýsingar og þá má nota til að setja inn gjaldmiðilsupphæð fyrir áætlunina.
@@ -41,7 +41,7 @@ Vinnslutilvikið **Tímapunktur** er einungis notað fyrir úrvinnslu á ákveð
 
 Eftir að færibreytur vinnslutilviksins hafa verið vistaðar er hægt að smella á hnappinn **Uppsetning** til að velja áætlanirnar sem á að nota þegar ferlið er keyrt og hvaða aðgerða fastra launa á að grípa til fyrir hverja áætlun.
 
-Smelltu á hnappinn **Bæta við** í flipanum **Áætlanir** til að bæta launafyrirkomulagi við vinnslutilvikið. Dálkarnir **Nota aðra vogun**, **Vogunarhlutfall** og **Lýsing vogunar** eru aðeins notaðir fyrir breytilegar launaáætlanir og ekki er fjallað um þá í þessu efnisatriði.
+Smelltu á hnappinn **Bæta við** í flipanum **Áætlanir** til að bæta launafyrirkomulagi við vinnslutilvikið. Dálkarnir **Nota aðra vogun**, **Vogunarhlutfall** og **Lýsing vogunar** eru aðeins notaðir fyrir breytilegar launaáætlanir og ekki er fjallað um þá í þessari grein.
 
 Vistaðu færsluna og smelltu svo á hnappinn **Bæta við** í flipanum **Aðgerðir** til að bæta við aðgerðum fastra launa fyrir valda áætlun. Notaðu valkostinn **Virkja ráðleggingu** til að slá inn upphæð sem er önnur en útreiknuð leiðbeinandi hækkun fyrir aðgerðina. Til að reikna út aðgerð sem er byggð á niðurstöðu fyrri aðgerðar til að tengja margar launaaðgerðir skal merkja valkostinn **Nota síðustu niðurstöður**. Aðgerðir fastra launa eru gerðir af launarökum sem hægt er að gefa lýsandi heiti. Fyrir **Einkunn** og **Hljómsveit** áætlunum geturðu aðeins bætt við föstum bótaaðgerðum sem eru af eftirfarandi gerðum:
 

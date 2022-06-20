@@ -1,6 +1,6 @@
 ---
 title: Hafist handa með rafrænr reikningsfærslur fyrir Brasilíu
-description: Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með rafrænni reikningsfærslu fyrir Brasilíu í Finance and Supply Chain Management.
+description: Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Brasilíu í fjármála- og birgðakeðjustjórnun.
 author: gionoder
 ms.date: 03/29/2021
 ms.topic: article
@@ -9,30 +9,32 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 82bbf806d207af0b15406e4bec516420db7f2c06
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 74debbca4ee365e05f1c15d45179f0cd1d23c3e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846585"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Hafist handa með rafrænr reikningsfærslur fyrir Brasilíu 
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Brasilíu. Efnisatriðið leiðir þig í gegnum skilgreiningarskrefi sem eru landsmiðuð í Regulatory Configuration Services (RCS) og bætast ofan á skrefin sem lýst er í efnisatriðinu [Hafist handa með rafrænni reikningsfærslu](e-invoicing-get-started.md).
+Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Brasilíu. Greinin leiðir þig í gegnum stillingarskref sem eru háð landinu í Regulatory Configuration Services (RCS), og bæta við skrefin sem lýst er í greininni, [Byrjaðu með rafræna reikningagerð](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-for-brazilian-nf-e-br-electronic-invoicing-feature"></a>Landsbundin skilgreining fyrir eiginleika rafrænnar reikningsfærslu fyrir brasilískt NF-e (BR)
 
 Sumar færibreyturnar úr **rafræna reikningseiginleikanum fyrir Brasilískt NF-e (BR)** eru birtar með sjálfgefnum gildum. Farið yfir gildin og, ef þörf krefur, uppfærið gildin svo þau endurspegli betur fyrirtækjareksturinn áður en rafræni reikningseiginleikinn er notaður í þjónustuumhverfinu.
 
-Þessi hluti tengist **Landsbundin skilgreining fyrir eiginleika rafrænnar reikningsfærslu** hlutanum í efnisatriðinu [Hafist handa með rafrænar reikningsfærslur](e-invoicing-get-started.md).
+Þessi hluti er viðbót við **Landssértæk uppsetning fyrir eiginleika rafrænna reikninga** kafla í greininni, [Byrjaðu með rafræna reikningagerð](e-invoicing-get-started.md).
 
 1. Í RCS, í hlutanum **Eiginleikar** á vinnusvæðinu **Altækur eiginleiki**, skal velja reitinn **Rafræn reikningsfærsla**.
 2. Á síðunni **Eiginleikar fyrir rafræna reikningsfærslu** skal staðfesta að rafræni reikningsfærslueiginleikinn **Brasilískt NF-e (BR)** sem var stofnaður sé valinn.
@@ -51,7 +53,7 @@ Sumar færibreyturnar úr **rafræna reikningseiginleikanum fyrir Brasilískt NF
 
 Ljúkið þessum skrefum áður en uppsetning forritsins er virkjuð í forriti sem er tengt við Finance eða Supply Chain Management.
 
-Þessi hluti tengist **Landsháð grunnstilling á uppsetningu forrits** hlutanum í efnisatriðinu [Hafist handa með rafrænar reikningsfærslur](e-invoicing-get-started.md).
+Þessi hluti er viðbót við **Landssértæk uppsetning forritsuppsetningar** kafla í greininni, [Byrjaðu með rafræna reikningagerð](e-invoicing-get-started.md).
 
 1. Í RCS, í hlutanum **Eiginleikar** á vinnusvæðinu **Altækur eiginleiki**, skal velja reitinn **Rafræn reikningsfærsla**.
 2. Á síðunni **Eiginleikar fyrir rafræna reikningsfærslu** skal staðfesta að rafræni reikningsfærslueiginleikinn **Brasilískt NF-e (BR)** sem sé valinn.
@@ -71,7 +73,7 @@ Ljúkið þessum skrefum áður en uppsetning forritsins er virkjuð í forriti 
 
 Sumar færibreyturnar úr **rafræna reikningseiginleikanum fyrir Brasilískt NFS-e ABRASF Curitiba (BR)** eru birtar með sjálfgefnum gildum. Farðu yfir og, ef þörf krefur, uppfærðu gildin svo þau falli betur að fyrirtækjarekstri þínum áður en þú notar rafræna reikningseiginleikann í þjónustuumhverfinu.
 
-Þessi hluti tengist **Landsbundin skilgreining fyrir eiginleika rafrænnar reikningsfærslu** hlutanum í efnisatriðinu [Hafist handa með rafrænar reikningsfærslur](e-invoicing-get-started.md).
+Þessi hluti er viðbót við **Landssértæk uppsetning fyrir eiginleika rafrænna reikninga** kafla í greininni, [Byrjaðu með rafræna reikningagerð](e-invoicing-get-started.md).
 
 1. Í RCS, í hlutanum **Eiginleikar** á vinnusvæðinu **Altækur eiginleiki**, skal velja reitinn **Rafræn reikningsfærsla**.
 2. Á síðunni **Eiginleikar fyrir rafræna reikningsfærslu** skal staðfesta að rafræni reikningsfærslueiginleikinn **Brasilískt NFS-e ABRASF Curitiba (BR)** sem var stofnaður sé valinn.
@@ -96,7 +98,7 @@ Sumar færibreyturnar úr **rafræna reikningseiginleikanum fyrir Brasilískt NF
 
 Ljúkið þessum skrefum áður en uppsetning forritsins er virkjuð í forriti sem er tengt við Finance eða Supply Chain Management.
 
-Þessi hluti tengist **Landsháð grunnstilling á uppsetningu forrits** hlutanum í efnisatriðinu [Hafist handa með rafrænar reikningsfærslur](e-invoicing-get-started.md).
+Þessi hluti er viðbót við **Landssértæk uppsetning forritsuppsetningar** kafla í greininni, [Byrjaðu með rafræna reikningagerð](e-invoicing-get-started.md).
 
 1. Í RCS, í hlutanum **Eiginleikar** á vinnusvæðinu **Altækur eiginleiki**, skal velja reitinn **Rafræn reikningsfærsla**.
 2. Á síðunni **Eiginleikar fyrir rafræna reikningsfærslu** skal staðfesta að rafræni reikningsfærslueiginleikinn **Brasilískt NFS-e ABRASF Curitiba (BR)** sé valinn.

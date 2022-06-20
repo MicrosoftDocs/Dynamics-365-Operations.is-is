@@ -1,6 +1,6 @@
 ---
 title: Stefna fyrir samantekt kostnaðar og útreikning sameiginlegs kostnaðar
-description: Þetta efnisatriði veitir upplýsingar um hvernig á að ákvarða rétt stig aukakostnaðareininga og stofna reglur fyrir samantekt kostnaðar sem hæfa skýrslugerð fyrirtækis og rekjanleika kostnaðar.
+description: Þessi grein veitir upplýsingar um hvernig á að ákvarða rétt stig aukakostnaðarþátta og búa til kostnaðarsamsetningarreglur sem passa inn í skýrslugerð fyrirtækisins og rekjanleika kostnaðar.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f35bf3e900b8dd9c1864be8668f7ff7296924c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874610"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Stefna fyrir samantekt kostnaðar og útreikning sameiginlegs kostnaðar 
 
@@ -33,7 +33,7 @@ Kostnaðarbókhald gerir kleift að fá innsýn í hvernig kostnaðarflæði ten
 -   Fjöldi kostnaðarfærslna sem til verða vegna útreiknings á sameiginlegum kostnaði getur verið mjög mikill.
 -   Ekki er hægt að fylgjast með kostnaðarflæði milli kostnaðarhluta.
 
-Til að forðast það gerir kostnaðarbókhald kleift að skilgreina kostnaðarúthlutun þannig að hún passi inn í stjórnunarlegar skýrslukröfur fyrirtækisins. Þetta efnisatriði fjallar um hvernig þú getur ákvarðað rétt stig aukakostnaðareininga og stofnað reglur fyrir samantekt kostnaðar sem hæfa skýrslugerð fyrirtækis og rekjanleika kostnaðar.
+Til að forðast það gerir kostnaðarbókhald kleift að skilgreina kostnaðarúthlutun þannig að hún passi inn í stjórnunarlegar skýrslukröfur fyrirtækisins. Þessi grein fjallar um hvernig hægt er að ákvarða rétt stig aukakostnaðarþátta og búa til kostnaðarsamsetningarreglur sem passa inn í skýrslugerð fyrirtækisins og rekjanleika kostnaðar.
 
 > [!NOTE]
 > Hægt er að breyta skilgreiningum ef skýrslukröfur breytast.

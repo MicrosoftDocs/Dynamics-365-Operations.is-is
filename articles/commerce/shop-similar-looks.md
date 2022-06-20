@@ -1,6 +1,6 @@
 ---
 title: Virkja tillögur um að kaupa svipaða vöru
-description: Þetta efnisatriði lýsir því hvernig á að virkja afurðartillögurnar fyrir „versla svipaða vöru“ í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að virkja vöruráðleggingar um „verslaðu svipað útlit“ í Microsoft Dynamics 365 Commerce.
 author: bebeale
 ms.date: 08/06/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e70365be8484d71ef9e0e9823b0a4406b0fd2761439780cafc30e1284bda1f20
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3024e832de5e6a60b49c5b0c8bfbe36b2c416379
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722001"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884578"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Virkja tillögur um að kaupa svipaða vöru
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að virkja afurðartillögurnar fyrir „versla svipaða vöru“ í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að virkja vöruráðleggingar um „verslaðu svipað útlit“ í Microsoft Dynamics 365 Commerce.
 
 Eiginleikinn fyrir ráðleggingar um „versla svipaða vöru“ í Dynamics 365 Commerce notar gervigreind og vélnám til að sýna viðskiptavinum afurðir sem líta svipað út. Með því að bjóða upp á tillögur fyrir „versla svipaða vöru“ fyrir allar smásölurásir í Commerce, geta smásalar aukið ánægja viðskiptavina með því að hjálpa viðskiptavinum að finna á auðveldan hátt það sem þeir vilja.
 

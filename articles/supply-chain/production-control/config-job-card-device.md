@@ -1,6 +1,6 @@
 ---
 title: Skilgreina verkspjald fyrir tæki
-description: Í þessu efnisatriði er lýst ýmsum valkostum til að stilla verkspjaldstækið.
+description: Þessi grein lýsir hinum ýmsu valkostum til að stilla vinnukortatækið.
 author: johanhoffmann
 ms.date: 05/29/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103439"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860726"
 ---
 # <a name="configure-job-card-for-devices"></a>Skilgreina verkspjald fyrir tæki
 
 [!include [banner](../includes/banner.md)]
 
-Verkspjaldstækið er notað af starfsmönnum í vinnusal til að skrá dagleg störf, t.d. hvenær störf hefjast, athugasemdir um störf tilkynntar, skráning afleiddra verkþátta og tilkynningar um fjarvistir. Þessar skráningar eru grundvöllur þess að fylgjast með framvindu og kostnaði framleiðslupantana og til að reikna út grunn fyrir laun starfsmanna. Í þessu efnisatriði er lýst ýmsum valkostum til að stilla verkspjaldstækin.
+Verkspjaldstækið er notað af starfsmönnum í vinnusal til að skrá dagleg störf, t.d. hvenær störf hefjast, athugasemdir um störf tilkynntar, skráning afleiddra verkþátta og tilkynningar um fjarvistir. Þessar skráningar eru grundvöllur þess að fylgjast með framvindu og kostnaði framleiðslupantana og til að reikna út grunn fyrir laun starfsmanna. Þessi grein lýsir hinum ýmsu valkostum til að stilla vinnukortatæki.
 
 ## <a name="enable-new-features-in-feature-management"></a>Virkja nýja eiginleika í eiginleikastjórnun
 
-Nokkrar af stillingunum sem lýst er í þessu efnisatriði verða að vera virkar í kerfinu áður en boðið er upp á þær. Notið síðuna [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að virkja einhverja eða alla eftirfarandi eiginleika eins og þörf krefur.
+Nokkrar af stillingunum sem lýst er í þessari grein verða að vera virkjaðar á kerfinu þínu áður en þær verða aðgengilegar þér. Notið síðuna [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að virkja einhverja eða alla eftirfarandi eiginleika eins og þörf krefur.
 
 ### <a name="generate-license-plate"></a>Mynda númeraplötu
 
@@ -46,7 +46,7 @@ Til að gera þennan eiginleika tiltækan skal virkja eftirfarandi eiginleika í
 
 ### <a name="allow-locking-of-touch-screen"></a>Leyfa læsingu á snertiskjá
 
-Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Eiginleiki til að læsa vinnukortabúnaði og vinnukortastöð svo hægt sé að hreinsa þau* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Eiginleiki til að læsa vinnukortabúnaði og vinnukortastöð svo hægt sé að hreinsa þau* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="manage-your-device-configurations"></a>Umsjón með tækjaskilgreiningum
 

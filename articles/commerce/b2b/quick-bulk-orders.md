@@ -1,6 +1,6 @@
 ---
 title: Leggja fram B2B-pantanir á vefsvæði á skjótan hátt
-description: Þetta efni lýsir getu Microsoft Dynamics 365 Commerce sem gerir notendum fyrirtækja-til-fyrirtækja (B2B) vefsvæða kleift að leggja hratt inn magnpantanir og endurtaka.
+description: Þessi grein lýsir getu Microsoft Dynamics 365 Commerce sem gerir notendum fyrirtækja-til-fyrirtækja (B2B) vefsvæða kleift að leggja inn magnpantanir fljótt og endurtaka.
 author: shajain
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8ac4833b2ca05e90b4019ffdfc4b669c542b0cf6
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0b13fb49c49b0a540b192f4dd0f3a847fb5dd8a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686547"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881362"
 ---
 # <a name="place-b2b-website-orders-quickly"></a>Leggja fram B2B-pantanir á vefsvæði á skjótan hátt
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni lýsir getu Microsoft Dynamics 365 Commerce sem gerir notendum fyrirtækja-til-fyrirtækja (B2B) vefsvæða kleift að leggja hratt inn magnpantanir og endurtaka.
+Þessi grein lýsir getu Microsoft Dynamics 365 Commerce sem gerir notendum fyrirtækja-til-fyrirtækja (B2B) vefsvæða kleift að leggja inn magnpantanir fljótt og endurtaka.
 
 Dynamics 365 Commerce B2B netviðskiptavefsíður gera notendum kleift að framkvæma staðlaðar aðgerðir eins og að uppgötva nýjar vörur með leit og vafra, skoða vöruupplýsingar, bæta hlutum í körfuna og skrá sig út. Hins vegar, þar sem viðskiptavinir fyrirtækja-til-neytenda (B2C) vefsvæða panta venjulega vörur í litlu magni og panta þær aðeins einu sinni, panta B2B-viðskiptavinir venjulega vörur í miklu magni og endurraða þeim oft. Vegna þess að þessir viðskiptavinir vita venjulega nákvæmlega hvaða hluti þeir vilja kaupa, sleppa þeir oft vöruuppgötvunarstigi og fara beint í pöntun. Til að mæta þörfum þessara viðskiptavina bjóða Commerce B2B rafræn viðskipti upp á ýmsa möguleika sem hjálpa þeim að panta hratt.
 
@@ -33,7 +33,7 @@ Dynamics 365 Commerce B2B netviðskiptavefsíður gera notendum kleift að framk
 
 Commerce B2B rafræn viðskipti leyfa notendum vefsins að bæta hlutum í körfuna með því að slá inn vörunúmer ásamt því magni sem óskað er eftir.
 
-Eftirfarandi mynd sýnir dæmi um skjóta pöntunarfærslu eftir vörunúmeri.
+Eftirfarandi mynd sýnir dæmi um skjóta pöntunarfærslu eftir vörunúmeri vöru.
 
 ![Fljótleg pöntunarfærsla eftir vörunúmeri.](../media/QuickAddByItem.png)
 
@@ -47,7 +47,7 @@ Eftirfarandi mynd sýnir dæmi um skjóta pöntunarfærslu þar sem aðgerðin �
 
 ## <a name="use-order-templates-for-quick-order-entry"></a>Notaðu pöntunarsniðmát til að slá inn pöntun fljótt
 
-Kaupendur á B2B vefsíðum panta oft tiltekna hluti saman. Til dæmis, ef þú ert að leggja inn pantanir fyrir byggingarsvæði, gætirðu viljað panta skyrtur, jakka, buxur, skó og hatta saman. Ef þú ert að leggja inn pantanir fyrir sjúkrahús, þar sem læknar, hjúkrunarfræðingar og ræstingafólk hafa mismunandi einkennisbúninga, gætirðu viljað flokka hverja einkennistegund saman til að auðvelda pöntun. Fyrir þessar tegundir af atburðarás gera Commerce B2B síður kleift að búa til pöntunarsniðmát. Notendur síðunnar geta búið til hvaða fjölda sérsniðinna sniðmáta sem er og pantað síðan alla eða suma hluti úr þessum sniðmátum eftir þörfum.
+Kaupendur á B2B vefsíðum panta oft tiltekna hluti saman. Til dæmis, ef þú ert að leggja inn pantanir fyrir byggingarsvæði, gætirðu viljað panta skyrtur, jakka, buxur, skó og hatta saman. Ef þú ert að leggja inn pantanir fyrir sjúkrahús, þar sem læknar, hjúkrunarfræðingar og ræstingafólk hafa mismunandi einkennisbúninga, gætirðu viljað flokka hverja einkennistegund saman til að auðvelda pöntun. Fyrir þessar tegundir atburðarása gera Commerce B2B síður kleift að búa til pöntunarsniðmát. Notendur síðunnar geta búið til hvaða fjölda sérsniðinna sniðmáta sem er og pantað síðan alla eða suma hluti úr þessum sniðmátum eftir þörfum.
 
 Eftirfarandi mynd sýnir dæmi um pöntunarsniðmát.
 
@@ -59,10 +59,10 @@ Eftirfarandi mynd sýnir dæmi um upplýsingaskjá fyrir pöntunarsniðmát.
 
 ## <a name="reorder-from-order-history"></a>Endurraða úr pöntunarsögu
 
-Commerce B2B rafræn verslunarvefsíður gera notendum vefsvæða kleift að endurraða hlutum fljótt úr pöntunarsögu sinni. Notendur síðunnar geta annað hvort keypt valdar vörur úr pöntunarsögu sinni eða bætt öllum áður keyptum hlutum í körfuna.
+Commerce B2B rafræn viðskipti gera notendum síðunnar kleift að endurraða hlutum fljótt úr pöntunarsögu sinni. Notendur síðunnar geta annað hvort keypt valin atriði úr pöntunarsögu sinni eða bætt öllum áður keyptum hlutum í körfuna.
 
 Eftirfarandi mynd sýnir dæmi um pöntunarferil notanda og möguleika til að endurraða hlutum úr honum.
 
 ![Endurröðun úr pöntunarsögu.](../media/Reorder.png)
 
-Þetta efni hefur aðeins lýst nokkrum af þeim leiðum sem Commerce B2B síður hjálpa notendum að finna fljótt, panta og endurraða þeim vörum sem þeir vilja. Fleiri möguleikar eru í þróun til að einfalda enn frekar ferlið við að taka magnpantanir.
+Þessi grein hefur aðeins lýst nokkrum af þeim leiðum sem Commerce B2B síður hjálpa notendum að finna fljótt, panta og endurraða þeim vörum sem þeir vilja. Fleiri möguleikar eru í þróun til að einfalda enn frekar ferlið við að taka magnpantanir.

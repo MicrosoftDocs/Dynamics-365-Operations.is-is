@@ -1,6 +1,6 @@
 ---
 title: Stjórnun viðskiptavina í verslunum
-description: Þetta efnisatriði útskýrir hvernig smásöluaðilar geta virkjað stjórnunarmöguleika viðskiptavinar á sölustað í Microsoft Dynamics 365 Commerce.
+description: Þessi grein útskýrir hvernig smásalar geta virkjað getu viðskiptavinastjórnunar á sölustað (POS) í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5a352ba479ca5e635ef521b99f31bd26d5d837ac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 805d0b5894b18e2fc34f481bdc32ada7a4b1aee0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687334"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863488"
 ---
 # <a name="customer-management-in-stores"></a>Stjórnun viðskiptavina í verslunum
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig smásöluaðilar geta virkjað stjórnunarmöguleika viðskiptavinar á sölustað í Microsoft Dynamics 365 Commerce.
+Þessi grein útskýrir hvernig smásalar geta virkjað getu viðskiptavinastjórnunar á sölustað (POS) í Microsoft Dynamics 365 Commerce.
 
 Mikilvægt er að fulltrúar verslunar geti stofnað og breytt færslum viðskiptavina á sölustað. Þannig geta þeir sótt uppfærslur á upplýsingum um viðskiptavin á borð við netfang, símanúmer og heimilisfang. Þessar upplýsingar eru gagnlegar í ofansæknum kerfum á borð við markaðssetningu vegna þess að skilvirkni þessara kerfa fer eftir nákvæmni viðskiptavinagagnanna.
 

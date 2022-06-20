@@ -1,6 +1,6 @@
 ---
 title: Tæki, markaður og landfræðileg miðun
-description: Þetta efnisatriði lýsir því hvernig á að búa til, breyta og stjórna notendahópum og markhópum í Microsoft Dynamics 365 Commerce vefsmiðnum með því að nota upplýsingar um tæki, markað og landfræðilega staðsetningu.
+description: Þessi grein lýsir því hvernig á að búa til, breyta og stjórna áhorfendum og markmiðum í Microsoft Dynamics 365 Commerce vefsmiður með því að nota upplýsingar um tæki, markað og landsvæði.
 author: sushma-rao
 ms.date: 02/03/2022
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 0c8ceb5e59c801e0d3dbc3a57e54c40fa8d967ac
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 90772fd942db30bbf4f65a87b1dca4b2aaacee1e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090695"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881658"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>Tæki, markaður og landfræðileg miðun
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að búa til, breyta og stjórna notendahópum og markhópum í Microsoft Dynamics 365 Commerce vefsmiðnum með því að nota upplýsingar um tæki, markað og landfræðilega staðsetningu.
+Þessi grein lýsir því hvernig á að búa til, breyta og stjórna áhorfendum og markmiðum í Microsoft Dynamics 365 Commerce vefsmiður með því að nota upplýsingar um tæki, markað og landsvæði.
 
 Dynamics 365 Commerce gerir þér kleift að sérsníða innihald síðunnar þinnar (sem kallast *markhópar*) fyrir tiltekna hópa viðskiptavina (sem kallast *notendahópar*) til að auka þátttöku og ánægju notenda. Hægt er að stofna notendahóp eða markhóp fyrst. Árangursrík markmiðasetning krefst hins vegar beggja þessara þátta.
 

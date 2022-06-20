@@ -1,6 +1,6 @@
 ---
 title: Stofnun sjálfvirks viðskiptavinar
-description: Þetta efnisatriði lýsir því hvernig á að stofna sjálfgefinn viðskiptavin til að nota þegar rás er stofnuð í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að búa til sjálfgefna viðskiptavin til að nota þegar rás er búin til í Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ff9e5665ffd82982e09f63e34b30ae6937666231855587ad2f27c5231ead8419
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b4658356e268d045fcb7065b397411ffc5161864
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894530"
 ---
 # <a name="create-a-default-customer"></a>Stofnun sjálfvirks viðskiptavinar
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að stofna sjálfgefinn viðskiptavin til að nota þegar rás er stofnuð í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að búa til sjálfgefna viðskiptavin til að nota þegar rás er búin til í Microsoft Dynamics 365 Commerce.
 
 Þegar þú býrð til rás þarftu að bjóða upp á sjálfgefinn viðskiptavin. Auðvelt er að búa til sjálfgefinn viðskiptavin eftir að hafa búið til viðskiptavinahópinn og aðsetursbók viðskiptavinarins.
 

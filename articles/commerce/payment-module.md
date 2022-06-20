@@ -1,6 +1,6 @@
 ---
 title: Greiðslueining
-description: Þetta efnisatriði fjallar um greiðslueininguna og útskýrir hvernig á að skilgreina hana í Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um greiðslueininguna og útskýrir hvernig á að stilla hana í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 04/12/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: ba95386143ca830aeb1b50b31b4bbd2b54f53a40
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: a89ca5dd4f46611e75faccd3213028750fa48d35
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565730"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850276"
 ---
 # <a name="payment-module"></a>Greiðslueining
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði fjallar um greiðslueininguna og útskýrir hvernig á að skilgreina hana í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um greiðslueininguna og útskýrir hvernig á að stilla hana í Microsoft Dynamics 365 Commerce.
 
 Greiðslueiningin gerir viðskiptavinum kleift að greiða pantanir með kredit- eða debetkortum. Greiðslusamþætting fyrir þessa eining er í boði greiðslutengils Dynamics 365 fyrir Adyen. Frekari upplýsingar um hvernig setja á upp og skilgreina greiðslutengil er að finna í [Greiðslutengill Dynamics 365 fyrir Adyen](dev-itpro/adyen-connector.md).  
 
@@ -74,8 +74,8 @@ Eftirfarandi mynd sýnir dæmi um PayPal IFrame sem er ræst með PayPal-hnappnu
 | Hnekkja greiðslustíl | Kóði fyrir stölluð stílblöð (CSS) | Vegna þess að greiðslueiningin er hýst í iframe, er takmarkaður möguleiki á stílmótun. Hægt er að ná einhverri stílmótun með því að nota þennan eiginleika. Til að hnekkja stílbrigðum svæðis þarf að líma CSS-kóðann inn sem gildið fyrir þennan eiginleika. Hnekkingar og stílbrigði CSS-svæðissmiðs eiga ekki við um þessa einingu. |
 |Studdir greiðslumátar| Strengur| Ef mörg greiðslutengi eru stillt, ættir þú að gefa upp studda útboðstegundarstrenginn eins og hann er skilgreindur í greiðslutengisstillingu höfuðstöðva Commerce (sjá eftirfarandi mynd). Sjálfgefið er stillt á Adyen-greiðslutengilinn ef enginn er til staðar. Bætt við í Commerce Release 10.0.14.|
 |Er aðalgreiðsla|  **Satt** eða **Ósatt** | Ef **Satt** verða öll villuboð mynduð úr aðalgreiðslutenglinum á síðu greiðsluferlisins. Þegar bæði Adyen- og PayPal-greiðslutenglarnir eru skilgreindir skal stilla Adyen á **Satt**, en slíkum eiginleika við Commerce útgáfu 10.0.14.|
-|Nota tengikenni| **Satt** eða **Ósatt** | Notaðu þennan eiginleika ef mörg greiðslutengi eru stillt fyrir síðuna. Ef **Satt**, tengi þurfa að nota auðkenni tengisins fyrir greiðslufylgni.|
-|Notaðu vafrastillingar tungumálakóða fyrir iFrame|  **Satt** eða **Ósatt** | (aðeins Adyen) Ef **Satt**, Adyen iFrame mun birta tungumálið út frá samhengi vafra notanda síðunnar í stað þess að nota tungumálakóða viðskiptarásarinnar sem er stillt fyrir síðuna. Bætt við í Commerce Release 10.0.27.|
+|Nota tengikenni| **Satt** eða **Ósatt** | Notaðu þennan eiginleika ef mörg greiðslutengi eru stillt fyrir síðuna. Ef **Satt**, tengi þurfa að nota tengi auðkenni fyrir greiðslufylgni.|
+|Notaðu vafrastillingar tungumálakóða fyrir iFrame|  **Satt** eða **Ósatt** | (aðeins Adyen) Ef **Satt**, Adyen iFrame mun gera tungumálið út frá samhengi vafra notanda síðunnar í stað þess að nota tungumálakóða viðskiptarásarinnar sem er stillt fyrir síðuna. Bætt við í Commerce Release 10.0.27.|
 
 Skýringarmyndin hér á eftir sýnir dæmi um gildið **Studdir greiðslumátar** stillt á „PayPal“ í skilgreiningu greiðslutengilsins í Commerce Headquarters.
 ![Dæmi um studda greiðslumáta í Commerce Headquarters.](./media/ecommerce-paymenttendertypes.png)
@@ -104,7 +104,7 @@ Ef bæði Adyen og PayPal greiðslutengarnir verða notaðir fyrir síðuna þí
 
 1. Í eiginleikarúðunni fyrir Adyen greiðslueininguna skaltu fylgja þessum skrefum:
 
-    1. Farðu af velli fyrir **Stuðlar útboðsgerðir** eign auð.
+    1. Farið af velli fyrir **Stuðlar útboðsgerðir** eign auð.
     1. Veldu gátreitinn fyrir **Er frumgreiðsla** eign.
     1. Veldu gátreitinn fyrir **Notaðu auðkenni tengis** eign.
 

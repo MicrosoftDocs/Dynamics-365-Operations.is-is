@@ -1,6 +1,6 @@
 ---
 title: Bókunarreglur viðskiptavina
-description: Þetta efnisatriði lýsir bókunarsniðum viðskiptavina, sem stjórna bókun viðskiptavinafærslur í fjárhag.
+description: Þessi grein lýsir bókunarsniðum viðskiptavina, sem stjórna bókun viðskiptavinafærslur í fjárhag.
 author: JodiChristiansen
 ms.date: 12/22/2021
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ed5ab24e37c75222080bd242aa72a39ecb476bf
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d0563040590eefab57706b183281c47a82e46076
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734633"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891696"
 ---
 # <a name="customer-posting-profiles"></a>Bókunarreglur viðskiptavina
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir bókunarsniðum viðskiptavina, sem stjórna bókun viðskiptavinafærslur í fjárhag.
+Þessi grein lýsir bókunarsniðum viðskiptavina, sem stjórna bókun viðskiptavinafærslur í fjárhag.
 
 ## <a name="customer-posting-profiles"></a>Bókunarreglur viðskiptavina
 
 Bókunarsnið viðskiptavina gerir þér kleift að úthluta aðalbókareikningum og skjalastillingum til allra viðskiptavina, hóps viðskiptavina eða eins viðskiptamanns. Þessar stillingar verða notaðar þegar þú býrð til sölupöntunarreikninga, frítextareikninga, verkreikninga, greiðslubækur, innheimtubréf og vaxtanótur. 
 
-Sjálfgefið póstsnið er skilgreint á **Fjárhagsbók og söluskattur** flipi á **Færibreytur viðskiptakrafna** síðu. Það er síðan sjálfkrafa innifalið í haus nýrra skjala. Þú getur breytt því þar ef annað færslusnið er krafist. 
+Sjálfgefið póstsnið er skilgreint á **Fjárhagsbók og söluskattur** flipi á **Færibreytur viðskiptakrafna** síðu. Það er síðan sjálfkrafa innifalið í haus nýrra skjala. Þú getur breytt því þar ef annað póstsnið er krafist. 
 
 Fyrirtæki sem samþykkja fyrirframgreiðslur frá viðskiptavinum stilla oft annað bókunarsnið fyrir fyrirframgreiðslur og tengja það í færibreytunum sem sjálfgefið bókunarsnið fyrir fyrirframgreiðslur. Fyrir frekari upplýsingar, sjá [Fyrirframgreiðslur viðskiptavina](customer-prepayments.md).
 
@@ -47,7 +47,7 @@ Tilgreinið fjárhagslyklana sem eru notaðir við bókun færsla sem nota valda
 | Hópur                    | Viðskiptavinarflokkur sem er úthlutað á viðskiptavininn | 2               |
 | Allir                      | Autt                                           | 3               |
 
-Ef þú vilt að allar færslur viðskiptavina séu með sama bókunarprófíl skaltu aðeins setja upp eitt bókunarsnið, hvar **Allt** er fært inn í **Reikningskóði** sviði. Tilgreindu eftirfarandi gildi til að setja upp bókunarregluna.
+Ef þú vilt að allar færslur viðskiptavina hafi sama bókunarsnið skaltu setja upp aðeins eitt bókunarsnið, þar sem **Allt** er fært inn í **Reikningskóði** sviði. Tilgreindu eftirfarandi gildi til að setja upp bókunarregluna.
 
 <table>
 <thead>
@@ -110,14 +110,14 @@ Ef þú vilt að allar færslur viðskiptavina séu með sama bókunarprófíl s
 
 ## <a name="posting-examples"></a>Setja inn dæmi
 
-Eftirfarandi tafla sýnir dæmi um sjálfgefnar bókunargerðir með sýnishorn af aðalreikningum og lýsingum. The **Debet/kredit** dálkurinn gefur til kynna hvort færslan er venjulega debet eða inneign eða getur í sumum tilfellum bókað annað hvort. The **Hreinsunarreikningur** dálkurinn gefur til kynna að bókunartegundin sé jöfnunarreikningur. Þetta þýðir að upphæðin sem er bókuð á þessum reikningi er sjálfkrafa bakfærð þegar síðari færsla er bókuð. 
+Eftirfarandi tafla sýnir dæmi um sjálfgefnar bókunargerðir með sýnishorn af aðalreikningum og lýsingum. The **Debet/kredit** dálkurinn gefur til kynna hvort færslan er venjulega debet eða kredit eða í sumum tilfellum getur bókað annað hvort. The **Hreinsunarreikningur** dálkurinn gefur til kynna að bókunartegundin sé jöfnunarreikningur. Þetta þýðir að upphæðin sem er bókuð á þessum reikningi er sjálfkrafa bakfærð þegar síðari færsla er bókuð. 
 
 | Bókunargerð | Dæmi um aðalreikning | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit | Millireikningur | Lýsing |
 |--------------|----------------------|---------------------------|--------------|--------------|------------------|-------------|
 | Staða viðskiptavinar | 130100 | Viðskiptakröfur | Eign | Bæði | Nr. | Tilgreindu reikninginn í **Yfirlitsreikningur** sviði.|
 | Ekkert | 110110 | Bankareikningur | Eign | Bæði | Nr. | Tilgreindu aðalreikninginn í **Lausafjárreikningur fyrir greiðslur** sviði. Þessi reikningur er ekki notaður til að birta. Það er aðeins notað til að spá fyrir um sjóðstreymi. |
-| Fyrirframgreiðslur virðisauka | 202900 | Afgreiðsla söluskatts | Skuld | Bæði | Já | Færið inn lykil fyrir virðisaukaskatt fyrir fyrirframgreiðslur. |
-| Skuldbindingar vegna afsláttarlykils | 250600 | Frestað tekjur og afslættir | Skuld | Bæði | Já | Veljið fjárhagsreikning fyrir skuldir afslætti.|     
+| Fyrirframgreiðslur virðisauka | 202900 | Afgreiðsla söluskatts | Bótaábyrgð | Bæði | Já | Færið inn lykil fyrir virðisaukaskatt fyrir fyrirframgreiðslur. |
+| Skuldbindingar vegna afsláttarlykils | 250600 | Frestað tekjur og afslættir | Bótaábyrgð | Bæði | Já | Veljið fjárhagsreikning fyrir skuldir afslætti.|     
 
 ### <a name="table-restrictions"></a>Töflutakmarkanir
 

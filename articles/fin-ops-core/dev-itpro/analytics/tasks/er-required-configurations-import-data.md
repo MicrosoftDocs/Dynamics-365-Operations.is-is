@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð Stofna nauðsynlegt grunnstillingar til að flytja inn gögn úr ytri skrá
-description: Í þessu efnisatriði er útskýrt hvernig á að hanna skilgreiningar rafrænnar skýrslugerðar til að flytja gögn inn í Microsoft Dynamics 365 Finance-forritið úr ytri skrá.
+description: Þessi grein lýsir því hvernig á að hanna rafrænar skýrslustillingar til að flytja gögn inn í Microsoft Dynamics 365 Finance app frá ytri skrá.
 author: NickSelin
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7eaa35baae8e030d8a8b7ce903554c4876c874b48cfd72d6ac278cf4c0e8a6e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa1dc55e8cdee7d61e5ababe92e8a9234788664f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720857"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865894"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>Rafræn skýrslugerð Stofna nauðsynlegt grunnstillingar til að flytja inn gögn úr ytri skrá
 
@@ -241,7 +241,7 @@ Framkvæmið þessar vörpun sniðs til prófunar. Notið skrána 1099entries.xm
 19. Lokið síðunni.
 20. Smella á Breyta.
 
-    Ef bráðabótin „KB 4012871 Stuðningur fyrir GER líkanavörpun í aðskildum grunnstillingum með getu til að tilgreina ólíkar gerðir af frumskilyrðum til að nota þær á ólíkar gerðir af Dynamics 365 Finance„ ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), skal framkvæma næsta skref „Kveikja á flagginu „Sjálfgefið fyrir líkanavörpun““ fyrir grunnstillingu sniðs sem slegin inn. Annars skal sleppa næsta skrefi.  
+    Ef þú settir upp flýtileiðréttinguna „KB 4012871 Stuðningur við GER líkanakortanir í aðskildum stillingum með hæfileika til að tilgreina mismunandi tegundir af forsendum til að dreifa þeim á mismunandi útgáfum af Dynamics 365 Finance“ ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), keyrðu næsta skref „Kveiktu á fánanum „Sjálfgefið fyrir líkanavörpun“ fyrir innsláttar sniðstillingar. Annars skal sleppa næsta skrefi.  
 
 21. Veljið Já í reitnum „Sjálfgefið fyrir líkanavörpun“.
 22. Í tré skal velja '1099 Greiðslulíkan'.

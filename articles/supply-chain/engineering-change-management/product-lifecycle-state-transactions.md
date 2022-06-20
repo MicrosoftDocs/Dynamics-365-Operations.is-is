@@ -1,6 +1,6 @@
 ---
 title: Líftímastöður afurðar og færslur
-description: Þetta efnisatriði útskýrir hvernig skal stjórna hvaða færslur eru leyfðar fyrir hverja líftímastöðu sem hönnunarafurð fer í gegnum á líftíma hennar.
+description: Þessi grein útskýrir hvernig þú getur stjórnað hvaða færslur eru leyfðar fyrir hvert líftímaástand þar sem verkfræðivara fer í gegnum líftíma sinn.
 author: t-benebo
 ms.date: 02/17/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
-ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
+ms.openlocfilehash: dd9155f799c66e8297b93d8ffbeeced1acd14220
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322745"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867957"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Líftímastöður afurðar og færslur
 
@@ -37,7 +37,7 @@ Til að vinna með líftímastöðu afurðar er farið í **Umsjón hönnunarbre
 - Til að eyða fyrirliggjandi líftímastöðu skal velja hana á aðgerðasvæðinu og velja svo **Eyða** á aðgerðasvæðinu.
 
 > [!NOTE]
-> Hönnunarafurðir nota sömu líftímastöður og staðlaðar afurðir (ekki hönnunarafurðir). Einnig er hægt að opna **Líftímastaða afurðar** sem er lýst í þessu efnisatriði með því að opna **Afurðaupplýsingastjórnun \> Uppsetning \> Líftímastaða afurðar**. Frekari upplýsingar um líftímastöður afurðar, bæði fyrir hönnunarafurðir og staðlaðar afurðir, er að finna í [Yfirliti líftímastöðu afurðar](../pim/product-lifecycle.md).
+> Hönnunarafurðir nota sömu líftímastöður og staðlaðar afurðir (ekki hönnunarafurðir). Þú getur líka opnað **Lífferilsástand vöru** síðu sem lýst er í þessari grein með því að fara á **Vöruupplýsingastjórnun \> Uppsetning \> Lífferilsástand vöru**. Frekari upplýsingar um líftímastöður afurðar, bæði fyrir hönnunarafurðir og staðlaðar afurðir, er að finna í [Yfirliti líftímastöðu afurðar](../pim/product-lifecycle.md).
 
 ### <a name="header"></a>Haus
 

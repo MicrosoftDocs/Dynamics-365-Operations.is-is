@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 9a0a9a3f23a3aec0077fd1a64c55fea567b72800
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: fa7a519b87bd5933b8b672f9f9b3e230fd7f2eb4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722493"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896406"
 ---
 # <a name="one-voucher"></a>Eitt fylgiskjal
 
@@ -37,7 +37,7 @@ Núverandi virkni fyrir fjárhagsbækur (almenna færslubók, eignabók, greiðs
     [![Stök lína.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
-    > Skilgreiningu á Einu fylgiskjali nær **ekki** yfir tilvik þar sem færslubókarheiti eru sett upp eins og **Eitt fylgiskjalsnúmer eingöngu**, en notandinn færir þá inn fylgiskjal sem inniheldur aðeins fjárhagslyklagerðir. Í þessu efnisatriði þýðir Eitt fylgiskjal að það sé Eitt fylgiskjal sem inniheldur fleiri en einn seljanda, viðskiptavin, banka, eign eða verk.
+    > Skilgreiningu á Einu fylgiskjali nær **ekki** yfir tilvik þar sem færslubókarheiti eru sett upp eins og **Eitt fylgiskjalsnúmer eingöngu**, en notandinn færir þá inn fylgiskjal sem inniheldur aðeins fjárhagslyklagerðir. Í þessari grein þýðir eitt fylgiskjal að það er eitt fylgiskjal sem inniheldur fleiri en einn lánardrottinn, viðskiptavin, banka, fastafjármuni eða verkefni.
 
 - Sláið inn marglínu fylgiskjal þar sem enginn mótlykill er.
 
@@ -63,16 +63,16 @@ Til dæmis þegar eftirfarandi marglínu fylgiskjal er bókað.
 
 Vegna vandamála sem geta komið upp þegar eitt fylgiskjal er notað, verður þessi virkni úreld að lokum. En hins vegar eru virknigloppur sem reiða sig á þessa virkni og úreldingin gerist því ekki öll í einu. Þess í stað verður eftirfarandi áætlun notuð:
 
-- **Vorútgáfa 2018** - Sjálfgefið var slökkt á virkninni í gegnum færibreytuna **Leyfa margar færslur í einu fylgiskjali** færibreytunni í flipanum **Almennt** á síðunni **Færibreytur fjárhags**. Hins vegar geturðu kveikt aftur á því ef fyrirtækið hefur atburðarás sem heyrir undir viðskiptagloppur sem eru skráðar seinna í þessu efnisatriði.
+- **Vorútgáfa 2018** - Sjálfgefið var slökkt á virkninni í gegnum færibreytuna **Leyfa margar færslur í einu fylgiskjali** færibreytunni í flipanum **Almennt** á síðunni **Færibreytur fjárhags**. Hins vegar geturðu kveikt á því aftur ef fyrirtæki þitt er með atburðarás sem fellur í eitt af virknibilunum sem eru taldar upp síðar í þessari grein.
 
-    - Ef viðskiptaaðstæðurnar krefjast ekki eins fylgiskjals er mælt með því að slökkt sé á virkninni. Ef hún er notuð jafnvel þótt önnur lausn sé til staðar, mun Microsoft ekki laga „villur“ á svæðum sem ekki er minnst á í þessu efnisatriði.
+    - Ef viðskiptaaðstæðurnar krefjast ekki eins fylgiskjals er mælt með því að slökkt sé á virkninni. Ef þú notar það jafnvel þó að önnur lausn sé til, mun Microsoft ekki laga „galla“ á þeim svæðum sem eru auðkennd síðar í þessari grein.
     - Mælt er með því að hætta að nota eitt fylgiskjal fyrir samþættingar nema virknin sé nauðsynleg fyrir eina eða fleiri skráðar virknigloppur.
 
 - **Síðari útgáfur** – Nokkrar viðskiptakröfur er aðeins hægt að uppfylla með því að nota eitt fylgiskjal. Microsoft verður að tryggja að enn verði hægt að uppfylla allar skilgreindar viðskiptakröfur í kerfinu eftir að virknin er gerð úreld. Þess vegna þarf líklega að bæta við nýjum eiginleikum til að fylla í virknigloppur. Microsoft getur ekki boðið upp á eina sérstaka lausn vegna þess að hver eiginleikagloppa er mismunandi og verður að meta hana út frá viðskiptakröfunum. Einhverjum virknigloppum verður líklega skipt út fyrir eiginleika sem hjálpa til við að mæta tilteknum viðskiptakröfum. Hins vegar gæti verið fyllt í aðrar gloppur með því að leyfa áfram færslu í færslubók, eins og eitt fylgiskjal er notað, en að rakning kerfisins á upplýsingum verði bætt eftir þörfum.
 
 Þegar fyllt hefur verið í allar virknigloppur mun Microsoft láta vita að eiginleikinn verði gerður úreldur. Hins vegar tekur úreldingin ekki gildi fyrr en a.m.k. einu ári eftir samskiptin. Þrátt fyrir að Microsoft geti ekki lagt fram mat þegar virkni eins fylgiskjals verður gerð úreld, þá mun það líklega taka að minnsta kosti tvö ár áður en úreldingin mun eiga sér stað. Stefna Microsoft er að láta líða a.m.k. 12 mánuði frá tilkynningu um úreldingu á virkni og þar til sjálf úreldingin á sér stað þannig að viðskiptavinir og óháðir hugbúnaðarsalar hafi tíma til að bregðast við breytingunni. Til dæmis gæti fyrirtæki þurft að uppfæra viðskiptaferli sína, einingar og samþættingar.
 
-Úrelding eins fylgiskjals er umtalsverð breyting sem verður tilkynnt víðsvegar. Sem hluti af þeim samskiptum mun Microsoft uppfæra þetta efni, birta bloggfærslu um Microsoft Dynamics 365 Finance blogg, uppfærðu efnisefnið „Fjarlægðir eða úreltir eiginleikar“, tilkynntu breytinguna á viðeigandi Microsoft ráðstefnum og svo framvegis.
+Úrelding eins fylgiskjals er umtalsverð breyting sem verður tilkynnt víðsvegar. Sem hluti af þeim samskiptum mun Microsoft uppfæra þessa grein, birta bloggfærslu um Microsoft Dynamics 365 Finance blogg, uppfærðu greinina „Fjarlægðir eða úreltir eiginleikar“, tilkynntu breytinguna á viðeigandi Microsoft ráðstefnum og svo framvegis.
 
 ## <a name="why-use-one-voucher"></a>Af hverju að nota Eitt fylgiskjal?
 

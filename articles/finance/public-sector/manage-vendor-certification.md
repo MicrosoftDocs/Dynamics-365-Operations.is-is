@@ -1,6 +1,6 @@
 ---
 title: Vinna með lánardrottnavottorð
-description: Þetta efnisatriði lýsir þeim skrefum sem lánardrottnar geta notað til að viðhalda vottunum sínum með samvinnusvæði lánardrottins.
+description: Þessi grein lýsir skrefunum sem lánardrottnar geta notað til að viðhalda vottunum sínum með því að nota vinnusvæði lánardrottins samvinnu.
 author: v-kiarnd
 ms.date: 04/27/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b1b2cdd4389afd8997b60fe8e7a9b6851cbde199
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 37990292748c363f44d306bda0263dd117808eb1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735696"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891438"
 ---
 # <a name="maintain-vendor-certification"></a>Vinna með lánardrottnavottorð
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir þeim skrefum sem lánardrottnar geta notað til að viðhalda vottunum sínum með **Samvinnusvæði lánardrottins**. Dæmi um vottanir gæti verið Woman Business Enterprise (WBE) eða Leadership in Energy and Environment Design (LEED) fyrirtæki. Lánardrottnar þurfa að fylla út upplýsingar um vottorð í vinnusvæðið **Lánardrottnaupplýsingar**. Þaðan velja lánardrottnar **Frekari upplýsingar** og velja svo **Vottanir**.
+Þessi grein lýsir skrefunum sem söluaðilar þínir geta notað til að viðhalda vottunum sínum með því að nota **Vinnusvæði söluaðila samvinnu**. Dæmi um vottanir gæti verið Woman Business Enterprise (WBE) eða Leadership in Energy and Environment Design (LEED) fyrirtæki. Lánardrottnar þurfa að fylla út upplýsingar um vottorð í vinnusvæðið **Lánardrottnaupplýsingar**. Þaðan velja lánardrottnar **Frekari upplýsingar** og velja svo **Vottanir**.
 
 ## <a name="turn-on-the-vendor-certification-feature"></a>Kveiktu á vottunareiginleika lánardrottins
 

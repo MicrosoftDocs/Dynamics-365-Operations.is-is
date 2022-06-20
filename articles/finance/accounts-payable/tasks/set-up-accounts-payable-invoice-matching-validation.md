@@ -1,6 +1,6 @@
 ---
-title: Setja upp sannprófun á Reikningsjöfnun viðskiptaskulda
-description: Þetta umræðuefni veitir upplýsingar um hvernig á að setja upp staðfestingu á reikningsjöfnun viðskiptaskulda.
+title: Setja upp villuleit fyrir reikningsjöfnun viðskiptaskulda
+description: Þessi grein veitir upplýsingar um hvernig á að setja upp samsvörun reikninga viðskiptaskulda.
 author: abruer
 ms.date: 02/14/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86cc5cf688e3b66cf976fc7f507bd8f8df757612
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182556"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904960"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Setja upp sannprófun á Reikningsjöfnun viðskiptaskulda
 
@@ -44,7 +44,7 @@ Fjórar mismunandi gerðir staðfestingar á samsvörun eru tiltækar.
 5. Veldu eða hreinsaðu gátreitinn **Jafna samtölur reiknings** til að jafna raunverulegra samtölur reiknings með áætlaðar samtölur.
     * Veldu hvort tákn birtist ef ósamræmi í reikningsjöfnun fer yfir vikmörk. Þú getur valið að birta táknið þegar jákvætt misræmi fer yfir vikmörk, eða þegar annað hvort jákvætt eða neikvætt misræmi fer yfir vikmörk.  
     * Til dæmis vikmörkin er 5 prósent og heildarreikningsupphæð innkaupapöntunar er 100,00. Þess vegna jöfnunartákn verð birtist ef upp á 105,00 er hærri en upphæð heildarupphæð reiknings á reikningnum. Ef valið er **Ef meira en eða minna en vikmörk** birtist táknið einnig ef reikningsupphæð er lægra en 95,00.  
-6. Í reitnum **Vikmarkaprósenta fyrir samtölur reiknings** skaltu slá inn þau hlutfallsfrávik sem eru viðunandi. Þetta gildi er sjálfgefið gildi fyrirtækisins. Þessu gildi er hægt að hnekkja fyrir tiltekna lánardrottna með því að nota síðuna **Vikmörk samtalna reiknings**. Til að fá upplýsingar um hvernig á að hnekkja vikmörkum samtalna reiknings fyrir heildarvikmarkaprósentan fyrir tiltekinn lánardrottinn skaltu sjá hlutann „Setja upp vikmörk samtalna reiknings fyrir lánardrottna“ seinna í þessu efni.
+6. Í reitnum **Vikmarkaprósenta fyrir samtölur reiknings** skaltu slá inn þau hlutfallsfrávik sem eru viðunandi. Þetta gildi er sjálfgefið gildi fyrirtækisins. Þessu gildi er hægt að hnekkja fyrir tiltekna lánardrottna með því að nota síðuna **Vikmörk samtalna reiknings**. Fyrir upplýsingar um hvernig á að hnekkja vikmörkum reikningsheilda fyrir tiltekinn lánardrottinn, sjá hlutann "Setja upp reikningssamtölur sem passa við vikmörk fyrir lánardrottna" síðar í þessari grein.
 7. Stilltu **Samsvörun verðs og magns**.
 8. Í reitnum **Línujöfnunarregla** skal velja gildi sem nota á sem sjálfgefna reglu fyrir lögaðilann sem unnið er með. **Ekki áskilið** þýðir að það er engin þörf á sannprófun fyrir einstaka verð reikningslínu við verð innkaupapöntunar eða magn reiknings við magn á fylgiseðlum. **Tvíhliða Jöfnun** þýðir að sannprófun reikningslína er áskilin en aðeins í innkaupapöntun og reikningsskjöl birgis eru höfð með í sannprófun. Innhreyfingarskjal afurða er ekki þáttur í samsvarandi villuleit. **Þríhliða Jöfnun** þýðir að nettó einingarverð reiknings verður borið saman við nettó einingaverð í innkaupapöntun og á samsvarandi magn á innhreyfingarskjali afurða verður borið saman við magn á reikningi.
 9. Til að leyfa að mismunandi stig samsvörunar séu fyrir samsetninguna vöru, lánardrottinn, lánardrottinn og vöru eða innkaupapöntunarlínu, skaltu velja gildi í reitnum **Leyfa hnekkingu jöfnunarreglu**. Hægt er að hnekkja lögaðila línujöfnunarreglu fyrir tiltekinn lánardrottin, vöru eða lánardrottins og vörusamsetninguna á síðunni **Jöfnunarregla**.

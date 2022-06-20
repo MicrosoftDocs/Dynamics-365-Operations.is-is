@@ -1,6 +1,6 @@
 ---
 title: Nýjungar eða breytingar í Dynamics 365 Human Resources 22. október 2020
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 22. október 2020.
+description: Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Human Resources fyrir 22. október 2020.
 author: jcart1106
 ms.date: 10/22/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b36354b14faf59aacb4a619dfb6f243335e6a297
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: d58c8d5eab86779a764cee5a3ee8ca17ade471de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063519"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862802"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources 22. október 2020
 
@@ -27,7 +27,7 @@ ms.locfileid: "8063519"
 
 
 
-Í þessu efnisatriði er lýst nýjum, breyttum eða væntanlegum eiginleikum í Dynamics 365 Human Resources. Frekari upplýsingar um uppfærsluferlið okkar og áætlun er að finna í [Uppfærsluferli](hr-admin-setup-update-process.md).
+Þessi grein lýsir eiginleikum sem eru nýir, breyttir eða koma fljótlega í Dynamics 365 Human Resources. Frekari upplýsingar um uppfærsluferlið okkar og áætlun er að finna í [Uppfærsluferli](hr-admin-setup-update-process.md).
 
 Frekari upplýsingar um nýja eiginleika og hvenær þeir verða aðgengilegir almenningi er að finna í [Yfirlit yfir Dynamics 365 Human Resources Losunarbylgju 2 2020](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -50,9 +50,9 @@ Eftirfarandi eiginleikar eru almennt aðgengilegur með þessari útgáfu.
 Eftirfarandi villuleiðréttingar eru innifaldar í þessari útgáfu.
 
 > [!NOTE]
-> Markmiðið okkar er að koma þessum upplýsingum til þín eins fljótt og auðið er. Við gætum uppfært þetta efnisatriði til að hafa með leiðréttingar á villum sem slæddust með smíðinni eftir að þetta efnisatriði var gefið út upphaflega.
+> Markmiðið okkar er að koma þessum upplýsingum til þín eins fljótt og auðið er. Við gætum uppfært þessa grein til að innihalda villuleiðréttingar sem komu inn í bygginguna eftir að þessi grein var upphaflega birt.
 
-| Númer úthreyfingar| Úthreyfing  | lýsing|
+| Númer úthreyfingar| Gefa út  | Lýsing|
 | --- | --- | --- |
 | 437922 | Innflutningur FMLA-stunda með niðurstöður DMF-eininga í skrifvarðri villu. | Notkun einingar FMLA-stunda til að flytja inn klukkustundir sem tengjast FMLA-málum mistókst. Við bættum við reiknireglu til að tryggja að innfluttar stundir fari ekki yfir stundirnar sem eftir eru fyrir málið. |
 | 512019 | Röng upphæð fyrir **Síðustu yfirfærslu**. | Á síðunni **Frí** leiddi breyting á **Frá og með dagsetningunni** til þess að fyrsti dagur næsta fjárhagstímabils sýndi ranga upphæð fyrir **Síðustu yfirfærslu** fyrir gerðina **Árlegt leyfi**. Nú er rétta upphæðin sýnd. |

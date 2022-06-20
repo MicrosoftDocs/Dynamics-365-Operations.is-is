@@ -1,6 +1,6 @@
 ---
 title: Stjórna nokkrum afleiddum vörpunum fyrir eina rót líkans
-description: Þetta efnisatriði útskýrir hvernig á að stjórna nokkrum afleiddum vörpunum sem voru skilgreindar fyrir eina rót líkans.
+description: Þessi grein útskýrir hvernig á að stjórna nokkrum afleiddum vörpum sem voru stilltar fyrir einni líkanrót.
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,28 +13,28 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324113"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892480"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Stjórna nokkrum afleiddum vörpunum fyrir eina rót líkans
 
 [!include [banner](../includes/banner.md)]
 
-An [Rafræn skýrsla (ER)](general-electronic-reporting.md) gagnamódelhluti er notaður í öllum stilltum ER-sniðshlutum sem gagnagjafi til að búa til skjöl á útleið. Til að lýsa einu viðskiptaléni skal skilgreina gagnalíkanshlut sem er með margar rótarskilgreiningar. 
+An [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) gagnalíkanhluti er notaður í öllum stilltum ER-sniðshlutum sem gagnagjafi til að búa til skjöl á útleið. Til að lýsa einu viðskiptaléni skal skilgreina gagnalíkanshlut sem er með margar rótarskilgreiningar. 
 
-Allar rótarskilgreiningar gera notanda kleift að tákna gögn í þessu léni sem hentar best tilteknum markmiðum skýrslugerðar. Fyrir hverja rótarskilgreiningu geturðu stillt ER líkanakortlagningarhluta sem Microsoft Dynamics 365 Finance -sérstök útfærsla á gagnalíkaninu þínu. Á þennan hátt er lýst hvernig gagnalíkanið verður fyllt út við keyrslu.
+Allar rótarskilgreiningar gera notanda kleift að tákna gögn í þessu léni sem hentar best tilteknum markmiðum skýrslugerðar. Fyrir hverja rótarskilgreiningu geturðu stillt ER líkanakortlagningarhluta sem Microsoft Dynamics 365 Fjármál-sértæk útfærsla á gagnalíkaninu þínu. Á þennan hátt er lýst hvernig gagnalíkanið verður fyllt út við keyrslu.
 
 Gagnalíkanshlutar rafrænnar skýrslugerðar geta verið í [skilgreiningum](general-electronic-reporting.md#Configuration) gagnalíkans rafrænnar skýrslugerðar og skilgreiningum gagnavörpunar rafrænnar skýrslugerðar. Ein skilgreining rafrænnar skýrslugerðar getur innihaldið vörpunarhluta sem hver fyrir sig er skilgreindur fyrir eina rótarskilgreiningu. Að öðrum kosti getur ein skilgreining rafrænnar skýrslugerðar innihaldið aðeins einn vörpunarhluta sem er skilgreindur fyrir eina rótarskilgreiningu.
 
 Margar skilgreiningarveitur bjóða mögulega upp á skilgreiningar líkanavörpunar rafrænnar skýrslugerðar fyrir sama gagnalíkan rafrænnar skýrslugerðar. Þessar skilgreiningar líkanavörpunar gætu innihaldið vörpunarhluta fyrir mismunandi rótarskilgreiningar. Hugsanlega er hægt að nota líkanavörpun fyrir eina rótarskilgreiningu sem er ein [veita](general-electronic-reporting.md#Provider) býður upp á og nota líkanavörpun fyrir aðra rótarskilgreiningu sem önnur veita býður upp á.
 
-Ferlin í þessu efnisatriði útskýra hvernig á að stjórna mörgum skilgreiningum líkanavörpunar rafrænnar skýrslugerðar fyrir gagnalíkan rafrænnar skýrslugerðar þegar þær innihalda mismunandi þætti líkanavörpunar fyrir sömu rótarskilgreininguna. 
+Aðferðirnar í þessari grein útskýra hvernig á að stjórna mörgum ER líkanavörpunarstillingum ER gagnalíkans þegar þær innihalda mismunandi líkanavörpunaríhluti sem eru stilltir fyrir sömu rótarskilgreiningu. 
 
-Til að ljúka ferlinu í þessu efnisatriði þarf notanda að vera úthlutað hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslugerðar.
+Til að ljúka verklagsreglunum í þessari grein verður þú að vera úthlutað í hlutverk kerfisstjóra eða þróunaraðila rafrænna skýrslugerðar.
 
 Öll eftirfarandi ferli er hægt að vinna í USMF fyrirtækinu. Ekki er þörf á neinni kóðun.
 

@@ -1,6 +1,6 @@
 ---
 title: Yfirlit fjárhagsáætlunargerðar
-description: Þetta efni lýsir gerð fjárhagsáætlunar. Það inniheldur upplýsingar sem geta hjálpað við að skilgreina fjárhagsáætlunargerð og setja upp ferli fjárhagsáætlunargerðar.
+description: Þessi grein lýsir fjárhagsáætlun. Það inniheldur upplýsingar sem geta hjálpað við að skilgreina fjárhagsáætlunargerð og setja upp ferli fjárhagsáætlunargerðar.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d69d3d1620616bd7a136645d6f28f638e8bcf199
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 1f1ecf830953362636c8b0369586d8b76499ebb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711744"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853555"
 ---
 # <a name="budget-planning-overview"></a>Yfirlit fjárhagsáætlunargerðar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni lýsir gerð fjárhagsáætlunar. Það inniheldur upplýsingar sem geta hjálpað við að skilgreina fjárhagsáætlunargerð og setja upp ferli fjárhagsáætlunargerðar.
+Þessi grein lýsir fjárhagsáætlun. Það inniheldur upplýsingar sem geta hjálpað við að skilgreina fjárhagsáætlunargerð og setja upp ferli fjárhagsáætlunargerðar.
 
 ## <a name="overview-of-budget-planning"></a>Yfirlit fjárhagsáætlunargerðar
 
@@ -91,7 +91,7 @@ Verkflæði fjárhagsáætlunargerðar samanstendur af röð stiga sem fjárhags
 
 Þú stofnar verkflæði fjárhagsáætlunargerðar í hlutanum **verkflæðisstig** á síðunni **Skilgreining fjárhagsáætlunargerðar**. Þar er hægt að velja stig og verkflæði fjárhagsáætlunar sem verður notuð og skilgreina viðbótarstillingar.
 
-Góð regla er að stofna verkflæði fjárhagsáætlunargerðar fyrir hvert stig í stigveldi fjárhagsáætlunar. Síðan úthlutarðu verkflæði fjárhagsáætlunar sem inniheldur einingar sem samsvara stig í verkflæði fjárhagsáætlunargerðar. Í dæmaskemað sem birtist fyrr í þessu efni verður eitt verkflæði fjárhagsáætlunargerðar stofnað fyrir söludeildirnar og annað verður stofnað fyrir höfuðstöðvarnar. Verkflæði fjárhagsáætlunar flytur fjárhagsáætlunargerðir gegnum stig.
+Góð regla er að stofna verkflæði fjárhagsáætlunargerðar fyrir hvert stig í stigveldi fjárhagsáætlunar. Síðan úthlutarðu verkflæði fjárhagsáætlunar sem inniheldur einingar sem samsvara stig í verkflæði fjárhagsáætlunargerðar. Í sýnishorninu sem birtist fyrr í þessari grein verður eitt verkflæði fjárhagsáætlunargerðar stofnað fyrir söludeildirnar og annað stofnað fyrir höfuðstöðvarnar. Verkflæði fjárhagsáætlunar flytur fjárhagsáætlunargerðir gegnum stig.
 
 Þú stofnar verkflæði fjárhagsáætlunar fyrir fjárhagsáætlunargerð á síðunni **Verkflæði fjárhagsáætlunargerðar**. Ferlinu svipar til ferlis til að stofna önnur verkflæði. Eftirfarandi skýringarmynd sýnir dæmi um verkflæði fyrir höfuðstöðvarnar.
 
@@ -141,7 +141,7 @@ Stigsúthlutanir eru notaðar til að úthluta sjálfkrafa línum fjárhagsáæt
 
 Þegar sett er upp stig úthlutunar tengirðu verkflæði fjárhagsáætlunargerðar og stig við áætlun úthlutunar. Verkflæði fjárhagsáætlunargerðar verður að vera tengt verkflæði fjárhagsáætlunar sem notar sjálfvirka verkflæðið **Stigsúthlutun fjárhagsáætlunargerðar**. Þegar verkflæði nær tilgreindu stigi, á úthlutun sér sjálfkrafa stað. Hægt er að nota þessa sjálfvirku verki til að stofna línur fjárhagsáætlunargerðar í nýjar aðstæður.
 
-Í dæmaskemað sem birtist fyrr í þessu efni, er úthlutun gerð til að flytja upphæðir úr fjárhagsáætlun og aðstæðum á stiginu „Grunnlína” fyrir höfuðstöðvar í aðra fjárhagsáætlun og aðstæður á stiginu „Mat” fyrir söludeildirnar. Eftirfarandi skýringarmynd sýnir viðeigandi hluta dæmaskema.
+Í sýnidæminu sem birtist fyrr í þessari grein er úthlutun gerð til að flytja upphæðir úr fjárhagsáætlun og sviðsmyndum á „Baseline“-stigi fyrir höfuðstöðvar yfir í aðra fjárhagsáætlunaráætlun og sviðsmyndir í „Áætlun“-stigi fyrir Söludeildirnar. Eftirfarandi skýringarmynd sýnir viðeigandi hluta dæmaskema.
 
 [![Vöruúthlutun.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 

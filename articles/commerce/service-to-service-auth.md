@@ -1,6 +1,6 @@
 ---
-title: Stilla þjónustu-til-þjónustu auðkenningu
-description: Þetta efnisatriði lýsir því hvernig á að stilla þjónustu-til-þjónustu auðkenningu í Microsoft Dynamics 365 Commerce til að hringja á öruggan hátt í þjónustu API fyrir einkunnir og umsagnir.
+title: Stilla sannvottun milli þjónusta
+description: Þessi grein lýsir því hvernig á að stilla þjónustu-til-þjónustu auðkenningu í Microsoft Dynamics 365 Commerce til að hringja á öruggan hátt í þjónustu API fyrir einkunnir og umsagnir.
 author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: da780de5f15d72bdac85a261eae809125c830260
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: acb3a6220d146d32bbeb5bd8169033bc897ec3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871608"
 ---
-# <a name="configure-service-to-service-authentication"></a>Stilla þjónustu-til-þjónustu auðkenningu
+# <a name="configure-service-to-service-authentication"></a>Stilla sannvottun milli þjónusta
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að stilla þjónustu-til-þjónustu (S2S) auðkenningu í Microsoft Dynamics 365 Commerce til að hringja á öruggan hátt í þjónustuviðmótsforritunarviðmóti (API) fyrir einkunnir og umsagnir.
+Þessi grein lýsir því hvernig á að stilla þjónustu-til-þjónustu (S2S) auðkenningu í Microsoft Dynamics 365 Commerce til að hringja á öruggan hátt í þjónustuviðmótsforritunarviðmóti (API) fyrir einkunnir og umsagnir.
 
-Dynamics 365 Commerce tilboð [einkunnir og umsagnir](ratings-reviews-overview.md) sem alhliða lausn. Þessi lausn gerir aðgang að þjónustu API utan Commerce, þannig að hægt er að framkvæma ýmis verkefni. Þessi verkefni fela í sér að flytja inn einkunnir og umsagnir úr ytra kerfinu þínu í Commerce og flytja út einkunnir og umsagnir frá Commerce. Til að gera Commerce kleift að hringja í einkunnir og skoða þjónustuforritaskil á öruggan hátt, verður þú fyrst að stilla S2S auðkenningu með því að klára ferlið í þessu efni.
+Dynamics 365 Commerce tilboð [einkunnir og umsagnir](ratings-reviews-overview.md) sem alhliða lausn. Þessi lausn gerir aðgang að þjónustu API utan Commerce, þannig að hægt er að framkvæma ýmis verkefni. Þessi verkefni fela í sér að flytja inn einkunnir og umsagnir úr ytra kerfinu þínu í Commerce og flytja út einkunnir og umsagnir frá Commerce. Til að gera Commerce kleift að hringja á öruggan hátt í einkunnagjöf og umsagnarþjónustu API, verður þú fyrst að stilla S2S auðkenningu með því að ljúka aðferðunum í þessari grein.
 
 ## <a name="add-a-new-app-registration"></a>Bættu við nýrri app skráningu
 
@@ -89,6 +89,6 @@ Fylgdu þessum skrefum til að fjarlægja núverandi forritaskráningu í Commer
 
 [Virkja handvirka birtingu einkunna og umsagna hjá stjórnanda](manual-publish-rating-reviews.md)
 
-[Inn- og útflutnings einkunnir og umsagnir](import-export-reviews.md)
+[Flytja einkunnir og umsagnir inn og út](import-export-reviews.md)
 
 [Algengar spurningar um einkunnir og umsagnir](ratings-reviews-faq.md) 

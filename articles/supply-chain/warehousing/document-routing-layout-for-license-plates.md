@@ -1,6 +1,6 @@
 ---
-title: Uppsetning skjalaleiðar fyrir merkimiða á númeraplötu
-description: Þetta efni lýsir því hvernig nota á sniðsaðferðir til að prenta gildi á merkimiða.
+title: Skipulag skjalaleiðar fyrir númeraplötumerki
+description: Þessi grein lýsir því hvernig á að nota sniðaðferðir til að prenta gildi á merkimiða.
 author: perlynne
 ms.date: 04/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847876"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Uppsetning skjalaleiðar fyrir merkimiða á númeraplötu
 
@@ -53,7 +53,7 @@ Nokkur víðtækt fáanleg verkfæri til merkjamyndunar geta hjálpað þér að
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Kveikja á þessum eiginleika fyrir kerfið
 
-Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessu efnisatriði skal fara í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eiginleikanum *Aukið skipulag á númeraplötumerki*. (Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki nauðsynlegur og ekki hægt að slökkva á honum.)
+Ef kerfið þitt inniheldur ekki þá eiginleika sem lýst er í þessari grein skaltu fara á [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveiktu á *Endurbætt útsetning númeraplötumerkja* eiginleiki. (Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki nauðsynlegur og ekki hægt að slökkva á honum.)
 
 ## <a name="custom-number-formats"></a>Sérsniðin tölusnið
 
@@ -129,7 +129,7 @@ Einhver borg, eitthvað ríki
 $DisplayMethod()$
 ```
 
-Þú getur sameinað þetta snið við aðrar gerðir sem lýst var fyrr í þessu efni. Til dæmis ertu með skjáaðferð sem heitir `DisplayListOfItemsNumbers()` og þú vilt prenta fyrsta vörunúmer þessarar aðferðar. Í þessu tilviki er hægt að nota eftirfarandi kóða.
+Þú getur sameinað þetta snið með öðrum gerðum sem lýst var fyrr í þessari grein. Til dæmis ertu með skjáaðferð sem heitir `DisplayListOfItemsNumbers()` og þú vilt prenta fyrsta vörunúmer þessarar aðferðar. Í þessu tilviki er hægt að nota eftirfarandi kóða.
 
 ```dos
 $DisplayListOfItemsNumbers()[1]$

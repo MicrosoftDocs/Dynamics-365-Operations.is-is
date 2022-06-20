@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2deb20646a532509c9e3a3e7a39f646bced2a3fb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 039b4aa3f044cda29944bcd4f5c42fc35818c58b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868160"
 ---
 # <a name="configure-rates"></a>Grunnstilla taxta
 
@@ -47,7 +47,7 @@ Notaðu taxta til að ákvarða hversu mikið launþegar og vinnuveitendur grei�
    | **Virkt** | Dagsetningin þegar taxtinn tekur gildi. Núverandi kerfisdagsetning er sjálfgildið. Dagsetningin á að vera á eða á undan fríðindatímabilinu. Góð venja er að stilla dagsetninguna á dagsetningu fríðindaáætlunarinnar. |
    | **Lok gildistíma** | Lokadagur hlutfallsins. 12/31/2154 (sem táknar aldrei) er sjálfgildið. |
    | **Nota lög** |  Notaðu þennan reit ef þú ert með rök sem verður að nota til að ákvarða taxta. Ef til dæmis þarf að hækka taxtann samkvæmt aldri skal velja gildi hér. Veldu **Eitt lag** fyrir fríðindahlutfall með einföldu lagi eða **Tvöfalt lag** fyrir fríðindahlutfall með tvöföldu lagi. Dæmi um tvöfalt lag er lag sem byggir á kyni og aldri. Eftir að þú hefur valið gildi velur þú **Aðgerðir** og síðan **Hlutföll lags**. Ef þú ert með fastan taxta sem breytist ekki skal skilja þennan reit eftir auðan. |
-   | **Greiðslutíðni** | Tilgreindu hversu oft á að greiða þjónustuaðila fríðinda taxta iðgjalds. Taxtinn sem er sleginn inn á síðuna sem er útskýrður síðar í þessu efnisatriði mun byggja á greiðslutíðninni sem er tilgreind hér. Ef þú til að mynda færir inn **Mánaðarlega** í þennan reit og færir inn starfsmannantaxta upp á **$100** er ályktað að fríðindin muni kosta starfsmanninn $100 á mánuði. Starfsmaður gæti þó fengið greitt tvisvar sinnum í mánuði samkvæmt greiðslutíðni fríðindanna sem er stillt í starfsmannsfærslunni. Í þessu tilviki, þegar starfsmaðurinn skráir sig inn í **Sjálfsafgreiðslu starfsmanns** mun upphæðin sem hann greiðir vera $50 vegna þess að taxtinn sem **Sjálfsafgreiðsla starfsmanns** sýnir byggir á greiðslutíðni starfsmannsins. |
+   | **Greiðslutíðni** | Tilgreindu hversu oft á að greiða þjónustuaðila fríðinda taxta iðgjalds. Verðin sem þú setur inn á síðunni sem lýst er síðar í þessari grein munu byggjast á greiðslutíðni sem þú tilgreinir hér. Ef þú til að mynda færir inn **Mánaðarlega** í þennan reit og færir inn starfsmannantaxta upp á **$100** er ályktað að fríðindin muni kosta starfsmanninn $100 á mánuði. Starfsmaður gæti þó fengið greitt tvisvar sinnum í mánuði samkvæmt greiðslutíðni fríðindanna sem er stillt í starfsmannsfærslunni. Í þessu tilviki, þegar starfsmaðurinn skráir sig inn í **Sjálfsafgreiðslu starfsmanns** mun upphæðin sem hann greiðir vera $50 vegna þess að taxtinn sem **Sjálfsafgreiðsla starfsmanns** sýnir byggir á greiðslutíðni starfsmannsins. |
    | **Jöfnun greiðslutíðni** | Aðferðirnar við sléttun á hlutfalli eru: staðlað, stytt, venjulegt, niður á við og upp á við. </br></br><ul><li>**Hefðbundið** - Alltaf slétta upp. Til dæmis munu 10,611 slétta í 10,62. -10,231 sléttar að -10,23. </li><li>**Stytt** - Alltaf slétta niður. Til dæmis mun 10,619 slétta í 10,61. -10.231 sléttar í -10.24. </li><li>**Venjulegt** - Gildi aukastafa sem enda á 5 eða hærri tölu sléttast frá núlli. Gildi aukastafa sem enda á 4 eða minna munu sléttast í núll. Til dæmis munu 10,615 slétta í 10,62. -10,235 sléttar í -10,24. 10,614 sléttar í 10,61. -10.234 sléttar í -10.23. </li><li>**Niður á við** - Slétta að núlli. Til dæmis mun 10,619 slétta í 10,61. -10,231 sléttar að -10,23. </li><li>**Upp á við** - Slétta frá núlli. Til dæmis mun 10,619 slétta í 10,62. -10.231 sléttar í -10.24. |
    | **Upphæð starfsmanns fyrir þann sem reykir ekki** | Upphæðin sem veitandi fríðinda veitir fyrir starfsmann sem reykir ekki. Þetta er upphæðin sem vinnuveitandinn greiðir til bótaveitunnar og ætti að vera byggð á greiðslutíðni fyrir uppsetningar taxta. |
    | **Upphæð vinnuveitanda fyrir þann sem reykir ekki** | Upphæðin sem veitandi fríðinda veitir fyrir starfsmann sem reykir ekki. Þetta er upphæðin sem vinnuveitandinn greiðir þjónustuaðila fríðinda og hún ætti að vera byggð á greiðslutíðni fyrir uppsetningu taxtans. |

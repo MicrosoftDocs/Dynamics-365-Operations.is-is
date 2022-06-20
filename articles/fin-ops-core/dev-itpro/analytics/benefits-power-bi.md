@@ -1,6 +1,6 @@
 ---
 title: Fríðindi Power BI efni
-description: Þetta efnisatriði lýsir fríðindum Power BI efnis.
+description: Þessi grein lýsir ávinningnum Power BI efni.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0e7cadc16c5ed6c6eab8c90090cac017221f63f466115b04a6a3b843db44b1c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c78755946c7f07e1be7a57015e6c0c15317e6b76
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733172"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848810"
 ---
 # <a name="benefits-power-bi-content"></a>Fríðindi Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir **Fríðindi** Microsoft Power BI efnis. Það lýsir hvernig eigi að fara í skýrslur sem fylgja og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þessi grein lýsir **Kostir** Microsoft Power BI efni. Það lýsir hvernig eigi að fara í skýrslur sem fylgja og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
 **Fríðindi** Power BI efnis er sýnt á vinnusvæðinu **Fríðindastjórnun** ef notuð er ein af eftirfarandi vörum:
 
-- Microsoft Dynamics 365 Finance
+- Microsoft Dynamics 365 Fjármál
 - Microsoft Dynamics 365 Human Resources
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðar með í Power BI efni

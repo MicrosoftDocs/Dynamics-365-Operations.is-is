@@ -1,6 +1,6 @@
 ---
-title: Kostnaðarviðskiptaeiningar
-description: Þetta efnisatriði veitir upplýsingar um kostnaðarfærslueiningar, sem gera kleift að skipta verðmæti kostnaðar á innihald kostnaðarsvæðis með vali á úthlutunaraðferð.
+title: Kostnaðarfærslueiningar
+description: Þessi grein veitir upplýsingar um kostnaðarfærslueiningar, sem gera kleift að skipta verðmæti kostnaðar á innihald kostnaðarsvæðis með vali á úthlutunaraðferð.
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 41a9525cb766907b7de97f1e856a3b640d7718ac
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: 3aabc1356eba27de797fa696dd928cb401d8501b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813165"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860813"
 ---
-# <a name="cost-transaction-entities"></a>Kostnaðarviðskiptaeiningar
+# <a name="cost-transaction-entities"></a>Kostnaðarfærslueiningar
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
@@ -26,7 +26,7 @@ ms.locfileid: "8813165"
 
 ## <a name="apportionment"></a>Skipting
 
-Landaður kostnaður gerir kleift að skipta verðmæti kostnaðar á innihald kostnaðarsvæðis (siglingar, flutningsgámur og svo framvegis) með því að velja úthlutunaraðferð. Úthlutunaraðferðin er stillt sem hluti af uppsetningu sjálfvirks kostnaðar sem byggir á viðskiptareglum. Það er dreginn í gegn sem hluti af kostnaði þegar ferðalína er búin til.
+Landaður kostnaður gerir kleift að skipta verðmæti kostnaðar á innihald kostnaðarsvæðis (siglingar, flutningsgámur og svo framvegis) með vali á úthlutunaraðferð. Úthlutunaraðferðin er stillt sem hluti af uppsetningu sjálfvirks kostnaðar sem byggir á viðskiptareglum. Það er dreginn í gegn sem hluti af kostnaði þegar ferðalína er búin til.
 
 ### <a name="configure-the-apportionment-mapping-for-use-with-data-entities"></a>Stilltu úthlutunarvörpunina til notkunar með gagnaeiningum
 
@@ -171,7 +171,7 @@ The **Leiðréttingarupphæð** og **Verðmætisleiðrétting** reitir eru sérs
 
 ### <a name="transaction-table"></a>Færslutafla
 
-Kostnaðarfærsluskrá er tengd við kostnaðarsvæði með úthlutun á færslutöflunúmeri (`TransTableId`). Þegar þörf er á sérstökum töfluauðkennisnúmerum er einingunum skipt út frá þessum gildum, þannig að eining er til fyrir hvert kostnaðarsvæði.
+Kostnaðarfærsluskrá er tengd við kostnaðarsvæði með úthlutun á færslutöflunúmeri (`TransTableId`). Þegar krafist er sérstakra töfluauðkennisnúmera er einingunum skipt út frá þessum gildum, þannig að eining er til fyrir hvert kostnaðarsvæði.
 
 Gildi fyrir færslutöfluna (`TransTableId`) er óbeint við val á kostnaðarfærslueiningunni.
 

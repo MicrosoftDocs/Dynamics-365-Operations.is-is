@@ -1,6 +1,6 @@
 ---
 title: Uppfæra skipan sniðmáts viðskiptaskjals
-description: Þetta efnisatriði útskýrir hvernig á að uppfæra skipulag sniðmáts viðskiptaskjals með því að nota eiginleikann stjórnun viðskiptaskjala.
+description: Þessi grein útskýrir hvernig á að uppfæra uppbyggingu viðskiptaskjalasniðmáts með því að nota viðskiptaskjalastjórnunareiginleikann.
 author: NickSelin
 ms.date: 11/19/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2adecba4e988bfe04de2c181501b6c3ef8491dcf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880284"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Uppfæra skipan sniðmáts viðskiptaskjals 
 
 [!include[banner](../includes/banner.md)]
 
-Á glugganum **Skipulag sniðmáts** í sniðmátsritlinum [Viðskiptaskjalastjórnun](er-business-document-management.md) er hægt að breyta viðskiptaskjalasniðmáti með því að [bæta við nýjum svæðum](er-bdm-add-field-to-excel-template.md) á sniðmát í Microsoft Excel. Skipulag sniðmátsins er síðan sjálfkrafa uppfært í Dynamics 365 Finance þannig að það endurspegli breytingarnar sem gerðar voru í glugganum **Skipulag sniðmáts**.
+Á glugganum **Skipulag sniðmáts** í sniðmátsritlinum [Viðskiptaskjalastjórnun](er-business-document-management.md) er hægt að breyta viðskiptaskjalasniðmáti með því að [bæta við nýjum svæðum](er-bdm-add-field-to-excel-template.md) á sniðmát í Microsoft Excel. Uppbygging sniðmátsins er síðan sjálfkrafa uppfærð í Dynamics 365 Finance, þannig að það endurspegli breytingarnar sem þú gerðir í **Uppbygging sniðmáts** rúðu.
 
 Einnig er hægt að breyta sniðmáti með því að nota Office 365 neteiginleikann. Til dæmis er hægt að bæta við nýju atriði með heiti, t.d. mynd eða lögun, á breytanlega vinnublaðið. Í þessu tilviki er skipulag sniðmátsins ekki sjálfkrafa uppfært í Finance og varan sem bætt var við birtist ekki á glugganum **Skipulag sniðmáts**. Uppfærið sniðmát handvirkt í Finance með því að velja **Uppfæra skipulag** á síðu sniðmátsritilsins.
 

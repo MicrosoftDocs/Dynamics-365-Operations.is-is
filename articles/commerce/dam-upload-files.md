@@ -1,6 +1,6 @@
 ---
-title: Hlaða upp öðrum skrám en myndum og myndskeiðum
-description: Þetta efni lýsir því hvernig hægt er að hlaða upp tvöföldum skrám en myndum og myndböndum í vefsíðuhönnuði í Microsoft Dynamics 365 Commerce.
+title: Hlaða upp skrám öðrum en myndum og myndböndum
+description: Þessi grein lýsir því hvernig á að hlaða upp tvíundarskrám öðrum en myndum og myndböndum inn Microsoft Dynamics 365 Commerce vefsmiður.
 author: psimolin
 ms.date: 03/03/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 50f9d793f0e7f34aa21d69c4049a3fe6bf16b58633f7bd555492506dc8d96790
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5952c44d066729d66d62c47249214221fe39ad9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729148"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863436"
 ---
 # <a name="upload-files-other-than-images-and-videos"></a>Hlaða upp skrám öðrum en myndum og myndböndum
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig hægt er að hlaða upp skrám en myndum og myndböndum í vefsíðuhönnuði í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að hlaða upp öðrum skrám en myndum og myndböndum inn Microsoft Dynamics 365 Commerce vefsmiður.
 
 Margmiðlunarsafn vefsvæðishönnuðar Commerce styður upphleðslu tvöfaldra eigna annarra en mynda eða myndskeiða. Til dæmis gætirðu viljað hlaða inn Microsoft Excel, Microsoft Word, Microsoft PowerPoint eða PDF-skrám.
 

@@ -1,30 +1,24 @@
 ---
 title: Kynna afbrigði og ljúka tilraun
-description: Þetta efnisatriði lýsir því hvernig á að koma vel heppnuðu afbrigði á framfæri og ljúka tilraun í Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að stuðla að árangursríkri afbrigði og ljúka tilraun í Dynamics 365 Commerce.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/07/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 48d66e84ce52e77e83843853e3d528f9394a7676cadc4a4be5198065696dd10e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e9a978551622bbb14d9213f607d9dfabe42672a
+ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738747"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8942744"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Kynna afbrigði og ljúka tilraun
 
-Þetta efnisatriði lýsir því hvernig á að koma afbrigðum á framfæri sem skiluðu bestum árangri í tilrauninni og hvernig á að ljúka við tilraunina. Eftirfarandi skýringarmynd sýnir öll skrefin sem taka þátt í uppsetningu og vinnslu á tilraun á vefsvæði rafrænna viðskipta í Dynamics 365 Commerce. Önnur skref eru afgreidd í aðskildum efnisatriðum.
+Þessi grein lýsir því hvernig á að kynna tilbrigðið sem skilaði bestum árangri í tilrauninni þinni og hvernig á að klára tilraunina. Eftirfarandi skýringarmynd sýnir öll skrefin sem taka þátt í uppsetningu og vinnslu á tilraun á vefsvæði rafrænna viðskipta í Dynamics 365 Commerce. Fjallað er um fleiri skref í aðskildum greinum.
 
 [ ![Tilraunaferli notanda - Yfirfara og ljúka.](./media/experimentation_review_complete.svg) ](./media/experimentation_review_complete.svg#lightbox)
 
@@ -48,7 +42,7 @@ Til að stuðla fá bestan árangur skal fylgja þessum skrefum.
 ## <a name="delete-your-experiment"></a>Eyða tilraun
 Þess er ekki krafist að fullbúinni tilraun sé eytt í Commerce, en það má samt sem áður eyða henni til að spara pláss eða hreinsa vinnusvæðið. 
 
-Til að eyða tilraun vefsmið Commerce skal fylgja þessum skrefum.
+Fylgdu þessum skrefum til að eyða lokinni tilraun í Commerce site builder.
 
 1. Veljið **Tilraunir** í vinstri yfirlitssvæði og veljið svo tilraunina. 
     > [!NOTE]

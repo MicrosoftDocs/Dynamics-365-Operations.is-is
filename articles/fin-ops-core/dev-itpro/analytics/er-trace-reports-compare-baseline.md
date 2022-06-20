@@ -1,6 +1,6 @@
 ---
 title: Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi
-description: Þetta efnisatriði útskýrir hvernig hægt er að bera saman niðurstöður á mynduðum skýrslur rafrænnar skýrslugerðar (ER) við skýrslugildi grunnlínu.
+description: Þessi grein útskýrir hvernig þú getur borið saman niðurstöður myndara rafrænna skýrslna (ER) skýrslna við grunngildi skýrslu.
 author: NickSelin
 ms.date: 06/17/2019
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9fabdef96b02747c84a76bf42997633842f185e9
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 168060f6dee7420a496e06cc3a85f5b10239c2cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847373"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi
 

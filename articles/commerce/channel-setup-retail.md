@@ -1,6 +1,6 @@
 ---
 title: Setja upp smásölurás
-description: Í þessu efnisatriði er lýst hvernig eigi að stofna nýja smásölurás í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að búa til nýja smásölurás í Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 74a4f0f61e0bbfd73d0006d3cf45863af6fef18f
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: eccbbff33ddf967b000940a8ea9910c34232431f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770222"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847733"
 ---
 # <a name="set-up-a-retail-channel"></a>Setja upp smásölurás
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er lýst hvernig eigi að stofna nýja smásölurás í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að búa til nýja smásölurás í Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce styður margar smásölurásir. Meðal þessara smásölurásir eru netverslanir, símaver, og smásöluverslanir (einnig kallað hefðbundnar verslanir). Hvert smásöluverslunarrás getur haft sína eigin greiðsluhætti, verðflokka, sölustað (POS) afgreiðslukassa, tekjulykla og kostnaðarlykla og starfsfólk. Setja verður upp allar þessar einingar áður en hægt er að stofna smásöluverslunarrás. 
 

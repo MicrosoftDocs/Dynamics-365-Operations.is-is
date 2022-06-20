@@ -1,6 +1,6 @@
 ---
 title: Hlaða upp myndum
-description: Þetta efnisatriði lýsir hvernig á að hlaða upp myndum á Microsoft Dynamics 365 Commerce svæðasmið.
+description: Þessi grein lýsir því hvernig á að hlaða upp myndum inn Microsoft Dynamics 365 Commerce vefsmiður.
 author: psimolin
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3b99aeff7eafd788c19204e22dbfc61f45b25408
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: e0f5cdd0381932cffc64f1c7e83eecd4662d8c9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891523"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892835"
 ---
 # <a name="upload-images"></a>Hlaða upp myndum
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig á að hlaða upp myndum á Microsoft Dynamics 365 Commerce svæðasmið.
+Þessi grein lýsir því hvernig á að hlaða upp myndum inn Microsoft Dynamics 365 Commerce vefsmiður.
 
 Margmiðlunarsafn vefsvæðishönnuðar Commerce gerir þér kleift að hlaða inn myndum, annaðhvort stökum eða mörgum í einu með því að nota möppur. Þú ættir alltaf að hlaða útgáfuna af myndinni með hæstu upplausn og gæðum, vegna þess að hluti myndbotans bætir sjálfkrafa myndina fyrir mismunandi skoðunargáttir og brotamörk þeirra.
 

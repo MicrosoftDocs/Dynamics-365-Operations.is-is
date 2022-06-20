@@ -1,6 +1,6 @@
 ---
-title: Flokkar samstæðulykla og viðbótar samstæðulyklar
-description: Þetta efnisatriði veitir upplýsingar um samstæðureikningaflokka og viðbótarsamstæðureikninga og útskýrir hvernig þeir eru notaðir.
+title: Hópar samstæðulykla og samstæðulyklar til viðbótar
+description: Þessi grein veitir upplýsingar um samstæðureikningaflokka og viðbótarsamstæðureikninga og útskýrir hvernig þeir eru notaðir.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5ca7a50fcac53f1636da15b2d7977174b087ac25
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 9e66190fe0bab24545bf19eba59facded63ee197
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711694"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882021"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Hópar samstæðulykla og samstæðulyklar til viðbótar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um samstæðureikningaflokka og viðbótarsamstæðureikninga og útskýrir hvernig þeir eru notaðir.
+Þessi grein veitir upplýsingar um samstæðureikningaflokka og viðbótarsamstæðureikninga og útskýrir hvernig þeir eru notaðir.
 
 ## <a name="consolidation-account-groups"></a>Flokkar samstæðulykla
 

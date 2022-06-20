@@ -1,6 +1,6 @@
 ---
 title: Bæta fjárhagsvíddum við CFO vinnusvæðið
-description: Þetta efnisatriði útskýrir hvernig skal bæta fjárhagsvíddum við CFO vinnusvæðið, svo hægt sé að nota þær fyrir fjárhags- og fjárhagáætlunarskýrslurnar.
+description: Þessi grein útskýrir hvernig á að bæta fjárhagsvíddum við vinnusvæði fjármálastjóra, svo hægt sé að nota þær fyrir fjárhags- og fjárhagsskýrslur.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fb558fbe25bd8977b712101df15cce7a76556dda
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: ea453eed826dec2e97371ec559e91b94933bdce6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853381"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Bæta fjárhagsvíddum við CFO vinnusvæðið
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig skal bæta fjárhagsvíddum við Fjármálastjóra (CFO) vinnusvæðið, svo hægt sé að nota þær fyrir fjárhags- og fjárhagáætlunarskýrslurnar. CFO vinnusvæðið er með **Yfirlit** flipa og **Fjármála** flipa. Skýrslurnar á þessum tveimur flipum eru studdar með tveimur mælingum: LedgerActivityMeasure and BudgetActivityMeasure. Það er tenging á milli þessara tveggja mælinga og DimensionCombinationEntity einingarinnar. Þar af leiðandi geturðu valið víddir.
+Þessi grein útskýrir hvernig á að bæta fjárhagsvíddum við vinnusvæði fjármálastjóra (CFO) svo hægt sé að nota þær fyrir fjárhags- og fjárhagsskýrslur. CFO vinnusvæðið er með **Yfirlit** flipa og **Fjármála** flipa. Skýrslurnar á þessum tveimur flipum eru studdar með tveimur mælingum: LedgerActivityMeasure and BudgetActivityMeasure. Það er tenging á milli þessara tveggja mælinga og DimensionCombinationEntity einingarinnar. Þar af leiðandi geturðu valið víddir.
 
 1. Í Finance, á síðunni **Einingaverslun** skal uppfæra **LedgerActivityMeasure** og **BudgetActivityMeasure** mælingarnar.
 2. Í Microsoft Visual Studio skal opna Application Explorer og leita að **FjárhagurCFO**.

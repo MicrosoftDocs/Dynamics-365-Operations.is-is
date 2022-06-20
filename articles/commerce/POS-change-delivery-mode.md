@@ -1,6 +1,6 @@
 ---
 title: Breyta afhendingarmáta í POS
-description: Þetta efni lýsir því hvernig á að stilla og nota breytingamáta fyrir afhendingu í POS.
+description: Þessi grein lýsir því hvernig á að stilla og nota breytingaham afhendingaraðgerðar í POS.
 author: hhainesms
 ms.date: 03/01/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ef778763b26954057b83df3e963e34008819fd208a55d55e07075853ffce8b35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 583f568164d0de70e22998bf5ded5f4616b00bd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714041"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855822"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Breyta afhendingarmáta í POS
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að setja upp og nota „breyting á afhendingarstillingu“ virkni í sölustað (POS) umhverfi þínu. 
+Þessi grein lýsir því hvernig á að setja upp og nota "breyta afhendingarmáta" virkni í sölustaðsumhverfi þínu (POS). 
 
 Í Dynamics 365 Commerce útgáfur 10.0.10 og nýrri, **Breyta afhendingaraðferð** aðgerð (647) er tiltæk til að bæta við POS skjáuppsetninguna þína.
 

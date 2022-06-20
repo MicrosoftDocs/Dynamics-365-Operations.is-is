@@ -1,6 +1,6 @@
 ---
 title: Auðkenna og leysa úr árekstrum innan aðskilnaðar á skyldum
-description: Þetta efni útskýrir hvernig skulu auðkenna og leysa úr árekstrum innan aðskilnaðar á skyldum.
+description: Þessi grein útskýrir hvernig á að bera kennsl á og leysa átök í aðgreiningu starfa.
 author: peakerbl
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0638699c0e569bbe67024a87d6c55729642557cb085ee899aa98aa0022b12840
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd36db5df2b6871d410bb1feaae825909ec9b3ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748313"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883478"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Auðkenna og leysa úr árekstrum innan aðskilnaðar á skyldum
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni útskýrir hvernig skulu auðkenna og leysa úr árekstrum innan aðskilnaðar á skyldum. Hægt er að setja upp reglur til að aðskilja skyldur sem þarf að framkvæma af mismunandi notendum. Þetta hugtak er kallað Aðskilnaður á skyldum. Þegar skilgreining á öryggishlutverki eða hlutverkaúthlutun notanda brýtur reglurnar er árekstur skráður. Allir árekstrar verða leystir af kerfisstjóra. Ljúktu við eftirfarandi til að auðkenna og leysa úr árekstrum.
+Þessi grein útskýrir hvernig á að bera kennsl á og leysa átök í aðgreiningu starfa. Hægt er að setja upp reglur til að aðskilja skyldur sem þarf að framkvæma af mismunandi notendum. Þetta hugtak er kallað Aðskilnaður á skyldum. Þegar skilgreining á öryggishlutverki eða hlutverkaúthlutun notanda brýtur reglurnar er árekstur skráður. Allir árekstrar verða leystir af kerfisstjóra. Ljúktu við eftirfarandi til að auðkenna og leysa úr árekstrum.
 
 Þegar reglu hefur verið bætt við skal staðfesta að öll fyrirliggjandi hlutverk séu samhæf. 
 

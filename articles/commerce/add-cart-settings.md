@@ -1,6 +1,6 @@
 ---
 title: Nota stillingar til að bæta vöru við körfu
-description: Í efnisatriði er fjallað um stillingarnar „Bæta vöru í körfu“ og útskýrt hvernig á að nota þær í Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um stillingar „Bæta vöru í körfu“ og lýsir því hvernig á að nota þær í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 07/08/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6299a1c815978ab9f748b6110980e673e1fbae927ed08a5e2e080f89ef063115
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 336bea289b22e4f6f98077f915d7d35f2a48682d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866031"
 ---
 # <a name="apply-add-product-to-cart-settings"></a>Nota stillingar til að bæta vöru við körfu
 
 [!include [banner](includes/banner.md)]
 
-Í efnisatriði er fjallað um stillingarnar **Bæta vöru í körfu** og útskýrt hvernig á að nota þær í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um **Bæta vöru í körfu** stillingar og lýsir því hvernig eigi að nota þær í Microsoft Dynamics 365 Commerce.
 
 Stuðst er við mismunandi verkflæði þegar vöru er bætt í körfuna á Dynamics 365 Commerce svæði fyrir rafræn viðskipti. Til dæmis gæti notandi vefsvæðisins verið færður á síðu körfunnar. Einnig getur notandinn verið á núverandi síðu en fengið tilkynningu sem staðfestir að vörunni hafi verið bætt í körfuna.
 

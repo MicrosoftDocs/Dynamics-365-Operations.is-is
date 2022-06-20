@@ -1,6 +1,6 @@
 ---
 title: Stofna svæði fyrir rafræn viðskipti
-description: Þetta efnisatriði lýsir þeim skrefum og upplýsingum sem eru nauðsynlegar til að búa til nýtt svæði fyrir rafræn viðskipti í Dynamics 365 Commerce svæðasmið.
+description: Þessi grein lýsir skrefum og upplýsingum sem þarf til að búa til nýja netverslunarsíðu í Dynamics 365 Commerce vefsmiður.
 author: bicyclingfool
 ms.date: 03/10/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 37734e2ceea3a50c70a2f7945329d4a9cf660cc6
-ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.openlocfilehash: b4ac8d1b930c89bf330a2332c0b510dadb92e51f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "8402776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855770"
 ---
 # <a name="create-an-e-commerce-site"></a>Stofna svæði fyrir rafræn viðskipti
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir þeim skrefum og upplýsingum sem eru nauðsynlegar til að búa til nýtt svæði fyrir rafræn viðskipti í Dynamics 365 Commerce svæðasmið.
+Þessi grein lýsir skrefum og upplýsingum sem þarf til að búa til nýja netverslunarsíðu í Dynamics 365 Commerce vefsmiður.
 
 Þegar Dynamics 365 Commerce er veitt heimild fyrir rafrænum viðskiptamöguleikum, fær vefhönnuður úthlutað upphafssíðu sem hægt er að nota sem grunn fyrir eigin síðu. Ef þú vilt hins vegar byrja frá grunni eða ef þú vilt koma á öðru vefsvæði þarftu að koma á fót nýju svæði í hönnunarumhverfi vefsvæðis. 
 
@@ -36,7 +36,7 @@ ms.locfileid: "8402776"
 Notandi sem byggir vefsvæði verður að hafa Microsoft Azure Active Directory (Azure AD) notendareikningur innifalinn í Azure AD öryggishópur úthlutaður fyrir kerfisstjóra rafrænna viðskipta. Fyrir frekari upplýsingar, sjá [Settu upp nýjan leigjanda fyrir rafræn viðskipti](deploy-ecommerce-site.md).
 
 > [!NOTE]
-> Azure AD gestanotendur gætu haft mismunandi aðgangsheimildir í þínu Azure AD leigjanda. Jafnvel þótt það sé innifalið í Azure AD öryggishópur úthlutað fyrir kerfisstjóra rafrænna viðskipta, gæti gestanotandi þurft Azure AD **Ytri notendur** leyfisstillingar sem á að breyta til að búa til netverslunarsíðu í Commerce. 
+> Azure AD gestanotendur gætu haft mismunandi aðgangsheimildir í þínu Azure AD leigjanda. Jafnvel þótt það sé innifalið í Azure AD öryggishópur sem úthlutað er fyrir kerfisstjóra rafrænna viðskipta, gæti gestanotandi þurft Azure AD **Ytri notendur** leyfisstillingar sem á að breyta til að búa til netverslunarsíðu í Commerce. 
 
 Að aðlaga Azure AD **Ytri notendur** stillingar skaltu fylgja þessum skrefum.
 

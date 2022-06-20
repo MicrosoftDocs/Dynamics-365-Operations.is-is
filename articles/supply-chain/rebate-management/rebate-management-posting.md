@@ -1,6 +1,6 @@
 ---
 title: Uppsetning bókunar fyrir stjórnun eftirágreidds afsláttar
-description: Í þessu efnisatriði er lýst hvernig á að setja upp bókunarreglur. Bókunarreglur eru notaðar til að ákvarða bókunarfærslur fyrir útreikningslínur í stjórnun eftirágreidds afsláttar.
+description: Þessi grein lýsir því hvernig á að setja upp færslusnið. Bókunarreglur eru notaðar til að ákvarða bókunarfærslur fyrir útreikningslínur í stjórnun eftirágreidds afsláttar.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5ed28e99e36fafa4e1275421159420a3f3380c7c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7a519b7153b307bf7d8cc9093572ca2711432970
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873580"
 ---
 # <a name="rebate-management-posting-setup"></a>Uppsetning bókunar fyrir stjórnun eftirágreidds afsláttar
 
@@ -30,7 +30,7 @@ Bókunarreglur í stjórnun eftirágreidds afsláttar eru notaðar til að ákva
 
 Til að setja upp bókunarreglur í stjórnun eftirágreidds afsláttar fyrir viðskiptavini og lánardrottna skal fara í **Stjórnun eftirágreidds afsláttar \> Uppsetning bókunar fyrir stjórnun eftirágreidds afsláttar \> Bókunarreglur fyrir stjórnun eftirágreidds afsláttar**. Síðan **Bókunarreglur fyrir stjórnun eftirágreidds afsláttar** inniheldur listasvæði sem sýnir allar fyrirliggjandi reglur. Hægt er að nota hnappana í aðgerðarúðunni til að bæta sniðmátum við listann eða fjarlægja þau.
 
-Þeir hlutar sem eftir eru í þessu efnisatriði lýsa hvernig á að nota tiltæka reiti þegar regla er búin til eða breytt.
+Hlutarnir sem eftir eru af þessari grein lýsa því hvernig á að nota tiltæka reiti þegar þú býrð til eða breytir prófíl.
 
 ## <a name="posting-profile-header"></a>Haus bókunarreglu
 

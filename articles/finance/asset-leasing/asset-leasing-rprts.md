@@ -1,6 +1,6 @@
 ---
 title: Eignarleiguskýrsla
-description: Þetta efnisatriði sýnir og lýsir stuttlega þeim skýrslum sem eru í boði í eignarleigu.
+description: Þessi grein listar upp og lýsir stuttlega þeim skýrslum sem eru tiltækar í eignaleigu.
 author: moaamer
 ms.date: 04/05/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cb1c994fee6efff82dd1cba1e71c6af49b384208
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: a6e6eb851b9b2dce7259a5355326dd594a940b8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8550040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856713"
 ---
 # <a name="asset-leasing-reports"></a>Eignarleiguskýrsla
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði sýnir og lýsir stuttlega þeim skýrslum sem eru í boði í eignarleigu. Flestar skýrslur birtast með því að klára þessi skref eða önnur svipuð skref eins og tekið er fram). 
+Þessi grein listar upp og lýsir stuttlega þeim skýrslum sem eru tiltækar í eignaleigu. Flestar skýrslur birtast með því að klára þessi skref eða önnur svipuð skref eins og tekið er fram). 
 
 - Til að skoða flestar eignarleiguskýrslur skal fara í **Eignarleiga > Fyrirspurnir og skýrslur > Leiguskýrslur** og síðan velja skýrslu til að skoða. Fyrir skýrslurnar sem þurfa annars konar valslóð, eru leiðbeiningarnar til að opna skýrsluna í lýsingu á þeirri skýrslu. 
 - Þegar valin er skýrsla til að prenta opnast færibreytusíðu sem gerir þér kleift að sía upplýsingarnar sem hafðar eru með í skýrslunni. Sláið inn síuskilyrði og veljið svo **Í lagi** til að búa til skýrslu. Mynduð skýrsla mun sýna upplýsingar sem falla undir síurnar sem voru tilgreindar.

@@ -1,6 +1,6 @@
 ---
 title: Skrá endurheimtanlegt vottorðanúmer TDS
-description: Í þessu efnisatriði er útskýrt hvernig á að nota síðu endurheimtanlegs vottorðs til að skrá vottorðanúmerin og dagsetningarnar fyrir TDS-vottorð sem eru móttekin fyrir tiltekinn lánardrottin, viðskiptavin eða fjárhag.
+description: Þessi grein útskýrir hvernig á að nota síðuna Endurheimtanleg vottorð til að skrá vottorðsnúmer og dagsetningar fyrir skatta sem eru dregin frá uppruna (TDS) vottorð sem eru móttekin fyrir tiltekinn lánardrottinn, viðskiptamann eða höfuðbók.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5d62f560fe58a5fb7bd158bed9bcb111d75c7f00
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 513412e292167795fad9d80b68e6e5e14dbd13c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726491"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853257"
 ---
 # <a name="record-tds-recoverable-certificate-numbers"></a>Skrá endurheimtanlegt vottorðanúmer TDS
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að nota síðuna **Endurheimtanleg vottorð** til að skrá vottorðanúmerin og dagsetningarnar fyrir TDS-vottorð sem eru móttekin fyrir tiltekinn lánardrottin, viðskiptavin eða fjárhag. Til að uppfæra vottorðanúmer og dagsetningar TDS sem er skráð fyrir TDS-færslur á þessari síðu skal nota síðuna **Uppfæra vottorð** (**Fjárhagur \> Reglubundið \> Staðgreiðsluskattur \> Uppfæra vottorð**). Þegar búið er að uppfæra númer TDS-vottorða skal loka þeim.
+Þessi grein útskýrir hvernig á að nota **Endurheimtanleg vottorð** síðu til að skrá vottorðanúmer og dagsetningar fyrir TDS-vottorð (Tax Deducted at Source) sem eru móttekin fyrir tiltekinn lánardrottinn, viðskiptamann eða höfuðbók. Til að uppfæra vottorðanúmer og dagsetningar TDS sem er skráð fyrir TDS-færslur á þessari síðu skal nota síðuna **Uppfæra vottorð** (**Fjárhagur \> Reglubundið \> Staðgreiðsluskattur \> Uppfæra vottorð**). Þegar búið er að uppfæra númer TDS-vottorða skal loka þeim.
 
 Fylgið þessum skrefum til að skrá númer og dagsetningar TDS-vottorða.
 

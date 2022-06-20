@@ -1,6 +1,6 @@
 ---
 title: Heimasíða eignarleigu
-description: Í þessu efnisatriði er að finna yfirlit yfir skjöl Eignarleigu og tengla á tiltekin efnisatriði.
+description: Þessi grein veitir yfirlit yfir eignaleiguskjöl og tengla á tiltekin efni.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c82c54b08a7d4c603d1246c598abacc51eb88839
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 014c34791f280ca1d3d9154cd0870a73cc43d26b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710386"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889150"
 ---
 # <a name="asset-leasing-home-page"></a>Heimasíða eignarleigu
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna hjálparefni sem eru tiltæk fyrir Eignarleigu og eru með tengla á tiltekin efnisatriði. 
+Þessi grein listar hjálparefni sem eru í boði fyrir eignaleigu og inniheldur tengla á tiltekin efni. 
 
 Eignaleiga er háþróuð möguleiki til að stjórna, rekja og gera sjálfvirkan fjármálaviðskipti fyrir leigðar eignir í Microsoft Dynamics 365 Fjármál. Eignarleiga samræmist alþjóðlegum reikningsskilastöðlum (IFRS 16) og US GAAP-stöðlum (ASC 842). Eignarleiga nær í og vinnur úr upplýsingum um leigusamningana og hjálpar til við að búa til færslur í færslubók í gegnum gildistíma leigusamningsins, frá upphaflegri skráningu, mánaðarlegum færslum í færslubók, til virðisrýrnunar og lok leigusamningsins.
 
 Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað vinnusvæði **Eiginleikastjórnun** til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** skal finna og velja eiginleika sem kallast **Eignarleiga** og smella svo á hnappinn **Virkja núna**.
 
 ## <a name="asset-leasing-topics"></a>Efni eignarleigu
-Eftirfarandi efnisatriði eru í boði til að aðstoða við skilgreiningu og notkun Eignarleigu. 
+Eftirfarandi grein er fáanleg til að hjálpa til við að stilla og nota eignaleigu. 
 
- - [Hafist handa við eignarleigu](asset-leasing-quick-start.md) - Þetta efnisatriði lýsir almennum eiginleikum eignarleigu, og raðar og skilgreinir skilmálana sem eru notaðir í hugbúnaðinum og í fylgiskjölum.
+ - [Eignaleiga hafin](asset-leasing-quick-start.md) - Þessi grein lýsir almennum möguleikum eignaleigu og listar upp og skilgreinir hugtökin sem notuð eru í hugbúnaðinum og í skjölunum.
  
  ### <a name="set-up-asset-leasing"></a>Setja upp eignarleigu
  Þessi flokkur efnisatriða getur hjálpað til við að skilgreina Eignarleigu á þann hátt sem er ákjósanlegust fyrir viðskiptaaðstæður fyrirtækisins.  
@@ -77,7 +77,7 @@ Eftirfarandi efnisatriði eru í boði til að aðstoða við skilgreiningu og n
  - [Vinna með leigusamninga í innflutningsramma leigusamnings](manage-leases-thru-imprt-framewrk.md)
  
 ### <a name="asset-leasing-reporting"></a>Eignarleiguskýrsla
-Þetta efnisatriði lýsir skýrslunum sem eru í boði fyrir eignaleigur. 
+Þessi grein lýsir skýrslum sem eru tiltækar fyrir eignaleigu. 
 
  - [Eignarleiguskýrsla](asset-leasing-rprts.md)
  

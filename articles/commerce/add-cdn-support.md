@@ -1,6 +1,6 @@
 ---
 title: Bæta við stuðningi fyrir efnisbirtingarnet (CDN)
-description: Þetta efnisatriði lýsir því hvernig á að bæta efnisbirtingarnet (CDN) við Microsoft Dynamics 365 Commerce umhverfi þitt.
+description: Þessi grein lýsir því hvernig á að bæta efnisafhendingarneti (CDN) við þitt Microsoft Dynamics 365 Commerce umhverfi.
 author: brianshook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: caed13c37c9043a2acea751c8a8b15261f26ecb2e10b6e64c0ce50f6ce9a68de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2ed8f66d447e1d9e890c0885fd20e9b55c66ac0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722055"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855877"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Bæta við stuðningi fyrir efnisbirtingarnet (CDN)
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að bæta efnisbirtingarnet (CDN) við Microsoft Dynamics 365 Commerce umhverfi þitt.
+Þessi grein lýsir því hvernig á að bæta efnisafhendingarneti (CDN) við þitt Microsoft Dynamics 365 Commerce umhverfi.
 
 Þegar búið er að setja upp rafrænt viðskiptaumhverfi í Dynamics 365 Commerce er hægt að skilgreina það til að vinna með CDN-þjónustunni. 
 
@@ -60,7 +60,7 @@ Uppsetningarferli CDN samanstendur af þessum almennu skrefum:
 
 ### <a name="add-a-front-end-host"></a>Bæta við framvinnsluhýsli
 
-Hægt er að nota hvaða CDN þjónustu sem er, en til dæmis í þessu efni er Azure Front Door Service notað. 
+Hægt er að nota hvaða CDN þjónustu sem er, en fyrir dæmið í þessari grein er Azure Front Door Service notuð. 
 
 Upplýsingar um hvernig á að setja upp Azure Front Door Service, sjá [Stuttur leiðarvísir: Búðu til útidyr fyrir víðfáanlegt altækt vefforrit](/azure/frontdoor/quickstart-create-front-door).
 
@@ -101,7 +101,7 @@ Fylgdu þessum skrefum til að setja upp beinareglu í Azure Front Door Service.
 
 
 > [!WARNING]
-> Ef lénið sem notað verður er þegar virkt og komið í notkun skal stofna þjónustubeiðni úr reitnum **Stuðningur** í [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) til að fá aðstoð vegna næstu skrefa. Frekari upplýsingar er að finna í [Fá stuðning fyrir Finance and Operations-forrit eða Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+> Ef lénið sem notað verður er þegar virkt og komið í notkun skal stofna þjónustubeiðni úr reitnum **Stuðningur** í [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) til að fá aðstoð vegna næstu skrefa. Fyrir frekari upplýsingar, sjá [Fáðu stuðning fyrir Finance and Operations öpp eða Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 Ef lénið er nýtt og er ekki lén sem þegar er komið í virka notkun, er hægt að bæta sérsniðna léninu við skilgreininguna fyrir Azure Front Door Service. Þannig getur vefumferð beinst að vefsvæðinu í gegnum tilvik Azure Front Door. Til að bæta við sérsniðna léninu (t.d. `www.fabrikam.com`), verður þú að stilla Canonical Name (CNAME) fyrir lénið.
 

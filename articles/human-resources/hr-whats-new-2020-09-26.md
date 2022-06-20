@@ -1,6 +1,6 @@
 ---
 title: Nýjungar eða breytingar í Dynamics 365 Human Resources 26. september 2020
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 26. september 2020.
+description: Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Human Resources fyrir 26. september 2020.
 author: jcart1106
 ms.date: 09/26/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 1b7a89ae8a2132c8548d9451aa235d1bccb88809
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061385"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874247"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources 26. september 2020
 
@@ -27,7 +27,7 @@ ms.locfileid: "8061385"
 
 
 
-Í þessu efnisatriði er lýst nýjum, breyttum eða væntanlegum eiginleikum í Dynamics 365 Human Resources. Frekari upplýsingar um uppfærsluferlið okkar og áætlun er að finna í [Uppfærsluferli](hr-admin-setup-update-process.md).
+Þessi grein lýsir eiginleikum sem eru nýir, breyttir eða koma fljótlega í Dynamics 365 Human Resources. Frekari upplýsingar um uppfærsluferlið okkar og áætlun er að finna í [Uppfærsluferli](hr-admin-setup-update-process.md).
 
 Frekari upplýsingar um nýja eiginleika og hvenær þeir verða aðgengilegir almenningi er að finna í [Yfirlit yfir Dynamics 365 Human Resources Losunarbylgju 2 2020](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -39,16 +39,16 @@ Frekari upplýsingar um nýja eiginleika og hvenær þeir verða aðgengilegir a
 
 Eftirfarandi eiginleiki er almennt aðgengilegur með þessari útgáfu:
 
-- **Palluppfærsla 10.0.13 er nú fáanleg** : Fyrir frekari upplýsingar um uppfærsluna, sjá [Palluppfærslur fyrir útgáfu 10.0.13 af Finance and Operations forritum (október 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
+- **Palluppfærsla 10.0.13 er nú fáanleg** : Fyrir frekari upplýsingar um uppfærsluna, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.13 af Finance and Operations forritum (október 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 
 Eftirfarandi villuleiðréttingar eru innifaldar í þessari útgáfu.
 
 > [!NOTE]
-> Markmiðið okkar er að koma þessum upplýsingum til þín eins fljótt og auðið er. Það kunna að koma uppfærslur á þessu efnisatriði til að hafa með leiðréttingar á villum sem slæddust með smíðinni eftir að þetta efnisatriði var gefið út upphaflega.
+> Markmiðið okkar er að koma þessum upplýsingum til þín eins fljótt og auðið er. Það kunna að vera uppfærslur á þessari grein sem innihalda villuleiðréttingar sem komu inn í bygginguna eftir að þessi grein var upphaflega birt.
 
-| Númer úthreyfingar | Úthreyfing | lýsing |
+| Númer úthreyfingar | Gefa út | Lýsing |
 | --- | --- | --- |
 | 469495 | Uppfæra töflu sjálfgefinna fjárhagsvídda og svarglugga | Hnitanet fjárhagsvídda og svarglugga er uppfært í Human Resources. |
 | 474887 | Vinnuliður fyrir beiðni um leyfi opnar rangan tengil í ákvörðun | Þegar Verkflæðisskilgreining inniheldur Handvirk ákvörðun opnar **Vinnuliðum úthlutað á mig** rangan tengil þegar farið er úr leyfisbeiðni og sýnir annaðhvort auða skjámynd eða beiðni sem er stofnuð í stað þess að henni hafi verið úthlutað á þessa ákvörðun. |

@@ -1,6 +1,6 @@
 ---
 title: Sjónræn röðun fyrir lean-framleiðslu
-description: Þetta efnisatriði veitir upplýsingar um Kanban-áætlunarborð, sem framleiðsluskipuleggjari getur nota' til að stýra og hámarka framleiðsluáætlunina kanban vinnslur.
+description: Þessi grein veitir upplýsingar um Kanban áætlunartöfluna, sem framleiðsluskipuleggjandinn getur notað til að stjórna og fínstilla framleiðsluáætlunina fyrir kanban störf.
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5803793a4874ee73f943d0f059047458c37dc48b7d3276dadc8d8803599fb9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a743be96867c1f325e6fe01f23355c27cb4d0cc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764813"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875189"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Sjónræn röðun fyrir lean-framleiðslu
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um Kanban-áætlunarborð, sem framleiðsluskipuleggjari getur nota' til að stýra og hámarka framleiðsluáætlunina kanban vinnslur.
+Þessi grein veitir upplýsingar um Kanban áætlunartöfluna, sem framleiðsluskipuleggjandinn getur notað til að stjórna og fínstilla framleiðsluáætlunina fyrir kanban störf.
 
-Þetta efnisatriði veitir upplýsingar um Kanban-áætlunarborð, sem framleiðsluskipuleggjari getur nota' til að stýra og hámarka framleiðsluáætlunina kanban vinnslur.
+Þessi grein veitir upplýsingar um Kanban áætlunartöfluna, sem framleiðsluskipuleggjandinn getur notað til að stjórna og fínstilla framleiðsluáætlunina fyrir kanban störf.
 
 Áætlunarborð Kanban gerir framleiðsluskipuleggjanda stýra og hámarka framleiðsluáætlunina fyrir kanbanvinnslur. Það gerir flæði kanban-vinnsla gegnsætt og gefur skipuleggjanda framleiðslu verkfæri sem hámarkar og leiðréttir framleiðsluáætlunina fyrir vinnureitinn lean manufacturing.
 

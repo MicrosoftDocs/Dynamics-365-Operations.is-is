@@ -1,6 +1,6 @@
 ---
 title: Setja upp klasatiltekt
-description: Í þessu efnisatriði er því lýst hvernig á að setja upp klasatiltekt og hvernig á að nota vörustaðfestingu með klasatiltekt.
+description: Þessi grein lýsir því hvernig á að setja upp klasatínslu og hvernig á að beita vörustaðfestingu með klasatínslu.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 859dc7e98a3236d2220ac43f9de426bd73679f0756da0aaa14669e563d5bf609
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 3094649da2ce9a700a4d1cde236609013f4b9744
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862309"
 ---
 # <a name="set-up-cluster-picking"></a>Setja upp klasatiltekt
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig starfsmenn til að nota þeirra fartæki við tiltekt vinnu í klasa, þannig að þær hægt að taka vörur frá einum stað fyrir margar pantanir vinnu á sama tíma. Þetta er kallað *klasatínslu*.
+Þessi grein lýsir því hvernig á að gera starfsmönnum kleift að nota fartæki sín til að flokka tínsluvinnu í klasa, þannig að þeir geti valið vörur frá einni staðsetningu fyrir margar vinnupantanir á sama tíma. Þetta er kallað *klasatínslu*.
 
 ## <a name="about-cluster-picking"></a>Um klasatiltekt
 

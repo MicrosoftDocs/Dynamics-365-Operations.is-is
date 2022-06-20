@@ -1,6 +1,6 @@
 ---
 title: Setja upp fjármálasamþættingu fyrir Commerce-rásir
-description: Þetta efnisatriði veitir leiðbeiningar um uppsetningu á virkni fjárhagssamþættingar fyrir Commerce-rásir.
+description: Þessi grein veitir leiðbeiningar um að setja upp fjárhagslega samþættingarvirkni fyrir viðskiptarásir.
 author: EvgenyPopovMBS
 ms.date: 04/28/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 51a75ce03b0ae6b744ec56df35bd3fdb1f40cf3a
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
-ms.translationtype: MT
+ms.openlocfilehash: 13bdbcc2d52846b8b5d04773c986cd3a4a59e7b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661750"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889400"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Setja upp fjármálasamþættingu fyrir Commerce-rásir
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
 
-Þetta efnisatriði veitir leiðbeiningar um uppsetningu á virkni fjárhagssamþættingar fyrir Commerce-rásir. Nánari upplýsingar um fjárhagssamþættingu er að finna í [Yfirlit yfir fjárhagssamþættingu fyrir Commerce-rásir](fiscal-integration-for-retail-channel.md).
+Þessi grein veitir leiðbeiningar um að setja upp fjárhagslega samþættingarvirkni fyrir viðskiptarásir. Nánari upplýsingar um fjárhagssamþættingu er að finna í [Yfirlit yfir fjárhagssamþættingu fyrir Commerce-rásir](fiscal-integration-for-retail-channel.md).
 
 ## <a name="enable-features-in-commerce-headquarters"></a>Virkjaðu eiginleika í höfuðstöðvum Commerce
 
@@ -148,7 +148,7 @@ Ef þú verður að setja upp sérstakar færibreytur fyrir einstaka POS-skrá e
 
 Fjárhagstenglahópur sameinar virkniforstillingar fjárhagstengla sem framkvæma eins aðgerðir og eru notaðar í sama skrefi í skráningarferli fjárhags. Til dæmis, ef hægt er að nota nokkrar gerðir af strimlaprenturum í verslun, er hægt að sameina fjárhagstengla fyrir þessa strimlaprentara í fjárhagstenglahópi.
 
-Til að búa til fjárhagstengihóp skaltu fylgja þessum skrefum.
+Fylgdu þessum skrefum til að búa til fjárhagstengihóp.
 
 1. Farðu í **Fjárhagstengingarhópur** síða (**Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Fjárhagstengingarhópar**).
 1. Búðu til nýjan fjárhagstengihóp.
@@ -260,13 +260,13 @@ Til að stilla villumeðferðarstillingar skaltu fylgja þessum skrefum.
     > Ef færibreytan **Halda áfram á villu** er virkjuð eru færibreyturnar **Leyfa að sleppa** og **Leyfa að merkja sem skráð** sjálfkrafa gerðar óvirkar.
 
 1. The **Sleppa** og **Merktu sem skráð** valkostir í villumeðferðarglugganum krefjast þess að **Leyfa að sleppa skráningu eða merkja sem skráð** leyfi vera virkt. Til að virkja þessa heimild skaltu fara á **Leyfishópar** síða (**Verslun og verslun \> Starfsmenn \> Leyfishópar**), og stilltu **Leyfa að sleppa skráningu eða merkja sem skráð** valmöguleika til **Já**.
-1. The **Fresta** valkostur í villumeðferðarglugganum krefst þess að **Leyfa fresta** leyfi vera virkt. Til að virkja heimildina skaltu fara á **Leyfishópar** síða (**Verslun og verslun \> Starfsmenn \> Leyfishópar**), og stilltu **Leyfa fresta** valmöguleika til **Já**.
-1. The **Sleppa**, **sem skráð**, og **Fresta** valkostir leyfa rekstraraðilum að slá inn viðbótarupplýsingar þegar fjárhagsskráning mistekst. Til að gera þessa virkni aðgengilega ættirðu að tilgreina **Sleppa**, **sem skráð**, og **Fresta** upplýsingakóðar á fjárhagstengihópi. Upplýsingarnar sem notendur slá inn eru síðan vistaðar sem færsla upplýsingakóða sem er tengd við fjárhagsfærsluna. Nánari upplýsingar um upplýsingakóða er að finna í [Upplýsingakóðar og upplýsingakóðaflokkar](../info-codes-retail.md).
+1. The **Fresta** valkostur í villumeðferðarglugganum krefst þess að **Leyfa fresta** leyfi vera virkt. Til að virkja heimildina skaltu fara á **síðuna Heimildaflokkar** (**Heimildaflokkar \> starfsmanna retail og Commerce \> Employees**) og stilla valkostinn **Leyfa frestun** á **Já**.
+1. Valkostirnir **Sleppa**, **Merkja sem skráðir** og **Fresta** gera rekstraraðilum kleift að færa inn viðbótarupplýsingar þegar fjárhagsskráning mistekst. Til að gera þessa aðgerð tiltæka ætti að tilgreina kótana **Sleppa**, **Merkja sem skráða** og **Fresta** upplýsingakóðum í fjárhagstengisflokki. Upplýsingarnar sem notendur slá inn eru síðan vistaðar sem færsla upplýsingakóða sem er tengd við fjárhagsfærsluna. Nánari upplýsingar um upplýsingakóða er að finna í [Upplýsingakóðar og upplýsingakóðaflokkar](../info-codes-retail.md).
 
     > [!NOTE]
     > Virkniræsingin **Afurð** er ekki studd fyrir upplýsingakóðana sem eru notaðir fyrir **Sleppa** og **Merkja sem skráð** í fjárhagstenglaflokkum.
 
-    - Á **Fjárhagstengingarhópur** síðu, á **Upplýsingakóðar** flipann, veldu upplýsingakóða eða upplýsingakóðahópa í **Sleppa**, **sem skráð**, og **Fresta** sviðum.
+    - **Á síðunni Flokkur fjárhagstengis**, á flipanum **Upplýsingakóðar**, velja upplýsingakóða eða upplýsingakóðaflokka í svæðunum **Sleppa**, **Merkja sem skráð** og **Fresta**.
 
     > [!NOTE]
     > Hægt er að búa til eitt fjárhagsskjal og eitt skjal sem er ekki fjárhagsskjal í hvaða skrefi sem er í skráningarferli fjárhags. Viðbót fjárhagsskjalaveitu ber kennsl á allar gerðir af færslum eða tilvikum sem tengdar við fjárhagsskjal eða skjals sem ekki er fjárhagsskjal. Eiginleiki villumeðhöndlunar á aðeins við um fjárhagsskjöl.
@@ -298,21 +298,21 @@ Til að virkja handvirka framkvæmd á frestaðri fjárhagsskráningu ættir þ�
     1. Á síðunni **Dreifingaráætlun** skal keyra verkið **1090** til að flytja breytingarnar þínar til gagnagrunns rásarinnar.
 
 
-## <a name="view-connection-parameters-and-other-information-in-pos"></a>Skoðaðu tengibreytur og aðrar upplýsingar í POS
+## <a name="view-connection-parameters-and-other-information-in-pos"></a>Skoða tengingarfæribreytur og aðrar upplýsingar í sölustað
 
-Til að skoða tengifæribreytur og aðrar upplýsingar í POS skaltu fylgja þessum skrefum.
+Til að skoða tengingarfæribreytur og aðrar upplýsingar í sölustað skal fylgja þessum skrefum.
 
 1. Opnaðu Modern POS (MPOS) eða Cloud POS (CPOS).
-1. Veldu **Stillingar**. Ef fjárhagsleg samþætting er virkjuð, **Samþætting ríkisfjármála** kafla til hægri mun sýna eftirfarandi upplýsingar:
+1. Veldu **Stillingar**. Ef fjárhagssamþætting er virk mun hlutinn **Samþætting** fjárhags til hægri sýna eftirfarandi upplýsingar:
 
-    - Staða ríkisskráningar
-    - Staða síðustu viðskipta í ríkisfjármálum
-    - Fjöldi endurskoðunarviðburða sem bíða
+    - Staða fjárhagsskráningar
+    - Staða síðustu fjárhagsfærslu
+    - Fjöldi endurskoðunartilvika í bið
 
 1. Veldu **Upplýsingar** til að skoða eftirfarandi upplýsingar:
 
-    - Skref skráningarferlisins
+    - Skref í skráningarferli
     - Færibreytur tengingar
-    - Endurskoðun viðburða upplýsingar
+    - Upplýsingar um endurskoðunartilvik
  
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

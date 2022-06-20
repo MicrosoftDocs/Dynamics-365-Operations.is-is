@@ -1,6 +1,6 @@
 ---
 title: Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
-description: Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Mexíkó.
+description: Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Mexíkó.
 author: gionoder
 ms.date: 12/01/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 540b6e6f9b4b669957cc3310e473ad59b9210594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855330"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
 
@@ -31,11 +31,11 @@ ms.locfileid: "8566000"
 > [!IMPORTANT]
 > Rafræn reikningagerð fyrir Mexíkó styður ef til vill ekki allar aðgerðir sem eru tiltækar í Comprobante Fiscal Digital por Internet (CFDI) skjalinu og í tengdri samþættingu sem er innbyggður í Microsoft Dynamics 365 Fjármál eða Dynamics 365 Supply Chain Management.
 
-Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Mexíkó. Það leiðir notandann í gegnum grunnstillingarskrefin sem fara eftir hverju landi fyrir sig í Regulatory Configuration Services (RCS) og Finance. Það fer einnig í gegnum skrefin sem þarf að fylgja í Finance til að senda inn CFDI-reikninga í gegnum þjónustuna og það útskýrir hvernig á að fara yfir niðurstöður vinnslunnar og stöður CFDI-reikninga.
+Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Mexíkó. Það leiðir notandann í gegnum grunnstillingarskrefin sem fara eftir hverju landi fyrir sig í Regulatory Configuration Services (RCS) og Finance. Það fer einnig í gegnum skrefin sem þarf að fylgja í Finance til að senda inn CFDI-reikninga í gegnum þjónustuna og það útskýrir hvernig á að fara yfir niðurstöður vinnslunnar og stöður CFDI-reikninga.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en þú klárar skrefin í þessu efni verður þú að klára skrefin í [Byrjaðu með rafræna reikningaþjónustu](e-invoicing-get-started-service-administration.md) og [Byrjaðu með rafræna reikningagerð](e-invoicing-get-started.md).
+Áður en þú lýkur skrefunum í þessari grein verður þú að klára skrefin í [Byrjaðu með rafræna reikningaþjónustu](e-invoicing-get-started-service-administration.md) og [Byrjaðu með rafræna reikningagerð](e-invoicing-get-started.md).
 
 ## <a name="set-up-the-cadena-xslt"></a>Settu upp Cadena XSLT
 

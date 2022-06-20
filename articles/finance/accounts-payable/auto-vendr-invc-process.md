@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir sjálfvirka vinnslu á reikningi lánardrottins
-description: Í þessu efnisatriði er lýst möguleikanum á að gera reikningsferli lánardrottins sjálfvirkt og ávinningin af því að nota sjálfvirkt ferli.
+description: Þessi grein lýsir getu til að gera reikningsvinnslu lánardrottins sjálfvirkan og ávinninginn af því að nota sjálfvirkt ferli.
 author: abruer
 ms.date: 02/12/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f21b76bb0d30370e4ea4fdd718999d537e9ce925
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: d2c629ed2d064a3350ec8ffe53940098d12ab0b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358431"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883446"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Yfirlit yfir sjálfvirka vinnslu á reikningi lánardrottins
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er lýst möguleikanum á að gera reikningsferli lánardrottins sjálfvirkt og ávinningin af því að nota sjálfvirkt ferli. Þessi möguleiki samanstendur af eiginleikum sem kveikt er á í eiginleikastjórnun. Þessir eiginleikar eiga aðeins við um reikninga lánardrottins, ekki reikninga sem unnið er úr með síðunni **Reikningabók** eða **Komubók reikninga**.
+Þessi grein lýsir getu til að gera reikningsvinnslu lánardrottins sjálfvirkan og ávinninginn af því að nota sjálfvirkt ferli. Þessi möguleiki samanstendur af eiginleikum sem kveikt er á í eiginleikastjórnun. Þessir eiginleikar eiga aðeins við um reikninga lánardrottins, ekki reikninga sem unnið er úr með síðunni **Reikningabók** eða **Komubók reikninga**.
 
 Fyrirtæki vinna oft með þriðja aðila til að vinna úr pappírsreikningum með því að nota þjónustuveitu stafakennsla. Þjónustuveitan skilar lýsigögnum reiknings sem tölvan getur lesið. Til að hjálpa til við sjálfvirkni gera sjálfvirknieiginleikar viðskiptaskulda þér kleift að nota þessa gervinga úr Viðskiptaskuldum.
 

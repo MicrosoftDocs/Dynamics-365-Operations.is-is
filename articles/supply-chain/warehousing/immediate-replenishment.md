@@ -1,6 +1,6 @@
 ---
 title: Tafarlaus áfylling
-description: Þetta efnisatriði lýsir því hvernig hægt er að nota tafarlausa áfyllingu til að fylla á birgðir þegar staðsetningarleiðbeining tekst ekki úthluta birgðum.
+description: Þessi grein lýsir því hvernig hægt er að nota tafarlausa áfyllingu til að bæta við birgðum þegar staðsetningartilskipun tekst ekki að úthluta birgðum.
 author: Mirzaab
 ms.date: 03/15/2017
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 15a3cc4c50e49a50c354834761425cd107c23a9d79677e022cb1d339bb48c918
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf48f2f34f574503bbcae827f8013afe8532fc14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899267"
 ---
 # <a name="immediate-replenishment"></a>Tafarlaus áfylling
 

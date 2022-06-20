@@ -1,6 +1,6 @@
 ---
 title: Flytja PTC-gögn úr Data Integrator í tvöfalda skráningu
-description: Þetta efnisatriði lýsir hvernig á að flytja PTC-gögn úr Data Integrator í tvöfalda skráningu.
+description: Þessi grein lýsir því hvernig á að flytja Prospect til Cash gögn frá Data Integrator í tvískrif.
 author: RamaKrishnamoorthy
 ms.date: 02/01/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 82bfb768b0ecac04184f4b806527346d39584d64
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 8e5c11e535bd61e9955a4abf1491e88991ee40f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087269"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894267"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Flytja PTC-gögn úr Data Integrator í tvöfalda skráningu
 
 [!include [banner](../../includes/banner.md)]
 
-Prospect to cash-lausnin sem er í boði fyrir Data Integrator er ekki samhæf við tvískrift. Ástæðan fyrir þessu er msdynce_AccountNumber vísitalan á reikningstöflunni sem kom sem hluti af Prospect to cash lausninni. Ef þessi vísitala er til er ekki hægt að stofna sama viðskiptareikningsnúmerið í tveimur mismunandi lögaðilum. Þú getur annað hvort valið að byrja upp á nýtt með dual-write með því að flytja Prospect yfir í peningagögn frá Data Integrator yfir í dual-write eða þú getur sett upp síðustu „dorman“ útgáfuna af Prospect to cash lausninni. Þetta efni fjallar um báðar þessar aðferðir.
+Prospect to cash-lausnin sem er í boði fyrir Data Integrator er ekki samhæf við tvískrift. Ástæðan fyrir þessu er msdynce_AccountNumber vísitalan á reikningstöflunni sem kom sem hluti af Prospect to cash lausninni. Ef þessi vísitala er til er ekki hægt að stofna sama viðskiptareikningsnúmerið í tveimur mismunandi lögaðilum. Þú getur annað hvort valið að byrja upp á nýtt með dual-write með því að flytja Prospect yfir í peningagögn frá Data Integrator yfir í dual-write eða þú getur sett upp síðustu „dorman“ útgáfuna af Prospect to cash lausninni. Þessi grein fjallar um báðar þessar aðferðir.
 
 ## <a name="install-the-last-dorman-version-of-the-data-integrator-prospect-to-cash-solution"></a>Settu upp síðustu „dorman“ útgáfuna af Data Integrator Prospect to cash lausninni
 
@@ -32,7 +32,7 @@ Prospect to cash-lausnin sem er í boði fyrir Data Integrator er ekki samhæf v
 
 Til að flytja PTC-gögn úr Data Integrator í tvöfalda skráningu skal fylgja þessum skrefum.
 
-1. Keyrið Data Integrator-verk PTC til að gera eina fulla samstillingu að lokum. Á þennan hátt tryggir þú að bæði kerfin (Finance and Operations öpp og öpp fyrir þátttöku viðskiptavina) hafi öll gögnin.
+1. Keyrið Data Integrator-verk PTC til að gera eina fulla samstillingu að lokum. Þannig tryggir þú að bæði kerfin (fjárhags- og rekstraröpp og öpp fyrir þátttöku viðskiptavina) séu með öll gögnin.
 2. Til að hjálpa til við að koma í veg fyrir hugsanlegt gagnatap er Prospect to cash gögn flutt út úr Microsoft Dynamics 365 Sales í Excel-skrá eða skrá með aðskildum gildum (CSV). Flytja út gögn úr eftirfarandi einingum:
 
     - [Lykill](#account-table)
@@ -50,8 +50,8 @@ Til að flytja PTC-gögn úr Data Integrator í tvöfalda skráningu skal fylgja
 5. Búðu til tvískrifaða tengingu á milli Finance and Operations appsins og viðskiptavinaþátttökuforritsins fyrir einn eða fleiri lögaðila.
 6. Virkið töfluvörpun tvöfaldrar skráningar og keyrið fyrstu samstillinguna fyrir áskild tilvísunargögn. (Frekari upplýsingar er að finna í [Hvað skal hafa í huga við fyrstu samstillingu](initial-sync-guidance.md).) Dæmi um áskilin gögn eru m.a. viðskiptavinaflokkar, greiðsluskilmálar og greiðsluáætlanir. Ekki skal virkja vörpun tvöfaldrar skráningar fyrir töflur sem krefast frumstillingar, t.d. töflur lykla, tilboðs, tilboðslínu, pöntunar og pöntunarlínu.
 7. Í forriti viðskiptavinar skal opna **Ítarlegar stillingar \> Kerfisstillingar \> Gagnastjórnun \> Afrita greiningarreglur** og slökkva á öllum reglum.
-8. Frumstillið töflurnar sem eru gefnar upp í skrefi tvö. Frekari upplýsingar er að finna í eftirstandandi hlutum í þessu efnisatriði.
-9. Opnaðu Finance and Operations appið og virkjaðu töflukortin, svo sem reikninginn, tilboð, tilboðslínu, pöntun og pöntunarlínutöflukort. Keyrið síðan fyrstu samstillingu. (Fyrir frekari upplýsingar, sjá [Hugleiðingar um fyrstu samstillingu](initial-sync-guidance.md) .) Þetta ferli mun samstilla viðbótarupplýsingar frá Finance and Operations appinu, svo sem vinnslustöðu, sendingar- og reikningsföng, vefsvæði og vöruhús.
+8. Frumstillið töflurnar sem eru gefnar upp í skrefi tvö. Fyrir leiðbeiningar, sjá þá hluta þessarar greinar sem eftir eru.
+9. Opnaðu Finance and Operations appið og virkjaðu töflukortin, svo sem reikninginn, tilboð, tilboðslínu, pöntun og pöntunarlínutöflukort. Keyrið síðan fyrstu samstillingu. (Fyrir frekari upplýsingar, sjá [Hugleiðingar um fyrstu samstillingu](initial-sync-guidance.md) .) Þetta ferli mun samstilla viðbótarupplýsingar frá Finance and Operations appinu, svo sem vinnslustöðu, sendingar- og innheimtuheimilisföng, vefsvæði og vöruhús.
 
 ## <a name="account-table"></a>Lyklatafla
 
@@ -76,7 +76,7 @@ Til að flytja PTC-gögn úr Data Integrator í tvöfalda skráningu skal fylgja
 
 ## <a name="invoice-table"></a>Reikningstafla
 
-Vegna þess að gögn frá **Reikningur** taflan er hönnuð til að flæða á einn veg, frá Finance and Operations appinu til viðskiptavinaþátttökuforritsins, frumstilling er ekki nauðsynleg. Keyrðu fyrstu samstillingu til að flytja öll nauðsynleg gögn úr Finance and Operations appinu yfir í viðskiptavinaþátttökuforritið. Frekari upplýsingar má finna á [Hvað skal hafa í huga við fyrstu samstillingu](initial-sync-guidance.md).
+Vegna þess að gögn frá **Reikningur** taflan er hönnuð til að flæða á einn veg, frá Finance and Operations appinu til viðskiptavinaþátttökuforritsins, frumstilling er ekki nauðsynleg. Keyrðu fyrstu samstillingu til að flytja öll nauðsynleg gögn úr Finance and Operations appinu yfir í viðskiptamannaforritið. Frekari upplýsingar má finna á [Hvað skal hafa í huga við fyrstu samstillingu](initial-sync-guidance.md).
 
 ## <a name="order-table"></a>Pöntunartafla
 
@@ -94,11 +94,11 @@ Vegna þess að gögn frá **Reikningur** taflan er hönnuð til að flæða á 
 
 ## <a name="products-table"></a>Afurðatöflur
 
-Vegna þess að gögn frá **Vörur** taflan er hönnuð til að flæða á einn veg, frá Finance and Operations appinu til viðskiptavinaþátttökuforritsins, frumstilling er ekki nauðsynleg. Keyrðu fyrstu samstillingu til að flytja öll nauðsynleg gögn úr Finance and Operations appinu yfir í viðskiptavinaþátttökuforritið. Frekari upplýsingar má finna á [Hvað skal hafa í huga við fyrstu samstillingu](initial-sync-guidance.md).
+Vegna þess að gögn frá **Vörur** taflan er hönnuð til að flæða á einn veg, frá Finance and Operations appinu til viðskiptavinaþátttökuforritsins, frumstilling er ekki nauðsynleg. Keyrðu fyrstu samstillingu til að flytja öll nauðsynleg gögn úr Finance and Operations appinu yfir í viðskiptamannaforritið. Frekari upplýsingar má finna á [Hvað skal hafa í huga við fyrstu samstillingu](initial-sync-guidance.md).
 
 ## <a name="quote-and-quote-product-tables"></a>Töflur tilboðs og afurðartilboðs
 
-Fyrir töfluna **Tilboð** skal fylgja leiðbeiningunum í hlutanum [Pöntunartafla](#order-table) fyrr í þessu efnisatriði. Fyrir töfluna **Afurðartilboð** skal fylgja leiðbeiningunum í hlutanum [Tafla afurðapöntunar](#order-products-table).
+Fyrir **Tilvitnun** töflu, fylgdu leiðbeiningunum í [Panta borð](#order-table) kafla fyrr í þessari grein. Fyrir töfluna **Afurðartilboð** skal fylgja leiðbeiningunum í hlutanum [Tafla afurðapöntunar](#order-products-table).
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

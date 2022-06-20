@@ -1,6 +1,6 @@
 ---
 title: Uppsetning fartækja fyrir vöruhúsavinnu
-description: Þetta efnisatriði lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki.
+description: Þessi grein lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki.
 author: Mirzaab
 ms.date: 03/23/2020
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9e0f27839d9e6330cc8a11874a5cb1786daf8dc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: efbf9072c3bbcb20f38e144f9a15d8178d96d708
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902180"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905574"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Uppsetning fartækja fyrir vöruhúsavinnu
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki.
+Þessi grein lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki.
 
 > [!NOTE]
-> Þetta efnisatriði á við aðgerðir í vöruhúsakerfi. Hún á ekki við um aðgerðir í birgðastjórnun. Valmyndaratriði sem birtast í valmyndum fartækis vöruhúss eru skilgreind á síðunni **Valmyndaratriði fartækis**. Þar sem hægt er að setja valmyndaratriðin á mismunandi valmyndir er auðvelt að skilgreina skipulag valmyndar þannig að aðeins tilteknar gerðir vinnu eru birtar tilgreindum notendum. Hægt er að skilgreina undirvalmynd til að gera eftirfarandi verk:
+> Þessi grein á við um eiginleika í vöruhúsastjórnun. Hún á ekki við um aðgerðir í birgðastjórnun. Valmyndaratriði sem birtast í valmyndum fartækis vöruhúss eru skilgreind á síðunni **Valmyndaratriði fartækis**. Þar sem hægt er að setja valmyndaratriðin á mismunandi valmyndir er auðvelt að skilgreina skipulag valmyndar þannig að aðeins tilteknar gerðir vinnu eru birtar tilgreindum notendum. Hægt er að skilgreina undirvalmynd til að gera eftirfarandi verk:
 
 - Vinna úr fyrirspurn eða framkvæma verkþátt, svo sem að prenta merki, mynda númer númeraplötu, hefja framleiðslupöntun eða fletta upp upplýsingum um vörur á staðsetningu.
 - Stofna vinnu sem þarf að framkvæma með öðru ferli. Til dæmis getur móttaka vöru fyrir innkaupapöntun stofnað frágangsvinnu fyrir annan starfsmann.
@@ -38,7 +38,7 @@ ms.locfileid: "7902180"
 Til að stofna valmyndaratriði fyrir verkþátt eða fyrirspurn er reiturinn **Máti** stilltur á **Óbeint**. Listi yfir valkosti **verkþáttarkóða** verður þá tiltækur, svo að hægt er að velja gerð fyrirspurnar eða aðgerðar sem valmyndaratriðið er fyrir. Til að stofna valmyndaratriði til að mynda vöruhúsavinnu er reiturinn **Máti** stilltur á **Vinna**. Listi yfir valkosti **Ferli vinnustofnunar** verður þá tiltækur. Til að stofna valmyndaratriði til að vinna úr fyrirliggjandi vöruhúsavinnu er reiturinn **Máti** stilltur á **Vinna** og svo valkosturinn **Nota fyrirliggjandi verk** á **Já**. 
 
 > [!NOTE]
-> Viðbótarreitir gætu verið tiltækir fyrir valmyndaratriði, eftir þeim máta sem er valinn fyrir valmyndaratriðið og hvort valmyndaratriði er notað til að framkvæma fyrirliggjandi vinnu. Sjá hlutann „Fleiri valkostir valmyndaratriðis“ sem er seinna í þessum hluta fyrir upplýsingar um valið svæði.
+> Viðbótarreitir gætu verið tiltækir fyrir valmyndaratriði, eftir þeim máta sem er valinn fyrir valmyndaratriðið og hvort valmyndaratriði er notað til að framkvæma fyrirliggjandi vinnu. Sjá hlutann „Fleiri valkostir valmyndaratriðis“ sem er seinna í þessari grein fyrir upplýsingar um valið svæði.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Skilgreina valmyndaratriði fyrir aðgerðir og fyrirspurnir
 

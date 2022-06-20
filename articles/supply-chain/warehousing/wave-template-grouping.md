@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b265c0d5cb43e151386fe90e3a3dea414ec0aca6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5eb18ce29cbd1434b2a766c2ba5d78ed1be4e72b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851247"
 ---
 # <a name="wave-template-grouping"></a>Flokkun bylgjusniðmáts
 
@@ -41,7 +41,7 @@ Flokkun bylgjusniðmáts gerir kerfinu kleift að nota uppsetningar [bylgjusnið
 Til að gera bylgjusniðmátsflokkun tiltæka skal fylgja þessum skrefum til að setja upp [bylgjusniðmát](tasks/configure-wave-processing.md).
 
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Bylgjusniðmát**.
-1. Vinstra megin á svæðinu skal velja bylgjusniðmátið sem á að setja upp. Ef verið er að undirbúa vinnu í gegnum atburðarásina síðar í þessu efnisatriði með því að nota sýnigögn skal velja sniðmátið **62 Sjálfgefin sending**.
+1. Vinstra megin á svæðinu skal velja bylgjusniðmátið sem á að setja upp. Ef þú ert að undirbúa að vinna í gegnum atburðarásina síðar í þessari grein með því að nota kynningargögn skaltu velja **62 Sendingar sjálfgefið** sniðmát.
 1. Veldu **Breyta** til að setja síðuna í breytingastillingu.
 1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
 
@@ -84,7 +84,7 @@ Einnig er hægt að nota þessar aðstæður sem leiðsögn um notkun á eiginle
 
 Þessar aðstæður sýna hvernig nota má flokkun bylgjusniðmáts til að stofna sjálfkrafa margar bylgjur, byggðar á flokkunarskilyrðum sem eru skilgreind í bylgjusniðmáti. Í þessum aðstæðum er bylgjusniðmátið sett upp í kerfinu til að búa til eina bylgju á flutningsþjónustu.
 
-Áður en hafist er handa þarf að undirbúa bylgjusniðmátið eins og lýst er í hlutanum [Stilla bylgjusniðmát til að nota flokkun bylgjusniðmáts](#set-up-template) fyrr í þessu efnisatriði. Ef unnið verður með sýnigögn fyrir þetta dæmi skal gæta þess að nota gildi sýnigagnanna sem stungið er upp á í því ferli. Þessi uppsetning mun flokka bylgjurnar samkvæmt flutningsþjónustunni sem er stillt fyrir hverja sölupöntun.
+Áður en þú byrjar skaltu undirbúa bylgjusniðmátið eins og lýst er í [Stilltu bylgjusniðmát til að nota bylgjusniðmátflokkun](#set-up-template) kafla fyrr í þessari grein. Ef unnið verður með sýnigögn fyrir þetta dæmi skal gæta þess að nota gildi sýnigagnanna sem stungið er upp á í því ferli. Þessi uppsetning mun flokka bylgjurnar samkvæmt flutningsþjónustunni sem er stillt fyrir hverja sölupöntun.
 
 #### <a name="create-sales-order-1"></a>Stofna sölupöntun 1
 

@@ -1,6 +1,6 @@
 ---
 title: Uppfæra í altæka aðila- og aðsetursbókarlíkanið
-description: Í þessu efnisatriði er lýst hvernig á að uppfæra gögn tvöfaldrar skráningar í aðilalíkanið og líkan altækrar aðsetursbókar.
+description: Þessi grein lýsir því hvernig á að uppfæra gögn með tvöföldum skrifum í aðila og alþjóðlegt heimilisfangabókarlíkan.
 author: RamaKrishnamoorthy
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688376"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895277"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Uppfæra í altæka aðila- og aðsetursbókarlíkanið
 
@@ -40,10 +40,10 @@ Eftirfarandi þrjú Data Factory sniðmát eru til staðar. Þeir hjálpa til vi
 | ImportFONewPostalAddress.csv | Þessi skrá hjálpar til við að búa til nýja **Póstfang** skrár í Finance and Operations appinu. |
 | ImportFONewElectronicAddress.csv | Þessi skrá hjálpar til við að búa til nýja **Rafræn heimilisfang** skrár í Finance and Operations appinu. |
 
-Þetta efni útskýrir hvernig á að nota Data Factory sniðmát og uppfæra gögnin þín. Ef þú ert ekki með neinar sérstillingar geturðu notað sniðmátin eins og þau eru. Hins vegar, ef þú ert með sérstillingar fyrir **Reikningur**, **samband**, og **Seljandi** gögn, verður þú að breyta sniðmátunum eins og lýst er í þessu efni.
+Þessi grein útskýrir hvernig á að nota Data Factory sniðmátin og uppfæra gögnin þín. Ef þú ert ekki með neinar sérstillingar geturðu notað sniðmátin eins og þau eru. Hins vegar, ef þú ert með sérstillingar fyrir **Reikningur**, **samband**, og **Seljandi** gögn, verður þú að breyta sniðmátunum eins og lýst er í þessari grein.
 
 > [!IMPORTANT]
-> Sérstakar leiðbeiningar eru um að keyra sniðmát fyrir flokkspóstfang og rafræn heimilisfang aðila. Þú verður að keyra sniðmát aðila fyrst, síðan sniðmát póstfangs aðila og síðan sniðmát fyrir rafrænt heimilisfang aðila. Hvert sniðmát er hannað til að flytja inn í sérstakri gagnaverksmiðju.
+> Sérstakar leiðbeiningar eru um að keyra sniðmát fyrir flokkspóstfang og rafræn heimilisfang aðila. Þú verður að keyra sniðmát aðila fyrst, síðan sniðmát fyrir póstfang aðila og síðan sniðmát fyrir rafrænt heimilisfang aðila. Hvert sniðmát er hannað til að flytja inn í sérstakri gagnaverksmiðju.
 
 ## <a name="prerequisites"></a>Forkröfur
 
@@ -132,7 +132,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
     ![PostalAddressIdPrefix alþjóðleg færibreyta búin til á flipanum Stjórna.](media/ADF-2.png)
 
-3. Þegar þú ert búinn skaltu velja **Birta allt**.
+3. Þegar þú hefur lokið skaltu velja **Birta allt**.
 
     ![Birta allt hnappinn.](media/ADF-3.png)
 
@@ -147,7 +147,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
     ![IsFOSource og ElectronicAddressIdPrefix alþjóðlegar færibreytur búnar til á flipanum Stjórna.](media/ADF-4.png)
 
-2. Þegar þú ert búinn skaltu velja **Birta allt**.
+2. Þegar þú hefur lokið skaltu velja **Birta allt**.
 
 ## <a name="run-the-templates"></a>Keyra sniðmát
 
@@ -206,7 +206,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
             + Microsoft.Dynamics.GABExtended.Plugins.CreatePartyAddress: Uppfærsla á heimilisfangi viðskiptavinarins
 
-        + Virk útgáfa
+        + Eyða
 
             + Microsoft.Dynamics.GABExtended.Plugins.DeleteCustomerAddress: Eyða heimilisfangi viðskiptavinarins
 
@@ -235,7 +235,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
             + Microsoft.Dynamics.GABExtended.Plugins.PostalAddressUpdate: Uppfærsla á msdyn_postaladdress
             + Microsoft.Dynamics.GABExtended.Plugins.UpdateCustomerAddress: Uppfærsla á msdyn_postaladdress
 
-    + msdyn_partyelectronic address
+    + msdyn_partyelectronicaddress
 
         + Búa til
 
@@ -245,7 +245,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
             + Microsoft.Dynamics.GABExtended.Plugins.PartyElectronicAddressSync: Uppfærsla á msdyn_partyelectronicaddress
 
-        + Virk útgáfa
+        + Eyða
 
             + Microsoft.Dynamics.GABExtended.Plugins.DeletePartyElectronicAddressSync: Eyða msdyn_partyelectronicaddress
 
@@ -330,7 +330,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
             + Microsoft.Dynamics.GABExtended.Plugins.PostalAddressUpdate: Uppfærsla á msdyn_postaladdress
             + Microsoft.Dynamics.GABExtended.Plugins.UpdateCustomerAddress: Uppfærsla á msdyn_postaladdress
  
-    + msdyn_partyelectronic address
+    + msdyn_partyelectronicaddress
 
         + Búa til
 
@@ -340,7 +340,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
             + Microsoft.Dynamics.GABExtended.Plugins.PartyElectronicAddressSync: Uppfærsla á msdyn_partyelectronicaddress
 
-        + Virk útgáfa
+        + Eyða
 
             + Microsoft.Dynamics.GABExtended.Plugins.DeletePartyElectronicAddressSync: Eyða msdyn_partyelectronicaddress
 
@@ -355,7 +355,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
     + Uppfæra lánardrottna af gerðinni einstaklingur í tengiliðatöflu
     + Uppfæra lánardrottna af gerðinni einstaklingur í lánardrottnatöflu
 
-13. Keyra á **Partí** skráatengd kort eins og lýst er í [Veislu- og alheimsfangabók](party-gab.md).
+13. Keyra á **Partí** skráatengd kort eins og lýst er í [Veislu- og alþjóðlegt heimilisfangabók](party-gab.md).
 
 ## <a name="explanation-of-the-data-factory-templates"></a>Útskýring á Data Factory sniðmátunum
 
@@ -369,7 +369,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 4. Skref 10 býr til tvær .csv skrár fyrir aðilaskrárnar sem þarf að búa til í viðskiptavinaþátttökuforritinu og Finance and Operations appinu.
 
     - **FOCDSParty.csv** – Þessi skrá inniheldur allar aðilaskrár beggja kerfa, óháð því hvort fyrirtækið er virkt fyrir tvískrifa.
-    - **FONewParty.csv** – Þessi skrá inniheldur hlutmengi af skrám aðila sem Dataverse er meðvitaður um (til dæmis frásagnir af **Horfur** gerð).
+    - **FONewParty.csv** – Þessi skrá inniheldur hlutmengi af skrám aðila sem Dataverse er meðvitaður um (til dæmis frásagnir af **Horfur** tegund).
 
 5. Skref 11 býr til aðilana í forritinu fyrir þátttöku viðskiptavina.
 6. Skref 12 sækir alþjóðlegt einstök auðkenni (GUID) aðila úr forritinu fyrir þátttöku viðskiptavina og sviðsetur þau þannig að hægt sé að tengja þau við **Reikningur**, **samband**, og **Seljandi** skrár í síðari skrefum.
@@ -399,7 +399,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 10. Skref 9-1 til 9-2 tengja auðkenni aðila og póstfangasafns við póstföng og póstföng aðila.
 11. Skref 10-1 til 10-3 flytja heimilisföng viðskiptavina, póstföng og póstföng aðila inn í forritið fyrir þátttöku viðskiptavina.
 
-### <a name="steps-in-the-party-electronic-address-template"></a>Skref í sniðmát fyrir rafræn heimilisfang aðila
+### <a name="steps-in-the-party-electronic-address-template"></a>Skref í sniðmáti fyrir rafrænt heimilisfang aðila
 
 1. Skref 1-1 til 1-5 sækja gögn bæði úr Finance and Operations appinu og viðskiptavinaforritinu og setja þau gögn í uppfærslu.
 2. Skref 2 sameinar rafræn heimilisföng í þátttökuforriti viðskiptavina frá reiknings-, tengiliða- og söluaðilum.
@@ -409,7 +409,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
     - Búðu til ný rafræn heimilisfangsgögn fyrir Finance and Operations appið, byggt á heimilisfangi reiknings, tengiliða og söluaðila.
     - Búðu til ný rafræn heimilisfangsgögn fyrir þátttökuforrit viðskiptavina, byggt á rafrænu heimilisfangi, reikningi, tengiliðum og heimilisfangi söluaðila í Finance and Operations appinu.
 
-5. Skref 5-1 flytur inn rafræn heimilisföng í þátttökuforritið fyrir viðskiptavini.
+5. Skref 5-1 flytur inn rafræn heimilisföng í þátttökuforrit viðskiptavina.
 6. Skref 5-2 býr til .csv skrár til að uppfæra aðalnetföng fyrir reikninga og tengiliði í forritinu fyrir þátttöku viðskiptavina.
 7. Skref 6-1 til 6-2 flyttu inn reikninga og tengiliðaaðföng í þátttökuforritið fyrir viðskiptavini.
 

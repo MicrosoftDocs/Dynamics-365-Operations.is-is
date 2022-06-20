@@ -1,6 +1,6 @@
 ---
 title: Virkja uppflettingu pöntunar fyrir gestakaup
-description: Í þessu efnisatriði er lýst hvernig á að virkja uppflettingu pöntunar fyrir greiðsluferli gesta í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að virkja pöntunarleit fyrir gestaafgreiðslur í Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 12/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: a2a10b122faae354b0ea002e43a9bd60157f6216
-ms.sourcegitcommit: 5f5a8b1790076904f5fda567925089472868cc5a
+ms.openlocfilehash: fe32bb59b6529dd9686ced92c1016f12a75a32d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7891501"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891988"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Virkja uppflettingu pöntunar fyrir gestakaup
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er lýst hvernig á að virkja uppflettingu pöntunar fyrir greiðsluferli gesta í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að virkja pöntunarleit fyrir gestaafgreiðslur í Microsoft Dynamics 365 Commerce.
 
 Pöntunarútlit fyrir útritun gesta gerir viðskiptavinum sem ganga frá kaupum sem gestanotendur kleift að fletta upp pöntunum sínum. Uppflettimöguleiki pöntunar er gagnlegur þegar viðskiptavinir vilja framkvæma aðgerðir eins og að athuga uppfyllingarstöðu vöru í pöntun, staðfesta heimilisfangið sem pöntun var send á, endurpanta vöru eða staðfesta verslunina þar sem pöntunin verður sótt.
 

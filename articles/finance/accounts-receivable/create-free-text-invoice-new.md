@@ -1,6 +1,6 @@
 ---
-title: Stofna reikning með frjálsum texta
-description: Í þessu efnisatriði er útskýrt hvernig á að stofna reikninga með frjálsum texta.
+title: Stofna textareikning
+description: Þessi grein útskýrir hvernig á að búa til ókeypis textareikninga.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 87dc6334baa83ace23b77d94da4d1e464cb0b574
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878161"
 ---
-# <a name="create-a-free-text-invoice"></a>Stofna reikning með frjálsum texta
+# <a name="create-a-free-text-invoice"></a>Stofna textareikning
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að stofna reikninga með frjálsum texta. Fyrir ferlið skal nota **USMF** sýnifyrirtækið.
+Þessi grein útskýrir hvernig á að búa til ókeypis textareikninga. Fyrir ferlið skal nota **USMF** sýnifyrirtækið.
 
 ## <a name="create-a-free-text-invoice"></a>Stofna textareikning
 
@@ -37,7 +37,7 @@ ms.locfileid: "8392886"
     * Ef verið er að nota umboð fyrir sameiginlegt evrópskt greiðslusvæði (SEPA) er umboðið fyrir beingreiðslu sjálfkrafa fært inn þegar viðskiptavinalykill er valinn.
 
 4. Sláið inn gildi í reitnum **Lýsing**.
-5. Í reitnum **Aðallykill** skal tilgreina lykilnúmer sem er ekki með víddir. Víddir verða færðar inn síðar í þessu efnisatriði.
+5. Í reitnum **Aðallykill** skal tilgreina lykilnúmer sem er ekki með víddir. Þú munt slá inn stærðir síðar í þessari grein.
 
     Einnig er hægt að færa inn einn eða fleiri stafi fyrir aðallykilinn og nota uppflettingu til að finna lykilinn.
 

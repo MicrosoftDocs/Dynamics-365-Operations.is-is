@@ -1,6 +1,6 @@
 ---
 title: BOM útreikninguar
-description: Samantekt kostnaðar og útreikningar söluverðs kallast uppskriftaútreikningar og eru ræstir á síðunni Útreikningur. Þetta efnisatriði veitir upplýsingar um útreikning uppskrifta.
+description: Samantekt kostnaðar og útreikningar söluverðs kallast uppskriftaútreikningar og eru ræstir á síðunni Útreikningur. Þessi grein veitir upplýsingar um útreikninga á uppskrift.
 author: JennySong-SH
 ms.date: 05/01/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 0a71a17efbca3945c5a1010cf7d523a85420e8e2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c19c15f807a809a68043a75ca935fa92217fcd5f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674590"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902803"
 ---
 # <a name="bom-calculations"></a>BOM útreikninguar
 
 [!include [banner](../includes/banner.md)]
 
-Samantekt kostnaðar og útreikningar söluverðs kallast uppskriftaútreikningar og eru ræstir á síðunni Útreikningur. Þetta efnisatriði veitir upplýsingar um útreikning uppskrifta.
+Samantekt kostnaðar og útreikningar söluverðs kallast uppskriftaútreikningar og eru ræstir á síðunni Útreikningur. Þessi grein veitir upplýsingar um útreikninga á uppskrift.
 
 Samantekt kostnaðar og útreikningar söluverðs kallast uppskriftaútreikningar og eru ræstir á síðunni **Útreikningur**. Smellið á síðuna **Útreikningar** til að framkvæma eftirfarandi verkefni:
 

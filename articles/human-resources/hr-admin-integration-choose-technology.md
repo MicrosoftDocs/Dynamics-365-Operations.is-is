@@ -1,6 +1,6 @@
 ---
 title: Velja tækni við samþættingu gagna
-description: Þetta efni veitir upplýsingar um samþættingu við gögn sem stýrt er af mannauði.
+description: Þessi grein veitir upplýsingar um samþættingu við gögn sem stýrt er af Human Resources.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 98c1c56b445ae426103d19f96cbf1a77891221ef
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 79aee04527eea5b673555f9c7de893a400a5c617
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887800"
 ---
 # <a name="choose-a-data-integration-technology"></a>Velja tækni við samþættingu gagna
 
@@ -30,7 +30,7 @@ ms.locfileid: "8717140"
 
 
 
-Þetta efnisatriði veitir upplýsingar um samþættingu við gögn sem stjórnað er af Dynamics 365 Human Resources. Það lýsir mismunandi samþættingartækni til að hjálpa þér að ákveða hvaða tækni hentar þínum þörfum best.
+Þessi grein veitir upplýsingar um samþættingu við gögn sem stjórnað er af Dynamics 365 Human Resources. Það lýsir mismunandi samþættingartækni til að hjálpa þér að ákveða hvaða tækni hentar þínum þörfum best.
 
 ## <a name="data-integration-background"></a>Bakgrunnur gagnasamþættingar
 
@@ -127,7 +127,7 @@ Excel-viðbætið er viðeigandi fyrir sértækan innflutning / útflutning gagn
 
 Þú getur notað [Gagnaaðlögunarþjónustu](/powerapps/administrator/data-integrator) til að samþætta gögn í og úr Dataverse. Gagnasamþættari gerir kleift að skilgreina samþættingarverk, oft byggð á fyrirfram skilgreindum sniðmátum sem forritarar hafa sniðið að tilteknum samþættingum. Þú getur áætlað samþættingarverk til að keyra sjálfkrafa á endurtekninni áætlun eða keyrt þau handvirkt.
 
-Gagnasamþættingarverk henta fyrir Dataverse runusamþættingar. Þau eru frábær valkostur fyrir samþættingu Dynamics 365 forritafjölskyldunnar. Til dæmis veitir Microsoft sniðmát Data Integrator til að samþætta gögn úr mannauði í Dynamics 365 Finance. Þú getur lært meira um sniðmátið í [Sameining frá Dynamics 365 Human Resources til Dynamics 365 Finance](hr-admin-integration-finance.md).
+Gagnasamþættingarverk henta fyrir Dataverse runusamþættingar. Þau eru frábær valkostur fyrir samþættingu Dynamics 365 forritafjölskyldunnar. Til dæmis útvegar Microsoft sniðmát Data Integrator til að samþætta gögn frá Human Resources í Dynamics 365 Finance. Þú getur lært meira um sniðmátið í [Sameining frá Dynamics 365 Human Resources til Dynamics 365 Finance](hr-admin-integration-finance.md).
 
 ### <a name="power-query"></a>Power Query
 

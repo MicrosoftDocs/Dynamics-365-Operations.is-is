@@ -1,6 +1,6 @@
 ---
 title: Setja upp símaversrásir
-description: Þetta efnisatriði veitir upplýsingar um hvernig á að vinna úr pöntunum fyrir símaver með því að nota Dynamics 365 Commerce.
+description: Þessi grein veitir upplýsingar um hvernig á að vinna úr pöntunum fyrir símaver með því að nota Dynamics 365 Commerce.
 author: josaw1
 ms.date: 02/04/2022
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64669c5bf71a4f1673f5ad2c46db7d3a2eaf2a97
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.openlocfilehash: c6d21385d956534c799af5b9e20a54c9970da368
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854872"
 ---
 # <a name="set-up-call-center-channels"></a>Setja upp símaversrásir
 
@@ -58,7 +58,7 @@ Að auki, ef kveikt er á stillingunni **Virkja lok pöntunar**, þegar notendur
 Jafnvel þótt slökkt sé á stillingunni **Virkja lok pöntunar** geta notendur enn notað upprunakóða á sölupöntun. Hins vegar verða þeir fyrst að opna upplýsingar sölupöntunarhauss til að fá aðgang að reitnum **Uppruni**. Með öðrum orðum þá er þörf á frekari smellum. Sama hegðun á við um eiginleika eins og afhendingu lokið og flýttar pantanir. Þessar aðgerðir eru tiltækir fyrir allar pantanir sem eru búnar til í símaverinu. Hins vegar þegar kveikt er á stillingunni **Virkja lok pöntunar** geta notendur séð grunnstillingar þessara aðgerða á söluhaus á meðan þeir eru í yfirliti færslulínu. Þeir þurfa ekki að kafa niður í upplýsingar sölupöntunarhauss til að finna viðeigandi stillingar og reiti.
 
 > [!NOTE]
-> Þegar **Umni-channel verslunarpöntunargreiðslur** eiginleiki er virkur, símaverið **Virkja pöntunarlok** hnappur verður falinn í höfuðstöðvum á **Almennt** Flýtiflipi rásarinnar þinnar á **Verslun og verslun \> Rásir \> Símaver**.
+> Þegar **Umni-rás viðskiptapöntunargreiðslur** eiginleiki er virkur, símaverið **Virkja pöntunarlok** hnappur verður falinn í höfuðstöðvum á **Almennt** Flýtiflipi rásarinnar þinnar á **Verslun og verslun \> Rásir \> Símaver**.
 
 ### <a name="enable-direct-selling"></a>Virkja beina sölu
 
@@ -77,7 +77,7 @@ Ef kveikt er á stillingunni **Virkja beina sölu** fyrir rás símaver geta not
 Sjálfgefið er að kveikt sé á flaggi **Sölu** á sölupöntunarhaus fyrir allar pantanir sem notandi símavers býr til. Pantanir geta síðan notfært sér eiginleika Commerce-sértækra verða og kynningartilboða kerfisins.
 
 
-Notendur sem eru ekki tengdir við rás símavers nota staðlaða eiginleika pöntunarfærslu í Microsoft Dynamics 365 Finance. Pantanir sem þessir notendur færa inn í gegnum skjámynd sölupöntunarfærslu verða ekki kerfisbundið auðkenndar sem Commerce pantanir. Þar að auki munu pantanirnar sem þessir notendur hafa fært inn ekki heyra undir neinar úrvinnslureglur pöntunarloka, verðlagningu eða aðrar villuprófanir á pöntun sem hægt er að skilgreina í grunnstillingum símaversrásar eða kerfisfæribreytum símavers.
+Notendur sem eru ekki tengdir við símaver rás nota staðlaða pöntunarfærslu eiginleika Microsoft Dynamics 365 Fjármál. Pantanir sem þessir notendur færa inn í gegnum skjámynd sölupöntunarfærslu verða ekki kerfisbundið auðkenndar sem Commerce pantanir. Þar að auki munu pantanirnar sem þessir notendur hafa fært inn ekki heyra undir neinar úrvinnslureglur pöntunarloka, verðlagningu eða aðrar villuprófanir á pöntun sem hægt er að skilgreina í grunnstillingum símaversrásar eða kerfisfæribreytum símavers.
 
 Þegar stillingu á rás símavers og skilgreiningu á rásarnotendum er lokið, til að hjálpa að tryggja æskilega kerfishegðun, skal ganga úr skugga um að allar nauðsynlegar færibreytur símavers séu skilgreindar í **Retail og Commerce** \> **Uppsetning rásar** \> **Uppsetning símavers** \> **Færibreytur símavers**. Tryggja skal að tengdar númeraraðir séu einnig skilgreindar.
 

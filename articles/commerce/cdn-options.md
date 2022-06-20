@@ -1,6 +1,6 @@
 ---
 title: Valkostir innleiðingar á efnisbirtingarneti
-description: Í þessu efnisatriði er farið yfir mismunandi valmöguleika fyrir innleiðingu efnisbirtingarnets (CDN) sem hægt er að nota með Microsoft Dynamics 365 Commerce-umhverfum. Þessir valmöguleikar fela í sér innbyggð tilvik af Azure Front Door sem Commerce býður upp á og tilvik Azure Front Door í eigu viðskiptavinar.
+description: Þessi grein fer yfir mismunandi valkosti fyrir innleiðingu efnisafhendingarnets (CDN) sem hægt er að nota með Microsoft Dynamics 365 Commerce umhverfi. Þessir valmöguleikar fela í sér innbyggð tilvik af Azure Front Door sem Commerce býður upp á og tilvik Azure Front Door í eigu viðskiptavinar.
 author: BrianShook
 ms.date: 07/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 944123f3afe1c869c262da3997a73d8c60bbc366
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a63751d42ab98610904191f1c09794b2311b0189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692726"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884418"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Valkostir innleiðingar á efnisbirtingarneti
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er farið yfir mismunandi valmöguleika fyrir innleiðingu efnisbirtingarnets (CDN) sem hægt er að nota með Microsoft Dynamics 365 Commerce-umhverfum. Þessir valmöguleikar fela í sér innbyggð tilvik af Azure Front Door sem Commerce býður upp á og tilvik Azure Front Door í eigu viðskiptavinar.
+Þessi grein fer yfir mismunandi valkosti fyrir innleiðingu efnisafhendingarnets (CDN) sem hægt er að nota með Microsoft Dynamics 365 Commerce umhverfi. Þessir valmöguleikar fela í sér innbyggð tilvik af Azure Front Door sem Commerce býður upp á og tilvik Azure Front Door í eigu viðskiptavinar.
 
 Viðskiptavinir Commerce hafa úr nokkrum kostum að velja þegar þeir taka ákvörðun um hvaða CDN-þjónustu þeir ætli sér að nota með Commerce-umhverfinu. Commerce er gefið út með grunnstuðningi Azure Front Door sem nær yfir grunnhýsingu og sérsniðnum kröfum um lén. Fyrir fyrirtæki sem vilja hafa meiri stjórn og sértækari öryggisráðstafanir, t.d. eldvegg vefforrits (WAF), gæti besti valkosturinn verið sá að nota annaðhvort tilvik af Azure Front Door í eigu viðskiptavinar eða ytri CDN-þjónustu.
 

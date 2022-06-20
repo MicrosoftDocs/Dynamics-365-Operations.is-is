@@ -1,6 +1,6 @@
 ---
 title: Hönnunareigindir og leit að hönnunareigind
-description: Þetta efnisatriði útskýrir hvernig hægt er að nota hönnunareigindir til að skilgreina alla eiginleika sem ekki eru staðlaðir til að tryggja að hægt sé að skrá öll gögn afurðarsniðmáts í kerfinu. Efnisatriðið útskýrir einnig hvernig hægt er að nota leit hönnunareigindar til að leita að afurðum með tilgreinda eiginleika á skjótan hátt.
+description: Þessi grein útskýrir hvernig þú getur notað verkfræðieiginleika til að tilgreina alla óstöðluðu eiginleika, til að tryggja að hægt sé að skrá öll afurðaraðalgögn í kerfið. Efnisatriðið útskýrir einnig hvernig hægt er að nota leit hönnunareigindar til að leita að afurðum með tilgreinda eiginleika á skjótan hátt.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 59710f0366418e240a4109e7cf8fcf84073110bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 4b25ab0bfda08b7aa091de8c6833007c586b9c87
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852564"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>Hönnunareigindir og leit að hönnunareigind
 

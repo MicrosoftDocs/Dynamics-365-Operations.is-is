@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f88dd1c23153d325709e28b056f902b555f05376
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675376"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846214"
 ---
 # <a name="compare-item-prices-storage-report"></a>Berðu saman geymsluskýrslu vöruverðs
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að keyra skýrsluna **Bera saman geymslu vöruverðs** og gerir úttakið tiltækt á stafrænu formi, annaðhvort sem gagnvirka síðu í Dynamics 365 Supply Chain Management, eða sem útflutt skjal á einhverju af nokkrum sniðum.
+Þessi grein útskýrir hvernig á að keyra a **Bera saman vöruverð geymsla** tilkynna og gera úttakið aðgengilegt stafrænt, annað hvort sem gagnvirka síðu í Dynamics 365 Supply Chain Management, eða sem útflutt skjal á einhverju af nokkrum sniðum.
 
 Þegar þú skoðar skýrsluna í vafranum er dálkum og samanlögðum stöðum gagnvirkt breytt, allt eftir stilltu skipulagi. Þú getur flokkað niðurstöðurnar, síað þær, borað niður í gögnin og fleira.
 

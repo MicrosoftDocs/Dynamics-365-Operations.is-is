@@ -1,6 +1,6 @@
 ---
 title: Skilgreina Dynamics 365 Commerce matsumhverfi
-description: Þetta efnisatriði útskýrir hvernig á að grunnstilla Microsoft Dynamics 365 Commerce matsumhverfi eftir úthlutun þess.
+description: Þessi grein útskýrir hvernig á að stilla a Microsoft Dynamics 365 Commerce matsumhverfi eftir að það hefur verið útvegað.
 author: psimolin
 ms.date: 05/12/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9738700ca495d54c91ad91aa9c5a3d32c95a5a5
-ms.sourcegitcommit: 4a973ac0e7af0176270a8070a96a52293567dfbf
-ms.translationtype: MT
+ms.openlocfilehash: 19d88139e35554bce68bc6203141957b96e439a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "8747638"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892331"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Skilgreina Dynamics 365 Commerce matsumhverfi
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að grunnstilla Microsoft Dynamics 365 Commerce matsumhverfi eftir úthlutun þess.
+Þessi grein útskýrir hvernig á að stilla a Microsoft Dynamics 365 Commerce matsumhverfi eftir að það hefur verið útvegað.
 
-Ljúktu aðeins við aðgerðirnar í þessu efnisatriði eftir að forskoðunarumhverfi fyrir Commerce hefur verið úthlutað. Frekari upplýsingar um hvernig á að úthluta matsumhverfinu í Commerce er að finna í [Úthlutun Commerce-matsumhverfis](provisioning-guide.md).
+Ljúktu aðeins við aðferðirnar í þessari grein eftir að viðskiptamatsumhverfið þitt hefur verið útvegað. Frekari upplýsingar um hvernig á að úthluta matsumhverfinu í Commerce er að finna í [Úthlutun Commerce-matsumhverfis](provisioning-guide.md).
 
 Eftir að Commerce-umhverfismatinu hefur verið úthlutað í heild sinni, þarf að ljúka nokkrum grunnstillingarskrefum eftir úthlutun áður en hægt er að leggja mat á umhverfið. Til að klára þessi skref verður þú að nota Microsoft Dynamics Lifecycle Services (LCS) og Dynamics 365 Commerce.
 
@@ -157,7 +157,7 @@ Til að grunnstilla valfrjálsa eiginleika fyrir Commerce-matsumhverfið skal sk
 
 ### <a name="site-builder-channel-list-is-empty-when-configuring-site"></a>Ráalisti vefsvæðisgerðarmanns er tómur þegar vefsvæði er stillt
 
-Ef vefsmiður sýnir engar netverslunarrásir, tryggðu í höfuðstöðvunum að rásunum hafi verið bætt við viðskiptaskalaeininguna eins og lýst er í [Áður en þú byrjar](#before-you-start) kafla hér að ofan. Einnig, hlaupa **Frumstilla viðskiptaáætlun** með **Eyða núverandi uppsetningu** gildi stillt á **Já**.  Þegar þessum skrefum er lokið, á **Rásar gagnagrunnur** síða (**Verslun og verslun \> Uppsetning höfuðstöðva \> Viðskiptaáætlun \> Rásar gagnagrunnur**), keyra **9999** starf á verslunarsviði.
+Ef vefsmiður sýnir engar netverslunarrásir, tryggðu í höfuðstöðvunum að rásunum hafi verið bætt við viðskiptaskalaeininguna eins og lýst er í [Áður en þú byrjar](#before-you-start) kafla hér að ofan. Einnig, hlaupa **Frumstilla viðskiptaáætlun** með **Eyða núverandi uppsetningu** gildi stillt á **Já**.  Þegar þessum skrefum er lokið, á **Rásar gagnagrunnur** síða (**Verslun og verslun \> Uppsetning höfuðstöðva \> Viðskiptaáætlun \> Rásar gagnagrunnur**), keyra **9999** starf á verslunarsviðinu.
 
 ### <a name="color-swatches-are-not-rendering-on-the-category-page-but-are-rendering-on-the-product-details-page-pdp-page"></a>Litapróf eru ekki birt á flokkasíðunni, heldur eru þau birt á vöruupplýsingasíðunni (PDP) síðunni
 
@@ -166,7 +166,7 @@ Fylgdu þessum skrefum til að tryggja að lita- og stærðarsýnin séu stillt 
 1. Í höfuðstöðvunum, farðu til **Verslun og verslun \> Rásaruppsetning \> Rásarflokkar og vörueiginleikar**.
 1. Í vinstri glugganum, veldu netverslunarrásina og veldu síðan **Stilltu lýsigögn eiginda**.
 1. Stilltu **Sýna eigind á rás** valmöguleika til **Já**, stilltu **Hægt að betrumbæta** valmöguleika til **Já**, og veldu síðan **Vista**. 
-1. Farðu aftur á rásarsíðu netverslunarinnar og veldu síðan **Birtu rásaruppfærslur**.
+1. Farðu aftur á rásarsíðu netverslunarinnar og veldu síðan **Birta rásaruppfærslur**.
 1. Fara til **Verslun og verslun \> Uppsetning höfuðstöðva \> Viðskiptaáætlun \> Rásar gagnagrunnur** og keyra **9999** starf á verslunarsviði.
 
 ### <a name="business-features-dont-appear-to-be-turned-on-for-the-adventureworks-business-site"></a>Viðskiptaeiginleikar virðast ekki vera kveiktir á AdventureWorks viðskiptasíðu

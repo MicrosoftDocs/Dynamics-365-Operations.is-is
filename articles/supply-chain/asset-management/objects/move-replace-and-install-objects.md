@@ -1,6 +1,6 @@
 ---
 title: Færa, skipta út og setja upp eignir
-description: Þetta efni útskýrir hvernig á að færa, skipta út og setja upp eignir í eignastýringu.
+description: Þessi grein útskýrir hvernig á að færa, skipta út og setja upp eignir í eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aad94f17d6efadf7c520c021354963e7135d6d4da1426774925ce877f705e01a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769636"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872125"
 ---
 # <a name="move-replace-and-install-assets"></a>Færa, skipta út og setja upp eignir
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769636"
 
  
 
-Þetta efni útskýrir hvernig á að færa, skipta út og setja upp eignir í eignastýringu. Þú getur búið til einstakar eignir sem hafa engin tengsl við aðrar eignir, eða þú getur búið til eignaskipulag sem felur í sér yfireign (efsta eign) og tengdar undireignir (undireignir). Í eignastýringu eru þrjár leiðir til að færa og breyta staðsetningu eignar:
+Þessi grein útskýrir hvernig á að færa, skipta út og setja upp eignir í eignastýringu. Þú getur búið til einstakar eignir sem hafa engin tengsl við aðrar eignir, eða þú getur búið til eignaskipulag sem felur í sér yfireign (efsta eign) og tengdar undireignir (undireignir). Í eignastýringu eru þrjár leiðir til að færa og breyta staðsetningu eignar:
 
 - **Færa** - Færa eign annaðhvort í aðra eignaskipan eða á annan stað í sömu eignaskipan.
 - **Skipta út** - Fjarlægðu eign tímabundið úr eignaskipan svo hægt sé að gera við eða endurnýja hana og bæta síðan endurnýjuðu eigninni aftur við eignaskipan síðar. Að öðrum kosti, skipta varanlega notuðu eign út fyrir nýja eign.
@@ -42,7 +42,7 @@ ms.locfileid: "6769636"
 Notaðu virknina **Færa eign** til að færa eign annaðhvort í aðra eignaskipan eða á annan stað í sömu eignaskipan. Þú getur líka fært eign út úr eignaskipan þannig að hún verði sjálfstæða eign sem hefur engin tengsl við uppbyggingu.
 
 > [!NOTE]
-> Ekki nota þessa aðgerð ef verið er að gera við eignir eða skipta tímabundið út. Notaðu í staðinn virknina **Skipta út eign** sem lýst er síðar í þessu efni.
+> Ekki nota þessa aðgerð ef verið er að gera við eignir eða skipta tímabundið út. Í staðinn skaltu nota **Skiptu um eign** virkni sem lýst er síðar í þessari grein.
 
 1. Veldu **Eignastýring** \> **Sameiginlegt** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**.
 2. Á listanum, veljið eign til að færa. Ef eignin er með undireignir þá færir þú líka þessar eignir.

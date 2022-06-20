@@ -1,6 +1,6 @@
 ---
-title: Settu upp skattaflokka
-description: Þetta efnisatriði útskýrir hvernig á að setja upp skattflokka í skattaútreikningsþjónustunni.
+title: Setja upp skattflokka
+description: Þessi grein útskýrir hvernig á að setja upp skattflokka í Skattútreikningsþjónustunni.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,25 +13,25 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 50abafb958edfb8476434ff5842cd84cb186962f
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 89c5670ee7e78f2dc51f128c3ae8d284bb6b925b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862900"
 ---
-# <a name="set-up-tax-groups"></a>Settu upp skattaflokka
+# <a name="set-up-tax-groups"></a>Setja upp skattflokka
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja upp skattflokka í skattaútreikningsþjónustunni. Það útskýrir einnig hvernig á að setja upp reglufylki skattaflokks gilda og stilla línur í fylkinu.
+Þessi grein útskýrir hvernig á að setja upp skattflokka í Skattútreikningsþjónustunni. Það útskýrir einnig hvernig á að setja upp reglufylki skattaflokks gilda og stilla línur í fylkinu.
 
-Hugtakið skattaflokkar í skattaútreikningsþjónustunni líkist hugmyndinni um söluskattsflokka í Microsoft Dynamics 365 Finance. Þetta eru hópar skattakóða. Skattútreikningsþjónustan notar skurðpunkta skattflokks og vöruskattsflokks til að ákvarða skattkóðana.
+Hugtakið skattflokkar í Skattútreikningsþjónustunni líkist hugtakinu söluskattsflokkar í Microsoft Dynamics 365 Fjármál. Þetta eru hópar skattakóða. Skattútreikningsþjónustan notar skurðpunkta skattflokks og vöruskattsflokks til að ákvarða skattkóðana.
 
 Hins vegar eru skattflokkar í Skattútreikningsþjónustunni frábrugðnir söluskattsflokkum í Fjármálum að því leyti að engar aukafæribreytur eru á þeim, s.s.**Notaðu skatt** og **Undanþágur skattur**. Þess í stað eru þessar færibreytur tiltækar á skattakóðastigi.
 
 > [!IMPORTANT]
-> Uppsetning skattflokka í Skattútreikningsþjónustunni er lögaðili-agnostic. Þú getur klárað þessa uppsetningu í Regulatory Configuration Service (RCS) aðeins einu sinni. Þegar þú virkjar skattaútreikningsþjónustuna í Finance eru skattflokkar sjálfkrafa samstilltir fyrir valda lögaðila.
+> Uppsetning skattflokka í Skattútreikningsþjónustunni er lögaðili-agnostic. Þú getur aðeins klárað þessa uppsetningu í Regulatory Configuration Service (RCS) einu sinni. Þegar þú virkjar skattaútreikningsþjónustuna í Finance, eru skattflokkar sjálfkrafa samstilltir fyrir valda lögaðila.
 
 ## <a name="set-up-a-tax-group"></a>Settu upp skattaflokk
 
@@ -48,7 +48,7 @@ Fylgdu þessum skrefum til að setja upp skattaflokk.
 
 7. Veldu hægri örvarhnappinn til að bæta við **Skattahópur** til **Valdir dálkar** lista til hægri.
 
-    ![Skattflokkur bætt við listann Valdir dálkar.](media/add-tax-group.png)
+    ![Skattflokkur bætt við Valda dálka listann.](media/add-tax-group.png)
 
 8. Veldu **Í lagi**.
 

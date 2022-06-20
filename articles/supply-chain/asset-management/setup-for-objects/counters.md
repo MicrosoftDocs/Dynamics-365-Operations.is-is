@@ -1,6 +1,6 @@
 ---
 title: Eignamælingar
-description: Umræðuefnið útskýrir hvernig á að stofna eignamælingar í eignastýringu.
+description: Greinin útskýrir hvernig á að búa til gerðir eignamælinga í eignastýringu.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc515615afaa172e1832508d79e202b166f134a9171a0a35ea4f372f9d19b7e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1bcef89265697c1898b7d61a0b0ae6331ce1c851
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723576"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909673"
 ---
 # <a name="counters"></a>Teljarar
 
 [!include [banner](../../includes/banner.md)]
 
-Umræðuefnið útskýrir hvernig á að stofna teljaramælingar í eignastýringu. Gerðir teljaramælinga eru notaðar til að gera teljaraskráningar á eignir, til dæmis varðandi fjölda framleiðslutíma eða magn framleitt á eigninni. Tegundir eigna eru tengdar gerðum teljara. Þetta þýðir að einungis er hægt að nota teljara á eign ef teljarinn er sett upp á eignategundinni sem notuð er á eigninni.
+Greinin útskýrir hvernig á að búa til teljarategundir í eignastýringu. Gerðir teljaramælinga eru notaðar til að gera teljaraskráningar á eignir, til dæmis varðandi fjölda framleiðslutíma eða magn framleitt á eigninni. Tegundir eigna eru tengdar gerðum teljara. Þetta þýðir að einungis er hægt að nota teljara á eign ef teljarinn er sett upp á eignategundinni sem notuð er á eigninni.
 
 Áður en þú getur gert teljaraskráningar á eignir þarf fyrst að stofna þær teljaragerðir sem þú vilt nota í **Teljarar**. Næst geturðu búið til teljaraskráningar á eignum í **Teljarar**. 
 

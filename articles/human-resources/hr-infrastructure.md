@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources sameining innviða - Útgáfa 10.0.25 uppfærsla
-description: Þetta efni veitir upplýsingar um Microsoft Dynamics 365 Human Resources útgáfu 10.0.25, sem færir fyrstu bylgju getu í innviðasamruna.
+description: Þessi grein veitir upplýsingar um Microsoft Dynamics 365 Human Resources útgáfu 10.0.25, sem færir fyrstu bylgju getu í innviðasamruna.
 author: twheeloc
 ms.date: 01/19/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bf7ce43785e3ef485074f2b0294caea381f8f726
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6be51c894d801ca0e7d211f1a6aeff0d68727662
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688093"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868069"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge---release-10025-update"></a>Dynamics 365 Human Resources sameining innviða - Útgáfa 10.0.25 uppfærsla
 
@@ -71,8 +71,8 @@ Sameiningin mun veita mannauðsnotendum samræmi á eftirfarandi hátt:
 | **Starfsmenn án atvinnu** síðu | Síða sýnir lista yfir starfsmenn sem ekki hafa starfsskrá. | 
 | Uppfærsla notendaupplifunar á stöðuvídd | Það er aukin notendaupplifun til að úthluta stöðuvíddum fyrir hvern lögaðila. | 
 | Heimilisfangsbreytingar í **Starfsmannastjórnun** vinnurými | Þessi eiginleiki gefur upp talningu á öllum heimilisfangsbreytingum sem áttu sér stað á tilteknum fjölda daga, eins og skilgreint er á **Stærðir mannauðs** síðu. | 
-| Skrár að renna út í **Starfsmannastjórnun** vinnurými | Þessi eiginleiki gefur upp lista yfir hluti sem eru útrunnir eða munu renna út fyrir skírteini, auðkenningar, skilorð, skimun eða próf. | 
+| Skrár að renna út í **Starfsmannastjórnun** vinnurými | Þessi eiginleiki veitir lista yfir hluti sem eru útrunnir eða munu renna út fyrir skírteini, auðkenni, skilorð, skimun eða próf. | 
 | **Staðfesting stigveldis** síðu | Athugun er gerð fyrir hringlaga tilvísanir í stigveldi stöðulínu. | 
 | Landssértækar launaupplýsingar | Fleiri launareitir eru fáanlegir á **Atvinna verkamanna** síðu, allt eftir landi eða svæði lögaðilans þar sem starfsmenn eru starfandi. | 
-| Endurbætur á regluvörsluskýrslu | Viðbótartilkynningarmöguleikar eru í boði fyrir EEO-1, Vets 4212 og OSHA300a. | 
+| Endurbætur á reglufylgni | Viðbótartilkynningarmöguleikar eru í boði fyrir EEO-1, Vets 4212 og OSHA300a. | 
 | Uppfærslur á **Starfsmannastjórnun** vinnurými | Uppfærslur hafa verið gerðar til að fylgjast með breytingum á heimilisfangi og skrám sem renna út. Að auki birta nýir flipar starfsmanns- og stöðuaðgerðir. | 

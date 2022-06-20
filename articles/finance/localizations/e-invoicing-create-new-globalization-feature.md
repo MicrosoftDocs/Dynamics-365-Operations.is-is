@@ -1,6 +1,6 @@
 ---
 title: Búðu til hnattvæðingareiginleika
-description: Þetta efni útskýrir hvernig á að búa til hnattvæðingareiginleika.
+description: Þessi grein útskýrir hvernig á að búa til hnattvæðingareiginleika.
 author: dkalyuzh
 ms.date: 02/14/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94038b0eb412632c348081bbf467f44310d9e955
-ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
+ms.openlocfilehash: c622b350f79d36b8fda12598ceae57ee9c7095e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "8603026"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889831"
 ---
 # <a name="create-a-globalization-feature"></a>Búðu til hnattvæðingareiginleika
 
@@ -53,7 +53,7 @@ Fylgdu þessum skrefum til að búa til eiginleika rafrænna reikninga.
 
 Þú getur sleppt þessum hluta ef þú þarft ekki að búa til ER stillingar en getur endurnýtt núverandi útgáfur sem grunn.
 
-Þetta ferli sýnir hvernig á að búa til skráarsniðsstillingarnar sem eru nauðsynlegar fyrir nýja rafræna reikningseiginleikann sem þú vilt búa til. Búðu til skráarsnið rafrænna reikninga og allar aðrar stillingar skráarsniðs sem nýja rafræna reikningseiginleikinn þinn krefst.
+Þetta ferli sýnir hvernig á að búa til skráarsniðsstillingarnar sem eru nauðsynlegar fyrir nýja rafræna reikningseiginleikann sem þú vilt búa til. Búðu til skráarsnið rafrænna reikninga og allar aðrar skráarsniðstillingar sem nýi rafræni reikningseiginleikinn þinn krefst.
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
 2. Á vinnusvæðinu **Rafræn skýrslugerð** skal velja reitinn **Skilgreiningar skýrslugerðar**.

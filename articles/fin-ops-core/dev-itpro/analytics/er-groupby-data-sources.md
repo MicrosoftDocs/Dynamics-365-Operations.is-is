@@ -1,6 +1,6 @@
 ---
 title: Flokkaðu færslur og uppsafnaða útreikninga með því að nota GROUPBY gagnaveitur
-description: Þetta efnisatriði útskýrir hvernig þú getur notað GROUPBY gerð gagnagjafa í rafrænni skýrslugerð (ER).
+description: Þessi grein útskýrir hvernig þú getur notað GROUPBY gerð gagnagjafa í rafrænni skýrslugerð (ER).
 author: NickSelin
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b79dfe62122a031ae9ed7f51ea7ff578cd47358
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 7b20b5db0794157560f27f15594a84083966642f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861788"
 ---
 # <a name="group-records-and-aggregate-calculations-by-using-groupby-data-sources"></a>Flokkaðu færslur og uppsafnaða útreikninga með því að nota GROUPBY gagnaveitur
 
@@ -48,7 +48,7 @@ ms.locfileid: "8462298"
 
 ## <a name="execution-location"></a><a name="ExecutionLocation"></a>Staðsetning keyrslu
 
-Þegar þú breytir a **GroupBy** gagnagjafa og tilgreinið grunngagnagjafann sem inniheldur færslurnar sem þarf að flokka, kerfið finnur sjálfkrafa skilvirkustu [staðsetningu](#ExecutionLocation) fyrir framkvæmd þess **GroupBy** gagnagjafa. Ef grunngagnagjafinn er [fyrirspurnahæft](er-functions-list-filter.md#usage-notes) (þ.e. ef hægt er að keyra hann á gagnagrunnsstigi), er forritagagnagrunnurinn einnig tilgreindur sem framkvæmdarstaður breytanlegs **GroupBy** gagnagjafa. Annars er minni forritaþjónsins tilgreint sem framkvæmdarstaður.
+Þegar þú breytir a **GroupBy** gagnagjafa og tilgreindu grunngagnagjafann sem inniheldur færslurnar sem þarf að flokka, kerfið finnur sjálfkrafa skilvirkustu [staðsetningu](#ExecutionLocation) fyrir framkvæmd þess **GroupBy** gagnagjafa. Ef grunngagnagjafinn er [fyrirspurnahæft](er-functions-list-filter.md#usage-notes) (þ.e. ef hægt er að keyra hann á gagnagrunnsstigi), er forritagagnagrunnurinn einnig tilgreindur sem framkvæmdarstaður breytanlegs **GroupBy** gagnagjafa. Annars er minni forritaþjónsins tilgreint sem framkvæmdarstaður.
 
 Þú getur handvirkt breytt sjálfvirkri framkvæmdarstaðsetningu með því að velja staðsetningu sem á við um stillta gagnagjafann. Ef framkvæmdarstaðurinn sem er valinn á ekki við, a [staðfestingarvilla](er-components-inspections.md#i5) er hent á hönnunartíma.
 
@@ -61,7 +61,7 @@ Sjálfgefið, ef a **GroupBy** gagnagjafi er keyrður í minni, er minni forrita
 
 ## <a name="alternatives"></a><a name="Alternatives"></a> Valkostir
 
-Hægt er að reikna út svipaðar samanlagnir með því að nota [öðruvísi](er-data-collection-data-sources.md#if-i-have-to-calculate-running-totals-and-collect-data-what-is-the-difference-between-using-a-data-collection-data-source-and-using-the-built-in-data-collection-functions) tegundir gagnagjafa eða ER innbyggðar aðgerðir.
+Hægt er að reikna svipaðar samanlagnir með því að nota [öðruvísi](er-data-collection-data-sources.md#if-i-have-to-calculate-running-totals-and-collect-data-what-is-the-difference-between-using-a-data-collection-data-source-and-using-the-built-in-data-collection-functions) tegundir gagnagjafa eða ER innbyggðar aðgerðir.
 
 Til að læra meira um þennan eiginleika skaltu ljúka við dæmið sem fylgir.
 
@@ -69,7 +69,7 @@ Til að læra meira um þennan eiginleika skaltu ljúka við dæmið sem fylgir.
 
 Þetta dæmi sýnir hvernig notandi í hlutverki kerfisstjóra eða rafrænnar skýrslugerðar ráðgjafa getur stillt ER líkanavörpun sem hefur **HÓPBYGGING** gagnagjafi sem er notaður til að reikna út samanlagðar aðgerðir og hópskrár. Þessi líkanvörpun er notuð til að prenta eftirlitsskýrsluna þegar Intrastat yfirlýsingin er mynduð. Sú skýrsla gerir þér kleift að skoða tilkynntar Intrastat færslur.
 
-Hægt er að ljúka verklagsreglunum í þessu dæmi í **DEMF** fyrirtæki í Microsoft Dynamics 365 Finance. 
+Hægt er að ljúka verklagsreglunum í þessu dæmi í **DEMF** fyrirtæki í Microsoft Dynamics 365 Fjármál. 
 
 ### <a name="prepare-sample-data"></a>Undirbúa sýnishornsgögn
 
@@ -83,9 +83,9 @@ Fylgdu skrefunum í [Skilgreina ramma rafrænnar skýrslugerðar](er-quick-start
 
 ### <a name="import-the-standard-er-format-configuration"></a>Flytja inn staðlaða skilgreiningu rafræns skýrslugerðarsniðs
 
-Fylgdu skrefunum í [Flytja inn staðlaða skilgreiningu rafræns skýrslugerðarsniðs](er-quick-start2-customize-report.md#ImportERSolution1) til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núverandi tilvik af Dynamics 365 Finance. Flytja inn útgáfu 1 af **Intrastat líkan** stillingar úr geymslunni.
+Fylgdu skrefunum í [Flytja inn staðlaða ER sniðstillingu](er-quick-start2-customize-report.md#ImportERSolution1) til að bæta stöðluðum ER stillingum við núverandi tilvik þitt af Dynamics 365 Finance. Flytja inn útgáfu 1 af **Intrastat líkan** stillingar úr geymslunni.
 
-### <a name="create-a-custom-data-model-configuration"></a>Búðu til sérsniðna uppsetningu gagnalíkana
+### <a name="create-a-custom-data-model-configuration"></a>Búðu til sérsniðna gagnalíkanstillingu
 
 Fylgdu skrefunum í [Bættu við sérsniðinni gagnalíkönstillingu](er-quick-start3-customize-report.md#add-a-custom-data-model-configuration) til að bæta við nýju handvirkt **Intrastat líkan (Litware)** Uppsetning ER gagnalíkans sem þú færð úr innfluttu **Intrastat líkan** stillingar.
 
@@ -152,7 +152,7 @@ Fylgdu skrefunum í [Búðu til nýja gerð kortlagningarstillingar](er-quick-st
 8. Í **Nafn** reit, slá inn **Intrastat kortlagning**.
 9. Veldu **Hönnuður** til að stilla nýju kortlagninguna.
 
-### <a name="design-the-added-model-mapping-component"></a>Hannaðu viðbætta líkankortlagningarhlutann
+### <a name="design-the-added-model-mapping-component"></a>Hannaðu viðbætta líkankortahlutann
 
 #### <a name="add-a-data-source-to-access-an-application-table"></a><a name="AddMmDataSource1"></a> Bættu við gagnagjafa til að fá aðgang að forritatöflu
 
@@ -178,15 +178,15 @@ Stilla a **GroupBy** gagnagjafi til að flokka Intrastat færslur og reikna sama
 8. Veldu **Færsla\Upphæð MST** reit og fylgdu síðan þessum skrefum:
 
     1. Veldu **Bæta reit við \> Samanlagt reitir** að gefa til kynna að an<a name="AggregateFunctions">samanlagt fall</a> verður reiknað fyrir þennan reit.
-    2. Í **Söfnun** glugga, í færslunni sem hefur verið bætt við fyrir valið **Færsla\Upphæð MST** sviði, í **Aðferð** reit, veldu **Summa** virka.
+    2. Í **Söfnun** glugganum, í færslunni sem hefur verið bætt við fyrir valið **Færsla\Upphæð MST** sviði, í **Aðferð** reit, veldu **Summa** virka.
     3. Í **Nafn** valfrjáls reit, slá inn **TotalInvoicedAmount**.
 
-    Þessar stillingar tilgreina að fyrir hvern flutningshóp sé heildarupphæð **Færsla\Upphæð MST** reit verður reiknað út.
+    Þessar stillingar tilgreina að fyrir hvern flutningshóp, heildarupphæð **Færsla\Upphæð MST** reit verður reiknað út.
 
 9. Veldu **Færsla\RecId** reit og fylgdu síðan þessum skrefum:
 
-    1. Veldu **Bæta reit við \> Samanlagt reitir** til að gefa til kynna að heildarfall verði reiknað fyrir þennan reit.
-    2. Í **Söfnun** glugga, í færslunni sem hefur verið bætt við fyrir valið **Færsla\RecId** sviði, í **Aðferð** reit, veldu **Telja** virka.
+    1. Veldu **Bæta reit við \> Samanlagt reitir** til að gefa til kynna að uppsafnað fall verði reiknað fyrir þennan reit.
+    2. Í **Söfnun** glugganum, í færslunni sem hefur verið bætt við fyrir valið **Færsla\RecId** sviði, í **Aðferð** reit, veldu **Telja** virka.
     3. Í **Nafn** valfrjáls reit, slá inn **NumberOfTransactions**.
 
     Þessar stillingar tilgreina að fyrir hvern flutningshóp verði fjöldi færslur í hópnum reiknaður út.
@@ -224,7 +224,7 @@ Binddu stillta gagnagjafann við reiti gagnalíkans til að tilgreina hvernig ga
     5. Veldu **TransportRecord.aggregated.TotalInvoicedAmount** samanlagður reitur.
     6. Veldu **Binda**.
 
-6. Bættu við bindingu til að afhjúpa færsluskrár sem tilheyra hverjum fundinum flutningshópi:
+6. Bættu við bindingu til að afhjúpa færsluskrár sem tilheyra hverjum uppgötvaðum flutningshópi:
 
     1. Veldu **Flutningur.Viðskipti** gagnalíkan hlut.
     2. Veldu **TransportRecord.lines** sviði.
@@ -254,7 +254,7 @@ Nota [Villuleitari fyrir ER gagnagjafa](er-debug-data-sources.md) til að prófa
 The **Flutningaskrá** gagnagjafi afhjúpar tvær skrár og sýnir tvo flutningskóða. Fyrir hvern flutningskóða er reiknaður fjöldi færslna og heildarupphæð reikninga.
 
 > [!NOTE]
-> „Latur lestur“ nálgunin er notuð þegar a **GroupBy** gagnagjafi er kallaður til að hámarka gagnagrunnssímtöl. Þess vegna eru sum svæðisgildanna í a **GroupBy** gagnagjafar eru aðeins reiknaðir í villuleitarforriti ER gagnagjafar þegar þeir eru bundnir við reiti gagnalíkana.
+> „Latur lestur“ nálgunin er notuð þegar a **GroupBy** gagnagjafi er kallaður til að hámarka gagnagrunnssímtöl. Þess vegna eru sum svæðisgildanna í a **GroupBy** gagnagjafar eru aðeins reiknaðir í villuleitarforriti ER gagnagjafar þegar þeir eru bundnir við gagnalíkanareit.
 
 ![Niðurstöður villuleitar gagnauppsprettu á síðunni Villuleit gagnaheimildir.](./media/er-groupby-data-sources-debug-datasource.png)
 
@@ -264,7 +264,7 @@ The **Flutningaskrá** gagnagjafi afhjúpar tvær skrár og sýnir tvo flutnings
 
 Já. Til að reikna heildartölur skaltu stilla aðra **GroupBy** gagnaveita þar sem **GroupBy** gagnagjafi sem þú áður stilltir er notaður sem grunngagnagjafi. Eftirfarandi mynd sýnir **Samtals** gagnauppspretta **GroupBy** tegund sem er notuð til að reikna samanlagðann **SUMMA** fall, byggt á **SUMMA** samansafn af **Flutningaskrá** gagnauppspretta **GroupBy** tegund.
 
-![Heildaruppspretta gagna í hönnuði ER líkanakortlagningar.](./media/er-groupby-data-sources-configure-model-mapping2.png)
+![Heildaruppspretta gagna í ER líkanskortahönnuðinum.](./media/er-groupby-data-sources-configure-model-mapping2.png)
 
 Eftirfarandi mynd sýnir niðurstöður **Samtals** villuleit gagnagjafa.
 

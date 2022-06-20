@@ -1,6 +1,6 @@
 ---
-title: Yfirlit yfir fjárhagssamstæður og umreikning gjaldmiðla
-description: Þetta efnisatriði lýsir fjármálasamstæðum og umreikningi gjaldmiðils í Fjárhag.
+title: Yfirlit yfir fjárhagssamstæður og umreikninga gjaldmiðils
+description: Þessi grein lýsir fjárhagssamstæður og gjaldmiðlaumreikningi í fjárhag.
 author: jinniew
 ms.date: 10/07/2021
 ms.topic: overview
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6f0094ac3307164e1c715a71e16b0766247e275
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713869"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846858"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Yfirlit yfir fjárhagssamstæður og umreikninga gjaldmiðils
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni tekur þig í gegnum nálgunina sem bæði Microsoft Dynamics 365 Fjármál og reikningsskil notkun fyrir samstæður. Það lýsir aðstæðum sem fela í sér skýrslugerð fyrir mörg fyrirtæki, uppsöfnun, losun og hlutdeild minnihluta. Það útskýrir einnig hvernig skal takast á við sérstakar aðstæður, svo sem aðstæður þar sem lögaðilar eru með mismunandi fjárhagstímabil eða mismunandi bókhaldslykla.
+Þessi grein tekur þig í gegnum nálgunina sem bæði Microsoft Dynamics 365 Fjármál og reikningsskil notkun fyrir samstæður. Það lýsir aðstæðum sem fela í sér skýrslugerð fyrir mörg fyrirtæki, uppsöfnun, losun og hlutdeild minnihluta. Það útskýrir einnig hvernig skal takast á við sérstakar aðstæður, svo sem aðstæður þar sem lögaðilar eru með mismunandi fjárhagstímabil eða mismunandi bókhaldslykla.
 
-Þetta efnisatriði var skrifað fyrir notendur og hagnýta ráðgjafa og gerir ráð fyrir að lesendur hafi almennan skilning á Finance og fjárhagsskýrslugerð. Ekki er fjallað um grunnuppsetningu.
+Þessi grein var skrifuð fyrir notendur og starfhæfa ráðgjafa og gerir ráð fyrir að lesendur hafi almennan skilning á fjármálum og reikningsskilum. Ekki er fjallað um grunnuppsetningu.
 
 > [!NOTE]
-> Hugtakið *lögaðili* er notað í Finance og hugtakið *fyrirtæki* er notað í Financial reporting. Bæði hugtökin eru notuð í þessu efnisatriði. Í þessu efnisatriði hafa þau hins vegar sömu merkinguna.
+> Hugtakið *lögaðili* er notað í Finance og hugtakið *fyrirtæki* er notað í Financial reporting. Bæði þessi hugtök eru notuð í þessari grein. Hins vegar, að því er varðar þessa grein, er merking þeirra sú sama.
 
-## <a name="audience"></a>Notendahópur
-Þetta efnisatriði er ætlað fjármála- og bókhaldsnotendum og hugbúnaðarráðgjöfum sem vilja nota Finance and Reporting og Financial reporting til að sameina gögn margra fyrirtækja og margra gjaldmiðla.
+## <a name="audience"></a>Markhópur
+Þessi grein er ætluð notendum fjármála og bókhalds og forritaráðgjafa sem vilja nota fjármál og skýrslugerð og fjárhagsskýrslur til að sameina gögn í mörgum fyrirtækjum og í mörgum gjaldmiðlum.
 
 ## <a name="approach"></a>Nálgun
 Finance notar aðskilinn lögaðila til að vinna úr samstæðu. Það virkjar eins-tilviks samstæðu en veitir möguleika á því að taka inn gögn frá öðrum uppruna. Samstæðuferlið verður að vera keyrt í hvert skipti sem breytingar eru gerðar á lögaðilum upprunans.

@@ -1,6 +1,6 @@
 ---
 title: Listi yfir ER-aðgerðir í textaflokknum
-description: Þetta efni veitir upplýsingar um textaaðgerðir sem eru studdar í rafrænni skýrslugerð (ER).
+description: Þessi grein veitir upplýsingar um textaaðgerðir sem eru studdar í rafrænni skýrslugerð (ER).
 author: NickSelin
 ms.date: 02/28/2022
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d185c128de1120e93d1779db04a7666ba557707
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 502a68d51705114adc096a1cd2217210f4e925bb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367768"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885544"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Listi yfir ER-aðgerðir í textaflokknum
 
 [!include [banner](../includes/banner.md)]
 
-Hægt er að nota textaaðgerðir rafrænnar skýrslugerðar (ER) til að framkvæma aðgerðir á gagnagjöfum af gagnagerðinni *Strengur*. Þetta efni gefur yfirlit yfir þessar aðgerðir.
+Hægt er að nota textaaðgerðir rafrænnar skýrslugerðar (ER) til að framkvæma aðgerðir á gagnagjöfum af gagnagerðinni *Strengur*. Þessi grein gefur yfirlit yfir þessar aðgerðir.
 
 ## <a name="list-of-supported-functions"></a>Listi yfir studdar aðgerðir
 
@@ -51,7 +51,7 @@ Hægt er að nota textaaðgerðir rafrænnar skýrslugerðar (ER) til að framkv
 | [Hægri](er-functions-text-right.md) | Þessi aðgerð skilar *strengjagildi* sem sýnir tilgreindan fjölda staftákna frá lokum tiltekins strengs. |
 | [Texti](er-functions-text-text.md) | Þessi aðgerð skilar tilgreindri tölu sem *strengjagildi* eftir að því hefur verið breytt í textastreng sem er sniðið í samræmi við stillingar á þjónsstaðsetningu á núverandi tilviki forrits. |
 | [Þýða](er-functions-text-translate.md) | Þessi aðgerð skilar gildinu *Strengur* sem inniheldur niðurstöðu þess að tilgreindum texta í stöfum er skipt út fyrir annað sett af stöfum. |
-| [Trim](er-functions-text-trim.md) | Þessi aðgerð skilar tilgreindum textastreng sem a *Strengur* Gildi á eftir flipa, vagnsskila, línustreymi og formstraumstöfum hefur verið skipt út fyrir eitt bilstaf, eftir að fremstu og aftari bil hafa verið stytt og eftir að mörg bil milli orða hafa verið fjarlægð. |
+| [Trim](er-functions-text-trim.md) | Þessi aðgerð skilar tilgreindum textastreng sem a *Strengur* Gildi á eftir flipa, vagnsskila, línustreymis og formstraumstöfum hefur verið skipt út fyrir eitt bilstaf, eftir að fremstu og aftari bil hafa verið stytt og eftir að mörg bil milli orða hafa verið fjarlægð. |
 | [Upper](er-functions-text-upper.md) | Þessi aðgerð skilar tilgreindum textastreng sem *Strengja*-gildi eftir að því hefur verið breytt í hástafi. |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar

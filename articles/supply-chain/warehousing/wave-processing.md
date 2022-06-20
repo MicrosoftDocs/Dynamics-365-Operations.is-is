@@ -1,6 +1,6 @@
 ---
 title: Stofnun og meðhöndlun bylgju
-description: Þetta efnisatriði lýsir því hvernig má stofna vinnslu og losa bylgju til að stofna tiltekt fyrir farm, sendingar, framleiðslupöntun eða kanban-pöntun.
+description: Þessi grein lýsir því hvernig á að búa til, vinna úr og gefa út bylgju til að búa til tínsluvinnu fyrir hleðslu, sendingu, framleiðslupöntun eða kanban pöntun.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 349285f089ecab00c4c1c0a0315c4223314e3e79
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
-ms.translationtype: MT
+ms.openlocfilehash: 3347db6395b7da396c42f84881060f476346d2e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687505"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851276"
 ---
 # <a name="wave-creation-and-processing"></a>Stofnun og meðhöndlun bylgju
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig má stofna vinnslu og losa bylgju til að stofna tiltekt fyrir farm, sendingar, framleiðslupöntun eða kanban-pöntun. Hægt er að búa til bylgjur fyrir eftirfarandi gerðir pantana:
+Þessi grein lýsir því hvernig á að búa til, vinna úr og gefa út bylgju til að búa til tínsluvinnu fyrir hleðslu, sendingu, framleiðslupöntun eða kanban pöntun. Hægt er að búa til bylgjur fyrir eftirfarandi gerðir pantana:
 
 - **Sölupantanir** – Notið sendingarbylgjur sem innihalda línur úr sölupöntunum. Þegar sölupöntun er losuð í vöruhúsið er hægt að taka sölupöntunarlínurnar með í bylgjunni.
 - **Framleiðslupantanir** – Notið framleiðslubylgjur til að taka með línur úr uppskriftum fyrir afurð.

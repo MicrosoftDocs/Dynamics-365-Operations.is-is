@@ -1,6 +1,6 @@
 ---
-title: Frestaðu framkvæmd XML-þátta á ER sniði
-description: Þetta efni útskýrir hvernig á að fresta framkvæmd XML frumefnis á rafrænni skýrslugerð (ER) sniði.
+title: Fresta keyrslu XML-eininga á sniði rafrænnar skýrslugerðar
+description: Þessi grein útskýrir hvernig á að fresta framkvæmd XML þáttar á rafrænu skýrslusniði (ER).
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b804e840b98321ee9e509ea483b360ec42d12880
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 074b14cbb018a8e34b99124b8aaec3a5bdb30be2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323716"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861846"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Frestaðu framkvæmd XML-þátta á ER sniði
 
@@ -32,7 +32,7 @@ ms.locfileid: "8323716"
 
 Með því að kveikja á valkostinum <a name="DeferredXmlElementExecution"></a>**Frestuð framkvæmd** fyrir XML-þátt í röð sem er stillt á stillta sniði, þú getur frestað (frestað) framkvæmd þess þáttar. Í þessu tilfelli er þátturinn ekki keyrður fyrr en allir aðrir þættir yfirhluta hans hafa verið keyrðir.
 
-Til að fá frekari upplýsingar um þennan eiginleika skaltu ljúka dæminu í þessu efni.
+Til að læra meira um þennan eiginleika skaltu klára dæmið í þessari grein.
 
 ## <a name="limitations"></a>Takmarkanir
 
@@ -46,7 +46,7 @@ Valkosturinn **Frestuð framkvæmd** er ekki studdur fyrir XML þætti sem búa 
 
 Eftirfarandi skref útskýra hvernig notandi í kerfisstjóra eða rafrænni skýrslugerð virkur ráðgjafi [hlutverk](../sysadmin/tasks/assign-users-security-roles.md) getur stillt ER snið sem inniheldur XML-þátt þar sem framkvæmd röð er frábrugðin röðinni í snið stigveldisins.
 
-Hægt er að framkvæma þessum skrefum í **USMF** fyrirtæki í Microsoft Dynamics 365 Finance.
+Þessi skref er hægt að framkvæma í **USMF** fyrirtæki í Microsoft Dynamics 365 Fjármál.
 
 ### <a name="prerequisites"></a>Forkröfur
 
@@ -55,7 +55,7 @@ Til að ljúka þessu dæmi verður þú að hafa aðgang að **USMF** fyrirtæk
 - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
 - Kerfisstjóri
 
-Ef þú hefur ekki enn lokið dæminu í [Frestaðu framkvæmd raðarþátta á ER sniði](er-defer-sequence-element.md#Example) efni, hlaðið niður eftirfarandi [stillingar](general-electronic-reporting.md#Configuration) af ER lausninni.
+Ef þú hefur ekki enn lokið við dæmið í [Fresta framkvæmd röð þátta í ER sniðum](er-defer-sequence-element.md#Example) grein, hlaðið niður eftirfarandi [stillingar](general-electronic-reporting.md#Configuration) af ER-sýnislausninni.
 
 | Lýsing á efni            | Skrárnafn |
 |--------------------------------|-----------|
@@ -95,7 +95,7 @@ Ef þú hefur ekki enn lokið dæminu í [Frestaðu framkvæmd raðarþátta á 
 ### <a name="activate-a-configuration-provider"></a>Kveikja á stillingaveitu
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar staðsetningar**, í hlutanum **Skilgreiningaveitur**, skaltu passa að [skilgreiningaveitan](general-electronic-reporting.md#Provider) fyrir sýnifyrirtækið Litware, Inc. (`http://www.litware.com`) sé skráð og að hún sé merkt sem virk. Ef þessi stillingarþjónusta er ekki á listanum, eða ef hún er ekki merkt sem virk, fylgirðu skrefunum í efninu [Stofna skilgreiningaveitu og merkja hana sem virka](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Á síðunni **Skilgreiningar staðsetningar**, í hlutanum **Skilgreiningaveitur**, skaltu passa að [skilgreiningaveitan](general-electronic-reporting.md#Provider) fyrir sýnifyrirtækið Litware, Inc. (`http://www.litware.com`) sé skráð og að hún sé merkt sem virk. Ef þessi stillingarveita er ekki á listanum eða ef hún er ekki merkt sem virk skaltu fylgja skrefunum í [Búðu til stillingarveitu og merktu hana sem virka](./tasks/er-configuration-provider-mark-it-active-2016-11.md) grein.
 
     ![Litware, Inc. sýnifyrirtæki á skilgreiningasíðu staðfæringar.](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
 

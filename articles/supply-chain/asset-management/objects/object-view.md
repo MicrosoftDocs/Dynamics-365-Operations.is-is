@@ -1,6 +1,6 @@
 ---
 title: Eignayfirlit
-description: Þetta efnisatriði lýsir eignasýn í eignastjórnun.
+description: Þessi grein lýsir eignayfirlitinu í eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4265928fc5cb899a77eee6e5b9ff0a928efbe99c99ec7fe31eecffcb0f98f752
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765539"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882722"
 ---
 # <a name="asset-view"></a>Eignayfirlit
 
@@ -28,7 +28,7 @@ ms.locfileid: "6765539"
 
  
 
-Þetta efnisatriði lýsir eignasýn í eignastjórnun. Síðan **Eignasýn** sýnir virkar eignir og virkar staðsetningar í trjáskoðun. Þess vegna geturðu auðveldlega fengið yfirlit yfir eignatengsl við virka staði. Að auki geturðu skoðað nákvæmar upplýsingar um virka staði, eignir og tengda uppskriftir (BOMs). Þú getur líka fengið fljótt yfirlit yfir virkar viðhaldsbeiðnir og verkbeiðnir sem tengjast eign.
+Þessi grein lýsir eignayfirlitinu í eignastýringu. Síðan **Eignasýn** sýnir virkar eignir og virkar staðsetningar í trjáskoðun. Þess vegna geturðu auðveldlega fengið yfirlit yfir eignatengsl við virka staði. Að auki geturðu skoðað nákvæmar upplýsingar um virka staði, eignir og tengda uppskriftir (BOMs). Þú getur líka fengið fljótt yfirlit yfir virkar viðhaldsbeiðnir og verkbeiðnir sem tengjast eign.
 
 1. Veldu **Eignastýring** \> **Sameiginlegt** \> **Eignir** \> **Eignasýn**.
 2. Til að breyta skjánum sem sést á síðunni velurðu nýtt gildi í reitnum **Skoða**.

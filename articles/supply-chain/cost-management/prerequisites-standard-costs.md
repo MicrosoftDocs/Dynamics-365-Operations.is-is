@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir skilyrði fyrir staðalkostnað
-description: Þetta efnisatriði fjallar um grundvallarskref við notkun staðalkostnaðar.
+description: Þessi grein lýsir grunnskrefum til að nota staðlaðan kostnað.
 author: JennySong-SH
 ms.date: 07/25/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cf37ae8d2cfa2a3f372e37eb66c22711e76dd59
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: bf02653b1d1a2cf5ed45f0fc6bd9affe098e7396
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672319"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895787"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Yfirlit yfir skilyrði fyrir staðalkostnað
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði fjallar um grundvallarskref við notkun staðalkostnaðar. Eftirfarandi skref fara eftir starfsemi fyrirtækisins. Til dæmis eru skrefin mismunandi fyrir umhverfi sem er ekki með framleiðslu, framleiðsluumhverfi sem notar ekki leiðir og framleiðsluumhverfi sem notar leiðir. 
+Þessi grein lýsir grunnskrefum til að nota staðlaðan kostnað. Eftirfarandi skref fara eftir starfsemi fyrirtækisins. Til dæmis eru skrefin mismunandi fyrir umhverfi sem er ekki með framleiðslu, framleiðsluumhverfi sem notar ekki leiðir og framleiðsluumhverfi sem notar leiðir. 
 
 Til að setja upp staðalkostnað skal fylgja þessum skrefum.
 
@@ -65,7 +65,7 @@ Notaðu síðuna **Uppsetningu kostnaðarútgáfu** til að stofna eina eða fle
 Viðskiptavinir sem vilja til að breyta núverandi vörum sínum yfir í birgðalíkan staðalkostnaðar verða að nota síðuna **Umreikningur á staðalkostnaði**.
 
 
-## <a name="related-topics"></a>Tengd efnisatriði
+## <a name="related-articles"></a>Tengdar greinar
 
 [Yfirlit yfir umreikning staðalkostnaðar](standard-cost-conversion-overview.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Keyrðu sérsniðnar X++ forskriftir án niður í miðbæ
-description: Þetta efni lýsir því hvernig á að hlaða upp og keyra dreifanlega pakka sem innihalda sérsniðnar X++ forskriftir án þess að þurfa að fresta kerfinu þínu.
+title: Keyra sérsniðnar X++ skriftur með engan niðurtíma
+description: Þessi grein lýsir því hvernig á að hlaða upp og keyra dreifanlega pakka sem innihalda sérsniðnar X++ forskriftir án þess að þurfa að fresta kerfinu þínu.
 author: AndersGirke
 ms.date: 12/16/2021
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: fcd0a472fa5116ca0b3a59561b6eeb72181a9113
-ms.sourcegitcommit: 44e6875e974a3a1b3e1d7a24c1a3cff3d3697cdc
+ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8088345"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867330"
 ---
-# <a name="run-custom-x-scripts-with-zero-downtime"></a>Keyrðu sérsniðnar X++ forskriftir án niður í miðbæ
+# <a name="run-custom-x-scripts-with-zero-downtime"></a>Keyra sérsniðnar X++ skriftur með engan niðurtíma
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
@@ -122,28 +122,28 @@ Notaðu eftirfarandi aðferð til að hlaða upp og keyra skriftu.
 
 1. Í Finance and Operations appinu þínu skaltu fara á **Kerfisstjórnun \> Reglubundin verkefni \> Gagnagrunnur \> Sérsniðin forskrift**.
 1. Veldu **Hlaða upp**.
-1. Veldu dreifanlega pakkann sem þú bjóst til eins og lýst er fyrr í þessu efni. Þú verður beðinn um að tilgreina tilgang handritsins.
+1. Veldu dreifanlega pakkann sem þú bjóst til eins og lýst er fyrr í þessari grein. Þú verður beðinn um að tilgreina tilgang handritsins.
 1. Handritið verður nú að vera samþykkt af öðrum notanda en notandanum sem hlóð því upp. Samþykkjandinn verður að fylgja þessum skrefum:
 
     1. Fara til **Kerfisstjórnun \> Reglubundið \> Gagnagrunnur \> Sérsniðin forskrift**.
     1. Veldu handritið til að samþykkja og veldu síðan **Upplýsingar**.
-    1. Á aðgerðarrúðunni, á **Vinnuflæði ferli** flipa, í **Byrjaðu** hópur, veldu **Samþykkja** eða **Hafna**. Ef þú velur **Samþykkja**, handritið er merkt sem samþykkt og er opnað fyrir prófun. Ef þú velur **Hafna**, handritið er læst. Í báðum tilfellum er atburðurinn skráður og afrit af handritinu er haldið í kerfinu.
+    1. Á aðgerðarrúðunni, á **Vinnuflæði ferli** flipa, í **Byrjaðu** hópur, veldu **Samþykkja** eða **Hafna**. Ef þú velur **Samþykkja**, handritið er merkt sem samþykkt og er opnað fyrir prófun. Ef þú velur **Hafna**, handritið er læst. Í báðum tilfellum er atburðurinn skráður og afrit af handritinu geymt í kerfinu.
 
-1. Forritið verður að prófa til að tryggja að það geri það sem því er ætlað að gera. Prófandinn getur verið sá sami og hleðsluaðilinn eða samþykkjandinn, eða það getur verið þriðji notandinn sem hefur nauðsynlegar heimildir. Prófandi verður að fylgja þessum skrefum:
+1. Forritið verður að prófa til að tryggja að það geri það sem því er ætlað að gera. Prófandinn getur verið sá sami og hleðsluaðilinn eða samþykkjandinn, eða það getur verið þriðji notandinn sem hefur tilskilin leyfi. Prófandi verður að fylgja þessum skrefum:
 
     1. Fara til **Kerfisstjórnun \> Reglubundið \> Gagnagrunnur \> Sérsniðin forskrift**.
     1. Veldu skriftuna til að prófa og veldu síðan **Upplýsingar**.
-    1. Á aðgerðarrúðunni, á **Vinnuflæði ferli** flipa, í **Próf** hópur, veldu **Keyra próf**. Handritið er keyrt í tímabundinni færslu sem kerfið mun sjálfkrafa hætta við á meðan það safnar ýmsum annálum og SQL yfirlýsingum.
+    1. Á aðgerðarrúðunni, á **Vinnuflæði ferli** flipa, í **Próf** hópur, veldu **Keyra próf**. Forskriftin er keyrð í tímabundinni færslu sem kerfið mun sjálfkrafa hætta við á meðan það safnar ýmsum annálum og SQL yfirlýsingum.
     1. Þegar handritinu er lokið skaltu fara yfir annálana og ganga úr skugga um að niðurstöðurnar standist væntingar þínar. Fylgið einu af eftirfarandi skrefum:
 
         - Ef þú ert ánægður með niðurstöðuna skaltu velja **Samþykkja prófunarskrá** í **Próf** hópur á **Vinnuflæði ferli** flipann í aðgerðarrúðunni til að leyfa að keyra skriftuna. Atburðaskráin mun endurspegla þá staðreynd að handritið var prófað og það mun gefa til kynna hver prófaði það og hvenær.
         - Ef þú ert ekki ánægður með niðurstöðuna skaltu velja **Að segja skilið við** í **Enda** hópur á **Vinnuflæði ferli** flipanum í aðgerðarrúðunni til að koma í veg fyrir að handritið sé keyrt. Kerfið mun geyma afrit af handritinu ásamt skrá yfir sögu þess.
 
-1. Þegar þú ert viss um að handritið standist væntingar þínar skaltu velja **Hlaupa** í **Hlaupa** hópur á **Vinnuflæði ferli** flipann í aðgerðarúðunni til að keyra hann. Þessi skipun gerir það sama og fyrri prufukeyrslan, en viðskiptin verða framin í lokin.
+1. Þegar þú ert viss um að handritið standist væntingar þínar skaltu velja **Hlaupa** í **Hlaupa** hópur á **Vinnuflæði ferli** flipanum í aðgerðarrúðunni til að keyra hann. Þessi skipun gerir það sama og fyrri prufukeyrslan, en viðskiptin verða framin í lokin.
 1. Eftir að handritið hefur lokið keyrslu skaltu athuga niðurstöðuna og staðfesta að handritið virkaði eins og þú ætlaðir þér. Fylgið einu af eftirfarandi skrefum:
 
     - Ef þú ert ánægður með niðurstöðuna skaltu velja **Tilgangur leystur** í **Enda** hópur á **Vinnuflæði ferli** flipanum í aðgerðarrúðunni. Atburðaskráin mun endurspegla þá staðreynd að handritið keyrði vel og það mun gefa til kynna hver staðfesti handritið og hvenær. Handritið er vistað en það er nú læst og ekki hægt að keyra það aftur.
-    - Ef þú ert ekki ánægður með niðurstöðuna skaltu velja **Tilgangur óleystur** í **Enda** hópur á **Vinnuflæði ferli** flipanum í aðgerðarrúðunni. Atburðaskráin mun endurspegla þá staðreynd að smáforritið uppfyllti ekki ætlaðan tilgang og mun gefa til kynna hver keyrði handritið og hvenær. Handritið er vistað en það er nú læst og ekki hægt að keyra það aftur. Hins vegar afturkallar kerfið ekki handritsaðgerðina sjálfkrafa. Þú gætir þurft að skrifa, flytja inn og keyra nýtt forskrift til að afturkalla áhrifin sem misheppnuð forskrift hafði á kerfið þitt.
+    - Ef þú ert ekki ánægður með niðurstöðuna skaltu velja **Tilgangur óleystur** í **Enda** hópur á **Vinnuflæði ferli** flipanum í aðgerðarrúðunni. Atburðaskráin mun endurspegla þá staðreynd að smáforritið uppfyllti ekki ætlaðan tilgang og mun gefa til kynna hver keyrði handritið og hvenær. Handritið er vistað en það er nú læst og ekki hægt að keyra það aftur. Hins vegar afturkallar kerfið ekki handritsaðgerðina sjálfkrafa. Þú gætir þurft að skrifa, flytja inn og keyra nýtt skriftu til að afturkalla áhrifin sem misheppnuð skrifta hafði á kerfið þitt.
 
 Val þitt í síðasta skrefi skilgreinir lokastöðu handritsins. Þú getur endurtekið ferlið eins og þú vilt.
 
@@ -151,4 +151,4 @@ Val þitt í síðasta skrefi skilgreinir lokastöðu handritsins. Þú getur en
 
 Í stað þess að dreifa pakkanum þínum í gegnum notendaviðmótið fyrir Finance and Operations appið þitt, eins og lýst er í fyrri hlutanum, geturðu hlaðið honum upp á LCS og notað venjulegt ferli til að dreifa því. Fyrir frekari upplýsingar, sjá [Settu upp dreifanlega pakka frá skipanalínunni](../deployment/install-deployable-package.md).
 
-Þó að þessi aðferð hafi færri takmarkanir veitir hún minni villuvörn. Þar að auki, vegna þess að það krefst endurræsingar á öllum netþjónum, mun það valda smá niður í miðbæ.
+Þrátt fyrir að þessi aðferð hafi færri takmarkanir veitir hún minni villuvörn. Þar að auki, vegna þess að það krefst endurræsingar á öllum netþjónum, mun það valda smá niður í miðbæ.

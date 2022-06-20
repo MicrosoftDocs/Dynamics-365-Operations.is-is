@@ -1,6 +1,6 @@
 ---
 title: Þjónustusamningar stofnaðir
-description: Þetta efnisatriði lýsir því hvernig á að nota aðgerðir þjónustustjórnunar og verkefnastjórnunar- og bókhaldskerfis til að stofna þjónustusamninga.
+description: Þessi grein lýsir því hvernig á að nota eiginleika í Þjónustustjórnun og Verkefnastjórnun og bókhaldseiningum til að búa til þjónustusamninga.
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8a139d1a11cca036ace2540cba59bf2cace0db
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d18d279cd437e98cad6495def953978cb78e723e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677255"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901764"
 ---
 # <a name="create-service-agreements"></a>Þjónustusamningar stofnaðir
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að nota aðgerðir þjónustustjórnunar og verkefnastjórnunar- og bókhaldskerfis til að stofna þjónustusamninga.
+Þessi grein lýsir því hvernig á að nota eiginleika í Þjónustustjórnun og Verkefnastjórnun og bókhaldseiningum til að búa til þjónustusamninga.
 
 ## <a name="create-a-service-agreement-from-service-management"></a>Stofna þjónustusamning úr þjónustustjórnun.
 
@@ -51,10 +51,10 @@ ms.locfileid: "8677255"
 2. Veljið **Öll verk**.
 3. Veljið verkið úr listanum.
 4. Í **aðgerðarúðunni** skal velja **Stjórna**. Í **Nýja** aðgerðarhópnum skal velja **Þjónusta** og **Þjónustusamningur**.
-5. Fylgið skrefunum í hlutanum sem heitir **Stofna þjónustusamning** eins og áður var lýst í þessu efnisatriði til að færa inn verktilvísunina.
+5. Fylgdu skrefunum í kaflanum sem heitir **Búðu til þjónustusamning** eins og lýst er fyrr í þessari grein til að slá inn verkefnatilvísunina.
 
 
-## <a name="related-topics"></a>Tengd efnisatriði
+## <a name="related-articles"></a>Tengdar greinar
 
 [Yfirlit yfir þróaða og innleidda þjónustusamninga](service-agreements.md)
 

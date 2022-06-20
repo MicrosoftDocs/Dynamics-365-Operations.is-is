@@ -1,6 +1,6 @@
 ---
 title: Tvöfaldur gjaldeyrisstuðningur fyrir skatta
-description: Þetta efni útskýrir hvernig á að framlengja tvískiptan gjaldeyrisbókhald á skattalénum og áhrifin á útreikning skatta og bókun
+description: Þessi grein útskýrir hvernig á að útvíkka bókhaldseiginleika með tvöföldum gjaldmiðli í skattléni og áhrifin fyrir skattútreikning og bókun
 author: EricWang
 ms.date: 12/11/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fcd5a3afb442d9c85aba12b7782cf09f88f0e51a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 13d70d964a83c2efba090244d549bdb38ad25af2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909041"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Tvöfaldur gjaldeyrisstuðningur fyrir virðisaukaskatt
 [!include [banner](../includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að framlengja tvískipt gjaldeyrisbókhald fyrir virðisaukaskatt og áhrifin á útreikning virðisaukaskatts, bókun og uppgjör.
+Þessi grein útskýrir hvernig á að útvíkka bókhald í tvöföldum gjaldmiðli fyrir söluskatta og áhrifin fyrir útreikninga, bókun og uppgjör söluskatts.
 
-Tvöfaldur gjaldmiðill eiginleiki fyrir Dynamics 365 Finance var kynntur í útgáfu 8.1 (október 2018). Hann breytir því hvernig bókhaldsskýrslur í skýrslugjaldmiðlinum eru reiknaðar.
+Tvöfaldur gjaldmiðillinn fyrir Dynamics 365 Finance var kynntur í útgáfu 8.1 (október 2018). Hann breytir því hvernig bókhaldsskýrslur í skýrslugjaldmiðlinum eru reiknaðar.
 
 Í fyrri útgáfum var færslum breytt í skýrslugjaldmiðilinn í eftirfarandi röð: 
 
@@ -89,7 +89,7 @@ Hægt er að stilla þessa færibreytu út frá samræmiþörf skattayfirvalda.
 
 Til að koma í veg fyrir fyrri atburðarás mælum við með því að breyta þessu færibreytugildi á nýju (hreinu) skattuppgjörstímabili sem ekki inniheldur óuppgerðar skattafærslur. Til að breyta þessu gildi á miðju skattauppgjörstímabili, vinsamlegast keyrðu forritið „Jafna og bóka virðisaukaskatt” fyrir núverandi skattauppgjörstímabil áður en þú breytir þessu færibreytugildi.
 
-Þessi eiginleiki bætir við bókhaldsfærslum sem skýra hagnað og tap vegna gengi gjaldmiðla. Færslurnar verða gerðar á rekstrarlyklum raunverulegrar leiðréttingar gjaldmiðils þegar endurmat fer fram við uppgjör á virðisaukaskatti. Nánari upplýsingar er að finna í hlutanum [Sjálfvirk jöfnun skattuppgjörs í skýrslugjaldmiðli](#tax-settlement-auto-balance-in-reporting-currency) síðar í þessu efnisatriði.
+Þessi eiginleiki bætir við bókhaldsfærslum sem skýra hagnað og tap vegna gengi gjaldmiðla. Færslurnar verða gerðar á rekstrarlyklum raunverulegrar leiðréttingar gjaldmiðils þegar endurmat fer fram við uppgjör á virðisaukaskatti. Fyrir frekari upplýsingar, sjá [Skattuppgjör sjálfvirkt jafnvægi í skýrslugjaldmiðli](#tax-settlement-auto-balance-in-reporting-currency) kafla síðar í þessari grein.
 
 > [!NOTE]
 > Við uppgjör eru upplýsingar um fjárhagsvíddir teknar úr VSK-lyklum, sem eru efnahagslyklar, og færðar í rekstrarlykla raunverulegrar gjaldmiðlaleiðréttingar, sem eru rekstraryfirlitslyklar. Vegna þess að takmarkanir á virði fjárhagsvídda er mismunandi á milli efnahagslykla og rekstraryfirlitslykla, getur villa komið upp í uppgjörs- og bókunarferli virðisaukaskatts. Til að forðast að breyta lykilskipulagi er hægt að kveikja á eiginleikanum „Fylla út fjárhagsvíddir í efnahags-/rekstrarlykla raunverulegra leiðréttingar gjaldmiðils fyrir uppgjör virðisaukaskatts“. Þessi eiginleiki mun þvinga frávik á fjárhagsvíddum í rekstrarlykla gjaldmiðilsleiðréttingar. 

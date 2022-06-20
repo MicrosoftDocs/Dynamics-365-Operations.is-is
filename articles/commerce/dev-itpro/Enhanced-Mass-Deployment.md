@@ -1,6 +1,6 @@
 ---
 title: Fjölvirkjun á innsigluðum íhlutum fyrir sjálfsafgreiðslu í Commerce
-description: Þetta efni útskýrir hvernig á að nota ramma fyrir sjálfsafgreiðsluíhlutauppsetningarforrit til að setja upp og þjónusta uppsetningar hljóðlaust.
+description: Þessi grein útskýrir hvernig á að nota ramma fyrir sjálfsafgreiðslu íhlutauppsetningar til að setja upp og þjónusta uppsetningar hljóðlaust.
 author: jashanno
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 5cb27fd0ea366d12c8bd6ee1cdb0c6d584375862
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: a679d78db3ad5bd9cccbd4ab6a7026bd07890f55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8742589"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898580"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Fjölvirkjun á innsigluðum íhlutum fyrir sjálfsafgreiðslu í Commerce
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni á við um innsiglaða ramma, íhlutauppsetningarforrit sem eru gefin út í hverjum mánuði, frá og með útgáfunni 10.0.18, og eru gerð aðgengileg í Samnýtt eignasafn í Microsoft Dynamics Lífsferilsþjónusta (LCS). Athugaðu að fyrstu útgáfur þessara nýju uppsetningarforrita eru merktar sem **(Forskoðun)**. Hins vegar er eini tilgangurinn með þessari tilnefningu að aðgreina nýju uppsetningarforritin á meðan Microsoft ákvarðar hvort það séu einhverjar viðbótarkröfur um virkni til að nota þau. Það þýðir ekki að uppsetningartækin séu ekki gild fyrir framleiðslu. Byggt á útgáfu þessara nýju uppsetningarforrita ætlar Microsoft að afnema gömlu (eldri) uppsetningartækin í eða í kringum október 2023. 
+Þessi grein á við um innsiglaða ramma, íhlutauppsetningarforrit sem eru gefin út í hverjum mánuði, frá og með útgáfunni 10.0.18, og eru gerð aðgengileg í Sameiginlegu eignasafninu í Microsoft Dynamics Lífsferilsþjónusta (LCS). Athugaðu að fyrstu útgáfur þessara nýju uppsetningarforrita eru merktar sem **(Forskoðun)**. Hins vegar er eini tilgangurinn með þessari tilnefningu að aðgreina nýju uppsetningarforritin á meðan Microsoft ákvarðar hvort það séu einhverjar viðbótarkröfur um virkni til að nota þau. Það þýðir ekki að uppsetningartækin séu ekki gild fyrir framleiðslu. Byggt á útgáfu þessara nýju uppsetningarforrita ætlar Microsoft að afnema gömlu (gamla) uppsetningarforritin í eða í kringum október 2023. 
 
-Þetta efnisatriði útskýrir hvernig á að nota nýju uppsetningarforritin til að framkvæma hljóðlausar uppsetningar og þjónustuuppfærslur með skipanalínubreytingum. Þessi rök gera þér kleift að framkvæma fjöldadreifingu á nokkra mismunandi vegu.
+Þessi grein útskýrir hvernig á að nota nýju uppsetningarforritin til að framkvæma hljóðlausar uppsetningar og þjónustuuppfærslur með skipanalínurökum. Þessi rök gera þér kleift að framkvæma fjöldadreifingu á nokkra mismunandi vegu.
 
 > [!NOTE]
 > Nýju sjálfsafgreiðslu, lokuðu uppsetningartækin verða ekki aðgengileg í höfuðstöðvunum og er aðeins hægt að hlaða niður í gegnum LCS.
@@ -58,13 +58,13 @@ Eftirfarandi tafla sýnir afmörkunina sem hægt er að nota við framkvæmd ski
 | --SkipAadCredentialsCheck| Rofi sem gefur til kynna hvort Azure AD Sleppa ætti eftirliti með skilríkjum. Sjálfgefið gildi er **rangt**. |
 | --SkipCertCheck | Rofi sem gefur til kynna hvort sleppa eigi forsendum skírteinaprófa. Sjálfgefið gildi er **rangt**. |
 | --SkipIisCheck | Rofi sem gefur til kynna hvort sleppa eigi forsendumathugunum Internet Information Services (IIS). Sjálfgefið gildi er **rangt**. |
-| --SkipNetFrameworkCheck | Rofi sem gefur til kynna hvort sleppa eigi .NET Framework forsendum. Sjálfgefið gildi er **rangt**. |
+| --SkipNetFrameworkCheck | Rofi sem gefur til kynna hvort sleppa eigi .NET Framework forkröfuprófunum. Sjálfgefið gildi er **rangt**. |
 | --SkipScaleUnitHealthcheck | Rofi sem gefur til kynna hvort sleppa eigi heilsuskoðun á uppsettum íhlutum. Sjálfgefið gildi er **rangt**. |
 | --SkipSChannelCheck | Rofi sem gefur til kynna hvort sleppa ætti forsendumathugunum á öruggum rásum. Sjálfgefið gildi er **rangt**. |
 | --SkipSqlFullTextCheck | Rofi sem gefur til kynna hvort sleppa ætti staðfestingu á SQL Server forsendunni sem krefst fullrar textaleitar. Sjálfgefið gildi er **rangt**. |
 | --SkipSqlServerCheck | Rofi sem gefur til kynna hvort sleppa ætti SQL Server forkröfuskoðunum. Sjálfgefið gildi er **rangt**. |
 | --SqlServerName | SQL Server nafnið. Ef nafnið er ekki tilgreint mun uppsetningarforritið reyna að finna sjálfgefið tilvik. |
-| --SslcertFullPath | Fullsniðin URN slóð sem notar þumalfingur sem leitarmælikvarða staðsetningar vottorðsins sem ætti að nota til að dulkóða HTTP umferð í mælikvarðaeininguna. Til dæmis,`store:\/\/My\/LocalMachine\?FindByThumbprint\=\<MyThumbprint\>` er rétt sniðin vefslóð þar sem gildið **\<MyThumbprint\>** verður skipt út fyrir þumalfingur skírteinisins sem ætti að nota. Ekki nota þessa breytu ásamt **-SslCertThumbprint** breytu. |
+| --SslcertFullPath | Fullsniðin URN slóð sem notar þumalfingur sem leitarmælikvarða fyrir staðsetningu vottorðsins sem ætti að nota til að dulkóða HTTP umferð í mælieininguna. Til dæmis,`store:\/\/My\/LocalMachine\?FindByThumbprint\=\<MyThumbprint\>` er rétt sniðin vefslóð þar sem gildið **\<MyThumbprint\>** verður skipt út fyrir þumalfingur skírteinisins sem ætti að nota. Ekki nota þessa breytu ásamt **-SslCertThumbprint** færibreytu. |
 | --SslCertThumbprint | Þumalfingur af vottorðinu sem ætti að nota til að dulkóða HTTP umferð í mælikvarðaeininguna. Þetta þumalfingur verður notað til að leita í **LocalMachine/My Store** staðsetningu og nafn til að finna rétta vottorðið til að nota. Ekki nota þessa breytu ásamt **-SslCertFullPath** breytu. |
 | --StoreSystemAosUrl | Vefslóð höfuðstöðvanna (AOS). |
 | --StoreSystemChannel DatabaseId | Auðkenni rásargagnagrunnsins (nafn). |
@@ -86,15 +86,15 @@ Nýja umgjörðin fyrir sjálfsafgreiðslufólk hefur ýmsa eiginleika og endurb
 Uppsetningarforritið krefst færibreytunnar **setja upp** (eða **fjarlægja** til að fjarlægja uppsetninguna) og allar færibreytur sem eru sérstakar fyrir þá uppsetningu. **Nafn færibreytu** ætti að innihalda allar færibreytur sem eru nauðsynlegar eins og skrá, CSU vefslóð eða upplýsingar um vottorð. **Upplýsingar um færibreytur** ætti að innihalda allar viðbótarupplýsingar um færibreyturnar.
 
 Lokaði ramminn hefur verið búinn til til að gera ráð fyrir eftirfarandi breytingum:
-- **Innsiglað** – Nýja uppsetningarramminn skilur algjörlega frá Microsoft-dreifðum grunnþáttauppsetningum frá sérstillingunum sem byggjast á stækkanleika. Sérstillingarnar verða settar upp eftir á en verða síðan óbundnar varðandi uppfærslur (svo að uppfærslur verða aðeins leyfðar fyrir Microsoft grunnhlutann, aðeins fyrir sérstillingarnar, eða fyrir bæði).
+- **Innsiglað** – Nýja uppsetningarramminn skilur algjörlega að Microsoft-dreifðum grunnþáttauppsetningum frá sérstillingunum sem byggjast á stækkanleika. Sérstillingarnar verða settar upp eftir á en verða síðan óbundnar varðandi uppfærslur (svo að uppfærslur verða aðeins leyfðar fyrir Microsoft grunnhlutann, aðeins fyrir sérstillingarnar, eða fyrir bæði).
 - **GUI-laus** - Það er ekki lengur notendaviðmót (UI). Þess í stað er algjörlega skipanalínudrifin keyrsla fyrir hvern íhlutauppsetningarforrit. Þessi breyting er ein af nokkrum lykilbreytingum eða eiginleikum sem eru notaðir til að einbeita sér að nýja uppsetningarrammanum til notkunar með fjöldadreifingu.
-- **Dýpri skógarhögg** – Auka uppsetningarskrár gera kleift að sannreyna betur að uppsetningu sé lokið eða bilun, skrefunum sem voru framkvæmd og hvers kyns viðvaranir eða villur sem voru búnar til.
+- **Dýpri skógarhögg** – Auka uppsetningarskrár gera kleift að sannreyna betur hvort uppsetningu sé lokið eða bilun, skrefunum sem voru framkvæmd og hvers kyns viðvaranir eða villur sem voru búnar til.
 - **Hreinsun** – Í nýja rammanum vinna íhlutauppsetningarforritarnir erfiðara við að viðhalda hreinleika uppsetningarskránna með því að hreinsa allt innihald íhlutamöppunnar áður en þeir setja upp nýrri íhlutina. Þessi hreinsun tryggir að engar skrár séu eftir sem gætu valdið vandræðum og komið í veg fyrir árangursríka uppsetningu.
 
 Þrír íhlutir hafa ekki verið fluttir yfir í nýja rammann: Virtual Peripheral Simulator, Async Server Connector Service (notað fyrir Dynamics AX 2012 R3 stuðning), og rauntíma þjónustuskipti (notað fyrir Dynamics AX 2012 R3 stuðningur).
 
 > [!NOTE]
-> Uppsetningartæki eru geymd á staðnum og geymd.  Það er mikilvægt, með tímanum, að stjórna eða eyða uppsetningarforritum sem varðveitt er til að sóa ekki plássi. Mælt er með því að halda núverandi uppsetningarforriti fyrir grunníhluti og hvers kyns viðbótauppsetningarforrit fyrir nýjustu útgáfurnar til að endurheimta frá erfiðum aðstæðum.
+> Uppsetningartæki eru geymd á staðnum og geymd.  Það er mikilvægt, með tímanum, að stjórna eða eyða uppsetningarforritum sem varðveitt er til að sóa ekki plássi. Mælt er með því að halda núverandi uppsetningarforriti fyrir grunníhluti og hvers kyns viðbótauppsetningarforrit fyrir nýjustu útgáfurnar til að ná bata eftir erfiðar aðstæður.
 
 ## <a name="migration"></a>Flutningur
 
@@ -108,7 +108,7 @@ Flutningur frá gömlu sjálfsafgreiðslu rammahlutauppsetningum yfir í nýju r
 
 ### <a name="before-you-begin"></a>Áður en hafist er handa
 
-Það er mikilvægt að þú fjarlægir gamla, sjálfsafgreiðslu Modern POS íhlutinn. Fyrir frekari upplýsingar, sjá flutningsskref fyrr í þessu efni.
+Það er mikilvægt að þú fjarlægir gamla, sjálfsafgreiðslu Modern POS íhlutinn. Fyrir frekari upplýsingar, sjá flutningsskref fyrr í þessari grein.
 
 ### <a name="examples-of-silent-deployment"></a>Dæmi um hljóðlausa dreifingu
 
@@ -125,7 +125,7 @@ CommerceModernPOS.exe --help install
 ```
 
 > [!NOTE]
-> Stillingarskrá er ekki nauðsynleg fyrir Modern POS. Uppsetningarforritið hefur nú færibreytur (sýndar fyrr í þessu efni) fyrir hin ýmsu gildi sem eru notuð við virkjun tækisins.
+> Stillingarskrá er ekki nauðsynleg fyrir Modern POS. Uppsetningarforritið hefur nú færibreytur (sýndar fyrr í þessari grein) fyrir hin ýmsu gildi sem eru notuð við virkjun tækisins.
 
 Eftirfarandi skipun tilgreinir allar færibreytur sem ætti að nota við virkjun tækisins eftir að Modern POS forritið er sett upp. Þetta dæmi notar **Houston-3** register, sem er algengt gildi í Dynamics 365 Commerce kynningargögn.
 
@@ -145,7 +145,7 @@ CommerceModernPOS.exe install --InstallOffline --SQLServerName "SQLExpress" --Co
 
 ### <a name="before-you-begin"></a>Áður en hafist er handa
 
-Það er mikilvægt að þú fjarlægir gamla sjálfsafgreiðslu vélbúnaðarstöðina. Fyrir frekari upplýsingar, sjá flutningsskref fyrr í þessu efni. Það er ekki lengur til sölureikningsupplýsingatól. Þess í stað eru upplýsingar um söluaðilareikninginn settar upp þegar POS flugstöð er pöruð við vélbúnaðarstöðina. Þegar þú prófar þetta uppsetningarforrit í fyrsta skipti er mjög mælt með því að þú keyrir eftirfarandi skipun:
+Það er mikilvægt að þú fjarlægir gamla sjálfsafgreiðslu vélbúnaðarstöðina. Fyrir frekari upplýsingar, sjá flutningsskref fyrr í þessari grein. Það er ekki lengur til sölureikningsupplýsingatól. Þess í stað eru upplýsingar um söluaðilareikninginn settar upp þegar POS flugstöð er pöruð við vélbúnaðarstöðina. Þegar þú prófar þetta uppsetningarforrit í fyrsta skipti er mjög mælt með því að þú keyrir eftirfarandi skipun:
 
 ```Console
 CommerceHardwareStation.exe --help install
@@ -166,7 +166,7 @@ HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics36
 ```
 
 > [!NOTE]
-> Stillingarskrá er ekki nauðsynleg fyrir vélbúnaðarstöð. Uppsetningarforritið hefur nú færibreytur (sýndar fyrr í þessu efni) fyrir hin ýmsu gildi sem þarf.
+> Stillingarskrá er ekki nauðsynleg fyrir vélbúnaðarstöð. Uppsetningarforritið hefur nú færibreytur (sýndar fyrr í þessari grein) fyrir hin ýmsu gildi sem þarf.
 
 Eftirfarandi skipun tilgreinir allar færibreytur sem þarf til að sleppa forkröfuprófunum meðan á hefðbundinni uppsetningu stendur. 
 
@@ -189,7 +189,7 @@ CommerceStoreScaleUnitSetup.exe --help install
 
 ### <a name="before-you-begin"></a>Áður en hafist er handa
 
-Það er mikilvægt að þú fjarlægir gamla sjálfsafgreiðslu CSU (sjálf-hýst) íhlutinn. Fyrir frekari upplýsingar, sjá flutningsskref fyrr í þessu efni.
+Það er mikilvægt að þú fjarlægir gamla sjálfsafgreiðslu CSU (sjálf-hýst) íhlutinn. Fyrir frekari upplýsingar, sjá flutningsskref fyrr í þessari grein.
 
 ### <a name="examples-of-silent-deployment"></a>Dæmi um hljóðlausa dreifingu
 

@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir sameiningu og losun
-description: Þetta efni veitir almennar upplýsingar um samþjöppunar- og brottnámsferlið. Í því eru svör við Algengar spurningar
+description: Þessi grein veitir almennar upplýsingar um sameiningar- og losunarferli. Í því eru svör við Algengar spurningar
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670b238580ecf800686324fe664be747c551090d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710699"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871392"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Yfirlit yfir sameiningu og losun
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni veitir almennar upplýsingar um samþjöppunar- og brottnámsferlið. Í því eru svör við Algengar spurningar
+Þessi grein veitir almennar upplýsingar um sameiningar- og losunarferli. Í því eru svör við Algengar spurningar
 
 Hægt er að nota sameiningaraðgerðir til að sameina°fjárhagsniðurstöður fyrir nokkur dótturfyrirtæki í niðurstöður fyrir eitt sameinað fyrirtæki. Dótturfyrirtæki getur verið í mismunandi útgáfum eða kerfum, hugsanlega ekki í fullri eigu og þau geta notað mismunandi gjaldmiðla. Það eru margir valkostir fyrir sameiningu gagna:
 

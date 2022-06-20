@@ -1,6 +1,6 @@
 ---
 title: Reitalistaeining
-description: Þetta efnisatriði fjallar um reitalistaeiningar og útskýrir hvernig á að bæta þeim við síður svæða í Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um einingar með flísum og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dd714f29fe2f9acd459be7bda1c0bfac65b72cb0
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 44eb9b82ef9625734c7fe5ccba85207d9f210a00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780794"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905399"
 ---
 # <a name="tile-list-module"></a>Reitalistaeining
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði fjallar um reitalistaeiningar og útskýrir hvernig á að bæta þeim við síður svæða í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um einingar með flísum og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 
 Reitalistaeining er safn af reitum í myndaræmu. Hún er notuð til að markaðssetja afurðarflokka eða vörumerki í gegnum myndir og texta. Til dæmis getur smásali bætt reitalistaeiningu við heimasíðu rafræns viðskiptasvæðis til að auglýsa flokka með vinsælustu vörunum.
 
@@ -70,7 +70,7 @@ Fylgdu þessum skrefum til að bæta reitalistaeiningu við nýja síðu og stil
 1. Í **Veldu einingar** valmynd, veldu **Flísalisti** mát og veldu síðan **Allt í lagi**.
 1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
 1. Farðu í **Síður** og opnaðu heimasíðu vefsvæðisins (eða búðu til nýja heimasíðu með sniðmáti markaðssetningar).
-1. Í **Aðal** rauf sjálfgefna síðunnar, veldu sporbaug hnappinn (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Aðal** rauf sjálfgefna síðunnar, veldu sporbaughnappinn (**...**), og veldu síðan **Bæta við einingu**.
 1. Í **Veldu einingar** valmynd, veldu **Flísalisti** mát og veldu síðan **Allt í lagi**.
 1. Í eiginleikaglugga reitalistaeiningar skal bæta við fyrirsögn.
 1. Í **Flísalisti** rauf, veldu sporbaughnappinn (**...**), og veldu síðan **Bæta við einingu**.

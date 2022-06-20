@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaa6c2d02077d8ee73c1fabbcd52681fc94e24d8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d0fe1c48d4f19f344262fdd2fa9f07afd8affa68
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674954"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882432"
 ---
 # <a name="copy-service-templates-lines"></a>Afrita línur þjónustusniðmáta 
 
@@ -52,7 +52,7 @@ Hægt er að afrita sniðmátsupplýsingar annað hvort í þjónustusamning eð
 
 Þjónustusniðmátslínurnar hafa nú verið afritaðar í nýju þjónustupöntunina ásamt tengda þjónustuhlutnum og þjónustuverkatengslum. 
 
-## <a name="related-topics"></a>Tengd efnisatriði
+## <a name="related-articles"></a>Tengdar greinar
 
 [Þjónustusniðmát](service-template.md)
 

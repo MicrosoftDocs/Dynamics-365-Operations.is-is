@@ -1,6 +1,6 @@
 ---
-title: Útreikningur á VSK-skatti í almennum færslubókarlínum
-description: Þetta efni útskýrir hvernig VSK-skattur er reiknaður fyrir mismunandi gerðir lykla (lánardrottna, viðskiptavina, fjárhag og verkefni) á almennum dagbókarlínum.
+title: VSK-útreikningur í almennum færslubókarlínum
+description: Þessi grein útskýrir hvernig söluskattar eru reiknaðir fyrir mismunandi gerðir reikninga (lánardrottins, viðskiptamanns, fjárhagsbókar og verks) á færslubókarlínum.
 author: EricWangChen
 ms.date: 02/16/2022
 ms.topic: article
@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 684b38a4940ff00978201334d1db0cef87b79b35
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: a73e145dd26e930c860e9ea31d7dab4f1593c2a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311955"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845288"
 ---
-# <a name="sales-tax-calculation-on-general-journal-lines"></a>Útreikningur á VSK-skatti í almennum færslubókarlínum
+# <a name="sales-tax-calculation-on-general-journal-lines"></a>VSK-útreikningur í almennum færslubókarlínum
 [!include [banner](../includes/banner.md)]
 
-Þetta efni útskýrir hvernig VSK-skattur er reiknaður fyrir mismunandi gerðir lykla (lánardrottna, viðskiptavina, fjárhag og verkefni) á almennum dagbókarlínum.
+Þessi grein útskýrir hvernig söluskattar eru reiknaðir fyrir mismunandi gerðir reikninga (lánardrottins, viðskiptamanns, fjárhagsbókar og verks) á færslubókarlínum.
 
 Skipta má ferlinu í þrjú skref:
 

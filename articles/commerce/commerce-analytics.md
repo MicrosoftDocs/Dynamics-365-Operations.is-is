@@ -1,6 +1,6 @@
 ---
 title: Commerce-greining (forútgáfa)
-description: Þetta efni útskýrir hvernig á að setja upp og nota greiningargetu í Microsoft Dynamics 365 Commerce.
+description: Þessi grein útskýrir hvernig á að setja upp og nota greiningargetu í Microsoft Dynamics 365 Commerce.
 author: AamirAllaq
 ms.date: 02/24/2022
 audience: Application user
@@ -8,18 +8,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: 9ffa0affa0b80af65dd2aa37ef2fe969752ae332
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8550008"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887167"
 ---
 # <a name="commerce-analytics-preview"></a>Commerce-greining (forútgáfa)
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja upp Commerce analytics (Preview), virkni greiningargetu sem er innifalin í Microsoft Dynamics 365 Commerce.
+Þessi grein útskýrir hvernig á að setja upp Commerce analytics (Preview), hagnýtu greiningargetuna sem er innifalinn í Microsoft Dynamics 365 Commerce.
 
 ## <a name="commerce-analytics-preview-live-demo"></a>Commerce Analytics (Preview) lifandi kynning
 
@@ -210,7 +210,7 @@ Commerce Analytics sniðmátsforrit inniheldur eftirfarandi aðalskýrslusíður
 
 - Lengd sambands
 
-    Lengd tengsla er reiknuð út frá fjölda daga frá því að viðskiptamannaskráin var stofnuð í kerfinu.
+    Lengd tengsla er reiknuð út frá fjölda daga frá því viðskiptamannafærsla var stofnuð í kerfinu.
 
 - Færslutalning
 
@@ -280,29 +280,29 @@ Fundur er þáttur um heimsókn notanda á netverslunarvefsíðuna þína. Tíma
 
 #### <a name="visitors"></a>Gestir
 
-Nafnlaus gestur á netverslunarsíðunni þinni er auðkenndur á einstakan hátt út frá tilteknum vafra og tilteknu tæki sem notandinn notar. Viðskiptagreining rekur ekki nafnlausa gesti í mismunandi vöfrum eða tækjum. Nafnlaus gestur sem notar sama vafra á sama tæki er auðkenndur á einstakan hátt í mörgum notendalotum, þar til annað hvort gögnum í skyndiminni vafrans er hreinsað eða tímabil (venjulega 12 mánuðir) líður, hvort sem kemur fyrst.
+Nafnlaus gestur á netverslunarsíðunni þinni er auðkenndur á grundvelli tiltekins vafra og tiltekins tækis sem notandinn notar. Commerce Analytics fylgist ekki með nafnlausum gestum í mismunandi vöfrum eða tækjum. Nafnlaus gestur sem notar sama vafrann á sama tæki er auðkenndur á mörgum notendafundum, þar til annað hvort eru skyndiminnisgögn vafrans hreinsuð eða tímabil (venjulega 12 mánuðir) líður, hvort sem kemur fyrst fram.
 
-Ef gestir skoða netverslunarsíðuna þína á meðan þeir eru skráðir inn getur Commerce Analytics veitt frekari upplýsingar um þá. Þessar upplýsingar eru byggðar á núverandi sambandi sem fyrirtækið þitt hefur við gestina vegna fyrri kaupa þeirra á öllum sviðum Dynamics 365 Commerce sölurásir (þar á meðal POS, rafræn viðskipti og símaver). Viðbótarupplýsingarnar innihalda nýlega, lengd sambands, lífstímagildi og tíðnigögn.
+Ef gestir vafra um netverslunarsíðuna þína á meðan þeir eru skráðir inn getur Commerce Analytics veitt frekari upplýsingar um þau. Þessar upplýsingar eru byggðar á núverandi sambandi sem fyrirtækið þitt hefur við gesti vegna fyrri kaupa þeirra á öllum Dynamics 365 Commerce söluleiðum (þ.m.t. posa, netverslun og símaveri). Viðbótarupplýsingarnar innihalda endurstillingu, lengd tengsla, líftíma og tíðnigögn.
 
 - Framlegð gesta
-- Meðaltal pantanir gesta
+- Meðalpantanir gesta
 - Meðalsala gesta
-- Fjöldi gesta í rafrænum viðskiptum
+- Fjöldi gesta í netverslun
 
     - Eftir dagsetningu
     - Eftir staðsetningu
 
-        Eins og er, Commerce greiningar geta aðeins veitt lands-/svæðisstig fyrir staðsetningarinnsýn fyrir gesti í rafrænum viðskiptum.
+        Eins og er, Commerce analytics getur veitt aðeins land / svæði-láréttur flötur korn fyrir staðsetningu innsýn fyrir e-verslun gestir.
 
-    - Eftir nýlegri
+    - Með endurhæfingu
 
         Tíðni er reiknuð út frá fjölda daga frá síðustu viðskiptatengslum viðskiptavinar við fyrirtækið. Eins og er, tekur nýleg ekki tillit til þátttökumerkja sem ekki eru viðskipti, eins og vefskoðunarvirkni í rafrænum viðskiptum.
 
-    - Eftir lengd sambandsins
+    - Eftir lengd vensla
 
-        Lengd tengsla er reiknuð út frá fjölda daga frá því að viðskiptamannaskráin var stofnuð í kerfinu.
+        Lengd tengsla er reiknuð út frá fjölda daga frá því viðskiptamannafærsla var stofnuð í kerfinu.
 
-    - Eftir ævigildi (LTV)
+    - Eftir líftíma (LTV)
 
         LTV er reiknað út frá heildarupphæðinni sem viðskiptavinur eyðir yfir allt Dynamics 365 Commerce sölurásir (þar á meðal POS, rafræn viðskipti og símaver).
 
@@ -312,121 +312,121 @@ Ef gestir skoða netverslunarsíðuna þína á meðan þeir eru skráðir inn g
 
 #### <a name="impressions"></a>Birtingar
 
-Birting er ein sýn á vörumynd frá gesti í rafrænum viðskiptum. Til dæmis fer rafræn viðskiptagestur á heimasíðuna á netverslunarvefsíðunni þinni og skoðar jógamottuvöru í **Mest seld** lista mát. Gesturinn skoðar síðan sömu jógamottuvöruna í a **Val fyrir þig** lista mát. Í þessu tilviki eru tvær vörubirtingar.
+Far er ein sýn á vöru sjón af e-verslun gestur. Til dæmis fer netverslunargestur á heimasíðu e-verslun vefsíðunnar þinnar og skoðar jógamottuvöru í söluhæstu **listaeiningunni**. Gesturinn skoðar síðan sömu jógamottuvöruna í **Picks fyrir þig** listaeiningu. Í þessu tilfelli eru tvær vöru birtingar.
 
-Eins og er eru birtingar raktar á eftirfarandi flötum:
+Eins og er eru birtingar raktar á eftirfarandi fleti:
 
-- Listar (td.**Mælt er með**, **seld**, **fyrir þig**, og **Vinsælt**)
+- Listar (til dæmis **, Mælt með**, **Söluhæsta**, **Val fyrir þig** og **Stefna**)
 - Körfueining
-- Ílát leitarniðurstöðu
-- Gámur fyrir leitarniðurstöður flokka
+- Gámur leitarniðurstöðu
+- Gámur leitarniðurstöður tegundar
 
-Eins og er eru vörur sem eru birtar í hringekjueiningu eða í sérsniðnu myndefni ekki taldar með í birtingartengdum mælikvörðum.
+Eins og er eru vörur sem eru gerðar í hringekjueiningu eða í sérsniðnu myndefni ekki taldar með í birtingartengdum mælikvörðum.
 
-The **Birtingarskýrsla** síða inniheldur eftirfarandi mælikvarða:
+Síðan **Birtingarskýrslan** inniheldur eftirfarandi mælikvarða:
 
 - Birtingarfjöldi
 
-    - Eftir síðugerð og einingu
+    - Eftir síðugerð og kerfiseiningu
 
-        Síðugerð er almenna gerð síðu sem er skilgreind fyrir hverja síðu á netverslunarvefsíðunni þinni. Tegund eininga er tegund sjónræna einingarinnar fyrir rafræn viðskipti sem varan er sýnd í.
+        Síðugerð er almenn gerð síðu sem er skilgreind fyrir hverja síðu á vefverslunarvefnum þínum. Gerð einingar er sú gerð sjónræns kerfiseiningar rafrænna viðskipta sem varan er sýnd í.
 
-        Til að skoða birtingar eftir einingu gætirðu þurft að kafa niður í síðuna og myndefni.
+        Til að skoða birtingar eftir einingum gætirðu þurft að kafa niður í síðuna og myndefni einingarinnar.
 
     - Eftir vöru
     - Eftir innskráðan notanda stöðu
     - Eftir dagsetningu
 
-- Fjöldi smella birtinga
+- Birtingarsmelltufjöldi
 
-    Birtingarsmellur á sér stað þegar gestur í rafrænum viðskiptum velur myndefni vöru. Venjulega er gesturinn síðan tekinn á vöruupplýsingasíðu vörunnar.
+    Birtingarsmellur á sér stað þegar netverslunargestur velur sjónræna vöru. Venjulega er gesturinn síðan fluttur á upplýsingasíðu vörunnar fyrir vöruna.
 
-- Birtingarsmellihlutfall (CTR)
+- Smellihraði birtingar (CTR)
 
-    Smellihlutfall er reiknað sem heildarfjölda birtingarsmella deilt með heildarfjölda birtinga.
+    CTR er reiknað sem heildarfjöldi birtingarsmella deilt með heildarfjölda birtinga.
 
-## <a name="commerce-analytics-preview-installation"></a>Viðskiptagreiningar (Preview) uppsetning
+## <a name="commerce-analytics-preview-installation"></a>Uppsetning Commerce Analytics (Preview)
 
 > [!NOTE]
-> Viðskiptagreining (Preview) er í forskoðun í Bandaríkjunum, Kanada, Bretlandi, Evrópu, Suðaustur-Asíu, Austur-Asíu, Ástralíu og Japan. Ef fjármála- og rekstrarumhverfi þitt er á einhverju af þessum svæðum geturðu virkjað þennan eiginleika í umhverfi þínu með því að nota Microsoft Dynamics Lífsferilsþjónusta (LCS). Áður en þú getur notað þennan eiginleika skaltu skoða [Stilla útflutning í Azure Data Lake](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
+> Commerce Analytics (Preview) er í forskoðun í Bandaríkjunum, Kanada, Bretlandi, Evrópu, Suðaustur-Asíu, Austur-Asíu, Ástralíu og Japan. Ef fjármála- og rekstrarumhverfið þitt er á einhverjum þessara svæða er hægt að virkja þennan eiginleika í umhverfinu með því að nota Microsoft Dynamics Lifecycle Services (LCS). Áður en þú getur notað þessa aðgerð, sjá [Configure export to Azure Data Lake](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
 
-### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a> Virkja og stilla viðskiptagreiningu (forskoðun)
+### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a> Virkja og samskipa Commerce Analytics (Forskoðun)
 
-Til að setja upp Commerce Analytics (Preview) verður þú að hafa heimildir til að búa til tilföng í Azure áskrift. Þú verður líka að hafa heimildir til að setja upp viðbætur í LCS.
+Til að setja upp Commerce analytics (Preview) verður þú að hafa heimildir til að búa til tilföng í Azure áskrift. Þú verður einnig að hafa heimildir til að setja upp viðbætur í LCS.
 
-Til að virkja og stilla viðskiptagreiningu (forskoðun) skaltu fylgja þessum skrefum.
+Til að virkja og skilgreina Commerce analytics (Preview) skal fylgja þessum skrefum.
 
-1. [Sendu forskoðunarinntökueyðublaðið fyrir viðskiptagreiningu (Preview)](#joinPreview)
-2. [Virkjaðu og stilltu Export to Data Lake viðbótina](#enableExportToDataLake).
-3. [Settu upp og stilltu an Azure Synapse vinnurými](#configureAzureSynapse).
-4. [Bættu leyndarmálum við lyklahólfið](#addSecrets).
-5. [Virkjaðu og stilltu Commerce analytics (Preview) viðbótina](#enableCommerceAnalyticsAddin).
-6. [Settu upp Power BI sniðmát app](#powerbi).
+1. [Senda inn skjámyndina Forskoðun inntaka fyrir Commerce Analytics (Preview)](#joinPreview)
+2. [Virkja og stilla innbótina Flytja út í](#enableExportToDataLake) gagnavatn.
+3. [Setja upp og skilgreina Azure Synapse vinnusvæði](#configureAzureSynapse).
+4. [Bættu leyndarmálum við lykilhvelfinguna](#addSecrets).
+5. [Virkja og skilgreina innbótina](#enableCommerceAnalyticsAddin) Commerce Analytics (Preview).
+6. [Settu upp sniðmátsforritið Power BI](#powerbi).
 
-### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a> Sendu forskoðunarinntökueyðublaðið fyrir viðskiptagreiningu (Preview)
+### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a> Senda inn skjámyndina Forskoðun inntaka fyrir Commerce Analytics (Preview)
 
-Sendu inn [Forskoða inntökueyðublað fyrir viðskiptagreiningu (Forskoðun)](https://forms.office.com/r/vW5VLJGXZ2). Eftir að beiðni þín hefur verið afgreidd verður staðfestingarpóstur sendur á netfangið sem þú gafst upp í eyðublaðinu.
+Senda inn skjámyndina [Forskoðun inntaka fyrir Commerce Analytics (Preview)](https://forms.office.com/r/vW5VLJGXZ2). Eftir að beiðni þín hefur verið afgreidd verður staðfestingartölvupóstur sendur á netfangið sem þú gafst upp í eyðublaðinu.
 
-### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a> Virkjaðu og stilltu Export to Data Lake viðbótina
+### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a> Virkja og stilla innbótina Flytja út í gagnavatn
 
 > [!IMPORTANT]
-> Þegar þú stillir Export to Data Lake viðbótina skaltu hreinsa **Rauntíma gagnabreytingar** gátreitinn á Uppsetningarsíðunni Export to Data Lake viðbót til að tryggja að gagnabreytingar í rauntíma séu ekki virkar. The **Rauntíma gagnabreytingar** eiginleiki er í forskoðun og er ekki studdur af Commerce Analytics eins og er. Ef þú virkjar eiginleikann mun Commerce Analytics ekki geta unnið úr gögnunum þínum í gagnavatninu og flest Power BI skýrslur sýna engin gögn.
+> Þegar þú samskipar Innbótinni Flytja út í gagnavatn skal hreinsa **gátreitinn Rauntímagögn breyta** gátreitnum á síðunni Flytja út í gagnavatnsinnbót til að tryggja að rauntímagagnabreytingar séu ekki virkar. Eiginleikinn **Rauntímagagnabreytingar** er í forskoðun og er ekki studdur af Commerce Analytics eins og er. Ef þú virkjar aðgerðina mun Commerce Analytics ekki geta unnið úr gögnunum þínum í gagnavatninu og flestar skýrslur þínar Power BI munu ekki sýna nein gögn.
 
-Viðskiptagreining (Preview) byggir á Flytja út í Data Lake eiginleikann til að flytja út gögn Commerce höfuðstöðva til Data Lake og halda gögnunum ferskum. Áður en þú stillir viðskiptagreiningu (Forskoðun) skaltu virkja og stilla Export to Data Lake með því að fylgja skrefunum í [Stilla útflutning í Azure Data Lake](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
+Commerce Analytics (Preview) byggir á aðgerðinni Export to Data Lake til að flytja út gögn um höfuðstöðvar Commerce í Data Lake og halda gögnunum ferskum. Áður en Commerce analytics (Preview) er samskipað skal virkja og stilla Flytja út í Gagnavatn með því að fylgja skrefunum í Configure export to [Azure Data Lake](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md).
 
-Á meðan þú stillir Export to Data Lake viðbótina skaltu skrifa niður eftirfarandi upplýsingar, því þú verður að slá þær inn síðar:
+Þó að þú stillir innfluttingu Flytja út í gagnavatn skaltu gera athugasemd við eftirfarandi upplýsingar, því þú verður að slá það inn síðar:
 
-- <a name="keyVault"></a> Domain Name System (DNS) nafn lykilhólfsins sem þú gafst upp.
-- Leyndarnöfnin sem þú gafst upp og innihalda auðkenni forritsins og leyndarmál forritsins. Fyrir frekari upplýsingar, sjá [Bættu leyndarmálum við lyklahólfið](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#addsecrets).
+- <a name="keyVault"></a> Heiti lénsheitiskerfisins (DNS) lykilhvelfingarinnar sem þú gafst upp.
+- Leynilegheitin sem þú gafst upp og innihalda umsóknarkennið og umsóknarleyndarmálið. Frekari upplýsingar er að finna í [Bæta leyndarmálum við lyklahvelfinguna](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#addsecrets).
 
-### <a name="install-and-configure-an-azure-synapse-workspace"></a><a name="configureAzureSynapse"></a> Settu upp og stilltu an Azure Synapse vinnurými
+### <a name="install-and-configure-an-azure-synapse-workspace"></a><a name="configureAzureSynapse"></a> Setja upp og skilgreina Azure Synapse vinnusvæði
 
-Commerce Analytics (Preview) krefst þess að Synapse SQL on-demand sé útvegað í þínum Azure Synapse vinnurými. Til að setja upp og stilla Azure Synapse vinnusvæði, fylgdu þessum skrefum.
+Commerce Analytics (Preview) krefst þess að Synapse SQL eftir þörfum sé veitt á vinnusvæðinu þínu Azure Synapse. Til að setja upp og skilgreina Azure Synapse vinnusvæði skal fylgja þessum skrefum.
 
-1. Settu upp an Azure Synapse vinnusvæði í Azure áskriftinni þinni. Fyrir frekari upplýsingar, sjá [Flýtiræsing: Búðu til Synapse vinnusvæði](/azure/synapse-analytics/quickstart-create-workspace).
-1. <a name="serverlessep"></a> Eftir að vinnusvæðið hefur verið útvegað skaltu opna yfirlitssíðu tilfanga og taka eftir **Serverlaus SQL endapunktur** gildi. Þú verður að geyma þetta gildi í lyklahólfinu í næsta hluta.
-1. Á yfirlitssíðunni skaltu velja **Opnaðu Synapse Studio** hlekkur til að opna Azure Synapse Stúdíó fyrir vinnusvæðið þitt.
-1. Veldu **Stjórna** á vinstri valmyndinni. Til að sjá valmyndarnöfnin gætirðu þurft að velja útvíkkunartengilinn á vinstri valmyndinni.
-1. Undir **Öryggishópur**, veldu **Aðgangsstýring**. 
+1. Azure Synapse Settu upp vinnusvæði í Azure áskriftinni þinni. Sjá Quickstart: Create a Synapse workspace fyrir frekari [upplýsingar](/azure/synapse-analytics/quickstart-create-workspace).
+1. <a name="serverlessep"></a> Eftir að vinnusvæðið hefur verið gefið út skal opna yfirlitssíðuna tilfangayfirlit og gera athugasemd við **gildið Serverless SQL endpoint**. Þú verður að geyma þetta gildi í lykilhvelfingunni í næsta kafla.
+1. Á yfirlitssíðunni skal velja tengilinn **Opna Synapse Studio** til að opna Azure Synapse Stúdíó fyrir vinnusvæðið þitt.
+1. Veldu **Stjórna** á vinstri valmyndinni. Til að sjá heiti valmyndarinnar gætirðu þurft að velja stækka tengilinn í vinstri valmyndinni.
+1. Undir **Öryggisflokkur** skal velja **Aðgangsstýring**. 
 1. Veljið **Bæta við**.
-1. Í **Bæta við hlutverkaúthlutun** glugga, stilltu valkostina eins og lýst er í eftirfarandi töflu.
+1. Í rúðunni **Bæta við úthlutun** hlutverka skal stilla valkostina eins og lýst er í eftirfarandi töflu.
 
     | Valkostur | Gildi |
     |--------|-------|
-    | Umfang | Veldu **Vinnurými**. |
-    | Hlutverk | Veldu **Synapse SQL stjórnandi**.|
-    | Velja notanda | Leitaðu að nafni forritsins sem þú [búin til við uppsetningu á Export to Data Lake viðbótinni](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createapplication). Þegar forritið birtist í leitarniðurstöðum skaltu velja það. Umsóknin mun nú birtast í **Valdir notendur, hópar eða þjónustustjórar** kafla. |
+    | Umfang | Veljið **vinnusvæði**. |
+    | Hlutverk | Veljið **Synapse SQL-kerfisstjóra**.|
+    | Velja notanda | Leitaðu að heiti forritsins sem þú [bjóst til við uppsetningu á innbótinni Flytja út í](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createapplication) Gagnavatn. Þegar forritið birtist í leitarniðurstöðunum skal velja það. Forritið mun nú birtast í hlutanum **Valdir notendur, hópar eða þjónustustjórar**. |
 
-1. Veldu **Sækja um** til að klára hlutverkaúthlutunina. Forritinu eru veitt Synapse SQL stjórnandaréttindi. Þess vegna getur það búið til nauðsynlegar skoðanir við uppsetningu á Commerce Analytics (Preview) LCS viðbótinni.
+1. Veljið **Nota** til að ljúka hlutverkaúthlutuninni. Umsóknin er veitt Synapse SQL Administrator réttindi. Þess vegna getur það búið til nauðsynleg yfirlit við skilgreiningu á LCS-innbót Commerce Analytics (Preview).
 
-### <a name="add-secrets-to-the-key-vault"></a><a name="addSecrets"></a> Bættu leyndarmálum við lyklahólfið
+### <a name="add-secrets-to-the-key-vault"></a><a name="addSecrets"></a> Bæta leyndarmálum við lykilhvelfinguna
 
-Í sama [lyklahólf](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createkeyvault) sem þú notaðir á meðan þú stilltir Export to Data Lake viðbótina, verður þú að bæta við leyndarmálunum sem eru sýnd í eftirfarandi töflu. Fyrir hvert leyndarmál verður þú að gefa upp leyndarmál og tilgreint gildi.
+Í sömu [lykilhvelfingu](../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md#createkeyvault) og þú notaðir þegar þú samskipaðir innbótinni Flytja út í gagnavatn verður að bæta við leyndarmálunum sem sýndar eru í eftirfarandi töflu. Fyrir hvert leyndarmál verður þú að gefa upp leynilegt nafn og tilgreint gildi.
 
-| Tillaga um leyndarmál | Leynilykill | Dæmi um leyndarmál |
+| Tillaga að leyninafni | Leynilykill | Dæmi um leyndargildi |
 |---------|---------|---------|
-| synapse-sql-þjónn | Serverlausa SQL endapunktsgildið sem þú bentir á meðan þú [stillti Azure Synapse vinnurými](#serverlessep). | `test-ondemand.sql.azuresynapse.net` |
-| <a name="roUser"></a> readonly-sql-pwd | Lykilorðið sem á að stilla fyrir SQL-skrifvarinn notanda. The Power BI skýrsla mun nota þetta lykilorð til að tengjast netþjónslausu SQL. Til að stilla lykilorðið skaltu fylgja lykilorðareglum fyrirtækisins þíns. | |
+| synapse-sql-server | Þjónslausa SQL endastöð gildið sem kom fram þegar [vinnusvæðið Azure Synapse var](#serverlessep) skilgreint. | `test-ondemand.sql.azuresynapse.net` |
+| <a name="roUser"></a> readonly-sql-pwd | Aðgangsorðið sem á að stilla fyrir SQL skrifvarinn notanda. Skýrslan Power BI notar þetta aðgangsorð til að tengjast þjónslausum SQL. Til að stilla aðgangsorðið skal fylgja aðgangsorðareglum fyrirtækisins. | |
 
-### <a name="enable-and-configure-the-commerce-analytics-preview-add-in"></a><a name="enableCommerceAnalyticsAddin"></a> Virkjaðu og stilltu Commerce analytics (Preview) viðbótina
+### <a name="enable-and-configure-the-commerce-analytics-preview-add-in"></a><a name="enableCommerceAnalyticsAddin"></a> Virkja og skilgreina Commerce analytics (Preview) viðbótina
 
 Til að setja upp Commerce analytics (Preview) viðbótina í LCS verður þú að vera umhverfisstjóri í LCS fyrir umhverfið sem þú ætlar að nota.
 
-Til að setja upp og stilla Commerce Analytics (Preview) viðbótina skaltu fylgja þessum skrefum.
+Til að setja upp og skilgreina Commerce analytics (Preview) viðbótina skal fylgja þessum skrefum.
 
-1. Skrá inn [LCS](https://lcs.dynamics.com/), og farðu í umhverfið þitt.
-2. Á **Umhverfi** síðu, á **Umhverfisviðbætur** flipa, veldu **Settu upp nýja viðbót**.
-3. Veldu í glugganum **Viðskiptagreining (Forskoðun)**.
-4. Í **Setja upp viðbót** valmynd, sláðu inn eftirfarandi upplýsingar.
+1. Skráðu þig inn á LCS [og farðu í](https://lcs.dynamics.com/) umhverfið þitt.
+2. **Á síðunni Umhverfi** á flipanum **Viðbætur í** umhverfi skal velja **Setja upp nýja viðbót**.
+3. Í svarglugganum skal velja **Commerce analytics (Preview)**.
+4. **Í svarglugganum Innbót** uppsetningar eru eftirfarandi upplýsingar færðar inn.
 
     | Upplýsingar | Uppruni | Dæmi um gildi |
     |---|---|---|
-    | Azure Active Directory(Azure AD) Auðkenni leigjanda | Skráðu þig inn á [Azure gátt](https://portal.azure.com/), og opnaðu **Azure Active Directory** þjónustu. Opnaðu síðan **Eiginleikar** síðu og afritaðu gildið í **Auðkenni leigjanda** sviði. | `72f988bf-0000-0000-00000-2d7cd011db47` |
-    | DNS nafn Azure lykilhólfsins þíns | Sláðu inn DNS nafn lykilhólfsins þíns. Þú hefðir átt að skrá þetta gildi á meðan þú [stillti Export to Data Lake viðbótina](#keyVault). | `https://contosod365datafeedpoc.vault.azure.net/` |
-    | Leyndarheiti sem inniheldur auðkenni forritsins | Sláðu inn leynda nafnið sem geymir auðkenni forritsins. Þú hefðir átt að skrá þetta gildi á meðan þú [stillti Export to Data Lake viðbótina](#keyVault). | `app-id` |
-    | Leyndarheiti sem inniheldur leyndarmál forritsins | Sláðu inn leyndarmálið sem geymir leyndarmál forritsins. Þú hefðir átt að skrá þetta gildi á meðan þú [stillti Export to Data Lake viðbótina](#keyVault). | `app-secret` |
-    | Leyndarheiti sem inniheldur netþjónslausa SQL endapunkt fyrir Azure Synapse | Sláðu inn leyndarmálið sem geymir netþjónslausa SQL endapunktinn. Þú hefðir átt að búa til leyndarmálið á meðan þú [bætti leyndarmálum við lykilgildið](#addSecrets). | `synapse-sql-server` |
-    | Leyndarheiti sem inniheldur lykilorðið til að setja fyrir SQL-skrifvarða notendur í Azure Synapse | Sláðu inn leyndarmálið sem geymir lykilorðið til að stilla fyrir netþjónslausan SQL-skrifvarinn notanda. Þessi notandi verður búinn til fyrir þig og ætti að vera notaður í Power BI skýrslu til að tengjast serverlausa SQL netþjóninum. Þú hefðir átt að búa til leyndarmálið á meðan þú [bætti leyndarmálum við lykilgildið](#addSecrets). | `readonly-sql-pwd` |
+    | Azure Active Directory(Azure AD) Kenni leigjanda | Skráðu þig inn á [Azure vefgáttina](https://portal.azure.com/) og opnaðu þjónustuna **Azure Active Directory**. Síðan er síðan **síðunni Eiginleikar** opnað og gildið afritað í reitnum **Kenni** leigjanda. | `72f988bf-0000-0000-00000-2d7cd011db47` |
+    | DNS nafn Azure lyklahvelfingarinnar þinnar | Sláðu inn DNS-heiti lykilhvelfingarinnar. Þú ættir að hafa gert athugasemd við þetta gildi á meðan þú [samskipaðir Flytja út í](#keyVault) gagnavatnsinnbótina. | `https://contosod365datafeedpoc.vault.azure.net/` |
+    | Leyniheiti sem inniheldur umsóknarkennið | Færið inn leyniheitið sem geymir kenni forritsins. Þú ættir að hafa gert athugasemd við þetta gildi á meðan þú [samskipaðir Flytja út í](#keyVault) gagnavatnsinnbótina. | `app-id` |
+    | Leyniheiti sem inniheldur forritsleyndarmálið | Sláðu inn leyninafnið sem geymir leyndarmál forritsins. Þú ættir að hafa gert athugasemd við þetta gildi á meðan þú [samskipaðir Flytja út í](#keyVault) gagnavatnsinnbótina. | `app-secret` |
+    | Leyniheiti sem inniheldur þjónslausa SQL endastöð fyrir Azure Synapse | Færið inn leyniheitið sem geymir þjónslausa SQL endastöðina. Þú ættir að hafa búið til leyndarmálið á meðan þú [bættir leyndarmálum við lykilgildið](#addSecrets). | `synapse-sql-server` |
+    | Leyniheiti sem inniheldur aðgangsorðið sem á að stilla fyrir SQL-skrifvarna notendur í Azure Synapse | Færið inn leyniheitið sem geymir aðgangsorðið sem á að stilla fyrir þjónlausa SQL skrifvarna notandann. Þessi notandi verður búinn til fyrir þig og ætti að vera notaður í Power BI skýrslu til að tengjast serverlausa SQL netþjóninum. Þú hefðir átt að búa til leyndarmálið á meðan þú [bætti leyndarmálum við lykilgildið](#addSecrets). | `readonly-sql-pwd` |
 
 1. Samþykktu skilmála tilboðsins með því að velja gátreitinn og velja síðan **Settu upp**.
 
@@ -434,7 +434,7 @@ Til að setja upp og stilla Commerce Analytics (Preview) viðbótina skaltu fylg
 
 ### <a name="install-the-power-bi-template-app"></a><a name="powerbi"></a> Settu upp Power BI sniðmát app
 
-Til að setja upp Power BI sniðmátsforrit fyrir viðskiptagreiningar (Preview), fylgdu þessum skrefum.
+Til að setja upp Power BI sniðmátsforrit fyrir viðskiptagreiningu (Preview), fylgdu þessum skrefum.
 
 1. Skráðu þig inn á [Power BI gátt](https://powerbi.microsoft.com/) með því að nota auðkenni fyrirtækisins þíns.
 1. Settu upp viðskiptagreininguna (Preview)Power BI sniðmát app með því að fara á [https://aka.ms/cdireport-installapp](https://aka.ms/cdireport-installapp). Að öðrum kosti, heimsækja [AppSource síðu fyrir Dynamics 365 Commerce Greining](https://appsource.microsoft.com/product/power-bi/dynamics-365-commerce.dydnamics-365-commerce-analytics), og veldu **Náðu í það núna**.

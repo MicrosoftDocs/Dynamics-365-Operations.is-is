@@ -1,6 +1,6 @@
 ---
 title: Flokka afurð með flokkastigveldi
-description: Þetta efni lýsir því hvernig á að flokka vöru með tegundastigveldum.
+description: Þessi grein lýsir því hvernig á að flokka vöru með því að nota flokkastigveldi.
 author: t-benebo
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 857a9e69e63216f22a4e75d9606ef6ceb77f1dbc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 29b1d7dc66e50822694a20235be096431e228ce6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569626"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862628"
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Flokka afurð með flokkastigveldi
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að flokka vöru með tegundastigveldum. Tegundastigveldi eru notuð til að flokka afurðir fyrir útflutning, innkaup, sölu eða í öðrum tilgangi. Þetta verk er yfirleitt framkvæmt af framleiðslustjóra. Dæmið notar afurðarnúmer M0009 í sýnigagnafyrirtækinu USMF.
+Þessi grein lýsir því hvernig á að flokka vöru með því að nota flokkastigveldi. Tegundastigveldi eru notuð til að flokka afurðir fyrir útflutning, innkaup, sölu eða í öðrum tilgangi. Þetta verk er yfirleitt framkvæmt af framleiðslustjóra. Dæmið notar afurðarnúmer M0009 í sýnigagnafyrirtækinu USMF.
 
 1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
 1. Í listanum skal finna og velja þá skráningu sem óskað er eftir.

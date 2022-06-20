@@ -1,6 +1,6 @@
 ---
 title: Stillingar fyrir fjármálainnsýn - útgáfa 10.0.20 og síðar
-description: Þetta efnisatriði útskýrir hvernig á að stilla kerfið þitt til að nota þá möguleika sem eru tiltækir í Finance Insights í útgáfu 10.0.20 og síðar.
+description: Þessi grein útskýrir hvernig á að stilla kerfið þitt til að nota þá möguleika sem eru tiltækir í Finance Insights í útgáfu 10.0.20 og síðar.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 61cc002395ac3bc946fa03a04833a7b6d4820194
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e6b9c34ee68a25ac9613a65cf63443751a39c576
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868519"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>Stillingar fyrir fjármálainnsýn - útgáfa 10.0.20 og síðar
 
@@ -29,10 +29,10 @@ ms.locfileid: "8711605"
 
 
 
-Fjármálainnsýn sameinar virkni frá Microsoft Dynamics 365 Fjármál með Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtæki þitt. Þetta efnisatriði útskýrir hvernig á að stilla Dynamics 365 Finance útgáfu 10.0.20 þannig að kerfið þitt geti notað þá möguleika sem eru tiltækir í Finance Insights.
+Fjármálainnsýn sameinar virkni frá Microsoft Dynamics 365 Fjármál með Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtæki þitt. Þessi grein útskýrir hvernig á að stilla Dynamics 365 Finance útgáfu 10.0.20 þannig að kerfið þitt geti notað þá möguleika sem eru tiltækir í Finance Insights.
 
 > [!NOTE]
-> Skrefum skilgreiningarinnar sem lýst í þessu efnisatriði eiga aðeins við um útgáfu 10.0.20 og nýrri af Finance. Til að setja upp fjármálainnsýn á útgáfu 10.0.19 og eldri skal sjá [Stilling fjármálainnsýnar - útgáfur fram að 10.0.19](configure-for-fin-insites.md).
+> Stillingarskrefin sem lýst er í þessari grein eiga aðeins við um Finance útgáfu 10.0.20 og nýrri. Til að setja upp fjármálainnsýn á útgáfu 10.0.19 og eldri skal sjá [Stilling fjármálainnsýnar - útgáfur fram að 10.0.19](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Uppsetning Finance
 

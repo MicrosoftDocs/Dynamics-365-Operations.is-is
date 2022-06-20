@@ -1,6 +1,6 @@
 ---
 title: Þjónustuumhverfi
-description: Þetta efnisatriði veitir upplýsingar um þjónustuumhverfi fyrir rafræna reikninga og útskýrir hvernig á að setja þau upp.
+description: Þessi grein veitir upplýsingar um þjónustuumhverfi fyrir rafræna reikninga og útskýrir hvernig á að setja þau upp.
 author: dkalyuzh
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a8a135098f71e1413cd20ff8ad4003f090ae3407
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 8c743c5b2fbc7dcc3ae04fa4d7ca0e65de6c2507
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371946"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901248"
 ---
 # <a name="service-environments"></a>Þjónustuumhverfi
 
@@ -35,9 +35,9 @@ ms.locfileid: "8371946"
 
 Þessi tegund af skiptingu hjálpar til við að tryggja að rafræn reikningsferlar séu staðfestir og sérsniðnir í sandkassanum áður en þeir fara í framleiðslu.
 
-Þjónustuumhverfi verður að búa til og viðhalda í Regulatory Configuration Service (RCS). Síðan, þegar þær eru tilbúnar, þarf að birta þær í rafræna reikningaþjónustu. Útgáfuferlið sendir færibreytur þjónustuumhverfisins frá RCS-tilvikinu til rafrænna reikningsþjónustunnar.
+Þjónustuumhverfi verður að búa til og viðhalda í Regulatory Configuration Service (RCS). Síðan, þegar þær eru tilbúnar, þarf að birta þær í rafræna reikningaþjónustu. Útgáfuferlið sendir færibreytur þjónustuumhverfisins frá RCS tilvikinu til rafrænnar reikningaþjónustunnar.
 
-Ef þú lýkur ekki útgáfuferlinu eftir að þú hefur búið til nýtt þjónustuumhverfi eða breytt núverandi þjónustuumhverfi (til dæmis með því að bæta við eða fjarlægja notendur eða Microsoft Azure Key Vault leyndarmál), munu breytingarnar ekki taka gildi. Aðeins útgefið umhverfi er hægt að nálgast með Dynamics 365 Finance eða Dynamics 365 Supply Chain Management.
+Ef þú lýkur ekki útgáfuferlinu eftir að þú hefur búið til nýtt þjónustuumhverfi eða breytt núverandi þjónustuumhverfi (til dæmis með því að bæta við eða fjarlægja notendur eða Microsoft Azure Key Vault leyndarmál), munu breytingarnar ekki taka gildi. Aðeins er hægt að nálgast birt umhverfi með Dynamics 365 Finance eða Dynamics 365 Supply Chain Management.
 
 ## <a name="service-environment-statuses"></a>Staða þjónustuumhverfis
 
@@ -49,7 +49,7 @@ Hægt er að stjórna þjónustuumhverfi með stöðu þeirra. Þú getur skoða
 
 ## <a name="users"></a>Notendur
 
-Hvert þjónustuumhverfi þarf að skrá þá notendur sem geta tengst rafrænum reikningum frá Finance eða Supply Chain Management.
+Í hverju þjónustuumhverfi þarf að skrá þá notendur sem geta tengst rafrænum reikningum frá Finance eða Supply Chain Management.
 
 ## <a name="applications"></a>Hugbúnaður
 
@@ -57,7 +57,7 @@ Hvert þjónustuumhverfi þarf að skrá þá notendur sem geta tengst rafrænum
 
 Vegna þess að Microsoft krefst mikillar öryggisstjórnunar yfir forritum sem geta tengst rafrænum reikningaþjónustu, verður þú að hafa samband við Microsoft á<DGXRegulatoryservicesengineering@service.microsoft.com> og gefðu upp eftirfarandi upplýsingar um umsókn þína:
 
-- Azure AD leigjandakenni
+- Azure AD-leigjandakenni
 - Microsoft Dynamics Auðkenni líftímaþjónustu (LCS) umhverfi
 - Auðkenni umsókn (auðkenni viðskiptavinar)
 - Kenni hlutar

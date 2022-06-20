@@ -1,6 +1,6 @@
 ---
 title: Bæta við táknmynd
-description: Þetta efni útskýrir hvernig á að bæta við táknmynd á vefsíðuna.
+description: Þessi grein útskýrir hvernig á að bæta favicon við síðuna þína.
 author: bicyclingfool
 ms.date: 08/31/2020
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2047a0c30c9e723c717657475a111181299aaa8d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964733"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855796"
 ---
 # <a name="add-a-favicon"></a>Bæta við táknmynd
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að bæta við táknmynd á vefsíðuna.
+Þessi grein útskýrir hvernig á að bæta favicon við síðuna þína.
 
 Táknmynd er lítil myndaskrá sem er sýnd á flipa vafra, á heimilisfangsstikunni, í vafraferlinum og meðal annars í bókamerkjum eða uppáhaldi. Við mælum með að þú bætir táknmynd við vefinn þinn vegna þess að það táknar og styrkir vörumerkið þitt og hjálpar til við að greina vefsíðuna frá öðrum síðum sem viðskiptavinir þínir heimsækja.
 
-Þó að þú getir bætt við mörgum táknmyndum af ýmsum stærðum og skráartegundum á vefsíðuna, sýnir þetta efni hvernig á að bæta einni táknmynd við. Hins vegar er sama ferli og staðsetning notuð til að bæta fleiri táknmyndum við.
+Þó að þú getir bætt mörgum favicons af ýmsum stærðum og skráargerðum við síðuna þína, sýnir þessi grein hvernig á að bæta við einu favicon. Hins vegar er sama ferli og staðsetning notuð til að bæta fleiri táknmyndum við.
 
 ## <a name="upload-a-favicon-to-your-sites-asset-collection"></a>Hladdu upp táknmynd í eignasafn vefsvæðisins
 

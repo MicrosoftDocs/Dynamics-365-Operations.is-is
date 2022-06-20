@@ -1,6 +1,6 @@
 ---
 title: Ekki tókst að fá aðgang að skattþjónustu
-description: Þetta efnisatriði útskýrir hvernig á að leysa bilun í aðgangi að skattreikningsþjónustunni.
+description: Þessi grein útskýrir hvernig á að leysa bilun í aðgangi að skattreikningsþjónustunni.
 author: hangwan
 ms.date: 03/04/2022
 ms.topic: business-process
@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 02/16/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: f4682b83405071b4ad7647958122ab2b4e082133
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: 65d819b97be3d1238bc0ecfc201b4e24edac8616
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612317"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861223"
 ---
 # <a name="failed-to-access-tax-service"></a>Ekki tókst að fá aðgang að skattþjónustu
 
 [!include [banner](../includes/banner.md)]
 
 
-Þetta efnisatriði útskýrir hvernig á að laga villuna „Mistókst að fá aðgang að skattaþjónustu“ í skattaútreikningsþjónustunni.
+Þessi grein útskýrir hvernig á að laga villuna „Mistókst að fá aðgang að skattaþjónustu“ í skattaútreikningsþjónustunni.
 
 ## <a name="symptoms"></a>Einkenni
 
-Í Microsoft Dynamics 365 Fjármál, þú ferð til **Skattur** \> **Uppsetning** \> **Skattstilling** \> **Færi skattaþjónustu**. Á **Almennt** flipann, virkjarðu á **Virkjaðu skattaútreikning** valmöguleika. Ef þú reynir síðan að velja gildi í **Heiti eiginleikauppsetningar** reit, kemur upp villa. Villuskilaboðin segja, "Mistókst að fá aðgang að skattaþjónustu."
+Í Microsoft Dynamics 365 Fjármál, þú ferð til **Skattur** \> **Uppsetning** \> **Skattstilling** \> **Færibreytur skattaþjónustu**. Á **Almennt** flipann, virkjarðu á **Virkjaðu skattaútreikning** valmöguleika. Ef þú reynir síðan að velja gildi í **Heiti eiginleikauppsetningar** reit, kemur upp villa. Villuskilaboðin segja: "Mistókst að fá aðgang að skattaþjónustu."
 
 ## <a name="cause"></a>Orsök
 
@@ -38,7 +38,7 @@ ms.locfileid: "8612317"
 ## <a name="resolution"></a>Upplausn 
 
 1. Skráðu þig inn í Microsoft Dynamics Lifecycle Services (LCS).
-2. Á **Umhverfi** síðu, á **Umhverfisviðbætur** flipa, finndu **Skattútreikningur** atriði, og farið yfir stöðu hans. Staðan ætti að vera **Er að setja upp** eða **Uppsett**. Ef viðbótarskattsútreikningsþjónustan er ekki sett upp færðu villuna.
+2. Á **Umhverfi** síðu, á **Umhverfisviðbætur** flipa, finndu **Skattútreikningur** atriði og farið yfir stöðu hans. Staðan ætti að vera **Er að setja upp** eða **Uppsett**. Ef viðbótarskattsútreikningsþjónustan er ekki sett upp færðu villuna.
 
 ## <a name="mitigation"></a>Mildun
 

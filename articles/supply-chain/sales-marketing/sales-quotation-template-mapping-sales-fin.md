@@ -1,6 +1,6 @@
 ---
 title: Samstilla hausa og línur sölutilboðs beint úr Sales í Supply Chain Management
-description: Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla hausa og línur sölutilboða beint úr Dynamics 365 Sales við Dynamics 365 Supply Chain Management.
+description: Greinin fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla sölutilboðshausa og línur beint frá Dynamics 365 Sales til Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 362b6c290b1784d05e42ecb650911cc51aa8478a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 440b0a6fd2d297027cf3cab548c611544450269a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061985"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854124"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Samstilla hausa og línur sölutilboðs beint úr Sales í Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061985"
 
 
 
-Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla hausa og línur sölutilboða beint úr Dynamics 365 Sales við Dynamics 365 Supply Chain Management.
+Greinin fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla sölutilboðshausa og línur beint frá Dynamics 365 Sales til Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
 > Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Microsoft Dataverse fyrir forrit](/powerapps/administrator/data-integrator).
@@ -136,7 +136,7 @@ Eftirfarandi skýringamyndir sýna dæmi um sniðmátsvörpun í gagnasamþátta
 
 ![Sniðmátsvörpun í Gagnasamþáttara, QuoteLine.](./media/sales-quotation-direct-template-mapping-data-integrator-2.png)
 
-## <a name="related-topics"></a>Tengd efnisatriði
+## <a name="related-articles"></a>Tengdar greinar
 
 [Viðfang til sjóðstreymis](prospect-to-cash.md)
 

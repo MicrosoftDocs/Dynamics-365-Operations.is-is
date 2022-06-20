@@ -1,6 +1,6 @@
 ---
 title: Úthluta Human Resources
-description: Þetta efnisatriði útskýrir úthlutunarferli fyrir nýtt vinnsluumhverfi fyrir Microsoft Dynamics 365 Human Resources.
+description: Þessi grein útskýrir ferlið við að útvega nýtt framleiðsluumhverfi fyrir Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 01/07/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79747d0c5c4265315d1757352dfecef09c469dd8
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
-ms.translationtype: MT
+ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858244"
 ---
 # <a name="provision-human-resources"></a>Úthluta Human Resources
 
@@ -27,13 +27,13 @@ ms.locfileid: "8710864"
 
 
 
-Þetta efnisatriði útskýrir úthlutunarferli fyrir nýtt vinnsluumhverfi fyrir Microsoft Dynamics 365 Human Resources. 
+Þessi grein útskýrir ferlið við að útvega nýtt framleiðsluumhverfi fyrir Microsoft Dynamics 365 Human Resources. 
 
 ## <a name="prerequisites"></a>Forkröfur
 
 Áður en hafist er handa við að úthluta nýju vinnsluumhverfi verða eftirfarandi skilyrði að vera til staðar:
 
-- Þú hefur keypt Human Resources í gegnum Cloud Solution Provider (CSP) eða samkomulag um skipulag fyrirtækis (EA). Ef þú ert með fyrirliggjandi Microsoft Dynamics 365 leyfi sem nú þegar inniheldur þjónustuáætlun Human Resources og getur ekki lokið við skrefin í þessu efnisatriði, skaltu hafa samband við notendaþjónustu.
+- Þú hefur keypt Human Resources í gegnum Cloud Solution Provider (CSP) eða samkomulag um skipulag fyrirtækis (EA). Ef þú ert með fyrirliggjandi Microsoft Dynamics 365 leyfi sem nú þegar inniheldur þjónustuáætlun Human Resources og getur ekki lokið við skrefin í þessari grein, skaltu hafa samband við notendaþjónustu.
 
 - Altækur stjórnandi hefur skráð sig inn í [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) og búið til nýtt Human Resources verk. 
 

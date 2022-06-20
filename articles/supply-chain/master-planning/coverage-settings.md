@@ -1,6 +1,6 @@
 ---
 title: Þekjustillingar
-description: Þetta efnisatriði veitir upplýsingar um þekjustillingar sem aðalröðun notar til að reikna út vöruþarfir.
+description: Þessi grein veitir upplýsingar um þekjustillingar sem aðaláætlanagerð notar til að reikna út vöruþörf.
 author: t-benebo
 ms.date: 09/13/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e98f1ab83e27e36400cd312ef2af8554d22ea505
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1218c447a18f79f9a44bfa413a0414d6926d7499
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470038"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871950"
 ---
 # <a name="coverage-settings"></a>Þekjustillingar
 

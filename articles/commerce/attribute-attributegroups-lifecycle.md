@@ -1,6 +1,6 @@
 ---
 title: Stjórna eigindum og eigindaflokkum
-description: Þetta efnistriði lýsir því hvernig á að nota eigindir til að veita möguleika á að lýsa vöru og eiginleikum hennar í gegnum notandaskilgreinda reiti.
+description: Þessi grein lýsir því hvernig á að nota eiginleika til að veita leið til að lýsa vöru og eiginleikum hennar í gegnum notendaskilgreinda reiti.
 author: ashishmsft
 ms.date: 04/28/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd74cb7795366bdca80e47d79a9591af69a16daf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727655"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876665"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Stjórna eigindum og eigindaflokkum
 
@@ -85,7 +85,7 @@ Eigindir eru byggðar á *gerðum eiginda*. gerð eigindar auðkennir gagnategun
 
 *Lýsigögn eiginda* leyfir þér að velja valkosti til að tilgreina hvernig eigindin fyrir hverja vöru eigi að haga sér. Til dæmis er hægt að velja hvort eiginda sé krafist, hvort hægt sé að nota þær við leit og hvort hægt sé að nota þær sem síu.
 
-Fyrir afurðir er hægt að hnekkja á lýsigögnum eiginda á stigi rásar. Fjallað verður um þennan möguleika síðar í þessu efnissatriði.
+Fyrir afurðir er hægt að hnekkja á lýsigögnum eiginda á stigi rásar. Fjallað verður um þessa hæfileika síðar í þessari grein.
 
 Eins og þú kannski tekur eftir inniheldur síðan **Eigindir** valkosti sem tengjast lýsigögnum eiginda. Undir **Lýsigögn eiginda fyrir sölustaði** hefur einn valkostur sem heitir **Hægt að fínstilla** áhrif á virkni eigindagilda á sölustað eða það hvernig kerfið meðhöndlar þessi eigindargildi. Aðeins eigindir þar sem hægt er að stilla valkostinn **Hægt að fínstilla** á **Já** munu birtast fyrir fínstillingu eða síun á afurðum í POS.
 

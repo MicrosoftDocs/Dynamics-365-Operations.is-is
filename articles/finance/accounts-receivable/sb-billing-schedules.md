@@ -1,6 +1,6 @@
 ---
 title: Stofna greiðsluáætlun
-description: Þetta efni útskýrir hvernig á að búa til, eyða og breyta innheimtuáætlunum.
+description: Þessi grein útskýrir hvernig á að búa til, eyða og breyta innheimtuáætlunum.
 author: JodiChristiansen
 ms.date: 02/09/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: ed31dd96b0115610cfb74aed69f1acc1055bfe56
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1248799f92dc6cbce8528a53cc8a3012d2a67b3c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690446"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903393"
 ---
 # <a name="create-billing-schedules"></a>Stofna greiðsluáætlun
 
@@ -83,7 +83,7 @@ Fylgdu þessum skrefum til að fjarlægja hlut úr innheimtuáætlun.
 2. Á **Innheimtuáætlunarlínur** Flýtiflipi, veldu línuna sem á að eyða og veldu síðan **Fjarlægja**.
 3. Veldu **Vista**.
 
-Restin af þessu efni lýsir aðgerðum og upplýsingum sem eru tiltækar fyrir línur á **Innheimtuáætlunarlínur** Flýtiflipi.
+Afgangurinn af þessari grein lýsir aðgerðum og upplýsingum sem eru tiltækar fyrir línur á **Innheimtuáætlunarlínur** Flýtiflipi.
 
 ## <a name="billing-schedule-line-actions"></a>Aðgerðir innheimtuáætlunarlínu
 
@@ -120,7 +120,7 @@ Eftirfarandi upplýsingar eru fáanlegar á **Almennt** flipa.
 
 | Reitur eða hluti | Lýsing |
 |------------------|-------------|
-| Notkun | <p>Þessi hluti veitir upplýsingar um notkunaratriði. Það inniheldur eftirfarandi reiti:</p><ul><li>**Notkunarauðkenni** – Auðkenni mælisins eða notkunarhlutarins.</li><li>**Lestrarvalkostur** - Notkunarlestrarvalkosturinn: **Lestur** eða **Neysla**.</li><li>**Áætluð neysla** – Tilgreindu áætlaða notkun fyrir notkunarvöru sem hefur tímabil þar sem reikningurinn hefur ekki verið búinn til. Á **Innheimtuupplýsingar** síðu er hægt að skoða línur innheimtuupplýsinga fyrir áætlaða neyslu.</li></ul> |
+| Notkun | <p>Þessi hluti veitir upplýsingar um notkunaratriði. Það inniheldur eftirfarandi reiti:</p><ul><li>**Notkunarauðkenni** – Auðkenni mælisins eða notkunarhlutarins.</li><li>**Lestrarvalkostur** - Notkunarlestrarvalkosturinn: **Lestur** eða **Neysla**.</li><li>**Áætluð neysla** – Tilgreindu áætlaða notkun fyrir notkunarvöru sem hefur tímabil þar sem reikningurinn hefur ekki verið stofnaður. Á **Innheimtuupplýsingar** síðu, getur þú skoðað línur innheimtuupplýsinga fyrir áætlaða neyslu.</li></ul> |
 | Ytri tilvísanir\* | Þessi hluti inniheldur **Ytri** og **Línunúmer** reiti, þar sem þú getur tilgreint ytri tilvísunarupplýsingar. |
 | Áfangi | <p>Þessi hluti veitir upplýsingar um áfangaatriði. Það inniheldur **Áætlaður verklokadagur** reit, sem sýnir verklokadag.</li></ul> |
 | Texti | Athugasemd fyrir línuna. Textinn er þýddur á sjálfgefið tungumál viðskiptavinar eða lögaðila. |
@@ -136,7 +136,7 @@ Eftirfarandi upplýsingar eru fáanlegar á **Heimilisfang** flipa.
 | Reitur | Lýsing |
 |-------|-------------|
 | Afhendingaraðsetur | <p>Veldu afhendingarfang fyrir línuvöruna. Sjálfgefið afhendingarheimilisfang er aðalafhendingarfang frá **Heimilisfang** Flýtiflipi.</p><p>Þegar þú breytir heimilisfanginu geturðu valið eftirfarandi heimilisfangsvalkosti:</p><ul><li>**Heimilisföng** – Veldu heimilisfang fyrir núverandi viðskiptavin.</li><li>**Í notkun** – Veldu heimilisfang sem er notað fyrir núverandi viðskiptavin.</li><li>**Annað heimilisfang** – Veldu heimilisfang fyrir hvaða viðskiptavinaskrá sem er.</li></ul><p>Fyrir vörur sem nota tekjuskiptingu er aðeins hægt að breyta heimilisfangi yfirvörunnar. Heimilisfang undirhlutanna samsvarar heimilisfangi foreldris og ekki er hægt að breyta því sérstaklega.</p> |
-| Frumvarp til að ávarpa | <p>Veldu heimilisfang reiknings fyrir línuna. Sjálfgefið afhendingarheimilisfang er aðalafhendingarfang frá **Heimilisfang** Flýtiflipi. Þú getur breytt heimilisfanginu eftir þörfum, byggt á tilgangi tiltækra heimilisfönga:</p><ul><li>Ef ekkert af heimilisföngunum hefur þann tilgang að **Reikningur**, sjálfgefið heimilisfang reikninga er aðal heimilisfang viðskiptavinarins, óháð tilgangi.</li><li>Ef eitt eða fleiri heimilisföngin hafa þann tilgang að **Reikningur**, sjálfgefið heimilisfang reikninga er það heimilisfang sem var síðast slegið inn.</li><li>Ef eitt eða fleiri heimilisföngin hafa þann tilgang að **Reikningur**, og eitt af reikningsföngunum er stillt sem aðalheimilisfang, er sjálfgefið heimilisfang reiknings til heimilisfangið sem hefur þann tilgang að **Reikningur** og er stillt sem aðal heimilisfang.</li><li>Fyrir vörur sem nota tekjuskiptingu er aðeins hægt að breyta heimilisfangi yfirvörunnar. Heimilisfang undirhlutanna samsvarar heimilisfangi foreldris og ekki er hægt að breyta því sérstaklega.</li></ul> |
+| Frumvarp til að ávarpa | <p>Veldu heimilisfang reiknings fyrir línuna. Sjálfgefið afhendingarheimilisfang er aðalafhendingarfang frá **Heimilisfang** Flýtiflipi. Þú getur breytt heimilisfanginu eftir þörfum, byggt á tilgangi tiltækra heimilisfönga:</p><ul><li>Ef ekkert af heimilisföngunum hefur þann tilgang að **Reikningur**, sjálfgefið heimilisfang reikninga er aðal heimilisfang viðskiptavinarins, óháð tilgangi.</li><li>Ef eitt eða fleiri heimilisföngin hafa þann tilgang að **Reikningur**, sjálfgefið heimilisfang reikninga er það heimilisfang sem var síðast slegið inn.</li><li>Ef eitt eða fleiri heimilisföngin hafa þann tilgang að **Reikningur**, og eitt af reikningsföngunum er stillt sem aðalheimilisfang, sjálfgefið heimilisfang reiknings til er heimilisfangið sem hefur þann tilgang að **Reikningur** og er stillt sem aðal heimilisfang.</li><li>Fyrir vörur sem nota tekjuskiptingu er aðeins hægt að breyta heimilisfangi yfirvörunnar. Heimilisfang undirhlutanna samsvarar heimilisfangi foreldris og ekki er hægt að breyta því sérstaklega.</li></ul> |
 
 ### <a name="product-tab"></a>Vöruflipi
 
@@ -179,27 +179,27 @@ Eftirfarandi upplýsingar eru fáanlegar á **Uppsögn** flipa.
 
 | Reitur | Lýsing |
 |-------|-------------|
-| Starfslokadagur | Dagsetningin þegar innheimtuáætlunarlínunni er hætt. Sjálfgefið gildi er frá **Uppsagnardagur** reit á hausnum. Þú getur breytt gildinu eins og þú vilt. |
-| Tegund uppsagnar | Uppsagnartegundin. Sjálfgefið gildi er frá **Uppsagnartegund** reit á hausnum. |
+| Starfslokadagur | Dagsetningin þegar reikningsáætlunarlínan er stöðvuð. Sjálfgildið er úr reitnum **Lokadagsetning í** hausnum. Þú getur breytt gildinu eins og þú þarft. |
+| Tegund uppsagnar | Starfslokagerðin. Sjálfgildið er úr reitnum **Gerð** starfsloka í hausnum. |
 
-### <a name="hold-tab"></a>Haltu flipanum
+### <a name="hold-tab"></a>Flipinn Halda í
 
-Ef frestun tekna og gjalda er notuð, skal **Haltu** flipinn sýnir frestun dagsetningu.
+Ef frestanir tekna og kostnaðar eru notaðar sýnir flipinn **Bið** frestunardagsetninguna.
 
-### <a name="escalation-and-discount-tab"></a>Stækkunar- og afsláttarflipi
+### <a name="escalation-and-discount-tab"></a>Flipinn Hækkun og afsláttur
 
-Eftirfarandi upplýsingar eru fáanlegar á **Stækkun og afsláttur** flipa.
+Eftirfarandi upplýsingar eru tiltækar á flipanum **Hækkun og afsláttur**.
 
 | Reitur | Lýsing |
 |-------|-------------|
-| Hækkun | <p>Veldu hvort stigmögnun sé leyfð fyrir innheimtuáætlunarlínuna. Sérhver stigmögnunarlína úr hausnum er notuð þegar innheimtuáætlunarlínan er búin til.</p><ul><li>**Já** – Hægt er að beita stigmögnun á línuna. Þegar þessi valkostur er valinn geturðu sett upp stigmögnun fyrir innheimtuáætlunarlínur á **Stækkun og afsláttur** síðu.</li><li>**Nei** – Ekki er hægt að beita stigmögnun á línuna.</li></ul><p>Sjálfgefin stilling er byggð á **Innheimtuáætlunarhópur** valin.</p> |
+| Hækkun | <p>Veljið hvort stigmögnun sé leyfð fyrir línu reikningsáætlunar. Allar stigmögnunarlínur úr hausnum eru notaðar þegar reikningsfærsluáætlunarlínan er stofnuð.</p><ul><li>**Já** – Hægt er að nota stigmögnun á línuna. Þegar þessi kostur er valinn er hægt að setja upp stigmögnun fyrir reikningsáætlunarlínurnar á **síðunni Hækkun og afsláttur**.</li><li>**Nei** – Ekki er hægt að nota stigmögnun á línuna.</li></ul><p>Sjálfgefna stillingin er byggð á **valinni reikningsáætlunarflokki**.</p> |
 
-### <a name="price-changes-tab"></a>Verðbreytingarflipi
+### <a name="price-changes-tab"></a>Flipinn Verðbreytingar
 
-Fyrir línur sem breytt er frá **Standard** verð til **Flat** verð, rist á **Verðbreytingar** flipinn inniheldur eftirfarandi dálka:
+Fyrir línur sem er breytt úr **Stöðluðu** verði í **Flatt** verð inniheldur hnitanetið á **flipanum Verðbreytingar** eftirfarandi dálka:
 
 - Breyta dagsetningu
 - Breytt af notanda
 - Staðlað verð
-- Fast verð
+- Flatt verð
 - Verðuppfærsla

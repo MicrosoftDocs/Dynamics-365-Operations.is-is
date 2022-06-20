@@ -1,6 +1,6 @@
 ---
 title: Breyta sniði rafrænnar skýrslugerðar til að mynda sérsniðið rafrænt skjal
-description: Í þessu efnisatriði er útskýrt hvernig á að breyta rafrænu skýrslugerðarsniði frá Microsoft svo það búi til sérsniðið rafrænt skjal.
+description: Þessi grein útskýrir hvernig á að stilla rafræna skýrslugerð (ER) sem Microsoft veitir þannig að það myndi sérsniðið rafrænt skjal.
 author: NickSelin
 ms.date: 06/22/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14976aab474b6571c2a25907f04fd4d7ae053e74
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886792"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Breyta sniði rafrænnar skýrslugerðar til að mynda sérsniðið rafrænt skjal
 
 [!include[banner](../includes/banner.md)]
 
-Aðferðirnar í þessu efnisatriði útskýra hvernig notandi í hlutverki kerfisstjóra eða í hagnýtu ráðgjafahlutverki rafrænnar skýrslugerðar getur framkvæmt þessi verk:
+Verklagsreglurnar í þessari grein útskýra hvernig notandi í hlutverki kerfisstjóra eða rafrænnar skýrslugerðar ráðgjafa getur framkvæmt þessi verkefni:
 
 - Skilgreinið færibreytur fyrir [Ramma rafrænnar skýrslugerðar](general-electronic-reporting.md).
 - Flytjið inn skilgreiningar rafrænnar skýrslugerðar sem Microsoft veitir og eru notaðar til að búa til greiðsluskrár á meðan [greiðsla lánardrottins](../../../finance/cash-bank-management/tasks/vendor-payment-overview.md) er í vinnslu.
@@ -135,7 +135,7 @@ Nánari upplýsingar um skilgreiningarveitur rafrænnar skýrslugerðar er að f
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat1"></a>Flytja inn staðlaðar skilgreiningar rafrænnar skýrslugerðar
 
-Til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núverandi tilvik af Microsoft Dynamics 365 Finance, þarf að flytja þær inn úr [gagnageymslu](general-electronic-reporting.md#Repository) rafrænnar skýrslugerðar sem var skilgreind fyrir það tilvik.
+Til að bæta stöðluðum ER stillingum við núverandi tilvik þitt af Microsoft Dynamics 365 Finance, þú verður að flytja þau inn frá bráðamóttökunni [geymsla](general-electronic-reporting.md#Repository) sem var stillt fyrir það tilvik.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 2. Á síðunni **Skilgreiningar þýðingar**, í hlutanum **Skilgreiningarveitur**, skal velja reitinn **Microsoft** og síðan velja **Gagnageymslur** til að skoða lista yfir gagnageymslur fyrir Microsoft-veituna.

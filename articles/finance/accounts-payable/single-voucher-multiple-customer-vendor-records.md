@@ -1,6 +1,6 @@
 ---
 title: Eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins
-description: Þetta efnisatriði gefur yfirlit yfir hvað gerist þegar eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins er bókuð. Þessar aðgerðir verður hætt að nota í síðari útgáfum Microsoft Dynamics 365 Finance, því ekki mælt með þessari aðferð við bókun vegna áhrifa bókhalds á vinnslu jöfnunar.
+description: Þessi grein veitir yfirlit yfir hvað gerist þegar þú birtir staka fylgiskjöl með mörgum viðskiptamanna- eða lánardrottnaskrám. Þessi virkni verður hætt í komandi útgáfum af Microsoft Dynamics 365 Fjármál, þar af leiðandi mælum við ekki með því að nota þessa bókunaraðferð vegna bókhaldslegra áhrifa á uppgjörsvinnslu.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb94d582020484d8f37eb139c037fb108894c9ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737042"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889092"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði gefur yfirlit yfir hvað gerist þegar eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins er bókuð. Þessar aðgerðir verður hætt að nota í síðari útgáfum, því ekki mælt með þessari aðferð við bókun vegna áhrifa bókhalds á vinnslu jöfnunar. 
+Þessi grein veitir yfirlit yfir hvað gerist þegar þú birtir staka fylgiskjöl með mörgum viðskiptamanna- eða lánardrottnaskrám. Þessar aðgerðir verður hætt að nota í síðari útgáfum, því ekki mælt með þessari aðferð við bókun vegna áhrifa bókhalds á vinnslu jöfnunar. 
 
 Sum algeng dæmi þar sem eitt fylgiskjal er notað fyrir marga viðskiptavini eða lánardrottna innihalda stöðufærslur á milli viðskiptavina, og stöður greiðslujöfnunar milli viðskiptavina og lánardrottna í sömu stofnun/fyrirtæki. 
 
@@ -35,7 +35,7 @@ Fylgiskjal sem inniheldur fleiri en einn viðskiptavin eða lánardrottinn er h�
 -   Nota fylgiskjal með mörgum línum, þar sem það er engin fjárhagsmótlykill til staðar, með fleiri en einn viðskiptavin eða lánardrottinn.
 -   Færa inn fylgiskjal með lykil og mótlykill sem eru lánardrottins/lánardrottins, viðskiptavinar/viðskiptavinur, lánardrottins/viðskiptavina eða viðskiptavin/lánardrottinn.
 
-Þetta efnisatriði sýnir hvernig jöfnun er unnin þegar eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins er bókaður. Að auki veitir þetta efnisatriðis veitir hjáleiðir til aðstoðar við að átta sig á hvernig eigi að forðast að nota eitt fylgiskjal með fjölda viðskiptavina eða lánardrottna. Einkum eru dæmi sem lýsa tveimur algengum aðstæðum jöfnunar sem verða fyrir áhrifum af notkun eins fylgiskjals með mörgum viðskiptavini eða lánardrottna:
+Þessi grein sýnir hvernig uppgjör verður unnið þegar eitt fylgiskjal með mörgum viðskiptamanna- eða lánardrottinsfærslum er bókað. Að auki veitir þessi grein lausnir til að hjálpa þér að skilja hvernig á að forðast að nota eitt fylgiskjal með mörgum viðskiptavinum eða söluaðilum. Einkum eru dæmi sem lýsa tveimur algengum aðstæðum jöfnunar sem verða fyrir áhrifum af notkun eins fylgiskjals með mörgum viðskiptavini eða lánardrottna:
 
 -   Bókhald staðgreiðsluafsláttar
 -   Bókhald endurmats

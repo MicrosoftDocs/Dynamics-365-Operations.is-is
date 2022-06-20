@@ -1,6 +1,6 @@
 ---
 title: Prentun bylgjumerkis
-description: Þetta efnisatriði lýsir prentun bylgjumerkja og útskýrir hvernig á að setja hana upp.
+description: Þessi grein lýsir bylgjumerkisprentun og útskýrir hvernig á að setja það upp.
 author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 18620602c5f3cf6a69a36ef7248f35e5509337b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778084"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901822"
 ---
 # <a name="wave-label-printing"></a>Prentun bylgjumerkis
 
@@ -49,7 +49,7 @@ Prentun bylgjumerkis býður upp á eftirfarandi viðbætur:
 Þessar endurbætur gera það skilvirkara að merkja kassa fyrir röðun á bretti. Þær gagnast sérstaklega fyrirtækjum sem senda til stórra smásala sem staðfesta sjálfkrafa innhreyfingar pantana með því að skanna hvern kassa fyrir sig.
 
 > [!NOTE]
-> Þú getur innleitt stillingar atburðarásina sem lýst er í þessu efnisatriði annaðhvort hvort fyrir sig eða í samsetningu, fer allt eftir kröfum fyrirtækisins. Þú getur hannað nokkur sniðmát bylgjumerkis sem virka í röð (eins og sýnt er í atburðarás 3). Til dæmis er hægt að nota atburðarás 1 til að prenta kassamiða og atburðarás 2 til að prenta brettamiða (ef bretti á lager eru mismunandi að stærð og samsetningu).
+> Þú getur útfært stillingarsviðsmyndirnar sem lýst er í þessari grein annað hvort sérstaklega eða í samsetningu, allt eftir viðskiptaþörfum þínum. Þú getur hannað nokkur sniðmát bylgjumerkis sem virka í röð (eins og sýnt er í atburðarás 3). Til dæmis er hægt að nota atburðarás 1 til að prenta kassamiða og atburðarás 2 til að prenta brettamiða (ef bretti á lager eru mismunandi að stærð og samsetningu).
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Kveikja á prentunareiginleika bylgjumerkis
 
@@ -197,7 +197,7 @@ Bylgjusniðmát leyfa þér að tengja sérstök tilvik af bylgjuaðferðum við
     ```
 
     > [!NOTE]
-    > Þessi uppsetning prentar eitt eintak af hverjum merkimiða. Ef þörf er á fleiri eintökum (til dæmis eitt eintak fyrir hverja hlið brettisins) skal stilla gildið **n** fyrir hlutann **\^ PQn** í síðufætinum á þann fjölda eintaka sem þarf. Til dæmis, til að prenta fjögur eintök af hverjum merkimiða skal gefa upp **\^ PQ4**.
+    > Þessi uppsetning prentar eitt eintak af hverjum merkimiða. Ef þörf er á fleiri eintökum (til dæmis eitt eintak fyrir hverja hlið brettisins) skal stilla gildið **n** fyrir hlutann **\^PQn** í síðufætinum á þann fjölda eintaka sem þarf. Til dæmis, til að prenta fjögur eintök af hverjum merkimiða skal gefa upp **\^PQ4**.
 
 Nú er merkimiðinn tilbúinn til notkunar.
 
@@ -420,7 +420,7 @@ Bylgjusniðmát leyfa þér að tengja sérstök tilvik af bylgjuaðferðum við
     ```
 
     > [!NOTE]
-    > Þessi uppsetning prentar eitt eintak af hverjum merkimiða. Ef þörf er á fleiri eintökum (til dæmis eitt eintak fyrir hverja hlið brettisins) skal stilla gildið **n** fyrir hlutann **\^ PQn** í síðufætinum á þann fjölda eintaka sem þarf. Til dæmis, til að prenta fjögur eintök af hverjum merkimiða skal gefa upp **\^ PQ4**.
+    > Þessi uppsetning prentar eitt eintak af hverjum merkimiða. Ef þörf er á fleiri eintökum (til dæmis eitt eintak fyrir hverja hlið brettisins) skal stilla gildið **n** fyrir hlutann **\^PQn** í síðufætinum á þann fjölda eintaka sem þarf. Til dæmis, til að prenta fjögur eintök af hverjum merkimiða skal gefa upp **\^PQ4**.
 
 Nú er merkimiðinn tilbúinn til notkunar.
 
@@ -647,7 +647,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
     ```
 
     > [!NOTE]
-    > Þessi uppsetning prentar eitt eintak af hverjum merkimiða. Ef þörf er á fleiri eintökum (til dæmis eitt eintak fyrir hverja hlið brettisins) skal stilla gildið **n** fyrir hlutann **\^ PQn** í síðufætinum á þann fjölda eintaka sem þarf. Til dæmis, til að prenta fjögur eintök af hverjum merkimiða skal gefa upp **\^ PQ4**.
+    > Þessi uppsetning prentar eitt eintak af hverjum merkimiða. Ef þörf er á fleiri eintökum (til dæmis eitt eintak fyrir hverja hlið brettisins) skal stilla gildið **n** fyrir hlutann **\^PQn** í síðufætinum á þann fjölda eintaka sem þarf. Til dæmis, til að prenta fjögur eintök af hverjum merkimiða skal gefa upp **\^PQ4**.
 
 1. Nú er fyrsti merkimiðinn tilbúinn til notkunar.
 1. Búið til aðra útlitsfærslu sem er með eftirfarandi stillingar:
@@ -721,7 +721,7 @@ Til að fylgja þessari atburðarás verður þú að hafa sýnigögn sett upp o
     ```
 
     > [!NOTE]
-    > Þessi uppsetning prentar eitt eintak af hverjum merkimiða. Ef þörf er á fleiri eintökum (til dæmis eitt eintak fyrir hverja hlið brettisins) skal stilla gildið **n** fyrir hlutann **\^ PQn** í síðufætinum á þann fjölda eintaka sem þarf. Til dæmis, til að prenta fjögur eintök af hverjum merkimiða skal gefa upp **\^ PQ4**.
+    > Þessi uppsetning prentar eitt eintak af hverjum merkimiða. Ef þörf er á fleiri eintökum (til dæmis eitt eintak fyrir hverja hlið brettisins) skal stilla gildið **n** fyrir hlutann **\^PQn** í síðufætinum á þann fjölda eintaka sem þarf. Til dæmis, til að prenta fjögur eintök af hverjum merkimiða skal gefa upp **\^PQ4**.
 
 1. Nú er næsti merkimiði tilbúinn til notkunar.
 1. Búið til þriðju útlitsfærslu sem er með eftirfarandi stillingar:

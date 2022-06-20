@@ -1,6 +1,6 @@
 ---
 title: Sölu- og arðsemisframmistaða Power BI efni
-description: Þetta efnisatriði lýsir því sem er innifalið í Sölu- og arðsemisframmistaða Power BI efni.
+description: Þessi grein lýsir því hvað er innifalið í sölu- og arðsemisframmistöðu Power BI efni.
 author: ShylaThompson
 ms.date: 12/18/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ec9ef5f4abf898100c670b1ca1cc845d6ebeeea36f21cdda3a9b7d3f1027d4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8433250efad467e92aeaa851f0b60c3c1eced99c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725211"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898683"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Sölu- og arðsemisframmistaða Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvað er innifalið í **Sölu- og arðsemisframmistöðu** Microsoft Power BI efnis. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
+Þessi grein lýsir því sem er innifalið í **Afkoma sölu og arðsemi** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
 

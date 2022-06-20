@@ -1,6 +1,6 @@
 ---
 title: Endurmat á gjaldmiðli fyrir viðskiptaskuldir og viðskiptakröfur
-description: Þetta efnisatriði gefur upplýsingar um ferlið endurmat á erlendum gjaldmiðli sem keyrt er til að uppfæra virði opinna færslna í Viðskiptaskuldum og Viðskiptakröfum.
+description: Þessi grein gefur upplýsingar um ferlið endurmat á erlendum gjaldmiðli sem keyrt er til að uppfæra virði opinna færslna í Viðskiptaskuldum og Viðskiptakröfum.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf32a31df1d56740d803b97d65829b1b1d31eb17
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 33750e7bb2f1fc4158a5f2faba5eeae5a356db7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906385"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Endurmat á gjaldmiðli fyrir viðskiptaskuldir og viðskiptakröfur
 
 [!include [banner](../includes/banner.md)]
 
-Gengissveiflur valda því að fræðilegt gildi (bókfært verð) opinna færsla í erlendum gjaldmiðli eru mismunandi frá tíma til tíma. Þetta efnisatriði gefur upplýsingar um ferlið endurmat á erlendum gjaldmiðli sem keyrt er til að uppfæra virði opinna færslna í Viðskiptaskuldum og Viðskiptakröfum. 
+Gengissveiflur valda því að fræðilegt gildi (bókfært verð) opinna færsla í erlendum gjaldmiðli eru mismunandi frá tíma til tíma. Þessi grein gefur upplýsingar um ferlið endurmat á erlendum gjaldmiðli sem keyrt er til að uppfæra virði opinna færslna í Viðskiptaskuldum og Viðskiptakröfum. 
 
 Fræðilegt gildi, eða bókað virði, opinnar færslu í erlendum gjaldmiðlum breytist með tímanum vegna gengisbreytinga. Til uppfæra gildi opinna færslna viðskiptaskuldir og viðskiptakröfur, skal keyra ferlið endurmat á erlendum gjaldmiðli. Endurmat á erlendum gjaldmiðli er hægt að keyra bæði fyrir viðskiptakröfur og viðskiptaskuldir Ferlið notar á nýtt gengi til að endurmeta opnar upphæðir, eða ójafnaðar upphæðir, á tiltekinni dagsetningu. Mismunur á milli upphaflegu bókaðar upphæðir og endurmetnu upphæðir veldur óinnleystum hagnaði eða tapi fyrir hverja opna færslu. Undirbækur viðskiptaskulda og viðskiptakrafa er síðan uppfærð til að endurspegla óinnleystan hagnaður eða tap, og bókhaldsfærsla er bókuð í fjárhag.
 

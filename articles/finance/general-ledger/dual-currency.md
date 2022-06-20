@@ -1,6 +1,6 @@
 ---
 title: Tvöfaldur gjaldmiðill
-description: Þetta efnisatriði veitir upplýsingar um tvöfaldan gjaldmiðil, þar sem skýrslugjaldmiðillinn er notaður sem annar bókhaldsgjaldmiðill fyrir Microsoft Dynamics 365 Fjármál.
+description: Þessi grein veitir upplýsingar um tvöfaldan gjaldmiðil, þar sem skýrslugjaldmiðillinn er notaður sem annar bókhaldsgjaldmiðill fyrir Microsoft Dynamics 365 Fjármál.
 author: kweekley
 ms.date: 04/17/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713586"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906356"
 ---
 # <a name="dual-currency"></a>Tvöfaldur gjaldmiðill
 
@@ -36,7 +36,7 @@ Að auki hafa nokkrar einingar verið endurbættar til að fylgjast með, tilkyn
 - Eignir 
 - Samstæður
 
-Eftir uppfærslu verður þú að ljúka sérstökum skrefum fyrir reiðufjár- og bankastjórnun og eignir. Passaðu því að lesa og skilja viðeigandi hluta þessa efnis.
+Eftir uppfærslu verður þú að ljúka sérstökum skrefum fyrir reiðufjár- og bankastjórnun og eignir. Vertu því viss um að lesa og skilja viðeigandi hluta þessarar greinar.
 
 ## <a name="posting-process"></a>Bókunarferli
 
@@ -93,7 +93,7 @@ Eftirfarandi viðbótar breytingar voru gerðar á **Fjárhag** einingu:
 - Hægt er að skilgreina aðskilda gengisgerð fyrir skýrslugjaldmiðilinn í fjárhag. Ef fyrirtæki vill ekki nota annan gengisgerð geturðu skilið reitinn fyrir gerð gengis fyrir skýrslugjaldmiðilinn eftir auðann. Að öðrum kosti getur þú valið sömu gengisgerð sem er notuð fyrir bókhaldsgjaldmiðilinn. Ef þú sleppir reitnum velur kerfið gerð gengis fyrir bókhaldsgjaldmiðilinn.
 - Ný færslubók, leiðréttingabók skýrslugjaldmiðils, gerir kleift að birta breytingar á fjárhagslyklum aðeins í skýrslugjaldmiðlinum. Þessi færslubók gerir þér kleift að birta aðeins fjárhagslykla. Það styður ekki innan samstæðu og gjaldmiðillinn verður að vera skýrslugjaldmiðill lögaðilans þar sem færslubókin er bókuð. Þegar færslubókin er bókuð er færslugjaldmiðilsupphæðirnar og bókhaldsgjaldmiðilsupphæðirnar 0 (núll) og skýrslugjaldmiðilsupphæðin er bókuð með upphæðinni sem er færðu inn í færsluna. Vegna þess að leiðin sem skýrslugjaldmiðillinn er notaður í einingum **Viðskiptaskuldir**, **Viðskiptakröfur** og **Eignir** hafa breyst, þessa færslubók er hægt að nota til að breyta eftir uppfærslu. Fyrir dæmi sem sýna hvernig hægt er að nota þessa færslubók, sjá kaflann fyrir þá einingar.
 - Ferlið við úthlutun tímabila hefur verið uppfært þannig að það úthlutar fjárhæðum í færslunum, bókhaldi og skýrslugjaldmiðlum. Áður voru upphæðir úthlutað í færslugjaldmiðli og bókhaldsgjaldmiðli og síðan var bókhaldsgjaldmiðilsupphæðin þýdd í skýrslugjaldmiðilinn. Þessi hegðun gæti valdið því að staða sé áfram á fjárhagslyklinum í skýrslugjaldmiðlinum. Nú, þegar upphæðir eru reiknaðar og notaðar í bókhaldsfærslunni, er engin þýðing á sér stað.
-- Ferlið við endurmetningu erlendra gjaldmiðla hefur þegar verið endurmetið upphæðir í skýrslugjaldmiðlinum. Hins vegar er skýrslugjaldmiðill reiknað nú með færslugjaldmiðilsupphæð, eins og lýst er í kaflanum [Bókunarferli](#posting-process) fyrr í þessu efni.
+- Ferlið við endurmetningu erlendra gjaldmiðla hefur þegar verið endurmetið upphæðir í skýrslugjaldmiðlinum. Hins vegar er upphæð skýrslugjaldmiðils nú reiknuð út með upphæð viðskiptagjaldmiðils, eins og lýst er í [Færsluferli](#posting-process) kafla fyrr í þessari grein.
 - Margir skýrslur og fyrirspurnir í fjárhag höfðu þegar skýrslugjaldmiðil, en nokkrir gerðu það ekki. Eitt dæmi er **Prófjöfnuður** listasíðan. Þessi listasíða inniheldur nú dálka bæði fyrir bókhaldsgjaldmiðilinn og skýrslugjaldmiðilinn. Athugaðu að dálkarnir fyrir skýrslugjaldmiðilinn eru falin ef bókhaldsgjaldmiðill og skýrslugjaldmiðill eru þau sömu eða ef engin skýrslugjaldmiðill var skilgreindur í fjárhag.
 
 ### <a name="financial-reporting"></a>Fjárhagsskýrslugerð

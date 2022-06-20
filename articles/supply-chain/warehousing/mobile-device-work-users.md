@@ -1,6 +1,6 @@
 ---
 title: Notandareikningar fartækis
-description: Í þessu efnisatriði er því lýst hvernig setja skal upp og hafa umsjón með notandareikningum sem gera starfsmönnum kleift að skrá sig inn og nota vöruhúsaforritið.
+description: Þessi grein lýsir því hvernig á að setja upp og stjórna notendareikningum sem gera starfsmönnum kleift að skrá sig inn og nota vöruhúsaforritið.
 author: Mirzaab
 ms.date: 09/15/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-09-15
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c4cb36160e692cc12140b57037d2c9739f7b2ebd
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: ffb4a9842f454094b41a1765d1438f6a40ae610b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851305"
 ---
 # <a name="mobile-device-user-accounts"></a>Notandareikningar fartækis
 
@@ -91,7 +91,7 @@ ms.locfileid: "8462671"
 1. Á flipanum **Kjörstillingar** skal stilla eftirfarandi reiti:
 
     - **Tungumál** – Veldu tungumálið sem starfsmaðurinn kýs. Þessi reitur stjórnar einnig númerasniðinu sem er sýnt í vöruhúsaappinu.
-    - **Dagsetning, tími og tölusnið** – Veldu dagsetningar- og tímasniðið sem starfsmaðurinn kýs. Vöruhúsaappið notar númerasniðið sem tengist tungumálinu sem er valið fyrir **Tungumál** reit í stað þessarar stillingar.
+    - **Dagsetning, tími og númerasnið** – Veldu dagsetningar- og tímasniðið sem starfsmaðurinn kýs. Vöruhúsaappið notar númerasniðið sem tengist tungumálinu sem er valið fyrir **Tungumál** reit í stað þessarar stillingar.
     - **Tímabelti** – Veldu tímabeltið þar sem starfsmaðurinn vinnur. Þessi reitur hefur áhrif á tímastimpil fyrir allar skráningar sem starfsmaðurinn gerir með því að nota forritið.
 
 > [!NOTE]

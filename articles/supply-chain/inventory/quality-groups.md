@@ -1,6 +1,6 @@
 ---
 title: Vörugæðaflokkar
-description: Í þessu efnisatriði er lýst hvernig á að nota og stofna gæðaflokka fyrir vörur til að flokka vörur rökrétt svo að hægt sé að úthluta þeim á gæðatengingar fyrir sjálfvirka myndun gæðapantana.
+description: Þessi grein lýsir því hvernig á að nota og búa til vörugæðaflokka til að flokka vörur á rökréttan hátt þannig að hægt sé að úthluta þeim á gæðasambönd fyrir sjálfvirka myndun gæðapantana.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f7a4932c561c052bec1eb0094a390e315b9b1bb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bf1ce49fa58fd1a8a5aa07636e0b2bd7e2fc10e4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580913"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875366"
 ---
 # <a name="item-quality-groups"></a>Vörugæðaflokkar
 
 [!include [banner](../includes/banner.md)]
 
-Gæðaflokkur stendur fyrir sameiginlegar prófunarkröfur fyrir vörur. Í þessu efnisatriði er lýst hvernig á að nota og stofna gæðaflokka fyrir vörur til að flokka vörur rökrétt svo að hægt sé að úthluta þeim á gæðatengingar fyrir sjálfvirka myndun gæðapantana.
+Gæðaflokkur stendur fyrir sameiginlegar prófunarkröfur fyrir vörur. Þessi grein lýsir því hvernig á að nota og búa til vörugæðaflokka til að flokka vörur á rökréttan hátt þannig að hægt sé að úthluta þeim á gæðasambönd fyrir sjálfvirka myndun gæðapantana.
 
 Til að setja upp, breyta og skoða vörur sem er úthlutað á gæðaflokk eða gæðaflokkarnir sem eru úthlutað á vöru skal fara í **Birgðastjórnun \> Uppsetning \> Gæðaflokkar**. Þegar búið er að skilgreina kröfur fyrir prófun á síðunni **Prófunarflokkar** er hægt að skilgreina reglur fyrir sjálfvirka myndun gæðapantana. Til að einfalda ferlið eru ekki skilgreindar reglur fyrir stakar vörur. Í staðinn er hægt að skilgreina reglur fyrir gæðaflokk á síðunni **Gæðatengingar**.
 

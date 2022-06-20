@@ -1,6 +1,6 @@
 ---
 title: Hengja TDS-skattkóða við TDS-skattflokka og skilgreina formúluna fyrir útreikning TDS
-description: Í þessu efnisatriði er útskýrt hvernig á að setja upp TDS-skattflokka og hengja TDS-skattkóða við TDS-skattflokka. Til að reikna út TDS fyrir TDS-skattflokk þarf að skilgreina formúluna fyrir TDS-skattkóða sem eru hengdir við hana.
+description: Þessi grein útskýrir hvernig á að setja upp skattfrádregna skattaflokka (TDS) og tengja TDS skattkóða við TDS skattaflokka. Til að reikna út TDS fyrir TDS-skattflokk þarf að skilgreina formúluna fyrir TDS-skattkóða sem eru hengdir við hana.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f1326f95c297887213ecfb572a2437867d964925
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 3607e44bdcf7a32b156e6b4639ef907aa923cadc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711237"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853315"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>Hengja TDS-skattkóða við TDS-skattflokka og skilgreina formúluna fyrir útreikning TDS
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að setja upp TDS-skattflokka og hengja TDS-skattkóða við TDS-skattflokka. Til að reikna út TDS fyrir TDS-skattflokk þarf að skilgreina formúluna fyrir TDS-skattkóða sem eru hengdir við hana.
+Þessi grein útskýrir hvernig á að setja upp skattfrádregna skattaflokka (TDS) og tengja TDS skattkóða við TDS skattaflokka. Til að reikna út TDS fyrir TDS-skattflokk þarf að skilgreina formúluna fyrir TDS-skattkóða sem eru hengdir við hana.
 
 Fylgið þessum skrefum til að setja upp TDS-skattflokk, hengja TDS-skattkóða við hann, og skilgreina formúluna fyrir útreikning TDS.
 

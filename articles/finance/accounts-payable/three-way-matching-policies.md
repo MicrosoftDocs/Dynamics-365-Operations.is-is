@@ -1,6 +1,6 @@
 ---
 title: Stefnur þríhliða jöfnunarregla
-description: Þetta efnisatriði gefur dæmi um þríhliða jöfnun.
+description: Þessi grein gefur dæmi um þríhliða jöfnun.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cffdc06216ce8ab1bfb79265f265bec1aee334c5
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 2d6d98164766e81625bd9eeb9e504e5f0683151e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109994"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904931"
 ---
 # <a name="three-way-matching-policies"></a>Stefnur þríhliða jöfnunarregla
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði gefur dæmi um þríhliða jöfnun.
+Þessi grein gefur dæmi um þríhliða jöfnun.
 
 ## <a name="example-three-way-matching-for-items"></a>Dæmi: Þríhliða jöfnun fyrir vörur
 
@@ -59,7 +59,7 @@ Reikningsjöfnunarreglur í þessu dæmi hjálpa fólki í eftirfarandi hlutverk
 1.  Sammy, starfsmaður í móttökudeild Fabrikam, fær heildarmagn af vélum sem eru sendar frá Contoso. Sammy færir inn magn upp á 5 í innhreyfingarskjal afurða. Vegna þess að innkaupapöntunin hefur verið móttekin að fullu, breytist staða innkaupapöntunar í Móttekið.
 2.  Apríl, samræmingaraðili lánardrottna á Fabrikam, færir inn og staðfestir reikninginn sem er sendur af Contoso. Hún staðfestir eftirfarandi upplýsingar:
     -   Fyrir vörur sem krefjast þríhliða jöfnunar jafnast magnið í reikningslínunni við magnið sem var móttekið. Magn á reikningi er sýnt á innhreyfingarskjali afurða sem er jafnað við reikninginn.
-    -   Fyrir vörur sem krefjast tvíhliða eða þríhliða jöfnunar eru verð á reikningslínunni innan vikmarka sem eru skilgreind í Microsoft Dynamics 365 Finance. Þar á meðal eru eftirfarandi gerðir af samsvörun verðs:
+    -   Fyrir vörur sem krefjast tvíhliða eða þríhliða samsvörun, eru verð á reikningslínunni innan vikmarkanna sem eru skilgreind í Microsoft Dynamics 365 Fjármál. Þar á meðal eru eftirfarandi gerðir af samsvörun verðs:
         -   Samsvörun nettóeiningaverðs – Nettóeiningaverð í reikningslínunni samsvarar nettóeiningarverði í innkaupapöntunarlínunni, innan prósentu vikmarka. Í þessu dæmi eru vikmörk nettóeiningaverðs +8%.
         -   Jöfnun samtalna verðs – Nettóupphæð í reikningslínunni er jöfnuð við nettóupphæð innkaupapöntunarlínu, innan vikmarka prósentu, upphæðar eða prósentu og upphæðar. Í þessu dæmi eru vikmörk jöfnunar samtalna verðs +15%.
 

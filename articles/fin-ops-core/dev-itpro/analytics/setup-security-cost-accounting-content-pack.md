@@ -1,6 +1,6 @@
 ---
-title: Uppsetning öryggis fyrir kostnaðarbókhaldsgreiningar Power BI efni
-description: Í þessu efnisatriði er útskýrt hvernig hægt er að yfirfæra aðgang á færslustigi í kostnaðarbókhaldi í línu á færslustigi í Microsoft Power BI.
+title: Uppsetning öryggis fyrir Power BI-efni kostnaðarbókhaldsgreiningar
+description: Þessi grein útskýrir hvernig þú getur útbreitt aðgangsstigsöryggið í Kostnaðarbókhaldi yfir í línustigsöryggi í Microsoft Power BI.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f519a38b381da0efc1e91ba0f2015780d086550c3e38810e6845a0fc07976767
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc4d72fb688733b9c1547346c520dd9d77a3b12f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751492"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883687"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Uppsetning öryggis fyrir Power BI-efni kostnaðarbókhaldsgreiningar
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig hægt er að yfirfæra aðgang á færslustigi í kostnaðarbókhaldi í línu á færslustigi í Microsoft Power BI. Þessi virkni hjálpar til við að tryggja að notendur sjá aðeins Power BI gögn sem þeir fá aðgang að.
+Þessi grein útskýrir hvernig þú getur útbreitt aðgangsstigsöryggið í Kostnaðarbókhaldi yfir í línustigsöryggi í Microsoft Power BI. Þessi virkni hjálpar til við að tryggja að notendur sjá aðeins Power BI gögn sem þeir fá aðgang að.
 
 ## <a name="overview"></a>Yfirlit
 

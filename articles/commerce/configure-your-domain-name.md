@@ -1,6 +1,6 @@
 ---
 title: Skilgreina lénsheiti
-description: Þetta efni útskýrir hvernig á að stilla lén fyrir Microsoft Dynamics 365 netverslunarsíðu.
+description: Þessi grein útskýrir hvernig á að stilla lén fyrir a Microsoft Dynamics 365 netverslunarsíða.
 author: psimolin
 ms.date: 07/02/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9718effc776c64b2912a01972ad986eb332196a4477a952672fb147eaaf400c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 00c75581ba08979dfbc784f949c30b9bf78d44c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719502"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892132"
 ---
 # <a name="configure-your-domain-name"></a>Skilgreina lénsheiti
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að stilla lén fyrir Microsoft Dynamics 365 netverslunarsíðu. 
+Þessi grein útskýrir hvernig á að stilla lén fyrir a Microsoft Dynamics 365 netverslunarsíða. 
 
 ## <a name="add-domains-during-e-commerce-initialization"></a>Bæta lénum við frumstillingu á e-Commerce
 

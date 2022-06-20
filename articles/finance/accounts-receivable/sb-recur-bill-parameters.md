@@ -1,6 +1,6 @@
 ---
 title: Færibreytur fyrir endurteknar samningsgreiðslur
-description: Þetta efnisatriði útskýrir hvernig á að setja upp sjálfgefna gildi fyrir innheimtuáætlanir sem eru búnar til í Endurteknum samningsreikningum. Það útskýrir einnig hvernig stofna innheimtuáætlunarhópa.
+description: Þessi grein útskýrir hvernig á að setja upp sjálfgefin gildi fyrir innheimtuáætlanir sem eru búnar til í Endurteknum samningsreikningum. Það útskýrir einnig hvernig stofna innheimtuáætlunarhópa.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 19fe77ade0523aa7fd6382266457fd739df46d75
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685832"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903335"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Færibreytur fyrir endurteknar samningsgreiðslur
 
@@ -27,7 +27,7 @@ Nota **Endurteknar innheimtufæribreytur samnings** síðu til að setja upp sj�
 
 ## <a name="general-tab"></a>Almennt
 
-1. Á **Endurteknar innheimtufæribreytur samnings** síðu, á **Almennt** flipa, í **Innheimtuáætlunarhópur** reit, veldu innheimtuáætlunarhóp. Fyrir upplýsingar um hvernig á að setja upp innheimtuáætlunarhópa, sjá [Innheimtuáætlunarhópar](#set-up-billing-schedule-groups) kafla síðar í þessu efni.
+1. Á **Endurteknar innheimtufæribreytur samnings** síðu, á **Almennt** flipa, í **Innheimtuáætlunarhópur** reit, veldu innheimtuáætlunarhóp. Fyrir upplýsingar um hvernig á að setja upp innheimtuáætlunarhópa, sjá [Innheimtuáætlunarhópar](#set-up-billing-schedule-groups) kafla síðar í þessari grein.
 2. Í **Uppsagnartegund** reit, veldu hvernig endanlegur reikningur er reiknaður út þegar innheimtuáætlun er hætt:
 
     - **Stilla áætlun** – Slepptu innheimtuáætluninni á uppsagnardegi, breyttu stöðu áætlunarinnar í **Síðasta innheimta**, og stilla tilheyrandi frestunaráætlun með því að bakfæra upphæðina sem ekki þarf lengur að viðurkenna. Ef upphafsdagur innheimtu er eftir uppsagnardaginn eru reikningstímabilin sem eftir eru fjarlægð.
@@ -54,7 +54,7 @@ Nota **Endurteknar innheimtufæribreytur samnings** síðu til að setja upp sj�
         - **Stofna sölupöntun** – Stofna aðeins sölupöntunina.
         - **Sýna bókunarreikning** – Reiknaðu sölupöntunina og opnaðu síðu þar sem þú getur bókað reikninginn handvirkt.
         - **Búðu til gjaldtextareikning** – Veldu þennan valkost ef þú ert að nota reikninga með frjálsum texta.
-        - **Bókaðu reikning sjálfkrafa** – Reiknaðu sölupöntunina og bókaðu hana sjálfkrafa.
+        - **Bókaðu reikning sjálfkrafa** – Reikningsaðu sölupöntunina og bókaðu hana sjálfkrafa.
 
     - Stilltu **Bættu innheimtudagsetningum við vörulýsingu** valmöguleika til **Já** til að bæta við lýsingu sem inniheldur upphafsdag og lokadag innheimtu.
     - Stilltu **Útiloka núllneyslu** valmöguleika til **Já** að útiloka innheimtuáætlunarlínur sem hafa enga notkun. Stilltu það á **Nei** að hafa þessar línur með í sölupöntuninni.
@@ -103,7 +103,7 @@ Nota **Innheimtuáætlunarhópur** síðu til að búa til innheimtuáætlunarh�
 
 Til að stofna innheimtuáætlunarhóp fyrir endurtekna samningsreikninga skal fylgja þessum skrefum.
 
-1. Á **Innheimtuáætlunarhópur** síðu, veldu **Nýtt** til að búa til innheimtuáætlunarhóp.
+1. Á **Innheimtuáætlunarhópur** síðu, veldu **Nýtt** til að búa til greiðsluáætlunarhóp.
 2. Í **Innheimtuáætlunarhópur** reit, sláðu inn einstakt auðkenni.
 3. Í reitnum **Lýsing** skal færa inn lýsingu.
 4. Í **Innheimtutíðni** reit, tilgreinið hversu oft innheimtuáætlun er innheimt á viðskiptavin: **Einu sinni**, **·**, **·**, **·**, **·**, eða **Árlega**.

@@ -1,6 +1,6 @@
 ---
 title: Undirritaðu MPOS .appx skrána með kóða undirritunarskírteini
-description: Þetta efnisatriði útskýrir hvernig á að undirrita MPOS með kóða undirritunarskírteini.
+description: Þessi grein útskýrir hvernig á að undirrita MPOS með kóða undirritunarskírteini.
 author: mugunthanm
 ms.date: 05/27/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.custom: 28021
 ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: 38c094de6f94381a809fdb68d2e76d410e406934
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 7e998514081cad1c7302aacb1cd74373f896f2d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811086"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865970"
 ---
 # <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>Undirritaðu MPOS .appx skrána með kóða undirritunarskírteini
 
@@ -29,7 +29,7 @@ Til að undirrita MPOS appið með vottorði skaltu nota einn af þessum valkost
 - Bættu við öryggisskráarverkefni hlutanum af Azure DevOps byggja skref og hlaða upp vottorðinu til að tryggja skráarverkefnið. Notaðu breytu fyrir úttaksslóð öruggrar skráarverks sem færibreytu í Customization.settings skránni.
 
     > [!NOTE]
-    > Örugg skráarverkefnið styður ekki lykilorðsvarið vottorð. Þú verður að fjarlægja lykilorðið áður en þú hleður þessu verkefni upp. Vegna þess að vottorðinu er hlaðið upp í örugga skráarkerfisverkefnið í Azure geturðu aðeins fjarlægt lykilorðið fyrir þetta skref. Hins vegar ættir þú að ræða það við öryggissérfræðinga þína um að fjarlægja lykilorðið til að ákvarða hvort þetta sé rétta aðgerðin fyrir verkefnið þitt. Ekki fjarlægja lykilorð vottorðsins fyrir aðrar aðstæður.
+    > Örugg skráarverkefnið styður ekki lykilorðsvarið vottorð. Þú verður að fjarlægja lykilorðið áður en þú hleður þessu verkefni upp. Vegna þess að vottorðinu er hlaðið upp í örugga skráarkerfisverkefnið í Azure, geturðu aðeins fjarlægt lykilorðið fyrir þetta skref. Hins vegar ættir þú að ræða það við öryggissérfræðinga þína um að fjarlægja lykilorðið til að ákvarða hvort þetta sé rétta aðgerðin fyrir verkefnið þitt. Ekki fjarlægja lykilorð vottorðsins fyrir aðrar aðstæður.
 - Notaðu vottorð sem er í skráarkerfinu. Til að gera þetta skaltu hlaða niður eða búa til vottorð og setja það í skráarkerfið þar sem smíðin er í gangi. Umboðsmaður eða smíðanotandi sem hýst er af Microsoft ætti að hafa aðgang að þessari slóð og skrá.
 - Notaðu þumalfingur til að fletta upp í skírteininu í versluninni og skráðu þig inn með því skírteini.
 
@@ -38,7 +38,7 @@ Til að undirrita MPOS appið með vottorði skaltu nota einn af þessum valkost
 > [!NOTE]
 > Þú getur líka notað Azure Key Vault til að geyma skírteinið og notað Azure sign tólið til að undirrita Modern POS .appx skrána og sjálfsafgreiðsluuppsetningar. Fyrir sýnishorn af leiðsluforskriftum og frekari upplýsingar, sjá [Settu upp byggingarleiðslu í Azure DevOps til að búa til smásölu sjálfsafgreiðslupakka](build-pipeline.md#set-up-a-build-pipeline-in-azure-devops-to-generate-retail-self-service-packages).
 
-Notkun öryggisskrárverkefnis er ráðlögð nálgun fyrir undirritun Universal Windows Platform (UWP) forrita. Fyrir frekari upplýsingar um undirritun pakka, sjá [Stilltu undirritun pakka](/windows/uwp/packaging/auto-build-package-uwp-apps#configure-package-signing). Þetta ferli er sýnt á eftirfarandi mynd.
+Notkun öryggisskrárverkefnis er ráðlögð aðferð við undirritun á Universal Windows Platform (UWP) app. Fyrir frekari upplýsingar um undirritun pakka, sjá [Stilltu undirritun pakka](/windows/uwp/packaging/auto-build-package-uwp-apps#configure-package-signing). Þetta ferli er sýnt á eftirfarandi mynd.
 
 ![MPOS app undirritunarflæði.](media/POSSigningFlow.png)
 
@@ -98,7 +98,7 @@ Ef niðurhalað eða búið til vottorð er notað til að undirrita MPOS appið
 
 Ef þú notar þumalfingur til að undirrita MPOS appið skaltu setja upp vottorðið á staðnum. Uppfærðu þumalputtagildið í **ModernPOSPackageCertificateThumbprint** hnút í **Byggingarverkfæri\\ Customization.settings** skrá.
 
-Þessi valkostur mun virka ef smíðanotandinn er staðbundinn notandi. Hins vegar ef þú ert að nota Azure DevOps umboðsmenn til að búa til smíðina, þá gæti umboðsmaðurinn ekki fengið aðgang að vottunarversluninni til að nota skírteinið til undirritunar eða smíðavélin mun ekki hafa skírteinið uppsett. Í þessu tilviki er lausnin að breyta byggingarnotandanum í staðbundinn notanda og setja upp vottorðið í kassanum. Hins vegar mun þessi valkostur ekki virka ef þú hefur ekki stjórnandaaðgang að kassanum.
+Þessi valkostur virkar ef smíðanotandinn er staðbundinn notandi. Hins vegar ef þú ert að nota Azure DevOps umboðsmenn til að búa til smíðina, þá gæti umboðsmaðurinn ekki fengið aðgang að vottunarversluninni til að nota skírteinið til undirritunar eða smíðavélin mun ekki hafa skírteinið uppsett. Í þessu tilviki er lausnin að breyta byggingarnotandanum í staðbundinn notanda og setja upp vottorðið í kassanum. Hins vegar mun þessi valkostur ekki virka ef þú hefur ekki stjórnandaaðgang að kassanum.
 
 > [!NOTE]
 > Ef .pfx skrá eða öryggisskrá verkvalkosturinn er notaður til að undirrita forritið, farðu síðan úr **ModernPOSPackageCertificateThumbprint** hnút inn **Customization.settings** tómt. Ef þumalfingursvalkosturinn er notaður, farðu þá **ModernPOSPackageCertificateKeyFile** tómt. Ef bæði gildin eru uppfærð mun byggingin mistakast.

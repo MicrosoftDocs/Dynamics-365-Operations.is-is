@@ -1,6 +1,6 @@
 ---
 title: Stjórna breytingum á formúlum og innihaldsefnum þeirra
-description: Í þessu efnisatriði er lýst hvernig eigi að stjórna formúlum og stjórna breytingum á aðalgögnum framleiðsluferlis.
+description: Þessi grein lýsir því hvernig á að framkvæma formúlustjórnun og stjórna breytingum á vinnslu aðalgagnaframleiðslu.
 author: t-benebo
 ms.date: 05/19/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 8105ebc7f3698a6baaa04b6548dac18a7bf81a47
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904073"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>Stjórna breytingum á formúlum og innihaldsefnum þeirra
 
@@ -29,7 +29,7 @@ Ef notaðir eru möguleikar framleiðsluferlis hjá Microsoft Dynamics 365 Suppl
 
 ## <a name="turn-this-feature-on-or-off"></a>Kveiktu eða slökktu á þessum eiginleika
 
-Virknin sem lýst er í þessu efni krefst þess að bæði *Verkfræðibreytingastjórnun* og *Stjórna breytingum á formúlum og innihaldsefnum þeirra* kveikt er á eiginleikum fyrir kerfið þitt. Fyrir upplýsingar um hvernig á að kveikja eða slökkva á þessum eiginleikum, sjá [Yfirlit yfir verkfræðibreytingastjórnun](product-engineering-overview.md).
+Virknin sem lýst er í þessari grein krefst þess að bæði *Verkfræðibreytingastjórnun* og *Stjórna breytingum á formúlum og innihaldsefnum þeirra* kveikt er á eiginleikum fyrir kerfið þitt. Fyrir upplýsingar um hvernig á að kveikja eða slökkva á þessum eiginleikum, sjá [Yfirlit yfir verkfræðibreytingastjórnun](product-engineering-overview.md).
 
 ## <a name="feature-naming-conventions"></a>Eiginleiki nafngiftavenja
 
@@ -46,7 +46,7 @@ Eftirfarandi listi tekur saman hvernig eiginleikar hönnunarbreytingastjórnunar
 - **Undirbúningsstjórnun** – Notið kerfisathugunir og leiðarvísa (spurningalista og gátlista) til að ganga úr skugga um að öll nauðsynleg afurðargögn séu færð inn að fullu áður en afurðin er gefin út. Frekari upplýsingar er að finna í [Undirbúningur afurðar](product-readiness.md).
 - **Aukin virkni afurðarlosunar** – Losið fullskilgreindar útgáfur afurðar og formúlu hennar úr fyrirtæki (lögaðila) yfir í aðra lögaðila. Það er meira að segja hægt að ákveða hvort þurfi að fara yfir eða breyta afurðarupplýsingunum fyrir útgáfu. Frekari upplýsingar er að finna í [Skipulag afurðarútgáfu](release-product-structure.md).
 
-Athugið að flest efnisatriðin sem tengt er við í fyrri lista gefa upp dæmi sem byggja á uppskriftum. Formúlur virka þó á svipaðan hátt. Hér eru nokkur viðbótarhugtök sem gagnlegt er að vita þegar breytingastjórnun er notuð (eða eingöngu breytingastjórnun formúlu) til að stjórna formúlum og uppskriftum:
+Athugið að flestar greinar sem tengt er við í fyrri lista gefa dæmi sem eru byggð á stykkjum (BOM). Formúlur virka þó á svipaðan hátt. Hér eru nokkur viðbótarhugtök sem gagnlegt er að vita þegar breytingastjórnun er notuð (eða eingöngu breytingastjórnun formúlu) til að stjórna formúlum og uppskriftum:
 
 - Fyrir hvern [flokk hönnunarafurðar](engineering-versions-product-category.md) er hægt að tilgreina framleiðslugerðina (uppskrift, formúlu eða áætlunarvöru). Einnig er hægt að tilgreina hvort þörf sé á stuðningi við framleiðsluþyngd fyrir afurðir sem nota þann flokk.
 - Aukaafurðir og hliðarafurðir eru ekki hönnunarafurðir. Þær fá þar af leiðandi ekki útgáfur. Ef þarf að breyta þeim skal einfaldlega stofna nýja afurð. Þessi nálgun auðveldar utanumhald.

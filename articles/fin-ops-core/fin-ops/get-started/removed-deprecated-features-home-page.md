@@ -1,6 +1,6 @@
 ---
 title: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
-description: Þetta efnisatriði veitir lista yfir hjálparefni um fjarlægða eða úrelta eiginleika í Finance and Operations forritum.
+description: Þessi grein veitir lista yfir hjálparefni um fjarlægða eða úrelta eiginleika í Finance and Operations forritum.
 author: sericks007
 ms.date: 05/27/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2021-03-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 9beda14bb6ac02534340e4dc5539cc0114c15c0c
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: cc813ba4bafb526c16445eecaed9f1be68a8d726
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859982"
 ---
 # <a name="removed-or-deprecated-features-home-page"></a>Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
 
@@ -35,6 +35,6 @@ Eftirfarandi efni veita upplýsingar um fjarlæga eða úrelta eiginleika í Fin
 - [Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir](../../dev-itpro/migration-upgrade/deprecated-features.md)
 
 ## <a name="deprecations-in-the-microsoft-power-platform"></a>Úreldingar í Microsoft Power Platform
-Eftirfarandi efnisatriði veita upplýsingar úreldingu í Microsoft Power Platform:
+Eftirfarandi grein veitir upplýsingar um afskriftir í Microsoft Power Platform:
 
 - [Mikilvægar breytingar (afskriftir) væntanlegar í Power Apps, Power Automate og viðskiptavinaforritum](/power-platform/important-changes-coming)

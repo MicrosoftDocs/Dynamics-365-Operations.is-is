@@ -1,6 +1,6 @@
 ---
 title: Viðskiptaskjöl studd af altæku birgðabókhaldi
-description: Í þessu efnisatriði er að finna lista yfir viðskiptaskjöl sem eru studd af altæku birgðabókhaldi. Þar er einnig að finna ítarlegt dæmi um skjöl innkaupapöntunar.
+description: Þessi grein sýnir viðskiptaskjölin sem eru studd af alþjóðlegu birgðabókhaldi. Þar er einnig að finna ítarlegt dæmi um skjöl innkaupapöntunar.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 44081be35c6737aa0d16b6e11a5fc8f94b41e872
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: dc88d095c039b22ac347db949f6b61d5a89dc4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674450"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875424"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>Viðskiptaskjöl studd af altæku birgðabókhaldi
 
@@ -32,7 +32,7 @@ Til eru tvær gerðir viðskiptaskjala:
 - **Skjöl sem eru með færslubók** – Þessi skjöl eru m.a. innhreyfingarskjal afurðar, innkaupareikningur, fylgiseðill og sölureikningsskjöl.
 - **Skjöl sem eru ekki með færslubók** – Þessi skjöl fela í sér skjöl talningar, hreyfingar og leiðréttingar á birgðum.
 
-Síðar í þessu efnisatriði verða innkaupapantanir notaðar sem dæmi til að sýna ferlið.
+Síðar í þessari grein verða innkaupapantanir notaðar sem dæmi til að sýna ferlið.
 
 Í eftirfarandi töflu er listi yfir skjöl sem núverandi útgáfa styður.
 

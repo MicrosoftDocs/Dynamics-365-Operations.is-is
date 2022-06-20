@@ -1,6 +1,6 @@
 ---
-title: Móttaka númeraplötu í gegnum farsímaforrit vöruhúsakerfis
-description: Þetta efnisatriði útskýrir hvernig á að setja upp farsímaforrit vöruhúsakerfis til að styðja notkun móttökuferlis númeraplötu til að taka á móti efnislegum birgðum.
+title: Móttaka númeraplötu með farsímaforriti Warehouse Management
+description: Þessi grein útskýrir hvernig á að setja upp Vöruhússtjórnun farsímaforritið til að styðja við notkun númeraplötumóttökuferlis til að taka á móti efnislegum birgðum.
 author: perlynne
 ms.date: 04/29/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: fe083f16bd47b3f7bdfd366ae4b0fe4a02f49185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103064"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907001"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Móttaka númeraplötu í gegnum farsímaforrit vöruhúsakerfis
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Móttaka númeraplötu með farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja upp farsímaforrit vöruhúsakerfis þannig að það styðji notkun móttökuferlis númeraplötu til að taka á móti efnislegum birgðum.
+Þessi grein útskýrir hvernig á að setja upp Vöruhússtjórnun farsímaforritið þannig að það styðji við notkun númeraplötumóttökuferlis til að taka á móti efnislegum birgðum.
 
 Þú getur notað þessa aðgerð til að skrá fljótt móttöku á birgðum á innleið sem tengjast tilkynningu um sendingu (ASN). Kerfið stofnar sjálfkrafa ASN þegar ferli vöruhússtjórnunar eru notuð til að senda flutningspöntun. Fyrir innkaupapöntunarferlið er hægt að skrá ASN handvirkt eða flytja það sjálfkrafa inn með því að nota ASN gagnaeiningarferli á innleið.
 

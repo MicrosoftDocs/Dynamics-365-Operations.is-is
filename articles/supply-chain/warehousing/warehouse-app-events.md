@@ -1,6 +1,6 @@
 ---
 title: Viðburðir vöruhúsaforrits
-description: Þetta efnisatriði lýsir úrvinnslu á viðburðum vöruhúsaforrits sem notaðir eru til að vinna úr skilaboðum um viðburð vöruhúsaforrits sem hluti af runuvinnslu.
+description: Þessi grein lýsir atburðavinnslu vöruhúsaforrits sem notuð er til að vinna úr vöruhúsaforritsviðburðaskilaboðum sem hluta af runuvinnu.
 author: perlynne
 ms.date: 09/02/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 8c92bf179006d668f8673e9abc3419a10e644184
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 41b9538d3064bad24c4c5c60d401605e47e9c655
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905455"
 ---
 # <a name="warehouse-app-event-processing"></a>Vinnsla viðburða í vöruhúsaforriti
 

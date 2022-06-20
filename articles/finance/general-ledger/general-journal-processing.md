@@ -1,6 +1,6 @@
 ---
 title: Vinnsla almennrar færslubókar
-description: Þetta efni lýsir getu í Microsoft Dynamics 365 Finance sem getur hjálpað til við að gera almenna dagbókarvinnslu auðveldari og sem getur einnig hjálpað til við að tryggja að rétt gögn séu tekin og innra eftirlit sé ekki í hættu.
+description: Þessi grein lýsir getu í Microsoft Dynamics 365 Finance sem getur hjálpað til við að gera almenna dagbókarvinnslu auðveldari og sem getur einnig hjálpað til við að tryggja að rétt gögn séu tekin og innra eftirlit sé ekki í hættu.
 author: kweekley
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cfe4af0c666fb2accb6737edb2de6e0b6e7cdf1
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 2055c028f7bfe8edc9faec8f791fff2fbfe08bfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720028"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896377"
 ---
 # <a name="general-journal-processing"></a>Vinnsla almennrar færslubókar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir eiginleikum sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, sem og að tryggja að rétt gögn séu tekin og að innri stýring sé ekki í hættu.  
+Þessi grein lýsir getu sem getur hjálpað til við að gera almenna dagbókarvinnslu auðveldari og sem getur einnig hjálpað til við að tryggja að rétt gögn séu tekin og innra eftirlit sé ekki í hættu.  
 
 ## <a name="journal-names"></a>Færslubókanöfn
 

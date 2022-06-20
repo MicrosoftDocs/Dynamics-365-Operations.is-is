@@ -1,6 +1,6 @@
 ---
 title: Senda reikninga í verkflæðiskerfi og jafna línur á innhreyfingarskjali afurða
-description: Þetta efnisatriði útskýrir hvernig á að senda reikninga lánardrottna í verkflæðiskerfið og jafna sjálfkrafa bókaðar línur innhreyfingarskjals afurðar fyrir reikninga lánardrottins.
+description: Þessi grein útskýrir ferlið við að senda inn reikninga lánardrottins í verkflæðiskerfið og passa sjálfkrafa bókaðar innhreyfingarlínur vöru við reikninga lánardrottins.
 author: abruer
 ms.date: 02/11/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0962ea2bfa28deb3e86620c364feffd209cfc38e
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 960a08eb5e98cac034bbd41335b616ff41bf6fd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861619"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Senda reikninga í verkflæðiskerfi og jafna línur á innhreyfingarskjali afurða
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að senda reikninga lánardrottna í verkflæðiskerfið og jafna sjálfkrafa bókaðar línur innhreyfingarskjals afurðar fyrir reikninga lánardrottins.
+Þessi grein útskýrir ferlið við að senda inn reikninga lánardrottins í verkflæðiskerfið og passa sjálfkrafa bókaðar innhreyfingarlínur vöru við reikninga lánardrottins.
 
 ## <a name="submitting-imported-vendor-invoices-to-the-workflow-system-and-matching-posted-product-receipt-lines-to-pending-vendor-invoice-lines"></a>Senda inn reikninga lánardrottins í verkflæðiskerfið og jafna bókaðar innhreyfingarlínur afurða við reikningslínur lánardrottins í bið
 

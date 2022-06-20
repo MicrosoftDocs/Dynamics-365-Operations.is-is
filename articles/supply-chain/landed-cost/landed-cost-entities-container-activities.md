@@ -1,6 +1,6 @@
 ---
-title: Gámastarfsemi eining
-description: Þetta efnisatriði veitir upplýsingar um gámastarfsemi, sem eru notuð til að fylgjast með framvindu flutningsgáma.
+title: Aðgerðaeining geymis
+description: Þessi grein veitir upplýsingar um gámastarfsemi, sem eru notuð til að fylgjast með framvindu flutningsgáma.
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 7bb2b97e8885e3b1265f0c93585873c8a64f1dfb
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: b69d26ee8abaa403f6a0ef3b03d9015fe507dd5b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813164"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873957"
 ---
-# <a name="container-activities-entity"></a>Gámastarfsemi eining
+# <a name="container-activities-entity"></a>Aðgerðaeining geymis
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
@@ -50,7 +50,7 @@ Upplýsingar um framvindu flutningsgáms berast oft frá utanaðkomandi aðilum.
 
 ## <a name="tracking-control"></a>Rekjastýring
 
-Eftirlitsstjórnstöðin gerir kleift að kveikja á uppfærslu á tilteknum upprunareit með uppfærslu á tilteknu markreiti. Ef bæði gildi upprunareitsins og gildi markreitsins eru uppfærð með því að nota gámavirknieininguna, mun markreiturinn sýna einingagildið. Þessi hegðun tengist rakningarstýringarskrám sem hafa a **Búðu til tegund** verðmæti á *Leiðslutími*.
+Eftirlitsstjórnstöðin gerir kleift að kveikja á uppfærslu á tilteknum upprunareit með uppfærslu á tilteknu markreiti. Ef bæði gildi upprunareitsins og gildi markreitsins eru uppfærð með því að nota gámavirknieininguna mun markreiturinn sýna einingagildið. Þessi hegðun tengist rakningarstýringarskrám sem hafa a **Búðu til tegund** verðmæti á *Leiðslutími*.
 
 Fyrir kostnaðarsvæði sem hafa a **Búðu til tegund** verðmæti á *Stöðuuppfærsla* eða *Autt* (sem er notendaskilgreint gildi), mun kerfið uppfæra siglingastöðu eða miðsvæði í samræmi við uppsetningu rakningarstýringar.
 

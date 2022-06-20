@@ -1,6 +1,6 @@
 ---
 title: Nota birgðastillingar
-description: Í efnisatriði er fjallað um birgðastillingar og útskýrt hvernig á að nota þær í Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um birgðastillingar og lýsir því hvernig eigi að nota þær í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 10/15/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ba3e67cf9c72b9a9606528c02f9e57d19a74c1f
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: df1d1283a7692336906550169bc77104a9118779
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909558"
 ---
 # <a name="apply-inventory-settings"></a>Nota birgðastillingar
 
 [!include [banner](includes/banner.md)]
 
-Í efnisatriði er fjallað um birgðastillingar og útskýrt hvernig á að nota þær í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um birgðastillingar og lýsir því hvernig eigi að nota þær í Microsoft Dynamics 365 Commerce.
 
 Birgðastillingar tilgreina hvort athuga eigi birgða áður en afurðir eru settar í körfuna. Þær skilgreina einnig birgðatengd skilaboð um smásöluvörur, t.d. „Á lager“ og „Lítið eftir“. Þessar stillingar ganga úr skugga um að ekki sé hægt að kaupa afurð ef hún er ekki til á lager.
 

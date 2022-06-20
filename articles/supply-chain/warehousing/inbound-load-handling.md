@@ -1,6 +1,6 @@
 ---
-title: Vöruhúsafgreiðsla á farmi á innleið fyrir innkaupapantanir
-description: Þetta efni lýsir afgreiðsluferli vöruhúss fyrir farma á innleið fyrir innkaupapantanir.
+title: Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir
+description: Þessi grein lýsir vöruhúsameðferðarferlinu fyrir hleðslu á innleið fyrir innkaupapantanir.
 author: Mirzaab
 ms.date: 03/21/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778060"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855933"
 ---
-# <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Vöruhúsafgreiðsla á farmi á innleið fyrir innkaupapantanir
+# <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni lýsir afgreiðsluferli vöruhúss fyrir farma á innleið fyrir innkaupapantanir.
+Þessi grein lýsir vöruhúsameðferðarferlinu fyrir hleðslu á innleið fyrir innkaupapantanir.
 
 Fyrir hvern farm á innleið ætti kerfið þitt nú þegar að innihalda tengda sölupöntun og hún gæti einnig innihaldið tengda forskrift og/eða flutningsáætlun farms. Nánari upplýsingar um hvernig á að stofna og stjórna farmi á innleið, sjá [Viðskiptaferli: Áætlun flutningsstjórnunar fyrir farma á innleið](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
@@ -54,7 +54,7 @@ Eftirfarandi mynd sýnir dæmigert flæði til að meðhöndla farma á innleið
 
     Þegar álagsmagnið hefur verið skráð sem komið verður það magn að vera innhreyfingarskjal afurða–bókað í birgðabók fyrirtækisins til að skrá efnislega hlutafjáraukningu. Fyrir frekari upplýsingar, sjá [Innhreyfingaskjal afurða gegn innkaupapöntunum - innhreyfingarskjal afurða](../procurement/product-receipt-against-purchase-orders.md#product-receipt) og [Bóka skráða afurðamagn gegn innkaupapöntunum](#post-registered-quantities).
 
-## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a> Skráðu vörumagn sem berst í farmi á innleið
+## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Skráðu vörumagn sem berst í farmi á innleið
 
 Microsoft Dynamics 365 Supply Chain Management styður nokkrar rekstraraðferðir við skráningu á komu pantaðra vara. Þess vegna geturðu stillt kerfið þannig að það passi við sérstakar viðskiptakröfur þínar. Þessi hluti lýsir því hvernig á að skrá vörumagn á innleið með því að nota fartæki þegar kveikt er á ítarlegri vöruhússtjórnun í kerfinu. Hins vegar er annað flæði til sem byggist á því að nota komubókar vöru í stað fartækis. Nánari upplýsingar um það flæði er að finna í [Skrá vörur fyrir vöru með ítarlegt vöruhúsakerfi virkt með því að nota komubók vöru](tasks/register-items-advanced-warehousing.md).
 
@@ -113,7 +113,7 @@ Starfsmenn vöruhúsa geta gert hlutfallslega skráningu á móttöku farms. Hve
 
 Þegar farmur berst, ef vörumagn er minna en það magn sem fram kemur á farmskránni, geta starfsmenn vöruhúsa unnið beint á biðlaranum til að viðurkenna þetta misræmi með því að minnka magnið á farmlínunni þannig að það passi við raunverulegt magn sem barst og var skráð.
 
-#### <a name="load-over-receiving"></a><a name="load-over-receiving"></a> Ofmóttaka farms
+#### <a name="load-over-receiving"></a><a name="load-over-receiving"></a>Ofmóttaka farms
 
 Ofmóttaka á sér stað þegar farmur berst og vörumagn fer yfir áætlað magn farmlína. Þú getur stjórnað því hvort og að hve miklu leyti ofmóttaka er leyfð við skráningu álags.
 
@@ -147,7 +147,7 @@ Eftirfarandi tafla útskýrir valkosti sem eru tiltækir fyrir reitinn **Ofmótt
 | Birgðafærslur á vinnu sem gengið hefur verið frá tengdu magni fyrir | Reitirnir **Móttaka** og **Staðsetning** og aðrir viðeigandi reitir eru uppfærðir til að endurspegla flutning frá móttökustað til geymslustaðar. | Gildið **Móttökustaða** í birgðafærslu innkaupapöntunar er áfram _Skráð_. |
 | Vöruhúsafrágangur | Gildið **Vinnustaða** hefur breyst í _Lokað_. | |
 
-## <a name="post-registered-product-quantities-against-purchase-orders"></a><a name="post-registered-quantities"></a> Bóka skráð afurðamagn gegn innkaupapöntunum
+## <a name="post-registered-product-quantities-against-purchase-orders"></a><a name="post-registered-quantities"></a>Bóka skráð afurðamagn gegn innkaupapöntunum
 
 Eftir að afurðamagn á innleið er skráð í kerfið verða þau tiltæk fyrir frátekningu í tengslum við sölu og aðrar innri aðgerðir og á útleið. Hins vegar uppfærir kerfið ekki enn birgðareikninga (tímabundna). Þessi uppfærsla getur aðeins átt sér stað þegar aðgerðateymið birtir skráð innhreyfingarskjöl afurða.
 
@@ -205,11 +205,11 @@ Eftirfarandi tafla dregur saman áhrif af stillingunni **Leyfa mörg innhreyfing
 | Leyfa mörg innhreyfingarskjöl á farm | Magn farms | Hleðslustaða | Nóta |
 |---|---|---|---|
 | Þegar þessi reitur er ekki til (útgáfur fyrir 10.0.10) | <p>Farmmagnið er stillt þannig að það jafngildir skráðu magni.</p><p>Ef farmmagnið er uppfært í 0 (núll), sem þýðir að engin skráning hefur verið gerð, er farmlínunni eytt.</p><p>Ef engar farmlínur eru í farminum er farminum eytt.</p> | _Móttekið_ | Ef margir farmar eru til staðar fyrir skráð magn pöntunarlínunnar er aðeins staða farmsins sem innhreyfinarskjali var bókað úr uppfærð í _Móttekið_. |
-| Ekkert | <p>Farmmagnið er stillt þannig að það jafngildir skráðu magni sem er tengt við farmkennið.</p><p>Ef ekkert farmkenni er skráð fyrir birgðafærslu passar hegðunin við hegðun í útgáfum á undan 10.0.10.</p> | _Móttekið_ | |
+| Nei | <p>Farmmagnið er stillt þannig að það jafngildir skráðu magni sem er tengt við farmkennið.</p><p>Ef ekkert farmkenni er skráð fyrir birgðafærslu passar hegðunin við hegðun í útgáfum á undan 10.0.10.</p> | _Móttekið_ | |
 | Já | Engar uppfærslur | _Móttekið_, ef heildarmagn farmmagns er jafnt eða meira en farmmagnið | |
 | Já | Engar uppfærslur | _Sent_ eða _Í vinnslu_, ef heildarmagn farmmagns er minna en farmmagnið | |
 
-Þegar reiturinn **Farmstaða** hefur verið stilltur á _Móttekið_ er ekki hægt að gera fleiri bókanir innhreyfingarskjala afurða fyrir þann farm. Samt sem áður getur starfskrafturinn skráð eftirstöðvar pöntunarinnar á móti mótteknum farmi við eftirfarandi skilyrði. (Fyrir frekari upplýsingar, sjá hlutann [Ofmóttaka farms](#load-over-receiving) fyrr í þessu efni.)
+Þegar reiturinn **Farmstaða** hefur verið stilltur á _Móttekið_ er ekki hægt að gera fleiri bókanir innhreyfingarskjala afurða fyrir þann farm. Samt sem áður getur starfskrafturinn skráð eftirstöðvar pöntunarinnar á móti mótteknum farmi við eftirfarandi skilyrði. (Nánari upplýsingar er að finna í [Ofmóttaka álags](#load-over-receiving) kafla fyrr í þessari grein.)
 
 - Útgáfan af Supply Chain Management er eldri en útgáfa 10.0.11.
 - Kveikt er á eiginleikanum _Ofmóttaka farmmagns_ og reiturinn **Farmlínumagn ofmóttöku** í valmyndaratriði fartækisins fyrir móttökuaðgerð farmvörunnar er stilltur á _Leyfa_.

@@ -1,6 +1,6 @@
 ---
-title: Námslisti fyrir hönnuði Dynamics 365 Finance
-description: Finndu allar kennsluleiðir fyrir hönnuði Dynamics 365 Finance.
+title: Námsskrá fyrir þróunaraðila Dynamics 365 Finance
+description: Finndu alla þjálfunarmöguleikana fyrir þróunaraðila Dynamics 365 Finance.
 author: margoc
 ms.topic: article
 ms.date: 07/27/2020
@@ -12,14 +12,14 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 866db1307484fd35949e87d02ca17ef0555bb654
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 729fc6a1172d651a24cc0a3bff765b09263e3cd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903100"
 ---
-# <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Námslisti fyrir hönnuði Dynamics 365 Finance
+# <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Námsskrá fyrir þróunaraðila Dynamics 365 Finance
 
 
 
@@ -32,7 +32,7 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | Efni | Lýsing | Snið | Lengd |
 |---------|-------------|--------|--------|
 | [Byrjaðu með Finance and Operations öppum](/learn/paths/get-started-finance-operations/) | Lærðu hvernig Finance and Operations öpp styðja fyrirtæki við að stjórna alþjóðlegum fjármálakerfum sínum, rekstri viðskiptaferlum og straumlínulagaða aðfangakeðjur til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir. Sem fyrsta skrefið á ferli þínum við að vinna með Finance and Operations forritum, verður þú að kynna þér eiginleika þess og virkni, hvaða hlutverki sem þú vilt. | Ókeypis, sjálfstýr skref á námsleið | 2.2 klst. |
-| [Hafist handa með Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance hvetur fyrirtækjanotendur til að aðlagast hröðum breytingum í umhverfi fyrirtækja. Það veitir fyrirtækjum allt sem þau þarfnast til að stjórna fjármálum og hafa umsjón með sjóðum með nákvæmum upplýsingum fyrir fjárhagsáætlunargerð og spár og auðveldar þeim að halda sér uppfærðum með greiningarverkfærum. Fyrst að fjármál eru kjarni allra viðskipta, er mikilvægt að kynna sér möguleika Dynamics 365 Finance. | Ókeypis námseining á netinu á eigin hraða | 1 klukkustund |
+| [Byrjaðu með Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance gerir viðskiptanotendum kleift að laga sig að ört breyttu viðskiptaumhverfi. Það veitir fyrirtækjum allt sem þau þarfnast til að stjórna fjármálum og hafa umsjón með sjóðum með nákvæmum upplýsingum fyrir fjárhagsáætlunargerð og spár og auðveldar þeim að halda sér uppfærðum með greiningarverkfærum. Þar sem fjármál eru kjarninn í hvers kyns viðskiptum er mikilvægt að kynnast getu Dynamics 365 Finance. | Ókeypis námseining á netinu á eigin hraða | 1 klukkustund |
 
 ## <a name="core-development-concepts"></a>Kjarnaþróunarhugtök<a name="core-development-concepts"></a>
 
@@ -40,14 +40,14 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 |---------|-------------|--------|--------|
 | [Kynning á þróun með Finance and Operations öppum](/learn/paths/introduction-develop-finance-operations/) | Sem þróunaraðili sem vinnur með Finance and Operations forritum er mikilvægt að hafa góð tök á helstu arkitektúrþáttum Dynamics 365 vistkerfisins og Finance and Operations forritanna. Þekking á kjarnahugmyndum þróunaraðila, þar á meðal tæknilega getu, frumkóða, prófunarramma og skýrslutól, mun styðja við frekari viðleitni þína til að byggja upp þróunarhæfileika sem þú getur sótt í Finance and Operations öpp. | Ókeypis, sjálfstýr skref á námsleið | 7.75 klst. |
 | [Byggja fjármála- og rekstraröpp](/learn/paths/build-finance-operations/) | Þróun í Finance and Operations forritum krefst grunnskilnings á þeim verkefnum sem þarf til að byggja upp nýja þætti og sérsníða Finance and Operations forrit. Verkefnin fela í sér að skilja X ++ kóða og Visual Studio auk þess að geta búið til og breytt grunnþáttum kerfisins. | Ókeypis, sjálfstýr skref á námsleið | 13 klst. |
-| [Framlengdu Finance and Operations öpp](/learn/paths/extending-finance-operations/) | Viðbætur gera forriturum kleift að gera breytingar á upplifun notenda í Finance and Operations forritum með því að innleiða breytingar á kóðanum sem hafa ekki áhrif á grunnkóðann. Meðal annarra kosta gera viðbætur hönnuði kleift að uppfæra Finance and Operations öpp til að fylgja viðskiptaferlum og nauðsynlegum breytingum. | Ókeypis, sjálfstýr skref á námsleið | 2.5 klst. |
-| [Tengstu við Finance and Operations öpp](/learn/paths/connect-finance-operations/) | Samþætting og möguleikinn á að fá aðgang að gögnunum þínum í Finance and Operations öppum eru mikilvægir eiginleikar. Hönnuðir sem hafa lært að smíða og útvíkka kóða í Finance and Operations öppum geta aukið þekkingu sína á þróun með því að læra um samþættingu gagna og hvernig tenging við gögn getur haft jákvæð áhrif á notendur. | Ókeypis, sjálfstýr skref á námsleið | 5.75 klst. |
+| [Framlengdu Finance and Operations öpp](/learn/paths/extending-finance-operations/) | Viðbætur gera forriturum kleift að gera breytingar á upplifun notenda í Finance and Operations forritum með því að innleiða breytingar á kóðanum sem hafa ekki áhrif á grunnkóðann. Meðal annarra kosta gera viðbætur forriturum kleift að uppfæra Finance and Operations öpp til að fylgja viðskiptaferlum og nauðsynlegum breytingum. | Ókeypis, sjálfstýr skref á námsleið | 2.5 klst. |
+| [Tengstu við Finance and Operations öpp](/learn/paths/connect-finance-operations/) | Samþætting og getan til að fá aðgang að gögnunum þínum í Finance and Operations öppum eru mikilvægir eiginleikar. Hönnuðir sem hafa lært að smíða og útvíkka kóða í Finance and Operations öppum geta aukið þekkingu sína á þróun með því að læra um samþættingu gagna og hvernig tenging við gögn getur haft jákvæð áhrif á notendur. | Ókeypis, sjálfstýr skref á námsleið | 5.75 klst. |
 | [Flyttu gögn og farðu í beinni með Finance and Operations forritum](/learn/paths/migrate-data-go-live-finance-operations/) | Sem starfhæfur ráðgjafi verður þú að skilja hvernig á að undirbúa gögn viðskiptavina þinna fyrir flutning, vinna með gagnastjórnun og framkvæma samþykkisprófun notenda til að fara í notkun með Finance and Operations öppum. | Ókeypis, sjálfstýr skref á námsleið | 4 klst. |
 | [Finance And Operations: Þróun ALM (DYN766PAL)](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-and-operations---development-alm-february-19-2020) | Þessi tækniráðstefna fjallar um hugtök í þróun og líftímastjórnun forrita, verkfæri og bestu starfshætti sem við mælum með. Við fjöllum um hvernig Lifecycle Services, Visual Studio og Azure DevOps vinna saman að því að skapa samfellda afhendingu kóðakerfis lausnar þinnar á hnitmiðuðum viðskiptaferlum og þjónustu á umhverfum þínum. | Ókeypis upptaka af vefráðstefnu | 52 mínútur |
 | [Finance and Operations: framlenging Dynamics 365 for Finance and Operations með PowerApps (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | Skilja hversu einfalt Microsoft PowerApps er og hvernig skal samþætta það við Dynamics 365 for Finance and Operations til að breyta fyrirtækjum á stafrænan hátt og auka framleiðni notenda. | Ókeypis upptaka af vefráðstefnu | 43 mínútur |
 | [Fjármál og rekstur: Stækkanleiki (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | Við munum veita yfirlit og uppfærslu á stækkunaráætlunum Microsoft. Við munum fjalla í smáatriðum um ýmsar leiðir til að lengja út lausn, fjöllum ítarlega um stækkunarhæfni lýsigagna sem og hæfileika til að auka og lengja kóða, meðal annars með öflugum boðleiðareiginleika. | Ókeypis upptaka af vefráðstefnu | 50 mínútur |
 | [Visual Studio Uppsetning á Team Services (VSTS) (VIR782PAL) ](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | Þetta tæknispjall mun ganga í gegnum nauðsynleg skref til að stilla VSTS dæmi og verkefni til að tengjast LCS útfærsluverkefni fyrir Dev/Test umhverfi stillingar. | Ókeypis upptaka af vefráðstefnu | 41 mínútur |
-| [Dataverse Gagnasamþætting (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Taktu þátt með okkur í þessari tækniráðstefnu um getu Dataverse gagnasamþættingar. Við munum ræða samþættingarvalkosti milli Dynamics 365 Customer Engagement og Dynamics 365 Finance og Operations, auk samþættingar við aðrar lausnir þriðja aðila. | Ókeypis upptaka af vefráðstefnu | 61 mínútur |
+| [Dataverse Gagnasamþætting (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Taktu þátt með okkur í þessari tækniráðstefnu um getu Dataverse gagnasamþættingar. Við munum ræða samþættingarvalkosti milli Dynamics 365 Customer Engagement og Dynamics 365 Finance and Operations, auk samþættingar við aðrar lausnir frá þriðja aðila. | Ókeypis upptaka af vefráðstefnu | 61 mínútur |
 | [Samþætting milli Dynamics 365 for Sales og Dynamics 365 for Finance and Operations í gegnum Dataverse (DYN340PAL)](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | Í þessu tæknitali munum við kynna sameiningarsviðið sem kallast Prospect fyrir reiðufé, með sölu- og markaðsstarfsemi í Dynamics 365 for Sales og uppfylling í Dynamics 365 for Finance and Operations. Við munum einnig skoða gagnagrunna og hvernig á að breyta samþættingunni. | Ókeypis upptaka af vefráðstefnu | 54 mínútur |
 | [Gagnastjórnun (DYN757PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | Vertu með í þessu TechTalk um gagnastjórnun. Kynntu þér þá valkosti sem eru í boði og atburðarásina sem þeim er mælt með. Við förum yfir gagnastjórnunarramma, sniðmát, afritun gagnagrunns, samnýtingu gagna á milli fyrirtækja og afkastaatriði. | Ókeypis upptaka af vefráðstefnu | 58 mínútur |
 | [Samþættingarverkfæri Azure fyrir Dynamics 365 for Finance and Operations (DYN386PAL) ](https://community.dynamics.com/365/b/techtalks/posts/azure-integration-tools-for-dynamics-365-for-finance-and-operations-november-2-2017) | Þetta tæknital mun fjalla um þær tegundir tækja sem þú gætir haft í huga þegar þú samþættir Dynamics 365 for Finance & Operations og hvenær á að velja hvaða sameiningartæki. Lotan mun einnig ganga í gegnum nokkur samþættingarmynd sem er útfærð með Azure samþættingarþjónustu. | Ókeypis upptaka af vefráðstefnu | 63 mínútur |

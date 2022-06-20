@@ -1,6 +1,6 @@
 ---
 title: Endurstilla númer kvittunar
-description: Þetta efni lýsir því hvernig á að núllstilla innhreyfingatölurnar sem eru notuð við ýmsar aðgerðir á tilteknum degi (til dæmis reikningsársins eða almanaksársins).
+description: Þessi grein lýsir því hvernig á að endurstilla kvittunarnúmerin sem eru notuð fyrir ýmsar aðgerðir á tiltekinni dagsetningu (til dæmis reikningsár eða almanaksár).
 author: ShalabhjainMSFT
 ms.date: 10/06/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 855c39f15db6de8fac1f0cd4667eec485c70542b9aebde0d7085e2703f4609bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5dc9f3f977e04866562781d9768141a4a96166f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733870"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858857"
 ---
 # <a name="reset-receipt-numbers"></a>Endurstilla númer kvittunar 
 
@@ -30,7 +30,7 @@ ms.locfileid: "6733870"
 > [!NOTE]
 > Við krefjumst þess að notandi velji eiginleikann **Sjálfstæð röð** fyrir allar kvittanategundir í virknireglunni áður en eiginleikinn er notaður. Einnig ætti tímabelti kerfisins, þar sem sölustaðurinn er notaður, að passa við samsvarandi tímabelti verslunarinnar. Vegna þessara takmarkana er mælt með því að nota ekki þennan eiginleika í framleiðslu á meðan unnið er að því að leysa þessi vandamál í framtíðarútgáfu. 
 
-Söluaðilar búa til innhreyfingartölur fyrir ýmsar aðgerðir í versluninni, svo sem staðgreiddar færslur, skilafærslur, pantanir viðskiptavina, tilboð og greiðslur. Þrátt fyrir að smásalar skilgreini eigin innhreyfingarsnið, hafa sum lönd eða svæði reglur sem setja takmarkanir á þessi innhreyfingarsnið. Til dæmis gætu þessar reglugerðir takmarkað fjölda stafa í kvittuninni, krafist röð kvittunarnúmera, takmarkað einhverja sérstaka stafi eða krafist endurstillingar kvittunúmera í byrjun árs. Microsoft Dynamics 365 Commerce gerir stjórnunarferlið fyrir kvittunarnúmer sveigjanlegra, til að hjálpa smásölum að uppfylla kröfur vegna reglugerða. Þetta efni útskýrir hvernig á að nota virkni til að núllstilla kvittunarnúmer.
+Söluaðilar búa til innhreyfingartölur fyrir ýmsar aðgerðir í versluninni, svo sem staðgreiddar færslur, skilafærslur, pantanir viðskiptavina, tilboð og greiðslur. Þrátt fyrir að smásalar skilgreini eigin innhreyfingarsnið, hafa sum lönd eða svæði reglur sem setja takmarkanir á þessi innhreyfingarsnið. Til dæmis gætu þessar reglugerðir takmarkað fjölda stafa í kvittuninni, krafist röð kvittunarnúmera, takmarkað einhverja sérstaka stafi eða krafist endurstillingar kvittunúmera í byrjun árs. Microsoft Dynamics 365 Commerce gerir stjórnunarferlið fyrir kvittunarnúmer sveigjanlegra, til að hjálpa smásölum að uppfylla kröfur vegna reglugerða. Þessi grein útskýrir hvernig á að nota virknina til að endurstilla kvittunarnúmer.
 
 Í viðskiptum geta kvittunarsnið verið bókstafleg. Þú getur sett bæði fast efni og kvikt efni í það. Fast efni inniheldur stafrófsröð, tölur og sértákn. Kvikt efni inniheldur einn eða fleiri stafi sem tákna upplýsingar, svo sem verslunarnúmer, afgreiðslukassanúmer, dagsetningu, mánuð, ár og númeraröð sem hækkar sjálfkrafa. Sniðin eru skilgreind í **Númer kvittunar** hluti af virknireglunni. Eftirfarandi tafla lýsir stöfum sem tákna kvikt efni.
 

@@ -1,6 +1,6 @@
 ---
 title: Listi yfir ER-aðgerðir í lénssértæka flokknum fyrir viðskipti
-description: Þetta efni veitir upplýsingar um lénssértækaraðgerðir fyrir viðskipti, sem eru studdar í rafrænni skýrslugerð (ER).
+description: Þessi grein veitir upplýsingar um viðskiptalénssértækar aðgerðir sem eru studdar í rafrænum skýrslum (ER).
 author: NickSelin
 ms.date: 12/12/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8f0812e4262a264ffc89b72e0f4fc8c55d6c6822095f550c8f05296bb057a38
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d9df826dcc0b672977d4d8af1feb985ab9a0ab7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712334"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879950"
 ---
 # <a name="list-of-er-functions-in-the-business-domainspecific-category"></a>Listi yfir ER-aðgerðir í lénssértæka flokknum fyrir viðskipti
 
 [!include [banner](../includes/banner.md)]
 
-Hægt er að nota lénssértækar aðgerðir fyrir viðskipti í rafrænni skýrslugerð (ER) til að framkvæma útreikninga og beiðnir um aðgang að gögnum sem eru sértæk fyrir innleiðingu á Microsoft Dynamics 365 Finance. Þetta efni gefur yfirlit yfir þessar aðgerðir.
+Hægt er að nota rafræna skýrslugerð (ER) lénssértækar aðgerðir til að framkvæma útreikninga og gagnaaðgangsbeiðnir sem eru sértækar fyrir framkvæmd Microsoft Dynamics 365 Fjármál. Þessi grein gefur yfirlit yfir þessar aðgerðir.
 
 ## <a name="list-of-supported-functions"></a>Listi yfir studdar aðgerðir
 

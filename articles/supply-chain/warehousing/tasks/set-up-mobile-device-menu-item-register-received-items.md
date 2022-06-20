@@ -1,6 +1,6 @@
 ---
 title: Setja upp valmyndaratriði fartækis til að skrá mótteknar vörur
-description: Þetta efni leggur áherslu á uppsetningu valmyndaratriði fartækis.
+description: Þessi grein fjallar um uppsetningu á valmyndaratriði farsíma.
 author: Mirzaab
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 410a70294e5a417950ed5332ec5fdd7da321a31d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b59a78ef98215bec7610fe17ed56e6fc287004c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565160"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882316"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Setja upp valmyndaratriði fartækis til að skrá mótteknar vörur
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni leggur áherslu á uppsetningu valmyndaratriði fartækis. Þetta valmyndaratriði er notuð fyrir skráningu á móttöku á vörum sem eru pantaðar með innkaupapöntun. 
+Þessi grein fjallar um uppsetningu á valmyndaratriði farsíma. Þetta valmyndaratriði er notuð fyrir skráningu á móttöku á vörum sem eru pantaðar með innkaupapöntun. 
 
 Hægt er að nota þessar leiðbeiningar í sýnifyrirtækinu USMF. Þetta ferli er ætluð fyrir stjórnanda í vöruhúsi.
 

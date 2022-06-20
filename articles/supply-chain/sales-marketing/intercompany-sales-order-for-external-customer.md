@@ -1,6 +1,6 @@
 ---
 title: Stofna og reikningsfæra samstæðusölupöntun fyrir ytri viðskiptavin
-description: Þetta efnisatriði útskýrir hvernig á að stofna og reikningsfæra samstæðusölupöntun fyrir ytri viðskiptavin
+description: Þessi grein útskýrir hvernig á að stofna og reikningsfæra innbyrðis sölupöntun fyrir utanaðkomandi viðskiptavin
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c8a22ded1a6242e4062e1ce9e0ce624d4579fba9
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: cd42551730ab0123813a3b5a0b5a4b1c334e9d30
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669378"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852158"
 ---
 # <a name="create-and-invoice-an-intercompany-sales-order-for-an-external-customer"></a>Stofna og reikningsfæra samstæðusölupöntun fyrir ytri viðskiptavin
 
@@ -77,7 +77,7 @@ Gerðu þessi skref í lögaðila B. Þetta ferli samsvarar reitnum sem er merkt
 Reikningur viðskiptavinar fyrir samstæðusölupöntunina er sjálfkrafa bókaður í lögaðila B. Reikningur samstæðulánardrottins er þá sjálfkrafa stofnaður og bókaður í lögaðila A. Ef upprunaleg sölupöntun er sett upp sem bein afhending er reikningur viðskiptavinar stofnaður fyrir upprunalegu sölupöntunina í lögaðila A.
 
 > [!NOTE]
-> Áður, fyrir samstæðusöluaðstæður, ef verkflæði reiknings lánardrottins var stillt í innkaupafyrirtækinu innan samstæðu, var ekki hægt að reikningsfæra samstæðusölupöntunina. Því þurfti að slökkva á verkflæði lánardrottinsreiknings fyrir innkaupafyrirtækið. 
+> Áður, fyrir samstæðusölusviðsmyndir, ef verkflæði lánardrottinsreiknings var stillt í innkaupafyrirtækinu innan samstæðu, var ekki hægt að reikningsfæra samstæðusölupöntunina. Því þurfti að slökkva á verkflæði lánardrottinsreiknings fyrir innkaupafyrirtækið. 
 > 
 > Þessi takmörkun hefur verið lagfærð með nýlegum eiginleika í útgáfu 10.0.25. Nú er hægt að reikningsfæra sölupantanir milli fyrirtækja þegar verkflæði lánardrottinsreiknings er stillt í innkaupafyrirtækinu.
 > 
@@ -87,6 +87,6 @@ Reikningur viðskiptavinar fyrir samstæðusölupöntunina er sjálfkrafa bóka�
 > 2. Farðu í **Viðskiptakröfur \> Viðskiptavinir \> Alla viðskiptavini**.
 > 3. Veldu viðskiptavin fyrir innkaupafyrirtækið milli fyrirtækja.
 > 4. Fara til **Almennt \> Settu upp \> Millifyrirtæki**.
-> 5. Á **Innkaupapöntunarreglur** flipann, veldu **Framhjá verkflæði lánardrottinsreiknings fyrir reikninga lánardrottna milli fyrirtækja** breytu.
+> 5. Á **Innkaupapöntunarreglur** flipann, veldu **Framhjá verkflæði lánardrottinsreiknings fyrir reikninga lánardrottna milli fyrirtækja** færibreytu.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

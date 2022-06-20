@@ -1,6 +1,6 @@
 ---
 title: Setja upp VSK-kóða
-description: Þetta efnisatriði útskýrir hvernig á að setja upp VSK-kóða í Dynamics 365 Finance.
+description: Þessi grein útskýrir hvernig á að setja upp VSK-kóða í Dynamics 365 Finance.
 author: twheeloc
 ms.date: 09/27/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 69e2cf9a16fe0e694154cccf9b49944b49c79b90
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: b12133583f40cc17cb85f6dbd86697592af25caf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858469"
 ---
 # <a name="set-up-sales-tax-codes"></a>Setja upp VSK-kóða
 
 [!include [banner](../../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að setja upp virðisaukaskatt. Vsk-kóða eru stofnaðar fyrir hvert óbeint skattur eða gjald sem lögaðili er skylt að reikna, innheimta og greiða til skattyfirvalda.
+Þessi grein útskýrir hvernig á að setja upp söluskattskóða. Vsk-kóða eru stofnaðar fyrir hvert óbeint skattur eða gjald sem lögaðili er skylt að reikna, innheimta og greiða til skattyfirvalda.
 
 Þetta verkefni notar USMF-sýnifyrirtækið.
 
@@ -45,7 +45,7 @@ ms.locfileid: "8565854"
 12. Lokið síðunni.
 13. Veldu **Vista**.
 
-Frá Microsoft Dynamics 365 Finance útgáfa 10.0.22, ef þú ert að nota [Skattaþjónusta](../../localizations/global-tax-calcuation-service-overview.md), og [**Styðja mörg VSK skráningarnúmer**](../../localizations/emea-multiple-vat-registration-numbers.md) eiginleiki er virkur í **Eiginleikastjórnun** vinnusvæði, sem þú getur notað **Tegund skatts** reit til að tilgreina tegund skattkóða. Eftirtalin gildi eru tiltæk:
+Frá Microsoft Dynamics 365 Finance útgáfa 10.0.22, ef þú ert að nota [Skattaþjónusta](../../localizations/global-tax-calcuation-service-overview.md), og [**Styðja mörg VSK skráningarnúmer**](../../localizations/emea-multiple-vat-registration-numbers.md) eiginleiki er virkjaður í **Eiginleikastjórnun** vinnusvæði, sem þú getur notað **Tegund skatts** reit til að tilgreina tegund skattkóða. Eftirtalin gildi eru tiltæk:
 
 - Hefðbundinn VSK-skattur
 - Skertur virðisaukaskattur

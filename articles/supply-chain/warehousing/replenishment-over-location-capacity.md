@@ -1,6 +1,6 @@
 ---
 title: Áfylling yfir staðsetningargetu
-description: Í þessu efnisatriði er að finna upplýsingar um eiginleikann fyrir áfyllingu yfir staðsetningargetu. Þessi eiginleiki gerir kleift að búa til alla áfyllingarvinnu sem krafist er fyrir daginn og stjórnar framboði þessarar áfyllingarvinnu til að tryggja að birgðir í tiltektarstaðsetningunni hvorki tæmist né fari yfir getu.
+description: Þessi grein veitir upplýsingar um eiginleikann Endurnýjun yfir staðsetningargetu. Þessi eiginleiki gerir kleift að búa til alla áfyllingarvinnu sem krafist er fyrir daginn og stjórnar framboði þessarar áfyllingarvinnu til að tryggja að birgðir í tiltektarstaðsetningunni hvorki tæmist né fari yfir getu.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 0c3dedc47558e98f63fb5883e4731bf021b9602b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 72cda7608d55414ee62bc7dcc1e02e28f6212aff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899238"
 ---
 # <a name="replenishment-over-location-capacity"></a>Áfylling yfir staðsetningargetu
 
@@ -37,7 +37,7 @@ Til að gera þennan eiginleika tiltækan skaltu kveikja á eftirfarandi eiginle
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Setja upp eiginleikann fyrir þetta sýnidæmi
 
-Í þessum hluta eru leiðbeiningar og dæmi sem sýna hvernig á að setja upp þennan eiginleika og undirbúa sýnigögn fyrir sýnidæmið sem kemur fyrir seinna í þessu efnisatriði.
+Þessi hluti veitir leiðbeiningar og dæmi sem sýnir hvernig á að setja upp þennan eiginleika og undirbúa sýnishornsgögn fyrir dæmið sem er að finna síðar í þessari grein.
 
 ### <a name="enable-sample-data"></a>Virkja gögn sýnishorna
 
@@ -145,7 +145,7 @@ Kveikið á virkninni fyrir áfyllingu yfir staðsetningargetu í staðsetningar
 
 ## <a name="example-scenario"></a>Dæmi
 
-Þegar búið er að gera öll sýnigögnin hér á undan tiltæk og setja þau upp, er hægt að fara í gegnum þetta sýnidæmi til að prófa eiginleikann *Áfylling yfir staðsetningargetu*. Gildin sem eru sýnd í þessu sýnidæmi gera ráð fyrir því að verið sé að vinna með stöðluð sýnigögn, að lögaðilinn **USMF** hafi verið valinn og að sýniskrárnar sem lýst var fyrr í þessu efnisatriði hafi verið undirbúnar. Þetta sýnidæmi er einnig dæmi um hvernig hægt er að nota eiginleikann í framleiðsluumhverfi.
+Þegar búið er að gera öll sýnigögnin hér á undan tiltæk og setja þau upp, er hægt að fara í gegnum þetta sýnidæmi til að prófa eiginleikann *Áfylling yfir staðsetningargetu*. Gildin sem eru sýnd í þessari atburðarás gera ráð fyrir að þú sért að vinna með stöðluðu kynningargögnin, að þú hafir valið **USMF** lögaðila og að þú hafir útbúið sýnishornsskrárnar sem lýst er fyrr í þessari grein. Þetta sýnidæmi er einnig dæmi um hvernig hægt er að nota eiginleikann í framleiðsluumhverfi.
 
 ### <a name="create-replenishment-work"></a>Stofna áfyllingarvinnu
 

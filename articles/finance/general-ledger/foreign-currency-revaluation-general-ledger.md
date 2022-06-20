@@ -1,6 +1,6 @@
 ---
 title: endurmat á erlendum gjaldmiðli fyrir fjárhag
-description: 'Í þessu efnisatriði gefur yfirlit yfir eftirfarandi ferli endurmat á erlendum gjaldmiðli fjárhags: uppsetningu keyra ferlið útreikning fyrir ferli og hvernig á að bakfæra færslur endurmat, ef þörf krefur.'
+description: Þessi grein veitir yfirlit yfir eftirfarandi fyrir endurmatsferlið fjárhagslega gjaldeyris - uppsetningu, keyrslu ferlið, útreikning fyrir ferlið og hvernig á að bakfæra endurmatsfærslurnar, ef þörf krefur.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4a138a26a23c804f5fd358d335b04aee3897dce
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720339"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904529"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>endurmat á erlendum gjaldmiðli fyrir fjárhag
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði gefur yfirlit yfir eftirfarandi ferli endurmat á erlendum gjaldmiðli fjárhags: uppsetningu keyra ferlið útreikning fyrir ferli og hvernig á að bakfæra færslur endurmat, ef þörf krefur. 
+Þessi grein veitir yfirlit yfir eftirfarandi fyrir endurmatsferlið fjárhagslega gjaldeyris - uppsetningu, keyrslu ferlið, útreikning fyrir ferlið og hvernig á að bakfæra endurmatsfærslurnar, ef þörf krefur. 
 
 Hluti af lok tímabils reikningsskilavenja krefjast stöður fjárhagslykils í erlendum gjaldmiðlum á að endurmetni nota annað gengi gerðir (gildandi, sögulegt,meðaltal o.s.frv.). Til dæmis, einn reikningsskilavenja krefst þess eignir og skuldir að endurmetni á gildandi gengi sem eignir á sögulegu gengi og rekstrarreikninga á mánaðarleg meðaltal. Endurmat á erlendum gjaldmiðli fjárhags má nota til að endurmeta efnahagsreikningur og rekstrarreikningur. 
 

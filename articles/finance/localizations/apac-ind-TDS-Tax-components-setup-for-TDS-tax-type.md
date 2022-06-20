@@ -1,6 +1,6 @@
 ---
 title: Setja upp skatthluta fyrir TDS-skattgerðina
-description: Í þessu efnisatriði er útskýrt hvernig á að setja upp hluta staðgreiðsluskatts fyrir skattgerðina þar sem skattur er dreginn frá upprunalegri greiðslu (TDS). Það útskýrir einnig hvernig skilgreina á mörkin sem eru notuð til að reikna út TDS fyrir hvern TDS-hluta.
+description: Þessi grein útskýrir hvernig á að setja upp staðgreiðsluhluti fyrir skatttegundina Tax Deducted at Source (TDS). Það útskýrir einnig hvernig skilgreina á mörkin sem eru notuð til að reikna út TDS fyrir hvern TDS-hluta.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9c86341f7528e2c85b813e4f825ae34f10680a9b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: df2eb10ce9e372bb1e984f6ae1a2e889bbd90ad0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727118"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871158"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>Setja upp skatthluta fyrir TDS-skattgerðina
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að setja upp hluta staðgreiðsluskatts fyrir skattgerðina þar sem skattur er dreginn frá upprunalegri greiðslu (TDS). TDS-hlutarnir eru TDS, aukagjald, PE-Cess og SHE Cess. Í þessu efnisatriði er einnig útskýrt hvernig skilgreina á mörkin sem eru notuð til að reikna út TDS fyrir hvern TDS-hluta. Auk þess er hægt að skilgreina undantekningamörk sem eru notuð til að reikna út TDS fyrir hvern TDS-hluta.
+Þessi grein útskýrir hvernig á að setja upp staðgreiðsluhluti fyrir skatttegundina Tax Deducted at Source (TDS). TDS-hlutarnir eru TDS, aukagjald, PE-Cess og SHE Cess. Þessi grein útskýrir einnig hvernig á að skilgreina þröskuldinn sem er notaður til að reikna út TDS fyrir hvern TDS íhlut. Auk þess er hægt að skilgreina undantekningamörk sem eru notuð til að reikna út TDS fyrir hvern TDS-hluta.
 
 Fylgið þessum skrefum til að setja upp TDS-hluta.
 

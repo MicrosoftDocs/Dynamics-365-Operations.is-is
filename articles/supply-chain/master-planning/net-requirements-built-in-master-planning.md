@@ -1,6 +1,6 @@
 ---
 title: Nettóþörf og þarfarakning með innbyggðri aðaláætlanagerð
-description: Í þessu efnisatriði er að finna upplýsingar um útreiknaðar nettóþarfir og upplýsingar um þarfarakningu í aðaláætlanagerð.
+description: Þessi grein veitir upplýsingar um reiknaðar nettóþarfir og tengiupplýsingar í innbyggðu aðalskipulagi.
 author: t-benebo
 ms.date: 04/20/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 98da80c73eec58c08d1043e48deb14ca828c34eb
-ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
+ms.openlocfilehash: 08a25af0d7ea15b4bc426dfc54b9b960762e11f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8618289"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846070"
 ---
 # <a name="net-requirements-and-pegging-information-with-built-in-master-planning"></a>Nettóþörf og þarfarakning með innbyggðri aðaláætlanagerð
 

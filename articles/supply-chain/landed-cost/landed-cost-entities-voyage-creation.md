@@ -1,6 +1,6 @@
 ---
-title: Voyage sköpunareiningar
-description: Þetta efnisatriði veitir upplýsingar um gagnaeiningar fyrir stofnun ferð, sem flokka gagnaeiningarnar sem þarf til að búa til vinnuferð.
+title: Stofneiningar ferðar
+description: Þessi grein veitir upplýsingar um gagnaeiningar fyrir stofnun ferð, sem flokka gagnaeiningarnar sem þarf til að búa til vinnuferð.
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 17f63af3ce1f858ed3e2086fc81c5e17c5e76be0
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: cb2e2f53942015caf9462692515f24deb9689aed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813171"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873899"
 ---
-# <a name="voyage-creation-entities"></a>Voyage sköpunareiningar
+# <a name="voyage-creation-entities"></a>Stofneiningar ferðar
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
@@ -76,12 +76,12 @@ Ferðin táknar ferðalag vöru á heimleið og þjónar sem hæsta kostnaðarsv
 
 Sameiginleg númeraröð fyrir ferðir stýrir úthlutun ferðakennimerkja.
 
-Gildið sem er sent til gagnaeiningarinnar sem **Ferðaskilríki** (`ShipId`) gildi er notað til að auðkenna núverandi skrá til uppfærslu. Ef sú skrá er ekki til, fer hegðunin eftir því hvort úthlutað númeraröð er stillt til að leyfa handvirka innslátt:
+Gildið sem er sent til gagnaeiningarinnar sem **Ferðaskilríki** (`ShipId`) gildi er notað til að auðkenna núverandi skrá til uppfærslu. Ef sú skrá er ekki til fer hegðunin eftir því hvort úthlutað númeraröð er stillt til að leyfa handvirka færslu:
 
 - Ef handvirk færsla er virkjuð er ný færsla búin til sem notar samþykkt gildi.
 - Ef handvirk færslu er ekki virkjuð er næsta númer í úthlutaðri númeraröðinni notað í stað gildisins sem hefur verið samþykkt.
 
-Meðan á innflutningslotunni stendur, er staðgengilsgildinu sem er flutt inn sem ferðakennslu haldið eftir. Þessi hegðun tryggir að flutningsgáma- og siglingalínur sem vísa til staðgengils eru með í ferðinni og að þær séu uppfærðar til að endurspegla gildið sem er úthlutað úr númeraröðinni.
+Meðan á innflutningslotunni stendur, er staðgengilsgildinu sem er flutt inn sem ferðakennslu haldið eftir. Þessi hegðun tryggir að flutningsgáma- og siglingalínur sem vísa til staðgengils eru innifalin í ferðinni og að þær séu uppfærðar til að endurspegla gildið sem er úthlutað úr númeraröðinni.
 
 ### <a name="automatic-cost-transactions"></a>Sjálfvirk kostnaðarfærslur
 
@@ -204,7 +204,7 @@ Folio táknar flokkun hluta í flutningsgámi að því er varðar tollskýrslur
 
 Númeraröðin fyrir folio stjórnar úthlutun folio auðkenna.
 
-Gildið sem er sent til gagnaeiningarinnar sem **Folio auðkenni** (`FolioId`) gildi er notað til að auðkenna núverandi skrá til uppfærslu. Ef sú skrá er ekki til, fer hegðunin eftir því hvort úthlutað númeraröð er stillt til að leyfa handvirka innslátt:
+Gildið sem er sent til gagnaeiningarinnar sem **Folio auðkenni** (`FolioId`) gildi er notað til að auðkenna núverandi skrá til uppfærslu. Ef sú skrá er ekki til fer hegðunin eftir því hvort úthlutað númeraröð er stillt til að leyfa handvirka færslu:
 
 - Ef handvirk færsla er virkjuð er ný færsla búin til sem notar samþykkt gildi.
 - Ef handvirk færslu er ekki virkjuð er næsta númer í úthlutaðri númeraröðinni notað í stað gildisins sem hefur verið samþykkt.
@@ -226,7 +226,7 @@ Ferðalínan táknar eina innkaupapöntunarlínu sem er innifalin í ferðinni. 
 | Innkaupalínunúmer | ITMLine.RefRecId | Númeric(32, 6) | **Já** | Nr. |
 | Gámur | ITMLine.ShipContainerId | Int | Nr. | Nr. |
 | Fyrirtæki | ITMLine.ShipDataArea | Nvarchar (20) | **Já** | Nr. |
-| Uppgefið magn | ITMline.ShipDeclaredQty | Nvarchar(4) | Nr. | Nr. |
+| Uppgefið magn | ITMLine.ShipDeclaredQuty | Nvarchar(4) | Nr. | Nr. |
 | Fólíó | ITMLine.ShipFolioId | Númeric(32, 6) | Nr. | Nr. |
 | Ferð | ITMLine.ShipId | Nvarchar (20) | **Já** | Nr. |
 | Vörunúmer | ITMLine.ShipItemId | Nvarchar (20) | Nr. | Nr. |
@@ -250,7 +250,7 @@ Ferðalínan táknar eina flutningspöntunarlínu sem er innifalin í ferðinni.
 | Nettóupphæð | ITMLine.LineAmountMST | Númeric(32, 6) | Nr. | Nr. |
 | Gámur | ITMLine.ShipContainerId | Int | Nr. | Nr. |
 | Fyrirtæki | ITMLine.ShipDataArea | Nvarchar (20) | **Já** | Nr. |
-| Uppgefið magn | ITMline.ShipDeclaredQty | Nvarchar(4) | Nr. | Nr. |
+| Uppgefið magn | ITMLine.ShipDeclaredQuty | Nvarchar(4) | Nr. | Nr. |
 | Fólíó | ITMLine.ShipFolioId | Númeric(32, 6) | Nr. | Nr. |
 | Ferð | ITMLine.ShipId | Nvarchar (20) | **Já** | Nr. |
 | Vörunúmer | ITMLine.ShipItemId | Nvarchar (20) | Nr. | Nr. |
@@ -267,15 +267,15 @@ Ferðalínan táknar eina flutningspöntunarlínu sem er innifalin í ferðinni.
 
 ### <a name="reference-table"></a>Tilvísanatafla
 
-Ferðalínur eru búnar til í gegnum tengingu við opna pöntunarlínu á heimleið. Þessi lína getur verið á innkaupapöntun, eða hún getur verið móttökufærsla á millifærslupöntun. The`RefTableId` reit í töflunni fyrir siglingalínu (`ITMLine`) tilgreinir hvaða pöntunartegund línan tengist með því að vísa í töflunúmerið. Ef vísað er til ákveðinna töflunúmera í töflunni þar sem verið er að búa til gögnin er einingunum skipt út frá þeim gildum.
+Ferðalínur eru búnar til í gegnum tengingu við opna pöntunarlínu á heimleið. Þessi lína getur verið á innkaupapöntun, eða hún getur verið móttökufærsla á millifærslupöntun. The`RefTableId` reitinn í ferðalínutöflunni (`ITMLine`) tilgreinir hvaða pöntunartegund línan tengist með því að vísa í töflunúmerið. Ef vísað er til ákveðinna töflunúmera í töflunni þar sem verið er að búa til gögnin er einingunum skipt út frá þeim gildum.
 
-Gildin fyrir viðmiðunartöfluna (`RefTableId`) og viðskiptategund (`TransType`) eru óbein í vali á annaðhvort landaða kostnaðarkaupalínueiningunni eða landaða kostnaðartilfærslulínueiningunni.
+Gildin fyrir viðmiðunartöfluna (`RefTableId`) og tegund viðskipta (`TransType`) eru óbein í vali á annaðhvort landaða kostnaðarkaupalínueiningunni eða landaða kostnaðartilfærslulínueiningunni.
 
 ### <a name="validation"></a>Villuleit
 
 Ferðalína vísar beint til ferðaskrár, flutningsgámaskrár og folioskrá. Ef innkaupalínueiningin (`ITMPurchaseLinesEntity`) eða flutningslínueining (`ITMPurchaseLinesEntity`) er notað óháð einingunum sem eru notaðar til að búa til þessar tilvísunarskrár, the **Ferðaskilríki** (`ShipId`), **·** (`ShipContainerId`), og **Folio** (`ShipFolioId`) gildi verða að passa við núverandi færslu í samsvarandi töflum. Annars mun innflutningurinn mistakast.
 
-Ef önnur hvor línueiningin er notuð sem hluti af sömu innflutningslotunni verða þessir aðrir aðilar að fara á undan stofnun ferðalínu. Annars er ekki hægt að staðfesta gildin. Ef staðgengilsgildi er notað fyrir ferðina eða folionúmerið er aðeins hægt að stofna sambandið ef sami staðgengill er notaður fyrir ferðina eða folionúmerið í ferðalínueiningunni.
+Ef önnur hvor línueiningin er notuð sem hluti af sömu innflutningslotunni verða þessir aðrir aðilar að fara á undan stofnun ferðalínu. Annars er ekki hægt að staðfesta gildin. Ef staðgengilsgildi er notað fyrir ferðina eða folionúmerið er aðeins hægt að stofna samtökin ef sami staðgengill er notaður fyrir ferðina eða folionúmerið í ferðalínueiningunni.
 
 Ef innkaupapöntun eða flutningspöntunarlína er þegar úthlutað á núverandi ferðalínu, verður nýja ferðalínan ekki búin til. Áður en hægt er að úthluta pöntunarlínunni í nýja ferð þarf að fjarlægja hana úr núverandi ferð.
 

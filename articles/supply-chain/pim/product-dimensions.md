@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 46079daafc744421abcbdf0a3539428f2a39f13c
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: acfd9be044818ab0f40171c25a8fc9e760173aa8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867928"
 ---
 # <a name="product-dimensions"></a>Afurðarvíddir
 
@@ -47,7 +47,7 @@ Hægt er að stofna afurðavíddargildi fyrir stærðar-, litar- og stílvíddir
 
 Afurðavíddargildi fyrir skilgreiningarvíddina eru yfirleitt stofnaðar með annaðhvort afurðarafbrigðastillinum eða afurðarafbrigðastillinum sem byggir á víddum. 
 
-Afurðarútgáfur eru yfirleitt stofnaðar fyrir tilteknar útgáfur þar sem afurðin þróast á líftíma hennar. Ítarleg umfjöllun um afurðaútgáfur koma síðar í þessu efnisatriði.
+Afurðarútgáfur eru yfirleitt stofnaðar fyrir tilteknar útgáfur þar sem afurðin þróast á líftíma hennar. Farið er ítarlega yfir vöruútgáfur síðar í þessari grein.
 
 Vöruvíddir er einnig hægt að stofnað og þeim viðhaldið í **afurðarvíddir** síðu, sem fæst frá eftirfarandi staðsetningum:
 

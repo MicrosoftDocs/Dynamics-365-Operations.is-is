@@ -1,6 +1,6 @@
 ---
 title: Senda pantanir sem beinar afhendingar
-description: Þetta efni sýnir hvernig á að búa til beina afhendingu fyrir sölupöntun.
+description: Þessi grein sýnir hvernig á að búa til beina afhendingu fyrir sölupöntun.
 author: Henrikan
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94890b0915a49052c298090f124cf2b91c462de8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f5f145bacecc47a782c60335c6ff5b79f978007c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572442"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875160"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Senda pantanir sem beinar afhendingar
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni sýnir hvernig á að búa til beina afhendingu fyrir sölupöntun. Nota beina afhendingu þegar á að senda vörurnar viðskiptavininum beint frá lánardrottni í staðinn fyrir sendingu þær í eigin vöruhúsi fyrirtækisins fyrst. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum. Til að ljúka seinni undirverki "Stofna beinar afhendingar úr vinnusvæði", ganga úr skugga um vöru sem er valin á sölupöntun hefur sjálfgefið Lánardrottins tilgreindan á Flýtiflipanum Innkaupa fyrir Útgefnar afurðarsniðmát.
+Þessi grein sýnir hvernig á að búa til beina afhendingu fyrir sölupöntun. Nota beina afhendingu þegar á að senda vörurnar viðskiptavininum beint frá lánardrottni í staðinn fyrir sendingu þær í eigin vöruhúsi fyrirtækisins fyrst. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum. Til að ljúka seinni undirverki "Stofna beinar afhendingar úr vinnusvæði", ganga úr skugga um vöru sem er valin á sölupöntun hefur sjálfgefið Lánardrottins tilgreindan á Flýtiflipanum Innkaupa fyrir Útgefnar afurðarsniðmát.
 
 ## <a name="set-an-individual-order-for-direct-delivery"></a>Stilla á einstaka pöntun fyrir beina afhendingu
 1. Farðu í **Sloðunarrúða > Kerfiseiningar > viðskiptakröfur > Pantanir > Allar sölupantanir**.

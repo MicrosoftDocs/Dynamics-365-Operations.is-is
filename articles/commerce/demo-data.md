@@ -1,6 +1,6 @@
 ---
 title: Skjáútlit sýnigagna í Modern POS (MPOS) og Cloud POS
-description: Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás sem er innifalið í sýnigagnasafninu fyrir sölustað (POS) upplifunina í Dynamics 365 Commerce.
+description: Þessi grein veitir upplýsingar um skjáuppsetningarnar sem fylgja með kynningargagnasettinu fyrir upplifun af sölustað (POS) í Dynamics 365 Commerce.
 author: josaw1
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb7a288b61e8b467dd8ad6a8f7dc42b7fca0d943
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761663"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897226"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Skjáútlit sýnigagna í Modern POS (MPOS) og Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás sem er innifalið í sýnigagnasafninu fyrir sölustað (POS) upplifunina í Dynamics 365 Commerce.
+Þessi grein veitir upplýsingar um skjáuppsetningarnar sem fylgja með kynningargagnasettinu fyrir upplifun af sölustað (POS) í Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
-Sýnishorn af útliti skjás sem fylgja með sýnigögnum Commerce bjóða upp á efni sem er fínstillt fyrir ýmsa smásöluhluta, hlutverk verslunarstarfsmanns og tæki. Ein gerð útlits getur innihaldið nokkrar útlitsstærðir og samsetningar hnappahnita til að tryggja dekkun þar sem verslunarstarfsmenn fara á milli búnaðar og stöðva. Í þessu efnisatriði er lögð áhersla á muninn á þessum útlitsgerðum, aðgerðunum sem þær bjóða upp á og heildarupplifunin sem þær skila.
+Sýnishorn af útliti skjás sem fylgja með sýnigögnum Commerce bjóða upp á efni sem er fínstillt fyrir ýmsa smásöluhluta, hlutverk verslunarstarfsmanns og tæki. Ein gerð útlits getur innihaldið nokkrar útlitsstærðir og samsetningar hnappahnita til að tryggja dekkun þar sem verslunarstarfsmenn fara á milli búnaðar og stöðva. Þessi grein dregur fram muninn á þessum útlitum, aðgerðunum sem þær veita og heildarupplifunina sem þær skila.
 
 ![Útlit sýnigagna á milli tækja.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
@@ -47,13 +47,13 @@ Kenni skjáútlits getur haft allt að 10 stafi. Kennið er strengur sem samanst
 2. Útlitsgerð
 3. Einstaklingur
 
-### <a name="company"></a>Fyrirt.  
+### <a name="company"></a>Fyrirt.
 
-| Stafur | Fyrirt.           |
+| Stafur | Fyrirt.         |
 |--------|-----------------|
 | A      | Adventure Works |
 | F      | Fabrikam        |
-| K      | Contoso         |
+| F      | Contoso         |
 
 ### <a name="layout-version"></a>Útlitsgerð
 
@@ -141,7 +141,7 @@ Eftirfarandi myndir sýna dæmi um velkomin(n) síðu og viðskiptasíðu fyrir 
 
 ### <a name="contoso"></a>Contoso
 
-![Sýnigögn útlits fyrir Contoso.](../commerce/media/demo-screen-layouts-fig-4-3.png)
+![Kynningargagnauppsetning fyrir Contoso.](../commerce/media/demo-screen-layouts-fig-4-3.png)
 
 ## <a name="user-sign-in-matrix"></a>Notandaskráning í fylki
 

@@ -1,6 +1,6 @@
 ---
 title: Stjórna SEO-lýsigögnum
-description: Þetta efnisatriði lýsir því hvernig á að stjórna lýsigögnum leitarvélabestunar í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að stjórna leitarvélabestun (SEO) lýsigögnum í Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 04/21/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3d6f56968e9adfe90142955cba8e6c7ecc50fc92
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
-ms.translationtype: MT
+ms.openlocfilehash: 78ed94ced246157daafbc482ce674cda6579f930
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881298"
 ---
 # <a name="manage-seo-metadata"></a>Stjórna SEO-lýsigögnum
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að stjórna lýsigögnum leitarvélabestunar í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að stjórna leitarvélabestun (SEO) lýsigögnum í Microsoft Dynamics 365 Commerce.
 
 Hægt er að stjórna SEO lýsigögnum fyrir síðu með því að nota svæðiskort og lýsigögn síðna.
     
@@ -77,7 +77,7 @@ Til að breyta lýsigögnum síðu skal fylgja þessum skrefum.
 1. Velja **Birta**.
 
 > [!TIP]
-> Höfundar geta notað **Útlínur ham valkostur** (gírtákn) efst á vinstri útlínumstýringu í síðuritlinum til að skipta á milli **Grunnyfirlit** og **Ítarleg yfirlitsmynd**. **Grunnyfirlit** er sjálfgefin stilling og síar útlínurnar þannig að þær sýni aðeins einingar í **Líkami** HTML rauf fyrir síðu. **Ítarleg yfirlitsmynd** sýnir alla síðueininguna, þar á meðal **HTML höfuð**, **byrjar**, og **Líkamslok** rifa. Þessi skoðun er gagnleg þegar höfundar verða að breyta tilteknum stillingum fyrir SEO eða skriftareiningu fyrir síðu.
+> Höfundar geta notað **Útlínur ham valkostur** (gírtákn) efst á vinstri útlínumstýringu í síðuritlinum til að skipta á milli **Grunnyfirlit** og **Ítarleg yfirlitsmynd**. **Grunnyfirlit** er sjálfgefin stilling og síar útlínurnar þannig að þær sýni aðeins einingar í **Líkami** HTML rauf fyrir síðu. **Ítarleg yfirlitsmynd** sýnir alla síðueininguna, þar á meðal **HTML höfuð**, **byrjar**, og **Líkamslok** rifa. Þetta útsýni er gagnlegt þegar höfundar verða að breyta tilteknum SEO eða skriftareiningarstillingum fyrir síðu.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

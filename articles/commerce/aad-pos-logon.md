@@ -1,6 +1,6 @@
 ---
 title: Stilla Azure Active Directory-auðkenningu fyrir innskráningu sölustaðar
-description: Þetta efnisatriði útskýrir hvernig skilgreina á Azure Active Directory sem auðkenningaraðferð á Microsoft Dynamics 365 Commerce sölustað.
+description: Þessi grein útskýrir hvernig á að stilla Azure Active Directory sem auðkenningaraðferð í Microsoft Dynamics 365 Commerce sölustaður.
 author: boycezhu
 ms.date: 04/23/2021
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 9dfb0389b0ca4b2cf75ccc70f35824674e618055
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 47da2c78cef2bbee324fbc2202898fbabd927c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402152"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853929"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>Stilla Azure Active Directory-auðkenningu fyrir innskráningu sölustaðar
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að stilla Azure Active Directory (Azure AD) sem auðkenningaraðferð á Microsoft Dynamics 365 Commerce sölustað.
+Þessi grein útskýrir hvernig á að stilla Azure Active Directory (Azure AD) sem auðkenningaraðferð í Microsoft Dynamics 365 Commerce sölustaður (POS).
 
-Smásalar sem nota Dynamics 365 Commerce ásamt öðrum skýjaþjónustum Microsoft eins og Microsoft Azure, Microsoft 365 og Microsoft Teams vilja yfirleitt nota Azure AD fyrir miðstýrða stjórnun á notandaskilríkjum fyrir örugga og hnökralausa upplifun innskráningar milli forrita. Til að nota Azure AD auðkenningu fyrir Commerce á sölustað þarf fyrst að skilgreina Azure AD sem sannvottunaraðferðina í Commerce Headquarters.
+Söluaðilar sem nota Dynamics 365 Commerce ásamt annarri Microsoft skýjaþjónustu eins og Microsoft Azure,Microsoft 365, og Microsoft Teams vill venjulega nota Azure AD fyrir miðlæga stjórnun notendaskilríkja fyrir örugga og hnökralausa innskráningarupplifun í gegnum forrit. Til að nota Azure AD auðkenningu fyrir Commerce á sölustað þarf fyrst að skilgreina Azure AD sem sannvottunaraðferðina í Commerce Headquarters.
 
 ## <a name="configure-pos-authentication-method"></a>Sannvottunaraðferð sölustaðar skilgreind
 

@@ -1,6 +1,6 @@
 ---
 title: Vinna með brot
-description: Þetta efnisatriði lýsir því hvers vegna, hvenær og hvernig á að nota brot í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir hvers vegna, hvenær og hvernig á að nota brot í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 8824a42e46d94904f50d3f95b486673c231d9828
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090745"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896823"
 ---
 # <a name="work-with-fragments"></a>Vinna með brot 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvers vegna, hvenær og hvernig á að nota brot í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir hvers vegna, hvenær og hvernig á að nota brot í Microsoft Dynamics 365 Commerce.
 
 Brot gera ráð fyrir miðlægri höfundarupplifun fyrir einingasamsetningar sem þarf að endurnýta á vefsvæðinu þínu. Til dæmis eru fyrirsagnir, síðufætur og borðar oft stilltir sem brot því þeim er deilt á margar síður. Þú getur hugsað um brot sem litlar vefsíður sem hægt er að setja inn á aðrar síður á vefsvæðinu. Brot hafa sinn eigin líftíma. Með öðrum orðum, þau eru búin til, vísað til, uppfærð og þeim eytt sem sjálfstæðum aðilum í höfundatólunum.
 

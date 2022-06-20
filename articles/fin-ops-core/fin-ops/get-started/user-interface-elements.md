@@ -1,6 +1,6 @@
 ---
 title: Einingar notandaviðmóts
-description: Þetta efni lýsir notendaviðmótaþáttum í forritinu.
+description: Þessi grein lýsir notendaviðmótsþáttum (UI) í appinu.
 author: tlefor
 ms.date: 08/09/2019
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 60f5abfe009b45adc5ae5f064f1b5c367f2844f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906501"
 ---
 # <a name="user-interface-elements"></a>Einingar notandaviðmóts
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þetta efni lýsir notendaviðmótaþáttum sem eru notaðir í forritinu. Áður en notendur geta farið í viðmótið er mikilvægt að þekkja heiti og aðgerðir þátta sem mynda viðmótið.
+Þessi grein lýsir notendaviðmótsþáttum (UI) sem notaðir eru í appinu. Áður en notendur geta farið í viðmótið er mikilvægt að þekkja heiti og aðgerðir þátta sem mynda viðmótið.
 
 ## <a name="overview"></a>Yfirlit
 

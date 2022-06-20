@@ -1,6 +1,6 @@
 ---
 title: Vinna með raðaðar vörur á sölustaðnum
-description: Í þessu efnisatriði er útskýrt hvernig á að stjórna röðuðum vörum í forriti sölustaðar.
+description: Þessi grein útskýrir hvernig á að stjórna raðnúmeruðum hlutum í sölustaðsforritinu (POS).
 author: boycezhu
 ms.date: 01/08/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 5725943fd249e1b5d66b08b829c2eb58b6aad3ee24db9ca83bbde9be906bbf82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a715a9d025f36656506daeb9e611bfacdafa102
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737579"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880030"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Vinna með raðaðar vörur á sölustaðnum
 
 [!include [banner](includes/banner.md)]
 
-Margir smásalar selja vörur sem krefjast raðstjórnunar. Þessar vörur eru nefndar *raðaðar vörur*. Sumir smásalar gætu viljað viðhalda raðnúmerum í verslun eða vöruhúsabirgðum til rakningar. Aðrir smásalar gætu viljað sækja raðnúmer í söluferlinu vegna þjónustu og ábyrgðar. Í þessu efnisatriði er útskýrt hvernig þú getur stjórnað röðuðum vörum í Microsoft Dynamics 365 Commerce forriti sölustaðar.
+Margir smásalar selja vörur sem krefjast raðstjórnunar. Þessar vörur eru nefndar *raðaðar vörur*. Sumir smásalar gætu viljað viðhalda raðnúmerum í verslun eða vöruhúsabirgðum til rakningar. Aðrir smásalar gætu viljað sækja raðnúmer í söluferlinu vegna þjónustu og ábyrgðar. Þessi grein útskýrir hvernig þú getur stjórnað raðnúmeruðum hlutum í Microsoft Dynamics 365 Commerce Umsókn um sölustað (POS).
 
 ## <a name="serial-number-configurations"></a>Skilgreiningar raðnúmers
 
@@ -124,7 +124,7 @@ Fyrir raðaðar vörur sem seldur eru fyrir sótt eða sent í framtíðinni, ge
 
 ### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Nota raðnúmer við uppfyllingu eða tiltekt pöntunar viðskiptavinar
 
-Þegar pöntunarlínur viðskiptavina eru uppfylltar fyrir raðaðar afurðir með aðgerðinni **Uppfylling pöntunar** á sölustað, þá krefst sölustaður að raðnúmerið sé sótt á undan lokauppfyllingu. Ef raðnúmer var þar af leiðandi ekki gefið upp þegar pöntun var upphaflega sótt, þarf að sækja það í tiltektar-, pökkunar- eða sendingarferlum á sölustað. Prófun er gerð í hverju skrefi og notandinn verður aðeins spurður um gögn raðnúmersins, hvort það vanti eða er ekki lengur gilt. Til dæmis ef notandi sleppir tiltektar- eða pökkunarskrefunum og setur strax af stað sendingu, og raðnúmer hefur ekki verið skráð fyrir línuna, mun sölustaður krefjast þess að raðnúmerið verði slegið inn áður en lokið verður við lokaskref reiknings. Þegar framfylgja á að raðnúmerið verði sótt í aðgerðum pöntunaruppfyllingar á sölustað, eiga allar reglur sem minnst var á áður í þessu efnisatriði enn við. Aðeins raðaðar vörur sem eru skilgreindar sem **Virkar** fara í gegnum prófun á raðnúmeri birgða. Vörur sem eru skilgreindar sem **Virkar í söluferli** verða ekki staðfestar. Ef **Efnislega neikvæð birgðastaða** er leyfð fyrir **Virkar** afurðir, verður hvaða raðnúmer sem er samþykkt, óháð birgðaframboði. Fyrir bæði vörur sem eru **Virkar** og **Virkar í söluferli**, ef **Auð úthreyfing heimil** er skilgreind, getur notandi skilið raðnúmer eftir auð ef þess er óskað í tiltektar-, pökkunar- og sendingarskrefum.
+Þegar pöntunarlínur viðskiptavina eru uppfylltar fyrir raðaðar afurðir með aðgerðinni **Uppfylling pöntunar** á sölustað, þá krefst sölustaður að raðnúmerið sé sótt á undan lokauppfyllingu. Ef raðnúmer var þar af leiðandi ekki gefið upp þegar pöntun var upphaflega sótt, þarf að sækja það í tiltektar-, pökkunar- eða sendingarferlum á sölustað. Prófun er gerð í hverju skrefi og notandinn verður aðeins spurður um gögn raðnúmersins, hvort það vanti eða er ekki lengur gilt. Til dæmis ef notandi sleppir tiltektar- eða pökkunarskrefunum og setur strax af stað sendingu, og raðnúmer hefur ekki verið skráð fyrir línuna, mun sölustaður krefjast þess að raðnúmerið verði slegið inn áður en lokið verður við lokaskref reiknings. Þegar framfylgt er handtöku á raðnúmeri við pöntunaruppfyllingaraðgerðir í POS, gilda enn allar reglur sem nefnd eru áður í þessari grein. Aðeins raðaðar vörur sem eru skilgreindar sem **Virkar** fara í gegnum prófun á raðnúmeri birgða. Vörur sem eru skilgreindar sem **Virkar í söluferli** verða ekki staðfestar. Ef **Efnislega neikvæð birgðastaða** er leyfð fyrir **Virkar** afurðir, verður hvaða raðnúmer sem er samþykkt, óháð birgðaframboði. Fyrir bæði vörur sem eru **Virkar** og **Virkar í söluferli**, ef **Auð úthreyfing heimil** er skilgreind, getur notandi skilið raðnúmer eftir auð ef þess er óskað í tiltektar-, pökkunar- og sendingarskrefum.
 
 Prófanir á raðnúmerum munu einnig eiga sér stað þegar notandi framkvæmir aðgerðir fyrir sótt í pöntunum viðskiptavina á sölustað. Forrit sölustaðar leyfir ekki að sótt verði klárað á raðaðri afurð nema hún standist prófanir eins og hefur verið minnst á hér áður. Prófanir byggjast alltaf á rakningarvídd afurðarinnar og skilgreiningum söluvöruhúss. 
 

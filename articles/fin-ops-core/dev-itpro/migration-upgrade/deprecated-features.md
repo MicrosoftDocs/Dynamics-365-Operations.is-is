@@ -1,6 +1,6 @@
 ---
 title: Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
-description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir úr Dynamics 365 for Finance and Operations og fyrri útgáfum.
+description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem áætlað var að fjarlægja úr Dynamics 365 for Finance and Operations og fyrri útgáfur.
 author: sericks007
 ms.date: 02/16/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6dfe1cf9d3d67c6b65f64248d48a2e7420a47c93
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2d8c79057c157f9f0244ea11ad5c3563dcdb21a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063238"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866186"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
 
@@ -28,9 +28,9 @@ ms.locfileid: "8063238"
 
 
 > [!IMPORTANT]
-> Þetta efni er ekki lengur uppfært. Til að sjá núverandi lista yfir eiginleika sem hafa verið fjarlægðir eða úreltir úr Finance and Operations forritum skaltu leita að **„Fjarlægðir eða úreltir eiginleikar“** efni sem tengist forritinu sem þú ert að nota.
+> Þessi grein er ekki lengur uppfærð. Til að sjá núverandi lista yfir eiginleika sem hafa verið fjarlægðir eða úreltir úr Finance and Operations forritum skaltu leita að **„Fjarlægðir eða úreltir eiginleikar“** efni sem tengist forritinu sem þú ert að nota.
 
-Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða úreltir úr Dynamics 365 for Finance and Operations og fyrri útgáfum þeirrar vöru.
+Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir eða úreltar Dynamics 365 for Finance and Operations og fyrri útgáfur þeirrar vöru.
 
 - *Fjarlægður* eiginleiki er ekki lengur tiltækur í vörunni.
 - *Úreltur* eiginleiki er ekki í virkri þróun og getur verið fjarlægður úr uppfærslum í framtíðinni.
@@ -889,7 +889,7 @@ Verkflæði til að stjórna stofnun starfsmannamarkmiða er eitt af nokkrum ver
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF AxD og AxBC samþættingar
 
-Í samþættingarramma Kerfa (AIF), er hægt að skiptast á gögnum við ytri kerfi gegnum viðskiptagrunninn með viðskiptagrunn sem er sem þjónustu. Dynamics AX felur í sér þjónustu sem byggir á skjölum og .NET Business Connector (AxBC). Skjal er stofnað með notkun XML. XML inniheldur hausupplýsingar sem bætt er við til að stofna *skilaboð* sem hægt er að flytja inn eða út úr Dynamics AX. Dæmi um skjöl fela í sér sölupantanir og innkaupapantanir. Hins vegar getur skjal staðið fyrir nánast hvaða einingu sem er, eins og viðskiptavin. Þjónustur sem byggja á skjölum nota **Axd \<Document\>** klasana.
+Í samþættingarramma Kerfa (AIF), er hægt að skiptast á gögnum við ytri kerfi gegnum viðskiptagrunninn með viðskiptagrunn sem er sem þjónustu. Dynamics AX felur í sér þjónustu sem byggir á skjölum og.NET Business Connector (AxBC). Skjal er stofnað með notkun XML. XML inniheldur hausupplýsingar sem bætt er við til að stofna *skilaboð* sem hægt er að flytja inn eða út úr Dynamics AX. Dæmi um skjöl fela í sér sölupantanir og innkaupapantanir. Hins vegar getur skjal staðið fyrir nánast hvaða einingu sem er, eins og viðskiptavin. Þjónustur sem byggja á skjölum nota **Axd \<Document\>** klasana.
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|

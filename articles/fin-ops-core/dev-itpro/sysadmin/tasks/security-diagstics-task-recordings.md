@@ -1,6 +1,6 @@
 ---
 title: Öryggisgreining fyrir verkskráningu
-description: Í þessu efnisatriði er að finna upplýsingar um hvernig á að greina og stjórna kröfum öryggisheimildar út frá verkskráningu.
+description: Þessi grein veitir upplýsingar um hvernig á að greina og stjórna kröfum um öryggisheimildir byggðar á verkskráningu.
 author: Peakerbl
 ms.date: 05/05/2020
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb69bf997100f25cd0ad2b7e34139857199e5d00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880168"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Öryggisgreining fyrir verkskráningu
 
@@ -26,7 +26,7 @@ ms.locfileid: "6745121"
 
 ## <a name="before-you-begin"></a>Áður en hafist er handa
 
-Í þessu efnisatriði er að finna upplýsingar um hvernig á að greina og stjórna kröfum öryggisheimildar út frá verkskráningu. Áður en þú klárar skrefin í þessu efnisatriði verður þú að hafa verkskráningu fyrir viðskiptaferlið sem þú vilt greina. Upplýsingar um hvernig viðskiptaferli er skráð er að finna í [Tilföng verkskráningar](../../user-interface/task-recorder.md). 
+Þessi grein veitir upplýsingar um hvernig á að greina og stjórna kröfum um öryggisheimildir byggðar á verkskráningu. Áður en þú klárar skrefin í þessari grein verður þú að hafa verkskráningu á viðskiptaferlinu sem þú vilt greina. Upplýsingar um hvernig viðskiptaferli er skráð er að finna í [Tilföng verkskráningar](../../user-interface/task-recorder.md). 
 
 ## <a name="manage-security-for-a-task-recording"></a>Stjórna öryggi fyrir verkskráningu
 

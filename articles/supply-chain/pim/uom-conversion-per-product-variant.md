@@ -1,6 +1,6 @@
 ---
 title: Umreikningur mælieiningar eftir afurðarafbrigði
-description: Þetta efnisatriði útskýrir hvernig á að setja upp umreikning mælieiningar fyrir afurðarafbrigði. Dæmi um uppsetninguna fylgir með.
+description: Þessi grein útskýrir hvernig á að setja upp mælieiningaviðskipti fyrir vöruafbrigði. Dæmi um uppsetninguna fylgir með.
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c02252abcaf82cb2aab928949827e25ef7cce8c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a605e510ac8faa1f92e105c9fcc30222ef78e05e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579569"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869634"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Umreikningur mælieiningar eftir afurðarafbrigði
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að setja upp umreikning mælieiningar fyrir ýmis afurðarafbrigði.
+Þessi grein útskýrir hvernig á að setja upp mælieiningaviðskipti fyrir ýmis vöruafbrigði.
 
 Í stað þess að búa til margar stakar afurðir sem þarf að vinna með er hægt að nota afurðarafbrigði til að búa til afbrigði af einni afurð. Til dæmis gæti afurðarafbrigðið verið stuttermabolur af tiltekinni stærð og lit.
 

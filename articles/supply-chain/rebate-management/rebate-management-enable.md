@@ -1,6 +1,6 @@
 ---
 title: Virkjaðu einingar fyrir stjórnun eftirágreidds afsláttar fyrir kerfið þitt
-description: Í þessu efnisatriði er því lýst hvernig einingar fyrir stjórnun eftirágreidds afsláttar eru virkjaðar fyrir kerfið þitt.
+description: Þessi grein lýsir því hvernig á að kveikja á endurgreiðslustjórnunareiningunni fyrir kerfið þitt.
 author: sherry-zheng
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b44f53927c1811160a86a8200f3210daaef583fc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0f8547a22268afff286099e21a3d9dd7456a00b3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572722"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860581"
 ---
 # <a name="turn-on-the-rebate-management-module-for-your-system"></a>Virkjaðu einingar fyrir stjórnun eftirágreidds afsláttar fyrir kerfið þitt
 

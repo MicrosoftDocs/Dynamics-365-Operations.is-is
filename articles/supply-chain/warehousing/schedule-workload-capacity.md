@@ -1,6 +1,6 @@
 ---
 title: Tímasetja afkastagetu vinnuálags
-description: Í þessu efnisatriði er útskýrt hvernig á að setja upp og raða vinnuálagsgetu starfsfólks í vöruhúsi eða fyrir heilt vöruhús.
+description: Þessi grein útskýrir hvernig á að setja upp og tímasetja vinnuálagsgetu fyrir starfsmenn í vöruhúsi eða fyrir heilt vöruhús.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f66eb1b2f35d19aba0f4f8f2804577a62ac14e79
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: bce77798867b373d955320b94c845430d83b5369
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901947"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860378"
 ---
 # <a name="schedule-workload-capacity"></a>Tímasetja afkastagetu vinnuálags
 

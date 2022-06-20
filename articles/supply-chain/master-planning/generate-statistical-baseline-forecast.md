@@ -1,6 +1,6 @@
 ---
 title: Myndun tölfræðilegrar grunnlínuspár
-description: Þetta efnisatriði veitir upplýsingar um þær færibreytur og síur sem eru notaðar við útreikning á eftirspurnarspá.
+description: Þessi skrá veitir upplýsingar um þær færibreytur og síur sem eru notaðar við útreikning á eftirspurnarspá.
 author: t-benebo
 ms.date: 07/08/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b2a71faeeb4de35e26b5a346e17caa0d8d353f8
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
-ms.translationtype: MT
+ms.openlocfilehash: c45d763a1f3d199c91f3cf6181c22f4b8130fabc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468705"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844939"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Myndun tölfræðilegrar grunnlínuspár
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um þær færibreytur og síur sem eru notaðar við útreikning á eftirspurnarspá. 
+Þessi skrá veitir upplýsingar um þær færibreytur og síur sem eru notaðar við útreikning á eftirspurnarspá. 
 
 Þegar grunnlínuspá er stofnuð, verður fyrst að tilgreina færibreytur og síur sem eru notaðar í útreikningi. Til dæmis er hægt að stofna grunnlínu spá mat eftirspurn samkvæmt færslugögn úr á síðastliðnu ári fyrir sérstakt fyrirtæki í komandi mánuði og fyrir valinn vöruflokk. 
 

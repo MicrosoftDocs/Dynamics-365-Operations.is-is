@@ -1,6 +1,6 @@
 ---
-title: Fartækjavinnusvæði fyrir Minn hópur
-description: Þetta efnisatriði gefur upplýsingar um fartækjavinnusvæði fyrir minn hóp sem leyfir stjórnendum að skoða beinar skýrslur þeirra og starfsfólks.
+title: Fartækjavinnusvæði míns teymis
+description: Þessi grein veitir upplýsingar um My team farsímavinnusvæðið, sem gerir stjórnendum kleift að skoða beinar skýrslur sínar og aukið starfsfólk.
 author: ShielaSogge
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7793bd6bb1c2dfb5f6840430914393e837242fb5
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: f15ac24e5c32a42863cac8a9c9754c95aa4ff734
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811058"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868699"
 ---
 # <a name="my-team-mobile-workspace"></a>Fartækjavinnusvæði míns teymis
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Minn hópur**. Þessi vinnusvæði gerir stjórnendum kleift að skoða beinar skýrslur og starfsfólk. Þeir geta einnig sent hrós til einstaklinga í skýrslukeðju sinni.
+Þessi grein veitir upplýsingar um **Liðið mitt** færanlegt vinnusvæði. Þessi vinnusvæði gerir stjórnendum kleift að skoða beinar skýrslur og starfsfólk. Þeir geta einnig sent hrós til einstaklinga í skýrslukeðju sinni.
 
 Þetta fartækjavinnusvæði er ætlað til að nota með farsímaforritið Finance and Operations.
 

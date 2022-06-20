@@ -1,6 +1,6 @@
 ---
-title: Aðstæður fyrir dagsetningu röðunar
-description: Þetta efnisatriði gefur dæmi sem sýna hvernig jöfnunardagsetningar virka í innheimtu áskriftar.
+title: Aðstæður fyrir dagsetningu stillingar
+description: Þessi grein veitir dæmi sem sýna hvernig jöfnunardagsetningar virka í áskriftarreikningi.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 91480fecd16cf8417722df73c28bbd81d029fb07
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 102e3a104be5be287f914172160e95aff65d0b18
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690474"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872616"
 ---
-# <a name="alignment-date-scenarios"></a>Aðstæður fyrir dagsetningu röðunar
+# <a name="alignment-date-scenarios"></a>Aðstæður fyrir dagsetningu stillingar
 
-Þetta efnisatriði gefur dæmi sem sýna hvernig jöfnunardagsetningar virka í innheimtu áskriftar.
+Þessi grein veitir dæmi sem sýna hvernig jöfnunardagsetningar virka í áskriftarreikningi.
 
 Fyrir þessi dæmi, innheimtuupplýsingar fyrir innheimtuáætlun hefur jöfnunardagsetningu 31. október 2019. Fyrstu innheimtuupplýsingar fyrir línuna lýkur 31. október 2019 og er hlutfallslegt í samræmi við það. Línan endurnýjast sjálfkrafa með því að nota upphafsdag endurnýjunar 11. nóvember.
 
@@ -45,7 +45,7 @@ Innheimtuáætlunin er sett upp með eftirfarandi gögnum:
 | 5/1/2021 | 4/30/2022 | | | 1.00 | | 1.00 | 1,000.00 |
 | 5/1/2022 | 4/30/2023 | | | 1.00 | | 1.00 | 1,000.00 |
 | 5/1/2023 | 4/30/2024 | | | 1.00 | | 1.00 | 1,000.00 |
-| 5/1/2024 | 12/31/2024 | | | 1.00 | | 1.00 | 666.67 |
+| 5/1/2024 | 12/31/2024 | | | 1.00 | | 1.00 | 666,67 |
 
 ## <a name="scenario-2-shortened-alignment"></a>Sviðsmynd 2: Stytta röðun
 
@@ -60,7 +60,7 @@ Fyrsta endurnýjunarupphæð er til skemmri tíma en eins árs.
 
 | Upphafsdagsetning innheimtu | Lokadagsetning innheimtu | Fyrri lestur | Núverandi lestur | Magn fært inn | Óráðstafað magn | Reikningshæft magn | Einingarverð |
 |---|---|---|---|---|---|---|---|
-| 5/1/2019 | 12/31/2019 | | | 1.00 | | 1.00 | 666.67 |
+| 5/1/2019 | 12/31/2019 | | | 1.00 | | 1.00 | 666,67 |
 | 1/1/2020 | 31/12/2020 | | | 1.00 | | 1.00 | 1,000.00 |
 | 1/1/2021 | 12/31/2021 | | | 1.00 | | 1.00 | 1,000.00 |
 | 1/1/2022 | 12/31/2022 | | | 1.00 | | 1.00 | 1,000.00 |
@@ -80,7 +80,7 @@ Fyrsta endurnýjunarupphæð er til meira en eins árs.
 
 | Upphafsdagsetning innheimtu | Lokadagsetning innheimtu | Fyrri lestur | Núverandi lestur | Magn fært inn | Óráðstafað magn | Reikningshæft magn | Einingarverð |
 |---|---|---|---|---|---|---|---|
-| 5/1/2019 | 31/12/2020 | | | 1.00 | | 1.00 | 1,666.67 |
+| 5/1/2019 | 31/12/2020 | | | 1.00 | | 1.00 | 1.666,67 |
 | 1/1/2021 | 12/31/2021 | | | 1.00 | | 1.00 | 1,000.00 |
 | 1/1/2022 | 12/31/2022 | | | 1.00 | | 1.00 | 1,000.00 |
 | 1/1/2023 | 12/31/2023 | | | 1.00 | | 1.00 | 1,000.00 |
@@ -100,12 +100,12 @@ Innheimtuáætlunin er sett upp með eftirfarandi gögnum:
 
 | Upphafsdagsetning innheimtu | Lokadagsetning innheimtu | Fyrri lestur | Núverandi lestur | Magn fært inn | Óráðstafað magn | Reikningshæft magn | Einingarverð |
 |---|---|---|---|---|---|---|---|
-| 5/1/2019 | 12/31/2019 | | | 1.00 | | 1.00 | 666.67 |
+| 5/1/2019 | 12/31/2019 | | | 1.00 | | 1.00 | 666,67 |
 | 1/1/2020 | 31/12/2020 | | | 1.00 | | 1.00 | 1,000.00 |
 | 1/1/2021 | 12/31/2021 | | | 1.00 | | 1.00 | 1,000.00 |
 | 1/1/2022 | 12/31/2022 | | | 1.00 | | 1.00 | 1,000.00 |
 | 1/1/2023 | 12/31/2023 | | | 1.00 | | 1.00 | 1,000.00 |
-| 1/1/2024 | 10/31/2024 | | | 1.00 | | 1.00 | 833.33 |
+| 1/1/2024 | 10/31/2024 | | | 1.00 | | 1.00 | 833,33 |
 
 ## <a name="scenario-5-single-partial-year"></a>Sviðsmynd 5: Eitt ár að hluta
 
@@ -120,7 +120,7 @@ Innheimtuáætlunin er sett upp með eftirfarandi gögnum:
 
 | Upphafsdagsetning innheimtu | Lokadagsetning innheimtu | Fyrri lestur | Núverandi lestur | Magn fært inn | Óráðstafað magn | Reikningshæft magn | Einingarverð |
 |---|---|---|---|---|---|---|---|
-| 5/1/2019 | 12/31/2019 | | | 1.00 | | 1.00 | 666.67 |
+| 5/1/2019 | 12/31/2019 | | | 1.00 | | 1.00 | 666,67 |
 
 ## <a name="scenario-6-calculated-dates"></a>Sviðsmynd 6: Reiknaðar dagsetningar
 
@@ -133,8 +133,8 @@ Stuðningurinn og endurnýjunin er sett upp með eftirfarandi gögnum:
 
 | Upphafsdagsetning innheimtu | Lokadagsetning innheimtu | Fyrri lestur | Núverandi lestur | Magn fært inn | Óráðstafað magn | Reikningshæft magn | Einingarverð |
 |---|---|---|---|---|---|---|---|
-| 7/1/2019 | 7/31/2019 | | | 1.00 | | 1.00 | 297.60 |
-| 8/1/2019 | 31/12/2020 | | | 1.00 | | 1.00 | 6,936.00 |
+| 7/1/2019 | 7/31/2019 | | | 1.00 | | 1.00 | 297,60 |
+| 8/1/2019 | 31/12/2020 | | | 1.00 | | 1.00 | 6.936,00 |
 
 ## <a name="scenario-7-calculated-dates-and-future-posting"></a>Atburðarás 7: Reiknaðar dagsetningar og framtíðarfærslur
 
@@ -150,7 +150,7 @@ Fyrir þessa atburðarás er jöfnunardagsetningunni breytt í 31. desember 2021
 | Upphafsdagsetning innheimtu | Lokadagsetning innheimtu | Fyrri lestur | Núverandi lestur | Magn fært inn | Óráðstafað magn | Reikningshæft magn | Einingarverð |
 |---|---|---|---|---|---|---|---|
 | 6/22/2019 | 6/22/2019 | | | 1.00 | | 1.00 | 0,00 |
-| 8/1/2019 | 31/12/2020 | | | 1.00 | | 1.00 | 4,250.00 |
+| 8/1/2019 | 31/12/2020 | | | 1.00 | | 1.00 | 4.250,00 |
 
 ## <a name="scenario-8-manual-dates-and-multiple-years"></a>Atburðarás 8: Handvirkar dagsetningar og mörg ár
 
@@ -164,7 +164,7 @@ Stuðningurinn og endurnýjunin er sett upp með eftirfarandi gögnum:
 | Upphafsdagsetning innheimtu | Lokadagsetning innheimtu | Fyrri lestur | Núverandi lestur | Magn fært inn | Óráðstafað magn | Reikningshæft magn | Einingarverð |
 |---|---|---|---|---|---|---|---|
 | 6/22/2019 | 6/22/2019 | | | 1.00 | | 1.00 | 0,00 |
-| 7/1/2020 | 12/31/2021 | | | 1.00 | | 1.00 | 375.00 |
+| 7/1/2020 | 12/31/2021 | | | 1.00 | | 1.00 | 375,00 |
 | 1/1/2022 | 12/31/2022 | | | 1.00 | | 1.00 | 250,00 |
 | 1/1/2023 | 12/31/2023 | | | 1.00 | | 1.00 | 250,00 |
 | 1/1/2024 | 12/31/2024 | | | 1.00 | | 1.00 | 250,00 |
@@ -181,10 +181,10 @@ Stuðningurinn og endurnýjunin er sett upp með eftirfarandi gögnum:
 | Upphafsdagsetning innheimtu | Lokadagsetning innheimtu | Fyrri lestur | Núverandi lestur | Magn fært inn | Óráðstafað magn | Reikningshæft magn | Einingarverð |
 |---|---|---|---|---|---|---|---|
 | 6/22/2019 | 6/22/2019 | | | 1.00 | | 1.00 | 0,00 |
-| 7/1/2020 | 12/31/2021 | | | 1.00 | | 1.00 | 375.00 |
+| 7/1/2020 | 12/31/2021 | | | 1.00 | | 1.00 | 375,00 |
 | 1/1/2022 | 12/31/2022 | | | 1.00 | | 1.00 | 250,00 |
 | 1/1/2023 | 12/31/2023 | | | 1.00 | | 1.00 | 250,00 |
-| 1/1/2024 | 10/31/2024 | | | 1.00 | | 1.00 | 208.33 |
+| 1/1/2024 | 10/31/2024 | | | 1.00 | | 1.00 | 208,33 |
 
 ## <a name="scenario-10-alignment-without-proration"></a>Atburðarás 10: Jöfnun án hlutfalls
 

@@ -1,6 +1,6 @@
 ---
 title: Settu upp háþróaðan bankaafstemmingarinnflutning með því að nota rafræna skýrslugerð
-description: Þetta efnisatriði útskýrir hvernig á að nota rafræna skýrslugerð til að setja upp háþróaða innflutningsferli bankaafstemmingar.
+description: Þessi grein útskýrir hvernig á að nota rafræna skýrslugerð til að setja upp háþróaða innflutningsferli bankaafstemmingar.
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 2ac8811a5c10490d90f782472d3c198474c7edc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770195"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889121"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Settu upp háþróaðan bankaafstemmingarinnflutning með því að nota rafræna skýrslugerð
 
 [!include [banner](../includes/banner.md)]
 
-Ítarlegri bankaafstemmingareiginleikinn gerir þér kleift að flytja inn rafræn bankayfirlit og samræma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 Fjármál. Þetta efnisatriði útskýrir hvernig á að setja upp innflutningsvirkni fyrir bankayfirlitið þitt. Uppsetning fyrir innflutning bankayfirlits er breytileg, eftir snið rafrænnar bankayfirliti. Microsoft Dynamics 365 Finance styður þrjú bankayfirlitssnið: ISO20022, MT940 og BAI2. 
+Ítarlegri bankaafstemmingareiginleikinn gerir þér kleift að flytja inn rafræn bankayfirlit og samræma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 Fjármál. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið. Uppsetning fyrir innflutning bankayfirlits er breytileg, eftir snið rafrænnar bankayfirliti. Microsoft Dynamics 365 Finance styður þrjú bankayfirlitssnið: ISO20022, MT940 og BAI2. 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>Settu upp rafræna skýrslugerð
 
 1. Fara til **Vinnurými \> Rafræn skýrslugerð**.
 2. Á flísum fyrir **Microsoft** stillingarveita, veldu **Geymslur**.
 3. Veldu **Altækt** og síðan **Opna**.
-4. Ef það þarf að koma á tengingu við geymsluna skaltu velja bláa tengilinn í svarglugganum.
+4. Ef tenging við geymsluna þarf að koma á, velurðu bláa tengilinn í svarglugganum.
 5. Í stillingarlistanum, finndu **Fyrirmynd bankayfirlits \> Bankayfirlitslíkan af BAI2**.
 6. Veldu **BAI2** sniði.
 7. Á **Útgáfur** Flýtiflipi, veldu nýjustu útgáfuna og veldu síðan **Flytja inn**.

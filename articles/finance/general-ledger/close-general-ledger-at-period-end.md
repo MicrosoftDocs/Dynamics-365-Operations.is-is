@@ -1,6 +1,6 @@
 ---
 title: Loka fjárhag í lok tímabils
-description: Þetta efnisatriði lýsir þeim verkefnum sem er yfirleitt lokið þegar tímabilslokun er gerð fyrir fjárhag.
+description: Þessi grein lýsir verkefnum sem venjulega er lokið þegar tímabilslokun er framkvæmd fyrir fjárhag.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 359e177e4ac2218c28ddd7c5ac3b71ee69e652e8
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 42a5df1cd1a73462c93012b26f9b9b5c1631f2ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878042"
 ---
 # <a name="close-the-general-ledger-at-period-end"></a>Loka fjárhag í lok tímabils
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir þeim verkefnum sem er yfirleitt lokið þegar tímabilslokun er gerð fyrir fjárhag. 
+Þessi grein lýsir verkefnum sem venjulega er lokið þegar tímabilslokun er framkvæmd fyrir fjárhag. 
 
 Hægt er að ljúka við lokunarferlin í fjárhagnum við lok tímabils og ársins. Lokunarferli°undirbúa kerfið fyrir nýtt tímabil. Til að búa þig undir nýtt ár þarftu að keyra lokaferli ársins. Hvert fyrirtæki hefur mismunandi ferli og skref sem það framkvæmir fyrir lok tímabils. Hér eru sum valfrjálsu skrefin fyrir lok tímabila:
 

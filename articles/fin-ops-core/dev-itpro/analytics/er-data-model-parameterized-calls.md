@@ -1,6 +1,6 @@
 ---
-title: Styðja breytubreytt símtöl ER gagnalíkana
-description: Þetta efnisatriði útskýrir hvernig á að innleiða símtöl með færibreytum af rafrænum skýrslugerð (ER) gagnalíkönum.
+title: Styðja færibreytuköll á gagnlíkön rafrænnar skýrslugerðar
+description: Þessi grein útskýrir hvernig á að innleiða símtöl með færibreytum í rafrænum skýrslugerð (ER) gagnalíkönum.
 author: NickSelin
 ms.date: 03/14/2022
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 968b0769607e9fdbed57c25b727ed44988a92913
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 65ac81e9aa25b286640fd526e71b55de3b0695ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419514"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884258"
 ---
-# <a name="support-parameterized-calls-of-er-data-models"></a>Styðja breytubreytt símtöl ER gagnalíkana
+# <a name="support-parameterized-calls-of-er-data-models"></a>Styðja færibreytuköll á gagnlíkön rafrænnar skýrslugerðar
 
 [!include [banner](../includes/banner.md)]
 
@@ -47,7 +47,7 @@ Snið&nbsp; þáttur<br>
 </td>
 <td>
 <i>Binding</i><br>
-&gt;&nbsp; beiðni&nbsp;&gt;<br>
+&gt;&nbsp;beiðni&nbsp;&gt;<br>
 &lt;&nbsp;gildi&nbsp;&lt;
 </td>
 <td><b>Snið&nbsp; kortlagningu</b><br>
@@ -56,7 +56,7 @@ Gagnaveita<br>
 </td>
 <td>
 <i>Gögn&nbsp; fyrirmynd</i><br>
-&gt;&nbsp; beiðni&nbsp;&gt;<br>
+&gt;&nbsp;beiðni&nbsp;&gt;<br>
 &lt;&nbsp;gildi&nbsp;&lt;
 </td>
 <td>
@@ -66,7 +66,7 @@ Gögn&nbsp; heimild<br>
 </td>
 <td>
 <i>Binding</i><br>
-&gt;&nbsp; beiðni&nbsp;&gt;<br>
+&gt;&nbsp;beiðni&nbsp;&gt;<br>
 &lt;&nbsp;gildi&nbsp;&lt;
 </td>
 <td>
@@ -158,9 +158,9 @@ Nýja virknin gerir þér kleift að stilla símtalið í hvaða gagnalíkansvi�
 Þú getur tilgreint hverja færibreytu gagnalíkanareits þar sem hægt er að gefa upp röksemdafærsluna sem eitt gildi skilgreindrar gagnagerðar og [*lista*](er-formula-supported-data-types-composite.md#record-list) slíkra verðmæta.
 
 > [!NOTE]
-> Sjálfgefið gildi fyrir færibreytu gagnalíkanareits er ekki stutt. Ef þú bætir færibreytu við reit í gagnalíkani og útgáfan af því gagnalíkani hefur þegar verið gefin út og birt verður þú [endurbæta](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) allar samsvarandi líkanavörp og snið við nýju útgáfuna af þessu líkani, vegna þess að þessi gagnalíkanbreyting er ekki afturábaksamhæf.
+> Sjálfgefið gildi fyrir færibreytu gagnalíkansreits er ekki stutt. Ef þú bætir færibreytu við reit í gagnalíkani og útgáfan af því gagnalíkani hefur þegar verið gefin út og birt verður þú [endurbæta](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) allar samsvarandi líkanavörp og snið við nýju útgáfuna af þessu líkani, vegna þess að þessi gagnalíkanbreyting er ekki afturábaksamhæf.
 
-Þú getur stillt reiti með breytibreyttum gagnalíkönum til að gera líkanakortlagningarsímtöl sniðssértæk. Þessi nálgun getur hjálpað þér að fækka líkanavörpunum sem þarf að stilla fyrir mörg snið eins gagnalíkans. Þú getur líka notað þessa nálgun til að bæta framkvæmdarafköst sniðanna þinna og draga úr þeim tíma sem þarf til að búa til viðskiptaskjöl. Til að fá frekari upplýsingar um þennan eiginleika skaltu ljúka dæminu í þessu efni.
+Þú getur stillt reiti með breytibreyttum gagnalíkönum til að gera líkanakortlagningarsímtöl sniðssértæk. Þessi nálgun getur hjálpað þér að fækka líkanavörpunum sem þarf að stilla fyrir mörg snið eins gagnalíkans. Þú getur líka notað þessa nálgun til að bæta framkvæmdarafköst sniðanna þinna og draga úr þeim tíma sem þarf til að búa til viðskiptaskjöl. Til að læra meira um þennan eiginleika skaltu klára dæmið í þessari grein.
 
 ## <a name="example-use-parameterized-calls-of-er-data-models"></a>Dæmi: Notaðu símtöl með færibreytum af ER gagnalíkönum
 
@@ -168,7 +168,7 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þr
 
 Hægt er að ljúka skrefunum í **DEMF** fyrirtækinu. Engar kóðabreytingar eru nauðsynlegar. 
 
-Í þessu dæmi muntu búa til nauðsynlega ER [stillingar](general-electronic-reporting.md#Configuration) fyrir **Litware, Inc.** sýnishorn fyrirtæki. Gakktu úr skugga um að stillingarveitan fyrir **Litware, Inc.** (`http://www.litware.com`) sýnishornsfyrirtæki er skráð fyrir ER ramma og að það sé merkt sem **Virkur**. Ef þessi stillingarveita er ekki á listanum eða ef hún er ekki merkt sem **Virkur**, fylgdu skrefunum í [Búðu til stillingarveitu og merktu hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Í þessu dæmi muntu búa til nauðsynlega ER [stillingar](general-electronic-reporting.md#Configuration) fyrir **Litware, Inc.** sýnishorn fyrirtæki. Gakktu úr skugga um að stillingarveitan fyrir **Litware, Inc.** (`http://www.litware.com`) sýnishornsfyrirtæki er skráð fyrir ER ramma og að það sé merkt sem **Virkur**. Ef þessi stillingarveita er ekki á listanum eða ef hún er ekki merkt sem **Virkur**, fylgdu skrefunum í [Búðu til stillingarveitu og merktu hana sem virkan](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ### <a name="business-scenario"></a>Sviðsmynd fyrirtækis
 
@@ -201,7 +201,7 @@ Eins og er er líkanið hannað til að afhjúpa aðeins skattfærslur sem hafa 
 
 ### <a name="design-a-model-mapping-for-the-configured-data-model"></a>Hanna líkanavörpun fyrir skilgreint gagnalíkan
 
-Sem notandi í hlutverki þróunaraðila rafrænna skýrslna verður þú að búa til nýja ER-stillingu sem inniheldur líkanavörpunaríhlut fyrir sýnishorn endurskoðunargagnalíkans. Þessi hluti útfærir uppsetta gagnalíkanið fyrir Microsoft Dynamics 365 Finance og er sérstakt fyrir það app. Skilgreina verður íhlut líkanavörpunar til að tilgreina hugbúnaðarhluti sem þarf að nota til að fylla út skilgreint gagnalíkan með forritsgögnum við keyrslu. Til að klára þetta verkefni verður þú að skilja hvernig gagnaskipulag skattaviðskiptalénsins er útfært í Finance.
+Sem notandi í hlutverki þróunaraðila rafrænna skýrslna verður þú að búa til nýja ER-stillingu sem inniheldur líkanavörpunaríhlut fyrir sýnishorn endurskoðunargagnalíkans. Þessi hluti útfærir stillt gagnalíkan fyrir Microsoft Dynamics 365 Finance og er sérstaklega fyrir það app. Skilgreina verður íhlut líkanavörpunar til að tilgreina hugbúnaðarhluti sem þarf að nota til að fylla út skilgreint gagnalíkan með forritsgögnum við keyrslu. Til að klára þetta verkefni verður þú að skilja hvernig gagnaskipulag skattaviðskiptalénsins er útfært í Finance.
 
 Fylgdu þessum skrefum til að flytja inn nauðsynlega líkanavörpun úr XML-skrá sem er útveguð af Microsoft.
 
@@ -261,18 +261,18 @@ Samkvæmt nýju kröfunni verður skjalið sem þú verður að leggja fram inni
 Augljós aðferð er að innleiða eftirfarandi breytingar:
 
 - Bættu nýju við í gagnalíkaninu þínu`Transaction.Party.Name` gagnalíkan sviði *Strengur* tegund.
-- Í líkanavörpunni skaltu stilla bindinguna fyrir nýja gagnalíkanreitinn með því að nota tiltæk töflutengsl til að fá aðgang að viðeigandi skrá yfir`DirPartyTable` umsóknartöflu og sæktu gildið á`Name` sviði frá því.
+- Í líkanavörpunni þinni skaltu stilla bindinguna fyrir nýja gagnalíkanreitinn með því að nota tiltæk töflutengsl til að fá aðgang að viðeigandi skrá yfir`DirPartyTable` umsóknartöflu og sæktu gildið á`Name` sviði frá því.
 
-Þó að þessi nálgun virki gæti hún valdið afköstum í SQL gagnagrunninum vegna þess`TaxTrans` er færslutaflan og getur því innihaldið mikið magn af færslum. Í þessu tilviki er fjöldi símtala til`DirPartyTable` verður að jafna fjölda skráa í`TaxTrans` töflu sem getur valdið frammistöðuvandamálum.
+Þó að þessi nálgun muni virka gæti hún valdið afköstum í SQL gagnagrunninum vegna þess`TaxTrans` er færslutaflan og getur því innihaldið mikið magn af færslum. Í þessu tilviki er fjöldi símtala til`DirPartyTable` verður að jafna fjölda skráa í`TaxTrans` töflu sem getur valdið frammistöðuvandamálum.
 
 Að öðrum kosti gætirðu innleitt eftirfarandi breytingar:
 
 - Bættu nýju við í gagnalíkaninu þínu`Party` rót og nýja`Party.Name` sviði.
 - Í líkanavörpun þinni skaltu bæta við nýjum gagnagjafa sem mun sameina allar skrár yfir töflur sem eru notaðar í töflusamböndum til að fá aðgang að viðkomandi skrá yfir`DirPartyTable` umsóknartafla, frá og með`TaxTrans` borð.
 
-Þó að þessi nálgun virki gæti hún valdið minnisnotkunarvandamálum. Jafnvel þegar ný [GANGA TIL](er-join-data-sources.md) gagnagjafi er keyrt sem ein SQL beiðni til gagnagrunns forritsins til að koma í veg fyrir afköst gagnagrunnsvandamála, niðurstaðan verður að vera sótt í minni umsóknarþjónsins. Vegna þess að fjöldi skráa og fjöldi reita í þeim skrám verður nokkuð mikill gæti þessi aðferð valdið mjög mikilli minnisnotkun. Undantekning úr minni runtime gæti jafnvel verið hent.
+Þó að þessi aðferð muni virka gæti hún valdið minnisnotkunarvandamálum. Jafnvel þegar ný [GANGA TIL](er-join-data-sources.md) gagnagjafi er keyrt sem ein SQL beiðni til gagnagrunns forritsins til að koma í veg fyrir afköst gagnagrunnsvandamála, niðurstaðan verður að vera sótt í minni umsóknarþjónsins. Vegna þess að fjöldi skráa og fjöldi reita í þeim skrám verður nokkuð mikill gæti þessi aðferð valdið mjög mikilli minnisnotkun. Undantekning úr minni runtime gæti jafnvel verið hent.
 
-Þú getur útfært breytingarnar þegar keyrt snið safnar, í minni, einstökum auðkenniskóðum viðskiptavina og lánardrottna fyrir allar skattfærslur sem verða kynntar á myndaðri skýrslu. Vegna þess að aðeins ætti að geyma einstaka kóða, mun endanlegt sett af kóða ekki vera nógu stórt til að hafa áhrif á minnisnotkun. Kóðasamstæðan verður síðan send til líkanvörpunar sem rök fyrir öðru símtali gagnagjafans *Fyrirmynd* tegund. Byggt á því símtali mun líkankortlagningin keyra nýjan ER gagnagjafa sem gerir eina SQL beiðni til gagnagrunns forritsins til að sækja, frá`DirPartyTable` töflu, skrár aðeins fyrir þá aðila sem eru með kóða í meðfylgjandi kóðasetti.
+Þú getur útfært breytingarnar þegar keyrt snið safnar, í minni, einstökum auðkenniskóðum viðskiptavina og lánardrottna fyrir allar skattfærslur sem verða kynntar á myndaðri skýrslu. Vegna þess að aðeins ætti að geyma einstaka kóða, mun endanlegt sett af kóða ekki vera nógu stórt til að hafa áhrif á minnisnotkun. Kóðasettið verður síðan sent til líkankortlagningarinnar sem rök fyrir öðru símtali gagnagjafans *Fyrirmynd* tegund. Byggt á því símtali mun líkankortlagningin keyra nýjan ER gagnagjafa sem gerir eina SQL beiðni til gagnagrunns forritsins til að sækja, frá`DirPartyTable` töflu, skrár aðeins fyrir þá aðila sem eru með kóðar í tilgreindu kóðasetti.
 
 ### <a name="adjust-the-imported-data-model"></a>Stilltu innfluttu gagnalíkanið
 
@@ -313,7 +313,7 @@ Að öðrum kosti gætirðu innleitt eftirfarandi breytingar:
 
 12. Veldu **Vista**, og lokaðu **Gagnalíkan** síðu.
 
-    ![Uppbygging aðlagaðs ER gagnalíkans á síðunni Gagnalíkönhönnuður.](./media/er-data-model-parameterized-calls-model2b.png)
+    ![Uppbygging aðlagaðs ER-gagnalíkans á síðunni Gagnalíkönhönnuður.](./media/er-data-model-parameterized-calls-model2b.png)
 
 13. Á **Útgáfur** Hraðflipi, fyrir útgáfu **2**, veldu **Breyta stöðu** \> **Heill**. Veljið síðan **Í lagi**.
 
@@ -377,7 +377,7 @@ Að öðrum kosti gætirðu innleitt eftirfarandi breytingar:
     13. Veljið **Vista** og lokið síðunni **Formúluhönnuður**.
     14. Veldu **Vista**, og veldu síðan **Allt í lagi** til að klára að bæta við nýja gagnagjafanum.
 
-10. Fylgdu þessum skrefum til að binda nýja gagnagjafann við nýja gagnalíkansviðið, þannig að gagnalíkanið sé notað til að afhjúpa nöfn aðila:
+10. Fylgdu þessum skrefum til að binda nýja gagnagjafann við nýja gagnalíkanreitinn, þannig að gagnalíkanið sé notað til að afhjúpa nöfn aðila:
 
     1. Í **Gagnalíkan** glugga, veldu`Root.Party` reit gagnalíkans.
     2. Í rúðunni **Gagnalíkan** skal velja **Breyta**.
@@ -385,7 +385,7 @@ Að öðrum kosti gætirðu innleitt eftirfarandi breytingar:
     4. Veljið **Vista** og lokið síðunni **Formúluhönnuður**.
 
         > [!NOTE]
-        > Þú stilltir bara bindinguna til að kalla á stillta`Data.DirParty` gagnagjafa og gefðu upp lista yfir skráaauðkenniskóða sem verða tilgreindir á sniði þegar`Root.Party` gagnalíkansvið er kallað.
+        > Þú stilltir bara bindinguna til að kalla á stillta`Data.DirParty` gagnagjafa og gefðu upp lista yfir skráaauðkenniskóða sem verða tilgreindir á því sniði þegar`Root.Party` gagnalíkansvið er kallað.
 
     5. Í **Gagnalíkan** glugga, veldu`Root.Party.Name` reit gagnalíkans.
     6. Í rúðunni **Gagnalíkan** skal velja **Breyta**.
@@ -393,7 +393,7 @@ Að öðrum kosti gætirðu innleitt eftirfarandi breytingar:
     8. Veldu **Bæta við gagnagjafa**.
     9. Veljið **Vista** og lokið síðunni **Formúluhönnuður**.
 
-    ![Uppbygging leiðréttrar ER líkanavörpunar á hönnuðarsíðu líkanakortlagningar.](./media/er-data-model-parameterized-calls-mapping2.png)
+    ![Uppbygging aðlagaðrar ER líkanavörpunar á hönnuðarsíðu líkanakortlagningar.](./media/er-data-model-parameterized-calls-mapping2.png)
 
 11. Veldu **Vista**, og lokaðu **Módelkortahönnuður** síðu.
 12. Lokið síðunni **Líkanavörpun á gagnagjafa**.
@@ -410,7 +410,7 @@ Að öðrum kosti gætirðu innleitt eftirfarandi breytingar:
 7. Á **Sniðhönnuður** síðu, í sniðbyggingartrénu í vinstri glugganum, veldu **Stækka/fella saman**.
 8. Fylgdu þessum skrefum til að bæta við nýrri sniðeiningu til að safna skráaauðkenniskóðum aðila þar sem færslur eru sýndar á mynduðum skýrslum.
 
-    1. Í sniði uppbyggingu tré, veldu **Report.Row.Trans** röð þáttur.
+    1. Í uppbyggingartrénu skaltu velja **Report.Row.Trans** röð þáttur.
     2. Veljið **Bæta við**.
     3. Í **Bæta við** valmynd, veldu **Uppspretta gagna \> Atriði**.
     4. Í **Eiginleikar íhluta** valmynd, í **Nafn** reit, slá inn **kt**.
@@ -420,7 +420,7 @@ Að öðrum kosti gætirðu innleitt eftirfarandi breytingar:
     > [!NOTE]
     > A **Uppspretta gagna \> Atriði** eining er hægt að nota til að framkvæma innri útreikninga og gagnaumbreytingu aðeins á umfangi hlaupandi sniðs. Þess vegna, með því að bæta við þessari sniðeiningu, breytirðu ekki innihaldi myndaðs skjals.
 
-9. Fylgdu þessum skrefum til að bæta við nýjum sniðþáttum til að slá inn nöfn aðila á útbúnar skýrslur:
+9. Fylgdu þessum skrefum til að bæta við nýjum sniðsþáttum til að slá inn nöfn aðila á útbúnar skýrslur:
 
     1. Veldu **Report.Row** röð þáttur.
     2. Veljið **Bæta við**.
@@ -443,7 +443,7 @@ Að öðrum kosti gætirðu innleitt eftirfarandi breytingar:
 
 11. Fylgdu þessum skrefum til að bæta við nýrri bindingu til að safna skráaauðkenniskóðum aðila þar sem viðskiptin eru sýnd á mynduðum skýrslum:
 
-    1. Í sniði uppbyggingu tré, veldu **Report.Row.Trans.Id** gagnaþáttur.
+    1. Í uppbyggingartrénu skaltu velja **Report.Row.Trans.Id** gagnaþáttur.
     2. Veljið **Breyta formúlu**.
     3. Á **Formúluhönnuður** síðu, sláðu inn tjáninguna `PartyIds.Collect(model.Transaction.Party.RecId)`.
     4. Veljið **Vista** og lokið síðunni **Formúluhönnuður**.
@@ -462,11 +462,11 @@ Að öðrum kosti gætirðu innleitt eftirfarandi breytingar:
 
 13. Veldu **Vista**, og lokaðu **Sniðhönnuður** síðu.
 14. Lokið síðunni **Líkanavörpun á gagnagjafa**.
-15. Á **Útgáfur** Hraðflipi, fyrir útgáfu **2.2**, veldu **Breyta stöðu** \> **Heill**. Veljið síðan **Í lagi**.
+15. Á **Útgáfur** Hraðflipi, fyrir útgáfu **2.2**, veldu **Breyta stöðu** \> **Fullbúið**. Veljið síðan **Í lagi**.
 
 ### <a name="run-the-adjusted-format"></a>Keyrðu breytta sniðið
 
-1. Á **Stillingar** síðu, veldu **Dæmi um endurskoðunarsnið**, og veldu síðan á aðgerðarrúðunni **Hlaupa**.
+1. Á **Stillingar** síðu, veldu **Dæmi um endurskoðunarsnið**, og síðan, á aðgerðarrúðunni, veldu **Hlaupa**.
 2. Í **Rafræn skýrslufæribreytur** valmynd, á **Skrár til að hafa með** flipa, veldu **Sía**.
 3. Tilgreindu skilyrði til að velja skattfærslur á **PIV-110000004** og **INV-10000001** fylgiskjölum.
 4. Veldu **Í lagi**.

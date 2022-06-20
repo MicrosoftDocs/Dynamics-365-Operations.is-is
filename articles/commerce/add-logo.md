@@ -1,6 +1,6 @@
 ---
 title: Bæta við lógói
-description: Þetta efnisatriði lýsir hvernig lógói er bætt við svæði í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að bæta lógói við síðuna þína í Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 583462755838e51b4c988b8da057dbeeee773e0b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 624cd6f7000f5038b9996eb94caf79719d07f99f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871781"
 ---
 # <a name="add-a-logo"></a>Bæta við lógói
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig lógói er bætt við svæði í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að bæta lógói við síðuna þína í Microsoft Dynamics 365 Commerce.
 
 Þegar þú byggir vefsvæðið er eitt af fyrstu hlutunum sem þú munt líklega gera er að bæta fyrirtækinu þínu eða merki vörumerkis við haus svæðisins. Dynamics 365 Commerce einingasafnið á netinu býður upp á einingu sem gerir þetta verkefni auðvelt.
 
-Þú getur bætt merki beint við í sniðmát, skipulag eða síðu. Á þennan hátt geturðu auðveldlega breytt merkinu sem birtist á tilteknum síðum eða síðuhópum. En þetta efni nær yfir algengustu atburðarásina, þar sem þú bætir merkinu við hausbrot sem hægt er að endurnýta á öllum síðum vefsvæðisins.
+Þú getur bætt merki beint við í sniðmát, skipulag eða síðu. Á þennan hátt geturðu auðveldlega breytt merkinu sem birtist á tilteknum síðum eða síðuhópum. Hins vegar fjallar þessi grein um algengustu atburðarásina, þar sem þú bætir lógóinu þínu við hausbrot sem hægt er að endurnýta á öllum síðum síðunnar þinnar.
 
 ## <a name="prerequisites"></a>Forkröfur
 

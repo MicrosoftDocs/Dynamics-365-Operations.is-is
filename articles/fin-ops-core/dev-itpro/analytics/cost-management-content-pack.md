@@ -1,6 +1,6 @@
 ---
 title: Kostnaðarstjórnun Power BI efni
-description: Þetta efnisatriði lýsir því hvað er innifalið í kostnaðarstjórnun Power BI efnis.
+description: Þessi grein lýsir því hvað er innifalið í kostnaðarstjórnun Power BI efni.
 author: ShylaThompson
 ms.date: 03/16/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9fbdc6addc820aadc1f5469cb059a62724cfe905
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 98c0097c2df25bafc842c9828d8ff282f5f683a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752641"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876864"
 ---
 # <a name="cost-management-power-bi-content"></a>Kostnaðarstjórnun Power BI efni
 
@@ -168,7 +168,7 @@ Gögn úr forritinu eru notuð til að fylla skýrslusíðurnar í **Kostnaðars
 
 Lykiluppsafnaðar mælingar á eftirfarandi hlutum eru notaðar sem grundvöllur Power BI-efnis.
 
-| Hlutur                          | Lykiluppsafnaðar mælingar | Slóð gagnagjafa fyrir Finance and Operations | Svæði               |
+| Hlutur                          | Lykiluppsafnaðar mælingar | Gagnagjafi fyrir Finance and Operations | Svæði               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
 | CostObjectStatementCacheMonthly | Upphæð                     | CostObjectStatementCache               | Upphæð              |
 | CostObjectStatementCacheMonthly | Magn                   | CostObjectStatementCache               | Magn                 |
@@ -179,16 +179,16 @@ Eftirfarandi tafla sýnir helstu útreiknuðu mælingarnar í Power BI-efninu.
 
 | Ráðstöfun                            | Útreikningur |
 |------------------------------------|-------------|
-| Upphafsstaða                  | Upphafsstaða = \[ Lokastaða\]-\[ Nettóbreyting\] |
-| Upphafsstaða magns             | Upphafsstaða magns = \[ Lokastaða magns\]-\[ Nettóbreytingar magns\] |
-| Lokastaða                     | Lokastaða = (CALCULATE(SUM(\[ Upphæð\]), FILTER(ALL(FiscalCalendar), FiscalCalendar\[ MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[ MONTHSTARTDATE\])))) |
-| Lokastaða magns                | Lokastaða magns = CALCULATE(SUM(\[ QTY\]), FILTER(ALL(FiscalCalendar), FiscalCalendar\[ MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[ MONTHSTARTDATE\]))) |
-| Nettó breyting                         | Nettóbreyting = SUM(\[ AMOUNT\]) |
-| Nettóbreyting magns                    | Nettóbreyting magns = SUM(\[ QTY\]) |
-| Hlutfall birgðaveltu eftir upphæð | Hlutfall birgðaveltu eftir upphæð = if(OR(\[ Meðaltalsstaða birgða\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[ Atriði er varðar seldar eða notaðar birgðir\])/\[ Meðaltalsstaða birgða\]) |
-| Meðaltalsstaða birgða          | Meðaltalsstaða birgða = ((\[ Lokastaða\] + \[ Upphafsstaða\]) / 2) |
-| Dagar lagerbirgða             | Dagar lagerbirgða = 365 / CostObjectStatementEntries\[ Hlutfall birgðaveltu eftir upphæð\] |
-| Birgðanákvæmni                 | Birgðanákvæmni eftir upphæð = IF(\[ Lokastaða\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[ Lokastaða\] \< 0), 0, 1), MAX(0, (\[ Lokastaða\] - ABS(\[ Talin upphæð birgða\]))/\[ Lokastaða\])) |
+| Upphafsstaða                  | Upphafsstaða = \[Lokastaða\]-\[Nettóbreyting\] |
+| Upphafsstaða magns             | Upphafsstaða magns = \[Lokastaða magns\]-\[Nettóbreytingar magns\] |
+| Lokastaða                     | Lokastaða = (CALCULATE(SUM(\[Upphæð\]), FILTER(ALL(FiscalCalendar), FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\])))) |
+| Lokastaða magns                | Lokastaða magns = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar), FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
+| Nettó breyting                         | Nettóbreyting = SUM(\[AMOUNT\]) |
+| Nettóbreyting magns                    | Nettóbreyting magns = SUM(\[QTY\]) |
+| Hlutfall birgðaveltu eftir upphæð | Hlutfall birgðaveltu eftir upphæð = if(OR(\[Meðaltalsstaða birgða\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[Atriði er varðar seldar eða notaðar birgðir\])/\[Meðaltalsstaða birgða\]) |
+| Meðaltalsstaða birgða          | Meðaltalsstaða birgða = ((\[Lokastaða\] + \[Upphafsstaða\]) / 2) |
+| Dagar lagerbirgða             | Dagar lagerbirgða = 365 / CostObjectStatementEntries\[Hlutfall birgðaveltu eftir upphæð\] |
+| Birgðanákvæmni                 | Birgðanákvæmni eftir upphæð = IF(\[Lokastaða\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[Lokastaða\] \< 0), 0, 1), MAX(0, (\[Lokastaða\] - ABS(\[Talin upphæð birgða\]))/\[Lokastaða\])) |
 
 Eftirfarandi lykilvíddir eru notaðar sem síur til að sneiða uppsafnaðar mælingar þannig að hægt sé að veita meiri uppskiptingu og dýpri greiningarinnsýn.
 

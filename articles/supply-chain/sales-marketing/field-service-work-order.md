@@ -1,6 +1,6 @@
 ---
 title: Samstilla vinnupantanir úr Field Service við sölupantanir í Supply Chain Management
-description: Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem eru notuð til að samstilla vinnupantanir í Field Service við sölupantanir í Supply Chain Management.
+description: Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla vinnupantanir í Field Service við sölupantanir í Supply Chain Management.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e64c9a954e8f5c4410f8ba370b40b7c6e76e8ae0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061310"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860523"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Samstilla vinnupantanir úr Field Service við sölupantanir í Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061310"
 
 
 
-Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem eru notuð til að samstilla vinnupantanir í Dynamics 365 Field Service við sölupantanir í Dynamics 365 Supply Chain Management.
+Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla vinnupantanir í Dynamics 365 Field Service til sölupöntunar í Dynamics 365 Supply Chain Management.
 
 [![Samstilling viðskiptaferla milli Supply Chain Management og Field Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -165,7 +165,7 @@ Til að halda utan um sölupantanir sem koma upprunalega frá vinnupöntunum er 
 
 Sjálfgefið er að vörpun velji uppruna sölupöntunar fyrir upprunagerð sölupöntunarinnar **Samþætting vinnupöntunar** fyrir allar sölupantanir sem eru búnar til úr vinnupöntunum. Þessi hegðun getur verið gagnleg þegar unnið er með sölupantanir í Supply Chain Management. Þú verður að ganga úr skugga um að sölupantanir sem eru upprunnar frá vinnupöntunum séu ekki samstilltar aftur við Field Service sem vinnupantanir.
 
-Nánari upplýsingar um hvernig á að búa til rétta uppsetningu á uppruna sölupöntunar í Supply Chain Management er að finna í kaflanum „Uppsetning á forsendum og vörpun“ í þessu efnisatriði.
+Fyrir upplýsingar um hvernig á að búa til rétta söluupprunauppsetningu í Supply Chain Management, sjá hlutann „Forsendur og kortlagningaruppsetning“ í þessari grein.
 
 ### <a name="status"></a>Staða
 

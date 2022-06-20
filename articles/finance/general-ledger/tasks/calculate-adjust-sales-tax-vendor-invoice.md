@@ -1,6 +1,6 @@
 ---
 title: Reikna og stilla virðisaukaskatt á reikningi lánardrottins
-description: Þetta efnisatriði útskýrir hvernig á að leiðrétta söluskatt á reikningi lánardrottins í Dynamics 365 Finance.
+description: Þessi grein útskýrir hvernig á að leiðrétta söluskatt á reikningi lánardrottins í Dynamics 365 Finance.
 author: twheeloc
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d4d6a23f6f58906730c5ce00c5fe06885aaa6da
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9a1093631688351d065d6b55bc65055b6f92d256
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734690"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868366"
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Reikna og stilla virðisaukaskatt á reikningi lánardrottins
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni útskýrir hvernig leiðrétta skal söluskatt í reikningi lánardrottins. Ef upphaflega upprunaskjal sýnir mismunandi skattupphæðir útreiknaðar, er hægt að leiðrétta þessar upphæðir fyrir bókun. Þetta verkefni notar DEMF-sýnifyrirtækið.
+Þessi grein útskýrir hvernig á að leiðrétta söluskatt á reikningi lánardrottins. Ef upphaflega upprunaskjal sýnir mismunandi skattupphæðir útreiknaðar, er hægt að leiðrétta þessar upphæðir fyrir bókun. Þetta verkefni notar DEMF-sýnifyrirtækið.
 
 1. Fara til **Viðskiptaskuldir > Reikningar > Reikningabók**.
 2. Veljið **Nýtt**.

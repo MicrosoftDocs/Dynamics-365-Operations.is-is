@@ -1,6 +1,6 @@
 ---
 title: Færa inn og bera saman tilboð vegna tilboðsbeiðna og gera samninga
-description: Þetta efni útskýrir hvernig á að færa inn svör við Tilboðsbeiðni, gefa stig og bera saman tilboð, og veita síðan einum lánardrottninum samning.
+description: Þessi grein útskýrir hvernig á að slá inn svör við beiðni um tilboð (RFQ), skora og bera saman tilboð og síðan úthluta samningnum til eins af söluaðilum.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50b403021c347498a9b489a34196e592a2041a11
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d3ef754f2d5d58254a7c6f0e572115f8a2981ad9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677367"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893382"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Færa inn og bera saman tilboð vegna tilboðsbeiðna og gera samninga
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að færa inn svör við Tilboðsbeiðni, gefa stig og bera saman tilboð, og veita síðan einum lánardrottninum samning. Hægt er að nota þetta ferli í sýnigögn fyrirtækisins **USMF**.
+Þessi grein útskýrir hvernig á að slá inn svör við beiðni um tilboð (RFQ), skora og bera saman tilboð og síðan úthluta samningnum til eins af söluaðilum. Hægt er að nota þetta ferli í sýnigögn fyrirtækisins **USMF**.
 
 Áður en byrjað er verður að hafa beiðni um tilboð með tveimur línum og sem hefur verið sent til a.m.k. tveggja lánardrottna. Til að stofna þessa tilboðsbeiðni skal ljúka ferlinu [Stofna beiðni um tilboð](create-request-quotation.md). Einnig þarf að setja upp skilyrði fyrir stigagjöf áður en lokið er við þetta ferli.
 

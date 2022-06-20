@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir uppsafnanir
-description: Þetta efnisatriði lýsir uppsöfnun og veitir upplýsingar um hvernig eigi að setja þær upp og búa til færslur.
+description: Þessi grein lýsir áföllnum gjöldum og veitir upplýsingar um hvernig skuli setja þær upp og stofna færslur.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62b56e698d3d9eeec08824eb799d74a8c6792ea7
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 2e10842929ba58b845a1df949ecb7c776ae077e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904702"
 ---
 # <a name="accruals-overview"></a>Yfirlit yfir uppsafnanir
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir uppsöfnun og veitir upplýsingar um hvernig eigi að setja þær upp og búa til færslur.
+Þessi grein lýsir áföllnum gjöldum og veitir upplýsingar um hvernig skuli setja þær upp og stofna færslur.
 
 Uppsafnanir eru notaðar í rekstrarbókhaldi til að rekja tekjur sem eru viðurkenndar á tímabilinu sem þær eru fengnar í, ekki þegar greiðsla er móttekin, og til að rekja útgjöld (kostnað) sem eru viðurkennd þegar þau eiga sér stað, ekki þegar greiðsla er gerð.
 

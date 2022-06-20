@@ -1,6 +1,6 @@
 ---
 title: Birgðamörk staðsetningar
-description: Þetta efnisatriði lýsir virkni fyrir birgðamörk staðsetningar.
+description: Þessi grein lýsir virkni fyrir birgðamörk staðsetningar.
 author: perlynne
 ms.date: 11/11/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 239b9fa8d8e34a92d453d3387881cff7b0a11f28a3c3b1e19891ea3bd78c3d7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 794fe9afddfa43862aea62bf56f9b745aaf91c2c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854037"
 ---
 # <a name="location-stocking-limits"></a>Birgðamörk staðsetningar
 

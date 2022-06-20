@@ -1,6 +1,6 @@
 ---
 title: Pökkunarstefnur gáms
-description: Þetta efnisatriði lýsir muninum á pökkunarstefnum gáms og gefur dæmi.
+description: Þessi grein lýsir muninum á gámapökkunaraðferðum og gefur dæmi.
 author: GalynaFedorova
 ms.date: 06/11/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ab34cee7fd495ec26f6b20da2aa43895f49f677c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862367"
 ---
 # <a name="container-packing-strategies"></a>Pökkunarstefnur gáms
 
 [!include [banner](../includes/banner.md)]
 
-*Pökkunarstefna gáms* er aðferð sem hægt er að nota til að skilgreina vöruúthlutanir í gáma. Í þessu efnisatriði er útskýrður munurinn á stefnunum *Pakka í alla opna gáma* og *Pakka aðeins í núgildandi gám*.
+*Pökkunarstefna gáms* er aðferð sem hægt er að nota til að skilgreina vöruúthlutanir í gáma. Þessi grein útskýrir muninn á milli *Pakkaðu í öll opin ílát* og *Pakkaðu aðeins í núverandi ílát* aðferðir.
 
 - **Pakka í alla opna gáma** – Kerfið verður að athuga alla opna gáma sem hafa verið búnir til í gámunarferlinu til að ganga úr skugga um að varan passi inn í einn af þeim. Meðan á pökkun stendur athugar kerfið hverja vöru til að ákvarða hvort hún passi í áður útbúinn gám. Ef varan passar ekki í fyrirliggjandi gám býr kerfið til nýjan gám og heldur áfram þar til búið er að pakka allri pöntuninni.
 

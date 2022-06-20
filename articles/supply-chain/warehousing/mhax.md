@@ -1,6 +1,6 @@
 ---
 title: Viðmót efnismeðhöndlunarbúnaðar (MHAX)
-description: Þetta efnisatriði lýsir því hvernig á að setja upp viðmót efnismeðhöndlunarbúnaðar (MHAX) þannig að hægt sé að tengjast við ytra efnismeðhöndlunarkerfi (MH).
+description: Þessi grein lýsir því hvernig á að setja upp efnismeðferðarbúnaðarviðmótið (MHAX) þannig að þú getir tengst ytri efnismeðferðarkerfi (MH).
 author: Mirzaab
 ms.date: 03/04/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4c04b8a9574bb6f34b56b4a7462882f1885f1178
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695592"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907088"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Viðmót efnismeðhöndlunarbúnaðar (MHAX)
 
@@ -88,7 +88,7 @@ Til að stofna áskrift skal fara í **Viðmót efnismeðhöndlunarbúnaðar \> 
 
 Hægt er að tengja fyrirspurn við hverja áskrift. Þessi fyrirspurn síar vinnulínur og hausa til að takmarka enn frekar vinnuna sem notar áskriftina til að mynda tilvik. Til að bæta fyrirspurn við áskrift skal velja gátreitinn **Keyra fyrirspurn** fyrir viðeigandi áskrift á síðunni **Áskriftir** og síðan velja **Breyta fyrirspurn** á aðgerðasvæðinu. Hefðbundinn fyrirspurnarritill Supply Chain Management birtist.
 
-Þar að auki inniheldur áskriftin *áskriftarvörpun* sem varpar reitum úr annaðhvort vinnuhausnum eða vinnulínunni í einhver eða öll 10 lausu gagnasvæðin í tilvikinu á útleið eftir þörfum. Til að skila upplýsingum til MHAX-þjónustunnar er færslukenni vinnulínunnar yfirleitt haft með eða *pörunarkenni vinnulínunnar*. (Pörunarkenni vinnulínunnar er nýr eiginleiki sem gerir kerfinu kleift að nota eina skilaskipun til að vinna úr tiltektar- og frágangslínum.) Reitirnir sem eftir standa fara eftir notkunartilfellinu. Nokkur dæmi eru gefin síðar í þessu efnisatriði.
+Þar að auki inniheldur áskriftin *áskriftarvörpun* sem varpar reitum úr annaðhvort vinnuhausnum eða vinnulínunni í einhver eða öll 10 lausu gagnasvæðin í tilvikinu á útleið eftir þörfum. Til að skila upplýsingum til MHAX-þjónustunnar er færslukenni vinnulínunnar yfirleitt haft með eða *pörunarkenni vinnulínunnar*. (Pörunarkenni vinnulínunnar er nýr eiginleiki sem gerir kerfinu kleift að nota eina skilaskipun til að vinna úr tiltektar- og frágangslínum.) Reitirnir sem eftir standa fara eftir notkunartilfellinu. Nokkur dæmi eru veitt síðar í þessari grein.
 
 Til að setja upp áskriftarvörpun skal velja viðeigandi áskrift á síðunni **Áskriftir** og síðan velja **Áskriftarvörpun** á aðgerðasvæðinu. Í svarglugganum **Áskriftarvörpun** sem birtist er hægt að úthluta töflu og reit fyrir hvert tiltækt gagnasvæði eftir þörfum.
 
@@ -161,7 +161,7 @@ Ef auðkenni vinnulínupars er útvegað verður öll tiltekt, frágangur eða s
 
 Tiltektarlínur frá númeraplötustýrðum staðsetningum krefjast þess að **data03** tilgreinni númeraplötuna sem á að tína úr, óháð því hvort línurnar séu merktar af færslukenni vinnulínunnar eða pörunarkenni vinnulínunnar. Reiturinn **data04** verður að tilgreina númeraplötu markmiðs í vinnuhaus fyrir tiltektina.
 
-Frágangslínur taka ekki við ekki frekari upplýsingar. Þær eru aðeins keyrðar út frá núverandi staðsetningu vinnulínunnar og marknúmeraplötu vinnunnar. Ef gera þarf fráganginn á annari staðsetningu skal breyta staðsetningu vinnulínunnar eins og lýst er í hlutanum [Hnekkja tilvikum](#override-events) síðar í þessu efnisatriði.
+Frágangslínur taka ekki við ekki frekari upplýsingar. Þær eru aðeins keyrðar út frá núverandi staðsetningu vinnulínunnar og marknúmeraplötu vinnunnar. Ef setja þarf á annan stað, breyttu staðsetningu vinnulínunnar eins og lýst er í [Hneka atburði](#override-events) kafla síðar í þessari grein.
 
 Sérsniðnar vinnulínur hvorki þurfa né styðja við frekari upplýsingar í tilvikinu á innleið.
 
@@ -220,7 +220,7 @@ Að lokum mun biðröðin á innleið smám saman fyllast af atriðum biðraðar
 
 ## <a name="get-a-quick-overview-by-using-the-queue-manager"></a>Fá flýtiyfirlit með því að nota biðraðarstjórann
 
-Til að fá flýtiyfirlit yfir allar aðgerðir sem tengjast biðröðum á innleið og útleið skal fara í **Viðmót efnismeðhöndlunarbúnaðar \> Vinnusvæði \> Biðraðarstjóri**. Síðan **Biðraðarstjóri** býður upp á safn af flipum og reitum sem er hægt að nota til að fylgjast með og fletta í biðröðum. Þar er einnig að finna gagnlega tengla á flestar aðrar síður sem minnst er á í þessu efnisatriði.
+Til að fá flýtiyfirlit yfir allar aðgerðir sem tengjast biðröðum á innleið og útleið skal fara í **Viðmót efnismeðhöndlunarbúnaðar \> Vinnusvæði \> Biðraðarstjóri**. Síðan **Biðraðarstjóri** býður upp á safn af flipum og reitum sem er hægt að nota til að fylgjast með og fletta í biðröðum. Það veitir einnig gagnlega tengla á flestar aðrar síður sem nefndar eru í þessari grein.
 
 ## <a name="connect-to-the-mhax-service"></a>Tengjast MHAX-þjónustu
 

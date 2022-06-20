@@ -1,6 +1,6 @@
 ---
 title: Skilgreina samstæðureglur sendingar
-description: Þetta efnisatriði útskýrir hvernig á að setja upp sjálfgefnar og sérstilltar samstæðureglur sendingar.
+description: Þessi grein útskýrir hvernig á að setja upp sjálfgefna og sérsniðnar sameiningarstefnur fyrir sendingar.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 0a575648c0e6f5d0e3b9fb03ea6f47252837bf9c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845925"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Skilgreina samstæðureglur sendingar
 
@@ -26,12 +26,12 @@ ms.locfileid: "8672571"
 
 Samstæðuferli sendingar sem notar samstæðureglur sendingar leyfa sjálfvirka samstæðu sendingar við sjálfvirka og Handvirk losun í vöruhúsið. Eftir að kveikt er á þessum eiginleika verður að skilgreina fyrstu reglurnar. Ef engar reglur eru skilgreindar mun hver sölulína mynda aðskilda sendingu sem er með eina farmlínu.
 
-Aðstæðurnar sem eru sýndar í þessu efnisatriði sýna hvernig setja á upp sjálfgefnar og sérsniðnar samstæðureglur sendingar.
+Atburðarásin sem eru kynnt í þessari grein sýna hvernig á að setja upp sjálfgefna og sérsniðnar sameiningarstefnur fyrir sendingar.
 
 ## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Kveikja á eiginleikanum „Samstæðureglur sendingar“
 
 > [!IMPORTANT]
-> Í [fyrstu aðstæðunum](#scenario-1) sem lýst er í þessu efnisatriði er fyrst sett upp vöruhús til að það noti eldri samstæðueiginleika sendingar. Því næst eru samstæðureglur sendingar gerðar tiltækar. Á þennan hátt er hægt að læra á hvernig uppfærsluaðstæðurnar virka. Ef ætlunin er að nota sýnigagnaumhverfi til að fara í gegnum fyrstu aðstæðurnar skal ekki kveikja á eiginleikanum áður en farið er í gegnum aðstæðurnar.
+> Í [fyrstu atburðarás](#scenario-1) sem lýst er í þessari grein, verður þú fyrst að setja upp vöruhús þannig að það noti fyrri sendingarsamstæðueiginleikann. Því næst eru samstæðureglur sendingar gerðar tiltækar. Á þennan hátt er hægt að læra á hvernig uppfærsluaðstæðurnar virka. Ef ætlunin er að nota sýnigagnaumhverfi til að fara í gegnum fyrstu aðstæðurnar skal ekki kveikja á eiginleikanum áður en farið er í gegnum aðstæðurnar.
 
 Áður en hægt er að nota eiginleikann *Samstæðureglur sendingar* þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
@@ -40,7 +40,7 @@ Aðstæðurnar sem eru sýndar í þessu efnisatriði sýna hvernig setja á upp
 
 ## <a name="make-demo-data-available"></a>Bjóða upp á sýnigögn
 
-Allar aðstæður í þessu efnisatriði vísa í gildi og færslur sem eru innifaldar í stöðluðum sýnigögnum fyrir Microsoft Dynamics 365 Supply Chain Management. Ef nota á gildin sem er boðið upp á hér eins og í æfingunum skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett og stilla lögaðilann á **USMF** áður en hafist er handa.
+Hver atburðarás í þessari grein vísar til gilda og skráa sem eru innifalin í stöðluðum kynningargögnum sem eru veitt fyrir Microsoft Dynamics 365 Supply Chain Management. Ef nota á gildin sem er boðið upp á hér eins og í æfingunum skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett og stilla lögaðilann á **USMF** áður en hafist er handa.
 
 ## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>Aðstæður 1: Skilgreina sjálfgefnar samstæðureglur sendingar
 
@@ -339,7 +339,7 @@ Nú þegar búið er að stofna allar reglurnar þarf að stofna pöntunina sem 
 
 ## <a name="example-scenarios-of-how-to-use-shipment-consolidation-policies"></a><a name="example-scenarios"></a> Dæmi um hvernig nota á samstæðureglur sendingar
 
-Eftirfarandi aðstæður sýna hvernig hægt er að nota samstæðureglur sendingar sem voru stofnaðar þegar þetta efnisatriði var lesið. Hverjar aðstæður fyrir sig leiða notanda í gegnum samstæðuferli sendingar sem notar samstæðureglur sendingar við sjálfvirka eða handvirka losun í vöruhúsið:
+Eftirfarandi aðstæður sýna hvernig þú gætir notað samþjöppunarreglur sendingar sem þú bjóst til þegar þú lest þessa grein. Hverjar aðstæður fyrir sig leiða notanda í gegnum samstæðuferli sendingar sem notar samstæðureglur sendingar við sjálfvirka eða handvirka losun í vöruhúsið:
 
 - Sviðsmynd 1: [sameina sendingar þegar þær eru losaðar í vöruhús með því að nota sjálfvirka losun sölupantana](../warehousing/consolidate-shipments-automatic.md)
 - Sviðsmynd 2: [sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt á síðunni „Losa í vöruhús“](../warehousing/consolidate-shipments-release-to-warehouse-override.md)

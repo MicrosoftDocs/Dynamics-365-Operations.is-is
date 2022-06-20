@@ -1,6 +1,6 @@
 ---
 title: Framboðsáætlun
-description: Þetta efnisatriði veitir upplýsingar um síðu framboðsáætlunar og möguleika hennar.
+description: Þessi grein veitir upplýsingar um framboðsáætlunarsíðuna og möguleika hennar.
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 89b8ce96a5c34902187751cfa523ed99a94500b3
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 0e3937dd4cffc464f38b5770674364579bdb06d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468677"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851740"
 ---
 # <a name="supply-schedule"></a>Framboðsáætlun
 
@@ -28,7 +28,7 @@ ms.locfileid: "8468677"
 
 Hægt er að opna síðuna **Birgðaáætlun** á eftirfarandi hátt:
 
-- Farðu í **Aðaláætlanagerð \> Aðaláætlanagerð \> Birgðaáætlun**. Í svarglugganum **Breyta síu** skal tilgreina áætlunina og afurðina sem leitað er að með því að slá inn síugildi í reitina sem gefnir eru upp. (Það sem eftir er af þessu efnisatriði verður vísað í safn af síugildum sem „sían“ eða „núgildandi sía“.) Þegar þessu er lokið skal velja **Í lagi**.
+- Farðu í **Aðaláætlanagerð \> Aðaláætlanagerð \> Birgðaáætlun**. Í svarglugganum **Breyta síu** skal tilgreina áætlunina og afurðina sem leitað er að með því að slá inn síugildi í reitina sem gefnir eru upp. (Í restinni af þessari grein er safn síugilda sem þú slærð inn kallað „sían“ eða „núverandi sía.“) Þegar þú hefur lokið við skaltu velja **Allt í lagi**.
 - Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**. Velja eða opna afurð. Því næst á aðgerðasvæðinu, í flipanum **Áætlun**, í flokknum **Yfirlit**, skal velja **Birgðaáætlun**.
 - Farðu í **Aðaláætlanagerð \> Uppsetning \> Eftirspurnarspá \> Úthlutunarlyklar vöru**. Veldu úthlutunarlykil vöru sem er notaður sem afurðasafn. Í aðgerðasvæðinu er **Birgðaáætlun** síðan valin.
 - Fara í **Áætlanagerð \> Aðaláætlanagerð \> Áætlaðar pantanir**. Velja eða opna áætlaða pöntun. Á aðgerðasvæðinu, í flipanum **Yfirlit**, í flokknum **Yfirlit**, skal síðan velja **Birgðaáætlun**.

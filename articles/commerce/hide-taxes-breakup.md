@@ -1,6 +1,6 @@
 ---
 title: Fela upplýsingar um skattskil í samantektum pantana
-description: Þetta efnisatriði lýsir því hvernig á að fela upplýsingar um skattaskiptingu í pöntunaryfirlitum á körfu-, útskráningar-, pöntunarstaðfestingum og pöntunarupplýsingasíðum í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að fela upplýsingar um skattaskiptingu í pöntunaryfirlitum á körfu-, útskráningar-, pöntunarstaðfestingum og pöntunarupplýsingasíðum í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-03-28
-ms.openlocfilehash: 9a0bff7afaa10e49ec05f18e2b0fae7a19b5e8af
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
-ms.translationtype: MT
+ms.openlocfilehash: fe1f6c5875444f4f91ee1dfb01b3fdaa527c52e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881791"
 ---
 # <a name="hide-tax-breakup-information-in-order-summaries"></a>Fela upplýsingar um skattskil í samantektum pantana
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að fela upplýsingar um skattaskiptingu í pöntunaryfirlitum á körfu-, útskráningar-, pöntunarstaðfestingum og pöntunarupplýsingasíðum í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að fela upplýsingar um skattaskiptingu í pöntunaryfirlitum á körfu-, útskráningar-, pöntunarstaðfestingum og pöntunarupplýsingasíðum í Microsoft Dynamics 365 Commerce.
 
 Sjálfgefið,Dynamics 365 Commerce sýnir upplýsingar um skattaskiptingu í pöntunaryfirlitum á körfu-, útskráningar-, pöntunarstaðfestingum og pöntunarupplýsingasíðum. Frá og með útgáfu Commerce útgáfu 10.0.27, inniheldur Commerce site builder valmöguleika sem gerir þér kleift að fela upplýsingar um skattaskiptingu í pöntunarsamantektum.
 
@@ -30,8 +30,8 @@ Eftirfarandi mynd sýnir dæmi um tvær pöntunarsamantektir. Sá fyrri sýnir u
 ![Dæmi um kerrur þar sem upplýsingar um skattaskipti eru sýndar og faldar.](media/prices-include-sales-tax-e-Commerce.png)
 
 > [!NOTE]
-> - Möguleikinn á að fela upplýsingar um skattaskipti í pöntunaryfirlitum er aðeins tiltækur þegar **Verð eru með söluskatti** valkostur fyrir rafræn viðskiptarás er stilltur á **Já** í höfuðstöðvum verslunar, kl **Verslun og verslun \> Rásir \> Búðir \> Allar verslanir**. 
-> - Sjálfgefið er **Sýna skattaskiptingu í pöntunarsamantekt** valmöguleikinn er virkjaður í Site Builder.
+> - Möguleikinn á að fela upplýsingar um skattaskiptingu í pöntunaryfirlitum er aðeins tiltækur þegar **Verð eru með söluskatti** valkostur fyrir rafræn viðskiptarás er stilltur á **Já** í höfuðstöðvum verslunar, kl **Verslun og verslun \> Rásir \> Búðir \> Allar verslanir**. 
+> - Sjálfgefið er **Sýna skattaskiptingu í pöntunarsamantekt** valmöguleikinn er virkur í vefsvæðisgerðinni.
 
 ## <a name="hide-tax-breakup-information-in-order-summaries"></a>Fela upplýsingar um skattskil í samantektum pantana
 

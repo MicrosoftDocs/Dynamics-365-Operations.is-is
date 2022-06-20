@@ -1,6 +1,6 @@
 ---
-title: Kennsla í Regression Suite Automation Tool
-description: Þetta efni sýnir hvernig á að nota Regression Suite Automation Tool (RSAT). Það lýsir ýmsum eiginleikum og gefur dæmi sem nota ítarlegar forskriftir.
+title: Kennsla fyrir Regression Suite Automation Tool
+description: Þessi grein sýnir hvernig á að nota Regression Suite Automation Tool (RSAT). Það lýsir ýmsum eiginleikum og gefur dæmi sem nota ítarlegar forskriftir.
 author: FrankDahl
 ms.date: 09/23/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: e2273aefb98880a1ae746ef7ec65b4f2262f3560
-ms.sourcegitcommit: 49c97b0c94e916db5efca5672d85df70c3450755
+ms.openlocfilehash: 04c7d7081ece4e077881092534ed061fe2d0e999
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "8492921"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854600"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Kennsla í Regression Suite Automation Tool
 
@@ -243,7 +243,7 @@ Hleður niður viðhengjum (upptöku-, framkvæmdar- og færibreytuskrám) fyrir
 
 #### <a name="downloadsuite"></a>niðurhalssvíta
 
-Hleður niður viðhengjum (upptöku-, framkvæmdar- og færibreytuskrám) fyrir öll próftilvik í tilgreindu prófunarsvítunni frá Azure DevOps í úttaksskrána. Þú getur notað``listtestsuitenames`` skipun til að fá allar tiltækar prófunarsvítur og nota hvaða gildi sem a **test_suite_name** færibreytu.
+Hleður niður viðhengjum (upptöku-, framkvæmdar- og færibreytuskrám) fyrir öll próftilvik í tilgreindu prófunarsvítunni frá Azure DevOps í úttaksskrána. Þú getur notað``listtestsuitenames`` skipun til að fá allar tiltækar prófunarsvítur og nota hvaða gildi sem a **test_suite_name** breytu.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``downloadsuite``**``[/retry[=<seconds>]] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
 
@@ -365,7 +365,7 @@ Býr aðeins til prófunarskrár fyrir tilgreint prófunartilvik. Það býr ekk
 
 #### <a name="generatetestsuite"></a>generatetestsuite
 
-Býr til sjálfvirkniprófunarskrár fyrir öll próftilvik í tilgreindu prófunarsvítunni. Þú getur notað``listtestsuitenames`` skipun til að fá allar tiltækar prófunarsvítur og nota hvaða gildi sem a **test_suite_name** færibreytu.
+Býr til sjálfvirkniprófunarskrár fyrir öll próftilvik í tilgreindu prófunarsvítunni. Þú getur notað``listtestsuitenames`` skipun til að fá allar tiltækar prófunarsvítur og nota hvaða gildi sem a **test_suite_name** breytu.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
 

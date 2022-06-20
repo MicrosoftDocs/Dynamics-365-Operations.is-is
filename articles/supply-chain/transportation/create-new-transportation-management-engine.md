@@ -1,6 +1,6 @@
 ---
 title: Stofna nýja flutningsstjórnunarvél
-description: Í þessu efnisatriði er lýst hvernig eigi að stofna nýja flutningsstjórnunarvél í Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir því hvernig á að búa til nýja flutningsstjórnunarvél í Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be52c6afb66e88b36f3b2cdf5af14e17b3d3005f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 627972ef6afb7551bb57821ded24183f8f335e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678123"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857258"
 ---
 # <a name="create-a-new-transportation-management-engine"></a>Stofna nýja flutningsstjórnunarvél
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er lýst hvernig eigi að stofna nýja flutningsstjórnunarvél í Dynamics 365 Supply Chain Management. 
+Þessi grein lýsir því hvernig á að búa til nýja flutningsstjórnunarvél í Dynamics 365 Supply Chain Management. 
 
 Flutningsstjórnunarvélar (TMS) skilgreina rökin sem eru notuð til að búa til og vinna flutningstaxta í Flutningsstjórnun. Supply Chain Management býður upp á nokkrar mismunandi gerðir véla sem reikna út mismunandi færibreytur á borð við taxta, flutningstíma og fjölda svæða sem farið verður í gegnum við flutning. Þessi grein útskýrir hvernig á að nota þróunarumhverfi Microsoft Visual Studio saman með þróunarverkfærum Supply Chain Management til að stofna og setja upp nýja TMS-vél og síðan hvernig á að setja upp vélina í Operations. Frekari upplýsingar um vélarnar er að finna í [Flutningsstjórnunarvélar](transportation-management-engines.md).
 

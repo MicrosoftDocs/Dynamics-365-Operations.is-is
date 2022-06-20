@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Commerce Staðsetningarleiðbeiningar fyrir rafræn viðskipti
-description: Þetta efni lýsir því hvernig á að staðsetja a Microsoft Dynamics 365 Commerce e-verslunarsíðu yfir á fleiri tungumál og stilltu síðuna til að styðja við margar rásir.
+description: Þessi grein lýsir því hvernig á að staðfæra a Microsoft Dynamics 365 Commerce e-verslunarsíðu yfir á fleiri tungumál og stilltu síðuna til að styðja við margar rásir.
 author: bicyclingfool
 ms.date: 04/29/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1e9d91036ceeb9161dc8ee903532b2cf3ca435e2
-ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
+ms.openlocfilehash: 955a85340f6d35f1e203d74920d07b5dc6ff8654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661504"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873385"
 ---
 # <a name="dynamics-365-commerce-e-commerce-localization-guide"></a>Dynamics 365 Commerce Staðsetningarleiðbeiningar fyrir rafræn viðskipti
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að staðsetja a Microsoft Dynamics 365 Commerce e-verslun síða í fleiri tungumál og stilla síðuna til að styðja margar rásir, og einnig nær yfir hugtök og hugtök sem tengjast ferlinu.
+Þessi grein lýsir því hvernig á að staðfæra a Microsoft Dynamics 365 Commerce e-verslun síða í fleiri tungumál og stilla síðuna til að styðja margar rásir, og einnig nær yfir hugtök og hugtök sem tengjast ferlinu.
 
 Rafræn verslunarmöguleikar í Dynamics 365 Commerce hafa verið hönnuð til að gera upplifun á netinu kleift sem hægt er að sníða að sérstökum löndum og tungumálum, en á sama tíma leyfa hámarks endurnotkun á sniðmátum, síðum, efni og miðlum. Þú getur líka búið til grunnsíðu og stækkað síðan inn á nýja markaði með því að bæta við stuðningi fyrir fleiri lönd og tungumál með tímanum.
 
@@ -79,9 +79,9 @@ Upp úr kassanum, allt Dynamics 365 Commerce Netverslunarsíður eru stilltar ti
 ![Út fyrir kassann Dynamics 365 Commerce rafræn viðskipti síða](media/loc-guide-1.png)
 
 > [!NOTE]
-> Þú getur stillt kynningarsíðuna fyrir Fabrikam fyrir viðbótartungumál þannig að hægt sé að þróa efni á því tungumáli. Fyrir upplýsingar um hvernig á að bæta nýju tungumáli við síðu og rás, sjáðu [Stilltu viðbótartungumál fyrir síðuna þína](#configure-an-additional-language-for-your-site) kafla síðar í þessu efni.
+> Þú getur stillt kynningarsíðuna fyrir Fabrikam fyrir viðbótartungumál þannig að hægt sé að þróa efni á því tungumáli. Fyrir upplýsingar um hvernig á að bæta nýju tungumáli við síðu og rás, sjáðu [Stilltu viðbótartungumál fyrir síðuna þína](#configure-an-additional-language-for-your-site) kafla síðar í þessari grein.
 
-Hins vegar er vefumsjónarkerfi (CMS) og síðulíkan fyrir Dynamics 365 Commerce Netverslunarsíður hafa verið hannaðar til að gera útrás á nýja markaði og staði. Þess vegna, í gegnum eina netverslunarsíðu, geturðu stjórnað eignum fyrir netverslun sem spannar marga markaði og tungumál.
+Hins vegar er vefumsjónarkerfi (CMS) og síðulíkan fyrir Dynamics 365 Commerce Netverslunarsíður hafa verið hannaðar til að gera kleift að stækka inn á nýja markaði og staði. Þess vegna, í gegnum eina netverslunarsíðu, geturðu stjórnað eignum fyrir netverslun sem spannar marga markaði og tungumál.
 
 ![Dynamics 365 Commerce Netverslunarsíða sem spannar marga markaði og tungumál](media/loc-guide-2.png)
 
@@ -117,7 +117,7 @@ Til að bæta tungumáli við rás í vefsvæðisgerð skaltu fylgja þessum skr
 
 Þegar þú kemur aftur til **Síður** skoða í Commerce site builder, nýja tungumálið verður fáanlegt í rásinni og staðarvalsvalinu efst til hægri. Þú getur nú búið til staðbundnar útgáfur af síðum á grunntungumálinu þínu.
 
-Farið er yfir ferlið við að staðfæra innihald síðna þinna og brota í [Staðfærðu innihald rafrænna viðskiptasíðunnar](#localize-e-commerce-site-content) kafla síðar í þessu efni.
+Farið er yfir ferlið við að staðfæra innihald síðna þinna og brota í [Staðfærðu innihald rafrænna viðskiptasíðunnar](#localize-e-commerce-site-content) kafla síðar í þessari grein.
 
 ### <a name="configure-a-new-channel-for-your-site"></a>Stilltu nýja rás fyrir síðuna þína
 
@@ -156,64 +156,64 @@ Hægt er að staðsetja eftirfarandi eignir fyrir rafræn viðskipti í vefsmið
 
 Allar nýjar síður, bútar og fjölmiðlaeignir eru búnar til í samhengi við rásina og tungumálið sem er valið í rásar- og staðarvalinu. Þetta tungumál er venjulega "grunntungumálið þitt", að því tilskildu að þú hafir ekki stillt fleiri tungumál eða rásir. Á síðum þar sem margar rásir og tungumál eru stilltar er „grunntungumálið“ skilgreint af rásinni og staðsetningum sem þú hefur stillt sem sjálfgefið á **Rásir** síðu í stillingum vefsvæðisins.
 
-Skrefin til að staðfæra efni fyrir síður, brot og fjölmiðlaeignir eru svipuð. Bent verður á undantekningar og mismun í köflum hér á eftir. Hins vegar eru skrefin til að staðsetja innihald eininga mismunandi. Fyrir frekari upplýsingar, sjá [Staðsetja einingar](#localize-modules) kafla síðar í þessu efni.
+Skrefin til að staðfæra efni fyrir síður, brot og fjölmiðlaeignir eru svipuð. Bent verður á undantekningar og mismun í köflum hér á eftir. Hins vegar eru skrefin til að staðsetja innihald eininga mismunandi. Fyrir frekari upplýsingar, sjá [Staðsetja einingar](#localize-modules) kafla síðar í þessari grein.
 
 #### <a name="step-1-export-an-xliff-file"></a>Skref 1: Flyttu út XLIFF skrá
 
 Fylgdu þessum skrefum til að flytja út XLIFF skrá fyrir síðu, brot eða mynd í vefsíðugerð.
 
-1. Opnaðu eignina sem þú vilt flytja út grunntungumálsefni fyrir svo hægt sé að staðfæra hana.
+1. Opnaðu eignina sem þú vilt flytja út grunnmálsefni fyrir svo hægt sé að staðfæra hana.
 1. Veldu á skipanastikunni **Staðfærsla \> Flytja út XLIFF**.
     > [!NOTE]
     > The **Staðfærsla** valkostur er aðeins sýnilegur þegar eignin er í **Breyta** ríki.
 
-XLIFF skrá sem heitir **\<assetname\> .xlf** verður hlaðið niður í niðurhalsmöppu vafrans þíns. Þessi XLIFF skrá er sérstök fyrir eignina sem þú ert að staðfæra. Þú munt flytja út XLIFF skrá fyrir hverja eign sem þú vilt staðfæra.
+XLIFF skrá sem heitir **\<assetname\> .xlf** verður hlaðið niður í niðurhalsmöppu vafrans þíns. Þessi XLIFF-skrá á sérstaklega við eignina sem verið er að staðfæra. Þú verður að flytja út XLIFF-skrá fyrir hverja eign sem á að staðsetja.
 
-#### <a name="step-2-localize-the-xliff-file"></a>Skref 2: Staðsetjið XLIFF skrána
+#### <a name="step-2-localize-the-xliff-file"></a>Skref 2: Staðfærðu XLIFF skrána
 
-Í flestum tilfellum muntu vinna með staðsetningarsöluaðila til að þýða XLIFF skrárnar þínar. Hins vegar, ef þú ert að staðsetja eignir innbyrðis, eða ef þú vilt bara prófa staðsetningarferlið, verður þú að gera eftirfarandi breytingar á XLIFF skrá:
+Í flestum tilfellum muntu vinna með staðfærslusala til að þýða XLIFF skrárnar þínar. Hins vegar, ef verið er að staðfæra eignir innbyrðis, eða ef þú vilt bara prófa staðfærsluferlið, verður þú að gera eftirfarandi breytingar á XLIFF skrá:
 
-- Bættu markmálseinkenni við /xliff/file þáttinn og stilltu gildið á staðarauðkenni tungumálsins sem þú ert að staðfæra á. 
+- Bættu við eigind marktungumáls við /xliff/skráareininguna og stilltu gildið á staðbundið kenni tungumálsins sem verið er að staðfæra á. 
     > [!NOTE]
-    > Þetta staðsetningarauðkenni verður að passa við staðarauðkennið frá **Rásir** síðu í stillingum vefsvæðisins.
-- Fyrir hvern //upprunaþátt, bætið við systkini í markeiningu þar sem textagildið er staðfærð útgáfa af innihaldi frumeiningarinnar.
+    > Þetta kenni landsstaðals verður að samsvara kenni landsstaðalsins frá **síðunni Rásir** í stillingum setursins.
+- Fyrir hverja //upprunaeiningu skal bæta við markeiningarsystkini þar sem textagildið er staðfærð útgáfa af innihaldi þeirrar frumeiningar.
 
-Fyrir upplýsingar um skemað sem stjórnar XLIFF skrám, sjá [XLIFF 1.2 forskrift](http://docs.oasis-open.org/xliff/xliff-core/xliff-core.html).
+Upplýsingar um skemað sem stjórnar XLIFF-skrám er að finna í [XLIFF 1.2 Specification](http://docs.oasis-open.org/xliff/xliff-core/xliff-core.html).
 
 > [!NOTE]
-> Til að staðfæra eign á mörg tungumál verður þú að búa til staðfærða XLIFF skrá fyrir hvert þessara tungumála.
+> Til að staðfæra eign á mörg tungumál verður að búa til staðfærða XLIFF-skrá fyrir hvert þessara tungumála.
 
-#### <a name="step-3-import-the-localized-xliff-file"></a>Skref 3: Flyttu inn staðbundna XLIFF skrána
+#### <a name="step-3-import-the-localized-xliff-file"></a>Skref 3: Flytja inn staðfærðu XLIFF skrána
 
-Til að flytja inn XLIFF skrá fyrir eign skaltu fylgja þessum skrefum.
+Til að flytja inn XLIFF-skrá fyrir eign skal fylgja þessum skrefum.
 
-1. Í Commerce site builder, opnaðu eignina sem þú vilt flytja inn XLIFF skrá fyrir.
-1. Veldu rásina og tungumálið sem þú flytur inn staðbundið efni fyrir í rásar- og staðarvalinu efst til hægri.
-1. Veldu á skipanastikunni **Staðfærsla \> Flytja inn XLIFF**. Flettu síðan að og veldu staðfærðu XLIFF skrána fyrir valda eign og tungumál.
+1. Í Commerce site builder skal opna eignina sem á að flytja inn XLIFF-skrá fyrir.
+1. Í rásinni og staðbundnu tínslunni efst til hægri skal velja rásina og tungumálið sem verið er að flytja inn staðfært efni fyrir.
+1. Á skipanastikunni skal velja **Staðfæra innflutning \> XLIFF**. Flettu síðan að og veldu staðfærðu XLIFF-skrána fyrir valda eign og tungumál.
 
-Eftir að XLIFF skráin hefur verið flutt inn er "afbrigði" af síðunni, brotinu eða eigninni búið til. Frá þeim tímapunkti hafa allar breytingar sem eru gerðar á staðbundnu afbrigði aðeins áhrif á það afbrigði. Þau hafa ekki áhrif á grunneignina sem afbrigðið var dregið af. Sömuleiðis munu breytingar á grunneigninni ekki hafa áhrif á afbrigði þeirrar eignar. 
+Eftir að XLIFF-skráin hefur verið flutt inn er búið til "afbrigði" af síðunni, brotinu eða eigninni. Frá þeim tímapunkti munu allar breytingar sem gerðar eru á staðfærða afbrigðinu aðeins hafa áhrif á það afbrigði. Þeir munu ekki hafa áhrif á grunneignina sem afbrigðið var dregið af. Sömuleiðis munu breytingar á grunneigninni ekki hafa áhrif á afbrigði þeirrar eignar. 
 
-Hins vegar, þegar um síður er að ræða, geturðu gert breytingar á mismunandi afbrigðum með því að breyta sniðmátinu eða útlitinu sem þessar síður eru bundnar við. Sömuleiðis munu breytingar á broti hafa áhrif á allar síður sem eru háðar því afbrigði.
+Hins vegar, ef um síður er að ræða, er hægt að gera breytingar á milli afbrigða með því að breyta sniðmátinu eða útlitinu sem þessar síður eru bundnar við. Sömuleiðis munu breytingar á broti hafa áhrif á allar síður sem taka háð á því afbrigði.
 
 ### <a name="images"></a>Myndir
 
-Aðeins er hægt að birta myndir á síðu eða einingaafbrigði ef innihaldslýsigögnin sem tengjast þessum myndum eru staðfærð. Eins og er er hægt að staðfæra eftirfarandi lýsigögn í miðlunareign:
+Myndir er aðeins hægt að gera á síðu eða einingarafbrigði ef lýsigögn innihalds sem tengjast þessum myndum eru staðfærð. Eins og er eru eftirfarandi lýsigögn í miðilseign staðfærð:
 
 - Baktexti
 - Lýsing
 - Titill
 
-Eins og er er ekki hægt að staðsetja tvöfaldann fyrir stafræna eign eins og mynd eða myndband. The Dynamics 365 Commerce vöruteymi vinnur nú að þessari getu.
+Eins og er er ekki hægt að staðsetja tvíundina fyrir stafræna eign eins og mynd eða myndband. Vöruteymið Dynamics 365 Commerce vinnur nú að þessari getu.
 
-### <a name="localize-modules"></a>Staðsetja einingar
+### <a name="localize-modules"></a>Staðfæra einingar
 
-Strengir sem eru sýndir sem hluti af einingunni sjálfri (til dæmis „Fyrri“ og „Næsta“ í hringekjueiningu) eru staðfærðir aðskilið frá innihaldi einingarinnar. Fyrir leiðbeiningar, sjá [Staðsetja einingu](e-commerce-extensibility/localize-module.md).
+Strengir sem eru gerðir sem hluti af einingunni sjálfri (til dæmis "Fyrri" og "Áfram" í hringekjueiningu) eru staðfærðir sérstaklega frá innihaldi eininga. Leiðbeiningar er að finna í [Staðfæra kerfiseiningu](e-commerce-extensibility/localize-module.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Orðalisti blaðsíðna](page-elements-overview.md)
 
-[Deiling yfir rásir](cross-channel-sharing.md)
+[Samnýting milli rása](cross-channel-sharing.md)
 
 [Staðfæra einingu](e-commerce-extensibility/localize-module.md)
 
@@ -221,6 +221,6 @@ Strengir sem eru sýndir sem hluti af einingunni sjálfri (til dæmis „Fyrri�
 
 [Staðfæra tilföng og merkjaskrár í Commerce-viðbót](dev-itpro/extension-resource-localization.md)
 
-[Hnattvæða einingar með því að nota CultureInfoFormatter flokkinn](e-commerce-extensibility/globalize-modules.md)
+[Altækar einingar með klasanum CultureInfoFormatter](e-commerce-extensibility/globalize-modules.md)
 
 [Stillingar forrita: Þemu](e-commerce-extensibility/app-settings.md#themes-section)

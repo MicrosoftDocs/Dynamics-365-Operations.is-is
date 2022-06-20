@@ -1,6 +1,6 @@
 ---
 title: Yfirlit fríðindastjórnunar
-description: Í þessu efnisatriði er að finna yfirlit yfir fríðindastjórnun í Dynamics 365 Human Resources.
+description: Þessi grein veitir yfirlit yfir eiginleikann Fríðindastjórnun í Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 12/06/2021
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e53a68aed2e4b1e0b0d7797e7326e223c47443f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687192"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901148"
 ---
 # <a name="benefits-management-overview"></a>Yfirlit fríðindastjórnunar
 
@@ -44,7 +44,7 @@ Ef þú vilt fá aðgang að kynningargögnum þarftu að dreifa sandkassumhverf
 
 ## <a name="enable-benefits-management"></a>Virkja fríðindastjórnun
 
-Þetta efnisatriði lýsir því hvernig á að kveikja á eiginleikum í Human Resources. Það útskýrir einnig hvaða núgildandi eiginleikum í Human Resources er skipt út fyrir Fríðindastjórnun og hvaða eiginleikar eru gerðir óvirkir eftir að þú kveikir á Fríðindastjórnun.
+Þessi grein lýsir því hvernig skal kveikja á eigileikum í Human Resources. Það útskýrir einnig hvaða núgildandi eiginleikum í Human Resources er skipt út fyrir Fríðindastjórnun og hvaða eiginleikar eru gerðir óvirkir eftir að þú kveikir á Fríðindastjórnun.
 
 > [!IMPORTANT]
 > ÞEgar þú hefur virkjað fríðindastjórnun í umhverfi **Framleiðslu** er ekki hægt að afvirkja hana. Við mælum með að virkja og prófa ávinning stjórnunar í umhverfinu **Sandkassi** áður en það er gert kleift í umhverfi **Framleiðslu**. Það er verulegur munur á gamall fríðindavirkni og nýrrar virkni stjórnunar fríðinda sem krefst viðbótaruppsetningar og ætti að prófa áður en þeir eru settir í framleiðslu.

@@ -1,6 +1,6 @@
 ---
 title: Microsoft Office-stíl notendaviðmóts í viðskiptaskjalastjórnun (inniheldur myndband)
-description: Í þessu efnisatriði er útskýrt hvernig á að nota nýja notandaviðmótið í eiginleika viðskiptaskjalastjórnunar í ramma rafrænnar skýrslugerðar.
+description: Þessi grein útskýrir hvernig á að nota nýja notendaviðmótið í viðskiptaskjalastjórnunareiginleika rafrænnar skýrslugerðar (ER) ramma.
 author: v-anamir
 ms.date: 01/05/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e33830e2147d92ad5ee53ad11da55a50613b8ef9
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: bcc464a17e27393c5904c59b8439de6ca000d57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074742"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892226"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Notandaviðmót Microsoft Office-stíls í Stjórnun viðskiptaskjala
 
@@ -32,7 +32,7 @@ Nýja notendaviðmótið (UI) er skýrara og þægilegra í notkun. The **Viðsk
 
 Þú getur notað **Nýtt skjal** hnappinn í **Stjórnun viðskiptaskjala** vinnusvæði til að búa til og breyta sniðmáti í [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) sniði [stillingar](general-electronic-reporting.md#Configuration) sem er veitt af annarri þjónustuveitu og staðsettur í núverandi Finance tilviki, eða til að hlaða upp nýju sniðmáti úr Excel vinnubók. Að auki, í útgáfu 10.0.25 og síðar, geturðu notað **Nýtt skjal** hnappinn til að búa til og breyta sniðmáti í ER sniði sem er geymt í [Alþjóðleg geymsla](general-electronic-reporting.md#Repository).
 
-Í dæmunum í þessu efni er virki veitandinn Contoso og þú notar það til að búa til sniðmát sem er byggt á sniðmáti sem er útvegað af Microsoft. Einnig er hægt að stofna sniðmát með því að hlaða upp eigin sniðmáti á Excel sniði.
+Í dæmunum í þessari grein er virki veitandinn Contoso og þú notar það til að búa til sniðmát sem er byggt á sniðmáti sem er útvegað af Microsoft. Einnig er hægt að stofna sniðmát með því að hlaða upp eigin sniðmáti á Excel sniði.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVQg]
 

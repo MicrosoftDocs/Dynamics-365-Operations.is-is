@@ -1,6 +1,6 @@
 ---
-title: Vörur tvíþætts notagildis
-description: Þetta efnisatriði útskýrir hvernig á að halda utan um vörur sem eru auðkenndar sem vörur með tvíþætt notagildi, geyma vottorðanúmer fyrir hverja viðeigandi afurð og land áfangastaðar, og prenta gild vottorðanúmer á viðeigandi reikninga, fylgiseðla og/eða sölupantanir.
+title: Vörur með tvíþætt notagildi
+description: Þessi grein útskýrir hvernig á að halda utan um vörur sem eru auðkenndar sem tvínota vörur, geyma vottorðsnúmer fyrir hverja viðeigandi vöru og ákvörðunarland og prenta gild vottorðsnúmer á viðeigandi reikninga, fylgiseðla og/eða sölupantanir.
 author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736034"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878904"
 ---
 # <a name="dual-use-goods"></a>Vörur tvíþætts notagildis
 
@@ -42,7 +42,7 @@ Eiginleiki tvíþætts notagildis auðveldar fyrirtækjum að halda utan um afur
 
 6. Pöntunin inniheldur afurð X-100, afurðin er send til Frakklands og franskt vottorð er til fyrir afurðina. Vottorðið er hins vegar útrunnið. Þar af leiðandi birtast eftirfarandi viðvörunarskilaboð: „Vottorð fyrir tvíþætt notagildi fyrir eina eða fleiri vörur með tvíþætt notagildi í þessari sölupöntun eru ógildar. Á að halda áfram með staðfestinguna?“
 
-Þetta efnisatriði útskýrir hvernig á að skilgreina allar stillingar sem þarf til að setja upp vörur með tvíþætt notagildi og styðja þessa atburðarás.
+Þessi grein útskýrir hvernig á að stilla allar stillingar sem þarf til að setja upp tvínota vörur og styðja þessa atburðarás.
 
 ## <a name="define-dual-use-requirements-for-each-relevant-country"></a>Skilgreina kröfur um tvíþætt notagildi fyrir hvert land sem á við
 

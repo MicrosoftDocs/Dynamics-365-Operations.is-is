@@ -1,6 +1,6 @@
 ---
 title: Hvers vegna get ég ekki bakfært þessa færslu?
-description: Þetta efnisatriði lýsir mismunandi ástæðum fyrir því að ekki er hægt að bakfæra færslur. Þar eru einnig taldar upp lausnir á þessu vandamáli.
+description: Þessi grein lýsir mismunandi ástæðum fyrir því að ekki er hægt að bakfæra færslur. Þar eru einnig taldar upp lausnir á þessu vandamáli.
 author: kweekley
 ms.date: 07/21/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-07-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e18caf1dbdf8191713c17b1793f5da44cf2f182b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9a8b26584b1a9b82440583db693cd14daa580e22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724530"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876183"
 ---
 # <a name="why-cant-i-reverse-this-transaction"></a>Hvers vegna get ég ekki bakfært þessa færslu?
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir mismunandi ástæðum fyrir því að ekki er hægt að bakfæra færslur. Þar eru einnig taldar upp lausnir á þessu vandamáli.
+Þessi grein lýsir mismunandi ástæðum fyrir því að ekki er hægt að bakfæra færslur. Þar eru einnig taldar upp lausnir á þessu vandamáli.
 
 ## <a name="symptom"></a>Einkenni
 
@@ -35,14 +35,14 @@ Stofnanir gætu lent í aðstæðum þar sem þær verða að bakfæra færslu s
 
 ## <a name="resolution"></a>Lausn
 
-Færslur verða að uppfylla tiltekin skilyrði áður en hægt er að bakfæra þær. Eftirstandandi hlutar í þessu efnisatriði bjóða upp á staðfestingu á hverri einingu fyrir sig. Þó að þetta efni einblíni á viðskipti í Microsoft Dynamics 365 Finance, sum hugtaka og staðfestingu er hægt að beita á önnur öpp, svo sem Dynamics 365 Supply Chain Management.
+Færslur verða að uppfylla tiltekin skilyrði áður en hægt er að bakfæra þær. Hinir hlutar þessarar greinar veita staðfestingu fyrir hverja einingu. Þó að þessi grein einblíni á viðskipti í Microsoft Dynamics 365 Finance, sum hugtakanna og staðfestingu er hægt að beita á önnur öpp, svo sem Dynamics 365 Supply Chain Management.
 
 Að auki getur staðurinn þar sem færslan er bakfærð haft áhrif á hvort hægt sé að bakfæra hana. Til dæmis er aðeins hægt að bakfæra greiðslu lánardrottins sem er ávísun í hlutanum **Ávísanir** á færslusíðunni fyrir bankareikninganna. Ekki er hægt að bakfæra hana á síðunni **Færslur fylgiskjals** í fjárhag.
 
 Ef kveikt er á eiginleikanum **Fjöldabakfærsla fyrir mörg skjöl** (einnig þekkt sem eiginleiki fjöldabakfærslu) á vinnusvæðinu **Eiginleikastjórnun** hefur það áhrif á hversu margar færslur er hægt að bakfæra og hvar hægt er að bakfæra þær. Þessi eiginleiki veitir tvo kosti þegar kveikt er á honum:
 
 - Fyrir sumar færslugerðir er hægt að velja og bakfæra fleiri en eina færslu í einu úr færslubókinni sem hún var bókuð úr eða af síðunni **Færslur fylgiskjals**. Einstakar færslur verða þó að hafa bakfæranlegar áður en kveikt var á eiginleikanum. Áður en þessi eiginleiki var innleiddur þurfti að bakfæra eina færslu í einu.
-- *Sumar* fjárhagsfærslur er hægt að bakfæra úr færslubókinni (almennu færslubókinni) eða á síðunni **Færslur fylgiskjals**. Það þarf ekki að bakfæra þær af síðu undirbókar. Til dæmis var áður aðeins hægt að bakfæra reikningabók lánardrottins af síðunni **Lánardrottnafærslur**. Nú er hins vegar hægt að bakfæra hana í fjárhagsbókinni, færslubókinni eða á síðunni **Færslur fylgiskjals**. Hver hluti í þessu efnisatriði útskýrir færslugerðirnar sem þessi ávinningur gildir ekki um.
+- *Sumar* fjárhagsfærslur er hægt að bakfæra úr færslubókinni (almennu færslubókinni) eða á síðunni **Færslur fylgiskjals**. Það þarf ekki að bakfæra þær af síðu undirbókar. Til dæmis var áður aðeins hægt að bakfæra reikningabók lánardrottins af síðunni **Lánardrottnafærslur**. Nú er hins vegar hægt að bakfæra hana í fjárhagsbókinni, færslubókinni eða á síðunni **Færslur fylgiskjals**. Hver hluti þessarar greinar útskýrir tegundir viðskipta sem þessi ávinningur á ekki við.
 
 Eiginleiki fjöldabakfærslu virkjar **ekki** fleiri færslugerðir fyrir bakfærslu. Ef ekki var áður hægt að bakfæra færslugerð er samt ekki hægt að bakfæra hana eftir að kveikt er á eiginleikanum. Til dæmis er ekki hægt að bakfæra lánardrottnareikninga innkaupapöntunar burtséð frá því hvort kveikt er á eiginleika fjöldabakfærslu.
 
@@ -189,7 +189,7 @@ Ekki er hægt að bakfæra eftirfarandi gerðir færslna:
 
 Nokkrar færslugerðir uppfæra undirbækur viðskiptakrafna. Sem dæmi má nefna reikninga viðskiptavina úr sölupöntun, reikninga viðskiptavina sem eru færðir inn í gegnum almennu færslubókina, reikninga með frjálsum texta, greiðslur frá viðskiptavinum og afskriftir.
 
-Ef slökkt er á eiginleika fjöldabakfærslu er hægt að bakfæra hverja færslu fyrir sig á annaðhvort síðunni **Færslur viðskiptavinar** fyrir reikninga eða á síðunni **Bankareikningur** fyrir greiðslur með ávísun. Nánari upplýsingar um hvernig á að bakfæra greiðslu er að finna í hlutanum [Reiðufjár- og bankastjórnun](cant-reverse-transctns.md#cash-and-bank-management).
+Ef slökkt er á eiginleika fjöldabakfærslu er hægt að bakfæra hverja færslu fyrir sig á annaðhvort síðunni **Færslur viðskiptavinar** fyrir reikninga eða á síðunni **Bankareikningur** fyrir greiðslur með ávísun. Fyrir upplýsingar um hvernig á að bakfæra greiðslu, sjá [Handbært fé og bankastjórnun](cant-reverse-transctns.md#cash-and-bank-management) kafla síðar í þessari grein.
 
 Ef kveikt er á eiginleika fjöldabakfærslu verður hægt að bakfæra eina eða fleiri færslur viðskiptakrafna á síðunni **Færslur fylgiskjals** og úr færslubókinni þar sem færslurnar voru bókaðar. Hins vegar er enn hægt að bakfæra innborganir frá eingöngu bankareikningi og reikningar með frjálsum texta er aðeins hægt að bakfæra af upprunalegu síðunni (ef kveikt er á eiginleikanum sem leyfir leiðréttingar). Þar að auki er enn ekki hægt að bakfæra færslur viðskiptavina á síðunni **Færslur fyrir \<main account\>** fyrir fjárhagsbókina. Hins vegar er hægt að bakfæra þær af síðunni **Færslur fylgiskjals**.
 

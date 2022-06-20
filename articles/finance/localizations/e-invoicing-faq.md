@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um rafrænar reikningsfærslur
-description: Þetta efnisatriði veitir upplýsingar um algengar spurningar varðandi rafræna reikningsfærslu.
+description: Þessi grein veitir upplýsingar um algengar spurningar varðandi rafræna reikninga.
 author: gionoder
 ms.date: 04/21/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 2d4e7c79c83b9d60469c2b87a7b9120e0d4c13a695badfb2254a85cee629c933
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbb43438a9da567460eb744afb64dae5274f04a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904355"
 ---
 # <a name="electronic-invoicing-faq"></a>Algengar spurningar um rafrænar reikningsfærslur
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir svör við algengum spurningum um rafræna reikningsfærsluþjónustu. Rafræn reikningsfærsla eykur möguleika rafrænnar reikningsfærslu sem er til staðar í Dynamics 365 Finance, Dynamics 365 Supply Chain Management og Dynamics 365 Project Operations. 
+Þessi grein veitir svör við algengum spurningum um rafræna reikningaþjónustu. Rafræn reikningagerð eykur rafræna reikningsgetu sem er til staðar í Dynamics 365 Finance,Dynamics 365 Supply Chain Management, og Dynamics 365 Project Operations. 
 
 ## <a name="what-is-important-about-electronic-invoicing-and-why-should-it-matter-to-my-organization"></a>Hvað er mikilvægt við rafræna reikningsfærslu og hvers vegna ætti hún að skipta máli fyrir fyrirtækið mitt?
 

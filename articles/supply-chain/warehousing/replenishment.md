@@ -1,6 +1,6 @@
 ---
 title: Yfirlit áfyllingar
-description: Þetta efnisatriði lýsir áfyllingaráætlunum sem eru tiltækar fyrir vöruhús sem nota aðgerðirnar sem eru tiltækar í vöruhúsakerfi.
+description: Þessi skrá lýsir áfyllingaráætlunum sem eru tiltækar fyrir vöruhús sem nota aðgerðirnar sem eru tiltækar í vöruhúsakerfi.
 author: Mirzaab
 ms.date: 02/19/2020
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7681294c1c05f1ca93330c948fc454b6460cb41c
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3dceb8e6300d19eb9253e88debbaaef0b6987420
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893092"
 ---
 # <a name="replenishment-overview"></a>Yfirlit áfyllingar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir áfyllingaráætlunum sem eru tiltækar fyrir vöruhús sem nota aðgerðirnar sem eru tiltækar í vöruhúsakerfi. Upplýsingarnar í þessu efnisatriði á ekki við um vöruhúsalausn sem er tiltæk í birgðastjórnun.
+Þessi skrá lýsir áfyllingaráætlunum sem eru tiltækar fyrir vöruhús sem nota aðgerðirnar sem eru tiltækar í vöruhúsakerfi. Upplýsingarnar í þessari grein eiga ekki við um vöruhúsalausnina sem er tiltæk í birgðastjórnun.
 
 Eftirfarandi áfyllingaráætlanir eru tiltækar:
 

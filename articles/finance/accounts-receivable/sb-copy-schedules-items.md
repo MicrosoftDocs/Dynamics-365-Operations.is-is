@@ -1,6 +1,6 @@
 ---
 title: Afritaðu innheimtuáætlanir
-description: Þetta efnisatriði útskýrir hvernig á að afrita innheimtuáætlanir.
+description: Þessi grein útskýrir hvernig á að afrita innheimtuáætlanir.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 0257dacd2c2f36a894f7918403886292251659da
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b3eaf5fa9591968eb866f612b6394489659e5d92
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686248"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908126"
 ---
 # <a name="copy-a-billing-schedule"></a>Afrita greiðsluáætlun
 
@@ -41,7 +41,7 @@ Til að afrita innheimtuáætlun skaltu fylgja þessum skrefum.
 
 Eftir að afritunarferlinu er lokið birtist nýja innheimtuáætlunin neðst á síðunni **Allar innheimtuáætlanir** eða **Virkar innheimtuáætlanir** listasíðu, og á **Innheimtuáætlanir** síðu.
 
-## <a name="copy-items-from-one-billing-schedule-to-another"></a>Afritaðu hluti úr einni innheimtuáætlun yfir í aðra
+## <a name="copy-items-from-one-billing-schedule-to-another"></a>Afritaðu hluti úr einni innheimtuáætlun til annarrar
 
 1. Á **Allar innheimtuáætlanir** eða **Virkar innheimtuáætlanir** listasíðu, veldu núverandi innheimtuáætlun.
 2. Á **Innheimtuáætlun** flipa, veldu **Afrita áætlun**.

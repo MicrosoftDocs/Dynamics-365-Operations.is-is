@@ -1,6 +1,6 @@
 ---
 title: Aðgengiseiginleikar
-description: Þetta efnisatriði lýsir virkni sem er hönnuð til að hjálpa notendum sem hafa ýmsa fötlun.
+description: Þessi grein lýsir virkninni sem er hönnuð til að hjálpa notendum sem eru með ýmsar fötlun.
 author: TLeforMicrosoft
 ms.date: 12/02/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: af17b7933aed2a40d81fbc4e7b79e4e716aaf59b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881052"
 ---
 # <a name="accessibility-features"></a>Aðgengiseiginleikar
 
@@ -26,7 +26,7 @@ ms.locfileid: "8071059"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þetta efnisatriði lýsir virkni sem er hönnuð til að hjálpa notendum sem hafa ýmsa fötlun nota þetta forrit. Til dæmis eru eiginleikar fyrir fólk sem notar tækni til að sjá betur, svo sem Microsoft Windows Narrator.
+Þessi grein lýsir virkninni sem er hönnuð til að hjálpa notendum með ýmsar fötlun að nota þetta forrit. Til dæmis eru eiginleikar fyrir fólk sem notar tækni til að sjá betur, svo sem Microsoft Windows Narrator.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Narrator og lyklaborð-eingöngu aðgangur
 
@@ -49,7 +49,7 @@ Frekari upplýsingar, sjá [Flettingaleit](navigation-search.md).
 
 ## <a name="action-search-for-keyboard-only-users-or-for-heads-down-data-entry"></a>Aðgerðaleit fyrir lyklaborð-eingöngu notendur eða fyrir gagnafærslur sem eru framkvæmdar án villuleitar
 
-Sérhverja aðgerð sem er að finna á síðu er hægt að nálgast á lyklaborðinu, gegnum fliparöðina. Upplýsingar um fliparöðina er að finna seinna í þessu efnisatriði. Til að keyra aðgerðir meira beint, getur þú notað aðgerðaleitarvirkni.
+Sérhverja aðgerð sem er að finna á síðu er hægt að nálgast á lyklaborðinu, gegnum fliparöðina. Upplýsingar um fliparöðina eru veittar síðar í þessari grein. Til að keyra aðgerðir meira beint, getur þú notað aðgerðaleitarvirkni.
 
 ### <a name="example"></a>Dæmi
 

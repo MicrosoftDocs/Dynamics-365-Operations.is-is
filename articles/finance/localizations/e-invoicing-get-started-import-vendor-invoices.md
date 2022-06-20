@@ -1,6 +1,6 @@
 ---
 title: Nota rafræna reikningsþjónustu til að flytja inn reikninga lánardrottna
-description: Í þessu efnisatriði er að finna upplýsingar um hvernig á að flytja inn reikninga lánardrottna með rafrænni reikningsfærsluþjónustu.
+description: Þessi grein veitir upplýsingar um hvernig á að flytja inn reikninga lánardrottins með því að nota rafræna reikningaþjónustu.
 author: gionoder
 ms.date: 09/03/2021
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c28adbfe532e77a52cab7625b9539d1e8e528bea
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 2d239bbafad9292ba6cef5534e778a2824a9cc5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "7983824"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865585"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Nota rafræna reikningsþjónustu til að flytja inn reikninga lánardrottna
 
@@ -30,7 +30,7 @@ ms.locfileid: "7983824"
 
 [!include [banner](../includes/preview-banner.md)]
 
-Í þessu efnisatriði er að finna upplýsingar sem hjálpa til við að komast af stað með að flytja inn reikninga lánardrottins með rafrænni reikningsfærsluþjónustu. Þær leiða þig í gegnum skilgreiningarskrefin í Regulatory Configuration Services (RCS), Dynamics 365 Finance og Dynamics 365 Supply Chain Management sem þú verður að fylgja til að fá rafræna reikninga lánardrottna frá lánardrottnum.
+Þessi grein veitir upplýsingar sem hjálpa þér að hefjast handa við að flytja inn reikninga lánardrottins með því að nota rafræna reikningaþjónustu. Það leiðir þig í gegnum stillingarskrefin í Regulatory Configuration Services (RCS), Dynamics 365 Finance og Dynamics 365 Supply Chain Management sem þú verður að fylgja til að fá rafræna lánardrottnareikninga frá söluaðilum.
 
 ## <a name="set-up-vendor-invoice-import-in-rcs"></a>Setja upp innflutning á reikningi lánardrottins í RCS
 Til að setja upp innflutning reikning lánardrottins í RCS skaltu fylgja þessum skrefum:

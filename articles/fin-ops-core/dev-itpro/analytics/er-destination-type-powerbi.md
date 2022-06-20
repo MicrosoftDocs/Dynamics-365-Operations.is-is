@@ -1,6 +1,6 @@
 ---
 title: Power BI ER-gerð áfangastaðar
-description: Þetta efni veitir upplýsingar um hvernig skal stilla Power BI ER-áfangastaðargerð fyrir skjöl á útleið.
+description: Þessi grein veitir upplýsingar um hvernig á að stilla Power BI Gerð ER áfangastaðar fyrir skjöl á útleið.
 author: NickSelin
 ms.date: 01/23/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 10.0.09
-ms.openlocfilehash: 499447b05ef6360cde95049e592d7c9ffe2da1c4ff26937482033b9f705c3acd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50675c15ec1273d6955c36aef87f9aaa846d4247
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845600"
 ---
 # <a name="power-bi-destination"></a>Power BI viðtökustaður
 
@@ -28,7 +28,7 @@ ms.locfileid: "6777429"
 
 Hægt er að stilla Microsoft Power BI áfangastaðar fyrir hvern möppu- eða skráarhluta á rafrænu skýrslugerðarsniðinu (ER) sem er stillt til að búa til útgönguskjöl. Byggt á stillingu ákvörðunarstaðarins er myndað skjal geymt í áður uppsettri SharePoint-möppu.
 
-Stilltu **Virkt** á **Já** til að nota skilgreiningu Rafrænnar skýrslugerðar til að sjá um flutning gagna úr Dynamics 365 Finance tilviki til Microsoft Power BI-þjónustu. Fluttar skrárnar eru vistaðar í tilviki Microsoft SharePoint Server sem verður að vera skilgreint fyrir þess háttar tilgang. Frekari upplýsingar er að finna í [Skilgreina rafræna skýrslugerð (ER) til að draga gögn inn í Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Sett **Virkt** til **Já** til að nota ER stillinguna þína til að skipuleggja flutning gagna frá Dynamics 365 Finance tilvikinu þínu til Microsoft Power BI þjónusta. Fluttar skrárnar eru vistaðar í tilviki Microsoft SharePoint Server sem verður að vera skilgreint fyrir þess háttar tilgang. Frekari upplýsingar er að finna í [Skilgreina rafræna skýrslugerð (ER) til að draga gögn inn í Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 [![Stillingasíða viðtökustaðar.](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
 

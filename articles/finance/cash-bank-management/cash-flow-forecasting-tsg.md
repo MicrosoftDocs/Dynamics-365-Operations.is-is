@@ -1,6 +1,6 @@
 ---
 title: Úrræðaleit vegna uppsetningar sjóðstreymisspár
-description: Þetta efnisatriði veitir svör við spurningum sem gætu vaknað þegar verið er að skilgreina sjóðstreymisspár. Þar er svarað algengum spurningum um uppsetningu sjóðstreymis, uppfærslur á sjóðstreymi og sjóðstreymi Power BI.
+description: Þessi grein veitir svör við spurningum sem þú gætir haft þegar þú stillir sjóðstreymisspá. Þar er svarað algengum spurningum um uppsetningu sjóðstreymis, uppfærslur á sjóðstreymi og sjóðstreymi Power BI.
 author: panolte
 ms.date: 03/23/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2020-12-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e2b5a8df84ff5159a85526251a6367857afa1808
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 0e3438bc07fde28d5d9d2d5b3d83bbe70692c0bd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878071"
 ---
 # <a name="troubleshoot-cash-flow-forecasting-setup"></a>Úrræðaleit vegna uppsetningar sjóðstreymisspár
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir svör við spurningum sem gætu vaknað þegar verið er að skilgreina sjóðstreymisspár. Þar er svarað algengum spurningum um uppsetningu sjóðstreymis, uppfærslur á sjóðstreymi og sjóðstreymi Power BI.
+Þessi grein veitir svör við spurningum sem þú gætir haft þegar þú stillir sjóðstreymisspá. Þar er svarað algengum spurningum um uppsetningu sjóðstreymis, uppfærslur á sjóðstreymi og sjóðstreymi Power BI.
 
 ## <a name="why-is-cash-flow-shown-for-only-one-legal-entity"></a>Hvers vegna er sjóðstreymi sýnd fyrir aðeins einn lögaðila?
 

@@ -1,6 +1,6 @@
 ---
 title: Nýjungar eða breytingar í Dynamics 365 Human Resources 2. desember 2020
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 2. desember 2020.
+description: Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Human Resources fyrir 2. desember 2020.
 author: marcelbf
 ms.date: 12/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e02586ad3e6b4428f2ba826851db6ebc3172bdf1760b483032f5159e7864a81
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cecef6d2e73b42126b1be100dca52ebd8d9270fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782660"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848108"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources 2. desember 2020
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Í þessu efnisatriði er lýst nýjum, breyttum eða væntanlegum eiginleikum í Dynamics 365 Human Resources.
+Þessi grein lýsir eiginleikum sem eru nýir, breyttir eða koma fljótlega í Dynamics 365 Human Resources.
 
 Frekari upplýsingar um uppfærsluferlið okkar og áætlun er að finna í [Uppfærsluferli](hr-admin-setup-update-process.md).
 
@@ -52,9 +52,9 @@ Eftirfarandi eiginleikar eru almennt aðgengilegur með þessari útgáfu.
 Eftirfarandi villuleiðréttingar eru innifaldar í þessari útgáfu.
 
 > [!NOTE]
-> Markmiðið okkar er að koma þessum upplýsingum til þín eins fljótt og auðið er. Við gætum uppfært þetta efnisatriði til að hafa með leiðréttingar á villum sem slæddust með smíðinni eftir að þetta efnisatriði var gefið út upphaflega.
+> Markmiðið okkar er að koma þessum upplýsingum til þín eins fljótt og auðið er. Við gætum uppfært þessa grein til að innihalda villuleiðréttingar sem komu inn í bygginguna eftir að þessi grein var upphaflega birt.
 
-| Númer úthreyfingar | Úthreyfing | lýsing |
+| Númer úthreyfingar | Gefa út | Lýsing |
 | --- | --- | --- |
 | 514087 | BenefitEligibilityProcessResult ætti að innihalda dag og tíma sem var notuð í ferlinu. | Úrvinnsla úr niðurstöðum BenefitEligibity inniheldur nú datetimestamp fyrir síðustu vinnslu, sem vantaði fyrr. |
 | 526903 | Fríðindaskráning mistekst fyrir áætlanir ásamt skjólstæðingum þegar kveikt er á **Sjálfvirkt val á fulltrúum** í **Samnýttar færibreytur fyrir mannauð**. | Leyst var úr vandamáli þegar fríðindaskráning mistókst fyrir skjólstæðinga þegar kveikt var á valkostinum **Sjálfvirkt val á fulltrúum** fyrir sjálfgefna fulltrúa. |

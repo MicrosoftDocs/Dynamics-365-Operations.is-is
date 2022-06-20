@@ -1,6 +1,6 @@
 ---
 title: Búðu til gagnasamþættingarverkefni
-description: Þetta efnisatriði útskýrir hvernig á að búa til gagnasamþættingarverkefni.
+description: Þessi grein útskýrir hvernig á að búa til gagnasamþættingarverkefni.
 author: ShivamPandey-msft
 ms.date: 05/06/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4d69ffcb6ccfcc7bae2891f2539941f7b6bbf86e
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 4ff4f88c6c5d55d853aebd7d437bfb107292fb2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722884"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876241"
 ---
 # <a name="create-a-data-integration-project"></a>Búðu til gagnasamþættingarverkefni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að búa til gagnasamþættingarverkefni.
+Þessi grein útskýrir hvernig á að búa til gagnasamþættingarverkefni.
 
 1. Skrá inn Microsoft Dynamics 365 Fjármál.
 2. Farið á **Vinnusvæði\> Gagnastjórnun** og veljið **Gagnaeiningar**. Bíða skal þar til allir gagnaeiningarnar hafa verið uppfærðar áður en farið er í næsta skref.

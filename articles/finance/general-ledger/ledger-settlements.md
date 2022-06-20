@@ -1,6 +1,6 @@
 ---
 title: Fjárhagsjafnanir
-description: Þetta efnisatriði útskýrir hvernig á að nota síðu fjárhagsjafnana til að jafna fjárhagsfærslur og bakfærslur.
+description: Þessi grein útskýrir hvernig á að nota síðuna Fjárhagsuppgjör til að jafna fjárhagsfærslur og bakfæra uppgjör.
 author: kweekley
 ms.date: 01/31/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: e98b012210338e7f18cb874eefbc8a023aa4428b
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 39fd6c6677565a4b1e9a9bf6f43a4c630cb5e07b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902488"
 ---
 # <a name="ledger-settlements"></a>Fjárhagsjafnanir
 
@@ -32,7 +32,7 @@ Uppgjör viðskipti geta verið útilokuð frá fyrirspurnum og skýrslum. Þann
 > Viðskiptaskuldir (AP) og Viðskiptakröfur (AR) einingarnar hafa einnig uppgjör á reikningum og greiðslum. Þegar uppgjör á sér stað í undirbókum AR og AP eru samsvarandi fjárhagsfærslur ekki sjálfkrafa jafnaðar.
 
 ## <a name="ledger-settlement-features"></a>Eiginleikar fjárhagsuppgjörs
-Í Microsoft Dynamics 365 Finance útgáfa 10.0.21, the **Virkja háþróaða fjárhagsuppgjör** valkostur var fjarlægður úr **Fjárhagsfæribreytur** síðu. Ítarleg uppgjör fjárhagsbókar er nú alltaf virkjuð.
+Í Microsoft Dynamics 365 Fjármál útgáfa 10.0.21, the **Virkja háþróaða fjárhagsuppgjör** valkostur var fjarlægður úr **Fjárhagsfæribreytur** síðu. Ítarleg uppgjör fjárhagsbókar er nú alltaf virkjuð.
 Í Finance útgáfu 10.0.25 er **Meðvitund milli uppgjörs fjárhags og ársloka** eiginleiki var kynntur. Þessi eiginleiki breytir grundvallarvirkni bæði í uppgjöri fjárhags og ársloka aðalbókar. Áður en þú virkjar þennan eiginleika í **Eiginleikastjórnun** vinnusvæði, sjá, [Meðvitund milli uppgjörs fjárhags og ársloka](awareness-between-ledger-settlement-year-end-close.md).
 
 ## <a name="set-up-ledger-settlement"></a>Setja upp fjárhagsuppgjör

@@ -1,6 +1,6 @@
 ---
 title: Kynning á eiginleikanum umsjón hönnunarbreytinga
-description: Í þessu efnisatriði er að finna ítarlega kynningu sem sýnir hvernig á að vinna með umsjón hönnunarbreytinga.
+description: Þessi grein veitir leiðsögn frá enda til enda sem sýnir hvernig á að vinna með verkfræðilega breytingastjórnun.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573994"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889636"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Kynning á eiginleikanum umsjón hönnunarbreytinga
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna ítarlega kynningu sem sýnir hvernig á að vinna með umsjón hönnunarbreytinga. Farið er í gegnum mikilvægustu þættina:
+Þessi grein veitir leiðsögn frá enda til enda sem sýnir hvernig á að vinna með verkfræðilega breytingastjórnun. Farið er í gegnum mikilvægustu þættina:
 
 - Skilgreining á grunneiginleikum
 - Hvernig hönnunarfyrirtæki stofnar nýja hönnunarafurð
@@ -35,13 +35,13 @@ ms.locfileid: "7573994"
 - Hvernig á að áætla og innleiða umbeðnar breytingar með því að stofna pöntun hönnunarbreytingar
 - Hvernig á að gefa út afurð sem hefur verið breytt
 
-Allar æfingarnar í þessu efnisatriði nota stöðluð sýnigögn sem Microsoft Dynamics 365 Supply Chain Management lætur í té. Auk þess byggir hver æfing á fyrri æfingunni. Þess vegna mælum við með því að þú farir í gegnum æfingarnar í réttri röð, frá upphafi til enda, sérstaklega ef þú hefur aldrei notað eiginleika hönnunarbreytingastjórnunar áður. Á þennan hátt öðlastu víðtækari skilning á eiginleikanum.
+Allar æfingar í þessari grein nota staðlað sýnishornsgögn sem eru veitt fyrir Microsoft Dynamics 365 Supply Chain Management. Auk þess byggir hver æfing á fyrri æfingunni. Þess vegna mælum við með því að þú farir í gegnum æfingarnar í réttri röð, frá upphafi til enda, sérstaklega ef þú hefur aldrei notað eiginleika hönnunarbreytingastjórnunar áður. Á þennan hátt öðlastu víðtækari skilning á eiginleikanum.
 
 ## <a name="set-up-for-the-sample-scenario"></a>Setja upp fyrir sýnidæmið
 
-Til að fylgja sýnidæminu sem boðið er upp á í þessu efnisatriði þarf fyrst að undirbúa eiginleikann með því að gera sýnigögnin aðgengileg og bæta við nokkrum sérsniðnum færslum.
+Til að fylgja sýnishorninu sem er að finna í þessari grein, verður þú fyrst að undirbúa eiginleikann með því að gera kynningargögn aðgengileg og bæta við nokkrum sérsniðnum færslum.
 
-Áður en reynt er að framkvæma einhverjar af æfingunum í þessu efnisatriði skal fylgja leiðbeiningunum í öllum eftirfarandi undirköflum. Þessir undirkaflar kynna einnig til sögunnar nokkrar mikilvægar stillingasíður sem þú munt nota þegar þú setur upp umsjón hönnunarbreytinga fyrir þitt eigið fyrirtæki.
+Áður en þú reynir að gera einhverja af æfingunum í restinni af þessari grein skaltu fylgja leiðbeiningunum í öllum eftirfarandi undirköflum. Þessir undirkaflar kynna einnig til sögunnar nokkrar mikilvægar stillingasíður sem þú munt nota þegar þú setur upp umsjón hönnunarbreytinga fyrir þitt eigið fyrirtæki.
 
 ### <a name="make-standard-demo-data-available"></a>Gera stöðluð sýnigögn aðgengileg
 

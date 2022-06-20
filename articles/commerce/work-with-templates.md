@@ -1,6 +1,6 @@
 ---
 title: Vinna með sniðmát
-description: Þetta efnisatriði útskýrir hvernig á að vinna með sniðmát í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að vinna með sniðmát í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ab6ccfac96249b39cb007d9a9fce10475f0c7149
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: c234ddb0cdc212bead4f722f7881fbf21d608675
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881580"
 ---
 # <a name="work-with-templates"></a>Vinna með sniðmát
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að vinna með sniðmát í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að vinna með sniðmát í Microsoft Dynamics 365 Commerce.
 
 Eins og fjallað var um í [Yfirlit yfir sniðmát og skipulag](templates-layouts-overview.md) skilgreina sniðmát hópinn af valkostum sem eru tiltækir höfundum. Sniðmát eru gagnleg fyrir vefhöfundateymi fyrirtækisins af ýmsum ástæðum og vel skipulögð sniðmát geta hjálpað við öll eftirfarandi markmið:
 
@@ -123,7 +123,7 @@ Fylgdu þessum skrefum til að bæta handriti við sniðmát í vefsíðugerð.
 
 ## <a name="save-check-in-preview-and-publish-a-template"></a>Vistaðu, skráðu inn, forskoðaðu og birtu sniðmát.
 
-Fylgdu þessum skrefum til að vista og innrita sniðmát í vefsíðugerð.
+Fylgdu þessum skrefum til að vista og innrita sniðmát í Site builder.
 
 1. Veldu **Vista** efst í sniðmátsritli. Vistaðar breytingar hafa ekki áhrif á forstreymissíðum fyrr en þær eru skráðar inn.
 1. Veldu **Ljúka við breytingar**. Nú er hægt að uppgötva breytingarnar fyrir forstreymisflæði.
@@ -145,7 +145,7 @@ Fylgdu þessum skrefum til að endurnefna núverandi sniðmát í vefsíðugerð
 
 1. Í vinstri yfirlitsrúðunni, veldu **Sniðmát**.
 1. Veldu sniðmátsheiti sniðmátsins sem þú vilt endurnefna.
-1. Veldu **Breyta** til að byrja að breyta sniðmátinu. Athugaðu að þú getur ekki breytt sniðmátinu ef einhver annar er þegar að breyta sniðmátinu.
+1. Veldu **Breyta** til að byrja að breyta sniðmátinu. Athugaðu að þú getur ekki breytt sniðmáti ef einhver annar er þegar að breyta sniðmátinu.
 1. Í sniðmátareiginleikarúðunni skaltu velja pennatáknið við hlið sniðmátsheitisins.
 1. Breyttu heiti sniðmátsins eftir þörfum.
 1. Veldu gátmerkið til að staðfesta nafnbreytinguna.

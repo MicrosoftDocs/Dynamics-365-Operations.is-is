@@ -1,6 +1,6 @@
 ---
-title: Staðgreiðsluskýrsla fyrir Indónesíu
-description: Þetta efni útskýrir hvernig á að stilla og búa til staðgreiðsluskýrslu fyrir Indónesíu.
+title: Staðgreiðsluskattskýrsla fyrir Indónesíu
+description: Þessi grein útskýrir hvernig á að stilla og búa til staðgreiðsluskýrslu fyrir Indónesíu.
 author: sndray
 ms.date: 12/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2021-12-02
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6cf2f9240ea747054578c52343af34b15c250f38
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: 8acd9442ff4f0b7c19e3b4fcf211acce002e43d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883182"
 ---
 # <a name="withholding-tax-report-for-indonesia-id-00005"></a>Staðgreiðsluskýrsla fyrir Indónesíu (ID-00005)
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að setja upp og búa til PPH staðgreiðsluskrána sem lögaðilar í Indónesíu nota til að tilkynna staðgreiðslufærslur í e-Bupot forritinu.
+Þessi grein útskýrir hvernig á að setja upp og búa til PPH staðgreiðsluskrána sem lögaðilar í Indónesíu nota til að tilkynna staðgreiðsluviðskipti í e-Bupot forritinu.
 
 Skattyfirvöld í Indónesíu (DGT) ákvarðar að skattskyldir frumkvöðlar (PKP) sem eru skráðir hjá KPP Pratama sem staðgreiðendur/innheimtufé tekjuskatts (PPh) 23. gr. og/eða 26. gr., verða að tilkynna tekjuskattsskýrslu greinar 23 og 26 rafrænt með því að nota e-Bupot forritið. 
 
@@ -52,7 +52,7 @@ Til að búa til innflutningsskrána skaltu hlaða upp eftirfarandi stillingum �
 
 1. Fara til **Skattur** \> **Uppsetning** \> **Fjárhagsfæribreytur**.
 2. Á **Staðgreiðsla skatts** flipa, í **Hvaða yfirlýsingu snið kortlagning** reit, veldu **Hvaða PPh skema innflutningur (ID)**. 
-3. Fara til **Skattur** \> **Uppsetning** \> **Staðgreiðsla skatts** \> **Tekjutegundir staðgreiðsluskatts** að setja upp **Kóði Bukti Potong** tegund staðgreiðslu skatttekju og úthluta síðan kóðanum á tengda staðgreiðsluflokka vöru. Kóðarnir eru nauðsynlegir til að búa til samþættingarskrána með því að nota e-Bupot forritið. 
+3. Fara til **Skattur** \> **Uppsetning** \> **Staðgreiðsla skatts** \> **Tekjutegundir staðgreiðsluskatts** að setja upp **Kóði Bukti Potong** tegund staðgreiðslu skatttekju og úthluta síðan kóðunum á tengda staðgreiðsluflokka vöru. Kóðarnir eru nauðsynlegir til að búa til samþættingarskrána með því að nota e-Bupot forritið. 
 
 ## <a name="generate-the-withholding-import-file"></a>Búðu til staðgreiðsluinnflutningsskrána
 

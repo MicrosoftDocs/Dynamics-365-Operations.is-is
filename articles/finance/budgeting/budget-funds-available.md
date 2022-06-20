@@ -1,6 +1,6 @@
 ---
 title: Tiltækt fjármagn úr fjárhagsáætlun
-description: Þetta efni kynnir tiltæka eiginleika fjárhagsáætlunarfjár og veitir upplýsingar sem geta hjálpað þér að stilla fjárhagsáætlunarstýringu til að hámarka stjórnun á fjárhag fyrirtækisins.
+description: Þessi grein kynnir tiltæka eiginleika fjárhagsáætlunarsjóða og veitir upplýsingar sem geta hjálpað þér að stilla fjárhagsáætlunarstýringu til að hámarka stjórnun á fjárhag fyrirtækisins.
 author: RyanCCarlson2
 ms.date: 11/22/2021
 ms.topic: article
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2021-11-28
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: 1e7b2bf7ef7bd1bca6db27371f87dfddcdceef89
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b6f94931ba3514c1c66d80b64846d882861d555c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710250"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898241"
 ---
 # <a name="budget-funds-available"></a>Tiltækt fjármagn úr fjárhagsáætlun
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Þetta efni kynnir tiltæka eiginleika fjárhagsáætlunarfjár og veitir upplýsingar sem geta hjálpað þér að stilla fjárhagsáætlunarstýringu til að hámarka stjórnun á fjárhag fyrirtækisins.
+Þessi grein kynnir tiltæka eiginleika fjárhagsáætlunarsjóða og veitir upplýsingar sem geta hjálpað þér að stilla fjárhagsáætlunarstýringu til að hámarka stjórnun á fjárhag fyrirtækisins.
 
 ## <a name="enhanced-calculation-feature-for-budget-funds-available"></a>Aukinn útreikningseiginleiki fyrir fjárveitingar í boði
 
@@ -45,4 +45,4 @@ Sumir stillingarvalkostir fjárhagsáætlunarstýringar verða að hafa sérstak
 
 Þessi eiginleiki hefur aðeins áhrif á ný skjöl. Upphæðir fyrir núverandi skjöl verða áfram raktar og sýndar í fyrirspurn um tölfræði fjárhagsáætlunarstýringar þar til stillingu fjárhagsáætlunarfjár tiltækt er breytt og nýja stillingar fjárhagsáætlunarstýringar er virkjuð. Á þeim tímapunkti verða rakningargögn fjárhagsáætlunar fjarlægð fyrir skjöl sem voru fjarlægð úr tiltækum útreikningi fjárhagsáætlunarfjár.
 
-Við mælum með að þú yfirgefur **Óbókuð raunútgjöld** valkostur hreinsaður. Ef það er valið verður tímafrekur útreikningur fjárhagsáætlunarstýringar gerður á óbókuðum skjölum, eins og biðreikningum lánardrottins.
+Við mælum með að þú yfirgefur **Óbókuð raunútgjöld** valkostur hreinsaður. Ef það er valið verður tímafrekur útreikningur fjárhagsáætlunargerðar á óbókuðum skjölum, svo sem reikningum lánardrottins í bið.

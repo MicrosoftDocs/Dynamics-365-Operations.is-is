@@ -1,6 +1,6 @@
 ---
 title: Setja upp og vinna með viðvaranir vegna svika fyrir símaver
-description: Í þessu efnisatriði er útskýrt hvernig á að setja upp reglur viðvörun viðskiptavinar þjónustu biðlaraþjónustu hugsanlega sviksamleg upplýsinga þegar pantanir eru unnar. Þú getur skilgreint tiltekna kóða sem eru notaðir til að sjálfkrafa eða handvirkt setja grunsamlegar pantanir í bið.
+description: Þessi grein útskýrir hvernig á að setja upp reglur til að gera þjónustufulltrúa viðvart um hugsanlegar sviksamlegar upplýsingar þegar pantanir eru unnar. Þú getur skilgreint tiltekna kóða sem eru notaðir til að sjálfkrafa eða handvirkt setja grunsamlegar pantanir í bið.
 author: josaw1
 ms.date: 05/14/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e692d43b8c2648a424ff3b4fdc9d0cf16d0e03702d6a237f71caaf49646c5ec3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 212afd594453d3594fdaef9442a7809e4cafbd07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763669"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885349"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Setja upp og vinna með viðvaranir vegna svika fyrir símaver
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að setja upp viðmiðanir og reglur til að setja hugsanlega sviksamlega sölupantanir í bið til frekari endurskoðunar. Eiginleikinn fyrir svikaathugun er notuð til að ákvarða réttmæti upplýsinganna í sölupöntun. Ef upplýsingar í sölupöntun virðist vafasamar, miðað við svik viðmiðanir og reglur stofnunarinnar, er hægt að setja pöntunina í bið til frekari endurskoðunar. Í þessu tilfelli er ekki hægt að gefa út pöntunina í vörugeymsluna til frekari vinnslu fyrr en biðin hefur verið hreinsað.
+Þessi grein útskýrir hvernig á að setja upp viðmið og reglur til að setja hugsanlega sviksamlegar sölupantanir í bið til frekari skoðunar. Eiginleikinn fyrir svikaathugun er notuð til að ákvarða réttmæti upplýsinganna í sölupöntun. Ef upplýsingar í sölupöntun virðist vafasamar, miðað við svik viðmiðanir og reglur stofnunarinnar, er hægt að setja pöntunina í bið til frekari endurskoðunar. Í þessu tilfelli er ekki hægt að gefa út pöntunina í vörugeymsluna til frekari vinnslu fyrr en biðin hefur verið hreinsað.
 
 > [!NOTE]
 > Þessi eiginleiki er aðeins hægt að nota með sölupöntunarvinnslu fyrir Commerce-rás símavers.

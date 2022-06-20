@@ -1,6 +1,6 @@
 ---
 title: VSK yfirlýsing (Þýskaland)
-description: Þetta efni lýsir því hvernig á að setja upp og búa til fyrirfram virðisaukaskattsskýrslu (VSK) fyrir Þýskaland á opinberu XML sniði.
+description: Þessi grein lýsir því hvernig á að setja upp og búa til fyrirfram virðisaukaskattsskýrslu (VSK) fyrir Þýskaland á opinberu XML sniði.
 author: anasyash
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: a761a145a876584728098a92b3f3e93ac718a164
-ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.openlocfilehash: ff52963c03ec2eb662eb0c20ef2a960e3b999167
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "8402804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879533"
 ---
 # <a name="vat-declaration-germany"></a>VSK yfirlýsing (Þýskaland)
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að setja upp og búa til fyrirfram virðisaukaskattsskýrslu (VSK) fyrir Þýskaland á opinberu XML sniði. Þetta efni útskýrir einnig hvernig á að forskoða virðisaukaskattsskýrsluna í Microsoft Excel.
+Þessi grein lýsir því hvernig á að setja upp og búa til fyrirfram virðisaukaskattsskýrslu (VSK) fyrir Þýskaland á opinberu XML sniði. Þessi grein útskýrir einnig hvernig á að forskoða virðisaukaskattsskýrsluna í Microsoft Excel.
 
 Til að búa til skýrsluna sjálfkrafa skaltu búa til nógu marga VSK-kóða til að halda sérstakt VSK bókhald fyrir hvern reit á fyrirfram VSK yfirlýsingunni. Að auki, í forritssértækum færibreytum rafrænnar skýrslugerðar (ER) sniðs fyrir fyrirfram VSK yfirlýsingu, tengja virðisaukaskattskóða við uppflettingarniðurstöðu uppflettanna fyrir reitina á VSK yfirlýsingunni.
 
-Fyrir Þýskaland verður þú að stilla **Tilkynna reiti leit**. Fyrir frekari upplýsingar um hvernig á að setja upp forritssértækar færibreytur, sjá [Settu upp forritssértækar færibreytur fyrir VSK-yfirlýsingareiti](#set-up-application-specific-parameters-for-vat-declaration-fields) kafla síðar í þessu efni.
+Fyrir Þýskaland verður þú að stilla **Tilkynna reiti leit**. Fyrir frekari upplýsingar um hvernig á að setja upp forritssértækar færibreytur, sjá [Settu upp forritssértækar færibreytur fyrir VSK-yfirlýsingareiti](#set-up-application-specific-parameters-for-vat-declaration-fields) kafla síðar í þessari grein.
 
 Í eftirfarandi töflu sýnir dálkurinn „Upplitsniðurstaða“ uppflettingarniðurstöðuna sem er forstillt fyrir tiltekna virðisaukaskattsyfirlýsingarlínu á sniði VSK-yfirlýsingarinnar. Notaðu þessar upplýsingar til að tengja virðisaukaskattskóða rétt við uppflettingarniðurstöðuna og síðan við línuna í virðisaukaskattsskýrslunni.
 
@@ -59,7 +59,7 @@ Fyrirfram virðisaukaskattsyfirlýsingin í Þýskalandi inniheldur eftirfarandi
 |-----|----------------|------------------|--------------------------------------------------------|-----------------------------------------|
 | 30  | 48             | *Engin skattupphæð*  | Skattfrjáls sala sem hefur ekki innskattsfrádrátt. | 30-Tax Free SalesWithoutInputTaxDeduction |
 
-**Kaup innan samfélags**
+**Kaup innan bandalags**
 
 | Lína | Box – skattstofn | Box – skattupphæð | Lýsing                                                                                                                   | Niðurstaða uppflettingar                                                    |
 |-----|----------------|------------------|-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
@@ -67,7 +67,7 @@ Fyrirfram virðisaukaskattsyfirlýsingin í Þýskalandi inniheldur eftirfarandi
 | 34  | 89             | Án kóða     | Skattskyld kaup innan samfélags með 19 prósenta skatthlutfalli.                                                             | 34-EUPurchase Standard</br>34-UseTaxEUPurchase Standard (89/61)        |
 | 35  | 93             | Án kóða     | Skattskyld kaup innan samfélags með 7 prósenta skatthlutfalli.                                                              | 35-EUKauplækkað</br>35-UseTaxEUPurchaseReduced (93/61)          |
 | 36  | 95             | 98               | Skattskyld kaup innan samfélags á öðrum skatthlutföllum.                                                                      | 36-EUKaupAðrir Verð</br>36-UseTaxEUPurchaseOtherRates (95/98/61) |
-| 37  | 94             | 96               | Skattskyld kaup á nýjum ökutækjum innan samfélagsins frá birgjum sem eru ekki með virðisaukaskattsnúmer, á almennu skatthlutfalli. | 37-EUKaupökutæki</br>37-UseTaxEUPurchase Vehicles (94/96/61)     |
+| 37  | 94             | 96               | Skattskyld kaup innan samfélags á nýjum ökutækjum frá birgjum sem eru ekki með virðisaukaskattsnúmer, á almennu skatthlutfalli. | 37-EUKaupökutæki</br>37-UseTaxEUPurchase Vehicles (94/96/61)     |
 
 **KAFLI – RÉTTHAFI SEM SKATTSKULDA**
 
@@ -104,7 +104,7 @@ Fyrirfram virðisaukaskattsyfirlýsingin í Þýskalandi inniheldur eftirfarandi
 
 | Lína | Box – skattupphæð | Lýsing                                                                                                                                                                                                                                                         | Niðurstaða uppflettingar                                 |
 |-----|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| 64  | 65               | Skattur vegna breytinga á skattlagningarformi og viðbótarskattur á skattlagðar útborganir vegna breytinga á skatthlutfalli.                                                                                                                                        | 64-Additional TaxDueChangeTaxRate              |
+| 64  | 65               | Skattur vegna breytinga á skattlagningu og viðbótarskattur á skattlagðar útborganir vegna breytinga á skatthlutfalli.                                                                                                                                        | 64-Additional TaxDueChangeTaxRate              |
 | 65  | 69               | Rangar eða óréttmætar skattfjárhæðir sem koma fram á reikningum og skattfjárhæðir sem eru skuldar í samræmi við 2. málslið 6a (4), 2. málslið 6a (4), 7. málslið 17. liðar (1) eða 2. mgr. 25b (2). útvistunarfyrirtæki eða vöruhúsvörður. | 65-TaxLækkun Leiðrétting                      |
 | 67  | 39               | Frádráttur fastrar sérstakra fyrirframgreiðslu vegna varanlegrar framlengingar. Þessi röð er venjulega aðeins fyllt út með síðustu fyrirfram tilkynningu skatttímabilsins.                                                                                                  | Innsláttarfæri notanda í skýrsluglugganum |
 | 68  | 83               | Eftirstöðvar fyrirframgreiðslu söluskatts og eftirstöðvar umfram. Láttu mínus log fyrir framan upphæðina.                                                                                                                                                          | UMFERÐ 62 + UMFERÐ 64 – UMFERÐ 65 – UMFERÐ 66             |
@@ -176,9 +176,9 @@ Fylgdu þessum skrefum til að skilgreina hvaða VSK-kóðar búa til hvaða rei
 
     | Reitur                  | Lýsing                                                                                                                                                                                                                                                                                                          |
     |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Niðurstaða uppflettingar          | Veldu gildi skýrslureitsins. Nánari upplýsingar um gildin og úthlutun þeirra á lína VSK-skýrslu er að finna í [Yfirlit yfir virðisaukaskattsskýrslu](#vat-declaration-overview) kafla fyrr í þessu efni.                                                                                               |
+    | Niðurstaða uppflettingar          | Veldu gildi skýrslureitsins. Nánari upplýsingar um gildin og úthlutun þeirra á lína VSK-skýrslu er að finna í [Yfirlit yfir virðisaukaskattsskýrslu](#vat-declaration-overview) kafla fyrr í þessari grein.                                                                                               |
     | Skattkóði               | Veldu VSK-kóðann sem á að tengja við skýrslureitinn. Bókaðar skattfærslur sem nota valda vsk-kóðann verða safnað í viðeigandi framtalsreit. Við mælum með að þú aðskiljir vsk-kóða á þann hátt að einn vsk-kóði myndar upphæðir í aðeins einum framtalsreit. |
-    | Færsluflokkari | Ef þú bjóst til nógu marga VSK-kóða til að ákvarða framtalsreit skaltu velja **\* Ekki autt\***. Ef þú bjóst ekki til nógu marga VSK-kóða þannig að einn VSK-kóði myndar upphæðir í aðeins einum framtalsreit, geturðu sett upp færsluflokkara. Eftirfarandi færsluflokkar eru fáanlegir:</br>-   **Innkaup**</br>-   **Undanþegin kaup** (skattfrjálst kaup)</br>-   **PurchaseReverseCharge** (skattur af öfugri gjaldfærslu)</br>-   **Sala**</br>-   **Undanþegin sölu** (skattfrjáls sala)</br>-   **SalesReverseCharge** (skattur sem greiddur er af öfugri greiðslu eða öfugri sölu)</br>-   **Notaðu skatt**. </br>Fyrir hvern færsluflokkara er einnig tiltækur flokkari fyrir kreditnótu. Til dæmis er einn af þessum flokkunaraðilum **PurchaseCreditNote** (kaupinneignarnóta).</br>Vertu viss um að búa til tvær línur fyrir hvern VSK-kóða: eina sem hefur færsluflokkunargildið og eina sem hefur færsluflokkarann fyrir kreditnótugildi. |
+    | Færsluflokkari | Ef þú bjóst til nógu marga VSK-kóða til að ákvarða framtalsreit skaltu velja **\* Ekki autt\***. Ef þú bjóst ekki til nógu marga VSK-kóða þannig að einn VSK-kóði myndar upphæðir í aðeins einum framtalareit, geturðu sett upp færsluflokkara. Eftirfarandi færsluflokkar eru fáanlegir:</br>-   **Innkaup**</br>-   **Undanþegin kaup** (skattfrjálst kaup)</br>-   **PurchaseReverseCharge** (skattur af öfugri gjaldfærslu)</br>-   **Sala**</br>-   **Undanþegin sölu** (skattfrjáls sala)</br>-   **SalesReverseCharge** (skattur sem greiddur er af öfugri greiðslu eða öfugri sölu)</br>-   **Notaðu skatt**. </br>Fyrir hvern færsluflokkara er einnig tiltækur flokkari fyrir kreditnótu. Til dæmis er einn af þessum flokkunaraðilum **PurchaseCreditNote** (kaupinneignarnóta).</br>Vertu viss um að búa til tvær línur fyrir hvern VSK-kóða: eina sem hefur færsluflokkunargildið og eina sem hefur færsluflokkarann fyrir kreditnótugildi. |
 
     > [!NOTE]
     > Tengja alla söluskattskóða við uppflettingarniðurstöður. Ef einhverjir söluskattskóðar ættu ekki að mynda gildi á virðisaukaskattsskýrslunni skaltu tengja þá við **Annað** uppflettingarniðurstöðu.
@@ -225,7 +225,7 @@ Gagnapakkinn inniheldur rafrænar skilaboðastillingar sem notaðar eru til að 
 1. Fara til **Skattur** > **Uppsetning** > **Rafræn skilaboð** > **Fylltu færslur aðgerðir**.
 2. Veldu línu fyrir **DE Fylltu út virðisaukaskattsskýrslur**, og veldu síðan **Breyta fyrirspurn**.
 3. Notaðu síuna til að tilgreina uppgjörstímabilin sem á að hafa með í skýrslunni.
-4. Ef þú verður að tilkynna skattfærslur frá öðrum uppgjörstímabilum í annarri skýrslu, stofnaðu nýja **Fylltu færslur** aðgerð og veldu viðeigandi uppgjörstímabil.
+4. Ef þú verður að tilkynna skattfærslur frá öðrum uppgjörstímabilum í annarri skýrslu, stofnaðu nýja **Fylltu út færslur** aðgerð og veldu viðeigandi uppgjörstímabil.
 
 ## <a name="preview-the-vat-declaration-in-excel"></a>Forskoðaðu virðisaukaskattsskýrsluna í Excel
 
@@ -265,7 +265,7 @@ Gagnapakkinn inniheldur rafrænar skilaboðastillingar sem notaðar eru til að 
 
 ## <a name="generate-a-vat-declaration-from-electronic-messages"></a>Búðu til virðisaukaskattsskýrslu úr rafrænum skilaboðum
 
-Þegar þú notar rafræn skilaboð til að búa til skýrsluna geturðu safnað skattagögnum frá mörgum lögaðilum. Fyrir frekari upplýsingar, sjá [Keyra virðisaukaskattsskýrslu fyrir marga lögaðila](#run-a-vat-declaration-for-multiple-legal-entities) kafla síðar í þessu efni.
+Þegar þú notar rafræn skilaboð til að búa til skýrsluna geturðu safnað skattagögnum frá mörgum lögaðilum. Fyrir frekari upplýsingar, sjá [Keyra virðisaukaskattsskýrslu fyrir marga lögaðila](#run-a-vat-declaration-for-multiple-legal-entities) kafla síðar í þessari grein.
 
 Eftirfarandi aðferð á við um rafræn skilaboðavinnsludæmi sem þú fluttir inn úr LCS Shared eignasafni.
 
@@ -277,7 +277,7 @@ Eftirfarandi aðferð á við um rafræn skilaboðavinnsludæmi sem þú fluttir
     > [!NOTE]
     > Skref 5 til 7 eru valfrjáls.
 
-5. Valfrjálst: Á **Skilaboð** Flýtiflipi, veldu **Safna gögnum**, og veldu síðan **Allt í lagi**. Vöruskattsgreiðslunum sem áður var búið til er bætt við skilaboðin. Fyrir frekari upplýsingar, sjá [Gera upp og bóka söluskatt](#settle-and-post-sales-tax) kafla fyrr í þessu efni. Ef þú sleppir þessu skrefi geturðu samt búið til virðisaukaskattsskýrslu með því að nota **Útgáfa skattframtals** sviði í **Yfirlýsing** valmynd.
+5. Valfrjálst: Á **Skilaboð** Flýtiflipi, veldu **Safna gögnum**, og veldu síðan **Allt í lagi**. Vöruskattsgreiðslur sem voru búnar til áður er bætt við skilaboðin. Fyrir frekari upplýsingar, sjá [Gera upp og bóka söluskatt](#settle-and-post-sales-tax) kafla fyrr í þessari grein. Ef þú sleppir þessu skrefi geturðu samt búið til virðisaukaskattsskýrslu með því að nota **Útgáfa skattframtals** sviði í **Yfirlýsing** valmynd.
 6. Valfrjálst: Á **Skilaboðaatriði** Flýtiflipi, skoðaðu söluskattsgreiðslur sem eru fluttar til vinnslu. Sjálfgefið er að allar söluskattsgreiðslur valins tímabils sem ekki voru innifalin í öðrum skilaboðum í sömu vinnslu eru innifaldar.
 7. Valfrjálst: Veldu **Upprunalegt skjal** til að fara yfir söluskattsgreiðslurnar, eða veldu **Eyða** að undanskilja söluskattsgreiðslur frá afgreiðslu. Ef þú sleppir þessu skrefi geturðu samt búið til virðisaukaskattsskýrslu með því að nota **Útgáfa skattframtals** sviði í **Yfirlýsing** valmynd.
 8. Á **Skilaboð** Flýtiflipi, veldu **Uppfæra stöðu**. Í **Uppfæra stöðu** valmynd, veldu **Tilbúið til að búa til**, og veldu síðan **Allt í lagi**. Staðfestu að skilaboðastöðu sé breytt í **Tilbúið til að búa til**.
@@ -287,13 +287,13 @@ Eftirfarandi aðferð á við um rafræn skilaboðavinnsludæmi sem þú fluttir
     | **Svæði**                                   | **Lýsing**                                                                                                                                                                                                              |
     |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Jöfnunartímabil                           | Veldu uppgjörstímabil. Ef þú valdir **Safna gögnum** í skrefi 5 geturðu skilið þennan reit eftir auðan. Skýrslan verður mynduð fyrir söluskattsfærslurnar sem eru innifaldar í innheimtum söluskattsgreiðslum. |
-    | Útgáfa skattframtals                     | Veljið eitt af eftirfarandi gildum:</br>-   **Upprunalegt** – Mynda skýrslu fyrir söluskattsfærslur upprunalegu söluskattsgreiðslunnar eða áður en söluskattsgreiðslan er mynduð.</br>-   **Leiðréttingar** – Búa til skýrslu fyrir söluskattsfærslur allra síðari söluskattsgreiðslna fyrir tímabilið.</br>-   **Heildarlisti** – Búðu til skýrslu fyrir allar söluskattsfærslur tímabilsins, þar á meðal frumritið og allar leiðréttingar.|
+    | Útgáfa skattframtals                     | Veljið eitt af eftirfarandi gildum:</br>-   **Upprunalegt** – Búa til skýrslu fyrir söluskattsfærslur upprunalegu söluskattsgreiðslunnar eða áður en söluskattsgreiðslan er mynduð.</br>-   **Leiðréttingar** – Búa til skýrslu fyrir söluskattsfærslur allra síðari söluskattsgreiðslna fyrir tímabilið.</br>-   **Heildarlisti** – Búðu til skýrslu fyrir allar söluskattsfærslur tímabilsins, þar á meðal frumritið og allar leiðréttingar.|
     | Skattfulltrúi | Veldu þann aðila sem er skattfulltrúi fyrir virðisaukaskattsskýrslu, ef við á. Upplýsingar um valinn aðila eru fluttar út til **DatenLieferant** XML frumefni. |
     | Tengiliður | Veldu einstakling í fyrirtækinu sem er gagnaveitandi. Upplýsingar um valinn einstakling eru fluttar út í **DatenLieferant** XML frumefni. |
     | Leiðrétt skil | Veldu **Já** ef þetta er virðisaukaskattsskýrsla til leiðréttingar. Í þessu tilviki mun XML þátturinn KZ10 hafa gildið **1**.|
     | Stuðningsskjöl | Veldu **Já** ef þú sendir líka fylgiskjöl. Í þessu tilviki mun XML þátturinn KZ22 hafa gildið **1**.|
     | SEPA-umboð fyrir beingreiðslu verður afturkallað sem undantekning| Veldu **Já** ef SEPA beingreiðsluheimild verður afturkölluð sem undantekning fyrir þetta forskráningartímabil. Til dæmis vegna jöfnunarbeiðna. Eftirstöðvar skal greiða sérstaklega. Í þessu tilviki mun XML þátturinn KZ26 hafa gildið **1**. |
-    | Jöfnun á þeirri endurgreiðsluupphæð sem óskað er eftir | Veldu **Já** ef óskað er eftir skuldajöfnun á endurgreiðslufjárhæð eða ef endurgreiðslufjárhæð hefur verið ráðstafað. Í þessu tilviki mun XML þátturinn KZ29 hafa gildið **1**. |
+    | Jöfnun á þeirri endurgreiðsluupphæð sem óskað er eftir | Veldu **Já** ef óskað er eftir jöfnun á endurgreiðslufjárhæð eða ef endurgreiðslufjárhæð hefur verið ráðstafað. Í þessu tilviki mun XML þátturinn KZ29 hafa gildið **1**. |
     | Sérstök fyrirframgreiðsla varanleg framlenging | Færið inn frádráttarfjárhæð fastrar sérstakrar fyrirframgreiðslu til varanlegrar framlengingar. Þessari frádráttarfjárhæð er venjulega aðeins lokið við síðustu forskráningu skatttímabilsins. Upphæðin er flutt út í línu 67 (reitur 39) og XML-einingu KZ39 í virðisaukaskattsskýrslu. |
 
 11. Veldu **Viðhengi** í efra hægra horninu á síðunni og veldu síðan **Opið**.
@@ -321,7 +321,7 @@ Fylgdu þessum skrefum til að setja upp rafræn skilaboð sem safna gögnum fr�
 
     | Reitur                  | Lýsing                                                                                                                   |
     |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-    | Heiti                   | Sláðu inn gildi sem hjálpar þér að skilja hvaðan þessi skrá kemur. Til dæmis, slá inn **VSK greiðsla dótturfélags 1**. |
+    | Nafn                   | Sláðu inn gildi sem hjálpar þér að skilja hvaðan þessi skrá kemur. Til dæmis, slá inn **VSK greiðsla dótturfélags 1**. |
     | Gerð skilaboðaatriðis      | Veldu **VSK skil**. Þetta gildi er eina gildið sem er tiltækt fyrir allar færslurnar.                                    |
     | Lykilgerð           | Veldu **Allt**.                                                                                                               |
     | Aðaltöfluheiti      | Tilgreindu **Skattskýrsluskírteini** fyrir allar heimildir.                                                                             |

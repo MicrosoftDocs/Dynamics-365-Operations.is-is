@@ -1,8 +1,8 @@
 ---
 title: Hanna skýrslur á mörgum tungumálum í rafrænni skýrslugerð
-description: Þetta efnisatriði útskýrir hvernig hægt er að nota merki rafrænnar skýrslugerðar til að hanna og búa til skýrslur á mörgum tungumálum.
+description: Þessi grein útskýrir hvernig þú getur notað rafræna skýrslugerð (ER) merki til að hanna og búa til fjöltyngdar skýrslur.
 author: NickSelin
-ms.date: 04/28/2022
+ms.date: 05/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: c042d609d68544aa4be5d707109a15b2ab8d422c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845745"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Hanna skýrslur á mörgum tungumálum í rafrænni skýrslugerð
 
@@ -142,6 +142,9 @@ Ef snið rafrænnar skýrslugerðar er skilgreint á þennan hátt er skýrslan 
 
 Ef merki sem vísað er í er ekki með neina þýðingu fyrir tungumál keyrslusniðs fyrir það samhengi verður texti merkis á EN-US notað í staðinn.
 
+> [!TIP]
+> Þú getur notað **MAPPA** og mismunandi tegundir af **SKRÁ** hluti á breytanlegu ER sniði til að tilgreina hvernig skrá á útleið er búin til. Til að nefna myndaða skrá skaltu stilla ER [tjáningu](er-formula-language.md) fyrir **Skráarnafn** færibreytu íhlutarins. Þú getur notað merki í stilltu tjáningu. Vegna þess að **Skráarnafn** færibreytan er sjálfgefið tungumálaagnostísk, texti allra merkimiða sem þú vísar í í þessari tjáningu er sýndur á sjálfgefna EN-US tungumáli á keyrslutíma. Hins vegar, í útgáfu 10.0.28 og síðar, geturðu virkjað **Notaðu færibreytuna 'Language preference' á 'Skráarnafn' tjáninguna** eiginleiki. The **Skráarnafn** tjáning tekur þá **Tungumálastillingar** færibreytu til hliðsjónar þegar hún er reiknuð út.
+
 ## <a name="language"></a>Tungumál
 
 Rafræn skýrslugerð styður mismunandi leiðir til að tilgreina tungumál fyrir myndaða skýrslu. Í reitnum **Kjörstillingar tungumáls** í flipanum **Snið** er hægt að velja eftirfarandi gildi:
@@ -198,7 +201,7 @@ Skilgreining á hluta rafrænnar skýrslugerðar er gerð í útgáfudrögum fyr
 
 ![Skilgreiningasíða rafrænnar skýrslugerðar sem veitir aðgang að útgáfu skilgreiningar með stöðuna drög.](./media/er-multilingual-labels-configurations.png)
 
-Eins og lýst er fyrr í þessu efnisatriði er hægt er að bæta nauðsynlegum merkjum rafrænnar skýrslugerðar við breytanlegan hluta rafrænnar skýrslugerðar. Á þennan hátt er hægt að tilgreina texta fyrir merki rafrænnar skýrslugerðar á tungumálinu EN-US. Síðan er hægt að flytja út merki fyrir hluta rafrænnar skýrslugerðar með því að nota innbyggða virkni rafrænnar skýrslugerðar. Veljið útgáfudrög fyrir skilgreiningu rafrænnar skýrslugerðar sem inniheldur breytanlegan hluta rafrænnar skýrslugerðar og veljið síðan **Skipta út \> Flytja út merki**.
+Eins og lýst er fyrr í þessari grein geturðu bætt nauðsynlegum ER merkimiðum við breytanlegan ER íhlut. Á þennan hátt er hægt að tilgreina texta fyrir merki rafrænnar skýrslugerðar á tungumálinu EN-US. Síðan er hægt að flytja út merki fyrir hluta rafrænnar skýrslugerðar með því að nota innbyggða virkni rafrænnar skýrslugerðar. Veljið útgáfudrög fyrir skilgreiningu rafrænnar skýrslugerðar sem inniheldur breytanlegan hluta rafrænnar skýrslugerðar og veljið síðan **Skipta út \> Flytja út merki**.
 
 ![Skilgreiningasíða rafrænnar skýrslugerðar sem gerir kleift að flytja út merki rafrænnar skýrslugerðar úr valdri skilgreiningarútgáfu.](./media/er-multilingual-labels-export.png)
 
@@ -229,7 +232,7 @@ Merki grunnhluta rafrænnar skýrslugerðar er hægt að vísa til í afleiddri 
 
 Innbyggð [LISTOFFIELDS](er-functions-list-listoffields.md) aðgerð rafrænnar skýrslugerðar er með aðgang að merkjum rafrænnar skýrslugerðar sem hafa verið skilgreind fyrir sum atriði í hlutum rafrænnar skýrslugerðar.
 
-Eins og lýst hefur verið hér áður í þessu efnisatriði er hægt að tengja eigindirnar **Merki** og **Lýsing** fyrir hvert tölusetningargildi [líkans](#LinkModelEnum) eða [sniðs](#LinkFormatEnum) rafrænnar skýrslugerðar við merki rafrænnar skýrslugerðar sem er aðgengilegt í viðeigandi hluta rafrænnar skýrslugerðar. Hægt er að skilgreina segð rafrænnar skýrslugerðar þar sem kallað er á aðgerðina **LISTOFFIELDS** með því að nota tölusetningu rafrænnar skýrslugerðar sem skipun. Þessi segð skilar lista sem inniheldur færslu fyrir hvert gildi tölusetningar rafrænnar skýrslugerðar sem hefur verið skilgreind sem skipun fyrir þessa aðgerð. Sérhver færsla inniheldur gildið fyrir merki rafrænnar skýrslugerðar sem er tengt við tölusetningargildi rafrænnar skýrslugerðar:
+Eins og lýst er fyrr í þessari grein, er **Merki** og **Lýsing** eiginleika hvers og eins [fyrirmynd](#LinkModelEnum) eða [sniði](#LinkFormatEnum) Gildi ER upptalningar er hægt að tengja við ER merki sem er aðgengilegt í viðeigandi ER íhlut. Hægt er að skilgreina segð rafrænnar skýrslugerðar þar sem kallað er á aðgerðina **LISTOFFIELDS** með því að nota tölusetningu rafrænnar skýrslugerðar sem skipun. Þessi segð skilar lista sem inniheldur færslu fyrir hvert gildi tölusetningar rafrænnar skýrslugerðar sem hefur verið skilgreind sem skipun fyrir þessa aðgerð. Sérhver færsla inniheldur gildið fyrir merki rafrænnar skýrslugerðar sem er tengt við tölusetningargildi rafrænnar skýrslugerðar:
 
 - Gildi fyrir merki rafrænnar skýrslugerðar sem er tengt við eigindirnar **Merki** er vistað í reitnum **Merki** fyrir færsluna sem var skilað.
 - Gildi fyrir merki rafrænnar skýrslugerðar sem er tengt við eigindirnar **Lýsing** er vistað í reitnum **Lýsing** fyrir færsluna sem var skilað.
@@ -238,7 +241,7 @@ Eins og lýst hefur verið hér áður í þessu efnisatriði er hægt að tengj
 
 Þegar þú skilgreinir hlut rafræns skýrslugerðarsniðs til að búa til skýrslu á æskilegu [tungumáli](#language) eða til að flytja inn skjal á innleið þar sem innihaldið er þáttað eftir æskilegu tungumáli, mælum við með að þú virkir eiginleikann **Vista kjörtungumál núverandi notanda fyrir keyrslur rafrænna skýrslugerða í skyndiminni** á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops/get-started/feature-management/feature-management-overview.md). Þessi eiginleiki hjálpar til við að bæta afköst, sérstaklega fyrir þætti rafræns skýrslugerðarsniðs sem innihalda margar tilvísanir í merki í formúlum rafrænnar skýrslugerðar og bindingar og margar [villuleitarreglur](general-electronic-reporting-formula-designer.md#TestFormula) til að búa til skilaboð notanda á kjörtungumáli þínu.
 
-Þegar þú breytir stöðu ER uppsetningarútgáfu frá **Drög** til **Lokið**, ef stillingarútgáfan inniheldur ER merki eru þessi merki geymd í gagnagrunni forritsins. Geymsluskema fer eftir ástandi **Flýttu fyrir geymslu ER merkimiða** eiginleiki:
+Þegar þú breytir stöðu ER uppsetningarútgáfu frá **Drög** til **Lokið**, ef stillingarútgáfan inniheldur ER merki eru þau merki geymd í gagnagrunni forritsins. Geymsluskema fer eftir ástandi **Flýttu fyrir geymslu ER merkimiða** eiginleiki:
 
 - Ef eiginleikinn er ekki virkur eru öll merki geymd í **LABELXML** sviði á **ÚTLÖNSKUVERSIONTAFLA** töflu sem einn XML bút.
 - Ef aðgerðin er virkjuð er sérstök færsla búin til fyrir hvert tungumál í **ÚTLÖNSUNÚTGÁFAMERKIÐARSTÖÐUR** borð. The **INNIHALD** reit þessarar töflu geymir merki fyrir hvert tungumál sem þjappað XML bút.

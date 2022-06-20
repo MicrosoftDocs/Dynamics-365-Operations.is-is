@@ -1,6 +1,6 @@
 ---
 title: Línuleg afskrift eftirstandandi líftíma
-description: Þetta efnisatriðii gefur yfirlit yfir afskriftaaðferðina Línuleg afskrift eftirstandandi líftíma.
+description: Þessi grein gefur yfirlit yfir afskriftaaðferðina Línuleg afskrift eftirstandandi líftíma.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92941bc679835d38ba47464452315498a70ce2ee
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 185e1c101ffb6dfbd47348952d6dfc47ab137ffa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726698"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853439"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Línuleg afskrift eftirstandandi líftíma
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriðii gefur yfirlit yfir afskriftaaðferðina Línuleg afskrift eftirstandandi líftíma.
+Þessi grein gefur yfirlit yfir afskriftaaðferðina Línuleg afskrift eftirstandandi líftíma.
 
 Þegar afskriftarregla fyrir eignir er sett upp og valið er **Línuleg á eftirstöðvum líftíma** í svæðinu **aðferð** í síðunni **afskriftarregla** ráðast afskriftir eignasem heyra undir þá afskriftarreglu er byggð á eftirstandandi líftíma eignarinnar. Þetta er að öllu jöfnu sama afskriftarupphæðin á hverju afskriftatímabili. Til að setja upp afskriftir fyrir Línuleg á eftirstöðvum líftíma, verður einnig að velja valkosti á svæðinu **afskriftarár** og **tímabilstíðni** á síðunni **afskriftareglur**. Valkostirnir sem eru tiltækir á svæðinu **tímabilstíðni** eru mismunandi eftir því sem valið er á svæðinu **afskriftarár**.
 
@@ -35,7 +35,7 @@ Hægt er að velja annað hvort **Dagatal** eða **reikningsár** í svæðinu *
 
 ### <a name="calendar"></a>Dagatal
 
-Ef **Dagatal** er valið í **_Afskriftarár_*_ reitnum, er gert ráð fyrir ári sem er 1. janúar til og með 31. desember, jafnvel ef fjárhagsdagatalið hefur verið skilgreint annan hátt. Valkosturinn_* Dagatal** uppfærir afskriftargrunninn 1. janúar hvert ár. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæmunum hér að neðan er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
+Ef **Dagatal** er valið í **_Afskriftarár_*_ reitnum, er gert ráð fyrir ári sem er 1. janúar til og með 31. desember, jafnvel ef fjárhagsdagatalið hefur verið skilgreint annan hátt. Valkosturinn_* Dagatal** uppfærir afskriftargrunninn 1. janúar hvert ár. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæminu síðar í þessari grein er afskriftargrunnurinn teljarinn í fyrstu tjáningu í útreikningsdálknum. Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
 
 - **Árleg** upphæð bókar 31. Desember.
 - **Mánaðarlega** bókar mánaðarlega upphæð við lok hvers almanaks mánaðar.

@@ -1,6 +1,6 @@
 ---
-title: Stilla a SharePoint rás
-description: Þetta efni útskýrir hvernig á að stilla Microsoft SharePoint rás til að vinna úr innkomnum rafrænum reikningum.
+title: Skilgreina SharePoint-rás
+description: Þessi grein útskýrir hvernig á að stilla Microsoft SharePoint rás til að vinna úr innkomnum rafrænum reikningum.
 author: dkalyuzh
 ms.date: 02/09/2022
 ms.topic: article
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ea3e14ed00b0661d3923c1839135378a8a550499
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 89538adde4d14212fb0deccad05f828d146f16db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910042"
 ---
-# <a name="configure-a-sharepoint-channel"></a>Stilla a SharePoint rás
+# <a name="configure-a-sharepoint-channel"></a>Skilgreina SharePoint-rás
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,7 +53,7 @@ Sem forsenda þess að hægt sé að stilla Microsoft SharePoint rás til að vi
     | SharePoint-veffang    | Sláðu inn SharePoint URL. Til dæmis er slegið inn `<domain>.sharepoint.com`. |
     | Auðkenni umsóknar        | Sláðu inn nafn Azure Key Vault leyndarmálsins sem inniheldur auðkenni SharePoint notandareikningur. Þetta leyndarmál verður að búa til í Key Vault og setja upp í þjónustuumhverfi þínu. Gildið er **Auðkenni umsóknar (viðskiptavinar).** verðmæti frá [Stilla SharePoint Tenging](e-invoicing-create-sharepoint-connection.md). |
     | Leynilykill forrits    | Sláðu inn nafn Key Vault leyndarmálsins sem inniheldur lykilorðið fyrir SharePoint notandareikningur. Gildið er **App Skráning leyndarmál** verðmæti frá [Stilla SharePoint Tenging](e-invoicing-create-sharepoint-connection.md). |
-    | Heiti svæðis             | Sláðu inn nafnið á SharePoint síða. |
+    | Heiti vefsvæðis             | Sláðu inn nafnið á SharePoint síða. |
     | Heiti skjalasafns | Sláðu inn nafnið á SharePoint skjalasafn. |
     | Tímalokun               | Sláðu inn hámarkstíma, í millisekúndum (ms), sem kerfið ætti að bíða eftir svari. Sjálfgefið gildi er 10.000 ms (10 sekúndur). |
     | Aðalmappa           | Tilgreindu uppruna skráainnflutnings eða möppuna sem þjónustan ætti að vinna úr skrám. |
@@ -64,5 +64,5 @@ Sem forsenda þess að hægt sé að stilla Microsoft SharePoint rás til að vi
     | Skráarsía           | Sláðu inn streng til að sía eftir skráarnafni. Þessi reitur er valfrjáls. Einfaldur maski eins og **\* smth\* .ext** er stutt, þar sem hver stjörnu (\*) táknar núll eða fleiri tilvik af hvaða staf sem er. Til dæmis, slá inn **\* .pdf** til að stilla rásina til að lesa PDF skjöl. |
     | Sérsniðið skráarheiti      | Sláðu inn sérsniðið skráarheiti frá viðskiptavininum. |
 
-10. Á **Gildisreglur** flipa, endurskoða og uppfæra viðmiðin eftir þörfum. Verðmæti **Rás** reiturinn verður að jafngilda gildinu sem þú slóst inn í **Gagnarás** reit í fyrra skrefi.
+10. Á **Gildisreglur** flipa, endurskoða og uppfæra viðmiðin eftir þörfum. Verðmæti **Rás** reiturinn verður að jafngilda gildinu sem þú slóst inn í **Gagnarás** reitinn í fyrra skrefi.
 11. Veljið **Vista** og lokið skjámyndinni.

@@ -1,6 +1,6 @@
 ---
 title: Samstilling sölupantana beint á milli Sales og Supply Chain Management
-description: Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem notuð eru til að keyra samstillingu sölupantana beint á milli Dynamics 365 Sales og Dynamics 365 Supply Chain Management.
+description: Greinin fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að keyra samstillingu sölupantana beint á milli Dynamics 365 Sales og Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 05/09/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: eb41a21395a5d115b779e6b1ef71e9eb1176e28e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 63a9be9bedabe1f15ad8db583151aa7fa480473b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061519"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854153"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Samstilling sölupantana beint á milli Sales og Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061519"
 
 
 
-Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem notuð eru til að keyra samstillingu sölupantana beint á milli Dynamics 365 Sales og Dynamics 365 Supply Chain Management.
+Greinin fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að keyra samstillingu sölupantana beint á milli Dynamics 365 Sales og Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gagnaflæði í Prospect to cash
 
@@ -203,7 +203,7 @@ Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþætt
 
 [![Sniðmátsvörpun í gagnasamþættingu, sölupantanir (Sales til Supply Chain Management) - Beint: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
-## <a name="related-topics"></a>Tengd efnisatriði
+## <a name="related-articles"></a>Tengdar greinar
 
 [Viðfang til sjóðstreymis](prospect-to-cash.md)
 
