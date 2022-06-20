@@ -1,6 +1,6 @@
 ---
 title: Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
-description: Þetta efnisatriði lýsir því hvernig á að nota keyrsluviðmót framleiðslugólfsins frá sjónarhóli starfsmanns.
+description: Þessi grein lýsir því hvernig á að nota framleiðslugólfsviðmótið frá sjónarhóli starfsmanns.
 author: johanhoffmann
 ms.date: 01/24/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
-ms.translationtype: MT
+ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644991"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860668"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -34,7 +34,7 @@ Eftir að tækið hefur verið undirbúið birtist innskráningarsíðan í þv�
 
 ![Innskráningarsíða fyrir keyrsluviðmót framleiðslugólfs.](media/pfei-sign-in-page.png "Innskráningarsíða fyrir keyrsluviðmót framleiðslugólfs")
 
-Eftirstandandi hlutar í þessu efnisatriði lýsa því hvernig starfsmenn nota viðmótið.
+Hlutarnir sem eftir eru af þessari grein lýsa því hvernig starfsmenn hafa samskipti við viðmótið.
 
 ## <a name="all-jobs-tab"></a>Flipi allra starfa
 
@@ -74,11 +74,11 @@ Listinn yfir virkar vinnslur er með eftirfarandi dálkum:
 
 ## <a name="my-jobs-tab"></a>Störfin mín flipinn
 
-The **Mín störf** flipann skulum starfsmenn auðveldlega skoða öll óbyrjuð og ólokin störf sem þeim er úthlutað sérstaklega. Það er gagnlegt í fyrirtækjum þar sem störfum er stundum eða alltaf úthlutað tilteknum starfsmönnum (mannauðs) í stað annars konar tilföngs (svo sem vélar).
+The **Mín störf** flipann skulum starfsmenn auðveldlega skoða öll óbyrjuð og ólokið störf sem þeim er úthlutað sérstaklega. Það er gagnlegt í fyrirtækjum þar sem störf eru stundum eða alltaf úthlutað tilteknum starfsmönnum (mannauðs) í stað annars konar auðlinda (svo sem vélar).
 
 Tímasetningarkerfið úthlutar sjálfkrafa hverju framleiðsluverki á tiltekna tilfangafærslu og hver tilfangaskrá hefur gerð (eins og vél eða manneskju). Þegar þú setur upp starfsmann sem framleiðslustarfsmann geturðu tengt starfsmannsreikninginn við einstaka mannauðsskrá.
 
-The **Mín störf** flipinn listar öll óbyrjuð og ólokin störf sem hafa verið úthlutað á mannauðsskrá hins innskráða starfsmanns, ef einhver starfsmaður er skráður inn. Það sýnir aldrei störf sem hafa verið úthlutað á vél eða annars konar auðlind, jafnvel þótt innritaður starfsmaður hafi byrjað að vinna við þau störf.
+The **Mín störf** flipinn sýnir öll óbyrjuð og ólokin störf sem hafa verið úthlutað á mannauðsskrá innskráða starfsmannsins, ef einhver starfsmaður er skráður inn. Það sýnir aldrei störf sem hafa verið úthlutað á vél eða annars konar auðlind, jafnvel þótt innritaður starfsmaður hafi byrjað að vinna við þau störf.
 
 Til að skoða öll störf sem innskráður starfsmaður hefur hafið, óháð tegund auðlindar sem hverju starfi er úthlutað til, notaðu **Virk störf** flipa. Notaðu **Öll störf** flipa.
 
@@ -179,7 +179,7 @@ Eftir að starfsmaður slær inn magnið sem á að tilkynna í **Tilkynna framv
 
 Listinn í glugganum sýnir eftirfarandi upplýsingar:
 
-- **Vörunúmer** – Vörumeistarinn og vöruafbrigðið.
+- **Vörunúmer** – Vörumeistari og vöruafbrigði.
 - **Vöruheiti** – Nafn vörunnar.
 - **Tillaga** – Áætlað magn efnis sem verður neytt þegar tilkynnt er um framvindu eða úrgang fyrir tilgreint magn fyrir verkið.
 - **Neysla** – Raunverulegt magn efnis sem verður neytt þegar tilkynnt er um framvindu eða rusl fyrir tilgreint magn fyrir verkið.
@@ -188,8 +188,8 @@ Listinn í glugganum sýnir eftirfarandi upplýsingar:
 
 Hægra megin í glugganum sýnir eftirfarandi upplýsingar:
 
-- **Vörunúmer** – Vörumeistarinn og vöruafbrigðið.
-- **Áætlað** – Áætlað magn til neyslu.
+- **Vörunúmer** – Vörumeistari og vöruafbrigði.
+- **Áætlað** – Áætlað magn sem á að neyta.
 - **Byrjað** – Magnið sem byrjað er á framleiðsluvinnunni.
 - **Eftirstandandi magn** – Af áætluðu magni, það magn sem á eftir að neyta.
 - **Útgefið magn** - Magnið sem hefur verið neytt.

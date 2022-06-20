@@ -1,6 +1,6 @@
 ---
 title: Laun Power BI efni
-description: Þetta efnisatriði lýsir Launum Power BI efni. Það lýsir einnig hvernig eigi að fara í skýrslur og veitir upplýsingar um gagnalíkan sem er notað.
+description: Þessi grein lýsir bótunum Power BI efni. Það lýsir einnig hvernig eigi að fara í skýrslur og veitir upplýsingar um gagnalíkan sem er notað.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 549111dab1b6d3b66567801ae787a680a04b18e20e286e1a59d1ab388bf2a4f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a8bc9be91a7538c3d50163832d5d4957724cd8fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763597"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897189"
 ---
 # <a name="compensation-power-bi-content"></a>Laun Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir **Laun** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þessi grein lýsir **Bætur** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
 **Fríðindi** Power BI efni er sýnt á vinnusvæðinu **Launastjórnun** ef notuð er ein af eftirfarandi vörum:
 
-- Finance and Operations-smáforrit
+- Forrit Finance and Operations
 - Microsoft Dynamics 365 Human Resources
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðar með í Power BI efni

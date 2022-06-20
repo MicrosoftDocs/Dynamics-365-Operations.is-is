@@ -1,6 +1,6 @@
 ---
 title: Vinna með raðgreinda hluti
-description: Þetta efnisatriði útskýrir hvernig hægt er að skrá raðnúmer á fylgiseðla eða reikninga meðan á söluferli stendur. Þessi möguleiki er henturgur ef fyrirtæki vill sækja raðnúmer vegna þjónustu og ábyrgðar en þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar.
+description: Þessi grein útskýrir hvernig þú getur skráð raðnúmer á fylgiseðlum eða reikningum í söluferlinu. Þessi möguleiki er henturgur ef fyrirtæki vill sækja raðnúmer vegna þjónustu og ábyrgðar en þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar.
 author: Henrikan
 ms.date: 10/31/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62e53ec57a8d5c5c922f580219e4bde5338d0707
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b89e9ab547d13e68ead88d76f9922d14fde4beb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571690"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901851"
 ---
 # <a name="working-with-serialized-items"></a>Vinna með raðgreinda hluti
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig hægt er að skrá raðnúmer á fylgiseðla eða reikninga meðan á söluferli stendur. Þessi möguleiki er henturgur ef fyrirtæki vill sækja raðnúmer vegna þjónustu og ábyrgðar en þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar.
+Þessi grein útskýrir hvernig þú getur skráð raðnúmer á fylgiseðlum eða reikningum í söluferlinu. Þessi möguleiki er henturgur ef fyrirtæki vill sækja raðnúmer vegna þjónustu og ábyrgðar en þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar.
 
 Mörg fyrirtæki vilja bara sækja raðnúmer vegna þjónustu og ábyrgðar og þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar. Í þessum aðstæðum er hægt að skrá raðnúmer á fylgiseðla eða reikninga þegar vörur eru seldar. Ef afurðum er skilað seinna er unnt að rekja hverja afurð til reiknings til að ákvarða hvort þú seldir afurðina og hvort þjónustu eða ábyrgð eru gildar.
 

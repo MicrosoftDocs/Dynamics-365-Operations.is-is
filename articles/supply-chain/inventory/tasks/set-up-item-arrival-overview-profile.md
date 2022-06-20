@@ -1,6 +1,6 @@
 ---
 title: Setja upp komuyfirlitsreglu fyrir vöru
-description: Þetta efni leggur áherslu á uppsetningu komuyfirlitsregla.
+description: Þessi grein fjallar um uppsetningu yfirlitsprófíls fyrir komu.
 author: yufeihuang
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -15,18 +15,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a98c84c0dcc86e58b74f53a9061c4a0518ecbf
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 8517710f5d0be1859f86449152712d950281769a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964807"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872008"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Setja upp komuyfirlitsreglu fyrir vöru
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni leggur áherslu á uppsetningu komuyfirlitsregla. Komuyfirlitsreglu er safn reglna sem verður notað þegar síðan Komuyfirlit er opnað af notanda. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF. Þetta verk myndi venjulega vera framkvæmt af starfsmanni í móttöku.
+Þessi grein fjallar um uppsetningu yfirlitsprófíls fyrir komu. Komuyfirlitsreglu er safn reglna sem verður notað þegar síðan Komuyfirlit er opnað af notanda. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF. Þetta verk myndi venjulega vera framkvæmt af starfsmanni í móttöku.
 
 1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Birgðastýring > Uppsetning > Dreifing > Komuyfirlitsreglur**.
 2. Veljið **Nýtt**. Þar er þú vinnur nánast alltaf í sama vöruhús við hlaða af fullhlöðnum vörubíl , ætti að stofna komuyfirlitsregla til að auðvelda ferlið við að skrá mótteknar vörur.  

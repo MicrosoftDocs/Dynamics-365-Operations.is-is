@@ -1,6 +1,6 @@
 ---
 title: Samstarf með lánardrottnum í gegnum gátt lánardrottins
-description: Þetta efnisatriði útskýrt hvernig innkaupastjórar geta notað Gátt lánardrottins til að vinna með ytri lánardrottnum meðan á staðfestingarvinnslu innkaupapöntunar stendur. Upplýsingarnar gildir aðeins um 2016 Febrúar &amp; 2016 Maí útgáfur af Dynamics AX.
+description: Þessi grein lýsir því hvernig innkaupafulltrúar geta notað lánardrottinsgáttina til að vinna með ytri lánardrottnum meðan á staðfestingarferli innkaupapöntunar stendur. Upplýsingarnar gildir aðeins um 2016 Febrúar &amp; 2016 Maí útgáfur af Dynamics AX.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7bbcea318da3ca28b35c6b5ad237092da94dbd0d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f15a1087cd85df09c9633b9936058d74656067d3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865180"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Samstarf með lánardrottnum í gegnum gátt lánardrottins
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrt hvernig innkaupastjórar geta notað Gátt lánardrottins til að vinna með ytri lánardrottnum meðan á staðfestingarvinnslu innkaupapöntunar stendur. Upplýsingarnar gildir aðeins um útgáfur frá febrúar 2016 og maí 2016 af Dynamics AX.
+Þessi grein lýsir því hvernig innkaupafulltrúar geta notað lánardrottinsgáttina til að vinna með ytri lánardrottnum meðan á staðfestingarferli innkaupapöntunar stendur. Upplýsingarnar gildir aðeins um útgáfur frá febrúar 2016 og maí 2016 af Dynamics AX.
 
-Upplýsingarnar í þessu efnisatriði gildir aðeins um 2016 Febrúar og 2016 Maí útgáfum Dynamics AX. Nánari upplýsingar um uppsetningu öryggis fyrir samstarf lánardrottna sjá [Samstarf lánardrottna við ytri lánardrottna](vendor-collaboration-work-external-vendors.md).  
+Upplýsingarnar í þessari grein eiga aðeins við um febrúar 2016 og maí 2016 útgáfur af Dynamics AX. Nánari upplýsingar um uppsetningu öryggis fyrir samstarf lánardrottna sjá [Samstarf lánardrottna við ytri lánardrottna](vendor-collaboration-work-external-vendors.md).  
 
 Gátt Lánardrottins er hönnuð fyrir lánardrottna sem ekki hafa rafræn gagnaskipti (EDI) samþætt við Microsoft Dynamics AX til að skiptast á upplýsingum um innkaupapöntun (PO). Gáttin leyfir innkaupastjórum að senda innkaupapöntun til lánardrottins og fá svarið Staðfest eða Hafnað beint í Dynamics AX.  
 

@@ -1,6 +1,6 @@
 ---
 title: Stilla mismunandi víddir fyrir pakka og geymslu
-description: Þetta efnisatriði sýnir hvernig á að tilgreina hvaða vinnslu (pökkun, geymsla eða földuð pökkun) hver tilgreind vídd er notuð fyrir.
+description: Þessi grein sýnir hvernig á að tilgreina hvaða ferli (pökkun, geymsla eða hreiður pökkun) hver tilgreind vídd er notuð fyrir.
 author: Mirzaab
 ms.date: 01/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 090a6f653b50d8f22a2f34354172f129624813f1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687646"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905487"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Stilla mismunandi víddir fyrir pakka og geymslu
 
@@ -33,7 +33,7 @@ Sumar vörur eru pakkaðar eða geymdar á þann hátt að nauðsynlegt kann að
 *Geymsluvíddir* eru studdar hvort sem eiginleikinn *Afurðarvíddir pökkunar* er virkur eða ekki. Þetta er sett upp með síðunni **Efnisleg vídd** í Supply Chain Management. Þessar stærðir eru í notaðar af öllum ferlum þar sem víddir pökkunar og faldaðrar pökkunar eru ekki tilgreindar.
 
 Víddir *pökkunar* og *faldaðrar pökkunar* eru settar upp á síðunni **Efnislegar afurðarvíddir** sem er bætt við þegar eiginleikinn *Afurðarvíddir pökkunar* er virkjaður.
-Í þessu efnisatriði er að finna aðstæður sem lýsa því hvernig á að nota þennan eiginleika.
+Þessi grein veitir atburðarás sem sýnir hvernig á að nota þennan eiginleika.
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>Kveikja á eiginleika afurðarvíddar pökkunar
 

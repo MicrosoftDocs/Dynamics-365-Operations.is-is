@@ -1,6 +1,6 @@
 ---
 title: Búa til eyðublöð fyrir reikninga með frjálsum texta sem hægt er að prenta
-description: Þetta efnisatriði útskýrir hvernig nota á ramma rafrænnar skýrslugerðar til að búa til prentvæn eyðublöð fyrir reikninga með frjálsum texta sem Microsoft Office skjöl.
+description: Þessi grein útskýrir hvernig á að nota rafræna skýrslugerð (ER) ramma til að búa til prentanleg eyðublöð fyrir frjáls textareikning (FTI) sem Microsoft Office skjöl.
 author: NickSelin
 ms.date: 07/24/2018
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be5e3ef0f6ecb3d8f911b5be5f8bc9102d201fd299425e847a2df233d9b4edf4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d4efbb46bbba2b139bbcf9b07c480a7e8669fd7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868830"
 ---
 # <a name="generate-printable-fti-forms"></a>Búa til eyðublöð fyrir reikninga með frjálsum texta sem hægt er að prenta
 
 [!include[banner](../includes/banner.md)]
 
-Rammi rafrænnar skýrslugerðar leyfir þér að búa til prentvæn eyðublöð fyrir reikninga með frjálsum texta sem Microsoft Office skjöl. Þetta efnisatriði veitir upplýsingar um hvernig á að útbúa sínar eigin skilgreiningar sem og upplýsingar um tiltæk grunnstillingarsniðmát.
+Rammi rafrænnar skýrslugerðar leyfir þér að búa til prentvæn eyðublöð fyrir reikninga með frjálsum texta sem Microsoft Office skjöl. Þessi grein veitir upplýsingar um hvernig eigi að búa til þínar eigin stillingar sem og upplýsingar um tiltæk stillingarsniðmát.
 
 ## <a name="overview"></a>Yfirlit
 
 Til viðbótar við fyrirliggjandi getu til að búa til prentvæn eyðublöð reikninga með frjálsum texta með því að nota Microsoft SQL Server Reporting Services (SSRS), getur þú nú notað ramma rafrænnar skýrslugerðar. Þú getur haft umsjón með prentvænum eyðublöðum reikninga með frjálsum texta í Microsoft Office Excel og Word. Þú getur einnig breytt útliti, gagnaflæði og sniði til að mæta sérstökum kröfum án þess að breyta kóðum.
 
 > [!NOTE]
-> Ef þú vilt byrja með yfirliti yfir núverandi grunnstillingar rafrænnar skýrslugerðar fyrir þetta sýnishorn af úrlausn á prentvænu eyðublaði fyrir reikninga með frjálsum texta, getur þú farið beint í kaflann **Sækja sýnishorn af grunnstillingu rafrænnar skýrslugerðar til að búa til prentvæn eyðublöð fyrir reikninga með frjálsum texta** seinna í þessu efnisatriði.
+> Ef þú vilt byrja á yfirliti yfir núverandi ER stillingar fyrir þetta sýnishorn af prentvænu FTI eyðublaðalausninni geturðu farið beint í hlutann **Sæktu sýnishorn af ER stillingum til að búa til prentanleg FTI eyðublöð** síðar í þessari grein.
 
 ## <a name="create-customized-configurations-for-fti-printable-forms"></a>Búa til sérsniðnar grunnstillingar fyrir prentvæn eyðublöð reikninga með frjálsum texta
 Sem hluti af sérsniðnu lausninni fyrir prentvæn eyðublöð reikninga með frjálsum texta getur þú búið til safn af grunnstillingum rafrænnar skýrslugerðar.

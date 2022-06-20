@@ -1,6 +1,6 @@
 ---
 title: Vafrakröfur fyrir Dynamics 365 Commerce vefsvæði
-description: Þetta efnisatriði fjallar um vafrakröfur á Microsoft Dynamics 365 Commerce svæðum.
+description: Þessi grein fjallar um kröfur vafra fyrir Microsoft Dynamics 365 Commerce síður.
 author: anupamar-ms
 ms.date: 12/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f97e5800785c84d7d804c7af8bffd7bfbccc95a5951d560996f4ca586069392e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c80bec4b4e40c904ef781893b6d695eda31cce92
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740456"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869199"
 ---
 # <a name="browser-requirements-for-dynamics-365-commerce-sites"></a>Vafrakröfur fyrir Dynamics 365 Commerce vefsvæði
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði fjallar um vafrakröfur á Microsoft Dynamics 365 Commerce svæðum.
+Þessi grein fjallar um kröfur vafra fyrir Microsoft Dynamics 365 Commerce síður.
 
 Dynamics 365 Commerce svæði eru studd best af eftirtöldum vefvöfrum. Farið á vefsvæði hugbúnaðarframleiðandans til að finna nýjustu útgáfu hvers vafra.
 

@@ -1,6 +1,6 @@
 ---
-title: Birgðamerking með fínstillingu áætlanagerðar
-description: Þetta efnisatriði inniheldur upplýsingar um valkostina sem eru tiltækir til að merkja birgðir í staðfestum pöntunum þegar fínstilling skipulagningar er notuð.
+title: Birgðamerking með fínstillingu áætlunargerðar
+description: Þessi grein veitir upplýsingar um valkostina sem eru tiltækir til að merkja birgðahald í staðfestum pöntunum þegar þú notar áætlanagerð fínstillingu.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8d06527d125837b056729574517ca5ed6738fcff
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 2f1902ba76db59b61b0437eb3cd68ee94018b7c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468357"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844468"
 ---
-# <a name="inventory-marking-with-planning-optimization"></a>Birgðamerking með fínstillingu áætlanagerðar
+# <a name="inventory-marking-with-planning-optimization"></a>Birgðamerking með fínstillingu áætlunargerðar
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði inniheldur upplýsingar um valkostina sem eru tiltækir til að merkja birgðir í staðfestum pöntunum þegar fínstilling skipulagningar er notuð.
+Þessi grein veitir upplýsingar um valkostina sem eru tiltækir til að merkja birgðahald í staðfestum pöntunum þegar þú notar áætlanagerð fínstillingu.
 
 *Merking* er notuð til að tengja framboð og eftirspurn. Slíkt er svipað og *þarfarakning*, sem gefur til kynna hvernig aðaláætlanagerð gerir ráð fyrir því að uppfylla eftirspurn. Frá áætlunarsjónarmiði séð er helsti munurinn sá að merking er varanlegri en þarfarakning.
 

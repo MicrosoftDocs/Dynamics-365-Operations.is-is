@@ -1,6 +1,6 @@
 ---
 title: Aðgerðröðun
-description: Þetta efni inniheldur upplýsingar um aðgerðröðun. Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma.
+description: Þessi grein veitir upplýsingar um aðgerðaáætlun. Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma.
 author: johanhoffmann
 ms.date: 06/20/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7b9ae31b288831d2f3b85bf1996206221e0bdbbd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574570"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871892"
 ---
 # <a name="operations-scheduling"></a>Aðgerðröðun
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni inniheldur upplýsingar um aðgerðröðun. Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma.
+Þessi grein veitir upplýsingar um aðgerðaáætlun. Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma.
 
 Hægt er að raða framleiðslu á stigi aðgerðina og stigi vinnslu. Öfugt við vinnsluröðun brýtur aðgerðaröðun ekki aðgerðir fyrir framleiðsluleið niður í vinnslur. Ef þú vilt hafa meiri nákvæmni í áætluninni, eins og upplýsingar um gildandi getu, er hægt að keyra vinnsluröðun þegar búið er að keyra aðgerðaröðun. Einnig er hægt að keyra eingöngu vinnsluröðun. Vinnsluröðun er yfirleitt notuð til að raða einstaka vinnslu í vinnusal og fyrir tímamörk sem eru undireins eða til stutts tíma.
 

@@ -1,6 +1,6 @@
 ---
 title: Eining lands-/svæðisvals
-description: Þetta efnisatriði fjallar um einingu lands-/svæðisvals og útskýrir hvernig á að stilla hana í Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um land/svæðavalseininguna og lýsir því hvernig á að stilla hana í Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 04/06/2022
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 9c20e614053b7a79cf962990dbd13ca0f45d5a00
-ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
+ms.openlocfilehash: d20b3be008a37b1c86e6fefe0ccc90c581e18340
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8551671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861993"
 ---
 # <a name="countryregion-picker-module"></a>Eining lands-/svæðisvals
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði fjallar um einingu lands-/svæðisvals og útskýrir hvernig á að stilla hana í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um land/svæðavalseininguna og lýsir því hvernig á að stilla hana í Microsoft Dynamics 365 Commerce.
 
-Land-/svæðisvalareiningin notar [landfræðileg uppgötvun og tilvísun](geo-detection-redirection.md) lögun í Dynamics 365 Commerce til að sýna ráðlagðar síður til viðskiptavina sem biðja um vefslóð netverslunarsíðu sem er ekki tengd landi þeirra eða svæði.
+Land/svæðisvalareiningin notar [landfræðileg uppgötvun og tilvísun](geo-detection-redirection.md) lögun í Dynamics 365 Commerce til að sýna viðskiptavinum sem mæla með vefsvæðum sem biðja um vefslóð rafrænna viðskiptasíðu sem er ekki tengd landi þeirra eða svæði.
 
 Til dæmis biður viðskiptavinur í Kanada um vefslóð sem tengist öðru landi en Kanada. Í þessu tilviki sýnir eining lands-/svæðisvals svarglugga sem ráðleggur vefslóðir vefsvæða sem tengjast Kanada. 
 
@@ -38,9 +38,9 @@ Til dæmis biður viðskiptavinur í Kanada um vefslóð sem tengist öðru land
 
 Ef vefslóð beiðninnar passar ekki við neina vefslóð sem er kortlögð við land viðskiptavinarins, er listi yfir eina eða fleiri vefslóðir sem eru kortlagðar á það land skilað í svarinu. Landa-/svæðisvalinn ber saman hverja vefslóð á þeim lista við vefslóðirnar sem hafa verið stilltar í land-/svæðiseiningunni. Fyrir hverja nákvæma samsvörun sem finnst, sýnir lands-/svæðisvalinn birtingarfyrirsögn, undirfyrirsögn og mynd fyrir þá vefslóð og tengir þá þætti með því að nota vefslóðina.
 
-Þegar viðskiptavinur velur valmöguleika í landa-/svæðavalsanum er hann færður á vefslóðina sem tengist tengilinn. Þessi vefslóð er skrifuð á **\_ msdyn365\_\_\_ síða\_** vafraköku þannig að hægt sé að nota hana sem síðuval viðskiptavinarins. Næst þegar viðskiptavinurinn biður um vefslóðina sem ekki er tengd við landið eða svæði hans er honum sjálfkrafa vísað til þess lands sem hann vill. Þess vegna mælum við með að þú notir líka [vefvalseining](site-selector.md) á e-verslunarsíðunni þinni, svo að viðskiptavinir hafi leið til að hnekkja eða uppfæra síðuval sitt. 
+Þegar viðskiptavinur velur valmöguleika í landa-/svæðavalsanum er hann færður á vefslóðina sem tengist tengilinn. Þessi vefslóð er skrifuð á **\_ msdyn365\_\_\_ síða\_** vafraköku þannig að hægt sé að nota hana sem síðuval viðskiptavinarins. Næst þegar viðskiptavinurinn biður um vefslóðina sem ekki er tengd við landið hans eða svæði, er honum sjálfkrafa vísað til þess lands sem hann vill. Þess vegna mælum við með að þú notir líka [síðuvalseining](site-selector.md) á netverslunarsíðunni þinni, svo að viðskiptavinir hafi leið til að hnekkja eða uppfæra síðuval sitt. 
 
-Ef viðskiptavinur lokar lands-/svæðavalglugganum er engin fótspor skrifuð og viðskiptavinurinn heldur sig á núverandi síðu. 
+Ef viðskiptavinur lokar lands-/svæðavalglugganum er engin fótspor skrifuð og viðskiptavinurinn verður áfram á núverandi síðu. 
 
 Eftirfarandi mynd sýnir dæmi um svarglugga lands-/svæðisvals.
 
@@ -75,7 +75,7 @@ Fyrir hverja vefslóð sem þú vilt sýna og mæla með fyrir viðskiptavini sk
 1. Í reitinn **Birta streng** skal færa inn birtingarnafn (til dæmis **Kanada**).
 1. Valfrjálst: Í reitinn **Birta undirstreng** skal færa inn undirstreng (til dæmis **franskur** eða **fr-ca**).
 1. Valfrjálst: Veldu mynd úr miðlasafninu.
-1. Í reitinn **Vefslóð lands** er slegin inn slóðin. Þessi vefslóð verður að passa nákvæmlega við vefslóðina sem birtist á **Rásir** síðu og sem er varpað á rásina, þar á meðal svæði sem tengist landinu eða svæðinu. 
+1. Í reitinn **Vefslóð lands** er slegin inn slóðin. Þessi vefslóð verður að passa nákvæmlega við vefslóðina sem birtist á **Rásir** síðu og sem er kortlagt við rásina, þar á meðal svæði sem tengist landinu eða svæðinu. 
 1. Veldu **Í lagi**.
 1. Endurtaktu skrefin fyrir allar vefslóðir annarra landa sem þú vilt að eining lands-/svæðisvals sýni.
 

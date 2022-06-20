@@ -1,6 +1,6 @@
 ---
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
-description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 04/27/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 949fa0df58bc3338c8bc84ecbd4f2ad17117dd12
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865267"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni verður uppfært þegar nýir fjarlægðir eða úreltir eiginleikar eru skráðir fyrir Dynamics 365 Supply Chain Management.
+Þessi grein verður uppfærð eftir því sem nýir fjarlægðir eða úreltir eiginleikar eru skráðir fyrir Dynamics 365 Supply Chain Management.
 
 - *Fjarlægður* eiginleiki er ekki lengur tiltækur í vörunni.
 - *Úreltur* eiginleiki er ekki í virkri þróun og getur verið fjarlægður úr uppfærslum í framtíðinni.
@@ -78,7 +78,7 @@ ms.locfileid: "8396525"
 | **Skipt út fyrir aðra eiginleika?**   | Já, fínstilling áætlanagerðar kemur í stað núverandi aðaláætlunarvélar Supply Chain Management. |
 | **Afurðasvæði sem haft er áhrif á**         | Supply Chain Management - Aðaláætlanagerð |
 | **Dreifingarvalkostur**              | Aðeins ský. Fínstilling áætlanagerðar er ekki studd með uppsetningu á staðnum. |
-| **Staða**                         | Úrelt. Fyrir 1. apríl 2022 verða framleiðslusviðsmyndir ekki lengur studdar fyrir innbyggðu Supply Chain Management aðalskipulagsvélina. Frá og með þeim degi mun Microsoft stöðva alla virka þróun á framleiðsluatburðarás fyrir innbyggðu skipulagsvélina, mun ekki gefa út neina nýja eiginleika og mun aðeins gefa út mikilvægar villuleiðréttingar. Eftir þá dagsetningu verða öll fyrirtæki sem þurfa stuðning við framleiðslusviðsmyndir að nota áætlanagerð fínstillingu fyrir aðalskipulagsútreikninga. Gert er ráð fyrir að hagræðing skipulags muni styðja að fullu framleiðslusviðsmyndir fyrir október 2022. Fyrir frekari upplýsingar, sjá [Skipulagshagræðingarskjöl](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Fyrirtæki með innleiðingu á birgðakeðjustjórnun á staðnum geta haldið áfram að nota innbyggðu aðalskipulagsvélina fyrir framleiðslusviðsmyndir eftir apríl 2022. Ekki verður boðið upp á fleiri umbætur á eiginleikum. |
+| **Staða**                         | Úrelt. Fyrir 1. apríl 2022 verða framleiðslusviðsmyndir ekki lengur studdar fyrir innbyggðu Supply Chain Management aðalskipulagsvélina. Frá og með þeim degi mun Microsoft stöðva alla virka þróun á framleiðsluatburðarás fyrir innbyggðu skipulagsvélina, mun ekki gefa út neina nýja eiginleika og mun aðeins gefa út mikilvægar villuleiðréttingar. Eftir þá dagsetningu verða öll fyrirtæki sem þurfa stuðning við framleiðslusviðsmyndir að nota áætlanagerð fínstillingu fyrir aðalskipulagsútreikninga. Gert er ráð fyrir að hagræðing skipulags muni styðja að fullu framleiðslusviðsmyndir fyrir október 2022. Fyrir frekari upplýsingar, sjá [Skipulagshagræðingarskjöl](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Fyrirtæki með innleiðingu á birgðakeðjustjórnun á staðnum mega halda áfram að nota innbyggðu aðalskipulagsvélina fyrir framleiðslusviðsmyndir eftir apríl 2022. Ekki verður boðið upp á fleiri umbætur á eiginleikum. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Supply Chain Management 10.0.11 útgáfa
 

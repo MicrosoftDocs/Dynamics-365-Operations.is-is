@@ -1,6 +1,6 @@
 ---
 title: Búa til afbrigði fyrir hönnunarafurðir
-description: Þetta efnisatriði lýsir hvernig á að búa til afbrigði fyrir hönnunarafurðir
+description: Þessi grein lýsir því hvernig á að búa til afbrigði fyrir verkfræðivörur
 author: t-benebo
 ms.date: 06/08/2021
 ms.topic: article
@@ -10,22 +10,22 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 7921983a965af5557f54f608418c8ec922256ba6
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 08feb66dedfa79f5a21a7723a22f3bef883431e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103639"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870754"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Búa til afbrigði fyrir hönnunarafurðir
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig á að búa til afbrigði fyrir hönnunarafurðir.
+Þessi grein lýsir því hvernig á að búa til afbrigði fyrir verkfræðivörur.
 
 ## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>Kveiktu eða slökktu á framleiðslu afbrigða fyrir verkfræðivörur
 
-Virknin sem lýst er í þessu efni krefst þess að bæði *Verkfræðibreytingastjórnun* og *Afbrigði kynslóð fyrir verkfræðivörur* kveikt er á eiginleikum fyrir kerfið þitt. Fyrir upplýsingar um hvernig á að kveikja eða slökkva á þessum eiginleikum, sjá [Yfirlit yfir verkfræðibreytingastjórnun](product-engineering-overview.md).
+Virknin sem lýst er í þessari grein krefst þess að bæði *Verkfræðibreytingastjórnun* og *Afbrigði kynslóð fyrir verkfræðivörur* kveikt er á eiginleikum fyrir kerfið þitt. Fyrir upplýsingar um hvernig á að kveikja eða slökkva á þessum eiginleikum, sjá [Yfirlit yfir verkfræðibreytingastjórnun](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Búa til eitt eða fleiri ný afbrigði af hönnunarafurð
 

@@ -1,6 +1,6 @@
 ---
 title: Losa sendingu sjálfkrafa fyrir dreifingu frá dreifingarstöð
-description: Þetta efni lýsir stefnu um dreifingu frá dreifingarstöð sem gerir þér kleift að sleppa sjálfkrafa eftirspurnarpöntun á lager þegar framleiðslupöntunin sem veitir eftirspurnarmagnið er tilkynnt sem lokið, þannig að magnið er fært beint frá framleiðslustað til staðsetningar á útleið.
+description: Þessi grein lýsir krosstengingarstefnu sem gerir þér kleift að losa sjálfkrafa eftirspurnarpöntun í vöruhúsið þegar framleiðslupöntunin sem gefur eftirspurnarmagnið er tilkynnt sem lokið, þannig að magnið er flutt beint frá framleiðsluúttaksstaðsetningu til útleiðarstaðsetningar.
 author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 1315bda1fd284eb326d4f08bf36bfea59074fde3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 34283422bafaeabef9ac454957b60db84eb5a9c7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903783"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Losa sendingu sjálfkrafa fyrir dreifingu frá dreifingarstöð
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni lýsir stefnu um dreifingu frá dreifingarstöð sem gerir þér kleift að sleppa sjálfkrafa eftirspurnarpöntun á lager þegar framleiðslupöntunin sem veitir eftirspurnarmagnið er tilkynnt sem lokið. Þannig er magnið sem þarf til að uppfylla eftirspurnarpöntunina fært beint frá framleiðslustaðnum á útleiðarstað.
+Þessi grein lýsir krosstengingarstefnu sem gerir þér kleift að losa sjálfkrafa eftirspurnarpöntun í vöruhúsið þegar framleiðslupöntunin sem gefur eftirspurnarmagninu er tilkynnt sem lokið. Þannig er magnið sem þarf til að uppfylla eftirspurnarpöntunina fært beint frá framleiðslustaðnum á útleiðarstað.
 
 Dreifing frá dreifingarstöð er vöruflæðisafgreiðsla þar sem magnið sem þarf til að uppfylla pöntun á útleið er beint að úthlið eða sviðsetningarsvæði pöntunarinnar frá þeim stað þar sem pöntun á innleið var móttekin. (Pöntun á innleið getur verið innkaupapöntun, flutningspöntun eða framleiðslupöntun.) Þar eð styður eiginleikinn Ítarleg dreifing frá dreifingarstöð allar framboðs- og eftirspurnarpantanir og það krefst þess að eftirspurnin verði send út áður en tækifæri til dreifingar frá dreifingarstöð er fundið hefur Sjálfvirk losun þessa eiginleika:
 

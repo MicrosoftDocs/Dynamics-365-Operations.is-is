@@ -1,6 +1,6 @@
 ---
 title: Viðhaldsstarfskraftar og starfskraftahópar
-description: Þetta efni útskýrir viðhaldsstarfskrafta starfsmannahópa í eignastjórnun.
+description: Þessi grein útskýrir viðhaldsstarfsmenn og starfsmannahópa í eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e976a28349a4bc7a371d23eb4df724e0ffd36a0553aec2deeb2ff07d0a63579
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a24c880ee76af1490824aef07976b998d9225d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860900"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Viðhaldsstarfskraftar og starfskraftahópar
 
@@ -28,7 +28,7 @@ ms.locfileid: "6750125"
 
  
 
-Þetta efni útskýrir viðhaldsstarfskrafta starfsmannahópa í eignastjórnun. Í eignastjórnun geturðu tengt viðhaldsstarfsmenn við virka staði. (Sjá frekari upplýsingar um hagnýta staði [Stofna virkar staðsetningar](../functional-locations/create-functional-locations.md) .) Þessi virkni gæti verið gagnleg ef þú ert til dæmis að skipuleggja viðhaldsstörf á vél sem er staðsett á hagnýtum stað 01 og þú vilt úthluta viðhaldsstarfsmönnum frá sama stað til að framkvæma verkið.
+Þessi grein útskýrir viðhaldsstarfsmenn og starfsmannahópa í eignastýringu. Í eignastjórnun geturðu tengt viðhaldsstarfsmenn við virka staði. (Sjá frekari upplýsingar um hagnýta staði [Stofna virkar staðsetningar](../functional-locations/create-functional-locations.md) .) Þessi virkni gæti verið gagnleg ef þú ert til dæmis að skipuleggja viðhaldsstörf á vél sem er staðsett á hagnýtum stað 01 og þú vilt úthluta viðhaldsstarfsmönnum frá sama stað til að framkvæma verkið.
 
 Þú getur einnig búið til hópa starfsmanna viðhalds og tengt viðhald starfsmanna við þá. Þessi virkni er gagnleg þegar þú vinnur einfalda tímasetningu vinnu og þú vilt skipuleggja hóp viðhaldsstarfsmanna í vinnupöntun. Þú getur notað viðhaldsstarfsmenn og hópa viðhaldsstarfsmanna til að setja upp valinn viðhaldsstarfsmenn og ábyrga viðhaldsstarfsmenn. 
 

@@ -1,6 +1,6 @@
 ---
 title: Stofna áfyllingarpöntun vörusendingar
-description: Þetta efni útskýrir sýnir hvernig skal stofna áfyllingarpöntun vörusendingar þar sem hægt er að rekja áætlaða afhendingu frá lánardrottni inn í vörusendingabirgðir.
+description: Þessi grein útskýrir hvernig á að búa til áfyllingarpöntun fyrir sendingu þar sem þú getur fylgst með væntanlegri afhendingu frá lánardrottni inn í vörusendingarbirgðir þínar.
 author: yufeihuang
 ms.date: 08/19/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9076207b73c6c76cfc44e1e02b21aad4e3f321f8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 31a1d0a7d322b17d3d80dd9fade2b037dd148d9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574594"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859374"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Stofna áfyllingarpöntun vörusendingar
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni útskýrir sýnir hvernig skal stofna áfyllingarpöntun vörusendingar þar sem hægt er að rekja áætlaða afhendingu frá lánardrottni inn í vörusendingabirgðir. Hún sýnir einnig hvernig á að skrá innhreyfingar afurða þannig að vörusendingabirgðir eru skráðar sem lagerbirgðir í lánardrottins. Þetta ferli myndi er yfirleitt framkvæmt af innkaupaaðila. Hægt er að nota þessar leiðbeiningar í sýnifyrirtækinu USMF. Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.
+Þessi grein útskýrir hvernig á að búa til áfyllingarpöntun fyrir sendingu þar sem þú getur fylgst með væntanlegri afhendingu frá lánardrottni inn í vörusendingarbirgðir þínar. Hún sýnir einnig hvernig á að skrá innhreyfingar afurða þannig að vörusendingabirgðir eru skráðar sem lagerbirgðir í lánardrottins. Þetta ferli myndi er yfirleitt framkvæmt af innkaupaaðila. Hægt er að nota þessar leiðbeiningar í sýnifyrirtækinu USMF. Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.
 
 ## <a name="create-a-consignment-replenishment-order"></a>Stofna áfyllingarpöntun vörusendingar
 1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Innkaup og aðföng > Vörusending > Áfyllingarpantanir vörusendingar**.

@@ -1,6 +1,6 @@
 ---
-title: Samstarf lánardrottna með viðskiptavinum
-description: Í þessu efnisatriði er því lýst hvernig hægt er að nota samstarf lánardrottna til að vinna með innkaupapantanir og fylgjast með vörusendingabirgðum.
+title: Samstarf lánardrottna við viðskiptavini
+description: Þessi grein lýsir því hvernig hægt er að nota samstarf lánardrottna til að vinna með innkaupapöntunum og fylgjast með vörusendingum.
 author: GalynaFedorova
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5690630d4dde947798c925af66c73122c2efad3d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4e5748f2368376ee03f280f1487d1de65250d3a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673775"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859170"
 ---
-# <a name="vendor-collaboration-with-customers"></a>Samstarf lánardrottna með viðskiptavinum
+# <a name="vendor-collaboration-with-customers"></a>Samstarf lánardrottna við viðskiptavini
 
 [!include [banner](../includes/banner.md)]
 
-Þessi mál lýsir því hvernig hægt er að nota samstarf lánardrottna við viðskiptavini í Microsoft Dynamics 365 Supply Chain Management. Söluaðilar geta lokið röð viðskiptaferla úr eftirfarandi vinnusvæðum:
+Þessi grein lýsir því hvernig þú getur notað samstarf lánardrottna til að vinna með viðskiptavinum í Microsoft Dynamics 365 Supply Chain Management. Söluaðilar geta lokið röð viðskiptaferla úr eftirfarandi vinnusvæðum:
 
 - **Innkaupapöntunum svarað** - Fylgjast með og bregðast við innkaupapöntunum.
 - **Lánardrottinn tilboð** - Skoða beiðnir um tilboð (BUT) og svara þeim með því að færa inn tilboð.
 - **Lánardrottnaupplýsingar** - Skoða og uppfæra lánardrottinssniðmát.
-- **Invoicing** - Vinna með reikninga. Þetta efnisatriði nær ekki yfir vinnusvæðið **Invoicing**. Nánari upplýsingar um þetta vinnusvæði er að finna í [Vinnusvæði reikningsfærslur fyrir samstarf lánardrottna](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Invoicing** - Vinna með reikninga. Þessi grein fjallar ekki um **Reikningagerð** vinnurými. Nánari upplýsingar um þetta vinnusvæði er að finna í [Vinnusvæði reikningsfærslur fyrir samstarf lánardrottna](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Lánardrottnar geta líka fylgst með upplýsingum um vörusendingarbirgðir.
 
@@ -47,9 +47,9 @@ Lánardrottnar geta líka fylgst með upplýsingum um vörusendingarbirgðir.
 
 Hægt er að nota eftirfarandi síður til að vinna með innkaupapantanir:
 
-- **Innkaupapantanir til að fara yfir** - Þessi síða inniheldur sömu upplýsingar og **Innkaupapantanir til að fara yfir** listinn á vinnusvæðinu. Sjá lýsinguna fyrr í þessari efnisatriði.
+- **Innkaupapantanir til að fara yfir** - Þessi síða inniheldur sömu upplýsingar og **Innkaupapantanir til að fara yfir** listinn á vinnusvæðinu. Sjá lýsingu fyrr í þessari grein.
 - **Staðfestingarsögu lánardrottins fyrir innkaupapantanir** -Þessi síða inniheldur allar innkaupapantanir og útgáfur innkaupapantana sem hafa verið sendar til lánardrottins. Hún inniheldur einnig öll svör sem hafa borist frá lánardrottni.
-- **Opnar staðfestar innkaupapantanir** - Þessi síða inniheldur sömu upplýsingar og **Opnar staðfestar innkaupapantanir** listinn á vinnusvæðinu. Sjá lýsinguna fyrr í þessari efnisatriði.
+- **Opnar staðfestar innkaupapantanir** - Þessi síða inniheldur sömu upplýsingar og **Opnar staðfestar innkaupapantanir** listinn á vinnusvæðinu. Sjá lýsingu fyrr í þessari grein.
 - **Allar staðfestar innkaupapantanir** - Þessi síða inniheldur allar innkaupapantanir sem hafa verið staðfestar. Á meðal innkaupapantana sem birtast á þessari síðu eru allar innkaupapantanir þar sem vörur eða þjónustu hafa verið mótteknar. Hægt er að nota þennan lista til að fylgjast með þeim innkaupöntunum sem er hægt að senda reikninga fyrir.
 
 ### <a name="responding-to-pos"></a>Svara innkaupapöntunum

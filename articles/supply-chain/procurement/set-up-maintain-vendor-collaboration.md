@@ -1,6 +1,6 @@
 ---
 title: Uppsetning og viðhald samstarfs lánardrottna
-description: Í þessu efnisatriði er útskýrt hvernig á að setja upp samstarf lánardrottna í Dynamics 365 Supply Chain Management. Þar er einnig útskýrt hvernig hægt er að úthluta nýjum notendum lánardrottnasamstarfs og stjórna öryggishlutverkum fyrir þessa notendur.
+description: Þessi grein útskýrir hvernig á að setja upp samstarf lánardrottna í Dynamics 365 Supply Chain Management. Þar er einnig útskýrt hvernig hægt er að úthluta nýjum notendum lánardrottnasamstarfs og stjórna öryggishlutverkum fyrir þessa notendur.
 author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677563"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890829"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Uppsetning og viðhald samstarfs lánardrottna
 
@@ -28,7 +28,7 @@ ms.locfileid: "8677563"
 
 Viðmót fyrir samstarf lánardrottna sýnir takmarkaðar upplýsingar um innkaupapantanir, reikninga og vörusendingabirgðir til ytri lánardrottna. Í þessu viðmóti getur lánardrottinn einnig svarað tilboðsbeiðnum og skoðað og breytt grunnupplýsingum um fyrirtækið.
 
-Í þessu efnisatriði er útskýrt hvernig á að setja upp samstarf lánardrottna í Dynamics 365 Supply Chain Management. Þar er einnig útskýrt hvernig á að setja upp verkflæði til að úthluta nýjum notendum lánardrottnasamstarfs og stjórna öryggishlutverkum fyrir þessa notendur.
+Þessi grein útskýrir hvernig á að setja upp samstarf lánardrottna í Dynamics 365 Supply Chain Management. Þar er einnig útskýrt hvernig á að setja upp verkflæði til að úthluta nýjum notendum lánardrottnasamstarfs og stjórna öryggishlutverkum fyrir þessa notendur.
 
 > [!NOTE]
 > Upplýsingarnar um uppsetningu öryggishlutverka fyrir samstarf lánardrottna eiga aðeins við um núverandi útgáfu af Finance and Operations. Í Microsoft Dynamics AX 7.0 (febrúar 2016) og Microsoft Dynamics AX forritaútgáfu 7.0.1 (maí 2016) notarðu kerfiseininguna **Gátt lánardrottins** fyrir samskipti við lánardrottna. Upplýsingar um heimildir notanda fyrir lánardrottnagáttina í Microsoft Dynamics AX er að finna í [Öryggi notanda í gátt lánardrottins](configure-security-vendor-portal-users.md).
@@ -77,7 +77,7 @@ Hægt er að nota **Hlutverk lánardrottins (ytri)** fyrir ytri lánardrottna se
 
 ## <a name="set-up-security-roles-that-are-used-when-prospective-vendors-are-onboarded"></a>Setja upp öryggishlutverk sem eru notuð þegar væntanlegir lánardrottnar eru teknir inn
 
-Til að taka lánardrottna inn sem eru innleiddir í gegnum skráningarbeiðni væntanlegs lánardrottins, þarf að setja upp ytra öryggishlutverk. Þessu hlutverki verður úthlutað á nýja notendur í úthlutunarferlinu sem verkflæðið af gerðinni **Verkflæði notandabeiðni (verkvangur)** stýrir. Frekari upplýsingar er að finna í hlutanum [Setja upp verkflæði til að vinna úr notandabeiðnum lánardrottnasamstarfs](#set-up-workflows-to-process-vendor-collaboration-user-requests) síðar í þessu efnisatriði.
+Til að taka lánardrottna inn sem eru innleiddir í gegnum skráningarbeiðni væntanlegs lánardrottins, þarf að setja upp ytra öryggishlutverk. Þessu hlutverki verður úthlutað á nýja notendur í úthlutunarferlinu sem verkflæðið af gerðinni **Verkflæði notandabeiðni (verkvangur)** stýrir. Fyrir frekari upplýsingar, sjá [Settu upp verkflæði til að vinna úr notendabeiðnum um samvinnu lánardrottins](#set-up-workflows-to-process-vendor-collaboration-user-requests) kafla síðar í þessari grein.
 
 Upplýsingar um hvernig hægt er að innleiða væntanlega lánardrottna er að finna í [Taka inn lánardrottna](vendor-onboarding.md).
 

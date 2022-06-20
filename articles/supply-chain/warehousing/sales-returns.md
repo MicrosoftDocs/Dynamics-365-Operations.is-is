@@ -1,6 +1,6 @@
 ---
 title: Vöruskil sölu
-description: Þetta efnisatriði veitir upplýsingar um gæðastjórnunarferli fyrir skilapantanir. Það felur í sér upplýsingar um skil viðskiptavina og áhrif þeirra á birgðamagn kostnaðarútreiknings og magn á lager.
+description: Þessi grein veitir upplýsingar um ferlið fyrir skilapantanir. Það felur í sér upplýsingar um skil viðskiptavina og áhrif þeirra á birgðamagn kostnaðarútreiknings og magn á lager.
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9e8045ec39b9caf9bf0dc2b2d331419efb54e6d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860407"
 ---
 # <a name="sales-returns"></a>Vöruskil sölu
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um gæðastjórnunarferli fyrir skilapantanir. Það felur í sér upplýsingar um skil viðskiptavina og áhrif þeirra á birgðamagn kostnaðarútreiknings og magn á lager.
+Þessi grein veitir upplýsingar um ferlið fyrir skilapantanir. Það felur í sér upplýsingar um skil viðskiptavina og áhrif þeirra á birgðamagn kostnaðarútreiknings og magn á lager.
 
 Viðskiptavinir geta skilað vörum af mismunandi ástæðum. Til dæmis gæti vara verið gölluð eða hún er ekki að uppfylla væntingar viðskiptavinar. Skilaferlið hefst þegar viðskiptavinur gefur út beiðni um skil á vöru. Eftir að beiðni viðskiptavinar er móttekin er skilapöntun stofnuð.
 
@@ -84,7 +84,7 @@ Eftir að lokið hefur verið við skilahaus er hægt að stofna skilalínur me�
 -   Stofna skilalínu með því að nota aðgerðina **Finna sölupöntun**. Mælt er með því að nota þessa aðgerð þegar vöruskilapöntun er stofnuð. Aðgerðin **Finna sölupöntun** kemur á tilvísun úr skilalínunni í reikningsfærða sölupöntunarlínu og sækir línuupplýsingar eins og vörunúmer, magn, verð, afslætti og kostnaðargildi úr sölulínunni. Tilvísun hjálpar til við að tryggja að þegar vörunni er skilað til fyrirtækisins sé hún metin á sama einingarkostnaði og hún var seld á. Tilvísun sannprófar einnig að skilapantanir séu ekki stofnaðar fyrir meira magn en það magn sem var selt á reikningnum.
 
 >[!NOTE] 
->Skilalínur sem hafa tilvísun í sölupöntun eru meðhöndluð sem leiðréttingar á, eða bakfærslur á sölunni. Nánari upplýsingar er að finna í hlutanum „Bóka í fjárhag“ síðar í þessu efnisatriði.
+>Skilalínur sem hafa tilvísun í sölupöntun eru meðhöndluð sem leiðréttingar á, eða bakfærslur á sölunni. Nánari upplýsingar er að finna í hlutanum „Bóka í fjárhagsbók“ síðar í þessari grein.
 
 ### <a name="charges"></a>Gjöld
 
@@ -179,7 +179,7 @@ Auk þess að ákvarða hvernig skilaðar vörur eru seldar geta ráðstöfunark
 
 [![Komuferli.](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
-Komuferlið hefur nokkur önnur tilbrigði sem þetta efnisatriði nær ekki yfir. Hér eru nokkur af þessum tilbrigðum:
+Ferlið hefur nokkur önnur afbrigði sem ekki er fjallað um í þessari grein. Hér eru nokkur af þessum tilbrigðum:
 
 -   Ekki skal nota listann **Komuyfirlit** til að stofna komubók. Þess í stað skal stofna komubókina handvirkt. Skilapantanir munu hafa **sölupöntun** sem tilvísun.
 -   Ef verið er að nota vöruhúsakerfi, skal búa til brettaflutninga. Skilalína verður að hafa stöðuna **Komið** við brettaflutning.

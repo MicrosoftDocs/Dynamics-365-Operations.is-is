@@ -1,6 +1,6 @@
 ---
 title: Bættu nýjum reit við sniðmát viðskiptaskjala í Microsoft Excel
-description: Þetta efni veitir upplýsingar um hvernig bæta má nýjum reitum við sniðmát viðskiptaskjala í Microsoft Excel með því að nota viðskiptaskjalastjórnunaraðgerð.
+description: Þessi grein veitir upplýsingar um hvernig á að bæta nýjum reitum við viðskiptaskjalasniðmát í Microsoft Excel með því að nota viðskiptaskjalastjórnunareiginleika.
 author: NickSelin
 ms.date: 11/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 57eebdc38fb3f74690b92c03fa60e10c7610db1fe413320a6d167f05b0658bf1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8395a87e88ebbd1942c87da0cecebe6d25bdf625
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869403"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Bættu nýjum reit við sniðmát viðskiptaskjala í Microsoft Excel
 
@@ -28,14 +28,14 @@ ms.locfileid: "6767243"
 
 Þú getur bætt nýjum reitum við sniðmát sem er notað til að búa til viðskiptaskjöl á Microsoft Excel sniði. Þessum reitum er hægt að bæta við sem frátökurum sem eru notaðir til að fylla mynda skjöl með nauðsynlegum upplýsingum úr forritinu. Fyrir alla reiti sem þú bætir við geturðu einnig tilgreint bindingu gagnagjafa til að tilgreina hvaða forritsgögn verða færð inn í reitinn þegar sniðmátið er notað til að búa til viðskiptaskjöl.
 
-Til að fá frekari upplýsingar um þennan eiginleika skaltu ljúka dæminu í þessu efni. Þetta dæmi sýnir hvernig á að uppfæra sniðmát til að fylla út reitina í skjámyndum textareikninga sem eru búnir til.
+Til að læra meira um þennan eiginleika skaltu klára dæmið í þessari grein. Þetta dæmi sýnir hvernig á að uppfæra sniðmát til að fylla út reitina í skjámyndum textareikninga sem eru búnir til.
 
 ## <a name="configure-business-document-management-to-edit-templates"></a>Skilgreina stjórnun viðskiptaskjala til að breyta sniðmátum
 
 Vegna þess að viðskiptaskjalastjórnun (BDM) er byggð ofan á rammann [Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md) verður þú að stilla nauðsynlegar færibreytur ER og BDM áður en þú getur byrjað að vinna með BDM.
 
-1.  Skráðu þig inn á Microsoft Dynamics 365 Finance sem kerfisstjóri.
-2.  Ljúktu eftirfarandi skrefum í dæminu í efninu [Yfirlit yfir viðskiptaskjöl stjórnun](er-business-document-management.md):
+1.  Skráðu þig inn í dæmið um Microsoft Dynamics 365 Fjármál sem kerfisstjóri.
+2.  Ljúktu við eftirfarandi skref í dæminu í [Yfirlit yfir viðskiptaskjalastjórnun](er-business-document-management.md) grein:
 
     1.  Skilgreina færibreytur Rafræn skýrslugerðar.
     2.  Kveiktu á BDM.
@@ -64,7 +64,7 @@ Nánari upplýsingar um hvernig eigi að flytja inn ER-skilgreininga er að finn
 5.  Í reitinn **Titill** slærðu inn **Ókeypis textareikningur (Excel) Contoso** sem yfirskrift nýja sniðmátsins.
 6.  Veldu **Í lagi** til að staðfesta upphaf breytingarferilsins.
 
-Síðan BDM-sniðmátsritill birtist. Hægt er að nota Microsoft 365 til að breyta völdu sniðmáti á netinu í innbyggðu stýringunni.
+Síðan BDM-sniðmátsritill birtist. Þú getur notað Microsoft 365 til að breyta völdum sniðmáti á netinu í innbyggðu stjórninni.
 
 ![BDM ritilssíða.](./media/BDM-AddFldExcel-EditableTemplate.png)
 
@@ -150,7 +150,7 @@ Síðan BDM-sniðmátsritill birtist. Hægt er að nota Microsoft 365 til að br
 4.  Undir **Textareikningur** velurðu **Upprunalegt skjal** til að tilgreina umfang reikninga til vinnslu.
 5.  Í hægri glugganum, í reitnum **Skýrslusnið**, velurðu sniðmátið **Textareikningur (Excel) Contoso** fyrir tilgreint skjalastig.
 
-    ![Sniðmátið Textareikningur (Excel) Contoso valið.](./media/BDM-AddFldExcel-PrintMngtSetting.png)
+    ![Frjáls textareikningur (Excel) Contoso sniðmát valið.](./media/BDM-AddFldExcel-PrintMngtSetting.png)
 
 6.  Ýttu á **Esc** til að loka núverandi síðu.
 7.  Veldu **Prenta \> Valið**.

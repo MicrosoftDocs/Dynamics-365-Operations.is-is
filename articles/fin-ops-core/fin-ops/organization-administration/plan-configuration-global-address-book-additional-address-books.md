@@ -1,6 +1,6 @@
 ---
 title: Skipuleggja altæku aðsetursbókina og aðrar aðsetursbækur
-description: Þetta efnisatriði lýsir umhugsunarefni og ákvörðunum sem þarf að taka í áætlunarferlinu.
+description: Þessi grein lýsir þeim sjónarmiðum og ákvörðunum sem þú verður að taka í skipulagsferlinu.
 author: msftbrking
 ms.date: 01/13/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b3f6a74c217b0cc7cec784ca6a964ab2caae0c7e9438aee2cc82987a508d63
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 288c96d8c877f5e3b3101080294b2f6cdeb39882
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771897"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863160"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Skipuleggja altæku aðsetursbókina og aðrar aðsetursbækur
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir umhugsunarefni og ákvarðanir sem þarf að taka í áætlunarferli, áður en hægt er setja upp og stilla altæka aðsetursbók og allar aðrar aðsetursbækur. Sumir af þeim ákvörðunum munu krefjast þess að þú staðfestir þær ákvarðanir sem hafa verið gerðar fyrir önnur svið vörunnar, svo sem stigveldi fyrirtækis.
+Þessi grein lýsir þeim sjónarmiðum og ákvörðunum sem þú verður að taka á meðan á áætlanagerð stendur, áður en þú setur upp og stillir alþjóðlegu heimilisfangaskrána og allar viðbótar heimilisfangabækur. Sumir af þeim ákvörðunum munu krefjast þess að þú staðfestir þær ákvarðanir sem hafa verið gerðar fyrir önnur svið vörunnar, svo sem stigveldi fyrirtækis.
 
 ## <a name="global-address-book"></a>Altæk aðsetursbók
 

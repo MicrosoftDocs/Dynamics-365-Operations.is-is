@@ -1,6 +1,6 @@
 ---
 title: Skoða og uppfæra einingagögn með Excel
-description: Í þessu efnisatriði er útskýrt hvernig opna skal einingagögn í Microsoft Excel og síðan skoða, uppfæra og breyta gögnum með því að nota Microsoft Dynamics Excel-innbót.
+description: Þessi grein útskýrir hvernig á að opna einingargögn í Microsoft Excel, og síðan skoða, uppfæra og breyta gögnunum með því að nota Microsoft Dynamics Excel viðbót.
 author: jasongre
 ms.date: 05/16/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
-ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
+ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/16/2022
-ms.locfileid: "8762640"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862156"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Skoða og uppfæra einingagögn með Excel 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8762640"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-Í þessu efnisatriði er útskýrt hvernig opna skal einingagögn í Microsoft Excel og síðan skoða, uppfæra og breyta gögnum með því að nota Microsoft Dynamics Excel-innbót. Til að opna einingargögn geturðu byrjað annað hvort í Excel eða Finance and Operations forritum.
+Þessi grein útskýrir hvernig á að opna einingargögn í Microsoft Excel, og síðan skoða, uppfæra og breyta gögnunum með því að nota Microsoft Dynamics Excel viðbót. Til að opna einingargögn geturðu byrjað annað hvort í Excel eða Finance and Operations forritum.
 
 Með því að opna einingagögn í Excel er hægt að skoða og breyta gögnum með því að nota innbót fyrir Excel. Þessi innbót þarf Microsoft Excel 2016 eða nýrra.
 
@@ -57,7 +57,7 @@ Excel-innbót les sjálfkrafa gögn fyrir eininguna sem er valin. Athugið að �
 2. Í Office-Verslun er leitað með í leitað með lykilorðinu **Dynamics** og svo valið **Bæta við** við hliðina á **Microsoft Dynamics Office-innbót** (Excel innbótin).
 3. Ef verið er að keyra í Excel-innbót í fyrsta sinn, er valið **Treysta þessari innbót**. Í Excel-innbót keyrir í rúða hægra megin í Excel-glugga.
 4. Veljið **Bæta þjónsupplýsingar** til að opna rúðuna **Valkostir**.
-5. Í vafranum þínum, afritaðu vefslóðina á tilvikinu þínu fyrir Finance and Operations appið þitt, límdu það inn í **Vefslóð netþjóns** reit og eyddu síðan öllu á eftir hýsilheitinu. Meðfylgjandi Vefslóð ætti aðeins að hafa bara hýsilheiti.
+5. Í vafranum þínum skaltu afrita vefslóðina á tilvikinu þínu fyrir Finance and Operations appið þitt, límdu það inn í **Vefslóð netþjóns** reit og eyddu síðan öllu á eftir hýsilnafninu. Meðfylgjandi Vefslóð ætti aðeins að hafa bara hýsilheiti.
 
     Ef slóðin er t.d. `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage` skal eyða öllu nema `https://xxx.dynamics.com`.
 
@@ -76,7 +76,7 @@ Excel-innbót les sjálfkrafa gögn fyrir eininguna sem er valin. Athugið að �
 Eftir að Excel-innbót les gögn um einingar inn í vinnubókina, er hægt að uppfæra gögnin hvenær sem er með því að velja **Endurnýja** í Excel-innbót.
 
 ## <a name="edit-entity-data-in-excel"></a>Breyta einingagögnum í Excel
-Þú getur breytt einingargögnum eftir þörfum og birt þau síðan aftur í Finance and Operations forrit með því að velja **Birta** í Excel viðbótinni. Til að breyta færslu, skal velja hólf í vinnublaðinu og breyta síðan gildi hólfsins. Til að bæta við nýrri færslu, skal fylgja einu af eftirfarandi skrefum:
+Þú getur breytt einingagögnum eins og þú þarfnast og birt þau síðan aftur í Finance and Operations forrit með því að velja **Birta** í Excel viðbótinni. Til að breyta færslu, skal velja hólf í vinnublaðinu og breyta síðan gildi hólfsins. Til að bæta við nýrri færslu, skal fylgja einu af eftirfarandi skrefum:
 
 - Smellið einhvers staðar í gagnagjafatöflunni, og velja svo **Nýtt** í Excel-innbót.
 - Smellið hvar sem er í síðustu línu í gagnagjafatöflunni og ýttu síðan á flipalykil þar til að bendillinn fer út úr síðasta dálki þeirrar línu og ný lína er stofnuð.
@@ -110,7 +110,7 @@ Hægt er að nota hönnuðinn til að leiðrétta dálka sem er sjálfkrafa bæt
 5. Ef svæði (dálk) var bætt við, veljið **Endurnýja** til að sækja uppfærð gagnamengi.
 
 ## <a name="change-the-publish-batch-size"></a>Breyta runustærð birtingar
-Þegar notendur birta breytingar á gagnafærslum með því að nota Excel-innbótina eru uppfærslurnar sendar inn í runur. Sjálfgefin (og hámarks) birtingarlotustærð er 100 línur; hins vegar **Leyfa stillingu á birtingarlotustærð í Excel viðbótinni** eiginleiki gefur þér sveigjanleika við að lækka birtingarlotustærð, sérstaklega ef þú sérð tímafrest þegar þú reynir að birta uppfærslur úr Excel.
+Þegar notendur birta breytingar á gagnafærslum með því að nota Excel-innbótina eru uppfærslurnar sendar inn í runur. Sjálfgefin (og hámarks) birtingarlotustærð er 100 línur; hins vegar **Leyfa stillingu á birtingarlotustærð í Excel viðbótinni** eiginleiki gefur þér sveigjanleika við að lækka birtingarlotustærðina, sérstaklega ef þú sérð tímamörk þegar þú reynir að birta uppfærslur úr Excel.
 
 Kerfisstjórar geta tilgreint takmörk fyrir allt kerfið í runustærð birtingar fyrir „Opna í Excel“ vinnubækur með því að stilla reitinn **Takmörk runubirtingar** í hlutanum **Færibreytur forrits** á síðunni **Færibreytur Office-forrits**.
 

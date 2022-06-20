@@ -1,6 +1,6 @@
 ---
 title: Hreinsun flutnings rafrænnar skýrslugerðar
-description: Í þessu efnisatriði er útskýrt hvernig hægt er að nota hreinsunaraðgerð fyrir flutning rafrænnar skýrslugerðar til að leysa úr málum er varða sniðmát rafrænnar skýrslugerðar.
+description: Þessi grein útskýrir hvernig þú getur notað ER flutningshreinsunaraðgerðina til að leysa vandamál með ER sniðmát.
 author: NickSelin
 ms.date: 04/29/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: d437bed9b9873f82bcd047e85245bd2a8c66fb3572c06660f29fc19f66aebae1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b81f2f83209807f0d095bb7114b2361f3ce6154
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892509"
 ---
 # <a name="er-migration-cleanup"></a>Hreinsun flutnings rafrænnar skýrslugerðar 
 

@@ -1,6 +1,6 @@
 ---
 title: Aðskilinn Dual-Write Application Orchestration pakki
-description: Dual-write Application Orchestration pakkinn er ekki lengur einn pakki heldur hefur hann verið aðskilinn í smærri pakka. Þetta efnisatriði útskýrir lausnirnar og kortin sem hver pakki inniheldur og hversu háður hann er öðrum pakka.
+description: Dual-write Application Orchestration pakkinn er ekki lengur einn pakki heldur hefur hann verið aðskilinn í smærri pakka. Þessi grein útskýrir lausnirnar og kortin sem hver pakki inniheldur og hversu háður hann er af öðrum pakka.
 author: RamaKrishnamoorthy
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716553"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874813"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Aðskilinn Dual-Write Application Orchestration pakki
 
@@ -36,13 +36,13 @@ ms.locfileid: "8716553"
 - Dynamics 365 Finance and Operations Common
 - Dynamics 365 fyrirtæki
 - Gengi gjaldmiðla
-- Field Service Common
+- Sameiginleg vettvangsþjónusta
 
 Vegna þess að þetta var einn pakki skapaði þessi pakki „allt eða ekkert“ aðstæður fyrir viðskiptavini. Hins vegar hefur Microsoft nú aðskilið það í smærri pakka. Þess vegna geta viðskiptavinir valið bara pakkana fyrir þær lausnir sem þeir þurfa. Til dæmis, ef þú ert Microsoft Dynamics 365 Supply Chain Management viðskiptavinur, og þurfa ekki samþættingu við Dynamics 365 Human Resources, athugasemdum og eignastýringu geturðu útilokað þessar lausnir frá þeim lausnum sem eru uppsettar. Vegna þess að undirliggjandi nöfn lausna, útgefanda og kortaútgáfu eru þau sömu, er þessi breyting órofa. Núverandi innsetningar verða uppfærðar.
 
 ![Aðskilinn pakki.](media/separated-package-1.png)
 
-Þetta efnisatriði útskýrir lausnirnar og kortin sem hver pakki inniheldur og hversu háður hann er öðrum pakka.
+Þessi grein útskýrir lausnirnar og kortin sem hver pakki inniheldur og hversu háður hann er af öðrum pakka.
 
 ## <a name="dual-write-application-core"></a>Tvöfaldur-skrifa umsóknarkjarna
 
@@ -192,7 +192,7 @@ Dual-write Finance pakkinn inniheldur lausnir og kort sem þarf til að samstill
 |----------------------------------------|-------------------------------------------|
 | Dynamics365FinanceExtended             | Dynamics 365 Finance Extended             |
 | msdyn_Dynamics365FinanceExtended Maps   | Dynamics 365 Finance útvíkkuð einingakort |
-| Field Service Common                     | Field Service Common                      |
+| Field Service Common                     | Sameiginleg vettvangsþjónusta                      |
 | msdyn_Dynamics365FinanceExtendedAnchor | Dynamics 365 Finance útvíkkað akkeri      |
 
 Eftirfarandi kort eru fáanleg í þessum pakka.
@@ -263,7 +263,7 @@ Dual-write Notes pakkinn fer eftir eftirfarandi tveimur pökkum. Þess vegna æt
 
 ## <a name="dual-write-asset-management"></a>Tvöföld skrif eignastýring
 
-Dual-write Asset Management pakkinn inniheldur þær lausnir og kort sem þarf til að samstilla eignagögn frá Supply Chain Management eða Dynamics 365 Field Service. Það inniheldur eftirfarandi fjórar lausnir.
+Dual-write Asset Management pakkinn inniheldur lausnir og kort sem þarf til að samstilla eignagögn frá Supply Chain Management eða Dynamics 365 Field Service. Það inniheldur eftirfarandi fjórar lausnir.
 
 | Einstakt nafn                          | Heiti til birtingar                              |
 |--------------------------------------|-------------------------------------------|
@@ -339,7 +339,7 @@ Eftirfarandi kort eru fáanleg í þessum pakka.
 
 **Upplýsingar um ósjálfstæði**
 
-Tvískrifað aðila og alþjóðlegt heimilisfangabókarlausnir eru háðar eftirfarandi þremur pakka. Þess vegna ættir þú að setja þessa pakka upp áður en þú setur upp tvískrifaða aðila og alþjóðlega heimilisfangabókarlausnapakkann.
+Tvískrifa aðila og alþjóðleg heimilisfangabókarlausnir eru háðar eftirfarandi þremur pakka. Þess vegna ættir þú að setja þessa pakka upp áður en þú setur upp tvískrifaða aðila og alþjóðlega heimilisfangabókarlausnapakkann.
 
 - Dual-write Application Core pakki
 - Tvískrifað fjármálapakki

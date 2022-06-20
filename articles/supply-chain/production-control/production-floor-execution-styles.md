@@ -1,6 +1,6 @@
 ---
-title: Hanna keyrsluviðmót framleiðslugólfsins
-description: Þetta efnisatriði útskýrir hvernig á að skilgreina skjámyndastýringar þannig að sjálfgefnir stílar fyrir framkvæmd framleiðslugólfs eru notaðir í þeim.
+title: Hanna viðmót fyrir framkvæmd á framleiðslugólfi
+description: Greinin útskýrir hvernig á að stilla eyðublaðastýringar þannig að sjálfgefna framleiðslugólfsframkvæmdastíllinn sé notaður á þær.
 author: johanhoffmann
 ms.date: 11/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ef39dc6414f0afdadd4a4b5a41e1fb1fe60e4974
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: ad6ecd591353fe8ddc1a5b9049d65491fb58e98a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790891"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859141"
 ---
-# <a name="style-the-production-floor-execution-interface"></a>Hanna keyrsluviðmót framleiðslugólfsins
+# <a name="style-the-production-floor-execution-interface"></a>Hanna viðmót fyrir framkvæmd á framleiðslugólfi
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að skilgreina skjámyndastýringar þannig að sjálfgefnir stílar fyrir framkvæmd framleiðslugólfs eru notaðir í þeim.
+Greinin útskýrir hvernig á að stilla eyðublaðastýringar þannig að sjálfgefna framleiðslugólfsframkvæmdastíllinn sé notaður á þær.
 
 ## <a name="forms-and-dialogs"></a>Eyðublöð og gluggar
 
@@ -31,7 +31,7 @@ Aðeins er hægt að nota stíla á skjámynd eða svarglugga ef eftirfarandi kr
 - Ef eyðublaðið ætti að líkjast núverandi eyðublaði fyrir framvindu skýrslu verður nafn eyðublaðsins eða gluggans að byrja á `JmgProductionFloorExecutionCustomInputDialog`.
 - Skjámyndin eða svarglugginn getur innihaldið upplýsingahluta skjámyndar. Til að beita stílum á það verður nafn smáatriðahlutans að byrja á `JmgProductionFloorExecutionCustomDetailsDialog`.
 - Ef eyðublaðið eða svarglugginn ætti að hafa einfalda yfirsýn, þá verður nafn einfalda yfirlitsins að byrja á `JmgProductionFloorExecutionCustomDialog`. Dæmi um skjámyndir sem eru með einfalt yfirlit eru til að mynda upphafsskjámyndin og skjámynd óbeinna verkþátta.
-- Allar stýringar í glugganum verða að vera stilltar eins og lýst er í þessu efni.
+- Allar stýringar í glugganum verða að vera stilltar eins og lýst er í þessari grein.
 
 > [!IMPORTANT]
 > Eiginleikarnir sem eru nefndir í fyrstu áherslupunktunum í þessum lista þurfa útgáfu 10.0.19 af Supply Chain Management eða nýrri.
@@ -329,9 +329,9 @@ Til að samræma þætti í miðju flipa verður hópnafnið að byrja á`TabCon
 
 ## <a name="align-a-grid-detail-part-and-quick-filter"></a>Samræmdu rist, smáatriði og hraðsíu
 
-Til að raða sérsniðnu ristli, smáatriðum og hraðsíu þannig að þau líkist staðlaðri hönnun skaltu hafa eftirfarandi atriði í huga þegar þú setur þá alla saman:
+Til að raða sérsniðnu ristli, smáatriðum og hraðsíu þannig að þau líkist stöðluðu hönnuninni skaltu hafa eftirfarandi atriði í huga þegar þú setur þá alla saman:
 
-- Ef ristið er með hraðsíu ættu bæði rist og hraðsía að vera inni í hópnum sem hefur nafn sem byrjar á `GridGroup`.
+- Ef ristið er með hraðsíu ættu bæði ristið og hraðsían að vera inni í hópnum sem hefur nafn sem byrjar á `GridGroup`.
 - Til að beita stílum á smáatriði verður hópnafnið að byrja á`DetailInformationGroup`,
 
 Eftirfarandi mynd sýnir dæmigert rist sem inniheldur hraðsíu og smáatriði til hægri.

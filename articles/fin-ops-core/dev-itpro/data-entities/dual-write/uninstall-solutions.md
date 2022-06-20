@@ -1,6 +1,6 @@
 ---
-title: Fjarlægðu skipulagslausnir fyrir tvískrifa forrit
-description: Þetta efnisatriði lýsir því hvernig á að fjarlægja tvískrifa forritaskipunarlausnir.
+title: Fjarlægja skipulagslausnir fyrir tvöfalda skráningu forrita
+description: Þessi grein lýsir því hvernig á að fjarlægja tvískrifa forritaskipunarlausnir.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2022-01-21
-ms.openlocfilehash: 781b2cb19a563d5712fa65718c93bfdc242f0c4a
-ms.sourcegitcommit: abfaef124c8747827d6f297821f01f1f6fbca6b7
+ms.openlocfilehash: 676802ddabac69db4947cf806e9103f67cece3de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "8455309"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870375"
 ---
-# <a name="uninstall-dual-write-application-orchestration-solutions"></a>Fjarlægðu skipulagslausnir fyrir tvískrifa forrit
+# <a name="uninstall-dual-write-application-orchestration-solutions"></a>Fjarlægja skipulagslausnir fyrir tvöfalda skráningu forrita
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að fjarlægja tvískrifa forritaskipunarlausnir.
+Þessi grein lýsir því hvernig á að fjarlægja tvískrifa forritaskipunarlausnir.
 
 Sumir viðskiptavinir setja óviljandi upp tvískrifaða forritaskipunarpakkann sem setur upp margar lausnir í Microsoft Dataverse umhverfi. Uppsetning á óviðkomandi lausnum í pakkanum getur valdið óvæntum og óæskilegum vandamálum.
 

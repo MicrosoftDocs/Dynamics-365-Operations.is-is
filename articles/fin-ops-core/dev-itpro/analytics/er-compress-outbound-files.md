@@ -1,6 +1,6 @@
 ---
 title: Þjappa stórum skjölum sem eru mynduð í rafrænni skýrslugerð
-description: Þetta efnisatriði útskýrir hvernig á að þjappa stórum skjölum sem mynduð eru með sniði rafrænnar skýrslugerðar.
+description: Þessi grein útskýrir hvernig á að þjappa stórum skjölum sem eru búin til með rafrænu skýrslusniði (ER).
 author: NickSelin
 ms.date: 09/11/2020
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a4995879717e715f8ebadb6a80e00949df7545c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864808"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Þjappa stórum skjölum sem eru mynduð í rafrænni skýrslugerð 
 
 [!include [banner](../includes/banner.md)]
 
-Hægt er að nota [Ramma rafrænnar skýrslugerðar](general-electronic-reporting.md) til að skilgreina lausn sem sækir færslugögn til að mynda skjal á útleið. Þetta myndaða skjal gæti verið nokkuð stórt. Þegar þessi gerð skjals er mynduð er minnið [Þjónn hugbúnaðarhluta (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) notað til að halda því. Á einhverjum tímapunkti þarf að sækja skjalið úr Microsoft Dynamics 365 Finance-forritinu. Sem stendur takmarkast hámarksstærð eins skjals sem myndað er í rafrænni skýrslugerð við 2 GB. Þar að auki [takmarkar](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) Finance stærð sóttrar skráar við 1 GB sem stendur. Þess vegna þarf að skilgreina lausn rafrænnar skýrslugerðar sem dregur úr líkunum á að farið verði yfir þessar takmarkanir og að undantekningin **Streymi var of langt** eða **Yfirflæði eða undirflæði í reikniaðgerðinni** komi upp.
+Hægt er að nota [Ramma rafrænnar skýrslugerðar](general-electronic-reporting.md) til að skilgreina lausn sem sækir færslugögn til að mynda skjal á útleið. Þetta myndaða skjal gæti verið nokkuð stórt. Þegar þessi gerð skjals er mynduð er minnið [Þjónn hugbúnaðarhluta (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) notað til að halda því. Á einhverjum tímapunkti verður skjalið síðan að vera hlaðið niður frá þínu Microsoft Dynamics 365 Fjármálaumsókn. Sem stendur takmarkast hámarksstærð eins skjals sem myndað er í rafrænni skýrslugerð við 2 GB. Þar að auki [takmarkar](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) Finance stærð sóttrar skráar við 1 GB sem stendur. Þess vegna þarf að skilgreina lausn rafrænnar skýrslugerðar sem dregur úr líkunum á að farið verði yfir þessar takmarkanir og að undantekningin **Streymi var of langt** eða **Yfirflæði eða undirflæði í reikniaðgerðinni** komi upp.
 
 Þegar lausn er skilgreind er hægt að stilla snið rafrænnar skýrslugerðar í aðgerðarhönnuði með því að bæta við rótareiningu af gerðinni **Mappa** til að þjappa saman efninu sem er myndað af einhverri faldaðri einingu. Þjöppunin virkar „í tæka tíð“ þannig að hægt sé að minnka hámarks minnisnotkun og stærð skráarinnar sem verður hlaðið niður.
 
 > [!NOTE]
 > Skráarþjöppun tekur viðbótarprósentu af notkun örgjörvans.
 
-Fyrir frekari upplýsingar um þessa aðferð skal ljúka dæminu í þessu efnisatriði.
+Fyrir frekari upplýsingar um þessa nálgun skaltu ljúka við dæmið í þessari grein.
 
 ## <a name="example-compress-an-outbound-document"></a>Dæmi: Þjappa skjali á útleið
 
@@ -41,7 +41,7 @@ Fyrir frekari upplýsingar um þessa aðferð skal ljúka dæminu í þessu efni
 
 ### <a name="prerequisites"></a>Forkröfur
 
-Áður en ferlið í þessu efnisatriði er klárað þarf að ljúka eftirfarandi skrefum.
+Áður en þú lýkur aðferðunum í þessari grein verður að ljúka eftirfarandi skrefum.
 
 1. [Virkja skilgreiningarveitu](er-defer-xml-element.md#activate-a-configuration-provider).
 2. [Flytja inn dæmið um skilgreiningar rafrænnar skýrslugerðar](er-defer-xml-element.md#import-the-sample-er-configurations).

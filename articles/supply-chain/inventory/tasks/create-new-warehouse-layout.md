@@ -1,6 +1,6 @@
 ---
 title: Búa til nýtt vöruhúsaútlit
-description: Þetta efnisatriði lýsir hvernig setja á upp upplýsingar um staðsetningar í vöruhúsi.
+description: Þessi grein lýsir því hvernig á að setja upp upplýsingar um staðsetningar í vöruhúsi.
 author: yufeihuang
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf5c5203aa0a4c8522b8f9d04fc6a8cd306a64a3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 143648e5317e6dce1b1a76a96d6069abe5d0e351
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859315"
 ---
 # <a name="create-a-new-warehouse-layout"></a>Búa til nýtt vöruhúsaútlit
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig setja á upp upplýsingar um staðsetningar í vöruhúsi. Þetta á aðeins við vöruhús sem eru stofnaðar með "grunn vöruhús" í kerfinu birgðastjórnun, ekki á við vöruhús sem er stofnað í vöruhúsakerfinu. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.
+Þessi grein lýsir því hvernig á að setja upp upplýsingar um staðsetningar í vöruhúsi. Þetta á aðeins við vöruhús sem eru stofnaðar með "grunn vöruhús" í kerfinu birgðastjórnun, ekki á við vöruhús sem er stofnað í vöruhúsakerfinu. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.
 
 
 ## <a name="set-the-default-location-capacity"></a>Stilla sjálfgefna afkastagetu staðsetningar

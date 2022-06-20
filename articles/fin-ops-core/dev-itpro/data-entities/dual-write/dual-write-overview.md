@@ -1,6 +1,6 @@
 ---
 title: Tvöföld skrif – yfirlit
-description: Þetta efni veitir yfirlit yfir tvískrifa, sem veitir nánast rauntíma samskipti milli forrita fyrir þátttöku viðskiptavina og fjármála- og rekstrarappa.
+description: Þessi grein veitir yfirlit yfir tvískrift, sem veitir nánast rauntíma samskipti milli forrita fyrir þátttöku viðskiptavina og fjármála- og rekstrarappa.
 author: RamaKrishnamoorthy
 ms.date: 02/06/2020
 ms.topic: overview
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: f39322a0c2ef50ef2bbeb256c80096e0687c4642
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2ef4fb1a51bd92db440841eb2a9d9ebcce0e1b1d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872941"
 ---
 # <a name="dual-write-overview"></a>Tvöföld skrif – yfirlit
 
@@ -28,7 +28,7 @@ ms.locfileid: "8061335"
 
 Dual-write er út-af-kassa innviði sem veitir næstum rauntíma samskipti milli þátttökuforrita viðskiptavina og fjármála- og rekstrarappa. Þegar gögn um viðskiptavini, afurðir, fólk og rekstur streyma út fyrir forritamörk, verðar allar deildir fyrirtækis öflugri.
 
-Dual-write veitir þétt tengda, tvíátta samþættingu milli Finance and Operations forrita og Dataverse. Allar gagnabreytingar í Finance and Operations forritum valda skrifum til Dataverse, og allar breytingar á gögnum Dataverse veldur skrifum í Finance and Operations öpp. Þetta sjálfvirka gagnaflæði veitir samþætta notendaupplifun í forritunum.
+Dual-write veitir þétttengda, tvíátta samþættingu milli Finance and Operations forrita og Dataverse. Allar gagnabreytingar í Finance and Operations forritum valda skrifum til Dataverse, og allar breytingar á gögnum Dataverse veldur skrifum í Finance and Operations öpp. Þetta sjálfvirka gagnaflæði veitir samþætta notendaupplifun í forritunum.
 
 ![Gagnasamband milli forrita.](media/dual-write-overview.jpg)
 
@@ -73,7 +73,7 @@ Dual-write skapar kortlagningu á milli hugtaka í Finance and Operations öppum
 
 Tvöföld skrifa veitir samþættingu gagna í öllu forritum Microsoft Dynamics 365. Þessi öflugi rammi tengir umhverfi og gerir ólíkum viðskiptaforritum kleift að vinna saman. Hér eru helstu ástæður þess að þú ættir að nota tvískipt skrif:
 
-+ Tvöföld skráning veitir vel tengda, næstum í rauntíma og tvíátta samþættingu milli fjármála- og rekstrarforrita og forrita viðskiptavinar. Þessi samþætting gerir Microsoft Dynamics 365 að því eina sem þarf fyrir allar viðskiptalausnir þínar. Viðskiptavinir sem nota Dynamics 365 Finance og Dynamics 365 Supply Chain Management, en sem nota lausnir utan Microsoft fyrir stjórnun tengsla við viðskiptavini (CRM), fara í átt að Dynamics 365 fyrir tvískiptan stuðning.
++ Tvöföld skráning veitir vel tengda, næstum í rauntíma og tvíátta samþættingu milli fjármála- og rekstrarforrita og forrita viðskiptavinar. Þessi samþætting gerir Microsoft Dynamics 365 að því eina sem þarf fyrir allar viðskiptalausnir þínar. Viðskiptavinir sem nota Dynamics 365 Finance og Dynamics 365 Supply Chain Management, en þeir sem nota ekki Microsoft lausnir fyrir stjórnun viðskiptavinatengsla (CRM), eru að fara í átt að Dynamics 365 fyrir tvískrifaðan stuðning.
 + Gögn frá viðskiptavinum, vörum, rekstri, verkefnum og net hlutanna (IoT) renna sjálfkrafa til Dataverse í gegnum tvískipt skrif. Þessi tenging er gagnleg fyrir fyrirtæki sem hafa áhuga á Power Platform útvíkkun.
 + Tvöfaldur-skrifa innviði fylgir meginreglunni um enga kóða/lágkóða. Lágmarks verkfræðiátak er krafist til að framlengja venjulegar varpanir frá töflu til töflu og fela í sér sérsniðnar varpanir.
 + Tvöföld skriftarverk styðja bæði netstillingu og ótengda stillingu. Microsoft er eina fyrirtækið sem býður upp á stuðning við net- og ótengdar stillingar.

@@ -1,6 +1,6 @@
 ---
 title: Samstilla vörur beint úr Sales við viðskiptavini í Supply Chain Management við vörur í Sales
-description: Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verk sem notuð eru til að samstilla vörur úr Dynamics 365 Supply Chain Management við Dynamics 365 Sales.
+description: Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla vörur frá Dynamics 365 Supply Chain Management til Dynamics 365 Sales.
 author: Henrikan
 ms.date: 06/10/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: dd84f96a5597c480648ae30b6d0274e15d750ff6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 5195368f3de12c7e361905c3cca442067e39e000
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062464"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855962"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Samstilla vörur beint úr Sales við viðskiptavini í Supply Chain Management við vörur í Sales
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062464"
 > [!NOTE]
 > Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Microsoft Dataverse fyrir forrit](/powerapps/administrator/data-integrator).
 
-Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verk sem notuð eru til að samstilla vörur beint úr Dynamics 365 Supply Chain Management við Dynamics 365 Sales.
+Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla vörur beint frá Dynamics 365 Supply Chain Management til Dynamics 365 Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gagnaflæði í Prospect to cash
 
@@ -107,7 +107,7 @@ Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþætt
 ![Sniðmátsvörpun í Gagnasamþáttara.](./media/products-direct-template-mapping-data-integrator-1.png)
 
 
-## <a name="related-topics"></a>Tengd efnisatriði
+## <a name="related-articles"></a>Tengdar greinar
 
 [Viðfang til sjóðstreymis](prospect-to-cash.md)
 

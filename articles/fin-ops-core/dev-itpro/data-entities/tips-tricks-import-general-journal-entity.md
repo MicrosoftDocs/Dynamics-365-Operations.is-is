@@ -1,6 +1,6 @@
 ---
 title: Innflutningur fylgiskjala með því að nota einingu almennrar færslubókar
-description: Þetta efnisatriði veitir ábendingar fyrir innflutning gagna í Almenna færslubók með því að nota einingu almennrar færslubókar.
+description: Þessi skrá veitir ábendingar fyrir innflutning gagna í Almenna færslubók með því að nota einingu almennrar færslubókar.
 author: rcarlson
 ms.date: 04/20/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 056bb860e3133bb8389410e29d20f32447799399
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065071"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867612"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Innflutningur fylgiskjala með því að nota einingu almennrar færslubókar
 
@@ -28,7 +28,7 @@ ms.locfileid: "8065071"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þetta efnisatriði veitir ábendingar fyrir innflutning gagna í Almenna færslubók með því að nota einingu almennrar færslubókar.
+Þessi skrá veitir ábendingar fyrir innflutning gagna í Almenna færslubók með því að nota einingu almennrar færslubókar.
 
 Hægt er að nota eininguna Almenna færslubók til að flytja einungis inn fylgiskjöl sem hafa reikningsgerðina **Fjárhag**, **Viðskiptavin**, **Lánardrottinn** eða **Banka**. Fylgiskjal er hægt að færa inn sem eina lína með því að nota bæði svæðið **Lykill** og **Mótlykill**, eða í margra línu fylgiskjali, þar sem aðeins svæðið **Lykill** er notað (og **Mótlykill** er haft autt í hverri línu). Einingin Almenn færslubók styður ekki allar gerð lykils. Þess í stað eru til aðrar einingar fyrir aðstæður ar sem mismunandi samsetningar gerða lykla er krafist. Til dæmis til að flytja inn verkfærslu, skal nota verkeiningu kostnaðarskýrslu færslubókar. Hver eining er hönnuð til að styðja við tilteknar atburðarásir. Þetta þýðir að fleiri reitir geta verið tiltækir í einingum fyrir þessar atburðarásir. Hins vegar gætu viðbótarreitir ekki verið í boði í einingum fyrir mismunandi atburðarásir.
 

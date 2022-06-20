@@ -1,6 +1,6 @@
 ---
 title: Flytja inn skilgreiningu úr Lifecycle Services
-description: Í þessu efni er útskýrt hvernig á að flytja inn nýja útgáfu af skilgreiningu rafrænnar skýrslugerðar úr Microsoft Dynamics Lifecycle Services (LCS).
+description: Þessi grein lýsir því hvernig á að flytja inn nýja útgáfu af rafrænni skýrslugerð (ER) uppsetningu frá Microsoft Dynamics Lífsferilsþjónusta (LCS).
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 05a8ad127df177c54e67ff1f2ddcd8b3a3f51ea12b6e11d087105bd74b6bdb3f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2aae59334828a5636f35051d50cf2ea392074b71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712593"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886673"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Flytja inn skilgreiningu úr Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur flutt inn nýja útgáfu af [Skilgreiningarsnið fyrir rafræna skýrslugerð (ER)](../general-electronic-reporting.md#Configuration) úr [Eignasafn á verkefnastigi](../../lifecycle-services/asset-library.md) í Microsoft Dynamics Lifecycle Services (LCS).
+Þessi grein útskýrir hvernig notandi í hlutverki Kerfisstjóra eða þróunaraðila rafrænna skýrslugerðar getur flutt inn nýja útgáfu af [Uppsetning rafrænnar skýrslugerðar (ER).](../general-electronic-reporting.md#Configuration) frá [Eignasafn á verkefnastigi](../../lifecycle-services/asset-library.md) inn Microsoft Dynamics Lífsferilsþjónusta (LCS).
 
 > [!IMPORTANT]
 > Verið er að [úrelda](../../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release) notkun LCS sem gagnageymslu fyrir skilgreiningar rafrænnar skýrslugerðar. Frekari upplýsingar er að finna í [Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) úrelding á geymslu](../../../../finance/localizations/rcs-lcs-repo-dep-faq.md).
@@ -41,7 +41,7 @@ ms.locfileid: "6712593"
 
 <a name="accessconditions"></a>
 > [!NOTE]
-> Ganga skal úr skugga um að núverandi Dynamics 365 Finance notandi sé aðili að LCS-verki sem inniheldur eignasafnið sem notandinn vill fá [aðgang](../../lifecycle-services/asset-library.md#asset-library-support) að til að flytja inn skilgreiningar rafrænnar skýrslugerðar.
+> Gakktu úr skugga um að núverandi Dynamics 365 Finance notandi sé meðlimur LCS verkefnisins sem inniheldur eignasafnið sem notandinn vill [aðgangur](../../lifecycle-services/asset-library.md#asset-library-support) til að flytja inn ER stillingar.
 >
 > Ekki er hægt að opna LCS-verk úr rafrænni gagnageymslu sem stendur fyrir annað lén en lénið sem er notað í Finance. Ef það er reynt verður tæmandi listi yfir LCS-verk sýndur og ekki er hægt að flytja inn skilgreiningar rafrænnar skýrslugerðar úr verkstigi eignasafns í LCS. Til að fá aðgang að eignasöfnum verks úr geymslu sem er notuð til að flytja inn skilgreining rafrænnar skýrslugerðar skal skrá sig inn í Finance með því að nota skilríki notanda sem tilheyrir leigjandanum (léninu) sem gildandi Finance tilviki hefur verið úthlutað til.
 
@@ -49,7 +49,7 @@ ms.locfileid: "6712593"
 
 1. Á síðunni **Skilgreiningar**, í skilgreiningartrénu, skal velja **Dæmi um skilgreiningu líkans**.
 
-    Fyrsta útgáfa af stillingum sýnigagnalíkansins var stofnuð og birt í LCS þegar lokið var við skrefin í [Hlaða skilgreiningu upp í Lifecycle Services fyrir rafræna skýrslugerð](er-upload-configuration-into-lifecycle-services.md). Í þessu ferli muntu eyða þeirri útgáfu á skilgreiningu rafrænnar skýrslugerðar. Þú munt síðan flytja inn þá útgáfu úr LCS síðar í þessu efnisatriði.
+    Fyrsta útgáfa af stillingum sýnigagnalíkansins var stofnuð og birt í LCS þegar lokið var við skrefin í [Hlaða skilgreiningu upp í Lifecycle Services fyrir rafræna skýrslugerð](er-upload-configuration-into-lifecycle-services.md). Í þessu ferli muntu eyða þeirri útgáfu á skilgreiningu rafrænnar skýrslugerðar. Þú munt síðan flytja þá útgáfu frá LCS síðar í þessari grein.
 
 2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 

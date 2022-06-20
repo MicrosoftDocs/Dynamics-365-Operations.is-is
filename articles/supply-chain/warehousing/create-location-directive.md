@@ -1,6 +1,6 @@
 ---
 title: Vinna með staðsetningarleiðbeiningar
-description: Þetta efnisatriði útskýrir hvernig á að vinna með staðsetningarleiðbeiningar. Staðsetningarleiðbeiningar eru notandaskilgreindar reglur sem hjálpa við auðkenningu tiltektar- og frágangsstaðsetninga fyrir birgðahreyfingar.
+description: Þessi grein lýsir því hvernig á að vinna með staðsetningarleiðbeiningar. Staðsetningarleiðbeiningar eru notandaskilgreindar reglur sem hjálpa við auðkenningu tiltektar- og frágangsstaðsetninga fyrir birgðahreyfingar.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903696"
 ---
 # <a name="work-with-location-directives"></a>Vinna með staðsetningarleiðbeiningar
 
@@ -27,7 +27,7 @@ ms.locfileid: "8103139"
 Staðsetningarleiðbeiningar eru reglur sem hjálpa við auðkenningu tiltektar- og frágangsstaðsetninga fyrir birgðahreyfingar. Til dæmis, í sölupöntunarfærslu, ákvarða staðsetningarleiðbeiningar hvar vörurnar verða teknar til og hvar tilteknar vörur verða að setja. Staðsetningarleiðbeiningar samanstanda af haus og tengdum línum. Þær eru búnar til fyrir tilteknar *verkbeiðnigerðir*.
 
 > [!NOTE]
-> Athugasemd: Þetta efni á við aðgerðir í **Vöruhúsakerfi**. Það á ekki við um eiginleika í einingunni [Birgðastjórnun](../inventory/inventory-home-page.md).
+> Þessi grein á við um eiginleika í **Vöruhússtjórnun** mát. Það á ekki við um eiginleika í einingunni [Birgðastjórnun](../inventory/inventory-home-page.md).
 
 Hægt er að nota staðsetningarleiðbeiningar til að framkvæma eftirfarandi verk:
 
@@ -109,7 +109,7 @@ Töflurnar í eftirfarandi undirköflum sýna sameiginlega reiti og sérreit ver
 
 Til að opna síðuna **Staðsetningarleiðbeiningar** er farið í **Vöruhúsakerfi \> Uppsetning \> Staðsetningarleiðbeiningar**.
 
-Þaðan er hægt að skoða, búa til og breyta staðsetningarleiðbeiningum með því að nota skipanirnar á aðgerðasvæði. Í eftirstandandi hlutum í þessu efnisatriði er að finna upplýsingar um hvernig á að nota alla reitina sem eru í boði á síðunni.
+Þaðan er hægt að skoða, búa til og breyta staðsetningarleiðbeiningum með því að nota skipanirnar á aðgerðasvæði. Sjáðu hluta þessarar greinar sem eftir eru til að fá upplýsingar um hvernig á að nota alla reiti sem eru tiltækir á síðunni.
 
 ## <a name="action-pane"></a>Aðgerðasvæði
 
@@ -162,7 +162,7 @@ Reitirnir í flýtiflipanum **Staðsetningarleiðbeiningar** eru sértækir fyri
 - **Viðeigandi ráðstöfunarkóði** - Tilgreinið ef ráðstöfunarkóði staðsetningarleiðbeiningar þarf að samræmast ráðstöfunarkóðanum sem er notaður þegar varan er móttekin eða hvort hægt er að velja staðsetningarleiðbeininguna út frá hvaða ráðstöfunarkóða sem er. Ef valið er *Nákvæmt samræmi* og reitur fyrir **ráðstöfunarkóða** er auður, koma aðeins auðir ráðstöfunarkóðar til greina fyrir þessa staðsetningartilskipun.
 
     > [!NOTE]
-    > Þessi reitur er aðeins í boði fyrir valdar gerðir verkbeiðni þar sem áfylling er leyfð. Ítarlegan lista er að finna í hlutanum [Reitir sem eru sértækir fyrir verkbeiðnigerðir](#fields-specific-types) fyrr í þessu efnisatriði.
+    > Þessi reitur er aðeins í boði fyrir valdar gerðir verkbeiðni þar sem áfylling er leyfð. Fyrir heildarlista, sjá [Reitir sem eru sérstakir fyrir gerðir verkbeiðna](#fields-specific-types) kafla fyrr í þessari grein.
 
 - **Staðsetja eftir** - Tilgreinið hvort frágangsmagnið eigi að vera allt magnið í númeraplötunni eða hvort það eigi að vera vöru eftir vöru. Nota skal þennan reit til að tryggja að allt innihaldið á númeraplötu sé sett á eina staðsetningu og að kerfið leggi ekki til að skipt verði upp innihaldinu á nokkrar staðsetningar fyrir **ASN** (móttaka númeraplötu), móttaka **Blandaðrar númeraplötu** og móttökuferli **Klasa**. (Móttökuferli **Klasa** krefst þess að kveikt verði á eiginleikanum [Klasafrágangur](putaway-clusters.md).) Hegðun fyrirspurnar staðsetningarleiðbeiningar, línanna og aðgerðir staðsetningarleiðbeiningar verða mismunandi, eftir því hvaða gildi er valið. Flýtiflipinn **Línur** er aðeins notaður þegar **Staðsetja eftir** er stilltur á *Vara*.
 
@@ -254,7 +254,7 @@ Eftir að þú stofnar staðsetningarleiðbeiningar getur þú tengir hvert tils
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - Myndskeið: [Ítarleg greining á grunnstillingum vöruhúsastjórnunar](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Hjálparefni: [Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar](control-warehouse-location-directives.md)
+- Hjálpargrein: [Stjórna vöruhúsavinnu með því að nota vinnusniðmát og staðsetningarleiðbeiningar](control-warehouse-location-directives.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

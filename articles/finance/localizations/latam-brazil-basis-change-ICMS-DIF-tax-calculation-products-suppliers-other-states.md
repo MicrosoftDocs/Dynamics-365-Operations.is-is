@@ -1,6 +1,6 @@
 ---
 title: Breyting á grunni í ICMS-DIF skattaútreikningum fyrir afurðir frá birgjum í öðrum ríkjum
-description: Þetta efnisatriði lýsir uppsetningu fyrir útreikninga á skattategundinni ICMS-DIF þegar skattskjal er móttekið í Brasilíska fylkinu Rio Grande do Sul (RS) eða São Paulo (SP).
+description: Þessi grein lýsir uppsetningu fyrir útreikninga á skattategundinni ICMS-DIF þegar skattskjal er móttekið í Brasilíska fylkinu Rio Grande do Sul (RS) eða São Paulo (SP).
 author: Kai-Cloud
 ms.date: 1/20/2022
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2022-1-17
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 63e3cbaaf77456b55f08ea91831ba9d49cb57185
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1fde18c79f375db4db6bc52cdb5c40a61625ae63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868263"
 ---
 # <a name="basis-change-in-icms-dif-tax-calculations-for-products-from-suppliers-in-other-states"></a>Breyting á grunni í ICMS-DIF skattaútreikningum fyrir afurðir frá birgjum í öðrum ríkjum
 
-Þetta efni lýsir uppsetningu fyrir útreikninga á **ICMS-DIF** skattategund þegar skattskjal er móttekið í brasilíska fylkinu Rio Grande do Sul (RS) eða São Paulo (SP).
+Þessi grein lýsir uppsetningu fyrir útreikninga á **ICMS-DIF** skattategund þegar skattskjal er móttekið í brasilíska fylkinu Rio Grande do Sul (RS) eða São Paulo (SP).
 
 Samkvæmt skilgreiningunni í ríkislögunum verður Imposto sobre Circulação de Mercadorias e Serviços (ICMS) sem safnað er að fylgja þessari reglu:
 
@@ -43,7 +43,7 @@ Brasilískt fyrirtæki í RS-ríkinu fær fjárhagsskjal fyrir kaup frá sölua�
 Til að reikna út mismunadrifið ICMS (ICMS-DIF) samkvæmt reglum RS-ríkisins, verður þú að setja upp VSK-kóða og VSK-flokk á eftirfarandi hátt:
 
 1. Búðu til söluskattskóða til að fá 12 prósenta ICMS (fyrir hitt ríkið). Þessi kóði er notaður til að skrá skattkröfur frá seljanda.
-2. Búðu til söluskattskóða til að safna ICMS-DIF. Þessi söluskattskóði ætti að hafa prósentuupphæð 18 prósent (fyrir þitt eigið ríki) til að skilgreina muninn á milli 18 prósent og 12 prósent. Stilltu skatttegundina á **ICMS-DIF**. Þessi söluskattskóði verður að vera skilgreindur á eftirfarandi hátt í útreikningsbreytum:
+2. Búðu til söluskattskóða til að safna ICMS-DIF. Þessi söluskattskóði ætti að hafa prósentuupphæðina 18 prósent (fyrir þitt eigið ríki) til að skilgreina muninn á milli 18 prósent og 12 prósent. Stilltu skatttegundina á **ICMS-DIF**. Þessi virðisaukaskattskóði verður að vera skilgreindur á eftirfarandi hátt í útreikningsbreytum:
 
     - Í **Uppruni** reit, veldu **Hlutfall af brúttófjárhæð**.
     - Í **Jaðargrunnur** reit, veldu **Nettóupphæð á línu** eða **Nettóupphæð reikningsstöðu**.

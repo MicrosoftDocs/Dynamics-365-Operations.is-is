@@ -1,6 +1,6 @@
 ---
-title: Nota stillingar mælieiningar
-description: Í efnisatriði er fjallað um stillingar mælieininga og útskýrt hvernig á að nota þær í Microsoft Dynamics 365 Commerce.
+title: Nota stillingar mælieininga
+description: Þessi grein fjallar um mælieiningastillingar og lýsir því hvernig eigi að nota þær í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7fe5cf6b57a8897a0bd541146cb1ad17b496d5633c0a1df9d58b2a4fbc868139
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca95bd31af8f244f60f12120bc6df121f48cc7ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761515"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884816"
 ---
-# <a name="apply-unit-of-measure-settings"></a>Nota stillingar mælieiningar
+# <a name="apply-unit-of-measure-settings"></a>Nota stillingar mælieininga
 
 [!include [banner](includes/banner.md)]
 
-Í efnisatriði er fjallað um stillingar mælieininga og útskýrt hvernig á að nota þær í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um mælieiningastillingar og lýsir því hvernig eigi að nota þær í Microsoft Dynamics 365 Commerce.
 
 Hægt er að selja vöru í mismunandi einingum, eins og „hver“, „par“ og „tugir“. Í Commerce Headquarters er hægt að skilgreina hverja mælieiningu fyrir sig fyrir vöru og sýna hana á svæði fyrir rafræn viðskipti. Ef söluaðili selur vöru bæði í stökum einingum og í tugum er hægt að sýna tiltækar mælieiningar ásamt öðrum vöruupplýsingum.
 

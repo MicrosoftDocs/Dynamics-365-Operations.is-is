@@ -1,6 +1,6 @@
 ---
 title: Staðfesta áætlaðar pantanir
-description: Þetta efnisatriði útskýrir hvernig áætlaðar pantanir eru staðfestar. Þegar fyrirhugaðar pantanir eru staðfestar breytast þær í raunverulegar innkaupapantanir, millifærslupantanir eða framleiðslupantanir.
+description: Þessi grein útskýrir hvernig á að staðfesta fyrirhugaðar pantanir. Þegar fyrirhugaðar pantanir eru staðfestar breytast þær í raunverulegar innkaupapantanir, millifærslupantanir eða framleiðslupantanir.
 author: t-benebo
 ms.date: 04/22/2021
 ms.search.form: ReqTransPo, ReqTransFirmLog
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30f3ee656b97e0337b6e3e78f0acb2300d7d85dc
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468469"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857519"
 ---
 # <a name="firm-planned-orders"></a>Staðfesta áætlaðar pantanir
 
@@ -29,11 +29,11 @@ ms.locfileid: "8468469"
 - **Sjálfvirk staðfesting** – Skilgreinið sjálfgefin tímamörk fyrir þekjuflokka, einstaka hluti og samsetningar hluta og aðaláætlana. Því næst, á meðan aðaláætlanagerð keyrir, verða áætlaðar pantanir sjálfkrafa staðfestar ef dagsetning pöntunar er innan tiltekinna tímamarka fyrir staðfestingu.
 - **Staðfesting byggð á fyrirspurn** – Skilgreinið fyrirspurn til að velja áætlaðar pantanir út frá eiginleikum þeirra. Hægt er að setja upp runuvinnslu til að keyra fyrirspurnina og staðfesta samsvarandi pantanir reglulega.
 
-Í þessu efnisatriði er hverri aðferð lýst nákvæmlega.
+Þessi grein lýsir hverri aðferð í smáatriðum.
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>Virkja eiginleikana sem er lýst í þessu efnisatriði
+## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a> Virkjaðu eiginleikana sem lýst er í þessari grein
 
-Flestir eiginleikar áætlaðra pantana eru í boði í öllum hefðbundnum uppsetningum Microsoft Dynamics 365 Supply Chain Management sem notar fínstillingu áætlanagerðar. Hins vegar þarf að kveikja á nokkrum af þeim eiginleikum sem lýst er í þessu efnisatriði í eiginleikastjórnun áður en hægt er að nota þá.
+Flestir eiginleikar áætlaðra pantana eru í boði í öllum hefðbundnum uppsetningum Microsoft Dynamics 365 Supply Chain Management sem notar fínstillingu áætlanagerðar. Hins vegar verður að kveikja á nokkrum af þeim eiginleikum sem lýst er í þessari grein í Eiginleikastjórnun áður en þú getur notað þá.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Kveiktu eða slökktu á samhliða staðfestingu fyrirhugaðra pantana
 
@@ -97,7 +97,7 @@ Sjálfvirk staðfesting gerir kleift að staðfesta áætlaðar pantanir sem hlu
 > Afleiddar pantanir (þ.e. innkaupapantanir undirverktaka) sem eru staðfestar munu fá stöðuna *Í endurskoðun* ef kveikt er á breytingarrakningu.
 
 > [!IMPORTANT]
-> Áður en hægt er að nota eiginleikann sem er lýst í þessum hluta með fínstillingu áætlanagerðar verður að kveikja á eiginleikanum [*Sjálfvirk staðfesting fyrir fínstillingu áætlanagerðar*](#enable-features) í kerfinu eins og lýst er í upphafi þessa efnisatriðis. Alltaf er hægt að nota sjálfvirka staðfestingu með innbyggðri aðaláætlunarvél.
+> Áður en hægt er að nota eiginleikann sem lýst er í þessum hluta með áætlanagerð fínstillingu, [*Sjálfvirk staðfesting fyrir hagræðingu áætlanagerðar* eiginleiki](#enable-features) verður að vera kveikt á kerfinu þínu, eins og lýst er í upphafi þessarar greinar. Alltaf er hægt að nota sjálfvirka staðfestingu með innbyggðri aðaláætlunarvél.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Sjálfvirk staðfesting með fínstillingu áætlanagerðar í samanburði við innbyggða áætlunarvél
 
@@ -130,7 +130,7 @@ Staðfesting byggð á fyrirspurn gerir kleift að áætla staðfestingu byggt �
 Hægt er að sameina sjálfvirka staðfestingu við staðfestingu sem byggir á fyrirspurn. Til dæmis hefur staðfestingarverk sem byggir á fyrirspurn framvirk tímamörk sem eru ekki lengri en tímamörk fyrir samsvarandi skilgreiningu á umfangi sjálfvirkrar staðfestingar. Því mun staðfestingarverk sem byggir á fyrirspurn vinna úr áætluðum pöntunum áður en sjálfvirk staðfesting er sett í gang. Hægt er að nýta sér þessa hegðun til að tímasetja pantanir fyrir tiltekna lánardrottna á annan hátt en pantanir fyrir svipaðar afurðir frá öðrum lánardrottnum.
 
 > [!IMPORTANT]
-> Áður en hægt er að nota eiginleikann sem lýst er í þessu efnisatriði verður að kveikja á [*Staðfesting áætlaðrar pöntunar með síun* eiginleikanum](#enable-features) í kerfinu eins og lýst er í upphafi þessa efnisatriðis.
+> Áður en hægt er að nota eiginleikann sem lýst er í þessum hluta, [*Skipulögð pöntunarstyrking með síun* eiginleiki](#enable-features) verður að vera kveikt á kerfinu þínu, eins og lýst er í upphafi þessarar greinar.
 
 Fylgið eftirfarandi skrefum til að staðfesta áætlaða pöntun með staðfestingarferli sem byggir á fyrirspurn.
 

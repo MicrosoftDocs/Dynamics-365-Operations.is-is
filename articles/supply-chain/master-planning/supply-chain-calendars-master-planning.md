@@ -1,7 +1,7 @@
 ---
 title: Dagatöl og aðaláætlanagerð
-description: Þetta efnisatriði veitir yfirlit yfir aðfangakeðjudagatöl og hvernig þau hafa áhrif á aðaláætlanagerð.
-author: ChristianRytt
+description: Þessi grein veitir yfirlit yfir birgðakeðjudagatöl og hvernig þau hafa áhrif á aðalskipulagningu.
+author: t-benebo
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 182c22a77e73573b4e27a81f80debf67242b95c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568616"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890974"
 ---
 # <a name="calendars-and-master-planning"></a>Dagatöl og aðaláætlanagerð
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir yfirlit yfir aðfangakeðjudagatöl og hvernig þau hafa áhrif á aðaláætlanagerð.  Mismunandi dagatölin sem eru notuð í kerfi aðaláætlanagerðar eru útskýrð, þ.á.m. hvernig þau hafa áhrif á sendingar- og móttökudaga í áætluðum pöntunum. Að lokum eru tilmæli um úthlutun, notkun og uppfærslu á dagatölum gefin.
+Þessi grein veitir yfirlit yfir birgðakeðjudagatöl og hvernig þau hafa áhrif á aðalskipulagningu.  Mismunandi dagatölin sem eru notuð í kerfi aðaláætlanagerðar eru útskýrð, þ.á.m. hvernig þau hafa áhrif á sendingar- og móttökudaga í áætluðum pöntunum. Að lokum eru tilmæli um úthlutun, notkun og uppfærslu á dagatölum gefin.
 
 ## <a name="definition-of-a-calendar"></a>Skilgreining á dagatali
 

@@ -1,6 +1,6 @@
 ---
 title: Vörulistar símavers
-description: Þetta efnisatriði lýsir sértækri virkni símavera fyrir vörulista í Dynamics 365 Commerce.
+description: Þessi grein lýsir sértækri virkni símavera fyrir vörulista í Dynamics 365 Commerce.
 author: josaw1
 ms.date: 05/15/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11af3c889e7e40e13f4aa8b3db97f544fbd20229
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884057"
 ---
 # <a name="call-center-catalogs"></a>Vörulistar símavers
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir sértækri virkni símavera sem tengist eiginleikum vörulista í Dynamics 365 Commerce.
+Þessi grein lýsir sértækri þjónustuver sem tengist vörulistamöguleikum í Dynamics 365 Commerce.
 
 Vörulistaeiginleikar sem finnast í Commerce koma að margskonar notum. Upphaflega voru vörulistaeiginleikarnir stofnaðir til að styðja við samþættingu rafrænna viðskipta þriðja aðila. Uppsetning vörulista heimilaði fyrirtækjum að búa til flokkun á vörum og eiginleikum sem hægt væri að birta út á við til notkunar í rafrænni viðskiptalausn þriðja aðila.
 

@@ -1,6 +1,6 @@
 ---
 title: Bæta greiningu við vinnusvæði með Power BI Embedded
-description: Þetta efnisatriði sýnir hvernig á að fella inn Power BI skýrslu í greiningarflipann á vinnusvæði.
+description: Þessi grein sýnir hvernig á að fella inn a Power BI skýrslu á Analytics flipanum á vinnusvæði.
 author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fba78f091a9e1ba209489b0e324027c4885a198d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760153"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884550"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Bæta greiningu við vinnusvæði með Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Þessi eiginleiki er studdur í Finance and Operations (útgáfa 7.2 og síðar).
+> Þessi eiginleiki er studdur í Finance and Operations (útgáfu 7.2 og seinni).
 
 ## <a name="introduction"></a>Kynning
-Þetta efnisatriði sýnir hvernig á að fella inn Microsoft Power BI skýrslu í flipann **Greiningar** á vinnusvæði. Í dæminu sem er gefið hér stækkum við vinnusvæðið **Stjórnun bókana** í forritinu Bílaflotastjórnun til að fella inn greiningarvinnusvæði á **Greiningarflipa**.
+Þessi grein sýnir hvernig á að fella inn a Microsoft Power BI skýrslu um **Greining** flipa á vinnusvæði. Í dæminu sem er gefið hér stækkum við vinnusvæðið **Stjórnun bókana** í forritinu Bílaflotastjórnun til að fella inn greiningarvinnusvæði á **Greiningarflipa**.
 
 ## <a name="prerequisites"></a>Frumskilyrði
 + Aðgangur að þróunarumhverfi sem keyrir á Verkvangsuppfærslu 8 eða nýrri.

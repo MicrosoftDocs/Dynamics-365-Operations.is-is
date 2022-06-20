@@ -1,6 +1,6 @@
 ---
 title: Setja upp kennslu fyrir Regression Suite Automation Tool
-description: Þetta efni er kennsluefni sem sýnir hvernig á að setja upp Regression Suite Automation Tool (RSAT).
+description: Þessi grein er einkatími sem sýnir hvernig á að setja upp og setja upp Regression Suite Automation Tool (RSAT).
 author: tonyafehr
 ms.date: 09/20/2019
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 5dcdd14f54b9c0ad39794ff98ede29332c246513
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: ec4ae765aaac038e6c7eff11403fb21ebd27fc2c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781992"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858591"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Setja upp kennslu fyrir Regression Suite Automation Tool
 
-Þetta efnisatriði er kennsla sem hjálpar þér að fá skipulag og byrja með RSAT og verkfærin sem tengjast því að nota RSAT.
+Þessi grein er einkatími sem hjálpar þér að setja upp og byrja með RSAT og tólin sem tengjast notkun RSAT.
 
 [!include [banner](../../includes/banner.md)]
 
@@ -42,7 +42,7 @@ ms.locfileid: "7781992"
 
 - Umhverfi sem keyrir Microsoft Dynamics 365 for Finance and Operations útgáfu 10.0 (apríl, 2019) eða síðar fyrir þetta kennsluefni. Fyrir viðskiptavini sem eru að nota Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 er verkvangsuppfærsla 20 (PU20) eða nýrri einnig studd.
 - Notandinn verður að hafa stjórnandaréttindi á umhverfið.
-- Þú verður að hafa aðgang að leigjanda viðskiptavinar í LCS og Azure DevOps (áður þekkt sem Microsoft Visual Studio Team Services \[ VSTS\]).
+- Þú verður að hafa aðgang að leigjanda viðskiptavinar í LCS og Azure DevOps (áður þekkt sem Microsoft Visual Studio Team Services \[VSTS\]).
 - Notandinn sem er að stofna og stjórna prófunarpökkum verður að hafa Azure DevOps prófunaráætlanir eða prófunarstjóraleyfi. Eftirfarandi heimildir veita þér einnig aðgang að prófunaráætlunum:
     - Visual Studio Enterprise-leyfi
     - Visual Studio Test Professional-leyfi
@@ -111,7 +111,7 @@ Að öðrum kosti mælum við með því að þú stofnir nýtt Azure DevOps-ver
 
 ## <a name="configure-the-lcs-project"></a>Skilgreina LCS-verk
 
-Þú þarft Lifecycle Services (LCS)-verkefni fyrir aðalprófunarsafnið þitt. LCS Viðskiptaferlavinnsla (BPM) er notuð sem aðalsafn fyrir prófunardæmin þín. BPM er notað til að stjórna og dreifa prófunarsöfnum yfir LCS-verk. Til dæmis mun Microsoft-samstarfsaðili eða sjálfstæður smásali hugbúnaðar (ISV) sem er að byggja prófunarsöfn gefa út prófunardæmi á formi BPM-safna. Í BPM eru prófunardæmin skipulögð af viðskiptaferli. BPM skilgreinir ekki framkvæmdaröð eða -tíðni staðinna prófana. Þessum aðgerðum er stjórnað í Azure DevOps, eins og er lýst síðar í þessu efnisatriði.  
+Þú þarft Lifecycle Services (LCS)-verkefni fyrir aðalprófunarsafnið þitt. LCS Viðskiptaferlavinnsla (BPM) er notuð sem aðalsafn fyrir prófunardæmin þín. BPM er notað til að stjórna og dreifa prófunarsöfnum yfir LCS-verk. Til dæmis mun Microsoft-samstarfsaðili eða sjálfstæður smásali hugbúnaðar (ISV) sem er að byggja prófunarsöfn gefa út prófunardæmi á formi BPM-safna. Í BPM eru prófunardæmin skipulögð af viðskiptaferli. BPM skilgreinir ekki framkvæmdaröð eða -tíðni staðinna prófana. Þessum upplýsingum er stjórnað í Azure DevOps, eins og lýst er síðar í þessari grein.  
 
 Fyrir LCS-verkefnið er hægt að nota núverandi innleiðingu viðskiptavina eða samstarfsverkefni.
 
@@ -386,7 +386,7 @@ Til að virkja sannvottun verðurðu að mynda og setja upp vottorð á sömu t�
 
     ![AOSService á lista yfir vefsvæði.](./media/setup_rsa_tool_49.png)
 
-3. Hægrismellið á **Skoða** til að opna möppuna **\<Drive\>: \\ AosService\\ WebRoot**. Finndu skrána **wif.config**.
+3. Hægrismellið á **Skoða** til að opna möppuna **\<Drive\>: \\AosService\\WebRoot**. Finndu skrána **wif.config**.
 
     ![Skráin Wif.config í möppunni WebRoot.](./media/setup_rsa_tool_50.png)
 
@@ -501,7 +501,7 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
     - **Heiti verkefnis** - Veldu heiti fyrir Azure DevOps-verkið.
     - **Prófunaráætlun** - Veldu Azure DevOps-prófunaráætlunina sem inniheldur prófunardæmin. Nánari upplýsingar er að finna í [Stofna prófunaráætlanir og prófunarpakka](https://www.visualstudio.com/docs/test/manual-exploratory-testing/getting-started/create-a-test-plan). Þegar þú hefur valið prófunaráætlun skaltu velja **Prófa tengingu** til að prófa tengingu þína við Azure DevOps.
     - **Hýsilheiti** – Sláið inn hýsiheiti prófunarumhverfa á borð við **\<myaos\>. cloudax.Dynamics.com**. Hafðu ekki forskeytin **https://** eða **http://** með.
-    - **SOAP-hýsilheiti** – Skráðu SOAP-hýsilheiti prófunarumhverfis. Yfirleitt er heiti SOAP-hýsils það sama og hýsilheitið en með viðskeytið **soap**. Eftirfarandi er dæmi: **\<myaos\> soap.cloudax.dynamics.com**. Hafðu ekki forskeytin **https://** eða **http://** með.
+    - **SOAP-hýsilheiti** – Skráðu SOAP-hýsilheiti prófunarumhverfis. Yfirleitt er heiti SOAP-hýsils það sama og hýsilheitið en með viðskeytið **soap**. Eftirfarandi er dæmi: **\<myaos\>soap.cloudax.dynamics.com**. Hafðu ekki forskeytin **https://** eða **http://** með.
 
         > [!NOTE]
         > Til að finna hýsilheiti og heiti SOAP-hýsils skaltu opna IIS Manager, hægri-smella á **Vefsvæði \> AOSService** og velja síðan **Breyta bindingum**. Gildin í dálknum **Heiti hýsils** veita þér hýsilheitið og heiti SOAP-hýsils (heiti SOAP-hýsils er með viðskeytið **soap** í vefslóðinni).
@@ -510,7 +510,7 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
     - **Notandaheiti stjórnanda** – Skráðu netfang stjórnanda í prófunarumhverfi.
     - **Fingrafar** - Sláðu inn fingrafar auðkenningarvottorðsins, eins og lýst er hér að framan í þessu kennsluefni.
-    - **Vinnuskráarsafn** – Tilgreindu staðsetningu möppu til að geyma sjálfvirkniskrár prófunar, eins og Excel-prófunargagnaskrár. Til dæmis, sláðu inn eða veldu **C:\\ Temp\\ RegressionTool**.
+    - **Vinnuskráarsafn** – Tilgreindu staðsetningu möppu til að geyma sjálfvirkniskrár prófunar, eins og Excel-prófunargagnaskrár. Til dæmis, sláðu inn eða veldu **C:\\Temp\\RegressionTool**.
 
         > [!NOTE]
         > Ef nafnið á möppunni er með bilum mun framkvæmdin mistakast þar sem ekki verður hægt að finna möppuna. Þetta vandamál er þekkt og ætti að vera leiðrétt í nýjustu útgáfunni af verkfærinu.
@@ -538,7 +538,7 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
     ![Skipunin Mynda prófunarkeyrslu og færibreytuskrár í nýju valmyndinni.](./media/setup_rsa_tool_65.png)
 
-    Excel-færibreytuskráin er stofnuð í staðbundnu möppunni sem þú tilgreindir í RSAT-skilgreiningunni (til dæmis, **C:\\ Temp\\ RegressionTool**).
+    Excel-færibreytuskráin er stofnuð í staðbundnu möppunni sem þú tilgreindir í RSAT-skilgreiningunni (til dæmis, **C:\\Temp\\RegressionTool**).
 
     ![Excel-færibreytuskrá stofnuð.](./media/setup_rsa_tool_66.png)
 
@@ -569,7 +569,7 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
     ![Viðvörunarboð fyrir Chrome.](./media/setup_rsa_tool_70.png)
 
     > [!NOTE]
-    > Ef þú er að nota Chrome sem vafra og færð villuboð sem segir að setan hafi ekki verið stofnuð vegna þess að útgáfan Chrome sé ekki rétt skaltu sækja nýjasta Chrome-drifið frá <http://chromedriver.chromium.org/downloads> í möppuna **C:\\ Program Files (x86)\\Regression Suite Automation Tool\\ Almennt\\ Ytra\\ Selenium**.
+    > Ef þú er að nota Chrome sem vafra og færð villuboð sem segir að setan hafi ekki verið stofnuð vegna þess að útgáfan Chrome sé ekki rétt skaltu sækja nýjasta Chrome-drifið frá <http://chromedriver.chromium.org/downloads> í möppuna **C:\\Program Files (x86)\\Regression Suite Automation Tool\\Almennt\\Ytra\\Selenium**.
 
     ![Villuboð fyrir Chrome.](./media/setup_rsa_tool_71.png)
 
@@ -614,7 +614,7 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
     ![Upplýsingar villuboða.](./media/setup_rsa_tool_79.png)
 
     > [!NOTE]
-    > Öll villuskilaboð eru einnig tiltæk staðbundið í **C:\\ Notendur\\\$ YourUserName\\ AppData\\ Roaming\\ regressionTool\\ errormsg-.txt**.
+    > Öll villuskilaboð eru einnig tiltæk staðbundið í **C:\\Notendur\\\$YourUserName\\AppData\\Roaming\\regressionTool\\errormsg-.txt**.
 
 7. Þú getur einnig flutt út niðurstöður prófunarkeyrslu úr prófunaráætlunarstiginu með því að velja **Flytja út**.
 
@@ -712,7 +712,7 @@ Eitt lykilatriði í RSAT er keðja prófunardæma (það er að segja, geta pr�
     > [!NOTE]
     > Ef Excel-færibreytuskráin var skilin eftir opnuð mun endurnýjun ekki takast. Passaðu þess vegna að Excel-færibreytuskráin fyrir prófunardæmið sé lokuð áður en þú myndar nýja Excel-færibreytuskrá.
 
-16. Veldu **Breyta** til að opna nýja Excel-færibreytuskrána. Þú munt sjá nýja færslu **Vistuð breyta** í línu 9. Þessi breyta, **{{ EcoResProductCreate\_ Identification\_ ProductNumber\_ Copy}}**, er vistuð í XML-skrá verkskráningarinnar og hana má nota í síðari prófanir.
+16. Veldu **Breyta** til að opna nýja Excel-færibreytuskrána. Þú munt sjá nýja færslu **Vistuð breyta** í línu 9. Þessi breyta, **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}**, er vistuð í XML-skrá verkskráningarinnar og hana má nota í síðari prófanir.
 
     ![Vistuð breytufærsla.](./media/setup_rsa_tool_94.png)
 
@@ -785,7 +785,7 @@ Eitt lykilatriði í RSAT er keðja prófunardæma (það er að segja, geta pr�
 #### <a name="edit-the-excel-parameter-file"></a>Breyta Excel-færibreytuskránni
 
 1. Veldu aðeins annað prófdæmið og veldu síðan **Breyta** til að opna samsvarandi Excel-færibreytuskrá.
-2. Afritaðu vistaða breytu **{{ EcoResProductCreate\_ Identification\_ ProductNumber\_ Copy}}** (sjá kaflann [Breyta núverandi verkskráningu til að stofna vistaða breytu](#modify-an-existing-task-recording-to-create-a-saved-variable)) úr fyrsta prófunardæminu inn í alla reiti þar sem afurðarnúmerið er notað. Í þessu dæmi afritar þú breytu inn í reitina **Afurðarnúmer** og **Staðfesta afurðarnúmer** á blaðinu **EcoResProductListPage**.
+2. Afritaðu vistaða breytu **{{EcoResProductCreate\_Identification\_ProductNumber\_Copy}}** (sjá kaflann [Breyta núverandi verkskráningu til að stofna vistaða breytu](#modify-an-existing-task-recording-to-create-a-saved-variable)) úr fyrsta prófunardæminu inn í alla reiti þar sem afurðarnúmerið er notað. Í þessu dæmi afritar þú breytu inn í reitina **Afurðarnúmer** og **Staðfesta afurðarnúmer** á blaðinu **EcoResProductListPage**.
 
     ![Reitirnir Afurðarnúmer og Staðfesta afurðarnúmer.](./media/setup_rsa_tool_104.png)
 

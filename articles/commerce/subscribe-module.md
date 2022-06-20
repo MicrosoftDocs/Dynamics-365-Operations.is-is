@@ -1,6 +1,6 @@
 ---
 title: Áskriftareining
-description: Þetta efni fjallar um áskriftareiningar og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um áskriftareiningar og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: efc9150ea5ddeb7051f82fb07c4d566ac8a48dfa
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 23b74f5853ffb7f191ea7ee3da0d3238db339d34
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780590"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852694"
 ---
 # <a name="subscribe-module"></a>Áskriftareining
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni fjallar um áskriftareiningar og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um áskriftareiningar og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 
 Hægt er að nota áskriftareiningar á síðum vefsvæðis til að ná upplýsingum um viðskiptavini fyrir fréttabréf eða kynningar.
 
@@ -54,7 +54,7 @@ Til að bæta áskriftareiningu við nýja síðu og stilla nauðsynlega eiginle
 1. Í **Veldu einingar** valmynd, veldu **Gerast áskrifandi** mát og veldu síðan **Allt í lagi**.
 1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
 1. Farðu í **Síður** og opnaðu heimasíðu vefsvæðisins (eða búðu til nýja heimasíðu með sniðmáti markaðssetningar).
-1. Í **Aðal** rauf sjálfgefna síðunnar, veldu sporbaug hnappinn (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Aðal** rauf sjálfgefna síðunnar, veldu sporbaughnappinn (**...**), og veldu síðan **Bæta við einingu**.
 1. Í **Veldu einingar** valmynd, veldu **Gerast áskrifandi** mát og veldu síðan **Allt í lagi**.
 1. Í eiginleikaglugga áskriftareiningar skal bæta við fyrirsögn eins og **Gerast áskrifandi**.
 1. Bæta við nýjum texta efnisgreinar, t.d. **Nýjasta tíska og tilboð. Eru á listanum? Með því að gerast áskrifandi færðu öll nýjustu tilboðin!**

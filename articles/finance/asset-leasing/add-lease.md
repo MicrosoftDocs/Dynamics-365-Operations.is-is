@@ -1,6 +1,6 @@
 ---
 title: Bæta við eða afrita leigusamninga (forskoðun)
-description: Þetta efnisatriði lýsir því hvernig á að stofna nýjan leigu með því að færa inn upplýsingar um hana í Eignarleiga eða afrita upplýsingar úr fyrirliggjandi leigu.
+description: Þessi grein lýsir því hvernig á að búa til nýjan leigusamning með því að færa inn upplýsingar um hann í eignaleigu eða afrita upplýsingar úr núverandi leigusamningi.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 798ab3ece45ee6f21694a364cfb7a4ff14a9c8aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880933"
 ---
 # <a name="add-or-copy-leases-preview"></a>Bæta við eða afrita leigusamninga (forskoðun)
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að stofna leigu frá grunni í Eignarleiga og einnig hvernig á að stofna leigu með því að afrita fyrirliggjandi leigu. Ferlið fyrir stofnun leigu frá grunni felur í sér að færa inn upplýsingar fyrir nýja leigu og búa síðan til leiguáætlun. Eftir að a.m.k. ein leiga hefur verið sett upp gæti reynst auðveldara að afrita upplýsingarnar úr fyrirliggjandi leigu og breyta þeim svo eftir því sem þörf krefur til að stofna nýja leigu.
+Þessi grein útskýrir hvernig á að búa til leigusamning frá grunni í eignaleigu, og einnig hvernig á að búa til leigusamning með því að afrita núverandi leigusamning. Ferlið fyrir stofnun leigu frá grunni felur í sér að færa inn upplýsingar fyrir nýja leigu og búa síðan til leiguáætlun. Eftir að a.m.k. ein leiga hefur verið sett upp gæti reynst auðveldara að afrita upplýsingarnar úr fyrirliggjandi leigu og breyta þeim svo eftir því sem þörf krefur til að stofna nýja leigu.
 
 ## <a name="create-a-lease"></a>Búa til leigu
 

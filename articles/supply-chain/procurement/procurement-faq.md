@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um innkaup
-description: Þetta efnisatriði veitir svör við algengum spurningum um virkni innkaupa í Supply Chain Management
+description: Þessi grein veitir svör við algengum spurningum (algengum spurningum) um innkaupavirkni birgðakeðjustjórnunar
 author: GalynaFedorova
 ms.date: 05/31/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 718108447dcb5cec488b7fa626feb551808e8dd8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6e710b254638b255ce4aa3e0adde0dd23bf60f64
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669349"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869576"
 ---
 # <a name="procurement-faq"></a>Algengar spurningar um innkaup
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir svör við algengum spurningum um virkni innkaupa í Supply Chain Management.
+Þessi grein veitir svör við algengum spurningum (algengum spurningum) um innkaupavirkni birgðakeðjustjórnunar.
 
 ## <a name="can-i-show-only-purchase-orders-that-i-created"></a>Get ég birt aðeins innkaupapantanir sem ég stofnaði?
 

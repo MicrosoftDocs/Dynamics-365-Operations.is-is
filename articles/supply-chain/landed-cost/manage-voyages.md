@@ -1,6 +1,6 @@
 ---
 title: Stjórna ferðum
-description: Þetta efnisatriði útskýrir hvernig á að vinna með ferðir. Ferð stendur yfirleitt fyrir skip. Það fer hins vegar eftir þínum starfsháttum og venjum og getur hún staðið fyrir lánardrottin, innkaupapöntun eða eitthvað annað atriði sem passar fyrirtækinu þínu.
+description: Þessi grein lýsir því hvernig á að vinna með siglingar. Ferð stendur yfirleitt fyrir skip. Það fer hins vegar eftir þínum starfsháttum og venjum og getur hún staðið fyrir lánardrottin, innkaupapöntun eða eitthvað annað atriði sem passar fyrirtækinu þínu.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7d85ef86351f5d6ac662bb72c88d464fba82f561
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696167"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905864"
 ---
 # <a name="manage-voyages"></a>Stjórna ferðum
 
@@ -96,7 +96,7 @@ Til að opna yfirlitið **Línur** skal opna ferð og síða velja flipann **Lí
 
 ### <a name="information-on-the-voyage-header-fasttab"></a>Upplýsingar í flýtiflipanum síðuhaus ferðar
 
-Flýtiflipinn **Síðuhaus ferðar** í yfirlitinu **Línur** fyrir ferð inniheldur grunnupplýsingar sem lýsa ferðinni. Margir reitirnir sem birtast í þessum flýtiflipa birtast einnig í yfirlitinu **Síðuhaus** eins og lýst er síðar í þessu efnisatriði.
+Flýtiflipinn **Síðuhaus ferðar** í yfirlitinu **Línur** fyrir ferð inniheldur grunnupplýsingar sem lýsa ferðinni. Margir af reitunum sem birtast á þessum flýtiflipanum birtast einnig í **Fyrirsögn** skoða, eins og lýst er síðar í þessari grein.
 
 ### <a name="information-on-the-voyage-lines-fasttab"></a>Upplýsingar í flýtiflipanum línur ferðar
 

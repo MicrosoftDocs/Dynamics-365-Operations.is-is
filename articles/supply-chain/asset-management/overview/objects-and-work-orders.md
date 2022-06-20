@@ -1,6 +1,6 @@
 ---
 title: Eignir og verkbeiðnir
-description: Þetta efni lýsir eignum og verkbeiðnum í eignastýringu.
+description: Þessi grein lýsir eignum og verkbeiðnum í eignastýringu.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2872dc84ec11ae7fad9fd5b225b9207f13280db334cc0d010a3d6749a591ee2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2d0fcc5162900ad2ad67f2629d14015f694bd4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718108"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869692"
 ---
 # <a name="assets-and-work-orders"></a>Eignir og verkbeiðnir
 
@@ -28,7 +28,7 @@ ms.locfileid: "6718108"
 
  
 
-Þetta efni lýsir eignum og verkbeiðnum í eignastýringu. Eignir og verkbeiðnir eru meginhlutir eignastýringar. *Eign* er vél eða vélarhluti sem krefst stöðugs viðhalds og þjónustu. Hægt er að búa til eignir í stigveldisskipulagi og þær geta tengst virkum stöðum. Viðhaldsstörf geta verið áætluð á öllum stigum eignaskipulagsins.
+Þessi grein lýsir eignum og verkbeiðnum í eignastýringu. Eignir og verkbeiðnir eru meginhlutir eignastýringar. *Eign* er vél eða vélarhluti sem krefst stöðugs viðhalds og þjónustu. Hægt er að búa til eignir í stigveldisskipulagi og þær geta tengst virkum stöðum. Viðhaldsstörf geta verið áætluð á öllum stigum eignaskipulagsins.
 
 Ýmis gögn, svo sem vöruupplýsingar og eignaskilgreining, og nauðsynlegar viðhaldsáætlanir eru settar upp um hverja eign. Eftirfarandi mynd sýnir yfirlit yfir eignargögn og tengingu eigna við starfstegundir. Rauður texti er notaður fyrir dæmi sem sýna arf og háð.
 

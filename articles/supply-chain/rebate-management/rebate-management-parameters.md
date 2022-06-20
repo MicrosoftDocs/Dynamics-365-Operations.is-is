@@ -1,6 +1,6 @@
 ---
 title: Færibreytur fyrir stjórnun eftirágreidds afsláttar
-description: Þetta efnisatriði lýsir færibreytusíðu fyrir stjórnun eftirágreidds afsláttar. Þessi síða inniheldur stillingar sem hafa áhrif á bókanir, stöðuuppfærslur, númeraraðir og annars konar hegðun.
+description: Þessi grein lýsir síðunni Færibreytur afsláttarstjórnunar. Þessi síða inniheldur stillingar sem hafa áhrif á bókanir, stöðuuppfærslur, númeraraðir og annars konar hegðun.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8f5c9734b2480329eed246bcbbfe3bd6e9991e0b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 218c54d97f3ac204e8613f5efdda0cc9d713ee04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688992"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895526"
 ---
 # <a name="rebate-management-parameters"></a>Færibreytur fyrir stjórnun eftirágreidds afsláttar
 
@@ -45,9 +45,9 @@ Eftirfarandi tafla lýsir reitunum sem eru í boði í flipanum **Stjórnun efti
 
 ## <a name="number-sequences-tab"></a>Flipinn Númeraraðir
 
-Notið flipann **Númeraraðir** á síðunni **Færibreytur fyrir stjórnun eftirágreidds afsláttar** til að úthluta kóðum númeraraðar á mismunandi númeraraðir sem stjórnun eftirágreidds afsláttar notar. Eftirfarandi tafla lýsir tilgangi hverrar númeraraðar. Nánari upplýsingar um númeraraðir er að finna í [Yfirlit númeraraða](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) og í tengdu efnisatriði.
+Notið flipann **Númeraraðir** á síðunni **Færibreytur fyrir stjórnun eftirágreidds afsláttar** til að úthluta kóðum númeraraðar á mismunandi númeraraðir sem stjórnun eftirágreidds afsláttar notar. Eftirfarandi tafla lýsir tilgangi hverrar númeraraðar. Fyrir frekari upplýsingar um númeraraðir, sjá [Yfirlit yfir númeraraðir](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) og það eru tengdar greinar.
 
-| Tilvísun | lýsing |
+| Tilvísun | Lýsing |
 |---|---|
 | Tilboð fyrir stjórnun eftirágreidds afsláttar | Númeraröðin úthlutar hverju tilboð eftirágreidds afsláttar gildi einkvæms lykils. Þessi lykill er notaður þegar tilboð eru búin til. |
 | Númer fyrir stjórnun eftirágreidds afsláttar | Númeraröðin úthlutar hverjum eftirágreiddum afslætti einkvæmu gildi lykils. Þessi lykill er notaður til að auðkenna vensl eftirágreidds afsláttar. |

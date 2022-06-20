@@ -1,6 +1,6 @@
 ---
 title: Uppsetning á staðnum – heimasíða
-description: Þetta efnisatriði veitir upplýsingar og tengla í efni um uppsetningu á staðnum
+description: Þessi grein veitir upplýsingar og tengla á efni um innleiðingu á staðnum.
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867413"
 ---
 # <a name="on-premises-deployment-home-page"></a>Uppsetning á staðnum – heimasíða
 
 [!include [banner](../includes/banner.md)]
 
-Þú getur sent inn Dynamics 365 Finance + Operations (on-premises). Þegar þú velur virkjun á staðnum eru kerfiskröfur, vélbúnaðarþörf og virkni önnur en þegar um er að ræða virkjun í skýi. Þetta efnisatriði veitir tengla í efni með upplýsingum um uppsetningu á staðnum.
+Þú getur sent inn Dynamics 365 Finance + Operations (on-premises). Þegar þú velur virkjun á staðnum eru kerfiskröfur, vélbúnaðarþörf og virkni önnur en þegar um er að ræða virkjun í skýi. Þessi grein veitir tengla á efni sem inniheldur upplýsingar sem eru sértækar fyrir innleiðingu á staðnum.
 
 ## <a name="get-started"></a>Leiðsögn
 - [Yfirlit yfir uppsetningu á staðnum](on-premises-overview.md)

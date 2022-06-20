@@ -1,6 +1,6 @@
 ---
 title: Opin API fyrir sýnileika birgða
-description: Þetta efnisatriði útskýrir opin API sem birgðasýnileiki býður upp á.
+description: Þessi grein lýsir opinberum API sem eru veitt af Birgðasýnileika.
 author: yufeihuang
 ms.date: 12/09/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786866"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902025"
 ---
 # <a name="inventory-visibility-public-apis"></a>Opin API fyrir sýnileika birgða
 
 [!include [banner](../includes/banner.md)]
 
 
-Þetta efnisatriði útskýrir opin API sem birgðasýnileiki býður upp á.
+Þessi grein lýsir opinberum API sem eru veitt af Birgðasýnileika.
 
 Almennt REST API innbótar birgðasýnileikans kynnir ýmsar tilteknar endastöðvar samþættingar. Það styður fjórar aðalsamskiptaleiðir:
 
@@ -160,7 +160,7 @@ Til að ná í öryggistákn skal fylgja þessum skrefum.
    ```
 
 > [!IMPORTANT]
-> Þegar þú notar beiðasafnið *Postman* til að kalla á opið API birgðasýnileika þarftu að bæta við handhafalykli fyrir hverja beiðni. Til að finna handhafalykilinn skal velja flipann **Heimild** undir vefslóð beiðninnar, velja gerðina **Handhafalykill** og afrita aðgangslykilinn sem var sóttur í skrefinu á undan. Í síðari hlutum í þessum efnisatriði verður `$access_token` notað til að tákna lykilinn sem var sóttur í síðasta skrefi.
+> Þegar þú notar beiðasafnið *Postman* til að kalla á opið API birgðasýnileika þarftu að bæta við handhafalykli fyrir hverja beiðni. Til að finna handhafalykilinn skal velja flipann **Heimild** undir vefslóð beiðninnar, velja gerðina **Handhafalykill** og afrita aðgangslykilinn sem var sóttur í skrefinu á undan. Í síðari köflum þessarar greinar,`$access_token` verður notað til að tákna táknið sem var sótt í síðasta skrefi.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Stofna tilvik lagerbreytinga
 
@@ -359,7 +359,7 @@ Body:
     ]
 ```
 
-Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls. Hegðun þessa API er frábrugðin hegðun API sem lýst er í hlutanum [Stofna tilvik lagerbreytinga](#create-onhand-change-event) fyrr í þessu efnisatriði. Í þessu sýnishorni mun magn afurðarinnar *Bolur* vera stillt á 1.
+Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls. Hegðun þessa API er frábrugðin hegðun API sem lýst er í [Búðu til breytingaviðburði á staðnum](#create-onhand-change-event) kafla fyrr í þessari grein. Í þessu sýnishorni mun magn afurðarinnar *Bolur* vera stillt á 1.
 
 ```json
 [
@@ -585,7 +585,7 @@ Hér er sýnishorn af sækja-vefslóð. Þessi beiðni um að sækja er nákvæm
 
 ## <a name="available-to-promise"></a>ATP-afhendingarspá
 
-Þú getur sett upp Birgðasýnileika til að leyfa þér að skipuleggja framtíðar breytingar á hendi og reikna út ATP magn. ATP er magn vöru sem er tiltækt og hægt er að lofa viðskiptavinum á næsta tímabili. Notkun ATP útreiknings getur aukið getu þína til að uppfylla pöntunina til muna. Fyrir upplýsingar um hvernig á að virkja þennan eiginleika og hvernig á að hafa samskipti við birgðasýnileika í gegnum API þess eftir að eiginleikinn er virkjaður, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa](inventory-visibility-available-to-promise.md#api-urls).
+Þú getur sett upp birgðasýnileika til að leyfa þér að skipuleggja framtíðar breytingar á hendi og reikna út ATP magn. ATP er magn vöru sem er tiltækt og hægt er að lofa viðskiptavinum á næsta tímabili. Notkun ATP útreikninga getur aukið getu þína til að uppfylla pöntunina til muna. Fyrir upplýsingar um hvernig á að virkja þennan eiginleika og hvernig á að hafa samskipti við birgðasýnileika í gegnum API þess eftir að eiginleikinn er virkjaður, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa](inventory-visibility-available-to-promise.md#api-urls).
 
 ## <a name="allocation"></a>Úthlutun
 

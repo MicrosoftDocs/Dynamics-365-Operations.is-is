@@ -1,6 +1,6 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management
-description: Þetta efni bendir á efni sem lýsir nýjum og breyttum eiginleikum í hverri útgáfu af Dynamics 365 Supply Chain Management.
+description: Þessi grein bendir á greinar sem lýsa nýjum og breyttum eiginleikum í hverri útgáfu af Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 6c1cfcd7ccc39f2742fd237278f97b4d3d0ad4fd
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
-ms.translationtype: MT
+ms.openlocfilehash: b767f8ff8e9c9ef7ea1b4dee777f9e0c96f93aef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8812973"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893440"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management
 
@@ -27,7 +27,7 @@ ms.locfileid: "8812973"
 
 ## <a name="releases-of-dynamics-365-supply-chain-management"></a>Útgáfur af Dynamics 365 Supply Chain Management
 
-Til að sjá hvað er nýtt eða breytt í hverri útgáfu af Dynamics 365 Supply Chain Management, sjá eftirfarandi efni.
+Til að sjá hvað er nýtt eða breytt í hverri útgáfu af Dynamics 365 Supply Chain Management, sjá eftirfarandi greinar.
 
 | Útgáfa | Smíðarnúmer | Framboð sjálfuppfærslu | Frekari upplýsingar |
 |---|---|---|---|
@@ -57,9 +57,9 @@ Til að sjá hvað er nýtt eða breytt í hverri útgáfu af Dynamics 365 Suppl
 
 ## <a name="releases-before-november-2019"></a>Útgáfur fyrir nóvember 2019
 
-Til að sjá hvað er nýtt eða breytt útgáfum á undan nóvember 2019, sjá eftirfarandi efni.
+Til að sjá hvað er nýtt eða breytt í útgáfum fyrir nóvember 2019, skoðaðu eftirfarandi greinar.
 
-| Losa | Útgáfa | Búa til númer | Til ráðstöfunar | Frekari upplýsingar |
+| Losa | Útgáfa | Smíðarnúmer | Framboð | Frekari upplýsingar |
 |---|---|---|---|---|
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.5      | 10.0.197         | 2019. október     | [Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations útgáfa 10.0.5 (október 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md)                 |
 | Microsoft Dynamics 365 for Finance and Operations                     | 10.0.4      | 10.0.136         | Júlí 2019        | [Hvað er nýtt eða breytt í Dynamics 365 for Finance and Operations útgáfu 10.0.4 (júlí 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md)                    |

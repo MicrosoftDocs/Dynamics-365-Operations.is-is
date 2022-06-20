@@ -1,6 +1,6 @@
 ---
 title: Reglu fyrir losun í vöruhús
-description: Í þessu efnisatriði er að finna upplýsingar um eiginleika reglu fyrir losun í vöruhús, sem býður upp á sveigjanleika við losun í vöruhúsið. Hann bætir við skilgreiningarvalkosti sem stjórnar því hvort kerfið leyfi að losa pöntunarlínur sem eru fráteknar að hluta til.
+description: Þessi grein veitir upplýsingar um eiginleikann Losun í vöruhús reglu, sem veitir sveigjanleika meðan á losun í vöruhús stendur. Hann bætir við skilgreiningarvalkosti sem stjórnar því hvort kerfið leyfi að losa pöntunarlínur sem eru fráteknar að hluta til.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5fef1d942f2e9d3467fb8a00c6d89cc5c018a5aa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c011938438be32e8a3169d90561ab329da32e32a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895468"
 ---
 # <a name="release-to-warehouse-rule"></a>Reglu fyrir losun í vöruhús
 
@@ -78,7 +78,7 @@ Einnig er hægt að nota þessa atburðarás sem leiðsögn fyrir eiginleikann �
 Þessar aðstæður sýna hvernig eiginleikinn virkar fyrir vöruhús sem stillt eru á **Krefjast fullrar frátekningar**.
 
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Vöruhús \> Vöruhús**.
-1. Fyrir vöruhús _62_ skal stilla reitinn **Skilyrði fyrir frátekningu á birgðum** á **Krefjast fullrar frátekningar** eins og lýst er í hlutanum [Stilla losunarreglu vöruhúss fyrir hvert vöruhús](#set-option-warehouse) fyrr í þessu efnisatriði.
+1. Fyrir vöruhús _62_, stilltu **Krafa um birgðapöntun** sviði til **Krefjast fullrar pöntunar**, eins og lýst er í [Stilltu losunar í vöruhús reglu fyrir hvert vöruhús](#set-option-warehouse) kafla fyrr í þessari grein.
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Smellið á **Nýtt** til að stofna nýja sölupöntun.
 1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
@@ -112,7 +112,7 @@ Einnig er hægt að nota þessa atburðarás sem leiðsögn fyrir eiginleikann �
 Þessar aðstæður sýna hvernig eiginleikinn virkar fyrir vöruhús sem stillt eru á **Leyfa hlutalosun**.
 
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Vöruhús \> Vöruhús**.
-1. Fyrir vöruhús _62_ skal stilla reitinn **Skilyrði fyrir frátekningu á birgðum** á **Leyfa hlutafrátekningu** eins og lýst er í hlutanum [Stilla losunarreglu vöruhúss fyrir hvert vöruhús](#set-option-warehouse) fyrr í þessu efnisatriði.
+1. Fyrir vöruhús _62_, stilltu **Krafa um birgðapöntun** sviði til **Leyfa fyrirvara að hluta**, eins og lýst er í [Stilltu losunar í vöruhús reglu fyrir hvert vöruhús](#set-option-warehouse) kafla fyrr í þessari grein.
 1. Eins og gert var í [fyrri aðstæðum](#scenario1) skal fara í **Sala og markaðssetning \> Sölupantanir \> Allar sölupantanir** og stofna sölupöntun fyrir viðskiptavinalykil _US-004_ úr vöruhúsi _62_. Bætið við eftirfarandi tveimur pöntunarlínum:
 
     - **Lína 1:** Stillið reitinn **Vörunúmer** á _A0001_, reitinn **Magn** á _2_ og reitinn **Eining** á _ea_.

@@ -1,6 +1,6 @@
 ---
 title: Færibreytur fyrir umsjón hönnunarbreytinga
-description: Þetta efnisatriði útskýrir hvernig á að grunnstilla eiginleika umsjónar hönnunarbreytinga fyrir Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein útskýrir hvernig á að stilla verkfræðilega breytingastjórnunareiginleika fyrir Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 106c3a79236bcb8112ecbd48e29f3f5f3148a867
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 6ef4113077c538ca1a54009aacbdeaf2ccbd0232
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581009"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875511"
 ---
 # <a name="engineering-change-management-parameters"></a>Færibreytur fyrir umsjón hönnunarbreytinga
 
@@ -27,7 +27,7 @@ Síðan **færibreytur fyrir umsjón hönnunarbreytinga** inniheldur uppsetninga
 
 ## <a name="open-the-engineering-change-management-parameters-page"></a>Opna síðu færibreyta fyrir umsjón hönnunarbreytinga
 
-Til að opna síðuna **Breyta færibreytum fyrir umsjón hönnunarbreytinga** er farið í **Umsjón hönnunarbreytinga \> Uppsetning \> Færibreytur fyrir umsjón hönnunarbreytinga**. Síðan er hægt að stilla svæðin eins og lýst er í hlutunum hér á eftir í þessu efnisatriði.
+Til að opna síðuna **Breyta færibreytum fyrir umsjón hönnunarbreytinga** er farið í **Umsjón hönnunarbreytinga \> Uppsetning \> Færibreytur fyrir umsjón hönnunarbreytinga**. Þú getur síðan stillt reitina eins og lýst er í köflum sem eftir eru í þessari grein.
 
 ## <a name="release-control-tab"></a>Flipinn Stjórnun losunar
 

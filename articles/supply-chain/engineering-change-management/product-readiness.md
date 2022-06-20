@@ -1,6 +1,6 @@
 ---
 title: Undirbúningur afurðar
-description: Þetta efnisatriði útskýrir hvernig hægt er að nota undirbúningsathuganir til að ganga úr skugga um að nauðsynlegum aðalgögnum sé lokið fyrir afurð áður en hún er notuð í færslum.
+description: Þessi grein útskýrir hvernig hægt er að nota viðbúnaðarathuganir til að tryggja að nauðsynleg aðalgögn sé lokið fyrir vöru áður en þau eru notuð í færslum.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f7ab6165e85cd2b1165292b74cd036f1233b22b4
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: a8e76d5fc786b6f4cac7cd0430399ca3ad13a7bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103014"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856223"
 ---
 # <a name="product-readiness"></a>Undirbúningur afurðar
 
@@ -61,7 +61,7 @@ Ef ný *útgáfa* hönnunar er stofnuð fyrir afurð, athugar kerfið hvort regl
 - Hönnunarútgáfan er stillt á óvirk til að loka fyrir að afurðin verði notuð.
 
 > [!NOTE]
-> Einnig er hægt að setja upp reglur fyrir undirbúningsathugun fyrir staðlaðar vörur (sem ekki eru tæknivörur). Nánari upplýsingar er að finna í hlutanum [Undirbúningsathuganir á hefðbundnum vörum](#standard-products) síðar í þessu efnisatriði.
+> Einnig er hægt að setja upp reglur fyrir undirbúningsathugun fyrir staðlaðar vörur (sem ekki eru tæknivörur). Fyrir frekari upplýsingar, sjá [Viðbúnaðarathuganir á stöðluðum vörum](#standard-products) kafla síðar í þessari grein.
 
 ## <a name="view-readiness-checks"></a>Skoða undirbúningsathuganir
 
@@ -151,7 +151,7 @@ Stillið eftirfarandi reiti fyrir hverja línu sem er bætt við.
 | Fyrirtæki | Ef reiturinn **Framkvæma í** er stilltur á *Eitt fyrirtæki* skal velja fyrirtækið. |
 | Gerð eiganda | Veljið hvort undirbúningsathugun sem línan myndar eigi að úthluta á einstakling eða hóp. |
 | Eigandi | Velja skal einstaklinginn eða hópinn sem úthluta á athugun undirbúnings sem lína myndar á. |
-| Spurningalisti | Veljið spurningalistann sem á að nota fyrir gátlistann. Gátlistinn er staðbundinn gátlisti innan fyrirtækisins þar sem undirbúningsathugun er framkvæmd. Kerfið þarf að geta metið hvort gátlistanum hafi verið svarað rétt. Þess vegna þarf að setja upp gátlistann þannig að mat sé framkvæmt út frá réttum svörum. Frekari upplýsingar um hvernig á að stofna spurningalista er að finna í [Nota spurningalista](/dynamicsax-2012/appuser-itpro/using-questionnaires) og tengdum efnisatriðum þess. |
+| Spurningalisti | Veljið spurningalistann sem á að nota fyrir gátlistann. Gátlistinn er staðbundinn gátlisti innan fyrirtækisins þar sem undirbúningsathugun er framkvæmd. Kerfið þarf að geta metið hvort gátlistanum hafi verið svarað rétt. Þess vegna þarf að setja upp gátlistann þannig að mat sé framkvæmt út frá réttum svörum. Fyrir frekari upplýsingar um hvernig á að búa til spurningalista, sjá [Notkun spurningalista](/dynamicsax-2012/appuser-itpro/using-questionnaires) og það eru tengdar greinar. |
 | Sjálfvirkt samþykki | Færslur undirbúningsathugunar fela í sér gátreitinn **Samþykkt** sem tilgreinir samþykktarstöðuna. Veljið gátreitinn **Sjálfvirkt samþykki** fyrir athuganir sem á að stilla á samþykktar um leið og úthlutaður notandi lýkur þeim. Hreinsið þennan gátreit til að krefjast beins samþykkis sem viðbótarskrefs. |
 | Skylda | Veljið þennan gátreit fyrir athuganir sem notandi sem fékk hana úthlutaða verður að ljúka. Ekki er hægt að sleppa áskyldum athugunum. |
 
@@ -159,7 +159,7 @@ Stillið eftirfarandi reiti fyrir hverja línu sem er bætt við.
 
 ## <a name="assign-readiness-policies-to-standard-and-engineering-products"></a>Tilgreindu undirbúningsreglur fyrir hefðbundnar afurðir og hönnunarafurðir
 
-Þegar ný vara er stofnuð á grundvelli hönnunarflokks er bæði *útgefin vara* og tengd *sameiginleg vara* stofnuð. Leiðin sem viðbúnaðarreglur eru leystar fyrir útgefinn vöru fer eftir því hvort *Athuganir á viðbúnaði vöru* kveikt er á eiginleikanum fyrir kerfið þitt (sjá [Viðbúnaðarathuganir á stöðluðum vörum](#standard-products) kafla síðar í þessu efni til að fá upplýsingar um þennan eiginleika og hvernig á að kveikja eða slökkva á honum).
+Þegar ný vara er stofnuð á grundvelli hönnunarflokks er bæði *útgefin vara* og tengd *sameiginleg vara* stofnuð. Leiðin sem viðbúnaðarreglur eru leystar fyrir útgefinn vöru fer eftir því hvort *Athuganir á viðbúnaði vöru* kveikt er á eiginleikanum fyrir kerfið þitt (sjá [Viðbúnaðarathuganir á stöðluðum vörum](#standard-products) kafla síðar í þessari grein fyrir upplýsingar um þennan eiginleika og hvernig á að kveikja eða slökkva á honum).
 
 - Þegar *slökkt* er á eiginleikanum *Undirbúningsathuganir afurðar* í kerfinum er undirbúningsreglan stillt og aðeins sýnd í færslum [hönnunarflokks](engineering-versions-product-category.md). Til að fá upplýsingar um hvaða regla á við um útgefna afurð athugar kerfið reitinn **Undirbúningsregla afurðar** fyrir tengdan hönnunarflokk. Hægt er að breyta undirbúningsreglunni fyrir núverandi vöru með því að breyta tengdri hönnunarafurð (ekki sameiginlegri vöru).
 - Þegar eiginleikinn *Undirbúningsathuganir afurðar* er *Virkur* bætist reitur fyrir **Undirbúningsreglu afurðar** við síðuna **Afurð** (þar sem sameiginlegar afurðir eru settar upp) og á síðuna **Útgefin afurð** (þar sem gildið er skrifvarið og tekið úr tengdri sameiginlegri afurð). Kerfið finnur undirbúningsreglu fyrir útgefna afurð með því að athuga tengda sameiginlega afurð. Þegar hönnunarflokkur er notaður til að stofna nýja hönnunarafurð býr kerfið bæði til sameiginlega afurð og útgefna afurð og afritar allar stillingar á **Undirbúningsreglu afurðar** fyrir hönnunarflokkinn í nýju sameiginlegu afurðina. Síðan er hægt að breyta undirbúningsreglu fyrir fyrirliggjandi vöru með því að breyta tengdri sameiginlegri vöru (ekki útgefnum verkfræðiflokki).
@@ -188,14 +188,14 @@ Hægt er að virkja undirbúningsathuganir afurðar fyrir staðlaðar afurðir (
 
 ### <a name="create-readiness-policies-for-standard-products"></a>Búa til undirbúningsreglur fyrir staðlaðar vörur
 
-Hægt er að útbúa undirbúningsreglur fyrir staðlaðar afurðir rétt eins og gert er fyrir hönnunarafurðir. Sjá upplýsingarnar fyrr í þessari efnisatriði.
+Hægt er að útbúa undirbúningsreglur fyrir staðlaðar afurðir rétt eins og gert er fyrir hönnunarafurðir. Sjá upplýsingar fyrr í þessari grein.
 
 ### <a name="assign-readiness-policies-to-standard-products"></a>Úthluta undirbúningsreglum fyrir staðlaðar afurðir
 
-Til að úthluta undirbúningsreglu á staðlaða afurð skal opna tengda sameiginlega afurð og stilla reitinn **Undirbúningsregla afurðar** á heiti reglunnar sem á að gilda. Frekari upplýsingar er að finna í hlutanum [Úthluta undirbúningsreglum á staðlaðar afurðir og hönnunarafurðir](#assign-policy) fyrr í þessu efnisatriði.
+Til að úthluta undirbúningsreglu á staðlaða afurð skal opna tengda sameiginlega afurð og stilla reitinn **Undirbúningsregla afurðar** á heiti reglunnar sem á að gilda. Fyrir frekari upplýsingar, sjá [Úthlutaðu viðbúnaðarstefnu fyrir staðlaðar vörur og verkfræðivörur](#assign-policy) kafla fyrr í þessari grein.
 
 ### <a name="view-and-process-readiness-checks-on-standard-products"></a>Skoða og vinna með undirbúningsathuganir á stöðluðum vörum
 
-Þegar kveikt er á þessum eiginleika eru undirbúningsathugunir skoðaðar og unnið úr þeim fyrir staðlaðar afurðir rétt eins og gert er fyrir hönnunarafurð. Sjá upplýsingarnar fyrr í þessari efnisatriði.
+Þegar kveikt er á þessum eiginleika eru undirbúningsathugunir skoðaðar og unnið úr þeim fyrir staðlaðar afurðir rétt eins og gert er fyrir hönnunarafurð. Sjá upplýsingar fyrr í þessari grein.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

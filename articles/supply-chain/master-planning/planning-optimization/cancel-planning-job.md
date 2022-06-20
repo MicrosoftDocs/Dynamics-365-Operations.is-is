@@ -1,6 +1,6 @@
 ---
-title: Hætta við áætlunarvinnslu
-description: Þetta efni útskýrir hvernig á að hætta við virka áætlunarvinnslu sem notar virknina fínstillingu skipulagningar.
+title: Hætta við áætlunarverk
+description: Þessi grein útskýrir hvernig á að hætta við virka áætlunarvinnu sem notar hagræðingaraðgerðina áætlanagerð.
 author: t-benebo
 ms.date: 02/18/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 02bfae460566e7dfcb9abbc43b2b57a6b06d444c
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 0474c50157295d9ecd2341b700c07f4fbf1ed51f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900942"
 ---
 # <a name="cancel-a-planning-job"></a>Hætta við áætlunarverk
 

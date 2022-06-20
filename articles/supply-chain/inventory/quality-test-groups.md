@@ -1,6 +1,6 @@
 ---
 title: Prófunarflokkar gæðastjórnunar
-description: Í þessu efnisatriði er lýst hvernig eigi að stofna prófunarflokka til að hægt sé að nota margar prófanir með gæðapöntunum í Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir því hvernig á að búa til prófunarhópa, þannig að hægt sé að nota margar prófanir með gæðapöntunum í Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5619be4a0724556bf0c51dcaa3adcc3725f10706
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: e7722bc92d8c2bf52d6a798a93f07af44037d4e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789269"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857695"
 ---
 # <a name="quality-management-test-groups"></a>Prófunarflokkar gæðastjórnunar
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er lýst hvernig eigi að stofna prófunarflokka til að hægt sé að nota margar prófanir með gæðapöntunum í Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein lýsir því hvernig á að búa til prófunarhópa, þannig að hægt sé að nota margar prófanir með gæðapöntunum í Microsoft Dynamics 365 Supply Chain Management.
 
 Síðan **Prófunarflokkar** er notuð til að setja upp, breyta og skoða prófunarflokka og einstakar prófanir sem er úthlutað á þá. Efri hluti síðunnar sýnir prófunarflokkana og neðri hlutinn sýnir prófin sem er úthlutað er á valinn prófunarflokk.
 

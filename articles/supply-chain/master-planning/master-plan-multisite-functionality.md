@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55594290f0583085f16506acb058ad83a02c54f1
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 289763931703eb354ae78fa18f37cd00f1102de8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470151"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844910"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>Yfirlit yfir aðaláætlanir og virkni á mörgum svæðum
 
@@ -37,7 +37,7 @@ Svæðisvíddin er áskilin og hægt er að stilla vöruhúsavíddina til að ve
 
 Ef stilling á vöruhúsi er ekki skyldubundin þekkist það ekki í upphaflegu þörfinni. Áætlunarforritið verður að ákvarða hvaða vöruhús á að nota, byggt á stillingum sem eru skilgreindar fyrir vöru, einstökum vöruhúsum og upplýsingum pöntunarlínu.
 
-Eftirfarandi efnisatriði lýsa því hvernig áætlunarforritið vinnur, þegar mismunandi stillingar eru skilgreindar til þess að ákvarða hvaða vöruhús verður notað.
+Eftirfarandi greinar lýsa því hvernig áætlunarvélin virkar, þegar mismunandi stillingar eru skilgreindar, til að ákvarða vöruhúsið sem á að nota.
 
 [Aðaláætlanagerð fyrir þekju svæðis og vöruhúss, vöruhús áskilið](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 

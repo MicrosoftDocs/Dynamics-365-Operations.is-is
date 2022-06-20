@@ -1,6 +1,6 @@
 ---
 title: Gerðir vandamála fyrir ósamkvæmni
-description: Í þessu efnisatriði er lýst hvernig á að stofna og nota gerðir vandamála fyrir ósamkvæmni.
+description: Þessi grein lýsir því hvernig á að búa til og nota vandamálagerðir fyrir ósamræmi.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26705dd12f478f4ca6046c7265d4ae3cb1d08c69
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a73e692257c2a27085d60e75e028445811ee778a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568808"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857751"
 ---
 # <a name="problem-types-for-nonconformances"></a>Gerðir vandamála fyrir ósamkvæmni
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er lýst hvernig á að stofna og nota gerðir vandamála fyrir ósamkvæmni.
+Þessi grein lýsir því hvernig á að búa til og nota vandamálagerðir fyrir ósamræmi.
 
 Nota skal síðuna **Gerðir vandamála** til að skilgreina flokkun á gæðavanda sem getur komið upp fyrir hinar ýmsu gerðir ósamkvæmni. Fyrir hverja gerð vandamáls sem búin er til þarf að tilgreina ósamkvæmnisgerðir sem gerð vandamáls getur verið notuð með. Hægt er að setja upp eftirfarandi gerðir ósamkvæmni:
 

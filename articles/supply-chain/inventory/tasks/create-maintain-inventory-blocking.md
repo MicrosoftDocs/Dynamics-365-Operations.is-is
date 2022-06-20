@@ -1,6 +1,6 @@
 ---
 title: Stofna og viðhalda á birgðalæsing
-description: Í þessu efnisatriði er lýst hvernig birgðalæsing er notuð til að koma í veg fyrir að efnislegar lagerbirgðir verði teknar frá af öðrum upprunaskjölum á útleið.
+description: Þessi grein lýsir því hvernig á að nota birgðalokun til að koma í veg fyrir að efnislegar birgðir séu fráteknar af öðrum upprunaskjölum á útleið.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bad7d4e5794dc543bd750912ef0d3e4460e611b1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ba95b689bedfc76598dfa81548a074f4fb7c833a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572842"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859344"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Stofna og viðhalda á birgðalæsing
 
 [!include [banner](../../includes/banner.md)]
 
-Í þessu efnisatriði er lýst hvernig birgðalæsing er notuð til að koma í veg fyrir að efnislegar lagerbirgðir verði teknar frá af öðrum upprunaskjölum á útleið. Áður en hafist er handa við ferlin í þessu efnisatriði verður þú að vera með vöru þar sem efnislegar lagerbirgðir eru í boði.
+Þessi grein lýsir því hvernig á að nota birgðalokun til að koma í veg fyrir að efnislegar birgðir séu fráteknar af öðrum upprunaskjölum á útleið. Áður en þú byrjar á aðferðunum í þessari grein verður þú að hafa vöru sem efnisleg birgðahald er tiltækt fyrir.
 
 ## <a name="block-inventory"></a>Birgðum læst
 

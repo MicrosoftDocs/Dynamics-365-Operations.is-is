@@ -1,6 +1,6 @@
 ---
 title: Ástæðukóðar fyrir birgðatalningu
-description: Í þessu efnisatriði er því lýst hvernig eigi að setja upp og innleiða ástæðukóðum fyrir talningarverk.
+description: Þessi grein lýsir því hvernig á að setja upp og nota ástæðukóða fyrir talningu verkefna.
 author: perlynne
 ms.date: 08/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 7d182f1d979543eeec700924d2bd180ee06be8ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857113"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Ástæðukóðar fyrir birgðatalningu
 
@@ -42,7 +42,7 @@ ms.locfileid: "7500591"
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Kveikja á eiginleika ástæðukóða í kerfinu
 
-Ef þú sérð ekki alla eiginleikana sem lýst er í þessu efnisatriði í kerfinu þínu verður þú líklega að kveikja á eiginleikanum *Bóka breytingar á lager með stillanlegum ástæðukóðum sem eru tengdir við mótlykla*. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Ef þú sérð ekki alla eiginleikana sem lýst er í þessari grein í kerfinu þínu þarftu líklega að kveikja á *Bókaðu leiðréttingar á hendi með því að nota stillanlega ástæðukóða sem tengdir eru mótreikningum* eiginleiki. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Bóka breytingar á lager með stillanlegum ástæðukóðum sem eru tengdir við mótlykla*
@@ -111,7 +111,7 @@ Til að setja upp ástæðukóða talningar skal fylgja þessum skrefum.
 
 ### <a name="set-up-counting-reason-code-groups"></a><a name="reason-groups"></a>Setja upp flokka ástæðukóða talningar
 
-*Ástæðukóðaflokkar talningar* er hægt að nota sem hluta af valmyndaratriðunum *Leiðrétting inn* og *Leiðrétting út* í fartækjaforriti Warehouse Management til að takmarka lista yfir ástæðukóða talningar. (Frekari upplýsingar um ástæðukóðaflokka talningar er að finna í hlutanum [Setja upp valmyndaratriði fartækis fyrir leiðréttingu inn og leiðréttingu út](#setup-adjustment-in-out) síðar í þessu efnisatriði.)
+*Ástæðukóðaflokkar talningar* er hægt að nota sem hluta af valmyndaratriðunum *Leiðrétting inn* og *Leiðrétting út* í fartækjaforriti Warehouse Management til að takmarka lista yfir ástæðukóða talningar. (Nánari upplýsingar um talningu ástæðukóðahópa er að finna í [Settu upp valmyndaratriði fyrir farsíma til að stilla inn og út](#setup-adjustment-in-out) kafla síðar í þessari grein.)
 
 1. Farðu í **Birgðastjórnun** \> **Uppsetning** \> **Birgðir** \> **Ástæðukóðaflokkar talningar**.
 1. Á aðgerðasvæðinu skal velja **Nýr** til að bæta við hópi.
@@ -174,7 +174,7 @@ Til að setja upp valmyndaratriði fartækis fyrir leiðréttingu inn eða leið
         - *Fela* – Ekki sýna ástæðukóða.
 
     - **Breyta ástæðukóða talningar** - Ef þú stillir valkostinn á *Já* getur starfskraftur breytt ástæðukóða þegar hann er sýndur á fartækinu meðan á talningu stendur. Stilltu hann á *Nei* til að koma í veg fyrir að starfsmaðurinn breyti kóðanum.
-    - **Ástæðukóðaflokkur talningar** – Veldu flokk ástæðukóða ef þú vilt takmarka listann yfir valkosti sem starfsmaðurinn hefur úr að velja. Frekari upplýsingar um hvernig á að setja upp ástæðukóðaflokka er að finna í hlutanum [Setja upp flokka ástæðukóða talningar](#reason-groups) fyrr í þessum hluta. 
+    - **Ástæðukóðaflokkur talningar** – Veldu flokk ástæðukóða ef þú vilt takmarka listann yfir valkosti sem starfsmaðurinn hefur úr að velja. Fyrir upplýsingar um hvernig á að setja upp ástæðukóðahópa, sjá [Settu upp talningarástæðukóðahópa](#reason-groups) kafla fyrr í þessari grein. 
 
 > [!NOTE]
 > Þegar þú úthlutar ástæðukóðaflokki talningar á valmyndaratriðin *Leiðrétting inn* og *Leiðrétting út* þar sem valkosturinn **Nota leiðbeiningar fyrir ferli** er stilltur á *Já* geturðu fengið takmarkaðan lista yfir ástæðukóða talningar sem hluta af úrvinnslunni í fartækjaforrit Warehouse Management.

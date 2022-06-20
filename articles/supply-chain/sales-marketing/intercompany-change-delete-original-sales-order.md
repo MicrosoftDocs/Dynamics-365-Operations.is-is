@@ -1,6 +1,6 @@
 ---
 title: Breyta eða eyða upprunalegri sölupöntun innan samstæðu
-description: Í þessu efnisatriði er útskýrt hvernig á að breyta og eyða virkni upprunalegrar sölupöntunar
+description: Þessi grein útskýrir hvernig á að breyta og eyða upprunalegri sölupöntunarvirkni
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cfacd1710aa5812230395409f1dd7c2e882faa9f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6ff7eeb00fec7c1b9fa1dc08fa231669f728ed3c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673747"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859078"
 ---
 # <a name="change-or-delete-an-original-intercompany-sales-order"></a>Breyta eða eyða upprunalegri sölupöntun innan samstæðu
 

@@ -1,6 +1,6 @@
 ---
 title: Biðgeymslusvæði fyrir ósamkvæmi
-description: Í þessu efnisatriði er lýst hvernig á að stofna og nota biðgeymslusvæði fyrir ósamkvæmni.
+description: Þessi grein lýsir því hvernig á að búa til og nota sóttkvíarsvæði fyrir ósamræmi.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 207950a2ff4057853488f75d0e302a049d228b76
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 2e556d2aa078a76ff4f81b6763535c38ce1cca0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578465"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857707"
 ---
 # <a name="quarantine-zones-for-nonconformances"></a>Biðgeymslusvæði fyrir ósamkvæmi
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er lýst hvernig á að stofna og nota biðgeymslusvæði fyrir ósamkvæmni.
+Þessi grein lýsir því hvernig á að búa til og nota sóttkvíarsvæði fyrir ósamræmi.
 
 Skjámyndin **Biðgeymslusvæði** er notuð til að skilgreina svæði sem hægt er að úthluta á ósamkvæmni. Þegar ósamkvæmni er stofnuð er hægt að stilla reitina **Biðgeymslusvæði** og **Gerð biðgeymslu** í flipanum **Almennt** á síðunni **Ósamkvæmni**. Reiturinn **Biðgeymslusvæði** tilgreinir yfirleitt svæðið eða staðsetninguna þar sem varan er staðsett. Reiturinn **Gerð biðgeymslu** skilgreinir vöruna sem annaðhvort *Takmörkuð notkun* eða *Ónothæf*.
 

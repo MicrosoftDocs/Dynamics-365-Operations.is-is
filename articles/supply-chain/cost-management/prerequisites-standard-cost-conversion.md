@@ -1,6 +1,6 @@
 ---
 title: Forkröfur fyrir umreikning staðalkostnaðar
-description: Í þessu efnisatriði er fjallað um verk til að framkvæma áður en staðlaður kostnaðarumreikningur er keyrður.
+description: Þessi grein fjallar um verkefni sem á að framkvæma áður en þú keyrir staðlaða kostnaðarbreytingu.
 author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fa43c8e32c4af8fc7e3ad5f3eb457dbdae1d39e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9295269c9979fb693d6f2976d4960a799d88f5ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675283"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887546"
 ---
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Forkröfur fyrir umreikning staðalkostnaðar
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er fjallað um verk til að framkvæma áður en staðlaður kostnaðarumreikningur er keyrður. 
+Þessi grein fjallar um verkefni sem á að framkvæma áður en þú keyrir staðlaða kostnaðarbreytingu. 
 
 Áður en staðlaður kostnaðarumreikningur er keyrður, skal fylgja þessum skrefum:
 

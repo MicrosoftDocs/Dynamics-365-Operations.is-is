@@ -1,6 +1,6 @@
 ---
 title: Ítarleg sía og málskipan fyrirspurna
-description: Þetta efni lýsir síunar- og fyrirspurnarmöguleikum fyrir svargluggann fyrir sía/raða ítarlega eða samsvörun virknitáknið á síusvæðinu eða síur fyrir dálkhaus hnitanets.
+description: Þessi grein lýsir síunar- og fyrirspurnarvalkostum fyrir Ítarlega síun/flokkunargluggann og samsvörunaraðgerðina í síurúðunni eða haussíum fyrir hnitanetsdálka.
 author: jasongre
 ms.date: 03/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070010"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856919"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Ítarleg sía og málskipan fyrirspurna
 
@@ -29,7 +29,7 @@ ms.locfileid: "8070010"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þetta efni lýsir síunar- og fyrirspurnarmöguleikum sem eru tiltækar þegar þú notar svargluggann fyrir sía/raða ítarlega eða **samsvörunar**-virknitáknið á síusvæðinu eða síur fyrir dálkhaus hnitanets.
+Þessi grein lýsir síunar- og fyrirspurnarmöguleikum sem eru tiltækar þegar þú notar svargluggann fyrir sía/raða ítarlega eða **samsvörun** virknitáknið á síusvæðinu eða síur fyrir dálkhaus hnitanets.
 
 ## <a name="advanced-query-syntax"></a>Ítarleg fyrirspurnarmálskipan
 

@@ -1,6 +1,6 @@
 ---
 title: Söluverð sem byggir á eigind fyrir afurðarafbrigði með skorðum
-description: Þetta efnisatriði lýsir því hvernig á að búa til söluverðlíkan með söluverðum sem byggja á íhlutum og eigindum frekar en á efnislegri uppskriftinni og leiðinni.
+description: Þessi grein lýsir því hvernig á að byggja upp söluverðslíkön með söluverði sem byggist á íhlutum og eiginleikum frekar en á efnisskránni og leiðinni.
 author: t-benebo
 ms.date: 10/2/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e50b2d1e9ccf03a58e0ddf6d4ecfb34c6c504161
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 456c7399f981e41ea452f1a6a8e30e9e12e0be54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577457"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857462"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Söluverð sem byggir á eigind fyrir afurðarafbrigði með skorðum
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að búa til söluverðlíkan með söluverðum sem byggja á íhlutum og eigindum frekar en á efnislegri uppskriftinni og leiðinni. Hægt er að búa til mörg söluverðlíkön fyrir hvert afbrigðalíkan afurðar.
+Þessi grein lýsir því hvernig á að byggja upp söluverðslíkön með söluverði sem byggist á íhlutum og eiginleikum frekar en á efnisskránni og leiðinni. Hægt er að búa til mörg söluverðlíkön fyrir hvert afbrigðalíkan afurðar.
 
 ## <a name="set-relevant-product-information-management-parameters"></a>Stilla viðeigandi færibreytur afurðarupplýsingastjórnunar
 

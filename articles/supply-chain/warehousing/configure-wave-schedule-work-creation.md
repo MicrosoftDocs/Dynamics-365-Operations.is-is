@@ -1,6 +1,6 @@
 ---
 title: Áætla stofnun vinnu í bylgju
-description: Þetta efnisatriði lýsir því hvernig á að setja upp og nota vinnsluaðferð bylgju fyrir áætla stofnun vinnu.
+description: Þessi grein lýsir því hvernig á að setja upp og nota bylgjuvinnsluaðferðina til að búa til tímaáætlun fyrir vinnu.
 author: Mirzaab
 ms.date: 01/14/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c955e7275c0bdc12dc206dde1d7e390f16270148
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8b4505d66c37134bc8f672b38d195f4f677df9bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852071"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Áætla stofnun vinnu í bylgju
 
@@ -30,7 +30,7 @@ Notið eiginleikann *Áætla stofnun vinnu* sem hluta af bylgjuferlinu til að a
 
 ## <a name="turn-on-the-scheduled-work-creation-features-in-feature-management"></a>Kveikja á eiginleikum áætlaðrar vinnustofnunar í eiginleikastjórnun
 
-Til að nota eiginleikana sem lýst er í þessu efnisatriði verður að kveikja á þeim fyrir kerfið. Notið [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnusvæðið til að kveikja á eftirfarandi eiginleikum í eftirfarandi röð:
+Til að nota eiginleikana sem lýst er í þessari grein verður að kveikja á þeim fyrir kerfið þitt. Notið [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnusvæðið til að kveikja á eftirfarandi eiginleikum í eftirfarandi röð:
 
 1. **Vinnulokun fyrir allt fyrirtækið** - Nauðsynlegt fyrir bæði handvirka og sjálfvirkra grunnstillingu fyrir áætlaða vinnu með áætlaða vinnustofnun. (Frá og með Supply Chain Management útgáfu 10.0.21 er þessi eiginleiki nauðsynlegur, þannig að það er sjálfgefið kveikt á honum og ekki er hægt að slökkva á honum aftur.)
 1. **Áætla stofnun vinnu** - Nauðsynlegt fyrir bæði handvirka og sjálfvirkra grunnstillingu fyrir áætlaða vinnu með áætlaða vinnustofnun.

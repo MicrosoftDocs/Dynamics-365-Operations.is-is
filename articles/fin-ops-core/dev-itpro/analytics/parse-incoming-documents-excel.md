@@ -1,6 +1,6 @@
 ---
 title: Þátta skjöl á innleið á Excel-sniði
-description: Í þessu efnisatriði eru veittar upplýsingar um hönnun á sniðum rafrænnar skýrslugerðar til að þátta efni sem er að finna í mótteknum skrám Microsoft Excel.
+description: Þessi grein veitir upplýsingar um hönnun rafrænnar skýrslugerðar (ER) snið til að flokka efni sem er að finna í móttöku Microsoft Excel skrár.
 author: NickSelin
 ms.date: 05/25/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: d4ebad1b800abe77871bfa3e550a95f1fe2bfcc4692301cf79fb8b98a0b3f233
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64371ffb09836d6d60ba2073c706628d2009116e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772914"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858681"
 ---
 # <a name="parse-incoming-documents-in-excel-format"></a>Þátta skjöl á innleið á Excel-sniði
 
@@ -39,7 +39,7 @@ Sækja eftirfarandi skrár til að ljúka verkefnaleiðbeiningunum sem minnst er
 | Móttekin skrá á .XLSX-sniði - sniðmát    | [1099import-template.xlsx](https://go.microsoft.com/fwlink/?linkid=862266) |
 | Móttekin skrá á .XLSX-sniði - sýnigögn | [1099import-data.xlsx](https://go.microsoft.com/fwlink/?linkid=862266)     |
 
-Ef þú hefur ekki enn spilað eftirfarandi verkefnaleiðbeiningar, [Stofna nauðsynlega grunnstillingu rafrænnar skýrslugerðar til að flytja inn gögn frá ytri skrá](./tasks/er-required-configurations-import-data.md) í núverandi hugbúnaði Finance and Operations, skal sækja eftirfarandi skrá.
+Ef þú hefur ekki enn spilað eftirfarandi verkefnaleiðbeiningar, [Stofna nauðsynlega grunnstillingu rafrænnar skýrslugerðar til að flytja inn gögn frá ytri skrá](./tasks/er-required-configurations-import-data.md) í núverandi forriti Finance and Operation, skal sækja eftirfarandi skrá.
 
 | Lýsing á efni    | Skrá                                                            |
 |------------------------|-----------------------------------------------------------------|

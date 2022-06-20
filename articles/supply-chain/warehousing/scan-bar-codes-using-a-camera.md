@@ -1,6 +1,6 @@
 ---
-title: Skanna strikamerki með myndavél í farsímaforriti vöruhúsakerfis
-description: Þetta efnisatriði útskýrir hvernig eigi að setja upp farsímaforrit vöruhúsakerfis til að skanna strikamerki með því að nota myndavél á fartæki.
+title: Skanna strikamerki með myndavél í farsímaforriti Warehouse Management
+description: Þessi grein útskýrir hvernig á að setja upp vöruhússtjórnun farsímaforritið til að skanna strikamerki með myndavél í farsíma.
 author: Mirzaab
 ms.date: 01/03/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: cc58d88865fea17e0e27463b25e2ba815ee1a5b1
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 8459ea6912328fa589b92f1731551f56df89c11b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901973"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862338"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-management-mobile-app"></a>Skanna strikamerki með myndavél í farsímaforriti vöruhúsakerfis
+# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-management-mobile-app"></a>Skanna strikamerki með myndavél í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig eigi að setja upp farsímaforrit vöruhúsakerfis til að skanna strikamerki með því að nota myndavél á fartæki.
+Þessi grein útskýrir hvernig á að setja upp vöruhússtjórnun farsímaforritið til að skanna strikamerki með myndavél í farsíma.
 
 ## <a name="setup"></a>Setja upp
 

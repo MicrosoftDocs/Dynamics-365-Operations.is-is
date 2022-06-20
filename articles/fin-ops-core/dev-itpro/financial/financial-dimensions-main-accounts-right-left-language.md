@@ -1,6 +1,6 @@
 ---
 title: Fjárhagsvíddir og aðallyklar í tungumálum sem rituð eru frá hægri til vinstri
-description: Þetta efnisatriði lýsir ákvörðunum sem ætti að íhuga að þegar notuð hægri til vinstri tungumál og setja verður upp fjárhagsvíddir og aðallykla.
+description: Þessi grein lýsir ákvörðunum sem þú þarft að taka þegar þú notar tungumál frá hægri til vinstri og þú verður að setja upp fjárhagsvíddir og aðalreikninga.
 author: RyanCCarlson2
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: rcarlson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5de2e0e6e56651487ebd36e3594eb378ce6154ea
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: b1e2c0ef5cd405232332847078c70af42f056e17
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734954"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866761"
 ---
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Fjárhagsvíddir og aðallyklar í tungumálum sem rituð eru frá hægri til vinstri
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er lýst nokkrum innleiðingu ákvarðanir sem ætti að íhuga að þegar notuð hægri til vinstri tungumál og setja verður upp aðallykla og fjárhagsvíddir.
+Þessi grein lýsir sumum framkvæmdaákvarðana sem þú ættir að hafa í huga þegar þú notar tungumál sem er frá hægri til vinstri og þú verður að setja upp fjárhagsvíddir og aðalreikninga.
 
 Fjárhagsvíddir og aðallykla eru lykilíhluti í áætlunaráfanginn við innleiðingu. Eftir að fjárhagsvíddir og aðallyklar eru stofnaðir í kerfinu, þær eru notaðar á **Skilgreina lykilskipulög**, **Ítarlegt regluskipulag**, og **fjárhagsvíddarskilgreining fyrir samþættingu forrita** síður. Röðin sem er skilgreindur á þessum síðum er notaður í kerfinu fyrir innslátt gagna og notkun. Í sumum stöðum í kerfinu birtast fjárhagsvíddir og aðallykla í sérstök svæði. Á öðrum stöðum eins og færslubækur, birtast fjárhagsvíddir og aðallyklar sem einn strengur.
 

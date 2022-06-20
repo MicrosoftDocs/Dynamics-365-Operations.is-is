@@ -1,6 +1,6 @@
 ---
 title: Studdar samsettar gagnagerðir fyrir formúlur rafrænnar skýrslugerðar
-description: Í þessu efnisatriði er að finna upplýsingar um samsettar gagnagerðir sem eru studdar í formúlum rafrænnar skýrslugerðar.
+description: Þessi grein veitir upplýsingar um samsettar gagnagerðir sem eru studdar í formúlum fyrir rafræna skýrslugerð (ER).
 author: NickSelin
 ms.date: 06/02/2021
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -10,24 +10,24 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dc3fbe695d79eb0ec9796d471c4d2bb0bb7ab99d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869316"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Studdar samsettar gagnagerðir fyrir formúlur rafrænnar skýrslugerðar
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna upplýsingar um samsettar gagnagerðir sem eru studdar í segðum [Rafrænnar skýrslugerðar](general-electronic-reporting.md). Samsettu gagnagerðirnar eru [klasi](#class), [geymsla](#container), [færsla](#record), [færslulisti](#record-list) og [hlutur](#object).
+Þessi grein veitir upplýsingar um samsettar gagnagerðir sem eru studdar í [Rafræn skýrsla (ER)](general-electronic-reporting.md) tjáningar. Samsettu gagnagerðirnar eru [klasi](#class), [geymsla](#container), [færsla](#record), [færslulisti](#record-list) og [hlutur](#object).
 
 ## <a name="class"></a><a name="class"></a>Klasi
 
 Gagnagerðin *klasi* vísar til opins forritsklasa. Í rafrænni skýrslugerð er hún táknuð sem [*færsla*](#record) sem inniheldur aðskilinn reit fyrir hverja almenna aðferð klasans sem vísað er í. Þegar færibreytur eru stilltar fyrir kall aðferðarinnar þarf einnig að tilgreina nauðsynlegar frumbreytur af viðeigandi gerðum í segð rafrænnar skýrslugerðar sem er stillt til að kalla á aðferðina.
 
-Í ER kortlagningu og sniðhlutum geturðu bætt við **bekk** gagnagjafi sem er sýndur sem gagnagjafi og sem skilar gildi á *bekk* gerð. Þessi gagnagjafi gefur upp almennar aðferðir klasans sem hægt er að kalla á við keyrslu.
+Í ER kortlagningu og sniðhlutum geturðu bætt við **bekk** gagnagjafi sem er sýndur sem gagnagjafi og sem skilar gildi á *bekk* tegund. Þessi gagnagjafi gefur upp almennar aðferðir klasans sem hægt er að kalla á við keyrslu.
 
 > [!NOTE]
 > Aðeins er hægt að kalla á aðferðir úr segðum rafrænnar skýrslugerðar sem skila gildi.

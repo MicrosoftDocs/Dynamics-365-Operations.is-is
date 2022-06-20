@@ -1,6 +1,6 @@
 ---
-title: Grunnstilla afhendingarmáta og gjöld í símaveri
-description: Þetta efni lýsir því hvernig á að setja upp afhendingarmáta og gjöld fyrir símaverspöntun í Dynamics 365 Commerce.
+title: Grunnstilla afhendingarmáta og gjöld símavers
+description: Þessi grein lýsir því hvernig á að setja upp afhendingarmáta og gjöld fyrir pöntun í símaver í Dynamics 365 Commerce.
 author: josaw1
 ms.date: 04/26/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f445e9dabd0210951609170369eae63bcc30ce6b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748572"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888299"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Grunnstilla afhendingarmáta og gjöld í símaveri
 
@@ -35,7 +35,7 @@ Commerce hefur eiginleika sem leyfir notendum að takmarka afhendingarmátana se
 
 Áður en þú tilgreinir hvaða afhendingarmáta er hægt að nota fyrir símaverspantanir og skilgreinir reglur og gjöld sem tengjast þeim, verður þú að skilgreina afhendingarmátana. Fara í **Sala og markaðssetning \> Uppsetning \> Dreifing \> Afhendingarmátar**. Velja **Nýr** til að búa til nýjan afhendingarmáta. Einnig er hægt að velja núverandi afhendingarham í listanum og síðan velja **Breyta** til að gera breytingar.
 
-Í **Afhendingarmáti** reitinn getur þú slegið inn hvaða samsetningu af bók- og tölustöfum sem er, byggt á kröfum fyrirtækis þíns. Þú getur síðan notað **Lýsing** reitinn til að veita frekari samhengi. **Gjaldaflokkur** og **Flýta** reitirnir eru valfrjáls og verður útskýrðir nánar síðar í þessu efnisatriði.
+Í **Afhendingarmáti** reitinn getur þú slegið inn hvaða samsetningu af bók- og tölustöfum sem er, byggt á kröfum fyrirtækis þíns. Þú getur síðan notað **Lýsing** reitinn til að veita frekari samhengi. The **Gjaldhópur** og **Flýttu** reitir eru valfrjálsir og verða útskýrðir nánar síðar í þessari grein.
 
 Í **Commerce-rásir** flýtiflipanum, skal bæta við hvaða rás sem ætti að vera heimilt að nota afhendingarmátann þegar sölufærslur er búið til í þeirri rás.
 

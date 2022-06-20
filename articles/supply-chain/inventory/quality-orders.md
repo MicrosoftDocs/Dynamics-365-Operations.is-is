@@ -1,6 +1,6 @@
 ---
 title: Gæðapantanir
-description: Þetta efnisatriði lýsir því hvernig á að stofna gæðapantanir handvirkt eða sjálfkrafa og hvernig á að vinna með þær til að framkvæma eftirlit og skrá niðurstöður prófana í Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir því hvernig eigi að búa til gæðapantanir handvirkt eða sjálfvirkt og hvernig eigi að vinna með þær til að framkvæma skoðanir og skrá prófunarniðurstöður í Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69a4a61a599f1279ec7ad68ebb20c7b4b0f37005
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb7ab1de0fb4d93ed18f1862630c1af7af7f3095
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571858"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857780"
 ---
 # <a name="quality-orders"></a>Gæðapantanir
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að stofna gæðapantanir handvirkt eða sjálfkrafa og hvernig á að vinna með þær til að framkvæma eftirlit og skrá niðurstöður prófana í Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein lýsir því hvernig eigi að búa til gæðapantanir handvirkt eða sjálfvirkt og hvernig eigi að vinna með þær til að framkvæma skoðanir og skrá prófunarniðurstöður í Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="automatically-created-quality-orders"></a>Stofna gæðapantanir sjálfkrafa
 
@@ -39,7 +39,7 @@ Til að stofna gæðapöntun handvirkt, skal fylgja eftirfarandi skrefum:
 
 1. Farðu í **Birgðastjórnun \> Reglubundin verk \> Gæðastjórnun \> Gæðapantanir**.
 1. Veljið **Nýtt**.
-1. Í svarglugganum **Gæðapantanir**, í reitnum **Tilvísunargerð**, skal velja birgðatilvísun sem gæðapöntunin þín mun tengjast. Lýsing á tilvísunargerðum sem verður boðið upp á að velja er að finna í hlutanum [Tilvísunargerðir gæðapöntunar](#ref-types) síðar í þessu efnisatriði.
+1. Í svarglugganum **Gæðapantanir**, í reitnum **Tilvísunargerð**, skal velja birgðatilvísun sem gæðapöntunin þín mun tengjast. Fyrir lýsingu á tilvísunartegundum sem hægt er að velja um, sjá [Tilvísunargerðir gæðapöntunar](#ref-types) kafla síðar í þessari grein.
 
     > [!NOTE]
     > Birgðir sem tengjast völdu tilvísuninni verður að vera tiltæk. Ef engar birgðir eru í boði fyrir samsetningu af tilvísunargerð, magni og birgðavíddum sem er valið, koma upp villuboð.
@@ -88,7 +88,7 @@ Hægt er að nota síðu gæðapöntunar til að búa handvirkt til nýja gæða
 
 ### <a name="from-the-quality-orders-page"></a>Af síðu gæðapöntunar
 
-Til að búa gæðapantanir til handvirkt og skoða allar fyrirliggjandi gæðapantanir skal fara í **Birgðastjórnun \> Reglubundin verk \> Gæðastjórnun \> Gæðapantanir**. Eftirfarandi hlutar í þessu efnisatriði veita frekari upplýsingar um hvernig á að vinna með síðuna **Gæðapantanir**.
+Til að búa gæðapantanir til handvirkt og skoða allar fyrirliggjandi gæðapantanir skal fara í **Birgðastjórnun \> Reglubundin verk \> Gæðastjórnun \> Gæðapantanir**. Eftirstöðvar þessarar greinar veita frekari upplýsingar um hvernig á að vinna með **Gæða pantanir** síðu.
 
 ### <a name="from-sales-orders"></a>Úr sölupöntunum.
 

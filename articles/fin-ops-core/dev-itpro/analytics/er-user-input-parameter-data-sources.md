@@ -1,6 +1,6 @@
 ---
 title: Notaðu USER INNPUT PARAMETER gagnagjafa til að tilgreina færibreytur fyrir skýrslu
-description: Þetta efni útskýrir hvernig á að nota USER INNPUT PARAMETER gagnagjafa til að tilgreina færibreytur fyrir skýrslur sem þú býrð til.
+description: Þessi grein útskýrir hvernig á að nota gagnaveitur USER INNPUT PARAMETER til að tilgreina færibreytur fyrir skýrslur sem þú býrð til.
 author: NickSelin
 ms.date: 04/20/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.27
-ms.openlocfilehash: 4e431c9dd59080af17fa073547073037ba233288
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 62b7a8173416a1d36a2985823d186a7a0e6a7e60
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782544"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872973"
 ---
 # <a name="use-user-input-parameter-data-sources-to-specify-parameters-for-a-report"></a>Notaðu USER INNPUT PARAMETER gagnagjafa til að tilgreina færibreytur fyrir skýrslu
 
 [!include[banner](../includes/banner.md)]
 
-Þegar þú hannar [Rafræn skýrslugerð](general-electronic-reporting.md) (ER) [módelkortlagningu](er-overview-components.md#model-mapping-component) og ER [sniði](er-overview-components.md#format-component) hluti, getur þú notað gagnagjafa a *NOTANDA INNTAK FRÆÐI* tegund til að fá nauðsynleg gildi sem hægt er að tilgreina í gagnafærslureitum í svarglugganum á keyrslutíma, áður en keyrsla á ER sniði hefst. Þetta efni lýsir *NOTANDA INNTAK FRÆÐI* gagnaheimildir sem nú eru studdar.
+Þegar þú hannar [Rafræn skýrslugerð](general-electronic-reporting.md) (ER) [módelkortlagningu](er-overview-components.md#model-mapping-component) og ER [sniði](er-overview-components.md#format-component) hluti, getur þú notað gagnagjafa a *NOTANDA INNTAK FRÆÐI* tegund til að fá nauðsynleg gildi sem hægt er að tilgreina í gagnafærslureitum í svarglugganum á keyrslutíma, áður en keyrsla á ER sniði hefst. Þessi grein lýsir *NOTANDA INNTAK FRÆÐI* gagnaheimildir sem nú eru studdar.
 
 ## <a name="mandatory-properties"></a><a name="mandatory-properties"></a> Lögboðnar eiginleikar
 
@@ -39,7 +39,7 @@ ms.locfileid: "8782544"
 Þú getur valfrjálst tilgreint eftirfarandi eiginleika fyrir gagnagjafa a *NOTANDA INNTAK FRÆÐI* tegund:
 
 - Í **Merki** reit, tilgreindu merkimiðann sem er notaður fyrir tengda gagnafærslureitinn í svarglugganum á keyrslutíma. Þú getur bætt við mismunandi merkitexta fyrir mismunandi tungumálakóða með því að virkja **Merki** reit og velja síðan **Þýða**.
-- Í **Hjálp** reit, tilgreindu hjálpartextann sem er sýndur við hönnunartíma neðst í **Sniðhönnuður** síðu eða **Módelkortahönnuður** síðu þegar breytanlegur gagnagjafi a *NOTANDA INNTAK FRÆÐI* gerð er valin. Þessi texti gæti veitt frekari upplýsingar um gagnagjafann til að hjálpa notendum þegar þeir stilla breytanlegt snið eða líkanakortlagningarhluta. Þú getur bætt við mismunandi hjálpartexta fyrir mismunandi tungumálakóða með því að velja **Þýða**.
+- Í **Hjálp** reit, tilgreindu hjálpartextann sem er sýndur við hönnunartíma neðst í **Sniðhönnuður** síðu eða **Módelkortahönnuður** síðu þegar breytanlegur gagnagjafi a *NOTANDI INNTAK FRÆÐI* gerð er valin. Þessi texti gæti veitt frekari upplýsingar um gagnagjafann til að hjálpa notendum þegar þeir stilla breytanlegt snið eða líkanakortlagningarhluta. Þú getur bætt við mismunandi hjálpartexta fyrir mismunandi tungumálakóða með því að velja **Þýða**.
 
     > [!NOTE]
     > The **Þýða** hnappinn sem þú getur notað til að bæta við [tungumálabundin merki og texti](er-design-multilingual-reports.md#format-component) verður aðeins tiltækt eftir að þú bætir við gagnagjafanum, vistar breytingarnar og opnar síðan gagnagjafann aftur til að breyta.
@@ -76,8 +76,8 @@ ms.locfileid: "8782544"
 
     Á **Formúluhönnuður** síðu, í **Formúla** reit, stilltu tjáningu sem skilar a *Boolean* gildi.
 
-    - Ef stillt segðin skilar gildinu fyrir **Satt** á keyrslutíma, eða ef engin tjáning er stillt, er tengdur gagnafærslureitur sýnilegur í svarglugganum á keyrslutíma.
-    - Ef stillt segðin skilar gildinu fyrir **Rangt**, tengdur gagnainnsláttur reiturinn er falinn í svarglugganum á keyrslutíma. Þegar það er kallað af öðrum tjáningum á keyrslutíma skilar það sjálfgefnu gildi, áður notaðu gildi, eða sjálfgefið fyrir núverandi gagnategundargildi, allt eftir öðrum stillingum.
+    - Ef stillta segðin skilar gildinu fyrir **Satt** á keyrslutíma, eða ef engin tjáning er stillt, er tengdur gagnafærslureitur sýnilegur í svarglugganum á keyrslutíma.
+    - Ef stillta segðin skilar gildinu fyrir **Rangt**, tengdur gagnainnsláttur reiturinn er falinn í svarglugganum á keyrslutíma. Þegar það er kallað af öðrum tjáningum á keyrslutíma skilar það sjálfgefnu gildi, áður notaðu gildi, eða sjálfgefið fyrir núverandi gagnategundargildi, allt eftir öðrum stillingum.
 
 ## <a name="type-specific-properties"></a>Tegundarákveðnir eiginleikar
 
@@ -109,7 +109,7 @@ Notaðu gagnagjafa á **Gagnalíkan** \> **Upptalning notendainntaksfæribreyta*
     > [!TIP]
     > Á hönnunartíma geturðu skilið eftir **Útgáfa** reiturinn auður til að fá aðgang að lista yfir upptalningar fyrir íhlutinn sem vísað er í gagnalíkanið sem er í drögum að útgáfu samsvarandi ER gagnalíkans uppsetningu. Á þennan hátt geturðu samtímis breytt drögum útgáfa af líkanavörpun eða sniðhluta og drögum útgáfa af grunngagnalíkanihluta.
     >
-    > Athugið hins vegar að **Útgáfa** reitinn má aðeins skilja eftir auðan í drögum að útgáfu líkanavörpunar eða sniðshluta. Þegar þú breytir stöðu ER líkanavörpun eða sniðstillingu frá **Drög** til **Lokið**, þessi reitur er sjálfkrafa fylltur út með hæsta endurskoðunarnúmeri líkansins sem er tiltækt í núverandi Finance tilviki. Ef þú kynnir nýja upptalningu eða nýtt upptalningargildi í drögum útgáfu grunngagnalíkans þíns og vísar til þess í breytanlegri líkanavörpun eða sniðshluta skaltu klára þá drög að útgáfa af grunngagnalíkaninu áður en drög að útgáfu ER þíns líkanakortlagningu eða sniðstillingu er lokið. Annars verður undantekningin „Slóð fannst ekki“ þegar þú breytir stöðu líkanavörpunar eða sniðstillingar frá **Drög** til **Lokið**. Skilaboðin munu upplýsa þig um að tilvísað upptalningu eða upptalningargildi vantar í grunngagnalíkanið.
+    > Athugið hins vegar að **Útgáfa** reitinn má aðeins skilja eftir auðan í drögum að útgáfu líkanavörpunar eða sniðshluta. Þegar þú breytir stöðu ER líkanavörpun eða sniðstillingu frá **Drög** til **Lokið**, þessi reitur er sjálfkrafa fylltur út með hæsta endurskoðunarnúmeri líkansins sem er tiltækt í núverandi Finance tilviki. Ef þú kynnir nýja upptalningu eða nýtt upptalningargildi í drögum útgáfu grunngagnalíkans þíns og vísar til þess í breytanlegri líkanavörpun eða sniðshluta skaltu klára þá drög að útgáfu grunngagnalíkansins áður en drög að útgáfu ER þíns líkanakortlagningu eða sniðstillingu er lokið. Annars verður undantekningin „Slóð fannst ekki“ þegar þú breytir stöðu líkanavörpunar eða sniðstillingar frá **Drög** til **Lokið**. Skilaboðin munu upplýsa þig um að tilvísað upptalningu eða upptalningargildi vantar í grunngagnalíkanið.
 
 Eftirfarandi mynd sýnir eiginleika`$ReportDirection` gagnagjafi sem var stilltur í **Instat XML (DE) Contoso** ER snið stillingar. The **Instat XML (DE) Contoso** uppsetning hefur verið [afleidd](general-electronic-reporting.md#Configuration) frá **Instat XML (DE)** stillingar. Þessi gagnagjafi er stilltur til að nota *Report Direction* líkanatalning til að bjóða upp á viðeigandi uppflettingarreit í svarglugganum á keyrslutíma.
 
@@ -122,7 +122,7 @@ Notaðu gagnagjafa á **Sniðtalning** \> **Upptalning notendainntaksfæribreyta
 - Í **Sniðtalning** reit, tilgreindu upptalningu á breytanlegu sniði.
 
 > [!NOTE]
-> Gagnauppsprettur af þessari gerð er aðeins hægt að stilla á umfangi breytanlegs sniðshluta.
+> Gagnauppsprettur af þessari gerð er aðeins hægt að stilla innan umfangs breytanlegs sniðshluta.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

@@ -1,6 +1,6 @@
 ---
 title: Aðgerðir sölustaðar (POS) með og án nettengingar
-description: Þetta efnisatriði veitir upplýsingar um rekstur sölustaðs (POS) í Dynamics 365 Commerce. Það tilgreinir hvar í forritinu má kalla fram aðgerðir og hvort þær séu tiltæk í ótengdum ham.
+description: Þessi grein veitir upplýsingar um rekstur sölustaða (POS) í Dynamics 365 Commerce. Það tilgreinir hvar í forritinu má kalla fram aðgerðir og hvort þær séu tiltæk í ótengdum ham.
 author: jblucher
 ms.date: 05/27/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7e4556ad11cbea0cb8fb3c5447116a1b54576e17
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
-ms.translationtype: MT
+ms.openlocfilehash: aa1ca9c057b8a1332cd52f73a24adf2089ebef3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811203"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852720"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Aðgerðir sölustaðar (POS) með og án nettengingar
 
@@ -148,7 +148,7 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 554  | Gjaldeyrisskipti                               | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 555  | Gjaldeyrisskipti Skráðu þig inn                               | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 556  | Peningaskipti init                                 | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
-| 600  | Viðskiptavinur                                          | Bæta tilgreindum viðskiptavini við færsluna.                                                                                                                                                                 | Nr.             | Nr.                 | Nr.             | Já               | Nr.              |
+| 600  | Viðskiptamaður                                          | Bæta tilgreindum viðskiptavini við færsluna.                                                                                                                                                                 | Nr.             | Nr.                 | Nr.             | Já               | Nr.              |
 | 602  | Viðskiptavinaleit                                   | Leitaðu að viðskiptavinaskrá með því að fara á leitarsíðu viðskiptavina í POS.                                                                                                                             | Já            | Já                | Já            | Já               | Nr.              |
 | 603  | Viðskiptavinarhreinsun                                    | Fjarlægja viðskiptavin af núgildandi færslu.                                                                                                                                                              | Já            | Já                | Nr.             | Já               | Nr.              |
 | 604  | Viðskiptamannaspjald                                     | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |

@@ -1,6 +1,6 @@
 ---
 title: Sveigjanleg frátektarregla á vídd vöruhúsastigs
-description: Þetta efni lýsir stefnuskrá fyrir birgða sem láta fyrirtæki sem selja vörur sem eru rekin með runur og reka flutninga sína sem aðgerðir með WMS-virka áskilja sértækar runur fyrir sölupantanir viðskiptavina, jafnvel þó að pöntunarveldið sem er tengt vörunum banni ekki fyrirvara á tilteknum runum.
+description: Þessi grein lýsir birgðapöntunarstefnunni sem gerir fyrirtækjum sem selja runurekstar vörur og reka flutninga sína sem WMS-virkar aðgerðir að panta sérstakar runur fyrir sölupantanir viðskiptavina, jafnvel þó að pöntunarstigveldið sem er tengt við vörurnar leyfi frátekningu á tilteknum runum.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: fb42d4ccd2d8797a34f6351caf7dedbc1e957fd5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885813"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Sveigjanleg frátektarregla á vídd vöruhúsastigs
 
@@ -28,7 +28,7 @@ ms.locfileid: "7474941"
 
 Á svipaðan hátt er ekki hægt að taka frá sérstakar númeraplötur fyrir afurðir í sölupöntunum þegar þessar afurðir eru tengdar við sjálfgefið frátekningarstigveldi.
 
-Þetta efnisatriði lýsir frátekningarreglu birgða sem gerir þessum fyrirtækjum kleift að taka frá ákveðnar runur eða númeraplötur, jafnvel þegar afurðirnar eru tengdar frátekningarstigveldi *Runa fyrir neðan\[staðsetningu\]*.
+Þessi grein lýsir birgðapöntunarstefnu sem gerir þessum fyrirtækjum kleift að panta sérstakar lotur eða númeraplötur, jafnvel þegar vörurnar eru tengdar *Hópur fyrir neðan\[ staðsetningu\]* fyrirvara stigveldi.
 
 ## <a name="inventory-reservation-hierarchy"></a>Frátekningarstigveldi birgða
 

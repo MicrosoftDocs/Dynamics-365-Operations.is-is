@@ -1,6 +1,6 @@
 ---
 title: Ljúka grunnuppsetningu útgefins afurðarsniðmáts
-description: Þetta efni sýnir hvernig á að ljúka lágmarksuppsetningu sem er krafist áður en hægt er að nota afurðarsniðmát í uppskriftarútgáfum.
+description: Þessi grein sýnir hvernig á að klára lágmarksuppsetninguna sem þarf áður en hægt er að nota vörustjórann í uppskriftarútgáfum.
 author: t-benebo
 ms.date: 07/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1ec567892c09968fe80c3a075d656185aceb4e5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a403600bfdc257587441b5b5a907981d5eebaf58
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568496"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844853"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Ljúka grunnuppsetningu útgefins afurðarsniðmáts
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni sýnir hvernig á að ljúka lágmarksuppsetningu sem er krafist áður en hægt er að nota afurðarsniðmát í uppskriftarútgáfum.
+Þessi grein sýnir hvernig á að klára lágmarksuppsetninguna sem þarf áður en hægt er að nota vörustjórann í uppskriftarútgáfum.
 
 Þetta er þriðja ferli af átta sem útskýrir hvernig á að byggja upp samsetningar fyrir víddaskilgreining. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

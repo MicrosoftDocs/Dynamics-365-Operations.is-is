@@ -1,6 +1,6 @@
 ---
 title: Vinna úr fríðindahæfni
-description: Í þessu efnisatriði er útskýrt hvernig á að keyra ferli hæfnisskráningar.
+description: Þessi grein útskýrir hvernig á að keyra hæfisferlið fyrir innritun.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78a7de6dbb8d8ed13392eb7eb9aa02b15db2e009
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c01d7a6f456514fc9da1889ccaff5af1ae7c0f52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693172"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877744"
 ---
 # <a name="process-enrollment-eligibility"></a>Vinna úr fríðindahæfni
 
@@ -28,7 +28,7 @@ ms.locfileid: "8693172"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Í þessu efnisatriði er útskýrt hvernig á að keyra ferli hæfnisskráningar.
+Þessi grein útskýrir hvernig á að keyra hæfisferlið fyrir innritun.
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Í vinnslu**, veldu **Vinnsla hæfis fyrir innritun**.
 
@@ -51,11 +51,11 @@ ms.locfileid: "8693172"
 
    4. Veljið **Í lagi**. Ferlið keyrir með breytunum sem þú stillir.
 
-4. Veldu **Í lagi**.
+4. Veljið **Í lagi**.
 
 ## <a name="view-process-results"></a>Skoða niðurstöður vinnslu
 
-Þetta efnisatriði útskýrir hvernig á að skoða niðurstöður hæfnisferlis.
+Þessi grein útskýrir hvernig á að skoða niðurstöður vinnslu.
 
 1.  Í vinnusvæðinu **Fríðindastjórnun**, undir **Í vinnslu**, veldu **Niðurstöður vinnslu**.
 

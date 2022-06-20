@@ -1,6 +1,6 @@
 ---
 title: Skilaboð um skilaboðaúrvinnslu
-description: Í þessu efnisatriði er að finna upplýsingar um skilaboðaeiginleika skilaboðaúrvinnslu fyrir vinnuálag einingakvarða.
+description: Þessi grein veitir upplýsingar um skilaboðaeiginleika Skilaboðavinnslu fyrir mælieiningavinnuálag.
 author: perlynne
 ms.date: 04/22/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a5f8d48ba697df389150f70ac159e690156de33b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893614"
 ---
 # <a name="message-processor-messages"></a>Skilaboð um skilaboðaúrvinnslu
 
@@ -29,7 +29,7 @@ ms.locfileid: "8069430"
 
 Skilaboð skilaboðaúrvinnslu eru notuð þegar einingakvarðar skýs og jaðra er keyrt fyrir [vinnuálag framleiðslu](cloud-edge-workload-manufacturing.md) og [vinnuálag vöruhúsakerfis](cloud-edge-workload-warehousing.md).
 
-Miðstöð og mælieining dreifingarumhverfi skiptast á miklu magni af gögnum til að vera í samstillingu. Sum af þeim gögnum sem skipt er um mun kalla fram frekari rökfræði í *skilaboðavinnsluaðila*. Þú getur skoðað skilaboðin sem hafa verið unnin af skilaboðavinnsluaðilanum með því að fara á **Kerfisstjórnun > Skilaboðavinnsla > Skilaboð vinnsluaðila**.
+Dreifingarumhverfi miðstöðvarinnar og mælieininga skiptast á miklu magni af gögnum til að vera samstillt. Sum af þeim gögnum sem skipt er um mun kalla fram frekari rökfræði í *skilaboðavinnsluaðila*. Þú getur skoðað skilaboðin sem hafa verið unnin af skilaboðavinnsluaðilanum með því að fara á **Kerfisstjórnun > Skilaboðavinnsla > Skilaboðavinnsluskilaboð**.
 
 ## <a name="message-grid-columns-and-filters"></a>Dálkar og síur í skilaboðakerfi
 

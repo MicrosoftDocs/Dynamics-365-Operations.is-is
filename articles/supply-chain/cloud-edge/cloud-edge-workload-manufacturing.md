@@ -1,6 +1,6 @@
 ---
 title: Vinnuálag framleiðslukeyrslu fyrir einingakvarða skýja og jaðra
-description: Þetta efnisatriði lýsir því hvernig vinnuálag framkvæmdar framleiðslu starfar með kvörðunareiningum skýja og jaðra.
+description: Þessi grein lýsir því hvernig framleiðsluframkvæmd vinnuálag virkar með skýja- og brúnkvarðaeiningum.
 author: johanhoffmann
 ms.date: 10/06/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: johanho
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b30e16489b0b0169f08e52c70cf4489c9bf4ce1b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c73c2440d8807e965e5d2d89105c2a8a6971c849
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674055"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865325"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Vinnuálag framleiðslukeyrslu fyrir einingakvarða skýja og jaðra
 
@@ -41,7 +41,7 @@ ms.locfileid: "8674055"
 - Umsjónarmaður vinnusalar getur breytt starfsáætluninni.
 - Starfskraftar geta opnað tíma og viðveru til innstimplunar og útstimplunar á jaðrinum til að tryggja réttan útreikning launa starfsmanna.
 
-Þetta efnisatriði lýsir því hvernig vinnuálag framkvæmdar framleiðslu starfar með kvörðunareiningum skýja og jaðra.
+Þessi grein lýsir því hvernig framleiðsluframkvæmd vinnuálag virkar með skýja- og brúnkvarðaeiningum.
 
 ## <a name="the-manufacturing-lifecycle"></a>Stuðningstími framleiðslu
 

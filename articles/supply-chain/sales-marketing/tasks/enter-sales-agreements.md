@@ -1,6 +1,6 @@
 ---
 title: Færa inn sölusamninga
-description: Þetta efni útskýrir hvernig stofna á sölusamning sem bindur sig einum viðskiptavini til að kaupa vöru fyrir samþykkta upphæð yfir tíma í skiptum fyrir sérstakan afslátt.
+description: Þessi grein útskýrir hvernig á að búa til sölusamning sem skuldbindur einn af viðskiptavinum þínum til að kaupa vöru fyrir umsamda upphæð með tímanum í skiptum fyrir sérstaka afslætti.
 author: Henrikan
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee2c1494842c5fd2aa598546ba655c33d6fd3f16
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b3aa72057753a9592fd47275dc996a3a904d86b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568304"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897488"
 ---
 # <a name="enter-sales-agreements"></a>Færa inn sölusamninga
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni útskýrir hvernig stofna á sölusamning sem bindur sig einum viðskiptavini til að kaupa vöru fyrir samþykkta upphæð yfir tíma í skiptum fyrir sérstakan afslátt. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.
+Þessi grein útskýrir hvernig á að búa til sölusamning sem skuldbindur einn af viðskiptavinum þínum til að kaupa vöru fyrir umsamda upphæð með tímanum í skiptum fyrir sérstaka afslætti. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.
 
 
 ## <a name="set-up-sales-agreement-header"></a>Setja upp Haus sölusamnings

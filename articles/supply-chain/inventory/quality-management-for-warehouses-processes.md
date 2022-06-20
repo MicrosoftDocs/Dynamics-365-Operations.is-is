@@ -1,6 +1,6 @@
 ---
 title: Gæðastjórnun fyrir vöruhúsaferli
-description: Þetta efnisatriði veitir upplýsingar um gæðastjórnun fyrir eiginleika vöruhúsaferlis. Þessi eiginleiki eykur getu gæðastjórnunar og gerir notendum kleift að samþætta stjórnun vörusýnatöku við móttökuferli vöruhúss með því að nota ítarlegt vöruhúsakerfi.
+description: Þessi grein veitir upplýsingar um eiginleikann Gæðastjórnun fyrir vöruhúsaferli. Þessi eiginleiki eykur getu gæðastjórnunar og gerir notendum kleift að samþætta stjórnun vörusýnatöku við móttökuferli vöruhúss með því að nota ítarlegt vöruhúsakerfi.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: a8a7ac8266c14791137f9eda51b5abb5a59e5961
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679052"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857838"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gæðastjórnun fyrir vöruhúsaferli
 
@@ -69,7 +69,7 @@ Verkbeiðnigerðirnar _Vörusýnataka gæðaskoðunar_ og _Gæðapöntun_ eru no
 1. Fyrir hverja verkbeiðnigerð skal setja upp staðsetningarleiðbeiningar sem nota réttar staðsetningar gæðastjórnunar sem færa á birgðirnar til. Þegar gæðastjórnun er lokið gengur verkbeiðnigerðin _Gæðapöntun_ úr skugga um að ný áfangastaðsetning verði valin svo að hægt sé að flytja birgðirnar úr staðsetningu gæðastjórnunar.
 1. Settu upp viðeigandi valmyndaratriði fartækis til að styðja flutning á mótteknum birgðum til staðsetningar gæðastjórnunar og flutning birgða sem gæðastjórnun samþykkir eða hafnar úr staðsetningu gæðastjórnunar til nýrrar staðsetningar.
 
-Fyrir nákvæmar leiðbeiningar sem sýna hvernig á að ljúka þessari uppsetningu skal skoða [dæmi um atburðarás](#example-scenario) í lokin á þessu efnisatriði.
+Fyrir skref-fyrir-skref dæmi sem sýnir hvernig á að klára þessa uppsetningu, sjáðu [dæmi atburðarás](#example-scenario) í lok þessarar greinar.
 
 ## <a name="enable-a-warehouse-for-quality-management"></a>Virkja vöruhús fyrir gæðastjórnun
 
@@ -188,7 +188,7 @@ Gildið **Tilvísunargerð** fyrir eftirfarandi dæmi er _Innkaup_ og gildið **
 | Sækja | Full númeraplata | Já _(læst/ekki hægt að breyta)_ | <p>Staðsetning: Já</p><p>Númeraplata: Já _(læst/ekki hægt að breyta)_</p> | Já | 3 | <p>**Tveir hlutir:**</p><ul><li>**Magn pöntunarlínu fyrir vöru A: 120 EA (4 bretti)**</li><li>**Pöntunarlínamagn fyrir atriði B: 90 EA (3 bretti)**</li></ul><p>**Ein hleðsla, tvær hleðslulínur með sitthvora pöntunarlínu**</p><ol><li>Skrá kvittun í farsímaforriti vöruhúsakerfis fyrir atriði A, 30 EA, LP1<p>Gæðavinna sýnatöku fyrir 30 EA</p><p>Gæðapöntun 1 fyrir 30 EA</p></li><li>Skrá kvittun í farsímaforriti vöruhúsakerfis fyrir atriði A, 30 EA, LP2<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í farsímaforriti vöruhúsakerfis fyrir atriði A, 30 EA, LP3<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í farsímaforriti vöruhúsakerfis fyrir atriði A, 30 EA, LP4<p>Gæðavinna sýnatöku fyrir 30 EA</p><p>Gæðapöntun 1 fyrir 30 EA</p></li><li>Skrá kvittun í farsímaforriti vöruhúsakerfis fyrir atriði B, 30 EA, LP5<p>Gæðavinna sýnatöku fyrir 30 EA</p><p>Gæðapöntun 1 fyrir 30 EA</p></li><li>Skrá kvittun í farsímaforriti vöruhúsakerfis fyrir atriði B, 30 EA, LP6<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í farsímaforriti vöruhúsakerfis fyrir atriði A, 30 EA, LP7<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li></ol> |
 | Sækja | Prósenta = 10 | Já _(læst/ekki hægt að breyta)_ | <p>Staðsetningin: Nei</p><p>Númeraplata: Nr.</p> | Nei | Ekki tiltækt | <p>**Pöntunarlínamagn: 100 EA**</p><p>**Engar hleðslur eru búnar til. Umfang pöntunar er notað.**</p><ol><li>Skrá kvittun í farsímaforriti vöruhúsakerfis fyrir 50 EA, LP1<p>Gæðavinna sýnatöku fyrir 5 EA</p><p>Gæðapöntun 1 fyrir 5 EA</p><p>Innkaupapöntunarvinna fyrir 45 EA (frágangur)</p></li><li>Skrá kvittun í farsímaforriti vöruhúsakerfis fyrir 50 EA, LP2<p>Gæðavinna sýnatöku fyrir 5 EA</p><p>Gæðapöntun 1 fyrir 5 EA</p><p>Innkaupapöntunarvinna fyrir 45 EA (frágangur)</p></li></ol> |
 
-Þegar starfsmaður staðfestir eina af gæðapöntunum sem sýndar eru í fyrri töflu býr kerfið sjálfkrafa til gæðapöntunarvinnu til að flytja birgðir frá staðsetningu gæðastjórnunar til staðsetningarinnar sem skilgreind er í staðsetningarleiðbeiningunni fyrir verkbeiðnigerðina _Gæðapöntun_. Hægt er að setja upp hvaða staðsetningu sem er í þessum tilgangi, t.d. sem skila- eða geymslustaðsetningu, fer eftir niðurstöðu prófunar fyrir gæðapöntunina. Dæmi um þessa uppsetningu er að finna í [dæmi um atburðarás](#example-scenario) í lokin á þessu efnisatriði.
+Þegar starfsmaður staðfestir eina af gæðapöntunum sem sýndar eru í fyrri töflu býr kerfið sjálfkrafa til gæðapöntunarvinnu til að flytja birgðir frá staðsetningu gæðastjórnunar til staðsetningarinnar sem skilgreind er í staðsetningarleiðbeiningunni fyrir verkbeiðnigerðina _Gæðapöntun_. Hægt er að setja upp hvaða staðsetningu sem er í þessum tilgangi, t.d. sem skila- eða geymslustaðsetningu, fer eftir niðurstöðu prófunar fyrir gæðapöntunina. Fyrir dæmi um þessa uppsetningu, sjáðu [dæmi atburðarás](#example-scenario) í lok þessarar greinar.
 
 Hægt er að opna gæðapöntun sem hefur þegar verið staðfest, svo lengi sem að gæðapöntunarvinnan sem tengist því að flytja birgðirnar frá staðsetningu gæðastjórnunar sé ekki með gildið **Staða verks** sem *Lokuð* eða *Í vinnslu*.
 

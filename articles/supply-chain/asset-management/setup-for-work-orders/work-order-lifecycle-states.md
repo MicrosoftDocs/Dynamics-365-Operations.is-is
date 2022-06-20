@@ -1,6 +1,6 @@
 ---
 title: Líftímastöður verkbeiðni
-description: Þetta efni útskýrir hvernig á að raða líftímastöðum verkbeiðna í eignastýringu.
+description: Þessi grein útskýrir lífsferilsstöðu verkbeiðna í eignastýringu.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa0980438ec629ef7ae6bf711d5ae87efca131e6ab86dfcaa1f17d953725147a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 67f857e4bfb828250e632e3ba46af9930cd908a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768667"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860871"
 ---
 # <a name="work-order-lifecycle-states"></a>Líftímastöður verkbeiðni
 
@@ -69,7 +69,7 @@ Eftirfarandi tafla lýsir valkostunum í hlutunum **Verkbeiðni** og **Tímasetj
 
     Á flýtiflipanum **Upplýsingar** sýnir reiturinn **Líftímalíkön** fjölda líftímalíkana verkbeiðna sem nota þessa líftímastöðu.
 
-8. Á flýtiflipanum **Almennt**, í hlutanum **Verkbeiðni**, velurðu aðgerðir sem skulu vera tiltækar fyrir þessa líftímastöðu með því að stilla viðeigandi valkosti á **Já**. Lýsingar á valkostunum er að finna í töflunni fyrr í þessu efnisatriði.
+8. Á flýtiflipanum **Almennt**, í hlutanum **Verkbeiðni**, velurðu aðgerðir sem skulu vera tiltækar fyrir þessa líftímastöðu með því að stilla viðeigandi valkosti á **Já**. Fyrir lýsingar á valkostunum, sjá töfluna fyrr í þessari grein.
 9. Í hlutanum **Verk**, í reitnum **Stig** veldu verkefnastigið sem ætti að tengjast þessari líftímastöðu.
 10. Í hlutanum **Verk** stillirðu valkostinn **Lokunarverkþætti** á **Já** ef verkþáttum sem tengjast hverju verkbeiðniverki skal sjálfkrafa lokað þegar verkbeiðnin er í þessari líftímastöðu.
 
@@ -77,7 +77,7 @@ Eftirfarandi tafla lýsir valkostunum í hlutunum **Verkbeiðni** og **Tímasetj
     > Til að finna fjölda verkþátta sem tengjast verkbeiðni verki velurðu **Eignastjórnun** \> **Sameiginlegt** \> **Verkbeiðnir** \> **Allar verkbeiðnir**, **Virkar verkbeiðnir**, eða **Mínar virku verkbeiðnir**. Opnaðu verkbeiðnina og veldu síðan verkbeiðniverkið. Verkþáttanúmerið er sýnt í reitnum **Verkþáttanúmer** í hlutanum **Verk** á flipanum **Almennt** á flýtiflipanum **Línuupplýsingar**.
 
 11. Í hlutanum **Spá** stillirðu valkostinn **Afrita tímaspá**, **Afrita vöruspá**, og/eða **Afrita kostnaðarspá** á **Já** ef sjálfkrafa ætti að afrita spár verkbeiðniverka í færslubækur verkbeiðna þegar verkbeiðnin er í þessari líftímastöðu.
-12. Í hlutanum **Tímastilla** stillirðu einn af valkostunum á **Já** ef uppfæra skal röðunarstöðu fyrir verkbeiðniverk þegar verkbeiðnin er í þessari líftímastöðu. Fyrir lýsingar á valkostunum **Tilbúið**, **Hefja**, **Ljúka** og **Eyða röðunarlínum** skal sjá töfluna fyrr í þessu efni.
+12. Í hlutanum **Tímastilla** stillirðu einn af valkostunum á **Já** ef uppfæra skal röðunarstöðu fyrir verkbeiðniverk þegar verkbeiðnin er í þessari líftímastöðu. Fyrir lýsingar á **Tilbúið**, **·**, **·**, og **Eyða áætlunarlínum** valkosti, sjá töfluna fyrr í þessari grein.
 
     > [!NOTE]
     > Til að skoða röðunarlínur sem tengjast verkbeiðniverkum velurðu **Eignastjórnun** \> **Sameiginlegt** \> **Verkbeiðnir** \> **Allar verkbeiðnir**, **Virkar verkbeiðnir**, eða **Mínar virku verkbeiðnir**. Opnaðu verkbeiðnina, veldu verkbeiðniverkið á flýtiflipanum **Verkbeiðniverk** og skoðaðu tengdar upplýsingar á flýtiflipanum **Línuupplýsingar**. Reiturinn **Staða** á flipanum **Tímasetja** sýnir stöðu verkbeiðniverksins. Reitinn **Stöðu** má stilla á eftirfarandi gildi: **Raðað**, **Tilbúið**, **Hafið**, **Stöðvað**, og **Lokið**.

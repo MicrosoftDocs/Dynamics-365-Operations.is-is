@@ -1,6 +1,6 @@
 ---
 title: Hanna skilgreiningar rafrænnar skýrslugerðar til að útiloka BOM-stafi í mynduðum skrám
-description: Í þessu efnisatriði er útskýrt hvernig skilgreina á snið rafrænnar skýrslugerðar til að búa til skýrslur sem útiloka BOM-stafi.
+description: Þessi grein útskýrir hvernig á að stilla rafræna skýrslugerð (ER) snið til að búa til skýrslur sem bæla niður bætapöntunarmerki (BOM) stafi.
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b9265578deaff4100eb5987eb6090eaa12876044
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: d54ed105e4ff44ac2c48e2d1a4b8e12fbf6f9591
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323741"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847431"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Hanna skilgreiningar rafrænnar skýrslugerðar til að útiloka BOM-stafi í mynduðum skrám
 
@@ -38,7 +38,7 @@ Ef **UTF-8**, **UTF-16** eða **UTF-32** er tilgreint sem kóðunin verður valk
 
 ![Valkostur útilokunar BOM-stafa stilltur á síðu sniðshönnuðar.](./media/er-suppress-bom-characters-image2.gif)
 
-Til að fara yfir virkni við keyrslu skal ljúka viðeigandi ferli. Ljúkið sem dæmi við skrefin í efnisatriðinu [Fresta keyrslu XML-eininga á sniði rafrænnar skýrslugerðar](er-defer-xml-element.md). Þegar búið er að ljúka við skrefin í hlutanum [Breyta sniði þannig að útreikningurinn byggist á mynduðu úttaki](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) í því efnisatriði skal fylgja þessum viðbótarskrefum.
+Til að fara yfir virkni við keyrslu skal ljúka viðeigandi ferli. Ljúktu til dæmis við skrefin í [Fresta framkvæmd XML þátta í ER sniðum](er-defer-xml-element.md) grein. Eftir að þú hefur lokið skrefunum í [Breyttu sniðinu þannig að útreikningurinn byggist á mynduðu úttaki](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) hluta þeirrar greinar skaltu fylgja þessum viðbótarskrefum.
 
 1. Tilgreinið UTF-kóðunina:
 
@@ -48,12 +48,12 @@ Til að fara yfir virkni við keyrslu skal ljúka viðeigandi ferli. Ljúkið se
 2. Myndið XML-skrá sem inniheldur BOM-stafi:
 
     1. Stillið valkostinn **Útiloka BOM-stafi** á **Nei** til að hafa með BOM-stafi í mynduðum XML-skrám.
-    2. Ljúkið skrefunum í hlutanum [Fresta keyrslu á samantekt XML-einingar þannig að reiknuð samtala sé notuð](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) í efnisatriðinu [Fresta keyrslu XML-eininga á sniði rafrænnar skýrslugerðar](er-defer-xml-element.md) og vistið myndaða skrá sem **SampleXmlReport.xml**.
+    2. Ljúktu við skrefin í [Fresta framkvæmd XML samantektareiningarinnar þannig að útreiknuð heildarupphæð sé notuð](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) kafla í [Fresta framkvæmd XML þátta í ER sniðum](er-defer-xml-element.md) grein og vistaðu myndaða skrána sem **SampleXmlReport.xml**.
 
 3. Myndið XML-skrá sem inniheldur ekki BOM-stafi:
 
     1. Stillið valkostinn **Útiloka BOM-stafi** á **Já** til að útiloka BOM-stafi í mynduðum XML-skrám.
-    2. Ljúkið skrefunum í hlutanum [Fresta keyrslu á samantekt XML-einingar þannig að reiknuð samtala sé notuð](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) í efnisatriðinu [Fresta keyrslu XML-eininga á sniði rafrænnar skýrslugerðar](er-defer-xml-element.md) og vistið myndaða skrá sem **SampleXmlReport (1).xml**.
+    2. Ljúktu við skrefin í [Fresta framkvæmd XML samantektareiningarinnar þannig að útreiknuð heildarupphæð sé notuð](er-defer-xml-element.md#defer-the-execution-of-the-summary-xml-element-so-that-the-calculated-total-is-used) kafla í [Fresta framkvæmd XML þátta í ER sniðum](er-defer-xml-element.md) grein og vistaðu myndaða skrána sem **SampleXmlReport (1).xml**.
 
 4. Í skráarsamanburði skal bera saman myndaðar skrár.
 

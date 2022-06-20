@@ -1,6 +1,6 @@
 ---
 title: Skilgreina rafrænna reikningsfærslu í Regulatory Configuration Services (RCS)
-description: Þetta efnisatriði útskýrir hvernig skilgreina á rafræna reikningsfærslu í Dynamics 365 Regulatory Configuration Services (RCS).
+description: Þessi grein útskýrir hvernig á að stilla rafræna reikningagerð í Dynamics 365 Regulatory Configuration Services (RCS).
 author: gionoder
 ms.date: 11/08/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 640244612a2a553ec09661635787cb7f8694283b
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 985bed767442d196a9ce0528673b4ed5946379ac
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865643"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Skilgreina rafrænna reikningsfærslu í Regulatory Configuration Services (RCS)
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er að finna upplýsingar um skilgreiningarmöguleika fyrir rafræna reikningsfærslu í Dynamics 365 Regulatory Configuration Services (RCS).
+Þessi grein veitir upplýsingar um stillingarmöguleika rafrænna reikninga í Dynamics 365 Regulatory Configuration Services (RCS).
 
 Það er í gegnum skilgreiningarmöguleikana sem rafræn reikningsfærsla auðveldar þér að uppfylla kröfur fyrirtækis og reglugerða fyrir rafræna reikningsfærslu án þess að þurfa að gera einhverja kóðun. Og í þeim tilfellum þar sem rafrænir reikningar verða að vera rafrænt samþykktir af vefþjónustu, hjálpa stillingarmöguleikarnir þér einnig að uppfylla kröfur um að skiptast á skilaboðum með vefþjónustu, án þess að nota neinn kóða.
 
@@ -40,7 +40,7 @@ Frekari upplýsingar eru í [Yfirlit yfir rafræna skýrslugerð (ER)](../../fin
 
 ## <a name="electronic-invoicing-features"></a>Eiginleikar rafrænnar reikningsfærslu
 
-Eiginleikar rafrænnar reikningsfærslu bera ábyrgð á að mynda rafræna reikninga í gegnum rafræna reikningsfærslu. Þeir halda utan um skilgreiningarreglur og nota þær til að vinna úr gögnum sem Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management senda til rafrænnar reikningsfærslu og rafrænna reikninga.
+Eiginleikar rafrænnar reikningsfærslu bera ábyrgð á að mynda rafræna reikninga í gegnum rafræna reikningsfærslu. Þeir hylja uppsetningarreglurnar og nota þær til að vinna úr gögnunum sem Microsoft Dynamics 365 Fjármál og Dynamics 365 Supply Chain Management senda í rafræna reikninga og á rafræna reikninga.
 
 Eiginleikarnir styðja líka aðstæður þar sem reglufylgni við forskriftir skráarsniðs er nauðsynleg og útkoman er sjálfstæð rafræn skrá. Í flestum tilfellum eru forskriftir skráarsniðs birt af skattyfirvöldum.
 

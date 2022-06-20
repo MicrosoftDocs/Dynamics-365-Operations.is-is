@@ -1,6 +1,6 @@
 ---
 title: Grunnstilla færibreytur leyfis og fjarvista
-description: Þetta efnisatriði lýsir því hvernig á að skilgreina mannauðsfæribreytur fyrir orlof og fjarveru í Dynamics 365 Human Resources.
+description: Þessi grein lýsir því hvernig á að skilgreina mannauðsfæribreytur fyrir orlof og fjarveru í Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79052c550783dee1ba4091ad10bde4d79d7b905e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3a39c74eef3865c03ccb9dd5aa2fece7f25e639a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690695"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891380"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Grunnstilla færibreytur leyfis og fjarvista
 
 >[!Important]
->Virknin sem vísað er til í þessu efnisatriði er nú í boði fyrir viðskiptavini sem nota stakt Dynamics 365 Human Resources. Sum eða öll virknin verður í boði sem hluti af síðari útgáfu í tölvukerfi Finance eftir útgáfu 10.0.26 af Finance.
+>Virknin sem getið er um í þessari grein er eins og er í boði fyrir viðskiptavini á sjálfstætt Dynamics 365 Human Resources. Sum eða öll virknin verður í boði sem hluti af síðari útgáfu í tölvukerfi Finance eftir útgáfu 10.0.26 af Finance.
 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]

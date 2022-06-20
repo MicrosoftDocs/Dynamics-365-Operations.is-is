@@ -1,6 +1,6 @@
 ---
 title: Áætla verkbeiðnir
-description: Þetta efni útskýrir hvernig á að raða verkbeiðnum í eignastýringu.
+description: Þessi grein útskýrir hvernig á að tímasetja vinnupantanir í eignastýringu.
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: becd06c46afd92bf07d9a69147b7768e780aefa57f9045c11698c04154d6ddb8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: a3fc3e6ef2332a883ef4a612a669142da1794454
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718060"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845055"
 ---
 # <a name="schedule-work-orders"></a>Áætla verkbeiðnir
 
@@ -28,7 +28,7 @@ ms.locfileid: "6718060"
 
  
 
-Þetta efni útskýrir hvernig á að raða verkbeiðnum í eignastýringu. 
+Þessi grein útskýrir hvernig á að tímasetja vinnupantanir í eignastýringu. 
 
 Nauðsynlegur fjöldi klukkustunda fyrir verkbeiðni er skilgreindur af summunni yfir spáða tíma að frádregnum bókuðum tímum. Ef þörf er á meiri tíma verður að aðlaga spána til samræmis. Í **Eignastjórnun** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir** er hægt að skoða eða breyta spám um verkbeiðni með því að velja verkbeiðnina og smella á **Spá** á flipanum **Verkbeiðni**. Þegar verkbeiðnir hafa verið búnar til og áætlaðar er næsta skref að úthluta nauðsynlegu viðhaldsstarfsfólki og verkfærum til að ljúka verkbeiðnunum.
 

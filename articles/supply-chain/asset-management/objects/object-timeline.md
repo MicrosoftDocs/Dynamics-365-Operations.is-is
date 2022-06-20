@@ -1,6 +1,6 @@
 ---
 title: Viðburðarferill eignar
-description: Þetta efni útskýrir hvernig þú getur fengið aðgang að sögu eignatilvika í eignastýringu.
+description: Þessi grein útskýrir hvernig á að fá aðgang að sögu eignaviðburða í eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670fa5800efad99d913e96dee8c6883f150b86d2227143dbdf392c7b380e89a6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 63045cf2fc493144897b8a857f615105f6d7b50f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750173"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865296"
 ---
 # <a name="asset-event-history"></a>Viðburðarferill eignar
 
@@ -28,7 +28,7 @@ ms.locfileid: "6750173"
 
  
 
-Þetta efni útskýrir hvernig þú getur fengið aðgang að sögu eignatilvika í eignastýringu. Síðan **Saga eignatilvika** sýnir skráningarsögu sem hefur verið gerð á líftíma eignar. Þú getur fengið aðgang að þessari síðu frá **Allar eignir**, **Virkar eignir**, og **Virku eignir mínar** valmyndaratriðin. Veldu eign og veldu síðan **Tilvikasaga**.
+Þessi grein útskýrir hvernig á að fá aðgang að sögu eignaviðburða í eignastýringu. Síðan **Saga eignatilvika** sýnir skráningarsögu sem hefur verið gerð á líftíma eignar. Þú getur fengið aðgang að þessari síðu frá **Allar eignir**, **Virkar eignir**, og **Virku eignir mínar** valmyndaratriðin. Veldu eign og veldu síðan **Tilvikasaga**.
 
 Á flýtiflipanum **Upplýsingar** á síðunni **Saga eignatilvika**, þú getur leitað að öllum tiltækum upplýsingum. Til dæmis er hægt að nota sögu eignatburða til að finna eftirfarandi upplýsingar:
 

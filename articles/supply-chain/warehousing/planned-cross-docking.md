@@ -1,6 +1,6 @@
 ---
 title: Áætluð dreifing frá dreifingarstöð
-description: Þetta efnisatriði lýsir háþróaðri, áætlaðri dreifingu frá dreifingarstöð þar sem birgðamagninu sem þarf til pöntunar er strax við móttöku eða stofnun beint á rétt úthlið eða sviðsetningarsvæði. Öllum eftirstandandi birgðum frá upprunastaðnum á innleið verður beint að réttum geymslustað með hefðbundnu frágangsferli.
+description: Þessi grein lýsir háþróaðri skipulögðri bryggju, þar sem birgðamagninu sem þarf fyrir pöntun er beint beint frá móttöku eða stofnun á rétta útleiðarbryggju eða stöðvunarsvæði. Öllum eftirstandandi birgðum frá upprunastaðnum á innleið verður beint að réttum geymslustað með hefðbundnu frágangsferli.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573034"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863680"
 ---
 # <a name="planned-cross-docking"></a>Áætluð dreifing frá dreifingarstöð
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir háþróaðri, áætlaðri dreifingu frá dreifingarstöð. Dreifing frá dreifingarstöð er vöruhúsaferli þar sem birgðamagnið sem þarf til pöntunar er strax við móttöku eða stofnun beint á rétt úthlið eða sviðsetningarsvæði. Öllum eftirstandandi birgðum frá upprunastaðnum á innleið verður beint að réttum geymslustað með hefðbundnu frágangsferli.
+Þessi grein lýsir háþróaðri fyrirhugaðri krosstengingu. Dreifing frá dreifingarstöð er vöruhúsaferli þar sem birgðamagnið sem þarf til pöntunar er strax við móttöku eða stofnun beint á rétt úthlið eða sviðsetningarsvæði. Öllum eftirstandandi birgðum frá upprunastaðnum á innleið verður beint að réttum geymslustað með hefðbundnu frágangsferli.
 
 Dreifing frá dreifingarstöð gerir starfsmönnum kleift að sleppa frágangi á innleið og tiltekt á útleið á birgðum sem þegar eru merktar fyrir pöntun á útleið. Þar af leiðandi er dregið úr fjölda skipta sem hreyft er við birgðum, þegar slíku er við komið. Þar að auki, vegna þess að minni samskipti eru við kerfið, eykst sparnaður á tíma og rými í vinnusal vöruhússins til muna.
 
@@ -37,7 +37,7 @@ Dreifing frá dreifingarstöð gerir starfsmönnum kleift að sleppa frágangi �
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Kveikja á áætlaðri dreifingu frá dreifingarstöð
 
-Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessu efnisatriði skal fara í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eftirfarandi eiginleikum í eftirfarandi röð:
+Ef kerfið þitt inniheldur ekki þá eiginleika sem lýst er í þessari grein skaltu fara á [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveiktu á eftirfarandi eiginleikum í eftirfarandi röð:
 
 1. *Áætluð dreifing frá dreifingarstöð*
 1. *Sniðmát dreifingar frá dreifingarstöð með staðsetningarleiðbeiningum*

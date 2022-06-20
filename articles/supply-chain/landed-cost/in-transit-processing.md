@@ -1,6 +1,6 @@
 ---
 title: Vinnsla á vörum í flutningi
-description: Þetta efnisatriði útskýrir hvernig á að vinna með pantanir á vörum í flutningi. Þegar pöntun eða ferð er sett upp til að nota vinnslu á vörum í flutningi er hægt að reikningsfæra vörur áður en þær hafa verið mótteknar í vöruhúsi fyrir notkun.
+description: Þessi grein lýsir því hvernig á að vinna með vöruflutningapantanir. Þegar pöntun eða ferð er sett upp til að nota vinnslu á vörum í flutningi er hægt að reikningsfæra vörur áður en þær hafa verið mótteknar í vöruhúsi fyrir notkun.
 author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8df07c7c94cf64b0e4cf1def794270e176241b5f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 47e5ef2ef99fcf23af73cfdb6ec57b92ad62f18c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854385"
 ---
 # <a name="goods-in-transit-processing"></a>Vinnsla á vörum í flutningi
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að vinna með pantanir á vörum í flutningi. Þessi gerð pöntunar er aðeins notuð af **Heildarkostnaður** einingunni. Þegar pöntun eða ferð er sett upp til að nota vinnslu á vörum í flutningi þarf ekki að bíða þar til vörur hafa verið mótteknar í vöruhúsinu áður en hægt er að reikningsfæra þær. Þess í stað eru vörurnar reikningsfærðar þegar þær fara úr vöruhúsi lánardrottins eða höfn upprunastað og fjármagnskostnaður er viðurkenndur þegar ferðin hefst. Þessi virkni gerir kleift að taka yfir eignarhald á birgðum með réttu vegna þess að vörur verða oft eign fyrirtækisins þegar þær fara frá sendingarhöfn.
+Þessi grein lýsir því hvernig á að vinna með vöruflutningapantanir. Þessi gerð pöntunar er aðeins notuð af **Heildarkostnaður** einingunni. Þegar pöntun eða ferð er sett upp til að nota vinnslu á vörum í flutningi þarf ekki að bíða þar til vörur hafa verið mótteknar í vöruhúsinu áður en hægt er að reikningsfæra þær. Þess í stað eru vörurnar reikningsfærðar þegar þær fara úr vöruhúsi lánardrottins eða höfn upprunastað og fjármagnskostnaður er viðurkenndur þegar ferðin hefst. Þessi virkni gerir kleift að taka yfir eignarhald á birgðum með réttu vegna þess að vörur verða oft eign fyrirtækisins þegar þær fara frá sendingarhöfn.
 
 Þegar vöruflutningspantanir eru notaðar eru fjárhagslega uppfærðar vörurnar mótteknar í bráðabirgðavöruhúsi sem er þekkt sem flutningsvöruhús. Vörurnar eru síðan geymdar í þessu vöruhúsi þangað til hægt er að taka á móti þeim í vöruhúsi lokaáfangastaðar (þ.e. vöruhúsið sem er skilgreint í innkaupalínunni). Ekki er hægt að fjarlægja þær handvirkt.
 

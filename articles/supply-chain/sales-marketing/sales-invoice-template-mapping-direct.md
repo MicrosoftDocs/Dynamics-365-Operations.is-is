@@ -1,6 +1,6 @@
 ---
 title: Samstilla hausa og línur sölureiknings beint úr Supply Chain Management í Sales
-description: Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla hausa og línur reikninga beint úr Dynamics 365 Supply Chain Management við Dynamics 365 Sales.
+description: Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla hausa og línur sölureikninga beint frá Dynamics 365 Supply Chain Management til Dynamics 365 Sales.
 author: Henrikan
 ms.date: 10/26/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c2f988b4f170c027444ba7cf54a55e0bd846cedf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: de4bdd07127b65321540543040192eb7811850da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571642"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862541"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Samstilla hausa og línur sölureiknings beint úr Sales við Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla hausa og línur reikninga beint úr Dynamics 365 Supply Chain Management við Dynamics 365 Sales.
+Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla hausa og línur sölureikninga beint frá Dynamics 365 Supply Chain Management til Dynamics 365 Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gagnaflæði í Prospect to cash
 
@@ -124,7 +124,7 @@ Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþætt
 
 
 
-## <a name="related-topics"></a>Tengd efnisatriði
+## <a name="related-articles"></a>Tengdar greinar
 
 [Viðfang til sjóðstreymis](prospect-to-cash.md)
 

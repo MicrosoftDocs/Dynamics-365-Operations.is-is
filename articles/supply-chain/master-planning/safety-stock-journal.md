@@ -1,6 +1,6 @@
 ---
 title: Nota færslubók öryggisbirgða til að uppfæra lágmarkstryggingu fyrir vörur
-description: Þetta efnisatriði lýsir því hvernig á að nota öryggisbirgðabók til að uppfæra öryggisbirgðamagn fyrir vörur með því að reikna út lágmarksþekjutillögur byggðar á sögulegum viðskiptum.
+description: Þessi grein lýsir því hvernig á að nota öryggisbirgðabók til að uppfæra öryggisbirgðamagn fyrir vörur með því að reikna lágmarksþekjutillögur út frá sögulegum viðskiptum.
 author: t-benebo
 ms.date: 10/28/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-28
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 391f741ee08eb0624e80f5c297009c527e50c14c
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 385144738b83fcf6873eae5204b4784d6ecd5b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468539"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851770"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage-for-items"></a>Nota færslubók öryggisbirgða til að uppfæra lágmarkstryggingu fyrir vörur
 
@@ -24,7 +24,7 @@ ms.locfileid: "8468539"
 
 Öryggisbirgðir gefa til kynna viðbótarmagn vöru sem er í birgðum til að draga úr hættu á að varan fari úr birgðum. Öryggisbirgðir eru notaðar sem biðminni ef sölupantanir berast, en birgir getur ekki uppfyllt umbeðinn sendingardag viðskiptavinarins.
 
-Þetta efnisatriði lýsir því hvernig á að nota öryggisbirgðabókina til að reikna út lágmarksþekjutillögur byggðar á sögulegum viðskiptum og uppfæra síðan vöruþekjuna með tillögunum.
+Þessi grein lýsir því hvernig á að nota öryggisbirgðabókina til að reikna út lágmarksþekjutillögur byggðar á sögulegum viðskiptum og uppfæra síðan vöruþekjuna með tillögunum.
 
 ## <a name="overview-of-minimum-coverage-usage"></a>Yfirlit yfir lágmarksþekjunotkun
 
@@ -43,7 +43,7 @@ The **Lágmark** gildi er hægt að stilla á þrjá vegu:
 
 Öryggisbirgðabækur eru notaðar til að reikna út fyrirhugað lágmarksmagn byggt á sögulegri notkun vöru, annað hvort í lágmarks-/hámarkstilgangi eða í birgðaáætlunarskyni. Söguleg notkun táknar öll útgáfuviðskipti á tilteknu tímabili. Þessar útgáfufærslur innihalda sölupöntunarfærslur og birgðaleiðréttingar. Í útreikningunum er einnig greint frá áhrifum fyrirhugaðs lágmarksmagns á birgðaverðmæti og breytingu á birgðaverðmæti miðað við núverandi lágmarksmagn.
 
-Hver öryggisbirgðabókarlína táknar vöru og þekjuvíddir hennar. Þessar dagbókarlínur eru búnar til og sýndar á **Öryggisbirgðabókarlínur** síða (**Aðalskipulag \> Aðalskipulag \> Hlaupa \> Útreikningur á öryggisbirgðum**). Viðskiptaferlinu til að nota öryggisbirgðabækur til að reikna út fyrirhugað lágmarksmagn er lýst síðar í þessu efnisatriði.
+Hver öryggisbirgðabókarlína táknar vöru og þekjuvíddir hennar. Þessar dagbókarlínur eru búnar til og sýndar á **Öryggisbirgðabókarlínur** síða (**Aðalskipulag \> Aðalskipulag \> Hlaupa \> Útreikningur á öryggisbirgðum**). Viðskiptaferlinu til að nota öryggisbirgðabækur til að reikna út fyrirhugað lágmarksmagn er lýst síðar í þessari grein.
 
 Skipuleggjandi notar öryggisbirgðabók til að reikna út fyrirhugað lágmarksmagn fyrir valdar vörur, byggt á sögulegri notkun á völdum tímabilum. Hægt er að hnekkja fyrirhuguðum lágmörkum handvirkt eftir þörfum og þú getur skoðað hugsanleg áhrif fyrirhugaðra lágmarka á birgðaverðmæti. Þegar færslubókin er bókuð er tengd lágmarksmagn í vöruþekju uppfært sjálfkrafa.
 
@@ -70,7 +70,7 @@ Skipuleggjandi notar öryggisbirgðabók til að reikna út fyrirhugað lágmark
 
 #### <a name="automatically-generate-journal-lines"></a>Mynda sjálfkrafa færslubókarlínur
 
-Færslubókarlínur er aðeins hægt að mynda sjálfkrafa ef engar línur eru til fyrir færslubókina sem er sýnd.
+Færslubókarlínur er aðeins hægt að búa til sjálfkrafa ef engar línur eru til fyrir færslubókina sem er sýnd.
 
 Fylgdu þessum skrefum til að mynda færslubókarlínur sjálfkrafa.
 
@@ -89,15 +89,15 @@ Fylgdu þessum skrefum til að mynda færslubókarlínur sjálfkrafa.
 
     - **Frá dags** – Veldu upphafsdag tímabilsins sem útgáfur eiga að vera með í útreikningi fyrir.
     - **Til dagsins í dag** – Veldu lokadagsetningu tímabilsins sem útgáfur eiga að vera með í þessum útreikningi fyrir. Það verða að líða að minnsta kosti tveir mánuðir á milli upphafs- og lokadaga.
-    - **Reiknaðu staðalfrávik** – Stilltu þennan valkost á *Já* til að reikna út staðalfrávikið. Þú verður að stilla þennan valkost á *Já* að nota **Notaðu þjónustustig** valkostur þegar þú reiknar út tillöguna (eins og lýst er síðar í þessu efni).
+    - **Reiknaðu staðalfrávik** – Stilltu þennan valkost á *Já* til að reikna út staðalfrávikið. Þú verður að stilla þennan valkost á *Já* að nota **Notaðu þjónustustig** valkostur þegar þú reiknar út tillöguna (eins og lýst er síðar í þessari grein).
 
-1. Á **Skrár til að hafa með** Flýtiflipa, þú getur sett upp síur og takmarkanir til að skilgreina hvaða atriði eru innifalin. (Til dæmis geturðu síað eftir **Umfjöllunarhópur** gildi.) Veldu **Sía** til að opna hefðbundinn fyrirspurnarritaraglugga, þar sem hægt er að skilgreina valviðmið, flokkunarviðmið og sameiningar. Reitirnir virka alveg eins og þeir gera fyrir aðrar tegundir fyrirspurna í Microsoft Dynamics 365 Supply Chain Management.
+1. Á **Skrár til að hafa með** Flýtiflipa, þú getur sett upp síur og takmarkanir til að skilgreina hvaða atriði eru innifalin. (Til dæmis geturðu síað eftir **Umfjöllunarhópur** gildi.) Veldu **Sía** til að opna staðlaðan fyrirspurnarritaraglugga, þar sem hægt er að skilgreina valviðmið, flokkunarviðmið og sameiningar. Reitirnir virka alveg eins og þeir gera fyrir aðrar tegundir fyrirspurna í Microsoft Dynamics 365 Supply Chain Management.
 1. Á **Hlaupa í bakgrunni** Flýtiflipa, veldu hvort keyra eigi verkið í lotuham og/eða setja upp endurtekna áætlun. Reitirnir virka eins og þeir virka fyrir aðrar gerðir [bakgrunnsvinnsla](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) í Supply Chain Management.
 1. Veldu **Í lagi**. Línur eru búnar til fyrir víddir sem hafa birgðafærslur.
 
 #### <a name="manually-add-or-remove-journal-lines"></a>Bættu við eða fjarlægðu færslubókarlínur handvirkt
 
-Þú getur handvirkt bætt við og/eða fjarlægt færslubókarlínur hvenær sem er (annaðhvort eftir eða í stað þess að búa til línur sjálfkrafa). Notaðu eftirfarandi hnappa á tækjastikunni á **Dagbókarlínur** flýtiflipi:
+Þú getur handvirkt bætt við og/eða fjarlægt færslubókarlínur hvenær sem er (annaðhvort á eftir eða í stað þess að búa til línur sjálfkrafa). Notaðu eftirfarandi hnappa á tækjastikunni á **Dagbókarlínur** flýtiflipi:
 
 - **Nýtt** – Bættu við nýrri línu. Sláðu síðan inn gildi í hvern dálk til að skilgreina vöruna sem á að reikna út og nota ný lágmark fyrir. Þar sem fyrirhugaðir lágmarksútreikningar eru ekki tiltækir fyrir handvirkt bættar línur, ekkert nýtt **Reiknað lágmarksmagn** gildi eru sýnd fyrir þau. Þess vegna verður þú að slá inn handvirkt **Nýtt lágmarksmagn** gildi. Hins vegar geturðu enn skoðað hugsanleg áhrif **Nýtt lágmarksmagn** verðmæti á birgðaverðmæti og hugsanlega breytingu á birgðum miðað við núgildandi lágmark.
 - **Eyða** – Eyða völdu línunni.
@@ -110,7 +110,7 @@ Fylgdu þessum skrefum til að mynda færslubókarlínur sjálfkrafa.
 Útreikningarnir sem sýndir eru munu ekki hafa áhrif á raunveruleg lágmarksmagn fyrir hverja vöru fyrr en þú velur **Post** á aðgerðasvæðinu. Á þeim tíma, sem **Nýtt lágmarksmagn** gildi verða notuð fyrir hverja vöru.
 
 1. Fara til **Aðalskipulag \> Aðalskipulag \> Hlaupa \> Útreikningur á öryggisbirgðum**.
-1. Opnaðu dagbókina til að reikna út tillögu fyrir. Einnig er hægt að búa til nýja dagbók eins og lýst er fyrr í þessu efni.
+1. Opnaðu dagbókina til að reikna út tillögu fyrir. Einnig er hægt að búa til nýtt tímarit eins og lýst er fyrr í þessari grein.
 1. Á **Dagbókarlínur** Flýtiflipi, veldu **Reiknaðu tillögu** á tækjastikunni. (Þú þarft ekki að velja neinar línur.)
 1. Í **Reiknaðu tillögu að lágmarksbirgðastigi** valmynd, stilltu eftirfarandi reiti:
 
@@ -124,7 +124,7 @@ Fylgdu þessum skrefum til að mynda færslubókarlínur sjálfkrafa.
 
 ### <a name="update-minimum-quantity"></a>Uppfæra lágmarksmagn
 
-Þú getur valið hvaða línu sem er í öryggisbirgðabók og hnekkt gildi hennar handvirkt **Nýtt lágmarksmagn** sviði.
+Þú getur valið hvaða línu sem er í öryggisbirgðabók og hnekkt handvirkt gildi hennar **Nýtt lágmarksmagn** sviði.
 
 1. Fara til **Aðalskipulag \> Aðalskipulag \> Hlaupa \> Útreikningur á öryggisbirgðum**.
 1. Opnaðu dagbókina til að breyta. Einnig er hægt að búa til nýja dagbók eins og lýst er áðan.

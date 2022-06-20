@@ -1,6 +1,6 @@
 ---
-title: Tímasettu hreinsun sölusögugagna
-description: Þetta efnisatriði lýsir því hvernig þú getur hjálpað til við að bæta afköst kerfisins með því að skipuleggja reglubundið hreinsunarverkefni Söluuppfærsluferils til að keyra með reglulegu millibili.
+title: Tímasetja gagnahreinsun söluferils
+description: Þessi grein lýsir því hvernig þú getur hjálpað til við að bæta afköst kerfisins með því að skipuleggja reglubundið hreinsunarverkefni Söluuppfærsluferils til að keyra með reglulegu millibili.
 author: myvakalo
 ms.date: 03/21/2022
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 6c6c1e08d45f2a7d1e1267010b286111bad01a6c
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: 1b2c9436fbb5020065f8f6ec30eedeca342d8aa9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570367"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900826"
 ---
-# <a name="schedule-sales-history-data-cleanup"></a>Tímasettu hreinsun sölusögugagna
+# <a name="schedule-sales-history-data-cleanup"></a>Tímasetja gagnahreinsun söluferils
 
 [!include [banner](../includes/banner.md)]
 
@@ -28,7 +28,7 @@ Ef þú notar *Hreinsun söluuppfærslusögu* reglubundið verkefni, mælum við
 
 ## <a name="turn-on-the-sales-history-cleanup-features"></a>Kveiktu á hreinsunareiginleikum sölusögu
 
-Til að setja upp og nota *Hreinsun söluuppfærslusögu* reglubundið verkefni ásamt öllum þeim eiginleikum sem lýst er í þessu efni, þú verður að virkja *Endurbætur á árangri í hreinsun sölusögu* og *Hreinsaðu upp söluuppfærsluferil byggt á aldri* eiginleikar í Eiginleikastjórnun, eins og lýst er í eftirfarandi undirköflum.
+Til að setja upp og nota *Hreinsun söluuppfærslusögu* reglubundið verkefni ásamt öllum þeim eiginleikum sem lýst er í þessari grein, þú verður að virkja *Endurbætur á árangri í hreinsun sölusögu* og *Hreinsaðu upp söluuppfærsluferil byggt á aldri* eiginleikar í Eiginleikastjórnun, eins og lýst er í eftirfarandi undirköflum.
 
 ### <a name="sales-history-cleanup-performance-improvements"></a>Afkastaendurbætur á hreinsun söluferils
 
@@ -76,7 +76,7 @@ Til að setja upp og tímasetja *Hreinsun sölusögu* reglubundið verkefni, fyl
         - Stilltu þennan valkost á *Nei* til að virkja **Búið til til** sviði. Þú notar þennan reit til að tilgreina elstu stofnunardagsetningu gagna sem á að geyma þegar verkefnið er keyrt. The **Hámarksaldur** reiturinn er hunsaður.
 
     - **Búið til til** – Þessi stilling á aðeins við þegar **Geymdu skrár byggðar á aldri** valkostur er stilltur á *Nei*. Tilgreindu elstu stofnunardagsetningu gagna sem á að geyma þegar verkefnið er keyrt. Færslum sem voru búnar til fyrir þessa dagsetningu verður eytt.
-    - **Hámarksaldur** – Þessi stilling á aðeins við þegar **Geymdu skrár byggðar á aldri** valkostur er stilltur á *Já*. Tilgreindu hámarksaldur (í dögum) skránna sem á að geyma í hvert skipti sem verkefnið er keyrt. Eldri skrám verður eytt.
+    - **Hámarksaldur** – Þessi stilling á aðeins við þegar **Geymdu skrár byggðar á aldri** valkostur er stilltur á *Já*. Tilgreindu hámarksaldur (í dögum) skránna sem á að halda í hvert skipti sem verkefnið er keyrt. Eldri skrám verður eytt.
 
 1. Á **Hlaupa í bakgrunni** Flýtiflipi, tilgreinið hvernig, hvenær og hversu oft verkefnið er keyrt. Notaðu þessar stillingar til að útfæra áætlunina sem þú ákvaðst í skrefi 1. Reitirnir virka alveg eins og þeir gera fyrir aðrar tegundir af [lotustörf](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) í birgðakeðjustjórnun.
 1. Veldu **Í lagi** til að beita stillingum þínum og loka svarglugganum.

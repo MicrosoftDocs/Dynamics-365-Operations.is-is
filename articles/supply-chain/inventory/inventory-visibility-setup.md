@@ -1,8 +1,8 @@
 ---
 title: Setja upp innbót birgðasýnileika
-description: Þetta efnisatriði lýsir því hvernig á að setja upp innbót birgðasýnileika fyrir Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir því hvernig á að setja upp Inventory Visibility Add-in fyrir Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a49f35211f30cdb76104cc5be78f5b114320a228
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895700"
 ---
-# <a name="install-and-set-up-inventory-visibility"></a>Setja upp sýnileika birgða
+# <a name="install-and-set-up-inventory-visibility"></a>Setja upp Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
+Þessi grein lýsir því hvernig á að setja upp Inventory Visibility Add-in fyrir Microsoft Dynamics 365 Supply Chain Management.
 
-Þetta efnisatriði lýsir því hvernig á að setja upp innbót birgðasýnileika fyrir Microsoft Dynamics 365 Supply Chain Management.
+Þú verður að nota Microsoft Dynamics Lifecycle Services (LCS) til að setja upp innbót birgðasýnileika. LCS er samstarfsgátt sem býður upp á umhverfi ásamt safni af reglulega uppfærðum þjónustum sem hjálpa til við að stjórna líftíma forrits fyrir fjármála- og rekstrarforritin þín. Frekari upplýsingar er að finna í [Tilföng Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-Þú verður að nota Microsoft Dynamics Lifecycle Services (LCS) til að setja upp innbót birgðasýnileika. LCS er samstarfsgátt sem býður upp á umhverfi ásamt safni af reglulega uppfærðum þjónustum sem hjálpa til við að stjórna líftíma forrits fyrir fjármála- og rekstrarforritin þín.
-
-Frekari upplýsingar er að finna í [Tilföng Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
+> [!TIP]
+> Við mælum með því að þú skráir þig í Inventory Visibility Add-in notendahópinn, þar sem þú getur fundið gagnlegar leiðbeiningar, fengið nýjustu uppfærslurnar okkar og sent inn allar spurningar sem þú gætir haft um notkun Birgðasýnileika. Til að taka þátt, vinsamlegast sendu tölvupóst til vöruteymisins Birgðasýnileika á [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) og láttu fylgja með auðkenni þitt fyrir framboðsstjórnunarumhverfi.
 
 ## <a name="inventory-visibility-prerequisites"></a>Skilyrði birgðasýnileika
 
@@ -44,6 +44,9 @@ Ef einhverjar spurningar vakna um þessi skilyrði skaltu hafa samband við vör
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Setja upp innbót birgðasýnileika
 
 Áður en þú setur upp innbótina skaltu skrá forrit og bæta leyniorði biðlara við Azure Active Directory (Azure AD) undir Azure-áskriftinni þinni. Leiðbeiningar er að finna í [Skrá forrit](/azure/active-directory/develop/quickstart-register-app) og [Bæta við leyniorði biðlara](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Vertu viss um að skrá hjá þér gildin fyrir **Kenni forrits (biðlara)**, **Leyniorð biðlara** og **Kenni leigjanda** því þú þarft á þeim halda síðar.
+
+> [!IMPORTANT]
+> Ef þú ert með fleiri en eitt LCS umhverfi skaltu búa til annað Azure AD umsókn fyrir hvert þeirra. Ef þú notar sama forritskennið og leigjandakennið til að setja upp innbót birgðasýnileika fyrir mismunandi umhverfi mun koma upp vandamál varðandi lykla fyrir eldri umhverfi. Þar af leiðandi mun aðeins síðasta uppsetningin gilda.
 
 Eftir að þú hefur skráð forrit og bætt leyniorði biðlara við Azure AD skaltu fylgja þessum skrefum til að setja upp innbót birgðasýnileika.
 
@@ -72,11 +75,18 @@ Eftir að þú hefur skráð forrit og bætt leyniorði biðlara við Azure AD s
 1. Velja **Setja upp**. Staða innbótar er sýnd sem **Í uppsetningu**. Þegar uppsetningunni er lokið skaltu endurhlaða síðuna. Staðan ætti að breytast í **Uppsett**.
 1. Í Dataverse skal velja hlutann **Forrit** í vinstra yfirlitinu og staðfesta að **Birgðasýnileiki** Power Apps sé uppsettur. Ef hlutinn **Forrit** er ekki til skal hafa samband við afurðateymi birgðasýnileika í [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
-> [!TIP]
-> Við mælum með því að þú skráir þig í Inventory Visibility Add-in notendahópinn, þar sem þú getur fundið gagnlegar leiðbeiningar, fengið nýjustu uppfærslurnar okkar og sent inn allar spurningar sem þú gætir haft um notkun Birgðasýnileika. Til að taka þátt, vinsamlegast sendu tölvupóst til vöruteymisins Birgðasýnileika á [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) og láttu fylgja með auðkenni þitt fyrir framboðsstjórnunarumhverfi.
-
-> [!IMPORTANT]
-> Ef þú ert með fleiri en eitt LCS-umhverfi skaltu búa til annað Azure AD forrit fyrir hvert umhverfi. Ef þú notar sama forritskennið og leigjandakennið til að setja upp innbót birgðasýnileika fyrir mismunandi umhverfi mun koma upp vandamál varðandi lykla fyrir eldri umhverfi. Aðeins það síðasta sem var sett upp verður tekið gilt.
+> [!NOTE]
+> Ef það tekur meira en klukkutíma að setja upp frá LCS síðunni, þá skortir notendareikninginn þinn líklega leyfi til að setja upp lausnir í Dataverse umhverfi. Fylgdu þessum skrefum til að leysa málið:
+>
+> 1. Hætta við uppsetningarferli birgðasýnileikaviðbóta á LCS síðunni.
+> 1. Skráðu þig inn á [Microsoft 365 stjórnendamiðstöð](https://admin.microsoft.com) og vertu viss um að notendareikningurinn sem þú vilt nota til að setja upp viðbótina hafi "Dynamics 365 Unified Operations Plan" leyfi sem henni er úthlutað. Úthlutaðu leyfinu ef þörf krefur.
+> 1. Skráðu þig inn á [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com) með því að nota viðkomandi notandareikning. Settu síðan upp birgðasýnileikaviðbótina með því að gera eftirfarandi skref:
+>     1. Veldu umhverfið þar sem þú vilt setja viðbótina upp.
+>     1. Veldu **Dynamics 365 forrit**.
+>     1. Veldu **Settu upp app**.
+>     1. Veldu **Birgðasýnileiki**
+>
+> 1. Eftir að uppsetningunni er lokið, farðu aftur á LCS síðuna og reyndu aftur að setja upp aftur **Birgðasýnileiki** Bæta við.
 
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Fjarlægja innbót birgðasýnileika
 

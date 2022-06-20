@@ -1,6 +1,6 @@
 ---
 title: Skilgreina færslutengda áfangastaði rafrænnar skýrslugerðar fyrir prentstýringu
-description: Þetta efnisatriði útskýrir hvernig á að skilgreina færslutengdan áfangastað prentstýringar fyrir snið rafrænnar skýrslugerðar sem er skilgreint til að mynda skjöl á útleið.
+description: Þessi grein útskýrir hvernig á að stilla tiltekna áfangastaði fyrir prentstjórnunarfærslur fyrir rafræn skýrslugerð (ER) snið sem er stillt til að búa til skjöl á útleið.
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
-ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
+ms.openlocfilehash: 2972dc6a0b373cbc63b811c01ef7a5538810edbb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "8603055"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872714"
 ---
 # <a name="configure-print-management-record-specific-er-destinations"></a>Skilgreina færslutengda áfangastaði rafrænnar skýrslugerðar fyrir prentstýringu
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig notandi í hlutverki kerfisstjóra eða fulltrúa viðskiptakrafna getur framkvæmt eftirfarandi verk:
+Þessi grein útskýrir hvernig notandi í hlutverki kerfisstjóra eða viðskiptakrafa getur framkvæmt eftirfarandi verkefni:
 
 - Skilgreindu nefnda áfangastaði [Rafrænnar skýrslugerðar](general-electronic-reporting.md) fyrir lausn rafrænnar skýrslugerðar sem myndar reikniga með frjálsum texta.
 - Úthlutaðu áfangastað rafrænnar skýrslugerðar á eina færslu [prentstýringar](document-reporting-services.md).

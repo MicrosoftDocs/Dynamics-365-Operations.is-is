@@ -1,6 +1,6 @@
 ---
 title: Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar
-description: Þetta efnisatriði lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinna verður framkvæmd í vöruhúsinu.
+description: Þessi skrá lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinnu verður framkvæmd í vöruhúsinu.
 author: perlynne
 ms.date: 10/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7e955fba12e963a443c0304f0a8a0e395c46909dd34de12cd51fa9788491786
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 65675d8a99d023176e3e66e92cd3d634750bdb0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770145"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877422"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinna verður framkvæmd í vöruhúsinu.
+Þessi skrá lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinnu verður framkvæmd í vöruhúsinu.
 
 Leiðbeiningar sem starfsmenn vöruhúss fá í farsíma ákvarðast af sniðmáti vinnu sem er sett upp í Microsoft Dynamics 365 Supply Chain Management til að skilgreina hin ýmsu vöruhúsaferli og verkefni. Vinnusniðmát ákvarða vinnuna fyrir hvert vöruhúsaferli. Með því að tengja staðsetningarleiðbeiningar við vinnusniðmát getur hjálpað að tryggja að vinna á sér stað á ákveðnum efnislegum svæðum vöruhúss.
 
@@ -73,7 +73,7 @@ Staðsetningarleiðbeiningar ákvarða *hvar* vörur eru teknar til og *hvar* á
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - Myndskeið: [Ítarleg greining á grunnstillingum vöruhúsastjórnunar](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Hjálparefni: [Vinna með staðsetningarleiðbeiningar](create-location-directive.md)
+- Hjálpargrein: [Vinna með staðsetningarleiðbeiningar](create-location-directive.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

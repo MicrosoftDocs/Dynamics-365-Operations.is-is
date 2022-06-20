@@ -1,6 +1,6 @@
 ---
 title: Gerðir virkra staðsetninga
-description: Þetta efni lýsir hvernig á að stofna gerðir virkra staðsetninga í eignastjórnun.
+description: Þessi grein lýsir því hvernig á að búa til virkar staðsetningargerðir í eignastýringu.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 301dc838ed204ebe488dd167df75fc84131f235f64285c6ae99c62ee1188362c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
-ms.translationtype: MT
+ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879222"
 ---
 # <a name="functional-location-types"></a>Gerðir virkra staðsetninga
 
@@ -28,7 +28,7 @@ ms.locfileid: "6739156"
 
  
 
-Þetta efni lýsir hvernig á að stofna gerðir virkra staðsetninga í eignastjórnun. Gerðir virkra staðsetninga eru notaðar til að stjórna kröfum um virkar staðsetningar, þar með talið hvernig eignir eru settar upp á virkri staðsetningu. Þú getur sett upp eignategundir, viðhaldsáætlanir, eigindi virkrar staðsetninga og eignaeigindakröfur til að nota á virkri staðsetningu sem notar sérstaka gerð virkrar staðsetningar. Þegar þú býrð til virka staðsetningu er gerð virkrar staðsetningar lögboðin.
+Þessi grein lýsir því hvernig á að búa til virkar staðsetningargerðir í eignastýringu. Gerðir virkra staðsetninga eru notaðar til að stjórna kröfum um virkar staðsetningar, þar með talið hvernig eignir eru settar upp á virkri staðsetningu. Þú getur sett upp eignategundir, viðhaldsáætlanir, eigindi virkrar staðsetninga og eignaeigindakröfur til að nota á virkri staðsetningu sem notar sérstaka gerð virkrar staðsetningar. Þegar þú býrð til virka staðsetningu er gerð virkrar staðsetningar lögboðin.
 
 >[!NOTE] 
 >Til að vinna með virkar staðsetningar verður þú að búa til sjálfgefna virka staðsetningu sem eingöngu er notuð í þeim tilgangi að búa til nýjar eignir. Fyrir þá sjálfgefnu virku staðsetningu sem þú notar ættir þú að búa til sjálfgefna gerð virkrar staðsetningar sem er mjög einföld og gerir kleift að setja upp margar eignir á sjálfgefna virka staðsetningu. Sjá [Stofna virkar staðsetningar](../functional-locations/create-functional-locations.md) fyrir frekari upplýsingar um hvernig á að setja upp virkar staðsetningar.

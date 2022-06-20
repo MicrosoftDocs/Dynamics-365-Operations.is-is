@@ -1,6 +1,6 @@
 ---
 title: Hólfaskipting vöruhúss
-description: Þetta efni inniheldur upplýsingar um hólfaskiptingu vöruhúss. Hólfaskipting vöruhúss gerir þér kleift að sameina eftirspurn eftir vöru og mælieiningu frá pöntunum með stöðuna Pöntuð, Frátekin eða Sleppt. Slíkt aðstoðar stjórnendur vöruhúsa að skipuleggja betur tiltektarstaðsetningar áður en þeir sleppa pöntunum til vöruhússins og búa til tiltektarvinnu.
+description: Þessi grein veitir upplýsingar um rifa í vöruhúsum. Hólfaskipting vöruhúss gerir þér kleift að sameina eftirspurn eftir vöru og mælieiningu frá pöntunum með stöðuna Pöntuð, Frátekin eða Sleppt. Slíkt aðstoðar stjórnendur vöruhúsa að skipuleggja betur tiltektarstaðsetningar áður en þeir sleppa pöntunum til vöruhússins og búa til tiltektarvinnu.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e057992b15f0a1fa76a78ef78ea9aeea3c088be9
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a5ce900d7698c7d8211ce1e8b7d529ab79a28915
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676300"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897256"
 ---
 # <a name="warehouse-slotting"></a>Hólfaskipting vöruhúss
 
@@ -156,7 +156,7 @@ Fylgdu þessum skrefum fyrir hvert pöntunarsniðmát sem þú býrð til að b�
 
     - **Mælieiningarlag:** _EaBoxPl_
 
-        Þetta svæði skilgreinir mælieiningar eftirspurnar sem gilda fyrir línuna. (Frekari upplýsingar er að finna í hlutanum [Uppsetning á mælieiningarlögum fyrir hólfaskiptingu](#unit-tiers) fyrr í þessu efnisatriði).
+        Þetta svæði skilgreinir mælieiningar eftirspurnar sem gilda fyrir línuna. (Nánari upplýsingar er að finna í [Settu upp mælieiningarþrep fyrir rifa](#unit-tiers) kafla fyrr í þessari grein.)
 
     - **Skilyrði úthlutunar hólfa:** _Taka mið af magni_
 

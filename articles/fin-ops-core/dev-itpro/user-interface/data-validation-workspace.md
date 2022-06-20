@@ -12,12 +12,12 @@ ms.reviewer: tfehr
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: fef3130f06cbb1d8afdbae93bdc55b47be3480b3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 626b3bbaf88f905bd167ad9eea4683ed1855eb92
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860040"
 ---
 # <a name="data-validation-checklist-workspace"></a>Vinnusvæði gagnaprófunargátlista
 
@@ -26,7 +26,7 @@ ms.locfileid: "8070828"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þetta efni veitir yfirlit yfir **vinnusvæðið Gátlisti gagnavilluleitar** og tengdar skilgreiningar.
+Þessi grein veitir yfirlit yfir **Vinnusvæði gagnastaðfestingar gátlista** og tilheyrandi uppsetningu.
 
 **Vinnusvæði gátlista gagnavilluleitar** gerir kleift að rekja villuleitarferli gagna milli fyrirtækja, svæða og einstaklinga. Hægt er að nota gátlistann við nýja innleiðingu eftir uppfærslu eða eftir yfirfærslu. Samkvæmt yfirliti í vinnusvæðinu **Gátlisti gagnavilluleitar** muntu sjá annaðhvort öll verk og stöður fyrir gagnaprófunarverk eða aðeins þau verkefni sem þér er úthlutað.
 

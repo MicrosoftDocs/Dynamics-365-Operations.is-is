@@ -1,6 +1,6 @@
 ---
 title: Stjórna mælieiningum
-description: Þetta efnisatriði lýsir því hvernig á að skilgreina mælieiningu, veita þýðingar fyrir eininguna og lýsingu hennar, og skilgreina umreikningsreglur fyrir tengdar einingar.
+description: Þessi grein lýsir því hvernig á að skilgreina mælieiningu, veita þýðingar fyrir eininguna og lýsingu hennar og skilgreina umreikningsreglur fyrir tengdar einingar.
 author: t-benebo
 ms.date: 04/09/2021
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e13897396810507bb4b2cbb415b873eb3dd7f4e8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8e2c21756b270ef7d914dc74a0cf61727953206a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565521"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863912"
 ---
 # <a name="manage-units-of-measure"></a>Stjórna mælieiningum
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að skilgreina mælieiningu, veita þýðingar fyrir eininguna og lýsingu hennar, og skilgreina umreikningsreglur fyrir tengdar einingar.
+Þessi grein lýsir því hvernig á að skilgreina mælieiningu, veita þýðingar fyrir eininguna og lýsingu hennar og skilgreina umreikningsreglur fyrir tengdar einingar.
 
 ## <a name="open-the-units-page"></a>Opna síðuna Einingar
 
 Til að búa til og vinna með mælieiningar sem eru í boði í kerfinu skal fara í **Fyrirtækisstjórnun \> Uppsetning \> Einingar \> Einingar**.
 
-Eftirfarandi hlutar þessa efnis lýsa hvað hægt er að gera á síðunni **Einingar**.
+Hlutarnir sem eftir eru í þessari grein lýsa því sem þú getur gert á **Einingar** síðu.
 
 ## <a name="create-standard-units-and-conversions"></a>Búa til staðaleiningar og umreikninga
 

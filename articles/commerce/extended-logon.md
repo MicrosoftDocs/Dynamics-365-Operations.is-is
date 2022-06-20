@@ -1,6 +1,6 @@
 ---
 title: Settu upp og notaðu aukna innskráningargetu
-description: Þetta efnisatriði lýsir því hvernig á að setja upp og nota aukna innskráningargetu Microsoft Dynamics 365 Commerce Umsókn um sölustað (POS).
+description: Þessi grein lýsir því hvernig á að setja upp og nota aukna innskráningargetu Microsoft Dynamics 365 Commerce Umsókn um sölustað (POS).
 author: boycez
 ms.date: 03/18/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d211ecfe1550f6093e1d35e7c2b37c036b50dd4a
-ms.sourcegitcommit: 5aebb181004eb63210503fb566dcda5c55032bee
+ms.openlocfilehash: e27e8d94adccc46559089928b0481442306567ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "8491440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884312"
 ---
 # <a name="set-up-and-use-the-extended-logon-capability"></a>Settu upp og notaðu aukna innskráningargetu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að setja upp og nota aukna innskráningargetu Microsoft Dynamics 365 Commerce Umsókn um sölustað (POS).
+Þessi grein lýsir því hvernig á að setja upp og nota aukna innskráningargetu Microsoft Dynamics 365 Commerce Umsókn um sölustað (POS).
 
 Cloud POS (CPOS) og Modern POS (MPOS) bjóða upp á aukna innskráningarmöguleika sem gerir verslunarmönnum kleift að skrá sig inn á POS forritið með því að skanna strikamerki eða strjúka korti með því að nota segulröndalesara (MSR).
 
@@ -42,9 +42,9 @@ Til að setja upp aukna innskráningu fyrir POS-skrár í smásöluverslun skalt
     - **Innskráning á strikamerki starfsmanna** – Stilltu þennan valkost á **Já** ef þú vilt að starfsmenn þínir skrái sig inn á POS með því að skanna strikamerki. 
     - **Innskráning á strikamerki starfsmanna krefst lykilorðs** – Stilltu þennan valkost á **Já** ef þú vilt að starfsmenn þínir slái inn lykilorð þegar þeir skrá sig inn á POS með því að skanna strikamerki.
     - **Innskráning starfsmannakorta** – Stilltu þennan valkost á **Já** ef þú vilt að starfsmenn þínir skrái sig inn á POS með því að strjúka korti.
-    - **Innskráning starfsmannakorts krefst lykilorðs** – Stilltu þennan valkost á **Já** ef þú vilt að starfsmenn þínir slái inn lykilorð þegar þeir skrá sig inn á POS með því að strjúka korti.
+    - **Innskráning starfsmannakorta krefst lykilorðs** – Stilltu þennan valkost á **Já** ef þú vilt að starfsmenn þínir slái inn lykilorð þegar þeir skrá sig inn á POS með því að strjúka korti.
 
-Strikamerki eða kort er tengt skilríkjum sem hægt er að úthluta starfsmanni. Skilríkin verða að hafa að minnsta kosti sex stafi. Strenginn sem inniheldur fyrstu fimm stafina verður að vera einstakur og telst vera *persónuskilríki* sem er notað til að fletta upp starfsmanni. Stafir sem eftir eru eru notaðir til öryggisstaðfestingar. Til dæmis ertu með tvö kort, annað þeirra hefur skilríkin 12345DGYDEYTDW og annað þeirra hefur skilríkin 12345EWUTBDAJH. Vegna þess að þessi tvö kort hafa sama auðkenni, 12345, er ekki hægt að úthluta þeim báðum til starfsmanna.
+Strikamerki eða kort er tengt skilríkjum sem hægt er að úthluta starfsmanni. Skilríkin verða að hafa að minnsta kosti sex stafi. Strenginn sem inniheldur fyrstu fimm stafina verður að vera einstakur og telst vera *persónuskilríki* sem er notað til að fletta upp starfsmanni. Stafir sem eftir eru eru notaðir til öryggisstaðfestingar. Til dæmis ertu með tvö spil, annað þeirra hefur skilríkin 12345DGYDEYTDW og annað þeirra hefur skilríkin 12345EWUTBDAJH. Vegna þess að þessi tvö kort hafa sama auðkenni, 12345, er ekki hægt að úthluta þeim báðum til starfsmanna.
 
 ## <a name="assign-extended-logon"></a>Úthlutaðu aukinni innskráningu
 

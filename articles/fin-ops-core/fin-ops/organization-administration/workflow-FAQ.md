@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um verkflæði
-description: Þetta efnisatriði svarar algengum spurningum um verkflæðiskerfið.
+description: Þessi grein svarar algengum spurningum um verkflæðiskerfið.
 author: ChrisGarty
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e9e2000684081035f35ea55e1c773a4f6976d74
-ms.sourcegitcommit: 967b93bb42413b5b38b817f924015468312a93a0
+ms.openlocfilehash: a72fd141bb1178a3a83385c512d1a655064d5b00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896580"
 ---
 # <a name="workflow-faq"></a>Algengar spurningar um verkflæði
 
@@ -26,7 +26,7 @@ ms.locfileid: "8370881"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þetta efnisatriði svarar algengum spurningum um verkflæðiskerfið.
+Þessi grein svarar algengum spurningum um verkflæðiskerfið.
 
 ## <a name="why-are-multiple-notifications-received-when-a-work-item-is-rejected"></a>Hvers vegna koma margar tilkynningar þegar vinnulið er hafnað?
 Þegar vinnulið er hafnað er honum lokið sem höfnuðum. Annar vinnuliður er stofnaður og honum er úthlutað á upphaflegan aðila. Þetta þýðir að tilkynning er send á upphaflegan aðila vegna hafnaðs vinnuliðar og aðskilin tilkynning send á notandann sem fær úthlutaðan nýja vinnuliðinn „beiðni um breytingu“. 

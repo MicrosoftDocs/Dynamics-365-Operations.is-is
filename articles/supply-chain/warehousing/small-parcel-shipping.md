@@ -1,6 +1,6 @@
 ---
 title: Sending lítilla pakka
-description: Í þessu efnisatriði er að finna upplýsingar um eiginleika lítilla pakkasendinga (SPS). Þessi eiginleiki gerir Microsoft Dynamics 365 Supply Chain Management kleift að senda inn upplýsingar um pakkaða gáma til flutningsaðila og fá síðan merkimiða, flutningstaxta og rakningarnúmer aftur frá flutningsaðila.
+description: Þessi grein veitir upplýsingar um smápakkaflutninga (SPS) eiginleikann. Þessi eiginleiki gerir Microsoft Dynamics 365 Supply Chain Management kleift að senda inn upplýsingar um pakkaða gáma til flutningsaðila og fá síðan merkimiða, flutningstaxta og rakningarnúmer aftur frá flutningsaðila.
 author: Mirzaab
 ms.date: 01/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e8e2bda39b9de241d17fcf3cb9acce2b8015efd2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7bafd4a5118de5ca6025c6bd74fe436aa6abd1c8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687617"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855904"
 ---
 # <a name="small-parcel-shipping"></a>Sending lítilla pakka
 
@@ -54,7 +54,7 @@ Fylgið þessum skrefum til að fá sýniútgáfu af taxtavél.
 
 #### <a name="create-and-deploy-functional-rate-engines"></a>Stofna og nota virkar taxtavélar
 
-Upplýsingar um hvernig á að stofna og setja upp virkar taxtavélar þannig að hægt sé að nota þær í framleiðslu- eða prófunarumhverfi er að finna í eftirfarandi efnisatriðum:
+Sjá eftirfarandi greinar til að fá upplýsingar um hvernig á að búa til og dreifa hagnýtum hraðavélum þannig að hægt sé að nota þær í framleiðslu- eða prófunarumhverfi:
 
 - [Stofna nýja flutningsstjórnunarvél](../transportation/create-new-transportation-management-engine.md)
 - [Setja upp flutningsstjórnunarvélar](/dynamicsax-2012/appuser-itpro/set-up-transportation-management-engines)
@@ -77,7 +77,7 @@ Frekari upplýsingar um hvernig á að búa til SPS-taxtavél er að finna í ef
 
 ## <a name="example-scenario"></a>Dæmi
 
-Þetta dæmi sýnir hvernig á að setja upp og nota SPS eftir að búið er að undirbúa kerfið eins og lýst var hér á undan. Þessar aðstæður nota áðurnefnda sýniútgáfu taxtavélar.
+Þetta dæmi sýnir hvernig á að setja upp og nota SPS eftir að þú hefur undirbúið kerfið eins og lýst er fyrr í þessari grein. Þessar aðstæður nota áðurnefnda sýniútgáfu taxtavélar.
 
 ### <a name="make-demo-data-available"></a>Bjóða upp á sýnigögn
 
@@ -147,7 +147,7 @@ Fylgið þessum skrefum til að setja upp reikning flutningsþjónustu.
 
 Fylgið þessum skrefum til að setja upp pökkunarreglur gáms.
 
-1. Ef ekki hefur þegar verið sett upp skilgreining ZPL-prentara skal nota forritið Document Routing Agent til að setja hana upp. Frekari upplýsingar er að finna í [Yfirlit skjalaprentunar](../../fin-ops-core/dev-itpro/analytics/print-documents.md) og tengdum efnisatriðum.
+1. Ef ekki hefur þegar verið sett upp skilgreining ZPL-prentara skal nota forritið Document Routing Agent til að setja hana upp. Fyrir frekari upplýsingar, sjá [Yfirlit yfir prentun skjala](../../fin-ops-core/dev-itpro/analytics/print-documents.md) og tengdar greinar.
 1. Fara í **Vöruhúsakerfi \> Uppsetning \> Gámar \> Pökkunarreglur gáms**.
 1. Á aðgerðasvæðinu skal velja **Ný** til að bæta við pökkkunarreglu gáms.
 1. Í haus nýju reglunnar skal stilla eftirfarandi gildi:

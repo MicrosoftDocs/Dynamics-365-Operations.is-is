@@ -1,6 +1,6 @@
 ---
 title: Verkbeiðnir stofnaðar
-description: Þetta efni útskýrir hvernig á að stofna verkbeiðnir í eignastýringu.
+description: Þessi grein útskýrir hvernig á að stofna vinnupantanir í eignastýringu.
 author: johanhoffmann
 ms.date: 02/01/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1477e3c1b99172d84d2cdc64fc0ed01c057e0fa59422b30c17868ca400de4d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1b8b3d8d83bdad2efe49bd4e878793cca6c49f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743699"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891206"
 ---
 # <a name="creating-work-orders"></a>Verkbeiðnir stofnaðar
 
@@ -60,7 +60,7 @@ Til að stofna verkbeiðnir sem byggja á viðhaldsáætluninni skal fylgja þes
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Flokka verkbeiðnilínur sem eru sjálfkrafa stofnaðar meðan á viðhaldsáætlun stendur
 
-Þessi eiginleiki gerir kleift að skilgreina reglur fyrir flokkun verkbeiðnilína undir einni verkbeiðni þegar kerfið er stillt á að búa sjálfkrafa til verkbeiðnir sem byggja á viðhaldsáætlun. Áður gátu sjálfkrafa myndaðar verkbeiðnir aðeins innihaldið eina línu. Nú er hins vegar hægt að flokka verkbeiðnir eftir til dæmis eign, eignagerð eða virkri staðsetningu. (Handvirkt myndaðar verkbeiðnir var aðeins hægt að flokka á þennan hátt eins og lýst er í hlutanum hér á undan í þessu efnisatriði.)
+Þessi eiginleiki gerir kleift að skilgreina reglur fyrir flokkun verkbeiðnilína undir einni verkbeiðni þegar kerfið er stillt á að búa sjálfkrafa til verkbeiðnir sem byggja á viðhaldsáætlun. Áður gátu sjálfkrafa myndaðar verkbeiðnir aðeins innihaldið eina línu. Nú er hins vegar hægt að flokka verkbeiðnir eftir til dæmis eign, eignagerð eða virkri staðsetningu. (Handvirkt útbúnar verkbeiðnir gætu nú þegar verið flokkaðar á þennan hátt, eins og lýst er í fyrri hluta þessarar greinar.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Virkja flokkun fyrir sjálfkrafa myndaðar verkbeiðnir
 

@@ -1,6 +1,6 @@
 ---
 title: Skilgreina afurðarsíur fyrir vöruhúsakerfifærslur
-description: Þetta efnisatriði lýsir því hvernig skilgreina afurðarsíur og síukóða til að flokka birgðavara í vöruhúsi. Einnig er hægt að nota síur til að tilgreina hvaða viðskiptavinir geta pantað tiltekna vöru og tilgreina hvaða vörur er hægt að kaupa frá tilteknum lánardrottni.
+description: Þessi grein lýsir því hvernig á að stilla vörusíur og síunarkóða til að flokka birgðavörur í vöruhúsi. Einnig er hægt að nota síur til að tilgreina hvaða viðskiptavinir geta pantað tiltekna vöru og tilgreina hvaða vörur er hægt að kaupa frá tilteknum lánardrottni.
 author: Mirzaab
 ms.date: 01/04/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 021ce940a4ea6d59719d1c6bc79532832cc2f3ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567680"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850439"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Skilgreina afurðarsíur fyrir vöruhúsakerfifærslur
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig skilgreina afurðarsíur og síukóða til að flokka birgðavara í vöruhúsi. Einnig er hægt að nota síur til að tilgreina hvaða viðskiptavinir geta pantað tiltekna vöru og tilgreina hvaða vörur hægt er að kaupa frá tilteknum lánardrottni.
+Þessi grein lýsir því hvernig á að stilla vörusíur og síunarkóða til að flokka birgðavörur í vöruhúsi. Einnig er hægt að nota síur til að tilgreina hvaða viðskiptavinir geta pantað tiltekna vöru og tilgreina hvaða vörur hægt er að kaupa frá tilteknum lánardrottni.
 
 Þar að auki er hægt að setja upp og nota afurðarsíur til að skipuleggja birgðavöru í vöruhúsi og sameina síaða vörur í síuflokka. Hægt er að nota síur til að setja vörur í flokka fyrir meðhöndlun, innkaup og söluferli. Hægt er að flokka vörur saman eða aðgreina þær hver frá annarri þegar þær eru meðhöndlaðar samkvæmt þyngdar- eða afgreiðslutakmörkunum. Einnig er hægt að tilgreina hvaða viðskiptavini eða lánardrottnum er hægt að kaupa vöru frá eða selja til.
 
@@ -48,7 +48,7 @@ Afurðarsíur bjóða upp á allt að 10 **Síuheiti**, sem eru fasttextagildi (
 
     ![Uppsetning afurðarsíu.](media/Product_Filters10.png "Uppsetning afurðarsíu")
 
-1. Í reitnum **Lýsing** er fært inn heiti fyrir kóðann. Til dæmis gæti *Kóði 2* táknað lánardrottna. Síðan er hægt að stofna afurðassíu fyrir tiltekinn lánardrottin eða hóp lánardrottna. Nánari upplýsingar eru í hlutanum [Setja upp síukóða lánardrottins](#vendor-product-filters) seinna í þessu efnisatriði.
+1. Í reitnum **Lýsing** er fært inn heiti fyrir kóðann. Til dæmis gæti *Kóði 2* táknað lánardrottna. Síðan er hægt að stofna afurðassíu fyrir tiltekinn lánardrottin eða hóp lánardrottna. Fyrir frekari upplýsingar, sjá [Settu upp síukóða söluaðila](#vendor-product-filters) kafla síðar í þessari grein.
 
     ![Safn afurðarsía.](media/Product_Filters.png "Sett afurðarsía")
 

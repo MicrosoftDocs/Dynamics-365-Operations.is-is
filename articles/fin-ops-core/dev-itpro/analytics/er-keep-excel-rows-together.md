@@ -1,6 +1,6 @@
 ---
 title: Hanna ER-snið til að halda línum saman á sömu Excel-síðu
-description: Þetta efni útskýrir hvernig á að hanna rafræn skýrslugerð (ER) snið sem heldur línum saman á sama hátt Microsoft Excel síðu.
+description: Þessi grein útskýrir hvernig á að hanna rafræna skýrslugerð (ER) sem heldur línum saman á sama stað Microsoft Excel síðu.
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: 98e6dd4f926908f65239f3e4f3608f9c9408f9d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854670"
 ---
 # <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Hanna ER-snið til að halda línum saman á sömu Excel-síðu
 
 [!include [banner](../includes/banner.md)]
 
 
-Þetta efnisatriði útskýrir hvernig notandi í hlutverki kerfisstjóra eða rafrænnar skýrslugerðar ráðgjafa getur stillt [Rafræn skýrslugerð (ER)](general-electronic-reporting.md)[sniði](er-overview-components.md#format-component) sem býr til skjöl á útleið inn Microsoft Excel og stjórna blaðsíðuflokkun skjala þannig að raðir sem eru búnar til haldist á sömu síðu.
+Þessi grein útskýrir hvernig notandi í hlutverki kerfisstjóra eða rafrænnar skýrslugerðar virkur ráðgjafi getur stillt [Rafræn skýrslugerð (ER)](general-electronic-reporting.md)[sniði](er-overview-components.md#format-component) sem býr til skjöl á útleið inn Microsoft Excel og stjórna blaðsíðuflokkun skjala þannig að raðir sem eru búnar til haldist á sömu síðu.
 
 Í þessu dæmi muntu breyta ER-sniði frá Microsoft sem er notað til að prenta ókeypis textareikninga í Excel. Breytingarnar þínar munu gera þér kleift að stjórna blaðsíðuskipun á myndaðri reikningsskýrslu með frjálsum texta þannig að allar línur í einni reikningslínu haldist á sömu síðu þegar mögulegt er.
 
-Hægt er að ljúka ferlunum í þessu efnisatriði í fyrirtækinu **USMF**. Ekki er þörf á neinni kóðun.
+Verklagsreglurnar í þessari grein er hægt að ljúka í **USMF** fyrirtæki. Ekki er þörf á neinni kóðun.
 
-Í þessu dæmi muntu búa til nauðsynlega ER [stillingar](general-electronic-reporting.md#Configuration) fyrir **Litware, Inc.** sýnishorn fyrirtæki. Gakktu úr skugga um að stillingarveitan fyrir **Litware, Inc.** (`http://www.litware.com`) sýnishornsfyrirtæki er skráð fyrir ER ramma og að það sé merkt sem **Virkur**. Ef þessi stillingarveita er ekki á listanum eða ef hún er ekki merkt sem **Virkur**, fylgdu skrefunum í [Búðu til stillingarveitu og merktu hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Í þessu dæmi muntu búa til nauðsynlega ER [stillingar](general-electronic-reporting.md#Configuration) fyrir **Litware, Inc.** sýnishorn fyrirtæki. Gakktu úr skugga um að stillingarveitan fyrir **Litware, Inc.** (`http://www.litware.com`) sýnishornsfyrirtæki er skráð fyrir ER ramma og að það sé merkt sem **Virkur**. Ef þessi stillingarveita er ekki á listanum eða ef hún er ekki merkt sem **Virkur**, fylgdu skrefunum í [Búðu til stillingarveitu og merktu hana sem virkan](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="enter-a-new-free-text-invoice"></a>Sláðu inn nýjan ókeypis textareikning
 
@@ -69,11 +69,11 @@ Fylgdu skrefunum í [Stilltu áfangastað fyrir snið fyrir forskoðun á skján
 1. Fylgdu skrefunum í [Prentaðu ókeypis textareikning](er-embed-images-header-footer-excel-reports.md#ProcessInvoice1) að nota staðlað ER snið til að búa til reikningsskýrslu með frjálsum texta á Excel sniði fyrir reikninginn sem bætt er við.
 2. Sæktu útbúna Excel vinnubókina og skoðaðu hana í Excel skjáborðsforritinu.
 
-    Taktu eftir að sjötta lína reikningsins byrjar á fyrstu síðu skýrslunnar og heldur áfram á annarri síðu. Síðasta athugasemdin birtist á annarri síðu og það er ekki augljóst að hún tilheyri sjöttu reikningslínunni. Þess vegna gerir síðuskil í miðju innihaldi reikningslínunnar erfiðara að lesa þetta skjal.
+    Taktu eftir að sjötta lína reikningsins byrjar á fyrstu síðu skýrslunnar og heldur áfram á annarri síðu. Síðasta athugasemdin birtist á annarri síðu og það er ekki augljóst að hún tilheyri sjöttu reikningslínunni. Þess vegna gerir síðuskil í miðju innihaldi reikningslínunnar þetta skjal erfiðara að lesa.
 
     ![Farið yfir blaðsíðuskiptingu myndaðs ókeypis textareiknings í Excel skjáborðsforritinu.](./media/er-keep-excel-rows-together-invoice1.gif)
 
-Aðferðirnar sem eftir eru í þessu efni sýna hvernig hægt er að stilla staðlaða ER sniðið til að bæta útlit og læsileika reikningsskýrslunnar með því að halda öllu innihaldi einni reikningslínu á sömu síðu.
+Aðferðirnar sem eftir eru í þessari grein sýna hvernig hægt er að stilla staðlaða ER sniðið til að bæta útlit og læsileika reikningsskýrslunnar með því að halda öllu innihaldi einni reikningslínu á sömu síðu.
 
 ## <a name="create-a-custom-format"></a>Búa til sérsniðið snið
 

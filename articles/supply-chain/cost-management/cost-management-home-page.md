@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0c5d7e8f9561ba81e0be93220df9afcd493179f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e9ba69f637087298bf6a93dbb049d78dff739aaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672487"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891148"
 ---
 # <a name="cost-management-home-page"></a>Heimasíða kostnaðarstjórnunar
 
@@ -53,7 +53,7 @@ Bókhald framleiðslu leyfir notanda að sjá um [Kostnaðaraðferð vinnupöntu
 
 #### <a name="white-paper"></a>Hvítbók
 
-[Útreikningur uppskriftar með notkun kostnaðarskjals](https://www.microsoft.com/download/details.aspx?id=101937) lýsir því hvernig á að setja upp kostnaðarskjal sem nær yfir efni og framleiðslu og hvernig uppsetningin hefur áhrif á niðurstöður útreiknings á uppskrift. Til að útskýra betur efnisatriðin þá útvegar hann heildstæð dæmi og gögn sem sýna fram á áhrif hinna ýmsu stillinga og skilgreininga.
+[Útreikningur uppskriftar með notkun kostnaðarskjals](https://www.microsoft.com/download/details.aspx?id=101937) lýsir því hvernig á að setja upp kostnaðarskjal sem nær yfir efni og framleiðslu og hvernig uppsetningin hefur áhrif á niðurstöður útreiknings á uppskrift. Til að útskýra greinarnar betur veitir hún áþreifanleg atburðarás og gögn sem sýna fram á áhrif hinna ýmsu stillinga og stillinga.
 
 #### <a name="blogs"></a>Blogg
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893121"
 ---
 # <a name="zone-threshold-replenishment"></a>Áfyllingarmörk svæðis
 
@@ -45,7 +45,7 @@ Líkt og lágm./hám. áfyllingar sem miðast við staðsetningar, miðast lágm
 
 ## <a name="set-up-zone-based-replenishment"></a><a name="setup"></a>Uppsetning á áfyllingu miðað við svæði
 
-Til að setja upp áfyllingu miðað við svæði verður þú að grunnstilla nokkra hluta kerfisins. Þessi hluti kynnir ýmsar stillingar og gildi sýnigagna sem þú getur slegið inn ef þú vilt vinna í gegnum aðstæðurnar í lok þessa efnisatriðis.
+Til að setja upp áfyllingu miðað við svæði verður þú að grunnstilla nokkra hluta kerfisins. Þessi hluti kynnir hinar ýmsu stillingar og veitir kynningargagnagildi sem þú getur slegið inn ef þú vilt vinna í gegnum atburðarásina í lok þessarar greinar.
 
 ### <a name="set-up-directive-codes"></a>Setja upp leiðbeiningarkóða
 
@@ -57,7 +57,7 @@ Opnaðu **Vöruhúsakerfi \> Uppsetning \> Leiðbeiningarkóðar** til að skoð
 
 #### <a name="prepare-demo-data-directive-codes"></a>Búa til leiðbeiningarkóða sýnigagna
 
-Þetta dæmi sýnir hvernig á að búa til leiðbeiningarkóða. Ef þú ætlar að vinna í gegnum aðstæðurnar í lok þessa efnisatriðis getur þú notað sýnigögnin sem koma fram hér. Annars skaltu nota þín eigin gildi.
+Þetta dæmi sýnir hvernig á að búa til leiðbeiningarkóða. Ef þú ætlar að vinna í gegnum atburðarásina í lok þessarar greinar, notaðu kynningargagnagildin sem eru gefin upp hér. Annars skaltu nota þín eigin gildi.
 
 1. Veldu **USMF**-lögaðilann til að vinna með sýnigögnin.
 1. Opnaðu **Vöruhúsakerfi \> Uppsetning \> Leiðbeiningarkóðar**.
@@ -79,7 +79,7 @@ Opnaðu **Vöruhúsakerfi \> Uppsetning \> Leiðbeiningarkóðar** til að skoð
 
 #### <a name="prepare-a-demo-data-replenishment-template"></a>Undirbúningur áfyllingarsniðmáts með sýnigögnum
 
-Þetta dæmi sýnir hvernig á að undirbúa áfyllingarsniðmát. Ef þú ætlar að vinna í gegnum aðstæðurnar í lok þessa efnisatriðis getur þú notað sýnigögnin sem koma fram hér. Annars skaltu nota þín eigin gildi.
+Þetta dæmi sýnir hvernig á að undirbúa áfyllingarsniðmát. Ef þú ætlar að vinna í gegnum atburðarásina í lok þessarar greinar, notaðu kynningargagnagildin sem eru gefin upp hér. Annars skaltu nota þín eigin gildi.
 
 1. Veldu **USMF**-lögaðilann til að vinna með sýnigögnin.
 1. Fara í **Vöruhúsakerfi \> Uppsetningu \> Áfylling \> Áfyllingarsniðmát**.
@@ -144,7 +144,7 @@ Fyrir dæmi sem sýna hvernig nota á stillingarnar til að búa til áskildar l
 
 #### <a name="prepare-demo-data-location-directives"></a>Undirbúningur staðsetningarleiðbeininga úr sýnigögnum
 
-Til að útbúa sýnigögn svo hægt sé að nota þau við aðstæðurnar í lok þessa efnisatriðis, verður þú að búa til tvær staðsetningarleiðbeiningar: eina fyrir tiltekt og eina fyrir frágang.
+Til að undirbúa kynningargögn þannig að hægt sé að nota þau í atburðarásinni í lok þessarar greinar verður þú að búa til tvær staðsetningartilskipanir: eina fyrir val og eina fyrir setja.
 
 ##### <a name="create-a-replenishment-pick-directive"></a>Búa til leiðbeiningar um tiltekt áfyllingar
 
@@ -258,7 +258,7 @@ Til að útbúa sýnigögn svo hægt sé að nota þau við aðstæðurnar í lo
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-sample-scenario"></a>Undirbúið áskilin sýnigögn fyrir sýniaðstæðurnar
 
-Áður en byrjað er að vinna í gegnum aðstæðurnar verður þú að virkja sýnigögn og setja upp eiginleikann eins og lýst er í þessum kafla og fyrri köflum í þessu efnisatriði.
+Áður en þú byrjar að vinna í gegnum atburðarásina verður þú að virkja sýnishornsgögn og setja upp eiginleikann eins og lýst er í þessum hluta og í fyrri köflum þessarar greinar.
 
 #### <a name="use-the-usmf-legal-entity"></a>Nota USMF-lögaðilann
 
@@ -266,7 +266,7 @@ Til að vinna í gegnum aðstæðurnar með því að nota sýnskrárnar og sýn
 
 #### <a name="prepare-additional-sample-data"></a>Undirbúningur viðbótarsýnigagna
 
-Eftir að þú hefur valið **USMF**-lögaðilann skaltu bæta við viðbótarsýnigögnum sem krafist er, eins og lýst er í hlutanum [Uppsetning á áfyllingu miðað við svæði](#setup) fyrr í þessu efnisatriði.
+Eftir að þú hefur valið **USMF** lögaðila, bæta við viðbótargögnum úrtaksins sem krafist er, eins og lýst er í [Settu upp svæðisbundna áfyllingu](#setup) kafla fyrr í þessari grein.
 
 #### <a name="check-your-on-hand-inventory"></a>Athuga lagerbirgðir
 

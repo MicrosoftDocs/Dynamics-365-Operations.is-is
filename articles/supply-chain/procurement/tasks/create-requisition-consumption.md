@@ -1,6 +1,6 @@
 ---
 title: Stofna beiðni um notkun
-description: Þetta efnisatriði lýsir ferlinu við stofnun beiðni.
+description: Þessi grein lýsir ferlinu við að búa til beiðni.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5881e8a415ad37ff4bdb61b1043901c0b87ef743
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b4fc4a9f0dbd5c413300d27640512df69df30122
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671124"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888471"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Stofna beiðni um notkun
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði lýsir ferlinu við stofnun beiðni. Hún sýnir mismunandi leiðir til að leita að afurðum í innkaupavörulistanum og hvernig á að bæta við afurð sem er ekki í vörulistanum þínum. Áður en þetta ferli er hafið, verður að hafa innkaupastefna uppsetta með Notkun sem sjálfgefna gerð beiðni. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Ferlið getur aðeins verið framkvæmt af forstillingu notanda sem þegar er sett upp sem starfsmaður. Þetta verk myndi venjulega framkvæmt af starfsmanni. Öryggishlutverk **Starfsmanns** gerir þér kleift að framkvæma þau verk, eða ef verið er að nota USMF er hægt að skrá sig inn sem **Alicia**.
+Þessi grein lýsir ferlinu við að búa til beiðni. Hún sýnir mismunandi leiðir til að leita að afurðum í innkaupavörulistanum og hvernig á að bæta við afurð sem er ekki í vörulistanum þínum. Áður en þetta ferli er hafið, verður að hafa innkaupastefna uppsetta með Notkun sem sjálfgefna gerð beiðni. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Ferlið getur aðeins verið framkvæmt af forstillingu notanda sem þegar er sett upp sem starfsmaður. Þetta verk myndi venjulega framkvæmt af starfsmanni. Öryggishlutverk **Starfsmanns** gerir þér kleift að framkvæma þau verk, eða ef verið er að nota USMF er hægt að skrá sig inn sem **Alicia**.
 
 
 ## <a name="create-a-new-requisition"></a>Stofna nýja innkaupabeiðni

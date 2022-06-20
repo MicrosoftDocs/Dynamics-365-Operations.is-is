@@ -1,6 +1,6 @@
 ---
 title: Hjálparkerfi (inniheldur myndband)
-description: Þetta efni veitir yfirlit yfir hjálparkerfið fyrir Finance and Operations forrit.
+description: Þessi grein veitir yfirlit yfir hjálparkerfið fyrir Finance and Operations forrit.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070502"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898370"
 ---
 # <a name="help-system"></a>Hjálparkerfi
 
@@ -70,7 +70,7 @@ Einnig er hægt að gerast áskrifandi að RSS-straumi með forriti:
 
 ### <a name="leave-us-feedback"></a>Skildu eftir ábendingu
 
-Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu láta okkur vita neðst á síðunni.
+Ef þú hefur athugasemdir eða spurningar um grein, skildu eftir athugasemd neðst á síðunni.
 
 1. Veljið **Athugasemdir** til að sjá athugasemdir neðst á síðunni. Síðan skaltu velja **Framleiðslusvörun** eða **Skrá þig inn til að skrifa athugasemdir við fylgiskjöl**.
 
@@ -83,7 +83,7 @@ Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu lá
 
 ## <a name="contribute-to-the-documentation"></a>Veita framlag til fylgigagna
 
-Þú getur lagt fram og gert breytingar á fylgiskjölum. Til að hefjast handa skal velja hnappinn **Breyta** (blýantstáknið) á efnisatriði. Eftirfarandi myndband sýnir hvernig þú veitt framlag til fylgigagna okkar.
+Þú getur lagt fram og gert breytingar á fylgiskjölum. Til að byrja skaltu velja **Breyta** hnappur (blýantartákn) á grein. Eftirfarandi myndband sýnir hvernig þú veitt framlag til fylgigagna okkar.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
@@ -98,7 +98,7 @@ Frekari upplýsingar er að finna á [Leiðbeiningar fyrir Docs-þátttakanda](/
 
 Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirka reynslu sem fer með þig í gegnum þrep í verki eða viðskiptaferli. Hægt er að opna (spila) verkefnaleiðbeiningar úr **Hjálp** rúðunni. Þegar er verkefnaleiðbeiningar eru valdar í fyrsta skipti mun **hjálparsvæði** sýna nákvæmar leiðbeiningar fyrir verkið. Staðfærðar verkleiðbeiningar eru í boði.
 
-Microsoft gaf út verkleiðbeiningar fyrir afurðarútgáfur í desemberútgáfu 2017 Dynamics 365 for Finance and Operations. Hlutinn [Fara í verkefnaleiðbeiningar úr hjálparsvæði](#accessing-task-guides-from-the-help-pane) í þessu efnisatriði lýsir því hvernig á að finna réttar verkefnaleiðbeiningar fyrir vöruna þína.
+Microsoft gaf út verkleiðbeiningar fyrir afurðarútgáfur í desemberútgáfu 2017 Dynamics 365 for Finance and Operations. The [Aðgangur að verkefnaleiðbeiningum frá hjálparrúðunni](#accessing-task-guides-from-the-help-pane) hluti þessarar greinar útskýrir hvernig á að finna réttar verkefnaleiðbeiningar fyrir vöruna þína.
 
 ![Lesgluggi verkefnaleiðbeininga.](./media/task-guide-ops.png)
 
@@ -121,7 +121,7 @@ Velja skal hnappinn **Hjálp** (**?**) og síðan velja **Hjálp**. Einnig er h�
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Opna hjálparefni af hjálparsvæðinu
 
-Á **hjálparsvæðinu** er hægt að opna efnisatriði sem eiga við biðlarann. Þegar þú opnar **Hjálp** svæðinu fyrstu sýnir flipinn **Hjálp** þér þær greinar sem eiga við um síðuna sem þú ert á. Ef engin efnisatriði finnast er hægt að færa inn leitarorð til þess að fínstilla leitina. Þegar efni er valið á svæðinu **Hjálp** opnast það á nýjum flipa í vafranum.
+Á **hjálparsvæðinu** er hægt að opna efnisatriði sem eiga við biðlarann. Þegar þú opnar **Hjálp** svæðinu fyrstu sýnir flipinn **Hjálp** þér þær greinar sem eiga við um síðuna sem þú ert á. Ef engin efnisatriði finnast er hægt að færa inn leitarorð til þess að fínstilla leitina. Þegar þú velur grein í **Hjálp** glugganum, það er opnað á nýjum flipa í vafranum þínum.
 
 > [!IMPORTANT]
 > Þessi hluti gildir ekki um Dynamics 365 Human Resources. Hjálparkerfið fyrir mannauðskerfið er sjálfkrafa tengt við verkleiðbeiningar fyrir afurðina. Einnig er ekki hægt að stofna sérsniðnar verkleiðbeiningar fyrir mannauðsstjóra.

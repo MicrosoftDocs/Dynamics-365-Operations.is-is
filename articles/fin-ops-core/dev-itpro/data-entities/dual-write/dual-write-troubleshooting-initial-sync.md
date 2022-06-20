@@ -1,6 +1,6 @@
 ---
 title: Úrræðaleit vandamála við fyrstu samstillingu
-description: Þetta efni veitir bilanaleit sem getur hjálpað þér að laga vandamál sem kunna að koma upp við upphaflega samstillingu.
+description: Þessi grein veitir upplýsingar um úrræðaleit sem geta hjálpað þér að laga vandamál sem gætu komið upp við fyrstu samstillingu.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 030e565ffff561f6c1efbdd0de9928f70c7c46c0
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: bb3db4c651aaac521974d92753be5a8219bfe1ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892358"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Úrræðaleit vandamála við fyrstu samstillingu
 
@@ -22,10 +22,10 @@ ms.locfileid: "8063059"
 
 
 
-Þetta efnisatriði veitir upplýsingar um bilanaleit fyrir tvískrifað samþættingu milli Finance and Operations forrita og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem kunna að koma upp við upphaflega samstillingu.
+Þessi grein veitir upplýsingar um bilanaleit fyrir tvískrifa samþættingu milli Finance and Operations forrita og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem kunna að koma upp við upphaflega samstillingu.
 
 > [!IMPORTANT]
-> Nokkur þeirra atriða sem þetta efni fjallar um geta krafist annað hvort kerfisstjórans eða Microsoft Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
+> Sum vandamálin sem þessi grein fjallar um gætu þurft annað hvort kerfisstjórahlutverkið eða Microsoft Azure Active Directory (Azure AD) leigjanda stjórnanda skilríki. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
 
 ## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Athugaðu hvort fyrstu samstillingarvillur séu í Finance and Operations app
 
@@ -185,7 +185,7 @@ Ef einhverjar línur í töflu viðskiptavinar eru með gildi í dálkunum **Con
 6. Keyrið aftur upphaflega samstillingu fyrir vörpunina **Viðskiptavinir V3 (Lyklar)**. Vegna þess að slökkt er á breytingarakningu eru gögnin fyrir **InvoiceAccount** og **ContactPersonId** verður samstillt úr Finance and Operations appinu til Dataverse.
 7. Til að samstilla gögnin fyrir **InvoiceAccount** og **ContactPersonId** frá Dataverse í Finance and Operations appið verður þú að nota gagnasamþættingarverkefni.
 
-    1. Í Power Apps, búa til gagnasamþættingarverkefni á milli **Sölureikningur** og **Fjármála- og rekstrarforrit. Viðskiptavinir V3** borðum. Gagnaáttin verður að vera frá Dataverse í Finance and Operations appið. Þar sem **InvoiceAccount** er ný eigind í tvöföldum skrifum gætirðu viljað sleppa upphaflegri samstillingu fyrir hana. Nánari upplýsingar er að finna í [Sameina gögn í Dataverse](/power-platform/admin/data-integrator).
+    1. Í Power Apps, búa til gagnasamþættingarverkefni milli **Sölureikningur** og **Fjármála- og rekstrarforrit. Viðskiptavinir V3** borðum. Gagnaáttin verður að vera frá Dataverse í Finance and Operations appið. Þar sem **InvoiceAccount** er ný eigind í tvöföldum skrifum gætirðu viljað sleppa upphaflegri samstillingu fyrir hana. Nánari upplýsingar er að finna í [Sameina gögn í Dataverse](/power-platform/admin/data-integrator).
 
         Eftirfarandi skýringarmynd sýnir verk sem uppfærir **CustomerAccount** og **ContactPersonId**.
 

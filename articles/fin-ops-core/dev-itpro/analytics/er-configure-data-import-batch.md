@@ -1,6 +1,6 @@
 ---
-title: Flytja inn gögn úr handvirkt völdum skrám í lotuham
-description: Þetta efnisatriði útskýrir hvernig á að flytja inn gögn úr handvirkt völdum skrám í lotuham.
+title: Flytja inn gögn úr skrám sem voru valdar handvirkt í runustillingu
+description: Þessi grein útskýrir hvernig á að flytja inn gögn úr handvirkt völdum skrám í lotuham.
 author: NickSelin
 ms.date: 01/07/2022
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-01-01
 ms.dyn365.ops.version: Release 10.0.25
-ms.openlocfilehash: 8615b5a0623fd696c64f4ec03e481a2bcb16c0ac
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 2dec838439876fd8e57ea4a7078d97267e5ea1a2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075747"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890184"
 ---
-# <a name="import-data-from-manually-selected-files-in-batch-mode"></a>Flytja inn gögn úr handvirkt völdum skrám í lotuham
+# <a name="import-data-from-manually-selected-files-in-batch-mode"></a>Flytja inn gögn úr skrám sem voru valdar handvirkt í runustillingu
 
 [!include[banner](../includes/banner.md)]
 [!include[banner](../includes/preview-banner.md)]
@@ -31,11 +31,11 @@ Til að nota [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) ramma
 
 Nýja ER-getan sem styður gagnainnflutning í lotuham gerir kleift að stilla þetta ferli sem eftirlitslaust. Þú getur notað ER stillingar til að framkvæma gagnainnflutning með því að tímasetja nýtt runuverk frá ER notendaviðmótinu (UI).
 
-Þetta efnisatriði útskýrir hvernig á að ljúka gagnainnflutningi úr handvirkt valinni skrá í lotuham. Dæmin nota lánardrottnafærslur sem viðskiptagögn. Hægt er að ljúka skrefum þessara dæma í **USMF** fyrirtæki. Ekki er þörf á neinni kóðun.
+Þessi grein útskýrir hvernig á að ljúka gagnainnflutningi úr handvirkt valinni skrá í lotuham. Dæmin nota lánardrottnafærslur sem viðskiptagögn. Hægt er að ljúka skrefum þessara dæma í **USMF** fyrirtæki. Ekki er þörf á neinni kóðun.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Til að ljúka dæmunum í þessu efnisatriði þarftu að hafa eftirfarandi aðgang:
+Til að klára dæmin í þessari grein verður þú að hafa eftirfarandi aðgang:
 
 - Eitt af eftirfarandi hlutverkum:
 
@@ -126,13 +126,13 @@ Til að búa til nauðsynlegar ER-stillingar og fá aðrar forsendur skaltu fylg
 3. Veldu **Starfskenni** hlekkur til að skoða upplýsingar um starfið.
 4. Á **Lotuverkefni** Flýtiflipi, veldu **Log**.
 
-    ![Log hnappur á runuverkssíðunni.](./media/er-configure-data-import-batch-scheduled-job-record.png)
+    ![Log hnappur á runuvinnusíðunni.](./media/er-configure-data-import-batch-scheduled-job-record.png)
 
 5. Farðu yfir framkvæmdaupplýsingarnar.
 
     ![Framkvæmdaskrá fyrir áætlaða runuvinnu á síðunni Runuverk.](./media/er-configure-data-import-batch-scheduled-job-log.png)
 
-## <a name="change-the-data-import-parameters"></a>Breyttu færibreytum gagnainnflutnings
+## <a name="change-the-data-import-parameters"></a>Breyttu innflutningsbreytum gagna
 
 Eftir að runan þín hefur verið áætluð og á meðan hún hefur ekki enn verið keyrð geturðu breytt færibreytum áætlaðs gagnainnflutnings.
 
@@ -169,7 +169,7 @@ Eftir að runan þín hefur verið áætluð og á meðan hún hefur ekki enn ve
 
 6. Veldu **Viðhengi** til að skoða innfluttu skrána.
 
-    ![Innflutt skrá á síðunni Skjalaskoðun.](./media/er-configure-data-import-batch-files-source-3.png)
+    ![Innflutt skrá á skjalaskoðunarsíðunni.](./media/er-configure-data-import-batch-files-source-3.png)
 
     > [!TIP]
     > Til að geyma þessi viðhengi notar ER ramma skjalagerð sem er [sett](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) fyrir núverandi fyrirtæki í **Aðrir** reit ER færibreytanna.

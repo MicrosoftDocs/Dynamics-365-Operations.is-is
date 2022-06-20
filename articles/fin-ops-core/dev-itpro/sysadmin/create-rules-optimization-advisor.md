@@ -1,6 +1,6 @@
 ---
 title: Stofna reglur fyrir Fínstillingarráðgjöf
-description: Þetta efnisatriði fjallar um hvernig á að bæta nýjum reglum við Fínstillingarráðgjöfina.
+description: Þessi grein fjallar um hvernig á að bæta nýjum reglum við hagræðingarráðgjafa.
 author: roxanadiaconu
 ms.date: 02/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a65a71da066d70cafc641aafe21538830a9ebe56b607316570ea2435398cda1c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b1d9b14cb67b1dd0a961f6f8618de37147a2c52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734665"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850906"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Stofna reglur fyrir Fínstillingarráðgjöf
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að stofna nýjar reglur fyrir **Fínstillingarráðgjöf**. Til dæmis getur þú búið til nýja reglu sem tilgreinir hvaða tilfelli af tilboðsbeiðnum (RFQ) hafa tóman titil. Með því að nota titla á málum er auðveldlega hægt að greina þau og leita að þeim. Á einfaldan hátt sýnir þetta dæmi hverju hægt er að ná fram með fínstillingarreglum. 
+Þessi grein útskýrir hvernig á að búa til nýjar reglur fyrir **Hagræðingarráðgjafi**. Til dæmis getur þú búið til nýja reglu sem tilgreinir hvaða tilfelli af tilboðsbeiðnum (RFQ) hafa tóman titil. Með því að nota titla á málum er auðveldlega hægt að greina þau og leita að þeim. Á einfaldan hátt sýnir þetta dæmi hverju hægt er að ná fram með fínstillingarreglum. 
 
 *Regla* er könnun á forritsgögnum. Ef ástandið sem reglan metur sé uppfyllt, eru tækifæri til að fínstilla ferla eða betrumbæta gögn búin til. Hægt er að nýta sér möguleikana og, valkvætt, er hægt að mæla áhrif aðgerðanna. 
 

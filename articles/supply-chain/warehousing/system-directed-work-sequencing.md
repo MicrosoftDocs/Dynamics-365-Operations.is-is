@@ -1,6 +1,6 @@
 ---
 title: Kerfisstýrð vinnuröðun
-description: Þetta efnisatriði veitir upplýsingar um kerfisstýrða vinnuröðun. Þessi aðgerð gerir þér kleift að flokka og sía verkbeiðnir sem kerfið býður notendum til framkvæmdar. Það er gagnlegt við aðstæður þar sem þörf er á viðbótarskilyrðum til að keyra tiltektarferli vöruhússins.
+description: Þessi grein veitir upplýsingar um kerfisstýrða vinnuröð. Þessi aðgerð gerir þér kleift að flokka og sía verkbeiðnir sem kerfið býður notendum til framkvæmdar. Það er gagnlegt við aðstæður þar sem þörf er á viðbótarskilyrðum til að keyra tiltektarferli vöruhússins.
 author: Mirzaab
 ms.date: 07/03/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577817"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849127"
 ---
 # <a name="system-directed-work-sequencing"></a>Kerfisstýrð vinnuröðun
 
@@ -44,7 +44,7 @@ Kerfisstýrð vinnuröðun gerir þér kleift að flokka og sía verkbeiðnir se
 
 ### <a name="make-demo-data-available"></a>Bjóða upp á sýnigögn
 
-Til að vinna í gegnum aðstæðurnar með því að nota gildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu sýnigögnin eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila. Aðstæðurnar nota vöruhús *51* úr sýnigögnunum.
+Til að vinna í gegnum atburðarásina með því að nota gildin sem eru kynnt í þessari grein verður þú að vinna á kerfi þar sem stöðluðu kynningargögnin eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila. Aðstæðurnar nota vöruhús *51* úr sýnigögnunum.
 
 > [!IMPORTANT]
 > Áður en þú losar pantanir til vöruhússins skaltu ganga úr skugga um að tiltektarstaðsetningar hafi nægar birgðir fyrir öll atriðin á pöntunum.
