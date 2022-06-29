@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 495f3dbf9bab9d550ebdbb7dda52aca80d5ea635
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882722"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017117"
 ---
 # <a name="asset-view"></a>Eignayfirlit
 
@@ -30,7 +30,7 @@ ms.locfileid: "8882722"
 
 Þessi grein lýsir eignayfirlitinu í eignastýringu. Síðan **Eignasýn** sýnir virkar eignir og virkar staðsetningar í trjáskoðun. Þess vegna geturðu auðveldlega fengið yfirlit yfir eignatengsl við virka staði. Að auki geturðu skoðað nákvæmar upplýsingar um virka staði, eignir og tengda uppskriftir (BOMs). Þú getur líka fengið fljótt yfirlit yfir virkar viðhaldsbeiðnir og verkbeiðnir sem tengjast eign.
 
-1. Veldu **Eignastýring** \> **Sameiginlegt** \> **Eignir** \> **Eignasýn**.
+1. Veldu **Eignastýring** \> **Eignir** \> **Eignasýn**.
 2. Til að breyta skjánum sem sést á síðunni velurðu nýtt gildi í reitnum **Skoða**.
 
     > [!NOTE]

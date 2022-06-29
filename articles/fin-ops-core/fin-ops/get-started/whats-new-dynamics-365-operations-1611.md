@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a6e9454baa33e37fe62db2b7bd39ff00891ff855
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 5be880a6d178743f4a2d3339609604d993f7e5d5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905025"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016421"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Hvað er nýtt eða breytt í Dynamics 365 for Operations útgáfu 1611 (Nóvember 2016)
 
@@ -818,7 +818,7 @@ Eins og stendur er Retail Modern POS aðeins tiltækt sem Windows 8.1 forrit fyr
 | Leiðrétta birgðir í eigu lánardrottins með því að nota flutningabók. | Mikilvægt er að geyma lagerbirgðir kerfisins í samræmi við raunverulegar efnislegar birgðir. Birgðir í eigu lánardrottins má leiðrétta inn og út með með talningarferlum eins og magnleiðréttingu og færslubókarferli talningar. |
 | Lestu meira um stuðning við vörusendingar í Dynamics 365 for Operations | Frekari upplýsingar um stuðning við ferli vörusendingar er að finna í [Vörusendingu](../../../supply-chain/inventory/consignment.md), [Uppsetningu vörusendingar](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Stofna áfyllingarpöntun vörusendingar (Verkefnaleiðbeiningar)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) og [Skipta um eignarhald á vörusendingabirgðum byggð á framleiðslueftirspurn (Verkefnaleiðbeiningar)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
-### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Samstarf lánardrottna (áður kallað Gátt lánardrottins)
+### <a name="vendor-collaboration"></a>Samstarf lánardrottna
 
 | Það sem hægt er að gera | Hvers vegna er þetta mikilvægt? |
 |-----------------|-----------------------|

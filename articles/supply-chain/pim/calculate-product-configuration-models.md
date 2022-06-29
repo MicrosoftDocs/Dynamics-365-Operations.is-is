@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 593f6a8e28c789a378515ddc8e4163c331442e8b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 4424ebbf64ccdcb9bffc840520952ac915606209
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890945"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015494"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Algengar spurningar um afbrigðalíkan afurðar
 
@@ -73,7 +73,7 @@ Hægt er að skrifa yfir gildi sem er reiknuð fyrir markmiðseigindina nema ef 
 ## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>Hvernig get ég sett inn markmiðseigind sem er falin eða aðeins til lestrar?
 Til að setja eigind sem falin eða aðeins til lestrar skal fylgja þessum skrefum:
 
-1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Almennt** &gt; **Afbrigðalíkan afurðar**.
+1.  Smellur **Vöruupplýsingastjórnun** &gt; **Vörur** &gt; **Vörustillingarlíkön**.
 2.  Veldu afbrigðalíkan afurðar og smellið síðan á **breyta** á aðgerðarúðu.
 3.  Á **upplýsingum afbrigðalíkans afurðar sem byggir á Skorðum** síðunni, veljið eigindina sem nota á sem markeigind.
 4.  Á **Eigindir** flýtiflipi, veljið **Falið** eða **skrifvarið**.
@@ -96,7 +96,7 @@ Ef fjarlægt er innsett gildi í útreikningi, er gildi markmiðseigindin einnig
 ## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>Af hverju kemur villuskilaboð jafnvel þótt ég hafi sannreynt framleiðslulíkanið mitt?
 Útreikningar eru ekki teknar með í villuleit. Er þarf að prófa afbrigðalíkan afurðar til að finna villur í útreikningum. Til að prufa afbrigðalíkans afurðar skal fylgja þessum skrefum:
 
-1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Almennt** &gt; **Afbrigðalíkan afurðar**.
+1.  Smellur **Vöruupplýsingastjórnun** &gt; **Vörur** &gt; **Vörustillingarlíkön**.
 2.  Veldu afbrigðalíkan afurðar og smellið síðan á Aðgerðasvæðinu skal í **keyrslu** flokkur skal smella á **prófun**.
 
 

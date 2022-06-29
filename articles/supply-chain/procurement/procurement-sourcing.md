@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68409b15a3f4874d05a43931136ce91097c4f904
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: ec5a9dac1d3b1288d060fe92ec94e6a105f84be8
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885871"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015289"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Heimasíða Innkaupa og aðfanga
 
@@ -56,8 +56,6 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 -   [Uppsetning og viðhald samstarfs lánardrottna](set-up-maintain-vendor-collaboration.md)
 -   [Dæmi um forskrift fyrir vörusendingabirgðir á innleið fyrir Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(hvítbók)
 -   [Fylgjast með vörusendingabirgðum með samstarfi lánardrottna](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [Samstarf við lánardrottna með því að nota gátt lánardrottins](collaborate-vendors-vendor-portal.md) (einungis febrúar 2016 og maí 2016 útgáfur Dynamics AX)
--   [Öryggi notanda í gátt lánardrottins](configure-security-vendor-portal-users.md) (2016 og maí 2016 útgáfur Finance and Operations eingöngu)
 -   [Fartækjavinnusvæði samstarfs lánardrottna](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Innkaupastjórnun afurða

@@ -1,8 +1,8 @@
 ---
-title: Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce matsumhverfi
-description: Þessi grein útskýrir hvernig á að stilla valfrjálsa eiginleika fyrir a Microsoft Dynamics 365 Commerce matsumhverfi.
+title: Stilla valfrjálsa eiginleika fyrir a Dynamics 365 Commerce sandkassa umhverfi
+description: Þessi grein útskýrir hvernig á að stilla valfrjálsa eiginleika fyrir a Microsoft Dynamics 365 Commerce sandkassa umhverfi.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 201628eb0c3e81d5fee0df9e53d93f5b1839adfb
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861915"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013239"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce matsumhverfi
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-sandbox-environment"></a>Stilla valfrjálsa eiginleika fyrir a Dynamics 365 Commerce sandkassa umhverfi
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að stilla valfrjálsa eiginleika fyrir a Microsoft Dynamics 365 Commerce matsumhverfi.
+Þessi grein útskýrir hvernig á að stilla valfrjálsa eiginleika fyrir a Microsoft Dynamics 365 Commerce sandkassa umhverfi.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Ef þú vilt meta viðskipti tölvupóstsaðgerða verður að uppfylla eftirfarandi forsendur:
+Ef þú vilt kynna viðskiptapósteiginleikana verða eftirfarandi skilyrði að vera uppfyllt:
 
-- Þú ert með tiltækan tölvupóstþjón (Simple Mail Transfer Protocol \[SMTP\] Server) sem hægt er að nota úr Microsoft Azure áskriftinni þar sem þú úthlutaði matsumhverfi.
+- Þú ert með tiltækan tölvupóstþjón (Simple Mail Transfer Protocol\[ SMTP\] server) sem hægt er að nota frá Microsoft Azure áskrift þar sem þú útvegaðir sandkassaumhverfið.
 - Þú ert með gilt lénsheiti (FQDN)/IP-tölu netþjónsins, SMTP-gáttarnúmer og staðfestingu upplýsingar tiltækar.
 
 ## <a name="configure-the-image-back-end"></a>Stilla bak myndarinnar
@@ -39,10 +39,10 @@ Ef þú vilt meta viðskipti tölvupóstsaðgerða verður að uppfylla eftirfar
 ### <a name="find-your-media-base-url"></a>Finndu grunnvefslóð miðla
 
 > [!NOTE]
-> Áður en þú getur klárað þessa aðferð verður þú að klára skrefin í [Settu upp síðuna þína í Commerce](cpe-post-provisioning.md#set-up-your-site-in-commerce).
+> Áður en þú getur klárað þessa aðferð verður þú að klára skrefin í [Settu upp síðuna þína í Commerce](cpe-post-provisioning.md#set-up-your-e-commerce-sites).
 
 1. Skráðu þig inn á Commerce-vefsmið með því að nota slóðina sem þú skráðir þegar þú ræstir e-Commerce á meðan úthlutun stóð (sjá [Frumstilla rafræn viðskipti](provisioning-guide.md#initialize-e-commerce)).
-1. Opnið svæðið **Fabrikam**.
+1. Opnaðu **Fabrikam**, **·**, eða **Adventure Works Business** síðu sem þú vilt vinna með.
 1. Á valmyndinni til vinstri skal velja **Efnissafn**.
 1. Veldu einhverja staka myndeign.
 1. Í eiginleikaeftirlitinu til hægri skaltu finna eiginleikann **Opinber vefslóð**. Gildið er vefslóð. Eftirfarandi er dæmi:
@@ -98,9 +98,9 @@ Uppfæra verður tölvupóstsniðmátið fyrir hvert færslutilvik sem þú vilt
 
 ## <a name="customize-email-templates"></a>Sérstilla sniðmát fyrir tölvupóst
 
-Þú gætir viljað aðlaga tölvupóstsniðmátin þannig að þau noti mismunandi myndir. Eða þú gætir viljað uppfæra tengla í sniðmátunum þannig að þeir vísi í matsumhverfi. Þetta ferli útskýrir hvernig á að hala niður sjálfgefnu sniðmátunum, aðlaga þau og uppfæra sniðmátin í kerfinu.
+Þú gætir viljað aðlaga tölvupóstsniðmátin þannig að þau noti mismunandi myndir. Eða þú gætir viljað uppfæra tenglana í sniðmátunum þannig að þeir fari í sandkassaumhverfið þitt. Þetta ferli útskýrir hvernig á að hala niður sjálfgefnu sniðmátunum, aðlaga þau og uppfæra sniðmátin í kerfinu.
 
-1. Í vefvafra skal sækja upp [ Microsoft Dynamics 365 Commerce Evaluation sjálfgefin zip-skrá fyrir tölvupóstsniðmát](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) í staðbundnu tölvunni. Þessi skrá inniheldur eftirfarandi HTML skjöl:
+1. Í vafra skaltu hlaða niður [Microsoft Dynamics 365 Commerce kynningu sjálfgefið tölvupóstsniðmát zip skrá](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) við staðbundna tölvuna þína. Þessi skrá inniheldur eftirfarandi HTML skjöl:
 
     - Eining pöntunarsniðmáts
     - Gefa út sniðmát gjafakorts
@@ -167,15 +167,11 @@ Eftirfarandi táknum er skipt út með gildum fyrir hverja vöru í röðinni.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi](cpe-overview.md)
+[Ákvæði a Dynamics 365 Commerce sandkassa umhverfi](provisioning-guide.md)
 
-[Úthluta Dynamics 365 Commerce matsumhverfi](provisioning-guide.md)
+[Stilla a Dynamics 365 Commerce sandkassa umhverfi](cpe-post-provisioning.md)
 
-[Stilla Dynamics 365 Commerce matsumhverfi](cpe-post-provisioning.md)
-
-[Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi](cpe-bopis.md)
-
-[algengar spurningar um Dynamics 365 Commerce matsumhverfi](cpe-faq.md)
+[Stilltu BOPIS í a Dynamics 365 Commerce sandkassa umhverfi](cpe-bopis.md)
 
 [Microsoft Dynamics Lifecycle Services (LSC)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

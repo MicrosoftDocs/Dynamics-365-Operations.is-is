@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb29c5e7170011b95151d9aaf2a96a570563096d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 5d2cc1f5b8eccb51b6bea8655fdee243c1a2df55
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902083"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015028"
 ---
 # <a name="manually-created-work-orders"></a>Handvirkt stofnaðar verkbeiðnir
 
@@ -34,7 +34,7 @@ Hægt er að stofna verkbeiðnir handvirkt á tvo vegu:
 
 ## <a name="create-work-order"></a>Stofna verkbeiðni
 
-1. Veldu **Eignastýringu** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
+1. Selece **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
 
 2. Veljið **Nýtt**.
 
@@ -82,7 +82,7 @@ Athugið eftirfarandi stig:
 
 Hægt er að stofna verkbeiðni sem tengist fyrirliggjandi verkbeiðni. Þessi afkastageta er gagnleg ef þú vilt til dæmis vinna með aðal- og annars flokks verkbeiðnir. Ný verkbeiðni er byggð á verkbeiðnivinnslu úr fyrirliggjandi verkbeiðni.
 
-1. Veldu **Eignastýringu** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
+1. Veldu **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
 
 2. Veldu verkbeiðnina til að stofna tengda verkbeiðni fyrir.
 
@@ -120,7 +120,7 @@ Skýringarmyndin hér að neðan sýnir dæmi um gluggann **Stofna tengda verkbe
 
 Það er mögulegt að fljótt búa til nýja verkbeiðni úr núverandi verkbeiðni. Þessi leið til að vinna með verkbeiðnir er frábrugðin stofnun verkbeiðna samkvæmt [viðhaldsáætlunum](../preventive-and-reactive-maintenance/maintenance-plans.md). Það er gagnlegt ef þú hefur til dæmis verkbeiðni sem inniheldur margar verkbeiðnavinnslur og ljúka skal ýmsum vinnslum á mismunandi eignum með reglulegu millibili.
 
-1. Veldu **Eignastýringu** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
+1. Veldu **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
 
 2. Veldu verkbeiðnina til að afrita efni úr.
 
@@ -142,7 +142,7 @@ Myndin hér að neðan sýnir dæmi um gluggann **Afrita verkbeiðnir**.
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Stofna verkbeiðni sem byggist á viðhaldsbeiðni
 
-1. Veldu **Eignastýring** > **Sameiginlegt** > **Viðhaldsbeiðnir** > **Allar viðhaldsbeiðnir** eða **Virkar viðhaldsbeiðnir**.
+1. Veldu **Eignastýring** > **Viðhaldsbeiðnir** > **Allar viðhaldsbeiðnir** eða **Virkar viðhaldsbeiðnir**.
 
 2. Veldu viðhaldsbeiðni til að stofna verkbeiðni fyrir og smelltu á **Breyta**.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3347db6395b7da396c42f84881060f476346d2e9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851276"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014620"
 ---
 # <a name="wave-creation-and-processing"></a>Stofnun og meðhöndlun bylgju
 
@@ -60,9 +60,9 @@ Til að stofna bylgju handvirkt, skal fylgja eftirfarandi skrefum:
 1. Gangið úr skugga um að viðeigandi [Bylgjusniðmát](wave-templates.md) séu ekki stillt á að stofna bylgju sjálfkrafa fyrir vöruhús og gerðir pantana þar sem á að gera það handvirkt.
 1. Gerið eitt af eftirfarandi eftir því hvaða gerð bylgju á að stofna:
 
-    - Farið í **Vöruhúsakerfi** \> **Almennt** \> **Bylgjur** \> **Sendingarbylgjur** \> **Allar bylgjur**. Á aðgerðasvæðinu skal velja **Bylgja**.
-    - Farið í **Vöruhúsakerfi** \> **Almennt** \> **Bylgjur** \> **Framleiðslubylgjur** \> **Allar framleiðslubylgjur**. Á aðgerðasvæðinu skal velja **Framleiðslubylgja**.
-    - Farið í **Vöruhúsakerfi** \> **Almennt** \> **Bylgjur** \> **Kanban-bylgjur** \> **Allar kanban-bylgjur**. Í aðgerðasvæðinu velurðu **Stofna bylgju**.
+    - Fara til **Vöruhússtjórnun** \> **Útleið bylgjur** \> **Sendingarbylgjur** \> **Allar öldur**. Á aðgerðasvæðinu skal velja **Bylgja**.
+    - Fara til **Vöruhússtjórnun** \> **Útleið bylgjur** \> **Framleiðslubylgjur** \> **Allar framleiðslubylgjur**. Á aðgerðasvæðinu skal velja **Framleiðslubylgja**.
+    - Fara til **Vöruhússtjórnun** \> **Útleið bylgjur** \> **Kanban bylgjur** \> **Allar kanban bylgjur**. Í aðgerðasvæðinu velurðu **Stofna bylgju**.
 
 1. Í reitinn **Lýsing** skal færa inn stutta lýsingu á bylgjunni. Þetta er ætti að tilgreina hvað verið sé að vinna í bylgjunni.
 
@@ -87,9 +87,9 @@ Til að búa til bylgjur sjálfkrafa skal setja upp [Bylgjusniðmát](wave-templ
 
 1. Gerið eitt af eftirfarandi eftir því hver gerð bylgju er sem bæta á línum við:
 
-    - Farið í **Vöruhúsakerfi** \> **Almennt** \> **Bylgjur** \> **Sendingarbylgjur** \> **Allar bylgjur**. Á aðgerðasvæðinu skal velja **Bylgja**.
-    - Farið í **Vöruhúsakerfi** \> **Almennt** \> **Bylgjur** \> **Framleiðslubylgjur** \> **Allar framleiðslubylgjur**. Á aðgerðasvæðinu skal velja **Framleiðslubylgja**.
-    - Farið í **Vöruhúsakerfi** \> **Almennt** \> **Bylgjur** \> **Kanban-bylgjur** \> **Allar kanban-bylgjur**. Í aðgerðasvæðinu velurðu **Stofna bylgju**.
+    - Fara til **Vöruhússtjórnun** \> **Útleið bylgjur** \> **Sendingarbylgjur** \> **Allar öldur**. Á aðgerðasvæðinu skal velja **Bylgja**.
+    - Fara til **Vöruhússtjórnun** \> **Útleið bylgjur** \> **Framleiðslubylgjur** \> **Allar framleiðslubylgjur**. Á aðgerðasvæðinu skal velja **Framleiðslubylgja**.
+    - Fara til **Vöruhússtjórnun** \> **Útleið bylgjur** \> **Kanban bylgjur** \> **Allar kanban bylgjur**. Í aðgerðasvæðinu velurðu **Stofna bylgju**.
 
 1. Veljið bylgjuna. Á aðgerðasvæðinu skal velja eitt af eftirfarandi:
 
@@ -121,9 +121,9 @@ Til að vinna handvirkt úr bylgju sem er með allt nauðsynlegt efni skal fylgj
 
 1. Eftir því hvaða gerð bylgju á að meðhöndla, gerið eitt af eftirfarandi:
 
-    - Veljið **Vöruhúsakerfi** \> **Almennt** \> **Bylgjur** \> **Sendingarbylgjur** \> **Allar bylgjur**. Á aðgerðasvæðinu skal velja **Bylgja**.
-    - Veljið **Vöruhúsakerfi** \> **Almennt** \> **Bylgjur** \> **Framleiðslubylgjur** \> **Allar framleiðslubylgjur**. Á aðgerðasvæðinu skal velja **Framleiðslubylgja**.
-    - Veljið **Vöruhúsakerfi** \> **Almennt** \> **Bylgjur** \> **Kanban-bylgjur** \> **Allar kanban-bylgjur**. Í aðgerðasvæðinu velurðu **Stofna bylgju**.
+    - Veldu **Vöruhússtjórnun** \> **Útleið bylgjur** \> **Sendingarbylgjur** \> **Allar öldur**. Á aðgerðasvæðinu skal velja **Bylgja**.
+    - Veldu **Vöruhússtjórnun** \> **Útleið bylgjur** \> **Framleiðslubylgjur** \> **Allar framleiðslubylgjur**. Á aðgerðasvæðinu skal velja **Framleiðslubylgja**.
+    - Veldu **Vöruhússtjórnun** \> **Útleið bylgjur** \> **Kanban bylgjur** \> **Allar kanban bylgjur**. Í aðgerðasvæðinu velurðu **Stofna bylgju**.
 
 1. Veljið til að vinna úr bylgju. Á aðgerðasvæðinu skal velja **Úrvinnsla**.
 
@@ -141,9 +141,9 @@ Til að losa bylgju handvirkt skal fylgja þessum skrefum:
 
 1. Eftir því hvaða gerð bylgju á að losa, gerið eitt af eftirfarandi:
 
-      - Veljið **Vöruhúsakerfi** \> **Almennt** \> **Bylgjur** \> **Sendingarbylgjur** \> **Allar bylgjur**. Á aðgerðasvæðinu skal velja **Bylgja**.
-      - Veljið **Vöruhúsakerfi** \> **Almennt** \> **Bylgjur** \> **Framleiðslubylgjur** \> **Allar framleiðslubylgjur**. Á aðgerðasvæðinu skal velja **Framleiðslubylgja**.
-      - Veljið **Vöruhúsakerfi** \> **Almennt** \> **Bylgjur** \> **Kanban-bylgjur** \> **Allar kanban-bylgjur**. Í aðgerðasvæðinu velurðu **Stofna bylgju**.
+      - Veldu **Vöruhússtjórnun** \> **Útleið bylgjur** \> **Sendingarbylgjur** \> **Allar öldur**. Á aðgerðasvæðinu skal velja **Bylgja**.
+      - Veldu **Vöruhússtjórnun** \> **Útleið bylgjur** \> **Framleiðslubylgjur** \> **Allar framleiðslubylgjur**. Á aðgerðasvæðinu skal velja **Framleiðslubylgja**.
+      - Veldu **Vöruhússtjórnun** \> **Útleið bylgjur** \> **Kanban bylgjur** \> **Allar kanban bylgjur**. Í aðgerðasvæðinu velurðu **Stofna bylgju**.
 
 1. Veljið til að losa bylgjuna. Á aðgerðasvæðinu skal velja **Losa bylgju**.
 
@@ -179,9 +179,9 @@ Ef þess gerist þörf er hægt að hætta við bylgju sem búið er að vinna �
 
 1. Gerið eitt af eftirfarandi eftir því hver gerð bylgju er sem hætta á við:
 
-      - Farið í **Vöruhúsakerfi** \> **Almennt** \> **Bylgjur** \> **Sendingarbylgjur** \> **Allar bylgjur**.
-      - Farið í **Vöruhúsakerfi** \> **Almennt** \> **Bylgjur** \> **Framleiðslubylgjur** \> **Allar framleiðslubylgjur**.
-      - Farið í **Vöruhúsakerfi** \> **Almennt** \> **Bylgjur** \> **Kanban-bylgjur** \> **Allar kanban-bylgjur**.
+      - Fara til **Vöruhússtjórnun** \> **Útleið bylgjur** \> **Sendingarbylgjur** \> **Allar öldur**.
+      - Fara til **Vöruhússtjórnun** \> **Útleið bylgjur** \> **Framleiðslubylgjur** \> **Allar framleiðslubylgjur**.
+      - Fara til **Vöruhússtjórnun** \> **Útleið bylgjur** \> **Kanban bylgjur** \> **Allar kanban bylgjur**.
 
 1. Veljið bylgjuna sem á að hætta við. Á aðgerðasvæðinu, í flipanum **Vinna**, skal velja **Hætta við**.
 
@@ -191,7 +191,7 @@ Notið síðuna **Upplýsingar um runuvinnslu bylgju** til að skoða runuvinnsl
 
 ### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>Kveiktu eða slökktu á upplýsingasíðu Wave runuvinnslu
 
-Frá og með Supply Chain Management útgáfu 10.0.25 er **Upplýsingar um Wave runuvinnu** sjálfgefið er kveikt á síðunni. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Upplýsingar um Wave runuvinnu* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Frá og með Supply Chain Management útgáfu 10.0.25 er **Upplýsingar um Wave runuvinnu** kveikt er á síðunni sjálfgefið. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Upplýsingar um Wave runuvinnu* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Nota upplýsingasíðu bylgjurunuvinnslu
 

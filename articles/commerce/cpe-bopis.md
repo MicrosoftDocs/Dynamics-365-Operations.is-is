@@ -1,8 +1,8 @@
 ---
-title: Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi
-description: Þessi grein útskýrir hvernig á að stilla kaupa á netinu, sækja í verslun (BOPIS) í a Microsoft Dynamics 365 Commerce matsumhverfi eftir að það hefur verið útvegað.
+title: Stilltu BOPIS í a Dynamics 365 Commerce sandkassa umhverfi
+description: Þessi grein útskýrir hvernig á að stilla kaupa á netinu, sækja í verslun (BOPIS) í a Microsoft Dynamics 365 Commerce sandkassaumhverfi eftir að það hefur verið útvegað.
 author: BrianShook
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 379537fd490be98497b6e7c5cdfbc33798fe28ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 16cea7beb6ca05b5e96a9713b1217b414e27d56e
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861967"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013176"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi
+# <a name="configure-bopis-in-a-dynamics-365-commerce-sandbox-environment"></a>Stilltu BOPIS í a Dynamics 365 Commerce sandkassa umhverfi
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að stilla kaupa á netinu, afhending í verslun (BOPIS) í a Microsoft Dynamics 365 Commerce matsumhverfi eftir að umhverfið hefur verið útvegað.
+Þessi grein útskýrir hvernig á að stilla kaup á netinu, afhending í verslun (BOPIS) í a Microsoft Dynamics 365 Commerce sandkassaumhverfi eftir að umhverfið hefur verið útvegað.
 
 ## <a name="prerequisite"></a>Skilyrði
 
-Ljúktu aðeins við aðferðirnar í þessari grein eftir að viðskiptamatsumhverfið þitt hefur verið útbúið og stillt. Frekari upplýsingar um hvernig á að úthluta og grunnstilla umhverfi þitt, sjá [Útvegun á Dynamics 365 Commerce matsumhverfi](provisioning-guide.md) og [Grunnstilla Dynamics 365 Commerce matsumhverfi](./cpe-post-provisioning.md).
+Ljúktu aðeins við aðferðirnar í þessari grein eftir að Commerce sandkassaumhverfið þitt hefur verið útvegað og stillt. Fyrir upplýsingar um hvernig á að útvega og stilla umhverfið þitt, sjá [Ákvæði a Dynamics 365 Commerce sandkassa umhverfi](provisioning-guide.md) og [Stilla a Dynamics 365 Commerce sandkassa umhverfi](./cpe-post-provisioning.md).
 
-Eftir að viðskiptaumhverfið þitt hefur verið útvegað og stillt frá enda til enda geturðu notað þessa grein til að virkja BOPIS aðstæður.
+Eftir að viðskiptaumhverfið þitt hefur verið útbúið og stillt frá enda til enda geturðu notað þessa grein til að virkja BOPIS aðstæður.
 
 ## <a name="configure-the-pos"></a>Stilla sölustað
 
@@ -67,7 +67,7 @@ BOPIS atburðarásir sem fela í sér kreditkortagreiðslu krefjast vélbúnaða
 5. Svargluggi sannvottunar opnast. Veldu reikninginn sem notar netfangið sem áður var tengt starfsmanni **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > Ef þú hefur ekki enn tengt starfsmann auðkennið þitt, þá mun virkjun ekki ná árangri. Í þessu tilviki skaltu fylgja skrefunum undir "Tengdu starfsmann við auðkenni þitt" í hlutanum [Stilla a Dynamics 365 Commerce matsumhverfi](cpe-post-provisioning.md#associate-a-worker-with-your-identity) grein.
+    > Ef þú hefur ekki enn tengt starfsmann auðkennið þitt, þá mun virkjun ekki ná árangri. Í þessu tilviki skaltu fylgja skrefunum undir "Tengdu starfsmann við auðkenni þitt" í hlutanum [Stilla a Dynamics 365 Commerce sandkassa umhverfi](cpe-post-provisioning.md#associate-a-worker-with-your-identity) grein.
     
 6. Þegar þú ert beðin/n um að láta fyrirtæki þitt stjórna tækinu skaltu velja **Aðeins þetta forrit**.
 7. Þegar virkjun er lokið skaltu velja **Hefjast handa**.
@@ -140,13 +140,9 @@ Hvað öll almenn vandamál varðar, ættir þú fyrst að skoða tilvikaannála
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi](cpe-overview.md)
+[Ákvæði a Dynamics 365 Commerce sandkassa umhverfi](provisioning-guide.md)
 
-[Úthluta Dynamics 365 Commerce matsumhverfi](provisioning-guide.md)
-
-[Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce matsumhverfi](cpe-optional-features.md)
-
-[algengar spurningar um Dynamics 365 Commerce matsumhverfi](cpe-faq.md)
+[Stilltu valfrjálsa eiginleika fyrir a Dynamics 365 Commerce sandkassa umhverfi](cpe-optional-features.md)
 
 [Microsoft Dynamics Lifecycle Services (LSC)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

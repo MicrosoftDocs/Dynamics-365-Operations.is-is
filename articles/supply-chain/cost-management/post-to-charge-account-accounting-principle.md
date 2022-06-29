@@ -11,38 +11,38 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-02
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 998a30786b3f457b24b6e3c755b2c00967adbd4b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: c03109baaa341b25af70840b791ddf04f692fb1a
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879164"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016566"
 ---
 # <a name="post-to-charge-account-accounting-principle"></a>Bóka til gjaldfærslu reikningsskilareglu
 
-The *pósta á gjaldfærslureikning* Bókhaldsreglan gerir þér kleift að gera grein fyrir og á auðveldara með að samræma hvers kyns mismun sem verður á einingarverði milli líkamlegrar bókunar og fjárhagsbókunar, óbeins kostnaðar á keyptum hlutum eða kostnaðar á innkaupapöntun. 
+The *pósta til gjaldfærslureiknings* Bókhaldsreglan gerir þér kleift að gera grein fyrir og á auðveldara með að jafna mismun sem verður á einingarverði milli bókunar og fjárhagsbókunar, óbeins kostnaðar á keyptum vörum eða kostnaðar á innkaupapöntun.
 
-Tvær stillingar fyrir reikninga gjalda kóða á **Gjaldkóði** síða (**Viðskiptaskuldir \> Uppsetning gjalda \> Gjaldkóði**) getur valdið því að innkaupapöntun hefur áhrif á verðmat á birgðaeignum:
+Tvær stillingar fyrir kóða viðskiptaskulda á **Gjaldkóði** síða (**Viðskiptaskuldir \> Uppsetning gjalda \> Gjaldkóði**) getur valdið því að innkaupapöntun hefur áhrif á verðmat á birgðaeignum:
 
 - Fyrir gjaldkóða þar sem **Debettegund** reiturinn er stilltur á *Atriði* og **Kredittegund** reiturinn er stilltur á *Fjárhagsreikningur*, fjárhagsreikningurinn sem er valinn sem frásogsreikningur virkar sem birgðabreytingareikningur.
 - Fyrir gjaldkóða þar sem **Debettegund** reiturinn er stilltur á *Atriði* og **Kredittegund** reiturinn er stilltur á *Viðskiptavinur/seljandi*, gjaldið verður bókfært sem efniskostnaður og birgðabreytingareikningur vörunnar verður notaður.
 
 ## <a name="european-special-accounting-rule"></a>Evrópsk sérbókhaldsregla
 
-Í Evrópu er *pósta á gjaldfærslureikning* reikningsskilaaðferð er oft notuð til að taka upp sérstaka reikningsskilareglu. Til dæmis er ein af eftirfarandi aðferðum venjulega notuð til að gera grein fyrir birgðabreytingum:
+Í Evrópu er *pósta til gjaldfærslureiknings* reikningsskilaaðferð er oft notuð til að fella sérstaka reikningsskilareglu. Til dæmis er ein af eftirfarandi aðferðum venjulega notuð til að gera grein fyrir birgðabreytingum:
 
-- **Kostnaðaraðferð við sölu** – Stöðluð uppsetning birgðabókunarsniðs styður þessa aðferð. The *pósta á gjaldfærslureikning* reikningsskilareglu er ekki krafist.
+- **Kostnaðaraðferð við sölu** – Stöðluð uppsetning birgðabókunarsniðs styður þessa aðferð. The *pósta til gjaldfærslureiknings* reikningsskilareglu er ekki krafist.
 - **Eðli kostnaðaraðferðar** – Minni stofnanir nota oft þessa aðferð. Það felur venjulega í sér eftirfarandi skref:
 
     1. Vörur eða þjónusta er gjaldfærð að fullu við móttöku.
     2. Í lok tímabilsins fer fram lotutalning.
     3. Handvirk leiðrétting fyrir magn og gildi er bókað í birgðahald. (Móðureikningurinn er birgðabreytingareikningur sem jafnar kostnaðinn sem var bókaður í skrefi 1. Þess vegna sérðu aðeins breytileika í hlutabréfaverðmæti á þessum reikningi.)
 
-The *pósta á gjaldfærslureikning* meginreglan gerir þér kleift að gera þessar tvær færslur fullkomlega sjálfvirkar. Á þennan hátt er hægt að útrýma handvirkri leiðréttingarbókun við lok tímabilsloka.
+The *pósta til gjaldfærslureiknings* meginreglan gerir þér kleift að gera þessar tvær færslur fullkomlega sjálfvirkar. Á þennan hátt er hægt að útrýma handvirkri leiðréttingarbókun við lok tímabilsloka.
 
 ## <a name="enable-the-post-to-charge-account-accounting-principle"></a>Virkja bókhaldsregluna fyrir færslu til að gjaldfæra reikning
 
-Til að virkja *pósta á gjaldfærslureikning* reikningsskilareglu, fylgdu þessum skrefum.
+Til að virkja *pósta til gjaldfærslureiknings* reikningsskilareglu, fylgdu þessum skrefum.
 
 1. Farðu í **Viðskiptaskuldir \> Uppsetning \> Færibreytur viðskiptaskulda**.
 2. Á **Reikningur** flipa, á **Reikningur** flýtiflipann, stilltu **Bókaðu á gjaldfærslureikning í höfuðbók** valmöguleika til *Já*.
@@ -53,13 +53,13 @@ Til að virkja *pósta á gjaldfærslureikning* reikningsskilareglu, fylgdu þes
 Ef þú ætlar að gera grein fyrir innkaupagjöldum og lagerafbrigðum verða eftirfarandi forsendur að vera til staðar:
 
 - Á **Reikningur** flipi á **Færibreytur viðskiptaskulda** síða (**Viðskiptaskuldir \> Uppsetning \> Færibreytur viðskiptaskulda**), the **Bókaðu á gjaldfærslureikning í höfuðbók** valkostur verður að vera stilltur á *Já*.
-- Á **Vörulíkanaflokkar** síða (**Kostnaðarstjórnun \> Uppsetning reikningsskilaaðferða birgða \> Vörulíkanaflokkar**), allir eftirfarandi valkostir verða að vera stilltir á *Já* fyrir hvern viðkomandi tegundarhóp sem inniheldur hluti sem eru innifalin í innkaupapöntun:
+- Á **Hlutamódelhópar** síða (**Kostnaðarstjórnun \> Uppsetning reikningsskilaaðferða birgða \> Hlutamódelhópar**), allir eftirfarandi valkostir verða að vera stilltir á *Já* fyrir hvern viðeigandi tegundarhóp sem inniheldur hluti sem eru innifalin í innkaupapöntun:
 
     - Bóka raunverulegar birgðir
     - Bóka fjárhagslegar birgðir
     - Safna upp skuld á innhreyfingarskjali afurða
 
-- Á **Afhending** flipi á **Innkaupa- og innkaupafæribreytur** síða (**Innkaup og innkaup \> Uppsetning \> Innkaupa- og innkaupafæribreytur**), the **Búðu til gjöld á vörukvittun** valkostur verður að vera stilltur á *Já*.
+- Á **Afhending** flipi á **Innkaupa- og innkaupabreytur** síða (**Innkaup og innkaup \> Uppsetning \> Innkaupa- og innkaupabreytur**), the **Búðu til gjöld á vörumóttöku** valkostur verður að vera stilltur á *Já*.
 - Á **Birgðabókhald** flipi á **Birgða- og vöruhúsastjórnunarfæribreytur** síða (**Vörustjórnun \> Uppsetning \> Birgða- og vöruhúsastjórnunarfæribreytur**), the **Bókaðu fylgiseðil í höfuðbók** valkostur verður að vera stilltur á *Já*.
 - Á **Pöntun** flipi á **Birting** síða (**Vörustjórnun \> Uppsetning \> Birting \> Birting**), verður að tilgreina aðalreikninga sem eiga við um hvern viðkomandi lið fyrir hverja af eftirfarandi bókunartegundum:
 
@@ -69,11 +69,11 @@ Ef þú ætlar að gera grein fyrir innkaupagjöldum og lagerafbrigðum verða e
 
 ## <a name="example-scenario-1-change-in-unit-cost-price"></a>Dæmi sviðsmynd 1: Breyting á kostnaðarverði eininga
 
-Þetta dæmi hefur eftirfarandi forsendur:
+Þetta dæmi atburðarás hefur eftirfarandi forsendur:
 
 - Fyrst inn, fyrst út (FIFO) kostnaðarlíkan
 
-Eftirfarandi ferli gefur dæmi sem sýnir hvað gerist þegar kostnaðarverði eininga er breytt á innkaupapöntun.
+Eftirfarandi ferli gefur dæmi sem sýnir hvað gerist þegar kostnaðarverði eininga er breytt í innkaupapöntun.
 
 1. Stofna innkaupapöntun fyrir 1 magn af vöru sem hefur einingarverðið 100,00.
 2. Staðfesta innkaupapöntun.
@@ -87,7 +87,7 @@ Eftirfarandi ferli gefur dæmi sem sýnir hvað gerist þegar kostnaðarverði e
     | Útgjöld innkaupa, óreikningsfærð | 600180 | Efniskvittanir | Kostnaður | Debet | Já | Efnislegt | 100.00 |
     | Innkaup, uppsöfnun | 200140 | Uppsöfnuð kaup | Bótaábyrgð | Kredit | Já | Efnislegt | -100,00 |
 
-5. Bókaðu reikninginn fyrir innkaupapöntunina sem hefur uppfært einingarverð upp á 110,00.
+5. Bókaðu reikninginn fyrir innkaupapöntunina sem hefur uppfært einingarverð 110,00.
 6. Staðfestu skírteinið á reikningnum. Eftirfarandi tafla sýnir sýnishorn af skírteini.
 
     | Bókunargerð | Aðallykill | Heiti aðallykils | Lykilgerð | Debet/kredit? | Millireikningur | Líkamlegt/fjárhagslegt? | Upphæð |
@@ -102,14 +102,14 @@ Eftirfarandi ferli gefur dæmi sem sýnir hvað gerist þegar kostnaðarverði e
 
 ## <a name="example-2-charges-and-indirect-costs-on-the-purchase-order"></a>Dæmi 2: Gjöld og óbeinn kostnaður á innkaupapöntun
 
-Þetta dæmi hefur eftirfarandi forsendur:
+Þetta dæmi atburðarás hefur eftirfarandi forsendur:
 
 - FIFO kostnaðarlíkan
 - **Gjaldkóði 1:** Debetatriði og kreditbók eru 10%
 - **Gjaldkóði 2:** Debethlutur og kreditviðskiptavinur/seljandi fyrir 10.00 hlutfallslega
 - **Óbeinn kostnaður:** 2,00% bætt við kaupverð
 
-Eftirfarandi ferli gefur dæmi sem sýnir hvað gerist þegar gjöld og óbeinn kostnaður er tekinn með í innkaupapöntun.
+Eftirfarandi ferli gefur dæmi sem sýnir hvað gerist þegar gjöld og óbeinn kostnaður eru teknir með í innkaupapöntun.
 
 1. Stofna innkaupapöntun fyrir 1 magn af vöru sem hefur einingarverðið 100,00.
 2. Bættu við einum gjaldakóða fyrir 10 prósent sem skuldfæra vöruna og skuldfæra höfuðbókina.

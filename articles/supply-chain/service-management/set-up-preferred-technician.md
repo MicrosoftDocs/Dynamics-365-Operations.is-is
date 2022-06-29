@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e59271771a5f332ad8470b0b8f8f54b52a25543d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c9495bbc8e5f7cb603c027a125887feba1f0e2d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671675"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017204"
 ---
 # <a name="set-up-a-preferred-technician"></a>Uppsetning æskilegs tæknimanns 
 
@@ -31,13 +31,13 @@ Hægt er að velja hvaða starfsmann sem æskilegan tæknimann fyrir þjónustus
 
 ## <a name="assign-employee-to-a-dispatch-team"></a>Úthluta starfsmanni við sendingarhóp
 
-1.  Smellt er á **Mannauður** \> **Algengt** \> **Starfsmenn** \> **Starfsmenn**. Tvísmella á starfsmann til að opna upplýsingasíðu starfsmanns. Í **Aðgerðasvæði** er smellt á **Uppsetning** \>**Sendingarhópur** til að opna skjámyndina **Senda starfsmenn**.
+1.  Smellur **Mannauður** \> **Verkamenn** \> **Verkamenn**. Tvísmella á starfsmann til að opna upplýsingasíðu starfsmanns. Í **Aðgerðasvæði** er smellt á **Uppsetning** \>**Sendingarhópur** til að opna skjámyndina **Senda starfsmenn**.
 
 2.  Í reitnum **Sendingarhópur** skal velja hópinn sem starfsmaðurinn á að tilheyra.
 
 ## <a name="assign-a-preferred-technician-to-a-service-agreement"></a>Úthluta þjónustusamningi æskilegan tæknimann
 
-1.  Smellið á **Þjónustustjórnun** \> **Almennt** \> **Þjónustusamningar** \> **þjónustusamningar**. Tvísmella á þjónustusamning til að opna upplýsingaskjámynd.
+1.  Smellur **Þjónustustjórnun** \> **Þjónustusamningar** \> **Þjónustusamningar**. Tvísmella á þjónustusamning til að opna upplýsingaskjámynd.
 
 2.  Á flipanum **Almennt** skal velja reitinn **Æskilegur tæknimaður** og síðan velja meðlim viðeigandi sendingarhóps sem æskilegan tæknimann fyrir þjónustusamninginn.
 

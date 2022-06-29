@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: c43424a0955d7a046186e8a4120c050990df6060
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872095"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015057"
 ---
 # <a name="condition-assessment"></a>Ástandsmat
 
@@ -47,7 +47,7 @@ Skilyrðamat er búið til á eignir. Þú setur upp sniðmát fyrir mat á ást
 
 ## <a name="create-condition-assessment-registration-on-an-asset"></a>Búðu til skráningu á matsástandi á eign
 
-1. Veldu **Eignastýring** > **Sameiginlegt** > **Eignir** > **Allar eignir**.
+1. Veldu **Eignastýring** > **Eignir** > **Allar eignir**.
 2. Í listanum velurðu eignina sem þú vilt stofna skráningu ástandsmats fyrir.
 3. Á flipanum **Almennt** er smellt á **Ástandsmat**.
 4. Smelltu á **Nýtt** til að búa til nýja skráningu.
@@ -62,7 +62,7 @@ Skilyrðamat er búið til á eignir. Þú setur upp sniðmát fyrir mat á ást
 Eftir að þú ert búinn að gera skráningu á ástandsmati á eign geturðu prentað skýrslu um ástandsmat.
 
 >[!NOTE]
->Þú getur líka skráð ástandsmat í verkbeiðnihnappi (**Eignastýring** > **Sameiginlegt** > **Verkbeiðni** > **Allar verkbeiðnir** > **Ástandsmat**.)
+>Einnig er hægt að skrá ástandsmat á verkbeiðni (**Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** > **Ástandsmat** takki.)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

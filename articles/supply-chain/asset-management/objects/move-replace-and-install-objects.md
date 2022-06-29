@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 0a6b5a2904d21782ae422d06eaaf03c5d5e51ab9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872125"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015580"
 ---
 # <a name="move-replace-and-install-assets"></a>Færa, skipta út og setja upp eignir
 
@@ -44,7 +44,7 @@ Notaðu virknina **Færa eign** til að færa eign annaðhvort í aðra eignaski
 > [!NOTE]
 > Ekki nota þessa aðgerð ef verið er að gera við eignir eða skipta tímabundið út. Í staðinn skaltu nota **Skiptu um eign** virkni sem lýst er síðar í þessari grein.
 
-1. Veldu **Eignastýring** \> **Sameiginlegt** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**.
+1. Veldu **Eignastýring** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**.
 2. Á listanum, veljið eign til að færa. Ef eignin er með undireignir þá færir þú líka þessar eignir.
 3. Velja **Færa eign**.
 4. Til að færa eignina þannig að hún verði hluti af eignaskipan skaltu velja nýju yfireignina í reitnum **Yfireign**. Ef þú ert að flytja undireign, og þú vilt gera hana að sjálfstæða eign sem hefur engin tengsl við uppbyggingu, skaltu hafa reitinn **Yfireign** auður.
@@ -58,7 +58,7 @@ Notaðu virknina **Skipta út eign** í tengslum við viðgerðir, endurbætur e
 > [!NOTE]
 > Ef viðgerðarverkstæði er tengd framleiðsludeildinni þinni geturðu búið til virkar staðsetningar eins og **Viðger**, **Rusl**, og **Geymsla** til að sjá um viðgerðir og skipti á eignum.
 
-1. Veldu **Eignastýring** \> **Sameiginlegt** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**.
+1. Veldu **Eignastýring** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**.
 2. Á listanum, veljið undireign til að skipta út. Ef eignin er með undireignir þá skiptir þú um þessar eignir.
 3. Veldu **Skipta út eign**.
 
@@ -79,7 +79,7 @@ Notaðu aðgerðina **Setja upp eign** til að setja upp eignaskipulag á virkan
 > [!NOTE]
 > Veldu alltaf yfireign. Yfireignin og tengdar undireignir verða færðar á valda staðsetningu.
 
-1. Veldu **Eignastýring** \> **Sameiginlegt** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**.
+1. Veldu **Eignastýring** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**.
 2. Veldu listann á yfireignina sem á að setja upp á öðrum virkum stað.
 3. Velja **Setja upp eign**.
 

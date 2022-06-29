@@ -2,63 +2,55 @@
 title: Stofna innkaupapöntun sem stjórnast af fjárhagsáætlun
 description: Nota þetta ferli til að stofna innkaupapöntun sem er athuguð í tiltækri fjárhagsáætlun.
 author: JennySong-SH
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: business-process
-ms.prod: ''
-ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8458fc1f47f929ac612acfb3a2d75a79c8fb7d6
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: aa9777ad3aa487dfb558879335f93f347b8ac749
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671367"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016189"
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>Stofna innkaupapöntun sem stjórnast af fjárhagsáætlun
 
 [!include [banner](../../includes/banner.md)]
 
-Nota þetta ferli til að stofna innkaupapöntun sem er athuguð í tiltækri fjárhagsáætlun. Þessi skráning notar USMF sýnigagnafyrirtæki.
-
+Nota þetta ferli til að stofna innkaupapöntun sem er athuguð í tiltækri fjárhagsáætlun.
 
 ## <a name="review-the-budget-control-configuration"></a>Yfirfara skilgreiningu fjárhagsáætlunarstýringar
-1. Fara í Fjárhagsáætlun > Uppsetning > fjárhagsáætlunarstýring > uppsetning fjárhagsáætlunarstýringar.
-2. Smella á flipann Tiltækt fjármagn úr fjárhagsáætlun.
-3. Smella á flipann Skjöl og færslubækur
-4. Smella á flipann Skilgreina reglur fjárhagsáætlunarstýringar
-5. Smella á flipann Skilgreina fjárhagsáætlunarflokka
-6. Lokið síðunni.
 
-## <a name="create-the-purchase-order-header"></a>Stofna haus innkaupapöntunar
-1. Fara í innkaup og aðföng > innkaupapöntun  > allar innkaupapantanir.
-2. Smellið á „Nýtt“.
-3. Færa inn eða veljið gildi í svæðinu lánardrottnalykill.
-4. Útvíkka eða draga saman hlutann Almennt.
-5. Í reitnum Dagsetning reikningsskila skal stilla dagsetningu á „2016-01-01“.
-6. Smellið á „Í lagi“.
+1. Fara til **Fjárhagsáætlun > Uppsetning > Fjárhagsstýring > Uppsetning fjárhagsáætlunarstýringar**.
+1. Veldu **Fjárveitingar til ráðstöfunar** flipa.
+1. Veldu **Skjöl og dagbækur** flipa.
+1. Veldu **Skilgreina reglur um fjárhagsáætlunareftirlit** flipa.
+1. Veldu **Skilgreindu fjárhagsáætlunarhópa** flipa.
+1. Lokið síðunni.
 
-## <a name="add-a-purchase-order-line"></a>Bæta við innkaupapöntunarlína
-1. Slá inn eða velja gildi í reitnum innkaupategund.
-2. Stilla magn á „2“.
-3. Í reitinn eining skal slá inn eða velja gildi.
-4. Stilla Einingarverð á „10000“.
-5. Smelltu á Fjárhagur.
-6. Smellt er á Dreifa upphæðum.
-7. Í reitnum Fjárhagslykill skal tilgreina gildin „601300-001-023--“.
-8. Lokið síðunni.
+## <a name="create-a-purchase-order"></a>Stofna innkaupapöntun
+
+1. Fara til **Innkaup og innkaup > Innkaupapantanir > Allar innkaupapantanir**.
+1. Veljið **Nýtt**.
+1. Í reitinn **Lánardrottnalykill** skal færa inn eða velja gildi.
+1. Útvíkka **Almennt** flýtiflipa.
+1. Í **Bókhaldsdagur** reit, stilltu dagsetninguna.
+1. Veldu **Allt í lagi** til að loka glugganum og opna nýju innkaupapöntunina þína.
+1. Á **Innkaupapöntunarlínur** Flýtiflipi, veldu **Bæta við línu** af tækjastikunni til að bæta við nýrri línu og fylltu síðan út línuna eftir þörfum til að bæta hlut við pöntunina.
+1. Á **Innkaupapöntunarlínur** Hraðflipi tækjastika, veldu **Fjármál \> Úthluta upphæðum**.
+1. Í **Fjárhagsreikningur** reit, tilgreindu reikning.
+1. Lokið síðunni.
 
 ## <a name="perform-budget-checking"></a>Framkvæma athugun á fjárhagsáætlun
-1. Smelltu á Fjárhagur.
-2. Smella á Framkvæma athugun á fjárhagsáætlun
-3. Smelltu á Fjárhagur.
-4. Smella á athugun á villum eða viðvörunum í fjárhagsáætlun
-5. Smellið á „Loka“.
 
-
+1. Haltu áfram að vinna með innkaupapöntunina sem þú varst að bæta línu við.
+1. Á **Innkaupapöntunarlínur** Hraðflipi tækjastika, veldu **Fjármál \> Framkvæma fjárhagsáætlunarskoðun**.
+1. Á **Innkaupapöntunarlínur** Hraðflipi tækjastika, veldu **Fjármál \> Villur eða viðvaranir við fjárhagsáætlunarskoðun**.
+1. The **Villur eða viðvaranir við fjárhagsáætlunarskoðun** gluggi opnast. Athugaðu niðurstöður athugunarinnar og veldu síðan **Loka** til að loka glugganum.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873667"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016160"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Færibreytur framleiðslu í framkvæmd framleiðslu
 
@@ -63,7 +63,7 @@ Samræmd uppsetning á uppskriftarnotkun er mikilvæg þar sem hún stuðlar að
 
 Fyrir hvert stig gerir reiturinn **Sjálfvirk uppskriftanotkun** þér kleift að velja eina af þremur aðferðum við að taka til vörur fyrir framleiðslupöntun:
 
-- **Losunarregla** – Þessi valkostur er notaður í tengslum við valkost sem er skilgreindur fyrir uppskriftina í einingunni **Framleiðsla**. Smelltu á **Framleiðslustýring** &gt; **Sameiginlegt** &gt; **Framleiðslupantanir** &gt; **Allar framleiðslupantanir**. Á síðunni **Allar framleiðslupantanir** skaltu velja framleiðslupöntun á listanum og smella svo á **Uppskrift** í aðgerðarúðunni. Á síðunni **Uppskrift** á flipanum **Uppsetning**, í reitnum **Losunarregla**, skaltu velja einn af eftirfarandi valkostum:
+- **Losunarregla** – Þessi valkostur er notaður í tengslum við valkost sem er skilgreindur fyrir uppskriftina í einingunni **Framleiðsla**. Smellur **Framleiðslueftirlit** &gt; **Framleiðslupantanir** &gt; **Allar framleiðslupantanir**. Á síðunni **Allar framleiðslupantanir** skaltu velja framleiðslupöntun á listanum og smella svo á **Uppskrift** í aðgerðarúðunni. Á síðunni **Uppskrift** á flipanum **Uppsetning**, í reitnum **Losunarregla**, skaltu velja einn af eftirfarandi valkostum:
 
   - **Ræsa**
   - **Ljúka**

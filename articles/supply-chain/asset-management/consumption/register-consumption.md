@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf78d53e8e2d7bee24a0a7789ca1a96cdd8f1415
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 588da2a217a56d2bc25f85c9a10c6589f90b16a1
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886045"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015086"
 ---
 # <a name="register-consumption"></a>Skrá notkun
 
@@ -35,7 +35,7 @@ ms.locfileid: "8886045"
 >[!NOTE]
 >Það er mögulegt að setja upp sjálfvirka bókun færslubóka í líftímastöður verkbeiðni. Sjá [Líftímastöður verkbeiðni](../setup-for-work-orders/work-order-lifecycle-states.md) fyrir meiri upplýsingar.
 
-1. Smelltu á **Eignastýringu** > **Sameiginlegt** > **Vinnufyrirmæli** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
+1. Smellur **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
 
 2. Veldu verkbeiðnina og smelltu á **Færslubækur**.
 
@@ -61,7 +61,7 @@ Skjámyndin hér að neðan sýnir dæmi um skráningu klukkutíma og vöru í v
 
 Ef verkbeiðni inniheldur nokkur verkbeiðniverk geturðu skráð vinnutíma með því að nota virknina **Skipta tímum**, sem þýðir að klukkustundar skráningarlínu má dreifa jafnt um hvert verkbeiðniverk.
 
-1. Smelltu á **Eignastýringu** > **Sameiginlegt** > **Vinnufyrirmæli** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
+1. Smellur **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
 
 2. Veldu verkbeiðnina og smelltu á **Færslubækur**.
 

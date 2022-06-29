@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6f12b0dd1facc753bfcde820eea26a4052caf67
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 376cda6bbe1800611e6f24c347b9035469a30a14
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882403"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015173"
 ---
 # <a name="service-order-item-requirements"></a>Vöruþörf þjónustupantana
 
@@ -36,7 +36,7 @@ Um leið og vöruþörf er stofnuð fyrir þjónustupöntun er hægt að skoða 
 
 ## <a name="view-an-item-requirement-from-a-service-order"></a>Skoða vöruþörf úr þjónustupöntun
 
-1. Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+1. Fara til **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 1. Veldu **Afgreiða** og veldu síðan **Vöruþörf** til að opna skjámyndina **Vöruþarfir**.
 1. Veldu flipann **Verkefni** og athugaðu reitinn **Þjónustupöntun** til að sjá þjónustupantanir vörukröfunnar.
 
@@ -44,13 +44,13 @@ Um leið og vöruþörf er stofnuð fyrir þjónustupöntun er hægt að skoða 
 
 Ef vöruþörf er búin til í þjónustupöntun er ekki hægt að eyða þjónustupöntuninni. Fyrst þarf að eyða vöruþörfinni áður en hægt er að eyða þjónustupöntuninni.
 
-1. Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+1. Fara til **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 1. Veldu **Afgreiða** og veldu síðan **Vöruþörf** til að opna skjámyndina **Vöruþarfir**. Skjámyndin birtir lista yfir vöruþarfir sem eru myndaðar á þjónustupöntun.
 1. Veldu vöruþörfina sem á að eyða og veldu síðan **Eyða**.
 
 – eða –
 
-1. Opnið **Verkefnastjórnun og bókhald** \> **Almennt** \> **Verk** \> **Öll verk**.
+1. Opnaðu **Verkefnastjórnun og bókhald** \> **Verk** \> **Öll verk**.
 1. Opnaðu verkefnið sem hefur þjónustupöntun þar sem vörukrafa er búin til.
 1. Í skjámyndinni **Verkefni**, í hægri glugganum, skal velja **Vöruþarfir**. Skjámyndin **Vöruþörf** birtir lista yfir vöruþarfir sem eru tengdar völdu verki.
 1. Veldu vöruþörfina sem á að eyða og veldu síðan **Eyða**.

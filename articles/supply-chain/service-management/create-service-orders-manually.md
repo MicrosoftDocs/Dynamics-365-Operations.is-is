@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f969e3de9586c0c47214201b34a16f8afad5ca90
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1764d97d4492e7b982a5d2c9f7e7f1c15380be1d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678263"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014852"
 ---
 # <a name="create-service-orders-manually"></a>Stofna þjónustupantanir handvirkt    
 
@@ -34,7 +34,7 @@ ms.locfileid: "8678263"
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Búðu til þjónustupöntun handvirkt út frá þjónustusamningi
 
-1.  Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustusamningar** \> **þjónustusamningar**.
+1.  Veldu **Þjónustustjórnun** \> **Þjónustusamningar** \> **Þjónustusamningar**.
 
 2.  Veljið þjónustusamning eða stofnið nýjan þjónustusamning.
 
@@ -42,7 +42,7 @@ ms.locfileid: "8678263"
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>Stofna þjónustupöntun handvirkt í skjámyndinni Þjónustupantanir
 
-1.  Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+1.  Veldu **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 
 2.  Veljið **Nýtt** til að stofna nýja þjónustupöntun.
 
@@ -53,7 +53,7 @@ ms.locfileid: "8678263"
 
 ## <a name="create-a-service-order-from-a-project"></a>Búðu til þjónustupöntun frá verkefni
 
-1.  Opnið **Verkefnastjórnun og bókhald** \> **Almennt** \> **Verk** \> **Öll verk**.
+1.  Opnaðu **Verkefnastjórnun og bókhald** \> **Verk** \> **Öll verk**.
 
 2.  Í **Verkefni** skjámynd, á **Aðgerðasvæði** skal velja **Stjórna** flipann \> velja **Þjónusta** \> **Þjónustupantanir**.
 
@@ -66,7 +66,7 @@ ms.locfileid: "8678263"
 
 Þú getur búið til þjónustupöntun út frá **Sölupantanir** skjámynd með því að nota **Stofna nýjan þjónustupöntun sem byggist á sölupöntunar** hjálpinni.
 
-1.  Farðu í **Sala og markaðssetning** \> **Almennt** \> **Sölupantanir** \> **Allar sölupantanir**.
+1.  Farðu í **Sölu og markaðssetningu** \> **Sölupantanir** \> **Allar sölupantanir**.
 
 2.  Viðeigandi sölupöntun er opnuð.
 

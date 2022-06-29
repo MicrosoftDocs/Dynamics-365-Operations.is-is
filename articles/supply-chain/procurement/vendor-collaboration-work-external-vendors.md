@@ -1,6 +1,6 @@
 ---
 title: Samstarf lánardrottna með ytri lánardrottnum
-description: Þessi grein útskýrir hvernig innkaupaaðilar geta unnið með ytri lánardrottnum til að skiptast á upplýsingum um innkaupapantanir og vörusendingar.
+description: Þessi grein útskýrir hvernig innkaupaaðilar geta unnið með ytri lánardrottnum til að skiptast á upplýsingum um innkaupapantanir og vörusendingarbirgðir.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: article
@@ -15,23 +15,20 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 25561802996514f6f60fc9400c22dc61a30ef1c8
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907291"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023789"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Samstarf lánardrottna með ytri lánardrottnum
 
 [!include [banner](../includes/banner.md)]
 
-Kerfiseiningin **Samstarf lánardrottna** er ætluð lánardrottnum sem eru ekki með samþættingu rafrænna gagnaskipta (EDI) við Microsoft Dynamics 365 Supply Chain Management. Það gerir söluaðilum kleift að vinna með innkaupapantanir (POs), reikninga, upplýsingar um vöruskiptabirgðir og beiðni um tilboð (RFQs) og leyfir þeim einnig að fá aðgang að hluta lánardrottinssniðmáts. Þessi grein útskýrir hvernig þú getur unnið með utanaðkomandi lánardrottnum sem nota samstarfsviðmót lánardrottins til að vinna með innkaupapöntunum, beiðnir um tilboð og vörusendingar. Það útskýrir einnig hvernig á að virkja tiltekinn lánardrottinn til að nota samstarf lánardrottna og hvernig á að skilgreina þær upplýsingar sem allir lánardrottnar sjá þegar þeir svara Innkaupapöntun.
+Kerfiseiningin **Samstarf lánardrottna** er ætluð lánardrottnum sem eru ekki með samþættingu rafrænna gagnaskipta (EDI) við Microsoft Dynamics 365 Supply Chain Management. Það gerir söluaðilum kleift að vinna með innkaupapantanir (POs), reikninga, upplýsingar um vöruskiptabirgðir og beiðni um tilboð (RFQs) og leyfir þeim einnig að fá aðgang að hluta lánardrottinssniðmáts. Þessi grein útskýrir hvernig hægt er að vinna með utanaðkomandi lánardrottnum sem nota samstarfsviðmót lánardrottins til að vinna með innkaupapöntunum, beiðnir um tilboð og vörusendingar. Það útskýrir einnig hvernig á að virkja tiltekinn lánardrottinn til að nota samstarf lánardrottna og hvernig á að skilgreina þær upplýsingar sem allir lánardrottnar sjá þegar þeir svara Innkaupapöntun.
 
 Fyrir frekari upplýsingar um hvaða ytri lánardrottnum geta gert viðmót fyrir samstarf lánardrottna , sjá [samstarf lánardrottna við viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md).
-
-> [!NOTE]
-> Upplýsingarnar um samstarf lánardrottna í þessari grein eiga aðeins við um núverandi útgáfu af Supply Chain Management. Í Microsoft Dynamics AX 7.0 (febrúar 2016) og Microsoft Dynamics AX forritaútgáfu 7.0.1 (maí 2016) notarðu kerfiseininguna **Gátt lánardrottins** fyrir samskipti við lánardrottna. Upplýsingar um kerfiseininguna **Gátt lánardrottins** er að finna í [Samstarf með lánardrottnum í gegnum Gátt lánardrottins](collaborate-vendors-vendor-portal.md).
 
 Sjá frekari upplýsingar um hvernig lánardrottnum geta notað samstarf lánardrottna í reikningsfærslu ferli, sjá [vinnusvæði reikningsfærslu fyrir samstarf lánardrottna](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Fyrir upplýsingar um hvernig á að gera ráðstafanir fyrir nýja notendur samstarfs lánardrottna, sjá [Stjórna notendum samstarfs lánardrottna](manage-vendor-collaboration-users.md).
 
@@ -57,8 +54,25 @@ Stjórnandi skilgreinir almennar stillingar fyrir samstarf lánardrottins, svo s
 
 Áður en hægt er að stofna notendareikningar fyrir ytri lánardrottinn, þarf að skilgreina lánardrottnalykilinn sem leyfir þeim að nota samstarf lánardrottna. Á síðunni **Lánardrottnar** á **Almennt** flipanum skal stilla **Virkja samstarf** svæðið. Eftirtaldir valkostir eru í boði:
 
-- **Virk (Innkaupapöntun er staðfest sjálfkrafa)** - Innkaupapantanir eru sjálfkrafa staðfestar ef lánardrottinn samþykkir þær án breytinga.
+- **Virk (Innkaupapöntun er staðfest sjálfkrafa)** - Innkaupapantanir eru sjálfkrafa staðfestar ef lánardrottinn samþykkir þær án breytinga. Ef þú notar þennan valkost, vertu viss um að tímasetja *Staðfestu samþykktar innkaupapantanir frá samstarfi lánardrottins* lotuvinna, sem sér um úrvinnslu staðfestinganna. Fyrir leiðbeiningar, sjá næsta kafla.
 - **Virk (Innkaupapöntun er ekki staðfest sjálfkrafa)** - Innkaupapantanir þarf að vera handvirkt staðfest af fyrirtæki þitt eftir að lánardrottni hefur samþykkt þau.
+
+### <a name="scheduling-the-auto-confirmation-batch-job"></a>Áætlun um sjálfvirka staðfestingarlotuvinnu
+
+Ef þú notar **Virkt (PO er sjálfkrafa staðfest)** valmöguleika fyrir einn eða fleiri af söluaðilum þínum (eins og lýst er í fyrri hluta), verður þú að tímasetja *Staðfestu samþykktar innkaupapantanir frá samstarfi lánardrottins* lotuvinna, sem ber ábyrgð á vinnslu og staðfestingu innkaupastaða þinna. Annars munu sjálfvirkar staðfestingar aldrei eiga sér stað. Notaðu eftirfarandi aðferð til að skipuleggja þetta verk.
+
+1. Fara til **Innkaup og innkaup \> Kaup pantanir \> Staðfesting á innkaupapöntun \> Staðfestu samþykktar innkaupapantanir frá samstarfi lánardrottins**.
+1. Í **Staðfestu samþykktar innkaupapantanir frá samstarfi lánardrottins** valmynd, á **Hlaupa í bakgrunni** Flýtiflipi, veldu **Endurkoma**.
+1. Í **Skilgreindu endurtekningu** valmynd, skilgreindu áætlunina sem verkið ætti að keyra á. Þegar þú velur áætlun þína skaltu íhuga eftirfarandi atriði:
+
+    - Ef kerfið þitt vinnur mikið magn af gögnum og keyrir mörg runuvinnu, gæti frammistaða verið vandamál. Í þessu tilviki ættirðu líklega ekki að keyra þetta verk oftar en á 10 mínútna fresti (fer eftir öðrum kröfum þínum). Ef árangur er ekki vandamál fyrir þig geturðu keyrt það eins oft og á 1 til 2 mínútna fresti ef þörf krefur.
+    - Ef söluaðilar þínir hafa tilhneigingu til að afhenda vörur fljótt (innan þess dags sem þeir samþykktu), ætti endurtekningin að vera tíð (á 10 til 30 mínútna fresti eða svo). Þannig munu vöruhúsastarfsmenn geta tekið á móti vörunum á móti staðfestri innkaupapöntun eftir að staðfesting er lokið.
+    - Ef söluaðilar þínir hafa tilhneigingu til að hafa langan afgreiðslutíma (meira en 24 klukkustundir) geturðu stillt þetta verkefni til að keyra aðeins einu sinni á dag eða svo.
+
+1. Veldu **Allt í lagi** til að nota áætlunina þína og fara aftur í **Staðfestu samþykktar innkaupapantanir frá samstarfi lánardrottins** valmynd.
+1. Stilltu fleiri bakgrunnsvalkosti eftir þörfum. Valmyndin veitir venjulega valkosti til að setja upp runuvinnslur í Supply Chain Management.
+
+Fyrir frekari upplýsingar um lotustörf, sjá [Yfirlit yfir lotuvinnslu](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Tilgreina hvort lánardrottinn ætti að sjá verðupplýsingar
 

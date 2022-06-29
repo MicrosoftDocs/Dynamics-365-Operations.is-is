@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 25e9139ce57283482d8da4b7f1e5d6275c74ad28
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 70b83de50105cf664bbc6b6095203d01d83cd79b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854530"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016682"
 ---
 # <a name="maintenance-checklists"></a>Viðhaldsgátlistar
 
@@ -35,7 +35,7 @@ Viðhaldsgátlistar eru settir upp á tegundum viðhaldsverka. Þú fyllir út v
 
 ## <a name="fill-in-a-maintenance-checklist"></a>Fylltu út viðhaldsgátlista
 
-1. Smelltu á **Eignastýringu** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
+1. Smellur **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
 
 2. Veldu verkbeiðni og síðan á aðgerðarrúðunni, á flipanum **Verkbeiðni**, í hópnum **Línur**, velurðu **Viðhaldsgátlisti**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9dfda0511e059de21a5d04f8eb4c5c0937eb88aa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d81a8170330479b8470aaa3e388861a2251aec52
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670637"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015871"
 ---
 # <a name="view-the-start-time-and-duration-of-a-service-order"></a>Skoða upphafstíma og tímalengd þjónustupöntunar 
 
@@ -33,19 +33,19 @@ Einnig er hægt að skoða hvenær tímaskráningin fyrir þjónustupöntunina v
 
 ## <a name="view-the-start-time-for-a-service-order"></a>Skoða upphafstíma fyrir þjónustupöntun
 
-1.  Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**. Velja og tvísmella á pöntun til að opna upplýsingaskjámynd.
+1.  Smellur **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**. Velja og tvísmella á pöntun til að opna upplýsingaskjámynd.
 
 2.  Á flipanum **Almennt** skaltu skoða tímann þegar verkið var hafið fyrir þjónustupöntun í reitnum **Upphafstími**.
 
 ## <a name="view-the-time-remaining-to-complete-a-service-order"></a>Skoða tímann sem eftir er til að ljúka við þjónustupöntun
 
-1.  Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**. Velja og tvísmella á pöntun til að opna upplýsingaskjámynd.
+1.  Smellur **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**. Velja og tvísmella á pöntun til að opna upplýsingaskjámynd.
 
 2.  Á flipanum **Almennt** skaltu skoða tímann sem eftir er til að ljúka við þjónustupöntun í reitnum **Nýjasti verklokatími**.
 
 ## <a name="view-the-start-time-and-stop-time-recording-entries-for-a-service-order"></a>Skoða skráningarfærslu upphafstíma og stöðvunartíma fyrir þjónustupöntun
 
-1.  Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**. Velja og tvísmella á pöntun til að opna upplýsingaskjámynd.
+1.  Smellur **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**. Velja og tvísmella á pöntun til að opna upplýsingaskjámynd.
 
 2.  Á **Aðgerðasvæði** skaltu smella á flipann **Sending** \> **Tímaskráning** til að opna skjámyndina **SLA-tímaskráning** og skoða tímaskráningarfærslur fyrir þjónustupöntun.
 

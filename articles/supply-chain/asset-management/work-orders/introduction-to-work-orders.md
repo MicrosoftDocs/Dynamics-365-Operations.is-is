@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dcee5fd729de6e96d57462879f7851756f287dc9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 5eb911ec4ba9655c4ecaea3bf9a4f8736fa036c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902832"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016711"
 ---
 # <a name="introduction-to-work-orders"></a>Kynning á verkbeiðnum
 
@@ -47,15 +47,15 @@ Hægt er að búa til verkbeiðnir á eftirfarandi hátt:
 
 ## <a name="all-work-orders"></a>Allar verkbeiðnir
 
-Veldu **Eignastýring** > **Sameiginlegt** > **Verkbeiðni** > **Allar verkbeiðnir** til að opna listasíðuna **Allar verkbeiðnir**. Þessi síða sýnir allar verkbeiðnir og nokkrar af þeim upplýsingum sem tengjast hverri.
+Veldu **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** að opna **Allar vinnupantanir** listasíðu. Þessi síða sýnir allar verkbeiðnir og nokkrar af þeim upplýsingum sem tengjast hverri.
 
 Myndin hér að neðan sýnir dæmi um listasíðuna **Allar verkbeiðnir**.
 
 ![Mynd 1.](media/01-work-orders.png)
 
-Til að skoða yfir aðeins virkar verkbeiðnir velurðu **Eignastjórnun** > **Sameiginlegt** > **Verkbeiðnir** > **Virkar verkbeiðnir**. 
+Til að skoða lista yfir aðeins virkar vinnupantanir skaltu velja **Eignastýring** > **Verkbeiðnir** > **Virkar vinnupantanir**. 
 
-Til að skoða lista yfir verkbeiðnivinnslur sem innihalda eignir sem eru settar upp á virkar staðsetningar sem þú tengist sem starfskraftur, velurðu **Eignastjórnun** > **Sameiginlegt** > **Verkbeiðnir** > **Mínar viðhaldsbeiðnir á virkri staðsetningu**. (Samband starfskrafta og virkra staðsetninga er sett upp á síðunni **Starfskraftar**. Sjá frekari upplýsingar [Viðhaldsstarfsmenn og starfsmannahópar](../setup-for-objects/workers-and-worker-groups.md).)
+Til að skoða lista yfir verkbeiðniverk sem innihalda eignir sem eru settar upp á virkum stöðum sem þú tengist sem starfsmaður skaltu velja **Eignastýring** > **Verkbeiðnir** > **Viðhaldsstörfin mín fyrir starfræna staðsetningu verkbeiðni**. (Samband starfskrafta og virkra staðsetninga er sett upp á síðunni **Starfskraftar**. Sjá frekari upplýsingar [Viðhaldsstarfsmenn og starfsmannahópar](../setup-for-objects/workers-and-worker-groups.md).)
 
 Hér eru nokkrar leiðir sem hægt er að nota síðuna **Allar verkbeiðnir**:
 

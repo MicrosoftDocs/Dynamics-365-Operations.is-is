@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 78ed94ced246157daafbc482ce674cda6579f930
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 99c28c2bff7b683f3e92dea4ba24d8bead556443
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881298"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027310"
 ---
 # <a name="manage-seo-metadata"></a>Stjórna SEO-lýsigögnum
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Þessi grein lýsir því hvernig á að stjórna leitarvélabestun (SEO) lýsigögnum í Microsoft Dynamics 365 Commerce.
 
@@ -67,9 +66,9 @@ Til að breyta lýsigögnum síðu skal fylgja þessum skrefum.
 1. Í stýriglugganum vinstra megin velurðu **Síður**.
 1. Veldu heimasíðuna til að opna hana í ritlinum.
 1. Á skipanastikunni velurðu **Breyta**.
-1. Í síðuritlinum, efst á útlínurstýringu síðunnar til vinstri, veldu **Útlínur ham valkostur** (gírtákn) og veldu síðan **Ítarleg yfirlitsmynd**.
+1. Í síðuritlinum, efst á útlínurstýringu síðunnar til vinstri, veldu **Útlínur hamur valkostur** (gírtákn) og veldu síðan **Ítarleg yfirlitsmynd**.
 1. Í yfirlitsskjánum skaltu stækka tréstýringarnar til að sýna innihald **HTML höfuð** rifa.
-1. Í **HTML höfuð** rauf, veldu þá SEO einingu sem þú vilt (til dæmis, **Yfirlit síðu**, **vörusíðu**, **yfir flokkasíða**, eða **Lýsimerki**).
+1. Í **HTML höfuð** rauf, veldu þá SEO einingu sem þú vilt (til dæmis, **Yfirlit síðu**, **vörusíðu**, **yfir flokkasíðu**, eða **Lýsimerki**).
 1. Í eiginleikarúðunni hægra megin, breyttu viðkomandi SEO gögnum fyrir valda SEO einingu (til dæmis, **Titill**, **·**, eða **Deilir mynd**).
 1. Veldu **Vista** og síðan **Ljúka við breytingar**.
 1. Í **Athugasemdir** reit, slá inn **Uppfærð SEO gögn**, og veldu síðan **Allt í lagi**.
@@ -77,7 +76,7 @@ Til að breyta lýsigögnum síðu skal fylgja þessum skrefum.
 1. Velja **Birta**.
 
 > [!TIP]
-> Höfundar geta notað **Útlínur ham valkostur** (gírtákn) efst á vinstri útlínumstýringu í síðuritlinum til að skipta á milli **Grunnyfirlit** og **Ítarleg yfirlitsmynd**. **Grunnyfirlit** er sjálfgefin stilling og síar útlínurnar þannig að þær sýni aðeins einingar í **Líkami** HTML rauf fyrir síðu. **Ítarleg yfirlitsmynd** sýnir alla síðueininguna, þar á meðal **HTML höfuð**, **byrjar**, og **Líkamslok** rifa. Þetta útsýni er gagnlegt þegar höfundar verða að breyta tilteknum SEO eða skriftareiningarstillingum fyrir síðu.
+> Höfundar geta notað **Útlínur hamur valkostur** (gírtákn) efst á vinstri útlínumstýringu í síðuritlinum til að skipta á milli **Grunnyfirlit** og **Ítarleg yfirlitsmynd**. **Grunnyfirlit** er sjálfgefin stilling og síar útlínurnar þannig að þær sýni aðeins einingar í **Líkami** HTML rauf fyrir síðu. **Ítarleg yfirlitsmynd** sýnir alla síðueininguna, þar á meðal **HTML höfuð**, **byrjar**, og **Líkamslok** rifa. Þetta útsýni er gagnlegt þegar höfundar verða að breyta tilteknum stillingum fyrir SEO eða forskriftareiningu fyrir síðu.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

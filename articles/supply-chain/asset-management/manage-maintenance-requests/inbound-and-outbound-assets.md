@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e0c382efda81067ad4c0cd977e5cfbf37b4e3fc6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: fd7482cfe943347840e9fb070151d66fbe5ef9ca
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908715"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016537"
 ---
 # <a name="inbound-and-outbound-assets"></a>Eignir á innleið og útleið
 
@@ -37,7 +37,7 @@ Uppsetning eignastýringar ákvarðar hvort þú getur unnið eignir á innleið
 
 ## <a name="register-assets-as-inbound"></a>Skráðu eignir sem á innleið
 
-1. Veldu **Eignastýring** \> **Sameiginlegt** \> **Viðhaldsbeiðnir** \> **Virkar viðhaldsbeiðnir**.
+1. Veldu **Eignastýring** \> **Viðhaldsbeiðnir** \> **Virkar viðhaldsbeiðnir**.
 2. Veljið viðhaldsbeiðnina.
 3. Veldu **Uppfæra stöðu viðhaldsbeiðni**.
 4. Veldu **Á innleið** (eða aðra líftímastöðu sem þú hefur búið til fyrir eignir á innleið) og veldu síðan **Í lagi**.
@@ -46,7 +46,7 @@ Uppsetning eignastýringar ákvarðar hvort þú getur unnið eignir á innleið
 
 ## <a name="register-inbound-assets-as-received"></a>Skrá eignir á innleið sem mótteknar
 
-1. Veldu **Eignastýring** \> **Sameiginlegt** \> **Innleið/útleið** \> **Eignir á innleið**.
+1. Veldu **Eignastýring** \> **Á heimleið/útleið** \> **Eignir á heimleið**.
 2. Veljið eignina eða viðhaldsbeiðnina.
 3. Veldu **Taka á móti eignum**.
 4. Í reitnum **Móttekið** skaltu slá inn dagsetningu og tíma. Veljið síðan **Í lagi**. Gögnin eru tekin af listasíðunni **Eignir á innleið**.
@@ -57,14 +57,14 @@ Uppsetning eignastýringar ákvarðar hvort þú getur unnið eignir á innleið
 
 Þegar þú hefur lokið viðhalds- eða viðgerðarstörfum geturðu skráð eignina sem skilað.
 
-1. Veldu **Eignastýring** \> **Sameiginlegt** \> **Viðhaldsbeiðnir** \> **Virkar viðhaldsbeiðnir**.
+1. Veldu **Eignastýring** \> **Viðhaldsbeiðnir** \> **Virkar viðhaldsbeiðnir**.
 2. Veljið viðhaldsbeiðnina.
 3. Veldu **Uppfæra stöðu viðhaldsbeiðni**.
 4. Veldu **Á útleið** (eða aðra líftímastöðu sem þú hefur búið til fyrir eignir á útleið) og veldu síðan **Í lagi**.
 
 ## <a name="register-outbound-assets-as-delivered"></a>Skráðu eignir á útleið sem afhentar
 
-1. Veldu **Eignastýring** \> **Sameiginlegt** \> **Innleið/útleið** \> **Eignir á útleið**.
+1. Veldu **Eignastýring** \> **Á heimleið/útleið** \> **Eignir á útleið**.
 2. Veljið eignina eða viðhaldsbeiðnina.
 3. Veldu **Skila eignum**.
 4. Í reitnum **Afhent** skaltu slá inn dagsetningu og tíma. Veljið síðan **Í lagi**. Gögnin eru tekin af listasíðunni **Eignir á útleið**.

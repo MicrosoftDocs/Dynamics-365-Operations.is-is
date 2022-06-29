@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 80f0380d50a0c050242846c0c3e70bc1a0bd6bf5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: df1e1fe352add8361309df54b2178ec27752466d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880452"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016798"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Spár, verkbeiðnir og verk
 
@@ -60,7 +60,7 @@ Til dæmis, á eftirfarandi mynd, vegna þess hvernig eignategundin **Vörubíll
 
 ![Mynd 1.](media/01-integration-to-pma.png)
 
-Tilgangurinn með auðkenni verkefnisins í vinnupöntunarstörfinu, og tilheyrandi athafnanúmeri, er að rekja kostnað sem er tengdur vinnu pöntunarstarfinu og eigninni sem er valin á það, í einingunni **Verkefnisstjórnun og bókhald**. (Til að skoða auðkenni verkefnisins og aðgerðarnúmerið, veldu **Eignastýring** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** og veldu síðan verkbeiðnina. Á flýtiflipanum **Línulýsing** sýnir reiturinn **Verkkenni** auðkenni verksins og reiturinn **Aðgerðarnúmer** sýnir númer aðgerðar.) Sjá frekari upplýsingar um kostnaðarstýringu í eignastýringu [Stjórnun kostnaðar og dagsetningar](../controlling-and-reporting/cost-and-date-control.md).
+Tilgangurinn með auðkenni verkefnisins í vinnupöntunarstörfinu, og tilheyrandi athafnanúmeri, er að rekja kostnað sem er tengdur vinnu pöntunarstarfinu og eigninni sem er valin á það, í einingunni **Verkefnisstjórnun og bókhald**. (Til að skoða verkefnakenni og virkninúmer skaltu velja **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir**, og veldu síðan verkbeiðnina. Á flýtiflipanum **Línulýsing** sýnir reiturinn **Verkkenni** auðkenni verksins og reiturinn **Aðgerðarnúmer** sýnir númer aðgerðar.) Sjá frekari upplýsingar um kostnaðarstýringu í eignastýringu [Stjórnun kostnaðar og dagsetningar](../controlling-and-reporting/cost-and-date-control.md).
 
 Eftirfarandi mynd sýnir myndrænt yfirlit yfir verkbeiðniverk og skyldar aðgerðir verkefnis.
 

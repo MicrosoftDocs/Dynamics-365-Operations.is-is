@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b372e7d06fdf25df81b11e74e20a5ff214503a0c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 6c2a1a30fe3f1c86d316cc04bf88b428369e7f14
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852129"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014793"
 ---
 # <a name="create-service-objects"></a>Stofna þjónustuhluti  
 
@@ -29,9 +29,9 @@ ms.locfileid: "8852129"
 Þjónustuhlutir eru eignir og afurðir viðskiptavinar sem hægt er að framkvæma þjónustu við.
 
 1. Farðu í **Þjónustustjórnun** \> **Uppsetning** \> **Þjónustuhlutar** \> **Þjónustuhlutar**.
-2. Á tækjastikunni skal velja **Nýr**.
+2. Í aðgerðarúðunni velurðu **Nýtt**.
 3. Í reitnum **Lýsing** er færð inn lýsing á hlutnum.
-4. Í reitnum **Þjónustuhlutaflokkur** er flokkurinn sem á við hlutinn valinn. 
+4. Í reitnum **Þjónustuhlutaflokkur** er flokkurinn sem á við hlutinn valinn.
 5. Valfrjálst: Velja vöru fyrir þjónustuhlutalínuna eða velja sniðmátsuppskrift.
 
 ## <a name="related-articles"></a>Tengdar greinar

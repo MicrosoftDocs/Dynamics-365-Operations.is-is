@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1db12600aa47f537da6918c82ef3164c2123a8ac
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2b90618d5d283b16ac8374f3b8b2df48611ba270
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670805"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014664"
 ---
 # <a name="service-level-agreements-overview"></a>Yfirlit þjónustustigssamninga       
 
@@ -50,7 +50,7 @@ Hægt er að jafn marga þjónustustigssamninga og þörf er á til þess að bj
 
 ## <a name="apply-the-service-level-agreement-to-the-service-agreement"></a>Nota þjónustustigssamning í þjónustusamningi
 
-1.  Smellið á **Þjónustustjórnun** \> **Almennt** \> **Þjónustusamningar** \> **þjónustusamningar**. Veldu þjónustusamning sem þú vilt nota SLA í og smelltu síðan á **Breyta** á **Aðgerðasvæðinu**.
+1.  Smellur **Þjónustustjórnun** \> **Þjónustusamningar** \> **Þjónustusamningar**. Veldu þjónustusamning sem þú vilt nota SLA í og smelltu síðan á **Breyta** á **Aðgerðasvæðinu**.
 
 2.  Í reitnum **Þjónustustigssamningur** skal velja SLA sem á að úthluta.
 

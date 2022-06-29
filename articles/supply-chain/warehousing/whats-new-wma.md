@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
-ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
-ms.translationtype: HT
+ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945724"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954664"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Þessi grein sýnir nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af Warehouse Management farsímaforritinu fyrir Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20250"></a>Útgáfa 2.0.25.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+
+- Aukin frammistaða.
+- Aukinn stöðugleiki.
+- Bætti **Fyrirspurn** síðu til að styðja lengri texta í undirhausum.
+- Kynnti möguleikann á að hætta strax við flæði með einum smelli eða smelli (hvenær **Hætta við** er eina aðgerðin í boði skv **Fleiri aðgerðir**).
+- Lagaði mál þar sem fókus gæti stundum tapast á milli aðgangsstýringa á **Breyta tengingu** síðu og sérsniðnar síður.
+- Lagaði vandamál þar sem hnappar gátu stundum orðið óviðbragðslausir og haldist sýndir sem valdir þegar þeir voru teknir með í flettiskjá.
+- Lagaði vandamál þar sem stundum var hægt að nota rangt skipulag á aðalsíðunni.
 
 ## <a name="version-20240"></a>Útgáfa 2.0.24.0
 
@@ -31,7 +43,7 @@ ms.locfileid: "8945724"
 - Bættar bendingar, eins og snerti-/snertiskjár.
 - Bætt frammistöðuvandamál fyrir Android.
 - Föst staðsetning margra hausa til að leyfa fleiri spilum að birtast á **Fyrirspurn** síðu.
-- Bætt skrun þannig að minni fjarlægð til að fletta blaðsíðu er virkjuð.
+- Bætt skrun þannig að kveikt er á minni fjarlægð til að fletta blaðsíðugerð.
 - Bætt við löngu ýttu til að birta viðbótartexta á **Fyrirspurn** síðu.
 - Lagað vantar upplýsingar um auðkenni tækis fyrir Android.
 - Aukinn stöðugleiki.
@@ -44,11 +56,11 @@ ms.locfileid: "8945724"
 
 - Lagaði nokkur hrunvandamál.
 - Lagaði vandamál þar sem sumir stafir myndu ekki þekkjast þegar verið var að skanna eða slá inn á sjálfgefna síðu.
-- Lagaði vandamál þar sem að slá inn bakhlið á sjálfgefna síðunni myndi eyða tveimur stöfum í einu.
-- Lagaði mál þar sem **Raða eftir** sviði á **Verklisti** síða myndi birta rangt gildi sem samsvaraði ekki raunverulegri röðunarröð kortanna.
+- Lagaði mál þar sem að slá inn bakhlið á sjálfgefna síðunni myndi eyða tveimur stöfum í einu.
+- Lagaði mál þar sem **Raða eftir** sviði á **Vinnulisti** síða myndi birta rangt gildi sem samsvaraði ekki raunverulegri röðunarröð kortanna.
 - Lagaði vandamál þar sem rangt skipulag birtist eftir að stærð forritsgluggans var breytt á meðan það var keyrt áfram Microsoft Windows.
-- Lagaði vandamál þar sem skrunun í sprettigluggalista gæti leitt til þess að sum listaatriði haldist falin eða brenglast.
-- Endurhannað innskráningarsíðuna til að láta hana birta notendanafn og lykilorð svæði á sömu síðu þegar hún er keyrð á stærri skjám.
+- Lagaði vandamál þar sem skrunun í sprettiglugga gæti leitt til þess að sum listaatriði haldist falin eða brenglast.
+- Endurhannað innskráningarsíðuna til að láta hana birta notandanafn og lykilorð svæði á sömu síðu þegar hún er keyrð á stærri skjáum.
 - Bætt hvernig stjórntæki bregðast við hröðum banka.
 - Bætt við villuskráningu í forriti.
 - Bætti við nokkrum aðgengisumbótum (bætt frásögn, fastir vantar staðgenglar á Android, virkt lyklaborðsinntak fyrir sleðastýringar og fleira).
@@ -58,16 +70,16 @@ ms.locfileid: "8945724"
 Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
 
 - Lagaði nokkur hrunvandamál.
-- Lagaði vandamál þar sem röng gildi myndu birtast á spjöldum á **Verklisti** síðu.
-- Bætti skrunupplifunina og útrýmdi skrunflisi á **Verklisti** og **Atriðafyrirspurn** síður inn Android.
-- Bætti útgönguhnappi við innskráningarsíðuna, sem hættir forritinu.
+- Lagaði vandamál þar sem röng gildi myndu birtast á spjöldum á **Vinnulisti** síðu.
+- Bætti skrunupplifunina og útrýmdi skrunflisi á **Vinnulisti** og **Atriðafyrirspurn** síður inn Android.
+- Bætti lokahnappi við innskráningarsíðuna, sem hættir forritinu.
 
 ## <a name="version-20190"></a>Útgáfa 2.0.19.0
 
 Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
 
-- Bætt almenna gagnafyrirspurnarflæðið.
-- Bætti pirrandi málið á **Verklisti** og **Atriðafyrirspurn** síður.
+- Bættu almenna gagnafyrirspurnarflæðið.
+- Bætti pirrandi málið á **Vinnulisti** og **Atriðafyrirspurn** síður.
 - Minni rafhlöðunotkun.
 - Fjarlægði takmörk á fjölda reita fyrir vinnukort.
 - Hæð vinnukorta var stillt þannig að þau hafi öll sömu stærð, óháð fjölda reita í hverju.
@@ -84,14 +96,14 @@ ms.locfileid: "8945724"
 - Lagaði vandamál þar sem strikamerki voru skannaður rangt.
 - Lagaði GS1 skönnunarvandamálið fyrir myndavélarskannarann.
 - Lagaði GS1 skönnunarvandamálið fyrir strikamerkjaskanna á Zebra tækjum.
-- Bætti fyrirspurnarflæði um krókaleiðir, þannig að val á korti í krók fer nú aftur í aðalflæðið.
+- Bættu fyrirspurnarflæði um krókaleiðir, þannig að val á korti í krók fer nú aftur í aðalflæðið.
 - Bætti við stuðningi við almennt gagnafyrirspurnarflæði.
 - Bætti við skilaboðum til að segja notendum frá breytingum á nettengingarstöðu.
 - Samræmdi geymsluheimildir við persónuverndarstefnu geymslu í Android 10.
 - Fyrir flæði sem þurfa á því að halda inniheldur magnsnúningurinn nú stöðu sem gerir notendum kleift að senda inn autt tölugildi.
 - Lagaði vandamál með stefnu magnsnúnings.
 - Lagaði mál þar sem magnsnúningurinn myndi hoppa á rangt gildi.
-- Lagaði vandamál þar sem inntak á aðalsíðuna glataðist þegar það var fyllt út af upplýsingasíðunni.
+- Lagaði mál þar sem inntak á aðalsíðuna glataðist þegar það var fyllt út af upplýsingasíðunni.
 - Lagaði mál þar sem staðgengilstexti yrði meðhöndlaður sem upphaflega valið gildi í vallistum.
 - „Senda“ hnappurinn á staðfestingarskrefum er nú sjálfkrafa virkur ef það eru forvalin gildi.
 - Lagaði upplýsingaspjaldið til að sýna eins margar línur og mögulegt er fyrir textareiti sem hafa margar línur.
@@ -104,10 +116,10 @@ ms.locfileid: "8945724"
   - Breyta tengingu
 - Föst skrun þegar þú notar lyklaborðsleiðsögn.
 - Aukið aðgengi, þar á meðal eftirfarandi endurbætur:
-  - Föst litasýnileiki og birtuskil.
+  - Fast litasýnileiki og birtuskil.
   - Kom í veg fyrir tap á lyklaborðsfókus þegar sprettigluggasíðum er lokað.
   - Bætti villuskilaboðum við frásögnina.
-  - Aukin stærð staðgengilsgilda í skrefaborðanum.
+  - Aukin stærð staðsetningargilda í skrefaborðanum.
 - Lagaði dæmið um sérsniðna eldri síðu í kynningarham.
 
 ## <a name="version-20150"></a>Útgáfa 2.0.15.0
@@ -129,23 +141,23 @@ ms.locfileid: "8945724"
 
 - Bætt fletta á milli síðna með mýkri hreyfimynd.
 - Lagfærð gagnsæ viðbrögð við strjúkahreyfingum og einstaka skjálfrýsingu.
-- Endurbætt texta- og bakgrunnslitasamsetning í dökkri stillingu fyrir betri læsileika.
+- Bættur texti í dökkri stillingu og bakgrunnslitasamsetningar fyrir betri læsileika.
 - Lagaði vandamál þar sem einhver texti gæti orðið mjög lítill þegar stærð forritsgluggans var breytt.
-- Lagaði vandamál sem gæti stundum hrundið forritinu þegar strikamerki voru skannaðar.
+- Lagaði vandamál sem gæti stundum hrundið forritinu þegar strikamerki voru skannað.
 - Bætti við möguleikanum á að skipta um renna fyrir hnapp.
-- Lagaði vandamál sem gæti valdið því að appið sýndi villuboðin, "AADSTS7000215: Ógilt leyndarmál viðskiptavinar er gefið upp."
+- Lagaði vandamál sem gæti valdið því að forritið sýndi villuboðin, "AADSTS7000215: Ógilt leyndarmál viðskiptavinar er veitt."
 - Lagaði vísbendingahreyfinguna sem sýnir hvernig á að loka síðu með því að strjúka niður.
 - Bætti við möguleikanum á að loka síðu með því að fletta niður.
 - Lagaði vandamál þar sem titlar fellilista voru ekki sýndir á **Notendastillingar** síðu.
-- Lagaði staðsetningarvandamál þar sem appið myndi ekki þekkja kommu (,) sem tugaskilju.
+- Lagaði staðsetningarvandamál þar sem appið myndi ekki þekkja kommu (,) sem aukastafaskil.
 - Bætt aðgengi.
 - Lagaði siglinguna á **Nýtt samband** síðu til að veita bætt aðgengi.
-- Lagaði vandamál þar sem mjúka (skjá) lyklaborðið birtist ekki þegar valinn var innsláttarreitur.
+- Lagaði vandamál þar sem mjúka (skjályklaborðið) birtist ekki þegar valinn var innsláttarreitur.
 - Lagaði vandamál sem gæti hrundið forritinu ef notendur breyttu stærð glugga þess fljótt.
 - Lagaði mál þar sem hröð takkaýting var stundum túlkuð sem löng ýting.
 - Lagaði vandamál þar sem útlit appsins gæti skemmst vegna sérstillinga á sviði sem gerðar voru í Supply Chain Management.
 - Lagaði vandamál þar sem staðsetningar vara voru ekki birtar á réttan hátt.
-- Lagaði vandamál sem tengist stuttri tínslu fyrir verkflæði vöruafbrigðis.
+- Lagaði vandamál sem tengist stuttri tínslu fyrir verkflæði vöruafbrigða.
 - Fjarlægði óþarfa staðfestingu á reitum sem innihalda forstillt sjálfgefin gildi.
 - Bætt frammistaða.
 - Bætt við nýrri stillingu sem gerir notendum kleift að velja hvernig reitir eru síaðir og raðaðir á kortasíðuna.

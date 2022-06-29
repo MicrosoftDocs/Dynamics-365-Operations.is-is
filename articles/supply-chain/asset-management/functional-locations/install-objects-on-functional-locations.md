@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a35f2494c616c2e456f92409d012cc434a32bd8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 3ae571f4ad7210b31d212b0472610b36dc5c488b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894502"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016073"
 ---
 # <a name="install-assets-on-functional-locations"></a>Setja upp eignir á virkum staðsetningum
 
@@ -40,7 +40,7 @@ Eftir að þú hefur sett upp eignir á virkri staðsetningu geturðu skipt út 
 
 ## <a name="install-an-asset-structure-on-a-functional-location"></a>Settu upp eignaskipulag á virkri staðsetningu
 
-1. Veldu **Eignastýring** \> **Sameiginlegt** \> **Virkar staðsetningar** \> **Allar virkar staðsetningar** eða **Virkar virkar staðsetnigar**.
+1. Veldu **Eignastýring** \> **Virkir staðir** \> **Allir virkir staðir** eða **Virkir virkir staðir**.
 2. Veldu virka staðsetningu til að setja upp eign á.
 3. Velja **Setja upp eign**.
 

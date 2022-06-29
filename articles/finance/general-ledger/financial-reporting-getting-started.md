@@ -1,8 +1,8 @@
 ---
 title: Yfirlitssíða fjárhagsskýrslugerðar
-description: Þessi grein lýsir því hvar á að fá aðgang að fjárhagsskýrslum Microsoft Dynamics 365 Fjármál og hvernig á að nota fjárhagsskýrslugetu.
+description: Þessi grein lýsir því hvar á að nálgast fjárhagsskýrslur í Microsoft Dynamics 365 Fjármál og hvernig á að nota fjárhagsskýrslugetu.
 author: aprilolson
-ms.date: 03/31/2022
+ms.date: 06/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b09adc738ac36625436e5cc3197e79603fff9b8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2c31e8b8b8022e5dfdb1f8dc4836d3d95174078
+ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853410"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "9033661"
 ---
 # <a name="get-started-with-financial-reporting"></a>Hafist handa með fjárhagsskýrslugerð 
 
@@ -30,14 +30,17 @@ ms.locfileid: "8853410"
 
 Þessi grein lýsir hvar á að fá aðgang að Fjárhagsskýrslugerð og hvernig á að nota fjárhagsskýrslugetu. Það inniheldur einnig lýsingu á sjálfgefið fjárhagsskýrslur sem er veitt.
 
-## <a name="accessing-financial-reporting"></a>Aðgangur að fjárhagsskýrslugerð
+## <a name="enable-financial-reporting"></a>Virkja fjárhagsskýrslu
+Til að nota fjárhagsskýrsluþjónustuna fyrir fyrirtæki þitt, verður líftímaþjónustustjóri (LCS) að virkja þessa þjónustu í LCS gáttinni fyrir fyrirtæki þitt. Ef fjárhagsskýrslur hafa ekki verið útvegaðar fyrir umhverfið þitt, hafðu samband við LCS stjórnanda til að virkja þjónustuna. 
+
+## <a name="accessing-financial-reporting"></a>Aðgangur að fjárhagsskýrslu
 
 Hægt er að finna **Fjárhagskýrslugerð** valmyndina á eftirfarandi stöðum:
 
-- **Fjárhagur** &gt; **Fyrirspurnir og skýrslur**
-- **Fjárhagsgerð** &gt; **Fyrirspurnir og skýrslur** &gt; **grunnáætlanagerð**
-- **Fjárhagsáætlun** &gt; **Fyrirspurnir og skýrslur** &gt; **Fjárhagsáætlunargerð**
-- **Fjárhagsáætlun** &gt; **Fyrirspurnir og skýrslur** &gt; **Fjárhagsáætlunarstýring**
+- **Aðalbók** > **Fyrirspurnir og skýrslur**
+- **Fjárhagsáætlun** > **Fyrirspurnir og skýrslur** > **Grunn fjárhagsáætlunargerð**
+- **Fjárhagsáætlun** > **Fyrirspurnir og skýrslur** > **Fjárhagsáætlun**
+- **Fjárhagsáætlun** > **Fyrirspurnir og skýrslur** > **Fjárlagaeftirlit**
 - Samstæður
 
 Til að stofna og búa til fjárhagsskýrslur fyrir lögaðila, verður að setja upp eftirfarandi upplýsingar fyrir lögaðilann:
