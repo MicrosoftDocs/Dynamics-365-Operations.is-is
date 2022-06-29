@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3a91417e771902ffdc099591434befad2a3c137
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 17ada399e131f247ac7017e8819df4168d463cf5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678548"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015436"
 ---
 # <a name="view-compliance-with-service-level-agreements"></a>Skoða uppfyllingu á þjónustustigssamningum    
 
@@ -29,7 +29,7 @@ ms.locfileid: "8678548"
 
 ## <a name="view-compliance-with-a-service-level-agreement"></a>Skoða uppfyllingu á þjónustustigssamningi
 
-1.  Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**. Velja þjónustupöntun og tvísmella á til að opna upplýsingaskjámynd fyrir pöntunina.
+1.  Smellur **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**. Velja þjónustupöntun og tvísmella á til að opna upplýsingaskjámynd fyrir pöntunina.
 
 2.  Á flipanum **Almennt** í reitnum **Uppfylling** skal skoða prósentur tímans sem eytt var á sölupöntun í samanburði við tilgreinds tímaramma í þjónustustigssamningi.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c3def1b8ebd75da44588732d9f54a1cc03c999c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 92f3a2bc3d2a4d5d1c3be0c6dda2674dc3e7d0bb
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891235"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016827"
 ---
 # <a name="create-maintenance-requests"></a>Stofna viðhaldsbeiðnir
 
@@ -32,9 +32,9 @@ Hægt er að nota viðhaldsbeiðnir ef viðhaldsstarfsmenn eða framleiðsluaði
 
 **Dæmi:** Á meðan viðhaldsstarfskraftur sinnir viðgerðum uppgötvar hann að þjónusta þarf aðra eign á sömu staðsetningu. Viðhaldsstarfsmaðurinn hefur þó ekki tíma eða nauðsynlega varahluti til að framkvæma viðgerðarstarfið. Þeir stofna því viðhaldsbeiðni á eigninni og skrá stutta lýsingu á vandamálinu.
 
-Hlutinn **Virkar viðhaldsbeiðnir** á rúðunni **Tengdar upplýsingar** hægra megin við síðuna **Allar eignir** eða **Virkar eignir** (**Eignastýring** \> **Sameiginlegt** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**) sýnir virkar viðhaldsbeiðnir sem eru tengdar við valda eign.
+The **Virkar viðhaldsbeiðnir** kafla í **Tengdar upplýsingar** rúðu hægra megin við **Allar eignir** eða **Virkar eignir** síða (**Eignastýring** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**) sýnir virkar viðhaldsbeiðnir sem fylgja valda eign.
 
-1. Veldu **Eignastýring** \> **Sameiginlegt** \> **Viðhaldsbeiðnir** \> **Allar viðhaldsbeiðnir** eða **Virkar viðhaldsbeiðnir**.
+1. Veldu **Eignastýring** \> **Viðhaldsbeiðnir** \> **Allar viðhaldsbeiðnir** eða **Virkar viðhaldsbeiðnir**.
 2. Veljið **Nýtt**.
 3. Í svarglugganum **Stofna beiðni** í reitnum **Gerð viðhaldsbeiðni** velurðu gerð viðhaldsbeiðni. Mælt er með sjálfgefinni gerð.
 4. Í reitnum **Lýsing** slærðu inn heiti eða titil sem lýsir viðhaldsbeiðninni stuttlega.

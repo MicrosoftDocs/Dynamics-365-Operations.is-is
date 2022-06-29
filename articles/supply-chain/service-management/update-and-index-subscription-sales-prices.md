@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7a1075fa214f7c902964162da2c05ef55953039
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d617637f56e23440f6d8da313788a7866cad244e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671564"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015668"
 ---
 # <a name="update-and-index-subscription-sales-prices"></a>Uppfæra og vísitölubinda söluverð áskrifta 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustuáskriftir** \> **Allar þjónustuáskriftir**.
+1.  Smellur **Þjónustustjórnun** \> **Þjónustuáskrift** \> **Allar þjónustuáskriftir**.
 
 2.  Veldu áskriftina til að uppfæra vísitölu eða grunnverð fyrir.
 

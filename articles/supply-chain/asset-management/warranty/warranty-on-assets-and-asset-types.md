@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa4fe7af46996e8de76ea61d5395327e7617e736
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 2e63161aa32ecbc99baace9bb0cc649aedc600ed
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906125"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015993"
 ---
 # <a name="warranties-on-assets-and-asset-types"></a>Ábyrgðir á eignum og eignagerðum
 
@@ -39,7 +39,7 @@ ms.locfileid: "8906125"
 
 ## <a name="set-up-a-warranty-on-an-asset"></a>Settu upp ábyrgð á eign
 
-1. Veldu **Eignastýring** \> **Sameiginlegt** \> **Eignir** \> **Allar eignir**.
+1. Veldu **Eignastýring** \> **Eignir** \> **Allar eignir**.
 2. Veldu eignina og veldu síðan **Breyta**.
 3. Á flýtflipanum **Lánardrottinn** í hlutanum **Ábyrgð lánardrottins** í reitnum **Ábyrgð** velurðu ábyrgðarsamninginn.
 4. Í reitunum **Upphafð ábyrgðar** og **Lok ábyrgðar** velurðu upphafs- og lokadagsetningar.

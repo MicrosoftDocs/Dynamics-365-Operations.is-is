@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: f7c36fe230db38bfdbfd70fec7bdfd0a313d5a15
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869721"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015842"
 ---
 # <a name="create-functional-locations"></a>Stofna virkar staðsetningar
 
@@ -41,7 +41,7 @@ Til að geta unnið með virkar staðsetningar byrjarðu með því að búa til
 
 Þegar þú notar virkar staðsetningar skaltu byrja með því að stofna eina sjálfgefna staðsetningu til að nota við stofnun nýrra eigna. Þessi virka staðsetning er sú sem var valin í tenglinum **Eignastýring** > **Uppsetning** > **Færibreytur eignastýringar** > **Eignir** > reitnum **Sjálfgefin virk staðsetning**. Hægt er að nota sjálfgefna virka staðsetningu við stofnun nýrra eigna og þegar þú hefur ekki enn sett upp skipulag virkrar staðsetningar fyrir þessar eignir.
 
-1. Veldu **Eignastýring** > **Sameiginlegt** > **Virkar staðsetningar** > **Allar virkar staðsetningar**.  
+1. Veldu **Eignastýring** > **Virkir staðir** > **Allir virkir staðir**.  
 2. Í **Allar virkar staðsetningar** velurðu **Nýtt**.
 3. Settu inn auðkenni í retinum **Virk staðsetning**, til dæmis „0000“ eða „Sjálfgefið“, til að gefa til kynna að þetta sé sérstök virk staðsetning.
 4. Í reitnum **Heiti** slærðu inn heiti fyrir sjálfgefna virka staðsetningu.
@@ -53,7 +53,7 @@ Til að geta unnið með virkar staðsetningar byrjarðu með því að búa til
 
 Eftirfarandi ferli lýsir því hvernig þú stofnar virkar staðsetningar sem þarf til viðhaldsstjórnunar hjá fyrirtækinu þínu.
 
-1. Veldu **Eignastýring** > **Sameiginlegt** > **Virkar staðsetningar** > **Allar virkar staðsetningar**. Þú getur stofnað virka staðsetningu úr töfluskoðun eða smáatriðum.
+1. Veldu **Eignastýring** > **Virkir staðir** > **Allir virkir staðir**. Þú getur stofnað virka staðsetningu úr töfluskoðun eða smáatriðum.
 2. Veldu hnappinn **Nýtt**.
 3. Settu inn auðkenni í reitnum **Virk staðsetning**.
 4. Í reitnum **Heiti** slærðu inn heiti fyrir virka staðsetningu.

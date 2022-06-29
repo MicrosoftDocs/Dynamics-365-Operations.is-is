@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 5b13db8b8b12aaef2e067f9a55eb8754333eb16b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908773"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017146"
 ---
 # <a name="multi-level-assets"></a>Stigskiptar eignir
 
@@ -30,7 +30,7 @@ ms.locfileid: "8908773"
 
 Þessi grein útskýrir hvernig á að búa til og eyða fjölþrepa eignum. Þú getur búið til eignir og tengdar undireignir í stigskiptri trjábyggingu. Á þennan hátt geturðu sýnt sambönd og ósjálfstæði meðal eigna. Viðhaldsstörf geta tengst öllum stigum trébyggingarinnar. Einnig er hægt að búa til tölfræði fyrir einstaklingstig eða sem summa af öllum undireignarstigum.
 
-Á listasíðunni **Allar eignir** (**Eignastýring** \> **Sameiginlegt** \> **Eignir** \> **Allar eignir**), sýnir dálkurinn **Eignir** eignir í stigveldi. Dálkurinn **Yfireining** sýnar tengdar yfireiningar. Að auki, ef eignir og undireignir hafa þegar verið stofnaðar sýnir hlutinn **Eignatré** í glugganum **Tengdar upplýsingar** eignirnar í trjábyggingu.
+Á **Allar eignir** listasíða (**Eignastýring** \> **Eignir** \> **Allar eignir**), the **Eign** dálki listar eignir í stigveldisröð. Dálkurinn **Yfireining** sýnar tengdar yfireiningar. Að auki, ef eignir og undireignir hafa þegar verið stofnaðar sýnir hlutinn **Eignatré** í glugganum **Tengdar upplýsingar** eignirnar í trjábyggingu.
 
 Nánari upplýsingar um hvernig stofna eigi eign, sjá [Stofna eign](../objects/create-an-object.md). Til að búa til undireign skal velja yfireignina í reitnum **Yfireining** á flýtiflipanum **Almennt**.
 
@@ -38,7 +38,7 @@ Nánari upplýsingar um hvernig stofna eigi eign, sjá [Stofna eign](../objects/
 
 Ef fyrirtæki þitt hefur nokkra svipaða eignaskipulag geturðu notað afritunaraðgerðina í eignastjórnun til að búa þau fljótt til.
 
-1. Veldu **Eignastýring** \> **Sameiginlegt** \> **Eignir** \> **Allar eignir**.
+1. Veldu **Eignastýring** \> **Eignir** \> **Allar eignir**.
 2. Á listasíðunni **Allar eignir**, veldu eignina sem á að afrita. Til dæmis, ef þú vilt afrita alla eignaskipulagið, þar á meðal undireignir, skaltu velja yfireign.
 3. Veldu **Afrita eign**. Í hlutanum **Afrita frá** er reiturinn **Eignir** stilltur á eignina sem þú valdir á listasíðunni.
 4. Í hlutanum **Afrita í** í reitnum **Eignir** slærðu inn nafn nýju eignarinnar.

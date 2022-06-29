@@ -1,8 +1,8 @@
 ---
-title: Skilgreina Dynamics 365 Commerce matsumhverfi
-description: Þessi grein útskýrir hvernig á að stilla a Microsoft Dynamics 365 Commerce matsumhverfi eftir að það hefur verið útvegað.
+title: Stilla a Dynamics 365 Commerce sandkassa umhverfi
+description: Þessi grein útskýrir hvernig á að stilla a Microsoft Dynamics 365 Commerce sandkassaumhverfi eftir að það hefur verið útvegað.
 author: psimolin
-ms.date: 05/12/2022
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,34 +14,34 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 19d88139e35554bce68bc6203141957b96e439a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 259a580981003f135e234f66e9e93ceb18605412
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892331"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013110"
 ---
-# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Skilgreina Dynamics 365 Commerce matsumhverfi
+# <a name="configure-a-dynamics-365-commerce-sandbox-environment"></a>Stilla a Dynamics 365 Commerce sandkassa umhverfi
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að stilla a Microsoft Dynamics 365 Commerce matsumhverfi eftir að það hefur verið útvegað.
+Þessi grein útskýrir hvernig á að stilla a Microsoft Dynamics 365 Commerce sandkassaumhverfi eftir að það hefur verið útvegað.
 
-Ljúktu aðeins við aðferðirnar í þessari grein eftir að viðskiptamatsumhverfið þitt hefur verið útvegað. Frekari upplýsingar um hvernig á að úthluta matsumhverfinu í Commerce er að finna í [Úthlutun Commerce-matsumhverfis](provisioning-guide.md).
+Ljúktu aðeins við aðferðirnar í þessari grein eftir að Commerce sandkassaumhverfið þitt hefur verið útvegað. Fyrir upplýsingar um hvernig á að útvega Commerce sandkassaumhverfið þitt, sjá [Útvega viðskiptasandkassaumhverfi](provisioning-guide.md).
 
-Eftir að Commerce-umhverfismatinu hefur verið úthlutað í heild sinni, þarf að ljúka nokkrum grunnstillingarskrefum eftir úthlutun áður en hægt er að leggja mat á umhverfið. Til að klára þessi skref verður þú að nota Microsoft Dynamics Lifecycle Services (LCS) og Dynamics 365 Commerce.
+Eftir að Commerce sandkassaumhverfið þitt hefur verið útvegað enda til enda, verður að ljúka við viðbótarstillingarskref eftir úthlutun áður en þú getur byrjað að nota umhverfið. Til að klára þessi skref verður þú að nota Microsoft Dynamics Lifecycle Services (LCS) og Dynamics 365 Commerce.
 
 ## <a name="before-you-start"></a>Áður en byrjað er
 
 1. Skráðu þig inn [LCS-gáttina](https://lcs.dynamics.com).
 1. Farðu í verkefnið.
-1. Í efstu valmyndinni velurðu **Umhverfi í skýi**.
 1. Veldu umhverfið á listanum.
 1. Í upplýsingum um umhverfið hægra megin skal velja **Skrá inn í umhverfi**. Þér verður beint á Commerce Headquarters.
-1. Gakktu úr skugga um að lögaðilinn **USRT** sé valinn efst í hægra horninu.
-1. Fara til **Viðskiptabreytur \> Stillingarfæribreytur** og tryggja að það sé færsla fyrir **ProductSearch.UseAzureSearch** og að gildið sé stillt á **satt**. Ef þessa færslu vantar geturðu bætt henni við, stillt gildið á **satt**, og veldu síðan **Rásargagnagrunnur \> Full gagnasamstilling** fyrir Commerce Scale Unit sem tengist netverslunarvefsíðunni þinni.
+1. Gakktu úr skugga um að lögaðilinn **USRT** sé valinn efst í hægra horninu. Þessi lögaðili hefur verið forstilltur í kynningargögnunum.
+1. Fara til **Viðskiptabreytur \> Stillingarfæribreytur** og tryggja að það sé færsla fyrir **ProductSearch.UseAzureSearch** og að gildið sé stillt á **satt**. Ef þessa færslu vantar skaltu bæta henni við og stilla gildið á **satt**.
 1. Fara til **Verslun og verslun \> Uppsetning höfuðstöðva \> Viðskiptaáætlun \> Frumstilla viðskiptaáætlun**. Á **Frumstilla viðskiptaáætlun** valmynd, stilltu **Eyða núverandi uppsetningu** valmöguleika til **Já**, og veldu síðan **Allt í lagi**.
-1. Til að bæta rásum við Commerce Scale Unit, farðu á **Verslun og verslun \> Uppsetning höfuðstöðva \> Viðskiptaáætlun \> Rásar gagnagrunnur**, og veldu síðan Commerce Scale Unit í vinstri glugganum. Á **Smásölurás** Flýtiflipi, bættu við **AW netverslun**, **Business vefverslun**, og **Fabrikam útbreidd netverslun** rásir. Valfrjálst geturðu líka bætt við smásöluverslunum ef þú ætlar að nota POS (td, **Seattle**, **Fransiskó**, og **San Jose**).
+1. Til að verslunar- og rafræn viðskipti virki rétt verður að bæta þeim við Commerce Scale Unit. Fara til **Verslun og verslun \> Uppsetning höfuðstöðva \> Viðskiptaáætlun \> Rásar gagnagrunnur**, og veldu síðan Commerce Scale Unit í vinstri glugganum. Á **Smásölurás** flýtiflipann, bættu við **AW netverslun**, **Business vefverslun**, og **Fabrikam útbreidd netverslun** rásir ef þú ætlar að nota þessar netviðskiptarásir. Valfrjálst geturðu einnig bætt við smásöluverslunum ef þú ætlar að nota sölustað (POS) (td, **Seattle**, **Fransiskó**, og/eða **San Jose**).
+1. Til að tryggja að allar breytingar séu samstilltar við rásargagnagrunninn skaltu velja **Rásargagnagrunnur \> Full gagnasamstilling** fyrir verslunarkvarðaeininguna.
 
 Við úthlutun verkþátta eftir á í Commerce Headquarters skal ganga úr skugga um að **USRT** lögaðilinn sé alltaf valinn.
 
@@ -52,7 +52,7 @@ Við úthlutun verkþátta eftir á í Commerce Headquarters skal ganga úr skug
 Til að tengja starfsmann við kennimerkið þitt skal fylgja þessum skrefum í Commerce Headquarters.
 
 1. Notaðu valmyndina til vinstri til að fara í **Einingar \> Retail og Commerce \> Starfsmenn \> Starfskraftar**.
-1. Í listanum skal finna og velja eftirfarandi skrá: **000713 - Andrew Colette**.
+1. Í listanum skal finna og velja eftirfarandi skrá: **000713 - Andrew Colette**. Þessi dæmi notandi er tengdur við San Francisco verslunina sem verður notuð í næsta hluta.
 1. Á aðgerðasvæðinu skal velja **Commerce**.
 1. Veldu **Tengja fyrirliggjandi kenni**.
 1. Í reitinn **Netfang** til hægri við **Leita með tölvupósti** skaltu slá inn netfangið þitt.
@@ -76,24 +76,24 @@ Til að virkja sölukerfi í skýinu skal fylgja þessum skrefum í LCS.
 1. Veldu **Virkja**. Þú ert skráð/ur út og færð/ur á POS-innskráningarsíðuna.
 1. Þú getur nú skráð þig inn á Cloud POS-reynsluna með kenni rekstraraðila **000713** og lykilorði **123**.
 
-## <a name="set-up-your-site-in-commerce"></a>Settu upp vefsvæðið í Commerce
+## <a name="set-up-your-e-commerce-sites"></a>Settu upp netviðskiptasíðurnar þínar
 
-Til að hefja uppsetningu á matssvæðinu þínu í Commerce skal fylgja þessum skrefum.
+Það eru þrjár tiltækar kynningarsíður fyrir rafræn viðskipti: Fabrikam, Adventure Works og Adventure Works Business. Fylgdu skrefunum hér að neðan til að stilla hverja kynningarsíðu.
 
 1. Skráðu þig inn á vefsmið með því að nota slóðina sem þú skráðir þegar þú ræstir e-Commerce á meðan úthlutun stóð (sjá [Frumstilla rafræn viðskipti](provisioning-guide.md#initialize-e-commerce)).
-1. Veldu svæðið **Fabrikam** til að opna uppsetningarglugga svæðisins.
-1. Veldu lénið sem þú slóst inn þegar þú frumstilltir e-Commerce.
-1. Veldu **Fabrikam útvíkkuð netverslun** sem sjálfgefna rás. (Gakktu úr skugga um að þú veljir **framlengda** netverslun.)
+1. Veldu síðuna (**Fabrikam**, **·**, eða **Adventure Works Business**), til að opna uppsetningargluggann fyrir vefsvæðið.
+1. Veldu lénið sem þú slóst inn þegar þú frumstillir Commerce.
+1. Í höfuðstöðvunum skaltu velja forstilltu netverslunarrásina (**Fabrikam útbreidd netverslun**, **netverslun**, eða **AW Business vefverslun**) sem samsvarar sjálfgefna rásinni.
 1. Veldu **en-us** sem sjálfgefið tungumál.
-1. Hafðu gildið í reitnum **Slóð** eins og það er.
+1. Stilltu slóðareitina. Þetta getur verið autt fyrir eina síðu en þarf að stilla það ef sama lén er notað fyrir margar síður. Til dæmis ef lénið er`https://www.constoso.com`, þú getur notað auða slóð fyrir Fabrikam (`https://contoso.com`), og notaðu síðan „aw“ fyrir Adventure Works (`https://contoso.com/aw`) og „awbusiness“ fyrir Adventure Works viðskiptasíðuna (`https://contoso.com/awbusiness`).
 1. Veldu **Í lagi**. Listinn yfir síður svæðisins birtist.
-1. Endurtaktu skref 2-7 fyrir **AdventureWorks** síða (sem kortleggst á **AW netverslun** rás) og **AdventureWorks Viðskipti** síða (sem kortleggst á **AW Business vefverslun** rás). Ef **Leið** reiturinn fyrir Fabrikam síðuna er tómur, þá verður þú að bæta við slóðum fyrir þær tvær AdventureWorks síður (td „aw“ og „awbusiness“).
+1. Valfrjálst, endurtaktu skref 2-7 til að stilla hinar kynningarsíðurnar eftir þörfum.
 
 ## <a name="enable-jobs"></a>Virkja vinnslur
 
 Til að virkja vinnslur í Commerce skal fylgja þessum skrefum.
 
-1. Skráðu þig inn í umhverfið (HQ).
+1. Skráðu þig inn í umhverfi höfuðstöðvanna.
 1. Notaðu valmyndina til vinstri til að fara í **Retail og Commerce \> Fyrirspurnir og skýrslur \> Runuvinnslur**.
 
     Hinum skrefum þessa ferlis verður að vera lokið fyrir sérhverja af eftirfarandi vinnslum:
@@ -146,18 +146,17 @@ Til að framkvæma prófunarviðskipti á vefnum geturðu notað eftirfarandi pr
 
 ## <a name="next-steps"></a>Næstu skref
 
-Þegar úthlutunar- og grunnstillingarskrefum er lokið er hægt að byrja að nota matsumhverfið. Notið vefslóð Commerce-vefsmiðins til að fara í höfundarviðmótið. Notið vefslóð Commerce-vefsvæðis til að fara á vefviðmót viðskiptavinar smásölu.
+Eftir að úthlutunar- og stillingarskrefum er lokið geturðu byrjað að nota sandkassaumhverfið þitt. Notið vefslóð Commerce-vefsmiðins til að fara í höfundarviðmótið. Notið vefslóð Commerce-vefsvæðis til að fara á vefviðmót viðskiptavinar smásölu.
 
-Til að grunnstilla valfrjálsa eiginleika fyrir Commerce-matsumhverfið skal skoða [Grunnstilla valfrjálsa eiginleika fyrir Commerce-matsumhverfið](cpe-optional-features.md).
+Til að stilla valfrjálsa eiginleika fyrir Commerce sandkassaumhverfið þitt, sjá [Stilltu valfrjálsa eiginleika fyrir Commerce sandkassaumhverfi](cpe-optional-features.md).
 
-> [!NOTE]
-> Matsumhverfi Commerce koma með forhlöðnum Azure Active Directory (Azure AD) B2C-leigjanda fyrir sýnikennslu. Ekki er krafist þess að skilgreina eigin Azure AD B2C-leigjanda fyrir matsumhverfi. Ef þú ert hinsvegar að skilgreina matsumhverfið til að nota þinn eigin Azure AD B2C-leigjanda skaltu ganga úr skugga um að bæta við ``https://login.commerce.dynamics.com/_msdyn365/authresp`` sem svörunarvefslóð í Azure AD B2C-forritinu gegnum Azure -gáttina.
+Til að gera notendum netverslunar kleift að skrá sig inn á netverslunarsíðuna þarf viðbótarstillingar til að virkja auðkenningu vefsvæðis í gegnum Azure Active Directory fyrirtæki til neytenda (B2C). Fyrir leiðbeiningar, sjá [Settu upp B2C leigjanda í Commerce](set-up-b2c-tenant.md).
 
 ## <a name="troubleshooting"></a>Úrræðaleit
 
 ### <a name="site-builder-channel-list-is-empty-when-configuring-site"></a>Ráalisti vefsvæðisgerðarmanns er tómur þegar vefsvæði er stillt
 
-Ef vefsmiður sýnir engar netverslunarrásir, tryggðu í höfuðstöðvunum að rásunum hafi verið bætt við viðskiptaskalaeininguna eins og lýst er í [Áður en þú byrjar](#before-you-start) kafla hér að ofan. Einnig, hlaupa **Frumstilla viðskiptaáætlun** með **Eyða núverandi uppsetningu** gildi stillt á **Já**.  Þegar þessum skrefum er lokið, á **Rásar gagnagrunnur** síða (**Verslun og verslun \> Uppsetning höfuðstöðva \> Viðskiptaáætlun \> Rásar gagnagrunnur**), keyra **9999** starf á verslunarsviðinu.
+Ef vefsmiður sýnir engar netverslunarrásir, tryggðu í höfuðstöðvunum að rásunum hafi verið bætt við viðskiptaskalaeininguna eins og lýst er í [Áður en þú byrjar](#before-you-start) kafla hér að ofan. Einnig, hlaupa **Frumstilla viðskiptaáætlun** með **Eyða núverandi uppsetningu** gildi stillt á **Já**.  Þegar þessum skrefum er lokið, á **Rásar gagnagrunnur** síða (**Verslun og verslun \> Uppsetning höfuðstöðva \> Viðskiptaáætlun \> Rásar gagnagrunnur**), keyra **9999** starf á verslunarsviði.
 
 ### <a name="color-swatches-are-not-rendering-on-the-category-page-but-are-rendering-on-the-product-details-page-pdp-page"></a>Litapróf eru ekki birt á flokkasíðunni, heldur eru þau birt á vöruupplýsingasíðunni (PDP) síðunni
 
@@ -165,8 +164,8 @@ Fylgdu þessum skrefum til að tryggja að lita- og stærðarsýnin séu stillt 
 
 1. Í höfuðstöðvunum, farðu til **Verslun og verslun \> Rásaruppsetning \> Rásarflokkar og vörueiginleikar**.
 1. Í vinstri glugganum, veldu netverslunarrásina og veldu síðan **Stilltu lýsigögn eiginda**.
-1. Stilltu **Sýna eigind á rás** valmöguleika til **Já**, stilltu **Hægt að betrumbæta** valmöguleika til **Já**, og veldu síðan **Vista**. 
-1. Farðu aftur á rásarsíðu netverslunarinnar og veldu síðan **Birta rásaruppfærslur**.
+1. Stilltu **Sýna eiginleika á rás** valmöguleika til **Já**, stilltu **Hægt að betrumbæta** valmöguleika til **Já**, og veldu síðan **Vista**. 
+1. Farðu aftur á rásarsíðu netverslunarinnar og veldu síðan **Birtu rásaruppfærslur**.
 1. Fara til **Verslun og verslun \> Uppsetning höfuðstöðva \> Viðskiptaáætlun \> Rásar gagnagrunnur** og keyra **9999** starf á verslunarsviði.
 
 ### <a name="business-features-dont-appear-to-be-turned-on-for-the-adventureworks-business-site"></a>Viðskiptaeiginleikar virðast ekki vera kveiktir á AdventureWorks viðskiptasíðu
@@ -177,15 +176,11 @@ Kynningargögn send í Commerce útgáfu 10.0.26 og fyrr voru með villu þar se
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi](cpe-overview.md)
+[Ákvæði a Dynamics 365 Commerce sandkassa umhverfi](provisioning-guide.md)
 
-[Úthluta Dynamics 365 Commerce matsumhverfi](provisioning-guide.md)
+[Stilltu valfrjálsa eiginleika fyrir a Dynamics 365 Commerce sandkassa umhverfi](cpe-optional-features.md)
 
-[Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce matsumhverfi](cpe-optional-features.md)
-
-[Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi](cpe-bopis.md)
-
-[algengar spurningar um Dynamics 365 Commerce matsumhverfi](cpe-faq.md)
+[Stilltu BOPIS í a Dynamics 365 Commerce sandkassa umhverfi](cpe-bopis.md)
 
 [Microsoft Dynamics Lifecycle Services (LSC)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
