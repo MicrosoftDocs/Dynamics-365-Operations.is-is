@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fe5726203ffc7fef12c02196f511bc4c3c9be2a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 370722d5c2f66e316d7c37f711cdd086bc53f6a8
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674842"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014823"
 ---
 # <a name="reduce-the-days-on-subscription-fees"></a>Fækka dögum á áskrifarþóknunum 
 
@@ -31,7 +31,7 @@ Til þess að stytta fjölda daga í fyrirliggjandi áskriftarþóknun er hægt 
 
 ## <a name="reduce-the-days-on-a-subscription-fee"></a>Fækka dögum í áskriftarþóknun
 
-1.  Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustuáskriftir** \> **Allar þjónustuáskriftir**. Veldu þjónustuáskriftina og smelltu svo á **Áskriftargjald** í aðgerðasvæðinu
+1.  Smellur **Þjónustustjórnun** \> **Þjónustuáskrift** \> **Allar þjónustuáskriftir**. Veldu þjónustuáskriftina og smelltu svo á **Áskriftargjald** í aðgerðasvæðinu
 
 2.  Í reitnum **Gerð áskriftar** skal velja **Minnkunardagar**.
 

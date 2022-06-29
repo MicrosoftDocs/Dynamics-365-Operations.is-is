@@ -1,6 +1,6 @@
 ---
 title: Stofna Commerce-vörulista fyrir B2B-svæði
-description: Þessi grein lýsir því hvernig á að búa til Commerce vörulista fyrir Microsoft Dynamics 365 Commerce fyrirtæki-til-fyrirtæki (B2B) síður.
+description: Þessi grein lýsir því hvernig á að búa til Commerce vörulista fyrir Microsoft Dynamics 365 Commerce fyrirtæki til fyrirtækja (B2B) síður.
 author: ashishmsft
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 7d87b6c64a6038c4518eeec178f9e139ef6f5ae2
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 2cc9014d273b4ab6f23a38140d0cfcd3ffa4d630
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848990"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027033"
 ---
 # <a name="create-commerce-catalogs-for-b2b-sites"></a>Stofna Commerce-vörulista fyrir B2B-svæði
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Þessi grein lýsir því hvernig á að búa til Commerce vörulista fyrir Microsoft Dynamics 365 Commerce fyrirtæki til fyrirtækja (B2B) síður. Fyrir svör við algengum spurningum um viðskiptabæklinga fyrir B2B síður, sjá [Viðskiptabækur fyrir B2B Algengar spurningar](catalogs-b2b-sites-FAQ.md).
 
@@ -31,7 +30,7 @@ ms.locfileid: "8848990"
 Viðskiptavörubæklingar gera þér kleift að skilgreina eftirfarandi upplýsingar:
 
 - **Skipulagssértækt leiðsögustigveldi** – Stofnanir geta búið til sérstaka flokkaskipan fyrir tiltekna vörulista.
-- **Lýsigögn eiginda tiltekinna vörulista** - Eiginleikar innihalda upplýsingar um vöru. Með því að úthluta eiginleikum til flokks leiðsagnarstigveldis er hægt að skilgreina gildi fyrir þá eiginleika á stigi vara sem eru úthlutaðar í þann flokk. Stofnanir geta síðan klárað þessi verkefni:
+- **Lýsigögn eiginda tiltekinna vörulista** – Eiginleikar innihalda upplýsingar um vöru. Með því að úthluta eiginleikum til flokks leiðsögustigveldis er hægt að skilgreina gildi fyrir þá eiginleika á stigi vara sem eru úthlutaðar í þann flokk. Stofnanir geta síðan klárað þessi verkefni:
 
     - Skilgreindu vörulistasértæk eigindagildi.
     - Stjórna sýnileika eiginda á vörulistastigi.
@@ -39,7 +38,7 @@ Viðskiptavörubæklingar gera þér kleift að skilgreina eftirfarandi upplýsi
 
 - **Rásir** – Stofnanir geta tengt fleiri en eina B2B netrás við vörulista. Stuðningur frá enda til enda fyrir vörulista er sem stendur aðeins í boði fyrir B2B netverslanir.
 - **Stigveldi viðskiptavina** – Fyrir tiltekna B2B rás geta stofnanir gert sérstakan vörulista aðgengilegan völdum B2B samstarfsaðilum með því að tengja stigveldi viðskiptavina við þann vörulista.
-- **Verðflokkar** - Þú getur stillt verð og kynningar sem eru sértækar fyrir tiltekinn vörulista. Þessi hæfileiki er kjarnaástæða þess að skilgreina vörulista fyrir B2B rás. Verðflokkar fyrir vörulista gera stofnunum kleift að gera vörur aðgengilegar fyrir fyrirhugaðar B2B stofnanir og beita valinn verðlagningu og afslætti. B2B viðskiptavinir sem panta úr stilltum vörulista geta notið góðs af sérstökum verðum og kynningum eftir að þeir hafa skráð sig inn á Commerce B2B síðu. Til að stilla vörulistasértæk verð skaltu velja **Verðflokkar** á **Vörulistar** flipa til að tengja einn eða fleiri verðflokka við vörulistann. Allir viðskiptasamningar, verðleiðréttingarbækur og háþróaðir afslættir sem hafa verið tengdir við sama verðflokk verða notaðir þegar viðskiptavinir panta úr þeim vörulista. (Ítarlegir afslættir innihalda þröskuld, magn og afslætti.) Fyrir frekari upplýsingar um verðflokka, sjá [Verðflokkar](price-management.md#price-groups).
+- **Verðflokkar** - Þú getur stillt verð og kynningar sem eru sértækar fyrir tiltekinn vörulista. Þessi hæfileiki er kjarnaástæðan fyrir því að skilgreina vörulista fyrir B2B rás. Verðflokkar fyrir vörulista gera stofnunum kleift að gera vörur aðgengilegar fyrir ætlaðar B2B stofnanir og beita valinn verðlagningu og afslætti. B2B viðskiptavinir sem panta úr stilltum vörulista geta notið góðs af sérstökum verðum og kynningum eftir að þeir hafa skráð sig inn á Commerce B2B síðu. Til að stilla vörulistasértæk verð skaltu velja **Verðflokkar** á **Vörulistar** flipa til að tengja einn eða fleiri verðflokka við vörulistann. Allir viðskiptasamningar, verðleiðréttingarbækur og háþróaðir afslættir sem hafa verið tengdir við sama verðflokk verða notaðir þegar viðskiptavinir panta úr þeim vörulista. (Ítarlegir afslættir innihalda þröskuld, magn og afslætti.) Fyrir frekari upplýsingar um verðflokka, sjá [Verðflokkar](price-management.md#price-groups).
 
 > [!NOTE]
 > Þessi eiginleiki er fáanlegur frá og með Dynamics 365 Commerce útgáfu 10.0.27 útgáfu. Til að stilla vörulistasértækar stillingar eins og leiðsögustigveldi og stigveldi viðskiptavina, í höfuðstöðvum Commerce, opnaðu **Eiginleikastjórnun** vinnusvæði (**Kerfisstjórnun \> Vinnurými \> Eiginleikastjórnun**), virkjaðu **Virkjaðu notkun margra vörulista á smásölurásum** lögun og keyrðu síðan **1110 CDX** starf.
@@ -58,7 +57,7 @@ Ferlið við að búa til og vinna vörulista hefur fjögur almenn skref. Hvert 
     - Tengja sjálfgefna víddareigindahóp fyrir hreinsunarefni eins og stærð, stíl og lit.
     - Stilltu lýsigögn eiginda.
 
-1. **[Staðfesting](#validate-the-catalog)** - Í þessu skrefi keyrir þú löggildingarreglur sem framfylgja sérstakri hegðun. Hér eru nokkur dæmi:
+1. **[Staðfesting](#validate-the-catalog)** – Í þessu skrefi keyrir þú löggildingarreglur sem framfylgja sérstakri hegðun. Hér eru nokkur dæmi:
 
     - Gakktu úr skugga um að það séu engar óflokkaðar vörur.
     - Gakktu úr skugga um að allir hlutir sem eru flokkaðir á hverja rás séu tengdir vörulista.
@@ -82,17 +81,17 @@ Til að bæta vörum við vörulista verður þú að velja leiðsagnarstigveldi
 
 #### <a name="specify-time-effective-and-expiration-dates"></a>Tilgreindu gildistíma og gildistíma
 
-Til að tilgreina gildistíma og fyrningardagsetningar fyrir vörulista skaltu velja efsta hnút vörulistastigveldisins til að fara aftur í aðalyfirlit vörulista. Síðan, á **Almennt** Flýtiflipa, stilltu gildis- og fyrningardagsetningar eftir þörfum.
+Til að tilgreina tíma- og fyrningardagsetningar fyrir vörulista skaltu velja efsta hnút vörulistastigveldisins til að fara aftur í aðalyfirlit vörulista. Síðan, á **Almennt** Flýtiflipa, stilltu gildis- og fyrningardagsetningar eftir þörfum.
 
 #### <a name="add-and-categorize-products"></a>Bættu við og flokkaðu vörur
 
-Til að stilla vörur til að bæta við vörulista, í höfuðstöðvum Commerce, farðu á **Verslun og verslun \> Vörulistar og úrval \> Allir vörulistar**. Síðan, á **Vörulistar** flipa, veldu **Bæta við vörum**.
+Til að stilla vörur til að bæta við vörulistann, í höfuðstöðvum Commerce, farðu á **Verslun og verslun \> Vörulistar og úrval \> Allir vörulistar**. Síðan, á **Vörulistar** flipa, veldu **Bæta við vörum**.
 
-Að öðrum kosti skaltu velja hnút í leiðsögustigveldinu. Þú munt þá geta bætt vörum beint við flokk í vörulistanum.
+Að öðrum kosti skaltu velja hnút í leiðsögustigveldinu. Þú munt þá geta bætt vörum beint í flokk í vörulistanum.
 
 #### <a name="associate-price-groups"></a>Tengja verðflokka
 
-Til að stilla vörulistasértæk verð verður að tengja einn eða fleiri verðflokka við vörulistann. Til að tengja verðflokka við vörulista, í höfuðstöðvum Commerce, farðu á **Verslun og verslun \> Vörulistar og úrval \> Allir vörulistar**. Síðan, á **Vörulistar** flipi, undir **Verðlag**, veldu **Verðflokkar**. Allir viðskiptasamningar, verðleiðréttingarbækur og háþróaðir afslættir (þröskuldur, magn og samsetningarafsláttur) sem hafa verið tengdir við sama verðflokk verða notaðir þegar viðskiptavinir panta úr vörulista.
+Til að stilla vörulistasértæk verð verður að tengja einn eða fleiri verðflokka við vörulistann. Til að tengja verðflokka við vörulista, í höfuðstöðvum Commerce, farðu á **Verslun og verslun \> Vörulistar og úrval \> Allir vörulistar**. Síðan, á **Vörulistar** flipi, undir **Verðlag**, veldu **Verðflokkar**. Allir viðskiptasamningar, verðleiðréttingarbækur og háþróaður afsláttur (þröskuldur, magn og afslætti) sem hafa verið tengdir við sama verðflokk verða notaðir þegar viðskiptavinir panta úr vörulista.
 
 Fyrir frekari upplýsingar um verðflokka, sjá [Verðflokkar](price-management.md#price-groups).
 
@@ -108,11 +107,11 @@ Til að tengja stigveldi viðskiptavina, í höfuðstöðvum Commerce, farðu á
 
 #### <a name="associate-default-dimension-attribute-group-for-refiners-such-as-size-style-and-color"></a>Tengja sjálfgefna víddareigindahóp fyrir hreinsunarefni eins og stærð, stíl og lit
 
-Til að tengja sjálfgefna víddareigindahóp fyrir hreinsunartæki eins og stærð, stíl og lit, í höfuðstöðvum Commerce, farðu á **Verslun og verslun \> Vörulistar og úrval \> Allir vörulistar**. Síðan, á **Vörulistar** flipi, undir **Eiginleikar**, veldu **Eiginleikahópar**.
+Til að tengja sjálfgefna víddareigindahóp fyrir hreinsunaraðila eins og stærð, stíl og lit, í höfuðstöðvum Commerce, farðu á **Verslun og verslun \> Vörulistar og úrval \> Allir vörulistar**. Síðan, á **Vörulistar** flipi, undir **Eiginleikar**, veldu **Eiginleikahópar**.
 
 #### <a name="set-attribute-metadata"></a>Stilla eigind lýsigagna
 
-Til að stilla lýsigögn eiginda, í höfuðstöðvum Commerce, farðu á **Verslun og verslun \> Vörulistar og úrval \> Allir vörulistar**. Síðan, á **Vörulistar** flipi, undir **Eiginleikar**, veldu **Stilltu lýsigögn eiginda**. Til að velja eiginleikana sem ættu að vera sýnilegir og fínstillanlegir, veldu flokk í tilheyrandi vörulistasértæku leiðsögustigveldi og síðan, undir **Skrá vörueiginleika**, veldu eigind. Veldu síðan **Sýna eigind á rás**. Sjálfgefið er að allir sýnilegir eiginleikar eru einnig leitartækir. Veldu **Hægt að betrumbæta**.
+Til að stilla lýsigögn eiginda, í höfuðstöðvum Commerce, farðu á **Verslun og verslun \> Vörulistar og úrval \> Allir vörulistar**. Síðan, á **Vörulistar** flipi, undir **Eiginleikar**, veldu **Stilltu lýsigögn eiginda**. Til að velja eiginleikana sem ættu að vera sýnilegir og fínstillanlegir skaltu velja flokk í tilheyrandi vörulistasértæku leiðsögustigveldi og síðan, undir **Skrá vörueiginleika**, veldu eigind. Veldu síðan **Sýna eiginleika á rás**. Sjálfgefið er að allir sýnilegir eiginleikar eru einnig leitartækir. Veldu **Hægt að betrumbæta**.
 
 ### <a name="validate-the-catalog"></a>Staðfesta vörulistann
 
@@ -120,7 +119,7 @@ Til að stilla lýsigögn eiginda, í höfuðstöðvum Commerce, farðu á **Ver
 
 Fylgið eftirfarandi skrefum til að villuleita í vörulista.
 
-1. Á **Vörulistar** flipi á **Allir vörulistar** síða, undir **Staðfesta** velja **Staðfesta vörulista** að keyra löggildingu. Þetta skref er nauðsynlegt. Það mun sannreyna að nauðsynleg uppsetning sé nákvæm.
+1. Á **Vörulistar** flipi á **Allir vörulistar** síða, undir **Staðfesta** velja **Staðfesta vörulista** að keyra löggildingu. Þetta skref er nauðsynlegt. Það mun staðfesta að nauðsynleg uppsetning sé nákvæm.
 1. Veldu **Skoða niðurstöður** til að skoða upplýsingar um löggildinguna. Ef villur finnast verður þú að leiðrétta gögnin og keyra síðan löggildinguna aftur þar til hún stenst.
 
 ### <a name="approve-the-catalog"></a>Samþykkja vörulistann
@@ -130,11 +129,11 @@ Eftir að vörulisti hefur verið staðfestur verður hann að vera samþykktur.
 Til að hefja verkflæði vörulistasamþykktar skaltu fylgja þessum skrefum.
 
 1. Á aðgerðaglugganum á **Allir vörulistar** síðu, veldu **Verkflæði \> Sendu inn**.
-1. Fara til **Verslun og verslun \> Uppsetning höfuðstöðva \> Verkflæði viðskipta** til að stilla skrefin og viðurkennda notendur fyrir verkflæðið. Verkflæðið mun skilgreina skrefin sem þarf til að koma vörulistanum í **Samþykkt** stöðu.
+1. Fara til **Verslun og verslun \> Uppsetning höfuðstöðva \> Verkflæði viðskipta** til að stilla skrefin og viðurkennda notendur fyrir verkflæðið. Verkflæðið mun skilgreina skrefin sem eru nauðsynleg til að koma vörulistanum í **Samþykkt** stöðu.
 
 ### <a name="publish-the-catalog"></a>Birta vörulistann
 
-Eftir að vörulisti er í an **Samþykkt** stöðu, þú getur birt hana með því að velja **Birta** á **Vörulistar** matseðill. Eftir að vörulistinn er í a **Birt** ástand, það er hægt að nota í símaver pantanafærslu og senda vörulista. Þú getur gefið út vörulista annað hvort handvirkt eða með því að nota lotuferli. Gildistíminn sem þú tilgreindir fyrir vörulistann ákvarðar hvenær vörurnar eru fáanlegar í netversluninni. Fyrningardagsetningin sem þú skilgreindir ákvarðar hvenær vörurnar eru fjarlægðar úr netversluninni.
+Eftir að vörulisti er í an **Samþykkt** stöðu geturðu birt hana með því að velja **Birta** á **Vörulistar** matseðill. Eftir að vörulistinn er í a **Birt** ástand, það er hægt að nota í símaver pantanafærslu og senda vörulista. Þú getur gefið út vörulista annað hvort handvirkt eða með því að nota lotuferli. Gildistíminn sem þú tilgreindir fyrir vörulistann ákvarðar hvenær vörurnar eru fáanlegar í netversluninni. Fyrningardagsetningin sem þú skilgreindir ákvarðar hvenær vörurnar eru fjarlægðar úr netversluninni.
 
 > [!NOTE]
 > Hægt er að gefa út vörulista sem inniheldur vörur sem hafa viðvaranir. Hins vegar munu þessar vörur ekki birtast í netversluninni.

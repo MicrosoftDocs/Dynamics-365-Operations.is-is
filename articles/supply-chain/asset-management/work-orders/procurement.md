@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 015499463f1eab4aaa3f3658b3204229382e73cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 6e41a28ec922924b0ef86858a881280fd44bfe63
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893643"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014953"
 ---
 # <a name="procurement"></a>Innkaup
 
@@ -28,7 +28,7 @@ ms.locfileid: "8893643"
 
 Í eignastjórnun geturðu fengið yfirlit yfir innkaupabeiðnir og innkaupapantanir sem tengjast verkbeiðnum. Einnig er hægt að stofna innkaupapöntun eða innkaupabeiðni úr verkbeiðni.
 
-Listasíðan **Innkaupabeiðni verkbeiðni** (**Eignastjórnun** > **Sameiginlegt** > **Innkaup** > **Innkaupabeiðni verkbeiðni**) sýnir lista yfir innkaupabeiðnir sem tengjast verkbeiðnum. Þegar þú velur vinnslu verkbeiðni á þessari síðu geturðu notað hnappana í hópnum **Sýna** á aðgerðarúðuflipanum **Innkaupabeiðni verkbeiðni** til að framkvæma ýmsar aðgerðir:
+The **Innkaupabeiðni verkbeiðni** listasíða (**Eignastýring** > **Innkaup** > **Innkaupabeiðni verkbeiðni**) sýnir lista yfir innkaupabeiðnir sem tengjast verkbeiðnum. Þegar þú velur vinnslu verkbeiðni á þessari síðu geturðu notað hnappana í hópnum **Sýna** á aðgerðarúðuflipanum **Innkaupabeiðni verkbeiðni** til að framkvæma ýmsar aðgerðir:
 
 - Til að opna tengda innkaupabeiðni skaltu velja **Innkaupabeiðni**. 
 - Til að opna tengda verkbeiðni skaltu velja **Verkbeiðni**.
@@ -39,7 +39,7 @@ Skýringarmyndin hér að neðan sýnir dæmi um listasíðuna **Innkaupabeiðni
 ![Mynd 1.](media/08-work-orders.png)
 
 
-Listasíðan **Innkaup verkbeiðni** (**Eignastjórnun** > **Sameiginlegt** > **Innkaup** > **Innkaup verkbeiðni**) sýnir lista yfir innkaupapantanir sem tengjast verkbeiðnum. Þegar þú velur vinnslu verkbeiðni á þessari síðu geturðu notað hnappana í hópnum **Sýna** á aðgerðarúðuflipanum **Innkaup verkbeiðni** til að framkvæma ýmsar aðgerðir:
+The **Vinnupöntunarkaup** listasíða (**Eignastýring** > **Innkaup** > **Vinnupöntunarkaup**) sýnir lista yfir innkaupapantanir sem tengjast vinnupöntunum. Þegar þú velur vinnslu verkbeiðni á þessari síðu geturðu notað hnappana í hópnum **Sýna** á aðgerðarúðuflipanum **Innkaup verkbeiðni** til að framkvæma ýmsar aðgerðir:
 
 - Til að opna tengda innkaupabeiðni skaltu velja **Innkaupabeiðni**. 
 - Til að opna tengda verkbeiðni skaltu velja **Verkbeiðni**.
@@ -69,7 +69,7 @@ Fyrir innkaupabeiðni er dagsetningin í reitnum **Umbeðin dagsetning** á flý
 
 Á listasíðunni **Allar verkbeiðnir** er hægt að velja verkbeiðnivinnslu og stofna síðan tengda innkaupapöntun eða tengda innkaupabeiðni. Þannig tryggirðu að samskipti verka eru til staðar á milli innkaupapöntunar eða innkaupabeiðni og verkbeiðni.
 
-1. Veldu **Eignastýringu** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
+1. Veldu **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
 
 2. Veldu verkbeiðnina sem þú vilt búa til innkaupapöntun fyrir og veldu síðan **Breyta**.
 

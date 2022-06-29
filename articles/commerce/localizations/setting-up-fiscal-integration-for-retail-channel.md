@@ -9,30 +9,29 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 13bdbcc2d52846b8b5d04773c986cd3a4a59e7b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 695f3c1e704f2712f392d0d7179da63f47731f46
+ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889400"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9027059"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Setja upp fjármálasamþættingu fyrir Commerce-rásir
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Þessi grein veitir leiðbeiningar um að setja upp fjárhagslega samþættingarvirkni fyrir viðskiptarásir. Nánari upplýsingar um fjárhagssamþættingu er að finna í [Yfirlit yfir fjárhagssamþættingu fyrir Commerce-rásir](fiscal-integration-for-retail-channel.md).
 
 ## <a name="enable-features-in-commerce-headquarters"></a>Virkjaðu eiginleika í höfuðstöðvum Commerce
 
-Til að virkja eiginleika sem tengjast fjárhagslegri samþættingu virkni fyrir viðskiptarásir skaltu fylgja þessum skrefum.
+Fylgdu þessum skrefum til að virkja eiginleika sem tengjast fjárhagslegri samþættingu virkni fyrir viðskiptarásir.
 
 1. Í Commerce Headquarters skal fara í **Kerfisstjórnun \> Vinnusvæði \> Eiginleikastjórnun**.
 1. Finndu og virkjaðu eftirfarandi eiginleika:
 
-    - **Bein fjárhagsleg samþætting frá POS skrám** – Þessi eiginleiki stækkar fjárhagslega samþættingarrammann með því að bæta við getu til að búa til fjárhagstengi sem verða keyrð á sölustað (POS). Þessi tegund tengis hefur samskipti við fjárhagslegt tæki eða þjónustu sem veitir HTTP forritunarviðmót (API) og krefst ekki sérstakrar líkamlegrar vélar í versluninni. Til dæmis gerir þessi virkni fjárhagslega samþættingu fyrir farsíma án þess að þurfa sameiginlega vélbúnaðarstöð.
-    - **Tæknileg samþætting ríkisfjármála hnekkir** – Þessi eiginleiki gerir kleift að stækka uppsetningu fjárhagssamþættingar og bætir við möguleikanum til að athuga tengingarfæribreytur á stillingasíðu POS-skrár. Þegar þessi eiginleiki er virkur geturðu hnekkt færibreytum tæknisniðs.
-    - **Skattskráningarríki POS-skráa** – Þegar þessi eiginleiki er virkur geturðu slökkt á fjárhagsskráningarferlinu fyrir tilteknar POS-skrár. Ef fjárhagsskráning er óvirk fyrir POS-skrá er ekki hægt að ljúka sölufærslum á þeirri skrá.
+    - **Bein fjárhagsleg samþætting frá POS skrám** – Þessi eiginleiki stækkar fjárhagslega samþættingarrammann með því að bæta við getu til að búa til fjárhagstengi sem verða keyrð á sölustað (POS). Þessi tegund tengis hefur samskipti við fjárhagslega tæki eða þjónustu sem veitir HTTP forritunarviðmót (API) og krefst ekki sérstakrar líkamlegrar vélar í versluninni. Til dæmis gerir þessi virkni fjárhagslega samþættingu fyrir farsíma án þess að þurfa sameiginlega vélbúnaðarstöð.
+    - **Tæknilega samþætting ríkisfjármála hnekkir** – Þessi eiginleiki gerir kleift að stækka uppsetningu fjárhagslegrar samþættingar og bætir við möguleikanum til að athuga tengingarfæribreytur á stillingasíðu POS-skrár. Þegar þessi eiginleiki er virkur geturðu hnekkt færibreytum tæknisniðs.
+    - **Skattaskráningarríki POS-skráa** – Þegar þessi eiginleiki er virkur geturðu slökkt á fjárhagsskráningarferlinu fyrir tilteknar POS-skrár. Ef fjárhagsskráning er óvirk fyrir POS-skrá er ekki hægt að ljúka sölufærslum á þeirri skrá.
     - **Afrit af staðbundinni geymslu í ríkisfjármálum** – Þessi eiginleiki eykur villumeðhöndlunargetu ríkisfjármálasamþættingarrammans. Það gerir einnig kleift að taka sjálfvirkt öryggisafrit af ríkisskráningargögnum ef gögn tapast, þannig að gögnin í staðbundinni geymslu eru endurheimt á meðan tæki er virkjað.
 
 ## <a name="set-up-commerce-parameters"></a>Settu upp viðskiptafæribreytur
@@ -60,7 +59,7 @@ Uppsetningarferli fjárhagssamþættingar felur í sér eftirfarandi atriði:
 - Grunnstilla skráningarferli fjárhags sem skilgreinir röð fjárhagsskráningarskrefa og fjárhagstenglana og fjárhagsskjalaveiturnar sem eru notaðar í hverju skrefi.
 - Úthluta fjárhagsskráningarferlinu á POS virkniprófíla.
 - Úthluta tækniforstillingum tengils til vélbúnaðarsniðs.
-- Úthlutaðu tæknisniðum fyrir tengi til POS vélbúnaðar eða virkniprófíla.
+- Úthlutaðu tæknisniðum tengi til POS vélbúnaðar eða virkniprófíla.
 
 ### <a name="upload-configurations-of-fiscal-document-providers"></a>Hladdu upp stillingum fyrir veitendur fjárhagsskjala
 
@@ -68,7 +67,7 @@ Fjárhagsskjalaveita ber ábyrgð á því að mynda fjárhagsskjöl sem tákna 
 
 Fylgdu þessum skrefum til að hlaða upp stillingum veitenda fjárhagsskjala.
 
-1. Í höfuðstöðvum viðskipta, farðu á **Veitendur ríkisfjármálaskjala** síða (**Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Veitendur ríkisfjármálaskjala**).
+1. Í höfuðstöðvum Commerce, farðu á **Veitendur ríkisfjármálaskjala** síða (**Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Veitendur ríkisfjármálaskjala**).
 1. Hladdu upp XML stillingu fyrir hvert tæki eða þjónustu sem þú ætlar að nota.
 
 > [!TIP]
@@ -77,14 +76,14 @@ Fylgdu þessum skrefum til að hlaða upp stillingum veitenda fjárhagsskjala.
 > [!NOTE]
 > Gagnavörpun er talin hluti af fjárhagsskjalaveitu. Til að setja upp mismunandi gagnavörpun fyrir sama tengilinn (til dæmis samkvæmt staðbundnum reglugerðum), ættir þú að búa til mismunandi fjárhagsskjalsveitur.
 
-### <a name="upload-configurations-of-fiscal-connectors"></a>Hladdu upp stillingum á fjárhagslegum tengjum
+### <a name="upload-configurations-of-fiscal-connectors"></a>Hladdu upp stillingum fjárhagstengja
 
 Fjárhagstengill er ábyrgur fyrir samskiptum við fjárhagstæki eða þjónustu. Til dæmis gæti fjárhagstengill sent fjárhagskvittun, sem fjárhagsskjalaveita stofnaði á XML-sniði, til strimlaprentara. Fyrir frekari upplýsingar um fjárhagslega samþættingarhluta, sjá [Fjárhagsskráningarferli og sýnishorn af samþættingu ríkisfjármála fyrir ríkisfjármálatæki og þjónustu](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 Til að hlaða upp stillingum fjárhagstengja skaltu fylgja þessum skrefum.
 
-1. Í höfuðstöðvum viðskipta, farðu á **Fjárhagstengingar** síða (**Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Fjárhagstengingar**).
-1. Hladdu upp XML stillingu fyrir hvert tæki eða þjónustu sem þú ætlar að nota í fjárhagslegum samþættingu.
+1. Í höfuðstöðvum Commerce, farðu á **Fjárhagstengingar** síða (**Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Fjárhagstengingar**).
+1. Hladdu upp XML-stillingu fyrir hvert tæki eða þjónustu sem þú ætlar að nota í fjárhagslegum samþættingu.
 
 > [!TIP]
 > Með því að velja **Skoða** er hægt að skoða allar virknir og tækniforstillingar sem tengjast núverandi fjárhagstengli.
@@ -93,15 +92,15 @@ Fyrir dæmi um grunnstillingar á fjárhagstenglum og fjárhagsskjalaveitum skal
 
 ### <a name="create-connector-functional-profiles"></a>Búðu til virka snið fyrir tengi
 
-Fylgdu þessum skrefum til að búa til virka snið fyrir tengi.
+Fylgdu þessum skrefum til að búa til virka snið tengi.
 
-1. Í höfuðstöðvum viðskipta, farðu á **Tengi virka snið** síða (**Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Tengi virka snið**).
+1. Í höfuðstöðvum Commerce, farðu á **Tengi virkni snið** síða (**Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Tengi virkni snið**).
 1. Fyrir hverja samsetningu fjárhagstengis og fjárhagsskjalaveitu sem tengist þessu fjárhagstengi skaltu búa til virknisnið tengis með því að fylgja þessum skrefum:
 
     1. Veldu heiti tengils.
     1. Veldu skjalsveitu.
 
-#### <a name="change-data-mapping-parameters-in-a-connector-functional-profile"></a>Breyttu færibreytum gagnakortunar í virknisniði tengis
+#### <a name="change-data-mapping-parameters-in-a-connector-functional-profile"></a>Breyta breytum gagnakortunar í virknisniði tengis
 
 Hægt er að breyta færibreytum gagnavörpunar í tækniforstillingu tengils. Eftirfarandi tafla gefur nokkur dæmi um gagnakortunarfæribreytur í virknisniði tengis.
 
@@ -111,7 +110,7 @@ Hægt er að breyta færibreytum gagnavörpunar í tækniforstillingu tengils. E
 | Vörpun VSK-kóða | VSKkóði : gildi | vsk20: 1, vsk18: 2 |
 | Setja upp greiðslumáta | TenderType: gildi | Reiðufé: 1, kort: 2 |
 
-Til að endurheimta sjálfgefnar færibreytur sem eru skilgreindar í uppsetningu fjárhagsskjalaveitu skaltu velja **Uppfærsla** á **Tengi virka snið** síðu.
+Til að endurheimta sjálfgefnar færibreytur sem eru skilgreindar í skilgreiningu fjárhagsskjalaveitu skaltu velja **Uppfærsla** á **Tengi virkni snið** síðu.
 
 > [!NOTE]
 > Virkniforstillingar tengils eru sértækar fyrirtæki. Ef þú ætlar að nota sömu samsetningu fjárhagstengis og fjárhagsskjalaveitu fyrir mismunandi fyrirtæki, ættir þú að búa til virka tengisnið fyrir hvert fyrirtæki.
@@ -120,8 +119,8 @@ Til að endurheimta sjálfgefnar færibreytur sem eru skilgreindar í uppsetning
 
 Fylgdu þessum skrefum til að búa til tæknisnið fyrir tengi.
 
-1. Í höfuðstöðvum viðskipta, farðu á **Tæknisnið fyrir tengi** síða (**Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Tæknisnið fyrir tengi**).
-1. Búðu til tæknilega tengisnið fyrir hvern fjárhagstengi með því að fylgja þessum skrefum:
+1. Í höfuðstöðvum Commerce, farðu á **Tæknisnið fyrir tengi** síða (**Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Tæknisnið fyrir tengi**).
+1. Búðu til tæknilegan tengiprófíl fyrir hvert fjárhagslegt tengi með því að fylgja þessum skrefum:
 
     1. Veldu heiti tengils.
     1. Veldu tengitegund:
@@ -135,9 +134,9 @@ Fylgdu þessum skrefum til að búa til tæknisnið fyrir tengi.
         - Ef tengið er staðsett á vélbúnaðarstöðinni skaltu velja **Vélbúnaðarstöð**.
         - Ef tengið er staðsett á POS skránni skaltu velja **Skráðu þig**.
 
-Hægt er að breyta færibreytum í flipunum **Tæki** og **Stillingar** í tækniforstillingu tengils. Til að endurheimta sjálfgefnar færibreytur sem eru skilgreindar í grunnstillingu fjárhagstengils skal velja **Uppfæra**. Á meðan ný útgáfa af XML uppsetningu er að hlaðast, færðu skilaboð sem segja að núverandi fjárhagstengi eða fjárhagsskjalaveitan sé þegar í notkun. Þetta ferli hnekkir ekki handvirkum breytingum sem voru gerðar áður í virkniforstillingum tengils og tækniforstillingum tengils. Til að nota sjálfgefna sett af færibreytum úr nýrri uppsetningu skaltu velja **Uppfærsla** á annaðhvort **Tengi virka snið** síðu eða **Tæknisnið fyrir tengi** síðu.
+Hægt er að breyta færibreytum í flipunum **Tæki** og **Stillingar** í tækniforstillingu tengils. Til að endurheimta sjálfgefnar færibreytur sem eru skilgreindar í grunnstillingu fjárhagstengils skal velja **Uppfæra**. Á meðan ný útgáfa af XML uppsetningu er að hlaðast, færðu skilaboð sem segja að núverandi fjárhagstengi eða fjárhagsskjalaveitan sé þegar í notkun. Þetta ferli hnekkir ekki handvirkum breytingum sem voru gerðar áður í virkniforstillingum tengils og tækniforstillingum tengils. Til að nota sjálfgefna sett af færibreytum úr nýrri stillingu skaltu velja **Uppfærsla** á annaðhvort **Tengi virkni snið** síðu eða **Tæknisnið fyrir tengi** síðu.
 
-Ef þú verður að setja upp sérstakar færibreytur fyrir einstaka POS-skrá eða verslun skaltu fylgja þessum skrefum.
+Ef þú verður að setja upp sérstakar færibreytur fyrir einstaka POS skrá eða verslun skaltu fylgja þessum skrefum.
 
 1. Veldu **Hneka** valmyndaratriði.
 1. Á **Hneka** síðu, búðu til nýja skrá.
@@ -171,9 +170,9 @@ Til að búa til fjárhagslega skráningarferli skaltu fylgja þessum skrefum.
 
 ### <a name="assign-entities-of-the-fiscal-registration-process-to-pos-profiles"></a>Úthluta einingar fjárhagsskráningarferlisins á POS snið
 
-Fylgdu þessum skrefum til að úthluta einingar fjárhagsskráningarferlisins á POS snið.
+Fylgdu þessum skrefum til að úthluta einingar í fjárhagsskráningarferlinu á POS snið.
 
-1. Í höfuðstöðvum viðskipta, farðu á **POS virkni snið** síða (**Verslun og verslun \> Rásaruppsetning \> POS uppsetning \> POS snið \> Virkniprófílar**). 
+1. Í höfuðstöðvum viðskipta, farðu á **POS virkni snið** síða (**Verslun og verslun \> Rásaruppsetning \> POS uppsetning \> POS snið \> Virkni snið**). 
 1. Úthluta fjárhagsskráningarferlinu á POS virkniprófíl.
 1. Veldu **Breyta** og síðan, í flipanum **Skráningarferli fjárhags**, í reitnum **Númer ferlis** skal velja ferli.
 1. Á **Þjónusta í ríkisfjármálum** flipann, veldu tæknisnið tengis með staðsetningu tengisins **Skráðu þig**.
@@ -186,22 +185,22 @@ Fylgdu þessum skrefum til að úthluta einingar fjárhagsskráningarferlisins �
 > [!NOTE]
 > Þú getur bætt nokkrum tækniforstillingum við sömu vélbúnaðarforstillinguna. Hins vegar ætti vélbúnaðarforstilling eða POS-virkniregla aðeins að vera með eina skörun við einhvern tengilhóp fjárhags.
 
-Fjárhagsskráningarflæðið er skilgreint af fjárhagsskráningarferlinu og einnig af sumum breytum fjárhagslegra samþættingarþátta: the CRT framlenging fyrir ríkisfjármálaskjalaveituna og viðbyggingu vélbúnaðarstöðvar fyrir fjárhagstengi.
+Fjárhagsskráningarflæðið er skilgreint af fjárhagsskráningarferlinu og einnig af sumum breytum fjárhagslegra samþættingarþátta: the CRT framlenging fyrir fjárhagsskjalaveituna og viðbyggingu Vélbúnaðarstöðvar fyrir fjárhagstengi.
 
 - Áskrift af tilvikum og færslum til fjárhagsskráningar er skilgreind fyrirfram í fjárhagsskjalaveitunni.
 - Fjárhagsskjalaveitan er einnig ábyrg fyrir því að bera kennsl á fjárhagstengil sem er notaður fyrir fjárhagsskráningu. Það samsvarar virkniforstillingum tengils sem eru innifaldar í fjárhagstenglahópi sem er á við fyrir núverandi skref í skráningarferli fjárhags með tækniforstillingu tengils sem er úthlutað til vélbúnaðarforstillingu vélbúnaðarstöðvarinnar sem POS er parað við.
 - Fjárhagsskjalaveitan notar stillingar gagnavörpunar frá grunnstillingu fjárhagsskjalaveitunnar til að umbreyta gögnum færslu/tilviks á borð við skatta og greiðslur á meðan fjárhagsskjal er myndað.
-- Þegar fjárhagsskjalaveitan býr til fjárhagsskjal getur fjárhagstengi annaðhvort sent það til fjárhagsbúnaðarins eins og það er, eða flokkað það og umbreytt því í röð skipana á API tækisins, allt eftir því hvernig samskiptin eru meðhöndluð.
+- Þegar fjárhagsskjalaveitan býr til fjárhagsskjal getur fjárhagstengi annaðhvort sent það til fjárhagslega tækisins eins og það er eða flokkað það og umbreytt því í röð skipana á API tækisins, allt eftir því hvernig samskiptin eru meðhöndluð.
 
 ### <a name="set-up-registers-with-fiscal-registration-restrictions"></a>Settu upp skrár með takmarkanir á skattaskráningu
 
-Þú getur valið skrár þar sem fjárhagsleg skráning er bönnuð, til dæmis í þeim tilvikum þar sem þú þarft að veita aðeins aðgerðir sem ekki eru fjárhagslegar eins og vörulistaleit, uppflettingu viðskiptavina eða gerð færsludrög á þessum tækjum.
+Þú getur valið skrár þar sem fjárhagsleg skráning er bönnuð, til dæmis í þeim tilvikum þar sem þú þarft aðeins að veita aðgerðir sem ekki eru fjárhagslegar eins og vörulistaleit, uppflettingu viðskiptavina eða gerð færsludrög á þessum tækjum.
 
 Til að setja upp skrár með takmarkanir á skattaskráningu skaltu fylgja þessum skrefum.
 
 1. Í höfuðstöðvum viðskipta, farðu til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Skráningarferli í ríkisfjármálum**.
 1. Veldu nauðsynlegt ferli.
-1. Veldu **POS skrár með takmarkanir á fjárhagsferli** flipa.
+1. Veldu **POS skrár með takmarkanir á fjárhagslegum ferli** flipa.
 1. Bættu við skrám með takmörkunum á ríkisfjármálum eftir þörfum.
 
 ### <a name="validate-the-fiscal-registration-process"></a>Staðfestu fjárhagsskráningarferlið
@@ -209,8 +208,8 @@ Til að setja upp skrár með takmarkanir á skattaskráningu skaltu fylgja þes
 Mælt er með því að þú staðfestir fjárhagsskráningarferlið í eftirfarandi tilvikum:
 
 - Þú hefur lokið við allar stillingar fyrir nýtt skráningarferli. Þessar stillingar fela í sér úthlutun skráningarferla á POS virknisnið og vélbúnaðarsnið.
-- Þú hefur gert breytingar á núverandi fjárhagsskráningarferli og þær breytingar gætu valdið því að annað fjárhagslegt tengi sé valið á keyrslutíma. (Til dæmis hefurðu breytt tengihópnum fyrir fjárhagsskráningarferlisþrep, virkjað virka snið tengis í tengihópi eða bætt nýju virknisniði tengi við tengihóp.)
-- Þú hefur gert breytingar á úthlutun tæknisniðs tengis á vélbúnaðarsnið.
+- Þú hefur gert breytingar á núverandi fjárhagsskráningarferli og þær breytingar gætu valdið því að annað fjárhagslegt tengi sé valið á keyrslutíma. (Til dæmis hefurðu breytt tengihópnum fyrir fjárhagsskráningarferlisþrep, virkjað virkt tengisnið í tengihópi eða bætt nýju virkusniði tengi við tengihóp.)
+- Þú hefur gert breytingar á úthlutun tækniprófíla tengis á vélbúnaðarsnið.
 
 Til að staðfesta fjárhagsskráningarferlið skaltu fylgja þessum skrefum.
 
@@ -253,20 +252,20 @@ Til að stilla villumeðferðarstillingar skaltu fylgja þessum skrefum.
 
     - **Leyfa að sleppa** - Þessi færibreyta virkjar valkostinn **Sleppa** í svarglugga villumeðhöndlunar.
     - **Leyfa að merkja sem skráð** - Þessi færibreyta virkjar valkostinn **Merkja sem skráð** í svarglugga villumeðhöndlunar.
-    - **Leyfa fresta** – Þessi færibreyta gerir **Fresta** valmöguleika í villumeðferðarglugganum.
+    - **Leyfa fresta** – Þessi færibreyta gerir kleift að **Fresta** valkostur í villumeðferðarglugganum.
     - **Halda áfram á villu** - Ef þessi færibreyta er virkjuð getur ferli fjárhagsskráningar haldið áfram í afgreiðslukassa ef fjárhagsskráning færslu eða tilviks mistekst. Annars, til að keyra fjárhagsskráningu á næstu færslu eða tilviki, verður notandi að reyna misheppnuðu fjárhagsskráninguna aftur, sleppa henni eða merkja færsluna eða tilvikið sem skráð. Frekari upplýsingar er að finna í [Valfrjáls fjárhagsskráning](fiscal-integration-for-retail-channel.md#optional-fiscal-registration).
 
     > [!NOTE]
     > Ef færibreytan **Halda áfram á villu** er virkjuð eru færibreyturnar **Leyfa að sleppa** og **Leyfa að merkja sem skráð** sjálfkrafa gerðar óvirkar.
 
 1. The **Sleppa** og **Merktu sem skráð** valkostir í villumeðferðarglugganum krefjast þess að **Leyfa að sleppa skráningu eða merkja sem skráð** leyfi vera virkt. Til að virkja þessa heimild skaltu fara á **Leyfishópar** síða (**Verslun og verslun \> Starfsmenn \> Leyfishópar**), og stilltu **Leyfa að sleppa skráningu eða merkja sem skráð** valmöguleika til **Já**.
-1. The **Fresta** valkostur í villumeðferðarglugganum krefst þess að **Leyfa fresta** leyfi vera virkt. Til að virkja heimildina skaltu fara á **síðuna Heimildaflokkar** (**Heimildaflokkar \> starfsmanna retail og Commerce \> Employees**) og stilla valkostinn **Leyfa frestun** á **Já**.
-1. Valkostirnir **Sleppa**, **Merkja sem skráðir** og **Fresta** gera rekstraraðilum kleift að færa inn viðbótarupplýsingar þegar fjárhagsskráning mistekst. Til að gera þessa aðgerð tiltæka ætti að tilgreina kótana **Sleppa**, **Merkja sem skráða** og **Fresta** upplýsingakóðum í fjárhagstengisflokki. Upplýsingarnar sem notendur slá inn eru síðan vistaðar sem færsla upplýsingakóða sem er tengd við fjárhagsfærsluna. Nánari upplýsingar um upplýsingakóða er að finna í [Upplýsingakóðar og upplýsingakóðaflokkar](../info-codes-retail.md).
+1. The **Fresta** valkostur í villumeðferðarglugganum krefst þess að **Leyfa fresta** leyfi vera virkt. Til að virkja leyfið skaltu fara á **Leyfishópar** síða (**Verslun og verslun \> Starfsmenn \> Leyfishópar**), og stilltu **Leyfa fresta** valmöguleika til **Já**.
+1. The **Sleppa**, **sem skráð**, og **Fresta** valkostir leyfa rekstraraðilum að slá inn viðbótarupplýsingar þegar fjárhagsskráning mistekst. Til að gera þessa virkni aðgengilega ættirðu að tilgreina **Sleppa**, **sem skráð**, og **Fresta** upplýsingakóðar á fjárhagstengihópi. Upplýsingarnar sem notendur slá inn eru síðan vistaðar sem færsla upplýsingakóða sem er tengd við fjárhagsfærsluna. Nánari upplýsingar um upplýsingakóða er að finna í [Upplýsingakóðar og upplýsingakóðaflokkar](../info-codes-retail.md).
 
     > [!NOTE]
     > Virkniræsingin **Afurð** er ekki studd fyrir upplýsingakóðana sem eru notaðir fyrir **Sleppa** og **Merkja sem skráð** í fjárhagstenglaflokkum.
 
-    - **Á síðunni Flokkur fjárhagstengis**, á flipanum **Upplýsingakóðar**, velja upplýsingakóða eða upplýsingakóðaflokka í svæðunum **Sleppa**, **Merkja sem skráð** og **Fresta**.
+    - Á **Fjárhagstengingarhópur** síðu, á **Upplýsingakóðar** flipann, veldu upplýsingakóða eða upplýsingakóðahópa í **Sleppa**, **sem skráð**, og **Fresta** sviðum.
 
     > [!NOTE]
     > Hægt er að búa til eitt fjárhagsskjal og eitt skjal sem er ekki fjárhagsskjal í hvaða skrefi sem er í skráningarferli fjárhags. Viðbót fjárhagsskjalaveitu ber kennsl á allar gerðir af færslum eða tilvikum sem tengdar við fjárhagsskjal eða skjals sem ekki er fjárhagsskjal. Eiginleiki villumeðhöndlunar á aðeins við um fjárhagsskjöl.
@@ -298,21 +297,21 @@ Til að virkja handvirka framkvæmd á frestaðri fjárhagsskráningu ættir þ�
     1. Á síðunni **Dreifingaráætlun** skal keyra verkið **1090** til að flytja breytingarnar þínar til gagnagrunns rásarinnar.
 
 
-## <a name="view-connection-parameters-and-other-information-in-pos"></a>Skoða tengingarfæribreytur og aðrar upplýsingar í sölustað
+## <a name="view-connection-parameters-and-other-information-in-pos"></a>Skoðaðu tengibreytur og aðrar upplýsingar í POS
 
-Til að skoða tengingarfæribreytur og aðrar upplýsingar í sölustað skal fylgja þessum skrefum.
+Til að skoða tengifæribreytur og aðrar upplýsingar í POS skaltu fylgja þessum skrefum.
 
 1. Opnaðu Modern POS (MPOS) eða Cloud POS (CPOS).
-1. Veldu **Stillingar**. Ef fjárhagssamþætting er virk mun hlutinn **Samþætting** fjárhags til hægri sýna eftirfarandi upplýsingar:
+1. Veldu **Stillingar**. Ef fjárhagsleg samþætting er virkjuð, **Samþætting ríkisfjármála** kafla til hægri mun sýna eftirfarandi upplýsingar:
 
-    - Staða fjárhagsskráningar
-    - Staða síðustu fjárhagsfærslu
-    - Fjöldi endurskoðunartilvika í bið
+    - Staða ríkisskráningar
+    - Staða síðustu ríkisfjármálaviðskipta
+    - Fjöldi endurskoðunarviðburða sem bíða
 
 1. Veldu **Upplýsingar** til að skoða eftirfarandi upplýsingar:
 
-    - Skref í skráningarferli
+    - Skref skráningarferlisins
     - Færibreytur tengingar
-    - Upplýsingar um endurskoðunartilvik
+    - Endurskoðun viðburða upplýsingar
  
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

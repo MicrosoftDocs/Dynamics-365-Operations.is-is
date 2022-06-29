@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c2dbd968a22f2bded29cff3517dacbafc79ff8f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: be6ef12f34e85b90c24c43c6e55ad169c271810a
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902112"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016624"
 ---
 # <a name="maintenance-forecasts"></a>Viðhaldsspár
 
@@ -32,7 +32,7 @@ ms.locfileid: "8902112"
 
 Hugsanlega er hægt að bæta spálínum við verkbeiðni eða eyða þeim úr verkbeiðni. Uppsetning á líftímastöðu verkbeiðni, tengdri verkefnisgerð og stigareglum sem tengjast verkgerðinni ákvarðar hvort þú getur bætt við eða breytt spárlínum. Nánari upplýsingar um líftímastöður verkbeiðna og tengd verkefnastig, sjá [Spár, verkbeiðnir og verk](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
-1. Veldu **Eignastýringu** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
+1. Veldu **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
 
 2. Veldu verkbeiðni á listanum og síðan á aðgerðarrúðunni > flipanmu **Verkbeiðni** > hópnum **Verk**, velurðu **Spá**. Síðan **Viðhaldsspá verkbeiðni** sýnir spálínur úr gerð viðhaldsverks sem er valið í verkbeiðnivinnslunni.
 
