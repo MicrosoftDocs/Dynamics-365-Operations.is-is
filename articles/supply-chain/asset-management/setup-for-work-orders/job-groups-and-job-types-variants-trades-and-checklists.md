@@ -1,6 +1,6 @@
 ---
 title: Tegundir viðhaldsstarfa, flokkar, afbrigði, viðskipti og gátlistar
-description: Þessi grein lýsir tegundum viðhaldsverka og tegundum viðhaldsverka, afbrigðum af gerðum viðhaldsverka, viðskiptum við viðhaldsstörf og viðhaldsgátlistum í eignastýringu.
+description: Þessi grein lýsir tegundum viðhaldsverka og tegundum viðhaldsverka, afbrigðum viðhaldsverka, viðskiptum við viðhaldsstörf og viðhaldsgátlistum í eignastýringu.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b4d0bf82dc0dfe12991b4a48fd68a029a2ff2f3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 2d4385fdd3e94d48a65baf195efa1d687fbf95c3
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887603"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016769"
 ---
 # <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Tegundir viðhaldsstarfa, flokkar, afbrigði, viðskipti og gátlistar
 
@@ -243,7 +243,7 @@ Auðkenni verkefna er sjálfkrafa tengt við hverja sjálfgefna línu viðhaldsv
 
 Eftir að þú hefur búið til nauðsynlegar sjálfgefnar samsetningar á gerðum viðhaldsverka geturðu notað síðuna **Allar eignir** til að fá yfirlit yfir núverandi sjálfgildi gerðar viðhaldsverka sem tengist tiltekinni eign. Yfirlitið sýnir allar sjálfgefnar samsetningar á gerðum viðhaldsverka sem hægt er að nota á eignategundina sem er valin fyrir eignina. Þessar samsetningar innihalda samsetningar sem hafa afbrigði af tegundaafbrigðum viðhaldsverka og viðskipta með viðhaldsverk.
 
-1. Veldu **Eignastýring** \> **Sameiginlegt** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**.
+1. Veldu **Eignastýring** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**.
 2. Á listanum velurðu eign til að sjá yfirlit yfir tegundasamsetningar á viðhaldsverkum fyrir.
 3. Á aðgerðarrúðunni, á flipanum **Almennt**, í hópnum **Tengdar upplýsingar** skaltu velja **Gerðir viðhaldsverka**.
 

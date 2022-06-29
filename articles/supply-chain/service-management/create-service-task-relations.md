@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80980d83248612037999c665b6058c4d0bbf6a7c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 51ea26a0f6519d26f5207a7b6c8afbcdfa358be9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678235"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015260"
 ---
 # <a name="create-service-task-relations"></a>Stofna þjónustuverkatengsl    
 
@@ -30,7 +30,7 @@ ms.locfileid: "8678235"
 
 ## <a name="create-a-relation-with-a-service-agreement"></a>Stofna tengsl við þjónustusamning
 
-1.  Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustusamningar** \> **þjónustusamningar**.
+1.  Fara til **Þjónustustjórnun** \> **Þjónustusamningar** \> **Þjónustusamningar**.
 
 2.  Veljið fyrirliggjandi þjónustusamning eða stofnið nýjan þjónustusamning.
 
@@ -48,7 +48,7 @@ Endurtakið þetta ferli þar til búið er að stofna öll nauðsynleg þjónus
 
 ## <a name="create-a-relation-with-a-service-order"></a>Stofna tengsl við þjónustupöntun
 
-1.  Veljið **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+1.  Fara til **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 
 2.  Veljið fyrirliggjandi þjónustupöntun eða stofnið nýja þjónustupöntun.
 

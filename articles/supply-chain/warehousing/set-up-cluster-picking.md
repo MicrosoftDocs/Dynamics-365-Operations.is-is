@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3094649da2ce9a700a4d1cde236609013f4b9744
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 0ec3de073def2ff63af3c04b5696cbcec4f09948
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862309"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014721"
 ---
 # <a name="set-up-cluster-picking"></a>Setja upp klasatiltekt
 
@@ -74,9 +74,14 @@ Til að setja upp forstillingu sem klasa, skal fylgja þessum skrefum:
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Setja upp vörustaðfestingu með klasatiltekt
 
-1. Í valmyndaratriði fartækis skal opna eyðublað uppsetningar fyrir vinnustaðfestingu: **Vöruhúsakerfi** \> **Vöruhúsakerfi** \> **Uppsetning** \> **Fartæki** \> **Valmyndaratriði fartækis**.
+1. Fara til **Vöruhússtjórnun** > **Uppsetning** > **Farsímatæki** > **Valmyndaratriði fartækis**.
+1. Í listaglugganum skaltu velja valmyndaratriðið sem þú vilt setja upp.
+1. Á aðgerðarrúðunni velurðu **Uppsetning vinnustaðfestingar**.
+1. Gerðu eina af eftirfarandi aðgerðum:
+    - Ef það er þegar til lína fyrir **Tegund vinnu** þú vilt setja upp, veldu það og veldu síðan **Breyta** á aðgerðasvæðinu.
+    - Ef viðeigandi lína er ekki til skaltu velja **Nýtt** á aðgerðarrúðunni og stilltu síðan **Tegund vinnu** í viðeigandi gerð.
+1. Merktu við **Vara staðfest** gátreitinn fyrir nýju eða valda línuna þína. Þetta gerir starfsmönnum kleift að sannreyna hvert birgðastykki með því að nota farsímann.
 
-1. Opna **Uppsetning vinnustaðfestingar** í valmyndaratriði fartækis. Valkosturinn **Afurðarstaðfesting** leyfir þér að staðfesta hvert stykki af birgðum úr fartæki þegar það er skannað.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

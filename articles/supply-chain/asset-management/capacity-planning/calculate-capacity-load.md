@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8eb0b152f0a4b4e0f61d519262c24d02b71b8fc3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 95d1e38db8e4658a57f36139836264b87d525e61
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849649"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016131"
 ---
 # <a name="calculate-capacity-load"></a>Reikna álag
 
@@ -35,7 +35,7 @@ ms.locfileid: "8849649"
 
 Þetta er gagnlegt ef þú vilt fá yfirsýn yfir áætlað álag yfir ákveðið tímabil. Hægt er að gera útreikning á álagi á allar eignir eða valdar eignir. Þú getur líka gert útreikning á aðgerðum niðurtíma vegna viðhalds eða verkbeiðnahópum.
 
-1. Smelltu á **Eignastýringu** > **Fyrirspurnir** > **Álag**, eða **Eignastýring** > **Sameiginlegt** > **Verkbeiðnihópar** > **Allir verkbeiðnihópar** / **Virkir verkbeiðnihópar** > veldu verkbeiðnihóp af listanum > hnappinum **Álag**, eða **Eignastýringu** > **Sameiginlegt** > **Niðurtími vegna viðhalds** > **Allur niðurtími vegna viðhalds** / **Virkur niðurtími vegna viðhalds** > veldu viðhaldsaðgerðir á listanum > hnappnum **Álag**.
+1. Smellur **Eignastýring** > **Fyrirspurnir** > **Afkastagetu álag**, eða **Eignastýring** > **Vinnupöntunarlaugar** > **Allar vinnupöntunarlaugar** / **Virkir verkbeiðnapottar** > veldu verkbeiðnasafn á listanum >**Afkastagetu álag** hnappinn, eða **Eignastýring** > **Viðhaldsstarfsemi í miðbæ** > **Öll starfsemi í niðri í viðhaldi** / **Virk viðhaldsstarfsemi í miðbæ** > veldu viðhaldsvirkni á listanum >**Afkastagetu álag** takki.
 
 2. Í glugganum **Reikna álag** velurðu tímabil fyrir útreikninginn í reitunum **Upphafsdagsetning/-tími** og **Lokadagsetning/-tími**.
 
