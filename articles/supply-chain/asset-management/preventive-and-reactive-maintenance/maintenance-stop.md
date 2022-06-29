@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 75e30c8b2d74cc2f1ca538b64e5fc801f9ca130a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 42e8ba4e19333cb25464203a2583175ef082ad98
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897691"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016479"
 ---
 # <a name="maintenance-downtime-activities"></a>Niðurtímaaðgerðir vegna viðhalds
 
@@ -38,14 +38,14 @@ Niðurtími vegna viðhalds er notaður til að fá yfirsýn yfir álag sem þar
 
 ## <a name="maintenance-downtime-activities"></a>Niðurtímaaðgerðir vegna viðhalds
 
-Smelltu á **Eignastýring** > **Sameiginlegt** > **Aðgerðir niðurtíma vegna viðhalds** > **Allar aðgerðir niðurtíma vegna viðhalds** til að opna lista yfir allar aðgerðir niðurtíma vegna viðhalds og sjá nokkrar þeirra upplýsinga sem tengjast aðgerðunum. Smelltu á tengil í dálkinum **Aðgerðir niðurtíma vegna viðhalds** til að opna smáatriðið. Myndin hér að neðan sýnir dæmi um listann **Niðurtímaaðgerðir vegna viðhalds**.
+Smellur **Eignastýring** > **Viðhaldsstarfsemi í miðbæ** > **Öll starfsemi í niðri í viðhaldi** til að opna lista yfir alla starfsemi í niðri í viðhaldi og sjá hluta af þeim upplýsingum sem tengjast starfseminni. Smelltu á tengil í dálkinum **Aðgerðir niðurtíma vegna viðhalds** til að opna smáatriðið. Myndin hér að neðan sýnir dæmi um listann **Niðurtímaaðgerðir vegna viðhalds**.
 
 ![Mynd 1.](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>Stofna aðgerð niðurtíma vegna viðhalds
 
-1. Smelltu á **Eignastýring** > **Sameiginlegt** > **Aðgerðir niðurtíma vegna viðhalds** > **Allar aðgerðir vegna viðhaldstíma** eða **Virkar aðgerðir niðurtíma vegna viðhalds**.
+1. Smellur **Eignastýring** > **Viðhaldsstarfsemi í miðbæ** > **Öll starfsemi í niðri í viðhaldi** eða **Virk viðhaldsstarfsemi í miðbæ**.
 
 2. Smellt er á **Nýtt**.
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
+ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891090"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013556"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Hafist handa með altækt birgðabókhald
 
@@ -38,7 +38,7 @@ Altækt birgðabókhald er innbót. Til að gera aðgerðir þess aðgengilegar 
 
 Eins og er styður altækt birgðabókhald ekki alla eiginleika kostnaðarstjórnunar sem eru innbyggðir í Supply Chain Management. Þess vegna er mikilvægt að þú metir hvort grunneiginleikarnir sem nú eru tiltækir uppfylli kröfur þínar.
 
-## <a name="how-to-get-the-global-inventory-accounting-add-in"></a><a name="sign-up"></a> Hvernig á að fá Global Inventory Accounting viðbótina
+## <a name="how-to-get-the-global-inventory-accounting-add-in"></a><a name="sign-up"></a> Hvernig á að fá alþjóðlega birgðabókhaldsaukningu
 
 > [!IMPORTANT]
 > Til að nota altækt birgðabókhald verður þú að vera með stöðugt LCS-virkjað umhverfi (ekki OneBox-umhverfi). Auk þess þarf að keyra Supply Chain Management útgáfu 10.0.19 eða nýrri.
@@ -47,7 +47,7 @@ Eins og er styður altækt birgðabókhald ekki alla eiginleika kostnaðarstjór
 
 Til að setja upp Global Inventory Accounting for Supply Chain Management útgáfu 10.0.19 til 10.0.26, byrjaðu kl.[að setja upp viðbótina](#install). Sendu síðan LCS umhverfið þitt og nafn fyrirtækis með tölvupósti til [Alþjóðlegt birgðabókhaldsteymi](mailto:GlobalInvAccount@microsoft.com). Teymið mun senda þér eftirfylgnitölvupóst sem inniheldur endapunkta þína fyrir alþjóðlega birgðabókhaldsþjónustuna.
 
-### <a name="supply-chain-management-version-10027-and-later"></a>Supply Chain Management útgáfa 10.0.27 og síðar
+### <a name="supply-chain-management-version-10027-and-later"></a>Supply Chain Management útgáfa 10.0.27 og nýrri
 
 Til að setja upp Global Inventory Accounting for Supply Chain Management útgáfu 10.0.27 og nýrri, bara [setja upp viðbótina](#install). Fyrir þessar útgáfur af Supply Chain Management verða endapunktar birgðabókhaldsþjónustunnar sjálfkrafa settir upp, svo þú þarft ekki að finna þá handvirkt. Ef þú lendir í einhverjum vandræðum við að setja upp viðbótina, vinsamlegast hafðu samband við [Alþjóðlegt birgðabókhaldsteymi](mailto:GlobalInvAccount@microsoft.com).
 
@@ -69,37 +69,6 @@ Leyfisveiting altæks birgðabókhalds fer saman við hefðbundna eiginleika bir
 
 Frekari upplýsingar er að finna í [Virkja að lokinni uppsetningu umhverfis](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>Setja Dataverse upp
-
-Áður en Dataverse er sett upp skal bæta þjónustureglum altæks birgðabókhalds við leigjandann með því að fylgja þessum skrefum.
-
-1. Setjið upp Azure AD einingu fyrir Windows PowerShell v2 eins og lýst er í [Setja upp Azure Active Directory PowerShell fyrir Graph](/powershell/azure/active-directory/install-adv2).
-1. Keyra eftirfarandi PowerShell-skipun.
-
-    ```powershell
-    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
-
-    New-AzureADServicePrincipal -AppId "7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9" -DisplayName "d365-scm-costaccountingservice"
-
-    New-AzureADServicePrincipal -AppId "5f58fc56-0202-49a8-ac9e-0946b049718b" -DisplayName "d365-scm-operationdataservice"
-    ```
-
-Næst skal stofna notendur forrits fyrir altækt birgðabókhald í Dataverse með því að fylgja þessum skrefum.
-
-1. Opnið vefslóð Dataverse umhverfisins.
-1. Farið í **Ítarleg stilling \> Kerfi \> Öryggi \> Notendur** og stofnið notanda forrits. Notið reitinn **Yfirlit** til að breyta síðuyfirlitinu í *Notendur forrits*.
-1. Veljið **Nýtt**.
-1. Stilltu reitinn **Forritskenni** á *7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9*.
-1. Veljið **Úthluta hlutverki** og veljið því næst *Kerfisstjóri*. Ef það er hlutverk sem er nefnt *Common Data Service Notandi*, veldu það líka.
-1. Endurtakið skrefin á undan, en stillið reitinn **Forritskenni** á *5f58fc56-0202-49a8-ac9e-0946b049718b*.
-
-Frekari upplýsingar eru í [Stofna notanda forrits](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
-
-Ef sjálfgefið tungumál Dataverse-uppsetningar er ekki enska skal fylgja þessum skrefum.
-
-1. Farið í **Ítarleg stilling \> Stjórnun \> Tungumál**.
-1. Veljið *Enska* (*LanguageCode=1033*) og síðan **Nota**.
-
 ## <a name="install-the-add-in"></a><a name="install"></a>Setja upp innbótina
 
 Fylgið þessum skrefum til að setja upp innbótina þannig að hægt sé að nota altækt birgðabókhald.
@@ -109,11 +78,21 @@ Fylgið þessum skrefum til að setja upp innbótina þannig að hægt sé að n
 1. Farðu í **Fullar upplýsingar**.
 1. Farið í **Power Platform samþætting** og veljið **Uppsetning**.
 1. Í svarglugganum **Uppsetning á umhverfi Power Platform** er gátreiturinn valinn og síðan **Uppsetning**. Venjulega tekur uppsetningin á milli 60 og 90 mínútur.
-1. Að lokinni uppsetningu á Microsoft Power Platform-umhverfinu, í flýtiflipanum **Innbætur umhverfis**, skal velja **Setja upp nýja innbót**.
+1. Eftir uppsetningu á Microsoft Power Platform umhverfi er lokið, skráðu þig inn á [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com) og settu síðan upp Global Inventory Accounting viðbótina með því að gera eftirfarandi skref:
+   1. Veldu umhverfið þar sem þú vilt setja viðbótina upp.
+   1. Veldu **Dynamics 365 forrit**.
+   1. Veldu **Settu upp app**.
+   1. Veldu **Dynamics 365 Alþjóðlegt birgðabókhald**.
+   1. Veldu **Næst** að setja upp.
+1. Farðu aftur í LCS umhverfi. Í flýtiflipanum **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
 1. Veljið **Altækt birgðabókhald**.
 1. Fylgdu uppsetningarleiðbeiningunum og samþykktu skilmála og skilyrði.
 1. Velja **Setja upp**.
 1. Í flýtiflipanum **Innbætur umhverfis** ættir þú að sjá að verið er að setja upp altækt birgðabókhald. Eftir nokkrar mínútur ætti staðan að breytast úr *Setur upp* í *Uppsett*. (Hugsanlega verður þú að endurhlaða síðuna til að breytingin komi í ljós). Á þeim tímapunkti er altækt birgðabókhald tilbúið til notkunar.
+
+Ef sjálfgefið tungumál þitt Dataverse uppsetning er ekki enska, fylgdu þessum skrefum:
+1. Farið í **Ítarleg stilling \> Stjórnun \> Tungumál**.
+1. Veljið *Enska* (*LanguageCode=1033*) og síðan **Nota**.
 
 ## <a name="set-up-the-integration"></a>Setja upp samþættingu
 
@@ -126,7 +105,7 @@ Fylgið þessum skrefum til að setja upp samþættingu milli altæks birgðabó
 1. Veldu **Virkja núna**.
 1. Farið í **Altækt birgðabókhald \> Uppsetning \> Færibreytur altæks birgðabókhalds \> Færibreytur samþættingar**.
 1. Það fer eftir því hvaða útgáfu af Supply Chain Management þú ert að keyra, gerðu eitt af eftirfarandi skrefum:
-    - **Supply Chain Management útgáfa 10.0.19 til 10.0.26** : Í **Endapunktur gagnaþjónustu** og **Endapunktur fyrir alþjóðlegt birgðabókhald** reiti, sláðu inn vefslóðirnar sem voru sendar til þín með tölvupósti frá alþjóðlegu birgðabókhaldsteyminu (sjá einnig [Hvernig á að fá Global Inventory Accounting viðbótina](#sign-up)).
+    - **Supply Chain Management útgáfa 10.0.19 til 10.0.26** : Í **Endapunktur gagnaþjónustu** og **Endapunktur alþjóðlegs birgðabókhalds** reiti skaltu slá inn vefslóðirnar sem voru sendar til þín með tölvupósti frá alþjóðlegu birgðabókhaldsteyminu (sjá einnig [Hvernig á að fá alþjóðlega birgðabókhaldsaukningu](#sign-up)).
     - **Supply Chain Management útgáfa 10.0.27 og nýrri** : Þú þarft ekki að slá inn endapunktana, svo þú getur sleppt þessu skrefi.
 
 Altækt birgðabókhald er nú tilbúið til notkunar.

@@ -1,6 +1,6 @@
 ---
 title: Áætlaðar verkbeiðnir viðhaldsverka
-description: Þessi grein útskýrir áætluð viðhaldsverk á verkbeiðni í eignastýringu.
+description: Þessi grein útskýrir áætlað viðhald verkbeiðna í eignastýringu.
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 99613369084ca1e708761179dfb2688014b011f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 72813325c19c639c3c8e7ea9c7436730d23eb61b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849620"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017030"
 ---
 # <a name="scheduled-work-order-maintenance-jobs"></a>Áætlaðar verkbeiðnir viðhaldsverka
 
@@ -32,7 +32,7 @@ Síðan **Skipulögð viðhaldsverk verkbeiðna** er sýnir yfirlit yfir verkbei
 
 ## <a name="view-scheduled-work-order-maintenance-jobs"></a>Skoða áætlaðar verkbeiðnir viðhaldsvinnsla
 
-1. Smelltu á **Eignastýringu** > **Sameiginlegt** > **Verkbeiðnir** > **Skipulagðar verkbeiðnir um viðhaldsverk**. Þú sérð lista yfir allar verkbeiðnir sem eru stilltar á líftímastöðu verkbeiðni „Skipulögð“ eða „Í vinnslu“.
+1. Smellur **Eignastýring** > **Verkbeiðnir** > **Áætluð viðhaldsstörf á verkbeiðnum**. Þú sérð lista yfir allar verkbeiðnir sem eru stilltar á líftímastöðu verkbeiðni „Skipulögð“ eða „Í vinnslu“.
 
 2. Þú getur flokkað listann, til dæmis eftir viðhaldsstarfsmanni. Þú getur líka notað síuna til að takmarka listann til að birta verkbeiðnir sem eru úthlutaðar á tiltekin tilföng eða viðhaldsstarfsmann.
 

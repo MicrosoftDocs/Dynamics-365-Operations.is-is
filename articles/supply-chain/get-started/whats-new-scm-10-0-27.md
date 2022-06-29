@@ -1,5 +1,5 @@
 ---
-title: Forskoðun Dynamics 365 Supply Chain Management 10.0.27 (júlí 2022)
+title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.27 (júlí 2022)
 description: Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management 10.0.27.
 author: kamaybac
 ms.date: 04/22/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: a91f2cdae0fed75f07d6cae86d24aeedfca80e94
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: a50fcbe313901beab610400d8c59dd375f1af93e
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844497"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022622"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10027-july-2022"></a>Forskoðun Dynamics 365 Supply Chain Management 10.0.27 (júlí 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10027-july-2022"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.27 (júlí 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Þessi grein sýnir eiginleika sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management forskoðunarútgáfa 10.0.27. Þessi útgáfa hefur byggingarnúmer 10.0.1227 og er fáanleg samkvæmt eftirfarandi áætlun:
+Þessi grein sýnir eiginleika sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfa 10.0.27. Þessi útgáfa hefur byggingarnúmer 10.0.1227 og er fáanleg samkvæmt eftirfarandi áætlun:
 
 - **Forskoðun útgáfu:** Apríl 2022
 - **Almennt framboð losunar (handvirk uppfærsla):** Júní 2022
@@ -46,13 +45,13 @@ Ef þú vilt kveikja eða slökkva á einhverjum af þessum eiginleikum verður 
 
 | Eining | Eiginleikaheiti í eiginleikastjórnun | Meiri upplýsingar |
 |---|---|---|
-| Áætlanagerð | Hugaðu að afhendingartíma birgða þegar áætluð flutningspöntun er stofnuð | Þegar fyrirhuguð millifærslupöntun er búin til veldur þessi eiginleiki að kerfið lítur á birgðaafgreiðslutímann sem er tilgreindur í sjálfgefnum pöntunarstillingum vörunnar þegar það reiknar út móttökudagsetningu fyrirhugaðrar millifærslupöntunar fyrir uppsetningu afhendingardagsstýringar sem afhendingartíma vörunnar.*Enginn* eða *Sala* tegund. Þegar flutningstími er tilgreindur verður gildi hans notað við útreikning á móttökudagsetningu og flutningsdagar eru virtir að vettugi. |
-| Innkaup og aðföng | Sjálfgefnar skattaupplýsingar um samning miðlara í reikningslínum lánardrottins | Þessi eiginleiki kynnir rökfræði til að stilla sjálfgefin gildi fyrir **Söluskattur** og **Vörusöluskattur** reiti á reikningslínum miðlarasamnings seljanda. Þessari rökfræði er aðeins beitt þegar gjaldgerðin á samningslínu miðlara er höfuðbók/bókhald. Vöruskattsflokkurinn mun taka sjálfgefið gildi sitt annaðhvort úr innkaupaflokki verðbréfamiðlunar (ef hann er settur upp) eða frá gjaldategundinni. Vöruskattsflokkurinn mun taka sjálfgefið gildi sitt af lánardrottinsreikningi. |
-| Innkaup og aðföng | Takmarka fjölda innkaupapöntunarlína á hvert runuverk | Þessi eiginleiki hjálpar þér að hámarka afköst kerfisins þegar staðfestingar og vörukvittanir eru birtar. Það bætir við nýrri stillingu sem heitir **Línur fyrir hvert verkefni** til **Afhending** flipi á **Innkaupa- og innkaupafæribreytur** síðu. Þessi nýja stilling gerir þér kleift að takmarka fjölda innkaupapöntunarlína sem hvert lotuverk vinnur. Þess vegna getur það hjálpað til við að koma í veg fyrir að stór lotuverkefni hægi á kerfinu. |
-| Vöruupplýsingastjórnun | Fylla út gildi afurðareiginda | Þessi eiginleiki bætir við reglubundnu verkefni sem er nefnt *Fylltu út gildi vörueiginleika*. Þetta nýja reglubundna verk býr til virðisfærslur vörueiginda sem vantar fyrir eiginleika sem eru tengdar vörum í gegnum vöruflokk. |
-| Framleiðslustýring | Viðbótarstillingar á keyrsluviðmóti framleiðslugólfs | <p>Þessi eiginleiki bætir eftirfarandi valkostum við **Stilltu framkvæmd framleiðslugólfs** síða:</p><ul><li>**Opna upphafsgluggann sjálfkrafa þegar leit er lokið** – Þegar þessi valkostur er virkur, **Byrja starf** svarglugginn opnast sjálfkrafa þegar starfsmenn nota leitarstikuna til að finna starfið.</li><li>**Opna sjálfkrafa skýrsluframvinduglugga þegar leit er lokið** – Þegar þessi valkostur er virkur, **Tilkynna framvindu** svargluggi fyrir starfið opnast sjálfkrafa þegar starfsmenn nota leitarstikuna til að finna starfið.</li><li>**Sjálfgefið eftirstandandi magn í framvindu skýrslugluggans** – Þegar þessi valkostur er virkur, **Tilkynna framvindu** svarglugginn sýnir eftirstandandi magn til að tilkynna um framleiðsluverk.</li></ul><p>Fyrir frekari upplýsingar, sjá [Stilltu framkvæmdarviðmót framleiðslugólfs](../production-control/production-floor-execution-configure.md).</p> |
+| Áætlanagerð | Hugaðu að afhendingartíma birgða þegar áætluð flutningspöntun er stofnuð | Þegar fyrirhuguð millifærslupöntun er búin til, veldur þessi eiginleiki að kerfið lítur á afgreiðslutíma birgða sem er tilgreindur í sjálfgefnum pöntunarstillingum vörunnar þegar það reiknar út móttökudagsetningu fyrirhugaðrar millifærslupöntunar fyrir uppsetningu afhendingardagsstýringar sem afgreiðslutíma vörunnar.*Enginn* eða *Sala* tegund. Þegar flutningstími er tilgreindur verður gildi hans notað við útreikning á móttökudagsetningu og flutningsdagar eru virtir að vettugi. |
+| Innkaup og aðföng | Sjálfgefnar skattaupplýsingar um samning miðlara í reikningslínum lánardrottins | Þessi eiginleiki kynnir rökfræði til að stilla sjálfgefin gildi fyrir **Söluskattur** og **Vörusöluskattur** reiti á reikningslínum miðlarasamnings. Þessari rökfræði er aðeins beitt þegar gjaldgerðin á samningslínu miðlara er höfuðbók/fjárhagsbók. Vöruskattsflokkurinn mun taka sjálfgefið gildi sitt annað hvort úr innkaupaflokki verðbréfamiðlunar (ef hann er settur upp) eða frá gjaldskránni. Vöruskattsflokkurinn mun taka sjálfgefið gildi sitt af lánardrottinsreikningi. |
+| Innkaup og aðföng | Takmarka fjölda innkaupapöntunarlína á hvert runuverk | Þessi eiginleiki hjálpar þér að hámarka afköst kerfisins þegar staðfestingar og vörukvittanir eru birtar. Það bætir við nýrri stillingu sem heitir **Línur fyrir hvert verkefni** til **Afhending** flipi á **Innkaupa- og innkaupabreytur** síðu. Þessi nýja stilling gerir þér kleift að takmarka fjölda innkaupapöntunarlína sem hvert lotuverk vinnur. Þess vegna getur það hjálpað til við að koma í veg fyrir að stór lotuverkefni hægi á kerfinu. |
+| Vöruupplýsingastjórnun | Fylla út gildi afurðareiginda | Þessi eiginleiki bætir við reglubundnu verkefni sem er nefnt *Fylltu út gildi vörueiginleika*. Þetta nýja reglubundna verkefni býr til virðisfærslur vörueiginda sem vantar fyrir eiginleika sem tengjast vörum í gegnum vöruflokk. |
+| Framleiðslustýring | Viðbótarstillingar á keyrsluviðmóti framleiðslugólfs | <p>Þessi eiginleiki bætir eftirfarandi valkostum við **Stilla framkvæmd framleiðslugólfs** síða:</p><ul><li>**Opna upphafsgluggann sjálfkrafa þegar leit er lokið** – Þegar þessi valkostur er virkur, **Byrja starf** svarglugginn opnast sjálfkrafa þegar starfsmenn nota leitarstikuna til að finna starfið.</li><li>**Opna sjálfkrafa skýrsluframvinduglugga þegar leit er lokið** – Þegar þessi valkostur er virkur, **Tilkynna framvindu** svargluggi fyrir starfið opnast sjálfkrafa þegar starfsmenn nota leitarstikuna til að finna starfið.</li><li>**Sjálfgefið eftirstandandi magn í framvindu skýrslugluggans** – Þegar þessi valkostur er virkur, **Tilkynna framvindu** svarglugginn sýnir eftirstandandi magn til að tilkynna um framleiðsluverk.</li></ul><p>Fyrir frekari upplýsingar, sjá [Stilltu framkvæmdarviðmót framleiðslugólfs](../production-control/production-floor-execution-configure.md).</p> |
 | Framleiðslustýring | Framleiðsluteymi í keyrsluviðmóti framleiðslugólfs | <p>Þegar mörgum starfsmönnum er úthlutað í sama framleiðslustarfið geta þeir nú tilnefnt einn starfsmann sem flugmann. Þeir starfsmenn sem eftir eru verða sjálfkrafa aðstoðarmenn þess flugmanns. Fyrir liðið sem myndast þarf aðeins flugmaðurinn að skrá starfsstöðu, en tímaskrár eiga við um alla liðsmenn. Þessi eiginleiki styður einnig atburðarás sem er nefnd *aðstoða úrræði*. Í þessari atburðarás getur starfsmaður skráð sig sem aðstoðarmann annars starfsmanns, sem síðan verður flugmaður fyrir nýstofnaða hópinn.</p><p>Fyrir frekari upplýsingar, sjá [Hvernig starfsmenn nota framkvæmdarviðmót framleiðslugólfs](../production-control/production-floor-execution-use.md).</p> |
-| Framleiðslustýring | Skýrsla um áætlunarvörur í keyrsluviðmóti framleiðslugólfs | Þessi eiginleiki einfaldar ferlið við að tilkynna um runupantanir fyrir áætlunarvörur í framkvæmdarviðmóti framleiðslugólfs. Þegar runupöntun er stofnuð fyrir vöru sem hefur framleiðslugerðina *Skipulagsliður*, aðeins er hægt að tilkynna sem fullunnið á sam- og aukaafurðum fyrir þá lotupöntun. Lotapantanir fyrir skipulagsvörur eru venjulega notaðar til að styðja við sundurliðaferli, þar sem hráefnisvara er tekin í sundur í margar aðskildar vörur. Þegar starfsmaður tilkynnir runupöntun fyrir áætlunarvöru sem lokið, **Tilkynna framvindu** svarglugginn mun nú aðeins sýna aukaafurðirnar og aukaafurðirnar. Áður sýndi það líka skipulagsatriðið og þessi hegðun gæti ruglað starfsmenn. |
+| Framleiðslustýring | Skýrsla um áætlunarvörur í keyrsluviðmóti framleiðslugólfs | Þessi eiginleiki einfaldar ferlið við að tilkynna um runupantanir fyrir áætlunarvörur í framkvæmdarviðmóti framleiðslugólfs. Þegar runupöntun er stofnuð fyrir vöru sem hefur framleiðslugerðina *Skipulagsliður*, aðeins er hægt að tilkynna sem fullunnið á sam- og aukaafurðum fyrir þá lotupöntun. Lotapantanir fyrir skipulagsvörur eru venjulega notaðar til að styðja við sundurtökuferli, þar sem hráefnisvara er tekin í sundur í margar aðskildar vörur. Þegar starfsmaður tilkynnir runupöntun fyrir áætlunarvöru sem lokið, **Tilkynna framvindu** svarglugginn mun nú sýna aðeins aukaafurðirnar og aukaafurðirnar. Áður sýndi það líka skipulagsatriðið og þessi hegðun gæti ruglað starfsmenn. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Tilföng fyrir ný og uppfærð skjöl
 

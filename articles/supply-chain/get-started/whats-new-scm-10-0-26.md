@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 73f2f9a819312d8d6e111b998c68b65ba85e7818
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: d47f3f377a7de87b9c24a18e4542e5a48235d270
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850758"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954524"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.26. (maí 2022)
 
@@ -29,7 +29,7 @@ ms.locfileid: "8850758"
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Í eftirfarandi töflu er listi yfir eiginleikana sem eru í þessari útgáfu. Við gætum uppfært þessa grein til að innihalda eiginleika sem komust inn í bygginguna eftir að þessi grein var upphaflega birt.
+Í eftirfarandi töflu er listi yfir eiginleikana sem eru í þessari útgáfu. Við gætum uppfært þessa grein til að innihalda eiginleika sem komu inn í bygginguna eftir að þessi grein var upphaflega birt.
 
 | Eiginleikasvæði | Eiginleiki | Meiri upplýsingar | Virkjað af   |
 |---|---|---|---|
@@ -46,13 +46,13 @@ Ef þú vilt kveikja eða slökkva á einhverjum af þessum eiginleikum verður 
 
 | Eining | Eiginleikaheiti í eiginleikastjórnun | Meiri upplýsingar |
 |---|---|---|
-| Innkaup og aðföng | Bóka skráð magn afurða í birgðum og það sem eftir er af afurðum sem ekki eru í birgðum fyrir kvittanir og reikninga lánardrottna | Þessi eiginleiki breytir því hvernig magn af vörum sem ekki eru á lager (eins og þjónustu) er bókað þegar unnið er með reikninga lánardrottins og sendingar á heimleið gegn innkaupapöntunum. Eiginleikinn breytir hegðun *Skráð magn og þjónusta* magnvalkostur til að bóka kvittanir og reikninga lánardrottins með því að breyta því til að passa við hegðun *Skráð magn og vörur sem ekki eru á lager* valmöguleiki sem þegar er gefinn þegar magn er bókað fyrir sölu fylgiseðla.<br><br>Þegar þú bókar vörukvittun eða reikning lánardrottins með því að nota *Skráð magn og þjónusta* magnvalkostur, kerfið bókar skráð magn af vörum sem eru á lager og birtir afganginn af vörum sem ekki eru á lager (þar á meðal bæði þjónusta og þjónusta sem ekki er á lager). Án þessa eiginleika birtir kerfið samt skráð magn af vörum sem eru á lager (þar á meðal þjónusta sem er stillt sem birgðavara) en birtir alltaf allt pantað magn af þjónustuvörum sem ekki eru á lager (og hunsar vörur sem ekki eru á lager sem eru ekki af gerðinni *Þjónusta*). |
-| Innkaup og aðföng | Samstilla rakningarvíddir í sölu- og innkaupapöntunarlínum innan samstæðu | Þessi eiginleiki gerir þér kleift að stjórna því hvort rað- og rununúmerarakningarvíddir séu samstilltar yfir sölu- og innkaupapöntunarlínur milli fyrirtækja. Það bætir nýjum stillingum við bæði **Innkaupapöntunarreglur** og **Sölupöntunarstefnur** flipa á **Millifyrirtæki** uppsetningarsíða fyrir viðskiptavini og söluaðila. Það uppfærir einnig nöfn nokkurra tengdra nálægra stillinga til skýrleika.<br><br>Ef þú ert að nota háþróaða vöruhúsastjórnun (WMS), þá skaltu hafa í huga að þessi eiginleiki mun aðeins samstilla lotu- og raðnúmer þegar þessar víddir eru fyrir ofan staðsetningu í stigveldi áfangastaðarpöntunar. |
+| Innkaup og aðföng | Bóka skráð magn afurða í birgðum og það sem eftir er af afurðum sem ekki eru í birgðum fyrir kvittanir og reikninga lánardrottna | Þessi eiginleiki breytir því hvernig magn af vörum sem ekki eru á lager (eins og þjónustu) er bókað þegar unnið er með reikninga lánardrottins og sendingar á heimleið gegn innkaupapöntunum. Eiginleikinn breytir hegðun *Skráð magn og þjónusta* magnvalkostur til að bóka kvittanir og reikninga lánardrottins með því að breyta því til að passa við hegðun *Skráð magn og vörur sem ekki eru á lager* valmöguleiki sem þegar er gefinn upp við bókun á magni fyrir sölu fylgiseðla.<br><br>Þegar þú bókar vörukvittun eða reikning lánardrottins með því að nota *Skráð magn og þjónusta* magnvalkostur, kerfið bókar skráð magn af vörum á lager og birtir afganginn af óbirgðum vörum (þar á meðal bæði þjónusta og ekki þjónusta). Án þessa eiginleika birtir kerfið samt skráð magn af vörum á lager (þar á meðal þjónustu sem er stillt sem birgðavörur) en birtir alltaf allt pantað magn af þjónustuvörum sem ekki eru á lager (og hunsar vörur sem ekki eru á lager sem eru ekki af gerðinni *Þjónusta*). |
+| Innkaup og aðföng | Samstilla rakningarvíddir í sölu- og innkaupapöntunarlínum innan samstæðu | Þessi eiginleiki gerir þér kleift að stjórna því hvort rað- og rununúmerarakningarvíddir séu samstilltar á milli fyrirtækjasölu- og innkaupapöntunarlína. Það bætir nýjum stillingum við bæði **Innkaupapöntunarreglur** og **Sölupöntunarstefnur** flipa á **Millifyrirtæki** uppsetningarsíða fyrir viðskiptavini og söluaðila. Það uppfærir einnig nöfn nokkurra tengdra nálægra stillinga til skýrleika.<br><br>Ef þú ert að nota háþróaða vöruhúsastjórnun (WMS), skaltu hafa í huga að þessi eiginleiki mun aðeins samstilla lotu- og raðnúmer þegar þessar víddir eru fyrir ofan staðsetningu í stigveldi áfangastaðarpöntunar. |
 | Vöruupplýsingastjórnun | Hreinsa gildi afurðareiginda | Þessi eiginleiki bætir við reglubundnu verkefni sem kallast **Hreinsaðu upp gildi vörueiginleika**, sem hreinsar upp vörueiginleikagildisskrár sem eru ekki lengur tengdar neinni vöru í gegnum vöruflokk. |
-| Birgða- og vöruhúsakerfi | (Rússland) Koma í veg fyrir ósamræmi þegar GTD er gefið út fyrir innkaupapantanir sem innihalda vörur úr vöruhúsakerfi | Þessi eiginleiki er eingöngu fyrir rússneska staðfærslu. Það kemur í veg fyrir misræmi sem á sér stað við útgáfu rússneskra tollskýrslunúmera (GTD) fyrir innkaupapantanir sem innihalda vörur sem eru virkjaðar fyrir háþróaða vörugeymsla (WMS). GTD-útgáfuferlið breytir sumum birgðavíddargildum á tengdum birgðafærslum fyrir reikninga sem eru innifalin í sérsniðnu færslubókinni, sem leiðir til misræmis á milli verkskrár fyrir innkaupapöntun og birgðafærslur fyrir innkaupin. Þegar þessi eiginleiki er virkur myndar GTD-útgáfuferlið aðlögunarvinnu sem útilokar slíkt misræmi. |
+| Birgða- og vöruhúsakerfi | (Rússland) Koma í veg fyrir ósamræmi þegar GTD er gefið út fyrir innkaupapantanir sem innihalda vörur úr vöruhúsakerfi | Þessi eiginleiki er aðeins fyrir rússneska staðfærslu. Það kemur í veg fyrir misræmi sem á sér stað við útgáfu rússneskra tollskýrslunúmera (GTD) fyrir innkaupapantanir sem innihalda vörur sem eru virkjaðar fyrir háþróaða vörugeymsla (WMS). GTD-útgáfuferlið breytir sumum birgðavíddargildum á tengdum birgðafærslum fyrir reikninga sem eru innifalin í sérsniðnu færslubókinni, sem leiðir til misræmis á milli verkskrár fyrir innkaupapöntun og birgðafærslur fyrir innkaupin. Þegar þessi eiginleiki er virkur myndar GTD-útgáfuferlið aðlögunarvinnu sem útilokar slíkt misræmi. |
 | Vöruhúsakerfi | Bættur þáttari fyrir GS1-strikamerki | Þessi eiginleiki bætir við endurbættri flokkun fyrir GS1 tákngögn. Nýi flokkarinn útfærir GS1 General Specification reikniritið til að flokka GS1 tákn og veitir sterkari gagnastaðfestingu. Fyrir frekari upplýsingar, sjá [GS1 strikamerkjaskönnun](../warehousing/gs1-barcodes.md). |
-| Vöruhúsakerfi | Nýjar síður á vinnubekknum áætlanagerð | Bætir við tveimur nýjum álagsáætlunarvinnubekksíðum: **Vinnubekkur fyrir skipulagningu álags á innleið** og **Áætlunarbekkur á útleið**. |
-| Vöruhúsakerfi | Forrit vöruhúsakerfis - autt GTD | Þessi eiginleiki er eingöngu fyrir rússneska staðfærslu. Það gerir starfsmönnum sem nota Warehouse Management farsímaforritið kleift að skilja rússnesk tollskýrslunúmer (GTD) eftir auð þegar þörf krefur. Ef GTD rakningarvíddin er sett upp til að leyfa auð gildi mun kerfið samþykkja auð gildi fyrir GTD fyrir birgðaaðgerðir að því tilskildu að lagerbirgðir séu tiltækar. |
+| Vöruhúsakerfi | Nýjar síður á vinnubekk fyrir áætlanagerð | Bætir við tveimur nýjum álagsáætlunarvinnubekksíðum: **Vinnubekkur fyrir skipulagningu álags á innleið** og **Áætlunarbekkur á útleið**. |
+| Vöruhúsakerfi | Forrit vöruhúsakerfis - autt GTD | Þessi eiginleiki er aðeins fyrir rússneska staðfærslu. Það gerir starfsmönnum sem nota Warehouse Management farsímaforritið kleift að skilja rússnesk tollskýrslunúmer (GTD) eftir auð þegar þörf krefur. Ef GTD rakningarvíddin er sett upp til að leyfa auð gildi mun kerfið samþykkja auð gildi fyrir GTD fyrir birgðaaðgerðir að því tilskildu að lagerbirgðir séu tiltækar. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Tilföng fyrir ný og uppfærð skjöl
 
@@ -61,7 +61,6 @@ Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargre
 | Eiginleikasvæði | Nýjar eða uppfærðar greinar |
 |---|---|
 | Kostnaðarstýring | Uppfærðum dæmum og skýringarmyndum var bætt við hverja af eftirfarandi greinum:<ul><li>[Um FIFO með merkingu og efnislegt virði](../cost-management/fifo-physical-value-marking.md)</li><li>[LIFO (síðast inn - fyrst út) með efnislegu virði og marki](../cost-management/lifo-physical-value-marking.md)</li><li>[LIFO dagsetning með efnislegt virði og merkingu](../cost-management/lifo-date-physical-value-marking.md)</li><li>[Um keyrslu á meðalkostnaðarverði](../cost-management/running-average-cost-price.md)</li><li>[Vegið meðaltal með efnislegt virði og merkingu](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
-| Innkaup og aðföng | [Misræmi í gögnum innkaupapöntunarlína](../troubleshooting/procurement/purchase-order-line-data-issues.md) |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

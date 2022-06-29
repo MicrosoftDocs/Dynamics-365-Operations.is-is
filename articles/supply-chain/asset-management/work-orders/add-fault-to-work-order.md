@@ -1,6 +1,6 @@
 ---
 title: Bæta villu við verkbeiðni
-description: Þessi grein lýsir því hvernig á að bæta bilanaskráningum við vinnupantanir í eignastýringu.
+description: Þessi grein lýsir því hvernig á að bæta bilanaskráningum við verkbeiðnir í eignastýringu.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7905dcd4c29872ec2601359baefa78545140397c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 210db3259a6c64a508119b30598a34dbda2d2dd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857896"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014999"
 ---
 # <a name="add-fault-to-work-order"></a>Bæta villu við verkbeiðni
 
@@ -30,7 +30,7 @@ ms.locfileid: "8857896"
 
 Þú getur bætt bilunum sem voru settar upp í bilunarhönnuðinni við verkbeiðni. Ein eða fleiri bilanaskrár verða að vera tengdar eignagerðunum sem eru notaðar fyrir eignina sem er valin í verkbeiðninni. Nánari upplýsingar um uppsetninguna er að finna í [Villustjórnun](../setup-for-work-orders/fault-management.md).
 
-1. Veldu **Eignastýringu** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
+1. Veldu **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
 
 2. Veldu verkbeiðnina til að skrá bilun á og síðan í aðgerðarglugganum á flipanum **Verkbeiðni**, í hópnum **Eignir**, velurðu **Bilun eignar**.
 
@@ -64,7 +64,7 @@ Eftirfarandi skýringarmynd hér að neðan sýnir dæmi um bilanaskráningu.
 
 Af listasíðunni **Allar eignir** er hægt að prenta eignabilanaskýrslu sem sýnir allar bilanaskráningar og myndrænt yfirlit yfir tölfræðilegar bilanir.
 
-1. Veldu **Eignastýring** > **Sameiginlegt** > **Eignir** > **Allar eignir**.
+1. Veldu **Eignastýring** > **Eignir** > **Allar eignir**.
 
 2. Veldu eignina sem á að prenta bilanaskýrslu fyrir.
 

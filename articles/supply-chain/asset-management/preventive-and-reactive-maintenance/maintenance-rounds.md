@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dfb75d69f20c68a40242bb1c0c25ca77f85e0c14
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 519431d84652e45dcd45aefbbaaa2a0e2afe6349
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852872"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016508"
 ---
 # <a name="maintenance-rounds"></a>Viðhaldslotur
 
@@ -87,7 +87,7 @@ Myndin hér að neðan sýnir og dæmi um viðhaldslotu sem inniheldur þrjár e
 
 Þegar þú hefur sett upp viðhaldslotu keyrirðu röðunarvinnslu til að tímasetja allar vinnslur sem tengjast viðhaldslotunni.
 
-1. Smelltu á **Eignastýring** > **Reglubundið** > **Forvirkt viðhald** > **Tímasetja viðhaldslotur**, eða **Eignastýring** > **Algengt** > **Viðhaldsskema** > **Öll viðhaldsskemu** eða **Opna viðhaldsskemalínur** eða **Opna viðhaldsskemasöfn** > veldu viðhaldsskemalínu á listanum > hnappinn **Viðhaldslotur**.
+1. Smellur **Eignastýring** > **Reglubundið** > **Fyrirbyggjandi viðhald** > **Skipuleggðu viðhaldslotur**, eða **Eignastýring** > **Viðhaldsáætlun** > **Öll viðhaldsáætlun** eða **Opnar viðhaldsáætlunarlínur** eða **Opnar viðhaldsáætlunarlaugar** > veldu viðhaldsáætlunarlínu á listanum >**Viðhaldslotur** takki.
 
 2. Í reitnum **Tímabil** skal velja tímabilsgerðina sem á að nota fyrir tímasetningarvinnsluna.
 
@@ -102,7 +102,7 @@ Myndin hér að neðan sýnir og dæmi um viðhaldslotu sem inniheldur þrjár e
 
 6. Smellt er á **OK**.
 
-7. Núna geturðu séð viðhaldslotuvinnslurnar í **Eignastjórnun** > **Sameiginlegt** > **Viðhaldsskema** > **Öll viðhaldsskemu** eða **Opna viðhaldsskemalínur**. Ef tímasettar lotur eru tengdar við verkbeiðnisafn sérðu einnig viðhaldsskemalínur í **Opna viðhaldsskemasöfn**. Viðhaldsskemalínur sem eru stofnaðar úr lotum hafa tilvísunargerðina „Viðhaldslotur“.
+7. Þú getur nú séð störfin í viðhaldslotunum **Eignastýring** > **Viðhaldsáætlun** > **Öll viðhaldsáætlun** eða **Opnar viðhaldsáætlunarlínur**. Ef tímasettar lotur eru tengdar við verkbeiðnisafn sérðu einnig viðhaldsskemalínur í **Opna viðhaldsskemasöfn**. Viðhaldsskemalínur sem eru stofnaðar úr lotum hafa tilvísunargerðina „Viðhaldslotur“.
 
 Myndirnar tvær hér að neðan sýna tímaáætlun í glugganum **Tímasetja viðhaldslotur** og viðhaldsskemalínur búnar til í **Öll viðhaldsskemu** miðað við þá áætlunarvinnslu.
 

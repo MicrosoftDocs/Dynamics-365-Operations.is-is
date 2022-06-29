@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4ff01a8c4ed5fb8372ff7b498d0febdcd2f1e89
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f4942e455350844ac5614e70fef21b37461540a6
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672767"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017290"
 ---
 # <a name="register-the-receipt-of-returned-items"></a>Skráning móttöku skilaðra vara 
 
@@ -87,7 +87,7 @@ ms.locfileid: "8672767"
 
 Til viðbótar við að nota skjámyndina **Komuyfirlit** getur þú notað skjámyndina **Skráning** til að skrá komu skilavara.
 
-1.  Smelltu á **Sala og markaðssetning** \> **Almennt** \> **Skilapantanir** \> **Allar skilapantanir**. Stofna nýja skilapöntun eða opna vöruskilapöntunina frá listanum. Á flýtiflipanum **Línur** skal velja skilapöntunarlínuna. Smelltu á **Uppfæra línu** og smelltu síðan á **Skráning**.
+1.  Smellur **Sala og markaðssetning** \> **Söluskil** \> **Allar skilapantanir**. Stofna nýja skilapöntun eða opna vöruskilapöntunina frá listanum. Á flýtiflipanum **Línur** skal velja skilapöntunarlínuna. Smelltu á **Uppfæra línu** og smelltu síðan á **Skráning**.
 
 2.  Úthlutaðu ráðstöfunarkóða í reitnum **Ráðstöfunarkóði** og smelltu síðan á **Í lagi**.
     

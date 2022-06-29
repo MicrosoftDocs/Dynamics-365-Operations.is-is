@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90b41b57dfa6db8b5874bbc2d4bcac7b4c634f20
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 5ab715be3bfdc380f5736fadd901af3ed78d7035
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860929"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016305"
 ---
 # <a name="create-an-asset"></a>Stofna eign
 
@@ -30,7 +30,7 @@ ms.locfileid: "8860929"
 
 Þessi grein lýsir því hvernig á að búa til eign í eignastýringu.
 
-1. Smelltu á **Eignastýring** > **Sameiginlegt** > **Eignir** > **Allar eignir** eða **Virkar eignir**.
+1. Smellur **Eignastýring** > **Eignir** > **Allar eignir** eða **Virkar eignir**.
 2. Smellið á hnappinn **Nýtt**.
 3. Í svarglugganum **Stofna eignir** seturðu inn gögn varðandi **Eignir** (eignakenni) og eignaheiti. Veldu dagsetningu og -tíma eignar í reitnum **Virkt**. Frá þeim degi geturðu sett eignina upp á virkri staðsetningu sem og flutt og skipt um eignina í eignaskipan.
 4. Í reitnum **Eignagerð** velurðu eignagerð fyrir eignina (skyldureitur). Ef með þarf skaltu velja **Eignaframleiðandi** og **Eignalíkan** fyrir eignina. Ef aðeins ein vara hefur verið sett upp er sú vara sjálfkrafa valin í reitnum **Eignaframleiðandi**. Valið sem er í boði í reitunum **Eignaframleiðandi** og **Eignalíkan** er háð uppsetningunni í [Eignaframleiðendur og líkön](../setup-for-objects/product-and-model.md).

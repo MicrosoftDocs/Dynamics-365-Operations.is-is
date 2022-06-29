@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d0552c38ddc31ad6322e9e2e0f2c2c722c045f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 25e9b00533fb183b27c1bbe616cf6f414b44b5e7
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870901"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016102"
 ---
 # <a name="calculate-item-forecast"></a>Reikna vöruspá
 
@@ -36,7 +36,7 @@ Rétt eins og þú getur gert útreikninga á álagi, sem lýst er í fyrri hlut
 
 Þetta er gagnlegt ef þú vilt fá yfirsýn yfir væntanlega notkun vöru (varahluti sem og aðrar vörur sem þarf til að ljúka verkbeiðnum) fyrir tiltekið tímabil. Hægt er að gera útreikning á vöruspá á allar eignir eða valdar eignir. Þú getur líka gert útreikninga á aðgerðum niðurtíma vegna viðhalds (**Allar aðgerðir niðurtíma vegna viðhalds** eða **Aðgerðir virks niðurtíma vegna viðhalds**) eða í verkbeiðnasafni (**Öll verkbeiðnasöfn** eða **Virk verkbeiðnasöfn**).
 
-1. Smelltu á **Eignastýringu** > **Fyrirspurnir** > **Vöruspá**, eða **Eignastýring** > **Sameiginlegt** > **Verkbeiðnihópar** > **Allir verkbeiðnihópar** / **Virkir verkbeiðnihópar** > veldu verkbeiðnihóp af listanum > hnappinum **Vöruspá**, eða **Eignastýringu** > **Sameiginlegt** > **Niðurtími vegna viðhalds** > **Allur niðurtími vegna viðhalds** / **Virkur niðurtími vegna viðhalds** > veldu niðurtímaaðgerðir vegna viðhalds á listanum > hnappnum **Vöruspá**.
+1. Smellur **Eignastýring** > **Fyrirspurnir** > **Atriðaspá**, eða **Eignastýring** > **Vinnupöntunarlaugar** > **Allar vinnupöntunarlaugar** / **Virkir verkbeiðnapottar** > veldu verkbeiðnasafn á listanum >**Atriðaspá** hnappinn, eða **Eignastýring** > **Viðhaldsstarfsemi í miðbæ** > **Öll viðhaldsstarfsemi** / **Virk viðhaldsstarfsemi í miðbæ** > veldu virkni í niðritíma viðhaldi á listanum >**Atriðaspá** takki.
 
 2. Í glugganum **Reikna vöruspá** velurðu tímabil fyrir útreikninginn í reitunum **Upphafsdagsetning/-tími** og **Lokadagsetning/-tími**.
 

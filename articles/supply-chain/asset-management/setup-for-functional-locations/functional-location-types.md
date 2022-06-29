@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: 0c44e503900bd157d7f0159cdf2b2d0c1fb3393f
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879222"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015784"
 ---
 # <a name="functional-location-types"></a>Gerðir virkra staðsetninga
 
@@ -57,7 +57,7 @@ Núna hefur sjálfgefin gerð virkrar staðsetningar sem aðeins á að nota fyr
 7. Reiturinn **Gerð eigna** er notaður ef þú vilt búa til sjálfkrafa *eina* eign fyrir virka staðsetningu með sama kenni og heiti og virka staðsetningin sem þú ert að búa til. Til dæmis getur þetta skipt máli ef þú býrð til kyrrstæða virka staðsetningu, svo sem byggingu eða leiðslu. Í því tilfelli skaltu velja eignategundina sem þú vilt nota fyrir sjálfvirkt stofnaða eignina. Mundu að ef þú gerir val á þessu sviði, þá verður skiptihnappurinn **Margar eignir** að vera stilltur á „Nei“.
 8. Á flýtiflipanum **Gerðir eigna** veldu þá eignategund sem á að tengjast gerð virku staðsetningarinnar. Veldu **Bæta við línu** og veldu eignagerðirnar. Ef þú bætir við eignategundum hér er aðeins hægt að setja upp eignir sem nota þessar eignategundir á virkri staðsetningu með því að nota þessa gerð virkrar staðsetningar. Ef engar eignategundir eru valdar á flýtiflipanum **Gerðir eigna** kunna allar eignategundir að vera settar upp.
 9. Á flýtiflipanum **Viðhaldsáætlanir** veldu viðhaldsáætlanir sem sjálfkrafa ætti að setja upp á nýjum virkum staðsetningum með því að nota þessa gerð virkrar staðsetningar. Veldu **Bæta við línu** og veldu viðhaldsáætlanir. Ef þú bætir við viðhaldsáætlunum hér, er aðeins hægt að nota þessar áætlanir á virkri staðsetningu með því að nota þessa gerð virkrar staðsetningar.
-10. Á flýtiflipanum **Kröfur eignaeiginda** seturðu upp eignaeigindi sem sjálfkrafa ætti að setja upp á nýjum virkum staðsetningum með því að nota þessa gerð virkrar staðsetningar. Veldu **Bæta við línu** og veldu eigindina. Þessar eigindakröfur virka sem leiðbeiningar. Þær eru ekki staðfestir á móti eigindum sem settir eru upp á eign (**Eignastýring** > **Sameiginlegt** > **Eignir** > **Allar eignir** > veldu eign á listasíðunni > flipanum **Almennt** > hnappnum **Eigindir**). Eigindkröfurnar eru sýndar þegar þú setur upp eignir á virkum stöðum.
+10. Á flýtiflipanum **Kröfur eignaeiginda** seturðu upp eignaeigindi sem sjálfkrafa ætti að setja upp á nýjum virkum staðsetningum með því að nota þessa gerð virkrar staðsetningar. Veldu **Bæta við línu** og veldu eigindina. Þessar eigindakröfur virka sem leiðbeiningar. Þau eru ekki fullgilt gegn eiginleikum sem settar eru upp á eign (**Eignastýring** > **Eignir** > **Allar eignir** > veldu eign á listasíðunni >**Almennt** flipann >**Eiginleikar** takki). Eigindkröfurnar eru sýndar þegar þú setur upp eignir á virkum stöðum.
 11. Á flýtiflipanum **Leyfðar gerðir** veldu gerðir virkrar staðsetningar sem ættu að gilda fyrir gerðir virkra undirstaðsetninga sem tengjast gerð virkrar yfirstaðsetningar sem notar valda gerð virkrar staðsetningar.
 12. Á flýtiflipanum **Eigindir** veldu eigindir virkrar staðsetningar sem sjálfkrafa ætti að setja upp á nýjum virkum staðsetningum með því að nota þessa gerð virkrar staðsetningar. Veldu **Bæta við línu** og veldu eigindina.
 

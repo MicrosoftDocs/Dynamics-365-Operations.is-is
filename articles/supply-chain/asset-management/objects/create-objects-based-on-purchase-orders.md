@@ -1,6 +1,6 @@
 ---
 title: Stofna eignir byggt á innkaupapöntunum
-description: Þessi grein útskýrir hvernig þú getur búið til lista yfir eignaliði sem hægt er að nota sem grunn til að búa til eignir fyrir viðhaldsstörf í eignastýringu.
+description: Þessi grein útskýrir hvernig hægt er að búa til lista yfir eignaliði sem hægt er að nota sem grunn til að búa til eignir fyrir viðhaldsverk í eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: HT
+ms.openlocfilehash: ccd14493aac6484dc54ccf51ae159a071c8697a5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893701"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015610"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Stofna eignir byggt á innkaupapöntunum
 
@@ -28,7 +28,7 @@ ms.locfileid: "8893701"
 
  
 
-Þessi grein útskýrir hvernig þú getur búið til lista yfir eignaliði sem hægt er að nota sem grunn til að búa til eignir fyrir viðhaldsstörf í eignastýringu. Miðað við eignaratriðin geturðu skoðað lista yfir innkaupapöntunarlínurnar sem eru búnar til á þeim hlutum. Tilgangurinn með þessari virkni er að búa til eign í eignastýringu auðveldlega út frá innkaupapöntun.
+Þessi grein útskýrir hvernig hægt er að búa til lista yfir eignaliði sem hægt er að nota sem grunn til að búa til eignir fyrir viðhaldsverk í eignastýringu. Miðað við eignaratriðin geturðu skoðað lista yfir innkaupapöntunarlínurnar sem eru búnar til á þeim hlutum. Tilgangurinn með þessari virkni er að búa til eign í eignastýringu auðveldlega út frá innkaupapöntun.
 
 Í fyrsta lagi setur þú upp hlutina sem á að nota til að búa til eignir frá innkaupapöntun í **Eignir**. Eftir að þú hefur stofnað innkaupapöntunarlínu býrðu til eignirnar í **Eignir í bið**. Það er hægt að ákveða á hvaða stigi innkaupapöntunar eignin ætti að vera stofnuð.
 
@@ -45,7 +45,7 @@ ms.locfileid: "8893701"
 
 ## <a name="create-assets-from-pending-assets"></a>Búðu til eignir úr eignum í bið
 
-1. Smelltu á **Eignastýring** > **Sameiginlegt** > **Eignir** > **Eignir í bið**.
+1. Smellur **Eignastýring** > **Eignir** > **Eignir í bið**.
 2. Þú munt sjá uppfærðan lista yfir innkaupapantanir út frá vörunum sem voru valdar í **Eignir**.
 3. Þú getur síað stöðu innkaupapantana til að velja í hvaða líftímastöðu eignin ætti að vera búin til. Til dæmis gætirðu aðeins viljað búa til eignir þegar vörukvittun hefur verið bókuð í innkaupapöntun.
 4. Veldu tengilinn **Tilvísunarnúmer** á innkaupapöntunarlínu til að skoða ítarlegar upplýsingar um vöruna.
