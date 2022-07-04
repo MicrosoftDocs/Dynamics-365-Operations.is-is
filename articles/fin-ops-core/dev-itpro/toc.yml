@@ -16,12 +16,10 @@
                   href: get-started/whats-new-home-page.md
                 - name: Verkvangsuppfærsla fyrir útgáfu 10.0.28 (ágúst 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: Verkvangsuppfærsla fyrir útgáfu 10.0.27 (júlí 2022)
+                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.27 (júlí 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: Verkvangsuppfærsla fyrir útgáfu 10.0.26 (maí 2022)
+                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.26 (maí 2022)
                   href: get-started/whats-new-platform-updates-10-0-26.md
-                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.25 (apríl 2022)
-                  href: get-started/whats-new-platform-updates-10-0-25.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -376,11 +374,11 @@
                       href: deployment/on-premises-overview.md
                     - name: Áætlun og undirbúningur fyrir uppsetningu á staðnum
                       href: deployment/plan-onprem-deployment.md
-                    - name: Microsoft Dynamics 365 Finance + Operations (on-premises) studdur hugbúnaður
+                    - name: Studdur hugbúnaður á staðnum
                       href: deployment/onprem-compatibility.md
                     - name: Kröfur um vélbúnaðarþörf
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: Sannvottun í Dynamics 365 Finance + Operations (on-premises)
+                    - name: Auðkenning í innanhússumhverfi
                       href: deployment/authentication-onprem.md
                 - name: Setja upp og virkja innanhússumhverfi
                   items:
@@ -408,9 +406,9 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Skilgreina staðgengla fyrir innanhússumhverfi
                       href: deployment/onprem-reverseproxy.md
-                    - name: Skilgreina vöruhúsaforritið fyrir uppsetningu á staðnum
+                    - name: Skilgreina Warehousing-forritið fyrir uppsetningu á staðnum
                       href: deployment/warehousing-for-on-premise-deployments.md
-                    - name: Virkja RSAT í Finance + Operations (on-premises) umhverfi
+                    - name: Virkja RSAT í innanhússumhverfi
                       href: deployment/onprem-rsat-configuration.md
                     - name: Setja upp nettengda prentara í innanhússumhverfi
                       href: analytics/install-network-printer-onprem.md
@@ -428,9 +426,9 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Nota sama AD FS tilvik aftur fyrir mörg umhverfi
                       href: deployment/onprem-reuseadfs.md
-                    - name: Uppfæra Windows Server í þínum Microsoft Dynamics 365 Finance + Operations (on-premises) umhverfum
+                    - name: Uppfæra Windows Server í þínu innanhússumhverfi
                       href: deployment/onprem-upgrade-os.md
-                    - name: Uppfæra SQL Server-tilvik í Microsoft Dynamics 365 Finance + Operations (on-premises) umhverfum
+                    - name: Uppfæra eða skipta út SQL Server-tilviki af í innanhússumhverfi
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: Umboðsmaður á staðnum
                   items:
@@ -982,6 +980,8 @@
                   href: lifecycle-services/configuration-manager-lcs.md
                 - name: Setja upp stjórnun skilgreininga
                   href: lifecycle-services/set-up-configuration-manager-lcs.md
+                - name: Afrita skilgreiningar
+                  href: lifecycle-services/copy-configuration-lcs.md
             - name: Skilgreina kóðauppfærsluþjónustu
               href: lifecycle-services/configure-execute-code-upgrade.md
             - name: Stofna eða uppfæra aðferðafræði
@@ -1050,7 +1050,9 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Leiðsögn fyrir Azure DevOps-viðbót (opin forútgáfa)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: Dynamics 365 Translation Service Visual Studio Code-viðbót (opin forútgáfa)
+                - name: Visual Studio framlenging (einkaforskoðun)
+                  href: lifecycle-services/dts-visual-studio.md
+                - name: Visual Studio Code framlenging (opin forskoðun)
                   href: lifecycle-services/dts-vscode-doc.md
         - name: Samþætting Microsoft Power Platform
           items:
@@ -1602,13 +1604,15 @@
               href: sysadmin/implement-b2b.md
             - name: Gagnaviðhald
               href: sysadmin/DataMaintenancePortal.md
+            - name: Stjórna aðgangi að netprenturum á milli lögaðila
+              href: sysadmin/sys-admin-tools-network-printer.md
             - name: Öryggi
               items:
                 - name: Öryggi byggt á hlutverkum
                   href: sysadmin/role-based-security.md
                 - name: Öryggisskipulag
                   href: sysadmin/security-architecture.md
-                - name: Dulritun í fjármála- og rekstrarforritum
+                - name: Dulritun í forritum fjármála og reksturs
                   href: sysadmin/encryption.md
                 - name: Stilla hvenær lotutími rennur út vegna aðgerðaleysis
                   href: sysadmin/session-idle-timeout.md

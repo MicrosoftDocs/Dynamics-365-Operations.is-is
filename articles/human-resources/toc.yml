@@ -496,6 +496,8 @@
                   items:
                     - name: Stjórna ferlum ráðningarverka
                       href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: Setja upp ráðningarverk
+                      href: hr-personnel-develop-open-job-requisition.md
                     - name: Færa inn umsækjanda og umsóknargögn handvirkt
                       href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                     - name: Þróa og opna tilkynningar um lausar stöður
@@ -626,6 +628,10 @@
                   items:
                     - name: Uppsetning fríðindaáætlana
                       href: hr-benefits-plans-setup.md
+                    - name: Stofna fríðindaáætlanir starfskrafts
+                      href: hr-benefits-plans-worker.md
+                    - name: Setja upp viðburði í framtíðinni
+                      href: hr-benefits-plans-future-life-events.md
                     - name: Setja upp sveigjanlegar útgjaldaáætlanir
                       href: hr-benefits-plans-flex-credit-programs.md
                 - name: Vinna úr fríðindaáætlunum
@@ -836,6 +842,10 @@
               href: hr-developer-api-authentication.md
             - name: Einingar
               items:
+                - name: Upplýsingar um vinnslu
+                  href: hr-admin-integration-api-job-detail.md
+                - name: Valkostur fyrir starfagerð
+                  href: hr-admin-integration-payroll-api-hcmemploymenttype.md
                 - name: MyLeaveRequests
                   items:
                     - name: Yfirlit MyLeaveRequests

@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (maí)
                   href: get-started/whats-new-changed-10-0-26.md
-                - name: Finance 10.0.25 (apríl)
-                  href: get-started/whats-new-changed-10-0-25.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -462,6 +460,8 @@
                   items:
                     - name: Setja upp tekju- og kostnaðarfrestanir
                       href: accounts-receivable/sb-deferrals.md
+                    - name: Bókunaraðferð frestunar
+                      href: accounts-receivable/Deferral-posting-methods.md
                     - name: Stofna frestunaráætlanir
                       href: accounts-receivable/sb-deferrals-schedules.md
                     - name: Sjálfgefnar frestunarfærslur
@@ -1214,6 +1214,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Fjárhagsskýrsluhlutar
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Skoða og hanna fjárhagsskýrslur
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-reports.md
             - name: Gjaldmiðilsgeta í fjárhagsskýrslugerð
               href: general-ledger/financial-reporting-currency-capability.md
             - name: Útreikningur á óráðstöfuðu eigin fé í „Fjárhagsskýrslugerð“
@@ -1978,6 +1980,8 @@
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
                 - name: Setja upp bankareikningsnúmer fyrir Brasilíu
                   href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
+                - name: Flutningspantanir
+                  href: localizations/latam-bra-about-transfer-orders.md
                 - name: Skattar
                   items:
                     - name: Brasilískt skattayfirlit
@@ -2116,6 +2120,8 @@
                   href: localizations/emea-cze-intra-community-VAT.md
                 - name: Árslokalokun
                   href: localizations/emea-cze-hun-year-end.md
+                - name: ESB-sölulisti
+                  href: localizations/emea-cze-eu-sales-list.md
             - name: Danmörk
               items:
                 - name: Yfirlit yfir Danmörku
@@ -2130,8 +2136,8 @@
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
                 - name: ESB-sölulisti
                   href: localizations/emea-dnk-eu-sales-list.md
-                - name: Flytja inn skilgreiningar á rafrænni OIOUBL-reikningsfærslu
-                  href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+                - name: Rafrænir reikningar viðskiptavinar í Danmörku
+                  href: localizations/emea-dnk-e-invoices.md
                 - name: Bóka reikning með frjálsum texta með greiðsluseðli
                   href: localizations/tasks/post-free-text-invoice-payment-slip.md
                 - name: Bóka verkreikning með greiðsluseðli
@@ -2220,6 +2226,8 @@
                       href: localizations/emea-ISO20022-file-formats.md
                     - name: Flytja inn ISO20022-beingreiðsluskilgreiningu
                       href: localizations/tasks/import-iso20022-direct-debit-configuration.md
+                    - name: Forkröfur fyrir ISO 20022 kreditfærslusnið
+                      href: localizations/emea-fra-ISO20022-international.md
                     - name: Flytja inn skilgreiningu ISO20022-kreditfærslu
                       href: localizations/tasks/import-iso20022-credit-transfer-configuration.md
                     - name: Setja upp bankareikninga fyrirtækis fyrir ISO20022-kreditfærslur
@@ -2462,6 +2470,8 @@
                   href: localizations/emea-hun-intrastat.md
                 - name: Frestaður VSK-útreikningur
                   href: localizations/emea-hun-deferred-vat.md
+                - name: ESB-sölulisti
+                  href: localizations/emea-hun-eu-sales-list.md
             - name: Ísland
               items:
                 - name: Yfirlit yfir Ísland
@@ -2766,6 +2776,8 @@
                                   href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
                                 - name: Setja upp TDS-skráningarnúmer fyrir lögaðila
                                   href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: Setja upp staðgreiðsluskattshópa fyrir TDS-skattgerðina
+                                  href: localizations/apac-ind-TDS-Withholding-tax-component-groups-setup-for-TDS-tax-type.md
                                 - name: Setja upp yfirvöld staðgreiðsluskatts fyrir TDS-skattgerðina
                                   href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
                                 - name: Setja upp skatthluta fyrir TDS-skattgerðina
@@ -2968,6 +2980,8 @@
                   href: localizations/tasks/configure-depreciation-profile-posting.md
                 - name: Skilgreina aðallykla fyrir bókun skuldbindingar vegna losunar eignar og markaðsafslátt
                   href: localizations/tasks/configure-main-accounts-asset-retirement.md
+                - name: Neysluskattsskýrsla
+                  href: localizations/apac-jpn-consumption-tax-report.md
                 - name: Samstæðureikningar
                   href: localizations/apac-jpn-consolidate-invoices.md
                 - name: Stofna eign með viðbótarafskrift
@@ -3416,6 +3430,8 @@
                           href: localizations/rus-register-acquisition.md
                         - name: Komast yfir eignir og koma þeim í rekstur
                           href: localizations/rus-fixed-asset-acquisition.md
+                        - name: Bifreiðar og fasteign sem fastafjármunir
+                          href: localizations/rus-vehicles-realty.md
                         - name: Reikna út afskriftir
                           href: localizations/rus-depreciation-calculation.md
                         - name: Hlutasundurtekt eigna (innlausn)
@@ -3444,6 +3460,8 @@
                       items:
                         - name: Engar verðmætar eignir (NVFA) (Rússland)
                           href: localizations/rus-not-valuable-assets.md
+                        - name: 'Frumgerðir fyrir NVFA, vinnufatnað og sérstakan útbúnað (Rússland)'
+                          href: localizations/rus-nvfa.md
                         - name: Bókhald vegna vinnufatnaðar / sérstaks útbúnaðar (Rússland)
                           href: localizations/rus-working-clothes-instruments-accounting.md
                     - name: Samþætting eigna með eignastýringareiningu
@@ -3520,6 +3538,8 @@
                       href: localizations/rus-land-tax-declaration.md
                     - name: Skattskýrsla fyrir skatt á hagnað
                       href: localizations/rus-profit-tax-declaration.md
+                    - name: Skýrsla um virkni með rekjanlegum vörum
+                      href: localizations/rus-traceable-goods-operation-report.md
                 - name: Fyrirtækisstjórnun
                   items:
                     - name: Skattskráningarupplýsingar sem tengjast aðsetri

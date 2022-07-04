@@ -18,8 +18,6 @@
                   href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (maí 2022)
                   href: get-started/whats-new-scm-10-0-26.md
-                - name: Supply Chain Management 10.0.25 (apríl 2022)
-                  href: get-started/whats-new-scm-10-0-25.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -619,8 +617,6 @@
                   href: asset-management/asset-management-mobile-workspace.md
             - name: Samþætta eignastýringu með Dynamics 365 Guides
               href: asset-management/asset-management-guides-integration.md
-        - name: Gagnastjórnun
-          items:
             - name: Markeiningar
               href: asset-management/data-management/target-entities.md
         - name: Kostnaðarbókhald
@@ -775,6 +771,10 @@
                   href: cost-management/physical-financial-updates.md
                 - name: Efnislegt virði tekið með
                   href: cost-management/include-physical-value.md
+                - name: Fast kostnaðarverð
+                  href: cost-management/fixed-receipt-price.md
+                - name: Reikningsskilaregla bóka á gjaldalykil
+                  href: cost-management/post-to-charge-account-accounting-principle.md
                 - name: Kostnaðarhlutir
                   href: cost-management/cost-object.md
                 - name: Skoða stöðu kostnaðarhlutar
@@ -1651,6 +1651,8 @@
                   href: inventory/tasks/check-availability-stock.md
                 - name: Listi yfir birgðir á lager
                   href: inventory/inventory-on-hand-list.md
+                - name: Birgðafærsluupplýsingar
+                  href: inventory/inventory-transactions-details.md
                 - name: Frumstilla birgðastöðu í vöruhúsi
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: Flytja efnislegar birgðir innan vöruhúss
@@ -2111,6 +2113,8 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/supply-chain/toc.json
         - name: Innkaup og aðföng
           items:
+            - name: Heimasíða innkaup og aðföng
+              href: procurement/procurement-sourcing.md
             - name: Yfirlit yfir innkaup og aðföng
               href: procurement/procurement-sourcing-overview.md
             - name: Verkflæði innkaupa og aðfanga
@@ -2167,6 +2171,8 @@
                   href: procurement/purchase-order-creation.md
                 - name: Stofna innkaupapöntun
                   href: procurement/tasks/create-purchase-order.md
+                - name: Stofna innkaupapöntun sem stjórnast af fjárhagsáætlun
+                  href: cost-management/tasks/create-purchase-order-governed-by-budget.md
                 - name: Stofna innkaupapöntun með afhendingaráætlun
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: Stofna innkaupapöntun fyrir einskiptisbirgi
@@ -2383,6 +2389,8 @@
                       href: pim/tasks/create-dimension-based-configurations.md
                 - name: Stofna skorðuskilgreiningu
                   items:
+                    - name: Yfirlit yfir afbrigðalíkön afurða
+                      href: pim/product-configuration-models.md
                     - name: Setja upp afbrigðalíkan afurðar
                       href: pim/set-up-maintain-product-configuration-model.md
                     - name: Útreikningar afbrigðalíkans afurðar
@@ -2933,6 +2941,8 @@
                   href: sales-marketing/customer-portal-user-admin.md
                 - name: Sérsníða og nota viðskiptavinagátt
                   href: sales-marketing/customer-portal-customize.md
+            - name: Lánamörk fyrir viðskiptavini
+              href: sales-marketing/credit-limits-customers.md
             - name: Afsláttur
               href: sales-marketing/trade-allowance.md
             - name: Stofna nýjan verðsamning
@@ -2951,6 +2961,8 @@
                       href: service-management/service-agreement-groups.md
                     - name: Stofna þjónustusamninga
                       href: service-management/create-service-agreements.md
+                    - name: Stofna þjónustusamningsflokka
+                      href: service-management/create-service-agreement-groups.md
                     - name: Þjónustubil
                       href: service-management/service-intervals.md
                     - name: Setja upp þjónustubil
@@ -2972,7 +2984,7 @@
                     - name: Yfirlit yfir þjónustuhluti
                       href: service-management/service-objects.md
                     - name: Stofna þjónustuhluti
-                      href: service-management/create-service-task-relations.md
+                      href: service-management/create-service-objects.md
                     - name: Festa birgðavörur við þjónustuhluti
                       href: service-management/attach-inventory-items-service-objects.md
                     - name: Flokkar þjónustuhluta
@@ -3117,6 +3129,8 @@
                           href: service-management/create-item-requirements-service-orders.md
                         - name: Vöruþörf þjónustupantana
                           href: service-management/service-order-item-requirements.md
+                        - name: Bæta heimilisfangi við þjónustupöntun
+                          href: service-management/add-address-service-order.md
                         - name: Yfirlit yfir verkflæði áskrifta
                           href: service-management/subscription-workflow-overview.md
                         - name: Sameina þjónustupantanir
@@ -3139,6 +3153,8 @@
                           href: service-management/set-up-preferred-technician.md
                         - name: Setja upp sendingarhóp
                           href: service-management/set-up-dispatch-teams.md
+                        - name: Skoða sendingarhópa
+                          href: service-management/view-dispatch-teams.md
                         - name: Forgangsraða þjónustupöntunum
                           href: service-management/prioritize-service-orders.md
                         - name: Skoða stöðu þjónustupantana
@@ -3257,8 +3273,6 @@
                   href: landed-cost/landed-cost-enable.md
                 - name: Vinna með færibreytur heildarkostnaðar
                   href: landed-cost/landed-cost-parameters.md
-                - name: Færibreytur heildarkostnaðar innkaupa og aðfanga
-                  href: landed-cost/landed-cost-procurement-parameters.md
                 - name: Uppsetningarstaða ferðar
                   href: landed-cost/voyage-status-setup.md
                 - name: Uppsetning gáms
@@ -3269,12 +3283,16 @@
                   href: landed-cost/multi-leg-journey-setup.md
                 - name: Uppsetning sendingarupplýsinga
                   href: landed-cost/shipping-information-setup.md
+                - name: Sjálfvirkur kostnaður við uppsetningu
+                  href: landed-cost/auto-cost-setup.md
                 - name: Uppsetning gilda fyrir færibreytu kostnaðarútreiknings
                   href: landed-cost/costing-parameters-setup.md
+                - name: Færibreytur heildarkostnaðar innkaupa og aðfanga
+                  href: landed-cost/landed-cost-procurement-parameters.md
+                - name: Stillingum lánardrottins bætt við fyrir heildarkostnað
+                  href: landed-cost/vendors-landed-cost-settings.md
                 - name: Sjálfgefnar lýsingar fyrir fjárhag
                   href: landed-cost/defult-descriptions.md
-            - name: Stillingum lánardrottins bætt við fyrir heildarkostnað
-              href: landed-cost/vendors-landed-cost-settings.md
             - name: 'Vinna með ferðir, gáma og fólíó'
               items:
                 - name: Stjórna ferðum
@@ -3643,396 +3661,6 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: Framlengja gagnaeiningar tiltækra birgða
               href: inventory/extend-on-hand-entities.md
-        - name: Úrræðaleit
-          items:
-            - name: Kostnaðarstjórnun
-              items:
-                - name: Ósamræmisskýrsla um aldursgreiningu birgða
-                  href: troubleshooting/costing/aging-report-discrepancies.md
-                - name: Viðvaranir eða villur þegar skipt er um stöðu fjárhagstímabils án lokunar birgða
-                  href: troubleshooting/costing/change-ledger-period-without-closing.md
-                - name: Virknigloppur á milli birgðavirðis/aldursgreiningarskýrslna og geymsluútgáfna þeirra
-                  href: troubleshooting/costing/function-gaps-storage-reports.md
-                - name: Árekstur við uppfærslu gerist þegar aðferð birgðamats er annaðhvort staðalkostnaður eða hlaupandi meðaltal
-                  href: troubleshooting/costing/update-conflict-standard-moving.md
-                - name: Vantar reitarstillingar á afritun vörulínuflokka á annan lögaðila
-                  href: troubleshooting/costing/copying-item-model-groups.md
-                - name: Skýrslan „Óbeinn kostnaður í vinnslu“ inniheldur framleiðslupantanir sem var eytt
-                  href: troubleshooting/costing/indirect-costs-in-pr.md
-                - name: Uppsöfnuð innkaup bókuð með upphæð núll fyrir innhreyfingarskjal afurðar með núllvirði
-                  href: troubleshooting/costing/posting-to-purchase.md
-                - name: Efnislega mótteknar innkaupapantanir birtast ekki í skýrslu birgðalokunar
-                  href: troubleshooting/costing/purchase-orders-rece.md
-                - name: Engin frá-dagsetning er í flipa virkra verða á síðu vöruverðs
-                  href: troubleshooting/costing/there-is-no-from-dat.md
-            - name: Birgðastjórnun
-              items:
-                - name: Ekki er hægt að finna felligluggann „Verkflæði“ fyrir birgðabækur
-                  href: troubleshooting/inventory/cant-find-workflow-dropdown.md
-                - name: Verkflæði birgðabókar klárast aldrei og ekki er hægt að vinna úr færslubókinni
-                  href: troubleshooting/inventory/cant-post-inventory-journal.md
-                - name: Birgðabókin er læst og runuvinnsla verkflæðis virkar ekki
-                  href: troubleshooting/inventory/inventory-journal-locked-workflow.md
-                - name: Eining og magn einingar virka ekki á réttan hátt í birgðabókinni
-                  href: troubleshooting/inventory/journal-unit-quantity-incorrect.md
-                - name: Skilyrði verkflæðis birgðabókar gilda á færslubókarstigi en ekki á línustigi
-                  href: troubleshooting/inventory/journal-workflow-conditions.md
-                - name: Síusvæðið á listasíðu lagerstöðu virkar ekki sem skyldi
-                  href: troubleshooting/inventory/on-hand-filter-unexpected.md
-                - name: Hámarksfjöldi aukastafa fyrir birgðahaldseininguna er 0
-                  href: troubleshooting/inventory/sku-max-decimals-zero.md
-                - name: Margar birgðafærslur fyrir rununúmer án „Við efnislega uppfærslu“
-                  href: troubleshooting/inventory/multiple-inventory-t.md
-                - name: Að afturkalla skýrslu sem lokið býr til óvænta opna færslu
-                  href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: Skýrsla tiltektarlista sýnir ekki nýjar athugasemdir sem hengdar eru við færslubók
-                  href: troubleshooting/inventory/unable-to-print-the.md
-                - name: Magn í biðgeymslupöntun í vinnslu uppfærist ekki þegar pöntuninni er skipt niður
-                  href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: Reiturinn „Síðasti prófunardagur“ uppfærist ekki þegar margar gæðapantanir eru stofnaðar
-                  href: troubleshooting/inventory/the-field-last-test.md
-                - name: Þegar magn framleiðsluþyngdar er skipt niður er lágmarksmagn notað í stað nafnmagns
-                  href: troubleshooting/inventory/while-splitting-the.md
-            - name: Aðaláætlanagerð
-              items:
-                - name: Kerfið finnur ekki áætlaða pöntun þegar unnið er með margar pantanir
-                  href: troubleshooting/planning/planned-order-not-exist.md
-                - name: Niðurbrot uppskriftar hagar sér öðruvísi fyrir staðfestar og áætlaðar framleiðslupantanir
-                  href: troubleshooting/planning/bom-explosion-works-differently.md
-                - name: Seinkunargildið er ekki uppfært þegar þú enduráætlar áætlaða pöntun
-                  href: troubleshooting/planning/delay-value-not-updated.md
-                - name: Það tekur langan tíma að uppfæra áætlaðar pantanir
-                  href: troubleshooting/planning/planned-order-long-update.md
-                - name: Áætlaðar pantanir eru myndaðar fyrir vörur á lager með framleiðslupöntunum
-                  href: troubleshooting/planning/planned-orders-in-stock-items.md
-                - name: Framleiðsluröðun tekur ekki tillit til öryggismarka
-                  href: troubleshooting/planning/prod-schedule-safety-margins.md
-                - name: Aðaláætlanagerð áætlar meira en tiltæka afkastagetu
-                  href: troubleshooting/planning/respect-capacity-limitations.md
-                - name: Nægileg afköst fundust ekki
-                  href: troubleshooting/planning/not-enough-capacity-error.md
-                - name: Villa kemur upp við keyrslu á innbyggðri aðaláætlunarvél
-                  href: troubleshooting/planning/deprecated-master-planning-error.md
-                - name: Vara má ekki hafa uppskrift eða formúlu
-                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
-                - name: Færibreytur fyrir aðaláætlun eru ekki til
-                  href: troubleshooting/planning/no-parameters-for-master-plan.md
-                - name: Tímasetja þarf framleiðslutillöguna áður en hægt er að staðfesta hana
-                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
-                - name: Afurð er í bið fyrir færslur
-                  href: troubleshooting/planning/product-is-on-hold.md
-                - name: Valið formúlunúmer er ekki samþykkt fyrir runupöntun.
-                  href: troubleshooting/planning/selected-formula-not-approved.md
-                - name: Kóði lánardrottins er ekki heimilaður fyrir tiltekna afurð og dagsetningu
-                  href: troubleshooting/planning/vendor-code-not-authorized.md
-                - name: Lánardrottinn er ekki tilgreindur þegar áætlaðar pantanir eru staðfestar
-                  href: troubleshooting/planning/vendor-not-specified.md
-                - name: Unnið er úr beint afleiddum staðfestum pöntunum með verkflæði endurskoðunar
-                  href: troubleshooting/planning/firmed-directly-deri.md
-                - name: Ekki er hægt að sía atriði aðaláætlanagerðar eftir gildum tengds þekjuflokks
-                  href: troubleshooting/planning/master-planning-batc.md
-                - name: Aðaláætlanagerð býr til áætlaðar pantanir fyrir skuggaafurðir
-                  href: troubleshooting/planning/planned-orders-are-g.md
-                - name: Áætluð innkaupapöntun stofnuð þegar innkaup eru til innan neikvæðra daga
-                  href: troubleshooting/planning/planning-optimisatio.md
-                - name: Ekki er hægt að uppfæra spá um einingarkostnað þegar þú flytur inn færslur eftirspurnarspár
-                  href: troubleshooting/planning/unable-to-upload-the.md
-                - name: Ekki er hægt að fjarlægja vídd eftirspurnarspár vöruhúss úr spárlínum
-                  href: troubleshooting/planning/warehouse-removal-fr.md
-                - name: Beðið er um að vista vöruþekjustillingar þrátt fyrir að þú hafir ekki gert neinar breytingar
-                  href: troubleshooting/planning/when-importing-to-th.md
-            - name: Innkaup
-              items:
-                - name: Misræmi í gögnum innkaupapöntunarlína
-                  href: troubleshooting/procurement/purchase-order-line-data-issues.md
-                - name: Ein eða fleiri dreifingar á fjárhagsupphæð eru annaðhvort yfir- eða undirdreifðar
-                  href: troubleshooting/procurement/accounting-over-under-distributed.md
-                - name: Aðeins er hægt að ljúka innkaupapöntunaraðgerð fyrir fulldreifð línunúmer
-                  href: troubleshooting/procurement/action-requires-full-distribution.md
-                - name: Ekki er hægt að breyta upphafsdegi fyrir samþykktan lánardrottin
-                  href: troubleshooting/procurement/approved-vendor-effective-date.md
-                - name: Afturkallaðar innkaupapantanir birtast í listanum yfir drög á vinnusvæðinu
-                  href: troubleshooting/procurement/canceled-po-in-draft-list.md
-                - name: Hægt er að bóka færslur á frestaðan fjárhagslykil
-                  href: troubleshooting/procurement/canceled-receipts-posted.md
-                - name: Ef hætt er við eftirstöðvar afhendingar verður innkaupapöntun flutt í stöðuna „Staðfest“
-                  href: troubleshooting/procurement/change-management-canceled-remainder.md
-                - name: Ekki er hægt að sameina mörg innhreyfingarskjöl í eina innkaupapöntun
-                  href: troubleshooting/procurement/consolidate-multiple-receipts.md
-                - name: Sjálfgefinn skattflokkur og staðgreiðsluafsláttur eru ekki fyllt út í reikningslyklinum
-                  href: troubleshooting/procurement/default-tax-group-and-discount.md
-                - name: Afhendingarheitið er ekki samstillt eftir að afhendingaraðsetri innkaupapöntunar er breytt
-                  href: troubleshooting/procurement/delivery-name-isnt-synced.md
-                - name: Undantekning á sér stað þegar reikningur lánardrottins er bókaður
-                  href: troubleshooting/procurement/invocation-target-exception.md
-                - name: Innfluttar innkaupapantanir sýna röng línunúmer
-                  href: troubleshooting/procurement/line-number-increments.md
-                - name: Hámarkið í innkaupasamningi gildir ekki í innkaupabeiðni
-                  href: troubleshooting/procurement/max-limit-on-requisition.md
-                - name: Villan „Tilvísun hlutar ekki stillt“ kemur upp við staðfestingu á innkaupapöntun
-                  href: troubleshooting/procurement/object-reference-not-set.md
-                - name: Dreifingar á fjárhagsupphæð eru annaðhvort yfir- eða undirdreifðar
-                  href: troubleshooting/procurement/over-under-distribution.md
-                - name: Ekki er hægt að bæta reitnum „Verðeining“ við síðuna „Innkaupasamningur“
-                  href: troubleshooting/procurement/personalize-purchase-agreement-price.md
-                - name: Innkaupapantanir endurspegla ekki tungumálastillingar lögaðilans
-                  href: troubleshooting/procurement/po-language.md
-                - name: Kvittun innkaupapöntunar inniheldur ekki öll gjöld
-                  href: troubleshooting/procurement/po-receipt-missing-charges.md
-                - name: Einingaverð á innkaupapöntunum eru ekki reiknuð út á grundvelli umreiknings einingar
-                  href: troubleshooting/procurement/po-unit-prices-not-calculated.md
-                - name: Ekki er kveikt á stillingunni „Bóka á gjaldalykil í fjárhag“
-                  href: troubleshooting/procurement/post-setting-turned-off.md
-                - name: Villa við endursendingu innkaupapöntunar í verkflæði eftir breytingu
-                  href: troubleshooting/procurement/resubmit-po-after-change.md
-                - name: Vandamál við umreikning gjaldmiðils í verðsamningi
-                  href: troubleshooting/procurement/trade-agreement-currencies.md
-                - name: Skilyrði verðsamnings eru ekki notuð á innfluttar pöntunarlínur
-                  href: troubleshooting/procurement/trade-agreement-not-applied.md
-                - name: Hægt er að stofna viðskiptasamninga úr tilboðsbeiðnum sem var hafnað
-                  href: troubleshooting/procurement/trade-agreements-from-rejected-rfq.md
-                - name: Eftirágreiddur afsláttur lánardrottins er ekki uppsafnaður samkvæmt reikningum
-                  href: troubleshooting/procurement/vendor-rebate-not-cumulated.md
-                - name: Fylgiskjalsnúmer innhreyfingarskjals er notað þótt fylgiskjal sé ekki myndað
-                  href: troubleshooting/procurement/voucher-number-consumed.md
-                - name: Ekki er hægt að reikningsfæra sölupöntun sem snýr að viðskiptavini
-                  href: troubleshooting/procurement/not-able-to-invoice-.md
-                - name: Ekki er hægt að bæta línu við innkaupabeiðni eftir að óskað hefur verið eftir breytingu
-                  href: troubleshooting/procurement/purchase-requisition.md
-            - name: Afurðaupplýsingastjórnun
-              items:
-                - name: Ekki er hægt að eyða útgefinni afurð
-                  href: troubleshooting/products/cant-delete-released-prod.md
-                - name: Heiltölur eru rangt sléttaðar þegar afbrigðalíkan afurðar er reiknað út
-                  href: troubleshooting/products/integers-incorrectly-rounded.md
-                - name: Skrifað er yfir vörutexta þegar vara er skilgreind í sölupöntunarlínu
-                  href: troubleshooting/products/text-overwritten-configured-item.md
-                - name: Þú getur ekki notað sniðmát til að búa til útgefna vöru
-                  href: troubleshooting/products/apply-template-in-re.md
-                - name: Þú getur ekki flutt inn vöru með því að nota V2-einingu útgefinna afurða
-                  href: troubleshooting/products/cannot-import-with-r.md
-                - name: Innkaupapantanir sýna ekki þýddan vörutexta
-                  href: troubleshooting/products/when-the-customer-ad.md
-            - name: Framleiðslustýring
-              items:
-                - name: Villa í útreikningi bakfærslukostnaðaraðferðar við birgðalokun
-                  href: troubleshooting/production/backflush-costing-calculation-error.md
-                - name: Ekki er hægt að ljúka við framleiðslupöntun vegna gildisvillu consumptionCost uppskriftar
-                  href: troubleshooting/production/bom-consumption-cost-error.md
-                - name: Ekki er hægt að setja inn uppskrift og leið þegar ný framleiðslupöntun er stofnuð
-                  href: troubleshooting/production/cant-insert-bom-route-number.md
-                - name: Fyrri verkum í vinnslu er lokið þegar hlutamagn er tilkynnt í síðasta verki
-                  href: troubleshooting/production/in-progress-jobs-ended.md
-                - name: Ekki er hægt að taka vöru RM frá að fullu þegar framleiðslupöntun er gefin út
-                  href: troubleshooting/production/item-rm-not-reserved.md
-                - name: Uppfærslan „Bóka sem tilbúið“ mistekst með villunni „magn vantar“
-                  href: troubleshooting/production/missing-report-finished-quantity.md
-                - name: Villa þegar færslubókin Bóka sem tilbúið er bókuð
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: Villa við að breyta stöðu framleiðslupöntunar úr „Bókað sem tilbúið“ í „Lokið“
-                  href: troubleshooting/production/production-order-status-error.md
-                - name: Framleiðslupantanir eru ekki sýndar á síðunni „Merking“
-                  href: troubleshooting/production/production-orders-marking-page.md
-                - name: Tilfangaheiti er ekki uppfært eftir að nafni starfskrafts er breytt í aðsetursbók
-                  href: troubleshooting/production/resource-name-not-updated.md
-                - name: Villa um samtals gallalaust magn þegar reynt er að ljúka framleiðslupöntun
-                  href: troubleshooting/production/total-good-quantity-order-error.md
-                - name: Ekki er hægt að bera raðnúmer fullunninna vara saman við raðnúmer notaðra vara
-                  href: troubleshooting/production/trace-finished-goods-consumed-goods.md
-                - name: Ekki er hægt að taka frá eða losa verk vegna þess að ferli eru í notkun
-                  href: troubleshooting/production/warehouse-management-processes-used.md
-                - name: Ekki er farið eftir stillingum losunarreglu í uppskriftarlínum
-                  href: troubleshooting/production/flushing-principle-n.md
-                - name: Rununúmer er hreinsað við val á nýju lotukenni
-                  href: troubleshooting/production/when-customer-is-try.md
-                - name: Síðbúið val ekki virt þegar framleiðslupantanir eru endurstilltar í gegnum runuvinnslu
-                  href: troubleshooting/production/late-selection-is-no.md
-                - name: Notendur geta afturkallað efnislínur fyrir afurðir sem búið er að tilkynna sem lokið
-                  href: troubleshooting/production/raw-material-lines-a.md
-                - name: Villa þegar skýrsla er bókuð sem lokuð færslubók
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: Vöruhúsið í færslubók tiltektarlista er ekki uppfært í uppskriftarlínu
-                  href: troubleshooting/production/the-warehouse-in-pic.md
-            - name: Stjórnun eftirágreidds afsláttar
-              items:
-                - name: Uppsöfnun eftirágreiddra afslátta viðskiptavinar með vöruflokkum eftirágreiddra afslátta mistekst
-                  href: troubleshooting/rebates/cumulating-customer-.md
-            - name: Sala og markaðsstarf
-              items:
-                - name: Hreinsunarvinnsla á uppfærsluferli sölu mistekst eða inniheldur vandamál sem tengjast afköstum
-                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
-                - name: Búntvara er ekki studd í ferli innan samstæðu
-                  href: troubleshooting/sales/bundle-item-intercompany-process.md
-                - name: Ekki er hægt að hætta við samstæðuinnkaupapöntun sem er tengd við sölupöntun
-                  href: troubleshooting/sales/cancel-intercompany-purchase-order.md
-                - name: Ekki er hægt að fjarlægja frátekningar þegar hætt er við pöntun
-                  href: troubleshooting/sales/cancel-order-reservations-not-removed.md
-                - name: Ef tveir viðskiptasamningar eru til fyrir dagsetningar sem skarast er sá sami alltaf valinn
-                  href: troubleshooting/sales/same-trade-agreement-selected.md
-                - name: Ekki er hægt að breyta sölumagni þjónustuvöru í sölutilboðslínu
-                  href: troubleshooting/sales/service-item-sales-quantity.md
-                - name: Skattaupplýsingar eru ekki uppfærðar ef staðsetningu í sölupöntunarhaus er breytt
-                  href: troubleshooting/sales/tax-information-not-updated.md
-                - name: Ekki er hægt að minnka magnið þegar hætt er við sölupöntun
-                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
-                - name: Kerfisstjórar geta ekki aflétt biðstöðu pöntunar vegna þess að þeir hafa ekki heimild til þess
-                  href: troubleshooting/sales/system-administrator.md
-            - name: Flutningsstjórnun
-              items:
-                - name: Aðeins er hægt að bæta aðallyklinum við sem kreditlykli vegna afstemmingar
-                  href: troubleshooting/transportation/reconciliation-reaso.md
-            - name: Vöruhúsakerfi
-              items:
-                - name: Warehouse mobile app
-                  items:
-                    - name: Óvæntur munur á gögnum beiðni og gögnum lotu við prófun
-                      href: troubleshooting/warehousing/request-session-data-difference.md
-                    - name: Traustsakkeri fyrir vottunarslóð fannst ekki þegar tenging forrits var sett upp
-                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
-                    - name: Traustsakkeri fyrir vottunarslóð fannst ekki við uppfærslu og flutning í vöruhúsakerfi
-                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
-                - name: Ekki er hægt að bóka fylgiseðil fyrir sölupöntunarlínu sem er stöðvuð
-                  href: troubleshooting/warehousing/unable-to-post-packi.md
-                - name: Úrvinnslumál koma upp eftir uppsetningu vinnuálags fyrir kvörðunareiningu í vöruhúsi
-                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
-                - name: Kvaðning um sjálfvirka frátekningu fyrir rununúmer er sýnd jöfn tiltækum birgðum
-                  href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
-                - name: Ekki er hægt að opna fyrir tiltektarvinnu vegna ólokinnar áfyllingarvinnu
-                  href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
-                - name: Ekki er hægt að hætta við fylgiseðil eftir að hann hefur verið bókaður úr sölupöntun
-                  href: troubleshooting/warehousing/cancel-posted-packing-slip.md
-                - name: Ekki er hægt að færa númeraplötu ef raðnúmer er með auða úthreyfingu og auða innhreyfingu heimila
-                  href: troubleshooting/warehousing/cant-move-license-plate.md
-                - name: Ekki er hægt að færa birgðir á stað sem er númeraplötustýrður
-                  href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Klasasnið finnst ekki
-                  href: troubleshooting/warehousing/cluster-profile-not-found-error.md
-                - name: Ekki er hægt að vinna úr leiðréttingu á fylgiseðli
-                  href: troubleshooting/warehousing/delivery-note-correction.md
-                - name: Villa við staðfestingu á sendingu eftir að hafa búið til flutningspöntun fyrir vöru með raðnúmer
-                  href: troubleshooting/warehousing/dimension-location-left-blank.md
-                - name: Bein afhending getur ekki sinnt úrvinnslu fyrir vöruhús virkjað af vöruhúsakerfi
-                  href: troubleshooting/warehousing/direct-delivery-wms-enabled-warehouse.md
-                - name: Birgðagerðir eru blandaðar þegar forstilling dreifingarstjórnunar er notuð
-                  href: troubleshooting/warehousing/dock-management-inventory-mixing.md
-                - name: Valkostur margra birgðahaldseininga metur ekki margar aðgerðir staðsetningarleiðbeininga
-                  href: troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md
-                - name: Tiltektarvinna er ekki útbúin strax þegar farmur á útleið er losaður
-                  href: troubleshooting/warehousing/generate-work-immediately-load-release.md
-                - name: Villan „Ógild númeraplata“ þegar kenni númeraplötu er skannað í farsímaforritinu
-                  href: troubleshooting/warehousing/invalid-license-plate.md
-                - name: Birgðaeigandi er ekki leyfður þegar unnið er með hreyfingar í vöruhúsaforritinu
-                  href: troubleshooting/warehousing/inventory-owner-not-allowed.md
-                - name: Kerfið getur ekki uppfært birgðamagn vegna ófullnægjandi færslna
-                  href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
-                - name: Ekki er hægt að velja breytingu á birgðastöðu í vinnugerðardálknum
-                  href: troubleshooting/warehousing/inventory-status-change-work-type.md
-                - name: Villan „Ógild númeraplata“ eða „Staðsetning“ þegar skannað er í farsímaforritinu
-                  href: troubleshooting/warehousing/license-plate-location-invalid.md
-                - name: Magn númeraplötu er ekki gilt þegar pantanir á innleið eru skráðar
-                  href: troubleshooting/warehousing/license-plate-quantity-not-valid.md
-                - name: Villa við skilgreiningu á númeraplötu við staðfestingu á sendingu fyrir flutningspöntun
-                  href: troubleshooting/warehousing/license-plate-specified-location.md
-                - name: Ein línanna er þegar í farmi
-                  href: troubleshooting/warehousing/line-already-on-load.md
-                - name: Villa varðandi hleðsluþyngd og uppfærsla afturkölluð þegar vinnsla fer fram á milli staða
-                  href: troubleshooting/warehousing/load-weight-positive-numbers.md
-                - name: Móttaka blandaðrar númeraplötu virkar ekki fyrir neinn ráðstöfunarkóða fyrir utan Kredit
-                  href: troubleshooting/warehousing/mixed-license-plate-receiving.md
-                - name: Aðeins er hægt að nota hlutverk kerfisstjóra til að fá aðgang að hermiforriti fartækis
-                  href: troubleshooting/warehousing/mobile-app-emulator-administrator.md
-                - name: Vandamál við að flytja úr grunnvöruhúsi yfir í ítarlegt vöruhús
-                  href: troubleshooting/warehousing/move-basic-to-advanced-warehousing.md
-                - name: Ekki fannst næg vinna fyrir klasa við notkun kerfisstýrðrar klasatiltektar
-                  href: troubleshooting/warehousing/not-enough-work-for-cluster.md
-                - name: Staða pöntunar er áfram „Losuð að hluta“ eftir að sölupöntunin hefur verið reikningsfærð
-                  href: troubleshooting/warehousing/order-status-partially-released.md
-                - name: Ekki er hægt að nota farsímaforrit Warehouse Management fyrir hlutatiltekt
-                  href: troubleshooting/warehousing/partial-picking-warehouse-app.md
-                - name: Virkja breytingu á birgðastöðu fyrir hlutamagnsverk
-                  href: troubleshooting/warehousing/partial-quantity-inventory-status.md
-                - name: Prenta út fylgiseðil eða pökkunarefni eftir vöruhúsi eða svæði
-                  href: troubleshooting/warehousing/print-documents-by-warehouse.md
-                - name: Magn er ekki gilt þegar tiltektarverk með margar númeraplötur eru til á sama stað
-                  href: troubleshooting/warehousing/quantity-invalid-multiple-license-plates.md
-                - name: Magn er ekki gilt þegar tiltekt er skipt á milli margra runa
-                  href: troubleshooting/warehousing/quantity-invalid-split-pick.md
-                - name: Ekki er hægt að endurlosa farm sem var sendur að hluta til í vöruhúsið
-                  href: troubleshooting/warehousing/rerelease-partially-shipped-load.md
-                - name: 'Kerfið getur ekki gengið frá bókunum vegna þess að 0,00 eru tiltæk í birgðum'
-                  href: troubleshooting/warehousing/reservations-0-inventory-available.md
-                - name: Ekki er hægt að stofna farmlínu fyrir vöruskilapöntun vegna þess að birgðavíddir eru ógildar
-                  href: troubleshooting/warehousing/return-order-invalid-dimensions.md
-                - name: Ekki var hægt að losa sölupöntun með vöruhúsaaðgerðum á útleið
-                  href: troubleshooting/warehousing/sales-order-not-released.md
-                - name: Sending á farmi var staðfest en engar línur eru bókaðar
-                  href: troubleshooting/warehousing/shipment-confirmed-no-posting.md
-                - name: Hólfasniðmát taka ekki tillit til lagerbirgða fyrir runu fyrir ofan vörur
-                  href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
-                - name: Ekki er hægt að losa farm fyrir hlutamagn með frátekningastigveldi runu fyrir ofan
-                  href: troubleshooting/warehousing/specify-dimensions-above-location.md
-                - name: Óstaðfestar innkaupapantanir eru staðfestar eftir að hafa keyrt „Uppfæra innhreyfingarskjöl afurða“
-                  href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
-                - name: Ekki er hægt að hætta við frátekningu á birgðum á sölupöntunarlínu
-                  href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: Ekki er hægt að staðfesta sendingu vegna þess að viðskiptavinur er í bið
-                  href: troubleshooting/warehousing/customer-is-on-hold.md
-                - name: Ekki er hægt að staðfesta sendingu vegna þess að farmlínur eru með magnið núll
-                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
-                - name: Ekki er hægt að uppfæra farmlínu vegna þess að magn sem losnar yrði neikvætt
-                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
-                - name: Innhreyfingarskjöl afurða sem hætt hefur verið við uppfæra ekki færslustöðu í „Skráð“
-                  href: troubleshooting/warehousing/canceled-product-receipts.md
-                - name: Sléttun aukastafa á efnislegu uppfærslumagni er röng
-                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
-                - name: Efnislegar eftirstöðvar í einingunni verða að vera annað en núll
-                  href: troubleshooting/warehousing/physical-remaining-q.md
-                - name: Tiltektarmagn er ekki nægjanlegt við myndun fylgiseðils
-                  href: troubleshooting/warehousing/picked-quantity-is-n.md
-                - name: Magn fer yfir umframafhendingarprósentu við myndun fylgiseðils
-                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
-                - name: Magnið sem reynt er að uppfæra er meira en móttekið/afhent magn
-                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
-                - name: Magn fer yfir undirafhendingarprósentu við myndun fylgiseðils
-                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
-                - name: Villa kemur upp þegar staðsetning er valin við skráningu tiltektarlista
-                  href: troubleshooting/warehousing/error-cannot-update.md
-                - name: Pökkunarstöðin sýnir ekki athugasemdir afurðar
-                  href: troubleshooting/warehousing/packing-station-not-.md
-                - name: Staðsetningarforstilling leyfir ekki neikvæða birgðaskráningu en neikvæð lagerstaða er leyfð
-                  href: troubleshooting/warehousing/location-profile-set.md
-                - name: Aðeins eitt merki hefur verið prentað fyrir marga vinnuhausa í einni innhreyfingu
-                  href: troubleshooting/warehousing/when-receipting-prod.md
-                - name: Ekki er hægt að staðfesta sendingu vegna dagatalsvandamáls
-                  href: troubleshooting/warehousing/load-has-active-appo.md
-                - name: Ekki er hægt að staðfesta sendingu vegna ólokinnar vinnu eða vinnu sem vantar
-                  href: troubleshooting/warehousing/open-or-no-work-exis.md
-                - name: Ekki er hægt að staðfesta sendingu vegna þess að ekki er búið að taka vörurnar til
-                  href: troubleshooting/warehousing/picked-quantity-is-not-on-final.md
-                - name: Ekki er hægt að staðfesta sendingu vegna þess að magnið er núll
-                  href: troubleshooting/warehousing/picked-quantity-is-zero.md
-                - name: Ekki er hægt að staðfesta sendingu vegna þess að magnið er hærra en hlutfall ofafhendingar
-                  href: troubleshooting/warehousing/quantity-exceeds-ove.md
-                - name: Ekki er hægt að staðfesta sendingu vegna þess að magnið er hærra en hlutfall vanafhendingar
-                  href: troubleshooting/warehousing/quantity-exceeds-und.md
-                - name: Síðasta lokaða vinnulína verður að vera frágangur
-                  href: troubleshooting/warehousing/the-last-closed-work.md
-                - name: Þyngdarreitirnir í farmlínum stemma ekki við þyngdarreitina í farminum
-                  href: troubleshooting/warehousing/the-weight-fields-on.md
-                - name: Ekki er hægt að hreinsa upp bylgju
-                  href: troubleshooting/warehousing/wave-is-not-eligible.md
-                - name: Þyngd verður að vera jákvæð
-                  href: troubleshooting/warehousing/weight-must-be-posit.md
-                - name: Ekki er hægt að hætta við vinnu því hún er útilokuð
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
-                - name: Ekki er hægt að hætta við vinnu vegna stöðu
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
-                - name: Vinnan er ekki útilokuð
-                  href: troubleshooting/warehousing/work-is-not-blocked.md
-                - name: Vinnan er áfram útilokuð
-                  href: troubleshooting/warehousing/work-remains-blocked.md
-                - name: Ekki er hægt að hætta við vinnu sem er skráð á notanda
-                  href: troubleshooting/warehousing/you-cannot-cancel-wo.md
     - name: Þróun og stjórnun fjármála- og rekstrarforrita
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
