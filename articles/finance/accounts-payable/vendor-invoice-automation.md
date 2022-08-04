@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0449a13989bad45cf0456a2678e5724036d2af3d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883417"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070695"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Sjálfvirkni reiknings fyrir skönnuð skjöl
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir gagnaeiningarnar sem eru tiltækar fyrir enda-til-enda sjálfvirkni reikninga lánardrottins, þar með talið reikninga með viðhengjum.
+Þessi grein útskýrir gagnaeiningarnar sem eru tiltækar fyrir end-to-end sjálfvirkni reikninga lánardrottins, þar á meðal reikninga með viðhengjum.
 
 Fyrirtæki sem vilja hagræða ferlum Viðskiptaskulda (AP) auðkenna oft reikningsvinnslur sem ein af aðalferlunum sem þurfa að vera skilvirkari. Í mörgum tilvikum láta þessi fyrirtæki ótengdan þjónustuaðila með ljósskynjun stafa (OCR) um vinnslu reikninga á pappír. Þeir fá síðan tölvulesanleganleg lýsigögn reiknings ásamt skannaðri mynd af hverjum reikningi. Til að aðstoða við sjálfvirkni er "síðasta kílómetra" lausn síðan myndað til að auðvelda notkun á þessum hlutum í reikningsfærslukerfinu. Núna er þessi „síðustu metrunum“ sjálfvirkni virkjuð beint úr kassanum með því að nota lausn sjálfvirkra reikninga.
 
@@ -58,7 +58,7 @@ Gagnapakki er sú vinnueining sem þarf að senda svo að hægt sé að stofna r
 
 Skjalaviðhengi lánardrottnareikningsins er ný gagnaeining sem er kynnt sem hluti af þessari aðgerð. Hauseining lánardrottnareiknings hefur verið breytt þannig að hann styður viðhengi. Línueining lánardrottnareiknings hefur ekki verið breytt fyrir þetta sérkenni.
 
-Ítarlegar upplýsingar um gagnapakka er að finna í [Yfirlit gagnastjórnunar](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Fyrir upplýsingar um hvernig á að búa til gagnapakka með því að nota vinnusvæði gagnastjórnunar, sjá [Vinnsla og neyta gagnapakka í Dynamics 365 Finance and Operations forritalausn](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
+Ítarlegar upplýsingar um gagnapakka er að finna í [Yfirlit gagnastjórnunar](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Fyrir upplýsingar um hvernig á að búa til gagnapakka með því að nota vinnusvæði gagnastjórnunar, sjá [Vinnsla og neyta gagnapakka í Dynamics 365 fjárhags- og rekstrarforritalausn](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Fylgið eftirfarandi skrefum til að mynda prófun gagna sem inniheldur reikninga og viðhengja.
 
@@ -86,7 +86,7 @@ Reikningar sem eru innfluttir með gagnapakka er hægt að tengja lögaðila sem
 
 ## <a name="exception-processing"></a>Undantekningavinnsla
 
-Í tilvikum þar sem reikningar lánardrottna koma inn í Finance and Operations í gegnum samþættingu, verður að vera auðveld leið fyrir inn Reikninga lánardrottna hópur undantekningar ferli eða mistekist reikninga og til að stofna reikninga í bið úr reikningum sem mistakast. Þessi undantekningavinnsla á reikningum lánadrottna er nú hluti af Finance and Operations.
+Í tilfellum þar sem reikningar lánardrottins koma inn í fjármál og rekstur með samþættingu, verður að vera auðveld leið fyrir liðsfélaga viðskiptaskulda til að vinna undantekningar eða misheppnaða reikninga og búa til biðreikninga úr misheppnuðum reikningum. Þessi undantekningarvinnsla fyrir reikninga lánardrottins er nú hluti af fjármálum og rekstri.
 
 ### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Listasíða reikninga lánardrottna sem ekki tókst að flytja inn
 
@@ -225,3 +225,4 @@ Sjálfgefið ef hlutverki notanda veitir breyta réttindi á öllum síðum nota
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

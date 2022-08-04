@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c9bfcdef91ad07b8346498b8944e1d741d623a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a27548fff9728c74814fb92438da1d0c17b5e2b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862657"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067393"
 ---
 # <a name="engineering-change-management-overview"></a>Yfirlit yfir umsjón hönnunarbreytinga
 
@@ -25,7 +25,7 @@ ms.locfileid: "8862657"
 
 ## <a name="feature-summary"></a>Samantekt eiginleika
 
-Framleiðendur nútímans krefjast öflugrar vörugagnastjórnunar, útgáfustýringar og verkfræðilegrar breytingastjórnunar til að ná árangri í heimi sífellt minnkandi vörulífs, aukinna gæða- og áreiðanleikakrafna og aukinnar áherslu á vöruöryggi.
+Framleiðendur nútímans krefjast öflugrar vörugagnastjórnunar, útgáfustýringar og verkfræðilegrar breytingastjórnunar til að ná árangri í heimi stöðugt minnkandi vörulífs, aukinna gæða- og áreiðanleikakrafna og aukinnar áherslu á vöruöryggi.
 
 Verkfræðileg breytingastjórnun færir uppbyggingu og aga inn í vörugagnastjórnunarferlið og gerir kleift að skilgreina, gefa út og endurskoða vörur á stýrðan hátt sem er studd af verkflæði. Með vöruútgáfum og verkfræðilegri breytingastjórnun geturðu skjalfest, metið áhrif og beitt verkfræðilegum breytingum í gegnum allan líftíma vöru.
 
@@ -40,7 +40,7 @@ Umsjón hönnunarbreytinga sem hjálpar til við að skipuleggja og vinna með a
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-Fyrra myndbandið ([Breyta stjórnunargetu í Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) er innifalið í [Spilunarlisti fyrir fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) í boði á YouTube.
+Fyrra myndbandið ([Breyta stjórnunargetu í Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) er innifalið í [lagalista um fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) fáanleg á YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Kveikja á eiginleikum fyrir umsjón hönnunarbreytinga fyrir kerfið
 
@@ -53,7 +53,7 @@ Til að kveikja eða slökkva á grunneiginleikum verkfræðibreytingastjórnuna
 1. Farðu í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnusvæðið.
 1. Athuga með uppfærslur.
 1. Snúðu eiginleikanum sem heitir *Verkfræðibreytingastjórnun* kveikt eða slökkt, eftir þörfum.
-1. Ef þú vilt fylgjast með útgáfuvídd afurða í færslum (valfrjálst) skaltu kveikja á eiginleikanum sem er nefndur *Vöruvíddarútgáfa*.
+1. Ef þú vilt fylgjast með útgáfuvídd afurða í viðskiptum (valfrjálst) skaltu kveikja á eiginleikanum sem er nefndur *Vöruvíddarútgáfa*.
 
 ### <a name="turn-the-required-configuration-keys-on-or-off"></a>Kveiktu eða slökktu á nauðsynlegum stillingarlyklum
 
@@ -70,7 +70,7 @@ Næst skal kveikja á skilgreiningarlyklunum með því að fylgja þessum skref
 
 1. Ef einnig á að nota vídd útgáfunnar skal velja gátreitinn **Afurðarvídd - Útgáfa**. (Þessi gátreitur er neðar á listanum, ekki hreiður undir **Verkfræðibreytingastjórnun** hnút.) Þú getur hreinsað þennan gátreit ef þú þarft ekki þennan eiginleika.
 1. Slökkvið á viðhaldsstillingu eins og lýst er í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Gagnagrunnurinn verður að vera samstilltur til að tryggja að stillingarlyklar séu rétt uppfærðir til að endurspegla breytingar þínar. Gerðu eitt af eftirfarandi skrefum, eftir því hvers konar umhverfi þú ert að vinna við:
+1. Gagnagrunnurinn verður að vera samstilltur til að tryggja að stillingarlyklar séu rétt uppfærðir til að endurspegla breytingarnar þínar. Gerðu eitt af eftirfarandi skrefum, eftir því hvers konar umhverfi þú ert að vinna við:
     - **Fyrir Tier 1 (þróunar) umhverfi** : Opnaðu verkefnið þitt í Microsoft Visual Studio og veldu síðan **Dynamics 365 \> Samstilla gagnagrunn \> Samstilla**.
     - **Fyrir Tier 2 (og hærra) umhverfi** : Gagnagrunnurinn samstillist sjálfkrafa eftir að þú setur umhverfið í og úr viðhaldsham, svo þú getur sleppt þessu skrefi.
 
@@ -88,3 +88,4 @@ Eftir að þú kveikir á eiginleikum fyrir umsjón grunnhönnunarbreytinga og v
 | Afbrigði útbúið fyrir hönnunarafurðir | <p>Þessi eiginleiki gerir kleift að búa til afbrigði fyrir hönnunarafurðir sem byggja á tiltækum víddargildum.</p><p>Frekari upplýsingar er að finna í [Búa til afbrigði fyrir hönnunarafurðir](engineering-variants.md).</p> |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

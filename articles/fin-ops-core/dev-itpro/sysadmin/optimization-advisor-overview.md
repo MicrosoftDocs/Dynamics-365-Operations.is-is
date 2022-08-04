@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1dd66e27098b4125b03c4fe6b52825afe2ff34cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fb71453c37572c4956d98d4309d3526a7fbc1124
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865862"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109041"
 ---
 # <a name="optimization-advisor-overview"></a>Yfirlit yfir Fínstillingarráðgjöf
 
@@ -44,7 +44,7 @@ Staðlaðar öryggisreglur gilda um fínstillingartækifæri. Til dæmis eru fí
 
 Þegar gripið er til aðgerða á ákveðnum fínstillingartækifærum reiknar kerfið áhrif tækifærisins á hvað varðar styttingu á keyrslutíma viðskiptaferla. Því miður er þessi eiginleiki ekki tiltækur fyrir öll fínstillingartækifæri.
 
-Til að læra meira um hagræðingarráðgjöf skal horfa á myndskeiðið [Fínstillingarráðgjöf í Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
+Til að læra meira um hagræðingarráðgjafa skaltu horfa á stutta [Hagræðingarráðgjafi í Dynamics 365 Finance](https://www.youtube.com/watch?v=MRsAzgFCUSQ) myndband.
 
 ## <a name="optimization-rules"></a>Fínstillingarreglur
 
@@ -90,7 +90,7 @@ Til að gera mat óvirkt á tilgreindum reglum skal velja tækifærið sem regla
 
 [Búa til reglur fyrir fínstillingarráðgjöf](./create-rules-optimization-advisor.md)
 
-[Fínstillingarráðgjöf í Dynamics 365 for Finance and Operations (myndband)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+[Hagræðingarráðgjafi í Dynamics 365 Finance (myndband)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

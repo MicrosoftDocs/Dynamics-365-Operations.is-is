@@ -1,6 +1,6 @@
 ---
 title: Áður en þú kaupir
-description: Skref-fyrir-skref leiðbeiningar til að nota þegar þú ert að íhuga að kaupa Dynamics 365 Finance,Dynamics 365 Supply Chain Management, eða Dynamics 365 Commerce.
+description: Skref fyrir skref leiðbeiningar til að nota þegar þú ert að íhuga að kaupa Dynamics 365 Finance,Dynamics 365 Supply Chain Management, eða Dynamics 365 Commerce.
 author: sericks007
 ms.date: 11/30/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: fc3cf3b5d28a4e512f921db6ba090dd5731391cc
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713277"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123983"
 ---
 # <a name="before-you-buy"></a>Áður en þú kaupir
 
@@ -26,13 +26,13 @@ ms.locfileid: "8713277"
 
 Nýtt í Dynamics 365 Finance,Dynamics 365 Supply Chain Management, eða Dynamics 365 Commerce? Við höfum sett saman ítarlegar leiðbeiningar hvort sem þú ert enn að velta fyrir þér eða hefur þegar ákveðið að kaupa.
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Skref eitt: Prófa Finance and Operations ókeypis í 30 daga
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Skref eitt: Prófaðu fjármál og rekstur ókeypis í 30 daga
 
-Þú getur prófað Dynamics 365 for Finance, Dynamics 365 Supply Chain Management eða Dynamics 365 Commerce í 30 daga með einfaldri skráningu með tölvupósti. Prufuútgáfan af Finance and Operations forritum inniheldur leiðbeiningar um að byrja á verkefnum sem veita skref-fyrir-skref leiðbeiningar sem gera þér kleift að skoða sérstakar aðstæður í aðgerð. Hægt er kynna sér vöruna og prófa tilvik, en ekki sérsníða hana. Sýnigögn fylgja með til að einfalda notkun á vörunni og til að gera reynsluna auðskiljanlegri. Áminningartölvupóstur verður sendur 3 dögum áður en prufutíminn rennur út. Upplýsingar má finna á [Skráðu þig fyrir prufuáskriftum](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
+Þú getur prófað Dynamics 365 for Finance, Dynamics 365 Supply Chain Management eða Dynamics 365 Commerce í 30 daga með einfaldri skráningu með tölvupósti. Prufuútgáfan af fjármála- og rekstrarforritum inniheldur leiðbeiningar um að hefjast handa sem veita skref-fyrir-skref leiðbeiningar sem gera þér kleift að skoða tilteknar aðstæður í aðgerð. Hægt er kynna sér vöruna og prófa tilvik, en ekki sérsníða hana. Sýnigögn fylgja með til að einfalda notkun á vörunni og til að gera reynsluna auðskiljanlegri. Áminningartölvupóstur verður sendur 3 dögum áður en prufutíminn rennur út. Upplýsingar má finna á [Skráðu þig fyrir prufuáskriftum](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Skref tvö: Velja virkjunarkost
 
-Þú getur nú sett upp Finance and Operations forrit í skýinu eða á staðnum. Virkjun í skýi býður upp á ERP þjónustu sem er að fullu stjórnað af Microsoft, á meðan virkjun á staðnum er staðbundin í gagnamiðstöð viðskiptavinarins.
+Þú getur nú sett upp fjármála- og rekstrarforrit í skýinu eða á staðnum. Virkjun í skýi býður upp á ERP þjónustu sem er að fullu stjórnað af Microsoft, á meðan virkjun á staðnum er staðbundin í gagnamiðstöð viðskiptavinarins.
 
 Eftirfarandi atriði þarf að taka tillit til þegar þú velur virkjun á staðnum sem valmöguleika:
 
@@ -62,7 +62,7 @@ Microsoft veitandi skýjaþjónustu getur unnið náið með þér til að skilj
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Kaupa í gegnum Dynamics samstarfsaðila (á staðnum)
 
-Þú þarft að vinna með samstarfsaðila til að kaupa Finance and Operations á staðnum. Fyrir frekari upplýsingar skal sjá [Kaupa Finance + Operations (innanhúss)](purchase-on-premises.md).
+Þú verður að vinna með samstarfsaðila til að kaupa Finance + Operations (á staðnum). Fyrir frekari upplýsingar skal sjá [Kaupa Finance + Operations (innanhúss)](purchase-on-premises.md).
 
 ### <a name="buy-through-volume-licensing-cloud-or-on-premises"></a>Kaupa gegnum magnleyfi (í skýi eða á staðnum)
 
@@ -94,3 +94,4 @@ Ef þú ert viðskiptavinur sem er að uppfæra úr Microsoft Dynamics AX 2012 e
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

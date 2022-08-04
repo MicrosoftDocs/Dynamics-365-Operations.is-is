@@ -1,6 +1,6 @@
 ---
 title: Fjárhagsáætlun – heimasíða
-description: Þessi grein veitir yfirlit yfir íhluti fjárhagsáætlunargerðarvirkni, fjárhagsáætlunarverkfærum og skýrslugetu í Microsoft Dynamics 365 Fjármál.
+description: Þessi grein veitir yfirlit yfir virknihluta fjárhagsáætlunargerðar, fjárhagsáætlunargerðarverkfæri og skýrslugetu í Microsoft Dynamics 365 Fjármál.
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6a00bdae34e2aebcc4a015626eb044d90cd2887
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: db15c52ddde08bcc9d390c51efc676c20aac0a7e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864398"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067430"
 ---
 # <a name="budgeting-home-page"></a>Fjárhagsáætlun – heimasíða
 
@@ -38,7 +38,7 @@ ms.locfileid: "8864398"
 
 Ferli fyrir bæði langtímaáætlanagerð og árlega fjárhagsáætlunargerð eru studd gegnum skjal fjárhagsáætlunargerðar. Fjárhagsáætlunarskjöl eru vel samþætt við Microsoft Excel. Notendur geta skilgreint ótakmarkaðar peningalegar og magnbundnar aðstæður og geta einnig skilgreint stigveldi fyrirtækis fjárhagsáætlunar til að styðja bæði fjárhagsáætlunaraðferðir að ofan og niður eða að neðan og upp. Þegar fjárhagsáætlun hefur verið búin til og samþykkt í forritinu er henni breytt yfir í færslu í fjárhagsáætlunarskrá. Færslur í fjárhagsáætlunarskrá veita verkfæri til að viðhalda fjárhagsáætluninni og til að halda upphæðum rekjanlegum gegnum fjárhagsáætlunarkóða. Færslur í fjárhagsáætlunarskrá gera kleift að endurskoða upphaflegar fjárhagsáætlanir og yfirfæra upphæðir fjárhagsáætlunar frá fyrra ári. Samkvæmt gerðri fjárhagsáætlun getur fyrirtæki virkjað fjárhagsáætlunarstýringu. Stig stýringar fer eftir fyrirtækjamenningu og aldri fyrirtækisins. Nýlegri fyrirtæki gætu látið áætlunina vera „eins og hún er“ og sýnt frekar viðbrögð en gagnvirkni þegar áætlun uppfyllir ekki væntingar. Önnur fyrirtæki gætu virkjað reglur fjárhagsáætlunarstýringar sem koma í veg fyrir að notendur kaupi inn ef fjármagn fjárhagsáætlunar er ekki tiltækt.
 
-Að lokum gætu eldri fyrirtæki komið á fót fyrirtækjamenningu þar sem starfsmenn fá fræðslu um skipulagsmarkmið og fylgja þeim markmiðum með reglum eins og „íhuga fund á netinu í stað þess að ferðast.“ Forritið býr yfir fjárhagsáætlunarstýringarramma sem leyfir stjórnendum fyrirtækisins að velja um annaðhvort harða stjórn (sem kemur í veg fyrir bókanir sem myndu fara fram úr fjárhagsáætlun) eða mjúka stjórn (þar sem notendur eru varaðir við því að þeir muni fara fram úr fyrirliggjandi fjármagni fjárhagsáætlunar en geta sjálfir ákveðið hvernig á að halda áfram). Að lokum er hægt að nota hlaupandi spár. Hlaupandi spá er venjulegur samanburður á fjárhagsáætlun við það sem er í raun og er notuð til að skilgreina hversu vel fyrirtækið er rekið í samræmi við fjárhagsáætlun. Hlaupandi spá er einnig notuð til að auðkenna þróun. Í Finance and Operations eru hlaupandi spár studdar gegnum skjal fjárhagsáætlunargerðar sem fyrstu verkþættir fjárhagsáætlunargerðar. Hlaupandi spár er hægt að gera samhliða áætlun fyrir væntanlegt ferli fjárhagsáætlunar.
+Að lokum gætu eldri fyrirtæki komið á fót fyrirtækjamenningu þar sem starfsmenn fá fræðslu um skipulagsmarkmið og fylgja þeim markmiðum með reglum eins og „íhuga fund á netinu í stað þess að ferðast.“ Forritið býr yfir fjárhagsáætlunarstýringarramma sem leyfir stjórnendum fyrirtækisins að velja um annaðhvort harða stjórn (sem kemur í veg fyrir bókanir sem myndu fara fram úr fjárhagsáætlun) eða mjúka stjórn (þar sem notendur eru varaðir við því að þeir muni fara fram úr fyrirliggjandi fjármagni fjárhagsáætlunar en geta sjálfir ákveðið hvernig á að halda áfram). Að lokum er hægt að nota hlaupandi spár. Hlaupandi spá er venjulegur samanburður á fjárhagsáætlun við það sem er í raun og er notuð til að skilgreina hversu vel fyrirtækið er rekið í samræmi við fjárhagsáætlun. Hlaupandi spá er einnig notuð til að auðkenna þróun. Í fjármálum og rekstri eru hlaupandi spár studdar, í gegnum fjárhagsáætlunarskjal, sem upphafleg áætlanagerð. Hlaupandi spár er hægt að gera samhliða áætlun fyrir væntanlegt ferli fjárhagsáætlunar.
 
 -   [Yfirlit fjárhagsáætlunar](basic-budgeting-overview-configuration.md)
 -   [Yfirlit fjárhagsáætlunarstýringar](budget-control-overview-configuration.md)
@@ -72,3 +72,4 @@ Til dæmis er hægt að skilgreina hver gerir fjárhagsáætlun, hvað er áætl
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

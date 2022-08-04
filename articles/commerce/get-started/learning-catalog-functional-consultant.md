@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ed6f53d79e273ecc938ee8bd1a8c0990e60bc997
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 654ea18b3cb22bbdfad061f38653f654cef83bdc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883965"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066515"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-functional-consultants"></a>Námslisti fyrir hagnýta ráðgjafa Dynamics 365 Commerce
 
@@ -27,7 +27,7 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 
 Fyrir starfhæfa ráðgjafa sýndu rannsóknir okkar á verkefnavinnu að allir verða að skilja grunninntakið sem og sviðssvið.
 
-Fyrir þjálfun um eiginleika sem deilt er með öðrum Finance and Operations forritum, sjáðu [Dynamics 365 Finance Learning Catalogue](../../finance/get-started/learning-catalog-functional-consultant.md).
+Fyrir þjálfun um eiginleika sem deilt er með öðrum fjármála- og rekstrarforritum, sjáðu [Dynamics 365 Finance Learning Catalogue](../../finance/get-started/learning-catalog-functional-consultant.md).
 
 ## <a name="get-started"></a>Leiðsögn<a name="get-started"></a>
 
@@ -56,3 +56,4 @@ Fyrir þjálfun um eiginleika sem deilt er með öðrum Finance and Operations f
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

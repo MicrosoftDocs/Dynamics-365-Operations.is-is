@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: bd86d7b55d4185131ed57fce7d31f6cdcf542a50
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0688282c11b1276bfeeffa778558604e6527dd8d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880056"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066907"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-commerce"></a>Námslisti fyrir stjórnendur innleiðingarverka sem vinna með Dynamics 365 Commerce
 
@@ -25,7 +25,7 @@ Ert þú í forsvari fyrir að sjá til þess að framkvæmd fyrirtækisins fari
 
 Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén og frá undirstöðu til fullkomnustu. Ef efni er til á mörgum sniðum látum við þig vita svo þú getir valið það þjálfunarform sem hentar þínum þörfum best.
 
-Fyrir þjálfun um eiginleika sem deilt er með öðrum Finance and Operations forritum, sjáðu [Dynamics 365 Finance Learning Catalogue](../../finance/get-started/learning-catalog-project-manager.md).
+Fyrir þjálfun um eiginleika sem deilt er með öðrum fjármála- og rekstrarforritum, sjáðu [Dynamics 365 Finance Learning Catalogue](../../finance/get-started/learning-catalog-project-manager.md).
 
 ## <a name="get-started"></a>Leiðsögn<a name="get-started"></a>
 
@@ -37,3 +37,4 @@ Fyrir þjálfun um eiginleika sem deilt er með öðrum Finance and Operations f
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

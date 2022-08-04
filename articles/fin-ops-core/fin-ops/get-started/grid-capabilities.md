@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5259e1d7d6c95074337164d8427d7f035e00dbd9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 07791afb2de670a5b9b910e441395c2949460394
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890059"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124711"
 ---
 # <a name="grid-capabilities"></a>Eiginleikar hnitanets
 
@@ -30,15 +30,15 @@ Nýja netstýringin veitir fjölda gagnlegra og öflugra eiginleika sem hægt er
 - Vélritun á undan kerfinu
 - Mat á stærðfræðisegðum 
 - Flokkun gagna í töfluformi (virkjað sérstaklega með því að nota **Flokkun í rist** eiginleiki)
-- Frysting dálka (virkjað sérstaklega með því að nota **Frysting dálka í ristum** eiginleiki)
+- Frysting dálka (virkjað sérstaklega með því að nota **Frysta súlur í ristum** eiginleiki)
 - Aðlaga dálkbreidd sjálfkrafa
 - Teygjanlegir dálkar
 
 ## <a name="calculating-totals"></a>Reiknar samtölur
-Í Finance and Operations forritum hafa notendur möguleika á að sjá heildartölur neðst í tölulegum dálkum í ristum. Neðanmálshluti neðst í hnitanetinu sýnir þessar samtölur. 
+Í fjármála- og rekstrarforritum hafa notendur möguleika á að sjá heildartölur neðst í tölulegum dálkum í ristum. Neðanmálshluti neðst í hnitanetinu sýnir þessar samtölur. 
 
 ### <a name="showing-the-grid-footer"></a>Sýni síðufót hnitanetsins
-Það er fótsvæði neðst á hverju töfluneti í Finance and Operations forritum. Neðanmálið getur sýnt mikilvægar upplýsingar sem tengjast gögnum sem birtast í reitunum. Hér eru nokkur dæmi um þessar upplýsingar:
+Það er fótsvæði neðst á hverju töfluneti í fjármála- og rekstraröppum. Neðanmálið getur sýnt mikilvægar upplýsingar sem tengjast gögnum sem birtast í reitunum. Hér eru nokkur dæmi um þessar upplýsingar:
 
 - Fjöldi valdra lína í töflunni (þegar fleiri en ein skrá er valin)
 - Stórt heildartölur neðst í samstilltu töludálkunum
@@ -69,7 +69,7 @@ Ef þú gerir mistök og vilt ekki lengur sjá samtals í tilteknum dálki, hæg
 Ef útreikningurinn tekur langan tíma að klára geturðu hætt við aðgerðina með því að velja **Hætta við** takki. Stundum verður gagnasafnið of stórt til að reikna út heildartölur (takmörk sett af fyrirtækinu þínu) og þú færð í staðinn tilkynningu um að sía gögnin þín meira. 
 
 > [!NOTE]
-> Kerfisstjórnendur geta breytt takmörkunum fyrir fjölda skráa sem eru tiltækar til að reikna út heildartölur með því að breyta **Hámarksfjöldi staðbundinna gagna fyrir hvert rist** breytu á **Frammistöðuvalkostir viðskiptavina** síðu. Sjálfgefið gildi er 25.000 færslur. Stjórnendur ættu að vera varkár þegar þeir stilla þetta gildi vegna þess að gildi sem er of stórt getur tæmt tiltækt minni á vél notandans. Ráðlagt er að ekki sé meira en 50.000 skrár.   
+> Kerfisstjórnendur geta breytt takmörkunum fyrir fjölda skráa sem eru tiltækar til að reikna út heildartölur með því að breyta **Hámarksfjöldi staðbundinna gagna fyrir hvert rist** breytu á **Frammistöðuvalkostir viðskiptavina** síðu. Sjálfgefið gildi er 25.000 færslur. Stjórnendur ættu að vera varkárir þegar þeir stilla þetta gildi vegna þess að gildi sem er of stórt getur tæmt tiltækt minni á vél notandans. Ráðlagt er að ekki sé meira en 50.000 skrár.   
 
 Heildartölur munu uppfærast sjálfkrafa þegar þú uppfærir, eyðir eða býrð til línur í gagnapakkanum.
 
@@ -86,7 +86,7 @@ Til að styðja við þessa nýju hegðun hefur nýjum dálki fyrir línustöðu
 Þegar notendur eru að slá inn gögn á undan þeim stað þar sem netþjónninn er að vinna, mega þeir búist við afkastaminnkun við gagnaskráninguna, t.d. færri uppflettingar, staðfestingar eftirlitsstigs og færslna á sjálfgefnum gildum. Notendur sem þurfa fellilista til að finna gildi eru hvattir til að bíða eftir að þjónninn vinni sig að núverandi línu. Staðfesting eftirlitsstigs og færsla sjálfgefinna gilda gerast einnig netþjónninn vinnur úr þeirri línu.
 
 ### <a name="pasting-from-excel"></a>Líma úr Excel
-Notendur hafa alltaf getað flutt gögn úr netum í Finance and Operations öppum til Microsoft Excel með því að nota **Flytja út í Excel** vélbúnaður. Hins vegar, möguleikinn á að slá inn gögn á undan kerfinu gerir nýja hnitanetinu kleift að styðja við að afrita töflur úr Excel og líma þær beint inn í töflurnar í Finance and Operations öppum. Hólfið í hnitanetinu þar sem límingaraðgerðin hefst ákvarðar hvar líming á afritaðri töflu hefst. Efni afrituðu töflunnar skrifar yfir efni hnitanetsins, fyrir utan tvö tilfelli:
+Notendur hafa alltaf getað flutt gögn úr netum í fjármála- og rekstraröppum til Microsoft Excel með því að nota **Flytja út í Excel** vélbúnaður. Hins vegar, möguleikinn á að slá inn gögn á undan kerfinu gerir nýja ristinni kleift að styðja afritun töflur úr Excel og líma þær beint inn í töflur í fjármála- og rekstraröppum. Hólfið í hnitanetinu þar sem límingaraðgerðin hefst ákvarðar hvar líming á afritaðri töflu hefst. Efni afrituðu töflunnar skrifar yfir efni hnitanetsins, fyrir utan tvö tilfelli:
 
 - Ef fjöldi dálka í afrituðu töflunni er meiri en fjöldi dálka sem eru eftir í hnitanetinu, þar sem staðsetning límingar hefst, er notandanum tilkynnt að aukadálkarnir hafi verið hunsaðir. 
 - Ef fjöldi lína í afrituðu töflunni er meiri en fjöldi lína í hnitanetinu, þar sem staðsetning límingar hefst, skrifar límda efnið yfir núverandi hólf, og allar aukalínur í afrituðu töflunni eru settar inn sem nýjar línur neðst í hnitanetinu. 
@@ -97,7 +97,7 @@ Sem framleiðniörvun geta notendur slegið inn stærðfræðiformúlur í tölu
 Til að gera kerfið að viðurkenna gildi sem tjáningu, byrjaðu gildið með jöfnu merki (**=**). Nánari upplýsingar um rekstraraðila sem studd er og setningafræði, sjá [Studd stærðfræðitákn](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Flokkun töflugagna
-Notendur fyrirtækja þurfa oft að framkvæma sértækar greiningar á gögnum. Þó að þetta sé hægt að gera með því að flytja út gögn til Microsoft Excel og með því að nota pivot töflur, the **Flokkun í ristum** eiginleiki, sem er háður nýju netstýringareiginleikanum, gerir notendum kleift að skipuleggja töflugögn sín á áhugaverðan hátt innan fjármála- og rekstrarappa. Vegna þess að þessi eiginleiki víkkar eiginleikann **Samtölur**, gerir **Flokkun** þér kleift að fá auðskiljanlegri innsýn í gögnin með því að gefa upp millisamtölur á hópstigi.
+Notendur fyrirtækja þurfa oft að framkvæma sértækar greiningar á gögnum. Þó að þetta sé hægt að gera með því að flytja út gögn til Microsoft Excel og með því að nota pivot töflur, the **Flokkun í rist** eiginleiki, sem er háður nýju netstýringareiginleikanum, gerir notendum kleift að skipuleggja töflugögn sín á áhugaverðan hátt innan fjármála- og rekstrarforrita. Vegna þess að þessi eiginleiki víkkar eiginleikann **Samtölur**, gerir **Flokkun** þér kleift að fá auðskiljanlegri innsýn í gögnin með því að gefa upp millisamtölur á hópstigi.
 
 Til að nota þennan eiginleika skal hægrismella á dálkinn sem á að flokka eftir, og velja **Flokka eftir þessum dálki**. Þessi aðgerð mun raða gögnum eftir völdum dálki, bæta við nýjum **Flokki eftir** dálki við upphaf hnitanetsins og setja inn „hauslínur“ í upphafi hvers hóps. Þessar hausraðir veita eftirfarandi upplýsingar um hvern hóp:
 
@@ -131,7 +131,7 @@ Fyrsta flokkun gagna verður með alla hópa útvíkkaða. Hægt er að búa til
 Við flokkun gagna er sjálfgefið að hegðun sýni dálkheiti í hauslínu hóps. Hægt er að fela dálkheitið í hauslínu hóps með því að velja **Valkostir hnitanets** > **Fela dálkheiti hóps**.
 
 ### <a name="grouping-on-date-and-time-columns"></a>Flokkun á dálkum dagsetningar og tíma
-Frá og með útgáfu 10.0.24, fyrir Date eða DateTime reiti, hefur valkostinum verið bætt við hóp eftir árum, mánuði eða degi. Hópurinn "gildi" í samsvarandi hauslínu mun passa við sniðið úr þeim reit. Að auki, fyrir DateTime og Time reiti, geturðu flokkað eftir klukkustund, mínútu eða sekúndu. 
+Frá og með útgáfu 10.0.24, fyrir Date eða DateTime reiti, hefur valmöguleikinn verið bætt við hóp eftir árum, mánuði eða degi. Hópurinn „gildi“ í samsvarandi hauslínu mun passa við sniðið úr þeim reit. Að auki, fyrir DateTime og Time reiti, geturðu flokkað eftir klukkustund, mínútu eða sekúndu. 
 
 ## <a name="freezing-columns"></a>Dálkar frystir
 Sumir dálkar í hnitaneti gætu reynst það mikilvægir fyrir samhengi þannig að þú vilt ekki að þeir hverfi úr augsýn við flettingu. Þess í stað gætirðu viljað að gildin í þessum dálkum séu alltaf sýnileg. The **Frysting dálka í rist** eiginleiki veitir notendum þennan sveigjanleika. 
@@ -157,7 +157,7 @@ Ef fyrirtækið uppgötvar síðu sem á í vandræðum með að nota nýja hnit
 
 ```this.forceLegacyGrid();```
 
-Þetta API verður virt þar til nýja netstýringin verður lögboðin. Þessari breytingu er nú stefnt að október 2022. Ef einhver vandamál krefjast þess að þetta API sé notað skal tilkynna um þau til Microsoft.
+Þetta API verður virt þar til nýja netstýringin verður lögboðin. Nú er stefnt að þeirri breytingu í október 2022. Ef einhver vandamál krefjast þess að þetta API sé notað skal tilkynna um þau til Microsoft.
 
 ### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Að þvinga síðu til að nota nýja netið eftir að hafa áður afþakkað netið
 Ef þú hefur valið að nota ekki einstaka síðu á nýja netinu gætirðu viljað virkja nýja netið aftur síðar eftir að undirliggjandi vandamál hafa verið leyst. Til að gera þetta þarftu einfaldlega að fjarlægja kallið við `forceLegacyGrid()`. Breytingin tekur ekki gildi fyrr en eitt af eftirfarandi gerist:
@@ -165,10 +165,10 @@ Ef þú hefur valið að nota ekki einstaka síðu á nýja netinu gætirðu vil
 - **Endurvirkjun umhverfis**: Þegar umhverfi er uppfært og virkað að nýju er taflan sem geymir síðurnar sem hafa verið valdar úr nýja netinu sjálfkrafa hreinsuð út (FormControlReactGridState).
 - **Handvirk hreinsun töflunnar**: Fyrir þróunaraðstæður þarftu að nota SQL til að hreinsa FormControlReactGridState töfluna og endurræsa síðan AOS. Þessi samsetning aðgerða mun endurstilla skyndiminni síðna sem hafa afþakkað nýja hnitið.
 
-## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Hönnuður] Afþakka einstök töflur úr vélritun á undan kerfisgetu
-Sumar aðstæður hafa komið upp sem henta ekki til að vinna vel með *Vélritun á undan kerfinu* getu netsins. (Til dæmis, einhver kóði sem er ræstur þegar röð er staðfest veldur því að gagnauppspretturannsókn fer af stað og rannsóknin getur síðan spillt óskuldbundnum breytingum á núverandi línum.) Ef fyrirtækið þitt uppgötvar slíka atburðarás er API tiltækt sem gerir þróunaraðili afþakkar ósamstillt raðprófun á einstaklingsneti og snýr aftur til eldri hegðunar.
+## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Hönnuður] Að taka einstök rist út úr vélritun á undan kerfisgetu
+Sumar aðstæður hafa komið upp sem henta ekki til að vinna vel með *Að slá á undan kerfinu* getu netsins. (Til dæmis, einhver kóði sem er ræstur þegar röð er staðfest veldur því að gagnauppspretturannsókn fer af stað og rannsóknin getur síðan spillt óbundnum breytingum á núverandi línum.) Ef fyrirtækið þitt uppgötvar slíka atburðarás er API tiltækt sem gerir þróunaraðili afþakkar einstaka töflu úr ósamstilltri röðarstaðfestingu og snýr aftur til eldri hegðunar.
 
-Þegar ósamstilltur röð sannprófun er óvirkur í hnitaneti, geta notendur ekki búið til nýja línu eða farið í aðra núverandi línu í hnitanetinu á meðan það eru löggildingarvandamál í núverandi línu. Sem fylgifiskur þessarar aðgerðar er ekki hægt að líma töflur úr Excel inn í Finance and Operations töflurnar.
+Þegar ósamstilltur röð sannprófun er óvirkur í hnitaneti geta notendur ekki búið til nýja línu eða fært í aðra núverandi línu í hnitanetinu á meðan það eru löggildingarvandamál í núverandi línu. Sem fylgifiskur þessarar aðgerðar er ekki hægt að líma töflur úr Excel inn í fjármála- og rekstrarnet.
 
 Til að afþakka einstaka töflu úr ósamstilltri röð staðfestingu skaltu bæta við eftirfarandi símtali á eftir`super()` í`run()` aðferð formsins.
 
@@ -200,3 +200,4 @@ Ef þróunaraðili stillir eiginleikann **WidthMode** á **SizeToAvailable** fyr
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

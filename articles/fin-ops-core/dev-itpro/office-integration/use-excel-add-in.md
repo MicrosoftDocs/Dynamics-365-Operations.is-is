@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 388be651164af622dbabd7b2c7b3437233454bea
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862156"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108602"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Skoða og uppfæra einingagögn með Excel 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8862156"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-Þessi grein útskýrir hvernig á að opna einingargögn í Microsoft Excel, og síðan skoða, uppfæra og breyta gögnunum með því að nota Microsoft Dynamics Excel viðbót. Til að opna einingargögn geturðu byrjað annað hvort í Excel eða Finance and Operations forritum.
+Þessi grein útskýrir hvernig á að opna einingargögn í Microsoft Excel, og síðan skoða, uppfæra og breyta gögnunum með því að nota Microsoft Dynamics Excel viðbót. Til að opna einingargögn geturðu byrjað annað hvort í Excel eða fjármála- og rekstrarforritum.
 
 Með því að opna einingagögn í Excel er hægt að skoða og breyta gögnum með því að nota innbót fyrir Excel. Þessi innbót þarf Microsoft Excel 2016 eða nýrra.
 
@@ -40,15 +40,15 @@ Með því að opna einingagögn í Excel er hægt að skoða og breyta gögnum 
 
 Til að fá frekari upplýsingar um hvernig á að nota Excel-innbótina skal horfa á stutt myndband: [Stofna Excel-sniðmát fyrir haus- og línumynstur](https://youtu.be/RTicLb-6dbI).
 
-## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Opnaðu einingargögn í Excel þegar þú byrjar úr Finance and Operations app
-1. Veldu á síðu í Finance and Operations app **Opið í Microsoft Office**.
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Opnaðu einingargögn í Excel þegar þú byrjar úr fjármála- og rekstrarappi
+1. Á síðu í fjármála- og rekstrarforriti skaltu velja **Opið í Microsoft Office**.
 
     Ef rótargagnagjafi (tafla) fyrir listasíðu er sá sami og rótargagnagjafi fyrir allar einingar eru sjálfgefnir valkostir **Opna í Excel** myndaðir fyrir síðuna. Valkostina **Opna í Excel** má finna á algengum síðum, eins og **Allir lánardrottnar** og **Allir viðskiptavinir**.
  
 2. Veljið **Opna í Excel** og opnið vinnubókina sem er mynduð. Þessi vinnubók hefur bindingarupplýsingar fyrir einingu, bendilinn í umhverfinu og bendilinn í Excel-innbót.
 3. Í Excel, veljið **Virkja breytingar** til að virkja Excel-innbót til að keyra. Í Excel-innbót keyrir í rúða hægra megin í Excel-glugga.
 4. Ef verið er að keyra í Excel-innbót í fyrsta sinn, er valið **Treysta þessari innbót**.
-5. Ef þú ert beðinn um að skrá þig inn skaltu velja **skrá inn**, og skráðu þig síðan inn með því að nota sömu skilríki og þú notaðir til að skrá þig inn á Finance and Operations appið. Excel-innbót mun nota samhengi fyrri innskráningar úr vafra og skrá þig sjálfkrafa inn, ef það er hægt. (Fyrir upplýsingar um vafrann sem er notaður miðað við stýrikerfið, sjá [Vafrar notaðir af Office viðbótum](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) . Til að tryggja að innskráning hafi tekist, staðfestu notandanafnið í efra hægra horninu á Excel viðbótinni. 
+5. Ef þú ert beðinn um að skrá þig inn skaltu velja **skrá inn**, og skráðu þig síðan inn með því að nota sömu skilríki og þú notaðir til að skrá þig inn í fjármála- og rekstrarappið. Excel-innbót mun nota samhengi fyrri innskráningar úr vafra og skrá þig sjálfkrafa inn, ef það er hægt. (Fyrir upplýsingar um vafrann sem er notaður miðað við stýrikerfið, sjá [Vafrar notaðir af Office viðbótum](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) . Til að tryggja að innskráning hafi tekist, staðfestu notandanafnið í efra hægra horninu á Excel viðbótinni. 
 
 Excel-innbót les sjálfkrafa gögn fyrir eininguna sem er valin. Athugið að það verða engin gögn í vinnubókinni fyrr en Excel-innbót les þau inn.
 
@@ -57,7 +57,7 @@ Excel-innbót les sjálfkrafa gögn fyrir eininguna sem er valin. Athugið að �
 2. Í Office-Verslun er leitað með í leitað með lykilorðinu **Dynamics** og svo valið **Bæta við** við hliðina á **Microsoft Dynamics Office-innbót** (Excel innbótin).
 3. Ef verið er að keyra í Excel-innbót í fyrsta sinn, er valið **Treysta þessari innbót**. Í Excel-innbót keyrir í rúða hægra megin í Excel-glugga.
 4. Veljið **Bæta þjónsupplýsingar** til að opna rúðuna **Valkostir**.
-5. Í vafranum þínum skaltu afrita vefslóðina á tilvikinu þínu fyrir Finance and Operations appið þitt, límdu það inn í **Vefslóð netþjóns** reit og eyddu síðan öllu á eftir hýsilnafninu. Meðfylgjandi Vefslóð ætti aðeins að hafa bara hýsilheiti.
+5. Í vafranum þínum skaltu afrita slóðina á tilvikinu þínu fyrir fjármála- og rekstrarforritið þitt, límdu það inn í **Vefslóð netþjóns** reit og eyddu síðan öllu á eftir hýsilnafninu. Meðfylgjandi Vefslóð ætti aðeins að hafa bara hýsilheiti.
 
     Ef slóðin er t.d. `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage` skal eyða öllu nema `https://xxx.dynamics.com`.
 
@@ -76,7 +76,7 @@ Excel-innbót les sjálfkrafa gögn fyrir eininguna sem er valin. Athugið að �
 Eftir að Excel-innbót les gögn um einingar inn í vinnubókina, er hægt að uppfæra gögnin hvenær sem er með því að velja **Endurnýja** í Excel-innbót.
 
 ## <a name="edit-entity-data-in-excel"></a>Breyta einingagögnum í Excel
-Þú getur breytt einingagögnum eins og þú þarfnast og birt þau síðan aftur í Finance and Operations forrit með því að velja **Birta** í Excel viðbótinni. Til að breyta færslu, skal velja hólf í vinnublaðinu og breyta síðan gildi hólfsins. Til að bæta við nýrri færslu, skal fylgja einu af eftirfarandi skrefum:
+Þú getur breytt einingargögnum eins og þú þarfnast og birt þau síðan aftur í fjármála- og rekstrarforrit með því að velja **Birta** í Excel viðbótinni. Til að breyta færslu, skal velja hólf í vinnublaðinu og breyta síðan gildi hólfsins. Til að bæta við nýrri færslu, skal fylgja einu af eftirfarandi skrefum:
 
 - Smellið einhvers staðar í gagnagjafatöflunni, og velja svo **Nýtt** í Excel-innbót.
 - Smellið hvar sem er í síðustu línu í gagnagjafatöflunni og ýttu síðan á flipalykil þar til að bendillinn fer út úr síðasta dálki þeirrar línu og ný lína er stofnuð.
@@ -146,3 +146,4 @@ Gögnin sem eru lesin inn í vinnubókina úr einu umhverfi er hægt að afrita 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

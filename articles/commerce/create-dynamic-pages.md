@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.openlocfilehash: e2b13403ffb316059476a03857c849b4f9f8cb9c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83e20d9fc655a474a11521ec61d0b64d30603181
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884664"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9169131"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Þessi grein lýsir því hvernig á að setja upp a Microsoft Dynamics 365 Commerce Netverslunarsíða sem getur þjónað kraftmiklu efni, byggt á breytum vefslóða.
 
@@ -57,7 +56,7 @@ Til að skilgreina leiðina á gagnvirka síðu í Commerce-vefsmið skal fylgja
 1. Undir **Færibreytustilltar vefslóðir** skal velja **Bæta við** og síðan færa inn vefslóðina sem slegin var inn þegar vefslóðin var búin til (í þessu dæmi **/blog**).
 1. Veljið **Vista og birta**.
 
-Þegar leiðin er skilgreind munu allar beiðnir til færibreytustilltu vefslóðarinnar skila síðunni sem tengist þeirri vefslóð. Ef einhver beiðni inniheldur viðbótarhluta verður tengdri síðu skilað og efni síðunnar verður sótt með því að nota hlutann sem færibreytu. Til dæmis,`https://fabrikam.com/blog/article-1` mun skila`https://fabrikam.com/blog` síða sem sýnir efnið sem það sótti með því að nota **/grein-1** breytu.
+Þegar leiðin er skilgreind munu allar beiðnir til færibreytustilltu vefslóðarinnar skila síðunni sem tengist þeirri vefslóð. Ef einhver beiðni inniheldur viðbótarhluta verður tengdri síðu skilað og efni síðunnar verður sótt með því að nota hlutann sem færibreytu. Til dæmis,`https://fabrikam.com/blog/article-1` mun skila`https://fabrikam.com/blog` síðu sem sýnir efnið sem það sótti með því að nota **/grein-1** breytu.
 
 ## <a name="override-a-parameterized-url-with-a-custom-page"></a>Hnekkja færibreytustilltri vefslóð með sérsniðinni síðu
 

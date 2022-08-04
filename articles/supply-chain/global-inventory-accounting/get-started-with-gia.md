@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
-ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
+ms.openlocfilehash: 463a66002ec7a6536c9ff829f9ea2c3734138eae
+ms.sourcegitcommit: 6221a25f81aa83ab335de7cb6b6c3014dbec0116
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013556"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177149"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Hafist handa með altækt birgðabókhald
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 Altækt birgðabókhald gerir kleift að nota meira en eitt birgðabókhald í fjárhagsbókum altæks birgðabókhalds sem búið er að setja upp. Tengja verður hvern fjárhag altæks birgðabókhalds við *viðtekna reglu*. Regla er safn af eftirfarandi gerðum reikningsskilaaðferða:
 
@@ -69,28 +67,34 @@ Leyfisveiting altæks birgðabókhalds fer saman við hefðbundna eiginleika bir
 
 Frekari upplýsingar er að finna í [Virkja að lokinni uppsetningu umhverfis](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-## <a name="install-the-add-in"></a><a name="install"></a>Setja upp innbótina
+## <a name="install-or-update-the-add-in-and-solution"></a><a name="install"></a> Settu upp eða uppfærðu viðbótina og lausnina
 
-Fylgið þessum skrefum til að setja upp innbótina þannig að hægt sé að nota altækt birgðabókhald.
+Notaðu eftirfarandi aðferð til að setja upp eða uppfæra viðbótina og lausnina fyrir alþjóðlegt birgðabókhald. Hluti málsmeðferðarinnar sem þú ættir að fylgja fer eftir því hvort þú ert að setja upp í fyrsta skipti eða þarft bara að uppfæra lausnina fyrir núverandi uppsetningu.
+
+- Ef þú hefur aldrei sett viðbótina upp áður skaltu fylgja öllu ferlinu til að setja upp bæði viðbótina og lausnina.
+- Ef þú ert nú þegar að nota alþjóðlegt birgðabókhald en þarft að uppfæra lausnina í [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com), gerðu síðan aðeins skref 6 og slepptu öllum hinum skrefunum.
+
+Til að setja upp eða uppfæra viðbótina og lausnina:
 
 1. Skráðu þig inn í [LCS](https://lcs.dynamics.com/Logon/Index).
 1. Opnaðu LCS-umhverfi þar sem þú vilt bæta við þjónustunni.
 1. Farðu í **Fullar upplýsingar**.
-1. Farið í **Power Platform samþætting** og veljið **Uppsetning**.
+1. Fara til **Power Platform Samþætting** og veldu **Uppsetning**.
 1. Í svarglugganum **Uppsetning á umhverfi Power Platform** er gátreiturinn valinn og síðan **Uppsetning**. Venjulega tekur uppsetningin á milli 60 og 90 mínútur.
-1. Eftir uppsetningu á Microsoft Power Platform umhverfi er lokið, skráðu þig inn á [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com) og settu síðan upp Global Inventory Accounting viðbótina með því að gera eftirfarandi skref:
-   1. Veldu umhverfið þar sem þú vilt setja viðbótina upp.
+1. Eftir Microsoft Power Platform uppsetningu umhverfisins er lokið, skráðu þig inn á [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com) og settu síðan upp eða uppfærðu alþjóðlegu birgðabókhaldslausnina með því að gera eftirfarandi skref:
+   1. Veldu umhverfið þar sem þú vilt setja upp eða uppfæra lausnina.
    1. Veldu **Dynamics 365 forrit**.
    1. Veldu **Settu upp app**.
    1. Veldu **Dynamics 365 Alþjóðlegt birgðabókhald**.
    1. Veldu **Næst** að setja upp.
-1. Farðu aftur í LCS umhverfi. Í flýtiflipanum **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
+1. Eftir að lausnin er alveg uppsett skaltu fara aftur í LCS umhverfið. Í flýtiflipanum **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
 1. Veljið **Altækt birgðabókhald**.
 1. Fylgdu uppsetningarleiðbeiningunum og samþykktu skilmála og skilyrði.
 1. Velja **Setja upp**.
 1. Í flýtiflipanum **Innbætur umhverfis** ættir þú að sjá að verið er að setja upp altækt birgðabókhald. Eftir nokkrar mínútur ætti staðan að breytast úr *Setur upp* í *Uppsett*. (Hugsanlega verður þú að endurhlaða síðuna til að breytingin komi í ljós). Á þeim tímapunkti er altækt birgðabókhald tilbúið til notkunar.
 
 Ef sjálfgefið tungumál þitt Dataverse uppsetning er ekki enska, fylgdu þessum skrefum:
+
 1. Farið í **Ítarleg stilling \> Stjórnun \> Tungumál**.
 1. Veljið *Enska* (*LanguageCode=1033*) og síðan **Nota**.
 

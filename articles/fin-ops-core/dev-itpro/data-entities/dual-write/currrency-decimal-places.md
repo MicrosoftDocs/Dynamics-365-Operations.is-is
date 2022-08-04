@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 809906c3926b200e7beac84e780314aec1f8c2ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 85b3a45c054144e414aebb28b3d8080ab295f52f
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855588"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112275"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif
 
@@ -29,7 +29,7 @@ Leiðin til að breyta fjölda aukastafa felur í sér tvö skref:
 1. Biðja um flutning frá Microsoft.
 2. Breyta fjölda aukastafa í Dataverse.
 
-The Finance and Operations appið og Dataverse verður að styðja sama fjölda aukastafa í gjaldmiðilsgildum. Annars getur gagnatap orðið þegar þessar upplýsingar eru samstilltar milli forrita. Flutningsferlið endurstillir hvernig gildi gjaldmiðils og gengis eru vistuð en það breytir ekki neinum gögnum. Þegar flutningnum er lokið eru fjölda aukastafa fyrir gjaldmiðilskóða og verðlagningu fjölgað og gögnin sem notendur slá inn og skoða eru með meiri nákvæmni.
+Fjármála- og rekstrarappið og Dataverse verður að styðja sama fjölda aukastafa í gjaldmiðilsgildum. Annars getur gagnatap orðið þegar þessar upplýsingar eru samstilltar milli forrita. Flutningsferlið endurstillir hvernig gildi gjaldmiðils og gengis eru vistuð en það breytir ekki neinum gögnum. Þegar flutningnum er lokið eru fjölda aukastafa fyrir gjaldmiðilskóða og verðlagningu fjölgað og gögnin sem notendur slá inn og skoða eru með meiri nákvæmni.
 
 Flutningur er valfrjáls. Ef þú gætir notið góðs af stuðningi fyrir fleiri aukastafi, mælum við með að þú hugleiðir flutning. Fyrirtæki sem ekki þurfa gildi með fleiri en fjórum aukastöfum þurfa ekki að breyta.
 
@@ -37,7 +37,7 @@ Flutningur er valfrjáls. Ef þú gætir notið góðs af stuðningi fyrir fleir
 
 Geymsla fyrir núverandi gjaldmiðilsdálka í Dataverse getur ekki stutt meira en fjóra aukastafi. Í flutningsferlinu eru gildi gjaldmiðla þar af leiðandi afrituð í nýja innri dálka í gagnagrunninum. Þetta ferli heldur samfleytt áfram þar til öll gögn hafa verið flutt. Innan fyrirtækisins, við lok flutnings, taka nýju geymslugerðirnar við af þeim eldri en gagnagildin haldast óbreytt. Gjaldmiðilsdálkarnir geta í kjölfarið stutt allt að 10 aukastafi. Meðan á flutningi stendur, er hægt að halda áfram að nota Dataverse án truflunar.
 
-Á sama tíma er gengi breytt þannig að það styður allt að 12 aukastafi í stað núgildandi hámarks upp á 10. Þessi breyting er nauðsynleg þannig að fjöldi aukastafa sé sá sami í bæði Finance and Operations appinu og Dataverse.
+Á sama tíma er gengi breytt þannig að það styður allt að 12 aukastafi í stað núgildandi hámarks upp á 10. Þessi breyting er nauðsynleg þannig að fjöldi aukastafa sé sá sami í bæði fjármála- og rekstrarappinu og Dataverse.
 
 Flutningur breytir engum gögnum. Þegar dálkum gjaldmiðils og gengis hefur verið breytt, geta stjórnendur stillt kerfið til að nota allt að 10 aukastafi fyrir gjaldmiðilsdálkameð því að tilgreina fjölda aukastafa fyrir hvern gjaldmiðil færslu og fyrir verðlagningu.
 
@@ -97,6 +97,7 @@ Fyrir væntanlega hegðun fyrir sjálfgefna gjaldmiðils aukastafsnákvæmni vi�
 | | Hámarks nákvæmni sýnileg í notendaviðmóti gagnagrunns og DB fyrirspurnarniðurstaðna         | 4 tölustafir   | 10 tölustafir   | Á ekki við    |
 | Gjaldeyrisreitur búinn til eftir smíði 9.2.21111.00146 |    |  |     |   |
 |   | Hámarks nákvæmni tugabrota sýnileg í notendaviðmóti     | 4 tölustafir   | 10 tölustafir   | 10 tölustafir     |
-|          | Hámarks nákvæmni aukastafa sýnileg í notendaviðmóti gagnagrunns og DB fyrirspurnarniðurstaðna | 10 tölustafir. Hins vegar eru aðeins 4 marktækar með öll núll fyrir utan 4 aukastafina. Þetta gerir einfaldari og hraðari flutning á stofnuninni, ef þörf krefur. | 10 tölustafir      | 10 tölustafir     |
+|          | Hámarks nákvæmni tugabrota sýnileg í notendaviðmóti gagnagrunns og DB fyrirspurnarniðurstaðna | 10 tölustafir. Hins vegar eru aðeins 4 marktækar með öll núll fyrir utan 4 aukastafina. Þetta gerir einfaldari og hraðari flutning á stofnuninni, ef þörf krefur. | 10 tölustafir      | 10 tölustafir     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

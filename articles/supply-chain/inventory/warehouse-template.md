@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 737b6f2f645ff270e5a49d54ca7542df3c075f94
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dafd51a46b19f3709963ffc12b3c8c77b6c809ac
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856107"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070440"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss
 
@@ -38,7 +38,7 @@ Skilgreiningarsniðmát geta reynst hjálpleg í margskonar atburðarás. Hér e
 - Þú vilt undirbúa þig skjótt fyrir kynningu á vöruhúsvirkninni.
 - Þú vilt að núverandi vörur og vöruhús noti virknina í Vöruhúsastýringu í staðinn fyrir virknina í Birgðastýringu.
 
-Þessi grein fjallar um fyrstu af þessum atburðarásum. Það sýnir hvernig þú getur notað skilgreiningarsniðmát til að afrita skilgreiningu á uppsetningu frá próf umhverfi yfir í framleiðslu umhverfi.
+Þessi grein fjallar um fyrstu þessara atburðarása. Það sýnir hvernig þú getur notað skilgreiningarsniðmát til að afrita skilgreiningu á uppsetningu frá próf umhverfi yfir í framleiðslu umhverfi.
 
 ## <a name="copy-a-configuration-setup-from-a-test-environment-to-a-production-environment"></a>Afrita skilgreiningu á uppsetningu frá próf umhverfi yfir í framleiðslu umhverfi
 
@@ -90,7 +90,7 @@ Fyrir þessa atburðarás eru skilgreining á uppsetningu fyrir vöruhús og sum
 
 **Yfirlit aðgerða** skráin veitir nákvæmar upplýsingar um hverja gagnaeiningu sem er flutt inn. Þú getur notað sviðsetningargögn yfirlitið til að komast á skömmum tíma að markgögnunum. Þannig geturðu séð hvernig innfluttu gögnin líta út á tengdum síðum í forritinu. Þegar þú notar sjálfgefin gagnasniðmát, virkar innflutningsröðin fyrir hverja gagnaeiningu á fyrirfram ákveðinni hátt, til að tryggja að öll háð gögn séu flutt inn fyrst. Ef sérsniðin gagnaeiningar eru hluti af verkinu, verður þú að ganga úr skugga um að rétta röðin sé skilgreind. Nánari upplýsingar, sjá [Gagnasniðmát skilgreiningar](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
-Til að fræðast betur um hvernig á að nota sniðmát vöruhúss til að afrita skilgreiningar vöruhúss frá einu fyrirtæki til nýs fyrirtækis innan sama tilviks er hægt að horfa á þetta þriggja mínútna myndband á YouTube um [hvernig nota skuli sniðmát vöruhúss til að afrita skilgreininguna í Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Til að læra meira um hvernig á að nota vöruhúsasniðmát til að afrita stillingar vöruhúss frá einu fyrirtæki yfir í nýtt fyrirtæki í sama tilviki, sjáðu þetta 3 mínútna myndband um YouTube um [hvernig á að nota vöruhúsasniðmát til að afrita stillingar fyrir fjármál og rekstur](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-article"></a>Tengd grein
 

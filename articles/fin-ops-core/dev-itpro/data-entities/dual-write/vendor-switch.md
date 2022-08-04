@@ -1,6 +1,6 @@
 ---
 title: Skipta á milli lánardrottnahönnunar
-description: Þessi grein lýsir því hvernig á að skipta um samþættingu lánardrottnagagna á milli Finance and Operations forrita og Dataverse.
+description: Þessi grein lýsir því hvernig á að skipta um samþættingu söluaðilagagna á milli fjármála- og rekstrarforrita og Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 09/20/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 88be9a4c6e2a860e8ac496e9a135ecabd8474c97
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a1b3a6049e7e31e7e5bdcf690a766ecea8dc4b1
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901565"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112335"
 ---
 # <a name="switch-between-vendor-designs"></a>Skipta á milli lánardrottnahönnunar
 

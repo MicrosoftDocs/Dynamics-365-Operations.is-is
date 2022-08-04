@@ -14,17 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d0da71c87364eacf60b9a82a200996292b863b6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692423"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178534"
 ---
 # <a name="copy-an-instance"></a>Afritið tilvik
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Á við um:** Mannauður á sjálfstæðum innviðum_ 
 
+> [!NOTE]
+> Frá og með júní 2022 er aðeins hægt að nota mannauðsumhverfi á innviðum fjármála- og rekstrarappa. Fyrir frekari upplýsingar, sjá [Veiting mannauðs í innviðum fjármála og rekstrar](hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> Fjármála- og rekstrarinnviðir styðja ekki afritunartilviksaðgerð. Þú getur sett upp nýtt umhverfi og notað gagnagrunnshreyfingar til að búa til afrit. Fyrir frekari upplýsingar um sjálfsafgreiðsluupplýsingar, sjá [Yfirlit yfir sjálfsafgreiðslu](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md). Fyrir frekari upplýsingar um gagnagrunnshreyfingar á fjármála- og rekstrarinnviðum, sjá [Heimasíða starfsemi gagnagrunnshreyfinga](../fin-ops-core/dev-itpro/database/dbmovement-operations.md).
 
 Þú getur notað Microsoft Dynamics Lifecycle Services (LCS) til að afrita Microsoft Dynamics 365 Human Resources gagnagrunn í sandkassaumhverfi. Ef þú ert með annað sandkassaumhverfi geturðu einnig afritað gagnagrunninn úr því umhverfi yfir í markviss sandkassaumhverfi.
 
@@ -50,7 +55,7 @@ Eftirfarandi atburðir eiga sér stað þegar þú afritar gagnagrunn Human Reso
 
 - Skjöl í Microsoft Azure Blob geymsla er ekki afrituð úr einu umhverfi í annað. Þar af leiðandi verða öll skjöl og sniðmát sem eru hengd við ekki afrituð og verða áfram í upprunaumhverfinu.
 
-- Allir notendur nema þeir sem eru með „kerfisstjóra“ öryggishlutverkið og aðra aðganga notenda að innri þjónustu verða ekki tiltækir. Stjórnandi getur eytt eða lokað á gögn áður en aðrir notendur eru leyfðir aftur í kerfinu.
+- Allir notendur nema þeir sem eru með „kerfisstjóra“ öryggishlutverkið og aðra aðganga notenda að innri þjónustu verða ekki tiltækir. Admin notandi getur eytt gögnum áður en öðrum notendum er hleypt aftur inn í kerfið.
 
 - Allir notendur með öryggishlutverk „kerfisstjóra“ verða að gera nauðsynlegar breytingar á stillingum, svo sem að endurtengja endapunkta samþættingar við tiltekna þjónustu eða vefslóðir.
 
@@ -67,7 +72,7 @@ Til að ljúka þessu verkefni afritarðu fyrst dæmi og skráir þig síðan in
 
 3. Veldu dæmið sem á að afrita og veldu síðan **Afrita**.
 
-4. Í verkglugganum **Afritaðu dæmi**, veldu dæmið sem á að skrifa yfir og veldu síðan **Afrita**. Bíddu eftir því að gildið í reitnum **Afrita stöðu** sé uppfært í **Lokið**.
+4. Í verkglugganum **Afritaðu dæmi**, veldu dæmið sem á að skrifa yfir og veldu síðan **Afrita**. Bíddu eftir **Afrita stöðu** reit sem á að uppfæra í **Lokið**.
 
    ![[Veldu tilvik til að skrifa yfir.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
@@ -76,6 +81,8 @@ Til að ljúka þessu verkefni afritarðu fyrst dæmi og skráir þig síðan in
    ![[Veldu Power Platform .](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Veldu Power Apps-umhverfið sem á að afrita og veldu síðan **Afrita**.
+
+Fyrir frekari upplýsingar um afritun Power Apps umhverfi, sjá [Afritaðu umhverfi](/power-platform/admin/copy-environment#copy-an-environment-1).
 
 7. Þegar afritunarferlinu er lokið, skráðu þig inn á markstaðinn og virkjaðu samþættinguna Dataverse. Nánari upplýsingar og leiðbeiningar, sjá [Skilgreina samþættingu Dataverse](./hr-admin-integration-common-data-service.md).
 
@@ -115,7 +122,7 @@ Einnig breytast eftirfarandi stöður þegar tilvik er afritað:
 
 ## <a name="environment-admin"></a>Umhverfisstjóri
 
-Öllum notendum í marksandkassaumhverfinu, þar með talið stjórnendum, er skipt út fyrir stjórnendur í upprunaumhverfinu. Vertu viss um að þú sér stjórnandi í upprunaumhverfinu áður en þú afritar dæmi. Ef þú ert það ekki geturðu ekki skráp þig inn í sandkassaumhverfi viðtökustaða eftir að afritun er lokið.
+Öllum notendum í marksandkassaumhverfinu, þar með talið stjórnendum, er skipt út fyrir stjórnendur í upprunaumhverfinu. Vertu viss um að þú sér stjórnandi í upprunaumhverfinu áður en þú afritar dæmi. Ef þú ert það ekki geturðu ekki skráð þig inn í marksandkassaumhverfið eftir að afritinu hefur verið lokið.
 
 Allir notendur sem ekki eru kerfisstjórar í markkassasumhverfinu eru óvirkir til að koma í veg fyrir óæskileg innritun í sandkassaumhverfið. Stjórnendur geta endurtekið notendur ef þörf er á.
 

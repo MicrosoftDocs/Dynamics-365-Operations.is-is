@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8824a42e46d94904f50d3f95b486673c231d9828
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f911c5ee209cfcde5d2b2aef2c8f7343eb694cd3
+ms.sourcegitcommit: 9cfccb5c260ce56a3457f9ea12e80f54ea55a3b4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896823"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183290"
 ---
 # <a name="work-with-fragments"></a>Vinna með brot 
 
@@ -134,7 +134,7 @@ Fylgdu þessum skrefum til að endurnefna núverandi brot í vefsvæðisgerð.
 1. Veldu gátmerkið til að staðfesta nafnbreytinguna.
 1. Veldu **Ljúka við breytingar**.
 
-Þú getur endurnefna brot eftir að það er búið til með því að breyta því og velja síðan pennatáknið við hliðina á brotsheitinu í eignarúðanum.
+Þú getur endurnefna brot eftir að það er búið til með því að breyta því og velja síðan pennatáknið við hliðina á brotsheitinu í eignarúðunni.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -144,7 +144,9 @@ Fylgdu þessum skrefum til að endurnefna núverandi brot í vefsvæðisgerð.
 
 [Vinna með forstillt útlit](work-with-layouts.md)
 
-[Unnið með birta hópa](publish-groups.md)
+[Vinna með birtingarhópa](publish-groups.md)
+
+[Skoðaðu útgáfuferil til að snúa síðum og brotum til baka](version-history-revert.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

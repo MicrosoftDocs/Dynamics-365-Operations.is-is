@@ -1,6 +1,6 @@
 ---
 title: Leysisstefna fyrir afurðarafbrigði
-description: Þessi grein lýsir því hvernig þú getur notað lausnarstefnuna til að bæta frammistöðu vörustillingar.
+description: Þessi grein lýsir því hvernig þú getur notað lausnarstefnuna til að bæta afköst vörustillingar.
 author: t-benebo
 ms.date: 02/19/2019
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76ad64c19fe088ec85fafba4a3276a4d8c23a18c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9b0b53da17bd106be60966d856d29d81a1e57f91
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852361"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065518"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Leysisstefna fyrir afurðarafbrigði
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig þú getur notað lausnarstefnuna til að bæta frammistöðu vörustillingar.
+Þessi grein lýsir því hvernig þú getur notað lausnarstefnuna til að bæta afköst vörustillingar.
 
-Hugmyndin um leysisstefnu var fyrst kynnt í heildaruppfærslu 7 (CU7) for Microsoft Dynamics AX 2012 R2. Hún var útvíkkuð í heildaruppfærslu 8 (CU8) fyrir Microsoft Dynamics AX 2012 R3 og Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.
+Hugmyndin um leysisstefnu var fyrst kynnt í heildaruppfærslu 7 (CU7) for Microsoft Dynamics AX 2012 R2. Það var framlengt í uppsöfnuðum uppfærslu 8 (CU8) fyrir Microsoft Dynamics AX 2012 R3 og fjármála- og rekstrarforrit, Enterprise útgáfa 7.3.
 
 Hugmyndin um leysisstefnuna samanstendur nú af eftirfarandium lausnarmenn samanstendur nú af eftirfarandi aðferðum:
 

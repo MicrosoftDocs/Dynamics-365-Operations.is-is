@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ff074e62489fe74f0c2de6dae0e02d1da7e7f6ae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f34acd78966cc9f26242653e9d0d16fdf22e0b2
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901909"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103831"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Viðskiptavinagátt fyrir Dynamics 365 Supply Chain Management-yfirlit
 
@@ -42,7 +42,7 @@ Sniðmát viðskiptavinagáttar er með alla sérstillingarmöguleika sem gátti
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-The [Yfirlit yfir sniðmát viðskiptavinagáttar í Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) myndbandið (sýnt hér að ofan) er innifalið í [Fjármál og rekstur lagalisti](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) í boði á YouTube.
+The [Yfirlit yfir sniðmát viðskiptavinagáttar í Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) myndbandið (sýnt hér að ofan) er innifalið í [lagalista um fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) fáanleg á YouTube.
 
 ## <a name="who-should-use-it"></a>Hver ætti að nota hana?
 
@@ -62,7 +62,7 @@ Viðskiptavinargátt er gefin upp sem Power Apps gáttasniðmát. Það fer efti
 
 [Power Apps gáttir](/powerapps/maker/portals/overview) er eiginleiki sem gerir notendum kleift að búa til vefsvæði fyrir almenning sem fólk utan fyrirtækisins geta skráð sig inn á. Lítil eða engin kóðun er nauðsynleg til að búa til gáttir. Viðskiptavinagáttin er eitt margra [sniðmáta Dynamics 365-gáttar](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) sem eru í boði hjá Microsoft.
 
-[Tvöfalt skrifa](/powerapps/maker/portals/overview) er innviðavara sem er út úr kassanum sem veitir nánast rauntíma samskipti milli forrita fyrir þátttöku viðskiptavina og fjármála- og rekstrarappa. Dual-write veitir tvíátta samþættingu milli Finance and Operations forrita og Microsoft Dataverse. Þau bjóða þar af leiðandi upp á samþætta notandaupplifun í öllum forritunum. Viðskiptavinagáttin veltur á töflum sem eru samstilltar með tvöföldum skrifum. Áður en hægt er að fara með gögn úr Supply Chain Management í viðskiptavinagáttina verða tvöföld skrif að vera virk fyrir allar viðeigandi töflur.
+[Tvöfalt skrifa](/powerapps/maker/portals/overview) er innviðavara sem er út úr kassanum sem veitir nánast rauntíma samskipti milli forrita fyrir þátttöku viðskiptavina og fjármála- og rekstrarappa. Dual-write veitir tvíátta samþættingu milli fjármála- og rekstrarforrita og Microsoft Dataverse. Þau bjóða þar af leiðandi upp á samþætta notandaupplifun í öllum forritunum. Viðskiptavinagáttin veltur á töflum sem eru samstilltar með tvöföldum skrifum. Áður en hægt er að fara með gögn úr Supply Chain Management í viðskiptavinagáttina verða tvöföld skrif að vera virk fyrir allar viðeigandi töflur.
 
 ![Tengsl viðskiptavinagáttar.](media/customer-portal-elements.png "Tengsl viðskiptavinagáttar")
 

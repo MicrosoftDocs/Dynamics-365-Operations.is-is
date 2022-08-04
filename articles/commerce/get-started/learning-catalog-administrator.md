@@ -12,18 +12,18 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 54a3dfe64d46b082db12ef05b88075831c9f525e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 473977a7a75bb7bbe493225c6455a918ba5f748e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898546"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070789"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Námskrá fyrir stjórnendur Dynamics 365 Commerce
 
 Þarftu að halda kerfum og gögnum í flæði, útveguðum og öruggum allan sólarhringinn?
 
-Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén og frá undirstöðu til fullkomnustu. Ef efni er til á mörgum sniðum látum við þig vita svo þú getir valið það þjálfunarform sem hentar þínum þörfum best. Þessi listi inniheldur aðeins eiginleika sem eiga við um Dynamics 365 Commerce. Fyrir þjálfun um eiginleika sem deilt er með öðrum Finance and Operations forritum, sjáðu [Dynamics 365 Finance Learning Catalogue](../../finance/get-started/learning-catalog-administrator.md).
+Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén og frá undirstöðu til fullkomnustu. Ef efni er til á mörgum sniðum látum við þig vita svo þú getir valið það þjálfunarform sem hentar þínum þörfum best. Þessi listi inniheldur aðeins eiginleika sem eiga við um Dynamics 365 Commerce. Fyrir þjálfun um eiginleika sem deilt er með öðrum fjármála- og rekstrarforritum, sjáðu [Dynamics 365 Finance Learning Catalogue](../../finance/get-started/learning-catalog-administrator.md).
 
 ## <a name="get-started"></a>Leiðsögn<a name="get-started"></a>
 
@@ -49,3 +49,4 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

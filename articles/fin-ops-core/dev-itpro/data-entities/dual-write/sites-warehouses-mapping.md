@@ -1,6 +1,6 @@
 ---
 title: Samþætt svæði og vöruhús
-description: Þessi grein lýsir samþættingu svæðis- og vöruhúsagagna milli Finance and Operations og Dataverse.
+description: Þessi grein lýsir samþættingu vefsvæðis og vöruhúsagagna milli fjármála og rekstrar og Dataverse.
 author: t-benebo
 ms.date: 10/09/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: benebotg
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: cd1293094f670c43eb46bc14b8bfe0f2afe43047
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0e9940000f53119d9eb5a877005ab7a8abac1577
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852599"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111631"
 ---
 # <a name="integrated-sites-and-warehouses"></a>Samþætt svæði og vöruhús
 
@@ -22,7 +22,7 @@ ms.locfileid: "8852599"
 
 
 
-Þessi grein lýsir samþættingu svæðis- og vöruhúsagagna milli Finance and Operations og Dataverse. Rekstrarsvæði og vöruhús eru algeng hugtök í forritinu Supply Chain Management. Þau eru notuð til að móta aðfangakeðju fyrirtækisins.
+Þessi grein lýsir samþættingu vefsvæðis og vöruhúsagagna milli fjármála og rekstrar og Dataverse. Rekstrarsvæði og vöruhús eru algeng hugtök í forritinu Supply Chain Management. Þau eru notuð til að móta aðfangakeðju fyrirtækisins.
 
 ## <a name="templates"></a>Sniðmát
 
@@ -34,3 +34,4 @@ Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla     | lýsing
 [Vöruhús](mapping-reference.md#204) | msdyn_warehouses | |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

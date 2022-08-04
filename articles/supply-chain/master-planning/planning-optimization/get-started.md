@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900971"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112181"
 ---
 # <a name="get-started-with-planning-optimization"></a>Hafist handa með fínstillingu áætlanagerðar
 
@@ -40,7 +40,7 @@ Sem stendur styður virknin fyrir fínstillingu skipulagningar ekki alla eiginle
 
 ## <a name="availability"></a>Til ráðstöfunar
 
-Hagræðing áætlanagerðar er eins og er í boði í eftirfarandi Azure landsvæðum: Bandaríkjunum, Kanada, Brasilíu, Evrópu, Bretlandi, Ástralíu, Kyrrahafi Asíu, Japan og Indlandi. Ef reynt er að setja upp innbæturnar á öðru svæði birtir LCS skilaboð um að svæðið sé ekki stutt. Fyrir frekari upplýsingar um Azure landsvæði og tengd svæði, sjá [Azure landsvæði](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Hagræðing áætlanagerðar er eins og er fáanleg í eftirfarandi Azure landsvæðum: Bandaríkjunum, Kanada, Brasilíu, Evrópu, Frakklandi, Bretlandi, Ástralíu, KyrrahafsAsíu, Japan og Indlandi. Ef reynt er að setja upp innbæturnar á öðru svæði birtir LCS skilaboð um að svæðið sé ekki stutt. Fyrir frekari upplýsingar um Azure landsvæði og tengd svæði, sjá [Azure landsvæði](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Athugið að fínstilling áætlanagerðar styður ekki uppsetningu á staðnum á Dynamics 365 Supply Chain Management.
 
@@ -58,7 +58,7 @@ Til að nota Fínstilling skipulagningar verður að ganga úr skugga um að ker
 
 - Nauðsynlegt er að keyra Supply Chain Management á öflugu LCS virkt umhverfi, á stigi 2 eða hærra (ekki OneBox-umhverfi), með Dynamics 365 Supply Chain Management útgáfu 10.0.7 eða nýrri. Ef reynt er að setja upp viðbótina í OneBox-umhverfi verður uppsetningunni ekki lokið og því verður að hætta við uppsetninguna.
 
-- Kerfið verður að vera sett upp fyrir Power Platform samþættingu. Fyrir frekari upplýsingar, sjá [Microsoft Power Platform samþættingu við Finance and Operations öpp](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
+- Kerfið verður að vera sett upp fyrir Power Platform samþættingu. Fyrir frekari upplýsingar, sjá [Microsoft Power Platform samþættingu við fjármála- og rekstraröpp](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>Virkja leyfi Fínstillingar skipulagningar
 
@@ -135,3 +135,4 @@ Ef kveikt er á fínstillingu áætlanagerðar er aðaláætlanagerð lokið me�
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

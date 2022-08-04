@@ -6,19 +6,19 @@ ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d2b20ec7af9f0c6b7899617c2b8fdbf0992d7397
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: 6cb418c331f0ad260f0c370b87404028e5a953f1
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892393"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205827"
 ---
 # <a name="data-mart-resets-faq"></a>Algengar spurningar um endurstillingar gagnaskemmu
 
@@ -48,7 +48,7 @@ Hér eru nokkrar aðstæður þar sem við mælum ekki með því að þú endur
 - Þú ert að lenda í gagnasamþættingarvandamálum.
 - Financial Reporter samþætting þín er ekki virkjuð. 
 
-    - Þetta þýðir að ekki er lengur verið að samstilla gögn fjárhagsskýrslu við fjárhagsskýrslugagnamarkaðinn þinn. Fjárhagsskýrslan þín er hugsanlega ekki að fá uppfærðar tölur fyrir fjárhagsskýrslur þínar. Þetta gerist venjulega ef þú hefur ekki notað Financial Reporter í langan tíma.
+    - Þetta þýðir að ekki er lengur verið að samstilla gögn fjárhagsskýrslu við fjárhagsskýrslugagnasann þinn. Fjárhagsskýrslan þín er hugsanlega ekki að fá uppfærðar tölur fyrir fjárhagsskýrslur þínar. Þetta gerist venjulega ef þú hefur ekki notað Financial Reporter í langan tíma.
     - Þú verður beðinn um að virkja samþættingu með því að endurstilla gagnamarkaðinn. Þú getur haldið áfram með því að velja **Já**. Þú getur líka valið að endurstilla gagnamarkaðinn síðar. Eftir að samþætting hefur verið virkjuð eru fjárhagsgögn þín samstillt í Financial Reporter aftur. 
 - Mynstur endurtekinnar endurstillingar á sér stað af einhverjum eftirfarandi ástæðum:
 

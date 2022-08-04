@@ -1,5 +1,5 @@
 ---
-title: Microsoft Office-stíl notendaviðmóts í viðskiptaskjalastjórnun (inniheldur myndband)
+title: Microsoft Office-notendaviðmót í viðskiptaskjalastjórnun (inniheldur myndband)
 description: Þessi grein útskýrir hvernig á að nota nýja notendaviðmótið í viðskiptaskjalastjórnunareiginleika rafrænnar skýrslugerðar (ER) ramma.
 author: v-anamir
 ms.date: 01/05/2022
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bcc464a17e27393c5904c59b8439de6ca000d57a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 208cfc91f11d4893785538ce4874e85a5725e993
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892226"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109261"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Notandaviðmót Microsoft Office-stíls í Stjórnun viðskiptaskjala
 
@@ -28,15 +28,15 @@ ms.locfileid: "8892226"
 
 Stjórnun viðskiptaskjala er gerir fyrirtækjanotendum kleift að breyta sniðmátum viðskiptaskjala með því að nota Microsoft Office 365 þjónustu eða viðeigandi Microsoft Office skjáborðsforrit. Breytingar gætu innihaldið hönnunarbreytingar eða nýjar dreifingar, eða notendur gætu bætt við frátökutákni til að innihalda viðbótargögn án þess að þurfa að breyta kóðanum. Nánari upplýsingar um hvernig á að vinna með skjalastjórnun viðskipta, sjá [Yfirlit yfir stjórnun viðskiptaskjala](er-business-document-management.md).
 
-Nýja notendaviðmótið (UI) er skýrara og þægilegra í notkun. The **Viðskiptaskjal** svæði sýnir aðeins sniðmát sem eru í eigu núverandi [virkur](tasks/er-configuration-provider-mark-it-active-2016-11.md)[veitanda](general-electronic-reporting.md#Provider) og staðsett í núverandi tilviki Dynamics 365 Finance. Í fyrra notendaviðmóti var **Sniðmát** flipinn listaði öll sniðmát sem voru tiltæk fyrir hvaða þjónustuaðila sem er. Hann sýndi einnig öll sniðmát sem voru búin til og breytt af öllum notendum í sama hlutverkinu.
+Nýja notendaviðmótið (UI) er skýrara og þægilegra í notkun. The **Viðskiptaskjal** svæði sýnir aðeins sniðmát sem eru í eigu núverandi [virkur](tasks/er-configuration-provider-mark-it-active-2016-11.md)[veitanda](general-electronic-reporting.md#Provider) og staðsett í núverandi tilviki Dynamics 365 Finance. Í fyrra notendaviðmóti var **Sniðmát** flipi listi öll sniðmát sem voru tiltæk fyrir hvaða þjónustuaðila sem er. Hann sýndi einnig öll sniðmát sem voru búin til og breytt af öllum notendum í sama hlutverkinu.
 
-Þú getur notað **Nýtt skjal** hnappinn í **Stjórnun viðskiptaskjala** vinnusvæði til að búa til og breyta sniðmáti í [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) sniði [stillingar](general-electronic-reporting.md#Configuration) sem er veitt af annarri þjónustuveitu og staðsettur í núverandi Finance tilviki, eða til að hlaða upp nýju sniðmáti úr Excel vinnubók. Að auki, í útgáfu 10.0.25 og síðar, geturðu notað **Nýtt skjal** hnappinn til að búa til og breyta sniðmáti í ER sniði sem er geymt í [Alþjóðleg geymsla](general-electronic-reporting.md#Repository).
+Þú getur notað **Nýtt skjal** hnappinn í **Stjórnun viðskiptaskjala** vinnusvæði til að búa til og breyta sniðmáti í [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) sniði [uppsetningu](general-electronic-reporting.md#Configuration) sem er veitt af annarri veitu og staðsettur í núverandi Finance tilviki, eða til að hlaða upp nýju sniðmáti úr Excel vinnubók. Að auki, í útgáfu 10.0.25 og nýrri, geturðu notað **Nýtt skjal** hnappinn til að búa til og breyta sniðmáti í ER sniði sem er geymt í [Alþjóðleg geymsla](general-electronic-reporting.md#Repository).
 
 Í dæmunum í þessari grein er virki veitandinn Contoso og þú notar það til að búa til sniðmát sem er byggt á sniðmáti sem er útvegað af Microsoft. Einnig er hægt að stofna sniðmát með því að hlaða upp eigin sniðmáti á Excel sniði.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVQg]
 
-The [Búðu til nýtt viðskiptaskjal með viðskiptaskjalastjórnun](https://youtu.be/gAIYl-mM_pw) myndbandið (sýnt hér að ofan) er innifalið í [Spilunarlisti fyrir fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) í boði á YouTube.
+The [Búðu til nýtt viðskiptaskjal með því að nota viðskiptaskjalastjórnun](https://youtu.be/gAIYl-mM_pw) myndbandið (sýnt hér að ofan) er innifalið í [lagalista um fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) í boði á YouTube.
 
 ## <a name="make-the-new-document-ui-in-business-document-management-available"></a>Gerðu nýja skjalið UI í viðskiptaskjalastjórnun tiltækt
 
@@ -54,15 +54,15 @@ Hvert sniðmát viðskiptaskjals er geymt í ER-sniði sem er merkt sem í eigu 
 
 ### <a name="add-a-new-provider"></a>Bættu við nýjum þjónustuaðila
 
-Til að búa til nýja þjónustuaðila skaltu fylgja þessum skrefum á **Stillingarveita** valmynd:
+Til að búa til nýja þjónustuveitu skaltu fylgja þessum skrefum á **Stillingarveita** valmynd:
 
-1.  Á **Veldu stillingarveitu** flipa, í **Nafn** reit, sláðu inn nafn nýju þjónustuveitunnar.
+1.  Á **Veldu stillingarveitu** flipa, í **Nafn** reit, sláðu inn nafn nýja þjónustuveitunnar.
 2.  Í **Netfang** reit, sláðu inn netfang (URL) nýju þjónustuveitunnar. 
 3.  Veldu **Í lagi**.
 
     ![Að búa til nýjan þjónustuaðila í viðskiptaskjalastjórnun.](./media/bdm_create_provider.png)
 
-Þjónustuveitan sem bætt var við verður sjálfkrafa virkjuð.
+Þjónustuveitan sem bætt er við verður sjálfkrafa virkjuð.
 
 ### <a name="activate-a-provider"></a>Virkjaðu þjónustuaðila
 
@@ -80,7 +80,7 @@ Valin veitandi verður virkjuð.
 
 ## <a name="edit-a-template-that-is-owned-by-another-provider"></a>Breyttu sniðmáti sem er í eigu annarrar þjónustuveitu
 
-Þetta dæmi sýnir hvernig á að nota **Nýtt skjal** hnappinn í **Stjórnun viðskiptaskjala** vinnusvæði til að búa til og breyta sniðmáti í ER-sniði sem er útvegað af annarri þjónustuveitu og staðsett í núverandi Finance tilviki. Í þessu dæmi er virki veitandinn Contoso, sem notar ER-sniðsstillinguna sem er veitt af Microsoft. Eftir að þú hefur valið **Nýtt skjal**, hinn **Veldu** flipann á **Búðu til nýtt sniðmát** síða sýnir öll sniðmát núverandi Finance-tilviks sem eru í eigu núverandi veitanda og annarra veitenda. Veldu sniðmát til að opna það. Þú getur síðan búið til nýtt breytanlegt eintak af sniðmátinu. Breytta sniðmátið er geymt í nýrri ER sniðstillingu sem er sjálfkrafa mynduð.
+Þetta dæmi sýnir hvernig á að nota **Nýtt skjal** hnappinn í **Stjórnun viðskiptaskjala** vinnusvæði til að búa til og breyta sniðmáti í ER sniðstillingu sem er veitt af annarri þjónustuveitu og staðsett í núverandi Finance tilviki. Í þessu dæmi er virki veitandinn Contoso, sem notar ER-sniðsstillinguna sem er veitt af Microsoft. Eftir að þú hefur valið **Nýtt skjal**, hinn **Veldu** flipann á **Búðu til nýtt sniðmát** síða sýnir öll sniðmát núverandi Finance-tilviks sem eru í eigu núverandi veitanda og annarra veitenda. Veldu sniðmát til að opna það. Þú getur síðan búið til nýtt breytanlegt eintak af sniðmátinu. Breytta sniðmátið er geymt í nýrri ER sniðstillingu sem er sjálfkrafa mynduð.
 
 1. Í vinnusvæðinu **Stjórnun viðskiptaskjala** velurðu **Nýtt skjal**.
 
@@ -145,3 +145,4 @@ Fyrir frekari upplýsingar, sjá [Yfirlit yfir stjórnun viðskiptaskjala](er-bu
 7. Veldu **Í lagi** til að staðfesta upphaf breytingarferilsins.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

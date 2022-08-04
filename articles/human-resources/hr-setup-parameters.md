@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dd645dcc79672e7f69afe47b803b90a04c22305d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13a25d3f1f72d8053ed3951b036522cfa3a15959
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856281"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065645"
 ---
 # <a name="configure-human-resources-parameters"></a>Grunnstilla færibreytur Human Resources
 
@@ -27,7 +27,7 @@ ms.locfileid: "8856281"
 
 Stillingar fyrir sumar færibreytur Mannauðs eru eins milli fyrirtækja, á meðan stillingar annara færibreyta eru bundnar tilteknu fyrirtæki. Þessi grein útskýrir hvernig á að setja upp fyrirtækjasértækar mannauðsfæribreytur.
 
-Tvær síður eru notaðar til að setja upp færibreytur mannauðs. Fyrir Færibreytur sem fyrirtæki samnýta, notarðu **samnýttar færibreytur fyrir mannauð** síðu. Fyrir færibreytur sem eru bundin tilteknu fyrirtæki (með öðrum orðum, stillingar eiga við um eitt fyrirtæki), notarðu **færibreytum mannauðs** síðu.
+Tvær síður eru notaðar til að setja upp færibreytur mannauðs. Fyrir Færibreytur sem fyrirtæki samnýta, notarðu **samnýttar færibreytur fyrir mannauð** síðu. Fyrir færibreytur sem eru sértækar fyrir fyrirtæki notarðu **Stærðir mannauðs** síðu.
 
 ![Opna færibreytur Human Resources.](./media/hr-employee-self-service-human-resources-parameters.png)
 
@@ -64,7 +64,7 @@ Stillingar á í **Almennt** flipanum skilgreina útlit hvers upplýsinga um fja
 
 Stillingarnar í flipanum **Ráðning** skilgreina skjalagerðir sem eru notaðar fyrir samskipti sem send eru sjálfkrafa til umsækjenda. Einnig er hægt að tilgreina ráðningarverk sem er notað fyrir lánardrottinsumsækjendur.
 
-Tímabilið sem er skilgreint í **Ráðningarverkefni öldrun** ákvarðar hvaða ráðningarverkefni eru innifalin á **Öldrunarverkefni** flísar í **Ráðningarstjórnun** vinnurými. Tímabilið sem skilgreint er fyrir viðvörun um umsóknarfrest er notað til að sýna ráðningarverkefni sem nálgast umsóknarfrest á **Umsóknarfrestur nálgast** flísar í **Ráðningar** vinnurými.
+Tímabilið sem er skilgreint í **Ráðningarverkefni öldrun** ákvarðar hvaða ráðningarverkefni eru innifalin á **Öldrunarverkefni** flísar í **Ráðningarstjórnun** vinnurými. Tímabilið sem skilgreint er fyrir viðvörun um umsóknarfrest er notað til að sýna ráðningarverkefni sem eru að nálgast umsóknarfrest á **Umsóknarfrestur nálgast** flísar í **Ráðningar** vinnurými.
 
 Frekari upplýsingar um ráðningar er að finna í [Ráða umsækjendur](hr-personnel-recruit.md).
 
@@ -74,9 +74,10 @@ Frekari upplýsingar um ráðningar er að finna í [Ráða umsækjendur](hr-per
 
 Í Human Resources er hægt að nota flipann **Laun** til að velja að takmarka aðgang að launafyrirkomulagi og til að stilla sjálfgefinn gjaldmiðil.
 
-Frekari upplýsingar um laun er að finna í [Yfirlit launafyrirkomulags](hr-compensation-overview.md).
+> [!NOTE]
+> Í sameinuðu innviði er sjálfgefið **Gjaldmiðill** breytu á **Bætur** flipi á **Mannauðsbreytur** síða hefur verið fjarlægð. Áfram verður gjaldmiðillinn meðhöndlaður af **Fjárhagsgjaldmiðill** færibreytu til að tryggja að engin árekstrar séu fyrir núverandi fjármála- og rekstrarvirkni og til að koma í veg fyrir tvíverknað. Fyrir frekari upplýsingar um hvernig á að nota fjárhagsgjaldmiðilsvirkni, sjá [Stilla bókhald](/general-ledger/configure-ledger#configuring-currencies-for-the-ledger.md). 
 
-![Launaflipi.](./media/hr-setup-parameters-compensation.png)
+Frekari upplýsingar um laun er að finna í [Yfirlit launafyrirkomulags](hr-compensation-overview.md).
 
 ## <a name="number-sequences"></a>Númeraraðir
 
@@ -122,7 +123,7 @@ Fyrir frekari upplýsingar um hvernig á að setja upp **Sjálfsafgreiðsla star
 Stillingarnar á **Sjálfsafgreiðslustjóri** flipi hafa áhrif á það sem stjórnendur sjá í **Sjálfsafgreiðslustjóri**. Í þessum flipa er hægt að skilgreina eftirfarandi valkosti:
 
 - Svið fyrir færslur sem eru að renna út
-- Stjórnendur upplýsinga geta skoðað færslur sem eru að renna út
+- Upplýsingar sem stjórnendur geta skoðað í skrám sem renna út
 - Hvort stjórnendur geta skoðað opnar stöður fyrir stækkaðar skýrslur
 - Yfirlit starfskrafta sem eru að hætta
 - Gagnlegir tenglar fyrir stjórnendur

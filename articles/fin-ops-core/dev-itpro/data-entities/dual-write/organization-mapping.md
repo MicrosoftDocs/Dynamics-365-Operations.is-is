@@ -1,6 +1,6 @@
 ---
 title: Stigveldi fyrirtækis í Dataverse
-description: Þessi grein lýsir samþættingu skipulagsgagna milli Finance and Operations forrita og Dataverse.
+description: Þessi grein lýsir samþættingu skipulagsgagna milli fjármála- og rekstrarappa og Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a4edaf5b9c50e9d8781ff703328ac786d71ee782
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f900637855bee3e21916652a373c683e6bf1392
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884733"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112019"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Stigveldi fyrirtækis í Dataverse
 
@@ -28,15 +28,15 @@ Vegna þess að Dynamics 365 Finance er fjármálakerfi, *skipulag* er kjarnahug
 
 ## <a name="data-flow"></a>Gagnaflæði
 
-Vistkerfi fyrirtækja sem samanstendur af forritum Finance and Operations og Dataverse mun halda áfram að hafa stigveldi fyrirtækis. Þetta stigveldi fyrirtækis er byggt á forritum Finance and Operations, en það er útsett í Dataverse í upplýsinga- og stækkunarlegum tilgangi. Eftirfarandi mynd sýnir upplýsingar um stigveldi fyrirtækis sem birtast í Dataverse sem einstefnugagnaflæði úr forritum Finance and Operations til Dataverse.
+Vistkerfi fyrirtækja sem samanstendur af fjármála- og rekstraröppum og Dataverse verður áfram með stigveldi skipulagsheilda. Þetta stigveldi stofnunarinnar er byggt á fjármála- og rekstrarforritum, en það er afhjúpað í Dataverse í upplýsinga- og stækkunarskyni. Eftirfarandi mynd sýnir stigveldisupplýsingar fyrirtækisins sem eru afhjúpaðar í Dataverse sem einhliða gagnaflæði frá fjármála- og rekstraröppum til Dataverse.
 
 ![Skipulagsmynd.](media/dual-write-data-flow.png)
 
-Skipulagsstigveldistöflukort eru fáanleg fyrir einstefnusamstillingu gagna frá Finance and Operations forritum til Dataverse.
+Skipulagsstigveldistöflukort eru fáanleg fyrir einhliða samstillingu gagna úr fjármála- og rekstraröppum til Dataverse.
 
 ## <a name="templates"></a>Sniðmát
 
-Fyrirtæki er hópur af fólki sem eru að vinna saman að því að framkvæma viðskiptaferli eða ná markmiði. Stigveldi fyrirtækis standa fyrir vensl á milli fyrirtækja sem þú ert með saman í rekstri. Hægt er að skilgreina eftirfarandi gerðir samstæðufyrirtæki: lögaðila, rekstrareiningar, og hópa. Eins og eftirfarandi tafla sýnir er safn af töflukortum búið til til að samstilla lögaðila, rekstrareiningar, s og tengdar skipulagsstigveldisupplýsingar.
+Fyrirtæki er hópur af fólki sem eru að vinna saman að því að framkvæma viðskiptaferli eða ná markmiði. Stigveldi fyrirtækis standa fyrir vensl á milli fyrirtækja sem þú ert með saman í rekstri. Hægt er að skilgreina eftirfarandi gerðir samstæðufyrirtæki: lögaðila, rekstrareiningar, og hópa. Eins og eftirfarandi tafla sýnir er safn af töflukortum búið til til að samstilla lögaðila, rekstrareiningu, s og tengdar skipulagsstigveldisupplýsingar.
 
 Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla     | Lýsing
 -----------------------|--------------------------------|---
@@ -52,3 +52,4 @@ Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla     | Lýsing
 Upplýsingar um samstæðufyrirtæki í Dataverse koma úr tveimur töflum: **Rekstrareiningu** og **Lögaðilum**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

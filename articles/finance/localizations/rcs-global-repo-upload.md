@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8cfbcfea3c6056d87eb600c9a2f9e0d1727c30ff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f73f7189ad82d85169a4e0df573dd26dab8bb009
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894744"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070601"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>Stofna skilgreiningar rafrænnar skýrslugerðar í Regulatory Configuration Services (RCS) og hlaða þeim upp í altæka geymslu
 
@@ -35,9 +35,9 @@ Eftirfarandi ferli útskýra hvernig notandi í hlutverki kerfisstjóra eða þr
 - Hafa aðgang að RCS umhverfi fyrir fyrirtæki þitt.
 - Búðu til virka stillingarveitu og gerðu hana virka. Nánari upplýsingar er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Þú verður að ganga úr skugga um að RCS umhverfi sé útvegað fyrir fyrirtæki þitt. Ef þú ert ekki með RCS tilvik útvegað fyrir fyrirtæki þitt geturðu gert það með eftirfarandi skrefum:
+Þú verður að ganga úr skugga um að RCS umhverfi sé útvegað fyrir fyrirtæki þitt. Ef þú ert ekki með RCS tilvik útvegað fyrir fyrirtækið þitt geturðu gert það með eftirfarandi skrefum:
 
-1. Í Finance and Operations app, farðu til **Stjórn stofnunarinnar** \> **Vinnurými** \> **Rafræn skýrslugerð**.
+1. Í fjármála- og rekstrarappi skaltu fara á **Stjórn stofnunarinnar** \> **Vinnurými** \> **Rafræn skýrslugerð**.
 2. Í **Tengdir tenglar / Ytri tenglar**, veldu **Eftirlitsþjónusta – Stillingar**, og fylgdu síðan leiðbeiningunum til **Skráðu þig** að ákvæði eitt.
 
 Ef RCS umhverfi hefur þegar verið útvegað fyrir fyrirtæki þitt skaltu nota vefslóð síðunnar til að fá aðgang að því og velja **skráðu þig inn** valmöguleika.
@@ -45,7 +45,7 @@ Ef RCS umhverfi hefur þegar verið útvegað fyrir fyrirtæki þitt skaltu nota
 ## <a name="create-a-derived-version-of-a-configuration-in-rcs"></a>Búa til afleidda útgáfu af skilgreiningu í RCS
 
 > [!NOTE]
-> Ef þetta er í fyrsta skiptið sem þú notar RCS muntu ekki hafa neina uppsetningu tiltæka fyrir þig. Þú þarft að flytja inn stillingu úr alþjóðlegu geymslunni. Frekari upplýsingar er að finna í [Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
+> Ef þetta er í fyrsta skipti sem þú notar RCS muntu ekki hafa neina uppsetningu tiltæka fyrir þig til að útvega þér. Þú þarft að flytja inn stillingu úr alþjóðlegu geymslunni. Frekari upplýsingar er að finna í [Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
 1. **Skráðu þig inn** til RCS og veldu **Rafræn skýrslugerð** vinnurými.
 2. Staðfestu að þú sért með virka stillingaveitu fyrir fyrirtæki þitt sem er stillt á virk (sjá forsendur). 
@@ -73,7 +73,7 @@ Til að deila nýrri eða afleiddri uppsetningu með fyrirtækinu þínu geturð
 3. Í staðfestingarglugganum velurðu **Já**. 
 4. Uppfæra skal lýsinguna á útgáfunni þar sem þess er krafist og velja **Í lagi**. Þú getur líka valfrjálst hlaðið útgáfunni upp í tengt forrit eða í GIT geymslu.  
 
-Staða stillingar er uppfærð í **Samnýtt**, og stillingunum er hlaðið upp í alþjóðlegu geymsluna. Drög að útgáfu af uppsetningunni sem þú hlóðst upp er einnig búið til og hægt er að nota það ef þörf er á síðari breytingum.
+Staða stillingar er uppfærð í **Deilt**, og stillingunum er hlaðið upp í alþjóðlegu geymsluna. Drög að útgáfu af uppsetningunni sem þú hlóðst upp eru einnig búin til og hægt er að nota hana ef þörf er á síðari breytingum.
 
 Eftir að uppsetningunni hefur verið hlaðið upp í Global repository geturðu unnið með hana þar á eftirfarandi hátt:
 
@@ -105,3 +105,4 @@ Skilgreiningarútgáfunni er eytt og staðfestingarboð eru sýnd.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

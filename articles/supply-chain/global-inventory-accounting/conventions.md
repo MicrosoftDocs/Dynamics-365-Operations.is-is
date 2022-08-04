@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 0055757a0d012896232de58330ee142f702e4ed1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f148d4c6ece543c8a11eee3e6dcdff47b3767936
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875395"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135501"
 ---
 # <a name="conventions"></a>Viðteknar reglur
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 Viðtekin regla er gámur fyrir safn af reglum sem hafa áhrif á hegðun kerfisins. Eftir því hverjar viðskiptaþarfirnar eru þarf að skilgreina viðteknar reglur með því að nota samsetningu af ýmsum stefnum sem segja til um hvernig gerð er grein fyrir kostnaði í altæku birgðabókhaldi. Hægt er að tengja sérhverja viðtekna reglu við einn fjárhag eða fleiri til að tryggja samræmi í bókhaldsreglum sem eru notaðar í öllum fjárhagsbókum.
 

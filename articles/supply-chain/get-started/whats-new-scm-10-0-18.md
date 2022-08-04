@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 484d791d7386599acca3579ab3a59fd6a17d155e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2aa5d40d6263f9f91fc3ebfcb37558a5ba71d2ab
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875453"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123839"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management útgáfu 10.0.18 (maí 2021)
 
@@ -66,9 +66,9 @@ Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargre
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir Finance and Operations öpp
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir fjármála- og rekstraröpp
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.18 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.18 af Finance and Operations forritum (maí 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.18 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.18 af fjármála- og rekstraröppum (maí 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 
@@ -93,3 +93,4 @@ Til að brjóta breytingar sem hafa aðeins áhrif á samantektartíma, en eru t
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

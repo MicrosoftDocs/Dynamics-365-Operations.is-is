@@ -1,27 +1,28 @@
 ---
 title: Kostnaðarstjórnun Power BI efni
 description: Þessi grein lýsir því hvað er innifalið í kostnaðarstjórnun Power BI efni.
-author: ShylaThompson
+author: JennySong-SH
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 270314
-ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
+ms.reviewer: kamaybac
 ms.search.region: Global
-ms.search.industry: Manufacturing
-ms.author: kfend
+ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98c0097c2df25bafc842c9828d8ff282f5f683a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "270314"
+ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
+ms.search.industry: Manufacturing
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
+ms.openlocfilehash: 7dcc8b2df62b250c59e343e0def5840f1b4f5432
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876864"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205699"
 ---
 # <a name="cost-management-power-bi-content"></a>Kostnaðarstjórnun Power BI efni
 
@@ -168,7 +169,7 @@ Gögn úr forritinu eru notuð til að fylla skýrslusíðurnar í **Kostnaðars
 
 Lykiluppsafnaðar mælingar á eftirfarandi hlutum eru notaðar sem grundvöllur Power BI-efnis.
 
-| Hlutur                          | Lykiluppsafnaðar mælingar | Gagnagjafi fyrir Finance and Operations | Svæði               |
+| Hlutur                          | Lykiluppsafnaðar mælingar | Gagnaveita fyrir fjármál og rekstur | Reitur               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
 | CostObjectStatementCacheMonthly | Upphæð                     | CostObjectStatementCache               | Upphæð              |
 | CostObjectStatementCacheMonthly | Magn                   | CostObjectStatementCache               | Magn                 |
@@ -203,3 +204,4 @@ Eftirfarandi lykilvíddir eru notaðar sem síur til að sneiða uppsafnaðar m�
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

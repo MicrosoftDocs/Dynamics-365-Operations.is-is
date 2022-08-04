@@ -1,6 +1,6 @@
 ---
 title: Tvöföld skrif – yfirlit
-description: Þessi grein veitir yfirlit yfir tvískrift, sem veitir nánast rauntíma samskipti milli forrita fyrir þátttöku viðskiptavina og fjármála- og rekstrarappa.
+description: Þessi grein veitir yfirlit yfir tvíritun, sem veitir nánast rauntíma samskipti milli forrita fyrir þátttöku viðskiptavina og fjármála- og rekstrarforrita.
 author: RamaKrishnamoorthy
 ms.date: 02/06/2020
 ms.topic: overview
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 2ef4fb1a51bd92db440841eb2a9d9ebcce0e1b1d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 599cfdab8232cab28c59c5098094c4afd351df77
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872941"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112395"
 ---
 # <a name="dual-write-overview"></a>Tvöföld skrif – yfirlit
 
@@ -26,9 +26,9 @@ ms.locfileid: "8872941"
 
 ## <a name="what-is-dual-write"></a>Hvað er tvískipt skriftarverk?
 
-Dual-write er út-af-kassa innviði sem veitir næstum rauntíma samskipti milli þátttökuforrita viðskiptavina og fjármála- og rekstrarappa. Þegar gögn um viðskiptavini, afurðir, fólk og rekstur streyma út fyrir forritamörk, verðar allar deildir fyrirtækis öflugri.
+Dual-write er útúr kassa innviði sem veitir nánast rauntíma samskipti milli þátttökuforrita viðskiptavina og fjármála- og rekstrarforrita. Þegar gögn um viðskiptavini, afurðir, fólk og rekstur streyma út fyrir forritamörk, verðar allar deildir fyrirtækis öflugri.
 
-Dual-write veitir þétttengda, tvíátta samþættingu milli Finance and Operations forrita og Dataverse. Allar gagnabreytingar í Finance and Operations forritum valda skrifum til Dataverse, og allar breytingar á gögnum Dataverse veldur skrifum í Finance and Operations öpp. Þetta sjálfvirka gagnaflæði veitir samþætta notendaupplifun í forritunum.
+Dual-write veitir þétttengda, tvíátta samþættingu milli fjármála- og rekstrarforrita og Dataverse. Allar gagnabreytingar í fjármála- og rekstraröppum valda skrifum til Dataverse, og allar breytingar á gögnum Dataverse veldur skrifum á fjármála- og rekstrarforrit. Þetta sjálfvirka gagnaflæði veitir samþætta notendaupplifun í forritunum.
 
 ![Gagnasamband milli forrita.](media/dual-write-overview.jpg)
 
@@ -51,7 +51,7 @@ Innbyggingin með tvískiptum skrifum er teygjanleg og áreiðanleg og inniheldu
 
 ### <a name="application"></a>Forrit
 
-Dual-write skapar kortlagningu á milli hugtaka í Finance and Operations öppum og hugtaka í öppum fyrir þátttöku viðskiptavina. Þessi samþætting styður eftirfarandi atburðarásir:
+Dual-write skapar kortlagningu á milli hugtaka í fjármála- og rekstraröppum og hugtaka í öppum fyrir þátttöku viðskiptavina. Þessi samþætting styður eftirfarandi atburðarásir:
 
 + Samþætt aðalsniðmát viðskiptavinar
 + Aðgangur að vildarkortum viðskiptavina og verðlaunapunkta
@@ -80,15 +80,15 @@ Tvöföld skrifa veitir samþættingu gagna í öllu forritum Microsoft Dynamics
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Hvað þýða tvöföld skrif fyrir þróunaraðila og hönnuði forrita viðskiptavina?
 
-Dual-write gerir sjálfvirkan gagnaflæði á milli Finance and Operations forrita og þátttökuforrita viðskiptavina. Tvöföld skrif samanstendur af tveimur AppSource lausnum sem eru settar upp á Dataverse. Lausnirnar víkka út töfluskema, viðbætur og verkflæði á Dataverse þannig að hægt sé að kvarða þær fyrir ERP-stærð. Til að innleiðingin takist vel verða þróunaraðilar og arkitektar forrita fyrir þátttöku viðskiptavina að skilja þessar breytingar og vinna með hliðstæðum sínum um fjármála- og rekstraröpp.
+Dual-write gerir sjálfvirkan gagnaflæði á milli fjármála- og rekstrarforrita og þátttökuforrita viðskiptavina. Tvöföld skrif samanstendur af tveimur AppSource lausnum sem eru settar upp á Dataverse. Lausnirnar víkka út töfluskema, viðbætur og verkflæði á Dataverse þannig að hægt sé að kvarða þær fyrir ERP-stærð. Til að innleiðingin takist vel, verða þróunaraðilar og arkitektar forrita fyrir þátttöku viðskiptavina að skilja þessar breytingar og vinna með hliðstæðum sínum um fjármála- og rekstraröpp.
 
-Til að skapa jafnræði með Finance and Operations forritum gerir tvískrift nokkrar mikilvægar breytingar á Dataverse skema. Ef ætlunin er að skilja áætlunina er hægt að koma í veg fyrir endurvinnslu tiltekinnar hönnunr og þróunar í framtíðinni.
+Til að skapa jafnræði með fjármálum og rekstrarumsóknum gerir tvískrifa nokkrar mikilvægar breytingar á Dataverse skema. Ef ætlunin er að skilja áætlunina er hægt að koma í veg fyrir endurvinnslu tiltekinnar hönnunr og þróunar í framtíðinni.
 
-+ Þegar AppSource pakkinn fyrir tvöföld skrif er uppsettur mun Dataverse innihald ný hugtök á borð við fyrirtæki og aðila. Þessi hugtök hjálpa forritum sem eru byggð á Dataverse, þar á meðal Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service og Dynamics 365 Field Service, til að eiga óaðfinnanlega samskipti við Finance and Operations öpp.
++ Þegar AppSource pakkinn fyrir tvöföld skrif er uppsettur mun Dataverse innihald ný hugtök á borð við fyrirtæki og aðila. Þessi hugtök hjálpa forritum sem eru byggð á Dataverse, þar á meðal Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service og Dynamics 365 Field Service, til að eiga óaðfinnanlega samskipti við fjármála- og rekstrarforrit.
 
 + Starfsemi og athugasemdir eru sameinaðar og stækkaðar til að styðja bæði C1 (notendur kerfisins) og C2 (viðskiptavini kerfisins).
 
-+ Til að koma í veg fyrir gagnatap við gjaldeyrisflutning milli Finance and Operations forrita og Dataverse, muntu geta lengt fjölda aukastafa í gjaldmiðilsgagnagerð viðskiptaforrita fyrir þátttöku. Eiginleikinn þýðir sjálfkrafa fyrirliggjandi línur í nýja útvíkkaða stöðu á lýsigagnalagi. Í þessu ferli er gjaldmiðilsgildið þýtt með tugagögnum, frekar en peningagögnum, og gjaldmiðilsgildið styður 10 aukastafi. Velja þarf þennan eiginleiki er innskráður og fyrirtæki sem þurfa ekki meira en 4 aukastafi þurfa ekki að velja hann. Nánari upplýsingar er að finna í [Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif](currrency-decimal-places.md).
++ Til að koma í veg fyrir gagnatap við gjaldeyrisflutning milli fjármála- og rekstrarforrita og Dataverse, muntu geta lengt fjölda aukastafa í gjaldmiðilsgagnagerð viðskiptaforrita fyrir þátttöku. Eiginleikinn þýðir sjálfkrafa fyrirliggjandi línur í nýja útvíkkaða stöðu á lýsigagnalagi. Í þessu ferli er gjaldmiðilsgildið þýtt með tugagögnum, frekar en peningagögnum, og gjaldmiðilsgildið styður 10 aukastafi. Velja þarf þennan eiginleiki er innskráður og fyrirtæki sem þurfa ekki meira en 4 aukastafi þurfa ekki að velja hann. Nánari upplýsingar er að finna í [Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif](currrency-decimal-places.md).
 
 + [Dagsetningarvirkni](../../dev-tools/date-effectivity.md) verður bætt við Dataverse. Það styður gögn í fortíð, nútíð og framtíð í sömu töflu.
 
@@ -99,3 +99,4 @@ Frekari upplýsingar um breytingar á næstunni er að finna í [Nýjungar eða 
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

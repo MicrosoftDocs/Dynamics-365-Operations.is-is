@@ -11,30 +11,28 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 3aabc1356eba27de797fa696dd928cb401d8501b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0084d47bf85050749b2668d273db07670aaeae2a
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860813"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166804"
 ---
 # <a name="cost-transaction-entities"></a>Kostnaðarfærslueiningar
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!-- KFM: Preview until GA with 10.0.28 -->
 
 ## <a name="apportionment"></a>Skipting
 
-Landaður kostnaður gerir kleift að skipta verðmæti kostnaðar á innihald kostnaðarsvæðis (siglingar, flutningsgámur og svo framvegis) með vali á úthlutunaraðferð. Úthlutunaraðferðin er stillt sem hluti af uppsetningu sjálfvirks kostnaðar sem byggir á viðskiptareglum. Það er dreginn í gegn sem hluti af kostnaði þegar ferðalína er búin til.
+Landaður kostnaður gerir kleift að skipta verðmæti kostnaðar á innihald kostnaðarsvæðis (sigling, flutningsgámur og svo framvegis) með því að velja úthlutunaraðferð. Úthlutunaraðferðin er stillt sem hluti af uppsetningu sjálfvirks kostnaðar sem byggir á viðskiptareglum. Það er dreginn í gegn sem hluti af kostnaði þegar ferðalína er búin til.
 
 ### <a name="configure-the-apportionment-mapping-for-use-with-data-entities"></a>Stilltu úthlutunarvörpunina til notkunar með gagnaeiningum
 
 Þegar kostnaður er búinn til úr utanaðkomandi uppsprettu eins og flutningsmiðlara, getur þessi ytri uppspretta ekki tilgreint ákjósanlega aðferð til að skipta kostnaðarverðmæti. Úthlutunarvörpunin skilgreinir sjálfgefna skiptingaraðferð fyrir hvern kostnaðartegundarkóða. Hægt er að nálgast úthlutunarkortatöfluna frá **Úthlutunarkortlagning** síðu í Microsoft Dynamics 365 Supply Chain Management (**Landaður kostnaður \> Kostnaðaruppsetning \> Úthlutunarkortlagning**).
 
-Ef vörpunarsamsetning hefur verið skilgreind og kostnaður sem passar við kostnaðartegundarkóðann er búinn til með því að nota kostnaðarfærslueiningu, verður kortlagða skiptingaraðferðin notuð í stað hvers konar gildis sem hefur verið veitt einingunni.
+Ef vörpunarsamsetning hefur verið skilgreind og kostnaður sem passar við kostnaðartegundarkóðann er búinn til með því að nota kostnaðarfærslueiningu, verður kortlagða úthlutunaraðferðin notuð í stað hvers konar gildis sem hefur verið veitt einingunni.
 
-Ef ekkert gildi er til staðar í kortlagningartöflunni, en gildi hefur verið veitt til einingarinnar, verður uppgefið gildi notað.
+Ef ekkert gildi er til staðar í vörpunartöflunni, en gildi hefur verið veitt einingunni, verður uppgefið gildi notað.
 
 Ef ekkert gildi er til í hvorki vörpunartöflunni né færslunni sem hefur verið send til einingarinnar mun sköpun mistakast.
 
@@ -129,7 +127,7 @@ Kostnaðareining innkaupapöntunar (`ITMCostTransPurchaseEntity`) býr til kostn
 
 Kostnaðareiningin (`ITMCostTransItemEntity`) stofnar kostnaðarfærslur sem eiga við vörustigið. Þessi eining er sértæk fyrir vörur á innkaupapöntunarlínum. Verðmæti kostnaðar er lagt að fullu á línuna.
 
-The **Leiðréttingarupphæð** og **Verðmætisleiðrétting** reitir eru sérstakir fyrir kostnaðarsvæðin á línustigi. Þess vegna eru þau ekki til staðar í gagnaeiningum fyrir önnur kostnaðarsvæði.
+The **Leiðréttingarupphæð** og **Verðmætisaðlögun** reitir eru sérstakir fyrir kostnaðarsvæðin á línustigi. Þess vegna eru þau ekki til staðar í gagnaeiningum fyrir önnur kostnaðarsvæði.
 
 | Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
 |---|---|---|---|---|
@@ -151,7 +149,7 @@ The **Leiðréttingarupphæð** og **Verðmætisleiðrétting** reitir eru sérs
 
 Flutningslínukostnaðareiningin (`ITMCostTransTransferLineEntity`) býr til kostnaðarfærslur sem eiga við línustig millifærslupöntunar. Verðmæti þessa kostnaðar er sett að fullu á millifærslupöntunarlínuna.
 
-The **Leiðréttingarupphæð** og **Verðmætisleiðrétting** reitir eru sérstakir fyrir kostnaðarsvæðin á línustigi. Þess vegna eru þau ekki til staðar í gagnaeiningum fyrir önnur kostnaðarsvæði.
+The **Leiðréttingarupphæð** og **Verðmætisaðlögun** reitir eru sérstakir fyrir kostnaðarsvæðin á línustigi. Þess vegna eru þau ekki til staðar í gagnaeiningum fyrir önnur kostnaðarsvæði.
 
 | Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
 |---|---|---|---|---|
@@ -173,11 +171,11 @@ The **Leiðréttingarupphæð** og **Verðmætisleiðrétting** reitir eru sérs
 
 Kostnaðarfærsluskrá er tengd við kostnaðarsvæði með úthlutun á færslutöflunúmeri (`TransTableId`). Þegar krafist er sérstakra töfluauðkennisnúmera er einingunum skipt út frá þessum gildum, þannig að eining er til fyrir hvert kostnaðarsvæði.
 
-Gildi fyrir færslutöfluna (`TransTableId`) er óbeint við val á kostnaðarfærslueiningunni.
+Gildi fyrir færslutöfluna (`TransTableId`) er óbeint í vali á kostnaðarfærslueiningunni.
 
 ### <a name="calculated-fields"></a>Reiknuð svæði
 
-Eftirfarandi reitir eru ekki tiltækir fyrir innsetningu eða uppfærslu þegar kostnaðarfærslueining er notuð, vegna þess að þessir reitir eru aðeins stilltir þegar tilteknar aðgerðir eru gerðar gegn ferðaskránni:
+Eftirfarandi reitir eru ekki tiltækir til innsetningar eða uppfærslu þegar kostnaðarfærslueining er notuð, vegna þess að þessir reitir eru aðeins stilltir þegar tilteknar aðgerðir eru gerðar gegn ferðaskránni:
 
 - **Áætlaður kostnaður** – Þessi reitur er stilltur þegar reikningur er bókaður fyrir ferðina (innkaupapöntun) eða millifærsla er móttekin.
 - **Áætlaður kostnaðargjaldmiðill** – Þessi reitur er stilltur þegar reikningur er bókaður fyrir ferðina (innkaupapöntun) eða millifærsla er móttekin.
@@ -187,7 +185,7 @@ Eftirfarandi reitir eru ekki tiltækir fyrir innsetningu eða uppfærslu þegar 
 
 A **Finndu bílakostnað** hnappur sem er tiltækur fyrir hvert kostnaðarsvæði (sigling, sendingargámur og svo framvegis) veitir leið til að uppfæra kostnaðarfærslur fyrir það kostnaðarsvæði út frá upplýsingum í stillingatöflunum. Þegar þú velur hnappinn fyrir kostnaðarsvæði, hreinsar kerfið núverandi kostnað fyrir það kostnaðarsvæði og býr til nýjar færslur, byggðar á núverandi uppsetningu sjálfvirkrar kostnaðaruppsetningartöflur.
 
-Kostnaðarfærslur sem eru búnar til með því að nota gagnaeiningu eru merktar sem innfluttar. Þessum skrám er ekki eytt þegar þú velur **Finndu bílakostnað**, vegna þess að þær verða ekki endurbúnar úr sjálfvirku kostnaðaruppsetningartöflunum. Hins vegar er enn hægt að eyða kostnaðarfærsluskrá sem er merkt innflutt.
+Kostnaðarfærslur sem eru búnar til með því að nota gagnaeiningu eru merktar sem innfluttar. Þessum skrám er ekki eytt þegar þú velur **Finndu bílakostnað**, vegna þess að þau verða ekki endurgerð úr sjálfvirku kostnaðaruppsetningartöflunum. Hins vegar er enn hægt að eyða kostnaðarfærsluskrá sem er merkt innflutt.
 
 ### <a name="linked-fields"></a>Tengdir reitir
 

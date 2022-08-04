@@ -2,7 +2,7 @@
 title: Skilgreina lykilskipulög
 description: Þessi grein veitir upplýsingar um reikningsuppbyggingu og fjárhagsvíddir.
 author: aprilolson
-ms.date: 06/03/2019
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0a3febf8d269caec847ad879f60ac042e5fec9e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f816f0fc894b902c444a3113abfd48d4146d485
+ms.sourcegitcommit: e59990780830ac8e3382fea5df851abe86fbf496
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907981"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9141279"
 ---
 # <a name="configure-account-structures"></a>Skilgreina lykilskipulög
 
@@ -79,7 +79,7 @@ Hér er dæmi um **Skipulag rekstrarreiknings**.
 
 ## <a name="more-than-7-criteria-needed"></a>Fleiri en 7 skilyrði þarf
 
-Ef þú hefur fleiri en 7 skilyrði sem þarf, getur þú haldið áfram að bæta þeim við í næstu línu. Þú munt taka eftir því þegar þú vinnur í **Leyfðar upplýsingar um gildi** kafla sem **+Bæta við nýjum** skilyrði er ekki lengur virk eftir að sjöunda viðmiðið er slegið inn. Þetta stafar af mörgum þáttum eins og: 
+Ef þú hefur fleiri en 7 skilyrði sem þarf, getur þú haldið áfram að bæta þeim við í næstu línu. Þú munt taka eftir því þegar þú vinnur í **Upplýsingar um leyfilegt gildi** kafla sem **+Bæta við nýjum** skilyrði er ekki lengur virk eftir að sjöunda viðmiðið er slegið inn. Þetta stafar af mörgum þáttum eins og: 
  - Dálkbreidd 
  - Hvernig gögnin eru geymd 
  - Frammistaða á stýringunni **Upplýsingar um leyfð gildi**
@@ -91,6 +91,8 @@ Til að halda áfram að bæta við fleiri skilyrðum skaltu smella á **Afrita 
 Þegar þú setur upp lykilskipulögin þín eru nokkrar bestu venjur sem þú getur fylgt eftir. Hins vegar er þetta aðeins leiðsögn svo að heildræn umræða um fyrirtæki þitt, vaxtaráætlun og viðhaldsáætlun ætti að teljast hluti af þeirri umfjöllun.
 
 - Hafðu aðallykil fyrstan eða eins nálægt yfirborði lykilskipulagsins og mögulegt er þannig að notendur fái bestu leiðsögn sem þeir geta við lykilfærslu.
+  
+  - Staðfestu að allar lausnir þriðja aðila sem þú ætlar að nota styðji aðalreikning í fyrstu stöðu.
 
 - Nota lykilskipulög aftur eins mikið og mögulegt er til að draga úr viðhaldi þvert yfir lögaðila þína.
 

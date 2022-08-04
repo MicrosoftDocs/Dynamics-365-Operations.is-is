@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 014c34791f280ca1d3d9154cd0870a73cc43d26b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fa27e20bc0c0ff5c639dfb2d079adef8926f535f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889150"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069348"
 ---
 # <a name="asset-leasing-home-page"></a>Heimasíða eignarleigu
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein listar hjálparefni sem eru í boði fyrir eignaleigu og inniheldur tengla á tiltekin efni. 
+Þessi grein listar upp hjálparefni sem eru í boði fyrir eignaleigu og inniheldur tengla á tiltekin efni. 
 
 Eignaleiga er háþróuð möguleiki til að stjórna, rekja og gera sjálfvirkan fjármálaviðskipti fyrir leigðar eignir í Microsoft Dynamics 365 Fjármál. Eignarleiga samræmist alþjóðlegum reikningsskilastöðlum (IFRS 16) og US GAAP-stöðlum (ASC 842). Eignarleiga nær í og vinnur úr upplýsingum um leigusamningana og hjálpar til við að búa til færslur í færslubók í gegnum gildistíma leigusamningsins, frá upphaflegri skráningu, mánaðarlegum færslum í færslubók, til virðisrýrnunar og lok leigusamningsins.
 
@@ -90,7 +90,7 @@ Eftirfarandi grein er fáanleg til að hjálpa til við að stilla og nota eigna
 
 ### <a name="blogs"></a>Blogg
 
-Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoft Dynamics 365 Finance and Operations - Financials-blogginu](https://community.dynamics.com/365/financeandoperations/b/financials) er að finna umfjöllun, fréttir og aðrar upplýsingar.
+Þú getur fundið skoðanir, fréttir og aðrar upplýsingar um [Microsoft Dynamics 365 blogg](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoft Dynamics 365 fjármál og rekstur - Fjárhagsblogg](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika Dynamics 365 á einum stað.
 
@@ -100,3 +100,4 @@ Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

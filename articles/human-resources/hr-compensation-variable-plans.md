@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2f51a095a23b651dca645b14e652519f20037e2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853075"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070559"
 ---
 # <a name="create-variable-compensation-plans"></a>Setja upp breytilega launaáætlun.
 
@@ -42,7 +42,11 @@ Breytileg laun snúa að óreglulegum launum starfsmanns, eins og bónusum og hl
 Fyrirtæki geta valið um að setja upp **veitireglur**. **Veitireglur** lýsa hvernig úthluta á breytilegri umbun yfir tíma. Til dæmis getur veitingarregla mælt fyrir um að starfsmaður fái 25 prósent af heildarlaunum sínum á hverju ári næstu fjögur árin. Veitireglur eru aðeins til upplýsingar.
 
 ## <a name="variable-compensation-plans"></a>Launafyrirkomulög breytilegra uppbóta
-**Launafyrirkomulag breytilegra uppbóta** inniheldur reglur, útreikningsaðferðir og sjálfgefin gildi fyrir útreikning breytilegra uppbóta fyrir skráða starfsmenn. Þegar launafyrirkomulag breytilegra uppbóta er stofnað verður að ákvarða gerð breytilegrar uppbóta. Gerð breytilegrar uppbótar ákvarðar hvort kerfið reiknar gjaldmiðilsupphæð eða fjölda eininga sem umbun. Einnig þarf að velja útreikningsaðferð:
+**Launafyrirkomulag breytilegra uppbóta** inniheldur reglur, útreikningsaðferðir og sjálfgefin gildi fyrir útreikning breytilegra uppbóta fyrir skráða starfsmenn. Þegar launafyrirkomulag breytilegra uppbóta er stofnað verður að ákvarða gerð breytilegrar uppbóta. Gerð breytilegrar uppbótar ákvarðar hvort kerfið reiknar gjaldmiðilsupphæð eða fjölda eininga sem umbun. 
+
+The **Takmarka aðgang að völdum hlutverkum** færibreyta takmarkar aðgang að bótaáætluninni við valin öryggishlutverk sem hafa verið úthlutað þeirri áætlun í Mannauðsmálum. Til dæmis, þegar þú býrð til launaáætlanir sem eru fyrir stjórnendur og ættu ekki að vera sýnilegar öllum HR-sértækum hlutverkum, geturðu notað þessa færibreytu til að takmarka aðgang að þessum launaáætlunum. 
+
+Einnig þarf að velja útreikningsaðferð:
 
 -   **Tímapunktur** – útreikningur á breytilegri umbun byggist á föstum launum sem starfsmaðurinn var með á tiltekinni dagsetningu. Sú dagsetning er tilgreind á vinnslutilvikinu þegar nýjar launaupphæðir eru unnar.
 -   **Samsett** – upphæð umbunar er reiknuð fyrir hvern sértækan fastlaunataxta sem starfsmaðurinn var með milli upphafs- og lokadagsetningar ferlis á vinnslutilvikinu. Taxtarnir eru síðan lagðir saman til að ákvarða lokaumbunina. Til dæmis meðan á ferlinu stóð fluttist starfsmaður í aðra stöðu sem hafði annan launataxta. Í þessu tilfelli er breytilega umbunin leiðrétt fyrir lengd þess tíma sem°starfsmaður hafði hvern°launataxta.

@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87bab110d99bd756038b9f556aa15ed9fd02fb97
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867413"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103973"
 ---
 # <a name="on-premises-deployment-home-page"></a>Uppsetning á staðnum – heimasíða
 
 [!include [banner](../includes/banner.md)]
 
-Þú getur sent inn Dynamics 365 Finance + Operations (on-premises). Þegar þú velur virkjun á staðnum eru kerfiskröfur, vélbúnaðarþörf og virkni önnur en þegar um er að ræða virkjun í skýi. Þessi grein veitir tengla á efni sem inniheldur upplýsingar sem eru sértækar fyrir innleiðingu á staðnum.
+Þú getur sent inn Dynamics 365 Finance + Operations (on-premises). Þegar þú velur virkjun á staðnum eru kerfiskröfur, vélbúnaðarþörf og virkni önnur en þegar um er að ræða virkjun í skýi. Þessi grein veitir tengla á efni sem inniheldur sérstakar upplýsingar um innleiðingu á staðnum.
 
 ## <a name="get-started"></a>Leiðsögn
 - [Yfirlit yfir uppsetningu á staðnum](on-premises-overview.md)
@@ -53,7 +53,7 @@ ms.locfileid: "8867413"
 - [Innflutningur skilgreininga fyrir rafræna skýrslugerð](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Myndun, útgáfa og prentun fylgiskjala í uppsetningu á staðnum](../analytics/printing-capabilities-on-premises.md)
 - [Skilgreina staðgengla fyrir innanhússumhverfi](onprem-reverseproxy.md)
-- [Setja upp tæknilegan stuðning fyrir forrit Finance and Operations](../lifecycle-services/support-experience.md)
+- [Settu upp tæknilega aðstoð fyrir fjármála- og rekstrarforrit](../lifecycle-services/support-experience.md)
 - [Tengigeta biðlara við internet](../user-interface/client-disconnected.md)
 - [Virkja uppfærslur í uppsetningum á staðnum](apply-updates-on-premises.md)
 - [Enduruppsetja umhverfi á staðnum](redeploy-on-prem.md)
@@ -73,9 +73,10 @@ ms.locfileid: "8867413"
 - [Forskriftir til að leysa vandamál í innanhússumhverfi](onprem-tsg-implementations.md)
 - [Vottorðssnúningur](certificate-rotation-on-prem.md)
 - [Greining á staðnum](on-premises-diagnostics.md)
-- [Fjarlægðar eða úreltar aðgerðir fyrir Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [Fjarlægðir eða úreltir eiginleikar fyrir fjármál og rekstur](../migration-upgrade/deprecated-features.md)
 - [Reglur um stuðningstíma hugbúnaðar og útgáfur á staðnum](../migration-upgrade/on-prem-version-update-policy.md)
  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

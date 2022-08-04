@@ -1,6 +1,6 @@
 ---
 title: Endurbæta rakningu niðurstaðna myndaðra rafrænna skýrslna til samanburðar við grunnlínugildi
-description: Þessi grein lýsir endurbótum á grunnlínueiginleika ER í Microsoft Dynamics 365 for Finance and Operations útgáfa 10.0.3 (júní 2019).
+description: Þessi grein lýsir endurbótum á grunnlínueiginleika ER í Microsoft Dynamics 365 Finance útgáfa 10.0.3 (júní 2019).
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb2e76492ac9f6feb71811d0fbfd25919b59ac4d
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847402"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109143"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Endurbæta rakningu niðurstaðna myndaðra rafrænna skýrslna til samanburðar við grunnlínugildi
 
 [!include[banner](../includes/banner.md)]
 
-Þessi grein lýsir fyrsta settinu af endurbótum sem gerðar hafa verið á grunneiginleika rafrænnar skýrslugerðar (ER) ramma. Þessar endurbætur eru fáanlegar í Microsoft Dynamics 365 for Finance and Operations útgáfu 10.0.3 (júní, 2019) og nýrri.
+Þessi grein lýsir fyrsta settinu af endurbótum sem hafa verið gerðar á grunneiginleika rafrænnar skýrslugerðar (ER) ramma. Þessar endurbætur eru fáanlegar í Microsoft Dynamics 365 Finance útgáfa 10.0.3 (júní 2019) og síðar.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Gera skilgreiningu á reglum grunnlína sjálfvirka
 
@@ -45,7 +45,7 @@ Hér eru sum af skrefunum:
 
 ## <a name="example-automate-the-setting-of-baseline-rules"></a>Dæmi: Gera skilgreiningu á reglum grunnlína sjálfvirka
 
-Til að klára skrefin í þessu dæmi verður þú fyrst að klára skrefin í dæminu í [Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunngildi](er-trace-reports-compare-baseline.md) grein, upp í gegnum hlutann „Bæta við nýrri grunnlínu fyrir hannað ER snið“.
+Til að klára skrefin í þessu dæmi verður þú fyrst að klára skrefin í dæminu í [Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunngildi](er-trace-reports-compare-baseline.md) grein, upp í gegnum hlutann „Bæta við nýrri grunnlínu fyrir hannað ER-snið“.
 
 ### <a name="review-added-baseline"></a>Skoðaðu viðbótargrunnlínu
 
@@ -208,3 +208,4 @@ Til að flytja inn grunnlínustillingar úr XML-skrá sem er geymd á Microsoft 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

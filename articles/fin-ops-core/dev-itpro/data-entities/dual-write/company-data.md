@@ -1,6 +1,6 @@
 ---
 title: Fyrirtækishugtak í Dataverse
-description: Þessi grein lýsir samþættingu fyrirtækjagagna milli Finance and Operations og Dataverse.
+description: Þessi grein lýsir samþættingu fyrirtækjagagna milli fjármála og rekstrar og Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ad0075e2b92ebeb9fba879bcae503100dc7adb47
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873179"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205937"
 ---
 # <a name="company-concept-in-dataverse"></a>Fyrirtækishugtak í Dataverse
 
@@ -23,15 +23,17 @@ ms.locfileid: "8873179"
 
 
 
-Í Finance and Operations er hugtakið *fyrirtæki* bæði lögleg smíð og viðskiptasmíð. Það er einnig öryggis- og sýnileikamörk fyrir gögn. Notendur vinna alltaf í samhengi við eitt fyrirtæki og flest gögnin eru röndótt af fyrirtækinu.
+Í fjármálum og rekstri er hugtakið a *fyrirtæki* er bæði lögfræðileg bygging og viðskiptabygging. Það er einnig öryggis- og sýnileikamörk fyrir gögn. Notendur vinna alltaf í samhengi við eitt fyrirtæki og flest gögnin eru röndótt af fyrirtækinu.
 
 Dataverse er ekki með sambærilegt hugtak. Næsta hugtakið er *rekstrareining*, sem er fyrst og fremst öryggis- og sýnileikamörk fyrir notendagögn. Þetta hugtak hefur ekki sömu lagalegu eða viðskiptalegu afleiðingar og hugtakið fyrirtæki.
 
 Vegna þess að rekstrareining og fyrirtæki eru ekki sambærileg hugtök er ekki mögulegt að þvinga kortlagningu á milli þeirra (1: 1) í þeim tilgangi að samþætta Dataverse. Hins vegar, vegna þess að notendur verða að sjá sömu línur í forritinu og Dataverse, hefur Microsoft kynnt til leiks nýja töflu í Dataverse sem nefnist cdm\_Fyrirtæki. Þessi tafla jafngildir fyrirtækjatöflunni í forritinu. Til að tryggja að sömu línur sjáist í forriti og nýju Dataverse er mælt með eftirfarandi uppsetningu gagna í Dataverse:
 
-+ Fyrir hverja Finance and Operations Company línu sem er virkjuð fyrir tvíritun, tengdur geisladiskur\_ Fyrirtækislína er búin til.
-+ Þegar cdm\_fyrirtækislína er búin til og virkjuð fyrir tvöfalda skráningu er sjálfgefin viðskiptaeining stofnuð með sama heiti. Þó að sjálfgefið teymi sé sjálfkrafa búið til fyrir þá rekstrareiningu er rekstrareiningin ekki notuð.
-+ Sérstakt eigendateymi er búið til sem hefur sama nafn. Það er líka tengt rekstrareiningunni.
++ Fyrir hverja fjármála- og rekstrarlínu Fyrirtækislínu sem er virkjað fyrir tvíritun, tengdur geisladiskur\_ Fyrirtækislína er búin til.
+
++ Þegar cdm\_fyrirtækislína er búin til og virkjuð fyrir tvöfalda skráningu er sjálfgefin viðskiptaeining stofnuð með sama heiti. Þó að sjálfgefið eigandateymi sé sjálfkrafa búið til fyrir þá rekstrareiningu, er rekstrareiningin ekki notuð.
++ Sérstakt eigandateymi er búið til sem ber sama nafn með Dual Write viðskeyti. Það er líka tengt rekstrareiningunni.
+
 + Sjálfgefið er að eigandi allra lína sem eru búnar til og tvöfalt skráðar á Dataverse sé stilltur á hópinn „DW-eigandi“ sem er tengdur við tengda viðskiptaeiningu.
 
 Eftirfarandi skýringarmynd sýnir dæmi um þessa gagnauppsetningu í Dataverse.
@@ -43,7 +45,7 @@ Eftirfarandi skýringarmynd sýnir dæmi um þessa gagnauppsetningu í Dataverse
 + Hlutverkinu „Sölustjóri“ er úthlutað til meðlima „USMF sölu“ teymisins.
 + Notendur sem eru með hlutverkið „sölustjóri“ hafa aðgang að öllum lyklalínum sem eru hluti af sömu viðskiptaeiningu og notendurnir eru meðlimir í.
 + "USMF Sales" teymið er tengt við USMF viðskiptadeildina sem áður var nefnd.
-+ Þess vegna geta meðlimir „USMF sölu“ teymisins séð hvaða reikning sem er í eigu „USMF DW“ notandans, sem hefði komið úr USMF Company töflunni í Finance and Operations.
++ Þess vegna geta meðlimir "USMF sölu" teymisins séð hvaða reikning sem er í eigu "USMF DW" notandans, sem hefði komið frá USMF Company töflunni í fjármálum og rekstri.
 
 ![Hvernig hægt er að nota teymi.](media/dual-write-company-2.png)
 

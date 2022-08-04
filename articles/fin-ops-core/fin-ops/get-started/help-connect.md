@@ -1,5 +1,5 @@
 ---
-title: Stilltu hjálparupplifunina fyrir Finance and Operations forrit
+title: Stilltu hjálparupplifunina fyrir fjármála- og rekstrarforrit
 description: Þessi grein veitir upplýsingar um íhluti hjálparkerfisins fyrir suma Microsoft Dynamics 365 forrit.
 author: margoc
 ms.date: 08/11/2021
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 35f5d73075d118079ccb0616fbd1c5e1a8e00424
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900130"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123625"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Stilltu hjálparupplifunina fyrir Finance and Operations forrit
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Stilltu hjálparupplifunina fyrir fjármála- og rekstrarforrit
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Í þessari grein finnur þú yfirlit yfir íhluti hjálparkerfisins fyrir fjármála- og rekstraröpp, svo sem Microsoft Dynamics 365 Fjármál,Dynamics 365 Supply Chain Management,Dynamics 365 Commerce, og Dynamics 365 Human Resources. Greinin útskýrir einnig hvernig á að tengja þessa íhluti og gefur yfirlit yfir ferlið við að búa til sérsniðna hjálp.
+Í þessari grein finnur þú yfirlit yfir íhluti hjálparkerfisins fyrir fjármála- og rekstrarforrit, svo sem Microsoft Dynamics 365 Fjármál,Dynamics 365 Supply Chain Management,Dynamics 365 Commerce, og Dynamics 365 Human Resources. Greinin útskýrir einnig hvernig á að tengja þessa íhluti og gefur yfirlit yfir ferlið við að búa til sérsniðna hjálp.
 
 ## <a name="help-architecture"></a>Högun Hjálpar
 
@@ -63,7 +63,7 @@ Til að skilgreina verkefnaleiðbeiningar fyrir lausn skal fylgja þessum skrefu
 2. Veljið BPM söfn (innan valins verks) til að sækja verkskráningu úr .
 3. Velja birtingarröð BPM safna. Birtingarröðin ákvarðar í hvaða röð verkskráningar úr söfnunum birtast á svæðinu **Hjálp**.
 
-Eftir að þú hefur lokið þessum skrefum geturðu opnað **Hjálp** rúðu og veldu **Verkefnaleiðbeiningar** flipa. Þú munt nú sjá verkefnaleiðbeiningarnar sem eiga við síðuna sem þú ert á í Finance and Operations forritum. Ef engin verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina.
+Eftir að þú hefur lokið þessum skrefum geturðu opnað **Hjálp** rúðu og veldu **Verkefnaleiðbeiningar** flipa. Þú munt nú sjá verkefnaleiðbeiningarnar sem eiga við síðuna sem þú ert á núna í fjármála- og rekstrarforritum. Ef engin verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina.
 
 ### <a name="showing-translated-task-guides"></a>Sýnir þýddar leiðbeiningar verkefninu
 
@@ -87,7 +87,7 @@ Fyrir samstarfsaðila, ef þú færir safn inn í fyrirtækissafn og hefur það
 
 ### <a name="connect-a-custom-help-site"></a>Tengja sérstillt hjálparsvæði
 
-Fjármála- og rekstrarforrit eru sjaldan notuð í út-af-kassa formi. Þess í stað er lausnin sérsniðin og útvíkkuð til að passa við þarfir fyrirtækisins. Einnig er hægt að sérsníða og víkka út hjálparupplifunina. Til dæmis er hægt að bæta við sérsniðinni hjálp á **hjálparsvæðið**.
+Fjármála- og rekstrarforrit eru sjaldan notuð í útbúnum formi. Þess í stað er lausnin sérsniðin og útvíkkuð til að passa við þarfir fyrirtækisins. Einnig er hægt að sérsníða og víkka út hjálparupplifunina. Til dæmis er hægt að bæta við sérsniðinni hjálp á **hjálparsvæðið**.
 
 Microsoft hefur gefið út verkfærasett til að auðvelda uppsetningu og teningu sérsniðinnar hjálpar á **hjálparsvæðinu**. Frekari upplýsingar um hvernig hægt er að setja upp sérsniðna hjálparlausn sem er tengd við **hjálparsvæðið** er finna í [Sérsniðið hjálparyfirlit](../../dev-itpro/help/custom-help-overview.md).
 
@@ -103,3 +103,4 @@ Ef óskað er eftir samstarfi við Microsoft í tengslum við verkfæri og ferli
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

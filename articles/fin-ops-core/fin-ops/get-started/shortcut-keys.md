@@ -1,8 +1,8 @@
 ---
 title: Flýtilyklar
-description: Þessi grein veitir yfirlit yfir flýtilyklasamsetningarnar sem þú getur notað þegar þú ert að vinna með Finance and Operations forritum.
+description: Þessi grein veitir yfirlit yfir samsetningar flýtivísana sem þú getur notað þegar þú ert að vinna með fjármála- og rekstrarforrit.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f0f833e3a6d45329fd8a69af658f392df32e4db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
+ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866118"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9140440"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
@@ -27,7 +27,7 @@ ms.locfileid: "8866118"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Flýtivísar geta hjálpað þér að slá inn gögn á fljótlegan og skilvirkan hátt í Finance and Operations öppum. 
+Flýtivísar geta hjálpað þér að slá inn gögn á fljótlegan og skilvirkan hátt í fjármála- og rekstraröppum. 
 
 > [!NOTE]
 > Flýtileiðir lyklaborðs sem hér er lýst vísa til bandarísks lyklaborðs. Lyklar á öðrum lyklaborðum samsvara hugsanlega ekki nákvæmlega lyklum á bandarísku lyklaborði.
@@ -36,7 +36,7 @@ Sumar flýtileiðirnar á þessari síðu eru *lyklastrengir*, sem þýðir að 
 
 ## <a name="finding-a-shortcut"></a>Að finna flýtilykil
 
-Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðmótinu. Hægrismelltu einfaldlega á stýringu og veldu **Skoða flýtileiðir**. Þetta mun opna svarglugga sem sýnir flýtivísana sem þú getur notað á grundvelli hvar þú ert á síðunni. Að öðrum kosti geturðu ýtt á Alt+Shift+K til að opna þennan glugga (og ýta á Alt+Shift+K í annað sinn til að sjá allar flýtileiðir sem eru í boði fyrir síðuna).    
+Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðmótinu. Hægrismelltu einfaldlega á stýringu og veldu **Skoða flýtileiðir**. Þetta mun opna svarglugga sem sýnir flýtivísana sem þú getur notað á grundvelli hvar þú ert á síðunni. Að öðrum kosti geturðu ýtt á Alt+Shift+K til að opna þennan glugga (og ýta á Alt+Shift+K í annað sinn til að sjá allar flýtileiðir sem eru tiltækar fyrir síðuna).    
 
 ## <a name="action-shortcuts"></a>Flýtileiðir
 
@@ -197,6 +197,7 @@ Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðm
 | Loka flettilistanum í skjámyndinni Upplýsingar (með bendilinn í flettilistanum) | Esc                        |
 | Fara á efni aðalsíðu (með bendilinn í annarri rúðu)                    | Alt+M,M                    |
 | Fara í upplýsingakassa (sem kann að fela í sér að opna hann)                       | Alt+M,B eða Ctrl+F2         |
+| Fara í næsta skýringartexta fyrir eiginleika                                              | Alt+M,C                    |
 
 > [!NOTE]
 > The **Straumlínulaga hegðun flipa í heilsíðuformum** eiginleiki, kynntur í útgáfu 10.0.26, gerir notendum kleift að fletta í gegnum öll svæði síðu án þess að þurfa mús eða sérstaka flýtilykla til að fara á milli svæða. Þú getur samt notað flýtilykla sem fyrir eru (svo sem Alt+M flýtilykla) til að fara hratt á milli svæða á síðu.
@@ -259,13 +260,14 @@ Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðm
 | Sýna meiri/minni upplýsingar í sprettigluggi með hreyfimynd (meðan verkleiðbeining er spiluð) | Alt+R,M                    |
 
 ## <a name="focus-management"></a>Fókusstjórnun 
-Fókusstjórnun lýsir því hvernig notendafókus er meðhöndlað í forriti. Fjármála- og rekstrarforrit eru með sérhæfða fókushegðun sem er ætlað að hámarka framleiðni notenda, sérstaklega fyrir gagnafærslur. Fókushegðun felur í sér eftirfarandi:  
+Fókusstjórnun lýsir því hvernig notendafókus er meðhöndlað í forriti. Fjármála- og rekstrarforrit hafa sérhæfða fókushegðun sem er ætluð til að hámarka framleiðni notenda, sérstaklega fyrir innsláttaratburðarás. Fókushegðun felur í sér eftirfarandi:  
 
--  Þegar síða er hlaðin mun fyrsta innsláttarstýringin sem hægt er að breyta á síðunni hafa fókus og getur samþykkt inntak notanda strax. Ef engin breytanleg innsláttarstýring er á síðunni, er varavalkosturinn fyrir upphafsfókus fyrsta innsláttarstýringuna á síðunni og síðan fyrsta, fókusstýringin á síðunni.   
--  Venjulega þegar hnappur er valinn er aðgerðin unnin og fókus gæti farið aftur á síðuna. Þegar þetta gerist hefur fókus tilhneigingu til að fara aftur í hnappastýringuna sem var valin. Þetta á við í fjármála- og rekstraröppum **nema** þegar hnappurinn er staðsettur í aðgerðarrúðunni eða á tækjastiku. Í þessum tilfellum, þegar aðgerðinni er lokið, fer fókusinn aftur í síðustu stjórn *úti* á aðgerðarrúðunni (eða tækjastikunni) sem hafði fókus áður en hnappurinn var valinn.
+-  Þegar síða er hlaðin mun fyrsta innsláttarstýringin sem hægt er að breyta á síðunni hafa fókus og getur samþykkja inntak notenda strax. Ef engin breytanleg innsláttarstýring er á síðunni, er varavalkosturinn fyrir upphafsfókus fyrsta innsláttarstýringuna á síðunni og síðan fyrsta, fókusstýringin á síðunni.   
+-  Venjulega þegar hnappur er valinn er aðgerðin unnin og fókus gæti farið aftur á síðuna. Þegar þetta gerist hefur fókus tilhneigingu til að fara aftur í hnappastýringuna sem var valin. Þetta á við í fjármála- og rekstraröppum **nema** þegar hnappurinn er staðsettur í aðgerðarrúðunni eða á tækjastiku. Í þessum tilfellum, þegar aðgerðinni lýkur, fer fókusinn aftur í síðustu stjórn *úti* á aðgerðasvæðinu (eða tækjastikunni) sem hafði fókus áður en hnappurinn var valinn.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Flýtilyklar fyrir greiningu á reikningum sem vantar](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -1,6 +1,6 @@
 ---
 title: Samþætt aðalsniðmát viðskiptavinar
-description: Þessi grein lýsir samþættingu viðskiptavinagagna milli Finance and Operations og Dataverse.
+description: Þessi grein lýsir samþættingu viðskiptavinagagna milli fjármála og rekstrar og Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 042042bb19b32d3c96b4e0c8521a8b1d65e7ab22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b16eab5c107a3176f0890372d397947698e71de
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890457"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111725"
 ---
 # <a name="integrated-customer-master"></a>Samþætt aðalsniðmát viðskiptavinar
 
@@ -30,9 +30,9 @@ Hægt er að ná góðum tökum á gögnum viðskiptavina í fleiri en einu Dyna
 
 ![Gagnaflæði viðskiptavinar.](media/dual-write-customer-data-flow.png)
 
-Viðskiptavini er hægt að flokka í stórum dráttum í tvær gerðir: viðskiptamenn/fyrirtækjaviðskiptavini og neytendur/endanotendur. Þessar tvær tegundir viðskiptavina eru geymdar og meðhöndlaðar á annan hátt í Finance and Operations og Dataverse.
+Viðskiptavini er hægt að flokka í stórum dráttum í tvær gerðir: viðskiptamenn/fyrirtækjaviðskiptavini og neytendur/endanotendur. Þessar tvær tegundir viðskiptavina eru geymdar og meðhöndlaðar á mismunandi hátt í fjármálum og rekstri og Dataverse.
 
-Í Finance and Operations eru bæði viðskipta-/fyrirtækjaviðskiptavinir og neytendur/endir notendur náð tökum á einni töflu sem er nefnd **CustTable** (CustCustomerV3Entity), og þau eru flokkuð út frá **Tegund** eiginleiki. (Ef **Gerð** er stillt á **Fyrirtæki** er viðskiptavinurinn viðskiptamaður/fyrirtækjaviðskiptavinur og ef **Gerð** er stillt á **Einstaklingur** er viðskiptavinurinn neytandi/notandi.) Aðalupplýsingar tengiliða eru meðhöndlaðar í gegnum SMMContactPersonEntity töfluna.
+Í fjármálum og rekstri eru bæði viðskipta-/fyrirtækjaviðskiptavinir og neytendur/endir notendur náð tökum á einni töflu sem er nefnd **CustTable** (CustCustomerV3Entity), og þau eru flokkuð út frá **Tegund** eiginleiki. (Ef **Gerð** er stillt á **Fyrirtæki** er viðskiptavinurinn viðskiptamaður/fyrirtækjaviðskiptavinur og ef **Gerð** er stillt á **Einstaklingur** er viðskiptavinurinn neytandi/notandi.) Aðalupplýsingar tengiliða eru meðhöndlaðar í gegnum SMMContactPersonEntity töfluna.
 
 Í Dataverse eru viðskiptamenn/fyrirtækjaviðskiptavinir þjálfaðir í lykiltöflunni og eru auðkenndir sem viðskiptavinir þegar eigindin **Gerð vensla** er stillt á **Viðskiptavinur**. Bæði neytendur/notendur og tengiliður eiga fulltrúa í tengiliðatöflunni. Til að veita skýran aðskilnað milli neytenda/endanotanda og tengiliðs er taflan **Hafðu samband** með Boole-flöggun sem er nefnd **Seljanlegt**. Þegar **Seljanlegt** er **Satt** er tengiliðurinn neytandi/notandi og hægt er að búa til tilvitnanir og pantanir fyrir þann tengilið. Þegar **Seljanlegt** er **Rangt** er tengiliðurinn er bara aðaltengiliður viðskiptavinar.
 
@@ -57,3 +57,4 @@ Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla         | lý
 [Greiðsluskilmálar](mapping-reference.md#161) | msdyn_paymentterms | Þetta sniðmát samstillir tilvísunargögn greiðsluskilmála (skilmála greiðslu), bæði fyrir viðskiptavini og lánardrottna.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

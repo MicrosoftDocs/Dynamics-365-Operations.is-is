@@ -1,5 +1,5 @@
 ---
-title: Stillingar fyrir fjármálainnsýn - útgáfa 10.0.20 og síðar
+title: Stillingar fyrir fjármálainnsýn - útgáfa 10.0.20 og nýrri
 description: Þessi grein útskýrir hvernig á að stilla kerfið þitt til að nota þá möguleika sem eru tiltækir í Finance Insights í útgáfu 10.0.20 og síðar.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: e6b9c34ee68a25ac9613a65cf63443751a39c576
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d05403113c9b178553134ce1a9066bb2acf59b0f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868519"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068106"
 ---
-# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Stillingar fyrir fjármálainnsýn - útgáfa 10.0.20 og síðar
+# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Stillingar fyrir fjármálainnsýn - útgáfa 10.0.20 og nýrri
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,7 +38,7 @@ Fjármálainnsýn sameinar virkni frá Microsoft Dynamics 365 Fjármál með Dat
 
 Fylgja skal eftirfarandi skrefum til að setja upp umhverfin.
 
-1. Í Microsoft Dynamics Lifecycle Services (LCS) skal stofna eða uppfæra Finance-umhverfi. Umhverfið krefst forritaútgáfu 10.0.20 eða nýrra af Finance and Operations forritum.
+1. Í Microsoft Dynamics Lifecycle Services (LCS) skal stofna eða uppfæra Finance-umhverfi. Umhverfið krefst forritaútgáfu 10.0.20 eða nýrra af fjármála- og rekstrarforritum.
 2. Umhverfið verður að vera vel tiltækt í Sandbox. (Þessi tegund umhverfis er einnig þekkt sem umhverfi í tveggja laga umhverfi.) Frekari upplýsingar er að finna í [Umhverfisskipulagning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 3. Ef þú ert að stilla fjármálainnsýn í sandkassaumhverfi gætirðu þurft að afrita framleiðslugögn í það umhverfi til að spár virki. Spálíkanið notar gögn til margra ára til að búa til spár. Contoso kynningargögnin innihalda ekki nógu mörg söguleg gögn til að þjálfa spálíkanið á fullnægjandi hátt. 
 
@@ -126,7 +126,7 @@ Ef ekki eitthvað af undanfarandi forritum finnst ekki skal prófa eftirfarandi 
         - **Afköst** – mælt er með **Hefðbundin**.
         - **Reikningsgerð** – velja þarf **StorageV2**.
 
-    3. Í svarglugganum **Ítarlegir valkostir**, fyrir **Data Lake Storage Gen2**, skal velja **Virkja** undir **Stigveldis nafnabil**. Ef þú virkjar ekki þennan eiginleika geturðu ekki neytt gagna sem Finance and Operations forrit skrifa með því að nota þjónustu eins og Power BI gagnaflæði.
+    3. Í svarglugganum **Ítarlegir valkostir**, fyrir **Data Lake Storage Gen2**, skal velja **Virkja** undir **Stigveldis nafnabil**. Ef þú virkjar ekki þennan eiginleika geturðu ekki neytt gagna sem fjármála- og rekstrarforrit skrifa með því að nota þjónustu eins og Power BI gagnaflæði.
     4. Veljið **yfirfara og búa til**. Þegar uppsetningu er lokið sést nýja tilfangið til staðar á Azure-gáttinni.
     5. Opnaðu geymslureikninginn sem þú stofnaðir.
     6. Á valmyndinni til vinstri skal velja **Aðgangslyklar**.
@@ -755,3 +755,4 @@ Fylgið þessum skrefum til að setja upp innbót fjármálainnsýnar.
 Ef þú hefur áhuga á að veita endurgjöf, eða ef þú þarft aðstoð, sendu tölvupóst á [Innsýn í fjármálum](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

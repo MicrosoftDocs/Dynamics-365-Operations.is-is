@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2b1611ff7877efc4a2f98b8f84a1ef91971902ab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f0590c4c906e746b54ac30fd6531b8c1cd67915
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869518"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067333"
 ---
 # <a name="rebate-management-deal-workflows"></a>Verkflæði tilboða fyrir stjórnun eftirágreidds afsláttar
 
 [!include [banner](../includes/banner.md)]
 
-Til að samþykkja afsláttasamninga notar endurgreiðslustjórnun sama verkflæðisvettvang og önnur fjármála- og rekstrarforrit. Tvö vinnsluferli eru tengd við öll verkflæði:
+Til að samþykkja afsláttarsamninga notar endurgreiðslustjórnun sama verkflæðisvettvang og önnur fjármála- og rekstrarforrit. Tvö vinnsluferli eru tengd við öll verkflæði:
 
 - Einn þáttur verkflæðisins samþykkir tilboðið.
 - Einn þáttur verkflæðisins virkjar tilboðið þannig að notandinn eða verkflæðisferlið getur samþykkt færslurnar.
@@ -55,3 +55,4 @@ Hægt er að breyta eftirfarandi stillingum fyrir tilboð eftir að það hefur 
 - Til dags.
 
 Auk þess er hægt að fjarlægja línur eftirágreidds afsláttar.
+

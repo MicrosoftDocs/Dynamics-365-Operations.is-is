@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9adbf8f5baa829fb28977d618a4f8beee31ef080
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4d423b149957e624269231aede510190f0c14c7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870134"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068781"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Skýrsla fyrir framlengingu eigna
 
@@ -30,7 +30,7 @@ ms.locfileid: "8870134"
 
 **Framlenging eigna** skýrslan notar ramma rafrænnar skýrslugerðar (ER). Áður en hægt er að keyra skýrsluna verður að flytja inn skilgreiningar á eignalíkaninu og framlagningu eigna frá Microsoft Dynamics Lifecycle Services (LCS). Hægt er að skoða leiðbeiningar í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
-Þessi skýrsla er fáanleg í Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 eða sem bráðabót fyrir Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (júlí 2017). Það verður að beita þremur bráðabótum á umhverfi sem er með júlí 2017 útgáfuna:
+Þessi skýrsla er aðgengileg í Microsoft Dynamics 365 Finance, Enterprise útgáfa 7.3, eða sem flýtileiðrétting fyrir Microsoft Dynamics 365 Finance, Enterprise útgáfa (júlí 2017). Það verður að beita þremur bráðabótum á umhverfi sem er með júlí 2017 útgáfuna:
 
 - **KB 4041754:** Ekki er hægt að hlaða niður skilgreiningum rafrænnar skýrslugerðar (ER) frá LCS, passar ekki við núverandi útgáfu eftir að hafa sótt uppfærslupakkann
 - **KB 4056107:** Rafræn skýrslugerð (GER) heildaruppfærsla 5
@@ -67,3 +67,4 @@ Eftirfarandi tafla lýsir svæðunum sem eru tiltæk í skýrslunni.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

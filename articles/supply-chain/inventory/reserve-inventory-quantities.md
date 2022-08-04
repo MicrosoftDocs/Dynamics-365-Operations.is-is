@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c407b45f3df91d569c2bf043ff9f83b640837bb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0c0e283189998473469164398fa6f43c8e8825e
+ms.sourcegitcommit: 3a882de1f1c27654a8e92ebc1999c75678cc9a53
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899441"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9201867"
 ---
 # <a name="reserve-inventory-quantities"></a>Taka frá birgðamagn
 
@@ -75,7 +75,7 @@ Sölupöntun sem á að vera tekin frá sjálfkrafa og afhent 4. aprí 2016, tek
 
 Það eru tveir valmöguleikar tengdir frátekningar á **færibreytur birgða- og vöruhúsakerfis** síðuna:
 -   Valkosturinn **taka frá pantaðar vörur** á flipanum **almennt** gerir þér kleift að taka frá vöruinnhreyfingar sem eru pantaðar á móti vöruúthreyfingum í Viðskiptakröfum, Verkefnastjórnun og bókhald og Framleiðslustýringu. Ef þessi valkostur er hreinsaður verður aðeins hægt að taka frá vörur sem hafa verið efnislega mótteknar. Ef tiltekin vara hefur verið sett þannig upp að hún samþykki neikvæðar birgðir skiptir þessi reitur ekki máli.
--   **Taka vörur frá sjálfkrafa** valkostinn á **Flutningi** flipanum ákvarðar sjálfgefnar stillingar ef vörum er tekið sjálfvirkt frá fyrir flutningspöntun. Sjálfgefin stilling er hægt að hnekkja í einstökum flutningspantanir.
+-   The **Pantaðu hluti sjálfkrafa** valmöguleika á **Flytja** flipinn ákvarðar sjálfgefna stillingu ef hlutir eru sjálfkrafa fráteknir fyrir millifærslupantanir. Sjálfgefin stilling er hægt að hnekkja í einstökum flutningspantanir.
 
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Reglur um birgðafrátekningu á síðunni færibreytur framleiðslu
 

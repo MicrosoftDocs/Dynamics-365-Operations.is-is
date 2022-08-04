@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 591d4269a1188ed8f098a342729ba49b9772f42d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 75c044d1133e1c4765cd97f4ab7e2a08ba998c35
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851653"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112151"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Fartækjavinnusvæði samstarfs lánardrottna
 
@@ -28,7 +28,7 @@ ms.locfileid: "8851653"
 
 Þessi grein veitir upplýsingar um **Samstarf söluaðila** færanlegt vinnusvæði. Þessi vinnusvæði gerir lánardrottnum kleift að fylgjast með innkaupapöntunum sem hafa verið sendar til þeirra til samþykktar. Þeir geta einnig skoðað upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði.
 
-Þetta farsímavinnusvæði er ætlað til notkunar með Finance and Operations (Dynamics 365) farsímaforritinu.
+Þetta farsímavinnusvæði er ætlað til notkunar með fjármála- og rekstrarforritinu (Dynamics 365).
 
 ## <a name="overview"></a>Yfirlit 
 Fartækjavinnusvæðið **Samstarf lánardrottna** heldur lánardrottnum upplýstum um nýjar innkaupapantanir svo að hægt sé að skoða innkaupapantanir og síðan svara þeim í vefbiðlara. 
@@ -110,7 +110,7 @@ Ef Microsoft Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
 
-Sæktu og settu upp Finance and Operations (Dynamics 365) farsímaforritið:
+Sæktu og settu upp fjármála- og rekstrarforritið (Dynamics 365):
 
 -   [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -171,3 +171,4 @@ Allar breytingar sem gerðar voru í svari raðarlínu eru sýndar. Hins vegar e
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

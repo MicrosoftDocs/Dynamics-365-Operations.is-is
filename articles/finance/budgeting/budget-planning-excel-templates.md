@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8996ad5d03327b9273be7860a3905dc25efa7e90
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872500"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070665"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Sniðmát fjárhagsáætlunargerðar fyrir Excel
 
@@ -28,11 +28,11 @@ ms.locfileid: "8872500"
 
 Þessi grein lýsir því hvernig á að búa til Microsoft Excel sniðmát sem hægt er að nota með fjárhagsáætlunum.
 
-Þessi grein sýnir hvernig á að búa til Excel sniðmát sem verða notuð með fjárhagsáætlunaráætlunum með því að nota staðlaða kynningargagnasettið og innskráningu Admin notanda. Nánari upplýsingar um fjárhagsáætlunargerð eru í [Yfirlit fjárhagsáætlunargerðar](budget-planning-overview-configuration.md). Einnig er hægt að fylgja sýnidæminu [Fjárhagsáætlunargerð](budget-plan.md) til að læra skilgreiningu og notkunarreglur grunneininda.
+Þessi grein sýnir hvernig á að búa til Excel sniðmát sem verða notuð með fjárhagsáætlunaráætlunum með því að nota venjulegt kynningargagnasett og innskráningu Admin notanda. Nánari upplýsingar um fjárhagsáætlunargerð eru í [Yfirlit fjárhagsáætlunargerðar](budget-planning-overview-configuration.md). Einnig er hægt að fylgja sýnidæminu [Fjárhagsáætlunargerð](budget-plan.md) til að læra skilgreiningu og notkunarreglur grunneininda.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Mynda vinnublað með útliti fjárhagsáætlunarskjals
 
-Fjárhagsáætlunarskjal má skoða og breyta með einu eða fleiri útlitum. Hvert útlit getur haft an tengdar fjárhagsáætlunarskjal sniðmát til að skoða og breyta fjárhagsáætlungögnum í Excel vinnublað. Í þessari grein verður sniðmát fjárhagsáætlunarskjals búið til með því að nota núverandi skipulagsuppsetningu. 
+Fjárhagsáætlunarskjal má skoða og breyta með einu eða fleiri útlitum. Hvert útlit getur haft an tengdar fjárhagsáætlunarskjal sniðmát til að skoða og breyta fjárhagsáætlungögnum í Excel vinnublað. Í þessari grein verður sniðmát fjárhagsáætlunarskjals myndað með því að nota núverandi skipulagsuppsetningu. 
 
 1. Opnaðu **Fjárhagsáætlunarlista** (**Fjárhagsáætlun** &gt; **Fjárhagsáætlunargerðir**). 
 2. Smellt er á **Ný** til að búa til nýtt fjárhagsáætlunarskjal. 
@@ -79,7 +79,7 @@ Valinn svæðaflokkur sýnir þá dálka sem eru í boði í sniðmátinu. Smell
 [![Bæta við og setja inn dálk.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Til að skilgreina formúluna þarf að stofna formúluna í vinnublaðinu og afrita hana síðan í gluggann **Hönnun**. Bundin tafla í Finance and Operations fær yfirleitt heitið „AXTable1“. Til dæmis, til að draga saman dálkana Request Q1 : Request Q4 í vinnubókinni er formúlan = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].
+> Til að skilgreina formúluna þarf að stofna formúluna í vinnublaðinu og afrita hana síðan í gluggann **Hönnun**. Fjárhags- og rekstrarbundin tafla mun venjulega heita "AXTable1". Til dæmis, til að draga saman dálkana Request Q1 : Request Q4 í vinnubókinni er formúlan = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].
 
 Endurtaktu þessi skref til að setja inn dálkinn **leiðrétting**. Notaðu formúla = AxTable1\[Samtals beiðni\]\*$I$1 fyrir þennan dálkur. Þetta mun taka gildið í hólfi I1 og margfalda gildin í dálknum **Samtals beiðni** til að reikna út leiðréttingarupphæðir.
 
@@ -129,3 +129,4 @@ Einnig er hægt að stofna og nota snúningstöflur og myndrit fyrir viðbótarf
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

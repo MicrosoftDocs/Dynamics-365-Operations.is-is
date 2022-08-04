@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4843e5bc0cc97f47e212c0cb4a6ddc4a2032f306
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cdfd8db68647623e2b5f1b9eca93b57776e1bfe9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858128"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067062"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Stjórna leyfisbeiðnum í Teams
 
@@ -43,7 +43,7 @@ Hægt er að finna Dynamics 365 Human Resources forritið í Teams versluninni.
 Ef forritið skráir þig ekki sjálfkrafa inn skaltu velja flipann **Stillingar** til að skrá þig inn.
 
 > [!NOTE]
-> Ef þú sérð ekki innskráningarglugga skaltu uppfæra vafrastillingarnar þínar til að leyfa sprettiglugga. 
+> Ef þú sérð ekki innskráningarglugga skaltu uppfæra stillingar vafrans til að leyfa sprettiglugga. 
 
 Ef þú hefur aðgang að fleiri en einu tilviki af Human Resources er hægt að velja hvaða umhverfi á að tengja við á flipanum **Stillingar**.
 
@@ -55,13 +55,13 @@ Ef þú hefur aðgang að fleiri en einu tilviki af Human Resources er hægt að
 Þegar forritið hefur verið sett upp birtast boð með upplýsingar um þær aðgerðir sem þjarkinn getur gripið til.
 
 > [!NOTE]
-> Þegar þú hefur fyrst samskipti við vélmanninn gætirðu þurft að skrá þig inn. Ef þú sérð ekki innskráningarglugga skaltu uppfæra vafrastillingarnar þínar til að leyfa sprettiglugga.
+> Þegar þú hefur fyrst samskipti við vélmanninn gætirðu þurft að skrá þig inn. Ef þú sérð ekki innskráningarglugga skaltu uppfæra stillingar vafrans til að leyfa sprettiglugga.
 
 Hægt er að spyrja þjarkann um að:
 
 - Skoða núgildandi leyfisstöðu þína. Til dæmis er hægt að senda skilaboð sem segja „Skoða leyfisstöður“.
 
-- Hefja leyfisbeiðni fyrir notanda. Sendu til dæmis skilaboð sem segja „Taktu frí“ eða „Ég vil taka frí næsta fimmtudag og föstudag“ til að vera nákvæmari fyrir beiðni um leyfi fyrir orlofstegundina. 
+- Hefja leyfisbeiðni fyrir notanda. Sendu til dæmis skilaboð sem segja: „Taktu frí“ eða „Ég vil taka frí næsta fimmtudag og föstudag“ til að vera nákvæmari fyrir beiðni um leyfi fyrir orlofstegundina. 
 
   ![Hefja beiðni um leyfi í Teams-spjalli.](./media/hr-teams-leave-app-initiate.png)
 
@@ -185,7 +185,7 @@ Ef þýðingar birtast ekki eins og búist er við skal ganga úr skugga um tung
 
 ![Valkostir notanda í Human Resources.](./media/hr-teams-leave-app-user-options.png)
 
-Láttu okkur vita ef vandamál vegna þýðinga er enn til staðar. Fyrir upplýsingar, sjá [Fáðu stuðning fyrir Finance and Operations öpp eða Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+Láttu okkur vita ef vandamál vegna þýðinga er enn til staðar. Fyrir upplýsingar, sjá [Fáðu stuðning fyrir fjármála- og rekstrarforrit eða Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Villa þegar leyfisbeiðnir eru samþykktar í forriti Human Resources í Teams
 
@@ -201,7 +201,7 @@ Ef villa kemur upp þegar verið er að reyna að samþykkja leyfisbeiðnir í T
 
 2. Gangið úr skugga um að notendur séu skráði inn í flipann **Spjall** með sömu innskráningarupplýsingunum og þeir nota til að samþykkja leyfisbeiðnir. Notið skilaboðin „skrá út“ og síðan „skrá inn“ til að skrá inn með réttum innskráningarupplýsingum.
 
-3. Ef vandamálið er viðvarandi skaltu athuga stöðuna á **Viðskiptaviðburðakerfi** hópvinna sem kerfisstjóri. Ef það er í a **Að bíða** eða **Framkvæmd** stigi, athugaðu aftur eftir nokkrar mínútur. Ef staðan helst óbreytt, skráðu þig stuðningsmiða svo að teymið okkar geti hjálpað til við að laga málið.
+3. Ef vandamálið er viðvarandi skaltu athuga stöðuna á **Viðskiptaviðburðakerfi** hópvinna sem kerfisstjóri. Ef það er í a **Bíður** eða **Framkvæmd** stigi, athugaðu aftur eftir nokkrar mínútur. Ef staðan helst óbreytt, skráðu þig stuðningsmiða svo að teymið okkar geti hjálpað til við að laga málið.
 
 ## <a name="known-accessibility-issues"></a>Þekkta aðgengisvandamál
 
@@ -210,7 +210,7 @@ Human Resources-forritið í Teams er með eftirfarandi aðgengisvandamál sem v
 | Úthreyfing | Hjáleið eða skýring |
 | --- | --- |
 | Ef 400% aðdráttur er notaður á skjáborði eru sumir aðgerðahnappar ekki sýnilegir. | Mælt er með því að notað sé stækkunargler þar til við styðjum þennan aðdrátt. |
-| Á **Frí** flipa, raddsetning tilkynnir hnappaaðgerð á meðan hún les hausinn fyrir frítímanetið. | Hausinn og þættirnir í hnitanetinu eru flokkaðir eftir árum og þeir eru hægt að fella saman. Voiceover túlkar þessa kynningu sem verklegt atriði, en það er það ekki. |
+| Á **Frí** flipa, talsetning tilkynnir hnappaaðgerð á meðan hún les hausinn fyrir frítímanetið. | Hausinn og þættirnir í hnitanetinu eru flokkaðir eftir árum og þeir eru hægt að fella saman. Voiceover túlkar þessa kynningu sem verklegt atriði, en það er það ekki. |
 | Á flipanum **Frí** er aukaleg strokhreyfing þegar verið er að fletta að **Ástæðukóði** í nýrri beiðni. | Engin falin stjórnun er til staðar sem storkufletting er að reyna að ná til. |
 | Á flipanum **Frí**, ef strokið á meðan dagatalið er opið, er endað utan stýringar í stað upphafs nýrrar beiðni eða þegar beiðni er breytt. | Þegar komið er að **Fara á daginn í dag** er það síðasti hlutinn og strokið er í öfuga átt til að komast aftur efst. |
 | Á flipanum **Spjall** er farið aftur á toppinn þegar dagsetningin er slegin inn á meðan verið er að nota hjálpartækið eða lyklaborðið. | Flipi þar til þú nærð innsláttarsvæðinu aftur. |
@@ -219,11 +219,11 @@ Human Resources-forritið í Teams er með eftirfarandi aðgengisvandamál sem v
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft Language Understanding Intelligent Service (LUIS)
 
-Með Dynamics 365 Human Resources bot í Microsoft Teams, eru textainntak notandans greind til að skilja undirliggjandi fyrirspurn/tilgang. Inntak notandans eins og „Search account Contoso“ er beint til einnar af vitsmunaþjónustu Microsoft sem kallast Language Understanding Intelligent Service (LUIS). Lesa meira um LUIS  [hér](https://www.luis.ai/). LUIS-þjónustan ræður úr eða skilur ásetning notanda (í þessu tilviki er ætlunin að finna upplýsingar) og markeiningu (í þessu tilviki er tilgreinda einingin reikningur sem heitir Contoso). Þessar upplýsingar eru síðan sendar til Microsoft [Azure bot ramma](https://azure.microsoft.com/services/bot-service/), sem hefur samskipti við gögn frá Dynamics 365 Human Resources og sækir þær upplýsingar sem óskað er eftir fyrir notandafyrirspurnina. 
+Með Dynamics 365 Human Resources bot í Microsoft Teams, eru textainnsláttur notandans greind til að skilja undirliggjandi fyrirspurn/tilgang. Inntak notandans eins og „Search account Contoso“ er beint til einnar af hugrænu þjónustu Microsoft sem kallast Language Understanding Intelligent Service (LUIS). Lesa meira um LUIS  [hér](https://www.luis.ai/). LUIS-þjónustan ræður úr eða skilur ásetning notanda (í þessu tilviki er ætlunin að finna upplýsingar) og markeiningu (í þessu tilviki er tilgreinda einingin reikningur sem heitir Contoso). Þessar upplýsingar eru síðan sendar til Microsoft [Azure bot ramma](https://azure.microsoft.com/services/bot-service/), sem hefur samskipti við gögn frá Dynamics 365 Human Resources og sækir þær upplýsingar sem óskað er eftir fyrir notendafyrirspurnina. 
 
-Með því að setja upp og leyfa aðgang að þjarkanum samþykkir þú að leyfa LUIS-þjónustunni og Azure þjarkaramma að vinna úr ásetningi á bak við fyrirspurn, sem leiðir til betri notandaupplifunar. LUIS-þjónustan og Azure þjarkaramminn kunna að hafa mismikið samræmi samanborið við Dynamics 365 Human Resources. Þó að LUIS þjónustan hafi aðeins aðgang að notendafyrirspurnum og er ekki hönnuð til að vera tengd við notandann Dynamics 365 Human Resources gögnum eða reikningi, notandi á Dynamics 365 Human Resources láni gæti sjálfviljugur slegið inn fyrirspurn sem inniheldur viðskiptavinagögn, persónuupplýsingar eða önnur gögn og slíkt fyrirspurnarefni gæti verið sent til LUIS þjónustunnar og Azure bot ramma. 
+Með því að setja upp og leyfa aðgang að þjarkanum samþykkir þú að leyfa LUIS-þjónustunni og Azure þjarkaramma að vinna úr ásetningi á bak við fyrirspurn, sem leiðir til betri notandaupplifunar. LUIS-þjónustan og Azure þjarkaramminn kunna að hafa mismikið samræmi samanborið við Dynamics 365 Human Resources. Þó að LUIS þjónustan hafi aðeins aðgang að notendafyrirspurnum og sé ekki hönnuð til að vera tengd við notandann Dynamics 365 Human Resources gögnum eða reikningi, notandi á Dynamics 365 Human Resources láni gæti af fúsum og frjálsum vilja slegið inn fyrirspurn sem inniheldur viðskiptavinagögn, persónuupplýsingar eða önnur gögn og slíkt fyrirspurnarefni gæti verið sent til LUIS þjónustunnar og Azure bot ramma. 
 
-Innihald fyrirspurna og skilaboða notenda er varðveitt í LUIS kerfinu í að hámarki 30 daga, er dulkóðað í hvíld og er ekki notað til þjálfunar eða endurbóta á þjónustu. Lestu meira um Cognitive Services  [hér](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
+Innihald fyrirspurna og skilaboða notanda er varðveitt í LUIS kerfinu í að hámarki 30 daga, er dulkóðað í hvíld og er ekki notað til þjálfunar eða endurbóta á þjónustu. Lestu meira um Cognitive Services  [hér](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 
 Til að stjórna stjórnandastillingum fyrir forrit í Microsoft Teams er farið í [Microsoft Teams stjórnendamiðstöð](https://admin.teams.microsoft.com/).
 
@@ -245,3 +245,4 @@ Til að takmarka aðgang að Human Resources í Microsoft Teams fyrir fyrirtæki
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

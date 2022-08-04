@@ -1,6 +1,6 @@
 ---
 title: Samþættur skattur
-description: Þessi grein lýsir samþættingu skattagagna milli Finance and Operations og Dataverse.
+description: Þessi grein lýsir samþættingu skattagagna milli fjárhags og rekstrar og Dataverse.
 author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 8864a9567d57739aa72fa1859f5cfce6df33e8f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 29d8b2079b5d1cd70f14e096780f83a4a38d4b63
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864544"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111537"
 ---
 # <a name="integrated-tax"></a>Samþættur skattur
 
@@ -28,7 +28,7 @@ Skattuppsetningargögn skilgreina uppsetningu bæði á óbeinum sköttum (VSK, 
 
 Skattagögn innihalda safn af töflukortum sem vinna saman í gagnasamskiptum, eins og sýnt er í eftirfarandi töflu.
 
-| Forrit Finance and Operations | Forrit viðskiptavinatengsla | Lýsing |
+| Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla | Lýsing |
 |-----------------------------|-----------------------------------|-------------|
 [VSK-flokkur vöru](mapping-reference.md#196) | msdyn_taxitemgroups | |
 [Skattayfirvöld](mapping-reference.md#193) | msdyn_taxauthorities | |
@@ -39,3 +39,4 @@ Skattagögn innihalda safn af töflukortum sem vinna saman í gagnasamskiptum, e
 [Staðgreiðsluskattsflokkar](mapping-reference.md#211) | msdyn_withholdingtaxgroups | |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

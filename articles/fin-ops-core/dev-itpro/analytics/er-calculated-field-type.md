@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a4eb70144957ecdbeba4246fb8c7cd6a20cb08c
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934724"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108330"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Stuðningur við færibreytur kallar á ER gagnagjafa af reitagerðinni Reiknað
 
@@ -36,7 +36,7 @@ Til að klára dæmin í þessari grein verður þú að hafa eftirfarandi aðga
     - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
     - Kerfisstjóri
 
-- Aðgang að tilviki Regulatory Configuration Service (RCS) sem hefur verið úthlutað fyrir sama leigjandann og fyrir Finance and Operations, fyrir eitt af eftirfarandi hlutverkum:
+- Aðgangur að Regulatory Configuration Services (RCS) sem hefur verið útvegað fyrir sama leigjanda og fjármál og rekstur fyrir eitt af eftirfarandi hlutverkum:
 
     - Þróunaraðili rafrænnar skýrslulausnar
     - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
@@ -84,7 +84,7 @@ Einnig verður að sækja og geyma staðbundið eftirfarandi skrár.
             - Summa skattgilda.
             - Lágmarksgildi beitts skatthlutfalls.
 
-    Vörpun líkansins í þessari stillingu útfærir grunngagnalíkanið fyrir hvaða ER-snið sem er búið til fyrir þetta líkan og keyrt í Finance and Operations. Fyrir vikið verður innihald gagnafjafanna **Tax** og **Gr** berskjaldað fyrir ER-sniðum eins og óhlutbundnum gagnagjöfum.
+    Líkanskortlagningin í þessari uppsetningu útfærir grunngagnalíkanið fyrir hvaða ER snið sem er búið til fyrir þetta líkan og framkvæmt í fjármálum og rekstri. Fyrir vikið verður innihald gagnafjafanna **Tax** og **Gr** berskjaldað fyrir ER-sniðum eins og óhlutbundnum gagnagjöfum.
 
     ![Hönnuðarsíða líkanavörpunar sem sýnir Tax- og Gr-gagnagjafa.](media/er-calculated-field-type-01.png)
 
@@ -343,3 +343,4 @@ Endurtekin köll í reiknaða reiti með færibreytu eru ekki studd.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

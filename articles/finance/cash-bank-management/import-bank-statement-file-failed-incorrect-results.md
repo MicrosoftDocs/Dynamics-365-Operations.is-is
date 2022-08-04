@@ -1,7 +1,7 @@
 ---
 title: Úrræðaleit vegna innflutnings bankayfirlitsskrár
 description: Þessi grein útskýrir hvernig á að laga vandamál sem stafa af litlum mun á bankayfirlitsskránni.
-author: panolte
+author: angelad116
 ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
@@ -12,19 +12,22 @@ ms.reviewer: kfend
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 422b2df6c4de3a948b0e62bfb70f99b12e04a8f9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 44658ea48b9f7dae76c34c5f3d8828c9e8c4ac32
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711174"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151761"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Úrræðaleit vegna innflutnings bankayfirlitsskrár
 
 [!include [banner](../includes/banner.md)]
+
+>[!NOTE]
+>Þessi virkni verður úrelt september 2022, nýir notendur ættu að nota rafræna skýrslugerð.
 
 Það er mikilvægt að bankayfirlitsskráin frá bankanum passi við uppsetninguna sem er Microsoft Dynamics 365 Fjármál styður. Vegna strangar stöðlum fyrir bankayfirlit virka flestar samþættingar rétt. Hins vegar er skrá bankayfirlits stundum ekki hægt að flytja inn eða hefur rangar niðurstöður. Venjulega er þessi vandamál valdið af lítið mismun í bankayfirlitsskránni. Þessi skrá útskýrir hvernig má laga þennan mismun og leysa úr vandamálinu.
 
@@ -39,7 +42,7 @@ ms.locfileid: "8711174"
 Berðu saman skilgreiningu útlits bankaskrár við innflutningsskilgreiningu Finance og taktu eftir öllu misræmi í reitum og einingum. Berðu saman bankayfirlitsskrána við tengda sýnisskrá Finance. Í ISO20022 skrárnar ætti að vera auðvelt að sjá mismun.
 
 ## <a name="time-zone-differences-on-imported-bank-statements"></a>Munur á tímabelti á innfluttum bankayfirliti
-Gildin á dagsetningunni í innflutningsskránni geta verið önnur en gildistíminn sem birtist í Finance and Operations. Til að koma í veg fyrir þetta misræmi, sláðu inn tímabelti sem valinn er á síðunni **Stilla gagnaveitur**. Frekari upplýsingar um að slá inn tímabeltisval má finna á [Setja upp þróaða innflutningsferli banka](set-up-advanced-bank-reconciliation-import-process.md).
+Dagsetningar- og tímagildin í innflutningsskránni geta verið frábrugðin dagsetningar- og tímagildunum sem eru sýnd í fjármálum og rekstri. Til að koma í veg fyrir þetta misræmi, sláðu inn tímabelti sem valinn er á síðunni **Stilla gagnaveitur**. Frekari upplýsingar um að slá inn tímabeltisval má finna á [Setja upp þróaða innflutningsferli banka](set-up-advanced-bank-reconciliation-import-process.md).
 
 ## <a name="transformations"></a>Umbreytingar
 Yfirleitt, verður að framkvæma breytinguna í einni af þremur umbreytingum. Hver umbreyting er skrifuð fyrir tiltekna staðla.
@@ -109,3 +112,4 @@ Hér að neðan eru dæmi um skilgreiningar tæknilegs útlits fyrir innflutning
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -2,19 +2,19 @@
 title: Stækkunarhæfniáhrif Commerce-vörulista fyrir B2B-sérstillingar
 description: Þessi grein lýsir stækkanleikaáhrifum viðskiptaskránna fyrir B2B eiginleika í Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 04/28/2022
+ms.date: 07/11/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: a9abdb5ea702917a745c3156f774aade757c159e
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 06d304226270c9c63c6907190dc1038a38f70e44
+ms.sourcegitcommit: d1491362421bf2fcf72a81dc2dc2d13d3b98122b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027255"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9136801"
 ---
 # <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>Stækkunarhæfniáhrif Commerce-vörulista fyrir B2B-sérstillingar
 
@@ -28,7 +28,7 @@ Skoðaðu sérsniðin tilvik sem fylgja til að ákvarða hvort uppfæra þarf s
 
 > [!NOTE]
 > - Öll forritunarviðmót söluforrita (API) ættu að vera meðvituð um vörulista. Þess vegna er mikilvægt að þú standist **CatalogID** breytu.
-> - Sjálfgefinn vörulisti (**CatalogID**=**0**) er ekki gildur vörulisti fyrir innskráða notendur fyrirtækja til fyrirtækja (B2B). Þess vegna mistakast öll API símtöl sem standast „0“ eða nota sjálfgefið gildi, vegna þess að notendur vefsvæðisins hafa ekki aðgang að vörulista 0. Til að fá rétta upplifun verður að uppfæra API símtöl viðskiptavina þannig að þau standist vörulistaauðkennið sem var valið í vörulistavalinu. Ef þú notar sjálfgefið gildi og notandinn skiptir um vörulista ætti vefsíðan að veita gögnin fyrir valinn vörulista. Þess vegna, til að passa við API sem eru keyrð úr kjarna viðskiptakóða, ættu sérsniðin API að standast valinn vörulista.
+> - Sjálfgefin vörulisti (**CatalogID**=**0**) er ekki gildur vörulisti fyrir innskráða notendur fyrirtækja til fyrirtækja (B2B). Þess vegna mistakast öll API símtöl sem standast „0“ eða nota sjálfgefið gildi, vegna þess að notendur vefsvæðisins hafa ekki aðgang að vörulista 0. Til að fá rétta upplifun verður að uppfæra API símtöl viðskiptavina þannig að þau standist vörulistaauðkennið sem var valið í vörulistavalinu. Ef þú notar sjálfgefið gildi og notandinn skiptir um vörulista ætti vefsíðan að veita gögnin fyrir valinn vörulista. Þess vegna, til að passa við API sem eru keyrð úr kjarna viðskiptakóða, ættu sérsniðin API að standast valinn vörulista.
 
 Eftirfarandi aðlögunartilvik krefjast þróunaruppfærslu:
 
@@ -54,7 +54,7 @@ Eftirfarandi aðlögunartilvik krefjast þróunaruppfærslu:
 
 - **Tilfelli 4:** Viðskiptavinur notar a **getById** API símtal. Eftirfarandi uppfærsluskref er krafist:
 
-    - Skiptu yfir í **getByIds** API kalla í staðinn, vegna þess að **getById** APT símtal hefur nokkrar takmarkanir og styður ekki vörulistavitund.
+    - Skiptu yfir í **getByIds** API símtal í staðinn, vegna þess að **getById** APT símtal hefur nokkrar takmarkanir og styður ekki vörulistavitund.
 
 - **Tilfelli 5:** Viðskiptavinur hefur gagnaaðgerð sem sækir upplýsingar fyrir margar vörur sem gætu verið úr mismunandi vörulistum. Eftirfarandi uppfærsluskref er krafist:
 
@@ -67,3 +67,5 @@ Eftirfarandi aðlögunartilvik krefjast þróunaruppfærslu:
 [Stofna Commerce-vörulista fyrir B2B-svæði](catalogs-b2b-sites.md)
 
 [Algengar spurningar um Commerce-vörulista fyrir B2B](catalogs-b2b-sites-FAQ.md)
+
+[Vörulistavalseining](catalog-picker.md)

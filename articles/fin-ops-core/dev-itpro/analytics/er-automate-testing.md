@@ -1,6 +1,6 @@
 ---
 title: Sjálfvirk prófun með rafrænni skýrslugerð
-description: Þessi grein útskýrir hvernig þú getur notað grunneiginleika rafrænnar skýrslugerðar (ER) ramma til að gera sjálfvirkan prófun á virkni.
+description: Þessi grein útskýrir hvernig þú getur notað grunnlínueiginleika rafrænnar skýrslugerðar (ER) ramma til að gera sjálfvirkan prófun á virkni.
 author: NickSelin
 ms.date: 07/02/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6254d15d13e40007396c9f2a36a8cd3122dc2609
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892770"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109341"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Sjálfvirk prófun með rafrænni skýrslugerð
 
@@ -54,10 +54,10 @@ Virkir kraftnotendur geta keyrt prófanir fyrir notandasamþykki og samþætting
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en þú getur klárað verkefnin í þessari grein þarftu að ljúka eftirfarandi forkröfum:
+Áður en þú getur klárað verkefnin í þessari grein þarftu að ljúka eftirfarandi forsendum:
 
 - Nota grannfræði sem styður prófunarsjálfvirkni. Þú verður að hafa aðgang að tilviki í þessari grannfræði fyrir hlutverkið **Kerfisstjóri**. Þessi grannfræði verður að innihalda kynningargögn sem verða notuð í þessu dæmi. Nánari upplýsingar er að finna [Setja upp og nota umhverfi sem styður samfellda smíði og sjálfvirkni prófunar](../perf-test/continuous-build-test-automation.md).
-- Til að keyra notandasamþykki og samþættingarprófanir sjálfkrafa verður þú að setja upp RSAT í grannfræðinni sem þú notar og skilgreina það á viðeigandi hátt. Nánari upplýsingar um hvernig á að setja upp og skilgreina RSAT og skilgreina það til að vinna með forritum Finance and Operations og Azure DevOps er að finna í [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Gefðu gaum að forsendum fyrir notkun tækisins. Eftirfarandi skýringarmynd sýnir dæmi um stillingar á RSAT. Blái ferhyrningurinn nær utan um breytur sem tilgreina aðgang að Azure DevOps. Græni ferhyrningurinn nær utan um breytur sem tilgreina aðgang að tilvikinu.
+- Til að keyra notandasamþykki og samþættingarprófanir sjálfkrafa verður þú að setja upp RSAT í grannfræðinni sem þú notar og skilgreina það á viðeigandi hátt. Til að fá upplýsingar um hvernig á að setja upp og stilla RSAT og stilla það til að vinna með fjármála- og rekstraröppum og Azure DevOps, sjá [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Gefðu gaum að forsendum fyrir notkun tækisins. Eftirfarandi skýringarmynd sýnir dæmi um stillingar á RSAT. Blái ferhyrningurinn nær utan um breytur sem tilgreina aðgang að Azure DevOps. Græni ferhyrningurinn nær utan um breytur sem tilgreina aðgang að tilvikinu.
 
     ![RSAT-stillingar.](media/GER-Configure.png "Skjámynd af svarglugganum RSAT-stillingar")
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 14369b02f1d7553be5c732f3bdf768825267998b
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845414"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125151"
 ---
 # <a name="saved-views"></a>Vistuð yfirlit
 
@@ -45,7 +45,7 @@ Hefðbundin sérstilling leyfir notendum að hafa aðeins eitt safn af sérstill
 
 Til eru tvær stærðir á yfirlitsvali: 
 
-- **Stórt yfirlitsval** - Síður sem birta lista á áberandi hátt verða með stærra yfirlitsval af nokkrum ástæðum. Mikilvægast er að stærra útsýnisvalið gefur til kynna síðurnar þar sem yfirlitið getur innihaldið notendaskilgreindar síur og flokkanir. Vegna þess að síur og flokkanir eru innifaldar í sýnunum er stærri veljastærð einnig ábyrg þar sem yfirlitsnöfnin verða oft besta lýsingin á gögnunum sem sýnd eru á skjánum og búist er við að notendur skipta oftar á milli skoðana á þessum síðugerðum. Einnig er hægt að vista flokkun í hnitaneti í skoðanir á síðu með stórum valmyndum. 
+- **Stórt yfirlitsval** - Síður sem birta lista á áberandi hátt verða með stærra yfirlitsval af nokkrum ástæðum. Mikilvægast er að stærra útsýnisvalið gefur til kynna síðurnar þar sem yfirlitið getur innihaldið notendaskilgreindar síur og flokkanir. Vegna þess að síur og flokkun eru innifalin í sýnunum er stærri valstærðin einnig ábyrg þar sem yfirlitsnöfnin munu oft vera besta lýsingin á gögnunum sem sýnd eru á skjánum og búist er við að notendur muni skipta oftar á milli skoðana á þessum síðugerðum. Einnig er hægt að vista flokkun í hnitaneti á skoðanir á síðu með stórum valmyndum. 
 - **Lítið yfirlitsval**: Allar aðrar skjámyndir með heilli síðu (fyrir utan vinnusvæði og stjórnborðið) eru með minna yfirlitsval sem sést við hliðina á yfirskrift síðunnar. Yfirlit á þessum síðum fela eingöngu í sér sérstillingar, ekki síur skilgreindar af notanda. Á þessum síðum er yfirskriftin eða titill færslu oft mikilvægustu upplýsingarnar efst á síðunni. Minni stærð yfirlitsvalsins endurspeglar einnig færri skiptingar milli yfirlita sem búist er við á þessum síðum. 
  
 Ef heiti yfirlits er valið opnast yfirlitsvalið og sýnir lista yfir tiltæk yfirlit fyrir síðuna.
@@ -196,7 +196,7 @@ Fyrir listann yfir öll birt yfirlit fyrir þessa síðu eru eftirfarandi sett a
 
 ## <a name="managing-views-globally"></a>Stjórna yfirlitum á altækan hátt
 
-Þó að einhver stjórnunargeta sé að finna á hverri síðu, eins og fram kemur í þessari grein, **kerfisstjórar** og **vistaðir skjástjórar** getur stjórnað skoðunum á heildrænan hátt fyrir kerfið í gegnum **Persónustilling** síðu. Einkum hefur þessi síða eftirfarandi hluta og möguleika: 
+Þó að einhver stjórnunargeta sé að finna á hverri síðu, eins og fram kemur í þessari grein, **kerfisstjórar** og **stjórnendur vistaðra skoðana** getur stjórnað skoðunum á heildrænan hátt fyrir kerfið í gegnum **Persónustilling** síðu. Einkum hefur þessi síða eftirfarandi hluta og möguleika: 
 
 - **Birt yfirlit** - Þessi hluti sýnir öll yfirlit sem hafa verið birt fyrir fyrirtækið. Héðan er hægt að endurbirta yfirlit þegar öryggishlutverkum eða lögaðilum hefur verið breytt sem yfirlitið hefur augastað á. Einnig er hægt að flytja út, eyða eða taka yfirlit úr birtingu. Hægt er að nota aðgerðina **Vista sem eigið** til að búa til eigið afrit af yfirlitinu til að geta uppfært yfirlitið eða öðlast betri skilning á efni þess. 
 - **Óbirt yfirlit** – Þessi hluti sýnir öll yfirlit fyrirtækis í kerfinu sem ekki eru þegar birt. Þessi yfirlit koma oftast inn í kerfið í gegnum innflutningsmöguleikann. Þú getur birt, flutt út eða eytt þessum skoðunum. Aðgerðin **Flýtibirting** sem var bætt við í útgáfu 10.0.12 býður upp á að birta mörg yfirlit úr þessum hluta í einni aðgerð með því að nota fyrirliggjandi skilgreiningar öryggishlutverks og lögaðila. Notið aðgerðina **Vista sem eigið** til að búa til eigið afrit af þessum yfirlitum til að öðlast betri skilning á efni þeirra.
@@ -215,7 +215,7 @@ Listi yfir þekkt vandamál með vistuð yfirlit er að finna í [Búa til skjá
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Hvernig virkja ég vistuð yfirlit í umhverfinu mínu?
 
 > [!NOTE]
-> The **Vistaðar skoðanir** eiginleiki krefst þess að sérstillingarkerfið í Finance and Operations sé virkt. Ef slökkt er á sérstillingu fyrir allt umhverfið verða yfirlit afvirkjuð jafnvel þótt þú fylgir skrefunum hér að neðan. 
+> The **Vistaðar skoðanir** eiginleiki krefst þess að sérstillingarkerfið í fjármála- og rekstraröppunum sé virkt. Ef slökkt er á sérstillingu fyrir allt umhverfið verða yfirlit afvirkjuð jafnvel þótt þú fylgir skrefunum hér að neðan. 
 
 Hægt er að kveikja og slökkva á eiginleikanum **Vistuð yfirlit** í gegnum eiginleikastjórnun í hvaða umhverfi sem er. Þegar kveikt er á honum verða vistuð yfirlit virkjuð í öllum næstu notandalotum.
 
@@ -255,3 +255,4 @@ Ef þú birtir yfirlit til tiltekins lögaðila, en þú birtir ekki það yfirl
 - **Útgáfa 10.0.21 eða síðar:** Ef kveikt er á eiginleikanum **Bættur stuðningur lögaðila fyrir vistuð yfirlit** sýnir yfirlitsvalið aðeins yfirlitið fyrir tiltekna lögaðila. Þessi hegðun á sér stað vegna þess að eiginleikinn gerir kleift að tengja yfirlit (þ.m.t. persónuleg yfirlit) við tiltekna lögaðila.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

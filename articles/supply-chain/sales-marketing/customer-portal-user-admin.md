@@ -1,5 +1,5 @@
 ---
-title: Búðu til og stjórnaðu notendum viðskiptavinagáttar (inniheldur myndband)
+title: Búa til og hafa umsjón með notendum viðskiptavinagáttar (inniheldur myndband)
 description: Þessi grein útskýrir hvernig á að búa til viðskiptavinagátt notendareikninga og stilla heimildir fyrir þá.
 author: Henrikan
 ms.date: 07/31/2020
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2d095b0f6ff707852b4c9e22fd9c31cf87ccbe9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ec4f20daac39e1728ab46db159059e51a0cae0a6
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905777"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103771"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Stofna og stjórna notendum fyrir viðskiptavinagátt
 
@@ -33,7 +33,7 @@ ms.locfileid: "8905777"
 ## <a name="video"></a>Myndband
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
 
-The [Bjóddu viðskiptavinum að skrá sig og nota viðskiptavinagáttina þína](https://youtu.be/drGUYHX9QIQ) myndbandið (sýnt hér að ofan) er innifalið í [Spilunarlisti fyrir fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) í boði á YouTube.
+The [Bjóddu viðskiptavinum að skrá sig og nota viðskiptavinagáttina þína](https://youtu.be/drGUYHX9QIQ) myndbandið (sýnt hér að ofan) er innifalið í [lagalista um fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) fáanleg á YouTube.
 
 ## <a name="prerequisite-setup"></a>Uppsetning frumskilyrða
 

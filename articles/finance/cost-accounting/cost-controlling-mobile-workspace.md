@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9e7d220639f5f3af26e892461928c646746963bb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2d6d3fdcc0b0387a92f138b0ba7cf537f473b91a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874668"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069564"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Fartækjavinnusvæði kostnaðarstýringar
 
@@ -29,7 +29,7 @@ ms.locfileid: "8874668"
 
 Þessi grein veitir upplýsingar um **Kostnaðarstjórnun** færanlegt vinnusvæði. Þetta vinnusvæði gerir kleift kostnaðarstaðar stjórnendur að skoða upplýsingar um kostnað vinnustöðvar afköst hvar og hvenær sem er.
 
-Þetta farsímavinnusvæði er ætlað til notkunar með Finance and Operations (Dynamics 365) farsímaforritinu.
+Þetta farsímavinnusvæði er ætlað til notkunar með fjármála- og rekstrarforritinu (Dynamics 365).
 
 ## <a name="overview"></a>Yfirlit
 Fartækjavinnusvæði **kostnaðarstýringar** veitir skjótt yfirlit yfir núgildandi afköst kostnaðarstaðar með samanburði á raunverulegum kostnaði og kostnaði fjárhagsáætlunar. Hægt er að kafa niður í stöðu stakra kostnaðareininga.
@@ -114,7 +114,7 @@ Ef útgáfa 1611 með verkvangsuppfærslu 3 eða síðar hefur verið sett upp f
 
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
-Sæktu og settu upp Finance and Operations (Dynamics 365) farsímaforritið:
+Sæktu og settu upp fjármála- og rekstrarforritið (Dynamics 365):
 
 -   [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -146,3 +146,4 @@ Sæktu og settu upp Finance and Operations (Dynamics 365) farsímaforritið:
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -14,18 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b9ab27b443e5ec675ea03e13aa7be4ea84bfb45
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722242"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178444"
 ---
 # <a name="update-process"></a>Uppfærsluferli
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Á við um:** Mannauður á sjálfstæðum innviðum_ 
 
+> [!NOTE]
+> Frá og með júlí 2022 er ekki hægt að útvega nýtt mannauðsumhverfi á sjálfstæðum mannauðsinnviðum og nýjum Microsoft Dynamics Ekki er hægt að búa til verkefni um líftímaþjónustu (LCS). Viðskiptavinir geta innleitt mannauðsumhverfi á fjármála- og rekstrarinnviðum. Fyrir frekari upplýsingar, sjá [Veiting mannauðs í innviðum fjármála og rekstrar](/hr-admin-setup-provision-fo.md).
 
+> [!IMPORTANT]
+> Uppfærslu- og flýtileiðréttingarferlið á innviðum fjármála- og rekstrarforrita er frábrugðið sjálfstætt uppfærslu- og flýtileiðréttingarferli mannauðs. Fyrir frekari upplýsingar um uppfærsluferlið, sjá [Ferli til að fara yfir í nýjustu uppfærslu á fjármálum og rekstri](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Fyrir frekari upplýsingar um flýtileiðréttingar, sjá [Sækja uppfærslur frá Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 
 
 Microsoft Dynamics 365 Human Resources er sannur hugbúnaður sem þjónusta (SaaS) sem veitir stöðugar, snertilausar þjónustuuppfærslur. Þessar uppfærslur innihalda bæði forrits- og vettvangsbreytingar sem oft veita mikilvægar endurbætur á þjónustunni, þ.mt uppfærslur á reglugerðum.
 
@@ -37,16 +41,14 @@ Uppfærslur eru gefnar út með reglubundnum hætti fyrir öll umhverfi. Human R
 
 Uppfærslum á Human Resources er beitt sjálfkrafa í öll umhverfi. Human Resources veitir tvenns konar útgáfur:
 
-- **Þjónustuuppfærslur**: Uppfærslur verða á tveggja vinkna fresti sem innihalda villuleiðréttingar og nýja eiginleika. Þjónustuuppfærslur innihalda einnig viðeigandi vettvangsuppfærslur þegar þær gefa út. Fyrir frekari upplýsingar um útgáfur palla, sjá [Hvað er nýtt eða breytt í pallauppfærslum](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Uppfærslur á tveggja vikna fresti eru settar á svið alþjóðlegt útbreiðsla milli svæða. Nánari upplýsingar um uppfærslur á tveggja vikna fresti eru í [Hvað er nýtt eða breytt í Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Þjónustuuppfærslur**: Uppfærslur verða á tveggja vinkna fresti sem innihalda villuleiðréttingar og nýja eiginleika. Þjónustuuppfærslur innihalda einnig viðeigandi vettvangsuppfærslur þegar þær eru gefnar út. Fyrir frekari upplýsingar um útgáfur palla, sjá [Hvað er nýtt eða breytt í pallauppfærslum](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Uppfærslur eru með stigaðri útfærslu á heimsvísu á milli svæða. Fyrir frekari upplýsingar um uppfærslur, sjá [Hvað er nýtt eða breytt í Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
-    Öll studd gagnaver uppfæra á tveggja vikna fresti nema annað sé tekið fram. Bandaríkin, Ástralía, Evrópa, Bretland, Asía og Kanada eru með í uppfærslum á tveggja vikna fresti. 
-
-- **Dataverse lausnir uppfærslur**: Þessar uppfærslur eiga sér stað um það bil á sex vikna fresti eftir þörfum. Þau fela í sér nýja aðila og breytingar á núverandi aðilum í Dataverse. Þessar uppfærslur koma út á sömu svæðum og uppfærslur á tveggja vikna fresti og það tekur um sex vikur að endurtaka í gegnum öll gagnaver. Lausn uppfærslna kann eða er ekki í samræmi við þjónustuuppfærslur á tveggja vikna fresti.
+- **Dataverse lausnir uppfærslur**: Þessar uppfærslur eiga sér stað um það bil á sex vikna fresti eftir þörfum. Þau fela í sér nýja aðila og breytingar á núverandi aðilum í Dataverse. Þessar uppfærslur eru gefnar út á sömu svæðum og tveggja vikna uppfærslur og það tekur um sex vikur að endurtaka þær í gegnum allar gagnaver. Lausn uppfærslna kann eða er ekki í samræmi við þjónustuuppfærslur á tveggja vikna fresti.
 
 > [!NOTE]
 > Lausnaruppfærslur eru fáanlegar á öllum gagnaverum þegar þeim er sleppt. Ef þú vilt ekki bíða eftir að uppfærslurnar endurtaki sig sjálfkrafa geturðu beitt þessum uppfærslum handvirkt á hvaða umhverfi sem er í hvaða gagnaveri sem er.
 
-Þegar þörf er á veitir Human Resources einnig eftirfarandi gerðir af lagfæringum:
+Þegar þörf krefur veitir Mannauðurinn eftirfarandi gerðir af lagfæringum:
 
 - **Endurskoðun (leiðrétting)**: villuleiðréttingar sem geta komið fram annaðhvort með eða fyrir utan þjónustuuppfærslu á tveggja vikna fresti
 
@@ -83,11 +85,11 @@ Tveggja vikna útgáfa mun halda áfram eins og venjulega þann 10. janúar 2022
 
 Þú getur sannreynt forsýningaraðgerðir í sandkassaumhverfi áður en þú virkjar þá í framleiðsluumhverfi þínu. Nánari upplýsingar um virkjun eiginleika er að finna í [Eiginleikastjórnunaryfirlit](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Allar nýju aðgerðirnar eru áfram í forskoðun í að minnsta kosti 30 daga og venjulega 30-60 daga. Helstu eiginleikar eru venjulega fáanlegir í október og apríl ár hvert í kjölfar forskoðunartímabilsins. Um leið og þú sérð nýja möguleika í vinnusvæðinu Stjórnun eiginleika er hægt að kveikja á þeim. Sumar aðgerðir kunna að vera sjálfkrafa á.
+Allar nýju aðgerðirnar eru áfram í forskoðun í að minnsta kosti 30 daga og venjulega 30-60 daga. Helstu eiginleikar eru venjulega fáanlegir í október og apríl ár hvert í kjölfar forskoðunartímabilsins. Um leið og þú sérð nýja möguleika í vinnusvæðinu **Stjórnun eiginleika** er hægt að kveikja á þeim. Sumar aðgerðir kunna að vera sjálfkrafa á.
 
 Stundum er sambyggður eiginleiki virkur og ekki er hægt að slökkva á honum (til dæmis vinnusvæðinu Stjórnun eiginleika).
 
-Þegar eiginleiki er almennt tiltækur kann að vera kveikt eða slökkt á honum í framleiðsluumhverfi. Vinnusvæðið Stjórnun eiginleika gefur til kynna hvenær forsýningareiginleiki verður nauðsynlegur. Þessi dagsetning er venjulega 1. október eða 1. apríl til að samræma hálfsársáætlun um losun. Ekki er hægt að slökkva á skyldueiginleikum. Þar til það verður skylda geturðu kveikt og slökkt á eiginleikum í öllu umhverfi.
+Þegar eiginleiki er almennt tiltækur kann að vera kveikt eða slökkt á honum í framleiðsluumhverfi. Vinnusvæðið **Stjórnun eiginleika** gefur til kynna hvenær forsýningareiginleiki verður nauðsynlegur. Þessi dagsetning er venjulega 1. október eða 1. apríl til að samræma hálfsársáætlun um losun. Ekki er hægt að slökkva á skyldueiginleikum. Þar til það verður skylda geturðu kveikt og slökkt á eiginleikum í öllu umhverfi.
 
 Við mælum mjög með því að forskoða aðgerðir í sandkassa eða prufuumhverfi. Best er að búa til afrit af núverandi framleiðsluumhverfi eða gagnagrunni í sandkassaumhverfi svo að þú getir fengið fullkomna reynslu af nýju aðgerðunum með gögnunum þínum.
 

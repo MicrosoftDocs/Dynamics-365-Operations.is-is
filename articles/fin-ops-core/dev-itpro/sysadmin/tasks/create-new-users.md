@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 00da7c69ff18abd02ca0cd7984e9b2de5e453a0c
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595387"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103326"
 ---
 # <a name="create-new-users"></a>Búa til nýja notendur
 
 [!include [banner](../../includes/banner.md)]
 
-Áður en hægt er opna Finance and Operations-forrit þarf fyrst að bæta notanda við síðuna **Notendur** (**Kerfisstjórnun \> Notendur \> Notendur**). Notendur samanstanda af innri starfsmönnum fyrirtækisins eða ytri viðskiptavinum og lánardrottnum. Hægt er að flytja notendur inn eða bæta þeim við handvirkt. Allir notendur verða að vera með tilskilinn leyfi fyrir tilhlýðilega notkun.
+Áður en þú getur fengið aðgang að fjármála- og rekstraröppum verður þú fyrst að vera bætt við **Notendur** síða (**Kerfisstjórnun \> Notendur \> Notendur**). Notendur samanstanda af innri starfsmönnum fyrirtækisins eða ytri viðskiptavinum og lánardrottnum. Hægt er að flytja notendur inn eða bæta þeim við handvirkt. Allir notendur verða að vera með tilskilinn leyfi fyrir tilhlýðilega notkun.
 
-Upplýsingar um hvernig á að kaupa og veita leyfi fyrir Finance and Operations-forrit er að finna í [Leyfishandbók Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
+Fyrir upplýsingar um hvernig á að kaupa og veita leyfi fyrir fjármála- og rekstrarforrit, sjá [Microsoft Dynamics 365 Leyfisleiðbeiningar](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Úthluta leyfi til notanda
-Kerfisstjórar geta það [úthluta leyfi til notenda](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) í [stjórnunarmiðstöð Microsoft 365](/office365/admin/admin-overview/about-the-admin-center).
+Kerfisstjórar geta [úthluta leyfi til notenda](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) í [Microsoft 365 stjórnendamiðstöð](/office365/admin/admin-overview/about-the-admin-center).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Bæta ytri notanda við Azure AD og úthluta leyfi 
-Ytri notendur verða að koma fram í notendaskrá biðlara (Azure Active Directory (Azure AD)) þannig að hægt sé að úthluta þeim leyfum. Þessum utanaðkomandi notendum ætti að bæta við leigjandann í Azure AD sem gestanotendum og úthluta þeim síðan viðeigandi leyfum. Krafa Finance and Operations-forrita er að fyrirtæki gestanotenda verði að nota Azure AD. Nánari upplýsingar er að finna í [Bæta Azure Active Directory B2B samvinnunotendum við í Azure-gáttinni](/azure/active-directory/b2b/add-users-administrator).
+Ytri notendur verða að koma fram í notendaskrá biðlara (Azure Active Directory (Azure AD)) þannig að hægt sé að úthluta þeim leyfum. Þessum utanaðkomandi notendum ætti að bæta við leigjandann í Azure AD sem gestanotendum og úthluta þeim síðan viðeigandi leyfum. Skilyrði fyrir fjármála- og rekstraröppum er að fyrirtæki gestanotanda þarf að nota Azure AD. Nánari upplýsingar er að finna í [Bæta Azure Active Directory B2B samvinnunotendum við í Azure-gáttinni](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Flytja inn nýja notendur úr Azure AD 
 1. Farið í **Kerfisstjórnun** \> **Notandi** \> **Notendur**.

@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6fc44b52e2f7662fc6be609562cec903a8755d1b
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015347"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178504"
 ---
 # <a name="provision-human-resources"></a>Úthluta Human Resources
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Á við um:** Mannauður á sjálfstæðum innviðum_ 
 
-
+> [!NOTE]
+> Frá og með júní 2022 er aðeins hægt að nota mannauðsumhverfi á innviðum fjármála- og rekstrarappa. Fyrir frekari upplýsingar, sjá [Veiting mannauðs í innviðum fjármála og rekstrar](hr-admin-setup-provision-fo.md).
 
 Þessi grein útskýrir ferlið við að útvega nýtt framleiðsluumhverfi fyrir Microsoft Dynamics 365 Human Resources. 
 
@@ -40,14 +41,14 @@ ms.locfileid: "9015347"
 ## <a name="provision-a-human-resources-trial-environment"></a>Úthluta prófunarumhverfi Human Resources
 
 >[!NOTE]
-> Frá og með apríl 2022 verður prufuumhverfi mannauðs ekki tiltækt í sjálfstæðu umsókninni. Hugsanlegir viðskiptavinir sem hafa áhuga á að meta mannauðsgetu innan fjármála- og rekstrarappa geta gert það með því að nota ókeypis 30 daga prufuáskriftina ásamt kynningargögnum. Dynamics 365 Finance mun innihalda mannauðsmöguleikana sem færðir eru til Finance innviða með sameiningu sjálfstæða forritsins. Fyrir frekari upplýsingar, sjá [Sameining starfsmannaframboðs sameinar getu viðskiptavina](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Fyrir frekari upplýsingar um Dynamics 365 Finance prufur, sjá skref fyrir skref [leiðarvísir](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
+> Frá og með apríl 2022 verður prufuumhverfi mannauðs ekki tiltækt í sjálfstæðu umsókninni. Hugsanlegir viðskiptavinir sem hafa áhuga á að meta mannauðsgetu innan fjármála- og rekstrarforrita geta gert það með því að nota ókeypis 30 daga prufuáskriftina ásamt kynningargögnum. Dynamics 365 Finance mun innihalda mannauðsmöguleikana sem færðir eru til Finance innviða með sameiningu sjálfstæða forritsins. Fyrir frekari upplýsingar, sjá [Sameining starfsmannaframboðs sameinar getu viðskiptavina](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers). Fyrir frekari upplýsingar um Dynamics 365 Finance prufuáskriftir, sjá skref fyrir skref [leiðarvísir](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
 
 
 Áður en þú úthlutar fyrsta sandkassa- eða vinnsluumhverfinu þínu gæti verið ráðlegt að úthluta [Prófunarumhverfi Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) til að staðfesta virkni Human Resources. Prófunarumhverfi innihalda uppskálduð gögn sem hægt er að nota til að skoða forritið á öruggan hátt. Þótt prófunarumhverfið sé í eigu notandans sem óskaði eftir því er samt hægt að bjóða öðrum notendum aðgang í gegnum upplifun kerfisstjóra fyrir Human Resources. 
 
-Prófunarumhverfi bjóða upp á möguleikann á að leggja mat á virkni Human Resources fyrir einstaklinga sem eru ekki þegar með aðgang að umhverfi Human Resources. Ef þú úthlutar prófunarumhverfi og sannvottaður notandi er þegar með aðgang að einu eða fleiri umhverfum Human Resources, verður notandi sendur í fyrirliggjandi umhverfi eða lista yfir umhverfi.
+Reynsluumhverfi hjálpa til við að meta virkni mannauðs fyrir einstaklinga sem hafa ekki þegar aðgang að mannauðsumhverfi. Ef þú úthlutar prófunarumhverfi og sannvottaður notandi er þegar með aðgang að einu eða fleiri umhverfum Human Resources, verður notandi sendur í fyrirliggjandi umhverfi eða lista yfir umhverfi.
 
-Prófunarumhverfi eru ætluð til þess að nota sem vinnsluumhverfi. Þau takmarkast við 30 daga reynslutíma. Þegar reynslutíminn rennur út er umhverfinu og öllum gögnum sem eru í því eytt og ekki er hægt að endurheimta þau. Ekki er hægt að umbreyta umhverfinu í sandkassa- eða vinnsluumhverfi. Þú getur skráð þig fyrir nýju prófunarumhverfi eftir að núverandi umhverfi rennur út.
+Prófunarumhverfi eru ætluð til þess að nota sem vinnsluumhverfi. Þau takmarkast við 30 daga reynslutíma. Þegar prufutímabilið rennur út verður umhverfinu og öllum gögnum sem eru í því eytt og ekki er hægt að endurheimta það. Ekki er hægt að breyta umhverfinu í sandkassa eða framleiðsluumhverfi. Þú getur skráð þig fyrir nýju prófunarumhverfi eftir að núverandi umhverfi rennur út.
 
 Þegar prófunarumhverfi Human Resources er búið til er Power Apps prófunarumhverfi einnig búið til í leigjandanum og tengt við umhverfi Human Resources. Power Apps umhverfið, sem nefnt er „TestDrive“, hefur sama reynslutíma og umhverfi Human Resources.
 
@@ -56,14 +57,14 @@ Prófunarumhverfi eru ætluð til þess að nota sem vinnsluumhverfi. Þau takma
 
 ## <a name="plan-human-resources-environments"></a>Skipuleggja umhverfi Human Resources
 
-Áður en fyrsta Human Resources-umhverfið er búið til ætti að kortleggja vel og vandlega þarfir umhverfisins fyrir verkið. Grunnáskrift að Human Resources felur í sér tvö umhverfi: vinnsluumhverfi og sandkassaumhverfi. Það fer eftir margbreytileika verksins hvort þurfi að kaupa fleiri sandkassaumhverfi til að styðja verkþætti verksins. 
+Áður en fyrsta Human Resources-umhverfið er búið til ætti að kortleggja vel og vandlega þarfir umhverfisins fyrir verkið. Grunnáskrift að Human Resources felur í sér tvö umhverfi: vinnsluumhverfi og sandkassaumhverfi. Það fer eftir því hversu flókið verkefnið er, gæti þurft að kaupa viðbótar sandkassaumhverfi til að styðja við verkefnið. 
 
 Hvað skal hafa í huga fyrir fleiri umhverfi:
 
-- **Gagnaflutningur**: Hugsanlega þarf að huga að viðbótarumhverfi fyrir gagnaflutningsaðgerðir svo hægt sé að nota sandkassaumhverfið sem vettvang prófunar í gegnum verkið. Að vera með viðbótarumhverfi gerir gagnaflutningsaðgerðum kleift að halda áfram á meðan prófanir og grunnstillingar gerast samtímis í öðru umhverfi.
-- **Samþætting**: Hugsanlega þarf annað umhverfi til að grunnstilla og prófa samþættingar. Þetta gæti falið í sér innfæddar samþættingar eins og Ceridian Dayforce eða LinkedIn Talent Hub samþættingarnar, eða sérsniðnar samþættingar eins og þær fyrir launaskrá, rakningarkerfi umsækjenda eða bótakerfi og veitendur.
-- **Þjálfun**: Hugsanlega þarf aðskilið umhverfi sem er grunnstillt með safni þjálfunargagna til að geta þjálfað starfsmenn í notkun á nýja kerfinu. 
-- **Fjölþrepa verk**: Hugsanlega þarf annað umhverfi til að styðja grunnstillingu, gagnaflutning, prófun eða aðra verkþætti í verkþrepi sem er áætlað eftir fyrstu keyrslu verksins.
+- **Gagnaflutningur** : Gagnaflutningsaðgerðir til að gera kleift að nota sandkassaumhverfið þitt í prófunartilgangi í gegnum verkefnið. Að vera með viðbótarumhverfi gerir gagnaflutningsaðgerðum kleift að halda áfram á meðan prófanir og grunnstillingar gerast samtímis í öðru umhverfi.
+- **Samþætting** : Stilltu og prófaðu samþættingar, sem gætu falið í sér innbyggðar samþættingar, eins og Ceridian Dayforce, eða sérsniðnar samþættingar.
+- **Þjálfun** : Þú gætir þurft sérstakt umhverfi sem er stillt með mengi þjálfunargagna til að þjálfa starfsmenn þína í notkun nýja kerfisins. 
+- **Fjölfasa verkefni** : Stuðningur við uppsetningu, gagnaflutning, prófun eða aðra starfsemi í verkefnisfasa sem er skipulögð eftir upphaflega gangsetningu verkefnisins.
 
  > [!IMPORTANT]
  > Við mælum með eftirfarandi þegar þú veltir fyrir þér umhverfinu þínu:
@@ -100,7 +101,7 @@ Eftir að þú hefur búið til LCS verk, getur þú úthlutað Human Resources 
 2. Tilgreinið hvort þetta umhverfi sé sandkassa- eða framleiðslutilvik fyrir Mannauð. Snemmbúnir forskoðunareiginleikar kunna að vera í boði í Sandkassatilvikum til að leyfa ábendingar og prófanir sem fyrst.
    
     > [!NOTE]
-    > Ekki er hægt að breyta tilviksgerð Human Resources þegar hún hefur verið stillt. Gakktu úr skugga um að rétt tilviksgerð sé valin áður en haldið er áfram.</br></br>
+    > Ekki er hægt að breyta gerð mannauðstilviks þegar hún hefur verið stillt. Gakktu úr skugga um að rétt tilviksgerð sé valin áður en haldið er áfram.</br></br>
     > Gerð Human Resources-tilviks er aðskilin frá tilviksgerð í Microsoft Power Apps-umhverfi, sem þú stillir í Power Apps Admin Center.
     
 3. Veldu valkostinn **Hafa sýnigögn með** ef þú vilt að umhverfið þitt innihaldi sama sýnigagnasafnið sem notað er í prófunarumhverfi Human Resources. Sýnigögn eru gagnleg fyrir langvarandi prufuútgáfu eða þjálfunarumhverfi og ætti aldrei að nota í vinnsluumhverfi. Þú verður að velja þennan möguleika við upphaflega uppsetningu. Þú getur ekki uppfært núverandi uppsetningu seinna.
@@ -111,7 +112,7 @@ Eftir að þú hefur búið til LCS verk, getur þú úthlutað Human Resources 
 
 6. Velja **Já** til að samþykkja skilmálana og hefja virkjun.
 
-   Nýja umhverfið þitt birtist á lista yfir umhverfi á yfirlitssvæðinu vinstra megin. Hins vegar getur þú ekki byrjað að nota umhverfið fyrr en virkjunarstaða er uppfærð í **Virkjað**. Þetta ferli tekur venjulega nokkrar mínútur. Ef úthlutunarferlið mistekst þarftu að hafa samband við notendaþjónustu.
+   Nýja umhverfið þitt birtist á lista yfir umhverfi á yfirlitssvæðinu vinstra megin. Hins vegar geturðu ekki byrjað að nota umhverfið fyrr en dreifingarstaðan er komin **Dreifður**. Þetta ferli tekur venjulega nokkrar mínútur. Ef úthlutunarferlið er misheppnað skaltu hafa samband við þjónustudeild.
 
 7. Veldu **Innskráning í Mannauð** til að nota nýja umhverfið þitt.
 
@@ -140,11 +141,11 @@ Notaðu eftirfarandi leiðbeiningar þegar þú ákveður hvaða Power Apps-umhv
    
     - **Óstudd svæði** - Umhverfið verður að vera á studdri staðsetningu. Frekari upplýsingar er að finna í [Landfræðilegar staðsetningar sem eru studdar](hr-admin-setup-provision.md#supported-geographies).
 
-6. Möguleikar tvöfaldrar skráningar fyrir samþættingu gagna í Human Resources við Power Apps umhverfi er aðeins hægt að nota ef valkosturinn **Virkja Dynamics 365-forrit** er valinn fyrir umhverfið. Frekari upplýsingar um tvöfalda skráningu er að finna í [Heimasíða tvöfaldrar skráningar](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
+6. Möguleikar tvöfaldrar skráningar fyrir samþættingu gagna í Human Resources við Power Apps umhverfi er aðeins hægt að nota ef valkosturinn **Virkja Dynamics 365-forrit** er valinn fyrir umhverfið. Fyrir frekari upplýsingar, sjá [Heimasíða með tvöföldum skrifum](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
 
     > [!NOTE]
     > Velja þarf valkostinn **Virkja Dynamics 365-forrit** þegar Power Apps umhverfið er búið til. Ef valkosturinn er ekki valinn við úthlutun verður ekki hægt að nota tvöfalda skráningu til að samþætta gögn milli Dynamics 365 Human Resources og Power Apps umhverfis eða setja upp Dynamics 365-forrit á borð við Dynamics 365 Sales og Field Service í umhverfið. Þessi valkostur er ekki afturkallanlegur. 
-    > -  Mannauður styður ekki að breyta hinu tengda Dataverse dæmi þegar mannauði hefur verið beitt í það. </br></br>
+    > -  Mannauður styður ekki að breyta hinu tengda Dataverse dæmi þegar mannauði hefur verið beitt inn í það. </br></br>
     > Frekari upplýsingar er að finna í [Nokkur mikilvæg atriði við gerð nýs umhverfis](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) á svæði Power Platform fylgigagna.  
 
 7. Eftir að þú hefur ákveðið rétt umhverfi sem til að nota, getur þú haldið áfram með úthlutunarferlið. 
@@ -175,3 +176,4 @@ Að sjálfgefnu hefur altæki stjórnandinn sem bjó til umhverfið aðgang að 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

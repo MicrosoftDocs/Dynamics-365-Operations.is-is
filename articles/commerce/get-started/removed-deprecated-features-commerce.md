@@ -1,8 +1,8 @@
 ---
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Commerce
-description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja úr Dynamics 365 Commerce.
+description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir eða sem fyrirhugað er að fjarlægja úr Dynamics 365 Commerce.
 author: josaw
-ms.date: 04/27/2022
+ms.date: 07/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a59d62ad846eed659fa4e70390ebafc40127df0f
+ms.sourcegitcommit: ef56b5d0ed26e373add5dec63168e08ade40573e
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910525"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9138587"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Commerce
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja úr Dynamics 365 Commerce.
+Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir eða sem fyrirhugað er að fjarlægja úr Dynamics 365 Commerce.
 
 - *Fjarlægður* eiginleiki er ekki lengur tiltækur í vörunni.
 - *Úreltur* eiginleiki er ekki í virkri þróun og getur verið fjarlægður úr uppfærslum í framtíðinni.
@@ -31,7 +31,20 @@ ms.locfileid: "8910525"
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
 > [!NOTE]
-> Ítarlegar upplýsingar um hluti í Finance and Operations öppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af Finance and Operations forritum.
+> Ítarlegar upplýsingar um hluti í fjármála- og rekstraröppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af fjármála- og rekstrarforritum.
+
+## <a name="feature-deprecation-effective-july-2022"></a>Afskrift eiginleiki gildir í júlí 2022
+
+### <a name="commerce-analytics-preview"></a>Commerce-greining (forútgáfa)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | The Dynamics 365 Commerce teymi hefur greint notkun og upptöku á Commernce analytics (Preview) eiginleikanum og ákvörðun hefur verið tekin um að halda ekki lengur áfram við að koma eiginleikanum í almennt aðgengi.   |
+| **Skipt út fyrir aðra eiginleika?**   | Á þessari stundu verður viðskiptagreiningum (Preview) ekki skipt út fyrir annan eiginleika eða lausn. Útflutningur á hráum færslum og aðalgögnum úr fjármála- og rekstraröppum til Azure Data Lake er áfram tiltæk, eins og útskýrt er í [Flytja út til Data Lake í fjármála- og rekstraröppum](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). Samstarfsaðilar og viðskiptavinir geta nýtt sér þann gagnastraum til að skrifa allar fyrirhugaðar greiningarskýrslur fyrir viðskiptaþarfir þeirra.
+| **Afurðasvæði sem haft er áhrif á**         | Commerce-greining (forútgáfa) |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Við munum skoða að slökkva á þessum eiginleika fyrir 30. ágúst 2022.  Frá og með þessum degi mun engin endurnýjun eiga sér stað í núverandi Power BI skýrslur frá Commerce analytics (Preview).     |
+
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Commerce 10.0.25 útgáfu
 
@@ -41,7 +54,7 @@ Modern Point of Sale (MPOS) forritið verður úrelt í útgáfu Commerce útgá
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Forrit í verslun eru hornsteinn þess Dynamics 365 Commerce allsherjarútboð. Við gerum stöðugt nýsköpun til að bjóða upp á nútímalega og snjalla verslunarupplifun og til að nútímavæða lausnina okkar enn frekar erum við að setja út nýjar breytingar sem munu verulega bæta upplýsingatæknirekstur og notendaupplifun með núverandi forritum okkar í verslunum á Windows. Nýja Store Commerce forritið er tækniuppfærsla á núverandi MPOS. Það veitir betri afköst, áreiðanleika og langtímastuðning á Windows pallinum og útilokar þörfina á að endurpakka forritinu með hverri uppfærslu. |
+| **Ástæða úreldingar/fjarlægingar** | Forrit í verslun eru hornsteinn þess Dynamics 365 Commerce allsherjarútboð. Við gerum stöðugt nýsköpun til að bjóða upp á nútímalega og skynsamlega verslunarupplifun og til að nútímavæða lausnina okkar enn frekar erum við að setja út nýjar breytingar sem munu verulega bæta upplýsingatæknirekstur og notendaupplifun með núverandi forritum okkar í verslunum á Windows. Nýja Store Commerce forritið er tækniuppfærsla á núverandi MPOS. Það veitir betri afköst, áreiðanleika og langtímastuðning á Windows pallinum og útilokar þörfina á að endurpakka forritinu með hverri uppfærslu. |
 | **Skipt út fyrir aðra eiginleika?**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
 | **Afurðasvæði sem haft er áhrif á**         | Nútíma sölustaður |
 | **Dreifingarvalkostur**              | Allir |
@@ -195,3 +208,4 @@ Til að læra meira um eiginleika sem hafa verið fjarlægðir eða úreltir í 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

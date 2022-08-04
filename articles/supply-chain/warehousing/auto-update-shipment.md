@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2963589562e2d646670183e9db35df33255e8894
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e5816a7cddf509260511368b74655a9fd5bfc485
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903754"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067882"
 ---
 # <a name="shipment-auto-updates"></a>Sjálfvirkar uppfærslur á sendingu
 
@@ -30,7 +30,7 @@ Sjálfvirk uppfærsla flutnings uppfærir sjálfkrafa magn (bæði eykur og læk
 
 Þegar virkni sjálfvirkrar uppfærslu sendingar er ekki notuð minnkar aðeins magn sjálfkrafa þar til vinna vörugeymslu er búin til. Notendur verða að uppfæra eða eyða línum handvirkt og síðan verða þeir að gefa út línur ef pöntunarmagn er aukið eða nýjum pöntunarlínum bætt við. Með því að nota sjálfvirka uppfærslu sendingar geta fyrirtæki snurðulaust veitt uppfærslur til vöruhúss án þess að þurfa að hafa áhyggjur af því að skyldar sendingar og álag munu ekki endurspegla uppfærslur pöntunarlínunnar.
 
-Sendingarvirkni sjálfvirkrar uppfærslu á bæði við um sölupöntunarlínur og flutningspöntunarlínur og kveikt er á því fyrir tiltekið vöruhús. Þess vegna geta fyrirtæki beitt mismunandi reglum um sjálfvirka uppfærslu á sendingum í vöruhús, allt eftir þörfum. Sjálfgefið er að stefnu um sjálfvirka uppfærslu sendingar á magni lækkar er beitt fyrir öll vöruhús sem nota vörugeymsluferli. Þegar þessi sjálfgefna reglustilling er notuð, minnkar aðeins magn sjálfkrafa streymi í sendingu og álag þar til að vinna vörugeymslu er stofnað. Þessi hegðun líkist hegðuninni sem var notuð áður en virkni sjálfvirkrar uppfærslu sendingar var kynnt.
+Sendingarvirkni sjálfvirkrar uppfærslu á bæði við um sölupöntunarlínur og flutningspöntunarlínur og kveikt er á því fyrir tiltekið vöruhús. Þess vegna geta fyrirtæki beitt mismunandi reglum um sjálfvirka uppfærslu á sendingum í vöruhús, allt eftir þörfum. Sjálfgefið er að sendingarstefna fyrir sjálfvirka uppfærslu fyrir magnminnkun er notuð fyrir öll vöruhús sem nota vöruhúsastjórnunarferli (WMS). Þegar þessi sjálfgefna reglustilling er notuð, minnkar aðeins magn sjálfkrafa streymi í sendingu og álag þar til að vinna vörugeymslu er stofnað. Þessi hegðun líkist hegðuninni sem var notuð áður en virkni sjálfvirkrar uppfærslu sendingar var kynnt.
 
 ## <a name="main-elements-of-the-functionality"></a>Helstu þættir virkninnar
 

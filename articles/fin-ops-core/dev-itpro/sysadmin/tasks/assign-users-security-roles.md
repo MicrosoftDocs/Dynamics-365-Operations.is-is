@@ -1,6 +1,6 @@
 ---
-title: Úthluta notendum á öryggishlutverk
-description: Til að fá aðgang að forritum Finance and Operations þurfa notendur að fá úthlutað öryggishlutverkum.
+title: Skipa notendum í öryggishlutverk
+description: Til að fá aðgang að fjármála- og rekstraröppum verður að úthluta notendum í öryggishlutverk.
 author: Peakerbl
 ms.date: 02/09/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36874b996cc5708f6fd7fbc45251f3066b5b1c97
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: b5e69a79f123daff3f85d0100647615ad818288e
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105539"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103869"
 ---
 # <a name="manage-users-and-security-roles"></a>Stjórna notendum og öryggishlutverkum
 
 [!include [banner](../../includes/banner.md)]
 
-Til að nota eitthvað annað en almenna eiginleika í Finance and Operations forritum verður að úthluta notendum í öryggishlutverk. Hægt er að úthluta notendum á hlutverk sjálfkrafa, byggt á reglum og viðskiptagögnum, útiloka notendur frá sjálfvirkri hlutverkaúthlutun eða bæta notendum við hlutverk handvirkt.
+Til að nota eitthvað annað en algenga eiginleika í fjármála- og rekstrarforritum verður að úthluta notendum í öryggishlutverk. Hægt er að úthluta notendum á hlutverk sjálfkrafa, byggt á reglum og viðskiptagögnum, útiloka notendur frá sjálfvirkri hlutverkaúthlutun eða bæta notendum við hlutverk handvirkt.
 
 ## <a name="automatically-assign-users-to-roles"></a>Sjálfkrafa skipa notendum í hlutverkin
 Þessu ferli útskýrt hvernig kerfisstjórum geta sjálfvirkt úthlutað notendum á hlutverk, byggt á viðskiptagögnum. 
@@ -69,7 +69,8 @@ Stjórnandi þarf einnig að fjarlægja notendur sem er úthlutað handvirkt á 
 3. Til að fjarlægja marga notendur skaltu fylgja þessum skrefum:
    1. Veldu hlutverk í trénu. 
    2. Í **Notendum úthlutað hlutverki** svæði, veldu **Úthluta / útiloka notendur handvirkt**.
-   3. Í **Úthluta notendum til eða útiloka notendur frá hlutverki** síðu, notendur sem ekki hafa verið úthlutað hlutverkinu **Enginn** í **Úthlutunarhamur** dálki. Veldu notendur sem ætti að útiloka frá hlutverkinu.
+   3. Í **Úthluta notendum til eða útiloka notendur frá hlutverki** síðu, notendur sem ekki hafa verið úthlutað hlutverkinu **Enginn** í **Úthlutunarhamur** dálki. Veldu þá notendur sem ætti að útiloka frá hlutverkinu.
    4. Í **Aðgerðarsvæði** velurðu **Útiloka frá hlutverki**. The **Úthlutunarhamur** dálkurinn er nú uppfærður í **Handbók** og notendur eru nú útilokaðir frá hlutverkinu.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

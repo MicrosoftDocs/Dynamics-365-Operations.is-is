@@ -1,6 +1,6 @@
 ---
 title: Úthluta skrefatáknum og titlum fyrir Warehouse Management farsímaforritið
-description: Þessi grein lýsir því hvernig á að úthluta skrefatáknum og titlum fyrir nýtt eða sérsniðið verkflæði fyrir vöruhússtjórnun farsímaforritið.
+description: Þessi grein lýsir því hvernig á að úthluta skreftáknum og titlum fyrir nýtt eða sérsniðið verkflæði fyrir vöruhúsastjórnun farsímaforritið.
 author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 361ace454f7125ec86bd99cffefc7d268f81d37f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ed2baff1851eba488233c050cef1f8f73b6bcee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890597"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067303"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Úthluta skrefatáknum og titlum fyrir Warehouse Management farsímaforritið
 
@@ -39,7 +39,7 @@ Hvert skref í verkflæði er auðkennt með skrefakenni og hvert skrefakenni er
 
 Eftirfarandi tafla sýnir hvert skrefakenni sem er í boði eins og er og samsvarandi skrefaklasa. Stýringarheiti aðalfærslureitsins er notað sem skrefakennið.
 
-Fyrir dæmi sem sýnir hvernig þessi skrefaauðkenni og flokkar eru notuð, sjá útfærslu á`WHSMobileAppStepInfoBuilder.stepId()` aðferð í [Dæmi: Úthlutaðu skrefstáknum og titlum fyrir sérsniðið flæði](#example) kafla síðar í þessari grein.
+Fyrir dæmi sem sýnir hvernig þessi skrefakenni og flokkar eru notaðir, sjá útfærslu á`WHSMobileAppStepInfoBuilder.stepId()` aðferð í [Dæmi: Úthlutaðu skrefatáknum og titlum fyrir sérsniðið flæði](#example) kafla síðar í þessari grein.
 
 | Kenni skrefs | Klasi skrefs |
 |-|-|
@@ -317,8 +317,8 @@ Eftirfarandi tafla sýnir hvert staðlað skrefatákn sem er í boði sem stendu
 <td><img src="media/step-icons-weight-to-consume.png" alt="Weight to consume step icon" title="Skrefatákn notkunarþyngdar"><br>WeightToConsume</td>
 </tr>
 <tr>
-<td><img src="media/step-icons-whs-adjustment-type.png" alt="WHS adjustment type step icon" title="Skrefatákn leiðréttingargerðar vöruhúsakerfis"><br>WHSAdjustmentType</td>
-<td><img src="media/step-icons-whs-receiving-exception.png" alt="WHS receiving exception step icon" title="Skrefatákn móttökufráviks vöruhúsakerfis"><br>WHSReceivingException</td>
+<td><img src="media/step-icons-whs-adjustment-type.png" alt="WMS adjustment type step icon" title="Skreftákn fyrir WMS aðlögunargerð"><br>WHSAdjustmentType</td>
+<td><img src="media/step-icons-whs-receiving-exception.png" alt="WMS receiving exception step icon" title="Skref tákn fyrir WMS móttöku undantekningar"><br>WHSReceivingException</td>
 <td><img src="media/step-icons-wms-location-id.png" alt="WMS location ID step icon" title="Skrefatákn staðsetningarkennis vöruhúsakerfis"><br>WMSLocationID</td>
 <td><img src="media/step-icons-work-id.png" alt="Work ID step icon" title="Skrefatákn vinnukennis"><br>WorkId</td>
 </tr>
@@ -373,7 +373,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 Kennimerki skrefatáknsins er geymt í `defaultStepIcon` klasameðlimnum og titill skrefsins er geymt í `defaultStepTitle` klasameðlimnum.
 
-Til að úthluta skrefstákn skaltu stilla`defaultStepIcon` í eitt af auðkennum táknanna sem eru skráð í [Tiltæk skref tákn](#step-icons) kafla fyrr í þessari grein.
+Til að úthluta skrefartákn skaltu stilla`defaultStepIcon` í eitt af auðkenni táknanna sem eru skráð í [Tiltæk skref tákn](#step-icons) kafla fyrr í þessari grein.
 
 ### <a name="use-a-standard-or-custom-step-icon-and-title-for-the-weight-input"></a>Nota staðlað eða sérstillt tákn og titil skrefs fyrir innslátt þyngdar
 

@@ -14,23 +14,23 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869982"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203110"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Skattaeiginleikaþjónusta fyrir flutningspantanir
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um skattútreikning og bókunarsamþættingu í millifærslupantanir. Þessi virkni gerir kleift að setja upp skattaútreikning og bókun í flutningspöntunum fyrir birgðaflutninga. Samkvæmt VSK-reglugerðum Evrópusambandsins er litið á birgðaflutninga sem framboð og kaup innan sambandsins.
+Þessi grein veitir upplýsingar um skattaútreikning og bókunarsamþættingu í millifærslupantanir. Þessi virkni gerir kleift að setja upp skattaútreikning og bókun í flutningspöntunum fyrir birgðaflutninga. Samkvæmt VSK-reglugerðum Evrópusambandsins er litið á birgðaflutninga sem framboð og kaup innan sambandsins.
 
 Til að grunnstilla og nota þessa virkni þarf að ljúka þremur meginskrefum:
 
 1. **RCS-uppsetning:** í Regulatory Configuration Service skal setja upp skattaeiginleika, skattkóða og gildissvið skattkóða fyrir ákvörðun skattkóða í flutningspöntunum.
-2. **Dynamics 365 Finance uppsetning:** Í Fjármálum, virkjaðu **Skattur í millifærslupöntun** eiginleika, setja upp færibreytur skattaútreikningsþjónustu fyrir birgðahald og setja upp kjarnaskattfæribreytur.
+2. **Dynamics 365 Finance uppsetning:** Í Finance, virkjaðu **Skattur í millifærslupöntun** eiginleika, setja upp færibreytur skattaútreikningsþjónustu fyrir birgðahald og setja upp kjarnaskattfæribreytur.
 3. **Uppsetning birgða:** Setjið upp skilgreiningu birgða fyrir færslur flutningspöntunar.
 
 ## <a name="set-up-rcs-for-tax-and-transfer-order-transactions"></a>Setja upp RCS fyrir skattfærslur og færslur flutningspöntunar
@@ -111,7 +111,10 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
 6. Skilgreindu gildissvið fyrir skattflokk vöru.
 
     1. Veljið **Stjórna dálkum** og veljið síðan dálka sem á að nota til að búa til töflu gildissviðs.
-    2. Bætið við gildissviðsreglum. Ekki skilja reitinn **Skattflokkur vöru** eftir auðan.
+    2. Bætið við gildissviðsreglum.
+        
+       > [!NOTE]
+       > Ef vörusöluskattsflokkurinn sem er sjálfgefinn á skattskyldum skjalalínum þínum er þegar réttur, skildu þetta fylki eftir autt. 
         
         Bættu nýrri reglu við fyrir sendingu og móttöku flutningspöntunar.
         1. Á síðunni **Gildissviðsreglur** skal velja **Bæta við**.

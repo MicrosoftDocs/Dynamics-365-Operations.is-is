@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19337b2651830d79543361d525bf24c4f794e825
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906356"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065747"
 ---
 # <a name="dual-currency"></a>Tvöfaldur gjaldmiðill
 
 [!include [banner](../includes/banner.md)]
 
-Virkni sem kynnt var í Microsoft Dynamics 365 for Finance and Operations útgáfu 8.1 (október 2018) gerir kleift að endurskipuleggja skýrslugjaldmiðilinn og nota sem annan bókhaldsgjaldmiðill. Þessi virkni er vísað til sem *tvöfalds gjaldmiðils*. Ekki er hægt að slökkva á breytingum fyrir tvöfaldan gjaldmiðil með skilgreiningarlykli eða færibreytu. Vegna þess að skýrslugjaldmiðillinn er notaður sem annar bókhaldsgjaldmiðill, breytist leiðin sem skýrslugjaldmiðillinn er reiknaður með bókunarrökunum.
+Virkni sem var kynnt í Microsoft Dynamics 365 Finance útgáfa 8.1 (október 2018) gerir kleift að endurnýta skýrslugjaldmiðilinn og nota hann sem annan bókhaldsgjaldmiðil. Þessi virkni er vísað til sem *tvöfalds gjaldmiðils*. Ekki er hægt að slökkva á breytingum fyrir tvöfaldan gjaldmiðil með skilgreiningarlykli eða færibreytu. Vegna þess að skýrslugjaldmiðillinn er notaður sem annar bókhaldsgjaldmiðill, breytist leiðin sem skýrslugjaldmiðillinn er reiknaður með bókunarrökunum.
 
 Að auki hafa nokkrar einingar verið endurbættar til að fylgjast með, tilkynna og nota skýrslugjaldmiðilinn í ýmsum ferlum. Einingarnar sem verða fyrir áhrifum eru meðal annars:
 
@@ -36,7 +36,7 @@ Að auki hafa nokkrar einingar verið endurbættar til að fylgjast með, tilkyn
 - Eignir 
 - Samstæður
 
-Eftir uppfærslu verður þú að ljúka sérstökum skrefum fyrir reiðufjár- og bankastjórnun og eignir. Vertu því viss um að lesa og skilja viðeigandi hluta þessarar greinar.
+Eftir uppfærslu verður þú að ljúka sérstökum skrefum fyrir reiðufjár- og bankastjórnun og eignir. Þess vegna, vertu viss um að lesa og skilja viðeigandi hluta þessarar greinar.
 
 ## <a name="posting-process"></a>Bókunarferli
 
@@ -209,3 +209,4 @@ Virkni sem var kynnt í Dynamics 365 Finance útgáfu 10.0.5 (október 2019) ger
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

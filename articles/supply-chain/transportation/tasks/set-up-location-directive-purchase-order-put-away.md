@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d973d1cdb530a031ca8a5caf621f9bebced4842
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25484efd7be026bfc3a209fb52822b87d6b76cc2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873493"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065495"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Setja upp leiðbeiningar um staðsetningu fyrir frágang innkaupapöntunar
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp einfalda staðsetningartilskipun. Dæmið sem er sýnt stofnar staðsetningarleiðbeiningar til að nota til að ákvarða hvar á að setja vörur sem hafa verið mótteknar fyrir innkaupapöntun. Hægt er að nota þessar verkefnaleiðbeiningar með nefndum gögnum með notkun sýnifyrirtækisins USMF. Frumskilyrði: Þú þarft að stofna ráðstöfunarkóða. Í þessu ferli notum við ráðstöfunarkóða sem kallast Endurmerkja. Ef þú ert að stofna staðsetningarleiðbeiningar í eigin gögnum þarftu að hafa sett upp ítarlegt vöruhúsakerfi fyrir vöruhúsið þitt og vörurnar. Þetta ferli er ætluð fyrir stjórnanda í vöruhúsi.
+Þessi grein útskýrir hvernig á að setja upp einfalda staðsetningartilskipun. Dæmið sem er sýnt stofnar staðsetningarleiðbeiningar til að nota til að ákvarða hvar á að setja vörur sem hafa verið mótteknar fyrir innkaupapöntun. Hægt er að nota þessar verkefnaleiðbeiningar með nefndum gögnum með notkun sýnifyrirtækisins USMF. Frumskilyrði: Þú þarft að stofna ráðstöfunarkóða. Í þessu ferli notum við ráðstöfunarkóða sem kallast Endurmerkja. Ef þú ert að búa til staðsetningartilskipun í þínum eigin gögnum þarftu að hafa sett upp vöruhússtjórnunarferli (WMS) fyrir vöruhúsið þitt og vörur. Þetta ferli er ætluð fyrir stjórnanda í vöruhúsi.
 
 1. Í skoðunarrúðunni ferðu í **Kerfi > Vöruhúsakerfi > Uppsetning > Vöruhús > Staðsetningarleiðbeiningar**.
 2. Í reitnum **Gerð verkbeiðni** velurðu **Innkaupapantanir**.

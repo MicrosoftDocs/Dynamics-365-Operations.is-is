@@ -1,6 +1,6 @@
 ---
 title: Nota fartækjavinnusvæði eignastýringar
-description: Þessi grein lýsir því hvernig á að setja upp Microsoft Dynamics 365 Supply Chain Management og Finance and Operations (Dynamics 365) farsímaforritið til að keyra farsímavinnusvæði eignastýringar sem starfsmenn geta notað til að framkvæma eignastýringarverkefni.
+description: Þessi grein lýsir því hvernig á að setja upp Microsoft Dynamics 365 Supply Chain Management og fjármála- og rekstrarforritið (Dynamics 365) til að keyra farsímavinnusvæði eignastýringar sem starfsmenn geta notað til að framkvæma eignastýringarverkefni.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef4e6bf2ae59adb05c7d4aacc3f5675a5adcafc9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870843"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070054"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Nota fartækjavinnusvæði eignastýringar
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að setja upp Microsoft Dynamics 365 Supply Chain Management og Finance and Operations (Dynamics 365) farsímaforritið til að keyra **Eignastýring** færanlegt vinnusvæði sem starfsmenn geta notað til að framkvæma eignastýringarverkefni.
+Þessi grein lýsir því hvernig á að setja upp Microsoft Dynamics 365 Supply Chain Management og fjármála- og rekstrarforritið (Dynamics 365) til að keyra **Eignastýring** færanlegt vinnusvæði sem starfsmenn geta notað til að framkvæma eignastýringarverkefni.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Setja upp notendur viðhaldsstarfskrafta í Supply Chain Management
 
@@ -41,7 +41,7 @@ Fyrir hvern notanda sem þarf aðgang að fartækjavinnusvæðinu **Eignastýrin
 
 ## <a name="publish-the-asset-management-mobile-workspace"></a>Birta fartækjavinnusvæði eignastýringar
 
-Til að gera eignastýringareiginleika aðgengilega í Finance and Operations (Dynamics 365) farsímaforritinu verður þú að birta **Eignastýring** færanlegt vinnusvæði.
+Til að gera eignastýringareiginleika aðgengilega í fjármála- og rekstrarforritinu (Dynamics 365) verður þú að birta **Eignastýring** færanlegt vinnusvæði.
 
 1. Í Supply Chain Management skal velja hnappinn **Stillingar** (tannhjólið efst í hægra horninu) og síðan velja **Fartækjaforrit** í valmyndinni.
 1. Í svarglugganum **Stjórna fartækjaforriti** skal finna reitinn **Eignastýring**. Ef hann inniheldur textann „Í lýsigögnum - ekki birt“ hefur vinnusvæðið ekki enn verið birt. Ef hann inniheldur textann „Í lýsigögnum - birt“ hefur vinnusvæðið þegar verið birt og hægt er að sleppa því sem eftir er af þessu ferli.
@@ -50,14 +50,14 @@ Til að gera eignastýringareiginleika aðgengilega í Finance and Operations (D
 
 1. Velja skal reitinn **Eignastýring** og síðan velja **Birta** í tækjastikunni. Eftir nokkrar sekúndur ætti að berast tilkynning sem segir til um að vinnusvæði hafi verið birt. Þar að auki ætti textinn í reitnum að breytast í „Í lýsigögnum - birt.“
 
-## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Settu upp og settu upp Finance and Operations (Dynamics 365) farsímaforritið
+## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Settu upp og settu upp fjármála- og rekstrarforritið (Dynamics 365).
 
-1. Farðu í eina af eftirfarandi forritabúðum til að setja upp **Microsoft Finance and Operations (Dynamics 365)** app á farsímanum þínum:
+1. Farðu í eina af eftirfarandi forritabúðum til að setja upp **Microsoft fjármál og rekstur (Dynamics 365)** app á farsímanum þínum:
 
     - [Fyrir Google Android-tæki](https://go.microsoft.com/fwlink/?linkid=850662)
     - [Fyrir Apple iOS-tæki](https://go.microsoft.com/fwlink/?linkid=850663)
 
-1. Opnaðu Finance and Operations (Dynamics 365) appið. Innskráningarsíðan ætti að birtast. Í reitinn **Innskráning** skal færa inn vefslóð Supply Chain Management eða velja nýlega vefslóð úr listanum **Nýleg umhverfi** og síðan pikka á **Tengja**.
+1. Opnaðu fjármála- og rekstrarappið (Dynamics 365). Innskráningarsíðan ætti að birtast. Í reitinn **Innskráning** skal færa inn vefslóð Supply Chain Management eða velja nýlega vefslóð úr listanum **Nýleg umhverfi** og síðan pikka á **Tengja**.
 
     ![Innskráningarsíða.](media/mobile-app-sign-in.png "Innskráningarsíða")
 
@@ -80,7 +80,7 @@ Til að gera eignastýringareiginleika aðgengilega í Finance and Operations (D
 
 Frekari upplýsingar um hvernig á að vinna með fartækjavinnusvæðið **Eignastýring** er að finna í [Nota fartækjavinnusvæði eignastýringar](asset-management-mobile-workspace.md).
 
-Fyrir frekari upplýsingar um Finance and Operations (Dynamics 365) farsímaforritið, sjáðu [Heimasíða farsímaforrits](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+Fyrir frekari upplýsingar um fjármál og rekstur (Dynamics 365) farsímaforritið, sjáðu [Heimasíða farsímaforrits](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

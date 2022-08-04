@@ -1,7 +1,7 @@
 ---
 title: Fyrirframdagsettar ávísanir
-description: Þessi grein veitir upplýsingar um stuðning við uppfærðar innskráningar Microsoft Dynamics 365 Fjármál. Fyrirframdagsettar ávísanir eru ávísanir sem eru gefnar út til að greiða og taka á móti greiðslum í framtíðinni. Þess vegna er ekki hægt að leysa út ávísun fram að tilgreindri dagsetningu.
-author: panolte
+description: Þessi grein veitir upplýsingar um stuðning fyrir fyrirframdagsettar ávísanir. Úthlutaðar ávísanir eru gefnar út til að inna af hendi og taka á móti greiðslum á framtíðardegi.
+author: angelad116
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33de0d5180962f52ddb0770f8729ed147d144e6d
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 4d32ed9de66bc92e17c5515a4266f41aaeb9f2c1
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722856"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151362"
 ---
 # <a name="postdated-checks"></a>Fyrirframdagsettar ávísanir
 
@@ -28,7 +28,7 @@ ms.locfileid: "8722856"
 
 Þessi grein veitir upplýsingar um stuðning fyrir fyrirframdagsettar ávísanir. Fyrirframdagsettar ávísanir eru ávísanir sem eru gefnar út til að greiða og taka á móti greiðslum í framtíðinni. Þess vegna er ekki hægt að leysa út ávísun fram að tilgreindri dagsetningu.
 
-Dynamics 365 Finance styður alla stjórnunarferilinn fyrir eftirteknar athuganir á bæði viðskiptakröfum og viðskiptaskuldum, eins og sýnt er í eftirfarandi töflu.
+Dynamics 365 Finance styður alla stjórnunarferilinn fyrir eftirteknar athuganir bæði á viðskiptakröfum og viðskiptaskuldum, eins og sýnt er í eftirfarandi töflu.
 <table>
 <colgroup>
 <col width="50%" />

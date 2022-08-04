@@ -1,6 +1,6 @@
 ---
 title: Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi
-description: Þessi handbók sýnir hvernig á að grunnstilla uppsetningu á staðsetningu fyrir nýtt vöruhúsakerfisvirkjað vöruhús (vöruhús sem notar ítarleg vöruhúsaferli).
+description: Þessi handbók sýnir þér hvernig á að stilla staðsetningaruppsetningu fyrir nýtt WMS-virkt vöruhús (vöruhús sem notar vöruhússtjórnunarferli (WMS)).
 author: perlynne
 ms.date: 06/26/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
-ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
-ms.translationtype: MT
+ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599349"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067274"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi handbók sýnir hvernig á að grunnstilla uppsetningu á staðsetningu fyrir nýtt vöruhúsakerfisvirkjað vöruhús (vöruhús sem notar ítarleg vöruhúsaferli). Ferlið er yfirleitt gert af stjórnanda vöruhúss. Hægt er að keyra þessa handbók í sýnifyrirtækinu USMF eða í eigin gögnum. Forkröfur eru að minnsta kosti eitt svæði sé grunnstillt.
+Þessi handbók sýnir þér hvernig á að stilla staðsetningaruppsetningu fyrir nýtt WMS-virkt vöruhús (vöruhús sem notar vöruhússtjórnunarferli (WMS)). Ferlið er yfirleitt gert af stjórnanda vöruhúss. Hægt er að keyra þessa handbók í sýnifyrirtækinu USMF eða í eigin gögnum. Forkröfur eru að minnsta kosti eitt svæði sé grunnstillt.
 
 
 ## <a name="create-a-new-warehouse"></a>Stofna nýtt vöruhús
@@ -35,7 +35,7 @@ ms.locfileid: "7599349"
 4. Í reitinn **Heiti** skal slá inn gildi.
 5. Í reitnum **Svæði** skal velja eða slá inn fyrirliggjandi svæðisgildi.
 6. Víkkið út hlutann **Vöruhús**.
-7. Stilltu valkostinn **Nota ferli vöruhúsastjórnunar** á Já. Þessi stilling leyfir þér að keyra ítarleg vöruhúsaferli með því að nota vöruhúsavinnu og fartæki.
+7. Stilltu valkostinn **Nota ferli vöruhúsastjórnunar** á Já. Þessi stilling gerir þér kleift að keyra vöruhúsastjórnunarferli (WMS) með því að nota vöruhúsavinnu og fartæki.
 8. Lokið síðunni.
 
 ## <a name="define-a-location-format"></a>Skilgreina snið staðsetningar
@@ -68,7 +68,7 @@ ms.locfileid: "7599349"
 5. Lokið síðunni.
 
 ## <a name="define-location-profile"></a>Skilgreina forstillingu staðsetningar
-1. Farðu í **Skoðunnarúðu > Kerfiseiningar > Vöruhúsakerfi > Uppsetning > Vöruhús > Staðsetningarforstillingar**. Skilgreining á forstillingum staðsetningar er mjög mikilvæg. Hægt er að stýra afkastagetu flokkaðra staðsetninga hér, ásamt reglum sem tengjast hvaða birgðir eru vistaðar og hvernig þær eru vistaðar. Hægt er að nota forstillingar staðsetninga sem síunarvalkosti til að stýra mismunandi vöruhúsakerfisferlum. Sem lágmark verður að stofna forstillingu fyrir staðsetningu notanda til að virkja ferli vöruhúsakerfis.
+1. Farðu í **Skoðunnarúðu > Kerfiseiningar > Vöruhúsakerfi > Uppsetning > Vöruhús > Staðsetningarforstillingar**. Skilgreining á forstillingum staðsetningar er mjög mikilvæg. Hægt er að stýra afkastagetu flokkaðra staðsetninga hér, ásamt reglum sem tengjast hvaða birgðir eru vistaðar og hvernig þær eru vistaðar. Hægt er að nota forstillingar staðsetninga sem síunarvalkosti til að stýra mismunandi vöruhúsakerfisferlum. Að lágmarki verður þú að búa til notendastaðsetningarsnið til að virkja WMS.
 2. Smellt er á **Nýtt**.
 3. Í reitnum **Kenni staðsetningarforstillingar**.
 4. Í reitinn **Heiti** skal slá inn gildi.

@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef5ed6c3c99d62010643940f3e2f158963ff0dc2
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868609"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123719"
 ---
 # <a name="embed-third-party-apps"></a>Innfella forrit þriðja aðila
 
 [!include [banner](../includes/banner.md)]
 
-Margir viðskiptavinir nota ýmis forrit til að reka fyrirtæki sín. Sum þessara forrita eru vefforrit þriðja aðila sem virka í tengslum við Finance and Operations forrit. Til að veita hnökralausri notendaupplifun geturðu notað **Heilsíðuforrit** eiginleika til að fella þessi þriðju aðila öpp beint inn í fjármála- og rekstraröppin þín (að því gefnu að þriðju aðila öppin leyfi sér að vera felld inn). Á þennan hátt geta notendur fengið aðgang að vefsvæðum og forritum sem þeir þurfa án þess að þurfa að skipta um flipa eða glugga.
+Margir viðskiptavinir nota ýmis forrit til að reka fyrirtæki sín. Sum þessara forrita eru vefforrit þriðja aðila sem virka í tengslum við fjármála- og rekstrarforrit. Til að veita óaðfinnanlegri notendaupplifun geturðu notað **Heilsíðuforrit** eiginleika til að fella þessi þriðju aðila öpp beint inn í fjármála- og rekstraröppin þín (að því gefnu að þriðju aðila öppin leyfi sér að vera felld inn). Á þennan hátt geta notendur fengið aðgang að vefsvæðum og forritum sem þeir þurfa án þess að þurfa að skipta um flipa eða glugga.
 
-Áður en hægt er að fella forrit þriðja aðila inn í afurðina þarf að kveikja á eiginleikanum **Heilsíðuforrit** í eiginleikastjórnun. Síðan er hægt að nota eina af eftirfarandi aðferðum til að fella inn forrit eða vefsvæði þriðja aðila. Þessar aðferðir eru hliðstæðar aðferðunum sem eru notaðar til að fella inn strigaforrit frá Microsoft Power Apps inn í Finance and Operations öpp.
+Áður en hægt er að fella forrit þriðja aðila inn í afurðina þarf að kveikja á eiginleikanum **Heilsíðuforrit** í eiginleikastjórnun. Síðan er hægt að nota eina af eftirfarandi aðferðum til að fella inn forrit eða vefsvæði þriðja aðila. Þessar aðferðir eru hliðstæðar aðferðunum sem eru notaðar til að fella inn strigaforrit frá Microsoft Power Apps inn í fjármála- og rekstraröpp.
 
 - Fellið forritið eða vefsvæðið inn í fyrirliggjandi síðu sem síðu á nýjum flipa (snúningsflipa, flýtiflipa, blaði eða vinnusvæði).
 - Búið til nýja heilsíðuupplifun fyrir forritið eða vefsvæðið úr stjórnborðinu.
@@ -53,14 +53,14 @@ Notið þessa aðferð til að bæta við síðu sem er til í kerfinu með innf
     > - Stilla þarf forritið eða vefsvæðið þannig að það leyfi innfellingu.
 
 6. Veljið **Vista** til að fella forritið inn á síðuna. Forritinu er bætt við sem síðasta flipanum eða hlutanum í flokknum.
-7. Staðfestið að forritið birtist eins og búist var við. Ef appið er ekki birt skaltu skoða [Bilanagreining](#troubleshooting) kafla síðar í þessari grein.
+7. Staðfestið að forritið birtist eins og búist var við. Ef appið er ekki birt, sjáðu [Bilanagreining](#troubleshooting) kafla síðar í þessari grein.
 8. Opnið yfirlitsvalið og veljið annaðhvort **Vista** (ef forritið á að vera tengd við núverandi yfirlit) eða **Vista sem** (til að vista forritið í annað yfirlit).
 
     Ef síðan er ekki með yfirlitsval (t.d. ef síðan er svargluggi eða vinnusvæði) er hægt að sleppa þessu skrefi.
 
 ## <a name="embed-a-website-as-a-full-page-experience-from-the-dashboard"></a>Fella inn vefsvæði sem heilsíðuupplifun úr stjórnborðinu
 
-Notaðu þessa aðferð ef appið sem þú vilt fella inn er ekki tengt núverandi síðu eða ef þú vilt bara heilsíðuupplifun fyrir appið í Finance and Operations appinu.
+Notaðu þessa aðferð ef forritið sem þú vilt fella inn er ekki tengt núverandi síðu eða ef þú vilt bara upplifun á heilsíðu fyrir appið í fjármála- og rekstrarappinu.
 
 1. Opnið stjórnborð.
 2. Veljið og haldið inni stjórnborðinu (eða hægrismellið á það), veljið **Sérstilla** og veljið því næst **Bæta við síðu**.
@@ -89,7 +89,7 @@ Notaðu þessa aðferð ef appið sem þú vilt fella inn er ekki tengt núveran
 
 ## <a name="viewing-embedded-apps"></a>Skoða innfelld forrit
 
-Til að skoða innfellt forrit á síðu í Finance and Operations forritum skaltu opna síðuna sem hefur innfellda appið. Munið að á sumum síðum er hægt að opna forrit með því að nota hnappinn **Power Apps** á staðlaða aðgerðasvæðinu. Að öðrum kosti kunna þær að birtast beint á síðunni sem nýr flipi eða flýtiflipi eða blað eða sem nýr hluti á vinnusvæði.
+Til að skoða innfellt forrit á síðu í fjármála- og rekstrarforritum skaltu opna síðuna sem hefur innfellda appið. Munið að á sumum síðum er hægt að opna forrit með því að nota hnappinn **Power Apps** á staðlaða aðgerðasvæðinu. Að öðrum kosti kunna þær að birtast beint á síðunni sem nýr flipi eða flýtiflipi eða blað eða sem nýr hluti á vinnusvæði.
 
 ## <a name="editing-or-removing-embedded-apps"></a>Breyta eða fjarlægja innfelld forrit
 
@@ -126,6 +126,7 @@ Ef vefsvæði birtast ekki á réttan hátt eftir innfellingu í forriti Finance
 
 ### <a name="developer-modeling-a-website-on-a-form"></a>[Þróunaraðili] Vefsvæði smíðað í skjámynd
 
-Þrátt fyrir að þessi grein beinist að því að fella inn forrit eða vefsíður frá þriðja aðila með sérstillingu, geta verktaki einnig fellt þau inn í form með því að nota Visual Studio reynslu af þróun. Bætið einfaldlega stýringu **WebsiteHostControl** við skjámyndina. Lýsigagnaeiginleikarnir sem eru í boði fyrir stýringuna bjóða upp á sömu möguleika og sérstillingarleiðin.
+Þrátt fyrir að þessi grein sé lögð áhersla á að fella inn forrit eða vefsíður þriðja aðila með sérstillingu, geta verktaki einnig fellt þau inn í form með því að nota Visual Studio reynslu af þróun. Bætið einfaldlega stýringu **WebsiteHostControl** við skjámyndina. Lýsigagnaeiginleikarnir sem eru í boði fyrir stýringuna bjóða upp á sömu möguleika og sérstillingarleiðin.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0278b57ccfa2da9dba6b5ea77821fdc47ad2d078
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: ee084e84c052366bdf34fe1a1e697a32e456914b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846655"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068923"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 
@@ -31,7 +31,7 @@ ms.locfileid: "8846655"
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
 > [!NOTE]
-> Ítarlegar upplýsingar um hluti í Finance and Operations öppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/global/axtechrefrep_61). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af Finance and Operations forritum.
+> Ítarlegar upplýsingar um hluti í fjármála- og rekstraröppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/global/axtechrefrep_61). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af fjármála- og rekstrarforritum.
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.26 útgáfu
 
@@ -51,7 +51,7 @@ ms.locfileid: "8846655"
 
 ### <a name="sales-tax-report-for-sweden-design-based-on-reporting-codes"></a>Vöruskattsskýrsla fyrir Svíþjóð (hönnun byggð á skýrslukóðum)
 
-[Söluskattsskýrsla fyrir Svíþjóð](../localizations/emea-swe-sales-tax-payment-report-sweden.md)
+[Söluskattskýrsla fyrir Svíþjóð](../localizations/emea-swe-sales-tax-payment-report-sweden.md)
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -71,7 +71,7 @@ ms.locfileid: "8846655"
 | **Skipt út fyrir aðra eiginleika?**   | Já |
 | **Afurðasvæði sem haft er áhrif á**         | Forrit |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Úrelt: Fyrir 1. desember 2022 ætlum við að styðja ekki lengur **VSK yfirlýsing (AT)** Rafræn skýrslugerð (ER) snið undir **VSK framtalslíkan**. Nýtt **VSK yfirlýsing XML (AT)** og **VSK yfirlýsing Excel (AT)** snið eru kynnt undir **Skattskýrsla** fyrirmynd. |
+| **Staða**                         | Úrelt: Fyrir 1. desember 2022 ætlum við að styðja ekki lengur **VSK yfirlýsing (AT)** Rafræn skýrslugerð (ER) snið undir **Fyrirmynd virðisaukaskattsskýrslu**. Nýtt **VSK yfirlýsing XML (AT)** og **VSK yfirlýsing Excel (AT)** snið eru kynnt undir **Skattskýrsla** fyrirmynd. |
 
 ### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>ELSTER yfirlýsing fyrir Þýskaland (hönnun byggð á skýrslukóðum)
 
@@ -85,7 +85,7 @@ ms.locfileid: "8846655"
 | **Skipt út fyrir aðra eiginleika?**   | Já |
 | **Afurðasvæði sem haft er áhrif á**         | Forrit |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Úrelt: Fyrir 1. desember 2022 ætlum við að styðja ekki lengur **Elster (DE)** og **Elster módel** Rafræn skýrslugerð (ER) snið. Nýtt **VSK yfirlýsing XML (DE)** og **VSK yfirlýsing Excel (DE)** snið eru kynnt undir **Skattskýrsla** fyrirmynd. |
+| **Staða**                         | Úrelt: Fyrir 1. desember 2022 ætlum við að styðja ekki lengur **Elster (DE)** og **Elster fyrirmynd** Rafræn skýrslugerð (ER) snið. Nýtt **VSK yfirlýsing XML (DE)** og **VSK yfirlýsing Excel (DE)** snið eru kynnt undir **Skattskýrsla** fyrirmynd. |
 
 ### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>OB yfirlýsing fyrir Holland (hönnun byggð á tilkynningarkóðum)
 
@@ -218,3 +218,4 @@ Til að læra meira um eiginleika sem hafa verið fjarlægðir eða úreltir í 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

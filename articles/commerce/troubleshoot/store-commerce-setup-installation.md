@@ -1,6 +1,6 @@
 ---
-title: Leysa uppsetningar- og uppsetningarvandamál í Store Commerce
-description: Þessi grein útskýrir hvernig eigi að leysa uppsetningar- og uppsetningarvandamál í Microsoft Dynamics 365 Commerce Store Commerce app.
+title: Leysa uppsetningu og uppsetningarvandamál í Store Commerce
+description: Þessi grein útskýrir hvernig á að leysa uppsetningar- og uppsetningarvandamál í Microsoft Dynamics 365 Commerce Store Commerce app.
 author: mugunthanm
 ms.date: 06/01/2022
 ms.topic: article
@@ -9,23 +9,22 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: rassadi
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 92d4a9d78485b681b4e802f695d54f44ecd7c5de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8af2c476ced05fc159a53131f8b51ad914a6c7c3
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870467"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9168948"
 ---
-# <a name="troubleshoot-store-commerce-setup-and-installation-issues"></a>Leysa uppsetningar- og uppsetningarvandamál í Store Commerce
+# <a name="troubleshoot-store-commerce-setup-and-installation-issues"></a>Leysa uppsetningu og uppsetningarvandamál í Store Commerce
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
-Þessi grein útskýrir hvernig eigi að leysa uppsetningar- og uppsetningarvandamál í Microsoft Dynamics 365 Commerce Store Commerce app.
+Þessi grein útskýrir hvernig á að leysa uppsetningar- og uppsetningarvandamál í Microsoft Dynamics 365 Commerce Store Commerce app.
 
 ## <a name="i-cant-activate-the-app-and-i-receive-a-connectivity-error-message"></a>Ég get ekki virkjað appið og ég fæ villuboð um tengingu
 
-Eftir að þú slærð inn gilda slóð á skýjasölustað (CPOS) gætirðu fengið villuboð um tengingu sem líkist eftirfarandi dæmi:
+Eftir að þú slærð inn gilda skýjasölustað (CPOS) vefslóð gætirðu fengið villuboð um tengingu sem líkist eftirfarandi dæmi:
 
 > Tengingarvilla kom upp og tækið þitt getur ekki tengst CPOS. Vefslóð CPOS sem slegin er inn gæti verið vandamál.
 

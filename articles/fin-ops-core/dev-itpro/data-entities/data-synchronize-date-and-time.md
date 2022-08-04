@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c76eadc5839785ba1624ee3894ef1d0872369aa9
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: b8faa7b73349c48d3a02b685546b47c4969c6027
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403842"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109433"
 ---
 # <a name="synchronize-date-and-time-in-import-jobs"></a>Samstilla dagsetningu og tíma í innflutningsvinnslum
 
@@ -25,9 +25,9 @@ ms.locfileid: "7403842"
 
 Mikilvægt er að stilla tímabelti fyrir innflutningsverkið á samræmdan heimstíma (UTC). Óvæntar dagsetningar og tímar gætu sést í innfluttum gögnum ef önnur stilling er notuð. Án réttrar stillingar mun innflutningsferlið umbreyta UTC-dagsetningunni í staðbundna sniðið og kerfisstillingarnar umbreyta því síðan aftur.
 
-Þessi tvöfaldi umreikningur veldur því að dagsetningar breytast milli forrita. Til dæmis gæti tvöfaldur umreikningur valdið því að upphafsdagsetning starfsmanns verði mismunandi á milli Dynamics 365 Human Resources og Dynamics 365 Finance vegna mismunar í staðbundnum tímabeltum. Að stilla innflutningsverkið á UTC leysir úr þessum vanda.
+Þessi tvöfaldi umreikningur veldur því að dagsetningar breytast milli forrita. Til dæmis gæti tvískiptingin valdið því að upphafsdagsetning starfsmanns væri frábrugðin Dynamics 365 Human Resources og Dynamics 365 Finance vegna mismunandi staðbundinna tímabelta. Að stilla innflutningsverkið á UTC leysir úr þessum vanda.
 
-1. Í Dynamics 365 Finance and Operations skal velja **Gagnastjórnun**.
+1. Í Dynamics 365 finance and operations skal velja **Gagnastjórnun**.
 
 2. Veljið **Flytja inn verk** og veljið síðan verkið.
 
@@ -41,3 +41,4 @@ Mikilvægt er að stilla tímabelti fyrir innflutningsverkið á samræmdan heim
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

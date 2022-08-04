@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c0ec643046d871000220fbe82df04866599bcdf7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: eba7c10d08ade65f7ddf93cae06446b7e3452e37
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907835"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065272"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-finance"></a>Námsskrá fyrir þá sem taka ákvarðanir í viðskiptum sem íhuga Dynamics 365 Finance
 
@@ -31,7 +31,7 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 |---------|-------------|--------|--------|
 | [Lærðu viðskiptaverðmæti Microsoft Dynamics 365 og Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Hefur þú áhuga á að læra um viðskiptaforrit? Þú veist ef til vill ekki hvar þú átt að byrja á Microsoft Dynamics 365 og Power Platform forritum? Kynntu þér hvernig þú nýtir forrit fyrir fyrirtæki til að breyta viðskiptum þínum. | Ókeypis, sjálfstýr skref á námsleið | 7 klst. |
 | [Dynamics 365 og Power Platform grundvallaratriði](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Hefur þú áhuga á að læra um viðskiptaforrit? Byrjaðu á þessari námsleið til að sjá hvernig Dynamics 365 forrit eru notuð. Lærðu um skýjahugtök, Power Platform og hvernig hægt er að byrja með Dynamics 365 forrit. | Ókeypis, sjálfstýr skref á námsleið | 5.5 klst. |
-| [Byrjaðu með Finance and Operations öppum](/learn/paths/get-started-finance-operations/) | Lærðu hvernig Finance and Operations öpp styðja fyrirtæki við að stjórna alþjóðlegum fjármálakerfum sínum, rekstri viðskiptaferlum og straumlínulagaða aðfangakeðjur til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir. Sem fyrsta skrefið á ferli þínum við að vinna með Finance and Operations forritum, verður þú að kynna þér eiginleika þess og virkni, hvaða hlutverki sem þú vilt. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
+| [Byrjaðu með fjármála- og rekstraröppum](/learn/paths/get-started-finance-operations/) | Lærðu hvernig fjármála- og rekstrarforrit styðja fyrirtæki við að stjórna alþjóðlegum fjármálakerfum sínum, rekstri viðskiptaferla og straumlínulagaðar aðfangakeðjur til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir. Sem fyrsta skrefið á ferli þínum við að vinna með fjármála- og rekstraröppum, verður þú að kynna þér eiginleika þess og virkni, hvaða hlutverki sem þú vilt. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
 | [Byrjaðu með Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance gerir viðskiptanotendum kleift að laga sig að ört breyttu viðskiptaumhverfi. Það veitir fyrirtækjum allt sem þau þarfnast til að stjórna fjármálum og hafa umsjón með sjóðum með nákvæmum upplýsingum fyrir fjárhagsáætlunargerð og spár og auðveldar þeim að halda sér uppfærðum með greiningarverkfærum. Þar sem fjármál eru kjarninn í hvers kyns viðskiptum er mikilvægt að kynnast getu Dynamics 365 Finance. | Ókeypis námseining á netinu á eigin hraða | 1 klukkustund |
 | [Unnið með kostnaðarstýringu í Dynamics 365 Project Operations](/learn/modules/get-started-expense-management/) | Kostnaðarstýringareiningin í Dynamics 365 Project Operations gerir fyrirtækjum kleift að rekja og stjórna útgjöldum starfsmanna. Hægt er að nota útgjaldastýringu til að vista greiðslumáta, flytja inn kreditkortafærslur og rekja féð sem starfsmenn eyða þegar þeir leggja út vegna fyrirtækisins. Einnig er hægt að setja upp kostnaðarreglur, gera samþykki sjálfvirkt og leggja til straumlínulöguð viðskiptaferli með því að nota Project Operations. | Ókeypis, sjálfstýr skref á námsleið | 1 klukkustund |
 | [Hafist handa með Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Með Dynamics 365 Intelligent Order Management geta viðskiptavinir stjórnað skipulagi pantana í gegnum uppfyllingu. Þessir möguleikar gera fyrirtækjum kleift að skipuleggja flæði pantana yfir mismunandi verkvanga og forrita. | Ókeypis námseining á netinu á eigin hraða | 30 mínútur |

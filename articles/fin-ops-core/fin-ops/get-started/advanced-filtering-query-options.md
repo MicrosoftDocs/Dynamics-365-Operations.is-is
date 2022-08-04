@@ -1,6 +1,6 @@
 ---
 title: Ítarleg sía og málskipan fyrirspurna
-description: Þessi grein lýsir síunar- og fyrirspurnarvalkostum fyrir Ítarlega síun/flokkunargluggann og samsvörunaraðgerðina í síurúðunni eða haussíum fyrir hnitanetsdálka.
+description: Þessi grein lýsir síunar- og fyrirspurnarvalkostum fyrir Ítarlegri síun/flokkun svargluggans og samsvörunaraðgerðina í síurúðunni eða haussíum fyrir hnitanetsdálka.
 author: jasongre
 ms.date: 03/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 89175763357f4309c4eb7874d0068586c5d9e726
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856919"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123949"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Ítarleg sía og málskipan fyrirspurna
 
@@ -122,9 +122,9 @@ ms.locfileid: "8856919"
 <td>Tvær tvöföldar tilvitnanir í röð (<strong>""</strong>) finna línur án gildis fyrir núverandi dálk.</td>
 </tr>
 <tr>
-<td>(<span class="code">Fyrirspurn um fjármál og rekstur</span>) (Fjárhags- og rekstrarfyrirspurn milli sviga)</td>
+<td>(<span class="code">Fyrirspurn um fjármál og rekstur</span>) (fjárhags- og rekstrarfyrirspurn milli sviga)</td>
 <td>Samsvarar tilgreindri fyrirspurn</td>
-<td>Sláðu inn fyrirspurn sem SQL staðhæfingu á milli sviga með því að nota Finance and Operations fyrirspurnartungumálið.</td>
+<td>Sláðu inn fyrirspurn sem SQL staðhæfingu á milli sviga með því að nota fjármála- og rekstrarfyrirspurnartungumálið.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        Sem dæmi um málskipan fyrir síuaðstæður á reit frá gagnagrunni rótarinnar sem og reit frá öðrum gagnagrunna (fyrir síðuna Allir viðskiptavinir)</td>
 </tr>

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2c31e8b8b8022e5dfdb1f8dc4836d3d95174078
-ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
+ms.openlocfilehash: 9d0c2e821ee504cd62a536674ef91ee89a25c0a9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "9033661"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066418"
 ---
 # <a name="get-started-with-financial-reporting"></a>Hafist handa með fjárhagsskýrslugerð 
 
@@ -151,7 +151,7 @@ Hægt er að stofna ótakmarkaðan fjölda af skipuritum til að sýna gögn fyr
 
 ## <a name="update-the-financial-reporting-version-through-slipstreaming"></a>Uppfæra útgáfu fjárhagsskýrslugerðar í gegnum innlimun
 
-Fjármála- og rekstraröpp eru uppfærð í hverjum mánuði. Aftur á móti er fjárhagsskýrslugerð ekki endilega uppfærð með sömu tíðni. Þar að auki hafa viðskiptavinir fleiri valkosti um hvenær þeir innleiða uppfærslur fyrir Finance and Operations öpp. Uppfærslur fjárhagsskýrslugerðar eru sjálfkrafa settar upp. Fjárhagsskýrslugerð er með uppgefna útgáfu sem er notuð í umhverfi viðskiptavinar þegar þjónustuuppfærsla er innleidd, þegar niðurtími fer í gang eða þegar umhverfi viðskiptavinar er í viðhaldsham. Þetta ferli er þekkt sem *innlimun* eða *jöfnun* vegna þess að allar innleiðingar viðskiptavinar eru stilltar á sömu útgáfu af fjárhagsskýrslugerð.
+Fjármála- og rekstraröpp eru uppfærð í hverjum mánuði. Aftur á móti er fjárhagsskýrslugerð ekki endilega uppfærð með sömu tíðni. Þar að auki hafa viðskiptavinir fleiri valkosti um hvenær þeir innleiða uppfærslur fyrir fjármála- og rekstraröpp. Uppfærslur fjárhagsskýrslugerðar eru sjálfkrafa settar upp. Fjárhagsskýrslugerð er með uppgefna útgáfu sem er notuð í umhverfi viðskiptavinar þegar þjónustuuppfærsla er innleidd, þegar niðurtími fer í gang eða þegar umhverfi viðskiptavinar er í viðhaldsham. Þetta ferli er þekkt sem *innlimun* eða *jöfnun* vegna þess að allar innleiðingar viðskiptavinar eru stilltar á sömu útgáfu af fjárhagsskýrslugerð.
 
 Breytingar sem eru gefnar út í hverri útgáfu má finna í [Hvað er nýtt eða breytt í Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Verkvangsuppfærslur og villuleiðréttingar er hægt að finna í hlutanum „Frekari tilföng“ neðst á síðunni fyrir hverja útgáfu.
 
@@ -254,3 +254,4 @@ Vandamál: Þú færð villuna „Ekki tókst að koma á tengingu við netþjó
 - [Skilgreiningar skipurits í fjárhagsskýrslum](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

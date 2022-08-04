@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 953a3bfec70235524067a47b8764f6dbb40d3c7b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849301"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065555"
 ---
 # <a name="flushing-principles"></a>Losunarreglur
 
@@ -50,9 +50,9 @@ Losunarreglurnar eru skilgreindar í stigveldi sjálfgilda. Stigveldi byrjar á 
 ## <a name="description-of-the-flushing-principles"></a>Lýsing á losunarreglum
 
 ### <a name="manual"></a>Handvirkt
-Handvirka losunarregla gefur til kynna að skráning á efnisnotkun sé handvirk aðgerð. Þessi regla á við ef þú vilt til dæmis geta rakið tíma, og fjöldi notaðra rununúmera eða raðnúmera þarf að vera tekinn með í rakninguna. Handvirk notkun er skráð í tiltektarlista framleiðslubókar. Hægt er að nota flæði sem haldið er á fyrir atriði sem eru virkjuð fyrir ítarleg vöruhúsaferli.
+Handvirka losunarregla gefur til kynna að skráning á efnisnotkun sé handvirk aðgerð. Þessi regla á við ef þú vilt til dæmis geta rakið tíma, og fjöldi notaðra rununúmera eða raðnúmera þarf að vera tekinn með í rakninguna. Handvirk notkun er skráð í tiltektarlista framleiðslubókar. Fyrir vörur sem eru virkjaðar fyrir vöruhúsastjórnunarferli (WMS) er hægt að beita handflæði.
 
-### <a name="start"></a>Byrja
+### <a name="start"></a>Hefst
 Losunarreglan Ræsa gefur til kynna að efni verði sjálfkrafa notað þegar framleiðslupöntun er ræst. Magn efnis sem er notað er í hlutfalli við magnið sem er ræst. Þegar losunarreglan Ræsa er notuð ásamt framleiðslukerfinu er einnig hægt að nota hana til að losa efni þegar aðgerð eða ferlisvinnsla er ræst. Þessi regla á til dæmis við ef frávik í notkuninni eru lítil, efnið er lágvirðisefni, það eru engar rakningarkröfur eða ef aðgerðir hafa stuttan keyrslutíma. 
 
 ### <a name="finish"></a>Ljúk.  

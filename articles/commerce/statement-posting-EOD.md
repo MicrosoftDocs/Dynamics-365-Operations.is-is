@@ -1,6 +1,6 @@
 ---
 title: Endurbætur á virkni uppgjörsbókunar
-description: Þessi grein lýsir endurbótum sem gerðar hafa verið á aðgerðinni til að birta yfirlýsingar.
+description: Þessi grein lýsir endurbótum sem hafa verið gerðar á aðgerðinni til að birta yfirlýsingar.
 author: analpert
 ms.date: 05/18/2022
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: a7f25a7cc1e214b5c08013055126728b2ad10f3f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 33b4f17cd46338b62bed96f0a285e7b9634cc87a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886907"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067820"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Endurbætur á virkni uppgjörsbókunar
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein lýsir fyrsta settinu af endurbótum sem hafa verið gerðar á færslueiginleika yfirlýsingar. Þessar endurbætur eru í boði í Microsoft Dynamics 365 for Finance and Operations 7.3.2.
+Þessi grein lýsir fyrsta settinu af endurbótum sem hafa verið gerðar á færslueiginleika yfirlýsingar. Þessar endurbætur eru fáanlegar í Microsoft Dynamics 365 Fjármál 7.3.2.
 
 ## <a name="activation"></a>Virkjun
 
-Sjálfgefið er, við uppsetningu á Finance and Operations 7.3.2, að forritið er sett upp til að nota eldri eiginleika á bókun uppgjörs. Til að virkja endurbættan eiginleika á bókun uppgjörs verður þú að kveikja á skilgreiningarlyklinum fyrir hann.
+Sjálfgefið er, við uppsetningu á fjármálum og rekstri 7.3.2, forritið er sett upp til að nota eldri eiginleikann fyrir yfirlitsfærslur. Til að virkja endurbættan eiginleika á bókun uppgjörs verður þú að kveikja á skilgreiningarlyklinum fyrir hann.
 
 - Farðu í **Kerfisstjórnun** \> **Uppsetning** \> **Leyfisskilgreinin** og síðan undir hnútnum **Retail og Commerce** skal hreinsa gátreitinn **Yfirlit (eldra)** og velja gátreitinn **Yfirlit**.
 
@@ -113,7 +113,7 @@ Ef yfirlit er ekki að fullu bókað er hægt að skoða samanlagðar færslur �
 
 Fyrir bókaðar yfirlit er hægt að skoða samanlagðar færslur á **Settar yfirlýsingar** síðu. Á aðgerðarrúðunni velurðu **Fyrirspurnir**, og veldu síðan **Samanlögð viðskipti**.
 
-![Skipun um samansafn færslur fyrir bókaðar yfirlit.](media/aggregated-transactions-posted-statements.png)
+![Skipun um samansafnaðar færslur fyrir bókaðar yfirlit.](media/aggregated-transactions-posted-statements.png)
 
 The **Upplýsingar um sölupöntun** Flýtiflipi uppsafnaðrar færslu sýnir eftirfarandi upplýsingar:
 
@@ -125,7 +125,7 @@ The **Upplýsingar um sölupöntun** Flýtiflipi uppsafnaðrar færslu sýnir ef
 - **Staða** - Síðasti staða uppsöfnuðu færslunnar.
 - **Reikningskenni** - Kenni sölureiknings þegar sölupöntun fyrir uppsafnaða færslu er stofnuð. Ef þessi reitur er auður hefur reikningurinn fyrir sölupöntunina ekki verið bókaður.
 - **Villumelding** – Þessi reitur er stilltur ef samsöfnunin er í villuástandi.
-- **Villu skilaboð** – Þessi reitur er stilltur ef samsöfnunin er í villuástandi. Það sýnir upplýsingar um hvað olli því að ferlið mistókst. Þú getur notað upplýsingarnar í villukóðanum til að laga málið og síðan endurræsa ferlið handvirkt. Það fer eftir tegund upplausnar, gæti þurft að eyða uppsöfnuðum sölu og vinna í nýrri yfirlýsingu.
+- **Villu skilaboð** – Þessi reitur er stilltur ef samsöfnunin er í villuástandi. Það sýnir upplýsingar um hvað olli því að ferlið mistókst. Þú getur notað upplýsingarnar í villukóðanum til að laga málið og síðan endurræsa ferlið handvirkt. Það fer eftir tegund upplausnar, gæti þurft að eyða uppsöfnuðum sölu og vinna úr henni á nýrri yfirlýsingu.
 
 ![Reitir á flýtiflipanum Sölupöntunarupplýsingar fyrir uppsafnaða færslu.](media/aggregated-transactions-error-message-view.png)
 
@@ -133,17 +133,17 @@ The **Upplýsingar um viðskipti** Flýtiflipi uppsafnaðrar færslu sýnir alla
 
 ![Færsluupplýsingar flýtiflipi uppsafnaðrar færslu.](media/aggregated-transactions-sales-details.png)
 
-Í sumum tilfellum gætu uppsafnaðar færslur mistekst að bóka samantekna sölupöntun þeirra. Í þessum aðstæðum verður villukóði tengdur yfirlýsingastöðunni. Til að skoða aðeins samanlagðar færslur sem innihalda villur geturðu virkjað **Sýna aðeins mistök** sía í uppsafnaðar færsluskjánum með því að velja gátreitinn. Með því að virkja þessa síu takmarkarðu niðurstöðurnar við samanlagðar færslur sem hafa villur sem krefjast úrlausnar. Fyrir upplýsingar um hvernig á að laga þessar villur, sjá [Breyta og endurskoða netpöntun og ósamstilltar pöntunarfærslur viðskiptavina](edit-order-trans.md).
+Í sumum tilfellum gætu uppsafnaðar færslur mistekst að bóka samantekna sölupöntun þeirra. Í þessum aðstæðum verður villukóði tengdur yfirlýsingastöðunni. Til að skoða aðeins uppsafnaðar færslur sem innihalda villur geturðu virkjað **Sýndu aðeins mistök** sía í uppsafnaðar færsluskjánum með því að velja gátreitinn. Með því að virkja þessa síu takmarkar þú niðurstöðurnar við samanlagðar færslur sem hafa villur sem krefjast úrlausnar. Fyrir upplýsingar um hvernig á að laga þessar villur, sjá [Breyta og endurskoða netpöntun og ósamstilltar pöntunarfærslur viðskiptavina](edit-order-trans.md).
 
 ![Gátreitur fyrir síuna Sýna aðeins bilanir í uppsafnaðar færsluskjánum.](media/aggregated-transactions-failure-view.png)
 
 Á **Samanlögð viðskipti** síðu geturðu hlaðið niður XML fyrir tiltekna uppsafnaða færslu með því að velja **Flytja út safngögn**. Þú getur skoðað XML í hvaða XML sniði sem er til að sjá raunverulegar upplýsingar um gögn sem fela í sér stofnun og bókun sölupöntunar. Virknin til að hlaða niður XML-skránni fyrir uppsafnaða færslu er ekki í boði fyrir uppgjör sem hafa verið bókuð.
 
-![Hnappurinn Flytja út samansafn gagna á síðunni Samanlögð færslur.](media/aggregated-transactions-export.png)
+![Hnappurinn Flytja út samansafn gagna á síðunni Safnaðar færslur.](media/aggregated-transactions-export.png)
 
-Ef þú getur ekki lagað villuna með því að leiðrétta gögn á sölupöntuninni eða gögnum sem styðja sölupöntunina, **Eyða pöntun viðskiptavina** hnappur er tiltækur. Til að eyða pöntun velurðu samansafnaða færsluna sem mistókst og velur síðan **Eyða pöntun viðskiptavina**. Bæði samanlagðri færslu og samsvarandi sölupöntun verður eytt. Þú getur nú skoðað færslurnar með því að nota breytinga- og endurskoðunaraðgerðina. Að öðrum kosti er hægt að endurvinna þau með nýrri yfirlýsingu. Eftir að allar bilanir hafa verið lagaðar er hægt að halda áfram færslu yfirlits með því að keyra post statement fallið fyrir viðkomandi yfirlit.
+Ef þú getur ekki lagað villuna með því að leiðrétta gögn á sölupöntuninni eða gögnum sem styðja sölupöntunina, **Eyða pöntun viðskiptavina** hnappur er í boði. Til að eyða pöntun velurðu samansafnaða færsluna sem mistókst og veldu síðan **Eyða pöntun viðskiptavina**. Bæði samanlagðri færslu og samsvarandi sölupöntun verður eytt. Þú getur nú skoðað færslurnar með því að nota breytinga- og endurskoðunaraðgerðina. Að öðrum kosti er hægt að endurvinna þau með nýrri yfirlýsingu. Eftir að allar bilanir hafa verið lagfærðar er hægt að halda áfram færslu yfirlits með því að keyra post statement fallið fyrir viðkomandi yfirlit.
 
-![Eyða pöntun viðskiptavinar hnappur í uppsafnaðar færsluskjánum.](media/aggregated-transactions-delete-cust-order.png)
+![Eyða pöntunarhnappi viðskiptavinar í uppsafnaðar færsluskjánum.](media/aggregated-transactions-delete-cust-order.png)
 
 Uppsöfnuð færsluyfirlit veitir eftirfarandi kosti:
 
@@ -153,7 +153,7 @@ Uppsöfnuð færsluyfirlit veitir eftirfarandi kosti:
 - Samanlögð XML skrá gerir það auðveldara að bera kennsl á vandamál við stofnun sölupöntunar og reikningagerð.
 
 > [!NOTE]
-> Þegar færslur eru teknar saman er starfsmaðurinn sem úthlutað er færslunni ekki lengur tiltækur fyrir **Topp söluskýrsla starfsmanna**, sem þýðir að **Topp söluskýrsla starfsmanna** mun ekki sýna allar færslur. Við mælum með að þú notir ekki **Topp söluskýrsla starfsmanna** með samanlögðum viðskiptum.
+> Þegar færslur eru teknar saman er starfsmaðurinn sem úthlutað er færslunni ekki lengur tiltækur fyrir **Helstu söluskýrsla starfsmanna**, sem þýðir að **Helstu söluskýrsla starfsmanna** mun ekki sýna allar færslur. Við mælum með að þú notir ekki **Helstu söluskýrsla starfsmanna** með samanlögðum viðskiptum.
 
 ### <a name="journal-vouchers"></a>Færslubókarfylgiskjöl
 
@@ -190,3 +190,4 @@ Aðrar endurbætur sem notendur geta séð hafa verið gerðar á eiginleikanum 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

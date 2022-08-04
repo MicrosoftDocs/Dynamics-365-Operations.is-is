@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ebb14dad723fad5b17b4dfca153bf153e77bbd4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882085"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111201"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Leysa úr vandamálum við fyrstu uppsetningu
 
@@ -22,14 +22,14 @@ ms.locfileid: "8882085"
 
 
 
-Þessi grein veitir upplýsingar um bilanaleit fyrir tvískrifa samþættingu milli Finance and Operations forrita og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem kunna að koma upp við upphaflega uppsetningu á samþættingu tvöfaldra skrifa.
+Þessi grein veitir upplýsingar um bilanaleit fyrir samþættingu tvískrifa milli fjármála- og rekstrarforrita og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem kunna að koma upp við upphaflega uppsetningu á samþættingu tvöfaldra skrifa.
 
 > [!IMPORTANT]
 > Sum vandamálin sem þessi grein fjallar um gætu þurft annað hvort kerfisstjórahlutverkið eða Microsoft Azure Active Directory (Azure AD) leigjanda stjórnanda skilríki. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
 
-## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Þú getur ekki tengt Finance and Operations app við Dataverse
+## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Þú getur ekki tengt fjármála- og rekstrarapp við Dataverse
 
-**Áskilið hlutverk til að setja upp tvískrift:** Kerfisstjóri í Finance and Operations öppum og Dataverse.
+**Áskilið hlutverk til að setja upp tvískrift:** Kerfisstjóri í fjármála- og rekstraröppum og Dataverse.
 
 Villur á síðunni **Setja upp tengil á Dataverse** orsakast venjulega af ólokinni uppsetningu eða heimildavandamálum. Gakktu úr skugga um að öll ástandsskoðunin standist á síðunni **Setja upp tengil á Dataverse** eins og sýnt er á eftirfarandi mynd. Þú getur ekki tengt tvískipt skrif nema öll ástandsskoðunin standist.
 
@@ -55,7 +55,7 @@ Tvöföld skráning styður ekki marga lögaðila/fyrirtæki með sama heitinu. 
 
 Til að afblokka viðskiptavininn skal fjarlægja tvíteknar færslur úr töflunni **cdm_company** í Dataverse. Einnig, ef taflna **cdm_company** er með færslur með auðu heiti skal fjarlægja eða leiðrétta þessar færslur.
 
-## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Villa við að opna tvískrifa síðuna í Finance and Operations forritum
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Villa við að opna tvískrifasíðuna í fjármála- og rekstrarforritum
 
 Þú gætir fengið eftirfarandi villuboð þegar þú reynir að tengja Dataverse umhverfi fyrir tvöfalda skráningu:
 
@@ -70,7 +70,7 @@ Til að afblokka viðskiptavininn skal fjarlægja tvíteknar færslur úr töflu
     `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
 
 + Veldu **Samþykkja** til að veita samþykki. Þú ert að veita samþykki til að setja upp forritið (með `id=33976c19-1db5-4c02-810e-c243db79efde`) í leigjandanum þínum.
-+ Þetta app er nauðsynlegt fyrir Dataverse til að hafa samskipti við Finance and Operations öpp.
++ Þetta app er nauðsynlegt fyrir Dataverse til að hafa samskipti við fjármála- og rekstraröpp.
 
     ![Úrræðaleit fyrir uppsetningu upphaflegrar samstillingar.](media/Initial-sync-setup-troubleshooting-1.png)
 
@@ -85,7 +85,8 @@ Til að afblokka viðskiptavininn skal fjarlægja tvíteknar færslur úr töflu
 
 Það er tvennt sem getur valdið vandræðum með umhverfi sem ekki er hægt að finna:
 
-+ Notandinn sem notaður er við innskráningu er ekki í sama leigjanda og Finance and Operations tilvikið.
-+ Það eru nokkur eldri Finance and Operations tilvik sem voru hýst hjá Microsoft sem áttu í vandræðum með uppgötvun. Til að laga þetta skaltu uppfæra Finance and Operations tilvikið. Hægt verður að finna umhverfið með hvaða uppfærslu sem er.
++ Notandinn sem notaður er við innskráningu er ekki í sama leigjanda og fjármála- og rekstrartilvikið.
++ Það eru nokkur eldri fjármála- og rekstrartilvik sem voru hýst hjá Microsoft sem áttu í vandræðum með uppgötvun. Til að laga þetta skaltu uppfæra fjármála- og rekstrartilvikið. Hægt verður að finna umhverfið með hvaða uppfærslu sem er.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

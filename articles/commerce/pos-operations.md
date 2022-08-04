@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 23805a88fab34d925241c51ae449bd81e15d5337
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 3948fff15108568df514406ad443d4f538653e62
+ms.sourcegitcommit: 1af2b01aea6b5a4d88ee3fae6faa0eaf1976c5dd
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027284"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9146486"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Aðgerðir sölustaðar (POS) með og án nettengingar
 
@@ -232,7 +232,7 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 912  | Kveikja á hönnunarstillingu                                | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 913  | Slökkva á hönnunarstillingu                               | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 914  | Minnka glugga sölustaðar                               | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
-| 915  | Auð aðgerð                                   | Táknar sérhannaðan hnapp sem hugbúnaðarframleiðandi getur breytt forritunarlega fyrir hvaða sérhæfða aðgerð sem fyrirtækið krefst.                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
+| 915  | Auð aðgerð                                   | Táknar sérhannaðan hnapp sem hugbúnaðarframleiðandi getur breytt forritunarlega fyrir sérhæfða aðgerð sem fyrirtækið krefst.                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 916  | Windows Workflow Foundation                       | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 917  | Staða gagnagrunnstengingar                        | Skoðaðu núverandi tengistillingar og skiptu á milli nettengingar og ótengdra stillinga.                                                                                                                             | Já            | Já                | Já            | Já               | Nr.              |
 | 918  | Stjórna vöktum                                     | Sýna lista yfir vaktir sem eru virkar, frestaðar og lokaðar blint.                                                                                                                                                     | Já            | Já                | Já            | Nr.                | Nr.              |
@@ -271,7 +271,7 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 1218 | Þvinga aflæsingu jaðarbúnaðar                           | Kerfið notar þessa aðgerð í innri vinnslu til að aflæsa POS-jaðarbúnað.                                                                                                                                           | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Nr.              |
 | 1219 | Opna vefslóð í sölustað                                   | Opnaðu vefslóð sem er stillt af stjórnanda í POS.                                                                                                                                                                           | Já            | Já                | Já            | Já               | Nr.              |
 | 1220 | Stjórna Safe                                       | Hafa umsjón með öryggishólfinu fyrir mismunandi skrár.                                                                                                                                                                       | Já            | Já                | Já            | Já               | Nr.              |
-| 1221 | Ógilda frestað viðskipti                       | Ógilda frestað viðskipti.                                                                                                                                                                               | Já            | Já                | Já            | Já               | Nr.              |
+| 1221 | Ógilda frestað viðskipti                       | Ógilda frestað viðskipti.                                                                                                                                                                               | Já            | Nr.                | Nr.            | Já               | Nr.              |
 | 1300 | Sleppa fjárhagsskráningu                          | Slepptu skattskráningu.                                                                                                                                                                                       | Nr.            | Nr.                | Nr.            | Já               | Nr.             |
 | 1301 | Merkja fjárhagstilvik sem skráð                      |  Merktu fjárhagsatburð sem skráðan.                                                                                                                                                                                  | Nr.            | Nr.                | Nr.            | Já               | Nr.             |
 | 1302 | Ljúka skráningarferli fjárhags              | Ljúktu við fjárhagsskráningarferlið.                                                                                                                                                                           | Nr.            | Nr.                | Já            | Já               | Já             |

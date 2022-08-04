@@ -16,21 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9bd208ba78d28046782d03221b0f23471f56b574
-ms.sourcegitcommit: 3f544f8671821be915b289a614e4e440bd38994f
+ms.openlocfilehash: ec2a9f5ca6d6735e675defda6782738da7814c01
+ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "8941767"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "9171456"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Setja upp og tengja farsímaforrit Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-> [!NOTE]
-> Þessi grein lýsir því hvernig á að stilla nýja vöruhússtjórnun farsímaforritið. Ef leitað er upplýsinga um hvernig eigi að skilgreina gamla vöruhúsaforritið (nú úrelt) skal skoða [Setja upp og tengja vöruhúsaforrit](../../supply-chain/warehousing/install-configure-warehousing-app.md).
-
-Þessi grein útskýrir hvernig á að hlaða niður og setja upp vöruhúsastjórnunarforritið á hvert fartæki þitt og hvernig forritið er stillt þannig að það tengist framboðskeðjuumhverfi þínu. Hægt er að grunnstilla hvert tæki handvirkt eða flytja inn tengingarstillingar í gegnum skrá eða með því að skanna QR-kóða.
+Þessi grein útskýrir hvernig á að hlaða niður og setja upp Warehouse Management farsímaforritið á hverju farsímatæki þínu og hvernig forritið er stillt þannig að það tengist Supply Chain Management umhverfi þínu. Hægt er að grunnstilla hvert tæki handvirkt eða flytja inn tengingarstillingar í gegnum skrá eða með því að skanna QR-kóða.
 
 ## <a name="system-requirements"></a>Kerfiskröfur
 
@@ -91,7 +88,7 @@ Til að virkja farsímaforrit Vöruhúsakerfis til að eiga samskipti við tilte
 
     ![Kenni forrits (biðlara).](media/app-connect-azure-app-id.png "Kenni forrits (biðlari)")
 
-1. Á listanum **Stjórna** skal velja **Vottorð og leyniorð**. Næst skal velja einn af eftirfarandi hnöppum, allt eftir því hvernig á að grunnstilla forritið fyrir sannvottun. (Fyrir frekari upplýsingar, sjá [Staðfestu með því að nota vottorð eða leyndarmál viðskiptavinar](#authenticate) kafla síðar í þessari grein.)
+1. Á listanum **Stjórna** skal velja **Vottorð og leyniorð**. Næst skal velja einn af eftirfarandi hnöppum, allt eftir því hvernig á að grunnstilla forritið fyrir sannvottun. (Nánari upplýsingar er að finna í [Staðfestu með því að nota vottorð eða leyndarmál viðskiptavinar](#authenticate) kafla síðar í þessari grein.)
 
     - **Hlaða upp vottorði** – Hlaða upp vottorði til að nota sem leyniorð. Við mælum með þessari nálgun vegna þess að hún er öruggari og getur einnig verið sjálfvirk að fullu. Ef verið er að nota farsímaforrit Vöruhúsakerfis á Windows-tækjum skal skrá niður gildið **Fingrafar** sem er sýnt eftir að búið er að hlaða upp vottorðinu. Þú þarft þetta gildi þegar þú grunnstillir vottorð í Windows-tækjum.
     - **Nýtt leyniorð biðlara** – Stofnið lykil með því að slá inn lyklalýsingu og lengd í hlutanum **Aðgangsorð** og veljið **Bæta við**. Taktu afrit af lyklinum og geymdu það á öruggum stað.
@@ -101,7 +98,7 @@ Til að virkja farsímaforrit Vöruhúsakerfis til að eiga samskipti við tilte
 Frekari upplýsingar um hvernig vefþjónustuforrit eru sett upp eru í Azure AD, sjá eftirfarandi tilföng:
 
 - Leiðbeiningar um nota má Windows PowerShell til að setja upp vefþjónustuforrit í Azure AD er að finna í [hvernig á að nota: Azure PowerShell til að stofna þjónustueiningu með vottorði](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
-- Fyrir allar upplýsingar um hvernig eigi að búa til vefþjónustuforrit handvirkt í Azure AD, sjá eftirfarandi greinar:
+- Fyrir allar upplýsingar um hvernig á að búa til vefþjónustuforrit handvirkt í Azure AD, sjá eftirfarandi greinar:
 
     - [Stuttar leiðbeiningar: Skráið forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app)
     - [Hvernig á að: Nota gáttina til að stofna Azure AD-forrit og þjónustueiningu með aðgang að tilföngum](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -135,7 +132,7 @@ Til að virkja Supply Chain Management til að nota Azure AD-forritið skal fylg
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Sannvotta með því að nota vottorð eða leyniorð biðlara
 
-Sannvottun með Azure AD býður upp á örugga leið til að tengja fartæki við Supply Chain Management. Hægt er að sannvotta með því að nota annaðhvort leyniorð biðlara eða vottorð. Ef fluttar eru inn tengingarstillingar mælum við með að notað sé vottorð í stað leyniorðs biðlara. Vegna þess að leyndarmál viðskiptavinarins verður alltaf að vera geymt á öruggan hátt er ekki hægt að flytja það inn úr tengistillingaskrá eða QR kóða, eins og lýst er síðar í þessari grein.
+Sannvottun með Azure AD býður upp á örugga leið til að tengja fartæki við Supply Chain Management. Hægt er að sannvotta með því að nota annaðhvort leyniorð biðlara eða vottorð. Ef fluttar eru inn tengingarstillingar mælum við með að notað sé vottorð í stað leyniorðs biðlara. Vegna þess að leyndarmál viðskiptavinarins verður alltaf að vera geymt á öruggan hátt geturðu ekki flutt það inn úr tengistillingaskrá eða QR kóða, eins og lýst er síðar í þessari grein.
 
 Hægt er að nota vottorð sem leyniorð til að sanna auðkenni forrits þegar beðið er um tákn. Almennum hluta vottorðsins er hlaðið upp í forritaskráninguna í Azure-gáttinni en setja verður fullt vottorð upp á öllum tækjum sem eru með farsímaforrit vöruhúsakerfis uppsett. Fyrirtækið er ábyrgt fyrir því að hafa umsjón með vottorðinu hvað varðar skipti og þess háttar. Hægt er að nota sjálfskráð vottorð en alltaf ætti að nota óframseljanleg vottorð.
 
@@ -266,7 +263,7 @@ Ef hvorki skrá né QR-kóði er til staðar er hægt að skilgreina forritið h
 
 1. Færi inn eftirfarandi upplýsingar:
 
-    - **Nota leyniorð biðlara** – Stillið þennan valkost á _Já_ til að nota leyniorð biðlara til að sannvotta með Supply Chain Management. Stillið hann á _Nei_ til að nota vottorð fyrir sannvottun. (Fyrir frekari upplýsingar, sjá [Búðu til vefþjónustuforrit í Azure Active Directory](#create-service) kafla fyrr í þessari grein.)
+    - **Nota leyniorð biðlara** – Stillið þennan valkost á _Já_ til að nota leyniorð biðlara til að sannvotta með Supply Chain Management. Stillið hann á _Nei_ til að nota vottorð fyrir sannvottun. (Nánari upplýsingar er að finna í [Búðu til vefþjónustuforrit í Azure Active Directory](#create-service) kafla fyrr í þessari grein.)
     - **Heiti tengingar** – Sláðu inn heiti fyrir nýja tengingu. Þetta heiti birtist í reitnum **Velja tengingu** næst þegar tengingarstillingar eru opnaðar. Heitið sem fært er inn verður að vera einkvæmt. (Með öðrum orðum, það verður að vera frábrugðið öllum öðrum tengingarheitum sem eru geymd í tækinu, ef önnur tengingarheiti eru geymd þar.)
     - **Biðlarakenni Active Directory** – Færið inn auðkenni biðlarans sem skráð var þegar verið var að setja upp Azure AD í hlutanum [Stofna vefþjónustuforrit í Azure Active Directory](#create-service).
     - **Leyniorð biðlara Active Directory** – Þessi reitur er aðeins í boði þegar valkosturinn **Nota leyniorð biðlara** er stilltur á _Já_. Færið inn leyniorð biðlara sem skráð var þegar verið var að setja upp Azure AD í hlutanum [Stofna vefþjónustuforrit í Azure Active Directory](#create-service).

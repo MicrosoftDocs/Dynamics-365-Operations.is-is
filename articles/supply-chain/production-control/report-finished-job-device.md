@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3d1a45ad00e59581f27f2e822ccb47430219c501
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857374"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070470"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Bóka sem tilbúið úr verkspjaldstæki
 
@@ -50,7 +50,7 @@ Frekari upplýsingar um hvernig á að vinna með síðuna **Sjálfgildi framlei
 
 ## <a name="report-batch-controlled-items-as-finished"></a>Skrá runustýrðar vörur sem tilbúnar
 
-Verkspjaldstækið styður þrjár atburðarásir fyrir tilkynningu á vörum með runu. Þessar atburðarásir eiga bæði við um vörur sem eru virkjaðar fyrir ítarlega vöruhúsaferla og vörur sem ekki eru virkjaðar fyrir ítarlega vöruhúsaferla.
+Verkspjaldstækið styður þrjár atburðarásir fyrir tilkynningu á vörum með runu. Þessar aðstæður eiga bæði við um vörur sem eru virkjaðar fyrir vöruhúsastjórnunarferli (WMS) og um vörur sem eru ekki virkjaðar fyrir WMS.
 
 - **Rununúmer úthlutuð handvirkt** - Starfsmenn slá inn sérsniðið rununúmer. Þetta rununúmer gæti komið frá ytri uppruna sem kerfið þekkir ekki.
 - **Fyrirframskilgreind rununúmer** - Starfsmenn velja rununúmer í lista yfir rununúmer sem kerfið myndar sjálfkrafa áður en framleiðslupöntunin er losuð í verkspjaldstækið.
@@ -129,7 +129,7 @@ Ef úthluta á rununúmerum sjálfkrafa, án innsláttar starfsmanns, skal fylgj
 
 ## <a name="report-serial-controlled-items-as-finished"></a>Skrá runustýrðar vörur sem tilbúnar
 
-Verkspjaldstækið styður þrjár atburðarásir fyrir tilkynningu á runustýrðum vörum. Þessar atburðarásir eiga bæði við um vörur sem eru virkjaðar fyrir ítarlega vöruhúsaferla og vörur sem ekki eru virkjaðar fyrir ítarlega vöruhúsaferla.
+Verkspjaldstækið styður þrjár atburðarásir fyrir tilkynningu á runustýrðum vörum. Þessar aðstæður eiga bæði við um vörur sem eru virkjaðar fyrir vöruhúsastjórnunarferli (WMS) og um vörur sem eru ekki virkjaðar fyrir WMS.
 
 - **Raðnúmerum úthlutað handvirkt** - Starfsmenn færa inn sérsniðið raðnúmer. Þetta raðnúmer gæti komið frá ytri uppruna sem kerfið þekkir ekki.
 - **Fyrirframskilgreind raðnúmer** - Starfsmenn velja raðnúmer í lista yfir raðnúmer sem kerfið myndar sjálfkrafa áður en framleiðslupöntunin er losuð í verkspjaldstækið.
@@ -212,7 +212,7 @@ Ef úthluta á raðnúmeri sjálfkrafa, án innsláttar starfsmanns, skal fylgja
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Tilkynna sem lokið til númeraplötu
 
-Ítarleg vöruhúsaferli geta notað númeraplötuvídd til að rekja birgðir í vöruhúsastaðsetningum sem hafa verið settar upp í þessum tilgangi. Í þessu tilvikum er krafist númer númeraplötu starfskraftur tilkynnir magn sem lokið.
+Vöruhússtjórnunarferli (WMS) geta notað númeraplötuvíddina til að rekja birgðir á vöruhúsastöðum sem hafa verið settar upp í þessum tilgangi. Í þessu tilvikum er krafist númer númeraplötu starfskraftur tilkynnir magn sem lokið.
 
 ### <a name="enable-license-plate-reporting-and-label-printing"></a>Virkja tilkynningu númeraplötu og prentun merkis
 

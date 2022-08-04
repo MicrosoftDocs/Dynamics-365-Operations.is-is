@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03d1304c39628323c6d6e15181263a73ba965930
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 00e536241710fc8a75158472688757320abf4247
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710358"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067209"
 ---
 # <a name="collections-in-accounts-receivable"></a>Innheimta í viðskiptakröfum
 
@@ -65,7 +65,7 @@ Eftirfarandi listasíður aðstoða við skipulagningu upplýsingar um innheimtu
 
 > [!NOTE]
 > Stofna skal aldursgreiningarmynd áður en hægt er að skoða upplýsingar á þessum listasíðum. Upplýsingar eru aðeins sýndar vegna viðskiptavina sem aldursgreiningarmynd hefur verið stofnuð fyrir. Færslurnar sem eru birtar á listasíðunni geta verið síaðar að auki sem hér segir:
-> <li>Að sjálfgefnu hefur notandi Finance and Operations aðgang að öllum viðskiptavinum sem hafa aldursgreiningarmynd.</li>
+> <li>Sjálfgefið er að notandi fjármála og rekstrar hefur aðgang að öllum viðskiptavinum sem eru með öldrunarmynd.</li>
 > <li>Ef viðskiptavinahópar eru til staðar verður að setja notanda upp sem innheimtufulltrúa til að nota hópana til að sía upplýsingar í listasíður innheimtu. Upplýsingar takmarkast við viðskiptavini sem eru hafðir með í valda viðskiptavinahópnum.</li>
 > <li>Ef notandi er settur upp sem innheimtufulltrúi eru aðeins þeir hópar sem eru valdar fyrir þann innheimtufulltrúa tiltækar á listasíðu. Ef breytan Leyfa fulltrúa að skoða allar viðskiptavinahópa er valin í Innheimtufulltrúa síðunni fyrir innheimtufulltrúann eru allir hópar tiltækir fyrir þann fulltrúa.</li>
 
@@ -110,3 +110,4 @@ Hægt er að vinna NSF-greiðslur með því að smella á NSF-greiðslur á Inn
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

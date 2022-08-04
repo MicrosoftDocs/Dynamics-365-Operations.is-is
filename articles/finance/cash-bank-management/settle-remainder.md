@@ -1,7 +1,7 @@
 ---
 title: Gera upp eftirstöðvar
 description: Hægt er að gera upp eftirstandandi upphæð uppgjörsaðgerðar með því að jafna þessa upphæð við fjárhagslykil.
-author: twheeloc
+author: angelad116
 ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVen
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: angelading
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 881b46774d3ca6a9b91d4dc06babb30c8677183a
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 1b50098470cfa070a6c430e65f2fa24317c14b97
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182405"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151182"
 ---
 # <a name="settle-remainder"></a>Gera upp eftirstöðvar
 
@@ -27,7 +27,7 @@ ms.locfileid: "8182405"
 Hægt er að gera upp eftirstandandi upphæð uppgjörsaðgerðar með því að jafna þessa upphæð við fjárhagslykil eða annan viðskiptavin. Hægt er að gera upp eftirstöðvarnar við uppgjör upphæða sem færðar eru inn í færslubók eða þegar opnar færslur eru gerðar upp.
 
 ## <a name="setting-up-defaults"></a>Uppsetning sjálfgilda 
-Þú verður að virkja **Greiða afganginn** eiginleika og settu upp sjálfgefna stillingar áður en þú notar **Greiða afganginn**.
+Þú verður að virkja **Greiða afganginn** eiginleika og settu upp sjálfgefnar stillingar áður en þú notar **Greiða afganginn**.
 
 1)  Smelltu á **Viðskiptakröfur > Færibreytur > Uppgjör** eða **Viðskiptaskuldir > Færibreytur > Uppgjör**
 2)  Veldu **Uppgjör** flipann og smelltu **Virkja uppgjör afganga**.

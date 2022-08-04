@@ -1,6 +1,6 @@
 ---
 title: Myndbönd
-description: Þessi síða sýnir „hvernig á að“ og tæknitalsmyndbönd sem Microsoft hefur búið til sem tengjast forritum Finance and Operations sem eru aðgengileg á YouTube og öðrum vefsíðum.
+description: Þessi síða sýnir Microsoft-búnar „hvernig á“ og tæknispjallmyndbönd sem tengjast fjármálum og rekstrarforritum sem eru fáanleg á YouTube og aðrar síður.
 author: sericks007
 ms.date: 06/13/2022
 ms.topic: article
@@ -14,27 +14,27 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
-ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
+ms.openlocfilehash: a21a9122badc308940c0182061a18051bfcc0abd
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8958139"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124952"
 ---
 # <a name="videos"></a>Myndbönd 
 
 [!include [banner](../includes/banner.md)]
 
-Á [Microsoft Dynamics 365 YouTube rás](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) geturðu fundið myndskeið búin til af Microsoft sem sýna fjölbreytt úrval af viðskiptalausnum fyrir Dynamics 365-vörur. Í þessum kafla er að finna myndskeið fyrir „hvernig á að“ fyrir forrit Finance and Operations sem hýst eru á rásinni.
+Á [Microsoft Dynamics 365 YouTube rás](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) geturðu fundið myndskeið búin til af Microsoft sem sýna fjölbreytt úrval af viðskiptalausnum fyrir Dynamics 365-vörur. Þessi hluti sýnir „hvernig á að“ myndbönd fyrir fjármála- og rekstrarforrit sem hýst eru á rásinni.
 
 > [!Note]
 > Sum myndbandsins sem birt voru voru birt undir fyrra vöruheiti en eiga samt við.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Myndbönd fyrir þróun og stjórnun Finance and Operations
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Myndbönd fyrir fjármála- og rekstrarþróun og stjórnun
 
 ### <a name="data-integration"></a>Samþætting gagna
 
-- [Samstilling vinnupöntunar á milli Dynamics 365 for Field Service og forrit Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Samstilltu verkbeiðni á milli Dynamics 365 for Field Service og fjármála- og rekstraröpp](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Gagnastjórnun
 
@@ -50,8 +50,8 @@ ms.locfileid: "8958139"
 ### <a name="intelligence"></a>Greind
 
 - [Hvernig á að breyta innfelldri skýrslu í greiningarvinnusvæði](https://youtu.be/_8WlwmSggcQ)
-- [Hvernig á að fella PowerBI.com skýrslur í forritum Finance and Operations](https://youtu.be/gGWuNJDoi-M)
-- [Koma með eigin gagnagrunn (BYOD) í forritinu Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Hvernig á að fella PowerBI.com skýrslur inn í fjármála- og rekstrarforrit](https://youtu.be/gGWuNJDoi-M)
+- [Komdu með þinn eigin gagnagrunn (BYOD) í fjármála- og rekstrarforrit](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Hvernig á að nota kostnaðarstjórnun Power BI efni í Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
@@ -169,3 +169,4 @@ ms.locfileid: "8958139"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -1,6 +1,6 @@
 ---
 title: Aðskilinn Dual-Write Application Orchestration pakki
-description: Dual-write Application Orchestration pakkinn er ekki lengur einn pakki heldur hefur hann verið aðskilinn í smærri pakka. Þessi grein útskýrir lausnirnar og kortin sem hver pakki inniheldur og hversu háður hann er af öðrum pakka.
+description: Dual-write Application Orchestration pakkinn er ekki lengur einn pakki heldur hefur verið skipt í smærri pakka. Þessi grein útskýrir lausnirnar og kortin sem hver pakki inniheldur og hversu háður hann er öðrum pakka.
 author: RamaKrishnamoorthy
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 28c321ee2815b2886c07bfb0996870e536458145
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874813"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111661"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Aðskilinn Dual-Write Application Orchestration pakki
 
@@ -26,27 +26,27 @@ ms.locfileid: "8874813"
 Áður var Dual-write Application Orchestration pakkinn einn pakki sem innihélt eftirfarandi lausnir:
 
 - Dynamics 365 Notes
-- Dynamics 365 Finance and Operations Common Anchor
+- Dynamics 365 fjármál og rekstur Common Anchor
 - Dynamics 365 Finance and Operations Dual Write Entity Maps
 - Dynamics 365 eignastýringarforrit
 - Dynamics 365 eignastýring
 - HCM Common
 - Dynamics 365 birgðakeðja framlengd
 - Dynamics 365 Finance Extended
-- Dynamics 365 Finance and Operations Common
+- Dynamics 365 fjármál og rekstur Common
 - Dynamics 365 fyrirtæki
 - Gengi gjaldmiðla
-- Sameiginleg vettvangsþjónusta
+- Field Service Common
 
 Vegna þess að þetta var einn pakki skapaði þessi pakki „allt eða ekkert“ aðstæður fyrir viðskiptavini. Hins vegar hefur Microsoft nú aðskilið það í smærri pakka. Þess vegna geta viðskiptavinir valið bara pakkana fyrir þær lausnir sem þeir þurfa. Til dæmis, ef þú ert Microsoft Dynamics 365 Supply Chain Management viðskiptavinur, og þurfa ekki samþættingu við Dynamics 365 Human Resources, athugasemdum og eignastýringu geturðu útilokað þessar lausnir frá þeim lausnum sem eru uppsettar. Vegna þess að undirliggjandi nöfn lausna, útgefanda og kortaútgáfu eru þau sömu, er þessi breyting órofa. Núverandi innsetningar verða uppfærðar.
 
 ![Aðskilinn pakki.](media/separated-package-1.png)
 
-Þessi grein útskýrir lausnirnar og kortin sem hver pakki inniheldur og hversu háður hann er af öðrum pakka.
+Þessi grein útskýrir lausnirnar og kortin sem hver pakki inniheldur og hversu háður hann er öðrum pakka.
 
-## <a name="dual-write-application-core"></a>Tvöfaldur-skrifa umsóknarkjarna
+## <a name="dual-write-application-core"></a>Dual-write Application Core
 
-Dual-write Application Core pakkinn gerir notendum kleift að setja upp og stilla dual-write án nokkurs viðskiptavinaforrits. Það inniheldur eftirfarandi fimm lausnir.
+Dual-write Application Core pakkinn gerir notendum kleift að setja upp og stilla dual-write án nokkurs þátttökuforrits viðskiptavina. Það inniheldur eftirfarandi fimm lausnir.
 
 | Einstakt nafn                           | Heiti til birtingar                               |
 |---------------------------------------|--------------------------------------------|
@@ -58,7 +58,7 @@ Dual-write Application Core pakkinn gerir notendum kleift að setja upp og still
 
 Eftirfarandi kort eru fáanleg í þessum pakka.
 
-| Forrit Finance and Operations     | Forrit viðskiptavinatengsla                    |
+| Forrit fyrir Finance and Operations     | Forrit viðskiptavinatengsla                    |
 |---------------------------------|---------------------------------------------|
 | Rekstrareining                  | msdyn_internalorganizations                 |
 | Stigveldi fyrirtækis          | msdyn_internalorganizationhierarchies       |
@@ -83,13 +83,13 @@ Dual-write mannauðspakkinn inniheldur lausnir og kort sem þarf til að samstil
 
 | Einstakt nafn                | Heiti til birtingar                             |
 |----------------------------|------------------------------------------|
-| HCM Common                  | HCM Common                               |
+| HCMCommon                  | HCM Common                               |
 | msdyn_Dynamics365HCMMaps   | Dynamics 365 Human Resources einingakort |
 | msdyn_Dynamics365HCMAnchor | Dynamics 365 Human Resources akkeri      |
 
 Eftirfarandi kort eru fáanleg í þessum pakka.
 
-| Forrit Finance and Operations | Forrit viðskiptavinatengsla         |
+| Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla         |
 |-----------------------------|----------------------------------|
 | Þjóðernisuppruni              | cdm_ethnicorigins                |
 | Starfshlutverk launa   | cdm_jobfunctions                 |
@@ -119,7 +119,7 @@ Dual-write Supply Chain pakkinn inniheldur lausnir og kort sem þarf til að sam
 
 Eftirfarandi kort eru fáanleg í þessum pakka.
 
-| Forrit Finance and Operations                 | Forrit viðskiptavinatengsla                      |
+| Forrit fyrir Finance and Operations                 | Forrit viðskiptavinatengsla                      |
 |---------------------------------------------|-----------------------------------------------|
 | Einingar                                       | uoms                                          |
 | Hausar CDS-sölupöntunar                     | salesorders                                   |
@@ -181,10 +181,10 @@ Eftirfarandi kort eru fáanleg í þessum pakka.
 Dual-write Supply Chain pakkinn fer eftir eftirfarandi þremur pakkningum. Þess vegna ættir þú að setja þessa pakka upp áður en þú setur upp Dual-write Supply Chain pakkann.
 
 - Dual-write Application Core pakki
-- Tvískrifað fjármálapakki
-- Tvöfaldur-skrifaður mannauðspakki
+- Tvöfalt skrifa fjármálapakki
+- Tvöfaldur-skrifa mannauðspakki
 
-## <a name="dual-write-finance"></a>Tvískrifuð fjármál
+## <a name="dual-write-finance"></a>Tvöfalt skrifa Fjármál
 
 Dual-write Finance pakkinn inniheldur lausnir og kort sem þarf til að samstilla Dynamics 365 Finance gögn. Það inniheldur eftirfarandi fjórar lausnir.
 
@@ -192,16 +192,16 @@ Dual-write Finance pakkinn inniheldur lausnir og kort sem þarf til að samstill
 |----------------------------------------|-------------------------------------------|
 | Dynamics365FinanceExtended             | Dynamics 365 Finance Extended             |
 | msdyn_Dynamics365FinanceExtended Maps   | Dynamics 365 Finance útvíkkuð einingakort |
-| Field Service Common                     | Sameiginleg vettvangsþjónusta                      |
+| Field Service Common                     | Field Service Common                      |
 | msdyn_Dynamics365FinanceExtendedAnchor | Dynamics 365 Finance útvíkkað akkeri      |
 
 Eftirfarandi kort eru fáanleg í þessum pakka.
 
-| Forrit Finance and Operations             | Forrit viðskiptavinatengsla        |
+| Forrit fyrir Finance and Operations             | Forrit viðskiptavinatengsla        |
 |-----------------------------------------|---------------------------------|
 | Staðgreiðsluskattsflokkar                  | msdyn_withholdingtaxgroups      |
 | CDS Contacts V2 (viðskiptavinur)              | tengiliðir                        |
-| CDS tengiliðir V2 (sali)                | tengiliðir                        |
+| CDS tengiliðir V2 (seljandi)                | tengiliðir                        |
 | Viðskiptavinir V3                            | tengiliðir                        |
 | Staðgreiðsluskattskóðar                   | msdyn_withholdingtaxcodes       |
 | Lánardrottnar V2                              | msdyn_vendors                   |
@@ -242,12 +242,12 @@ Dual-write Notes pakkinn inniheldur lausnir og kort sem þarf til að samstilla 
 |------------------------------|--------------------------------|
 | Dynamics365 Notes             | Dynamics 365 Notes             |
 | Dynamics365NotesExtended     | Dynamics 365 glósur framlengdar    |
-| msdyn_Dynamics365NotesMaps   | Dynamics 365 glósur einingakort |
+| msdyn_Dynamics365NotesMaps   | Dynamics 365 notes einingakort |
 | msdyn_Dynamics365NotesAnchor | Dynamics 365 glósuakkeri      |
 
 Eftirfarandi kort eru fáanleg í þessum pakka.
 
-| Finance and Operations                     | Customer Engagement |
+| Fjármál og rekstur                     | Customer Engagement |
 |--------------------------------------------|---------------------|
 | Viðhengt skjal fyrir sölupöntunarhaus    | athugasemdir         |
 | Fylgiskjöl viðskiptamanns                       | athugasemdir         |
@@ -259,7 +259,7 @@ Eftirfarandi kort eru fáanleg í þessum pakka.
 Dual-write Notes pakkinn fer eftir eftirfarandi tveimur pökkum. Þess vegna ættir þú að setja þessa pakka upp áður en þú setur upp Dual-write Notes pakkann.
 
 - Dual-write Application Core pakki
-- Tvískrifað fjármálapakki
+- Tvöfalt skrifa fjármálapakki
 
 ## <a name="dual-write-asset-management"></a>Tvöföld skrif eignastýring
 
@@ -274,7 +274,7 @@ Dual-write Asset Management pakkinn inniheldur lausnir og kort sem þarf til að
 
 Eftirfarandi kort eru fáanleg í þessum pakka.
 
-| Forrit Finance and Operations                           | Forrit viðskiptavinatengsla                |
+| Forrit fyrir Finance and Operations                           | Forrit viðskiptavinatengsla                |
 |-------------------------------------------------------|-----------------------------------------|
 | Ábyrgð eignastýringar                             | msdyn_warranties                        |
 | Líkön eignastýringar                               | msdyn_models                            |
@@ -296,14 +296,14 @@ Dual-write Asset Management pakkinn fer eftir Dual-write Application Core pakkan
 Project Operations fer eftir eftirfarandi pakka. Þess vegna ættir þú að setja upp þessa pakka áður en þú setur upp Project Operations.
 
 - Dual-write Application Core pakki
-- Tvískrifað fjármálapakki
-- Tvískrifað framboðskeðjupakki
+- Tvöfalt skrifa fjármálapakki
+- Tvöfaldur-skrifa framboð Keðju pakki
 - Tvöfaldur-skrifa eignastýringarpakki
-- Tvöfaldur-skrifaður mannauðspakki
+- Tvöfaldur-skrifa mannauðspakki
 
-## <a name="dual-write-party-and-global-address-book-solutions"></a>Tvískrifaða flokks- og alþjóðlegt heimilisfangabókarlausnir
+## <a name="dual-write-party-and-global-address-book-solutions"></a>Tvöföld skrif aðila og alþjóðlegt heimilisfangabókarlausnir
 
-Tvískrifaða aðila og alþjóðlegt heimilisfangabókarpakkinn inniheldur eftirfarandi lausnir og kort sem þarf til að samstilla aðila og alþjóðleg heimilisfangabókargögn. 
+Tvískrifaða aðila og alþjóðlegt heimilisfangabókarpakkinn inniheldur eftirfarandi lausnir og kort sem þarf til að samstilla aðila og alþjóðlegt heimilisfangabókargögn. 
 
 | Einstakt nafn                       | Heiti til birtingar                            |
 |-----------------------------------|-----------------------------------------|
@@ -339,8 +339,9 @@ Eftirfarandi kort eru fáanleg í þessum pakka.
 
 **Upplýsingar um ósjálfstæði**
 
-Tvískrifa aðila og alþjóðleg heimilisfangabókarlausnir eru háðar eftirfarandi þremur pakka. Þess vegna ættir þú að setja þessa pakka upp áður en þú setur upp tvískrifaða aðila og alþjóðlega heimilisfangabókarlausnapakkann.
+Tvískrifað aðila og alþjóðlegt heimilisfangabókarlausnir eru háðar eftirfarandi þremur pakka. Þess vegna ættir þú að setja þessa pakka upp áður en þú setur upp tvískrifaða aðila og alþjóðlega heimilisfangabókarlausnapakkann.
 
 - Dual-write Application Core pakki
-- Tvískrifað fjármálapakki
-- Tvískrifað framboðskeðjupakki
+- Tvöfalt skrifa fjármálapakki
+- Tvöfaldur-skrifa framboð Keðju pakki
+

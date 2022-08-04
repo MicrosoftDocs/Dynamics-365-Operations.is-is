@@ -15,16 +15,19 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6b3cff1029b02aaabef2ea9795ab9912f20f1129
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d54e246b175c81b5d161ea35f141fc7dea9c6f1f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871421"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070725"
 ---
-# <a name="set-up-and-generate-positive-pay-files"></a>Setja upp og mynda jákvæða greiðsluskrá launa
+# <a name="set-up-and-generate-positive-pay-files"></a>Uppsetning og myndun jákvæðra greiðsluskráa launa
 
 [!include [banner](../includes/banner.md)]
+
+> [!NOTE]
+> Þessi virkni verður úrelt september 2022, nýir notendur ættu að nota rafræna skýrslugerð. Fyrir frekari upplýsingar, sjá [Settu upp jákvæðar launaskrár með því að nota rafræna skýrslugerð](set-up-positive-pay-er.md).
 
 Þessi skrá útskýrir hvernig á að setja upp jákvæða greiðslu og mynda jákvæðar greiðsluskrár. 
 

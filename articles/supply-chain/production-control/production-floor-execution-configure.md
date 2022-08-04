@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
-ms.translationtype: MT
+ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022565"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167762"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Grunnstilla viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -39,7 +39,7 @@ Kveikt verður á framkvæmdarviðmótinu sjálfu, auk nokkurra valkvæða still
 
 ### <a name="the-production-floor-execution-interface"></a>Viðmót fyrir framkvæmd á framleiðslugólfi
 
-Þetta er aðaleiginleikinn sem lýst er í þessari grein og er forsenda allra annarra eiginleika sem nefndir eru í þessum hluta. Frá og með Supply Chain Management 10.0.25 er það skylda og ekki hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Framleiðslugólf framkvæmd* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Þetta er aðaleiginleikinn sem lýst er í þessari grein og er forsenda allra annarra eiginleika sem nefndir eru í þessum hluta. Frá og með Supply Chain Management 10.0.25 er það skylda og ekki hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Framleiðsla á gólfi* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ### <a name="generate-license-plates"></a>Mynda númeraplötur
 
@@ -92,9 +92,9 @@ Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á 
 
 Þessi eiginleiki gerir starfsmönnum kleift að nota framkvæmdarviðmót framleiðslugólfs til að skrá efnisnotkun, lotunúmer og raðnúmer. Sumir framleiðendur, sérstaklega þeir sem eru í vinnsluiðnaði, verða að skrá sérstaklega magn efnis sem er notað fyrir hverja lotu eða framleiðslupöntun. Til dæmis gætu starfsmenn notað vog til að vega magn efnis sem er neytt meðan þeir vinna. Til að tryggja fullan rekjanleika efnis verða þessar stofnanir einnig að skrá lotunúmerin sem notuð voru til að framleiða hverja vöru.
 
-Það eru tvær útgáfur af þessum eiginleika. Einn styður atriði sem *eru ekki* gert kleift að nota háþróaða vöruhúsaferla (WMS). Hinn styður atriði sem *eru* gert kleift að nota WMS. Til að nota þessa virkni skaltu kveikja á einum eða báðum eftirfarandi eiginleikum í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (í þessari röð), eftir því hvort þú ert með hluti sem eru virkjaðir fyrir WMS:
+Það eru tvær útgáfur af þessum eiginleika. Einn styður atriði sem *eru ekki* gert kleift að nota vöruhússtjórnunarferli (WMS). Hinn styður atriði sem *eru* gert kleift að nota WMS. Til að nota þessa virkni skaltu kveikja á einum eða báðum eftirfarandi eiginleikum í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (í þessari röð), eftir því hvort þú ert með hluti sem eru virkjaðir fyrir WMS:
 
-- *(Forútgáfa) Skrá efnisnotkun í keyrsluviðmóti framleiðslugólfs (ekki vöruhúsakerfi)*
+- *Skráðu efnisnotkun á framkvæmdarviðmóti framleiðslugólfs (ekki WMS)*
 - *(Forútgáfa) Skrá efnisnotkun í keyrsluviðmóti framleiðslugólfs (virkjað fyrir vöruhúsakerfi)*
 
 > [!IMPORTANT]
@@ -159,7 +159,7 @@ Eftirfarandi stillingar eru fáanlegar á **Almennt** flýtiflipi:
 
 - **Klukka aðeins inn og út** – Stilltu þennan valkost á *Já* að búa til einfaldað viðmót sem veitir aðeins inn- og útklukkuvirkni. Þessi stilling slekkur á flestum öðrum valkostum á þessari síðu. Fjarlægja verður allar færslubókarlínur úr **Flipavali** áður en hægt er að virkja þennan valkost.
 - **Virkja leit** – Stilltu þennan valkost á *Já* að setja leitarreit á starfslistann. Starfsmenn geta fundið tiltekið starf með því að slá inn starfskenni, eða þeir geta fundið öll störf fyrir tiltekna pöntun með því að slá inn pöntunarkenni. Starfsmenn geta slegið inn auðkennið með því að nota lyklaborð eða skanna strikamerki.
-- **Virkjaðu leit eftir verkefnisauðkenni** – Stilltu þennan valkost á *Já* til að gera starfsmönnum kleift að leita eftir verkakenni (auk verkauðkennis og pöntunarauðkennis) í leitarsviði framkvæmdarviðmóts framleiðslugólfs. Þú getur stillt þennan valkost á *Já* aðeins þegar **Virkja leit** valkostur er einnig stilltur á *Já*.
+- **Virkjaðu leit eftir verkefnakenni** – Stilltu þennan valkost á *Já* til að gera starfsmönnum kleift að leita eftir verkakenni (auk verkauðkennis og pöntunarauðkennis) í leitarsviði framkvæmdarviðmóts framleiðslugólfs. Þú getur stillt þennan valkost á *Já* aðeins þegar **Virkja leit** valkostur er einnig stilltur á *Já*.
 - **Opna upphafsglugga sjálfkrafa** – Þegar þessi valkostur er stilltur á *Já*, hinn **Byrja starf** svarglugginn opnast sjálfkrafa þegar starfsmenn nota leitarstikuna til að finna starf.
 - **Opna sjálfkrafa skýrsluframvinduglugga** – Þegar þessi valkostur er stilltur á *Já*, hinn **Tilkynna framvindu** svarglugginn opnast sjálfkrafa þegar starfsmenn nota leitarstikuna til að finna starf.
 - **Virkjaðu stilla efni** – Stilltu þennan valkost á *Já* til að virkja **Stilla efni** hnappinn í **Tilkynna framvindu** valmynd. Starfsmenn geta valið þennan hnapp til að stilla efnisnotkun fyrir verkið.

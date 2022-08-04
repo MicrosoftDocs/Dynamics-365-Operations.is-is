@@ -1,5 +1,5 @@
 ---
-title: Leysaðu vandamál með viðbætur við Store Commerce
+title: Leysa vandamál með viðbætur við Store Commerce
 description: Þessi grein útskýrir hvernig á að leysa vandamál með viðbót í Microsoft Dynamics 365 Commerce Store Commerce app.
 author: mugunthanm
 ms.date: 06/01/2022
@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: rassadi
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: ff26bb76e04c60a9cb975e106456fd781f9300c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b440183e255e05c4f93a4f11106be2967163ff74
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870519"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9169018"
 ---
-# <a name="troubleshoot-store-commerce-extension-issues"></a>Leysaðu vandamál með viðbætur við Store Commerce
+# <a name="troubleshoot-store-commerce-extension-issues"></a>Leysa vandamál með viðbætur við Store Commerce
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Þessi grein útskýrir hvernig á að leysa vandamál með viðbót í Microsoft Dynamics 365 Commerce Store Commerce app.
 
@@ -27,7 +26,7 @@ ms.locfileid: "8870519"
 
 ### <a name="extensions-packages-dont-appear-on-the-pos--settings-page"></a>Viðbótarpakkar birtast ekki á POS \> Stillingar síða
 
-Viðskiptatími (CRT) kveikjur gætu ekki hafa verið uppfærðar til að innihalda viðbótarpakkann, eða þeir eru ekki notaðir. Fyrir frekari upplýsingar, sjá [Viðskiptatími (CRT) teygjanleika og kveikjur](../dev-itpro/commerce-runtime-extensibility-trigger.md).
+Viðskiptatími (CRT) kveikjur gætu ekki hafa verið uppfærðar til að innihalda viðbótapakkann, eða þeir eru ekki notaðir. Fyrir frekari upplýsingar, sjá [Viðskiptatími (CRT) teygjanleika og kveikjur](../dev-itpro/commerce-runtime-extensibility-trigger.md).
 
 ### <a name="extensions-packages-appear-on-the-pos--settings-page-but-the-manifest-isnt-loaded"></a>Viðbótarpakkar birtast á POS \> Stillingasíðu, en upplýsingaskráin er ekki hlaðin
 
@@ -39,6 +38,6 @@ Ef það er nr **POS** möppu, staðfestu að Store Commerce verkefnið vísar r
 
 ![Verkefnatilvísun Store Commerce uppsetningarforrits er ekki gild.](media/ReferenceNotValid.png)
 
-Ef tilvísuninni fyrir viðbyggingarverkefnið er rétt bætt við mun ekki vera nein viðvörun eða ósjálfstæðisvandamál í uppsetningarverkefninu, eins og sýnt er á eftirfarandi dæmi.
+Ef tilvísuninni fyrir viðbyggingarverkefnið er rétt bætt við, verður engin viðvörun eða ósjálfstæðisvandamál í uppsetningarverkefninu, eins og sýnt er á eftirfarandi dæmi.
 
 ![Verkefnatilvísun Store Commerce uppsetningarforrits er gild.](media/ReferenceValid.png)

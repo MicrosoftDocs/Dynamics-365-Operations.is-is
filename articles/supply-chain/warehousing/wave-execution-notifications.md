@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 6f8f43bcdaae9a14350c66039d204caf38d33768
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5c8fa259e51f024d19c1f2f7e84ed7edd0ddb7e1
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906972"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069029"
 ---
 # <a name="wave-execution-notifications"></a>Tilkynningar bylgjukerslu
 
@@ -28,7 +28,7 @@ Eiginleikinn *Tilkynningar bylgjukeyrslu* notar viðskiptatilvik og aðgerðami�
 
 Hnappurinn **Sýna skilaboð** (bjöllutáknið) hægra megin á yfirlitsstikunn gefur til kynna hvenær skilaboð aðgerðamiðstöðvar verða tiltæk fyrir núverandi notanda. Notandinn getur valið hnappinn **Sýna skilaboð** til að opna aðgerðamiðstöðina og fara yfir skilaboðin.
 
-Viðskiptatilvik eiga sér stað þegar viðskiptaferli eru keyrð. Viðskiptaferli samanstanda af verkum. Í viðskiptaferli framkvæma notendur sem taka þátt í því viðskiptaaðgerðir til að ljúka þessum verkum. Viðskiptaviðburðir bjóða upp á kerfi sem gerir ytri kerfum kleift að fá tilkynningar frá Finance and Operations forritum. Þannig geta kerfin framkvæmt viðskiptaaðgerðir til að bregðast við viðskiptatilvikunum. Frekari upplýsingar eru í [Yfirlit viðskiptatilvika](../../fin-ops-core/dev-itpro/business-events/home-page.md).
+Viðskiptatilvik eiga sér stað þegar viðskiptaferli eru keyrð. Viðskiptaferli samanstanda af verkum. Í viðskiptaferli framkvæma notendur sem taka þátt í því viðskiptaaðgerðir til að ljúka þessum verkum. Viðskiptaviðburðir bjóða upp á kerfi sem gerir ytri kerfum kleift að fá tilkynningar frá fjármála- og rekstrarforritum. Þannig geta kerfin framkvæmt viðskiptaaðgerðir til að bregðast við viðskiptatilvikunum. Frekari upplýsingar eru í [Yfirlit viðskiptatilvika](../../fin-ops-core/dev-itpro/business-events/home-page.md).
 
 ## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>Kveiktu eða slökktu á Wave execution notifications eiginleikanum
 
@@ -125,3 +125,4 @@ Vinnusniðmát eru notuð í við framkvæmd bylgjukeyrslu til að búa til vinn
 > Upplýsingar um opna bylgju
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
