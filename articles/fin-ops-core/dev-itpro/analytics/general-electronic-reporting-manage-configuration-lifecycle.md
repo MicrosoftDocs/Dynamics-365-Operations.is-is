@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0220fa03283119471b3d1f78a23a04ed4036264e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: d6a64908a167c09089a95f1d3faa825dcc63f064
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906798"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109083"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Stjórnun líftíma skilgreiningar fyrir rafræna skýrslugerð
 
@@ -73,7 +73,7 @@ Eftirfarandi hlutverk og tengdar aðgerðir tengjast lífsferli skilgreiningar r
 | Starfsmaður viðskiptaskuldagreiðslna            | Notar ER gervinga í tilteknu viðskiptaferli.                | Til dæmis hlutverk **Starfsmanns viðskiptaskuldagreiðslna** sem leyfir að mynda rafræn greiðsluskilaboð fyrir úrvinnslu reikninga, byggt á sniði rafrænnar skýrslugerðar sem er skilgreint fyrir tiltekinn greiðslumáta. |
 
 ## <a name="er-configuration-development-lifecycle"></a>Þróunarlífsferill ER skilgreiningar.
-Mælt er með að hanna ER skilgreiningar í þróunarumhverfi sem aðskilið tilvik af Finance and Operations fyrir eftirfarandi ER málefni:
+Af eftirfarandi ER-tengdum ástæðum mælum við með því að þú sért að hanna ER stillingar í þróunarumhverfinu, sem sérstakt dæmi um fjármál og rekstur:
 
 - Notendur í hlutverkum annaðhvort **Þróunaraðila rafrænnar skýrslugerðar** eða **Hagnýts ráðgjafa vegna rafrænnar skýrslugerðar** geta breytt stillingum og keyrt þær vegna prófunar. Það getur valdið köllun eftir aðferðum flokka og töflum sem geta hugsanlega verið skaðleg fyrir viðskiptagögn og árangur af notkun tilviks.
 - Köllun eftir aðferðum flokka og tafla sem ER gagnagjafa fyrir ER skilgreiningar eru ekki takmarkaðar af aðgangsstað og skráðu efni fyrirtækis. Því geta notendur sem eru í hlutverkum **Þróunaraðila rafrænnar skýrslugerðar** eða **Hagnýts ráðgjafa vegna rafrænnar skýrslugerðar** fengið aðgang að viðkvæmum gögnum fyrirtækis.
@@ -113,3 +113,4 @@ Til að afturkalla breytingarnar sem þú kynntir í útgáfudrögum skal velja 
 [Skilgreina hversu mikil áhrif skilgreiningar rafrænnar skýrslugerðar hafa á aðra hluta](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

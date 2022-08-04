@@ -1,6 +1,6 @@
 ---
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
-description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir eða sem fyrirhugað er að fjarlægja í Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 04/27/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 949fa0df58bc3338c8bc84ecbd4f2ad17117dd12
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
+ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865267"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "9171516"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ ms.locfileid: "8865267"
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð.
 
 > [!NOTE]
-> Ítarlegar upplýsingar um hluti í Finance and Operations öppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af Finance and Operations forritum.
+> Ítarlegar upplýsingar um hluti í fjármála- og rekstraröppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af fjármála- og rekstrarforritum.
 
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Supply Chain Management 10.0.19 útgáfa
@@ -48,11 +48,11 @@ ms.locfileid: "8865267"
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Supply Chain Management 10.0.18 útgáfa
 
-### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations - Vöruhúsaforrit (vöruhúsaforritið)
+### <a name="supply-chain-management--warehousing-the-warehouse-app"></a><a name="wma"></a> Aðfangakeðjustjórnun - Vörugeymsla (vöruhúsaappið)
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Gildir í apríl 2021, *Dynamics 365 for Finance and Operations - Vörugeymsla* (vöruhúsaforritið) er úrelt og verður ekki stutt eftir apríl 2022. Því er nú skipt út fyrir *Farsímaforrit vöruhúsakerfis*, sem var gefið út í útgáfu 10.0.17 af Supply Chain Management. Nýja forritið kemur í stað þess eldra en notar sama undirliggjandi ramma sem auðveldar flutning. Hægt er að nota forritin hlið við hlið til að notendur geti vanist nýja forritinu.<br><br>Ef leitað er upplýsinga um hvernig eigi að skilgreina gamla farsímaforritið fyrir farsímaforrit vöruhúsakerfis skal skoða [Farsímaforrit vöruhúsakerfi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) og [Setja upp og tengja farsímaforrit vöruhúsakerfis](../warehousing/install-configure-warehouse-management-app.md). |
+| **Ástæða úreldingar/fjarlægingar** | Gildir í apríl 2021, *Aðfangakeðjustjórnun - Vörugeymsla* (vöruhúsaforritið) er úrelt og verður ekki stutt eftir apríl 2022. Því er nú skipt út fyrir *Farsímaforrit vöruhúsakerfis*, sem var gefið út í útgáfu 10.0.17 af Supply Chain Management. Nýja forritið kemur í stað þess eldra en notar sama undirliggjandi ramma sem auðveldar flutning. Hægt er að nota forritin hlið við hlið til að notendur geti vanist nýja forritinu.<br><br>Ef leitað er upplýsinga um hvernig eigi að skilgreina gamla farsímaforritið fyrir farsímaforrit vöruhúsakerfis skal skoða [Farsímaforrit vöruhúsakerfi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) og [Setja upp og tengja farsímaforrit vöruhúsakerfis](../warehousing/install-configure-warehouse-management-app.md). |
 | **Skipt út fyrir aðra eiginleika?**   | Já, skipt út fyrir nýtt farsímaforrit vöruhúsakerfis. |
 | **Afurðasvæði sem haft er áhrif á**         | Supply Chain Management - vöruhúsaforrit |
 | **Dreifingarvalkostur**              | Ský og innanhúss |
@@ -78,7 +78,7 @@ ms.locfileid: "8865267"
 | **Skipt út fyrir aðra eiginleika?**   | Já, fínstilling áætlanagerðar kemur í stað núverandi aðaláætlunarvélar Supply Chain Management. |
 | **Afurðasvæði sem haft er áhrif á**         | Supply Chain Management - Aðaláætlanagerð |
 | **Dreifingarvalkostur**              | Aðeins ský. Fínstilling áætlanagerðar er ekki studd með uppsetningu á staðnum. |
-| **Staða**                         | Úrelt. Fyrir 1. apríl 2022 verða framleiðslusviðsmyndir ekki lengur studdar fyrir innbyggðu Supply Chain Management aðalskipulagsvélina. Frá og með þeim degi mun Microsoft stöðva alla virka þróun á framleiðsluatburðarás fyrir innbyggðu skipulagsvélina, mun ekki gefa út neina nýja eiginleika og mun aðeins gefa út mikilvægar villuleiðréttingar. Eftir þá dagsetningu verða öll fyrirtæki sem þurfa stuðning við framleiðslusviðsmyndir að nota áætlanagerð fínstillingu fyrir aðalskipulagsútreikninga. Gert er ráð fyrir að hagræðing skipulags muni styðja að fullu framleiðslusviðsmyndir fyrir október 2022. Fyrir frekari upplýsingar, sjá [Skipulagshagræðingarskjöl](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Fyrirtæki með innleiðingu á birgðakeðjustjórnun á staðnum mega halda áfram að nota innbyggðu aðalskipulagsvélina fyrir framleiðslusviðsmyndir eftir apríl 2022. Ekki verður boðið upp á fleiri umbætur á eiginleikum. |
+| **Staða**                         | Úrelt. Fyrir 1. apríl 2022 verða framleiðslusviðsmyndir ekki lengur studdar fyrir innbyggðu Supply Chain Management aðalskipulagsvélina. Frá og með þeim degi mun Microsoft stöðva alla virka þróun á framleiðsluatburðarás fyrir innbyggðu skipulagsvélina, mun ekki gefa út neina nýja eiginleika og mun aðeins gefa út mikilvægar villuleiðréttingar. Eftir þá dagsetningu verða öll fyrirtæki sem þurfa stuðning við framleiðslusviðsmyndir að nota áætlanagerð fínstillingu fyrir aðalskipulagsútreikninga. Gert er ráð fyrir að hagræðing skipulags muni styðja að fullu framleiðslusviðsmyndir fyrir október 2022. Fyrir frekari upplýsingar, sjá [Skipulagshagræðingarskjöl](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Fyrirtæki með innleiðingu á birgðakeðjustjórnun á staðnum geta haldið áfram að nota innbyggðu aðalskipulagsvélina fyrir framleiðslusviðsmyndir eftir apríl 2022. Ekki verður boðið upp á fleiri umbætur á eiginleikum. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Supply Chain Management 10.0.11 útgáfa
 
@@ -98,3 +98,4 @@ Til að læra meira um eiginleika sem hafa verið fjarlægðir eða úreltir í 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

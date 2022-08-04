@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aacb605374d99a3c0bad3438c89e33a04a4d7faf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 61c457abf87ce2da554ddb1472512416159c4dca
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897778"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068425"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources 22. júní 2021
 
@@ -82,7 +82,7 @@ Eftirfarandi nýir eiginleikar eru í kynningarútgáfu. Nánari upplýsingar um
 
 | Eiginleiki | Upplýsingar |
 | --- | --- |
-| Verkvangsuppfærsla 10.0.19 (43) | Verkvangsuppfærsla 10.0.19 á að fara af stað í útgáfu 28. maí 2021. Fyrir frekari upplýsingar, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.19 af Finance and Operations forritum (júní 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
+| Verkvangsuppfærsla 10.0.19 (43) | Verkvangsuppfærsla 10.0.19 á að fara af stað í útgáfu 28. maí 2021. Fyrir frekari upplýsingar, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.19 af fjármála- og rekstraröppum (júní 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
 |  Víxlhnappur fyrir birtingu starfsaldurs | Þessi eiginleiki býður upp á möguleikann á því að nota mismunandi dagsetningar til að reikna út starfsaldur sem birtist í skjámyndinni **Einfölduð starfsmannafærsla** og í skjámyndinni **Einstaklingar**.  Boðið verður upp á þetta í færibreytum Human Resources. |
 |  Virkja fjarvistarstjóra til að stjórna fríi | [Virkja fjarvistarstjóra til að stjórna fríi](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-absence-manager-manage-leave) |
 |  Fyrirmæli um viðhengi fyrir tilteknar leyfisgerðir | Þessi eiginleiki gerir stjórnendum kleift að bæta við umboðsviðhengjum þegar leyfisbeiðnir eru sendar fyrir tilgreindar leyfisgerðir. |
@@ -99,3 +99,4 @@ Fyrir ítarlegan lista yfir áætlaða eiginleika og áætlaðar útgáfur þeir
 [Vinna með eiginleika](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

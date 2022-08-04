@@ -1,6 +1,6 @@
 ---
 title: Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
-description: Þessi grein veitir upplýsingar um hvernig á að nota eiginleika rakningar í rafrænum skýrslum (ER) til að leysa vandamál varðandi frammistöðu.
+description: Þessi grein veitir upplýsingar um hvernig á að nota eiginleika rakningar í rafrænum skýrslum (ER) til að leysa vandamál varðandi árangur.
 author: NickSelin
 ms.date: 06/22/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ea6901f8d9632b021c35b9ee899385e688fc77e
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851952"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108857"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Rekja framkvæmd á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
 
@@ -98,7 +98,7 @@ Gerum ráð fyrir að þú hafir byrjað að hanna nýja lausn rafrænnar skýrs
 
 Gerum ráð fyrir að þú hafir lokið við að hanna fyrstu útgáfu af lausn rafrænnar skýrslugerðar. Núna viltu prófa hana í tilviki og greina afköst keyrslu.
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Flytja inn skilgreiningu rafrænnar skýrslugerðar úr RCS í Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a> Flytja inn ER uppsetningu frá RCS inn í fjármál og rekstur
 
 1. Skráðu þig inn á forritstilvikið.
 2. Fyrir þessa leiðsögn flytur þú inn skilgreiningar úr RCS-tilvikinu þínu (þar sem þú hannar þætti rafrænnar skýrslugerðar) í tilvik (þar sem þú prófar og að lokum notar þær). Þess vegna verður þú að ganga úr skugga um að allir nauðsynlegir gervingar hafi verið undirbúnir. Til að fá leiðbeiningar skal sjá ferlið [Flytja inn skilgreiningar rafrænnar skýrslugerðar úr Skilgreiningarþjónustu reglugerðar (RCS)](rcs-download-configurations.md).
@@ -305,7 +305,7 @@ Hún getur einnig verið gagnleg til að fækka fjölda kalla til LedgerTransTyp
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Flytja inn breytta skilgreiningu á líkanavörpun rafrænnar skýrslugerðar úr RCS í forritið
 
-Endurtaktu skrefin í [Flytja inn ER uppsetningu frá RCS í Finance and Operations](#import-configuration) kafla fyrr í þessari grein til að flytja inn útgáfu 1.2 af **Kortlagning afkastaspors** stillingar.
+Endurtaktu skrefin í [Flytja inn ER uppsetningu frá RCS inn í fjármál og rekstur](#import-configuration) kafla fyrr í þessari grein til að flytja inn útgáfu 1.2 af **Kortlagning afkastaspors** uppsetningu.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Keyra breytta lausn rafrænnar skýrslugerðar til að rekja framkvæmd
 
@@ -363,7 +363,7 @@ Athugið að netvafrinn býður upp á zip-skrá fyrir niðurhal. Þessi skrá i
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Notaðu ytri verkfæri til að endurskoða framkvæmdarspor sem inniheldur gagnagrunnsfyrirspurnir
 
-Vegna úrbóta sem hafa verið gerðar á ER-ramma býður afkastarakningin sem myndast á PerfView-sniði fleiri upplýsingar um framkvæmd ER-sniðs. Í Microsoft Dynamics 365 for Finance and Operations útgáfu 10.0.4 (júlí 2019) getur þessi rakning einnig innihaldið upplýsingar um framkvæmdar SQL-fyrirspurnir í forritsgagnagrunninum.
+Vegna úrbóta sem hafa verið gerðar á ER-ramma býður afkastarakningin sem myndast á PerfView-sniði fleiri upplýsingar um framkvæmd ER-sniðs. Í Microsoft Dynamics 365 Finance útgáfu 10.0.4 (júlí 2019), þessi rakning getur einnig innihaldið upplýsingar um keyrðar SQL fyrirspurnir í gagnagrunn forritsins.
 
 ### <a name="configure-user-parameters"></a>Skilgreina færibreytur notanda
 
@@ -392,3 +392,4 @@ Athugið að netvafrinn býður upp á zip-skrá fyrir niðurhal. Þessi skrá i
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869258"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109581"
 ---
 # <a name="electronic-reporting-er-overview"></a>Yfirlit yfir rafræna skýrslugerð
 
@@ -54,19 +54,19 @@ ER er stillanlegt tól sem hjálpar þér að búa til og viðhalda rafrænum sk
     - Mismunur á staðsetningu, eða delta stillingu, er skráður til að virkja sjálfvirka uppfærslu í nýja útgáfu af upprunalegu ER stillingunni.
     - Það er auðvelt að leysa handvirkt árekstra sem uppgötvast við sjálfvirka uppfærslu á staðsetningarútgáfum.
 
-ER gerir þér kleift að skilgreina rafræn sniðbyggingu og lýsa síðan hvernig mannvirkin ættu að vera fyllt með því að nota gögn og reiknirit. Þú getur notað formúlumál sem líkist Excel tungumálinu fyrir gagnaumbreytingu. Til að gera kortlagningu gagnagrunns til sniðs viðráðanlegri, endurnýtanlegri og óháð sniðsbreytingum, er hugmyndafræði milli gagnalíkana kynnt. Þetta hugtak gerir kleift að fela útfærsluupplýsingar fyrir sniðkortlagningunni og gerir kleift að endurnýta eitt gagnalíkan fyrir margar sniðvörpingar.
+ER gerir þér kleift að skilgreina rafræn sniðbyggingar og lýsa síðan hvernig mannvirkin ættu að vera fyllt með því að nota gögn og reiknirit. Þú getur notað formúlumál sem líkist Excel tungumálinu fyrir gagnaumbreytingu. Til að gera kortlagningu gagnagrunns til sniðs viðráðanlegri, endurnýtanlegri og óháðri sniðsbreytingum, er hugmyndafræði milli gagnalíkana kynnt. Þetta hugtak gerir kleift að fela útfærsluupplýsingar fyrir sniðkortlagningunni og gerir kleift að endurnýta eitt gagnalíkan fyrir margar sniðvörpingar.
 
 Þú getur notað ER til að stilla snið fyrir bæði komandi og send rafræn skjöl í samræmi við lagaskilyrði ýmissa landa og svæða. Með rafrænni skýrslugerð er hægt að stjórna þessum sniðum á meðan þau eru í notkun. Til dæmis er hægt taka í gagn nýja kröfu samkvæmt reglum og mynda viðskiptaskjöl í nauðsynlegu sniði til að skiptast rafrænt á upplýsingum við stjórnvöld, banka og aðrar aðilum.
 
 Vélar fyrir rafræna skýrslugerð eru ætlaðar fyrir viðskiptanotendur í stað þróara. Þar sem þú skilgreinir snið en ekki kóða eru ferlin við að stofna og stilla snið fyrir rafræn skjöl hraðvirkari og auðveldari.
 
-ER styður nú TEXT, XML, JSON, PDF,Microsoft Word,Microsoft Excel, og OPENXML vinnublaðssnið.
+ER styður nú TEXT, XML, JSON, PDF,Microsoft Word,Microsoft Excel, og OPENXML vinnublaðasnið.
 
 ## <a name="capabilities"></a>Geta
 
 ER-vélin hefur eftirfarandi getu:
 
-- Það er eitt deilt verkfæri til rafrænnar skýrslugerðar á mismunandi lénum, og kemur í stað 20 mismunandi véla sem gera einhvers konar rafræna skýrslugerð fyrir Finance and Operations.
+- Það táknar eitt sameiginlegt tól fyrir rafræna skýrslugerð á mismunandi sviðum og kemur í stað meira en 20 mismunandi véla sem gera einhvers konar rafræna skýrslugerð fyrir fjármál og rekstur.
 - Það gerir snið á skýrslu einangrað úr núgildandi innleiðingu. Með öðrum orðum, snið gildir fyrir mismunandi útgáfur.
 - Hann styður stofnun sérsniðinnar sniða sem byggð er á upprunalegu sniði. Það felur einnig í sér getu til að uppfæra sjálfkrafa sérhönnuð snið þegar breytingar á upprunalegu sniði eiga sér stað, vegna krafna um staðfærslu/sérsnið.
 - Verður það aðal viðtekna verkfærið til að styða við kröfur um staðfæringu í rafrænni skýrslugerð – bæði fyrir Microsoft sem og microsoft samstarfsaðila;
@@ -126,7 +126,7 @@ Skilgreining ER er samnýtt fyrir forritsfyrirtækin.
 
 #### <a name="provider"></a><a name="Provider"></a>Veita
 
-ER-veitan er auðkenni aðila sem er notuð til að tilgreina höfund (eiganda) fyrir hverja ER-skilgreiningu. ER leyfir þér að að stjórna lista yfir veitendur skilgreininga. Skilgreiningarsnið sem eru gefin út fyrir rafrænt skjal sem hluti af lausn Finance and Operations eru merktar sem í eigu **Microsoft** skilgreiningarveitu.
+ER-veitan er auðkenni aðila sem er notuð til að tilgreina höfund (eiganda) fyrir hverja ER-skilgreiningu. ER leyfir þér að að stjórna lista yfir veitendur skilgreininga. Sniðstillingar sem eru gefnar út fyrir rafræn skjöl sem hluti af fjármála- og rekstrarlausninni eru merktar sem í eigu **Microsoft** uppsetningarveitu.
 
 Til að fræðast um hvernig á að skrá nýja þjónustuveitu rafrænnar skýrslugerðar skaltu spila verkleiðbeiningarnar **Stofna veitanda skilgreiningar í rafrænni skýrslugerð og merkja sem virkan** (hluti af viðskiptaferlinu **7.5.4.3 Komast yfir/þróa þætti fyrir upplýsingatækniþjónustu/lausnir (10677)**).
 
@@ -143,7 +143,7 @@ ER-gagnasafn vistar ER-skilgreiningar. Eftirfarandi ER-gagnasöfn eru studd sem 
 
 Gagnasafnið **Samnýtt LCS-safn** veitir aðgang að lista yfir skilgreiningar innan samnýtts eignasafns í Lifecycle Services (LCS). Einungis er hægt að skrá þessa gerð af ER-gagnasafni fyrir Microsoft-þjónustuaðilann. Úr samnýtta LCS-eignasafninu er hægt að flytja nýjustu útgáfur af ER grunnstillingum inn í núgildandi tilvik.
 
-Gagnageymsla **LCS-verks** veitir aðgang að lista yfir skilgreiningar ákveðins LCS-verks (eignasafn LCS-verks) sem var valið gagnageymsla var skráð. Rafræn skýrslugerð gerir þér kleift að hlaða upp samnýttum skilgreiningum úr núverandi tilviki í tiltekna geymslu fyrir **LCS-verk** . Þú getur líka flutt inn stillingar frá an **LCS verkefni** geymsla í núverandi tilvik af Finance and Operations forritunum þínum.
+Gagnageymsla **LCS-verks** veitir aðgang að lista yfir skilgreiningar ákveðins LCS-verks (eignasafn LCS-verks) sem var valið gagnageymsla var skráð. Rafræn skýrslugerð gerir þér kleift að hlaða upp samnýttum skilgreiningum úr núverandi tilviki í tiltekna geymslu fyrir **LCS-verk** . Þú getur líka flutt inn stillingar frá an **LCS verkefni** geymslu í núverandi tilviki fjármála- og rekstrarforritanna þinna.
 
 Gagnasafn **Skráakerfis** veitir aðgang að lista yfir skilgreiningar sem eru staðsettar sem xml-skrár í tiltekinni möppu í staðbundnu skráakerfi vélarinnar þar sem AOS-þjónustan er hýst. Nauðsynleg mappa er valin á skráningarstigi gagnasafns. Hægt er að flytja inn skilgreiningar úr gagnasafni **Skráakerfis** í núverandi tilviki. 
 
@@ -270,3 +270,4 @@ Sífellt er verið að uppfæra Listann yfir skilgreiningar rafrænnar skýrslug
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

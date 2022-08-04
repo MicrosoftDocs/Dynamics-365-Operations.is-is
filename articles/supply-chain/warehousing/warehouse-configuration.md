@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7643a333c269a7e1976563ff0f10b89c1fb91674
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983003"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065187"
 ---
 # <a name="warehouse-configuration-overview"></a>Yfirlit yfir skilgreiningu vöruhúss
 
@@ -31,10 +31,10 @@ ms.locfileid: "7983003"
 Þessi grein útskýrir hvernig eigi að stilla vöruhús. Þar er meðal annars að finna upplýsingar um hvernig á að virkja útlit vöruhús og ferli vöruhúsa.
 
 > [!NOTE]
-> Þessi grein á við um aðgerðir í á einingunni **Vöruhúsakerfi** (ítarlegt vöruhús). Það á ekki við um aðgerðir vöruhúss í **birgðastjórnunarkerfi**.
+> Þessi grein á við um eiginleika í **Vöruhússtjórnun** mát. Það á ekki við um aðgerðir vöruhúss í **birgðastjórnunarkerfi**.
 
 ## <a name="warehouse-layout"></a>Útlit Vöruhúss
-Stjórnkerfi Vöruhúss í Supply Chain Management býður upp á sveigjanlega leiðir til að skilgreina útlit vöruhúss til að mæta síbreytilegum þörfum þannig að hægt er að ná bestu skilvirkni vöruhúss.
+Vöruhússtjórnunarferli (WMS) í Supply Chain Management gefur þér sveigjanlegar leiðir til að skilgreina vöruhúsaskipulagið þitt til að mæta breyttum þörfum, svo þú getir náð hámarks skilvirkni vöruhúsa.
 
 -   Þú getur að koma á háforgangs og lágforgangs geymslusvæði fyrir bestu vistun vöru.
 -   Hægt er að skipta vöruhús í svæði til móts við mismunandi geymsluþarfir , s.s. kröfur um hitastig, eða ýmsa veltuhraði fyrir vörur.
@@ -42,7 +42,7 @@ Stjórnkerfi Vöruhúss í Supply Chain Management býður upp á sveigjanlega l
 -   Hægt er að flokka staðsetningar með því að nota stillingar fyrir efnislegri afkastagetu.
 -   Hægt er að stjórna hvernig vörur eru geymdar og teknar til, byggðar á reglum sem byggjast á fyrirspurnum.
 
-Til að nota vöruhúsakerfi í Supply Chain Management, verður að stofna vöruhús og virkja það fyrir ítarlega eða sérhæfða stjórnun verkþátta í vöruhúsum. Á **Vöruhús** síðunni, veljið **Nota vöruhúsakerfisferli** valkost.
+Til að nota WMS í Supply Chain Management verður þú að búa til vöruhús og virkja það fyrir WMS. Á **Vöruhús** síðunni, veljið **Nota vöruhúsakerfisferli** valkost.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Staðaflokka, staði, staðsetningargerðum og staðsetningar
 

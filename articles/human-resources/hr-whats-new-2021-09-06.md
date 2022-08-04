@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 776498b32f8323b1a06f39b518cdc1ae534f9bcc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 03f832a6a3a099c472b781f7e2258ac575127101
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872153"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070001"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-6-2021"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources 6. september 2021
 
@@ -76,7 +76,7 @@ Fyrir ítarlegan lista yfir áætlaða eiginleika og áætlaðar útgáfur þeir
 
 | Eiginleiki | Upplýsingar |
 |---|---|
-| Verkvangsuppfærsla 10.0.21 (45) | Útgáfa verkvangsuppfærslu 10.0.21 á að fara af stað í útgáfuþjónustu 4. október 2021. Fyrir frekari upplýsingar, sjá [Palluppfærslur fyrir útgáfu 10.0.21 af Finance and Operations forritum (október 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
+| Verkvangsuppfærsla 10.0.21 (45) | Útgáfa verkvangsuppfærslu 10.0.21 á að fara af stað í útgáfuþjónustu 4. október 2021. Fyrir frekari upplýsingar, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.21 af fjármála- og rekstraröppum (október 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
 | Yfirlit yfir fríðindi | Yfirlit yfir fríðindi til að skoða núverandi fríðindaval starfsmanns. Frekari upplýsingar er að finna í [Yfirlit yfir fríðindi](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/benefits-summary-statement) í skjali útgáfutímabils. |
 
 ## <a name="see-also"></a>Sjá einnig
@@ -87,3 +87,4 @@ Fyrir ítarlegan lista yfir áætlaða eiginleika og áætlaðar útgáfur þeir
 [Vinna með eiginleika](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8143280e85a670cf9ba672734e07c3d306f63df1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8b3660e1c7a0e236456d1a16c628fd5d538f045f
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862599"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111362"
 ---
 # <a name="onboard-vendors"></a>Nýliðun lánardrottna
 
@@ -46,7 +46,7 @@ Eftirfarandi tafla sýnir skrefin og hlutverkin sem eru innifalin í ferlinu.
 | Stjórnandi            | | | Búðu til notanda í Supply Chain Management og Microsoft Azure. | | | |
 | Tengiliður lánardrottins    | | | Senda tölvupóst til tengiliðsins. | Skrá upplýsingar um lánardrottinn. | | |
 
-Til að fá snögga sýnikennslu um innleiðingarferli lánardrottins skal horfa á þetta stutta YouTube myndband um [Hvernig skal innleiða nýjan lánardrottinn í Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
+Til að fá skjóta sýningu á inngönguferli söluaðila, horfðu á þessa stuttu YouTube myndband um [Hvernig á að taka inn nýjan söluaðila í fjármálum og rekstri](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Flytja inn skráningarbeiðni væntanlegs lánardrottins
 

@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895816"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066671"
 ---
 # <a name="configure-inventory-visibility"></a>Skilgreina Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-Þessi grein lýsir því hvernig á að stilla Birgðasýnileika með því að nota Birgðasýnileika appið í Power Apps.
+Þessi grein lýsir því hvernig á að stilla Birgðasýnileika með því að nota Birgðasýnileikaforritið í Power Apps.
 
 ## <a name="introduction"></a><a name="introduction"></a>Kynning
 
@@ -41,7 +41,7 @@ ms.locfileid: "8895816"
 
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>Skilgreiningasíða forrits birgðasýnileika
 
-Í Power Apps hjápar síðan **Skilgreining** [Birgðasýnileikaforrits](inventory-visibility-power-platform.md) til við að setja upp lagerskilgreiningu og skilgreiningu mjúkrar frátekningar. Eftir að viðbótin hefur verið sett upp inniheldur sjálfgefna stillingin gildið frá Microsoft Dynamics 365 Supply Chain Management (`fno` gagnagjafinn). Hægt er að fara yfir sjálfgefnu stillingarnar. Byggt á viðskiptaþörfum þínum og þörfum birgðabókunar ytra kerfisins geturðu auk þess breytt skilgreiningunni til að staðla leiðina sem hægt er að bóka, skipuleggja og senda fyrirspurn á birgðabreytingar í hinum ýmsu kerfum. Hinir hlutar þessarar greinar útskýra hvernig á að nota hvern hluta af **Stillingar** síðu.
+Í Power Apps hjápar síðan **Skilgreining** [Birgðasýnileikaforrits](inventory-visibility-power-platform.md) til við að setja upp lagerskilgreiningu og skilgreiningu mjúkrar frátekningar. Eftir að viðbótin hefur verið sett upp inniheldur sjálfgefna stillingin gildið frá Microsoft Dynamics 365 Supply Chain Management (`fno` gagnagjafinn). Hægt er að fara yfir sjálfgefnu stillingarnar. Byggt á viðskiptaþörfum þínum og þörfum birgðabókunar ytra kerfisins geturðu auk þess breytt skilgreiningunni til að staðla leiðina sem hægt er að bóka, skipuleggja og senda fyrirspurn á birgðabreytingar í hinum ýmsu kerfum. Hlutarnir sem eftir eru í þessari grein útskýra hvernig á að nota hvern hluta af **Stillingar** síðu.
 
 Þegar skilgreiningunni er lokið skal ganga úr skugga um að velja **Uppfæra skilgreiningu** í forritinu.
 
@@ -53,9 +53,9 @@ Innbót birgðasýnileika bætir ýmsum nýjum eiginleika við Power Apps uppset
 |---|---|
 | *OnHandReservation* | Þessi eiginleiki gerir þér kleift að búa til pantanir, neyta bókana og/eða afpanta tiltekið birgðamagn með því að nota Birgðasýnileika. Frekari upplýsingar er að finna í [Frátekningar birgðasýnileika](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Þessi eiginleiki veitir birgðayfirlit fyrir vörur, ásamt öllum víddum. Gögn birgðasamantektar verða samstillt reglulega úr birgðasýnileika. Fyrir frekari upplýsingar, sjá [Birgðayfirlit](inventory-visibility-power-platform.md#inventory-summary). |
-| *OnhandChangeSchedule* | Þessi valfrjálsi eiginleiki gerir kleift að breyta áætluninni við höndina og eiginleika sem hægt er að lofa (ATP). Fyrir frekari upplýsingar, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlun og hægt að lofa](inventory-visibility-available-to-promise.md). |
-| *Úthlutun* | Þessi valfrjálsi eiginleiki gerir Birgðasýnileika kleift að hafa möguleika á birgðavörn (hringgirðingu) og yfirsölustýringu. Fyrir frekari upplýsingar, sjá [Birgðasýnileiki birgðaúthlutun](inventory-visibility-allocation.md). |
-| *Virkja vörur vöruhúss í birgðasýnileika* | Þessi valfrjálsi eiginleiki gerir birgðasýnileika kleift að styðja við vörur sem eru virkjaðar fyrir háþróaða vöruhúsaferli (WHS vörur). Fyrir frekari upplýsingar, sjá [Stuðningur við birgðasýnileika fyrir WHS hluti](inventory-visibility-whs-support.md). |
+| *OnhandChangeSchedule* | Þessi valfrjálsi eiginleiki gerir kleift að breyta áætluninni við höndina og aðgerðum sem hægt er að lofa (ATP). Fyrir frekari upplýsingar, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlun og hægt að lofa](inventory-visibility-available-to-promise.md). |
+| *Úthlutun* | Þessi valfrjálsi eiginleiki gerir birgðasýnileika kleift að hafa möguleika á birgðavörn (hringgirðingu) og yfirsölustýringu. Fyrir frekari upplýsingar, sjá [Birgðasýnileiki birgðaúthlutun](inventory-visibility-allocation.md). |
+| *Virkja vörur vöruhúss í birgðasýnileika* | Þessi valfrjálsi eiginleiki gerir Birgðasýnileika kleift að styðja við hluti sem eru virkjaðir fyrir vöruhússtjórnunarferli (WMS). Fyrir frekari upplýsingar, sjá [Stuðningur við birgðasýnileika fyrir WMS hluti](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Finna endastöð þjónustu
 
@@ -63,10 +63,10 @@ Ef þú veist ekki rétta endastöð fyrir þjónustu birgðasýnileika skaltu o
 
 ## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Skilgreining gagnagjafa
 
-Hver gagnagjafi táknar kerfi sem gögnin þín koma úr. Dæmi um heiti gagnagjafa innihalda`fno` (sem þýðir "Dynamics 365 Finance and Operations forrit") og`pos` (sem þýðir "sölustaður"). Supply Chain Management er sjálfgefið sett upp sem sjálfgefinn gagnagjafi (`fno`) í birgðasýnileika.
+Hver gagnagjafi táknar kerfi sem gögnin þín koma úr. Dæmi um nöfn gagnagjafa eru`fno` (sem þýðir "Dynamics 365 fjármála- og rekstrarforrit") og`pos` (sem þýðir "sölustaður"). Supply Chain Management er sjálfgefið sett upp sem sjálfgefinn gagnagjafi (`fno`) í birgðasýnileika.
 
 > [!NOTE]
-> The`fno` gagnauppspretta er frátekin fyrir Supply Chain Management. Ef birgðasýnileikaviðbótin þín er samþætt við Supply Chain Management umhverfi mælum við með að þú eyðir ekki stillingum sem tengjast`fno` í gagnaveitunni.
+> The`fno` gagnagjafinn er frátekinn fyrir Supply Chain Management. Ef birgðasýnileikaviðbótin þín er samþætt við Supply Chain Management umhverfi mælum við með að þú eyðir ekki stillingum sem tengjast`fno` í gagnaveitunni.
 
 Til að bæta við gagnagjafa skal fylgja þessum skrefum.
 
@@ -187,16 +187,16 @@ Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
 1. Skráðu þig inn í Power Apps umhverfið og opnaðu **Birgðasýnileika**.
 1. Opnaðu síðuna **Skilgreining**.
 1. Í flipanum **Reiknuð mæling** skal velja **Ný reiknuð mæling** til að bæta við reiknaðri mælingu.
-1. Stilltu eftirfarandi reiti fyrir nýju útreiknuðu mælinguna:
+1. Stilltu eftirfarandi reiti fyrir nýju reiknaða mælinguna:
 
     - **Nýtt útreiknað málsheiti** – Sláðu inn heiti reiknaðs mælingar.
-    - **Uppspretta gagna** – Veldu gagnagjafann sem tengist nýja breytinum. Fyrirspurnarkerfið er gagnagjafi.
+    - **Uppruni gagna** – Veldu gagnagjafann sem tengist nýja breytinum. Fyrirspurnarkerfið er gagnagjafi.
 
-1. Veldu **Bæta við** til að bæta við breytu við nýja reiknaða mælinguna.
+1. Veldu **Bæta við** til að bæta við breytingum við nýja reiknaða mælinguna.
 1. Stilltu eftirfarandi reiti fyrir nýja breytimanninn:
 
-    - **Breytir** – Veldu gerð breytibúnaðar (*Viðbót* eða *Frádráttur*).
-    - **Uppspretta gagna** – Veldu gagnagjafann þar sem mælikvarðinn sem gefur breytigildið á að finnast.
+    - **Breytir** - Veldu tegund breytinga (*Viðbót* eða *Frádráttur*).
+    - **Uppruni gagna** – Veldu gagnagjafann þar sem mælikvarðinn sem gefur breytigildið á að finnast.
     - **Mæla** – Veldu heiti mælingar (frá völdum gagnagjafa) sem gefur upp gildi fyrir breytileikann.
 
 1. Endurtaktu skref 5 til 6 þar til þú hefur bætt við öllum nauðsynlegum breytingum.
@@ -287,14 +287,14 @@ Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Skilgreining þáttunar
 
-Eins og er samanstendur skiptingin af tveimur grunnvíddum (`SiteId` og`LocationId`) sem gefa til kynna hvernig gögnunum er dreift. Aðgerðir undir sama skipting geta skilað meiri afköstum með lægri kostnaði. Eftirfarandi tafla sýnir sjálfgefna skiptingastillingu sem Inventory Visibility Add-in veitir.
+Eins og er samanstendur skiptingin af tveimur grunnvíddum (`SiteId` og`LocationId`) sem gefa til kynna hvernig gögnunum er dreift. Aðgerðir undir sama skipting geta skilað meiri afköstum með lægri kostnaði. Eftirfarandi tafla sýnir sjálfgefna skiptingarstillingu sem Inventory Visibility Add-in veitir.
 
 | Grunnvídd | Stigveldi |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 
-Lausnin inniheldur þessa skiptingastillingu sjálfgefið. Þess vegna, *þú þarft ekki að skilgreina það sjálfur*.
+Lausnin inniheldur þessa skiptingarstillingu sjálfgefið. Þess vegna, *þú þarft ekki að skilgreina það sjálfur*.
 
 > [!IMPORTANT]
 > Ekki sérsníða sjálfgefna skiptinguna. Ef þú eyðir því eða breytir því er líklegt að þú valdi óvæntri villu.
@@ -393,7 +393,7 @@ Skilgreining bókunar er nauðsynleg ef þú vilt nota eiginleika mjúkrar frát
 
 Með því að setja upp vörpun úr efnislegri mælingu í reiknaða mælingu gerir þú þjónustu birgðasýnileika kleift að sjálfkrafa staðfesta stöðu frátekningar samkvæmt efnislegu mælingunni.
 
-Áður en þú setur upp þessa kortlagningu verður að skilgreina líkamlegu mælikvarðana, reiknaða mælikvarðana og gagnagjafa þeirra á **Uppspretta gagna** og **Reiknaður mælikvarði** flipa á **Stillingar** síðu inn Power Apps (eins og lýst er fyrr í þessari grein).
+Áður en þú setur upp þessa kortlagningu verður að skilgreina efnislegar mælingar, reiknaðar mælikvarða og gagnagjafa þeirra á **Uppruni gagna** og **Reiknaður mælikvarði** flipa á **Stillingar** síðu inn Power Apps (eins og lýst er fyrr í þessari grein).
 
 Til að skilgreina vörpun mjúkrar frátekningar skal fylgja þessum skrefum.
 
@@ -809,3 +809,4 @@ Eftirfarandi tafla sýnir sjálfgefið frátekningarstigveldi.
 | `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

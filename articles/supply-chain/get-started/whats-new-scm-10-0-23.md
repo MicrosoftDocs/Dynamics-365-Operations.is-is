@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: acffe97cf1844f16a70c716a7f2078b1e9a072d1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: ded645ebaea1230b68525c247ee91e3893211774
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849475"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124529"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.23 (janúar 2022)
 
@@ -29,7 +29,7 @@ ms.locfileid: "8849475"
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Í eftirfarandi töflu er listi yfir eiginleikana sem eru í þessari útgáfu. Í dálknum *Eiginleikar* eru tenglar í [útgáfuáætlunina](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) þar sem hægt er að skoða opinberar útgáfudagsetningar hvers eiginleika. Í dálknum *Frekari upplýsingar* eru frekari upplýsingar og/eða tenglar á tengd fylgiskjöl. Til að ákvarða hvernig eigi að virkja eiginleikann, sjá dálkinn *Virkjað af*. Nánari upplýsingar um notkun stjórnunar eiginleika er að finna í [Eiginleikastjórnunaryfirlit](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Við gætum uppfært þessa grein til að innihalda eiginleika sem komust inn í bygginguna eftir að þessi grein var upphaflega birt.
+Í eftirfarandi töflu er listi yfir eiginleikana sem eru í þessari útgáfu. Í dálknum *Eiginleikar* eru tenglar í [útgáfuáætlunina](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) þar sem hægt er að skoða opinberar útgáfudagsetningar hvers eiginleika. Í dálknum *Frekari upplýsingar* eru frekari upplýsingar og/eða tenglar á tengd fylgiskjöl. Til að ákvarða hvernig eigi að virkja eiginleikann, sjá dálkinn *Virkjað af*. Nánari upplýsingar um notkun stjórnunar eiginleika er að finna í [Eiginleikastjórnunaryfirlit](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Við gætum uppfært þessa grein til að innihalda eiginleika sem komu inn í bygginguna eftir að þessi grein var upphaflega birt.
 
 | Eiginleikasvæði | Eiginleiki | Meiri upplýsingar | Virkjað af   |
 |---|---|---|---|
@@ -38,7 +38,7 @@ ms.locfileid: "8849475"
 | Birgða-&nbsp;og&nbsp;vörustjórnun | [Stighækkaðir reitir vöruhúsaforrits](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-app-step-instructions) | [Skilgreina stighækkaða reiti fyrir skref í fartækinu](../warehousing/warehouse-app-promoted-fields.md)| Eiginleikastjórnun (*Stighækkaðir reitir vöruhúsaforrits*) |
 | Framleiðsla | [Samþætting framkvæmdarkerfa í framleiðslu](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-systems-integration) | [Samþætta við kerfi þriðju aðila fyrir framkvæmd framleiðslu](../production-control/mes-integration.md) | Eiginleikastjórnun (*Samþætting framleiðslukerfis*) |
 | Framleiðsla | [Skýrsla um aukaafurðir og hliðarafurðir úr keyrsluviðmóti framleiðslugólfs](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-process-manufacturing) | [Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi](../production-control/production-floor-execution-use.md) | Eiginleikastjórnun (*Skýrsla um aukaafurðir og hliðarafurðir úr keyrsluviðmóti framleiðslugólfs*) |
-| Áætlun | [Stuðningur við skipulagningu hagræðingar fyrir forgangsmiðaða áætlanagerð](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-priority-based-planning) | [Forgangsröðuð áætlun](../master-planning/planning-optimization/priority-based-planning.md) | Eiginleikastjórnun (*Forgangsdrifinn MRP stuðningur fyrir hagræðingu áætlanagerðar*) |
+| Áætlun | [Stuðningur við hagræðingu áætlanagerðar fyrir forgangsmiðaða áætlanagerð](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-priority-based-planning) | [Forgangsröðuð áætlun](../master-planning/planning-optimization/priority-based-planning.md) | Eiginleikastjórnun (*Forgangsdrifinn MRP stuðningur fyrir hagræðingu áætlanagerðar*) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Eiginleikaviðbætur í þessari útgáfu
 
@@ -74,16 +74,16 @@ Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargre
 | Áætlanagerð | [Framboðsáætlun](../master-planning/supply-schedule.md) |
 | Vöruhúsakerfi | [Altækar færibreytur fartækja](../warehousing/mobile-device-parameters.md) |
 | Vöruhúsakerfi | [Festing](../warehousing/anchoring.md) |
-| Sala og markaðsstarf | Viðskiptum milli fyrirtækja er nú lýst í smáatriðum og byrjað á [Settu upp viðskipti milli fyrirtækja](../sales-marketing/intercompany-trade-set-up.md) og það eru tengdar greinar. |
+| Sala og markaðsstarf | Viðskiptum milli fyrirtækja er nú lýst í smáatriðum og byrjar á [Settu upp viðskipti milli fyrirtækja](../sales-marketing/intercompany-trade-set-up.md) og það eru tengdar greinar. |
 | Sala og markaðsstarf | [Endurbætur á afköstum hreinsunar á söluferli](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
 | Birgðir | Birgðasýnileikaskjöl hafa verið stækkuð og uppfærð, frá og með [Yfirlit yfir birgðasýnileika viðbót](../inventory/inventory-visibility.md) og það eru tengdar greinar. |
 | Vöruhúsakerfi | [Notandareikningar fartækis](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir Finance and Operations öpp
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir fjármála- og rekstraröpp
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.23 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Palluppfærslur fyrir útgáfu 10.0.23 af Finance and Operations forritum (nóvember 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.23 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.23 af fjármála- og rekstraröppum (nóvember 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 
@@ -107,3 +107,4 @@ The [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Managem
 Til að brjóta breytingar sem hafa aðeins áhrif á samantektartíma, en eru tvöfaldar samhæfðir við sandkassa og framleiðsluumhverfi, verður afskriftartíminn innan við 12 mánuði. Venjulega eru þetta hagnýtar uppfærslur sem þarf að gera við þýðandann.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5dbf8ab2ea875e902709215e249871474b17230f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c4c2a0954c8554da0b4c859d837ab6ca4839b36
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883510"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111929"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>Rafræn skýrslugerð Uppfærðu snið með því að taka upp nýja grunnútgáfu sniðs
 

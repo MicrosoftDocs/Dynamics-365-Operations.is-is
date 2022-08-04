@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 8e1444aa311bb2dc74705a3791e58c3187ecd8ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19a1fd53f19575a16ee8d8b7391c30f0cacf26a8
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876716"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111457"
 ---
 # <a name="note-integration"></a>Samþætting athugasemdar
 
@@ -30,7 +30,7 @@ Hægt er að flokka upplýsingar um viðskiptavin á eftirfarandi hátt:
 + **Aðgerðartengdar upplýsingar fyrir notanda Dynamics 365** – Til dæmis færir viðskiptavinur sem er að kaupa Surface-tölvu inn sérstakar upplýsingar sem gefa til kynna að pakka eigi tækinu inn í gjafapappír fyrir afhendingu. Þessar leiðbeiningar eru aðgerðartengdar upplýsingar sem starfsmaður Contoso, sem er ábyrgur fyrir pökkun, á að sjá um.
 + **Upplýsingar sem tengjast ekki aðgerð** – Til dæmis heimsækir viðskiptavinur verslun Contoso og í samtali við starfsmann verslunarinnar segist hann hafa áhuga á *Halo-leikjum* og aukabúnaði tölvuleikja. Starfsmaður verslunarinnar skrifar athugasemd varðandi þessar upplýsingar. Tillöguvél afurða notar hana þá til að senda viðskiptavini tillögur.
 
-Almennt séð eru viðeigandi upplýsingar teknar sem *starfsemi* í fjármála- og rekstraröppum og öppum fyrir þátttöku viðskiptavina. Upplýsingar sem ekki eru aðgerðarhæfar eru teknar sem *athugasemdum* í Finance and Operations öppum og eins *athugasemdir* í öppum fyrir þátttöku viðskiptavina.
+Almennt séð eru viðeigandi upplýsingar teknar sem *starfsemi* í fjármála- og rekstraröppum og öppum fyrir þátttöku viðskiptavina. Upplýsingar sem ekki eru aðgerðarhæfar eru teknar sem *athugasemdum* í fjármála- og rekstraröppum, og eins *athugasemdir* í öppum fyrir þátttöku viðskiptavina.
 
 > [!TIP]
 > Þótt athugasemdir séu ætlaðar fyrir upplýsingar sem tengjast ekki aðgerð munu forritin ekki koma í veg fyrir að þær séu notaðar til að geyma og meðhöndla aðgerðartengdar upplýsingar ef ætlunin er að nota þær í þeim tilgangi.
@@ -39,7 +39,7 @@ Microsoft er að gefa út virkni fyrir samþættingu athugasemda. (Virkni fyrir 
 
 ## <a name="create-a-note-in-a-customer-engagement-app"></a>Búa til athugasemd í forriti viðskiptavinar
 
-Fylgdu þessum skrefum til að búa til minnismiða í þátttökuforriti viðskiptavina og samstilla hana síðan við Finance and Operations app.
+Fylgdu þessum skrefum til að búa til minnismiða í þátttökuforriti viðskiptavina og samstilla hana síðan við fjármála- og rekstrarapp.
 
 1. Í forriti viðskiptavinar skal opna reikningsfærslu viðskiptavinar.
 2. Á svæðinu **Tímalína** skal velja plúsmerkið (**+**) og síðan velja **Athugasemd** til að búa til athugasemd.
@@ -54,7 +54,7 @@ Fylgdu þessum skrefum til að búa til minnismiða í þátttökuforriti viðsk
 
     ![Ný athugasemd á tímalínu viðskiptavinar.](media/notes-ce-3.png)
 
-4. Skráðu þig inn á Finance and Operations appið og opnaðu sömu viðskiptavinaskrá. Takið eftir að hnappurinn **Viðhengi** (bréfaklemmutákn) efst í hægra horninu gefur til kynna að færslan sé með viðhengi.
+4. Skráðu þig inn í fjármála- og rekstrarappið og opnaðu sömu viðskiptavinaskrá. Takið eftir að hnappurinn **Viðhengi** (bréfaklemmutákn) efst í hægra horninu gefur til kynna að færslan sé með viðhengi.
 
     ![Tilkynning um viðhengi.](media/notes-ce-4.png)
 
@@ -62,17 +62,17 @@ Fylgdu þessum skrefum til að búa til minnismiða í þátttökuforriti viðsk
 
     ![Athugasemd úr forriti viðskiptavinar.](media/notes-ce-5.png)
 
-Allar uppfærslur á minnismiðanum eru samstilltar fram og til baka á milli Finance and Operations appsins og viðskiptavinaþátttökuforritsins.
+Allar uppfærslur á seðlinum eru samstilltar fram og til baka á milli fjármála- og rekstrarappsins og viðskiptavinaforritsins.
 
-## <a name="create-a-note-in-a-finance-and-operations-app"></a>Búðu til minnismiða í Finance and Operations app
+## <a name="create-a-note-in-a-finance-and-operations-app"></a>Búðu til minnismiða í fjármála- og rekstrarappi
 
-Þú getur líka búið til minnismiða í Finance and Operations app, og það verður samstillt við viðskiptavina þátttöku app.
+Þú getur líka búið til minnismiða í fjármála- og rekstrarforriti og hún verður samstillt við þátttökuforrit viðskiptavina.
 
-Fylgdu þessum skrefum til að búa til athugasemd í Finance and Operations appi og samstilla hana síðan við viðskiptavinaforrit.
+Fylgdu þessum skrefum til að búa til minnismiða í fjármála- og rekstrarforriti og samstilla hana síðan við þátttökuforrit viðskiptavina.
 
-1. Í Finance and Operations appinu, á **Viðhengi** síðu, veldu **Nýtt** \> **Athugið**.
+1. Í fjármála- og rekstrarappinu, á **Viðhengi** síðu, veldu **Nýtt** \> **Athugið**.
 
-    ![Að búa til minnismiða í Finance and Operations appinu.](media/notes-fo-1.png)
+    ![Búa til minnismiða í fjármála- og rekstrarappinu.](media/notes-fo-1.png)
 
 2. Færið inn titil og leiðbeiningar í stuttu máli og veljið síðan **Vista**.
 
@@ -84,17 +84,17 @@ Fylgdu þessum skrefum til að búa til athugasemd í Finance and Operations app
 
 Hægt er að flokka athugasemd sem annaðhvort innri eða ytri.
 
-- Í Finance and Operations appinu, á **Viðhengi** síðu, opnaðu athugasemdina og síðan í **Takmarkanir** reit, veldu **Innri** eða **Ytri**.
+- Í fjármála- og rekstrarappinu, á **Viðhengi** síðu, opnaðu athugasemdina og síðan í **Takmarkanir** reit, veldu **Innri** eða **Ytri**.
 
     ![Takmörkunarreitur.](media/notes-fo-4.png)
 
 Einnig er hægt að búa til vefslóð.
 
-1. Í Finance and Operations appinu, á **Viðhengi** síðu, veldu **Nýtt** \> **URL**.
+1. Í fjármála- og rekstrarappinu, á **Viðhengi** síðu, veldu **Nýtt** \> **URL**.
 2. Færið inn titil og vefslóð.
 3. Í reitnum **Takmörkun** skal velja **Innri** eða **Ytri**.
 
-    ![Að búa til vefslóð í Finance and Operations appinu.](media/notes-fo-5.png)
+    ![Að búa til vefslóð í fjármála- og rekstrarappinu.](media/notes-fo-5.png)
 
 4. Veldu **Vista**.
 
@@ -121,3 +121,4 @@ Samþætting athugasemdar inniheldur safn af töfluvörpunum sem vinnur saman í
 Þegar athugasemdalausnin hefur verið uppsett er ekki hægt að fjarlægja hana. 
 
 Frekari upplýsingar er að finna í [Tilvísun vörpunar á tvöfaldri skráningu](mapping-reference.md).
+

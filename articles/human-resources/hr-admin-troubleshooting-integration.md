@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f57e995dfcc04de8384d15f238c45290b3c3cbd
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879280"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067617"
 ---
 # <a name="integration-with-finance-faq"></a>Algengar spurningar um samþættingu við Finance
 
@@ -88,7 +88,7 @@ Ekki er krafist sérstakrar uppsetningar fyrir meðhöndlun frávika. Data Integ
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Get ég sett upp samþættingu í báðar áttir?
 
-Nei, samþætting er eins og er í einstefnu (mannauðs til fjármála og rekstrar). Hins vegar er sjálfgefið sniðmát í boði til að senda gögn frá Human Resources til Finance.
+Nei, samþætting er í augnablikinu einhliða (mannauðs til fjármögnunar og rekstrar). Hins vegar er sjálfgefið sniðmát í boði til að senda gögn frá Human Resources til Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Get ég leyft skráareyðingu sem hluta af samþættingu minni?
 
@@ -118,7 +118,7 @@ Já, hægt er að bæta við eða fjarlægja svæði úr núverandi sniðmáti. 
 
 - Gagnaflutningurinn leiddi til tvítekningar á gögnum sem voru dregin út úr upprunanum (Dataverse).
 
-- Gagnaflutningurinn hefur núll gildi fyrir svæði sem krafist er í Finance and Operations. Staðfestu að gögnin sem eru í Dataverse uppfylli kröfur Finance and Operations.
+- Gagnaflutningurinn hefur núllgildi fyrir reiti sem eru nauðsynlegar í fjármálum og rekstri. Staðfestu að gögnin sem eru í Dataverse uppfylli kröfur Finance and Operations.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Ef framkvæmdavillur koma upp og auðkenni starfsmanns samstilltist ekki, hvernig finn ég þá vinnsluferilinn sem inniheldur starfsmannafærsluna?
 
@@ -150,13 +150,13 @@ Ef einingin er studd og gögnin eru tiltæk í Dataverse skaltu staðfesta að v
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Heimilisföngin fyrir starfsmennina mína eru rangar eftir að ég flyt þær inn í Finance. Hvað ætti ég að gera?
 
-Númeraröðin fyrir **Staðsetningarkenni** notar sama mynstur í bæði Human Resources og Finance. Númeraröðin þarf að vera einkvæm á báðum hliðum, svo að það verði engir árekstrar á heimilisföngum við samþættingu gagna frá Dataverse til Finance and Operations.
+Númeraröðin fyrir **Staðsetningarkenni** notar sama mynstur í bæði Human Resources og Finance. Númeraröðin þarf að vera einstök á báða bóga svo það verða engir vistfangsárekstrar þegar gögn eru samþætt Dataverse til fjármögnunar og rekstrar.
 
 Við innleiðingu á Human Resources skal staðfesta að númeraraðirnar séu ekki þær sömu í Human Resources og Finance. Staðfestið að allar númeraraðir séu ekki eins þar sem gögn kunna að vera í báðum kerfum.
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Þegar ég er bý til tengistillinguna mína, get ég ekki séð tenginguna í fellilista tengingarinnar. Hvað geri ég?
 
-Gakktu úr skugga um að þegar þú býrð til tengingar þínar velurðu Dynamics 365 Finance og Dataverse.
+Gakktu úr skugga um að þegar þú stofnar tengingar þínar velurðu Dynamics 365 Finance og Dataverse.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Við samstillingu starfsmanna fæ ég villurnar „CompanyInfo_FL er ekki til“ eða „Gildið '12/31/2154 11:59:59 pm‘ í reitnum „Lokadagur starfsmanns finnst ekki í tengdri töflu „Starfsmaður“.“ Hvað ætti ég að gera?
 
@@ -184,3 +184,4 @@ Uppfæra gagnaeiningarnar í Finance með því að fara í **Gagnastjórnun \> 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

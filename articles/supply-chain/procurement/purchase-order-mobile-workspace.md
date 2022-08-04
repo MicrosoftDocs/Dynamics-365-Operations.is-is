@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 224d3ce5c9163e95de817a3446a57f07c85df757
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b5336549937edca6beb94137896f84b460f257f7
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863854"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111331"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Fartækjavinnusvæði fyrir samþykkt innkaupapöntunar
 
@@ -71,7 +71,7 @@ Ef Microsoft Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
-Sæktu og settu upp fyrir Finance and Operations farsímaforritið:
+Sæktu og settu upp fjármála- og rekstrarfarsappið:
 
 - [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -114,3 +114,4 @@ Sæktu og settu upp fyrir Finance and Operations farsímaforritið:
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

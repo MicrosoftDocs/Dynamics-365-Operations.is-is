@@ -1,6 +1,6 @@
 ---
 title: Sveigjanleg frátektarregla á vídd vöruhúsastigs
-description: Þessi grein lýsir birgðapöntunarstefnunni sem gerir fyrirtækjum sem selja runurekstar vörur og reka flutninga sína sem WMS-virkar aðgerðir að panta sérstakar runur fyrir sölupantanir viðskiptavina, jafnvel þó að pöntunarstigveldið sem er tengt við vörurnar leyfi frátekningu á tilteknum runum.
+description: Þessi grein lýsir birgðapöntunarstefnunni sem gerir fyrirtækjum sem selja runurekstar vörur og reka flutninga sína sem WMS-virkar aðgerðir að panta tilteknar runur fyrir sölupantanir viðskiptavina, jafnvel þó að pöntunarstigveldið sem er tengt við vörurnar leyfi frátekningu á tilteknum runum.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fb42d4ccd2d8797a34f6351caf7dedbc1e957fd5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d515fb46dcc2d135412d140b98f0578cae89c409
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885813"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065899"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Sveigjanleg frátektarregla á vídd vöruhúsastigs
 
 [!include [banner](../includes/banner.md)]
 
-Þegar frátekningarstigveldi birgða af gerðinni *Runa fyrir neðan\[staðsetningu\]* tengist afurðum, geta fyrirtæki, sem selja runuraktar afurðir og keyra vörustjórnun sína sem aðgerðir sem eru virkjaðar fyrir Microsoft Dynamics 365 vöruhúsakerfið, ekki tekið frá tilteknar runur þeirra afurða fyrir sölupantanir viðskiptavina.
+Þegar birgðapöntun stigveldi af *Hópur fyrir neðan\[ staðsetningu\]* tegund er tengd vörum, fyrirtækjum sem selja framleiðslulotur og reka flutninga sína þar sem aðgerðir sem eru virkjaðar fyrir vöruhúsastjórnunarferla (WMS) geta ekki frátekið sérstakar lotur af þessum vörum fyrir sölupantanir viðskiptavina.
 
 Á svipaðan hátt er ekki hægt að taka frá sérstakar númeraplötur fyrir afurðir í sölupöntunum þegar þessar afurðir eru tengdar við sjálfgefið frátekningarstigveldi.
 

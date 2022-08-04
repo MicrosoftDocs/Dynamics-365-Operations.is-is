@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9f1f660b7993804901f5fc9d3b608c141882bff5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f1daf630d3a9354012db9b5b487d8a5ed11e0ed
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901090"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066701"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources 21. janúar 2021
 
@@ -42,7 +42,7 @@ Eftirfarandi eiginleikar eru almennt aðgengilegur með þessari útgáfu.
 
 | Eiginleiki | Útgáfuáætlun | Fylgiskjöl |
 | --- | --- | --- |
-| Verkvangsuppfærsla 10.0.16(40) | -- | [Palluppfærslur fyrir útgáfu 10.0.16 af Finance and Operations forritum (febrúar 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
+| Verkvangsuppfærsla 10.0.16(40) | -- | [Palluppfærslur fyrir útgáfu 10.0.16 af fjármála- og rekstraröppum (febrúar 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
 | Bættar verkflæðisbeiðnir og samþykktir | [Endurbætur á viðmóti fyrir verkflæði fyrirtækis- og starfsmannastjórnunar](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Skilgreiningarvalkostur fyrir stöðu vinnuliða sem úthlutað er á mig](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 | Uppfærslur á reglufylgni Affordable Care Act fyrir eyðublað 1095-C, eyðublað 1095-B og rafræna skýrslugerð í eldri fríðindum | -- | -- | 
 | Fríðindastjórnun styður nú skýrslugerð ACA-reglufylgni fyrir lögaðila í Bandaríkjunum | -- | [Mynda ACA-skýrslur í Fríðindastjórnun](hr-benefits-management-aca-reports.md) |

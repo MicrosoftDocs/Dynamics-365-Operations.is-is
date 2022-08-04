@@ -1,5 +1,5 @@
 ---
-title: Forskoðun Dynamics 365 Supply Chain Management 10.0.28 (ágúst 2022)
+title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.28 (ágúst 2022)
 description: Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management 10.0.28.
 author: kamaybac
 ms.date: 05/27/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 2b129481399897337e960ec2d708d69a563b5435
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e17127ff6ef6c52034b8aa5e0c8404772363ca9
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902054"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186520"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10028-august-2022"></a>Forskoðun Dynamics 365 Supply Chain Management 10.0.28 (ágúst 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.28 (ágúst 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Þessi grein sýnir eiginleika sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management forskoðunarútgáfa 10.0.28. Þessi útgáfa hefur byggingarnúmer 10.0.1264 og er fáanleg samkvæmt eftirfarandi áætlun:
+Þessi grein sýnir eiginleika sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfa 10.0.28. Þessi útgáfa hefur byggingarnúmer 10.0.1264 og er fáanleg samkvæmt eftirfarandi áætlun:
 
 - **Forskoðun á útgáfu:** maí 2022
 - **Almennt framboð útgáfu (sjálfvirk uppfærsla):** Júlí 2022
@@ -35,7 +34,7 @@ ms.locfileid: "8902054"
 | Eiginleikasvæði | Eiginleiki | Meiri upplýsingar | Virkjað af   |
 |---|---|---|---|
 | Birgða- og vörustjórnun | [Landað kostnaðarsamþættingareiningar fyrir flutningsmiðlara þriðja aðila](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Yfirlitseiningar heildarkostnaðar](../landed-cost/landed-cost-entities-overview.md) | Sjálfgefið virkt |
-| Áætlun | [Eftirspurnardrifin efnisþörf áætlanagerð (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | Væntanlegt | Eiginleikastjórnun:<br>*(Forútgáfa) DDMRP fyrir fínstillingu áætlanagerðar* |
+| Áætlun | [Eftirspurnardrifin efnisþörf áætlanagerð (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Eftirspurnardrifin efnisþörf Skipulagsyfirlit](../master-planning/planning-optimization/ddmrp-overview.md) | Eiginleikastjórnun:<br>*(Forútgáfa) DDMRP fyrir fínstillingu áætlanagerðar* |
 | Áætlun | [Stuðningur við skipulagningu hagræðingar fyrir lofað geta (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | Væntanlegt | Eiginleikastjórnun:<br>*(Forútgáfa) CTP-afhendingargeta fyrir fínstillingu áætlanagerðar* |
 | Áætlun | [Stuðningur við skipulagningu hagræðingar fyrir geymsluþol](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Væntanlegt | Sjálfgefið virkt |
 
@@ -47,8 +46,8 @@ Ef þú vilt kveikja eða slökkva á einhverjum af þessum eiginleikum verður 
 
 | Eining | Eiginleikaheiti í eiginleikastjórnun | Meiri upplýsingar |
 |---|---|---|
-| Birgða- og vöruhúsakerfi | Virkja lagerbirgðir innan samstæðu til að sýna aðeins lagerbirgðir með annað en núll í magni | Þessi eiginleiki gerir þér kleift að velja hvort vörur með núll birgðamagn eigi að vera með í birgðalistanum milli fyrirtækja. Þú getur stjórnað þessum valkosti með því að nota **Ekki sýna vörur með núll birgðamagni á millifyrirtækjalistanum** stilling, sem þessi eiginleiki bætir við **Birgða- og vöruhúsastjórnunarfæribreytur** síðu. |
-| Birgða- og vöruhúsakerfi | (Indland) Fyrir reglur um flutningsverð skal hunsa staðsetningu þegar „Frá vöruhúsakóði“ er stilltur á „Allt“ | <p>Þessi eiginleiki á aðeins við um staðsetningar á Indlandi. Það gerir ferlið við að setja upp flutningsverð fyrir vörur í birgðaflutningum leiðandi.</p><p>Þú setur upp millifærsluverð með því að stilla hverja vöru með milliverðsreglum. Ein leið til að gera þessa stillingu er að innihalda reglulínu þar sem **Frá vöruhúsakóða** reiturinn er stilltur á *Allt*. Þessi stilling gefur til kynna að flutningsverðið sem er skilgreint af línunni ætti að gilda óháð vöruhúsi sem varan er tekin úr. Þegar þessi eiginleiki er virkur, gilda millifærsluverðsreglur þar sem **Frá vöruhúsakóða** reiturinn er stilltur á *Allt* mun hunsa **Staðsetning** stilling. Þess vegna mun reglan gilda óháð staðsetningu sem tilgreind er á millifærslupöntuninni. Þessi hegðun er líklega það sem búist er við, vegna þess að staðsetning er fyrir neðan vöruhús í stigveldi geymsluvíddar.</p><p>Án þessa eiginleika mun kerfið aðeins nota reglur af þessari gerð þegar staðsetningin á flutningspöntuninni samsvarar nákvæmlega staðsetningunni sem er stillt fyrir regluna. (Ef auð staðsetning er stillt fyrir regluna mun kerfið nota regluna aðeins til að flytja pantanir sem hafa einnig autt gildi fyrir staðsetninguna.)</p> |
+| Birgða- og vöruhúsakerfi | Virkja lagerbirgðir innan samstæðu til að sýna aðeins lagerbirgðir með annað en núll í magni | Þessi eiginleiki gerir þér kleift að velja hvort vörur með núll birgðamagn eigi að vera með á millifyrirtækjalistanum. Þú getur stjórnað þessum valkosti með því að nota **Ekki sýna vörur með núll birgðamagni á millifyrirtækjalistanum** stilling, sem þessi eiginleiki bætir við **Birgða- og vöruhúsastjórnunarfæribreytur** síðu. |
+| Birgða- og vöruhúsakerfi | (Indland) Fyrir reglur um flutningsverð skal hunsa staðsetningu þegar „Frá vöruhúsakóði“ er stilltur á „Allt“ | <p>Þessi eiginleiki á aðeins við um staðsetningar á Indlandi. Það gerir ferlið við að setja upp flutningsverð fyrir vörur í birgðaflutningum leiðandi.</p><p>Þú setur upp millifærsluverð með því að stilla hverja vöru með milliverðsreglum. Ein leið til að gera þessa stillingu er að innihalda reglulínu þar sem **Frá vörugeymslukóða** reiturinn er stilltur á *Allt*. Þessi stilling gefur til kynna að flutningsverðið sem er skilgreint af línunni ætti að gilda óháð vöruhúsi sem varan er tekin úr. Þegar þessi eiginleiki er virkur, gilda millifærsluverðsreglur þar sem **Frá vörugeymslukóða** reiturinn er stilltur á *Allt* mun hunsa **Staðsetning** stilling. Þess vegna mun reglan gilda óháð staðsetningu sem tilgreind er á millifærslupöntuninni. Þessi hegðun er líklega það sem búist er við, vegna þess að staðsetning er fyrir neðan vöruhús í stigveldi geymsluvíddar.</p><p>Án þessa eiginleika mun kerfið aðeins nota reglur af þessu tagi þegar staðsetningin á millifærslupöntuninni samsvarar nákvæmlega staðsetningunni sem er stillt fyrir regluna. (Ef auð staðsetning er stillt fyrir regluna mun kerfið nota regluna aðeins til að flytja pantanir sem hafa einnig autt gildi fyrir staðsetninguna.)</p> |
 | Birgða- og vöruhúsakerfi | Gagnahreinsun lagerbirgðaskýrslu | Þessi eiginleiki veitir leið til að hreinsa upp gögnin sem eru notuð til að búa til *Geymsla birgðaskýrslu á hendi* skýrslur. |
 | Framleiðslustýring | Úthluta verkþáttum fyrir þjónustusamning og þjónustupöntunarlínur | Þessi eiginleiki bætir við reit sem er nefndur **Verkefnavirkni** til þjónustusamnings og þjónustupöntunarlína, þannig að hægt sé að stilla verkvirkni fyrir þær. Eiginleikinn mun hjálpa til við að koma í veg fyrir blokkunarvillur þegar þú bókar þjónustustjórnunarverkefnabækur sem krefjast þess að verkvirkni sé stillt.  |
 | Vöruhúsakerfi | Handvirk tiltektarþjónusta flutningslínu fyrir stjórnanda eða aðra trausta notendur | Þessi eiginleiki gerir stjórnendum kleift að velja birgðafærslur handvirkt sem tengjast flutningslínum. Þessar línur innihalda línur sem þegar hafa verið losaðar í vöruhúsið. Stjórnendur ættu aðeins að velja í undantekningartilvikum, svo sem þegar kerfið er í skemmdu ástandi. |
@@ -61,14 +60,14 @@ Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargre
 |---|---|
 | Kostnaðarstýring | [Fast kostnaðarverð](../cost-management/fixed-receipt-price.md) |
 | Kostnaðarstýring | [Algengar spurningar um birgðakostnað](../cost-management/inventory-costing-faq.md) |
-| Kostnaðarstýring | [Bóka til gjaldfærslu reikningsreikningsreglu](../cost-management/post-to-charge-account-accounting-principle.md) |
-| Birgðir | [Upplýsingar um birgðafærslur](../inventory/inventory-transactions-details.md) |
+| Kostnaðarstýring | [Reikningsskilaregla bóka á gjaldalykil](../cost-management/post-to-charge-account-accounting-principle.md) |
+| Birgðir | [Birgðafærsluupplýsingar](../inventory/inventory-transactions-details.md) |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir Finance and Operations öpp
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir fjármála- og rekstraröpp
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.28 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Palluppfærslur fyrir útgáfu 10.0.28 af Finance and Operations forritum (júní 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.28 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.28 af fjármála- og rekstrarforritum (júní 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 
@@ -92,3 +91,4 @@ The [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Managem
 Til að brjóta breytingar sem hafa aðeins áhrif á samantektartíma, en eru tvöfaldar samhæfðir við sandkassa og framleiðsluumhverfi, verður afskriftartíminn innan við 12 mánuði. Venjulega eru þetta hagnýtar uppfærslur sem þarf að gera við þýðandann.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

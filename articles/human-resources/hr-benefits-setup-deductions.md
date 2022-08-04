@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b4817cd6370166b6dfdf17b3d733b13374db8f49
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2fb5f5b0b50f407f58193aafd79f28dd1fd432ee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694908"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066793"
 ---
 # <a name="configure-deductions"></a>Grunnstilla frádrætti
 
@@ -45,7 +45,7 @@ Notaðu frádrátt í Microsoft Dynamics 365 Human Resources til að ákvarða h
    | **Fyrirsögn** | Fyrirsagnarkóði frá launakerfi sem þessi frádráttur mun nota fyrir starfsmannahluta frádráttarins við vinnslu bóta á launaskrá. Þetta er notað þegar þú notar þriðja aðila launaskrá. |
    | **Tilvísun starfsmanns í launafrádrátt** | Kóðinn úr launakerfinu sem frádrátturinn notar fyrir hluta starfsmannsins eða atvinnuveitandans af frádrættinum þegar fríðindi eru reiknuð út miðað við laun. |
    | **Fyrirsögn upphæðar** | Fyrirsagnarkóði frá launakerfi sem þessi frádráttarupphæð mun nota fyrir starfsmannahluta frádráttarins við vinnslu bóta á launaskrá. Þetta er venjulega notað þegar þú notar þriðja aðila launaskrá. |
-   | **Má eyða** | Tilgreinir hvort flutt gildi frá Dynamics 365 for Finance and Operations getur valdið því að gildinu er eytt í launakerfinu. |
+   | **Má eyða** | Tilgreinir hvort útflutt gildi úr Dynamics 365 Finance geti valdið því að gildinu sé eytt í launakerfinu. |
    | **Paraðir dálkar** | Tilgreinir hvort flytja eigi fyrirsögn og frádráttarupphæð í pöruðum aðliggjandi dálkum til launakerfisins. |
    | **Breyta gildisdegi** | Dagsetningin þegar frádráttarbreyting fríðinda verður virk. Á þessari dagsetningu breytist frádráttur fríðinda og allar fríðindaáætlanir sem tengjast þessum frádrætti eru uppfærðar svo lengi sem úrvinnslan **Uppfærsla frádráttarbreytingar** er keyrð. |
    | **Lokið er við að gera breytingar á frádrætti** | Gátreiturinn **Frádráttarbreytingum lokið** verður sjálfkrafa valinn þegar breytingum á frádrætti bótagreiðslna hefur verið lokið með frávinnslu breytinga á frádrátti. |
@@ -56,3 +56,4 @@ Notaðu frádrátt í Microsoft Dynamics 365 Human Resources til að ákvarða h
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

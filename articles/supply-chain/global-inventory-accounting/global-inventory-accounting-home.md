@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 27470f302b91fa3fa22f47438fa0f936beb7e7d0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e7f919b28f6d0c8cd830ecfab4608be50b684c8e
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846185"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135458"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Altækt birgðabókhald – heimasíða
 
 [!INCLUDE [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 Alþjóðleg fyrirtæki eru undir auknum þrýstingi frá yfirvöldum um að fylgja staðbundnum og alþjóðlegum reikningsskilastöðlum. Verðmat birgða skiptir verulegu máli til að tryggja reglufylgni. Innbót altæks birgðabókhalds fyrir Microsoft Dynamics 365 Supply Chain Management býður upp á víðtæka lausn gerir fyrirtækjum (sérstaklega alþjóðlegum fyrirtækjum) kleift að nota fjárhagsbækur kostnaðar til að sinna birgðabókhaldi. Þess vegna geta þessar stofnanir fylgt eftir mörgum reikningsskilastöðlum og innri stjórnun bókhalds á sama tíma.
 

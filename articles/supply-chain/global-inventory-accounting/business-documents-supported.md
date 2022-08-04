@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: dc88d095c039b22ac347db949f6b61d5a89dc4b1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0dee558de2defa7baae4bc4097c750e974c12a14
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875424"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135690"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>Viðskiptaskjöl studd af altæku birgðabókhaldi
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 Eftir að innbót altæks birgðabókhalds er sett upp að fullu er það tilbúið til að vinna úr birgðatengdum skjölum sem eru færð inn í Microsoft Dynamics 365 Supply Chain Management.
 

@@ -1,6 +1,6 @@
 ---
-title: Skrá vörur fyrir vöru með ítarlegt vöruhúsakerfi virkt með því að nota komubók
-description: Þessi grein sýnir atburðarás sem sýnir hvernig á að skrá vörur með því að nota komufærslubók vöru þegar verið er að nota háþróaða vöruhúsastjórnunarferli.
+title: Skrá vörur sem eru virkjaðar fyrir vöruhúsastjórnunarferli með því að nota komufærslubók vöru
+description: Þessi grein sýnir atburðarás sem sýnir hvernig á að skrá vörur með því að nota komufærslubók vöru þegar verið er að nota vöruhúsastjórnunarferli (WMS).
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,29 +14,29 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 5241c982675d6b9a9bc9596b8ac9ed2798903287
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863622"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066968"
 ---
-# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Skrá vörur fyrir vöru með ítarlegt vöruhúsakerfi virkt með því að nota komubók
+# <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Skrá vörur sem eru virkjaðar fyrir vöruhúsastjórnunarferli með því að nota komufærslubók vöru
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein sýnir atburðarás sem sýnir hvernig á að skrá vörur með því að nota komufærslubók vöru þegar verið er að nota háþróaða vöruhúsastjórnunarferli. Þetta væri yfirleitt gert með af móttöku starfsmaður.
+Þessi grein sýnir atburðarás sem sýnir hvernig á að skrá vörur með því að nota komufærslubók vöru þegar verið er að nota vöruhúsastjórnunarferli (WMS). Þetta væri yfirleitt gert með af móttöku starfsmaður.
 
 ## <a name="enable-sample-data"></a>Virkja gögn sýnishorna
 
-Til að vinna í gegnum þessa atburðarás með því að nota sýnishornsskrárnar og gildin sem tilgreind eru í þessari grein, verður þú að nota kerfi þar sem staðlað kynningargögn eru sett upp og þú verður að velja *USMF* lögaðila áður en þú byrjar.
+Til að vinna í gegnum þessa atburðarás með því að nota sýnishornsskrárnar og gildin sem tilgreind eru í þessari grein verður þú að nota kerfi þar sem staðlað kynningargögn eru sett upp og þú verður að velja *USMF* lögaðila áður en þú byrjar.
 
 Hægt er að vinna með þessar astæður með því að skipta gildum úr eigin gögnum ef eftirfarandi gögn eru tiltæk:
 
 - Þú þarft að hafa staðfest innkaupapöntun með opna innkaupapöntunarlínu.
 - Varan á línunni verðu að vera á lager. Það má ekki nota afurðarafbrigði og má ekki hafa rakningarvíddir.
 - Varan verður að vera tengd við geymsluvíddarflokk sem er með virkt vöruhúsakerfisferli.
-- Vöruhús sem er notað verður að vera virkt fyrir vöruhúsakerfisferli og staðsetning sem er notað fyrir móttöku verður að vera númeraplötustýrð.
+- Vöruhúsið sem er notað verður að vera virkt fyrir WMS og staðsetningin sem þú notar til að taka á móti verður að vera stjórnað með númeraplötu.
 
 ## <a name="create-an-item-arrival-journal-header-that-uses-warehouse-management"></a>Stofna haus vörukomubókar sem notar vöruhúsakerfi
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2a64cba837faf84f3e8470a9831d1641213a5cc4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e02cd80a3b7692f496fc70e50b812fae358103bc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909613"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067852"
 ---
 # <a name="warehouse-parameters-for-wave-processing"></a>Færibreytur vöruhúss fyrir bylgjuvinnslu
 
@@ -52,7 +52,7 @@ Til að setja upp færibreytur vöruhúss til bylgjuvinnslu skal fylgja þessum 
 > [!NOTE]
 > Á bylgjusniðmátið sem er notað til að vinna úr bylgja, getur þú tilgreint stillingarnar sem gera sjálfvirka bylgjuvinnslu. Ef sett er upp áætlun fyrir runuvinnsluna ætti að samstilla tímasetningu með stillingar fyrir sjálfvirkni í bylgjusniðmátið. Frekari upplýsingar eru í [Stofna bylgjusniðmát](wave-templates.md).
 >
-> Ef notað er *Flutningsstjórnun* og *Ítarlegt vöruhúsakerfi* er hægt að tilgreina hvort eigi að sameina hleðslur þegar unnið er úr bylgju. Í þessu dæmi er gagnlegt þegar hægt er að senda nokkrar litlar hleðslur samtímis. Til að sameina hleðslur við bylgjuvinnslu, á **Hleðslur** flipanum, skal velja gátreitinn **Sameina hleðslur við framkvæmd bylgju** .</P>
+> Ef þú ert að nota *Samgöngustjórnun* og *vöruhúsastjórnunarferli (WMS)*, þú getur tilgreint hvort á að sameina álag þegar þú vinnur bylgju. Í þessu dæmi er gagnlegt þegar hægt er að senda nokkrar litlar hleðslur samtímis. Til að sameina hleðslur við bylgjuvinnslu, á **Hleðslur** flipanum, skal velja gátreitinn **Sameina hleðslur við framkvæmd bylgju** .</P>
 
 ## <a name="set-up-full-or-partial-reservation-for-production-waves"></a>Setja upp alla eða hluta frátekning fyrir framleiðslubylgjur
 

@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0144be929045b385c58dd29f6241330fc1092f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3478e8c712c7bcbfb8ace9e7b43f0d8d3cf4ac8a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862483"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069153"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Senda sölupantanir án vöruhúsa
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að uppfæra sölupöntun þegar vörur eru sendar til viðskiptavinarins. Leiðbeiningarnar eiga við um flæði uppfyllingar sem er ekki sett upp fyrir vöruhúsakerfi (hvorki grunnur eða ítarlegt vöruhús), og krefst þar af leiðandi ekki að afurð tiltektarlista sé skráð fyrir sendingu. Hægt er að keyra þetta ferli á eigin gögn eða í sýnigögn USMF fyrirtækis. Í báðum tilvikum, áður en þú ræsir þetta verk, skal stofna sölupöntun fyrir afurð á lager sem hefur magn sem er meira en 1. Til að forðast bókunarvillu þarf að athuga að afurðamagn á lager á því svæði og vöruhúsi sem var valið í pöntuninni nái yfir pöntunarmagnið.
+Þessi grein útskýrir hvernig á að uppfæra sölupöntun þegar vörur eru sendar til viðskiptavinarins. Leiðbeiningin á við um uppfyllingarflæðið sem er ekki sett upp fyrir vöruhúsastjórnun (hvorki grunn- eða vöruhússtjórnunarferli (WMS)), og krefst þess vegna ekki að vörutínsla sé skráð fyrir sendingu. Hægt er að keyra þetta ferli á eigin gögn eða í sýnigögn USMF fyrirtækis. Í báðum tilvikum, áður en þú ræsir þetta verk, skal stofna sölupöntun fyrir afurð á lager sem hefur magn sem er meira en 1. Til að forðast bókunarvillu þarf að athuga að afurðamagn á lager á því svæði og vöruhúsi sem var valið í pöntuninni nái yfir pöntunarmagnið.
 
 ## <a name="post-packing-slip-for-an-order"></a>Bóka fylgiseðil fyrir pöntun
 1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Sala og markaðssetning > Sölupantanir > Allar sölupantanir**.

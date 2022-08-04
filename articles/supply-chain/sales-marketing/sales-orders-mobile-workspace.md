@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: henrikan
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: fc04a90c0c071508c9ebee57862a029de0e58f9a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38971f2a5f3f3d2692de0e52365e2215170101cc
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844765"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103181"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Fartækjavinnusvæði sölupantana
 
@@ -29,7 +29,7 @@ ms.locfileid: "8844765"
 
 Þessi grein veitir upplýsingar um **Sölupantanir** færanlegt vinnusvæði. Þetta vinnusvæði hjálpar þér að hafa yfirsýn yfir sölupantanir þínar hvar og hvenær sem er. 
 
-Þetta farsímavinnusvæði er ætlað til notkunar með Finance and Operations (Dynamics 365) farsímaforritinu.
+Þetta farsímavinnusvæði er ætlað til notkunar með fjármála- og rekstrarforritinu (Dynamics 365).
 
 ## <a name="overview"></a>Yfirlit
 Í **sölupantanir** farsímaforrit vinnusvæði gerir það mögulegt að skoða nákvæmar upplýsingar um hverja sölupöntun. Þessar upplýsingar innihalda einnig stöðu pöntunar, upplýsingar fyrir viðskiptavininn og samskiptaupplýsingar fyrir þann sem pantar. Farsímavinnusvæðið **Sölupantanir** veitir fljótlegt yfirlit sölupantana. Hægt er að skoða allar sölupantanir, sölupantanir eftir viðskiptavini, eða skoða upplýsingar um tiltekna sölupöntun. 
@@ -118,7 +118,7 @@ Ef Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 3 eða sí
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
-Sæktu og settu upp Finance and Operations (Dynamics 365) farsímaforritið:
+Sæktu og settu upp fjármála- og rekstrarforritið (Dynamics 365):
 
 -   [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -143,3 +143,4 @@ Sæktu og settu upp Finance and Operations (Dynamics 365) farsímaforritið:
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -1,5 +1,5 @@
 ---
-title: Heimasíða Innkaupa og aðfanga
+title: Heimasíða innkaup og aðföng
 description: Þessi grein veitir lista yfir hjálpargreinar og önnur úrræði sem eru tiltæk fyrir innkaup og innkaup.
 author: GalynaFedorova
 ms.date: 09/27/2017
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec5a9dac1d3b1288d060fe92ec94e6a105f84be8
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: b0d3869b93f6ecf4f70df6b394ce18a77318b83c
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015289"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111785"
 ---
-# <a name="procurement-and-sourcing-home-page"></a>Heimasíða Innkaupa og aðfanga
+# <a name="procurement-and-sourcing-home-page"></a>Heimasíða innkaup og aðföng
 
 [!include [banner](../includes/banner.md)]
 
@@ -54,7 +54,7 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 -   [Samstarf lánardrottna við viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Stjórna notendum fyrir samstarf lánardrottna](manage-vendor-collaboration-users.md)
 -   [Uppsetning og viðhald samstarfs lánardrottna](set-up-maintain-vendor-collaboration.md)
--   [Dæmi um forskrift fyrir vörusendingabirgðir á innleið fyrir Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(hvítbók)
+-   [Birgðaforskrift á heimleið](https://www.microsoft.com/download/details.aspx?id=101945) (hvítur pappír)
 -   [Fylgjast með vörusendingabirgðum með samstarfi lánardrottna](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Fartækjavinnusvæði samstarfs lánardrottna](vendor-collaboration-mobile-workspace.md)
 

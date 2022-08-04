@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bb0b306cca715cad64d62fff843987a8e98eb99
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771873"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108765"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Skipuleggja fyrirtækjastigveldi
 
@@ -42,7 +42,7 @@ Stigveldi fyrirtækis standa fyrir vensl á milli fyrirtækja sem eru saman í r
 
 Verður að hafa minnst einn lögaðila sem standa fyrir fyrirtækið. Lögaðili getur fært inn lögbundna samninga og ætlast er til að það búi til fjárhagsskýrslur sem veita skýrslur um afköst hans.
 
-Lögaðila má nota fyrir viðskiptaferli eða sameiningu. Þetta þýðir að lögaðila í Finance and Operations stendur ekki endilega fyrir raunverulegan einingu í fyrirtækinu. Fyrirtækið sem tekur þátt í færslur geta til dæmis átt dótturfyrirtæki lögaðila. Í þessari atburðarás er lögaðili nauðsynlegur fyrir færslur og sýndarlögaðila þarf til að sameina niðurstöður og stöður undirlögaðila.
+Lögaðila má nota fyrir viðskiptaferli eða sameiningu. Þetta þýðir að lögaðili í fjármálum og rekstri er ekki endilega fulltrúi raunverulegs aðila í viðskiptum þínum. Fyrirtækið sem tekur þátt í færslur geta til dæmis átt dótturfyrirtæki lögaðila. Í þessari atburðarás er lögaðili nauðsynlegur fyrir færslur og sýndarlögaðila þarf til að sameina niðurstöður og stöður undirlögaðila.
 
 Innri stofnanir í fyrirtæki þitt, svo sem svæðisskrifstofur, má kynna sem fleiri lögaðila eða rekstrareiningar hjá helsta lögaðila. Ekki er krafist að rekstrareining sé löglega skilgreind stofnun. Rekstrareiningar eru notuð til að stjórna efnahag og aðgerðum aðferð í bransanum. Til dæmis, deildir og kostnaðarstaði eru rekstrareiningar.
 
@@ -171,7 +171,7 @@ Fyrir lönd/svæði sem eru studdar er hægt að stofna flestar lögboðnar ský
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Ef fyrirtækið er með líkan sem rekstrareining
 
-Lögbundinn skýrslur verður að stofna með annað forrit. Það þarf að tryggja að gögnin eru sótt í Finance and Operations forrit til að styðja hverja rekstrareiningu, þar sem þær eru frábrugðnar kröfum höfuðstöðva.
+Lögbundinn skýrslur verður að stofna með annað forrit. Þú verður að tryggja að gögn séu tekin í fjármála- og rekstraröppum til að styðja við kröfur hverrar rekstrareiningar, þar sem þær eru frábrugðnar kröfum höfuðstöðva.
 
 ### <a name="currency"></a>Gjaldmiðill
 
@@ -242,3 +242,4 @@ Ekki þarf að breyta fyrirtæki til að nálgast gögn frá mörgum rekstrarein
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

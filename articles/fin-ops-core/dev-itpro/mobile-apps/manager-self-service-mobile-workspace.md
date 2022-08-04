@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: f15ac24e5c32a42863cac8a9c9754c95aa4ff734
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 11a4b1667e3d97b651b8019c9dbe577ab30aed67
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868699"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068200"
 ---
 # <a name="my-team-mobile-workspace"></a>Fartækjavinnusvæði míns teymis
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868699"
 
 Þessi grein veitir upplýsingar um **Liðið mitt** færanlegt vinnusvæði. Þessi vinnusvæði gerir stjórnendum kleift að skoða beinar skýrslur og starfsfólk. Þeir geta einnig sent hrós til einstaklinga í skýrslukeðju sinni.
 
-Þetta fartækjavinnusvæði er ætlað til að nota með farsímaforritið Finance and Operations.
+Þetta farsímavinnusvæði er ætlað til notkunar með fjármála- og rekstrarfarsímaappinu.
 
 ## <a name="overview"></a>Yfirlit 
 Fartækjavinnusvæðið **Minn hópur** gerir stjórnendum kleift að vinna eftirtalin verkefni:
@@ -50,12 +50,12 @@ Fartækjavinnusvæðið **Minn hópur** gerir stjórnendum kleift að vinna efti
 <tbody>
 <tr class="odd">
 <td>Ein af eftirtöldum vörum verður að vera innleidd í fyrirtækinu:
-<ul><li>Forrit Finance and Operations</li>
+<ul><li>Fjármála- og rekstrarapp</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Kerfisstjóri</td>
-<td>Ef forrit Finance and Operations hefur ekki þegar verið innleitt í fyrirtækið skal sjá <a href="../deployment/deploy-demo-environment.md">Innleiða sýniútgáfuumhverfi</a>.&#39; Ef &#39;Human Resources hefur ekki þegar verið innleitt í fyrirtækið getur kerfisstjórinn fengið aðgang að prufuútgáfunni á <a href="https://dynamics.microsoft.com/human-resources/overview/">vefsíðu Human Resources</a>.
+<td>Ef þú gerir það&#39; þú ert nú þegar með fjármála- og rekstrarforrit notað í fyrirtækinu þínu, sjá<a href="../deployment/deploy-demo-environment.md">Settu upp kynningarumhverfi</a>. Ef &#39;Human Resources hefur ekki þegar verið innleitt í fyrirtækið getur kerfisstjórinn fengið aðgang að prufuútgáfunni á <a href="https://dynamics.microsoft.com/human-resources/overview/">vefsíðu Human Resources</a>.
 </td>
 </tr>
 <tr class="even">
@@ -68,7 +68,7 @@ Fartækjavinnusvæðið **Minn hópur** gerir stjórnendum kleift að vinna efti
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
 
-Sæktu og settu upp fyrir Finance and Operations farsímaforritið:
+Sæktu og settu upp fjármála- og rekstrarfarsappið:
 
 -   [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -99,3 +99,4 @@ Sæktu og settu upp fyrir Finance and Operations farsímaforritið:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

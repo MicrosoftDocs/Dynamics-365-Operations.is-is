@@ -10,18 +10,35 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 19193cc445bc9c7d79463734d7d5787737ecc4f7
+ms.sourcegitcommit: 6989ac8a20c16d384b8307b707eeaf498c32d64e
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954664"
+ms.lasthandoff: 07/25/2022
+ms.locfileid: "9188992"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Þessi grein sýnir nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af Warehouse Management farsímaforritinu fyrir Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20300"></a>Útgáfa 2.0.30.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+
+- Bættur stöðugleiki.
+
+## <a name="version-20280"></a>Útgáfa 2.0.28.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+
+- Bættur stöðugleiki.
+- Kynnti möguleikann á að halda áfram að skanna jafnvel á meðan villuskjár birtist á skjánum.
+- Bætti við stuðningi við ASCII 10 í strikamerkjum.
+- Bætt notagildi skrefaleiðbeiningarglugga.
+- Lagaði vandamál þar sem stundum var hægt að sýna tóman skjá.
+- Lagaði vandamál þar sem vinnulistar flettaðu ekki rétt þegar þeir keyrðu á Microsoft Windows.
 
 ## <a name="version-20250"></a>Útgáfa 2.0.25.0
 
@@ -57,7 +74,7 @@ ms.locfileid: "8954664"
 - Lagaði nokkur hrunvandamál.
 - Lagaði vandamál þar sem sumir stafir myndu ekki þekkjast þegar verið var að skanna eða slá inn á sjálfgefna síðu.
 - Lagaði mál þar sem að slá inn bakhlið á sjálfgefna síðunni myndi eyða tveimur stöfum í einu.
-- Lagaði mál þar sem **Raða eftir** sviði á **Vinnulisti** síða myndi birta rangt gildi sem samsvaraði ekki raunverulegri röðunarröð kortanna.
+- Lagaði mál þar sem **Raða eftir** sviði á **Verklisti** síða myndi birta rangt gildi sem samsvaraði ekki raunverulegri röðunarröð kortanna.
 - Lagaði vandamál þar sem rangt skipulag birtist eftir að stærð forritsgluggans var breytt á meðan það var keyrt áfram Microsoft Windows.
 - Lagaði vandamál þar sem skrunun í sprettiglugga gæti leitt til þess að sum listaatriði haldist falin eða brenglast.
 - Endurhannað innskráningarsíðuna til að láta hana birta notandanafn og lykilorð svæði á sömu síðu þegar hún er keyrð á stærri skjáum.
@@ -145,16 +162,16 @@ ms.locfileid: "8954664"
 - Lagaði vandamál þar sem einhver texti gæti orðið mjög lítill þegar stærð forritsgluggans var breytt.
 - Lagaði vandamál sem gæti stundum hrundið forritinu þegar strikamerki voru skannað.
 - Bætti við möguleikanum á að skipta um renna fyrir hnapp.
-- Lagaði vandamál sem gæti valdið því að forritið sýndi villuboðin, "AADSTS7000215: Ógilt leyndarmál viðskiptavinar er veitt."
+- Lagaði vandamál sem gæti valdið því að appið sýndi villuboðin, "AADSTS7000215: Ógilt leyndarmál viðskiptavinar er gefið upp."
 - Lagaði vísbendingahreyfinguna sem sýnir hvernig á að loka síðu með því að strjúka niður.
 - Bætti við möguleikanum á að loka síðu með því að fletta niður.
 - Lagaði vandamál þar sem titlar fellilista voru ekki sýndir á **Notendastillingar** síðu.
-- Lagaði staðsetningarvandamál þar sem appið myndi ekki þekkja kommu (,) sem aukastafaskil.
+- Lagaði staðsetningarvandamál þar sem appið myndi ekki þekkja kommu (,) sem tugaskilju.
 - Bætt aðgengi.
 - Lagaði siglinguna á **Nýtt samband** síðu til að veita bætt aðgengi.
 - Lagaði vandamál þar sem mjúka (skjályklaborðið) birtist ekki þegar valinn var innsláttarreitur.
 - Lagaði vandamál sem gæti hrundið forritinu ef notendur breyttu stærð glugga þess fljótt.
-- Lagaði mál þar sem hröð takkaýting var stundum túlkuð sem löng ýting.
+- Lagaði mál þar sem hröð takkaýting var stundum túlkuð sem löng stutt.
 - Lagaði vandamál þar sem útlit appsins gæti skemmst vegna sérstillinga á sviði sem gerðar voru í Supply Chain Management.
 - Lagaði vandamál þar sem staðsetningar vara voru ekki birtar á réttan hátt.
 - Lagaði vandamál sem tengist stuttri tínslu fyrir verkflæði vöruafbrigða.

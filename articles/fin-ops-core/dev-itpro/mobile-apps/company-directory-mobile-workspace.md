@@ -1,6 +1,6 @@
 ---
 title: Fartækjavinnusvæði fyrir skráasafn fyrirtækis
-description: Þessi grein veitir upplýsingar um farsímavinnusvæði fyrirtækisins, sem gerir notendum kleift að skoða og hafa samband við aðra starfsmenn í fyrirtækinu sínu.
+description: Þessi grein veitir upplýsingar um farsímavinnusvæðið fyrirtækjaskrá, sem gerir notendum kleift að skoða og hafa samband við aðra starfsmenn í fyrirtækinu sínu.
 author: jcart1106
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e8e6adc2c72b6e3ab567723ac01055ea8d7292e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3cfdb98f9f0f05e046784cc77c85cd4a045868c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868728"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069378"
 ---
 # <a name="company-directory-mobile-workspace"></a>Fartækjavinnusvæði fyrir skráasafn fyrirtækis
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868728"
 
 Þessi grein veitir upplýsingar um **Fyrirtækjaskrá** færanlegt vinnusvæði. Þetta vinnusvæði gerir notendum kleift að sjá og hafa samband við annað starfsfólk í fyrirtækinu.
 
-Þetta fartækjavinnusvæði er hægt að nota með fartækjaforritinu Finance and Operations.
+Þetta farsíma vinnusvæði er hægt að nota með fjármála- og rekstrarfarsímaappinu.
 
 ## <a name="overview"></a>Yfirlit
 Fartækjavinnusvæðið **Skráasafn fyrirtækis** gerir notendum kleift að vinna eftirtalin verkefni:
@@ -50,12 +50,12 @@ Fartækjavinnusvæðið **Skráasafn fyrirtækis** gerir notendum kleift að vin
 <tbody>
 <tr class="odd">
 <td>Ein af eftirtöldum vörum verður að vera innleidd í fyrirtækinu:
-<ul><li>Forrit Finance and Operations</li>
+<ul><li>Fjármála- og rekstrarapp</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Kerfisstjóri</td>
-<td>Ef forrit Finance and Operations hefur ekki þegar verið innleitt í fyrirtækið skal sjá <a href="../deployment/deploy-demo-environment.md">Innleiða sýniútgáfuumhverfi</a>.&#39; Ef &#39;Human Resources hefur ekki þegar verið innleitt í fyrirtækið getur kerfisstjórinn fengið aðgang að prufuútgáfunni á <a href="https://dynamics.microsoft.com/human-resources/overview/">vefsíðu Human Resources</a>.
+<td>Ef þú gerir það&#39; þú ert nú þegar með fjármála- og rekstrarforrit notað í fyrirtækinu þínu, sjá<a href="../deployment/deploy-demo-environment.md">Settu upp kynningarumhverfi</a>. Ef &#39;Human Resources hefur ekki þegar verið innleitt í fyrirtækið getur kerfisstjórinn fengið aðgang að prufuútgáfunni á <a href="https://dynamics.microsoft.com/human-resources/overview/">vefsíðu Human Resources</a>.
 </td>
 </tr>
 <tr class="even">
@@ -67,7 +67,7 @@ Fartækjavinnusvæðið **Skráasafn fyrirtækis** gerir notendum kleift að vin
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
-Sæktu og settu upp fyrir Finance and Operations farsímaforritið:
+Sæktu og settu upp fjármála- og rekstrarfarsappið:
 
 -   [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -91,3 +91,4 @@ Sæktu og settu upp fyrir Finance and Operations farsímaforritið:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

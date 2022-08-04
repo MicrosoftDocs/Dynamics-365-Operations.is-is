@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d6524cb9109263ad62d221ec98e546b962b89ee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850439"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067529"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Skilgreina afurðarsíur fyrir vöruhúsakerfifærslur
 
@@ -95,7 +95,7 @@ Til að setja upp síukóða í vöruflokkum, skal fylgja þessum skrefum:
     Ef til dæmis gátreitirnir **Nota síukóða 1** og **Nota síukóða 2** eru valdir, verða bæði síukóði 1 og síukóði 2 fyrir vöruna að passa við uppsetningu síuflokksins fyrir vöruflokkinn áður en hægt verður að velja síuflokkinn. Þegar ný vara er stofnuð verður valinn síuflokkur að sjálfgefnum síuflokki í reitunum **Flokkur 1** og **Flokkur 2** í flýtiflipanum **Vöruhús** á síðunni **Upplýsingar um útgefnar afurðir**.
 
 > [!IMPORTANT]
-> Afurðasíukóðar eru aðeins virkjaðir fyrir vörur sem nota ítarlegt vöruhúsakerfi.
+> Vörusíukóðar eru aðeins virkir fyrir vörur sem nota vöruhússtjórnunarferli (WMS).
 
 ## <a name="specify-filter-codes-for-released-products"></a>Tilgreina síukóða fyrir útgefin afurðir
 
@@ -158,7 +158,7 @@ Til að setja upp síukóða lánardrottins skal fylgja þessum skrefum.
 1. Í reitunum **Kóði 1** til **Kóði 10** skal velja síukóða til að nota sem skilyrði til að takmarka vörur sem eru tiltækar fyrir lánardrottna í völdum vöruhóp. Velja verður fyrir hvern síukóða sem er settur upp fyrir vöruflokkinn.
 
 > [!NOTE]
-> Uppsetning afurðarsía lánardrottins á við útgefnar afurðir þar sem vöruhúsakerfisferli eru virkjuð fyrir tengdan geymsluvíddaflokk. Síukóðar eru notaðir til að ákvarða hvort kerfið geri notendum kleift að kaupa tiltekna vöru frá tilteknum lánardrottni þegar þeir stofna innkaupapöntunarlínur. Microsoft Dynamics 365 Supply Chain Management inniheldur tvær leiðir til að meðhöndla samþykki lánardrottins. Ef ein eða fleiri útgefnar afurðir eru til staðar þar sem reiturinn **Samþykkt prófunaraðferð lánadrottins** er stilltur á *Aðeins viðvörun* eða *Ekki leyft*, væri hægt að virkja báðar samþykktaraðferðir lánardrottins fyrir þessar vörur. Þetta gæti valdið vandamálum þegar notendur búa til innkaupapöntunarlínur.
+> Uppsetning afurðasía lánardrottins á við um útgefnar vörur þar sem vöruhúsastjórnunarferli (WMS) eru virkjuð fyrir tengda geymsluvíddarhóp. Síukóðar eru notaðir til að ákvarða hvort kerfið geri notendum kleift að kaupa tiltekna vöru frá tilteknum lánardrottni þegar þeir stofna innkaupapöntunarlínur. Microsoft Dynamics 365 Supply Chain Management inniheldur tvær leiðir til að meðhöndla samþykki lánardrottins. Ef ein eða fleiri útgefnar afurðir eru til staðar þar sem reiturinn **Samþykkt prófunaraðferð lánadrottins** er stilltur á *Aðeins viðvörun* eða *Ekki leyft*, væri hægt að virkja báðar samþykktaraðferðir lánardrottins fyrir þessar vörur. Þetta gæti valdið vandamálum þegar notendur búa til innkaupapöntunarlínur.
 
 ## <a name="see-also"></a>Sjá einnig
 
