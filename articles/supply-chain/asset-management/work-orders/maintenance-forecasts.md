@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: be6ef12f34e85b90c24c43c6e55ad169c271810a
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 4e3da8ab9a739c8455d2c1d2720f94f91a42927d
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016624"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111601"
 ---
 # <a name="maintenance-forecasts"></a>Viðhaldsspár
 
@@ -107,7 +107,7 @@ Skýringarmyndin hér að neðan sýnir dæmi um síðuna **Viðhaldsspá verkbe
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Sjálfvirk uppfærsla á spám um verkbeiðnir
 
-Ef kostnaður á klukkustund, vörukostnaður og útgjöld eru uppfærð í öðrum kerfiseiningum í Microsoft Dynamics 365 for Finance and Operations, er hægt að uppfæra verkbeiðnispár í eignastýringu sjálfkrafa til að endurspegla þessar breytingar. Þessi afkastageta tryggir að nýjustu kostnaðarverðin séu ávallt notuð í spám þínum um verkbeiðnir. Einnig er hægt að gera svipaðar uppfærslur fyrir [spár um viðhaldverk](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+Ef klukkutímakostnaður, vörukostnaður og kostnaður er uppfærður í öðrum einingum, er hægt að uppfæra vinnupöntunarspár í eignastýringu sjálfkrafa til að endurspegla þessar breytingar. Þessi afkastageta tryggir að nýjustu kostnaðarverðin séu ávallt notuð í spám þínum um verkbeiðnir. Einnig er hægt að gera svipaðar uppfærslur fyrir [spár um viðhaldverk](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
 1. Veldu **Eignastjórnun** > **Reglubundið** > **Spá** > **Uppfæra spá um verkbeiðni**.
 

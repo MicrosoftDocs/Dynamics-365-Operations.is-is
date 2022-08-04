@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 34ce119ca70596f0e40797c4b44a8fba4d5b7e0e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 8b75907d01a029da1ed6a8224f8a7c0ca0230550
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885697"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068671"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu
 
@@ -82,7 +82,7 @@ Sýnigögnin útheimta uppsetningu og leiðréttingu birgða til að styðja vi�
 
 1. Veldu **Í lagi** til að nota stillingarnar þínar og loka fyrirspurnarritilinum.
 1. Smelltu á **Vista** til að vista breytingar á staðsetningarleiðbeiningunum þínum.
-1. Í fartæki eða í forritinu *Dynamics 365 for Finance and Operations -Vöruhúsakerfi* í tölvunni skal fylgja þessum skrefum til að fjarlægja núverandi birgðir úr staðsetningu vöruhússins til að styðja við aðstæðurnar:
+1. Í fartæki eða í forritinu *Dynamics 365 Supply Chain Management -Vöruhúsakerfi* í tölvunni skal fylgja þessum skrefum til að fjarlægja núverandi birgðir úr staðsetningu vöruhússins til að styðja við aðstæðurnar:
 
     1. Skráðu þig inn í vöruhús *63* með því að nota viðeigandi notandakenni og aðgangsorð.
     1. Í aðalvalmyndinni skal velja **Gæði**.

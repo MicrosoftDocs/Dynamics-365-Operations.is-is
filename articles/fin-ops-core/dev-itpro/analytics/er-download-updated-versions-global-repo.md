@@ -1,6 +1,6 @@
 ---
 title: Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar
-description: Þessi grein útskýrir hvernig á að flytja inn uppfærðar útgáfur af rafrænum skýrslugerðum (ER) stillingum úr Alþjóðlegu geymslunni stillingarþjónustunnar.
+description: Þessi grein útskýrir hvernig á að flytja inn uppfærðar útgáfur af rafrænum skýrslum (ER) stillingum úr Alþjóðlegu geymslunni stillingarþjónustunnar.
 author: NickSelin
 ms.date: 06/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 69eaa3e2ecfbd1e92f23725d97d7fa9f0abe1cea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0dac106a592a6a70aae6b245bce74d21c98cad10
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847547"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108440"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar
 
@@ -28,7 +28,7 @@ ms.locfileid: "8847547"
 
 [Geymslur](general-electronic-reporting.md#Repository) rafrænnar skýrslugerðar eru notaðar til að samnýta [Skilgreiningar rafrænnar skýrslugerðar](general-electronic-reporting.md#Configuration). Þú getur [flytja inn](download-electronic-reporting-configuration-lcs.md) ER stillingar frá mismunandi geymslum inn í dæmið þitt af Microsoft Dynamics 365 Fjármál. Þegar skilgreiningar rafrænnar skýrslugerðar eru fluttar inn, geta [skilgreiningarveitur](general-electronic-reporting.md#Provider) gefið út nýjar [útgáfur](general-electronic-reporting.md#component-versioning) af geymslum þannig að hægt sé að deila þeim.
 
-Þessi grein útskýrir hvernig á að flytja inn uppfærðar útgáfur af ER stillingum úr alþjóðlegu geymslunni stillingarþjónustunnar. Frekari upplýsingar er að finna í [Microsoft Dynamics 365 for Finance and Operations - Regulatory Services, Skilgreiningarþjónusta](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Þessi grein útskýrir hvernig á að flytja inn uppfærðar útgáfur af ER stillingum úr alþjóðlegri geymslu stillingarþjónustunnar. Fyrir frekari upplýsingar, sjá [Microsoft Dynamics 365 Fjármál - eftirlitsþjónusta, stillingarþjónusta](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Yfirfara tiltækar uppfærðar útgáfur
 

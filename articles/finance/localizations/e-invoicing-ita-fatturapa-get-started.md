@@ -1,8 +1,8 @@
 ---
 title: Settu upp beina samþættingu ítalska FatturaPA við SDI
-description: Þessi grein veitir upplýsingar sem munu hjálpa þér að byrja með rafræna reikningagerð fyrir Ítalíu og setja upp beina samþættingu ítalska FatturaPA við Exchange kerfið (SDI).
+description: Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Ítalíu og setja upp beina samþættingu ítalska FatturaPA við Exchange kerfið (SDI).
 author: abaryshnikov
-ms.date: 01/15/2022
+ms.date: 07/27/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 363b7b5e3d5abbb990fea8f8ad4d0c1bebf80102
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853193"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203170"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Settu upp beina samþættingu ítalska FatturaPA við SDI
 
@@ -31,12 +31,12 @@ ms.locfileid: "8853193"
 Áður en þú lýkur skrefunum í þessari grein verður að uppfylla eftirfarandi forsendur:
 
 - Ljúktu við skrefin í [Byrjaðu með rafræna reikningagerð](e-invoicing-get-started.md).
-- Flytja inn **Ítalska FatturaPA (IT)** rafræna innheimtuaðgerð inn í RCS frá alþjóðlegu geymslunni. Fyrir frekari upplýsingar, sjá [Flytja inn rafrænan reikningseiginleika frá Microsoft stillingarveitunni](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) kafla áðurnefndrar greinar „Byrjað með rafrænum reikningum“.
-- Bættu tenglum úr nauðsynlegum vottorðum við þjónustuumhverfið. Nauðsynleg vottorð innihalda stafræna undirskriftarvottorð, vottorðsvottorð (CA) vottorð og viðskiptavinavottorð. Fyrir frekari upplýsingar, sjá [Búðu til stafrænt vottorðsleyndarmál](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret) kafla í greininni „Hefjast handa með þjónustu rafrænna reikninga“.
+- Flytja inn **Ítalska FatturaPA (IT)** rafræna innheimtuaðgerð í RCS frá alþjóðlegu geymslunni. Fyrir frekari upplýsingar, sjá [Flytja inn rafrænan reikningseiginleika frá Microsoft stillingarveitunni](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) kafla áðurnefndrar greinar „Byrjað með rafrænum reikningum“.
+- Bættu tenglum úr nauðsynlegum vottorðum við þjónustuumhverfið. Nauðsynleg vottorð innihalda stafræna undirskriftarvottorð, vottorðsvottorð (CA) og vottorð viðskiptavina. Fyrir frekari upplýsingar, sjá [Búðu til stafrænt vottorð leyndarmál](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret) kafla í greininni „Hefjast handa með rafræna reikningaþjónustu“.
 
 ## <a name="country-specific-configuration-for-the-italian-fatturapa-it-electronic-invoicing-feature"></a>Landssértæk uppsetning fyrir ítalska FatturaPA (IT) rafræna reikningseiginleikann
 
-Ljúktu við eftirfarandi verklagsreglur áður en þú setur forritauppsetninguna upp í tengda Finance eða Supply Chain Management appið þitt.
+Ljúktu við eftirfarandi verklagsreglur áður en þú setur uppsetningu forritsins upp í tengda Finance eða Supply Chain Management appið þitt.
 
 Þessi hluti er viðbót við [Landssértæk uppsetning forritsuppsetningar](e-invoicing-get-started.md#country-specific-configuration-of-application-setup) kafla í greininni „Byrjað með rafrænum reikningum“.
 
@@ -67,12 +67,15 @@ Ljúktu við eftirfarandi verklagsreglur áður en þú setur forritauppsetningu
 3. Í **Vinnsluleiðsla** kafla, farðu í gegnum aðgerðirnar og stilltu alla nauðsynlega reiti:
 
     - Fyrir **Skrifaðu undir skjal** aðgerð, í **Nafn skírteinis** reit skal tilgreina stafræna undirskriftarvottorð.
-    - Fyrir **Sendu inn** aðgerð, stilltu **URL heimilisfang** og **Skírteini** sviðum. Verðmæti **Skírteini** reiturinn er keðja vottorða, það fyrsta er CA-rótarvottorðið (caentrate.cer) og hið síðara er vottorð viðskiptavinarins.
+    - Fyrir **Sendu inn** aðgerð, stilltu **URL heimilisfang** og **Skírteini** sviðum. Verðmæti **Skírteini** reiturinn er keðja af vottorðum, það fyrsta er CA-rótarvottorðið (caentrate.cer) og hið síðara er viðskiptavottorðið.
 
-4. Veldu **Staðfesta** til að tryggja að allir nauðsynlegir reiti hafi verið stilltir.
-5. Vistaðu breytingarnar og lokaðu síðunni.
-6. Á **Uppsetningar** flipa, veldu **Verkreikningar**, og veldu síðan **Breyta**.
-7. Endurtaktu skref 3 til 5 fyrir verkreikninga.
+4. Í **Gildisreglur** kafla, farðu í gegnum ákvæðin og skoðaðu eða stilltu nauðsynlega reiti:
+    - Skoðaðu **Legal EntityID** ákvæði og uppfærðu með réttu gildi frá lögaðila þínum.
+
+5. Veldu **Staðfesta** til að tryggja að allir nauðsynlegir reiti hafi verið stilltir.
+6. Vistaðu breytingarnar og lokaðu síðunni.
+7. Á **Uppsetningar** flipa, veldu **Verkreikningar**, og veldu síðan **Breyta**.
+8. Endurtaktu skref 3 til 6 fyrir verkreikninga.
 
 ### <a name="configure-the-processing-pipeline-for-import"></a>Stilltu vinnsluleiðsluna fyrir innflutning
 
@@ -98,7 +101,7 @@ Ljúktu við eftirfarandi verklagsreglur áður en þú setur forritauppsetningu
 4. Veldu og flyttu inn **Samhengislíkan viðskiptavinareiknings** og **Innflutningur á reikningi söluaðila (IT)** stillingar.
 5. Farið í **Fyrirtækisstjórnun** \> **Uppsetning** \> **Færibreytur rafræns skjals**.
 6. Á **Eiginleikar** flipann, finndu og veldu **Ítalskur rafrænn reikningur** eiginleiki og veldu síðan **Virkja** gátreit.
-7. Á **Rafræn skjal** flipa skaltu ganga úr skugga um að reitirnir fyrir **Reikningardagbók viðskiptavinar** og **Verkreikningur** eru stillt samkvæmt upplýsingum í [Stilltu uppsetningu forritsins](e-invoicing-get-started.md#configure-the-application-setup).
+7. Á **Rafræn skjal** flipa skaltu ganga úr skugga um að reitirnir fyrir **Reikningardagbók viðskiptavinar** og **Verkreikningur** eru settar samkvæmt upplýsingum í [Stilltu uppsetningu forritsins](e-invoicing-get-started.md#configure-the-application-setup).
 
 ### <a name="set-up-vendor-invoice-import"></a>Settu upp innflutning lánardrottinsreikninga 
 
@@ -150,7 +153,7 @@ Ljúktu við eftirfarandi verklagsreglur áður en þú setur forritauppsetningu
     Export-PfxCertificate -Cert $cert -FilePath $certPfxFile -Password $securePassword | Out-Null
     ```
 
-2. Vistaðu .pfx vottorðaskrána í lyklahólfinu og eyddu síðan staðbundnu afritinu.
+2. Vistaðu .pfx vottorðaskrána í lyklageymslunni og eyddu síðan staðbundnu afritinu.
 3. Skráðu þig inn á [Azure gátt](https://portal.azure.com) sem stjórnandi.
 4. Búðu til forritaskráningu fyrir SDI Proxy þjónustuna.
 
@@ -159,12 +162,12 @@ Ljúktu við eftirfarandi verklagsreglur áður en þú setur forritauppsetningu
         - **Nafn:** SDI proxy viðskiptavinur
         - **Studdar tegundir reikninga:** Reikningar í þessari fyrirtækjaskrá eingöngu (einn leigjandi)
 
-    2. Veldu **Skráðu þig**, og veldu síðan forritaskráninguna sem þú bjóst til.
+    2. Veldu **Skráðu þig**, og veldu síðan forritaskráninguna sem þú varst að búa til.
     3. Fara til **API heimildir**, og veldu **Veittu samþykki stjórnanda**.
     4. Fara til **Vottorð og leyndarmál**, veldu **Hladdu upp vottorði**, og hladdu upp .cer vottorðaskránni fyrir S2S auðkenningu.
-    5. Fara til **Fyrirtækjaforrit**, og veldu forritið sem þú bjóst til.
+    5. Fara til **Enterprise forrit**, og veldu forritið sem þú bjóst til.
     6. Vistaðu **Auðkenni umsóknar** (auðkenni viðskiptavinar) og **Auðkenni hlutar** gildi fyrir appið.
-    7. Teymi innheimtuþjónustunnar verður að veita appinu aðgang að þjónustunni. Sendu gildi eftirfarandi færibreyta til <D365EInvoiceSupport@microsoft.com>:
+    7. Innheimtuþjónustuteymi verður að veita appinu aðgang að þjónustunni. Sendu gildi eftirfarandi stika til <D365EInvoiceSupport@microsoft.com>:
 
         - AAD leigjanda auðkenni
         - LCS Umhverfiskenni
@@ -173,8 +176,8 @@ Ljúktu við eftirfarandi verklagsreglur áður en þú setur forritauppsetningu
 
 5. Í RCS skaltu bæta appinu við forritalistann fyrir þjónustuumhverfið þitt.
 
-    1. Fara til **Hnattvæðingareiginleikar** \> **Umhverfi** \> **Rafræn reikningagerð** \> **Þjónustuumhverfi**, og veldu umhverfi þitt.
-    2. Í **Umsóknir** hluta, bættu línu við ristina og sláðu inn nafn og hlutakenni appsins.
+    1. Fara til **Hnattvæðingareiginleikar** \> **Umhverfi** \> **Rafræn reikningagerð** \> **Þjónustuumhverfi**, og veldu umhverfið þitt.
+    2. Í **Umsóknir** kafla, bættu línu við ristina og sláðu inn nafn og hlutakenni appsins.
 
         ![Bætir forritinu við þjónustuumhverfið.](media/e-invoicing-ita-fatturapa-get-started-add-app-to-env.png)
 
@@ -185,7 +188,7 @@ Ljúktu við eftirfarandi verklagsreglur áður en þú setur forritauppsetningu
 1. Í [Azure gátt](https://portal.azure.com), fara til **Sýndarvélar**, og veldu **Búa til nýtt**.
 2. Á **Grunnatriði** flipann, veldu áskrift og tilfangahóp. Gildin ættu að vera áskriftar- og auðlindahópurinn þar sem lykilhólfið þitt og Blob-geymslan þín eru staðsett.
 3. Veldu svæðið. Þetta gildi ætti að vera svæðið þar sem fjármálaumhverfið þitt er notað.
-4. Bættu við notandanafni og lykilorði stjórnandans og vistaðu þau í lyklageymslunni.
+4. Bættu við notandanafni og lykilorði stjórnanda og vistaðu þau í lyklageymslunni.
 5. Í **Veldu höfn á heimleið** reit, veldu **HTTPS (443)** og **RPD (3389)**.
 
     > [!NOTE]
@@ -205,7 +208,7 @@ Ljúktu við eftirfarandi verklagsreglur áður en þú setur forritauppsetningu
 
     ![Að búa til opinbera IP tölu.](media/e-invoicing-ita-fatturapa-get-started-create-vm-4.png)
 
-9. Á **Stjórnun** flipann, hreinsaðu **Sjálfvirk lokun** gátreitinn til að slökkva á sjálfvirkri lokun.
+9. Á **Stjórnun** flipann, hreinsaðu **Sjálfvirk lokun** gátreit til að slökkva á sjálfvirkri lokun.
 10. Stilltu **Uppfærslur á stýrikerfi gesta** sviði til **Handbók**, og stilltu síðan aðrar reglur.
 11. Skoðaðu og búðu til VM.
 12. Í nýja VM, farðu til **Sjálfsmynd** \> **Kerfi úthlutað**, og stilltu **Staða** valmöguleika til **Á**.
@@ -225,7 +228,7 @@ Ljúktu við eftirfarandi verklagsreglur áður en þú setur forritauppsetningu
         1. Í **Valinn skólastjóri** reit, veldu VM þinn.
         2. Í **Vottorð** kafla, veldu **Listi** og **Fáðu** heimildir.
 
-14. Í [Azure gátt](https://portal.azure.com), fara til **Opinber IP tölur**, og veldu IP tölu sem var búin til í VM.
+14. Í [Azure gátt](https://portal.azure.com), fara til **Opinber IP tölur**, og veldu IP töluna sem var búin til í VM.
 15. Fara til **Stillingar**, og stilltu Domain Name System (DNS) nafnið.
 
 ### <a name="prepare-the-proxy-service-environment"></a>Undirbúðu umboðsþjónustuumhverfið
@@ -233,9 +236,9 @@ Ljúktu við eftirfarandi verklagsreglur áður en þú setur forritauppsetningu
 Fylgdu þessum skrefum á vélinni þar sem proxy-þjónustan er hýst.
 
 1. Tengstu við VM með því að nota Remote Desktop Connection.
-2. Opnaðu skyndimyndina Local Machine Certificate. Fyrir frekari upplýsingar, sjá [Hvernig á að: Skoða vottorð með MMC snap-in](/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in).
-3. Flytja inn **caenrate.cer** vottorð fyrir framleiðslu og **CAEntratetest.cer** til að prófa í [Traust rótarvottunaryfirvöld verslun](/dotnet/framework/wcf/feature-details/working-with-certificates#certificate-stores). (**CAEntratetest.cer** er rót CA vottorðið sem var útvegað af yfirvaldinu.)
-4. Í Control Panel, opnaðu **Kveiktu eða slökktu á Windows eiginleikum**, eða farðu til **Server Manager** \> **Bættu við hlutverkum og eiginleikum** fyrir stýrikerfi þjónsins (OS) og kveiktu á Internet Information Services (IIS) eiginleikum:
+2. Opnaðu skyndikynni fyrir Local Machine Certificate. Fyrir frekari upplýsingar, sjá [Hvernig á að: Skoða vottorð með MMC snap-in](/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in).
+3. Flytja inn **caenrate.cer** vottorð fyrir framleiðslu og **CAEntratetest.cer** til að prófa í [Traust rótarvottunaryfirvöld verslun](/dotnet/framework/wcf/feature-details/working-with-certificates#certificate-stores). (**CAEntratetest.cer** er rótar-CA vottorðið sem var útvegað af yfirvaldinu.)
+4. Í Control Panel, opnaðu **Kveiktu eða slökktu á Windows eiginleikum**, eða farðu til **Server Manager** \> **Bættu við hlutverkum og eiginleikum** fyrir stýrikerfi netþjónsins (OS) og kveiktu á Internet Information Services (IIS) eiginleikum:
 
     - Vefstjórnunarverkfæri
         - IIS stjórnunarhólf
@@ -256,7 +259,7 @@ Fylgdu þessum skrefum á vélinni þar sem proxy-þjónustan er hýst.
             - HTTP skráning
             - Rakning
         - Frammistöðueiginleikar
-            - Statísk efnisþjöppun
+            - Stöðug efnisþjöppun
         - Öryggi
             - Biðja um síun
 
@@ -276,63 +279,63 @@ Fylgdu þessum skrefum á vélinni þar sem proxy-þjónustan er hýst.
         - **EnvironmentId** – Tilgreindu auðkenni LCS umhverfisins.
         - **ClientId** – Tilgreindu appauðkenni milliþjónustuappsskráningar hjá leigjanda viðskiptavinarins.
         - **ClientCertificateName** – Tilgreindu nafn S2S vottorðsins í lyklahólfinu.
-        - **SecurityServiceClientOptions.Endpoint** – Tilgreina vefslóð öryggisþjónustunnar.
-        - **SecurityServiceClientOptions.Resource** – Tilgreina umfang til að fá táknið fyrir.
-        - **InvoicingServiceClientOptions.Endpoint** – Tilgreina endastöð reikningsfærsluþjónustunnar. Þetta gildi ætti að vera sama endastöð og er notað fyrir RCS og Finance.
-        - **InvoicingServiceClientOptions.ServiceEnvironmentId** – Tilgreinið heiti þjónustuumhverfisins. Þetta gildi ætti að vera nafnið á fjármálaumhverfinu þínu.
-        - **TilkynningarFolder** – Tilgreina möppuna til að vista tilkynningarskrár á innleið í.
+        - **SecurityServiceClientOptions.Endapunktur** – Tilgreindu slóð öryggisþjónustunnar.
+        - **SecurityServiceClientOptions.Resource** – Tilgreindu umfangið til að fá táknið fyrir.
+        - **InvoicingServiceClientOptions.Endapunktur** – Tilgreindu endapunkt reikningsþjónustunnar. Þetta gildi ætti að vera sama endapunktur og notaður er fyrir RCS og Finance.
+        - **InvoicingServiceClientOptions.ServiceEnvironmentId** – Tilgreindu heiti þjónustuumhverfisins. Þetta gildi ætti að vera nafnið á fjármálaumhverfinu þínu.
+        - **Tilkynningarmappa** - Tilgreindu möppuna til að vista tilkynningaskrár í.
 
-    3. **Í web.config** skránni er eftirfarandi línu að finna og bæta við þumalfingri vottorðs staðgengilsþjónsins.
+    3. Í **web.config** skrá, finndu eftirfarandi línu og bættu við þumalfingursmerki proxy-miðlarans.
 
         `<serviceCertificate findValue="[certificate thumbprint]" storeLocation="LocalMachine" storeName="My" x509FindType="FindByThumbprint">`
 
         > [!TIP]
-        > Þegar kerfið fer í framleiðslu er hægt að breyta nokkrum gildum í web.config skránni til að draga úr magni kladdaupplýsinga sem er safnað og hjálpa til við að spara diskpláss. Í hnútnum **\<system.diagnostics\>\<source\>** skal breyta gildi switchValue **í** **Critical,Villa**. Sjá MS Service Trace Viewer [fyrir frekari upplýsingar](/dotnet/framework/wcf/service-trace-viewer-tool-svctraceviewer-exe).
+        > Þegar kerfið fer í framleiðslu geturðu breytt sumum gildum í web.config skránni til að draga úr magni annálaupplýsinga sem er safnað og spara pláss. Í **\<system.diagnostics\>\<source\>** hnút, breyttu gildinu á **switchValue** til **Mikilvægt, villa**. Fyrir frekari upplýsingar, sjá [MS Service Trace Viewer](/dotnet/framework/wcf/service-trace-viewer-tool-svctraceviewer-exe).
 
-4. Opna IIS-stjórnanda. Í trénu vinstra megin er haldið áfram í rótarhnútnum. Til hægri skal velja **Þjónsvottorð**.
+4. Opnaðu IIS Manager. Í trénu til vinstri, vertu áfram í rótarhnútnum. Til hægri velurðu **Netþjónavottorð**.
 
-    ![Val á þjónustuvottorðum í IIS Manager.](media/e-invoicing-ita-fatturapa-get-started-proxy-cert-1.png)
+    ![Val á þjónustuskírteini í IIS Manager.](media/e-invoicing-ita-fatturapa-get-started-proxy-cert-1.png)
 
-5. Opnið valmyndina og veljið **Flytja inn**.
-6. Í svarglugganum **Flytja inn vottorð** í reitnum **Vottorðsskrá (.pfx)** skal tilgreina slóð .pfx-skrárinnar fyrir vottorð staðgengilsþjónsins.
+5. Opnaðu valmyndina og veldu **Flytja inn**.
+6. Í **Innflutningsvottorð** valmynd, í **Vottorðsskrá (.pfx)** reit, tilgreindu slóð .pfx-skrárinnar fyrir proxy-þjónsvottorðið.
 
-    ![Vottorðsskrá staðgengilsþjónustu tilgreind.](media/e-invoicing-ita-fatturapa-get-started-proxy-cert-2.png)
+    ![Að tilgreina vottorðsskrá fyrir proxy-þjónustu.](media/e-invoicing-ita-fatturapa-get-started-proxy-cert-2.png)
 
-7. Veldu og haltu inni (eða hægrismelltu) **Vefsvæðum** og veldu **síðan Bæta við vefsíðu**.
-8. Í svarglugganum **Bæta við vefsíðu** í reitnum Heiti **seturs** skal færa inn heiti fyrir svæðið.
-9. Í reitnum **Efnisleg slóð** er bent á möppuna **src\\ FattureService**.
-10. Í svæðinu **Gerð** bindingar skal velja **https**.
-11. Tilgreinið heiti hýsilsins í reitnum **Heiti** hýsilsins.
-12. **Láta IP-tölu** og **tengissvæðin** vera stillt á sjálfgildin.
-13. Gakktu úr skugga um að gátreiturinn **Krefjast ábendinga þjónsheitis** sé hreinsaður þar sem SDI styður ekki þá tækni.
-14. Í svæðinu **SSL vottorð** skal velja staðgengilsþjónsvottorðið sem þú fluttir inn.
-15. Í reitnum **Hugbúnaðarhópur** skal tilgreina hóp fyrir svæðið og gera athugasemd við heiti þess (til dæmis **SdiAppPool**).
+7. Veldu og haltu inni (eða hægrismelltu) **Síður**, og veldu síðan **Bæta við vefsíðu**.
+8. Í **Bæta við vefsíðu** valmynd, í **Heiti vefsvæðis** reit, sláðu inn nafn fyrir síðuna.
+9. Í **Líkamleg leið** reit, benda á **src\\ FattureService** möppu.
+10. Í **Bindandi gerð** reit, veldu **https**.
+11. Í **Nafn gestgjafa** reit, tilgreindu hýsilheitið.
+12. Skildu eftir **IP tölu** og **Höfn** reiti stilltir á sjálfgefin gildi.
+13. Gakktu úr skugga um að **Krefjast vísbendingar um nafn netþjóns** gátreiturinn er hreinsaður, vegna þess að SDI styður ekki þá tækni.
+14. Í **SSL vottorð** reit, veldu vottorð um proxy-miðlara sem þú fluttir inn.
+15. Í **Umsóknarlaug** reit, tilgreindu laug fyrir síðuna og skráðu nafn hennar (td, **SdiAppPool**).
 
     ![Að bæta við vefsíðu.](media/e-invoicing-ita-fatturapa-get-started-proxy-iis-setup-1.png)
 
-16. Þegar þú hefur lokið við að búa til vefsíðuna skaltu opna valmyndina fyrir **SSL stillingar**.
+16. Eftir að þú hefur lokið við að búa til vefsíðuna skaltu opna valmyndina fyrir **SSL stillingar**.
 
-    ![Opna valmyndina fyrir SSL stillingar.](media/e-invoicing-ita-fatturapa-get-started-proxy-iis-setup-2.png)
+    ![Að opna valmyndina fyrir SSL stillingar.](media/e-invoicing-ita-fatturapa-get-started-proxy-iis-setup-2.png)
 
-17. **Veljið gátreitinn Krefjast SSL** og veljið síðan valkostinn **Krefjast** í svæðaflokki **biðlaravottorða**.
+17. Veldu **Krefjast SSL** gátreitinn og síðan í **Viðskiptavinavottorð** reitahópur, veldu **Krefjast** valmöguleika.
 
-    ![Skilgreining SSL-stillinga.](media/e-invoicing-ita-fatturapa-get-started-proxy-iis-setup-3.png)
+    ![Stilla SSL stillingar.](media/e-invoicing-ita-fatturapa-get-started-proxy-iis-setup-3.png)
 
-18. Opnaðu **vefskoðun** skráasafns og veldu **Gera virkt**.
-19. Í hvaða vafra sem er skaltu fara á **serverDNS/TrasmissioneFatture.svc**. Stöðluð síða um þjónustuna verður að birtast.
+18. Opið **Skráaskoðun**, og veldu **Virkja**.
+19. Farðu í hvaða vafra sem er **serverDNS/TrasmissioneFatture.svc**. Stöðluð síða um þjónustuna verður að birtast.
 
-    ![Skoða þjónustuna í vafra.](media/e-invoicing-ita-fatturapa-get-started-proxy-open-browser.png)
+    ![Athugar þjónustuna í vafra.](media/e-invoicing-ita-fatturapa-get-started-proxy-open-browser.png)
 
-20. Búa til eftirfarandi möppur til að geyma kladda og skrár:
+20. Búðu til eftirfarandi möppur til að geyma annála og skrár:
 
-    - **C:\\ Logs\\** - Geymið kladdaskrár hér. MS Service Trace Viewer [getur skoðað](/dotnet/framework/wcf/service-trace-viewer-tool-svctraceviewer-exe) þessar skrár.
-    - **C:\\ Files\\** - Geymdu allar svarskrárnar hér.
+    - **C:\\ Logs\\** - Geymdu annálsskrár hér. Þessar skrár er hægt að skoða af [MS Service Trace Viewer](/dotnet/framework/wcf/service-trace-viewer-tool-svctraceviewer-exe).
+    - **C:\\ Skrár\\** – Geymdu allar svarskrárnar hér.
 
-21. Í File Explorer, veita **NETWORK SERVICE** og **IIS AppPool\\ SdiAppPool** (eða **IIS AppPool\\ DefaultAppPool** ef þú ert að nota sjálfgefna laug) aðgang að **logs** og **skrár** möppur.
+21. Í File Explorer, veittu **NETÞJÓNUSTA** og **IIS AppPool\\ SdiAppPool** (eða **IIS AppPool\\ DefaultAppPool** ef þú ert að nota sjálfgefna laug) aðgang að **Logs** og **Skrár** möppur.
 
-    1. Veldu og haltu inni (eða hægrismelltu) einni af möppunum og veldu **síðan Eiginleikar**.
+    1. Veldu og haltu inni (eða hægrismelltu) einni af möppunum og veldu síðan **Eiginleikar**.
     2. Í **Eiginleikar** valmynd, á **Öryggi** flipa, veldu **Breyta**.
-    3. Bættu notendum við ef þeir eru ekki á listanum.
+    3. Bættu notendum við ef þeir eru ekki skráðir.
     4. Endurtaktu skref 1 til 3 fyrir hina möppuna.
 
     ![Bætir heimildum við þjónustunotandann.](media/e-invoicing-ita-fatturapa-get-started-proxy-add-user.png)
@@ -342,9 +345,9 @@ Fylgdu þessum skrefum á vélinni þar sem proxy-þjónustan er hýst.
 Að virkja **Ítalskur rafrænn reikningur** eiginleiki gæti krafist þess að takmörkuð gögn séu send. Þessi gögn innihalda skattskráningarauðkenni stofnunarinnar. Kerfisstjóri getur virkjað og slökkt á ítalska rafræna reikningseiginleikanum. Til að slökkva á eiginleikanum skaltu fylgja þessum skrefum.
 
 1. Farið í **Fyrirtækisstjórnun** \> **Uppsetning** \> **Færibreytur rafræns skjals**.
-2. Á **Eiginleikar** flipanum, veldu línurnar sem innihalda **Ítalskur rafrænn reikningur** eiginleiki og veldu síðan **Slökktu núna**.
+2. Á **Eiginleikar** flipann, veldu línurnar sem innihalda **Ítalskur rafrænn reikningur** eiginleiki og veldu síðan **Slökktu núna**.
 
-Gögn sem eru flutt inn úr þessum ytri kerfum inn í þessa Dynamics 365 netþjónustu eru háð okkar [persónuverndaryfirlýsingu](https://go.microsoft.com/fwlink/?LinkId=512132). Fyrir frekari upplýsingar, sjá hlutann „Persónuverndartilkynning“ í lands-/svæðissértækum eiginleikum.
+Gögn sem eru flutt inn úr þessum ytri kerfum inn í þessa Dynamics 365 netþjónustu eru háð okkar [persónuverndaryfirlýsingu](https://go.microsoft.com/fwlink/?LinkId=512132). Frekari upplýsingar er að finna í hlutanum „Persónuverndartilkynning“ í lands-/svæðissértækum eiginleikum.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

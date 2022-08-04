@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Finance, Supply Chain Management og Commerce í US Government Community Cloud (GCC)
-description: Þessi grein veitir upplýsingar um Microsoft Dynamics 365 vörur frá bandarískum stjórnvöldum sem eru í boði fyrir hæfa stjórnvöld og einkaaðila.
+description: Þessi grein veitir upplýsingar um Microsoft Dynamics 365 US Government vörur sem eru í boði fyrir viðurkenndar stjórnvöld og einkaaðila.
 author: hasaid
 ms.date: 11/12/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 90e64fec512307af209ace128d5897475de7aee5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 41789d574cc7348dbf8a18db97da9c428da09602
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867274"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103939"
 ---
 # <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance, Supply Chain Management og Commerce í US Government Community Cloud (GCC)
 
@@ -26,7 +26,7 @@ Veldu Microsoft Dynamics 365 United States (US) Ríkisvörur eru í boði fyrir 
 
 - Bandarískir alríkis-, fylkis-, staðbundnar, ættbálkar- og landstjórnarstofnanir
 - Einkaaðilar sem nota Dynamics 365 US Government til að útvega lausnir til ríkisaðila eða til hæfra meðlima skýjasamfélagsins
-- Einkaaðilar sem hafa gögn um viðskiptavini sem eru háð reglum stjórnvalda og Dynamics 365 US Government er viðeigandi þjónusta til að uppfylla reglugerðarkröfur
+- Einkaaðilar sem hafa viðskiptamannagögn sem eru háð reglum stjórnvalda og Dynamics 365 US Government er viðeigandi þjónusta til að uppfylla reglugerðarkröfur
 
 Fyrir upplýsingar, sjá [Dynamics 365 Bandarísk stjórnvöld](/power-platform/admin/microsoft-dynamics-365-government).
 
@@ -41,7 +41,7 @@ Eftir að fyrstu inngöngu um borð er lokið skaltu fylgja leiðbeiningunum í 
 Eftir að þú hefur lokið inngöngu í verkefni geturðu skoðað viðbótarmöguleika LCS sem lýst er í [Lifecycle Services (LCS) fyrir viðskiptavini fjármála- og rekstrarappa](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Farðu síðan yfir í umhverfisdreifingu.
 
 - Til að dreifa Microsoft-stýrðu umhverfi í gegnum LCS skaltu fylgja leiðbeiningunum í [Lifecycle Services (LCS) fyrir viðskiptavini fjármála- og rekstrarappa](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
-- Fyrir skýhýst umhverfi, sjá [Dreifa og fá aðgang að þróunarumhverfi](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). Þú verður einnig að ljúka viðbúnaðarferli Resource Manager fyrir tengin þín, eins og lýst er í [Ljúktu við inngönguferli Azure Resource Manager fyrir líftímaþjónustuverkefni bandarískra stjórnvalda](arm-onbarding-us-goverment.md).
+- Fyrir skýhýst umhverfi, sjá [Dreifa og fá aðgang að þróunarumhverfi](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). Þú verður einnig að ljúka innleiðingarferli Resource Manager fyrir tengin þín, eins og lýst er í [Ljúktu við inngönguferli Azure Resource Manager fyrir líftímaþjónustuverkefni bandarískra stjórnvalda](arm-onbarding-us-goverment.md).
 
 > [!NOTE]
 > Fyrir LCS verkefni bandarískra stjórnvalda eru aðeins Azure Government-sértækar Azure áskriftir studdar.
@@ -70,11 +70,11 @@ Nr. Í [LCS fyrir GCC](https://gov.lcs.microsoftdynamics.us), þú verður að n
 
 ### <a name="is-the-code-upgrade-tool-available-in-gcc"></a>Er kóðauppfærslutólið fáanlegt í GCC?
 
-Nei, kóðauppfærslutólið er ekki fáanlegt í GCC eins og er. Hins vegar getur þú búið til tilvonandi verkefni í [opinbert LCS](https://lcs.dynamics.com) og notaðu kóðauppfærslutólið. Athugaðu að þú munt ekki geta notað umhverfi í tilvonandi verkefnum.
+Nei, kóðauppfærslutólið er ekki fáanlegt í GCC eins og er. Hins vegar geturðu búið til tilvonandi verkefni í [opinbert LCS](https://lcs.dynamics.com) og notaðu kóðauppfærslutólið. Athugaðu að þú munt ekki geta notað umhverfi í tilvonandi verkefnum.
 
 ### <a name="can-my-partner-open-a-support-ticket-on-my-behalf"></a>Getur félagi minn opnað stuðningsmiða fyrir mína hönd?
 
-Já. Hins vegar, ef félagi þinn notar auðkenni sem ekki er GCC, verður stuðningsmiðanum vísað í opinberu stuðningsröðina. Við mælum með því að þú notir GCC réttindi viðskiptavina í LCS til að opna stuðningsmiða.
+Já. Hins vegar, ef félagi þinn notar auðkenni sem ekki er GCC, verður stuðningsmiðanum vísað í opinbera biðröð. Við mælum með að þú notir GCC réttindi viðskiptavina í LCS til að opna stuðningsmiða.
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -84,3 +84,4 @@ Já. Hins vegar, ef félagi þinn notar auðkenni sem ekki er GCC, verður stuð
 - [Yfirlit yfir uppsetningu skýs](../../../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

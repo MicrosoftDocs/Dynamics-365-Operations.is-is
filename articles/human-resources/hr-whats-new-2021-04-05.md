@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b8074877b8d2b2c05596406cbf2d98febd2e8cc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9388b2f43762bedf07c89a7a565935d2043ee90c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899528"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068002"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-5-2021"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources 5. apríl 2021
 
@@ -71,7 +71,7 @@ Eftirfarandi nýir eiginleikar eru í kynningarútgáfu. Nánari upplýsingar um
 | Eiginleiki | Upplýsingar |
 | --- | --- |
 | Hæfni sem yfirmaður færir inn fyrir starfsmenn sína getur verið sjálfkrafa samþykkt af verkferlinu | Væntanlegt. |
-| Verkvangsuppfærsla 10.0.17 (41) | Verkvangsuppfærsla 10.0.17 á að fara af stað í næstu útgáfu 19. apríl 2021. Fyrir frekari upplýsingar, sjá [Palluppfærslur fyrir útgáfu 10.0.17 af Finance and Operations forritum (apríl 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md). |
+| Verkvangsuppfærsla 10.0.17 (41) | Verkvangsuppfærsla 10.0.17 á að fara af stað í næstu útgáfu 19. apríl 2021. Fyrir frekari upplýsingar, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.17 af fjármála- og rekstraröppum (apríl 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-17.md). |
 
 Fyrir ítarlegan lista yfir áætlaða eiginleika og áætlaðar útgáfur þeirra skal skoða [Yfirlit yfir Dynamics 365 Human Resources 2021 losunarbylgju 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 

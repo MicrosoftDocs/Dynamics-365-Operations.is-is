@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907088"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068360"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Viðmót efnismeðhöndlunarbúnaðar (MHAX)
 
 [!include [banner](../../includes/banner.md)]
 
-Hægt er að nota *viðmót efnismeðhöndlunarbúnaðar* (MHAX) til tengja ytri efnismeðhöndlunarkerfi (MH) við vöruhús sem er stjórnað af ítarlegu vöruhúsakerfi (WMS) í Microsoft Dynamics 365 Supply Chain Management. Viðmótið á milli WMS og MH-kerfa samanstendur af tveimur biðröðum: ein fyrir tilvik á útleið (WMS to MH) og ein fyrir tilvik á innleið (MH til WMS). WMS-kerfið myndar tilvik á útleið út frá vinnulínum sem eru stofnaðar þegar ýmsar vinnur eru stofnaðar og framkvæmdarferlar. MH-kerfið athugar síðan reglulega WMS-kerfið fyrir nýjum tilvikum og vinnur úr svörunum. Þegar MH-kerfið hefur lokið við meðhöndlun tilvikanna í samræmi við verkleiðbeiningar, sendir það tilvik á innleið, svo sem vinnulínulok og of lítil tiltekt.
+Þú getur notað *viðmót efnismeðferðarbúnaðar* (MHAX) til að tengja ytri efnismeðferðarkerfi (MH) við vöruhús sem er stjórnað af vöruhúsastjórnunarferlum (WMS) í Microsoft Dynamics 365 Supply Chain Management. Viðmótið á milli WMS og MH-kerfa samanstendur af tveimur biðröðum: ein fyrir tilvik á útleið (WMS to MH) og ein fyrir tilvik á innleið (MH til WMS). WMS-kerfið myndar tilvik á útleið út frá vinnulínum sem eru stofnaðar þegar ýmsar vinnur eru stofnaðar og framkvæmdarferlar. MH-kerfið athugar síðan reglulega WMS-kerfið fyrir nýjum tilvikum og vinnur úr svörunum. Þegar MH-kerfið hefur lokið við meðhöndlun tilvikanna í samræmi við verkleiðbeiningar, sendir það tilvik á innleið, svo sem vinnulínulok og of lítil tiltekt.
 
 Eftirfarandi mynd sýnir ýmsar einingar og röðina sem unnið er úr í þegar MHAX-samþættingu er notuð.
 

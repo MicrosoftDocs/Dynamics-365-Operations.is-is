@@ -1,6 +1,6 @@
 ---
 title: Hreinsunarvinnsla lagerbirgðafærslna í vöruhúsakerfi
-description: Þessi grein lýsir hreinsunarvinnunni fyrir færslur sem eru á hendi, sem hjálpar til við að bæta afköst kerfisins með því að bera kennsl á og eyða tengdum en óþarfa skrám.
+description: Þessi grein lýsir hreinsunarvinnunni fyrir færslur á hendi, sem hjálpar til við að bæta afköst kerfisins með því að bera kennsl á og eyða tengdum en óþarfa skrám.
 author: perlynne
 ms.date: 04/23/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900507"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065150"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Hreinsunarvinnsla lagerbirgðafærslna vöruhúsakerfis
 
@@ -26,11 +26,11 @@ ms.locfileid: "8900507"
 
 Afköst fyrirspurna sem eru notaðar til að reikna lagerbirgðir verður fyrir áhrifum af færslufjöldanum í töflunum sem koma við sögu. Ein leið til að auka afköst er að draga úr fjölda færslna sem gagnagrunnurinn þarf að hafa í huga.
 
-Þessi grein lýsir hreinsunarvinnunni fyrir færslur sem eru til staðar, sem eyðir óþarfa skrám í InventSum og WHSInventReserve töflunum. Þessar töflur geyma upplýsingar um lager fyrir vörur sem eru virkar fyrir vinnslu vöruhúsakerfis. (Þessar vörur nefnast WHS-vörur.) Eyðing þessara færslna getur stóraukið afköst lagerútreikninga.
+Þessi grein lýsir hreinsunarvinnunni fyrir færslur á hendi, sem eyðir óþarfa skrám í`InventSum` og`WHSInventReserve` borðum. Þessar töflur geyma upplýsingar um lager fyrir vörur sem eru virkar fyrir vinnslu vöruhúsakerfis. (Þessar vörur nefnast WMS-vörur.) Eyðing þessara færslna getur stóraukið afköst lagerútreikninga.
 
 ## <a name="what-the-cleanup-job-does"></a>Hvað gerir hreinsunarvinnslan
 
-Hreinsunarvinnsla lagerbirgðafærslna eyðir öllum færslum í töflunum WHSInventReserve og InventSum þar sem öll reitargildi eru *0* (núll). Hægt er að eyða þessum færslum vegna þess að þær leggja ekki til upplýsingar um lagerbirgðir. Vinnslan eyðir aðeins færslum sem eru fyrir neðan stigið **Staðsetning**.
+Hreinsunarstarfið fyrir færslur eyðir öllum skrám í`WHSInventReserve` og`InventSum` töflur þar sem öll svæðisgildin eru *0* (núll). Hægt er að eyða þessum færslum vegna þess að þær leggja ekki til upplýsingar um lagerbirgðir. Vinnslan eyðir aðeins færslum sem eru fyrir neðan stigið **Staðsetning**.
 
 Ef neikvæðar efnislegar birgðir eru leyfðar er hugsanlegt að hreinsunarvinnslan geti ekki eytt öllum færslum sem eiga við. Ástæðan fyrir þessari takmörkun er sú að vinnslan verður að leyfa sérstakar aðstæður þar sem númeraplata er með mörg raðnúmer og eitt þessara raðnúmera er orðið neikvætt. Til dæmis verður kerfið með núll á lager á stigi númeraplötu þegar númeraplata er með +1 stk af raðnúmeri 1 og –1 stk af raðnúmeri 2. Við þessar sérstöku aðstæður eyðir vinnslan fyrst á breiddina, þar sem hún reynir fyrst að eyða á lægri stigum.
 

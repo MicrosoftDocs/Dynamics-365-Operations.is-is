@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6d440a0d0d95fe93ed633fa588e1c3a193757d9d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016160"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070380"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Færibreytur framleiðslu í framkvæmd framleiðslu
 
@@ -71,7 +71,7 @@ Fyrir hvert stig gerir reiturinn **Sjálfvirk uppskriftanotkun** þér kleift a�
   - Autt (enginn valkostur er valinn.)
   - **Tiltækt í staðsetningu**
 
-    Sé **Losunarregla** valin Framkvæmd framleiðslu, í reitnum **Sjálfvirk uppskriftanotkun** á flipanum **Ræsa**, eru öll hráefni sem eru stillt á **Ræsa** í uppskriftinni dregin frá birgðum þegar aðgerð er hafin. Valkosturinn **Tiltækt í staðsetningu** er notaður fyrir afurðir sem eru virkjaðar fyrir ítarleg vöruhúsaferli. Sé þessi losunarregla valin er hráefni losað þegar vöruhúsavinnu fyrir hráefnatiltekt er lokið. Hráefni er einnig losað þegar uppskriftarlína sem notast við þessa losunarreglu er losuð í vöruhús og hráefnið er tiltækt í staðsetningu framleiðsluinntaks.
+    Sé **Losunarregla** valin Framkvæmd framleiðslu, í reitnum **Sjálfvirk uppskriftanotkun** á flipanum **Ræsa**, eru öll hráefni sem eru stillt á **Ræsa** í uppskriftinni dregin frá birgðum þegar aðgerð er hafin. The **Fæst á staðnum** valkostur er notaður fyrir vörur sem eru virkjaðar fyrir vöruhúsastjórnunarferli (WMS). Sé þessi losunarregla valin er hráefni losað þegar vöruhúsavinnu fyrir hráefnatiltekt er lokið. Hráefni er einnig losað þegar uppskriftarlína sem notast við þessa losunarreglu er losuð í vöruhús og hráefnið er tiltækt í staðsetningu framleiðsluinntaks.
 
     > [!NOTE]
     > Ef reiturinn **Losunarregla** er valinn á flipanum **Ræsa** í framkvæmd framleiðslu verður þú að velja sömu reglu á flipanum **Operations** eða flipanum **Tilkynna sem lokið**. Þessi krafa hjálpar til við að tryggja að efni sé dregið frá birgðum á uppskriftum sem nota **Lokið** sem losunarreglu á framleiðslupöntuninni. Ef sama losunarregla er ekki valin á flipanum **Aðgerðir** eða flipanum **Tilbúið** gæti hráefnið verið dregið tvisvar frá birgðum.

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 186dcdca9d6db5ca16d84f084c66700ddfe8bb5d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 335bdc9690b3111f4a04adc7e82d62de36ff4caf
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857432"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065989"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Áætlanagerð blandaðrar stillingar: Sameina afmarkaða, ferli og lean uppruna
 
@@ -33,7 +33,7 @@ Hægt er að velja heildar stefnunn fyrir útvegun afurðar óháð uppbyggingu 
 
 Til dæmis er hægt að hafa kanban-stýringu í samsetningunni, þar sem efni eru fengin úr uppruna fyrir samsetningarsvæði samkvæmt framleiðslupöntunum, kanban, flutningum, runu pöntunum, eða hvaða annarri samsetningu sem er viðeigandi fyrir eðli aðfangakeðju þinnar, en enn er hægt að hafa fullan sýnileika á milli aðfanga. Þessi eiginleiki leiðir til mestu hagræðingar í ferlum aðfangakeðju og aukins sýnileika í birgðakeðju þinni.  
 
-Nákvæmnistig aðfangastefnu sem eru notaðar í aðalröðun fer eftir geymsluvíddunum sem eru virkjaðar sem þakningarvíddir. Til að virkja aðalröðun til að stjórna áfyllingu og framboði mismunandi gerða staðsetninga (til dæmis með því að aðgreina á framleiðslugólf fyrir mismunandi framleiðslueiningar, eða með því að aðgreina mismunandi gerðir af efni og fullbúnar vörur vöruhúsa) er mælt er með því virkja Svæði og Vöruhús sem þakningarvíddir. Einnig er hægt að sleppa Vöruhúsi sem þekjuvídd. Í því tilfelli, þegar þú notar ítarlega vöruhúsastjórnun , eru allar hreyfingar innan vöruhúss stýrt af vöruhúsavinnu, en allar hreyfingar milli vöruhúsa er stýrt af úttektarkanbönum.
+Nákvæmnistig aðfangastefnu sem eru notaðar í aðalröðun fer eftir geymsluvíddunum sem eru virkjaðar sem þakningarvíddir. Til að virkja aðalröðun til að stjórna áfyllingu og framboði mismunandi gerða staðsetninga (til dæmis með því að aðgreina á framleiðslugólf fyrir mismunandi framleiðslueiningar, eða með því að aðgreina mismunandi gerðir af efni og fullbúnar vörur vöruhúsa) er mælt er með því virkja Svæði og Vöruhús sem þakningarvíddir. Einnig er hægt að sleppa Vöruhúsi sem þekjuvídd. Í því tilviki, þegar þú notar vöruhúsastjórnunarferli (WMS), er öllum hreyfingum innan vöruhúss stjórnað af vöruhúsavinnu, en allar hreyfingar milli vöruhúsa er hægt að stjórna með úttektarkanbans.
 
 ## <a name="supply-policies"></a>Framboðsreglur
 Áætlanagerð blandaðrar stillingar stýrir því hvernig afurð er veitt og, samkvæmt framboði, hvernig afleiddar kröfur (notkun vara úr \[uppskrift\]) eru gefnar út. samkvæmt Gerð pöntunar, finnur kerfið sjálfkrafa uppruna efnis til samræmis við þarfir.  

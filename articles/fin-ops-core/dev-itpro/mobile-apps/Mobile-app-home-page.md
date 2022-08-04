@@ -1,6 +1,6 @@
 ---
 title: Heimasíða fartækjaforrits
-description: Þessi grein lýsir Finance and Operations (Dynamics 365) farsímaforritinu og veitir tengla á úrræði sem geta hjálpað þér að innleiða það í fyrirtækinu þínu.
+description: Þessi grein lýsir fjármála- og rekstrarforritinu (Dynamics 365) og veitir tengla á úrræði sem geta hjálpað þér að innleiða það í fyrirtækinu þínu.
 author: ChrisGarty
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: d73a8d3cf8a7899f16db87148456671dea773636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 973fdcd81a83b6b70e8fa941c4f0c9d24b5cb559
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868760"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066454"
 ---
 # <a name="mobile-app-home-page"></a>Heimasíða fartækjaforrits
 
@@ -77,7 +77,7 @@ Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að
 <tr class="odd">
 <td>1</td>
 <td>Kerfisstjóri</td>
-<td>Innleiða Finance and Operations appið í fyrirtækinu þínu.</td>
+<td>Innleiða fjármála- og rekstrarappið í fyrirtækinu þínu.</td>
 <td><ul><li>Ef þú hefur ekki enn notað útgáfu af &#39;Microsoft Dynamics 365 skaltu sjá <a href="../deployment/deploy-demo-environment.md">Virkja sýniútgáfuumhverfi</a>.</li><li>Lista yfir fartækjavinnusvæði sem hægt er að nota má sjá á <a href="mobile-workspaces-released.md">Fartækjavinnusvæði, nýlega útgefin</a>.</li></ul></td>
 </tr>
 <tr class="even">
@@ -132,8 +132,8 @@ Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að
 <td>Notandi</td>
 <td>Sæktu og settu upp fartækjaforritið.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Forrit Finance and Operations fyrir Android</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Forrit Finance and Operations fyrir iOS</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">App fyrir fjármál og rekstur Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Fjármála- og rekstrarforrit fyrir iOS</a><BR/>
 (Styður ekki Windows Phone)
 </td>
 </tr>
@@ -152,3 +152,4 @@ Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

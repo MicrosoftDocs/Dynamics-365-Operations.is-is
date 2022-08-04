@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 66ed258ebddaadb5a306f41dea3e439e9b5a7be3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907117"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065864"
 ---
 # <a name="import-inbound-asns-through-the-v3-data-entity"></a>Flytja inn ASN á innleið í gegnum V3-gagnaeininguna
 
@@ -29,7 +29,7 @@ ASNs getur hjálpað starfsmönnum vöruhúss að komast að því hvað er á l
 Þessi grein sýnir safn atburðarása sem sýna, með dæmum, hvernig á að vinna með ASN skrár.
 
 > [!IMPORTANT]
-> Innflutningur *ASN á innleið* á aðeins við um vörur sem eru virkjaðar fyrir ítarlegt vöruhúsakerfi. Áður en þú móttekur ASN verður innkaupapöntun að vera skráð í kerfið gagnvart lánardrottninum sem sendir ASN.
+> *ASN á heimleið* innflutningur á aðeins við um vörur sem eru virkjaðar fyrir vöruhússtjórnunarferli (WMS). Áður en þú móttekur ASN verður innkaupapöntun að vera skráð í kerfið gagnvart lánardrottninum sem sendir ASN.
 
 ## <a name="inbound-asn-v3-entity"></a>Eining ASN á innleið V3
 

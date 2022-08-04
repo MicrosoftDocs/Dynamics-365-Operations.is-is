@@ -1,6 +1,6 @@
 ---
 title: Gæðastjórnun fyrir vöruhúsaferli
-description: Þessi grein veitir upplýsingar um eiginleikann Gæðastjórnun fyrir vöruhúsaferli. Þessi eiginleiki eykur getu gæðastjórnunar og gerir notendum kleift að samþætta stjórnun vörusýnatöku við móttökuferli vöruhúss með því að nota ítarlegt vöruhúsakerfi.
+description: Þessi grein veitir upplýsingar um eiginleikann Gæðastjórnun fyrir vöruhúsaferli. Þessi eiginleiki eykur getu gæðastjórnunar og gerir notendum kleift að samþætta vörusýnatökustýringar í móttökuferli vöruhúss með því að nota vöruhússtjórnunarferli (WMS).
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13c9bf522ededb5896c5f8462bfe123e9a9edb2c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857838"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069243"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gæðastjórnun fyrir vöruhúsaferli
 
 [!include [banner](../includes/banner.md)]
 
-Eiginleikinn _Gæðastjórnun fyrir vöruhúsaferla_ gerir þér kleift að samþætta stjórnun vörusýnatöku við móttökuferli vöruhúss með því að nota ítarlegt vöruhúsakerfi. Vöruhúsavinnu er hægt að gera þannig að hún færi birgðir sjálfkrafa á staðsetningu gæðastjórnunar, byggt á prósentu eða föstu magni, eða byggt á *n* hverri númeraplötu. Eftir að lokið hefur verið við gæðapöntun, er hægt að gera vinnu þannig að hún færi birgðir sjálfkrafa á næstu staðsetningu í ferlinu, háð gæðaniðurstöðum.
+The _Gæðastjórnun fyrir vöruhúsaferli_ eiginleiki gerir þér kleift að samþætta vörusýnatökustýringar í móttökuferli vöruhúss með því að nota vöruhússtjórnunarferli (WMS). Vöruhúsavinnu er hægt að gera þannig að hún færi birgðir sjálfkrafa á staðsetningu gæðastjórnunar, byggt á prósentu eða föstu magni, eða byggt á *n* hverri númeraplötu. Eftir að lokið hefur verið við gæðapöntun, er hægt að gera vinnu þannig að hún færi birgðir sjálfkrafa á næstu staðsetningu í ferlinu, háð gæðaniðurstöðum.
 
 Eiginleikinn _Gæðastjórnun fyrir vöruhúsaferla_ eykur möguleika eiginleika grunngæðastjórnunar. Hann býður upp á möguleika á að búa til gæðapantanir fyrir birgðirnar sem sendar eru á staðsetningu gæðastjórnunar, þótt gæðapantanir séu ekki alltaf nauðsynlegar. Þar af leiðandi býður hann upp á létt gæðastjórnunarferli sem byggist á vöruhúsavinnu.
 
@@ -77,7 +77,7 @@ Fyrir skref-fyrir-skref dæmi sem sýnir hvernig á að klára þessa uppsetning
 
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Vöruhús \> Vöruhús**.
 1. Veldu vöruhúsið sem nota á í gæðastjórnun.
-1. Í flýtiflipanum **Vöruhús** skal stilla valkostinn **Virkja gæðapöntun fyrir vöruhúsaferli** á _Já_. (Athugið að aðeins er hægt að stilla þennan valkost á _Já_ fyrir vöruhús sem nota vöruhúsakerfisferli.)
+1. Í flýtiflipanum **Vöruhús** skal stilla valkostinn **Virkja gæðapöntun fyrir vöruhúsaferli** á _Já_. (Athugið að hægt er að stilla þennan valkost á _Já_ aðeins fyrir vöruhús sem nota vöruhúsastjórnunarferli (WMS).)
 
 Þegar valkosturinn **Virkja gæðapöntun fyrir vöruhúsaferli** er stilltur á _Já_ stjórnar uppsetning gæðatengingar því hvort eiginleikinn _Gæðastjórnun fyrir vöruhúsaferli_ sé í raun og veru notuð fyrir valið vöruhús. Hægt er að breyta valkostinum í _Nei_ hvenær sem er. Þá á eiginleikinn ekki lengur við fyrir vöruhúsið, óháð uppsetningu gæðatengingar.
 
@@ -97,7 +97,7 @@ Hver [gæðatengingafærsla](enable-quality-management.md) skilgreinir einnig pr
     - **Allt** – Óvirkjaðu _Gæðastjórnun fyrir vöruhúsaferli_ eiginleikinn. Veldu þetta gildi fyrir allar tilvísunargerðir nema *Innkaup* og *Framleiðsla*.
 
 > [!NOTE]
-> Eiginleikinn _Gæðastjórnun fyrir vöruhúsaferli_ tekur aðeins gildi ef varan í upprunaskjalslínunni notar ítarlegt vöruhúsakerfisferli og ef valkosturinn **Virkja gæðapöntun fyrir vöruhúsaferli** er stilltur á _Já_ fyrir vöruhúsið á upprunaskjalslínunni.
+> The _Gæðastjórnun fyrir vöruhúsaferli_ eiginleiki tekur aðeins gildi ef hluturinn á upprunaskjalslínunni notar vöruhúsastjórnunarferli (WMS), og ef **Virkja gæðapöntun fyrir vöruhúsaferli** valkostur er stilltur á _Já_ fyrir vöruhúsið á upprunaskjalslínunni.
 
 Þegar hver vara er skráð (eða gefin upp sem lokið) ákvarðar kerfið hvaða gæðatengingar eiga við.
 

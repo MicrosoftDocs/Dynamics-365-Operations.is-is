@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: 0d857ef31e0fed2a0d7550197209fac9251d8812
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022505"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069787"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -74,11 +74,11 @@ Listinn yfir virkar vinnslur er með eftirfarandi dálkum:
 
 ## <a name="my-jobs-tab"></a>Störfin mín flipinn
 
-The **Mín störf** flipann skulum starfsmenn auðveldlega skoða öll óbyrjuð og ólokið störf sem þeim er úthlutað sérstaklega. Það er gagnlegt í fyrirtækjum þar sem störf eru stundum eða alltaf úthlutað tilteknum starfsmönnum (mannauðs) í stað annars konar auðlinda (svo sem vélar).
+The **Mín störf** flipann gerir starfsmönnum kleift að skoða auðveldlega öll óbyrjuð og ólokin störf sem þeim er úthlutað sérstaklega. Það er gagnlegt í fyrirtækjum þar sem störf eru stundum eða alltaf úthlutað tilteknum starfsmönnum (mannauðs) í stað annars konar auðlinda (svo sem vélar).
 
 Tímasetningarkerfið úthlutar sjálfkrafa hverju framleiðsluverki á tiltekna tilfangafærslu og hver tilfangaskrá hefur gerð (eins og vél eða manneskju). Þegar þú setur upp starfsmann sem framleiðslustarfsmann geturðu tengt starfsmannsreikninginn við einstaka mannauðsskrá.
 
-The **Mín störf** flipinn sýnir öll óbyrjuð og ólokin störf sem hafa verið úthlutað á mannauðsskrá innskráða starfsmannsins, ef einhver starfsmaður er skráður inn. Það sýnir aldrei störf sem hafa verið úthlutað á vél eða annars konar auðlind, jafnvel þótt innritaður starfsmaður hafi byrjað að vinna við þau störf.
+The **Mín störf** flipinn sýnir öll óbyrjuð og ólokin störf sem hafa verið úthlutað á mannauðsskrá innskráða starfsmannsins, ef einhver starfsmaður er skráður inn. Það listar aldrei upp störf sem hafa verið úthlutað á vél eða annars konar auðlind, jafnvel þótt innritaður starfsmaður hafi byrjað að vinna við þau störf.
 
 Til að skoða öll störf sem innskráður starfsmaður hefur hafið, óháð tegund auðlindar sem hverju verki er úthlutað á, notaðu **Virk störf** flipa. Notaðu **Öll störf** flipa.
 
@@ -204,7 +204,7 @@ Hægt er að framkvæma eftirfarandi aðgerðir:
 
 ### <a name="adjust-material-from-the-primary-or-secondary-toolbar"></a>Stilltu efni frá aðal- eða aukatækjastikunni
 
-The **Stilla efni** Hægt er að stilla hnappinn þannig að hann birtist á aðal- eða aukatækjastikunni. (Nánari upplýsingar er að finna í [Hannaðu framkvæmdarviðmót framleiðslugólfsins](production-floor-execution-tabs.md) .) Starfsmaður getur valið **Stilla efni** fyrir framleiðslustarf sem er í vinnslu. Í þessu tilviki er **Stilla efni** svargluggi birtist þar sem starfsmaðurinn getur gert þær breytingar sem óskað er eftir. Þegar svarglugginn er opnaður er framleiðslutínslulisti sem inniheldur línur fyrir leiðrétt magn búinn til fyrir framleiðslupöntunina. Ef starfsmaður velur **Sendu núna**, leiðréttingin er staðfest og tínslulistinn settur. Ef starfsmaður velur **Hætta við**, plokkunarlistanum er eytt og engin leiðrétting gerð.
+The **Stilla efni** Hægt er að stilla hnappinn þannig að hann birtist á aðal- eða aukatækjastikunni. (Fyrir frekari upplýsingar, sjá [Hannaðu framkvæmdarviðmót framleiðslugólfsins](production-floor-execution-tabs.md) .) Starfsmaður getur valið **Stilla efni** fyrir framleiðslustarf sem er í vinnslu. Í þessu tilviki er **Stilla efni** svargluggi birtist þar sem starfsmaðurinn getur gert þær breytingar sem óskað er eftir. Þegar svarglugginn er opnaður er framleiðslutínslulisti sem inniheldur línur fyrir leiðrétt magn búinn til fyrir framleiðslupöntunina. Ef starfsmaður velur **Sendu núna**, leiðréttingin er staðfest og tínslulistinn settur. Ef starfsmaður velur **Hætta við**, plokkunarlistanum er eytt og engin leiðrétting gerð.
 
 ### <a name="adjust-material-consumption-for-catch-weight-items"></a>Stilltu efnisnotkun fyrir aflaþyngdarhluti
 
@@ -217,7 +217,7 @@ Starfsmenn geta stillt efnisnotkun fyrir aflaþyngdarhluti. Þessi virkni er not
 
 Í **Stilla efni** svarglugga getur starfsmaður gert og stillt efnispöntun með því að velja **Varaefni**. The **Varaefni** svargluggi sem birtist sýnir efnislega tiltækar birgðir fyrir vöruna fyrir hverja geymslu- og rakningarvídd.
 
-Ef efnið er virkt fyrir háþróuð vöruhúsaferli sýnir listinn aðeins efnislega tiltækar birgðir fyrir framleiðsluinntaksstaðsetningu fyrir efnið. Staðsetning framleiðsluinntaks er skilgreind á tilfanginu þar sem framleiðsluverkið er skipulagt. Ef vörunúmerið er runu- eða raðnúmerstýrt, birtist heildarlisti yfir efnislega tiltæka lotu- og raðnúmer. Til að tilgreina magn sem á að panta getur starfsmaðurinn valið **Varaefni**. Til að fjarlægja fyrirvara getur starfsmaðurinn valið **Fjarlægja fyrirvara**.
+Ef efnið er virkt fyrir vöruhúsastjórnunarferli (WMS), sýnir listinn aðeins efnislega tiltækar birgðir fyrir framleiðsluinntaksstaðsetningu fyrir efnið. Staðsetning framleiðsluinntaks er skilgreind á tilfanginu þar sem framleiðsluverkið er skipulagt. Ef vörunúmerið er runu- eða raðnúmerstýrt, birtist heildarlisti yfir efnislega tiltæka lotu- og raðnúmer. Til að tilgreina magn sem á að panta getur starfsmaðurinn valið **Varaefni**. Til að fjarlægja fyrirvara getur starfsmaðurinn valið **Fjarlægja fyrirvara**.
 
 Fyrir frekari upplýsingar um hvernig á að setja upp framleiðsluinntaksstaðsetningu, sjá eftirfarandi bloggfærslu: [Uppsetning framleiðsluinntaksstaðsetningar](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
 
@@ -261,7 +261,7 @@ Starfsmenn geta skráð hlé. Hægt er að skilgreina hlé með sveigjanlegum h�
 
 Starfsmaður skráir hlé með því að velja **Hlé** og síðan velja spjaldið sem stendur fyrir gerð hlés (t.d. hádegismatur). Eftir að starfsmaðurinn staðfestir valið sýnir tækið annaðhvort innskráningarsíðuna eða síðu sem bíður þess að starfsmaðurinn staðfesti að þeir hafi skilað úr hléinu. Síðan sem birtist fer eftir skilgreiningunni á keyrsluviðmóti framleiðslugólfsins. (Frekari upplýsingar er að finna í [Skilgreina keyrsluviðmót framleiðslugólfsins](production-floor-execution-configure.md).)
 
-## <a name="view-the-my-day-dialog"></a>Skoðaðu "Dagurinn minn" gluggann
+## <a name="view-the-my-day-dialog"></a>Skoðaðu gluggann „Dagurinn minn“
 
 The **Minn dagur** dialog veitir starfsmönnum yfirsýn yfir skráningar þeirra og stöður. Valmyndinni er skipt í eftirfarandi þrjá hluta:
 
@@ -277,7 +277,7 @@ Stjórnendur geta bætt þessum eiginleika við viðmótið með því að setja
 
 ### <a name="prerequisites"></a>Forkröfur
 
-Til að nota teymi verður stjórnandi að virkja **Aðstoðarmaður** aðgerð fyrir aðal tækjastikuna á **Öll störf** flipa í framkvæmdarviðmóti framleiðslugólfs. Fyrir leiðbeiningar, sjá [Hannaðu framkvæmdarviðmót framleiðslugólfsins](production-floor-execution-tabs.md).
+Til að nota teymi verður stjórnandi að virkja **Aðstoðarmaður** aðgerð fyrir aðal tækjastikuna á **Öll störf** flipa í framkvæmdarviðmóti framleiðslugólfsins. Fyrir leiðbeiningar, sjá [Hannaðu framkvæmdarviðmót framleiðslugólfsins](production-floor-execution-tabs.md).
 
 ### <a name="form-a-new-team-that-has-a-pilot-and-an-assistant"></a>Myndaðu nýtt lið sem hefur flugmann og aðstoðarmann
 

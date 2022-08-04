@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f6f3f2db6efcc4d4d6ae3d278751a230fca9a64
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899325"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068597"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Dæmi um aðstæður reglulegrar talningar
 
@@ -28,7 +28,7 @@ ms.locfileid: "8899325"
 
 ### <a name="make-demo-data-available"></a>Bjóða upp á sýnigögn
 
-Hver atburðarás í þessari grein vísar til gilda og skráa sem eru innifalin í stöðluðum kynningargögnum sem eru veitt fyrir Supply Chain Management. Ef nota á gildin sem er boðið upp á hér þegar farið er í gegnum aðstæðurnar skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett og stilla lögaðilann (fyritækið) á **USMF** áður en hafist er handa.
+Hver atburðarás í þessari grein vísar til gilda og færslur sem eru innifalin í stöðluðum kynningargögnum sem eru veitt fyrir Supply Chain Management. Ef nota á gildin sem er boðið upp á hér þegar farið er í gegnum aðstæðurnar skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett og stilla lögaðilann (fyritækið) á **USMF** áður en hafist er handa.
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>Kveikja á stuðningi fyrir farsímaforrit Warehouse Management
 
@@ -127,7 +127,7 @@ Fylgið þessum skrefum til að staðfesta að öll sýnigögn sem þarf fyrir a
 1. Á listasvæðinu skal velja vöruhús *61*. Ef engin fyrirliggjandi færsla er með það heiti skal búa hana til.
 1. Í flýtiflipanum **Vöruhús** skal stilla eftirfarandi gildi:
 
-    - **Nota vöruhúsakerfisferli:** *Já* (Þetta gildi virkjar vöruhúsið fyrir vöruhúsakerfisferli.)
+    - **Notaðu vöruhússtjórnunarferli:** *Já* (Þetta gildi gerir vöruhúsinu kleift fyrir vöruhússtjórnunarferli (WMS).)
     - **Leyfa hreyfingar númeraplötu við reglulega talningu:** *Já* (Þetta gildi gerir starfsmönnum kleift að flytja númeraplötur við reglulega talningu.)
 
 ## <a name="scenario-1-guided-cycle-counting"></a>Aðstæður 1: Regluleg talning með leiðsögn
@@ -158,7 +158,7 @@ Fylgið þessum skrefum til að stofna vinnu reglulegrar talningar frá vörusta
 
 Þegar búið er að stofna vinna reglulegrar talningar er hægt að gera vinnuna með því að telja vörur á staðsetningu vöruhúss og síðan nota fartæki til að færa niðurstöðurnar inn í Supply Chain Management. Fylgið þessum skrefum til að gera vinna reglulegrar talningar í farsímaforriti Warehouse Management.
 
-1. Skráðu þig inn á vöruhússtjórnun farsímaforritið sem vinnunotandinn sem þú setur upp í [Undirbúa kynningargögn fyrir atburðarásina](#prepare-demo-data) kafla fyrr í þessari grein. Fyrir dæmið í þessari grein er notandinn nefndur *Julia Funderburk* og er sett upp fyrir lager *61*. (Sýnigögn USMF leyfa þér að skrá þig inn sem þessi vinnunotandi með því að slá inn *61* sem notandakennið og *1* sem aðgangsorð.)
+1. Skráðu þig inn í Vöruhússtjórnun farsímaforritið sem vinnunotandinn sem þú setur upp í [Undirbúa kynningargögn fyrir atburðarásina](#prepare-demo-data) kafla fyrr í þessari grein. Fyrir dæmið í þessari grein er notandinn nefndur *Julia Funderburk* og er sett upp fyrir lager *61*. (Sýnigögn USMF leyfa þér að skrá þig inn sem þessi vinnunotandi með því að slá inn *61* sem notandakennið og *1* sem aðgangsorð.)
 1. Í aðalvalmyndinni skal velja **Birgðir**.
 1. Í valmyndinni **Birgðir** skal velja **Regluleg talning með leiðsögn**.
 1. Veljið reitinn **Magn**, færið inn *9* með því að nota talnaborðið og veljið síðan **Í lagi** (gátmerkishnappinn).
@@ -227,7 +227,7 @@ Fylgið þessum skrefum til að fara yfir mismun á reglulegri talningu.
 
 Þegar búið er að stofna vinna reglulegrar talningar skal fylgja þessum skrefum til að gera vinnuna í farsímaforrit Warehouse Management.
 
-1. Skráðu þig inn á vöruhússtjórnun farsímaforritið sem vinnunotandinn sem þú setur upp í [Undirbúa kynningargögn fyrir atburðarásina](#prepare-demo-data) kafla fyrr í þessari grein. Fyrir dæmið í þessari grein er notandinn nefndur *Julia Funderburk* og er sett upp fyrir lager *61*. (Sýnigögn USMF leyfa þér að skrá þig inn sem þessi vinnunotandi með því að slá inn *61* sem notandakennið og *1* sem aðgangsorð.)
+1. Skráðu þig inn í Vöruhússtjórnun farsímaforritið sem vinnunotandinn sem þú setur upp í [Undirbúa kynningargögn fyrir atburðarásina](#prepare-demo-data) kafla fyrr í þessari grein. Fyrir dæmið í þessari grein er notandinn nefndur *Julia Funderburk* og er sett upp fyrir lager *61*. (Sýnigögn USMF leyfa þér að skrá þig inn sem þessi vinnunotandi með því að slá inn *61* sem notandakennið og *1* sem aðgangsorð.)
 1. Í aðalvalmyndinni skal velja **Birgðir**.
 1. Í valmyndinni **Birgðir** skal velja **Blind regluleg talning**.
 1. Veljið reitinn **Svæðiskenni**, færið inn *BULK06* og veljið síðan **Í lagi** (gátmerkishnappurinn).
@@ -259,7 +259,7 @@ Lagerfærslurnar segja að til eru lagerbirgðir af vöru *L0101* á staðsetnin
 
 Fylgið þessum skrefum til að gera vinna reglulegrar talningar í farsímaforriti Warehouse Management.
 
-1. Skráðu þig inn á vöruhússtjórnun farsímaforritið sem vinnunotandinn sem þú setur upp í [Undirbúa kynningargögn fyrir atburðarásina](#prepare-demo-data) kafla fyrr í þessari grein. Fyrir dæmið í þessari grein er notandinn nefndur *Julia Funderburk* og er sett upp fyrir lager *61*. (Sýnigögn USMF leyfa þér að skrá þig inn sem þessi vinnunotandi með því að slá inn *61* sem notandakennið og *1* sem aðgangsorð.)
+1. Skráðu þig inn í Vöruhússtjórnun farsímaforritið sem vinnunotandinn sem þú setur upp í [Undirbúa kynningargögn fyrir atburðarásina](#prepare-demo-data) kafla fyrr í þessari grein. Fyrir dæmið í þessari grein er notandinn nefndur *Julia Funderburk* og er sett upp fyrir lager *61*. (Sýnigögn USMF leyfa þér að skrá þig inn sem þessi vinnunotandi með því að slá inn *61* sem notandakennið og *1* sem aðgangsorð.)
 1. Í aðalvalmyndinni skal velja **Birgðir**.
 1. Í valmyndinni **Birgðir** skal velja **Talning á staðnum**.
 1. Veldu reitinn **Staðsetning**, sláið inn *01A02R2S1B* og veljið svo **Í lagi** (gátmerkishnappurinn).

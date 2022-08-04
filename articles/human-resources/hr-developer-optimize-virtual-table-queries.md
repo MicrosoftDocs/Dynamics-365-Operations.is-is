@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f75176781620cd6f845c002876eba6e34d5793e7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1f379cd7783cc984666582d2c680a1db013627ce
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692227"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070173"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Fínstilla Dataverse sýndartöflufyrirspurnir
 
@@ -49,12 +49,12 @@ Ein orsök á hægum afköstum með Dataverse sýndartöflur fyrir Human Resourc
 Dæmi þar sem þú gætir séð þessi áhrif er í fyrirspurnum gegn starfsmanninum (**mshr_hcmworkerentity**) eða einingu grunnstarfskrafts (**mshr_hcmworkerbaseentity**). Frammistöðuvandamál gætu birtst á nokkra mismunandi vegu:
 
 - **Hæg fyrirspurnarkeyrsla**: Fyrirspurn vegna sýndartöflu gæti skilað eðlilegum niðurstöðum en tekið lengri tíma en vanalega að ljúka keyrslu fyrirspurnarinnar.
-- **Tímamörk fyrirspurnar** : Fyrirspurnin gæti runnið út á tíma og skilað eftirfarandi villu: "Táknið var fengið til að hringja í Finance and Operations, en Finance and Operations skilaði villu af gerðinni InternalServerError."
+- **Tímamörk fyrirspurnar** : Fyrirspurnin gæti runnið út á tíma og skilað eftirfarandi villu: "Tákn var fengin til að hringja í fjármál og rekstur, en fjármál og rekstur skilaði villu af gerðinni InternalServerError."
 - **Óvænt villa**: Fyrirspurnin gæti skilað villu af gerðinni 400 með eftirfarandi skilaboðum: „Óvænt villa kom upp.“
 
   ![Villugerð 400 á HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **Takmörkun**: Fyrirspurnin kann að ofnota tilföng netþjóns og orðið fyrir takmörkunum. Í þessu tilviki skilar fyrirspurnin eftirfarandi villu: "Táknið var fengið til að hringja í Finance and Operations, en Finance and Operations skilaði villu af gerðinni 429." Frekari upplýsingar um takmörkun í Human Resources er að finna í [Algengar spurningar um takmörkun](./hr-admin-integration-throttling-faq.md).
+- **Takmörkun**: Fyrirspurnin kann að ofnota tilföng netþjóns og orðið fyrir takmörkunum. Í þessu tilviki skilar fyrirspurnin eftirfarandi villu: "Tákn var fengin til að hringja í fjármál og rekstur, en fjármál og rekstur skilaði villu af gerðinni 429." Frekari upplýsingar um takmörkun í Human Resources er að finna í [Algengar spurningar um takmörkun](./hr-admin-integration-throttling-faq.md).
 
   ![Villugerð 429 á HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
@@ -161,3 +161,4 @@ Frekari upplýsingar um síðuskiptingu er að finna í [Tilgreina fjölda einin
 - [Algengar spurningar um takmörkun](./hr-admin-integration-throttling-faq.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

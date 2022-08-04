@@ -1,6 +1,6 @@
 ---
 title: Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir
-description: Þessi grein lýsir vöruhúsameðferðarferlinu fyrir hleðslu á innleið fyrir innkaupapantanir.
+description: Þessi grein lýsir vöruhúsameðferðarferli fyrir hleðslu á innleið fyrir innkaupapantanir.
 author: Mirzaab
 ms.date: 03/21/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855933"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070320"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir vöruhúsameðferðarferlinu fyrir hleðslu á innleið fyrir innkaupapantanir.
+Þessi grein lýsir vöruhúsameðferðarferli fyrir hleðslu á innleið fyrir innkaupapantanir.
 
 Fyrir hvern farm á innleið ætti kerfið þitt nú þegar að innihalda tengda sölupöntun og hún gæti einnig innihaldið tengda forskrift og/eða flutningsáætlun farms. Nánari upplýsingar um hvernig á að stofna og stjórna farmi á innleið, sjá [Viðskiptaferli: Áætlun flutningsstjórnunar fyrir farma á innleið](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
@@ -56,7 +56,7 @@ Eftirfarandi mynd sýnir dæmigert flæði til að meðhöndla farma á innleið
 
 ## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Skráðu vörumagn sem berst í farmi á innleið
 
-Microsoft Dynamics 365 Supply Chain Management styður nokkrar rekstraraðferðir við skráningu á komu pantaðra vara. Þess vegna geturðu stillt kerfið þannig að það passi við sérstakar viðskiptakröfur þínar. Þessi hluti lýsir því hvernig á að skrá vörumagn á innleið með því að nota fartæki þegar kveikt er á ítarlegri vöruhússtjórnun í kerfinu. Hins vegar er annað flæði til sem byggist á því að nota komubókar vöru í stað fartækis. Nánari upplýsingar um það flæði er að finna í [Skrá vörur fyrir vöru með ítarlegt vöruhúsakerfi virkt með því að nota komubók vöru](tasks/register-items-advanced-warehousing.md).
+Microsoft Dynamics 365 Supply Chain Management styður nokkrar rekstraraðferðir við skráningu á komu pantaðra vara. Þess vegna geturðu stillt kerfið þannig að það passi við sérstakar viðskiptakröfur þínar. Þessi hluti lýsir því hvernig á að skrá innkomið vörumagn með því að nota farsíma þegar kveikt er á vöruhúsastjórnunarferlum (WMS) í kerfinu. Hins vegar er annað flæði til sem byggist á því að nota komubókar vöru í stað fartækis. Fyrir frekari upplýsingar um það flæði, sjá [Skrá vörur sem eru virkjaðar fyrir vöruhúsastjórnunarferli með því að nota komufærslubók vöru](tasks/register-items-advanced-warehousing.md).
 
 Þegar farmur á innleið berst fyrst í vöruhúsið verða starfsmenn vöruhússins að skrá það vörumagnið sem er innifalið í sendingunni. Yfirleitt nota þeir lófatölvuskanna. Þetta verkflæði er aðeins tiltækt ef eftirfarandi vörur eru til staðar í kerfinu:
 

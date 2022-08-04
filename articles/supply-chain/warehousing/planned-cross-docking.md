@@ -1,6 +1,6 @@
 ---
 title: Áætluð dreifing frá dreifingarstöð
-description: Þessi grein lýsir háþróaðri skipulögðri bryggju, þar sem birgðamagninu sem þarf fyrir pöntun er beint beint frá móttöku eða stofnun á rétta útleiðarbryggju eða stöðvunarsvæði. Öllum eftirstandandi birgðum frá upprunastaðnum á innleið verður beint að réttum geymslustað með hefðbundnu frágangsferli.
+description: Þessi grein lýsir háþróaðri skipulögðri bryggju, þar sem birgðamagninu sem þarf fyrir pöntun er beint beint frá móttöku eða stofnun á rétta bryggju á útleið eða stöðvunarsvæði. Öllum eftirstandandi birgðum frá upprunastaðnum á innleið verður beint að réttum geymslustað með hefðbundnu frágangsferli.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863680"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070290"
 ---
 # <a name="planned-cross-docking"></a>Áætluð dreifing frá dreifingarstöð
 
@@ -118,7 +118,7 @@ Ef kerfið þitt inniheldur ekki þá eiginleika sem lýst er í þessari grein 
     - **Birgðauppruni:** *Innkaupapöntun*
 
 > [!NOTE]
-> Hægt er að setja upp fyrirspurn til að stýra hvenær tiltekið sniðmát dreifingarstöðvar er notað. Fyrirspurnin fyrir sniðmát dreifingarstöðvar er aðeins með töfluna *InventTable* (vörur) og innri tengdu töfluna *WHSInventTable* (vörur vöruhúss). Ef þú vilt bæta öðrum töflum við fyrirspurnina geturðu tengt þær með því að nota aðeins *tengingar sem eru til* eða *tengingar sem eru ekki til*. Þegar þú síar sameinaðar töflur er færsla úr aðaltöflunni sótt fyrir hverja færslu samsvörunar í sameinaðri töflu. Ef gerð sameiningar er *tenging sem er til* hættir leitin eftir að fyrsta samsvörun hefur fundist. Ef þú til dæmis sameinar töflu sölupöntunarlínu við vörutöfluna gerir kerfið villuleit og skilar vörum þar sem a.m.k. ein sölupöntunarlína er með skilgreint skilyrði. Í meginatriðum eru gögnin sótt úr yfirtöflunni (vörutöflunni), ekki úr undirtöflunni (sölupöntunarlínu). Því er ekki hægt að gera tilbúna síun eftir upprunaskjölum á borð við sölupöntunarlínum eða viðskiptavinum.
+> Hægt er að setja upp fyrirspurn til að stýra hvenær tiltekið sniðmát dreifingarstöðvar er notað. Fyrirspurnin um krosstengingarsniðmát hefur aðeins *InventTable* (hlutir) borð og innri sameinuð *WHSInventTable* (WMS atriði) töflu. Ef þú vilt bæta öðrum töflum við fyrirspurnina geturðu tengt þær með því að nota aðeins *tengingar sem eru til* eða *tengingar sem eru ekki til*. Þegar þú síar sameinaðar töflur er færsla úr aðaltöflunni sótt fyrir hverja færslu samsvörunar í sameinaðri töflu. Ef gerð sameiningar er *tenging sem er til* hættir leitin eftir að fyrsta samsvörun hefur fundist. Ef þú til dæmis sameinar töflu sölupöntunarlínu við vörutöfluna gerir kerfið villuleit og skilar vörum þar sem a.m.k. ein sölupöntunarlína er með skilgreint skilyrði. Í meginatriðum eru gögnin sótt úr yfirtöflunni (vörutöflunni), ekki úr undirtöflunni (sölupöntunarlínu). Því er ekki hægt að gera tilbúna síun eftir upprunaskjölum á borð við sölupöntunarlínum eða viðskiptavinum.
 
 ### <a name="create-a-work-class"></a>Stofna vinnuklasa
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d4f54c06a07b3cdd0b8fe2cc52614189ff31ba7f
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891032"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135600"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Laga villu röðunarvélar: „Nægileg afköst fundust ekki“
 
@@ -87,7 +87,7 @@ Til að fara yfir áætlunarbreyturnar skal fylgja þessum skrefum.
 
 ## <a name="review-capacity"></a>Yfirfara afköst
 
-Villan getur komið upp þegar þú framkvæmir takmarkaða röðun en engin afkastageta er til staðar.
+Villan getur komið fram þegar þú framkvæmir takmarkaða tímasetningu, en það er engin laus getu.
 
 Til að framkvæma ótakmarkaða röðun skal fylgja þessum skrefum.
 
@@ -99,17 +99,53 @@ Til að framkvæma ótakmarkaða röðun skal fylgja þessum skrefum.
 Til að fara yfir tiltæka afkastagetu í tilfanginu skal fylgja þessum skrefum.
 
 1. Farðu í **Fyrirtækisstjórnun \> Tilföng \> Tilföng** og veldu tilfang sem á við um pöntunina sem er ekki hægt að áætla.
-1. Á aðgerðasvæðinu, í flipanum **Tilfang**, í flokknum **Yfirlit**, skal velja **Álag** eða **Álag, myndrænt** og ganga úr skugga um að tiltæk afkastageta sé fyrir hendi.
+1. Á aðgerðarrúðunni, á **Auðlind** flipa, í **Útsýni** hópur, veldu **Afkastagetu álag** eða **Afkastagetu, myndrænt**, og ganga úr skugga um að það sé laus getu.
 
 Til að fara yfir tiltæka afkastagetu í tilfangaflokknum skal fylgja þessum skrefum.
 
 1. Farðu í **Fyrirtækisstjórnun \> Tilföng \> Tilfangaflokkar** og veldu tilfangaflokk sem á við um pöntunina sem er ekki hægt að áætla.
-1. Á aðgerðasvæðinu, í flipanum **Tilfangaflokkur**, í flokknum **Yfirlit**, skal velja **Álag** eða **Álag, myndrænt** og ganga úr skugga um að tiltæk afkastageta sé fyrir hendi.
+1. Á aðgerðarrúðunni, á **Auðlindahópur** flipa, í **Útsýni** hópur, veldu **Afkastagetu álag** eða **Afkastagetu, myndrænt**, og vertu viss um að það sé laus getu.
 
 ## <a name="master-planning-books-a-resource-when-the-resource-calendar-is-closed"></a>Aðalskipulag bókar tilfang þegar tilfangadagatalinu er lokað
 
 Þegar aðgerðaáætlun er notuð mun aðaláætlanagerð skipuleggja afkastagetu í samræmi við dagatal aðaltilfangahópsins. Það bókar aukaaðgerðina á sama tíma og aðalaðgerðina og tekur ekki tillit til dagatala eða getu aukaaðgerðarinnar. Þetta getur leitt til þess að framleiðslupöntunin sé tímasett í lokuðu dagatali eða á þeim tíma þegar aukaaðgerðin er ekki tiltæk (dagatalið lokað, engin afkastageta).
 
-Þegar verkáætlun er notuð mun aðalskipulag taka mið af afkastagetu og dagatali bæði aðal- og aukaaðgerðarinnar við tímasetningu pöntunarinnar. Til að hægt sé að skipuleggja pöntunina verða dagatöl fyrir tilföng beggja aðgerða að vera opin og hafa tiltæka getu.
+Þegar verkáætlun er notuð mun aðalskipulag taka mið af afkastagetu og dagatali bæði aðal- og aukaaðgerðarinnar við tímasetningu pöntunarinnar. Til þess að hægt sé að skipuleggja pöntunina verða dagatöl fyrir tilföng beggja aðgerða að vera opin og hafa tiltæka getu.
+
+## <a name="maximum-job-lead-time-is-too-short"></a>Hámarks afgreiðslutími verks er of stuttur
+
+Tímasetningarvélin mun ekki geta skipulagt pöntun ef **Hámarks afgreiðslutími verks** stillt fyrir síðuna þína er styttri en afgreiðslutíminn sem tilgreindur er fyrir vöru í sjálfgefnum pöntunarstillingum eða þekjustillingum.
+
+Til að skoða eða breyta **Hámarks afgreiðslutími verks** stillingu fyrir síðuna þína, farðu á **Framleiðslueftirlit \> Uppsetning \> Framleiðslustýringarbreytur** og opnaðu **Almennt** flipa.
+
+Til að skoða eða breyta sjálfgefnum pöntunarstillingum fyrir vöru skaltu fylgja þessum skrefum:
+
+1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
+1. Finndu og veldu viðkomandi vöru á listanum.
+1. Á aðgerðarrúðunni, opnaðu **Stjórna birgðum** flipann og veldu **Sjálfgefnar pöntunarstillingar**.
+1. Stækkaðu **Birgðir** Flýtiflipa og skoða eða breyta **Leiðslutími birgða** stilla eftir þörfum.
+
+Til að skoða eða breyta þekjustillingum fyrir hlut skaltu fylgja þessum skrefum:
+
+1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
+1. Finndu og veldu viðkomandi vöru á listanum.
+1. Á aðgerðarrúðunni, opnaðu **Áætlun** flipann og veldu **Vöruumfjöllun**.
+1. Opnaðu **Leiðslutími** flipann og skoða eða breyta **Framleiðslutími** gildi eftir þörfum.
+
+## <a name="excessive-quantity-of-required-resources"></a>Of mikið magn af nauðsynlegum auðlindum
+
+Meðan á tímasetningu stendur reynir vélin að passa nauðsynlega tilfangamagn sem sett er fyrir leiðaraðgerð við viðeigandi tilföng í samræmi við tilföng aðgerða. Ef auðlindamagnið er stillt of hátt getur það leitt til þess að leið sé óframkvæmanleg, sem veldur áætlunarvillu.
+
+Notaðu eftirfarandi aðferð til að athuga bæði tilgreint magn og viðeigandi tilföng fyrir valda vöru, leið og leiðaraðgerð:
+
+1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
+1. Finndu og veldu viðkomandi vöru í ristinni.
+1. Á aðgerðarrúðunni, opnaðu **Verkfræðingur** flipann og veldu **Leið**.
+1. Finndu og veldu viðeigandi leið í töflunni.
+1. Opið fyrir **Yfirlit** flipann neðst á síðunni.
+1. Veldu aðgerð af listanum yfir valdar leiðaraðgerðir.
+1. Veldu **Gildandi auðlindir** til að opna glugga þar sem þú getur skoðað viðeigandi tilföng fyrir valda leiðaraðgerð.
+1. Opnaðu **Auðlindaálag** flipa. The **Magn** reiturinn hér sýnir auðlindamagnið sem þarf fyrir valda leiðaraðgerð. Skoðaðu og/eða breyttu því eftir þörfum.
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
