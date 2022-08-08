@@ -1,7 +1,7 @@
 ---
 title: Heimasíða reiðufjár- og bankastjórnunar
 description: Reiðufjár- og bankastjórnun er hægt að nota til að stýra bankareikningum lögaðila og fjármálagerningum sem tengjast viðkomandi bankareikningum.
-author: kfend
+author: angelad116
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: kfend
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf423c61f4a7ac8648a09c25e30b47ce1b0e3300
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e49c9f514e79552dda2e7a6e10c7d84fa2560c2e
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710726"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151970"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Heimasíða reiðufjár- og bankastjórnunar
 
@@ -89,7 +89,7 @@ Reiðufjár- og bankastjórnun er hægt að nota til að stýra bankareikningum 
 
 #### <a name="blogs"></a>Blogg
 
-Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoft Dynamics 365 Finance and Operations - Financials-blogginu](https://community.dynamics.com/365/financeandoperations/b/financials) er að finna umfjöllun, fréttir og aðrar upplýsingar.
+Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoft Dynamics 365 fjármál og rekstur – Financials-blogginu](https://community.dynamics.com/365/financeandoperations/b/financials) er að finna umfjöllun, fréttir og aðrar upplýsingar.
 
 Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika Dynamics 365 á einum stað.
 
@@ -102,3 +102,4 @@ Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

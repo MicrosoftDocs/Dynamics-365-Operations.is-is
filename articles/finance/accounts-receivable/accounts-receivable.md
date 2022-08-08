@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 412b900b5eb9a3a01feb5f4dd67529a5128e52b7
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ef08d7880a0695527cbfb4ba4e11aae05aec7fc8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711855"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065366"
 ---
 # <a name="accounts-receivable-home-page"></a>Viðskiptakröfur – heimasíða
 
@@ -83,7 +83,7 @@ Samþykkja mismunandi gerðir af greiðslum frá viðskiptavinum, til dæmis ví
 
 #### <a name="blogs"></a>Blogg
 
-Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoft Dynamics 365 Finance and Operations - Financials-blogginu](https://community.dynamics.com/365/financeandoperations/b/financials) er að finna umfjöllun, fréttir og aðrar upplýsingar um viðskiptakröfur og aðrar lausnir.
+Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og á [Microsoft Dynamics 365 fjármál og rekstur – Financials-blogginu](https://community.dynamics.com/365/financeandoperations/b/financials) er að finna umfjöllun, fréttir og aðrar upplýsingar um viðskiptakröfur og aðrar lausnir.
 
 Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika Dynamics 365 á einum stað.
 
@@ -103,3 +103,4 @@ Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

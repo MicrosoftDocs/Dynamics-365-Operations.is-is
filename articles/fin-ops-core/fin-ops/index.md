@@ -1,6 +1,6 @@
 ---
-title: Fylgiskjöl fyrir forritið Finance and Operations
-description: Fylgiskjöl fyrir forrit Finance and Operations.
+title: Fylgiskjöl fyrir fjármála- og rekstrarforrit
+description: Fylgiskjöl fyrir fjármála- og rekstrarforrit.
 author: tonyafehr
 ms.date: 04/13/2021
 ms.topic: index-page
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6f646b3216c73e14b550dc438c500a569bb799c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8f9776038530438ba8d8046b735d95b2a5701594
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865833"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067463"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Fylgiskjöl fyrir forritið Finance and Operations
+# <a name="finance-and-operations-application-documentation"></a>Fylgiskjöl fyrir fjármála- og rekstrarforrit
 
 [!include [banner](includes/banner.md)]
 
-Lærðu að nýta forrit fyrir fjármál og rekstur í þágu fyrirtækisins. Í þessari grein er að finna frábært efni fyrir notendur, þróunaraðila og fagfólk á sviði upplýsingatækni. 
+Lærðu að nýta fjármála- og rekstrarforrit í þágu fyrirtækisins. Í þessari grein er að finna frábært efni fyrir notendur, þróunaraðila og fagfólk á sviði upplýsingatækni. 
 
 Mikið af þessu efni á einnig við um tengdar vörur: Dynamics 365 Commerce og Dynamics 365 Human Resources. 
 
@@ -39,9 +39,9 @@ Mikið af þessu efni á einnig við um tengdar vörur: Dynamics 365 Commerce og
 <tr class="odd">
 <td>
 <h3><a href="get-started/before-you-buy.md">Áður en þú kaupir</a></h3>
-<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Skráðu þig fyrir prufuáskrift</a></p>
+<p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Skráðu þig fyrir áskrift að forútgáfu</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Veldu innleiðingarvalkost</a></p>
- <p><a href="get-started/purchase-on-premises.md">Kaupa Finance and Operations (on-premises)</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Kaupa fjármála- og rekstrarforrit (á staðnum)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Innleiðingarferli</a></h3>
 <p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
@@ -143,3 +143,4 @@ Mikið af þessu efni á einnig við um tengdar vörur: Dynamics 365 Commerce og
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

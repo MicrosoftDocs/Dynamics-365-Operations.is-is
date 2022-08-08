@@ -58,7 +58,13 @@
                       href: hr-whats-new-2021-01-28.md
                     - name: 21. janúar 2021
                       href: hr-whats-new-2021-01-21.md
-        - name: Hafist handa
+                - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
+                  items:
+                    - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
+                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
+                    - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Human Resources
+                      href: get-started/removed-deprecated-features-hr.md
+        - name: Hefjast handa
           items:
             - name: Yfirlit
               href: hr-admin-overview.md
@@ -66,14 +72,18 @@
               href: hr-admin-system-requirements.md
             - name: Setja upp og vinna með tilvik
               items:
-                - name: Úthluta Human Resources
-                  href: hr-admin-setup-provision.md
-                - name: Afrita tilvik
-                  href: hr-admin-setup-copy-instance.md
-                - name: Fjarlægja tilvik
-                  href: hr-admin-setup-remove-instance.md
-                - name: Uppfærsluferli
-                  href: hr-admin-setup-update-process.md
+                - name: Úthluta Human Resources í tölvukerfi fjármála- og rekstarforrita
+                  href: hr-admin-setup-provision-fo.md
+                - name: Úthluta Human Resources í sjálfstæða tölvukerfinu
+                  items:
+                    - name: Úthluta Human Resources
+                      href: hr-admin-setup-provision.md
+                    - name: Afrita tilvik
+                      href: hr-admin-setup-copy-instance.md
+                    - name: Fjarlægja tilvik
+                      href: hr-admin-setup-remove-instance.md
+                    - name: Uppfærsluferli
+                      href: hr-admin-setup-update-process.md
             - name: Setja upp samþættingu gagna
               items:
                 - name: Velja tækni við samþættingu gagna
@@ -99,91 +109,91 @@
                 - name: Samþætt við Office
                   items:
                     - name: Kennsla í Office-samþættingu
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?context=/dynamics365/context/human-resources
                     - name: Uppfæra einingagögn í Excel
-                      href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?context=/dynamics365/context/human-resources
                     - name: Opna í algengar spurningar um Excel
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?context=/dynamics365/context/human-resources
                     - name: Nota úrræðaleit fyrir Office-samþættingu
-                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?context=/dynamics365/context/human-resources
                 - name: Skilgreina gagnastjórnun
                   items:
                     - name: Yfirlit gagnastjórnunarramma
-                      href: ../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?context=/dynamics365/context/human-resources
                     - name: Gagnaeiningar
                       items:
                         - name: Yfirlit gagnaeininga
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities.md?context=/dynamics365/context/human-resources
                         - name: Skilgreiningargagnaverk
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-projects.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-projects.md?context=/dynamics365/context/human-resources
                     - name: Afritun skilgreiningargagna á milli fyrirtækja eða lögaðila
                       items:
                         - name: Yfirlit yfir afritun skilgreiningargagna
-                          href: ../fin-ops-core/dev-itpro/data-entities/copy-configuration.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/copy-configuration.md?context=/dynamics365/context/human-resources
                         - name: Skilgreiningargagnapakkar
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?context=/dynamics365/context/human-resources
                         - name: Skilgreiningargagnapakkar (aðeins útgáfa frá júlí 2017)
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?context=/dynamics365/context/human-resources
                         - name: Sniðmát skilgreiningargagna
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md?context=/dynamics365/context/human-resources
                         - name: Rekja breytingar til einingar
-                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?context=/dynamics365/context/human-resources
                         - name: Finna upplýsingar um staðlaðar gagnaeiningar
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities-report.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entities-report.md?context=/dynamics365/context/human-resources
                         - name: Gagnasniðmát með mörgum vinnublöðum
-                          href: ../fin-ops-core/dev-itpro/data-entities/excel-template-multiple.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/excel-template-multiple.md?context=/dynamics365/context/human-resources
                         - name: Virkja rakningarbreytingu fyrir einingar
-                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?context=/dynamics365/context/human-resources
                         - name: Skilgreiningarlyklar og gagnaeiningar
-                          href: ../fin-ops-core/dev-itpro/data-entities/config-key-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/config-key-entities.md?context=/dynamics365/context/human-resources
                         - name: Skilgreiningargagnapakkar
-                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/configuration-data-packages.md?context=/dynamics365/context/human-resources
                     - name: Inn- og útflutningsvinnsla gagna
                       items:
                         - name: Yfirlit yfir inn- og útflutningsvinnslu gagna
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md?context=/dynamics365/context/human-resources
                         - name: Bestu starfsvenjur fyrir innflutning fylgiskjala með almennri færslubókareiningu
-                          href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?context=/dynamics365/context/human-resources
                     - name: Þróun fyrir gagnaeiningar
                       items:
                         - name: Hanna reglur og bestu starfsvenjur fyrir gagnaeiningar
-                          href: ../fin-ops-core/dev-itpro/dev-tools/design-best-practices.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/dev-tools/design-best-practices.md?context=/dynamics365/context/human-resources
                         - name: Stofna nýjar gagnaeiningar
-                          href: ../fin-ops-core/dev-itpro/data-entities/build-consuming-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/build-consuming-data-entities.md?context=/dynamics365/context/human-resources
                         - name: Eiginleikar gagnaeiningar
-                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?context=/dynamics365/context/human-resources
                         - name: Stofna útreiknaða dálka og sýndarreiti
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?context=/dynamics365/context/human-resources
                         - name: Hegðun á milli fyrirtækja
-                          href: ../fin-ops-core/dev-itpro/data-entities/cross-company-behavior.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/cross-company-behavior.md?context=/dynamics365/context/human-resources
                         - name: Meðhöndlun lands-/svæðiskóða
-                          href: ../fin-ops-core/dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/countryregion-codes-configuration-keys.md?context=/dynamics365/context/human-resources
                         - name: Erfðamynstur
-                          href: ../fin-ops-core/dev-itpro/data-entities/support-super-type-sub-type.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/support-super-type-sub-type.md?context=/dynamics365/context/human-resources
                         - name: Reglur leiðsagnarforrits gagnaeiningar
-                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-wizard-rules.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/data-entity-wizard-rules.md?context=/dynamics365/context/human-resources
                         - name: Eiginleikar lýsigagna
-                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/behavioral-properties-data-entities.md?context=/dynamics365/context/human-resources
                         - name: 'Villuleitir, sjálfgildi og óvarpaðir reitir'
-                          href: ../fin-ops-core/dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/validations-defaults-unmapped-fields.md?context=/dynamics365/context/human-resources
                         - name: Öryggi og gagnaeiningar
-                          href: ../fin-ops-core/dev-itpro/data-entities/security-data-entities.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/security-data-entities.md?context=/dynamics365/context/human-resources
                         - name: Nota þjónustuprófunarverkfæri þriðja aðila
-                          href: ../fin-ops-core/dev-itpro/data-entities/third-party-service-test.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/data-entities/third-party-service-test.md?context=/dynamics365/context/human-resources
                         - name: Búa til skrifvarðar einingar sem sýna fjárhagsvíddir
-                          href: ../fin-ops-core/dev-itpro/financial/read-only-entity-financial.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                          href: ../fin-ops-core/dev-itpro/financial/read-only-entity-financial.md?context=/dynamics365/context/human-resources
                     - name: Nota eigin gagnagrunn
-                      href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?context=/dynamics365/context/human-resources
                     - name: Fínstilla BYOD-runuvinnslur
                       href: hr-admin-integration-byod-batch-jobs.md
                     - name: Sjálfvirk uppfærsla einingaverslunar
-                      href: ../fin-ops-core/dev-itpro/analytics/automated-entity-store-refresh.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/automated-entity-store-refresh.md?context=/dynamics365/context/human-resources
                     - name: Sjálfvirk verkgögn
-                      href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/human-resources
                     - name: Vinnusvæði gagnaprófunargátlista
-                      href: ../fin-ops-core/dev-itpro/user-interface/data-validation-workspace.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/user-interface/data-validation-workspace.md?context=/dynamics365/context/human-resources
                     - name: Villulýsingar gagnastjórnunar
-                      href: ../fin-ops-core/dev-itpro/data-entities/dm-error-descriptions.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json
+                      href: ../fin-ops-core/dev-itpro/data-entities/dm-error-descriptions.md?context=/dynamics365/context/human-resources
                     - name: Vinna með eiginleika
                       href: hr-admin-manage-features.md
                     - name: Skilgreina og stjórna gagnagrunnsskráningu
@@ -234,6 +244,8 @@
                   href: hr-admin-go-live-faq.md
                 - name: Algengar spurningar um samþættingu tölvukerfa í Human Resources
                   href: hr-infrastructure-merge-faq.md
+                - name: Algengar spurningar um flutning viðskiptavinar í Human Resources
+                  href: customer-migration.md
                 - name: Fylgigagnatilföng
                   items:
                     - name: Hjálparkerfi

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbf77b57f7a107918c3b8a03290e208ed1c4803b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879077"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066058"
 ---
 # <a name="supply-chain-management-home-page"></a>Heimasíða „Supply Chain Management“
 
@@ -56,16 +56,16 @@ Upplýsingar um Dynamics 365 Finance fást á [Finance heimasíðunni](../financ
 
 ## <a name="videos"></a>Myndbönd
 
-Í þessu stutta myndbandi er teknir saman nýir eiginleikar stjórnunar aðfangakeðju sem bætt var við Microsoft Dynamics 365 for Finance and Operations útgáfu 8.0 (apríl 2018).
+Í þessu stutta myndbandi er samantekt á nýjum eiginleikum fyrir stjórnun aðfangakeðju sem bætt var við Microsoft Dynamics 365 Finance, útgáfu 8.0 (apríl 2018).
 
-- [Samstilling vinnupöntunar á milli Field Service og Finance and Operations](https://youtu.be/hAB4TDVMjxU)
+- [Samstilla verkbeiðni á milli Field Service og fjármála- og rekstrarforrita](https://youtu.be/hAB4TDVMjxU)
 
-Í þessum stuttu myndböndum eru teknir saman nýir eiginleikar stjórnunar aðfangakeðju sem bætt var við Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 (apríl 2017).
+Í þessum stuttu myndböndum er samantekt á nýjum eiginleikum fyrir stjórnun aðfangakeðju sem bætt var við Microsoft Dynamics 365 Finance, Enterprise Edition 7.3 (desember 2017).
 
 - [Fínstillingarráðgjöf](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Notaðu sniðmát vöruhúss til að afrita skilgreiningu](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-Í þessum stuttu myndböndum eru teknir saman nýir eiginleikar stjórnunar aðfangakeðju sem bætt var við Microsoft Dynamics 365 for Finance and Operations Enterprise Edition (júlí 2017).
+Í þessum stuttu myndböndum er samantekt á nýjum eiginleikum fyrir stjórnun aðfangakeðju sem bætt var við Microsoft Dynamics 365 Finance, Enterprise Edition (júlí 2017).
 
 - [Hafist handa með kostnaðarbókhald](https://youtu.be/1pUDtJQZ8FU)
 - [Fartækjavinnusvæði kostnaðarstýringar](https://youtu.be/imsuTg8rUVk)
@@ -73,7 +73,7 @@ Upplýsingar um Dynamics 365 Finance fást á [Finance heimasíðunni](../financ
 - [Samþykkja innkaupapantanir í fartæki](https://youtu.be/gZ-gOlJe7H8)
 - [Sjónræn röðun með Gantt-línurit fyrir framleiðslu- og runupantanir](https://youtu.be/BtbuShkGj4I)
 
-Í eftirfarandi upptökum tækniráðstefnu er rætt um stjórnunarvirkni aðfangakeðju í fyrri útgáfum Finance and Operations. Þessi virkni er nú hluti af Dynamics 365 Supply Chain Management; sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni.
+Á eftirfarandi upptökum af tækniráðstefnu er fjallað um aðgerðir við stjórnun aðfangakeðju úr fyrri útgáfum fjármála- og rekstrarforrita. Þessi virkni er nú hluti af Dynamics 365 Supply Chain Management; sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni.
 
 - **Kostnaðarstjórnun:**
   - [Yfirlit yfir kostnaðarstjórnun](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
@@ -106,3 +106,4 @@ Netnámskeið og þjálfun má finna í [Dynamics 365 Supply Chain Management á
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
