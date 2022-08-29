@@ -1,38 +1,38 @@
 ---
 title: Búðu til hnattvæðingareiginleika
 description: Þessi grein útskýrir hvernig á að búa til hnattvæðingareiginleika.
-author: dkalyuzh
+author: gionoder
 ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c622b350f79d36b8fda12598ceae57ee9c7095e9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 5432de8f8a70a4e6a0facd546083b37fd8690556
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889831"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283176"
 ---
 # <a name="create-a-globalization-feature"></a>Búðu til hnattvæðingareiginleika
 
 [!include [banner](../includes/banner.md)]
 
-Þú getur búið til eiginleika fyrir rafræna reikninga frá grunni, eða þú getur byggt hann á núverandi eiginleika. Þegar þú býrð til eiginleika frá grunni, verður þú að bæta handvirkt við rafrænum skýrslugerðum (ER) stillingum og öðrum hlutum, svo sem uppsetningu eiginleika og uppsetningu forrits. Þegar þú býrð til eiginleika sem er byggður á núverandi eiginleika, erfir nýi eiginleikinn allar grunnstillingar og færibreytur grunneiginleikans. Þú getur skoðað hvað er afritað úr grunneiginleikanum yfir í nýja eiginleikann.
+Þú getur búið til rafrænan reikningseiginleika frá grunni, eða þú getur byggt hann á núverandi eiginleika. Þegar þú býrð til eiginleika frá grunni, verður þú að bæta handvirkt við rafrænum skýrslum (ER) stillingum og öðrum hlutum, svo sem uppsetningu eiginleika og uppsetningu forrits. Þegar þú býrð til eiginleika sem er byggður á núverandi eiginleika, erfir nýi eiginleikinn allar grunnstillingar og færibreytur grunneiginleikans. Þú getur skoðað hvað er afritað úr grunneiginleikanum yfir í nýja eiginleikann.
 
 ## <a name="create-a-feature-from-scratch"></a>Búðu til eiginleika frá grunni
 
 Þessi hluti útskýrir hvernig á að búa til rafrænan reikningseiginleika þegar enginn hnattvæðingareiginleiki er tiltækur í alþjóðlegu geymslunni fyrir viðskiptasviðsmyndir þínar úr kassanum.
 
-Fylgdu þessum skrefum til að búa til eiginleika rafrænna reikninga.
+Fylgdu þessum skrefum til að búa til rafrænan reikningseiginleika.
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
 2. Á vinnusvæðinu **Altækur eiginleiki**, í hlutanum **Eiginleikar**, skal velja reitinn **Rafræn reikningsfærsla**.
@@ -53,7 +53,7 @@ Fylgdu þessum skrefum til að búa til eiginleika rafrænna reikninga.
 
 Þú getur sleppt þessum hluta ef þú þarft ekki að búa til ER stillingar en getur endurnýtt núverandi útgáfur sem grunn.
 
-Þetta ferli sýnir hvernig á að búa til skráarsniðsstillingarnar sem eru nauðsynlegar fyrir nýja rafræna reikningseiginleikann sem þú vilt búa til. Búðu til skráarsnið rafrænna reikninga og allar aðrar skráarsniðstillingar sem nýi rafræni reikningseiginleikinn þinn krefst.
+Þetta ferli sýnir hvernig á að búa til skráarsniðsstillingarnar sem eru nauðsynlegar fyrir nýja rafræna reikningseiginleikann sem þú vilt búa til. Búðu til skráarsnið rafrænna reikninga og allar aðrar stillingar skráarsniðs sem nýja rafræna reikningseiginleikinn þinn krefst.
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
 2. Á vinnusvæðinu **Rafræn skýrslugerð** skal velja reitinn **Skilgreiningar skýrslugerðar**.
@@ -81,7 +81,7 @@ Nýju skráarsniðsstillingunum verður að deila með Microsoft léninu áður 
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
 2. Á vinnusvæðinu **Altækur eiginleiki**, í hlutanum **Eiginleikar**, skal velja reitinn **Rafræn reikningsfærsla**.
-3. Í **Stillingarveita** reit skaltu ganga úr skugga um að virka stillingaveitan þín sé valin. Þannig mun nýi eiginleiki rafrænna reikninga birtast á listanum eftir að hann er búinn til. Ef virka stillingaveitan þín er ekki valin verður nýi eiginleikinn síaður út af listanum.
+3. Í **Stillingarveita** reitinn skaltu ganga úr skugga um að virka stillingarveitan þín sé valin. Þannig mun nýi rafræni innheimtuaðgerðin birtast á listanum eftir að hann er búinn til. Ef virka stillingaveitan þín er ekki valin verður nýi eiginleikinn síaður út af listanum.
 4. Veljið **Bæta við** og síðan í fellilista svarglugga skal velja valkostinn **Byggt á fyrirliggjandi útgáfu**.
 5. Færið inn heiti og lýsingu á eiginleikanum.
 6. Í **Grunneiginleiki** reit, veldu grunnútgáfu eiginleikans.

@@ -10,18 +10,26 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 19193cc445bc9c7d79463734d7d5787737ecc4f7
-ms.sourcegitcommit: 6989ac8a20c16d384b8307b707eeaf498c32d64e
+ms.openlocfilehash: 115708ce9e71c35feb1cf370ead556847e04cbd2
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/25/2022
-ms.locfileid: "9188992"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324204"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Þessi grein sýnir nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af Warehouse Management farsímaforritinu fyrir Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20310"></a>Útgáfa 2.0.31.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+
+-   Aukinn árangur og stöðugleiki.
+-   Bætt notendaviðmót sem gerir það hraðara og auðveldara að vinna með langa vallista. Starfsmenn geta nú leitað að listaatriði eftir nafni frekar en að fletta í gegnum allan listann.
+-   Lagaði vandamál þar sem fyrirfram slegið gildi var ekki skrifað yfir þegar skannað var eftir staf.
 
 ## <a name="version-20300"></a>Útgáfa 2.0.30.0
 
@@ -74,7 +82,7 @@ ms.locfileid: "9188992"
 - Lagaði nokkur hrunvandamál.
 - Lagaði vandamál þar sem sumir stafir myndu ekki þekkjast þegar verið var að skanna eða slá inn á sjálfgefna síðu.
 - Lagaði mál þar sem að slá inn bakhlið á sjálfgefna síðunni myndi eyða tveimur stöfum í einu.
-- Lagaði mál þar sem **Raða eftir** sviði á **Verklisti** síða myndi birta rangt gildi sem samsvaraði ekki raunverulegri röðunarröð kortanna.
+- Lagaði mál þar sem **Raða eftir** sviði á **Vinnulisti** síða myndi birta rangt gildi sem samsvaraði ekki raunverulegri röðunarröð kortanna.
 - Lagaði vandamál þar sem rangt skipulag birtist eftir að stærð forritsgluggans var breytt á meðan það var keyrt áfram Microsoft Windows.
 - Lagaði vandamál þar sem skrunun í sprettiglugga gæti leitt til þess að sum listaatriði haldist falin eða brenglast.
 - Endurhannað innskráningarsíðuna til að láta hana birta notandanafn og lykilorð svæði á sömu síðu þegar hún er keyrð á stærri skjáum.
@@ -136,7 +144,7 @@ ms.locfileid: "9188992"
   - Fast litasýnileiki og birtuskil.
   - Kom í veg fyrir tap á lyklaborðsfókus þegar sprettigluggasíðum er lokað.
   - Bætti villuskilaboðum við frásögnina.
-  - Aukin stærð staðsetningargilda í skrefaborðanum.
+  - Aukið stærð staðgengilsgilda í skrefaborðanum.
 - Lagaði dæmið um sérsniðna eldri síðu í kynningarham.
 
 ## <a name="version-20150"></a>Útgáfa 2.0.15.0

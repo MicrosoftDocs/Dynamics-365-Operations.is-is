@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 05/31/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-10-04
-ms.openlocfilehash: 16c79a788b66830b77b2cdfb33fd2416c530f7d2
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d3f413f34296fd01da6741bb49658285394cbd17
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111567"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288761"
 ---
 # <a name="errors-codes-for-the-table-map-health-check"></a>Villukóðar fyrir ástandsskoðun töfluvörpunar
 
@@ -26,7 +26,7 @@ ms.locfileid: "9111567"
 
 ## <a name="error-100"></a>Villa 100
 
-Villuboðin eru: "Lágmarksútgáfa fjármála- og rekstrarvettvangs sem krafist er er PU 43 til að keyra ráðleggingar um fjármál og rekstrar."
+Villuskilaboðin eru: "Lágmarksútgáfa fjármála- og rekstrarvettvangs sem krafist er er PU 43 til að keyra ráðleggingar um fjármál og rekstrar."
 
 Eiginleikinn krefst uppfærslu á vettvangi fyrir útgáfu 10.0.19 eða nýrri af fjármála- og rekstrarforritum.
 
@@ -81,9 +81,9 @@ Villuboðin eru: „Tafla: \{datasourceTable.Key.subscribedTableName\} fyrir ein
 Ef sama taflan er rakin eftir mörgum einingum geta allar breytingar á töflunni ræst mat á tvöfaldri skráningu fyrir tengdar einingar. Þótt síuákvæðin muni aðeins senda gildar færslur gæti matið valið vandamálum með afköst ef til staðar eru fyrirspurnir seinlegar í keyrslu eða óstilltar áætlanir fyrirspurnar. Ekki er víst að hægt sé að koma í veg fyrir þetta vandamál frá sjónarhóli viðskipta. Ef hinsvegar eru margar töflur sem tengjast yfir margar einingar ætti hugsanlega að einfalda eininguna eða athuga fínstillingar fyrir fyrirspurnir um einingu.
 
 ## <a name="error-1800"></a>Villa 1800
-Villuboðin eru: "Gagnaheimild:{} fyrir einingu CustCustomerV3Entity inniheldur sviðsgildi. Á heimleið upserts met frá Dataverse til fjármögnunar og rekstrar geta orðið fyrir áhrifum af sviðsgildum á einingu. Vinsamlega prófaðu skráaruppfærslur frá Dataverse til að fjármagna og reka með færslum sem passa ekki við síuskilyrðin til að sannreyna stillingarnar þínar."
+Villuboðin eru: "Gagnaheimild:{} fyrir einingu CustCustomerV3Entity inniheldur sviðsgildi. Skrá á heimleið upserts frá Dataverse til fjármögnunar og rekstrar geta orðið fyrir áhrifum af sviðsgildum á einingu. Vinsamlega prófaðu skráningaruppfærslur frá Dataverse til að fjármagna og reka með færslum sem passa ekki við síuskilyrðin til að sannreyna stillingarnar þínar."
 
-Ef það er svið tilgreint á einingunni í fjármála- og rekstrarforritum, þá er samstilling á heimleið frá Dataverse að fjármögnunar- og rekstrarforrit ættu að vera prófuð með tilliti til uppfærsluhegðunar á skrám sem passa ekki við þetta sviðsviðmið. Sérhver færsla sem passar ekki við bilið verður meðhöndluð sem innsetningaraðgerð af einingunni. Ef það er fyrirliggjandi skrá í undirliggjandi töflu, þá mun innsetningin mistakast. Við mælum með því að þú prófir þetta notkunartilvik fyrir allar aðstæður áður en þú ferð í framleiðslu.
+Ef það er svið tilgreint á einingunni í fjármála- og rekstrarforritum, þá er samstilling á heimleið frá Dataverse til að fjármagna og reka forrit ætti að prófa með tilliti til uppfærsluhegðunar á skrám sem passa ekki við þetta sviðsviðmið. Sérhver færsla sem passar ekki við svið verður meðhöndluð sem innsetningaraðgerð af einingunni. Ef það er fyrirliggjandi skrá í undirliggjandi töflu, þá mun innsetningin mistakast. Við mælum með því að þú prófir þetta notkunartilvik fyrir allar aðstæður áður en þú ferð í framleiðslu.
 
 ## <a name="error-1900"></a>Villa 1900
 Villuskilaboðin eru: „Entity: has{} gagnagjafar sem ekki er fylgst með fyrir tvískrifaða útleið. Þetta getur haft áhrif á árangur samstillingarfyrirspurna í beinni. Endurbætu eininguna í fjármálum og rekstri til að fjarlægja ónotaða gagnagjafa og töflur eða innleiða getEntityRecordIdsImpactedByTableChange til að hámarka keyrslufyrirspurnirnar."

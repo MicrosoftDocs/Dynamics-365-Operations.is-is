@@ -1,26 +1,26 @@
 ---
 title: Hlaða upp myndum
 description: Þessi grein lýsir því hvernig á að hlaða upp myndum inn Microsoft Dynamics 365 Commerce vefsmiður.
-author: psimolin
+author: josaw1
 ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e0f5cdd0381932cffc64f1c7e83eecd4662d8c9f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.openlocfilehash: d937e8c0e00ce28b0e4a4c2feab3ac1c8f075916
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892835"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283380"
 ---
 # <a name="upload-images"></a>Hlaða upp myndum
 
@@ -42,7 +42,7 @@ Margmiðlunarsafn vefsvæðishönnuðar Commerce gerir þér kleift að hlaða i
 
 > [!NOTE]
 > - Myndeignir með útlutaðan flokk eru einnig sjálfkrafa merktar með flokknum sem lykilorð til að hjálpa til að leita að eignum í tilteknum flokki.
-> - Vöruupplýsingasíður búa til á kraftmikinn hátt **Alt texti** með því að nota vöruheitið, svo að breyta **Alt texti** fyrir vörumynd mun hafa engin áhrif á prentuðu myndina.
+> - Vöruupplýsingasíður búa til á kraftmikinn hátt **Alt texti** með því að nota vöruheitið, svo að breyta **Alt texti** fyrir vörumynd hefur engin áhrif á mynd sem er unnin.
 
 ### <a name="naming-conventions-for-omni-channel-images"></a>Nafngiftavenjur fyrir alhliða myndir 
 

@@ -1,26 +1,26 @@
 ---
 title: Deila skilgreiningum rafrænnar skýrslugerðar í RCS/altækri geymslu með utanaðkomandi fyrirtækjum
 description: Þessi grein útskýrir hvernig á að deila rafrænum skýrslugerðum (ER) stillingum í Microsoft Regulatory Configuration Services (RCS)/alþjóðlegu geymslunni beint með ytri stofnunum.
-author: JaneA07
+author: kfend
 ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERWorkspace, RCS
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: filatovm
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: f789fd86904c1e625be8fc5be3bfe456fe0659b4
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERWorkspace, RCS
+ms.openlocfilehash: d9400ffcede9924a01391a433b570651d3f0c5e4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068749"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284816"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Deila skilgreiningum rafrænnar skýrslugerðar í altækri geymslu Regulatory Configuration Services (RCS) með ytri fyrirtækjum
 

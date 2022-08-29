@@ -1,21 +1,21 @@
 ---
 title: Vinna með lánardrottnavottorð
-description: Þessi grein lýsir skrefunum sem lánardrottnar geta notað til að viðhalda vottunum sínum með því að nota vinnusvæði lánardrottins samvinnu.
+description: Þessi grein lýsir skrefunum sem lánardrottnar geta notað til að viðhalda vottunum sínum með því að nota samstarfsvinnusvæði lánardrottins.
 author: v-kiarnd
 ms.date: 04/27/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: v-kiarnd
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 37990292748c363f44d306bda0263dd117808eb1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e6742037d04cb21c153af3cd22d1dcb91e3d64e8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891438"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9268503"
 ---
 # <a name="maintain-vendor-certification"></a>Vinna með lánardrottnavottorð
 

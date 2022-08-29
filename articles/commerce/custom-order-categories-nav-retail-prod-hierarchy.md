@@ -2,7 +2,7 @@
 title: Breyta röðun fyrir smásölueiningar
 description: Þessi grein útskýrir hugtökin sem tengjast því að stjórna birtingarpöntun fyrir ýmsar sölutengdar einingar í Dynamics 365 Commerce.
 author: josaw1
-ms.date: 08/05/2019
+ms.date: 08/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,27 +15,27 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 80586597f4f60476b341e4cf1cfd90f3681e15c0
+ms.sourcegitcommit: 52e31b1ef2b3ed8675de931d06090cd57e057fc2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847655"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9265837"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Breyta röðun fyrir smásölueiningar
 
 
 [!Include [banner](includes/banner.md)]
 
-Smásalar líta á vöruuppgötvun sem aðalverkfæri til að hafa samskipti við viðskiptavini á öllum rásum. Ýmis virkni geta hjálpað viðskiptavinum að uppgötva vörur á auðveldan hátt. Til dæmis geta þeir skoðað flokka, leitað og síað.
+Smásalar líta á vöruuppgötvun sem aðalverkfæri til að hafa samskipti við viðskiptavini á öllum rásum. Það eru nokkrir eiginleikar sem geta hjálpað viðskiptavinum að finna vörur auðveldlega. Til dæmis geta viðskiptavinir skoðað flokka, leitað og síað.
 
-Þessi grein útskýrir hugtökin sem tengjast því að stjórna birtingarpöntuninni fyrir ýmsar sölutengdar einingar. Það útskýrir einnig hvernig á að breyta röðuninni.
+Þessi grein útskýrir hugtökin sem tengjast því að stjórna birtingarpöntun fyrir ýmsar sölutengdar einingar. Það útskýrir einnig hvernig á að breyta röðuninni.
 
 ## <a name="overview"></a>Yfirlit
 
-Stuðningur við röðun ýmissa smásöluaðila hefur verið aukinn. Þessi stuðningur er nú betur í takt við núverandi viðskiptavinasviðsmyndir sem áður kröfðust viðbóta frá framkvæmdaraðilum.
+Í Commerce er flokkun ýmissa vörutengdra eininga í takt við núverandi aðstæður viðskiptavina og krefst ekki lengur framlengingar frá innleiðingaraðilum.
 
-Í útgáfum af Retail sem eru eldri en útgáfa 10.0.5 var röðunin fyrir flokka í yfirlitsstigveldinu í stafrófsröð. Nýja sérsniðna röðunaraðgerðin gerir kleift vörustjórum smásölu að stilla röðunina fyrir ýmsar smásölueiningar á milli allra viðskiptavina. Þessir viðskiptavinir eru með höfuðstöðvar (HQ) og símaver.
+Í Commerce útgáfum 10.0.5 og eldri var röðun flokka í leiðsögustigveldinu stafrófsröð. Núverandi sérsniðin röðunaraðgerð gerir sölustjórum kleift að stilla flokkunarröðina fyrir ýmsar sölutengdar einingar á öllum notendaviðskiptavinum. Þessir viðskiptavinir eru með höfuðstöðvar (HQ) og símaver.
 
 ## <a name="configure-the-display-order-for-categories-in-the-product-hierarchy"></a>Skilgreindu birtingarröð fyrir flokka í afurðastigveldi
 
@@ -63,11 +63,11 @@ Skjápöntunin fyrir yfirlitsstigveldi rásar mun endurspeglast í aðalstöðvu
 2. Af listanum velurðu stigveldið **Tískuyfirlit**.
 3. Smelltu á **Breyta tegundastigveldi**.
 4. Smellið á **Breyta**.
-5. Í trénu velurðu **Tíska \> Kvenfatnaður \> Dömuskór**.
+5. Í trénu, veldu **Tíska \> Kvennaföt \> Kvennaskór**.
 6. Í reitinn **Sýna röðun** skal slá inn númer.
 7. Í trénu velurðu **Tíska \> Kvenfatnaður \> Toppar**.
 
-    Sömuleiðis er hægt að skilgreina röðun fyrir undirflokka.
+Sömuleiðis er hægt að skilgreina flokkunarröð fyrir undirflokkana.
 
 8. Í trénu velurðu **Tíska \> Herrafatnaður \> Óformlegar skyrtur**.
 9. Í reitinn **Sýna röðun** skal slá inn númer.
@@ -84,7 +84,7 @@ Birtingarröð fyrir yfirlitsstigveldi rásarinnar endurspeglast í aðalstöðv
 ![Sölustaður með sérstillta röðun flokka.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> Sjálfgefið er að slökkt sé á sérröðunarstillingunni. Til að læra hvernig á að kveikja á þessum eiginleika og öðrum eiginleikum skal sjá [Eiginleikastjórnun](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
-
+> Sjálfgefið er **Virkja birtingarpöntun fyrir sölueiningar** slökkt er á eiginleikanum. Notaðu [Eiginleikastjórnun](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) að kveikja á því. Eftir að þú hefur kveikt á eiginleikanum skaltu keyra **Alþjóðleg stilling -1110** CDX starf úr dreifingaráætlun.
+> Ef flokkapöntunin þín í POS er ekki uppfærð skaltu endurvirkja tækið. Upplýsingar um flokk eru sóttar þegar virkjun tækis á sér stað, þannig að tækið gæti þurft að sækja flokkaupplýsingarnar aftur með uppfærðum skjápöntunum. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

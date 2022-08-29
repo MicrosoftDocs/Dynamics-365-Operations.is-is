@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d6ad25ec49a329c16b0290278fb614293a507eae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c0d067ec4f2110b1c146ef0229b90e309578eaa7
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887690"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335076"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>Reikningur vegna viðhalds á eignum viðskiptavinar
 
@@ -40,7 +40,7 @@ Að auki býður eiginleikinn upp á eftirfarandi virkni:
 
 ## <a name="turn-on-the-customer-billing-feature"></a>Kveikja á reikningseiginleika viðskiptavinar
 
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Áður en þú getur notað þennan eiginleika verður að kveikja á honum fyrir kerfið þitt. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Verkefnastjórnun og bókhald*
 - **Heiti eiginleika:** *Innheimta verkbeiðni*
@@ -49,7 +49,7 @@ Að auki býður eiginleikinn upp á eftirfarandi virkni:
 
 Til að fá upplýsingar um hvernig þessi eiginleiki virkar skal fylgja eftirfarandi aðstæðum.
 
-Til að vinna í gegnum þessar aðstæður með því að nota sýnigögnin og gildin sem eru tilgreind hér verður þú að vera á kerfi þar sem venjuleg [sýnigögn](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) er sett upp. Nauðsynlegt er að velja **USMF**-lögaðila áður en byrjað er.
+Til að vinna í gegnum þessar aðstæður með því að nota sýnigögnin og gildin sem eru tilgreind hér verður þú að vera á kerfi þar sem venjuleg [sýnigögn](../../../fin-ops-core/fin-ops/get-started/demo-data.md) er sett upp. Nauðsynlegt er að velja **USMF**-lögaðila áður en byrjað er.
 
 Einnig er hægt að nota þessar aðstæður sem leiðsögn um notkun á eiginleikanum þegar unnið er í framleiðslukerfi. Í slíku tilfelli þarf hinsvegar að skipta út eigin gildum og einhverjar nauðsynlegar færslugerðir gæti vantað sem stöðluðu sýnigögnin bjóða upp á.
 

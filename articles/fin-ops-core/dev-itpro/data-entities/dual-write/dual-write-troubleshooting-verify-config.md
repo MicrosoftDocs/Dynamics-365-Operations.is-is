@@ -1,22 +1,22 @@
 ---
-title: Staðfestu tvöfalda skrifstillingu í fjármála- og rekstrarforritum og Dataverse
+title: Staðfesta stillingu tvöfaldrar skráningar í fjármála- og rekstrarforritum og Dataverse
 description: Þessi grein útskýrir hvernig þú getur ákvarðað hvort tvískrift sé stillt í fjármála- og rekstrarforritum og í Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: d5191f5dd9c3a286abac622aede07d04fb72a8f7
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 4ff7821fce661f174f57fb45667d4ceb3cfcede9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111393"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289391"
 ---
-# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Staðfestu tvöfalda skrifstillingu í fjármála- og rekstrarforritum og Dataverse
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Staðfesta stillingu tvöfaldrar skráningar í fjármála- og rekstrarforritum og Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
@@ -24,13 +24,13 @@ ms.locfileid: "9111393"
 
 
 
-Þessi grein veitir upplýsingar um bilanaleit fyrir samþættingu tvískrifa milli fjármála- og rekstrarforrita og Dataverse. Nánar tiltekið útskýrir það hvernig þú getur ákvarðað hvort tvískrift sé stillt í fjármála- og rekstrarforritum og í Dataverse.
+Þessi grein veitir upplýsingar um bilanaleit fyrir tvískrifað samþættingu milli fjármála- og rekstrarforrita og Dataverse. Nánar tiltekið útskýrir það hvernig þú getur ákvarðað hvort tvískrift sé stillt í fjármála- og rekstrarforritum og í Dataverse.
 
 ## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Staðfestu að tvískrift sé stillt í fjármála- og rekstrarforriti
 
 Til að ákvarða hvort villa sem birtist þegar reynt er að vista línur til að uppfæra eru úr tvöfaldri skráningu skal fyrst staðfesta að tvöföld skráning sé stillt.
 
-+ Ef þú hefur stjórnandaréttindi í fjármála- og rekstrarappinu skaltu fara á **Vinnurými \> Gagnastjórnun**, og veldu **Tvöfalt skrifa** flísar. Ef upplýsingar um tengt umhverfi og lista yfir töflukort sem eru í keyrslu eru birtar er tvöföld skráning stillt.
++ Ef þú ert með stjórnandaréttindi í fjármála- og rekstrarappinu skaltu fara á **Vinnurými \> Gagnastjórnun**, og veldu **Tvöfalt skrifa** flísar. Ef upplýsingar um tengt umhverfi og lista yfir töflukort sem eru í keyrslu eru birtar er tvöföld skráning stillt.
 
     ![Staðfestir tengingu fjármála- og rekstrarapps þegar þú hefur stjórnandaréttindi.](media/verify_fin_ops_1.png)
 
@@ -38,7 +38,7 @@ Til að ákvarða hvort villa sem birtist þegar reynt er að vista línur til a
 
     ![Staðfestir tengingu fjármála- og rekstrarapps þegar þú hefur ekki stjórnandaréttindi.](media/verify_fin_ops_2.png)
 
-Fyrir upplýsingar um hvernig á að laga vandamál þegar þú býrð til gögn í fjármála- og rekstrarforritum, sjá [Leysaðu vandamál í beinni samstillingu](dual-write-troubleshooting-live-sync.md).
+Fyrir upplýsingar um hvernig á að laga vandamál þegar þú býrð til gögn í fjármála- og rekstrarforritum, sjá [Lestu vandamál við samstillingu í beinni](dual-write-troubleshooting-live-sync.md).
 
 ## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>Gakktu úr skugga um að tvískipt skrif sé stillt í Dataverse
 

@@ -1,24 +1,24 @@
 ---
 title: Dagsetning VSK-skrár lánardrottins
 description: Þessi grein veitir upplýsingar um eiginleika til að virkja dagsetningu virðisaukaskattsskrár lánardrottins
-author: anasyash
+author: AdamTrukawka
 ms.date: 01/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: global
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2022-01-15
 ms.dyn365.ops.version: AX 10.0.24
-ms.openlocfilehash: b1368e0c7764bed42aa7549f36a6f4bcbb96eff4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: intro-internal
+ms.openlocfilehash: 4af770427f5b19eaf2a129b26d54aeacc6c2f148
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849777"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278279"
 ---
 # <a name="date-of-vendor-vat-register"></a>Dagsetning VSK-skrár lánardrottins
 
@@ -28,7 +28,7 @@ Til að virkja nýja reitinn, farðu í **Eiginleikastjórnun** vinnusvæði, fi
 
 Innkomnir reikningar frá birgjum þínum geta haft tvær dagsetningar: dagsetninguna þegar seljandinn gaf út reikninginn og dagsetning skattskyldrar afhendingar (þ.e. dagsetningin þegar seljandinn innheimti virðisaukaskatt [VSK] sem ber að greiða). Í sumum tilfellum gætu þessar tvær dagsetningar verið mismunandi.
 
-Þú getur dregið frá innkominni virðisaukaskattsupphæð fyrir innkaupareikning og sett þann reikning á virðisaukaskattsskýrslur síðar, á dagsetningu sem er frábrugðin báðum áðurnefndum dagsetningum. Þessi dagsetning er stjórnað af staðbundnum reglum um frestun á virðisaukaskattsfrádrætti fyrir sumar aðstæður. Það er mismunandi eftir löndum eða svæðum.
+Hægt er að draga frá innkominni virðisaukaskattsupphæð fyrir innkaupareikning og setja þann reikning á virðisaukaskattsskýrslur síðar, á dagsetningu sem er frábrugðin báðum áðurnefndum dagsetningum. Þessi dagsetning er stjórnað af staðbundnum reglum um frestun á virðisaukaskattsfrádrætti fyrir sumar aðstæður. Það er mismunandi eftir löndum eða svæðum.
 
 Sumar virðisaukaskattsskýrslur, svo sem [VSK Eftirlitsskýrsla](emea-cze-vat-declaration-tax-declaration-model.md#vat-control-statement) í Tékklandi, krefjast þess að dagsetning skattskyldrar afhendingu sé gefin upp fyrir innkaupaskjal. Tilkynna þarf þessa dagsetningu svo skattyfirvöld geti samræmt virðisaukaskattsskýrslu milli mótaðila.
 
@@ -46,4 +46,4 @@ Sumar virðisaukaskattsskýrslur, svo sem [VSK Eftirlitsskýrsla](emea-cze-vat-d
 - Samþykkt á reikningi lánardrottins
 - Reikningabók lánardrottins
 
-Eftir að reikningur lánardrottins er bókaður er hægt að skoða dagsetningarnar á **Reikningardagbók** og **Viðskipti söluaðila** síður.
+Eftir að reikningur lánardrottins er bókaður er hægt að skoða dagsetningarnar á **Reikningadagbók** og **Viðskipti söluaðila** síður.

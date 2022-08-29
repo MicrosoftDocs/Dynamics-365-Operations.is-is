@@ -1,25 +1,25 @@
 ---
 title: Stjórna SEO-lýsigögnum
 description: Þessi grein lýsir því hvernig á að stjórna leitarvélabestun (SEO) lýsigögnum í Microsoft Dynamics 365 Commerce.
-author: psimolin
+author: josaw1
 ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 99c28c2bff7b683f3e92dea4ba24d8bead556443
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 4b04d675a903279e667e1f5fcee387f05d979e81
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027310"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276829"
 ---
 # <a name="manage-seo-metadata"></a>Stjórna SEO-lýsigögnum
 
@@ -69,7 +69,7 @@ Til að breyta lýsigögnum síðu skal fylgja þessum skrefum.
 1. Í síðuritlinum, efst á útlínurstýringu síðunnar til vinstri, veldu **Útlínur hamur valkostur** (gírtákn) og veldu síðan **Ítarleg yfirlitsmynd**.
 1. Í yfirlitsskjánum skaltu stækka tréstýringarnar til að sýna innihald **HTML höfuð** rifa.
 1. Í **HTML höfuð** rauf, veldu þá SEO einingu sem þú vilt (til dæmis, **Yfirlit síðu**, **vörusíðu**, **yfir flokkasíðu**, eða **Lýsimerki**).
-1. Í eiginleikarúðunni hægra megin, breyttu viðkomandi SEO gögnum fyrir valda SEO einingu (til dæmis, **Titill**, **·**, eða **Deilir mynd**).
+1. Í eiginleikarúðunni til hægri, breyttu viðkomandi SEO gögnum fyrir valda SEO einingu (til dæmis, **Titill**, **·**, eða **Deilir mynd**).
 1. Veldu **Vista** og síðan **Ljúka við breytingar**.
 1. Í **Athugasemdir** reit, slá inn **Uppfærð SEO gögn**, og veldu síðan **Allt í lagi**.
 1. Veldu **Forskoðun** til að forskoða síðuna. Þegar þú hefur lokið því skaltu loka forskoðunarflipanum til að fara aftur í höfundatólið.

@@ -1,7 +1,7 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Retail
 description: Þessi síða beinir þér á efni sem getur aðstoðað þig við að læra um nýja eiginleika í nýjustu útgáfum Microsoft Dynamics 365 Retail.
-author: sericks007
+author: josaw1
 ms.date: 10/20/2018
 ms.topic: article
 ms.prod: ''
@@ -9,16 +9,16 @@ ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
-ms.author: jeffbl
+ms.author: josaw
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 2c809952dff419911b51c0375b9797761a0f8c32
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.search.industry: retail
+ms.openlocfilehash: 91dae4588b45a605f771d2218b2d3c11ef6a9317
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069411"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284246"
 ---
 # <a name="whats-new-and-changed-in-dynamics-365-retail"></a>Hvað er nýtt og breytt í Dynamics 365 Retail
 
@@ -31,7 +31,7 @@ ms.locfileid: "9069411"
 
 | Losun | Búa til númer | Til ráðstöfunar | Frekari upplýsingar |
 |---------|--------------|--------------|------------|
-| Dynamics 365 for Finance & Operations - Retail - 7.3.5 | 7,3,11971,64930 | 2018. september | [KB 4464337 Microsoft Dynamics 365 Finance - Útgáfa 7.3.5, (tvíundir hluti)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4464337&bugId=244892&qc=76dd5cdc0d340f5e68db3efa64d755ee83d747a3d786180a6dc9b99677bcb450),[KB 4463127 Microsoft Dynamics 365 Fjármál - Útgáfa 7.3.5. (X++ hluti)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4463127&bugId=244893&qc=76dd5cdc0d340f5e68db3efa64d755ee83d747a3d786180a6dc9b99677bcb450) |
+| Dynamics 365 for Finance & Operations - Retail - 7.3.5 | 7,3,11971,64930 | 2018. september | [KB 4464337 Microsoft Dynamics 365 Fjármál - útgáfa 7.3.5, (tvíundir hluti)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4464337&bugId=244892&qc=76dd5cdc0d340f5e68db3efa64d755ee83d747a3d786180a6dc9b99677bcb450),[KB 4463127 Microsoft Dynamics 365 Fjármál - Útgáfa 7.3.5. (X++ hluti)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4463127&bugId=244893&qc=76dd5cdc0d340f5e68db3efa64d755ee83d747a3d786180a6dc9b99677bcb450) |
 | Dynamics 365 for Finance & Operations - Retail - 7.3.4 | 7,3,11971,64556 | Ágúst 2018 | [KB 4467783 Microsoft Dynamics 365 for Retail - Útgáfa 7.3.5 - Villuleiðréttingarpakki 2\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4467783&bugId=257914&qc=f3e2816c3b1434965bc738285fb40f4ad33661bdd853b799dca4c610608640af) |
 | Dynamics 365 for Finance & Operations - Retail - 7.3.4 | 7,3,11971,64556 | Ágúst 2018 | [KB 4456209 Microsoft Dynamics 365 Fjármál - útgáfa 7.3.4, (tvíundir hluti)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4456209&bugId=235124&qc=265c05d9f50ea023cf31547ca91e16bb5dffd5adfc819b3232abef9c5419a559),[KB 4456210 Microsoft Dynamics 365 Fjármál - Útgáfa 7.3.4. (X++ hluti)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4456210&bugId=235125&qc=265c05d9f50ea023cf31547ca91e16bb5dffd5adfc819b3232abef9c5419a559)
 | Dynamics 365 for Finance & Operations - Retail - 8.0.4 | 8,0,35,15534 | Ágúst 2018 | [KB 4458992 Microsoft Dynamics 365 Finance - Útgáfa 8.0.4 (tvíundir hluti)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4458992&bugId=239612&qc=5c131e4cc5a91c0381e923ee0c49791fe71ed37f506c00367caf3a01183125ff),[KB 4458993 Microsoft Dynamics 365 Finance - útgáfa 8.0.4 (X++ hluti)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4458993&bugId=239610&qc=5c131e4cc5a91c0381e923ee0c49791fe71ed37f506c00367caf3a01183125ff) |

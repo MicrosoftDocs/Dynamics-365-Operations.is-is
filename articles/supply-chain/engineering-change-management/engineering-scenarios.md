@@ -2,7 +2,7 @@
 title: Kynning á eiginleikanum umsjón hönnunarbreytinga
 description: Þessi grein veitir leiðsögn frá enda til enda sem sýnir hvernig á að vinna með verkfræðilega breytingastjórnun.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 65ff30632a54b0b7cadbfe663698d466d41abe47
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889636"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334896"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Kynning á eiginleikanum umsjón hönnunarbreytinga
 
@@ -41,11 +41,11 @@ Allar æfingar í þessari grein nota staðlað sýnishornsgögn sem eru veitt f
 
 Til að fylgja sýnishorninu sem er að finna í þessari grein, verður þú fyrst að undirbúa eiginleikann með því að gera kynningargögn aðgengileg og bæta við nokkrum sérsniðnum færslum.
 
-Áður en þú reynir að gera einhverja af æfingunum í restinni af þessari grein skaltu fylgja leiðbeiningunum í öllum eftirfarandi undirköflum. Þessir undirkaflar kynna einnig til sögunnar nokkrar mikilvægar stillingasíður sem þú munt nota þegar þú setur upp umsjón hönnunarbreytinga fyrir þitt eigið fyrirtæki.
+Áður en þú reynir að gera eitthvað af æfingunum í restinni af þessari grein skaltu fylgja leiðbeiningunum í öllum eftirfarandi undirköflum. Þessir undirkaflar kynna einnig til sögunnar nokkrar mikilvægar stillingasíður sem þú munt nota þegar þú setur upp umsjón hönnunarbreytinga fyrir þitt eigið fyrirtæki.
 
 ### <a name="make-standard-demo-data-available"></a>Gera stöðluð sýnigögn aðgengileg
 
-Notaðu kerfi þar sem [stöðluð sýnigögn eru uppsett](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). Stöðluð sýnigögn bæta við gögnum fyrir nokkrar sýniútgáfur af lögaðilum (fyrirtæki og stofnanir). Meðan þú fikrar þig áfram í gegnum æfingarnar, notarðu fyrirtækið hægra megin á yfirlitsstikunni til að skipta á milli fyrirtækis (*DEMF*) sem sett er upp sem *hönnunarfyrirtæki* og annars fyrirtækis (*USMF*) sem sett er upp sem *rekstrarfyrirtæki*.
+Vinna á kerfi þar sem staðall [kynningargögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) er sett upp. Stöðluð sýnigögn bæta við gögnum fyrir nokkrar sýniútgáfur af lögaðilum (fyrirtæki og stofnanir). Meðan þú fikrar þig áfram í gegnum æfingarnar, notarðu fyrirtækið hægra megin á yfirlitsstikunni til að skipta á milli fyrirtækis (*DEMF*) sem sett er upp sem *hönnunarfyrirtæki* og annars fyrirtækis (*USMF*) sem sett er upp sem *rekstrarfyrirtæki*.
 
 ### <a name="set-up-an-engineering-organization"></a>Setja upp hönnunarfyrirtæki
 
@@ -284,7 +284,7 @@ Til að fara yfir og gefa út afurðina í fyrirtækinu *USMF* skal fylgja þess
 
 1. Veljið gildið í dálknum **Afurðarnúmer** til að opna síðuna **Upplýsingar um útgáfu afurðar**. Athugið eftirfarandi upplýsingar:
 
-    - Flýtiflipinn **Almennt** sýnir upplýsingar um útgáfu afurðar, t.d. fyrirtæki útgáfunnar (*DEMF* í þessu dæmi), útgáfustaðinn (*1*) og móttökustaðinn (*1*). Vegna þess að móttökustaður var ekki gefinn upp í leiðsagnarforritinu **Gefa út afurðir**, verður gildi útgáfustaðar afritað yfir í móttökustaðinn.
+    - Flýtiflipinn **Almennt** sýnir upplýsingar um útgáfu afurðar, t.d. fyrirtæki útgáfunnar (*DEMF* í þessu dæmi), útgáfustaðinn (*1*) og móttökustaðinn (*1*). Vegna þess að þú tilgreindir ekki móttökusíðu í **Gefa út vörur** töframaður, gildi útgáfusíðunnar er afritað á móttökusíðuna.
     - Flýtiflipinn **Upplýsingar um útgáfu** sýnir upplýsingar um afurðina og útgáfuna sem var gefin út. Hér er hægt að breyta stillingum á borð við gildisdagsetningar.
     - Flýtiflipinn **Leið** sýnir leið afurðarinnar. Í þessu dæmi voru hinsvegar ekki engar leiðar gefnar út.
 

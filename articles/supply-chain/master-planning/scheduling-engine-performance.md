@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ddc22bdd223eff513ff571501c599712ac78a7da
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854298"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219908"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Bæta frammistöðu röðunarvélar
 
@@ -294,7 +294,9 @@ Samhliða aðgerðir (aðal/auka) eru öflugt verkfæri til að líkja eftir að
 
 ### <a name="route-with-quantity-of-resources-higher-than-1"></a>Leiðir með fjölda tilfanga hærri en 1
 
-Ef fjöldi tilfanga sem þarf fyrir aðgerð er stilltur á hærra en einn, þá kemur það út á það sama og að nota aðal-/aukaaðgerðir vegna þess að margar samhliða vinnslur eru sendar til vélarinnar. Hins vegar, fyrir þetta tilfelli er ekki möguleiki á að nota sérstakar úthlutanir tilfanga vegna þess að fjöldi sem er hærra en einn krefst þess að fleiri en eitt tilfang eigi við um aðgerðina.
+Ef magn auðlinda sem þarf fyrir aðgerð er meira en eitt, þá er niðurstaðan í raun sú sama og að nota frum-/efri aðgerð vegna þess að mörg samhliða störf verða send til vélarinnar. Hins vegar, í þessu tilviki, er ekki hægt að nota tilteknar tilfangaúthlutanir vegna þess að meira magn en eitt krefst þess að fleiri en ein tilfang eigi við um aðgerðina.
+
+Aukaaðgerð sem hefur tilfangahleðslumagn sem er meira en eitt þýðir að tilgreint magn aukaauðlinda er nauðsynlegt fyrir hverja tilföng aðalaðgerðarinnar. Til dæmis, ef aðalaðgerð hefur magn tilfanga stillt á tvö og aukaaðgerð hefur tilfangamagn stillt á þrjú, þá þarf samtals sex tilföng fyrir aukaaðgerðina.
 
 ### <a name="excessive-use-of-finite-capacity"></a>Óhófleg notkun á takmarkaðri getu
 

@@ -1,26 +1,26 @@
 ---
 title: Skilgreina færslutengda áfangastaði rafrænnar skýrslugerðar fyrir prentstýringu
-description: Þessi grein útskýrir hvernig á að stilla tiltekna áfangastaði fyrir prentstjórnunarfærslur fyrir rafræn skýrslugerð (ER) snið sem er stillt til að búa til skjöl á útleið.
-author: NickSelin
+description: Þessi grein útskýrir hvernig á að stilla prentstjórnunarfærslu tiltekna áfangastaði fyrir rafræn skýrslugerð (ER) snið sem er stillt til að búa til skjöl á útleið.
+author: kfend
 ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERFormatDestinationTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2972dc6a0b373cbc63b811c01ef7a5538810edbb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
+ms.search.form: ERSolutionTable, ERFormatDestinationTable
+ms.openlocfilehash: 7c92d580f6adebdba12b7964a42fd4752e9c9205
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872714"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285062"
 ---
 # <a name="configure-print-management-record-specific-er-destinations"></a>Skilgreina færslutengda áfangastaði rafrænnar skýrslugerðar fyrir prentstýringu
 

@@ -1,27 +1,27 @@
 ---
 title: Birgðaaðgerð á innleið á sölustað
-description: Þessi grein lýsir getu sölustaðarins (POS) birgðaaðgerða á innleið.
-author: hhaines
+description: Þessi grein lýsir getu sölustaða (POS) birgðaaðgerða á innleið.
+author: hhainesms
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.search.form: ''
+ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858883"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288353"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Birgðaaðgerð á innleið á sölustað
 
@@ -141,7 +141,7 @@ Vikmarkaprósenta vanafhendingar fyrir flutningspöntunarlínu getur verið fyri
 
 Eftir að fyrirtæki lýkur skilgreiningum á vanafhendingu innkaupapöntunar, sjá notendur sölustaðar nýja valkostinn **Loka eftirstandandi magni** í glugganum **Upplýsingar** þegar innkaupapöntunarlína á innleið er valin í aðgerðinni **Birgðir á innleið**. Ef notandinn lokar eftirstandandi magni, framkvæmir sölustaðurinn villuleit til að staðfesta hvort magnið sem var lokað er innan vikmarkaprósentu vanafhendingar sem er skilgreind í innkaupapöntunarlínunni. Ef farið er yfir vikmörk vanafhendingar birtast villuboð og notandinn mun ekki geta lokað eftirstandandi magni fyrr en áður sent magn ásamt magninu **Móttekur núna** uppfyllir eða fer yfir lágmarkið sem þarf að taka á móti samkvæmt vikmarkaprósentu vanafhendingar. 
 
-Með kveikt á valkostinum **Loka eftirstandandi magni** fyrir innkaupapöntunarlínu, þegar notandinn lýkur móttöku með því að nota aðgerðina **Ljúka við móttöku**, er lokunarbeiðni einnig send til Commerce Headquarters og hætt verður við allt magn sem ekki hefur verið móttekið fyrir þessa pöntunarlínu. Á þeim tímapunkti er litið á línuna sem móttekna að fullu. 
+Með **Lokaðu eftirstandandi magni** kveikt er á valmöguleikanum fyrir innkaupapöntunarlínu, þegar notandi lýkur við kvittuninni með því að nota **Ljúktu við móttöku** aðgerð, lokunarbeiðni er einnig send til höfuðstöðva Commerce og allt ómóttekið magn af þessari pöntunarlínu verður afturkallað. Á þeim tímapunkti er litið á línuna sem móttekna að fullu. 
 
 ### <a name="receiving-location-controlled-items"></a>Móttaka á staðstýrðir vörum
 
@@ -155,15 +155,13 @@ Aðgerðin virðir stillingar **Auð innhreyfing heimil** á geymsluvíddina **S
 
 ### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Kvittun fyrir móttöku óáætlaðra atriða í innkaupapöntunum
 
-Í Commerce útgáfu 10.0.14 og nýrri geta notendur tekið á móti vöru sem ekki var upphaflega á innkaupapöntuninni. Til að virkja þennan valkost skaltu kveikja á **Bæta línum við innkaupapöntun við móttöku sölustaðar**.  
-
-Þessi eiginleiki virkar aðeins fyrir móttöku innkaupapantana. Ekki er hægt að taka á móti vörum gegn flutningspöntunum þegar vörur voru ekki áður pantaðar og sendar úr vöruhúsi á útleið.
+Í Commerce útgáfu 10.0.14 og nýrri geta notendur tekið á móti vöru sem ekki var upphaflega á innkaupapöntuninni. Þessi eiginleiki virkar aðeins fyrir móttöku innkaupapantana. Ekki er hægt að taka á móti vörum gegn flutningspöntunum þegar vörur voru ekki áður pantaðar og sendar úr vöruhúsi á útleið.
 
 Notendur geta ekki bætt nýjum afurðum við innkaupapöntunina meðan á móttöku á sölustað stendur ef innkaupapöntun [breyta verkflæði](../supply-chain/procurement/purchase-order-approval-confirmation.md) er virkjuð í Commerce Headquarters (HQ). Til að virkja breytingastjórnun verður fyrst að samþykkja allar breytingar á innkaupapöntun áður en móttaka er leyfð. Vegna þess að þetta ferli gerir viðtakanda kleift að bæta nýjum línum við innkaupapöntunina mun móttaka mistakast ef verkflæði breytingarstjórnunar er virkt. Ef breytingastjórnun er virkjuð fyrir allar innkaupapantanir eða lánardrottinn sem tengist innkaupapöntuninni sem tekið er á móti í sölustað getur notandinn ekki bætt nýjum afurðum við innkaupapöntunina við móttöku í sölustað.
 
 Ekki er hægt að nota eiginleikann sem bætir við línum til að taka á móti viðbótarmagni afurða sem eru þegar á innkaupapöntuninni. Umframmóttöku er stjórnað í gegnum staðlaða stillingar [umframmóttöku](#over-receiving-validations) fyrir vörulínuna á innkaupapöntuninni.
 
-Ef **Bæta línum við innkaupapöntun við móttöku sölustaðar** er virkt og notandi tekur á móti með **Aðgerð á innleið** á sölustað, ef notandi skannar eða slær inn strikamerki eða vörunúmer sem ekki hefur verið skráð sem vara á innkaupapöntuninni, en er viðurkennd sem gild vara, fær notandinn skilaboð um að bæta vörunni við innkaupapöntunina. Ef notandinn bætir vörunni við innkaupapöntunina er magnið sem fært er inn í **Móttaka núna** talið pöntunarmagn fyrir innkaupapöntunarlínuna.
+Þegar notandi er að taka á móti með **Rekstur á heimleið** í POS, ef notandinn skannar eða lyklar vörustrikamerkja eða vörunúmeri sem er viðurkennt sem gild vara en er ekki viðurkennd sem vara í núverandi innkaupapöntun, fær notandinn skilaboð þar sem hann er beðinn um að bæta vörunni við kaupin pöntun. Ef notandinn bætir vörunni við innkaupapöntunina er magnið sem fært er inn í **Móttaka núna** talið pöntunarmagn fyrir innkaupapöntunarlínuna.
 
 Þegar innkaupapöntunarkvittunin er tilbúin og hún send inn til HQ fyrir vinnslu eru viðbótarlínur stofnaðar í aðalskjali innkaupapöntunar. Á innkaupapöntunarlínunni í HQ verður **Bætt við af móttöku sölustaðar** flagg á flipanum **Almennt** á innkaupapöntunarlínunni. **Bætt við af móttöku sölustaðar** flaggið gefur til kynna að innkaupapöntunarlínunni hafi verið bætt við móttökuferli sölustaðarins og hafi ekki verið lína sem var á innkaupapöntuninni á undan móttöku.
 

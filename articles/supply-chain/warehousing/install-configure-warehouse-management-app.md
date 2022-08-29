@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ec2a9f5ca6d6735e675defda6782738da7814c01
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.openlocfilehash: d6131d205e650c0de88b85434629ed9537c2a0b1
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171456"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335646"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Setja upp og tengja farsímaforrit Warehouse Management
 
@@ -38,7 +38,7 @@ Farsímaforrit vöruhúsakerfisins er í boði fyrir bæði stýrikerfi Windows 
 
 ## <a name="turn-warehouse-management-mobile-app-features-on-or-off-in-supply-chain-management"></a>Kveiktu eða slökktu á eiginleikum vöruhúsastjórnunar farsímaforrits í Supply Chain Management
 
-Til að nota Warehouse Management farsímaforritið, *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* kveikt verður á eiginleikanum í kerfinu þínu. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota Warehouse Management farsímaforritið, *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Sækja farsímaforrit vöruhúsakerfis
 
@@ -88,7 +88,7 @@ Til að virkja farsímaforrit Vöruhúsakerfis til að eiga samskipti við tilte
 
     ![Kenni forrits (biðlara).](media/app-connect-azure-app-id.png "Kenni forrits (biðlari)")
 
-1. Á listanum **Stjórna** skal velja **Vottorð og leyniorð**. Næst skal velja einn af eftirfarandi hnöppum, allt eftir því hvernig á að grunnstilla forritið fyrir sannvottun. (Nánari upplýsingar er að finna í [Staðfestu með því að nota vottorð eða leyndarmál viðskiptavinar](#authenticate) kafla síðar í þessari grein.)
+1. Á listanum **Stjórna** skal velja **Vottorð og leyniorð**. Næst skal velja einn af eftirfarandi hnöppum, allt eftir því hvernig á að grunnstilla forritið fyrir sannvottun. (Fyrir frekari upplýsingar, sjá [Staðfestu með því að nota vottorð eða leyndarmál viðskiptavinar](#authenticate) kafla síðar í þessari grein.)
 
     - **Hlaða upp vottorði** – Hlaða upp vottorði til að nota sem leyniorð. Við mælum með þessari nálgun vegna þess að hún er öruggari og getur einnig verið sjálfvirk að fullu. Ef verið er að nota farsímaforrit Vöruhúsakerfis á Windows-tækjum skal skrá niður gildið **Fingrafar** sem er sýnt eftir að búið er að hlaða upp vottorðinu. Þú þarft þetta gildi þegar þú grunnstillir vottorð í Windows-tækjum.
     - **Nýtt leyniorð biðlara** – Stofnið lykil með því að slá inn lyklalýsingu og lengd í hlutanum **Aðgangsorð** og veljið **Bæta við**. Taktu afrit af lyklinum og geymdu það á öruggum stað.
@@ -140,7 +140,7 @@ Nauðsynlegt er að gera vottorð aðgengilegt staðbundið á hverju tæki sem 
 
 ## <a name="configure-the-warehouse-management-mobile-app-for-cloud-and-edge-scale-units"></a>Grunnstilla farsímaforrit Warehouse Management fyrir einingakvarða skýja og jaðra
 
-Nokkur auka skref eru nauðsynleg ef þú ætlar að keyra vöruhússtjórnun farsímaforritið á móti skýja- eða brúnkvarðaeiningu. Fyrir leiðbeiningar, sjá [Stilltu Warehouse Management farsímaforritið fyrir skýja- og brúnkvarðaeiningar](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
+Nokkur aukaskref eru nauðsynleg ef þú ætlar að keyra vöruhússtjórnun farsímaforritið gegn skýja- eða brúnkvarðaeiningu. Fyrir leiðbeiningar, sjá [Stilltu Warehouse Management farsímaforritið fyrir skýja- og brúnkvarðaeiningar](../cloud-edge/cloud-edge-workload-setup-warehouse-app.md).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Grunnstilla forritið með því að flytja inn tengingarstillingar
 
@@ -263,7 +263,7 @@ Ef hvorki skrá né QR-kóði er til staðar er hægt að skilgreina forritið h
 
 1. Færi inn eftirfarandi upplýsingar:
 
-    - **Nota leyniorð biðlara** – Stillið þennan valkost á _Já_ til að nota leyniorð biðlara til að sannvotta með Supply Chain Management. Stillið hann á _Nei_ til að nota vottorð fyrir sannvottun. (Nánari upplýsingar er að finna í [Búðu til vefþjónustuforrit í Azure Active Directory](#create-service) kafla fyrr í þessari grein.)
+    - **Nota leyniorð biðlara** – Stillið þennan valkost á _Já_ til að nota leyniorð biðlara til að sannvotta með Supply Chain Management. Stillið hann á _Nei_ til að nota vottorð fyrir sannvottun. (Fyrir frekari upplýsingar, sjá [Búðu til vefþjónustuforrit í Azure Active Directory](#create-service) kafla fyrr í þessari grein.)
     - **Heiti tengingar** – Sláðu inn heiti fyrir nýja tengingu. Þetta heiti birtist í reitnum **Velja tengingu** næst þegar tengingarstillingar eru opnaðar. Heitið sem fært er inn verður að vera einkvæmt. (Með öðrum orðum, það verður að vera frábrugðið öllum öðrum tengingarheitum sem eru geymd í tækinu, ef önnur tengingarheiti eru geymd þar.)
     - **Biðlarakenni Active Directory** – Færið inn auðkenni biðlarans sem skráð var þegar verið var að setja upp Azure AD í hlutanum [Stofna vefþjónustuforrit í Azure Active Directory](#create-service).
     - **Leyniorð biðlara Active Directory** – Þessi reitur er aðeins í boði þegar valkosturinn **Nota leyniorð biðlara** er stilltur á _Já_. Færið inn leyniorð biðlara sem skráð var þegar verið var að setja upp Azure AD í hlutanum [Stofna vefþjónustuforrit í Azure Active Directory](#create-service).

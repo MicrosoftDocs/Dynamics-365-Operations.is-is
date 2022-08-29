@@ -1,26 +1,26 @@
 ---
 title: Sala og skil á afurðum sem ekki eru hluti af úrvali verslunar
 description: Með Dynamics 365 Commerce getur þú selt og skilað afurðum út fyrir vöruúrval.
-author: pdp1207
+author: josaw1
 ms.date: 05/24/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
 ms.search.region: Global
-ms.search.industry: retail
-ms.author: prabhup
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 318fa3bb4aed2b22e4db821f4e4e4762866fddc42f6cf0050a2a3c392faeb561
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: ''
+ms.search.industry: retail
+ms.search.form: RetailAssortmentDetails
+ms.openlocfilehash: d2444d7812cffc832986589825b332d60a508b18
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713391"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275033"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Sala og skil á afurðum sem ekki eru hluti af úrvali verslunar
 

@@ -1,33 +1,33 @@
 ---
-title: Virkja tillögur um að kaupa svipaða vöru
-description: Þessi grein lýsir því hvernig á að virkja vöruráðleggingar um „verslaðu svipað útlit“ í Microsoft Dynamics 365 Commerce.
+title: Virkjaðu ráðleggingar ""verslaðu svipað útlit"".
+description: Þessi grein lýsir því hvernig á að virkja ""verslun svipað útlit"" vöruráðleggingar í Microsoft Dynamics 365 Commerce.
 author: bebeale
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3024e832de5e6a60b49c5b0c8bfbe36b2c416379
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail, eCommerce
+ms.search.form: ''
+ms.openlocfilehash: 26eb436d889ac81cde730daca9b44d1deeda6c74
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884578"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282051"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Virkja tillögur um að kaupa svipaða vöru
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að virkja vöruráðleggingar um „verslaðu svipað útlit“ í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að virkja vöruráðleggingar um "versla svipað útlit" í Microsoft Dynamics 365 Commerce.
 
 Eiginleikinn fyrir ráðleggingar um „versla svipaða vöru“ í Dynamics 365 Commerce notar gervigreind og vélnám til að sýna viðskiptavinum afurðir sem líta svipað út. Með því að bjóða upp á tillögur fyrir „versla svipaða vöru“ fyrir allar smásölurásir í Commerce, geta smásalar aukið ánægja viðskiptavina með því að hjálpa viðskiptavinum að finna á auðveldan hátt það sem þeir vilja.
 

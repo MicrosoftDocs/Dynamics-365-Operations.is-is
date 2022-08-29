@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 782b1b4995af09a63c483d2b81ed255a5c11803a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 784361f4e715921890ecff784b62935988732464
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846041"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335166"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Fyrirspurnir og skýrslur um hættuleg efni
 
@@ -101,11 +101,11 @@ Til að mynda og prenta þessa skýrslu skal fara í **Vöruhúsastjórnun \> Se
 
 ## <a name="bill-of-lading-report"></a>farmbréfaskýrsla
 
-Þegar kveikt er á eiginleikann fyrir hættuleg efni í kerfinu er **farmbréf** skýrslan með dálkinn **Hættuleg efni** sem gefur til kynna hvort farmur inniheldur hættuleg efni. Þessi skýrsla er í boði á síðunni **Allar hleðslur**, eins og venjulega.
+Þegar kveikt er á eiginleikanum fyrir hættuleg efni fyrir kerfið þitt, **farmbréf** skýrslu inniheldur a **Hættuleg efni** dálk sem gefur til kynna hvort hleðsla inniheldur hættuleg efni. Þessi skýrsla er í boði á síðunni **Allar hleðslur**, eins og venjulega.
 
 ## <a name="packing-list-report"></a>Skýrsla pökkunarskráar
 
-Þegar kveikt er á eiginleikann fyrir hættuleg efni í kerfinu er inniheldur pökkunarlistinn viðbótarupplýsingar sem tengjast prenttexta sendingar fyrir vöru. Þessi skýrsla er í boði á síðunni **Allar hleðslur**, eins og venjulega.
+Þegar kveikt er á eiginleikanum fyrir hættuleg efni fyrir kerfið þitt, innihalda pökkunarlistar viðbótarupplýsingar sem tengjast sendingarprentunartexta vöru. Þessi skýrsla er í boði á síðunni **Allar hleðslur**, eins og venjulega.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

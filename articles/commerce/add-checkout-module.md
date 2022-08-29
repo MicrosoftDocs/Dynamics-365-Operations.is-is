@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a30d56d7edf967a3afab7442338dd9f480ef7fd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: b6f3aef08f723eff8b172db2ca5c355121e93bdc
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869029"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9280475"
 ---
 # <a name="checkout-module"></a>Greiðsluferliseining
 
@@ -95,7 +95,7 @@ Fylgdu þessum skrefum til að bæta greiðsluferliseiningu við nýja síðu og
 1. Undir **Heiti brots** skal slá inn heitið **Greiðsluferlisbrot** og síðan velja **Í lagi**.
 1. Veldu hólfið **Greiðsluferliseining**.
 1. Hægra megin á eiginleikasvæðinu skal velja blýantstáknið, slá inn texta fyrirsagnar í reitinn og síðan velja gátmerkistáknið.
-1. Í **Útskráningarupplýsingar** rauf, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Upplýsingar um útskráningu** rauf, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
 1. Í **Veldu einingar** valmynd, veldu **Heimilisfang sendingar**, **·**, **úttektarhluta**, og **Samskiptaupplýsingar** einingar, og veldu síðan **Allt í lagi**.
 1. Í **Gámur úttektarhluta** mát, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
 1. Í **Veldu einingar** valmynd, veldu **Gjafakort**, **·**, og **Greiðsla** einingar, og veldu síðan **Allt í lagi**. Með þessum hætti tryggirðu að allir greiðslumáta birtist saman í hluta.

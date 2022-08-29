@@ -2,7 +2,7 @@
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja úr Dynamics 365 Finance.
 author: kfend
-ms.date: 03/21/2022
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ee084e84c052366bdf34fe1a1e697a32e456914b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068923"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313884"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 
@@ -32,6 +32,31 @@ ms.locfileid: "9068923"
 
 > [!NOTE]
 > Ítarlegar upplýsingar um hluti í fjármála- og rekstraröppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/global/axtechrefrep_61). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af fjármála- og rekstrarforritum.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.29 útgáfu
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Flutningspantanir birgða þar sem skattur er á flutningsverð
+
+[Flutningspantanir birgða þar sem skattur er á flutningsverð](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir bætta virkni, [Pantanir á lagerflutningi fyrir Indland](../../finance/localizations/apac-ind-stock-transfer.md)|
+| **Skipt út fyrir aðra eiginleika?**   | Já |
+| **Afurðasvæði sem haft er áhrif á** | Forrit |
+| **Dreifingarvalkostur** | Allir |
+| **Staða** | Úrelt: Eftir apríl 2023, **Tilfærslupantanir á lager sem bera skatt á millifærsluverði** virkni mun ekki lengur fá stuðning með villuleiðréttingum og öryggisleiðréttingum. Viðskiptavinir verða beðnir um að nota bætta virkni, [Pantanir á lagerflutningi fyrir Indland](../../finance/localizations/apac-ind-stock-transfer.md). Eftir október 2023, **Tilfærslupantanir á lager sem bera skatt á millifærsluverði** virkni verður ekki lengur tiltæk og viðskiptavinir verða beðnir um að fara yfir í bætta virkni. |
+
+### <a name="bank-statement-import-and-export-of-positive-pay-file"></a>Bankayfirlit inn- og útflutningur á jákvæðum launaskrá
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Ástæða úreldingar/fjarlægingar** |Skipt út fyrir bætta virkni, flytja inn bankayfirlit og flytja út jákvæðar launaskrár.| 
+| **Skipt út fyrir aðra eiginleika?**   | Já |
+| **Afurðasvæði sem haft er áhrif á**         | Forrit |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: XSLT virkni til að flytja inn og flytja út skrár mun ekki lengur fá stuðning með villuleiðréttingum og öryggisleiðréttingum. Viðskiptavinir verða beðnir um að nota bætta virkni: [Settu upp jákvæðar launaskrár með því að nota rafræna skýrslugerð](../../finance/accounts-payable/set-up-positive-pay-er.md) og [Settu upp háþróaðan bankaafstemmingarinnflutning með því að nota rafræna skýrslugerð](../../finance/accounts-payable/import-bai2-er.md). Eftir september 2022 verður XSLT virknin ekki lengur tiltæk og viðskiptavinir verða beðnir um að fara yfir í bætta virknina.|
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.26 útgáfu
 

@@ -1,25 +1,25 @@
 ---
 title: Yfirlit yfir stjórnun viðskiptaskjala
 description: Þessi grein veitir upplýsingar um hvernig á að nota viðskiptaskjalastjórnunareiginleika ER ramma.
-author: NickSelin
+author: kfend
 ms.date: 04/23/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9147a2e81329d5bf9103b6bfe067d166c1471835
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
+ms.openlocfilehash: 0fab7e1a36d9b4092cf4353533704859e83bed26
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903618"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288289"
 ---
 # <a name="business-document-management-overview"></a>Yfirlit yfir stjórnun viðskiptaskjala
 
@@ -403,7 +403,7 @@ Breytta sniðmátið er notað til að mynda skýrslu reiknings með frjálsum t
 
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 
-### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>Ég valdi Edit skjal, en í stað þess að fara á BDM sniðmáts ritstjórasíðuna í Finance, var ég sendur á Microsoft 365 Vefsíða.
+### <a name="i-selected-edit-document-but-instead-of-going-to-the-bdm-template-editor-page-in-finance-i-was-sent-to-the-microsoft-365-webpage"></a>Ég valdi Edit skjal, en í stað þess að fara á BDM template editor síðuna í Finance var ég sendur á Microsoft 365 Vefsíða.
 
 Þetta mál er þekkt mál sem felur í sér Microsoft 365 tilvísun. Það gerist þegar þú skráir þig á Microsoft 365 í fyrsta skipti. Til að vinna í kringum þetta vandamál skal velja **Til baka** í vafranum til að fara aftur á fyrri síðu.
 

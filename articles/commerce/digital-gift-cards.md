@@ -6,20 +6,20 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 60de6988f14a0dcbbb881e84a9e4d8a45ca1289a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: b31ef231ea56f1c3d2fc199bb0a19bd0c991dc8b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884905"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269998"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Stafræn gjafakort rafrænna viðskipta
 
@@ -51,11 +51,11 @@ Stafrænar afurðir gjafakorta ættu að vera skilgreindar í Commerce Headquart
     ![Reitur gjafakortsafurðar í Commerce Headquarters.](./media/PostGiftcard.png)
 
 - Ef gjafakort verður að styðja margar fyrirframskilgreindar upphæðir (til dæmis, $25, $50 og $100) ætti að nota víddina **Stærð** til að setja upp þessar fyrirframskilgreindu upphæðir. Hvert fyrirfram skilgreint magn verður vöruafbrigði. Frekari upplýsingar er að finna í [Afurðarvíddir](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
-- Ef viðskiptavinir verða að geta tilgreint sérsniðna upphæð fyrir gjafakort til viðbótar við fyrirfram skilgreindar upphæðir skaltu fyrst setja upp afbrigði sem gerir ráð fyrir sérsniðinni upphæð. The **Stærð** eiginleiki styður sérsniðin magnafbrigði. Næst skaltu opna vöruna frá **Gefnar vörur í flokki** síðu og síðan á **Verslun** flýtiflipann, stilltu **Sláðu inn verð** sviði til **Þarf að slá inn nýtt verð**, eins og sýnt er í eftirfarandi dæmi. Þessi stilling tryggir að viðskiptavinir geti fært inn verð þegar þeir fletta upp afurðinni á upplýsingasíðu hennar.
+- Ef viðskiptavinir verða að geta tilgreint sérsniðna upphæð fyrir gjafakort til viðbótar við fyrirfram skilgreindar upphæðir skaltu fyrst setja upp afbrigði sem gerir ráð fyrir sérsniðinni upphæð. The **Stærð** eigind styður sérsniðin magnafbrigði. Næst skaltu opna vöruna frá **Gefnar vörur í flokki** síðu og síðan á **Verslun** flýtiflipann, stilltu **Sláðu inn verð** sviði til **Þarf að slá inn nýtt verð**, eins og sýnt er í eftirfarandi dæmi. Þessi stilling tryggir að viðskiptavinir geti fært inn verð þegar þeir fletta upp afurðinni á upplýsingasíðu hennar.
 
     ![Reitur fyrir innslátt verðs í Commerce Headquarters.](./media/KeyInPrice.png)
     
-    Eftirfarandi dæmi sýnir lista yfir afbrigði af stafrænum gjafakortum í höfuðstöðvum Commerce, þar á meðal tvö sérsniðin verðafbrigði.
+    Eftirfarandi dæmi sýnir lista yfir vöruafbrigði stafrænna gjafakorta í höfuðstöðvum Commerce, þar á meðal tvö sérsniðin verðafbrigði.
     ![Stafræn gjafakortavöruafbrigði með sérsniðnu verðafbrigði dæmi](./media/DigitalGiftCards_ProductVariantsWithCustom.png)
 
 - Afhendingarmáti fyrir stafrænt gjafakort verður að vera stilltur á **Rafrænn**. Á síðunni **Afhendingarmáti** (**Smásala og viðskipti \> Uppsetning rásar \> Afhendingarmáti**) skal velja afhendingarmátann **Rafrænn** á listasvæðinu og síðan bæta stafrænni gjafakortsafurð við hnitanetið í flýtiflipanum **Afurðir** eins og sýnt er á eftirfarandi mynd. Frekari upplýsingar er að finna í [Setja upp afhendingarmáta](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).

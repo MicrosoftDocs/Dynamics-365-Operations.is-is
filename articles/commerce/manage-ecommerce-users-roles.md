@@ -1,34 +1,34 @@
 ---
 title: Stjórna notendum og hlutverkum rafrænna viðskipta
-description: Þessi grein útskýrir hvernig á að veita notendum aðgang að höfundarumhverfi þínu Microsoft Dynamics 365 Commerce síða.
+description: Þessi grein útskýrir hvernig á að veita notendum aðgang að höfundarumhverfinu fyrir þig Microsoft Dynamics 365 Commerce síða.
 author: bicyclingfool
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ac4342e4439db229997d9d4a0ad32f3664a795b1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: 180fc5c0a9c9e247d5bd6ec7f469f313463526df
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868962"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279503"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>Stjórna notendum og hlutverkum rafrænna viðskipta
 
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að veita notendum aðgang að höfundarumhverfi þínu Microsoft Dynamics 365 Commerce síða.
+Þessi grein útskýrir hvernig á að veita notendum aðgang að höfundarumhverfinu fyrir þig Microsoft Dynamics 365 Commerce síða.
 
 Til að aðstoða við að stjórna aðgangi notenda og veita notendum leyfi til að framkvæma tiltekin verk notar höfundarumhverfi svæðisins öryggishópa sem þú býrð til í Microsoft Azure Active Directory (Azure AD). Þú úthlutar fyrst nýjum eða núverandi öryggishópi frá Azure AD á hvert hlutverk í höfundarumhverfinu. Þú veitir eða afturkallar síðan leyfi fyrir einstaka notendur með því að annaðhvort bæta þeim notendum við viðeigandi öryggishóp eða fjarlægja þá úr öryggishópi.
 

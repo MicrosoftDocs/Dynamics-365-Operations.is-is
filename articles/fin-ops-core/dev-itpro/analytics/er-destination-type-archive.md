@@ -1,26 +1,26 @@
 ---
 title: Skjalageymsla ER-gerð áfangastaðar
 description: Þessi grein veitir upplýsingar um hvernig á að stilla áfangastað fyrir skjalasafn fyrir hvern Möppu eða SKRÁ hluta af rafrænu skýrslusniði (ER).
-author: NickSelin
+author: kfend
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 790b96f300ad1a531fa3b65b1ad71fd158d4a4ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
+ms.openlocfilehash: d907bf391c0629d62da489cea90a05eabaf69ef1
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845687"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285456"
 ---
 # <a name="archive-er-destination-type"></a>Skjalageymsla ER-gerð áfangastaðar
 

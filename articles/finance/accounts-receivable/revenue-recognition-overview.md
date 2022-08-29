@@ -1,24 +1,24 @@
 ---
 title: Yfirlit tekjuskráningar (inniheldur myndband)
 description: Þessi grein veitir upplýsingar um eiginleikann Tekjufærsla. Þessi eiginleiki veitir sveigjanlega umgjörð sem gerir það kleift að skilgreina sérstakar reglur fyrir fyrirtækið um greiningu bæði verðlags og tekjuáætlunar fyrir pantanir með mörgum vörutegundum.
-author: kweekley
+author: bking
 ms.date: 03/15/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: bking
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1f1c42897a0392d053b90fc2eae9b20a0d14f327
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: be3e6438e86911d9703a5ac7413515389308b340
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067713"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348355"
 ---
 # <a name="revenue-recognition-overview"></a>Yfirlit tekjuskráningar
 
@@ -35,7 +35,7 @@ Almennt séð má nota tekjuskráningarferlið til að framkvæma þessi verk:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-The [Hvernig á að nota tekjufærslu í Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) myndbandið (sýnt hér að ofan) er innifalið í [lagalista um fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) fáanleg á YouTube.
+The [Hvernig á að nota tekjufærslu í Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) myndband (sýnt hér að ofan) er innifalið í [lagalista um fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) í boði á YouTube.
 
 Tekjuskráningareiginleikinn veitir sveigjanlega umgjörð sem gerir það kleift að skilgreina sérstakar reglur fyrir fyrirtækið um greiningu bæði verðlags og tekjuáætlunar.
 

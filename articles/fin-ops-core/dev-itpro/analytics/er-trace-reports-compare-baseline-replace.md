@@ -1,25 +1,25 @@
 ---
 title: Endurbæta rakningu niðurstaðna myndaðra rafrænna skýrslna til samanburðar við grunnlínugildi
 description: Þessi grein lýsir endurbótum á grunnlínueiginleika ER í Microsoft Dynamics 365 Finance útgáfa 10.0.3 (júní 2019).
-author: NickSelin
+author: kfend
 ms.date: 06/19/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: bb2e76492ac9f6feb71811d0fbfd25919b59ac4d
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.openlocfilehash: d0f64c459ee72ffa2b0e540d4194ca887502780f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109143"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279061"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Endurbæta rakningu niðurstaðna myndaðra rafrænna skýrslna til samanburðar við grunnlínugildi
 
@@ -142,7 +142,7 @@ Til að klára skrefin í þessu dæmi verður þú fyrst að klára skrefin í 
 
 ### <a name="make-a-new-baseline-rule"></a>Gera nýja grunnlínureglu
 
-Fylgdu skrefunum í hlutanum „Dæmi: Gerðu sjálfvirkan stillingu grunnlínureglna“ fyrr í þessari grein. Tilkynning varar við því að skrá á útleið hafi verið mynduð með því að nota grunnlínustillingar og að þvinguð endurnýjun á bindingum sniðs hafi átt sér stað.
+Fylgdu skrefunum í hlutanum "Dæmi: Gerðu sjálfvirkan stillingu grunnlínureglna" fyrr í þessari grein. Tilkynning varar við því að skrá á útleið hafi verið mynduð með því að nota grunnlínustillingar og að þvinguð endurnýjun á bindingum sniðs hafi átt sér stað.
 
 ![Tilkynning á skilgreiningasíðunni.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Skjámynd af tilkynningu á síðunni Skilgreiningar")
 

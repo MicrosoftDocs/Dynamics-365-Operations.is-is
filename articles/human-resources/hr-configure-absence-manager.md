@@ -14,17 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40f9607fb6fc16b96373141d8d2610538e3fdec7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b752b722bf63958fc35b10a4612f7f02e2e8e717
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886103"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337324"
 ---
 # <a name="configure-the-absence-manager-role"></a>Skilgreina hlutverk fjarvistastjórnanda
 
->[!Important]
->Virknin sem getið er um í þessari grein er eins og er í boði fyrir viðskiptavini á sjálfstætt Dynamics 365 Human Resources. Sum eða öll virknin verður í boði sem hluti af síðari útgáfu í tölvukerfi Finance eftir útgáfu 10.0.26 af Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -37,7 +35,6 @@ ms.locfileid: "8886103"
 ## <a name="turn-on-the-feature"></a>Kveikja á eiginleikanum
 
 1. Á vinnusvæðinu **Kerfisstjórnun** skal velja **Eiginleikastjórnun**.
-
 2. Í flipanum **Eiginleikastjórnun** skal virkja eiginleikann **Fjarvistarstjóri stjórnar leyfi**.
 
 ## <a name="define-a-custom-hierarchy"></a>Skilgreina sérstillt stigveldi
@@ -45,37 +42,26 @@ ms.locfileid: "8886103"
 Virkni fjarvistastjóra notar sérstillt stigveldi sem þarf að skilgreina.
 
 1. Á vinnusvæðinu **Fyrirtækisstjórnun** skal velja **Stigveldisgerðir stöðu**.
-
 2. Búðu til stigveldisgerð stöðu sem heitir **Leyfi**.
-
 3. Á vinnusvæðinu **Leyfi og fjarvistir**, undir **Tenglar**, skal velja **Færibreytur leyfis og fjarvista**.
-
 4. Í flipanum **Almennt**, í fellilistanum **Fjarvistarstigveldi**, skal velja stigveldisgerðina **Leyfi** sem var búin til hér á undan. Ljúka verður við þessa tengingu fjarvistarstigveldis fyrir alla lögaðila þar sem virkni fjarvistastjóra verður notuð.
 
 Þegar stigveldisgerðin hefur verið skilgreind þarf að úthluta skýrslu stigveldisstöðu á stöðuna.
 
 1. Á vinnusvæðinu **Fyrirtækisstjórnun** skal velja **Allar stöður**.
-
 2. Veldu stöðuna þar sem á að bæta leyfisstigveldinu við.
-
 3. Í flipanum **Tengsl** skal velja **Bæta við**.
-
 4. Í reitnum **Heiti stigveldis** skal velja **Leyfi**.
-
 5. Í reitnum **Skýrslur eftir stöðu** skal velja stöðu. Nafn starfsmanns er sjálfkrafa fyllt út eftir að staða er valin.
 
 ## <a name="assign-the-absence-manager-role-to-a-user"></a>Úthluta notanda hlutverki fjarvistastjóra
 
 Hlutverki fjarvistastjóra verður að vera úthlutað á starfsmenn til að gera þeim kleift að samþykkja eða hafna leyfisbeiðnum.
 
-1. Á vinnusvæðinu **Kerfisstjóri** skal velja **Tenglar**.
-
+1. Í **Kerfisstjórnun** vinnusvæði, veldu **Tenglar**.
 2. Í hlutanum **Notendur** skal velja tengilinn **Notendur**.
-
 3. Í listanum yfir notendur skal velja notandann sem á að fá úthlutað hlutverki fjarvistastjóra.
-
 4. Í flipanum **Hlutverk notanda** skal velja **Úthluta hlutverkum**.
-
 5. Í listanum skal velja hlutverkið **Fjarvistarstjóri**. Veljið síðan **Í lagi**.
 
     > [!IMPORTANT]
@@ -84,7 +70,6 @@ Hlutverki fjarvistastjóra verður að vera úthlutað á starfsmenn til að ger
 6. Eftir að þú hefur búið til leyfisstigveldið getur þú skoðað það með því að fylgja þessum skrefum:
 
     1. Á vinnusvæðinu **Fyrirtækisstjórnun** skal velja **Stigveldi stöðu**.
-    
     2. Í reitnum **Stigveldisgerð** skal velja **Leyfi**.
 
 ## <a name="absence-manager-workspace"></a>Vinnusvæði fjarvistarstjóra
@@ -115,9 +100,7 @@ Fjarvistastjórar geta samþykkt eða hafnað beiðnum um frí fyrir starfsmenn.
 > Frekari upplýsingar um hvernig á að búa til verkflæði leyfisbeiðni er að finna í [Stofna verkflæði fyrir beiðni um leyfi](hr-leave-and-absence-workflow.md).
 
 1. Á vinnusvæðinu **Sjálfsafgreiðsla starfsmanna** skal velja flipann **Stjórnun leyfa**.
-
 2. Í flipanum **Beiðni um frí** skal velja frítímabeiðnirnar þar sem á að framkvæma aðgerð. Hægt er að velja margar skrár í þessum lista.
-
 3. Notaðu aðgerðahnappana efst í hnitanetinu til að samþykkja, hafna eða úthluta frítímabeiðninni. 
 
 Einnig getur notandinn notað reitinn **Beiðnir um frí** vinstra megin til að fara í listann yfir vinnuliði allra frítímabeiðna. 
@@ -130,9 +113,7 @@ Notendur í hlutverki fjarvistarstjóra geta skoðað frítímabeiðnir í dagat
 > Kerfisstjóri verður að skilgreina valkosti yfirlits fyrir dagatal fjarvistarstjóra. Á síðunni **Færibreytur leyfis og fjarvista**, í flipanum **Dagatal**, eru valkostir um að fela eða sýna fæðingardaga, fjarvistir án leyfis, fjarvistarleyfi og leyfisbeiðnir í biðstöðu. Einnig er sá möguleiki fyrir hendi að sía valkost dagatalsyfirlitsins eftir gerð starfsmanns.
 
 1. Á vinnusvæðinu **Sjálfsafgreiðsla starfsmanns** skal velja **Stjórnun leyfis** og síðan **Dagatal fjarvistarstjóra**.
-
 2. Í reitinn **Dagsetning** skal færa inn æskilegar dagsetningar.
-
 3. Uppfærðu skoðunarvalkostina eftir þörfum.
 
 Dagatal fjarvistarstjóra sýnir allar færslur fyrir starfsmenn sem heyra undir fjarvistastjórann í leyfisstigveldinu.

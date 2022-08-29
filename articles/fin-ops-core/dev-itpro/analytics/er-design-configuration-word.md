@@ -1,24 +1,26 @@
 ---
 title: Hanna nýja skilgreiningu rafrænnar skýrslugerðar til að búa til skýrslur á Word-sniði
-description: Þessi grein útskýrir hvernig notendur geta stillt nýtt rafræn skýrslusnið (ER) til að búa til skýrslur sem Microsoft Word skjöl.
-author: NickSelin
+description: Þessi grein útskýrir hvernig notendur geta stillt nýtt rafræna skýrslugerð (ER) til að búa til skýrslur sem Microsoft Word skjöl.
+author: kfend
 ms.date: 12/17/2020
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: caf87659ca4ceb7b25aa43e09893d2a0ef014884
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERSolutionTable, EROperationDesigner
+- LedgerJournalTable, LedgerJournalTransVendPaym
+ms.openlocfilehash: b56b328aa2a2b53dc177a02a4d453e5dbcb8340c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893013"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273339"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Hanna nýja skilgreiningu rafrænnar skýrslugerðar til að búa til skýrslur á Word-sniði
 
@@ -28,14 +30,14 @@ Til að búa til skýrslur sem Microsoft Word-skjöl þarf að hanna sniðmát f
 
 ![Dæmi um sniðmát fyrir stjórnunarskýrsluna í skjáborðsforriti Word.](./media/er-design-configuration-word-image1.png)
 
-Til að nota Word-skjal sem sniðmát fyrir skýrslur á Word-sniði er hægt að skilgreina nýja [rafræna skýrslugerðar](general-electronic-reporting.md) [lausn](er-quick-start1-new-solution.md). Þessi lausn verður að innihalda bráðamóttöku [stillingar](general-electronic-reporting.md#Configuration) sem inniheldur ER-sniðshluta.
+Til að nota Word-skjal sem sniðmát fyrir skýrslur á Word-sniði er hægt að skilgreina nýja [rafræna skýrslugerðar](general-electronic-reporting.md) [lausn](er-quick-start1-new-solution.md). Þessi lausn verður að innihalda bráðamóttöku [uppsetningu](general-electronic-reporting.md#Configuration) sem inniheldur ER-sniðshluta.
 
 > [!NOTE]
 > Þegar ný skilgreining rafræns skýrslugerðarsniðs er búin til þannig að hún búi til skýrslur á Word-sniði þarf annaðhvort að velja **Word** sem sniðgerð í fellilistaglugganum **Stofna skilgreiningu** eða skilja reitinn **Sniðsgerð** eftir auðan.
 
 ![Skilgreining sniðs stofnuð á skilgreiningarsíðunni.](./media/er-design-configuration-word-image2.gif)
 
-Sniðsþáttur rafrænnar skýrslugerðar fyrir lausnina verður að innihalda sniðseininguna **Excel\\Skrá** og sú sniðseining verður að vera tengd við Word-skjal sem verður notað sem sniðmát fyrir myndaðar skýrslur við keyrslu. Til að skilgreina sniðsþátt rafrænnar skýrslugerðar þarf að opna útgáfu [draga](general-electronic-reporting.md#component-versioning) fyrir stofnaða skilgreiningu rafrænnar skýrslugerðar í sniðshönnuði rafrænnar skýrslugerðar. Síðan skal bæta við einingunni **Excel\\Skrá**, hengja Word-sniðmátið við breytanlegt snið rafrænnar skýrslugerðar og tengja það sniðmát við eininguna **Excel\\Skrá** sem var bætt við.
+Sniðsþáttur rafrænnar skýrslugerðar fyrir lausnina verður að innihalda sniðseininguna **Excel\\Skrá** og sú sniðseining verður að vera tengd við Word-skjal sem verður notað sem sniðmát fyrir myndaðar skýrslur við keyrslu. Til að skilgreina sniðsþátt rafrænnar skýrslugerðar þarf að opna útgáfu draga fyrir stofnaða skilgreiningu rafrænnar skýrslugerðar í sniðshönnuði rafrænnar skýrslugerðar. Síðan skal bæta við einingunni **Excel\\Skrá**, hengja Word-sniðmátið við breytanlegt snið rafrænnar skýrslugerðar og tengja það sniðmát við eininguna **Excel\\Skrá** sem var bætt við.
 
 > [!NOTE]
 > Þegar sniðmát er hengt við þarf að nota [gerð skjals](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) sem var áður [skilgreind](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) í færibreytum rafrænnar skýrslugerðar til að vista sniðmát rafrænna skýrslugerðarsniða.

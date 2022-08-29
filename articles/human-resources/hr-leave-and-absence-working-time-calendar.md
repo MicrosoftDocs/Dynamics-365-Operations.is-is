@@ -14,18 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35fcb7c4068ff2f68970d9c0127491e4a63dab4c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dac3ad583be9e4cbd6eacbc6d228819bd298628b
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861074"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323574"
 ---
 # <a name="create-a-working-time-calendar"></a>Búa til dagatal fyrir vinnutíma
 
-
-> [!Important]
-> Virknin sem getið er um í þessari grein er eins og er í boði fyrir viðskiptavini á sjálfstætt Dynamics 365 Human Resources. Sum eða öll virknin verður í boði sem hluti af síðari útgáfu í tölvukerfi Finance eftir útgáfu 10.0.26 af Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -49,7 +46,7 @@ Settu upp að minnsta kosti eitt vinnutímadagatal sem sýnir daga og vinnutíma
 
 3. Undir **Kynslóðarmöguleikar**, veldu vinnudagana fyrir skipulag þitt og sláðu inn vinnutíma. 
    - Til að bæta við fríi eða lokun skaltu velja **Bæta við** hnappinn við hliðina **Frí og lokanir**.
-   - Veldu til að bæta við tíma án vinnu, svo sem nesti eða frímínútum **Bæta við** undir **NON-WORK TIME** og sláðu inn nafn og tímasvið.
+   - Til að bæta við vinnutíma, eins og hádegismat eða hléum, velurðu **Bæta við** undir **Tími án vinnu** og sláðu inn nafn og tímabil.
 
 4. Undir **Dagar** skaltu velja **Búa til** til að búa til dagana í dagatalinu þínu. Sláðu inn tímabilið fyrir dagatalið þitt og veldu síðan **Búa til daga**.
 
@@ -67,7 +64,7 @@ Settu upp að minnsta kosti eitt vinnutímadagatal sem sýnir daga og vinnutíma
 
 Þú getur bætt við eða breytt tíma án vinnu aðskildum frá dagatali fyrir vinnutíma.
 
-1. Á **Stjórn stofnunarinnar** síðu, veldu **EKKI VINNUTÍMI**.
+1. Á síðunni **Fyrirtækisstjórnun** skal velja **Tími án vinnu**.
 
 2. Veldu **Nýtt** og sláðu inn heiti og tímabil fyrir tíma án vinnu.
 

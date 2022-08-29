@@ -1,26 +1,26 @@
 ---
 title: Grunnstilla ER-snið til að nota færibreytur sem eru tilgreindar fyrir hvern lögaðila
 description: Þessi grein útskýrir hvernig þú getur stillt rafræn skýrslugerð (ER) snið til að nota færibreytur sem eru tilgreindar fyrir hverja lögaðila.
-author: NickSelin
+author: kfend
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: eb44422c4cdcc87989cdfb28dcd7d5cfea9002eb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
+ms.openlocfilehash: b81c9c8fd1639b9af53c8e15a041c00db8c19752
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858829"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292677"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Stilla ER snið til að nota færibreytur sem eru tilgreindar fyrir hvern lögaðila
 
@@ -43,7 +43,7 @@ Til að klára dæmin í þessari grein verður þú að hafa aðgang að tilvik
 - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
 - Kerfisstjóri
 
-Við mælum með að þú ljúkir skrefunum í [Styðja færibreytukalla ER gagnagjafa af REIKNAÐARREITARgerð](er-calculated-field-type.md) grein. Ef þú hefur þegar lokið þessum skrefum geturðu sleppt skrefunum í hlutanum **Flytja ER stillingar inn í RCS** sem hér segir.
+Við mælum með að þú ljúkir skrefunum í [Styðja færibreytukalla ER gagnagjafa af REIKNAÐAR FIELD gerð](er-calculated-field-type.md) grein. Ef þú hefur þegar lokið þessum skrefum geturðu sleppt skrefunum í hlutanum **Flytja ER stillingar inn í RCS** sem hér segir.
 
 ## <a name="import-er-configurations-into-rcs"></a>Flytja inn skilgreiningar inn í RCS
 
@@ -58,7 +58,7 @@ Einnig verður að sækja og geyma staðbundið eftirfarandi skilgreiningar fyri
 
 Næst skráðirðu þig inn á RCS tilvikið.
 
-Í þessu dæmi mun stofna skilgreiningu fyrir dæmi um sýnifyrirtæki, Litware, Inc. Áður en þú getur lokið þessu ferli verður þú að ljúka skrefunum í [Búðu til stillingarveitu og merktu hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md) grein í RCS.
+Í þessu dæmi mun stofna skilgreiningu fyrir dæmi um sýnifyrirtæki, Litware, Inc. Áður en þú getur lokið þessu ferli verður þú að ljúka skrefunum í [Búðu til stillingarveitu og merktu hana sem virkan](tasks/er-configuration-provider-mark-it-active-2016-11.md) grein í RCS.
 
 1.  Veldu á sjálfgefna mælaborðinu **Rafræn skýrslugerð**.
 2.  Veldu **Skilgreiningar skýrslugerðar**.

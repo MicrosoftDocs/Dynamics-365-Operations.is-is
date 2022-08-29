@@ -5,16 +5,16 @@ author: laneswenka
 ms.date: 05/16/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
-ms.author: ramasri
+ms.author: laswenka
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: a002bae22044ea10be30340a87a191305f6c6b92
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: dda0b20492a109e4c3781db520ac19c325e0b403
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111971"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289179"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Uppsetning tvöfaldra skrifa úr Lifecycle Services
 
@@ -28,7 +28,7 @@ ms.locfileid: "9111971"
 
 Viðskiptavinir verða að ljúka við Power Platform samþætting eins og lýst er í eftirfarandi efnisatriðum:
 
-- Ef þú notar ekki ennþá Microsoft Power Platform og viltu auka fjármála- og rekstrarumhverfi þitt með því að bæta við vettvangsgetu, sjá [Power Platform Samþætting - Virkja meðan á uppsetningu umhverfisins stendur](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
+- Ef þú notar ekki ennþá Microsoft Power Platform og vilt stækka fjármála- og rekstrarumhverfi þitt með því að bæta við vettvangsgetu, sjá [Power Platform Samþætting - Virkja meðan á uppsetningu umhverfisins stendur](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
 - Ef þú hefur nú þegar Dataverse og Power Platform umhverfi, og vilja tengja þau við fjármála- og rekstrarumhverfi, sjá [Power Platform samþætting - Virkja eftir uppsetningu umhverfisins](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
 ## <a name="set-up-dual-write-for-new-or-existing-dataverse-environments"></a>Settu upp tvískrift fyrir nýja eða núverandi Dataverse umhverfi
@@ -57,7 +57,7 @@ Fylgið þessum skrefum til að setja upp tvöfalda skráningu af LCS-síðunni 
 
 ## <a name="linking-mismatch"></a>Linking mismatch
 
-Það er mögulegt að tvískrifaumhverfið þitt sé tengt við a Dataverse dæmi á meðan LCS er ekki sett upp fyrir Power Platform samþættingu. Þetta ósamræmi við tengingar getur valdið óvæntri hegðun. Mælt er með því að upplýsingar um LCS umhverfi passi við það sem þú ert tengdur við í tvískrift svo að sömu tenging sé hægt að nota fyrir viðskiptaviðburði, sýndarborð og viðbætur.
+Það er mögulegt að tvískrifaumhverfið þitt sé tengt við a Dataverse dæmi á meðan LCS er ekki sett upp fyrir Power Platform samþættingu. Þetta ósamræmi við tengingar getur valdið óvæntri hegðun. Mælt er með því að upplýsingar um LCS umhverfi passi við það sem þú ert tengdur við í tvískrift svo hægt sé að nota sömu tenginguna fyrir viðskiptaviðburði, sýndarborð og viðbætur.
 
 Ef umhverfið þitt hefur ósamræmi við tengingar sýnir LCS viðvörun sem líkist eftirfarandi dæmi á upplýsingasíðu umhverfisins þíns: "Microsoft hefur uppgötvað að umhverfið þitt er tengt með Dual-write við annan áfangastað en tilgreint er í Power Platform Samþætting, sem ekki er mælt með.“
 
@@ -66,9 +66,9 @@ Ef umhverfið þitt hefur ósamræmi við tengingar sýnir LCS viðvörun sem l�
 Ef þú færð þessa viðvörun skaltu prófa eina af eftirfarandi lausnum:
 
 - Ef LCS umhverfið þitt hefur aldrei verið sett upp fyrir Power Platform samþættingu, þú getur tengst við Dataverse tilvik sem er stillt í tvískrift með því að fylgja leiðbeiningunum í þessari grein.
-- Ef LCS umhverfið þitt er þegar sett upp fyrir Power Platform samþættingu ættir þú að aftengja tvískrift og tengja það aftur við þann sem LCS tilgreinir með því að nota [Atburðarás: Núllstilla eða breyta tengingu](relink-environments.md#scenario-reset-or-change-linking).
+- Ef LCS umhverfið þitt er þegar sett upp fyrir Power Platform samþættingu ættir þú að aftengja tvískrift og tengja hana aftur við þann sem LCS tilgreinir með því að nota [Atburðarás: Núllstilla eða breyta tengingu](relink-environments.md#scenario-reset-or-change-linking).
 
-Í fortíðinni var handvirkur stuðningsmiði valkostur í boði, en það var áður en valkostur 1 hér að ofan var til.  Microsoft styður ekki lengur handvirkar endurtengingarbeiðnir í gegnum stuðningsmiða.
+Í fortíðinni var handvirkur stuðningsmiði valkostur í boði, en það var áður en valkostur 1 hér að ofan var til.  Microsoft styður ekki lengur handvirka endurtengingarbeiðnir í gegnum stuðningsmiða.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: a89ca5dd4f46611e75faccd3213028750fa48d35
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: fa1482cb73a40df5f9bc9d3037196def71accf18
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850276"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279476"
 ---
 # <a name="payment-module"></a>Greiðslueining
 
@@ -72,10 +72,10 @@ Eftirfarandi mynd sýnir dæmi um PayPal IFrame sem er ræst með PayPal-hnappnu
 | Hæð iFrame | Dílar | Hæð iframe í dílum. Hægt er að stilla hæðina eftir þörfum. |
 | Sýna greiðsluaðsetur | **Satt** eða **Ósatt** | Ef þessi eiginleiki er stilltur á **Satt** verður reikningsaðsetrið lagt fram af Adyen innan iframe greiðslueiningarinnar. Ef hann er stilltur á **Ósatt** verður reikningsaðsetrið ekki lagt fram af Adyen og notandi Commerce verður að skilgreina einingu til að sýna reikningsaðsetrið greiðsluferlissíðunni. Þessi svæði hefur engin áhrif á PayPal-greiðslutengið því PayPal meðhöndlar reikningsaðsetrið að öllu leyti. |
 | Hnekkja greiðslustíl | Kóði fyrir stölluð stílblöð (CSS) | Vegna þess að greiðslueiningin er hýst í iframe, er takmarkaður möguleiki á stílmótun. Hægt er að ná einhverri stílmótun með því að nota þennan eiginleika. Til að hnekkja stílbrigðum svæðis þarf að líma CSS-kóðann inn sem gildið fyrir þennan eiginleika. Hnekkingar og stílbrigði CSS-svæðissmiðs eiga ekki við um þessa einingu. |
-|Studdir greiðslumátar| Strengur| Ef mörg greiðslutengi eru stillt, ættir þú að gefa upp studda útboðstegundarstrenginn eins og hann er skilgreindur í greiðslutengisstillingu höfuðstöðva Commerce (sjá eftirfarandi mynd). Sjálfgefið er stillt á Adyen-greiðslutengilinn ef enginn er til staðar. Bætt við í Commerce Release 10.0.14.|
+|Studdir greiðslumátar| Strengur| Ef mörg greiðslutengi eru stillt, ættirðu að gefa upp studda útboðstegundarstrenginn eins og hann er skilgreindur í greiðslutengisstillingu höfuðstöðva Commerce (sjá eftirfarandi mynd). Sjálfgefið er stillt á Adyen-greiðslutengilinn ef enginn er til staðar. Bætt við í Commerce Release 10.0.14.|
 |Er aðalgreiðsla|  **Satt** eða **Ósatt** | Ef **Satt** verða öll villuboð mynduð úr aðalgreiðslutenglinum á síðu greiðsluferlisins. Þegar bæði Adyen- og PayPal-greiðslutenglarnir eru skilgreindir skal stilla Adyen á **Satt**, en slíkum eiginleika við Commerce útgáfu 10.0.14.|
 |Nota tengikenni| **Satt** eða **Ósatt** | Notaðu þennan eiginleika ef mörg greiðslutengi eru stillt fyrir síðuna. Ef **Satt**, tengi þurfa að nota tengi auðkenni fyrir greiðslufylgni.|
-|Notaðu vafrastillingar tungumálakóða fyrir iFrame|  **Satt** eða **Ósatt** | (aðeins Adyen) Ef **Satt**, Adyen iFrame mun gera tungumálið út frá samhengi vafra notanda síðunnar í stað þess að nota tungumálakóða viðskiptarásarinnar sem er stillt fyrir síðuna. Bætt við í Commerce Release 10.0.27.|
+|Notaðu vafrastillingar tungumálakóða fyrir iFrame|  **Satt** eða **Ósatt** | (aðeins Adyen) Ef **Satt**, Adyen iFrame mun birta tungumálið út frá samhengi vafra notandans í stað þess að nota tungumálakóða viðskiptarásarinnar sem er stillt fyrir síðuna. Bætt við í Commerce Release 10.0.27.|
 
 Skýringarmyndin hér á eftir sýnir dæmi um gildið **Studdir greiðslumátar** stillt á „PayPal“ í skilgreiningu greiðslutengilsins í Commerce Headquarters.
 ![Dæmi um studda greiðslumáta í Commerce Headquarters.](./media/ecommerce-paymenttendertypes.png)
@@ -104,12 +104,12 @@ Ef bæði Adyen og PayPal greiðslutengarnir verða notaðir fyrir síðuna þí
 
 1. Í eiginleikarúðunni fyrir Adyen greiðslueininguna skaltu fylgja þessum skrefum:
 
-    1. Farið af velli fyrir **Stuðlar útboðsgerðir** eign auð.
+    1. Farðu af velli fyrir **Stuðlar útboðsgerðir** eign auð.
     1. Veldu gátreitinn fyrir **Er frumgreiðsla** eign.
     1. Veldu gátreitinn fyrir **Notaðu auðkenni tengis** eign.
 
 > [!NOTE]
-> Þegar þú stillir Adyen og PayPal tengin til að nota saman, **Dynamics 365 greiðslutengi fyrir Adyen** stillingar verða að vera í fyrsta sæti í netrásinni **Greiðslureikningar** tengistillingu í höfuðstöðvum Commerce. Til að staðfesta eða breyta tengipöntuninni, farðu á **Netverslanir**, og veldu rásina fyrir síðuna þína. Síðan, á **Settu upp** flipa, á **Greiðslureikningar** Flýtiflipi, undir **Tengi**, vertu viss um að **Dynamics 365 greiðslutengi fyrir Adyen** uppsetning er í fyrstu stöðu (þ.e. á efstu línu), og að **Dynamics 365 greiðslutengi fyrir PayPal** uppsetning er á annarri línu. Bættu við eða fjarlægðu tengi eftir þörfum til að endurraða þeim.
+> Þegar þú stillir Adyen og PayPal tengin til að nota saman, **Dynamics 365 greiðslutengi fyrir Adyen** stillingar verða að vera í fyrsta sæti í netrásinni **Greiðslureikningar** tengistillingu í höfuðstöðvum Commerce. Til að staðfesta eða breyta tengipöntuninni skaltu fara á **Netverslanir**, og veldu rásina fyrir síðuna þína. Síðan, á **Settu upp** flipa, á **Greiðslureikningar** Flýtiflipi, undir **Tengi**, vertu viss um að **Dynamics 365 greiðslutengi fyrir Adyen** stilling er í fyrstu stöðu (þ.e. á efstu línu), og að **Dynamics 365 greiðslutengi fyrir PayPal** uppsetning er á annarri línu. Bættu við eða fjarlægðu tengjum eftir þörfum til að endurraða þeim.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

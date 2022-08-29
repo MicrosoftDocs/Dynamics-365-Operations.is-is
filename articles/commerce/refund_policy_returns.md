@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
 ms.search.region: Global
-ms.search.industry: Retail
-ms.author: rapraj
+ms.author: shajain
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 54dd19134aea68f73de51086fbaa096961447b62
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.search.industry: Retail
+ms.openlocfilehash: b93852bfb7c6f5a9f2f83f30a1f76da3f9559c7e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873305"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286838"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Búa til og uppfæra reglu um skil og endurgreiðslur fyrir rás
 

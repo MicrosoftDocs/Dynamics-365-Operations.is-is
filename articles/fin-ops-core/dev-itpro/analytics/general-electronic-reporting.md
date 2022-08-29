@@ -1,28 +1,26 @@
 ---
 title: Yfirlit yfir rafræna skýrslugerð
 description: Þessi grein veitir yfirlit yfir rafræna skýrslugerðina. Þar er lýst lykilhugtökum, studddum aðstæður og sniðum sem eru hluti af lausninni.
-author: NickSelin
+author: kfend
 ms.date: 11/02/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "58941"
-- intro-internal
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58941,  ""intro-internal
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: e94846dd565abb6de2c1f07532d285e28307e9a2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109581"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269692"
 ---
 # <a name="electronic-reporting-er-overview"></a>Yfirlit yfir rafræna skýrslugerð
 
@@ -60,7 +58,7 @@ ER gerir þér kleift að skilgreina rafræn sniðbyggingar og lýsa síðan hve
 
 Vélar fyrir rafræna skýrslugerð eru ætlaðar fyrir viðskiptanotendur í stað þróara. Þar sem þú skilgreinir snið en ekki kóða eru ferlin við að stofna og stilla snið fyrir rafræn skjöl hraðvirkari og auðveldari.
 
-ER styður nú TEXT, XML, JSON, PDF,Microsoft Word,Microsoft Excel, og OPENXML vinnublaðasnið.
+ER styður nú TEXT, XML, JSON, PDF,Microsoft Word,Microsoft Excel, og OPENXML vinnublaðssnið.
 
 ## <a name="capabilities"></a>Geta
 
@@ -78,7 +76,7 @@ ER-vélin hefur eftirfarandi getu:
 
 [![Aðalgagnaflæði ER.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
 
-### <a name="components"></a>Íhlutir
+### <a name="component"></a>Hlutur
 
 Rafræn skýrslugerð styður eftirfarandi gerðir íhluta:
 
@@ -89,32 +87,7 @@ Rafræn skýrslugerð styður eftirfarandi gerðir íhluta:
 
 Frekari upplýsingar eru í [Hlutar rafrænar skýrslugerðar](er-overview-components.md).
 
-
-#### <a name="component-versioning"></a>Sögugeymni íhlutar
-
-Sögugeymnin er studd fyrir ER þætti. Eftirfarandi verkflæði er til staðar til að stýra breytingum í þáttum rafrænnar skýrslugerðar:
-
-1. Útgáfan sem var upphaflega stofnuð er merkt sem **Drög**. Útgáfan er hægt að breyta og er tiltæk fyrir prófunarkeyrslu.
-2. Útgáfunni **Drög** má breyta í útgáfuna **Lokið**. Hægt er að nota þessa útgáfu í staðbundna skýrslugerðarferli.
-3. Útgáfunni **Lokið** má breyta í útgáfuna **Samnýtt**. Útgáfan er birt á LCS og hægt er að nota í altæku skýrslugerðarferli.
-4. Útgáfunni **Samnýtt** má breyta í útgáfuna **Hætt við**. Síðan er hægt að eyða þessari útgáfu.
-
-Útgáfur sem hafa stöðuna **Lokið** eða **Samnýtt** eru tiltækar fyrir önnur gagnaskipti. Hægt er að framkvæma eftirfarandi aðgerðir á þætti sem hefur þessar stöður:
-
-- Þætti má raða í XML-snið og flytja út sem skrá á XML-sniði.
-- Hægt er að endurraða þættinum úr XML-skrá og flytja inn í forritið sem nýja útgáfu ER-þáttar.
-
-#### <a name="component-date-effectivity"></a>Dagsetning á virkni íhlutar
-
-ER þáttarútgáfur eru virkar eftir dagsetningum. Hægt er að stilla dagsetninguna **Virkt frá** fyrir þátt rafrænnar skýrslugerðar þannig að hún tilgreini þá dagsetningu sem þátturinn verður virkur fyrir skýrsluferla. Lotudagsetning forrits er notuð til að skilgreina hvort þáttur er gildur fyrir framkvæmd. Nýjusta útgáfa er notuð fyrir skýrsluferli þegar fleiri en ein útgáfa er í gildi fyrir tiltekna dagsetningu.
-
-#### <a name="component-access"></a>Aðgangur að þáttum
-
-Aðgangur ER sniðþátta fer eftir ISO-lands-/ svæðiskóða stillingum. Þegar þessi stilling er auð fyrir valda útgáfu skilgreiningar sniðs, er hægt að nálgast sniðsþátt úr hvaða fyrirtæki sem er á keyrslutíma. Þegar þessi stilling inniheldur ISO lands-/ svæðiskóða, er sniðsþáttur tiltækur eingöngu frá fyrirtækjum þar sem aðalaðsetur er tilgreint fyrir einn sniðsþátt ISO lands-/svæðiskóða.
-
-Mismunandi útgáfur af gagnasniðsþáttum mega vera með mismunandi stillingar ISO lands-/ svæðiskóða.
-
-#### <a name="configuration"></a><a name="Configuration"></a>Stilling
+### <a name="configuration"></a><a name="Configuration"></a>Stilling
 
 Skilgreining rafrænnar skýrslugerðar er pökkun tiltekins þáttar í rafrænni skýrslugerð. Sá þáttur getur annaðhvort verið gagnalíkansþáttur eða sniðsþáttur. Stilling getur innihaldið mismunandi útgáfur þáttar rafrænnar skýrslugerðar. Hver stilling er merkt sem eign tiltekinnar stillingarveitu. Útgáfan **Drög** af stillingarþætti er má breyta þegar eigandi stillingar hefur verið valinn sem virkur veitandi í ER-stillingum forritsins.
 
@@ -124,13 +97,13 @@ Sniðsskilgreining sem er stofnuð inniheldur sniðsþátt. Gagnalíkansþáttur
 
 Skilgreining ER er samnýtt fyrir forritsfyrirtækin.
 
-#### <a name="provider"></a><a name="Provider"></a>Veita
+### <a name="provider"></a><a name="Provider"></a>Veita
 
 ER-veitan er auðkenni aðila sem er notuð til að tilgreina höfund (eiganda) fyrir hverja ER-skilgreiningu. ER leyfir þér að að stjórna lista yfir veitendur skilgreininga. Sniðstillingar sem eru gefnar út fyrir rafræn skjöl sem hluti af fjármála- og rekstrarlausninni eru merktar sem í eigu **Microsoft** uppsetningarveitu.
 
 Til að fræðast um hvernig á að skrá nýja þjónustuveitu rafrænnar skýrslugerðar skaltu spila verkleiðbeiningarnar **Stofna veitanda skilgreiningar í rafrænni skýrslugerð og merkja sem virkan** (hluti af viðskiptaferlinu **7.5.4.3 Komast yfir/þróa þætti fyrir upplýsingatækniþjónustu/lausnir (10677)**).
 
-#### <a name="repository"></a><a name="Repository"></a>Geymsla
+### <a name="repository"></a><a name="Repository"></a>Geymsla
 
 ER-gagnasafn vistar ER-skilgreiningar. Eftirfarandi ER-gagnasöfn eru studd sem stendur: 
 
@@ -145,7 +118,7 @@ Gagnasafnið **Samnýtt LCS-safn** veitir aðgang að lista yfir skilgreiningar 
 
 Gagnageymsla **LCS-verks** veitir aðgang að lista yfir skilgreiningar ákveðins LCS-verks (eignasafn LCS-verks) sem var valið gagnageymsla var skráð. Rafræn skýrslugerð gerir þér kleift að hlaða upp samnýttum skilgreiningum úr núverandi tilviki í tiltekna geymslu fyrir **LCS-verk** . Þú getur líka flutt inn stillingar frá an **LCS verkefni** geymslu í núverandi tilviki fjármála- og rekstrarforritanna þinna.
 
-Gagnasafn **Skráakerfis** veitir aðgang að lista yfir skilgreiningar sem eru staðsettar sem xml-skrár í tiltekinni möppu í staðbundnu skráakerfi vélarinnar þar sem AOS-þjónustan er hýst. Nauðsynleg mappa er valin á skráningarstigi gagnasafns. Hægt er að flytja inn skilgreiningar úr gagnasafni **Skráakerfis** í núverandi tilviki. 
+A **Skráarkerfi** geymsla veitir aðgang að lista yfir stillingar sem eru staðsettar sem XML skrár í tiltekinni möppu á staðbundnu skráarkerfi vélarinnar þar sem AOS þjónustan er hýst. Nauðsynleg mappa er valin á skráningarstigi geymslunnar. Hægt er að flytja inn skilgreiningar úr gagnasafni **Skráakerfis** í núverandi tilviki. 
 
 Athugið að þessi gagnasafnsgerð er aðgengileg í eftirfarandi umhverfi:
 
@@ -162,7 +135,7 @@ Gagnageymslan **Altæk geymsla** veitir aðgang að lista yfir skilgreiningar in
 
 Frekari upplýsingar er að finna í [Flytja inn skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu](./er-download-configurations-global-repo.md).
 
-Gagnasafn fyrir **Rekstrartilföng** veitir aðgang að lista yfir skilgreiningar sem Microsoft, sem þjónustuaðili ER-skilgreininga, gefur út upphaflega sem hluta af forritslausninni. Þessar skilgreiningar er hægt að flytja inn í núverandi tilvik og nota fyrir rafræna skýrslugerð eða til að spila sýnishorn af verkefnaleiðbeiningum. Einnig er hægt að nota þær fyrir frekari staðfæringar og sérstillingar. Athugaðu að nýjustu útgáfur sem ER-skilgreiningar Microsoft veita er nauðsynlegt að flytja inn úr samnýttu LCS-eignasafni með því að nota samsvarandi ER-gagnasafn.
+Gagnasafn fyrir **Rekstrartilföng** veitir aðgang að lista yfir skilgreiningar sem Microsoft, sem þjónustuaðili ER-skilgreininga, gefur út upphaflega sem hluta af forritslausninni. Þessar skilgreiningar er hægt að flytja inn í núverandi tilvik og nota fyrir rafræna skýrslugerð eða til að spila sýnishorn af verkefnaleiðbeiningum. Einnig er hægt að nota þær fyrir frekari staðfæringar og sérstillingar. Athugaðu að nýjustu útgáfurnar sem eru veittar af Microsoft ER stillingum verður að flytja inn úr LCS Shared eignasafninu með því að nota samsvarandi ER geymslu.
 
 Hægt er að skrá nauðsynleg gagnasöfn **LCS-verks**, **Skráakerfis** og **Skilgreiningarþjónustu reglugerðar (RCS)**, hvert safn fyrir sig, fyrir hverja skilgreiningarveitu fyrir núgildandi tilvik. Hvert gagnasafn getur verið sérmerkt tiltekinni skilgreiningarveitu.
 
@@ -265,6 +238,7 @@ Sífellt er verið að uppfæra Listann yfir skilgreiningar rafrænnar skýrslug
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
+- [Hlutar rafrænnar skýrslugerðar](er-overview-components.md)
 - [Stofna skilgreiningar fyrir rafræna skýrslugerð](electronic-reporting-configuration.md)
 - [Stjórnun á lífsferli grunnstillingar fyrir rafræna skýrslugerð](general-electronic-reporting-manage-configuration-lifecycle.md)
 

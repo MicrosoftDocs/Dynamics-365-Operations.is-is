@@ -1,29 +1,29 @@
 ---
 title: Algengar spurningar um einkunnir og umsagnir
-description: Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce einkunnir og umsagnir lausn.
+description: Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce einkunnir og dóma lausn.
 author: gvrmohanreddy
 ms.date: 09/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3aef1135aa03d221e403fe1b5f7dce08bc9885d1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f54da57806420d1190a3546b9dd6ed83b3978907
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909529"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271905"
 ---
 # <a name="ratings-and-reviews-faq"></a>Algengar spurningar um einkunnir og umsagnir
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce einkunnir og umsagnir lausn.
+Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce einkunnir og dóma lausn.
 
 ### <a name="how-do-i-hide-the-ratings-refiner-that-appears-on-search-results-and-category-pages-if-my-e-commerce-site-doesnt-use-the-ratings-and-reviews-solution"></a>Hvernig fel ég afmörkun einkunna sem birtist á síðum leitarniðurstaðna og flokka á vefsvæði rafrænna viðskipta sem notar ekki lausn einkunna og umsagna?
 

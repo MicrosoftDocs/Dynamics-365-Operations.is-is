@@ -1,26 +1,26 @@
 ---
 title: Flytja PTC-gögn úr Data Integrator í tvöfalda skráningu
-description: Þessi grein lýsir því hvernig á að flytja Prospect til Cash gögn frá Data Integrator yfir í tvískrif.
+description: Þessi grein lýsir því hvernig á að flytja Prospect til Cash gögn frá Data Integrator í tvískrif.
 author: RamaKrishnamoorthy
 ms.date: 02/01/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 91cc0e59405bc085e09f01f05ef02e4a0260481e
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: bbf5a7c2f409003816e2becf1a58ee7d7d5aafb2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111895"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289081"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Flytja PTC-gögn úr Data Integrator í tvöfalda skráningu
 
 [!include [banner](../../includes/banner.md)]
 
-Prospect to cash lausnin sem er í boði fyrir Data Integrator er ekki samhæf við tvískrift. Ástæðan fyrir þessu er msdynce_AccountNumber vísitalan á reikningstöflunni sem kom sem hluti af Prospect to cash lausninni. Ef þessi vísitala er til er ekki hægt að stofna sama viðskiptareikningsnúmerið í tveimur mismunandi lögaðilum. Þú getur annað hvort valið að byrja upp á nýtt með dual-write með því að flytja Prospect yfir í peningagögn frá Data Integrator yfir í dual-write eða þú getur sett upp síðustu "dorman" útgáfuna af Prospect to cash lausninni. Þessi grein fjallar um báðar þessar aðferðir.
+Prospect to cash lausnin sem er í boði fyrir Data Integrator er ekki samhæf við tvískrif. Ástæðan fyrir þessu er msdynce_AccountNumber vísitalan á reikningstöflunni sem kom sem hluti af Prospect to cash lausninni. Ef þessi vísitala er til er ekki hægt að stofna sama viðskiptareikningsnúmer í tveimur mismunandi lögaðilum. Þú getur annað hvort valið að byrja upp á nýtt með dual-write með því að flytja Prospect yfir í peningagögn frá Data Integrator yfir í dual-write eða þú getur sett upp síðustu "dorman" útgáfuna af Prospect to cash lausninni. Þessi grein fjallar um báðar þessar aðferðir.
 
 ## <a name="install-the-last-dorman-version-of-the-data-integrator-prospect-to-cash-solution"></a>Settu upp síðustu „dorman“ útgáfuna af Data Integrator Prospect to cash lausninni
 
@@ -51,7 +51,7 @@ Til að flytja PTC-gögn úr Data Integrator í tvöfalda skráningu skal fylgja
 6. Virkið töfluvörpun tvöfaldrar skráningar og keyrið fyrstu samstillinguna fyrir áskild tilvísunargögn. (Frekari upplýsingar er að finna í [Hvað skal hafa í huga við fyrstu samstillingu](initial-sync-guidance.md).) Dæmi um áskilin gögn eru m.a. viðskiptavinaflokkar, greiðsluskilmálar og greiðsluáætlanir. Ekki skal virkja vörpun tvöfaldrar skráningar fyrir töflur sem krefast frumstillingar, t.d. töflur lykla, tilboðs, tilboðslínu, pöntunar og pöntunarlínu.
 7. Í forriti viðskiptavinar skal opna **Ítarlegar stillingar \> Kerfisstillingar \> Gagnastjórnun \> Afrita greiningarreglur** og slökkva á öllum reglum.
 8. Frumstillið töflurnar sem eru gefnar upp í skrefi tvö. Fyrir leiðbeiningar, sjá þá hluta þessarar greinar sem eftir eru.
-9. Opnaðu fjármála- og rekstrarappið og virkjaðu töflukortin, svo sem reikninginn, tilboð, tilboðslínu, pöntun og pöntunarlínutöflukort. Keyrið síðan fyrstu samstillingu. (Fyrir frekari upplýsingar, sjá [Hugleiðingar um fyrstu samstillingu](initial-sync-guidance.md) .) Þetta ferli mun samstilla viðbótarupplýsingar úr fjármála- og rekstrarforritinu, svo sem vinnslustöðu, sendingar- og innheimtuheimilisföng, vefsvæði og vöruhús.
+9. Opnaðu fjármála- og rekstrarappið og virkjaðu töflukortin, svo sem reikninginn, tilboð, tilboðslínu, pöntun og pöntunarlínutöflukort. Keyrið síðan fyrstu samstillingu. (Nánari upplýsingar er að finna í [Hugleiðingar um fyrstu samstillingu](initial-sync-guidance.md) .) Þetta ferli mun samstilla viðbótarupplýsingar úr fjármála- og rekstrarforritinu, svo sem vinnslustöðu, sendingar- og innheimtuheimilisföng, vefsvæði og vöruhús.
 
 ## <a name="account-table"></a>Lyklatafla
 

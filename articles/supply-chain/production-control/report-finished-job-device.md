@@ -2,7 +2,7 @@
 title: Bóka sem tilbúið úr verkspjaldstæki
 description: Þessi grein lýsir því hvernig á að stilla kerfið þannig að notendur vinnukortatækis geti tilkynnt fullunnar vörur frá framleiðslupöntun til birgða.
 author: johanhoffmann
-ms.date: 07/31/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 56d19a966d93202668c34ffaaef561d72b7669ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070470"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334626"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Bóka sem tilbúið úr verkspjaldstæki
 
@@ -56,13 +56,12 @@ Verkspjaldstækið styður þrjár atburðarásir fyrir tilkynningu á vörum me
 - **Fyrirframskilgreind rununúmer** - Starfsmenn velja rununúmer í lista yfir rununúmer sem kerfið myndar sjálfkrafa áður en framleiðslupöntunin er losuð í verkspjaldstækið.
 - **Föst rununúmer** - Starfsmenn slá ekki inn eða velja rununúmer. Þess í stað úthlutar kerfið sjálfkrafa rununúmeri á framleiðslupöntunina áður en hún er losuð.
 
-
 ### <a name="enable-the-feature-on-your-system"></a>Virkja eiginleikann í kerfinu
 
-Til að gera verkspjaldstæki kleift að samþykkja rununúmer við tilkynningu um lokið þarf að nota [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eftirfarandi eiginleikum (í þessari röð):
+Til að gera vinnukortatækjunum þínum kleift að samþykkja lotunúmer meðan á skýrslugerð stendur sem lokið verður þú að nota [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eftirfarandi eiginleikum:
 
-1. Enn notandavænni svargluggi fyrir gerð framvinduskýrslu á verkspjaldstækinu.
-1. Virkjið til að færa inn runu og raðnúmer þegar tilkynnt er um lok í verkspjaldstækinu
+- *Enn notandavænni svargluggi fyrir gerð framvinduskýrslu á verkspjaldstækinu.*
+- *Virkjið til að færa inn runu og raðnúmer þegar tilkynnt er um lok í verkspjaldstækinu*<br>(Frá og með Supply Chain Management útgáfu 10.0.29 er þessi eiginleiki sjálfkrafa virkur.)
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>Skilgreina afurðir sem krefjast tilkynningu um rununúmer
 
@@ -137,10 +136,10 @@ Verkspjaldstækið styður þrjár atburðarásir fyrir tilkynningu á runustýr
 
 ### <a name="enable-the-feature-on-your-system"></a>Virkja eiginleikann í kerfinu
 
-Til að gera verkspjaldstæki kleift að samþykkja raðnúmer við tilkynningu um að eitthvað sé búið þarf að nota [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eftirfarandi eiginleikum (í þessari röð):
+Til að gera vinnukortatækjunum þínum kleift að samþykkja raðnúmer meðan á tilkynningu stendur sem lokið verður þú að nota [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eftirfarandi eiginleikum:
 
-1. Enn notandavænni svargluggi fyrir gerð framvinduskýrslu á verkspjaldstækinu.
-1. Virkjið til að færa inn runu og raðnúmer þegar tilkynnt er um lok í verkspjaldstækinu
+- *Enn notandavænni svargluggi fyrir gerð framvinduskýrslu á verkspjaldstækinu.*
+- *Virkjið til að færa inn runu og raðnúmer þegar tilkynnt er um lok í verkspjaldstækinu*<br>(Frá og með Supply Chain Management útgáfu 10.0.29 er þessi eiginleiki sjálfkrafa virkur.)
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>Skilgreina afurðir sem krefjast tilkynningu um raðnúmer
 

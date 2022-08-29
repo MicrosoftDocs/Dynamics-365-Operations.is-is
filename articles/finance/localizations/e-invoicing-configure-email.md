@@ -1,32 +1,32 @@
 ---
 title: Skilgreina tölvupóstsrás
 description: Þessi grein útskýrir hvernig á að stilla tölvupóstrás til að taka á móti rafrænum reikningum.
-author: dkalyuzh
+author: gionoder
 ms.date: 02/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9227b032ffe896ad6a67962e5047fd797a883ae1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 19339cbcc59e93289609690363b0dd9195a66f6e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902386"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279871"
 ---
 # <a name="configure-an-email-channel"></a>Skilgreina tölvupóstsrás
 
 [!include [banner](../includes/banner.md)]
 
-Ef rafræn reikningseiginleikinn sem þú bjóst til flytur inn rafræna lánardrottnareikninga úr meðfylgjandi skrám sem berast með tölvupósti, ættir þú að stilla tölvupóstreikningsrás.
+Ef eiginleiki Rafrænna reikninga sem þú bjóst til flytur inn rafræna lánardrottnareikninga úr viðhengdum skrám sem berast með tölvupósti, ættir þú að stilla rás fyrir tölvupóstreikning.
 
 1. Í Regulatory Configuration Service (RCS) skaltu velja eiginleikann Rafræn reikningagerð sem þú bjóst til. Gakktu úr skugga um að þú veljir útgáfuna sem hefur stöðuna **Drög**.
 2. Á **Uppsetningar** flipa, veldu **Bæta við**.
@@ -41,10 +41,10 @@ Ef rafræn reikningseiginleikinn sem þú bjóst til flytur inn rafræna lánard
     |----------------------|-------------|
     | Gagnarás         | Sláðu inn einstakt nafn til að auðkenna gagnarásina. Nafnið má að hámarki vera 10 stafir. Það verður vísað til þess í gildandi reglum og í tengdum forritum meðan á samskiptaferlinu stendur. |
     | Vistfang þjóns       | Sláðu inn netfang netþjóns netþjónustuveitunnar. Til dæmis, vistfang netþjónsins fyrir`https://outlook.live.com` veitandi er imap-mail.outlook.com. |
-    | Tengi þjóns          | Sláðu inn númer gáttarinnar sem póstveitan notar. Til dæmis, miðlarahöfnin fyrir`https://outlook.live.com` veitandi er 993. |
-    | Leynilykill notandanafns     | Sláðu inn nafnið á Microsoft Azure Key Vault leyndarmál sem inniheldur auðkenni notendareiknings tölvupóstsins. Þetta leyndarmál verður að búa til í Key Vault og setja upp í þjónustuumhverfi þínu. |
+    | Tengi þjóns          | Sláðu inn númer gáttarinnar sem tölvupóstveitan notar. Til dæmis, miðlara höfn fyrir`https://outlook.live.com` veitandi er 993. |
+    | Leynilykill notandanafns     | Sláðu inn nafnið á Microsoft Azure Key Vault leyndarmál sem inniheldur auðkenni notendareiknings tölvupósts. Þetta leyndarmál verður að búa til í Key Vault og setja upp í þjónustuumhverfi þínu. |
     | Leynilykill fyrir aðgangsorð notanda | Sláðu inn nafn Key Vault leyndarmálsins sem inniheldur lykilorð notendareiknings tölvupóstsins. |
-    | Tímalokun              | Hámarkstími, í millisekúndum (ms), sem kerfið ætti að bíða eftir svari. Sjálfgefið gildi er 10.000 ms (10 sekúndur). |
+    | Tími útrunninn              | Hámarkstími, í millisekúndum (ms), sem kerfið ætti að bíða eftir svari. Sjálfgefið gildi er 10.000 ms (10 sekúndur). |
     | Aðalmappa          | Tilgreindu innflutningsuppsprettu tölvupósts eða möppuna sem þjónustan á að vinna tölvupóst úr. |
     | Skjalasafnsmappa       | Tilgreindu möppuna þar sem unnin tölvupóstur ætti að geyma. Ef þú tilgreinir ekki þessa möppu mun kerfið sjálfkrafa búa hana til. |
     | Villumappa         | Tilgreindu möppuna sem kerfið á að flytja tölvupóst í ef vinnslan mistekst. Ef þú tilgreinir ekki þessa möppu mun kerfið sjálfkrafa búa hana til. |
@@ -55,7 +55,7 @@ Ef rafræn reikningseiginleikinn sem þú bjóst til flytur inn rafræna lánard
     | Dagsetningarafmörkun          | Tilgreindu dagsetningu til að skilgreina hámarksaldur, í dögum, á skilaboðum sem eru unnin. Þessi reitur er valfrjáls. Sjálfgefið gildi er 30 dagar. |
     | Vinnslustilling      | <p>Veldu einn af eftirfarandi valkostum til að tilgreina hvort hægt sé að vinna öll viðhengi í tölvupósti saman eða hvort vinna eigi hvert viðhengi sérstaklega:</p><ul><li><b>Með viðhengi</b> – Nýtt rafrænt skjal verður búið til fyrir hvert viðhengi í tölvupóstinum. Til dæmis, ef einn tölvupóstur inniheldur nokkrar skrár sem innihalda rafræn reikningsgögn, mun hver skrá teljast nýr rafrænn reikningur í kerfinu.</li><li><b>Með tölvupósti</b> – Eitt viðhengi telst grunnviðhengi og einn rafrænn reikningur verður til í kerfinu. Hægt er að nota önnur viðhengi sem stuðningsskrár.</li></ul> |
 
-9. Í **Viðhengissía** kafla skaltu bæta við skráasíuupplýsingunum. Aðeins viðhengi sem uppfylla skilgreinda síu verða unnin. Til dæmis, **\* .xml** mun sía fyrir viðhengi sem hafa .xml skráarheiti. Heiti viðhengisins er notað í Dynamics 365 Finance eða Dynamics 365 Supply Chain Management við uppsetningu.
+9. Í **Viðhengissía** kafla skaltu bæta við skráarsíuupplýsingunum. Aðeins viðhengi sem uppfylla skilgreinda síu verða unnin. Til dæmis, **\* .xml** mun sía fyrir viðhengi sem hafa .xml skráarheiti. Heiti viðhengisins er notað í Dynamics 365 Finance eða Dynamics 365 Supply Chain Management við uppsetningu.
 
     - Ef þú stillir **Vinnsluhamur** sviði til **Með tölvupósti** í fyrra skrefi geturðu bætt við mörgum síum hér. Nafnið mun auðkenna tiltekna skjalið.
     - Ef þú stillir **Vinnsluhamur** sviði til **Með viðhengi**, þú getur aðeins bætt við einni síu.

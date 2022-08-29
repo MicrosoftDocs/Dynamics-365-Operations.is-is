@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3642bb88d5b0570014513b64eef5fdab6d1ee9d3
-ms.sourcegitcommit: 5b721f6fc1ba4350b5bd0eae457f71d80246db42
+ms.openlocfilehash: 2f9d882340171173e5e503f8b5e3aa856e8544b0
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9181125"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306204"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Virkja uppflettingu aðalgagna fyrir skattaútreikningsstillingar 
 
@@ -28,7 +28,7 @@ ms.locfileid: "9181125"
 Þessi grein útskýrir hvernig á að setja upp og virkja skattaútreikning aðalgagnaleitarvirkni. Fellilisti er tiltækur til að velja gildi í skattreikningsskilgreiningu fyrir reiti eins og **Lögaðili**, **söluaðila**, **·**, og **Afhendingartími**. Þessi gildi koma frá tengdum Microsoft Dynamics 365 Fjármálaumhverfi með því að nota Microsoft Dataverse gagnagjafa.
 
 > [!NOTE] 
-> Uppflettivirkni skattaútreiknings aðalgagna er valfrjáls virkni. Þú getur sleppt eftirfarandi skrefum ef þú slekkur á **Skattþjónusta Dataverse stuðningur við gagnaveitur** lögun í Regulatory Configuration Service (RCS). Hins vegar, í því tilviki, verður fellilistinn ekki tiltækur í skattaútreikningsstillingunum.
+> Uppflettivirkni skattaútreiknings aðalgagna er valfrjáls virkni. Þú getur sleppt eftirfarandi skrefum ef þú slekkur á **Skattþjónusta Dataverse stuðningur við gagnaveitur** eiginleiki í Regulatory Configuration Service (RCS). Hins vegar, í því tilviki, verður fellilistinn ekki tiltækur í skattaútreikningsstillingunum.
 
 Ljúktu við eftirfarandi skrefum til að virkja fellilistann í eiginleikaútgáfustillingu Skattaútreiknings.
 
@@ -43,11 +43,11 @@ Ljúktu við eftirfarandi skrefum til að virkja fellilistann í eiginleikaútg�
 
 ## <a name="enable-microsoft-power-platform-integration-and-open-the-dataverse-environment"></a><a name='enable'></a> Virkja Microsoft Power Platform sameining og opna Dataverse umhverfi
 
-Samþætting fjármála- og rekstrarappa við Microsoft Power Platform hægt að virkja þegar þú býrð til nýtt fjármála- og rekstrarumhverfi í Microsoft Dynamics Lífsferilsþjónusta (LCS). Frekari upplýsingar er að finna í [Microsoft Power Platform samþætting - Yfirlit innbóta](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Þegar þú hefur lokið, nafn a Microsoft Power Platform umhverfi mun birtast í **Power Platform Samþætting** kafla.
+Samþætting fjármála- og rekstrarappa við Microsoft Power Platform hægt að virkja þegar þú býrð til nýtt fjármála- og rekstrarumhverfi í Microsoft Dynamics Lífsferilsþjónusta (LCS). Frekari upplýsingar er að finna í [Microsoft Power Platform samþætting - Yfirlit innbóta](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Þegar þú hefur lokið við, nafn a Microsoft Power Platform umhverfi mun birtast í **Power Platform Samþætting** kafla.
 
-1. Í LCS, í fjármála- og rekstrarumhverfi þínu, í **Power Platform Samþætting** kafla, finndu og gerðu athugasemd við **Nafn umhverfisins** gildi fyrir tengt umhverfi.
+1. Í LCS, í fjármála- og rekstrarumhverfi þínu, í **Power Platform Samþætting** kafla, finndu og skráðu þig í **Nafn umhverfisins** gildi fyrir tengt umhverfi.
 
-    [![Umhverfisheiti gildi.](./media/tcs-dataverse-master-data-lookup-1.png)](./media/tcs-dataverse-master-data-lookup-1.png)
+    [![Umhverfisnafngildi.](./media/tcs-dataverse-master-data-lookup-1.png)](./media/tcs-dataverse-master-data-lookup-1.png)
 
 2. Í [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com/environments), á **Umhverfi** flipann, veldu umhverfið sem passar við **Nafn umhverfisins** verðmæti sem þú skrifaðir niður.
 3. Á **Upplýsingar** síðu, finndu **Umhverfisslóð** verðmæti Dataverse umhverfi. Skráðu þetta gildi, því þú þarft það inn [Skref 7. Settu upp tengda forritið fyrir skattaútreikning](#set-up).
@@ -98,7 +98,7 @@ Fyrir frekari upplýsingar, sjá [Skráðu þig Azure AD umsókn](../../fin-ops-
 
 ## <a name="grant-app-permissions-in-finance-and-operations-apps"></a><a name='grant'></a> Veittu forritaheimildir í fjármála- og rekstrarforritum
 
-Dataverse notar Azure AD forrit sem þú bjóst til til að kalla fjármála- og rekstrarforrit. Þess vegna verður forritið að vera treyst af fjármála- og rekstrarforritum og tengt notandareikningi sem hefur viðeigandi réttindi. Í fjármála- og rekstraröppunum verður þú að búa til sérstakan þjónustunotanda sem hefur réttindi **aðeins** til virkni sýndareiningarinnar. Þessi þjónustunotandi má ekki hafa önnur réttindi. Eftir að þú hefur lokið þessu skrefi, hvaða forrit sem hefur leyndarmálið Azure AD forritið sem þú bjóst til mun geta hringt í umhverfi fjármála- og rekstrarappa og fengið aðgang að virkni sýndaraðila.
+Dataverse notar Azure AD forrit sem þú bjóst til til að kalla fjármála- og rekstrarforrit. Þess vegna verður forritið að vera treyst af fjármála- og rekstraröppum og tengt notandareikningi sem hefur viðeigandi réttindi. Í fjármála- og rekstraröppunum verður þú að búa til sérstakan þjónustunotanda sem hefur réttindi **aðeins** til virkni sýndareiningarinnar. Þessi þjónustunotandi má ekki hafa önnur réttindi. Eftir að þú hefur lokið þessu skrefi, hvaða forrit sem hefur leyndarmálið Azure AD forritið sem þú bjóst til mun geta hringt í umhverfi fjármála- og rekstrarappa og fengið aðgang að virkni sýndaraðila.
 
 1. Í þínu umhverfi, farðu til **Kerfisstjórn** \> **Notendur** \> **Notendur**.
 2. Veldu **Nýtt** til að bæta við nýjum notanda og sláðu inn eftirfarandi upplýsingar:
@@ -108,7 +108,7 @@ Dataverse notar Azure AD forrit sem þú bjóst til til að kalla fjármála- og
     - **Veitandi** – Stilltu þennan reit á **NonAAD**.
     - **Tölvupóstur** - Koma inn **gagnaverssamþætting** eða annað gildi. (Gildið þarf ekki að vera gildur tölvupóstreikningur.)
 
-3. Úthlutaðu **CDS sýndareiningarforrit** öryggishlutverki fyrir notandann.
+3. Úthlutaðu **Dataverse Samþættingarforrit fyrir sýndaraðila** öryggishlutverki fyrir notandann.
 4. Fjarlægðu öll önnur hlutverk, þar á meðal **Kerfisnotandi**.
 5. Fara til **Kerfisstjórn** \> **Uppsetning** \> **Azure Active Directory umsóknir** að skrá Dataverse. 
 6. Bættu við röð og síðan í **Auðkenni viðskiptavinar** reit, sláðu inn **Auðkenni umsóknar (viðskiptavinar).** gildi sem þú skráðir áðan.
@@ -135,14 +135,14 @@ Fyrir frekari upplýsingar, sjá [Veittu forritaheimildir í Finance and Operati
 
 4. Veldu gagnagjafann sem er nefndur **Fjármál og rekstur**.
 
-    [![Uppspretta fjármál og rekstrargagna.](./media/tcs-dataverse-master-data-lookup-7.png)](./media/tcs-dataverse-master-data-lookup-7.png)
+    [![Fjármála- og rekstrargagnagjafi.](./media/tcs-dataverse-master-data-lookup-7.png)](./media/tcs-dataverse-master-data-lookup-7.png)
 
 5. Sláðu inn eftirfarandi upplýsingar úr fyrri skrefum:
 
     - **Markaðsslóð** - Sláðu inn slóðina þar sem þú getur fengið aðgang að fjármála- og rekstraröppum.
     - **OAuth vefslóð** - Koma inn `https://login.windows.net/`.
     - **Auðkenni leigjanda** - Tilgreindu leigjanda þinn. Þetta gildi getur verið lénið á netfangi fyrirtækisins (eins og contoso.com).
-    - **AAD umsókn auðkenni** – Sláðu inn **Auðkenni umsóknar (viðskiptavinar).** verðmæti sem skapast áður.
+    - **AAD umsókn auðkenni** – Sláðu inn **Auðkenni umsóknar (viðskiptavinar).** verðmæti sem skapaðist áðan.
     - **AAD umsóknarleyndarmál** – Sláðu inn leyndarmálið sem var búið til áður.
     - **AAD auðlind** - Koma inn **00000015-0000-0000-c000-000000000000**. Þetta gildi er Azure AD forrit sem táknar fjármála- og rekstrarforrit. Það ætti alltaf að vera þetta sama gildi.
 
@@ -173,7 +173,7 @@ Sýnileiki sýndareininganna úr fjármála- og rekstraröppum verður að vera 
 
     [![Stilla sýnileika einingarinnar.](./media/tcs-dataverse-master-data-lookup-11.png)](./media/tcs-dataverse-master-data-lookup-11.png)
 
-5. Endurtaktu fyrri skref fyrir eftirfarandi einingar sem vísað er til í skattaútreikningsstillingunum:
+5. Endurtaktu skrefin á undan fyrir eftirfarandi einingar sem vísað er til í skattaútreikningsstillingunum:
 
     - CompanyInfoEntity
     - CurrencyEntity
@@ -199,17 +199,11 @@ Frekari upplýsingar er að finna í [Virkja Microsoft Dataverse sýndareiningar
 
 ## <a name="set-up-the-connected-application-for-tax-calculation"></a><a name='set-up'></a> Settu upp tengda forritið fyrir skattaútreikning
 
-1. Í RCS, opnaðu **Eiginleikastjórnun** vinnusvæði og virkjaðu eftirfarandi eiginleika:
-
-    - Stuðningur við Dataverse gagnagjafa rafrænnar skýrslugerðar
-    - Stuðningur við gagnagjafa skattþjónustu Dataverse
-    - Altækir eiginleikar
-
-2. Fara til **Rafræn skýrslugerð**, og síðan, í **Tengdir tenglar** kafla, veldu **Tengd forrit**.
+1. Fara til **Rafræn skýrslugerð**, og síðan, í **Tengdir tenglar** kafla, veldu **Tengd forrit**.
 
     [![Tengd forrit.](./media/tcs-dataverse-master-data-lookup-12.png)](./media/tcs-dataverse-master-data-lookup-12.png)
 
-3. Veldu **Nýtt** til að bæta við færslu og sláðu inn eftirfarandi upplýsingar.
+2. Veldu **Nýtt** til að bæta við færslu og sláðu inn eftirfarandi upplýsingar.
 
     - **Heiti** - Sláðu inn nafn.
     - **Tegund** – Veldu **Dataverse**.
@@ -217,12 +211,18 @@ Frekari upplýsingar er að finna í [Virkja Microsoft Dataverse sýndareiningar
     - **Leigjandi** - Sláðu inn leigjanda þinn.
     - **Sérsniðin vefslóð** - Sláðu inn þinn Dataverse URL og bæta við **/api/data/v9.1** til þess.
 
-4. Veldu **Athugaðu tenginguna**, og síðan, í glugganum sem birtist, veldu **Smelltu hér til að tengjast valið fjarforrit**.
+3. Veldu **Athugaðu tengingu**, og veldu síðan í glugganum **Smelltu hér til að tengjast valið fjarforrit**.
 
     [![Athugar tenginguna.](./media/tcs-dataverse-master-data-lookup-13.png)](./media/tcs-dataverse-master-data-lookup-13.png)
-5. Gakktu úr skugga um að þú fáir "Árangur!" Skilaboð sem gefa til kynna að tengingunni hafi tekist.
+4. Gakktu úr skugga um að þú fáir "Árangur!" Skilaboð sem gefa til kynna að tengingunni hafi tekist.
 
     [![Skilaboð um árangur.](./media/tcs-dataverse-master-data-lookup-14.png)](./media/tcs-dataverse-master-data-lookup-14.png)
+    
+5. Í RCS, opnaðu **Eiginleikastjórnun** vinnusvæði og virkjaðu eftirfarandi eiginleika:
+
+    - Altækir eiginleikar
+    - Stuðningur við Dataverse gagnagjafa rafrænnar skýrslugerðar
+    - Stuðningur við gagnagjafa skattþjónustu Dataverse
 
 ## <a name="import-and-set-up-the-dataverse-model-mapping-configuration"></a><a name='import'></a> Flytja inn og setja upp Dataverse Uppsetning líkanakortlagningar
 
@@ -245,7 +245,7 @@ Microsoft býður upp á sjálfgefnar líkanakortastillingar fyrir aðila, allt 
 6. Fara aftur til **Rafræn skýrslugerð**, og veldu **Skattstillingar** flísar.
 7. Veldu innflutt **Dataverse Módelkortlagning** stillingar og veldu síðan **Breyta**.
 8. Stillið valkostinn **Sjálfgefið fyrir líkanavörpun** á **Já**.
-9. Í **Tengt forrit** reit skaltu velja tengda forritið sem þú setur upp í [Skref 7. Settu upp tengda forritið fyrir skattútreikning](#set-up).
+9. Í **Tengt forrit** reit, veldu tengda forritið sem þú setur upp í [Skref 7. Settu upp tengda forritið fyrir skattaútreikning](#set-up).
 10. Stilltu **Stilltu sýnileika sýndarborðs** valmöguleika til **Já** til að stilla alla sýndareiningar tengdar skattútreikningi á sýnilegar.
 
 Þú hefur nú lokið uppsetningu fyrir aðalgagnaleitarvirkni. Fellilisti fyrir reiti eins og **Lögaðili**, **söluaðila**, **·**, og **Afhendingartími** frá Dynamics 365 Finance verður nú virkt í **Útgáfa skattreiknings eiginleika** uppsetningu.

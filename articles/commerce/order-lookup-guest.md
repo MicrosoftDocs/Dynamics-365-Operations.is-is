@@ -1,25 +1,25 @@
 ---
 title: Virkja uppflettingu pöntunar fyrir gestakaup
 description: Þessi grein lýsir því hvernig á að virkja pöntunarleit fyrir gestaafgreiðslur í Microsoft Dynamics 365 Commerce.
-author: stuharg
+author: bicyclingfool
 ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: fe32bb59b6529dd9686ced92c1016f12a75a32d4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 4f381f1ec0ea08f18db3cac474e8990906364504
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891988"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286892"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Virkja uppflettingu pöntunar fyrir gestakaup
 
@@ -58,7 +58,7 @@ Flýtiflipinn **Leita að pöntun** á síðunni **Pantanir viðskiptavina** í 
 > [!NOTE]
 > Þessir valkostir skera úr um hvenær persónuupplýsingar á borð við heimilisfang viðskiptavinar og síðustu fjórir tölustafirnir í kreditkortanúmeri viðskiptavinar eru sýndar nafnlausum gestanotendum. Til að vernda friðhelgi skráðra viðskiptavina mælum við með því að þú veljir valkostinn **Aðeins pantanir gesta**. Öruggasti valkosturinn er þó **Aldrei**.
 
-Eftir að þú hefur breytt gildi á **Láttu persónuupplýsingar fylgja með gestapöntun** reit, þú verður að keyra starf 1070 (**Rásarstillingar**) í höfuðstöðvum viðskipta með því að fara til **Verslun og verslun \> Upplýsingatækni í smásölu og viðskiptum \> Dreifingaráætlun**.
+Eftir að þú hefur breytt gildi á **Láttu persónuupplýsingar fylgja með í uppflettingu gestapöntunar** reit, þú verður að keyra starf 1070 (**Rásar stillingar**) í höfuðstöðvum viðskipta með því að fara til **Verslun og verslun \> Upplýsingatækni í smásölu og viðskiptum \> Dreifingaráætlun**.
 
 ## <a name="configure-the-order-lookup-module"></a>Skilgreina uppflettieiningu pöntunar
 

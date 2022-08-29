@@ -2,7 +2,7 @@
 title: Samþykktarverkflæði birgðabókar
 description: Þessi grein lýsir því hvernig á að setja upp og nota verkflæði fyrir samþykki birgðabókar fyrir ýmsar gerðir af efnislegum birgðafærslum. Verkflæði birgðabókar tryggja að aðeins er hægt að bóka samþykktar birgðabækur í færslum.
 author: yufeihuang
-ms.date: 07/21/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,28 +13,25 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a97eaeae24850282c39196a61e3baa29307aa93
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873986"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334656"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Samþykktarverkflæði birgðabókar
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að setja upp og nota samþykkisvinnuflæði birgðabókar fyrir ýmsar gerðir birgðafærslur, svo sem útgáfur og kvittanir, birgðahreyfingar, efnisseðla (uppskriftir) og afstemmingu efnislegra birgða. Verkflæði birgðabókar tryggja að aðeins er hægt að bóka samþykktar birgðabækur í færslum.
+Þessi grein lýsir því hvernig á að setja upp og nota verkflæði fyrir samþykki birgðabókar fyrir ýmsar gerðir birgðafærslur, svo sem útgáfur og kvittanir, birgðahreyfingar, efnisseðla (uppskriftir) og afstemmingu efnislegra birgða. Verkflæði birgðabókar tryggja að aðeins er hægt að bóka samþykktar birgðabækur í færslum.
 
 > [!NOTE]
 > Samþykktarverkflæði birgðabókar á aðeins við um færslur sem skráðar eru með birgðastjórnunareiningunni. Þau vinna ekki með birgðabækur sem ræsast í einingu vöruhúsakerfis.
 
-## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Kveikið á eiginleika samþykktarverkflæði birgðabókar
+## <a name="turn-the-inventory-journal-approval-workflows-feature-on-or-off"></a>Kveiktu eða slökktu á verkflæðisverkflæði birgðabókarsamþykktar
 
-Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta notað [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) síðu til að athuga stöðu eiginleika og virkja eða slökkva á honum ef þörf krefur. Hérna er eiginleikinn skráður sem:
-
-- **Eining:** *Birgða- og vöruhúsakerfi*
-- **Heiti eiginleika:** *Samþykktarverkflæði birgðabókar*
+Til að nota þennan eiginleika verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.21 er kveikt á eiginleikanum sjálfgefið. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Birgðabók samþykkja verkflæði* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Búið til samþykktarverkflæði birgðabókar
 

@@ -1,20 +1,20 @@
 ---
 title: German Intrastat
 description: Þessi grein inniheldur upplýsingar um Intrastat yfirlýsingu í Þýskalandi.
-author: anasyash
+author: AdamTrukawka
 ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 9516a4516488282820659da141fe3ad33fbe3a9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ae978b28098d92d84415c29bbe76157144f862d8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848461"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269435"
 ---
 # <a name="german-intrastat"></a>German Intrastat
 
@@ -68,7 +68,7 @@ Eftirfarandi tafla sýnir reitina sem eru innifaldir í þýsku Intrastat-skatts
 
 3. Setja upp færibreytur erlendra viðskipta:
 
-    1. Í Dynamics 365 Finance, farðu í **Skattur** > **Uppsetning** > **Staðlar utanríkisviðskipta**.
+    1. Í Dynamics 365 Finance, farðu til **Skattur** > **Uppsetning** > **Viðskipti utanríkisviðskipta**.
     2. Í flipanum **Intrasta**, í flýtiflipanum **Rafræn skýrslugerð**, í reitnum **Vörpun skráarsniðs**, skal velja **Intrastat XML (DE)**.
     3. Í reitnum **Vörpun skýrslusniðs** skal velja **Intrastat skýrslu**.
     4. Í flýtiflipanum **Stigveldi vörukóða**, í reitnum **Tegundastigveldi**, velja **Intrastat**.

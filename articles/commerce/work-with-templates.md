@@ -6,20 +6,20 @@ ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c234ddb0cdc212bead4f722f7881fbf21d608675
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: cbe9d103da9c86dcf3aad54ec036282d2bb3faca
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881580"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282681"
 ---
 # <a name="work-with-templates"></a>Vinna með sniðmát
 
@@ -38,7 +38,7 @@ Eins og fjallað var um í [Yfirlit yfir sniðmát og skipulag](templates-layout
 - Haltu fyrirtækjasíðum á vörumerkinu með því að skilgreina samþykkt sett af fyrirkomulagi eininga og stillingar.
 
     > [!TIP] 
-    > Árangursríkar netviðskiptasíður veita viðskiptavinum kunnugleg, endurtekin og notendaupplifun á vörumerki (UX) hönnunarmynstur. Með því að nota sniðmát hjálpar þú til við að stjórna samræmi á vefsvæðinu þínu.
+    > Árangursríkar netviðskiptasíður veita viðskiptavinum kunnugleg, endurtekin og notendaupplifun (UX) hönnunarmynstur á vörumerki. Með því að nota sniðmát hjálpar þú til við að stjórna samræmi á vefsvæðinu þínu.
 
 - Bætið stig leitarvélabestun (SEO) með því að tryggja endurteknar og forritaðar skilgreiningar á síðu og lýsigögnum.
 
@@ -110,7 +110,7 @@ Sjálfgefið er að allar nýjar síður munu nú nota valið þema. Til að kom
 
 Þú getur bætt við HTML **&lt;forskrift&gt;** þætti sem inniheldur JavaScript í sniðmátinu þínu. Á þennan hátt geturðu framkvæmt sjálfgefna forskriftarhegðun á HTML haus, upphaf meginmáls og meginmálslokahluta síðanna.
 
-Fylgdu þessum skrefum til að bæta handriti við sniðmát í vefsíðugerð.
+Fylgdu þessum skrefum til að bæta handriti við sniðmát í vefsvæðisgerð.
 
 1. Í útlínutrénu til vinstri velurðu hólfið þar sem þú vilt bæta við þættinum **&lt;forskrift&gt;** (til dæmis, HTML haus, upphafi meginmáls eða lokum meginmáls).
 1. Veldu úrfellingarhnappinn fyrir hólfið og veldu síðan **Bæta við einingu**.

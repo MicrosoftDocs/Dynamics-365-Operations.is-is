@@ -1,27 +1,27 @@
 ---
 title: Frumstæðar gagnagerðir studdar fyrir formúlur rafrænnar skýrslugerðar
-description: Þessi grein veitir upplýsingar um frumstæðu gagnagerðir sem eru studdar í formúlum fyrir rafrænar skýrslur (ER).
-author: NickSelin
+description: Þessi grein veitir upplýsingar um frumstæðu gagnategundir sem eru studdar í formúlum fyrir rafrænar skýrslur (ER).
+author: kfend
 ms.date: 06/02/2021
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41cda188e774630e96c46fba1200fd2e640f9915
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 26c166744e1705baa9dcce6b93c76f110524b7d7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891876"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284575"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Frumstæðar gagnagerðir studdar fyrir formúlur rafrænnar skýrslugerðar
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um frumstæðu gagnagerðir sem eru studdar í [Rafræn skýrsla (ER)](general-electronic-reporting.md) tjáningar. Hér er listi yfir frumstæðar gagnagerðir:
+Þessi grein veitir upplýsingar um frumstæðu gagnagerðir sem eru studdar í [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) tjáningar. Hér er listi yfir frumstæðar gagnagerðir:
 
 - [boole](#boolean)
 - [dagsetning](#date)

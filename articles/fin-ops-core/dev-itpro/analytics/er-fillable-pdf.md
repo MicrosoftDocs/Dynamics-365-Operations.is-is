@@ -1,25 +1,25 @@
 ---
 title: Hanna skilgreiningar rafrænnar skýrslugerðar til að fylla inn í PDF-sniðmát
 description: Þessi grein veitir upplýsingar um hvernig á að hanna rafræn skýrslugerð (ER) snið til að fylla út PDF sniðmát.
-author: NickSelin
+author: kfend
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: ef9b650e9b676d79af8839c08cfbb1000a5aee5f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.openlocfilehash: 4056c2b9442e26a0e1c99e6155a3cd605d222974
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908591"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283314"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Hanna skilgreiningar rafrænnar skýrslugerðar til að fylla inn í PDF-sniðmát
 
@@ -257,7 +257,7 @@ Vegna þess að báðir eiginleikarnir eru valkvæðir fyrir sniðseininguna **R
 > - Samsvarandi **Field** sniðsþáttur er bundinn við gagnauppspretta reit í *[Boolean](er-formula-supported-data-types-primitive.md#boolean)* gagnategund sem hefur gildið **Satt**.
 > - Samsvarandi **Field** sniðþáttur inniheldur hreiður **Strengur** sniðþáttur sem er bundinn við reit gagnagjafa sem hefur textagildið á **1**, **·**, eða **Já**.
 >
-> Sniðmátið þitt getur innihaldið hóp af gátreitum þar sem aðeins er hægt að velja einn gátreit í einu. Þessir gátreitir eru sýndir í PDF sniðmáti sem margir eyðublaðareitir *GÉTTARÚT* tegund. Hver reitur hefur sama nafn en mismunandi útflutningsgildi. Þegar þú flytur sniðmátið inn í breytanlega ER sniðið, verður hver gátreitur sýndur í stigveldisskipulagi sniðsins sem **Atriði í gátreit hóp** þáttur sem er hreiður undir það sama **Gátreit hópur** þáttur. Nafnið á **Gátreit hópur** þáttur mun jafna nafni gátreitarreitanna í PDF sniðmátinu. Nafn hvers og eins **Atriði í gátreit hóp** þáttur jafngildir útflutningsgildi samsvarandi gátreitarreits í PDF sniðmátinu.
+> Sniðmátið þitt getur innihaldið hóp af gátreitum þar sem aðeins er hægt að velja einn gátreit í einu. Þessir gátreitir eru sýndir í PDF sniðmáti sem margir eyðublaðareitir *GÉTTARITI* tegund. Hver reitur hefur sama nafn en mismunandi útflutningsgildi. Þegar þú flytur sniðmátið inn í breytanlega ER sniðið, verður hver gátreitur sýndur í stigveldisskipulagi sniðsins sem **Atriði í gátreit hóp** þáttur sem er hreiður undir það sama **Gátreit hópur** þáttur. Nafnið á **Gátreit hópur** þáttur mun jafnast á við heiti gátreitarreitanna í PDF sniðmátinu. Nafn hvers og eins **Atriði í gátreit hóp** þáttur jafngildir útflutningsgildi samsvarandi gátreits í PDF sniðmátinu.
 >
 > Þú getur bundið a **Atriði í gátreit hóp** þáttur í reit gagnagjafa í *Boolean* eingöngu gagnategund.
 

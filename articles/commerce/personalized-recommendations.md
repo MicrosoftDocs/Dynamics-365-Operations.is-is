@@ -1,33 +1,33 @@
 ---
 title: Virkja sérsniðnar afurðaráðleggingar
-description: Þessi grein lýsir því hvernig á að gera sérsniðnar vörutillögur aðgengilegar fyrir viðskiptavini í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að gera sérsniðnar vöruráðleggingar aðgengilegar fyrir viðskiptavini í Microsoft Dynamics 365 Commerce.
 author: bebeale
 ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2be5e59d51e183863da9c82d4ff733e830b8b69
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail, eCommerce
+ms.search.form: ''
+ms.openlocfilehash: f626704b41b9d22f6b2ff55dd4ffe1037559a83a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864865"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283615"
 ---
 # <a name="enable-personalized-recommendations"></a>Virkja sérsniðnar ráðleggingar
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að gera sérsniðnar vörutillögur aðgengilegar fyrir viðskiptavini í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að gera sérsniðnar vöruráðleggingar aðgengilegar fyrir viðskiptavini í Microsoft Dynamics 365 Commerce.
 
 Í Dynamics 365 Commerce geta smásalar gert persónulegar ráðleggingar um vörur (einnig þekktar sem persónugervingar) tiltækar. Þannig er hægt að fella persónulegar ráðleggingar inn í upplifun viðskiptavina á netinu og á sölustað (POS). Þegar kveikt er á sérstillingaraðgerðinni getur kerfið tengt kaup notanda og vöruupplýsingar til að búa til sérsniðnar ráðleggingar um vöru.
 

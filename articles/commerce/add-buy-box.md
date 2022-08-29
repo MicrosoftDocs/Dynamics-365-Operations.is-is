@@ -1,31 +1,31 @@
 ---
 title: Kaupkassaeining
-description: Þessi grein fjallar um einingar fyrir kaupbox og lýsir því hvernig á að bæta þeim við síður á vefsvæðinu Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um einingar fyrir kaupbox og lýsir því hvernig á að bæta þeim við síður á vefsvæði í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5167aac784bb3ab6a63033590178c2eead627b96
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 7a3dfa347aac7b1ee7b318761c873beef8322bd9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863549"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270510"
 ---
 # <a name="buy-box-module"></a>Kaupkassaeining
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein fjallar um einingar fyrir kaupbox og lýsir því hvernig á að bæta þeim við síður á vefsvæðinu Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um einingar fyrir kaupbox og lýsir því hvernig á að bæta þeim við síður á vefsvæði í Microsoft Dynamics 365 Commerce.
 
 Hugtakið *kaupkassi* vísar venjulega til svæðisins á vöruupplýsingasíðunni (PDP) sem er „yfir brotinu“ og hýsir allar mikilvægustu upplýsingarnar sem þarf til að kaupa vöru. (Svæði sem er „fyrir ofan brotið“ er sýnilegt þegar síðunni er fyrst hlaðið þannig að notendur þurfa ekki að fletta niður til að sjá hana.)
 

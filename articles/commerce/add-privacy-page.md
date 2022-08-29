@@ -1,31 +1,31 @@
 ---
 title: Bæta við persónuverndarstefnusíðu
-description: Þessi grein lýsir því hvernig á að bæta persónuverndarstefnusíðu við síðuna þína í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að bæta persónuverndarsíðu við síðuna þína í Microsoft Dynamics 365 Commerce.
 author: v-chgri
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f220ee5502f269299d2af253d7790e503668c0ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: a874272fe5158dd213a69c7ba996e0d28c7ed15a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871703"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272072"
 ---
 # <a name="add-a-privacy-policy-page"></a>Bæta við persónuverndarstefnusíðu
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að bæta persónuverndarstefnusíðu við síðuna þína í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir því hvernig á að bæta persónuverndarsíðu við síðuna þína í Microsoft Dynamics 365 Commerce.
 
 Fylgni við friðhelgi einkalífsins felur í sér skipulagsaðgerðir sem upplýsa notendur vefsins um hvernig gögnum þeirra er safnað og meðhöndlað. Notendur geta síðan ákveðið hvernig þeir vilja að farið verði með persónuupplýsingar sínar og gripið til viðeigandi ráðstafana.
 

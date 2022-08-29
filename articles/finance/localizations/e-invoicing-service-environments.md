@@ -1,32 +1,32 @@
 ---
 title: Þjónustuumhverfi
 description: Þessi grein veitir upplýsingar um þjónustuumhverfi fyrir rafræna reikninga og útskýrir hvernig á að setja þau upp.
-author: dkalyuzh
+author: gionoder
 ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8c743c5b2fbc7dcc3ae04fa4d7ca0e65de6c2507
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: ff6f50ff78676f5efed7d905fb622ad662b541d7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901248"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291600"
 ---
 # <a name="service-environments"></a>Þjónustuumhverfi
 
 [!include [banner](../includes/banner.md)]
 
-Þjónustuumhverfi eru rökrétt skipting sem eru búin til til að styðja við hnattvæðingareiginleikana og samsvarandi skjöl sem eru unnin í rafrænni reikningaþjónustu. Öryggisleyndarmálin og stafræn skilríki, og aðgangsheimildir (stjórnun), verða að vera stillt á þjónustuumhverfisstigi.
+Þjónustuumhverfi eru rökrétt skipting sem eru búin til til að styðja við hnattvæðingareiginleikana og samsvarandi skjöl sem eru unnin í rafrænni reikningsþjónustu. Öryggisleyndarmálin og stafræn skilríki, og aðgangsheimildir (stjórnun), verða að vera stillt á þjónustuumhverfisstigi.
 
 Þú getur búið til eins mörg þjónustuumhverfi og þú þarft. Öll þjónustuumhverfi sem þú býrð til eru óháð hvert öðru. Sem bestu starfsvenjur mælum við með að þú búir til að minnsta kosti tvö þjónustuumhverfi:
 
@@ -49,13 +49,13 @@ Hægt er að stjórna þjónustuumhverfi með stöðu þeirra. Þú getur skoða
 
 ## <a name="users"></a>Notendur
 
-Í hverju þjónustuumhverfi þarf að skrá þá notendur sem geta tengst rafrænum reikningum frá Finance eða Supply Chain Management.
+Hvert þjónustuumhverfi þarf að skrá þá notendur sem geta tengst rafrænum reikningum frá fjármála- eða framboðskeðjustjórnun.
 
 ## <a name="applications"></a>Hugbúnaður
 
 Í sumum tilfellum gætu önnur forrit en fjármála- eða birgðakeðjustjórnun þurft að tengjast rafrænum reikningaþjónustu til að leggja fram rafræn skjöl til frekari vinnslu eða til að sækja upplýsingar eins og skilastöðu skjals. Í þessum tilfellum ætti forritið að vera skilgreint á listanum yfir forrit. Þannig mun það hafa aðgang að rafrænum reikningaþjónustu. Einnig þarf að skrá umsóknina sem umsókn í Azure Active Directory (Azure AD), og auðkenni hlutar verður að nota til að auðkenna það. 
 
-Vegna þess að Microsoft krefst mikillar öryggisstjórnunar yfir forritum sem geta tengst rafrænum reikningaþjónustu, verður þú að hafa samband við Microsoft á<DGXRegulatoryservicesengineering@service.microsoft.com> og gefðu upp eftirfarandi upplýsingar um umsókn þína:
+Vegna þess að Microsoft krefst mikillar öryggisstjórnunar yfir forritum sem geta tengst rafrænu reikningsþjónustunni, verður þú að hafa samband við Microsoft á<DGXRegulatoryservicesengineering@service.microsoft.com> og gefðu upp eftirfarandi upplýsingar um umsókn þína:
 
 - Azure AD-leigjandakenni
 - Microsoft Dynamics Auðkenni líftímaþjónustu (LCS) umhverfi
@@ -99,7 +99,7 @@ Ef aðstæður þínar krefjast númeraraðir (til dæmis í skráarnöfnum) get
 ## <a name="create-a-service-environment"></a>Stofna þjónustuumhverfi
 
 1. Á **Þjónustuumhverfi** síðu, veldu **Nýtt** að skapa þjónustuumhverfi.
-2. Í **Nafn** reit, sláðu inn heiti rafrænna reikningaumhverfisins.
+2. Í **Nafn** reit skal slá inn heiti rafrænna reikningaumhverfisins.
 3. Í reitnum **Lýsing** skal færa inn lýsingu.
 4. Í reitnum **SAS-leynilykill geymslu** skal velja heiti leynilykils geymslureikningsins sem þarf að nota til að auðkenna aðgang að geymslureikningnum.
 5. Í **Notendur** kafla, veldu **Bæta við** að bæta við notanda sem hefur heimild til að senda inn rafræna reikninga í gegnum umhverfið og tengjast geymslureikningnum.

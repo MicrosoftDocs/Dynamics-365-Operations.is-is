@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 3dd9f4930303b1e3506e613d5437613138944430
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1017527419acc2e4cb42b2bcb83131339d82b665
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877306"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218883"
 ---
 # <a name="work-line-details"></a>Upplýsingar um vinnulínu
 
@@ -52,7 +52,7 @@ Til að skoða listann yfir upplýsingar um vinnulínur skal opna **Vöruhúsast
 
 ### <a name="make-sample-data-available"></a>Gera sýnigögn tiltæk
 
-Til að vinna í gegnum þessa sýnikennslu með því að nota sýniskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
+Til að vinna í gegnum þessa sýnikennslu með því að nota sýniskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/fin-ops/get-started/demo-data.md) eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
 
 Einnig er hægt að nota þessa sýniútgáfu sem leiðsögn þegar unnið er í framleiðslukerfi. Hinsvegar þarf að skipta út eigin gildum og einhverjar nauðsynlegar færslugerðir gæti vantað sem stöðluðu sýnigögnin bjóða upp á.
 

@@ -2,7 +2,7 @@
 title: Skilgreina samstæðureglur sendingar
 description: Þessi grein útskýrir hvernig á að setja upp sjálfgefna og sérsniðnar sameiningarstefnur fyrir sendingar.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845925"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336493"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Skilgreina samstæðureglur sendingar
 
@@ -26,17 +26,14 @@ ms.locfileid: "8845925"
 
 Samstæðuferli sendingar sem notar samstæðureglur sendingar leyfa sjálfvirka samstæðu sendingar við sjálfvirka og Handvirk losun í vöruhúsið. Eftir að kveikt er á þessum eiginleika verður að skilgreina fyrstu reglurnar. Ef engar reglur eru skilgreindar mun hver sölulína mynda aðskilda sendingu sem er með eina farmlínu.
 
-Atburðarásin sem eru kynnt í þessari grein sýna hvernig á að setja upp sjálfgefna og sérsniðnar sameiningarstefnur fyrir sendingar.
+Atburðarásin sem kynnt er í þessari grein sýna hvernig á að setja upp sjálfgefna og sérsniðna samþjöppunarstefnu fyrir sendingar.
 
 ## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Kveikja á eiginleikanum „Samstæðureglur sendingar“
 
 > [!IMPORTANT]
 > Í [fyrstu atburðarás](#scenario-1) sem lýst er í þessari grein, verður þú fyrst að setja upp vöruhús þannig að það noti fyrri sendingarsamstæðueiginleikann. Því næst eru samstæðureglur sendingar gerðar tiltækar. Á þennan hátt er hægt að læra á hvernig uppfærsluaðstæðurnar virka. Ef ætlunin er að nota sýnigagnaumhverfi til að fara í gegnum fyrstu aðstæðurnar skal ekki kveikja á eiginleikanum áður en farið er í gegnum aðstæðurnar.
 
-Áður en hægt er að nota eiginleikann *Samstæðureglur sendingar* þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
-
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Sameina sendingu*
+Til að nota *Samþjöppunarreglur sendingar* eiginleika, verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Samþjöppunarreglur sendingar* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="make-demo-data-available"></a>Bjóða upp á sýnigögn
 
@@ -61,7 +58,6 @@ Fylgið eftirfarandi skrefum til að setja upp sjálfgefnar samstæðureglur sen
 1. Á flýtiflipanum **Vöruhús** skal stilla valkostinn **Taka sendingu með í samstæðu við losun í vörugeymslu** á *Já*.
 1. Endurtakið skref 2 til 4 fyrir öll önnur vöruhús þar sem sameining er nauðsynleg.
 1. Lokið síðunni.
-1. Notaðu [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eiginleikanum *Samstæðureglum sendingar*. Á vinnusvæðinu **Eiginleikastjórnun** kallst eiginleikinn *Sameina sendingu*.
 1. Opnið **Vöruhúsastjórnun \> Uppsetning \> Losa í vöruhús \> Samstæðureglur sendingar**. Hugsanlega þarf að uppfæra vafrann til að sjá nýja valmyndaratriðið **Samstæðureglur sendingar** eftir að kveikt er á eiginleikanum.
 1. Á aðgerðasvæðinu skal velja **Stofna sjálfgefna uppsetningu** til að stofna eftirfarandi reglur:
 
@@ -81,7 +77,6 @@ Fylgið eftirfarandi skrefum til að setja upp sjálfgefnar samstæðureglur sen
 
 Fylgið eftirfarandi skrefum til að setja upp sjálfgefnar samstæðureglur sendingar í glænýju umhverfi.
 
-1. Notið [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eiginleikanum *Samstæðureglur sendingar*, ef ekki er þegar kveikt á honum. Á vinnusvæðinu **Eiginleikastjórnun** kallst eiginleikinn *Sameina sendingu*.
 1. Opnið **Vöruhúsastjórnun \> Uppsetning \> Losa í vöruhús \> Samstæðureglur sendingar**.
 1. Á aðgerðasvæðinu skal velja **Stofna sjálfgefna uppsetningu** til að stofna eftirfarandi reglur:
 

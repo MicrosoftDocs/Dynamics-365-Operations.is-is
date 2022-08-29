@@ -1,24 +1,24 @@
 ---
 title: Yfirlit skattaútreiknings
 description: Þessi grein útskýrir heildarumfang og eiginleika skattaútreikningsmöguleikans.
-author: wangchen
+author: EricWangChen
 ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.search.form: TaxIntegrationTaxServiceParameters
+ms.openlocfilehash: 2765b922bcc58837c32973b7ca96e0d63eb8b9d6
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166840"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295993"
 ---
 # <a name="tax-calculation-overview"></a>Yfirlit skattaútreiknings
 
@@ -54,10 +54,15 @@ Skattaútreikningur er í boði á eftirfarandi staðsetningum Azure. Fleiri Azu
 
 - Asía og Kyrrahaf
 - Ástralía
+- Brasilía
 - Kanada
 - Evrópa
+- Frakkland
+- Indland
 - Japan
+- Suður-Afríka
 - Sviss
+- Sameinuðu arabísku furstadæmin
 - Bretland
 - Bandaríkin
 
@@ -80,6 +85,7 @@ Við mælum með því að þú flytur inn og stillir upp skattaútreikninginn �
 | 10.0.26         | Skattaútreikningsstilling 40.54.234 |
 | 10.0.27         | Skattaútreikningsstilling 40.54.234 |
 | 10.0.28         | Skattaútreikningsstilling 40.54.234 |
+| 10.0.29         | Skattaútreikningsstilling 40.55.236 |
 
 
 ## <a name="data-flow"></a>Gagnaflæði
@@ -149,11 +155,16 @@ Eftirfarandi færslur eru studdar í Finance-útgáfu 10.0.28:
 - Greiðslubók lánardrottins
 - Greiðslubók viðskiptavinar
 
+Eftirfarandi færslur eru studdar í Finance-útgáfu 10.0.29: 
+
+
+- Tímabilsbækur
+
 ## <a name="supported-countriesregions"></a>Studd lönd/svæði
 
-Hægt er að virkja skattaútreikning eftir lögaðila. 
+Skattaútreikning er hægt að keyra með studdum staðsetningareiginleikum í eftirfarandi löndum/svæðum fyrir aðal heimilisfang lögaðila: 
 
-Eftirfarandi lönd/svæði fyrir aðalaðsetur lögaðila eru studd í útgáfu 10.0.21:
+Styður í útgáfu 10.0.21:
 
 - Austurríki
 - Belgía
@@ -176,7 +187,7 @@ Eftirfarandi lönd/svæði fyrir aðalaðsetur lögaðila eru studd í útgáfu 
 - Bretland
 - Bandaríkin
 
-Eftirfarandi lönd/svæði fyrir aðalaðsetur lögaðila eru studd í útgáfu 10.0.22:
+Styður í útgáfu 10.0.22:
 
 - Ástralía
 - Barein
@@ -191,22 +202,24 @@ Eftirfarandi lönd/svæði fyrir aðalaðsetur lögaðila eru studd í útgáfu 
 - Suður-Afríka
 - Sameinuðu arabísku furstadæmin
 
-Eftirfarandi lönd/svæði fyrir aðalaðsetur lögaðila eru studd í útgáfu 10.0.23:
+Styður í útgáfu 10.0.23:
 
 - Taíland
 - Japan
 - Malasía
 - Singapúr
 
-Eftirfarandi lönd/svæði fyrir aðalaðsetur lögaðila eru studd í útgáfu 10.0.24:
+Styður í útgáfu 10.0.24:
 
 - Mexíkó
 
-Eftirfarandi lönd/svæði fyrir aðalaðsetur lögaðila eru studd í útgáfu 10.0.26:
+Styður í útgáfu 10.0.26:
 
 - Kína
 - Tékkland
 - Spánn
+
+Fyrir öll lönd/svæði sem Microsoft hefur ekki staðfært, er einnig hægt að virkja og keyra skattaútreikning með öðrum alþjóðlegum eiginleikum.
 
 ## <a name="related-resources"></a>Tengd tilföng
 

@@ -1,7 +1,7 @@
 ---
 title: Leitaðu að landssértækum reglugerðaruppfærslum
 description: Þessi grein veitir tengla á fyrirhugaðar og gefnar landssértækar reglugerðaruppfærslur fyrir Microsoft Dynamics 365 Fjármál.
-author: AKroshkina
+author: AdamTrukawka
 ms.date: 01/20/2022
 ms.topic: article
 ms.prod: ''
@@ -11,12 +11,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kfend
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2a272c5310375007b65f54501b9770610504f72a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2542d32194b5e01a92f205167a3c1d339507fec0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896183"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287768"
 ---
 # <a name="search-for-country-specific-regulatory-updates"></a>Leitaðu að landssértækum reglugerðaruppfærslum
 
@@ -41,7 +41,7 @@ ms.locfileid: "8896183"
 | Þýskaland              | [Skipulögð og gefin út reglugerðaraðgerðir fyrir Þýskaland](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=12_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
 | Hong Kong (sérstjórnarsvæði)        | [Skipulögð og gefin út reglugerðaraðgerðir fyrir Hong Kong SAR](https://fix.lcs.dynamics.com/Issue/Results?q=&dm=0&v=8_versionClass&i=2_issueTypeClass_1_issueTypeClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=38_countryClass&pi=&pm=&pc=&rd=&d=&envId=&permission=) |
 | Ungverjaland              | [Skipulögð og gefin út reglugerðaraðgerðir fyrir Ungverjaland](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=13_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
-| Ísland              | [Skipulögð og gefin út regluverk fyrir Ísland](https://fix.lcs.dynamics.com/Issue/Results?q=&dm=0&v=8_versionClass&i=2_issueTypeClass_1_issueTypeClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=14_countryClass&pi=&pm=&pc=&rd=&d=&envId=&permission=) |
+| Ísland              | [Skipulögð og gefin út eftirlitsaðgerðir fyrir Ísland](https://fix.lcs.dynamics.com/Issue/Results?q=&dm=0&v=8_versionClass&i=2_issueTypeClass_1_issueTypeClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=14_countryClass&pi=&pm=&pc=&rd=&d=&envId=&permission=) |
 | Indland                | [Skipulögð og gefin út reglugerðaraðgerðir fyrir Indland](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=15_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
 | Írland              | [Skipulögð og gefin út reglugerðaraðgerðir fyrir Írland](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=16_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
 | Ítalía                | [Skipulögð og gefin út reglugerðaraðgerðir fyrir Ítalíu](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=17_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
@@ -68,6 +68,6 @@ ms.locfileid: "8896183"
 | Sameinuðu arabísku furstadæmin | [Skipulögð og gefin út reglugerðaraðgerðir fyrir Sameinuðu arabísku furstadæmin](https://fix.lcs.dynamics.com/Issue/Results?v=8_versionClass&ct=2_categoryClass_6_categoryClass&ft=1_featureClass_2_featureClass_3_featureClass&cu=43_countryClass&o=D&mode=Full&i=2_issueTypeClass_1_issueTypeClass) |
 | Bretland       | [Skipulögð og gefin út reglugerðaraðgerðir fyrir Bretland](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Ffix.lcs.dynamics.com%2FIssue%2FResults%3Fv%3D8_versionClass%26ct%3D2_categoryClass_6_categoryClass%26ft%3D1_featureClass_2_featureClass_3_featureClass%26cu%3D3_countryClass%26o%3DD%26mode%3DFull%26i%3D2_issueTypeClass_1_issueTypeClass&data=04%7C01%7Cvastrup%40microsoft.com%7C6e8a12140a0548c9224508d94add50a5%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637623136671200065%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=eiZzncdY20RjysdC8rpru54YONhSlJUec093vwFK5jI%3D&reserved=0) |
 
-Fyrir frekari upplýsingar um hnattvæðingareiginleikana sem eru innifalin í mánaðarlegum uppfærslum, vertu með í [DGX - EIGINLEIKAR HJÁÐVÆÐINGAR](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=17055599&view=all)Yammer hóp.
+Til að fá frekari upplýsingar um hnattvæðingareiginleikana sem eru innifalin í mánaðarlegum uppfærslum skaltu taka þátt í [DGX - EIGINLEIKAR HJÁÐVÆÐINGAR](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=17055599&view=all)Yammer hóp.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

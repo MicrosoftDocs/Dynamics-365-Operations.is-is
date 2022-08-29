@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: acfd9be044818ab0f40171c25a8fc9e760173aa8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a8deb71713619b4be6c875223ab3b1f08499dfb2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867928"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335136"
 ---
 # <a name="product-dimensions"></a>Afurðarvíddir
 
@@ -78,7 +78,7 @@ Fyrirtæki selur denim-gallabuxur. Varan, *gallabuxur*, notar lit og stærð afu
 
 ## <a name="the-version-product-dimension"></a>Afurðarvídd útgáfunnar
 
-Útgáfa er afurðarvídd sem er ætluð til að vinna með og rekja margar útgáfur af afurð í gegnum aðfangakeðjuna. Útgáfumæling er nauðsynleg fyrir velgengni framleiðenda sem starfa í heimi stöðugt minnkandi lífsferils vara, aukinna gæða- og áreiðanleikakrafna og aukinnar áherslu á vöruöryggi.
+Útgáfa er afurðarvídd sem er ætluð til að vinna með og rekja margar útgáfur af afurð í gegnum aðfangakeðjuna. Útgáfumæling er nauðsynleg fyrir velgengni framleiðenda sem starfa í heimi sífellt minnkandi vörulífs, aukinna gæða- og áreiðanleikakrafna og aukinnar áherslu á vöruöryggi.
 
 Sem stöðluð afurðarvídd, mun útgáfa hegða sér á svipaðan hátt og núverandi afurðarvíddir (stærð, stíll, litur og afbrigði). Þess vegna er hægt að nota hana í öðrum tilgangi en að rekja útgáfur afurða.
 
@@ -108,7 +108,7 @@ Sem stöðluð afurðarvídd, mun útgáfa hegða sér á svipaðan hátt og nú
 
 #### <a name="turn-on-the-version-dimension"></a>Kveikja á útgáfuvíddinni
 
-Áður en hægt er að nota útgáfuvíddina þarf að vera kveikt á henni í kerfinu. Þetta verk krefst stjórnandaheimildar.
+Áður en þú getur notað útgáfuvíddina verður að kveikja á henni fyrir kerfið þitt. Þetta verk krefst stjórnandaheimildar.
 
 1. Opna skal **Kerfisstjórnun \> Vinnusvæði \> Eiginleikastjórnun**.
 1. Kveikið á eiginleikanum sem kallast *Útgáfa afurðarvíddar*. (Frekari upplýsingar er að finna í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)

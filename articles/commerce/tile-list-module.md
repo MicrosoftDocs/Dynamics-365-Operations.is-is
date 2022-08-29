@@ -1,32 +1,32 @@
 ---
 title: Reitalistaeining
-description: Þessi grein fjallar um einingar með flísum og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um einingar með flísum og lýsir því hvernig á að bæta þeim við síður á vefsvæði í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 44eb9b82ef9625734c7fe5ccba85207d9f210a00
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.openlocfilehash: 204465df80e490c8f3f4dc5aca04cb43cd853515
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905399"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284631"
 ---
 # <a name="tile-list-module"></a>Reitalistaeining
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein fjallar um einingar með flísum og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um einingar með flísum og lýsir því hvernig á að bæta þeim við síður á vefsvæði í Microsoft Dynamics 365 Commerce.
 
 Reitalistaeining er safn af reitum í myndaræmu. Hún er notuð til að markaðssetja afurðarflokka eða vörumerki í gegnum myndir og texta. Til dæmis getur smásali bætt reitalistaeiningu við heimasíðu rafræns viðskiptasvæðis til að auglýsa flokka með vinsælustu vörunum.
 

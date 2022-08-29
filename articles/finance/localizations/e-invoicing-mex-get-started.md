@@ -1,47 +1,45 @@
 ---
 title: Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
-description: Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Mexíkó.
+description: Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikninga fyrir Mexíkó.
 author: gionoder
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: gionoder
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 540b6e6f9b4b669957cc3310e473ad59b9210594
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 46dfa03a3c90eea2d732f355396d148f475429d7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855330"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283117"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Rafræn reikningagerð fyrir Mexíkó styður ef til vill ekki allar aðgerðir sem eru tiltækar í Comprobante Fiscal Digital por Internet (CFDI) skjalinu og í tengdri samþættingu sem er innbyggður í Microsoft Dynamics 365 Fjármál eða Dynamics 365 Supply Chain Management.
+> Rafræn reikningur fyrir Mexíkó styður ef til vill ekki allar aðgerðir sem eru tiltækar í Comprobante Fiscal Digital por Internet (CFDI) skjalinu og í tengdri samþættingu sem er innbyggður í Microsoft Dynamics 365 Fjármál eða Dynamics 365 Supply Chain Management.
 
-Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Mexíkó. Það leiðir notandann í gegnum grunnstillingarskrefin sem fara eftir hverju landi fyrir sig í Regulatory Configuration Services (RCS) og Finance. Það fer einnig í gegnum skrefin sem þarf að fylgja í Finance til að senda inn CFDI-reikninga í gegnum þjónustuna og það útskýrir hvernig á að fara yfir niðurstöður vinnslunnar og stöður CFDI-reikninga.
+Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikninga fyrir Mexíkó. Það leiðir notandann í gegnum grunnstillingarskrefin sem fara eftir hverju landi fyrir sig í Regulatory Configuration Services (RCS) og Finance. Það fer einnig í gegnum skrefin sem þarf að fylgja í Finance til að senda inn CFDI-reikninga í gegnum þjónustuna og það útskýrir hvernig á að fara yfir niðurstöður vinnslunnar og stöður CFDI-reikninga.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en þú lýkur skrefunum í þessari grein verður þú að klára skrefin í [Byrjaðu með rafræna reikningaþjónustu](e-invoicing-get-started-service-administration.md) og [Byrjaðu með rafræna reikningagerð](e-invoicing-get-started.md).
+Áður en þú lýkur skrefunum í þessari grein verður þú að klára skrefin í [Byrjaðu með þjónustustjórnun rafrænna reikninga](e-invoicing-get-started-service-administration.md) og [Byrjaðu með rafræna reikningagerð](e-invoicing-get-started.md).
 
 ## <a name="set-up-the-cadena-xslt"></a>Settu upp Cadena XSLT
 
 Til að bæta Cadena XSLT stefinu við hnattvæðingareiginleikann fyrir CFDI vinnslu skaltu ljúka eftirfarandi skrefum.
 
-1. Sækja skema frá [SAT vefsíða](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt).
+1. Sækja skema frá [Vefsíða SAT](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt).
 2. Þjappaðu skemanu í ZIP skrá.
 3. Vistaðu xslt skrána á Azure Storage reikningnum þínum sem settur var upp í þjónustuumhverfinu þínu fyrir nýja ílátið.
 
@@ -145,7 +143,7 @@ Til að senda inn afturköllun á CFDI-reikningi þarf að setja upp eiginleikan
    
     Dæmi um breytuna væri:
     
-    {"slóð":"x xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\ dev\\ cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
+    {"slóð": "x xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\ dev\\ cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>Úthluta útgáfudrögum á umhverfi rafrænnar reikningsfærslu
 

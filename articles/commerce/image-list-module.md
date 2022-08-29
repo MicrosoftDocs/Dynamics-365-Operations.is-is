@@ -1,31 +1,31 @@
 ---
 title: Myndalistaeining
-description: Þessi grein fjallar um myndlistaeiningar og lýsir því hvernig á að bæta þeim við síður á vefsvæði í Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um myndlistaeiningar og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8e47c9806c21de24f0e519d0132374d2e1ff2bbf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: e89624a98d3cbdd861391e994386ae57d2c38aa0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892801"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269836"
 ---
 # <a name="image-list-module"></a>Myndalistaeining
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein fjallar um myndlistaeiningar og lýsir því hvernig á að bæta þeim við síður á vefsvæði í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um myndlistaeiningar og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 
 Myndlistareininguna er hægt að nota til að bæta safni mynda við vefsíður með einföldum hætti. Hægt er að skilgreina hverja mynd í röðinni með texta og tengja vefslóðir. Myndlistaeiningin er best til þess fallin að birta vörumerki eða lista sem inniheldur lógó.
 

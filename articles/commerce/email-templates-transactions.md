@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: cc3ad01c60324d751ee52d83d93fe59593775a00
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910551"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279569"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Stofna sniðmát fyrir tölvupóst fyrir færslutilvik
 
@@ -117,7 +117,29 @@ Tilkynningagerðin *pöntun afturkölluð* er ræst þegar pöntun er afturköll
 
 ### <a name="customer-created"></a>Viðskiptavinur stofnaður
 
-Tilkynningagerðin *viðskiptavinur stofnaður* er ræst þegar ný eining viðskiptavinar er búin til í Commerce Headquarters.
+Tilkynningagerðin *viðskiptavinur stofnaður* er ræst þegar ný eining viðskiptavinar er búin til í Commerce Headquarters. 
+
+Til að virkja tilkynningar sem viðskiptavinir hafa búið til skaltu fara í höfuðstöðvar viðskipta á **Verslun og verslun \> Uppsetning höfuðstöðva \> Færibreytur \> Viðskiptabreytur \> Almennt**. Í **Tilkynningarprófíll í tölvupósti** fellilistanum, veldu tilkynningasnið í tölvupósti sem inniheldur tilkynningategundina sem viðskiptavinurinn hefur búið til. 
+
+Sjálfgefið er að atburðir sem búnir eru til viðskiptavina eru hlaðið upp í höfuðstöðvar með **Samstilltu viðskiptavini og rásbeiðnir** lotuvinna. Ef þú vilt nota rauntíma þjónustusímtal til að senda þessa viðburði skaltu stilla tölvupóstauðkenni sniðmátsins sem viðskiptavinurinn bjó til á **newCust**. Hins vegar er ekki mælt með þessu vegna þess að þjónustusímtöl í rauntíma eru „kveikja og gleyma“ símtölum og hafa ekki afturhvarfs- eða endurreynslurökfræðina sem runuvinnslur veita.
+
+> [!NOTE] 
+> Þegar þú virkjar tilkynningar búnar til viðskiptavina munu viðskiptavinir sem eru búnir til í öllum rásum innan lögaðilans fá tölvupóst sem búinn er til viðskiptavinar. Eins og er er ekki hægt að takmarka tilkynningar sem viðskiptavinir hafa búið til við eina rás.  
+
+Þegar hún er kölluð til í gegnum runuvinnuna styður tilkynningategundin sem viðskiptavinurinn stofnaði eftirfarandi staðgengil.
+
+| Staðgengilsheiti | Lýsing                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| customername     | Fornafn og eftirnafn viðskiptavinarins sem stofnaði reikning. |
+
+Þegar hringt er í gegnum rauntíma þjónustusímtal styður tilkynningategundin sem viðskiptavinurinn bjó til eftirfarandi staðgengla.
+
+| Staðgengilsheiti | Lýsing                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| Nafn             | Fornafn og eftirnafn viðskiptavinarins sem stofnaði reikning. |
+| Tölvupóstur            | Netfang viðskiptavinarins sem stofnaði reikning.    |
+| Sími            | Símanúmer viðskiptavinarins sem stofnaði reikning.      |
+| URL              | Slóðin sem viðskiptavinurinn gaf upp þegar hann stofnaði reikninginn. |
 
 ### <a name="b2b-prospect-approved"></a>B2B-viðfang samþykkt
 

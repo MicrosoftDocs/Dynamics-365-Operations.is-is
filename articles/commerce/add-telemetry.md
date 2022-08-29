@@ -1,31 +1,31 @@
 ---
 title: Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar
-description: Þessi grein lýsir því hvernig á að bæta handritakóða við biðlarahlið við vefsíðurnar þínar til að styðja við söfnun á fjarmælingum viðskiptavinarhliðar.
+description: Þessi grein lýsir því hvernig á að bæta handritakóða við viðskiptavininn á síðurnar þínar til að styðja við söfnun á fjarmælingum viðskiptavinarhliðar.
 author: bicyclingfool
 ms.date: 09/29/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 262216ee99d52e3d53f5f5dae663104bb79757c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: a0a5103d239c7f93ad6888a2eaf56d1cac32bd58
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852842"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282273"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að bæta handritakóða við biðlarahlið við vefsíðurnar þínar til að styðja við söfnun á fjarmælingum viðskiptavinarhliðar.
+Þessi grein lýsir því hvernig á að bæta handritakóða við viðskiptavininn á síðurnar þínar til að styðja við söfnun á fjarmælingum viðskiptavinarhliðar.
 
 Vefgreining er ómissandi tæki þegar þú vilt skilja hvernig viðskiptavinir þínir hafa samskipti við vefsíðuna og taka ákvarðanir sem munu hjálpa til við að hámarka upplifunina fyrir hámarks umreikning. Margir vefgreiningarpakkar eru í boði til að hjálpa þér að ná þessum markmiðum, eins og Google Analytics, Clicky, Moz Analytics og KISSMetrics. Flestir vefgreiningarpakkar krefjast þess að bætt sé við skriftarkóða biðlaramegin í einingu **\<head\>** í HTML fyrir allar síður á vefsvæðinu þínu.
 

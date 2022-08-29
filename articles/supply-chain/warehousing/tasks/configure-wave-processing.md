@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a9fc2b9f31bc9e2f73b53a900bc9b0924410768
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9a8c088f8726573e4b1fcad1944676547391a9bf
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860349"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219629"
 ---
 # <a name="configure-wave-processing-example"></a>Skilgreina dæmi um bylgjuvinnslu
 
@@ -29,7 +29,7 @@ ms.locfileid: "8860349"
 
 ## <a name="enable-sample-data"></a>Virkja gögn sýnishorna
 
-Til að vinna í gegnum þessar aðstæður með því að nota sýnigögnin og gildin sem eru tilgreind hér er nauðsynlegt að vera á kerfi þar sem venjuleg sýnigögn er sett upp. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
+Til að vinna í gegnum þessa atburðarás með því að nota sýnishornsfærslurnar og gildin sem tilgreind eru hér, verður þú að nota kerfi þar sem staðallinn [kynningargögn](../../../fin-ops-core/fin-ops/get-started/demo-data.md) er sett upp. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
 
 ## <a name="example-scenario-configure-wave-processing"></a>Dæmi um aðstæður: skilgreina bylgjuvinnslu
 

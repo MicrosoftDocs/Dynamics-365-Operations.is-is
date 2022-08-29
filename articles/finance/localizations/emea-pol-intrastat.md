@@ -1,20 +1,20 @@
 ---
 title: Pólskt Intrastat
 description: Þessi grein inniheldur upplýsingar um Intrastat skýrslur í Póllandi.
-author: andosip
+author: AdamTrukawka
 ms.date: 11/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 45bd1d3c90d0a8a8ad5db6d0b80c5eed0aa489e8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 473581fa4f3f1e8cac06d5748f28116e6615215e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871102"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281643"
 ---
 # <a name="polish-intrastat"></a>Pólskt Intrastat
 
@@ -22,7 +22,7 @@ ms.locfileid: "8871102"
 
 Síðan **Intrastat** er notuð til að útbúa og tilkynna upplýsingar um viðskipti innan landa Evrópusambandsins. Pólska Intrastat yfirlýsingin inniheldur upplýsingar um vöruviðskipti til skýrslugerðar.
 
-Eftirfarandi reitir eru með í pólsku Intrastat yfirlýsingunni. Allir reitirnir eru innifaldir við komur og sendingar nema kl **RodzajTransportu** (flutningsmátinn) og **KrajPochodzenia** (upprunalandið eða -svæðið) sem eru ekki innifalin í sendingum, og **IdKontrahenta** (erlent virðisaukaskattsnúmer viðskiptavinarins) sem er ekki innifalið við komu.
+Eftirfarandi reitir eru með í pólsku Intrastat yfirlýsingunni. Allir reitirnir eru innifaldir við komur og sendingar nema kl **RodzajTransportu** (flutningsmátinn) og **KrajPochodzenia** (upprunalandið eða -svæðið) sem eru ekki innifalin í sendingum, og **IdKontrahenta** (erlend virðisaukaskattsnúmer viðskiptavinarins) sem er ekki innifalið við komu.
 
 | Heiti svæðis | Lýsing |
 |-------------------------|-------------------------|
@@ -42,7 +42,7 @@ Eftirfarandi reitir eru með í pólsku Intrastat yfirlýsingunni. Allir reitirn
 | LacznaWartoscFaktur | Summa reikningsgilda. |
 | LacznaWartoscStatystyczna | Summa tölfræðilegra gilda. |
 | LacznaLiczbaPozycji | Heildarfjöldi vöruliða. |
-| PozId | Samfellt númer tiltekins vöruhluts. |
+| PozId | Samfellt númer tiltekins vöruliðs. |
 | UmsögnTowaru | Vöruheiti vörunnar. |
 | KrajPochodzeniaWysylki | Alþjóðlega staðlastofnunin (ISO) kóða fyrir land eða svæði mótaðilans. |
 | WarunkiDostawy | Intrastat kóðann fyrir afhendingarskilmálana. |
@@ -68,7 +68,7 @@ Flyttu inn nýjustu útgáfuna af eftirfarandi rafrænum skýrslugerðum (ER) ú
 
 Frekari upplýsingar er að finna í [Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
-## <a name="set-up-a-vat-id-and-an-enterprise-number-for-your-company"></a>Settu upp VSK-auðkenni og fyrirtækisnúmer fyrir fyrirtækið þitt
+## <a name="set-up-a-vat-id-and-an-enterprise-number-for-your-company"></a>Settu upp VSK ID og fyrirtækisnúmer fyrir fyrirtækið þitt
 
 ### <a name="create-registration-types-for-company-codes"></a>Búðu til skráningargerðir fyrir fyrirtækjakóða
 
@@ -89,38 +89,38 @@ Frekari upplýsingar er að finna í [Sækja skilgreiningar rafrænnar skýrslug
 1. Fara til **Stjórn stofnunarinnar** > **Heimilisfangabók** > **Skráningargerðir** > **Skráningarflokkar**.
 2. Á aðgerðarrúðunni velurðu **Nýtt** til að búa til tengil á milli hverrar skráningartegundar sem þú bjóst til og skráningarflokks.
 
-    - Fyrir skráningartegund fyrir VSK ID (NIP-númer), veldu **VSK auðkenni** skráningarflokk.
+    - Fyrir skráningartegund fyrir VSK ID (NIP kóða), veldu **VSK auðkenni** skráningarflokk.
     - Fyrir skráningargerð fyrir fyrirtækisnúmerið (Regon kóða), veldu **Enterprise ID (COID)** skráningarflokk.
 
-### <a name="set-up-a-vat-id-and-an-enterprise-number-for-your-company"></a>Settu upp VSK-auðkenni og fyrirtækisnúmer fyrir fyrirtækið þitt
+### <a name="set-up-a-vat-id-and-an-enterprise-number-for-your-company"></a>Settu upp VSK ID og fyrirtækisnúmer fyrir fyrirtækið þitt
 
 1. Fara í **Fyrirtækisstjórnun** > **Fyrirtæki** > **Lögaðilar**.
-2. Veldu fyrirtækið þitt í ristinni.
+2. Veldu fyrirtæki þitt í ristinni.
 3. Á aðgerðarrúðunni velurðu **Skráningarauðkenni**.
 4. Á **Skráningarauðkenni** Flýtiflipi, veldu **Bæta við**.
 5. Í **Skráningartegund** reit, veldu eina af skráningartegundunum sem þú bjóst til áður.
-6. Sláðu inn virðisaukaskattsnúmer fyrirtækis þíns (NIP code) eða fyrirtækisnúmer (Regon code), allt eftir skráningargerðinni sem þú valdir í fyrra skrefi.
+6. Sláðu inn virðisaukaskattsnúmer fyrirtækis þíns (NIP kóða) eða fyrirtækisnúmer (Regon kóða), allt eftir skráningargerðinni sem þú valdir í fyrra skrefi.
 7. Endurtaktu skref 4 til 6 fyrir hina skráningargerðina sem þú bjóst til áðan.
 
 ## <a name="set-up-a-company-address"></a>Settu upp heimilisfang fyrirtækis
 
 1. Fara í **Fyrirtækisstjórnun** > **Fyrirtæki** > **Lögaðilar**.
-2. Veldu fyrirtækið þitt í ristinni.
+2. Veldu fyrirtæki þitt í ristinni.
 3. Á **Heimilisföng** flipa, veldu **Breyta**.
-4. Í **Breyta heimilisfangi** valmynd, í **Póstnúmer** reit skaltu velja póstnúmer fyrirtækis þíns.
+4. Í **Breyta heimilisfangi** valmynd, í **Póstnúmer/póstnúmer** reit, veldu póstnúmer fyrirtækis þíns.
 5. Í **Götu** reit, sláðu inn heimilisfangið þitt.
 6. Í **Borg** reit, veldu borgina þína.
 
 ## <a name="set-up-foreign-trade-parameters"></a>Setja upp færibreytur erlendra viðskipta
 
 1. Fara til **Skattur** > **Uppsetning** > **Staðlar utanríkisviðskipta**.
-2. Á **Intrastat** flipa, á **Rafræn skýrslugerð** flýtiflipann, í **Kortlagning skráarsniðs** reit, veldu **Intrastat (PL)**.
+2. Á **Intrastat** flipa, á **Rafræn skýrslugerð** Flýtiflipi, í **Kortlagning skráarsniðs** reit, veldu **Intrastat (PL)**.
 3. Í reitnum **Vörpun skýrslusniðs** skal velja **Intrastat skýrslu**.
 4. Í flýtiflipanum **Stigveldi vörukóða**, í reitnum **Tegundastigveldi**, velja **Intrastat**.
 5. Í reitnum **Færslukóði** skal velja færslukóðann fyrir flutning á eignum. Þú notar þennan kóða fyrir færslur sem búa til raunverulegar eða áætlaðar færslur á eignum gegn greiðslu (fjárhagslegri eða annars konar greiðslu). Þú getur líka notað það til leiðréttinga. Fyrirtæki í Póllandi nota tveggja stafa viðskiptakóða.
 6. Í reitnum **Kreditnóta** skal velja færslukóðann fyrir vöruskil.
 7. Í flipanum **Eiginleikar lands/svæðis**, í reitnum **Land/svæði**, skal gefa upp öll lönd eða svæði sem fyrirtækið þitt á í viðskiptum við. Veldu fyrir hvert land sem er hluti af ESB **ESB** í **Tegund lands/svæðis** reitinn, þannig að landið birtist á Intrastat skýrslunni þinni. Fyrir Pólland, veldu **Innlent** í **Tegund lands/svæðis** sviði.
-8. Á **Umboðsmaður** flipa, á **Umboðsmaður** flýtiflipann, í **Söluskattur** kafla, í **Skattfrjálst númer** reit, slá inn **420000** til að tilgreina einingakóðann sem Intrastat yfirlýsingin er stíluð á.
+8. Á **Umboðsmaður** flipa, á **Umboðsmaður** Flýtiflipi, í **Söluskattur** kafla, í **Skattfrjálst númer** reit, slá inn **420000** til að tilgreina einingakóðann sem Intrastat yfirlýsingin er stíluð á.
 9. Á **Hafðu samband** flipa, sláðu inn nafn, símanúmer, faxnúmer og netfang þess sem er að leggja fram yfirlýsinguna.
 10. Á **Númeraraðir** flipa, í **Númeraraðarkóði** sviði fyrir **XML skráarnúmer** tilvísun, tilgreinið ósamfellda talnaröð sem hefur að hámarki níu stafi. Þessi reitur er notaður til að búa til sjálfkrafa gildi fyrir **Auðkenni yfirlýsingar** reitinn á Intrastat skýrslunni.
 
@@ -160,11 +160,11 @@ Frekari upplýsingar er að finna í [Sækja skilgreiningar rafrænnar skýrslug
 
     1. Fara til **Innkaup og innkaup** > **Uppsetning** > **Dreifing** > **Skilmálar afhendingar**.
     2. Veldu sett af afhendingarskilmálum í hnitanetinu.
-    3. Á **Almennt** flýtiflipann, í **Intrastat kóða** reit, sláðu inn einstaka kóðann.
+    3. Á **Almennt** Flýtiflipi, í **Intrastat kóða** reit, sláðu inn einstaka kóðann.
 
 ## <a name="intrastat-transfer"></a>Intrastat-flutningur
 
-Á síðunni **Intrastat** á aðgerðasvæðinu er hægt að velja **Flutningur** til að flytja sjálfkrafa upplýsingarnar um viðskipti innan samfélags úr sölupöntunum, textum með frjálsum texta, innkaupapöntunum, lánardrottnareikningum, innhreyfingarskjölum afurða lánardrottins, verkreikningum og flutningspöntunum. Aðeins skjöl sem hafa ESB-land sem viðtökuland eða -svæði eða sending verða flutt.
+Á síðunni **Intrastat** á aðgerðasvæðinu er hægt að velja **Flutningur** til að flytja sjálfkrafa upplýsingarnar um viðskipti innan samfélags úr sölupöntunum, textum með frjálsum texta, innkaupapöntunum, lánardrottnareikningum, innhreyfingarskjölum afurða lánardrottins, verkreikningum og flutningspöntunum. Aðeins skjöl sem hafa ESB-land sem land eða svæði viðtöku eða sendingar verða flutt.
 
 Þú getur líka fært inn færslur handvirkt með því að velja **Nýtt** á aðgerðasvæðinu.
 
@@ -183,7 +183,7 @@ Frekari upplýsingar er að finna í [Sækja skilgreiningar rafrænnar skýrslug
     | Heiti skýrsluskráar | Færðu inn heiti .xlsx-skráar. |
     | Stefna | Veldu **Komur** til að fá skýrslu um komur innan samfélags.</br>Veldu **Sendingar** til að fá skýrslu um sendingar innan samfélags. |
     | Auðkenni yfirlýsingar | Auðkenni skjalsins er sjálfkrafa búið til og hægt að uppfæra það. |
-    | Gerð skýrslu | Veldu **Yfirlýsing** fyrir upprunalega yfirlýsingu.</br>Veldu **Leiðrétting framtals – skipti** vegna leiðréttingaryfirlýsingar sem ætlað er að koma að fullu í stað fyrirliggjandi, áður framlagðrar frum- eða leiðréttingaryfirlýsingar. |
+    | Gerð skýrslu | Veldu **Yfirlýsing** fyrir upprunalega yfirlýsingu.</br>Veldu **Leiðrétting yfirlýsinga – skipti** vegna leiðréttingaryfirlýsingar sem ætlað er að koma að fullu í stað fyrirliggjandi, áður framlagðrar frum- eða leiðréttingaryfirlýsingar. |
     | Borg skjalagerðar | Sláðu inn gildið sem ætti að prenta í **Miejscowosc** reitinn í Intrastat yfirlýsingunni. |
     | Dagsetning skjalagerðar | Sláðu inn gildið sem ætti að prenta í **Deklaracja Data** reitinn í Intrastat yfirlýsingunni. |
     | Númer skjals | Sláðu inn gildið sem ætti að prenta í **Númer** reitinn í Intrastat yfirlýsingunni. |
@@ -209,29 +209,29 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
 2. Á **Borg** flipa, veldu **Nýtt**.
 3. Í reitnum **Land/svæði** skal velja **POL**.
 4. Í **Borg** reit, slá inn **Varsjá**.
-5. Á **Póstnúmer** flipa, veldu **Nýtt**.
+5. Á **Póstnúmer/póstnúmer** flipa, veldu **Nýtt**.
 6. Í reitnum **Land/svæði** skal velja **POL**.
 7. Í **Borg** reit, veldu **Varsjá**.
-8. Í reitinn **Póstnúmer** er fært inn **00-844**.
+8. Í **Póstnúmer/póstnúmer** reit, slá inn **00-844**.
 9. Farðu í **Fyrirtækisstjórnun** > **Fyrirtæki** > **Lögaðilar** og veldu lögaðilann **DEMF**.
 10. Í flýtiflipanum **Aðsetur** skal velja **Breyta**.
 11. Í reitnum **Land/svæði** skal velja **POL**.
-12. **Í svæðinu Póstnúmer** skal velja **31-111**.
-13. Í svæðið **Götu** er fært inn **Statystyczna 22/1**.
+12. Í **Póstnúmer/póstnúmer** reit, veldu **31-111**.
+13. Í **Götu** reit, slá inn **Statystyczna 22/1**.
 14. Í **Borg** reit, veldu **Varsjá**.
 15. Veldu **Í lagi**.
 
-## <a name="set-up-a-vat-id-and-an-enterprise-number-code-for-your-company"></a>Setja upp VSK-kenni og fyrirtækisnúmerskóða fyrir fyrirtækið
+## <a name="set-up-a-vat-id-and-an-enterprise-number-code-for-your-company"></a>Settu upp VSK-auðkenni og fyrirtækjanúmerakóða fyrir fyrirtækið þitt
 
 ### <a name="create-registration-types-for-company-codes"></a>Búðu til skráningargerðir fyrir fyrirtækjakóða
 
 1. Fara til **Stjórn stofnunarinnar** > **Heimilisfangabók** > **Skráningargerðir** > **Skráningargerðir**.
-2. Á aðgerðasvæðinu skal velja **Nýtt** til að stofna skráningargerð fyrir VSK-kennið (NIP-kóði).
-3. Í svarglugganum **Færa inn upplýsingar um** skráningargerð í **reitinn Heiti** er fært inn **NIP**.
+2. Á aðgerðarrúðunni velurðu **Nýtt** til að búa til skráningartegund fyrir VSK ID (NIP code).
+3. Í **Sláðu inn upplýsingar um skráningartegund** valmynd, í **Nafn** reit, slá inn **NIP**.
 4. Í reitnum **Land/svæði** skal velja **POL**.
 5. Velja **Stofna**.
-6. Á aðgerðarúðunni skal velja **Nýtt** til að stofna skráningargerð fyrir fyrirtækisnúmerið (Regon-kóði).
-7. Í svarglugganum **Færa inn upplýsingar um** skráningargerð í reitnum **Heiti** er fært inn **Regon**.
+6. Á aðgerðarrúðunni velurðu **Nýtt** til að búa til skráningartegund fyrir fyrirtækisnúmerið (Regon kóða).
+7. Í **Sláðu inn upplýsingar um skráningartegund** valmynd, í **Nafn** reit, slá inn **Regon**.
 8. Í reitnum **Land/svæði** skal velja **POL**.
 9. Velja **Stofna**.
 
@@ -240,43 +240,43 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
 1. Fara til **Stjórn stofnunarinnar** > **Heimilisfangabók** > **Skráningargerðir** > **Skráningarflokkar**.
 2. Á aðgerðarrúðunni velurðu **Nýtt** til að búa til tengil á milli hverrar skráningartegundar sem þú bjóst til og skráningarflokks.
 
-    - **Fyrir NIP-skráningargerðina** skal velja VSK-kennisskráningartegundina **·**.
-    - **Fyrir regon-skráningargerðina** skal velja **Enterprise ID (COID)** skráningartegundina.
+    - Fyrir **NIP** skráningartegund, veldu **VSK auðkenni** skráningarflokk.
+    - Fyrir **Regon** skráningartegund, veldu **Enterprise ID (COID)** skráningarflokk.
 
-### <a name="set-up-a-vat-id-and-an-enterprise-number-for-your-company"></a>Settu upp VSK-auðkenni og fyrirtækisnúmer fyrir fyrirtækið þitt
+### <a name="set-up-a-vat-id-and-an-enterprise-number-for-your-company"></a>Settu upp VSK ID og fyrirtækisnúmer fyrir fyrirtækið þitt
 
 1. Fara í **Fyrirtækisstjórnun** > **Fyrirtæki** > **Lögaðilar**.
 2. Í hnitanetinu skal velja **DEMF**.
 3. Á aðgerðarrúðunni velurðu **Skráningarauðkenni**.
 4. Á **Skráningarauðkenni** Flýtiflipi, veldu **Bæta við**.
-5. Í svæðinu **Skráningargerð** skal velja **NIP**.
-6. Í svæðið **Skráningarnúmer** er fært inn **1234567890**.
+5. Í **Skráningartegund** reit, veldu **NIP**.
+6. Í **Skráningarnúmer** reit, slá inn **1234567890**.
 7. Veljið **Bæta við**.
-8. Í svæðinu **Skráningargerð** skal velja **Regon**.
-9. Í reitinn **Skráningarnúmer** er fært inn **12345678901234**.
+8. Í **Skráningartegund** reit, veldu **Regon**.
+9. Í **Skráningarnúmer** reit, slá inn **12345678901234**.
 
-### <a name="set-up-a-number-sequence-code"></a>Setja upp kóða númeraraðar
+### <a name="set-up-a-number-sequence-code"></a>Settu upp númerarunarkóða
 
 1. Farðu í **Fyrirtækisstjórnun** > **Númeraraðir** > **Númeraraðir**.
-2. Á aðgerðarrúðunni, á flipanum **Númeraröð**, í flokknum **Nýtt**, skal velja **Númeraröð**.
-3. Á flýtiflipanum **Kenni** í reitnum **Númeraraðarkóði** er XML-skrá **færð\_ inn**.
-4. Á flýtiflipanum **Færibreytur umfangs í** reitnum **Umfang** skal velja **Fyrirtæki**.
-5. Í reitnum **Fyrirtæki skal velja** DEMF **·**.
-6. Á flýtiflipanum **Hlutar í** reitnum **Lengd** fyrir hlutann **bók- og tölustafir** er fært inn **4**.
-7. Á flýtiflipanum **Almennt** í hlutanum **Uppsetning** er valkosturinn Samfellt stilltur **á** **Nr**.
-8. Í hlutanum Númeraúthlutun **í** svæðinu Stærst **er fært inn** 9999 **·**.
+2. Á aðgerðarrúðunni, á **Númeraröð** flipa, í **Nýtt** hópur, veldu **Númeraröð**.
+3. Á **Auðkenning** Flýtiflipi, í **Númeraraðarkóði** reit, slá inn **XML\_ skrá**.
+4. Á **Umfangsbreytur** Flýtiflipi, í **Umfang** reit, veldu **Fyrirtæki**.
+5. Í **Fyrirtæki** reit, veldu **DEMF**.
+6. Á **Hluti** Flýtiflipi, í **Lengd** sviði fyrir **Alfatölulegt** hluti, slá inn **4**.
+7. Á **Almennt** Flýtiflipi, í **Uppsetning** kafla, stilltu **Stöðugt** valmöguleika til **Nei**.
+8. Í **Númeraúthlutun** kafla, í **Stærsta** reit, slá inn **9999**.
 
 ### <a name="set-up-foreign-trade-parameters"></a>Setja upp færibreytur erlendra viðskipta
 
 1. Farið í **Skattur** > **Uppsetning** > **Erlend viðskipti** > **Færibreytur erlendra viðskipta**.
 2. Í flýtiflipanum **Intrastat** á **Almennt** flipanum í **Færslukóði** reitknum velurðu **11**.
-3. Á flýtiflipanum Rafræn skýrslugerð **í reitnum** Vörpun skráarsniðs **skal velja** Intrastat (PL) **.**
+3. Á **Rafræn skýrslugerð** Flýtiflipi, í **Kortlagning skráarsniðs** reit, veldu **Intrastat (PL)**.
 4. Í reitnum **Vörpun skýrslusniðs** skal velja **Intrastat skýrslu**.
-5. Á flýtiflipanum **Stigveldi** vörukóða skal staðfesta að reiturinn **Tegundastigveldi** sé stilltur á **Intrastat**.
+5. Á **Stigveldi vörukóða** flýtiflipann, staðfestu að **Stigveldi flokka** reiturinn er stilltur á **Intrastat**.
 6. Í flipanum **Eiginleikar lands/svæðis** skal velja **Nýtt**.
-7. Í reitnum **Land/svæði viðskiptafélaga** skal velja **POL**. **Í svæðinu Land/svæðisgerð** skal velja **Innanlands**.
-8. Í reitnum **Land/svæði viðskiptafélaga** skal velja **DEU**. Veljið síðan ESB í **svæðinu** Land/svæðisgerð **.**
-9. Á **Umboðsmaður** flipa, á **Umboðsmaður** flýtiflipann, í **Söluskattur** kafla, í **Skattfrjálst númer** reit, slá inn **420000**.
+7. Í reitnum **Land/svæði viðskiptafélaga** skal velja **POL**. Síðan, í **Tegund lands/svæðis** reit, veldu **Innlent**.
+8. Í reitnum **Land/svæði viðskiptafélaga** skal velja **DEU**. Síðan, í **Tegund lands/svæðis** reit, veldu **ESB**.
+9. Á **Umboðsmaður** flipa, á **Umboðsmaður** Flýtiflipi, í **Söluskattur** kafla, í **Skattfrjálst númer** reit, slá inn **420000**.
 10. Á **Hafðu samband** flipa, í **Nafn** reit, slá inn **Manish Chopra**.
 11. Í **Sími** reit, slá inn **425-555-5068**.
 12. Í **Faxnúmer** reit, slá inn **425-555-5049**.
@@ -323,13 +323,13 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
 
     1. Farið í **Viðskiptakröfur** > **Viðskiptavinir** > **Allir viðskiptavinir**.
     2. Veldu í ristinni **DE-016**.
-    3. Á **Reikningur og afhending** flýtiflipann, í **Afhendingarmáti** reit, veldu **10**.
+    3. Á **Reikningur og afhending** Flýtiflipi, í **Afhendingarmáti** reit, veldu **10**.
 
 4. Veldu sjálfgefna afhendingarmáta fyrir lánardrottin.
 
     1. Fara til **Viðskiptaskuldir** > **Söluaðilar** > **Allir söluaðilar**.
     2. Veldu í ristinni **DE-001**.
-    3. Á **Reikningur og afhending** flýtiflipann, í **Afhendingarmáti** reit, veldu **10**.
+    3. Á **Reikningur og afhending** Flýtiflipi, í **Afhendingarmáti** reit, veldu **10**.
 
 ### <a name="set-up-codes-for-terms-of-delivery"></a>Settu upp kóða fyrir afhendingarskilmála
 
@@ -337,25 +337,25 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
 
     1. Fara til **Innkaup og innkaup** > **Uppsetning** > **Dreifing** > **Skilmálar afhendingar**.
     2. Í hnitanetinu skal velja **CIF**.
-    3. Á **Almennt** flýtiflipann, í **Intrastat kóða** reit, slá inn **CIF**.
+    3. Á **Almennt** Flýtiflipi, í **Intrastat kóða** reit, slá inn **CIF**.
 
 2. Veldu sjálfgefna afhendingarskilmála fyrir viðskiptavin.
 
     1. Farið í **Viðskiptakröfur** > **Viðskiptavinir** > **Allir viðskiptavinir**.
     2. Veldu í ristinni **DE-016**.
-    3. Á **Reikningur og afhending** flýtiflipann, í **Afhendingarskilmálar** reit, veldu **CIF**.
+    3. Á **Reikningur og afhending** Flýtiflipi, í **Afhendingarskilmálar** reit, veldu **CIF**.
 
 3. Veldu sjálfgefna afhendingarskilmála fyrir lánardrottinn.
 
     1. Fara til **Viðskiptaskuldir** > **Söluaðilar** > **Allir söluaðilar**.
     2. Veldu í ristinni **DE-001**.
-    3. Á **Reikningur og afhending** flýtiflipann, í **Afhendingarskilmálar** reit, veldu **CIF**.
+    3. Á **Reikningur og afhending** Flýtiflipi, í **Afhendingarskilmálar** reit, veldu **CIF**.
 
-### <a name="verify-an-eu-customers-tax-exempt-number-code"></a>Staðfestu skattfrjálsan númerakóða ESB viðskiptavinar
+### <a name="verify-an-eu-customers-tax-exempt-number-code"></a>Staðfestu skattfrjálsan númerakóða ESB-viðskiptavinar
 
 1. Farið í **Viðskiptakröfur** > **Viðskiptavinir** > **Allir viðskiptavinir**.
 2. Veldu í ristinni **DE-016**.
-3. Á **Reikningur og afhending** flýtiflipann, í **Söluskattur** kafla, staðfestu að **Skattfrjálst númer** reiturinn er stilltur á **DE9012**.
+3. Á **Reikningur og afhending** Flýtiflipi, í **Söluskattur** kafla, staðfesta að **Skattfrjálst númer** reiturinn er stilltur á **DE9012**.
 
 ### <a name="create-a-sales-order-with-an-eu-customer"></a>Stofna sölupöntun með viðskiptavin innan ESB
 
@@ -368,11 +368,11 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
 7. Veldu **Í lagi**.
 8. Á **Fyrirsögn** flipa, á **Afhending** flýtiflipann, staðfestu að **Afhendingarskilmálar** reiturinn er stilltur á **CIF**, og **Afhendingarmáti** reiturinn er stilltur á **10**.
 9. Í flýtiflipanum **Línur**, í flýtiflipanum **Sölupöntun línur**, í reitnum **Vörunúmer**, skal velja **D0001**. Því næst, í reitinn **Magn**, skal færa inn **8**.
-10. Á **Upplýsingar um línu** Flýtiflipi, á **Utanríkisviðskipti** flipa, staðfestu að **Færslukóði** reiturinn er stilltur á **11**, hinn **Vöruvara** reiturinn er stilltur á **100 200 30**, og **Upprunaland/upprunaland** reiturinn er stilltur á **POL**.
+10. Á **Upplýsingar um línu** flýtiflipann, á **Utanríkisviðskipti** flipa, staðfestu að **Færslukóði** reiturinn er stilltur á **11**, hinn **Vöruvara** reiturinn er stilltur á **100 200 30**, og **Upprunaland/upprunaland** reiturinn er stilltur á **POL**.
 11. Í aðgerðarúðunni skal velja **Vista**.
 12. Á aðgerðasvæðinu, í flipanum **Reikningur**, í flokknum **Búa til** skal velja á **Reikningur**.
 13. Í svarglugganum **Bókun reiknings**, í flýtiflipanum **Færibreytur**, í hlutanum **Færibreyta**, í reitnum **Magn**, skal velja **Allt**.
-14. Á **Uppsetning** flýtiflipann, í **Söludagur** reit, veldu **18.10.2021** (18. október 2021).
+14. Á **Uppsetning** Flýtiflipi, í **Söludagur** reit, veldu **18.10.2021** (18. október 2021).
 15. Veldu svo **Í lagi** til að bóka reikninginn.
 
 ### <a name="transfer-the-transaction-to-the-intrastat-journal-and-review-the-result"></a>Færðu færsluna í Intrastatbókina og farðu yfir niðurstöðuna
@@ -393,7 +393,7 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
     ![Upplýsingar um sölupöntun á almenna flipa Intrastat-síðunnar](media/intrastat_pl_2.png)
 
 10. Á aðgerðasvæðinu skal velja **Úttak**  >  **Skýrsla**.
-11. Í **Intrastat skýrsla** valmynd, á **Færibreytur** flýtiflipann, í **Dagsetning** kafla, í **Frá dags** reit, veldu fyrsta dag núverandi mánaðar.
+11. Í **Intrastat skýrsla** valmynd, á **Færibreytur** Flýtiflipi, í **Dagsetning** kafla, í **Frá dags** reit, veldu fyrsta dag yfirstandandi mánaðar.
 12. Í hlutanum **Valkostir** **útflutnings** skal stilla valkostinn **Mynda skrá** á **Já**. Í reitinn **Skráarheiti** skal síðan færa inn nauðsynlegt heiti.
 13. Stilltu valkostinn **Mynda skýrslu** á **Já**. Í reitinn **Heiti skýrsluskráar** skal síðan færa inn nauðsynlegt heiti.
 14. Í reitnum **Stefna** skal velja **Sendingar**.
@@ -815,15 +815,15 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
 4. Í **Síða** reit velja **1**.
 5. Í **Vöruhús** reit velja **11**.
 6. Veldu **Í lagi**.
-7. Á **Fyrirsögn** flipa, á **Afhending** Flýtiflipi, staðfestu að **Afhendingarmáti** reiturinn er stilltur á **10**, og **Afhendingarskilmálar** reiturinn er stilltur á **CIF**.
+7. Á **Fyrirsögn** flipa, á **Afhending** flýtiflipann, staðfestu að **Afhendingarmáti** reiturinn er stilltur á **10**, og **Afhendingarskilmálar** reiturinn er stilltur á **CIF**.
 8. Í flýtiflipanum **Línur**, í flýtiflipanum **Innkaupapöntunarlínur**, í reitnum **Vörunúmer**, skal velja **D0003**. Því næst, í reitinn **Magn**, skal færa inn **6**.
 9. Á **Upplýsingar um línu** flýtiflipann, á **Utanríkisviðskipti** flipa, staðfestu að **Færslukóði** er stillt á **11**, hinn **Flutningur** reiturinn er stilltur á **3**, hinn **Vöruvara** reiturinn er stilltur á **100 200 30**, og **Upprunaland/upprunaland** reiturinn er stilltur á **DEU**.
 10. Á aðgerðasvæðinu, í flipanum **Innkaup**, í flokknum **Aðgerðir**, skal velja **Staðfesta**.
 11. Á aðgerðasvæðinu, í flipanum **Reikningur**, í flokknum **Búa til** skal velja á **Reikningur**.
-12. Í aðgerðarrúðunni skal velja **Sjálfgefið úr** og velja síðan Pantað magn í **reitnum** Sjálfgefið magn fyrir **línur**. Veljið síðan **Í lagi**.
-13. Á flýtiflipanum **Reikningshaus lánardrottins**, í **hlutanum Kenni** reiknings, í **reitnum Númer** er fært inn **00010**.
-14. Í hlutanum **Reikningsdagsetningar í** reitnum **Reikningsdagsetning** skal velja gildandi dagsetningu. Þessi dagsetning verður notuð við Intrastat-flutning.
-15. Í reitnum **Taka á móti dagsetningu** fylgiskjals skal velja **10/18/2021** (18. október 2021).
+12. Á aðgerðarrúðunni velurðu **Sjálfgefið frá**, og síðan, í **Sjálfgefið magn fyrir línur** reit, veldu **Pantað magn**. Veljið síðan **Í lagi**.
+13. Á **Fyrirsögn lánardrottinsreiknings** Flýtiflipi, í **Auðkenning reiknings** kafla, í **Númer** reit, slá inn **00010**.
+14. Í **Reikningsdagsetningar** kafla, í **Dagsetning reiknings** reit, veldu núverandi dagsetningu. Þessi dagsetning verður notuð fyrir Intrastat flutning.
+15. Í **Fá skjal dagsetningu** reit, veldu **18.10.2021** (18. október 2021).
 16. Á aðgerðasvæðinu skal velja **Bóka** til að bóka reikninginn.
 
 ### <a name="create-an-intrastat-declaration-for-arrivals"></a>Búa til Intrastat-skattskýrslu fyrir komur
@@ -833,14 +833,14 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
 3. Í svarglugganum **Intrastat (flutningur)** skal stilla valkostinn **Reikningur lánardrottins** á **Já**.
 4. Veldu **Í lagi** til að flytja færslurnar og síðan skoða Intrastat-bókina.
 
-    ![Lína sem stendur fyrir innkaupapöntunina á Intrastat-síðunni](media/intrastat_pl_4.png)
+    ![Lína sem táknar innkaupapöntunina á Intrastat síðunni](media/intrastat_pl_4.png)
 
-5. Farið yfir upplýsingarnar á flipanum **Almennt** fyrir innkaupapöntunina.
+5. Skoðaðu upplýsingarnar á **Almennt** flipa fyrir innkaupapöntunina.
 
-    ![Upplýsingar um innkaupapöntun á flipanum Almennt á síðunni Intrastat](media/intrastat_pl_5.png)
+    ![Upplýsingar um innkaupapöntun á Almennt flipanum á Intrastat síðunni](media/intrastat_pl_5.png)
 
 6. Á aðgerðasvæðinu skal velja **Úttak**  >  **Skýrsla**.
-7. Í **Intrastat skýrsla** valmynd, á **Færibreytur** flýtiflipann, í **Dagsetning** kafla, í **Frá dags** reit, veldu fyrsta dag núverandi mánaðar.
+7. Í **Intrastat skýrsla** valmynd, á **Færibreytur** Flýtiflipi, í **Dagsetning** kafla, í **Frá dags** reit, veldu fyrsta dag yfirstandandi mánaðar.
 8. Í hlutanum **Valkostir** **útflutnings** skal stilla valkostinn **Mynda skrá** á **Já**. Í reitinn **Skráarheiti** skal síðan færa inn nauðsynlegt heiti.
 9. Stilltu valkostinn **Mynda skýrslu** á **Já**. Í reitinn **Heiti skýrsluskráar** skal síðan færa inn nauðsynlegt heiti.
 10. Í reitnum **Stefna** skal velja **Komur**.
@@ -1126,7 +1126,7 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
     <p>KrajPochodzenia</p>
     </td>
     <td>
-    <p>Kóðinn fyrir upprunaland eða upprunasvæði.</p>
+    <p>Kóðinn fyrir upprunalandið eða -svæðið.</p>
     </td>
     <td>
     <p>DE</p>
@@ -1137,7 +1137,7 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
     <p>RodzajTransportu</p>
     </td>
     <td>
-    <p>Flutningsmáti.</p>
+    <p>Flutningsmáti kóða.</p>
     </td>
     <td>
     <p>3</p>
@@ -1263,4 +1263,4 @@ Flyttu inn nýjustu útgáfu af eftirfarandi skilgreiningum rafrænnar skýrslug
 
 17. Farðu yfir skýrsluna á Excel-sniði sem er búið til.
 
-    ![Intrastat-skýrsla um komur](media/intrastat_pl_6.png)
+    ![Intrastat skýrsla um komur](media/intrastat_pl_6.png)

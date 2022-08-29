@@ -1,26 +1,26 @@
 ---
 title: Hanna snið rafrænnar skýrslugerðar til að skipta skjölum mynduðum í Excel á síður
 description: Þessi grein útskýrir hvernig á að hanna rafræna skýrslugerð (ER) sem blaðsíður myndað skjal í Microsoft Excel.
-author: NickSelin
+author: kfend
 ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: Version 10.0.22
-ms.openlocfilehash: e8edc8bba62f74b4f81d423cf75b5fb87c01e43f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.search.form: EROperationDesigner
+ms.openlocfilehash: e4a34dffda9e9b95f5d6c7ee382723663817ec6b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909279"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285002"
 ---
 # <a name="design-an-er-format-to-paginate-generated-documents-in-excel"></a>Hanna snið rafrænnar skýrslugerðar til að skipta skjölum mynduðum í Excel á síður
 
@@ -30,7 +30,7 @@ ms.locfileid: "8909279"
 
 Í þessu dæmi breytir þú rafrænu skýrslugerðarsniði frá Microsoft sem er notað til að prenta eftirlitsskýrsluna þegar Intrastat-skattskýrslan er [mynduð](../../../finance/localizations/tasks/eur-00002-eu-intrastat-declaration.md). Þessi skýrsla gerir þér kleift að fylgjast með tilkynntum Intrastat-færslum. Breytingarnar þínar gera þér kleift að stjórna síðuskiptingu á eftirlitsskýrslum sem eru búnar til.
 
-Hægt er að ljúka verklagsreglunum í þessari grein í **DEMF** fyrirtæki. Ekki er þörf á neinni kóðun. Áður en hafist er handa skal sækja og vista eftirfarandi skrár.
+Verklagsreglurnar í þessari grein er hægt að ljúka í **DEMF** fyrirtæki. Ekki er þörf á neinni kóðun. Áður en hafist er handa skal sækja og vista eftirfarandi skrár.
 
 | lýsing       | Skrárnafn |
 |-------------------|-----------| 
@@ -58,11 +58,11 @@ Fylgdu skrefunum í [Flytja inn staðlaða ER sniðstillingu](er-quick-start2-cu
 5. Í reitnum **Heiti** skal færa inn **Intrastat-skýrsla Litware**.
 6. Veljið **Stofna skilgreiningu** til að stofna nýtt snið.
 
-Útgáfa 1.9.1 af skilgreiningu rafræns skýrslugerðarsniðs fyrir **Intrastat-skýrslu Litware** er stofnuð. Þessi útgáfa er með [stöðuna](general-electronic-reporting.md#component-versioning) **Drög** og er hægt að breyta. Núverandi efni af sérstilltu sniði rafrænnar skýrslugerðar samsvarar efni sniðsins sem Microsoft býður upp á.
+Útgáfa 1.9.1 af skilgreiningu rafræns skýrslugerðarsniðs fyrir **Intrastat-skýrslu Litware** er stofnuð. Þessi útgáfa hefur stöðuna **Drög** og er hægt að breyta. Núverandi efni af sérstilltu sniði rafrænnar skýrslugerðar samsvarar efni sniðsins sem Microsoft býður upp á.
 
 ### <a name="make-the-custom-format-runnable"></a>Gera sérstillta sniðið keyranlegt
 
-Nú þegar fyrsta útgáfa af sérstilltu sniði hefur verið stofnuð og er með stöðuna **Drög**, er hægt að prufukeyra hana. Til að keyra skýrsluna skal vinna úr greiðslu lánardrottins með því að nota greiðslumátann sem vísar til sérstillts sniðs rafrænnar skýrslugerðar. Sjálfgefið er að þegar kallað er á snið rafrænnar skýrslugerðar úr forritinu, eru aðeins útgáfur sem eru með stöðuna **Lokið** eða **Samnýtt** [teknar til greina](general-electronic-reporting.md#component-versioning). Þessi leið hjálpar til við að koma í veg fyrir að snið rafrænnar skýrslugerðar með ókláraðri hönnun verði notuð. Fyrir prufukeyrslur er hinsvegar hægt að þvinga forritið til að nota sniðsútgáfu rafrænnar skýrslugerðar sem er með stöðuna **Drög**. Á þennan hátt er hægt að leiðrétta núverandi sniðsútgáfu ef gera þarf einhverjar breytingar. Frekari upplýsingar er að finna í [Nothæfni](electronic-reporting-destinations.md#applicability).
+Nú þegar fyrsta útgáfa af sérstilltu sniði hefur verið stofnuð og er með stöðuna **Drög**, er hægt að prufukeyra hana. Til að keyra skýrsluna skal vinna úr greiðslu lánardrottins með því að nota greiðslumátann sem vísar til sérstillts sniðs rafrænnar skýrslugerðar. Sjálfgefið er, þegar þú hringir í ER snið úr forritinu, aðeins útgáfur sem hafa stöðuna **Lokið** eða **Deilt** koma til greina. Þessi leið hjálpar til við að koma í veg fyrir að snið rafrænnar skýrslugerðar með ókláraðri hönnun verði notuð. Fyrir prufukeyrslur er hinsvegar hægt að þvinga forritið til að nota sniðsútgáfu rafrænnar skýrslugerðar sem er með stöðuna **Drög**. Á þennan hátt er hægt að leiðrétta núverandi sniðsútgáfu ef gera þarf einhverjar breytingar. Frekari upplýsingar er að finna í [Nothæfni](electronic-reporting-destinations.md#applicability).
 
 Til að nota útgáfudrög af sniði rafrænnar skýrslugerðar þarf sérstaklega að merkja rafræna skýrslugerðarsniðið.
 

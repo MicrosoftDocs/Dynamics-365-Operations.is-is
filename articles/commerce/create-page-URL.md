@@ -1,31 +1,31 @@
 ---
 title: Búa til síðuvefslóð
-description: Þessi grein fjallar um grunnhugtök og verklag til að búa til vefslóð síðu á síðuna þína.
+description: Þessi grein fjallar um grunnhugtök og aðferðir við að búa til vefslóð síðu á síðuna þína.
 author: bicyclingfool
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1798c4812b535ef007cbd5ff310b534e64a2f11e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 8718a3a2854ecdc7aec0853569dcba9e26a86d67
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892305"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270155"
 ---
 # <a name="create-a-page-url"></a>Búa til síðuvefslóð
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein fjallar um grunnhugtök og verklag til að búa til vefslóð síðu á síðuna þína.
+Þessi grein fjallar um grunnhugtök og aðferðir við að búa til vefslóð síðu á síðuna þína.
 
 Vefslóðin í heild eða alger sem vísar á síðu á vefsvæðinu þínu samanstendur af aðskildum hlutum. Til dæmis slóðin hefur `https://www.contoso.com/en-us/contactus` eftirfarandi hluta:
 

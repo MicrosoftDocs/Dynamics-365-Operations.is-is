@@ -1,25 +1,25 @@
 ---
 title: Stilla marga B2C leigjendur í viðskiptaumhverfi
-description: Þessi grein lýsir hvenær og hvernig á að setja upp margar Microsoft á hverja rás Azure Active Directory (Azure AD) leigjendur fyrirtækja til neytenda (B2C) fyrir notendavottun í sérstöku Dynamics 365 Commerce umhverfi.
+description: Þessi grein lýsir því hvenær og hvernig á að setja upp margar Microsoft á hverja rás Azure Active Directory (Azure AD) leigjendur fyrirtækja til neytenda (B2C) fyrir notendavottun í sérstöku Dynamics 365 Commerce umhverfi.
 author: BrianShook
 ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 13504a612c388b4720ec3328aaf2db83da2aad8c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: ''
+ms.openlocfilehash: 4966a3df20544fd6cdff493b8bd1aa566aecdfe9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890570"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276893"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Stilla marga B2C leigjendur í viðskiptaumhverfi
 

@@ -1,25 +1,25 @@
 ---
 title: Umsjón reikninga fyrir B2B-vefsvæði fyrir rafræn viðskipti
 description: Þessi grein lýsir reikningsstjórnunargetu Microsoft Dynamics 365 Commerce viðskiptavefsíður fyrir viðskipti (B2B) fyrir rafræn viðskipti.
-author: shajain
+author: ShalabhjainMSFT
 ms.date: 02/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
 audience: Application User, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fa6b81187481a6b7f47ea02291e5a581052d6c7b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: RetailOperations
+ms.openlocfilehash: c1f3533eb711bf87fe226f5c61678b6939f35e13
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854927"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274429"
 ---
 # <a name="invoice-management-for-b2b-e-commerce-websites"></a>Umsjón reikninga fyrir B2B-vefsvæði fyrir rafræn viðskipti
 
@@ -41,10 +41,10 @@ ms.locfileid: "8854927"
 
 ![Körfusíðu á B2B vefsíðu.](../media/PayInvoice.png)
 
-Á **Reikningar** síðu getur notandi einnig valið **Óska eftir reikningi** við hlið reiknings. Þannig getur notandinn óskað eftir því að fá upplýsingar um reikninginn sendar á skráð netfang.
+Á **Reikningar** síðu getur notandi einnig valið **Óska eftir reikningi** við hliðina á reikningi. Þannig getur notandi óskað eftir því að fá upplýsingar um reikninginn sendar á skráð netfang.
 
 ![Beiðni um reikningsglugga.](../media/RequestInvoice2.png)
 
-Eftir að notandi hefur óskað eftir reikningi er beiðnin færð á **B2B beiðnir** kafla í **Minn reikningur** síðu. Síðan, eftir **P-0001** og **Samstilltu pantanir og rásbeiðnir** störf eru keyrð í höfuðstöðvum Commerce, reikningspósturinn er ræstur og staða B2B beiðninnar er merkt sem lokið.
+Eftir að notandi óskar eftir reikningi er beiðnin færð í **B2B beiðnir** kafla í **Minn reikningur** síðu. Síðan, eftir **P-0001** og **Samstilltu pantanir og rásbeiðnir** störf eru keyrð í höfuðstöðvum Commerce, reikningspósturinn er ræstur og staða B2B beiðninnar er merkt sem lokið.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

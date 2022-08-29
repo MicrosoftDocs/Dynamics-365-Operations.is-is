@@ -6,20 +6,20 @@ ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 34b9cb15dd77e6317208e6468fbfb60e804f5e8f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: b588df5702657f07e1e790ffba39d2e459901557
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896835"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286277"
 ---
 # <a name="work-with-preset-layouts"></a>Vinna með forstillt útlit
 
@@ -98,15 +98,15 @@ Eftir að þú hefur forskoðað breytingarnar á forstilltu skipulagi skaltu fy
 > [!WARNING]
 > Með mörgum síðum er hægt að vísa í forstillt skipulag. Þegar þú birtir forstillt skipulag þarftu að hafa í huga að þú gætir haft áhrif á skipulag margra síðna.
 
-## <a name="rename-a-preset-layout"></a>Endurnefna forstillt útlit
+## <a name="rename-a-preset-layout"></a>Endurnefna forstillt skipulag
 
-Fylgdu þessum skrefum til að endurnefna forstillt útlit í vefsmiðju.
+Fylgdu þessum skrefum til að endurnefna forstillt skipulag í vefsvæðisgerð.
 
 1. Í vinstri yfirlitsrúðunni, veldu **Skipulag**.
 1. Veldu útlitsheiti útlitsins sem þú vilt endurnefna.
 1. Veldu **Breyta** til að byrja að breyta útlitinu.
 1. Í útlitseiginleikarúðunni skaltu velja pennatáknið við hlið útlitsheitisins.
-1. Breyttu nafni útlitsins eftir þörfum.
+1. Breyttu útlitsheitinu eftir þörfum.
 1. Veldu gátmerkið til að staðfesta nafnbreytinguna.
 1. Veldu **Ljúka við breytingar**.
 

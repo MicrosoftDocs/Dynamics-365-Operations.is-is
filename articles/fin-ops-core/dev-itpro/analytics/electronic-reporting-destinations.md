@@ -1,26 +1,26 @@
 ---
 title: Áfangastaðir fyrir rafræna skýrslugerð
-description: Þessi grein veitir upplýsingar um stjórnun áfangastaða fyrir rafrænar tilkynningar, tegundir stuðningsstaða og öryggissjónarmið.
-author: nselin
+description: Þessi grein veitir upplýsingar um stjórnun áfangastaða fyrir rafrænar tilkynningar, gerðir stuðningsstaða og öryggissjónarmið.
+author: kfend
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
-ms.author: mrolecki
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc8ef4a5299e6daba79702fadd37284f752a54a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.custom: 97423
+ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
+ms.search.form: DocuType, ERSolutionTable
+ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851078"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281968"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Áfangastaðir fyrir rafræna skýrslugerð
 
@@ -118,7 +118,7 @@ Hægt er að setja upp áfangastaði aðeins fyrir skilgreiningar rafrænnar sk�
 
 [![Skilgreiningartengill.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
-Á sama tíma gætir þú átt margar [útgáfur](general-electronic-reporting.md#component-versioning) af því sniði sem hefur verið flutt inn í núverandi tilviki Finance. Þú getur skoðað þau ef þú velur tengilinn **Stillingar** sem er í boði þegar þú velur reitinn **Tilvísun**.
+Á sama tíma gætir þú átt margar útgáfur af því sniði sem hefur verið flutt inn í núverandi tilviki Finance. Þú getur skoðað þau ef þú velur tengilinn **Stillingar** sem er í boði þegar þú velur reitinn **Tilvísun**.
 
 [![Útgáfur grunnstillingarinnar.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
@@ -177,9 +177,19 @@ Frá og með fjármálum **útgáfa 10.0.9**, PDF umbreytingarvalkosturinn er a�
 
 PDF-skjalið sem verður til takmarkast við að hámarki 300 blaðsíður.
 
-Frá og með fjármálum **útgáfa 10.0.9**, aðeins landslagssíðustilling er studd í PDF skjalinu sem er framleitt úr Excel úttaki. Byrjar í fjármálum **útgáfa 10.0.10**, þú getur [tilgreindu stefnu síðunnar](#SelectPdfPageOrientation) af PDF skjalinu sem er framleitt úr Excel úttaki á meðan þú stillir ER áfangastað.
+Frá og með fjármálum **útgáfa 10.0.9**, aðeins landslagssíðustilling er studd í PDF skjalinu sem er framleitt úr Excel úttaki. Byrjar í fjármálum **útgáfa 10.0.10**, þú getur [tilgreindu stefnu síðunnar](#SelectPdfPageOrientation) af PDF skjalinu sem er framleitt úr Excel úttak meðan þú stillir ER áfangastað.
 
 Aðeins algengar leturgerðir Windows-stýrikerfisins eru notaðar til að umbreyta úttaki sem inniheldur engar innfelldar leturgerðir.
+
+### <a name="resources"></a>Forði
+
+Fyrir Finance útgáfu 10.0.29 var PDF umbreytingu aðeins hægt að gera utan núverandi Finance tilviks. Mynduð skrá var send úr Finance til viðskiptaþjónustunnar og sú þjónusta skilaði síðan breytta skjalinu. Hins vegar í útgáfu **10.0.29 og síðar**, auk þess **Umbreyta rafrænum skýrslum á útleið skjöl frá Microsoft Office snið í PDF** eiginleika, getur þú virkjað **Notaðu forritsauðlindir til að breyta CBD skjölum úr Word í PDF sniði** eiginleiki. Þessi eiginleiki gerir þér kleift að umbreyta mynduðum Word skjölum í PDF snið á staðnum með því að nota tilföng forritaþjóns í núverandi Finance tilviki. 
+
+Hér eru kostir staðbundinnar PDF umbreytingar þegar **Notaðu forritsauðlindir til að breyta CBD skjölum úr Word í PDF sniði** eiginleiki er virkur:
+
+- PDF skjalið sem er framleitt er það ekki [takmörkuð](#limitations) að hámarksfjölda síðna.
+- Word skjalið sem er breytt getur innihaldið a [mikill fjöldi efnisstýringa](https://fix.lcs.dynamics.com/Issue/Details?bugId=647877&dbType=3).
+- Ekki er þörf á nettengingu í uppfærslum á staðnum.
 
 ### <a name="use-the-pdf-conversion-option"></a>Notaðu PDF-umbreytingarvalkostinn
 
@@ -230,7 +240,7 @@ Aðeins er hægt að skilgreina framsetningu úttaks fyrir sniðshluta af gerði
 - **Aðskildar skrár** – Afhenda allar skrár myndaðrar zip-skráar sem einstaka skrá.
 
     > [!NOTE]
-    > Þegar **Aðskildar skrár** er valið er myndað úttak safnað í minni á þjöppuðu formi. Þar af leiðandi gildir [hámarksstærð skráar](er-compress-outbound-files.md) fyrir þjappað úttak þegar raunveruleg skráarstærð fer yfir þessi mörk. Mælt er með því að velja þetta gildi þegar búist er við því að stærð myndaðs úttaks verði of stórt.
+    > Þegar **Aðskildar skrár** er valið er myndað úttak safnað í minni á þjöppuðu formi. Þar af leiðandi gildir [hámarksstærð skráar](er-compress-outbound-files.md) fyrir þjappað úttak þegar raunveruleg skráarstærð fer yfir þessi mörk. Við mælum með því að þú veljir þetta gildi þegar þú býst við að stærð myndaðs úttaks sé nokkuð stór.
 
 [![Skilgreina viðtökustað fyrir hlut möppusniðs.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 

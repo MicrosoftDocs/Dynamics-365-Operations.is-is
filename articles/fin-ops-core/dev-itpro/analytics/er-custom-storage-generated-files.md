@@ -1,7 +1,7 @@
 ---
 title: Tilgreina sérsniðinn geymslustað fyrir mynduð skjöl
 description: Þessi grein útskýrir hvernig á að lengja listann yfir geymslustaðsetningar fyrir skjöl sem eru búin til með rafrænum skýrslugerðum (ER).
-author: NickSelin
+author: kfend
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
@@ -9,21 +9,21 @@ ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
-ms.search.validFrom: 2019-3-31
+ms.author: filatovm
+ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 103a7e51fc6042e19b1db3b3d6b00436df15fd89
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f938762d722493360614fd53e81bc5a4eba99928
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898857"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9268177"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Tilgreina sérsniðinn geymslustað fyrir mynduð skjöl
 
 [!include[banner](../includes/banner.md)]
 
-Forritunarviðmót forritsins (API) fyrir ramma rafrænnar skýrslugerðar gerir þér kleift að stækka listann yfir geymslustaði fyrir skjöl sem snið rafrænnar skýrslugerðar myndar. Þessi grein útskýrir hvernig á að bæta við sérsniðnum geymslustað fyrir mynduð skjöl með því að framselja það verkefni að búa til ER áfangastaði til sjálfgefna áfangastaðsverksmiðjunnar og útfæra síðan sérsniðna flokk sem hefur sína eigin áfangastaðarfræði.
+Forritunarviðmót forritsins (API) fyrir ramma rafrænnar skýrslugerðar gerir þér kleift að stækka listann yfir geymslustaði fyrir skjöl sem snið rafrænnar skýrslugerðar myndar. Þessi grein útskýrir hvernig á að bæta við sérsniðnum geymslustað fyrir mynduð skjöl með því að fela það verkefni að búa til ER áfangastaði til sjálfgefna áfangastaðsverksmiðjunnar og útfæra síðan sérsniðinn flokk sem hefur sína eigin áfangastaðarfræði.
 
 ## <a name="prerequisites"></a>Forkröfur
 

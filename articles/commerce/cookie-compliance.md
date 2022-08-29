@@ -1,31 +1,31 @@
 ---
 title: Reglufylgni köku
-description: Þessi grein lýsir sjónarmiðum um samræmi við vafrakökur og sjálfgefnar reglur sem eru innifalin í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir sjónarmiðum um samræmi við vafrakökur og sjálfgefna reglur sem eru innifalin í Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6a96ba21f1872b41156768fb7277933e68a16d90
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 20bdc6466c5d89709f8ba790eb567bd7d8bbb15c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863554"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273613"
 ---
 # <a name="cookie-compliance"></a>Reglufylgni köku
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein lýsir sjónarmiðum um samræmi við vafrakökur og sjálfgefnar reglur sem eru innifalin í Microsoft Dynamics 365 Commerce.
+Þessi grein lýsir sjónarmiðum um samræmi við vafrakökur og sjálfgefna reglur sem eru innifalin í Microsoft Dynamics 365 Commerce.
 
 Persónuvernd er mikilvægur þáttur þegar rekja á tækni sem hefur áhrif á viðskiptavini rafrænna viðskipta. Vegna staðla um samræmi við friðhelgi einkalífs, svo sem Almennu persónuverndarreglugerðina (GDPR) í Evrópusambandinu (ESB), verður að hafa í huga rafræn viðmiðunarreglur varðandi friðhelgi einkalífs fyrir alla vefi sem eru virkir í dag. Vegna þess að mörg svæði rafrænna viðskipta eru sjálfgefið aðgengileg á heimsvísu er mikilvægt að þú hafir farið yfir staðla viðmiðunar fyrir rafræn viðskipti.
 
@@ -71,7 +71,7 @@ Ef notandi svæðis velur einhvern tengil á samfélagsmiðil innan svæðis mun
 | .linkedin.com               | \_guid                    | Vafraauðkenni fyrir Google auglýsingar.                            | LinkedIn-straumur                                                |
 | .linkedin.com               | li_oatml                 | Óbeint auðkenni meðlims fyrir breytingarakningu, ný markmið og greiningar. | Merki LinkedIn-auglýsinga og innsýnar                                |
 | Ýmis lén fyrsta aðila | li_fat_id                | Óbeint auðkenni meðlims fyrir breytingarakningu, ný markmið og greiningar. | Merki LinkedIn-auglýsinga og innsýnar                                |
-| .adsymptotic.com            | U                        | Kennimerki vafra                                           | LinkedIn Insight merki ef IP-tala er ekki í tilnefndu landi |
+| .adsymptotic.com            | U                        | Kennimerki vafra                                           | LinkedIn Insight merki ef IP-tala er ekki í tilgreindu landi |
 | .linkedin.com                | bcookie                  | Auðkenni vafraköku                                            | Beiðnir til LinkedIn                                         |
 | .linkedin.com                | bscookie                 | Örugg vafraköka                                        | Beiðnir til LinkedIn                                         |
 | .linkedin.com               | lang                     | Lotur sjálfgefinn landsstaðall og tungumál.                                 | Beiðnir til LinkedIn                                         |
@@ -109,7 +109,7 @@ Ef notandi svæðis velur einhvern tengil á samfélagsmiðil innan svæðis mun
 
 ## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Samþykki vefköku notenda á netverslunarsíðu 
 
-Ef eiginleiki eða eining rafrænnar viðskiptasíður notar vafraköku sem ekki er nauðsynleg þarf að fá samþykki síðunotanda áður en kexið er rakið. Til að leyfa notendum vefsins að veita vefkökusamþykki á netverslunarsíðunni verður höfundur vefsvæðisins að bæta við og stilla samþykkiseiningu fyrir kökur í hauseiningu síðunnar til að tryggja að beðið sé um samþykki og móttekið. Gefa þarf notendasamþykki vefsvæðis áður en hægt er að nota eiginleika eða einingu án nauðsynlegrar köku á síðu svæðis.
+Ef eiginleiki eða eining á netviðskiptasíðu notar ónauðsynleg vafraköku, verður að fá samþykki síðunotanda áður en kexið er rakið. Til að leyfa notendum vefsins að veita samþykki fyrir fótspor á netverslunarsíðunni verður höfundur vefsvæðis að bæta við og stilla samþykkiseiningu fyrir vafrakökur í hausseiningu síðunnar til að tryggja að beðið sé um samþykki og móttekið. Gefa þarf notendasamþykki vefsvæðis áður en hægt er að nota eiginleika eða einingu án nauðsynlegrar köku á síðu svæðis.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

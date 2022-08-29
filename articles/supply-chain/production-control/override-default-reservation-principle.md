@@ -2,7 +2,7 @@
 title: Hnekkja sjálfgefinni frátekningarreglu fyrir efni í framleiðslu
 description: Þessi grein lýsir því hvernig á að stilla sjálfgefna frátekningarreglu fyrir hvern vörulíkanaflokk, þannig að hægt sé að beita mismunandi frátekningarreglum sjálfkrafa fyrir hverja vöru sem er hluti af framleiðsluskýrslu (BOM) eða runupöntunarformúlu.
 author: johanhoffmann
-ms.date: 12/10/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 381b7fa5046df8f2734e4b242058eb9a673388cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87f10efd7eebdc034af3f7c9081d2674a6190b38
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907233"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334596"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Hnekkja sjálfgefinni frátekningarreglu fyrir efni í framleiðslu
 
@@ -32,7 +32,7 @@ Til dæmis, ef um er að ræða hráefni eða innihaldsefni sem krefjast tiltekt
 
 ## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Kveiktu eða slökktu á eiginleikanum Hneka sjálfgefna framleiðslupöntun
 
-Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Hneka sjálfgefna framleiðslupöntun* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota þennan eiginleika verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á eiginleikanum. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Hneka sjálfgefna framleiðslupöntun* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Úthluta reglu framleiðslufrátekningar á vörulíkanaflokk
 

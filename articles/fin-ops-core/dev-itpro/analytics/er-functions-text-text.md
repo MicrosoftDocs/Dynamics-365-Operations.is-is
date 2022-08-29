@@ -1,25 +1,25 @@
 ---
 title: TEXT ER-aðgerð
 description: Þessi grein veitir upplýsingar um hvernig aðgerðin TEXT Rafræn skýrslugerð (ER) er notuð.
-author: NickSelin
+author: kfend
 ms.date: 12/10/2019
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf9049463ca905952cab512884afad380b7b3d52
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: a32da5588c5231b20bc8166d20888c1611ca273e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900165"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278857"
 ---
 # <a name="text-er-function"></a>TEXT ER-aðgerð
 
@@ -51,7 +51,7 @@ Fyrir gildi í af gerðinni *rauntala* takmarkast umbreyting strengs við sem ne
 
 ## <a name="example"></a>Dæmi
 
-Ef staður þjónsins á Microsoft Dynamics 365 Fjármálatilvik er skilgreint sem **EN-US**,`TEXT (NOW ())` skilar núverandi dagsetningu fjármálafundar, 17. desember 2015, sem textastreng **"12/17/2015 07:59:23 AM"**. `TEXT (1/3)` skilar **"0.33"**.
+Ef netþjónninn á Microsoft Dynamics 365 Fjármálatilvik er skilgreint sem **EN-US**,`TEXT (NOW ())` skilar núverandi dagsetningu fjármálafundar, 17. desember 2015, sem textastreng **"12/17/2015 07:59:23 AM"**. `TEXT (1/3)` skilar **"0.33"**.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

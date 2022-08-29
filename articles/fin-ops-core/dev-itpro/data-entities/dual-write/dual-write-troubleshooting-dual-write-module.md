@@ -1,28 +1,28 @@
 ---
-title: Lestu vandamál með tvískrift í fjármála- og rekstrarforritum
+title: Úrræðaleit vandamála vegna tvöfaldrar skráningar í fjármála- og rekstrarforritum
 description: Þessi grein veitir upplýsingar um bilanaleit sem geta hjálpað þér að laga vandamál með Dual-write eininguna í fjármála- og rekstrarforritum.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2743b99538b332af7cc6ad8d951eede562c14235
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 5678cd38e48eb5226e36851679436d3b6c117cf9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111171"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289575"
 ---
-# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Lestu vandamál með tvískrift í fjármála- og rekstrarforritum
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Úrræðaleit vandamála vegna tvöfaldrar skráningar í fjármála- og rekstrarforritum
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-Þessi grein veitir upplýsingar um bilanaleit fyrir samþættingu tvískrifa milli fjármála- og rekstrarforrita og Dataverse. Nánar tiltekið veitir það upplýsingar sem geta hjálpað þér að laga vandamál með **Tvöfalt skrifa** mát í fjármála- og rekstraröppum.
+Þessi grein veitir upplýsingar um bilanaleit fyrir tvískrifað samþættingu milli fjármála- og rekstrarforrita og Dataverse. Nánar tiltekið veitir það upplýsingar sem geta hjálpað þér að laga vandamál með **Tvöfalt skrifa** mát í fjármála- og rekstraröppum.
 
 > [!IMPORTANT]
 > Sum vandamálin sem þessi grein fjallar um gætu þurft annað hvort kerfisstjórahlutverkið eða Microsoft Azure Active Directory (Azure AD) leigjanda stjórnanda skilríki. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
@@ -71,7 +71,7 @@ Root activity ID: \<your root activity\> id
 
 Til að laga málið, stofnaðu miða fyrir Data Integration teymið. Festu netsporið svo að gagnasamstillingarteymið geti merkt kortin sem **Ekki í gangi** í bakvinnslunni.
 
-## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Virkjaðu samhliða vinnslu í fjármála- og rekstrarforritum til að bæta árangur
+## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Virkjaðu samhliða vinnslu í fjármála- og rekstraröppum til að bæta árangur
 
 Með því að virkja samhliða vinnslu getur það dregið úr þeim tíma sem þarf til að flytja inn gögn úr Dynamics 365 forritum fyrir þátttöku viðskiptavina og Microsoft Dataverse að fjármögnunar- og rekstraröppum. 
 

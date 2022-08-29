@@ -1,6 +1,6 @@
 ---
 title: Stofna tryggingarvalkosti
-description: Þessi grein lýsir umfjöllunarmöguleikum Microsoft Dynamics 365 Human Resources fyrir kosningu þátttakanda í bótaáætlun eða áætlun.
+description: Þessi grein lýsir umfjöllunarmöguleikum Microsoft Dynamics 365 Human Resources fyrir kosningu þátttakanda í fríðindaáætlun eða áætlun.
 author: twheeloc
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,19 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8569cabf72871396b9935a14a5637e5e645705fb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f9c107e31e58ba1302cd02e2e82aa405dda0fdef
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848225"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337313"
 ---
 # <a name="create-coverage-options"></a>Stofna tryggingarvalkosti
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Tryggingarvalkostir ákvarða hverjir eiga að vera tryggðir eða hve mikil trygging er í boði í tryggingaráætlun. Fyrir sjúkraáætlun gætirðu t.d. verið með valkostinn **eingöngu starfsmaður**, valkostinn **starfsmaður + 1** og valkostinn **fjölskylda**. Fyrir líftryggingu er hægt að bjóða upp á tryggingu fyrir **1 x laun** eða **2 x laun**.
 

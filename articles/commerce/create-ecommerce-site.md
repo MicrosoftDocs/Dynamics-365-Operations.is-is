@@ -1,33 +1,33 @@
 ---
 title: Stofna svæði fyrir rafræn viðskipti
-description: Þessi grein lýsir skrefum og upplýsingum sem þarf til að búa til nýja netverslunarsíðu í Dynamics 365 Commerce vefsmiður.
+description: Þessi grein lýsir skrefunum og upplýsingum sem þarf til að búa til nýja netverslunarsíðu í Dynamics 365 Commerce vefsmiður.
 author: bicyclingfool
 ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b4ac8d1b930c89bf330a2332c0b510dadb92e51f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: ea9afd89ce9ff79edbe5bff609b9843026005493
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855770"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270238"
 ---
 # <a name="create-an-e-commerce-site"></a>Stofna svæði fyrir rafræn viðskipti
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein lýsir skrefum og upplýsingum sem þarf til að búa til nýja netverslunarsíðu í Dynamics 365 Commerce vefsmiður.
+Þessi grein lýsir skrefunum og upplýsingum sem þarf til að búa til nýja netverslunarsíðu í Dynamics 365 Commerce vefsmiður.
 
 Þegar Dynamics 365 Commerce er veitt heimild fyrir rafrænum viðskiptamöguleikum, fær vefhönnuður úthlutað upphafssíðu sem hægt er að nota sem grunn fyrir eigin síðu. Ef þú vilt hins vegar byrja frá grunni eða ef þú vilt koma á öðru vefsvæði þarftu að koma á fót nýju svæði í hönnunarumhverfi vefsvæðis. 
 
@@ -36,7 +36,7 @@ ms.locfileid: "8855770"
 Notandi sem byggir vefsvæði verður að hafa Microsoft Azure Active Directory (Azure AD) notendareikningur innifalinn í Azure AD öryggishópur úthlutaður fyrir kerfisstjóra rafrænna viðskipta. Fyrir frekari upplýsingar, sjá [Settu upp nýjan leigjanda fyrir rafræn viðskipti](deploy-ecommerce-site.md).
 
 > [!NOTE]
-> Azure AD gestanotendur gætu haft mismunandi aðgangsheimildir í þínu Azure AD leigjanda. Jafnvel þótt það sé innifalið í Azure AD öryggishópur sem úthlutað er fyrir kerfisstjóra rafrænna viðskipta, gæti gestanotandi þurft Azure AD **Ytri notendur** leyfisstillingar sem á að breyta til að búa til netverslunarsíðu í Commerce. 
+> Azure AD gestanotendur gætu haft mismunandi aðgangsheimildir í þínu Azure AD leigjanda. Jafnvel þótt það sé innifalið í Azure AD öryggishópur úthlutað fyrir kerfisstjóra rafrænna viðskipta, gæti gestanotandi þurft Azure AD **Ytri notendur** leyfisstillingar sem á að breyta til að búa til netverslunarsíðu í Commerce. 
 
 Að aðlaga Azure AD **Ytri notendur** stillingar skaltu fylgja þessum skrefum.
 
@@ -67,7 +67,7 @@ Eftir að vefsvæðið þitt er búið til geturðu staðfest að það er tengt
 
 Til að endurnefna síðuna þína í Site builder skaltu fylgja þessum skrefum.
 
-1. Til að opna lista yfir vefsvæði velurðu **Síðuskipti** í efra hægra horninu og veldu síðan **Stjórna síðum**. 
+1. Til að opna lista yfir vefsvæði velurðu **Vefskiptaskipti** í efra hægra horninu og veldu síðan **Stjórna síðum**. 
 1. Veldu gátreitinn við hliðina á síðunni sem þú vilt endurnefna og veldu síðan **Endurnefna** á skipanastikunni.
 1. Í **Nýtt nafn síðunnar** valmynd, sláðu inn nýja nafnið á vefsvæðinu og veldu síðan **Allt í lagi**. Veflistinn mun uppfærast til að sýna nýtt nafn síðunnar.
 
@@ -75,7 +75,7 @@ Til að endurnefna síðuna þína í Site builder skaltu fylgja þessum skrefum
 
 Fylgdu þessum skrefum til að eyða síðu í Site builder.
 
-1. Til að opna lista yfir vefsvæði velurðu **Síðuskipti** í efra hægra horninu og veldu síðan **Stjórna síðum**.
+1. Til að opna lista yfir vefsvæði velurðu **Vefskiptaskipti** í efra hægra horninu og veldu síðan **Stjórna síðum**.
 1. Veldu síðuna sem þú vilt eyða og veldu síðan **Eyða** á skipanastikunni.
 1. Í **Eyða\<site name\>** valmynd, sláðu inn nafn vefsvæðisins og veldu síðan **Eyða**.
 

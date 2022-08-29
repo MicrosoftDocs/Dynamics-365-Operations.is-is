@@ -1,26 +1,26 @@
 ---
 title: Kemba gagnagjafa af keyrðu sniði rafrænnar skýrslugerðar til að greina gagnaflæði og umbreytingu
 description: Þessi grein útskýrir hvernig þú getur villuleitt gagnaveitur á keyrðu ER sniði til að skilja betur stillt gagnaflæði og umbreytingu.
-author: NickSelin
+author: kfend
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 6fca177093caf42ad27b58eaa97e3f6997289eeb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERSolutionTable, EROperationDesigner
+ms.openlocfilehash: 7509092d353d75cefbbd97393d45c078530a21bd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884229"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291355"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Kemba gagnagjafa af keyrðu sniði rafrænnar skýrslugerðar til að greina gagnaflæði og umbreytingu
 
@@ -28,7 +28,7 @@ ms.locfileid: "8884229"
 
 [!include[banner](../includes/preview-banner.md)]
 
-Þegar lausn rafrænnar skýrslugerðar er [skilgreind](tasks/er-format-configuration-2016-11.md) til að útbúa skjöl á útleið, skilgreinir þú aðferðirnar sem notaðar eru til að ná gögnum úr forritinu og færa þau inn í úttakið sem búið er til. Til að gera lífsferilsstuðning ER lausnarinnar skilvirkari ætti lausnin þín að samanstanda af ER gagnalíkani og kortlagningarhlutum þess, og einnig ER sniði og kortlagningarhlutum þess, þannig að líkanskortlagningin sé forritssértæk en aðrir íhlutir eru áfram umsókn-agnostic. Þar af leiðandi gætu nokkrir hlutar rafrænnar skýrslugerðar haft áhrif á ferli gagnainnsláttar í úttakinu sem búið er til.
+Þegar lausn rafrænnar skýrslugerðar er [skilgreind](tasks/er-format-configuration-2016-11.md) til að útbúa skjöl á útleið, skilgreinir þú aðferðirnar sem notaðar eru til að ná gögnum úr forritinu og færa þau inn í úttakið sem búið er til. Til að gera lífsferilsstuðning ER lausnarinnar skilvirkari ætti lausnin þín að samanstanda af ER gagnalíkani og kortlagningarhlutum þess, og einnig ER sniði og kortlagningarhlutum þess, þannig að líkanskortlagningin sé forritssértæk, en aðrir íhlutir eru áfram umsókn-agnostic. Þar af leiðandi gætu nokkrir hlutar rafrænnar skýrslugerðar haft áhrif á ferli gagnainnsláttar í úttakinu sem búið er til.
 
 Stundum líta gögn myndaðs úttaks út fyrir að vera öðruvísi en sömu gögn í gagnagrunni forritsins. Í þessum tilvikum er æskilegt að ákvarða hvaða íhlutur rafrænnar skýrslugerðar er ábyrgur fyrir gagnaumbreytingu. Kembiforritseiginleiki gagnagjafa rafrænnar skýrslugerðar dregur umtalsvert úr tíma og kostnaði sem eru hluti af þessari skoðun. Hægt er að stöðva keyrslu sniðs rafrænnar skýrslugerðar og opna kembiviðmót gagnagjafans. Þar er hægt að fletta upp tiltækum gagnagjöfum og velja staka gagnagjafa til keyrslu. Þessi handvirka keyrsla líkir eftir keyrslu gagnagjafans við raunkeyrslu á snið rafrænnar skýrslugerðar. Niðurstaðan kemur fram á síðu þar sem hægt er að greina gögnin sem eru móttekin.
 
@@ -188,7 +188,7 @@ Ef ætlunin er að nota lausn rafrænnar skýrslugerðar til að búa til rafræ
 
 ![Innflutningur greiðslusniðs rafrænnar skýrslugerðar á síðu skilgreiningageymslu.](./media/er-data-debugger-import-from-repo.png)
 
-Til viðbótar við valið ER snið, eftirfarandi [stillingar](general-electronic-reporting.md#Configuration) verður að vera sjálfkrafa flutt inn í þinn Microsoft Dynamics 365 Fjármálatilvik sem hluti af **ISO20022 Kreditmillifærsla** ER lausn:
+Til viðbótar við valið ER snið, eftirfarandi [stillingar](general-electronic-reporting.md#Configuration) verður að vera sjálfkrafa flutt inn í þinn Microsoft Dynamics 365 Fjármál tilvik sem hluti af **ISO20022 Kreditmillifærsla** ER lausn:
 
 - **Greiðslulíkan** Uppsetning ER gagnalíkans
 - **ISO20022 Kreditmillifærsla** ER snið stillingar

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0b21c0000f6bf1cbbb318c898a519e51ca7e9b8
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 741377a43e2bfe702b213647cc6460a3d6ad93fb
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068635"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218683"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Runulosun flutningspantana sem eru fráteknar að hluta
 
@@ -42,25 +42,22 @@ Fyrir þessa virkni eru flutningspantanir losaðar í vöruhús með því að n
 
 Tilgreina þarf uppfyllingarskilyrði fyrir flutningspantanir og sölupantanir á fyrirtækisstigi Allt eftir uppsetning uppfyllingarreglna verður losun pantana í runu samþykkt eða hafnað. Pantanir verða unnar í samræmi við það.
 
--   Til að stofna uppfyllingarreglur fyrir flutningspantanir og sölupantanir er smellt á **Vöruhúsastjórnun** \> **Uppsetning** \> **Losa í vöruhús** \> **Uppfyllingarregla**, og stofnaðu svo uppfyllingarreglu með því að færa inn nafn og lýsingu.
-
--   Til að tilgreina uppfyllingartíðni, gildisgerð og skilaboð sem birtast ef uppfyllingarreglur eru brotnar, smelltu á **Vöruhúsakerfi** \> **Uppsetning** \> **Losa í vöruhús** \> **uppfyllingarregla**, og stiltu svo reitina **uppfyllingartíðni**, **gerð gildis**, og **skilaboð vegna brota á uppfyllingu**.
+- Til að búa til uppfyllingarreglur fyrir millifærslupantanir og sölupantanir, farðu á **Vöruhússtjórnun \> Uppsetning \> Losa á lager \> Uppfyllingarstefnur**, og búðu til uppfyllingarstefnu með því að slá inn nafn og lýsingu.
+- Til að tilgreina uppfyllingarhlutfall, gildistegund og skilaboðin sem birtast ef uppfyllingarstefnan er brotin, farðu á **Vöruhússtjórnun \> Uppsetning \> Losa á lager \> Uppfyllingarstefnur**, og stilltu **Uppfyllingarhlutfall**, **·**, og **Skilaboð um uppfyllingu brot** sviðum.
 
 ### <a name="set-the-fulfillment-policies-for-transfer-orders-and-sales-orders"></a>Stilla þarf uppfyllingarskilyrði fyrir flutningspantanir og sölupantanir
 
--   Til að stilla uppfyllingarreglur fyrir flutningspantanir er smellt á **Birgðastjórnun** \> **Uppsetning** \> **Færibreytur fyrir birgða- og vöruhúsastjórnun** \> **Flutningspantanir** \> **Vöruhúsastjórnun**, og því næst valin uppfyllingarregla fyrir flutningspöntun.
+- Til að stilla uppfyllingarreglur fyrir flutningspantanir skaltu fara á **Vörustjórnun \> Uppsetning \> Birgða- og vöruhúsastjórnunarfæribreytur**, og síðan, á **Flytja pantanir** flipa, í **Vöruhússtjórnun** kafla, veldu uppfyllingarstefnu millifærslupöntunar.
+- Til að stilla uppfyllingarreglur fyrir sölupantanir skaltu fara á **Reikningur fáanlegur \> Uppsetning \> Færibreytur viðskiptakrafna**, og síðan, á **Vöruhússtjórnun** flipanum, veldu uppfyllingarstefnu sölupöntunar.
 
--   Til að stilla uppfyllingarreglur fyrir sölupantanir er smellt á **Viðskiptakröfur** \> **Uppsetning** \> **Færibreytur fyrir Viðskiptakröfur** \> **Vöruhúsastjórnun**, og því næst valin uppfyllingarregla fyrir sölupöntun.
-
-## <a name="allow-release-in-a-batch-and-specify-the-quantity-that-should-be-release-in-a-batch"></a>Leyfa losun í runu og tilgreina magn sem á að losa í runu
+## <a name="allow-release-in-a-batch-and-specify-the-quantity-that-should-be-released-in-a-batch"></a>Leyfa losun í lotu og tilgreina magn sem á að losa í lotu
 
 Runuvinnsla er notuð til að losa pantanir í vöruhús í runum. Færibreytur sem greina að pantanir sem á að keyra í runuvinnsla eru stilltar í runuvinnslunni sjálfri.
 
 Færibreytan **Magn** tilgreinir hvort losa á í runu allt magnið eða efnislega frátekið magn. Færibreytan **Leyfa losun pantana sem hafa verið losaðar að hluta** ákvarðar hvort pantanir í runu á að samþykkja eða hafna ef þær voru losaðar að hluta fyrr.
 
--   Til að stilla færibreyturnar **Magn** og **Leyfa losun pantana sem hafa verið losaðar að hluta** skal smella á **Vöruhúsastjórnun** \> **Losa í vöruhús** \> **Sjálfvirk losun flutningspantana**.
-
--   Til að stilla færibreyturnar **Magn** og **Leyfa losun pantana sem hafa verið losaðar að hluta** fyrir sölupantanir skal smella á **Vöruhúsastjórnun** \> **Losa í vöruhús** \> **Sjálfvirk losun flutningspantana**.
+- Til að stilla **Magn** og **Leyfa losun pantana sem hafa verið losaðar að hluta** færibreytur fyrir millifærslupantanir, farðu í **Vöruhússtjórnun \> Losa á lager \> Sjálfvirk losun millifærslupantana**.
+- Til að stilla **Magn** og **Leyfa losun pantana sem hafa verið losaðar að hluta** færibreytur fyrir sölupantanir, farðu í **Vöruhússtjórnun \> Losa á lager \> Sjálfvirk losun sölupantana**.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

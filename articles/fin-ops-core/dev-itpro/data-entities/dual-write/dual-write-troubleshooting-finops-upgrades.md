@@ -1,22 +1,22 @@
 ---
-title: Leysaðu vandamál vegna uppfærslu á fjármála- og rekstrarforritum
+title: Úrræðaleit vandamála vegna uppfærslna á fjármála- og rekstrarforritum
 description: Þessi grein veitir upplýsingar um úrræðaleit sem geta hjálpað þér að laga vandamál sem tengjast uppfærslu á fjármála- og rekstrarforritum.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: b75034cbc8ca7a24472cfec1ad93d3dfef4a8fdc
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 7ab75c3a7b6c53982a32658f376a9fd148c023e4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111141"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289545"
 ---
-# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Leysaðu vandamál vegna uppfærslu á fjármála- og rekstrarforritum
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Úrræðaleit vandamála vegna uppfærslna á fjármála- og rekstrarforritum
 
 [!include [banner](../../includes/banner.md)]
 
@@ -24,7 +24,7 @@ ms.locfileid: "9111141"
 
 
 
-Þessi grein veitir upplýsingar um bilanaleit fyrir samþættingu tvískrifa milli fjármála- og rekstrarforrita og Dataverse. Nánar tiltekið veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem tengjast uppfærslu á fjármála- og rekstrarforritum.
+Þessi grein veitir upplýsingar um bilanaleit fyrir tvískrifað samþættingu milli fjármála- og rekstrarforrita og Dataverse. Nánar tiltekið veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem tengjast uppfærslu á fjármála- og rekstrarforritum.
 
 > [!IMPORTANT]
 > Sum vandamálin sem þessi grein fjallar um gætu þurft annað hvort kerfisstjórahlutverkið eða Microsoft Azure Active Directory (Azure AD) leigjanda stjórnanda skilríki. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.

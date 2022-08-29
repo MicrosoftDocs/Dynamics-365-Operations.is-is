@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a5ce900d7698c7d8211ce1e8b7d529ab79a28915
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb86800f1491e8cb9ad629ed6cc1c76e9393e945
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897256"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336036"
 ---
 # <a name="warehouse-slotting"></a>Hólfaskipting vöruhúss
 
@@ -34,7 +34,7 @@ Eiginleikinn *Endurbætur á úthlutun hólfaskiptingar í vöruhúsi* bætir vi
 
 ## <a name="turn-on-the-warehouse-slotting-features"></a>Kveikja á eiginleikum fyrir hólfaskiptingu vöruhúss
 
-Áður en hægt er að nota slíka eiginleika verður að vera kveikt á þeim í kerfinu. Stjórnendur geta notað stillingar [eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikanna og kveikja á þeim ef þörf krefur. Kveikja skal á eftirfarandi eiginleikum eftir því sem þörf krefur:
+Áður en þú getur notað þessa eiginleika verður að kveikja á þeim fyrir kerfið þitt. Stjórnendur geta notað stillingar [eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikanna og kveikja á þeim ef þörf krefur. Kveikja skal á eftirfarandi eiginleikum eftir því sem þörf krefur:
 
 - Hólfaröðunareiginleiki vöruhúss
 - Vöruhúsahólf fyrir flutningspantanir
@@ -284,7 +284,7 @@ Notaðu innbyggðu sýnigögnin fyrir þessar aðstæður og búðu til skrárna
 
 #### <a name="use-the-usmf-sample-data"></a>Nota USMF-sýnigögn
 
-Til að vinna í gegnum þessar aðstæður með því að nota sýnigögnin og gildin sem eru tilgreind hér verður þú að vera á kerfi þar sem venjuleg [sýnigögn](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) er sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
+Til að vinna í gegnum þessar aðstæður með því að nota sýnigögnin og gildin sem eru tilgreind hér verður þú að vera á kerfi þar sem venjuleg [sýnigögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) er sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
 
 #### <a name="create-demand"></a>Búa til eftirspurn
 

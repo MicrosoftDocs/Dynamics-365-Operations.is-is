@@ -14,19 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 039b4aa3f044cda29944bcd4f5c42fc35818c58b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 37fb24bdda1d49291b88c6728e11aecf9863cc66
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868160"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324818"
 ---
 # <a name="configure-rates"></a>Grunnstilla taxta
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Taxtar skilgreina hversu mikið vinnuveitendur og starfsmenn leggja fram til fríðinda. Gildið getur annaðhvort verið upphæð eða sveigjanlegir inneignapunktar eftir því hver skilgreiningin er.
 
@@ -84,7 +79,7 @@ Notaðu taxta til að ákvarða hversu mikið launþegar og vinnuveitendur grei�
    | **Lýsing** | Reitargildið **Lýsing** er fengið úr lýsingunni í færslunni fyrir uppsetningu hlutfalls. Þetta hjálpar þér að bera kennsl á hvaða hlutfall skipulag stig stig eru tengd við. |
    | **Kóði lags** | Veldu kóða fyrir lög. Kóðar lags eru skilgreindir á síðunni **Kóðar lags**. Kerfið birtir sjálfkrafa lýsingu á kóða fyrir lög í töflunni til vinstri. |
    | **Gerð þreps** | Tilgreinir hvaða reit ætti að nota sem valviðmið fyrir útreikningsferli kóða fyrir lög. Dæmi:</br></br><ul><li>Ef **Aldur** er notaður mun kerfið nota fæðingardag starfsmannsins við útreikningsferli fríðindahlutfallsins.</li><li>Ef **Laun** eru notuð mun kerfið nota árlegt hlutfall fríðinda af launum starfsmannsins við útreikningsferli fríðindahlutfallsins.</li><li>Ef **Starfsgerð** er notuð er núverandi starf starfsmanns notað til að ákvarða starfsgerðina með verkfærslunni sem tengist stöðunni.</li></ul></br></br>Gerðir lagsins eru **Aldur**, **Laun**, **Líkamlegt ástand**, **Kyn**, og **Jafngildi fulls starfs**, **Tegund starfs**, **Launasvæði** og **Stig**. | 
-   | **Stig** | Gildið sem á að nota með tegundinni við útreikning á fríðindataxta. Dæmi:</br></br><ul><li>Ef gerð lagsins er **Aldur**, verður þetta aldursgildið.</li><li>Til dæmis: Þegar gerð lagsins er **Laun**, verður það launaupphæðin.</li><li> Til dæmis: Þegar gerð lagsins er **Starfsgerð**, verður það starfsgerðin.</li></ul></br></br>Þegar gerð lagsins er **Aldur** eða **Laun**, táknar gildið í reitnum **Stig** efri mörk lagsins. Þegar gerð lags er **Starfsgerð** er nálgun nákvæmrar samsvörunar notuð í vali á hlutfalli lags. |
+   | **Stig** | Gildið sem á að nota með tegundinni við útreikning á fríðindataxta. Dæmi:</br></br><ul><li>Ef gerð lagsins er **Aldur**, verður þetta aldursgildið.</li><li>Til dæmis: Þegar gerð lagsins er **Laun**, verður það launaupphæðin.</li><li> Til dæmis: Þegar gerð lagsins er **Starfsgerð**, verður það starfsgerðin.</li></ul></br></br>Með flokkaupplýsingar gerð af **Aldur** eða **Laun**, gildið í **Stig** reit táknar neðri mörk þrepsins. Þegar gerð lags er **Starfsgerð** er nálgun nákvæmrar samsvörunar notuð í vali á hlutfalli lags. |
    | **Reiknigerð** | Tilgreinir hvernig á að nota upphæðina í reitnum útreikningsfjárhæðar og hvaða stærðfræðiútreikning á að framkvæma ef þörf krefur. Ef gerð útreiknings er slétt upphæð eru reitir upphæða notaðir eins og þeir koma fyrir. Þegar reikningsgerðin miðast við hvern USD launaupphæðar eða tryggingar, notar kerfið reikningsupphæðina og reikningsáttina við stærðfræðilega útreikninga sína.</br></br>Ef gerð útreiknings er miðuð við $ upphæð af launum er eftirfarandi stærðfræðijafna notuð:</br></br>Árleg bótagreiðsla deilt með Útreikningsupphæð (ávöl upp eða niður) sinnum upphæðir fyrir reykingamann eða ekki reykingarmann fyrir starfsmann eða vinnuveitanda.</br></br>Ef gerð útreiknings er miðuð við $ upphæð af tryggingu er eftirfarandi stærðfræðijafna notuð:</br></br>Tryggingarupphæð deilt með Útreikningsupphæð (ávöl upp eða niður) sinnum upphæðir fyrir reykingamann eða ekki reykingarmann fyrir starfsmann eða vinnuveitanda.</br></br>Í báðum útreikningum er útreikningsstefnan notuð til að ákvarða hvort fara skuli niður árleg hlunnindi eða tryggingarupphæð deilt með útreikningsupphæð upp eða niður. |
    | **Reikningsupphæð** | Upphæðin sem á að nota við útreikningsferli fríðinda. Þessi upphæð verður deilir í stærðfræðiútreikning á stighlutfalli. |
    | **Stefna útreiknings** | Átt jöfnunar á upphæð reiknaðrar niðurstöðu. Kerfið styður þrjár áttir útreiknings: Auða (nákvæma aðferð), **Hækkun** og **Lækkun**.</br></br><ul><li>Ef það er autt mun kerfið nota nákvæma útreikning á launum / umfjöllunarfjárhæð deilt með útreikningsupphæðinni. Ef þetta gildi er með aukastafi verður þetta notað í útreikningi þess.</li><li>Þegar **Hækkun** er notuð, hækkar stærðfræðilegir útreikningar laun/tryggingarupphæð sem er deilt með reikningsupphæðinni í næstu heiltölu, sem þýðir að 12,25 hækka í 13.</li><li>Þegar **Lækkun** er notuð, lækka stærðfræðilegir útreikningar laun/tryggingarupphæð sem er deilt með reikningsupphæðinni í núverandi heiltölu, sem þýðir að 12,25 hækka í 12.</li></ul> |

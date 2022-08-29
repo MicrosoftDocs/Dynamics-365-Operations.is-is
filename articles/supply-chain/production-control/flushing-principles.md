@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 89fd38ea6d2c1635e9d8974ab99c2e4cdae4d6be
+ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065555"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9266429"
 ---
 # <a name="flushing-principles"></a>Losunarreglur
 
@@ -56,7 +56,10 @@ Handvirka losunarregla gefur til kynna að skráning á efnisnotkun sé handvirk
 Losunarreglan Ræsa gefur til kynna að efni verði sjálfkrafa notað þegar framleiðslupöntun er ræst. Magn efnis sem er notað er í hlutfalli við magnið sem er ræst. Þegar losunarreglan Ræsa er notuð ásamt framleiðslukerfinu er einnig hægt að nota hana til að losa efni þegar aðgerð eða ferlisvinnsla er ræst. Þessi regla á til dæmis við ef frávik í notkuninni eru lítil, efnið er lágvirðisefni, það eru engar rakningarkröfur eða ef aðgerðir hafa stuttan keyrslutíma. 
 
 ### <a name="finish"></a>Ljúk.  
-Losunarreglan Ljúka gefur til kynna að efni verði sjálfkrafa notað þegar tilkynnt er að framleiðslupöntun sé lokið, eða þegar skráð er að aðgerð sem ætlað er að nota efnið sé lokið. Magn efnis sem er notað er í hlutfalli við magnið sem er skráð sem lokið. Þegar losunarreglan Ljúka er notuð ásamt framleiðslukerfinu er einnig hægt að nota hana til að losa efni þegar aðgerð eða ferlisvinnslu er lokið. Þessi regla á við við sömu aðstæður og reglan Ræsa. Aftur á móti er reglan Ljúka fyrir aðgerðir sem hafa lengri keyrslutíma, þar sem ekki ætti að stilla efni á VÍV áður en aðgerðinni er lokið. 
+Losunarreglan Ljúka gefur til kynna að efni verði sjálfkrafa notað þegar tilkynnt er að framleiðslupöntun sé lokið, eða þegar skráð er að aðgerð sem ætlað er að nota efnið sé lokið. Magn efnis sem er notað er í hlutfalli við magnið sem er skráð sem lokið. Þegar losunarreglan Ljúka er notuð ásamt framleiðslukerfinu er einnig hægt að nota hana til að losa efni þegar aðgerð eða ferlisvinnslu er lokið. Þessi regla á við við sömu aðstæður og reglan Ræsa. Aftur á móti er reglan Ljúka fyrir aðgerðir sem hafa lengri keyrslutíma, þar sem ekki ætti að stilla efni á VÍV áður en aðgerðinni er lokið.
+
+> [!NOTE]
+> Þú getur ekki notað klára skolunarregluna ásamt skipulagshlutum. Þess í stað mælum við með því að þú notir Start skolunarregluna. Skipulagsatriði hafa framleiðslutegund af *skipulagsliður*, og aðeins er hægt að tilkynna sam- og aukaafurðir sem fullunnar á runupantanir sem eru búnar til fyrir áætlunarvörur.
 
 ### <a name="available-at-location"></a>Tiltækt í staðsetningu
 Losunarreglan Tiltækt í staðsetningu gefur til kynna að efnið verði sjálfkrafa notað þegar það er skráð sem tekið til fyrir framleiðslu. Efnið er skráð sem tekið til frá staðsetningu þegar vinnu við tiltekt á hráefni er lokið, eða þegar efni er tiltækt á staðsetningu framleiðsluinntaks og efnislínan er losuð til vöruhússins. Tiltektarlistinn sem verður til í ferlinu er birtur í runuvinnslu. Þessi regla á til dæmis við ef ert með marga tiltektarverkþætti á móti einni framleiðslupöntun. Í þessu tilfelli þarf ekki að uppfæra tiltektarlistann handvirkt, og þú færð núverandi yfirlit yfir VÍV-stöðuna.

@@ -6,23 +6,21 @@ ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom:
-- "97423"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: gionoder
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2d239bbafad9292ba6cef5534e778a2824a9cc5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: c98f33345b37a72c4099f01e37c82e27002ac687
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865585"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283146"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Nota rafræna reikningsþjónustu til að flytja inn reikninga lánardrottna
 
@@ -30,7 +28,7 @@ ms.locfileid: "8865585"
 
 [!include [banner](../includes/preview-banner.md)]
 
-Þessi grein veitir upplýsingar sem hjálpa þér að hefjast handa við að flytja inn reikninga lánardrottins með því að nota rafræna reikningaþjónustu. Það leiðir þig í gegnum stillingarskrefin í Regulatory Configuration Services (RCS), Dynamics 365 Finance og Dynamics 365 Supply Chain Management sem þú verður að fylgja til að fá rafræna lánardrottnareikninga frá söluaðilum.
+Þessi grein veitir upplýsingar sem hjálpa þér að hefjast handa við að flytja inn reikninga lánardrottna með því að nota rafræna reikningaþjónustu. Það leiðir þig í gegnum stillingarskrefin í Regulatory Configuration Services (RCS), Dynamics 365 Finance og Dynamics 365 Supply Chain Management sem þú verður að fylgja til að fá rafræna lánardrottnareikninga frá söluaðilum.
 
 ## <a name="set-up-vendor-invoice-import-in-rcs"></a>Setja upp innflutning á reikningi lánardrottins í RCS
 Til að setja upp innflutning reikning lánardrottins í RCS skaltu fylgja þessum skrefum:

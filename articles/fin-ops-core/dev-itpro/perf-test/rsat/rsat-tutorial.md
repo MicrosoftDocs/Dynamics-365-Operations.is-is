@@ -5,17 +5,17 @@ author: FrankDahl
 ms.date: 09/23/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 04c7d7081ece4e077881092534ed061fe2d0e999
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a270398ddebef0f47a2c31b0ffb022e3df6489c7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854600"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277405"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Kennsla í Regression Suite Automation Tool
 
@@ -43,7 +43,7 @@ Eftirfarandi dæmi sýnir hvernig hægt er að nota þennan eiginleika til að s
     5. Í listanum skal merkja valda línu.
     6. Sannprófaðu að gildi reitsins **Samtals magn til ráðstöfunar** sé **411,0000000000000000**.
 
-2. Vistaðu verkupptökuna sem a **upptöku forritara** og hengja það við prófunina þína í Azure DevOps.
+2. Vistaðu verkupptökuna sem a **upptöku forritara** og hengja það við prófunartækið þitt í Azure DevOps.
 3. Bættu prófunardæminu við prófunaráætlunina og settu prófunardæmið í RSAT.
 4. Opnið Excel-færibreytuskrána og farið í flipann **TestCaseSteps**.
 5. Til að sannprófa hvort lagerbirgðir muni alltaf verða meiri en **0** skal fara í skrefið **Sannprófa samtals til ráðstöfunar** og breyta gildi þeirra úr **411** í **0**. Breytið gildinu í reitnum **Virknitákn** úr samasemmerki (**=**) í stærra en merki (**\>**).
@@ -219,13 +219,13 @@ Hreinsar skjáinn.
 
 #### <a name="download"></a>sækja
 
-Hleður niður viðhengjum (upptöku-, framkvæmdar- og færibreytuskrám) fyrir tilgreint prófunartilvik frá Azure DevOps í úttaksskrána. Þú getur notað``list`` skipun til að fá öll tiltæk próftilvik og notaðu hvaða gildi sem er úr fyrsta dálki sem a **prófunartilfelli** breytu.
+Hleður niður viðhengjum (upptöku-, framkvæmdar- og færibreytuskrám) fyrir tilgreint prófunartilvik frá Azure DevOps í úttaksskrána. Þú getur notað``list`` skipun til að fá öll tiltæk próftilvik og nota hvaða gildi sem er úr fyrsta dálknum sem a **prófunartilviksauðkenni** breytu.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
 
 ##### <a name="download-optional-switches"></a>niðurhal: valfrjálsir rofar
 
-+ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilfelli prófunartilvika er lokað af öðrum RSAT tilfellum, mun niðurhalsferlið bíða í tilgreindan fjölda sekúnda og síðan reyna einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
++ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilviksprófunartilvik eru læst af öðrum RSAT-tilvikum, mun niðurhalsferlið bíða í tilgreindan fjölda sekúnda og reyna síðan einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
 
 ##### <a name="download-required-parameters"></a>niðurhal: nauðsynlegar færibreytur
 
@@ -243,13 +243,13 @@ Hleður niður viðhengjum (upptöku-, framkvæmdar- og færibreytuskrám) fyrir
 
 #### <a name="downloadsuite"></a>niðurhalssvíta
 
-Hleður niður viðhengjum (upptöku-, framkvæmdar- og færibreytuskrám) fyrir öll próftilvik í tilgreindu prófunarsvítunni frá Azure DevOps í úttaksskrána. Þú getur notað``listtestsuitenames`` skipun til að fá allar tiltækar prófunarsvítur og nota hvaða gildi sem a **test_suite_name** breytu.
+Hleður niður viðhengjum (upptöku-, framkvæmda- og færibreytuskrám) fyrir öll próftilvik í tilgreindu prófunarsvítunni frá Azure DevOps í úttaksskrána. Þú getur notað``listtestsuitenames`` skipun til að fá allar tiltækar prófunarsvítur og nota hvaða gildi sem a **test_suite_name** breytu.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``downloadsuite``**``[/retry[=<seconds>]] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
 
 ##### <a name="downloadsuite-optional-switches"></a>downloadsuite: valfrjálsir rofar
 
-+ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilfelli prófunartilvika er lokað af öðrum RSAT tilfellum, mun niðurhalsferlið bíða í tilgreindan fjölda sekúnda og síðan reyna einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
++ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilviksprófunartilvik eru læst af öðrum RSAT-tilvikum, mun niðurhalsferlið bíða í tilgreindan fjölda sekúnda og reyna síðan einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
 + `/byid`: Þessi rofi gefur til kynna að æskileg prófunarsvíta sé auðkennd með því Azure DevOps Auðkenni í stað nafns prófunarpakkans.
 
 ##### <a name="downloadsuite-required-parameters"></a>downloadsuite: nauðsynlegar breytur
@@ -295,9 +295,9 @@ Myndar prófaframkvæmdar- og færibreytuskrár fyrir tilgreint próftilfelli í
 
 ##### <a name="generate-optional-switches"></a>Búa til: valfrjálsa rofa
 
-+ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilfelli prófunartilvika er læst af öðrum RSAT tilvikum, mun myndaferlið bíða í tilgreindum fjölda sekúnda og reyna síðan einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
++ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilfelli prófunartilvika er lokað af öðrum RSAT tilfellum, mun myndaferlið bíða í tilgreindan fjölda sekúnda og reyna síðan einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
 + `/dllonly`: Búa aðeins til prófunarskrár. Ekki endurskapa Excel færibreytuskrána.
-+ `/keepcustomexcel`: Uppfærðu núverandi færibreytuskrá. Endurgerðu einnig framkvæmdarskrár.
++ `/keepcustomexcel`: Uppfærðu núverandi færibreytuskrá. Endurnýjaðu einnig framkvæmdarskrár.
 
 ##### <a name="generate-required-parameters"></a>mynda: nauðsynlegar færibreytur
 
@@ -319,13 +319,13 @@ Myndar prófaframkvæmdar- og færibreytuskrár fyrir tilgreint próftilfelli í
 
 #### <a name="generatederived"></a>generatederived
 
-Býr til nýtt afleitt próftilvik (undirprófunartilvik) af uppgefnu prófunartilviki. Nýja prófunartilvikinu er einnig bætt við tilgreinda prófunarsvítuna. Þú getur notað``list`` skipun til að fá öll tiltæk próftilvik og notaðu hvaða gildi sem er úr fyrsta dálki sem a **prófunartilfelli** breytu.
+Býr til nýtt afleitt próftilvik (undirprófunartilvik) af uppgefnu prófunartilviki. Nýja prófunartilvikinu er einnig bætt við tilgreinda prófunarsvítuna. Þú getur notað``list`` skipun til að fá öll tiltæk próftilvik og nota hvaða gildi sem er úr fyrsta dálknum sem a **prófunartilviksauðkenni** breytu.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[/retry[=<seconds>]] [parent_test_case_id] [test_plan_id] [test_suite_id]``
 
 ##### <a name="generatederived-optional-switches"></a>myndaður: valfrjálsir rofar
 
-+ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilfelli prófunartilvika er læst af öðrum RSAT tilvikum, mun myndaferlið bíða í tilgreindum fjölda sekúnda og reyna síðan einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
++ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilfelli prófunartilvika er lokað af öðrum RSAT tilfellum, mun myndaferlið bíða í tilgreindan fjölda sekúnda og reyna síðan einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
 
 ##### <a name="generatederived-required-parameters"></a>generatederived: nauðsynlegar færibreytur
 
@@ -341,13 +341,13 @@ Býr til nýtt afleitt próftilvik (undirprófunartilvik) af uppgefnu prófunart
 
 #### <a name="generatetestonly"></a>generatetestonly
 
-Býr aðeins til prófunarskrár fyrir tilgreint prófunartilvik. Það býr ekki til Excel færibreytuskrána. Skrárnar eru búnar til í tilgreindri úttaksskrá. Þú getur notað``list`` skipun til að fá öll tiltæk próftilvik og notaðu hvaða gildi sem er úr fyrsta dálki sem a **prófunartilfelli** breytu.
+Býr aðeins til prófunarskrár fyrir tilgreint prófunartilvik. Það býr ekki til Excel færibreytuskrána. Skrárnar eru búnar til í tilgreindri framleiðsluskrá. Þú getur notað``list`` skipun til að fá öll tiltæk próftilvik og nota hvaða gildi sem er úr fyrsta dálknum sem a **prófunartilviksauðkenni** breytu.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
 
 ##### <a name="generatetestonly-optional-switches"></a>generetestonly: valfrjálsir rofar
 
-+ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilfelli prófunartilvika er læst af öðrum RSAT tilvikum, mun myndaferlið bíða í tilgreindum fjölda sekúnda og reyna síðan einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
++ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilfelli prófunartilvika er lokað af öðrum RSAT tilfellum, mun myndaferlið bíða í tilgreindan fjölda sekúnda og reyna síðan einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
 
 ##### <a name="generatetestonly-required-parameters"></a>generatetestonly: nauðsynlegar færibreytur
 
@@ -371,9 +371,9 @@ Býr til sjálfvirkniprófunarskrár fyrir öll próftilvik í tilgreindu prófu
 
 ##### <a name="generatetestsuite-optional-switches"></a>Generatetestsuite: valfrjálsir rofar
 
-+ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilfelli prófunartilvika er læst af öðrum RSAT tilvikum, mun myndaferlið bíða í tilgreindum fjölda sekúnda og reyna síðan einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
++ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilfelli prófunartilvika er lokað af öðrum RSAT tilfellum, mun myndaferlið bíða í tilgreindan fjölda sekúnda og reyna síðan einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
 + `/dllonly`: Búa aðeins til prófunarskrár. Ekki endurskapa Excel færibreytuskrána.
-+ `/keepcustomexcel`: Uppfærðu núverandi færibreytuskrá. Endurgerðu einnig framkvæmdarskrár.
++ `/keepcustomexcel`: Uppfærðu núverandi færibreytuskrá. Endurnýjaðu einnig framkvæmdarskrár.
 + `/byid`: Þessi rofi gefur til kynna að æskileg prófunarsvíta sé auðkennd með því Azure DevOps Auðkenni í stað nafns prófunarpakkans.
 
 ##### <a name="generatetestsuite-required-parameters"></a>generatetestsuite: nauðsynlegar færibreytur
@@ -381,7 +381,7 @@ Býr til sjálfvirkniprófunarskrár fyrir öll próftilvik í tilgreindu prófu
 + `test_suite_name`: Stendur fyrir heiti prófunarpakka. Þessi færibreyta er nauðsynleg ef /byid rofinn er **ekki** tilgreint. Þetta nafn er Azure DevOps nafn prófunarsvítu.
 + `test_suite_id`: Stendur fyrir kenni prófunarpakka. Þessi færibreyta er nauðsynleg ef /byid skiptir **er** tilgreint. Þetta auðkenni er prófunarsvíta Azure DevOps auðkenni.
 
-##### <a name="generatetestsuite-optional-parameters"></a>Generatetestsuite: valfrjálsar breytur
+##### <a name="generatetestsuite-optional-parameters"></a>generatetestsuite: valfrjálsar breytur
 
 + `output_dir`: Táknar fyrir úttaksvinnuskrána. Skráasafnið verður að vera til. Vinnuskráin úr stillingunum verður notuð ef þessi færibreyta er ekki tilgreind.
 
@@ -413,7 +413,7 @@ Listar yfir allar tiltækar prófunaráætlanir.
 
 #### <a name="listtestsuite"></a>listtestsuite
 
-Listar yfir prófunartilvik fyrir tilgreindan prófunarflokk. Þú getur notað``listtestsuitenames`` skipun til að fá allar tiltækar prófunarsvítur, og notaðu hvaða gildi sem er af listanum sem a **suite_name** breytu.
+Listar yfir prófunartilvik fyrir tilgreindan prófunarflokk. Þú getur notað``listtestsuitenames`` skipun til að fá allar tiltækar prófunarsvítur og nota hvaða gildi sem er af listanum sem a **suite_name** breytu.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[test_suite_name]``
 
@@ -449,14 +449,14 @@ Listar allar tiltækar prófunarsvítur í núverandi prófunaráætlun.
 
 #### <a name="playback"></a>playback
 
-Spilar prófunartilvikið sem er tengt tilgreindri Excel færibreytuskrá. Þessi skipun notar núverandi staðbundnar sjálfvirkniskrár og hleður ekki niður skrám frá Azure DevOps. Þessi skipun er ekki studd fyrir POS viðskiptaprófunartilvik.
+Spilar prófunartilvikið sem er tengt tilgreindri Excel færibreytuskrá. Þessi skipun notar núverandi staðbundnar sjálfvirkniskrár og hleður ekki niður skrám frá Azure DevOps. Þessi skipun er ekki studd fyrir POS-viðskiptaprófunartilvik.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file]``
 
 ##### <a name="playback-optional-switches"></a>spilun: valfrjálsir rofar
 
-+ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilfelli prófunartilvika er læst af öðrum RSAT tilfellum, mun spilunarferlið bíða í tilgreindan fjölda sekúndna og síðan reyna einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
-+ `/comments[="comment"]`: Gefðu upp sérsniðna upplýsingastreng sem verður innifalinn í **Athugasemdir** reit á yfirlits- og prófniðurstöðusíðum fyrir Azure DevOps prófunarmál keyrir.
++ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilviksprófunartilvik eru læst af öðrum RSAT-tilvikum, mun spilunarferlið bíða í tilgreindan fjölda sekúnda og reyna síðan einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
++ `/comments[="comment"]`: Gefðu upp sérsniðna upplýsingastreng sem verður innifalinn í **Athugasemdir** reitinn á yfirlits- og prófunarniðurstöðusíðunum fyrir Azure DevOps prófunarmál keyrir.
 
 ##### <a name="playback-required-parameters"></a>playback: nauðsynlegar færibreytur
 
@@ -474,14 +474,14 @@ Spilar prófunartilvikið sem er tengt tilgreindri Excel færibreytuskrá. Þess
 
 #### <a name="playbackbyid"></a>playbackbyid
 
-Spilar mörg próftilvik á sama tíma. Próftilvikin eru auðkennd með auðkenni þeirra. Þessi skipun mun hlaða niður skrám frá Azure DevOps. Þú getur notað``list`` skipun til að fá öll tiltæk próftilvik, og notaðu eitthvað af gildunum úr fyrsta dálknum sem a **prófunartilfelli** breytu.
+Spilar mörg próftilvik á sama tíma. Próftilvikin eru auðkennd með auðkenni þeirra. Þessi skipun mun hlaða niður skrám frá Azure DevOps. Þú getur notað``list`` skipun til að fá öll tiltæk próftilvik, og notaðu eitthvað af gildunum úr fyrsta dálknum sem a **prófunartilviksauðkenni** breytu.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[/retry[=<seconds>]] [/comments[="comment"]] [test_case_id1] [test_case_id2] ... [test_case_idN]``
 
 ##### <a name="playbackbyid-optional-switches"></a>playbackbyid: valfrjálsir rofar
 
-+ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilfelli prófunartilvika er læst af öðrum RSAT tilfellum, mun spilunarferlið bíða í tilgreindan fjölda sekúndna og síðan reyna einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
-+ `/comments[="comment"]`: Gefðu upp sérsniðna upplýsingastreng sem verður innifalinn í **Athugasemdir** reit á yfirlits- og prófniðurstöðusíðum fyrir Azure DevOps prófunarmál keyrir.
++ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilviksprófunartilvik eru læst af öðrum RSAT-tilvikum, mun spilunarferlið bíða í tilgreindan fjölda sekúnda og reyna síðan einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
++ `/comments[="comment"]`: Gefðu upp sérsniðna upplýsingastreng sem verður innifalinn í **Athugasemdir** reitinn á yfirlits- og prófunarniðurstöðusíðunum fyrir Azure DevOps prófunarmál keyrir.
 
 ##### <a name="playbackbyid-required-parameters"></a>playback: nauðsynlegar færibreytur
 
@@ -505,10 +505,10 @@ Spilar mörg próftilvik á sama tíma. Prófunartilvikin eru auðkennd með Exc
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file1] [excel_parameter_file2] ... [excel_parameter_fileN]``
 
-##### <a name="playbackmany-optional-switches"></a>Spilun margt: valfrjálsir rofar
+##### <a name="playbackmany-optional-switches"></a>spilunmargt: valfrjálsir rofar
 
-+ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilfelli prófunartilvika er læst af öðrum RSAT tilfellum, mun spilunarferlið bíða í tilgreindan fjölda sekúndna og síðan reyna einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
-+ `/comments[="comment"]`: Gefðu upp sérsniðna upplýsingastreng sem verður innifalinn í **Athugasemdir** reit á yfirlits- og prófniðurstöðusíðum fyrir Azure DevOps prófunarmál keyrir.
++ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilviksprófunartilvik eru læst af öðrum RSAT-tilvikum, mun spilunarferlið bíða í tilgreindan fjölda sekúnda og reyna síðan einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
++ `/comments[="comment"]`: Gefðu upp sérsniðna upplýsingastreng sem verður innifalinn í **Athugasemdir** reitinn á yfirlits- og prófunarniðurstöðusíðunum fyrir Azure DevOps prófunarmál keyrir.
 
 ##### <a name="playbackmany-required-parameters"></a>playbackmany: nauðsynlegar færibreytur
 
@@ -526,16 +526,16 @@ Spilar mörg próftilvik á sama tíma. Prófunartilvikin eru auðkennd með Exc
 
 #### <a name="playbacksuite"></a>playbacksuite
 
-Spilar öll próftilvik úr einni eða fleiri tilgreindum prófunarsvítum. Ef /local rofinn er tilgreindur verða staðbundin viðhengi notuð til spilunar. Annars verða viðhengi hlaðið niður frá Azure DevOps. Þú getur notað``listtestsuitenames`` skipun til að fá allar tiltækar prófunarsvítur, og notaðu hvaða gildi sem er úr fyrsta dálknum sem a **suite_name** breytu.
+Spilar öll próftilvik úr einni eða fleiri tilgreindum prófunarsvítum. Ef /local rofinn er tilgreindur verða staðbundin viðhengi notuð fyrir spilun. Annars verður viðhengjum hlaðið niður frá Azure DevOps. Þú getur notað``listtestsuitenames`` skipun til að fá allar tiltækar prófunarsvítur, og notaðu hvaða gildi sem er úr fyrsta dálknum sem a **suite_name** færibreytu.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] ([test_suite_name1] .. [test_suite_nameN] | [/byid] [test_suite_id1] .. [test_suite_idN])``
 
 ##### <a name="playbacksuite-optional-switches"></a>playbacksuite: valfrjálsir rofar
 
 + `/updatedriver`: Ef þessi rofi er tilgreindur verður vefstýrikerfi netvafrans uppfært eftir þörfum áður en spilunarferlið er keyrt.
-+ `/local`: Þessi rofi gefur til kynna að nota ætti staðbundin viðhengi fyrir spilun í stað þess að hlaða niður skrám frá Azure DevOps.
-+ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilfelli prófunartilvika er læst af öðrum RSAT tilfellum, mun spilunarferlið bíða í tilgreindan fjölda sekúndna og síðan reyna einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
-+ `/comments[="comment"]`: Gefðu upp sérsniðna upplýsingastreng sem verður innifalinn í **Athugasemdir** reit á yfirlits- og prófniðurstöðusíðum fyrir Azure DevOps prófunarmál keyrir.
++ `/local`: Þessi rofi gefur til kynna að nota ætti staðbundin viðhengi til spilunar í stað þess að hlaða niður skrám frá Azure DevOps.
++ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilviksprófunartilvik eru læst af öðrum RSAT-tilvikum, mun spilunarferlið bíða í tilgreindan fjölda sekúnda og reyna síðan einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
++ `/comments[="comment"]`: Gefðu upp sérsniðna upplýsingastreng sem verður innifalinn í **Athugasemdir** reitinn á yfirlits- og prófunarniðurstöðusíðunum fyrir Azure DevOps prófunarmál keyrir.
 + `/byid`: Þessi rofi gefur til kynna að æskileg prófunarsvíta sé auðkennd með því Azure DevOps Auðkenni í stað nafns prófunarpakkans.
 
 ##### <a name="playbacksuite-required-parameters"></a>playbacksuite: nauðsynlegar færibreytur
@@ -563,8 +563,8 @@ Keyrir öll próftilvik í tilgreindu Azure DevOps prófunarsvíta.
 
 ##### <a name="playbacksuitebyid-optional-switches"></a>playbacksuitebyid: valfrjálsir rofar
 
-+ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilfelli prófunartilvika er læst af öðrum RSAT tilfellum, mun spilunarferlið bíða í tilgreindan fjölda sekúndna og síðan reyna einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
-+ `/comments[="comment"]`: Gefðu upp sérsniðna upplýsingastreng sem verður innifalinn í **Athugasemdir** reit á yfirlits- og prófniðurstöðusíðum fyrir Azure DevOps prófunarmál keyrir.
++ `/retry[=seconds]`: Ef þessi rofi er tilgreindur og tilviksprófunartilvik eru læst af öðrum RSAT-tilvikum, mun spilunarferlið bíða í tilgreindan fjölda sekúnda og reyna síðan einu sinni enn. Sjálfgefið gildi fyrir\[ sekúndur\] er 120 sekúndur. Án þessa skipta verður ferlið hætt strax ef prófunartilvik eru læst.
++ `/comments[="comment"]`: Gefðu upp sérsniðna upplýsingastreng sem verður innifalinn í **Athugasemdir** reitinn á yfirlits- og prófunarniðurstöðusíðunum fyrir Azure DevOps prófunarmál keyrir.
 + `/byid`: Þessi rofi gefur til kynna að æskileg prófunarsvíta sé auðkennd með því Azure DevOps Auðkenni í stað nafns prófunarpakkans.
 
 ##### <a name="playbacksuitebyid-required-parameters"></a>playbacksuitebyid: nauðsynlegar breytur
@@ -593,7 +593,7 @@ Lokar forritinu. Þessi skipun er aðeins gagnleg þegar forritin eru í gangi �
 
 #### <a name="upload"></a>upload
 
-Hleður upp viðhengisskrám (upptöku-, framkvæmdar- og færibreytuskrám) sem tilheyra tilteknu prófunarpakka eða prófunartilfellum til Azure DevOps.
+Hleður upp viðhengisskrám (upptöku-, framkvæmdar- og færibreytuskrám) sem tilheyra tiltekinni prófunarsvítu eða prófunartilfellum til Azure DevOps.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``([test_suite_name] | [test_case_id1] .. [test_case_idN])``
 
@@ -619,7 +619,7 @@ Hleður aðeins upp skránni sem tilheyrir einu eða fleiri tilgreindum prófuna
 
 ##### <a name="uploadrecording-required-parameters"></a>uploadrecording: nauðsynlegar færibreytur
 
-+ `test_case_id1`: Táknar fyrsta auðkenni prófunartilviks fyrir upptökuna sem ætti að hlaða upp á Azure DevOps.
++ `test_case_id1`: Táknar fyrsta prófunartilvikskennið fyrir upptökuna sem ætti að hlaða upp á Azure DevOps.
 + `test_case_idN`: Táknar síðasta auðkenni prófunartilviks fyrir upptökuna sem ætti að hlaða upp á Azure DevOps.
 
 ##### <a name="uploadrecording-examples"></a>uploadrecording: dæmi

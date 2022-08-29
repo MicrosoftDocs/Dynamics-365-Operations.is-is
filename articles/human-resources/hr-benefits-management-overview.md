@@ -1,6 +1,6 @@
 ---
 title: Yfirlit fríðindastjórnunar
-description: Þessi grein veitir yfirlit yfir eiginleikann Fríðindastjórnun í Dynamics 365 Human Resources.
+description: Þessi grein veitir yfirlit yfir eiginleikann ávinningsstjórnun í Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 12/06/2021
 ms.topic: overview
@@ -13,19 +13,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e3fa839b6e0f3cbaea8d2225b5a42ee8a368272
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901148"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337328"
 ---
 # <a name="benefits-management-overview"></a>Yfirlit fríðindastjórnunar
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Til að vera samkeppnishæfur verður þú að bjóða upp á mikið af fríðindum til að laða að og halda bestu starfsmönnum þínum. Til viðbótar við venjulegan ávinning eins og læknisfræðilega og tannlæknaþjónustu, gætirðu líka viljað bjóða upp á stækkaða þjónustu eins og ættleiðingaraðstoð, afþreyingarforrit og fatapeninga. Fríðindastjórnun í Microsoft Dynamics 365 Human Resources býður upp á sveigjanlega lausn sem styður fjölbreytta fríðindavalkosti. Human Resources felur einnig í sér nothæfa reynslu starfsmanna sem sýnir framboð þitt.
 
@@ -119,7 +114,7 @@ Næst verða starfsmenn að vera skráðir í fasta launaáætlun á upphafsdegi
 > [!NOTE] 
 > The **Fastur upphafsdagur bóta** getur ekki verið fyrir **Úthlutunardagur stöðu**.
 
-Að öðrum kosti, ef þú ert með starfsmann sem fær viðbótarlaun eins og þóknun, geturðu bætt við a **Hagur árslaun** upphæð úr starfsmannaskrá. Mannauður mun nota **Hagur árslaun** fjárhæð við ákvörðun tryggingafjárhæða, í stað þess **Fastar bætur árlegar** magn. **Árleg launatengd fríðindi** verða að gilda frá upphafsdagsetningu starfsmanns eða frá upphafi fríðindatímabilsins, hvort sem kemur á eftir. Hins vegar er ekki krafist stöðu til að úthluta **Hagur árslaun**. Til að virkja **Hagur árslaun** lögun, farðu í **Mannauður sameiginlegar breytur** síðu, á **Stjórnun fríðinda** flipa. Sjálfgefið er slökkt á þessum eiginleika.
+Að öðrum kosti, ef þú ert með starfsmann sem fær viðbótarlaun eins og þóknun, geturðu bætt við a **Hagur árslaun** upphæð úr starfsmannaskrá. Mannauður mun nota **Hagur árslaun** fjárhæð við ákvörðun tryggingafjárhæða, í stað þess **Fastar bætur árlega** magn. **Árleg launatengd fríðindi** verða að gilda frá upphafsdagsetningu starfsmanns eða frá upphafi fríðindatímabilsins, hvort sem kemur á eftir. Hins vegar er ekki krafist stöðu til að úthluta **Hagur árslaun**. Til að virkja **Hagur árslaun** lögun, farðu í **Mannauður sameiginlegar breytur** síðu, á **Stjórnun fríðinda** flipa. Sjálfgefið er slökkt á þessum eiginleika.
 
 > [!IMPORTANT]
 > Ef bæði a **Fastar bætur** og a **Hagur árslaun** upphæð er færð fyrir starfsmann, sem **Hagur árslaun** verður notað við ákvörðun tryggingafjárhæða. Í **Upplýsingar um ráðningu** kafla í **Vinnumaður** síðu, þú verður að velja gildi í **Launatíðni bóta** sviði.
@@ -128,11 +123,11 @@ Að öðrum kosti, ef þú ert með starfsmann sem fær viðbótarlaun eins og �
 Þegar þú býrð til bótaáætlun þar sem notast er við tíðni sem byggist á kyni eða aldri, verður þú að færa inn fæðingardag og kyn starfsmanns til að reikna út fríðindakostnaðinn.
 
 ## <a name="process-employees-to-determine-eligibility"></a>Vinna úr starfsmönnum til að ákvarða hæfi
-Áður en hægt er að skrá starfsmenn í áætlanir er úrvinnsla á hæfi keyrð til að skera úr um hvaða áætlanir eru gjaldgengar fyrir þá. Þú getur skoðað niðurstöður hæfisferlisins í **Skoðari vinnsluniðurstöðu**. Frekari upplýsingar er að finna í [Vinna úr fríðindahæfni](hr-benefits-process-enrollment-eligibility.md).
+Áður en hægt er að skrá starfsmenn í áætlanir er úrvinnsla á hæfi keyrð til að skera úr um hvaða áætlanir eru gjaldgengar fyrir þá. Þú getur skoðað niðurstöður úr hæfisferlinu í **Skoðari vinnsluniðurstöðu**. Frekari upplýsingar er að finna í [Vinna úr fríðindahæfni](hr-benefits-process-enrollment-eligibility.md).
 
 ## <a name="employees-select-plans-using-employee-self-service-optional"></a>Starfsmenn velja áætlanir með því að nota **Sjálfsafgreiðsla starfsmanna** (valfrjálst)
 
-Þegar opin skráning á sér stað, starfsmenn eru nýráðnir eða lífsatburður á sér stað, geta starfsmenn valið eða uppfært kjör sín með því að nota **Sjálfsafgreiðsla starfsmanna**. Frekari upplýsingar er að finna í [Skilgreina sjálfsafgreiðslu starfsmanna](hr-benefits-setup-employee-self-service.md).
+Þegar opin skráning á sér stað, starfsmenn eru nýráðnir eða lífsatburður á sér stað geta starfsmenn valið eða uppfært kjör sín með því að nota **Sjálfsafgreiðsla starfsmanna**. Frekari upplýsingar er að finna í [Skilgreina sjálfsafgreiðslu starfsmanna](hr-benefits-setup-employee-self-service.md).
 
 ## <a name="confirm-employee-plan-selections"></a>Staðfesta val starfsmannaáætlunar
 
@@ -147,6 +142,16 @@ Staðfesta þarf fríðindin sem starfsmenn velja áður en litið er á starfsm
 - [Vinna úr viðburðum](hr-benefits-process-life-events.md)
 - [Vinna úr breytingum á viðburðum](hr-benefits-process-life-event-changes.md)
 - [Vinna úr hæfni viðburðar](hr-benefits-process-life-event-eligibility.md)
+
+Eftir að úrvinnslu lífsatburðar er lokið og svo lengi sem skráningartímabil lífsatburðar er opið geta starfsmenn gert breytingar á áætlunarvalkostunum sem lífsatburðurinn hefur áhrif á. Stjórnendur geta gert breytingarnar fyrir hönd starfsmanna. Eftir að skráningartímabilinu lýkur og engar óstaðfestar áætlanagerðir eru tengdar lífsatburðarfærslunni er færslunni lokað.
+
+Allar áætlanir sem lífsatburðurinn hefur áhrif á verður annaðhvort að velja eða falla frá og síðan staðfesta. Ef áætlun er ekki valin, ekki er vikið frá henni og er því ekki staðfest, er lífsatburðarfærslunni ekki lokað.
+
+Stjórnendur geta handvirkt lokað lífsatburðarfærslu eftir þörfum, með því að velja hana og síðan velja **Loka**. Ef það eru óstaðfestar áætlanir í viðskiptunum og stjórnandi vill loka þeim, gæti lokun lífsviðburðarins takmarkað breytingar á þeim áætlunum.
+
+Ekki er hægt að eyða lokuðum lífsviðburðum.
+
+Stjórnendur geta enduropnað lífsatburðarfærslu eftir þörfum, með því að velja hana og velja síðan **Opna aftur**.
 
 ## <a name="rate-updates-optional"></a>Uppfærslur verðs (valfrjálst)
 

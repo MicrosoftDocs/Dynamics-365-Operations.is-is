@@ -1,26 +1,26 @@
 ---
 title: Úrræðaleita vandamál sem tengjast afköstum í skilgreiningum rafrænnar skýrslugerðar
 description: Þessi grein útskýrir hvernig á að finna og laga frammistöðuvandamál í rafrænum skýrslum (ER) stillingum.
-author: NickSelin
+author: kfend
 ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERModelMappingDesigner, EROperationDesigner, ERFormatMappingRunJobTable, ERParameters, ERSolutionTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
 ms.author: maximbel
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 28ff68309bad7a6c1b6009ba03ef4b20aceb5194
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERModelMappingDesigner, EROperationDesigner, ERFormatMappingRunJobTable, ERParameters, ERSolutionTable
+ms.openlocfilehash: 283577e70d4e5c4314776f7420857cf8e25e735f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847341"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278737"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>Úrræðaleita vandamál sem tengjast afköstum í skilgreiningum rafrænnar skýrslugerðar
 
@@ -55,7 +55,7 @@ Stundum koma upp afkastavandamál sem tengjast ekki skilgreiningu rafræns skýr
 
 Undirbúið lítið sýnishorn eða safnið saman nokkrum rakningum á handahófskenndum tímapunktum skýrslumyndunar.
 
-Síðan, í [Rekjagreiningartæki](#trace-parser), gerðu staðlaða botn-upp greiningu og svaraðu eftirfarandi spurningum:
+Síðan, í [Rekja flokkari](#trace-parser), gerðu staðlaða botn-upp greiningu og svaraðu eftirfarandi spurningum:
 
 - Hverjar eru helstu aðferðirnar hvað varðar tímanotkun?
 - Hvaða hluta af heildartímanum nota þessar aðferðir?
@@ -193,7 +193,7 @@ Nokkrar takmarkanir eru á þessari nálgun. Þú verður að hafa stjórnandaa�
 
 #### <a name="reduce-volume-of-data-fetched"></a><a name="reduce-fetched-data"></a> Draga úr magni sóttra gagna
 
-Þú getur dregið úr minnisnotkun fyrir skyndiminni með því að takmarka fjölda reita í skrám forritatöflu sem þú sækir á keyrslutíma. Í þessu tilviki muntu aðeins sækja þau svæðisgildi í forritatöflu sem þú þarft í ER líkanakortlagningu þinni. Aðrir reitir í þeirri töflu verða ekki sóttir. Þess vegna minnkar minnismagnið sem þarf til að vista sóttar færslur í skyndiminni. Fyrir frekari upplýsingar, sjá [Bættu frammistöðu ER lausna með því að fækka töflureitum sem eru sóttir á keyrslutíma](er-reduce-fetched-fields-number.md).
+Þú getur dregið úr minnisnotkun fyrir skyndiminni með því að takmarka fjölda reita í skrám forritatöflu sem þú sækir á keyrslutíma. Í þessu tilviki muntu aðeins sækja þau svæðisgildi í forritatöflu sem þú þarft í ER líkanavörpun þinni. Aðrir reitir í þeirri töflu verða ekki sóttir. Þess vegna minnkar minnismagnið sem þarf til að vista sóttar færslur í skyndiminni. Fyrir frekari upplýsingar, sjá [Bættu frammistöðu ER lausna með því að fækka töflureitum sem eru sóttir á keyrslutíma](er-reduce-fetched-fields-number.md).
 
 #### <a name="use-a-cached-parameterized-calculated-field"></a><a name="cached-parameterized"></a>Nota færibreytustilltan reiknaðan reit sem vistaður er í skyndiminni
 
@@ -222,4 +222,4 @@ Rafræn skýrslugerð getur notað gögn frá eftirfarandi upprunum:
 - Klösum (**hlutar** og **klasa** gagnagjöfum)
 - Töflum (**töflu** og **töflufærslna** gagnagjöfum)
 
-The [ER forritunarviðmót (API)](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) býður einnig upp á leið til að senda fyrirfram útreiknuð gögn úr símanúmerinu. Forritapakkinn inniheldur fjölmörg dæmi um þessa nálgun.
+The [ER forritunarviðmót (API)](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) býður einnig upp á leið til að senda forreiknuð gögn úr hringitónskóðanum. Forritapakkinn inniheldur fjölmörg dæmi um þessa nálgun.

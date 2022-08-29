@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a360b8beaad2bf6916c22765131e37f90e40282b
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895758"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306174"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Nota Inventory Visibility-forritið
 
@@ -70,10 +70,24 @@ Til að bóka frátekningarbeiðni þarftu að færa inn gildi í meginmál bei�
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Birgðayfirlit
 
-**Birgðasamantekt** er sérstillt yfirlit fyrir Einingu fyrir *samtölu lagerbirgða*. Þar er að finna birgðasamantekt fyrir afurðir ásamt öllum víddum. Birgðayfirlitsgögn eru samstillt reglulega frá Birgðasýnileika á 15 mínútna fresti. Til að sjá gögn um **Birgðayfirlit** flipann verður þú að kveikja á *OnHandMostSpecificBackgroundService* eiginleiki á **Eiginleikastjórnun** flipann og veldu **Uppfærðu stillingar**.
+The **Birgðayfirlit** síða veitir birgðayfirlit fyrir vörur ásamt öllum víddum. Það er sérsniðið útsýni fyrir *Inventory OnHand Summa* aðila. Birgðayfirlitsgögn eru samstillt reglulega frá Birgðasýnileika.
+
+### <a name="enable-the-inventory-summary-and-set-the-synchronization-frequency"></a>Virkjaðu birgðayfirlitið og stilltu samstillingartíðni
+
+Til að virkja **Birgðayfirlit** síðu og stilltu samstillingartíðni, fylgdu þessum skrefum:
+
+1. Opnaðu síðuna **Skilgreining**.
+1. Opnaðu **Eiginleikastjórnun og stillingar** flipa.
+1. Stilltu rofann fyrir **OnHandMostSpecificBackgroundService** lögun til *Já*.
+1. Þegar aðgerðin er virkjuð mun **Þjónustustillingar** hluti verður tiltækur og inniheldur línu til að stilla **OnHandMostSpecificBackgroundService** eiginleiki. Þessi stilling gerir þér kleift að velja tíðni sem birgðayfirlitsgögn eru samstillt á. Nota **Upp** og **Niður** hnappar í **Gildi** dálki til að breyta tímanum á milli samstillinga (sem getur verið allt að 5 mínútur). Veldu síðan **Vista**.
+1. Veldu **Uppfærðu stillingar** til að vista allar breytingar.
+
+![OnHandMostSpecificBackgroundService Stilling](media/inventory-visibility-ohms-freq.PNG "OnHandMostSpecificBackgroundService Stilling")
 
 > [!NOTE]
 > The *OnHandMostSpecificBackgroundService* eiginleiki fylgist aðeins með vörubreytingum sem áttu sér stað eftir að þú kveiktir á eiginleikanum. Gögn fyrir vörur sem hafa ekki breyst síðan þú kveiktir á eiginleikanum verða ekki samstillt úr skyndiminni birgðaþjónustunnar við Dataverse umhverfi. Ef þín **Birgðayfirlit** síða sýnir ekki allar þær upplýsingar sem þú ert að búast við, farðu á **Birgðastjórnun > Reglubundin verkefni > Samþætting birgðasýnileika**, slökktu á runuvinnslunni og virkjaðu það aftur. Þetta mun gera fyrstu ýtuna og öll gögn verða samstillt við *Inventory OnHand Summa* aðila á næstu 15 mínútum. Ef þú vilt nota þennan eiginleika mælum við með því að þú kveikir á honum áður en þú býrð til breytingar á hendi og virkjar **Samþætting birgðasýnileika** lotuvinna.
+
+### <a name="work-with-the-inventory-summary"></a>Vinna með birgðayfirlitið
 
 Með því að nota **Ítarlega sía** sem Dataverse býður upp á getur þú búið til eigið yfirlit sem sýnir línurnar sem skipta þig máli. Ítarlegir síuvalkostir gera þér kleift að búa til margvísleg yfirlit, bæði einföld og flókin. Þeir gera þér einnig kleift að bæta flokkuðum og földuðum skilyrðum við síurnar. Frekari upplýsingar um hvernig á að nota **Ítarlega sía** er að finna í [Breyta eða búa til eigin yfirlit með ítarlegum síum hnitanets](/powerapps/user/grid-filters-advanced).
 

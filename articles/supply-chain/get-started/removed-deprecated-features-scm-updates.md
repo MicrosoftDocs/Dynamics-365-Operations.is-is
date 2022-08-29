@@ -1,8 +1,8 @@
 ---
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
-description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir eða sem fyrirhugað er að fjarlægja í Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í Dynamics 365 Supply Chain Management.
 author: kamaybac
-ms.date: 04/27/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
-ms.translationtype: HT
+ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171516"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218804"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
 
@@ -33,6 +33,17 @@ ms.locfileid: "9171516"
 > [!NOTE]
 > Ítarlegar upplýsingar um hluti í fjármála- og rekstraröppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af fjármála- og rekstrarforritum.
 
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10029-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Supply Chain Management 10.0.29 útgáfa
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Flutningspantanir birgða þar sem skattur er á flutningsverð
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Ástæða úreldingar/fjarlægingar** | The [Tilfærslupantanir á birgðaflutningi sem hafa skatt á millifærsluverði](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) virkni er skipt út fyrir [Pantanir á lagerflutningi fyrir Indland](../../finance/localizations/apac-ind-stock-transfer.md) virkni. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, the [Tilfærslupantanir á birgðaflutningi sem hafa skatt á millifærsluverði](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) virkni er skipt út fyrir [Pantanir á lagerflutningi fyrir Indland](../../finance/localizations/apac-ind-stock-transfer.md) virkni. |
+| **Afurðasvæði sem haft er áhrif á** | Aðfangakeðjustjórnun - birgðahald |
+| **Dreifingarvalkostur** | Ský og innanhúss |
+| **Staða** | <p>Að vera afskrifaður. The *Tilfærslupantanir á birgðaflutningi sem hafa skatt á millifærsluverði* virkni mun ekki fá stuðning með villuleiðréttingum og öryggisleiðréttingum.</p><p>Eftir apríl 2023 verða viðskiptavinir beðnir um að nota bætta virkni, *Pantanir á lagerflutningi fyrir Indland*, sjálfgefið. Eftir október 2023, *Tilfærslupantanir á birgðaflutningi sem hafa skatt á millifærsluverði* virkni verður ekki lengur tiltæk og viðskiptavinir verða beðnir um að fara yfir í hið endurbætta *Pantanir á lagerflutningi fyrir Indland* virkni.</p><p>Fyrir frekari upplýsingar, sjá [Pantanir á lagerflutningi fyrir Indland](../../finance/localizations/apac-ind-stock-transfer.md).</p> |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Supply Chain Management 10.0.19 útgáfa
 
@@ -52,7 +63,7 @@ ms.locfileid: "9171516"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Gildir í apríl 2021, *Aðfangakeðjustjórnun - Vörugeymsla* (vöruhúsaforritið) er úrelt og verður ekki stutt eftir apríl 2022. Því er nú skipt út fyrir *Farsímaforrit vöruhúsakerfis*, sem var gefið út í útgáfu 10.0.17 af Supply Chain Management. Nýja forritið kemur í stað þess eldra en notar sama undirliggjandi ramma sem auðveldar flutning. Hægt er að nota forritin hlið við hlið til að notendur geti vanist nýja forritinu.<br><br>Ef leitað er upplýsinga um hvernig eigi að skilgreina gamla farsímaforritið fyrir farsímaforrit vöruhúsakerfis skal skoða [Farsímaforrit vöruhúsakerfi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) og [Setja upp og tengja farsímaforrit vöruhúsakerfis](../warehousing/install-configure-warehouse-management-app.md). |
+| **Ástæða úreldingar/fjarlægingar** | Gildir í apríl 2021, *Aðfangakeðjustjórnun - Vörugeymsla* (vöruhúsaappið) er úrelt og verður ekki stutt eftir apríl 2022. Því er nú skipt út fyrir *Farsímaforrit vöruhúsakerfis*, sem var gefið út í útgáfu 10.0.17 af Supply Chain Management. Nýja forritið kemur í stað þess eldra en notar sama undirliggjandi ramma sem auðveldar flutning. Hægt er að nota forritin hlið við hlið til að notendur geti vanist nýja forritinu.<br><br>Ef leitað er upplýsinga um hvernig eigi að skilgreina gamla farsímaforritið fyrir farsímaforrit vöruhúsakerfis skal skoða [Farsímaforrit vöruhúsakerfi](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) og [Setja upp og tengja farsímaforrit vöruhúsakerfis](../warehousing/install-configure-warehouse-management-app.md). |
 | **Skipt út fyrir aðra eiginleika?**   | Já, skipt út fyrir nýtt farsímaforrit vöruhúsakerfis. |
 | **Afurðasvæði sem haft er áhrif á**         | Supply Chain Management - vöruhúsaforrit |
 | **Dreifingarvalkostur**              | Ský og innanhúss |
@@ -78,7 +89,7 @@ ms.locfileid: "9171516"
 | **Skipt út fyrir aðra eiginleika?**   | Já, fínstilling áætlanagerðar kemur í stað núverandi aðaláætlunarvélar Supply Chain Management. |
 | **Afurðasvæði sem haft er áhrif á**         | Supply Chain Management - Aðaláætlanagerð |
 | **Dreifingarvalkostur**              | Aðeins ský. Fínstilling áætlanagerðar er ekki studd með uppsetningu á staðnum. |
-| **Staða**                         | Úrelt. Fyrir 1. apríl 2022 verða framleiðslusviðsmyndir ekki lengur studdar fyrir innbyggðu Supply Chain Management aðalskipulagsvélina. Frá og með þeim degi mun Microsoft stöðva alla virka þróun á framleiðsluatburðarás fyrir innbyggðu skipulagsvélina, mun ekki gefa út neina nýja eiginleika og mun aðeins gefa út mikilvægar villuleiðréttingar. Eftir þá dagsetningu verða öll fyrirtæki sem þurfa stuðning við framleiðslusviðsmyndir að nota áætlanagerð fínstillingu fyrir aðalskipulagsútreikninga. Gert er ráð fyrir að hagræðing skipulags muni styðja að fullu framleiðslusviðsmyndir fyrir október 2022. Fyrir frekari upplýsingar, sjá [Skipulagshagræðingarskjöl](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Fyrirtæki með innleiðingu á birgðakeðjustjórnun á staðnum geta haldið áfram að nota innbyggðu aðalskipulagsvélina fyrir framleiðslusviðsmyndir eftir apríl 2022. Ekki verður boðið upp á fleiri umbætur á eiginleikum. |
+| **Staða**                         | Úrelt. Fyrir 1. apríl 2022 verða framleiðslusviðsmyndir ekki lengur studdar fyrir innbyggðu Supply Chain Management aðalskipulagsvélina. Frá og með þeim degi mun Microsoft stöðva alla virka þróun á framleiðsluatburðarás fyrir innbyggðu skipulagsvélina, mun ekki gefa út neina nýja eiginleika og mun aðeins gefa út mikilvægar villuleiðréttingar. Eftir þá dagsetningu verða öll fyrirtæki sem þurfa stuðning við framleiðslusviðsmyndir að nota áætlanagerð fínstillingu fyrir aðalskipulagsútreikninga. Gert er ráð fyrir að hagræðing skipulags muni styðja að fullu framleiðslusviðsmyndir fyrir október 2022. Fyrir frekari upplýsingar, sjá [Skipulagshagræðingarskjöl](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Fyrirtæki með innleiðingu á birgðakeðjustjórnun á staðnum geta haldið áfram að nota innbyggðu aðalskipulagsvélina fyrir framleiðsluatburðarás eftir apríl 2022. Ekki verður boðið upp á fleiri umbætur á eiginleikum. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Supply Chain Management 10.0.11 útgáfa
 

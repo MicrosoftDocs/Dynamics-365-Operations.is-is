@@ -2,47 +2,51 @@
 title: Dreifingarleiðbeiningar fyrir samþættingarsýni prentara fyrir Ítalíu (arfleifð)
 description: Þessi grein veitir leiðbeiningar um uppsetningu á samþættingarsýni prentara fyrir Ítalíu frá Microsoft Dynamics 365 Commerce Smásöluhugbúnaðarþróunarsett (SDK).
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: bb07ca91c9e5bf1a79f672f9ba29b7bcc21688c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: josaw
+ms.search.validFrom: 2019-03-01
+ms.openlocfilehash: 46d42a2c2a5f8f40fc8b9693f26a182c8f2e6352
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848899"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337223"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Dreifingarleiðbeiningar fyrir samþættingarsýni prentara fyrir Ítalíu (arfleifð)
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Þessi grein veitir leiðbeiningar um uppsetningu á samþættingarsýni prentara fyrir Ítalíu frá Microsoft Dynamics 365 Commerce Smásöluhugbúnaðarþróunarsett (SDK) á sýndarvél þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar um þetta sýnishorn af samþættingu ríkisfjármála, sjá [Samþættingarsýni prentara fyrir Ítalíu](emea-ita-fpi-sample.md). 
+> [!IMPORTANT]
+> Þú ættir aðeins að fylgja leiðbeiningunum í þessari grein ef þú ert að nota Microsoft Dynamics 365 Commerce útgáfu 10.0.28 eða eldri. Frá og með Commerce útgáfu 10.0.29 er sýnishorn um samþættingu prentara fyrir Ítalíu fáanlegt í Commerce hugbúnaðarþróunarsettinu (SDK). Fyrir frekari upplýsingar, sjá [Stilltu rásaríhluti](./emea-ita-fpi-sample.md#configure-channel-components).
 
-Fjármálasamþættingarúrtakið fyrir Ítalíu er hluti af Retail SDK. Fyrir upplýsingar um hvernig á að setja upp og nota SDK, sjá [Smásala hugbúnaðarþróunarsett (SDK) arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md). Þetta sýnishorn samanstendur af viðbótum fyrir Commerce runtime (CRT) og Vélbúnaðarstöð. Til að keyra þetta sýnishorn verður þú að breyta og byggja upp CRT og Vélbúnaðarstöðvarverkefni. Við mælum með því að þú notir óbreytt Retail SDK til að gera þær breytingar sem lýst er í þessari grein. Við mælum líka með því að þú notir heimildastýringarkerfi eins og Azure DevOps þar sem engum skrám hefur verið breytt ennþá.
+Þessi grein veitir leiðbeiningar um uppsetningu á samþættingarsýni prentara fyrir Ítalíu frá Dynamics 365 Commerce Smásölu-SDK á sýndarvél fyrir þróunaraðila (VM) í Microsoft Dynamics Lífsferilsþjónusta (LCS). Fyrir frekari upplýsingar um þetta sýnishorn af samþættingu ríkisfjármála, sjá [Samþættingarsýni prentara fyrir Ítalíu](emea-ita-fpi-sample.md). 
+
+Fjármálasamþættingarúrtakið fyrir Ítalíu er hluti af Retail SDK. Fyrir upplýsingar um hvernig á að setja upp og nota SDK, sjá [Smásala hugbúnaðarþróunarsett (SDK) arkitektúr](../dev-itpro/retail-sdk/retail-sdk-overview.md). Þetta sýnishorn samanstendur af viðbótum fyrir Commerce runtime (CRT) og Vélbúnaðarstöð. Til að keyra þetta sýnishorn verður þú að breyta og byggja upp CRT og Vélbúnaðarstöðvarverkefni. Við mælum með að þú notir óbreytt Retail SDK til að gera þær breytingar sem lýst er í þessari grein. Við mælum líka með því að þú notir heimildastýringarkerfi eins og Azure DevOps þar sem engum skrám hefur verið breytt ennþá.
 
 ## <a name="development-environment"></a>Þróunarumhverfi
 
-Fylgdu þessum skrefum til að setja upp þróunarumhverfi svo þú getir prófað og stækkað sýnishornið.
+Fylgdu þessum skrefum til að setja upp þróunarumhverfi svo þú getir prófað og framlengt sýnishornið.
 
 ### <a name="commerce-runtime-extension-components"></a>Viðskiptatímaframlengingarhlutar
 
 The CRT framlengingarhlutir eru innifalin í Retail SDK. Til að ljúka eftirfarandi aðferðum skaltu opna **CommerceRuntimeSamples.sln** lausn undir **RetailSdk\\ SampleExtensions\\ CommerceRuntime**.
 
-1. Finndu **Runtime.Extensions.DocumentProvider.EpsonFP90IIISample** verkefni, og byggja það.
+1. Finndu **Runtime.Extensions.DocumentProvider.EpsonFP90IIISample** verkefnið og byggja það.
 2. Í **Extensions.DocumentProvider.EpsonFP90IIISample\\ bin\\ Villuleit** möppu, finndu **Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll** samsetningarskrá.
 3. Afritaðu samsetningarskrána í CRT viðbætur mappa:
 
-    - **Eining viðskiptaskala:** Afritaðu skrána í **\\ bin\\ ext** möppu undir Internet Information Services (IIS) Commerce Scale Unit staðsetningu.
-    - **Staðbundið CRT á Modern POS:** Afritaðu skrána í **\\ ext** möppu undir staðnum CRT staðsetningu miðlara viðskiptavina.
+    - **Eining viðskiptaskala:** Afritaðu skrána í **\\ bin\\ ext** möppu undir staðsetningu Internet Information Services (IIS) Commerce Scale Unit.
+    - **Staðbundið CRT á Modern POS:** Afritaðu skrána í **\\ ext** möppu undir staðnum CRT staðsetningu miðlara viðskiptavinar.
 
 4. Finndu stillingarskrá fyrir viðbótina fyrir CRT:
 
     - **Eining viðskiptaskala:** Skráin er nefnd **commerceruntime.ext.config**, og það er í **bin\\ ext** möppu undir staðsetningu IIS Commerce Scale Unit.
-    - **Staðbundið CRT á Modern POS:** Skráin er nefnd **CommerceRuntime.MPOSOffline.Ext.config**, og það er undir staðnum CRT staðsetningu miðlara viðskiptavina.
+    - **Staðbundið CRT á Modern POS:** Skráin er nefnd **CommerceRuntime.MPOSOffline.Ext.config**, og það er undir staðnum CRT staðsetningu miðlara viðskiptavinar.
 
 5. Skráðu þig CRT breyting á stillingarskrá fyrir viðbótina.
 
@@ -59,9 +63,9 @@ The CRT framlengingarhlutir eru innifalin í Retail SDK. Til að ljúka eftirfar
 
 Viðbótarhlutir vélbúnaðarstöðvar eru innifaldir í smásölu SDK. Til að ljúka eftirfarandi aðferðum skaltu opna **HardwareStationSamples.sln** lausn undir **RetailSdk\\ SampleExtensions\\ Vélbúnaðarstöð**.
 
-1. Finndu **HardwareStation.Extensions.EpsonFP90IIIFiscalDeviceSample** verkefni, og byggja það.
+1. Finndu **HardwareStation.Extensions.EpsonFP90IIIFiscalDeviceSample** verkefnið og byggja það.
 2. Í **Viðbætur.EpsonFP90IIIFiscalDeviceSample\\ bin\\ Villuleit** möppu, finndu **Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll** samsetningarskrá.
-3. Afritaðu samsetningarskrána á uppsetta vélbúnaðarstöð:
+3. Afritaðu samsetningarskrána yfir á uppbyggða vélbúnaðarstöð:
 
     - **Fjarstýrð vélbúnaðarstöð:** Afritaðu skrána í **bin** möppu undir staðsetningu IIS vélbúnaðarstöðvar.
     - **Staðbundin vélbúnaðarstöð:** Afritaðu skrána á miðlarastað Modern POS viðskiptavinar.
@@ -69,7 +73,7 @@ Viðbótarhlutir vélbúnaðarstöðvar eru innifaldir í smásölu SDK. Til að
 4. Finndu stillingarskrána fyrir viðbætur vélbúnaðarstöðvarinnar. Skráin er nefnd **HardwareStation.Extension.config**:
 
     - **Fjarstýrð vélbúnaðarstöð:** Skráin er staðsett undir staðsetningu IIS vélbúnaðarstöðvarinnar.
-    - **Staðbundin vélbúnaðarstöð:** Skráin er staðsett undir miðlarastað Modern POS viðskiptavinar.
+    - **Staðbundin vélbúnaðarstöð:** Skráin er staðsett undir miðlarastaðnum Modern POS viðskiptavinar.
 
 5. Bættu eftirfarandi hluta við **samsetningu** hluta stillingaskrárinnar.
 
@@ -87,7 +91,7 @@ Viðbótarhlutir vélbúnaðarstöðvar eru innifaldir í smásölu SDK. Til að
 Til að búa til dreifanlega pakka sem innihalda Commerce íhluti og nota þá pakka í framleiðsluumhverfi skaltu fylgja þessum skrefum.
 
 1. Ljúktu við skrefin sem lýst er í [Þróunarumhverfi](#development-environment) kafla fyrr í þessari grein.
-2. Gera eftirfarandi breytingar á samskipanarskrám pakka í möppunni **RetailSdk\\ Assets**:
+2. Gerðu eftirfarandi breytingar á stillingarskrám pakkans undir **RetailSdk\\ Eignir** mappa:
 
     1. Í **commerceruntime.ext.config** og **CommerceRuntime.MPOSOffline.Ext.config** stillingarskrár skaltu bæta eftirfarandi línu við **samsetningu** kafla.
 
@@ -95,13 +99,13 @@ Til að búa til dreifanlega pakka sem innihalda Commerce íhluti og nota þá p
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample" />
         ```
 
-    1. Í skilgreiningarskránni HardwareStation.Extension.config **er eftirfarandi línu bætt við samsetningarhlutann** **.**
+    1. Í **HardwareStation.Extension.config** stillingarskrá skaltu bæta eftirfarandi línu við **samsetningu** kafla.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample" />
         ```
 
-3. Gera eftirfarandi breytingar í **customization.settings sérsniðssamstillingarskrá customization.settings** pakkans **undir BuildTools** möppunni:
+3. Gerðu eftirfarandi breytingar á **Customization.settings** stillingarskrá fyrir sérsniðna pakka undir **Byggingarverkfæri** mappa:
 
     1. Bættu við eftirfarandi línu til að innihalda CRT framlengingu í dreifanlegum pökkum.
 
@@ -152,7 +156,7 @@ Til að búa til dreifanlega pakka sem innihalda Commerce íhluti og nota þá p
         ```
 
 6. Ræstu MSBuild Command Prompt fyrir Visual Studio gagnsemi, og keyra síðan **msbuild** undir Retail SDK möppunni til að búa til dreianlega pakka.
-7. Notaðu pakkana með LCS eða handvirkt. Sjá Create deployable packages [fyrir frekari upplýsingar](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+7. Notaðu pakkana í gegnum LCS eða handvirkt. Fyrir frekari upplýsingar, sjá [Búðu til pakka sem hægt er að nota](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
 
 ## <a name="design-of-extensions"></a>Hönnun viðbygginga
 
@@ -162,22 +166,22 @@ Tilgangur viðbyggingarinnar sem er fjárhagsskjalaveita er að búa til prentar
 
 The CRT framlenging er **Runtime.Extensions.DocumentProvider.EpsonFP90IIISample**.
 
-Nánari upplýsingar um hönnun fjárhagssamþættingarlausnarinnar eru í [Fjárhagsskráningarferli og fjárhagssamþættingarsýni fyrir fjárhagstæki og þjónustu](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
+Fyrir frekari upplýsingar um hönnun fjárhagslegrar samþættingarlausnar, sjá [Fjárhagsskráningarferli og sýnishorn af samþættingu ríkisfjármála fyrir ríkisfjármálatæki og þjónustu](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
-#### <a name="request-handler"></a>Biðja um rekil
+#### <a name="request-handler"></a>Beiðni um stjórnanda
 
 The **DocumentProvider EpsonFP90III** meðhöndlun beiðni er inngangsstaður beiðninnar um að búa til skjöl frá fjárhagsprentaranum.
 
-Rekillinn erfist frá viðmótinu **INamedRequestHandler**. HandlerName **aðferðin** ber ábyrgð á að skila nafni rekilsins. Heiti rekils ætti að samsvara heiti tengiskjalsveitunnar sem er tilgreint í höfuðstöðvum Commerce.
+Umsjónarmaðurinn er arfur frá **INAmedRequestHandler** viðmót. The **HandlerName** aðferð er ábyrg fyrir því að skila nafni stjórnanda. Nafn meðhöndlunar ætti að passa við heiti tengiskjalsveitu sem er tilgreint í höfuðstöðvum Commerce.
 
 Tengið styður eftirfarandi beiðnir:
 
-- **GetFiscalDocumentDocumentProviderRequest** – Þessi beiðni inniheldur upplýsingar um hvaða skjal á að mynda. Það skilar prentarasértæku skjali sem ætti að vera skráð í fjárhagsprentara.
-- **GetSupportedRegistrableEventsDocumentProviderRequest** – Þessi beiðni skilar lista yfir tilvik sem á að gerast áskrifandi að. Eins og er eru eftirfarandi atburðir studdir: sala, prentun X skýrslu og prentun Z skýrslu.
+- **GetFiscalDocumentDocumentProviderRequest** – Þessi beiðni inniheldur upplýsingar um hvaða skjal ætti að búa til. Það skilar prentarasértæku skjali sem ætti að vera skráð í fjárhagsprentara.
+- **GetSupportedRegistrableEventsDocumentProviderRequest** – Þessi beiðni skilar lista yfir viðburði til að gerast áskrifandi að. Eins og er eru eftirfarandi atburðir studdir: sala, prentun X skýrslu og prentun Z skýrslu.
 
 #### <a name="configuration"></a>Skilgreining
 
-Stillingarskráin er staðsett í **Stillingar** möppu framlengingarverkefnisins. Tilgangur skrárinnar er að gera stillingar fyrir skjalaveituna kleift að stilla frá höfuðstöðvum Commerce. Skráarsniðið er í takt við þarfir fyrir skilgreiningu fjárhagssamþættingar. Eftirfarandi stillingum er bætt við:
+Stillingarskráin er staðsett í **Stillingar** möppu framlengingarverkefnisins. Tilgangur skrárinnar er að gera stillingar fyrir skjalaveituna kleift að stilla frá höfuðstöðvum Commerce. Skráarsniðið er í samræmi við kröfurnar fyrir fjárhagslega samþættingu stillingar. Eftirfarandi stillingum er bætt við:
 
 - Vörpun VSK-kóða
 - Vörpun VSK-hlutfalls
@@ -185,27 +189,27 @@ Stillingarskráin er staðsett í **Stillingar** möppu framlengingarverkefnisin
 - Tegund strikamerkis fyrir númer kvittunar
 - Greiðslugerð innborgunar
 
-### <a name="hardware-station-extension-design"></a>Viðaukahönnun vélbúnaðarstöðvar
+### <a name="hardware-station-extension-design"></a>Hönnun vélbúnaðarstöðvar viðbyggingar
 
 Tilgangur viðbótarinnar sem er fjárhagstengi er að hafa samskipti við fjárhagsprentarann.
 
 Viðbygging Vélbúnaðarstöðvarinnar er **HardwareStation.Extension.EpsonFP90IIIFiscalDeviceSample**. Þessi viðbót notar HTTP samskiptareglur til að leggja fram skjöl sem CRT framlenging myndar á fjárhagsprentarann. Það sér einnig um svör sem berast frá fjármálaprentara.
 
-#### <a name="request-handler"></a>Biðja um rekil
+#### <a name="request-handler"></a>Beiðni um stjórnanda
 
 The **EpsonFP90III Dæmi** meðhöndlun beiðna er inngangsstaðurinn fyrir meðhöndlun beiðna til ríkisútlæga tækisins.
 
-Rekillinn erfist frá viðmótinu **INamedRequestHandler**. HandlerName **aðferðin** ber ábyrgð á að skila nafni rekilsins. Heiti rekils ætti að samsvara heiti fjárhagstengisins sem er tilgreint í höfuðstöðvum Commerce.
+Umsjónarmaðurinn er arfur frá **INAmedRequestHandler** viðmót. The **HandlerName** aðferð er ábyrg fyrir því að skila nafni stjórnanda. Nafn meðhöndlunar ætti að passa við nafn fjárhagstengis sem er tilgreint í höfuðstöðvum Commerce.
 
 Tengið styður eftirfarandi beiðnir:
 
-- **Senda innDocumentFiscalDeviceRequest** – Þessi beiðni sendir skjöl til prentara og skilar svari frá fjármálaprentara.
+- **SubmitDocumentFiscalDeviceRequest** – Þessi beiðni sendir skjöl til prentara og skilar svari frá fjármálaprentara.
 - **IsReadyFiscalDeviceRequest** – Þessi beiðni er notuð fyrir heilsufarsskoðun tækisins.
 - **Frumstilla FiscalDeviceRequest** – Þessi beiðni er notuð til að frumstilla prentara.
 
 #### <a name="configuration"></a>Skilgreining
 
-Stillingarskráin er staðsett í **Stillingar** möppu framlengingarverkefnisins. Tilgangur skrárinnar er að gera stillingar fyrir tengið kleift að stilla frá höfuðstöðvum Commerce. Skráarsniðið er í takt við þarfir fyrir skilgreiningu fjárhagssamþættingar. Eftirfarandi stillingum er bætt við:
+Stillingarskráin er staðsett í **Stillingar** möppu framlengingarverkefnisins. Tilgangur skrárinnar er að gera stillingar fyrir tengið kleift að stilla frá höfuðstöðvum Commerce. Skráarsniðið er í samræmi við kröfurnar fyrir fjárhagslega samþættingu stillingar. Eftirfarandi stillingum er bætt við:
 
 - **Heimilisfang endapunkts** – Vefslóð prentarans.
 - **Samstilling dagsetningar og tíma** – Gildi sem tilgreinir hvort samstilla þarf dagsetningu og tíma prentarans við tengda vélbúnaðarstöðina.

@@ -2,38 +2,35 @@
 title: Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management
 description: Þessi grein lýsir því hvernig á að búa til og sýna sérsniðnar leiðbeiningar fyrir hvert skref í hverju verkflæði sem þú setur upp fyrir vöruhússtjórnun farsímaforritið.
 author: Mirzaab
-ms.date: 08/11/2021
+ms.date: 08/09/2022
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: faa9bfa320823664603153601c56654170e7e23a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895497"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334477"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management
 
 > [!IMPORTANT]
 > Eiginleikarnir sem lýst er í þessari grein eiga aðeins við um nýja vöruhússtjórnun farsímaforritið. Þeir hafa ekki áhrif á gamla vöruhúsaforrið, sem nú er úrelt.
 
-Þessi grein lýsir því hvernig á að búa til og sýna sérsniðnar leiðbeiningar fyrir hvert skref í hverju verkflæði sem þú setur upp fyrir vöruhússtjórnun farsímaforritið. Þegar starfsmenn vöruhússins fá vel skrifaðar leiðbeiningar geta þeir strax byrjað að nota ný flæði án þess að þurfa neina þjálfun. Þessi eiginleiki veitir eftirfarandi ávinning:
+Þessi grein lýsir því hvernig á að búa til og sýna sérsniðnar leiðbeiningar fyrir hvert skref í hverju verkflæði sem þú setur upp fyrir vöruhúsastjórnun farsímaforritið. Þegar starfsmenn vöruhússins fá vel skrifaðar leiðbeiningar geta þeir strax byrjað að nota ný flæði án þess að þurfa neina þjálfun. Þessi eiginleiki veitir eftirfarandi ávinning:
 
 - **Undirbúðu starfsmenn á fljótlegri hátt með því að leyfa þeim að fylgja einföldum leiðbeiningum fyrir hvert skref í verki.** Í hverju skrefi flæðis eru leiðbeiningar sem gera starfsmönnum í framlínu kleift að skilja verkið.
 - **Útvegaðu leiðbeiningar sem passa við þína eigin ferla.** Skrifaðu eigin leiðbeiningar sem passa við viðskipta- og vöruhúsaferli þín. Þú getur til dæmis látið orðalagið passa við þinn raunveruleika og staðbundnar skammstafanir.
 
-## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>Kveikja á eiginleika fyrir skrefaleiðbeiningar vöruhúsaforrits
+## <a name="turn-the-warehouse-app-step-instructions-feature-on-or-off"></a>Kveiktu eða slökktu á skrefaleiðbeiningum Warehouse appsins
 
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
-
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Leiðbeiningar fyrir skref vöruhúsaforrits*
+Áður en þú getur notað þennan eiginleika verður að kveikja á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er þessi eiginleiki nauðsynlegur og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Skrefleiðbeiningar fyrir vöruhús app* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>Titlar og leiðbeiningar skrefa í forritinu
 

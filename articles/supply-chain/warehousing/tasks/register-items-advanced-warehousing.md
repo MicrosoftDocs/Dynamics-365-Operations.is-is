@@ -1,5 +1,5 @@
 ---
-title: Skrá vörur sem eru virkjaðar fyrir vöruhúsastjórnunarferli með því að nota komufærslubók vöru
+title: Nota vörukomubók til að skrá vörur sem eru virkar fyrir vöruhúsakerfisferli
 description: Þessi grein sýnir atburðarás sem sýnir hvernig á að skrá vörur með því að nota komufærslubók vöru þegar verið er að nota vöruhúsastjórnunarferli (WMS).
 author: Mirzaab
 ms.date: 03/24/2021
@@ -14,14 +14,14 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5241c982675d6b9a9bc9596b8ac9ed2798903287
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 66fc9e21b79d70ec14750440c74d354bb8ec0695
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066968"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219599"
 ---
-# <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Skrá vörur sem eru virkjaðar fyrir vöruhúsastjórnunarferli með því að nota komufærslubók vöru
+# <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Nota vörukomubók til að skrá vörur sem eru virkar fyrir vöruhúsakerfisferli
 
 [!include [banner](../../includes/banner.md)]
 
@@ -29,7 +29,7 @@ ms.locfileid: "9066968"
 
 ## <a name="enable-sample-data"></a>Virkja gögn sýnishorna
 
-Til að vinna í gegnum þessa atburðarás með því að nota sýnishornsskrárnar og gildin sem tilgreind eru í þessari grein verður þú að nota kerfi þar sem staðlað kynningargögn eru sett upp og þú verður að velja *USMF* lögaðila áður en þú byrjar.
+Til að vinna í gegnum þessa atburðarás með því að nota sýnishornsfærslur og gildi sem tilgreind eru í þessari grein, verður þú að nota kerfi þar sem staðallinn [kynningargögn](../../../fin-ops-core/fin-ops/get-started/demo-data.md) er uppsett og þú verður að velja *USMF* lögaðila áður en þú byrjar.
 
 Hægt er að vinna með þessar astæður með því að skipta gildum úr eigin gögnum ef eftirfarandi gögn eru tiltæk:
 

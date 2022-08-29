@@ -1,32 +1,32 @@
 ---
 title: Fellingareining
-description: Þessi grein fjallar um harmonikkueiningar og lýsir því hvernig á að bæta þeim við síður á vefsvæðinu Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um harmonikkueiningar og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4d5c56ea1a54e105b0c616958a18fd61077bca39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.openlocfilehash: ec895476770f297825d6c88d0b0a5fef43a5c6ef
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853825"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279157"
 ---
 # <a name="accordion-module"></a>Fellingareining
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein fjallar um harmonikkueiningar og lýsir því hvernig á að bæta þeim við síður á vefsvæðinu Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um harmonikkueiningar og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 
 Fellingareiningar líta út eins og hólfaeiningar sem eru notaðar við skipulagningu upplýsinga eða eininga á síðu með því að bjóða upp á möguleika sem lítur út eins og skúffa sem hægt er að draga út. Fellingareiningar er hægt að nota á öllu síðum.
 

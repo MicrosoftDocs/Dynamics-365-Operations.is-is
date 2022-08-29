@@ -1,32 +1,32 @@
 ---
 title: Skilgreina áfangastaði rafrænnar skýrslugerðar sem eru háðir aðgerð
 description: Þessi grein útskýrir hvernig á að stilla aðgerðaháða áfangastaði fyrir rafræn skýrslugerð (ER) snið sem er stillt til að búa til skjöl á útleið.
-author: NickSelin
+author: kfend
 ms.date: 02/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERFormatDestinationTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b7dfd92fd9e256298c13dcbde4b6da3f07d250d8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
+ms.search.form: ERSolutionTable, ERFormatDestinationTable
+ms.openlocfilehash: babd123e4c8007e3adc545bb92a2dc83bab93f4e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876835"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286248"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Skilgreina áfangastaði rafrænnar skýrslugerðar sem eru háðir aðgerð
 
 [!include [banner](../includes/banner.md)]
 
-Þú getur stillt [áfangastaði](electronic-reporting-destinations.md) fyrir hvern úttakshluta (möppu eða skrá) í [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) sniði [stillingar](general-electronic-reporting.md#Configuration) sem er notað til að búa til skjal á útleið. Notendur sem keyra snið rafrænnar skýrslugerðar af þessari gerð og eru með viðeigandi aðgangsréttindi geta einnig breytt stillingum skilgreinds áfangastaðar við keyrslu.
+Þú getur stillt [áfangastaði](electronic-reporting-destinations.md) fyrir hvern úttakshluta (möppu eða skrá) í [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) sniði [uppsetningu](general-electronic-reporting.md#Configuration) sem er notað til að búa til skjal á útleið. Notendur sem keyra snið rafrænnar skýrslugerðar af þessari gerð og eru með viðeigandi aðgangsréttindi geta einnig breytt stillingum skilgreinds áfangastaðar við keyrslu.
 
 Í Microsoft Dynamics 365 Fjármál **útgáfu 10.0.17 og síðar**, ER snið er hægt að keyra eftir [útvegun](er-apis-app10-0-17.md) aðgerðakóði sem notandinn framkvæmir með því að keyra það ER snið. Til dæmis í einingunni **Viðskiptakröfur**, í stillingum prentstýringar, er hægt að velja snið rafrænnar skýrslugerðar sem myndar ákveðið viðskiptaskjal á borð við reikning með frjálsum texta. Síðan er hægt að velja **Skoða** til að forskoða reikning eða **Prenta** til að senda hann til prentara. Ef notandaaðgerð er gerð fyrir keryslu á sniði rafrænnar skýrslugerðar við keyrslu er hægt að skilgreina mismunandi áfangastaði rafrænnar skýrslugerðar fyrir mismunandi notandaaðgerðir. Þessi grein útskýrir hvernig á að stilla ER áfangastaði fyrir þessa tegund ER sniðs.
 
@@ -82,7 +82,7 @@ Eftirfarandi mynd sýnir hvernig hægt er að ná því sama fram með því að
 
 Þegar snið rafrænnar skýrslugerðar er keyrt, ef notandaaðgerðum hefur verið úthlutað af notendum sem eru með tilheyrandi [heimildir](electronic-reporting-destinations.md#security-considerations) til að breyta skilgreindum stillingum áfangastaðar við keyrslu, birtist svargluggi sem býður upp á möguleikann á því að breyta stillingum skilgreinds áfangastaðar. Þessi svargluggi er valfrjáls og útlit hans veltur á því hvernig kallið, sem rammi rafrænnar skýrslugerðar gerir til að keyra snið rafrænnar skýrslugerðar, hefur verið innleitt. Ef þessi svargluggi birtist verða áfangastaðir rafrænnar skýrslugerðar í honum virkjaðir samkvæmt aðgerð notanda sem er gefin upp.
 
-Eftirfarandi mynd sýnir dæmi um **Áfangastaðir á rafrænu skýrslusniði** svargluggi sem birtist þegar reikningur með frjálsum texta er [sett inn](../../../finance/accounts-receivable/create-free-text-invoice-new.md) og **Ókeypis textareikningur (Excel)** ER snið er keyrt til að búa til þetta skjal, ef **Prentari** aðgerð var útveguð og ER áfangastaðir voru stilltir fyrir þetta snið eins og sýnt var fyrr í þessari grein.
+Eftirfarandi mynd sýnir dæmi um **Áfangastaðir á rafrænu skýrsluformi** svargluggi sem birtist þegar reikningur með frjálsum texta er [sett inn](../../../finance/accounts-receivable/create-free-text-invoice-new.md) og **Ókeypis textareikningur (Excel)** ER snið er keyrt til að búa til þetta skjal, ef **Prentari** aðgerð var útveguð og ER áfangastaðir voru stilltir fyrir þetta snið eins og sýnt var fyrr í þessari grein.
 
 ![Svargluggi sem býður upp á valmöguleikann til að breyta upphaflega skilgreindum áfangastöðum rafrænnar skýrslugerðar fyrir keyrt snið rafrænnar skýrslugerðar.](./media/er-destination-action-dependent-02.gif)
 

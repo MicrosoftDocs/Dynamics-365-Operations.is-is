@@ -2,7 +2,7 @@
 title: Stofna flutningspantanir úr vöruhúsaforriti
 description: Þessi grein lýsir því hvernig á að búa til og vinna flutningspantanir úr vöruhúsastjórnun farsímaforritinu
 author: perlynne
-ms.date: 09/02/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45cbf7aca431c19e58de75355579304baef3cf7d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877451"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336456"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Stofna flutningspantanir úr vöruhúsaforriti
 
@@ -26,14 +26,14 @@ ms.locfileid: "8877451"
 
 Þessi eiginleiki gerir starfsmönnum vöruhúss kleift að stofna og vinna úr flutningspöntunum beint úr farsímaforriti Warehouse Management. Starfskrafturinn byrjar á því að velja vöruhús áfangastaðar og síðan geta þeir skannað eina eða fleiri númeraplötur með því að nota forritið til að bæta númeraplötum við flutningspöntunina. Þegar starfsmaður í vöruhúsi velur **Ljúka við pöntun**, býr runuvinnsla til nauðsynlega flutningspöntun og pöntunarlínur samkvæmt skráðum lagerbirgðum fyrir þessar númeraplötur.
 
-## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a> Kveiktu eða slökktu á þessum eiginleika
+## <a name="turn-on-this-feature-and-its-prerequisites"></a><a name="enable-create-transfer-order-from-warehouse-app"></a> Kveiktu á þessum eiginleika og forsendum hans
 
 Áður en hægt er að nota þennan eiginleika, þarf að virkja hann og skilyrði hans í kerfinu. Stjórnendur geta notað síðuna [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og virkjað hann ef þörf krefur.
 
 1. Virkjaðu eftirfarandi tvo eiginleika (í röð) í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými. Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á báðum þessum eiginleikum.
-    1. *Vinna úr viðburðum vöruhúsaforrits*
-    1. *Stofna og vinna úr flutningspöntunum úr vöruhúsaforriti*
-1. Til að gera sjálfvirka vinnslu á sendingar á útleið verður þú einnig að virkja [Staðfestu sendingar á útleið frá runuvinnu](confirm-outbound-shipments-from-batch-jobs.md) eiginleiki.
+    1. *Vinna úr viðburðum vöruhúsaforrits*<br>(Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum.)
+    1. *Stofna og vinna úr flutningspöntunum úr vöruhúsaforriti*<br>(Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum.)
+1. Til að gera sjálfvirka vinnslu á útsendingum verður þú einnig að virkja [*Staðfestu sendingar á útleið frá runuvinnu*](confirm-outbound-shipments-from-batch-jobs.md) eiginleiki. (Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum.)
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Setja upp valmyndaratriði fartækis til að stofna flutningspantanir
 
@@ -307,11 +307,11 @@ Nei, ekki er hægt að bæta fleiri númeraplötum við flutningspöntun sem er 
 
 #### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Hvernig get ég fundið fyrirliggjandi flutningspantanir sem á að nota með hnappnum „Velja flutningspöntun“ í farsímaforriti Warehouse Management, ef pöntunin hefur enn ekki verið stofnuð í bakvinnslukerfinu?
 
-Sem stendur er ekki hægt að fletta upp flutningspöntum í forritinu, en hægt er að finna númer flutningspantana á síðunni **Tilvik vöruhúsaforrits**. Frekari upplýsingar er að finna í [Spyrjast fyrir um tilvik vöruhúsaforrits](#inquire-the-warehouse-app-events).
+Þú getur gert starfsmönnum kleift að fletta upp flutningspöntunarnúmerum í Vöruhússtjórnun farsímaforritinu með því að nota þess [gagnafyrirspurn](warehouse-app-data-inquiry.md) getu. Til dæmis gætirðu búið til a [hjáleið](warehouse-app-detours.md) valmyndaratriði farsíma sem biður um gögnin sem birtast á vefþjóninum **Viðburðir vöruhúsaapps** síða (`WHSMobileDeviceQueueMessageCollection`) sem hluti af *Veldu pöntun - MobileDeviceQueueMessageCollectionIdentifierId* skref. Flutningspöntunarnúmerið passar við gildið sem sýnt er í **Auðkenni** sviði. Sjá einnig [Spyrðu viðburði vöruhúsaappsins](#inquire-the-warehouse-app-events).
 
 #### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Get ég valið handvirkt númer flutningspöntunar sem á að nota úr farsímaforriti Warehouse Management?
 
-Aðeins sjálfkrafa mynduð flutningspöntunarnúmer í gegnum númeraraðir eru studdar.
+Aðeins sjálfkrafa mynduð flutningspöntunarnúmer í gegnum númeraraðir eru studdar. Sjá einnig svar við fyrri spurningu um hvernig eigi að setja upp **Veldu millifærslupöntun** takki. Fyrir frekari upplýsingar um hvernig á að finna flutningspöntunarnúmer, sjá [Spyrðu viðburði vöruhúsaappsins](#inquire-the-warehouse-app-events).
 
 ### <a name="background-processing"></a>Bakgrunnsvinnsla
 

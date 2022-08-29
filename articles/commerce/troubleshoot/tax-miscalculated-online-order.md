@@ -7,20 +7,20 @@ ms.topic: Troubleshooting
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eefcfc983a7b3861caa4b4362d2813082b7963a6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: a85b03cb6245c7c2e3622abc61a7887030927432
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901622"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285579"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>Skattar á pöntunum á netinu eru ekki rétt reiknaðir
 
@@ -43,7 +43,7 @@ Til að skilgreina almenna söluskattflokka í Commerce Headquarters skal fylgja
 1. Í flipanum **Skattur byggður á áfangastað smásölu** skal skilgreina skatta fyrir söluskattflokkinn.
 
 > [!NOTE]
-> Fyrir sendingu sem inniheldur ekki söluskatt sem er ákvarðaður af heimilisfangi viðskiptavinarins, ákvarða afhendingarheimilisfang línunnar og skattar sem eru byggðir á áfangastað sem eru stilltir fyrir skattflokkinn skattflokkinn. Frekari upplýsingar er að finna í [Setja upp skatta fyrir netverslanir á grundvelli áfangastaðar](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
+> Fyrir sendingu sem inniheldur ekki söluskatt sem ákvarðast af heimilisfangi viðskiptavinarins, ákvarða afhendingarheimilisfang línunnar og skattar sem eru byggðir á áfangastað sem eru stilltir fyrir skattflokkinn skattflokkinn. Frekari upplýsingar er að finna í [Setja upp skatta fyrir netverslanir á grundvelli áfangastaðar](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ### <a name="configure-the-sales-tax-for-a-retail-store-in-commerce-headquarters"></a>Skilgreina söluskatt fyrir smásöluverslun í Commerce Headquarters
 

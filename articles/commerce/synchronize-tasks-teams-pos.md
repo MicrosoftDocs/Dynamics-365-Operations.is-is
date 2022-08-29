@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 23da56f4f6aee906aad261939d1c7ef9feac5922
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f7a26f1625ca9414a43f895ff37f697d573a36aa
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874870"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9268275"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>Samstilla verkstjórnun á milli Microsoft Teams og Dynamics 365 Commerce sölustaðar
 
@@ -55,7 +55,7 @@ Frekari upplýsingar er að finna í [Birta verklista til að stofna og fylgjast
 Til að tengja forrit sölustaðar og Microsoft Teams fyrir verkstjórnun í Commerce Headquarters skal fylgja þessum skrefum.
 
 > [!NOTE]
-> Áður en þú reynir að samþætta Verkefnastjórnun við Microsoft Teams, vertu viss um að þú hafir virkjað [Dynamics 365 Commerce og Microsoft Teams sameining](enable-teams-integration.md). 
+> Áður en þú reynir að samþætta Verkefnastjórnun við Microsoft Teams, vertu viss um að þú hafir virkjað [Dynamics 365 Commerce og Microsoft Teams samþættingu](enable-teams-integration.md). 
 
 1. Farið í **Retail og Commerce \> Verkstjórnun \> Samþætting verka við Microsoft Teams**.
 1. Á aðgerðarúðunni skal velja **Breyta**.

@@ -2,26 +2,26 @@
 title: Eining til að velja verslun
 description: Þessi grein fjallar um verslunarvalseininguna og lýsir því hvernig á að bæta henni við vefsíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a91b50d2177483615cf45276cf342be381814717
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+manager: annbe
+ms.openlocfilehash: aa3aed837072cb6c3d4f7f92bec2f4b700408cf7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881684"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9268341"
 ---
 # <a name="store-selector-module"></a>Eining til að velja verslun
 
@@ -62,13 +62,13 @@ Til að færa inn gildi fyrir lengdar- og breiddargráðu fyrir staðsetningu ve
 
 ### <a name="hide-a-store-from-the-store-selector-module"></a>Fela verslun frá verslunarvalseiningunni
 
-Sumar verslanir í uppfyllingarhópi eru hugsanlega ekki gildar afhendingarstaðir. Til að tryggja að aðeins gildar afhendingarstaðir birtist sem valmöguleikar í verslunareiningunni skaltu fylgja þessum skrefum í höfuðstöðvum Commerce.
+Sumar verslanir í uppfyllingarhópi eru hugsanlega ekki gildar afhendingarstaðir. Til að tryggja að aðeins gildar afhendingarstaðir birtist sem valkostir í verslunarvalseiningunni skaltu fylgja þessum skrefum í höfuðstöðvum Commerce.
 
 1. Fara til **Verslun og verslun \> Uppsetning viðskipta \> Uppfyllingarhópar \> Allar verslanir**.
 1. Á aðgerðarúðunni skal velja **Breyta**.
 1. Undir **Uppsetning**, fyrir hverja verslun sem er ekki gild afhendingarstaður, hreinsaðu af **Er afhendingarstaður** gátreit.
 1. Í aðgerðarúðunni skal velja **Vista**.
-1. Keyra 1070 **Rásarstillingar** dreifingaráætlunarstarf.
+1. Keyra 1070 **Rásar stillingar** dreifingaráætlunarstarf.
 
 ## <a name="bing-maps-integration"></a>Samþætting Bing-korta
 

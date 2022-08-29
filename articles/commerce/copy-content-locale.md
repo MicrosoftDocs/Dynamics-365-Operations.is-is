@@ -1,22 +1,22 @@
 ---
-title: Afritaðu efni á annan stað
+title: Afrita efni á annan landsstaðal
 description: Þessi grein lýsir því hvernig á að afrita fyrirliggjandi efni á annan stað innan vefsvæðis í Microsoft Dynamics 365 Commerce vefsmiður.
-author: psimolin
+author: josaw1
 ms.date: 07/06/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: tfehr
+ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: bcfa3c7cb2ea8018422803d85df6b6761b8d1145
-ms.sourcegitcommit: d719d0a549aecac231fad0abb42250eab9dd0ded
+ms.openlocfilehash: 6afa871048bde22133ae083b8d56b6e99e49c401
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "9126468"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269262"
 ---
-# <a name="copy-content-to-another-locale"></a>Afritaðu efni á annan stað
+# <a name="copy-content-to-another-locale"></a>Afrita efni á annan landsstaðal
 
 [!include[banner](../includes/banner.md)]
 
@@ -52,7 +52,7 @@ Fylgdu þessum skrefum til að afrita öll efnisatriði á nýjan stað í Comme
 1. Farðu á síðuna þína í Site Builder.
 1. Í vinstri yfirlitsrúðunni, veldu **Vefstillingar**, og veldu síðan **Rásir**.
 1. Veldu á skipanastikunni **Búðu til staðsetningarafrit frá**.
-1. Í **Búðu til staðsetningarafrit** svargluggi sem birtist til hægri, undir **Heimildasíða**, staðfestu að rétt síða sé valið.
+1. Í **Búðu til staðsetningarafrit** svargluggi sem birtist hægra megin, undir **Heimildasíða**, staðfestu að rétt síða sé valið.
 1. Í **Upprunarás** reit, veldu upprunarásina.
 1. Í **Áfangarrás** reit, veldu sömu upprunarás.
 1. Í **Heimildarstaður** reit, veldu upprunastaðinn.

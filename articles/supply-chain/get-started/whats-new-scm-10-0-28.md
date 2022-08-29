@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 7e17127ff6ef6c52034b8aa5e0c8404772363ca9
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 5cca06517fbdcbdae6e54c106b113a83851240c8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186520"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334776"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.28 (ágúst 2022)
 
@@ -34,9 +34,9 @@ ms.locfileid: "9186520"
 | Eiginleikasvæði | Eiginleiki | Meiri upplýsingar | Virkjað af   |
 |---|---|---|---|
 | Birgða- og vörustjórnun | [Landað kostnaðarsamþættingareiningar fyrir flutningsmiðlara þriðja aðila](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Yfirlitseiningar heildarkostnaðar](../landed-cost/landed-cost-entities-overview.md) | Sjálfgefið virkt |
-| Áætlun | [Eftirspurnardrifin efnisþörf áætlanagerð (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Eftirspurnardrifin efnisþörf Skipulagsyfirlit](../master-planning/planning-optimization/ddmrp-overview.md) | Eiginleikastjórnun:<br>*(Forútgáfa) DDMRP fyrir fínstillingu áætlanagerðar* |
-| Áætlun | [Stuðningur við skipulagningu hagræðingar fyrir lofað geta (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | Væntanlegt | Eiginleikastjórnun:<br>*(Forútgáfa) CTP-afhendingargeta fyrir fínstillingu áætlanagerðar* |
-| Áætlun | [Stuðningur við skipulagningu hagræðingar fyrir geymsluþol](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Væntanlegt | Sjálfgefið virkt |
+| Áætlun | [Eftirspurnarstýrð efnisþarfaráætlun (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Eftirspurnardrifin efnisþörf Skipulagsyfirlit](../master-planning/planning-optimization/ddmrp-overview.md) | Eiginleikastjórnun:<br>*(Forútgáfa) DDMRP fyrir fínstillingu áætlanagerðar* |
+| Áætlun | [Stuðningur við skipulagningu hagræðingar fyrir lofað geta (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | [Reiknaðu afhendingardaga sölupöntunar með því að nota CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) | Eiginleikastjórnun:<br>*(Forútgáfa) CTP-afhendingargeta fyrir fínstillingu áætlanagerðar* |
+| Áætlun | [Stuðningur við skipulagningu hagræðingar fyrir geymsluþol](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | [Aðalskipulagning fyrir vörur með takmarkaðan geymsluþol](../master-planning/planning-optimization/shelf-life.md) | Sjálfgefið virkt |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Eiginleikaviðbætur í þessari útgáfu
 
@@ -47,10 +47,10 @@ Ef þú vilt kveikja eða slökkva á einhverjum af þessum eiginleikum verður 
 | Eining | Eiginleikaheiti í eiginleikastjórnun | Meiri upplýsingar |
 |---|---|---|
 | Birgða- og vöruhúsakerfi | Virkja lagerbirgðir innan samstæðu til að sýna aðeins lagerbirgðir með annað en núll í magni | Þessi eiginleiki gerir þér kleift að velja hvort vörur með núll birgðamagn eigi að vera með á millifyrirtækjalistanum. Þú getur stjórnað þessum valkosti með því að nota **Ekki sýna vörur með núll birgðamagni á millifyrirtækjalistanum** stilling, sem þessi eiginleiki bætir við **Birgða- og vöruhúsastjórnunarfæribreytur** síðu. |
-| Birgða- og vöruhúsakerfi | (Indland) Fyrir reglur um flutningsverð skal hunsa staðsetningu þegar „Frá vöruhúsakóði“ er stilltur á „Allt“ | <p>Þessi eiginleiki á aðeins við um staðsetningar á Indlandi. Það gerir ferlið við að setja upp flutningsverð fyrir vörur í birgðaflutningum leiðandi.</p><p>Þú setur upp millifærsluverð með því að stilla hverja vöru með milliverðsreglum. Ein leið til að gera þessa stillingu er að innihalda reglulínu þar sem **Frá vörugeymslukóða** reiturinn er stilltur á *Allt*. Þessi stilling gefur til kynna að flutningsverðið sem er skilgreint af línunni ætti að gilda óháð vöruhúsi sem varan er tekin úr. Þegar þessi eiginleiki er virkur, gilda millifærsluverðsreglur þar sem **Frá vörugeymslukóða** reiturinn er stilltur á *Allt* mun hunsa **Staðsetning** stilling. Þess vegna mun reglan gilda óháð staðsetningu sem tilgreind er á millifærslupöntuninni. Þessi hegðun er líklega það sem búist er við, vegna þess að staðsetning er fyrir neðan vöruhús í stigveldi geymsluvíddar.</p><p>Án þessa eiginleika mun kerfið aðeins nota reglur af þessu tagi þegar staðsetningin á millifærslupöntuninni samsvarar nákvæmlega staðsetningunni sem er stillt fyrir regluna. (Ef auð staðsetning er stillt fyrir regluna mun kerfið nota regluna aðeins til að flytja pantanir sem hafa einnig autt gildi fyrir staðsetninguna.)</p> |
+| Birgða- og vöruhúsakerfi | (Indland) Fyrir reglur um flutningsverð skal hunsa staðsetningu þegar „Frá vöruhúsakóði“ er stilltur á „Allt“ | <p>Þessi eiginleiki á aðeins við um staðsetningar á Indlandi. Það gerir ferlið við að setja upp flutningsverð fyrir vörur í birgðaflutningum leiðandi.</p><p>Þú setur upp millifærsluverð með því að stilla hverja vöru með milliverðsreglum. Ein leið til að gera þessa stillingu er að innihalda reglulínu þar sem **Frá vörugeymslukóða** reiturinn er stilltur á *Allt*. Þessi stilling gefur til kynna að flutningsverðið sem er skilgreint af línunni ætti að gilda óháð vöruhúsi sem varan er tekin úr. Þegar þessi eiginleiki er virkur, gilda millifærsluverðsreglur þar sem **Frá vörugeymslukóða** reiturinn er stilltur á *Allt* mun hunsa **Staðsetning** stilling. Þess vegna mun reglan gilda óháð staðsetningu sem tilgreind er á millifærslupöntuninni. Þessi hegðun er líklega það sem búist er við, vegna þess að staðsetning er fyrir neðan vöruhús í stigveldi geymsluvíddar.</p><p>Án þessa eiginleika mun kerfið aðeins nota reglur af þessari gerð þegar staðsetningin á flutningspöntuninni samsvarar nákvæmlega staðsetningunni sem er stillt fyrir regluna. (Ef auð staðsetning er stillt fyrir regluna mun kerfið nota regluna aðeins til að flytja pantanir sem hafa einnig autt gildi fyrir staðsetninguna.)</p> |
 | Birgða- og vöruhúsakerfi | Gagnahreinsun lagerbirgðaskýrslu | Þessi eiginleiki veitir leið til að hreinsa upp gögnin sem eru notuð til að búa til *Geymsla birgðaskýrslu á hendi* skýrslur. |
 | Framleiðslustýring | Úthluta verkþáttum fyrir þjónustusamning og þjónustupöntunarlínur | Þessi eiginleiki bætir við reit sem er nefndur **Verkefnavirkni** til þjónustusamnings og þjónustupöntunarlína, þannig að hægt sé að stilla verkvirkni fyrir þær. Eiginleikinn mun hjálpa til við að koma í veg fyrir blokkunarvillur þegar þú bókar þjónustustjórnunarverkefnabækur sem krefjast þess að verkvirkni sé stillt.  |
-| Vöruhúsakerfi | Handvirk tiltektarþjónusta flutningslínu fyrir stjórnanda eða aðra trausta notendur | Þessi eiginleiki gerir stjórnendum kleift að velja birgðafærslur handvirkt sem tengjast flutningslínum. Þessar línur innihalda línur sem þegar hafa verið losaðar í vöruhúsið. Stjórnendur ættu aðeins að velja í undantekningartilvikum, svo sem þegar kerfið er í skemmdu ástandi. |
+| Vöruhúsakerfi | Handvirk tiltektarþjónusta flutningslínu fyrir stjórnanda eða aðra trausta notendur | Þessi eiginleiki gerir stjórnendum kleift að velja birgðafærslur handvirkt sem tengjast flutningslínum. Þessar línur innihalda línur sem þegar hafa verið losaðar í vöruhúsið. Stjórnendur ættu aðeins að velja í undantekningartilvikum, eins og þegar kerfið er í skemmdu ástandi. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Tilföng fyrir ný og uppfærð skjöl
 
@@ -65,7 +65,7 @@ Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargre
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir fjármála- og rekstraröpp
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir fjármála- og rekstrarforrit
 
 Microsoft Dynamics 365 Supply Chain Management 10.0.28 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.28 af fjármála- og rekstrarforritum (júní 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md).
 

@@ -1,24 +1,24 @@
 ---
 title: Flytja inn skilgreiningu úr Lifecycle Services
 description: Þessi grein lýsir því hvernig á að flytja inn nýja útgáfu af rafrænni skýrslugerð (ER) uppsetningu frá Microsoft Dynamics Lífsferilsþjónusta (LCS).
-author: NickSelin
+author: kfend
 ms.date: 06/17/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2aae59334828a5636f35051d50cf2ea392074b71
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
+ms.openlocfilehash: 92c5d010430b38cb6c11a87283a2f7d4c29484f8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886673"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290365"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Flytja inn skilgreiningu úr Lifecycle Services
 
@@ -41,7 +41,7 @@ ms.locfileid: "8886673"
 
 <a name="accessconditions"></a>
 > [!NOTE]
-> Gakktu úr skugga um að núverandi Dynamics 365 Finance notandi sé meðlimur LCS verkefnisins sem inniheldur eignasafnið sem notandinn vill [aðgangur](../../lifecycle-services/asset-library.md#asset-library-support) til að flytja inn ER stillingar.
+> Gakktu úr skugga um að núverandi Dynamics 365 Finance notandi sé meðlimur í LCS verkefninu sem inniheldur eignasafnið sem notandinn vill [aðgangur](../../lifecycle-services/asset-library.md#asset-library-support) til að flytja inn ER stillingar.
 >
 > Ekki er hægt að opna LCS-verk úr rafrænni gagnageymslu sem stendur fyrir annað lén en lénið sem er notað í Finance. Ef það er reynt verður tæmandi listi yfir LCS-verk sýndur og ekki er hægt að flytja inn skilgreiningar rafrænnar skýrslugerðar úr verkstigi eignasafns í LCS. Til að fá aðgang að eignasöfnum verks úr geymslu sem er notuð til að flytja inn skilgreining rafrænnar skýrslugerðar skal skrá sig inn í Finance með því að nota skilríki notanda sem tilheyrir leigjandanum (léninu) sem gildandi Finance tilviki hefur verið úthlutað til.
 

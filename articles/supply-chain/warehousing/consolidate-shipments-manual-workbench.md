@@ -1,8 +1,8 @@
 ---
 title: Sameina sendingar með því að nota samstæðuvinnusvæði sendinga
-description: Þessi grein sýnir atburðarás þar sem margar pantanir eru gefnar út í vöruhúsið og síðan sameinaðar í sendingar síðar með því að nota samþjöppunarvinnubekk sendingar.
+description: Þessi grein sýnir atburðarás þar sem margar pantanir eru gefnar út í vöruhúsið og síðan sameinaðar í sendingar síðar með því að nota vinnubekk sendingarsamstæðu.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 388066b9c81ecb63ac1f81b70dc4b168f3f4a71d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: db8dc5101b223a0033284d8e6c494721871809d8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888326"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335796"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Sameina sendingar með því að nota samstæðuvinnusvæði sendinga
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein sýnir atburðarás þar sem margar pantanir eru gefnar út í vöruhúsið og síðan sameinaðar í sendingar síðar með því að nota samþjöppunarvinnubekk sendingar.
+Þessi grein sýnir atburðarás þar sem margar pantanir eru gefnar út í vöruhúsið og síðan sameinaðar í sendingar síðar með því að nota vinnubekk sendingarsamstæðu.
 
 ## <a name="make-demo-data-available"></a>Bjóða upp á sýnigögn
 
@@ -34,14 +34,11 @@ Atburðarásin í þessari grein vísar til gilda og skráa sem eru innifalin í
 
 Aðstæðurnar sem hér er lýst gera ráð fyrir að þegar hafi verið kveikt á eiginleikanum, farið hafi verið í gegnum æfingarnar í [Skilgreina samstæðureglur sendingar](configure-shipment-consolidation-policies.md) og reglur og aðrar færslur sem þar er lýst stofnaðar. Gætið þess að gera þessar æfingar áður en haldið er áfram með þessar aðstæður.
 
-## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>Kveikja á eiginleika handvirkri sameiningu sendingar
+## <a name="turn-the-manual-shipment-consolidation-feature-on-or-off"></a>Kveiktu eða slökktu á handvirkri sendingarsamstæðueiginleika
 
-Áður en hægt er að nota eiginleikann *Handvirk sameining sendingar* þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Til að nota handvirka sendingarsamstæðu verður að vera kveikt á henni fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á eiginleikanum. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Handvirk samþjöppun sendingar* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Handvirk sameining sendingar*
-
-Eins og var getið í [Skilgreina samstæðureglur sendingar](configure-shipment-consolidation-policies.md) þarf einnig að kveikja á eiginleikanum *Sameina sendingar* áður en hægt er að stofna stefnur. Hins vegar ætti þegar að vera búið að ljúka þessu skrefi.
+Þú verður líka að kveikja á *Sameina sendinguna* eiginleika áður en þú getur búið til stefnur (frá og með Supply Chain Management útgáfu 10.0.29 er eiginleikinn skyldur og ekki hægt að slökkva á honum). Fyrir frekari upplýsingar, sjá [Stilltu reglur um samþjöppun sendingar](configure-shipment-consolidation-policies.md).
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Búa til sölupantanir fyrir þessar aðstæður
 

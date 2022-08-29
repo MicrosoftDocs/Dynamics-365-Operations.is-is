@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 06/28/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 15dfb609b5e25b4faf2b913cc2310df71c88a74d
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: b27cabf495448fcd82edd374bb59e6e5a664c7e9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111250"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289745"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Leiðbeinigar fyrir uppsetningu tvöfaldra skrifa
 
@@ -117,7 +117,7 @@ Tengla í dæmi og aðra nálgun má finna í hlutanum [Dæmi](#example).
 
 ## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a> Fyrirliggjandi tilvik um fjármála- og rekstrarforrit og fyrirliggjandi forrit fyrir þátttöku viðskiptavina
 
-Uppsetning tvískrifaðrar tengingar milli núverandi tilviks af fjármála- og rekstrarforriti og núverandi tilviks viðskiptaforrits á sér stað í fjármála- og rekstrarumhverfinu.
+Uppsetning tvískrifaðrar tengingar á milli núverandi tilviks af fjármála- og rekstrarforriti og núverandi tilviks viðskiptaforrits á sér stað í fjármála- og rekstrarumhverfinu.
 
 1. [Settu upp tenginguna úr fjármála- og rekstrarappinu](enable-dual-write.md).
 2. Til að samstilla núverandi Dataverse gögn í fjármála- og rekstrarappið, [stígvél](bootstrap-company-data.md) the Dataverse gögn með því að nota þriggja stafa ISO fyrirtækjakóða.

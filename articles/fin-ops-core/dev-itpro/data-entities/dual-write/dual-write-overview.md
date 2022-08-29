@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 02/06/2020
 ms.topic: overview
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 599cfdab8232cab28c59c5098094c4afd351df77
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 943607a3ef28db11b7bc7805257914117e6ae38c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112395"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289639"
 ---
 # <a name="dual-write-overview"></a>Tvöföld skrif – yfirlit
 
@@ -28,7 +28,7 @@ ms.locfileid: "9112395"
 
 Dual-write er útúr kassa innviði sem veitir nánast rauntíma samskipti milli þátttökuforrita viðskiptavina og fjármála- og rekstrarforrita. Þegar gögn um viðskiptavini, afurðir, fólk og rekstur streyma út fyrir forritamörk, verðar allar deildir fyrirtækis öflugri.
 
-Dual-write veitir þétttengda, tvíátta samþættingu milli fjármála- og rekstrarforrita og Dataverse. Allar gagnabreytingar í fjármála- og rekstraröppum valda skrifum til Dataverse, og allar breytingar á gögnum Dataverse veldur skrifum á fjármála- og rekstrarforrit. Þetta sjálfvirka gagnaflæði veitir samþætta notendaupplifun í forritunum.
+Dual-write veitir þétt tengda, tvíátta samþættingu milli fjármála- og rekstrarforrita og Dataverse. Allar gagnabreytingar í fjármála- og rekstrarforritum valda skrifum til Dataverse, og allar breytingar á gögnum Dataverse veldur skrifum á fjármála- og rekstrarforrit. Þetta sjálfvirka gagnaflæði veitir samþætta notendaupplifun í forritunum.
 
 ![Gagnasamband milli forrita.](media/dual-write-overview.jpg)
 
@@ -82,7 +82,7 @@ Tvöföld skrifa veitir samþættingu gagna í öllu forritum Microsoft Dynamics
 
 Dual-write gerir sjálfvirkan gagnaflæði á milli fjármála- og rekstrarforrita og þátttökuforrita viðskiptavina. Tvöföld skrif samanstendur af tveimur AppSource lausnum sem eru settar upp á Dataverse. Lausnirnar víkka út töfluskema, viðbætur og verkflæði á Dataverse þannig að hægt sé að kvarða þær fyrir ERP-stærð. Til að innleiðingin takist vel, verða þróunaraðilar og arkitektar forrita fyrir þátttöku viðskiptavina að skilja þessar breytingar og vinna með hliðstæðum sínum um fjármála- og rekstraröpp.
 
-Til að skapa jafnræði með fjármálum og rekstrarumsóknum gerir tvískrifa nokkrar mikilvægar breytingar á Dataverse skema. Ef ætlunin er að skilja áætlunina er hægt að koma í veg fyrir endurvinnslu tiltekinnar hönnunr og þróunar í framtíðinni.
+Til að skapa jafnræði við fjármála- og rekstrarforrit, gerir tvískrifað nokkrar mikilvægar breytingar á Dataverse skema. Ef ætlunin er að skilja áætlunina er hægt að koma í veg fyrir endurvinnslu tiltekinnar hönnunr og þróunar í framtíðinni.
 
 + Þegar AppSource pakkinn fyrir tvöföld skrif er uppsettur mun Dataverse innihald ný hugtök á borð við fyrirtæki og aðila. Þessi hugtök hjálpa forritum sem eru byggð á Dataverse, þar á meðal Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service og Dynamics 365 Field Service, til að eiga óaðfinnanlega samskipti við fjármála- og rekstrarforrit.
 

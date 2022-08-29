@@ -1,26 +1,26 @@
 ---
 title: Skoða grunnstilltan hlut rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrslu
 description: Þessi grein útskýrir hvernig á að skoða uppsetta rafræna skýrslugerð (ER) íhluti til að koma í veg fyrir keyrsluvandamál sem gætu komið upp.
-author: NickSelin
+author: kfend
 ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864837"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277851"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Skoða grunnstilltan hlut rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrslu
 
@@ -30,8 +30,8 @@ Sérhvert grunnstillt [rafrænt skýrslugerðar](general-electronic-reporting.md
 
 Sjálfgefið er að villuleit er sjálfkrafa notuð í eftirfarandi tilfellum fyrir grunnstillingu rafrænnar skýrslugerðar sem inniheldur fyrrnefnda hluti rafrænnar skýrslugerðar:
 
-- Þú [flytja inn](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) nýtt [útgáfu](general-electronic-reporting.md#component-versioning) af ER uppsetningu í tilvikið þitt af Microsoft Dynamics 365 Fjármál.
-- Þú breytir [stöðunni](general-electronic-reporting.md#component-versioning) á breytanlegri skilgreiningu rafrænnar skýrslugerðar úr **Drög** í **Lokið**.
+- Þú [flytja inn](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) ný útgáfa af ER uppsetningu í tilvikið þitt af Microsoft Dynamics 365 Fjármál.
+- Þú breytir stöðu breytanlegrar ER stillingar frá **Drög** til **Lokið**.
 - Þú [endurreiknar grunn](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) breytanlegrar skilgreiningar rafrænnar skýrslugerðar með því að nota nýja grunnútgáfu.
 
 Hægt er að keyra þessa sannvottun beint. Veljið einn af eftirfarandi valkostum og fylgið skrefunum sem eru gefin upp:
@@ -237,7 +237,7 @@ Eftirfarandi tafla veitir yfirlit yfir eftirlit sem rafræn skýrslugerð býðu
 <td>Fleiri en tveir sviðshlutar eru til staðar án endurgerðar. Vinsamlegast fjarlægðu óþarfa íhluti.</td>
 </tr>
 <tr>
-<td><a href='#i18'>Rekstrarhæfni tjáningar með ORDERBY falli</a></td>
+<td><a href='#i18'>Keyrsluhæfni tjáningar með ORDERBY falli</a></td>
 <td>Keyranleiki</td>
 <td>Villa</td>
 <td>
@@ -770,7 +770,7 @@ Breytið skilgreindu sniði með því að fjarlægja bindingu fyrir sniðseinin
 
 ## <a name="not-linked-template"></a><a id="i12"></a>Ekki tengt sniðmát
 
-Þegar sniðshlutur rafrænnar skýrslugerðar er skilgreindur [handvirkt](er-fillable-excel.md#manual-entry) til að nota sniðmát til að mynda skjal á útleið, þarf að bæta handvirkt við einingunni **Excel\\skrá**, bæta við nauðsynlegu sniðmáti sem viðhengi breytanlegs hlutar og velja það viðhengi í viðbættri einingu **Excel\\Skrá**. Á þennan hátt er gefið til kynna að viðbætt eining muni fylla út valið sniðmát við keyrslu. Þegar útgáfa sniðshlutar er skilgreind í **Drög** [stöðunni](general-electronic-reporting.md#component-versioning), gætir þú viljað bæta nokkrum sniðmátum við breytanlegan hlut og velja síðan hvert sniðmát í einingunni **Excel\\Skrá** til að keyra rafrænt skýrslugerðarsnið. Á þennan hátt er hægt að sjá hvernig mismunandi sniðmát eru fyllt út við keyrslu. Ef þú ert með sniðmát sem ekki eru valin í neinni einingu **Excel\\Skrá**, sendir sniðshönnuður rafrænnar skýrslugerðar viðvörun um að þessum sniðmátum verði eytt úr útgáfu breytanlegs sniðshlutar rafrænnar skýrslugerðar þegar stöðunni er breytt úr **Drög** í **Lokið**.
+Þegar sniðshlutur rafrænnar skýrslugerðar er skilgreindur [handvirkt](er-fillable-excel.md#manual-entry) til að nota sniðmát til að mynda skjal á útleið, þarf að bæta handvirkt við einingunni **Excel\\skrá**, bæta við nauðsynlegu sniðmáti sem viðhengi breytanlegs hlutar og velja það viðhengi í viðbættri einingu **Excel\\Skrá**. Á þennan hátt er gefið til kynna að viðbætt eining muni fylla út valið sniðmát við keyrslu. Þegar þú stillir útgáfu sniðhluta í **Drög** stöðu gætirðu bætt nokkrum sniðmátum við breytanlega íhlutinn og síðan valið hvert sniðmát í **Excel\\ Skrá** frumefni til að keyra ER sniðið. Á þennan hátt er hægt að sjá hvernig mismunandi sniðmát eru fyllt út við keyrslu. Ef þú ert með sniðmát sem ekki eru valin í neinni einingu **Excel\\Skrá**, sendir sniðshönnuður rafrænnar skýrslugerðar viðvörun um að þessum sniðmátum verði eytt úr útgáfu breytanlegs sniðshlutar rafrænnar skýrslugerðar þegar stöðunni er breytt úr **Drög** í **Lokið**.
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
@@ -902,11 +902,11 @@ Enginn valkostur til að lagfæra vandamálið sjálfkrafa er tiltækur.
 
 Breyttu stilltu sniði með því að breyta eiginleikanum **Eftirlíkingarátt** fyrir alla íhluti **Excel\\Sviðs** þar sem er ósamræmi.
 
-## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a> Rekstrarhæfni tjáningar með ORDERBY falli
+## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a> Keyrsluhæfni tjáningar með ORDERBY falli
 
-Hið innbyggða [RAÐA EFTIR](er-functions-list-orderby.md) ER aðgerð er notuð til að flokka skrár yfir ER gagnagjafa **[Met listi](er-formula-supported-data-types-composite.md#record-list)** gerð sem er tilgreind sem rök fallsins.
+Hið innbyggða [RAÐA EFTIR](er-functions-list-orderby.md) ER aðgerð er notuð til að raða skrám ER gagnagjafa **[Met listi](er-formula-supported-data-types-composite.md#record-list)** gerð sem er tilgreind sem rök fallsins.
 
-Rök um`ORDERBY` virkni getur verið [tilgreint](er-functions-list-orderby.md#syntax-2) að flokka skrár yfir forritatöflur, skoðanir eða gagnaeiningar með því að hringja í eitt gagnagrunnssímtal til að fá flokkuð gögn sem lista yfir skrár. Gagnagjafi í **Met listi** gerð er notuð sem rök fyrir fallinu og tilgreinir forritsuppsprettu símtalsins.
+Rök um`ORDERBY` virkni getur verið [tilgreint](er-functions-list-orderby.md#syntax-2) að flokka skrár yfir forritatöflur, skoðanir eða gagnaeiningar með því að hringja í eitt gagnagrunnssímtal til að fá flokkuð gögn sem lista yfir skrár. Gagnagjafi í **Met listi** gerð er notuð sem rök fyrir fallinu og tilgreinir uppsprettu forritsins fyrir símtalið.
 
 ER athugar hvort hægt sé að koma á beinni gagnagrunnsfyrirspurn til gagnagjafa sem vísað er til í`ORDERBY` virka. Ef ekki er hægt að koma á fót beinni fyrirspurn kemur upp villa við villuleit í hönnuði líkanavörpunar rafrænnar skýrslugerðar. Skilaboðin sem birtast gefa til kynna að segð rafrænnar skýrslugerðar sem inniheldur `ORDERBY`-aðgerðina sé ekki hægt að keyra við keyrslu.
 
@@ -918,14 +918,14 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 4. Bætið við gagnagjafa af gerðinni **Reiknaður reitur**.
 5. Nefndu nýja gagnagjafann **Pantaðir söluaðilar**, og stilltu það þannig að það innihaldi tjáninguna `ORDERBY("Query", Vendor, Vendor.AccountNum)`.
  
-    ![Uppsetning gagnaheimilda á hönnuður módelkortunarsíðu.](./media/er-components-inspections-18-1.png)
+    ![Gagnauppsprettur stillt á síðunni Hönnuður líkanakorta.](./media/er-components-inspections-18-1.png)
 
 6. Veldu **Staðfesta** til að skoða breytanlega líkanakortlagningarhlutann á **Módelkortahönnuður** síðu og staðfestið að tjáningin í **Pantaðir söluaðilar** hægt er að spyrjast fyrir um gagnagjafa.
 7. Breytið gagnagjafanum **Lánardrottinn** með því að bæta við földuðum reit af gerðinni **Reiknaður reitur** til að fá stytt númer lánardrottnalykils.
 8. Gefið nýja faldaða reitnum **$AccNumber** heiti og skilgreinið hann þannig að hann innihaldi segðina `TRIM(Vendor.AccountNum)`.
 9. Veldu **Staðfesta** til að skoða breytanlega líkanakortlagningarhlutann á **Módelkortahönnuður** síðu og staðfestið að tjáningin í **Seljandi** hægt er að spyrjast fyrir um gagnagjafa.
 
-    ![Staðfesta að hægt sé að spyrjast fyrir um tjáninguna í gagnagjafa lánardrottins á síðunni Hönnuður líkansvörpunar.](./media/er-components-inspections-18-2.png)
+    ![Staðfesta að hægt sé að spyrjast fyrir um tjáninguna í gagnagjafa lánardrottins á síðunni Hönnuður líkanavörpunar.](./media/er-components-inspections-18-2.png)
 
 10. Taktu eftir að staðfestingarvilla kemur upp vegna þess að **Seljandi** gagnagjafi inniheldur hreiður reit af **Reiknaður reitur** tegund sem leyfir ekki tjáningu á **Pantaðir söluaðilar** gagnauppspretta sem á að þýða yfir í beina gagnagrunnsyfirlýsingu. Sama villa kemur upp á keyrslutíma ef þú hunsar staðfestingarvilluna og velur **Hlaupa** til að keyra þessa líkanakortlagningu.
 

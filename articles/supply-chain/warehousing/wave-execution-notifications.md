@@ -2,7 +2,7 @@
 title: Tilkynningar bylgjukerslu
 description: Þessi grein lýsir tilkynningum um bylgjuframkvæmd og útskýrir hvernig á að setja þær upp.
 author: Mirzaab
-ms.date: 04/03/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 5c8fa259e51f024d19c1f2f7e84ed7edd0ddb7e1
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: a6a554965c11eea3b4fa53fe4dbc4bac04624026
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069029"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336576"
 ---
 # <a name="wave-execution-notifications"></a>Tilkynningar bylgjukerslu
 
@@ -32,7 +32,7 @@ Viðskiptatilvik eiga sér stað þegar viðskiptaferli eru keyrð. Viðskiptafe
 
 ## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>Kveiktu eða slökktu á Wave execution notifications eiginleikanum
 
-Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Tilkynningar um framkvæmd bylgju* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota þennan eiginleika verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á eiginleikanum. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu sem er eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Tilkynningar um framkvæmd bylgju* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="scenario-send-wave-batch-execution-notifications-to-the-action-center"></a>Atburðarás: Senda tilkynningar um framkvæmd bylgjurunu til aðgerðamiðstöðvar
 

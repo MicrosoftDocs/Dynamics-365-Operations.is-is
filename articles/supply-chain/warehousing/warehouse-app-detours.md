@@ -1,22 +1,22 @@
 ---
 title: Skilgreina hjáleiðir fyrir skref í valmyndaratriðum fartækis
-description: Þessi grein lýsir því hvernig á að stilla krókaleiðir fyrir valmyndaratriði þannig að starfsmenn geti lagt núverandi verkefni, framkvæmt annað verk og farið síðan aftur í upprunalega verkefnið án þess að tapa neinum upplýsingum.
+description: Þessi grein lýsir því hvernig á að stilla krókaleiðir fyrir valmyndaratriði þannig að starfsmenn geti lagt núverandi verkefni, framkvæmt annað verk og farið síðan aftur í upprunalega verkið án þess að tapa neinum upplýsingum.
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 50f899cd7f28a4b7fd23db5f049de02896e8d8e9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863593"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336126"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Skilgreina hjáleiðir fyrir skref í valmyndaratriðum fartækis
 
@@ -25,7 +25,7 @@ ms.locfileid: "8863593"
 > [!IMPORTANT]
 > Eiginleikarnir sem lýst er í þessari grein eiga aðeins við um nýja vöruhússtjórnun farsímaforritið. Þeir hafa ekki áhrif á gamla vöruhúsaforrið, sem nú er úrelt.
 
-Þessi grein lýsir því hvernig á að stilla krókaleiðir fyrir valmyndaratriði þannig að starfsmenn geti "parkað" núverandi verkefni, framkvæmt annað verkefni og farið síðan aftur í upprunalega verkefnið án þess að tapa neinum upplýsingum.
+Þessi grein lýsir því hvernig á að stilla krókaleiðir fyrir valmyndaratriði þannig að starfsmenn geti "lagað" núverandi verkefni, framkvæmt annað verkefni og farið síðan aftur í upprunalega verkefnið án þess að tapa neinum upplýsingum.
 
 Hjáleið er aðskilið valmyndaratriði sem hægt er að opna í skrefi í aðalverki. Undir lok hjáleiðar er starfsmaður sendur aftur á staðinn þar sem hann fór úr aðalverkinu. Í grunnstillingunni tilgreinir þú valmyndaratriðið sem á að vera hjáleið. Einnig velur þú hvaða reitargildi á að framsenda (afrita) sjálfkrafa úr aðalverkinu í hjáleiðina og færa inn þar. Þar af leiðandi verður þú að skilja hvar í verkflæðinu þú vilt að hjáleiðin sé tiltæk starfsmönnum. Þú verður einnig að tryggja að upplýsingarnar sem á að afrita í hjáleiðina séu tiltækar fyrir það skref verkflæðisins.
 
@@ -34,22 +34,9 @@ Hjáleið er aðskilið valmyndaratriði sem hægt er að opna í skrefi í aða
 Áður en hægt er að skilgreina hjáleiðir fyrir skref í valmyndaratriðum fartækis þarf að ljúka eftirfarandi ferli til að virkja nauðsynlega eiginleika og búa til heiti áskildra reita í fartækjaforriti Warehouse Management.
 
 1. Opna skal **Kerfisstjórnun \> Vinnusvæði \> Eiginleikastjórnun**.
-1. Á vinnusvæðinu [**Eiginleikastjórnun** ](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)skal virkja eiginleikann sem er sýndur á eftirfarandi hátt:
-
-    - **Eining:** *Vöruhúsakerfi*
-    - **Heiti eiginleika:** *Leiðbeiningar fyrir skref vöruhúsaforrits*
-
-    Frekar upplýsingar um eiginleikann *Leiðbeiningar fyrir skref vöruhúsaforrits* er að finna í [Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management ](mobile-app-titles-instructions.md). Þessi eiginleiki er skilyrði fyrir eiginleikann *Hjáleiðir forrits vöruhúsakerfis*.
-
-1. Virkjaðu eiginleikann sem er sýndur á eftirfarandi hátt:
-
-    - **Eining:** *Vöruhúsakerfi*
-    - **Heiti eiginleika:** *Hjáleiðir forrits vöruhúsakerfis*
-
-    Þessi eiginleiki er sá eiginleiki sem lýst er í þessari grein.
-
-1. Uppfærðu heiti reita í farsímaforriti Warehouse Management með því að fara í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Reitarheiti vöruhúsaforrits** og veldu **Búa til sjálfgefna uppsetningu**. Frekari upplýsingar eru í [Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis](configure-app-field-names-priorities-warehouse.md).
-1. Endurtaktu fyrra skrefið fyrir hvern lögaðila (fyrirtæki) þar sem þú notar farsímaforrit Warehouse Management.
+1. Gakktu úr skugga um að *Skrefleiðbeiningar fyrir vöruhús app* kveikt er á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á þessum eiginleika. Frekar upplýsingar um eiginleikann *Leiðbeiningar fyrir skref vöruhúsaforrits* er að finna í [Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management ](mobile-app-titles-instructions.md). Þessi eiginleiki er skilyrði fyrir eiginleikann *Hjáleiðir forrits vöruhúsakerfis*.
+1. Kveiktu á *Vöruhússtjórnun app krókaleiðir* eiginleiki. Þessi eiginleiki er sá sem lýst er í þessari grein. Frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á henni.
+1. Ef *Vöruhússtjórnun app krókaleiðir* eiginleiki var ekki þegar kveikt á, uppfærðu reitnöfnin í vöruhúsastjórnun farsímaforritinu með því að fara á **Vöruhússtjórnun \> Uppsetning \> Farsímatæki \> Reitaheiti vöruhúsaapps** og velja **Búðu til sjálfgefna uppsetningu**. Endurtaktu þetta skref fyrir hvern lögaðila (fyrirtæki) þar sem þú notar vöruhúsastjórnun farsímaforritið. Frekari upplýsingar eru í [Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>Skilgreina hjáleið úr hnekkingu valmyndar
 
@@ -65,7 +52,7 @@ Notaðu eftirfarandi ferli til að setja upp hjáleið úr hnekkingu valmyndar.
 
 ### <a name="enable-sample-data"></a>Virkja gögn sýnishorna
 
-Til að nota tiltekin dæmi um færslur og gildi til að fara í gegnum þessar aðstæður þarftu að nota kerfi þar sem stöðluð sýnigögn eru uppsett. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
+Til að nota tilgreindar sýnishornsfærslur og gildi til að vinna í gegnum þessa atburðarás verður þú að nota kerfi þar sem staðalinn [kynningargögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) er sett upp. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-1"></a>Búa til hnekkingu valmyndar og skilgreina hjáleið fyrir aðstæður 1
 
@@ -118,7 +105,7 @@ Vöruhúsavinnu er nú lokið. Starfsmaðurinn opnaði hjáleið til að framkv�
 
 ### <a name="enable-sample-data"></a>Virkja gögn sýnishorna
 
-Til að nota tiltekin dæmi um færslur og gildi til að fara í gegnum þessar aðstæður þarftu að nota kerfi þar sem stöðluð sýnigögn eru uppsett. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
+Til að nota tilgreindar sýnishornsfærslur og gildi til að vinna í gegnum þessa atburðarás verður þú að nota kerfi þar sem staðalinn [kynningargögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) er sett upp. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-2"></a>Búa til hnekkingu valmyndar og skilgreina hjáleið fyrir aðstæður 2
 

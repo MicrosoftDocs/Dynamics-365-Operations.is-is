@@ -2,7 +2,7 @@
 title: Innkaupasamningar
 description: Þessi grein gefur upplýsingar um innkaupasamninga. Innkaupasamningur er samningur sem skuldbindur stofnun til að kaupa tiltekið magn eða upphæð með því að nota margar innkaupapantanir á tilteknum tíma. Í skiptum fyrir þessa skuldbindingu fær kaupanda sérstakt verð og afslættir.
 author: GalynaFedorova
-ms.date: 06/20/2017
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8e2c4fdf640f1a9a64c60afc978a4d5812182a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 188a71ec660787b0b942a3d3bf4967b747c4469f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669573"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335886"
 ---
 # <a name="purchase-agreements"></a>Innkaupasamningar
 
@@ -41,7 +41,7 @@ Til að koma í veg fyrir að innkaupasamningur þinn sé notaður og staðfestu
 Þú getur borið kennsl á aðalábyrgðan starfskraft og annan ábyrgðan starfskraft í flokkun innkaupasamningsins. Þessi gildi efast með innkaupasamningi sem af því leiðir. Þú þarft ekki að bæta ábyrgum starfskröftum við innkaupasamninginn og þeim er hægt að breyta beint hverju sinni í innkaupasamningnum sjálfum. Þú getur ekki tilgreint annan ábyrgðan starfskraft án aðalábyrgs starfskrafts, jafnvel þó að þú sért ekki með annan ábyrgðan starfskraft. Þú getur ekki tilgreint sama starfskraft sem bæði aðal- og annan ábyrgan starfskraft.
 
 > [!IMPORTANT]
-> Til að nota eiginleikann fyrir ábyrgðaraðila verður að vera kveikt á honum í kerfinu þínu. Frá og með Supply Chain Management 10.0.25 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Ábyrgðaraðili kaupsamnings* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+> Til að nota eiginleikann fyrir ábyrgðaraðila verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á eiginleikanum. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Ábyrgðaraðili kaupsamnings* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="commitment-types"></a>Ráðstöfunargerðir
 Hver lína í innkaupasamningi er skuldbinding til að kaupa eitthvað. Þú getur notað línur frá mörgum innkaupapöntununum til að uppfylla skuldbindingar. Til eru fjórar tegundir skuldbindinga:

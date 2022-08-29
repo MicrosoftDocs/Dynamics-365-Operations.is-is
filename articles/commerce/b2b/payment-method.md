@@ -6,20 +6,20 @@ ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
 audience: Application User, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 20af517b9a69f4fb490d4d93ada8bc4063e895dd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: RetailOperations
+ms.openlocfilehash: b8424920c3a177e01b71fc1c288b7acdd97ef191
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878648"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272018"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Skilgreina greiðslumáta viðskiptavinalykils fyrir B2B-svæði fyrir rafræn viðskipti
 
@@ -33,10 +33,10 @@ Smásalar geta tekið við ýmsum gerðum af greiðslum í staðinn fyrir afurð
 
 1. Bætið greiðslumáta viðskiptavinalykils við Commerce Headquarters.
 2. Tengið greiðslumáta viðskiptavinalykils við rás rafrænna viðskipta.
-3. Gakktu úr skugga um að **Leyfa á reikningi** eign er virkjuð fyrir viðskiptavini á **Verslun og verslun \> Viðskiptavinir \> Allir viðskiptavinir \> Vanskil greiðslur** í höfuðstöðvum viðskipta.
+3. Gakktu úr skugga um að **Leyfa á reikningi** eign er virkjuð fyrir viðskiptavini á **Verslun og verslun \> Viðskiptavinir \> Allir viðskiptavinir \> Vanskil greiðslur** í höfuðstöðvum verslunar.
 
     > [!NOTE]
-    > Ef allir viðskiptavinir ættu að hafa leyfi til að hafa greiðslumáta á reikningi virkan geturðu stillt **Leyfa á reikningi** eign til **Já** fyrir sjálfgefinn viðskiptavin rásarinnar sem tengist B2B síðunni. 
+    > Ef allir viðskiptavinir ættu að hafa leyfi til að hafa greiðslumáta á reikningi virkan, geturðu stillt **Leyfa á reikningi** eign til **Já** fyrir sjálfgefinn viðskiptavin rásarinnar sem tengist B2B síðunni. 
 
 ## <a name="enable-the-customer-account-payment-method-in-commerce-site-builder"></a>Virkja greiðslumáta fyrir viðskiptavinalykil í Commerce Site Builder 
 
@@ -68,9 +68,9 @@ Til að staðfesta að greiðslumáti viðskiptavinalykils hafi verið gerður v
 
 ## <a name="work-with-credit-limits"></a>Vinna með lánamörk
 
-Þegar möguleiki fyrir greiðslur viðskiptavinareikninga er virkjaður á B2B-síðunni, vilja stofnanir venjulega sýna upplýsingar um lánamörk og inneignir á lánamörkum meðan á pöntunartökuferlinu stendur. Lánsfjárhámark viðskiptavina er skilgreint af **Lánamörk** eign á **Inneign og innheimtur** Flýtiflipi viðskiptavinaskrár í höfuðstöðvum Commerce. Hins vegar, í B2B atburðarás, ætti pöntun sem viðskiptavinur setur oft að vera reikningsfærð á reikning fyrirtækisins sem viðskiptavinurinn tilheyrir. Þess vegna verður þú að stilla **Reikningsreikningur** eign á **Reikningur og afhending** Flýtiflipi viðskiptavinaskrárinnar yfir á auðkenni viðskiptavinareiknings fyrirtækisins. Síðan, þegar viðskiptavinurinn leggur inn pöntun á B2B síðunni, verður pöntunin reikningsfærð til fyrirtækisins. B2B-síðan mun einnig nota lánsfjárhámark stofnunarinnar í stað þess sem er skilgreint á viðskiptaskrá.
+Þegar möguleiki fyrir greiðslur viðskiptavinareikninga er virkjaður á B2B-síðunni, vilja stofnanir venjulega sýna upplýsingar um lánamörk og inneign á lánamörkum meðan á pöntunartökuferlinu stendur. Lánsfjárhámark viðskiptavina er skilgreint af **Lánamörk** eign á **Inneign og innheimtur** Flýtiflipi viðskiptavinaskrár í höfuðstöðvum Commerce. Hins vegar, í B2B atburðarás, ætti pöntun sem viðskiptavinur setur oft að vera reikningsfærð á reikning fyrirtækisins sem viðskiptavinurinn tilheyrir. Þess vegna verður þú að stilla **Reikningsreikningur** eign á **Reikningur og afhending** Flýtiflipi viðskiptavinaskrárinnar yfir á auðkenni viðskiptavinareiknings fyrirtækisins. Síðan, þegar viðskiptavinurinn leggur inn pöntun á B2B síðunni, verður pöntunin reikningsfærð til fyrirtækisins. B2B-síðan mun einnig nota lánsfjárhámark stofnunarinnar í stað þess sem er skilgreint á viðskiptaskrá.
 
-Útreikningur á lánamörkum og stöðu sem sýnd er á B2B vefsíðunni fer eftir stillingu **Tegund lánahámarks** eign í höfuðstöðvum Commerce. Staðsetning þessarar eignar er mismunandi eftir því hvort **Útlánastjórnun** eiginleiki er virkur í **Eiginleikastjórnun** vinnusvæði:
+Útreikningur á lánamörkum og stöðu sem sýnd er á B2B vefsíðunni fer eftir stillingu **Tegund lánahámarks** eign í höfuðstöðvum verslunar. Staðsetning þessarar eignar er mismunandi eftir því hvort **Útlánastjórnun** eiginleiki er virkjaður í **Eiginleikastjórnun** vinnusvæði:
 
 - Ef **Útlánastjórnun** eiginleiki er virkur, eignin er staðsett á **Lánamörk** Hraðflipi kl **Inneign og innheimtur \> Uppsetning \> Inneign og innheimtufæribreytur \> Inneign**. 
 - Ef **Útlánastjórnun** eiginleiki er óvirkur, eignin er staðsett undir **Lánshæfismat** kl **Reikningur fáanlegur \> Uppsetning \> Færibreytur viðskiptakrafna \> Lánshæfismat**.
@@ -80,22 +80,22 @@ Gildin sem **Tegund lánahámarks** eignastoðir eru **Enginn**, **·**, **+ fyl
 > [!NOTE]
 > Við mælum með að þú stillir **Tegund lánahámarks** eign til **Staða + fylgiseðill eða vöruseðill**, þannig að opnar sölupantanir leggi ekki sitt af mörkum til útreiknings á stöðunni. Síðan, ef viðskiptavinir þínir leggja inn framtíðarpantanir, þurfa þeir ekki að hafa áhyggjur af því að þessar pantanir muni hafa áhrif á núverandi stöðu þeirra.
 
-Önnur eign sem hefur áhrif á pöntun á reikningi er **Lögboðið lánamörk** eign, sem er staðsett á **Inneign og innheimtur** Flýtiflipi viðskiptavinaskrárinnar. Með því að stilla þessa eign á **Já** fyrir tiltekna viðskiptavini, getur þú þvingað kerfið til að athuga lánshæfismat þeirra, jafnvel þótt **Tegund lánahámarks** eign hefur verið stillt á **Enginn** til að tilgreina að ekki ætti að athuga lánamörk fyrir neinn viðskiptavin.
+Önnur eign sem hefur áhrif á pöntun á reikningi er **Lögboðið lánahámark** eign, sem er staðsett á **Inneign og innheimtur** Flýtiflipi viðskiptavinaskrárinnar. Með því að stilla þessa eign á **Já** fyrir tiltekna viðskiptavini geturðu þvingað kerfið til að athuga lánshæfismat þeirra, jafnvel þó að **Tegund lánahámarks** eign hefur verið stillt á **Enginn** til að tilgreina að ekki ætti að athuga lánamörk fyrir neinn viðskiptavin.
 
-Eins og er getur viðskiptavinur sem notar inneignargreiðslumáta ekki greitt meira en eftirstöðvar inneignar fyrir pöntun. Til dæmis, ef eftirstandandi inneign viðskiptavinar er $1,000 en pöntunarvirði er $1,200, getur viðskiptavinurinn aðeins greitt $1,000 með því að nota inneignaraðferðina. Viðskiptavinurinn verður þá að nota einhvern annan greiðslumáta til að greiða stöðuna. Í framtíðarútgáfu mun viðskiptastilling gera notendum kleift að eyða umfram lánshæfismat sitt þegar þeir leggja inn pantanir.
+Eins og er getur viðskiptavinur sem notar greiðslumáta á reikningi ekki greitt meira en eftirstandandi inneign fyrir pöntun. Til dæmis, ef eftirstandandi inneign viðskiptavinar er $1,000 en pöntunarvirði er $1,200, getur viðskiptavinurinn aðeins greitt $1,000 með því að nota inneignaraðferðina. Viðskiptavinurinn verður þá að nota einhvern annan greiðslumáta til að greiða stöðuna. Í framtíðarútgáfu mun viðskiptastilling gera notendum kleift að eyða umfram lánaheimildir þegar þeir leggja inn pantanir.
 
-The **Inneign og innheimtur** mát hefur nýja möguleika á lánastjórnun. Til að kveikja á þessum eiginleikum skaltu virkja **Útlánastjórnun** eiginleiki í **Eiginleikastjórnun** vinnurými. Einn af nýju möguleikunum gerir kleift að setja sölupantanir í bið á grundvelli blokkunarreglna. Persóna lánastjórans getur síðan sleppt eða hafnað pöntunum eftir frekari greiningu. Hins vegar, möguleikinn til að setja sölupantanir í bið á ekki við um viðskiptapantanir, vegna þess að sölupantanir eru oft með fyrirframgreiðslu og **Útlánastjórnun** eiginleiki styður ekki alveg fyrirframgreiðsluaðstæður. 
+The **Inneign og innheimtur** einingin hefur nýja möguleika á lánastjórnun. Til að kveikja á þessum eiginleikum skaltu virkja **Útlánastjórnun** eiginleiki í **Eiginleikastjórnun** vinnurými. Einn af nýju möguleikunum gerir kleift að setja sölupantanir í bið á grundvelli blokkunarreglna. Persóna lánastjórans getur síðan sleppt eða hafnað pöntunum eftir frekari greiningu. Möguleikinn til að setja sölupantanir í bið á þó ekki við um viðskiptapantanir, vegna þess að sölupantanir eru oft með fyrirframgreiðslu og **Útlánastjórnun** eiginleiki styður ekki alveg fyrirframgreiðsluaðstæður. 
 
-Burtséð frá því hvort **Útlánastjórnun** eiginleiki er virkjaður, ef inneign viðskiptavina fer yfir lánsfjárhámarkið meðan á pöntun stendur munu sölupantanir ekki fara í bið. Þess í stað mun Commerce búa til annað hvort viðvörunarskilaboð eða villuboð, allt eftir gildi **Skilaboð þegar farið er yfir lánamörk** sviði á **Lánamörk** Flýtiflipi.
+Burtséð frá því hvort **Útlánastjórnun** eiginleiki er virkjaður, ef inneign viðskiptavina fer yfir lánsfjármörk meðan á pöntun stendur, munu sölupantanir ekki fara í bið. Þess í stað mun Commerce búa til annað hvort viðvörunarskilaboð eða villuboð, allt eftir gildi **Skilaboð þegar farið er yfir lánamörk** sviði á **Lánamörk** Hraðflipi.
 
-The **Útiloka frá lánastýringu** eign sem kemur í veg fyrir að Commerce sölupantanir haldist í bið er staðsett á sölupöntunarhaus (**Verslun og verslun \> Viðskiptavinir \> Allar sölupantanir**). Ef þessi eign er stillt á **Já** (sjálfgefið gildi) fyrir Commerce sölupantanir, pantanir verða útilokaðar frá biðvinnuflæði lánastýringar. Þó að eignin sé nefnd **Útiloka frá lánastýringu**, skilgreint lánahámark verður enn notað meðan á pöntun stendur. Pantanir fara bara ekki í bið.
+The **Útiloka frá lánastýringu** eign sem kemur í veg fyrir að Commerce sölupantanir haldist í bið er staðsett á sölupöntunarhaus (**Verslun og verslun \> Viðskiptavinir \> Allar sölupantanir**). Ef þessi eign er stillt á **Já** (sjálfgefið gildi) fyrir Commerce sölupantanir, pantanir verða útilokaðar frá biðvinnuflæði lánastýringar. Þó að eignin sé nefnd **Útiloka frá lánastýringu**, skilgreint lánsfjárhámark verður enn notað meðan á pöntun stendur. Pantanir fara bara ekki í bið.
 
 Möguleikinn á að setja Commerce sölupantanir í bið á grundvelli blokkunarreglna er fyrirhuguð fyrir Commerce útgáfur í framtíðinni. Þangað til það er stutt, ef þú verður að þvinga Commerce sölupantanir til að fara í gegnum nýju lánastýringarflæðið, geturðu sérsniðið eftirfarandi XML skrár í Visual Studio lausn. Í skránum skaltu breyta rökfræðinni þannig að **CredManExcludeSalesOrder** fáninn er stilltur á **Nei**. Á þennan hátt er **Útiloka frá lánastýringu** eign verður stillt á **Nei** sjálfgefið fyrir Commerce sölupantanir.
 
 - RetailCreateCustomerOrderExtensions_CredMan_Extension.xml
 - RetailCallCenterOrderExtensions_CredMan_Extension.xml
 
-Ef **CredManExcludeSalesOrder** fáninn er stilltur á **Nei**, og B2B viðskiptavinur getur keypt í verslunum með því að nota sölustað (POS) forritið, bókun á reiðufé og flutningsfærslum gæti mistekist. Til dæmis er lokunarregla á tegund reiðufjárgreiðslu og viðskiptavinur B2B keypti suma hluti í versluninni með því að nota reiðufé. Í þessu tilviki verður sölupöntunin sem myndast ekki reikningsfærð vegna þess að hún fer í bið. Þess vegna mun pósturinn mistakast. Af þessum sökum mælum við með því að þú gerir end-til-enda prófun eftir að þú hefur innleitt þessa sérstillingu.
+Ef **CredManExcludeSalesOrder** fáninn er stilltur á **Nei**, og B2B viðskiptavinur getur keypt í verslunum með því að nota sölustað (POS) forritið, getur bókun á reiðufé og flutningsfærslum mistekist. Til dæmis er lokunarregla á tegund reiðufjárgreiðslu og B2B viðskiptavinurinn keypti suma hluti í versluninni með því að nota reiðufé. Í þessu tilviki verður sölupöntunin sem myndast ekki reikningsfærð vegna þess að hún fer í bið. Þess vegna mun pósturinn mistakast. Af þessum sökum mælum við með því að þú gerir end-til-enda prófun eftir að þú hefur innleitt þessa sérstillingu.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

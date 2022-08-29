@@ -1,25 +1,25 @@
 ---
 title: Lén í Dynamics 365 Commerce
 description: Þessi grein lýsir því hvernig lén eru meðhöndluð í Microsoft Dynamics 365 Commerce.
-author: BrShoo
-ms.date: 05/10/2022
+author: BrianShook
+ms.date: 08/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: ''
+ms.openlocfilehash: 08d6d52175bb7a77259cbd38b15f466deeab0846
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848955"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337227"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Lén í Dynamics 365 Commerce
 
@@ -27,7 +27,7 @@ ms.locfileid: "8848955"
 
 Þessi grein lýsir því hvernig lén eru meðhöndluð í Microsoft Dynamics 365 Commerce.
 
-Lén eru vefföng sem eru notuð til að fara á Dynamics 365 Commerce-vefsvæði í netvafra. Þú sérð um stjórnun á léninu þínu með valdri DNS-veitu. Vísað er í lén í gegnum Dynamics 365 Commerce-vefsmið til að samræma hvernig svæði verður opnað þegar það er birt. Í þessari grein er farið yfir hvernig lén eru meðhöndluð og vísað til í gegnum líftíma þróunar og opnunar viðskiptasíðunnar.
+Lén eru vefföng sem eru notuð til að fara á Dynamics 365 Commerce-vefsvæði í netvafra. Þú sérð um stjórnun á léninu þínu með valdri DNS-veitu. Vísað er í lén í gegnum Dynamics 365 Commerce-vefsmið til að samræma hvernig svæði verður opnað þegar það er birt. Í þessari grein er farið yfir hvernig lén eru meðhöndluð og vísað í allan lífsferil þróunar og opnunar viðskiptasíðunnar.
 
 > [!NOTE]
 > Frá og með 6. maí 2022 er allt umhverfi búið til í Dynamics 365 Commerce verður útvegað með`.dynamics365commerce.ms` lén, sem kemur í stað fyrra mynsturs `.commerce.dynamics.com`. Núverandi umhverfi útvegað með`.commerce.dynamics.com` lénið mun halda áfram að virka.
@@ -109,6 +109,10 @@ Endastöð `<e-commerce tenant name>.dynamics365commerce.ms` styður ekki sérsn
 Til að setja upp sérsniðin lén með því að nota Front Door-þjónustu eða CDN, eru tveir möguleikar í boði:
 
 - Setjið upp Front Door-þjónustu á borð við Azure til að meðhöndla umferð framvinnslu og tengjast viðskiptaumhverfinu þínu. Þetta veitir meiri stjórn á léni og vottorðastjórnun og nákvæmari öryggisstefnur.
+
+> [!NOTE]
+> Ef þú ert að nota utanaðkomandi CDN eða útidyraþjónustu skaltu ganga úr skugga um að beiðnin lendi á Commerce pallinum með hýsingarheitinu sem Commerce hefur gefið upp, en með X-Forwarded-Host (XFH) hausnum \<custom-domain\>. Til dæmis, ef Commerce endapunkturinn þinn er`xyz.dynamics365commerce.ms` og sérsniðna lénið er`www.fabrikam.com`, hýsingarhaus framsendu beiðninnar ætti að vera`xyz.dynamics365commerce.ms` og XFH hausinn ætti að vera `www.fabrikam.com`.
+
 - Notið tilvik Azure Front Door sem Commerce útvegar. Þetta krefst þess að samhæfa aðgerð við Dynamics 365 Commerce-teymið fyrir sannprófun léns og að fá SSL-vottorð fyrir framleiðslulénið.
 
 Frekari upplýsingar um hvernig setja á upp CDN-þjónustu beint má finna í [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md).
@@ -141,14 +145,18 @@ Fyrir núverandi/virk lén:
 
 ## <a name="apex-domains"></a>Apex-lén
 
-Tilvik Azure Front Door styður ekki apex-lén (rótarlén sem innihalda ekki undirlén). Apex-lén þurfa IP-tölu til að leysa úr og tilvik Commerce Front Door er til með eingöngu sýndarendastöðvum. Til að nota apex-lén eru tveir möguleikar í boði:
+Tilvik Azure Front Door styður ekki apex-lén (rótarlén sem innihalda ekki undirlén). Apex lén þurfa IP tölu til að leysa og Commerce Azure Front Door tilvikið er aðeins til með sýndarendapunktum. Til að nota apex lén hefurðu eftirfarandi valkosti:
 
 - **Valkostur 1** - Notið DNS-veitu til að framsenda apex-lénið á „www“ lén. Fabrikam.com framsendir til dæmis `www.fabrikam.com` þar sem `www.fabrikam.com` er CNAME-færslan sem bendir á tilvik Azure Front Door sem Commerce hýsir.
 
-- **Valkostur 2** - Setjið upp CDN-/front door-tilvik á eigin spýtum til að hýsa apex-lénið.
+- **Valkostur 2** - Ef DNS veitandinn þinn styður ALIAS færslur geturðu bent apex léninu á endapunkt útidyrahurðar. Þetta tryggir að IP-breytingin við endapunkt útidyrahurðar endurspeglast.
+  
+- **Valkostur 3** - Ef DNS veitandinn þinn styður ekki ALIAS færslur, þá verður þú að setja upp CDN eða útihurðartilvik á eigin spýtur til að hýsa apex lénið.
 
 > [!NOTE]
 > Ef verið er að nota Azure Front Door þarf einnig að setja upp Azure-DNS í sömu áskriftinni. Apex-lénið sem hýst er á Azure DNS getur bent á Azure Front Door sem samnefnd færsla. Þetta er eina hjáleiðin, þar sem apex-lén verða alltaf að benda á IP-tölu.
+  
+Ef þú hefur einhverjar spurningar varðandi Apex lén, vinsamlegast hafðu samband [Stuðningur Microsoft](https://support.microsoft.com/).
 
   ## <a name="additional-resources"></a>Frekari upplýsingar
 

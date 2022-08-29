@@ -1,26 +1,26 @@
 ---
 title: Setja upp færibreytur á sniði rafrænnar skýrslugerðar fyrir hvern lögaðila
 description: Þessi grein útskýrir hvernig þú getur sett upp færibreytur rafrænnar skýrslugerðar (ER) sniðs fyrir hvern lögaðila.
-author: NickSelin
+author: kfend
 ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: dbcf968dde432da182b5bd2d6a7bcb9f83dad6fa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
+ms.openlocfilehash: 4b2e91e43938b71b78a4b7bc57b5b16ca174b1b7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890213"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291393"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Settu upp færibreytur ER sniðs á hvern lögaðila
 
@@ -250,12 +250,12 @@ Til að afrita færibreytur skaltu ljúka eftirfarandi skrefum.
 7. Í **Endurtaka** valmynd, á **Fyrirtæki** flipann, veldu fyrirtækin sem þú vilt afrita færibreytur til.
 
     > [!NOTE]
-    > Listi yfir markfyrirtæki er aðeins boðinn notendum sem fá úthlutað öryggi [hlutverki](../sysadmin/role-based-security.md#security-roles) sem er stillt til að veita öllum stofnunum aðgang.
+    > Listinn yfir markfyrirtæki er aðeins boðinn notendum sem fá úthlutað öryggi [hlutverki](../sysadmin/role-based-security.md#security-roles) sem er stillt til að veita öllum stofnunum aðgang.
 
 8. Veldu **Í lagi**.
 
     > [!NOTE]
-    > Staðfestingarglugginn lætur þig vita ef sum markfyrirtæki innihalda áður stilltar færibreytur fyrir valda útgáfu af ER sniði. Veldu **Já** til að hnekkja færibreytunum með því að afrita þær frá núverandi fyrirtæki.
+    > Staðfestingarglugginn lætur þig vita ef sum markfyrirtæki innihalda áður stilltar færibreytur fyrir valda útgáfu af ER sniði. Veldu **Já** að hnekkja breytunum með því að afrita þær frá núverandi fyrirtæki.
 
     Stillt sett af forritssértækum færibreytum er nú afritað til valinna fyrirtækja.
 

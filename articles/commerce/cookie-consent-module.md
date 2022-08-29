@@ -1,32 +1,32 @@
 ---
 title: Eining kökusamþykkis
-description: Þessi grein fjallar um samþykkiseiningar fyrir kökur og lýsir því hvernig á að bæta þeim við síður á vefsvæði í Microsoft Dynamics 365 Commerce.
+description: Þessi grein fjallar um samþykkiseiningar fyrir vafrakökur og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 514f54ea6ff05dc3e0885f21af176453dd604848
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: ''
+ms.openlocfilehash: 8ca4cc1ffcf8229589591dce6e4666b78bba3890
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878584"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276267"
 ---
 # <a name="cookie-consent-module"></a>Eining kökusamþykkis
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein fjallar um samþykkiseiningar fyrir kökur og lýsir því hvernig á að bæta þeim við síður á vefsvæði í Microsoft Dynamics 365 Commerce.
+Þessi grein fjallar um samþykkiseiningar fyrir vafrakökur og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 
 Eining kökusamþykkis biður notendur vefsvæðis um að veita sérstaklega samþykki fyrir kökum fyrir alla eiginleika eða einingar sem rekja vafrakökur. Samþykki er nauðsynlegt í fyrsta skipti sem notandi skoðar svæði í nýrri vafralotu. Þegar samþykki er móttekið er það rakið og notandinn er ekki beðinn um samþykki aftur. Nánari upplýsingar eru í [Reglufylgni köku](cookie-compliance.md).
 

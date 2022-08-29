@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3a630a7f388e0bbb6fee96e4de753b2380d305c3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c9d41645531fa4318289f32a564c34f0f92681df
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863767"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335841"
 ---
 # <a name="advanced-load-building-during-wave"></a>Ítarleg hleðsluáætlun í bylgju
 
@@ -36,7 +36,7 @@ Til að nota eiginleikann þarf að setja upp kerfið á eftirfarandi hátt:
 
 ## <a name="turn-on-advanced-wave-load-building-in-your-system"></a>Kveikja á ítarlegri hleðsluáætlun bylgju í kerfinu
 
-Áður en hægt er að nota ítarlega hleðsluáætlun bylgju verður að kveikja á tveimur eiginleikum í kerfinu. Stjórnendur geta notað stillingar [eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu þessara eiginleika og kveikja á þeim ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** eru eiginleikarnir tilgreindir á eftirfarandi hátt:
+Áður en þú getur notað háþróaða ölduálagsbyggingu verður að kveikja á tveimur eiginleikum fyrir kerfið þitt. Stjórnendur geta notað stillingar [eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu þessara eiginleika og kveikja á þeim ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** eru eiginleikarnir tilgreindir á eftirfarandi hátt:
 
 - Eiginleiki hleðslusmíðarbylgju:
 
@@ -50,7 +50,7 @@ Til að nota eiginleikann þarf að setja upp kerfið á eftirfarandi hátt:
 
 ### <a name="make-sample-data-available"></a>Gera sýnigögn tiltæk
 
-Til að vinna í gegnum þessa sýnikennslu með því að nota sýniskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
+Til að vinna í gegnum þessa sýnikennslu með því að nota sýniskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/fin-ops/get-started/demo-data.md) eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
 
 Einnig er hægt að nota þessa sýniútgáfu sem leiðsögn um hvernig skuli nota þennan eiginleika þegar unnið er í framleiðslukerfi. Í slíku tilfelli þarf hinsvegar að skipta út eigin gildum og einhverjar nauðsynlegar færslugerðir gæti vantað sem stöðluðu sýnigögnin bjóða upp á.
 

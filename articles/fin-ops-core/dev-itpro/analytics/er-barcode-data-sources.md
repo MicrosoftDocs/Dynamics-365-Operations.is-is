@@ -1,26 +1,26 @@
 ---
 title: Nota gagnagjafa strikamerkja til að búa til myndir af strikamerkjum
-description: Þessi grein útskýrir hvernig á að nota Strikamerkisgagnaveitur til að búa til strikamerkismyndir.
-author: NickSelin
+description: Þessi grein útskýrir hvernig á að nota Strikamerkisgagnagjafa til að búa til strikamerkismyndir.
+author: kfend
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: c8e755b664656a1a10672a990dc581969f6a7b80
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: a604f7532d38b7f9efcecaa4d4a441ccce96643c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880313"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284209"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Nota gagnagjafa strikamerkja til að búa til myndir af strikamerkjum
 
@@ -112,7 +112,7 @@ Til að ljúka þessu dæmi verður þú að hafa aðgang að USMF fyrirtæki í
 - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
 - Kerfisstjóri
 
-Ef þú hefur ekki enn lokið við dæmið í [Fella myndir og form í skjöl sem þú býrð til með því að nota ER](electronic-reporting-embed-images-shapes.md) grein, hlaðið niður eftirfarandi stillingum fyrir sýnishorn ER lausnarinnar.
+Ef þú hefur ekki enn lokið við dæmið í [Fella myndir og form í skjöl sem þú býrð til með því að nota ER](electronic-reporting-embed-images-shapes.md) grein, hlaðið niður eftirfarandi stillingum af ER lausninni.
 
 | Lýsing á efni         | Skrárnafn                   |
 |-----------------------------|-----------------------------|
@@ -128,7 +128,7 @@ Að auki skal hlaða niður eftirfarandi Excel-skrá sem inniheldur breytt snið
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Kveikja á stillingaveitu
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar staðfærslu**, í hlutanum **Skilgreiningaveitur**, skal ganga úr skugga um að [skilgreiningaveitan](general-electronic-reporting.md#Provider) fyrir sýnifyrirtækið **Litware, Inc.** sé skráð og merkt sem virkt. Ef það er ekki á listanum eða ef það er ekki merkt sem virkt skaltu fylgja skrefunum í [Búðu til stillingarveitu og merktu hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md) grein.
+2. Á síðunni **Skilgreiningar staðfærslu**, í hlutanum **Skilgreiningaveitur**, skal ganga úr skugga um að [skilgreiningaveitan](general-electronic-reporting.md#Provider) fyrir sýnifyrirtækið **Litware, Inc.** sé skráð og merkt sem virkt. Ef það er ekki á listanum eða ef það er ekki merkt sem virkt skaltu fylgja skrefunum í [Búðu til stillingarveitu og merktu hana sem virkan](tasks/er-configuration-provider-mark-it-active-2016-11.md) grein.
 
 ![Sýnifyrirtækið stillt sem virkt á síðunni Skilgreiningar staðfæringar.](./media/er-barcode-data-source-active-provider.png)
 

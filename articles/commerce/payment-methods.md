@@ -6,22 +6,22 @@ ms.date: 11/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailTenderTypeTable
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 15831
-ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
 ms.search.region: global
-ms.search.industry: Retail
-ms.author: yabinl
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0450dbaa37365705ca59fd2223c9d3866054c12a
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.custom: 15831
+ms.assetid: 465893a5-6b4f-4c5f-b305-db071df2d33f
+ms.search.industry: Retail
+ms.search.form: RetailTenderTypeTable
+ms.openlocfilehash: d16cdf237042471d367adb7081bf34e9c8a9460f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779571"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272823"
 ---
 # <a name="payment-methods"></a>Greiðsluhættir
 
@@ -49,8 +49,8 @@ Til að setja upp greiðslumáta verður að ljúka eftirtöldu.
 
 ## <a name="handle-change-tendering-for-payment-methods"></a>Annast breytingaútboð á greiðslumáta
 
-Sumar greiðslumátar styðja ekki bein breytingaútboð ef fé á að skila viðskiptavinum við viðskipti á sölustöðum. Aðeins **Reiðufé** og **Gjaldmiðill** greiðslumáta er hægt að nota til að breyta útboðum. 
+Sumar greiðsluaðferðir styðja ekki bein breytingaútboð ef fé á að skila viðskiptavinum við viðskipti á sölustað. Aðeins **Reiðufé** og **Gjaldmiðill** Hægt er að nota greiðslumáta til að breyta útboðum. 
 
-Til að meðhöndla mál þar sem þörf er á breytingatilboði meðan á viðskiptum stendur, en greiðslumáti styður það ekki, getur þú skilgreint **Breyta útboði** greiðslumáta. Þegar þú setur upp greiðslumáta verslunar fyrir verslunina skaltu velja greiðslumáta sem á að nota. Þá, í **Breyta** kafla, í **Breyta útboði** reit, sláðu inn breytingartilboðsgreiðslumöguleika. Til dæmis geturðu slegið inn **1** til að gefa til kynna að hægt sé að nota reiðufé sem greiðslumöguleika til að breyta útboði.
+Til að meðhöndla mál þar sem þörf er á breytingatilboði meðan á viðskiptum stendur, en greiðslumáti styður það ekki, getur þú skilgreint **Breyta útboði** greiðslumáta. Þegar þú setur upp greiðslumáta verslunar fyrir verslunina skaltu velja greiðslumáta sem á að nota. Síðan, í **Breyta** kafla, í **Breyta útboði** reit, sláðu inn greiðslumöguleika til að breyta útboði. Til dæmis geturðu slegið inn **1** til að gefa til kynna að hægt sé að nota reiðufé sem greiðslumöguleika fyrir breytingartilboð.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

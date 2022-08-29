@@ -1,32 +1,32 @@
 ---
 title: Setja upp þróunarumhverfi rafrænna viðskipta til að kemba lag 1 af sýndarvél Retail Server
-description: Þessi grein útskýrir hvernig á að setja upp þróunarumhverfi fyrir rafræn viðskipti til að villuleita gegn sýndarvél á Tier 1 Retail Server (VM).
+description: Þessi grein útskýrir hvernig á að setja upp þróunarumhverfi fyrir rafræn viðskipti til að villuleita gegn sýndarvél (VM) á Tier 1 Retail Server.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7cc6c936c67bc82da1a237341ac07fb69d4ac233
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: 64e03c742f7095e2e485f32ad534f2a755ddd062
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855703"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277880"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>Setja upp þróunarumhverfi rafrænna viðskipta til að kemba lag 1 af sýndarvél Retail Server
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp þróunarumhverfi fyrir rafræn viðskipti til að villuleita gegn sýndarvél á Tier 1 Retail Server (VM).
+Þessi grein útskýrir hvernig á að setja upp þróunarumhverfi fyrir rafræn viðskipti til að villuleita gegn sýndarvél (VM) á Tier 1 Retail Server.
 
 ## <a name="description"></a>lýsing
 

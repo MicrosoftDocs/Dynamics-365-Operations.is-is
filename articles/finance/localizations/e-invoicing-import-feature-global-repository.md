@@ -1,28 +1,28 @@
 ---
-title: Flytja inn eiginleika frá alþjóðlegu geymslunni
+title: Flytja inn eiginleika úr alþjóðlegu geymslunni
 description: Þessi grein útskýrir hvernig á að flytja inn hnattvæðingareiginleika úr alþjóðlegu geymslunni.
-author: dkalyuzh
+author: gionoder
 ms.date: 02/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: bc8f346cdef4aa0b909d75b016b37cbbe3248ebf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 5a72673e17c5653d43b60d3348d5518e09c40a15
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865556"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278312"
 ---
-# <a name="import-features-from-the-global-repository"></a>Flytja inn eiginleika frá alþjóðlegu geymslunni
+# <a name="import-features-from-the-global-repository"></a>Flytja inn eiginleika úr alþjóðlegu geymslunni
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,13 +38,13 @@ Til að byrja að vinna með eiginleika rafrænna reikninga sem er deilt með st
 4. Til að skoða rafræna reikningseiginleika í alþjóðlegu geymslunni sem eru tiltækar fyrir tiltekna stillingaveitu skaltu samstilla RCS tilvik fyrirtækisins með því að velja **Samstilla**. Eftir að samstillingu er lokið er listi yfir tiltæka eiginleika rafrænna reikninga uppfærður úr alþjóðlegu geymslunni. Þessi uppfærsla gæti tekið nokkrar mínútur.
 5. Veldu eiginleikann sem á að flytja inn og veldu síðan **Flytja inn**.
 
-Til að skoða innfluttan rafrænan reikningseiginleika, vertu viss um að rétt stillingarveita sé valin. Sjálfgefið er að eiginleikar sem voru búnir til af virku stillingarveitunni eru sjálfkrafa síaðir út. Þú getur stillt síuna til að skoða eiginleika sem voru búnir til af öðrum veitum, eins og Microsoft stillingarveitunni.
+Til að skoða innfluttan rafræna reikningseiginleika skaltu ganga úr skugga um að rétt stillingarveita sé valin. Sjálfgefið er að eiginleikar sem voru búnir til af virku stillingaveitunni eru sjálfkrafa síaðir út. Þú getur stillt síuna til að skoða eiginleika sem voru búnir til af öðrum veitum, eins og Microsoft stillingarveitunni.
 
 Þú getur nú unnið með innflutta eiginleikann. Þú getur skoðað upplýsingar þess og búið til nýjan eiginleika með því að nota innflutta eiginleikann sem sniðmát.
 
 > [!NOTE]
 > Þú getur aðeins breytt eiginleikum ef hann var búinn til af stillingaveitunni sem er virkur. Þú getur búið til nýjan eiginleika með því að nota upprunalega eiginleikann sem grunn. Þú getur síðan gert nauðsynlegar breytingar eða sett upp færibreytur.
 
-Þegar Microsoft eða annað fyrirtæki sem deilir hnattvæðingareiginleikum með fyrirtækinu þínu uppfærir eiginleika sem þú hefur flutt inn geturðu leitað að uppfærðum útgáfum með því að velja **Athugaðu hvort eiginleikauppfærslur séu til staðar** í **Tengdar stillingar** kafla í **Hnattvæðingareiginleikar** vinnurými.
+Þegar Microsoft eða annað fyrirtæki sem deilir hnattvæðingareiginleikum með fyrirtækinu þínu uppfærir eiginleika sem þú hefur flutt inn geturðu leitað að uppfærðum útgáfum með því að velja **Athugaðu hvort eiginleikauppfærslur séu uppfærðar** í **Tengdar stillingar** kafla í **Hnattvæðingareiginleikar** vinnurými.
 
 Ef þú sérð að það eru uppfærslur fyrir eiginleika sem þú notar sem sniðmát geturðu flutt inn nýja útgáfu eftir að þú hefur samstillt listann yfir birta eiginleika í alþjóðlegu geymslunni.

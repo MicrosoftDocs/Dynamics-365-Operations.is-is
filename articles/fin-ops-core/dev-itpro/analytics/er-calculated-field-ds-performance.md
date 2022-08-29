@@ -1,25 +1,25 @@
 ---
 title: Bættu frammistöðu rafrænna skýrslugerðarlausna með því að bæta við gagnagjöfum með reiknaða reiti með færibreytum
 description: Þessi grein útskýrir hvernig þú getur hjálpað til við að bæta frammistöðu rafrænna skýrslugerðar (ER) lausna með því að bæta við breytugreindum REIKNAÐAR FIELD gagnaveitum.
-author: NickSelin
+author: kfend
 ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8c2c0499ac3d41c9bb6026cc05f971087799c28f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 34bb7c6256994f103c4da599157c06bd9d0795ef
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850115"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288259"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Bættu frammistöðu rafrænna skýrslugerðarlausna með því að bæta við gagnagjöfum með reiknaða reiti með færibreytum
 
@@ -39,7 +39,7 @@ Sem hluti af hönnunarferlinu fyrir skilgreiningar rafrænnar skýrslugerðar ti
 
 - Stilla verður fyrirtæki á **DEMF**.
 - Fylgdu skrefunum í [Viðauki 1](#appendix1) þessarar greinar til að hlaða niður íhlutum sýnishorns Microsoft ER lausnarinnar sem þarf til að klára dæmin í þessari grein.
-- Fylgdu skrefunum í [Viðauki 2](#appendix2) þessarar greinar til að stilla lágmarks mengi ER færibreyta sem þarf til að nota ER ramma til að hjálpa til við að bæta árangur sýnishorns Microsoft ER lausnarinnar.
+- Fylgdu skrefunum í [Viðauki 2](#appendix2) þessarar greinar til að stilla lágmarkssett af ER færibreytum sem þarf til að nota ER ramma til að hjálpa til við að bæta árangur sýnishorns Microsoft ER lausnarinnar.
 
 ## <a name="import-the-sample-er-solution"></a>Flytja inn dæmið um rafræna skýrslugerðarlausn
 

@@ -1,6 +1,6 @@
 ---
 title: Grunnstilla hæfnireglur og valkosti
-description: Þessi grein lýsir því hvernig á að stilla hæfisreglur og valkosti í fríðindastjórnun í Microsoft Dynamics 365 Human Resources.
+description: Þessi grein lýsir því hvernig á að stilla hæfisreglur og valkosti í Fríðindastjórnun í Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,19 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b4c8cd4e32880df771a4a72237d212e061f849ce
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5540a2c39b3f9f53600e5edd5c63c99cec1fb000
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848253"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337320"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Grunnstilla hæfnireglur og valkosti 
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Þegar þú hefur stillt nauðsynlegar færibreytur fyrir fríðindastjórnun geturðu stofnað hæfnireglur, búnt, tímabil og áætlunarpakka sem þú munt tengja við fríðindaáætlanirnar þínar.
 

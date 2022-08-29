@@ -2,7 +2,7 @@
 title: Eiginleikar verkvangs sem hafa verið fjarlægðir eða eru úreltir
 description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í vettvangsuppfærslum á fjármála- og rekstrarforritum.
 author: sericks007
-ms.date: 05/24/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
+ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069923"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262299"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eiginleikar verkvangs sem hafa verið fjarlægðir eða eru úreltir
 
@@ -32,6 +32,50 @@ ms.locfileid: "9069923"
 
 Ítarlegar upplýsingar um hluti í fjármála- og rekstraröppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/global/axtechrefrep_61). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af fjármála- og rekstrarforritum.
 
+## <a name="feature-deprecation-effective-august-2022"></a>Eiginleikar felldir út frá og með ágúst 2022
+
+### <a name="lifecycle-services-lcs-features-deprecated-in-august-2022"></a>Eiginleikar Lifecycle Services (LCS) voru úreltir í ágúst 2022
+
+Sem hluti af [One Dynamics One Platform](/dynamics365-release-plan/2022wave2/finance-operations/finance-operations-crossapp-capabilities/one-dynamics-one-platform) vinnu, eru eftirfarandi LCS eiginleikar úreltir.
+
+| Heiti eiginleika | Notað með AX 2012? | Notað með fjármála- og rekstraröppum? | Skipt út fyrir aðra eiginleika? |
+|--------------|--------------------|----------------------------------------|------------------------------|
+| Tilkynningar | Já | Já | Já: Borðar eru til á einstökum verkefna- og umhverfissíðum fyrir tilkynningar. |
+| Skilgreiningastjórnun | Já | Nr. | Nr. |
+| Hrun og sorpgreining | Já | Nr. | Nr. |
+| Athugasemdir og gallar | Já | Já | Nr. |
+| Áskriftin | Já | Já | Nr. |
+| Office 365 | Já | Já | Já:Azure Active Directory eða Microsoft admin vefgátt. |
+| Áhrifagreining | Nr. | Já | Nr. |
+| Mat á heildarhagræn áhrif | Nr. | Já | Nr. |
+| Þjónustubeiðnir | Nr. | Já | Já: [Sjálfsafgreiðslur](../deployment/infrastructure-stack.md) |
+| Samþætting SharePoint | Já | Já | Nr. |
+| Skilgreininga- og gagnastjórnun | Nr. | Já | Nr. |
+| Ferlisgagnapakkar | Nr. | Já | Já: Data Import Export Framework (DIXF) |
+| Uppfærsla á umhverfi | Nr. | Já | Já: [Ein útgáfa](../lifecycle-services/oneversion-overview.md) þjónustuuppfærslur eru fáanlegar. |
+| Vélbúnaðaráætlun | Já | Nr. | Nr. |
+| Stærð leyfis | Já | Nr. | Nr. |
+| Notkunarupplýsingar | Já | Nr. | Nr. |
+| Sérstillingargreining | Já | Nr. | Nr. |
+| Kerfisgreiningar | Já | Já | Nr. |
+| Viðskiptaferlismódel Visio stjórnun | Já | Já | Nr. |
+| AX 2012 skýjaumhverfisstjórnun | Já | Nr. | Nr. |
+| RDFE Azure tengi | Já | Já | Nr. |
+| AX 2012 útgáfur | Já | Nr. | Nr. |
+| Vinnuhlutir geymdir í LCS geymslu | Já | Já | Nr. |
+| Beiðnir um bráðabót | Já | Já | Nr. |
+
+
+### <a name="transport-layer-security-tls-rsa-cipher-suites"></a>Transport Layer Security (TLS) RSA dulmálssvítur
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Við erum að fjarlægja eftirfarandi lista yfir dulmálssvítur til að vera í samræmi við núverandi öryggisreglur okkar.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
+| **Skipt út fyrir aðra eiginleika?**   | Frá og með 30. nóvember 2022 geta viðskiptavinir aðeins notað okkar [staðlaðar dulmálssvítur](/power-platform/admin/server-cipher-tls-requirements). Þessi breyting hefur áhrif á viðskiptavini þína og netþjóna sem hafa samskipti við netþjóna okkar, til dæmis getur hún haft áhrif á samþættingar þriðja aðila sem eru ekki í samræmi við staðlaða dulmálssvíturnar okkar. |
+| **Afurðasvæði sem haft er áhrif á**         | Forrit fyrir Finance and Operations |
+| **Dreifingarvalkostur**              | Skýdreifing |
+| **Staða**                         | Úrelt. Viðskiptavinir verða að uppfæra netþjóna sína fyrir 30. nóvember 2022. Fyrir frekari upplýsingar um uppsetningu TLS Cipher Suite röð, sjá [Stjórna flutningslagaöryggi (TLS)](/windows-server/security/tls/manage-tls).  |
+
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Afskrift eiginleiki gildir í júní 2022
 
@@ -39,8 +83,8 @@ ms.locfileid: "9069923"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Við erum að afnema fjármála- og rekstrarforritið og vettvanginn (Dynamics 365) til að sameinast í einn farsímavettvang, sem er Power Apps. |
-| **Skipt út fyrir aðra eiginleika?**   | Já, hægt er að byggja upp farsímaupplifun yfir fjármál og rekstrarforritsgögn með Power Platform sameining. Sjáðu [bloggfærsla](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) og [Að byggja upp farsímaupplifun](../power-platform/build-mobile-experiences.md) fyrir frekari upplýsingar. |
+| **Ástæða úreldingar/fjarlægingar** | Við erum að afnema fjármál og rekstrar (Dynamics 365) farsímaforritið og vettvanginn til að sameinast í einn farsímavettvang, sem er Power Apps. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, hægt er að byggja upp farsímaupplifun yfir fjármál og rekstrarforritsgögn með Power Platform samþættingu. Sjáðu [bloggfærsla](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) og [Að byggja upp farsímaupplifun](../power-platform/build-mobile-experiences.md) fyrir frekari upplýsingar. |
 | **Afurðasvæði sem haft er áhrif á**         | Forrit fyrir Finance and Operations |
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Úrelt. Lokadagsetning stuðnings er miðuð við október 2024. |
@@ -52,7 +96,7 @@ ms.locfileid: "9069923"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Síður sem fletta lárétt í takt við úrelt útlitsmynstur sem hefur þekkt notagildi og aðgengisvandamál.  |
+| **Ástæða úreldingar/fjarlægingar** | Síður sem fletta lárétt samræmast gamaldags útlitsmynstri sem hefur þekkt notagildi og aðgengisvandamál.  |
 | **Skipt út fyrir aðra eiginleika?**   | Nei, en aðrir flipastílar eru enn fáanlegir. |
 | **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
 | **Dreifingarvalkostur**              | Allir |
@@ -240,7 +284,7 @@ ms.locfileid: "9069923"
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Gildir í desember 2020, Microsoft Internet Explorer 11 stuðningur fyrir allar Dynamics 365 vörur og Dynamics Lifecycle Services (LCS) er úreltur og Internet Explorer 11 verður ekki stutt eftir ágúst 2021.<br><br>Þetta mun hafa áhrif á viðskiptavini sem nota Dynamics 365 vörur og LCS sem eru hannaðar til að nota í gegnum Internet Explorer 11 viðmót. Eftir ágúst 2021,Internet Explorer 11 verður ekki stutt fyrir slíkar Dynamics 365 vörur og LCS. |
+| **Ástæða úreldingar/fjarlægingar** | Gildir í desember 2020, Microsoft Internet Explorer 11 stuðningur fyrir allar Dynamics 365 vörur og Dynamics Lifecycle Services (LCS) er úreltur og Internet Explorer 11 verður ekki stutt eftir ágúst 2021.<br><br>Þetta mun hafa áhrif á viðskiptavini sem nota Dynamics 365 vörur og LCS sem eru hannaðar til að nota í gegnum Internet Explorer 11 tengi. Eftir ágúst 2021,Internet Explorer 11 verður ekki stutt fyrir slíkar Dynamics 365 vörur og LCS. |
 | **Skipt út fyrir aðra eiginleika?**   | Við mælum með því að viðskiptavinir skipti yfir í Microsoft Edge.|
 | **Afurðasvæði sem haft er áhrif á**         | Allar Dynamics 365 vörur og LCS |
 | **Dreifingarvalkostur**              | Allir|

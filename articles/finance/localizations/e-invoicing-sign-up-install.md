@@ -1,26 +1,26 @@
 ---
 title: Skráðu þig í og settu upp rafræna reikningaþjónustu
 description: Þessi grein veitir upplýsingar um hvernig á að skrá sig í og setja upp rafræna reikningaþjónustu.
-author: dkalyuzh
+author: gionoder
 ms.date: 02/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 57314058883e60599bc51d91a65b0daeae724bb7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 99f484e5ab8821c78fde776a9d3195dade2a09d5
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865527"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283958"
 ---
 # <a name="sign-up-for-and-install-the-electronic-invoicing-service"></a>Skráðu þig í og settu upp rafræna reikningaþjónustu
 
@@ -30,7 +30,7 @@ ms.locfileid: "8865527"
 
 ### <a name="step-1-sign-up-for-regulatory-configuration-service"></a>Skref 1: Skráðu þig í Regulatory Configuration Service
 
-Regulatory Configuration Service (RCS) veitir uppsetningu og hönnunarupplifun sem er notuð til að stilla rafræna reikningagerð. Tilföng eins og umhverfi og eiginleikar rafrænna reikninga eru búnar til, viðhaldið og stjórnað í RCS. Þegar tilföngin eru tilbúin eru þau birt til rafrænna reikningaþjónustunnar.
+Regulatory Configuration Service (RCS) veitir uppsetningu og hönnunarupplifun sem er notuð til að stilla rafræna reikningagerð. Tilföng eins og umhverfi og eiginleikar rafrænna reikninga eru búnir til, viðhaldið og stjórnað í RCS. Þegar tilföngin eru tilbúin eru þau birt til rafrænna reikningaþjónustunnar.
 
 Fyrir frekari upplýsingar um RCS, sjá [Regulatory Configuration Services (RCS) - Hnattvæðingareiginleikar](rcs-globalization-feature.md).
 
@@ -46,12 +46,12 @@ Til að ljúka þessu skrefi, sjá [Settu upp viðbótina fyrir örþjónustur �
 
 Þú verður að setja upp samþættingu RCS og rafrænna reikningaþjónustunnar. Þú verður líka að setja upp helstu þætti.
 
-Til að ljúka þessu skrefi, sjá [Settu upp reglustillingarþjónustu (RCS)](e-invoicing-set-up-rcs.md).
+Til að ljúka þessu skrefi, sjá [Setja upp reglustillingarþjónustu (RCS)](e-invoicing-set-up-rcs.md).
 
 ### <a name="step-4-microsoft-power-platform-plug-in-admin-reference"></a>Skref 4:Microsoft Power Platform admin tilvísun í viðbót
 
-Sumar aðstæður krefjast samþættingar við Dataverse í umfangi Microsoft Power Platform.
+Sumar aðstæður krefjast samþættingar við Dataverse í gildissviði Microsoft Power Platform.
 
-Eins og er, er þessi uppsetning skylda ef þú notar rafrænar reikningslausnir fyrir indónesískar rafrænar reikningsfærslur. Hins vegar er það valfrjálst fyrir rafræna reikninga í Sádi-Arabíu. Fyrir frekari upplýsingar, sjá [Aðgengi að eiginleikum rafrænna reikninga eftir löndum eða svæðum](e-invoicing-country-specific-availability.md).
+Eins og er, er þessi uppsetning skylda ef þú notar rafrænar reikningslausnir fyrir indónesískar rafrænar reikningsfærslur. Hins vegar er það valfrjálst fyrir rafræna reikninga í Sádi-Arabíu. Fyrir frekari upplýsingar, sjá [Aðgengi að eiginleikum rafrænna reikninga eftir landi eða svæðum](e-invoicing-country-specific-availability.md).
 
 Til að ljúka þessu skrefi, sjá [Microsoft Power Platform admin tilvísun í viðbót](e-invoicing-power-platform-plug-in.md).

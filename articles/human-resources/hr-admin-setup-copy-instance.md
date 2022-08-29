@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 20a2ffb44f9b99800146e3365e6f0d6df8e9a75e
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178534"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324261"
 ---
 # <a name="copy-an-instance"></a>Afritið tilvik
 
@@ -29,7 +29,7 @@ _**Á við um:** Mannauður á sjálfstæðum innviðum_
 > Frá og með júní 2022 er aðeins hægt að nota mannauðsumhverfi á innviðum fjármála- og rekstrarappa. Fyrir frekari upplýsingar, sjá [Veiting mannauðs í innviðum fjármála og rekstrar](hr-admin-setup-provision-fo.md).
 
 > [!IMPORTANT]
-> Fjármála- og rekstrarinnviðir styðja ekki afritunartilviksaðgerð. Þú getur sett upp nýtt umhverfi og notað gagnagrunnshreyfingar til að búa til afrit. Fyrir frekari upplýsingar um sjálfsafgreiðsluupplýsingar, sjá [Yfirlit yfir sjálfsafgreiðslu](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md). Fyrir frekari upplýsingar um gagnagrunnshreyfingar á fjármála- og rekstrarinnviðum, sjá [Heimasíða starfsemi gagnagrunnshreyfinga](../fin-ops-core/dev-itpro/database/dbmovement-operations.md).
+> Fjármála- og rekstrarinnviðir styðja ekki afritunartilviksaðgerð. Þú getur sett upp nýtt umhverfi og notað gagnagrunnshreyfingar til að búa til afrit. Fyrir frekari upplýsingar um sjálfsafgreiðsluupplýsingar, sjá [Yfirlit yfir sjálfsafgreiðslu](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md). Fyrir frekari upplýsingar um gagnagrunnshreyfingar á fjármála- og rekstrarinnviðum, sjá [Heimasíða gagnagrunnshreyfingar](../fin-ops-core/dev-itpro/database/dbmovement-operations.md).
 
 Þú getur notað Microsoft Dynamics Lifecycle Services (LCS) til að afrita Microsoft Dynamics 365 Human Resources gagnagrunn í sandkassaumhverfi. Ef þú ert með annað sandkassaumhverfi geturðu einnig afritað gagnagrunninn úr því umhverfi yfir í markviss sandkassaumhverfi.
 
@@ -47,13 +47,14 @@ Til að afrita tilvik skal hafa eftirfarandi í huga:
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Áhrif afritunar gagnagrunns Human Resources
 
+> [!Note]
+> Frá og með ágúst 2022, skjöl í Microsoft Azure Bubbageymsla er innifalin þegar framleiðsluumhverfi er afritað í sandkassaumhverfi. Öll skjöl og sniðmát sem fylgja með verða afrituð frá upprunaumhverfinu yfir í markumhverfið.
+
 Eftirfarandi atburðir eiga sér stað þegar þú afritar gagnagrunn Human Resources:
 
 - Afritunarferlið eyðir núverandi gagnagrunni í markumhverfinu. Eftir að afritunarferlinu er lokið geturðu ekki endurheimt núverandi gagnagrunn.
 
 - Markaumhverfið verður ekki tiltækt fyrr en afritunarferlinu er lokið.
-
-- Skjöl í Microsoft Azure Blob geymsla er ekki afrituð úr einu umhverfi í annað. Þar af leiðandi verða öll skjöl og sniðmát sem eru hengd við ekki afrituð og verða áfram í upprunaumhverfinu.
 
 - Allir notendur nema þeir sem eru með „kerfisstjóra“ öryggishlutverkið og aðra aðganga notenda að innri þjónustu verða ekki tiltækir. Admin notandi getur eytt gögnum áður en öðrum notendum er hleypt aftur inn í kerfið.
 

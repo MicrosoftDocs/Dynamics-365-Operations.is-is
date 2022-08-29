@@ -6,20 +6,20 @@ ms.date: 05/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b1ee8999717d70dfe36baef95921962a1b7be65
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: ''
+ms.openlocfilehash: 0b41d61c388e3723e3c30fa4dc0ae0055ffb1842
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853742"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271851"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Setja upp B2C-leigjanda í Commerce
 
@@ -106,11 +106,11 @@ Til að stofna B2C forrit skal fylgja þessum skrefum.
 1. Í Azure-gáttinni skal velja **Skráning forrita** og því næst velja **Ný skráning**.
 1. Undir **Heiti** skal slá inn heiti sem gefa á þessu Azure AD B2C forriti.
 1. Undir **Studdar reikningsgerðir** skal velja **Reikningar í einhverjum kenniveitanda eða fyrirtækjaskrá (til að auðkenna notendur með notandaflæðum)**.
-1. Fyrir **Framsenda URI** skal færa inn sérstakar svarslóðir af gerðinni **Vefur**. Sjáðu [Svarslóðir](#reply-urls) hér að neðan til að fá upplýsingar um svarslóðir og hvernig eigi að forsníða þær. Sláðu inn tilvísunarvefslóð/svarslóð til að virkja framsendingar frá Azure AD B2C aftur á síðuna þína þegar notandi staðfestir. Hægt er að bæta við svarslóðinni meðan á skráningarferlinu stendur eða hægt er að bæta við síðar með því að velja **Bættu við tilvísunar-URI** hlekkur frá **Yfirlit** valmynd í B2C forritinu **Yfirlit** kafla.
+1. Fyrir **Framsenda URI** skal færa inn sérstakar svarslóðir af gerðinni **Vefur**. Sjáðu [Svarslóðir](#reply-urls) hér að neðan til að fá upplýsingar um svarslóðir og hvernig eigi að forsníða þær. Sláðu inn tilvísunarvefslóð/svarslóð til að virkja áframsendingar frá Azure AD B2C aftur á síðuna þína þegar notandi staðfestir. Hægt er að bæta við svarslóðinni meðan á skráningarferlinu stendur eða hægt er að bæta við síðar með því að velja **Bættu við tilvísunarvefslóð** hlekkur frá **Yfirlit** valmyndinni í B2C forritinu **Yfirlit** kafla.
 1. Fyrir **Heimildir** skal velja **Veita kerfisstjóra samþykki að heimildum openid og offline_access**.
 1. Veldu **Skrá**.
-1. Veldu nýlega búið til forritið og farðu að **Auðkenning** matseðill. 
-1. Ef svarslóð er slegin inn, undir **Óbeinir styrkir og blendingsflæði** veldu bæði **Aðgangstákn** og **Auðkennismerki** valkosti til að virkja þá fyrir forritið og veldu síðan **Vista**. Ef svarslóð var ekki slegin inn við skráningu er einnig hægt að bæta henni við á þessari síðu með því að velja **Bættu við vettvangi**, velja **vefur**, og sláðu síðan inn tilvísunar-URI forritsins. The **Óbeinir styrkir og blendingsflæði** kafla verður þá tiltækt til að velja bæði **Aðgangstákn** og **Auðkennismerki** valkostir.
+1. Veldu nýstofnaða forritið og farðu að **Auðkenning** matseðill. 
+1. Ef svarslóð er slegin inn, undir **Óbeint styrkveiting og blendingsflæði** veldu bæði **Aðgangstákn** og **Auðkennismerki** valkosti til að virkja þá fyrir forritið og veldu síðan **Vista**. Ef svarslóð var ekki slegin inn við skráningu er einnig hægt að bæta henni við á þessari síðu með því að velja **Bættu við vettvangi**, að velja **vefur**, og sláðu síðan inn tilvísunar-URI forritsins. The **Óbeint styrkveiting og blendingsflæði** kafla verður þá tiltækt til að velja bæði **Aðgangstákn** og **Auðkennismerki** valkosti.
 1. Farið í valmyndina **Yfirlit** í Azure-gáttinni og afritið **Forritskennið (biðlarakennið)**. Skrifið hjá ykkur þetta auðkenni fyrir síðari uppsetningarskref (vísað í það síðar sem **GUID biðlara**).
 
 Fyrir frekari tilvísun í forritsskráningu í Azure AD B2C skal skoða [Ný upplifun forritsskráninga fyrir Azure Active Directory B2C](/azure/active-directory-b2c/app-registrations-training-guide)
@@ -145,7 +145,7 @@ Fylgdu þessum skrefum til að búa til notendaflæðisstefnu fyrir skráningu o
 1. Á síðunni **Azure AD B2C - Notendastreymi (reglur)** velurðu **Nýtt notendaflæði**.
 1. Veljið regluna **Nýskrá og innskrá** og því næst velja **Ráðlagða** útgáfu.
 1. Undir **Heiti** slærðu inn heiti stefnu. Þetta nafn mun birtast á eftir með forskeyti sem vefsíðan úthlutar (til dæmis „B2C_1_“).
-1. Undir **Auðkennisveitendur**, í **Staðbundnir reikningar** kafla, veldu **Skráning í tölvupósti**. Staðfesting tölvupósts er notuð í flestum algengum tilfellum fyrir verslun. Ef þú ert líka að nota auðkenningarveitu samfélagslegs auðkennis er einnig hægt að velja þetta á þessum tíma.
+1. Undir **Auðkennisveitendur**, í **Staðbundnir reikningar** kafla, veldu **Skráning í tölvupósti**. Tölvupóstsvottun er notuð í flestum algengum tilfellum fyrir verslun. Ef þú ert líka að nota auðkenningu fyrir samfélagsleg auðkenni, þá er einnig hægt að velja þetta á þessum tíma.
 1. Undir **Fjölþættri sannvottun**, veldu viðeigandi val fyrir þitt fyrirtæki. 
 1. Undir **Eiginleikar og kröfur notanda**, veldu valkosti til að safna eiginleikum eða skila kröfum eftir því sem við á. Veldu **Sýndu meira...** til að fá allan lista yfir eiginleika og kröfumöguleika. Commerce krefst eftirfarandi sjálfgefinna valkosta:
 
@@ -272,7 +272,7 @@ Til að uppfæra höfuðstöðvar með nýjum Azure AD B2C upplýsingum, fylgdu 
 
 1. Farðu í **Samnýttar færibreytur Commerce** og veldu **Kennisveitendur** í vinstri valmyndinni.
 1. Undir **Kennisveitendur** gerirðu eftirfarandi:
-    1. Í **Útgefandi** reit, sláðu inn útgefandastreng auðkennisveitunnar. Sjáðu til að finna útgefandastrenginn þinn [Fáðu útgefandastreng fyrir uppsetningu höfuðstöðva](#obtain-issuer-string-for-headquarters-setup) fyrir neðan.
+    1. Í **Útgefandi** reit, sláðu inn útgefandastreng auðkennisveitunnar. Sjáðu til að finna útgefandastrenginn þinn [Fáðu útgefandastreng fyrir uppsetningu höfuðstöðva](#obtain-issuer-string-for-headquarters-setup) hér að neðan.
     1. Í reitinn **Heiti** skal færa inn heiti fyrir útgefendaskrána.
     1. Í reitnum **Gerð** slærðu inn **Azure AD B2C (id_token)**.
 1. Undir **Treystandi aðilar**, með valinn hlut B2C kennisveitanda hér að ofan, gerðu eftirfarandi:
@@ -290,8 +290,8 @@ Fylgdu þessum skrefum til að fá útgefandastreng auðkennisveitunnar þinnar.
 
 1. Á Azure AD B2C síðu Azure-gáttarinnar skal fara í **Nýskrá og innskrá** notandaflæði.
 1. Veljið **Síðuútlit** í vinstri yfirlitsvalmyndinni, undir **Heiti útlits** skal velja **Samræmd síða nýskráningar og innskráningar** og veljið því næst **Keyra notandaflæði**.
-1. Gakktu úr skugga um að forritið þitt sé stillt á það sem þú ætlaðir þér Azure AD B2C forrit búið til hér að ofan og veldu síðan notendaflæðistengilinn sem birtist undir **Keyra notendaflæði** haus sem inniheldur ``.../.well-known/openid-configuration?p=<B2CSIGN-INPOLICY>``. (Ekki velja **Keyra notendaflæði** .) Nýr flipi opnast sem sýnir lýsigögn fyrir stefnuna til að safna útgefandastrengnum.
-1. Á lýsigagnasíðunni sem birtist á vafraflipanum þínum skaltu afrita útgefandastreng auðkennisveitunnar (gildið fyrir **útgefanda** byrjar á "https:// " og endar á "/v2.0/" ) sem lítur svipað út og eftirfarandi dæmi.
+1. Gakktu úr skugga um að forritið þitt sé stillt á það sem þú ætlaðir þér Azure AD B2C forrit búið til hér að ofan, og veldu síðan notendaflæðistengilinn sem birtist undir **Keyra notendaflæði** haus sem inniheldur ``.../.well-known/openid-configuration?p=<B2CSIGN-INPOLICY>``. (Ekki velja **Keyra notendaflæði** .) Nýr flipi opnast sem sýnir lýsigögn fyrir stefnuna til að safna útgefandastrengnum.
+1. Á lýsigagnasíðunni sem birtist á vafraflipanum skaltu afrita útgefandastreng auðkennisveitunnar (gildið fyrir **útgefanda** byrjar á "https:// " og endar á "/v2.0/" ) sem lítur svipað út og eftirfarandi dæmi.
    - ``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
  
 **EÐA** : Til að setja saman sömu slóð lýsigagna handvirkt skal fara í gegnum eftirfarandi skref.
@@ -328,7 +328,7 @@ Eftirfarandi mynd sýnir dæmi um reglur notendaflæðis á síðunni **Azure AD
 
 Þú verður að slá inn upplýsingar um Azure AD B2C leigjandi í vefsvæðishönnuð Commerce áður en B2C leigjandi er tengdur við vefsvæðin þín.
 
-Til að bæta við Azure AD B2C umsóknarupplýsingar leigjanda til Commerce, fylgdu þessum skrefum.
+Til að bæta við þínu Azure AD B2C umsóknarupplýsingar leigjanda til Commerce, fylgdu þessum skrefum.
 
 1. Skráðu þig inn sem stjórnandi í vefsvæðishönnuði Commerce fyrir umhverfi þitt.
 1. Í vinstri yfirlitsglugganum velurðu **Leigjandastillingar** til að stækka hann.
@@ -340,20 +340,20 @@ Til að bæta við Azure AD B2C umsóknarupplýsingar leigjanda til Commerce, fy
     - **Heiti forrits**: Heiti B2C forritsins, til dæmis „Fabrikam B2C“.
     - **Nafn leigjanda**: Heiti B2C leigjanda (til dæmis er notað „fabrikam“ ef lénið birtist sem „fabrikam.onmicrosoft.com“ fyrir B2C leigjandann). 
     - **Gleymdu auðkenni lykilorðsstefnu**: Notandastraumur fyrir gleymt lykilorð notendastreymis, til dæmis „B2C_1_PasswordReset“.
-    - **Auðkenni innskráningarstefnu fyrir skráningu** : Innskráningar- og innskráningarauðkenni notendaflæðisstefnu, til dæmis „B2C_1_signup_signin“.
+    - **Auðkenni innskráningarstefnu** : Innskráningar- og innskráningarauðkenni notendaflæðisstefnu, til dæmis „B2C_1_signup_signin“.
     - **GUID biðlara**: Auðkenni B2C forritsins, til dæmis „22290eb2-c52e-42e9-8b35-a2b0a3bcb9e6”.
     - **Breyta auðkenni prófílstefnu**: Auðkenni sniðs sem breytir notendastreymi, til dæmis „B2C_1A_ProfileEdit“.
 
 1. Veljið **Í lagi**. Þú ættir nú að sjá nafn B2C forritsins þíns birtast á listanum.
 1. Veldu **Vista** til að vista breytingarnar.
 
-Hið valfrjálsa **Skráðu þig inn á sérsniðið lén** reitinn ætti aðeins að nota ef þú ert að setja upp sérsniðið lén fyrir Azure AD B2C leigjandi. Fyrir frekari upplýsingar og íhuganir varðandi notkun á **Skráðu þig inn á sérsniðið lén** sviði, sjá [Viðbótarupplýsingar B2C](#additional-b2c-information) fyrir neðan.
+Hið valfrjálsa **Skráðu inn sérsniðið lén** reitinn ætti aðeins að nota ef þú ert að setja upp sérsniðið lén fyrir Azure AD B2C leigjandi. Fyrir frekari upplýsingar og íhuganir varðandi notkun á **Skráðu inn sérsniðið lén** sviði, sjá [Viðbótarupplýsingar B2C](#additional-b2c-information) hér að neðan.
 
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>Tengdu B2C forritið við síðuna þína og rás
 
 > [!WARNING]
 > - Ef vefsvæðið þitt er nú þegar tengt B2C forriti, með því að breyta í annað B2C forrit, verður að fjarlægja núverandi tilvísanir sem settar hafa verið upp fyrir notendur sem þegar hafa skráð sig í þessu umhverfi. Ef það hefur breyst verða engin skilríki sem eru tengd B2C forritinu sem nú er úthlutað tiltæk fyrir notendur. 
-> - Uppfærðu aðeins B2C forritið ef þú ert að setja upp B2C forrit rásarinnar í fyrsta skipti eða ef þú ætlar að láta notendur skrá sig aftur með nýjum skilríkjum á þessa rás með nýja B2C forritinu. Gætið varúðar þegar rásir eru tengdar við B2C forrit og nafnið forrit greinilega. Ef rás er ekki tengd B2C forriti í skrefunum hér að neðan verða notendur sem skrá sig inn á þá rás fyrir síðuna þína færðir inn í B2C forritið sem birtist sem **sjálfgefið** í listanum **Leigjandastillingar \> B2C stillingar** yfir B2C forrit.
+> - Uppfærðu B2C forritið aðeins ef þú ert að setja upp B2C forrit rásarinnar í fyrsta skipti eða ef þú ætlar að láta notendur skrá sig aftur með nýjum skilríkjum á þessa rás með nýja B2C forritinu. Gætið varúðar þegar rásir eru tengdar við B2C forrit og nafnið forrit greinilega. Ef rás er ekki tengd B2C forriti í skrefunum hér að neðan verða notendur sem skrá sig inn á þá rás fyrir síðuna þína færðir inn í B2C forritið sem birtist sem **sjálfgefið** í listanum **Leigjandastillingar \> B2C stillingar** yfir B2C forrit.
 
 Til að tengja B2C forritið við síðuna þína og rás skaltu fylgja þessum skrefum.
 
@@ -386,16 +386,16 @@ Azure AD B2C gerir þér kleift að setja upp sérsniðið innskráningarlén fy
 
 Ef þú notar sérsniðið innskráningarlén verður að slá lénið inn í Commerce site builder.
 
-Til að slá inn sérsniðið innskráningarlén í vefsíðugerð skaltu fylgja þessum skrefum.
+Fylgdu þessum skrefum til að slá inn sérsniðið innskráningarlén í vefsíðugerð.
 
 1. Í efra hægra horninu á vefsíðugerð, veldu vefskiptarofann og veldu síðan **Stjórna síðum**.
 1. Í vinstri yfirlitsrúðunni, veldu **Stillingar leigjanda \> Auðkenningaruppsetning vefsvæðis**.
 1. Í **Staðfestingarprófílar** kafla, veldu **Stjórna**.
-1. Í valmyndinni til hægri velurðu **Breyta** hnappinn (blýantartákn) við hliðina á auðkenningarsniði vefsvæðisins sem þú vilt slá inn sérsniðið lén fyrir.
-1. Í **Breyta auðkenningarsniði vefsvæðis** svargluggi, undir **Skráðu þig inn á sérsniðið lén**, sláðu inn sérsniðna innskráningarlénið þitt (til dæmis 'login.fabrikam.com').
+1. Í valmyndinni til hægri velurðu **Breyta** hnappur (blýantartákn) við hliðina á auðkenningarsniði vefsvæðisins sem þú vilt slá inn sérsniðið lén fyrir.
+1. Í **Breyta auðkenningarsniði vefsvæðis** svargluggi, undir **Skráðu inn sérsniðið lén**, sláðu inn sérsniðna innskráningarlénið þitt (til dæmis 'login.fabrikam.com').
 
 > [!WARNING]
-> Þegar þú uppfærir í sérsniðið lén fyrir Azure AD B2C leigjandi, breytingin hefur áhrif á útgefandaupplýsingar leigjanda fyrir táknið sem myndast. Upplýsingar um útgefanda munu þá innihalda sérsniðna lénið í stað sjálfgefna lénsins sem veitt er af Azure AD B2C. Annað **Útgefandi** uppsetningu í höfuðstöðvum Commerce (**Verslun og verslun \> Uppsetning höfuðstöðva \> Færibreytur \> Viðskipti samnýtt færibreytur \> Auðkennisveitendur**) breytir samskiptum kerfisins við notendur síðunnar og skapar hugsanlega nýja viðskiptaskrá ef notandi er að sannvotta sig gegn nýja útgefandanum. Allar sérsniðnar breytingar á léni ættu að vera vandlega prófaðar áður en skipt er yfir í sérsniðna lénið í beinni Azure AD B2C umhverfi.
+> Þegar þú uppfærir í sérsniðið lén fyrir Azure AD B2C leigjandi, breytingin hefur áhrif á upplýsingar um útgefanda leigjanda fyrir táknið sem myndast. Upplýsingar um útgefanda munu þá innihalda sérsniðna lénið í stað sjálfgefna lénsins sem veitt er af Azure AD B2C. Annað **Útgefandi** uppsetningu í höfuðstöðvum viðskipta (**Verslun og verslun \> Uppsetning höfuðstöðva \> Færibreytur \> Viðskipti samnýtt færibreytur \> Auðkennisveitendur**) breytir samskiptum kerfisins við notendur síðunnar, sem getur hugsanlega búið til nýja viðskiptavinaskrá ef notandi er að auðkenna gegn nýja útgefanda. Allar sérsniðnar breytingar á léni ættu að vera vandlega prófaðar áður en skipt er yfir í sérsniðna lénið í beinni Azure AD B2C umhverfi.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

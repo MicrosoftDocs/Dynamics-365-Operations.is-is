@@ -1,7 +1,7 @@
 ---
 title: Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða
 description: Þessi grein lýsir því hvernig á að setja upp a Microsoft Dynamics 365 Commerce Netverslunarsíða sem getur þjónað kraftmiklu efni, byggt á breytum vefslóða.
-author: StuHarg
+author: bicyclingfool
 ms.date: 05/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.openlocfilehash: 83e20d9fc655a474a11521ec61d0b64d30603181
-ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
+ms.openlocfilehash: 718bc099347f2924b299ccd4562d9d7055c43187
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/16/2022
-ms.locfileid: "9169131"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282877"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Búa til gagnvirkar síður fyrir rafræn viðskipti sem byggja á færibreytum vefslóða
 
@@ -26,7 +26,7 @@ Hægt er að stilla síður rafrænna viðskipta til að þjóna mismunandi efni
 
 Þú getur líka hnekið færibreytum vefslóðahluta með síðugerðarsíðu. Til dæmis síða sem er búin til í Site builder og nefnd **blogg\_ samantekt** hægt að kortleggja á slóðina `https://fabrikam.com/blog/about-this-blog`. Þegar`https://fabrikam.com/blog` Slóð er beðin með`/about-this-blog` hluti á endanum, the **blogg\_ samantekt** innihald síðu er skilað í stað þess`/about-this-blog` hluti sem er túlkaður sem færibreyta til að nota af`https://fabrikam.com/blog` síðu. 
 
-Þegar þú velur nöfn fyrir færibreyturnar sem á að senda á kviku síðuna, nafn kviku síðunnar eins og það birtist í vefslóðinni (`/blog` í dæminu hér að ofan) er ekki hægt að nota sem færibreytuheiti eða undirstreng færibreytuheiti. 
+Þegar þú velur nöfn fyrir færibreyturnar sem á að senda á kviku síðuna, nafn kviku síðunnar eins og það birtist í vefslóðinni (`/blog` í dæminu hér að ofan) er ekki hægt að nota sem færibreytuheiti eða undirstreng færibreytuheits. 
 
 > [!NOTE]
 > Virknin til að hýsa, sækja og sýna efni gagnvirkrar síðu er innleidd með því að nota sérsniðna einingu. Frekari upplýsingar er að finna í [Stækkunarhæfni rásar á netinu](e-commerce-extensibility/overview.md).

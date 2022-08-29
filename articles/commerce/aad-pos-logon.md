@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 47da2c78cef2bbee324fbc2202898fbabd927c4d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9ef9d79e319b95e6c7f531ed2a5886b3f1e85d27
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853929"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277117"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>Stilla Azure Active Directory-auðkenningu fyrir innskráningu sölustaðar
 
@@ -25,7 +25,7 @@ ms.locfileid: "8853929"
 
 Þessi grein útskýrir hvernig á að stilla Azure Active Directory (Azure AD) sem auðkenningaraðferð í Microsoft Dynamics 365 Commerce sölustaður (POS).
 
-Söluaðilar sem nota Dynamics 365 Commerce ásamt annarri Microsoft skýjaþjónustu eins og Microsoft Azure,Microsoft 365, og Microsoft Teams vill venjulega nota Azure AD fyrir miðlæga stjórnun notendaskilríkja fyrir örugga og hnökralausa innskráningarupplifun í gegnum forrit. Til að nota Azure AD auðkenningu fyrir Commerce á sölustað þarf fyrst að skilgreina Azure AD sem sannvottunaraðferðina í Commerce Headquarters.
+Söluaðilar sem nota Dynamics 365 Commerce ásamt annarri Microsoft skýjaþjónustu eins og Microsoft Azure,Microsoft 365, og Microsoft Teams vill venjulega nota Azure AD fyrir miðlæga stjórnun notendaskilríkja fyrir örugga og óaðfinnanlega innskráningarupplifun í gegnum forrit. Til að nota Azure AD auðkenningu fyrir Commerce á sölustað þarf fyrst að skilgreina Azure AD sem sannvottunaraðferðina í Commerce Headquarters.
 
 ## <a name="configure-pos-authentication-method"></a>Sannvottunaraðferð sölustaðar skilgreind
 

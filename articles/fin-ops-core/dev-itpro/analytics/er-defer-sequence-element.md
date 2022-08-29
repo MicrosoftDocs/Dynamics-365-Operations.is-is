@@ -1,26 +1,26 @@
 ---
 title: Fresta keyrslu raðeininga á sniði rafrænnar skýrslugerðar
 description: Þessi grein útskýrir hvernig á að fresta framkvæmd raðþáttar á rafrænu skýrslusniði (ER).
-author: NickSelin
+author: kfend
 ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 5d4c5395c87c7bdc874f277a691e84081f68742d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: ''
+ms.search.form: EROperationDesigner
+ms.openlocfilehash: bb42da7b17713430c6143444d87d6fe187dd1124
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880234"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281843"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Frestaðu framkvæmd raðarþátta á ER sniði
 
@@ -93,7 +93,7 @@ Ef þú hefur ekki enn lokið við dæmið í [Fresta framkvæmd XML þátta í 
 ### <a name="activate-a-configurations-provider"></a>Kveikja á stillingaveitu
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar staðsetningar**, í hlutanum **Skilgreiningaveitur**, skaltu passa að [skilgreiningaveitan](general-electronic-reporting.md#Provider) fyrir sýnifyrirtækið Litware, Inc. (`http://www.litware.com`) sé skráð og að hún sé merkt sem virk. Ef þessi stillingarveita er ekki á listanum eða ef hún er ekki merkt sem virk skaltu fylgja skrefunum í [Búðu til stillingarveitu og merktu hana sem virka](./tasks/er-configuration-provider-mark-it-active-2016-11.md) grein.
+2. Á síðunni **Skilgreiningar staðsetningar**, í hlutanum **Skilgreiningaveitur**, skaltu passa að [skilgreiningaveitan](general-electronic-reporting.md#Provider) fyrir sýnifyrirtækið Litware, Inc. (`http://www.litware.com`) sé skráð og að hún sé merkt sem virk. Ef þessi stillingarveita er ekki á listanum eða ef hún er ekki merkt sem virk skaltu fylgja skrefunum í [Búðu til stillingarveitu og merktu hana sem virkan](./tasks/er-configuration-provider-mark-it-active-2016-11.md) grein.
 
     ![Litware, Inc. sýnifyrirtæki á skilgreiningasíðu staðfæringar.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
 

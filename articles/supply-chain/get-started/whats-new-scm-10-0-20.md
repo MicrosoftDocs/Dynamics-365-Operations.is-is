@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3465866df0d766b2300eb4fd1989c034cedbbb22
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: HT
+ms.openlocfilehash: d99a7a7d0261ba0afd19efbb237dff329527723d
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123809"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219155"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.20 (ágúst 2021)
 
@@ -49,7 +49,7 @@ Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](..
 | Kerfiseining | Eiginleika&nbsp;heiti&nbsp;í eiginleika&nbsp;stjórnun | Meiri upplýsingar |
 |---|---|---|
 | Áætlanagerð | Samhliða heimild leiðréttrar eftirspurnarspár | Þessi eiginleiki býður upp á samhliða heimild leiðréttrar eftirspurnarspár úr síðunni **Leiðrétt eftirspurnarspá**. Tilgangurinn með þessum eiginleika er að auka afköst þegar gefin er heimild fyrir miklum fjölda spáa. Þegar heimild er gefin getur notandinn tilgreint **fjölda þráða** í svarglugga heimildar. |
-| Áætlanagerð | (Forútgáfa) Runuhæf staðfesting og sameining fyrir áætlaðar runupantanir magns og pakka | Þessi eiginleiki gerir þér kleift að nota runuvinnslur til að staðfesta og sameina áætlaðar magn- og pakkapantanir. |
+| Áætlanagerð | Runuhæf staðfesting og sameining fyrir áætlaðar runupantanir magns og pakka | Þessi eiginleiki gerir þér kleift að nota runuvinnslur til að staðfesta og sameina áætlaðar magn- og pakkapantanir. |
 | Framleiðslustýring | Afrita almennar leiðir | Þessi eiginleiki bætir afritunaraðgerð leiðar sem gerir notendum kleift að afrita leiðir sem tengjast ekki vöru. Hann gerir kerfinu kleift að uppfæra allar viðeigandi upplýsingar (svo sem svæði, leiðaflokk, tilfangaþörf og ýmsa tíma) þegar afritunaraðgerð leiðar hefur verið notuð til að skrifa yfir leið sem ekki er enn búið að úthluta á vöru. |
 | Framleiðslustýring | Uppfæra tengdar tilfangaþarfir þegar leiðaraðgerð er breytt | Þessi eiginleiki gerir kerfinu kleift að uppfæra viðeigandi tilfangaþarfir eftir að notandi breytir aðgerð fyrirliggjandi leiðarskrefs. |
 | Vöruupplýsingastjórnun | Forvinnsla uppskriftarskýrslu til að koma í veg fyrir tímalokun | Þessi eiginleiki veldur því að uppskriftarskýrslan verði forunnin. Þetta kemur í veg fyrir vandamál vegna tímalokunar þegar miklu magni af gögnum er hlaðið inn fyrir skýrsluna. |
@@ -71,7 +71,7 @@ Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargre
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir fjármála- og rekstraröpp
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir fjármála- og rekstrarforrit
 
 Microsoft Dynamics 365 Supply Chain Management 10.0.20 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.20 af fjármála- og rekstraröppum (júlí 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 

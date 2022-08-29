@@ -1,28 +1,26 @@
 ---
 title: Hanna nýja lausn rafrænnar skýrslugerðar til að prenta sérsniðna skýrslu
 description: Þessi grein útskýrir hvernig á að hanna rafræna skýrslugerð (ER) lausn til að prenta sérsniðna skýrslu.
-author: NickSelin
+author: kfend
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7194fa9243362d4eb61d6ce706e30a66c9cf3217
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: 114de2e7a3e40f45e5e46ddcb29e9fc626f89ad6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847489"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281783"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Hanna nýja lausn rafrænnar skýrslugerðar til að prenta sérsniðna skýrslu
 
@@ -181,7 +179,7 @@ Nánari upplýsingar um skilgreiningarveitur rafrænnar skýrslugerðar er að f
 
 ## <a name="design-a-domain-specific-data-model"></a><a name="DesignModel"></a>Hanna gagnalíkan fyrir sérstakt lén
 
-Þú verður að búa til nýja ER stillingu sem inniheldur gagnalíkan íhlut fyrir **Spurningalisti** viðskiptalén. Þetta gagnalíkan verður seinna notað sem gagnagjafi þegar hannað er snið rafrænnar skýrslugerðar til að búa til skýrsluna **Spurningalisti**.
+Þú verður að búa til nýja ER-stillingu sem inniheldur gagnalíkan íhlut fyrir **Spurningalisti** viðskiptalén. Þetta gagnalíkan verður seinna notað sem gagnagjafi þegar hannað er snið rafrænnar skýrslugerðar til að búa til skýrsluna **Spurningalisti**.
 
 Með því að ljúka skrefunum í hlutanum [Flytja inn nýja skilgreiningu gagnalíkans](#ImportDataModel) er hægt að flytja inn nauðsynlegt gagnalíkan úr uppgefinni XML-skrá. Að öðrum kosti er hægt að ljúka skrefunum í hlutanum [Stofna nýjan skilgreiningu gagnalíkans](#DesignDataModel) til að hanna þetta gagnalíkan frá grunni.
 
@@ -289,7 +287,7 @@ Staða á útgáfu 1 fyrir þessa skilgreiningu er breytt úr **Drög** í **Lok
 
 ![Útgáfur breytanlegrar skilgreiningar á skilgreiningarsíðunni.](./media/er-quick-start1-model-configuration.png)
 
-Frekari upplýsingar um útgáfustjórnun fyrir skilgreiningar rafrænnar skýrslugerðar er að finna í [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md#component-versioning).
+Frekari upplýsingar um útgáfustjórnun fyrir skilgreiningar rafrænnar skýrslugerðar er að finna í [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md).
 
 > [!NOTE]
 > Stilla gagnalíkanið er óhlutbundin framsetning þín á **Spurningalisti** viðskiptalén og inniheldur engin tengsl við gripi sem eru sérstakir fyrir Microsoft Dynamics 365 Fjármál.

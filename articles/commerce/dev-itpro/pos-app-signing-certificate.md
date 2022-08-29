@@ -1,21 +1,21 @@
 ---
 title: Undirritaðu MPOS .appx skrána með kóða undirritunarskírteini
 description: Þessi grein útskýrir hvernig á að undirrita MPOS með kóða undirritunarskírteini.
-author: mugunthanm
+author: josaw1
 ms.date: 05/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: tfehr
-ms.custom: 28021
+ms.reviewer: josaw
 ms.search.region: Global
-ms.author: mumani
+ms.author: josaw
 ms.search.validFrom: 2019-09-2019
-ms.openlocfilehash: 4cbdfcb5229be2f04531031c80f41f672b2a4747
-ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
+ms.custom: 28021
+ms.openlocfilehash: bcf558b4b375078ed24777417e92b1c852f4c0eb
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/16/2022
-ms.locfileid: "9169100"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282807"
 ---
 # <a name="sign-the-mpos-appx-file-with-a-code-signing-certificate"></a>Undirritaðu MPOS .appx skrána með kóða undirritunarskírteini
 
@@ -35,7 +35,7 @@ Til að undirrita MPOS appið með vottorði skaltu nota einn af þessum valkost
 ## <a name="use-a-secure-file-task-for-universal-windows-platform-app-signing"></a>Notaðu Secure File verkefni fyrir Universal Windows Platform app undirskrift
 
 > [!NOTE]
-> Þú getur líka notað Azure Key Vault til að geyma skírteinið og notað Azure sign tólið til að undirrita Modern POS .appx skrána og sjálfsafgreiðsluuppsetningar. Fyrir sýnishorn af leiðsluforskriftum og frekari upplýsingar, sjá [Settu upp byggingarleiðslu í Azure DevOps að búa til smásölu sjálfsafgreiðslupakka](build-pipeline.md#set-up-a-build-pipeline-in-azure-devops-to-generate-retail-self-service-packages).
+> Þú getur líka notað Azure Key Vault til að geyma skírteinið og notað Azure sign tólið til að undirrita Modern POS .appx skrána og sjálfsafgreiðsluuppsetningar. Fyrir sýnishorn af leiðsluforskriftum og frekari upplýsingar, sjá [Settu upp byggingarleiðslu í Azure DevOps til að búa til smásölu sjálfsafgreiðslupakka](build-pipeline.md#set-up-a-build-pipeline-in-azure-devops-to-generate-retail-self-service-packages).
 
 Notkun öryggisskrárverkefnis er ráðlögð aðferð við undirritun á Universal Windows Platform (UWP) app. Fyrir frekari upplýsingar um undirritun pakka, sjá [Stilltu undirritun pakka](/windows/uwp/packaging/auto-build-package-uwp-apps#configure-package-signing). Þetta ferli er sýnt á eftirfarandi mynd.
 
@@ -50,7 +50,7 @@ Notkun öryggisskrárverkefnis er ráðlögð aðferð við undirritun á Univer
 
 Sækja [Sækja skrá verkefni](/visualstudio/msbuild/downloadfile-task) og bæta því við sem fyrsta skrefið í byggingarferlinu. Kosturinn við að nota Secure File verkefnið er að skráin er dulkóðuð og sett á diskinn meðan á smíði stendur, sama hvort byggingaleiðslan heppnast, mistekst eða er hætt við. Skránni er eytt af niðurhalsstaðnum eftir að byggingarferlinu er lokið.
 
-1. Sæktu og bættu við Secure File verkefninu sem fyrsta skrefið í Azure-byggingarleiðslunni. Þú getur halað niður öryggisskráarverkefninu frá [Hlaða niður skrá](https://marketplace.visualstudio.com/items?itemName=automagically.DownloadFile).
+1. Sæktu og bættu við Secure File verkefninu sem fyrsta skrefið í Azure-byggingarleiðslunni. Þú getur hlaðið niður öryggisskráarverkefninu frá [Hlaða niður skrá](https://marketplace.visualstudio.com/items?itemName=automagically.DownloadFile).
 1. Hladdu upp vottorðinu í Secure File verkefnið og stilltu tilvísunarnafnið undir Output Variables, eins og sýnt er á eftirfarandi mynd.
     > [!div class="mx-imgBorder"]
     > ![Öruggt skráarverkefni.](media/SecureFile.png)
@@ -100,7 +100,7 @@ Ef þú notar þumalfingur til að undirrita MPOS appið skaltu setja upp vottor
 Þessi valkostur mun virka ef smíðanotandinn er staðbundinn notandi. Hins vegar ef þú ert að nota Azure DevOps umboðsmenn til að búa til smíðina, þá gæti umboðsmaðurinn ekki fengið aðgang að vottunarversluninni til að nota skírteinið til undirritunar eða smíðavélin mun ekki hafa vottorðið uppsett. Í þessu tilviki er lausnin að breyta byggingarnotandanum í staðbundinn notanda og setja upp vottorðið í kassanum. Hins vegar mun þessi valkostur ekki virka ef þú hefur ekki stjórnandaaðgang að kassanum.
 
 > [!NOTE]
-> Ef .pfx skráin eða Örugg skrá verkefnisvalkosturinn er notaður til að undirrita forritið, slepptu því **ModernPOSPackageCertificateThumbprint** hnút inn **Customization.settings** tómt. Ef þumalfingursvalkosturinn er notaður, farðu þá **ModernPOSPackageCertificateKeyFile** tómt. Ef bæði gildin eru uppfærð mun byggingin mistakast.
+> Ef .pfx skrá eða Örugg skrá verkefni valkostur er notaður til að undirrita forritið, farðu síðan úr **ModernPOSPackageCertificateThumbprint** hnút inn **Customization.settings** tómt. Ef þumalfingursvalkosturinn er notaður, farðu þá **ModernPOSPackageCertificateKeyFile** tómt. Ef bæði gildin eru uppfærð mun byggingin mistakast.
 
 ### <a name="certification-renewal"></a>Endurnýjun vottunar
 
@@ -133,7 +133,7 @@ Ef þú getur klárað öll þessi skref án vandræða, þá muntu geta starfa�
 
 - **Ekki valinn** - Búðu til sjálfundirritað kóða undirritunarvottorð til að nota. Þetta er venjulega aðeins notað í þróunarskyni innan léns og er ekki mælt með því fyrir framleiðslu. 
 
-- **Í boði sem tímabundin lausn** - Notaðu endurnýjað Contoso kóða undirritunarvottorð. Þetta er venjulega notað í prófunartilgangi, svo það er ekki mælt með því að það sé notað í framleiðslu.
+- **Í boði sem tímabundin lausn** - Notaðu endurnýjað Contoso kóða undirritunarvottorð. Þetta er venjulega notað í prófunarskyni, svo það er ekki mælt með því að það sé notað í framleiðslu.
  
 Næst skaltu búa til nýjan sérsniðinn Modern POS pakka sem er undirritaður með því að nota þetta vottorð sem fæst með einni af aðgerðunum hér að ofan. Það fer eftir vottorðinu, eitt af eftirfarandi skrefum verður að fylgja:
  

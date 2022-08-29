@@ -1,7 +1,7 @@
 ---
 title: Skilgreina hversu mikil áhrif skilgreiningar rafrænnar skýrslugerðar hafa á aðra hluta
 description: Þessi grein lýsir því hvernig á að hanna rafræna skýrslugerð (ER) stillingar og tilgreina háð hennar frá öðrum hugbúnaðarhlutum.
-author: NickSelin
+author: kfend
 ms.date: 07/23/2021
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aceb883e9182090a336c4c91aa0022a79495ce40
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: ff9d1edab13de49ae676708865ebe02a82db34e0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111695"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291265"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Skilgreina hversu mikil áhrif skilgreiningar rafrænnar skýrslugerðar hafa á aðra hluta
 
@@ -136,7 +136,7 @@ Við munum eyða stofnuðum grunnstillingum úr kerfinu og hlaða þeim aftur ni
 25. Fara í Fyrirtækisstjórnun > Rafræn skýrslugerð > Grunnstillingar.
 26. Stækkið „Sýnigagnalíkan“, í trénu.
     * Athugið að grunnstillingum líkans „Sýnivörpun“ vörpun hefur verið hlaðið niður með völdum grunnstillingum gagnalíkans. Þessum tveimur skrám er hlaðið saman niður vegna þess að „Sýnivörpun“ hefur verið skilgreind sem framkvæmd valins gagnalíkans, og vegna þess að þær eru nothæfar í forritinu. Grunnstillingu „Sýnivörpun (valmöguleiki)“ hefur ekki verið hlaðið niður vegna þess að skilyrði fyrir útgáfu forritsins sem er krafist eru ekki uppfyllt.   
-    * Ef þú skráir þig inn í fjármál og rekstur, skráir sömu þjónustuveituna, opnar sama LCS verkefnið og hleður niður sömu gagnalíkönstillingu, mun stillingunni 'Sample mapping (val)' hlaðast niður, en 'Sample mapping' stillingunni verður sleppt.  
+    * Ef þú skráir þig inn í fjármál og rekstur, skráir sömu þjónustuveituna, opnar sama LCS verkefnið og hleður niður sömu gagnalíkönstillingum, mun stillingunni 'Sample mapping (val)' hlaðast niður, en 'Sample mapping' stillingunni verður sleppt.  
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

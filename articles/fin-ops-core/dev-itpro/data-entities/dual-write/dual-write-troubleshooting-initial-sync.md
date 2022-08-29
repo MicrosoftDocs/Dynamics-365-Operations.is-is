@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 06/24/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: f8fb27a6af2962be31288a3d2260110e5fe6a201
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d9d74eea90cc2dfca2d5decf6e5cd1d7f52da2a8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112083"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289485"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Úrræðaleit vandamála við fyrstu samstillingu
 
@@ -22,7 +22,7 @@ ms.locfileid: "9112083"
 
 
 
-Þessi grein veitir upplýsingar um bilanaleit fyrir samþættingu tvískrifa milli fjármála- og rekstrarforrita og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem kunna að koma upp við upphaflega samstillingu.
+Þessi grein veitir upplýsingar um bilanaleit fyrir tvískrifað samþættingu milli fjármála- og rekstrarforrita og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem kunna að koma upp við upphaflega samstillingu.
 
 > [!IMPORTANT]
 > Sum vandamálin sem þessi grein fjallar um gætu þurft annað hvort kerfisstjórahlutverkið eða Microsoft Azure Active Directory (Azure AD) leigjanda stjórnanda skilríki. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
@@ -237,9 +237,9 @@ Ef þú hefur keyrt upphaflega samstillingu fyrir gögn **Viðskiptavinar** og h
 
 ## <a name="float-data-type-that-has-a-zero-value-cant-be-synchronized"></a>Ekki er hægt að samstilla flotgagnategund sem hefur núllgildi
 
-Upphafleg samstilling gæti mistekist fyrir færslur sem hafa núllgildi fyrir verðreit, svo sem **Föst greiðsluupphæð** eða **Magn** í viðskiptagjaldmiðlinum. Í þessu tilviki færðu villuboð sem líkjast eftirfarandi dæmi:
+Upphafleg samstilling gæti mistekist fyrir færslur sem hafa núllgildi fyrir verðreit, svo sem **Föst greiðsluupphæð** eða **Magn** í viðskiptagjaldmiðlinum. Í þessu tilviki færðu villuskilaboð sem líkjast eftirfarandi dæmi:
 
-*Villa kom upp við að staðfesta innsláttarfæribreytur: Microsoft.OData.ODataException: Ekki er hægt að breyta bókstaflegu '000000' í væntanlega gerð 'Edm.Decimal',...*
+*Villa kom upp við að staðfesta innsláttarfæribreytur: Microsoft.OData.ODataException: Ekki er hægt að umbreyta bókstaflegu '000000' í væntanlega gerð 'Edm.Decimal',...*
 
 Málið er hjá **Tungumálastaður** gildi undir **Upprunagagnasnið** í **Gagnastjórnun** mát. Breyttu gildinu á **Tungumálastaður** sviði til **en-okkur**, og reyndu svo aftur.
 

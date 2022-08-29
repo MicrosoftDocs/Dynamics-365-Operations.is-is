@@ -1,25 +1,25 @@
 ---
 title: Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
 description: Þessi grein veitir upplýsingar um hvernig á að nota eiginleika rakningar í rafrænum skýrslum (ER) til að leysa vandamál varðandi árangur.
-author: NickSelin
+author: kfend
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 4ea6901f8d9632b021c35b9ee899385e688fc77e
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.openlocfilehash: 9f088228b140a42ee097c9e810166550ab0fae81
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9108857"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289945"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Rekja framkvæmd á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
 
@@ -305,7 +305,7 @@ Hún getur einnig verið gagnleg til að fækka fjölda kalla til LedgerTransTyp
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Flytja inn breytta skilgreiningu á líkanavörpun rafrænnar skýrslugerðar úr RCS í forritið
 
-Endurtaktu skrefin í [Flytja inn ER uppsetningu frá RCS inn í fjármál og rekstur](#import-configuration) kafla fyrr í þessari grein til að flytja inn útgáfu 1.2 af **Kortlagning afkastaspors** uppsetningu.
+Endurtaktu skrefin í [Flytja inn ER uppsetningu frá RCS inn í fjármál og rekstur](#import-configuration) kafla fyrr í þessari grein til að flytja inn útgáfu 1.2 af **Kortlagning afkastaspora** uppsetningu.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Keyra breytta lausn rafrænnar skýrslugerðar til að rekja framkvæmd
 
@@ -317,7 +317,7 @@ Endurtaktu skrefin í [Keyra ER sniðið](#run-format) kafla fyrr í þessari gr
 
 ### <a name="export-the-generated-trace-from-the-application"></a>Flytja myndaða rakningu úr forritinu
 
-Endurtaktu skrefin í [Flyttu út myndaða ummerkin úr forritinu](#export-trace) kafla fyrr í þessari grein til að vista nýtt frammistöðuspor á staðnum.
+Endurtaktu skrefin í [Flyttu út myndaða ummerki úr forritinu](#export-trace) kafla fyrr í þessari grein til að vista nýtt frammistöðuspor á staðnum.
 
 ### <a name="import-the-generated-trace-into-rcs"></a>Flytja inn myndaða rakningu í RCS
 

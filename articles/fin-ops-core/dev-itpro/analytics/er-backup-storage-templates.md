@@ -1,26 +1,26 @@
 ---
 title: Öryggisafrit sniðmáta rafrænnar skýrslugerðar
 description: Þessi grein útskýrir hvernig á að nota rafræna skýrslugerð (ER) öryggisafrit til að endurheimta sniðmát.
-author: NickSelin
+author: kfend
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 27621
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 635e7152bece91d5dee47f82cef7052730eb0c82
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 27621
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable
+ms.openlocfilehash: 61e6119c50ee79d8623d1b49d273fb8c07f88944
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9108953"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281903"
 ---
 # <a name="backup-storage-of-er-templates"></a>Afritunargeymsla ER-sniðmáta
 
@@ -28,7 +28,7 @@ ms.locfileid: "9108953"
 
 [Yfirlit rafrænnar skýrslugerðar (ER)](general-electronic-reporting.md) gerir fyrirtækjanotendum kleift að skilgreina snið fyrir skjöl á útleið í samræmi við lagaskilyrði mismunandi landa og svæða. Stillt ER-snið geta notað fyrirfram skilgreind sniðmát til að búa til útgönguskjöl á ýmsum sniðum, svo sem Microsoft Excel vinnubækur, Microsoft Word skjöl, eða PDF-skjöl. Sniðmátin eru fyllt með gögnum sem skilgreint gagnaflæði fyrir mynduð skjöl krefst.
 
-Hægt er að birta hvert skilgreint snið sem hluta af ER-lausn. Hægt er að flytja út hverja ER lausn frá einu tilviki fjármála og rekstrar og flytja inn í annað tilvik.
+Hægt er að birta hvert skilgreint snið sem hluta af ER-lausn. Hverja ER lausn er hægt að flytja út úr einu tilviki fjármála og rekstrar og flytja inn í annað tilvik.
 
 ER ramminn notar [Stilla skjalastjórnun](../../fin-ops/organization-administration/configure-document-management.md) að geyma nauðsynleg sniðmát fyrir núverandi fjármála- og rekstrartilvik. Það fer eftir stillingum ER-ramma, Microsoft Azure Blob-geymslu eða Microsoft SharePoint hvort hægt er að velja möppu sem aðal geymslupláss fyrir sniðmát. (Sjá frekari upplýsingar [Stilla ramma rafrænnar skýrslugerðar (ER)](electronic-reporting-er-configure-parameters.md).) DocuValue taflan hefur einstaka skrá fyrir hvert sniðmát. Í hverri skrá geymir reiturinn **AccessInformation** slóð sniðmátaskrár sem er staðsett á skilgreindum geymslustað.
 

@@ -1,25 +1,25 @@
 ---
 title: Listi yfir ER-aðgerðir í listaflokknum
-description: Þessi grein veitir upplýsingar um listaaðgerðirnar sem eru studdar í rafrænum skýrslum (ER).
-author: NickSelin
+description: Þessi grein veitir upplýsingar um listaaðgerðirnar sem eru studdar í rafrænni skýrslugerð (ER).
+author: kfend
 ms.date: 04/01/2020
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b39da482578636d94faaa3117bd40a579f3ae636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 6c28445f731393857cdb0c75c1244e557b5ff4a4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869056"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277693"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Listi yfir ER-aðgerðir í listaflokknum
 
@@ -47,6 +47,7 @@ Hægt er að nota rafræn skýrslugerð (ER) lista aðgerðir til að draga uppl
 | [ListOfFields](er-functions-list-listoffields.md)         | Þessi aðgerð skilar *Skráalista*-gildi sem er stofnað byggt á skipulagi tilgreindrar segðar af gerðinni *Upptalning* eða *Ílát (skrá)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Þessi aðgerð skilar *Skráalista*-gildi sem samanstendur af aðeins fyrstu skránni á tilgreindum lista.|
 | [OrderBy](er-functions-list-orderby.md)                   | Þessi aðgerð skilar tilgreindum lista sem *Skráalista*-gildi eftir að því hefur verið raðað í samræmi við tilgreindar segðir. Þessi frumbreytur geta verið skilgreindar sem segðir. |
+| [Endurtaka](er-functions-list-repeat.md)                     | Þessi aðgerð byggir færslu sem inniheldur reitinn sem hefur gildi sem passar við tilgreint inntak. Það skilar svo nýju *Met listi* af skrá sem er endurtekin ákveðinn fjölda sinnum. |
 | [Bakfæra](er-functions-list-reverse.md)                   | Þessi aðgerð skilar tilgreindum lista sem *Skráalista*-gildi í öfugri röð. |
 | [Skipta](er-functions-list-split.md)                       | Þessi aðgerð skiptir upp tilteknum ílagsstreng í undirstrengi og skilar niðurstöðunni sem nýju *Skráalista*-gildi. |
 | [SplitList](er-functions-list-splitlist.md)               | Þessi aðgerði skiptir tilgreindum lista niður í undirlista (eða runur) sem hver inniheldur tilgreindan fjölda skráa. Hún skilar síðan niðurstöðunni sem nýju *Skráalista*-gildi sem samanstendur af rununum. |

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 5b3bf0d94e6975f543361481b73c845ef9c56d05
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aeadca6f3c31d5d8c1ef9d334b0e531896ac99b1
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885668"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336306"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Setja upp valmyndaratriði fartækis til að birta yfirlit yfir val á línu
 
@@ -30,7 +30,7 @@ Stjórnendur geta skilgreint hvert valmyndaratriði út af fyrir sig til að stj
 
 ## <a name="turn-on-the-work-pick-line-overview-feature"></a>Kveikja á eiginleika fyrir yfirlit yfir tiltektarlínu vinnu
 
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Áður en þú getur notað þennan eiginleika verður að kveikja á honum fyrir kerfið þitt. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** _Vöruhúsakerfi_
 - **Heiti eiginleika:** _Yfirlit yfir tiltektarlínu vinnu_

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1dab8d8bdace046f0f061713600fd1eab69e7c12
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849127"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335466"
 ---
 # <a name="system-directed-work-sequencing"></a>Kerfisstýrð vinnuröðun
 
@@ -35,7 +35,7 @@ Kerfisstýrð vinnuröðun gerir þér kleift að flokka og sía verkbeiðnir se
 
 ## <a name="turn-on-the-organization-wide-system-directed-work-sequencing-feature"></a>Kveikja á eiginleikanum kerfisstýrð vinnuröðun fyrir alla stofnunina/fyrirtækið
 
-Áður en þú getur notað kerfisstýrða vinnuröðun verður að vera kveikt á eiginleikanum í kerfinu þínu. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
+Áður en þú getur notað kerfisstýrða vinnuröð verður að kveikja á eiginleikanum fyrir kerfið þitt. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Kerfisstýrð vinnuröðun fyrir alla stofnunina/fyrirtækið*
@@ -44,7 +44,7 @@ Kerfisstýrð vinnuröðun gerir þér kleift að flokka og sía verkbeiðnir se
 
 ### <a name="make-demo-data-available"></a>Bjóða upp á sýnigögn
 
-Til að vinna í gegnum atburðarásina með því að nota gildin sem eru kynnt í þessari grein verður þú að vinna á kerfi þar sem stöðluðu kynningargögnin eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila. Aðstæðurnar nota vöruhús *51* úr sýnigögnunum.
+Til að vinna í gegnum atburðarásina með því að nota gildin sem eru kynnt í þessari grein verður þú að vinna á kerfi þar sem staðallinn [kynningargögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) er sett upp. Þar að auki verður þú að velja **USMF**-lögaðila. Aðstæðurnar nota vöruhús *51* úr sýnigögnunum.
 
 > [!IMPORTANT]
 > Áður en þú losar pantanir til vöruhússins skaltu ganga úr skugga um að tiltektarstaðsetningar hafi nægar birgðir fyrir öll atriðin á pöntunum.

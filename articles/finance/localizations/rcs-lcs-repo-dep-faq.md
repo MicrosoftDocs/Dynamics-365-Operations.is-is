@@ -1,26 +1,26 @@
 ---
 title: Regulatory Configuration Service (RCS) - Lifecycle Services (LCS) úrelding á geymslu
 description: Þessi grein veitir upplýsingar um afskrift Microsoft Dynamics Lifecycle Services (LCS) geymsla sem er fyrirhuguð sem hluti af útfærslu á Regulatory Configuration Service (RCS) alþjóðlegu geymslunni.
-author: JaneA07
+author: kfend
 ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RCS, Regulatory Configuration Services, Localization, LCS storage, LCS storage deprecation
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: ''
 ms.search.region: Global
-ms.author: janeaug
+ms.author: filatovm
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 65d45eaf618075e0c78881634fc77bda0fab277e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.custom: 97423
+ms.assetid: ''
+ms.search.form: RCS, Regulatory Configuration Services, Localization, LCS storage, LCS storage deprecation
+ms.openlocfilehash: 717a2b9b00e137631a7cb9a188bdcf1b33e6af02
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065675"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277215"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) úrelding á geymslu
 
@@ -29,8 +29,8 @@ ms.locfileid: "9065675"
 Verið er að úrelda notkun Microsoft Dynamics Lifecycle Services (LCS) sem gagnageymslu fyrir skilgreiningar rafrænnar skýrslugerðar. Þessi úrelding felur í sér eftirfarandi breytingar:
 
 - Skilgreiningar frá Microsoft sem eru notaðar í forritum Microsoft Dynamics 365 verða ekki lengur gefnar út í samnýtt eignasafn í LCS. Þess í stað verða þær einungis birtar í gegnum altæka geymslu RCS. Hins vegar verða stillingar fyrir Dynamics AX 2012 áfram birtar í samnýttu eignasafni í LCS þar til stuðningstíma fyrir AX 2012 lýkur.
-- Aðgerðin sem gerir þér kleift að hlaða upp stillingum á Project eignasafnið í LCS frá fjármála- og rekstrarforritum og frá RCS verður óvirkjuð. Hins vegar verður áfram hægt að nota vafrann í LCS til að hlaða upp skilgreiningum í eignasafn verks. Þar af leiðandi verður enn hægt að bæta skilgreiningum við LCS þannig að þær geti verið með í lausnapökkunum.
-- Innflutningur á stillingum frá LCS verður áfram tiltækur og studdur í fjármála- og rekstraröppum, og í RCS, í nokkurn tíma. Hins vegar verður virknin að lokum gerð úreld. (Nákvæmur dagur úreldingar verður tilkynntur síðar.)
+- Virknin sem gerir þér kleift að hlaða upp stillingum í Project eignasafnið í LCS frá fjármála- og rekstrarforritum og frá RCS, verður óvirkjuð. Hins vegar verður áfram hægt að nota vafrann í LCS til að hlaða upp skilgreiningum í eignasafn verks. Þar af leiðandi verður enn hægt að bæta skilgreiningum við LCS þannig að þær geti verið með í lausnapökkunum.
+- Innflutningur á stillingum frá LCS verður áfram tiltækur og studdur í fjármála- og rekstraröppum, og í RCS, um nokkurt skeið. Hins vegar verður virknin að lokum gerð úreld. (Nákvæmur dagur úreldingar verður tilkynntur síðar.)
 
 ## <a name="deprecation-notice"></a>Tilkynning um úreldingu
 
@@ -85,7 +85,7 @@ RCS notar hugmyndina á bak við *tengt forrit*. Tengd umsókn myndar tengingu �
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Eru einhver dæmi sem sýna uppsetninguna og stjórnunina?
 
-Það eru engin dæmi, en þú getur klárað skrefin fyrr í þessari grein til að flytja stillingarnar þínar yfir í RCS Global geymsluna.
+Það eru engin dæmi, en þú getur lokið skrefunum fyrr í þessari grein til að flytja stillingarnar þínar yfir í RCS Global geymsluna.
 
 ### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>Er RCS skilyrði til að stilla rafræna skýrslugerð?
 

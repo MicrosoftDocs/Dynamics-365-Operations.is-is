@@ -2,27 +2,25 @@
 title: Hjálparkerfi (inniheldur myndband)
 description: Þessi grein veitir yfirlit yfir hjálparkerfið fyrir fjármála- og rekstrarforrit.
 author: edupont04
-ms.date: 07/20/2021
+ms.date: 08/16/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
-ms.reviewer: tfehr
-ms.custom:
-- "16381"
-- intro-internal
-ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
+ms.reviewer: edupont
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57c17cab920c531b3eb125260064d01dd8662576
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.custom: 16381,  ""intro-internal
+ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
+ms.search.form: SystemParameters
+ms.openlocfilehash: f9095db85e38598ac03b4c77c3fa3be9f450ec02
+ms.sourcegitcommit: 78d41eeef0a8a8e94ed502bd89778414231a31ae
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124195"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9305225"
 ---
 # <a name="help-system"></a>Hjálparkerfi
 
@@ -58,7 +56,7 @@ Til að gerast áskrifandi að RSS straumi fyrir allar uppfærslur sem gerðar e
 [RSS-straumur](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
 > [!NOTE]
-> RSS-straumurinn skilar lista yfir 100 nýjustu uppfærslur á efnisatriðum. Listanum er ekki raðað eftir dagsetningu.  
+> RSS-straumurinn skilar lista yfir 100 nýjustu uppfærslur á efnisatriðum. Listanum er raðað eftir dagsetningu, en það getur liðið allt að vika áður en nýjustu uppfærðu greinarnar komast á listann.  
 
 Einnig er hægt að gerast áskrifandi að RSS-straumi með forriti:
 
@@ -98,7 +96,7 @@ Frekari upplýsingar er að finna á [Leiðbeiningar fyrir Docs-þátttakanda](/
 
 Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirka reynslu sem fer með þig í gegnum þrep í verki eða viðskiptaferli. Hægt er að opna (spila) verkefnaleiðbeiningar úr **Hjálp** rúðunni. Þegar er verkefnaleiðbeiningar eru valdar í fyrsta skipti mun **hjálparsvæði** sýna nákvæmar leiðbeiningar fyrir verkið. Staðfærðar verkleiðbeiningar eru í boði.
 
-Microsoft gaf út verkefnahandbókasöfn fyrir vöruútgáfur í desember 2017 útgáfunni af Dynamics 365 Finance and Operations. The [Aðgangur að verkefnaleiðbeiningum frá hjálparrúðunni](#accessing-task-guides-from-the-help-pane) kafla þessarar greinar útskýrir hvernig á að finna réttar verkefnaleiðbeiningar fyrir vöruna þína.
+Microsoft gaf út verkefnahandbókasöfn fyrir vöruútgáfur í desember 2017 útgáfunni af Dynamics 365 Finance and Operations. The [Aðgangur að verkefnaleiðbeiningum frá hjálparrúðunni](#accessing-task-guides-from-the-help-pane) hluti þessarar greinar útskýrir hvernig á að finna réttar verkefnaleiðbeiningar fyrir vöruna þína.
 
 ![Lesgluggi verkefnaleiðbeininga.](./media/task-guide-ops.png)
 
@@ -121,7 +119,7 @@ Velja skal hnappinn **Hjálp** (**?**) og síðan velja **Hjálp**. Einnig er h�
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Opna hjálparefni af hjálparsvæðinu
 
-Á **hjálparsvæðinu** er hægt að opna efnisatriði sem eiga við biðlarann. Þegar þú opnar **Hjálp** svæðinu fyrstu sýnir flipinn **Hjálp** þér þær greinar sem eiga við um síðuna sem þú ert á. Ef engin efnisatriði finnast er hægt að færa inn leitarorð til þess að fínstilla leitina. Þegar þú velur grein í **Hjálp** gluggann er hann opnaður á nýjum flipa í vafranum þínum.
+Á **hjálparsvæðinu** er hægt að opna efnisatriði sem eiga við biðlarann. Þegar þú opnar **Hjálp** svæðinu fyrstu sýnir flipinn **Hjálp** þér þær greinar sem eiga við um síðuna sem þú ert á. Ef engin efnisatriði finnast er hægt að færa inn leitarorð til þess að fínstilla leitina. Þegar þú velur grein í **Hjálp** glugganum, það er opnað á nýjum flipa í vafranum þínum.
 
 > [!IMPORTANT]
 > Þessi hluti gildir ekki um Dynamics 365 Human Resources. Hjálparkerfið fyrir mannauðskerfið er sjálfkrafa tengt við verkleiðbeiningar fyrir afurðina. Einnig er ekki hægt að stofna sérsniðnar verkleiðbeiningar fyrir mannauðsstjóra.

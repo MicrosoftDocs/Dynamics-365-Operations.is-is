@@ -1,27 +1,27 @@
 ---
-title: Stilla a Dynamics 365 Commerce sandkassa umhverfi
+title: Stilla Dynamics 365 Commerce sandkassaumhverfi
 description: Þessi grein útskýrir hvernig á að stilla a Microsoft Dynamics 365 Commerce sandkassaumhverfi eftir að það hefur verið útvegað.
-author: psimolin
+author: josaw1
 ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: psimolin
+ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 259a580981003f135e234f66e9e93ceb18605412
-ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: ae6a8c63721ac32f525e1846a10c0b2caeb08f9f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013110"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9270373"
 ---
-# <a name="configure-a-dynamics-365-commerce-sandbox-environment"></a>Stilla a Dynamics 365 Commerce sandkassa umhverfi
+# <a name="configure-a-dynamics-365-commerce-sandbox-environment"></a>Stilla Dynamics 365 Commerce sandkassaumhverfi
 
 [!include [banner](includes/banner.md)]
 

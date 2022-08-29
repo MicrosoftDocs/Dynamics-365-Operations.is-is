@@ -1,26 +1,26 @@
 ---
 title: Hanna skýrslur á mörgum tungumálum í rafrænni skýrslugerð
 description: Þessi grein útskýrir hvernig þú getur notað rafræna skýrslugerð (ER) merki til að hanna og búa til fjöltyngdar skýrslur.
-author: NickSelin
+author: kfend
 ms.date: 05/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c042d609d68544aa4be5d707109a15b2ab8d422c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ERDataModelDesigner, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
+ms.openlocfilehash: 5575ba3154521e3855ce6b97c5b37d3c4868e3e9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845745"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285486"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Hanna skýrslur á mörgum tungumálum í rafrænni skýrslugerð
 
@@ -81,7 +81,7 @@ Hægt er að vísa til merkja rafrænnar skýrslugerðar í nokkrum þýðanlegu
 
 ### <a name="model-mapping-component"></a>Hluti líkanavörpunar
 
-Vegna þess að ER líkanavörpun er byggð á ER gagnalíkani, birtast merkimiðar gagnalíkanaþátta sem vísað er til á ákjósanlegu tungumáli notandans í líkanavörpunarhönnuðinum. Eftirfarandi skýringarmynd sýnir hvernig merking reitsins **PurchaseOrder** er útskýrð í breytanlegri líkanavörpun með því að nota merki eigindarinnar **Lýsing** sem bætt hefur verið við skilgreint gagnalíkan. Takið eftir að þetta merki er sýnt á kjörtungumáli notanda (DE-AT í þessu dæmi).
+Vegna þess að ER líkanavörpun er byggð á ER gagnalíkani, birtast merkingar gagnalíkanaþátta sem vísað er til á valnu tungumáli notandans í líkanavörpunarhönnuðinum. Eftirfarandi skýringarmynd sýnir hvernig merking reitsins **PurchaseOrder** er útskýrð í breytanlegri líkanavörpun með því að nota merki eigindarinnar **Lýsing** sem bætt hefur verið við skilgreint gagnalíkan. Takið eftir að þetta merki er sýnt á kjörtungumáli notanda (DE-AT í þessu dæmi).
 
 ![Útlit hönnuðar líkanavörpunar rafrænnar skýrslugerðar fyrir notanda með DE-AT stillt sem kjörtungumál.](./media/er-multilingual-labels-show-mapping.png)
 
@@ -143,7 +143,7 @@ Ef snið rafrænnar skýrslugerðar er skilgreint á þennan hátt er skýrslan 
 Ef merki sem vísað er í er ekki með neina þýðingu fyrir tungumál keyrslusniðs fyrir það samhengi verður texti merkis á EN-US notað í staðinn.
 
 > [!TIP]
-> Þú getur notað **MAPPA** og mismunandi tegundir af **SKRÁ** hluti á breytanlegu ER sniði til að tilgreina hvernig skrá á útleið er búin til. Til að nefna myndaða skrá skaltu stilla ER [tjáningu](er-formula-language.md) fyrir **Skráarnafn** færibreytu íhlutarins. Þú getur notað merki í stilltu tjáningu. Vegna þess að **Skráarnafn** færibreytan er sjálfgefið tungumálaagnostísk, texti allra merkimiða sem þú vísar í í þessari tjáningu er sýndur á sjálfgefna EN-US tungumáli á keyrslutíma. Hins vegar, í útgáfu 10.0.28 og síðar, geturðu virkjað **Notaðu færibreytuna 'Language preference' á 'Skráarnafn' tjáninguna** eiginleiki. The **Skráarnafn** tjáning tekur þá **Tungumálastillingar** færibreytu til hliðsjónar þegar hún er reiknuð út.
+> Þú getur notað **MAPPA** og mismunandi tegundir af **SKRÁ** hluti á breytanlegu ER sniði til að tilgreina hvernig skrá á útleið er búin til. Til að nefna myndaða skrá skaltu stilla ER [tjáningu](er-formula-language.md) fyrir **Skráarnafn** færibreytu íhlutsins. Þú getur notað merki í stilltu tjáningu. Vegna þess að **Skráarnafn** færibreytan er sjálfgefið tungumálaagnostísk, texti allra merkimiða sem þú vísar í í þessari tjáningu er sýndur á sjálfgefna EN-US tungumáli á keyrslutíma. Hins vegar, í útgáfu 10.0.28 og síðar, geturðu virkjað **Notaðu færibreytuna 'Language preference' á tjáninguna 'Skráarnafn'** eiginleiki. The **Skráarnafn** tjáning tekur þá **Tungumálastillingar** færibreytu til hliðsjónar þegar hún er reiknuð út.
 
 ## <a name="language"></a>Tungumál
 
@@ -222,9 +222,9 @@ Merki fyrir hluta rafrænnar skýrslugerðar sem hægt er að breyta eru geymd, 
 Merki grunnhluta rafrænnar skýrslugerðar er hægt að vísa til í afleiddri útgáfu af hluta rafrænnar skýrslugerðar sem búin er til til að kynna breytingarnar.
 
 > [!TIP]
-> Þegar þú hannar ER lausn geturðu fengið þína eigin ER [gagnalíkan](er-overview-components.md#data-model-component) hluti úr þeim sem er veittur. Í þessu afleidda gagnalíkani geturðu kynnt eigin ER merki og notað þau á öllum ER sniðum sem munu nota gagnalíkanið sem gagnagjafa. Þú getur síðan fengið þitt eigið ER [sniði](er-overview-components.md#format-component) hluti úr þeim sem er veittur með því að velja afleitt ER gagnalíkan þitt í stað þess sem fylgir. Í útgáfu 10.0.28 og síðar geturðu virkjað **Aukinn aðgangur að merkimiðum hækkandi ER gagnalíkans** eiginleiki til að fá aðgang að merkimiða fyrir hækkandi ER gagnalíkan í afleiddum ER sniði hlutum, jafnvel þegar ER gagnalíkanið sem þú valdir fyrir afleidda ER íhlutinn er frábrugðið því sem var notað í grunn ER íhlutnum.
+> Þegar þú hannar ER lausn geturðu fengið þína eigin ER [gagnalíkan](er-overview-components.md#data-model-component) hluti úr þeim sem er veittur. Í þessu afleidda gagnalíkani geturðu kynnt eigin ER merki og notað þau á öllum ER sniðum sem munu nota gagnalíkanið sem gagnagjafa. Þú getur síðan fengið þitt eigið ER [sniði](er-overview-components.md#format-component) hluti úr þeim sem er veittur með því að velja afleitt ER gagnalíkan þitt í stað þess sem fylgir. Í útgáfu 10.0.28 og síðar geturðu virkjað **Aukinn aðgangur að merkimiðum hækkandi ER gagnalíkans** eiginleiki til að fá aðgang að merkimiðum hækkandi ER gagnalíkans í afleiddum ER sniði hlutum, jafnvel þegar ER gagnalíkanið sem þú valdir fyrir afleidda ER íhlutinn er frábrugðið því sem var notað í grunn ER íhlutnum.
 >
-> Þegar sama heiti merkimiða er notað í afleiddum íhlut þínum og stígandi íhlutum hans, er þýðing þín á því merki notuð sem mikilvægasta.
+> Þegar sama heiti merkimiða er notað í afleiddum íhlut þínum og stígandi hlutum hans, er þýðing þín á því merki notuð sem sú sem mest er viðeigandi.
 
 Útgáfustjórnun rafrænnar skýrslugerðar stýrir úthlutun merkja til allra eiginda í hluta rafrænnar skýrslugerðar. Breytingar á úthlutun merkis eru geymdar í lista yfir breytingar (delta) fyrir breytanlega hluta rafrænnar skýrslugerðar sem hefur verið búinn til sem afleidd útgáfa af uppgefnum hluta rafrænnar skýrslugerðar. Þessar breytingar verða staðfestar þegar afleidd útgáfa er flutt í nýja grunnútgáfu.
 
@@ -241,10 +241,10 @@ Eins og lýst er fyrr í þessari grein, er **Merki** og **Lýsing** eiginleika 
 
 Þegar þú skilgreinir hlut rafræns skýrslugerðarsniðs til að búa til skýrslu á æskilegu [tungumáli](#language) eða til að flytja inn skjal á innleið þar sem innihaldið er þáttað eftir æskilegu tungumáli, mælum við með að þú virkir eiginleikann **Vista kjörtungumál núverandi notanda fyrir keyrslur rafrænna skýrslugerða í skyndiminni** á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops/get-started/feature-management/feature-management-overview.md). Þessi eiginleiki hjálpar til við að bæta afköst, sérstaklega fyrir þætti rafræns skýrslugerðarsniðs sem innihalda margar tilvísanir í merki í formúlum rafrænnar skýrslugerðar og bindingar og margar [villuleitarreglur](general-electronic-reporting-formula-designer.md#TestFormula) til að búa til skilaboð notanda á kjörtungumáli þínu.
 
-Þegar þú breytir stöðu ER uppsetningarútgáfu frá **Drög** til **Lokið**, ef stillingarútgáfan inniheldur ER merki eru þau merki geymd í gagnagrunni forritsins. Geymsluskema fer eftir ástandi **Flýttu fyrir geymslu ER merkimiða** eiginleiki:
+Þegar þú breytir stöðu ER uppsetningarútgáfu frá **Drög** til **Lokið**, ef stillingarútgáfan inniheldur ER merki eru þessi merki geymd í gagnagrunni forritsins. Geymsluskema fer eftir ástandi **Flýttu fyrir geymslu ER merkimiða** eiginleiki:
 
 - Ef eiginleikinn er ekki virkur eru öll merki geymd í **LABELXML** sviði á **ÚTLÖNSKUVERSIONTAFLA** töflu sem einn XML bút.
-- Ef aðgerðin er virkjuð er sérstök færsla búin til fyrir hvert tungumál í **ÚTLÖNSUNÚTGÁFAMERKIÐARSTÖÐUR** borð. The **INNIHALD** reit þessarar töflu geymir merki fyrir hvert tungumál sem þjappað XML bút.
+- Ef aðgerðin er virkjuð er sérstök færsla búin til fyrir hvert tungumál í **ÚTLÖNSUNÚTGÁFAMERKIÐARSTÖÐUR** borð. The **INNIHALD** reit þessarar töflu geymir merki fyrir hvert tungumál sem þjappað XML-bút.
 
 Við mælum með að þú kveikir á **Flýttu fyrir geymslu ER merkimiða** eiginleiki í **Eiginleikastjórnun** vinnurými. Þessi eiginleiki hjálpar til við að bæta netbandbreiddarnýtingu og heildarafköst kerfisins vegna þess að í flestum tilfellum eru ER merki á einu tungumáli notuð þegar þú vinnur með einni ER uppsetningu.
 

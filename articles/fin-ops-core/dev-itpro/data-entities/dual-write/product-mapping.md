@@ -5,16 +5,16 @@ author: t-benebo
 ms.date: 06/23/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1546cdaf3c63a7ff9a330ae8609595aaf48fbc48
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 89ef56510ec971ef97fc9eb5c80768527abf5f88
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111487"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288923"
 ---
 # <a name="unified-product-experience"></a>Samræmd afurðaupplifun
 
@@ -36,7 +36,7 @@ Hér er vörugagnalíkanið frá fjármála- og rekstraröppum.
 
 ![Gagnamódel fyrir vörur í forritum Dynamics 365.](media/dual-write-products-6.jpg)
 
-Tvískrifa töflukortin fyrir vörur hafa verið hönnuð til að flæða gögnum eingöngu í eina átt, í næstum rauntíma frá fjármála- og rekstraröppum til Dataverse. Samt sem áður hafa vöruinnviðir verið opnaðir svo að hún verði tvíátta ef þess er krafist. Þó að hægt sé að sérsníða það er það á þína ábyrgð, þar sem Microsoft mælir ekki með þessari aðferð.
+Tvískrifa töflukortin fyrir vörur hafa verið hönnuð til að flæða gögnum eingöngu í eina átt, í næstum rauntíma frá fjármála- og rekstrarforritum til Dataverse. Samt sem áður hafa vöruinnviðir verið opnaðir svo að hún verði tvíátta ef þess er krafist. Þó að hægt sé að sérsníða það er það á þína ábyrgð, þar sem Microsoft mælir ekki með þessari aðferð.
 
 ## <a name="templates"></a>Sniðmát
 
@@ -83,7 +83,7 @@ Forrit fyrir Finance and Operations | Önnur Dynamics 365 forrit | Lýsing
 
 Með tvískrifavirknina virka verða vörurnar úr fjármálum og rekstri samstilltar í aðrar Dynamics 365 vörur í **Drög** ríki. Þeim er bætt við fyrsta verðlistann með sama gjaldmiðil og er notaður í forriti viðskiptavinar og raðar heiti verðlista eftir stafrófsröð. Með öðrum orðum, þeim er bætt við fyrsta verðlistann í Dynamics 365 appi sem passar við gjaldmiðil lagatöflunnar þinnar þar sem varan er gefin út í fjármála- og rekstrarappi. Ef engin verðlisti er til staðar fyrir tiltekinn gjaldmiðil verður verðlisti sjálfkrafa búinn til og afurðinni verður úthlutað á hann.
 
-Núverandi útfærsla á tvískriftarviðbótunum sem tengja sjálfgefna verðlista við eininguna flettir upp gjaldmiðlinum sem tengist fjármála- og rekstrarappinu og finndu fyrsta verðlistann í forritinu fyrir þátttöku viðskiptavina með því að nota stafrófsröðun á nafni verðlista. Til að stilla sjálfgefinn verðlista fyrir tiltekinn gjaldmiðil þegar margir verðlistar eru til fyrir þann gjaldmiðil þarf að uppfæra heiti verðlistans í heiti sem kemur á undan öllum öðrum verðlistum í stafrófsröð fyrir þennan sama gjaldmiðil. Ef hún er ekki með neinn verðlista fyrir tiltekinn gjaldmiðil er nýr búinn til.
+Núverandi útfærsla á tvískriftarviðbótunum sem tengja sjálfgefna verðskrána við eininguna flettir upp gjaldmiðlinum sem tengist fjármála- og rekstrarappinu og finndu fyrsta verðlistann í forritinu fyrir þátttöku viðskiptavina með því að nota stafrófsröðun á nafni verðlista. Til að stilla sjálfgefinn verðlista fyrir tiltekinn gjaldmiðil þegar margir verðlistar eru til fyrir þann gjaldmiðil þarf að uppfæra heiti verðlistans í heiti sem kemur á undan öllum öðrum verðlistum í stafrófsröð fyrir þennan sama gjaldmiðil. Ef hún er ekki með neinn verðlista fyrir tiltekinn gjaldmiðil er nýr búinn til.
 
 Sjálfgefið er að vörur úr fjármála- og rekstrarforritum eru samstilltar við önnur Dynamics 365 forrit í **Drög** ríki. Til að samstilla vöruna við stöðuna **Virkt**, svo að þú getir til dæmis notað hana beint í sölupöntunartilboðum þarf að velja eftirfarandi stillingu: **Kerfið> Stjórnun> Kerfisstjórnun> Kerfisstillingar> Sala** og velja **Stofna vörur í virkri stöðu = já**.
 
@@ -139,7 +139,7 @@ Mælieiningarnar og umreikningur á þeim eru aðgengilegar í Dataverse eftir g
 
 ![Gagnalíkan fyrir mælieiningu.](media/dual-write-product-three.png)
 
-Mælieiningarhugtakið er samþætt á milli fjármála- og rekstrarforrita og annarra Dynamics 365 forrita. Fyrir hvern einingaflokk í fjármála- og rekstrarappi er einingahópur búinn til í Dynamics 365 appi sem inniheldur þær einingar sem tilheyra einingaflokknum. Sjálfgefin grunneining er einnig búin til fyrir hvern einingahóp.
+Mælieiningarhugtakið er samþætt á milli fjármála- og rekstrarforrita og annarra Dynamics 365 forrita. Fyrir hvern einingaflokk í fjármála- og rekstrarappi er stofnaður einingahópur í Dynamics 365 appi sem inniheldur einingar sem tilheyra einingaflokknum. Sjálfgefin grunneining er einnig búin til fyrir hvern einingahóp.
 
 Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla |
 ---|---
@@ -201,9 +201,9 @@ Ef þú byggir forrit á Dataverse, ættir þú að passa að nota **productnumb
 
 ### <a name="initial-synchronization-of-products"></a>Upphafleg samstilling á afurðum
 
-Þegar tvískrifað er virkt eru vörur úr fjármála- og rekstrarforritum samstilltar við Dataverse og þátttökuforrit viðskiptavina. Vörur búnar til í Dataverse og önnur Dynamics 365 forrit áður en dual-write var gefin út verða ekki uppfærð eða samræmd við vörugögn úr fjármála- og rekstraröppum.
+Þegar tvískrifað er virkt eru vörur úr fjármála- og rekstrarforritum samstilltar við Dataverse og þátttökuforrit viðskiptavina. Vörur búnar til í Dataverse og önnur Dynamics 365 forrit áður en dual-write var gefið út verða ekki uppfærð eða samræmd við vörugögn úr fjármála- og rekstraröppum.
 
-### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Samsvörun vörugagna úr fjármálum og rekstri og öðrum Dynamics 365 forritum
+### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Samsvörun vörugagna frá fjármálum og rekstri og öðrum Dynamics 365 forritum
 
 Ef sömu vörur eru hafðar (skarast/samsvörun) í fjármálum og rekstri og í Dataverse og önnur Dynamics 365 forrit, þegar tvískrift er virkjað mun samstilling afurða úr fjármálum og rekstri eiga sér stað og tvíteknar línur birtast í Dataverse fyrir sömu vöru.
 Til að forðast fyrri aðstæður, ef önnur Dynamics 365 forrit eru með vörur sem skarast/samræmast fjármálum og rekstri, þá verður kerfisstjórinn sem virkjar tvöfalda ritun að ræsa dálkana **Fyrirtæki** (dæmi: "USMF") og **msdyn_vörunúmer** (dæmi: "1234:Black:S") áður en samstilling vöru fer fram. Með öðrum orðum, þessir tveir dálkar í vörunni í Dataverse skal fylla út hjá viðkomandi fyrirtæki í fjármálum og rekstri sem þarf að passa vöruna við og með vörunúmeri hennar.

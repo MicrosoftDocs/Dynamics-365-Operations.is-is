@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 02ab3675db0d78efa1e4e43188d79bb1e763a713
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 7141f9c7ae4e27013bd655ce78892fc44c181315
+ms.sourcegitcommit: e14648b01549bdc17998ffdef6cde273d4e78560
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111819"
+ms.lasthandoff: 08/09/2022
+ms.locfileid: "9242983"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Uppfæra í altæka aðila- og aðsetursbókarlíkanið
 
@@ -24,10 +24,10 @@ ms.locfileid: "9111819"
 
 The [Microsoft Azure Data Factory sniðmát](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema) hjálpa þér að uppfæra eftirfarandi fyrirliggjandi gögn í tvískrifa í aðila og alþjóðlegt heimilisfangabókarlíkan: gögn í **Reikningur**, **samband**, og **Seljandi** töflur og póstföng og netföng.
 
-Eftirfarandi þrjú Data Factory sniðmát eru til staðar. Þeir hjálpa til við að samræma gögnin úr bæði fjármála- og rekstraröppum og öppum fyrir þátttöku viðskiptavina.
+Eftirfarandi þrjú Data Factory sniðmát eru til staðar. Þeir hjálpa til við að samræma gögnin frá bæði fjármála- og rekstraröppum og öppum fyrir þátttöku viðskiptavina.
 
 - **[Partísniðmát](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json) (Uppfærðu gögn í dual-write Party-GAB schema/arm_template.json)** – Þetta sniðmát hjálpar til við að uppfæra **Partí** og **Hafðu samband** gögn sem tengjast **Reikningur**, **samband**, og **Seljandi** gögn.
-- **[Sniðmát fyrir póstfang aðila](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) (Uppfærðu gögn í tvískrifað Party-GAB skema/Uppfærðu í póstfang aðila - GAB/arm_template.json)** – Þetta sniðmát hjálpar til við að uppfæra póstföngin sem tengjast **Reikningur**, **samband**, og **Seljandi** gögn.
+- **[Sniðmát fyrir póstfang aðila](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) (Uppfæra gögn í tvískrifað Party-GAB skema/Uppfæra í póstfang aðila - GAB/arm_template.json)** – Þetta sniðmát hjálpar til við að uppfæra póstföngin sem tengjast **Reikningur**, **samband**, og **Seljandi** gögn.
 - **[Rafræn heimilisfang sniðmát aðila](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Electronic%20Address%20-%20GAB/arm_template.json) (Uppfærðu gögn í tvískrifað Party-GAB skema/Uppfærðu í rafrænt heimilisfang aðila - GAB/arm_template.json)** – Þetta sniðmát hjálpar til við að uppfæra rafræn heimilisföng sem tengjast **Reikningur**, **samband**, og **Seljandi** gögn.
 
 Í lok ferlisins eru eftirfarandi skrár með kommum aðskilin gildi (.csv) búnar til.
@@ -43,7 +43,7 @@ Eftirfarandi þrjú Data Factory sniðmát eru til staðar. Þeir hjálpa til vi
 Þessi grein útskýrir hvernig á að nota Data Factory sniðmátin og uppfæra gögnin þín. Ef þú ert ekki með neinar sérstillingar geturðu notað sniðmátin eins og þau eru. Hins vegar, ef þú ert með sérstillingar fyrir **Reikningur**, **samband**, og **Seljandi** gögn, verður þú að breyta sniðmátunum eins og lýst er í þessari grein.
 
 > [!IMPORTANT]
-> Sérstakar leiðbeiningar eru um að keyra sniðmát fyrir flokkspóstfang og rafræn heimilisfang aðila. Þú verður að keyra sniðmát aðila fyrst, síðan sniðmát póstfangs aðila og síðan sniðmát fyrir rafrænt heimilisfang aðila. Hvert sniðmát er hannað til að flytja inn í sérstaka gagnaverksmiðju.
+> Sérstakar leiðbeiningar eru um að keyra sniðmát fyrir póstfang aðila og rafræn heimilisfang aðila. Þú verður að keyra sniðmát aðila fyrst, síðan sniðmát póstfangs aðila og síðan sniðmát fyrir rafrænt heimilisfang aðila. Hvert sniðmát er hannað til að flytja inn í sérstaka gagnaverksmiðju.
 
 ## <a name="prerequisites"></a>Forkröfur
 
@@ -116,7 +116,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
 ## <a name="prepare-to-run-the-data-factory-templates"></a>Búðu þig undir að keyra Data Factory sniðmátin
 
-Þessi hluti lýsir uppsetningunni sem er nauðsynleg áður en þú keyrir sniðmát póstfang aðila og rafrænt heimilisfang aðila Data Factory.
+Þessi hluti lýsir uppsetningunni sem þarf áður en þú keyrir sniðmát póstfang aðila og rafrænt heimilisfang aðila Data Factory.
 
 ### <a name="setup-to-run-the-party-postal-address-template"></a>Uppsetning til að keyra póstfangssniðmát aðila
 
@@ -274,7 +274,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
     ![Að flytja inn Dataverse Veisluskrár.](media/data-factory-import-party.png)
 
-9. Í gagnaverksmiðjunni skaltu keyra sniðmát fyrir póstfang aðila og rafræn heimilisfang aðila, hvert á eftir öðru.
+9. Í gagnaverksmiðjunni skaltu keyra rafrænt heimilisfang aðila og síðan sniðmát póstfangs aðila, hvert á eftir öðru.
 
     + Póstfangssniðmát aðila uppfærir allar póstfangsfærslur í þátttökuforriti viðskiptavina og tengir þær við samsvarandi **Reikningur**, **samband**, og **Seljandi** skrár. Það býr einnig til þrjár .csv skrár: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv og ImportFONewPostalAddress.csv.
     + Rafræn heimilisfang sniðmát aðila setur öll rafræn heimilisföng í samskiptaforriti viðskiptavina upp og tengir þau við samsvarandi **Reikningur**, **samband**, og **Seljandi** skrár. Það býr einnig til eina .csv skrá: ImportFONewElectronicAddress.csv.
@@ -365,7 +365,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
 1. Skref 1 til 6 auðkenna fyrirtækin sem eru virkjuð fyrir tvískrift og búa til síuákvæði fyrir þau.
 2. Skref 7-1 til 7-9 sækja gögn bæði úr fjármála- og rekstrarappinu og viðskiptavinaforritinu og setja þau gögn í uppfærslu.
-3. Skref 8 til 9 bera saman flokksnúmerið fyrir **Reikningur**, **samband**, og **Seljandi** færslur á milli fjármála- og rekstrarappsins og forritsins fyrir þátttöku viðskiptavina. Öllum færslum sem hafa ekki aðilanúmer er sleppt.
+3. Skref 8 til 9 bera saman flokksnúmerið fyrir **Reikningur**, **samband**, og **Seljandi** færslur á milli fjármála- og rekstrarappsins og viðskiptavinaþátttökuappsins. Öllum færslum sem hafa ekki aðilanúmer er sleppt.
 4. Skref 10 býr til tvær .csv skrár fyrir aðilaskrárnar sem þarf að búa til í viðskiptavinaþátttökuforritinu og fjármála- og rekstrarappinu.
 
     - **FOCDSParty.csv** – Þessi skrá inniheldur allar aðilaskrár beggja kerfa, óháð því hvort fyrirtækið er virkt fyrir tvískrifa.
@@ -382,7 +382,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
 ### <a name="steps-in-the-party-postal-address-template"></a>Skref í sniðmát fyrir póstfang aðila
 
-1. Skref 1-1 til 1-10 sækja gögn bæði úr fjármála- og rekstrarappinu og viðskiptavinaforritinu og setja þau gögn í uppfærslu.
+1. Skref 1-1 til 1-10 sækja gögn bæði úr fjármála- og rekstrarappinu og forritinu fyrir þátttöku viðskiptavina og setja þau gögn í uppfærslu.
 2. Skref 2 afnormaliserar póstfangsgögnin í fjármála- og rekstrarappinu með því að sameina póstfangið og póstfang aðila.
 3. Skref 3 afritar og sameinar reiknings-, tengiliða- og heimilisfangsgögn frá viðskiptavinaforritinu.
 4. Skref 4 býr til .csv skrár fyrir fjármála- og rekstrarforritið til að búa til ný heimilisfangsgögn sem eru byggð á reikningi, tengiliðum og heimilisfangi söluaðila.
@@ -401,7 +401,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
 ### <a name="steps-in-the-party-electronic-address-template"></a>Skref í sniðmát fyrir rafræn heimilisfang aðila
 
-1. Skref 1-1 til 1-5 sækja gögn bæði úr fjármála- og rekstrarappinu og viðskiptavinaforritinu og setja þau gögn í uppfærslu.
+1. Skref 1-1 til 1-5 sækja gögn bæði úr fjármála- og rekstrarappinu og forritinu fyrir þátttöku viðskiptavina og setja þau gögn í uppfærslu.
 2. Skref 2 sameinar rafræn heimilisföng í þátttökuforriti viðskiptavina frá reiknings-, tengiliða- og söluaðilum.
 3. Skref 3 sameinar aðal rafræn heimilisfangsgögn úr forritinu fyrir þátttöku viðskiptavina og fjármála- og rekstrarappinu.
 4. Skref 4 býr til .csv skrár.
@@ -409,7 +409,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
     - Búðu til ný rafræn heimilisfangsgögn fyrir fjármála- og rekstrarappið, byggt á reiknings-, tengiliða- og heimilisfangi söluaðila.
     - Búðu til ný rafræn heimilisfangsgögn fyrir þátttökuforrit viðskiptavina, byggt á netfangi, reikningi, tengiliðum og heimilisfangi söluaðila í fjármála- og rekstrarappinu.
 
-5. Skref 5-1 flytur inn rafræn heimilisföng í þátttökuforrit viðskiptavinarins.
+5. Skref 5-1 flytur inn rafræn heimilisföng í þátttökuforritið fyrir viðskiptavini.
 6. Skref 5-2 býr til .csv skrár til að uppfæra aðalnetföng fyrir reikninga og tengiliði í forritinu fyrir þátttöku viðskiptavina.
 7. Skref 6-1 til og með 6-2 flyttu inn reikninga og tengiliðaaðföng inn í forritið fyrir þátttöku viðskiptavina.
 
@@ -417,7 +417,7 @@ Uppfærsla krefst eftirfarandi undirbúnings:
 
 1. Ef ferlið mistekst skaltu endurræsa gagnaverksmiðjuna. Byrjaðu á misheppnuðu virkninni.
 2. Sumar skrár sem eru búnar til af gagnaverksmiðjunni er hægt að nota til að sannprófa gögn.
-3. Gagnaverksmiðjan keyrir á .csv skrám. Þess vegna, ef kommur er innifalinn í einhverju svæðisgildi, gæti það truflað niðurstöðurnar. Þú verður að fjarlægja allar kommur úr reitgildum.
+3. Gagnaverksmiðjan keyrir út frá .csv skrám. Þess vegna, ef kommur er innifalinn í einhverju svæðisgildi, gæti það truflað niðurstöðurnar. Þú verður að fjarlægja allar kommur úr reitgildum.
 4. The **Eftirlit** flipinn veitir upplýsingar um öll skref og gögn sem hafa verið unnin. Veljið tiltekið skref til að kemba þau.
 
     ![Eftirlitsflipi.](media/data-factory-monitor.png)

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 44e7dfdbc980c5df6b9426515365611bc0de45c2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893121"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335946"
 ---
 # <a name="zone-threshold-replenishment"></a>Áfyllingarmörk svæðis
 
@@ -38,14 +38,14 @@ Líkt og lágm./hám. áfyllingar sem miðast við staðsetningar, miðast lágm
 
 ## <a name="turn-on-the-zone-threshold-replenishment-feature"></a>Kveikja á eiginleikanum áfyllingarmörk svæðis
 
-Áður en þú getur notað eiginleikann *Áfyllingarmörk svæðis*, verður að vera kveikt á því í kerfinu þínu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Áður en þú getur notað *Endurnýjun svæðisþröskulds* eiginleika, verður að vera kveikt á honum fyrir kerfið þitt. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Áfyllingarmörk svæðis*
 
 ## <a name="set-up-zone-based-replenishment"></a><a name="setup"></a>Uppsetning á áfyllingu miðað við svæði
 
-Til að setja upp áfyllingu miðað við svæði verður þú að grunnstilla nokkra hluta kerfisins. Þessi hluti kynnir hinar ýmsu stillingar og veitir kynningargagnagildi sem þú getur slegið inn ef þú vilt vinna í gegnum atburðarásina í lok þessarar greinar.
+Til að setja upp áfyllingu miðað við svæði verður þú að grunnstilla nokkra hluta kerfisins. Þessi hluti kynnir hinar ýmsu stillingar og býður upp á kynningargagnagildi sem þú getur slegið inn ef þú vilt vinna í gegnum atburðarásina í lok þessarar greinar.
 
 ### <a name="set-up-directive-codes"></a>Setja upp leiðbeiningarkóða
 
@@ -262,7 +262,7 @@ Til að undirbúa kynningargögn þannig að hægt sé að nota þau í atburða
 
 #### <a name="use-the-usmf-legal-entity"></a>Nota USMF-lögaðilann
 
-Til að vinna í gegnum aðstæðurnar með því að nota sýnskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
+Til að vinna í gegnum aðstæðurnar með því að nota sýnskrárnar og sýnigildin sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/fin-ops/get-started/demo-data.md) eru sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
 
 #### <a name="prepare-additional-sample-data"></a>Undirbúningur viðbótarsýnigagna
 

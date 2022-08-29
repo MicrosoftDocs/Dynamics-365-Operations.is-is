@@ -2,7 +2,7 @@
 title: Vistuð yfirlit
 description: Þessi grein lýsir því hvernig á að nota vistaðar skoðanir.
 author: jasongre
-ms.date: 04/25/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 14369b02f1d7553be5c732f3bdf768825267998b
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: HT
+ms.openlocfilehash: 6faf71ec5d14584034f9107c33ccce1cd1d393c7
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9125151"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220333"
 ---
 # <a name="saved-views"></a>Vistuð yfirlit
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -31,11 +31,11 @@ ms.locfileid: "9125151"
 
 Sérstilling gegnir mikilvægu hlutverki í því að gera notendum og fyrirtækjum kleift að hámarka notendaupplifun til að mæta þörfum þeirra. Frekari upplýsingar um sérstillingu er að finna í [Sérsníða notandaupplifun](personalize-user-experience.md).
 
-Hefðbundin sérstilling leyfir notendum að hafa aðeins eitt safn af sérstillingum á hverri síðu. Eiginleikinn **Vistuð yfirlit** víkkar út sérstillingu á nokkra mikilvæga vegu:
+Hefðbundin sérstilling gerir notendum kleift að hafa aðeins eitt sett af sérstillingum á hverja síðu. Eiginleikinn **Vistuð yfirlit** víkkar út sérstillingu á nokkra mikilvæga vegu:
 
 - Yfirlit leyfa notendum að hafa sett sérstillinga með mörgum heitum fyrir hverja skjámynd, sem hægt er að fara á milli á fljótlegan hátt eftir þörfum. Þetta gerir notanda kleift að búa til mörg aðlöguð yfirlit fyrir síðu, þar sem hvert yfirlit hefur verið sniðið að þörfum þess að geta framkvæmt ákveðið viðskiptatengt verkefni. 
 - Yfirlit búin til fyrir sérstakar gerðir af síðum geta einnig innihaldið síur eða flokkanir sem notandi bætir við, sem gerir notendum kleift að snúa sér fljótt að algengum síuðum gagnasöfnum. Sjá hlutann [Hvaða síður styðja yfirlit](saved-views.md#what-pages-support-views) fyrir frekari upplýsingar. 
-- Hægt er að birta skoðanir til notenda í sérstökum öryggishlutverkum og sérstökum lögaðilum. Þess vegna geta allir notendur sem hafa tiltekið hlutverk og aðgang að tilgreindum lögaðila opnað og notað það yfirlit, jafnvel þótt að slíkur notandi hafi ekki heimild til að sérsníða. Þessi útgáfumöguleiki leyfir fyrirtækjum að skilgreina stöðluð yfirlit stofnunar sem eru aðlöguð að rekstrinum. Nánari upplýsingar er að finna í hlutanum [Stjórnun sérstillinga á fyrirtækisstigi með yfirlitum](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
+- Hægt er að birta skoðanir til notenda í sérstökum öryggishlutverkum og sérstökum lögaðilum. Þess vegna getur hver notandi sem hefur tiltekið hlutverk og aðgang að tilteknum lögaðila fengið aðgang að og notað það yfirlit, jafnvel þótt sá notandi hafi ekki leyfi til að sérsníða. Þessi útgáfumöguleiki leyfir fyrirtækjum að skilgreina stöðluð yfirlit stofnunar sem eru aðlöguð að rekstrinum. Nánari upplýsingar er að finna í hlutanum [Stjórnun sérstillinga á fyrirtækisstigi með yfirlitum](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
 - Ólíkt hefðbundinni sérstillingu eru yfirlit ekki vistuð sjálfkrafa þegar notandi framkvæmir sérstillingar eða síar lista. Að vista sérstaklega er nauðsynlegt til að veita notendum þann sveigjanleika til að búa til yfirlit fyrir eða eftir breytingarnar sem tengjast því yfirliti hafa verið gerðar. Þessi krafa tryggir einnig að skilgreiningum yfirlita sé ekki óvart breytt af síum eða sérstillingum sem eru ekki ætlaðar til langtímanotkunar. Atriði sem kerfið vistar sjálfkrafa sem hluta af dæmigerðri síðunotkun (til dæmis dálkabreiddir, eða útvíkkuð eða samandregin staða svæða) verða vistuð fyrir hvert yfirlit.
 - Hægt er að bæta skoðunum við vinnusvæðin sem reitum, listum eða tenglum. Þess vegna getur síað gagnasafn komið upp á vinnusvæði og notendur geta tengt safn sérstillinga sem eiga við um það gagnasafn með reit eða tengli.
 
@@ -46,7 +46,12 @@ Hefðbundin sérstilling leyfir notendum að hafa aðeins eitt safn af sérstill
 Til eru tvær stærðir á yfirlitsvali: 
 
 - **Stórt yfirlitsval** - Síður sem birta lista á áberandi hátt verða með stærra yfirlitsval af nokkrum ástæðum. Mikilvægast er að stærra útsýnisvalið gefur til kynna síðurnar þar sem yfirlitið getur innihaldið notendaskilgreindar síur og flokkanir. Vegna þess að síur og flokkun eru innifalin í sýnunum er stærri valstærðin einnig ábyrg þar sem yfirlitsnöfnin munu oft vera besta lýsingin á gögnunum sem sýnd eru á skjánum og búist er við að notendur muni skipta oftar á milli skoðana á þessum síðugerðum. Einnig er hægt að vista flokkun í hnitaneti á skoðanir á síðu með stórum valmyndum. 
+    
+    [![Stór útsýnisvalbúnaður sem styður fyrirspurnabreytingar á útsýninu.](./media/views-largeViewSelector.png)](./media/views-largeViewSelector.png)
+
 - **Lítið yfirlitsval**: Allar aðrar skjámyndir með heilli síðu (fyrir utan vinnusvæði og stjórnborðið) eru með minna yfirlitsval sem sést við hliðina á yfirskrift síðunnar. Yfirlit á þessum síðum fela eingöngu í sér sérstillingar, ekki síur skilgreindar af notanda. Á þessum síðum er yfirskriftin eða titill færslu oft mikilvægustu upplýsingarnar efst á síðunni. Minni stærð yfirlitsvalsins endurspeglar einnig færri skiptingar milli yfirlita sem búist er við á þessum síðum. 
+    
+    [![Lítill útsýnisvalbúnaður sem styður ekki fyrirspurnabreytingar á útsýninu.](./media/views-smallViewSelector.png)](./media/views-smallViewSelector.png)
  
 Ef heiti yfirlits er valið opnast yfirlitsvalið og sýnir lista yfir tiltæk yfirlit fyrir síðuna.
 
@@ -64,6 +69,8 @@ Til að skipta yfir í annað yfirlit skal fyrst opna yfirlitsvalið og síðan 
 Ólíkt hefðbundinni sérstillingu eru yfirlit ekki sjálfkrafa vistuð þegar notandi sérstillir síðuna eða þegar notandi notar síu á lista eða raðar honum. Þörf er á sérstakri aðgerð til að vista þessar breytingar í yfirliti. Krafan veitir notendum þann sveigjanleika til að búa til yfirlit fyrir eða eftir að breytingarnar sem tengjast því yfirliti hafa verið gerðar. Hún tryggir einnig að skilgreiningum yfirlita sé ekki óvart breytt vegna síu eða sérstillinga sem eru notaðar í eitt skipti. Athugið að dæmigerð atriði síðunotkunar (til dæmis dálkabreiddir, eða útvíkkuð eða samandregin staða svæða) eru sjálfkrafa vistuð í núverandi yfirliti, m.a.s. fyrir læst yfirlit.
 
 Til að tryggja að núverandi staða yfirlitsins sé þekkt, þegar byrjað er að breyta yfirliti með því að sérstilla það eða sía, birtist stjarna (\*) við hliðina á heiti núverandi yfirlits. Þetta tákn gefur til kynna að þetta sé óvistuð, breytt útgáfa af þessu yfirliti.
+
+[![Óvistaðar breytingar á útsýni.](./media/views-unsavedChanges.png)](./media/views-unsavedChanges.png)
 
 Ef þú vilt vista þessar breytingar skaltu fylgja þessum skrefum.
 
@@ -117,7 +124,7 @@ Til að skilja betur hvernig vistuð yfirlit hjálpa til við stjórnun sérstil
 
 Án yfirlita notuðu stjórnendur sett af sérstillingum fyrir síðu handa notanda eða hóp notenda í gegnum síðuna Sérstillingar. Ef þessir notendur voru með sérstillingarheimildir tóku sérstillingarnar gildi á þessari síðu. Hinsvegar var enginn möguleiki á því að koma í veg fyrir að notendur sérstilltu síðuna enn frekar, sem þýddi að fyrirtækið gat ekki tryggt að samræmi væri á notandaviðmóti notenda. Ef einhver þessara notenda var ekki með heimildir til sérstillinga voru sérstillingar sem stjórnandi veitti þeim ekki hlaðnar inn. Ennfremur, ef nýir notendur voru ráðnir inn í fyrirtæki, þurftu stjórnendur að hlaða inn handvirkt safni af sérstillingum fyrir notendurna. Ekkert sérstakt sjálfvirkt ferli var til staðar sem tilgreindi að ákveðið safn sérstillinga ætti að vera í boði fyrir notendur í því hlutaverki.
 
-Eiginleikinn **Vistuð yfirlit** gerir fyrirtækisstjórnun á sérstillingum mun auðveldari, aðallega vegna þess að hægt verður að birta hópum notenda yfirlit. Eftir að yfirlit hefur verið birt, getur notandi sem er með eitt af skilgreindum öryggishlutverkum og aðgangsheimild að tilteknum lögaðilum séð og notað yfirlitið, jafnvel þótt sá notandi hafi ekki aðgang að sérstillingum. Þótt sérhver notandi sé með afrit af birtu yfirliti, þar sem atriði síðunotkunar eru sjálfkrafa sett á, getur enginn notandi vistað uppfærslur á sérstillingum eða fyrirspurn á birt yfirlit. Með öðrum orðum, birt yfirlit eru læst. Þar að auki, ef nýjum notendum er úthlutað hlutverkum í lögaðilum sem yfirlitin voru birt fyrir, sjá þeir sjálfkrafa yfirlitin sem tengjast hlutverkum sínum og lögaðilum. Ekki er þörf á viðbótaraðgerðum af stjórnandanum. Sömuleiðis, ef notendur skipta um hlutverk í stofnun eða fá aðgang að mismunandi lögaðilum, gætu þeir ekki lengur haft aðgang að þeim yfirlitum sem áður voru birt þeim. Aftur er engin viðbótaraðgerð nauðsynleg frá stjórnandanum.
+Eiginleikinn **Vistuð yfirlit** gerir fyrirtækisstjórnun á sérstillingum mun auðveldari, aðallega vegna þess að hægt verður að birta hópum notenda yfirlit. Eftir að yfirlit hefur verið birt getur hver notandi sem hefur eitt af skilgreindum öryggishlutverkum og aðgang að einum af tilgreindum lögaðilum séð og notað yfirlitið, jafnvel þótt sá notandi hafi ekki aðgang að sérstillingu. Þótt sérhver notandi sé með afrit af birtu yfirliti, þar sem atriði síðunotkunar eru sjálfkrafa sett á, getur enginn notandi vistað uppfærslur á sérstillingum eða fyrirspurn á birt yfirlit. Með öðrum orðum, birt yfirlit eru læst. Þar að auki, ef nýjum notendum er úthlutað hlutverkum í lögaðilum sem yfirlitin voru birt fyrir, sjá þeir sjálfkrafa yfirlitin sem tengjast hlutverkum sínum og lögaðilum. Ekki er þörf á viðbótaraðgerðum af stjórnandanum. Sömuleiðis, ef notendur skipta um hlutverk í stofnun eða fá aðgang að mismunandi lögaðilum, gætu þeir ekki lengur haft aðgang að þeim yfirlitum sem áður voru birt þeim. Aftur er engin viðbótaraðgerð nauðsynleg frá stjórnandanum.
 
 Uppfærslur á útgefnu yfirliti er auðveldlega hægt að úthluta til notenda með því að endurútgefa yfirlitið til viðeigandi öryggishlutverka og lögaðila.
 
@@ -140,7 +147,7 @@ Til að birta yfirlit skal fylgja þessum skrefum:
     > [!NOTE]
     > Hafðu eftirfarandi  hegðun í huga þegar þú birtir yfirlit sem sjálfgefið yfirlit:
     >
-    > - Ef þú birtir yfirlit sem sjálfgefið yfirlit í sumum eða öllum lögaðilum gerist eftirfarandi hegðun:
+    > - Ef þú birtir yfirlit sem sjálfgefið yfirlit fyrir suma eða alla lögaðila, gerist eftirfarandi hegðun:
     >
     >    - Ef aðeins er kveikt á grunneiginleikanum **Vistuð yfirlit** verður staka, altæka sjálfgefna yfirlitinu breytt fyrir hvern marknotanda. 
     >    - **Útgáfa 10.0.21 eða síðar:** Ef kveikt er á eiginleikanum **Bættur stuðningur lögaðila fyrir vistuð yfirlit** og þú birtir yfirlitið í undirsafni lögaðila verður sjálfgefna yfirlitinu fyrir þessa lögaðila breytt fyrir alla marknotendur.
@@ -184,7 +191,7 @@ Ef breytingarnar á birtu yfirliti fela í sér breytingar á sérstillingum eð
 
 Líkt og með stjórnun á persónulegum yfirlitum gefur svarglugginn **Stjórna yfirlitunum mínum** notendum með réttindi til að birta einfalda möguleika á umsjón með birtum yfirlitum þessarar síðu (ásamt eigin persónulegum yfirlitum). Til að opna þessa síðu skal velja heiti yfirlits til að opna fellivalmynd yfirlitsvals og velja **Fleiri** og síðan velja **Stjórna yfirlitunum mínum**.
 
-Þótt allir notendur séu með **Mín yfirlit** flipa sem sýnir þeirra eigin yfirlit, eru notendur með réttindi til birtingar einnig með **Yfirlit fyrirtækis** flipa sem sýnir öll birt og óbirt yfirlit fyrir þá síðu. Þar sem ýmsir notendur gætu verið að birta yfirlit, er mikilvægt að geta haft umsjón með heildarlistanum yfir birt yfirlit, jafnvel þótt þú sért ekki notandinn sem birti tiltekið yfirlit.
+Þó að allir notendur hafi a **Skoðanir mínar** flipa sem sýnir persónulegar skoðanir þeirra, notendur sem hafa útgáfuréttindi hafa einnig **Skoðanir stofnunarinnar** flipi sem sýnir allar birtar og óbirtar skoðanir fyrir þá síðu. Þar sem ýmsir notendur gætu verið að birta yfirlit, er mikilvægt að geta haft umsjón með heildarlistanum yfir birt yfirlit, jafnvel þótt þú sért ekki notandinn sem birti tiltekið yfirlit.
 
 Fyrir listann yfir öll birt yfirlit fyrir þessa síðu eru eftirfarandi sett af aðgerðum tiltæk. 
 
@@ -199,7 +206,7 @@ Fyrir listann yfir öll birt yfirlit fyrir þessa síðu eru eftirfarandi sett a
 Þó að einhver stjórnunargeta sé að finna á hverri síðu, eins og fram kemur í þessari grein, **kerfisstjórar** og **stjórnendur vistaðra skoðana** getur stjórnað skoðunum á heildrænan hátt fyrir kerfið í gegnum **Persónustilling** síðu. Einkum hefur þessi síða eftirfarandi hluta og möguleika: 
 
 - **Birt yfirlit** - Þessi hluti sýnir öll yfirlit sem hafa verið birt fyrir fyrirtækið. Héðan er hægt að endurbirta yfirlit þegar öryggishlutverkum eða lögaðilum hefur verið breytt sem yfirlitið hefur augastað á. Einnig er hægt að flytja út, eyða eða taka yfirlit úr birtingu. Hægt er að nota aðgerðina **Vista sem eigið** til að búa til eigið afrit af yfirlitinu til að geta uppfært yfirlitið eða öðlast betri skilning á efni þess. 
-- **Óbirt yfirlit** – Þessi hluti sýnir öll yfirlit fyrirtækis í kerfinu sem ekki eru þegar birt. Þessi yfirlit koma oftast inn í kerfið í gegnum innflutningsmöguleikann. Þú getur birt, flutt út eða eytt þessum skoðunum. Aðgerðin **Flýtibirting** sem var bætt við í útgáfu 10.0.12 býður upp á að birta mörg yfirlit úr þessum hluta í einni aðgerð með því að nota fyrirliggjandi skilgreiningar öryggishlutverks og lögaðila. Notið aðgerðina **Vista sem eigið** til að búa til eigið afrit af þessum yfirlitum til að öðlast betri skilning á efni þeirra.
+- **Óbirt yfirlit** – Þessi hluti sýnir öll yfirlit fyrirtækis í kerfinu sem ekki eru þegar birt. Þessi yfirlit koma oftast inn í kerfið í gegnum innflutningsmöguleikann. Þú getur birt, flutt út eða eytt þessum skoðunum. Aðgerðin **Flýtibirting** sem var bætt við í útgáfu 10.0.12 býður upp á að birta mörg yfirlit úr þessum hluta í einni aðgerð með því að nota fyrirliggjandi skilgreiningar öryggishlutverks og lögaðila. Þú getur notað **Vista sem persónulegt** aðgerð til að búa til persónuleg afrit af þessum skoðunum, svo að þú getir öðlast betri skilning á innihaldi þeirra.
 - **Eigin yfirlit** – Þessi hluti sýnir öll yfirlit sem notendur hafa búið til í kerfinu. Héðan er hægt að birta persónulegt yfirlit til stofnunar/fyrirtækis eða afrita eitt eða fleiri af þessum yfirlitum til annarra notenda. Einnig er hægt að birta, flytja út eða eyða þessum skoðunum, eftir þörfum.
 - **Notandastillingar** – Veljið notanda til að skoða, eða breytið getu notandans til að nota sérstillingu annaðhvort fyrir allt kerfið eða tilteknar síður sem notandinn hefur heimsótt. Hægt er að skoða og hafa umsjón með sérstillingum notanda í kerfinu. Einnig er hægt að eyða öllum sérstillingum fyrir þann notanda eða endurstilla skýringartexta eiginleika fyrir notandann. Ef skýringartextar eiginleika eru endurstilltir, birtast aftur sprettigluggar sem kynntu nýja eiginleika til sögunnar og sem notandinn hafnaði áður í næsta skipti sem notandinn sér slíka eiginleika.
 - **Kerfisstillingar** - Hægt er að slökkva á öllum sérstillingum fyrir alla notendur kerfisins. Í slíku tilfelli eru engar sérstillingar notaðar fyrir neinn notanda og allar síður eru endurstilltar í sjálfgefna stöðu. Ef þú kveikir aftur á sérstillingum verður öllum sérstillingumaftur beitt. Einnig er hægt að eyða öllum sérstillingum endanlega fyrir alla notendur kerfisins. Ekki er hægt að endurheimta sérstillingar sem hefur verið eytt. Áður en þú framkvæmir þetta verkefni skaltu þess vegna vera viss um að flytja út allar sérstillingar sem þú gætir viljað síðar.
@@ -225,7 +232,7 @@ Hægt er að kveikja og slökkva á eiginleikanum **Vistuð yfirlit** í gegnum 
 
 ### <a name="what-pages-support-views"></a>Hvaða síður styðja yfirlit? 
 
-Yfirlit eru tiltæk á flestum en ekki öllum síðum. Nánar tiltekið eru yfirlit tiltæk sem stendur á síðum sem fylla allan skjáinn fyrir utan yfirlitssvæði og vinnusvæði. Síður sem fylla ekki út í allan skjáinn, sem eru svargluggar, fellilistar svarglugga, uppflettingar, endurbættar forskoðanir, styðja ekki yfirlit. Stuðningur fyrir yfirlit fyrir aðrar síðugerðir, t.d. vinnusvæði og svarglugga, verður hugsanlega tekinn til greina fyrir framtíðaruppfærslu.
+Skoðanir eru fáanlegar á flestum en ekki öllum síðum. Nánar tiltekið, skoðanir eru nú fáanlegar á öllum síðum á öllum skjánum nema mælaborðum. Skoða stuðningur fyrir vinnusvæði er í boði í gegnum **Stuðningur við vistaðar skoðanir fyrir vinnusvæði** eiginleiki. Flestar síður sem ekki eru á öllum skjánum, sem innihalda fellivalglugga, uppflettingar og endurbætta forskoðun, styðja ekki skoðanir eins og er. Skoða stuðningur fyrir valglugga er fáanlegur í gegnum **Stuðningur við vistaðar skoðanir fyrir glugga** eiginleiki.
 
 ### <a name="who-is-allowed-to-publish-views"></a>Hver má birta yfirlit?
 

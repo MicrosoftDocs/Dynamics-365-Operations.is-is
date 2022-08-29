@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 38d5ba96690dd855556a7f69591ef5b9ee5f9d7b
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070320"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335676"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir
 
@@ -259,7 +259,7 @@ Fyrirtækjum sem nota álag til að áætlan og stjórna flutningum og meðhönd
 
 ### <a name="prepare-your-system-to-run-the-sample-scenarios"></a>Undirbúðu kerfið þitt til að keyra dæmi um aðstæður
 
-Til að vinna í gegnum dæmi um aðstæður sem lýst er í þessum hluta verður þú fyrst að ganga úr skugga um að kveikt sé á öllum nauðsynlegum eiginleikum í kerfinu þínu. Nauðsynleg kynningargögn verða einnig að vera tiltæk í kerfinu.
+Til að vinna í gegnum sýnishornin sem lýst er í þessum hluta verður þú fyrst að ganga úr skugga um að kveikt sé á öllum nauðsynlegum eiginleikum fyrir kerfið þitt. Nauðsynleg kynningargögn verða einnig að vera tiltæk í kerfinu.
 
 #### <a name="turn-on-the-required-features"></a>Kveiktu á nauðsynlegum eiginleikum
 
@@ -279,7 +279,7 @@ Til að vinna í gegnum dæmi um aðstæður sem lýst er í þessum hluta verð
 
 #### <a name="enable-sample-data"></a>Virkja gögn sýnishorna
 
-Til að vinna í gegnum þessar atburðarásir með því að nota tilgreind sýnishornagögn og -gildi verður þú að nota kerfi þar sem stöðluð kynningargagna eru sett upp. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
+Til að vinna í gegnum þessar aðstæður með því að nota tilgreindar sýnishornsfærslur og gildi verður þú að nota kerfi þar sem staðalinn [kynningargögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) er sett upp. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
 
 #### <a name="add-a-menu-item-for-receiving-load-items-when-a-mobile-device-is-used"></a>Bættu við valmyndaratriði fyrir móttöku farmvara þegar fartæki er notað
 

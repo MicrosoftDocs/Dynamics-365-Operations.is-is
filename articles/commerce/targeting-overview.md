@@ -1,32 +1,32 @@
 ---
 title: Tæki, markaður og landfræðileg miðun
-description: Þessi grein lýsir því hvernig á að búa til, breyta og stjórna áhorfendum og markmiðum í Microsoft Dynamics 365 Commerce vefsmiður með því að nota upplýsingar um tæki, markað og landsvæði.
+description: Þessi grein lýsir því hvernig á að búa til, breyta og stjórna markhópum og markmiðum í Microsoft Dynamics 365 Commerce byggingaraðila vefsvæðis með því að nota upplýsingar um tæki, markað og landsvæði.
 author: sushma-rao
 ms.date: 02/03/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 90772fd942db30bbf4f65a87b1dca4b2aaacee1e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: ebac0f4ee98f36027f8cb50a368b9b6dcbb24623
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881658"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279422"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>Tæki, markaður og landfræðileg miðun
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að búa til, breyta og stjórna áhorfendum og markmiðum í Microsoft Dynamics 365 Commerce vefsmiður með því að nota upplýsingar um tæki, markað og landsvæði.
+Þessi grein lýsir því hvernig á að búa til, breyta og stjórna markhópum og markmiðum í Microsoft Dynamics 365 Commerce byggingaraðila vefsvæðis með því að nota upplýsingar um tæki, markað og landsvæði.
 
 Dynamics 365 Commerce gerir þér kleift að sérsníða innihald síðunnar þinnar (sem kallast *markhópar*) fyrir tiltekna hópa viðskiptavina (sem kallast *notendahópar*) til að auka þátttöku og ánægju notenda. Hægt er að stofna notendahóp eða markhóp fyrst. Árangursrík markmiðasetning krefst hins vegar beggja þessara þátta.
 
@@ -104,7 +104,7 @@ Til að endurnefna núverandi markhóp í Commerce site builder skaltu fylgja þ
 1. Á yfirlitssvæðinu til vinstri skal velja **Notendahópar**.
 1. Veldu nafn áhorfendahluta sem þú vilt endurnefna.
 1. Veldu **Breyta** til að byrja að breyta áhorfendum.
-1. Í áhorfendaeiginleikarúðunni skaltu velja pennatáknið við hlið áhorfendaheitisins.
+1. Í áhorfendaeiginleikarúðunni skaltu velja pennatáknið við hliðina á nafni áhorfenda.
 1. Breyttu nafni áhorfenda eftir þörfum.
 1. Veldu gátmerkið til að staðfesta nafnbreytinguna.
 1. Veldu **Ljúka við breytingar**.

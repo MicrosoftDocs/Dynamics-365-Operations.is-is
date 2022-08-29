@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: df20f00a639d237bf8446f24a2ad4cbbfcf36615
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065150"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334386"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Hreinsunarvinnsla lagerbirgðafærslna vöruhúsakerfis
 
@@ -26,7 +26,7 @@ ms.locfileid: "9065150"
 
 Afköst fyrirspurna sem eru notaðar til að reikna lagerbirgðir verður fyrir áhrifum af færslufjöldanum í töflunum sem koma við sögu. Ein leið til að auka afköst er að draga úr fjölda færslna sem gagnagrunnurinn þarf að hafa í huga.
 
-Þessi grein lýsir hreinsunarvinnunni fyrir færslur á hendi, sem eyðir óþarfa skrám í`InventSum` og`WHSInventReserve` borðum. Þessar töflur geyma upplýsingar um lager fyrir vörur sem eru virkar fyrir vinnslu vöruhúsakerfis. (Þessar vörur nefnast WMS-vörur.) Eyðing þessara færslna getur stóraukið afköst lagerútreikninga.
+Þessi grein lýsir hreinsunarstarfi fyrir færslur, sem eyðir óþarfa skrám í`InventSum` og`WHSInventReserve` borðum. Þessar töflur geyma upplýsingar um lager fyrir vörur sem eru virkar fyrir vinnslu vöruhúsakerfis. (Þessar vörur nefnast WMS-vörur.) Eyðing þessara færslna getur stóraukið afköst lagerútreikninga.
 
 ## <a name="what-the-cleanup-job-does"></a>Hvað gerir hreinsunarvinnslan
 
@@ -39,7 +39,7 @@ Ef neikvæðar efnislegar birgðir eru leyfðar er hugsanlegt að hreinsunarvinn
 Hreinsunarvinnsla lagerbirgðafærslna er tiltæk í **Birgðastjórnun \> Reglubundin verkefni \> Hreinsun \> Hreinsun lagerbirgðafærslna vöruhúsakerfis**. Notið staðlaðar vinnslustillingar til að stýra umfangi og áætlun fyrir keyrslu vinnslunnar. Þar að auki eru eftirfarandi stillingar í boði:
 
 - **Eyða ef ekki uppfærðar í þetta marga daga** – Færið inn lágmarksfjölda daga sem vinnslan á að bíða áður en hún eyðir lagerbirgðafærslu sem hefur dottið niður í núll í magni. Notið þessa stillingu til að draga úr hættu á að eyða færslum á lager sem enn er verið að nota. Ef hreinsun á að fara fram sem fyrst skal annaðhvort slá inn *0* (núll) eða skilja reitinn eftir auðan.
-- **Hámarkskeyrslutími (klukkustundir)** - Sláið inn hámarkskeyrslutíma hreinsunarvinnslu, í klukkustundum. Ef vinnslunni er ekki lokið áður en þessi tími rennur út, vistar hún vinnuna sem er lokið fram að þessu og lokar vinnslunni. Þessi möguleiki á sérstaklega við um innleiðingar með mikilli birgðanotkun. Í slíkum tilfellum ætti að áætla að keyra vinnsluna á tímum þegar er sem minnst álag á kerfinu. Ef halda á keyrslu runuvinnslunnar áfram þar til hún klárast skal slá inn *0* (núll) eða skilja reitinn eftir auðan. Þessi stilling er aðeins í boði ef tengdur eiginleiki hefur verið [kveikt á í kerfinu](#max-execution-time).
+- **Hámarkskeyrslutími (klukkustundir)** - Sláið inn hámarkskeyrslutíma hreinsunarvinnslu, í klukkustundum. Ef vinnslunni er ekki lokið áður en þessi tími rennur út, vistar hún vinnuna sem er lokið fram að þessu og lokar vinnslunni. Þessi möguleiki á sérstaklega við um innleiðingar með mikilli birgðanotkun. Í slíkum tilfellum ætti að áætla að keyra vinnsluna á tímum þegar er sem minnst álag á kerfinu. Ef halda á keyrslu runuvinnslunnar áfram þar til hún klárast skal slá inn *0* (núll) eða skilja reitinn eftir auðan. Þessi stilling er aðeins tiltæk ef tengdur eiginleiki hefur verið [kveikt á kerfinu þínu](#max-execution-time).
 
 Þótt hægt sé að keyra vinnsluna á venjulegum vinnutíma er mælt með því að keyra hana utan vinnustunda. Þannig er komið í veg fyrir árekstra sem geta átt sér stað ef notandi er að vinna í færslu sem einnig er verið að hreinsa.
 

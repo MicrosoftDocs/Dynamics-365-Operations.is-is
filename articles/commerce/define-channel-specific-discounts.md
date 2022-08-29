@@ -1,27 +1,27 @@
 ---
 title: Skilgreina afslætti sem tengjast tilteknum rásum
 description: Smásala stilla oft inn mismunandi afslætti á mismunandi rásum. Þessi grein fer yfir hugtökin sem þú þarft að vita til að búa til afslátt fyrir tiltekna rás.
-author: scott-tucker
+author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 16401
-ms.assetid: d807fd51-86aa-47a0-8e00-6c5ddd21ff6b
 ms.search.region: global
-ms.search.industry: Retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9ceb5c8e47288e7ffdd3808cd8d60112f81ce314
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 16401
+ms.assetid: d807fd51-86aa-47a0-8e00-6c5ddd21ff6b
+ms.search.industry: Retail
+ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
+ms.openlocfilehash: f426503a6897a73010b77082f4277b65545bfcc3
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873411"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273555"
 ---
 # <a name="define-channel-specific-discounts"></a>Skilgreining afslátta fyrir tiltekna rás
 

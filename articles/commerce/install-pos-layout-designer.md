@@ -1,27 +1,27 @@
 ---
 title: Setja upp útlitshönnuð sölustaðar
 description: Nota má eins-smells hönnuð til að hanna mismunandi Modern POS (MPOS) og Cloud POS útlit, í hamnum lárétt eða lóðrétt, fyrir verslanir, afreiðslukassa, gjaldkerar og stjórnendur.
-author: athinesh99
+author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 219684
-ms.assetid: 2e2c4eea-c6e2-4912-9832-a6b22416e39f
 ms.search.region: Global
-ms.search.industry: Retail
-ms.author: athinesh
+ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0d7143833bb4a98ac976ea46a1b4b21dad2f2e5841b5e142de7583b4ce6bad38
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom: 219684
+ms.assetid: 2e2c4eea-c6e2-4912-9832-a6b22416e39f
+ms.search.industry: Retail
+ms.search.form: RetailTillLayout
+ms.openlocfilehash: a610dbb9db63236ae7d182692f45f21c56982c69
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738721"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274260"
 ---
 # <a name="install-the-pos-layout-designer"></a>Setja upp útlitshönnuð sölustaðar
 

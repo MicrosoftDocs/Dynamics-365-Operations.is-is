@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7cd53a57c16c180cb7e8958cc3a6bed1fff0512a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 63c298f36f64f2e107d3df3c0c5f3b6445546aa1
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876639"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275786"
 ---
 # <a name="header-module"></a>Eining síðuhauss
 
@@ -92,8 +92,8 @@ Fylgdu þessum skrefum til að búa til hausbrot.
 1. Í **Leita** rauf hauseiningarinnar, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
 1. Í **Veldu einingar** valmynd, veldu **Leita** mát og veldu síðan **Allt í lagi**.
 1. Á eiginleikasvæðinu fyrir leitareininguna skal stilla eiginleikana eftir því sem þörf krefur.
-1. Í **Körfu táknmynd** rauf hauseiningarinnar, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
-1. Í **Veldu einingar** valmynd, veldu **Körfu táknmynd** mát og veldu síðan **Allt í lagi**.
+1. Í **Tákn körfu** rauf hauseiningarinnar, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
+1. Í **Veldu einingar** valmynd, veldu **Tákn körfu** mát og veldu síðan **Allt í lagi**.
 1. Á eiginleikasvæðinu fyrir einingu körfutákns skal stilla eiginleikana eftir því sem þörf krefur. Ef óskað er eftir að körfutáknið sýni samantekt körfu (einnig þekkt sem smákarfa) þegar notendur fara með bendilinn yfir það, skal velja **Sýna smákörfu**.
 1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila brotinu og veldu síðan **Birta** til að birta það.
 

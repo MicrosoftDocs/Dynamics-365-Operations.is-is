@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cf84598b731e9750e3cf79d312bf0bbf4f8bd81
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b7eaf57e0f02c0b9dd6454a58184db7bb3f58c04
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854269"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337357"
 ---
 # <a name="forecast-reduction-keys"></a>Minnkunarlyklar samkvæmt spá
 
@@ -133,7 +133,7 @@ Ef þú velur **Færslur - breytilegt tímabil** eru spáþarfir minnkaðar við
 - Minnkunarlyklar eru hvorki nauðsynlegir né notaðir. 
 - Ef spá er alveg minnkuð verða spárþarfir gildandi spár 0 (núll).
 - Ef það er engin komandi spá eru spáþarfir frá síðustu spá sem var færð inn minnkaðar.
-- Tímamörk eru hafðar með í útreikningi á lækkun spár.
+- Tímagirðing eftirspurnarspár minnkunar er ekki innifalin í útreikningi á spá um minnkun. Þess í stað er tímagirðing umfjöllunarhóps notuð til að draga úr spám.
 - Jákvæðir dagar eru hafðir með í útreikningi á lækkun spár.
 - Ef raunverulegar pöntunarfærslur°fara fram úr spáþörfum, eru eftirstandandi færslur ekki sendar áfram í næsta spátímabil.
 

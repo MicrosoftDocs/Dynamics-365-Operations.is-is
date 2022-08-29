@@ -6,20 +6,20 @@ ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a087c213d4a7094f75da8c20e4ccc14fc52444ce
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.search.industry: ''
+ms.search.form: ''
+ms.openlocfilehash: d10e9ed78dfc90833ff3c09021f863f6ef0b80d9
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027092"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9286811"
 ---
 # <a name="search-results-module"></a>Leitarniðurstöðueining
 
@@ -64,7 +64,7 @@ Leitarniðurstöðueiningin styður [flýtiskoðunareininguna](quick-view-module
 
 ## <a name="add-a-search-results-module-to-a-category-page"></a>Bæta leitarniðurstöðueiningu við flokkasíðu
 
-Fylgdu þessum skrefum til að bæta leitarniðurstöðueiningu við flokkasíðu í vefsvæðisgerð.
+Fylgdu þessum skrefum til að bæta leitarniðurstöðueiningu við flokkasíðu í vefsíðugerð.
 
 1. Farðu í **Sniðmát** og veldu **Nýtt** til að búa til nýtt sniðmát.
 1. Í svarglugganum **Nýtt sniðmát** skal slá inn heitið **Leitarniðurstöður** og síðan velja **Í lagi**.
@@ -91,7 +91,7 @@ Fylgdu þessum skrefum til að bæta leitarniðurstöðueiningu við flokkasíð
 Viðskiptavinir búast almennt við að netverslunarvefsíðan sé meðvituð um birgðahald í gegnum vafraupplifunina, svo að þeir geti ákveðið hvað þeir eigi að gera ef engar birgðir eru til fyrir vöru. Hægt er að stilla leitarniðurstöðueininguna til að fella inn birgðagögn og veita eftirfarandi reynslu:
 
 - Sýnið birgðamiða ásamt vörunni.
-- Fela vörur sem eru ekki á lager af vörulistanum.
+- Fela vörur sem eru ekki til á lager af vörulistanum.
 - Sýnið vörur sem eru ekki til á lager aftast á vörulistanum.
 - Sía vörur í leitarniðurstöðum eftir birgðastigi.
 

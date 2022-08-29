@@ -7,24 +7,24 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: 1f2e4eb8825dd690f926f7f0bdfc39f1eb5fb83c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881853"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276374"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Yfirlit yfir sjálfgefna lendingarsíðu og leitarniðurstöðusíðu
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein veitir yfirlit yfir sjálfgefna áfangasíðu og leitarniðurstöðusíðu í Microsoft Dynamics 365 Commerce rafræn viðskipti.
+Þessi grein veitir yfirlit yfir sjálfgefna flokk áfangasíðu og leitarniðurstöðusíðu í Microsoft Dynamics 365 Commerce rafræn viðskipti.
 
 ## <a name="default-category-landing-page"></a>Sjálfgefin lendingarsíða flokks
 
@@ -32,7 +32,7 @@ Sjálfgefin lendingasíða flokks er sú síðu sem notendur vefsíðna eru venj
 
 ![Sjálfgefin lendingarsíða flokks.](./media/SimpleCategoryLandingDressCategory.png)
 
-Efst á síðunni er haus sem sýnir alla vöruflokka og aðrar síður sem vörustjórinn hefur flokkað. Stillingar eru gerðar sem hluti af stillingum yfirlitsstigveldis rásar. Neðst á síðunni er fótur sem inniheldur skynditengingar á ýmsar greinar sem kaupandi gæti haft áhuga á.
+Efst á síðunni er haus sem sýnir alla vöruflokka og aðrar síður sem vörustjórinn hefur flokkað. Stillingar eru gerðar sem hluti af stillingum yfirlitsstigveldis rásar. Neðst á síðunni er fótur sem inniheldur fljótlega tengla á ýmsar greinar sem kaupandi gæti haft áhuga á.
 
 Eftirfarandi þættir eru nauðsynlegir fyrir flokk:
 
@@ -46,6 +46,12 @@ Eftirfarandi þættir eru nauðsynlegir fyrir flokk:
     - Afurðaheiti – \[Z-A\]
     - Einkunnir – lægsta til hæsta
     - Einkunnir – hæsta til lægsta
+
+- **Ítarlegir flokkunarvalkostir** eru notaðar af gestum vefsíðunnar til að flokka vörurnar með því að nota skynsamlegar viðmiðanir. Með því að virkja [Vararáðleggingar](product-recommendations.md), eftirfarandi flokkunarvalkostir eru í boði. Fyrir frekari upplýsingar, vísa til [Tegundir vöruráðlegginga](product-recommendations.md#types-of-product-recommendations) grein.
+
+    - Ný
+    - Mest selda
+    - Vinsælt
 
 - **Síðuskipting** gerir gestum vefsíðu kleift að fara af einni síðu með flokkaðar vöruniðurstöður á aðra síðu.
 - **Heildarfjöldi** veitir heildarfjölda vara sem eru skilgreindar í flokk.
@@ -78,7 +84,7 @@ Eftirfarandi þættir eru nauðsynlegir fyrir leitarniðurstöðusíðu:
 
 - **Afurðastaðsetningarreitir** sýna afurðir fyrir notandaleitina. Sjálfgefið er að þessir reitir séu flokkaðir eftir skýjadrifnu mikilvægisstigi leitar fyrir notendaleit.
 - **Yfirlit yfir hreinsara og val** eru síur sem veita fjölda og sem hægt er að nota til að fínstilla vörur. Vörustjórinn stillir þá sem hluta af uppsetningu lýsigagnanna sem tengjast lýsigögnum „rásaflokka og afurðareiginda“.
-- **Flokkunarvalkostir** eru notaðir af gestum vefsíðna til að flokka vörurnar. Sjálfgefið er að eftirfarandi flokkunarvalkostir eru tiltækir:
+- **Venjulegir flokkunarvalkostir** eru notaðar af gestum vefsíðunnar til að flokka vörurnar. Sjálfgefið er að eftirfarandi flokkunarvalkostir eru tiltækir:
 
     - Verð – lægsta til hæsta
     - Verð – hæsta til lægsta
@@ -86,7 +92,16 @@ Eftirfarandi þættir eru nauðsynlegir fyrir leitarniðurstöðusíðu:
     - Afurðaheiti – \[Z-A\]
     - Einkunnir – lægsta til hæsta
     - Einkunnir – hæsta til lægsta
-    - Sjálfgefinn
+    - Sjálfgefið 
+    
+    > [!NOTE]
+    > Ef **Birta röð** gildin eru skilgreind fyrir vörurnar í leiðsöguarfleifðinni, flokkun sjálfkrafa á flokkasíðu virðir gildin sem skilgreind eru í **Birta röð**. Að öðrum kosti fer flokkunin fram hjá **Vörunúmer** .)
+    
+- **Ítarlegir flokkunarvalkostir** eru notaðar af gestum vefsíðunnar til að flokka vörurnar með því að nota skynsamlegar viðmiðanir. Með því að virkja [Vararáðleggingar](product-recommendations.md), eftirfarandi flokkunarvalkostir eru í boði. Fyrir frekari upplýsingar, vísa til [Tegundir vöruráðlegginga](product-recommendations.md#types-of-product-recommendations) grein.
+
+    - Ný
+    - Mest selda
+    - Vinsælt
 
 - **Síðuskipting** gerir gestum vefsíðu kleift að fara af einni síðu með flokkaðar vöruniðurstöður á aðra síðu.
 - **Heildarfjöldi** veitir heildarfjölda vara sem eru skilgreindar í flokk og samsvara leitarskilyrðum.
@@ -94,6 +109,8 @@ Eftirfarandi þættir eru nauðsynlegir fyrir leitarniðurstöðusíðu:
 >[!NOTE]
 >Þessir leitareiginleikar í skýi eru tiltækir frá útgáfu 10.0.8. Gangið úr skugga um að undir **Viðskiptafæribreytur > Skilgreiningarfæribreytur** sé færsla fyrir „ProductSearch.UseAzureSearch stillt á true“. 
 ![Færibreytur skilgreininga fyrir leit í skýinu.](./media/CloudPoweredSearchConfigurationParameters.png)
+
+>Að auki, til að nota háþróaða flokkunarvalkosti eins og nýja, mest selda og vinsæla, verður þú að virkja [Vararáðleggingar](product-recommendations.md) fyrir umhverfi þitt. Ítarlegir flokkunarvalkostir eru fáanlegir með Commerce SDK útgáfu 9.35+ og Commerce útgáfu 10.0.20.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

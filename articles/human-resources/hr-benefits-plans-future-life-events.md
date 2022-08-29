@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 183d0f13a17ffac723fac6c4801bd187dd54e976
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2cb3ca03e0d9d7e5423a405f1eb0372e1c19588d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888855"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227986"
 ---
 # <a name="configure-future-life-events"></a>Grunnstilla viðburði í framtíðinni
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Þú getur tímasett framtíðarviðburði í Dynamics 365 Human Resources.
 
@@ -39,11 +40,12 @@ ms.locfileid: "8888855"
    | Viðburður er skráður | Dagsetning og tími þegar viðburðurinn er skráður. |
    | Skrárgerð | Sýnir hvort aðgerðin er ein af eftirfarandi:</br></br>- **Uppfæra** - breyting á núverandi skrá sem er að rekja atburði í lífinu</br></br>- **Setja inn** - stofnun nýrrar atburðarskrár yfir atburði í lífinu |
    | Auðkenni gerðar viðburðar | Einkvæmt auðkenni viðburðargerðar. |
-   | Gerð viðburðar | Hvati til að uppfæra skráningu starfsmanna á fríðindum. Nánari upplýsingar er að finna í kaflanum um atburði um viðburði. |
+   | Gerð viðburðar | Hvati til að uppfæra skráningu starfsmanna á fríðindum. Nánari upplýsingar er að finna í hlutanum Lífsatburðir. |
    | Staða | Hvort viðburðurinn hafi verið unninn eða ekki. |
    | Lína | Línunúmer framtíðarlífsviðburðarins. |
 
-4. Veljið **Vista**. 
+4. Veldu **Vista**. 
 
+Þú getur eytt atburðum í lífinu í framtíðinni. Ef afgreiddum framtíðarlífsatburði er eytt er framtíðarfærslunni einnig eytt. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

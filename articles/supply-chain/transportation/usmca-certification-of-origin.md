@@ -2,7 +2,7 @@
 title: USMCA-upprunavottorð
 description: Með þessum eiginleika er hægt að prenta út skjöl áskilins upprunavottorðs samkvæmt samningi Bandaríkjanna, Mexíkó og Kanada (USMCA).
 author: Weijiesa
-ms.date: 10/23/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 2a87e1aa27085f1b4821d27cece782dffbcd2096
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851363"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336546"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA-upprunavottorð
 
@@ -33,12 +33,9 @@ Skjalið er aðeins aðgengilegt þegar land á aðalaðsetri lögaðilans er Ba
 
 Hægt er að forfylla skjalið með gögnum úr kerfinu þínu, háð því hvernig skjalið er prentað út. Hægt er að breyta eða bæta gögnum við skjalið sem á að prenta út með því að flytja prentaða skjalið út á breytanlegu sniði, t.d. Microsoft Word. Eftir útflutning er hægt að nota allar nauðsynlegar breytingar áður en yfirlýsing er gerð.
 
-## <a name="turn-on-the-usmca-feature"></a>Kveikja á USMCA-eiginleika
+## <a name="turn-the-usmca-feature-on-or-off"></a>Kveiktu eða slökktu á USMCA eiginleikanum
 
-Áður en hægt er að nota USMCA-eiginleikann verður að vera kveikt á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
-
-- **Eining:** *Flutningsstjórnun*
-- **Heiti eiginleika:** *Skjal USMCA-upprunavottorðs*
+Til að nota þennan eiginleika verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á eiginleikanum. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *USMCA vottun upprunaskjals* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="document-content"></a>Innihald skjals
 

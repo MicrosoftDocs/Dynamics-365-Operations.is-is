@@ -1,20 +1,20 @@
 ---
 title: Notkun Microsoft Power Apps-vefgátta með gagnalíkani aðila
-description: Þessi grein lýsir breytingunum á vefhlutverkunum fyrir Microsoft Power Apps gáttir vegna aðilagagnalíkans í tvískrifa.
+description: Þessi grein lýsir breytingum á vefhlutverkum fyrir Microsoft Power Apps gáttir vegna aðilagagnalíkans í tvískrift.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: c2e9d0f47ef90167bf84bb5b20e6a7ad2d58ffd2
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d7a6ae48834ddd5f06f73bfe3129e44d14d86b8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898947"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9288987"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Notkun Microsoft Power Apps-vefgátta með gagnalíkani aðila
 

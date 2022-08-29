@@ -1,30 +1,30 @@
 ---
 title: Stjórna nokkrum afleiddum vörpunum fyrir eina rót líkans
 description: Þessi grein útskýrir hvernig á að stjórna nokkrum afleiddum vörpum sem voru stilltar fyrir einni líkanrót.
-author: NickSelin
+author: kfend
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERSolutionTable, ERModelMappingTable
+ms.openlocfilehash: 868d47ccfebb9a9753d93344c72b10ae4353b0e6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892480"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277509"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Stjórna nokkrum afleiddum vörpunum fyrir eina rót líkans
 
 [!include [banner](../includes/banner.md)]
 
-An [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) gagnalíkanhluti er notaður í öllum stilltum ER-sniðshlutum sem gagnagjafi til að búa til skjöl á útleið. Til að lýsa einu viðskiptaléni skal skilgreina gagnalíkanshlut sem er með margar rótarskilgreiningar. 
+An [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) gagnalíkahlutur er notaður í öllum stilltum ER-sniðshlutum sem gagnagjafi til að búa til skjöl á útleið. Til að lýsa einu viðskiptaléni skal skilgreina gagnalíkanshlut sem er með margar rótarskilgreiningar. 
 
 Allar rótarskilgreiningar gera notanda kleift að tákna gögn í þessu léni sem hentar best tilteknum markmiðum skýrslugerðar. Fyrir hverja rótarskilgreiningu geturðu stillt ER líkanakortlagningarhluta sem Microsoft Dynamics 365 Fjármál-sértæk útfærsla á gagnalíkaninu þínu. Á þennan hátt er lýst hvernig gagnalíkanið verður fyllt út við keyrslu.
 
@@ -32,7 +32,7 @@ Gagnalíkanshlutar rafrænnar skýrslugerðar geta verið í [skilgreiningum](ge
 
 Margar skilgreiningarveitur bjóða mögulega upp á skilgreiningar líkanavörpunar rafrænnar skýrslugerðar fyrir sama gagnalíkan rafrænnar skýrslugerðar. Þessar skilgreiningar líkanavörpunar gætu innihaldið vörpunarhluta fyrir mismunandi rótarskilgreiningar. Hugsanlega er hægt að nota líkanavörpun fyrir eina rótarskilgreiningu sem er ein [veita](general-electronic-reporting.md#Provider) býður upp á og nota líkanavörpun fyrir aðra rótarskilgreiningu sem önnur veita býður upp á.
 
-Aðferðirnar í þessari grein útskýra hvernig á að stjórna mörgum ER líkanavörpunarstillingum ER gagnalíkans þegar þær innihalda mismunandi líkanavörpunaríhluti sem eru stilltir fyrir sömu rótarskilgreiningu. 
+Verklagsreglurnar í þessari grein útskýra hvernig á að stjórna mörgum ER líkanavörpunarstillingum ER gagnalíkans þegar þær innihalda mismunandi líkanavörpunaríhluti sem eru stilltir fyrir sömu rótarskilgreiningu. 
 
 Til að ljúka verklagsreglunum í þessari grein verður þú að vera úthlutað í hlutverk kerfisstjóra eða þróunaraðila rafrænna skýrslugerðar.
 
@@ -106,7 +106,7 @@ Til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núver
 3. Í fellilistaglugganum **Stofna skilgreiningu**, í reitnum **Ný**, skal velja **Leiða af heiti: Líkanavörpun reiknings, Microsoft**.
 4. Í reitinn **Heiti** skal færa inn **Vörpun reikningslíkans (Litware)**.
 5. Veljið **Stofna skilgreiningu**.
-6. [Merkið](er-quick-start2-customize-report.md#MarkFormatRunnable) útgáfu [draga](general-electronic-reporting.md#component-versioning) fyrir afleidda vörpun sem tilbúna fyrir keyrslu:
+6. [Merkið](er-quick-start2-customize-report.md#MarkFormatRunnable) útgáfu [draga](general-electronic-reporting.md) fyrir afleidda vörpun sem tilbúna fyrir keyrslu:
 
     1. Á aðgerðasvæðinu, í flipanum **Skilgreiningar**, í flokknum **Ítarlegar stillingar**, skal velja **Færibreytur notanda**.
     2. Í glugganum **Færibreytur notanda** skal stilla valkostinn **Keyra stillingar** á **Já** og síðan velja **Í lagi**.

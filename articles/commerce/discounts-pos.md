@@ -1,33 +1,33 @@
 ---
 title: Birta afslátt á sölustað
-description: Þessi grein útskýrir hvernig Microsoft Dynamics 365 Commerce hjálpar söluaðilum að fræðast um kynningar og hvernig hægt er að nota þær fyrir krosssölu- og uppsölutillögur.
+description: Þessi grein útskýrir hvernig Microsoft Dynamics 365 Commerce hjálpar söluaðilum að fræðast um kynningar og hvernig hægt er að nota þær fyrir kross- og uppsölutillögur.
 author: ShalabhjainMSFT
 ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: Retail, Commerce
-ms.author: asharchw
+ms.author: shajain
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: e3ec16c5051088ed2777309899b26094e8d67743
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail, Commerce
+ms.search.form: ''
+ms.openlocfilehash: 706c13bf090b2ad3826d17bbbeda8a2fa7733f2f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878541"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287709"
 ---
 # <a name="show-discounts-in-pos"></a>Sýna afslátt í POS
 
 [!include [banner](includes/banner.md)]
 
-Kynningar gegna mikilvægu hlutverki við að hvetja viðskiptavini sem taka ákvarðanir um kaup. Sem dæmi má nefna að frí geta framleitt mesta sölu fyrir smásala, vegna þess að allur smásölumarkaðurinn fyllist af lokkandi kynningum og afslætti. Ef verslunaraðilar vita um og skilja kynningarnar sem eru í boði geta þeir auðveldlega nýtt sér þessar kynningar til að krossselja og viðbótarselja vörur. Þessi grein útskýrir hvernig Microsoft Dynamics 365 Commerce hjálpar söluaðilum að fræðast um kynningar og hvernig hægt er að nota þær fyrir krosssölu- og uppsölutillögur.
+Kynningar gegna mikilvægu hlutverki við að hvetja viðskiptavini sem taka ákvarðanir um kaup. Sem dæmi má nefna að frí geta framleitt mesta sölu fyrir smásala, vegna þess að allur smásölumarkaðurinn fyllist af lokkandi kynningum og afslætti. Ef verslunaraðilar vita um og skilja kynningarnar sem eru í boði geta þeir auðveldlega nýtt sér þessar kynningar til að krossselja og viðbótarselja vörur. Þessi grein útskýrir hvernig Microsoft Dynamics 365 Commerce hjálpar söluaðilum að fræðast um kynningar og hvernig hægt er að nota þær fyrir kross- og uppsölutillögur.
 
 ## <a name="learn-about-store-discounts"></a>Lærðu um afslátt í verslun
 

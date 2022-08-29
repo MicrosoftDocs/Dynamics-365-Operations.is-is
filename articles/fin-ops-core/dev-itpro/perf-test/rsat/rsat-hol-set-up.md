@@ -1,29 +1,29 @@
 ---
 title: Setja upp kennslu fyrir Regression Suite Automation Tool
 description: Þessi grein er einkatími sem sýnir hvernig á að setja upp og setja upp sjálfvirkni tól fyrir Regression Suite (RSAT).
-author: tonyafehr
+author: frankdahl
 ms.date: 09/20/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
-ms.reviewer: tfehr
-ms.custom: 21761, NotInToc
+ms.reviewer: sericks
 ms.search.region: Global
-ms.author: tfehr
+ms.author: fdahl
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: ced1300b268df9a6503ce1d33d74cae85ade3f20
-ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
+ms.custom: 21761, NotInToc
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: abcb327324829460b0278d95e77b473fa15e363c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9103151"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277455"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Setja upp kennslu fyrir Regression Suite Automation Tool
 
-Þessi grein er einkatími sem hjálpar þér að setja upp og byrja með RSAT og tólin sem tengjast notkun RSAT.
+Þessi grein er einkatími sem hjálpar þér að setja upp og byrja með RSAT og verkfærin sem tengjast notkun RSAT.
 
 [!include [banner](../../includes/banner.md)]
 

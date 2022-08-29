@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2f263e331d23ce0ddf60a4abc2467513aa342445
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: be3d72063ac18b9abea77d5aec6e230b0c930ae6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112365"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289361"
 ---
 # <a name="general-troubleshooting"></a>Almenn úrræðaleit
 
@@ -37,13 +37,13 @@ Rekjaskrár geta verið gagnlegar þegar bilanaleit eru tvískrifuð samstilling
 Fylgdu þessum skrefum til að kveikja á rakningarkladda.
 
 1.  Skráðu þig inn á Dynamics 365 og veldu síðan **Stillingar** í efstu yfirlitsstikunni. Á Systems síðunni, smelltu **Stjórnsýsla**.
-2.  Á stjórnunarsíðunni smellirðu á **Kerfisstillingar**.
+2.  Á Stjórnunarsíðunni smellirðu á **Kerfisstillingar**.
 3.  Veldu **Sérsniðin** flipa og viðbætur, og síðan í hlutanum fyrir sérsniðna vinnuflæðisvirkni, breyttu fellilistanum í **Allt**. Þetta mun rekja alla starfsemi og veita alhliða gagnasett fyrir teymin sem verða að fara yfir hugsanleg vandamál.
 
 > [!NOTE]
 > Stillir fellilistann á **Undantekning** mun aðeins veita rakningarupplýsingar þegar undantekningar (villur) eiga sér stað.
 
-Þegar kveikt hefur verið á þeim verður rekjaskrám viðbótanna safnað áfram þar til slökkt er handvirkt á þeim með því að fara aftur á þennan stað og velja **Af**.
+Þegar kveikt hefur verið á þeim verður áfram safnað rekja annálum þar til þeim er slökkt handvirkt með því að fara aftur á þennan stað og velja **Af**.
 
 ### <a name="view-the-trace-log"></a>Skoðaðu rekjaskrána
 Fylgdu þessum skrefum til að skoða rakningarkladdann.
@@ -102,7 +102,7 @@ Vefkökur þriðju aðila þurfa að vera leyfðar í stillingum vafra.
 
 2. kostur:
 1.  Farðu í stillingar með því að slá inn chrome://settings/ í veffangastikunni og farðu síðan í Privacy and Security -> Cookies and other site data.
-2.  Ef 'Loka á vafrakökur frá þriðja aðila í huliðsstillingu' eða 'Loka á vafrakökur frá þriðja aðila' er valið, farðu í 'Síður sem geta alltaf notað vafrakökur' og smelltu á **Bæta við**. 
+2.  Ef „Loka á vafrakökur frá þriðja aðila í huliðsstillingu“ eða „Loka á kökur frá þriðja aðila“ er valið, farðu í „Síður sem geta alltaf notað vafrakökur“ og smelltu á **Bæta við**. 
 3.  Bættu við heiti vefsvæðis fyrir fjármála- og rekstrarappa -https://<your_FinOp_instance>.cloudax.dynamics.com. Gakktu úr skugga um að þú veljir gátreitinn fyrir "Allar vafrakökur, aðeins á þessari síðu". 
 
 ### <a name="microsoft-edge-browser"></a>Microsoft Edge vafra
@@ -132,7 +132,7 @@ Fylgdu þessum skrefum til að gera virkja valkostinn **Upplýsingar** aftur:
 3. Veldu **Upplýsingar** og smelltu á **Virkja öryggishlutverk**.
 4. Breyttu öryggisstillingunni í **Sýna öllum**.
 
-## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Hvernig á að tryggja að gagnasamþætting sé með nýjustu fjármála- og rekstraráætlunum
+## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Hvernig á að tryggja að gagnasamþætting sé með nýjustu fjármála- og rekstraráætluninni
 
 Þú gætir lent í gagnavandamálum við samþættingu gagna ef ekki er verið að nota nýjasta skemað. Eftirfarandi skref munu hjálpa þér að endurnýja aðilalistann í fjármála- og rekstrarforritum og einingarnar í gagnasamþættingunni.
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8f46a4d4e087a99c00ab7b4eabc74f60043cbf21
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: e17e45f1d4e9f7c62317eac6f3ea1be84017b562
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186484"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335286"
 ---
 # <a name="priority-based-planning"></a>Forgangsröðuð áætlun
 
@@ -30,7 +30,7 @@ Til að fá fljótt yfirlit yfir þennan eiginleika skaltu skoða eftirfarandi m
 
 ## <a name="turn-on-priority-based-planning-in-your-system"></a>Kveiktu á forgangsbundinni áætlanagerð í kerfinu þínu
 
-Kveikja þarf á þessum eiginleika í kerfinu til að hægt sé að nota hann. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Áður en þú getur notað þennan eiginleika verður að kveikja á honum fyrir kerfið þitt. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Aðaláætlanagerð*
 - **Eiginleikaheiti:** *Forgangsdrifinn MRP stuðningur fyrir hagræðingu áætlanagerðar*
@@ -67,7 +67,7 @@ Eftirfarandi formúla er notuð:
 - *Á pöntun* er væntanlegt framboð.
 - *Hæfð eftirspurn* táknar nettóþarfir sem hafa kröfudagsetninguna innan skipulagstímagirðingar.
 
-Meðan á aðalskipulagskeyrslunni stendur eru nýjar áætlaðar pantanir búnar til þegar nettóflæðisstaða er minni en endurpöntunarpunktamagn vöru. Fyrirhugað pöntunarmagn er munurinn á milli **Hámarks birgðamagn** gildi sem er stillt á vörustigi og nettóflæðisstöðu. Fyrirhugaður pöntunarforgangur reiknast sem a *nettó flæðisstaða* hlutfall af **Hámarks birgðamagn** gildi.
+Meðan á aðalskipulagskeyrslunni stendur eru nýjar áætlaðar pantanir búnar til þegar nettóflæðisstaða er minni en endurpöntunarpunktamagn vöru. Fyrirhugað pöntunarmagn er munurinn á milli **Hámarks birgðamagn** gildi sem er stillt á vörustigi og nettóflæðisstöðu. Fyrirhugaður pöntunarforgangur er reiknaður sem a *nettó flæðisstaða* hlutfall af **Hámarks birgðamagn** gildi.
 
 > [!NOTE]
 > Reiknaður forgangur getur ekki verið neikvæður, jafnvel þótt eftirspurn sé meiri en heildarframboð. Ef eftirspurn er meiri en heildarframboð er reiknaður forgangur stilltur á 0 (núll).
@@ -112,7 +112,7 @@ Settu upp nýjan umfjöllunarhóp sem þú ætlar að nota fyrir forgangsmiðað
 
 ### <a name="item-coverage"></a>Vöruþekja
 
-Settu upp stillingar fyrir vöruþekju eins og lýst er í [Þekjustillingar](../coverage-settings.md). Sjálfgefið er **Umfjöllunarkóði** gildi sem er valið fyrir þekjuhópinn er afritað í vöruþekjustillingar. Hins vegar geturðu hnekkt sjálfgefna gildinu eftir þörfum. Í sumum tilfellum er **Umfjöllunarkóði** reit fyrir vöruþekjuskrá er stillt á *Skipulag*, en ekkert áætlunarforgangslíkan er skilgreint fyrir tengda þekjuhópinn. Í þessum tilvikum, hvaða gerð sem er þar sem **Forgangsreikningsaðferð** reiturinn er stilltur á *Hlutfall af hámarks birgðamagni* og **Fyrirhuguð pöntunargerð** reiturinn er stilltur á *Eitt framboð með mikilvægasta forgang* verður beitt sjálfgefið.
+Settu upp stillingar fyrir vöruþekju eins og lýst er í [Þekjustillingar](../coverage-settings.md). Sjálfgefið er **Umfjöllunarkóði** gildi sem er valið fyrir þekjuhópinn er afritað í vöruþekjustillingar. Hins vegar geturðu hnekkt sjálfgefna gildinu eftir þörfum. Í sumum tilfellum er **Umfjöllunarkóði** reit fyrir vöruþekjuskrá er stillt á *Skipulag*, en ekkert áætlunarforgangslíkan er skilgreint fyrir tengda þekjuhópinn. Í þessum tilvikum, hvaða líkan sem er þar sem **Forgangsreikningsaðferð** reiturinn er stilltur á *Hlutfall af hámarks birgðamagni* og **Fyrirhuguð pöntunargerð** reiturinn er stilltur á *Eitt framboð með mikilvægasta forgang* verður beitt sjálfgefið.
 
 Stilltu **Umfjöllunarkóði** sviði til *Forgangur* að gera **Endurraða punkt** reitinn í tiltækum vöruþekjustillingum. Í þessum reit skal slá inn endurpöntunarpunktamagnið sem kerfið á að nota á meðan það er að ákvarða hvenær á að leggja inn fyrirhugaðar pantanir sem hafa **Umfjöllunarkóði** verðmæti á *Forgangur*.
 
@@ -183,5 +183,5 @@ The **Skipulagsforgangur** verðmæti á framboðs- og eftirspurnarlínum milli 
 
 Hér eru nokkur dæmi:
 
-- Notandi breytir áætlunarforgangi fyrir sölupöntunarlínu milli fyrirtækja úr 20 í 30. Þessi breyting endurspeglast á tengdri innkaupapöntunarlínu milli fyrirtækja.
+- Notandi breytir áætlunarforgangi fyrir samstæðusölupöntunarlínu úr 20 í 30. Þessi breyting endurspeglast á tengdri innkaupapöntunarlínu milli fyrirtækja.
 - Notandi breytir áætlunarforgangi fyrir innkaupapöntunarlínu innan samstæðu úr 40 í 50. Þessi breyting endurspeglast á tengdri sölupöntunarlínu milli fyrirtækja.

@@ -1,26 +1,26 @@
 ---
 title: Valkosturinn Vista fyrir næstu greiðslu birtist ekki
-description: Þessi grein veitir leiðbeiningar um bilanaleit sem geta hjálpað þegar gátreiturinn Vista fyrir næstu greiðslu birtist ekki undir Greiðslumáti á útskráningarsíðu rafrænnar viðskiptasíðu.
+description: Þessi grein veitir leiðbeiningar um bilanaleit sem geta hjálpað þegar gátreiturinn Vista fyrir næstu greiðslu birtist ekki undir Greiðslumáti á útskráningarsíðu netverslunarsíðunnar.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: efa04c87f78c376fd00da1b26aedb9e8b428dfa5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.industry: Retail
+ms.openlocfilehash: d0b398a4ffc5fb698ea04ba8642d05ccd4caf04c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871556"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287485"
 ---
 # <a name="save-for-my-next-payment-option-doesnt-appear"></a>Valkosturinn „Vista fyrir næstu greiðslu“ birtist ekki
 

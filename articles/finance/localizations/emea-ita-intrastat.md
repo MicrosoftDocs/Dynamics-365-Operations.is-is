@@ -1,20 +1,20 @@
 ---
 title: Ítalskt Intrastat
-description: Þessi grein inniheldur upplýsingar um Intrastat skýrslur á Ítalíu.
-author: anasyash
+description: Þessi grein inniheldur upplýsingar um Intrastat skýrslugerð á Ítalíu.
+author: AdamTrukawka
 ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: a4531baf29759607c877c815b849067f718851b5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9e687a0353ff3bece8d6830bca9304ebb7fadc2f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874364"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267699"
 ---
 # <a name="italian-intrastat"></a>Ítalskt Intrastat
 
@@ -631,7 +631,7 @@ Fylgdu þessum skrefum til að setja upp sérstaka ítalska valkosti svo að hæ
 
     Frekari upplýsingar eru í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-2. Í Dynamics 365 Finance, farðu í **Skattur** > **Uppsetning** > **Staðlar utanríkisviðskipta**.
+2. Í Dynamics 365 Finance, farðu til **Skattur** > **Uppsetning** > **Viðskipti utanríkisviðskipta**.
 3. Í flipanum **Intrastat**, í flýtiflipanum **Almennt**, skal stilla eftirfarandi reiti:
 
     - **Sýsla uppruna/áfangastaðar**: Veldu sýslu fyrirtækisins. Þessi sýsla verður notuð í sendingum.

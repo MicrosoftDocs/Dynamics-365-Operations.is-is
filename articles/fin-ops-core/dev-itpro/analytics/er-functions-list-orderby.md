@@ -1,25 +1,25 @@
 ---
 title: ORDERBY ER-aðgerð
 description: Þessi grein veitir upplýsingar um hvernig ORDERBY rafræn skýrslugerð (ER) aðgerðin er notuð.
-author: NickSelin
+author: kfend
 ms.date: 12/12/2019
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a922405ea23d2b1ff5ac062785e68626edbc8f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 23ace859bf75b2adb6ef8604475519a015486948
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883760"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9282562"
 ---
 # <a name="orderby-er-function"></a>ORDERBY ER-aðgerð
 
@@ -46,7 +46,7 @@ ORDERBY (location, list, expression 1[, expression 2, …, expression N])
 
 `location`:*[Strengur](er-formula-supported-data-types-primitive.md#string)*
 
-Staðurinn þar sem flokkun ætti að fara fram. Eftirfarandi valkostir gilda:
+Staðurinn þar sem flokkun á að fara fram. Eftirfarandi valkostir gilda:
 
 - "Fyrirspurn"
 - "InMemory"
@@ -79,11 +79,11 @@ Gagnaflokkun fer alltaf fram í minni forritaþjónsins. Fyrir frekari upplýsin
 
 ### <a name="sorting-in-memory"></a>Flokkun í minni
 
-Þegar`location` rök eru tilgreind sem **InMemory**, gagnaflokkun er gerð í minni forritaþjóns. Fyrir frekari upplýsingar, sjá [dæmi 2](#example-2).
+Þegar`location` rök eru tilgreind sem **InMemory**, gagnaflokkun fer fram í minni forritaþjóns. Fyrir frekari upplýsingar, sjá [dæmi 2](#example-2).
 
 ### <a name="sorting-in-database"></a>Flokkun í gagnagrunni
 
-Þegar`location` rök eru tilgreind sem **Fyrirspurn**, gagnaflokkun er gerð á gagnagrunnsstigi. Í þessu tilviki er`list` rök verða að benda á eitt af eftirfarandi [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) gagnagjafar sem tilgreina forritsuppsprettu sem hægt er að koma á beinni gagnagrunnsfyrirspurn fyrir:
+Þegar`location` rök eru tilgreind sem **Fyrirspurn**, gagnaflokkun er gerð á gagnagrunnsstigi. Í þessu tilviki er`list` rök hljóta að benda á eitt af eftirfarandi [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) gagnagjafar sem tilgreina forritsuppsprettu sem hægt er að koma á beinni gagnagrunnsfyrirspurn fyrir:
 
 - Uppspretta gagna *Taflaskrár* tegund
 - Tengsl gagnagjafa *Taflaskrár* tegund
@@ -93,7 +93,7 @@ The`expression 1` og`expression N` rök verða að benda á reiti ER gagnagjafa 
 
 Ef ekki er hægt að koma á beinni gagnagrunnsfyrirspurn, er staðfesting [villa](er-components-inspections.md#i18) á sér stað í ER líkanskortahönnuðinum. Skilaboðin sem birtast gefa til kynna að segð rafrænnar skýrslugerðar sem inniheldur `ORDERBY`-aðgerðina sé ekki hægt að keyra við keyrslu.
 
-Fyrir betri frammistöðu mælum við með að þú notir **Fyrirspurn** valmöguleika þegar flokkunin er stillt fyrir gagnagjafa forrita sem gætu innihaldið mikinn fjölda skráa (til dæmis fyrir viðskiptaforritstöflur).
+Fyrir betri frammistöðu mælum við með að þú notir **Fyrirspurn** valmöguleika þegar flokkun er stillt fyrir gagnagjafa forrita sem gætu innihaldið mikinn fjölda færslur (til dæmis fyrir viðskiptaforritatöflur).
 
 > [!NOTE]
 > The`ORDEBY` Ekki er hægt að þýða aðgerðina sjálfa yfir á beina gagnagrunnsfyrirspurn. Þess vegna er ekki hægt að spyrjast fyrir um ER gagnagjafa sem inniheldur þessa aðgerð. Það er heldur ekki hægt að nota það í umfangi ER aðgerðir eins og [SÍA](er-functions-list-filter.md) og [ALLITEMSQUERY](er-functions-list-allitemsquery.md), þar sem aðeins er hægt að nota gagnagjafa sem hægt er að spyrja um.
@@ -112,17 +112,17 @@ Ef þú slærð inn gagnagjafann **DS** af gerðinni *Reiknaður reitur* og hann
 
 Ef **Seljandi** er stillt sem ER gagnagjafi *Taflaskrár* gerð sem vísar til **VendTable** borð, bæði tjáning`ORDERBY (Vendor, Vendor.'name()')` og tjáningin`ORDERBY ("InMemory", Vendor, Vendor.'name()')` skila lista yfir söluaðila sem er raðað eftir nafni í hækkandi röð.
 
-Þegar þú stillir tjáninguna`ORDERBY ("Query", Vendor, Vendor.'name()')` í ER módel kortlagningarhönnuður, löggilding [villa](er-components-inspections.md#i8) á sér stað á hönnunartíma, vegna þess að`Vendor.'name()'` slóð vísar til umsóknaraðferðar sem hefur rökfræði sem ekki er hægt að þýða í beina gagnagrunnsfyrirspurn.
+Þegar þú stillir tjáninguna`ORDERBY ("Query", Vendor, Vendor.'name()')` í ER módel kortlagning hönnuður, löggildingu [villa](er-components-inspections.md#i8) á sér stað á hönnunartíma, vegna þess að`Vendor.'name()'` slóð vísar til umsóknaraðferðar sem hefur rökfræði sem ekki er hægt að þýða í beina gagnagrunnsfyrirspurn.
 
 ## <a name="example-3-database-query"></a><a name="example-3"></a> Dæmi 3: Gagnagrunnsfyrirspurn
 
-Ef **Skattaviðskipti** er stillt sem ER gagnagjafi *Taflaskrár* gerð sem vísar til **TaxTrans** borð, tjáningin`ORDERBY ("Query", TaxTransaction, TaxTransaction.TaxCode)` flokkar færslur á stigi umsóknargagnagrunnsins og skilar lista yfir skattfærslur sem eru flokkaðar eftir skattkóða í hækkandi röð.
+Ef **Skattaviðskipti** er stillt sem ER gagnagjafi *Taflaskrár* gerð sem vísar til **TaxTrans** borð, tjáningin`ORDERBY ("Query", TaxTransaction, TaxTransaction.TaxCode)` flokkar færslur á stigi forritagagnagrunnsins og skilar lista yfir skattfærslur sem er raðað eftir skattkóða í hækkandi röð.
 
-## <a name="example-4-queryable-data-sources"></a><a name="example-4"></a> Dæmi 4: gagnaheimildir sem hægt er að spyrja um
+## <a name="example-4-queryable-data-sources"></a><a name="example-4"></a> Dæmi 4: Gagnaheimildir sem hægt er að spyrja um
 
 Ef **Skattaviðskipti** er stillt sem ER gagnagjafi *Taflaskrár* gerð sem vísar til **TaxTrans** borð, the **TaxTransactionFiltered** Hægt er að stilla ER gagnagjafa þannig að hann innihaldi tjáninguna`FILTER(TaxTransaction, TaxCode="VAT19")` sem mun sækja færslur fyrir tiltekinn skattkóða. Vegna þess að stillt **TaxTransactionFiltered** ER gagnagjafinn er hægt að spyrjast fyrir, tjáningin`ORDERBY ("Query", TaxTransactionFiltered, TaxTransactionFiltered.TransDate)` er hægt að stilla til að skila lista yfir síaðar skattfærslur sem er raðað eftir færsludegi í hækkandi röð.
 
-Ef þú stillir **TaxTransactionOrdered** sem ER gagnagjafi *Reiknaður reitur* gerð sem inniheldur tjáninguna`ORDERBY ("Query", TaxTransaction, TaxTransaction.TransDate)` og ER gagnauppspretta *Reiknaður reitur* gerð sem inniheldur tjáninguna`FILTER(TaxTransactionOrdered, TaxCode="VAT19")`, staðfesting [villa](er-components-inspections.md#i18) á sér stað á hönnunartíma í ER líkanskortahönnuðinum. Þessi villa kemur upp vegna þess að fyrstu rökin í [SÍA](er-functions-list-filter.md#usage-notes) aðgerð verður að vísa til fyrirspurnarhæfs ER gagnagjafa, en **TaxTransactionOrdered** gagnagjafi sem inniheldur`ORDERBY` aðgerð er ekki hægt að spyrja um.
+Ef þú stillir **TaxTransactionOrdered** sem ER gagnagjafi *Reiknaður reitur* gerð sem inniheldur tjáninguna`ORDERBY ("Query", TaxTransaction, TaxTransaction.TransDate)` og ER gagnauppspretta *Reiknaður reitur* gerð sem inniheldur tjáninguna`FILTER(TaxTransactionOrdered, TaxCode="VAT19")`, staðfesting [villa](er-components-inspections.md#i18) á sér stað á hönnunartíma í ER líkanskortahönnuðinum. Þessi villa á sér stað vegna þess að fyrstu rökin í [SÍA](er-functions-list-filter.md#usage-notes) fall verður að vísa til fyrirspurnarhæfs ER gagnagjafa, en **TaxTransactionOrdered** gagnagjafi sem inniheldur`ORDERBY` aðgerð er ekki hægt að spyrja um.
 
 ## <a name="example-5-comparability"></a><a name="example-5"></a> Dæmi 5: Samanburður
 

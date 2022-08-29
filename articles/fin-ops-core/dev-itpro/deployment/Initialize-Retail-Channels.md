@@ -2,21 +2,21 @@
 title: Frumstilla Commerce Scale Unit (ský)
 description: Þessi grein útskýrir hvernig á að frumstilla Commerce Scale Unit (ský) í Microsoft Dynamics 365 Commerce.
 author: jashanno
-ms.date: 07/21/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
-ms.search.validFrom: 2018-4-30
-ms.openlocfilehash: 93fbf2893fecc7b731f946797907bce4f8448309
-ms.sourcegitcommit: 8032d6275e6d9994ef9759ee16e743b483f7689e
-ms.translationtype: MT
+ms.search.validFrom: 2018-04-30
+ms.openlocfilehash: 6b42252a37f01a2b387c2393760998a6b2e4761d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183364"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271516"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Frumstilla Commerce Scale Unit (ský)
 
@@ -82,7 +82,7 @@ Dreifingargeta á svæðum með takmarkaða getu er mjög takmörkuð. Beiðnir 
 
 ## <a name="initialize-commerce-scale-unit-as-part-of-a-new-environment-deployment"></a>Frumstilla Commerce Scale Unit sem hluti af nýrri uppsetningu umhverfisins
 
-Gakktu úr skugga um að höfuðstöðvarnar séu tiltækar. Þetta er nauðsynlegt til að skrá mælikvarðaeininguna hjá höfuðstöðvunum meðan á frumstillingarferlinu stendur. Ekki er mælt með því að frumstilla mælieiningu þegar höfuðstöðvarnar eru í þjónustu, þar sem hún gæti orðið ekki tiltæk á meðan á þjónustuferlinu stendur.
+Gakktu úr skugga um að höfuðstöðvarnar séu tiltækar. Þetta er nauðsynlegt til að skrá mælikvarðaeininguna hjá höfuðstöðvunum meðan á upphafsferlinu stendur. Ekki er mælt með því að frumstilla mælieiningu þegar höfuðstöðvarnar eru í þjónustu, þar sem hún gæti orðið ekki tiltæk á meðan á þjónustuferlinu stendur.
 
 1. Gakktu úr skugga um að umhverfi höfuðstöðvanna sé tiltækt og ekki inni [Viðhaldsstilling](../sysadmin/maintenance-mode.md).
 2. Í LCS, á upplýsingasíðu umhverfisins, veldu **Umhverfiseiginleikar \> Verslun**.
@@ -110,7 +110,7 @@ Til að stilla rásirnar þínar til að nota gagnagrunn Commerce Scale Unit ska
 
 Áður en þú byrjar skaltu ganga úr skugga um að þú þekkir til [Skref til að ljúka eftir endurnýjun gagnagrunns fyrir umhverfi sem nota viðskiptavirkni](../database/database-refresh.md).
 
-Ekki er hægt að færa gagnagrunnsskrár mælieininga (á skjámynd Rásargagnagrunns) yfir umhverfi sem hluta af endurnýjun gagnagrunns. Þetta er vegna þess að færslurnar tákna umhverfissértæka uppsetningu.
+Ekki er hægt að færa gagnagrunnsskrár mælieininga (á skjámynd Rásargagnagrunns) yfir umhverfi sem hluta af endurnýjun gagnagrunns. Þetta er vegna þess að færslurnar tákna umhverfisákveðna uppsetningu.
 
 Eftir endurnýjun gagnagrunns geturðu endurnýjað rásargagnagrunnsskrá mælieiningarinnar með því að gefa út enduruppfærslu á mælieiningunni þinni í LCS. Allar dreifingar- eða þjónustuaðgerðir í vogareiningunni mun reyna að skrá vogareininguna hjá höfuðstöðvunum, ef skráningin er týnd.
 
@@ -120,7 +120,7 @@ Eftir endurnýjun gagnagrunns geturðu endurnýjað rásargagnagrunnsskrá mæli
 2. Á uppsetningardreifingarsíðunni velurðu mælieininguna sem þú vilt endurútreiða.
 3. Í aðgerðavalmynd kvarðaeiningarinnar velurðu **Uppfærsla**.
 4. Á sleðann, á fellilistanum fyrir **Veldu útgáfu**, veldu valkostinn **Tilgreindu útgáfu**.
-5. Á textareitnum undir **Tilgreindu útgáfu**, sláðu inn útgáfuna sem sýnd er fyrir mælieininguna þína, sýnd fyrir utan **Núverandi útgáfa** merki.
+5. Á textareitnum undir **Tilgreindu útgáfu**, sláðu inn útgáfuna sem sýnd er fyrir kvarðaeininguna þína, sýnd fyrir utan **Núverandi útgáfa** merki.
 6. Smelltu á **Uppfærsla** takki.
 
 Þú þarft ekki að velja **Uppfærðu viðbætur**, jafnvel þótt þú hafir notað viðbætur áður, þar sem síðasti viðbótapakkinn sem notaður var á kvarðaeininguna er sjálfkrafa valinn þegar mælieining er uppfærð.
@@ -161,7 +161,7 @@ Flutningsferlið er gagnsætt fyrir rásirnar. Eftir að frumstilling mælieinin
 
 Þú verður að framkvæma eftirfarandi viðbótarskref áður en þú frumstillir Commerce Scale Unit.
 
-- **Lokaðu öllum POS vaktum** - Eftir flutning munu POS notendur ekki geta lokað neinum vöktum sem voru virkar á flutningsferlinu.
+- **Lokaðu öllum POS vaktum** - Eftir flutning geta POS notendur ekki lokað neinum vöktum sem voru virkar á flutningsferlinu.
 - **Staðfestu að öllum P-störfum hafi verið lokið** - Mælt er með því að P-störf til að samstilla færslur í bið hafi lokið áður en CSU er frumstillt.
 - **Skráðu þig út úr öllum POS-tækjum** - POS aðgerðir eru ekki studdar meðan á flutningi stendur.
 - **Innkalla og ógilda allar stöðvaðar færslur í POS** - Frestað viðskipti eru ekki varðveitt sem hluti af frumstillingunni.

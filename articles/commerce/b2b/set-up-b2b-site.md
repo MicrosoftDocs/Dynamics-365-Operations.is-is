@@ -1,25 +1,25 @@
 ---
 title: Setja upp B2B-svæði fyrir rafræn viðskipti
-description: Þessi grein lýsir því hvernig á að setja upp fyrirtæki til fyrirtækja (B2B) netverslunarsíðu í Microsoft Dynamics 365 Commerce.
+description: Þessi grein lýsir því hvernig á að setja upp netviðskiptasíðu fyrirtækja til fyrirtækja (B2B) í Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
 audience: Application User, IT Pro
-ms.reviewer: v-chgri
+ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0bcd864694ff2ad2aa211c927da4d698c0039715
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.industry: retail
+ms.search.form: RetailOperations
+ms.openlocfilehash: 162a8d4b51f10f409b77e1ced4c63c1a69a3b1f2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881907"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281125"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Setja upp B2B svæði fyrir rafræn viðskipti
 
@@ -309,9 +309,9 @@ Fylgja skal eftirfarandi skrefum til að bæta einingu hraðviðbótar við vefs
 
 ## <a name="add-a-bulk-purchase-module-to-a-product-details-page"></a>Bættu magnkaupseiningu við vöruupplýsingasíðu
 
-Magninnkaupareiningin á vöruupplýsingasíðu (PDP) veitir upplifun sem byggir á fylki sem gerir kaupanda kleift að bæta mörgum afbrigðum af vöru fljótt í körfuna. Þegar notandi vefsvæðis verður að panta mörg afbrigði af sömu vörunni, útilokar þessi reynsla þörfina á að velja samsetningu vöruvídda, skilgreina magn, bæta afbrigðinu í körfuna og endurtaka síðan ferlið fyrir aðrar samsetningar vöruvídda.
+Magninnkaupareiningin á vöruupplýsingasíðu (PDP) veitir upplifun sem byggir á fylki sem gerir kaupanda kleift að bæta mörgum afbrigðum af vöru fljótt í körfuna. Þegar notandi vefsvæðis verður að panta mörg afbrigði af sömu vöru, útilokar þessi reynsla þörfina á að velja samsetningu vöruvídda, skilgreina magn, bæta afbrigðinu í körfuna og endurtaka síðan ferlið fyrir aðrar samsetningar vöruvídda.
 
-Fylgdu þessum skrefum til að bæta magninnkaupareiningunni við PDP í Commerce site builder.
+Fylgdu þessum skrefum til að bæta magnkaupseiningunni við PDP í Commerce site builder.
 
 1. Fara til **Sniðmát**, og veldu PDP sniðmát síðunnar þinnar.
 1. Veljið **Breyta**.

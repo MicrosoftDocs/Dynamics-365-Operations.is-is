@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "260674"
+ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.form: SalesProfitabilityPerformancePowerBI
-ms.openlocfilehash: 2a3e0a46656f54a423a3bdfb05b87e3b7ad68efd
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
-ms.translationtype: HT
+ms.openlocfilehash: 77271ad9f5a1d7c131e1d7750de280f0c70daaa4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9205602"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274660"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Sölu- og arðsemisframmistaða Power BI efni
 
@@ -77,7 +76,7 @@ Hægt er að greina arðsemi á eftirfarandi hátt:
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
 Eftirfarandi gögn eru notuð til að fylla út skýrsluna í **Sölu- og arðsemisframmistaða** Power BI efnið. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Einingaverslunin er Microsoft SQL Server gagnagrunnur sem er fínstillt fyrir greiningar. Nánari upplýsingar er að finna í [Power BI samþætting við einingaverslun](power-bi-integration-entity-store.md).
 
-Uppsafnaðar mælingar í þessum efnispakka eru undirflokkur uppsafnaðra mælinga sem voru tiltækar í söluteningi í Microsoft Dynamics AX 2012 og Microsoft Dynamics AX 2012 R3. Til að stilla uppsafnaðar mælingar tenings í einingaverslun verður að gera þær virkjanlegir. Sjá frekari upplýsingar um ferli fyrir sviðsetningu uppsafnaðra mælinga í verslun Einingar í bloggfærslunni [Power BI-samþætting við einingaverslun í Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update) fyrir nánari upplýsingar.
+Samanlagðar mælingar í þessu efni eru undirmengi heildarmælinga sem voru tiltækar í söluteningnum í Microsoft Dynamics AX 2012 og Microsoft Dynamics AX 2012 R3. Til að stilla uppsafnaðar mælingar tenings í einingaverslun verður að gera þær virkjanlegir. Sjá frekari upplýsingar um ferli fyrir sviðsetningu uppsafnaðra mælinga í verslun Einingar í bloggfærslunni [Power BI-samþætting við einingaverslun í Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update) fyrir nánari upplýsingar.
 
 Eftirfarandi lykiluppsafnaðar mælingar á reikningslínueiningunni eru notaðar sem grunnur að efninu.
 
@@ -95,7 +94,7 @@ Eftirfarandi tafla sýnir lykiluppsafnaðar mælingar reikningslínueiningarinna
 | Brúttóframlegð      | SUM(Brúttóhagnaður/ (Tekjur – Virðisaukaskattur (talinn með í línuupphæð viðskiptavinareiknings)))             |
 | Tekjur síðasta árs | Tekjur síðasta árs = REIKNA (SAMTALA ('Reikningslínur'\[Tekjur\]), SAMEPERIODLASTYEAR (Dagsetningar\[Dagsetning\])) |
 
-Eftirfarandi lykilvíddir í söluteningnum eru notaðar sem síur til að sneiða uppsafnaðar mælingar þannig að hægt sé að ná meiri uppskiptingu og öðlast betri innsýn í greiningu.
+Eftirfarandi lykilvíddir í söluteningnum eru notaðar sem síur til að skera niður samanlagðar mælingar, þannig að þú getur náð meiri nákvæmni og öðlast dýpri greiningarinnsýn.
 
 | Eining           | Dæmi um eigindir                               |
 |------------------|------------------------------------------------------|

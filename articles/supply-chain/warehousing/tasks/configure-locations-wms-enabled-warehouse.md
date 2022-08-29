@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: HT
+ms.openlocfilehash: 4cce7ea0c06938d2ce038853a262f843ec76fe4c
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067274"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219659"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi
 
@@ -39,7 +39,7 @@ ms.locfileid: "9067274"
 8. Lokið síðunni.
 
 ## <a name="define-a-location-format"></a>Skilgreina snið staðsetningar
-1. Farðu í **Skoðunnarúðu > Kerfiseiningar > Vöruhúsakerfi > Uppsetning > Vöruhús > Staðsetningarsnið**. Staðsetningarsnið eru nafngiftarkerfi sem eru notuð til að stofna einkvæm og samræmd heiti fyrir aðrar staðsetningu karfa stöður notað innan vöruhúss. Það getur verið gagnlegt að nota skiltákn sem hluta af staðsetningarsniði til að auðvelda auðkenningu íhluta staðsetningar eins og númer gangs. Í þessu dæmi stofnum við heiti með fjórum íhlutum. Til dæmis, þetta gæti verið gangur, rekki, hilla og karfa.
+1. Farðu í **Skoðunnarúðu > Kerfiseiningar > Vöruhúsakerfi > Uppsetning > Vöruhús > Staðsetningarsnið**. Staðsetningarsnið eru nafnakerfi sem notað er til að búa til einstök og samræmd nöfn fyrir mismunandi staðsetningarhólf sem notaðar eru innan vöruhúss. Það getur verið gagnlegt að nota skiltákn sem hluta af staðsetningarsniði til að auðvelda auðkenningu íhluta staðsetningar eins og númer gangs. Í þessu dæmi stofnum við heiti með fjórum íhlutum. Til dæmis, þetta gæti verið gangur, rekki, hilla og karfa.
 2. Smellt er á **Nýtt**.
 3. Í reitinn **Staðsetningarsnið** skal slá inn gildi.
 4. Í reitinn **Heiti** skal slá inn gildi.

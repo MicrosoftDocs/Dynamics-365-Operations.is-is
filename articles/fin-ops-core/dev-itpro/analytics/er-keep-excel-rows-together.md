@@ -1,26 +1,26 @@
 ---
 title: Hanna ER-snið til að halda línum saman á sömu Excel-síðu
-description: Þessi grein útskýrir hvernig á að hanna rafræna skýrslugerð (ER) sem heldur línum saman á sama stað Microsoft Excel síðu.
-author: NickSelin
+description: Þessi grein útskýrir hvernig á að hanna rafræn skýrslugerð (ER) snið sem heldur línum saman á því sama Microsoft Excel síðu.
+author: kfend
 ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 98e6dd4f926908f65239f3e4f3608f9c9408f9d1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: EROperationDesigner
+ms.openlocfilehash: 7ecc4358a0d4d9ae9e729393bd3ac4cefbf15ad2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854670"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287959"
 ---
 # <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Hanna ER-snið til að halda línum saman á sömu Excel-síðu
 
@@ -46,7 +46,7 @@ Verklagsreglurnar í þessari grein er hægt að ljúka í **USMF** fyrirtæki. 
 
 2. Fylgdu skrefunum í [Afritaðu línur](../../../finance/accounts-receivable/create-free-text-invoice-new.md#copy-lines) til að búa til fimm viðbótarreikningslínur sem eru afritar reikningslínuna sem þú bættir við í fyrra skrefi.
 
-    ![Skoðaðu reikningslínur með frjálsum texta á síðunni Frjáls textareikningur.](./media/er-keep-excel-rows-together-invoice.png)
+    ![Farið yfir reikningslínur með frjálsum texta á síðunni Frjáls textareikningur.](./media/er-keep-excel-rows-together-invoice.png)
 
 ## <a name="configure-the-er-framework"></a>Skilgreina ramma rafrænnar skýrslugerðar
 
@@ -54,11 +54,11 @@ Fylgdu skrefunum í [Skilgreina ramma rafrænnar skýrslugerðar](er-quick-start
 
 ## <a name="import-the-standard-er-format-configuration"></a>Flytja inn staðlaða skilgreiningu rafræns skýrslugerðarsniðs
 
-Fylgdu skrefunum í [Flytja inn staðlaða ER sniðstillingu](er-quick-start2-customize-report.md#ImportERSolution1) til að bæta stöðluðum ER stillingum við núverandi tilvik þitt af Dynamics 365 Finance. Til dæmis, innflutningsútgáfa **252.116** af **Ókeypis textareikningur (Excel)** sniðstillingar. Grunnútgáfa **252** af grunninum **Reikningslíkan** stillingar eru sjálfkrafa fluttar inn úr geymslunni ásamt nauðsynlegum **Kortlagning reikningslíkana** stillingar.
+Fylgdu skrefunum í [Flytja inn staðlaða ER sniðstillingu](er-quick-start2-customize-report.md#ImportERSolution1) til að bæta stöðluðum ER stillingum við núverandi tilvik þitt af Dynamics 365 Finance. Til dæmis, innflutningsútgáfa **252.116** af **Ókeypis textareikningur (Excel)** sniðstillingar. Grunnútgáfa **252** af grunninum **Reikningslíkan** stillingar eru sjálfkrafa fluttar inn úr geymslunni ásamt nauðsynlegum **Kortlagning reikningslíkana** uppsetningu.
 
 ## <a name="set-up-print-management-to-use-the-standard-er-format"></a>Settu upp prentstjórnun til að nota staðlað ER snið
 
-Fylgdu skrefunum í [Settu upp prentstjórnun](er-embed-images-header-footer-excel-reports.md#ConfigurePrintManagement1) til að stilla prentstjórnun fyrir **Reikningur fáanlegur** mát þannig að staðlað ER snið er notað til að prenta reikninga með frjálsum texta.
+Fylgdu skrefunum í [Settu upp prentstjórnun](er-embed-images-header-footer-excel-reports.md#ConfigurePrintManagement1) til að stilla prentstjórnun fyrir **Reikningur fáanlegur** mát þannig að staðlað ER snið er notað til að prenta frítextareikninga.
 
 ## <a name="configure-a-format-destination-for-the-standard-er-format"></a>Stilltu snið áfangastað fyrir staðlað ER snið
 
@@ -71,7 +71,7 @@ Fylgdu skrefunum í [Stilltu áfangastað fyrir snið fyrir forskoðun á skján
 
     Taktu eftir að sjötta lína reikningsins byrjar á fyrstu síðu skýrslunnar og heldur áfram á annarri síðu. Síðasta athugasemdin birtist á annarri síðu og það er ekki augljóst að hún tilheyri sjöttu reikningslínunni. Þess vegna gerir síðuskil í miðju innihaldi reikningslínunnar þetta skjal erfiðara að lesa.
 
-    ![Farið yfir blaðsíðuskiptingu myndaðs ókeypis textareiknings í Excel skjáborðsforritinu.](./media/er-keep-excel-rows-together-invoice1.gif)
+    ![Farið yfir blaðsíðusetningu myndaðs ókeypis textareiknings í Excel skjáborðsforritinu.](./media/er-keep-excel-rows-together-invoice1.gif)
 
 Aðferðirnar sem eftir eru í þessari grein sýna hvernig hægt er að stilla staðlaða ER sniðið til að bæta útlit og læsileika reikningsskýrslunnar með því að halda öllu innihaldi einni reikningslínu á sömu síðu.
 
@@ -81,17 +81,17 @@ Fylgdu skrefunum í [Búðu til sérsniðið snið](er-embed-images-header-foote
 
 ## <a name="edit-the-custom-format"></a>Breyta sérstilltu sniði
 
-1. Fylgdu skrefunum í [Búðu til sérsniðið snið](er-embed-images-header-footer-excel-reports.md#ConfigureDerivedFormat) til að opna afleitt ER snið til að breyta í ER sniðhönnuðinum.
+1. Fylgdu skrefunum í [Búðu til sérsniðið snið](er-embed-images-header-footer-excel-reports.md#ConfigureDerivedFormat) til að opna afleitt ER snið til að breyta í ER sniðhönnuður.
 2. Á **Sniðhönnuður** síðu, í sniðihlutatrénu í vinstri glugganum, stækkaðu **Ókeypis textareikningur \> Blað \> InvoiceLines**, og veldu **InvoiceLines_Values** hluti.
 3. Á **Snið** flipann, stilltu **Haltu röðum saman** valmöguleika til **Já**.
 
-    ![Stilling á Halda röðum saman valmöguleikanum fyrir breytanlegt ER snið á Format hönnuður síðunni.](./media/er-keep-excel-rows-together-format.png)
+    ![Stilling á Hafðu raðir saman valmöguleikann fyrir breytanlegt ER snið á síðunni Format designer.](./media/er-keep-excel-rows-together-format.png)
 
 4. Veljið **Vista** og lokið skjámyndinni.
 
 ## <a name="mark-the-custom-format-as-runnable"></a>Merkja sérstillt snið sem keyranlegt
 
-Fylgdu skrefunum í [Merktu sérsniðna sniðið sem keyranlegt](er-embed-images-header-footer-excel-reports.md#MarkFormatRunnable) til að gera breytta útgáfu af sérsniðnu ER sniði keyranlega.
+Fylgdu skrefunum í [Merktu sérsniðna sniðið sem keyranlegt](er-embed-images-header-footer-excel-reports.md#MarkFormatRunnable) til að gera breytta útgáfu af sérsniðna ER sniðinu keyranlega.
 
 ## <a name="set-up-print-management-to-use-the-custom-er-format"></a>Settu upp prentstjórnun til að nota sérsniðið ER snið
 
@@ -108,7 +108,7 @@ Fylgdu skrefunum í [Stilltu áfangastað fyrir snið fyrir forskoðun á skján
 
     Taktu eftir að sjötta lína reikningsins byrjar á annarri síðu og allar Excel línur sem tákna þessa reikningslínu birtast saman á þeirri síðu.
 
-    ![Farið yfir uppfærða blaðsíðugerð myndaðs reiknings með frjálsum texta í Excel skjáborðsforritinu.](./media/er-keep-excel-rows-together-invoice2.gif)
+    ![Farið yfir uppfærða blaðsíðugerð myndaðs reiknings með ókeypis texta í Excel skjáborðsforritinu.](./media/er-keep-excel-rows-together-invoice2.gif)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

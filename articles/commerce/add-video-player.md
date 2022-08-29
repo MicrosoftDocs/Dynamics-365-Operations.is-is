@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 20d516c58bf619065d57b27bc5a614eb7bd4cea9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: 919446981f7439d61b01deb57b206cd457eed919
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873437"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269295"
 ---
 # <a name="video-player-module"></a>Myndspilaraeining
 
@@ -83,7 +83,7 @@ Fylgdu þessum skrefum til að bæta myndspilaraeiningu við nýja síðu og sti
 1. Í **Veldu einingar** valmynd, veldu **Myndbandsspilari** mát og veldu síðan **Allt í lagi**.
 1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það. 
 1. Farðu í **Síður** og veldu **Ný** til að búa til nýja síðu.
-1. Í **Búðu til nýja síðu** svargluggi, undir **Nafn síðu**, koma inn **Myndbandsspilara síða**, og veldu síðan **Næst**.
+1. Í **Búðu til nýja síðu** svargluggi, undir **Nafn síðu**, koma inn **Myndspilara síða**, og veldu síðan **Næst**.
 1. Undir **Veldu sniðmát**, veldu **Sniðmát fyrir myndbandsspilara** sem þú bjóst til og veldu síðan **Næst**.
 1. Undir **Veldu skipulag**, veldu síðuútlit (til dæmis, **Sveigjanlegt skipulag**), og veldu síðan **Næst**.
 1. Undir **Farið yfir og klárað**, skoðaðu stillingar síðunnar. Ef þú þarft að breyta síðuupplýsingunum skaltu velja **Til baka**. Ef síðuupplýsingarnar eru réttar skaltu velja **Búa til síðu**.

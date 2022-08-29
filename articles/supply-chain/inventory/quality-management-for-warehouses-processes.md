@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 13c9bf522ededb5896c5f8462bfe123e9a9edb2c
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b4d0b09ea4bee58799a659217e2236fe74102949
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069243"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335436"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gæðastjórnun fyrir vöruhúsaferli
 
@@ -29,7 +29,7 @@ Eiginleikinn _Gæðastjórnun fyrir vöruhúsaferla_ eykur möguleika eiginleika
 
 ## <a name="turn-on-the-quality-management-for-warehouse-processes-feature"></a>Kveikja á gæðastjórnun fyrir eiginleika vöruhúsaferlis
 
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Áður en þú getur notað þennan eiginleika verður að kveikja á honum fyrir kerfið þitt. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Gæðastjórnun fyrir vöruhúsaferli*
@@ -97,7 +97,7 @@ Hver [gæðatengingafærsla](enable-quality-management.md) skilgreinir einnig pr
     - **Allt** – Óvirkjaðu _Gæðastjórnun fyrir vöruhúsaferli_ eiginleikinn. Veldu þetta gildi fyrir allar tilvísunargerðir nema *Innkaup* og *Framleiðsla*.
 
 > [!NOTE]
-> The _Gæðastjórnun fyrir vöruhúsaferli_ eiginleiki tekur aðeins gildi ef hluturinn á upprunaskjalslínunni notar vöruhúsastjórnunarferli (WMS), og ef **Virkja gæðapöntun fyrir vöruhúsaferli** valkostur er stilltur á _Já_ fyrir vöruhúsið á upprunaskjalslínunni.
+> The _Gæðastjórnun fyrir vöruhúsaferli_ eiginleiki tekur aðeins gildi ef hluturinn á upprunaskjalslínunni notar vöruhúsastjórnunarferli (WMS), og ef **Virkja gæðapöntun fyrir vöruhúsaferli** valkostur er stilltur á _Já_ fyrir vöruhúsið á upprunaskjallínunni.
 
 Þegar hver vara er skráð (eða gefin upp sem lokið) ákvarðar kerfið hvaða gæðatengingar eiga við.
 

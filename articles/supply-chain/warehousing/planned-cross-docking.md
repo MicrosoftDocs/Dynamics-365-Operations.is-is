@@ -2,7 +2,7 @@
 title: Áætluð dreifing frá dreifingarstöð
 description: Þessi grein lýsir háþróaðri skipulögðri bryggju, þar sem birgðamagninu sem þarf fyrir pöntun er beint beint frá móttöku eða stofnun á rétta bryggju á útleið eða stöðvunarsvæði. Öllum eftirstandandi birgðum frá upprunastaðnum á innleið verður beint að réttum geymslustað með hefðbundnu frágangsferli.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b530cc1403458775fd330e826a32417d3b03bf25
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070290"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334566"
 ---
 # <a name="planned-cross-docking"></a>Áætluð dreifing frá dreifingarstöð
 
@@ -37,10 +37,10 @@ Dreifing frá dreifingarstöð gerir starfsmönnum kleift að sleppa frágangi �
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Kveikja á áætlaðri dreifingu frá dreifingarstöð
 
-Ef kerfið þitt inniheldur ekki þá eiginleika sem lýst er í þessari grein skaltu fara á [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveiktu á eftirfarandi eiginleikum í eftirfarandi röð:
+Ef þú ert að keyra Supply Chain Management útgáfu 10.0.28 eða eldri gætirðu þurft að virkja fyrirhugaða krosstengingu áður en þú getur notað hana. Fara til [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveiktu á eftirfarandi eiginleikum í eftirfarandi röð:
 
-1. *Áætluð dreifing frá dreifingarstöð*
-1. *Sniðmát dreifingar frá dreifingarstöð með staðsetningarleiðbeiningum*
+1. *Áætluð dreifing frá dreifingarstöð*<br>(Frá og með Supply Chain Management útgáfu 10.0.29 er þessi eiginleiki nauðsynlegur og ekki hægt að slökkva á honum.)
+1. *Sniðmát dreifingar frá dreifingarstöð með staðsetningarleiðbeiningum*<br>(Frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á þessum eiginleika.)
     > [!NOTE]
     > Þessi eiginleiki virkjar reitinn **Leiðbeiningarkóði** til að vera tilgreindur í sniðmáti dreifingar frá drefingarstöð á svipaðan hátt og áfyllingarsniðmát eru sett upp. Að virkja þennan eiginleika kemur í veg fyrir að þú bætir við leiðbeiningarkóða í sniðmátslínur dreifingar frá dreifingarstöð fyrir síðustu *Frágangslínuna*. Þetta tryggir að hægt er að ákveða lokastaðsetningu frágangs meðan á stofnun vinnu stendur áður en vinnusniðmát eru tekin til greina.
 
@@ -92,7 +92,7 @@ Ef kerfið þitt inniheldur ekki þá eiginleika sem lýst er í þessari grein 
 
     - **Leiðbeiningarkóði:** Hafðu þetta svæði autt
 
-        Þessi valkostur er virkjaður af eiginleikanum *Sniðmát dreifingar frá dreifingarstöð með staðsetningarleiðbeiningum*. Kerfið notar staðsetningarleiðbeiningar til að finna út bestu staðsetninguna til að dreifa birgðum frá dreifingarstöð. Hægt er að setja það upp með því að úthluta leiðbeiningarkóða á hvert sniðmát dreifingarstöðvar. Ef leiðbeiningarkóði er stilltur leitar kerfið í staðsetningarleiðbeiningum eftir leiðbeiningarkóða þegar vinna er búin til. Þannig er hægt að takmarka staðsetningarleiðbeiningar sem eru notaðar fyrir tiltekið sniðmát dreifingar frá dreifingarstöð.
+        Þessi valkostur er virkjaður af *Cross docking sniðmát með staðsetningarleiðbeiningum* eiginleiki (frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á eiginleikanum). Kerfið notar staðsetningarleiðbeiningar til að finna út bestu staðsetninguna til að dreifa birgðum frá dreifingarstöð. Hægt er að setja það upp með því að úthluta leiðbeiningarkóða á hvert sniðmát dreifingarstöðvar. Ef leiðbeiningarkóði er stilltur leitar kerfið í staðsetningarleiðbeiningum eftir leiðbeiningarkóða þegar vinna er búin til. Þannig er hægt að takmarka staðsetningarleiðbeiningar sem eru notaðar fyrir tiltekið sniðmát dreifingar frá dreifingarstöð.
 
     - **Staðfesta tímaglugga:** *Já*
 

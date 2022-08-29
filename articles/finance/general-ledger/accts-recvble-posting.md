@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 492bbd31cae08a93cd68e5ce120d02a62141241b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d679595a1f702c4e3ade138a87c817d245fcf79
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874575"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324330"
 ---
 # <a name="accounts-receivable-posting"></a>Bókun á viðskiptakröfum
 
@@ -28,15 +28,17 @@ ms.locfileid: "8874575"
 
 Aðal færslusniðið fyrir **Reikningur fáanlegur** mát er póstsnið viðskiptavinarins. Þetta bókunarsnið ákvarðar yfirlitsreikninginn sem er notaður þegar innstæður viðskiptavina eru bókaðar í fjárhag. Yfirlitsreikningur er aðalreikningur. Það er einnig nefnt viðskiptareikningur viðskiptakrafna.
 
+The **Afstemming viðskiptamanns í höfuðbók** skýrslu er hægt að nota eftir bókun til að hjálpa til við að samræma stöður viðskiptavina- og fjárhagsreikninga. Skýrslan notar upplýsingarnar sem finnast í yfirlitsreikningnum fyrir bókunarsnið viðskiptavinar. Það notar ekki yfirlitsreikninginn úr bókhaldinu sem er búið til fyrir skjalið. Ef þú gerir breytingar á bókunarsniði viðskiptavinar eða viðskiptavinahópnum sem er úthlutað til viðskiptamannsins eftir að þú hefur bókað færslur, gæti skýrslan sýnt mun á stöðu viðskiptamanns og fjárhagsreiknings. Til að skoða aðeins línurnar sem hafa mismun og allar línur þar sem viðskiptareikningur og fjárhagsreikningur eru báðir núll, veldu **Aðeins munur** færibreytu þegar skýrslan er prentuð.
+
 Frekari upplýsingar eru í [Bókunarreglur viðskiptavina](../accounts-receivable/customer-posting-profiles.md).
 
-Nokkrar bókunarstillingar við hliðina á bókunarsniði viðskiptavina eru tiltækar í Viðskiptakröfur. Eftirfarandi hlutar veita frekari upplýsingar um þessar aðrar birtingarstillingar.
+Nokkrar bókunarstillingar við hliðina á bókunarsniði viðskiptavina eru tiltækar í Viðskiptakröfum. Eftirfarandi hlutar veita frekari upplýsingar um þessar aðrar birtingarstillingar.
 
 ## <a name="posting-accounts-for-methods-of-payment"></a>Bókun reikninga fyrir greiðslumáta
 
-Greiðsluaðferðir skilgreina hvernig greiðsla verður bókuð í fjárhag. Þeir stjórna einnig hegðun greiðsluúttaksins. Venjulega er ein greiðslumáti búin til fyrir hverja greiðslutegund sem fyrirtæki þitt samþykkir (til dæmis reiðufé, ávísun, kreditkort, peningapöntun og millifærslu).
+Greiðslumátar skilgreina hvernig greiðsla verður bókuð í fjárhag. Þeir stjórna einnig hegðun greiðsluúttaksins. Venjulega er ein greiðslumáti búin til fyrir hverja greiðslutegund sem fyrirtækið þitt samþykkir (til dæmis reiðufé, ávísun, kreditkort, peningapöntun og millifærslu).
 
-Reitirnir í **Birting** kafla um **Almennt** Flýtiflipi stjórnar hvernig greiðsla verður bókuð í fjárhag. Þú verður fyrst að velja gildi í **Tegund reiknings** sviði. Reikningstegundin sem þú velur stjórnar hegðun reikningsins **Greiðslureikningur** sviði. Við mælum með að þú veljir **Banki** í **Tegund reiknings** reitnum og veldu síðan bankareikninginn í **Greiðslureikningur** sviði. Ávinningurinn af þessari nálgun er að kerfið mun bóka greiðsluna í undirbók bankans, sem styður afstemmingu og önnur reiðufjártengd ferli. Eftirfarandi tafla sýnir dæmi um uppsetningu póstsniðs ef þú ert að nota **Handbært fé og bankastjórnun** mát.
+Reitirnir í **Birting** kafla um **Almennt** Flýtiflipi stjórnar hvernig greiðsla verður bókuð í fjárhag. Þú verður fyrst að velja gildi í **Tegund reiknings** sviði. Reikningstegundin sem þú velur stjórnar hegðun reikningsins **Greiðslureikningur** sviði. Við mælum með að þú veljir **Banki** í **Tegund reiknings** reitnum og veldu síðan bankareikninginn í **Greiðslureikningur** sviði. Ávinningur þessarar aðferðar er að kerfið mun bóka greiðsluna í undirbók bankans, sem styður afstemmingu og önnur reiðufjártengd ferli. Eftirfarandi tafla sýnir dæmi um uppsetningu póstsniðs ef þú ert að nota **Handbært fé og bankastjórnun** mát.
 
 | Bókunargerð | Lykilgerð | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit? | Millireikningur | Lýsing |
 |--------------|--------------|---------------------------|--------------|---------------|------------------|-------------|
@@ -66,7 +68,7 @@ Fyrir frekari upplýsingar, sjá [Staðgreiðsluafsláttur](../cash-bank-managem
 
 ## <a name="posting-accounts-for-payment-fees"></a>Bókun reikninga fyrir greiðslugjöld
 
-Greiðslugjöld gera þér kleift að bæta gjaldi sjálfkrafa við greiðslu viðskiptavina þegar sett skilyrði eiga við. Hægt er að innheimta greiðslugjöld á viðskiptavininn, eða þau geta verið færð á bankareikning þinn sem kostnað. Hér eru nokkur dæmi:
+Greiðslugjöld gera þér kleift að bæta gjaldi sjálfkrafa við greiðslu viðskiptavina þegar sett skilyrði eiga við. Hægt er að innheimta greiðsluþóknun á viðskiptavininn eða færa þau á bankareikning þinn sem kostnað. Hér eru nokkur dæmi:
 
 - Þú rukkar viðskiptavini um 3 prósent af heildargreiðslunni ef þeir greiða með kreditkorti.
 - Bankinn þinn rukkar þig $1.00 fyrir hverja millifærslu sem þú vinnur og millifærslugjaldið er gjaldfært.
@@ -81,9 +83,9 @@ Nánari upplýsingar er að finna í [Koma á fót greiðsluþóknunum viðskipt
 
 ## <a name="posting-accounts-for-charges-codes"></a>Bókun reikninga fyrir gjaldkóða
 
-Ef þú verður að fylgjast með söluupphæðum til viðbótar við línuvörur geturðu notað gjaldakóða. Til dæmis gætirðu rukkað vöruflutninga- og afgreiðslugjöld af viðskiptavinum þínum, eða þú gætir rukkað nokkur vöru- og afgreiðslugjöld innanhúss. Hægt er að tilgreina hvort þessar upphæðir séu bókaðar á kostnaðarreikninga eða bætt við kostnað hlutanna.
+Ef þú verður að fylgjast með söluupphæðum til viðbótar við línuvörur geturðu notað gjaldakóða. Til dæmis gætirðu rukkað vöruflutninga- og afgreiðslugjöld af viðskiptavinum þínum, eða þú gætir rukkað nokkur vöru- og afgreiðslugjöld innbyrðis. Hægt er að tilgreina hvort þessar upphæðir séu bókaðar á kostnaðarreikninga eða bætt við kostnað hlutanna.
 
-Þú getur búið til gjaldakóða fyrir Viðskiptakröfur og Viðskiptaskuldir. Þegar þú stillir gjaldkóða verður þú að skilgreina bókunina. Bókunin stjórnar bæði debetreikningi og kreditreikningi. Fyrir hvern gjaldkóða sem þú býrð til geturðu valið bókunartegundina sem er notuð. Eftirfarandi tafla sýnir dæmigerð dæmi um gjaldakóða fyrir viðskiptakröfur.
+Þú getur búið til gjaldakóða fyrir viðskiptakröfur og viðskiptaskuldir. Þegar þú stillir gjaldkóða verður þú að skilgreina bókunina. Bókunin stjórnar bæði debetreikningi og kreditreikningi. Fyrir hvern gjaldkóða sem þú býrð til geturðu valið bókunartegundina sem er notuð. Eftirfarandi tafla sýnir dæmigerð dæmi um gjaldakóða fyrir viðskiptakröfur.
 
 | Bókunargerð | Dæmi um aðalreikning | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit? | Millireikningur | Lýsing |
 |--------------|----------------------|---------------------------|--------------|---------------|------------------|-------------|
@@ -91,7 +93,7 @@ Ef þú verður að fylgjast með söluupphæðum til viðbótar við línuvöru
 | Pöntun, farmur | 403500 | Tekjur - Frakt | Tekjur | Kredit | Nr. | **Dæmi um vöruflutninga sem gjaldfærður er á viðskiptavin:** Debet viðskiptavinur / lánardrottinn og Kreditbókarreikningur |
 | Eftirágreiddur afsláttur\* | 403200 | Afsláttur | Tekjur | Debet | Nr. | **Dæmi um afslátt viðskiptavina:** Debetbókarreikningur og kreditviðskiptavinur/seljandi |
 
-\* Fyrir afsláttardæmið er bókunin aðeins notuð þegar gjaldkóða er bætt við innkaupapöntunarhaus eða línu. Háþróuð afsláttarvirkni sem er fáanleg í Microsoft Dynamics 365 Supply Chain Management veitir meiri stjórn og sjálfvirkni á afslætti. Fyrir frekari upplýsingar, sjá [Viðskiptavinaafsláttur](../../supply-chain/sales-marketing/tasks/process-customer-rebates.md).
+\* Fyrir afsláttardæmið er bókunin aðeins notuð þegar gjaldkóða er bætt við innkaupapöntunarhaus eða línu. Háþróuð afsláttarvirkni sem er fáanleg í Microsoft Dynamics 365 Supply Chain Management veitir meiri stjórn og sjálfvirkni á endurgreiðslum. Fyrir frekari upplýsingar, sjá [Viðskiptavinaafsláttur](../../supply-chain/sales-marketing/tasks/process-customer-rebates.md).
 
 Taflan á undan sýnir þrjú dæmigerð dæmi um bókunargerðir sem hægt er að nota fyrir gjaldkóða. Það ætti að nota sem leiðbeiningar og sýnishorn. Það veitir ekki tæmandi lista yfir allar mögulegar samsetningar eða birtingargerðir sem hægt er að nota.
 

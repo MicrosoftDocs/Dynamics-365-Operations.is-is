@@ -2,7 +2,7 @@
 title: Framleiðsluáætlun
 description: Þessi grein lýsir áætlanagerð fyrir framleiðslu og útskýrir hvernig á að breyta áætluðum framleiðslupöntunum með því að nota áætlanagerð fínstillingu.
 author: t-benebo
-ms.date: 06/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873783"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335256"
 ---
 # <a name="production-planning"></a>Framleiðsluáætlun
 
@@ -26,9 +26,9 @@ Fínstilling skipulagningar styður nokkrar framleiðsluaðstæður. Ef verið e
 
 Eftirfarandi myndband gefur stutta kynningu á sumum hugtökum sem fjallað er um í þessari grein: [Dynamics 365 Supply Chain Management : Áætlun Optimization aukahlutir](https://youtu.be/u1pcmZuZBTw).
 
-## <a name="turn-on-this-feature-for-your-system"></a>Kveikja á þessum eiginleika fyrir kerfið
+## <a name="turn-this-feature-on-or-off-for-your-system"></a>Kveiktu eða slökktu á þessum eiginleika fyrir kerfið þitt
 
-Ef kerfið þitt inniheldur ekki þá eiginleika sem lýst er í þessari grein skaltu fara á [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveiktu á *Skipulagðar framleiðslupantanir fyrir hagræðingu áætlanagerðar* eiginleiki.
+Til að nota þennan eiginleika verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Skipulagðar framleiðslupantanir fyrir hagræðingu áætlanagerðar* eiginleiki í [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 ## <a name="planned-production-orders"></a>Framleiðslutillögur
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f8864ac22153908492b5e7c30a03617e6dc9d05a
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 9b4b538e6d50013626739e19fee2a050b630bf7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166876"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334806"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.24. (febrúar 2022)
 
@@ -35,7 +35,7 @@ ms.locfileid: "9166876"
 |---|---|---|---|
 | Dreifð blönduð grannfræði | [Aukið álag á framkvæmd vöruhúsa á mælieiningum](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-warehouse-execution-workloads-scale-units) | [Vinnuálag vöruhúsakerfis fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-warehousing.md) | Virkja að sjálfgefnu. |
 | Dreifð blönduð grannfræði | [Hefja framleiðslupöntun á vinnuálagi vöruhúsastjórnunar fyrir skýja- og brúnkvarðaeininguna](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/enhanced-manufacturing-execution-workloads-scale-units) | [Vinnuálag framleiðslukeyrslu fyrir einingakvarða skýja og jaðra](../cloud-edge/cloud-edge-workload-manufacturing.md) | Eiginleikastjórnun (*Hefja framleiðslupöntun á vinnuálagi vöruhúsastjórnunar fyrir skýja- og brúnkvarðaeininguna*)  |
-| Áætlun | [Stuðningur við skipulagningu hagræðingar fyrir endurpöntunarbil og útgáfubil](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-reorder-margin-issue-margin) | [Öryggismörk](../master-planning/planning-optimization/safety-margins.md) | Virkja að sjálfgefnu. |
+| Áætlun | [Stuðningur við skipulagningu hagræðingar fyrir endurröðun framlegðar og útgáfubils](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-reorder-margin-issue-margin) | [Öryggismörk](../master-planning/planning-optimization/safety-margins.md) | Virkja að sjálfgefnu. |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Eiginleikaviðbætur í þessari útgáfu
 
@@ -45,10 +45,10 @@ Ef þú vilt kveikja eða slökkva á einhverjum af þessum eiginleikum verður 
 
 | Eining | Eiginleikaheiti í eiginleikastjórnun | Meiri upplýsingar |
 |---|---|---|
-| Framleiðslustýring | Athugun á efnisframboði eftirspurnar fyrir framleiðslupantanir | Þessi eiginleiki gerir það hraðara að opna **Framleiðslupantanir til að gefa út** síðu, sem er aðgengileg frá **Stjórnun framleiðslugólfs** vinnurými. Án þessa eiginleika athugar kerfið sjálfkrafa hvort efni sé tiltækt fyrir allar skráðar framleiðslupantanir um leið og þú opnar síðuna, sem getur tekið töluverðan tíma ef þú ert með mikinn fjölda pantana. Þegar þessi eiginleiki er virkur, býður kerfið í staðinn upp tækjastikuhnapp, sem þú getur notað til að hefja efnisskoðun aðeins fyrir valdar pantanir og þegar þörf krefur. |
-| Framleiðslustýring | Skráðu efnisnotkun á framkvæmdarviðmóti framleiðslugólfs (ekki WMS) | Þessi eiginleiki gerir starfsmönnum kleift að nota framkvæmdarviðmót framleiðslugólfs til að skrá efnisnotkun, lotunúmer og raðnúmer. Þessi eiginleiki styður aðeins hluti sem eru ekki virkjaðir til að nota vöruhússtjórnunarferli (WMS). Stuðningur við WMS-virka hluti er áætlaður í framtíðarútgáfu.<p>Sumir framleiðendur, sérstaklega þeir sem eru innan vinnsluiðnaðarins, þurfa að skrá sérstaklega magn efnis sem neytt er fyrir hverja lotu eða framleiðslupöntun. Til dæmis gætu starfsmenn notað vog til að vega magn efnis sem neytt er á meðan þeir vinna. Til að tryggja fullan rekjanleika efnis þurfa þessar stofnanir einnig að skrá hvaða lotunúmer voru notuð við framleiðslu hverrar vöru. |
+| Framleiðslustýring | Athugun á efnisframboði eftirspurnar fyrir framleiðslupantanir | Þessi eiginleiki gerir það hraðari að opna **Framleiðslupantanir til að gefa út** síðu, sem er aðgengileg frá **Stjórnun framleiðslugólfs** vinnurými. Án þessa eiginleika athugar kerfið sjálfkrafa hvort efni sé tiltækt fyrir allar skráðar framleiðslupantanir um leið og þú opnar síðuna, sem getur tekið töluverðan tíma ef þú ert með mikinn fjölda pantana. Þegar þessi eiginleiki er virkur, býður kerfið í staðinn upp tækjastikuhnapp, sem þú getur notað til að hefja efnisskoðun aðeins fyrir valdar pantanir og þegar þörf krefur. |
+| Framleiðslustýring | Skrá efnisnotkun í keyrsluviðmóti framleiðslugólfs (ekki vöruhúsakerfi) | Þessi eiginleiki gerir starfsmönnum kleift að nota framkvæmdarviðmót framleiðslugólfs til að skrá efnisnotkun, lotunúmer og raðnúmer. Þessi eiginleiki styður aðeins hluti sem eru ekki virkjaðir til að nota vöruhússtjórnunarferli (WMS). Stuðningur við WMS-virkja hluti er áætlaður í framtíðarútgáfu.<p>Sumir framleiðendur, sérstaklega þeir sem eru innan vinnsluiðnaðarins, þurfa að skrá sérstaklega magn efnis sem neytt er fyrir hverja lotu eða framleiðslupöntun. Til dæmis gætu starfsmenn notað vog til að vega magn efnis sem neytt er á meðan þeir vinna. Til að tryggja fullan rekjanleika efnis þurfa þessar stofnanir einnig að skrá hvaða lotunúmer voru notuð við framleiðslu hverrar vöru. |
 | Framleiðslustýring | Skrá sem tilbúið vinnuálag vöruhúsakerfis fyrir skýið og jaðareiningarkvarða | Þessi eiginleiki gerir starfsmönnum kleift að nota Vöruhússtjórnun farsímaforritið til að tilkynna framleiðslu- eða runupöntun sem lokið þegar appið er í gangi gegn vöruhúsastjórnunarvinnuálagi á skýja- eða brúnkvarðaeiningu. Fyrir frekari upplýsingar, sjá [Tilkynntu sem lokið og settu í burtu á mælikvarðaeiningu](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
-| Vöruhúsakerfi | Nýjar síður á vinnubekknum áætlanagerð | Virkjar tvær nýjar álagsáætlunarvinnuborðssíður: **Vinnubekkur fyrir skipulagningu álags á innleið** og **Áætlunarbekkur á útleið**. |
+| Vöruhúsakerfi | Nýjar síður á vinnubekknum áætlanagerð | Bætir við tveimur nýjum álagsáætlunarvinnubekksíðum: **Vinnubekkur fyrir skipulagningu álags á innleið** og **Áætlunarbekkur á útleið**. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Tilföng fyrir ný og uppfærð skjöl
 
@@ -68,7 +68,7 @@ Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargre
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir fjármála- og rekstraröpp
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir fjármála- og rekstrarforrit
 
 Microsoft Dynamics 365 Supply Chain Management 10.0.24 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Palluppfærslur fyrir útgáfu 10.0.24 af fjármála- og rekstraröppum (febrúar 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-24.md).
 
