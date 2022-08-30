@@ -12,6 +12,8 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.29 (október)
+                  href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (ágúst)
                   href: get-started/whats-new-changed-10-0-28.md
                 - name: Finance 10.0.27 (júlí)
@@ -62,6 +64,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/finance
                 - name: Fá tilkynningar um þjónustuuppfærslur
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/finance
+                - name: Fyrirbyggjandi gæðauppfærslur
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/finance
                 - name: Sjálfvirk verkgögn
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/finance
                 - name: Veita lausnir fyrir óháðan hugbúnaðarsala með One Version
@@ -1114,6 +1118,8 @@
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
                     - name: Skoða færslubókarfærslur
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
+                    - name: Leyfa breytingar á innri gögnum á fylgiskjölum fjárhags
+                      href: general-ledger/allow-edits-internal-data-gl-vouchers.md
                     - name: Skoða tengt fylgiskjal innan samstæðu úr færslubók
                       href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
                     - name: Birting færslubókarlína og skjala úr Excel
@@ -1568,14 +1574,20 @@
                           href: localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/finance
                         - name: Hafist handa með rafrænar reikningsfærslur fyrir Egyptaland
                           href: localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/finance
+                        - name: Hafist handa með rafrænar reikningsfærslur fyrir Frakkland
+                          href: localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/finance
                         - name: Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
+                        - name: Hafist handa með rafrænar reikningsfærslur fyrir Pólland
+                          href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
                         - name: Hafist handa með rafrænar reikningsfærslur fyrir Sádi-Arabíu
-                          href: localizations/e-invoicing-sa-get-started.md
+                          href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
+                        - name: Rafræn reikningsfærsla fyrir nýliðun í Sádi-Arabíu
+                          href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
                         - name: Setja upp beina samþættingu á ítölsku FatturaPA við SDI
-                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md?context=/dynamics365/context/finance
                         - name: Nota rafræna reikningsfærsluþjónustu til að flytja inn reikninga lánardrottins
-                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md?context=/dynamics365/context/finance
                     - name: Algengar spurningar um rafrænar reikningsfærslur
                       href: localizations/e-invoicing-faq.md?context=/dynamics365/context/finance
                 - name: Skattaútreikningur
@@ -1648,6 +1660,10 @@
                           items:
                             - name: VSK-skýrsla
                               href: localizations/emea-nor-vat-declaration.md
+                        - name: Skýrslur frá Póllandi
+                          items:
+                            - name: VSK-skýrsla
+                              href: localizations/emea-pol-vat-declaration.md
                         - name: Skýrslugerð fyrir Spán
                           items:
                             - name: 'Tafarlaust framboð upplýsinga um VSK (Suministro Inmediato de Información del IVA, SII)'
@@ -1714,6 +1730,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Reikna og stilla virðisaukaskatt á reikningi lánardrottins
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Leiðrétta söluskatt með almennum færslubókum
+                      href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: Virkja frestaðan útreikning á skatti í færslubók
                       href: general-ledger/enable-delayed-tax-calculation.md
                     - name: Stofna VSK-greiðslu
@@ -1770,6 +1788,8 @@
                           href: general-ledger/global-withholding-tax-overview.md
                         - name: Setja upp altækan staðgreiðsluskatt
                           href: general-ledger/set-up-global-withholding-tax.md
+                        - name: Virkja gengisgerð fyrir staðgreiðsluskatt á heimsvísu og uppsetningu fyrir tegund dagsetningar
+                          href: general-ledger/global-withholding-tax-currency-exchange-rate-date-type-setup.md
                         - name: Staðgreiðsluskattur í innkaupafærslum
                           href: general-ledger/withholding-tax-in-purchase-transactions.md
                         - name: Staðgreiðsluskattur í sölufærslum
@@ -1948,6 +1968,8 @@
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
                     - name: Færa NF-e XML-skrár sem viðhengi
                       href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
+                    - name: NT2021.004 – Útlit og staðfesting uppfærslna í rafræna fjárhagsskjalinu (NF-e)
+                      href: localizations/latam-bra-nfe-nt2021.004.md
                     - name: NT2020.005 – Útlit og staðfesting uppfærslna í rafræna fjárhagsskjalinu (NF-e)
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 – Stafrænn verkvangur sölu frá þriðja aðila fyrir NF-e
@@ -2552,6 +2574,8 @@
                       href: localizations/apac-ind-news-letter-10-0-00.md
                 - name: Endurskoðunarslóð og breytingakladdar fyrir bókhaldshugbúnað
                   href: localizations/apac-ind-audit-trail-edit-logs-accounting-software.md
+                - name: Rafrænir reikningar á Indlandi
+                  href: localizations/apac-ind-e-invoices.md
                 - name: Óbeinir skattar
                   items:
                     - name: Vöru- og þjónustuskattur fyrir Indland
@@ -2560,7 +2584,7 @@
                           href: localizations/apac-ind-gst.md
                         - name: Skattkerfi
                           items:
-                            - name: Yfirlit skattakerfis
+                            - name: Yfirlit skattkerfis
                               href: general-ledger/tax-engine.md
                             - name: Flytja inn skilgreiningu
                               href: general-ledger/tax-engine-import-configuration.md
@@ -3548,6 +3572,10 @@
                           href: localizations/rus-set-up-inventory-profile.md
                         - name: Nota birgðaforstillingu í skjölum og fyrirspurnum
                           href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: Tollafgreiðsla
+                      items:
+                        - name: Vinna með þjónustudeild
+                          href: localizations/rus-work-with-customs-clearance.md
                 - name: Skýrslugerð
                   items:
                     - name: Fjárhagsskýrslugerð
@@ -3576,6 +3604,8 @@
                       href: localizations/rus-company-divisions.md
                     - name: Rússneskt aðseturssnið og innflutningur frá FIAS
                       href: localizations/rus-russian-address-format-and-import-from-FIAS.md
+                    - name: Flytja inn aðsetur úr aðsetursskrá ríkisins (GAR)
+                      href: localizations/rus-russian-address-format-import-gar.md
                 - name: Frestun
                   items:
                     - name: Setja upp frestanir
@@ -4069,7 +4099,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/finance
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/finance
-                        - name: Reverse
+                        - name: Endurtaka
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/finance
+                        - name: Bakfæra
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/finance
                         - name: Skipta upp
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?context=/dynamics365/context/finance
@@ -4079,7 +4111,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlistbylimit.md?context=/dynamics365/context/finance
                         - name: StringJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?context=/dynamics365/context/finance
-                        - name: Where
+                        - name: Hvar
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-where.md?context=/dynamics365/context/finance
                     - name: Rökrænt
                       items:

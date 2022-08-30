@@ -12,6 +12,8 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.29 (október 2022)
+                  href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (júlí 2022)
                   href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (júlí 2022)
@@ -60,6 +62,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/commerce
                 - name: Fá tilkynningar um þjónustuuppfærslur
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/commerce
+                - name: Fyrirbyggjandi gæðauppfærslur
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/commerce
                 - name: Sjálfvirk verkgögn
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/commerce
                 - name: Veita lausnir fyrir óháðan hugbúnaðarsala með One Version
@@ -422,6 +426,8 @@
                       href: hide-non-carrier-modes.md
                     - name: Verkskráning og hjálp fyrir MPOS og Cloud POS
                       href: task-recorder-retail-pos.md
+                    - name: Skilgreina CPOS til að nota sérsniðið Azure AD forrit
+                      href: cpos-custom-aad.md
                     - name: Jaðarvélbúnaður
                       items:
                         - name: Jaðarbúnaður
@@ -698,8 +704,8 @@
                   href: prevent-discounts.md
                 - name: Afslættir eftir greiðslumáta
                   href: tender_based_discounts.md
-                - name: Yfirlit yfir afslátt á afhendingu
-                  href: retail-shipping-discount.md
+                - name: Sendingarafsláttur
+                  href: shipping-discount.md
                 - name: Skilgreina gjöf með innkaupatilboðum
                   href: gift-with-purchase.md
                 - name: Setja upp afsláttarmiða
@@ -714,6 +720,10 @@
                   href: tasks/category-pricing-rules-trade-agreements.md
                 - name: Seinka nákvæmum útreikningi á verði og afslætti
                   href: delayed-price-calculation.md
+                - name: Verðaðgerðir á sölustað
+                  href: pos-pricing-functions.md
+                - name: API fyrir verðlagningu í Commerce
+                  href: pricing-apis.md
             - name: Ráðleggingar
               items:
                 - name: Yfirlit yfir afurðarráðleggingar
@@ -872,6 +882,8 @@
               href: async-customer-mode.md
             - name: Umbreyta ósamsettum viðskiptavinum í samstillta viðskiptavini
               href: convert-async-to-sync.md
+            - name: Algengar spurningar um ósamstillta stillingu til að stofna viðskiptavin
+              href: async-customer-mode-faq.md
             - name: Biðlaraþjónusta
               items:
                 - name: Yfirlit yfir biðlaraþjónustu
@@ -1252,6 +1264,10 @@
                       href: product-collection-module-overview.md
                     - name: Flýtiskoðunareining
                       href: quick-view-module.md
+                - name: Afurðasamanburðareiningar
+                  items:
+                    - name: Afurðasamanburðareiningar
+                      href: product-comparison-modules.md
                 - name: Yfirlitseiningar
                   items:
                     - name: Brauðmylsnueining
@@ -1272,6 +1288,10 @@
                   items:
                     - name: Eining kökusamþykkis
                       href: cookie-consent-module.md
+                - name: Spjalleiningar
+                  items:
+                    - name: Spjalleining í Commerce
+                      href: commerce-chat-module.md
             - name: Leita
               items:
                 - name: Yfirlit yfir sjálfgefna lendingarsíðu og leitarniðurstöðusíðu
@@ -1358,7 +1378,7 @@
               href: store-performance-information.md
             - name: 'Setja upp greiningu nýleika-, tíðni- og peningastigs (RFM)'
               href: set-up-rfm-analysis.md
-            - name: Setja upp Microsoft Clarity í Dynamics 365 Commerce
+            - name: Setja upp Microsoft Clarity í Dynamics 36 Commerce
               href: set-up-clarity.md
         - name: Staðfæring
           items:
@@ -1404,8 +1424,6 @@
               items:
                 - name: Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Austurríki
                   href: localizations/emea-aut-fi-sample.md
-                - name: Leiðbeiningar um uppsetningu á afgreiðslukössum fyrir Austurríki
-                  href: localizations/emea-aut-deployment.md
                 - name: Leiðbeiningar um uppsetningu dæmis um fjárhagssamþættingu fyrir Austurríki (eldra)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brasilía
@@ -1464,7 +1482,7 @@
                   href: localizations/emea-fra-fiscal-archive.md
                 - name: Flytja úr eldri virkni fyrir Frakkland
                   href: localizations/emea-fra-fi-migration.md
-                - name: Leiðbeiningar um uppsetningu á afgreiðslukössum (eldri)
+                - name: Leiðbeiningar um uppsetningu á afgreiðslukössum (eldra)
                   href: localizations/emea-fra-deployment.md
             - name: Þýskaland
               items:
@@ -1502,7 +1520,9 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
                   href: localizations/emea-nor-fi-deployment.md
-                - name: Leiðbeiningar um uppsetningu á afgreiðslukössum (eldri)
+                - name: Flytja úr eldri virkni fyrir Noreg
+                  href: localizations/emea-nor-fi-migration.md
+                - name: Leiðbeiningar um uppsetningu á afgreiðslukössum (eldra)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Rússland
               items:
@@ -1764,7 +1784,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/commerce
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/commerce
-                        - name: Reverse
+                        - name: Endurtaka
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/commerce
+                        - name: Bakfæra
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/commerce
                         - name: Skipta upp
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?context=/dynamics365/context/commerce
@@ -1774,7 +1796,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlistbylimit.md?context=/dynamics365/context/commerce
                         - name: StringJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?context=/dynamics365/context/commerce
-                        - name: Where
+                        - name: Hvar
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-where.md?context=/dynamics365/context/commerce
                     - name: Rökrænt
                       items:
@@ -2482,7 +2504,7 @@
               items:
                 - name: Yfirlit Commerce SDK
                   items:
-                    - name: Dæmi og tilvísunarpakkar
+                    - name: Hlaða niður dæmum og tilvísanapökkum fyrir Commerce
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Flutningar á sígildu Retail SDK
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
