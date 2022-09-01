@@ -1,8 +1,8 @@
 ---
 title: Áfangastaðir fyrir rafræna skýrslugerð
-description: Þessi grein veitir upplýsingar um stjórnun áfangastaða fyrir rafrænar tilkynningar, gerðir stuðningsstaða og öryggissjónarmið.
+description: Þessi grein veitir upplýsingar um stjórnun áfangastaða fyrir rafrænar tilkynningar, tegundir stuðningsstaða og öryggissjónarmið.
 author: kfend
-ms.date: 05/18/2022
+ms.date: 08/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.form: DocuType, ERSolutionTable
-ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: HT
+ms.openlocfilehash: b1bf6289e80769dfe8858f307cbb9b217b42dbb4
+ms.sourcegitcommit: f2edc193003564c5bee1747f9c2b800feee342bd
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281968"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9360980"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Áfangastaðir fyrir rafræna skýrslugerð
 
@@ -177,7 +177,7 @@ Frá og með fjármálum **útgáfa 10.0.9**, PDF umbreytingarvalkosturinn er a�
 
 PDF-skjalið sem verður til takmarkast við að hámarki 300 blaðsíður.
 
-Frá og með fjármálum **útgáfa 10.0.9**, aðeins landslagssíðustilling er studd í PDF skjalinu sem er framleitt úr Excel úttaki. Byrjar í fjármálum **útgáfa 10.0.10**, þú getur [tilgreindu stefnu síðunnar](#SelectPdfPageOrientation) af PDF skjalinu sem er framleitt úr Excel úttak meðan þú stillir ER áfangastað.
+Frá og með fjármálum **útgáfa 10.0.9**, aðeins landslagssíðustefnu er studd í PDF skjalinu sem er framleitt úr Excel úttaki. Byrjar í fjármálum **útgáfa 10.0.10**, þú getur [tilgreindu stefnu síðunnar](#SelectPdfPageOrientation) af PDF skjalinu sem er framleitt úr Excel úttak meðan þú stillir ER áfangastað.
 
 Aðeins algengar leturgerðir Windows-stýrikerfisins eru notaðar til að umbreyta úttaki sem inniheldur engar innfelldar leturgerðir.
 
@@ -247,6 +247,52 @@ Aðeins er hægt að skilgreina framsetningu úttaks fyrir sniðshluta af gerði
 ### <a name="limitations"></a>Takmarkanir
 
 Ef reiturinn **Senda möppu sem** er stilltur á **Aðskildar skrár** fyrir **Möppuhluta** sem inniheldur annan faldaðan **Möppuhluta** er stilllingin ekki notuð endurkvæmt á faldaða **Möppuhluta**.
+
+## <a name="change-page-layout-properties-of-a-template"></a><a name="change-page-layout-properties-of-a-template"></a> Breyttu eiginleikum síðuútlits sniðmáts
+
+Þú getur stillt ER áfangastað fyrir ER sniðshluta sem er hannaður til að nota sniðmát í a Microsoft Office (Excel eða Word) snið fyrir skýrslugerð. Ef þú ert ekki eigandi þessa sniðs og þú þarft að breyta síðuútlitseiginleikum sniðmátsins, í útgáfum af Finance fyrir útgáfu 10.0.29, verður þú að búa til afleitt snið og breyta eiginleikum sniðmátsins. Síðan verður þú að viðhalda afleiddu sniðstillingunni. Hins vegar, í útgáfu 10.0.29 og nýrri, geturðu breytt síðuútlitseiginleikum sniðmátsins á keyrslutíma til að forðast að búa til og viðhalda afleiddu sniðstillingunni. Til að gera þetta skaltu setja upp viðeigandi eiginleika sem hluta af stillingum uppsetts ER áfangastaðar. Þegar þú keyrir ER snið og keyrir ER áfangastað sem er stilltur til að nota ákveðna síðuútlitseiginleika, eru gildi síðuútlitseiginleika framkvæmda áfangastaðarins notuð á sniðmátið sem þú ert að nota, í stað eiginleikum upprunalega sniðmátsins. Þú getur stillt mismunandi áfangastaði fyrir íhlut sama sniðs með því að stilla mismunandi eiginleika síðuútlits fyrir sniðmátið sem er í notkun.
+
+Hægt er að stilla eftirfarandi eiginleika í ER áfangastað fyrir sniðshluta sem er hannaður til að nota sniðmát á Excel eða Word sniði:
+
+- Prentstefna síðu
+    - Skammsnið
+    - Langsnið
+- Pappírsstærð
+    - A3
+    - A4
+    - A5
+    - B4
+    - B5
+    - Executive
+    - Lagaleg atriði
+    - Bréf
+    - Statement
+    - Tabloid
+- Síðu spássíur
+    - Efst
+        - Haus
+    - Neðst
+        - Síðufótur
+    - Vinstri
+    - Hægri
+
+> [!NOTE]
+> Síðusnið sniðmátsins sem er stillt á þennan hátt verður að vera í samræmi við [síðustefnu fyrir PDF umbreytingu](#select-a-page-orientation-for-pdf-conversion) ef PDF umbreytingin er stillt.
+
+Þú verður að velja lengdareiningu til að stilla spássíur síðu:
+
+- Tommur
+- Sentímetrar
+- Millimetrar
+
+![Settu upp eiginleika síðuútlits á áfangasíðu Rafrænnar skýrslugerðar.](./media/er_destinations-set-page-layout-properties.png)
+
+> [!TIP]
+> Þegar spássíugildi er tilnefnt í sentimetrum og tilgreint með mörgum aukastöfum, er það námundað á keyrslutíma að næsta gildi með 1 aukastaf.
+>
+> Þegar framlegðargildi er tilnefnt í millimetrum og tilgreint með aukastöfum, er það námundað á keyrslutíma fyrir Excel að næsta heiltölugildi án aukastafa.
+>
+> Þegar framlegðargildi er tilnefnt í millimetrum og tilgreint með mörgum aukastöfum, er það námundað á keyrslutíma fyrir Word að næsta gildi með einum aukastaf.
 
 ## <a name="security-considerations"></a>Öryggisatriði
 

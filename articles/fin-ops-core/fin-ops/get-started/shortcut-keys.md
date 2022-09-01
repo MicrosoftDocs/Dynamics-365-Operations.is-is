@@ -2,7 +2,7 @@
 title: Flýtilyklar
 description: Þessi grein veitir yfirlit yfir samsetningar flýtivísana sem þú getur notað þegar þú ert að vinna með fjármála- og rekstrarforrit.
 author: jasongre
-ms.date: 07/12/2022
+ms.date: 08/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
-ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
+ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9140440"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357578"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
@@ -135,10 +135,10 @@ Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðm
 | Lárétt skrunun                                                                                                   | Shift + Músarhjól             |
 | Flytja í næsta/fyrri dálk                                                                                       | Tab / Shift+Tab                 |
 | Flytja í næstu/fyrri línu                                                                                          | Niður ör / upp ör           |
-| Fara á næstu/fyrri línu án vals<blockquote>[!NOTE] Þessi flýtivísun er aðeins notuð á aðstæður með mörgum valkostum.</blockquote> | Ctrl+Uppör / Ctrl+Niðurör |
-| Velja/hreinsa valda línu<blockquote>[!NOTE] Þessi flýtivísun er aðeins notuð á aðstæður með mörgum valkostum.</blockquote>                    | Ctrl+Bilslá / Ctrl+Click         |
-| Bæta næstu/fyrri línu við valið safn<blockquote>[!NOTE] Þessi flýtivísun er aðeins notuð á aðstæður með mörgum valkostum.</blockquote>   | Shift+bilstöng                     |
-| Bæta við bili af línum við valið safn<blockquote>[!NOTE] Þessi flýtivísun er aðeins notuð á aðstæður með mörgum valkostum.</blockquote>         | Shift+Smella                     |
+| Fara á næstu/fyrri línu án vals<br><br>**Athugið:** Þessi flýtileið á aðeins við um fjölvals aðstæður. | Ctrl+Uppör / Ctrl+Niðurör |
+| Velja/hreinsa valda línu<br><br>**Athugið:** Þessi flýtileið á aðeins við um fjölvals aðstæður.                   | Ctrl+Bilslá / Ctrl+Click         |
+| Bæta næstu/fyrri línu við valið safn<br><br>**Athugið:** Þessi flýtileið á aðeins við um fjölvals aðstæður.  | Shift+bilstöng                     |
+| Bæta við bili af línum við valið safn<br><br>**Athugið:** Þessi flýtileið á aðeins við um fjölvals aðstæður.         | Shift+Smella                     |
 | Fara í næstu/fyrri síðu gagna.                                                                                   | Síða upp / Síða niður             |
 | Búa til nýja línu neðst á hnitanetinu                                                                             | Niður ör (frá síðustu línu)  |
 | Fara í fyrstu færslu                                                                                               | Ctrl+Home                       |
@@ -148,7 +148,7 @@ Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðm
 | Fara í næstu merktu línu                                                                                            | Alt+Shift+M, L                  |
 | Fara í fyrri merkta línu                                                                                        | Alt+Shift+M, P                  |
 | Fært í síðustu merktu línu                                                                                           | Alt+Shift+M, N                  |
-| Framkvæma sjálfgefna aðgerð í rúðu<blockquote>[!NOTE] Þessi flýtileið er virk þegar áherslan er á reit sem inniheldur tengil og allir reitir í þeim dálki eru með tengla.</blockquote> | Færa inn                           |
+| Framkvæma sjálfgefna aðgerð í rúðu<br><br>**Athugið:** Þessi flýtileið er virkjuð þegar fókusinn er á reit sem inniheldur tengil og allar frumur í þeim dálki eru með tengla. | Færa inn                           |
 | Víxla fókus á milli valinnar raðar og raðar síðuhauss                                                               | Alt+Shift+H                     |
 | Gerðu núverandi dálk stærri/minni (með fókus á röð síðuhauss)                                                  | Hægri ör / vinstri ör        |
 | Færa núverandi dálk í næstu/fyrri stöðu (með fókus í hauslínunni)                                   | Ctrl+Shift+Hægri ör / Ctrl+Shift+Vinstri ör |
@@ -262,8 +262,8 @@ Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðm
 ## <a name="focus-management"></a>Fókusstjórnun 
 Fókusstjórnun lýsir því hvernig notendafókus er meðhöndlað í forriti. Fjármála- og rekstrarforrit hafa sérhæfða fókushegðun sem er ætluð til að hámarka framleiðni notenda, sérstaklega fyrir innsláttaratburðarás. Fókushegðun felur í sér eftirfarandi:  
 
--  Þegar síða er hlaðin mun fyrsta innsláttarstýringin sem hægt er að breyta á síðunni hafa fókus og getur samþykkja inntak notenda strax. Ef engin breytanleg innsláttarstýring er á síðunni, er varavalkosturinn fyrir upphafsfókus fyrsta innsláttarstýringuna á síðunni og síðan fyrsta, fókusstýringin á síðunni.   
--  Venjulega þegar hnappur er valinn er aðgerðin unnin og fókus gæti farið aftur á síðuna. Þegar þetta gerist hefur fókus tilhneigingu til að fara aftur í hnappastýringuna sem var valin. Þetta á við í fjármála- og rekstraröppum **nema** þegar hnappurinn er staðsettur í aðgerðarrúðunni eða á tækjastiku. Í þessum tilfellum, þegar aðgerðinni lýkur, fer fókusinn aftur í síðustu stjórn *úti* á aðgerðasvæðinu (eða tækjastikunni) sem hafði fókus áður en hnappurinn var valinn.
+-  Þegar síða er hlaðin mun fyrsta innsláttarstýringin sem hægt er að breyta á síðunni hafa fókus og getur samþykkt inntak notanda strax. Ef engin breytanleg innsláttarstýring er á síðunni, er varavalkosturinn fyrir upphafsfókus fyrsta innsláttarstýringin á síðunni og síðan fyrsta, fókusstýringin á síðunni.   
+-  Venjulega þegar hnappur er valinn er aðgerðin unnin og fókus getur farið aftur á síðuna. Þegar þetta gerist hefur fókus tilhneigingu til að fara aftur í hnappastýringuna sem var valin. Þetta á við í fjármála- og rekstraröppum **nema** þegar hnappurinn er staðsettur í aðgerðarrúðunni eða á tækjastiku. Í þessum tilfellum, þegar aðgerðinni er lokið, fer fókusinn aftur í síðustu stjórn *úti* á aðgerðasvæðinu (eða tækjastikunni) sem hafði fókus áður en hnappurinn var valinn.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

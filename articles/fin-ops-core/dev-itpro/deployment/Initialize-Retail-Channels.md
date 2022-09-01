@@ -11,12 +11,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 6b42252a37f01a2b387c2393760998a6b2e4761d
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: HT
+ms.openlocfilehash: 25ca054df6422370b1e61dff7965189ad90d7fcc
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9271516"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357659"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Frumstilla Commerce Scale Unit (ský)
 
@@ -39,7 +39,7 @@ Ef þú ert að nota Tier-2 sandkassa eða framleiðsluumhverfi sem er með forr
     - RetailBasic
     - RetaileCommerce - Ef þú ætlar að nota rafræn viðskipti fyrir Dynamics 365 Commerce.
     - RetailGiftCard - Ef þú ætlar að nota gjafakort.
-    - RetailInvent - Ef þú ætlar að nota birgðahald.
+    - RetailInvent - Ef þú ætlar að nota lager.
     - RetailModernPos - Ef þú ætlar að nota sölustað (POS).
     - RetailReplenishment - Ef þú ætlar að nota áfyllingar.
     - RetailScheduler
@@ -69,8 +69,8 @@ Commerce Scale Unit er fáanlegt til dreifingar á eftirfarandi svæðum.
 | APAC            | Austur-Asía           | Takmarkað afkastageta    |   Engar athugasemdir.                           |
 | APAC            | Indland suður         | Afkastageta takmarkað | Engin dreifing leyfð.    |
 | APAC            | Miðbær Indlands       | Takmarkað afkastageta    | Krefst samþykkisferlis. |
-| EMEA            | Vestur-Evrópa         | Takmarkað afkastageta    | Ekki í boði í LCS eins og er. |
-| EMEA            | Norður-Evrópa        | Takmarkað afkastageta    | Ekki í boði í LCS eins og er. |
+| EMEA            | Vestur-Evrópa         | Almennt tiltækt    |  Engar athugasemdir. |
+| EMEA            | Norður-Evrópa        | Almennt tiltækt    |  Engar athugasemdir. |
 | EMEA            | Bretland suður            | Almennt tiltækt |    Engar athugasemdir.                          |
 | EMEA            | Bretland vestur             | Almennt tiltækt |    Engar athugasemdir.                          |
 | Sviss     | Sviss norður   | Takmarkað afkastageta    | Krefst samþykkisferlis. |
@@ -82,7 +82,7 @@ Dreifingargeta á svæðum með takmarkaða getu er mjög takmörkuð. Beiðnir 
 
 ## <a name="initialize-commerce-scale-unit-as-part-of-a-new-environment-deployment"></a>Frumstilla Commerce Scale Unit sem hluti af nýrri uppsetningu umhverfisins
 
-Gakktu úr skugga um að höfuðstöðvarnar séu tiltækar. Þetta er nauðsynlegt til að skrá mælikvarðaeininguna hjá höfuðstöðvunum meðan á upphafsferlinu stendur. Ekki er mælt með því að frumstilla mælieiningu þegar höfuðstöðvarnar eru í þjónustu, þar sem hún gæti orðið ekki tiltæk á meðan á þjónustuferlinu stendur.
+Gakktu úr skugga um að höfuðstöðvarnar séu tiltækar. Þetta er nauðsynlegt til að skrá mælikvarðaeininguna hjá höfuðstöðvunum meðan á frumstillingarferlinu stendur. Ekki er mælt með því að frumstilla mælieiningu þegar höfuðstöðvarnar eru í þjónustu, þar sem hún gæti orðið ekki tiltæk á meðan á þjónustuferlinu stendur.
 
 1. Gakktu úr skugga um að umhverfi höfuðstöðvanna sé tiltækt og ekki inni [Viðhaldsstilling](../sysadmin/maintenance-mode.md).
 2. Í LCS, á upplýsingasíðu umhverfisins, veldu **Umhverfiseiginleikar \> Verslun**.
@@ -112,7 +112,7 @@ Til að stilla rásirnar þínar til að nota gagnagrunn Commerce Scale Unit ska
 
 Ekki er hægt að færa gagnagrunnsskrár mælieininga (á skjámynd Rásargagnagrunns) yfir umhverfi sem hluta af endurnýjun gagnagrunns. Þetta er vegna þess að færslurnar tákna umhverfisákveðna uppsetningu.
 
-Eftir endurnýjun gagnagrunns geturðu endurnýjað rásargagnagrunnsskrá mælieiningarinnar með því að gefa út enduruppfærslu á mælieiningunni þinni í LCS. Allar dreifingar- eða þjónustuaðgerðir í vogareiningunni mun reyna að skrá vogareininguna hjá höfuðstöðvunum, ef skráningin er týnd.
+Eftir endurnýjun gagnagrunns geturðu endurnýjað rásargagnagrunnsskrá mælieiningarinnar með því að gefa út enduruppsetningu á mælieiningunni þinni í LCS. Allar dreifingar- eða þjónustuaðgerðir í vogareiningunni mun reyna að skrá vogareininguna hjá höfuðstöðvunum, ef skráningin er týnd.
 
 Þú getur gefið út endurdreifingu á mælieiningunni, án þess að breyta neinum íhlutum, með því að velja að nota sömu útgáfuna sem mælieiningin þín er nú þegar á. Þetta er hægt að gera í LCS með eftirfarandi skrefum:
 
@@ -129,14 +129,14 @@ Ef þú ert með margar kvarðaeiningar þarftu að framkvæma aðgerðina hér 
 
 ## <a name="deploy-additional-commerce-scale-units-optional"></a>Settu upp fleiri viðskiptakvarðaeiningar (valfrjálst)
 
-Eftir að þú hefur frumstillt Commerce Scale Unit geturðu sjálfvirkt dreift annarri Scale Unit ef leyfið þitt veitir þér rétt til þess. Til að dreifa fleiri en tveimur mælieiningum verður þú að búa til stuðningsbeiðni. Í stuðningsbeiðninni skaltu tilgreina fjölda Commerce Scale Units sem þú þarfnast, heiti umhverfisins og viðkomandi svæði. Fyrir frekari upplýsingar um leyfisveitingar, sjá [Leyfisleiðbeiningar fyrir Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). 
+Eftir að þú hefur frumstillt Commerce Scale Unit geturðu sjálfvirkt dreift annarri Scale Unit ef leyfið þitt veitir þér rétt til þess. Til að dreifa fleiri en tveimur mælieiningum verður þú að búa til stuðningsbeiðni. Í stuðningsbeiðninni skaltu tilgreina fjölda Commerce Scale Units sem þú þarfnast, heiti umhverfisins og viðkomandi svæði. Nánari upplýsingar um leyfisveitingu er að finna í [Leyfisleiðbeiningar fyrir Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). 
 
 Við mælum með því að þú stofnir sérstakan rásargagnagrunnshóp fyrir hverja viðbótareiningu viðskiptaskala sem þú setur upp með því að fylgja þessum skrefum.
 
 1. Í aðalskrifstofu Commerce, farðu til **Smásala og verslun >Retail Headquarters > Uppsetning smásöluáætlunar > Rásargagnagrunnshópur**.
 2. Stofna nýjan gagnagrunnsflokk rásar.
 3. Farðu í **Smásala og verslun >Retail Headquarters > Uppsetning smásöluáætlunar > Rásargagnagrunnur**, og veldu rásargagnagrunninn sem samsvarar nýstofnuðu Commerce Scale Unit.
-4. Veldu **Breyta** og veldu nýja rásargagnagrunnshópinn.
+4. Veldu **Breyta** og veldu nýja rásgagnagrunnshópinn.
 5. Veldu **Vista**.
 6. Veldu **Keyra fulla gagnasamstillingu** fyrir valinn rásargagnagrunn.
 
@@ -144,7 +144,7 @@ Við mælum með því að þú stofnir sérstakan rásargagnagrunnshóp fyrir h
 
 Ef þú ert nú þegar að nota skýhýsta Commerce rás íhluti í umhverfi mun frumstilling á Commerce Scale Unit hjálpa til við að draga úr niður í miðbæ þegar þessir íhlutir eru uppfærðir. Viðbótaráætlanagerð er nauðsynleg áður en Commerce Scale Unit er frumstillt.
 
-Þegar þú frumstillir fyrstu Commerce Scale Unit í umhverfi sem notar skýhýst Commerce rásaríhluti, mun frumstillingarferlið flytja rásirnar þínar sem tengjast skýhýstu rásaríhlutunum yfir í fyrstu mælikvarðaeininguna. Rásir sem tengjast Store Scale-einingum eru óbreyttar.
+Þegar þú frumstillir fyrstu Commerce Scale Unit í umhverfi sem notar skýhýsta Commerce rásaríhluti, mun frumstillingarferlið flytja rásirnar þínar sem tengjast skýhýstu rásaríhlutunum í fyrstu mælikvarðaeininguna. Rásir sem tengjast Store Scale-einingum eru óbreyttar.
 
 Flutningsferlið er gagnsætt fyrir rásirnar. Eftir að frumstilling mælieiningarinnar hefst eru eftirfarandi aðgerðir sjálfkrafa framkvæmdar:
 
@@ -153,7 +153,7 @@ Flutningsferlið er gagnsætt fyrir rásirnar. Eftir að frumstilling mælieinin
 3. Allar rásir kortlagðar á **Sjálfgefið** gagnagrunnur rása í höfuðstöðvunum verður uppfærður til að kortleggjast í nýja viðskiptaskalaeininguna.
 4. A Commerce Data Exchange (CDX) full gagnasamstilling verður framkvæmd til að koma rásargögnunum í nýju mælikvarðaeininguna.
 
-**Skipulagning og prófun fyrir frumstillingu Commerce Scale Unit** Að jafnaði, þegar þú frumstillir Commerce Scale Unit, verður þú að skipuleggja fimm klukkustunda niðritíma fyrir verslunarrekstur sem og allar rafræn viðskipti rásaraðgerðir sem nota Retail Server eða Cloud Point of Sale.
+**Skipulagning og prófun fyrir frumstillingu Commerce Scale Unit** Að jafnaði, þegar þú frumstillir Commerce Scale Unit, verður þú að skipuleggja fimm klukkustunda niðurtímaglugga fyrir verslunarrekstur sem og allar rafræn viðskipti rásaraðgerðir sem nota Retail Server eða Cloud Point of Sale.
 
 1. Framkvæmdu endurnýjun gagnagrunns úr framleiðsluumhverfi þínu yfir í sandkassa UAT umhverfi. 
 2. Frumstilla Commerce Scale Unit í sandkassa UAT umhverfinu. 
@@ -161,7 +161,7 @@ Flutningsferlið er gagnsætt fyrir rásirnar. Eftir að frumstilling mælieinin
 
 Þú verður að framkvæma eftirfarandi viðbótarskref áður en þú frumstillir Commerce Scale Unit.
 
-- **Lokaðu öllum POS vaktum** - Eftir flutning geta POS notendur ekki lokað neinum vöktum sem voru virkar á flutningsferlinu.
+- **Lokaðu öllum POS vaktum** - Eftir flutning munu POS notendur ekki geta lokað neinum vöktum sem voru virkar á flutningsferlinu.
 - **Staðfestu að öllum P-störfum hafi verið lokið** - Mælt er með því að P-störf til að samstilla færslur í bið hafi lokið áður en CSU er frumstillt.
 - **Skráðu þig út úr öllum POS-tækjum** - POS aðgerðir eru ekki studdar meðan á flutningi stendur.
 - **Innkalla og ógilda allar stöðvaðar færslur í POS** - Frestað viðskipti eru ekki varðveitt sem hluti af frumstillingunni.
@@ -179,7 +179,7 @@ Hér er það sem gerist á upphafstímabilinu:
 
 Hér er það sem gerist eftir að frumstillingu er lokið:
 
-- Tækjavirkjunarstaða allra virkjaða POS-tækja er varðveitt, sem þýðir að ekki þarf að endurvirkja tækin.
+- Tækjavirkjunarstaða allra virkjaðra POS-tækja er varðveitt, sem þýðir að ekki þarf að endurvirkja tækin.
 - Sjálfstæðir vélbúnaðarstöðvar munu halda áfram að virka.
 - Skýrslur POS rásar hliðar verða endurstilltar og munu ekki sýna gögn frá því fyrir frumstillingu.
 - Sýna dagbókaraðgerð verður einnig endurstillt og mun ekki sýna gögn frá því fyrir frumstillingu.

@@ -2,7 +2,7 @@
 title: Yfirlit yfir inn- og útflutningsvinnslu gagna
 description: Notaðu vinnusvæðið Gögnastjórnun til að búa til og stjórna Inn- og útflutningsvinnslu gagna.
 author: peakerbl
-ms.date: 04/25/2022
+ms.date: 08/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109463"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357592"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Yfirlit yfir inn- og útflutningsvinnslu gagna
 
@@ -76,6 +76,19 @@ Við mælum með að þú takir tíma til að velja viðeigandi verktegund fyrir
 
 > [!NOTE]
 > Fyrir XML-undirstaða skráarsnið, vertu viss um að nota aðeins löglega stafi. Fyrir frekari upplýsingar um gilda stafi, sjá [Gildir stafir í XML 1.0](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0 leyfir enga stjórnstafi nema flipa, vagnaskil og línustrauma. Dæmi um ólöglega stafi eru hornklofur, krullaðir svigar og skástrik. 
+
+Notaðu Unicode í stað tiltekinnar kóðasíðu til að flytja inn eða flytja út gögn. Þetta mun hjálpa til við að veita samkvæmustu niðurstöður og koma í veg fyrir að gagnastjórnunarstörf mistekst vegna þess að þau innihalda Unicode stafi. Kerfisskilgreind upprunagagnasnið sem nota Unicode hafa öll **Unicode** í upprunanafninu. Unicode sniðinu er beitt með því að velja Unicode kóðun ANSI kóðasíðu sem **Kóðasíða** í **Svæðisstillingar** flipa. Veldu eina af eftirfarandi kóðasíðum fyrir Unicode:
+
+| Stafatafla | Heiti til birtingar                |
+|-----------|-----------------------------|
+| 1200      | Unicode                     |
+| 12000     | Unicode (UTF-32)            |
+| 12001     | Unicode (UTF-32 Big-Endian) |
+| 1201      | Unicode (Big-Endian)        |
+| 65000     | Unicode (UTF-7)             |
+| 65001     | Unicode (UTF-8)             |
+
+Fyrir frekari upplýsingar um kóðasíður, sjá [Auðkenni kóðasíðu](/windows/win32/intl/code-page-identifiers/).
 
 ### <a name="sequence-the-entities"></a>Einingunum raðað
 Einingum má raða í gagnasniði, eða í innflutnings- og útflutningssverkum. Þegar þú keyrir verk sem inniheldur fleiri en eina gagnaeiningu verður þú að ganga úr skugga um að einingunum sé rétt raðað. Einingum er raðað til að geta leyst hugsanleg virknitengsl milli eininga. Ef einingar eru ekki með virknitengsl er hægt að tímastilla þær fyrir samhliða inn- og útflutning. 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902025"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357642"
 ---
 # <a name="inventory-visibility-public-apis"></a>Opin API fyrir sýnileika birgða
 
@@ -98,16 +98,16 @@ Til að ná í öryggistákn skal fylgja þessum skrefum.
 1. Skráðu þig inn í Azure-gáttina og notaðu hana til að finna gildin `clientId` og `clientSecret` fyrir Dynamics 365 Supply Chain Management forritið þitt.
 1. Sæktu Azure AD tákn (`aadToken`) með því að senda inn HTTP-beiðni sem er með eftirfarandi eiginleika:
 
-   - **VEFSLÓÐ:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+   - **Vefslóð:**`https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
    - **Aðferð:** `GET`
    - **Meginefni (eyðublaðagögn):**
 
-     | Lykill           | Virði                                |
-     | ------------- | ------------------------------------ |
-     | client_id     | ${aadAppId}                          |
-     | client_secret | ${aadAppSecret}                      |
-     | grant_type    | client_credentials                   |
-     | tilföng      | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+     | Lykill           | Virði                                            |
+     | ------------- | -------------------------------------------------|
+     | client_id     | ${aadAppId}                                      |
+     | client_secret | ${aadAppSecret}                                  |
+     | grant_type    | client_credentials                               |
+     | umfang         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.sjálfgefið    |
 
    Þú ættir að fá Azure AD tákn (`aadToken`) sem svar. Niðurstaðan ætti að líkjast eftirfarandi dæmi.
 
@@ -116,9 +116,6 @@ Til að ná í öryggistákn skal fylgja þessum skrefum.
        "token_type": "Bearer",
        "expires_in": "3599",
        "ext_expires_in": "3599",
-       "expires_on": "1610466645",
-       "not_before": "1610462745",
-       "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
        "access_token": "eyJ0eX...8WQ"
    }
    ```
@@ -131,7 +128,7 @@ Til að ná í öryggistákn skal fylgja þessum skrefum.
        "client_assertion_type": "aad_app",
        "client_assertion": "{Your_AADToken}",
        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-       "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+       "context": "{$LCS_environment_id}",
        "context_type": "finops-env"
    }
    ```
@@ -258,7 +255,7 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls án `dimensionDataSource
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Stofna mörg tilvik breytinga
 
-Þetta API getur búið til margar færslur samtímis. Eini munurinn á þessu API og [API fyrir eitt tilvik](#create-one-onhand-change-event) eru gildin `Path` og `Body`. Fyrir þetta API gefur `Body` upp fylki af færslum. Hámarksfjöldi færslur er 512, sem þýðir að magnbreytinga-forritaskil við höndina geta stutt allt að 512 breytingartilvik í einu.
+Þetta API getur búið til margar færslur samtímis. Eini munurinn á þessu API og [API fyrir eitt tilvik](#create-one-onhand-change-event) eru gildin `Path` og `Body`. Fyrir þetta API gefur `Body` upp fylki af færslum. Hámarksfjöldi færslur er 512, sem þýðir að forritaskilin fyrir magnbreytingar geta stutt allt að 512 breytingartilvik í einu.
 
 ```txt
 Path:
@@ -516,8 +513,8 @@ Body:
 
 Í meginhluta þessarar beiðni er `dimensionDataSource` enn valfrjáls færibreyta. Ef hún er ekki stillt verður `filters` meðhöndlað sem *grunnvíddir*. Það eru fjórar áskildir reitir fyrir `filters`: `organizationId`, `productId`, `siteId` og `locationId`.
 
-- `organizationId` ætti að innihalda aðeins eitt gildi en það er samt enn fylki.
-- `productId` getur innihaldið eitt eða fleiri gildi. Ef það er tómt fylki verður öllum afurðum skilað.
+- `organizationId` ætti aðeins að innihalda eitt gildi, en það er samt fylki.
+- `productId` gæti innihaldið eitt eða fleiri gildi. Ef það er tómt fylki verður öllum afurðum skilað.
 - `siteId` og `locationId` eru notuð í þáttun í birgðasýnileika. Þú getur tilgreint fleiri en eitt `siteId` og `locationId` gildi í beiðni *Lagerfyrirspurnar*. Í núverandi útgáfu verður þú að tilgreina bæði `siteId` og `locationId` gildi.
 
 Færibreytan `groupByValues` ætti að fylgja stillingu þinni fyrir atriðaskráningu. Frekari upplýsingar er að finna í [Skilgreining á stigveldi atriðaskráar](./inventory-visibility-configuration.md#index-configuration).
@@ -585,7 +582,7 @@ Hér er sýnishorn af sækja-vefslóð. Þessi beiðni um að sækja er nákvæm
 
 ## <a name="available-to-promise"></a>ATP-afhendingarspá
 
-Þú getur sett upp birgðasýnileika til að leyfa þér að skipuleggja framtíðar breytingar á hendi og reikna út ATP magn. ATP er magn vöru sem er tiltækt og hægt er að lofa viðskiptavinum á næsta tímabili. Notkun ATP útreikninga getur aukið getu þína til að uppfylla pöntunina til muna. Fyrir upplýsingar um hvernig á að virkja þennan eiginleika og hvernig á að hafa samskipti við birgðasýnileika í gegnum API þess eftir að eiginleikinn er virkjaður, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa](inventory-visibility-available-to-promise.md#api-urls).
+Þú getur sett upp Birgðasýnileika til að gera þér kleift að skipuleggja framtíðar breytingar á hendi og reikna út ATP magn. ATP er magn vöru sem er tiltækt og hægt er að lofa viðskiptavinum á næsta tímabili. Notkun ATP útreiknings getur aukið getu þína til að uppfylla pöntunina til muna. Fyrir upplýsingar um hvernig á að virkja þennan eiginleika og hvernig á að hafa samskipti við birgðasýnileika í gegnum API þess eftir að eiginleikinn er virkjaður, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa](inventory-visibility-available-to-promise.md#api-urls).
 
 ## <a name="allocation"></a>Úthlutun
 
