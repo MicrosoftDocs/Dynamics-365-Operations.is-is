@@ -466,6 +466,8 @@
                           items:
                             - name: Stuðningur við utanaðkomandi gjafakort
                               href: dev-itpro/gift-card.md
+                            - name: Samnýting gagna á milli fyrirtækja fyrir gjafakort
+                              href: dev-itpro/data-sharing-gift-cards.md
                     - name: RSAT
                       items:
                         - name: Prófa skráningarforrit og verkfærið Regression Suite Automation Tool fyrir Cloud POS
