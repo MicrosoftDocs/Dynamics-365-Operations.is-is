@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: eb17f24b90933dac0f875bb0ef2d5039a240b197
+ms.sourcegitcommit: 1ca4ad100f868d518f3634dca445c9878962108e
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306055"
+ms.lasthandoff: 09/01/2022
+ms.locfileid: "9388541"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Setja upp Inventory Visibility
 
@@ -43,7 +43,7 @@ Ef einhverjar spurningar vakna um þessi skilyrði skaltu hafa samband við vör
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Setja upp innbót birgðasýnileika
 
-Áður en þú setur upp innbótina skaltu skrá forrit og bæta leyniorði biðlara við Azure Active Directory (Azure AD) undir Azure-áskriftinni þinni. Leiðbeiningar er að finna í [Skrá forrit](/azure/active-directory/develop/quickstart-register-app) og [Bæta við leyniorði biðlara](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Vertu viss um að taka mið af **Auðkenni umsóknar (viðskiptavinar).**, **viðskiptavinar**, og **Auðkenni leigjanda** gildi, því þú þarft á þeim að halda síðar.
+Áður en þú setur upp innbótina skaltu skrá forrit og bæta leyniorði biðlara við Azure Active Directory (Azure AD) undir Azure-áskriftinni þinni. Leiðbeiningar er að finna í [Skrá forrit](/azure/active-directory/develop/quickstart-register-app) og [Bæta við leyniorði biðlara](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Vertu viss um að skrá þig í **Auðkenni umsóknar (viðskiptavinar).**, **viðskiptavinar**, og **Auðkenni leigjanda** gildi, því þú þarft á þeim að halda síðar.
 
 > [!IMPORTANT]
 > Ef þú ert með fleiri en eitt LCS umhverfi skaltu búa til annað Azure AD umsókn fyrir hvert þeirra. Ef þú notar sama forritskennið og leigjandakennið til að setja upp innbót birgðasýnileika fyrir mismunandi umhverfi mun koma upp vandamál varðandi lykla fyrir eldri umhverfi. Þar af leiðandi mun aðeins síðasta uppsetningin gilda.
@@ -56,7 +56,9 @@ Eftir að þú hefur skráð forrit og bætt leyniorði biðlara við Azure AD s
 1. Á heimasíðu umhverfisins skal fletta niður þar til þú finnur hlutann **Innbætur umhverfis** í hlutanum **Power Platform samþætting**. Þar má finna heiti Dataverse umhverfisins. Staðfestu að heiti Dataverse umhverfis er það sem þú vilt nota fyrir birgðasýnileika.
 
     > [!NOTE]
-    > Sem stendur eru aðeins Dataverse umhverfi studd sem hafa verið búin til með því að nota LCS. Ef Dataverse umhverfið þitt var búið til á einhvern annan hátt (til dæmis með því að nota Power Apps stjórnendamiðstöðina) og ef það er tengt við umhverfi Supply Chain Management verður þú fyrst að hafa samband við vöruteymi birgðasýnileika [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) til að leysa úr vandamáli vörpunar. Þá er hægt að setja upp birgðasýnileika.
+    > Sem stendur eru aðeins Dataverse umhverfi studd sem hafa verið búin til með því að nota LCS. Ef þín Dataverse umhverfi var búið til á annan hátt (til dæmis með því að nota PowerApps Admin Center), og ef það er tengt við Supply Chain Management umhverfið þitt, verður þú fyrst að laga kortlagningarvandann áður en þú setur upp Inventory Visibility Add-in.
+    >
+    > Það er mögulegt að dual-write umhverfið þitt sé tengt við a Dataverse dæmi á meðan LCS er ekki sett upp fyrir Power Platform samþættingu. Þetta ósamræmi við tengingar getur valdið óvæntri hegðun. Við mælum með því að upplýsingar um LCS umhverfið passi við það sem þú ert tengdur við í tvískrift svo að sömu tengingin geti verið notuð af viðskiptaviðburðum, sýndarborðum og viðbótum. Sjáðu [Ósamræmi við tengingar](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch) til að fá upplýsingar um hvernig eigi að laga kortlagningarvandann. Þegar kortlagningarvandamálið er leyst geturðu haldið áfram að setja upp Birgðasýnileika.
 
 1. Í hlutanum **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
 
@@ -76,10 +78,10 @@ Eftir að þú hefur skráð forrit og bætt leyniorði biðlara við Azure AD s
 1. Í Dataverse skal velja hlutann **Forrit** í vinstra yfirlitinu og staðfesta að **Birgðasýnileiki** Power Apps sé uppsettur. Ef hlutinn **Forrit** er ekki til skal hafa samband við afurðateymi birgðasýnileika í [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 > [!NOTE]
-> Ef það tekur meira en klukkutíma að setja upp frá LCS síðunni, þá vantar notendareikninginn þinn líklega leyfi til að setja upp lausnir í Dataverse umhverfi. Fylgdu þessum skrefum til að leysa málið:
+> Ef það tekur meira en klukkutíma að setja upp frá LCS síðunni, þá skortir notendareikninginn þinn líklega leyfi til að setja upp lausnir í Dataverse umhverfi. Fylgdu þessum skrefum til að leysa málið:
 >
 > 1. Hætta við uppsetningarferli birgðasýnileikaviðbóta á LCS síðunni.
-> 1. Skráðu þig inn á [Microsoft 365 stjórnendamiðstöð](https://admin.microsoft.com) og vertu viss um að notendareikningurinn sem þú vilt nota til að setja upp viðbótina hafi "Dynamics 365 Unified Operations Plan" leyfi sem henni er úthlutað. Úthlutaðu leyfinu ef þörf krefur.
+> 1. Skráðu þig inn á [Microsoft 365 stjórnendamiðstöð](https://admin.microsoft.com) og vertu viss um að notendareikningurinn sem þú vilt nota til að setja upp viðbótina hafi "Dynamics 365 Unified Operations Áætlunarleyfi“ sem henni er úthlutað. Úthlutaðu leyfinu ef þörf krefur.
 > 1. Skráðu þig inn á [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com) með því að nota viðkomandi notandareikning. Settu síðan upp birgðasýnileikaviðbótina með því að gera eftirfarandi skref:
 >     1. Veldu umhverfið þar sem þú vilt setja viðbótina upp.
 >     1. Veldu **Dynamics 365 forrit**.
@@ -140,11 +142,11 @@ Til að fjarlægja birgðasýnileikaviðbótina skaltu fylgja þessum skrefum:
 1. Veldu **Umhverfi** á siglingastikunni
 1. Veldu Dataverse umhverfi sem er tengt LCS umhverfi þínu.
 1. Fara til **Lausnir** og eyða eftirfarandi lausnum í eftirfarandi röð:
-    1. Festa lausn fyrir forrit birgðasýnileika í lausnum Dynamics 365
-    1. Forritslausnir birgðasýnileika í Dynamics 365 FNO SCM
-    1. Skilgreining birgðaþjónustu
-    1. Sjálfstæður birgðasýnileiki
-    1. Grunnlausn birgðasýnileika í Dynamics 365 FNO SCM
+    1. Dynamics 365 Birgðasýnileiki - Akkeri
+    1. Dynamics 365 Birgðasýnileiki - Forrit
+    1. Dynamics 365 Birgðasýnileiki - Stýringar
+    1. Dynamics 365 Birgðasýnileiki - Viðbætur
+    1. Dynamics 365 Birgðasýnileiki - Grunnur
 
     Þegar þú eyðir þessum lausnum er gögnum sem geymd eru í töflum einnig eytt.
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357642"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423596"
 ---
 # <a name="inventory-visibility-public-apis"></a>Opin API fyrir sýnileika birgða
 
@@ -41,6 +41,8 @@ Eftirfarandi tafla sýnir API sem eru í boði eins og er:
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Bóka | [Stilla/hnekkja lagermagni](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Bóka | [Stofna eitt tilvik frátekningar](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Bóka | [Stofna mörg tilvik frátekningar](#create-multiple-reservation-events) |
+| /api/umhverfi/{environmentId} /ábyrgð/afskilið | Bóka | [Snúa við einum pöntunarviðburði](#reverse-one-reservation-event) |
+| /api/umhverfi/{environmentId} /onhand/unreserve/bulk | Bóka | [Snúa við mörgum pöntunarviðburðum](#reverse-multiple-reservation-events) |
 | /api/umhverfi/{environmentId} /áhandar/breyta dagskrá | Bóka | [Búðu til eina áætlaða breytingu á hendi](inventory-visibility-available-to-promise.md) |
 | /api/umhverfi/{environmentId} /áhandar/breyta áætlun/magn | Bóka | [Búðu til margar áætlaðar breytingar á hendi](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Bóka | [Senda fyrirspurn með bókunaraðferðinni](#query-with-post-method) |
@@ -56,7 +58,7 @@ Eftirfarandi tafla sýnir API sem eru í boði eins og er:
 > 
 > Magn API getur skilað að hámarki 512 færslum fyrir hverja beiðni.
 
-Microsoft hefur útvegað tilbúið beiðnasafn *Postman*. Þú getur flutt þetta safn inn í *Postman* hugbúnaðinn með því að nota eftirfarandi samnýttan tengil: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>.
+Microsoft hefur útvegað tilbúið beiðnasafn *Postman*. Þú getur flutt þetta safn inn í *Postman* hugbúnaðinn með því að nota eftirfarandi samnýttan tengil: <https://www.getpostman.com/collections/95a57891aff1c5f2a7c2>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Finna endastöðin samkvæmt umhverfi Lifecycle Services
 
@@ -83,7 +85,7 @@ Stutt heiti svæðisins er að finna í umhverfinu Microsoft Dynamics Lifecycle 
 | Suður-Brasilía        | sbr               |
 | Suður- og miðríki Bandaríkjanna    | scus              |
 
-Númer eyjarinnar er þar sem LCS-umhverfið þitt er sett upp í Service Fabric. Sem stendur er engin leið til að fá þessar upplýsingar notandamegin.
+Númer eyjarinnar er þar sem LCS-umhverfið þitt er sett upp í Service Fabric. Það er engin leið til að fá þessar upplýsingar frá notendahliðinni.
 
 Microsoft hefur skapað notandaviðmót í Power Apps svo þú getir fengið fullkláraða endastöð örþjónustunnar. Frekari upplýsingar er að finna í [Finna endastöð þjónustu](inventory-visibility-configuration.md#get-service-endpoint).
 
@@ -146,7 +148,7 @@ Til að ná í öryggistákn skal fylgja þessum skrefum.
    - **HTTP-haus:** Hafðu með API-útgáfuna. (Lykillinn er `Api-Version` og gildið er `1.0`.)
    - **Meginefni efnis** - Nota skal JSON-beiðni sem var stofnuð í fyrra skrefi.
 
-   Þú ættir að fá aðgangslykil (`access_token`) sem svar. Þú verður að nota þennan lykil sem handhafalykil til að kalla á API birgðasýnileika. Eftirfarandi er dæmi.
+   Þú ættir að fá aðgangslykil (`access_token`) sem svar. Þú verður að nota þennan lykil sem handhafalykil til að kalla á API birgðasýnileika. Hér er dæmi.
 
    ```json
    {
@@ -168,9 +170,9 @@ Tvö API eru til staðar til að búa til tilvik lagerbreytinga:
 
 Eftirfarandi tafla tekur saman merkingu hvers reits í meginmáli JSON.
 
-| Kenni svæðis | lýsing |
+| Kenni svæðis | Lýsing |
 |---|---|
-| `id` | Einkvæmt auðkenni fyrir tiltekið breytingartilvik. Þetta auðkenni er notað til að tryggja að ef samskipti við þjónustuna klikka við bókun verður sama tilvikið ekki talið tvisvar sinnum í kerfinu ef það er sent inn á nýjan leik. |
+| `id` | Einkvæmt auðkenni fyrir tiltekið breytingartilvik. Ef endursending á sér stað vegna bilunar í þjónustu er þetta auðkenni notað til að tryggja að sami atburður verði ekki talinn tvisvar í kerfinu. |
 | `organizationId` | Kennimerki fyrirtækisins sem er tengt við tilvikið. Þetta gildi er varpað í fyrirtæki eða auðkenni gagnasvæðis í Supply Chain Management. |
 | `productId` | Kennimerki afurðarinnar. |
 | `quantities` | Magnið sem lagerbirgðirnar þurfa að breytast um. Ef t.d. 10 nýjar bækur bætast í hilluna verður þetta gildi `quantities:{ shelf:{ received: 10 }}`. Ef þrjár bækur eru teknar úr hillunni eða seldar verður þetta gildi `quantities:{ shelf:{ sold: 3 }}`. |
@@ -178,7 +180,7 @@ Eftirfarandi tafla tekur saman merkingu hvers reits í meginmáli JSON.
 | `dimensions` | Gagnvirkt par lyklagildis. Gildunum er varpað í sumar víddirnar í Supply Chain Management. Hins vegar getur þú einnig bætt við sérstilltum víddum (til dæmis _Uppruna_) til að gefa til kynna hvort tilvikið komi úr Supply Chain Management eða ytra kerfi. |
 
 > [!NOTE]
-> Færibreyturnar `SiteId` og `LocationId` setja saman [stillingu þáttunar](inventory-visibility-configuration.md#partition-configuration). Þú verður því að tilgreina þær í víddum þegar þú býrð til tilvik lagerbreytinga, stilla eða hnekkja lagermagni eða stofna frátekningartilvik.
+> Færibreyturnar `siteId` og `locationId` setja saman [stillingu þáttunar](inventory-visibility-configuration.md#partition-configuration). Þú verður því að tilgreina þær í víddum þegar þú býrð til tilvik lagerbreytinga, stilla eða hnekkja lagermagni eða stofna frátekningartilvik.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Stofna eitt tilvik lagerbreytinga
 
@@ -216,14 +218,14 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls. Í þessu sýnishorni b
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
+    "organizationId": "SCM_IV",
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "PosMachineId": "0001",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "posMachineId": "0001",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -238,12 +240,12 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls án `dimensionDataSource
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -293,13 +295,13 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls.
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
-        "productId": "T-shirt",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_1",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId&quot;: &quot;0001"
+            "posSiteId": "posSite1",
+            "posLocationId": "posLocation1",
+            "posMachineId&quot;: &quot;0001"
         },
         "quantities": {
             "pos": { "inbound": 1 }
@@ -307,12 +309,12 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls.
     },
     {
         "id": "654321",
-        "organizationId": "usmf",
-        "productId": "Pants",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_2",
         "dimensions": {
-            "SiteId": "1",
-            "LocationId": "11",
-            "ColorId&quot;: &quot;black"
+            "siteId": "iv_postman_site",
+            "locationId": "iv_postman_location",
+            "colorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -362,13 +364,13 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls. Hegðun þessa API er f
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
+        "organizationId": "SCM_IV",
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-             "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId": "0001"
+            "posSiteId": "iv_postman_site",
+            "posLocationId": "iv_postman_location",
+            "posMachineId": "0001"
         },
         "quantities": {
             "pos": {
@@ -381,7 +383,7 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls. Hegðun þessa API er f
 
 ## <a name="create-reservation-events"></a>Stofna tilvik frátekninga
 
-Til að API *Frátekningar* þarftu að opna eiginleika frátekningar og ljúka við skilgreiningu frátekningar. Frekari upplýsingar er að finna í [Skilgreining frátekningar (valfrjálst)](inventory-visibility-configuration.md#reservation-configuration).
+Til að nota *Áskilið* API, þú verður að kveikja á pöntunareiginleikanum og ljúka við pöntunarstillinguna. Frekari upplýsingar er að finna í [Skilgreining frátekningar (valfrjálst)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Stofna eitt tilvik frátekningar
 
@@ -389,7 +391,7 @@ Hægt er að taka frá gagnvart mismunandi stillingum gagnagjafa. Til að stilla
 
 Þegar þú kallar á API frátekningu er hægt að stjórna staðfestingu frátekningar með því að tilgreina Boolean `ifCheckAvailForReserv` færibreytu í meginmáli beiðninnar. Gildi `True` þýðir að staðfesting sé nauðsynleg og á móti merkir gildið `False` að staðfestingin er ekki nauðsynleg. Sjálfgefið gildi er `True`.
 
-Ef þú vilt hætta við frátekningu eða afturkalla frátekningu á tilgreindu birgðamagni skaltu stilla magnið á neikvætt gildi og stilla `ifCheckAvailForReserv` færibreytuna á `False` til að sleppa villuleitinni.
+Ef þú vilt bakfæra frátekningu eða taka frá tiltekið birgðamagn skaltu stilla magnið á neikvætt gildi og stilla`ifCheckAvailForReserv` breytu til`False` að sleppa staðfestingunni. Það er líka sérstakt unreserve API til að gera slíkt hið sama. Munurinn er aðeins í því hvernig API-in tvö eru kölluð. Það er auðveldara að snúa við tilteknum pöntunarviðburði með því að nota`reservationId` með *fyrirvaralaus* API. Fyrir frekari upplýsingar, sjá [_Afpanta einn pöntunarviðburð_](#reverse-reservation-events) kafla.
 
 ```txt
 Path:
@@ -427,24 +429,36 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls.
 ```json
 {
     "id": "reserve-0",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "quantity": 1,
     "quantityDataSource": "iv",
-    "modifier": "softreservordered",
+    "modifier": "softReservOrdered",
     "ifCheckAvailForReserv": true,
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red",
-        "SizeId&quot;: &quot;Small"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red",
+        "sizeId&quot;: &quot;small"
     }
 }
 ```
 
+Eftirfarandi dæmi sýnir árangursríkt svar.
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "id": "ohre~id-822-232959-524",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+``` 
+
 ### <a name="create-multiple-reservation-events"></a><a name="create-multiple-reservation-events"></a>Stofna mörg tilvik frátekningar
 
-Þetta API er magnútgáfa af [API fyrir eitt tilvik](#create-one-reservation-event).
+Þetta API er magnútgáfa af [API fyrir eitt tilvik](#create-reservation-events).
 
 ```txt
 Path:
@@ -480,9 +494,107 @@ Body:
     ]
 ```
 
+## <a name="reverse-reservation-events"></a>Snúið pöntunarviðburði
+
+The *Áskilið* API þjónar sem andstæða aðgerð fyrir [*Fyrirvari*](#create-reservation-events) atburðir. Það veitir leið til að snúa við pöntunarviðburði sem tilgreint er af`reservationId` eða til að minnka pöntunarmagnið.
+
+### <a name="reverse-one-reservation-event"></a><a name="reverse-one-reservation-event"></a> Snúa við einum pöntunarviðburði
+
+Þegar fyrirvari er stofnaður, a`reservationId` verður innifalið í svarhlutanum. Þú verður að veita það sama`reservationId` að hætta við pöntunina og láta það sama fylgja með`organizationId` og`dimensions` notað fyrir pöntunar-API símtalið. Að lokum, tilgreinið`OffsetQty` gildi sem táknar fjölda hluta sem losa á frá fyrri fyrirvara. Fyrirvara getur annað hvort verið snúið við að fullu eða að hluta eftir því sem tilgreint er `OffsetQty`. Til dæmis, ef *100* einingar af hlutum voru fráteknar, þú getur tilgreint`OffsetQty: 10` að afskiptalaus *10* af upphaflegri áskilinni upphæð.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        reservationId: string,
+        dimensions: {
+            [key:string]: string,
+        },
+        OffsetQty: number
+    }
+```
+
+Eftirfarandi kóði sýnir dæmi um líkamsefni.
+
+```json
+{
+    "id": "unreserve-0",
+    "organizationId": "SCM_IV",
+    "reservationId": "RESERVATION_ID",
+    "dimensions": {
+        "siteid":"iv_postman_site",
+        "locationid":"iv_postman_location",
+        "ColorId": "red",
+        "SizeId&quot;: &quot;small"
+    },
+    "OffsetQty": 1
+}
+```
+
+Eftirfarandi kóði sýnir dæmi um árangursríkan viðbragðsaðila.
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "totalInvalidOffsetQtyByReservId": 0,
+    "id": "ohoe~id-823-11744-883",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+```
+
+> [!NOTE]
+> Í svarhlutanum, hvenær`OffsetQty` er minna en eða jafnt og pöntunarmagnið,`processingStatus` mun vera "*árangur* "og`totalInvalidOffsetQtyByReservId` mun vera *0*.
+>
+> Ef`OffsetQty` er hærri en áskilin upphæð,`processingStatus` mun vera "*að hluta til velgengni* "og`totalInvalidOffsetQtyByReservId` verður munurinn á milli`OffsetQty` og áskilin upphæð.
+>
+>Til dæmis, ef pöntunin hefur magn af *10*, og`OffsetQty` hefur gildi á *12*,`totalInvalidOffsetQtyByReservId` væri *2*.
+
+### <a name="reverse-multiple-reservation-events"></a><a name="reverse-multiple-reservation-events"></a> Snúa við mörgum pöntunarviðburðum
+
+Þetta API er magnútgáfa af [API fyrir eitt tilvik](#reverse-one-reservation-event).
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [      
+        {
+            id: string,
+            organizationId: string,
+            reservationId: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            OffsetQty: number
+        }
+        ...
+    ]
+```
+
 ## <a name="query-on-hand"></a>Fyrirspurn um lagerbirgðir
 
-Nota _Fyrirspurn við höndina_ API til að sækja núverandi birgðagögn fyrir vörur þínar. API styður sem stendur fyrirspurnir um allt að 100 einstök atriði eftir`ProductID` gildi. Margfeldi`SiteID` og`LocationID` Einnig er hægt að tilgreina gildi í hverri fyrirspurn. Hámarksmörk eru skilgreind sem `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+Nota *Fyrirspurn við höndina* API til að sækja núverandi birgðagögn fyrir vörur þínar. API styður sem stendur fyrirspurnir um allt að 5000 einstaka hluti eftir`productID` gildi. Margfeldi`siteID` og`locationID` Einnig er hægt að tilgreina gildi í hverri fyrirspurn. Hámarksmörkin eru skilgreind með eftirfarandi jöfnu:
+
+*NumOf(SiteID)\* NumOf(LocationID)<= 100*.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Senda fyrirspurn með bókunaraðferðinni
 
@@ -517,7 +629,7 @@ Body:
 - `productId` gæti innihaldið eitt eða fleiri gildi. Ef það er tómt fylki verður öllum afurðum skilað.
 - `siteId` og `locationId` eru notuð í þáttun í birgðasýnileika. Þú getur tilgreint fleiri en eitt `siteId` og `locationId` gildi í beiðni *Lagerfyrirspurnar*. Í núverandi útgáfu verður þú að tilgreina bæði `siteId` og `locationId` gildi.
 
-Færibreytan `groupByValues` ætti að fylgja stillingu þinni fyrir atriðaskráningu. Frekari upplýsingar er að finna í [Skilgreining á stigveldi atriðaskráar](./inventory-visibility-configuration.md#index-configuration).
+Við mælum með að þú notir`groupByValues` færibreytu til að fylgja stillingum þínum fyrir flokkun. Frekari upplýsingar er að finna í [Skilgreining á stigveldi atriðaskráar](./inventory-visibility-configuration.md#index-configuration).
 
 Færibreytan `returnNegative` stýrir því hvort niðurstöðurnar innihalda neikvæðar færslur.
 
@@ -530,13 +642,13 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls.
 {
     "dimensionDataSource": "pos",
     "filters": {
-        "organizationId": ["usmf"],
-        "productId": ["T-shirt"],
-        "siteId": ["1"],
-        "LocationId": ["11"],
-        "ColorId": ["Red"]
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
+        "colorId": ["red"]
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -546,12 +658,12 @@ Eftirfarandi dæmi sýnir hvernig á að spyrjast fyrir um allar vörur á tilte
 ```json
 {
     "filters": {
-        "organizationId": ["usmf"],
+        "organizationId": ["SCM_IV"],
         "productId": [],
-        "siteId": ["1"],
-        "LocationId": ["11"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -574,10 +686,10 @@ Query(Url Parameters):
     [Filters]
 ```
 
-Hér er sýnishorn af sækja-vefslóð. Þessi beiðni um að sækja er nákvæmlega sú sama og bókunardæmið sem var sýnt hér á undan.
+Hér er sýnishorn af fá vefslóð. Þessi beiðni um að sækja er nákvæmlega sú sama og bókunardæmið sem var sýnt hér á undan.
 
 ```txt
-/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
 ```
 
 ## <a name="available-to-promise"></a>ATP-afhendingarspá

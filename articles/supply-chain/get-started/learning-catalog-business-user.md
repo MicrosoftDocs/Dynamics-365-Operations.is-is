@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d43b9b331a8a88ac1282acc33dabe7b71bca57b7
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 82420ad8dae12e4a47290599a5bbd0d15a7f3c29
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124297"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423855"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Námslisti fyrir notendur Dynamics 365 Supply Chain Management
 
@@ -27,9 +27,8 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 
 ## <a name="get-started"></a>Leiðsögn<a name="get-started"></a>
 
-| Efni | lýsing | Snið | Lengd |
+| Efni | Lýsing | Snið | Lengd |
 |---------|-------------|--------|--------|
-| [Lærðu viðskiptaverðmæti Microsoft Dynamics 365 og Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Hefur þú áhuga á að læra um viðskiptaforrit? Þú veist ef til vill ekki hvar þú átt að byrja á Microsoft Dynamics 365 og Power Platform forritum? Kynntu þér hvernig þú nýtir forrit fyrir fyrirtæki til að breyta viðskiptum þínum. | Ókeypis, sjálfstýr skref á námsleið | 8 klst. |
 | [Dynamics 365 og Power Platform grundvallaratriði](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Hefur þú áhuga á að læra um viðskiptaforrit? Byrjaðu á þessari námsleið til að sjá hvernig Dynamics 365 forrit eru notuð. Lærðu um skýjahugtök, Power Platform og hvernig hægt er að byrja með Dynamics 365 forrit. | Ókeypis, sjálfstýr skref á námsleið | 5.5 klst. |
 | [Byrjaðu með fjármála- og rekstraröppum](/learn/paths/get-started-finance-operations/) | Lærðu hvernig fjármála- og rekstrarforrit styðja fyrirtæki við að stjórna alþjóðlegum fjármálakerfum sínum, rekstri viðskiptaferla og straumlínulagaðar aðfangakeðjur til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir. Sem fyrsta skrefið á ferli þínum við að vinna með fjármála- og rekstraröppum, verður þú að kynna þér eiginleika þess og virkni, hvaða hlutverki sem þú vilt. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
 | [Hafist handa með eignastýringu fyrir Dynamics 365 Supply Chain Management](/learn/modules/get-started-asset-management/index) | Eignastýring er eining til að stjórna eignum og viðhaldsvinnslum í Dynamics 365 Supply Chain Management. Eignastýring gerir þér kleift að stjórna og framkvæma verkefni sem tengjast stjórnun og þjónustu á mörgum gerðum búnaðar í fyrirtækinu þínu, til dæmis vélar, framleiðslutæki og farartæki. Eignastjórnun styður lausnir í fjölmörgum atvinnugreinum. | Ókeypis námseining á netinu á eigin hraða | 1 klukkustund |

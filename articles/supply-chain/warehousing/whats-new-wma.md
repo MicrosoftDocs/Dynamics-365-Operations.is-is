@@ -10,18 +10,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 115708ce9e71c35feb1cf370ead556847e04cbd2
-ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
+ms.openlocfilehash: a0fa081b0110682af1fcda50b0c912dc5d03fa73
+ms.sourcegitcommit: 29af4c9d9968bbfa4c19fee9de34fed309f6d38b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9324204"
+ms.lasthandoff: 09/01/2022
+ms.locfileid: "9388449"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Þessi grein sýnir nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af Warehouse Management farsímaforritinu fyrir Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20320"></a>Útgáfa 2.0.32.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+
+- Bættur stöðugleiki.
 
 ## <a name="version-20310"></a>Útgáfa 2.0.31.0
 
@@ -144,7 +150,7 @@ ms.locfileid: "9324204"
   - Fast litasýnileiki og birtuskil.
   - Kom í veg fyrir tap á lyklaborðsfókus þegar sprettigluggasíðum er lokað.
   - Bætti villuskilaboðum við frásögnina.
-  - Aukið stærð staðgengilsgilda í skrefaborðanum.
+  - Aukin stærð staðsetningargilda í skrefaborðanum.
 - Lagaði dæmið um sérsniðna eldri síðu í kynningarham.
 
 ## <a name="version-20150"></a>Útgáfa 2.0.15.0
@@ -170,7 +176,7 @@ ms.locfileid: "9324204"
 - Lagaði vandamál þar sem einhver texti gæti orðið mjög lítill þegar stærð forritsgluggans var breytt.
 - Lagaði vandamál sem gæti stundum hrundið forritinu þegar strikamerki voru skannað.
 - Bætti við möguleikanum á að skipta um renna fyrir hnapp.
-- Lagaði vandamál sem gæti valdið því að appið sýndi villuboðin, "AADSTS7000215: Ógilt leyndarmál viðskiptavinar er gefið upp."
+- Lagaði vandamál sem gæti valdið því að forritið sýndi villuboðin, "AADSTS7000215: Ógilt leyndarmál viðskiptavinar er veitt."
 - Lagaði vísbendingahreyfinguna sem sýnir hvernig á að loka síðu með því að strjúka niður.
 - Bætti við möguleikanum á að loka síðu með því að fletta niður.
 - Lagaði vandamál þar sem titlar fellilista voru ekki sýndir á **Notendastillingar** síðu.

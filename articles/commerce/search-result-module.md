@@ -2,7 +2,7 @@
 title: Leitarniðurstöðueining
 description: Þessi grein fjallar um einingar fyrir leitarniðurstöður og lýsir því hvernig á að bæta þeim við vefsíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: d10e9ed78dfc90833ff3c09021f863f6ef0b80d9
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: eeb7cd0769fcb866a3d7dcc03e8e87daf24b2c5d
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286811"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405294"
 ---
 # <a name="search-results-module"></a>Leitarniðurstöðueining
 
@@ -64,7 +64,7 @@ Leitarniðurstöðueiningin styður [flýtiskoðunareininguna](quick-view-module
 
 ## <a name="add-a-search-results-module-to-a-category-page"></a>Bæta leitarniðurstöðueiningu við flokkasíðu
 
-Fylgdu þessum skrefum til að bæta leitarniðurstöðueiningu við flokkasíðu í vefsíðugerð.
+Fylgdu þessum skrefum til að bæta leitarniðurstöðueiningu við flokkasíðu í vefsvæðisgerð.
 
 1. Farðu í **Sniðmát** og veldu **Nýtt** til að búa til nýtt sniðmát.
 1. Í svarglugganum **Nýtt sniðmát** skal slá inn heitið **Leitarniðurstöður** og síðan velja **Í lagi**.
@@ -86,48 +86,16 @@ Fylgdu þessum skrefum til að bæta leitarniðurstöðueiningu við flokkasíð
 1. Undir **Farið yfir og klárað**, skoðaðu stillingar síðunnar. Ef þú þarft að breyta síðuupplýsingunum skaltu velja **Til baka**. Ef síðuupplýsingarnar eru réttar skaltu velja **Búa til síðu**.
 1. Veldu **Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
 
-## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Virkja birgðavitneskju fyrir einingu leitarniðurstöðu
+## <a name="inventory-aware-search-results-module"></a>Birgðameðvituð leitarniðurstöðueining
 
-Viðskiptavinir búast almennt við að netverslunarvefsíðan sé meðvituð um birgðahald í gegnum vafraupplifunina, svo að þeir geti ákveðið hvað þeir eigi að gera ef engar birgðir eru til fyrir vöru. Hægt er að stilla leitarniðurstöðueininguna til að fella inn birgðagögn og veita eftirfarandi reynslu:
+Hægt er að stilla leitarniðurstöðueininguna til að fella inn birgðagögn og veita eftirfarandi reynslu:
 
-- Sýnið birgðamiða ásamt vörunni.
-- Fela vörur sem eru ekki til á lager af vörulistanum.
-- Sýnið vörur sem eru ekki til á lager aftast á vörulistanum.
-- Sía vörur í leitarniðurstöðum eftir birgðastigi.
+- Sýndu merkimiða á birgðastigi við hlið afurða.
+- Fela vörur sem eru ekki á lager af vörulistanum.
+- Birta vörur sem eru ekki til á lager í lok vörulistans.
+- Styðja vörusíun sem byggir á birgðum.
 
-Til að virkja þessa upplifun verður þú fyrst að virkja **Aukin vöruuppgötvun rafræn viðskipti til að vera meðvituð um birgðahald** eiginleiki í **Eiginleikastjórnun** vinnurými.
-
-> [!NOTE]
-> The **Aukin vöruuppgötvun rafræn viðskipti til að vera meðvituð um birgðahald** eiginleiki er fáanlegur í útgáfu Commerce útgáfu 10.0.20 og síðar.
-
-Birgðameðvituð vöruleit notar vörueiginleika til að fá upplýsingar um framboð á birgðum. Sem forsenda eiginleikans verður að búa til sérstaka vörueiginleika, slá inn birgðagögn fyrir þá og bæta þeim við netrásina. 
-
-Til að búa til sérstaka vörueiginleika til að styðja við birgðameðvitaða leitarniðurstöðueiningu skaltu fylgja þessum skrefum.
-
-1. Í höfuðstöðvunum, farðu til **Verslun og verslun \> Upplýsingatækni í smásölu og viðskiptum \> Vörur og lager**.
-1. Veldu og opnaðu **Fylltu vörueiginleika með birgðastigi**.
-1. Í svarglugganum skaltu slá inn eftirfarandi upplýsingar:
-
-    1. Í **Vörueiginleiki og tegundarheiti** reit, tilgreinið heiti fyrir sérstaka vörueigind sem verður búin til til að fanga birgðagögn.
-    1. Í **Birgðaframboð byggt á** reit skaltu velja magntegundina sem útreikningur birgðastigs ætti að byggja á (td.**Í boði líkamlegt**). 
-
-1. Keyrðu verkið í bakgrunni. Vegna þess að vörubirgðir breytast stöðugt í umnichannel umhverfi, mælum við eindregið með því að þú tímasetur þetta verk sem runuferli.
-
-> [!NOTE]
-> Til að fá samræmdan útreikning á birgðastigi yfir síður og einingar á netverslunarvefsíðunni þinni, vertu viss um að velja sömu magntegundina fyrir báðar **Birgðaframboð byggt á** stilling í Commerce höfuðstöðvum og **Birgðastig miðað við** stilling í Commerce site builder. Frekari upplýsingar um birgðastillingar í vefsmið er að finna í [Nota birgðastillingar](inventory-settings.md).
-
-Til að stilla vörueiginleika fyrir netrás skaltu fylgja þessum skrefum. 
-
-1. Í höfuðstöðvunum, farðu til **Verslun og verslun \> Rásaruppsetning \> Rásarflokkar og vörueiginleikar**.
-1. Veldu netrás til að virkja birgðameðvitaða leitarniðurstöðueiningu fyrir.
-1. Veldu og opnaðu tengdan eigindahóp og bættu síðan nýstofnuðu vörueigindinni við hann.
-1. Fyrir Commerce útgáfur fyrir útgáfu 10.0.27, veldu **Stilltu lýsigögn eiginda**, veldu vörueigind sem nýlega var bætt við og kveiktu síðan á **Sýna eigind á rás**, **að sækja**, **að betrumbæta**, og **Hægt að spyrjast fyrir** valkosti.
-1. Fara til **Verslun og verslun \> Upplýsingatækni í smásölu og viðskiptum \> Dreifingaráætlun**, og keyra **1150 (Vörulisti)** starf. Ef þú tímasetur **Fylltu út vörueiginleika með birgðastigi** verk sem runuferli, mælum við með að þú tímasetur einnig 1150 verkið sem runuferli sem keyrir á sömu tíðni.
-
-> [!NOTE]
-> Fyrir vörur sem eru sýndar í leitarniðurstöðueiningunni er birgðastigið sýnt á aðalvörustigi í stað einstaks afbrigðisstigs. Aðeins tvö möguleg gildi eru til: „tiltækt“ og „ekki til á lager“. Raunverulegt merki fyrir gildið er sótt í [birgðastigssnið](inventory-buffers-levels.md) skilgreiningu. Aðalafurð er aðeins talin ekki til á lager þegar öll afbrigði hennar eru ekki til á lager.
-
-Eftir að búið er að ljúka öllum fyrri skilgreiningarskrefum munu afmarkanir á síðum leitarniðurstöðu sýna síu sem byggir á birgðum og eining leitarniðurstöðu mun sækja birgðaupplýsingar í bakgrunni. Síðan er hægt að skilgreina stillinguna **Birgðastillingar fyrir afurðalistasíður** í vefsmið Commerce til að stýra því hvernig eining leitarniðurstöðu sýnir afurðir sem ekki eru til á lager. Nánari upplýsingar er að finna í [Nota birgðastillingar](inventory-settings.md).
+Til að virkja þessa upplifun verður þú fyrst að virkja **Aukin vöruuppgötvun rafræn viðskipti til að vera meðvituð um birgðahald** eiginleika, og stilltu síðan nokkrar forkröfustillingar í höfuðstöðvum Commerce. Fyrir frekari upplýsingar, sjá [Birgðameðvituð vöruskráning](inventory-aware-product-listing.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

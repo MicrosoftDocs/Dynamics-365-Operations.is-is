@@ -1,23 +1,23 @@
 ---
 title: Námsskrá fyrir notendur Dynamics 365 Finance
 description: Finndu alla þjálfunarmöguleika fyrir notendur Dynamics 365 Finance.
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c883a425610d9b04812ba77c666b0b220184d5af
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 99a672e4fd0bfe270f0cd1bfa421b7bd6feca9e1
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069285"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424843"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Námsskrá fyrir notendur Dynamics 365 Finance
 
@@ -27,11 +27,10 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 
 ## <a name="get-started"></a>Leiðsögn<a name="get-started"></a>
 
-| Efni | lýsing | Snið | Lengd |
+| Efni | Lýsing | Snið | Lengd |
 |---------|-------------|--------|--------|
-| [Lærðu viðskiptaverðmæti Microsoft Dynamics 365 og Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Hefur þú áhuga á að læra um viðskiptaforrit? Þú veist ef til vill ekki hvar þú átt að byrja á Microsoft Dynamics 365 og Power Platform forritum? Kynntu þér hvernig þú nýtir forrit fyrir fyrirtæki til að breyta viðskiptum þínum. | Ókeypis, sjálfstýr skref á námsleið | 8 klst. |
 | [Dynamics 365 og Power Platform grundvallaratriði](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Hefur þú áhuga á að læra um viðskiptaforrit? Byrjaðu á þessari námsleið til að sjá hvernig Dynamics 365 forrit eru notuð. Lærðu um skýjahugtök, Power Platform og hvernig hægt er að byrja með Dynamics 365 forrit. | Ókeypis, sjálfstýr skref á námsleið | 5.5 klst.   |
-| [Byrjaðu með fjármála- og rekstraröppum](/learn/paths/get-started-finance-operations/) | Lærðu hvernig fjármála- og rekstrarforrit styðja fyrirtæki við að stjórna alþjóðlegum fjármálakerfum sínum, rekstri viðskiptaferlum og straumlínulagðar aðfangakeðjur til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir.   Sem fyrsta skrefið á ferli þínum við að vinna með fjármála- og rekstraröppum, verður þú að kynna þér eiginleika þess og virkni, hvaða hlutverki sem þú vilt. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
+| [Byrjaðu með fjármála- og rekstraröppum](/learn/paths/get-started-finance-operations/) | Lærðu hvernig fjármála- og rekstrarforrit styðja fyrirtæki við að stjórna alþjóðlegum fjármálakerfum sínum, rekstri viðskiptaferla og straumlínulagaðar aðfangakeðjur til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir.   Sem fyrsta skrefið á ferli þínum við að vinna með fjármála- og rekstraröppum, verður þú að kynna þér eiginleika þess og virkni, hvaða hlutverki sem þú vilt. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
 | [Hafist handa með Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Með Dynamics 365 Intelligent Order Management geta viðskiptavinir stjórnað skipulagi pantana í gegnum uppfyllingu. Þessir möguleikar gera fyrirtækjum kleift að skipuleggja flæði pantana yfir mismunandi verkvanga og forrita. | Ókeypis námseining á netinu á eigin hraða | 30 mínútur |
 | [Námskeið MB-900T01-A: Grundvallaratriði Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Þetta námskeið kynnir nemandanum Dynamics 365 virkni og viðskiptagildi. Námskeiðið mun fjalla um Dynamics 365 forrit, Power Platform, skýjahugtök, öryggislíkanið og leyfissjónarmið. | Leiðbeinandi í eigin persónu eða þjálfun á netinu, kostnaður er breytilegur eftir svæðum og félagi | 1 dagur |
 
@@ -47,11 +46,11 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | Efni | Lýsing | Snið | Lengd |
 |---------|-------------|--------|--------|
 | [Stilltu og notaðu fjárhagsbókina í Dynamics 365 Finance](/learn/paths/configure-use-general-ledger-dyn365-finance/) | Dynamics 365 Finance gerir viðskiptanotendum kleift að stjórna fjármálum og stjórna fjármunum með nákvæmum upplýsingum hvenær sem er fyrir fjárhagsáætlun og spá, og vera uppfærður með greiningar. Þar sem fjármál eru hjarta fyrirtækisins og aðalbókar einingin er hjarta fjármálastjórnunar, sýnir þessi námsleið hvernig þú setur upp virkni í aðalbókar einingunni. Hún fjallar einnig um hvernig á að loka ferlum í eitt ár.    | Ókeypis, sjálfstýr skref á námsleið | 13.5 klst.  |
-| [Stilltu og notaðu reiðufé og bankastjórnun og söluskatt í Dynamics 365 Finance](/learn/paths/configure-use-cash-bank-management-tax-dyn365-finance/)    | Þú getur notað Reiðufé og bankastjórnunareininguna í Dynamics 365 Finance til að viðhalda bankareikningum fyrirtækis og fjármálagerninga sem eru tengdir þessum bankareikningum. Öll fyrirtæki verða að innheimta og greiða skatta til ýmissa skattayfirvalda. Í þessari námsleið muntu læra hvernig á að stilla og nota þessi svæði Dynamics 365 Finance | Ókeypis, sjálfstýr skref á námsleið | 7.5 klst. |
+| [Stilltu og notaðu reiðufé og bankastjórnun og söluskatt í Dynamics 365 Finance](/learn/paths/configure-use-cash-bank-management-tax-dyn365-finance/)    | Þú getur notað Reiðufé og bankastjórnunareiningu í Dynamics 365 Finance til að viðhalda bankareikningum fyrirtækis og fjármálagerninga sem eru tengdir þessum bankareikningum. Öll fyrirtæki verða að innheimta og greiða skatta til ýmissa skattayfirvalda. Í þessari námsleið muntu læra hvernig á að stilla og nota þessi svæði Dynamics 365 Finance | Ókeypis, sjálfstýr skref á námsleið | 7.5 klst. |
 | [Vinna með viðskiptaskuldir í Dynamics 365 Finance](/learn/paths/work-accounts-payable-dyn365-finance/)    | Viðskiptaskuldir eru skuld vegna kröfuhafa þegar þú pantar vörur eða þjónustu án þess að staðgreiða, sem þýðir að þú kaupir vörur á kredit. Lærðu hvernig á að stilla reikninga í Dynamics 365 Finance, skrá reikninga lánardrottins og dreifa kostnaði, sköttum og gjöldum á milli reikninga. | Ókeypis, sjálfstýr skref á námsleið | 5.5 klst. |
 | [Vinna með viðskiptakröfur í Dynamics 365 Finance](/learn/paths/work-accounts-receivable-dyn365-finance/)  | Stilltu viðskiptakröfueininguna í Dynamics 365 Finance til að búa til reikninga viðskiptavina, bóka fylgiseðla og nota ókeypis textareikninga sem ekki tengjast sölupöntunum. Á þessari námsleið muntu líka læra að gera dagleg verkefni í viðskiptakröfum      | Ókeypis, sjálfstýr skref á námsleið | 7 klst.   |
 | [Stilltu og notaðu fjárhagsáætlunargerð í Dynamics 365 Finance](/learn/paths/configure-use-budgeting-dyn365-finance/)   | Sérhver stofnun, hvort sem hún er einkarekin eða opinber, setur fjárhagsleg og rekstrarleg markmið með því að búa til fjárveitingar. Með samvinnu og ferli sem rekin er af fjárhagsáætlanagerð geturðu gert fjárhagsáætlunarferlið skilvirkara. | Ókeypis, sjálfstýr skref á námsleið | 3.5 klst. |
-| [Stilla og stjórna fastafjármunum og eignaleigu í Dynamics 365 Finance](/learn/paths/configure-manage-fixed-assets-dyn365-finance/) | Hægt er að setja upp og færa inn yfirtökuupplýsingar fyrir eignir. Síðan er hægt að stjórna þeim með því að afskrifa þær og setja upp fjármögnunarþröskulda. Aðferðin sem notuð er til að meðhöndla eignir verður að samræmast bæði alþjóðlegum bókhaldsstöðlum og viðeigandi löggjöf í hverju landi eða svæði. Eignaleiga er háþróuð hæfni til að fylgjast með, rekja og gera sjálfvirkan fjárhagsfærslur fyrir leigðar eignir í Dynamics 365 Finance.| Ókeypis, sjálfstýr skref á námsleið | 6.5 klst. |
+| [Stilla og stjórna fastafjármunum og eignaleigu í Dynamics 365 Finance](/learn/paths/configure-manage-fixed-assets-dyn365-finance/) | Hægt er að setja upp og færa inn yfirtökuupplýsingar fyrir eignir. Síðan er hægt að stjórna þeim með því að afskrifa þær og setja upp fjármögnunarþröskulda. Aðferðin sem notuð er til að meðhöndla eignir verður að samræmast bæði alþjóðlegum bókhaldsstöðlum og viðeigandi löggjöf í hverju landi eða svæði. Eignaleiga er háþróuð hæfni til að fylgjast með, rekja og gera fjárhagsfærslur sjálfvirkar fyrir leigðar eignir í Dynamics 365 Finance.| Ókeypis, sjálfstýr skref á námsleið | 6.5 klst. |
 | [Byrjaðu með kostnaðarbókhald fyrir aðfangakeðjur í Dynamics 365 Finance](/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) | Kostnaðarbókhald er hægt að safna gögnum frá ýmsum stöðum eins og fjárhags, undirfjárhagi, áætlanir og tölfræðilegar upplýsingar. Síðan er hægt að greina, taka saman og meta kostnaðargögn, svo stjórnun hægt taka ákvarðanir í besta mögulega verðuppfærslu, fjárhagsáætlanir, kostnaðarstýringu og svo framvegis.  | Ókeypis, sjálfstýr skref á námsleið | 1 klukkustund  |
 | [Unnið með kostnaðarstýringu í Dynamics 365 Project Operations](/learn/paths/work-expense-management/) | Hámarka arðsemi og lágmarka kostnað með nákvæman útgjaldastýringu í Dynamics 365 Project Operations. Kynntu þér hvernig á að skilgreina kerfið, og búðu til og samþykktu kostnaðarskýrslur. | Ókeypis, sjálfstýr skref á námsleið | 5.5 klst.  |
 

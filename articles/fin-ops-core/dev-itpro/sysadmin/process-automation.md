@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: c0015b65f1ff00cfce19139cb8aaa248512d070b
-ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
+ms.openlocfilehash: 1a1d152a01e0ebe6a20e2e6b31f12ed7b8deb024
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9114936"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423960"
 ---
 # <a name="process-automation"></a>Sjálfvirkni ferlis
 
@@ -29,6 +29,8 @@ Sjálfvirkni ferlis býður upp á einfalda áætlanagerð fyrir ferla sem runu�
 ## <a name="administration"></a>Stjórnun
 
 Síða stjórnunarmiðstöðvar fyrir alla sjálfvirkni ferla finnst kerfisstjórnunareiningunni undir valmyndinni **Uppsetning**. Þessi síða sýnir alla sjálfvirka ferla (raðir) sem settar eru upp í kerfinu. Hún gerir þér einnig kleift að bæta við nýrri sjálfvirkni fyrir ferla beint af síðunni. Þegar búið er að setja upp röð er hægt að stjórna hverri röð úr þessum lista. Hægt er að breyta allri röðinni, eyða henni, skoða öll tilvik í listayfirliti eða slökkva á röðinni ef gera á hlé á áætlaðri vinnu í einhvern tíma. 
+
+Nota **Bakgrunnsferli** flipann á þessari síðu til að stjórna öllum bakgrunnsferlum sem eru í gangi í umhverfi þínu. Veldu **Breyta** til að gera breytingar á áætlun fyrir hvaða bakgrunnsferli sem er. Þessar breytingar geta falið í sér svefntíma sem mun valda því að ferlið „sofnar“ eða gerir hlé á gangi í tiltekið tímabil á hverjum degi. Veldu **Skoðaðu nýjustu niðurstöður** til að skoða framkvæmdarniðurstöður fyrir hvert bakgrunnsferli.
 
 Öll ferli sem eru óvirk í eiginleikastjórnun birtast ekki þegar eiginleikinn er óvirkur. Þar að auki mun röðunarvél fyrir sjálfvirkni ferlis ekki tímasetja nein tilvik eða bakgrunnsvinnslur fyrir óvirkan eiginleika. Með því að virkja eiginleikann aftur verða öll tímasett tilvik eða bakgrunnsvinnslur í fortíðinni keyrð strax. Sjálfvirk áætlunarvél ferlisins treystir á runuvinnslu kerfisins, **Bókunarvinnsla sjálfvirkniferlis í kerfinu**, keyri. Ekki má breyta eða eiga við verkið á neinum tímapunkti. Ef þetta runuverk er ekki í gangi eða það er í villuástandi skaltu velja **Frumstilla sjálfvirkni ferlisins** til að endurstilla runuvinnuna. Þessi endurstilling tryggir að allar nýjar sjálfvirknir sem gefnar eru út í nýrri útgáfu af forritinu séu frumstilltar. 
 

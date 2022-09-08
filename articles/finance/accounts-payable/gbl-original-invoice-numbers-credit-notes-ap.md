@@ -13,18 +13,18 @@ ms.author: atrukawk
 ms.search.validFrom: 2021-09-23
 ms.dyn365.ops.version: 10.0.20
 ms.search.form: ''
-ms.openlocfilehash: ed07ae9784da3ca721fcb25a9c5a14c4f75f2e59
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 39cf4eb7eef1a83abeb7bd44fa7b2abefee0806e
+ms.sourcegitcommit: 8eb0cafe5ad20be2c4fff684e88d7d3f2249f820
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277371"
+ms.lasthandoff: 09/06/2022
+ms.locfileid: "9409665"
 ---
 # <a name="reference-original-invoices-in-credit-notes-vendor-invoices"></a>Tilvísun í upprunalega reikninga í kreditnótum (reikningar lánardrottins)
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að búa til tilvísun í upprunalegan reikning þegar þú stofnar kreditnótu.
+Í sumum löndum og svæðum er lagaleg krafa um að prentaðar kreditnótur eða skýrslugerð innihaldi tilvísanir í upprunalegu reikningana. Þessi grein lýsir því hvernig á að búa til tilvísun í upprunalegan reikning þegar þú stofnar kreditnótu.
 
 ## <a name="prerequisites"></a>Forkröfur
 
@@ -44,11 +44,17 @@ Virknin sem lýst er í þessari grein á við um eftirfarandi viðskiptaskjöl.
 
 ## <a name="define-a-reference-to-an-original-invoice"></a>Skilgreina tilvísun í upprunalegan reikning
 
+Að skilgreina tilvísun í upprunalegan reikning felur í sér eftirfarandi háþrep skref:
+1. Stofna og bóka reikning lánardrottins.
+2. Búðu til inneignarnótu lánardrottins.
+3. Notaðu kreditreikningsaðgerðina til að tengja reikninginn við kreditnótu.
+4. Bókaðu inneignarnótu.
+
 Notaðu eftirfarandi aðferðir til að skilgreina tilvísun í upprunalegan reikning í tilgreindum tegundum viðskiptaskjala.
 
 ### <a name="vendor-credit-note-purchase-order"></a>Kreditnóta lánardrottins (innkaupapöntun)
 
-1. Farðu í **Viðskiptaskuldir** \> **Innkaupapantanir** \> **Allar innkaupapantanir**.
+1. Farðu í **Viðskiptaskuldir** > **Innkaupapantanir** > **Allar innkaupapantanir**.
 2. Stofnaðu nýja innkaupapöntun eða notaðu fyrirliggjandi pöntun til að stofna kreditnótu.
 3. Á aðgerðasvæðinu, í flipanum **Reikningur**, í flokknum **Kynna**, skal velja **Kreditreikningsfærsla**.
 4. Færðu inn ástæðu leiðréttingar og tilvísunina í upprunalegan reikning.

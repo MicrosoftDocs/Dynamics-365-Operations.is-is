@@ -11,12 +11,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 25ca054df6422370b1e61dff7965189ad90d7fcc
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a4a36d773e0790747c017dca35492af5caf410ab
+ms.sourcegitcommit: 61be5f43c9678e9f12b4a90410876b4a179ac585
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357659"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427077"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Frumstilla Commerce Scale Unit (ský)
 
@@ -39,7 +39,7 @@ Ef þú ert að nota Tier-2 sandkassa eða framleiðsluumhverfi sem er með forr
     - RetailBasic
     - RetaileCommerce - Ef þú ætlar að nota rafræn viðskipti fyrir Dynamics 365 Commerce.
     - RetailGiftCard - Ef þú ætlar að nota gjafakort.
-    - RetailInvent - Ef þú ætlar að nota lager.
+    - RetailInvent - Ef þú ætlar að nota birgðahald.
     - RetailModernPos - Ef þú ætlar að nota sölustað (POS).
     - RetailReplenishment - Ef þú ætlar að nota áfyllingar.
     - RetailScheduler
@@ -73,8 +73,6 @@ Commerce Scale Unit er fáanlegt til dreifingar á eftirfarandi svæðum.
 | EMEA            | Norður-Evrópa        | Almennt tiltækt    |  Engar athugasemdir. |
 | EMEA            | Bretland suður            | Almennt tiltækt |    Engar athugasemdir.                          |
 | EMEA            | Bretland vestur             | Almennt tiltækt |    Engar athugasemdir.                          |
-| Sviss     | Sviss norður   | Takmarkað afkastageta    | Krefst samþykkisferlis. |
-| UAE             | Norður UAE           | Takmarkað afkastageta    | Krefst samþykkisferlis. |
 
 Dreifingargeta á svæðum með takmarkaða getu er mjög takmörkuð. Beiðnir um dreifingu eru metnar í hverju tilviki fyrir sig. Ef þú hefur sannfærandi viðskiptaþörf fyrir dreifingu á svæðum með takmarkaða afkastagetu geturðu lagt fram stuðningsbeiðni um að bætast við biðlistann. Afkastagetusvæði leyfa ekki uppsetningu viðskiptaskalaeiningar eins og er. 
 
@@ -101,7 +99,7 @@ Til að stilla rásirnar þínar til að nota gagnagrunn Commerce Scale Unit ska
 1. Á **Smásölurás** Flýtiflipi, veldu **Bæta við**, og veldu síðan smásölurásina þína í fellilistanum.
 1. Veldu **Bæta við**, og veldu síðan netrásina þína í fellilistanum. 
 
-Þegar þú hefur lokið, farðu til **Verslun og verslun \> Upplýsingatækni í verslun og viðskiptum \> Dreifingaráætlun**, og keyra starf 9999.
+Þegar þú ert búinn skaltu fara á **Verslun og verslun \> Upplýsingatækni í verslun og viðskiptum \> Dreifingaráætlun**, og keyra starf 9999.
 
 > [!NOTE] 
 > Job 9999 samstillir allar nýjar vörur og viðskiptavini við Commerce Scale Unit. Þetta ferli getur tekið langan tíma. Ef rásin verður að vera tiltæk bara fyrir uppsetningu e-verslunarsíðugerðar geturðu keyrt starf 1070 í stað vinnu 9999.
@@ -161,7 +159,7 @@ Flutningsferlið er gagnsætt fyrir rásirnar. Eftir að frumstilling mælieinin
 
 Þú verður að framkvæma eftirfarandi viðbótarskref áður en þú frumstillir Commerce Scale Unit.
 
-- **Lokaðu öllum POS vaktum** - Eftir flutning munu POS notendur ekki geta lokað neinum vöktum sem voru virkar á flutningsferlinu.
+- **Lokaðu öllum POS vaktum** - Eftir flutning geta POS notendur ekki lokað neinum vöktum sem voru virkar á flutningsferlinu.
 - **Staðfestu að öllum P-störfum hafi verið lokið** - Mælt er með því að P-störf til að samstilla færslur í bið hafi lokið áður en CSU er frumstillt.
 - **Skráðu þig út úr öllum POS-tækjum** - POS aðgerðir eru ekki studdar meðan á flutningi stendur.
 - **Innkalla og ógilda allar stöðvaðar færslur í POS** - Frestað viðskipti eru ekki varðveitt sem hluti af frumstillingunni.

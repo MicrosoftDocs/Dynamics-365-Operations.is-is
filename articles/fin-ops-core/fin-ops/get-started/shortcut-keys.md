@@ -2,7 +2,7 @@
 title: Flýtilyklar
 description: Þessi grein veitir yfirlit yfir samsetningar flýtivísana sem þú getur notað þegar þú ert að vinna með fjármála- og rekstrarforrit.
 author: jasongre
-ms.date: 08/26/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357578"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405438"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -87,10 +88,12 @@ Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðm
 | Opna síurúðuna (eða breyttu áherslu milli síunarrúðunnar og aðalskjámyndar ef síunarrúðan er þegar opin) | Alt+M,F eða Ctrl+F3       |
 | Loka síunarglugga (með áherslu í rúðu síunnar)                                                               | Esc                      |
 | Opna ítarlega síun/röðun                                                                                        | Ctrl+Shift+F3            |
+| Notaðu Quick Filter (þegar fókus er í Quick Filter)                                                              | Færa inn                    |
+| Notaðu ristsíuna (þegar fókusinn er í síureitnum í dálkhausnum)                                             | Færa inn                    |
 
 ## <a name="form-shortcuts"></a>Flýtileiðir skjámyndar
 
-| Til að gera þetta                                    | Styðjið á             |
+| Til að gera þetta                                    | Ýta á              |
 |-----------------------------------------------|-------------------|
 | Stofna nýja færslu                           | Alt+N             |
 | Eyða færslu                               | Alt+Del eða Alt+F9 |
@@ -160,9 +163,10 @@ Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðm
 | Til að gera þetta                                                                   | Ýta á                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | Opna tengilinn                                                           | Ctrl+Enter                    |
-| Færa inn núverandi dagsetningu í dagsetningarreitinn.                                       | G                             |
+| Opnaðu tengilinn (þegar fókusinn er á skrifvarinn stjórn)<br><br>**Athugið:** Þessi flýtileið á aðeins við þegar **Staðlaðu lyklaborðssamskipti fyrir samsetta kassa og uppflettisstýringar** eiginleiki er virkur                   | Færa inn    |
+| Færa inn núverandi dagsetningu í dagsetningarreitinn.                                       | D                             |
 | Færa inn núverandi dagsetningu í dagsetningarreitinn.                                       | T                             |
-| Opna uppflettingu, samsettan glugga, dagsetningarval, felliglugga                         | Alt+Niðurör                |
+| Opna uppflettingu, samsettan glugga, dagsetningarval, felliglugga                         | Alt+Niðurör<br><br>Sláðu inn (þegar **Staðlaðu lyklaborðssamskipti fyrir samsetta kassa og uppflettisstýringar** eiginleiki er virkur)                |
 | Loka uppflettingu, samsettum glugga, dagsetningarvali, felliglugga                        | Esc                           |
 | Færa áherslu í uppflettingu (ef uppfletting er þegar opin)                   | Alt+Niðurör                |
 | Opna stækkaða forskoðun stýringarinnar                                          | Alt+Uppör                  |

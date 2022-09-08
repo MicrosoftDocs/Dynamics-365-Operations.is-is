@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
+ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313884"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410451"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 
@@ -33,6 +33,20 @@ ms.locfileid: "9313884"
 > [!NOTE]
 > Ítarlegar upplýsingar um hluti í fjármála- og rekstraröppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/global/axtechrefrep_61). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af fjármála- og rekstrarforritum.
 
+## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.30 útgáfu
+
+### <a name="revenue-recognition"></a>Tekjuskráning
+
+[Tekjuskráning](../../finance/accounts-receivable/revenue-recognition-overview.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Ástæða úreldingar/fjarlægingar** |Skipt út fyrir bætta virkni, [Innheimta áskriftar](../../finance/accounts-receivable/subscription-billing-summary.md)
+| **Skipt út fyrir aðra eiginleika?**   | Já |
+| **Afurðasvæði sem haft er áhrif á** | Forrit |
+| **Dreifingarvalkostur** | Allir |
+| **Staða** | Úrelt: Eftir apríl 2023 mun tekjugreiningaraðgerðin í Dynamics 365 Finance ekki lengur fá stuðning við villuleiðréttingar. Viðskiptavinir verða beðnir um að nota bætta virkni, [Innheimta áskriftar](../../finance/accounts-receivable/subscription-billing-summary.md). Í október 2023 verður tekjugreiningareiginleikinn ekki lengur tiltækur. Viðskiptavinir verða beðnir um að fara yfir í endurbættu reikningskerfi áskriftar.|
+
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.29 útgáfu
 
 ### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Flutningspantanir birgða þar sem skattur er á flutningsverð
@@ -45,7 +59,7 @@ ms.locfileid: "9313884"
 | **Skipt út fyrir aðra eiginleika?**   | Já |
 | **Afurðasvæði sem haft er áhrif á** | Forrit |
 | **Dreifingarvalkostur** | Allir |
-| **Staða** | Úrelt: Eftir apríl 2023, **Tilfærslupantanir á lager sem bera skatt á millifærsluverði** virkni mun ekki lengur fá stuðning með villuleiðréttingum og öryggisleiðréttingum. Viðskiptavinir verða beðnir um að nota bætta virkni, [Pantanir á lagerflutningi fyrir Indland](../../finance/localizations/apac-ind-stock-transfer.md). Eftir október 2023, **Tilfærslupantanir á lager sem bera skatt á millifærsluverði** virkni verður ekki lengur tiltæk og viðskiptavinir verða beðnir um að fara yfir í bætta virkni. |
+| **Staða** | Úrelt: Eftir apríl 2023, **Tilfærslupantanir á birgðaflutningi sem hafa skatt á millifærsluverði** virkni mun ekki lengur fá stuðning með villuleiðréttingum og öryggisleiðréttingum. Viðskiptavinir verða beðnir um að nota bætta virkni, [Pantanir á lagerflutningi fyrir Indland](../../finance/localizations/apac-ind-stock-transfer.md). Eftir október 2023, **Tilfærslupantanir á birgðaflutningi sem hafa skatt á millifærsluverði** virkni verður ekki lengur tiltæk og viðskiptavinir verða beðnir um að fara yfir í bætta virkni. |
 
 ### <a name="bank-statement-import-and-export-of-positive-pay-file"></a>Bankayfirlit inn- og útflutningur á jákvæðum launaskrá
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306319"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423570"
 ---
 # <a name="configure-inventory-visibility"></a>Skilgreina Inventory Visibility
 
@@ -47,7 +47,7 @@ ms.locfileid: "9306319"
 
 ## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Virkja eiginleika birgðasýnileika í Power Apps eiginleikastjórnun
 
-Innbót birgðasýnileika bætir ýmsum nýjum eiginleika við Power Apps uppsetninguna þína. Sjálfgefið er slökkt á þessum eiginleikum. Til að nota þá skaltu opna **Stillingar** síðu og síðan á **Eiginleikastjórnun** flipanum, kveiktu á eftirfarandi eiginleikum eftir þörfum.
+Innbót birgðasýnileika bætir ýmsum nýjum eiginleika við Power Apps uppsetninguna þína. Sjálfgefið er slökkt á þessum eiginleikum. Til að nota þá skaltu opna **Stillingar** síðu og síðan á **Eiginleikastjórnun** flipann, kveiktu á eftirfarandi eiginleikum eftir þörfum.
 
 | Heiti eiginleikastjórnunar | Lýsing |
 |---|---|
@@ -303,13 +303,13 @@ Lausnin inniheldur þessa skiptingarstillingu sjálfgefið. Þess vegna, *þú �
 
 Oftast verður fyrirspurn um lagerbirgðir ekki eingöngu á hæsta stigi „samtölu“. Í staðinn gætirðu líka viljað sjá niðurstöður sem eru teknar saman út frá birgðavíddum.
 
-Birgðavíddir bjóða upp á sveigjanleika með því að leyfa þér að setja upp _atriðaskrár_. Þessar atriðaskrár byggja á vídd eða samsetningu vídda. Atriðaskrá samanstendur af *stilltu númeri*, *vídd* og *stigveldu* eins og er skilgreint í eftirfarandi töflu.
+Birgðasýnileiki veitir sveigjanleika með því að leyfa þér að setja upp _vísitölur_ til að bæta árangur fyrirspurna þinna. Þessar atriðaskrár byggja á vídd eða samsetningu vídda. Atriðaskrá samanstendur af *stilltu númeri*, *vídd* og *stigveldu* eins og er skilgreint í eftirfarandi töflu.
 
 | Nafn | lýsing |
 |---|---|
 | Stilla númer | Víddir sem tilheyra sama safni (atriðaskrá) verða flokkaðar saman og þeim verður úthlutað sama stillta númerinu. |
 | Vídd | Grunnvíddir sem niðurstaða fyrirspurnar er lögð saman á. |
-| Stigveldi | Stigveldið er notað til að skilgreina studdar víddarsamsetningar sem hægt er að senda fyrirspurn á. Til dæmis er sett um víddasamstæða sem er með stigveldisröðina `(ColorId, SizeId, StyleId)`. Í þessu tilfelli styður kerfið fyrirspurnir um fjórar víddarsamsetningar. Fyrsta samsetningin er tóm, önnur er `(ColorId)`, þriðja er `(ColorId, SizeId)` og fjórða er `(ColorId, SizeId, StyleId)`. Aðrar samsetningar eru ekki studdar. Frekari upplýsingar er að finna í dæminu sem fylgir. |
+| Stigveldi | Stigveldið gerir þér kleift að auka afköst tiltekinna samsetninga víddar þegar þau eru notuð í færibreytum síu og hópa eftir fyrirspurnum. Til dæmis, ef þú setur upp víddarmengi með stigveldisröð af`(ColorId, SizeId, StyleId)`, þá getur kerfið afgreitt fyrirspurnir sem tengjast fjórvíddarsamsetningum hraðar. Fyrsta samsetningin er tóm, önnur er `(ColorId)`, þriðja er `(ColorId, SizeId)` og fjórða er `(ColorId, SizeId, StyleId)`. Aðrar samsetningar verða ekki hraðar. Síur eru ekki takmarkaðar af röð en verða að vera innan þessara stærða ef þú vilt bæta árangur þeirra. Frekari upplýsingar er að finna í dæminu sem fylgir. |
 
 Til að setja upp atriðaskrá afurðastigveldis skal fylgja þessum skrefum.
 
@@ -319,14 +319,13 @@ Til að setja upp atriðaskrá afurðastigveldis skal fylgja þessum skrefum.
 1. Listi yfir atriðaskrár er sjálfgefið gefinn upp. Til að breyta núverandi atriðaskrá skal velja **Breyta** eða **Bæta við** í hlutanum fyrir viðeigandi atriðaskrá. Til að búa til nýja atriðaskrá skal velja **Nýtt safn atriðaskráar**. Fyrir hverja línu í hverju safni atriðaskráar, í reitnum **Vídd**, skal velja úr listanum yfir grunnvíddir. Gildi fyrir eftirfarandi reiti eru sjálfkrafa búin til:
 
     - **Stilla númer** – Víddir sem tilheyra sama flokknum (atriðaskrá) verða flokkaðar saman og þeim verður úthlutað sama stillta númerinu.
-    - **Stigveldi** – Stigveldið er notað til að skilgreina studdar víddarsamsetningar sem hægt er að senda fyrirspurn á í víddaflokki (atriðaskrá). Til dæmis, ef þú setur upp víddarhóp sem hefur stigveldisröð af *Stíll*, *·*, og *Stærð*, kerfið styður niðurstöðu þriggja fyrirspurnahópa. Fyrsti hópurinn er eingöngu stíll. Annar hópurinn er sambland af stíl og lit. Og þriðji hópurinn er sambland af stíl, lit og stærð. Aðrar samsetningar eru ekki studdar.
+    - **Stigveldi** – Stigveldið eykur frammistöðu tiltekinna samsetninga víddar þegar þær eru notaðar í færibreytum síu og hópa eftir fyrirspurnum.
 
 > [!TIP]
 > Hér eru nokkur ráð til að hafa í huga þegar þú setur upp vísitölustigveldið þitt:
 >
 > - Grunnvíddir sem eru skilgreindar í skiptingarstillingunni ættu ekki að vera skilgreindar í vísitölustillingum. Ef grunnvídd er skilgreind aftur í vísitölustillingunni muntu ekki geta spurt eftir þessari vísitölu.
 > - Ef þú þarft aðeins að spyrjast fyrir um birgðahald sem er safnað saman af öllum víddarsamsetningum skaltu setja upp eina vísitölu sem inniheldur grunnvíddina `Empty`.
-> - Þú verður að hafa að minnsta kosti eitt vísitölustigveldi (til dæmis sem inniheldur grunnvíddina`Empty`), annars mistakast fyrirspurnir með villunni "Ekkert vísitölustigveldi hefur verið stillt."
 
 ### <a name="example"></a>Dæmi
 

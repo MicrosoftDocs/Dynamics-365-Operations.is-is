@@ -2,7 +2,7 @@
 title: Nota birgðastillingar
 description: Þessi grein fjallar um birgðastillingar og lýsir því hvernig eigi að nota þær í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: ''
-ms.openlocfilehash: bc55715b7c74f3b572459dd1aa7d409b7175535b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 49310a44f8b9c636734e04d4eed9445384b55791
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287593"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405321"
 ---
 # <a name="apply-inventory-settings"></a>Nota birgðastillingar
 
@@ -51,12 +51,12 @@ Dynamics 365 Commerce leggur mat á lagerstöðu fyrir afurðir. Upplýsingar um
     > [!IMPORTANT] 
     > Stillingin **Birgðastaða fyrir mörg vöruhús** er í boði frá og með Commerce-útgáfu 10.0.19. Ef verið er að uppfæra úr eldri útgáfu af Commerce verður að uppfæra appsettings.json-skrána handvirkt. Leiðbeiningar er að finna í [Uppfærslur á SDK og einingasafni](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Birgðastillingar fyrir listasíður afurða** – Þessi stilling skilgreinir hvernig vörur sem eru ekki til á lager eru sýndar í afurðalistum sem eru settir fram eftir vörusafns- og leitarniðurstöðueiningu. Tiltæk gildi eru **Sýna í röð með öðrum vörum**, **Fela vörur á listanum sem ekki eru til á lager** og **Sýna vörur sem eru ekki til á lager neðst á listanum**. Til að nota þessa stillingu þarf fyrst að skilgreina nokkrar stillingar skilyrða í Commerce Headquarters. Frekari upplýsingar er að finna í [Virkja birgðavitneskju fyrir einingu leitarniðurstaðna](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
+- **Birgðastillingar fyrir listasíður afurða** – Þessi stilling skilgreinir hvernig vörur sem eru ekki til á lager eru sýndar í afurðalistum sem eru settir fram eftir vörusafns- og leitarniðurstöðueiningu. Tiltæk gildi eru **Sýna í röð með öðrum vörum**, **Fela vörur á listanum sem ekki eru til á lager** og **Sýna vörur sem eru ekki til á lager neðst á listanum**. Til að nota þessa stillingu þarf fyrst að skilgreina nokkrar stillingar skilyrða í Commerce Headquarters. Fyrir frekari upplýsingar, sjá [Birgðameðvituð vöruskráning](inventory-aware-product-listing.md).
 
     > [!IMPORTANT] 
     > Stillingin **Birgðastillingar fyrir síður afurðalista** er tiltæk frá og með Commerce-útgáfu 10.0.20. Ef verið er að uppfæra úr eldri útgáfu af Commerce verður að uppfæra appsettings.json-skrána handvirkt. Leiðbeiningar er að finna í [Uppfærslur á SDK og einingasafni](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Birgðasvið** – Þessi stilling skilgreinir birgðasviðin sem skilaboð eru sýnd fyrir í einingum svæðis. Það gildir aðeins ef annaðhvort gildið **Samtals tiltækt** eða gildið **Efnislegt magn tiltækt** er valið fyrir stillinguna **Birgðastaða byggist á**. Tiltæk gildi eru **Allt**, **Litlar birgðir og ekki til á lager** og **Ekki til á lager**.
+- **Birgðasvið** – Þessi stilling skilgreinir birgðasviðsskilaboðin sem eru sýnd á vefeiningum. Það gildir aðeins ef annaðhvort gildið **Samtals tiltækt** eða gildið **Efnislegt magn tiltækt** er valið fyrir stillinguna **Birgðastaða byggist á**. Tiltæk gildi eru **Allt**, **Litlar birgðir og ekki til á lager** og **Ekki til á lager**.
 
     - Þegar **Allt** er valið verða skilaboð fyrir öll birgðasvið, frá á lager („Til á lager“ skilaboð) til ekki til á lager („Ekki til á lager“ skilaboð) sýnd.
     - Þegar **Litlar birgðir og ekki til á lager** er valið verða skilaboð fyrir öll birgðasvið, nema á lager („Til á lager“ skilaboð) sýnd.
