@@ -12,6 +12,8 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.30 (nóvember)
+                  href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29 (október)
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (ágúst)
@@ -1134,10 +1136,12 @@
                   items:
                     - name: Dreifing á fjárhagsupphæðum
                       href: accounts-payable/accounting-distributions.md
-                    - name: Flutningur undirbókar í Fjárhag
+                    - name: Flutningur undirbókar í fjárhag
                       href: general-ledger/subledger-transfer.md
                     - name: Skoðun bókhaldsuppruna
                       href: accounts-payable/accounting-source-explorer.md
+                    - name: Skjöl sem bíða bókhalds
+                      href: general-ledger/documents-pending-accounting.md
             - name: Skýrslur og fyrirspurnir
               items:
                 - name: Skoðun færslubókarfærslna

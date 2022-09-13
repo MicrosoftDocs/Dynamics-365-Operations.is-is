@@ -12,6 +12,8 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.30 (nóvember 2022)
+                  href: get-started/whats-new-commerce-10-0-30.md
                 - name: Commerce 10.0.29 (október 2022)
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (júlí 2022)
@@ -702,18 +704,16 @@
                   href: optimal-combination-overlapping-discounts.md
                 - name: Skilgreining afslátta fyrir tiltekna rás
                   href: define-channel-specific-discounts.md
-                - name: Valkostir til að koma í veg fyrir afslætti á smásöluafurðir
-                  href: prevent-discounts.md
                 - name: Afslættir eftir greiðslumáta
                   href: tender_based_discounts.md
                 - name: Sendingarafsláttur
                   href: shipping-discount.md
                 - name: Skilgreina gjöf með innkaupatilboðum
                   href: gift-with-purchase.md
-                - name: Setja upp afsláttarmiða
-                  href: retail-coupons.md
-                - name: Birta afslátt á sölustað
-                  href: discounts-pos.md
+                - name: Afsláttarmiðar
+                  href: coupons.md
+                - name: Verðstillingar
+                  href: price-settings.md
                 - name: Verðskýrslur
                   href: price-report.md
                 - name: Búa til viðskiptasamninga fyrir tilgreindar rásir
@@ -800,6 +800,8 @@
                       href: calculated-inventory-retail-channels.md
                     - name: Birgðauppfletting á sölustað
                       href: pos-inventory-lookup-operation.md
+                    - name: Afurðaskráning með tilliti til birgða
+                      href: inventory-aware-product-listing.md
                 - name: Innkaupapantanir
                   items:
                     - name: Yfirlit yfir innkaupapöntun

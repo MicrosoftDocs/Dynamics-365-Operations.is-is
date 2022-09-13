@@ -3413,8 +3413,6 @@
                       href: warehousing/packing-work.md
                     - name: Setja upp endurúthlutun fyrir stutta vörutiltekt
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: Hætta við vöruhúsavinnu vegna frábrigðameðhöndlunar
-                      href: warehousing/cancel-warehouse-work.md
                     - name: Kerfisstýrð vinnuröð
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Flokkun tiltektarlínu
@@ -3431,6 +3429,10 @@
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: Myndræn framsetning vinnuálags á útleið
                       href: warehousing/outbound-workload-visualization.md
+                    - name: Vinna handvirkt úr sölu og undantekningum á tiltekt í flutningslínu
+                      href: warehousing/manual-order-line-picking-exception-handling.md
+                    - name: Hætta við vöruhúsavinnu vegna frábrigðameðhöndlunar
+                      href: warehousing/cancel-warehouse-work.md
                 - name: Áfylling
                   items:
                     - name: Yfirlit áfyllingar
